@@ -339,14 +339,25 @@ def collect_tweets(
     return tweets, users
 
 
-def fetch_thread_urls(
-    conversation_id: str,
-    author_id: str | None,
+THREAD_BATCH_SIZE = 10
+
+
+def fetch_thread_urls_batch(
+    conv_authors: list[tuple[str, str | None]],
     tokens: TokenProvider,
     users: dict[str, dict[str, Any]],
-) -> list[str]:
+) -> dict[str, list[str]]:
+    """Fetch thread URLs for multiple conversations in one search call.
+
+    Builds a single OR-joined query (`conversation_id:A OR conversation_id:B ...`)
+    so N conversations cost 1 API call instead of N. Caller is responsible for
+    chunking to keep the query under the search-recent query length limit.
+    """
+    if not conv_authors:
+        return {}
+    query = " OR ".join(f"conversation_id:{cid}" for cid, _ in conv_authors)
     params = {
-        "query": f"conversation_id:{conversation_id}",
+        "query": query,
         "max_results": 100,
         "tweet.fields": TWEET_FIELDS,
         "expansions": EXPANSIONS,
@@ -355,21 +366,27 @@ def fetch_thread_urls(
     try:
         payload = api_get("/tweets/search/recent", params, tokens)
     except RuntimeError as e:
-        print(f"::warning::Thread URL fetch skipped for {conversation_id}: {e}", file=sys.stderr)
-        return []
+        ids = ",".join(cid for cid, _ in conv_authors)
+        print(f"::warning::Batch thread fetch skipped ({ids}): {e}", file=sys.stderr)
+        return {}
     for user in payload.get("includes", {}).get("users", []):
         users[user["id"]] = user
-    urls: list[str] = []
-    seen: set[str] = set()
+    author_by_conv = {cid: aid for cid, aid in conv_authors}
+    urls_by_conv: dict[str, list[str]] = {cid: [] for cid, _ in conv_authors}
+    seen_by_conv: dict[str, set[str]] = {cid: set() for cid, _ in conv_authors}
     for tweet in payload.get("data") or []:
-        if author_id and tweet.get("author_id") != author_id:
+        cid = tweet.get("conversation_id")
+        if cid not in urls_by_conv:
+            continue
+        expected_author = author_by_conv.get(cid)
+        if expected_author and tweet.get("author_id") != expected_author:
             continue
         status_url = tweet_url(tweet["id"], users, tweet.get("author_id"))
         for url in [status_url, *extract_urls(tweet), *extract_article_urls(tweet)]:
-            if url not in seen:
-                seen.add(url)
-                urls.append(url)
-    return urls
+            if url not in seen_by_conv[cid]:
+                seen_by_conv[cid].add(url)
+                urls_by_conv[cid].append(url)
+    return urls_by_conv
 
 
 def item_from_tweet(
@@ -478,18 +495,25 @@ def update_thread_urls(
     max_threads: int,
 ) -> dict[str, list[str]]:
     threads = dict(existing_threads)
-    fetched = 0
+    pending: list[tuple[str, str | None]] = []
+    seen_conv: set[str] = set()
     for item in items:
         conv_id = item.get("conversation_id")
-        if not conv_id:
+        if not conv_id or conv_id in seen_conv:
             continue
-        if fetched >= max_threads:
-            break
+        seen_conv.add(conv_id)
+        if conv_id in threads:
+            continue
         author_id = (item.get("author") or {}).get("id")
-        urls = fetch_thread_urls(conv_id, author_id, tokens, users)
-        if urls:
-            threads[conv_id] = urls
-        fetched += 1
+        pending.append((conv_id, author_id))
+        if len(pending) >= max_threads:
+            break
+    for start in range(0, len(pending), THREAD_BATCH_SIZE):
+        chunk = pending[start : start + THREAD_BATCH_SIZE]
+        result = fetch_thread_urls_batch(chunk, tokens, users)
+        for cid, urls in result.items():
+            if urls:
+                threads[cid] = urls
         time.sleep(0.2)
     return threads
 
