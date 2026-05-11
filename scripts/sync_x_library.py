@@ -293,8 +293,14 @@ def clean_text(tweet: dict[str, Any]) -> str:
     for item in (tweet.get("entities") or {}).get("urls") or []:
         short = item.get("url")
         expanded = item.get("expanded_url") or ""
-        if short and ("pic.x.com" in expanded or "pic.twitter.com" in expanded):
+        if not short:
+            continue
+        if "pic.x.com" in expanded or "pic.twitter.com" in expanded:
             text = text.replace(short, "").strip()
+            continue
+        real = item.get("unwound_url") or expanded
+        if real:
+            text = text.replace(short, real)
     return text
 
 
