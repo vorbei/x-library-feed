@@ -46,13 +46,15 @@ TWEET_FIELDS = ",".join(
         "text",
         "entities",
         "article",
+        "attachments",
         "conversation_id",
         "referenced_tweets",
         "public_metrics",
     ]
 )
-EXPANSIONS = "author_id"
+EXPANSIONS = "author_id,attachments.media_keys"
 USER_FIELDS = "username,name"
+MEDIA_FIELDS = "media_key,type,url,preview_image_url,width,height,alt_text"
 
 
 def utc_now() -> datetime:
@@ -80,15 +82,12 @@ def write_json(path: Path, data: dict[str, Any]) -> None:
 class TokenProvider:
     def __init__(self, auth_mode: str = "auto", token_suffix: str = "") -> None:
         self.auth_mode = auth_mode
-        self.token_suffix = token_suffix
         suffix = f"_{token_suffix}" if token_suffix else ""
-        self.env_suffix = suffix
         self.access_token = os.environ.get(f"X_USER_ACCESS_TOKEN{suffix}", "").strip()
         self.refresh_token = os.environ.get(f"X_REFRESH_TOKEN{suffix}", "").strip()
         self.client_id = os.environ.get(f"X_CLIENT_ID{suffix}", "").strip()
         self.client_secret = os.environ.get(f"X_CLIENT_SECRET{suffix}", "").strip()
         if token_suffix and not self.access_token and not self.refresh_token:
-            self.env_suffix = ""
             self.access_token = os.environ.get("X_USER_ACCESS_TOKEN", "").strip()
             self.refresh_token = os.environ.get("X_REFRESH_TOKEN", "").strip()
             self.client_id = os.environ.get("X_CLIENT_ID", "").strip()
@@ -141,23 +140,11 @@ class TokenProvider:
 
         new_refresh = payload.get("refresh_token")
         if new_refresh and new_refresh != self.refresh_token:
-            state_file = os.environ.get("X_TOKEN_STATE_FILE", "").strip()
-            secret_key = f"X_REFRESH_TOKEN{self.env_suffix}"
-            if state_file:
-                with open(state_file, "a", encoding="utf-8") as f:
-                    f.write(f"{secret_key}={new_refresh}\n")
-                print(
-                    f"::notice::Rotated {secret_key}; queued for secret update.",
-                    file=sys.stderr,
-                )
-            else:
-                print(
-                    f"::warning::X returned a rotated refresh token for {secret_key}. "
-                    "Update the GH secret manually, or set X_TOKEN_STATE_FILE so a "
-                    "post-step can persist it.",
-                    file=sys.stderr,
-                )
-            self.refresh_token = new_refresh
+            print(
+                "::warning::X returned a rotated refresh token. Update the "
+                "X_REFRESH_TOKEN repository secret if later runs start failing.",
+                file=sys.stderr,
+            )
         token = payload.get("access_token")
         if not token:
             raise SystemExit(f"X token refresh returned no access_token: {payload}")
@@ -308,14 +295,8 @@ def clean_text(tweet: dict[str, Any]) -> str:
     for item in (tweet.get("entities") or {}).get("urls") or []:
         short = item.get("url")
         expanded = item.get("expanded_url") or ""
-        if not short:
-            continue
-        if "pic.x.com" in expanded or "pic.twitter.com" in expanded:
+        if short and ("pic.x.com" in expanded or "pic.twitter.com" in expanded):
             text = text.replace(short, "").strip()
-            continue
-        real = item.get("unwound_url") or expanded
-        if real:
-            text = text.replace(short, real)
     return text
 
 
@@ -335,16 +316,24 @@ def collect_tweets(
             "tweet.fields": TWEET_FIELDS,
             "expansions": EXPANSIONS,
             "user.fields": USER_FIELDS,
+            "media.fields": MEDIA_FIELDS,
         }
         if pagination_token:
             params["pagination_token"] = pagination_token
         payload = api_get(endpoint.format(user_id=user_id), params, tokens)
         for user in payload.get("includes", {}).get("users", []):
             users[user["id"]] = user
+        media_map = {
+            media["media_key"]: media
+            for media in payload.get("includes", {}).get("media", [])
+            if media.get("media_key")
+        }
         batch = payload.get("data") or []
         for index, tweet in enumerate(batch):
             tweet["_source"] = source
             tweet["_source_rank"] = (page - 1) * 100 + index
+            media_keys = (tweet.get("attachments") or {}).get("media_keys") or []
+            tweet["_media"] = [media_map[key] for key in media_keys if key in media_map]
             tweets.append(tweet)
         next_token = payload.get("meta", {}).get("next_token")
         if not next_token:
@@ -354,54 +343,75 @@ def collect_tweets(
     return tweets, users
 
 
-THREAD_BATCH_SIZE = 10
-
-
-def fetch_thread_urls_batch(
-    conv_authors: list[tuple[str, str | None]],
+def fetch_thread_urls(
+    conversation_id: str,
+    author_id: str | None,
     tokens: TokenProvider,
     users: dict[str, dict[str, Any]],
-) -> dict[str, list[str]]:
-    """Fetch thread URLs for multiple conversations in one search call.
-
-    Builds a single OR-joined query (`conversation_id:A OR conversation_id:B ...`)
-    so N conversations cost 1 API call instead of N. Caller is responsible for
-    chunking to keep the query under the search-recent query length limit.
-    """
-    if not conv_authors:
-        return {}
-    query = " OR ".join(f"conversation_id:{cid}" for cid, _ in conv_authors)
+) -> list[str]:
     params = {
-        "query": query,
+        "query": f"conversation_id:{conversation_id}",
         "max_results": 100,
         "tweet.fields": TWEET_FIELDS,
         "expansions": EXPANSIONS,
         "user.fields": USER_FIELDS,
+        "media.fields": MEDIA_FIELDS,
     }
     try:
         payload = api_get("/tweets/search/recent", params, tokens)
     except RuntimeError as e:
-        ids = ",".join(cid for cid, _ in conv_authors)
-        print(f"::warning::Batch thread fetch skipped ({ids}): {e}", file=sys.stderr)
-        return {}
+        print(f"::warning::Thread URL fetch skipped for {conversation_id}: {e}", file=sys.stderr)
+        return []
     for user in payload.get("includes", {}).get("users", []):
         users[user["id"]] = user
-    author_by_conv = {cid: aid for cid, aid in conv_authors}
-    urls_by_conv: dict[str, list[str]] = {cid: [] for cid, _ in conv_authors}
-    seen_by_conv: dict[str, set[str]] = {cid: set() for cid, _ in conv_authors}
+    media_map = {
+        media["media_key"]: media
+        for media in payload.get("includes", {}).get("media", [])
+        if media.get("media_key")
+    }
+    urls: list[str] = []
+    seen: set[str] = set()
     for tweet in payload.get("data") or []:
-        cid = tweet.get("conversation_id")
-        if cid not in urls_by_conv:
+        if author_id and tweet.get("author_id") != author_id:
             continue
-        expected_author = author_by_conv.get(cid)
-        if expected_author and tweet.get("author_id") != expected_author:
-            continue
+        media_keys = (tweet.get("attachments") or {}).get("media_keys") or []
+        tweet["_media"] = [media_map[key] for key in media_keys if key in media_map]
         status_url = tweet_url(tweet["id"], users, tweet.get("author_id"))
-        for url in [status_url, *extract_urls(tweet), *extract_article_urls(tweet)]:
-            if url not in seen_by_conv[cid]:
-                seen_by_conv[cid].add(url)
-                urls_by_conv[cid].append(url)
-    return urls_by_conv
+        for url in [status_url, *extract_urls(tweet), *extract_article_urls(tweet), *media_urls(tweet)]:
+            if url not in seen:
+                seen.add(url)
+                urls.append(url)
+    return urls
+
+
+def media_entries(tweet: dict[str, Any]) -> list[dict[str, Any]]:
+    entries = []
+    for media in tweet.get("_media") or []:
+        url = media.get("url") or media.get("preview_image_url")
+        if not url:
+            continue
+        entries.append(
+            {
+                "type": media.get("type"),
+                "url": url,
+                "preview_url": media.get("preview_image_url"),
+                "width": media.get("width"),
+                "height": media.get("height"),
+                "alt_text": media.get("alt_text", ""),
+            }
+        )
+    return entries
+
+
+def media_urls(tweet: dict[str, Any]) -> list[str]:
+    urls = []
+    seen: set[str] = set()
+    for media in media_entries(tweet):
+        url = media.get("url")
+        if url and url not in seen:
+            seen.add(url)
+            urls.append(url)
+    return urls
 
 
 def item_from_tweet(
@@ -439,6 +449,8 @@ def item_from_tweet(
         },
         "text": clean_text(tweet),
         "primary_urls": primary_urls,
+        "media": media_entries(tweet),
+        "image_urls": media_urls(tweet),
         "article_title": article.get("title"),
         "article_url": article_url,
         "conversation_id": tweet.get("conversation_id"),
@@ -486,6 +498,15 @@ def merge_items(
                 seen_urls.add(url)
                 merged_urls.append(url)
         current["primary_urls"] = merged_urls
+        merged_media = []
+        seen_media_urls: set[str] = set()
+        for media in [*(current.get("media") or []), *incoming.get("media", [])]:
+            url = media.get("url")
+            if url and url not in seen_media_urls:
+                seen_media_urls.add(url)
+                merged_media.append(media)
+        current["media"] = merged_media
+        current["image_urls"] = [media["url"] for media in merged_media if media.get("url")]
 
     for item in by_id.values():
         sources = list(item.get("sources") or [])
@@ -495,11 +516,11 @@ def merge_items(
             sources = [source for source in sources if source != "favorite"]
         item["sources"] = sorted(set(sources))
 
-    def sort_key(item: dict[str, Any]) -> tuple[str, int, str]:
+    def sort_key(item: dict[str, Any]) -> tuple[int, str, str]:
         rank = fetched_order.get(item.get("id", ""), 999999)
-        return (item.get("first_seen_at", ""), -rank, item.get("created_at", ""))
+        return (rank, item.get("first_seen_at", ""), item.get("created_at", ""))
 
-    return sorted(by_id.values(), key=sort_key, reverse=True)
+    return sorted(by_id.values(), key=sort_key, reverse=False)
 
 
 def update_thread_urls(
@@ -510,25 +531,18 @@ def update_thread_urls(
     max_threads: int,
 ) -> dict[str, list[str]]:
     threads = dict(existing_threads)
-    pending: list[tuple[str, str | None]] = []
-    seen_conv: set[str] = set()
+    fetched = 0
     for item in items:
         conv_id = item.get("conversation_id")
-        if not conv_id or conv_id in seen_conv:
+        if not conv_id:
             continue
-        seen_conv.add(conv_id)
-        if conv_id in threads:
-            continue
-        author_id = (item.get("author") or {}).get("id")
-        pending.append((conv_id, author_id))
-        if len(pending) >= max_threads:
+        if fetched >= max_threads:
             break
-    for start in range(0, len(pending), THREAD_BATCH_SIZE):
-        chunk = pending[start : start + THREAD_BATCH_SIZE]
-        result = fetch_thread_urls_batch(chunk, tokens, users)
-        for cid, urls in result.items():
-            if urls:
-                threads[cid] = urls
+        author_id = (item.get("author") or {}).get("id")
+        urls = fetch_thread_urls(conv_id, author_id, tokens, users)
+        if urls:
+            threads[conv_id] = urls
+        fetched += 1
         time.sleep(0.2)
     return threads
 
@@ -589,6 +603,15 @@ def render_markdown(store: dict[str, Any]) -> str:
             lines.append(f"- Tweet created: {created}")
         lines.append(f"- First seen: {item.get('first_seen_at', '')}")
         write_link_list(lines, item.get("primary_urls") or [])
+        media = item.get("media") or []
+        if media:
+            lines.append("- Media URLs:")
+            for media_item in media:
+                url = media_item.get("url")
+                if not url:
+                    continue
+                label = media_item.get("alt_text") or media_item.get("type") or label_for_url(url)
+                lines.append(f"  - [{label}]({url})")
 
         thread_urls = threads.get(item.get("conversation_id") or "") or []
         if thread_urls:
@@ -648,7 +671,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
 
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0">',
+        '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
         "  <channel>",
         "    <title>X Bookmarks + Favorites</title>",
         f"    <link>{escape(markdown_url)}</link>",
@@ -676,6 +699,13 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
         if primary_urls:
             description_lines.append("Primary URLs:")
             description_lines.extend(f"- {url}" for url in primary_urls)
+        image_urls = item.get("image_urls") or []
+        if image_urls:
+            description_lines.append("Image URLs:")
+            description_lines.extend(f"- {url}" for url in image_urls)
+        media_xml = []
+        for url in image_urls[:4]:
+            media_xml.append(f"      <media:content url=\"{escape(url)}\" medium=\"image\" />")
         lines.extend(
             [
                 "    <item>",
@@ -684,6 +714,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
                 f"      <guid isPermaLink=\"false\">{escape(str(guid))}</guid>",
                 f"      <pubDate>{format_datetime(created, usegmt=True)}</pubDate>",
                 f"      <description>{escape(chr(10).join(description_lines))}</description>",
+                *media_xml,
                 "    </item>",
             ]
         )
