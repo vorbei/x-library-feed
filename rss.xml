@@ -4,9 +4,22 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 08:03:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:18:57 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
+    <item>
+      <title>@landiantech: 迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的...</title>
+      <link>https://x.com/landiantech/status/2053672865158062545</link>
+      <guid isPermaLink="false">2053672865158062545</guid>
+      <pubDate>Mon, 11 May 2026 03:05:41 GMT</pubDate>
+      <description>迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的 #Kiro。
+&gt;
+&gt; 当然现在开放使用也是有前置条件的，亚马逊在 AWS Bedrock 平台为自家开设了账户，所有数据都保存在 AWS，而不是交给 A 社和 OpenAI 处理。 https://x.com/landiantech/status/2053672865158062545/photo/1
+
+Tweet: https://x.com/landiantech/status/2053672865158062545
+Primary URLs:
+- https://x.com/landiantech/status/2053672865158062545/photo/1</description>
+    </item>
     <item>
       <title>@RealHanyaHu: https://x.com/i/article/2053609142984843264</title>
       <link>https://x.com/RealHanyaHu/status/2053619515871863211</link>
@@ -1349,19 +1362,6 @@ Primary URLs:
 Tweet: https://x.com/simonw/status/2000253553949241597
 Primary URLs:
 - https://friendlybit.com/python/writing-justhtml-with-coding-agents/</description>
-    </item>
-    <item>
-      <title>@simonw: JustHTML by @EmilStenstrom is a new Python library (no dependencies) that parses HTML...</title>
-      <link>https://x.com/simonw/status/2000252739058888721</link>
-      <guid isPermaLink="false">2000252739058888721</guid>
-      <pubDate>Sun, 14 Dec 2025 17:13:10 GMT</pubDate>
-      <description>JustHTML by @EmilStenstrom is a new Python library (no dependencies) that parses HTML according to the HTML5 specification and passes the 9,200 test html5lib-tests suite
-&gt;
-&gt; It's 3,000 lines of code mostly written by coding agents over a couple of months https://simonwillison.net/2025/Dec/14/justhtml/
-
-Tweet: https://x.com/simonw/status/2000252739058888721
-Primary URLs:
-- https://simonwillison.net/2025/Dec/14/justhtml/</description>
     </item>
   </channel>
 </rss>
