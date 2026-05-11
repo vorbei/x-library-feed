@@ -1,67 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 10:43:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:56:38 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
     <item>
-      <title>@dingyi: 好看！ https://twitter.com/op7418/status/2053657613460771142</title>
+      <title>@leige88888: 充满人情味的日本 https://t.co/DycEctRS8f</title>
+      <link>https://x.com/leige88888/status/2053469215785652365</link>
+      <guid isPermaLink="false">2053469215785652365</guid>
+      <pubDate>Sun, 10 May 2026 13:36:27 GMT</pubDate>
+      <description>充满人情味的日本 https://t.co/DycEctRS8f
+
+Tweet: https://x.com/leige88888/status/2053469215785652365
+Primary URLs:
+- https://x.com/leige88888/status/2053469215785652365/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png</description>
+      <media:content url="https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png" medium="image" />
+    </item>
+    <item>
+      <title>@opencode: OpenCode Go is currently experiencing issues with DeepSeek models due to an upstream...</title>
+      <link>https://x.com/opencode/status/2052687449508266270</link>
+      <guid isPermaLink="false">2052687449508266270</guid>
+      <pubDate>Fri, 08 May 2026 09:49:59 GMT</pubDate>
+      <description>OpenCode Go is currently experiencing issues with DeepSeek models due to an upstream provider outage.
+&gt;
+&gt; We’re monitoring the situation here: https://t.co/vlVwvnpQbr
+
+Tweet: https://x.com/opencode/status/2052687449508266270
+Primary URLs:
+- https://status.deepseek.com/</description>
+    </item>
+    <item>
+      <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3</title>
+      <link>https://x.com/IceBearMiner/status/2053645573777969252</link>
+      <guid isPermaLink="false">2053645573777969252</guid>
+      <pubDate>Mon, 11 May 2026 01:17:14 GMT</pubDate>
+      <description>确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3
+
+Tweet: https://x.com/IceBearMiner/status/2053645573777969252
+Primary URLs:
+- https://x.com/IceBearMiner/status/2053645573777969252/photo/1
+- https://twitter.com/shachepi/status/2053463461729046817
+Image URLs:
+- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg" medium="image" />
+    </item>
+    <item>
+      <title>@dingyi: 好看！ https://t.co/nobDDUtBv3</title>
       <link>https://x.com/dingyi/status/2053763539203232118</link>
       <guid isPermaLink="false">2053763539203232118</guid>
       <pubDate>Mon, 11 May 2026 09:05:59 GMT</pubDate>
-      <description>好看！ https://twitter.com/op7418/status/2053657613460771142
+      <description>好看！ https://t.co/nobDDUtBv3
 
 Tweet: https://x.com/dingyi/status/2053763539203232118
 Primary URLs:
 - https://twitter.com/op7418/status/2053657613460771142</description>
     </item>
     <item>
-      <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋...</title>
-      <link>https://x.com/IceBearMiner/status/2053645573777969252</link>
-      <guid isPermaLink="false">2053645573777969252</guid>
-      <pubDate>Mon, 11 May 2026 01:17:14 GMT</pubDate>
-      <description>确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://x.com/IceBearMiner/status/2053645573777969252/photo/1 https://twitter.com/shachepi/status/2053463461729046817
-
-Tweet: https://x.com/IceBearMiner/status/2053645573777969252
-Primary URLs:
-- https://x.com/IceBearMiner/status/2053645573777969252/photo/1
-- https://twitter.com/shachepi/status/2053463461729046817</description>
-    </item>
-    <item>
-      <title>@lijigang: 给这个世界的一份答卷: https://github.com/lijigang/ljg-skills</title>
-      <link>https://x.com/lijigang/status/2053772293864857859</link>
-      <guid isPermaLink="false">2053772293864857859</guid>
-      <pubDate>Mon, 11 May 2026 09:40:46 GMT</pubDate>
-      <description>给这个世界的一份答卷:
+      <title>@Aurelien_Gz: pretty insane scroll effect by @azhassan_ (swift ui metal shader) https://t.co/YkPcxQ88nR</title>
+      <link>https://x.com/Aurelien_Gz/status/2053156936552415606</link>
+      <guid isPermaLink="false">2053156936552415606</guid>
+      <pubDate>Sat, 09 May 2026 16:55:34 GMT</pubDate>
+      <description>pretty insane scroll effect by @azhassan_
 &gt;
-&gt; https://github.com/lijigang/ljg-skills
+&gt; (swift ui metal shader)
+&gt;  https://t.co/YkPcxQ88nR
 
-Tweet: https://x.com/lijigang/status/2053772293864857859
+Tweet: https://x.com/Aurelien_Gz/status/2053156936552415606
 Primary URLs:
-- https://github.com/lijigang/ljg-skills</description>
+- https://x.com/azhassan_/status/2018342393410400408/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg" medium="image" />
     </item>
     <item>
-      <title>@landiantech: 迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的...</title>
-      <link>https://x.com/landiantech/status/2053672865158062545</link>
-      <guid isPermaLink="false">2053672865158062545</guid>
-      <pubDate>Mon, 11 May 2026 03:05:41 GMT</pubDate>
-      <description>迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的 #Kiro。
-&gt;
-&gt; 当然现在开放使用也是有前置条件的，亚马逊在 AWS Bedrock 平台为自家开设了账户，所有数据都保存在 AWS，而不是交给 A 社和 OpenAI 处理。 https://x.com/landiantech/status/2053672865158062545/photo/1
+      <title>@hero_ui: Beautiful by default 🚀 https://t.co/LvrMuNv2O0</title>
+      <link>https://x.com/hero_ui/status/2048778515936333847</link>
+      <guid isPermaLink="false">2048778515936333847</guid>
+      <pubDate>Mon, 27 Apr 2026 14:57:17 GMT</pubDate>
+      <description>Beautiful by default 🚀 https://t.co/LvrMuNv2O0
 
-Tweet: https://x.com/landiantech/status/2053672865158062545
+Tweet: https://x.com/hero_ui/status/2048778515936333847
 Primary URLs:
-- https://x.com/landiantech/status/2053672865158062545/photo/1</description>
+- https://twitter.com/dingyi/status/2048760423491764431</description>
     </item>
     <item>
-      <title>@RealHanyaHu: https://x.com/i/article/2053609142984843264</title>
+      <title>@RealHanyaHu: https://t.co/lxHg39FNUt</title>
       <link>https://x.com/RealHanyaHu/status/2053619515871863211</link>
       <guid isPermaLink="false">2053619515871863211</guid>
       <pubDate>Sun, 10 May 2026 23:33:41 GMT</pubDate>
-      <description>https://x.com/i/article/2053609142984843264
+      <description>https://t.co/lxHg39FNUt
 
 Tweet: https://x.com/RealHanyaHu/status/2053619515871863211
 X article: https://x.com/RealHanyaHu/article/2053619515871863211
@@ -69,19 +101,47 @@ Primary URLs:
 - https://x.com/i/article/2053609142984843264</description>
     </item>
     <item>
-      <title>@LipuAIX: 告别“翻译腔”！让 AI 翻译真正“说人话”的终极提示词 受够了 AI 生硬别扭的“翻译腔”？明明意思对了，读起来就是不像中文？...</title>
-      <link>https://x.com/LipuAIX/status/1995865018324377911</link>
-      <guid isPermaLink="false">1995865018324377911</guid>
-      <pubDate>Tue, 02 Dec 2025 14:37:56 GMT</pubDate>
-      <description>告别“翻译腔”！让 AI 翻译真正“说人话”的终极提示词
-&gt; 受够了 AI 生硬别扭的“翻译腔”？明明意思对了，读起来就是不像中文？
-&gt; 我阅读了了翻译大师思果、余光中的书籍，将其“翻译即重写”理论，并结合提示词工程实践，设计了一个全新的「交互式迭代翻译提示词」。
-&gt; 它通过三步工作流（重写 -&amp;gt; 自我诊断 -&amp;gt; https://x.com/LipuAIX/status/1995865018324377911/photo/1 https://twitter.com/LipuAIX/status/1934450296199213381
+      <title>@lijigang: 给这个世界的一份答卷: https://t.co/q9JL7v4nXv</title>
+      <link>https://x.com/lijigang/status/2053772293864857859</link>
+      <guid isPermaLink="false">2053772293864857859</guid>
+      <pubDate>Mon, 11 May 2026 09:40:46 GMT</pubDate>
+      <description>给这个世界的一份答卷:
+&gt;
+&gt; https://t.co/q9JL7v4nXv
 
-Tweet: https://x.com/LipuAIX/status/1995865018324377911
+Tweet: https://x.com/lijigang/status/2053772293864857859
 Primary URLs:
-- https://x.com/LipuAIX/status/1995865018324377911/photo/1
-- https://twitter.com/LipuAIX/status/1934450296199213381</description>
+- https://github.com/lijigang/ljg-skills</description>
+    </item>
+    <item>
+      <title>@aoim33: 人类的本能 本能一 食欲 本能二 性欲 本能三 睡眠欲 本能寺 烧掉了</title>
+      <link>https://x.com/aoim33/status/2052916488672350294</link>
+      <guid isPermaLink="false">2052916488672350294</guid>
+      <pubDate>Sat, 09 May 2026 01:00:06 GMT</pubDate>
+      <description>人类的本能
+&gt;
+&gt; 本能一 食欲
+&gt; 本能二 性欲
+&gt; 本能三 睡眠欲
+&gt; 本能寺 烧掉了
+
+Tweet: https://x.com/aoim33/status/2052916488672350294</description>
+    </item>
+    <item>
+      <title>@jwsaml: Hot take: GPT-5.5 &amp;gt; Opus 4.7 https://t.co/3Pw4wZfJfY</title>
+      <link>https://x.com/jwsaml/status/2047978435629474173</link>
+      <guid isPermaLink="false">2047978435629474173</guid>
+      <pubDate>Sat, 25 Apr 2026 09:58:03 GMT</pubDate>
+      <description>Hot take:
+&gt;
+&gt; GPT-5.5 &amp;gt; Opus 4.7 https://t.co/3Pw4wZfJfY
+
+Tweet: https://x.com/jwsaml/status/2047978435629474173
+Primary URLs:
+- https://x.com/jwsaml/status/2047978435629474173/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg" medium="image" />
     </item>
     <item>
       <title>@vista8: 今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。...</title>
@@ -92,11 +152,67 @@ Primary URLs:
 &gt;
 &gt; 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。
 &gt;
-&gt; 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://x.com/vista8/status/2053464149997634043/photo/1
+&gt; 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://t.co/5ebGyYHMHw
 
 Tweet: https://x.com/vista8/status/2053464149997634043
 Primary URLs:
-- https://x.com/vista8/status/2053464149997634043/photo/1</description>
+- https://x.com/vista8/status/2053464149997634043/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg" medium="image" />
+    </item>
+    <item>
+      <title>@landiantech: 迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的...</title>
+      <link>https://x.com/landiantech/status/2053672865158062545</link>
+      <guid isPermaLink="false">2053672865158062545</guid>
+      <pubDate>Mon, 11 May 2026 03:05:41 GMT</pubDate>
+      <description>迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的 #Kiro。
+&gt;
+&gt; 当然现在开放使用也是有前置条件的，亚马逊在 AWS Bedrock 平台为自家开设了账户，所有数据都保存在 AWS，而不是交给 A 社和 OpenAI 处理。 https://t.co/i3jc67opCd
+
+Tweet: https://x.com/landiantech/status/2053672865158062545
+Primary URLs:
+- https://x.com/landiantech/status/2053672865158062545/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg" medium="image" />
+    </item>
+    <item>
+      <title>@_heyrico: Why hire us for your product design? Because we have a complete product system that...</title>
+      <link>https://x.com/_heyrico/status/2052765030303855070</link>
+      <guid isPermaLink="false">2052765030303855070</guid>
+      <pubDate>Fri, 08 May 2026 14:58:16 GMT</pubDate>
+      <description>Why hire us for your product design?
+&gt;
+&gt; Because we have a complete product system that brings every design we implement to the next level 🚀 https://t.co/TR9vs5TpXH https://t.co/2xLsMieaPc
+
+Tweet: https://x.com/_heyrico/status/2052765030303855070
+Primary URLs:
+- https://x.com/_heyrico/status/2052765030303855070/photo/1
+- https://twitter.com/1332370121071816706/status/2052706098046697956
+Image URLs:
+- https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg
+- https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg
+- https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg
+- https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg" medium="image" />
+    </item>
+    <item>
+      <title>@hongming731: 阿里这篇关于 AI Native 时代组织研发的思考非常值得一读。它在思路一个非常重要的底层问题：过去两千年的组织形态，都是围绕人的局限建立起来的。...</title>
+      <link>https://x.com/hongming731/status/2053314677237846060</link>
+      <guid isPermaLink="false">2053314677237846060</guid>
+      <pubDate>Sun, 10 May 2026 03:22:22 GMT</pubDate>
+      <description>阿里这篇关于 AI Native 时代组织研发的思考非常值得一读。它在思路一个非常重要的底层问题：过去两千年的组织形态，都是围绕人的局限建立起来的。 https://t.co/e6RORaxtCs
+
+Tweet: https://x.com/hongming731/status/2053314677237846060
+Primary URLs:
+- https://x.com/hongming731/status/2053314677237846060/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg" medium="image" />
     </item>
     <item>
       <title>@jinchenma_ai: 卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！ wx-cli，让 AI 可以自由读取微信消息。 1....</title>
@@ -108,1262 +224,1297 @@ Primary URLs:
 &gt; wx-cli，让 AI 可以自由读取微信消息。
 &gt;
 &gt; 1. 消息随便翻：不用点开微信那个难用的搜索框，直接输入关键词就能搜全库聊天记录，速度快到飞起。
-&gt; 2. https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
+&gt; 2. https://t.co/ilRqey3aMT
 
 Tweet: https://x.com/jinchenma_ai/status/2053039222244962728
 Primary URLs:
-- https://x.com/jinchenma_ai/status/2053039222244962728/photo/1</description>
+- https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg" medium="image" />
     </item>
-    <item>
-      <title>@bibryam: 🌟 Awesome LLM Apps, 85K🌟 https://github.com/Shubhamsaboo/awesome-llm-apps</title>
-      <link>https://x.com/bibryam/status/2005587213145542807</link>
-      <guid isPermaLink="false">2005587213145542807</guid>
-      <pubDate>Mon, 29 Dec 2025 10:30:28 GMT</pubDate>
-      <description>🌟 Awesome LLM Apps, 85K🌟
-&gt; https://github.com/Shubhamsaboo/awesome-llm-apps
-
-Tweet: https://x.com/bibryam/status/2005587213145542807
-Primary URLs:
-- https://github.com/Shubhamsaboo/awesome-llm-apps</description>
-    </item>
-    <item>
-      <title>@iamzhihui: 最近 Claude Skills 越来越火，大家都在聊怎么用它提升效率。 我自己用 Claude Code 很久了，之前最烦的就是面对一大堆...</title>
-      <link>https://x.com/iamzhihui/status/2004854569462100176</link>
-      <guid isPermaLink="false">2004854569462100176</guid>
-      <pubDate>Sat, 27 Dec 2025 09:59:12 GMT</pubDate>
-      <description>最近 Claude Skills 越来越火，大家都在聊怎么用它提升效率。
-&gt;
-&gt; 我自己用 Claude Code 很久了，之前最烦的就是面对一大堆 Skills，不知道哪个靠谱、哪个真正能解决问题。
-&gt;
-&gt; 到处试来试去，不是效果一般就是安装麻烦，浪费时间。
+    <item>
+      <title>@VadimCarazan: the stuff that never gets likes is the stuff that makes the work good color systems....</title>
+      <link>https://x.com/VadimCarazan/status/2052362586654470249</link>
+      <guid isPermaLink="false">2052362586654470249</guid>
+      <pubDate>Thu, 07 May 2026 12:19:06 GMT</pubDate>
+      <description>the stuff that never gets likes is the stuff that makes the work good
 &gt;
-&gt; 所以我把日常高频用、反复验证过的几个 Skills https://twitter.com/780262031899242496/status/2004478327311028335
-
-Tweet: https://x.com/iamzhihui/status/2004854569462100176
-Primary URLs:
-- https://twitter.com/780262031899242496/status/2004478327311028335
-- https://twitter.com/iamzhihui/status/2004478327311028335</description>
-    </item>
-    <item>
-      <title>@LongChenNotes: 这篇内容可能是今年看过最让人释然的学习方法论 你是否经历过买了课、定了计划、然后啥也没学会的死循环，这篇文章适合你看看 Zara Zhang...</title>
-      <link>https://x.com/LongChenNotes/status/2005291430416421135</link>
-      <guid isPermaLink="false">2005291430416421135</guid>
-      <pubDate>Sun, 28 Dec 2025 14:55:08 GMT</pubDate>
-      <description>这篇内容可能是今年看过最让人释然的学习方法论
-&gt;
-&gt; 你是否经历过买了课、定了计划、然后啥也没学会的死循环，这篇文章适合你看看
+&gt; color systems. type scales. pattern logic. grid rules.
 &gt;
-&gt; Zara Zhang 指出，很多人离开学校多年，脑子里还装着学生模式：
-&gt; 从基础开始、系统学习、先学后做。但那套方法是为被强制学习设计的，成年人拿来用，几乎必然失败。 https://twitter.com/zarazhangrui/status/2004554163125141699
+&gt; nobody posts these, but they're why the final work holds together https://t.co/nUlPsTBhJj https://t.co/V8O5k1gS1e
 
-Tweet: https://x.com/LongChenNotes/status/2005291430416421135
+Tweet: https://x.com/VadimCarazan/status/2052362586654470249
 Primary URLs:
-- https://twitter.com/zarazhangrui/status/2004554163125141699</description>
+- https://x.com/VadimCarazan/status/2052362586654470249/photo/1
+- https://twitter.com/VadimCarazan/status/2051679802432610411
+Image URLs:
+- https://pbs.twimg.com/media/HHty1jgXsAIRyod.png
+- https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png
+- https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png
+- https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png</description>
+      <media:content url="https://pbs.twimg.com/media/HHty1jgXsAIRyod.png" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png" medium="image" />
     </item>
     <item>
-      <title>@ozanoz: Well-crafted prompts for AI image generation →...</title>
-      <link>https://x.com/ozanoz/status/2005295840970314181</link>
-      <guid isPermaLink="false">2005295840970314181</guid>
-      <pubDate>Sun, 28 Dec 2025 15:12:39 GMT</pubDate>
-      <description>Well-crafted prompts for AI image generation →
-&gt; https://fountn.design/resource/promptlab-ai-prompt-engineering-resources-for-designers/
-&gt;
-&gt; by @JumboClinton_ https://x.com/ozanoz/status/2005295840970314181/video/1
+      <title>@swarnima_otw: Design guidelines from Bythlon https://t.co/Tj0KjP5j6b</title>
+      <link>https://x.com/swarnima_otw/status/2053004540904091925</link>
+      <guid isPermaLink="false">2053004540904091925</guid>
+      <pubDate>Sat, 09 May 2026 06:50:00 GMT</pubDate>
+      <description>Design guidelines from Bythlon https://t.co/Tj0KjP5j6b
 
-Tweet: https://x.com/ozanoz/status/2005295840970314181
+Tweet: https://x.com/swarnima_otw/status/2053004540904091925
 Primary URLs:
-- https://fountn.design/resource/promptlab-ai-prompt-engineering-resources-for-designers/
-- https://x.com/ozanoz/status/2005295840970314181/video/1</description>
+- https://x.com/swarnima_otw/status/2053004540904091925/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH21wykaUAA8607.jpg
+- https://pbs.twimg.com/media/HH21wylasAAcDPJ.png
+- https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg
+- https://pbs.twimg.com/media/HH21wymbUAA01fG.png</description>
+      <media:content url="https://pbs.twimg.com/media/HH21wykaUAA8607.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH21wylasAAcDPJ.png" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH21wymbUAA01fG.png" medium="image" />
     </item>
     <item>
-      <title>@jefflijun: 稳消费型国家：中国大陆 稳消费型省份：陕西山西宁夏湖北重庆安徽......</title>
-      <link>https://x.com/jefflijun/status/2005320114695225358</link>
-      <guid isPermaLink="false">2005320114695225358</guid>
-      <pubDate>Sun, 28 Dec 2025 16:49:07 GMT</pubDate>
-      <description>稳消费型国家：中国大陆
-&gt; 稳消费型省份：陕西山西宁夏湖北重庆安徽... https://x.com/jefflijun/status/2005320114695225358/photo/1
+      <title>@defileo: https://t.co/tzbujQQRWb</title>
+      <link>https://x.com/defileo/status/2045466421036007527</link>
+      <guid isPermaLink="false">2045466421036007527</guid>
+      <pubDate>Sat, 18 Apr 2026 11:36:12 GMT</pubDate>
+      <description>https://t.co/tzbujQQRWb
 
-Tweet: https://x.com/jefflijun/status/2005320114695225358
+Tweet: https://x.com/defileo/status/2045466421036007527
+X article: https://x.com/defileo/article/2045466421036007527
 Primary URLs:
-- https://x.com/jefflijun/status/2005320114695225358/photo/1</description>
+- https://x.com/i/article/2045262387041730560</description>
     </item>
     <item>
-      <title>@dejavucoder: claude code is having it's cursor moment after karpathy sensei's post. never been a...</title>
-      <link>https://x.com/dejavucoder/status/2005285904420843892</link>
-      <guid isPermaLink="false">2005285904420843892</guid>
-      <pubDate>Sun, 28 Dec 2025 14:33:10 GMT</pubDate>
-      <description>claude code is having it's cursor moment after karpathy sensei's post. never been a better time to try it.
-&gt;
-&gt; my latest blog on how to get the most out of claude code 2.0  and other agents in general is up now. grab a chai and have fun reading!
-&gt;
-&gt; https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/ https://x.com/dejavucoder/status/2005285904420843892/photo/1
+      <title>@prukalpa: https://t.co/CeJOVOAOfs</title>
+      <link>https://x.com/prukalpa/status/2052398453225816187</link>
+      <guid isPermaLink="false">2052398453225816187</guid>
+      <pubDate>Thu, 07 May 2026 14:41:37 GMT</pubDate>
+      <description>https://t.co/CeJOVOAOfs
 
-Tweet: https://x.com/dejavucoder/status/2005285904420843892
+Tweet: https://x.com/prukalpa/status/2052398453225816187
+X article: https://x.com/prukalpa/article/2052398453225816187
 Primary URLs:
-- https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/
-- https://x.com/dejavucoder/status/2005285904420843892/photo/1</description>
+- https://x.com/i/article/2051678358405083140</description>
     </item>
     <item>
-      <title>@manthanguptaa: I spent the last few days prompting Claude to understand how its memory system actually...</title>
-      <link>https://x.com/manthanguptaa/status/2000067845808648266</link>
-      <guid isPermaLink="false">2000067845808648266</guid>
-      <pubDate>Sun, 14 Dec 2025 04:58:28 GMT</pubDate>
-      <description>I spent the last few days prompting Claude to understand how its memory system actually works, and it's completely different than ChatGPT's approach
-&gt;
-&gt; Spoiler alert: There is no vector database used
-&gt;
-&gt; https://manthanguptaa.in/posts/claude_memory/ https://x.com/manthanguptaa/status/2000067845808648266/photo/1
+      <title>@notoro_ai: GPT image プロンプト： https://t.co/7xgCzZqqPU</title>
+      <link>https://x.com/notoro_ai/status/2053082564865528087</link>
+      <guid isPermaLink="false">2053082564865528087</guid>
+      <pubDate>Sat, 09 May 2026 12:00:02 GMT</pubDate>
+      <description>GPT image プロンプト： https://t.co/7xgCzZqqPU
 
-Tweet: https://x.com/manthanguptaa/status/2000067845808648266
+Tweet: https://x.com/notoro_ai/status/2053082564865528087
 Primary URLs:
-- https://manthanguptaa.in/posts/claude_memory/
-- https://x.com/manthanguptaa/status/2000067845808648266/photo/1</description>
+- https://x.com/notoro_ai/status/2053082564865528087/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg
+- https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg
+- https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg
+- https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg" medium="image" />
     </item>
     <item>
-      <title>@bozhou_ai: 蚂蚁开源了一个对AI非常友好的制作信息图的开源项目， https://github.com/antvis/Infographic...</title>
-      <link>https://x.com/bozhou_ai/status/2005230789659939072</link>
-      <guid isPermaLink="false">2005230789659939072</guid>
-      <pubDate>Sun, 28 Dec 2025 10:54:10 GMT</pubDate>
-      <description>蚂蚁开源了一个对AI非常友好的制作信息图的开源项目，
-&gt; https://github.com/antvis/Infographic
-&gt;
-&gt; 内置了接近两百个的信息图模板，并且里面直接有了Prompt模版和http://skills.md文件。
-&gt;
-&gt; 可以非常快速接入claude code 或者我们的工作流，并且基于svg进行生成保证视觉品质与可编辑性 https://x.com/bozhou_ai/status/2005230789659939072/photo/1
+      <title>@bmwmengwei: 今年前4个月中国电动汽车出口增长 68%，锂电池出口增长 43%，风力发电机组出口增长 40%，工业机器人出口增长 30% https://t.co/P2WRIHox6G</title>
+      <link>https://x.com/bmwmengwei/status/2053296999953490172</link>
+      <guid isPermaLink="false">2053296999953490172</guid>
+      <pubDate>Sun, 10 May 2026 02:12:07 GMT</pubDate>
+      <description>今年前4个月中国电动汽车出口增长 68%，锂电池出口增长 43%，风力发电机组出口增长 40%，工业机器人出口增长 30%
+&gt; https://t.co/P2WRIHox6G
 
-Tweet: https://x.com/bozhou_ai/status/2005230789659939072
+Tweet: https://x.com/bmwmengwei/status/2053296999953490172
 Primary URLs:
-- https://github.com/antvis/Infographic
-- http://skills.md
-- https://x.com/bozhou_ai/status/2005230789659939072/photo/1</description>
+- https://www.tmtpost.com/nictation/7981879.html</description>
     </item>
     <item>
-      <title>@mazzeimotion: I'm not going to lie: @rive_app 's new Scripting feature is intimidating. Learning it...</title>
-      <link>https://x.com/mazzeimotion/status/2004957130345120080</link>
-      <guid isPermaLink="false">2004957130345120080</guid>
-      <pubDate>Sat, 27 Dec 2025 16:46:44 GMT</pubDate>
-      <description>I'm not going to lie: @rive_app 's new Scripting feature is intimidating. Learning it has been quite the journey, and I'm looking forward to share it with you soon. https://x.com/Leo_Mazzei_/status/2004957130345120080/video/1
+      <title>@stfnco: https://t.co/YTVHjgkCqD</title>
+      <link>https://x.com/stfnco/status/2044768025786695971</link>
+      <guid isPermaLink="false">2044768025786695971</guid>
+      <pubDate>Thu, 16 Apr 2026 13:21:01 GMT</pubDate>
+      <description>https://t.co/YTVHjgkCqD
 
-Tweet: https://x.com/mazzeimotion/status/2004957130345120080
+Tweet: https://x.com/stfnco/status/2044768025786695971
+X article: https://x.com/stfnco/article/2044768025786695971
 Primary URLs:
-- https://x.com/Leo_Mazzei_/status/2004957130345120080/video/1</description>
+- https://x.com/i/article/2043979081641803776</description>
     </item>
     <item>
-      <title>@bibryam: Scripts I wrote that I use all the time https://evanhahn.com/scripts-i-wrote-that-i-...</title>
-      <link>https://x.com/bibryam/status/2005190482062684313</link>
-      <guid isPermaLink="false">2005190482062684313</guid>
-      <pubDate>Sun, 28 Dec 2025 08:14:00 GMT</pubDate>
-      <description>Scripts I wrote that I use all the time
-&gt; https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/ by Evan Hahn
+      <title>@Av1dlive: https://t.co/UB6BAxHPMJ</title>
+      <link>https://x.com/Av1dlive/status/2052063154423898603</link>
+      <guid isPermaLink="false">2052063154423898603</guid>
+      <pubDate>Wed, 06 May 2026 16:29:16 GMT</pubDate>
+      <description>https://t.co/UB6BAxHPMJ
 
-Tweet: https://x.com/bibryam/status/2005190482062684313
+Tweet: https://x.com/Av1dlive/status/2052063154423898603
+X article: https://x.com/Av1dlive/article/2052063154423898603
 Primary URLs:
-- https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</description>
+- https://x.com/i/article/2051953147686658049
+- https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md
+- https://anthropic.com/engineering/building-c-compiler</description>
     </item>
     <item>
-      <title>@Hesamation: many people don’t know that Claude Code started as a personal side project that spread...</title>
-      <link>https://x.com/Hesamation/status/2005074037748248894</link>
-      <guid isPermaLink="false">2005074037748248894</guid>
-      <pubDate>Sun, 28 Dec 2025 00:31:17 GMT</pubDate>
-      <description>many people don’t know that Claude Code started as a personal side project that spread in the internal Anthropic team like a virus.
-&gt;
-&gt; this is a perfect article on how Claude Code was built, its tech stack, and how it’s being developed. highly recommended:
-&gt;
-&gt; read here https://x.com/Hesamation/status/2005074037748248894/photo/1 https://twitter.com/bcherny/status/2004887829252317325
+      <title>@nakado_biko: とうとう夏の入口に来たって感じ。 https://t.co/3h44V71KUa</title>
+      <link>https://x.com/nakado_biko/status/2052360467738452258</link>
+      <guid isPermaLink="false">2052360467738452258</guid>
+      <pubDate>Thu, 07 May 2026 12:10:41 GMT</pubDate>
+      <description>とうとう夏の入口に来たって感じ。 https://t.co/3h44V71KUa
 
-Tweet: https://x.com/Hesamation/status/2005074037748248894
+Tweet: https://x.com/nakado_biko/status/2052360467738452258
 Primary URLs:
-- https://x.com/Hesamation/status/2005074037748248894/photo/1
-- https://twitter.com/bcherny/status/2004887829252317325</description>
+- https://x.com/nakado_biko/status/2052360467738452258/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg" medium="image" />
     </item>
     <item>
-      <title>@op7418: TRAE 月活破160万！借着数据聊 AI 编程生态 Trae 发布了他们的年度开发者报告。 也可以看作 AI Coding...</title>
-      <link>https://x.com/op7418/status/2004446870358339756</link>
-      <guid isPermaLink="false">2004446870358339756</guid>
-      <pubDate>Fri, 26 Dec 2025 06:59:09 GMT</pubDate>
-      <description>TRAE 月活破160万！借着数据聊 AI 编程生态
+      <title>@steipete: Peekaboo 3.0 is live. Biggest release since 2.0. ⚡ Action-first macOS computer use 👁️...</title>
+      <link>https://x.com/steipete/status/2053114837698249190</link>
+      <guid isPermaLink="false">2053114837698249190</guid>
+      <pubDate>Sat, 09 May 2026 14:08:16 GMT</pubDate>
+      <description>Peekaboo 3.0 is live. Biggest release since 2.0.
 &gt;
-&gt; Trae 发布了他们的年度开发者报告。
+&gt; ⚡ Action-first macOS computer use
+&gt; 👁️ Unified screenshot + UI detection
+&gt; 🧩 Cleaner JSON across CLI + MCP
+&gt; 🛠️ Better snapshots
 &gt;
-&gt; 也可以看作 AI Coding 的一次生态调研，仔细看了一下，找到了一些有意思的数据。
-&gt;
-&gt; TRAE 现在总用户数已经 600 万了，月活 160 万，作为一个相对专业的编程工具，已经相当不错，可能国内第一了。
-&gt;
-&gt; 周活跃用户在 TRAE https://x.com/op7418/status/2004446870358339756/photo/1
+&gt; I started this last year, but the models just weren’t good enough. Now they are. https://t.co/0wvhR0NWOj
 
-Tweet: https://x.com/op7418/status/2004446870358339756
+Tweet: https://x.com/steipete/status/2053114837698249190
 Primary URLs:
-- https://x.com/op7418/status/2004446870358339756/photo/1</description>
+- https://peekaboo.sh</description>
     </item>
     <item>
-      <title>@enesakar: Context7 new architecture — results: - Tokens ↓ 65% - Latency ↓ 38% - Tool calls ↓ 30%...</title>
-      <link>https://x.com/enesakar/status/2004605689445187721</link>
-      <guid isPermaLink="false">2004605689445187721</guid>
-      <pubDate>Fri, 26 Dec 2025 17:30:14 GMT</pubDate>
-      <description>Context7 new architecture — results:
-&gt;
-&gt; - Tokens ↓ 65%
-&gt; - Latency ↓ 38%
-&gt; - Tool calls ↓ 30%
-&gt; - Quality ↑ (slight)
+      <title>@chenchengpro: Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。...</title>
+      <link>https://x.com/chenchengpro/status/2043697811993350611</link>
+      <guid isPermaLink="false">2043697811993350611</guid>
+      <pubDate>Mon, 13 Apr 2026 14:28:23 GMT</pubDate>
+      <description>Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。
 &gt;
-&gt; Try yourself:
-&gt; npx -y @upstash/context7-mcp@1.0.34-canary.5
-&gt;
-&gt; We’ll ship this to prod with an explainer blog post after the holidays. https://x.com/enesakar/status/2004605689445187721/photo/1
+&gt; 简单说就是三层分离：把需要判断的模糊操作推入 markdown 技能文件（Fat Skills），把必须精确执行的确定性逻辑写成代码（Fat Code），框架本身只做最基础的连接（Thin https://t.co/ptiXjl3fkp
 
-Tweet: https://x.com/enesakar/status/2004605689445187721
+Tweet: https://x.com/chenchengpro/status/2043697811993350611
 Primary URLs:
-- https://x.com/enesakar/status/2004605689445187721/photo/1</description>
+- https://twitter.com/garrytan/status/2042925773300908103</description>
     </item>
     <item>
-      <title>@thenickpattison: Opened Pinterest to zone out and the first post was ours. One click turned into a...</title>
-      <link>https://x.com/thenickpattison/status/1993494021977915471</link>
-      <guid isPermaLink="false">1993494021977915471</guid>
-      <pubDate>Wed, 26 Nov 2025 01:36:26 GMT</pubDate>
-      <description>Opened Pinterest to zone out and the first post was ours. One click turned into a rabbit hole of our own projects… none of which I uploaded. Kind of surreal to stumble into. https://x.com/thenickpattison/status/1993494021977915471/video/1
+      <title>@_heyrico: https://t.co/jHy8Z3CJIR</title>
+      <link>https://x.com/_heyrico/status/2052386115488002524</link>
+      <guid isPermaLink="false">2052386115488002524</guid>
+      <pubDate>Thu, 07 May 2026 13:52:36 GMT</pubDate>
+      <description>https://t.co/jHy8Z3CJIR
 
-Tweet: https://x.com/thenickpattison/status/1993494021977915471
+Tweet: https://x.com/_heyrico/status/2052386115488002524
+X article: https://x.com/_heyrico/article/2052386115488002524
 Primary URLs:
-- https://x.com/thenickpattison/status/1993494021977915471/video/1</description>
+- https://x.com/i/article/2052200189595922432</description>
     </item>
     <item>
-      <title>@thenickpattison: Here is my Definition of Quality when building a brand at Primary...</title>
-      <link>https://x.com/thenickpattison/status/2002120329368633495</link>
-      <guid isPermaLink="false">2002120329368633495</guid>
-      <pubDate>Fri, 19 Dec 2025 20:54:18 GMT</pubDate>
-      <description>Here is my Definition of Quality when building a brand at Primary https://x.com/thenickpattison/status/2002120329368633495/photo/1 https://twitter.com/thenickpattison/status/2001757059209904287
+      <title>@emilkowalski: Inheritable taste through skill files https://t.co/VTWOL2VIW0</title>
+      <link>https://x.com/emilkowalski/status/2052400581528916288</link>
+      <guid isPermaLink="false">2052400581528916288</guid>
+      <pubDate>Thu, 07 May 2026 14:50:05 GMT</pubDate>
+      <description>Inheritable taste through skill files https://t.co/VTWOL2VIW0
 
-Tweet: https://x.com/thenickpattison/status/2002120329368633495
+Tweet: https://x.com/emilkowalski/status/2052400581528916288
 Primary URLs:
-- https://x.com/thenickpattison/status/2002120329368633495/photo/1
-- https://twitter.com/thenickpattison/status/2001757059209904287</description>
+- https://x.com/emilkowalski/status/2052400581528916288/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg
+- https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg
+- https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg
+- https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg" medium="image" />
     </item>
     <item>
-      <title>@thenickpattison: We've had a year https://x.com/thenickpattison/status/2004966594909438231/photo/1</title>
-      <link>https://x.com/thenickpattison/status/2004966594909438231</link>
-      <guid isPermaLink="false">2004966594909438231</guid>
-      <pubDate>Sat, 27 Dec 2025 17:24:21 GMT</pubDate>
-      <description>We've had a year https://x.com/thenickpattison/status/2004966594909438231/photo/1
+      <title>@PaulSolt: 🤯 Mythos is NOT as good as Anthropic portrayed. - Non-standard benchmarks - Training on...</title>
+      <link>https://x.com/PaulSolt/status/2042577693359603748</link>
+      <guid isPermaLink="false">2042577693359603748</guid>
+      <pubDate>Fri, 10 Apr 2026 12:17:26 GMT</pubDate>
+      <description>🤯 Mythos is NOT as good as Anthropic portrayed.
+&gt;
+&gt; - Non-standard benchmarks
+&gt; - Training on solution sets
+&gt; - Security concerns are real (but they spent $20k+ to push models to find exploits)
+&gt;
+&gt; Don’t believe all the hype. It’s probably better than Opus, but not as good as it’s being https://t.co/6kmAWdM2zk
 
-Tweet: https://x.com/thenickpattison/status/2004966594909438231
+Tweet: https://x.com/PaulSolt/status/2042577693359603748
 Primary URLs:
-- https://x.com/thenickpattison/status/2004966594909438231/photo/1</description>
+- https://twitter.com/elliotarledge/status/2041602563423051812</description>
     </item>
     <item>
-      <title>@0xInk_: new day, new character design 3D luchador with high texture made on Freepik spaces with...</title>
-      <link>https://x.com/0xInk_/status/2004824767879414250</link>
-      <guid isPermaLink="false">2004824767879414250</guid>
-      <pubDate>Sat, 27 Dec 2025 08:00:47 GMT</pubDate>
-      <description>new day, new character design
-&gt;
-&gt; 3D luchador with high texture made on Freepik spaces
-&gt; with NB pro and Kling 2.6
-&gt;
-&gt; have a nice Saturday https://x.com/0xInk_/status/2004824767879414250/video/1
+      <title>@Xudong07452910: https://t.co/Xoeb1YJ9gv</title>
+      <link>https://x.com/Xudong07452910/status/2051891753821556976</link>
+      <guid isPermaLink="false">2051891753821556976</guid>
+      <pubDate>Wed, 06 May 2026 05:08:11 GMT</pubDate>
+      <description>https://t.co/Xoeb1YJ9gv
 
-Tweet: https://x.com/0xInk_/status/2004824767879414250
+Tweet: https://x.com/Xudong07452910/status/2051891753821556976
+X article: https://x.com/Xudong07452910/article/2051891753821556976
 Primary URLs:
-- https://x.com/0xInk_/status/2004824767879414250/video/1</description>
+- https://x.com/i/article/2051707444305207297
+- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
+- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
+- https://github.com/HKUDS/nanobot
+- https://open.feishu.cn/app
+- https://code.claude.com/docs/en/mcp
+- https://github.com/hxdflying/EvoPaw</description>
     </item>
     <item>
-      <title>@simonw: @menhguin I had it run for several hours for this project:...</title>
-      <link>https://x.com/simonw/status/2005040150875963571</link>
-      <guid isPermaLink="false">2005040150875963571</guid>
-      <pubDate>Sat, 27 Dec 2025 22:16:38 GMT</pubDate>
-      <description>@menhguin I had it run for several hours for this project: https://simonwillison.net/2025/Dec/15/porting-justhtml/
+      <title>@VoidsWork: @OpenAI Here is the link btw https://t.co/uyW0mwnUwQ</title>
+      <link>https://x.com/VoidsWork/status/2052491063986733429</link>
+      <guid isPermaLink="false">2052491063986733429</guid>
+      <pubDate>Thu, 07 May 2026 20:49:37 GMT</pubDate>
+      <description>@OpenAI Here is the link btw
+&gt; https://t.co/uyW0mwnUwQ
 
-Tweet: https://x.com/simonw/status/2005040150875963571
+Tweet: https://x.com/VoidsWork/status/2052491063986733429
 Primary URLs:
-- https://simonwillison.net/2025/Dec/15/porting-justhtml/</description>
+- https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg</description>
     </item>
     <item>
-      <title>@nanshanjukr: 笔记软件开箱：Spatial 设计师 &amp;amp; 开发者: @tbsrnstrm 设计超棒的白板笔记软件，目前 Alpha test...</title>
-      <link>https://x.com/nanshanjukr/status/2004893778700853637</link>
-      <guid isPermaLink="false">2004893778700853637</guid>
-      <pubDate>Sat, 27 Dec 2025 12:35:00 GMT</pubDate>
-      <description>笔记软件开箱：Spatial
-&gt; 设计师 &amp;amp; 开发者: @tbsrnstrm
-&gt; 设计超棒的白板笔记软件，目前 Alpha test https://x.com/nanshanjukr/status/2004893778700853637/video/1
+      <title>@lesoshi: zhangjiajie ^-^ https://t.co/EwdhPEGKas</title>
+      <link>https://x.com/lesoshi/status/2053014652817142159</link>
+      <guid isPermaLink="false">2053014652817142159</guid>
+      <pubDate>Sat, 09 May 2026 07:30:11 GMT</pubDate>
+      <description>zhangjiajie ^-^ https://t.co/EwdhPEGKas
 
-Tweet: https://x.com/nanshanjukr/status/2004893778700853637
+Tweet: https://x.com/lesoshi/status/2053014652817142159
 Primary URLs:
-- https://x.com/nanshanjukr/status/2004893778700853637/video/1</description>
+- https://x.com/lesoshi/status/2053014652817142159/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg
+- https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg
+- https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg
+- https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg" medium="image" />
     </item>
     <item>
-      <title>@raul_dronca: Hold to Delete button Demo: https://delete-images-button.vercel.app/...</title>
-      <link>https://x.com/raul_dronca/status/2004909616329904451</link>
-      <guid isPermaLink="false">2004909616329904451</guid>
-      <pubDate>Sat, 27 Dec 2025 13:37:56 GMT</pubDate>
-      <description>Hold to Delete button
+      <title>@viktoroddy: Introducing Jaw-Dropping Animated AI Backgrounds ✨ A huge collection of beautifully...</title>
+      <link>https://x.com/viktoroddy/status/2039055302360793444</link>
+      <guid isPermaLink="false">2039055302360793444</guid>
+      <pubDate>Tue, 31 Mar 2026 19:00:42 GMT</pubDate>
+      <description>Introducing Jaw-Dropping Animated AI Backgrounds ✨
 &gt;
-&gt; Demo: https://delete-images-button.vercel.app/ https://x.com/raul_dronca/status/2004909616329904451/video/1
+&gt; A huge collection of beautifully Animated AI backgrounds for your brand, free to use.
+&gt;
+&gt; Link 👇 https://t.co/uoDoQUfvWZ
 
-Tweet: https://x.com/raul_dronca/status/2004909616329904451
+Tweet: https://x.com/viktoroddy/status/2039055302360793444
 Primary URLs:
-- https://delete-images-button.vercel.app/
-- https://x.com/raul_dronca/status/2004909616329904451/video/1</description>
+- https://x.com/viktoroddy/status/2039055302360793444/video/1
+Image URLs:
+- https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg</description>
+      <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg" medium="image" />
     </item>
     <item>
-      <title>@jesselaunz: google整了个Learn Your Way 上传个pdf则多步骤给出学习辅助 看上去学东西更方便了 waitlist貌似需要US ip...</title>
-      <link>https://x.com/jesselaunz/status/2004643280341139679</link>
-      <guid isPermaLink="false">2004643280341139679</guid>
-      <pubDate>Fri, 26 Dec 2025 19:59:37 GMT</pubDate>
-      <description>google整了个Learn Your Way
-&gt;
-&gt; 上传个pdf则多步骤给出学习辅助
+      <title>@zodchiii: Anthropic just leaked their 2026 agent roadmap in 22 minutes. Claude team walked...</title>
+      <link>https://x.com/zodchiii/status/2052400272840720565</link>
+      <guid isPermaLink="false">2052400272840720565</guid>
+      <pubDate>Thu, 07 May 2026 14:48:51 GMT</pubDate>
+      <description>Anthropic just leaked their 2026 agent roadmap in 22 minutes.
 &gt;
-&gt; 看上去学东西更方便了
+&gt; Claude team walked through tools, memory, observability, and the things most builders are 12 months behind.
 &gt;
-&gt; waitlist貌似需要US ip
+&gt; The last 3 minutes alone are worth the watch.
 &gt;
-&gt; https://learnyourway.withgoogle.com/ https://x.com/jesselaunz/status/2004643280341139679/video/1
+&gt; Watch it, then save the setup below 👇 https://t.co/dNk44JHpkJ https://t.co/gImhXKvmai
 
-Tweet: https://x.com/jesselaunz/status/2004643280341139679
+Tweet: https://x.com/zodchiii/status/2052400272840720565
 Primary URLs:
-- https://learnyourway.withgoogle.com/
-- https://x.com/jesselaunz/status/2004643280341139679/video/1</description>
+- https://x.com/zodchiii/status/2052400272840720565/video/1
+- https://twitter.com/zodchiii/status/2052368125480354000
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg" medium="image" />
     </item>
     <item>
-      <title>@thisguyknowsai: 🚨 BREAKING: Google Research just dropped the textbook killer. Its called "Learn Your...</title>
-      <link>https://x.com/thisguyknowsai/status/2004491374658543958</link>
-      <guid isPermaLink="false">2004491374658543958</guid>
-      <pubDate>Fri, 26 Dec 2025 09:56:00 GMT</pubDate>
-      <description>🚨 BREAKING: Google Research just dropped the textbook killer.
+      <title>@OpenAI: Codex now works directly in Chrome on macOS and Windows. It’s even better at working...</title>
+      <link>https://x.com/OpenAI/status/2052480800004956323</link>
+      <guid isPermaLink="false">2052480800004956323</guid>
+      <pubDate>Thu, 07 May 2026 20:08:50 GMT</pubDate>
+      <description>Codex now works directly in Chrome on macOS and Windows.
 &gt;
-&gt; Its called "Learn Your Way" and it uses LearnLM to transform any PDF into 5 personalized learning formats. Students using it scored 78% vs 67% on retention tests.
+&gt; It’s even better at working with apps and sites in Chrome, and now works in parallel across tabs in the background without taking over your browser.
 &gt;
-&gt; The education revolution is here. https://x.com/thisguyknowsai/status/2004491374658543958/video/1
+&gt; To get started, install the Chrome plugin in the Codex app. https://t.co/pjtHd9gC69
 
-Tweet: https://x.com/thisguyknowsai/status/2004491374658543958
+Tweet: https://x.com/OpenAI/status/2052480800004956323
 Primary URLs:
-- https://x.com/thisguyknowsai/status/2004491374658543958/video/1</description>
+- https://x.com/OpenAI/status/2052480800004956323/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg" medium="image" />
     </item>
     <item>
-      <title>@slavakornilov: Connect AI Data On New Device Without Code...</title>
-      <link>https://x.com/slavakornilov/status/2003843116688687497</link>
-      <guid isPermaLink="false">2003843116688687497</guid>
-      <pubDate>Wed, 24 Dec 2025 15:00:03 GMT</pubDate>
-      <description>Connect AI Data On New Device Without Code https://x.com/slavakornilov/status/2003843116688687497/video/1
+      <title>@ripo0079: 在中国、銀河英雄伝説是有名吗？</title>
+      <link>https://x.com/ripo0079/status/2053056854222381131</link>
+      <guid isPermaLink="false">2053056854222381131</guid>
+      <pubDate>Sat, 09 May 2026 10:17:52 GMT</pubDate>
+      <description>在中国、銀河英雄伝説是有名吗？
 
-Tweet: https://x.com/slavakornilov/status/2003843116688687497
-Primary URLs:
-- https://x.com/slavakornilov/status/2003843116688687497/video/1</description>
+Tweet: https://x.com/ripo0079/status/2053056854222381131</description>
     </item>
     <item>
-      <title>@vista8: 正在写一个Skill，每天自动获取最新的AI资讯和论文。 给出翻译和写作选题。...</title>
-      <link>https://x.com/vista8/status/2003658462182637763</link>
-      <guid isPermaLink="false">2003658462182637763</guid>
-      <pubDate>Wed, 24 Dec 2025 02:46:18 GMT</pubDate>
-      <description>正在写一个Skill，每天自动获取最新的AI资讯和论文。
-&gt;
-&gt; 给出翻译和写作选题。 https://x.com/vista8/status/2003658462182637763/photo/1 https://twitter.com/vista8/status/2003288079340392839
+      <title>@uiux_harshit: At the end of the day, taste matters https://t.co/BV6znXSset</title>
+      <link>https://x.com/uiux_harshit/status/2038671337414414757</link>
+      <guid isPermaLink="false">2038671337414414757</guid>
+      <pubDate>Mon, 30 Mar 2026 17:34:58 GMT</pubDate>
+      <description>At the end of the day, taste matters https://t.co/BV6znXSset
 
-Tweet: https://x.com/vista8/status/2003658462182637763
+Tweet: https://x.com/uiux_harshit/status/2038671337414414757
 Primary URLs:
-- https://x.com/vista8/status/2003658462182637763/photo/1
-- https://twitter.com/vista8/status/2003288079340392839</description>
+- https://x.com/uiux_harshit/status/2038671337414414757/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg
+- https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg
+- https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg" medium="image" />
     </item>
     <item>
-      <title>@ValerioCapraro: Major preprint just out! We compare how humans and LLMs form judgments across seven...</title>
-      <link>https://x.com/ValerioCapraro/status/2003457899805233538</link>
-      <guid isPermaLink="false">2003457899805233538</guid>
-      <pubDate>Tue, 23 Dec 2025 13:29:20 GMT</pubDate>
-      <description>Major preprint just out!
+      <title>@interact_ai: Introducing Interact AI: a new interface for the web. Add it to your website, and it...</title>
+      <link>https://x.com/interact_ai/status/2051662847130869780</link>
+      <guid isPermaLink="false">2051662847130869780</guid>
+      <pubDate>Tue, 05 May 2026 13:58:35 GMT</pubDate>
+      <description>Introducing Interact AI: a new interface for the web.
 &gt;
-&gt; We compare how humans and LLMs form judgments across seven epistemological stages.
+&gt; Add it to your website, and it talks to every visitor, answers questions, and shows your product.
 &gt;
-&gt; We highlight seven fault lines, points at which humans and LLMs fundamentally diverge:
-&gt;
-&gt; The Grounding fault: Humans anchor judgment in perceptual, embodied, and social https://x.com/ValerioCapraro/status/2003457899805233538/photo/1
-
-Tweet: https://x.com/ValerioCapraro/status/2003457899805233538
-Primary URLs:
-- https://x.com/ValerioCapraro/status/2003457899805233538/photo/1</description>
-    </item>
-    <item>
-      <title>@Datou: 和老动画还挺配 https://x.com/Datou/status/2003378036138475826/photo/1</title>
-      <link>https://x.com/Datou/status/2003378036138475826</link>
-      <guid isPermaLink="false">2003378036138475826</guid>
-      <pubDate>Tue, 23 Dec 2025 08:11:59 GMT</pubDate>
-      <description>和老动画还挺配 https://x.com/Datou/status/2003378036138475826/photo/1
+&gt; Try it now -&amp;gt; https://t.co/qdfaFGI9a9 https://t.co/xnRrdjunPe
 
-Tweet: https://x.com/Datou/status/2003378036138475826
+Tweet: https://x.com/interact_ai/status/2051662847130869780
 Primary URLs:
-- https://x.com/Datou/status/2003378036138475826/photo/1</description>
+- https://www.interactlabs.ai/
+- https://x.com/interact_ai/status/2051662847130869780/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg" medium="image" />
     </item>
     <item>
-      <title>@The_Sycomore: Rubberhose 3D Style with Nano Banana Pro Prompt : Subject, stylized 3D rubberhose...</title>
-      <link>https://x.com/The_Sycomore/status/2002841670992502880</link>
-      <guid isPermaLink="false">2002841670992502880</guid>
-      <pubDate>Sun, 21 Dec 2025 20:40:40 GMT</pubDate>
-      <description>Rubberhose 3D Style with Nano Banana Pro
-&gt;
-&gt; Prompt : [Subject], stylized 3D rubberhose character, smooth 3D render,  Solid [Color] color background, dynamic pose, soft ground shadow, bright soft lighting, modern playful design https://x.com/The_Sycomore/status/2002841670992502880/photo/1
+      <title>@intrfacer: Today is Interfacer's first anniversary 🎊🎊 Quick recap: https://t.co/e0xr7dZzVS</title>
+      <link>https://x.com/intrfacer/status/2051674574568268023</link>
+      <guid isPermaLink="false">2051674574568268023</guid>
+      <pubDate>Tue, 05 May 2026 14:45:11 GMT</pubDate>
+      <description>Today is Interfacer's first anniversary 🎊🎊 Quick recap: https://t.co/e0xr7dZzVS
 
-Tweet: https://x.com/The_Sycomore/status/2002841670992502880
+Tweet: https://x.com/intrfacer/status/2051674574568268023
 Primary URLs:
-- https://x.com/The_Sycomore/status/2002841670992502880/photo/1</description>
+- https://x.com/intrfacer/status/2051674574568268023/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg" medium="image" />
     </item>
     <item>
-      <title>@MokshaS29: Here's how I use Browser Use skills and Lovable to build Google Maps Scraper lets you...</title>
-      <link>https://x.com/MokshaS29/status/2002229536289611917</link>
-      <guid isPermaLink="false">2002229536289611917</guid>
-      <pubDate>Sat, 20 Dec 2025 04:08:15 GMT</pubDate>
-      <description>Here's how I use Browser Use skills and Lovable to build Google Maps Scraper lets you extract business data, helping you generate leads, analyze competitors, perform market analysis, and fuel growth with just a few clicks. @browser_use https://x.com/MokshaS29/status/2002229536289611917/video/1
+      <title>@ayushsoni_io: love where we landed w/ conduit https://t.co/u9xAXM7oDC</title>
+      <link>https://x.com/ayushsoni_io/status/2052682499885859256</link>
+      <guid isPermaLink="false">2052682499885859256</guid>
+      <pubDate>Fri, 08 May 2026 09:30:19 GMT</pubDate>
+      <description>love where we landed w/ conduit https://t.co/u9xAXM7oDC
 
-Tweet: https://x.com/MokshaS29/status/2002229536289611917
+Tweet: https://x.com/ayushsoni_io/status/2052682499885859256
 Primary URLs:
-- https://x.com/MokshaS29/status/2002229536289611917/video/1</description>
+- https://x.com/ayushsoni_io/status/2052682499885859256/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg
+- https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg
+- https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg
+- https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg" medium="image" />
     </item>
     <item>
-      <title>@bnj: Might be the best one yet https://x.com/bnj/status/2003540610612080858/video/1...</title>
-      <link>https://x.com/bnj/status/2003540610612080858</link>
-      <guid isPermaLink="false">2003540610612080858</guid>
-      <pubDate>Tue, 23 Dec 2025 18:58:00 GMT</pubDate>
-      <description>Might be the best one yet https://x.com/bnj/status/2003540610612080858/video/1 https://twitter.com/bnj/status/1924528785690657165
+      <title>@santu_design: one of my favourite footer designs so far https://t.co/I7ilWGKHJW</title>
+      <link>https://x.com/santu_design/status/2038301604307165641</link>
+      <guid isPermaLink="false">2038301604307165641</guid>
+      <pubDate>Sun, 29 Mar 2026 17:05:46 GMT</pubDate>
+      <description>one of my favourite footer designs so far https://t.co/I7ilWGKHJW
 
-Tweet: https://x.com/bnj/status/2003540610612080858
+Tweet: https://x.com/santu_design/status/2038301604307165641
 Primary URLs:
-- https://x.com/bnj/status/2003540610612080858/video/1
-- https://twitter.com/bnj/status/1924528785690657165</description>
+- https://x.com/santu_design/status/2038301604307165641/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg" medium="image" />
     </item>
     <item>
-      <title>@grillitype: GT Alpina in “Radical Utopias: Training for a Complicated Future,” a 2020 series of...</title>
-      <link>https://x.com/grillitype/status/2003465978039140362</link>
-      <guid isPermaLink="false">2003465978039140362</guid>
-      <pubDate>Tue, 23 Dec 2025 14:01:26 GMT</pubDate>
-      <description>GT Alpina in “Radical Utopias: Training for a Complicated Future,” a 2020 series of talks.
+      <title>@grapeot: 过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent...</title>
+      <link>https://x.com/grapeot/status/2051734189054255164</link>
+      <guid isPermaLink="false">2051734189054255164</guid>
+      <pubDate>Tue, 05 May 2026 18:42:04 GMT</pubDate>
+      <description>过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent loop、文件读写、shell、测试反馈、上下文压缩被 Claude Code / Codex / Cursor / OpenCode 这类 runtime 商品化。
 &gt;
-&gt; Designed by Philipp Dittmar of Complex Pleasures studio, using GT Alpina’s quirky gaps created by its bold italic forms. https://x.com/grillitype/status/2003465978039140362/photo/1
+&gt; 剩下真正值得自己维护的，是 domain
 
-Tweet: https://x.com/grillitype/status/2003465978039140362
-Primary URLs:
-- https://x.com/grillitype/status/2003465978039140362/photo/1</description>
+Tweet: https://x.com/grapeot/status/2051734189054255164</description>
     </item>
     <item>
-      <title>@vercel: We improved our text-to-SQL agent by removing 80% of its tools and adding a sandbox....</title>
-      <link>https://x.com/vercel/status/2003218088435851441</link>
-      <guid isPermaLink="false">2003218088435851441</guid>
-      <pubDate>Mon, 22 Dec 2025 21:36:24 GMT</pubDate>
-      <description>We improved our text-to-SQL agent by removing 80% of its tools and adding a sandbox.
-&gt;
-&gt; 40% fewer tokens, 40% fewer steps, 3.5x faster.
-&gt;
-&gt; Read about our initial build, mistakes, and file system agent success.
-&gt; https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools
+      <title>@JoelTankard: Progressive blur reveal https://t.co/3kGUyXG1DE</title>
+      <link>https://x.com/JoelTankard/status/2045049691747004890</link>
+      <guid isPermaLink="false">2045049691747004890</guid>
+      <pubDate>Fri, 17 Apr 2026 08:00:16 GMT</pubDate>
+      <description>Progressive blur reveal https://t.co/3kGUyXG1DE
 
-Tweet: https://x.com/vercel/status/2003218088435851441
+Tweet: https://x.com/JoelTankard/status/2045049691747004890
 Primary URLs:
-- https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools</description>
+- https://x.com/JoelTankard/status/2045049691747004890/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg" medium="image" />
     </item>
     <item>
-      <title>@ryolu_: @simon_he1995 做工具的人沒想明白 大部分 Agent 概念最後都被搓到 prompt 只是如何觸發的區別</title>
-      <link>https://x.com/ryolu_/status/2003481860555571356</link>
-      <guid isPermaLink="false">2003481860555571356</guid>
-      <pubDate>Tue, 23 Dec 2025 15:04:33 GMT</pubDate>
-      <description>@simon_he1995 做工具的人沒想明白
-&gt; 大部分 Agent 概念最後都被搓到 prompt
-&gt; 只是如何觸發的區別
-
-Tweet: https://x.com/ryolu_/status/2003481860555571356</description>
-    </item>
-    <item>
-      <title>@yoeight: Released a production-ready EventQL parser in Rust 🦀 EventQL is a SQL-inspired query...</title>
-      <link>https://x.com/yoeight/status/2002964489952722952</link>
-      <guid isPermaLink="false">2002964489952722952</guid>
-      <pubDate>Mon, 22 Dec 2025 04:48:42 GMT</pubDate>
-      <description>Released a production-ready EventQL parser in Rust 🦀
+      <title>@every: How to set up your own AI project manager, via @kplikethebird: 1. Give it context Feed...</title>
+      <link>https://x.com/every/status/2051336617609335230</link>
+      <guid isPermaLink="false">2051336617609335230</guid>
+      <pubDate>Mon, 04 May 2026 16:22:16 GMT</pubDate>
+      <description>How to set up your own AI project manager, via @kplikethebird:
 &gt;
-&gt; EventQL is a SQL-inspired query language designed specifically for event sourcing. Smart design that makes indexing obvious.
+&gt; 1. Give it context
 &gt;
-&gt; Blog: https://yoeight.github.io/blog/2025/12/21/EventQL_A_SQL_Inspired_Query_Language_Designed_For_Event_Sourcing.html
+&gt; Feed the agent your OKRs, strategy docs, project briefs, recurring workstream docs, and a stack-rank of what matters most.
+&gt;
+&gt; The stack-rank is key. Your agent needs to know which project you would https://t.co/oZm03vmo0a
 
-Tweet: https://x.com/yoeight/status/2002964489952722952
+Tweet: https://x.com/every/status/2051336617609335230
 Primary URLs:
-- https://yoeight.github.io/blog/2025/12/21/EventQL_A_SQL_Inspired_Query_Language_Designed_For_Event_Sourcing.html</description>
+- https://x.com/every/status/2051336617609335230/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg
+- https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg" medium="image" />
     </item>
     <item>
-      <title>@Zai_org: GLM-4.7 is here! GLM-4.7 surpasses GLM-4.6 with substantial improvements in coding,...</title>
-      <link>https://x.com/Zai_org/status/2003156119087382683</link>
-      <guid isPermaLink="false">2003156119087382683</guid>
-      <pubDate>Mon, 22 Dec 2025 17:30:10 GMT</pubDate>
-      <description>GLM-4.7 is here!
-&gt;
-&gt; GLM-4.7 surpasses GLM-4.6 with substantial improvements in coding, complex reasoning, and tool usage, setting new open-source SOTA standards. It also boosts performance in chat, creative writing, and role-play scenarios.
+      <title>@chumsdock: Figma MCP now lets AI agents write to the canvas — not just read it. Here's what...</title>
+      <link>https://x.com/chumsdock/status/2036657119194460217</link>
+      <guid isPermaLink="false">2036657119194460217</guid>
+      <pubDate>Wed, 25 Mar 2026 04:11:11 GMT</pubDate>
+      <description>Figma MCP now lets AI agents write to the canvas — not just read it. Here's what actually matters.
 &gt;
-&gt; Default Model for Coding Plan: https://x.com/Zai_org/status/2003156119087382683/photo/1
+&gt; The headline tool is `use_figma`: it executes arbitrary Plugin API JavaScript directly inside your Figma file. This isn't a smart wrapper — it's a real code execution environment.
 
-Tweet: https://x.com/Zai_org/status/2003156119087382683
-Primary URLs:
-- https://x.com/Zai_org/status/2003156119087382683/photo/1</description>
+Tweet: https://x.com/chumsdock/status/2036657119194460217</description>
     </item>
     <item>
-      <title>@ivnardini: This week, Vertex AI introduced Agent Designer in Agent Builder. It's a low-code visual...</title>
-      <link>https://x.com/ivnardini/status/2003133506042651105</link>
-      <guid isPermaLink="false">2003133506042651105</guid>
-      <pubDate>Mon, 22 Dec 2025 16:00:18 GMT</pubDate>
-      <description>This week, Vertex AI introduced Agent Designer in Agent Builder.
-&gt;
-&gt; It's a low-code visual interface that allows you to orchestrate agents and subagents on a canvas, then export the logic directly to the Agent Development Kit (ADK) for code-level refinement.
-&gt;
-&gt; &amp;gt; Visual Design: https://x.com/ivnardini/status/2003133506042651105/photo/1
+      <title>@dotey: https://t.co/cFZS7VsNIv</title>
+      <link>https://x.com/dotey/status/2051688341519609897</link>
+      <guid isPermaLink="false">2051688341519609897</guid>
+      <pubDate>Tue, 05 May 2026 15:39:53 GMT</pubDate>
+      <description>https://t.co/cFZS7VsNIv
 
-Tweet: https://x.com/ivnardini/status/2003133506042651105
+Tweet: https://x.com/dotey/status/2051688341519609897
+X article: https://x.com/dotey/article/2051688341519609897
 Primary URLs:
-- https://x.com/ivnardini/status/2003133506042651105/photo/1</description>
+- https://x.com/i/article/2051687844679143424
+- https://www.youtube.com/watch?v=SlGRN8jh2RI</description>
     </item>
     <item>
-      <title>@xiaohua_888: 今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。 这玩意儿的核心思路特别妙：把写提示词变成"填空题"。...</title>
-      <link>https://x.com/xiaohua_888/status/2003111260452524267</link>
-      <guid isPermaLink="false">2003111260452524267</guid>
-      <pubDate>Mon, 22 Dec 2025 14:31:55 GMT</pubDate>
-      <description>今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。
-&gt;
-&gt; 这玩意儿的核心思路特别妙：把写提示词变成"填空题"。
+      <title>@oasisfeng: 这两天用 Codex 实践了一下 Karpathy 的 Obsidian vault 研究范式，尤其是 raw -&amp;gt; wiki 这个 agent 驱动的信息萃取方式。...</title>
+      <link>https://x.com/oasisfeng/status/2051642553943101632</link>
+      <guid isPermaLink="false">2051642553943101632</guid>
+      <pubDate>Tue, 05 May 2026 12:37:57 GMT</pubDate>
+      <description>这两天用 Codex 实践了一下 Karpathy 的 Obsidian vault 研究范式，尤其是 raw -&amp;gt; wiki 这个 agent 驱动的信息萃取方式。
 &gt;
-&gt; 传统写提示词得从头构思，一个词一个词敲。PromptFill直接给你模板，里边变量都帮你列好了，点点选选就能生成专业级提示词。
-&gt;
-&gt; 比如想画个微缩场景，只需要选一下：
-
-Tweet: https://x.com/xiaohua_888/status/2003111260452524267</description>
-    </item>
-    <item>
-      <title>@rseroter: If you're mostly doing gimmicky stuff with AI and nothing that feels genuinely useful,...</title>
-      <link>https://x.com/rseroter/status/2003125450760142926</link>
-      <guid isPermaLink="false">2003125450760142926</guid>
-      <pubDate>Mon, 22 Dec 2025 15:28:18 GMT</pubDate>
-      <description>If you're mostly doing gimmicky stuff with AI and nothing that feels genuinely useful, this list might inspire you to try something new ... https://blog.google/innovation-and-ai/products/ai-tips-2025/
+&gt; 最大体会是，wiki compile 这个环节，由于难以量化产出质量，成了 agent 偷懒的重灾区。不过我发现 Karpathy 貌似找到了对抗 agent 偷懒的一个 prompt 魔法词 —— 审计 (Audit)。 https://t.co/HqlRitO4Dy
 
-Tweet: https://x.com/rseroter/status/2003125450760142926
+Tweet: https://x.com/oasisfeng/status/2051642553943101632
 Primary URLs:
-- https://blog.google/innovation-and-ai/products/ai-tips-2025/</description>
+- https://twitter.com/oasisfeng/status/2047324395245609048</description>
     </item>
     <item>
-      <title>@tar_uniqueee: The year of craft https://x.com/tar_uniqueee/status/2003036830066000357/video/1</title>
-      <link>https://x.com/tar_uniqueee/status/2003036830066000357</link>
-      <guid isPermaLink="false">2003036830066000357</guid>
-      <pubDate>Mon, 22 Dec 2025 09:36:09 GMT</pubDate>
-      <description>The year of craft https://x.com/tar_uniqueee/status/2003036830066000357/video/1
+      <title>@JoelTankard: Crazy what you can do with Bump Mapping &amp;amp; some SVG filters https://t.co/emBt8U5FUr</title>
+      <link>https://x.com/JoelTankard/status/2052556086071173518</link>
+      <guid isPermaLink="false">2052556086071173518</guid>
+      <pubDate>Fri, 08 May 2026 01:08:00 GMT</pubDate>
+      <description>Crazy what you can do with Bump Mapping &amp;amp; some SVG filters https://t.co/emBt8U5FUr
 
-Tweet: https://x.com/tar_uniqueee/status/2003036830066000357
+Tweet: https://x.com/JoelTankard/status/2052556086071173518
 Primary URLs:
-- https://x.com/tar_uniqueee/status/2003036830066000357/video/1</description>
+- https://x.com/JoelTankard/status/2052556086071173518/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg
+- https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg
+- https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg" medium="image" />
     </item>
     <item>
-      <title>@ZeroZ_JQ: 朋友们问怎么 vibe video 也就是氛围做视频。 当然是 Gemini 3 + antigravity + remotion 啊...</title>
-      <link>https://x.com/ZeroZ_JQ/status/2002589711920214109</link>
-      <guid isPermaLink="false">2002589711920214109</guid>
-      <pubDate>Sun, 21 Dec 2025 03:59:28 GMT</pubDate>
-      <description>朋友们问怎么 vibe video
-&gt;
-&gt; 也就是氛围做视频。
-&gt;
-&gt; 当然是 Gemini 3 + antigravity + remotion 啊 https://x.com/ZeroZ_JQ/status/2002589711920214109/video/1
+      <title>@chumsdock: Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s...</title>
+      <link>https://x.com/chumsdock/status/2036657892280164655</link>
+      <guid isPermaLink="false">2036657892280164655</guid>
+      <pubDate>Wed, 25 Mar 2026 04:14:15 GMT</pubDate>
+      <description>Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s 超时，失败原子回滚。后续的算盘：免费账户每月 6 次 MCP 读/写。写入Beta期间免费，即将按量收费。
+&gt; https://t.co/nuvDEdadP1
 
-Tweet: https://x.com/ZeroZ_JQ/status/2002589711920214109
+Tweet: https://x.com/chumsdock/status/2036657892280164655
 Primary URLs:
-- https://x.com/ZeroZ_JQ/status/2002589711920214109/video/1</description>
+- https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</description>
     </item>
     <item>
-      <title>@rudrank: My two favorite MCP for the year: - XcodeBuildMCP - App Store Connect MCP</title>
-      <link>https://x.com/rudrank/status/2002783298322588105</link>
-      <guid isPermaLink="false">2002783298322588105</guid>
-      <pubDate>Sun, 21 Dec 2025 16:48:42 GMT</pubDate>
-      <description>My two favorite MCP for the year:
-&gt; - XcodeBuildMCP
-&gt; - App Store Connect MCP
-
-Tweet: https://x.com/rudrank/status/2002783298322588105</description>
-    </item>
-    <item>
-      <title>@every: Full Context Window: https://every.to/context-window/gpt-image-1-5-shines-if-you-do-this</title>
-      <link>https://x.com/every/status/2002771389426901360</link>
-      <guid isPermaLink="false">2002771389426901360</guid>
-      <pubDate>Sun, 21 Dec 2025 16:01:23 GMT</pubDate>
-      <description>Full Context Window: https://every.to/context-window/gpt-image-1-5-shines-if-you-do-this
+      <title>@martinfowler: Fragments: open-source framework for prompting patterns, musician sues google for...</title>
+      <link>https://x.com/martinfowler/status/2051700087496093774</link>
+      <guid isPermaLink="false">2051700087496093774</guid>
+      <pubDate>Tue, 05 May 2026 16:26:34 GMT</pubDate>
+      <description>Fragments: open-source framework for prompting patterns, musician sues google for defamation, apple is thinking differently about AI spending, running LLMs locally, will The Genie be caught in the tar pit?
+&gt;
+&gt; https://t.co/xMvZYR4Iia
 
-Tweet: https://x.com/every/status/2002771389426901360
+Tweet: https://x.com/martinfowler/status/2051700087496093774
 Primary URLs:
-- https://every.to/context-window/gpt-image-1-5-shines-if-you-do-this</description>
+- https://martinfowler.com/fragments/2026-05-05.html</description>
     </item>
     <item>
-      <title>@ameerashhab97: Enjoying the early access of @rive_app scripting. Made these audio waves for an AI no-...</title>
-      <link>https://x.com/ameerashhab97/status/2002413278216253890</link>
-      <guid isPermaLink="false">2002413278216253890</guid>
-      <pubDate>Sat, 20 Dec 2025 16:18:23 GMT</pubDate>
-      <description>Enjoying the early access of @rive_app scripting. Made these audio waves for an AI no-code tool concept, then exported it to Rive. https://x.com/ameerashhab97/status/2002413278216253890/video/1
+      <title>@elou: I’ve had the most fun I’ve found in a while noodling over all the little details on my...</title>
+      <link>https://x.com/elou/status/2051292836763762747</link>
+      <guid isPermaLink="false">2051292836763762747</guid>
+      <pubDate>Mon, 04 May 2026 13:28:18 GMT</pubDate>
+      <description>I’ve had the most fun I’ve found in a while noodling over all the little details on my site. Wild how much pent up creativity was stuck behind minor technical limitations in things like app architecture and deployment. AI is a force multiplier for designers, not a death sentence https://t.co/89ocuRN9BD
 
-Tweet: https://x.com/ameerashhab97/status/2002413278216253890
+Tweet: https://x.com/elou/status/2051292836763762747
 Primary URLs:
-- https://x.com/ameerashhab97/status/2002413278216253890/video/1</description>
+- https://x.com/elou/status/2051292836763762747/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg" medium="image" />
     </item>
     <item>
-      <title>@thomasknox: I wrote about a barrister friend who spilled the beans, anonymously: AI is going to...</title>
-      <link>https://x.com/thomasknox/status/2000853479103893825</link>
-      <guid isPermaLink="false">2000853479103893825</guid>
-      <pubDate>Tue, 16 Dec 2025 09:00:18 GMT</pubDate>
-      <description>I wrote about a barrister friend who spilled the beans, anonymously: AI is going to destroy the legal profession as we know it
+      <title>@Alexjkman: 朋友说她一个月在Hermes上花10W左右 我很纳闷：我一个月才花2000啊，你做什么项目啊 ？ 她大惊失色：别买A货啊，缺钱我送你一个。</title>
+      <link>https://x.com/Alexjkman/status/2052191936727912462</link>
+      <guid isPermaLink="false">2052191936727912462</guid>
+      <pubDate>Thu, 07 May 2026 01:01:00 GMT</pubDate>
+      <description>朋友说她一个月在Hermes上花10W左右
+&gt;
+&gt; 我很纳闷：我一个月才花2000啊，你做什么项目啊 ？
 &gt;
-&gt; https://spectator.com/article/ai-will-kill-all-the-lawyers/
+&gt; 她大惊失色：别买A货啊，缺钱我送你一个。
 
-Tweet: https://x.com/thomasknox/status/2000853479103893825
-Primary URLs:
-- https://spectator.com/article/ai-will-kill-all-the-lawyers/</description>
+Tweet: https://x.com/Alexjkman/status/2052191936727912462</description>
     </item>
     <item>
-      <title>@lennysan: @mattyglesias Yes https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code</title>
-      <link>https://x.com/lennysan/status/2002429991699820802</link>
-      <guid isPermaLink="false">2002429991699820802</guid>
-      <pubDate>Sat, 20 Dec 2025 17:24:48 GMT</pubDate>
-      <description>@mattyglesias Yes
-&gt; https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code
+      <title>@agilek: @AliGrids Made these recently as react components you can use https://t.co/giVb4XczEg...</title>
+      <link>https://x.com/agilek/status/2033241509131075835</link>
+      <guid isPermaLink="false">2033241509131075835</guid>
+      <pubDate>Sun, 15 Mar 2026 17:58:46 GMT</pubDate>
+      <description>@AliGrids Made these recently as react components you can use https://t.co/giVb4XczEg
+&gt;
+&gt; https://t.co/9eq8QP5Nxl
 
-Tweet: https://x.com/lennysan/status/2002429991699820802
+Tweet: https://x.com/agilek/status/2033241509131075835
 Primary URLs:
-- https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code</description>
+- https://x.com/i/status/2029253302450368522
+- https://github.com/agilek/cli-loaders?tab=readme-ov-file</description>
     </item>
     <item>
-      <title>@koylanai: I’m excited to share a new repo: Agent Skills for Context Engineering Instead of just...</title>
-      <link>https://x.com/koylanai/status/2002797649842331919</link>
-      <guid isPermaLink="false">2002797649842331919</guid>
-      <pubDate>Sun, 21 Dec 2025 17:45:44 GMT</pubDate>
-      <description>I’m excited to share a new repo: Agent Skills for Context Engineering
+      <title>@frxiaobei: “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...</title>
+      <link>https://x.com/frxiaobei/status/2051600089798652126</link>
+      <guid isPermaLink="false">2051600089798652126</guid>
+      <pubDate>Tue, 05 May 2026 09:49:12 GMT</pubDate>
+      <description>“我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。
 &gt;
-&gt; Instead of just offering a library of black-box tools, it acts as a "Meta-Agent" knowledge base. It provides a standard set of skills, written in markdown and code, that you can feed to an agent so it https://x.com/koylanai/status/2002797649842331919/photo/1 https://twitter.com/koylanai/status/2002646195684991268
+&gt; SMART 化之后：
+&gt; “在未来 3 个月内，每周发布至少 1 条短视频，其中每月至少 1 条达到 50 万播放，否则视为未达标”
+&gt;
+&gt; 这个就是/dbs-goal 的价值。 https://t.co/MCkiYtyIm1
 
-Tweet: https://x.com/koylanai/status/2002797649842331919
+Tweet: https://x.com/frxiaobei/status/2051600089798652126
 Primary URLs:
-- https://x.com/koylanai/status/2002797649842331919/photo/1
-- https://twitter.com/koylanai/status/2002646195684991268</description>
+- https://twitter.com/dontbesilent/status/2051588974032846935</description>
     </item>
     <item>
-      <title>@TheTuringPost: A must-read → A Survey of Context Engineering for LLMs Covers: - Why LLM performance is...</title>
-      <link>https://x.com/TheTuringPost/status/2002154397132833127</link>
-      <guid isPermaLink="false">2002154397132833127</guid>
-      <pubDate>Fri, 19 Dec 2025 23:09:41 GMT</pubDate>
-      <description>A must-read → A Survey of Context Engineering for LLMs
+      <title>@NebulaAI: Introducing Mini Apps. A new way to interact with AI agents. No more walls of text. Get...</title>
+      <link>https://x.com/NebulaAI/status/2051793024141721841</link>
+      <guid isPermaLink="false">2051793024141721841</guid>
+      <pubDate>Tue, 05 May 2026 22:35:52 GMT</pubDate>
+      <description>Introducing Mini Apps.
 &gt;
-&gt; Covers:
+&gt; A new way to interact with AI agents. No more walls of text.
 &gt;
-&gt; - Why LLM performance is shaped at inference time
-&gt; - What's beyond prompt design
-&gt; - Core components of Context Engineering: retrieval &amp;amp; generation, processing, memory &amp;amp; compression
-&gt; - System implementations: RAG, https://x.com/TheTuringPost/status/2002154397132833127/photo/1
+&gt; Get custom apps for your workflows:
+&gt; &amp;gt; Hiring? A site comparing every candidate.
+&gt; &amp;gt; Deal flow? A tracker with every touchpoint.
+&gt; &amp;gt; Running ads? A dashboard for every campaign.
+&gt;
+&gt; Live now. Enjoy :) https://t.co/TP2eETHX4x
 
-Tweet: https://x.com/TheTuringPost/status/2002154397132833127
+Tweet: https://x.com/NebulaAI/status/2051793024141721841
 Primary URLs:
-- https://x.com/TheTuringPost/status/2002154397132833127/photo/1</description>
+- https://x.com/NebulaAI/status/2051793024141721841/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg" medium="image" />
     </item>
     <item>
-      <title>@addyosmani: My LLM coding workflow going into 2026: https://open.substack.com/pub/addyo/p/my-llm-...</title>
-      <link>https://x.com/addyosmani/status/2002438238309658656</link>
-      <guid isPermaLink="false">2002438238309658656</guid>
-      <pubDate>Sat, 20 Dec 2025 17:57:34 GMT</pubDate>
-      <description>My LLM coding workflow going into 2026: https://open.substack.com/pub/addyo/p/my-llm-coding-workflow-going-into. Specs, skills, MCPs, small iterative chunks, and always review what the AI suggests.
+      <title>@srotimi_ui: Your daily dose of clean components. // Day 79 https://t.co/7ozTdDq9pl</title>
+      <link>https://x.com/srotimi_ui/status/2036043731426509057</link>
+      <guid isPermaLink="false">2036043731426509057</guid>
+      <pubDate>Mon, 23 Mar 2026 11:33:48 GMT</pubDate>
+      <description>Your daily dose of clean components.
+&gt;
+&gt; // Day 79 https://t.co/7ozTdDq9pl
 
-Tweet: https://x.com/addyosmani/status/2002438238309658656
+Tweet: https://x.com/srotimi_ui/status/2036043731426509057
 Primary URLs:
-- https://open.substack.com/pub/addyo/p/my-llm-coding-workflow-going-into</description>
+- https://x.com/srotimi_ui/status/2036043731426509057/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg
+- https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg" medium="image" />
     </item>
     <item>
-      <title>@_akhaliq: Nvidia released NitroGen A Foundation Model for Generalist Gaming Agents...</title>
-      <link>https://x.com/_akhaliq/status/2002551303193665673</link>
-      <guid isPermaLink="false">2002551303193665673</guid>
-      <pubDate>Sun, 21 Dec 2025 01:26:50 GMT</pubDate>
-      <description>Nvidia released NitroGen
-&gt;
-&gt; A Foundation Model for Generalist Gaming Agents
-&gt; https://huggingface.co/nvidia/NitroGen
+      <title>@yidabuilds: 和我们的判断完全一致， 就是这一波最好的生意是去做to B的业务。 我们之前发现的 包括trustMRR上， 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。...</title>
+      <link>https://x.com/yidabuilds/status/2051498115501609153</link>
+      <guid isPermaLink="false">2051498115501609153</guid>
+      <pubDate>Tue, 05 May 2026 03:04:00 GMT</pubDate>
+      <description>和我们的判断完全一致，
+&gt; 就是这一波最好的生意是去做to B的业务。
+&gt; 我们之前发现的
+&gt; 包括trustMRR上，
+&gt; 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。 https://t.co/6x63FCa0uN
 
-Tweet: https://x.com/_akhaliq/status/2002551303193665673
+Tweet: https://x.com/yidabuilds/status/2051498115501609153
 Primary URLs:
-- https://huggingface.co/nvidia/NitroGen</description>
+- https://twitter.com/AdrianPunk115/status/2051494055692116286</description>
     </item>
     <item>
-      <title>@Stephen4171127: 先保存下来，然后认真阅读 我是 Claude Skills 的拥趸，关于 Claude Skills的详细的理论，可以参见...</title>
-      <link>https://x.com/Stephen4171127/status/2002451525571105205</link>
-      <guid isPermaLink="false">2002451525571105205</guid>
-      <pubDate>Sat, 20 Dec 2025 18:50:22 GMT</pubDate>
-      <description>先保存下来，然后认真阅读
-&gt; 我是 Claude Skills 的拥趸，关于 Claude Skills的详细的理论，可以参见 https://skills.deeptoai.com/en https://twitter.com/treydtw/status/2002269382521860605
+      <title>@azed_ai: Prompt share: Notion Mono Editorial 💬Prompt: A simple black-and-white illustration of a...</title>
+      <link>https://x.com/azed_ai/status/2051603007109054865</link>
+      <guid isPermaLink="false">2051603007109054865</guid>
+      <pubDate>Tue, 05 May 2026 10:00:48 GMT</pubDate>
+      <description>Prompt share: Notion Mono Editorial
+&gt;
+&gt; 💬Prompt:
+&gt; A simple black-and-white illustration of a [subject] in [outfit], [doing action], with a [facial expression] expression, in a Notion-style minimalist editorial aesthetic, clean line art, flat monochrome design, simple shapes, subtle https://t.co/XMImkzqhOB
 
-Tweet: https://x.com/Stephen4171127/status/2002451525571105205
+Tweet: https://x.com/azed_ai/status/2051603007109054865
 Primary URLs:
-- https://skills.deeptoai.com/en
-- https://twitter.com/treydtw/status/2002269382521860605</description>
+- https://x.com/azed_ai/status/2051603007109054865/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg
+- https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg
+- https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg
+- https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg" medium="image" />
     </item>
     <item>
-      <title>@koylanai: After reading Karpathy's YC talk and year-end review, it's clear that there's a real,...</title>
-      <link>https://x.com/koylanai/status/2002502507843477611</link>
-      <guid isPermaLink="false">2002502507843477611</guid>
-      <pubDate>Sat, 20 Dec 2025 22:12:57 GMT</pubDate>
-      <description>After reading Karpathy's YC talk and year-end review, it's clear that there's a real, defensible layer between foundation models and end users.
+      <title>@QingQ77: 野心很大，方向清晰。 SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在...</title>
+      <link>https://x.com/QingQ77/status/2031660148440408309</link>
+      <guid isPermaLink="false">2031660148440408309</guid>
+      <pubDate>Wed, 11 Mar 2026 09:15:00 GMT</pubDate>
+      <description>野心很大，方向清晰。
 &gt;
-&gt; The pattern he calls out is "Cursor for X". It's what Cursor revealed about how LLM apps should be architected.
+&gt; SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在 Telegram/Discord/Slack 里发话，它在后台跑命令、逛网页、读写文件、拉 git、必要时自我修复，尽量做到“部署一次，长期在线”。
 &gt;
-&gt; Karpathy identifies https://x.com/koylanai/status/2002502507843477611/photo/1 https://twitter.com/jack/status/2002425569884111211
+&gt; SkyClaw — 一个常驻服务器的 Rust agent https://t.co/LqFAXUt6bS
 
-Tweet: https://x.com/koylanai/status/2002502507843477611
+Tweet: https://x.com/QingQ77/status/2031660148440408309
 Primary URLs:
-- https://x.com/koylanai/status/2002502507843477611/photo/1
-- https://twitter.com/jack/status/2002425569884111211</description>
+- https://x.com/QingQ77/status/2031660148440408309/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg" medium="image" />
     </item>
     <item>
-      <title>@jack: https://karpathy.bearblog.dev/year-in-review-2025/</title>
-      <link>https://x.com/jack/status/2002425569884111211</link>
-      <guid isPermaLink="false">2002425569884111211</guid>
-      <pubDate>Sat, 20 Dec 2025 17:07:13 GMT</pubDate>
-      <description>https://karpathy.bearblog.dev/year-in-review-2025/
+      <title>@_heyrico: https://t.co/VUTVX4bfgK</title>
+      <link>https://x.com/_heyrico/status/2051621781363188219</link>
+      <guid isPermaLink="false">2051621781363188219</guid>
+      <pubDate>Tue, 05 May 2026 11:15:24 GMT</pubDate>
+      <description>https://t.co/VUTVX4bfgK
 
-Tweet: https://x.com/jack/status/2002425569884111211
+Tweet: https://x.com/_heyrico/status/2051621781363188219
+X article: https://x.com/_heyrico/article/2051621781363188219
 Primary URLs:
-- https://karpathy.bearblog.dev/year-in-review-2025/</description>
+- https://x.com/i/article/2051474356732379136</description>
     </item>
     <item>
-      <title>@GitHub_Daily: 和国外客户开线上会议或者看海外直播平台时，语言不通很尴尬，想找个能实时翻译语音的工具，收费贵不说，翻译质量还不行。 于是，在 GitHub 上找到 Sokuji...</title>
-      <link>https://x.com/GitHub_Daily/status/2002239364601094258</link>
-      <guid isPermaLink="false">2002239364601094258</guid>
-      <pubDate>Sat, 20 Dec 2025 04:47:18 GMT</pubDate>
-      <description>和国外客户开线上会议或者看海外直播平台时，语言不通很尴尬，想找个能实时翻译语音的工具，收费贵不说，翻译质量还不行。
+      <title>@fxtrader: 英伟达CEO黄仁勋批评Anthropic CEO Amodei有关”AI未来几年可能取代50%入门白领”的言论，称这类评论“毫无帮助”。...</title>
+      <link>https://x.com/fxtrader/status/2051601805495374164</link>
+      <guid isPermaLink="false">2051601805495374164</guid>
+      <pubDate>Tue, 05 May 2026 09:56:02 GMT</pubDate>
+      <description>英伟达CEO黄仁勋批评Anthropic CEO Amodei有关”AI未来几年可能取代50%入门白领”的言论，称这类评论“毫无帮助”。
 &gt;
-&gt; 于是，在 GitHub 上找到 Sokuji 这个开源工具，专为解决这种实时语音翻译需求而生。
-&gt;
-&gt; 接入 OpenAI、Google Gemini https://x.com/GitHub_Daily/status/2002239364601094258/photo/1
+&gt; 黄仁勋认为，”一旦当上了CEO，就产生了上帝情结，不知不觉中就觉得自己无所不知了”，应该谨慎行事，脚踏实地，谈论事实。 https://t.co/83U8xVaIHd
 
-Tweet: https://x.com/GitHub_Daily/status/2002239364601094258
+Tweet: https://x.com/fxtrader/status/2051601805495374164
 Primary URLs:
-- https://x.com/GitHub_Daily/status/2002239364601094258/photo/1</description>
+- https://x.com/fxtrader/status/2051601805495374164/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg" medium="image" />
     </item>
     <item>
-      <title>@gooby_esq: Anyone using GEPA to evolve clause https://agentskills.io/home files yet?</title>
-      <link>https://x.com/gooby_esq/status/2002158726153707925</link>
-      <guid isPermaLink="false">2002158726153707925</guid>
-      <pubDate>Fri, 19 Dec 2025 23:26:53 GMT</pubDate>
-      <description>Anyone using GEPA to evolve clause https://agentskills.io/home files yet?
+      <title>@wey_gu: 太牛逼了，没想到把上下文 cost 从全连接的 O(n²) 搞到 O(n) 的工作已经有了（现在只先做了 prefill 的部分还），这个突破影响面太大了。🫡...</title>
+      <link>https://x.com/wey_gu/status/2051723877550895287</link>
+      <guid isPermaLink="false">2051723877550895287</guid>
+      <pubDate>Tue, 05 May 2026 18:01:06 GMT</pubDate>
+      <description>太牛逼了，没想到把上下文 cost 从全连接的 O(n²) 搞到 O(n) 的工作已经有了（现在只先做了 prefill 的部分还），这个突破影响面太大了。🫡 https://t.co/om55JBMdew
 
-Tweet: https://x.com/gooby_esq/status/2002158726153707925
+Tweet: https://x.com/wey_gu/status/2051723877550895287
 Primary URLs:
-- https://agentskills.io/home</description>
+- https://twitter.com/alex_whedon/status/2051663268704636937</description>
     </item>
     <item>
-      <title>@joshwoodward: Imagine it's early 2026, and you're using a Gemini MacOS desktop app. What features...</title>
-      <link>https://x.com/joshwoodward/status/2002179119518527748</link>
-      <guid isPermaLink="false">2002179119518527748</guid>
-      <pubDate>Sat, 20 Dec 2025 00:47:55 GMT</pubDate>
-      <description>Imagine it's early 2026, and you're using a Gemini MacOS desktop app. What features *must* be there for you to love it? Anything you really want to see in the desktop app specifically?
+      <title>@chaosflutt28952: 在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context...</title>
+      <link>https://x.com/chaosflutt28952/status/2031745028243284272</link>
+      <guid isPermaLink="false">2031745028243284272</guid>
+      <pubDate>Wed, 11 Mar 2026 14:52:17 GMT</pubDate>
+      <description>在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context Engineering。https://t.co/Iu4rAag9Kk https://t.co/Q32lp6RJZY
 
-Tweet: https://x.com/joshwoodward/status/2002179119518527748</description>
+Tweet: https://x.com/chaosflutt28952/status/2031745028243284272
+Primary URLs:
+- https://www.youtube.com/watch?v=2rcJdFuNbZQ
+- https://x.com/chaosflutt28952/status/2031745028243284272/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg" medium="image" />
     </item>
     <item>
-      <title>@fhwofjow51260: GitHub 上的开源工具 MuJing（幕境），通过电影、美剧和真实文档中的语境来学习和记忆单词。...</title>
-      <link>https://x.com/fhwofjow51260/status/2002008528324829379</link>
-      <guid isPermaLink="false">2002008528324829379</guid>
-      <pubDate>Fri, 19 Dec 2025 13:30:03 GMT</pubDate>
-      <description>GitHub 上的开源工具 MuJing（幕境），通过电影、美剧和真实文档中的语境来学习和记忆单词。
+      <title>@ericzakariasson: this is cursor team kit: a plugin for some skills we use to build cursor at cursor...</title>
+      <link>https://x.com/ericzakariasson/status/2051255780167610522</link>
+      <guid isPermaLink="false">2051255780167610522</guid>
+      <pubDate>Mon, 04 May 2026 11:01:03 GMT</pubDate>
+      <description>this is cursor team kit: a plugin for some skills we use to build cursor at cursor
 &gt;
-&gt; 配合拼写练习、字幕抄写、听写测试等交互方式，把“看懂、听懂、记住”真正连在一起。支持 win/mac
-&gt; https://github.com/tangshimin/MuJing
+&gt; skills for verifying changes, driving local tools, and shipping reviewable PRs
+&gt; https://t.co/8R4XNCUOfe
 
-Tweet: https://x.com/fhwofjow51260/status/2002008528324829379
+Tweet: https://x.com/ericzakariasson/status/2051255780167610522
 Primary URLs:
-- https://github.com/tangshimin/MuJing</description>
+- https://cursor.com/marketplace/cursor/cursor-team-kit</description>
     </item>
     <item>
-      <title>@strnr: FOCUS: an AI-assisted reading workflow for information overload...</title>
-      <link>https://x.com/strnr/status/2002091602441904460</link>
-      <guid isPermaLink="false">2002091602441904460</guid>
-      <pubDate>Fri, 19 Dec 2025 19:00:09 GMT</pubDate>
-      <description>FOCUS: an AI-assisted reading workflow for information overload https://www.nature.com/articles/s41587-025-02947-8?error=cookies_not_supported&amp;code=d5260eab-38aa-45b3-bb6a-ffd3c46337e3  (read free: https://www.nature.com/articles/s41587-025-02947-8.epdf?sharing_token=s7NOOuQl95Mfd3KOpT_24NRgN0jAjWel9jnR3ZoTv0MUqpH1c-k2Kv9SLI97xqAHN68YALCE1kO34-iWYZZbvrBJR2oz7OY88vjIkU1QfREI--V-fvGXjVCkjyhxVlXgeHz28It4s4DoDx29nD64uHoLB8WfevF-CiWxOAOQCYI%3D&amp;error=cookies_not_supported&amp;code=416cf257-98e7-4cb8-887a-d68568e99596)
+      <title>@matthewwmullin: NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION. Unbelievable...</title>
+      <link>https://x.com/matthewwmullin/status/2050945938999431592</link>
+      <guid isPermaLink="false">2050945938999431592</guid>
+      <pubDate>Sun, 03 May 2026 14:29:51 GMT</pubDate>
+      <description>NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION.
+&gt;
+&gt; Unbelievable perspectives captured by the Crew! The aurora on the eclipse is incredible. https://t.co/deI9LlQ0Jc
 
-Tweet: https://x.com/strnr/status/2002091602441904460
+Tweet: https://x.com/matthewwmullin/status/2050945938999431592
 Primary URLs:
-- https://www.nature.com/articles/s41587-025-02947-8?error=cookies_not_supported&amp;code=d5260eab-38aa-45b3-bb6a-ffd3c46337e3
-- https://www.nature.com/articles/s41587-025-02947-8.epdf?sharing_token=s7NOOuQl95Mfd3KOpT_24NRgN0jAjWel9jnR3ZoTv0MUqpH1c-k2Kv9SLI97xqAHN68YALCE1kO34-iWYZZbvrBJR2oz7OY88vjIkU1QfREI--V-fvGXjVCkjyhxVlXgeHz28It4s4DoDx29nD64uHoLB8WfevF-CiWxOAOQCYI%3D&amp;error=cookies_not_supported&amp;code=416cf257-98e7-4cb8-887a-d68568e99596</description>
+- https://x.com/matthewwmullin/status/2050945938999431592/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg
+- https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg
+- https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg
+- https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg" medium="image" />
     </item>
     <item>
-      <title>@samwhoo: This is it. I’ve peaked. There’s nowhere to go from here. @simonw you’re incredibly...</title>
-      <link>https://x.com/samwhoo/status/2002092548735799460</link>
-      <guid isPermaLink="false">2002092548735799460</guid>
-      <pubDate>Fri, 19 Dec 2025 19:03:55 GMT</pubDate>
-      <description>This is it. I’ve peaked. There’s nowhere to go from here.
-&gt;
-&gt; @simonw you’re incredibly kind, thank you so much. I’m glad you enjoyed it. https://x.com/samwhoo/status/2002092548735799460/photo/1
+      <title>@olive_trees234: 我觉得所有人都应该去关注腾讯研究院的公众号 获取最新的他们的 vibe coding 技术报告 丰饶之后 里面讲到的都是我已经看到和预期将要看到的问题</title>
+      <link>https://x.com/olive_trees234/status/2051214423960977625</link>
+      <guid isPermaLink="false">2051214423960977625</guid>
+      <pubDate>Mon, 04 May 2026 08:16:43 GMT</pubDate>
+      <description>我觉得所有人都应该去关注腾讯研究院的公众号
+&gt; 获取最新的他们的 vibe coding 技术报告
+&gt; 丰饶之后
+&gt; 里面讲到的都是我已经看到和预期将要看到的问题
 
-Tweet: https://x.com/samwhoo/status/2002092548735799460
-Primary URLs:
-- https://x.com/samwhoo/status/2002092548735799460/photo/1</description>
+Tweet: https://x.com/olive_trees234/status/2051214423960977625</description>
     </item>
     <item>
-      <title>@_simonsmith: Update: Data tables in NotebookLM are awesome. I uploaded a bunch of papers on...</title>
-      <link>https://x.com/_simonsmith/status/2002081044972122228</link>
-      <guid isPermaLink="false">2002081044972122228</guid>
-      <pubDate>Fri, 19 Dec 2025 18:18:12 GMT</pubDate>
-      <description>Update: Data tables in NotebookLM are awesome. I uploaded a bunch of papers on rapamycin and longevity, and prompted it to turn that into a structured output. Done in a few minutes. I think this could be hugely useful for meta-analysis, among other things. https://x.com/_simonsmith/status/2002081044972122228/photo/1 https://twitter.com/_simonsmith/status/2001810559369687477
+      <title>@neural_avb: https://t.co/3xw3NjttVd</title>
+      <link>https://x.com/neural_avb/status/2031417353666441266</link>
+      <guid isPermaLink="false">2031417353666441266</guid>
+      <pubDate>Tue, 10 Mar 2026 17:10:13 GMT</pubDate>
+      <description>https://t.co/3xw3NjttVd
 
-Tweet: https://x.com/_simonsmith/status/2002081044972122228
+Tweet: https://x.com/neural_avb/status/2031417353666441266
+X article: https://x.com/neural_avb/article/2031417353666441266
 Primary URLs:
-- https://x.com/_simonsmith/status/2002081044972122228/photo/1
-- https://twitter.com/_simonsmith/status/2001810559369687477</description>
+- https://x.com/i/article/2031220938738642944
+- https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1
+- https://www.youtube.com/@avb_fj
+- https://www.patreon.com/NeuralBreakdownwithAVB
+- https://paperbreakdown.com/</description>
     </item>
     <item>
-      <title>@MattNiessner: Want to create an avatar from a single image? FlexAvatar is a transformer model that...</title>
-      <link>https://x.com/MattNiessner/status/2001726306460053547</link>
-      <guid isPermaLink="false">2001726306460053547</guid>
-      <pubDate>Thu, 18 Dec 2025 18:48:36 GMT</pubDate>
-      <description>Want to create an avatar from a single image?
+      <title>@shannholmberg: the 3-layer company second brain blueprint, optimized for agents Ashwin Gopalan's...</title>
+      <link>https://x.com/shannholmberg/status/2051225368623972732</link>
+      <guid isPermaLink="false">2051225368623972732</guid>
+      <pubDate>Mon, 04 May 2026 09:00:12 GMT</pubDate>
+      <description>the 3-layer company second brain blueprint, optimized for agents
 &gt;
-&gt; FlexAvatar is a transformer model that creates full 360°, high-quality, and expressive 3D head avatar from just a single portrait image in minutes.
+&gt; Ashwin Gopalan's company brain series breaks down why, and it explains what you run into the second you wire agents into an organisation
 &gt;
-&gt; Real-time Demo: FlexAvatar's lightweight architecture allows both animation and https://x.com/MattNiessner/status/2001726306460053547/video/1
+&gt; companies collect artifacts but lose the context. a CRM field tells you a https://t.co/X2o3CsPzxZ https://t.co/Qw9fAa6HnF
 
-Tweet: https://x.com/MattNiessner/status/2001726306460053547
+Tweet: https://x.com/shannholmberg/status/2051225368623972732
 Primary URLs:
-- https://x.com/MattNiessner/status/2001726306460053547/video/1</description>
+- https://x.com/shannholmberg/status/2051225368623972732/photo/1
+- https://twitter.com/711598441642598400/status/2050963469898506342
+Image URLs:
+- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png</description>
+      <media:content url="https://pbs.twimg.com/media/HHdqmiqakAAElpA.png" medium="image" />
     </item>
     <item>
-      <title>@hiunicornstudio: Hot tip: add 3D interactivity to your ASCII heroes with depth maps...</title>
-      <link>https://x.com/hiunicornstudio/status/2002029013116887273</link>
-      <guid isPermaLink="false">2002029013116887273</guid>
-      <pubDate>Fri, 19 Dec 2025 14:51:27 GMT</pubDate>
-      <description>Hot tip: add 3D interactivity to your ASCII heroes with depth maps https://x.com/hiunicornstudio/status/2002029013116887273/video/1
+      <title>@goodhunt: this has been the craziest 2 days of my life thank you whale bros 鲸鱼兄弟们，谢谢你们...</title>
+      <link>https://x.com/goodhunt/status/2050694577628020853</link>
+      <guid isPermaLink="false">2050694577628020853</guid>
+      <pubDate>Sat, 02 May 2026 21:51:02 GMT</pubDate>
+      <description>this has been the craziest 2 days of my life
+&gt;
+&gt; thank you whale bros
+&gt;
+&gt; 鲸鱼兄弟们，谢谢你们 https://t.co/vtuWwy7ytT
 
-Tweet: https://x.com/hiunicornstudio/status/2002029013116887273
+Tweet: https://x.com/goodhunt/status/2050694577628020853
 Primary URLs:
-- https://x.com/hiunicornstudio/status/2002029013116887273/video/1</description>
+- https://x.com/goodhunt/status/2050694577628020853/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png</description>
+      <media:content url="https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png" medium="image" />
     </item>
     <item>
-      <title>@dbreunig: The evolution of @LiteLLM's model schema illustrates the significant changes in applied...</title>
-      <link>https://x.com/dbreunig/status/2002114764642922530</link>
-      <guid isPermaLink="false">2002114764642922530</guid>
-      <pubDate>Fri, 19 Dec 2025 20:32:12 GMT</pubDate>
-      <description>The evolution of @LiteLLM's model schema illustrates the significant changes in applied AI over 2025.
+      <title>@Himalaya_bear1: 我投资了不少出海团队。说几句刺耳的： 1....</title>
+      <link>https://x.com/Himalaya_bear1/status/2051049296435577265</link>
+      <guid isPermaLink="false">2051049296435577265</guid>
+      <pubDate>Sun, 03 May 2026 21:20:33 GMT</pubDate>
+      <description>我投资了不少出海团队。说几句刺耳的：
 &gt;
-&gt; A good chunk of builders are now hitting single endpoints that can execute code, use a computer, manipulate files, and search the web. https://www.dbreunig.com/2025/12/19/how-model-use-has-changed-in-2025.html
+&gt; 1. “国人”为啥叫“国人”，因为他们基本上不知道国人在世界上的位置。他们在现代文化上，没有优势。这和日本不一样，文化是开放体系，国人的文化不是。
+&gt;
+&gt; 2. https://t.co/Ko9v8NIi37
 
-Tweet: https://x.com/dbreunig/status/2002114764642922530
+Tweet: https://x.com/Himalaya_bear1/status/2051049296435577265
 Primary URLs:
-- https://www.dbreunig.com/2025/12/19/how-model-use-has-changed-in-2025.html</description>
+- https://twitter.com/bonniewinds0/status/2051008014812139783</description>
     </item>
     <item>
-      <title>@simonw: Wrote a few extra notes on the new skills standard here...</title>
-      <link>https://x.com/simonw/status/2001822298026971357</link>
-      <guid isPermaLink="false">2001822298026971357</guid>
-      <pubDate>Fri, 19 Dec 2025 01:10:02 GMT</pubDate>
-      <description>Wrote a few extra notes on the new skills standard here https://simonwillison.net/2025/Dec/19/agent-skills/ https://twitter.com/alexalbert__/status/2001760879302553906
+      <title>@yogesharc: 👇 Check it out at https://t.co/Jyuls2UzR6</title>
+      <link>https://x.com/yogesharc/status/2028805687355363347</link>
+      <guid isPermaLink="false">2028805687355363347</guid>
+      <pubDate>Tue, 03 Mar 2026 12:12:23 GMT</pubDate>
+      <description>👇 Check it out at https://t.co/Jyuls2UzR6
 
-Tweet: https://x.com/simonw/status/2001822298026971357
+Tweet: https://x.com/yogesharc/status/2028805687355363347
 Primary URLs:
-- https://simonwillison.net/2025/Dec/19/agent-skills/
-- https://twitter.com/alexalbert__/status/2001760879302553906</description>
+- https://www.supacortex.ai/</description>
     </item>
     <item>
-      <title>@karrisaarinen: You’ve maybe heard from me on this topic too many times, but this is the last I’ll...</title>
-      <link>https://x.com/karrisaarinen/status/2002114744623542381</link>
-      <guid isPermaLink="false">2002114744623542381</guid>
-      <pubDate>Fri, 19 Dec 2025 20:32:07 GMT</pubDate>
-      <description>You’ve maybe heard from me on this topic too many times, but this is the last I’ll offer (at least for now).
-&gt;
-&gt; My worry isn’t the code or the tools themselves. The question is how we keep thoughtful design alive even as new tools and technologies emerge.
-&gt;
-&gt; https://linear.app/now/design-is-more-than-code
+      <title>@DLKFZWilliam2: ...</title>
+      <link>https://x.com/DLKFZWilliam2/status/2051388640740401425</link>
+      <guid isPermaLink="false">2051388640740401425</guid>
+      <pubDate>Mon, 04 May 2026 19:48:59 GMT</pubDate>
+      <description>GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：https://t.co/Q1nfqQEHMs
 
-Tweet: https://x.com/karrisaarinen/status/2002114744623542381
+Tweet: https://x.com/DLKFZWilliam2/status/2051388640740401425
 Primary URLs:
-- https://linear.app/now/design-is-more-than-code</description>
+- https://github.com/LayrKits/Sprite-Pipeline</description>
     </item>
     <item>
-      <title>@rseroter: CONTEXT-driven development. This is about more than starting greenfield projects with...</title>
-      <link>https://x.com/rseroter/status/2001754270803329180</link>
-      <guid isPermaLink="false">2001754270803329180</guid>
-      <pubDate>Thu, 18 Dec 2025 20:39:43 GMT</pubDate>
-      <description>CONTEXT-driven development.
-&gt;
-&gt; This is about more than starting greenfield projects with new specs. Rather it's getting a full picture of your context that drives AI work on new or existing codebases.
-&gt;
-&gt; My boss started it, and now Conductor is available: https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/
+      <title>@geniusvczh: 要求AI一边写代码一边记录他的决策确实是有用的，gpt5.5一个request跑了6个小时，竟然完全没跑偏，中间都不知道压缩了多少次。而且文档也不用想怎么留下来，做完就扔不心疼🤪</title>
+      <link>https://x.com/geniusvczh/status/2050901508313772356</link>
+      <guid isPermaLink="false">2050901508313772356</guid>
+      <pubDate>Sun, 03 May 2026 11:33:18 GMT</pubDate>
+      <description>要求AI一边写代码一边记录他的决策确实是有用的，gpt5.5一个request跑了6个小时，竟然完全没跑偏，中间都不知道压缩了多少次。而且文档也不用想怎么留下来，做完就扔不心疼🤪
 
-Tweet: https://x.com/rseroter/status/2001754270803329180
-Primary URLs:
-- https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/</description>
+Tweet: https://x.com/geniusvczh/status/2050901508313772356</description>
     </item>
     <item>
-      <title>@tom_doerr: HTML forms without servers https://github.com/airform/airform/...</title>
-      <link>https://x.com/tom_doerr/status/2001619288466018703</link>
-      <guid isPermaLink="false">2001619288466018703</guid>
-      <pubDate>Thu, 18 Dec 2025 11:43:21 GMT</pubDate>
-      <description>HTML forms without servers
-&gt;
-&gt; https://github.com/airform/airform/ https://x.com/tom_doerr/status/2001619288466018703/photo/1
+      <title>@wangray: https://t.co/9dnBRn7iTN</title>
+      <link>https://x.com/wangray/status/2026300463583564112</link>
+      <guid isPermaLink="false">2026300463583564112</guid>
+      <pubDate>Tue, 24 Feb 2026 14:17:32 GMT</pubDate>
+      <description>https://t.co/9dnBRn7iTN
 
-Tweet: https://x.com/tom_doerr/status/2001619288466018703
+Tweet: https://x.com/wangray/status/2026300463583564112
+X article: https://x.com/wangray/article/2026300463583564112
 Primary URLs:
-- https://github.com/airform/airform/
-- https://x.com/tom_doerr/status/2001619288466018703/photo/1</description>
+- https://x.com/i/article/2026291692866084864</description>
     </item>
     <item>
-      <title>@tom_doerr: Framework for self-evolving autonomous language agents https://github.com/aiwaves-...</title>
-      <link>https://x.com/tom_doerr/status/2001604035502072187</link>
-      <guid isPermaLink="false">2001604035502072187</guid>
-      <pubDate>Thu, 18 Dec 2025 10:42:44 GMT</pubDate>
-      <description>Framework for self-evolving autonomous language agents
-&gt;
-&gt; https://github.com/aiwaves-cn/agents/ https://x.com/tom_doerr/status/2001604035502072187/photo/1
+      <title>@DataChaz: Hermes users after reading this: https://t.co/NoCjs0C2hQ https://t.co/pitxdsueh5</title>
+      <link>https://x.com/DataChaz/status/2051272231456510333</link>
+      <guid isPermaLink="false">2051272231456510333</guid>
+      <pubDate>Mon, 04 May 2026 12:06:25 GMT</pubDate>
+      <description>Hermes users after reading this: https://t.co/NoCjs0C2hQ https://t.co/pitxdsueh5
 
-Tweet: https://x.com/tom_doerr/status/2001604035502072187
+Tweet: https://x.com/DataChaz/status/2051272231456510333
 Primary URLs:
-- https://github.com/aiwaves-cn/agents/
-- https://x.com/tom_doerr/status/2001604035502072187/photo/1</description>
+- https://x.com/DataChaz/status/2051272231456510333/video/1
+- https://twitter.com/vmiss33/status/2050984556790939731
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg" medium="image" />
     </item>
     <item>
-      <title>@amix3k: Cursor feels like a company without product management. Just devs and designers running...</title>
-      <link>https://x.com/amix3k/status/2001546441370620330</link>
-      <guid isPermaLink="false">2001546441370620330</guid>
-      <pubDate>Thu, 18 Dec 2025 06:53:53 GMT</pubDate>
-      <description>Cursor feels like a company without product management. Just devs and designers running seemingly random experiments with little higher-level strategy.
-&gt;
-&gt; I use Cursor a lot, and it is becoming a very frustrating experience:
+      <title>@goodhunt: 鲸鱼兄弟们好，我是做 DeepSeek-TUI 的那个美国佬。 说真的，特别想跟国内的鲸鱼兄弟们一起混——但我的翻墙技能仅限于写代码，微信到现在都没搞定，属实有点丢人。...</title>
+      <link>https://x.com/goodhunt/status/2050044127656489095</link>
+      <guid isPermaLink="false">2050044127656489095</guid>
+      <pubDate>Fri, 01 May 2026 02:46:22 GMT</pubDate>
+      <description>鲸鱼兄弟们好，我是做 DeepSeek-TUI 的那个美国佬。
 &gt;
-&gt; — The interface is cluttered with tiny icons that get https://twitter.com/ky__zo/status/2001336328085192781
-
-Tweet: https://x.com/amix3k/status/2001546441370620330
-Primary URLs:
-- https://twitter.com/ky__zo/status/2001336328085192781</description>
-    </item>
-    <item>
-      <title>@Abmankendrick: Designers, this Airbnb Design System might be the best ever created in 2025 ✨...</title>
-      <link>https://x.com/Abmankendrick/status/2001584675983089703</link>
-      <guid isPermaLink="false">2001584675983089703</guid>
-      <pubDate>Thu, 18 Dec 2025 09:25:49 GMT</pubDate>
-      <description>Designers, this Airbnb Design System might be the best ever created in 2025 ✨
+&gt; 说真的，特别想跟国内的鲸鱼兄弟们一起混——但我的翻墙技能仅限于写代码，微信到现在都没搞定，属实有点丢人。
 &gt;
-&gt; Absolutely Sleek 🔥 https://x.com/Abmankendrick/status/2001584675983089703/video/1
+&gt; 求各位大佬帮个忙：
+&gt; 1）帮忙转发扩散一下，让这个开源终端工具翻过高墙被兄弟们看到
+&gt; 2）顺手帮我验证个微信号，我想建个群，大家一起聊
 
-Tweet: https://x.com/Abmankendrick/status/2001584675983089703
-Primary URLs:
-- https://x.com/Abmankendrick/status/2001584675983089703/video/1</description>
+Tweet: https://x.com/goodhunt/status/2050044127656489095</description>
     </item>
     <item>
-      <title>@mitsuhiko: I don't use Claude's plan mode. I made some potentially uninformed statements today...</title>
-      <link>https://x.com/mitsuhiko/status/2001393359424819509</link>
-      <guid isPermaLink="false">2001393359424819509</guid>
-      <pubDate>Wed, 17 Dec 2025 20:45:35 GMT</pubDate>
-      <description>I don't use Claude's plan mode. I made some potentially uninformed statements today about plan mode, so I learned what it does by looking at the code. This might or might not be useful to you. https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/
+      <title>@VersunPan: 分享下我从零开始配置 hermes 的整个聊天过程，内容很多，自己挑着看哈 https://t.co/Z9AaLN2GiS</title>
+      <link>https://x.com/VersunPan/status/2050483414848172357</link>
+      <guid isPermaLink="false">2050483414848172357</guid>
+      <pubDate>Sat, 02 May 2026 07:51:56 GMT</pubDate>
+      <description>分享下我从零开始配置 hermes 的整个聊天过程，内容很多，自己挑着看哈
+&gt; https://t.co/Z9AaLN2GiS
 
-Tweet: https://x.com/mitsuhiko/status/2001393359424819509
+Tweet: https://x.com/VersunPan/status/2050483414848172357
 Primary URLs:
-- https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/</description>
+- https://sharethis.chat/s/shr_ea8c534d113f</description>
     </item>
     <item>
-      <title>@gkxspace: 学英语，最顶级的信息差就是 Discord。国外最主流的免费社区，也是国内最被低估的学习神器。 有文字、语音、视频频道，你能随时和全球各地的人交流。...</title>
-      <link>https://x.com/gkxspace/status/2001087022300107237</link>
-      <guid isPermaLink="false">2001087022300107237</guid>
-      <pubDate>Wed, 17 Dec 2025 00:28:19 GMT</pubDate>
-      <description>学英语，最顶级的信息差就是 Discord。国外最主流的免费社区，也是国内最被低估的学习神器。
+      <title>@MatthewBerman: 5 BILLION tokens later, OpenClaw is now my company's operating system. I discovered...</title>
+      <link>https://x.com/MatthewBerman/status/2026450191759585776</link>
+      <guid isPermaLink="false">2026450191759585776</guid>
+      <pubDate>Wed, 25 Feb 2026 00:12:29 GMT</pubDate>
+      <description>5 BILLION tokens later, OpenClaw is now my company's operating system.
 &gt;
-&gt; 有文字、语音、视频频道，你能随时和全球各地的人交流。
+&gt; I discovered things most people never will.
 &gt;
-&gt; 超多免费的学习社区，随时可以找人练口语、找语伴互相教、找雅思备考搭子。
+&gt; (PS I solved the Anthropic OAuth loophole.)
 &gt;
-&gt; 我整理了 7 个质量超高的英语学习社区，按需求分类： https://x.com/gkxspace/status/2001087022300107237/photo/1 https://twitter.com/gkxspace/status/1989141231746666663
+&gt; Here’s exactly how it works.
+&gt;
+&gt; 0:00 Intro
+&gt; 0:16 Email Management
+&gt; 5:20 Sponsor
+&gt; 7:02 Inbox Pipeline
+&gt; 9:05 Multiple Prompt https://t.co/sLEg7tV9qY
 
-Tweet: https://x.com/gkxspace/status/2001087022300107237
+Tweet: https://x.com/MatthewBerman/status/2026450191759585776
 Primary URLs:
-- https://x.com/gkxspace/status/2001087022300107237/photo/1
-- https://twitter.com/gkxspace/status/1989141231746666663</description>
+- https://x.com/MatthewBerman/status/2026450191759585776/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg" medium="image" />
     </item>
     <item>
-      <title>@softwaredoug: Agentic Search will be rewriting search in 2026 Pricing for Cheat at Search to go up...</title>
-      <link>https://x.com/softwaredoug/status/2000940409825190240</link>
-      <guid isPermaLink="false">2000940409825190240</guid>
-      <pubDate>Tue, 16 Dec 2025 14:45:44 GMT</pubDate>
-      <description>Agentic Search will be rewriting search in 2026
-&gt;
-&gt; Pricing for Cheat at Search to go up next year due to demand. So it's the last time to get 20% off on a $1300 ticket
-&gt;
-&gt; https://maven.com/softwaredoug/cheat-at-search?promoCode=ps5
+      <title>@nicbstme: https://t.co/NoysA1ijBM</title>
+      <link>https://x.com/nicbstme/status/2051131906327212298</link>
+      <guid isPermaLink="false">2051131906327212298</guid>
+      <pubDate>Mon, 04 May 2026 02:48:49 GMT</pubDate>
+      <description>https://t.co/NoysA1ijBM
 
-Tweet: https://x.com/softwaredoug/status/2000940409825190240
+Tweet: https://x.com/nicbstme/status/2051131906327212298
+X article: https://x.com/nicbstme/article/2051131906327212298
 Primary URLs:
-- https://maven.com/softwaredoug/cheat-at-search?promoCode=ps5</description>
+- https://x.com/i/article/2051116213770883072
+- https://x.com/nicbstme/status/2015795605524901957?s=20</description>
     </item>
     <item>
-      <title>@GitHub_Daily: 写 Prompt 最头疼的往往不是构思，而是反复的 “试错”。改个词效果变差，加句话逻辑变乱，把大量时间耗在了手动调试上。 偶然在 GitHub 上看到 Salesforce...</title>
-      <link>https://x.com/GitHub_Daily/status/2001140322026578430</link>
-      <guid isPermaLink="false">2001140322026578430</guid>
-      <pubDate>Wed, 17 Dec 2025 04:00:06 GMT</pubDate>
-      <description>写 Prompt 最头疼的往往不是构思，而是反复的 “试错”。改个词效果变差，加句话逻辑变乱，把大量时间耗在了手动调试上。
+      <title>@aleenaamiir: Minimal Line + Color Accent Illustrations PROMPT: “Minimal illustration of...</title>
+      <link>https://x.com/aleenaamiir/status/2049400614195794230</link>
+      <guid isPermaLink="false">2049400614195794230</guid>
+      <pubDate>Wed, 29 Apr 2026 08:09:17 GMT</pubDate>
+      <description>Minimal Line + Color Accent Illustrations
 &gt;
-&gt; 偶然在 GitHub 上看到 Salesforce AI 研究院开源了 Promptomatix 这个框架，目的就是终结这种低效的手工调优。 https://x.com/GitHub_Daily/status/2001140322026578430/photo/1
+&gt; PROMPT:
+&gt; “Minimal illustration of [SUBJECT/OBJECT], clean thin lines with selective vibrant color accents, lots of negative space, refined composition, modern editorial style, elegant and simple.” https://t.co/VciDancjw5
 
-Tweet: https://x.com/GitHub_Daily/status/2001140322026578430
+Tweet: https://x.com/aleenaamiir/status/2049400614195794230
 Primary URLs:
-- https://x.com/GitHub_Daily/status/2001140322026578430/photo/1</description>
+- https://x.com/aleenaamiir/status/2049400614195794230/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg
+- https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg
+- https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg
+- https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg" medium="image" />
     </item>
     <item>
-      <title>@MotionLonelines: check this my cute owl animation created using @rive_app ....</title>
-      <link>https://x.com/MotionLonelines/status/2000866414736130414</link>
-      <guid isPermaLink="false">2000866414736130414</guid>
-      <pubDate>Tue, 16 Dec 2025 09:51:42 GMT</pubDate>
-      <description>check this my cute owl animation created using @rive_app .
-&gt; https://dribbble.com/shots/26883685-Blue-Owl-Bird-Mascot-Interactive-Rive-Animation https://x.com/MotionLonelines/status/2000866414736130414/video/1
+      <title>@LexnLin: UPDATE for imagegen-frontend-web skill more "creative" outputs - different layouts -...</title>
+      <link>https://x.com/LexnLin/status/2051008331355971979</link>
+      <guid isPermaLink="false">2051008331355971979</guid>
+      <pubDate>Sun, 03 May 2026 18:37:46 GMT</pubDate>
+      <description>UPDATE for imagegen-frontend-web skill
+&gt;
+&gt; more "creative" outputs
+&gt; - different layouts
+&gt; - better understanding of the request
+&gt;
+&gt; skill:
+&gt; https://t.co/Km3GoGoGXl https://t.co/XPc4wak4EU
 
-Tweet: https://x.com/MotionLonelines/status/2000866414736130414
+Tweet: https://x.com/LexnLin/status/2051008331355971979
 Primary URLs:
-- https://dribbble.com/shots/26883685-Blue-Owl-Bird-Mascot-Interactive-Rive-Animation
-- https://x.com/MotionLonelines/status/2000866414736130414/video/1</description>
+- https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md
+- https://x.com/LexnLin/status/2051008331355971979/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg
+- https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg
+- https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg
+- https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg" medium="image" />
+      <media:content url="https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg" medium="image" />
     </item>
     <item>
-      <title>@disinfeqt: It's so good. https://x.com/disinfeqt/status/2001124248413462580/photo/1</title>
-      <link>https://x.com/disinfeqt/status/2001124248413462580</link>
-      <guid isPermaLink="false">2001124248413462580</guid>
-      <pubDate>Wed, 17 Dec 2025 02:56:14 GMT</pubDate>
-      <description>It's so good. https://x.com/disinfeqt/status/2001124248413462580/photo/1
+      <title>@sanyi_eth_: 你们玩openclaw的嘴巴可真严啊！ 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了...</title>
+      <link>https://x.com/sanyi_eth_/status/2025975741503135842</link>
+      <guid isPermaLink="false">2025975741503135842</guid>
+      <pubDate>Mon, 23 Feb 2026 16:47:12 GMT</pubDate>
+      <description>你们玩openclaw的嘴巴可真严啊！
+&gt;
+&gt; 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了
+&gt; 结果突然发现，他妈的openclaw可以调用本地的claude客户端，一样可以间接使用claude模型...
 
-Tweet: https://x.com/disinfeqt/status/2001124248413462580
-Primary URLs:
-- https://x.com/disinfeqt/status/2001124248413462580/photo/1</description>
+Tweet: https://x.com/sanyi_eth_/status/2025975741503135842</description>
     </item>
     <item>
-      <title>@Ryan__Stephen: year 2 of playful ideas my favorites from 2025…...</title>
-      <link>https://x.com/Ryan__Stephen/status/2000587789457567776</link>
-      <guid isPermaLink="false">2000587789457567776</guid>
-      <pubDate>Mon, 15 Dec 2025 15:24:32 GMT</pubDate>
-      <description>year 2 of playful ideas
-&gt;
-&gt; my favorites from 2025… https://x.com/Ryan__Stephen/status/2000587789457567776/video/1
+      <title>@wadezone: 非常厉害的年轻人，值得一读 https://t.co/5f6dGLLrnO</title>
+      <link>https://x.com/wadezone/status/2050881245392040390</link>
+      <guid isPermaLink="false">2050881245392040390</guid>
+      <pubDate>Sun, 03 May 2026 10:12:47 GMT</pubDate>
+      <description>非常厉害的年轻人，值得一读 https://t.co/5f6dGLLrnO
 
-Tweet: https://x.com/Ryan__Stephen/status/2000587789457567776
+Tweet: https://x.com/wadezone/status/2050881245392040390
 Primary URLs:
-- https://x.com/Ryan__Stephen/status/2000587789457567776/video/1</description>
+- https://twitter.com/Russell3402/status/2050880340760383642</description>
     </item>
     <item>
-      <title>@AIatMeta: 🔉 Introducing SAM Audio, the first unified model that isolates any sound from complex...</title>
-      <link>https://x.com/AIatMeta/status/2000980784425931067</link>
-      <guid isPermaLink="false">2000980784425931067</guid>
-      <pubDate>Tue, 16 Dec 2025 17:26:10 GMT</pubDate>
-      <description>🔉 Introducing SAM Audio, the first unified model that isolates any sound from complex audio mixtures using text, visual, or span prompts.
-&gt;
-&gt; We’re sharing SAM Audio with the community, along with a perception encoder model, benchmarks and research papers, to empower others to https://x.com/AIatMeta/status/2000980784425931067/video/1
+      <title>@dddanielwang: 国际用户自愿只为deepseek打开“使用我的数据用于训练”，并且主动上传opus log 😳 https://t.co/fiOekJ5Ugp</title>
+      <link>https://x.com/dddanielwang/status/2048572906234581168</link>
+      <guid isPermaLink="false">2048572906234581168</guid>
+      <pubDate>Mon, 27 Apr 2026 01:20:16 GMT</pubDate>
+      <description>国际用户自愿只为deepseek打开“使用我的数据用于训练”，并且主动上传opus log
+&gt; 😳 https://t.co/fiOekJ5Ugp
 
-Tweet: https://x.com/AIatMeta/status/2000980784425931067
+Tweet: https://x.com/dddanielwang/status/2048572906234581168
 Primary URLs:
-- https://x.com/AIatMeta/status/2000980784425931067/video/1</description>
+- https://twitter.com/teortaxesTex/status/2048536908163133741</description>
     </item>
     <item>
-      <title>@bwertz: Excellent "AI eats the world" deck by @benedictevans https://www.ben-...</title>
-      <link>https://x.com/bwertz/status/2000950641158771014</link>
-      <guid isPermaLink="false">2000950641158771014</guid>
-      <pubDate>Tue, 16 Dec 2025 15:26:23 GMT</pubDate>
-      <description>Excellent "AI eats the world" deck by @benedictevans
-&gt;
-&gt; https://www.ben-evans.com/presentations
+      <title>@dotey: https://t.co/mD11STBLrs</title>
+      <link>https://x.com/dotey/status/2051057428075053120</link>
+      <guid isPermaLink="false">2051057428075053120</guid>
+      <pubDate>Sun, 03 May 2026 21:52:52 GMT</pubDate>
+      <description>https://t.co/mD11STBLrs
 
-Tweet: https://x.com/bwertz/status/2000950641158771014
+Tweet: https://x.com/dotey/status/2051057428075053120
+X article: https://x.com/dotey/article/2051057428075053120
 Primary URLs:
-- https://www.ben-evans.com/presentations</description>
+- https://x.com/i/article/2051055946420391936</description>
     </item>
     <item>
-      <title>@AdhamDannaway: ✨ 200+ visual design techniques Handy library of visual design styles and techniques...</title>
-      <link>https://x.com/AdhamDannaway/status/2000952306091848152</link>
-      <guid isPermaLink="false">2000952306091848152</guid>
-      <pubDate>Tue, 16 Dec 2025 15:33:00 GMT</pubDate>
-      <description>✨ 200+ visual design techniques
+      <title>@Prince_Canuma: One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I...</title>
+      <link>https://x.com/Prince_Canuma/status/2026051860377805300</link>
+      <guid isPermaLink="false">2026051860377805300</guid>
+      <pubDate>Mon, 23 Feb 2026 21:49:40 GMT</pubDate>
+      <description>One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I promised him I’ll help him resume his favourite hobby of reading books using AI.
 &gt;
-&gt; Handy library of visual design styles and techniques with examples and guides on how and when to use them.
+&gt; With the new MLX-Audio-Swift he can read the news on his iPhone :)
 &gt;
-&gt; Check it out 👇
-&gt; https://anthonyhobday.com/sideprojects/visualtechniques/ https://x.com/AdhamDannaway/status/2000952306091848152/photo/1
+&gt; Hope it empowers you too @tayarndt! https://t.co/0KNYiXppRL
 
-Tweet: https://x.com/AdhamDannaway/status/2000952306091848152
+Tweet: https://x.com/Prince_Canuma/status/2026051860377805300
 Primary URLs:
-- https://anthonyhobday.com/sideprojects/visualtechniques/
-- https://x.com/AdhamDannaway/status/2000952306091848152/photo/1</description>
+- https://twitter.com/tayarndt/status/2025980816183148726</description>
     </item>
     <item>
-      <title>@NNgroup: From the return of generalists to AI agents to iOS design missteps, 2025 had it all....</title>
-      <link>https://x.com/NNgroup/status/2000598252182294903</link>
-      <guid isPermaLink="false">2000598252182294903</guid>
-      <pubDate>Mon, 15 Dec 2025 16:06:07 GMT</pubDate>
-      <description>From the return of generalists to AI agents to iOS design missteps, 2025 had it all. Our top 10 most-read articles (plus 5 from 2024 you kept revisiting): https://www.nngroup.com/articles/top-articles-2025/?utm_campaign=&amp;utm_source=twitter&amp;utm_medium=social
-&gt;
-&gt; #UX #UXResearch
+      <title>@nateherk: https://t.co/YVrssGik6q</title>
+      <link>https://x.com/nateherk/status/2050941624578920535</link>
+      <guid isPermaLink="false">2050941624578920535</guid>
+      <pubDate>Sun, 03 May 2026 14:12:42 GMT</pubDate>
+      <description>https://t.co/YVrssGik6q
 
-Tweet: https://x.com/NNgroup/status/2000598252182294903
+Tweet: https://x.com/nateherk/status/2050941624578920535
+X article: https://x.com/nateherk/article/2050941624578920535
 Primary URLs:
-- https://www.nngroup.com/articles/top-articles-2025/?utm_campaign=&amp;utm_source=twitter&amp;utm_medium=social</description>
+- https://x.com/i/article/2050936677435068416</description>
     </item>
     <item>
-      <title>@HanchungLee: history does rhyme. https://www.youtube.com/watch?si=5u58iW1UVAQIjO8i&amp;v=4dUFIRj-...</title>
-      <link>https://x.com/HanchungLee/status/2000459413006794860</link>
-      <guid isPermaLink="false">2000459413006794860</guid>
-      <pubDate>Mon, 15 Dec 2025 06:54:25 GMT</pubDate>
-      <description>history does rhyme.
-&gt;
-&gt; https://www.youtube.com/watch?si=5u58iW1UVAQIjO8i&amp;v=4dUFIRj-BWo&amp;feature=youtu.be https://x.com/HanchungLee/status/2000459413006794860/photo/1 https://twitter.com/OfirPress/status/2000037821621662189
+      <title>@cherylnatsu: 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude...</title>
+      <link>https://x.com/cherylnatsu/status/2048239139104207061</link>
+      <guid isPermaLink="false">2048239139104207061</guid>
+      <pubDate>Sun, 26 Apr 2026 03:13:59 GMT</pubDate>
+      <description>看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude Code，我都不知道Claude和Dario喊着封锁到底成功封锁了谁，根本封不住最初想封的人，回头又出个分刷到比Opus略低的蒸馏模型。
 
-Tweet: https://x.com/HanchungLee/status/2000459413006794860
-Primary URLs:
-- https://www.youtube.com/watch?si=5u58iW1UVAQIjO8i&amp;v=4dUFIRj-BWo&amp;feature=youtu.be
-- https://x.com/HanchungLee/status/2000459413006794860/photo/1
-- https://twitter.com/OfirPress/status/2000037821621662189</description>
+Tweet: https://x.com/cherylnatsu/status/2048239139104207061</description>
     </item>
     <item>
-      <title>@janm_uiux: Stop designing custom icons for your UI design! Instead, try this Figma plugin....</title>
-      <link>https://x.com/janm_uiux/status/2000575541166903552</link>
-      <guid isPermaLink="false">2000575541166903552</guid>
-      <pubDate>Mon, 15 Dec 2025 14:35:52 GMT</pubDate>
-      <description>Stop designing custom icons for your UI design! Instead, try this Figma plugin. https://x.com/janm_uiux/status/2000575541166903552/video/1
+      <title>@_heyrico: https://t.co/hMvrrA2jr5</title>
+      <link>https://x.com/_heyrico/status/2050902054827360279</link>
+      <guid isPermaLink="false">2050902054827360279</guid>
+      <pubDate>Sun, 03 May 2026 11:35:28 GMT</pubDate>
+      <description>https://t.co/hMvrrA2jr5
 
-Tweet: https://x.com/janm_uiux/status/2000575541166903552
+Tweet: https://x.com/_heyrico/status/2050902054827360279
+X article: https://x.com/_heyrico/article/2050902054827360279
 Primary URLs:
-- https://x.com/janm_uiux/status/2000575541166903552/video/1</description>
+- https://x.com/i/article/2050889515783565312</description>
     </item>
     <item>
-      <title>@rive_app: Just a glimpse of what designers and devs can do with dynamic, responsive, fully...</title>
-      <link>https://x.com/rive_app/status/2000615985385292206</link>
-      <guid isPermaLink="false">2000615985385292206</guid>
-      <pubDate>Mon, 15 Dec 2025 17:16:35 GMT</pubDate>
-      <description>Just a glimpse of what designers and devs can do with dynamic, responsive, fully animatable text in Rive ⚡️⚔️ https://x.com/rive_app/status/2000615985385292206/video/1
+      <title>@Prince_Canuma: Shoutout to my wife for directing and editing the video ❤️ https://t.co/7Bfp0rp9ee</title>
+      <link>https://x.com/Prince_Canuma/status/2026074121671500238</link>
+      <guid isPermaLink="false">2026074121671500238</guid>
+      <pubDate>Mon, 23 Feb 2026 23:18:07 GMT</pubDate>
+      <description>Shoutout to my wife for directing and editing the video ❤️ https://t.co/7Bfp0rp9ee
 
-Tweet: https://x.com/rive_app/status/2000615985385292206
+Tweet: https://x.com/Prince_Canuma/status/2026074121671500238
 Primary URLs:
-- https://x.com/rive_app/status/2000615985385292206/video/1</description>
+- https://twitter.com/Prince_Canuma/status/2026022469010599954</description>
     </item>
     <item>
-      <title>@jerryjliu0: Building “RAG 2.0” is just making Claude Code running over your filesystem 🤖🗂️ To make...</title>
-      <link>https://x.com/jerryjliu0/status/2000677592559706396</link>
-      <guid isPermaLink="false">2000677592559706396</guid>
-      <pubDate>Mon, 15 Dec 2025 21:21:23 GMT</pubDate>
-      <description>Building “RAG 2.0” is just making Claude Code running over your filesystem 🤖🗂️
+      <title>@GlennGilmore: https://t.co/1j1BS3vn9N This to us, @brick_timber , is not new news but it is welcome...</title>
+      <link>https://x.com/GlennGilmore/status/2051023665593221208</link>
+      <guid isPermaLink="false">2051023665593221208</guid>
+      <pubDate>Sun, 03 May 2026 19:38:42 GMT</pubDate>
+      <description>https://t.co/1j1BS3vn9N
 &gt;
-&gt; To make this work well, you need to solve three things
-&gt; 1️⃣ Virtualize your filesystem to prevent the agent from messing stuff up. AgentFS by @tursodatabase is a nice example of how you can give the https://x.com/jerryjliu0/status/2000677592559706396/video/1 https://twitter.com/llama_index/status/2000612235505467824
+&gt; This to us, @brick_timber , is not new news but it is welcome confirmation of what has been happening in this neighborhood for almost 15 years.  Covid slowed the progression, but we are back on track in a big way.  Also, with the terrific work of
 
-Tweet: https://x.com/jerryjliu0/status/2000677592559706396
+Tweet: https://x.com/GlennGilmore/status/2051023665593221208
 Primary URLs:
-- https://x.com/jerryjliu0/status/2000677592559706396/video/1
-- https://twitter.com/llama_index/status/2000612235505467824</description>
+- https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1</description>
     </item>
     <item>
-      <title>@cameronmoll: Introducing Varchive, a showcase for AI-assisted builds, inspiration, and how-tos. ⤷...</title>
-      <link>https://x.com/cameronmoll/status/2000602764809060375</link>
-      <guid isPermaLink="false">2000602764809060375</guid>
-      <pubDate>Mon, 15 Dec 2025 16:24:03 GMT</pubDate>
-      <description>Introducing Varchive, a showcase for AI-assisted builds, inspiration, and how-tos.
-&gt;
-&gt; ⤷ https://varchive.ai/
-&gt;
-&gt; Built by yours truly and Adam Spooner with assistance from Cursor &amp;amp; Codex. Product submissions are now open! https://x.com/cameronmoll/status/2000602764809060375/video/1
+      <title>@fkysly: Opus 4.7 的黑话让我有点受不了，GPT-5.5 反而讲人话了，能理解了。我今天试试看能不能 Codex 完成所有工作，如果可以的话，就主力充值 Codex 了。</title>
+      <link>https://x.com/fkysly/status/2047533454842376225</link>
+      <guid isPermaLink="false">2047533454842376225</guid>
+      <pubDate>Fri, 24 Apr 2026 04:29:51 GMT</pubDate>
+      <description>Opus 4.7 的黑话让我有点受不了，GPT-5.5 反而讲人话了，能理解了。我今天试试看能不能 Codex 完成所有工作，如果可以的话，就主力充值 Codex 了。
 
-Tweet: https://x.com/cameronmoll/status/2000602764809060375
-Primary URLs:
-- https://varchive.ai/
-- https://x.com/cameronmoll/status/2000602764809060375/video/1</description>
+Tweet: https://x.com/fkysly/status/2047533454842376225</description>
     </item>
     <item>
-      <title>@davidhdev: A premium gradient animation coming to https://pro.reactbits.dev/ This color preset is...</title>
-      <link>https://x.com/davidhdev/status/2000489855717921255</link>
-      <guid isPermaLink="false">2000489855717921255</guid>
-      <pubDate>Mon, 15 Dec 2025 08:55:23 GMT</pubDate>
-      <description>A premium gradient animation coming to https://pro.reactbits.dev/
-&gt;
-&gt; This color preset is called “Spectre” https://x.com/davidhdev/status/2000489855717921255/video/1
+      <title>@deleted_neko: 我：我们来做个实验，换一个方法实现 Codex：好的，我已经做好实现了（+128 -64），我来检查一下有没有问题 我（脑内）：真不错，效率真高啊...</title>
+      <link>https://x.com/deleted_neko/status/2050162329279672565</link>
+      <guid isPermaLink="false">2050162329279672565</guid>
+      <pubDate>Fri, 01 May 2026 10:36:04 GMT</pubDate>
+      <description>我：我们来做个实验，换一个方法实现
+&gt; Codex：好的，我已经做好实现了（+128 -64），我来检查一下有没有问题
+&gt; 我（脑内）：真不错，效率真高啊
+&gt; Codex：为了避免我们的实验影响到现有的用户，我准备提供一个开关用来关掉新实现（+256 -128）
+&gt; 我（脑内）：嗯？
 
-Tweet: https://x.com/davidhdev/status/2000489855717921255
-Primary URLs:
-- https://pro.reactbits.dev/
-- https://x.com/davidhdev/status/2000489855717921255/video/1</description>
+Tweet: https://x.com/deleted_neko/status/2050162329279672565</description>
     </item>
     <item>
-      <title>@privatetalky: Introducing New Posidonia Wallpapers. https://www.privatetalky.com/blog/posidonia...</title>
-      <link>https://x.com/privatetalky/status/2000430171774390404</link>
-      <guid isPermaLink="false">2000430171774390404</guid>
-      <pubDate>Mon, 15 Dec 2025 04:58:13 GMT</pubDate>
-      <description>Introducing New Posidonia Wallpapers.
+      <title>@Prince_Canuma: Day 1 of 3 days of MLX: Introducing MLX-Audio-Swift SDK 🚀 A modular Swift SDK for voice...</title>
+      <link>https://x.com/Prince_Canuma/status/2026022469010599954</link>
+      <guid isPermaLink="false">2026022469010599954</guid>
+      <pubDate>Mon, 23 Feb 2026 19:52:52 GMT</pubDate>
+      <description>Day 1 of 3 days of MLX:
+&gt;
+&gt; Introducing MLX-Audio-Swift SDK 🚀
+&gt;
+&gt; A modular Swift SDK for voice agents and tasks on Apple Silicon built by @lllucas and yours truly.
 &gt;
-&gt; https://www.privatetalky.com/blog/posidonia https://x.com/privatetalky/status/2000430171774390404/photo/1
+&gt; iOS, macOS, and visionOS developers can now build native apps with real-time, on-device audio intelligence:
+&gt;
+&gt; 🗣️ https://t.co/GnXTLhhXdp
 
-Tweet: https://x.com/privatetalky/status/2000430171774390404
+Tweet: https://x.com/Prince_Canuma/status/2026022469010599954
 Primary URLs:
-- https://www.privatetalky.com/blog/posidonia
-- https://x.com/privatetalky/status/2000430171774390404/photo/1</description>
+- https://x.com/Prince_Canuma/status/2026022469010599954/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg" medium="image" />
     </item>
     <item>
-      <title>@net_science: Structural Reducibility of Hypergraphs...</title>
-      <link>https://x.com/net_science/status/2000136019702866426</link>
-      <guid isPermaLink="false">2000136019702866426</guid>
-      <pubDate>Sun, 14 Dec 2025 09:29:22 GMT</pubDate>
-      <description>Structural Reducibility of Hypergraphs https://journals.aps.org/prl/abstract/10.1103/xrn7-cz8v
+      <title>@rohit4verse: https://t.co/6n2BMCRQx1</title>
+      <link>https://x.com/rohit4verse/status/2050968031493550202</link>
+      <guid isPermaLink="false">2050968031493550202</guid>
+      <pubDate>Sun, 03 May 2026 15:57:38 GMT</pubDate>
+      <description>https://t.co/6n2BMCRQx1
 
-Tweet: https://x.com/net_science/status/2000136019702866426
+Tweet: https://x.com/rohit4verse/status/2050968031493550202
+X article: https://x.com/rohit4verse/article/2050968031493550202
 Primary URLs:
-- https://journals.aps.org/prl/abstract/10.1103/xrn7-cz8v</description>
+- https://x.com/i/article/2050613084558094336</description>
     </item>
     <item>
-      <title>@verge: Feeding the machine https://www.theverge.com/cs/features/831818/ai-mercor-handshake-...</title>
-      <link>https://x.com/verge/status/2000537291677401550</link>
-      <guid isPermaLink="false">2000537291677401550</guid>
-      <pubDate>Mon, 15 Dec 2025 12:03:53 GMT</pubDate>
-      <description>Feeding the machine https://www.theverge.com/cs/features/831818/ai-mercor-handshake-scale-surge-staffing-companies
+      <title>@fkysly: 经过一上午的体验测试，已经充值 Codex Pro Plan 了，然后搞上 Sub2API。 全面从 Opus 4.7 切到 Codex GPT-5.5...</title>
+      <link>https://x.com/fkysly/status/2047571947559735698</link>
+      <guid isPermaLink="false">2047571947559735698</guid>
+      <pubDate>Fri, 24 Apr 2026 07:02:49 GMT</pubDate>
+      <description>经过一上午的体验测试，已经充值 Codex Pro Plan 了，然后搞上 Sub2API。
+&gt;
+&gt; 全面从 Opus 4.7 切到 Codex GPT-5.5 了，再也不用忍受什么傻逼封号、网络问题了
 
-Tweet: https://x.com/verge/status/2000537291677401550
-Primary URLs:
-- https://www.theverge.com/cs/features/831818/ai-mercor-handshake-scale-surge-staffing-companies</description>
+Tweet: https://x.com/fkysly/status/2047571947559735698</description>
     </item>
     <item>
-      <title>@immersivetran: Sonniss 年度福利超劲爆，超过 200GB...</title>
-      <link>https://x.com/immersivetran/status/2000527067121873146</link>
-      <guid isPermaLink="false">2000527067121873146</guid>
-      <pubDate>Mon, 15 Dec 2025 11:23:15 GMT</pubDate>
-      <description>Sonniss 年度福利超劲爆，超过 200GB 的音效库，免费下载，2015-2024所有的音效包都免费下载，只要你现在在做短视频或者未来你可能需要做短视频，那么这个绝对不能错过，赶紧囤起来！
+      <title>@yetone: 终于有 Coding Agent 做 goal 了！圆梦了 https://t.co/uZyWNqvaEC https://t.co/ewAB1T7wGR</title>
+      <link>https://x.com/yetone/status/2050187781264359740</link>
+      <guid isPermaLink="false">2050187781264359740</guid>
+      <pubDate>Fri, 01 May 2026 12:17:12 GMT</pubDate>
+      <description>终于有 Coding Agent 做 goal 了！圆梦了
 &gt;
-&gt; Sonniss 是一家专业做音频资源和声音设计的公司，每年在 https://x.com/immersivetran/status/2000527067121873146/photo/1
+&gt; https://t.co/uZyWNqvaEC https://t.co/ewAB1T7wGR
 
-Tweet: https://x.com/immersivetran/status/2000527067121873146
+Tweet: https://x.com/yetone/status/2050187781264359740
 Primary URLs:
-- https://x.com/immersivetran/status/2000527067121873146/photo/1</description>
+- https://x.com/yetone/status/2029062266956742748?s=46
+- https://twitter.com/fcoury/status/2049917871799636201</description>
     </item>
     <item>
-      <title>@natolambert: Open models year in review What a year! We're back with an updated open model builder...</title>
-      <link>https://x.com/natolambert/status/2000299636863734026</link>
-      <guid isPermaLink="false">2000299636863734026</guid>
-      <pubDate>Sun, 14 Dec 2025 20:19:31 GMT</pubDate>
-      <description>Open models year in review
-&gt; What a year! We're back with an updated open model builder tier list, our top models of the year, and our predictions for 2026.
+      <title>@ramin_m_h: MLX king shipped a strong and important SDK: MLX-Audio-Swift. You must check it out!...</title>
+      <link>https://x.com/ramin_m_h/status/2026058929348731101</link>
+      <guid isPermaLink="false">2026058929348731101</guid>
+      <pubDate>Mon, 23 Feb 2026 22:17:45 GMT</pubDate>
+      <description>MLX king shipped a strong and important SDK: MLX-Audio-Swift.
 &gt;
-&gt; First, the winning models:
-&gt; 1. DeepSeek R1 (@deepseek_ai): Transformed the AI world
-&gt; 2. Qwen 3 Family (@AlibabaGroup): The new https://x.com/natolambert/status/2000299636863734026/photo/1
+&gt; You must check it out! https://t.co/oUSgZ8g2iv
 
-Tweet: https://x.com/natolambert/status/2000299636863734026
+Tweet: https://x.com/ramin_m_h/status/2026058929348731101
 Primary URLs:
-- https://x.com/natolambert/status/2000299636863734026/photo/1</description>
+- https://twitter.com/Prince_Canuma/status/2026022469010599954</description>
     </item>
     <item>
-      <title>@huang_chao4969: Just open-sourced AnyTool ✨ - tackling some real pain points in agent tool...</title>
-      <link>https://x.com/huang_chao4969/status/2000404272320766313</link>
-      <guid isPermaLink="false">2000404272320766313</guid>
-      <pubDate>Mon, 15 Dec 2025 03:15:18 GMT</pubDate>
-      <description>Just open-sourced AnyTool ✨ - tackling some real pain points in agent tool orchestration 🛠️
+      <title>@grapeot: 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。...</title>
+      <link>https://x.com/grapeot/status/2050968710056444112</link>
+      <guid isPermaLink="false">2050968710056444112</guid>
+      <pubDate>Sun, 03 May 2026 16:00:20 GMT</pubDate>
+      <description>我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。
 &gt;
-&gt; Building AI agents is still pretty challenging - even with MCP around, tool orchestration has become one of the biggest headaches. We're seeing issues like overwhelming tool contexts,
+&gt; 更难、也更大的地方，是那些过去一直停在软件边界外的小生意：比如一家本地招牌打印店，订单从电话、邮件、路边来，每单都要重新确认材料、尺寸、设计、安装和排期。
 
-Tweet: https://x.com/huang_chao4969/status/2000404272320766313</description>
+Tweet: https://x.com/grapeot/status/2050968710056444112</description>
     </item>
     <item>
-      <title>@tom_doerr: Library for creating graph data structures https://github.com/dominikbraun/graph/...</title>
-      <link>https://x.com/tom_doerr/status/2000059149707526655</link>
-      <guid isPermaLink="false">2000059149707526655</guid>
-      <pubDate>Sun, 14 Dec 2025 04:23:55 GMT</pubDate>
-      <description>Library for creating graph data structures
-&gt;
-&gt; https://github.com/dominikbraun/graph/ https://x.com/tom_doerr/status/2000059149707526655/photo/1
+      <title>@FradSer: 好东西 https://t.co/A9bVWjkexa</title>
+      <link>https://x.com/FradSer/status/2050150964741759442</link>
+      <guid isPermaLink="false">2050150964741759442</guid>
+      <pubDate>Fri, 01 May 2026 09:50:54 GMT</pubDate>
+      <description>好东西 https://t.co/A9bVWjkexa
 
-Tweet: https://x.com/tom_doerr/status/2000059149707526655
+Tweet: https://x.com/FradSer/status/2050150964741759442
 Primary URLs:
-- https://github.com/dominikbraun/graph/
-- https://x.com/tom_doerr/status/2000059149707526655/photo/1</description>
+- https://twitter.com/dingyi/status/2050137408268886450</description>
     </item>
   </channel>
 </rss>
