@@ -4,9 +4,45 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 09:23:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:41:51 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
+    <item>
+      <title>@dingyi: 好看！ https://twitter.com/op7418/status/2053657613460771142</title>
+      <link>https://x.com/dingyi/status/2053763539203232118</link>
+      <guid isPermaLink="false">2053763539203232118</guid>
+      <pubDate>Mon, 11 May 2026 09:05:59 GMT</pubDate>
+      <description>好看！ https://twitter.com/op7418/status/2053657613460771142
+
+Tweet: https://x.com/dingyi/status/2053763539203232118
+Primary URLs:
+- https://twitter.com/op7418/status/2053657613460771142</description>
+    </item>
+    <item>
+      <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋...</title>
+      <link>https://x.com/IceBearMiner/status/2053645573777969252</link>
+      <guid isPermaLink="false">2053645573777969252</guid>
+      <pubDate>Mon, 11 May 2026 01:17:14 GMT</pubDate>
+      <description>确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://x.com/IceBearMiner/status/2053645573777969252/photo/1 https://twitter.com/shachepi/status/2053463461729046817
+
+Tweet: https://x.com/IceBearMiner/status/2053645573777969252
+Primary URLs:
+- https://x.com/IceBearMiner/status/2053645573777969252/photo/1
+- https://twitter.com/shachepi/status/2053463461729046817</description>
+    </item>
+    <item>
+      <title>@lijigang: 给这个世界的一份答卷: https://github.com/lijigang/ljg-skills</title>
+      <link>https://x.com/lijigang/status/2053772293864857859</link>
+      <guid isPermaLink="false">2053772293864857859</guid>
+      <pubDate>Mon, 11 May 2026 09:40:46 GMT</pubDate>
+      <description>给这个世界的一份答卷:
+&gt;
+&gt; https://github.com/lijigang/ljg-skills
+
+Tweet: https://x.com/lijigang/status/2053772293864857859
+Primary URLs:
+- https://github.com/lijigang/ljg-skills</description>
+    </item>
     <item>
       <title>@landiantech: 迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的...</title>
       <link>https://x.com/landiantech/status/2053672865158062545</link>
@@ -101,7 +137,7 @@ Primary URLs:
 &gt;
 &gt; 到处试来试去，不是效果一般就是安装麻烦，浪费时间。
 &gt;
-&gt; 所以我把日常高频用、反复验证过的几个 Skills https://twitter.com/iamzhihui/status/2004478327311028335
+&gt; 所以我把日常高频用、反复验证过的几个 Skills https://twitter.com/780262031899242496/status/2004478327311028335
 
 Tweet: https://x.com/iamzhihui/status/2004854569462100176
 Primary URLs:
@@ -1328,41 +1364,6 @@ Tweet: https://x.com/tom_doerr/status/2000059149707526655
 Primary URLs:
 - https://github.com/dominikbraun/graph/
 - https://x.com/tom_doerr/status/2000059149707526655/photo/1</description>
-    </item>
-    <item>
-      <title>@dmartincy: TIL about xcede, a CLI tool to build and debug iOS and macOS apps without Xcode (the...</title>
-      <link>https://x.com/dmartincy/status/2000241872304779536</link>
-      <guid isPermaLink="false">2000241872304779536</guid>
-      <pubDate>Sun, 14 Dec 2025 16:29:59 GMT</pubDate>
-      <description>TIL about xcede, a CLI tool to build and debug iOS and macOS apps without Xcode (the author uses the Zed editor): https://codeberg.org/luxmentis/xcede/
-
-Tweet: https://x.com/dmartincy/status/2000241872304779536
-Primary URLs:
-- https://codeberg.org/luxmentis/xcede/</description>
-    </item>
-    <item>
-      <title>@miantiao_me: 这个 Design Prompts 网站真不错，里边有 30+ 常见网页设计风格，提供了 Agent 的 Prompt。 放到 Claude Code 的 Subagent...</title>
-      <link>https://x.com/miantiao_me/status/2000166814379106687</link>
-      <guid isPermaLink="false">2000166814379106687</guid>
-      <pubDate>Sun, 14 Dec 2025 11:31:44 GMT</pubDate>
-      <description>这个 Design Prompts 网站真不错，里边有 30+ 常见网页设计风格，提供了 Agent 的 Prompt。
-&gt;
-&gt; 放到 Claude Code 的 Subagent 中，就可以让这些 AI 网页设计师快速为你的网站生成美观统一的界面了。 https://x.com/miantiao_me/status/2000166814379106687/photo/1
-
-Tweet: https://x.com/miantiao_me/status/2000166814379106687
-Primary URLs:
-- https://x.com/miantiao_me/status/2000166814379106687/photo/1</description>
-    </item>
-    <item>
-      <title>@simonw: Here's Emil's 17 step guide to how he used VS Code agent mode plus Claude 3.7 Sonnet,...</title>
-      <link>https://x.com/simonw/status/2000253553949241597</link>
-      <guid isPermaLink="false">2000253553949241597</guid>
-      <pubDate>Sun, 14 Dec 2025 17:16:24 GMT</pubDate>
-      <description>Here's Emil's 17 step guide to how he used VS Code agent mode plus Claude 3.7 Sonnet, Gemini Pro 3 and Claude Opus to build the new library - it's a fantastic case study in using LLMs for serious, prediction quality code (vibe engineering, not vibe coding) https://friendlybit.com/python/writing-justhtml-with-coding-agents/
-
-Tweet: https://x.com/simonw/status/2000253553949241597
-Primary URLs:
-- https://friendlybit.com/python/writing-justhtml-with-coding-agents/</description>
     </item>
   </channel>
 </rss>
