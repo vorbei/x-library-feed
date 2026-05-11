@@ -457,11 +457,11 @@ def merge_items(
             sources = [source for source in sources if source != "favorite"]
         item["sources"] = sorted(set(sources))
 
-    def sort_key(item: dict[str, Any]) -> tuple[int, str, str]:
+    def sort_key(item: dict[str, Any]) -> tuple[str, int, str]:
         rank = fetched_order.get(item.get("id", ""), 999999)
-        return (rank, item.get("first_seen_at", ""), item.get("created_at", ""))
+        return (item.get("first_seen_at", ""), -rank, item.get("created_at", ""))
 
-    return sorted(by_id.values(), key=sort_key, reverse=False)
+    return sorted(by_id.values(), key=sort_key, reverse=True)
 
 
 def update_thread_urls(
