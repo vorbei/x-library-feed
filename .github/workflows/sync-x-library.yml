@@ -39,6 +39,7 @@ jobs:
           X_THREAD_MAX_FETCHES: ${{ vars.X_THREAD_MAX_FETCHES || '40' }}
           PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL || 'https://raw.githubusercontent.com/vorbei/x-library-feed/main' }}
           X_TOKEN_STATE_FILE: ${{ runner.temp }}/rotated_tokens.env
+          X_AUTH_DEBUG: "1"
         run: |
           if [ -z "$X_USER_ACCESS_TOKEN_1" ] && [ -z "$X_REFRESH_TOKEN_1" ]; then
             echo "::warning::Account 1 X secrets are not set; skipping sync."

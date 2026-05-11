@@ -95,6 +95,17 @@ class TokenProvider:
             self.client_secret = os.environ.get("X_CLIENT_SECRET", "").strip()
 
     def get(self) -> str:
+        if os.environ.get("X_AUTH_DEBUG") == "1":
+            import hashlib
+            at_fp = hashlib.sha256(self.access_token.encode("utf-8")).hexdigest()[:12] if self.access_token else "<empty>"
+            rt_fp = hashlib.sha256(self.refresh_token.encode("utf-8")).hexdigest()[:12] if self.refresh_token else "<empty>"
+            print(
+                f"::notice::TokenProvider suffix={self.env_suffix!r} "
+                f"access_token len={len(self.access_token)} sha256_12={at_fp} "
+                f"refresh_token len={len(self.refresh_token)} sha256_12={rt_fp} "
+                f"client_id_len={len(self.client_id)} client_secret_len={len(self.client_secret)}",
+                file=sys.stderr,
+            )
         if self.access_token:
             return self.access_token
         if self.refresh_token and self.client_id:
