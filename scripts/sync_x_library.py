@@ -10,8 +10,10 @@ today's archive snapshot.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
+import re
 import subprocess
 import sys
 import textwrap
@@ -21,6 +23,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from email.utils import format_datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 from xml.sax.saxutils import escape
@@ -55,6 +58,9 @@ TWEET_FIELDS = ",".join(
 EXPANSIONS = "author_id,attachments.media_keys"
 USER_FIELDS = "username,name"
 MEDIA_FIELDS = "media_key,type,url,preview_image_url,width,height,alt_text"
+MAX_HTML_BYTES = 1_500_000
+MAX_TEXT_EXCERPT_CHARS = 4000
+FETCH_USER_AGENT = "Mozilla/5.0 (compatible; x-library-feed/1.0; +https://github.com/vorbei/x-library-feed)"
 
 
 def utc_now() -> datetime:
@@ -282,12 +288,139 @@ def extract_article_urls(tweet: dict[str, Any]) -> list[str]:
 
 
 def re_find_urls(text: str) -> list[str]:
-    import re
-
     urls = []
     for match in re.finditer(r"https?://[^\s<>)\"']+", text):
         urls.append(match.group(0).rstrip(".,;:!?]"))
     return urls
+
+
+class PageExtractor(HTMLParser):
+    def __init__(self, base_url: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.title = ""
+        self.description = ""
+        self.images: list[str] = []
+        self.text_parts: list[str] = []
+        self._in_title = False
+        self._skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attrs_dict = {key.lower(): value or "" for key, value in attrs}
+        tag = tag.lower()
+        if tag in {"script", "style", "svg", "noscript"}:
+            self._skip_depth += 1
+            return
+        if tag == "title":
+            self._in_title = True
+            return
+        if tag == "meta":
+            key = (attrs_dict.get("name") or attrs_dict.get("property") or "").lower()
+            content = attrs_dict.get("content", "").strip()
+            if key in {"description", "og:description", "twitter:description"} and content and not self.description:
+                self.description = content
+            if key in {"og:title", "twitter:title"} and content and not self.title:
+                self.title = content
+            if key in {"og:image", "og:image:url", "twitter:image", "twitter:image:src"} and content:
+                self.add_image(content)
+            return
+        if tag == "img":
+            src = attrs_dict.get("src") or attrs_dict.get("data-src") or attrs_dict.get("data-original")
+            if src:
+                self.add_image(src)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag in {"script", "style", "svg", "noscript"} and self._skip_depth:
+            self._skip_depth -= 1
+        if tag == "title":
+            self._in_title = False
+
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth:
+            return
+        text = " ".join(data.split())
+        if not text:
+            return
+        if self._in_title:
+            self.title = (self.title + " " + text).strip()
+            return
+        if len(" ".join(self.text_parts)) < MAX_TEXT_EXCERPT_CHARS * 2:
+            self.text_parts.append(text)
+
+    def add_image(self, url: str) -> None:
+        absolute = urllib.parse.urljoin(self.base_url, html.unescape(url.strip()))
+        if absolute.startswith("http") and absolute not in self.images:
+            self.images.append(absolute)
+
+    def text_excerpt(self) -> str:
+        text = " ".join(self.text_parts)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:MAX_TEXT_EXCERPT_CHARS]
+
+
+def should_fetch_link(url: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    if parsed.scheme not in {"http", "https"}:
+        return False
+    host = parsed.netloc.lower()
+    if any(domain in host for domain in ["x.com", "twitter.com", "t.co", "pic.x.com"]):
+        return False
+    return True
+
+
+def fetch_link_content(url: str) -> dict[str, Any]:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": FETCH_USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/*;q=0.8,*/*;q=0.5",
+        },
+        method="GET",
+    )
+    result: dict[str, Any] = {
+        "url": url,
+        "final_url": url,
+        "content_type": "",
+        "title": "",
+        "description": "",
+        "text_excerpt": "",
+        "image_urls": [],
+    }
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            final_url = resp.geturl()
+            content_type = resp.headers.get("content-type", "")
+            raw = resp.read(MAX_HTML_BYTES)
+    except Exception as e:
+        result["fetch_error"] = str(e)[:300]
+        return result
+
+    result["final_url"] = final_url
+    result["content_type"] = content_type
+    if content_type.lower().startswith("image/"):
+        result["image_urls"] = [final_url]
+        return result
+    if "html" not in content_type.lower() and "xml" not in content_type.lower():
+        return result
+
+    charset_match = re.search(r"charset=([^;]+)", content_type, re.I)
+    encoding = charset_match.group(1).strip() if charset_match else "utf-8"
+    markup = raw.decode(encoding, "replace")
+    parser = PageExtractor(final_url)
+    try:
+        parser.feed(markup)
+    except Exception as e:
+        result["fetch_error"] = f"HTML parse error: {e}"[:300]
+    result.update(
+        {
+            "title": html.unescape(parser.title).strip(),
+            "description": html.unescape(parser.description).strip(),
+            "text_excerpt": html.unescape(parser.text_excerpt()).strip(),
+            "image_urls": parser.images[:12],
+        }
+    )
+    return result
 
 
 def clean_text(tweet: dict[str, Any]) -> str:
@@ -547,6 +680,35 @@ def update_thread_urls(
     return threads
 
 
+def update_linked_content(
+    items: list[dict[str, Any]],
+    existing_content: dict[str, dict[str, Any]],
+    max_fetches: int,
+) -> dict[str, dict[str, Any]]:
+    content = dict(existing_content)
+    fetched = 0
+    for item in items:
+        urls = []
+        seen: set[str] = set()
+        for url in [*(item.get("primary_urls") or []), *(item.get("image_urls") or [])]:
+            if url not in seen:
+                seen.add(url)
+                urls.append(url)
+        item_content = []
+        for url in urls:
+            if not should_fetch_link(url):
+                continue
+            if url not in content:
+                if fetched >= max_fetches:
+                    continue
+                content[url] = fetch_link_content(url)
+                fetched += 1
+                time.sleep(0.2)
+            item_content.append(content[url])
+        item["linked_content"] = item_content
+    return content
+
+
 def markdown_quote(text: str, width: int = 1000) -> str:
     collapsed = "\n".join(line.rstrip() for line in text.strip().splitlines()).strip()
     if len(collapsed) > width:
@@ -612,6 +774,18 @@ def render_markdown(store: dict[str, Any]) -> str:
                     continue
                 label = media_item.get("alt_text") or media_item.get("type") or label_for_url(url)
                 lines.append(f"  - [{label}]({url})")
+        linked_content = item.get("linked_content") or []
+        if linked_content:
+            lines.append("- Linked content:")
+            for linked in linked_content:
+                url = linked.get("final_url") or linked.get("url")
+                title = linked.get("title") or linked.get("description") or label_for_url(url)
+                lines.append(f"  - [{title}]({url})")
+                if linked.get("image_urls"):
+                    lines.append(f"    Images: {', '.join(linked.get('image_urls')[:4])}")
+                if linked.get("text_excerpt"):
+                    excerpt = textwrap.shorten(linked.get("text_excerpt"), width=240, placeholder="...")
+                    lines.append(f"    Text: {excerpt}")
 
         thread_urls = threads.get(item.get("conversation_id") or "") or []
         if thread_urls:
@@ -700,11 +874,29 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
             description_lines.append("Primary URLs:")
             description_lines.extend(f"- {url}" for url in primary_urls)
         image_urls = item.get("image_urls") or []
+        linked_content = item.get("linked_content") or []
+        linked_image_urls = []
+        for linked in linked_content:
+            for url in linked.get("image_urls") or []:
+                if url not in linked_image_urls:
+                    linked_image_urls.append(url)
         if image_urls:
             description_lines.append("Image URLs:")
             description_lines.extend(f"- {url}" for url in image_urls)
+        if linked_content:
+            description_lines.append("Linked content:")
+            for linked in linked_content[:5]:
+                linked_url = linked.get("final_url") or linked.get("url")
+                label = linked.get("title") or linked.get("description") or linked_url
+                description_lines.append(f"- {label}: {linked_url}")
+                if linked.get("text_excerpt"):
+                    description_lines.append(textwrap.shorten(linked.get("text_excerpt"), width=500, placeholder="..."))
         media_xml = []
-        for url in image_urls[:4]:
+        rss_image_urls = []
+        for url in [*image_urls, *linked_image_urls]:
+            if url not in rss_image_urls:
+                rss_image_urls.append(url)
+        for url in rss_image_urls[:8]:
             media_xml.append(f"      <media:content url=\"{escape(url)}\" medium=\"image\" />")
         lines.extend(
             [
@@ -739,7 +931,9 @@ def main() -> None:
     parser.add_argument("--rss-out", default="rss.xml")
     parser.add_argument("--public-base-url", default=os.environ.get("PUBLIC_BASE_URL", "https://vorbei.github.io/research-routine"))
     parser.add_argument("--auth-mode", choices=["auto", "oauth", "xurl"], default=os.environ.get("X_AUTH_MODE", "auto"))
+    parser.add_argument("--max-linked-url-fetches", type=int, default=int(os.environ.get("X_LINKED_URL_MAX_FETCHES", "80")))
     parser.add_argument("--skip-thread-urls", action="store_true")
+    parser.add_argument("--skip-linked-content", action="store_true")
     args = parser.parse_args()
 
     accounts = load_accounts(args.account, args.user_id)
@@ -789,6 +983,9 @@ def main() -> None:
             all_users,
             args.max_thread_fetches,
         )
+    linked_content = existing.get("linked_content_by_url") or {}
+    if not args.skip_linked_content:
+        linked_content = update_linked_content(items, linked_content, args.max_linked_url_fetches)
 
     store = {
         "schema_version": SCHEMA_VERSION,
@@ -796,6 +993,7 @@ def main() -> None:
         "accounts": [{"user_id": a["user_id"], "username": a["username"]} for a in accounts],
         "items": items,
         "thread_urls_by_conversation": thread_urls,
+        "linked_content_by_url": linked_content,
     }
     write_json(json_path, store)
     write_markdown(md_path, store)
