@@ -2,11 +2,11 @@
 <rss version="2.0">
   <channel>
     <title>X Bookmarks + Favorites</title>
-    <link>https://vorbei.github.io/research-routine/public/x-bookmarks-favorites.md</link>
+    <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 03:18:20 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://vorbei.github.io/research-routine/rss.xml" rel="self" type="application/rss+xml" />
-    <docs>https://vorbei.github.io/research-routine/archive/x-bookmarks-favorites/2026-05-11.md</docs>
+    <lastBuildDate>Mon, 11 May 2026 03:26:14 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
+    <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
     <item>
       <title>@hongming731: 阿里这篇关于 AI Native 时代组织研发的思考非常值得一读。它在思路一个非常重要的底层问题：过去两千年的组织形态，都是围绕人的局限建立起来的。...</title>
       <link>https://x.com/hongming731/status/2053314677237846060</link>
