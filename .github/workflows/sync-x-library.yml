@@ -2,8 +2,9 @@ name: Sync X Library Feed
 
 on:
   schedule:
-    - cron: "17 * * * *"
-    - cron: "47 * * * *"
+    # Hourly at :17 UTC, only during Beijing 07:00–01:00 active window.
+    # UTC 23 = Beijing 07; UTC 0–17 = Beijing 08–01. Quiet on Beijing 02–06.
+    - cron: "17 0-17,23 * * *"
   workflow_dispatch:
 
 permissions:
