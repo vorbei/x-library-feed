@@ -4,7 +4,7 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 10:56:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 11:00:26 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
     <item>
@@ -18,7 +18,9 @@ Tweet: https://x.com/leige88888/status/2053469215785652365
 Primary URLs:
 - https://x.com/leige88888/status/2053469215785652365/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png</description>
+- https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png
+Linked content:
+- https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png: https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png</description>
       <media:content url="https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png" medium="image" />
     </item>
     <item>
@@ -32,7 +34,11 @@ Image URLs:
 
 Tweet: https://x.com/opencode/status/2052687449508266270
 Primary URLs:
-- https://status.deepseek.com/</description>
+- https://status.deepseek.com/
+Linked content:
+- DeepSeek Service Status: https://status.deepseek.com/
+Subscribe to Updates Subscribe x Get email notifications whenever DeepSeek Service creates , updates or resolves an incident. Email address: Enter OTP: Resend OTP in: seconds Didn't receive the OTP? Resend OTP This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Get incident updates and maintenance status messages in Slack. Subscribe via Slack By subscribing you agree to the Atlassian Cloud Terms of Service and acknowledge Atlassian's Privacy Policy ....</description>
+      <media:content url="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/846087/img_v3_02ap_5a372639-d949-4d25-8afd-97286c550d5g-a0572108-63b9-42cb-ab32-0f870aa14c4e.png" medium="image" />
     </item>
     <item>
       <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3</title>
@@ -46,7 +52,9 @@ Primary URLs:
 - https://x.com/IceBearMiner/status/2053645573777969252/photo/1
 - https://twitter.com/shachepi/status/2053463461729046817
 Image URLs:
-- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg</description>
+- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg
+Linked content:
+- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg: https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg" medium="image" />
     </item>
     <item>
@@ -74,7 +82,9 @@ Tweet: https://x.com/Aurelien_Gz/status/2053156936552415606
 Primary URLs:
 - https://x.com/azhassan_/status/2018342393410400408/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg: https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg" medium="image" />
     </item>
     <item>
@@ -111,7 +121,11 @@ Primary URLs:
 
 Tweet: https://x.com/lijigang/status/2053772293864857859
 Primary URLs:
-- https://github.com/lijigang/ljg-skills</description>
+- https://github.com/lijigang/ljg-skills
+Linked content:
+- GitHub - lijigang/ljg-skills · GitHub: https://github.com/lijigang/ljg-skills
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...</description>
+      <media:content url="https://opengraph.githubassets.com/cf27e72df9cf0f1ee91532cc5db00895a27d1ece29df32616d07b1163782252a/lijigang/ljg-skills" medium="image" />
     </item>
     <item>
       <title>@aoim33: 人类的本能 本能一 食欲 本能二 性欲 本能三 睡眠欲 本能寺 烧掉了</title>
@@ -140,7 +154,9 @@ Tweet: https://x.com/jwsaml/status/2047978435629474173
 Primary URLs:
 - https://x.com/jwsaml/status/2047978435629474173/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg</description>
+- https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg
+Linked content:
+- https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg: https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg" medium="image" />
     </item>
     <item>
@@ -158,7 +174,9 @@ Tweet: https://x.com/vista8/status/2053464149997634043
 Primary URLs:
 - https://x.com/vista8/status/2053464149997634043/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg</description>
+- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg
+Linked content:
+- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg: https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg" medium="image" />
     </item>
     <item>
@@ -174,7 +192,9 @@ Tweet: https://x.com/landiantech/status/2053672865158062545
 Primary URLs:
 - https://x.com/landiantech/status/2053672865158062545/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg</description>
+- https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg
+Linked content:
+- https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg: https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg" medium="image" />
     </item>
     <item>
@@ -194,7 +214,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg
 - https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg
 - https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg
-- https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg</description>
+- https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg: https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg
+- https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg: https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg
+- https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg: https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg
+- https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg: https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg" medium="image" />
@@ -211,7 +236,9 @@ Tweet: https://x.com/hongming731/status/2053314677237846060
 Primary URLs:
 - https://x.com/hongming731/status/2053314677237846060/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg</description>
+- https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg
+Linked content:
+- https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg: https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg" medium="image" />
     </item>
     <item>
@@ -230,7 +257,9 @@ Tweet: https://x.com/jinchenma_ai/status/2053039222244962728
 Primary URLs:
 - https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg</description>
+- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg
+Linked content:
+- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg: https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg" medium="image" />
     </item>
     <item>
@@ -252,7 +281,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHty1jgXsAIRyod.png
 - https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png
 - https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png
-- https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png</description>
+- https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png
+Linked content:
+- https://pbs.twimg.com/media/HHty1jgXsAIRyod.png: https://pbs.twimg.com/media/HHty1jgXsAIRyod.png
+- https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png: https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png
+- https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png: https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png
+- https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png: https://pbs.twimg.com/media/HHtzZM7XQAAyl1Y.png</description>
       <media:content url="https://pbs.twimg.com/media/HHty1jgXsAIRyod.png" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHty3vmXwAAeg3W.png" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHtzOWZWEAM8GPW.png" medium="image" />
@@ -272,7 +306,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HH21wykaUAA8607.jpg
 - https://pbs.twimg.com/media/HH21wylasAAcDPJ.png
 - https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg
-- https://pbs.twimg.com/media/HH21wymbUAA01fG.png</description>
+- https://pbs.twimg.com/media/HH21wymbUAA01fG.png
+Linked content:
+- https://pbs.twimg.com/media/HH21wykaUAA8607.jpg: https://pbs.twimg.com/media/HH21wykaUAA8607.jpg
+- https://pbs.twimg.com/media/HH21wylasAAcDPJ.png: https://pbs.twimg.com/media/HH21wylasAAcDPJ.png
+- https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg: https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg
+- https://pbs.twimg.com/media/HH21wymbUAA01fG.png: https://pbs.twimg.com/media/HH21wymbUAA01fG.png</description>
       <media:content url="https://pbs.twimg.com/media/HH21wykaUAA8607.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH21wylasAAcDPJ.png" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg" medium="image" />
@@ -316,7 +355,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg
 - https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg
 - https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg
-- https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg</description>
+- https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg
+Linked content:
+- https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg: https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg
+- https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg: https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg
+- https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg: https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg
+- https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg: https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg" medium="image" />
@@ -358,7 +402,12 @@ X article: https://x.com/Av1dlive/article/2052063154423898603
 Primary URLs:
 - https://x.com/i/article/2051953147686658049
 - https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md
-- https://anthropic.com/engineering/building-c-compiler</description>
+- https://anthropic.com/engineering/building-c-compiler
+Linked content:
+- Building a C compiler with a team of parallel Claudes \ Anthropic: https://www.anthropic.com/engineering/building-c-compiler
+Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Engineering at Anthropic Building a C compiler with a team of parallel Claudes Published Feb 05, 2026 We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development. Written by Nicholas Carlini, a researcher on our Safeguards team. I've been experimenting with a new approach to supervising...</description>
+      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/7e2e39544a35760367049072406377a54f2b58c0-2554x2554.svg" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/6cc87859f5453e9481278681aa6409856d61153c-2400x1260.png" medium="image" />
     </item>
     <item>
       <title>@nakado_biko: とうとう夏の入口に来たって感じ。 https://t.co/3h44V71KUa</title>
@@ -371,7 +420,9 @@ Tweet: https://x.com/nakado_biko/status/2052360467738452258
 Primary URLs:
 - https://x.com/nakado_biko/status/2052360467738452258/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg</description>
+- https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg: https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg" medium="image" />
     </item>
     <item>
@@ -390,7 +441,11 @@ Image URLs:
 
 Tweet: https://x.com/steipete/status/2053114837698249190
 Primary URLs:
-- https://peekaboo.sh</description>
+- https://peekaboo.sh
+Linked content:
+- Peekaboo documentation — Peekaboo: https://peekaboo.sh
+Peekaboo macOS automation docs Search Start Overview Install Peekaboo Quickstart Permissions &amp; Performance Configuration &amp; Environment Variables Capture &amp; vision capture see image Window Screenshot "Smart Select" Guide Peekaboo Visual Feedback System Automation Automation click type hotkey press scroll drag menu dialog window space app Human Typing Mode Plan Human-Style Mouse Movement Window Focus and Space Management Application Resolution in Peekaboo Agent &amp; AI agent Minimal Agent Chat Mode...</description>
+      <media:content url="https://peekaboo.sh/social.png" medium="image" />
     </item>
     <item>
       <title>@chenchengpro: Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。...</title>
@@ -431,7 +486,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg
 - https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg
 - https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg
-- https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg</description>
+- https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg: https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg
+- https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg: https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg
+- https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg: https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg
+- https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg: https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHuWyWPXAAkY-dG.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg" medium="image" />
@@ -470,7 +530,23 @@ Primary URLs:
 - https://github.com/HKUDS/nanobot
 - https://open.feishu.cn/app
 - https://code.claude.com/docs/en/mcp
-- https://github.com/hxdflying/EvoPaw</description>
+- https://github.com/hxdflying/EvoPaw
+Linked content:
+- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。: https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
+- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。: https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
+- GitHub - HKUDS/nanobot: "🐈 nanobot: The Ultra-Lightweight Personal AI Agent" · GitHub: https://github.com/HKUDS/nanobot
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...
+- 开发者后台 - 飞书开放平台: https://open.feishu.cn/app
+- Connect Claude Code to tools via MCP - Claude Code Docs: https://code.claude.com/docs/en/mcp
+Skip to main content Claude Code Docs home page English Search... ⌘ K Ask AI Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Tools and plugins Connect Claude Code to tools via MCP Getting started Build with Claude Code Administration Configuration Reference Agent SDK What's New Resources Agents Create custom subagents Run agent teams Tools and plugins Model Context Protocol (MCP) Discover and install prebuilt plugins Create plugins Extend Claude...</description>
+      <media:content url="https://opengraph.githubassets.com/973b90522a2d4fd78b09c10b21b8bf5869ea1bcee0a5af4a41cb71ecb09a0916/HKUDS/nanobot" medium="image" />
+      <media:content url="https://github.com/HKUDS/nanobot/raw/main/images/GitHub_README.png" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/8d7cb3bc6267c918f88c925ed93a0b3e0563cf1adb5165d46f2119319bc2fedd/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6e616e6f626f742d6169" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/f90db631070cf35d72c5b044d400c4d581b24152213f3017d59148a3f9c7ab0e/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6e616e6f626f742d6169" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/a287273aa1ac227834bcdc3d81628946cecaba08d9b08fba6b39f1d843e547c6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2de289a5332e31312d626c7565" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/f8df3091bbe1149f398a5369b2c39e896766f9f6efba3477c63e9b4aa940ef14/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d677265656e" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/3455b1821f9938863713d131b63566408fd40610073247f28d3b4d03c06c907e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f484b5544532f6e616e6f626f743f6c6162656c436f6c6f723d25323025323333326235383326636f6c6f723d253230253233313262373661" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/283fa498f68776b2d7d4f7040e96e49afebe4189f42452f091aa1e67b905376e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7365617263683f71756572793d7265706f253341484b5544532532466e616e6f626f74253230697325334169737375652532306973253341636c6f736564266c6162656c3d697373756573253230636c6f736564266c6162656c436f6c6f723d25323025323337643839623026636f6c6f723d253230253233356436623938" medium="image" />
     </item>
     <item>
       <title>@VoidsWork: @OpenAI Here is the link btw https://t.co/uyW0mwnUwQ</title>
@@ -482,7 +558,18 @@ Primary URLs:
 
 Tweet: https://x.com/VoidsWork/status/2052491063986733429
 Primary URLs:
-- https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg</description>
+- https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg
+Linked content:
+- Codex - Chrome Web Store: https://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg
+Skip to main content Chrome Web Store My extensions &amp; themes Appearance Developer Dashboard Give feedback Sign in Discover Extensions Themes Codex 4.5 ( 152 ratings ) Ratings are updated daily and may not reflect the most recent reviews. Share Extension Tools 100,000 users Add to Chrome Overview Control Chrome with Codex. Codex can now use Chrome on your computer to complete work inside the websites and apps where you’re already signed in. OVERVIEW Codex for Chrome lets Codex help with work...</description>
+      <media:content url="https://lh3.googleusercontent.com/2MlAog4t94F0qwR_nPiKHTW7iseccqCYbneUx5jkBM7DAFgc77ap5BcaTct1IxPZoySW1APex5MYoaCgfXFtxMoXpg=s128-rj-sc0x00ffffff" medium="image" />
+      <media:content url="https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg" medium="image" />
+      <media:content url="https://lh3.googleusercontent.com/2MlAog4t94F0qwR_nPiKHTW7iseccqCYbneUx5jkBM7DAFgc77ap5BcaTct1IxPZoySW1APex5MYoaCgfXFtxMoXpg=s60" medium="image" />
+      <media:content url="https://www.gstatic.com/images/branding/productlogos/chrome/v7/192px.svg" medium="image" />
+      <media:content url="https://lh3.googleusercontent.com/BKHuX2DD95zO1DoQSIHyXH8_F9Ik4ADuI1XxoAT5L2OTASpb1WOd69fnhHBop3GdxSYFFkLGQS-h8atDYI5f9nhd6fo=s275-w275-h175" medium="image" />
+      <media:content url="https://lh3.googleusercontent.com/FHttL1Pz951zHElWjx4j6u1_BY3GEeXLsfZFrWYilHM5mr5YetXvFnxg_B-P5heOsymqcYv_ZHxpozUVQOFLtantkw=s275-w275-h175" medium="image" />
+      <media:content url="https://lh3.googleusercontent.com/35TZWUJtuFhVrnPJV4wt2sn2Riladd6QJxZkZc-NcZbxwRVJFyMKmxPNEKoUaQjiZLCcbh0gj8Mbv7ysRB2i3bhqJCQ=s275-w275-h175" medium="image" />
+      <media:content url="https://lh3.googleusercontent.com/5yCH2xbg29Alk2IzqTrkFFO4G939ZJzSe8uhg5Kb7XLgXp6Ozq83xRCoNdLj6uv6rrFooCmndAf6cWAecztdG4I9=s275-w275-h175" medium="image" />
     </item>
     <item>
       <title>@lesoshi: zhangjiajie ^-^ https://t.co/EwdhPEGKas</title>
@@ -498,7 +585,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg
 - https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg
 - https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg
-- https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg</description>
+- https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg
+Linked content:
+- https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg: https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg
+- https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg: https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg
+- https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg: https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg
+- https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg: https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg" medium="image" />
@@ -519,7 +611,9 @@ Tweet: https://x.com/viktoroddy/status/2039055302360793444
 Primary URLs:
 - https://x.com/viktoroddy/status/2039055302360793444/video/1
 Image URLs:
-- https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg</description>
+- https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg
+Linked content:
+- https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg: https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg</description>
       <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg" medium="image" />
     </item>
     <item>
@@ -540,7 +634,9 @@ Primary URLs:
 - https://x.com/zodchiii/status/2052400272840720565/video/1
 - https://twitter.com/zodchiii/status/2052368125480354000
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg: https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg" medium="image" />
     </item>
     <item>
@@ -558,7 +654,9 @@ Tweet: https://x.com/OpenAI/status/2052480800004956323
 Primary URLs:
 - https://x.com/OpenAI/status/2052480800004956323/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg: https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg" medium="image" />
     </item>
     <item>
@@ -583,7 +681,11 @@ Primary URLs:
 Image URLs:
 - https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg
 - https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg
-- https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg</description>
+- https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg
+Linked content:
+- https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg: https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg
+- https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg: https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg
+- https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg: https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg" medium="image" />
@@ -604,8 +706,19 @@ Primary URLs:
 - https://www.interactlabs.ai/
 - https://x.com/interact_ai/status/2051662847130869780/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg
+Linked content:
+- Interact AI | Turn Your Website Into an Interactive Experience: https://www.interactlabs.ai/
+Introducing Interact AI - a new interface for the website -&gt; Read more Product Stories Blog Product Stories Blog Contact Us Contact Us Turn your website into an interactive experience Interact now Turn your website into an interactive experience Book a Call Interact now Our customers Try it live Try it live Visitor Experience Let every visitor experience your product Every visitor gets a live product experience No forms, no wait. Your AI avatar answers questions, demos the product, and books...
+- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg: https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d574927ab9f66cea8f3_Brand-logo-14.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69e0f45e799050fb164c0d5d_arize%20logo.svg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d576f65073a0b36b0ab_Brand-logo-11.avif" medium="image" />
     </item>
     <item>
       <title>@intrfacer: Today is Interfacer's first anniversary 🎊🎊 Quick recap: https://t.co/e0xr7dZzVS</title>
@@ -618,7 +731,9 @@ Tweet: https://x.com/intrfacer/status/2051674574568268023
 Primary URLs:
 - https://x.com/intrfacer/status/2051674574568268023/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg: https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg" medium="image" />
     </item>
     <item>
@@ -635,7 +750,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg
 - https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg
 - https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg
-- https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg</description>
+- https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg: https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg
+- https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg: https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg
+- https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg: https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg
+- https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg: https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg" medium="image" />
@@ -652,7 +772,9 @@ Tweet: https://x.com/santu_design/status/2038301604307165641
 Primary URLs:
 - https://x.com/santu_design/status/2038301604307165641/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg</description>
+- https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg
+Linked content:
+- https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg: https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg" medium="image" />
     </item>
     <item>
@@ -677,7 +799,9 @@ Tweet: https://x.com/JoelTankard/status/2045049691747004890
 Primary URLs:
 - https://x.com/JoelTankard/status/2045049691747004890/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg: https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg" medium="image" />
     </item>
     <item>
@@ -698,7 +822,10 @@ Primary URLs:
 - https://x.com/every/status/2051336617609335230/photo/1
 Image URLs:
 - https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg
-- https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg</description>
+- https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg: https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg
+- https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg: https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHfPx43a8AAz4p3.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHfPyFwbgAAXgHE.jpg" medium="image" />
     </item>
@@ -724,7 +851,10 @@ Tweet: https://x.com/dotey/status/2051688341519609897
 X article: https://x.com/dotey/article/2051688341519609897
 Primary URLs:
 - https://x.com/i/article/2051687844679143424
-- https://www.youtube.com/watch?v=SlGRN8jh2RI</description>
+- https://www.youtube.com/watch?v=SlGRN8jh2RI
+Linked content:
+- - YouTube: https://www.youtube.com/watch?v=SlGRN8jh2RI
+About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC</description>
     </item>
     <item>
       <title>@oasisfeng: 这两天用 Codex 实践了一下 Karpathy 的 Obsidian vault 研究范式，尤其是 raw -&amp;gt; wiki 这个 agent 驱动的信息萃取方式。...</title>
@@ -752,7 +882,11 @@ Primary URLs:
 Image URLs:
 - https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg
 - https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg
-- https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg: https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg
+- https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg: https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg
+- https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg: https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg" medium="image" />
@@ -767,7 +901,18 @@ Image URLs:
 
 Tweet: https://x.com/chumsdock/status/2036657892280164655
 Primary URLs:
-- https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</description>
+- https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/
+Linked content:
+- Agents, Meet the Figma Canvas | Figma Blog: https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/
+Skip to main content Subscribe to Figma’s editorial newsletter Categories Maker Stories Working Well Inside Figma Insights Topics Featured Topics News Get the latest on all things Figma Design systems Everything you need to know about building and scaling design systems in the age of AI Explore topics 3D design Accessibility AI Behind the scenes Brainstorming Branding Career &amp; education Case study Collaboration Config Culture Design Design thinking Dev Mode Diagramming Engineering Events...</description>
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&amp;w=616&amp;h=264&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&amp;w=616&amp;h=264&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/84675f0be7a80669fb6581953821530b48964f30-2314x2525.jpg?w=2314&amp;h=2525&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1632&amp;h=918&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/4b569560fb80744397542d4700c1363bacbbda88-1608x1206.png?w=1608&amp;h=1206&amp;q=75&amp;fit=crop&amp;crop=focalpoint&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=3200&amp;h=1800&amp;q=75&amp;fit=crop&amp;crop=focalpoint&amp;auto=format" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=528&amp;h=297&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
     </item>
     <item>
       <title>@martinfowler: Fragments: open-source framework for prompting patterns, musician sues google for...</title>
@@ -780,7 +925,13 @@ Primary URLs:
 
 Tweet: https://x.com/martinfowler/status/2051700087496093774
 Primary URLs:
-- https://martinfowler.com/fragments/2026-05-05.html</description>
+- https://martinfowler.com/fragments/2026-05-05.html
+Linked content:
+- Fragments: May 5: https://martinfowler.com/fragments/2026-05-05.html
+Refactoring Agile Architecture About Thoughtworks Topics Architecture Refactoring Agile Delivery Microservices Data Testing DSL about me About Books FAQ content Videos Content Index Fragments Board Games Photography Thoughtworks Home Insights Careers Radar Engineering follow RSS Mastodon LinkedIn Bluesky X BGG Fragments: May 5 Martin Fowler: 05 May 2026 Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming . To make...</description>
+      <media:content url="https://martinfowler.com/logo-sq.png" medium="image" />
+      <media:content url="https://martinfowler.com/mf-name-white.png" medium="image" />
+      <media:content url="https://martinfowler.com/thoughtworks_white.png" medium="image" />
     </item>
     <item>
       <title>@elou: I’ve had the most fun I’ve found in a while noodling over all the little details on my...</title>
@@ -793,7 +944,9 @@ Tweet: https://x.com/elou/status/2051292836763762747
 Primary URLs:
 - https://x.com/elou/status/2051292836763762747/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg: https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051291863714598912/img/UQZneHlgEytPBsiw.jpg" medium="image" />
     </item>
     <item>
@@ -821,7 +974,18 @@ Tweet: https://x.com/Alexjkman/status/2052191936727912462</description>
 Tweet: https://x.com/agilek/status/2033241509131075835
 Primary URLs:
 - https://x.com/i/status/2029253302450368522
-- https://github.com/agilek/cli-loaders?tab=readme-ov-file</description>
+- https://github.com/agilek/cli-loaders?tab=readme-ov-file
+Linked content:
+- GitHub - agilek/cli-loaders: Set of Braille unicode spinners as React decorator components. · GitHub: https://github.com/agilek/cli-loaders?tab=readme-ov-file
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...</description>
+      <media:content url="https://opengraph.githubassets.com/ff07e38a24678f7bd4a0321672d8cf84002ddd5094fbbcb0f4897fc130be06bd/agilek/cli-loaders" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/braille.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/orbit.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/breathe.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/braillewave.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/dna.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/waverows.svg" medium="image" />
+      <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/helix.svg" medium="image" />
     </item>
     <item>
       <title>@frxiaobei: “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...</title>
@@ -859,7 +1023,9 @@ Tweet: https://x.com/NebulaAI/status/2051793024141721841
 Primary URLs:
 - https://x.com/NebulaAI/status/2051793024141721841/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg: https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051792387375083522/img/N7q6YZ4wK0gyZQNH.jpg" medium="image" />
     </item>
     <item>
@@ -876,7 +1042,10 @@ Primary URLs:
 - https://x.com/srotimi_ui/status/2036043731426509057/photo/1
 Image URLs:
 - https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg
-- https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg</description>
+- https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg
+Linked content:
+- https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg: https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg
+- https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg: https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg" medium="image" />
     </item>
@@ -912,7 +1081,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg
 - https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg
 - https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg
-- https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg</description>
+- https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg: https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg
+- https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg: https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg
+- https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg: https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg
+- https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg: https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg" medium="image" />
@@ -933,7 +1107,9 @@ Tweet: https://x.com/QingQ77/status/2031660148440408309
 Primary URLs:
 - https://x.com/QingQ77/status/2031660148440408309/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg</description>
+- https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg
+Linked content:
+- https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg: https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg" medium="image" />
     </item>
     <item>
@@ -961,7 +1137,9 @@ Tweet: https://x.com/fxtrader/status/2051601805495374164
 Primary URLs:
 - https://x.com/fxtrader/status/2051601805495374164/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg</description>
+- https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg: https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg" medium="image" />
     </item>
     <item>
@@ -987,7 +1165,11 @@ Primary URLs:
 - https://www.youtube.com/watch?v=2rcJdFuNbZQ
 - https://x.com/chaosflutt28952/status/2031745028243284272/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg</description>
+- https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg
+Linked content:
+- - YouTube: https://www.youtube.com/watch?v=2rcJdFuNbZQ
+About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC
+- https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg: https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg" medium="image" />
     </item>
     <item>
