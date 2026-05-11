@@ -688,9 +688,9 @@ def main() -> None:
     all_tweets: list[dict[str, Any]] = []
     all_users: dict[str, dict[str, Any]] = {}
     for account in accounts:
-        if args.auth_mode == "xurl" or (args.auth_mode == "auto" and not os.environ.get("X_USER_ACCESS_TOKEN")):
-            switch_xurl_user(account["xurl_user"])
         tokens = TokenProvider(args.auth_mode, account.get("token_suffix", ""))
+        if tokens.use_xurl():
+            switch_xurl_user(account["xurl_user"])
         for source, endpoint in [
             ("bookmark", "/users/{user_id}/bookmarks"),
             ("favorite", "/users/{user_id}/liked_tweets"),

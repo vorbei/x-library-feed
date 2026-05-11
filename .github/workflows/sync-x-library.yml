@@ -47,6 +47,7 @@ jobs:
             exit 0
           fi
           python3 scripts/sync_x_library.py \
+            --auth-mode oauth \
             --account "643123:chumsdock:chumsdock:1" \
             --account "2017610375295086592:CatHanami97880:CatHanami97880:2"
 
