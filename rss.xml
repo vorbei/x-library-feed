@@ -4,7 +4,7 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 11:00:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 11:03:07 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
     <item>
@@ -1184,7 +1184,13 @@ About Press Copyright Contact us Creators Advertise Developers Terms Privacy Pol
 
 Tweet: https://x.com/ericzakariasson/status/2051255780167610522
 Primary URLs:
-- https://cursor.com/marketplace/cursor/cursor-team-kit</description>
+- https://cursor.com/marketplace/cursor/cursor-team-kit
+Linked content:
+- Cursor Team Kit | Cursor Plugins: https://cursor.com/marketplace/cursor/cursor-team-kit
+Skip to content Product ↓ Agents Code Review Tab CLI Enterprise Pricing Resources ↓ Changelog Blog Docs ↗ Community Learn ↗ Workshops Forum ↗ Future ↗ Marketplace Careers Product → Enterprise Pricing Resources → Marketplace / All Plugins Created by Cursor View Source Marketplace / All Plugins Back Cursor Team Kit Sign In To Add Sign In To Add Internal workflows used by Cursor developers for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and...</description>
+      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/opengraph-image" medium="image" />
+      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/twitter-image" medium="image" />
+      <media:content url="https://cursor-cdn.com/plugin-logos/production/e7f9aa0a9a21eba2.png" medium="image" />
     </item>
     <item>
       <title>@matthewwmullin: NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION. Unbelievable...</title>
@@ -1202,7 +1208,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg
 - https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg
 - https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg
-- https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg</description>
+- https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg: https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg
+- https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg: https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg
+- https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg: https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg
+- https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg: https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg" medium="image" />
@@ -1234,7 +1245,18 @@ Primary URLs:
 - https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1
 - https://www.youtube.com/@avb_fj
 - https://www.patreon.com/NeuralBreakdownwithAVB
-- https://paperbreakdown.com/</description>
+- https://paperbreakdown.com/
+Linked content:
+- paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face: https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1
+Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Log In Sign Up Datasets: paperbd / paper-cited-chunks-v1 like 3 Follow Paper Breakdown 5 Tasks: Question Answering Text Generation Modalities: Text Formats: parquet Languages: English Size: &lt; 1K Libraries: Datasets pandas Polars + 1 License: mit Dataset card Data Studio Files Files and versions xet Community 1 Dataset Viewer Auto-converted to Parquet API Embed Duplicate Data Studio Subset (1) default · 200 rows default...
+- Neural Breakdown with AVB - YouTube: https://www.youtube.com/@avb_fj
+About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC
+- https://www.patreon.com/NeuralBreakdownwithAVB: https://www.patreon.com/NeuralBreakdownwithAVB
+- https://paperbreakdown.com/: https://paperbreakdown.com/</description>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/paperbd/paper-cited-chunks-v1.png" medium="image" />
+      <media:content url="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" medium="image" />
+      <media:content url="https://www.gravatar.com/avatar/932af73dff0f3648f656197e4cd613ec?d=retro&amp;size=100" medium="image" />
+      <media:content url="https://yt3.googleusercontent.com/5u3QKXKYuVDPPGCszr2JD76w9APnOMWbEQ_F7j2eu28EgiuZwu16es9d2Ui18RjQKosOdX9on7A=s900-c-k-c0x00ffffff-no-rj" medium="image" />
     </item>
     <item>
       <title>@shannholmberg: the 3-layer company second brain blueprint, optimized for agents Ashwin Gopalan's...</title>
@@ -1252,7 +1274,9 @@ Primary URLs:
 - https://x.com/shannholmberg/status/2051225368623972732/photo/1
 - https://twitter.com/711598441642598400/status/2050963469898506342
 Image URLs:
-- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png</description>
+- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png
+Linked content:
+- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png: https://pbs.twimg.com/media/HHdqmiqakAAElpA.png</description>
       <media:content url="https://pbs.twimg.com/media/HHdqmiqakAAElpA.png" medium="image" />
     </item>
     <item>
@@ -1270,7 +1294,9 @@ Tweet: https://x.com/goodhunt/status/2050694577628020853
 Primary URLs:
 - https://x.com/goodhunt/status/2050694577628020853/photo/1
 Image URLs:
-- https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png</description>
+- https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png
+Linked content:
+- https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png: https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png</description>
       <media:content url="https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png" medium="image" />
     </item>
     <item>
@@ -1297,7 +1323,14 @@ Primary URLs:
 
 Tweet: https://x.com/yogesharc/status/2028805687355363347
 Primary URLs:
-- https://www.supacortex.ai/</description>
+- https://www.supacortex.ai/
+Linked content:
+- Supacortex — Share your context across AI: https://www.supacortex.ai/
+Supacortex Beta GitHub Download for free Share your context across AI Save your bookmarks and conversations in one place - so every AI tool you use can access the context it needs. Download for free or npm i -g @supacortex/cli How it works Talk to your AI. Supacortex handles the rest. Sync your X bookmarks Connect your X account and import all your bookmarks with one click. Save anything — just say so Tell your AI “save this to cortex” — conversations, links, YouTube. save this to cortex...</description>
+      <media:content url="https://www.supacortex.ai/supacortex-og.png" medium="image" />
+      <media:content url="https://www.supacortex.ai/supercortex-icon.svg?dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR" medium="image" />
+      <media:content url="https://www.supacortex.ai/_next/image?url=%2Fsupacortex-icon.png&amp;w=96&amp;q=75&amp;dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR" medium="image" />
+      <media:content url="https://www.supacortex.ai/_next/image?url=%2Fopenclaw-icon.png&amp;w=48&amp;q=75&amp;dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR" medium="image" />
     </item>
     <item>
       <title>@DLKFZWilliam2: ...</title>
@@ -1308,7 +1341,11 @@ Primary URLs:
 
 Tweet: https://x.com/DLKFZWilliam2/status/2051388640740401425
 Primary URLs:
-- https://github.com/LayrKits/Sprite-Pipeline</description>
+- https://github.com/LayrKits/Sprite-Pipeline
+Linked content:
+- GitHub - LayrKits/Sprite-Pipeline: 2D Sprite Sheet Creation Pipeline · GitHub: https://github.com/LayrKits/Sprite-Pipeline
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...</description>
+      <media:content url="https://opengraph.githubassets.com/a50ef0f5cc260925b977c87d1a4595ead724087fb497a7f72e8d3ad7a06083cc/LayrKits/Sprite-Pipeline" medium="image" />
     </item>
     <item>
       <title>@geniusvczh: 要求AI一边写代码一边记录他的决策确实是有用的，gpt5.5一个request跑了6个小时，竟然完全没跑偏，中间都不知道压缩了多少次。而且文档也不用想怎么留下来，做完就扔不心疼🤪</title>
@@ -1343,7 +1380,9 @@ Primary URLs:
 - https://x.com/DataChaz/status/2051272231456510333/video/1
 - https://twitter.com/vmiss33/status/2050984556790939731
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg: https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg" medium="image" />
     </item>
     <item>
@@ -1371,7 +1410,12 @@ Tweet: https://x.com/goodhunt/status/2050044127656489095</description>
 
 Tweet: https://x.com/VersunPan/status/2050483414848172357
 Primary URLs:
-- https://sharethis.chat/s/shr_ea8c534d113f</description>
+- https://sharethis.chat/s/shr_ea8c534d113f
+Linked content:
+- Telegram Chat with Asuka (2026-04-27 to 2026-04-30): https://sharethis.chat/s/shr_ea8c534d113f
+ShareThis.Chat Beta Text PDF Telegram Chat with Asuka (2026-04-27 to 2026-04-30) 2026-04-30 07:54 AM UTC · Telegram User 2026-04-27 01:36 PM UTC hi Asuka 2026-04-27 01:36 PM UTC ⚠️ Non-retryable error (HTTP 401) — trying fallback... Asuka 2026-04-27 01:36 PM UTC ⚠️ Error code: 401 - {'error': {'type': 'authentication_error', 'message': 'The API Key appears to be invalid or may have expired. Please verify your credentials and try again.'}, 'type': 'error'} Asuka 2026-04-27 01:36 PM UTC ❌ Non-...</description>
+      <media:content url="https://sharethis.chat/s/shr_ea8c534d113f/meta-image.png" medium="image" />
+      <media:content url="https://sharethis.chat/s/shr_ea8c534d113f/media/img_65c9211980ea479198" medium="image" />
     </item>
     <item>
       <title>@MatthewBerman: 5 BILLION tokens later, OpenClaw is now my company's operating system. I discovered...</title>
@@ -1396,7 +1440,9 @@ Tweet: https://x.com/MatthewBerman/status/2026450191759585776
 Primary URLs:
 - https://x.com/MatthewBerman/status/2026450191759585776/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg: https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg" medium="image" />
     </item>
     <item>
@@ -1429,7 +1475,12 @@ Image URLs:
 - https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg
 - https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg
 - https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg
-- https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg</description>
+- https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg
+Linked content:
+- https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg: https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg
+- https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg: https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg
+- https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg: https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg
+- https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg: https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg" medium="image" />
@@ -1457,11 +1508,19 @@ Image URLs:
 - https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg
 - https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg
 - https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg
-- https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg</description>
+- https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg
+Linked content:
+- taste-skill/skills/imagegen-frontend-web/SKILL.md at main · Leonxlnx/taste-skill · GitHub: https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...
+- https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg: https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg
+- https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg: https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg
+- https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg: https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg
+- https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg: https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HHak1TSXsAAfSbV.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHak4uZXYAAXOMm.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHak6oPX0AAguSg.jpg" medium="image" />
       <media:content url="https://pbs.twimg.com/media/HHak8voXcAAC2H3.jpg" medium="image" />
+      <media:content url="https://repository-images.githubusercontent.com/1162099055/0a968964-fdca-4781-853b-84afc2bc2d31" medium="image" />
     </item>
     <item>
       <title>@sanyi_eth_: 你们玩openclaw的嘴巴可真严啊！ 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了...</title>
@@ -1580,7 +1639,13 @@ Primary URLs:
 
 Tweet: https://x.com/GlennGilmore/status/2051023665593221208
 Primary URLs:
-- https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1</description>
+- https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
+Linked content:
+- Jackson Square returns as AI booms in San Francisco: https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
+Skip to content Skip to site index Sign in Subscribe Subscribe search Commercial San Francisco A Forget the glass towers. SF’s AI boom finds a home in a 19th-century neighborhood. While downtown stalled and SoMa emptied out, two blocks of old brick quietly became the fastest-recovering address Clockwise from left: Anthropic CEO Dario Amodei, Jony Ive and OpenAI CEO Sam Altman (Photo-illustration by Kevin Rebong/The Real Deal; Getty Images) A A A By Christopher Neely Apr 1, 2026, 11:00 AM UTC...</description>
+      <media:content url="https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square.jpg" medium="image" />
+      <media:content url="https://static.therealdeal.com/logos/trd-news-logo-light.svg" medium="image" />
+      <media:content url="https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square-50x33.jpg" medium="image" />
     </item>
     <item>
       <title>@fkysly: Opus 4.7 的黑话让我有点受不了，GPT-5.5 反而讲人话了，能理解了。我今天试试看能不能 Codex 完成所有工作，如果可以的话，就主力充值 Codex 了。</title>
@@ -1623,7 +1688,9 @@ Tweet: https://x.com/Prince_Canuma/status/2026022469010599954
 Primary URLs:
 - https://x.com/Prince_Canuma/status/2026022469010599954/video/1
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg</description>
+- https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg: https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg</description>
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg" medium="image" />
     </item>
     <item>
