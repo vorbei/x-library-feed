@@ -38,6 +38,7 @@ jobs:
           X_LIBRARY_MAX_PAGES: ${{ vars.X_LIBRARY_MAX_PAGES || '5' }}
           X_THREAD_MAX_FETCHES: ${{ vars.X_THREAD_MAX_FETCHES || '40' }}
           PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL || 'https://raw.githubusercontent.com/vorbei/x-library-feed/main' }}
+          X_TOKEN_STATE_FILE: ${{ runner.temp }}/rotated_tokens.env
         run: |
           if [ -z "$X_USER_ACCESS_TOKEN_1" ] && [ -z "$X_REFRESH_TOKEN_1" ]; then
             echo "::warning::Account 1 X secrets are not set; skipping sync."
@@ -47,10 +48,32 @@ jobs:
             echo "::warning::Account 2 X secrets are not set; skipping sync."
             exit 0
           fi
+          : > "$X_TOKEN_STATE_FILE"
           python3 scripts/sync_x_library.py \
             --auth-mode oauth \
             --account "643123:chumsdock:chumsdock:1" \
             --account "2017610375295086592:CatHanami97880:CatHanami97880:2"
+
+      - name: Persist rotated refresh tokens
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_WRITE_PAT }}
+          STATE_FILE: ${{ runner.temp }}/rotated_tokens.env
+        run: |
+          if [ ! -s "$STATE_FILE" ]; then
+            echo "No rotated tokens to persist."
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Rotated tokens present but SECRETS_WRITE_PAT is not set; next run will 401."
+            cat "$STATE_FILE" | sed 's/=.*$/=<redacted>/'
+            exit 1
+          fi
+          while IFS='=' read -r key value; do
+            [ -z "$key" ] && continue
+            printf '%s' "$value" | gh secret set "$key" --repo "$GITHUB_REPOSITORY" --body -
+            echo "Updated secret $key"
+          done < "$STATE_FILE"
 
       - name: Commit updated feed
         run: |
