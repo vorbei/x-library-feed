@@ -38,6 +38,7 @@ jobs:
           X_CLIENT_SECRET_2: ${{ secrets.X_CLIENT_SECRET_2 }}
           X_LIBRARY_MAX_PAGES: ${{ vars.X_LIBRARY_MAX_PAGES || '5' }}
           X_THREAD_MAX_FETCHES: ${{ vars.X_THREAD_MAX_FETCHES || '40' }}
+          X_LINKED_URL_MAX_FETCHES: ${{ vars.X_LINKED_URL_MAX_FETCHES || '80' }}
           PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL || 'https://raw.githubusercontent.com/vorbei/x-library-feed/main' }}
           X_TOKEN_STATE_FILE: ${{ runner.temp }}/rotated_tokens.env
         run: |
