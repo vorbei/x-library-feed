@@ -567,6 +567,8 @@ def item_from_tweet(
     if article:
         username = author.get("username")
         article_url = f"https://x.com/{username}/article/{tweet_id}" if username else None
+    article_text = html.unescape(article.get("plain_text") or "").strip()
+    article_preview = html.unescape(article.get("preview_text") or "").strip()
     return {
         "id": tweet_id,
         "url": tweet_url(tweet_id, users, tweet.get("author_id")),
@@ -586,6 +588,9 @@ def item_from_tweet(
         "image_urls": media_urls(tweet),
         "article_title": article.get("title"),
         "article_url": article_url,
+        "article_text": article_text,
+        "article_preview_text": article_preview,
+        "article_urls": extract_article_urls(tweet),
         "conversation_id": tweet.get("conversation_id"),
         "referenced_tweets": tweet.get("referenced_tweets") or [],
         "public_metrics": tweet.get("public_metrics") or {},
@@ -621,7 +626,7 @@ def merge_items(
                 current[key] = incoming[key]
         if incoming.get("author", {}).get("username"):
             current["author"] = incoming["author"]
-        for key in ["article_title", "article_url"]:
+        for key in ["article_title", "article_url", "article_text", "article_preview_text", "article_urls"]:
             if incoming.get(key):
                 current[key] = incoming[key]
         merged_urls = []
@@ -758,6 +763,9 @@ def render_markdown(store: dict[str, Any]) -> str:
         if item.get("article_url"):
             title = item.get("article_title") or item.get("article_url")
             lines.append(f"- X article: [{title}]({item.get('article_url')})")
+        if item.get("article_text"):
+            excerpt = textwrap.shorten(item.get("article_text"), width=300, placeholder="...")
+            lines.append(f"- X article text: {excerpt}")
         lines.append(f"- Sources: {', '.join(item.get('sources') or [])}")
         if item.get("accounts"):
             lines.append(f"- Saved by: {', '.join(item.get('accounts') or [])}")
@@ -801,6 +809,11 @@ def render_markdown(store: dict[str, Any]) -> str:
             lines.append(f"- Public metrics: {', '.join(metric_bits)}")
         lines.append("")
         lines.append(markdown_quote(item.get("text") or ""))
+        if item.get("article_text"):
+            lines.append("")
+            lines.append("#### X Article")
+            lines.append("")
+            lines.append(markdown_quote(item.get("article_text") or "", width=4000))
         lines.append("")
         lines.append("---")
         lines.append("")
@@ -869,6 +882,9 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
         ]
         if item.get("article_url"):
             description_lines.append(f"X article: {item.get('article_url')}")
+        if item.get("article_text"):
+            description_lines.append("X article text:")
+            description_lines.append(textwrap.shorten(item.get("article_text"), width=2000, placeholder="..."))
         primary_urls = item.get("primary_urls") or []
         if primary_urls:
             description_lines.append("Primary URLs:")
