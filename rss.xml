@@ -4,7 +4,7 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 13:51:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:17:44 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
     <item>
@@ -413,6 +413,7 @@ Primary URLs:
 - https://x.com/i/article/2051953147686658049
 - https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md
 - https://anthropic.com/engineering/building-c-compiler
+- http://x.com/i/article/2051953147686658049
 Linked content:
 - Building a C compiler with a team of parallel Claudes \ Anthropic: https://www.anthropic.com/engineering/building-c-compiler
 Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Engineering at Anthropic Building a C compiler with a team of parallel Claudes Published Feb 05, 2026 We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development. Written by Nicholas Carlini, a researcher on our Safeguards team. I've been experimenting with a new approach to supervising...</description>
