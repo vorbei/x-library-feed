@@ -947,18 +947,28 @@ def fetch_referenced_x_articles(
     return refs
 
 
+LINKED_FETCH_CONCURRENCY = int(os.environ.get("X_LINKED_FETCH_CONCURRENCY", "2"))
+
+
 def update_linked_content(
     items: list[dict[str, Any]],
     existing_content: dict[str, dict[str, Any]],
     max_fetches: int,
     thread_urls_by_conv: dict[str, list[str]] | None = None,
 ) -> dict[str, dict[str, Any]]:
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     content = dict(existing_content)
-    fetched = 0
     thread_urls_by_conv = thread_urls_by_conv or {}
+
+    # First pass: collect every URL referenced by an item, dedup, decide which
+    # ones still need fetching (capped by max_fetches).
+    item_url_lists: list[list[str]] = []
+    to_fetch: list[str] = []
+    seen_to_fetch: set[str] = set()
     for item in items:
-        urls = []
         seen: set[str] = set()
+        urls: list[str] = []
         item_thread_urls = thread_urls_by_conv.get(item.get("conversation_id", ""), [])
         for url in [
             *(item.get("primary_urls") or []),
@@ -968,17 +978,39 @@ def update_linked_content(
             if url not in seen:
                 seen.add(url)
                 urls.append(url)
+        item_url_lists.append(urls)
+        for url in urls:
+            if not should_fetch_link(url):
+                continue
+            if url in content or url in seen_to_fetch:
+                continue
+            if len(to_fetch) >= max_fetches:
+                break
+            seen_to_fetch.add(url)
+            to_fetch.append(url)
+        if len(to_fetch) >= max_fetches:
+            pass  # let outer loop still gather item_url_lists for rebuild
+
+    # Concurrent fetch.
+    workers = max(1, min(LINKED_FETCH_CONCURRENCY, len(to_fetch))) if to_fetch else 0
+    if workers:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futures = {ex.submit(fetch_link_content, u): u for u in to_fetch}
+            for fut in as_completed(futures):
+                u = futures[fut]
+                try:
+                    content[u] = fut.result()
+                except Exception as e:
+                    content[u] = {"url": u, "final_url": u, "fetch_error": str(e)[:300]}
+
+    # Second pass: rebuild each item's linked_content from the now-populated cache.
+    for item, urls in zip(items, item_url_lists):
         item_content = []
         for url in urls:
             if not should_fetch_link(url):
                 continue
-            if url not in content:
-                if fetched >= max_fetches:
-                    continue
-                content[url] = fetch_link_content(url)
-                fetched += 1
-                time.sleep(0.2)
-            item_content.append(content[url])
+            if url in content:
+                item_content.append(content[url])
         item["linked_content"] = item_content
     return content
 
