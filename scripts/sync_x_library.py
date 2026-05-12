@@ -861,20 +861,24 @@ def update_thread_urls(
     return threads
 
 
-_X_USER_ARTICLE_URL_RE = re.compile(
-    r'^https?://(?:www\.)?(?:x\.com|twitter\.com)/[^/i][^/]*/article/(\d+)',
+_X_USER_TWEET_URL_RE = re.compile(
+    r'^https?://(?:www\.)?(?:x\.com|twitter\.com)/[^/i][^/]*/(?:status|article)/(\d+)',
     re.IGNORECASE,
 )
 
 
 def extract_x_article_id(url: str) -> str | None:
-    """Return the tweet id for an X long-form article URL whose path is
-    /<username>/article/<tweet_id>. The /i/article/<opaque_id> form is *not*
-    handled here because the trailing id is X's internal article id, not the
-    tweet id - those URLs are instead routed through the linked-content path
-    so CF Browser Rendering can pull the article body directly.
+    """Return the tweet id for an X tweet URL whose path is
+    /<username>/(status|article)/<tweet_id>. The /i/article/<opaque_id> form
+    is *not* handled here because that trailing id is X's internal article
+    id, not a tweet id - those URLs are instead routed through the linked-
+    content path so CF Browser Rendering can pull the article body directly.
+
+    Status URLs return the same kind of id as the article URLs, so callers
+    can batch them through /tweets?ids= and get back tweet text plus any
+    embedded article and media without distinguishing.
     """
-    m = _X_USER_ARTICLE_URL_RE.match(url)
+    m = _X_USER_TWEET_URL_RE.match(url)
     return m.group(1) if m else None
 
 
@@ -1198,21 +1202,25 @@ def render_item_html(
         ref = referenced_articles.get(tid)
         if not ref:
             continue
-        ref_title = ref.get("article_title") or "X Article"
         ref_author = (ref.get("author") or {}).get("username", "")
         ref_url = ref.get("url") or url
-        ref_text = (ref.get("article_text") or "").strip()
+        ref_article_text = (ref.get("article_text") or "").strip()
+        ref_tweet_text = (ref.get("text") or "").strip()
+        ref_title = ref.get("article_title") or ("X Article" if ref_article_text else "X Tweet")
+        icon = "📄" if ref_article_text else "💬"
         header = (
-            f'<p>📄 Referenced X Article '
+            f'<p>{icon} Referenced X {"Article" if ref_article_text else "Tweet"} '
             f'<a href="{_html_escape_text(ref_url)}">{_html_escape_text(ref_title)}</a>'
             + (f' (@{_html_escape_text(ref_author)})' if ref_author else '')
             + '</p>'
         )
-        if ref_text:
-            body = "<br/>".join(_html_escape_text(p) for p in ref_text.split("\n") if p.strip())
+        body_text = ref_article_text or ref_tweet_text
+        if body_text:
+            body = "<br/>".join(_html_escape_text(p) for p in body_text.split("\n") if p.strip())
+            summary = "Article full text" if ref_article_text else "Tweet text"
             referenced_blocks.append(
                 header
-                + f'<details><summary>Article full text</summary><div>{body}</div></details>'
+                + f'<details><summary>{summary}</summary><div>{body}</div></details>'
             )
         else:
             referenced_blocks.append(header)

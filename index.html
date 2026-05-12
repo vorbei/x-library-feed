@@ -147,16 +147,23 @@ function renderItem(item, refArticles) {
     html += `</div>`;
   }
 
-  // Referenced X articles (from primary_urls)
+  // Referenced X tweets/articles (from primary_urls)
   for (const url of (item.primary_urls || [])) {
-    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/article\/(\d+)/i);
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
     const ref = m ? refArticles[m[1]] : null;
     if (!ref) continue;
-    const title = esc(ref.article_title || "X Article");
-    html += `<div class="ref-article"><div class="lbl">📄 Referenced X Article ${ref.author?.username ? '(@' + esc(ref.author.username) + ')' : ''}</div>`;
+    const articleText = (ref.article_text || "").trim();
+    const tweetText = (ref.text || "").trim();
+    const isArticle = !!articleText;
+    const icon = isArticle ? "📄" : "💬";
+    const kind = isArticle ? "Article" : "Tweet";
+    const title = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
+    html += `<div class="ref-article"><div class="lbl">${icon} Referenced X ${kind} ${ref.author?.username ? '(@' + esc(ref.author.username) + ')' : ''}</div>`;
     html += `<a href="${esc(ref.url || url)}" target="_blank">${title}</a>`;
-    if (ref.article_text) {
-      html += `<details><summary>Show full article (${ref.article_text.length.toLocaleString()} chars)</summary><div>${esc(ref.article_text)}</div></details>`;
+    const bodyText = articleText || tweetText;
+    if (bodyText) {
+      const lbl = isArticle ? "Show full article" : "Show tweet text";
+      html += `<details${isArticle ? "" : " open"}><summary>${lbl} (${bodyText.length.toLocaleString()} chars)</summary><div>${esc(bodyText)}</div></details>`;
     }
     html += `</div>`;
   }
