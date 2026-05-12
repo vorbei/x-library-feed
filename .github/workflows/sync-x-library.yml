@@ -46,6 +46,7 @@ jobs:
           X_TOKEN_STATE_FILE: ${{ runner.temp }}/rotated_tokens.env
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
         run: |
           if [ -z "$X_USER_ACCESS_TOKEN_1" ] && [ -z "$X_REFRESH_TOKEN_1" ]; then
             echo "::warning::Account 1 X secrets are not set; skipping sync."

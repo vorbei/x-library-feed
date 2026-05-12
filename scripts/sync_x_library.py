@@ -395,6 +395,35 @@ CF_API_BASE = "https://api.cloudflare.com/client/v4"
 TEXT_USEFUL_MIN_CHARS = 200
 
 
+def _x_cookies_for_cf() -> list[dict[str, str]] | None:
+    raw = os.environ.get("X_COOKIES_JSON", "").strip()
+    if not raw:
+        return None
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(parsed, list) or not parsed:
+        return None
+    normalised: list[dict[str, str]] = []
+    for c in parsed:
+        if not isinstance(c, dict):
+            continue
+        name = c.get("name")
+        value = c.get("value")
+        if not name or not value:
+            continue
+        normalised.append(
+            {
+                "name": str(name),
+                "value": str(value),
+                "domain": str(c.get("domain") or ".x.com"),
+                "path": str(c.get("path") or "/"),
+            }
+        )
+    return normalised or None
+
+
 def _trafilatura_extract(markup: str, url: str) -> dict[str, str] | None:
     try:
         import trafilatura  # type: ignore
@@ -425,7 +454,13 @@ def _cf_browser_rendering(url: str) -> dict[str, str] | None:
     if not (CF_ACCOUNT_ID and CF_API_TOKEN):
         return None
     endpoint = f"{CF_API_BASE}/accounts/{CF_ACCOUNT_ID}/browser-rendering/markdown"
-    body = json.dumps({"url": url}).encode("utf-8")
+    body_dict: dict[str, Any] = {"url": url}
+    parsed_host = urllib.parse.urlparse(url).netloc.lower()
+    if "x.com" in parsed_host or "twitter.com" in parsed_host:
+        cookies = _x_cookies_for_cf()
+        if cookies:
+            body_dict["cookies"] = cookies
+    body = json.dumps(body_dict).encode("utf-8")
     req = urllib.request.Request(
         endpoint,
         data=body,
