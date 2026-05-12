@@ -782,13 +782,20 @@ def update_linked_content(
     items: list[dict[str, Any]],
     existing_content: dict[str, dict[str, Any]],
     max_fetches: int,
+    thread_urls_by_conv: dict[str, list[str]] | None = None,
 ) -> dict[str, dict[str, Any]]:
     content = dict(existing_content)
     fetched = 0
+    thread_urls_by_conv = thread_urls_by_conv or {}
     for item in items:
         urls = []
         seen: set[str] = set()
-        for url in [*(item.get("primary_urls") or []), *(item.get("image_urls") or [])]:
+        item_thread_urls = thread_urls_by_conv.get(item.get("conversation_id", ""), [])
+        for url in [
+            *(item.get("primary_urls") or []),
+            *(item.get("image_urls") or []),
+            *item_thread_urls,
+        ]:
             if url not in seen:
                 seen.add(url)
                 urls.append(url)
@@ -1094,7 +1101,9 @@ def main() -> None:
         )
     linked_content = existing.get("linked_content_by_url") or {}
     if not args.skip_linked_content:
-        linked_content = update_linked_content(items, linked_content, args.max_linked_url_fetches)
+        linked_content = update_linked_content(
+            items, linked_content, args.max_linked_url_fetches, thread_urls
+        )
 
     store = {
         "schema_version": SCHEMA_VERSION,
