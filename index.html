@@ -54,6 +54,16 @@
   article.item {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 12px; padding: 16px 20px; margin-bottom: 16px;
+    display: grid; gap: 16px;
+    grid-template-columns: minmax(0, 1fr) 240px;
+  }
+  article.item .main { min-width: 0; }
+  article.item .side { width: 240px; align-self: start; }
+  article.item.no-images { grid-template-columns: 1fr; }
+  article.item.no-images .side { display: none; }
+  @media (max-width: 720px) {
+    article.item, article.item.no-images { grid-template-columns: 1fr; }
+    article.item .side { width: auto; }
   }
   .head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
   .author { font-weight: 600; }
@@ -69,14 +79,24 @@
     white-space: pre-wrap;
     word-wrap: break-word;
   }
-  .gallery { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
-  .gallery img {
-    max-width: 100%;
-    max-height: 320px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    object-fit: cover;
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
   }
+  .gallery a {
+    display: block; aspect-ratio: 1 / 1; overflow: hidden;
+    border-radius: 6px; border: 1px solid var(--border);
+    background: var(--accent);
+  }
+  .gallery img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform .2s ease;
+  }
+  .gallery a:hover img { transform: scale(1.04); }
+  /* If only 1 or 2 images, let them stretch full width side-by-side */
+  .gallery.count-1 { grid-template-columns: 1fr; }
+  .gallery.count-2 { grid-template-columns: repeat(2, 1fr); }
   .linked, .ref-article {
     margin-top: 12px; padding: 10px 14px; background: var(--accent);
     border-radius: 8px; font-size: 14px;
@@ -127,7 +147,21 @@ function renderItem(item, refArticles) {
   const created = item.created_at ? new Date(item.created_at).toLocaleString() : "";
   const sources = (item.sources || []).join(", ");
 
-  let html = `<article class="item">`;
+  // Collect images first so we can decide layout
+  const seen = new Set();
+  const images = [];
+  for (const u of (item.image_urls || [])) {
+    if (!seen.has(u)) { seen.add(u); images.push(u); }
+  }
+  for (const lc of (item.linked_content || [])) {
+    for (const u of (lc.image_urls || [])) {
+      if (!seen.has(u)) { seen.add(u); images.push(u); }
+    }
+  }
+
+  const hasImages = images.length > 0;
+  let html = `<article class="item${hasImages ? "" : " no-images"}">`;
+  html += `<div class="main">`;
   html += `<div class="head">`;
   html += `<div><span class="author">${name}</span> <a href="https://x.com/${handle}" target="_blank">@${handle}</a></div>`;
   html += `<span class="time">${esc(created)}</span>`;
@@ -168,25 +202,6 @@ function renderItem(item, refArticles) {
     html += `</div>`;
   }
 
-  // Images
-  const seen = new Set();
-  const images = [];
-  for (const u of (item.image_urls || [])) {
-    if (!seen.has(u)) { seen.add(u); images.push(u); }
-  }
-  for (const lc of (item.linked_content || [])) {
-    for (const u of (lc.image_urls || [])) {
-      if (!seen.has(u)) { seen.add(u); images.push(u); }
-    }
-  }
-  if (images.length) {
-    html += `<div class="gallery">`;
-    for (const u of images.slice(0, 8)) {
-      html += `<img src="${esc(u)}" alt="" loading="lazy" />`;
-    }
-    html += `</div>`;
-  }
-
   // Linked content (non-image)
   for (const lc of (item.linked_content || [])) {
     const u = lc.final_url || lc.url || "";
@@ -213,6 +228,17 @@ function renderItem(item, refArticles) {
   if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
 
   if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
+  html += `</div>`; // /.main
+
+  if (hasImages) {
+    const shown = images.slice(0, 9);
+    const cls = shown.length <= 2 ? ` count-${shown.length}` : "";
+    html += `<div class="side"><div class="gallery${cls}">`;
+    for (const u of shown) {
+      html += `<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="" loading="lazy" /></a>`;
+    }
+    html += `</div></div>`;
+  }
   html += `</article>`;
   return html;
 }
