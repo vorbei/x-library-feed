@@ -4,9 +4,9 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Mon, 11 May 2026 16:17:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 03:23:41 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
-    <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-11.md</docs>
+    <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-12.md</docs>
     <item>
       <title>@leige88888: 充满人情味的日本 https://t.co/DycEctRS8f</title>
       <link>https://x.com/leige88888/status/2053469215785652365</link>
@@ -41,23 +41,6 @@ Subscribe to Updates Subscribe x Get email notifications whenever DeepSeek Servi
       <media:content url="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/846087/img_v3_02ap_5a372639-d949-4d25-8afd-97286c550d5g-a0572108-63b9-42cb-ab32-0f870aa14c4e.png" medium="image" />
     </item>
     <item>
-      <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3</title>
-      <link>https://x.com/IceBearMiner/status/2053645573777969252</link>
-      <guid isPermaLink="false">2053645573777969252</guid>
-      <pubDate>Mon, 11 May 2026 01:17:14 GMT</pubDate>
-      <description>确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3
-
-Tweet: https://x.com/IceBearMiner/status/2053645573777969252
-Primary URLs:
-- https://x.com/IceBearMiner/status/2053645573777969252/photo/1
-- https://twitter.com/shachepi/status/2053463461729046817
-Image URLs:
-- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg
-Linked content:
-- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg: https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg</description>
-      <media:content url="https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg" medium="image" />
-    </item>
-    <item>
       <title>@dingyi: 好看！ https://t.co/nobDDUtBv3</title>
       <link>https://x.com/dingyi/status/2053763539203232118</link>
       <guid isPermaLink="false">2053763539203232118</guid>
@@ -67,6 +50,27 @@ Linked content:
 Tweet: https://x.com/dingyi/status/2053763539203232118
 Primary URLs:
 - https://twitter.com/op7418/status/2053657613460771142</description>
+    </item>
+    <item>
+      <title>@kylejeong: Containers are fast. VMs are safe. Everyone building agent infra needs both. That's not...</title>
+      <link>https://x.com/kylejeong/status/2053932013099630883</link>
+      <guid isPermaLink="false">2053932013099630883</guid>
+      <pubDate>Mon, 11 May 2026 20:15:26 GMT</pubDate>
+      <description>Containers are fast. VMs are safe. Everyone building agent infra needs both.
+&gt;
+&gt; That's not just an opinion, it's the problem Firecracker was built to solve.
+&gt;
+&gt; I wrote about how it works with interactive components. https://t.co/R2aTO6pfbM https://t.co/J9RWb8qwxv
+
+Tweet: https://x.com/kylejeong/status/2053932013099630883
+Primary URLs:
+- https://x.com/kylejeong/status/2053932013099630883/video/1
+- https://twitter.com/kylejeong/status/2053930111829942311
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg: https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg" medium="image" />
     </item>
     <item>
       <title>@Aurelien_Gz: pretty insane scroll effect by @azhassan_ (swift ui metal shader) https://t.co/YkPcxQ88nR</title>
@@ -99,20 +103,6 @@ Primary URLs:
 - https://twitter.com/dingyi/status/2048760423491764431</description>
     </item>
     <item>
-      <title>@RealHanyaHu: https://t.co/lxHg39FNUt</title>
-      <link>https://x.com/RealHanyaHu/status/2053619515871863211</link>
-      <guid isPermaLink="false">2053619515871863211</guid>
-      <pubDate>Sun, 10 May 2026 23:33:41 GMT</pubDate>
-      <description>https://t.co/lxHg39FNUt
-
-Tweet: https://x.com/RealHanyaHu/status/2053619515871863211
-X article: https://x.com/RealHanyaHu/article/2053619515871863211
-X article text:
-我想中转站为什么存在，基本上中推用户不需要再被教育。 对中国大陆开发者来说，现实门槛通常有三层。 第一层是网络和地区限制，第二层是支付和账单限制，第三层是账号和身份验证限制，而需求却是真实存在的。 很多开发者、学生、创业者、企业团队都想用 Claude、GPT、Gemini。官方路径不顺畅，中转站就成了一种一站式解决方案。 这里我没有义务教育你不要用，本文只想教你避坑。请先看以下三大巨坑： 巨坑一：充值归零 有些中转站的价格低到不正常。 Zilan Qian 的调查提到，中国中转站可以把 Claude token 卖到官方价格的 一折，甚至更低。 这个价格怎么做到？这是一条非常模块化的上游供应链。 请看下图 一个 200 美元的 Claude Max 订阅，可以被拆成多个用户的使用额度，按小时、按 token、按并发重新售卖。 当然，还有更灰的来源：盗刷信用卡、盗用账号、虚假身份验证。 对中转站运营者来说，这只是成本模型的一部分。账号被封，换一批。卡被风控，再找一批。代理节点失效，再切一批。 对普通用户来说，这意味着你的预充值余额没有真正保障。 你今天充进去的钱，可能明天因为上游账号池被封而消失。 没有退款、没有客服、没有合同、没有可追责的公司主体。 巨坑二：掺水 这CISPA 研究团队进行了直接测试。 他们识别了 17 个 shadow API 服务，其中一些已经出现在 187 篇学术论文的代码或实验流程里。研究团队进一步选取代表性服务做审计，测试它们声称提供的模型是否真的接近官方 API。 结果显示，一些中转服务存在严重的模型能力偏差。 最典型的例子是 Gemini 2.5 flash。 官方 API 在 MedQA 医学基准上的表现接近 83.82%，而通过某些 shadow API 调用时，平均只有大约 37%。 这不是小误差，这是模型能力断崖式下降。 论文还通过模型指纹和元数据分析发现，一些服务会把用户请求偷偷路由到更便宜的模型，然后在返回结果里继续显示用户以为自己调用的模型名称。 你请求的是 GPT、Gemini 或 Claude 的高级模型。 实际响应你的，可能是低配模型，也可能是别的开源或国产模型。 比如说，Claude与Minimax相比，价格差了17倍左右。 对普通用户来说，这等于花钱买了假货。 对开发者来说，风险更大。 你以为产品已经经过旗舰模型验证，实际上它可能从来没有真正跑过旗舰模型，这样，你的评测、产品判断、用户体验，全都被污染了。 巨坑3: 隐私泄漏 中转站作为代理服务，架在你和 AI 公司之间。你的请求先到中转站服务器，再转发给上游模型。模型的回答先回到中转站服务器，再回到你这里。 所以中转站从结构上就可以看到完整流量。 你的 prompt、system prompt、上下文、文件内容、代码、用户数据、型的输出、Agent 的调用过程，全部都会经过它的服务器。 Zilan Qian 在调查里写到，低价 API 访问本身可能只是获客方式，真正有价值的是日志。 因为这些日志可以被打包成训练数据，尤其是 Claude Code、Cursor、Codex、各类 Agent 工作流产生的数据，价值很高。 里面有真实工程任务、仓库上下文、人类修改后的正确答案、代码调试过程、产品需求、系统设计、业务逻辑，这些东西对训练模型非常有用。 对个人用户来说，这是隐私问题，对创业公司来说，这是商业秘密问题。 你给模型看的系统提示词，可能是你产品最核心的逻辑。 你发给模型的客户数据，可能是你公司的资产。 你粘进去的代码，可能是你的技术壁垒。 你让 AI 分析的合同、融资材料、用户画像、财务表、内部会议纪要，都可能经过一个你不认识、没有签署数据处理协议、没有任何保密义务的中间商服务器。 你基本上在裸奔。 而他们，可能拿你的这些数据再去卖，也可能正在帮助别人训练模型。 哪些内容不要走中转站 公司内部资料 商业计划书、融资材料、财务表、合同、客户名单、会议纪要、运营数据，都不适合走中转站。 产品核心逻辑 系统提示词、Agent 工作流、数据库结构、API 设计、代码仓库、模型评测数据，都不适合走中转站。 个人敏感信息 身份证件、医疗记录、移民材料、税务信息、孩子信息、情感咨询、法律纠纷，都不适合走中转站。 总之你不希望被别人拿去训练模型、做竞品、做画像、做诈骗素材的内容，都不要发。 判断标准很简单：这段内容如果明天出现在别人手里，你会不会慌？ 几大危险信号 长期低价，乃至官方价格的一折，百分百有假。 2. 没有公司主体、隐私政策、数据处理协议、上游来源说明，要小心。 3. 承诺所有顶级模型都能用，速度快，价格低，永不封号，也要小心。 4. 要求你预充大量余额，八成要坑你。 5....
-Primary URLs:
-- https://x.com/i/article/2053609142984843264</description>
-    </item>
-    <item>
       <title>@lijigang: 给这个世界的一份答卷: https://t.co/q9JL7v4nXv</title>
       <link>https://x.com/lijigang/status/2053772293864857859</link>
       <guid isPermaLink="false">2053772293864857859</guid>
@@ -128,6 +118,29 @@ Linked content:
 - GitHub - lijigang/ljg-skills · GitHub: https://github.com/lijigang/ljg-skills
 Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...</description>
       <media:content url="https://opengraph.githubassets.com/cf27e72df9cf0f1ee91532cc5db00895a27d1ece29df32616d07b1163782252a/lijigang/ljg-skills" medium="image" />
+    </item>
+    <item>
+      <title>@nateherk: Hermes actually is the real deal. I just dropped a one hour course on it. All the way...</title>
+      <link>https://x.com/nateherk/status/2053308985575362681</link>
+      <guid isPermaLink="false">2053308985575362681</guid>
+      <pubDate>Sun, 10 May 2026 02:59:45 GMT</pubDate>
+      <description>Hermes actually is the real deal.
+&gt;
+&gt; I just dropped a one hour course on it.
+&gt;
+&gt; All the way from setting one up to understanding how to build an army of them.
+&gt;
+&gt; Give this a read. https://t.co/QFLjPWdXLd https://t.co/SkNzuF1eDd
+
+Tweet: https://x.com/nateherk/status/2053308985575362681
+Primary URLs:
+- https://x.com/nateherk/status/2053308985575362681/video/1
+- https://twitter.com/nateherk/status/2053308681299616125
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg
+Linked content:
+- https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg: https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg" medium="image" />
     </item>
     <item>
       <title>@aoim33: 人类的本能 本能一 食欲 本能二 性欲 本能三 睡眠欲 本能寺 烧掉了</title>
@@ -162,26 +175,6 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg" medium="image" />
     </item>
     <item>
-      <title>@vista8: 今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。...</title>
-      <link>https://x.com/vista8/status/2053464149997634043</link>
-      <guid isPermaLink="false">2053464149997634043</guid>
-      <pubDate>Sun, 10 May 2026 13:16:19 GMT</pubDate>
-      <description>今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。
-&gt;
-&gt; 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。
-&gt;
-&gt; 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://t.co/5ebGyYHMHw
-
-Tweet: https://x.com/vista8/status/2053464149997634043
-Primary URLs:
-- https://x.com/vista8/status/2053464149997634043/photo/1
-Image URLs:
-- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg
-Linked content:
-- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg: https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg</description>
-      <media:content url="https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg" medium="image" />
-    </item>
-    <item>
       <title>@landiantech: 迫于员工持续不断的呼吁，亚马逊现在允许员工使用 Claude Code 和 Codex，在 2025 年 11 月亚马逊宣布禁止使用外部 AI 开发工具，员工只能使用自研的...</title>
       <link>https://x.com/landiantech/status/2053672865158062545</link>
       <guid isPermaLink="false">2053672865158062545</guid>
@@ -198,6 +191,20 @@ Image URLs:
 Linked content:
 - https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg: https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg</description>
       <media:content url="https://pbs.twimg.com/media/HIAcklnbEAAPWAi.jpg" medium="image" />
+    </item>
+    <item>
+      <title>@larsencc: https://t.co/q9seexFatM</title>
+      <link>https://x.com/larsencc/status/2053862900289470765</link>
+      <guid isPermaLink="false">2053862900289470765</guid>
+      <pubDate>Mon, 11 May 2026 15:40:49 GMT</pubDate>
+      <description>https://t.co/q9seexFatM
+
+Tweet: https://x.com/larsencc/status/2053862900289470765
+X article: https://x.com/larsencc/article/2053862900289470765
+X article text:
+We open-sourced browser-use so anyone can run a browser agent locally with a few lines of Python. Running millions of those agents in production with retries, timeouts, screenshots, audit trails, and billing requires infrastructure that took us 4,000+ commits to get right. This post is the architecture we use in production. If you want to run browser-use at scale in your own infrastructure, this is a good starting point. x What the open-source library gives you The Agent class is the unit of work. You pass it a task, an LLM, and a BrowserSession. On each step it takes a screenshot and extracts the DOM in parallel, sends both to the LLM to decide the next action, executes that action, and repeats until the task is done. from browser_use import Agent, BrowserSession agent = Agent( task="Book a table for two at the closest sushi place", llm=ChatAnthropic(model="claude-sonnet-4-6"), browser_session=BrowserSession(), ) result = await agent.run() This is the one method call we make in production. That's the entire open-source library. Everything else in this post, the queues, the workers, the state management, the retry logic, is the infrastructure we built around it. The architecture The API is a FastAPI service on ECS Fargate. It accepts task creation requests, validates them, writes a row to the database, drops a message on SQS, and returns HTTP 202. Behind it is a standard SQS queue with one message per agent run carrying the task ID and execution config. No ordering, no deduplication, no separate queue per workload type since agent tasks are independent of each other. The worker is an AWS Lambda function with from browser_use import Agent at the top. It pulls messages off SQS, instantiates the agent, runs it to completion, and writes results to S3. The complexity is in how each piece handles failure. API entry The handler validates the payload, creates session and task rows in the database, commits, sends an SQS message, and returns HTTP 202 with the task ID in...
+Primary URLs:
+- https://x.com/i/article/2053670943973916672</description>
     </item>
     <item>
       <title>@_heyrico: Why hire us for your product design? Because we have a complete product system that...</title>
@@ -244,25 +251,18 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HH7WJZabcAAemN3.jpg" medium="image" />
     </item>
     <item>
-      <title>@jinchenma_ai: 卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！ wx-cli，让 AI 可以自由读取微信消息。 1....</title>
-      <link>https://x.com/jinchenma_ai/status/2053039222244962728</link>
-      <guid isPermaLink="false">2053039222244962728</guid>
-      <pubDate>Sat, 09 May 2026 09:07:48 GMT</pubDate>
-      <description>卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！
-&gt;
-&gt; wx-cli，让 AI 可以自由读取微信消息。
-&gt;
-&gt; 1. 消息随便翻：不用点开微信那个难用的搜索框，直接输入关键词就能搜全库聊天记录，速度快到飞起。
-&gt; 2. https://t.co/ilRqey3aMT
+      <title>@ChrisHayduk: https://t.co/TAMzxXxpNX</title>
+      <link>https://x.com/ChrisHayduk/status/2053807198870880743</link>
+      <guid isPermaLink="false">2053807198870880743</guid>
+      <pubDate>Mon, 11 May 2026 11:59:28 GMT</pubDate>
+      <description>https://t.co/TAMzxXxpNX
 
-Tweet: https://x.com/jinchenma_ai/status/2053039222244962728
+Tweet: https://x.com/ChrisHayduk/status/2053807198870880743
+X article: https://x.com/ChrisHayduk/article/2053807198870880743
+X article text:
+Perceptive Codex users have noticed that the /goal command is now available in the Codex app - just start your prompt with /goal, and specify what you want your agent to do. This will trigger Codex to loop continuously until it achieves your goal. But in order for the agent to do this effectively, we need to think about prompting the model in slightly different ways than you may be used to. In this article, I'll lay out some tips I've picked up from using goal mode both internally at OpenAI and in my side projects to get the most out of Codex. Specify A Clear, Quantitative Goal Models have gotten so good over the past ~6 months that many of us have gotten lazy as prompters in our everyday workflows. We can vaguely gesture at what we want GPT-5.5 to build, and it's pretty good at figuring out what it should be doing and how to get there. This prompting style, however, is a major failure mode I've seen when using goal mode. Goal mode is at its core a loop - the agent executes some actions, scores those actions, checks if the score satisfies the goal, and then continues if it has not (or terminates if it has). The core piece is step 3 - checking if the score satisfies the goal. With a vague, qualitative goal (e.g., "make my code better"), the loop's end state is underspecified. How can the agent know when it has achieved its goal and execute the loop? What state of the code is "better", and when is it "better enough" to stop? I've noticed that with these underspecified goals, the model has two distinct failure modes. In some cases, the model will give up early, working for only a few minutes before giving up. In other cases, the model will never stop working, making changes that flail about blindly as it tries to satisfy an unsatisfiable target. A better goal than "make my code better" would be something like "reduce the runtime of the code contained in specific_file by 20% without causing any regressions in existing unit tests and integration tests." The agent now...
 Primary URLs:
-- https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
-Image URLs:
-- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg
-Linked content:
-- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg: https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg</description>
-      <media:content url="https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg" medium="image" />
+- https://x.com/i/article/2053705681614536704</description>
     </item>
     <item>
       <title>@VadimCarazan: the stuff that never gets likes is the stuff that makes the work good color systems....</title>
@@ -320,32 +320,18 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HH21wymbUAA01fG.png" medium="image" />
     </item>
     <item>
-      <title>@defileo: https://t.co/tzbujQQRWb</title>
-      <link>https://x.com/defileo/status/2045466421036007527</link>
-      <guid isPermaLink="false">2045466421036007527</guid>
-      <pubDate>Sat, 18 Apr 2026 11:36:12 GMT</pubDate>
-      <description>https://t.co/tzbujQQRWb
+      <title>@gregisenberg: https://t.co/zB1WgXzFAz</title>
+      <link>https://x.com/gregisenberg/status/2053843542020063489</link>
+      <guid isPermaLink="false">2053843542020063489</guid>
+      <pubDate>Mon, 11 May 2026 14:23:53 GMT</pubDate>
+      <description>https://t.co/zB1WgXzFAz
 
-Tweet: https://x.com/defileo/status/2045466421036007527
-X article: https://x.com/defileo/article/2045466421036007527
+Tweet: https://x.com/gregisenberg/status/2053843542020063489
+X article: https://x.com/gregisenberg/article/2053843542020063489
 X article text:
-Most people think Claude is something you talk to, tho it is now something you deploy. Anthropic quietly shipped something that changes how you think about AI entirely, it is called Routines. And if you build things, run a team, or manage any kind of recurring work, this is the most important thing Claude has shipped this year. Here is what it does: You define a task once, a prompt, a repo, a trigger, claude runs it automatically on Anthropic's cloud infrastructure. Your laptop can be closed -&gt; Claude is still working, not a chatbot, not a copilot a deployed worker. The three triggers Every routine needs a trigger, there are three types, you can combine them on the same routine. &gt; Schedule Runs on a recurring cadence. Hourly, daily, weekdays, weekly, or a custom cron expression. You set the time in your local timezone and Claude converts it automatically. Use this for anything that needs to happen on a clock. Daily standups. Weekly doc reviews. Nightly backlog maintenance. Morning digests. &gt; API Gives your routine a dedicated HTTP endpoint. You POST to it with a bearer token and Claude starts a run immediately. You can pass extra context in the request body using a text field. Use this to wire Claude into anything that can make an HTTP request. Alerting tools. Deploy pipelines. Internal dashboards. Anywhere you want Claude to react to something your system detected. &gt; GitHub Runs automatically when something happens in a repository. Pull request opened. Commit pushed. Issue created. Workflow completed. You pick the event and optionally add filters so it only triggers on exactly what you care about. Use this for code review, PR triage, changelog generation, or anything that should happen every time code moves. Five routines you can set up today These are real use cases from the docs, each one has the trigger type, the prompt structure, and what Claude actually does. Routine 1: Morning backlog digest Trigger: schedule, every weekday at 7am Prompt structure: What...
+The truth about being AI native. I'll break it down. Everyone is walking around saying they’re “AI-native” now, which mostly means someone on the team has a ChatGPT tab open and the head of marketing made a custom GPT called “Brand Voice Assistant.” Cute. Useful, even. But not AI-native. That’s the difference people keep missing. An AI-native company is not a company that uses AI. It is a company that has been rebuilt so AI can actually operate inside it. The business is structured, documented, permissioned, and instrumented in a way that agents can understand. The company has made itself legible to machines. That sounds boring until you realize it might be the single biggest business advantage of the next decade. Because most companies are not legible to machines. Most companies are barely legible to their own employees. The CRM says one thing. The Slack thread says another. The real customer history lives in someone’s inbox. The pricing logic is in a spreadsheet called “Final_v7_NEW.” The refund policy is in a Notion doc nobody trusts. The sales process is “talk to Sarah, she knows how we do enterprise.” The onboarding flow is five tools, three humans, two approval steps, and one founder who still gets pulled into random edge cases because nobody ever turned judgment into a system. Then these companies ask, “Why can’t AI do more for us?” Because AI cannot run on vibes. It can’t operate a business where the truth is scattered across people, tools, habits, exceptions, and institutional memory. Agents need context. They need clean inputs. They need rules. They need access. They need boundaries. They need to know what good looks like. They need to know when to act and when to ask. Most companies have spent twenty years buying software, but they have not spent twenty years designing an operating system. They have a pile of tools, not a machine. That is why the number of truly AI-native companies is probably shockingly small. My guess is there are maybe 1,000...
 Primary URLs:
-- https://x.com/i/article/2045262387041730560</description>
-    </item>
-    <item>
-      <title>@prukalpa: https://t.co/CeJOVOAOfs</title>
-      <link>https://x.com/prukalpa/status/2052398453225816187</link>
-      <guid isPermaLink="false">2052398453225816187</guid>
-      <pubDate>Thu, 07 May 2026 14:41:37 GMT</pubDate>
-      <description>https://t.co/CeJOVOAOfs
-
-Tweet: https://x.com/prukalpa/status/2052398453225816187
-X article: https://x.com/prukalpa/article/2052398453225816187
-X article text:
-Performance is intelligence times context. The labs solved one side. Your enterprise has to solve the other. Every few months, the tech headlines follow a predictable script: a new AI model is out and surprise surprise, it topped the leaderboards. Think of Gemini 3.1 Pro hitting 94% on PhD-level science reasoning tests, or GPT-5.4 Pro solving one of FrontierMath’s Open Problems that are unsolved by real mathematicians. In fact, AI models are doing so well that we have to keep developing harder benchmarks. At the same time, the cost of frontier-level inference dropped nearly 300x in just two years. Just last month, Gartner predicted that by 2030, LLMs will become up to 100x more cost efficient than 2022 models and running inference on a model with 1 trillion parameters will cost 90% less. In short, AI intelligence is becoming historically powerful, abundant, and cheap. And yet, in practice, AI feels particularly stupid. For example, MIT found that 95% of generative AI pilot programs fail, and IDC reported that 88% of AI POCs never make it to production. Models are getting smarter, options seem limitless, their prices are falling, and yet nearly half of AI projects are on the chopping block. We’ve rebuilt our junkyard engine into a racecar turbine but the car is still stuck in the driveway. In this article, I want to break down what I’ve come to realize recently — we don’t understand what intelligence actually means. We treat model intelligence like many people treat SAT scores, a narrow benchmark that people interpret as a broad measure of intelligence and real-world success. But just like the person with the highest SAT score won’t necessarily be the best employee, especially without onboarding, mentorship, and business context, even the “smartest” AI can’t deliver business value without the systems, knowledge, and feedback loops that provide context. In an era where intelligence is becoming commodified, the ultimate competitive advantage won’t come from a higher...
-Primary URLs:
-- https://x.com/i/article/2051678358405083140</description>
+- https://x.com/i/article/2053837926690148352</description>
     </item>
     <item>
       <title>@notoro_ai: GPT image プロンプト： https://t.co/7xgCzZqqPU</title>
@@ -399,26 +385,16 @@ Primary URLs:
 - https://x.com/i/article/2043979081641803776</description>
     </item>
     <item>
-      <title>@Av1dlive: https://t.co/UB6BAxHPMJ</title>
-      <link>https://x.com/Av1dlive/status/2052063154423898603</link>
-      <guid isPermaLink="false">2052063154423898603</guid>
-      <pubDate>Wed, 06 May 2026 16:29:16 GMT</pubDate>
-      <description>https://t.co/UB6BAxHPMJ
+      <title>@oran_ge: 未来每个团队都是在做 harness 工程，每个人都需要理解这套框架 虽然有一些非共识的点，但这篇是个不错的综述 https://t.co/qUkT59V5Fk</title>
+      <link>https://x.com/oran_ge/status/2053608588002885730</link>
+      <guid isPermaLink="false">2053608588002885730</guid>
+      <pubDate>Sun, 10 May 2026 22:50:16 GMT</pubDate>
+      <description>未来每个团队都是在做 harness 工程，每个人都需要理解这套框架
+&gt; 虽然有一些非共识的点，但这篇是个不错的综述 https://t.co/qUkT59V5Fk
 
-Tweet: https://x.com/Av1dlive/status/2052063154423898603
-X article: https://x.com/Av1dlive/article/2052063154423898603
-X article text:
-You can build the next $1B company in a weekend using AI And the only skill you need to learn is TLDR; if you don't want to read 7,862 words of roadmap, then you can simply just give this link to your agent to personalise a roadmap ➡️https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md agentic ai &amp; harness engineering The problem is that most engineers have no clear idea what they should learn Some pick CrewAI because the role-based demos look slick on Twitter Some chase every new framework that ships and never finish anything real Others jump straight into multi-agent systems without understanding context, tools, harnesses, or evals The result is usually the same: a lot of framework tourism and very little production-ready skill If your goal is to become an agent engineer in 2026, you don't need to learn 12 frameworks You need to learn how to build, harness, evaluate, and ship real agent systems in production That means learning how to: build agents on a real orchestration runtime like LangGraph work with the Claude Agent SDK as a reference harness engineer context properly with Write, Select, Compress, Isolate write tools the model picks correctly add memory, durability, and sandboxing for production traffic build evals, trajectory checks, and CI regression gates ship agents that survive contact with real users and real cost This guide is a 6-phase roadmap built on what shipped in late 2025 and early 2026 The piece is 7,000+ WORDS and pulls from primary sources only But its real value is that every phase has a concrete project, a canonical reading list, and the exact resources you need That way, within roughly 17 WEEKS of focused work, you can reach the level of agent engineer who can own a production AI feature end to end Researching this took more than 60 HOURS of reading primary engineering blogs, papers, and shipping-engineer surveys Now let's start reading the roadmap ⬇️ What an Agent Engineer does in 2026 A lot of people hear...
+Tweet: https://x.com/oran_ge/status/2053608588002885730
 Primary URLs:
-- https://x.com/i/article/2051953147686658049
-- https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md
-- https://anthropic.com/engineering/building-c-compiler
-- http://x.com/i/article/2051953147686658049
-Linked content:
-- Building a C compiler with a team of parallel Claudes \ Anthropic: https://www.anthropic.com/engineering/building-c-compiler
-Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Engineering at Anthropic Building a C compiler with a team of parallel Claudes Published Feb 05, 2026 We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development. Written by Nicholas Carlini, a researcher on our Safeguards team. I've been experimenting with a new approach to supervising...</description>
-      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/7e2e39544a35760367049072406377a54f2b58c0-2554x2554.svg" medium="image" />
-      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/6cc87859f5453e9481278681aa6409856d61153c-2400x1260.png" medium="image" />
+- https://twitter.com/dotey/status/2053601852261110201</description>
     </item>
     <item>
       <title>@nakado_biko: とうとう夏の入口に来たって感じ。 https://t.co/3h44V71KUa</title>
@@ -472,18 +448,24 @@ Primary URLs:
 - https://twitter.com/garrytan/status/2042925773300908103</description>
     </item>
     <item>
-      <title>@_heyrico: https://t.co/jHy8Z3CJIR</title>
-      <link>https://x.com/_heyrico/status/2052386115488002524</link>
-      <guid isPermaLink="false">2052386115488002524</guid>
-      <pubDate>Thu, 07 May 2026 13:52:36 GMT</pubDate>
-      <description>https://t.co/jHy8Z3CJIR
+      <title>@AI_Whisper_X: 刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济 主要论点大致是这几个: 1....</title>
+      <link>https://x.com/AI_Whisper_X/status/2053753275661394286</link>
+      <guid isPermaLink="false">2053753275661394286</guid>
+      <pubDate>Mon, 11 May 2026 08:25:12 GMT</pubDate>
+      <description>刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济
+&gt;
+&gt; 主要论点大致是这几个:
+&gt; 1. 循环经济的运作方式
+&gt; Anthropic 自己赚的钱不够付云服务账单，所以亚马逊和谷歌给 Anthropic 投资，Anthropic https://t.co/ma1TuvLXMX
 
-Tweet: https://x.com/_heyrico/status/2052386115488002524
-X article: https://x.com/_heyrico/article/2052386115488002524
-X article text:
-The word "agent" sounds bigger than it is. An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done. That is the whole idea. Every framework, every term, every demo, sits on top of that loop. Most articles about agents skip past this and land in the deep end. This one does the opposite. It explains the parts in plain English, walks through a build a beginner can finish in an afternoon, and lists the small mistakes that waste a weekend. What an agent actually is Picture an assistant who can read, type, click, and make calls. You give them a goal. They figure out the steps. They do each step. They check whether it worked. They keep going until the goal is met or they hit a wall. An AI agent is the same idea, except the assistant is a model (Claude, GPT, Gemini, or an open-source one) and the steps are calls to small tools that you provide. Three pieces sit underneath every agent. A model. This is the brain. It reads, decides, and writes. Any modern LLM that supports "tool calling" works. Tool calling just means the model can fill in a small form to ask your code to do something for it. A small set of tools. Each tool is one specific thing the agent can do. Read a file. Send an email. Search the web. Each tool comes back with a clean result the model can read. A loop. A bit of code that asks the model "what do you want to do next?", runs whatever the model picks, hands back the result, and asks again. That is the entire shape. If you understand those three pieces, every agent tutorial gets easier to follow. The frameworks (Claude Agent SDK, OpenAI Agents, LangChain, CrewAI) are shortcuts that wrap the loop for you. An "SDK" is just a kit of pre-written code that handles the boring parts so you can write the interesting parts. Pick one when you are ready. It does not have to be the first decision. The four-...
+Tweet: https://x.com/AI_Whisper_X/status/2053753275661394286
 Primary URLs:
-- https://x.com/i/article/2052200189595922432</description>
+- https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg
+Linked content:
+- https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg: https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg" medium="image" />
     </item>
     <item>
       <title>@emilkowalski: Inheritable taste through skill files https://t.co/VTWOL2VIW0</title>
@@ -528,40 +510,27 @@ Primary URLs:
 - https://twitter.com/elliotarledge/status/2041602563423051812</description>
     </item>
     <item>
-      <title>@Xudong07452910: https://t.co/Xoeb1YJ9gv</title>
-      <link>https://x.com/Xudong07452910/status/2051891753821556976</link>
-      <guid isPermaLink="false">2051891753821556976</guid>
-      <pubDate>Wed, 06 May 2026 05:08:11 GMT</pubDate>
-      <description>https://t.co/Xoeb1YJ9gv
+      <title>@dunik_7: 40% of the code Claude writes for you is wasted. you're paying for the rewrite. a...</title>
+      <link>https://x.com/dunik_7/status/2053495306235347100</link>
+      <guid isPermaLink="false">2053495306235347100</guid>
+      <pubDate>Sun, 10 May 2026 15:20:07 GMT</pubDate>
+      <description>40% of the code Claude writes for you is wasted. you're paying for the rewrite.
+&gt;
+&gt; a 65-line markdown file fixes it. 120,000 developers have starred it.
+&gt;
+&gt; the author tested it on "30 codebases over 6 weeks" and reported a mistake rate drop from 41% to either 11% or 3%
+&gt;
+&gt; depending https://t.co/B3rmlXHgWo https://t.co/YLOThPzooK
 
-Tweet: https://x.com/Xudong07452910/status/2051891753821556976
-X article: https://x.com/Xudong07452910/article/2051891753821556976
-X article text:
-上一篇我聊了为什么自己不再去追新框架、不再频繁迁移、而是决定自己搭一套Agent。很多朋友看完后留言说“想动手但不知道从哪开始”，所以这篇文章讲了我用15天把我的个人 Agent “EvoPaw”从“能跑”迭代成每天都在用的工作系统，完整复盘可复制的方法论。 坦率的讲，我自己第一次摸索的时候也走了不少弯路。所以这一篇方法篇我尽量把每一步都拆得很细，让一个会装软件、能复制命令、不一定会写Python的普通人，也能跟着跑通。 整个过程其实就五步，选一个轻量基座，把Claude Code装好顺手把飞书跑通，建好几个脚手架文件让Claude Code知道你是谁，然后用对话把需求逼成具体的spec，最后边写代码边配测试。 我自己用这套流程跑了两周，把EvoPaw从一个「能勉强跑起来的脚本」迭代成了一个我每天都在用的工作系统。下面一步一步说。 我提前打个预防针，这套方法上手第一周其实有点笨拙的，一些步骤花的时间会比手动做还长。但是一旦跑顺了，后面每加一个新功能的速度会指数级上升，到后面真的会上瘾。 第一步，选一个轻量好扩展的基础项目 不要一上来就从零写，也别直接上那种功能堆得很重的框架。这两条路我自己都试过，一个是写到一半就卡死了，另一个是看不懂别人的抽象层、改不动。 你优先选那种代码少、可读性强、核心循环一目了然的项目，这样你才看得懂、改得动、长得久。 我当时主要是以一个课程Agent项目作为基础搭建，比较简陋，不过作为新手，可以先从下面两个里挑。 Pi-mono（https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。 Nanobot（https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。 这一步要看的几个判断标准，一是代码行数最好别超过8000行，二是agent loop要一眼看明白，三是能不能比较容易地加进飞书或微信，国外用户看Telegram和WhatsApp，四是能不能自由切换不同模型厂商的API。如果你找到别的合适项目，下面这套方法是完全通用的。 第二步，用Claude Code装上，把飞书也顺手跑通 我开发主力就是Claude Code，也推荐试试Codex这类CLI工具。它能直接读懂整个项目然后按你的指令改代码，不用再到处贴代码片段、来回切窗口。 以Nanobot为例，最简单的方式就是把项目地址直接丢给Claude Code，跟它说: "请fork https://github.com/HKUDS/nanobot 到本地，帮我安装好，要求能正常运行，一步步告诉我需要做什么。" 它会读项目，给你一串安装命令，每一步执行前你看一眼再回车就行。中途遇到报错它也会接着帮你排查。 这里要插一句，API Key的事得说一下。它问你要某个大模型的API Key的时候，不要直接在命令行里贴出来，会有泄露风险。正确做法是问它「我这个Key应该放在哪个文件、写成什么格式」，它会告诉你格式，你自己手动填进去。 装完之后，如果你不想从头读README，就直接问: 帮我梳理nanobot的项目结构和核心功能，告诉我它支持哪些聊天通道、记忆方式和技能系统。 跟看产品说明书一样，30分钟你就有一个全局认识。 接下来要做的事，是给它接上一个聊天平台，让Agent真的「活」起来。国外Telegram、WhatsApp都行，国内我推荐飞书，主力通道就是它。当然如果可以使用Telegram或者WhatsApp最好，因为搭建起来真的很方便。 你可以先丢一句给Claude Code: 帮我配置飞书通道，要求能收发消息、支持富文本和文件上传。 它会一步一步告诉你要做什么。但飞书这一步比较特殊，Claude Code帮不了你点飞书开放平台的网页，凭证必须你自己去拿。流程在 https://open.feishu.cn/app ，4步搞定。 第一步，创建一个「企业自建应用」。 第二步，启用「机器人」能力，申请`im:message`、`im:message.p2p_msg:readonly`、`cardkit:card:write`这三个权限（如果你还想要群聊和文件传输，再加上`im:message.group_msg:readonly`和`im:resource`）。...
+Tweet: https://x.com/dunik_7/status/2053495306235347100
 Primary URLs:
-- https://x.com/i/article/2051707444305207297
-- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
-- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
-- https://github.com/HKUDS/nanobot
-- https://open.feishu.cn/app
-- https://code.claude.com/docs/en/mcp
-- https://github.com/hxdflying/EvoPaw
+- https://x.com/dunik_7/status/2053495306235347100/video/1
+- https://twitter.com/Mnilax/status/2053116311132155938
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg
 Linked content:
-- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。: https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
-- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。: https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
-- GitHub - HKUDS/nanobot: "🐈 nanobot: The Ultra-Lightweight Personal AI Agent" · GitHub: https://github.com/HKUDS/nanobot
-Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...
-- 开发者后台 - 飞书开放平台: https://open.feishu.cn/app
-- Connect Claude Code to tools via MCP - Claude Code Docs: https://code.claude.com/docs/en/mcp
-Skip to main content Claude Code Docs home page English Search... ⌘ K Ask AI Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Tools and plugins Connect Claude Code to tools via MCP Getting started Build with Claude Code Administration Configuration Reference Agent SDK What's New Resources Agents Create custom subagents Run agent teams Tools and plugins Model Context Protocol (MCP) Discover and install prebuilt plugins Create plugins Extend Claude...</description>
-      <media:content url="https://opengraph.githubassets.com/973b90522a2d4fd78b09c10b21b8bf5869ea1bcee0a5af4a41cb71ecb09a0916/HKUDS/nanobot" medium="image" />
-      <media:content url="https://github.com/HKUDS/nanobot/raw/main/images/GitHub_README.png" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/8d7cb3bc6267c918f88c925ed93a0b3e0563cf1adb5165d46f2119319bc2fedd/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6e616e6f626f742d6169" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/f90db631070cf35d72c5b044d400c4d581b24152213f3017d59148a3f9c7ab0e/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6e616e6f626f742d6169" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/a287273aa1ac227834bcdc3d81628946cecaba08d9b08fba6b39f1d843e547c6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2de289a5332e31312d626c7565" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/f8df3091bbe1149f398a5369b2c39e896766f9f6efba3477c63e9b4aa940ef14/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d677265656e" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/3455b1821f9938863713d131b63566408fd40610073247f28d3b4d03c06c907e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f484b5544532f6e616e6f626f743f6c6162656c436f6c6f723d25323025323333326235383326636f6c6f723d253230253233313262373661" medium="image" />
-      <media:content url="https://camo.githubusercontent.com/283fa498f68776b2d7d4f7040e96e49afebe4189f42452f091aa1e67b905376e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7365617263683f71756572793d7265706f253341484b5544532532466e616e6f626f74253230697325334169737375652532306973253341636c6f736564266c6162656c3d697373756573253230636c6f736564266c6162656c436f6c6f723d25323025323337643839623026636f6c6f723d253230253233356436623938" medium="image" />
+- https://pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg: https://pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg" medium="image" />
     </item>
     <item>
       <title>@VoidsWork: @OpenAI Here is the link btw https://t.co/uyW0mwnUwQ</title>
@@ -632,27 +601,17 @@ Linked content:
       <media:content url="https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg" medium="image" />
     </item>
     <item>
-      <title>@zodchiii: Anthropic just leaked their 2026 agent roadmap in 22 minutes. Claude team walked...</title>
-      <link>https://x.com/zodchiii/status/2052400272840720565</link>
-      <guid isPermaLink="false">2052400272840720565</guid>
-      <pubDate>Thu, 07 May 2026 14:48:51 GMT</pubDate>
-      <description>Anthropic just leaked their 2026 agent roadmap in 22 minutes.
+      <title>@opencode: OpenCode x DeepSeek V4 Flash - free for a limited time DeepSeek V4 Flash is currently...</title>
+      <link>https://x.com/opencode/status/2053887208688431179</link>
+      <guid isPermaLink="false">2053887208688431179</guid>
+      <pubDate>Mon, 11 May 2026 17:17:24 GMT</pubDate>
+      <description>OpenCode x DeepSeek V4 Flash - free for a limited time
 &gt;
-&gt; Claude team walked through tools, memory, observability, and the things most builders are 12 months behind.
+&gt; DeepSeek V4 Flash is currently our most popular model in Go
 &gt;
-&gt; The last 3 minutes alone are worth the watch.
-&gt;
-&gt; Watch it, then save the setup below 👇 https://t.co/dNk44JHpkJ https://t.co/gImhXKvmai
+&gt; Give it a try if you haven’t already
 
-Tweet: https://x.com/zodchiii/status/2052400272840720565
-Primary URLs:
-- https://x.com/zodchiii/status/2052400272840720565/video/1
-- https://twitter.com/zodchiii/status/2052368125480354000
-Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg
-Linked content:
-- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg: https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg</description>
-      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg" medium="image" />
+Tweet: https://x.com/opencode/status/2053887208688431179</description>
     </item>
     <item>
       <title>@OpenAI: Codex now works directly in Chrome on macOS and Windows. It’s even better at working...</title>
@@ -706,34 +665,21 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg" medium="image" />
     </item>
     <item>
-      <title>@interact_ai: Introducing Interact AI: a new interface for the web. Add it to your website, and it...</title>
-      <link>https://x.com/interact_ai/status/2051662847130869780</link>
-      <guid isPermaLink="false">2051662847130869780</guid>
-      <pubDate>Tue, 05 May 2026 13:58:35 GMT</pubDate>
-      <description>Introducing Interact AI: a new interface for the web.
-&gt;
-&gt; Add it to your website, and it talks to every visitor, answers questions, and shows your product.
-&gt;
-&gt; Try it now -&amp;gt; https://t.co/qdfaFGI9a9 https://t.co/xnRrdjunPe
+      <title>@IceBearMiner: 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3</title>
+      <link>https://x.com/IceBearMiner/status/2053645573777969252</link>
+      <guid isPermaLink="false">2053645573777969252</guid>
+      <pubDate>Mon, 11 May 2026 01:17:14 GMT</pubDate>
+      <description>确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg https://t.co/8Dfjp7uUt3
 
-Tweet: https://x.com/interact_ai/status/2051662847130869780
+Tweet: https://x.com/IceBearMiner/status/2053645573777969252
 Primary URLs:
-- https://www.interactlabs.ai/
-- https://x.com/interact_ai/status/2051662847130869780/video/1
+- https://x.com/IceBearMiner/status/2053645573777969252/photo/1
+- https://twitter.com/shachepi/status/2053463461729046817
 Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg
+- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg
 Linked content:
-- Interact AI | Turn Your Website Into an Interactive Experience: https://www.interactlabs.ai/
-Introducing Interact AI - a new interface for the website -&gt; Read more Product Stories Blog Product Stories Blog Contact Us Contact Us Turn your website into an interactive experience Interact now Turn your website into an interactive experience Book a Call Interact now Our customers Try it live Try it live Visitor Experience Let every visitor experience your product Every visitor gets a live product experience No forms, no wait. Your AI avatar answers questions, demos the product, and books...
-- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg: https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg</description>
-      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d574927ab9f66cea8f3_Brand-logo-14.avif" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69e0f45e799050fb164c0d5d_arize%20logo.svg" medium="image" />
-      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d576f65073a0b36b0ab_Brand-logo-11.avif" medium="image" />
+- https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg: https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg" medium="image" />
     </item>
     <item>
       <title>@intrfacer: Today is Interfacer's first anniversary 🎊🎊 Quick recap: https://t.co/e0xr7dZzVS</title>
@@ -793,15 +739,18 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg" medium="image" />
     </item>
     <item>
-      <title>@grapeot: 过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent...</title>
-      <link>https://x.com/grapeot/status/2051734189054255164</link>
-      <guid isPermaLink="false">2051734189054255164</guid>
-      <pubDate>Tue, 05 May 2026 18:42:04 GMT</pubDate>
-      <description>过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent loop、文件读写、shell、测试反馈、上下文压缩被 Claude Code / Codex / Cursor / OpenCode 这类 runtime 商品化。
-&gt;
-&gt; 剩下真正值得自己维护的，是 domain
+      <title>@RealHanyaHu: https://t.co/lxHg39FNUt</title>
+      <link>https://x.com/RealHanyaHu/status/2053619515871863211</link>
+      <guid isPermaLink="false">2053619515871863211</guid>
+      <pubDate>Sun, 10 May 2026 23:33:41 GMT</pubDate>
+      <description>https://t.co/lxHg39FNUt
 
-Tweet: https://x.com/grapeot/status/2051734189054255164</description>
+Tweet: https://x.com/RealHanyaHu/status/2053619515871863211
+X article: https://x.com/RealHanyaHu/article/2053619515871863211
+X article text:
+我想中转站为什么存在，基本上中推用户不需要再被教育。 对中国大陆开发者来说，现实门槛通常有三层。 第一层是网络和地区限制，第二层是支付和账单限制，第三层是账号和身份验证限制，而需求却是真实存在的。 很多开发者、学生、创业者、企业团队都想用 Claude、GPT、Gemini。官方路径不顺畅，中转站就成了一种一站式解决方案。 这里我没有义务教育你不要用，本文只想教你避坑。请先看以下三大巨坑： 巨坑一：充值归零 有些中转站的价格低到不正常。 Zilan Qian 的调查提到，中国中转站可以把 Claude token 卖到官方价格的 一折，甚至更低。 这个价格怎么做到？这是一条非常模块化的上游供应链。 请看下图 一个 200 美元的 Claude Max 订阅，可以被拆成多个用户的使用额度，按小时、按 token、按并发重新售卖。 当然，还有更灰的来源：盗刷信用卡、盗用账号、虚假身份验证。 对中转站运营者来说，这只是成本模型的一部分。账号被封，换一批。卡被风控，再找一批。代理节点失效，再切一批。 对普通用户来说，这意味着你的预充值余额没有真正保障。 你今天充进去的钱，可能明天因为上游账号池被封而消失。 没有退款、没有客服、没有合同、没有可追责的公司主体。 巨坑二：掺水 这CISPA 研究团队进行了直接测试。 他们识别了 17 个 shadow API 服务，其中一些已经出现在 187 篇学术论文的代码或实验流程里。研究团队进一步选取代表性服务做审计，测试它们声称提供的模型是否真的接近官方 API。 结果显示，一些中转服务存在严重的模型能力偏差。 最典型的例子是 Gemini 2.5 flash。 官方 API 在 MedQA 医学基准上的表现接近 83.82%，而通过某些 shadow API 调用时，平均只有大约 37%。 这不是小误差，这是模型能力断崖式下降。 论文还通过模型指纹和元数据分析发现，一些服务会把用户请求偷偷路由到更便宜的模型，然后在返回结果里继续显示用户以为自己调用的模型名称。 你请求的是 GPT、Gemini 或 Claude 的高级模型。 实际响应你的，可能是低配模型，也可能是别的开源或国产模型。 比如说，Claude与Minimax相比，价格差了17倍左右。 对普通用户来说，这等于花钱买了假货。 对开发者来说，风险更大。 你以为产品已经经过旗舰模型验证，实际上它可能从来没有真正跑过旗舰模型，这样，你的评测、产品判断、用户体验，全都被污染了。 巨坑3: 隐私泄漏 中转站作为代理服务，架在你和 AI 公司之间。你的请求先到中转站服务器，再转发给上游模型。模型的回答先回到中转站服务器，再回到你这里。 所以中转站从结构上就可以看到完整流量。 你的 prompt、system prompt、上下文、文件内容、代码、用户数据、型的输出、Agent 的调用过程，全部都会经过它的服务器。 Zilan Qian 在调查里写到，低价 API 访问本身可能只是获客方式，真正有价值的是日志。 因为这些日志可以被打包成训练数据，尤其是 Claude Code、Cursor、Codex、各类 Agent 工作流产生的数据，价值很高。 里面有真实工程任务、仓库上下文、人类修改后的正确答案、代码调试过程、产品需求、系统设计、业务逻辑，这些东西对训练模型非常有用。 对个人用户来说，这是隐私问题，对创业公司来说，这是商业秘密问题。 你给模型看的系统提示词，可能是你产品最核心的逻辑。 你发给模型的客户数据，可能是你公司的资产。 你粘进去的代码，可能是你的技术壁垒。 你让 AI 分析的合同、融资材料、用户画像、财务表、内部会议纪要，都可能经过一个你不认识、没有签署数据处理协议、没有任何保密义务的中间商服务器。 你基本上在裸奔。 而他们，可能拿你的这些数据再去卖，也可能正在帮助别人训练模型。 哪些内容不要走中转站 公司内部资料 商业计划书、融资材料、财务表、合同、客户名单、会议纪要、运营数据，都不适合走中转站。 产品核心逻辑 系统提示词、Agent 工作流、数据库结构、API 设计、代码仓库、模型评测数据，都不适合走中转站。 个人敏感信息 身份证件、医疗记录、移民材料、税务信息、孩子信息、情感咨询、法律纠纷，都不适合走中转站。 总之你不希望被别人拿去训练模型、做竞品、做画像、做诈骗素材的内容，都不要发。 判断标准很简单：这段内容如果明天出现在别人手里，你会不会慌？ 几大危险信号 长期低价，乃至官方价格的一折，百分百有假。 2. 没有公司主体、隐私政策、数据处理协议、上游来源说明，要小心。 3. 承诺所有顶级模型都能用，速度快，价格低，永不封号，也要小心。 4. 要求你预充大量余额，八成要坑你。 5....
+Primary URLs:
+- https://x.com/i/article/2053609142984843264</description>
     </item>
     <item>
       <title>@JoelTankard: Progressive blur reveal https://t.co/3kGUyXG1DE</title>
@@ -856,22 +805,24 @@ Linked content:
 Tweet: https://x.com/chumsdock/status/2036657119194460217</description>
     </item>
     <item>
-      <title>@dotey: https://t.co/cFZS7VsNIv</title>
-      <link>https://x.com/dotey/status/2051688341519609897</link>
-      <guid isPermaLink="false">2051688341519609897</guid>
-      <pubDate>Tue, 05 May 2026 15:39:53 GMT</pubDate>
-      <description>https://t.co/cFZS7VsNIv
+      <title>@vista8: 今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。...</title>
+      <link>https://x.com/vista8/status/2053464149997634043</link>
+      <guid isPermaLink="false">2053464149997634043</guid>
+      <pubDate>Sun, 10 May 2026 13:16:19 GMT</pubDate>
+      <description>今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。
+&gt;
+&gt; 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。
+&gt;
+&gt; 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://t.co/5ebGyYHMHw
 
-Tweet: https://x.com/dotey/status/2051688341519609897
-X article: https://x.com/dotey/article/2051688341519609897
-X article text:
-Boris Cherny 是 Anthropic 内部 Claude Code 的创建者，从一个三人小团队的孵化项目做起，把“在 IDE 里按 Tab 自动补全一行代码”这件事彻底升级成“让 Agent 把整个项目写完”。Claude Code 在 2026 年初已经超过十亿美元年化营收，被 Anthropic 自己称为“史上从研究预览到十亿美元产品最快的一次”。 这次访谈来自 Sequoia 2026 年的 AI Ascent 大会，主持人是红杉合伙人 Lauren Reeder。 原始视频：https://www.youtube.com/watch?v=SlGRN8jh2RI 要点速览 Boris 整个 2026 年没写过一行代码，每天合并几十个 PR，单日记录是 150 个，但他承认这是“为了试试模型能跑多远”。 Claude Code 早期半年没有 PMF，做出来时 Boris 自己只用它写 10% 的代码，是 Opus 4 在 2025 年 5 月发布之后才开始指数增长，每一代新模型都让曲线再往上拐一下。 Boris 现在大部分工作从手机完成，Claude App 里常驻 5 到 10 个 session、几百个 Agent，夜里有几千个在跑深度任务，核心调度模式叫 Loop，做法是让 Claude 通过 cron 起一个定时循环。 Anthropic 内部已经没有手写代码：所有 SQL、所有产品代码都由模型生成，员工的 Claude 之间通过 Slack 互相沟通，把对方的不确定问题直接 ping 过去问。 关于“SaaS 的终结”，Boris 借用 Hamilton Helmer 的“七种护城河”框架：切换成本和流程效力这两种会被 AI 抹平，因为模型可以帮你迁移、可以自己迭代流程；网络效应、规模经济、独占资源这些不变。 他给出的最重要历史类比是印刷术，认为软件构建会像识字一样普及，最合适写会计软件的是会计师而不是工程师，因为编程是简单部分，懂业务才是难的部分。 Anthropic 的真正领先不在技术，在组织流程：模型大家都能用，但内部组织怎么改造、Claude 怎么互相沟通、整个公司怎么把所有手写代码替换掉，这才是产品差距。 【1】Claude Code 是怎么从一个三人孵化项目做出来的 Boris 说他是“误打误撞”做出 Claude Code 的。2024 年底他加入了 Anthropic 内部一个叫 Anthropic Labs 的孵化器，团队只有几个人，一开始的产物就是 Claude Code、MCP 和 Claude Desktop App 这三件东西。这个团队一度被解散，2026 年初又重组，由 Mike Krieger 牵头。 注： Mike Krieger 是 Instagram 联合创始人兼前 CTO，2024 年 5 月加入 Anthropic 担任首席产品官，2026 年 1 月起进入 Labs 团队，和 Ben Mann 一起负责实验性产品孵化。 Boris 描述他当时为什么想做编程这件事，用的是 Anthropic 内部很常用的一个词：“product overhang”。这个词可以翻译成“产品悬置（Product Overhang，指模型能力已经具备但尚未被产品化）”，意思是模型已经能做一堆事情，但还没有任何产品把这些能力展现出来。 我们当时看编程领域，2024 年底最先进的状态就是按 Tab 键。打开 IDE，按一下 Tab，模型给你补一行。这是 Sonnet 3.5 第一次让人能做的事情。但当时的感觉是，我们其实可以走得更远，模型几乎已经准备好下一步了。我们不需要再做 Tab 补全，可以直接让 Agent 把整段代码都写了。 但做出来之后，前六个月几乎没什么人用。Boris 说最初版本“基本不能用”，连他自己也只用它写 10% 的代码。即便对外发布，也没有指数级增长。真正的爆发点是 2025 年 5 月 Opus 4 发布。从那之后，每一代新模型都让曲线再往上拐一次，从 Opus 4 到 4.5、4.6，再到现在的 4.7。 他承认整个过程其实是一场违背常规 PMF（产品市场匹配）逻辑的赌注： 我们其实是在做一个初期完全不具备 PMF 的东西。我们很清楚它前六个月不会有 PMF，因为我们是在为下一代模型做开发。我们从始至终就是这个思路。 注： PMF 是 Product-Market Fit，产品市场匹配。Anthropic 整个产品逻辑就是赌“模型能力会涨到一个点”，提前把那个点对应的产品做出来，这和典型 SaaS 的“先验证需求再做产品”是反着的。 【2】“编程已经被解决”，但这是 Boris 个人的版本 Lauren...
+Tweet: https://x.com/vista8/status/2053464149997634043
 Primary URLs:
-- https://x.com/i/article/2051687844679143424
-- https://www.youtube.com/watch?v=SlGRN8jh2RI
+- https://x.com/vista8/status/2053464149997634043/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg
 Linked content:
-- - YouTube: https://www.youtube.com/watch?v=SlGRN8jh2RI
-About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC</description>
+- https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg: https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg" medium="image" />
     </item>
     <item>
       <title>@oasisfeng: 这两天用 Codex 实践了一下 Karpathy 的 Obsidian vault 研究范式，尤其是 raw -&amp;gt; wiki 这个 agent 驱动的信息萃取方式。...</title>
@@ -932,23 +883,25 @@ Skip to main content Subscribe to Figma’s editorial newsletter Categories Make
       <media:content url="https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=528&amp;h=297&amp;q=75&amp;fit=max&amp;auto=format" medium="image" />
     </item>
     <item>
-      <title>@martinfowler: Fragments: open-source framework for prompting patterns, musician sues google for...</title>
-      <link>https://x.com/martinfowler/status/2051700087496093774</link>
-      <guid isPermaLink="false">2051700087496093774</guid>
-      <pubDate>Tue, 05 May 2026 16:26:34 GMT</pubDate>
-      <description>Fragments: open-source framework for prompting patterns, musician sues google for defamation, apple is thinking differently about AI spending, running LLMs locally, will The Genie be caught in the tar pit?
+      <title>@jinchenma_ai: 卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！ wx-cli，让 AI 可以自由读取微信消息。 1....</title>
+      <link>https://x.com/jinchenma_ai/status/2053039222244962728</link>
+      <guid isPermaLink="false">2053039222244962728</guid>
+      <pubDate>Sat, 09 May 2026 09:07:48 GMT</pubDate>
+      <description>卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！
 &gt;
-&gt; https://t.co/xMvZYR4Iia
+&gt; wx-cli，让 AI 可以自由读取微信消息。
+&gt;
+&gt; 1. 消息随便翻：不用点开微信那个难用的搜索框，直接输入关键词就能搜全库聊天记录，速度快到飞起。
+&gt; 2. https://t.co/ilRqey3aMT
 
-Tweet: https://x.com/martinfowler/status/2051700087496093774
+Tweet: https://x.com/jinchenma_ai/status/2053039222244962728
 Primary URLs:
-- https://martinfowler.com/fragments/2026-05-05.html
+- https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
+Image URLs:
+- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg
 Linked content:
-- Fragments: May 5: https://martinfowler.com/fragments/2026-05-05.html
-Refactoring Agile Architecture About Thoughtworks Topics Architecture Refactoring Agile Delivery Microservices Data Testing DSL about me About Books FAQ content Videos Content Index Fragments Board Games Photography Thoughtworks Home Insights Careers Radar Engineering follow RSS Mastodon LinkedIn Bluesky X BGG Fragments: May 5 Martin Fowler: 05 May 2026 Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming . To make...</description>
-      <media:content url="https://martinfowler.com/logo-sq.png" medium="image" />
-      <media:content url="https://martinfowler.com/mf-name-white.png" medium="image" />
-      <media:content url="https://martinfowler.com/thoughtworks_white.png" medium="image" />
+- https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg: https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg</description>
+      <media:content url="https://pbs.twimg.com/media/HH3cSXYbgAAygPT.jpg" medium="image" />
     </item>
     <item>
       <title>@elou: I’ve had the most fun I’ve found in a while noodling over all the little details on my...</title>
@@ -1005,20 +958,18 @@ Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Pl
       <media:content url="https://github.com/agilek/cli-loaders/raw/main/assets/spinners/helix.svg" medium="image" />
     </item>
     <item>
-      <title>@frxiaobei: “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...</title>
-      <link>https://x.com/frxiaobei/status/2051600089798652126</link>
-      <guid isPermaLink="false">2051600089798652126</guid>
-      <pubDate>Tue, 05 May 2026 09:49:12 GMT</pubDate>
-      <description>“我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。
-&gt;
-&gt; SMART 化之后：
-&gt; “在未来 3 个月内，每周发布至少 1 条短视频，其中每月至少 1 条达到 50 万播放，否则视为未达标”
-&gt;
-&gt; 这个就是/dbs-goal 的价值。 https://t.co/MCkiYtyIm1
+      <title>@prukalpa: https://t.co/CeJOVOAOfs</title>
+      <link>https://x.com/prukalpa/status/2052398453225816187</link>
+      <guid isPermaLink="false">2052398453225816187</guid>
+      <pubDate>Thu, 07 May 2026 14:41:37 GMT</pubDate>
+      <description>https://t.co/CeJOVOAOfs
 
-Tweet: https://x.com/frxiaobei/status/2051600089798652126
+Tweet: https://x.com/prukalpa/status/2052398453225816187
+X article: https://x.com/prukalpa/article/2052398453225816187
+X article text:
+Performance is intelligence times context. The labs solved one side. Your enterprise has to solve the other. Every few months, the tech headlines follow a predictable script: a new AI model is out and surprise surprise, it topped the leaderboards. Think of Gemini 3.1 Pro hitting 94% on PhD-level science reasoning tests, or GPT-5.4 Pro solving one of FrontierMath’s Open Problems that are unsolved by real mathematicians. In fact, AI models are doing so well that we have to keep developing harder benchmarks. At the same time, the cost of frontier-level inference dropped nearly 300x in just two years. Just last month, Gartner predicted that by 2030, LLMs will become up to 100x more cost efficient than 2022 models and running inference on a model with 1 trillion parameters will cost 90% less. In short, AI intelligence is becoming historically powerful, abundant, and cheap. And yet, in practice, AI feels particularly stupid. For example, MIT found that 95% of generative AI pilot programs fail, and IDC reported that 88% of AI POCs never make it to production. Models are getting smarter, options seem limitless, their prices are falling, and yet nearly half of AI projects are on the chopping block. We’ve rebuilt our junkyard engine into a racecar turbine but the car is still stuck in the driveway. In this article, I want to break down what I’ve come to realize recently — we don’t understand what intelligence actually means. We treat model intelligence like many people treat SAT scores, a narrow benchmark that people interpret as a broad measure of intelligence and real-world success. But just like the person with the highest SAT score won’t necessarily be the best employee, especially without onboarding, mentorship, and business context, even the “smartest” AI can’t deliver business value without the systems, knowledge, and feedback loops that provide context. In an era where intelligence is becoming commodified, the ultimate competitive advantage won’t come from a higher...
 Primary URLs:
-- https://twitter.com/dontbesilent/status/2051588974032846935</description>
+- https://x.com/i/article/2051678358405083140</description>
     </item>
     <item>
       <title>@NebulaAI: Introducing Mini Apps. A new way to interact with AI agents. No more walls of text. Get...</title>
@@ -1067,19 +1018,26 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg" medium="image" />
     </item>
     <item>
-      <title>@yidabuilds: 和我们的判断完全一致， 就是这一波最好的生意是去做to B的业务。 我们之前发现的 包括trustMRR上， 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。...</title>
-      <link>https://x.com/yidabuilds/status/2051498115501609153</link>
-      <guid isPermaLink="false">2051498115501609153</guid>
-      <pubDate>Tue, 05 May 2026 03:04:00 GMT</pubDate>
-      <description>和我们的判断完全一致，
-&gt; 就是这一波最好的生意是去做to B的业务。
-&gt; 我们之前发现的
-&gt; 包括trustMRR上，
-&gt; 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。 https://t.co/6x63FCa0uN
+      <title>@Av1dlive: https://t.co/UB6BAxHPMJ</title>
+      <link>https://x.com/Av1dlive/status/2052063154423898603</link>
+      <guid isPermaLink="false">2052063154423898603</guid>
+      <pubDate>Wed, 06 May 2026 16:29:16 GMT</pubDate>
+      <description>https://t.co/UB6BAxHPMJ
 
-Tweet: https://x.com/yidabuilds/status/2051498115501609153
+Tweet: https://x.com/Av1dlive/status/2052063154423898603
+X article: https://x.com/Av1dlive/article/2052063154423898603
+X article text:
+You can build the next $1B company in a weekend using AI And the only skill you need to learn is TLDR; if you don't want to read 7,862 words of roadmap, then you can simply just give this link to your agent to personalise a roadmap ➡️https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md agentic ai &amp; harness engineering The problem is that most engineers have no clear idea what they should learn Some pick CrewAI because the role-based demos look slick on Twitter Some chase every new framework that ships and never finish anything real Others jump straight into multi-agent systems without understanding context, tools, harnesses, or evals The result is usually the same: a lot of framework tourism and very little production-ready skill If your goal is to become an agent engineer in 2026, you don't need to learn 12 frameworks You need to learn how to build, harness, evaluate, and ship real agent systems in production That means learning how to: build agents on a real orchestration runtime like LangGraph work with the Claude Agent SDK as a reference harness engineer context properly with Write, Select, Compress, Isolate write tools the model picks correctly add memory, durability, and sandboxing for production traffic build evals, trajectory checks, and CI regression gates ship agents that survive contact with real users and real cost This guide is a 6-phase roadmap built on what shipped in late 2025 and early 2026 The piece is 7,000+ WORDS and pulls from primary sources only But its real value is that every phase has a concrete project, a canonical reading list, and the exact resources you need That way, within roughly 17 WEEKS of focused work, you can reach the level of agent engineer who can own a production AI feature end to end Researching this took more than 60 HOURS of reading primary engineering blogs, papers, and shipping-engineer surveys Now let's start reading the roadmap ⬇️ What an Agent Engineer does in 2026 A lot of people hear...
 Primary URLs:
-- https://twitter.com/AdrianPunk115/status/2051494055692116286</description>
+- https://x.com/i/article/2051953147686658049
+- https://raw.githubusercontent.com/codejunkie99/agent-roadmap-2026/main/AGENT.md
+- https://anthropic.com/engineering/building-c-compiler
+- http://x.com/i/article/2051953147686658049
+Linked content:
+- Building a C compiler with a team of parallel Claudes \ Anthropic: https://www.anthropic.com/engineering/building-c-compiler
+Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Engineering at Anthropic Building a C compiler with a team of parallel Claudes Published Feb 05, 2026 We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development. Written by Nicholas Carlini, a researcher on our Safeguards team. I've been experimenting with a new approach to supervising...</description>
+      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/7e2e39544a35760367049072406377a54f2b58c0-2554x2554.svg" medium="image" />
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/6cc87859f5453e9481278681aa6409856d61153c-2400x1260.png" medium="image" />
     </item>
     <item>
       <title>@azed_ai: Prompt share: Notion Mono Editorial 💬Prompt: A simple black-and-white illustration of a...</title>
@@ -1130,18 +1088,18 @@ Linked content:
       <media:content url="https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg" medium="image" />
     </item>
     <item>
-      <title>@_heyrico: https://t.co/VUTVX4bfgK</title>
-      <link>https://x.com/_heyrico/status/2051621781363188219</link>
-      <guid isPermaLink="false">2051621781363188219</guid>
-      <pubDate>Tue, 05 May 2026 11:15:24 GMT</pubDate>
-      <description>https://t.co/VUTVX4bfgK
+      <title>@_heyrico: https://t.co/jHy8Z3CJIR</title>
+      <link>https://x.com/_heyrico/status/2052386115488002524</link>
+      <guid isPermaLink="false">2052386115488002524</guid>
+      <pubDate>Thu, 07 May 2026 13:52:36 GMT</pubDate>
+      <description>https://t.co/jHy8Z3CJIR
 
-Tweet: https://x.com/_heyrico/status/2051621781363188219
-X article: https://x.com/_heyrico/article/2051621781363188219
+Tweet: https://x.com/_heyrico/status/2052386115488002524
+X article: https://x.com/_heyrico/article/2052386115488002524
 X article text:
-The job of a product designer in 2026 has split in two. There is the version that still treats Figma as the primary deliverable, runs design reviews on Tuesdays, hands files to engineers on Fridays, and spends 80 percent of the week pushing pixels. Then there is the agent-native version. Agents do most of the production. The designer plans the strategy, dispatches the work, reviews the diffs, and ships the live URL. The week looks nothing like the old one. Both versions still exist. One of them is going to be unrecognizable in twelve months. Here is what agent-native product design actually looks like in practice, the four artifacts every designer should be building right now, and the one habit that ties the whole thing together. The shape of the work has changed Marcus Moretti at Every wrote the cleanest summary of this shift for product management: software development used to be 20 percent planning and 80 percent execution. Agent-native work is 80 percent planning and 20 percent execution. The same flip is happening in product design, and most designers have not noticed yet. Old design loop: brief, sketch, mockup, refine, hand off, wait, review the build, cycle. Five days minimum. New design loop: write the strategy, write the design system file, dispatch the screen, review the PR, ship the URL. Five hours, sometimes less. The reason the new loop is shorter is not the agent. It is the artifacts. Every minute spent writing strategy.md and design.md is a minute that compounds across every screen the agent generates after that. If you skip the artifacts, you spend the same five days, with worse output, because the agent is guessing what you mean. The four artifacts every agent-native designer ships first Before the first prompt. Before the first Figma file. Four documents at the root of every project. Each one is short. Each one earns back its time within a week. 1. The strategy.md. One page. Five sections. Target problem, approach, who it is for, key metrics,...
+The word "agent" sounds bigger than it is. An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done. That is the whole idea. Every framework, every term, every demo, sits on top of that loop. Most articles about agents skip past this and land in the deep end. This one does the opposite. It explains the parts in plain English, walks through a build a beginner can finish in an afternoon, and lists the small mistakes that waste a weekend. What an agent actually is Picture an assistant who can read, type, click, and make calls. You give them a goal. They figure out the steps. They do each step. They check whether it worked. They keep going until the goal is met or they hit a wall. An AI agent is the same idea, except the assistant is a model (Claude, GPT, Gemini, or an open-source one) and the steps are calls to small tools that you provide. Three pieces sit underneath every agent. A model. This is the brain. It reads, decides, and writes. Any modern LLM that supports "tool calling" works. Tool calling just means the model can fill in a small form to ask your code to do something for it. A small set of tools. Each tool is one specific thing the agent can do. Read a file. Send an email. Search the web. Each tool comes back with a clean result the model can read. A loop. A bit of code that asks the model "what do you want to do next?", runs whatever the model picks, hands back the result, and asks again. That is the entire shape. If you understand those three pieces, every agent tutorial gets easier to follow. The frameworks (Claude Agent SDK, OpenAI Agents, LangChain, CrewAI) are shortcuts that wrap the loop for you. An "SDK" is just a kit of pre-written code that handles the boring parts so you can write the interesting parts. Pick one when you are ready. It does not have to be the first decision. The four-...
 Primary URLs:
-- https://x.com/i/article/2051474356732379136</description>
+- https://x.com/i/article/2052200189595922432</description>
     </item>
     <item>
       <title>@fxtrader: 英伟达CEO黄仁勋批评Anthropic CEO Amodei有关”AI未来几年可能取代50%入门白领”的言论，称这类评论“毫无帮助”。...</title>
@@ -1192,24 +1150,40 @@ About Press Copyright Contact us Creators Advertise Developers Terms Privacy Pol
       <media:content url="https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg" medium="image" />
     </item>
     <item>
-      <title>@ericzakariasson: this is cursor team kit: a plugin for some skills we use to build cursor at cursor...</title>
-      <link>https://x.com/ericzakariasson/status/2051255780167610522</link>
-      <guid isPermaLink="false">2051255780167610522</guid>
-      <pubDate>Mon, 04 May 2026 11:01:03 GMT</pubDate>
-      <description>this is cursor team kit: a plugin for some skills we use to build cursor at cursor
-&gt;
-&gt; skills for verifying changes, driving local tools, and shipping reviewable PRs
-&gt; https://t.co/8R4XNCUOfe
+      <title>@Xudong07452910: https://t.co/Xoeb1YJ9gv</title>
+      <link>https://x.com/Xudong07452910/status/2051891753821556976</link>
+      <guid isPermaLink="false">2051891753821556976</guid>
+      <pubDate>Wed, 06 May 2026 05:08:11 GMT</pubDate>
+      <description>https://t.co/Xoeb1YJ9gv
 
-Tweet: https://x.com/ericzakariasson/status/2051255780167610522
+Tweet: https://x.com/Xudong07452910/status/2051891753821556976
+X article: https://x.com/Xudong07452910/article/2051891753821556976
+X article text:
+上一篇我聊了为什么自己不再去追新框架、不再频繁迁移、而是决定自己搭一套Agent。很多朋友看完后留言说“想动手但不知道从哪开始”，所以这篇文章讲了我用15天把我的个人 Agent “EvoPaw”从“能跑”迭代成每天都在用的工作系统，完整复盘可复制的方法论。 坦率的讲，我自己第一次摸索的时候也走了不少弯路。所以这一篇方法篇我尽量把每一步都拆得很细，让一个会装软件、能复制命令、不一定会写Python的普通人，也能跟着跑通。 整个过程其实就五步，选一个轻量基座，把Claude Code装好顺手把飞书跑通，建好几个脚手架文件让Claude Code知道你是谁，然后用对话把需求逼成具体的spec，最后边写代码边配测试。 我自己用这套流程跑了两周，把EvoPaw从一个「能勉强跑起来的脚本」迭代成了一个我每天都在用的工作系统。下面一步一步说。 我提前打个预防针，这套方法上手第一周其实有点笨拙的，一些步骤花的时间会比手动做还长。但是一旦跑顺了，后面每加一个新功能的速度会指数级上升，到后面真的会上瘾。 第一步，选一个轻量好扩展的基础项目 不要一上来就从零写，也别直接上那种功能堆得很重的框架。这两条路我自己都试过，一个是写到一半就卡死了，另一个是看不懂别人的抽象层、改不动。 你优先选那种代码少、可读性强、核心循环一目了然的项目，这样你才看得懂、改得动、长得久。 我当时主要是以一个课程Agent项目作为基础搭建，比较简陋，不过作为新手，可以先从下面两个里挑。 Pi-mono（https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。 Nanobot（https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。 这一步要看的几个判断标准，一是代码行数最好别超过8000行，二是agent loop要一眼看明白，三是能不能比较容易地加进飞书或微信，国外用户看Telegram和WhatsApp，四是能不能自由切换不同模型厂商的API。如果你找到别的合适项目，下面这套方法是完全通用的。 第二步，用Claude Code装上，把飞书也顺手跑通 我开发主力就是Claude Code，也推荐试试Codex这类CLI工具。它能直接读懂整个项目然后按你的指令改代码，不用再到处贴代码片段、来回切窗口。 以Nanobot为例，最简单的方式就是把项目地址直接丢给Claude Code，跟它说: "请fork https://github.com/HKUDS/nanobot 到本地，帮我安装好，要求能正常运行，一步步告诉我需要做什么。" 它会读项目，给你一串安装命令，每一步执行前你看一眼再回车就行。中途遇到报错它也会接着帮你排查。 这里要插一句，API Key的事得说一下。它问你要某个大模型的API Key的时候，不要直接在命令行里贴出来，会有泄露风险。正确做法是问它「我这个Key应该放在哪个文件、写成什么格式」，它会告诉你格式，你自己手动填进去。 装完之后，如果你不想从头读README，就直接问: 帮我梳理nanobot的项目结构和核心功能，告诉我它支持哪些聊天通道、记忆方式和技能系统。 跟看产品说明书一样，30分钟你就有一个全局认识。 接下来要做的事，是给它接上一个聊天平台，让Agent真的「活」起来。国外Telegram、WhatsApp都行，国内我推荐飞书，主力通道就是它。当然如果可以使用Telegram或者WhatsApp最好，因为搭建起来真的很方便。 你可以先丢一句给Claude Code: 帮我配置飞书通道，要求能收发消息、支持富文本和文件上传。 它会一步一步告诉你要做什么。但飞书这一步比较特殊，Claude Code帮不了你点飞书开放平台的网页，凭证必须你自己去拿。流程在 https://open.feishu.cn/app ，4步搞定。 第一步，创建一个「企业自建应用」。 第二步，启用「机器人」能力，申请`im:message`、`im:message.p2p_msg:readonly`、`cardkit:card:write`这三个权限（如果你还想要群聊和文件传输，再加上`im:message.group_msg:readonly`和`im:resource`）。...
 Primary URLs:
-- https://cursor.com/marketplace/cursor/cursor-team-kit
+- https://x.com/i/article/2051707444305207297
+- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
+- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
+- https://github.com/HKUDS/nanobot
+- https://open.feishu.cn/app
+- https://code.claude.com/docs/en/mcp
+- https://github.com/hxdflying/EvoPaw
 Linked content:
-- Cursor Team Kit | Cursor Plugins: https://cursor.com/marketplace/cursor/cursor-team-kit
-Skip to content Product ↓ Agents Code Review Tab CLI Enterprise Pricing Resources ↓ Changelog Blog Docs ↗ Community Learn ↗ Workshops Forum ↗ Future ↗ Marketplace Careers Product → Enterprise Pricing Resources → Marketplace / All Plugins Created by Cursor View Source Marketplace / All Plugins Back Cursor Team Kit Sign In To Add Sign In To Add Internal workflows used by Cursor developers for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and...</description>
-      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/opengraph-image" medium="image" />
-      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/twitter-image" medium="image" />
-      <media:content url="https://cursor-cdn.com/plugin-logos/production/e7f9aa0a9a21eba2.png" medium="image" />
+- https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。: https://github.com/badlogic/pi-mono）是一个非常干净的Agent基础包，OpenClaw很多思路都来自它，喜欢极简风格的同学可以从这个起手。
+- https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。: https://github.com/HKUDS/nanobot）是后来出现的「ultra-lightweight版OpenClaw」，几千行核心代码就能跑完整Agent循环，自带memory、skills、multi-provider，飞书、Slack、Telegram、Discord这些聊天通道都内置好了，扩展性极强。我最后选的是它，省下来的工程脚手架时间至少三个月。
+- GitHub - HKUDS/nanobot: "🐈 nanobot: The Ultra-Lightweight Personal AI Agent" · GitHub: https://github.com/HKUDS/nanobot
+Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...
+- 开发者后台 - 飞书开放平台: https://open.feishu.cn/app
+- Connect Claude Code to tools via MCP - Claude Code Docs: https://code.claude.com/docs/en/mcp
+Skip to main content Claude Code Docs home page English Search... ⌘ K Ask AI Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Tools and plugins Connect Claude Code to tools via MCP Getting started Build with Claude Code Administration Configuration Reference Agent SDK What's New Resources Agents Create custom subagents Run agent teams Tools and plugins Model Context Protocol (MCP) Discover and install prebuilt plugins Create plugins Extend Claude...</description>
+      <media:content url="https://opengraph.githubassets.com/973b90522a2d4fd78b09c10b21b8bf5869ea1bcee0a5af4a41cb71ecb09a0916/HKUDS/nanobot" medium="image" />
+      <media:content url="https://github.com/HKUDS/nanobot/raw/main/images/GitHub_README.png" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/8d7cb3bc6267c918f88c925ed93a0b3e0563cf1adb5165d46f2119319bc2fedd/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6e616e6f626f742d6169" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/f90db631070cf35d72c5b044d400c4d581b24152213f3017d59148a3f9c7ab0e/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6e616e6f626f742d6169" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/a287273aa1ac227834bcdc3d81628946cecaba08d9b08fba6b39f1d843e547c6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2de289a5332e31312d626c7565" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/f8df3091bbe1149f398a5369b2c39e896766f9f6efba3477c63e9b4aa940ef14/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d677265656e" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/3455b1821f9938863713d131b63566408fd40610073247f28d3b4d03c06c907e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f484b5544532f6e616e6f626f743f6c6162656c436f6c6f723d25323025323333326235383326636f6c6f723d253230253233313262373661" medium="image" />
+      <media:content url="https://camo.githubusercontent.com/283fa498f68776b2d7d4f7040e96e49afebe4189f42452f091aa1e67b905376e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7365617263683f71756572793d7265706f253341484b5544532532466e616e6f626f74253230697325334169737375652532306973253341636c6f736564266c6162656c3d697373756573253230636c6f736564266c6162656c436f6c6f723d25323025323337643839623026636f6c6f723d253230253233356436623938" medium="image" />
     </item>
     <item>
       <title>@matthewwmullin: NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION. Unbelievable...</title>
@@ -1280,25 +1254,27 @@ About Press Copyright Contact us Creators Advertise Developers Terms Privacy Pol
       <media:content url="https://yt3.googleusercontent.com/5u3QKXKYuVDPPGCszr2JD76w9APnOMWbEQ_F7j2eu28EgiuZwu16es9d2Ui18RjQKosOdX9on7A=s900-c-k-c0x00ffffff-no-rj" medium="image" />
     </item>
     <item>
-      <title>@shannholmberg: the 3-layer company second brain blueprint, optimized for agents Ashwin Gopalan's...</title>
-      <link>https://x.com/shannholmberg/status/2051225368623972732</link>
-      <guid isPermaLink="false">2051225368623972732</guid>
-      <pubDate>Mon, 04 May 2026 09:00:12 GMT</pubDate>
-      <description>the 3-layer company second brain blueprint, optimized for agents
+      <title>@zodchiii: Anthropic just leaked their 2026 agent roadmap in 22 minutes. Claude team walked...</title>
+      <link>https://x.com/zodchiii/status/2052400272840720565</link>
+      <guid isPermaLink="false">2052400272840720565</guid>
+      <pubDate>Thu, 07 May 2026 14:48:51 GMT</pubDate>
+      <description>Anthropic just leaked their 2026 agent roadmap in 22 minutes.
 &gt;
-&gt; Ashwin Gopalan's company brain series breaks down why, and it explains what you run into the second you wire agents into an organisation
+&gt; Claude team walked through tools, memory, observability, and the things most builders are 12 months behind.
 &gt;
-&gt; companies collect artifacts but lose the context. a CRM field tells you a https://t.co/X2o3CsPzxZ https://t.co/Qw9fAa6HnF
+&gt; The last 3 minutes alone are worth the watch.
+&gt;
+&gt; Watch it, then save the setup below 👇 https://t.co/dNk44JHpkJ https://t.co/gImhXKvmai
 
-Tweet: https://x.com/shannholmberg/status/2051225368623972732
+Tweet: https://x.com/zodchiii/status/2052400272840720565
 Primary URLs:
-- https://x.com/shannholmberg/status/2051225368623972732/photo/1
-- https://twitter.com/711598441642598400/status/2050963469898506342
+- https://x.com/zodchiii/status/2052400272840720565/video/1
+- https://twitter.com/zodchiii/status/2052368125480354000
 Image URLs:
-- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png
+- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg
 Linked content:
-- https://pbs.twimg.com/media/HHdqmiqakAAElpA.png: https://pbs.twimg.com/media/HHdqmiqakAAElpA.png</description>
-      <media:content url="https://pbs.twimg.com/media/HHdqmiqakAAElpA.png" medium="image" />
+- https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg: https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg" medium="image" />
     </item>
     <item>
       <title>@goodhunt: this has been the craziest 2 days of my life thank you whale bros 鲸鱼兄弟们，谢谢你们...</title>
@@ -1354,19 +1330,34 @@ Supacortex Beta GitHub Download for free Share your context across AI Save your 
       <media:content url="https://www.supacortex.ai/_next/image?url=%2Fopenclaw-icon.png&amp;w=48&amp;q=75&amp;dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR" medium="image" />
     </item>
     <item>
-      <title>@DLKFZWilliam2: ...</title>
-      <link>https://x.com/DLKFZWilliam2/status/2051388640740401425</link>
-      <guid isPermaLink="false">2051388640740401425</guid>
-      <pubDate>Mon, 04 May 2026 19:48:59 GMT</pubDate>
-      <description>GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：https://t.co/Q1nfqQEHMs
+      <title>@interact_ai: Introducing Interact AI: a new interface for the web. Add it to your website, and it...</title>
+      <link>https://x.com/interact_ai/status/2051662847130869780</link>
+      <guid isPermaLink="false">2051662847130869780</guid>
+      <pubDate>Tue, 05 May 2026 13:58:35 GMT</pubDate>
+      <description>Introducing Interact AI: a new interface for the web.
+&gt;
+&gt; Add it to your website, and it talks to every visitor, answers questions, and shows your product.
+&gt;
+&gt; Try it now -&amp;gt; https://t.co/qdfaFGI9a9 https://t.co/xnRrdjunPe
 
-Tweet: https://x.com/DLKFZWilliam2/status/2051388640740401425
+Tweet: https://x.com/interact_ai/status/2051662847130869780
 Primary URLs:
-- https://github.com/LayrKits/Sprite-Pipeline
+- https://www.interactlabs.ai/
+- https://x.com/interact_ai/status/2051662847130869780/video/1
+Image URLs:
+- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg
 Linked content:
-- GitHub - LayrKits/Sprite-Pipeline: 2D Sprite Sheet Creation Pipeline · GitHub: https://github.com/LayrKits/Sprite-Pipeline
-Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities...</description>
-      <media:content url="https://opengraph.githubassets.com/a50ef0f5cc260925b977c87d1a4595ead724087fb497a7f72e8d3ad7a06083cc/LayrKits/Sprite-Pipeline" medium="image" />
+- Interact AI | Turn Your Website Into an Interactive Experience: https://www.interactlabs.ai/
+Introducing Interact AI - a new interface for the website -&gt; Read more Product Stories Blog Product Stories Blog Contact Us Contact Us Turn your website into an interactive experience Interact now Turn your website into an interactive experience Book a Call Interact now Our customers Try it live Try it live Visitor Experience Let every visitor experience your product Every visitor gets a live product experience No forms, no wait. Your AI avatar answers questions, demos the product, and books...
+- https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg: https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg</description>
+      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d574927ab9f66cea8f3_Brand-logo-14.avif" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69e0f45e799050fb164c0d5d_arize%20logo.svg" medium="image" />
+      <media:content url="https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d576f65073a0b36b0ab_Brand-logo-11.avif" medium="image" />
     </item>
     <item>
       <title>@geniusvczh: 要求AI一边写代码一边记录他的决策确实是有用的，gpt5.5一个request跑了6个小时，竟然完全没跑偏，中间都不知道压缩了多少次。而且文档也不用想怎么留下来，做完就扔不心疼🤪</title>
@@ -1392,21 +1383,15 @@ Primary URLs:
 - https://x.com/i/article/2026291692866084864</description>
     </item>
     <item>
-      <title>@DataChaz: Hermes users after reading this: https://t.co/NoCjs0C2hQ https://t.co/pitxdsueh5</title>
-      <link>https://x.com/DataChaz/status/2051272231456510333</link>
-      <guid isPermaLink="false">2051272231456510333</guid>
-      <pubDate>Mon, 04 May 2026 12:06:25 GMT</pubDate>
-      <description>Hermes users after reading this: https://t.co/NoCjs0C2hQ https://t.co/pitxdsueh5
+      <title>@grapeot: 过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent...</title>
+      <link>https://x.com/grapeot/status/2051734189054255164</link>
+      <guid isPermaLink="false">2051734189054255164</guid>
+      <pubDate>Tue, 05 May 2026 18:42:04 GMT</pubDate>
+      <description>过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent loop、文件读写、shell、测试反馈、上下文压缩被 Claude Code / Codex / Cursor / OpenCode 这类 runtime 商品化。
+&gt;
+&gt; 剩下真正值得自己维护的，是 domain
 
-Tweet: https://x.com/DataChaz/status/2051272231456510333
-Primary URLs:
-- https://x.com/DataChaz/status/2051272231456510333/video/1
-- https://twitter.com/vmiss33/status/2050984556790939731
-Image URLs:
-- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg
-Linked content:
-- https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg: https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg</description>
-      <media:content url="https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg" medium="image" />
+Tweet: https://x.com/grapeot/status/2051734189054255164</description>
     </item>
     <item>
       <title>@goodhunt: 鲸鱼兄弟们好，我是做 DeepSeek-TUI 的那个美国佬。 说真的，特别想跟国内的鲸鱼兄弟们一起混——但我的翻墙技能仅限于写代码，微信到现在都没搞定，属实有点丢人。...</title>
@@ -1469,19 +1454,22 @@ Linked content:
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg" medium="image" />
     </item>
     <item>
-      <title>@nicbstme: https://t.co/NoysA1ijBM</title>
-      <link>https://x.com/nicbstme/status/2051131906327212298</link>
-      <guid isPermaLink="false">2051131906327212298</guid>
-      <pubDate>Mon, 04 May 2026 02:48:49 GMT</pubDate>
-      <description>https://t.co/NoysA1ijBM
+      <title>@dotey: https://t.co/cFZS7VsNIv</title>
+      <link>https://x.com/dotey/status/2051688341519609897</link>
+      <guid isPermaLink="false">2051688341519609897</guid>
+      <pubDate>Tue, 05 May 2026 15:39:53 GMT</pubDate>
+      <description>https://t.co/cFZS7VsNIv
 
-Tweet: https://x.com/nicbstme/status/2051131906327212298
-X article: https://x.com/nicbstme/article/2051131906327212298
+Tweet: https://x.com/dotey/status/2051688341519609897
+X article: https://x.com/dotey/article/2051688341519609897
 X article text:
-Is it best to use an LLM with its native harness (like Claude Code or Codex), or a generic harness that swaps models on demand? OpenAI engineer Ryan (@_lopopolo) tweeted this hilarious meme this morning, so I decided to dig deeper by looking at the harness implementations of Codex, Claude Code, and Github sdk. Does the harness really matter that much? I keep three coding agents alive on the same workstation. Claude Code in one terminal. Codex CLI in another. GitHub Copilot CLI in a third. Same files. Same git tree. Same bash. Three different harnesses that look indistinguishable. I ran the same prompt through all three and the behavior was visibly different in ways that went well past the surface differences of style and speed that I had expected to see across vendors. The hand wave answer is that "models behave differently because they are different models." but here I tested the same models and different harness. Models are post trained against the harness, not just the API. The tool names they expect, the input schemas they emit, the citation tags they wrap around remembered facts, the file structure of skills they invoke, the planning protocol they follow when the harness says "make a plan first" (none of these are generic capabilities of the model). They are byte level conventions baked into the post training of one specific model against one specific harness. Pull the model out of its harness and you give up performance you cannot get back without rewriting either side. This has a direct consequence that anyone who has tried to ship a "model agnostic" agent has run into. You cannot just swap a model. Supporting BYOK and multi model (which is the responsible posture, since relying on a single provider is risky!) adds real engineering complexity. To swap a model cleanly, you have to swap the harness with it: the tool surface, the schema shapes, the skill bodies that name those tools, the citation contract, the memory ritual, the system prompt structure,...
+Boris Cherny 是 Anthropic 内部 Claude Code 的创建者，从一个三人小团队的孵化项目做起，把“在 IDE 里按 Tab 自动补全一行代码”这件事彻底升级成“让 Agent 把整个项目写完”。Claude Code 在 2026 年初已经超过十亿美元年化营收，被 Anthropic 自己称为“史上从研究预览到十亿美元产品最快的一次”。 这次访谈来自 Sequoia 2026 年的 AI Ascent 大会，主持人是红杉合伙人 Lauren Reeder。 原始视频：https://www.youtube.com/watch?v=SlGRN8jh2RI 要点速览 Boris 整个 2026 年没写过一行代码，每天合并几十个 PR，单日记录是 150 个，但他承认这是“为了试试模型能跑多远”。 Claude Code 早期半年没有 PMF，做出来时 Boris 自己只用它写 10% 的代码，是 Opus 4 在 2025 年 5 月发布之后才开始指数增长，每一代新模型都让曲线再往上拐一下。 Boris 现在大部分工作从手机完成，Claude App 里常驻 5 到 10 个 session、几百个 Agent，夜里有几千个在跑深度任务，核心调度模式叫 Loop，做法是让 Claude 通过 cron 起一个定时循环。 Anthropic 内部已经没有手写代码：所有 SQL、所有产品代码都由模型生成，员工的 Claude 之间通过 Slack 互相沟通，把对方的不确定问题直接 ping 过去问。 关于“SaaS 的终结”，Boris 借用 Hamilton Helmer 的“七种护城河”框架：切换成本和流程效力这两种会被 AI 抹平，因为模型可以帮你迁移、可以自己迭代流程；网络效应、规模经济、独占资源这些不变。 他给出的最重要历史类比是印刷术，认为软件构建会像识字一样普及，最合适写会计软件的是会计师而不是工程师，因为编程是简单部分，懂业务才是难的部分。 Anthropic 的真正领先不在技术，在组织流程：模型大家都能用，但内部组织怎么改造、Claude 怎么互相沟通、整个公司怎么把所有手写代码替换掉，这才是产品差距。 【1】Claude Code 是怎么从一个三人孵化项目做出来的 Boris 说他是“误打误撞”做出 Claude Code 的。2024 年底他加入了 Anthropic 内部一个叫 Anthropic Labs 的孵化器，团队只有几个人，一开始的产物就是 Claude Code、MCP 和 Claude Desktop App 这三件东西。这个团队一度被解散，2026 年初又重组，由 Mike Krieger 牵头。 注： Mike Krieger 是 Instagram 联合创始人兼前 CTO，2024 年 5 月加入 Anthropic 担任首席产品官，2026 年 1 月起进入 Labs 团队，和 Ben Mann 一起负责实验性产品孵化。 Boris 描述他当时为什么想做编程这件事，用的是 Anthropic 内部很常用的一个词：“product overhang”。这个词可以翻译成“产品悬置（Product Overhang，指模型能力已经具备但尚未被产品化）”，意思是模型已经能做一堆事情，但还没有任何产品把这些能力展现出来。 我们当时看编程领域，2024 年底最先进的状态就是按 Tab 键。打开 IDE，按一下 Tab，模型给你补一行。这是 Sonnet 3.5 第一次让人能做的事情。但当时的感觉是，我们其实可以走得更远，模型几乎已经准备好下一步了。我们不需要再做 Tab 补全，可以直接让 Agent 把整段代码都写了。 但做出来之后，前六个月几乎没什么人用。Boris 说最初版本“基本不能用”，连他自己也只用它写 10% 的代码。即便对外发布，也没有指数级增长。真正的爆发点是 2025 年 5 月 Opus 4 发布。从那之后，每一代新模型都让曲线再往上拐一次，从 Opus 4 到 4.5、4.6，再到现在的 4.7。 他承认整个过程其实是一场违背常规 PMF（产品市场匹配）逻辑的赌注： 我们其实是在做一个初期完全不具备 PMF 的东西。我们很清楚它前六个月不会有 PMF，因为我们是在为下一代模型做开发。我们从始至终就是这个思路。 注： PMF 是 Product-Market Fit，产品市场匹配。Anthropic 整个产品逻辑就是赌“模型能力会涨到一个点”，提前把那个点对应的产品做出来，这和典型 SaaS 的“先验证需求再做产品”是反着的。 【2】“编程已经被解决”，但这是 Boris 个人的版本 Lauren...
 Primary URLs:
-- https://x.com/i/article/2051116213770883072
-- https://x.com/nicbstme/status/2015795605524901957?s=20</description>
+- https://x.com/i/article/2051687844679143424
+- https://www.youtube.com/watch?v=SlGRN8jh2RI
+Linked content:
+- - YouTube: https://www.youtube.com/watch?v=SlGRN8jh2RI
+About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC</description>
     </item>
     <item>
       <title>@aleenaamiir: Minimal Line + Color Accent Illustrations PROMPT: “Minimal illustration of...</title>
@@ -1560,15 +1548,23 @@ Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Pl
 Tweet: https://x.com/sanyi_eth_/status/2025975741503135842</description>
     </item>
     <item>
-      <title>@wadezone: 非常厉害的年轻人，值得一读 https://t.co/5f6dGLLrnO</title>
-      <link>https://x.com/wadezone/status/2050881245392040390</link>
-      <guid isPermaLink="false">2050881245392040390</guid>
-      <pubDate>Sun, 03 May 2026 10:12:47 GMT</pubDate>
-      <description>非常厉害的年轻人，值得一读 https://t.co/5f6dGLLrnO
+      <title>@martinfowler: Fragments: open-source framework for prompting patterns, musician sues google for...</title>
+      <link>https://x.com/martinfowler/status/2051700087496093774</link>
+      <guid isPermaLink="false">2051700087496093774</guid>
+      <pubDate>Tue, 05 May 2026 16:26:34 GMT</pubDate>
+      <description>Fragments: open-source framework for prompting patterns, musician sues google for defamation, apple is thinking differently about AI spending, running LLMs locally, will The Genie be caught in the tar pit?
+&gt;
+&gt; https://t.co/xMvZYR4Iia
 
-Tweet: https://x.com/wadezone/status/2050881245392040390
+Tweet: https://x.com/martinfowler/status/2051700087496093774
 Primary URLs:
-- https://twitter.com/Russell3402/status/2050880340760383642</description>
+- https://martinfowler.com/fragments/2026-05-05.html
+Linked content:
+- Fragments: May 5: https://martinfowler.com/fragments/2026-05-05.html
+Refactoring Agile Architecture About Thoughtworks Topics Architecture Refactoring Agile Delivery Microservices Data Testing DSL about me About Books FAQ content Videos Content Index Fragments Board Games Photography Thoughtworks Home Insights Careers Radar Engineering follow RSS Mastodon LinkedIn Bluesky X BGG Fragments: May 5 Martin Fowler: 05 May 2026 Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming . To make...</description>
+      <media:content url="https://martinfowler.com/logo-sq.png" medium="image" />
+      <media:content url="https://martinfowler.com/mf-name-white.png" medium="image" />
+      <media:content url="https://martinfowler.com/thoughtworks_white.png" medium="image" />
     </item>
     <item>
       <title>@dddanielwang: 国际用户自愿只为deepseek打开“使用我的数据用于训练”，并且主动上传opus log 😳 https://t.co/fiOekJ5Ugp</title>
@@ -1612,18 +1608,20 @@ Primary URLs:
 - https://twitter.com/tayarndt/status/2025980816183148726</description>
     </item>
     <item>
-      <title>@nateherk: https://t.co/YVrssGik6q</title>
-      <link>https://x.com/nateherk/status/2050941624578920535</link>
-      <guid isPermaLink="false">2050941624578920535</guid>
-      <pubDate>Sun, 03 May 2026 14:12:42 GMT</pubDate>
-      <description>https://t.co/YVrssGik6q
+      <title>@frxiaobei: “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...</title>
+      <link>https://x.com/frxiaobei/status/2051600089798652126</link>
+      <guid isPermaLink="false">2051600089798652126</guid>
+      <pubDate>Tue, 05 May 2026 09:49:12 GMT</pubDate>
+      <description>“我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。
+&gt;
+&gt; SMART 化之后：
+&gt; “在未来 3 个月内，每周发布至少 1 条短视频，其中每月至少 1 条达到 50 万播放，否则视为未达标”
+&gt;
+&gt; 这个就是/dbs-goal 的价值。 https://t.co/MCkiYtyIm1
 
-Tweet: https://x.com/nateherk/status/2050941624578920535
-X article: https://x.com/nateherk/article/2050941624578920535
-X article text:
-400 hours in Claude Code. I've worked with real estate agencies, HVAC companies, coaches, marketing agencies, etc. Different industries. Same problems. Same six skills keep showing up. These aren't flashy demos. They're boring, simple, and effective. The kind of skills businesses actually write checks for. Quick note: I'll use the word "skill" throughout this, but technically some of these are plugins. A skill is a markdown file that teaches Claude how to do a specific job. A plugin is a bigger package around that skill. It can contain multiple skills plus extras like hooks or MCP servers that change how Claude Code behaves under the hood. For this breakdown, the technical category doesn't matter. What matters is that each one makes Claude noticeably better at its job. 1. The Factory: Skill Creator This is the skill that builds every other skill. You describe what you want in plain English. Claude drafts the skill, tests it, iterates on it, and packages it into something you can use forever. You don't manually touch a skill.md file. You don't figure out the formatting. You just talk to Claude like you're explaining the job to a coworker and walk away with a skill that runs the same every time. You can even drop in an SOP and it turns that into a reusable skill. The skill itself isn't what a client pays for. But every automation you sell to an HR company, a real estate agency, a coach, they all come out of this one. It's the factory that builds the product. Simple example: a real estate agency wastes hours every week writing property descriptions. Without Skill Creator, you're writing out the whole skill.md file, figuring out trigger conditions, testing it over and over. With Skill Creator, you explain it naturally and it builds, tests, and packages it. Compresses the learning curve. I installed this one globally on a user scope. No matter what project I'm working in, if I need to build a skill, it just invokes automatically. Install: /plugin install skill-...
+Tweet: https://x.com/frxiaobei/status/2051600089798652126
 Primary URLs:
-- https://x.com/i/article/2050936677435068416</description>
+- https://twitter.com/dontbesilent/status/2051588974032846935</description>
     </item>
     <item>
       <title>@cherylnatsu: 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude...</title>
@@ -1660,23 +1658,19 @@ Primary URLs:
 - https://twitter.com/Prince_Canuma/status/2026022469010599954</description>
     </item>
     <item>
-      <title>@GlennGilmore: https://t.co/1j1BS3vn9N This to us, @brick_timber , is not new news but it is welcome...</title>
-      <link>https://x.com/GlennGilmore/status/2051023665593221208</link>
-      <guid isPermaLink="false">2051023665593221208</guid>
-      <pubDate>Sun, 03 May 2026 19:38:42 GMT</pubDate>
-      <description>https://t.co/1j1BS3vn9N
-&gt;
-&gt; This to us, @brick_timber , is not new news but it is welcome confirmation of what has been happening in this neighborhood for almost 15 years.  Covid slowed the progression, but we are back on track in a big way.  Also, with the terrific work of
+      <title>@yidabuilds: 和我们的判断完全一致， 就是这一波最好的生意是去做to B的业务。 我们之前发现的 包括trustMRR上， 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。...</title>
+      <link>https://x.com/yidabuilds/status/2051498115501609153</link>
+      <guid isPermaLink="false">2051498115501609153</guid>
+      <pubDate>Tue, 05 May 2026 03:04:00 GMT</pubDate>
+      <description>和我们的判断完全一致，
+&gt; 就是这一波最好的生意是去做to B的业务。
+&gt; 我们之前发现的
+&gt; 包括trustMRR上，
+&gt; 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。 https://t.co/6x63FCa0uN
 
-Tweet: https://x.com/GlennGilmore/status/2051023665593221208
+Tweet: https://x.com/yidabuilds/status/2051498115501609153
 Primary URLs:
-- https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
-Linked content:
-- Jackson Square returns as AI booms in San Francisco: https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&amp;utm_campaign=sprout_general&amp;utm_content=1777749104&amp;utm_medium=The+Real+Deal&amp;utm_source=facebook&amp;fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&amp;utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
-Skip to content Skip to site index Sign in Subscribe Subscribe search Commercial San Francisco A Forget the glass towers. SF’s AI boom finds a home in a 19th-century neighborhood. While downtown stalled and SoMa emptied out, two blocks of old brick quietly became the fastest-recovering address Clockwise from left: Anthropic CEO Dario Amodei, Jony Ive and OpenAI CEO Sam Altman (Photo-illustration by Kevin Rebong/The Real Deal; Getty Images) A A A By Christopher Neely Apr 1, 2026, 11:00 AM UTC...</description>
-      <media:content url="https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square.jpg" medium="image" />
-      <media:content url="https://static.therealdeal.com/logos/trd-news-logo-light.svg" medium="image" />
-      <media:content url="https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square-50x33.jpg" medium="image" />
+- https://twitter.com/AdrianPunk115/status/2051494055692116286</description>
     </item>
     <item>
       <title>@fkysly: Opus 4.7 的黑话让我有点受不了，GPT-5.5 反而讲人话了，能理解了。我今天试试看能不能 Codex 完成所有工作，如果可以的话，就主力充值 Codex 了。</title>
@@ -1725,18 +1719,18 @@ Linked content:
       <media:content url="https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg" medium="image" />
     </item>
     <item>
-      <title>@rohit4verse: https://t.co/6n2BMCRQx1</title>
-      <link>https://x.com/rohit4verse/status/2050968031493550202</link>
-      <guid isPermaLink="false">2050968031493550202</guid>
-      <pubDate>Sun, 03 May 2026 15:57:38 GMT</pubDate>
-      <description>https://t.co/6n2BMCRQx1
+      <title>@_heyrico: https://t.co/VUTVX4bfgK</title>
+      <link>https://x.com/_heyrico/status/2051621781363188219</link>
+      <guid isPermaLink="false">2051621781363188219</guid>
+      <pubDate>Tue, 05 May 2026 11:15:24 GMT</pubDate>
+      <description>https://t.co/VUTVX4bfgK
 
-Tweet: https://x.com/rohit4verse/status/2050968031493550202
-X article: https://x.com/rohit4verse/article/2050968031493550202
+Tweet: https://x.com/_heyrico/status/2051621781363188219
+X article: https://x.com/_heyrico/article/2051621781363188219
 X article text:
-There is no neutral way to use AI. You either get sharper using it or you get hollower. Most people are getting hollower. They will not notice until they try to work without it. Stop scrolling for a second. If every AI tool you use disappeared tomorrow morning, what could you still build? What could you still write? What could you still figure out alone, with no chat window open and no autocomplete suggesting the next line? How many hours of your last week were spent thinking versus prompting? Are those the same thing? Are you sure? How much of the work you call yours is actually yours, and how much of it would collapse the moment your subscription lapsed? Most people will not sit with these questions because the answers are uncomfortable. The discomfort is the signal. Sit with it anyway. Whatever you are about to read in this article works only if you have first admitted to yourself how much of your cognition has already migrated outward. Three months ago I sat staring at a function I had written six weeks earlier and could not make sense of it. I read it once. Then again. Then I opened the chat window and asked the model to explain what I had written. That small moment landed harder than it should have. I had spent the previous months calling myself productive while the part of my brain that reads code had started shutting down. Other cracks followed over the next few weeks. My hand drifted toward the chat window before I tried to think through a problem. I would draft a tweet and reach for the polish button as a reflex. I would open a paper and feel my brain refuse to load the abstract because I could paste it into a summary tool. I would sit in a meeting and feel that pull toward my laptop the moment a strategic question got harder than I wanted it to be. I had been working those months without thinking through any of it. The output stayed the same. The work shipped. The income kept coming. The muscle that does the actual work behind the work, the one that...
+The job of a product designer in 2026 has split in two. There is the version that still treats Figma as the primary deliverable, runs design reviews on Tuesdays, hands files to engineers on Fridays, and spends 80 percent of the week pushing pixels. Then there is the agent-native version. Agents do most of the production. The designer plans the strategy, dispatches the work, reviews the diffs, and ships the live URL. The week looks nothing like the old one. Both versions still exist. One of them is going to be unrecognizable in twelve months. Here is what agent-native product design actually looks like in practice, the four artifacts every designer should be building right now, and the one habit that ties the whole thing together. The shape of the work has changed Marcus Moretti at Every wrote the cleanest summary of this shift for product management: software development used to be 20 percent planning and 80 percent execution. Agent-native work is 80 percent planning and 20 percent execution. The same flip is happening in product design, and most designers have not noticed yet. Old design loop: brief, sketch, mockup, refine, hand off, wait, review the build, cycle. Five days minimum. New design loop: write the strategy, write the design system file, dispatch the screen, review the PR, ship the URL. Five hours, sometimes less. The reason the new loop is shorter is not the agent. It is the artifacts. Every minute spent writing strategy.md and design.md is a minute that compounds across every screen the agent generates after that. If you skip the artifacts, you spend the same five days, with worse output, because the agent is guessing what you mean. The four artifacts every agent-native designer ships first Before the first prompt. Before the first Figma file. Four documents at the root of every project. Each one is short. Each one earns back its time within a week. 1. The strategy.md. One page. Five sections. Target problem, approach, who it is for, key metrics,...
 Primary URLs:
-- https://x.com/i/article/2050613084558094336</description>
+- https://x.com/i/article/2051474356732379136</description>
     </item>
     <item>
       <title>@fkysly: 经过一上午的体验测试，已经充值 Codex Pro Plan 了，然后搞上 Sub2API。 全面从 Opus 4.7 切到 Codex GPT-5.5...</title>
@@ -1777,15 +1771,24 @@ Primary URLs:
 - https://twitter.com/Prince_Canuma/status/2026022469010599954</description>
     </item>
     <item>
-      <title>@grapeot: 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。...</title>
-      <link>https://x.com/grapeot/status/2050968710056444112</link>
-      <guid isPermaLink="false">2050968710056444112</guid>
-      <pubDate>Sun, 03 May 2026 16:00:20 GMT</pubDate>
-      <description>我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。
+      <title>@ericzakariasson: this is cursor team kit: a plugin for some skills we use to build cursor at cursor...</title>
+      <link>https://x.com/ericzakariasson/status/2051255780167610522</link>
+      <guid isPermaLink="false">2051255780167610522</guid>
+      <pubDate>Mon, 04 May 2026 11:01:03 GMT</pubDate>
+      <description>this is cursor team kit: a plugin for some skills we use to build cursor at cursor
 &gt;
-&gt; 更难、也更大的地方，是那些过去一直停在软件边界外的小生意：比如一家本地招牌打印店，订单从电话、邮件、路边来，每单都要重新确认材料、尺寸、设计、安装和排期。
+&gt; skills for verifying changes, driving local tools, and shipping reviewable PRs
+&gt; https://t.co/8R4XNCUOfe
 
-Tweet: https://x.com/grapeot/status/2050968710056444112</description>
+Tweet: https://x.com/ericzakariasson/status/2051255780167610522
+Primary URLs:
+- https://cursor.com/marketplace/cursor/cursor-team-kit
+Linked content:
+- Cursor Team Kit | Cursor Plugins: https://cursor.com/marketplace/cursor/cursor-team-kit
+Skip to content Product ↓ Agents Code Review Tab CLI Enterprise Pricing Resources ↓ Changelog Blog Docs ↗ Community Learn ↗ Workshops Forum ↗ Future ↗ Marketplace Careers Product → Enterprise Pricing Resources → Marketplace / All Plugins Created by Cursor View Source Marketplace / All Plugins Back Cursor Team Kit Sign In To Add Sign In To Add Internal workflows used by Cursor developers for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and...</description>
+      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/opengraph-image" medium="image" />
+      <media:content url="https://cursor.com/marketplace/cursor/cursor-team-kit/twitter-image" medium="image" />
+      <media:content url="https://cursor-cdn.com/plugin-logos/production/e7f9aa0a9a21eba2.png" medium="image" />
     </item>
     <item>
       <title>@FradSer: 好东西 https://t.co/A9bVWjkexa</title>
@@ -1797,6 +1800,19 @@ Tweet: https://x.com/grapeot/status/2050968710056444112</description>
 Tweet: https://x.com/FradSer/status/2050150964741759442
 Primary URLs:
 - https://twitter.com/dingyi/status/2050137408268886450</description>
+    </item>
+    <item>
+      <title>@iamdavidhill: my favourite ai companies right now: - DeepSeek - Moonshot AI - MiniMax</title>
+      <link>https://x.com/iamdavidhill/status/2026044556618145834</link>
+      <guid isPermaLink="false">2026044556618145834</guid>
+      <pubDate>Mon, 23 Feb 2026 21:20:39 GMT</pubDate>
+      <description>my favourite ai companies right now:
+&gt;
+&gt; - DeepSeek
+&gt; - Moonshot AI
+&gt; - MiniMax
+
+Tweet: https://x.com/iamdavidhill/status/2026044556618145834</description>
     </item>
   </channel>
 </rss>
