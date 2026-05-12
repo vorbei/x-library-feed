@@ -157,59 +157,78 @@ def main() -> int:
     lc: dict[str, dict[str, Any]] = store.get("linked_content_by_url") or {}
     refs: dict[str, dict[str, Any]] = store.get("referenced_articles_by_id") or {}
 
-    calls = 0
-    touched = 0
+    concurrency = max(1, int(os.environ.get("DEEPSEEK_TRANSLATE_CONCURRENCY", "3")))
 
-    def perform(record: dict[str, Any], src_key: str, zh_key: str, hash_key: str) -> bool:
-        nonlocal calls, touched
-        if calls >= args.max_calls:
-            return False
+    # 1) Collect pending jobs (each = which dict to patch + which keys).
+    Job = tuple[dict[str, Any], str, str, str]
+    jobs: list[Job] = []
+
+    def maybe_enqueue(record: dict[str, Any], src_key: str, zh_key: str, hash_key: str) -> None:
+        if len(jobs) >= args.max_calls:
+            return
         text = record.get(src_key) or ""
-        new_text, new_hash, called = maybe_translate(
-            text,
-            record.get(zh_key),
-            record.get(hash_key),
-            api_key,
-            args.model,
-        )
-        if called:
-            calls += 1
-            touched += 1
-            record[zh_key] = new_text
-            record[hash_key] = new_hash
-            print(
-                f"::notice::translated {src_key} ({len(text)} chars) — {calls}/{args.max_calls}",
-                file=sys.stderr,
-            )
-            return True
-        return False
+        if not text or not text.strip() or not is_english_dominant(text):
+            return
+        new_hash = content_hash(text)
+        if record.get(zh_key) and record.get(hash_key) == new_hash:
+            return
+        jobs.append((record, src_key, zh_key, hash_key))
 
-    # Items' own article_text
     for item in items:
-        if calls >= args.max_calls:
-            break
-        perform(item, "article_text", "article_text_zh", "article_text_zh_hash")
-
-    # Linked content excerpts (X /article/ markdown bodies + external articles)
-    for url, entry in lc.items():
-        if calls >= args.max_calls:
-            break
-        perform(entry, "text_excerpt", "text_excerpt_zh", "text_excerpt_zh_hash")
-
-    # Referenced articles fetched via X API
-    for tid, ref in refs.items():
-        if calls >= args.max_calls:
-            break
-        perform(ref, "article_text", "article_text_zh", "article_text_zh_hash")
-        if calls >= args.max_calls:
-            break
-        perform(ref, "text", "text_zh", "text_zh_hash")
+        maybe_enqueue(item, "article_text", "article_text_zh", "article_text_zh_hash")
+    for entry in lc.values():
+        maybe_enqueue(entry, "text_excerpt", "text_excerpt_zh", "text_excerpt_zh_hash")
+    for ref in refs.values():
+        maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash")
+        maybe_enqueue(ref, "text", "text_zh", "text_zh_hash")
 
     print(
-        f"::notice::translate_feed.py done — performed {calls} DeepSeek calls, "
-        f"touched {touched} fields.",
+        f"::notice::translate_feed.py queued {len(jobs)} translation jobs "
+        f"(max_calls={args.max_calls}, concurrency={concurrency})",
         file=sys.stderr,
     )
+
+    if not jobs:
+        return 0
+
+    # 2) Run translations concurrently.
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    completed = 0
+    touched = 0
+
+    def run_job(job: Job) -> tuple[Job, str | None]:
+        record, src_key, _, _ = job
+        text = record[src_key]
+        return job, call_deepseek(api_key, text, args.model)
+
+    with ThreadPoolExecutor(max_workers=concurrency) as ex:
+        futures = {ex.submit(run_job, j): j for j in jobs}
+        for fut in as_completed(futures):
+            job, translation = fut.result()
+            record, src_key, zh_key, hash_key = job
+            completed += 1
+            if translation:
+                record[zh_key] = translation
+                record[hash_key] = content_hash(record[src_key])
+                touched += 1
+                print(
+                    f"::notice::[{completed}/{len(jobs)}] translated {src_key} "
+                    f"({len(record[src_key])} chars)",
+                    file=sys.stderr,
+                )
+            else:
+                print(
+                    f"::warning::[{completed}/{len(jobs)}] failed {src_key} "
+                    f"({len(record[src_key])} chars)",
+                    file=sys.stderr,
+                )
+
+    print(
+        f"::notice::translate_feed.py done — {touched}/{len(jobs)} succeeded.",
+        file=sys.stderr,
+    )
+    calls = touched
 
     if touched == 0:
         return 0
