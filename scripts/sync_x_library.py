@@ -820,6 +820,7 @@ def fetch_referenced_x_articles(
         if len(needed) >= max_fetches:
             break
 
+    print(f"::notice::Referenced articles needing fetch: {len(needed)}", file=sys.stderr)
     for start in range(0, len(needed), 100):
         chunk = needed[start : start + 100]
         params = {
@@ -829,11 +830,15 @@ def fetch_referenced_x_articles(
             "user.fields": USER_FIELDS,
             "media.fields": MEDIA_FIELDS,
         }
+        print(f"::notice::Fetching article batch [{start}:{start+len(chunk)}]", file=sys.stderr)
         try:
             payload = api_get("/tweets", params, tokens)
         except RuntimeError as e:
             print(f"::warning::Referenced article fetch failed for batch: {e}", file=sys.stderr)
             continue
+        data_count = len(payload.get("data") or [])
+        err_count = len(payload.get("errors") or [])
+        print(f"::notice::Batch returned data={data_count} errors={err_count}", file=sys.stderr)
         for user in payload.get("includes", {}).get("users", []):
             users[user["id"]] = user
         media_map = {
