@@ -839,6 +839,9 @@ def fetch_referenced_x_articles(
         data_count = len(payload.get("data") or [])
         err_count = len(payload.get("errors") or [])
         print(f"::notice::Batch returned data={data_count} errors={err_count}", file=sys.stderr)
+        if err_count and not data_count:
+            sample_err = (payload.get("errors") or [{}])[0]
+            print(f"::notice::Sample error: {json.dumps(sample_err)[:300]}", file=sys.stderr)
         for user in payload.get("includes", {}).get("users", []):
             users[user["id"]] = user
         media_map = {
