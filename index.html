@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>X Bookmarks + Favorites</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fafafa;
+    --card: #fff;
+    --fg: #1a1a1a;
+    --muted: #6a6a6a;
+    --link: #1d6fec;
+    --border: #e5e5e5;
+    --accent: #f7f7f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171a;
+      --card: #1c1f23;
+      --fg: #e6e6e6;
+      --muted: #8a8f97;
+      --link: #6aa6ff;
+      --border: #2a2f36;
+      --accent: #22262c;
+    }
+  }
+  html, body { background: var(--bg); color: var(--fg); }
+  body {
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, sans-serif;
+    margin: 0;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .meta a { color: var(--muted); }
+  .filters {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;
+    position: sticky; top: 0; padding: 10px 0;
+    background: var(--bg); z-index: 10; border-bottom: 1px solid var(--border);
+  }
+  .filters button {
+    border: 1px solid var(--border); background: var(--card); color: var(--fg);
+    padding: 6px 12px; border-radius: 999px; font-size: 13px; cursor: pointer;
+  }
+  .filters button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .search {
+    flex: 1; min-width: 180px; padding: 6px 12px; font-size: 13px;
+    border: 1px solid var(--border); border-radius: 999px;
+    background: var(--card); color: var(--fg);
+  }
+  article.item {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px 20px; margin-bottom: 16px;
+  }
+  .head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .author { font-weight: 600; }
+  .author a { color: var(--muted); font-weight: 400; text-decoration: none; }
+  .author a:hover { text-decoration: underline; }
+  .time { color: var(--muted); font-size: 12px; }
+  .sources { font-size: 11px; color: var(--muted); margin: 2px 0 12px; }
+  blockquote {
+    margin: 0 0 12px;
+    padding: 8px 12px;
+    border-left: 3px solid var(--border);
+    color: var(--fg);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .gallery { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+  .gallery img {
+    max-width: 100%;
+    max-height: 320px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    object-fit: cover;
+  }
+  .linked, .ref-article {
+    margin-top: 12px; padding: 10px 14px; background: var(--accent);
+    border-radius: 8px; font-size: 14px;
+  }
+  .linked .lbl, .ref-article .lbl { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+  .linked-title { font-weight: 500; }
+  .excerpt { color: var(--muted); margin-top: 6px; white-space: pre-wrap; }
+  details { margin-top: 8px; }
+  details summary { cursor: pointer; color: var(--link); font-size: 13px; }
+  details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--muted); white-space: pre-wrap; }
+  .metrics { color: var(--muted); font-size: 12px; margin-top: 10px; }
+  .view-on-x { font-size: 12px; color: var(--link); text-decoration: none; }
+  a { color: var(--link); }
+  #empty { color: var(--muted); text-align: center; padding: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>X Bookmarks + Favorites</h1>
+  <div class="meta" id="meta">Loading…</div>
+  <div class="filters">
+    <button data-source="" class="active">All</button>
+    <button data-source="bookmark@chumsdock">chumsdock bookmarks</button>
+    <button data-source="favorite@chumsdock">chumsdock favs</button>
+    <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
+    <button data-source="favorite@CatHanami97880">hanami favs</button>
+    <input class="search" id="q" placeholder="Search text…" />
+  </div>
+  <div id="feed"></div>
+</div>
+
+<script>
+const FEED_URL = "public/x-bookmarks-favorites.json";
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+const urlRE = /https?:\/\/[^\s<>"']+/g;
+const linkify = s => esc(s).replace(urlRE, u => {
+  const clean = u.replace(/[.,;:!?)]$/, "");
+  const trailing = u.slice(clean.length);
+  return `<a href="${clean}" target="_blank" rel="noopener">${clean}</a>${trailing}`;
+});
+
+function renderItem(item, refArticles) {
+  const a = item.author || {};
+  const name = esc(a.name || a.username || "unknown");
+  const handle = esc(a.username || "unknown");
+  const tweetUrl = item.url || "";
+  const created = item.created_at ? new Date(item.created_at).toLocaleString() : "";
+  const sources = (item.sources || []).join(", ");
+
+  let html = `<article class="item">`;
+  html += `<div class="head">`;
+  html += `<div><span class="author">${name}</span> <a href="https://x.com/${handle}" target="_blank">@${handle}</a></div>`;
+  html += `<span class="time">${esc(created)}</span>`;
+  html += `</div>`;
+  html += `<div class="sources">${esc(sources)}</div>`;
+
+  if (item.text) {
+    html += `<blockquote>${linkify(item.text)}</blockquote>`;
+  }
+
+  if (item.article_url) {
+    const title = esc(item.article_title || item.article_url);
+    html += `<div class="ref-article"><div class="lbl">📄 X Article (own)</div><a href="${esc(item.article_url)}" target="_blank">${title}</a>`;
+    if (item.article_text) {
+      html += `<details><summary>Show full article (${item.article_text.length.toLocaleString()} chars)</summary><div>${esc(item.article_text)}</div></details>`;
+    }
+    html += `</div>`;
+  }
+
+  // Referenced X articles (from primary_urls)
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/article\/(\d+)/i);
+    const ref = m ? refArticles[m[1]] : null;
+    if (!ref) continue;
+    const title = esc(ref.article_title || "X Article");
+    html += `<div class="ref-article"><div class="lbl">📄 Referenced X Article ${ref.author?.username ? '(@' + esc(ref.author.username) + ')' : ''}</div>`;
+    html += `<a href="${esc(ref.url || url)}" target="_blank">${title}</a>`;
+    if (ref.article_text) {
+      html += `<details><summary>Show full article (${ref.article_text.length.toLocaleString()} chars)</summary><div>${esc(ref.article_text)}</div></details>`;
+    }
+    html += `</div>`;
+  }
+
+  // Images
+  const seen = new Set();
+  const images = [];
+  for (const u of (item.image_urls || [])) {
+    if (!seen.has(u)) { seen.add(u); images.push(u); }
+  }
+  for (const lc of (item.linked_content || [])) {
+    for (const u of (lc.image_urls || [])) {
+      if (!seen.has(u)) { seen.add(u); images.push(u); }
+    }
+  }
+  if (images.length) {
+    html += `<div class="gallery">`;
+    for (const u of images.slice(0, 8)) {
+      html += `<img src="${esc(u)}" alt="" loading="lazy" />`;
+    }
+    html += `</div>`;
+  }
+
+  // Linked content (non-image)
+  for (const lc of (item.linked_content || [])) {
+    const u = lc.final_url || lc.url || "";
+    if (!u || images.includes(u)) continue;
+    if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
+    const title = esc(lc.title || lc.description || u);
+    html += `<div class="linked"><div class="lbl">🔗 Linked content</div>`;
+    html += `<a class="linked-title" href="${esc(u)}" target="_blank">${title}</a>`;
+    if (lc.text_excerpt) {
+      const txt = lc.text_excerpt.length > 600 ? lc.text_excerpt.slice(0, 600) + "…" : lc.text_excerpt;
+      html += `<div class="excerpt">${esc(txt)}</div>`;
+    }
+    html += `</div>`;
+  }
+
+  // Metrics
+  const m = item.public_metrics || {};
+  const bits = [];
+  if (m.like_count) bits.push(`♥ ${m.like_count.toLocaleString()}`);
+  if (m.retweet_count) bits.push(`🔁 ${m.retweet_count.toLocaleString()}`);
+  if (m.reply_count) bits.push(`💬 ${m.reply_count.toLocaleString()}`);
+  if (m.bookmark_count) bits.push(`🔖 ${m.bookmark_count.toLocaleString()}`);
+  if (m.impression_count) bits.push(`👁 ${m.impression_count.toLocaleString()}`);
+  if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
+
+  if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
+  html += `</article>`;
+  return html;
+}
+
+let allItems = [];
+let refArticles = {};
+let currentFilter = "";
+let currentQuery = "";
+
+function applyFilters() {
+  const feed = document.getElementById("feed");
+  const filtered = allItems.filter(item => {
+    if (currentFilter && !(item.sources || []).includes(currentFilter)) return false;
+    if (currentQuery) {
+      const haystack = ((item.text || "") + " " + (item.author?.name || "") + " " + (item.author?.username || "")).toLowerCase();
+      if (!haystack.includes(currentQuery)) return false;
+    }
+    return true;
+  });
+  if (!filtered.length) {
+    feed.innerHTML = '<div id="empty">No matching items.</div>';
+    return;
+  }
+  feed.innerHTML = filtered.slice(0, 200).map(it => renderItem(it, refArticles)).join("");
+  if (filtered.length > 200) {
+    feed.innerHTML += `<div id="empty">… ${filtered.length - 200} more not shown</div>`;
+  }
+}
+
+fetch(FEED_URL + "?t=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    allItems = data.items || [];
+    refArticles = data.referenced_articles_by_id || {};
+    const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
+    document.getElementById("meta").innerHTML =
+      `${allItems.length} items · updated ${esc(updated)} · ` +
+      `<a href="rss.xml">RSS</a> · ` +
+      `<a href="public/x-bookmarks-favorites.md">Markdown</a> · ` +
+      `<a href="public/x-bookmarks-favorites.json">JSON</a>`;
+    applyFilters();
+  })
+  .catch(err => {
+    document.getElementById("feed").innerHTML = '<div id="empty">Failed to load feed: ' + esc(err.message) + '</div>';
+  });
+
+for (const btn of document.querySelectorAll(".filters button")) {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filters button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = btn.dataset.source;
+    applyFilters();
+  });
+}
+document.getElementById("q").addEventListener("input", e => {
+  currentQuery = e.target.value.trim().toLowerCase();
+  applyFilters();
+});
+</script>
+</body>
+</html>
