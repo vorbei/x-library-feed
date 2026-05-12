@@ -934,6 +934,104 @@ def write_markdown(path: Path, store: dict[str, Any]) -> None:
     path.write_text(render_markdown(store), encoding="utf-8")
 
 
+_LINK_RE = re.compile(r"https?://[^\s<>\"']+")
+
+
+def _html_escape_text(text: str) -> str:
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def _linkify(text: str) -> str:
+    parts: list[str] = []
+    last = 0
+    for m in _LINK_RE.finditer(text):
+        parts.append(_html_escape_text(text[last : m.start()]))
+        url = m.group(0).rstrip(".,;:!?")
+        parts.append(f'<a href="{_html_escape_text(url)}">{_html_escape_text(url)}</a>')
+        last = m.start() + len(url)
+    parts.append(_html_escape_text(text[last:]))
+    return "".join(parts).replace("\n", "<br/>")
+
+
+def render_item_html(item: dict[str, Any]) -> str:
+    author = item.get("author") or {}
+    username = author.get("username") or "unknown"
+    display_name = author.get("name") or username
+    item_url = item.get("url") or ""
+    parts: list[str] = []
+
+    parts.append(
+        f'<p><strong>{_html_escape_text(display_name)}</strong> '
+        f'(<a href="https://x.com/{_html_escape_text(username)}">@{_html_escape_text(username)}</a>)</p>'
+    )
+
+    text = (item.get("text") or "").strip()
+    if text:
+        parts.append(f"<blockquote><p>{_linkify(text)}</p></blockquote>")
+
+    if item.get("article_url"):
+        title = item.get("article_title") or item.get("article_url")
+        parts.append(
+            f'<p>📄 X Article: <a href="{_html_escape_text(item["article_url"])}">'
+            f'{_html_escape_text(title)}</a></p>'
+        )
+    article_text = (item.get("article_text") or "").strip()
+    if article_text:
+        body = "<br/>".join(_html_escape_text(p) for p in article_text.split("\n") if p.strip())
+        parts.append(f'<details><summary>X Article (full text)</summary><div>{body}</div></details>')
+
+    image_urls = item.get("image_urls") or []
+    linked_image_urls = []
+    for linked in item.get("linked_content") or []:
+        for url in linked.get("image_urls") or []:
+            if url not in linked_image_urls and url not in image_urls:
+                linked_image_urls.append(url)
+    gallery = [*image_urls, *linked_image_urls][:8]
+    if gallery:
+        imgs = "".join(
+            f'<img src="{_html_escape_text(u)}" alt="" style="max-width:480px;margin:4px"/>'
+            for u in gallery
+        )
+        parts.append(f'<div>{imgs}</div>')
+
+    linked_content = item.get("linked_content") or []
+    rendered_linked = []
+    for linked in linked_content:
+        url = linked.get("final_url") or linked.get("url") or ""
+        if not url or url in gallery:
+            continue
+        title = linked.get("title") or linked.get("description") or url
+        block = [
+            f'<p>🔗 <a href="{_html_escape_text(url)}">{_html_escape_text(title)}</a></p>'
+        ]
+        excerpt = (linked.get("text_excerpt") or "").strip()
+        if excerpt:
+            body = "<br/>".join(_html_escape_text(p) for p in excerpt.split("\n") if p.strip())
+            block.append(f'<blockquote>{body}</blockquote>')
+        rendered_linked.append("".join(block))
+    if rendered_linked:
+        parts.append("<hr/>")
+        parts.extend(rendered_linked)
+
+    metrics = item.get("public_metrics") or {}
+    metric_bits = []
+    for key, label in [("like_count", "♥"), ("retweet_count", "🔁"), ("reply_count", "💬"), ("bookmark_count", "🔖"), ("impression_count", "👁")]:
+        if metrics.get(key):
+            metric_bits.append(f"{label} {metrics[key]:,}")
+    if metric_bits:
+        parts.append(f'<p style="color:#777;font-size:0.9em">{" · ".join(metric_bits)}</p>')
+
+    if item_url:
+        parts.append(
+            f'<p><a href="{_html_escape_text(item_url)}">View on X →</a></p>'
+        )
+    return "".join(parts)
+
+
 def parse_datetime(value: str | None) -> datetime:
     if not value:
         return utc_now()
@@ -958,7 +1056,10 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
 
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
+        '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" '
+        'xmlns:content="http://purl.org/rss/1.0/modules/content/" '
+        'xmlns:atom="http://www.w3.org/2005/Atom" '
+        'xmlns:dc="http://purl.org/dc/elements/1.1/">',
         "  <channel>",
         "    <title>X Bookmarks + Favorites</title>",
         f"    <link>{escape(markdown_url)}</link>",
@@ -1014,6 +1115,9 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
                 rss_image_urls.append(url)
         for url in rss_image_urls[:8]:
             media_xml.append(f"      <media:content url=\"{escape(url)}\" medium=\"image\" />")
+        author = item.get("author") or {}
+        author_name = author.get("name") or author.get("username") or "unknown"
+        html_body = render_item_html(item).replace("]]>", "]]&gt;")
         lines.extend(
             [
                 "    <item>",
@@ -1021,7 +1125,9 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
                 f"      <link>{escape(item_url)}</link>",
                 f"      <guid isPermaLink=\"false\">{escape(str(guid))}</guid>",
                 f"      <pubDate>{format_datetime(created, usegmt=True)}</pubDate>",
+                f"      <dc:creator>{escape(author_name)}</dc:creator>",
                 f"      <description>{escape(chr(10).join(description_lines))}</description>",
+                f"      <content:encoded><![CDATA[{html_body}]]></content:encoded>",
                 *media_xml,
                 "    </item>",
             ]
