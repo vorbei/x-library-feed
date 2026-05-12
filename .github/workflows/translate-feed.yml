@@ -1,0 +1,50 @@
+name: Translate Feed
+
+on:
+  schedule:
+    # Every 6 hours; runs at :05 to avoid colliding with sync's :17.
+    - cron: "5 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translate-x-library-feed
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Translate English content via DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_TRANSLATE_MAX_CALLS: ${{ vars.DEEPSEEK_TRANSLATE_MAX_CALLS || '30' }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-chat' }}
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "::warning::DEEPSEEK_API_KEY not set; skipping translation."
+            exit 0
+          fi
+          python3 scripts/translate_feed.py
+
+      - name: Commit translations
+        run: |
+          if git diff --quiet -- public/x-bookmarks-favorites.json; then
+            echo "No translation changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/x-bookmarks-favorites.json
+          git commit -m "Translate feed content via DeepSeek"
+          git push

@@ -118,6 +118,7 @@
   .md-body blockquote { margin: 8px 0; padding: 4px 12px; border-left: 2px solid var(--border); color: var(--muted); }
   .md-body code { background: var(--accent); padding: 1px 4px; border-radius: 3px; font-size: 13px; }
   .md-body pre { background: var(--accent); padding: 8px 12px; border-radius: 4px; overflow-x: auto; }
+  .lang-lbl { color: var(--muted); font-size: 11px; margin: 4px 0; text-transform: uppercase; letter-spacing: 0.05em; }
   .metrics { color: var(--muted); font-size: 12px; margin-top: 10px; }
   .view-on-x { font-size: 12px; color: var(--link); text-decoration: none; }
   a { color: var(--link); }
@@ -134,6 +135,11 @@
     <button data-source="favorite@chumsdock">chumsdock favs</button>
     <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
     <button data-source="favorite@CatHanami97880">hanami favs</button>
+    <select id="lang" style="font-size:13px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--fg);">
+      <option value="auto">中文优先</option>
+      <option value="both">中英对照</option>
+      <option value="en">English only</option>
+    </select>
     <input class="search" id="q" placeholder="Search text…" />
   </div>
   <div id="feed"></div>
@@ -177,6 +183,23 @@ const mdRenderer = window.marked && new window.marked.Renderer
   : null;
 if (window.marked) {
   marked.setOptions({ breaks: true, gfm: true });
+}
+
+let langMode = "auto"; // "auto" | "both" | "en"
+
+// Pick which version of a body to show, given English original + optional ZH.
+// Returns array of {label, text, isMarkdown}.
+function pickBodies(en, zh, isMarkdown) {
+  if (langMode === "en") return en ? [{label: "", text: en, isMarkdown}] : [];
+  if (langMode === "both") {
+    const out = [];
+    if (zh) out.push({label: "中文", text: zh, isMarkdown});
+    if (en) out.push({label: "English", text: en, isMarkdown});
+    return out;
+  }
+  // auto: ZH if present, otherwise EN
+  if (zh) return [{label: "", text: zh, isMarkdown}];
+  return en ? [{label: "", text: en, isMarkdown}] : [];
 }
 
 function renderMarkdown(md) {
@@ -235,8 +258,13 @@ function renderItem(item, refArticles) {
     const title = esc(item.article_title || item.article_url);
     html += `<div class="ref-article"><div class="lbl">📄 X Article (own)</div><a href="${esc(item.article_url)}" target="_blank">${title}</a>`;
     if (item.article_text) {
-      const body = renderMarkdown(cleanArticleMarkdown(extractMarkdownImages(item.article_text).stripped));
-      html += `<details><summary>Show full article (${item.article_text.length.toLocaleString()} chars)</summary><div class="md-body">${body}</div></details>`;
+      const bodies = pickBodies(item.article_text, item.article_text_zh, true);
+      for (const b of bodies) {
+        const cleaned = cleanArticleMarkdown(extractMarkdownImages(b.text).stripped);
+        const rendered = renderMarkdown(cleaned);
+        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+        html += `<details><summary>Show ${b.label || "full article"} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
+      }
     }
     html += `</div>`;
   }
@@ -254,12 +282,18 @@ function renderItem(item, refArticles) {
     const title = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
     html += `<div class="ref-article"><div class="lbl">${icon} Referenced X ${kind} ${ref.author?.username ? '(@' + esc(ref.author.username) + ')' : ''}</div>`;
     html += `<a href="${esc(ref.url || url)}" target="_blank">${title}</a>`;
-    const bodyText = articleText || tweetText;
-    if (bodyText) {
-      const lbl = isArticle ? "Show full article" : "Show tweet text";
-      const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(bodyText).stripped) : bodyText;
-      const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
-      html += `<details${isArticle ? "" : " open"}><summary>${lbl} (${bodyText.length.toLocaleString()} chars)</summary><div class="md-body">${rendered}</div></details>`;
+    const enText = isArticle ? articleText : tweetText;
+    const zhText = isArticle ? (ref.article_text_zh || "") : (ref.text_zh || "");
+    if (enText) {
+      const bodies = pickBodies(enText, zhText, isArticle);
+      const lbl = isArticle ? "full article" : "tweet text";
+      for (const b of bodies) {
+        const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
+        const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+        const openFlag = !isArticle && b === bodies[0] ? " open" : "";
+        html += `<details${openFlag}><summary>Show ${b.label || lbl} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
+      }
     }
     html += `</div>`;
   }
@@ -276,14 +310,15 @@ function renderItem(item, refArticles) {
     html += `<div class="linked"><div class="lbl">🔗 Linked content</div>`;
     html += `<a class="linked-title" href="${esc(u)}" target="_blank">${titleHtml}</a>`;
     if (lc.text_excerpt) {
-      const text = lc.text_excerpt;
-      const cleaned = isXArticle
-        ? cleanArticleMarkdown(extractMarkdownImages(text).stripped)
-        : text;
-      // X article markdown is rich → render as HTML. Other extractions are
-      // plain-text excerpts → just linkify.
-      const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
-      html += `<details><summary>Show extracted content (${text.length.toLocaleString()} chars)</summary><div class="md-body">${rendered}</div></details>`;
+      const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", isXArticle);
+      for (const b of bodies) {
+        const cleaned = isXArticle
+          ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped)
+          : b.text;
+        const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+        html += `<details><summary>Show ${b.label || "extracted content"} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
+      }
     }
     html += `</div>`;
   }
@@ -391,6 +426,10 @@ for (const btn of document.querySelectorAll(".filters button")) {
 }
 document.getElementById("q").addEventListener("input", e => {
   currentQuery = e.target.value.trim().toLowerCase();
+  applyFilters();
+});
+document.getElementById("lang").addEventListener("change", e => {
+  langMode = e.target.value;
   applyFilters();
 });
 </script>
