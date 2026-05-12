@@ -88,12 +88,15 @@ def write_json(path: Path, data: dict[str, Any]) -> None:
 class TokenProvider:
     def __init__(self, auth_mode: str = "auto", token_suffix: str = "") -> None:
         self.auth_mode = auth_mode
+        self.token_suffix = token_suffix
         suffix = f"_{token_suffix}" if token_suffix else ""
+        self.env_suffix = suffix
         self.access_token = os.environ.get(f"X_USER_ACCESS_TOKEN{suffix}", "").strip()
         self.refresh_token = os.environ.get(f"X_REFRESH_TOKEN{suffix}", "").strip()
         self.client_id = os.environ.get(f"X_CLIENT_ID{suffix}", "").strip()
         self.client_secret = os.environ.get(f"X_CLIENT_SECRET{suffix}", "").strip()
         if token_suffix and not self.access_token and not self.refresh_token:
+            self.env_suffix = ""
             self.access_token = os.environ.get("X_USER_ACCESS_TOKEN", "").strip()
             self.refresh_token = os.environ.get("X_REFRESH_TOKEN", "").strip()
             self.client_id = os.environ.get("X_CLIENT_ID", "").strip()
@@ -146,11 +149,23 @@ class TokenProvider:
 
         new_refresh = payload.get("refresh_token")
         if new_refresh and new_refresh != self.refresh_token:
-            print(
-                "::warning::X returned a rotated refresh token. Update the "
-                "X_REFRESH_TOKEN repository secret if later runs start failing.",
-                file=sys.stderr,
-            )
+            state_file = os.environ.get("X_TOKEN_STATE_FILE", "").strip()
+            secret_key = f"X_REFRESH_TOKEN{self.env_suffix}"
+            if state_file:
+                with open(state_file, "a", encoding="utf-8") as f:
+                    f.write(f"{secret_key}={new_refresh}\n")
+                print(
+                    f"::notice::Rotated {secret_key}; queued for secret update.",
+                    file=sys.stderr,
+                )
+            else:
+                print(
+                    f"::warning::X returned a rotated refresh token for {secret_key}. "
+                    "Update the GH secret manually, or set X_TOKEN_STATE_FILE so a "
+                    "post-step can persist it.",
+                    file=sys.stderr,
+                )
+            self.refresh_token = new_refresh
         token = payload.get("access_token")
         if not token:
             raise SystemExit(f"X token refresh returned no access_token: {payload}")
