@@ -379,6 +379,11 @@ def should_fetch_link(url: str) -> bool:
     if parsed.scheme not in {"http", "https"}:
         return False
     host = parsed.netloc.lower()
+    path = parsed.path or ""
+    # X long-form articles have real article body content — let them through so
+    # CF Browser Rendering can pull the markdown. Other X URLs are still skipped.
+    if ("x.com" in host or "twitter.com" in host) and "/article/" in path:
+        return True
     if any(domain in host for domain in ["x.com", "twitter.com", "t.co", "pic.x.com"]):
         return False
     return True
@@ -784,17 +789,21 @@ def update_thread_urls(
     return threads
 
 
-_X_ARTICLE_URL_RE = re.compile(
-    r'^https?://(?:www\.)?(?:x\.com|twitter\.com)/(?:[^/]+/article/(\d+)|i/article/(\d+))',
+_X_USER_ARTICLE_URL_RE = re.compile(
+    r'^https?://(?:www\.)?(?:x\.com|twitter\.com)/[^/i][^/]*/article/(\d+)',
     re.IGNORECASE,
 )
 
 
 def extract_x_article_id(url: str) -> str | None:
-    m = _X_ARTICLE_URL_RE.match(url)
-    if not m:
-        return None
-    return m.group(1) or m.group(2)
+    """Return the tweet id for an X long-form article URL whose path is
+    /<username>/article/<tweet_id>. The /i/article/<opaque_id> form is *not*
+    handled here because the trailing id is X's internal article id, not the
+    tweet id - those URLs are instead routed through the linked-content path
+    so CF Browser Rendering can pull the article body directly.
+    """
+    m = _X_USER_ARTICLE_URL_RE.match(url)
+    return m.group(1) if m else None
 
 
 def fetch_referenced_x_articles(
@@ -820,7 +829,6 @@ def fetch_referenced_x_articles(
         if len(needed) >= max_fetches:
             break
 
-    print(f"::notice::Referenced articles needing fetch: {len(needed)}", file=sys.stderr)
     for start in range(0, len(needed), 100):
         chunk = needed[start : start + 100]
         params = {
@@ -830,18 +838,11 @@ def fetch_referenced_x_articles(
             "user.fields": USER_FIELDS,
             "media.fields": MEDIA_FIELDS,
         }
-        print(f"::notice::Fetching article batch [{start}:{start+len(chunk)}]", file=sys.stderr)
         try:
             payload = api_get("/tweets", params, tokens)
         except RuntimeError as e:
             print(f"::warning::Referenced article fetch failed for batch: {e}", file=sys.stderr)
             continue
-        data_count = len(payload.get("data") or [])
-        err_count = len(payload.get("errors") or [])
-        print(f"::notice::Batch returned data={data_count} errors={err_count}", file=sys.stderr)
-        if err_count and not data_count:
-            sample_err = (payload.get("errors") or [{}])[0]
-            print(f"::notice::Sample error: {json.dumps(sample_err)[:300]}", file=sys.stderr)
         for user in payload.get("includes", {}).get("users", []):
             users[user["id"]] = user
         media_map = {
