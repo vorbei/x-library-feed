@@ -4,6 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>X Bookmarks + Favorites</title>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
 <style>
   :root {
     color-scheme: light dark;
@@ -106,7 +108,16 @@
   .excerpt { color: var(--muted); margin-top: 6px; white-space: pre-wrap; }
   details { margin-top: 8px; }
   details summary { cursor: pointer; color: var(--link); font-size: 13px; }
-  details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--muted); white-space: pre-wrap; }
+  details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--fg); }
+  .md-body { font-size: 14px; line-height: 1.6; max-height: 460px; overflow-y: auto; }
+  .md-body p { margin: 0 0 8px; }
+  .md-body h1, .md-body h2, .md-body h3 { font-size: 15px; margin: 12px 0 6px; }
+  .md-body ul, .md-body ol { margin: 0 0 8px; padding-left: 20px; }
+  .md-body img { max-width: 100%; border-radius: 4px; margin: 6px 0; }
+  .md-body a { color: var(--link); word-break: break-word; }
+  .md-body blockquote { margin: 8px 0; padding: 4px 12px; border-left: 2px solid var(--border); color: var(--muted); }
+  .md-body code { background: var(--accent); padding: 1px 4px; border-radius: 3px; font-size: 13px; }
+  .md-body pre { background: var(--accent); padding: 8px 12px; border-radius: 4px; overflow-x: auto; }
   .metrics { color: var(--muted); font-size: 12px; margin-top: 10px; }
   .view-on-x { font-size: 12px; color: var(--link); text-decoration: none; }
   a { color: var(--link); }
@@ -139,6 +150,45 @@ const linkify = s => esc(s).replace(urlRE, u => {
   return `<a href="${clean}" target="_blank" rel="noopener">${clean}</a>${trailing}`;
 });
 
+// Pull all ![](url) and [](url) image URLs out of markdown so they can be
+// promoted into the gallery. Returns {urls: [], stripped: markdownWithoutImages}.
+function extractMarkdownImages(md) {
+  const urls = [];
+  const stripped = String(md || "").replace(/!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g, (_, u) => {
+    // Skip svg emoji + tiny X chrome assets
+    if (/abs\.twimg\.com\/emoji\//.test(u)) return "";
+    urls.push(u);
+    return "";
+  });
+  return { urls, stripped };
+}
+
+// Drop X navigation noise that always shows up in CF-rendered article markdown
+function cleanArticleMarkdown(md) {
+  return String(md || "")
+    .replace(/##\s*\n+\s*To view keyboard shortcuts[^\n]*\n+(\[View keyboard shortcuts\][^\n]*\n+)?/g, "")
+    .replace(/\[View keyboard shortcuts\]\([^)]+\)\n*/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+const mdRenderer = window.marked && new window.marked.Renderer
+  ? new window.marked.Renderer()
+  : null;
+if (window.marked) {
+  marked.setOptions({ breaks: true, gfm: true });
+}
+
+function renderMarkdown(md) {
+  if (!md) return "";
+  if (!window.marked) return esc(md).replace(/\n/g, "<br/>");
+  const html = marked.parse(md);
+  if (window.DOMPurify) {
+    return DOMPurify.sanitize(html, { ADD_ATTR: ["target"] });
+  }
+  return html;
+}
+
 function renderItem(item, refArticles) {
   const a = item.author || {};
   const name = esc(a.name || a.username || "unknown");
@@ -150,13 +200,22 @@ function renderItem(item, refArticles) {
   // Collect images first so we can decide layout
   const seen = new Set();
   const images = [];
-  for (const u of (item.image_urls || [])) {
-    if (!seen.has(u)) { seen.add(u); images.push(u); }
-  }
+  const pushImage = u => {
+    if (u && !seen.has(u)) { seen.add(u); images.push(u); }
+  };
+  for (const u of (item.image_urls || [])) pushImage(u);
   for (const lc of (item.linked_content || [])) {
-    for (const u of (lc.image_urls || [])) {
-      if (!seen.has(u)) { seen.add(u); images.push(u); }
-    }
+    for (const u of (lc.image_urls || [])) pushImage(u);
+    // Pull images out of the CF markdown text too
+    for (const u of extractMarkdownImages(lc.text_excerpt).urls) pushImage(u);
+  }
+  // Referenced X articles - their CF body markdown often has the cover image
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
+    const ref = m ? refArticles[m[1]] : null;
+    if (!ref) continue;
+    for (const u of (ref.image_urls || [])) pushImage(u);
+    for (const u of extractMarkdownImages(ref.article_text || "").urls) pushImage(u);
   }
 
   const hasImages = images.length > 0;
@@ -176,7 +235,8 @@ function renderItem(item, refArticles) {
     const title = esc(item.article_title || item.article_url);
     html += `<div class="ref-article"><div class="lbl">📄 X Article (own)</div><a href="${esc(item.article_url)}" target="_blank">${title}</a>`;
     if (item.article_text) {
-      html += `<details><summary>Show full article (${item.article_text.length.toLocaleString()} chars)</summary><div>${esc(item.article_text)}</div></details>`;
+      const body = renderMarkdown(cleanArticleMarkdown(extractMarkdownImages(item.article_text).stripped));
+      html += `<details><summary>Show full article (${item.article_text.length.toLocaleString()} chars)</summary><div class="md-body">${body}</div></details>`;
     }
     html += `</div>`;
   }
@@ -197,7 +257,9 @@ function renderItem(item, refArticles) {
     const bodyText = articleText || tweetText;
     if (bodyText) {
       const lbl = isArticle ? "Show full article" : "Show tweet text";
-      html += `<details${isArticle ? "" : " open"}><summary>${lbl} (${bodyText.length.toLocaleString()} chars)</summary><div>${esc(bodyText)}</div></details>`;
+      const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(bodyText).stripped) : bodyText;
+      const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+      html += `<details${isArticle ? "" : " open"}><summary>${lbl} (${bodyText.length.toLocaleString()} chars)</summary><div class="md-body">${rendered}</div></details>`;
     }
     html += `</div>`;
   }
@@ -207,12 +269,21 @@ function renderItem(item, refArticles) {
     const u = lc.final_url || lc.url || "";
     if (!u || images.includes(u)) continue;
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
-    const title = esc(lc.title || lc.description || u);
+    const isXArticle = /(?:x\.com|twitter\.com)\/.*\/article\//i.test(u);
+    const rawTitle = lc.title || lc.description;
+    const showTitleAsLink = rawTitle && rawTitle.trim() && rawTitle.trim() !== u;
+    const titleHtml = showTitleAsLink ? esc(rawTitle) : esc(u);
     html += `<div class="linked"><div class="lbl">🔗 Linked content</div>`;
-    html += `<a class="linked-title" href="${esc(u)}" target="_blank">${title}</a>`;
+    html += `<a class="linked-title" href="${esc(u)}" target="_blank">${titleHtml}</a>`;
     if (lc.text_excerpt) {
-      const txt = lc.text_excerpt.length > 600 ? lc.text_excerpt.slice(0, 600) + "…" : lc.text_excerpt;
-      html += `<div class="excerpt">${esc(txt)}</div>`;
+      const text = lc.text_excerpt;
+      const cleaned = isXArticle
+        ? cleanArticleMarkdown(extractMarkdownImages(text).stripped)
+        : text;
+      // X article markdown is rich → render as HTML. Other extractions are
+      // plain-text excerpts → just linkify.
+      const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+      html += `<details><summary>Show extracted content (${text.length.toLocaleString()} chars)</summary><div class="md-body">${rendered}</div></details>`;
     }
     html += `</div>`;
   }
