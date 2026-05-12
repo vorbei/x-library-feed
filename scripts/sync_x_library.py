@@ -1108,9 +1108,18 @@ def main() -> None:
     write_markdown(md_path, store)
     write_rss(rss_path, store, args.public_base_url)
 
-    archive_path = archive_dir / f"{utc_now().date().isoformat()}.md"
-    write_markdown(archive_path, store)
-    print(f"Wrote {md_path}, {json_path}, {rss_path}, and {archive_path}")
+    today_iso = utc_now().date().isoformat()
+    todays_items = [
+        item for item in store["items"]
+        if (item.get("first_seen_at") or "")[:10] == today_iso
+    ]
+    todays_store = {**store, "items": todays_items}
+    archive_path = archive_dir / f"{today_iso}.md"
+    write_markdown(archive_path, todays_store)
+    print(
+        f"Wrote {md_path}, {json_path}, {rss_path}, and "
+        f"{archive_path} ({len(todays_items)} items first-seen today)"
+    )
 
 
 if __name__ == "__main__":
