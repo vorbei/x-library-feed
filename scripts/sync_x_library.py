@@ -1386,6 +1386,7 @@ def write_rss(path: Path, store: dict[str, Any], public_base_url: str) -> None:
 
 
 def main() -> None:
+    import sys as _sys; print("::notice::sync.py main() entered", file=_sys.stderr, flush=True)
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--account", action="append", default=[], help="Account as user_id:username:xurl_user[:token_suffix]. Can be repeated.")
     parser.add_argument("--user-id", default=os.environ.get("X_USER_ID", ""), help="Legacy single-account user id.")
@@ -1443,7 +1444,7 @@ def main() -> None:
                 tweet["_source"] = f"{source}@{account['username']}"
             all_tweets.extend(tweets)
             all_users.update(users)
-            print(f"Fetched {len(tweets)} {source} tweets for @{account['username']}")
+            print(f"Fetched {len(tweets)} {source} tweets for @{account['username']}", flush=True)
 
     items = merge_items(existing.get("items") or [], all_tweets, all_users, now)
     thread_urls = existing.get("thread_urls_by_conversation") or {}
