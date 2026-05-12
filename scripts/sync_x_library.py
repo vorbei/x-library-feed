@@ -395,7 +395,7 @@ CF_API_BASE = "https://api.cloudflare.com/client/v4"
 TEXT_USEFUL_MIN_CHARS = 200
 
 
-def _x_cookies_for_cf() -> list[dict[str, str]] | None:
+def _x_cookies_for_cf() -> list[dict[str, Any]] | None:
     raw = os.environ.get("X_COOKIES_JSON", "").strip()
     if not raw:
         return None
@@ -405,7 +405,7 @@ def _x_cookies_for_cf() -> list[dict[str, str]] | None:
         return None
     if not isinstance(parsed, list) or not parsed:
         return None
-    normalised: list[dict[str, str]] = []
+    normalised: list[dict[str, Any]] = []
     for c in parsed:
         if not isinstance(c, dict):
             continue
@@ -413,14 +413,17 @@ def _x_cookies_for_cf() -> list[dict[str, str]] | None:
         value = c.get("value")
         if not name or not value:
             continue
-        normalised.append(
-            {
-                "name": str(name),
-                "value": str(value),
-                "domain": str(c.get("domain") or ".x.com"),
-                "path": str(c.get("path") or "/"),
-            }
-        )
+        entry: dict[str, Any] = {
+            "name": str(name),
+            "value": str(value),
+            "domain": str(c.get("domain") or ".x.com"),
+            "path": str(c.get("path") or "/"),
+            "secure": True,
+            "sameSite": "None",
+        }
+        if str(name) == "auth_token":
+            entry["httpOnly"] = True
+        normalised.append(entry)
     return normalised or None
 
 
