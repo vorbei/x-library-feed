@@ -4,7 +4,7 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Tue, 12 May 2026 06:39:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 06:45:51 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-12.md</docs>
     <item>
@@ -61,7 +61,7 @@ Linked content:
 Tweet: https://x.com/larsencc/status/2053862900289470765
 X article: https://x.com/larsencc/article/2053862900289470765
 X article text:
-We open-sourced browser-use so anyone can run a browser agent locally with a few lines of Python. Running millions of those agents in production with retries, timeouts, screenshots, audit trails, and billing requires infrastructure that took us 4,000+ commits to get right. This post is the architecture we use in production. If you want to run browser-use at scale in your own infrastructure, this is a good starting point. x What the open-source library gives you The Agent class is the unit of work. You pass it a task, an LLM, and a BrowserSession. On each step it takes a screenshot and extracts the DOM in parallel, sends both to the LLM to decide the next action, executes that action, and repeats until the task is done. from browser_use import Agent, BrowserSession agent = Agent( task="Book a table for two at the closest sushi place", llm=ChatAnthropic(model="claude-sonnet-4-6"), browser_session=BrowserSession(), ) result = await agent.run() This is the one method call we make in production. That's the entire open-source library. Everything else in this post, the queues, the workers, the state management, the retry logic, is the infrastructure we built around it. The architecture The API is a FastAPI service on ECS Fargate. It accepts task creation requests, validates them, writes a row to the database, drops a message on SQS, and returns HTTP 202. Behind it is a standard SQS queue with one message per agent run carrying the task ID and execution config. No ordering, no deduplication, no separate queue per workload type since agent tasks are independent of each other. The worker is an AWS Lambda function with from browser_use import Agent at the top. It pulls messages off SQS, instantiates the agent, runs it to completion, and writes results to S3. The complexity is in how each piece handles failure. API entry The handler validates the payload, creates session and task rows in the database, commits, sends an SQS message, and returns HTTP 202 with the task ID in...
+We open-sourced browser-use so anyone can run a browser agent locally with a few lines of Python. Running millions of those agents in production with retries, timeouts, screenshots, audit trails, and billing requires infrastructure that took us 4,000+ commits to get right. This post is the architecture we use in production. If you want to run browser-use at scale in your own infrastructure, this is a good starting point. What the open-source library gives you The Agent class is the unit of work. You pass it a task, an LLM, and a BrowserSession. On each step it takes a screenshot and extracts the DOM in parallel, sends both to the LLM to decide the next action, executes that action, and repeats until the task is done. This is the one method call we make in production. That's the entire open-source library. Everything else in this post, the queues, the workers, the state management, the retry logic, is the infrastructure we built around it. The architecture The API is a FastAPI service on ECS Fargate. It accepts task creation requests, validates them, writes a row to the database, drops a message on SQS, and returns HTTP 202. Behind it is a standard SQS queue with one message per agent run carrying the task ID and execution config. No ordering, no deduplication, no separate queue per workload type since agent tasks are independent of each other. The worker is an AWS Lambda function with `from browser_use import Agent` at the top. It pulls messages off SQS, instantiates the agent, runs it to completion, and writes results to S3. The complexity is in how each piece handles failure. API entry The handler validates the payload, creates session and task rows in the database, commits, sends an SQS message, and returns HTTP 202 with the task ID in under 50 milliseconds. The work hasn't started yet. The queue layer We use a single standard SQS queue for all agent runs. We tried per-customer queues and priority-based routing early on but none of it improved throughput and...
 Primary URLs:
 - https://x.com/i/article/2053670943973916672</description>
     </item>
@@ -256,7 +256,8 @@ Primary URLs:
 
 Tweet: https://x.com/tuturetom/status/2047657478997811685
 Primary URLs:
-- https://twitter.com/jackywine/status/2046815560735076469</description>
+- https://twitter.com/jackywine/status/2046815560735076469
+- https://twitter.com/Jackywine/status/2046815560735076469</description>
     </item>
     <item>
       <title>@coreyhainesco: Marketing Skills v1.9.0 is out. What shipped: 🆕 /image — AI image generation for...</title>
@@ -289,7 +290,8 @@ Linked content:
 
 Tweet: https://x.com/RameshNivedita/status/2047752161245941835
 Primary URLs:
-- https://twitter.com/jayagup10/status/2047508230813917600</description>
+- https://twitter.com/jayagup10/status/2047508230813917600
+- https://twitter.com/JayaGup10/status/2047508230813917600</description>
     </item>
     <item>
       <title>@stevehou: Good explainer https://t.co/tGeXkO9p9o</title>
@@ -406,7 +408,8 @@ Linked content:
 
 Tweet: https://x.com/rtk17025/status/2047584334392291570
 Primary URLs:
-- https://twitter.com/ctrl_alt_zaid/status/2046902326657749114</description>
+- https://twitter.com/ctrl_alt_zaid/status/2046902326657749114
+- https://twitter.com/Ctrl_Alt_Zaid/status/2046902326657749114</description>
     </item>
     <item>
       <title>@akshay_pachaar: https://t.co/LLvSoQyQaP</title>
@@ -1672,7 +1675,10 @@ X article: https://x.com/RealHanyaHu/article/2053619515871863211
 X article text:
 我想中转站为什么存在，基本上中推用户不需要再被教育。 对中国大陆开发者来说，现实门槛通常有三层。 第一层是网络和地区限制，第二层是支付和账单限制，第三层是账号和身份验证限制，而需求却是真实存在的。 很多开发者、学生、创业者、企业团队都想用 Claude、GPT、Gemini。官方路径不顺畅，中转站就成了一种一站式解决方案。 这里我没有义务教育你不要用，本文只想教你避坑。请先看以下三大巨坑： 巨坑一：充值归零 有些中转站的价格低到不正常。 Zilan Qian 的调查提到，中国中转站可以把 Claude token 卖到官方价格的 一折，甚至更低。 这个价格怎么做到？这是一条非常模块化的上游供应链。 请看下图 一个 200 美元的 Claude Max 订阅，可以被拆成多个用户的使用额度，按小时、按 token、按并发重新售卖。 当然，还有更灰的来源：盗刷信用卡、盗用账号、虚假身份验证。 对中转站运营者来说，这只是成本模型的一部分。账号被封，换一批。卡被风控，再找一批。代理节点失效，再切一批。 对普通用户来说，这意味着你的预充值余额没有真正保障。 你今天充进去的钱，可能明天因为上游账号池被封而消失。 没有退款、没有客服、没有合同、没有可追责的公司主体。 巨坑二：掺水 这CISPA 研究团队进行了直接测试。 他们识别了 17 个 shadow API 服务，其中一些已经出现在 187 篇学术论文的代码或实验流程里。研究团队进一步选取代表性服务做审计，测试它们声称提供的模型是否真的接近官方 API。 结果显示，一些中转服务存在严重的模型能力偏差。 最典型的例子是 Gemini 2.5 flash。 官方 API 在 MedQA 医学基准上的表现接近 83.82%，而通过某些 shadow API 调用时，平均只有大约 37%。 这不是小误差，这是模型能力断崖式下降。 论文还通过模型指纹和元数据分析发现，一些服务会把用户请求偷偷路由到更便宜的模型，然后在返回结果里继续显示用户以为自己调用的模型名称。 你请求的是 GPT、Gemini 或 Claude 的高级模型。 实际响应你的，可能是低配模型，也可能是别的开源或国产模型。 比如说，Claude与Minimax相比，价格差了17倍左右。 对普通用户来说，这等于花钱买了假货。 对开发者来说，风险更大。 你以为产品已经经过旗舰模型验证，实际上它可能从来没有真正跑过旗舰模型，这样，你的评测、产品判断、用户体验，全都被污染了。 巨坑3: 隐私泄漏 中转站作为代理服务，架在你和 AI 公司之间。你的请求先到中转站服务器，再转发给上游模型。模型的回答先回到中转站服务器，再回到你这里。 所以中转站从结构上就可以看到完整流量。 你的 prompt、system prompt、上下文、文件内容、代码、用户数据、型的输出、Agent 的调用过程，全部都会经过它的服务器。 Zilan Qian 在调查里写到，低价 API 访问本身可能只是获客方式，真正有价值的是日志。 因为这些日志可以被打包成训练数据，尤其是 Claude Code、Cursor、Codex、各类 Agent 工作流产生的数据，价值很高。 里面有真实工程任务、仓库上下文、人类修改后的正确答案、代码调试过程、产品需求、系统设计、业务逻辑，这些东西对训练模型非常有用。 对个人用户来说，这是隐私问题，对创业公司来说，这是商业秘密问题。 你给模型看的系统提示词，可能是你产品最核心的逻辑。 你发给模型的客户数据，可能是你公司的资产。 你粘进去的代码，可能是你的技术壁垒。 你让 AI 分析的合同、融资材料、用户画像、财务表、内部会议纪要，都可能经过一个你不认识、没有签署数据处理协议、没有任何保密义务的中间商服务器。 你基本上在裸奔。 而他们，可能拿你的这些数据再去卖，也可能正在帮助别人训练模型。 哪些内容不要走中转站 公司内部资料 商业计划书、融资材料、财务表、合同、客户名单、会议纪要、运营数据，都不适合走中转站。 产品核心逻辑 系统提示词、Agent 工作流、数据库结构、API 设计、代码仓库、模型评测数据，都不适合走中转站。 个人敏感信息 身份证件、医疗记录、移民材料、税务信息、孩子信息、情感咨询、法律纠纷，都不适合走中转站。 总之你不希望被别人拿去训练模型、做竞品、做画像、做诈骗素材的内容，都不要发。 判断标准很简单：这段内容如果明天出现在别人手里，你会不会慌？ 几大危险信号 长期低价，乃至官方价格的一折，百分百有假。 2. 没有公司主体、隐私政策、数据处理协议、上游来源说明，要小心。 3. 承诺所有顶级模型都能用，速度快，价格低，永不封号，也要小心。 4. 要求你预充大量余额，八成要坑你。 5....
 Primary URLs:
-- https://x.com/i/article/2053609142984843264</description>
+- https://x.com/i/article/2053609142984843264
+- https://x.com/RealHanyaHu/status/2053897893271241184
+- https://x.com/RealHanyaHu/status/2053697766740877751
+- https://x.com/RealHanyaHu/status/2054003697777324376</description>
     </item>
     <item>
       <title>@LipuAIX: 告别“翻译腔”！让 AI 翻译真正“说人话”的终极提示词 受够了 AI 生硬别扭的“翻译腔”？明明意思对了，读起来就是不像中文？...</title>
