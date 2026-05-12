@@ -4,7 +4,7 @@
     <title>X Bookmarks + Favorites</title>
     <link>https://raw.githubusercontent.com/vorbei/x-library-feed/main/public/x-bookmarks-favorites.md</link>
     <description>Hourly generated X bookmarks and favorites feed.</description>
-    <lastBuildDate>Tue, 12 May 2026 07:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 07:17:46 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://raw.githubusercontent.com/vorbei/x-library-feed/main/rss.xml" rel="self" type="application/rss+xml" />
     <docs>https://raw.githubusercontent.com/vorbei/x-library-feed/main/archive/x-bookmarks-favorites/2026-05-12.md</docs>
     <item>
@@ -61,7 +61,7 @@ Linked content:
 Tweet: https://x.com/larsencc/status/2053862900289470765
 X article: https://x.com/larsencc/article/2053862900289470765
 X article text:
-We open-sourced browser-use so anyone can run a browser agent locally with a few lines of Python. Running millions of those agents in production with retries, timeouts, screenshots, audit trails, and billing requires infrastructure that took us 4,000+ commits to get right. This post is the architecture we use in production. If you want to run browser-use at scale in your own infrastructure, this is a good starting point. What the open-source library gives you The Agent class is the unit of work. You pass it a task, an LLM, and a BrowserSession. On each step it takes a screenshot and extracts the DOM in parallel, sends both to the LLM to decide the next action, executes that action, and repeats until the task is done. This is the one method call we make in production. That's the entire open-source library. Everything else in this post, the queues, the workers, the state management, the retry logic, is the infrastructure we built around it. The architecture The API is a FastAPI service on ECS Fargate. It accepts task creation requests, validates them, writes a row to the database, drops a message on SQS, and returns HTTP 202. Behind it is a standard SQS queue with one message per agent run carrying the task ID and execution config. No ordering, no deduplication, no separate queue per workload type since agent tasks are independent of each other. The worker is an AWS Lambda function with `from browser_use import Agent` at the top. It pulls messages off SQS, instantiates the agent, runs it to completion, and writes results to S3. The complexity is in how each piece handles failure. API entry The handler validates the payload, creates session and task rows in the database, commits, sends an SQS message, and returns HTTP 202 with the task ID in under 50 milliseconds. The work hasn't started yet. The queue layer We use a single standard SQS queue for all agent runs. We tried per-customer queues and priority-based routing early on but none of it improved throughput and...
+We open-sourced browser-use so anyone can run a browser agent locally with a few lines of Python. Running millions of those agents in production with retries, timeouts, screenshots, audit trails, and billing requires infrastructure that took us 4,000+ commits to get right. This post is the architecture we use in production. If you want to run browser-use at scale in your own infrastructure, this is a good starting point. x What the open-source library gives you The Agent class is the unit of work. You pass it a task, an LLM, and a BrowserSession. On each step it takes a screenshot and extracts the DOM in parallel, sends both to the LLM to decide the next action, executes that action, and repeats until the task is done. from browser_use import Agent, BrowserSession agent = Agent( task="Book a table for two at the closest sushi place", llm=ChatAnthropic(model="claude-sonnet-4-6"), browser_session=BrowserSession(), ) result = await agent.run() This is the one method call we make in production. That's the entire open-source library. Everything else in this post, the queues, the workers, the state management, the retry logic, is the infrastructure we built around it. The architecture The API is a FastAPI service on ECS Fargate. It accepts task creation requests, validates them, writes a row to the database, drops a message on SQS, and returns HTTP 202. Behind it is a standard SQS queue with one message per agent run carrying the task ID and execution config. No ordering, no deduplication, no separate queue per workload type since agent tasks are independent of each other. The worker is an AWS Lambda function with from browser_use import Agent at the top. It pulls messages off SQS, instantiates the agent, runs it to completion, and writes results to S3. The complexity is in how each piece handles failure. API entry The handler validates the payload, creates session and task rows in the database, commits, sends an SQS message, and returns HTTP 202 with the task ID in...
 Primary URLs:
 - https://x.com/i/article/2053670943973916672</description>
     </item>
@@ -216,7 +216,8 @@ Primary URLs:
 - http://x.com/i/article/2047858474739212288
 - https://designaccelerator.substack.com
 Linked content:
-- https://designaccelerator.substack.com: https://designaccelerator.substack.com</description>
+- https://designaccelerator.substack.com: https://designaccelerator.substack.com
+![](https://substackcdn.com/image/fetch/$s_!0h7j!,w_88,h_88,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90f036fc-0c6a-4548-9559-26e35bd16ed5_1280x1280.png) # Design Accelerator Fundamentals for designers who care about craft in the age of AI By Rico · Launched 2 months ago Subscribe By subscribing, you agree Substack's [Terms of Use](https://substack.com/tos), and acknowledge its [Information Collection...</description>
     </item>
     <item>
       <title>@xzdejz: 捣鼓了个小玩具：byob（Bring Your Own Browser） 简单说，就是把你本地已经登录好的 Chrome 给 Claude / Cursor / Cline...</title>
@@ -440,7 +441,8 @@ Primary URLs:
 - https://x.com/i/article/2047390708638810112
 - https://discord.gg/dekKpCj8
 Linked content:
-- Discord - Group Chat That’s All Fun &amp; Games Discord: https://discord.com/invite/dekKpCj8</description>
+- Discord - Group Chat That’s All Fun &amp; Games Discord: https://discord.com/invite/dekKpCj8
+You need to enable JavaScript to run this app.</description>
       <media:content url="https://cdn.discordapp.com/assets/og_img_discord_home.png" medium="image" />
     </item>
     <item>
@@ -1573,6 +1575,7 @@ Donate Investigative Journalism in the Public Interest Donate Search ProPublica 
 - 卧底记者回忆东南亚电诈园区经历|东南亚|王星|边境_新浪新闻: https://news.sina.com.cn/zx/gj/2025-01-10/doc-ineentrt5460883.shtml
 新浪首页 新闻 体育 财经 娱乐 科技 博客 图片 专栏 更多 汽车 教育 时尚 女性 星座 健康 房产 历史 视频 收藏 育儿 读书 佛学 游戏 旅游 邮箱 导航 移动客户端 新浪微博 新浪新闻 新浪财经 新浪体育 新浪众测 新浪博客 新浪视频 新浪游戏 天气通 我的收藏 注册 登录 新闻中心 正文 新闻 图片 视频 卧底记者回忆东南亚电诈园区经历 卧底记者回忆东南亚电诈园区经历 2025年01月09日 23:26 新浪新闻 缩小字体 放大字体 收藏 微博 微信 分享 0 腾讯QQ QQ空间 2025年1月3日，中国籍男演员王星前往泰国后失联。他本来是去参加一个“影视剧拍摄选角”活动，却遭遇了一场贩卖人口的骗局，被骗到电诈园区从事非法电诈活动。1月7日，王星被泰国警方救出，脱离了电诈集团的魔爪。他的遭遇，让我再次想起那段和电诈犯罪分子打交道的经历。 被救出后的王星。图片来源：泰国头条新闻 窄窄的莫艾河对岸，就是臭名昭著的KK园区...
 - https://zh.wikipedia.org/wiki/KK园区: https://zh.wikipedia.org/wiki/KK园区
+[跳转到内容](#bodyContent) 主菜单 主菜单 移至侧栏 隐藏 导航 * [首页](https://zh.wikipedia.org/wiki/KK%E5%9B%AD%E5%8C%BA/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 "访问首页​[z]") * [分类索引](https://zh.wikipedia.org/wiki/KK%E5%9B%AD%E5%8C%BA/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95 "以分类索引搜寻中文维基百科") * [特色内容](https://zh.wikipedia.org/wiki/KK%E5%9B%AD%E5%8C%BA/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9 "查看中文维基百科的特色内容") *...
 - Cyberfraud in the Mekong reaches inflection point, UNODC reveals: https://www.unodc.org/roseap/en/2025/04/cyberfraud-inflection-point-mekong/story.html
 Welcome to the United Nations United Nations UNODC Regional Office for Southeast Asia and the Pacific Site Search Search the site About us Regional Representative Vacancies Contact Us Our work World drug problem Drug Use Prevention Drug use treatment and re-integration Drug Use and HIV Sustainable alternative development Organized crime Drugs and precursors Human trafficking Smuggling of migrants Crimes that Affect the Environment Border management Anti-money laundering Cybercrime Corruption...
 - 2024 Pig Butchering Crypto Scam Revenue Grows 40% YoY as Industry Increases Sophistication: https://www.chainalysis.com/blog/2024-pig-butchering-scam-revenue-grows-yoy/
