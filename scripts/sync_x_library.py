@@ -449,6 +449,29 @@ def _cf_browser_rendering(url: str) -> dict[str, str] | None:
 
 
 def fetch_link_content(url: str) -> dict[str, Any]:
+    parsed_host = urllib.parse.urlparse(url).netloc.lower()
+    # X article pages are SPAs - urllib only gets the "enable JavaScript"
+    # shell, which trafilatura then "successfully" extracts. Skip straight to
+    # the CF Browser Rendering path so we capture the actual article body.
+    if "x.com" in parsed_host or "twitter.com" in parsed_host:
+        result: dict[str, Any] = {
+            "url": url,
+            "final_url": url,
+            "content_type": "",
+            "title": "",
+            "description": "",
+            "text_excerpt": "",
+            "image_urls": [],
+        }
+        cf = _cf_browser_rendering(url)
+        if cf:
+            if cf.get("text"):
+                result["text_excerpt"] = cf["text"][:MAX_TEXT_EXCERPT_CHARS]
+                result["extraction_source"] = "cf_browser_rendering"
+            elif cf.get("error"):
+                result["cf_fallback_error"] = cf["error"]
+        return result
+
     req = urllib.request.Request(
         url,
         headers={
