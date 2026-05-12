@@ -453,11 +453,22 @@ def _trafilatura_extract(markup: str, url: str) -> dict[str, str] | None:
     return {"text": body, "title": title or "", "description": description or ""}
 
 
+_CF_REAL_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+)
+
+
 def _cf_browser_rendering(url: str) -> dict[str, str] | None:
     if not (CF_ACCOUNT_ID and CF_API_TOKEN):
         return None
     endpoint = f"{CF_API_BASE}/accounts/{CF_ACCOUNT_ID}/browser-rendering/markdown"
-    body_dict: dict[str, Any] = {"url": url}
+    body_dict: dict[str, Any] = {
+        "url": url,
+        "userAgent": _CF_REAL_UA,
+        "bestAttempt": True,
+        "gotoOptions": {"waitUntil": "networkidle0", "timeout": 30000},
+    }
     parsed_host = urllib.parse.urlparse(url).netloc.lower()
     if "x.com" in parsed_host or "twitter.com" in parsed_host:
         cookies = _x_cookies_for_cf()
