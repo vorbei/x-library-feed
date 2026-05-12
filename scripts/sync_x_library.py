@@ -384,6 +384,65 @@ def should_fetch_link(url: str) -> bool:
     return True
 
 
+CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "").strip()
+CF_API_TOKEN = os.environ.get("CF_API_TOKEN", "").strip()
+CF_API_BASE = "https://api.cloudflare.com/client/v4"
+TEXT_USEFUL_MIN_CHARS = 200
+
+
+def _trafilatura_extract(markup: str, url: str) -> dict[str, str] | None:
+    try:
+        import trafilatura  # type: ignore
+    except ImportError:
+        return None
+    try:
+        record = trafilatura.bare_extraction(
+            markup,
+            url=url,
+            include_links=True,
+            include_comments=False,
+            favor_recall=True,
+            output_format="python",
+        )
+    except Exception:
+        return None
+    if not record:
+        return None
+    body = record.get("text") if isinstance(record, dict) else getattr(record, "text", None)
+    if not body:
+        return None
+    title = record.get("title") if isinstance(record, dict) else getattr(record, "title", None)
+    description = record.get("description") if isinstance(record, dict) else getattr(record, "description", None)
+    return {"text": body, "title": title or "", "description": description or ""}
+
+
+def _cf_browser_rendering(url: str) -> dict[str, str] | None:
+    if not (CF_ACCOUNT_ID and CF_API_TOKEN):
+        return None
+    endpoint = f"{CF_API_BASE}/accounts/{CF_ACCOUNT_ID}/browser-rendering/markdown"
+    body = json.dumps({"url": url}).encode("utf-8")
+    req = urllib.request.Request(
+        endpoint,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {CF_API_TOKEN}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        return {"error": f"{type(e).__name__}: {e}"[:300]}
+    if not payload.get("success"):
+        return {"error": str(payload.get("errors") or payload)[:300]}
+    text = (payload.get("result") or "").strip()
+    if not text:
+        return {"error": "empty result"}
+    return {"text": text}
+
+
 def fetch_link_content(url: str) -> dict[str, Any]:
     req = urllib.request.Request(
         url,
@@ -402,39 +461,58 @@ def fetch_link_content(url: str) -> dict[str, Any]:
         "text_excerpt": "",
         "image_urls": [],
     }
+    markup: str | None = None
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             final_url = resp.geturl()
             content_type = resp.headers.get("content-type", "")
             raw = resp.read(MAX_HTML_BYTES)
+        result["final_url"] = final_url
+        result["content_type"] = content_type
+        if content_type.lower().startswith("image/"):
+            result["image_urls"] = [final_url]
+            return result
+        if "html" in content_type.lower() or "xml" in content_type.lower():
+            charset_match = re.search(r"charset=([^;]+)", content_type, re.I)
+            encoding = charset_match.group(1).strip() if charset_match else "utf-8"
+            markup = raw.decode(encoding, "replace")
     except Exception as e:
         result["fetch_error"] = str(e)[:300]
-        return result
 
-    result["final_url"] = final_url
-    result["content_type"] = content_type
-    if content_type.lower().startswith("image/"):
-        result["image_urls"] = [final_url]
-        return result
-    if "html" not in content_type.lower() and "xml" not in content_type.lower():
-        return result
+    if markup is not None:
+        parser = PageExtractor(result["final_url"])
+        try:
+            parser.feed(markup)
+        except Exception as e:
+            result["fetch_error"] = f"HTML parse error: {e}"[:300]
+        result.update(
+            {
+                "title": html.unescape(parser.title).strip(),
+                "description": html.unescape(parser.description).strip(),
+                "text_excerpt": html.unescape(parser.text_excerpt()).strip(),
+                "image_urls": parser.images[:12],
+            }
+        )
+        extracted = _trafilatura_extract(markup, result["final_url"])
+        if extracted:
+            body = html.unescape(extracted["text"]).strip()
+            if len(body) > len(result["text_excerpt"]):
+                result["text_excerpt"] = body[:MAX_TEXT_EXCERPT_CHARS]
+                result["extraction_source"] = "trafilatura"
+            if extracted.get("title") and not result["title"]:
+                result["title"] = extracted["title"]
+            if extracted.get("description") and not result["description"]:
+                result["description"] = extracted["description"]
 
-    charset_match = re.search(r"charset=([^;]+)", content_type, re.I)
-    encoding = charset_match.group(1).strip() if charset_match else "utf-8"
-    markup = raw.decode(encoding, "replace")
-    parser = PageExtractor(final_url)
-    try:
-        parser.feed(markup)
-    except Exception as e:
-        result["fetch_error"] = f"HTML parse error: {e}"[:300]
-    result.update(
-        {
-            "title": html.unescape(parser.title).strip(),
-            "description": html.unescape(parser.description).strip(),
-            "text_excerpt": html.unescape(parser.text_excerpt()).strip(),
-            "image_urls": parser.images[:12],
-        }
-    )
+    if len(result.get("text_excerpt") or "") < TEXT_USEFUL_MIN_CHARS:
+        cf = _cf_browser_rendering(url)
+        if cf:
+            if cf.get("text") and len(cf["text"]) > len(result.get("text_excerpt") or ""):
+                result["text_excerpt"] = cf["text"][:MAX_TEXT_EXCERPT_CHARS]
+                result["extraction_source"] = "cf_browser_rendering"
+            elif cf.get("error"):
+                result["cf_fallback_error"] = cf["error"]
+
     return result
 
 
