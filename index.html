@@ -212,7 +212,7 @@ function renderItem(item, refArticles) {
   // Referenced X articles - their CF body markdown often has the cover image
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
-    const ref = m ? refArticles[m[1]] : null;
+    const ref = m ? lookupRef(m[1]) : null;
     if (!ref) continue;
     for (const u of (ref.image_urls || [])) pushImage(u);
     for (const u of extractMarkdownImages(ref.article_text || "").urls) pushImage(u);
@@ -244,7 +244,7 @@ function renderItem(item, refArticles) {
   // Referenced X tweets/articles (from primary_urls)
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
-    const ref = m ? refArticles[m[1]] : null;
+    const ref = m ? lookupRef(m[1]) : null;
     if (!ref) continue;
     const articleText = (ref.article_text || "").trim();
     const tweetText = (ref.text || "").trim();
@@ -316,8 +316,32 @@ function renderItem(item, refArticles) {
 
 let allItems = [];
 let refArticles = {};
+let itemsById = {};
 let currentFilter = "";
 let currentQuery = "";
+
+// Build a synthetic "referenced article" entry from one of our own items so
+// the viewer can render a body when the bookmark links to another tweet that
+// we also already have in the feed.
+function itemAsRef(it) {
+  if (!it) return null;
+  const a = it.author || {};
+  return {
+    id: it.id,
+    url: it.url || `https://x.com/${a.username || ""}/status/${it.id}`,
+    author: { username: a.username || "", name: a.name || "" },
+    text: it.text || "",
+    article_title: it.article_title || null,
+    article_text: it.article_text || "",
+    image_urls: it.image_urls || [],
+  };
+}
+
+function lookupRef(tid) {
+  if (refArticles[tid]) return refArticles[tid];
+  if (itemsById[tid]) return itemAsRef(itemsById[tid]);
+  return null;
+}
 
 function applyFilters() {
   const feed = document.getElementById("feed");
@@ -344,6 +368,7 @@ fetch(FEED_URL + "?t=" + Date.now())
   .then(data => {
     allItems = data.items || [];
     refArticles = data.referenced_articles_by_id || {};
+    itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     document.getElementById("meta").innerHTML =
       `${allItems.length} items · updated ${esc(updated)} · ` +
