@@ -784,6 +784,88 @@ def update_thread_urls(
     return threads
 
 
+_X_ARTICLE_URL_RE = re.compile(
+    r'^https?://(?:www\.)?(?:x\.com|twitter\.com)/(?:[^/]+/article/(\d+)|i/article/(\d+))',
+    re.IGNORECASE,
+)
+
+
+def extract_x_article_id(url: str) -> str | None:
+    m = _X_ARTICLE_URL_RE.match(url)
+    if not m:
+        return None
+    return m.group(1) or m.group(2)
+
+
+def fetch_referenced_x_articles(
+    items: list[dict[str, Any]],
+    existing: dict[str, dict[str, Any]],
+    tokens: TokenProvider,
+    users: dict[str, dict[str, Any]],
+    max_fetches: int,
+) -> dict[str, dict[str, Any]]:
+    refs = dict(existing)
+    own_ids = {it["id"] for it in items if it.get("id")}
+    needed: list[str] = []
+    seen_needed: set[str] = set()
+    for item in items:
+        for url in item.get("primary_urls") or []:
+            tid = extract_x_article_id(url)
+            if not tid or tid in refs or tid in own_ids or tid in seen_needed:
+                continue
+            seen_needed.add(tid)
+            needed.append(tid)
+            if len(needed) >= max_fetches:
+                break
+        if len(needed) >= max_fetches:
+            break
+
+    for start in range(0, len(needed), 100):
+        chunk = needed[start : start + 100]
+        params = {
+            "ids": ",".join(chunk),
+            "tweet.fields": TWEET_FIELDS,
+            "expansions": EXPANSIONS,
+            "user.fields": USER_FIELDS,
+            "media.fields": MEDIA_FIELDS,
+        }
+        try:
+            payload = api_get("/tweets", params, tokens)
+        except RuntimeError as e:
+            print(f"::warning::Referenced article fetch failed for batch: {e}", file=sys.stderr)
+            continue
+        for user in payload.get("includes", {}).get("users", []):
+            users[user["id"]] = user
+        media_map = {
+            m["media_key"]: m
+            for m in payload.get("includes", {}).get("media", [])
+            if m.get("media_key")
+        }
+        for tweet in payload.get("data") or []:
+            tweet["_media"] = [
+                media_map[k]
+                for k in (tweet.get("attachments") or {}).get("media_keys") or []
+                if k in media_map
+            ]
+            author = users.get(tweet.get("author_id") or "", {})
+            article = tweet.get("article") or {}
+            refs[tweet["id"]] = {
+                "id": tweet["id"],
+                "url": tweet_url(tweet["id"], users, tweet.get("author_id")),
+                "author": {
+                    "username": author.get("username", ""),
+                    "name": author.get("name", ""),
+                },
+                "text": clean_text(tweet),
+                "article_title": article.get("title"),
+                "article_text": html.unescape(article.get("plain_text") or "").strip(),
+                "image_urls": media_urls(tweet),
+                "fetched_at": iso_now(),
+            }
+        time.sleep(0.2)
+    return refs
+
+
 def update_linked_content(
     items: list[dict[str, Any]],
     existing_content: dict[str, dict[str, Any]],
@@ -963,7 +1045,11 @@ def _linkify(text: str) -> str:
     return "".join(parts).replace("\n", "<br/>")
 
 
-def render_item_html(item: dict[str, Any]) -> str:
+def render_item_html(
+    item: dict[str, Any],
+    referenced_articles: dict[str, dict[str, Any]] | None = None,
+) -> str:
+    referenced_articles = referenced_articles or {}
     author = item.get("author") or {}
     username = author.get("username") or "unknown"
     display_name = author.get("name") or username
@@ -990,12 +1076,46 @@ def render_item_html(item: dict[str, Any]) -> str:
         body = "<br/>".join(_html_escape_text(p) for p in article_text.split("\n") if p.strip())
         parts.append(f'<details><summary>X Article (full text)</summary><div>{body}</div></details>')
 
+    referenced_blocks: list[str] = []
+    referenced_extra_images: list[str] = []
+    for url in item.get("primary_urls") or []:
+        tid = extract_x_article_id(url)
+        if not tid:
+            continue
+        ref = referenced_articles.get(tid)
+        if not ref:
+            continue
+        ref_title = ref.get("article_title") or "X Article"
+        ref_author = (ref.get("author") or {}).get("username", "")
+        ref_url = ref.get("url") or url
+        ref_text = (ref.get("article_text") or "").strip()
+        header = (
+            f'<p>📄 Referenced X Article '
+            f'<a href="{_html_escape_text(ref_url)}">{_html_escape_text(ref_title)}</a>'
+            + (f' (@{_html_escape_text(ref_author)})' if ref_author else '')
+            + '</p>'
+        )
+        if ref_text:
+            body = "<br/>".join(_html_escape_text(p) for p in ref_text.split("\n") if p.strip())
+            referenced_blocks.append(
+                header
+                + f'<details><summary>Article full text</summary><div>{body}</div></details>'
+            )
+        else:
+            referenced_blocks.append(header)
+        for img in ref.get("image_urls") or []:
+            if img not in referenced_extra_images:
+                referenced_extra_images.append(img)
+
     image_urls = item.get("image_urls") or []
     linked_image_urls = []
     for linked in item.get("linked_content") or []:
         for url in linked.get("image_urls") or []:
             if url not in linked_image_urls and url not in image_urls:
                 linked_image_urls.append(url)
+    for img in referenced_extra_images:
+        if img not in image_urls and img not in linked_image_urls:
+            linked_image_urls.append(img)
     gallery = [*image_urls, *linked_image_urls][:8]
     if gallery:
         imgs = "".join(
@@ -1003,6 +1123,10 @@ def render_item_html(item: dict[str, Any]) -> str:
             for u in gallery
         )
         parts.append(f'<div>{imgs}</div>')
+
+    if referenced_blocks:
+        parts.append("<hr/>")
+        parts.extend(referenced_blocks)
 
     linked_content = item.get("linked_content") or []
     rendered_linked = []
@@ -1058,6 +1182,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
     markdown_url = f"{base}/public/x-bookmarks-favorites.md"
     archive_url = f"{base}/archive/x-bookmarks-favorites/{utc_now().date().isoformat()}.md"
     items = list(store.get("items") or [])[:max_items]
+    referenced_articles = store.get("referenced_articles_by_id") or {}
     updated = parse_datetime(store.get("updated_at"))
 
     lines = [
@@ -1123,7 +1248,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
             media_xml.append(f"      <media:content url=\"{escape(url)}\" medium=\"image\" />")
         author = item.get("author") or {}
         author_name = author.get("name") or author.get("username") or "unknown"
-        html_body = render_item_html(item).replace("]]>", "]]&gt;")
+        html_body = render_item_html(item, referenced_articles).replace("]]>", "]]&gt;")
         lines.extend(
             [
                 "    <item>",
@@ -1160,6 +1285,12 @@ def main() -> None:
     parser.add_argument("--public-base-url", default=os.environ.get("PUBLIC_BASE_URL", "https://vorbei.github.io/research-routine"))
     parser.add_argument("--auth-mode", choices=["auto", "oauth", "xurl"], default=os.environ.get("X_AUTH_MODE", "auto"))
     parser.add_argument("--max-linked-url-fetches", type=int, default=int(os.environ.get("X_LINKED_URL_MAX_FETCHES", "80")))
+    parser.add_argument(
+        "--max-referenced-article-fetches",
+        type=int,
+        default=int(os.environ.get("X_REFERENCED_ARTICLE_MAX_FETCHES", "100")),
+    )
+    parser.add_argument("--skip-referenced-articles", action="store_true")
     parser.add_argument("--skip-thread-urls", action="store_true")
     parser.add_argument("--skip-linked-content", action="store_true")
     args = parser.parse_args()
@@ -1217,6 +1348,12 @@ def main() -> None:
             items, linked_content, args.max_linked_url_fetches, thread_urls
         )
 
+    referenced_articles = existing.get("referenced_articles_by_id") or {}
+    if not args.skip_referenced_articles:
+        referenced_articles = fetch_referenced_x_articles(
+            items, referenced_articles, tokens, all_users, args.max_referenced_article_fetches
+        )
+
     store = {
         "schema_version": SCHEMA_VERSION,
         "updated_at": now,
@@ -1224,6 +1361,7 @@ def main() -> None:
         "items": items,
         "thread_urls_by_conversation": thread_urls,
         "linked_content_by_url": linked_content,
+        "referenced_articles_by_id": referenced_articles,
     }
     write_json(json_path, store)
     write_markdown(md_path, store)
