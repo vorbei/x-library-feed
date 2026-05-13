@@ -1127,11 +1127,36 @@ def render_markdown(store: dict[str, Any]) -> str:
 
 
 def clean_heading(text: str) -> str:
-    first_line = " ".join(text.strip().split())
+    # Strip standalone URLs so titles aren't dominated by raw status / article
+    # links when the tweet body is mostly a quote-link.
+    stripped = re.sub(r"https?://\S+", "", text or "")
+    first_line = " ".join(stripped.split())
     if not first_line:
         return ""
     first_line = first_line.replace("[", "").replace("]", "")
     return textwrap.shorten(first_line, width=90, placeholder="...")
+
+
+def best_item_title(item: dict[str, Any], referenced_articles: dict[str, dict[str, Any]]) -> str:
+    """Pick a meaningful title for an item: article title > referenced article
+    title > first sentence of tweet text > URL-only fallback."""
+    if item.get("article_title"):
+        return clean_heading(item["article_title"]) or item["article_title"]
+    text_part = clean_heading(item.get("text") or "")
+    if text_part:
+        return text_part
+    for url in item.get("primary_urls") or []:
+        tid = extract_x_article_id(url)
+        if tid:
+            ref = referenced_articles.get(tid)
+            if ref and ref.get("article_title"):
+                return clean_heading(ref["article_title"]) or ref["article_title"]
+            if ref and (ref.get("text") or "").strip():
+                return clean_heading(ref["text"])
+    primary = (item.get("primary_urls") or [""])[0]
+    if primary:
+        return clean_heading(primary)
+    return ""
 
 
 def write_markdown(path: Path, store: dict[str, Any]) -> None:
@@ -1191,7 +1216,13 @@ def render_item_html(
     article_text = (item.get("article_text") or "").strip()
     if article_text:
         body = "<br/>".join(_html_escape_text(p) for p in article_text.split("\n") if p.strip())
-        parts.append(f'<details><summary>X Article (full text)</summary><div>{body}</div></details>')
+        if len(article_text) <= 1500:
+            parts.append(f'<blockquote>{body}</blockquote>')
+        else:
+            parts.append(
+                f'<details><summary>X Article full text ({len(article_text):,} chars)</summary>'
+                + f'<div>{body}</div></details>'
+            )
 
     referenced_blocks: list[str] = []
     referenced_extra_images: list[str] = []
@@ -1217,11 +1248,20 @@ def render_item_html(
         body_text = ref_article_text or ref_tweet_text
         if body_text:
             body = "<br/>".join(_html_escape_text(p) for p in body_text.split("\n") if p.strip())
-            summary = "Article full text" if ref_article_text else "Tweet text"
-            referenced_blocks.append(
-                header
-                + f'<details><summary>{summary}</summary><div>{body}</div></details>'
-            )
+            # Short referenced tweets / short articles → inline directly so RSS
+            # readers that don't expand <details> still surface the content.
+            # Long article bodies stay collapsed to keep the feed compact.
+            if len(body_text) <= 1500:
+                referenced_blocks.append(
+                    header + f'<blockquote>{body}</blockquote>'
+                )
+            else:
+                summary = "Article full text" if ref_article_text else "Tweet text"
+                referenced_blocks.append(
+                    header
+                    + f'<details><summary>{summary} ({len(body_text):,} chars)</summary>'
+                    + f'<div>{body}</div></details>'
+                )
         else:
             referenced_blocks.append(header)
         for img in ref.get("image_urls") or []:
@@ -1323,7 +1363,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
     for item in items:
         author = item.get("author") or {}
         username = author.get("username") or "unknown"
-        title = clean_heading(item.get("text") or item.get("url") or item.get("id"))
+        title = best_item_title(item, referenced_articles)
         title = f"@{username}: {title}" if title else f"@{username}"
         item_url = item.get("url") or markdown_url
         guid = item.get("id") or item_url
