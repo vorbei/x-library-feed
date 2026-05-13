@@ -28,34 +28,94 @@
       --accent: #22262c;
     }
   }
-  html, body { background: var(--bg); color: var(--fg); }
+  html, body { background: var(--bg); color: var(--fg); height: 100%; }
   body {
-    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, sans-serif;
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, sans-serif;
     margin: 0;
-    padding: 24px 16px 64px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
   }
-  .wrap { max-width: 760px; margin: 0 auto; }
-  h1 { font-size: 22px; margin: 0 0 6px; }
-  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  /* Top bar */
+  .topbar {
+    flex: 0 0 auto;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+  }
+  .topbar h1 { font-size: 16px; margin: 0; margin-right: 8px; }
+  .meta { color: var(--muted); font-size: 12px; }
   .meta a { color: var(--muted); }
-  .filters {
-    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;
-    position: sticky; top: 0; padding: 10px 0;
-    background: var(--bg); z-index: 10; border-bottom: 1px solid var(--border);
-  }
-  .filters button {
+  .topbar button {
     border: 1px solid var(--border); background: var(--card); color: var(--fg);
-    padding: 6px 12px; border-radius: 999px; font-size: 13px; cursor: pointer;
+    padding: 5px 10px; border-radius: 999px; font-size: 12px; cursor: pointer;
   }
-  .filters button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .topbar button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
   .search {
-    flex: 1; min-width: 180px; padding: 6px 12px; font-size: 13px;
+    flex: 1; min-width: 160px; padding: 5px 10px; font-size: 12px;
     border: 1px solid var(--border); border-radius: 999px;
     background: var(--card); color: var(--fg);
   }
+  /* Two-pane layout */
+  .panes {
+    flex: 1; display: grid;
+    grid-template-columns: 380px 1fr;
+    min-height: 0;
+  }
+  .list-pane {
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    background: var(--bg);
+  }
+  .reader-pane {
+    overflow-y: auto;
+    padding: 24px 32px 80px;
+  }
+  .reader-pane .reader-inner { max-width: 760px; margin: 0 auto; }
+  @media (max-width: 900px) {
+    .panes { grid-template-columns: 1fr; }
+    .list-pane { display: block; border-right: none; }
+    .reader-pane { display: none; }
+    .panes.reading .list-pane { display: none; }
+    .panes.reading .reader-pane { display: block; }
+  }
+  /* List item rows */
+  .row {
+    display: grid; grid-template-columns: 1fr auto; column-gap: 10px;
+    padding: 12px 14px; border-bottom: 1px solid var(--border);
+    cursor: pointer; background: var(--bg);
+    transition: background 0.1s;
+  }
+  .row:hover { background: var(--accent); }
+  .row.selected { background: var(--accent); border-left: 3px solid var(--link); padding-left: 11px; }
+  .row .r-main { min-width: 0; }
+  .row .r-author { font-weight: 600; font-size: 13px; }
+  .row .r-author .handle { color: var(--muted); font-weight: 400; }
+  .row .r-title { font-size: 14px; line-height: 1.4; margin-top: 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: break-word; }
+  .row .r-meta { color: var(--muted); font-size: 11px; margin-top: 4px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .row .r-meta .src { padding: 1px 6px; border-radius: 4px; background: var(--accent); }
+  .row.selected .r-meta .src { background: var(--card); }
+  .row .r-thumb {
+    width: 56px; height: 56px; border-radius: 6px;
+    object-fit: cover; border: 1px solid var(--border);
+    align-self: center;
+  }
+  .reader-empty {
+    color: var(--muted); text-align: center;
+    padding: 80px 24px; font-size: 14px;
+  }
+  .back-btn {
+    display: none; margin-bottom: 16px; color: var(--link);
+    cursor: pointer; font-size: 13px; background: none; border: none; padding: 0;
+  }
+  @media (max-width: 900px) {
+    .back-btn { display: inline-block; }
+  }
   article.item {
     background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px 20px; margin-bottom: 16px;
+    border-radius: 12px; padding: 16px 20px;
     display: grid; gap: 16px;
     grid-template-columns: minmax(0, 1fr) 240px;
   }
@@ -109,7 +169,7 @@
   details { margin-top: 8px; }
   details summary { cursor: pointer; color: var(--link); font-size: 13px; }
   details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--fg); }
-  .md-body { font-size: 14px; line-height: 1.6; max-height: 460px; overflow-y: auto; }
+  .md-body { font-size: 14px; line-height: 1.6; max-height: 700px; overflow-y: auto; }
   .md-body p { margin: 0 0 8px; }
   .md-body h1, .md-body h2, .md-body h3 { font-size: 15px; margin: 12px 0 6px; }
   .md-body ul, .md-body ol { margin: 0 0 8px; padding-left: 20px; }
@@ -126,23 +186,28 @@
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="topbar">
   <h1>X Bookmarks + Favorites</h1>
-  <div class="meta" id="meta">Loading…</div>
-  <div class="filters">
-    <button data-source="" class="active">All</button>
-    <button data-source="bookmark@chumsdock">chumsdock bookmarks</button>
-    <button data-source="favorite@chumsdock">chumsdock favs</button>
-    <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
-    <button data-source="favorite@CatHanami97880">hanami favs</button>
-    <select id="lang" style="font-size:13px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--fg);">
-      <option value="auto">中文优先</option>
-      <option value="both">中英对照</option>
-      <option value="en">English only</option>
-    </select>
-    <input class="search" id="q" placeholder="Search text…" />
+  <span class="meta" id="meta">Loading…</span>
+  <button data-source="" class="active">All</button>
+  <button data-source="bookmark@chumsdock">chumsdock bookmarks</button>
+  <button data-source="favorite@chumsdock">chumsdock favs</button>
+  <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
+  <button data-source="favorite@CatHanami97880">hanami favs</button>
+  <select id="lang" style="font-size:12px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--fg);">
+    <option value="auto">中文优先</option>
+    <option value="both">中英对照</option>
+    <option value="en">English only</option>
+  </select>
+  <input class="search" id="q" placeholder="Search…" />
+</div>
+<div class="panes" id="panes">
+  <div class="list-pane" id="list"></div>
+  <div class="reader-pane" id="reader">
+    <div class="reader-inner">
+      <div class="reader-empty">Pick an item on the left ←</div>
+    </div>
   </div>
-  <div id="feed"></div>
 </div>
 
 <script>
@@ -378,9 +443,67 @@ function lookupRef(tid) {
   return null;
 }
 
-function applyFilters() {
-  const feed = document.getElementById("feed");
-  const filtered = allItems.filter(item => {
+let selectedId = null;
+let filteredItems = [];
+
+// Pick a short title for the list row, mirroring server-side best_item_title.
+function rowTitle(item) {
+  if (item.article_title) return item.article_title;
+  const stripped = (item.text || "").replace(/https?:\/\/\S+/g, "").trim();
+  if (stripped) return stripped;
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
+    const ref = m ? (refArticles[m[1]] || itemsById[m[1]]) : null;
+    if (ref) {
+      if (ref.article_title) return ref.article_title;
+      if (ref.text) return ref.text.replace(/https?:\/\/\S+/g, "").trim();
+    }
+  }
+  return (item.primary_urls || [])[0] || "(no text)";
+}
+
+function shortenSource(s) {
+  return s.replace("bookmark@", "🔖 ").replace("favorite@", "♥ ").replace("CatHanami97880", "hanami");
+}
+
+function renderRow(item) {
+  const a = item.author || {};
+  const name = esc(a.name || a.username || "?");
+  const handle = esc(a.username || "?");
+  const title = esc(rowTitle(item).slice(0, 220));
+  // Pick a thumbnail
+  let thumb = "";
+  for (const u of (item.image_urls || [])) {
+    if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
+  }
+  if (!thumb) {
+    for (const lc of (item.linked_content || [])) {
+      for (const u of (lc.image_urls || [])) {
+        if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
+      }
+      if (thumb) break;
+      const md = extractMarkdownImages(lc.text_excerpt || "").urls;
+      if (md.length) { thumb = md[0]; break; }
+    }
+  }
+  const sources = (item.sources || []).map(s => `<span class="src">${esc(shortenSource(s))}</span>`).join("");
+  const date = item.created_at ? new Date(item.created_at).toLocaleDateString() : "";
+  const sel = item.id === selectedId ? " selected" : "";
+  return (
+    `<div class="row${sel}" data-id="${esc(item.id)}">` +
+    `<div class="r-main">` +
+      `<div class="r-author">${name} <span class="handle">@${handle}</span></div>` +
+      `<div class="r-title">${title}</div>` +
+      `<div class="r-meta">${sources}<span>${esc(date)}</span></div>` +
+    `</div>` +
+    (thumb ? `<img class="r-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : "") +
+    `</div>`
+  );
+}
+
+function renderList() {
+  const list = document.getElementById("list");
+  filteredItems = allItems.filter(item => {
     if (currentFilter && !(item.sources || []).includes(currentFilter)) return false;
     if (currentQuery) {
       const haystack = ((item.text || "") + " " + (item.author?.name || "") + " " + (item.author?.username || "")).toLowerCase();
@@ -388,14 +511,50 @@ function applyFilters() {
     }
     return true;
   });
-  if (!filtered.length) {
-    feed.innerHTML = '<div id="empty">No matching items.</div>';
+  if (!filteredItems.length) {
+    list.innerHTML = '<div class="reader-empty">No matching items.</div>';
     return;
   }
-  feed.innerHTML = filtered.slice(0, 200).map(it => renderItem(it, refArticles)).join("");
-  if (filtered.length > 200) {
-    feed.innerHTML += `<div id="empty">… ${filtered.length - 200} more not shown</div>`;
+  list.innerHTML = filteredItems.slice(0, 500).map(renderRow).join("");
+  if (filteredItems.length > 500) {
+    list.innerHTML += `<div class="reader-empty">… ${filteredItems.length - 500} more not shown</div>`;
   }
+}
+
+function renderReader() {
+  const inner = document.querySelector(".reader-inner");
+  if (!selectedId) {
+    inner.innerHTML = '<div class="reader-empty">Pick an item on the left ←</div>';
+    return;
+  }
+  const item = itemsById[selectedId];
+  if (!item) {
+    inner.innerHTML = '<div class="reader-empty">Item not found</div>';
+    return;
+  }
+  inner.innerHTML =
+    `<button class="back-btn" id="back">← Back to list</button>` +
+    renderItem(item, refArticles);
+  inner.scrollTop = 0;
+  document.querySelector(".reader-pane").scrollTop = 0;
+  const back = document.getElementById("back");
+  if (back) back.addEventListener("click", () => {
+    document.getElementById("panes").classList.remove("reading");
+  });
+}
+
+function selectItem(id) {
+  selectedId = id;
+  for (const r of document.querySelectorAll(".row")) {
+    r.classList.toggle("selected", r.dataset.id === id);
+  }
+  document.getElementById("panes").classList.add("reading");
+  renderReader();
+}
+
+function applyFilters() {
+  renderList();
+  renderReader();
 }
 
 fetch(FEED_URL + "?t=" + Date.now())
@@ -406,19 +565,21 @@ fetch(FEED_URL + "?t=" + Date.now())
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     document.getElementById("meta").innerHTML =
-      `${allItems.length} items · updated ${esc(updated)} · ` +
-      `<a href="rss.xml">RSS</a> · ` +
-      `<a href="public/x-bookmarks-favorites.md">Markdown</a> · ` +
-      `<a href="public/x-bookmarks-favorites.json">JSON</a>`;
+      `${allItems.length} items · ${esc(updated)} · ` +
+      `<a href="rss.xml">RSS</a> · <a href="public/x-bookmarks-favorites.md">MD</a> · <a href="public/x-bookmarks-favorites.json">JSON</a>`;
     applyFilters();
   })
   .catch(err => {
-    document.getElementById("feed").innerHTML = '<div id="empty">Failed to load feed: ' + esc(err.message) + '</div>';
+    document.getElementById("list").innerHTML = '<div class="reader-empty">Failed to load feed: ' + esc(err.message) + '</div>';
   });
 
-for (const btn of document.querySelectorAll(".filters button")) {
+document.getElementById("list").addEventListener("click", e => {
+  const row = e.target.closest(".row");
+  if (row) selectItem(row.dataset.id);
+});
+for (const btn of document.querySelectorAll(".topbar button[data-source]")) {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".filters button").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".topbar button[data-source]").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     currentFilter = btn.dataset.source;
     applyFilters();
@@ -430,7 +591,28 @@ document.getElementById("q").addEventListener("input", e => {
 });
 document.getElementById("lang").addEventListener("change", e => {
   langMode = e.target.value;
-  applyFilters();
+  renderReader();
+});
+
+// Keyboard nav: j/k = next/prev, Escape = back to list (mobile)
+document.addEventListener("keydown", e => {
+  if (["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement?.tagName)) return;
+  if (e.key === "j" || e.key === "k") {
+    if (!filteredItems.length) return;
+    const idx = filteredItems.findIndex(it => it.id === selectedId);
+    let next = e.key === "j" ? idx + 1 : idx - 1;
+    if (next < 0) next = 0;
+    if (next >= filteredItems.length) next = filteredItems.length - 1;
+    const target = filteredItems[next];
+    if (target) {
+      selectItem(target.id);
+      const row = document.querySelector(`.row[data-id="${target.id}"]`);
+      if (row) row.scrollIntoView({ block: "nearest" });
+    }
+    e.preventDefault();
+  } else if (e.key === "Escape") {
+    document.getElementById("panes").classList.remove("reading");
+  }
 });
 </script>
 </body>
