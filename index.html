@@ -563,6 +563,20 @@ function icon(name, cls = "") {
   return `<svg class="${classes}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 }
 
+// Strip URLs that the summary pane already shows in another widget. The
+// /photo/N and /video/N URLs are stand-ins for tweet media we already render
+// in the gallery; pic.x.com / pic.twitter.com are the same idea. Removing
+// them keeps the body text focused on what the author actually wrote.
+function cleanTweetText(text) {
+  if (!text) return "";
+  return text
+    .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/\s]+\/status\/\d+\/(?:photo|video)\/\d+\b/gi, "")
+    .replace(/https?:\/\/pic\.(?:x|twitter)\.com\/\S+/gi, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 const linkify = s => esc(s).replace(urlRE, u => {
   const clean = u.replace(/[.,;:!?)]$/, "");
   const trailing = u.slice(clean.length);
@@ -676,8 +690,9 @@ function renderSummary(item, refArticles) {
   html += `</div>`;
   html += `<div class="sources">${sources}</div>`;
 
-  if (item.text) {
-    html += `<blockquote>${linkify(item.text)}</blockquote>`;
+  const cleanText = cleanTweetText(item.text);
+  if (cleanText) {
+    html += `<blockquote>${linkify(cleanText)}</blockquote>`;
   }
 
   // Brief teasers for content that lives in the full pane
@@ -686,16 +701,36 @@ function renderSummary(item, refArticles) {
     const t = esc(item.article_title || "X Article");
     teasers.push(`<div>${icon("file-text", "icon-sm")}<span>X Article: <a href="${esc(item.article_url)}" target="_blank">${t}</a></span></div>`);
   }
+  const seenRefIds = new Set();
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
-    const ref = m ? lookupRef(m[1]) : null;
+    if (!m) continue;
+    const refId = m[1];
+    // /photo/N and /video/N URLs point back at the current tweet's own media,
+    // not at a different referenced tweet — skip those self-references.
+    if (refId === item.id) continue;
+    if (seenRefIds.has(refId)) continue;
+    seenRefIds.add(refId);
+    const ref = lookupRef(refId);
     if (!ref) continue;
-    const isArticle = !!(ref.article_text || "").trim();
+    const refArticleText = (ref.article_text || "").trim();
+    const refTweetText = (ref.text || "").trim();
+    const isArticle = !!refArticleText;
+    // A bare tweet reference with no title and no body preview is just noise
+    // — the URL is already linkified in the body above and the full pane
+    // surfaces its body. Skip the teaser entirely in that case.
+    const hasTitle = !!(ref.article_title || "").trim();
+    if (!isArticle && !hasTitle && !refTweetText) continue;
     const refIcon = isArticle ? icon("file-text", "icon-sm") : icon("message", "icon-sm");
     const kind = isArticle ? "Article" : "Tweet";
-    const t = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
+    let label = ref.article_title;
+    if (!label && !isArticle && refTweetText) {
+      const stripped = refTweetText.replace(/https?:\/\/\S+/g, "").trim().replace(/\s+/g, " ");
+      label = stripped.slice(0, 80) + (stripped.length > 80 ? "…" : "");
+    }
+    if (!label) label = isArticle ? "X Article" : "X Tweet";
     const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
-    teasers.push(`<div>${refIcon}<span>Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${t}</a></span></div>`);
+    teasers.push(`<div>${refIcon}<span>Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${esc(label)}</a></span></div>`);
   }
   let linkCount = 0;
   for (const lc of linkedFor(item)) {
