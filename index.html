@@ -266,6 +266,15 @@
 
 <script>
 const FEED_URL = "public/x-bookmarks-favorites.json";
+// Phase 2: chunked layout. The viewer fetches the small index first so the
+// list pane paints instantly, then lazy-loads the per-window detail bundles
+// (article_text bodies, linked_content_by_url, referenced_articles_by_id)
+// off the critical path. The legacy non-chunked file is detected at load
+// time and handled inline.
+const FEED_DETAIL_BASE = "public/";
+let indexMeta = null;
+const loadedDetailWindows = new Set();
+const detailLoadPromises = {};
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 const urlRE = /https?:\/\/[^\s<>"']+/g;
@@ -936,6 +945,8 @@ function selectItem(id) {
   document.getElementById("panes").classList.add("reading");
   renderReader();
   startDwellTimer(id);
+  const item = itemsById[id];
+  if (item) ensureDetailForItem(item).catch(() => {});
 }
 
 function applyFilters() {
@@ -943,14 +954,79 @@ function applyFilters() {
   renderReader();
 }
 
+function mergeDetailBundle(bundle) {
+  if (!bundle) return;
+  const detailById = {};
+  for (const it of (bundle.items || [])) {
+    if (it && it.id) detailById[it.id] = it;
+  }
+  for (const it of allItems) {
+    const d = detailById[it.id];
+    if (!d) continue;
+    if (d.article_text != null) it.article_text = d.article_text;
+    if (d.article_text_zh != null) it.article_text_zh = d.article_text_zh;
+    if (d.article_text_zh_hash != null) it.article_text_zh_hash = d.article_text_zh_hash;
+  }
+  Object.assign(linkedByUrl, bundle.linked_content_by_url || {});
+  Object.assign(refArticles, bundle.referenced_articles_by_id || {});
+}
+
+function detailUrlFor(window) {
+  const filename = (indexMeta && indexMeta.detail_files && indexMeta.detail_files[window]) ||
+    (window === "recent" ? "feed-recent.json" : "feed-archive.json");
+  return FEED_DETAIL_BASE + filename;
+}
+
+function loadDetailWindow(window) {
+  if (loadedDetailWindows.has(window)) return Promise.resolve(null);
+  if (detailLoadPromises[window]) return detailLoadPromises[window];
+  detailLoadPromises[window] = fetch(detailUrlFor(window) + "?t=" + Date.now())
+    .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
+    .then(bundle => {
+      mergeDetailBundle(bundle);
+      loadedDetailWindows.add(window);
+      // Re-render the currently-open item so its full body shows up once
+      // detail arrives.
+      renderReader();
+      return bundle;
+    })
+    .catch(err => {
+      console.warn(`Failed to load ${window} detail bundle:`, err);
+      delete detailLoadPromises[window];  // allow retry on next click
+      throw err;
+    });
+  return detailLoadPromises[window];
+}
+
+function windowForItem(item) {
+  if (!indexMeta || !indexMeta.recent_cutoff_at) return "recent";
+  const ts = item.first_seen_at || item.last_seen_at || item.created_at || "";
+  return ts >= indexMeta.recent_cutoff_at ? "recent" : "archive";
+}
+
+function ensureDetailForItem(item) {
+  return loadDetailWindow(windowForItem(item));
+}
+
 Promise.all([
   fetch(FEED_URL + "?t=" + Date.now()).then(r => r.json()),
   loadUserState(),
 ])
   .then(([data]) => {
+    const isChunked = (data.format || "").toLowerCase() === "feed-index/1";
     allItems = data.items || [];
-    refArticles = data.referenced_articles_by_id || {};
-    linkedByUrl = data.linked_content_by_url || {};
+    if (isChunked) {
+      indexMeta = data;
+      refArticles = {};
+      linkedByUrl = {};
+    } else {
+      // Legacy single-file shape — still works.
+      indexMeta = null;
+      refArticles = data.referenced_articles_by_id || {};
+      linkedByUrl = data.linked_content_by_url || {};
+      loadedDetailWindows.add("recent");
+      loadedDetailWindows.add("archive");
+    }
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     const synced = STATE_URL ? " · synced" : " · local-only";
@@ -958,6 +1034,9 @@ Promise.all([
       `${allItems.length} items · ${esc(updated)}${synced} · ` +
       `<a href="rss.xml">RSS</a> · <a href="public/x-bookmarks-favorites.md">MD</a> · <a href="public/x-bookmarks-favorites.json">JSON</a>`;
     applyFilters();
+    // Kick off detail prefetch off the critical path. Recent first; archive
+    // only fires when the user actually opens an older item.
+    if (isChunked) loadDetailWindow("recent").catch(() => {});
   })
   .catch(err => {
     document.getElementById("list").innerHTML = '<div class="reader-empty">Failed to load feed: ' + esc(err.message) + '</div>';

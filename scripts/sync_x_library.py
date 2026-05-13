@@ -21,7 +21,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -1227,6 +1227,238 @@ def update_linked_content(
     return content
 
 
+# --- Phase 2: chunked JSON output -------------------------------------------
+#
+# The viewer used to fetch one ~8 MB JSON. With chunking we publish three
+# files: a small index for the list pane (all items, no heavy bodies), a
+# "recent" detail bundle for items first-seen in the last 30 days plus the
+# linked-content / referenced-article context they touch, and a matching
+# "archive" bundle for older items. Each detail bundle is self-contained so
+# the viewer can load it independently. See viewer entry point for the
+# fetch sequence (`index.html`'s onLoad handler).
+
+RECENT_WINDOW_DAYS = 30
+
+# Fields removed from items[] for the index file. These are big and only used
+# in the right-pane "full content" view, so we hand them out lazily via the
+# recent/archive bundles instead.
+_INDEX_OMIT_FIELDS = (
+    "article_text",
+    "article_text_zh",
+    "article_text_zh_hash",
+)
+
+
+def _index_item(item: dict[str, Any]) -> dict[str, Any]:
+    return {k: v for k, v in item.items() if k not in _INDEX_OMIT_FIELDS}
+
+
+def _detail_item(item: dict[str, Any]) -> dict[str, Any] | None:
+    """Minimal detail payload — only the heavy fields the index dropped. If
+    the item has none of them (just a tweet, no article body), skip it so the
+    detail bundle stays as small as possible."""
+    delta: dict[str, Any] = {}
+    for f in _INDEX_OMIT_FIELDS:
+        v = item.get(f)
+        if v is not None and v != "":
+            delta[f] = v
+    if not delta:
+        return None
+    delta["id"] = item.get("id")
+    return delta
+
+
+def _slice_context(
+    items: list[dict[str, Any]],
+    linked_content_by_url: dict[str, dict[str, Any]],
+    referenced_articles_by_id: dict[str, dict[str, Any]],
+    thread_urls_by_conversation: dict[str, list[str]],
+) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]], dict[str, list[str]]]:
+    """Return the linked-content / referenced-article / thread-url subsets that
+    the given item slice actually references. Keeps each detail bundle
+    self-contained without duplicating the entire global dicts."""
+    wanted_urls: set[str] = set()
+    wanted_article_ids: set[str] = set()
+    wanted_conv_ids: set[str] = set()
+    for item in items:
+        for url in item.get("linked_content_urls") or []:
+            if url:
+                wanted_urls.add(url)
+        # Some items embed legacy linked_content blobs — keep working during
+        # the rollover by walking those URLs too.
+        for entry in item.get("linked_content") or []:
+            u = entry.get("url") or entry.get("final_url") or ""
+            if u:
+                wanted_urls.add(u)
+        for url in item.get("primary_urls") or []:
+            article_id = extract_x_article_id(url)
+            if article_id:
+                wanted_article_ids.add(article_id)
+        for ref in item.get("referenced_tweets") or []:
+            rid = ref.get("id") if isinstance(ref, dict) else None
+            if rid:
+                wanted_article_ids.add(rid)
+        conv = item.get("conversation_id")
+        if conv:
+            wanted_conv_ids.add(conv)
+    linked = {u: linked_content_by_url[u] for u in wanted_urls if u in linked_content_by_url}
+    refs = {i: referenced_articles_by_id[i] for i in wanted_article_ids if i in referenced_articles_by_id}
+    threads = {c: thread_urls_by_conversation[c] for c in wanted_conv_ids if c in thread_urls_by_conversation}
+    return linked, refs, threads
+
+
+def _split_recent_archive(
+    items: list[dict[str, Any]],
+    cutoff: datetime,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    recent: list[dict[str, Any]] = []
+    archive: list[dict[str, Any]] = []
+    for item in items:
+        ts = item.get("first_seen_at") or item.get("last_seen_at") or item.get("created_at") or ""
+        try:
+            seen = parse_datetime(ts) if ts else cutoff
+        except Exception:
+            seen = cutoff
+        if seen >= cutoff:
+            recent.append(item)
+        else:
+            archive.append(item)
+    return recent, archive
+
+
+def write_chunked_feed(
+    store: dict[str, Any],
+    index_path: Path,
+    recent_path: Path,
+    archive_path: Path,
+) -> dict[str, int]:
+    """Write index.json + feed-recent.json + feed-archive.json. Returns byte
+    sizes for the manifest / commit log."""
+    items = list(store.get("items") or [])
+    linked = store.get("linked_content_by_url") or {}
+    refs = store.get("referenced_articles_by_id") or {}
+    threads = store.get("thread_urls_by_conversation") or {}
+
+    cutoff = utc_now() - timedelta(days=RECENT_WINDOW_DAYS)
+    recent_items, archive_items = _split_recent_archive(items, cutoff)
+    recent_linked, recent_refs, recent_threads = _slice_context(
+        recent_items, linked, refs, threads
+    )
+    archive_linked, archive_refs, archive_threads = _slice_context(
+        archive_items, linked, refs, threads
+    )
+
+    index_doc = {
+        "schema_version": store.get("schema_version"),
+        "format": "feed-index/1",
+        "updated_at": store.get("updated_at"),
+        "accounts": store.get("accounts") or [],
+        "recent_window_days": RECENT_WINDOW_DAYS,
+        "recent_cutoff_at": cutoff.isoformat().replace("+00:00", "Z"),
+        "recent_count": len(recent_items),
+        "archive_count": len(archive_items),
+        # Per-item: identical shape to the legacy items[] minus the heavy
+        # article_text fields — viewer falls back to the legacy shape if the
+        # detail bundles aren't fetched yet.
+        "items": [_index_item(it) for it in items],
+        "detail_files": {
+            "recent": recent_path.name,
+            "archive": archive_path.name,
+        },
+    }
+    recent_detail = [d for d in (_detail_item(it) for it in recent_items) if d]
+    archive_detail = [d for d in (_detail_item(it) for it in archive_items) if d]
+    recent_doc = {
+        "format": "feed-detail/1",
+        "updated_at": store.get("updated_at"),
+        "window": "recent",
+        "recent_window_days": RECENT_WINDOW_DAYS,
+        "items": recent_detail,
+        "linked_content_by_url": recent_linked,
+        "referenced_articles_by_id": recent_refs,
+        "thread_urls_by_conversation": recent_threads,
+    }
+    archive_doc = {
+        "format": "feed-detail/1",
+        "updated_at": store.get("updated_at"),
+        "window": "archive",
+        "items": archive_detail,
+        "linked_content_by_url": archive_linked,
+        "referenced_articles_by_id": archive_refs,
+        "thread_urls_by_conversation": archive_threads,
+    }
+
+    write_json(index_path, index_doc)
+    write_json(recent_path, recent_doc)
+    write_json(archive_path, archive_doc)
+    return {
+        "index": index_path.stat().st_size,
+        "recent": recent_path.stat().st_size,
+        "archive": archive_path.stat().st_size,
+    }
+
+
+def read_chunked_feed(
+    index_path: Path,
+    recent_path: Path,
+    archive_path: Path,
+    default: dict[str, Any],
+) -> dict[str, Any]:
+    """Reassemble the legacy single-store dict from the chunked layout.
+
+    Falls back gracefully if any chunk is missing — including the very first
+    run (no files) and the rollover run (legacy full JSON still present at
+    index_path with shape `{items, linked_content_by_url, ...}`)."""
+    index_doc = read_json(index_path, {})
+    if not index_doc:
+        return default
+    fmt = (index_doc.get("format") or "").lower()
+    if fmt != "feed-index/1":
+        # Legacy full-store JSON predating chunking — return as-is.
+        return index_doc
+    recent_doc = read_json(recent_path, {})
+    archive_doc = read_json(archive_path, {})
+
+    # Items: the index has the canonical ordering but missing heavy fields.
+    # Merge article_text / article_text_zh back in from detail bundles.
+    detail_by_id: dict[str, dict[str, Any]] = {}
+    for doc in (recent_doc, archive_doc):
+        for item in doc.get("items") or []:
+            iid = item.get("id")
+            if iid:
+                detail_by_id[iid] = item
+
+    merged_items: list[dict[str, Any]] = []
+    for item in index_doc.get("items") or []:
+        detail = detail_by_id.get(item.get("id"))
+        if detail:
+            merged = {**item}
+            for f in _INDEX_OMIT_FIELDS:
+                if f in detail and detail[f] is not None:
+                    merged[f] = detail[f]
+            merged_items.append(merged)
+        else:
+            merged_items.append(item)
+
+    linked: dict[str, dict[str, Any]] = {}
+    refs: dict[str, dict[str, Any]] = {}
+    threads: dict[str, list[str]] = {}
+    for doc in (recent_doc, archive_doc):
+        linked.update(doc.get("linked_content_by_url") or {})
+        refs.update(doc.get("referenced_articles_by_id") or {})
+        threads.update(doc.get("thread_urls_by_conversation") or {})
+
+    return {
+        "schema_version": index_doc.get("schema_version") or default.get("schema_version"),
+        "updated_at": index_doc.get("updated_at") or default.get("updated_at"),
+        "accounts": index_doc.get("accounts") or default.get("accounts") or [],
+        "items": merged_items,
+        "thread_urls_by_conversation": threads,
+        "linked_content_by_url": linked,
+        "referenced_articles_by_id": refs,
+    }
+
+
 def resolve_linked_content(
     item: dict[str, Any],
     linked_content_by_url: dict[str, dict[str, Any]],
@@ -1682,6 +1914,8 @@ def main() -> None:
     parser.add_argument("--max-pages", type=int, default=int(os.environ.get("X_LIBRARY_MAX_PAGES", "5")))
     parser.add_argument("--max-thread-fetches", type=int, default=int(os.environ.get("X_THREAD_MAX_FETCHES", "40")))
     parser.add_argument("--json-out", default="public/x-bookmarks-favorites.json")
+    parser.add_argument("--recent-out", default="public/feed-recent.json")
+    parser.add_argument("--archive-out", default="public/feed-archive.json")
     parser.add_argument("--md-out", default="public/x-bookmarks-favorites.md")
     parser.add_argument("--archive-dir", default="archive/x-bookmarks-favorites")
     parser.add_argument("--rss-out", default="rss.xml")
@@ -1704,12 +1938,16 @@ def main() -> None:
 
     now = iso_now()
     json_path = Path(args.json_out)
+    recent_path = Path(args.recent_out)
+    archive_path = Path(args.archive_out)
     md_path = Path(args.md_out)
     archive_dir = Path(args.archive_dir)
     rss_path = Path(args.rss_out)
 
-    existing = read_json(
+    existing = read_chunked_feed(
         json_path,
+        recent_path,
+        archive_path,
         {
             "schema_version": SCHEMA_VERSION,
             "items": [],
@@ -1766,7 +2004,7 @@ def main() -> None:
         "linked_content_by_url": linked_content,
         "referenced_articles_by_id": referenced_articles,
     }
-    write_json(json_path, store)
+    chunk_sizes = write_chunked_feed(store, json_path, recent_path, archive_path)
     write_markdown(md_path, store)
     write_rss(rss_path, store, args.public_base_url)
 
@@ -1776,11 +2014,12 @@ def main() -> None:
         if (item.get("first_seen_at") or "")[:10] == today_iso
     ]
     todays_store = {**store, "items": todays_items}
-    archive_path = archive_dir / f"{today_iso}.md"
-    write_markdown(archive_path, todays_store)
+    daily_md_path = archive_dir / f"{today_iso}.md"
+    write_markdown(daily_md_path, todays_store)
+    size_summary = ", ".join(f"{k}={v/1024/1024:.2f}MB" for k, v in chunk_sizes.items())
     print(
-        f"Wrote {md_path}, {json_path}, {rss_path}, and "
-        f"{archive_path} ({len(todays_items)} items first-seen today)"
+        f"Wrote {md_path}, {json_path} (+{recent_path.name}/{archive_path.name}: {size_summary}), "
+        f"{rss_path}, and {daily_md_path} ({len(todays_items)} items first-seen today)"
     )
 
 
