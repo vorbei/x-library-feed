@@ -58,28 +58,40 @@
     border: 1px solid var(--border); border-radius: 999px;
     background: var(--card); color: var(--fg);
   }
-  /* Two-pane layout */
+  /* Three-pane layout */
   .panes {
     flex: 1; display: grid;
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 360px 480px 1fr;
     min-height: 0;
   }
-  .list-pane {
+  .list-pane, .summary-pane {
     border-right: 1px solid var(--border);
     overflow-y: auto;
     background: var(--bg);
   }
-  .reader-pane {
+  .summary-pane { padding: 20px 24px 60px; }
+  .full-pane {
     overflow-y: auto;
-    padding: 24px 32px 80px;
+    padding: 20px 24px 80px;
+    background: var(--accent);
   }
-  .reader-pane .reader-inner { max-width: 760px; margin: 0 auto; }
-  @media (max-width: 900px) {
+  .summary-pane .pane-inner, .full-pane .pane-inner {
+    max-width: 680px; margin: 0 auto;
+  }
+  @media (max-width: 1280px) {
+    .panes { grid-template-columns: 320px 1fr; }
+    .full-pane { display: none; }
+    .panes.show-full .summary-pane { display: none; }
+    .panes.show-full .full-pane { display: block; }
+  }
+  @media (max-width: 720px) {
     .panes { grid-template-columns: 1fr; }
-    .list-pane { display: block; border-right: none; }
-    .reader-pane { display: none; }
+    .list-pane, .summary-pane { border-right: none; }
+    .summary-pane, .full-pane { display: none; }
     .panes.reading .list-pane { display: none; }
-    .panes.reading .reader-pane { display: block; }
+    .panes.reading .summary-pane { display: block; }
+    .panes.reading.show-full .summary-pane { display: none; }
+    .panes.reading.show-full .full-pane { display: block; }
   }
   /* List item rows */
   .row {
@@ -113,19 +125,23 @@
   @media (max-width: 900px) {
     .back-btn { display: inline-block; }
   }
-  article.item {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px 20px;
-    display: grid; gap: 16px;
-    grid-template-columns: minmax(0, 1fr) 240px;
+  /* Summary card (middle pane) */
+  .summary-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; }
+  .summary-card .gallery { margin-top: 12px; }
+  .full-block { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+  .full-block .lbl { color: var(--muted); font-size: 12px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .full-block .full-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+  .full-block .full-title a { color: var(--fg); text-decoration: none; }
+  .full-block .full-title a:hover { text-decoration: underline; }
+  .full-empty { color: var(--muted); text-align: center; padding: 60px 24px; font-size: 13px; }
+  .show-full-btn {
+    display: none;
+    margin: 12px 0; padding: 6px 14px;
+    background: var(--link); color: white; border: none;
+    border-radius: 999px; font-size: 13px; cursor: pointer;
   }
-  article.item .main { min-width: 0; }
-  article.item .side { width: 240px; align-self: start; }
-  article.item.no-images { grid-template-columns: 1fr; }
-  article.item.no-images .side { display: none; }
-  @media (max-width: 720px) {
-    article.item, article.item.no-images { grid-template-columns: 1fr; }
-    article.item .side { width: auto; }
+  @media (max-width: 1280px) {
+    .show-full-btn.has-content { display: inline-block; }
   }
   .head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
   .author { font-weight: 600; }
@@ -203,9 +219,14 @@
 </div>
 <div class="panes" id="panes">
   <div class="list-pane" id="list"></div>
-  <div class="reader-pane" id="reader">
-    <div class="reader-inner">
+  <div class="summary-pane" id="summary">
+    <div class="pane-inner">
       <div class="reader-empty">Pick an item on the left ←</div>
+    </div>
+  </div>
+  <div class="full-pane" id="full">
+    <div class="pane-inner">
+      <div class="full-empty">Long-form content (X articles, linked content) shows here →</div>
     </div>
   </div>
 </div>
@@ -277,64 +298,142 @@ function renderMarkdown(md) {
   return html;
 }
 
-function renderItem(item, refArticles) {
+// Collect every image URL referenced by an item across primary, linked, and
+// referenced-tweet sources so the gallery can show a consolidated view.
+function collectImages(item, refArticles) {
+  const seen = new Set();
+  const out = [];
+  const push = u => { if (u && !seen.has(u)) { seen.add(u); out.push(u); } };
+  for (const u of (item.image_urls || [])) push(u);
+  for (const lc of (item.linked_content || [])) {
+    for (const u of (lc.image_urls || [])) push(u);
+    for (const u of extractMarkdownImages(lc.text_excerpt).urls) push(u);
+  }
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
+    const ref = m ? lookupRef(m[1]) : null;
+    if (!ref) continue;
+    for (const u of (ref.image_urls || [])) push(u);
+    for (const u of extractMarkdownImages(ref.article_text || "").urls) push(u);
+  }
+  return out;
+}
+
+// True if there is enough long-form content to justify showing the full pane.
+function hasFullContent(item) {
+  if ((item.article_text || "").trim()) return true;
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
+    const ref = m ? lookupRef(m[1]) : null;
+    if (ref && ((ref.article_text || ref.text || "").trim())) return true;
+  }
+  for (const lc of (item.linked_content || [])) {
+    if ((lc.text_excerpt || "").trim()) return true;
+  }
+  return false;
+}
+
+function renderSummary(item, refArticles) {
   const a = item.author || {};
   const name = esc(a.name || a.username || "unknown");
   const handle = esc(a.username || "unknown");
   const tweetUrl = item.url || "";
   const created = item.created_at ? new Date(item.created_at).toLocaleString() : "";
-  const sources = (item.sources || []).join(", ");
+  const sources = (item.sources || []).map(s => esc(shortenSource(s))).join(" · ");
+  const images = collectImages(item, refArticles);
 
-  // Collect images first so we can decide layout
-  const seen = new Set();
-  const images = [];
-  const pushImage = u => {
-    if (u && !seen.has(u)) { seen.add(u); images.push(u); }
-  };
-  for (const u of (item.image_urls || [])) pushImage(u);
-  for (const lc of (item.linked_content || [])) {
-    for (const u of (lc.image_urls || [])) pushImage(u);
-    // Pull images out of the CF markdown text too
-    for (const u of extractMarkdownImages(lc.text_excerpt).urls) pushImage(u);
-  }
-  // Referenced X articles - their CF body markdown often has the cover image
-  for (const url of (item.primary_urls || [])) {
-    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
-    const ref = m ? lookupRef(m[1]) : null;
-    if (!ref) continue;
-    for (const u of (ref.image_urls || [])) pushImage(u);
-    for (const u of extractMarkdownImages(ref.article_text || "").urls) pushImage(u);
-  }
-
-  const hasImages = images.length > 0;
-  let html = `<article class="item${hasImages ? "" : " no-images"}">`;
-  html += `<div class="main">`;
+  let html = `<div class="summary-card">`;
   html += `<div class="head">`;
   html += `<div><span class="author">${name}</span> <a href="https://x.com/${handle}" target="_blank">@${handle}</a></div>`;
   html += `<span class="time">${esc(created)}</span>`;
   html += `</div>`;
-  html += `<div class="sources">${esc(sources)}</div>`;
+  html += `<div class="sources">${sources}</div>`;
 
   if (item.text) {
     html += `<blockquote>${linkify(item.text)}</blockquote>`;
   }
 
+  // Brief teasers for content that lives in the full pane
+  const teasers = [];
   if (item.article_url) {
-    const title = esc(item.article_title || item.article_url);
-    html += `<div class="ref-article"><div class="lbl">📄 X Article (own)</div><a href="${esc(item.article_url)}" target="_blank">${title}</a>`;
-    if (item.article_text) {
-      const bodies = pickBodies(item.article_text, item.article_text_zh, true);
-      for (const b of bodies) {
-        const cleaned = cleanArticleMarkdown(extractMarkdownImages(b.text).stripped);
-        const rendered = renderMarkdown(cleaned);
-        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
-        html += `<details><summary>Show ${b.label || "full article"} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
-      }
+    const t = esc(item.article_title || "X Article");
+    teasers.push(`<div>📄 X Article: <a href="${esc(item.article_url)}" target="_blank">${t}</a></div>`);
+  }
+  for (const url of (item.primary_urls || [])) {
+    const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
+    const ref = m ? lookupRef(m[1]) : null;
+    if (!ref) continue;
+    const isArticle = !!(ref.article_text || "").trim();
+    const icon = isArticle ? "📄" : "💬";
+    const kind = isArticle ? "Article" : "Tweet";
+    const t = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
+    const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
+    teasers.push(`<div>${icon} Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${t}</a></div>`);
+  }
+  let linkCount = 0;
+  for (const lc of (item.linked_content || [])) {
+    const u = lc.final_url || lc.url || "";
+    if (!u || images.includes(u)) continue;
+    if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
+    linkCount++;
+  }
+  if (linkCount) teasers.push(`<div>🔗 ${linkCount} linked source${linkCount > 1 ? "s" : ""}</div>`);
+  if (teasers.length) {
+    html += `<div style="font-size:13px;color:var(--muted);margin-top:8px">${teasers.join("")}</div>`;
+  }
+
+  if (hasFullContent(item)) {
+    html += `<button class="show-full-btn has-content" id="show-full">Read full content →</button>`;
+  }
+
+  if (images.length) {
+    const shown = images.slice(0, 9);
+    const cls = shown.length <= 2 ? ` count-${shown.length}` : "";
+    html += `<div class="gallery${cls}">`;
+    for (const u of shown) {
+      html += `<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="" loading="lazy" /></a>`;
     }
     html += `</div>`;
   }
 
-  // Referenced X tweets/articles (from primary_urls)
+  // Metrics
+  const m2 = item.public_metrics || {};
+  const bits = [];
+  if (m2.like_count) bits.push(`♥ ${m2.like_count.toLocaleString()}`);
+  if (m2.retweet_count) bits.push(`🔁 ${m2.retweet_count.toLocaleString()}`);
+  if (m2.reply_count) bits.push(`💬 ${m2.reply_count.toLocaleString()}`);
+  if (m2.bookmark_count) bits.push(`🔖 ${m2.bookmark_count.toLocaleString()}`);
+  if (m2.impression_count) bits.push(`👁 ${m2.impression_count.toLocaleString()}`);
+  if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
+  if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
+  html += `</div>`;
+  return html;
+}
+
+function renderFull(item, refArticles) {
+  const blocks = [];
+
+  // Own article body
+  if (item.article_url && (item.article_text || "").trim()) {
+    const title = esc(item.article_title || item.article_url);
+    const bodies = pickBodies(item.article_text, item.article_text_zh, true);
+    let inner = "";
+    for (const b of bodies) {
+      const cleaned = cleanArticleMarkdown(extractMarkdownImages(b.text).stripped);
+      const rendered = renderMarkdown(cleaned);
+      const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+      inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
+    }
+    blocks.push(
+      `<div class="full-block">` +
+      `<div class="lbl">📄 X Article (own)</div>` +
+      `<div class="full-title"><a href="${esc(item.article_url)}" target="_blank">${title}</a></div>` +
+      inner +
+      `</div>`
+    );
+  }
+
+  // Referenced X article/tweet bodies
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
     const ref = m ? lookupRef(m[1]) : null;
@@ -342,76 +441,61 @@ function renderItem(item, refArticles) {
     const articleText = (ref.article_text || "").trim();
     const tweetText = (ref.text || "").trim();
     const isArticle = !!articleText;
+    if (!articleText && !tweetText) continue;
     const icon = isArticle ? "📄" : "💬";
     const kind = isArticle ? "Article" : "Tweet";
     const title = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
-    html += `<div class="ref-article"><div class="lbl">${icon} Referenced X ${kind} ${ref.author?.username ? '(@' + esc(ref.author.username) + ')' : ''}</div>`;
-    html += `<a href="${esc(ref.url || url)}" target="_blank">${title}</a>`;
+    const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
     const enText = isArticle ? articleText : tweetText;
     const zhText = isArticle ? (ref.article_text_zh || "") : (ref.text_zh || "");
-    if (enText) {
-      const bodies = pickBodies(enText, zhText, isArticle);
-      const lbl = isArticle ? "full article" : "tweet text";
-      for (const b of bodies) {
-        const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
-        const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
-        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
-        const openFlag = !isArticle && b === bodies[0] ? " open" : "";
-        html += `<details${openFlag}><summary>Show ${b.label || lbl} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
-      }
+    const bodies = pickBodies(enText, zhText, isArticle);
+    let inner = "";
+    for (const b of bodies) {
+      const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
+      const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+      const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+      inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
     }
-    html += `</div>`;
+    blocks.push(
+      `<div class="full-block">` +
+      `<div class="lbl">${icon} Referenced X ${kind}${who}</div>` +
+      `<div class="full-title"><a href="${esc(ref.url || url)}" target="_blank">${title}</a></div>` +
+      inner +
+      `</div>`
+    );
   }
 
-  // Linked content (non-image)
+  // Linked content excerpts
+  const images = collectImages(item, refArticles);
   for (const lc of (item.linked_content || [])) {
     const u = lc.final_url || lc.url || "";
     if (!u || images.includes(u)) continue;
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
+    if (!(lc.text_excerpt || "").trim()) continue;
     const isXArticle = /(?:x\.com|twitter\.com)\/.*\/article\//i.test(u);
     const rawTitle = lc.title || lc.description;
-    const showTitleAsLink = rawTitle && rawTitle.trim() && rawTitle.trim() !== u;
-    const titleHtml = showTitleAsLink ? esc(rawTitle) : esc(u);
-    html += `<div class="linked"><div class="lbl">🔗 Linked content</div>`;
-    html += `<a class="linked-title" href="${esc(u)}" target="_blank">${titleHtml}</a>`;
-    if (lc.text_excerpt) {
-      const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", isXArticle);
-      for (const b of bodies) {
-        const cleaned = isXArticle
-          ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped)
-          : b.text;
-        const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
-        const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
-        html += `<details><summary>Show ${b.label || "extracted content"} (${b.text.length.toLocaleString()} chars)</summary>${heading}<div class="md-body">${rendered}</div></details>`;
-      }
+    const titleHtml = rawTitle && rawTitle.trim() && rawTitle.trim() !== u ? esc(rawTitle) : esc(u);
+    const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", isXArticle);
+    let inner = "";
+    for (const b of bodies) {
+      const cleaned = isXArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
+      const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+      const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
+      inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
     }
-    html += `</div>`;
+    blocks.push(
+      `<div class="full-block">` +
+      `<div class="lbl">🔗 Linked content</div>` +
+      `<div class="full-title"><a href="${esc(u)}" target="_blank">${titleHtml}</a></div>` +
+      inner +
+      `</div>`
+    );
   }
 
-  // Metrics
-  const m = item.public_metrics || {};
-  const bits = [];
-  if (m.like_count) bits.push(`♥ ${m.like_count.toLocaleString()}`);
-  if (m.retweet_count) bits.push(`🔁 ${m.retweet_count.toLocaleString()}`);
-  if (m.reply_count) bits.push(`💬 ${m.reply_count.toLocaleString()}`);
-  if (m.bookmark_count) bits.push(`🔖 ${m.bookmark_count.toLocaleString()}`);
-  if (m.impression_count) bits.push(`👁 ${m.impression_count.toLocaleString()}`);
-  if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
-
-  if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
-  html += `</div>`; // /.main
-
-  if (hasImages) {
-    const shown = images.slice(0, 9);
-    const cls = shown.length <= 2 ? ` count-${shown.length}` : "";
-    html += `<div class="side"><div class="gallery${cls}">`;
-    for (const u of shown) {
-      html += `<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="" loading="lazy" /></a>`;
-    }
-    html += `</div></div>`;
+  if (!blocks.length) {
+    return `<div class="full-empty">No long-form content for this item.</div>`;
   }
-  html += `</article>`;
-  return html;
+  return blocks.join("");
 }
 
 let allItems = [];
@@ -522,24 +606,40 @@ function renderList() {
 }
 
 function renderReader() {
-  const inner = document.querySelector(".reader-inner");
+  const summaryInner = document.querySelector("#summary .pane-inner");
+  const fullInner = document.querySelector("#full .pane-inner");
   if (!selectedId) {
-    inner.innerHTML = '<div class="reader-empty">Pick an item on the left ←</div>';
+    summaryInner.innerHTML = '<div class="reader-empty">Pick an item on the left ←</div>';
+    fullInner.innerHTML = '<div class="full-empty">Long-form content shows here →</div>';
     return;
   }
   const item = itemsById[selectedId];
   if (!item) {
-    inner.innerHTML = '<div class="reader-empty">Item not found</div>';
+    summaryInner.innerHTML = '<div class="reader-empty">Item not found</div>';
+    fullInner.innerHTML = "";
     return;
   }
-  inner.innerHTML =
-    `<button class="back-btn" id="back">← Back to list</button>` +
-    renderItem(item, refArticles);
-  inner.scrollTop = 0;
-  document.querySelector(".reader-pane").scrollTop = 0;
-  const back = document.getElementById("back");
-  if (back) back.addEventListener("click", () => {
-    document.getElementById("panes").classList.remove("reading");
+  summaryInner.innerHTML =
+    `<button class="back-btn" id="back-list">← Back to list</button>` +
+    renderSummary(item, refArticles);
+  fullInner.innerHTML =
+    `<button class="back-btn" id="back-summary">← Back to summary</button>` +
+    renderFull(item, refArticles);
+  document.querySelector("#summary").scrollTop = 0;
+  document.querySelector("#full").scrollTop = 0;
+
+  const backList = document.getElementById("back-list");
+  if (backList) backList.addEventListener("click", () => {
+    document.getElementById("panes").classList.remove("reading", "show-full");
+  });
+  const backSummary = document.getElementById("back-summary");
+  if (backSummary) backSummary.addEventListener("click", () => {
+    document.getElementById("panes").classList.remove("show-full");
+  });
+  const showFull = document.getElementById("show-full");
+  if (showFull) showFull.addEventListener("click", () => {
+    document.getElementById("panes").classList.add("show-full");
+    document.querySelector("#full").scrollTop = 0;
   });
 }
 
