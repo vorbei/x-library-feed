@@ -189,7 +189,7 @@
   .md-body p { margin: 0 0 8px; }
   .md-body h1, .md-body h2, .md-body h3 { font-size: 15px; margin: 12px 0 6px; }
   .md-body ul, .md-body ol { margin: 0 0 8px; padding-left: 20px; }
-  .md-body img { max-width: 100%; border-radius: 4px; margin: 6px 0; }
+  .md-body img { max-width: 100%; border-radius: 6px; margin: 12px auto; display: block; border: 1px solid var(--border); }
   .md-body a { color: var(--link); word-break: break-word; }
   .md-body blockquote { margin: 8px 0; padding: 4px 12px; border-left: 2px solid var(--border); color: var(--muted); }
   .md-body code { background: var(--accent); padding: 1px 4px; border-radius: 3px; font-size: 13px; }
@@ -413,13 +413,13 @@ function renderSummary(item, refArticles) {
 function renderFull(item, refArticles) {
   const blocks = [];
 
-  // Own article body
+  // Own article body — keep inline images (don't strip)
   if (item.article_url && (item.article_text || "").trim()) {
     const title = esc(item.article_title || item.article_url);
     const bodies = pickBodies(item.article_text, item.article_text_zh, true);
     let inner = "";
     for (const b of bodies) {
-      const cleaned = cleanArticleMarkdown(extractMarkdownImages(b.text).stripped);
+      const cleaned = cleanArticleMarkdown(b.text);
       const rendered = renderMarkdown(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
@@ -444,14 +444,29 @@ function renderFull(item, refArticles) {
     if (!articleText && !tweetText) continue;
     const icon = isArticle ? "📄" : "💬";
     const kind = isArticle ? "Article" : "Tweet";
-    const title = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
+    // Tweets don't have a real title — use the first non-URL chunk of body
+    // (max ~80 chars) so the heading is something readable instead of
+    // generic "X Tweet".
+    let computedTitle = ref.article_title;
+    if (!computedTitle) {
+      if (isArticle) {
+        computedTitle = "X Article";
+      } else {
+        const stripped = tweetText.replace(/https?:\/\/\S+/g, "").trim().replace(/\s+/g, " ");
+        computedTitle = stripped.slice(0, 80) || "X Tweet";
+        if (stripped.length > 80) computedTitle += "…";
+      }
+    }
+    const title = esc(computedTitle);
     const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
     const enText = isArticle ? articleText : tweetText;
     const zhText = isArticle ? (ref.article_text_zh || "") : (ref.text_zh || "");
     const bodies = pickBodies(enText, zhText, isArticle);
     let inner = "";
     for (const b of bodies) {
-      const cleaned = isArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
+      // Keep inline images in article markdown so the full pane is a real
+      // article view. Plain tweet text just gets linkified.
+      const cleaned = isArticle ? cleanArticleMarkdown(b.text) : b.text;
       const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
@@ -478,7 +493,8 @@ function renderFull(item, refArticles) {
     const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", isXArticle);
     let inner = "";
     for (const b of bodies) {
-      const cleaned = isXArticle ? cleanArticleMarkdown(extractMarkdownImages(b.text).stripped) : b.text;
+      // Same as above — keep inline images in article markdown.
+      const cleaned = isXArticle ? cleanArticleMarkdown(b.text) : b.text;
       const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
