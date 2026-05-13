@@ -3,65 +3,163 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>X Bookmarks + Favorites</title>
+<title>Lire — your X library</title>
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
 <style>
+  /* Notion / Feishu minimal design system — pure whites, lots of breathing
+     room, single accent color, no card borders. */
   :root {
     color-scheme: light dark;
-    --bg: #fafafa;
-    --card: #fff;
-    --fg: #1a1a1a;
-    --muted: #6a6a6a;
-    --link: #1d6fec;
-    --border: #e5e5e5;
-    --accent: #f7f7f7;
+    --bg: #ffffff;
+    --surface: #f7f7f5;
+    --surface-hover: #f1f1ef;
+    --selected: #ebebe9;
+    --fg: #111827;
+    --muted: #6b7280;
+    --faint: #9ca3af;
+    --accent: #2563eb;
+    --accent-soft: #eff6ff;
+    --border: #ececeb;
+    --divider: #f3f3f1;
+    --warning: #d97706;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #14171a;
-      --card: #1c1f23;
-      --fg: #e6e6e6;
-      --muted: #8a8f97;
-      --link: #6aa6ff;
-      --border: #2a2f36;
-      --accent: #22262c;
+      --bg: #111111;
+      --surface: #1a1a1a;
+      --surface-hover: #1f1f1f;
+      --selected: #262626;
+      --fg: #f9fafb;
+      --muted: #9ca3af;
+      --faint: #6b7280;
+      --accent: #3b82f6;
+      --accent-soft: rgba(59, 130, 246, 0.12);
+      --border: #262626;
+      --divider: #1c1c1c;
+      --warning: #f59e0b;
     }
   }
+  *, *::before, *::after { box-sizing: border-box; }
   html, body { background: var(--bg); color: var(--fg); height: 100%; }
   body {
-    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Roboto, sans-serif;
+    font: 14px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+      "Inter", "Segoe UI", "Helvetica Neue", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
     margin: 0;
     display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
   }
+  button { font-family: inherit; }
+  /* SVG icon helper — every <svg.icon> inherits text color via currentColor. */
+  .icon { width: 16px; height: 16px; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; fill: none; flex: 0 0 auto; }
+  .icon-sm { width: 14px; height: 14px; stroke-width: 2; }
+  .icon-lg { width: 20px; height: 20px; }
+
   /* Top bar */
   .topbar {
     flex: 0 0 auto;
-    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
-    padding: 10px 16px;
+    display: flex; gap: 12px; align-items: center;
+    padding: 10px 20px;
     border-bottom: 1px solid var(--border);
     background: var(--bg);
+    min-height: 52px;
   }
-  .topbar h1 { font-size: 16px; margin: 0; margin-right: 8px; }
-  .meta { color: var(--muted); font-size: 12px; }
-  .meta a { color: var(--muted); }
-  .topbar button {
-    border: 1px solid var(--border); background: var(--card); color: var(--fg);
-    padding: 5px 10px; border-radius: 999px; font-size: 12px; cursor: pointer;
+  .brand {
+    display: flex; align-items: center; gap: 7px;
+    white-space: nowrap;
   }
-  .topbar button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .brand-mark {
+    width: 22px; height: 22px; border-radius: 6px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--fg); color: var(--bg);
+    font-size: 12px; font-weight: 700; letter-spacing: -0.02em;
+  }
+  .brand-dot { color: var(--faint); font-weight: 400; }
+  .brand-word {
+    font-size: 15px; font-weight: 600; color: var(--fg);
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--muted); font-size: 12px;
+    display: flex; align-items: center; gap: 6px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .meta a { color: var(--muted); text-decoration: none; }
+  .meta a:hover { color: var(--fg); }
+  .meta .meta-dot { color: var(--faint); }
+  .topbar-spacer { flex: 1; }
+  .topbar-right { display: flex; align-items: center; gap: 8px; }
+  /* Segmented control — pill of buttons sharing one container. */
+  .seg {
+    display: inline-flex; align-items: center;
+    padding: 2px; gap: 2px;
+    background: var(--surface);
+    border-radius: 8px;
+  }
+  .seg button {
+    appearance: none; border: 0; background: transparent;
+    color: var(--muted); cursor: pointer;
+    padding: 5px 12px; border-radius: 6px;
+    font-size: 12.5px; font-weight: 500; line-height: 1;
+    transition: background 0.12s, color 0.12s;
+    display: inline-flex; align-items: center; gap: 5px;
+  }
+  .seg button:hover { color: var(--fg); }
+  .seg button.active {
+    background: var(--bg); color: var(--fg);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 0 0 1px var(--border);
+  }
+  @media (prefers-color-scheme: dark) {
+    .seg button.active { box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 0 1px var(--border); }
+  }
+  .seg .seg-divider { width: 1px; height: 14px; background: var(--border); margin: 0 2px; }
+  /* Standalone icon-only toggle (favorites) */
+  .icon-btn {
+    appearance: none; border: 1px solid var(--border); background: var(--bg);
+    color: var(--muted); cursor: pointer;
+    width: 32px; height: 32px; border-radius: 8px;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+  .icon-btn:hover { background: var(--surface); color: var(--fg); }
+  .icon-btn.active {
+    background: var(--accent-soft); color: var(--warning); border-color: transparent;
+  }
+  .icon-btn.active .icon { fill: var(--warning); stroke: var(--warning); }
+  .lang-select {
+    appearance: none; border: 1px solid var(--border); background: var(--bg);
+    color: var(--fg); cursor: pointer;
+    font-size: 12.5px; padding: 6px 26px 6px 10px; border-radius: 8px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 8px center;
+  }
+  .search-wrap {
+    position: relative;
+    display: inline-flex; align-items: center;
+  }
+  .search-wrap .search-icon {
+    position: absolute; left: 9px; color: var(--faint); pointer-events: none;
+  }
   .search {
-    flex: 1; min-width: 160px; padding: 5px 10px; font-size: 12px;
-    border: 1px solid var(--border); border-radius: 999px;
-    background: var(--card); color: var(--fg);
+    width: 220px; min-width: 160px;
+    padding: 7px 10px 7px 32px; font-size: 13px;
+    border: 1px solid var(--border); border-radius: 8px;
+    background: var(--bg); color: var(--fg);
+    transition: border-color 0.12s, box-shadow 0.12s;
   }
+  .search:focus {
+    outline: none; border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .search::placeholder { color: var(--faint); }
+
   /* Three-pane layout */
   .panes {
     flex: 1; display: grid;
-    grid-template-columns: 360px 480px 1fr;
+    grid-template-columns: 360px 460px 1fr;
     min-height: 0;
   }
   .list-pane, .summary-pane {
@@ -69,15 +167,14 @@
     overflow-y: auto;
     background: var(--bg);
   }
-  .summary-pane { padding: 20px 24px 60px; }
+  .summary-pane { padding: 24px 28px 64px; }
   .full-pane {
     overflow-y: auto;
-    padding: 20px 24px 80px;
-    background: var(--accent);
+    padding: 32px 36px 96px;
+    background: var(--surface);
   }
-  .summary-pane .pane-inner, .full-pane .pane-inner {
-    max-width: 680px; margin: 0 auto;
-  }
+  .summary-pane .pane-inner { max-width: 640px; margin: 0 auto; }
+  .full-pane .pane-inner { max-width: 720px; margin: 0 auto; }
   @media (max-width: 1280px) {
     .panes { grid-template-columns: 320px 1fr; }
     .full-pane { display: none; }
@@ -93,81 +190,138 @@
     .panes.reading.show-full .summary-pane { display: none; }
     .panes.reading.show-full .full-pane { display: block; }
   }
+
   /* List item rows */
   .row {
-    display: grid; grid-template-columns: 1fr auto; column-gap: 10px;
-    padding: 12px 14px; border-bottom: 1px solid var(--border);
+    display: grid; grid-template-columns: 1fr auto; column-gap: 12px;
+    padding: 14px 16px;
     cursor: pointer; background: var(--bg);
-    transition: background 0.1s;
+    transition: background 0.08s;
+    border-bottom: 1px solid var(--divider);
   }
-  .row:hover { background: var(--accent); }
-  .row.selected { background: var(--accent); border-left: 3px solid var(--link); padding-left: 11px; }
+  .row:hover { background: var(--surface-hover); }
+  .row.selected { background: var(--selected); }
   .row .r-main { min-width: 0; }
-  .row .r-author { font-weight: 600; font-size: 13px; }
+  .row .r-author {
+    font-weight: 600; font-size: 13px; color: var(--fg);
+    display: inline-flex; align-items: center; gap: 4px;
+  }
   .row .r-author .handle { color: var(--muted); font-weight: 400; }
-  .row .r-title { font-size: 14px; line-height: 1.4; margin-top: 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: break-word; }
-  .row .r-meta { color: var(--muted); font-size: 11px; margin-top: 4px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .row .r-meta .src { padding: 1px 6px; border-radius: 4px; background: var(--accent); }
-  .row.selected .r-meta .src { background: var(--card); }
+  .row .r-author .fav-mark { color: var(--warning); }
+  .row .r-author .fav-mark .icon { width: 12px; height: 12px; fill: var(--warning); }
+  .row .r-title {
+    font-size: 13.5px; line-height: 1.45; margin-top: 3px; color: var(--fg);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; word-break: break-word;
+  }
+  .row .r-meta {
+    color: var(--faint); font-size: 11px; margin-top: 6px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  }
+  .row .r-meta .src {
+    display: inline-flex; align-items: center; gap: 3px;
+    padding: 1px 6px; border-radius: 4px;
+    background: var(--surface);
+    color: var(--muted);
+  }
+  .row.selected .r-meta .src { background: var(--bg); }
+  .row .r-meta .r-dwell {
+    display: inline-flex; align-items: center; gap: 3px;
+    color: var(--muted);
+  }
+  .row .r-meta .r-dwell .icon { width: 11px; height: 11px; }
   .row .r-thumb {
     width: 56px; height: 56px; border-radius: 6px;
-    object-fit: cover; border: 1px solid var(--border);
+    object-fit: cover;
     align-self: center;
+    background: var(--surface);
   }
-  .reader-empty {
+  .reader-empty, .full-empty {
     color: var(--muted); text-align: center;
-    padding: 80px 24px; font-size: 14px;
+    padding: 96px 24px; font-size: 13.5px;
   }
   .back-btn {
-    display: none; margin-bottom: 16px; color: var(--link);
+    display: none; margin-bottom: 16px; color: var(--muted);
     cursor: pointer; font-size: 13px; background: none; border: none; padding: 0;
+    align-items: center; gap: 4px;
   }
+  .back-btn:hover { color: var(--fg); }
   @media (max-width: 900px) {
-    .back-btn { display: inline-block; }
+    .back-btn { display: inline-flex; }
   }
+
   /* Summary card (middle pane) */
-  .summary-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; }
-  .summary-card .gallery { margin-top: 12px; }
-  .full-block { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
-  .full-block .lbl { color: var(--muted); font-size: 12px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .full-block .full-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
-  .full-block .full-title a { color: var(--fg); text-decoration: none; }
-  .full-block .full-title a:hover { text-decoration: underline; }
-  .full-empty { color: var(--muted); text-align: center; padding: 60px 24px; font-size: 13px; }
+  .summary-card {
+    background: var(--bg);
+  }
+  .summary-card .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .summary-card .author { font-weight: 600; font-size: 15px; color: var(--fg); }
+  .summary-card .author a { color: var(--muted); font-weight: 400; text-decoration: none; }
+  .summary-card .author a:hover { color: var(--fg); }
+  .summary-card .time { color: var(--muted); font-size: 12.5px; }
+  .summary-card .sources {
+    font-size: 12px; color: var(--muted); margin: 6px 0 16px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  }
+  .summary-card .sources .src {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 2px 8px; border-radius: 5px; background: var(--surface);
+  }
+  .summary-card .gallery { margin-top: 14px; }
+
+  /* Linked / teaser blocks inside the summary */
+  .linked, .ref-article, .summary-card .teasers > div {
+    margin-top: 10px; padding: 10px 14px;
+    background: var(--surface); border-radius: 8px;
+    font-size: 13.5px;
+    display: flex; align-items: flex-start; gap: 8px;
+  }
+  .linked .lbl, .ref-article .lbl { color: var(--muted); font-size: 12px; }
+  .linked-title { font-weight: 500; }
+  .excerpt { color: var(--muted); margin-top: 6px; white-space: pre-wrap; }
+  details { margin-top: 8px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+  details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--fg); }
+
+  /* Action bar */
+  .actions { display: flex; gap: 6px; margin-top: 16px; align-items: center; flex-wrap: wrap; }
+  .actions .act {
+    appearance: none; border: 1px solid var(--border); background: var(--bg); color: var(--muted);
+    padding: 6px 12px; border-radius: 8px; font-size: 13px;
+    cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+  .actions .act:hover { background: var(--surface); color: var(--fg); }
+  .actions .act.on { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .actions .act.fav.on { background: rgba(217, 119, 6, 0.10); color: var(--warning); border-color: transparent; }
+  .actions .act.fav.on .icon { fill: var(--warning); stroke: var(--warning); }
+  .actions .act.icon-only { width: 34px; height: 34px; padding: 0; justify-content: center; }
+  .actions .dwell-tag { color: var(--muted); font-size: 12px; margin-left: auto; }
+
   .show-full-btn {
     display: none;
-    margin: 12px 0; padding: 6px 14px;
-    background: var(--link); color: white; border: none;
-    border-radius: 999px; font-size: 13px; cursor: pointer;
+    margin: 16px 0 0; padding: 7px 14px;
+    background: var(--accent); color: white; border: none;
+    border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px;
   }
-  .actions { display: flex; gap: 8px; margin-top: 12px; align-items: center; flex-wrap: wrap; }
-  .actions .act {
-    border: 1px solid var(--border); background: var(--card); color: var(--fg);
-    padding: 5px 12px; border-radius: 999px; font-size: 13px; cursor: pointer;
-  }
-  .actions .act:hover { background: var(--accent); }
-  .actions .act.on { background: var(--link); color: white; border-color: var(--link); }
-  .actions .act.fav.on { background: #f59e0b; border-color: #f59e0b; color: white; }
-  .actions .dwell-tag { color: var(--muted); font-size: 12px; margin-left: auto; }
-  .row.fav .r-title::before { content: "★ "; color: #f59e0b; }
-  .row .r-dwell { color: var(--muted); font-size: 10px; margin-left: 4px; }
+  .show-full-btn:hover { filter: brightness(1.08); }
   @media (max-width: 1280px) {
-    .show-full-btn.has-content { display: inline-block; }
+    .show-full-btn.has-content { display: inline-flex; }
   }
-  .head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-  .author { font-weight: 600; }
-  .author a { color: var(--muted); font-weight: 400; text-decoration: none; }
-  .author a:hover { text-decoration: underline; }
-  .time { color: var(--muted); font-size: 12px; }
-  .sources { font-size: 11px; color: var(--muted); margin: 2px 0 12px; }
+
+  /* Quotes / inline blockquotes */
   blockquote {
-    margin: 0 0 12px;
-    padding: 8px 12px;
+    margin: 0 0 14px;
+    padding: 8px 14px;
     border-left: 3px solid var(--border);
     color: var(--fg);
     white-space: pre-wrap;
     word-wrap: break-word;
   }
+
+  /* Image gallery */
   .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -175,80 +329,199 @@
   }
   .gallery a {
     display: block; aspect-ratio: 1 / 1; overflow: hidden;
-    border-radius: 6px; border: 1px solid var(--border);
-    background: var(--accent);
+    border-radius: 8px;
+    background: var(--surface);
   }
   .gallery img {
     width: 100%; height: 100%; object-fit: cover;
     transition: transform .2s ease;
   }
   .gallery a:hover img { transform: scale(1.04); }
-  /* If only 1 or 2 images, let them stretch full width side-by-side */
   .gallery.count-1 { grid-template-columns: 1fr; }
   .gallery.count-2 { grid-template-columns: repeat(2, 1fr); }
-  .linked, .ref-article {
-    margin-top: 12px; padding: 10px 14px; background: var(--accent);
-    border-radius: 8px; font-size: 14px;
+
+  /* Full pane: long-form reading */
+  .full-block {
+    background: var(--bg); border-radius: 12px;
+    padding: 24px 28px; margin-bottom: 20px;
+    border: 1px solid var(--border);
   }
-  .linked .lbl, .ref-article .lbl { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
-  .linked-title { font-weight: 500; }
-  .excerpt { color: var(--muted); margin-top: 6px; white-space: pre-wrap; }
-  details { margin-top: 8px; }
-  details summary { cursor: pointer; color: var(--link); font-size: 13px; }
-  details > div { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--border); color: var(--fg); }
-  .md-body { font-size: 14px; line-height: 1.6; max-height: 700px; overflow-y: auto; }
-  .md-body p { margin: 0 0 8px; }
-  .md-body h1, .md-body h2, .md-body h3 { font-size: 15px; margin: 12px 0 6px; }
-  .md-body ul, .md-body ol { margin: 0 0 8px; padding-left: 20px; }
-  .md-body img { max-width: 100%; border-radius: 6px; margin: 12px auto; display: block; border: 1px solid var(--border); }
-  .md-body a { color: var(--link); word-break: break-word; }
-  .md-body blockquote { margin: 8px 0; padding: 4px 12px; border-left: 2px solid var(--border); color: var(--muted); }
-  .md-body code { background: var(--accent); padding: 1px 4px; border-radius: 3px; font-size: 13px; }
-  .md-body pre { background: var(--accent); padding: 8px 12px; border-radius: 4px; overflow-x: auto; }
-  .lang-lbl { color: var(--muted); font-size: 11px; margin: 4px 0; text-transform: uppercase; letter-spacing: 0.05em; }
-  /* Page embeds / preview cards for non-article linked URLs (github repo, landing pages, etc.). */
-  .page-embed { position: relative; margin-top: 8px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg); }
+  .full-block .lbl {
+    color: var(--muted); font-size: 11.5px; margin-bottom: 8px;
+    text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .full-block .lbl .icon { width: 13px; height: 13px; color: var(--muted); }
+  .full-block .full-title {
+    font-size: 17px; font-weight: 600; margin-bottom: 12px;
+    line-height: 1.35; letter-spacing: -0.01em;
+  }
+  .full-block .full-title a { color: var(--fg); text-decoration: none; }
+  .full-block .full-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .lang-lbl {
+    color: var(--faint); font-size: 11px; margin: 4px 0;
+    text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+  }
+
+  /* Markdown body inside full pane — reading-optimized */
+  .md-body { font-size: 15px; line-height: 1.7; color: var(--fg); }
+  .md-body p { margin: 0 0 14px; }
+  .md-body h1, .md-body h2, .md-body h3 {
+    font-size: 16px; font-weight: 600; margin: 22px 0 10px;
+    letter-spacing: -0.01em;
+  }
+  .md-body h1 { font-size: 18px; }
+  .md-body ul, .md-body ol { margin: 0 0 14px; padding-left: 22px; }
+  .md-body li { margin-bottom: 4px; }
+  .md-body img {
+    max-width: 100%; border-radius: 8px;
+    margin: 14px auto; display: block;
+  }
+  .md-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); word-break: break-word; }
+  .md-body a:hover { border-bottom-color: var(--accent); }
+  .md-body blockquote {
+    margin: 12px 0; padding: 6px 14px;
+    border-left: 3px solid var(--border); color: var(--muted);
+  }
+  .md-body code {
+    background: var(--surface); padding: 1px 5px;
+    border-radius: 4px; font-size: 13.5px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .md-body pre {
+    background: var(--surface); padding: 14px 16px;
+    border-radius: 8px; overflow-x: auto;
+    font-size: 13.5px; line-height: 1.55;
+  }
+  .md-body pre code { background: none; padding: 0; }
+
+  /* Page card (non-article linked URL) */
+  .page-embed { position: relative; margin-top: 10px; border-radius: 10px; overflow: hidden; background: var(--surface); border: 1px solid var(--border); }
   .page-embed iframe { display: block; width: 100%; height: 70vh; border: 0; background: var(--bg); }
   .page-embed .page-open-overlay {
-    position: absolute; top: 8px; right: 8px;
-    padding: 4px 10px; border-radius: 999px;
-    background: rgba(0,0,0,0.65); color: #fff;
+    position: absolute; top: 10px; right: 10px;
+    padding: 5px 11px; border-radius: 999px;
+    background: rgba(17, 24, 39, 0.78); color: #fff;
     font-size: 12px; text-decoration: none;
-    backdrop-filter: blur(6px);
+    display: inline-flex; align-items: center; gap: 5px;
+    backdrop-filter: blur(8px);
   }
-  .page-embed .page-open-overlay:hover { background: rgba(0,0,0,0.85); }
-  .page-card { display: flex; flex-direction: column; gap: 0; margin-top: 8px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--accent); }
-  .page-card-link { display: flex; gap: 12px; padding: 12px; color: var(--fg); text-decoration: none; align-items: flex-start; }
-  .page-card-link:hover { background: var(--bg); }
-  .page-card-thumb { width: 96px; height: 96px; flex: 0 0 96px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); background: var(--bg); }
+  .page-embed .page-open-overlay:hover { background: rgba(17, 24, 39, 0.92); }
+  .page-card {
+    display: flex; flex-direction: column; margin-top: 12px;
+    border-radius: 10px; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--border);
+    transition: background 0.12s;
+  }
+  .page-card:hover { background: var(--surface-hover); }
+  .page-card-link { display: flex; gap: 14px; padding: 14px; color: var(--fg); text-decoration: none; align-items: flex-start; }
+  .page-card-thumb { width: 88px; height: 88px; flex: 0 0 88px; object-fit: cover; border-radius: 8px; background: var(--bg); }
   .page-card-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-  .page-card-host { color: var(--muted); font-size: 12px; text-transform: lowercase; }
-  .page-card-title { font-size: 14px; font-weight: 600; word-break: break-word; }
-  .page-card-desc { color: var(--muted); font-size: 13px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .page-card-cta { display: inline-block; padding: 6px 12px; margin: 0 12px 12px; align-self: flex-start; border-radius: 6px; background: var(--card); border: 1px solid var(--border); color: var(--link); text-decoration: none; font-size: 12px; }
-  .page-card-cta:hover { background: var(--bg); }
-  .metrics { color: var(--muted); font-size: 12px; margin-top: 10px; }
-  .view-on-x { font-size: 12px; color: var(--link); text-decoration: none; }
-  a { color: var(--link); }
+  .page-card-host { color: var(--muted); font-size: 12px; }
+  .page-card-title { font-size: 14px; font-weight: 600; word-break: break-word; line-height: 1.35; }
+  .page-card-desc { color: var(--muted); font-size: 13px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .page-card-cta {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 6px 12px; margin: 0 14px 14px;
+    align-self: flex-start; border-radius: 6px;
+    background: var(--bg); color: var(--muted);
+    text-decoration: none; font-size: 12px; font-weight: 500;
+    border: 1px solid var(--border);
+    transition: color 0.12s, background 0.12s;
+  }
+  .page-card-cta:hover { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+
+  /* Engagement metrics: tiny stat chips */
+  .metrics {
+    color: var(--muted); font-size: 12.5px; margin-top: 12px;
+    display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+  }
+  .metrics .stat {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-variant-numeric: tabular-nums;
+  }
+  .metrics .stat .icon { color: var(--faint); }
+  .view-on-x {
+    font-size: 12px; color: var(--muted); text-decoration: none;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .view-on-x:hover { color: var(--accent); }
+
+  /* Generic links */
+  a { color: var(--accent); }
   #empty { color: var(--muted); text-align: center; padding: 40px; }
+
+  /* Scrollbar polish */
+  .list-pane::-webkit-scrollbar, .summary-pane::-webkit-scrollbar, .full-pane::-webkit-scrollbar {
+    width: 10px;
+  }
+  .list-pane::-webkit-scrollbar-thumb, .summary-pane::-webkit-scrollbar-thumb, .full-pane::-webkit-scrollbar-thumb {
+    background: transparent; border-radius: 999px;
+  }
+  .list-pane:hover::-webkit-scrollbar-thumb, .summary-pane:hover::-webkit-scrollbar-thumb, .full-pane:hover::-webkit-scrollbar-thumb {
+    background: var(--border);
+  }
 </style>
 </head>
 <body>
+<!--
+  Inline SVG icon library. Every <use> elsewhere in the page references one of
+  these <symbol>s via fragment id. currentColor inheritance + stroke-based
+  paths make them recolorable from CSS.
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol>
+    <symbol id="i-thumb-up" viewBox="0 0 24 24"><path d="M7 10v12"/><path d="M15 5.88 14 12h5.5a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.18 24H7c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h2.83c.79 0 1.5-.47 1.83-1.19l1.7-3.8C13.7 2.13 14.5 2 15.3 2c.78 0 1.45.66 1.7 1.43.46 1.43.4 2.83 0 4.45z"/></symbol>
+    <symbol id="i-thumb-down" viewBox="0 0 24 24"><path d="M17 14V2"/><path d="M9 18.12 10 12H4.5a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.82 0H17c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-2.83c-.79 0-1.5.47-1.83 1.19l-1.7 3.8C10.3 21.87 9.5 22 8.7 22a1.78 1.78 0 0 1-1.7-1.43c-.46-1.43-.4-2.83 0-4.45z"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-file-text" viewBox="0 0 24 24"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></symbol>
+    <symbol id="i-book-open" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></symbol>
+  </defs>
+</svg>
+
 <div class="topbar">
-  <h1>X Bookmarks + Favorites</h1>
+  <div class="brand">
+    <span class="brand-mark">𝕏</span>
+    <span class="brand-dot">·</span>
+    <span class="brand-word">Lire</span>
+  </div>
   <span class="meta" id="meta">Loading…</span>
-  <button data-source="" class="active">All</button>
-  <button data-source="bookmark@chumsdock">chumsdock bookmarks</button>
-  <button data-source="favorite@chumsdock">chumsdock favs</button>
-  <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
-  <button data-source="favorite@CatHanami97880">hanami favs</button>
-  <button id="fav-only">★ Favorites</button>
-  <select id="lang" style="font-size:12px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--fg);">
-    <option value="auto">中文优先</option>
-    <option value="both">中英对照</option>
-    <option value="en">English only</option>
-  </select>
-  <input class="search" id="q" placeholder="Search…" />
+  <div class="topbar-spacer"></div>
+  <div class="topbar-right">
+    <div class="seg" id="seg-type" role="tablist" aria-label="Type">
+      <button data-type="" class="active">All</button>
+      <button data-type="bookmark">Bookmarks</button>
+      <button data-type="favorite">Favorites</button>
+    </div>
+    <div class="seg" id="seg-user" role="tablist" aria-label="Account">
+      <button data-user="" class="active">All</button>
+      <button data-user="chumsdock">chumsdock</button>
+      <button data-user="CatHanami97880">hanami</button>
+    </div>
+    <button id="fav-only" class="icon-btn" title="Favorites only" aria-label="Toggle favorites only">
+      <svg class="icon"><use href="#i-star"/></svg>
+    </button>
+    <select id="lang" class="lang-select" aria-label="Language">
+      <option value="auto">中文优先</option>
+      <option value="both">中英对照</option>
+      <option value="en">English only</option>
+    </select>
+    <label class="search-wrap">
+      <svg class="icon search-icon icon-sm"><use href="#i-search"/></svg>
+      <input class="search" id="q" placeholder="Search…" />
+    </label>
+  </div>
 </div>
 <div class="panes" id="panes">
   <div class="list-pane" id="list"></div>
@@ -278,6 +551,13 @@ const detailLoadPromises = {};
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 const urlRE = /https?:\/\/[^\s<>"']+/g;
+// Inline SVG icon via <use href="#i-name"/>. `cls` adds modifier classes
+// like "icon-sm" to override the default 16px size.
+function icon(name, cls = "") {
+  const classes = ("icon " + cls).trim();
+  return `<svg class="${classes}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
+}
+
 const linkify = s => esc(s).replace(urlRE, u => {
   const clean = u.replace(/[.,;:!?)]$/, "");
   const trailing = u.slice(clean.length);
@@ -381,7 +661,7 @@ function renderSummary(item, refArticles) {
   const handle = esc(a.username || "unknown");
   const tweetUrl = item.url || "";
   const created = item.created_at ? new Date(item.created_at).toLocaleString() : "";
-  const sources = (item.sources || []).map(s => esc(shortenSource(s))).join(" · ");
+  const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
   const images = collectImages(item, refArticles);
 
   let html = `<div class="summary-card">`;
@@ -399,18 +679,18 @@ function renderSummary(item, refArticles) {
   const teasers = [];
   if (item.article_url) {
     const t = esc(item.article_title || "X Article");
-    teasers.push(`<div>📄 X Article: <a href="${esc(item.article_url)}" target="_blank">${t}</a></div>`);
+    teasers.push(`<div>${icon("file-text", "icon-sm")}<span>X Article: <a href="${esc(item.article_url)}" target="_blank">${t}</a></span></div>`);
   }
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
     const ref = m ? lookupRef(m[1]) : null;
     if (!ref) continue;
     const isArticle = !!(ref.article_text || "").trim();
-    const icon = isArticle ? "📄" : "💬";
+    const refIcon = isArticle ? icon("file-text", "icon-sm") : icon("message", "icon-sm");
     const kind = isArticle ? "Article" : "Tweet";
     const t = esc(ref.article_title || (isArticle ? "X Article" : "X Tweet"));
     const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
-    teasers.push(`<div>${icon} Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${t}</a></div>`);
+    teasers.push(`<div>${refIcon}<span>Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${t}</a></span></div>`);
   }
   let linkCount = 0;
   for (const lc of linkedFor(item)) {
@@ -419,13 +699,13 @@ function renderSummary(item, refArticles) {
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
     linkCount++;
   }
-  if (linkCount) teasers.push(`<div>🔗 ${linkCount} linked source${linkCount > 1 ? "s" : ""}</div>`);
+  if (linkCount) teasers.push(`<div>${icon("link", "icon-sm")}<span>${linkCount} linked source${linkCount > 1 ? "s" : ""}</span></div>`);
   if (teasers.length) {
-    html += `<div style="font-size:13px;color:var(--muted);margin-top:8px">${teasers.join("")}</div>`;
+    html += `<div class="teasers">${teasers.join("")}</div>`;
   }
 
   if (hasFullContent(item)) {
-    html += `<button class="show-full-btn has-content" id="show-full">Read full content →</button>`;
+    html += `<button class="show-full-btn has-content" id="show-full"><span>Read full content</span>${icon("arrow-right", "icon-sm")}</button>`;
   }
 
   if (images.length) {
@@ -438,16 +718,17 @@ function renderSummary(item, refArticles) {
     html += `</div>`;
   }
 
-  // Metrics
+  // Metrics — small stat chips with SVG icons
   const m2 = item.public_metrics || {};
   const bits = [];
-  if (m2.like_count) bits.push(`♥ ${m2.like_count.toLocaleString()}`);
-  if (m2.retweet_count) bits.push(`🔁 ${m2.retweet_count.toLocaleString()}`);
-  if (m2.reply_count) bits.push(`💬 ${m2.reply_count.toLocaleString()}`);
-  if (m2.bookmark_count) bits.push(`🔖 ${m2.bookmark_count.toLocaleString()}`);
-  if (m2.impression_count) bits.push(`👁 ${m2.impression_count.toLocaleString()}`);
-  if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
-  if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
+  const stat = (iconName, n) => `<span class="stat">${icon(iconName, "icon-sm")}${n.toLocaleString()}</span>`;
+  if (m2.like_count) bits.push(stat("heart", m2.like_count));
+  if (m2.retweet_count) bits.push(stat("repeat", m2.retweet_count));
+  if (m2.reply_count) bits.push(stat("message", m2.reply_count));
+  if (m2.bookmark_count) bits.push(stat("bookmark", m2.bookmark_count));
+  if (m2.impression_count) bits.push(stat("eye", m2.impression_count));
+  if (bits.length) html += `<div class="metrics">${bits.join("")}</div>`;
+  if (tweetUrl) html += `<div style="margin-top:10px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X ${icon("external", "icon-sm")}</a></div>`;
 
   // User actions: favorite + thumbs
   const st = getItemState(item.id);
@@ -457,9 +738,9 @@ function renderSummary(item, refArticles) {
   const dwell = st.reading_seconds || 0;
   const dwellLabel = dwell ? `${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"} read` : "";
   html += `<div class="actions">`;
-  html += `<button class="act fav${favCls}" data-act="fav">★ ${st.favorite ? "Favorited" : "Favorite"}</button>`;
-  html += `<button class="act${upCls}" data-act="up">👍</button>`;
-  html += `<button class="act${downCls}" data-act="down">👎</button>`;
+  html += `<button class="act fav${favCls}" data-act="fav" aria-pressed="${st.favorite ? 'true' : 'false'}">${icon("star")}<span>${st.favorite ? "Favorited" : "Favorite"}</span></button>`;
+  html += `<button class="act icon-only${upCls}" data-act="up" aria-label="Thumbs up" title="Thumbs up">${icon("thumb-up")}</button>`;
+  html += `<button class="act icon-only${downCls}" data-act="down" aria-label="Thumbs down" title="Thumbs down">${icon("thumb-down")}</button>`;
   if (dwellLabel) html += `<span class="dwell-tag">${dwellLabel}</span>`;
   html += `</div>`;
   html += `</div>`;
@@ -491,7 +772,7 @@ function renderPageEmbed(lc, url) {
       `<div class="page-embed">` +
         `<iframe src="${safeUrl}" loading="lazy" referrerpolicy="no-referrer" ` +
           `sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe>` +
-        `<a class="page-open-overlay" href="${safeUrl}" target="_blank" rel="noopener">Open in tab ↗</a>` +
+        `<a class="page-open-overlay" href="${safeUrl}" target="_blank" rel="noopener">Open in tab ${icon("external", "icon-sm")}</a>` +
       `</div>`
     );
   }
@@ -511,7 +792,7 @@ function renderPageEmbed(lc, url) {
           (desc ? `<div class="page-card-desc">${esc(desc)}</div>` : "") +
         `</div>` +
       `</a>` +
-      `<a class="page-card-cta" href="${safeUrl}" target="_blank" rel="noopener">Open ${host} ↗</a>` +
+      `<a class="page-card-cta" href="${safeUrl}" target="_blank" rel="noopener">Open ${host} ${icon("external", "icon-sm")}</a>` +
     `</div>`
   );
 }
@@ -532,7 +813,7 @@ function renderFull(item, refArticles) {
     }
     blocks.push(
       `<div class="full-block">` +
-      `<div class="lbl">📄 X Article (own)</div>` +
+      `<div class="lbl">${icon("file-text", "icon-sm")} X Article (own)</div>` +
       `<div class="full-title"><a href="${esc(item.article_url)}" target="_blank">${title}</a></div>` +
       inner +
       `</div>`
@@ -548,7 +829,7 @@ function renderFull(item, refArticles) {
     const tweetText = (ref.text || "").trim();
     const isArticle = !!articleText;
     if (!articleText && !tweetText) continue;
-    const icon = isArticle ? "📄" : "💬";
+    const refIcon = isArticle ? icon("file-text", "icon-sm") : icon("message", "icon-sm");
     const kind = isArticle ? "Article" : "Tweet";
     // Tweets don't have a real title — use the first non-URL chunk of body
     // (max ~80 chars) so the heading is something readable instead of
@@ -579,7 +860,7 @@ function renderFull(item, refArticles) {
     }
     blocks.push(
       `<div class="full-block">` +
-      `<div class="lbl">${icon} Referenced X ${kind}${who}</div>` +
+      `<div class="lbl">${refIcon} Referenced X ${kind}${who}</div>` +
       `<div class="full-title"><a href="${esc(ref.url || url)}" target="_blank">${title}</a></div>` +
       inner +
       `</div>`
@@ -603,7 +884,7 @@ function renderFull(item, refArticles) {
       const inner = renderPageEmbed(lc, u);
       blocks.push(
         `<div class="full-block">` +
-        `<div class="lbl">🔗 Linked page</div>` +
+        `<div class="lbl">${icon("link", "icon-sm")} Linked page</div>` +
         `<div class="full-title"><a href="${esc(u)}" target="_blank">${titleHtml}</a></div>` +
         inner +
         `</div>`
@@ -623,7 +904,7 @@ function renderFull(item, refArticles) {
     }
     blocks.push(
       `<div class="full-block">` +
-      `<div class="lbl">🔗 Linked content</div>` +
+      `<div class="lbl">${icon("link", "icon-sm")} Linked content</div>` +
       `<div class="full-title"><a href="${esc(u)}" target="_blank">${titleHtml}</a></div>` +
       inner +
       `</div>`
@@ -640,7 +921,8 @@ let allItems = [];
 let refArticles = {};
 let linkedByUrl = {};
 let itemsById = {};
-let currentFilter = "";
+let typeFilter = "";   // "" | "bookmark" | "favorite"
+let userFilter = "";   // "" | "chumsdock" | "CatHanami97880"
 let currentQuery = "";
 
 // Resolve an item's linked content entries. Prefers the new shape
@@ -833,7 +1115,12 @@ function rowTitle(item) {
 }
 
 function shortenSource(s) {
-  return s.replace("bookmark@", "🔖 ").replace("favorite@", "♥ ").replace("CatHanami97880", "hanami");
+  // Return HTML — caller drops it into <span class="src"> directly. SVG icon
+  // + user handle, no emoji.
+  const [type, user] = s.split("@");
+  const userLabel = (user || "").replace("CatHanami97880", "hanami");
+  const ic = type === "bookmark" ? icon("bookmark", "icon-sm") : icon("heart", "icon-sm");
+  return `${ic}${esc(userLabel)}`;
 }
 
 function renderRow(item) {
@@ -856,20 +1143,25 @@ function renderRow(item) {
       if (md.length) { thumb = md[0]; break; }
     }
   }
-  const sources = (item.sources || []).map(s => `<span class="src">${esc(shortenSource(s))}</span>`).join("");
+  const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
   const date = item.created_at ? new Date(item.created_at).toLocaleDateString() : "";
   const sel = item.id === selectedId ? " selected" : "";
   const st = getItemState(item.id);
   const favCls = st.favorite ? " fav" : "";
-  const thumbBadge = st.thumb === "up" ? " 👍" : st.thumb === "down" ? " 👎" : "";
+  const favMark = st.favorite ? `<span class="fav-mark" title="Favorited">${icon("star", "icon-sm")}</span>` : "";
+  const thumbBadge = st.thumb === "up"
+    ? ` <span class="r-dwell">${icon("thumb-up", "icon-sm")}</span>`
+    : st.thumb === "down"
+    ? ` <span class="r-dwell">${icon("thumb-down", "icon-sm")}</span>`
+    : "";
   const dwell = st.reading_seconds || 0;
-  const dwellSpan = dwell ? `<span class="r-dwell">· ${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"}</span>` : "";
+  const dwellSpan = dwell ? `<span class="r-dwell">${icon("clock", "icon-sm")}${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"}</span>` : "";
   return (
     `<div class="row${sel}${favCls}" data-id="${esc(item.id)}">` +
     `<div class="r-main">` +
-      `<div class="r-author">${name} <span class="handle">@${handle}</span>${thumbBadge}</div>` +
+      `<div class="r-author">${favMark}${name} <span class="handle">@${handle}</span>${thumbBadge}</div>` +
       `<div class="r-title">${title}</div>` +
-      `<div class="r-meta">${sources}<span>${esc(date)}${dwellSpan}</span></div>` +
+      `<div class="r-meta">${sources}<span>${esc(date)}</span>${dwellSpan}</div>` +
     `</div>` +
     (thumb ? `<img class="r-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : "") +
     `</div>`
@@ -880,7 +1172,14 @@ let favOnly = false;
 function renderList() {
   const list = document.getElementById("list");
   filteredItems = allItems.filter(item => {
-    if (currentFilter && !(item.sources || []).includes(currentFilter)) return false;
+    if (typeFilter || userFilter) {
+      const sources = item.sources || [];
+      const matches = sources.some(s => {
+        const [t, u] = s.split("@");
+        return (!typeFilter || t === typeFilter) && (!userFilter || u === userFilter);
+      });
+      if (!matches) return false;
+    }
     if (favOnly && !getItemState(item.id).favorite) return false;
     if (currentQuery) {
       const haystack = ((item.text || "") + " " + (item.author?.name || "") + " " + (item.author?.username || "")).toLowerCase();
@@ -913,10 +1212,10 @@ function renderReader() {
     return;
   }
   summaryInner.innerHTML =
-    `<button class="back-btn" id="back-list">← Back to list</button>` +
+    `<button class="back-btn" id="back-list">${icon("arrow-left", "icon-sm")} Back to list</button>` +
     renderSummary(item, refArticles);
   fullInner.innerHTML =
-    `<button class="back-btn" id="back-summary">← Back to summary</button>` +
+    `<button class="back-btn" id="back-summary">${icon("arrow-left", "icon-sm")} Back to summary</button>` +
     renderFull(item, refArticles);
   document.querySelector("#summary").scrollTop = 0;
   document.querySelector("#full").scrollTop = 0;
@@ -1054,14 +1353,20 @@ document.getElementById("summary").addEventListener("click", e => {
   else if (act === "up") setThumb(selectedId, "up");
   else if (act === "down") setThumb(selectedId, "down");
 });
-for (const btn of document.querySelectorAll(".topbar button[data-source]")) {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".topbar button[data-source]").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    currentFilter = btn.dataset.source;
-    applyFilters();
-  });
+function wireSegmented(containerId, attr, setter) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  for (const btn of container.querySelectorAll("button")) {
+    btn.addEventListener("click", () => {
+      container.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      setter(btn.dataset[attr] || "");
+      applyFilters();
+    });
+  }
 }
+wireSegmented("seg-type", "type", v => { typeFilter = v; });
+wireSegmented("seg-user", "user", v => { userFilter = v; });
 document.getElementById("q").addEventListener("input", e => {
   currentQuery = e.target.value.trim().toLowerCase();
   applyFilters();
