@@ -296,6 +296,8 @@
   .actions .act.on { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
   .actions .act.fav.on { background: rgba(217, 119, 6, 0.10); color: var(--warning); border-color: transparent; }
   .actions .act.fav.on .icon { fill: var(--warning); stroke: var(--warning); }
+  .actions .act.translate.on { background: var(--surface); color: var(--muted); border-color: transparent; cursor: default; opacity: 0.85; }
+  .actions .act[disabled] { cursor: default; }
   .actions .act.icon-only { width: 34px; height: 34px; padding: 0; justify-content: center; }
   .actions .dwell-tag { color: var(--muted); font-size: 12px; margin-left: auto; }
 
@@ -781,6 +783,15 @@ function renderSummary(item, refArticles) {
   html += `<button class="act fav${favCls}" data-act="fav" aria-pressed="${st.favorite ? 'true' : 'false'}">${icon("star")}<span>${st.favorite ? "Favorited" : "Favorite"}</span></button>`;
   html += `<button class="act icon-only${upCls}" data-act="up" aria-label="Thumbs up" title="Thumbs up">${icon("thumb-up")}</button>`;
   html += `<button class="act icon-only${downCls}" data-act="down" aria-label="Thumbs down" title="Thumbs down">${icon("thumb-down")}</button>`;
+  // Translate button — only render when STATE_URL is configured (we need the
+  // worker to relay the workflow dispatch) AND the item has at least one
+  // missing translation, or has already been queued in this session.
+  const queued = translateQueued.has(item.id);
+  if (STATE_URL && (queued || itemNeedsTranslation(item))) {
+    const label = queued ? "Queued" : "Translate";
+    const cls = queued ? " on" : "";
+    html += `<button class="act translate${cls}" data-act="translate" ${queued ? 'disabled' : ''} title="${queued ? 'Translation queued — workflow running' : 'Queue this item for translation'}">${icon("book-open")}<span>${label}</span></button>`;
+  }
   if (dwellLabel) html += `<span class="dwell-tag">${dwellLabel}</span>`;
   html += `</div>`;
   html += `</div>`;
@@ -1020,6 +1031,27 @@ let userState = JSON.parse(localStorage.getItem("X_USER_STATE_CACHE") || '{"item
 let pendingPatches = {}; // { tweet_id: {favorite?, thumb?, reading_seconds?, last_read_at?} }
 let dwellStartedAt = 0;  // ms timestamp when current selection started being read
 let dwellItemId = null;  // which item the timer is counting for
+
+// Manual-translate queue. Click the Translate button in the action bar to ask
+// the CF Worker to dispatch the Translate Feed workflow with this item's id
+// as priority. The id stays in localStorage until the next page load notices
+// the translation actually landed (text_zh + article_text_zh populated), so
+// the button can persistently show "Queued" across refreshes.
+const TRANSLATE_QUEUE_KEY = "X_TRANSLATE_QUEUED";
+let translateQueued = new Set(JSON.parse(localStorage.getItem(TRANSLATE_QUEUE_KEY) || "[]"));
+function saveTranslateQueue() {
+  try { localStorage.setItem(TRANSLATE_QUEUE_KEY, JSON.stringify([...translateQueued])); } catch {}
+}
+function itemNeedsTranslation(item) {
+  if (!item) return false;
+  if ((item.text || "").trim() && !(item.text_zh || "").trim()) return true;
+  if ((item.article_text || "").trim() && !(item.article_text_zh || "").trim()) return true;
+  for (const u of (item.linked_content_urls || [])) {
+    const lc = linkedByUrl[u];
+    if (lc && (lc.text_excerpt || "").trim() && !(lc.text_excerpt_zh || "").trim()) return true;
+  }
+  return false;
+}
 
 function getItemState(id) {
   return (userState.items && userState.items[id]) || {};
@@ -1324,6 +1356,10 @@ function loadDetailWindow(window) {
     .then(bundle => {
       mergeDetailBundle(bundle);
       loadedDetailWindows.add(window);
+      // Now that article_text / linked excerpts are present, the translate
+      // button can know whether the item actually needs translation, and the
+      // reconciler can clear items whose translation has landed.
+      reconcileTranslateQueue();
       // Re-render the currently-open item so its full body shows up once
       // detail arrives.
       renderReader();
@@ -1367,6 +1403,7 @@ Promise.all([
       loadedDetailWindows.add("archive");
     }
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
+    reconcileTranslateQueue();
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     const synced = STATE_URL ? " · synced" : " · local-only";
     document.getElementById("meta").innerHTML =
@@ -1392,7 +1429,65 @@ document.getElementById("summary").addEventListener("click", e => {
   if (act === "fav") toggleFavorite(selectedId);
   else if (act === "up") setThumb(selectedId, "up");
   else if (act === "down") setThumb(selectedId, "down");
+  else if (act === "translate") queueTranslation(selectedId);
 });
+
+async function queueTranslation(id) {
+  if (!STATE_URL || !STATE_TOKEN) return;
+  // Derive the translate-now endpoint from the configured state URL by
+  // swapping the path. Both routes live on the same Worker.
+  let translateUrl;
+  try {
+    const u = new URL(STATE_URL);
+    u.pathname = "/translate-now";
+    translateUrl = u.toString();
+  } catch {
+    return;
+  }
+  translateQueued.add(id);
+  saveTranslateQueue();
+  renderReader();
+  try {
+    const resp = await fetch(translateUrl, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${STATE_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ id }),
+    });
+    if (!resp.ok) {
+      // Roll back the optimistic queued state so the user can retry.
+      translateQueued.delete(id);
+      saveTranslateQueue();
+      renderReader();
+      const text = await resp.text();
+      console.warn("translate-now failed:", resp.status, text);
+      alert(`Translation request failed (${resp.status}). See console.`);
+    }
+  } catch (err) {
+    translateQueued.delete(id);
+    saveTranslateQueue();
+    renderReader();
+    console.warn("translate-now error:", err);
+    alert(`Translation request error: ${err.message}`);
+  }
+}
+
+// On startup, clear queued ids whose translation has actually landed so the
+// button doesn't show "Queued" forever after the workflow finished and the
+// detail bundle has merged.
+function reconcileTranslateQueue() {
+  let changed = false;
+  for (const id of [...translateQueued]) {
+    const item = itemsById[id];
+    if (item && !itemNeedsTranslation(item)) {
+      translateQueued.delete(id);
+      changed = true;
+    }
+  }
+  if (changed) saveTranslateQueue();
+}
 function wireSegmented(containerId, attr, setter) {
   const container = document.getElementById(containerId);
   if (!container) return;

@@ -69,29 +69,60 @@ export default {
     }
 
     const url = new URL(request.url);
-    if (url.pathname !== "/state") {
-      return withCors(new Response("Not found", { status: 404 }));
-    }
 
-    if (request.method === "GET") {
-      const data = (await env.USER_STATE.get("state", "json")) || EMPTY;
-      return jsonResponse(data);
-    }
-
-    if (request.method === "POST") {
-      let incoming;
-      try {
-        incoming = await request.json();
-      } catch {
-        return withCors(new Response("Invalid JSON", { status: 400 }));
+    if (url.pathname === "/state") {
+      if (request.method === "GET") {
+        const data = (await env.USER_STATE.get("state", "json")) || EMPTY;
+        return jsonResponse(data);
       }
-      const existing = (await env.USER_STATE.get("state", "json")) || EMPTY;
-      const merged = mergeState(existing, incoming);
-      merged.updated_at = new Date().toISOString();
-      await env.USER_STATE.put("state", JSON.stringify(merged));
-      return jsonResponse(merged);
+      if (request.method === "POST") {
+        let incoming;
+        try { incoming = await request.json(); }
+        catch { return withCors(new Response("Invalid JSON", { status: 400 })); }
+        const existing = (await env.USER_STATE.get("state", "json")) || EMPTY;
+        const merged = mergeState(existing, incoming);
+        merged.updated_at = new Date().toISOString();
+        await env.USER_STATE.put("state", JSON.stringify(merged));
+        return jsonResponse(merged);
+      }
+      return withCors(new Response("Method not allowed", { status: 405 }));
     }
 
-    return withCors(new Response("Method not allowed", { status: 405 }));
+    // Translate-now: viewer button → dispatch the Translate Feed workflow on
+    // GitHub with the requested item id as priority. Requires
+    // `wrangler secret put GH_DISPATCH_TOKEN` for a fine-grained PAT with
+    // `Actions: Read & Write` permission on the repo.
+    if (url.pathname === "/translate-now" && request.method === "POST") {
+      if (!env.GH_DISPATCH_TOKEN) {
+        return jsonResponse({ error: "GH_DISPATCH_TOKEN not configured" }, { status: 500 });
+      }
+      let body;
+      try { body = await request.json(); }
+      catch { return withCors(new Response("Invalid JSON", { status: 400 })); }
+      const id = (body && body.id ? String(body.id) : "").trim();
+      if (!id) return jsonResponse({ error: "id required" }, { status: 400 });
+      const repo = env.GH_REPO || "vorbei/x-library-feed";
+      const workflow = env.GH_WORKFLOW || "translate-feed.yml";
+      const ref = env.GH_REF || "main";
+      const dispatchUrl = `https://api.github.com/repos/${repo}/actions/workflows/${workflow}/dispatches`;
+      const resp = await fetch(dispatchUrl, {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${env.GH_DISPATCH_TOKEN}`,
+          "Accept": "application/vnd.github+json",
+          "User-Agent": "x-feed-state-worker",
+          "X-GitHub-Api-Version": "2022-11-28",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ref, inputs: { priority_id: id } }),
+      });
+      if (!resp.ok) {
+        const text = await resp.text();
+        return jsonResponse({ error: "dispatch failed", status: resp.status, body: text.slice(0, 500) }, { status: 502 });
+      }
+      return jsonResponse({ ok: true, id, queued_at: new Date().toISOString() });
+    }
+
+    return withCors(new Response("Not found", { status: 404 }));
   },
 };

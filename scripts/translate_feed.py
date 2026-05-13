@@ -16,6 +16,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -131,6 +132,8 @@ def maybe_translate(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", default="public/x-bookmarks-favorites.json")
+    parser.add_argument("--recent", default="public/feed-recent.json")
+    parser.add_argument("--archive", default="public/feed-archive.json")
     parser.add_argument(
         "--max-calls",
         type=int,
@@ -140,6 +143,11 @@ def main() -> int:
         "--model",
         default=os.environ.get("DEEPSEEK_MODEL", DEFAULT_MODEL),
     )
+    parser.add_argument(
+        "--priority-ids",
+        default=os.environ.get("TRANSLATE_PRIORITY_IDS", ""),
+        help="Comma-separated item ids translated first (bypasses --max-calls).",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
@@ -147,40 +155,87 @@ def main() -> int:
         print("::error::DEEPSEEK_API_KEY not set; nothing to do.", file=sys.stderr)
         return 1
 
-    path = Path(args.json)
-    if not path.exists():
-        print(f"::error::JSON not found at {path}", file=sys.stderr)
+    index_path = Path(args.json)
+    recent_path = Path(args.recent)
+    archive_path = Path(args.archive)
+    if not index_path.exists():
+        print(f"::error::Feed index not found at {index_path}", file=sys.stderr)
         return 1
 
-    store = json.loads(path.read_text(encoding="utf-8"))
+    # Phase 2 chunked the JSON into index + recent + archive. Load all three
+    # back into a unified store so the translator can patch
+    # article_text / linked_content / referenced_articles in one place; we'll
+    # write the chunks back out at the end.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from sync_x_library import read_chunked_feed, write_chunked_feed  # noqa: E402
+
+    store = read_chunked_feed(index_path, recent_path, archive_path, {})
     items: list[dict[str, Any]] = store.get("items") or []
     lc: dict[str, dict[str, Any]] = store.get("linked_content_by_url") or {}
     refs: dict[str, dict[str, Any]] = store.get("referenced_articles_by_id") or {}
 
     concurrency = max(1, int(os.environ.get("DEEPSEEK_TRANSLATE_CONCURRENCY", "3")))
 
+    priority_ids = {p.strip() for p in args.priority_ids.split(",") if p.strip()}
+    # Linked-content URLs / referenced-tweet ids touched by the priority items
+    # — translations for them should also bypass the max-calls cap.
+    priority_urls: set[str] = set()
+    priority_ref_ids: set[str] = set()
+    if priority_ids:
+        for item in items:
+            if item.get("id") not in priority_ids:
+                continue
+            for u in item.get("linked_content_urls") or []:
+                if u:
+                    priority_urls.add(u)
+            for u in item.get("primary_urls") or []:
+                m = re.match(
+                    r"^https?://(?:www\.)?(?:x|twitter)\.com/[^/]+/(?:status|article)/(\d+)",
+                    u or "",
+                    re.I,
+                )
+                if m:
+                    priority_ref_ids.add(m.group(1))
+            for r in item.get("referenced_tweets") or []:
+                rid = r.get("id") if isinstance(r, dict) else None
+                if rid:
+                    priority_ref_ids.add(str(rid))
+
     # 1) Collect pending jobs (each = which dict to patch + which keys).
     Job = tuple[dict[str, Any], str, str, str]
-    jobs: list[Job] = []
+    priority_jobs: list[Job] = []
+    regular_jobs: list[Job] = []
 
-    def maybe_enqueue(record: dict[str, Any], src_key: str, zh_key: str, hash_key: str) -> None:
-        if len(jobs) >= args.max_calls:
-            return
+    def maybe_enqueue(
+        record: dict[str, Any],
+        src_key: str,
+        zh_key: str,
+        hash_key: str,
+        is_priority: bool,
+    ) -> None:
         text = record.get(src_key) or ""
         if not text or not text.strip() or not is_english_dominant(text):
             return
         new_hash = content_hash(text)
         if record.get(zh_key) and record.get(hash_key) == new_hash:
             return
-        jobs.append((record, src_key, zh_key, hash_key))
+        bucket = priority_jobs if is_priority else regular_jobs
+        if not is_priority and len(regular_jobs) >= args.max_calls:
+            return
+        bucket.append((record, src_key, zh_key, hash_key))
 
     for item in items:
-        maybe_enqueue(item, "article_text", "article_text_zh", "article_text_zh_hash")
-    for entry in lc.values():
-        maybe_enqueue(entry, "text_excerpt", "text_excerpt_zh", "text_excerpt_zh_hash")
-    for ref in refs.values():
-        maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash")
-        maybe_enqueue(ref, "text", "text_zh", "text_zh_hash")
+        is_pri = item.get("id") in priority_ids
+        maybe_enqueue(item, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
+    for url, entry in lc.items():
+        is_pri = url in priority_urls
+        maybe_enqueue(entry, "text_excerpt", "text_excerpt_zh", "text_excerpt_zh_hash", is_pri)
+    for rid, ref in refs.items():
+        is_pri = rid in priority_ref_ids
+        maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
+        maybe_enqueue(ref, "text", "text_zh", "text_zh_hash", is_pri)
+
+    jobs: list[Job] = priority_jobs + regular_jobs
 
     print(
         f"::notice::translate_feed.py queued {len(jobs)} translation jobs "
@@ -236,10 +291,7 @@ def main() -> int:
     store["items"] = items
     store["linked_content_by_url"] = lc
     store["referenced_articles_by_id"] = refs
-    path.write_text(
-        json.dumps(store, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-        encoding="utf-8",
-    )
+    write_chunked_feed(store, index_path, recent_path, archive_path)
     return 0
 
 
