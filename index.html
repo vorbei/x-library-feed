@@ -480,22 +480,22 @@ function renderFull(item, refArticles) {
     );
   }
 
-  // Linked content excerpts
+  // Linked content excerpts — render as markdown regardless of source.
+  // Trafilatura output, CF /markdown output, and DeepSeek translations
+  // (which preserve markdown structure) are all marked-renderable.
   const images = collectImages(item, refArticles);
   for (const lc of (item.linked_content || [])) {
     const u = lc.final_url || lc.url || "";
     if (!u || images.includes(u)) continue;
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
     if (!(lc.text_excerpt || "").trim()) continue;
-    const isXArticle = /(?:x\.com|twitter\.com)\/.*\/article\//i.test(u);
     const rawTitle = lc.title || lc.description;
     const titleHtml = rawTitle && rawTitle.trim() && rawTitle.trim() !== u ? esc(rawTitle) : esc(u);
-    const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", isXArticle);
+    const bodies = pickBodies(lc.text_excerpt, lc.text_excerpt_zh || "", true);
     let inner = "";
     for (const b of bodies) {
-      // Same as above — keep inline images in article markdown.
-      const cleaned = isXArticle ? cleanArticleMarkdown(b.text) : b.text;
-      const rendered = isXArticle ? renderMarkdown(cleaned) : linkify(cleaned);
+      const cleaned = cleanArticleMarkdown(b.text);
+      const rendered = renderMarkdown(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
     }
