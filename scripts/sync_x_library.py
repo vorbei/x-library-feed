@@ -511,6 +511,7 @@ def fetch_link_content(url: str) -> dict[str, Any]:
             "description": "",
             "text_excerpt": "",
             "image_urls": [],
+            "frameable": False,  # X actively blocks framing
         }
         cf = _cf_browser_rendering(url)
         if cf:
@@ -519,6 +520,7 @@ def fetch_link_content(url: str) -> dict[str, Any]:
                 result["extraction_source"] = "cf_browser_rendering"
             elif cf.get("error"):
                 result["cf_fallback_error"] = cf["error"]
+        result["kind"] = classify_link(url, result)
         return result
 
     req = urllib.request.Request(
@@ -543,11 +545,15 @@ def fetch_link_content(url: str) -> dict[str, Any]:
         with urllib.request.urlopen(req, timeout=20) as resp:
             final_url = resp.geturl()
             content_type = resp.headers.get("content-type", "")
+            xfo = resp.headers.get("x-frame-options", "")
+            csp = resp.headers.get("content-security-policy", "")
             raw = resp.read(MAX_HTML_BYTES)
         result["final_url"] = final_url
         result["content_type"] = content_type
+        result["frameable"] = _is_frameable(xfo, csp)
         if content_type.lower().startswith("image/"):
             result["image_urls"] = [final_url]
+            result["kind"] = "image"
             return result
         if "html" in content_type.lower() or "xml" in content_type.lower():
             charset_match = re.search(r"charset=([^;]+)", content_type, re.I)
@@ -590,7 +596,184 @@ def fetch_link_content(url: str) -> dict[str, Any]:
             elif cf.get("error"):
                 result["cf_fallback_error"] = cf["error"]
 
+    result["kind"] = classify_link(url, result)
     return result
+
+
+# Hosts where the path layout makes the homepage / repo root / profile feel like
+# an interactive page rather than a readable article. Listed as suffix matches.
+_PAGE_LIKE_HOSTS = {
+    "github.com",
+    "gist.github.com",
+    "huggingface.co",
+    "gitlab.com",
+    "bitbucket.org",
+    "codeberg.org",
+    "sourceforge.net",
+    "npmjs.com",
+    "pypi.org",
+    "crates.io",
+    "rubygems.org",
+    "hub.docker.com",
+    "producthunt.com",
+    "linkedin.com",
+}
+
+# Hosts whose pages are almost always long-form prose worth rendering as markdown.
+_ARTICLE_HOSTS = {
+    "simonwillison.net",
+    "every.to",
+    "martinfowler.com",
+    "emilkowal.ski",
+    "yage.ai",
+    "blog.google",
+    "blog.cloudflare.com",
+    "engineering.atspotify.com",
+    "stratechery.com",
+    "platformer.news",
+    "ben-evans.com",
+    "danluu.com",
+    "paulgraham.com",
+    "lwn.net",
+    "openai.com",
+    "anthropic.com",
+    "www.anthropic.com",
+    "developers.openai.com",
+    "research.google",
+    "ai.googleblog.com",
+    "deepmind.google",
+}
+
+_ARTICLE_PATH_HINTS = (
+    "/blog/", "/posts/", "/post/", "/article/", "/articles/", "/p/", "/news/",
+    "/research/", "/papers/", "/docs/", "/wiki/", "/issues/", "/pull/", "/discussions/",
+)
+_ARTICLE_PATH_RE = re.compile(r"/(19|20)\d{2}/")
+_NAV_SLOP_PHRASES = (
+    "skip to content",
+    "navigation menu",
+    "toggle navigation",
+    "appearance settings",
+    "sign in",
+    "sign up",
+    "main navigation",
+)
+
+
+def _host_matches(host: str, hosts: set[str]) -> bool:
+    host = host.lower().lstrip(".")
+    return any(host == h or host.endswith("." + h) for h in hosts)
+
+
+def _is_frameable(x_frame_options: str, content_security_policy: str) -> bool | None:
+    """Return True/False/None based on standard anti-framing headers.
+
+    None means we couldn't determine it (no headers received) — viewer treats
+    that as "fall back to a preview card to be safe".
+    """
+    if not x_frame_options and not content_security_policy:
+        return None
+    xfo = (x_frame_options or "").strip().lower()
+    if xfo in {"deny", "sameorigin"} or xfo.startswith("allow-from"):
+        return False
+    csp = (content_security_policy or "").lower()
+    # Find a frame-ancestors directive if present.
+    for directive in csp.split(";"):
+        directive = directive.strip()
+        if directive.startswith("frame-ancestors"):
+            value = directive[len("frame-ancestors"):].strip()
+            tokens = value.split()
+            if not tokens:
+                return False
+            # 'none' or only self/scheme-restricted sources → not frameable
+            if "'none'" in tokens:
+                return False
+            if all(t in {"'self'", "'none'"} for t in tokens):
+                return False
+            if "*" in tokens:
+                return True
+            # any explicit allowlist that isn't us → treat as not frameable
+            return False
+    return True
+
+
+def classify_link(url: str, entry: dict[str, Any]) -> str:
+    """Return one of 'article', 'page', 'image', or 'unknown'.
+
+    URL heuristics win when they match; otherwise we look at the extracted text
+    shape (nav-slop ratio, paragraph length) to decide.
+    """
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.lower()
+    path = parsed.path or "/"
+
+    content_type = (entry.get("content_type") or "").lower()
+    if content_type.startswith("image/"):
+        return "image"
+    if re.search(r"\.(jpg|jpeg|png|gif|webp|svg)(\?|$)", path, re.I):
+        return "image"
+
+    # X URLs that reach the classifier are /article/... long-form posts (the
+    # only X URLs that pass should_fetch_link). Treat them as articles.
+    if "x.com" in host or "twitter.com" in host:
+        return "article" if "/article/" in path else "page"
+
+    segments = [s for s in path.split("/") if s]
+
+    # github / gist / similar dev-hub homepages → page
+    if _host_matches(host, _PAGE_LIKE_HOSTS):
+        if len(segments) <= 2:
+            return "page"
+        # github.com/<u>/<r>/<rest> — third segment decides
+        if host.endswith("github.com") and len(segments) >= 3:
+            kind_seg = segments[2].lower()
+            if kind_seg in {"tree", "actions", "projects", "settings", "releases", "stargazers", "network", "graphs", "pulse", "commits", "branches"}:
+                return "page"
+            if kind_seg in {"blob", "raw", "wiki", "issues", "pull", "discussions"}:
+                return "article"
+            return "page"
+        # other dev hubs: anything beyond /<u>/<r> we treat as article (file/issue/PR view)
+        return "article"
+
+    # explicit article hosts
+    if _host_matches(host, _ARTICLE_HOSTS):
+        return "article"
+
+    # arxiv / hf paper landings
+    if host.endswith("arxiv.org") and path.startswith(("/abs/", "/pdf/", "/html/")):
+        return "article"
+    if host.endswith("huggingface.co") and path.startswith("/papers/"):
+        return "article"
+
+    # wechat article URLs
+    if host.endswith("mp.weixin.qq.com") and path.startswith("/s"):
+        return "article"
+
+    # Path hints that strongly suggest a dated article
+    if any(hint in path for hint in _ARTICLE_PATH_HINTS) or _ARTICLE_PATH_RE.search(path):
+        return "article"
+
+    # Root or near-root paths on unknown hosts → likely a landing page
+    if path in {"", "/"} or path.rstrip("/").lower() in {"/index", "/index.html", "/index.htm"}:
+        return "page"
+
+    # Fallback: look at extracted text shape
+    text = (entry.get("text_excerpt") or "").strip()
+    if not text:
+        return "unknown"
+    lowered = text.lower()
+    nav_hits = sum(1 for phrase in _NAV_SLOP_PHRASES if phrase in lowered)
+    if nav_hits >= 3:
+        return "page"
+    paragraphs = [p for p in re.split(r"\n\s*\n", text) if p.strip()]
+    if paragraphs:
+        median_len = sorted(len(p) for p in paragraphs)[len(paragraphs) // 2]
+        if median_len < 80:
+            return "page"
+        if median_len >= 200:
+            return "article"
+
+    return "unknown"
 
 
 def clean_text(tweet: dict[str, Any]) -> str:
@@ -1006,6 +1189,16 @@ def update_linked_content(
                     content[u] = fut.result()
                 except Exception as e:
                     content[u] = {"url": u, "final_url": u, "fetch_error": str(e)[:300]}
+
+    # Backfill `kind` and `frameable` on cached entries that predate this code.
+    # `frameable` defaults to None (unknown — viewer falls back to preview card).
+    for u, entry in content.items():
+        if not isinstance(entry, dict):
+            continue
+        if "kind" not in entry:
+            entry["kind"] = classify_link(u, entry)
+        if "frameable" not in entry:
+            entry["frameable"] = None
 
     # Second pass: rebuild each item's linked_content from the now-populated cache.
     for item, urls in zip(items, item_url_lists):
