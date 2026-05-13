@@ -1,0 +1,13 @@
+name = "x-feed-state"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# Bind the KV namespace that holds the per-user state JSON.
+# Create it once with: wrangler kv namespace create USER_STATE
+# then paste the returned id here.
+[[kv_namespaces]]
+binding = "USER_STATE"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# Secrets (not in this file):
+#   wrangler secret put AUTH_TOKEN  # shared Bearer token, viewer sends in Authorization header

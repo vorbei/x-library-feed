@@ -140,6 +140,17 @@
     background: var(--link); color: white; border: none;
     border-radius: 999px; font-size: 13px; cursor: pointer;
   }
+  .actions { display: flex; gap: 8px; margin-top: 12px; align-items: center; flex-wrap: wrap; }
+  .actions .act {
+    border: 1px solid var(--border); background: var(--card); color: var(--fg);
+    padding: 5px 12px; border-radius: 999px; font-size: 13px; cursor: pointer;
+  }
+  .actions .act:hover { background: var(--accent); }
+  .actions .act.on { background: var(--link); color: white; border-color: var(--link); }
+  .actions .act.fav.on { background: #f59e0b; border-color: #f59e0b; color: white; }
+  .actions .dwell-tag { color: var(--muted); font-size: 12px; margin-left: auto; }
+  .row.fav .r-title::before { content: "★ "; color: #f59e0b; }
+  .row .r-dwell { color: var(--muted); font-size: 10px; margin-left: 4px; }
   @media (max-width: 1280px) {
     .show-full-btn.has-content { display: inline-block; }
   }
@@ -210,6 +221,7 @@
   <button data-source="favorite@chumsdock">chumsdock favs</button>
   <button data-source="bookmark@CatHanami97880">hanami bookmarks</button>
   <button data-source="favorite@CatHanami97880">hanami favs</button>
+  <button id="fav-only">★ Favorites</button>
   <select id="lang" style="font-size:12px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--fg);">
     <option value="auto">中文优先</option>
     <option value="both">中英对照</option>
@@ -406,6 +418,20 @@ function renderSummary(item, refArticles) {
   if (m2.impression_count) bits.push(`👁 ${m2.impression_count.toLocaleString()}`);
   if (bits.length) html += `<div class="metrics">${bits.join(" · ")}</div>`;
   if (tweetUrl) html += `<div style="margin-top:8px"><a class="view-on-x" href="${esc(tweetUrl)}" target="_blank">View on X →</a></div>`;
+
+  // User actions: favorite + thumbs
+  const st = getItemState(item.id);
+  const favCls = st.favorite ? " on" : "";
+  const upCls = st.thumb === "up" ? " on" : "";
+  const downCls = st.thumb === "down" ? " on" : "";
+  const dwell = st.reading_seconds || 0;
+  const dwellLabel = dwell ? `${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"} read` : "";
+  html += `<div class="actions">`;
+  html += `<button class="act fav${favCls}" data-act="fav">★ ${st.favorite ? "Favorited" : "Favorite"}</button>`;
+  html += `<button class="act${upCls}" data-act="up">👍</button>`;
+  html += `<button class="act${downCls}" data-act="down">👎</button>`;
+  if (dwellLabel) html += `<span class="dwell-tag">${dwellLabel}</span>`;
+  html += `</div>`;
   html += `</div>`;
   return html;
 }
@@ -546,6 +572,131 @@ function lookupRef(tid) {
 let selectedId = null;
 let filteredItems = [];
 
+// ---- User state (favorites / thumbs / reading time) ----
+const STATE_URL = localStorage.getItem("X_STATE_URL") || "";
+const STATE_TOKEN = localStorage.getItem("X_STATE_TOKEN") || "";
+let userState = JSON.parse(localStorage.getItem("X_USER_STATE_CACHE") || '{"items":{}}');
+let pendingPatches = {}; // { tweet_id: {favorite?, thumb?, reading_seconds?, last_read_at?} }
+let dwellStartedAt = 0;  // ms timestamp when current selection started being read
+let dwellItemId = null;  // which item the timer is counting for
+
+function getItemState(id) {
+  return (userState.items && userState.items[id]) || {};
+}
+
+function flushPendingPatchesSoon() {
+  clearTimeout(flushPendingPatchesSoon._t);
+  flushPendingPatchesSoon._t = setTimeout(flushPendingPatches, 1500);
+}
+
+async function flushPendingPatches() {
+  if (!Object.keys(pendingPatches).length) return;
+  // Always persist locally first
+  for (const [id, patch] of Object.entries(pendingPatches)) {
+    const cur = userState.items[id] || {};
+    const next = { ...cur };
+    if (patch.favorite !== undefined) next.favorite = patch.favorite;
+    if (patch.thumb !== undefined) next.thumb = patch.thumb;
+    if (typeof patch.reading_seconds === "number") {
+      next.reading_seconds = Math.max(cur.reading_seconds || 0, patch.reading_seconds);
+    }
+    if (patch.last_read_at) next.last_read_at = patch.last_read_at;
+    userState.items[id] = next;
+  }
+  localStorage.setItem("X_USER_STATE_CACHE", JSON.stringify(userState));
+  const payload = { items: pendingPatches };
+  pendingPatches = {};
+  if (!STATE_URL || !STATE_TOKEN) return; // offline-only mode
+  try {
+    const resp = await fetch(STATE_URL, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${STATE_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    if (resp.ok) {
+      const merged = await resp.json();
+      userState = merged;
+      localStorage.setItem("X_USER_STATE_CACHE", JSON.stringify(userState));
+    }
+  } catch (e) {
+    console.warn("state sync failed", e);
+  }
+}
+
+function queuePatch(id, patch) {
+  pendingPatches[id] = { ...(pendingPatches[id] || {}), ...patch };
+  flushPendingPatchesSoon();
+}
+
+async function loadUserState() {
+  if (!STATE_URL || !STATE_TOKEN) return;
+  try {
+    const resp = await fetch(STATE_URL, {
+      headers: { "Authorization": `Bearer ${STATE_TOKEN}` },
+    });
+    if (resp.ok) {
+      userState = await resp.json();
+      localStorage.setItem("X_USER_STATE_CACHE", JSON.stringify(userState));
+    }
+  } catch (e) {
+    console.warn("state load failed", e);
+  }
+}
+
+function stopDwellTimer() {
+  if (!dwellItemId || !dwellStartedAt) return;
+  const seconds = Math.round((Date.now() - dwellStartedAt) / 1000);
+  if (seconds >= 2 && seconds <= 60 * 60) {
+    const prev = (getItemState(dwellItemId).reading_seconds) || 0;
+    queuePatch(dwellItemId, {
+      reading_seconds: prev + seconds,
+      last_read_at: new Date().toISOString(),
+    });
+  }
+  dwellItemId = null;
+  dwellStartedAt = 0;
+}
+
+function startDwellTimer(id) {
+  stopDwellTimer();
+  dwellItemId = id;
+  dwellStartedAt = Date.now();
+}
+
+window.addEventListener("beforeunload", () => {
+  stopDwellTimer();
+  flushPendingPatches();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    stopDwellTimer();
+    flushPendingPatches();
+  } else if (selectedId) {
+    startDwellTimer(selectedId);
+  }
+});
+
+function toggleFavorite(id) {
+  const cur = getItemState(id);
+  queuePatch(id, { favorite: !cur.favorite });
+  userState.items[id] = { ...cur, favorite: !cur.favorite };
+  renderReader();
+  // Update the row star
+  const row = document.querySelector(`.row[data-id="${id}"]`);
+  if (row) row.classList.toggle("fav", !!userState.items[id].favorite);
+}
+
+function setThumb(id, value) {
+  const cur = getItemState(id);
+  const next = cur.thumb === value ? null : value;
+  queuePatch(id, { thumb: next });
+  userState.items[id] = { ...cur, thumb: next };
+  renderReader();
+}
+
 // Pick a short title for the list row, mirroring server-side best_item_title.
 function rowTitle(item) {
   if (item.article_title) return item.article_title;
@@ -589,22 +740,29 @@ function renderRow(item) {
   const sources = (item.sources || []).map(s => `<span class="src">${esc(shortenSource(s))}</span>`).join("");
   const date = item.created_at ? new Date(item.created_at).toLocaleDateString() : "";
   const sel = item.id === selectedId ? " selected" : "";
+  const st = getItemState(item.id);
+  const favCls = st.favorite ? " fav" : "";
+  const thumbBadge = st.thumb === "up" ? " 👍" : st.thumb === "down" ? " 👎" : "";
+  const dwell = st.reading_seconds || 0;
+  const dwellSpan = dwell ? `<span class="r-dwell">· ${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"}</span>` : "";
   return (
-    `<div class="row${sel}" data-id="${esc(item.id)}">` +
+    `<div class="row${sel}${favCls}" data-id="${esc(item.id)}">` +
     `<div class="r-main">` +
-      `<div class="r-author">${name} <span class="handle">@${handle}</span></div>` +
+      `<div class="r-author">${name} <span class="handle">@${handle}</span>${thumbBadge}</div>` +
       `<div class="r-title">${title}</div>` +
-      `<div class="r-meta">${sources}<span>${esc(date)}</span></div>` +
+      `<div class="r-meta">${sources}<span>${esc(date)}${dwellSpan}</span></div>` +
     `</div>` +
     (thumb ? `<img class="r-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : "") +
     `</div>`
   );
 }
 
+let favOnly = false;
 function renderList() {
   const list = document.getElementById("list");
   filteredItems = allItems.filter(item => {
     if (currentFilter && !(item.sources || []).includes(currentFilter)) return false;
+    if (favOnly && !getItemState(item.id).favorite) return false;
     if (currentQuery) {
       const haystack = ((item.text || "") + " " + (item.author?.name || "") + " " + (item.author?.username || "")).toLowerCase();
       if (!haystack.includes(currentQuery)) return false;
@@ -660,12 +818,14 @@ function renderReader() {
 }
 
 function selectItem(id) {
+  stopDwellTimer();
   selectedId = id;
   for (const r of document.querySelectorAll(".row")) {
     r.classList.toggle("selected", r.dataset.id === id);
   }
   document.getElementById("panes").classList.add("reading");
   renderReader();
+  startDwellTimer(id);
 }
 
 function applyFilters() {
@@ -673,15 +833,18 @@ function applyFilters() {
   renderReader();
 }
 
-fetch(FEED_URL + "?t=" + Date.now())
-  .then(r => r.json())
-  .then(data => {
+Promise.all([
+  fetch(FEED_URL + "?t=" + Date.now()).then(r => r.json()),
+  loadUserState(),
+])
+  .then(([data]) => {
     allItems = data.items || [];
     refArticles = data.referenced_articles_by_id || {};
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
+    const synced = STATE_URL ? " · synced" : " · local-only";
     document.getElementById("meta").innerHTML =
-      `${allItems.length} items · ${esc(updated)} · ` +
+      `${allItems.length} items · ${esc(updated)}${synced} · ` +
       `<a href="rss.xml">RSS</a> · <a href="public/x-bookmarks-favorites.md">MD</a> · <a href="public/x-bookmarks-favorites.json">JSON</a>`;
     applyFilters();
   })
@@ -692,6 +855,14 @@ fetch(FEED_URL + "?t=" + Date.now())
 document.getElementById("list").addEventListener("click", e => {
   const row = e.target.closest(".row");
   if (row) selectItem(row.dataset.id);
+});
+document.getElementById("summary").addEventListener("click", e => {
+  const btn = e.target.closest(".act");
+  if (!btn || !selectedId) return;
+  const act = btn.dataset.act;
+  if (act === "fav") toggleFavorite(selectedId);
+  else if (act === "up") setThumb(selectedId, "up");
+  else if (act === "down") setThumb(selectedId, "down");
 });
 for (const btn of document.querySelectorAll(".topbar button[data-source]")) {
   btn.addEventListener("click", () => {
@@ -708,6 +879,11 @@ document.getElementById("q").addEventListener("input", e => {
 document.getElementById("lang").addEventListener("change", e => {
   langMode = e.target.value;
   renderReader();
+});
+document.getElementById("fav-only").addEventListener("click", e => {
+  favOnly = !favOnly;
+  e.currentTarget.classList.toggle("active", favOnly);
+  applyFilters();
 });
 
 // Keyboard nav: j/k = next/prev, Escape = back to list (mobile)
