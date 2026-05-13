@@ -85,12 +85,24 @@ jobs:
 
       - name: Commit updated feed
         run: |
-          if git diff --quiet -- public/x-bookmarks-favorites.md public/x-bookmarks-favorites.json archive/x-bookmarks-favorites rss.xml; then
+          PATHS="public/x-bookmarks-favorites.md public/x-bookmarks-favorites.json public/feed-recent.json public/feed-archive.json archive/x-bookmarks-favorites rss.xml"
+          if git diff --quiet -- $PATHS; then
             echo "No X library changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/x-bookmarks-favorites.md public/x-bookmarks-favorites.json archive/x-bookmarks-favorites rss.xml
+          git add $PATHS
           git commit -m "Update X library feed"
-          git push
+          # Race-safe push: rebase + retry against the bot's own commits and
+          # the Translate Feed workflow that touches the same JSON paths.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, rebasing on origin/main"
+            git pull --rebase --autostash origin main
+          done
+          echo "::error::All push attempts failed"
+          exit 1
