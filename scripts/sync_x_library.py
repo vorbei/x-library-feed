@@ -597,6 +597,9 @@ def fetch_link_content(url: str) -> dict[str, Any]:
                 result["cf_fallback_error"] = cf["error"]
 
     result["kind"] = classify_link(url, result)
+    if result["kind"] == "page":
+        # Page cards don't need the text dump.
+        result["text_excerpt"] = ""
     return result
 
 
@@ -1190,8 +1193,10 @@ def update_linked_content(
                 except Exception as e:
                     content[u] = {"url": u, "final_url": u, "fetch_error": str(e)[:300]}
 
-    # Backfill `kind` and `frameable` on cached entries that predate this code.
-    # `frameable` defaults to None (unknown — viewer falls back to preview card).
+    # Backfill `kind`/`frameable` and strip nav-slop bodies from page-kind
+    # entries. Cached entries that predate the classifier get their kind
+    # computed in-place; `frameable` defaults to None (viewer treats that as
+    # "render a preview card" to be safe).
     for u, entry in content.items():
         if not isinstance(entry, dict):
             continue
@@ -1199,17 +1204,56 @@ def update_linked_content(
             entry["kind"] = classify_link(u, entry)
         if "frameable" not in entry:
             entry["frameable"] = None
+        if entry.get("kind") == "page":
+            # Page cards only need title/description/image_urls — the long
+            # nav-littered text dumps were the bulk of the JSON and aren't
+            # rendered anymore.
+            entry["text_excerpt"] = ""
+            entry["text_excerpt_zh"] = ""
+            entry.pop("text_excerpt_zh_hash", None)
 
-    # Second pass: rebuild each item's linked_content from the now-populated cache.
+    # Second pass: store URL lists per item (the viewer / markdown renderers
+    # look up the full entry from `linked_content_by_url`). This drops ~2.7 MB
+    # of duplicated data from the JSON payload.
     for item, urls in zip(items, item_url_lists):
-        item_content = []
+        item_urls = []
         for url in urls:
             if not should_fetch_link(url):
                 continue
             if url in content:
-                item_content.append(content[url])
-        item["linked_content"] = item_content
+                item_urls.append(url)
+        item["linked_content_urls"] = item_urls
+        item.pop("linked_content", None)
     return content
+
+
+def resolve_linked_content(
+    item: dict[str, Any],
+    linked_content_by_url: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Return the list of linked-content dicts for an item.
+
+    Prefers the new `linked_content_urls` list (post Phase-1) and looks each
+    URL up in `linked_content_by_url`. Falls back to a legacy embedded
+    `linked_content` list for items that haven't been re-synced yet.
+    """
+    entries: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for url in item.get("linked_content_urls") or []:
+        if url in seen:
+            continue
+        seen.add(url)
+        entry = linked_content_by_url.get(url)
+        if entry:
+            entries.append(entry)
+    for entry in item.get("linked_content") or []:
+        u = entry.get("url") or entry.get("final_url") or ""
+        if u and u in seen:
+            continue
+        if u:
+            seen.add(u)
+        entries.append(entry)
+    return entries
 
 
 def markdown_quote(text: str, width: int = 1000) -> str:
@@ -1280,7 +1324,7 @@ def render_markdown(store: dict[str, Any]) -> str:
                     continue
                 label = media_item.get("alt_text") or media_item.get("type") or label_for_url(url)
                 lines.append(f"  - [{label}]({url})")
-        linked_content = item.get("linked_content") or []
+        linked_content = resolve_linked_content(item, store.get("linked_content_by_url") or {})
         if linked_content:
             lines.append("- Linked content:")
             for linked in linked_content:
@@ -1383,8 +1427,11 @@ def _linkify(text: str) -> str:
 def render_item_html(
     item: dict[str, Any],
     referenced_articles: dict[str, dict[str, Any]] | None = None,
+    linked_content_by_url: dict[str, dict[str, Any]] | None = None,
 ) -> str:
     referenced_articles = referenced_articles or {}
+    linked_content_by_url = linked_content_by_url or {}
+    resolved_linked = resolve_linked_content(item, linked_content_by_url)
     author = item.get("author") or {}
     username = author.get("username") or "unknown"
     display_name = author.get("name") or username
@@ -1463,7 +1510,7 @@ def render_item_html(
 
     image_urls = item.get("image_urls") or []
     linked_image_urls = []
-    for linked in item.get("linked_content") or []:
+    for linked in resolved_linked:
         for url in linked.get("image_urls") or []:
             if url not in linked_image_urls and url not in image_urls:
                 linked_image_urls.append(url)
@@ -1482,7 +1529,7 @@ def render_item_html(
         parts.append("<hr/>")
         parts.extend(referenced_blocks)
 
-    linked_content = item.get("linked_content") or []
+    linked_content = resolved_linked
     rendered_linked = []
     for linked in linked_content:
         url = linked.get("final_url") or linked.get("url") or ""
@@ -1537,6 +1584,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
     archive_url = f"{base}/archive/x-bookmarks-favorites/{utc_now().date().isoformat()}.md"
     items = list(store.get("items") or [])[:max_items]
     referenced_articles = store.get("referenced_articles_by_id") or {}
+    linked_content_by_url = store.get("linked_content_by_url") or {}
     updated = parse_datetime(store.get("updated_at"))
 
     lines = [
@@ -1576,7 +1624,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
             description_lines.append("Primary URLs:")
             description_lines.extend(f"- {url}" for url in primary_urls)
         image_urls = item.get("image_urls") or []
-        linked_content = item.get("linked_content") or []
+        linked_content = resolve_linked_content(item, linked_content_by_url)
         linked_image_urls = []
         for linked in linked_content:
             for url in linked.get("image_urls") or []:
@@ -1602,7 +1650,7 @@ def render_rss(store: dict[str, Any], public_base_url: str, max_items: int = 100
             media_xml.append(f"      <media:content url=\"{escape(url)}\" medium=\"image\" />")
         author = item.get("author") or {}
         author_name = author.get("name") or author.get("username") or "unknown"
-        html_body = render_item_html(item, referenced_articles).replace("]]>", "]]&gt;")
+        html_body = render_item_html(item, referenced_articles, linked_content_by_url).replace("]]>", "]]&gt;")
         lines.extend(
             [
                 "    <item>",

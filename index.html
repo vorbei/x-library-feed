@@ -338,7 +338,7 @@ function collectImages(item, refArticles) {
   const out = [];
   const push = u => { if (u && !seen.has(u)) { seen.add(u); out.push(u); } };
   for (const u of (item.image_urls || [])) push(u);
-  for (const lc of (item.linked_content || [])) {
+  for (const lc of linkedFor(item)) {
     for (const u of (lc.image_urls || [])) push(u);
     for (const u of extractMarkdownImages(lc.text_excerpt).urls) push(u);
   }
@@ -360,7 +360,7 @@ function hasFullContent(item) {
     const ref = m ? lookupRef(m[1]) : null;
     if (ref && ((ref.article_text || ref.text || "").trim())) return true;
   }
-  for (const lc of (item.linked_content || [])) {
+  for (const lc of linkedFor(item)) {
     if ((lc.text_excerpt || "").trim()) return true;
   }
   return false;
@@ -404,7 +404,7 @@ function renderSummary(item, refArticles) {
     teasers.push(`<div>${icon} Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${t}</a></div>`);
   }
   let linkCount = 0;
-  for (const lc of (item.linked_content || [])) {
+  for (const lc of linkedFor(item)) {
     const u = lc.final_url || lc.url || "";
     if (!u || images.includes(u)) continue;
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
@@ -581,7 +581,7 @@ function renderFull(item, refArticles) {
   // preview card depending on `frameable`. See classify_link / _is_frameable in
   // scripts/sync_x_library.py for how those fields are populated.
   const images = collectImages(item, refArticles);
-  for (const lc of (item.linked_content || [])) {
+  for (const lc of linkedFor(item)) {
     const u = lc.final_url || lc.url || "";
     if (!u || images.includes(u)) continue;
     if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
@@ -629,9 +629,32 @@ function renderFull(item, refArticles) {
 
 let allItems = [];
 let refArticles = {};
+let linkedByUrl = {};
 let itemsById = {};
 let currentFilter = "";
 let currentQuery = "";
+
+// Resolve an item's linked content entries. Prefers the new shape
+// (`linked_content_urls` + a global `linked_content_by_url` dict) and falls
+// back to the legacy embedded `linked_content` list. Stale data from before
+// the sync schema split keeps rendering correctly during the transition.
+function linkedFor(item) {
+  const out = [];
+  const seen = new Set();
+  for (const u of (item.linked_content_urls || [])) {
+    if (seen.has(u)) continue;
+    seen.add(u);
+    const entry = linkedByUrl[u];
+    if (entry) out.push(entry);
+  }
+  for (const entry of (item.linked_content || [])) {
+    const u = entry.url || entry.final_url || "";
+    if (u && seen.has(u)) continue;
+    if (u) seen.add(u);
+    out.push(entry);
+  }
+  return out;
+}
 
 // Build a synthetic "referenced article" entry from one of our own items so
 // the viewer can render a body when the bookmark links to another tweet that
@@ -815,7 +838,7 @@ function renderRow(item) {
     if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
   }
   if (!thumb) {
-    for (const lc of (item.linked_content || [])) {
+    for (const lc of linkedFor(item)) {
       for (const u of (lc.image_urls || [])) {
         if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
       }
@@ -927,6 +950,7 @@ Promise.all([
   .then(([data]) => {
     allItems = data.items || [];
     refArticles = data.referenced_articles_by_id || {};
+    linkedByUrl = data.linked_content_by_url || {};
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     const synced = STATE_URL ? " · synced" : " · local-only";
