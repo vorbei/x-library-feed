@@ -1216,7 +1216,11 @@ function renderRow(item) {
     }
   }
   const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
-  const date = item.created_at ? new Date(item.created_at).toLocaleDateString() : "";
+  // Use first_seen_at (when we bookmarked / liked it) instead of created_at
+  // (when the tweet was originally posted) so the list date reflects the
+  // user's own timeline rather than the tweet's age.
+  const dateSrc = item.first_seen_at || item.last_seen_at || item.created_at || "";
+  const date = dateSrc ? new Date(dateSrc).toLocaleDateString() : "";
   const sel = item.id === selectedId ? " selected" : "";
   const st = getItemState(item.id);
   const favCls = st.favorite ? " fav" : "";
@@ -1258,6 +1262,17 @@ function renderList() {
       if (!haystack.includes(currentQuery)) return false;
     }
     return true;
+  });
+  // Recently-bookmarked first. first_seen_at is when we ingested the item;
+  // fall back to last_seen_at or created_at when missing. Secondary sort by
+  // created_at so within the same sync batch newer tweets bubble up.
+  filteredItems.sort((a, b) => {
+    const sa = a.first_seen_at || a.last_seen_at || a.created_at || "";
+    const sb = b.first_seen_at || b.last_seen_at || b.created_at || "";
+    if (sa !== sb) return sa < sb ? 1 : -1;
+    const ca = a.created_at || "";
+    const cb = b.created_at || "";
+    return ca < cb ? 1 : (ca > cb ? -1 : 0);
   });
   if (!filteredItems.length) {
     list.innerHTML = '<div class="reader-empty">No matching items.</div>';
