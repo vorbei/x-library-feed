@@ -519,6 +519,12 @@
     <button id="fav-only" class="icon-btn" title="Favorites only" aria-label="Toggle favorites only">
       <svg class="icon"><use href="#i-star"/></svg>
     </button>
+    <select id="sort" class="lang-select" aria-label="Sort">
+      <option value="seen">最近收藏</option>
+      <option value="created">推文最新</option>
+      <option value="likes">互动最高</option>
+      <option value="dwell">阅读时长</option>
+    </select>
     <select id="lang" class="lang-select" aria-label="Language">
       <option value="auto">中文优先</option>
       <option value="both">中英对照</option>
@@ -974,6 +980,8 @@ let linkedByUrl = {};
 let itemsById = {};
 let typeFilter = "";   // "" | "bookmark" | "favorite"
 let userFilter = "";   // "" | "chumsdock" | "CatHanami97880"
+// Sort mode persists across sessions. Values: "seen" | "created" | "likes" | "dwell".
+let sortMode = localStorage.getItem("X_SORT_MODE") || "seen";
 let currentQuery = "";
 
 // Resolve an item's linked content entries. Prefers the new shape
@@ -1042,6 +1050,28 @@ let translateQueued = new Set(JSON.parse(localStorage.getItem(TRANSLATE_QUEUE_KE
 function saveTranslateQueue() {
   try { localStorage.setItem(TRANSLATE_QUEUE_KEY, JSON.stringify([...translateQueued])); } catch {}
 }
+// Return a comparator suitable for Array.sort that orders items per the
+// chosen sort mode, descending. Falls back to first_seen_at for ties.
+function sortComparator(mode) {
+  const seenOf = it => it.first_seen_at || it.last_seen_at || it.created_at || "";
+  const createdOf = it => it.created_at || it.first_seen_at || "";
+  const likesOf = it => ((it.public_metrics || {}).like_count || 0)
+    + ((it.public_metrics || {}).bookmark_count || 0);
+  const dwellOf = it => (getItemState(it.id).reading_seconds || 0);
+  const cmp = (va, vb) => va < vb ? 1 : (va > vb ? -1 : 0);
+  if (mode === "created") {
+    return (a, b) => cmp(createdOf(a), createdOf(b)) || cmp(seenOf(a), seenOf(b));
+  }
+  if (mode === "likes") {
+    return (a, b) => cmp(likesOf(a), likesOf(b)) || cmp(seenOf(a), seenOf(b));
+  }
+  if (mode === "dwell") {
+    return (a, b) => cmp(dwellOf(a), dwellOf(b)) || cmp(seenOf(a), seenOf(b));
+  }
+  // "seen" — default. Recently bookmarked first; tie-break by created_at.
+  return (a, b) => cmp(seenOf(a), seenOf(b)) || cmp(createdOf(a), createdOf(b));
+}
+
 function itemNeedsTranslation(item) {
   if (!item) return false;
   if ((item.text || "").trim() && !(item.text_zh || "").trim()) return true;
@@ -1216,11 +1246,23 @@ function renderRow(item) {
     }
   }
   const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
-  // Use first_seen_at (when we bookmarked / liked it) instead of created_at
-  // (when the tweet was originally posted) so the list date reflects the
-  // user's own timeline rather than the tweet's age.
-  const dateSrc = item.first_seen_at || item.last_seen_at || item.created_at || "";
+  // Date column tracks the active sort so the visible value matches the
+  // ordering: when sorting by tweet age show created_at, otherwise show
+  // first_seen_at (when we bookmarked / liked it).
+  const dateSrc = sortMode === "created"
+    ? (item.created_at || item.first_seen_at || "")
+    : (item.first_seen_at || item.last_seen_at || item.created_at || "");
   const date = dateSrc ? new Date(dateSrc).toLocaleDateString() : "";
+  // When sorting by likes / dwell, show the metric as a secondary chip so
+  // the user can see what they're sorting by at a glance.
+  let metaExtra = "";
+  if (sortMode === "likes") {
+    const n = ((item.public_metrics || {}).like_count || 0);
+    if (n) metaExtra = ` <span class="r-dwell">${icon("heart", "icon-sm")}${n.toLocaleString()}</span>`;
+  } else if (sortMode === "dwell") {
+    const ds = getItemState(item.id).reading_seconds || 0;
+    if (ds) metaExtra = ` <span class="r-dwell">${icon("clock", "icon-sm")}${ds < 60 ? ds + "s" : Math.round(ds / 60) + "m"}</span>`;
+  }
   const sel = item.id === selectedId ? " selected" : "";
   const st = getItemState(item.id);
   const favCls = st.favorite ? " fav" : "";
@@ -1231,13 +1273,14 @@ function renderRow(item) {
     ? ` <span class="r-dwell">${icon("thumb-down", "icon-sm")}</span>`
     : "";
   const dwell = st.reading_seconds || 0;
-  const dwellSpan = dwell ? `<span class="r-dwell">${icon("clock", "icon-sm")}${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"}</span>` : "";
+  // Don't double up the clock chip when sortMode === "dwell" already renders it.
+  const dwellSpan = (dwell && sortMode !== "dwell") ? `<span class="r-dwell">${icon("clock", "icon-sm")}${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"}</span>` : "";
   return (
     `<div class="row${sel}${favCls}" data-id="${esc(item.id)}">` +
     `<div class="r-main">` +
       `<div class="r-author">${favMark}${name} <span class="handle">@${handle}</span>${thumbBadge}</div>` +
       `<div class="r-title">${title}</div>` +
-      `<div class="r-meta">${sources}<span>${esc(date)}</span>${dwellSpan}</div>` +
+      `<div class="r-meta">${sources}<span>${esc(date)}</span>${dwellSpan}${metaExtra}</div>` +
     `</div>` +
     (thumb ? `<img class="r-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : "") +
     `</div>`
@@ -1263,17 +1306,7 @@ function renderList() {
     }
     return true;
   });
-  // Recently-bookmarked first. first_seen_at is when we ingested the item;
-  // fall back to last_seen_at or created_at when missing. Secondary sort by
-  // created_at so within the same sync batch newer tweets bubble up.
-  filteredItems.sort((a, b) => {
-    const sa = a.first_seen_at || a.last_seen_at || a.created_at || "";
-    const sb = b.first_seen_at || b.last_seen_at || b.created_at || "";
-    if (sa !== sb) return sa < sb ? 1 : -1;
-    const ca = a.created_at || "";
-    const cb = b.created_at || "";
-    return ca < cb ? 1 : (ca > cb ? -1 : 0);
-  });
+  filteredItems.sort(sortComparator(sortMode));
   if (!filteredItems.length) {
     list.innerHTML = '<div class="reader-empty">No matching items.</div>';
     return;
@@ -1525,6 +1558,15 @@ document.getElementById("lang").addEventListener("change", e => {
   langMode = e.target.value;
   renderReader();
 });
+(() => {
+  const sortSel = document.getElementById("sort");
+  sortSel.value = sortMode;
+  sortSel.addEventListener("change", e => {
+    sortMode = e.target.value;
+    try { localStorage.setItem("X_SORT_MODE", sortMode); } catch {}
+    applyFilters();
+  });
+})();
 document.getElementById("fav-only").addEventListener("click", e => {
   favOnly = !favOnly;
   e.currentTarget.classList.toggle("active", favOnly);
