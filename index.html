@@ -519,6 +519,13 @@
     <button id="fav-only" class="icon-btn" title="Favorites only" aria-label="Toggle favorites only">
       <svg class="icon"><use href="#i-star"/></svg>
     </button>
+    <select id="range" class="lang-select" aria-label="Time range">
+      <option value="all">全部时间</option>
+      <option value="today">今天</option>
+      <option value="7d">近 7 天</option>
+      <option value="30d">近 30 天</option>
+      <option value="90d">近 90 天</option>
+    </select>
     <select id="sort" class="lang-select" aria-label="Sort">
       <option value="seen">最近收藏</option>
       <option value="created">推文最新</option>
@@ -982,6 +989,9 @@ let typeFilter = "";   // "" | "bookmark" | "favorite"
 let userFilter = "";   // "" | "chumsdock" | "CatHanami97880"
 // Sort mode persists across sessions. Values: "seen" | "created" | "likes" | "dwell".
 let sortMode = localStorage.getItem("X_SORT_MODE") || "seen";
+// Time-range filter, evaluated against first_seen_at regardless of sort mode.
+// Values: "all" | "today" | "7d" | "30d" | "90d".
+let rangeMode = localStorage.getItem("X_RANGE_MODE") || "all";
 let currentQuery = "";
 
 // Resolve an item's linked content entries. Prefers the new shape
@@ -1300,6 +1310,23 @@ function renderList() {
       if (!matches) return false;
     }
     if (favOnly && !getItemState(item.id).favorite) return false;
+    if (rangeMode !== "all") {
+      const ts = item.first_seen_at || item.last_seen_at || item.created_at || "";
+      if (!ts) return false;
+      const t = new Date(ts).getTime();
+      if (Number.isNaN(t)) return false;
+      const now = Date.now();
+      const day = 24 * 60 * 60 * 1000;
+      let cutoff = 0;
+      if (rangeMode === "today") {
+        const d = new Date();
+        d.setHours(0, 0, 0, 0);
+        cutoff = d.getTime();
+      } else if (rangeMode === "7d") cutoff = now - 7 * day;
+      else if (rangeMode === "30d") cutoff = now - 30 * day;
+      else if (rangeMode === "90d") cutoff = now - 90 * day;
+      if (t < cutoff) return false;
+    }
     if (currentQuery) {
       const haystack = ((item.text || "") + " " + (item.author?.name || "") + " " + (item.author?.username || "")).toLowerCase();
       if (!haystack.includes(currentQuery)) return false;
@@ -1564,6 +1591,13 @@ document.getElementById("lang").addEventListener("change", e => {
   sortSel.addEventListener("change", e => {
     sortMode = e.target.value;
     try { localStorage.setItem("X_SORT_MODE", sortMode); } catch {}
+    applyFilters();
+  });
+  const rangeSel = document.getElementById("range");
+  rangeSel.value = rangeMode;
+  rangeSel.addEventListener("change", e => {
+    rangeMode = e.target.value;
+    try { localStorage.setItem("X_RANGE_MODE", rangeMode); } catch {}
     applyFilters();
   });
 })();
