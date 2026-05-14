@@ -1311,7 +1311,11 @@ function renderList() {
     }
     if (favOnly && !getItemState(item.id).favorite) return false;
     if (rangeMode !== "all") {
-      const ts = item.first_seen_at || item.last_seen_at || item.created_at || "";
+      // Filter on created_at (tweet post date) rather than first_seen_at —
+      // first_seen_at gets reset whenever X expands its API pagination
+      // window, which made "近 30 天" effectively useless. created_at is a
+      // stable signal even if it doesn't reflect the actual bookmark time.
+      const ts = item.created_at || item.first_seen_at || "";
       if (!ts) return false;
       const t = new Date(ts).getTime();
       if (Number.isNaN(t)) return false;
