@@ -167,7 +167,7 @@
     overflow-y: auto;
     background: var(--bg);
   }
-  .summary-pane { padding: 24px 28px 64px; }
+  .summary-pane { padding: 28px 32px 64px; }
   .full-pane {
     overflow-y: auto;
     padding: 32px 36px 96px;
@@ -175,6 +175,10 @@
   }
   .summary-pane .pane-inner { max-width: 640px; margin: 0 auto; }
   .full-pane .pane-inner { max-width: 720px; margin: 0 auto; }
+  /* When the selected item has no long-form content, collapse the right
+     column on wide screens and let the summary take the freed space. */
+  .panes.no-full { grid-template-columns: 360px 1fr; }
+  .panes.no-full .full-pane { display: none; }
   @media (max-width: 1280px) {
     .panes { grid-template-columns: 320px 1fr; }
     .full-pane { display: none; }
@@ -321,6 +325,18 @@
     color: var(--fg);
     white-space: pre-wrap;
     word-wrap: break-word;
+  }
+  /* When the right pane is showing the full version, the summary blockquote
+     is just a teaser — clip it to a few lines so the same prose doesn't
+     repeat verbatim above the metadata. Click "Read full content" to see
+     the rest. */
+  .summary-card.has-full > blockquote {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: normal;
+    color: var(--muted);
   }
 
   /* Image gallery */
@@ -582,14 +598,29 @@ function icon(name, cls = "") {
 // /photo/N and /video/N URLs are stand-ins for tweet media we already render
 // in the gallery; pic.x.com / pic.twitter.com are the same idea. Removing
 // them keeps the body text focused on what the author actually wrote.
-function cleanTweetText(text) {
+function cleanTweetText(text, item) {
   if (!text) return "";
-  return text
+  let cleaned = text
     .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/\s]+\/status\/\d+\/(?:photo|video)\/\d+\b/gi, "")
-    .replace(/https?:\/\/pic\.(?:x|twitter)\.com\/\S+/gi, "")
-    .replace(/[ \t]+\n/g, "\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
+    .replace(/https?:\/\/pic\.(?:x|twitter)\.com\/\S+/gi, "");
+  // x.com/i/article/<id> URLs are referenced as proper article cards in a
+  // teaser below the blockquote, so a bare URL in the body is just noise.
+  if (item && item.article_url) {
+    const articleId = (item.article_url.match(/\/article\/(\d+)/) || [])[1];
+    if (articleId) {
+      const re = new RegExp(`https?://(?:www\\.)?(?:x|twitter)\\.com/[^\\s]*/?article/${articleId}\\b\\S*`, "gi");
+      cleaned = cleaned.replace(re, "");
+    }
+  }
+  return cleaned.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+// Does the body have any non-URL prose left? Tweets like "https://x.com/i/article/123"
+// or "[photo URL]" become empty after cleaning — no reason to render a blockquote
+// for just a URL the teaser already shows.
+function hasSubstantiveText(text) {
+  if (!text) return false;
+  return text.replace(/https?:\/\/\S+/g, "").replace(/\s+/g, "").length > 0;
 }
 
 const linkify = s => esc(s).replace(urlRE, u => {
@@ -698,15 +729,19 @@ function renderSummary(item, refArticles) {
   const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
   const images = collectImages(item, refArticles);
 
-  let html = `<div class="summary-card">`;
+  const hasFull = hasFullContent(item);
+  let html = `<div class="summary-card${hasFull ? ' has-full' : ''}">`;
   html += `<div class="head">`;
   html += `<div><span class="author">${name}</span> <a href="https://x.com/${handle}" target="_blank">@${handle}</a></div>`;
   html += `<span class="time">${esc(created)}</span>`;
   html += `</div>`;
   html += `<div class="sources">${sources}</div>`;
 
-  const cleanText = cleanTweetText(item.text);
-  if (cleanText) {
+  const cleanText = cleanTweetText(item.text, item);
+  // Only render the blockquote when there's prose worth reading. Bare URLs,
+  // photo refs, and lone article links are already represented by the teaser
+  // cards / gallery below.
+  if (cleanText && hasSubstantiveText(cleanText)) {
     html += `<blockquote>${linkify(cleanText)}</blockquote>`;
   }
 
@@ -885,9 +920,18 @@ function renderFull(item, refArticles) {
   }
 
   // Referenced X article/tweet bodies
+  const seenFullRefIds = new Set();
   for (const url of (item.primary_urls || [])) {
     const m = url.match(/^https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^/i][^/]*\/(?:status|article)\/(\d+)/i);
-    const ref = m ? lookupRef(m[1]) : null;
+    if (!m) continue;
+    const refId = m[1];
+    // /photo/N and /video/N URLs reference the current tweet's own media,
+    // not a separate post — skip those self-references so the full pane
+    // doesn't just repeat the summary blockquote.
+    if (refId === item.id) continue;
+    if (seenFullRefIds.has(refId)) continue;
+    seenFullRefIds.add(refId);
+    const ref = lookupRef(refId);
     if (!ref) continue;
     const articleText = (ref.article_text || "").trim();
     const tweetText = (ref.text || "").trim();
@@ -1368,6 +1412,13 @@ function renderReader() {
   fullInner.innerHTML =
     `<button class="back-btn" id="back-summary">${icon("arrow-left", "icon-sm")} Back to summary</button>` +
     renderFull(item, refArticles);
+  // If the full pane has no real content (just the placeholder), hide the
+  // 3rd column on wide screens so the summary can stretch — avoids the
+  // ghost panel of wasted whitespace next to a short tweet.
+  document.getElementById("panes").classList.toggle(
+    "no-full",
+    !fullInner.querySelector(".full-block"),
+  );
   document.querySelector("#summary").scrollTop = 0;
   document.querySelector("#full").scrollTop = 0;
 
