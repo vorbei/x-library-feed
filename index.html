@@ -370,6 +370,8 @@
     display: inline-flex; align-items: center; gap: 6px;
   }
   .full-block .lbl .icon { width: 13px; height: 13px; color: var(--muted); }
+  .full-block .lbl a { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
+  .full-block .lbl a:hover { color: var(--fg); }
   .full-block .full-title {
     font-size: 17px; font-weight: 600; margin-bottom: 12px;
     line-height: 1.35; letter-spacing: -0.01em;
@@ -772,15 +774,17 @@ function renderSummary(item, refArticles) {
     const hasTitle = !!(ref.article_title || "").trim();
     if (!isArticle && !hasTitle && !refTweetText) continue;
     const refIcon = isArticle ? icon("file-text", "icon-sm") : icon("message", "icon-sm");
-    const kind = isArticle ? "Article" : "Tweet";
-    let label = ref.article_title;
-    if (!label && !isArticle && refTweetText) {
-      const stripped = refTweetText.replace(/https?:\/\/\S+/g, "").trim().replace(/\s+/g, " ");
-      label = stripped.slice(0, 80) + (stripped.length > 80 ? "…" : "");
+    const who = ref.author?.username ? `@${esc(ref.author.username)}` : "X";
+    const refUrl = esc(ref.url || url);
+    // Articles get their real title in the teaser (it adds information).
+    // Tweets get just "Quoting @user →" — the full body lives in the right
+    // pane, no need to also preview it in 13px gray.
+    if (isArticle) {
+      const title = esc((ref.article_title || "X Article").trim() || "X Article");
+      teasers.push(`<div>${refIcon}<span>Referenced article (${who}): <a href="${refUrl}" target="_blank">${title}</a></span></div>`);
+    } else {
+      teasers.push(`<div>${refIcon}<span>Quoting <a href="${refUrl}" target="_blank">${who}</a> ${icon("arrow-right", "icon-sm")}</span></div>`);
     }
-    if (!label) label = isArticle ? "X Article" : "X Tweet";
-    const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
-    teasers.push(`<div>${refIcon}<span>Referenced X ${kind}${who}: <a href="${esc(ref.url || url)}" target="_blank">${esc(label)}</a></span></div>`);
   }
   let linkCount = 0;
   for (const lc of linkedFor(item)) {
@@ -939,21 +943,17 @@ function renderFull(item, refArticles) {
     if (!articleText && !tweetText) continue;
     const refIcon = isArticle ? icon("file-text", "icon-sm") : icon("message", "icon-sm");
     const kind = isArticle ? "Article" : "Tweet";
-    // Tweets don't have a real title — use the first non-URL chunk of body
-    // (max ~80 chars) so the heading is something readable instead of
-    // generic "X Tweet".
-    let computedTitle = ref.article_title;
-    if (!computedTitle) {
-      if (isArticle) {
-        computedTitle = "X Article";
-      } else {
-        const stripped = tweetText.replace(/https?:\/\/\S+/g, "").trim().replace(/\s+/g, " ");
-        computedTitle = stripped.slice(0, 80) || "X Tweet";
-        if (stripped.length > 80) computedTitle += "…";
-      }
-    }
-    const title = esc(computedTitle);
+    // Only render a title row when there's a real distinct title — i.e. an
+    // article title from X Articles. Plain tweets don't have titles, and
+    // synthesising one from the body text just shows the same prose twice
+    // (once as heading, once as body) which is exactly the duplication we
+    // want to avoid.
+    const realTitle = (ref.article_title || "").trim();
+    let title = "";
+    if (realTitle) title = esc(realTitle);
+    else if (isArticle) title = "X Article";
     const who = ref.author?.username ? ` (@${esc(ref.author.username)})` : "";
+    const refUrl = esc(ref.url || url);
     const enText = isArticle ? articleText : tweetText;
     const zhText = isArticle ? (ref.article_text_zh || "") : (ref.text_zh || "");
     const bodies = pickBodies(enText, zhText, isArticle);
@@ -966,10 +966,16 @@ function renderFull(item, refArticles) {
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
     }
+    // When there's no real title, link the section label itself so the user
+    // still has a clickthrough to the original post.
+    const handle = ref.author?.username ? `@${esc(ref.author.username)}` : "X";
+    const labelInner = title
+      ? `${refIcon} Referenced X ${isArticle ? "Article" : "Tweet"}${who}`
+      : `${refIcon} <a href="${refUrl}" target="_blank">Quoting ${handle} ${icon("external", "icon-sm")}</a>`;
     blocks.push(
       `<div class="full-block">` +
-      `<div class="lbl">${refIcon} Referenced X ${kind}${who}</div>` +
-      `<div class="full-title"><a href="${esc(ref.url || url)}" target="_blank">${title}</a></div>` +
+      `<div class="lbl">${labelInner}</div>` +
+      (title ? `<div class="full-title"><a href="${refUrl}" target="_blank">${title}</a></div>` : "") +
       inner +
       `</div>`
     );
