@@ -596,6 +596,21 @@ function icon(name, cls = "") {
   return `<svg class="${classes}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 }
 
+// X API returns tweet text with HTML-encoded entities (&amp;, &lt;, etc.).
+// linkify() / esc() escape again on the way out, so a raw "&amp;" round-trips
+// to a visible "&amp;" string. Decode the common entities once upstream.
+function decodeHtmlEntities(s) {
+  if (!s) return s;
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ");
+}
+
 // Strip URLs that the viewer already represents through a richer widget:
 //   - /status/<id> and /article/<id> are quoted/referenced tweets surfaced
 //     as teasers in the summary and full-block cards in the right pane.
@@ -606,7 +621,7 @@ function icon(name, cls = "") {
 // those carry information the viewer doesn't surface anywhere else.
 function cleanTweetText(text /*, item — kept for API compat */) {
   if (!text) return "";
-  return text
+  return decodeHtmlEntities(text)
     .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/i\/article\/\d+\S*/gi, "")
     .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/\s]+\/status\/\d+\S*/gi, "")
     .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/i\/web\/status\/\d+\S*/gi, "")
