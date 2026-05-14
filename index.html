@@ -596,25 +596,24 @@ function icon(name, cls = "") {
   return `<svg class="${classes}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 }
 
-// Strip URLs that the summary pane already shows in another widget. The
-// /photo/N and /video/N URLs are stand-ins for tweet media we already render
-// in the gallery; pic.x.com / pic.twitter.com are the same idea. Removing
-// them keeps the body text focused on what the author actually wrote.
-function cleanTweetText(text, item) {
+// Strip URLs that the viewer already represents through a richer widget:
+//   - /status/<id> and /article/<id> are quoted/referenced tweets surfaced
+//     as teasers in the summary and full-block cards in the right pane.
+//   - /photo/N and /video/N are tweet media already rendered in the gallery.
+//   - pic.x.com / pic.twitter.com are the same idea.
+//   - x.com/<user>/photo and x.com/<user>/header are profile vanity URLs.
+// External URLs (github, blogs, t.co-resolved articles, etc.) are kept —
+// those carry information the viewer doesn't surface anywhere else.
+function cleanTweetText(text /*, item — kept for API compat */) {
   if (!text) return "";
-  let cleaned = text
-    .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/\s]+\/status\/\d+\/(?:photo|video)\/\d+\b/gi, "")
-    .replace(/https?:\/\/pic\.(?:x|twitter)\.com\/\S+/gi, "");
-  // x.com/i/article/<id> URLs are referenced as proper article cards in a
-  // teaser below the blockquote, so a bare URL in the body is just noise.
-  if (item && item.article_url) {
-    const articleId = (item.article_url.match(/\/article\/(\d+)/) || [])[1];
-    if (articleId) {
-      const re = new RegExp(`https?://(?:www\\.)?(?:x|twitter)\\.com/[^\\s]*/?article/${articleId}\\b\\S*`, "gi");
-      cleaned = cleaned.replace(re, "");
-    }
-  }
-  return cleaned.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  return text
+    .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/i\/article\/\d+\S*/gi, "")
+    .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/\s]+\/status\/\d+\S*/gi, "")
+    .replace(/https?:\/\/(?:www\.)?(?:x|twitter)\.com\/i\/web\/status\/\d+\S*/gi, "")
+    .replace(/https?:\/\/pic\.(?:x|twitter)\.com\/\S+/gi, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 // Does the body have any non-URL prose left? Tweets like "https://x.com/i/article/123"
@@ -960,8 +959,11 @@ function renderFull(item, refArticles) {
     let inner = "";
     for (const b of bodies) {
       // Keep inline images in article markdown so the full pane is a real
-      // article view. Plain tweet text just gets linkified.
-      const cleaned = isArticle ? cleanArticleMarkdown(b.text) : b.text;
+      // article view. Plain tweet text just gets linkified — and goes
+      // through cleanTweetText first to strip bare x.com/status URLs that
+      // are already represented by quote teasers.
+      const cleaned = isArticle ? cleanArticleMarkdown(b.text) : cleanTweetText(b.text);
+      if (!cleaned.trim()) continue;
       const rendered = isArticle ? renderMarkdown(cleaned) : linkify(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
