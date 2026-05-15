@@ -25,10 +25,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install content-extraction deps
+        run: pip install --quiet trafilatura
+
       - name: Pull poche.app/explore feed
         env:
           POCHE_MAX_ITEMS: ${{ vars.POCHE_MAX_ITEMS || '2500' }}
           POCHE_PAGE_SIZE: ${{ vars.POCHE_PAGE_SIZE || '100' }}
+          POCHE_MAX_FETCHES: ${{ vars.POCHE_MAX_FETCHES || '150' }}
+          # Reuse the same CF Browser Rendering credentials as sync_x_library
+          # so SPA pages (and X article URLs) actually return body content.
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
         run: python3 scripts/sync_poche.py
 
       - name: Commit poche feed

@@ -256,13 +256,16 @@ def main() -> int:
         is_pri = rid in priority_ref_ids
         maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
         maybe_enqueue(ref, "text", "text_zh", "text_zh_hash", is_pri)
-    # Poche items: title + description (no priority queue for poche yet).
-    # Poche titles are headline-y and often short ("Poppy", "A Technical Deep
-    # Dive into the New Raycast") — drop the 40-char floor for them, keep the
-    # English-dominant gate so brand names like "Muxy" still skip.
+    # Poche items: title + description + article_text. Titles are headline-y
+    # and often short ("Poppy", "A Technical Deep Dive into the New Raycast")
+    # — drop the 40-char floor for them, keep the English-dominant gate so
+    # brand names like "Muxy" still skip.
     for p in poche_items:
         maybe_enqueue(p, "title", "title_zh", "title_zh_hash", False, min_len=12)
         maybe_enqueue(p, "description", "description_zh", "description_zh_hash", False)
+        # The scraped article body — same field name as X items so the viewer
+        # can dispatch the same renderer.
+        maybe_enqueue(p, "article_text", "article_text_zh", "article_text_zh_hash", False)
 
     jobs: list[Job] = priority_jobs + regular_jobs
 

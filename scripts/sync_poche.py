@@ -63,6 +63,13 @@ QUERY_PATH = "links/queries:getRecommendedLinks"
 CATEGORIES_PATH = "links/queries:getExploreCategories"
 TEAMS_PATH = "links/queries:getExploreTeams"
 
+# Where to look for already-fetched URL content so we don't double-pay
+# CF Browser Rendering calls. These files are written by sync_x_library.py
+# and hold both the bulk linked_content_by_url cache and per-X-tweet
+# referenced_articles_by_id bodies.
+X_FEED_RECENT = Path("public/feed-recent.json")
+X_FEED_ARCHIVE = Path("public/feed-archive.json")
+
 X_STATUS_RE = re.compile(
     r"^https?://(?:www\.)?(?:x|twitter)\.com/[^/]+/status/(\d+)", re.I
 )
@@ -203,17 +210,156 @@ def fetch_meta() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     return norm_cats, norm_teams
 
 
+def _load_x_lib_cache() -> dict[str, Any]:
+    """Read the X library's recent + archive bundles for content URLs we may
+    already have fetched. Used to avoid duplicate CF Browser Rendering calls
+    when a poche URL is also linked from one of our X tweets."""
+    linked: dict[str, dict[str, Any]] = {}
+    refs: dict[str, dict[str, Any]] = {}
+    for path in (X_FEED_RECENT, X_FEED_ARCHIVE):
+        if not path.exists():
+            continue
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        linked.update(doc.get("linked_content_by_url") or {})
+        refs.update(doc.get("referenced_articles_by_id") or {})
+    return {"linked_content_by_url": linked, "referenced_articles_by_id": refs}
+
+
+def enrich_with_content(
+    items: list[dict[str, Any]],
+    cache: dict[str, dict[str, Any]],
+    max_fetches: int,
+) -> int:
+    """Populate each item with article_text / article_title pulled either
+    from the X library's existing fetch cache, or from a fresh CF Browser
+    Rendering call (capped by max_fetches)."""
+    # Lazy import — only need fetch_link_content when we actually run.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from sync_x_library import fetch_link_content  # noqa: E402
+
+    linked = cache.get("linked_content_by_url") or {}
+    refs = cache.get("referenced_articles_by_id") or {}
+    fetched = 0
+    reused = 0
+    for it in items:
+        if (it.get("article_text") or "").strip():
+            continue  # already populated from a previous run
+        url = (it.get("url") or "").strip()
+        if not url:
+            continue
+        x_status_id = it.get("x_status_id")
+        # 1) For X tweets we already cache the referenced article body.
+        if x_status_id and x_status_id in refs:
+            ref = refs[x_status_id]
+            body = (ref.get("article_text") or ref.get("text") or "").strip()
+            if body:
+                it["article_text"] = body
+                if ref.get("article_title"):
+                    it["article_title_extracted"] = ref["article_title"]
+                if ref.get("image_urls"):
+                    it["article_image_urls"] = ref["image_urls"]
+                reused += 1
+                continue
+        # 2) Anything else: try the X library's general link cache.
+        lc = linked.get(url)
+        if lc and (lc.get("text_excerpt") or "").strip():
+            it["article_text"] = lc["text_excerpt"]
+            if lc.get("title"):
+                it["article_title_extracted"] = lc["title"]
+            if lc.get("image_urls"):
+                it["article_image_urls"] = lc["image_urls"]
+            if lc.get("extraction_source"):
+                it["article_extraction"] = lc["extraction_source"]
+            reused += 1
+            continue
+        # 3) Fresh fetch via the same trafilatura → CF Browser Rendering path
+        #    that sync_x_library uses, capped per run so the workflow stays
+        #    under the runner timeout.
+        if fetched >= max_fetches:
+            continue
+        try:
+            res = fetch_link_content(url)
+        except Exception as e:
+            print(f"::warning::poche fetch {url}: {e}", file=sys.stderr)
+            continue
+        fetched += 1
+        body = (res.get("text_excerpt") or "").strip()
+        if body:
+            it["article_text"] = body
+        if res.get("title"):
+            it["article_title_extracted"] = res["title"]
+        if res.get("image_urls"):
+            it["article_image_urls"] = res["image_urls"]
+        if res.get("extraction_source"):
+            it["article_extraction"] = res["extraction_source"]
+        if res.get("fetch_error"):
+            it["article_fetch_error"] = res["fetch_error"]
+    print(
+        f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache",
+        file=sys.stderr,
+    )
+    return fetched
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", default="public/feed-poche.json")
     parser.add_argument("--max-items", type=int, default=int(os.environ.get("POCHE_MAX_ITEMS", "2500")))
     parser.add_argument("--page-size", type=int, default=int(os.environ.get("POCHE_PAGE_SIZE", "100")))
+    parser.add_argument("--max-fetches", type=int, default=int(os.environ.get("POCHE_MAX_FETCHES", "150")),
+                        help="Upper bound on fresh URL fetches per run.")
+    parser.add_argument("--skip-fetch", action="store_true",
+                        help="Don't fetch article bodies for poche URLs.")
     args = parser.parse_args()
 
     print("::notice::sync_poche.py start", file=sys.stderr)
     raw_items = fetch_paginated_links(max_items=args.max_items, page_size=args.page_size)
     items = [normalize_item(r) for r in raw_items if (r.get("url") or "").strip()]
     cats, teams = fetch_meta()
+
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Carry over previously-fetched article_text / translations so we don't
+    # re-fetch the same URL or lose its zh translation just because the
+    # poche API surfaced a slightly newer "recommendedAt" timestamp.
+    prior_by_id: dict[str, dict[str, Any]] = {}
+    if out_path.exists():
+        try:
+            prior_doc = json.loads(out_path.read_text(encoding="utf-8"))
+            for p in prior_doc.get("items") or []:
+                if p.get("id"):
+                    prior_by_id[p["id"]] = p
+        except Exception as e:
+            print(f"::warning::could not read prior {out_path}: {e}", file=sys.stderr)
+    carry_keys = (
+        "article_text",
+        "article_title_extracted",
+        "article_image_urls",
+        "article_extraction",
+        "article_fetch_error",
+        "article_text_zh",
+        "article_text_zh_hash",
+        "title_zh",
+        "title_zh_hash",
+        "description_zh",
+        "description_zh_hash",
+    )
+    for it in items:
+        old = prior_by_id.get(it.get("id"))
+        if not old:
+            continue
+        for k in carry_keys:
+            if old.get(k) and not it.get(k):
+                it[k] = old[k]
+
+    # Pull article bodies for as many URLs as the budget allows.
+    if not args.skip_fetch:
+        cache = _load_x_lib_cache()
+        enrich_with_content(items, cache, args.max_fetches)
 
     doc = {
         "format": "poche-feed/1",
@@ -225,14 +371,14 @@ def main() -> int:
         "items": items,
     }
 
-    out_path = Path(args.out)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(
         json.dumps(doc, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
+    with_body = sum(1 for it in items if (it.get("article_text") or "").strip())
     print(
-        f"::notice::wrote {out_path} ({out_path.stat().st_size/1024:.0f} KB, {len(items)} items)",
+        f"::notice::wrote {out_path} ({out_path.stat().st_size/1024:.0f} KB, "
+        f"{len(items)} items, {with_body} with article body)",
         file=sys.stderr,
     )
     return 0

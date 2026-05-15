@@ -654,6 +654,16 @@ const urlRE = /https?:\/\/[^\s<>"']+/g;
 function pocheToItem(p) {
   const team = (p.teams && p.teams[0]) || {};
   const ts = p.recommended_at || p.created_at || "";
+  // Prefer the title extracted by trafilatura/CF (which often gives a cleaner
+  // headline than poche's user-entered title) when available.
+  const title = (p.article_title_extracted || p.title || "").trim();
+  // Merge article images with the og:image so the gallery has more to draw
+  // from when there's an article body.
+  const imgs = [];
+  if (p.og_image_url) imgs.push(p.og_image_url);
+  for (const u of (p.article_image_urls || [])) {
+    if (!imgs.includes(u)) imgs.push(u);
+  }
   return {
     id: "poche:" + (p.id || p.url),
     source_type: "poche",
@@ -664,10 +674,12 @@ function pocheToItem(p) {
     text: p.description || "",
     text_zh: p.description_zh || "",
     article_url: p.url || "",
-    article_title: p.title || "",
+    article_title: title,
     article_title_zh: p.title_zh || "",
+    article_text: p.article_text || "",
+    article_text_zh: p.article_text_zh || "",
     primary_urls: p.url ? [p.url] : [],
-    image_urls: p.og_image_url ? [p.og_image_url] : [],
+    image_urls: imgs,
     sources: [p.source || "poche@unknown"],
     first_seen_at: ts,
     last_seen_at: ts,
@@ -1163,9 +1175,17 @@ function renderPageEmbed(lc, url) {
 function renderFull(item, refArticles) {
   const blocks = [];
 
-  // Own article body — keep inline images (don't strip)
+  // Own article body — keep inline images (don't strip). The "own" label
+  // varies by source: X bookmarks are quoting their author's X Article;
+  // poche items are quoting an arbitrary host.
   if (item.article_url && (item.article_text || "").trim()) {
-    const title = esc(item.article_title || item.article_url);
+    // For poche, prefer the zh title when available; for X items rely on
+    // pickBodies / the article body handling translation.
+    const isPoche = item.source_type === "poche";
+    const titleEn = item.article_title || "";
+    const titleZh = item.article_title_zh || "";
+    const titleText = (langMode === "en" ? titleEn : (titleZh || titleEn)) || item.article_url;
+    const title = esc(titleText);
     const bodies = pickBodies(item.article_text, item.article_text_zh, true);
     let inner = "";
     for (const b of bodies) {
@@ -1174,9 +1194,13 @@ function renderFull(item, refArticles) {
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
     }
+    const host = isPoche ? (item.domain || hostOf(item.article_url)) : "";
+    const lbl = isPoche
+      ? `${icon("file-text", "icon-sm")} Article · ${esc(host)}`
+      : `${icon("file-text", "icon-sm")} X Article (own)`;
     blocks.push(
       `<div class="full-block">` +
-      `<div class="lbl">${icon("file-text", "icon-sm")} X Article (own)</div>` +
+      `<div class="lbl">${lbl}</div>` +
       `<div class="full-title"><a href="${esc(item.article_url)}" target="_blank">${title}</a></div>` +
       inner +
       `</div>`
