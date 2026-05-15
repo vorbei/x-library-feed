@@ -953,7 +953,16 @@ function renderPocheSummary(item) {
     html += `<div class="poche-rec">Recommended by <strong>${esc(item.poche_recommended_by)}</strong> · ${teamName}</div>`;
   }
 
-  html += `<div style="margin-top:14px"><a class="page-card-cta" href="${url}" target="_blank" rel="noopener">Open ${host} ${icon("external", "icon-sm")}</a></div>`;
+  // CTA row: when we've scraped the article body, give the user a way to
+  // read it inline (the button only matters on narrow viewports where the
+  // right pane is collapsed — CSS hides it otherwise). The Open ↗ link
+  // always shows since opening the source in a tab is independently useful.
+  let ctaRow = "";
+  if ((item.article_text || "").trim()) {
+    ctaRow += `<button class="show-full-btn has-content" id="show-full"><span>Read full content</span>${icon("arrow-right", "icon-sm")}</button> `;
+  }
+  ctaRow += `<a class="page-card-cta" href="${url}" target="_blank" rel="noopener">Open ${host} ${icon("external", "icon-sm")}</a>`;
+  html += `<div style="margin-top:14px">${ctaRow}</div>`;
 
   // Reuse the favorite / thumbs action bar (no metrics row for poche).
   const st = getItemState(item.id);
