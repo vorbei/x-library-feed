@@ -228,6 +228,33 @@ def _load_x_lib_cache() -> dict[str, Any]:
     return {"linked_content_by_url": linked, "referenced_articles_by_id": refs}
 
 
+# Snippets we know come from page chrome rather than article content. When
+# the scraped body starts with one of these the extractor lost the article
+# boundary — better to keep nothing than to publish navigation menus as
+# "article content".
+_NAV_SIGNATURES = (
+    "Home Explore Notifications Chat Grok Premium",
+    "Skip to content Navigation Menu",
+    "Sign in Sign up",
+    "Toggle navigation",
+    "Loading...",
+    "JavaScript is not available",
+    "Enable JavaScript",
+)
+
+
+def is_garbage_scrape(text: str) -> bool:
+    """Return True when the scraped text is dominated by nav chrome rather
+    than article prose. Cheap heuristic — exact-match on a few signature
+    phrases at the head of the document covers the major culprits."""
+    head = (text or "").strip()[:600]
+    if not head:
+        return True
+    if any(sig in head for sig in _NAV_SIGNATURES):
+        return True
+    return False
+
+
 def enrich_with_content(
     items: list[dict[str, Any]],
     cache: dict[str, dict[str, Any]],
@@ -238,18 +265,37 @@ def enrich_with_content(
     Rendering call (capped by max_fetches)."""
     # Lazy import — only need fetch_link_content when we actually run.
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from sync_x_library import fetch_link_content  # noqa: E402
+    from sync_x_library import fetch_link_content, should_fetch_link  # noqa: E402
 
     linked = cache.get("linked_content_by_url") or {}
     refs = cache.get("referenced_articles_by_id") or {}
     fetched = 0
     reused = 0
+    cleared_garbage = 0
     for it in items:
+        # Detect and clear garbage scrapes that slipped through earlier runs
+        # (X.com SPA shell, github nav menus, etc.) before we look at the
+        # body — leaving them in place defeats the whole point.
+        existing = (it.get("article_text") or "").strip()
+        if existing and is_garbage_scrape(existing):
+            it["article_text"] = ""
+            it["article_text_zh"] = ""
+            it.pop("article_text_zh_hash", None)
+            cleared_garbage += 1
         if (it.get("article_text") or "").strip():
             continue  # already populated from a previous run
         url = (it.get("url") or "").strip()
         if not url:
             continue
+        # x.com / twitter.com URLs that aren't /article/ long-form posts
+        # can't be cleanly scraped — the page is an SPA shell, we get back
+        # the nav. Skip them; if the X library has the tweet body cached
+        # under referenced_articles_by_id (the next check) that still wins.
+        if not should_fetch_link(url):
+            # should_fetch_link returns False for all non-article x.com /
+            # twitter.com URLs (and a few media hosts). Fall through to the
+            # X-cache check below; if that misses, leave the body empty.
+            pass
         x_status_id = it.get("x_status_id")
         # 1) For X tweets we already cache the referenced article body.
         if x_status_id and x_status_id in refs:
@@ -277,7 +323,10 @@ def enrich_with_content(
             continue
         # 3) Fresh fetch via the same trafilatura → CF Browser Rendering path
         #    that sync_x_library uses, capped per run so the workflow stays
-        #    under the runner timeout.
+        #    under the runner timeout. Skip URLs the X library deliberately
+        #    won't scrape (x.com status pages render as nav-only SPA shells).
+        if not should_fetch_link(url):
+            continue
         if fetched >= max_fetches:
             continue
         try:
@@ -287,6 +336,8 @@ def enrich_with_content(
             continue
         fetched += 1
         body = (res.get("text_excerpt") or "").strip()
+        if body and is_garbage_scrape(body):
+            body = ""
         if body:
             it["article_text"] = body
         if res.get("title"):
@@ -298,7 +349,8 @@ def enrich_with_content(
         if res.get("fetch_error"):
             it["article_fetch_error"] = res["fetch_error"]
     print(
-        f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache",
+        f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache, "
+        f"{cleared_garbage} prior garbage scrapes cleared",
         file=sys.stderr,
     )
     return fetched
