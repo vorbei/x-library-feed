@@ -12116,6 +12116,8 @@
         }
       ],
       "title": "Tech Ad Archive",
+      "title_zh": "技术广告档案",
+      "title_zh_hash": "1b51ca206b6b7b82",
       "url": "https://ad-archive.lovable.app/",
       "x_status_id": null
     },
@@ -12180,6 +12182,8 @@
         }
       ],
       "title": "PrismML — Concentrating intelligence",
+      "title_zh": "PrismML — 智能汇聚",
+      "title_zh_hash": "5b07985d3beae1f7",
       "url": "https://prismml.com/",
       "x_status_id": null
     },
@@ -12275,6 +12279,8 @@
         }
       ],
       "title": "Capy - The IDE for the parallel age",
+      "title_zh": "Capy - 并行时代的 IDE",
+      "title_zh_hash": "f55e54cdfa266c5d",
       "url": "https://capy.ai/",
       "x_status_id": null
     },
@@ -12306,6 +12312,8 @@
         }
       ],
       "title": "Logan Kilpatrick (@OfficialLoganK) on X",
+      "title_zh": "Logan Kilpatrick (@OfficialLoganK) 在 X 平台",
+      "title_zh_hash": "732d9d32a4707345",
       "url": "https://x.com/OfficialLoganK/status/2039015034286694618",
       "x_status_id": "2039015034286694618"
     },
@@ -12337,6 +12345,8 @@
         }
       ],
       "title": "whatcani.run",
+      "title_zh": "whatcani.run",
+      "title_zh_hash": "0fdc5dbd521c16d3",
       "url": "https://www.whatcani.run/",
       "x_status_id": null
     },
@@ -12368,6 +12378,8 @@
         }
       ],
       "title": "Are.na Multiplexer",
+      "title_zh": "Are.na 多路复用器",
+      "title_zh_hash": "f8971f2e0c3bc501",
       "url": "https://arena-mux.michaelguidetti.info/",
       "x_status_id": null
     },
@@ -12525,6 +12537,8 @@
         }
       ],
       "title": "Google (@google) on X",
+      "title_zh": "Google (@google) 在 X 平台上",
+      "title_zh_hash": "cdb064333b6ba752",
       "url": "https://x.com/google/status/2038969843701989773",
       "x_status_id": "2038969843701989773"
     },
@@ -12589,6 +12603,8 @@
         }
       ],
       "title": "Ayush Soni (@ayushsoni_io) on X",
+      "title_zh": "Ayush Soni (@ayushsoni_io) 在 X 平台上",
+      "title_zh_hash": "c1c78b302c5dc488",
       "url": "https://x.com/ayushsoni_io/status/2038557641941926229",
       "x_status_id": "2038557641941926229"
     },
@@ -12750,6 +12766,8 @@
         }
       ],
       "title": "Vaibhav (VB) Srivastav (@reach_vb) on X",
+      "title_zh": "Vaibhav (VB) Srivastav (@reach_vb) 在 X 平台",
+      "title_zh_hash": "9b2a4218265b50cd",
       "url": "https://x.com/reach_vb/status/2038670509768839458",
       "x_status_id": "2038670509768839458"
     },
@@ -12907,6 +12925,8 @@
         }
       ],
       "title": "Database Traffic Control™ — PlanetScale",
+      "title_zh": "Database Traffic Control™ — PlanetScale",
+      "title_zh_hash": "b94c97506f43117e",
       "url": "https://planetscale.com/database-traffic-control",
       "x_status_id": null
     },
@@ -13000,6 +13020,8 @@
         }
       ],
       "title": "GitHub - chenglou/pretext · GitHub",
+      "title_zh": "GitHub - chenglou/pretext · GitHub",
+      "title_zh_hash": "1383727b91cc17cf",
       "url": "https://github.com/chenglou/pretext",
       "x_status_id": null
     },
@@ -13064,6 +13086,8 @@
         }
       ],
       "title": "History of Software Design",
+      "title_zh": "软件设计史",
+      "title_zh_hash": "5569a784d3e397db",
       "url": "https://historyofsoftware.org/",
       "x_status_id": null
     },
@@ -13095,6 +13119,8 @@
         }
       ],
       "title": "Panton Chair Limited Edition 2026",
+      "title_zh": "Panton Chair 限量版 2026",
+      "title_zh_hash": "8a6ee504c03d03a9",
       "url": "https://www.panton.vitra.com/",
       "x_status_id": null
     },
@@ -13192,6 +13218,8 @@
         }
       ],
       "title": "Verbo | DSType Foundry",
+      "title_zh": "Verbo | DSType Foundry",
+      "title_zh_hash": "b4509a82819ba5cc",
       "url": "https://www.dstype.com/article/verbo",
       "x_status_id": null
     },
@@ -13355,6 +13383,8 @@
         }
       ],
       "title": "CapCut (@i) on X",
+      "title_zh": "CapCut (@i) 在 X 上",
+      "title_zh_hash": "4e93a13751041f36",
       "url": "https://x.com/i/status/2036943209956344181",
       "x_status_id": "2036943209956344181"
     },
@@ -13518,6 +13548,8 @@
         }
       ],
       "title": "‎stupid fish game App - App Store",
+      "title_zh": "‎愚蠢的鱼游戏 App - App Store",
+      "title_zh_hash": "eeff704073983312",
       "url": "https://apps.apple.com/us/app/stupid-fish-game/id6446605615",
       "x_status_id": null
     },
@@ -13549,6 +13581,8 @@
         }
       ],
       "title": "Claude & Codex for Framer beta",
+      "title_zh": "Claude & Codex for Framer 测试版",
+      "title_zh_hash": "5bb4314cad9fcdd8",
       "url": "https://www.framer.com/llm",
       "x_status_id": null
     },
@@ -13580,6 +13614,8 @@
         }
       ],
       "title": "Benji Taylor (@benjitaylor) on X",
+      "title_zh": "Benji Taylor (@benjitaylor) 在 X 平台",
+      "title_zh_hash": "f4d5aee8583f2dcd",
       "url": "https://x.com/benjitaylor/status/2036882102420201832",
       "x_status_id": "2036882102420201832"
     },
@@ -13611,6 +13647,8 @@
         }
       ],
       "title": "Svalboard - Datahand forever!",
+      "title_zh": "Svalboard - Datahand 永存！",
+      "title_zh_hash": "b1fa41d0654f427e",
       "url": "https://svalboard.com/",
       "x_status_id": null
     },
@@ -14028,6 +14066,8 @@
         }
       ],
       "title": "Flighty Airports Meltdown Map",
+      "title_zh": "Flighty 机场崩溃地图",
+      "title_zh_hash": "d7c4bed466e921dc",
       "url": "https://flighty.com/airports",
       "x_status_id": null
     },
@@ -14059,6 +14099,8 @@
         }
       ],
       "title": "Introducing Layout Mode",
+      "title_zh": "布局模式介绍",
+      "title_zh_hash": "c72f2a76f8dc536c",
       "url": "https://www.agentation.com/blog/layout-mode",
       "x_status_id": null
     },
@@ -14187,6 +14229,8 @@
         }
       ],
       "title": "Issue tracking is dead – Linear",
+      "title_zh": "问题追踪已死——Linear",
+      "title_zh_hash": "5180bfb8112fa79e",
       "url": "https://linear.app/next",
       "x_status_id": null
     },
@@ -14218,6 +14262,8 @@
         }
       ],
       "title": "MD UI · Mass-Driver™",
+      "title_zh": "MD UI · Mass-Driver™",
+      "title_zh_hash": "7d53e073403d7de6",
       "url": "https://mass-driver.com/typefaces/md-ui/",
       "x_status_id": null
     },
@@ -14249,6 +14295,8 @@
         }
       ],
       "title": "OWS - Open Wallet Standard",
+      "title_zh": "OWS - 开放钱包标准",
+      "title_zh_hash": "87b2b36b50005c9c",
       "url": "https://openwallet.sh/",
       "x_status_id": null
     },
@@ -14280,6 +14328,8 @@
         }
       ],
       "title": "Sandboxing AI agents, 100x faster",
+      "title_zh": "将 AI 智能体进行沙箱化，速度提升 100 倍",
+      "title_zh_hash": "1589422fe611f131",
       "url": "https://blog.cloudflare.com/dynamic-workers/",
       "x_status_id": null
     },
@@ -14373,6 +14423,8 @@
         }
       ],
       "title": "Figma Skills: Code to Design Workflows",
+      "title_zh": "Figma 技能：从代码到设计的工作流程",
+      "title_zh_hash": "2b2a9bbb58da234e",
       "url": "https://www.figma.com/community/skills",
       "x_status_id": null
     },
@@ -14437,6 +14489,8 @@
         }
       ],
       "title": "Home | Littlebird",
+      "title_zh": "首页 | Littlebird",
+      "title_zh_hash": "0a9826e0aef0e483",
       "url": "https://littlebird.ai/",
       "x_status_id": null
     },
@@ -14468,6 +14522,8 @@
         }
       ],
       "title": "iyO AI - More than audio",
+      "title_zh": "iyO AI - 不止于音频",
+      "title_zh_hash": "31395436025e906a",
       "url": "https://www.iyo.ai/",
       "x_status_id": null
     },
@@ -14499,6 +14555,8 @@
         }
       ],
       "title": "@Modular on X",
+      "title_zh": "@Modular 在 X 上",
+      "title_zh_hash": "67637f3da0db1110",
       "url": "https://x.com/Modular/status/2036152957604077827",
       "x_status_id": "2036152957604077827"
     },
@@ -14530,6 +14588,8 @@
         }
       ],
       "title": "Better customer experiences | Sierra",
+      "title_zh": "更优质的客户体验 | Sierra",
+      "title_zh_hash": "4aaaeeb21809545b",
       "url": "https://sierra.ai/",
       "x_status_id": null
     },
@@ -14594,6 +14654,8 @@
         }
       ],
       "title": "Curiosity is Life | KOKUYO",
+      "title_zh": "好奇心即生活 | KOKUYO",
+      "title_zh_hash": "ad07068e2b2ed626",
       "url": "https://www.kokuyo.com/en/special/curiosity-is-life/",
       "x_status_id": null
     },
@@ -14658,6 +14720,8 @@
         }
       ],
       "title": "Jason Fried (@jasonfried) on X",
+      "title_zh": "Jason Fried (@jasonfried) 在 X 平台上的发言",
+      "title_zh_hash": "b38f4817aab050d9",
       "url": "https://x.com/jasonfried/status/2036177960005410957",
       "x_status_id": "2036177960005410957"
     },
@@ -14689,6 +14753,8 @@
         }
       ],
       "title": "Tyler Angert (@tylerangert) on X",
+      "title_zh": "Tyler Angert (@tylerangert) 在 X 平台",
+      "title_zh_hash": "4a0f1c2bcc7b7d1a",
       "url": "https://x.com/tylerangert/status/2036275247809470926",
       "x_status_id": "2036275247809470926"
     },
@@ -14786,6 +14852,8 @@
         }
       ],
       "title": "@OpenAI on X",
+      "title_zh": "OpenAI 在 X 平台",
+      "title_zh_hash": "f8e6d125428c4874",
       "url": "https://x.com/OpenAI/status/2036183180219392103",
       "x_status_id": "2036183180219392103"
     },
@@ -14817,6 +14885,8 @@
         }
       ],
       "title": "Dimension — Your AI work assistant",
+      "title_zh": "Dimension — 你的 AI 工作助手",
+      "title_zh_hash": "eeff72402124f42f",
       "url": "https://dimension.dev/",
       "x_status_id": null
     },
@@ -14879,6 +14949,8 @@
         }
       ],
       "title": "Claude (@claudeai) on X",
+      "title_zh": "Claude (@claudeai) 在 X 平台上",
+      "title_zh_hash": "e62f13c6e3da37e8",
       "url": "https://x.com/claudeai/status/2036195789601374705",
       "x_status_id": "2036195789601374705"
     },
@@ -14974,6 +15046,8 @@
         }
       ],
       "title": "Kapso | WhatsApp for developers",
+      "title_zh": "Kapso | 面向开发者的 WhatsApp",
+      "title_zh_hash": "5109a121dd9fea6b",
       "url": "https://kapso.ai/",
       "x_status_id": null
     },
@@ -15100,6 +15174,8 @@
         }
       ],
       "title": "This picture broke my brain",
+      "title_zh": "这张图让我大脑宕机了。",
+      "title_zh_hash": "593a2b0e6bdaa334",
       "url": "https://youtu.be/ldxFjLJ3rVY?si=1mQJ1GqibnEJa8vy",
       "x_status_id": null
     },
@@ -15230,6 +15306,8 @@
         }
       ],
       "title": "Tenor — AI-native UI design",
+      "title_zh": "Tenor — 原生人工智能界面设计",
+      "title_zh_hash": "5c035b0477831233",
       "url": "https://tenor.design/",
       "x_status_id": null
     },
@@ -15261,6 +15339,8 @@
         }
       ],
       "title": "Control | Design websites",
+      "title_zh": "控制 | 设计网站",
+      "title_zh_hash": "0687ed6095703c91",
       "url": "https://cntrl.site/",
       "x_status_id": null
     },
@@ -15325,6 +15405,8 @@
         }
       ],
       "title": "about | anamnesis.fm",
+      "title_zh": "关于 | anamnesis.fm",
+      "title_zh_hash": "7ee7fc6986fc10bc",
       "url": "https://anamnesis.fm/about/",
       "x_status_id": null
     },
@@ -15354,6 +15436,8 @@
         }
       ],
       "title": "Teddy Warner",
+      "title_zh": "泰迪·沃纳",
+      "title_zh_hash": "8d10aa98d293d597",
       "url": "https://theodore.net/",
       "x_status_id": null
     },
@@ -15385,6 +15469,8 @@
         }
       ],
       "title": "jade.flowers",
+      "title_zh": "jade.flowers",
+      "title_zh_hash": "08e54968972d627e",
       "url": "https://www.jade.flowers/",
       "x_status_id": null
     },
@@ -15416,6 +15502,8 @@
         }
       ],
       "title": "Departure Mono",
+      "title_zh": "Departure Mono",
+      "title_zh_hash": "920d990eafe4d1df",
       "url": "https://departuremono.com/",
       "x_status_id": null
     },
@@ -15447,6 +15535,8 @@
         }
       ],
       "title": "Lightfield | AI-native CRM",
+      "title_zh": "Lightfield | 原生AI CRM",
+      "title_zh_hash": "cb62cc62e79f43ab",
       "url": "https://lightfield.app/",
       "x_status_id": null
     },
@@ -15540,6 +15630,8 @@
         }
       ],
       "title": "Do you need a CMS? | Joost.blog",
+      "title_zh": "你需要一个CMS吗？ | Joost.blog",
+      "title_zh_hash": "f361092be1fd6cd2",
       "url": "https://joost.blog/do-you-need-a-cms/",
       "x_status_id": null
     },
@@ -15571,6 +15663,8 @@
         }
       ],
       "title": "Mat Silverstein (@matsilverstein) on X",
+      "title_zh": "Mat Silverstein (@matsilverstein) 在 X 平台",
+      "title_zh_hash": "07b215c56ca195a0",
       "url": "https://x.com/matsilverstein/status/2035032792854409601",
       "x_status_id": "2035032792854409601"
     },
@@ -15633,6 +15727,8 @@
         }
       ],
       "title": "Designing with Claude Code",
+      "title_zh": "使用 Claude Code 进行设计",
+      "title_zh_hash": "249ad331b0485a34",
       "url": "https://www.youtube.com/watch?v=lkKGQVHrXzE",
       "x_status_id": null
     },
@@ -15697,6 +15793,8 @@
         }
       ],
       "title": "Wilco de Kreij (@emarky) on X",
+      "title_zh": "Wilco de Kreij (@emarky) 在 X 平台",
+      "title_zh_hash": "0f79e8bda1ba9040",
       "url": "https://x.com/emarky/status/2034635628902514972",
       "x_status_id": "2034635628902514972"
     },
@@ -15728,6 +15826,8 @@
         }
       ],
       "title": "Channels reference - Claude Code Docs",
+      "title_zh": "# 通道参考 - Claude Code 文档",
+      "title_zh_hash": "cf5d428964c2968b",
       "url": "https://code.claude.com/docs/en/channels-reference",
       "x_status_id": null
     },
@@ -15889,6 +15989,8 @@
         }
       ],
       "title": "Introducing Composer 2 · Cursor",
+      "title_zh": "介绍 Composer 2 · Cursor",
+      "title_zh_hash": "e7c42ed501273096",
       "url": "https://cursor.com/blog/composer-2",
       "x_status_id": null
     },
@@ -16079,6 +16181,8 @@
         }
       ],
       "title": "Warp › The Next Chapter of Warp",
+      "title_zh": "Warp › Warp 的下一个篇章",
+      "title_zh_hash": "78b13d256f14448b",
       "url": "https://www.warp.co/the-next-chapter",
       "x_status_id": null
     },
@@ -16110,6 +16214,8 @@
         }
       ],
       "title": "Thanks — Turn Thank You into Revenue",
+      "title_zh": "感谢——将感谢转化为收入",
+      "title_zh_hash": "66082e5fbd4588ab",
       "url": "https://www.thanks.co/",
       "x_status_id": null
     },
@@ -16141,6 +16247,8 @@
         }
       ],
       "title": "Silicon - Preorder the Book",
+      "title_zh": "Silicon - 预订本书",
+      "title_zh_hash": "ad1cfc2e8a23378f",
       "url": "https://arenamag.com/silicon",
       "x_status_id": null
     },
@@ -16399,6 +16507,8 @@
         }
       ],
       "title": "Press corner | European Commission",
+      "title_zh": "新闻角 | 欧盟委员会",
+      "title_zh_hash": "49cb5a862d9e07db",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_614",
       "x_status_id": null
     },
@@ -16459,6 +16569,8 @@
         }
       ],
       "title": "Radiant — Open Source Shaders & Effects",
+      "title_zh": "Radiant — 开源着色器与特效",
+      "title_zh_hash": "5904856c7d86150d",
       "url": "https://radiant-shaders.com/",
       "x_status_id": null
     },
@@ -16490,6 +16602,8 @@
         }
       ],
       "title": "Robinhood | Explore Robinhood Social",
+      "title_zh": "Robinhood | 探索 Robinhood 社交",
+      "title_zh_hash": "e50ac730613f1fe8",
       "url": "https://robinhood.com/us/en/social/",
       "x_status_id": null
     },
@@ -16521,6 +16635,8 @@
         }
       ],
       "title": "optimo — Media Compression Commands",
+      "title_zh": "optimo — 媒体压缩命令",
+      "title_zh_hash": "57088a7ab4eb1b25",
       "url": "https://optimo.microlink.io/",
       "x_status_id": null
     },
@@ -16552,6 +16668,8 @@
         }
       ],
       "title": "Stitch - Design with AI",
+      "title_zh": "Stitch - 用AI进行设计",
+      "title_zh_hash": "b0ed80d09ab0419d",
       "url": "https://stitch.withgoogle.com/docs/design-md/overview",
       "x_status_id": null
     },
@@ -16583,6 +16701,8 @@
         }
       ],
       "title": "Next.js 16.2 | Next.js",
+      "title_zh": "Next.js 16.2 | Next.js",
+      "title_zh_hash": "ddb36170ec9181f6",
       "url": "https://nextjs.org/blog/next-16-2",
       "x_status_id": null
     },
@@ -16614,6 +16734,8 @@
         }
       ],
       "title": "The 49MB Web Page | thatshubham",
+      "title_zh": "49MB 的网页 | thatshubham",
+      "title_zh_hash": "626a9c6edfbca7b3",
       "url": "https://thatshubham.com/blog/news-audit",
       "x_status_id": null
     },
@@ -16645,6 +16767,8 @@
         }
       ],
       "title": "H.264 Bitrate Calculator",
+      "title_zh": "H.264 码率计算器",
+      "title_zh_hash": "d5eb5c8d90caaa19",
       "url": "https://bitratecalculator.app/",
       "x_status_id": null
     },
@@ -16676,6 +16800,8 @@
         }
       ],
       "title": "AI Design Field Guide",
+      "title_zh": "AI 设计领域指南",
+      "title_zh_hash": "1edf0b6dafcc5b51",
       "url": "https://www.aidesignfieldguide.com/",
       "x_status_id": null
     },
@@ -16734,6 +16860,8 @@
         }
       ],
       "title": "This Camera Turns Life Into a Game",
+      "title_zh": "这款相机将生活变成游戏",
+      "title_zh_hash": "589d37a364c0d415",
       "url": "https://www.youtube.com/watch?v=JSyK9pxqJa0",
       "x_status_id": null
     },
@@ -16796,6 +16924,8 @@
         }
       ],
       "title": "AI is making CEOs delusional",
+      "title_zh": "AI正让CEO们变得不切实际。",
+      "title_zh_hash": "943b7f08ce23ae7e",
       "url": "https://youtu.be/Q6nem-F8AG8?si=Y2gmyfZdkOIAPgii",
       "x_status_id": null
     },
@@ -16827,6 +16957,8 @@
         }
       ],
       "title": "Ivan Akulov (@iamakulov) on X",
+      "title_zh": "Ivan Akulov (@iamakulov) 在 X 平台",
+      "title_zh_hash": "355581294a7da36b",
       "url": "https://x.com/iamakulov/status/2033710734228529169",
       "x_status_id": "2033710734228529169"
     },
@@ -16858,6 +16990,8 @@
         }
       ],
       "title": "i feel so much shame ♡",
+      "title_zh": "我感到非常羞愧 ♡",
+      "title_zh_hash": "36194ba766f55057",
       "url": "https://ifeelsomuchsha.me/",
       "x_status_id": null
     },
@@ -16918,6 +17052,8 @@
         }
       ],
       "title": "RNBO Move Takeover | Cycling '74",
+      "title_zh": "RNBO 移动接管 | Cycling '74",
+      "title_zh_hash": "4b969215ee800ed6",
       "url": "https://cycling74.com/products/rnbo/move",
       "x_status_id": null
     },
@@ -17112,6 +17248,8 @@
         }
       ],
       "title": "DUNE (@dunemovie) on X",
+      "title_zh": "DUNE (@dunemovie) 在 X 平台",
+      "title_zh_hash": "895e84be4863681e",
       "url": "https://x.com/dunemovie/status/2033941127368478781",
       "x_status_id": "2033941127368478781"
     },
@@ -17172,6 +17310,8 @@
         }
       ],
       "title": "‎Offset ID App - App Store",
+      "title_zh": "Offset ID App - App Store",
+      "title_zh_hash": "367a4ee388ef935f",
       "url": "https://apps.apple.com/us/app/offset-id/id6757905901",
       "x_status_id": null
     },
@@ -17236,6 +17376,8 @@
         }
       ],
       "title": "S.H.I.T Journal",
+      "title_zh": "S.H.I.T 日志",
+      "title_zh_hash": "acecf8b5b8cbf9fc",
       "url": "https://shitjournal.org/",
       "x_status_id": null
     },
@@ -17300,6 +17442,8 @@
         }
       ],
       "title": "‎Run Receipt App - App Store",
+      "title_zh": "‎运行收据应用 - App Store",
+      "title_zh_hash": "c99cf494fecd66b5",
       "url": "https://apps.apple.com/us/app/run-receipt/id6759910078",
       "x_status_id": null
     },
@@ -17397,6 +17541,8 @@
         }
       ],
       "title": "omou – minimal Gmail client",
+      "title_zh": "omou – 极简 Gmail 客户端",
+      "title_zh_hash": "fa4be2fa56b4b259",
       "url": "https://omou.app/",
       "x_status_id": null
     },
@@ -17653,6 +17799,8 @@
         }
       ],
       "title": "Kindolphin : GIF Manga Reader by AC-bu",
+      "title_zh": "Kindolphin：AC-bu 开发的 GIF 漫画阅读器",
+      "title_zh_hash": "642764d2f4ecbe55",
       "url": "https://ac-bu.info/kindolphin/",
       "x_status_id": null
     },
@@ -17684,6 +17832,8 @@
         }
       ],
       "title": "TBPN (@tbpn) on X",
+      "title_zh": "TBPN (@tbpn) 在 X 平台",
+      "title_zh_hash": "ea490e1e5b52692f",
       "url": "https://x.com/tbpn/status/2032593548382507480",
       "x_status_id": "2032593548382507480"
     },
@@ -17715,6 +17865,8 @@
         }
       ],
       "title": "JPEG compression",
+      "title_zh": "JPEG 压缩",
+      "title_zh_hash": "5697b3e26255c7a9",
       "url": "https://www.sophielwang.com/blog/jpeg",
       "x_status_id": null
     },
@@ -17876,6 +18028,8 @@
         }
       ],
       "title": "Marc Benioff (@benioff) on X",
+      "title_zh": "Marc Benioff (@benioff) 在 X 平台",
+      "title_zh_hash": "6eefc93a8c3e571e",
       "url": "https://x.com/benioff/status/2032161195533242422",
       "x_status_id": "2032161195533242422"
     },
@@ -18163,6 +18317,8 @@
         }
       ],
       "title": "UI refresh – Changelog",
+      "title_zh": "UI 刷新 – 更新日志",
+      "title_zh_hash": "53aab8492bb9de0c",
       "url": "https://linear.app/changelog/2026-03-12-ui-refresh",
       "x_status_id": null
     },
@@ -18225,6 +18381,8 @@
         }
       ],
       "title": "Vite 8.0 is out! | Vite",
+      "title_zh": "Vite 8.0 发布！| Vite",
+      "title_zh_hash": "703edca5799468a5",
       "url": "https://vite.dev/blog/announcing-vite8",
       "x_status_id": null
     },
@@ -18256,6 +18414,8 @@
         }
       ],
       "title": "Static-Hosting | Convex Components",
+      "title_zh": "静态托管 | Convex 组件",
+      "title_zh_hash": "1622d253db9068ab",
       "url": "https://www.convex.dev/components/static-hosting",
       "x_status_id": null
     },
@@ -18349,6 +18509,8 @@
         }
       ],
       "title": "The Legend of California on Steam",
+      "title_zh": "《加利福尼亚传奇》在Steam上",
+      "title_zh_hash": "4087e430676f3b57",
       "url": "https://store.steampowered.com/app/2550530/The_Legend_of_California/",
       "x_status_id": null
     },
@@ -18380,6 +18542,8 @@
         }
       ],
       "title": "Astro 6.0 | Astro",
+      "title_zh": "Astro 6.0 | Astro",
+      "title_zh_hash": "ca1d958b38cc628c",
       "url": "https://astro.build/blog/astro-6/",
       "x_status_id": null
     },
@@ -18411,6 +18575,8 @@
         }
       ],
       "title": "Method Security - Secure what matters",
+      "title_zh": "方法安全 - 保护重要内容",
+      "title_zh_hash": "12174bfbd673ad8b",
       "url": "https://www.method.security/",
       "x_status_id": null
     },
@@ -18471,6 +18637,8 @@
         }
       ],
       "title": "starboy – CREATURE",
+      "title_zh": "starboy – CREATURE",
+      "title_zh_hash": "4ca900431cf02f26",
       "url": "https://lilguy.net/",
       "x_status_id": null
     },
@@ -18535,6 +18703,8 @@
         }
       ],
       "title": "Proof — The agent-first document editor",
+      "title_zh": "**证明** — 以智能体优先的文档编辑器",
+      "title_zh_hash": "6179b39641c21b28",
       "url": "https://proofeditor.ai/",
       "x_status_id": null
     },
@@ -18599,6 +18769,8 @@
         }
       ],
       "title": "My WordPress",
+      "title_zh": "我的WordPress",
+      "title_zh_hash": "fbcb92a502f4f86f",
       "url": "https://my.wordpress.net/",
       "x_status_id": null
     },
@@ -18630,6 +18802,8 @@
         }
       ],
       "title": "Natural — Payments for AI agents",
+      "title_zh": "Natural — AI 智能体的支付解决方案",
+      "title_zh_hash": "a433fb448f3ac33b",
       "url": "https://www.natural.co/",
       "x_status_id": null
     },
@@ -18723,6 +18897,8 @@
         }
       ],
       "title": "Aaron's Waypoints",
+      "title_zh": "**Aaron 的路径点**",
+      "title_zh_hash": "c7ab736154fdfd21",
       "url": "https://liuaaron.com/",
       "x_status_id": null
     },
@@ -18849,6 +19025,8 @@
         }
       ],
       "title": "Parseword - A tricky wordplay game",
+      "title_zh": "Parseword - 一款烧脑的文字游戏",
+      "title_zh_hash": "b58f260b51750de0",
       "url": "https://www.parseword.com/",
       "x_status_id": null
     },
@@ -19140,6 +19318,8 @@
         }
       ],
       "title": "Yondr Studio",
+      "title_zh": "Yondr Studio",
+      "title_zh_hash": "a09f3dd6472fb88e",
       "url": "https://yondrstudio.com/",
       "x_status_id": null
     },
@@ -19237,6 +19417,8 @@
         }
       ],
       "title": "DesEngs: Resources for Design Engineers",
+      "title_zh": "DesEngs：设计工程师资源",
+      "title_zh_hash": "5e45fb457669b556",
       "url": "https://desengs.com/",
       "x_status_id": null
     },
@@ -19268,6 +19450,8 @@
         }
       ],
       "title": "They Fly. Earth Dies.",
+      "title_zh": "它们飞翔。地球消亡。",
+      "title_zh_hash": "ced03a49bb295872",
       "url": "https://aaoa-dev.github.io/Emit/",
       "x_status_id": null
     },
@@ -19906,6 +20090,8 @@
         }
       ],
       "title": "Cotool - AI for the blue team.",
+      "title_zh": "Cotool - 面向蓝队的人工智能。",
+      "title_zh_hash": "74d730fec64d96e0",
       "url": "https://www.cotool.ai/",
       "x_status_id": null
     },
@@ -20032,6 +20218,8 @@
         }
       ],
       "title": "APR MAG - Articles",
+      "title_zh": "APR MAG - 文章",
+      "title_zh_hash": "c215d31acd8b9618",
       "url": "https://apr-mag.com/",
       "x_status_id": null
     },
@@ -20063,6 +20251,8 @@
         }
       ],
       "title": "Ahmad Awais (@MrAhmadAwais) on X",
+      "title_zh": "Ahmad Awais (@MrAhmadAwais) 在 X 平台",
+      "title_zh_hash": "8ca62c171ef58468",
       "url": "https://x.com/MrAhmadAwais/status/2029680947755733452",
       "x_status_id": "2029680947755733452"
     },
@@ -20127,6 +20317,8 @@
         }
       ],
       "title": "Aiden Bai (@aidenybai) on X",
+      "title_zh": "X平台上的Aiden Bai（@aidenybai）",
+      "title_zh_hash": "3e30f9a6ae94fd7e",
       "url": "https://x.com/aidenybai/status/2029603067927351506",
       "x_status_id": "2029603067927351506"
     },
@@ -20156,6 +20348,8 @@
         }
       ],
       "title": "Ethan Wang (@wsvn53) on X",
+      "title_zh": "Ethan Wang (@wsvn53) 在 X 平台",
+      "title_zh_hash": "7ade904d1f5cb8e3",
       "url": "https://x.com/wsvn53/status/2027237468148511041",
       "x_status_id": "2027237468148511041"
     },
@@ -20187,6 +20381,8 @@
         }
       ],
       "title": "Figma (@figma) on X",
+      "title_zh": "Figma (@figma) 在 X 上",
+      "title_zh_hash": "ca581ff21970a2a5",
       "url": "https://x.com/figma/status/2029621688833560712",
       "x_status_id": "2029621688833560712"
     },
@@ -20218,6 +20414,8 @@
         }
       ],
       "title": "Common Knowledge",
+      "title_zh": "常识",
+      "title_zh_hash": "7bc3c7798a7bfdd4",
       "url": "https://www.commonknowled.ge/",
       "x_status_id": null
     },
@@ -20249,6 +20447,8 @@
         }
       ],
       "title": "@levelsio (@levelsio) on X",
+      "title_zh": "@levelsio (@levelsio) 在 X 平台上",
+      "title_zh_hash": "cf2bb13a8f71756d",
       "url": "https://x.com/levelsio/status/2029575116187730300",
       "x_status_id": "2029575116187730300"
     },
@@ -20408,6 +20608,8 @@
         }
       ],
       "title": "@disinfeqt on X",
+      "title_zh": "X 平台上的 @disinfeqt",
+      "title_zh_hash": "b7a3cce514baccb8",
       "url": "https://x.com/disinfeqt/status/2029544573794709635",
       "x_status_id": "2029544573794709635"
     },
@@ -20503,6 +20705,8 @@
         }
       ],
       "title": "lawn — video review for creative teams",
+      "title_zh": "lawn — 面向创意团队的视频审阅工具",
+      "title_zh_hash": "61512d1549cf9675",
       "url": "https://lawn.video/",
       "x_status_id": null
     },
@@ -20565,6 +20769,8 @@
         }
       ],
       "title": "Dan Robinson (@danlovesproofs) on X",
+      "title_zh": "Dan Robinson (@danlovesproofs) 在 X 平台",
+      "title_zh_hash": "63f263c83c29852d",
       "url": "https://x.com/danlovesproofs/status/2028890694837039202",
       "x_status_id": "2028890694837039202"
     },
@@ -20594,6 +20800,8 @@
         }
       ],
       "title": "Cheng (@chumsdock) on X",
+      "title_zh": "X 平台上的 Cheng（@chumsdock）",
+      "title_zh_hash": "e6d3f0c7b09dbeea",
       "url": "https://x.com/chumsdock/status/2029198844093997145",
       "x_status_id": "2029198844093997145"
     },
@@ -20790,6 +20998,8 @@
         }
       ],
       "title": "Interfere › Build better software",
+      "title_zh": "Interfere › 构建更优质的软件",
+      "title_zh_hash": "c101832c9bba6270",
       "url": "https://interfere.com/",
       "x_status_id": null
     },
@@ -20885,6 +21095,8 @@
         }
       ],
       "title": "Home - Sessions",
+      "title_zh": "首页 - 会话",
+      "title_zh_hash": "859eb8b813e4a7fe",
       "url": "https://sessions.co.uk/",
       "x_status_id": null
     },
@@ -21044,6 +21256,8 @@
         }
       ],
       "title": "Pocket — Take Notes In The Real World",
+      "title_zh": "Pocket — 在现实世界中做笔记",
+      "title_zh_hash": "3b54e3608b59e16b",
       "url": "https://heypocket.com/pages/now",
       "x_status_id": null
     },
@@ -21075,6 +21289,8 @@
         }
       ],
       "title": "Albert Invent",
+      "title_zh": "Albert Invent",
+      "title_zh_hash": "d3caff4a0dec2cf9",
       "url": "https://www.albertinvent.com/",
       "x_status_id": null
     },
@@ -21106,6 +21322,8 @@
         }
       ],
       "title": "Designers & Machines",
+      "title_zh": "设计师与机器",
+      "title_zh_hash": "f6685b12c2deaf44",
       "url": "https://www.designers-machines.com/",
       "x_status_id": null
     },
@@ -21137,6 +21355,8 @@
         }
       ],
       "title": "Notion (@NotionHQ) on X",
+      "title_zh": "Notion (@NotionHQ) 在 X 平台上",
+      "title_zh_hash": "04fb48bb1c209327",
       "url": "https://x.com/NotionHQ/status/2028885797483761860",
       "x_status_id": "2028885797483761860"
     },
@@ -21166,6 +21386,8 @@
         }
       ],
       "title": "Drizzle joins PlanetScale — PlanetScale",
+      "title_zh": "Drizzle 加入 PlanetScale — PlanetScale",
+      "title_zh_hash": "0b637df06dacf824",
       "url": "https://planetscale.com/blog/drizzle-joins-planetscale",
       "x_status_id": null
     },
@@ -21197,6 +21419,8 @@
         }
       ],
       "title": "App Icons - Matthew Skiles",
+      "title_zh": "应用图标 - Matthew Skiles",
+      "title_zh_hash": "9f0eb632786ad765",
       "url": "https://matthewskiles.com/app-icons/",
       "x_status_id": null
     },
@@ -21327,6 +21551,8 @@
         }
       ],
       "title": "Luka Marr (@LukaMarr) on X",
+      "title_zh": "Luka Marr (@LukaMarr) 在 X 平台",
+      "title_zh_hash": "2f3e87ab7a9de592",
       "url": "https://x.com/LukaMarr/status/2028550817175781819",
       "x_status_id": "2028550817175781819"
     },
@@ -21358,6 +21584,8 @@
         }
       ],
       "title": "Notion (@NotionHQ) on X",
+      "title_zh": "Notion (@NotionHQ) 在 X 平台上",
+      "title_zh_hash": "04fb48bb1c209327",
       "url": "https://x.com/NotionHQ/status/2028533326966088188",
       "x_status_id": "2028533326966088188"
     },
@@ -21389,6 +21617,8 @@
         }
       ],
       "title": "Clawly — Your AI Agent, One Tap Away",
+      "title_zh": "Clawly — 你的 AI 智能体，一键即达",
+      "title_zh_hash": "9d31ee914d87b320",
       "url": "https://www.clawly.pet/",
       "x_status_id": null
     },
@@ -21484,6 +21714,8 @@
         }
       ],
       "title": "Introducing Together AI’s new look",
+      "title_zh": "介绍 Together AI 的全新面貌",
+      "title_zh_hash": "96ab70b5ef485e22",
       "url": "https://www.together.ai/blog/introducing-together-ai-new-look",
       "x_status_id": null
     },
@@ -21548,6 +21780,8 @@
         }
       ],
       "title": "History of Software Design",
+      "title_zh": "软件设计史",
+      "title_zh_hash": "5569a784d3e397db",
       "url": "https://historyofsoftware.org/",
       "x_status_id": null
     },
@@ -21610,6 +21844,8 @@
         }
       ],
       "title": "The Component Gallery",
+      "title_zh": "组件画廊",
+      "title_zh_hash": "2ad7b9d01a086c3c",
       "url": "https://component.gallery/",
       "x_status_id": null
     },
@@ -21674,6 +21910,8 @@
         }
       ],
       "title": "Paper MCP server · Paper",
+      "title_zh": "Paper MCP 服务器 · Paper",
+      "title_zh_hash": "974685f0411cc44b",
       "url": "https://paper.design/docs/mcp",
       "x_status_id": null
     },
@@ -21703,6 +21941,8 @@
         }
       ],
       "title": "I Trained My Own AI... It beat ChatGPT",
+      "title_zh": "我训练了自己的AI……它击败了ChatGPT",
+      "title_zh_hash": "97551648025037ea",
       "url": "https://www.youtube.com/watch?v=aV4j5pXLP-I",
       "x_status_id": null
     },
@@ -21765,6 +22005,8 @@
         }
       ],
       "title": "Small App Garden",
+      "title_zh": "小应用花园",
+      "title_zh_hash": "e74d37be41f071fa",
       "url": "https://garden.cloudflare.dev/",
       "x_status_id": null
     },
@@ -21796,6 +22038,8 @@
         }
       ],
       "title": "Brian Lovin (@brian_lovin) on X",
+      "title_zh": "Brian Lovin (@brian_lovin) 在 X 平台",
+      "title_zh_hash": "a7797dc78f99de15",
       "url": "https://x.com/brian_lovin/status/2026827356623745355",
       "x_status_id": "2026827356623745355"
     },
@@ -21827,6 +22071,8 @@
         }
       ],
       "title": "ARKETYPE ––– Join the Wailtlist",
+      "title_zh": "ARKETYPE ––– 加入候补名单",
+      "title_zh_hash": "423a065cc1eebb2f",
       "url": "https://waitlist.arketype.shop/",
       "x_status_id": null
     },
@@ -21984,6 +22230,8 @@
         }
       ],
       "title": "Faces: Interactive Presentations",
+      "title_zh": "Faces：交互式演示",
+      "title_zh_hash": "dfb7d32ef59b1500",
       "url": "https://faces.app/",
       "x_status_id": null
     },
@@ -22013,6 +22261,8 @@
         }
       ],
       "title": "Shortkit - We make video simple",
+      "title_zh": "Shortkit - 我们让视频制作变得简单",
+      "title_zh_hash": "c2a3b43e422c3628",
       "url": "https://www.shortkit.dev/",
       "x_status_id": null
     },
@@ -22108,6 +22358,8 @@
         }
       ],
       "title": "Schengen  —  Dinamo Typefaces",
+      "title_zh": "Schengen — Dinamo Typefaces",
+      "title_zh_hash": "6d40c24efaa5f1db",
       "url": "https://abcdinamo.com/typefaces/schengen",
       "x_status_id": null
     },
@@ -22269,6 +22521,8 @@
         }
       ],
       "title": "Introducing Perplexity Computer",
+      "title_zh": "介绍 Perplexity Computer",
+      "title_zh_hash": "1d7cca56d7d5f871",
       "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-computer",
       "x_status_id": null
     },
@@ -22331,6 +22585,8 @@
         }
       ],
       "title": "Design, together — again",
+      "title_zh": "再次携手设计",
+      "title_zh_hash": "1c89fe9775253ae5",
       "url": "https://on.design/",
       "x_status_id": null
     },
@@ -22362,6 +22618,8 @@
         }
       ],
       "title": "Expo SDK 55 - Expo Changelog",
+      "title_zh": "# Expo SDK 55 - Expo 更新日志",
+      "title_zh_hash": "05dddb471c0dc07f",
       "url": "https://expo.dev/changelog/sdk-55",
       "x_status_id": null
     },
@@ -22393,6 +22651,8 @@
         }
       ],
       "title": "GitHub - Lakr233/AssppWeb · GitHub",
+      "title_zh": "GitHub - Lakr233/AssppWeb · GitHub",
+      "title_zh_hash": "0dae0519c903ba36",
       "url": "https://github.com/lakr233/assppweb",
       "x_status_id": null
     },
@@ -22424,6 +22684,8 @@
         }
       ],
       "title": "Andreas Storm (@avstorm) on X",
+      "title_zh": "Andreas Storm (@avstorm) 在 X 平台",
+      "title_zh_hash": "6a38eecc2233e202",
       "url": "https://x.com/avstorm/status/2026763862205186279",
       "x_status_id": "2026763862205186279"
     },
@@ -22620,6 +22882,8 @@
         }
       ],
       "title": "Pinhead Map Icons by Wayside Mapping",
+      "title_zh": "Pinhead Map Icons 作者：Wayside Mapping",
+      "title_zh_hash": "45423fed69888298",
       "url": "https://pinhead.ink/",
       "x_status_id": null
     },
@@ -22715,6 +22979,8 @@
         }
       ],
       "title": "Overwatch (@PlayOverwatch) on X",
+      "title_zh": "Overwatch (@PlayOverwatch) 在 X 平台",
+      "title_zh_hash": "612bd75de8bb1da1",
       "url": "https://x.com/PlayOverwatch/status/2026333802943922496",
       "x_status_id": "2026333802943922496"
     },
@@ -22746,6 +23012,8 @@
         }
       ],
       "title": "Stephen Haney (@stephenhaney) on X",
+      "title_zh": "Stephen Haney (@stephenhaney) 在 X 平台上",
+      "title_zh_hash": "84a17009016fd92b",
       "url": "https://x.com/stephenhaney/status/2026348761501581620",
       "x_status_id": "2026348761501581620"
     },
@@ -22777,6 +23045,8 @@
         }
       ],
       "title": "Letters to a Young Creator",
+      "title_zh": "致年轻创作者的信",
+      "title_zh_hash": "cb2ec79998fdb41f",
       "url": "https://letters.stevejobsarchive.com/",
       "x_status_id": null
     },
@@ -22837,6 +23107,8 @@
         }
       ],
       "title": "Alex Barashkov (@alex_barashkov) on X",
+      "title_zh": "Alex Barashkov (@alex_barashkov) 在 X 平台上的内容",
+      "title_zh_hash": "5b462690a0e5e43d",
       "url": "https://x.com/alex_barashkov/status/2025927092186063085",
       "x_status_id": "2025927092186063085"
     },
@@ -22930,6 +23202,8 @@
         }
       ],
       "title": "Senso — News Through an Ancient Lens",
+      "title_zh": "Senso — 以古老视角解读新闻",
+      "title_zh_hash": "a5e65ff259610055",
       "url": "https://www.senso.news/",
       "x_status_id": null
     },
@@ -23023,6 +23297,8 @@
         }
       ],
       "title": "Morphic – A new era of storytelling",
+      "title_zh": "Morphic – 故事讲述的新纪元",
+      "title_zh_hash": "b179c202dd6425a6",
       "url": "https://morphic.com/",
       "x_status_id": null
     },
@@ -23149,6 +23425,8 @@
         }
       ],
       "title": "THE 2028 GLOBAL INTELLIGENCE CRISIS",
+      "title_zh": "2028年全球情报危机",
+      "title_zh_hash": "7b2cda81f27637c0",
       "url": "https://www.citriniresearch.com/p/2028gic",
       "x_status_id": null
     },
@@ -23180,6 +23458,8 @@
         }
       ],
       "title": "walkie — P2P comms for AI agents",
+      "title_zh": "walkie — AI 智能体之间的点对点通信工具",
+      "title_zh_hash": "2ce82330f2bd2724",
       "url": "https://walkie.sh/",
       "x_status_id": null
     },
@@ -23471,6 +23751,8 @@
         }
       ],
       "title": "Kino — The new home for video editors",
+      "title_zh": "Kino — 视频剪辑师的新家园",
+      "title_zh_hash": "49ed5e242c14d4d5",
       "url": "https://kino.ai/",
       "x_status_id": null
     },
@@ -23502,6 +23784,8 @@
         }
       ],
       "title": "Markelius Sans – Letters from Sweden",
+      "title_zh": "Markelius Sans – 来自瑞典的信函",
+      "title_zh_hash": "2509e3364c7fa177",
       "url": "https://lettersfromsweden.se/font/markelius-sans/",
       "x_status_id": null
     },
@@ -23533,6 +23817,8 @@
         }
       ],
       "title": "Taalas | The model is The Computer",
+      "title_zh": "Taalas | 模型即计算机",
+      "title_zh_hash": "309b2d124a2bfa87",
       "url": "https://taalas.com/",
       "x_status_id": null
     },
@@ -23564,6 +23850,8 @@
         }
       ],
       "title": "asc — App Store Connect CLI",
+      "title_zh": "asc — App Store Connect 命令行工具",
+      "title_zh_hash": "8718e028c19c6231",
       "url": "https://asccli.sh/",
       "x_status_id": null
     },
@@ -23626,6 +23914,8 @@
         }
       ],
       "title": "‎Acme Weather App - App Store",
+      "title_zh": "‎Acme 天气应用 - App Store",
+      "title_zh_hash": "74ddbee7bff7f004",
       "url": "https://apps.apple.com/us/app/acme-weather/id6742032583",
       "x_status_id": null
     },
@@ -23754,6 +24044,8 @@
         }
       ],
       "title": "Recraft (@recraftai) on X",
+      "title_zh": "Recraft (@recraftai) 在 X 平台上",
+      "title_zh_hash": "647cd0944ee08680",
       "url": "https://x.com/recraftai/status/2024210990586286437",
       "x_status_id": "2024210990586286437"
     },
@@ -23785,6 +24077,8 @@
         }
       ],
       "title": "Google Labs (@googlelabs) on X",
+      "title_zh": "Google Labs (@googlelabs) 在 X 平台",
+      "title_zh_hash": "62dfa259a4004a2b",
       "url": "https://x.com/googlelabs/status/2024529795548102667",
       "x_status_id": "2024529795548102667"
     },
@@ -23816,6 +24110,8 @@
         }
       ],
       "title": "Andreas Storm (@avstorm) on X",
+      "title_zh": "Andreas Storm (@avstorm) 在 X 平台",
+      "title_zh_hash": "6a38eecc2233e202",
       "url": "https://x.com/avstorm/status/2024521471784079825",
       "x_status_id": "2024521471784079825"
     },
@@ -23880,6 +24176,8 @@
         }
       ],
       "title": "Superpower | AI Doctor",
+      "title_zh": "超级能力 | AI医生",
+      "title_zh_hash": "9cfa9bd662f4eac7",
       "url": "https://superpower.com/ai-doctor",
       "x_status_id": null
     },
@@ -24169,6 +24467,8 @@
         }
       ],
       "title": "Whole Earth Index",
+      "title_zh": "全球概览指数",
+      "title_zh_hash": "8094b3665f80fa82",
       "url": "https://wholeearth.info/",
       "x_status_id": null
     },
