@@ -1,0 +1,53 @@
+name: Sync Poche Feed
+
+on:
+  schedule:
+    # Every 4 hours at :43 — between sync-x-library (:17) and translate-feed (:05).
+    - cron: "43 0,4,8,12,16,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-poche-feed
+  cancel-in-progress: false
+
+jobs:
+  sync-poche:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull poche.app/explore feed
+        env:
+          POCHE_MAX_ITEMS: ${{ vars.POCHE_MAX_ITEMS || '2500' }}
+          POCHE_PAGE_SIZE: ${{ vars.POCHE_PAGE_SIZE || '100' }}
+        run: python3 scripts/sync_poche.py
+
+      - name: Commit poche feed
+        run: |
+          if git diff --quiet -- public/feed-poche.json; then
+            echo "No poche changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/feed-poche.json
+          git commit -m "Update poche feed"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, rebasing on origin/main"
+            git pull --rebase --autostash origin main
+          done
+          echo "::error::All push attempts failed"
+          exit 1

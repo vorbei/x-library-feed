@@ -234,6 +234,7 @@
     color: var(--muted);
   }
   .row .r-meta .r-dwell .icon { width: 11px; height: 11px; }
+  .row .r-meta .r-tags { color: var(--faint); font-size: 11px; }
   .row .r-thumb {
     width: 56px; height: 56px; border-radius: 6px;
     object-fit: cover;
@@ -272,6 +273,17 @@
     padding: 2px 8px; border-radius: 5px; background: var(--surface);
   }
   .summary-card .gallery { margin-top: 14px; }
+
+  /* Poche link-card summary */
+  .poche-card .poche-hero { display: block; margin: 14px 0 16px; border-radius: 10px; overflow: hidden; background: var(--surface); border: 1px solid var(--border); }
+  .poche-card .poche-hero img { display: block; width: 100%; max-height: 360px; object-fit: cover; }
+  .poche-card .poche-title { font-size: 20px; font-weight: 700; line-height: 1.3; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .poche-card .poche-title a { color: var(--fg); text-decoration: none; }
+  .poche-card .poche-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .poche-card .poche-desc { font-size: 14.5px; line-height: 1.6; color: var(--fg); margin: 0 0 12px; }
+  .poche-card .poche-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 0; }
+  .poche-card .poche-tag { font-size: 12px; color: var(--muted); padding: 2px 8px; border-radius: 999px; background: var(--surface); }
+  .poche-card .poche-rec { font-size: 12.5px; color: var(--muted); margin: 14px 0 0; }
 
   /* Linked / teaser blocks inside the summary */
   .linked, .ref-article, .summary-card .teasers > div {
@@ -528,6 +540,7 @@
       <button data-type="" class="active">All</button>
       <button data-type="bookmark">Bookmarks</button>
       <button data-type="favorite">Favorites</button>
+      <button data-type="poche">Poche</button>
     </div>
     <div class="seg" id="seg-user" role="tablist" aria-label="Account">
       <button data-user="" class="active">All</button>
@@ -577,6 +590,7 @@
 
 <script>
 const FEED_URL = "public/x-bookmarks-favorites.json";
+const POCHE_FEED_URL = "public/feed-poche.json";
 // Phase 2: chunked layout. The viewer fetches the small index first so the
 // list pane paints instantly, then lazy-loads the per-window detail bundles
 // (article_text bodies, linked_content_by_url, referenced_articles_by_id)
@@ -584,11 +598,47 @@ const FEED_URL = "public/x-bookmarks-favorites.json";
 // time and handled inline.
 const FEED_DETAIL_BASE = "public/";
 let indexMeta = null;
+let pocheMeta = null;
 const loadedDetailWindows = new Set();
 const detailLoadPromises = {};
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 const urlRE = /https?:\/\/[^\s<>"']+/g;
+// Convert a poche.app/explore item into the shape the existing list/summary
+// renderers expect. Keep the original poche fields under `poche_*` so the
+// renderers can recognise it (e.g. swap the metrics row for tag chips).
+function pocheToItem(p) {
+  const team = (p.teams && p.teams[0]) || {};
+  const ts = p.recommended_at || p.created_at || "";
+  return {
+    id: "poche:" + (p.id || p.url),
+    source_type: "poche",
+    author: {
+      name: team.name || p.domain || "Poche",
+      username: team.slug || (p.domain || "poche"),
+    },
+    text: p.description || "",
+    article_url: p.url || "",
+    article_title: p.title || "",
+    primary_urls: p.url ? [p.url] : [],
+    image_urls: p.og_image_url ? [p.og_image_url] : [],
+    sources: [p.source || "poche@unknown"],
+    first_seen_at: ts,
+    last_seen_at: ts,
+    created_at: ts,
+    public_metrics: {},
+    poche_id: p.id,
+    poche_category: p.category || "",
+    poche_tags: Array.isArray(p.tags) ? p.tags : [],
+    poche_team: team.slug || "",
+    poche_team_name: team.name || "",
+    poche_recommended_by: team.recommended_by || "",
+    domain: p.domain || "",
+    og_image_url: p.og_image_url || "",
+    x_status_id: p.x_status_id || null,
+  };
+}
+
 // Inline SVG icon via <use href="#i-name"/>. `cls` adds modifier classes
 // like "icon-sm" to override the default 16px size.
 function icon(name, cls = "") {
@@ -769,7 +819,67 @@ function hasFullContent(item) {
   return false;
 }
 
+// Summary card for a Poche link: hero og:image, title, description, tags,
+// team chip, "Open <host> ↗" CTA. No metrics / tweet author / blockquote
+// border — this is a link card, not a tweet.
+function renderPocheSummary(item) {
+  const a = item.author || {};
+  const teamName = esc(a.name || "");
+  const teamSlug = esc(a.username || "");
+  const host = esc(item.domain || hostOf(item.article_url || ""));
+  const recAt = item.created_at ? new Date(item.created_at).toLocaleString() : "";
+  const sourceChip = (item.sources || [])
+    .map(s => `<span class="src">${shortenSource(s)}</span>`)
+    .join("");
+  const url = esc(item.article_url || "");
+  const title = esc(item.article_title || item.text || url);
+  const desc = esc((item.text || "").trim());
+  const ogImg = item.og_image_url || (item.image_urls || [])[0] || "";
+
+  let html = `<div class="summary-card poche-card">`;
+  html += `<div class="head">`;
+  html += `<div><span class="author">${teamName}</span> <span class="handle">${host}</span></div>`;
+  html += `<span class="time">${esc(recAt)}</span>`;
+  html += `</div>`;
+  html += `<div class="sources">${sourceChip}${item.poche_category ? `<span class="src">${esc(item.poche_category)}</span>` : ""}</div>`;
+
+  if (ogImg) {
+    html += `<a class="poche-hero" href="${url}" target="_blank" rel="noopener">`;
+    html += `<img src="${esc(ogImg)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.remove()" />`;
+    html += `</a>`;
+  }
+
+  html += `<h2 class="poche-title"><a href="${url}" target="_blank" rel="noopener">${title}</a></h2>`;
+  if (desc && desc !== title) {
+    html += `<p class="poche-desc">${linkify(desc)}</p>`;
+  }
+  if (item.poche_tags && item.poche_tags.length) {
+    html += `<div class="poche-tags">${item.poche_tags.map(t => `<span class="poche-tag">#${esc(t)}</span>`).join("")}</div>`;
+  }
+  if (item.poche_recommended_by) {
+    html += `<div class="poche-rec">Recommended by <strong>${esc(item.poche_recommended_by)}</strong> · ${teamName}</div>`;
+  }
+
+  html += `<div style="margin-top:14px"><a class="page-card-cta" href="${url}" target="_blank" rel="noopener">Open ${host} ${icon("external", "icon-sm")}</a></div>`;
+
+  // Reuse the favorite / thumbs action bar (no metrics row for poche).
+  const st = getItemState(item.id);
+  const favCls = st.favorite ? " on" : "";
+  const upCls = st.thumb === "up" ? " on" : "";
+  const downCls = st.thumb === "down" ? " on" : "";
+  const dwell = st.reading_seconds || 0;
+  const dwellLabel = dwell ? `${dwell < 60 ? dwell + "s" : Math.round(dwell / 60) + "m"} read` : "";
+  html += `<div class="actions">`;
+  html += `<button class="act fav${favCls}" data-act="fav" aria-pressed="${st.favorite ? 'true' : 'false'}">${icon("star")}<span>${st.favorite ? "Favorited" : "Favorite"}</span></button>`;
+  html += `<button class="act icon-only${upCls}" data-act="up" aria-label="Thumbs up" title="Thumbs up">${icon("thumb-up")}</button>`;
+  html += `<button class="act icon-only${downCls}" data-act="down" aria-label="Thumbs down" title="Thumbs down">${icon("thumb-down")}</button>`;
+  if (dwellLabel) html += `<span class="dwell-tag">${dwellLabel}</span>`;
+  html += `</div></div>`;
+  return html;
+}
+
 function renderSummary(item, refArticles) {
+  if (item.source_type === "poche") return renderPocheSummary(item);
   const a = item.author || {};
   const name = esc(a.name || a.username || "unknown");
   const handle = esc(a.username || "unknown");
@@ -1331,14 +1441,22 @@ function shortenSource(s) {
   // + user handle, no emoji.
   const [type, user] = s.split("@");
   const userLabel = (user || "").replace("CatHanami97880", "hanami");
-  const ic = type === "bookmark" ? icon("bookmark", "icon-sm") : icon("heart", "icon-sm");
-  return `${ic}${esc(userLabel)}`;
+  let iconName = "heart"; // favorite@
+  if (type === "bookmark") iconName = "bookmark";
+  else if (type === "poche") iconName = "book-open";
+  const prefix = type === "poche" ? "poche · " : "";
+  return `${icon(iconName, "icon-sm")}${esc(prefix + userLabel)}`;
 }
 
 function renderRow(item) {
+  const isPoche = item.source_type === "poche";
   const a = item.author || {};
   const name = esc(a.name || a.username || "?");
-  const handle = esc(a.username || "?");
+  // Poche items don't have a tweet author — show the link's domain in the
+  // handle slot so the user can tell at a glance "this is a tools/web link
+  // from team Dine, hosted at muxy.app" rather than reading "@dine".
+  const handleText = isPoche ? (item.domain || "") : ("@" + (a.username || "?"));
+  const handle = esc(handleText);
   const title = esc(rowTitle(item).slice(0, 220));
   // Pick a thumbnail
   let thumb = "";
@@ -1388,9 +1506,9 @@ function renderRow(item) {
   return (
     `<div class="row${sel}${favCls}" data-id="${esc(item.id)}">` +
     `<div class="r-main">` +
-      `<div class="r-author">${favMark}${name} <span class="handle">@${handle}</span>${thumbBadge}</div>` +
+      `<div class="r-author">${favMark}${name} <span class="handle">${handle}</span>${thumbBadge}</div>` +
       `<div class="r-title">${title}</div>` +
-      `<div class="r-meta">${sources}<span>${esc(date)}</span>${dwellSpan}${metaExtra}</div>` +
+      `<div class="r-meta">${sources}<span>${esc(date)}</span>${dwellSpan}${metaExtra}${isPoche && item.poche_tags && item.poche_tags.length ? '<span class="r-tags">' + item.poche_tags.slice(0, 3).map(t => '#' + esc(t)).join(' ') + '</span>' : ''}</div>` +
     `</div>` +
     (thumb ? `<img class="r-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : "") +
     `</div>`
@@ -1572,8 +1690,13 @@ function ensureDetailForItem(item) {
 Promise.all([
   fetch(FEED_URL + "?t=" + Date.now()).then(r => r.json()),
   loadUserState(),
+  // Poche feed is optional — if the file is missing or the request fails the
+  // viewer still works with the X library alone.
+  fetch(POCHE_FEED_URL + "?t=" + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .catch(() => null),
 ])
-  .then(([data]) => {
+  .then(([data, _state, poche]) => {
     const isChunked = (data.format || "").toLowerCase() === "feed-index/1";
     allItems = data.items || [];
     if (isChunked) {
@@ -1588,12 +1711,25 @@ Promise.all([
       loadedDetailWindows.add("recent");
       loadedDetailWindows.add("archive");
     }
+    // Merge in Poche items. They show up alongside X bookmarks/favorites and
+    // dedupe against any X tweet we already have the original of.
+    const xIds = new Set(allItems.map(it => it.id));
+    let pocheAdded = 0;
+    pocheMeta = poche || null;
+    if (poche && Array.isArray(poche.items)) {
+      for (const p of poche.items) {
+        if (p.x_status_id && xIds.has(p.x_status_id)) continue;
+        allItems.push(pocheToItem(p));
+        pocheAdded++;
+      }
+    }
     itemsById = Object.fromEntries(allItems.map(it => [it.id, it]));
     reconcileTranslateQueue();
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : "?";
     const synced = STATE_URL ? " · synced" : " · local-only";
+    const pocheStr = pocheAdded ? ` · +${pocheAdded} poche` : "";
     document.getElementById("meta").innerHTML =
-      `${allItems.length} items · ${esc(updated)}${synced} · ` +
+      `${allItems.length} items${pocheStr} · ${esc(updated)}${synced} · ` +
       `<a href="rss.xml">RSS</a> · <a href="public/x-bookmarks-favorites.md">MD</a> · <a href="public/x-bookmarks-favorites.json">JSON</a>`;
     applyFilters();
     // Kick off detail prefetch off the critical path. Recent first; archive
