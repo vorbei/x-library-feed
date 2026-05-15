@@ -235,6 +235,46 @@
   }
   .row .r-meta .r-dwell .icon { width: 11px; height: 11px; }
   .row .r-meta .r-tags { color: var(--faint); font-size: 11px; }
+
+  /* Grid view: each row becomes a stacked card with the og:image on top,
+     mirroring poche.app's masonry layout adapted to a fixed-width column. */
+  .list-pane.view-grid { padding: 14px; background: var(--surface); }
+  .list-pane.view-grid .row {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0 0 14px;
+    border-bottom: none;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg);
+    overflow: hidden;
+    column-gap: 0;
+    transition: background 0.08s, box-shadow 0.12s;
+  }
+  .list-pane.view-grid .row:hover { background: var(--bg); box-shadow: 0 4px 14px rgba(0,0,0,0.05); }
+  .list-pane.view-grid .row.selected { background: var(--bg); box-shadow: 0 0 0 2px var(--accent); }
+  .list-pane.view-grid .row .r-thumb {
+    grid-row: 1; grid-column: 1;
+    width: 100%; height: auto; aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0;
+    align-self: stretch;
+  }
+  .list-pane.view-grid .row .r-main {
+    grid-row: 2; grid-column: 1;
+    padding: 12px 14px 14px;
+    min-width: 0;
+  }
+  .list-pane.view-grid .row .r-title {
+    font-size: 14.5px;
+    -webkit-line-clamp: 3;
+    margin-top: 6px;
+  }
+  .list-pane.view-grid .row .r-author { font-size: 12.5px; }
+  .list-pane.view-grid .row .r-meta { margin-top: 8px; gap: 6px; }
+  @media (prefers-color-scheme: dark) {
+    .list-pane.view-grid .row.selected { box-shadow: 0 0 0 2px var(--accent); }
+  }
   .row .r-thumb {
     width: 56px; height: 56px; border-radius: 6px;
     object-fit: cover;
@@ -550,6 +590,10 @@
     <button id="fav-only" class="icon-btn" title="Favorites only" aria-label="Toggle favorites only">
       <svg class="icon"><use href="#i-star"/></svg>
     </button>
+    <select id="view" class="lang-select" aria-label="View mode">
+      <option value="list">列表视图</option>
+      <option value="grid">卡片视图</option>
+    </select>
     <select id="range" class="lang-select" aria-label="Time range">
       <option value="all">全部时间</option>
       <option value="today">今天</option>
@@ -1202,6 +1246,10 @@ let sortMode = localStorage.getItem("X_SORT_MODE") || "seen";
 // Time-range filter, evaluated against first_seen_at regardless of sort mode.
 // Values: "all" | "today" | "7d" | "30d" | "90d".
 let rangeMode = localStorage.getItem("X_RANGE_MODE") || "all";
+// Visual layout for the list pane. "list" (default) = compact rows, "grid"
+// = card stack with hero image on top — the poche.app look adapted to the
+// fixed-width left column.
+let viewMode = localStorage.getItem("X_VIEW_MODE") || "list";
 let currentQuery = "";
 
 // Resolve an item's linked content entries. Prefers the new shape
@@ -1846,6 +1894,19 @@ document.getElementById("lang").addEventListener("change", e => {
     rangeMode = e.target.value;
     try { localStorage.setItem("X_RANGE_MODE", rangeMode); } catch {}
     applyFilters();
+  });
+  const viewSel = document.getElementById("view");
+  viewSel.value = viewMode;
+  function applyViewClass() {
+    const pane = document.getElementById("list");
+    if (pane) pane.classList.toggle("view-grid", viewMode === "grid");
+  }
+  applyViewClass();
+  viewSel.addEventListener("change", e => {
+    viewMode = e.target.value;
+    try { localStorage.setItem("X_VIEW_MODE", viewMode); } catch {}
+    applyViewClass();
+    renderList();
   });
 })();
 document.getElementById("fav-only").addEventListener("click", e => {
