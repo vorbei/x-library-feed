@@ -134,6 +134,7 @@ def main() -> int:
     parser.add_argument("--json", default="public/x-bookmarks-favorites.json")
     parser.add_argument("--recent", default="public/feed-recent.json")
     parser.add_argument("--archive", default="public/feed-archive.json")
+    parser.add_argument("--poche", default="public/feed-poche.json")
     parser.add_argument(
         "--max-calls",
         type=int,
@@ -173,6 +174,18 @@ def main() -> int:
     items: list[dict[str, Any]] = store.get("items") or []
     lc: dict[str, dict[str, Any]] = store.get("linked_content_by_url") or {}
     refs: dict[str, dict[str, Any]] = store.get("referenced_articles_by_id") or {}
+
+    # Also load the poche feed (if present) so its title/description fields
+    # share the same DeepSeek pipeline.
+    poche_path = Path(args.poche)
+    poche_doc: dict[str, Any] = {}
+    poche_items: list[dict[str, Any]] = []
+    if poche_path.exists():
+        try:
+            poche_doc = json.loads(poche_path.read_text(encoding="utf-8"))
+            poche_items = poche_doc.get("items") or []
+        except Exception as e:
+            print(f"::warning::could not read {poche_path}: {e}", file=sys.stderr)
 
     concurrency = max(1, int(os.environ.get("DEEPSEEK_TRANSLATE_CONCURRENCY", "3")))
 
@@ -237,6 +250,10 @@ def main() -> int:
         is_pri = rid in priority_ref_ids
         maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
         maybe_enqueue(ref, "text", "text_zh", "text_zh_hash", is_pri)
+    # Poche items: title + description (no priority queue for poche yet).
+    for p in poche_items:
+        maybe_enqueue(p, "title", "title_zh", "title_zh_hash", False)
+        maybe_enqueue(p, "description", "description_zh", "description_zh_hash", False)
 
     jobs: list[Job] = priority_jobs + regular_jobs
 
@@ -295,6 +312,12 @@ def main() -> int:
     store["linked_content_by_url"] = lc
     store["referenced_articles_by_id"] = refs
     write_chunked_feed(store, index_path, recent_path, archive_path)
+    if poche_doc and poche_items:
+        poche_doc["items"] = poche_items
+        poche_path.write_text(
+            json.dumps(poche_doc, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
     return 0
 
 

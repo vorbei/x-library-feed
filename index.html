@@ -662,8 +662,10 @@ function pocheToItem(p) {
       username: team.slug || (p.domain || "poche"),
     },
     text: p.description || "",
+    text_zh: p.description_zh || "",
     article_url: p.url || "",
     article_title: p.title || "",
+    article_title_zh: p.title_zh || "",
     primary_urls: p.url ? [p.url] : [],
     image_urls: p.og_image_url ? [p.og_image_url] : [],
     sources: [p.source || "poche@unknown"],
@@ -681,6 +683,15 @@ function pocheToItem(p) {
     og_image_url: p.og_image_url || "",
     x_status_id: p.x_status_id || null,
   };
+}
+
+// For a poche item, pick the right language version per the global langMode.
+function pochePick(item, key) {
+  const en = item[key] || "";
+  const zh = item[key + "_zh"] || "";
+  if (langMode === "en") return en;
+  if (langMode === "both") return zh && en ? zh + "\n\n" + en : (zh || en);
+  return zh || en;  // "auto"
 }
 
 // Inline SVG icon via <use href="#i-name"/>. `cls` adds modifier classes
@@ -876,8 +887,8 @@ function renderPocheSummary(item) {
     .map(s => `<span class="src">${shortenSource(s)}</span>`)
     .join("");
   const url = esc(item.article_url || "");
-  const title = esc(item.article_title || item.text || url);
-  const desc = esc((item.text || "").trim());
+  const title = esc(pochePick(item, "article_title") || pochePick(item, "text") || url);
+  const desc = esc(pochePick(item, "text").trim());
   const ogImg = item.og_image_url || (item.image_urls || [])[0] || "";
 
   let html = `<div class="summary-card poche-card">`;
@@ -948,9 +959,13 @@ function renderSummary(item, refArticles) {
     html += `<blockquote>${linkify(cleanText)}</blockquote>`;
   }
 
-  // Brief teasers for content that lives in the full pane
+  // Brief teasers for content that lives in the full pane. When the right
+  // pane is already going to show the full article body at heading size,
+  // suppress the teaser that just repeats the title in 13px gray — same
+  // info, smaller font, pure clutter.
   const teasers = [];
-  if (item.article_url) {
+  const ownArticleInFull = !!(item.article_url && (item.article_text || "").trim());
+  if (item.article_url && !ownArticleInFull) {
     const t = esc(item.article_title || "X Article");
     teasers.push(`<div>${icon("file-text", "icon-sm")}<span>X Article: <a href="${esc(item.article_url)}" target="_blank">${t}</a></span></div>`);
   }
@@ -987,23 +1002,37 @@ function renderSummary(item, refArticles) {
       teasers.push(`<div>${refIcon}<span>Quoting <a href="${refUrl}" target="_blank">${who}</a> ${icon("arrow-right", "icon-sm")}</span></div>`);
     }
   }
-  let linkCount = 0;
-  for (const lc of linkedFor(item)) {
-    const u = lc.final_url || lc.url || "";
-    if (!u || images.includes(u)) continue;
-    if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
-    linkCount++;
+  // Generic "N linked sources" line — only show it when there's no real
+  // article body in the full pane. When the right pane already opens onto
+  // an article (whose body includes the same links inline), the count adds
+  // nothing.
+  if (!ownArticleInFull) {
+    let linkCount = 0;
+    for (const lc of linkedFor(item)) {
+      const u = lc.final_url || lc.url || "";
+      if (!u || images.includes(u)) continue;
+      if (/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i.test(u)) continue;
+      linkCount++;
+    }
+    if (linkCount) teasers.push(`<div>${icon("link", "icon-sm")}<span>${linkCount} linked source${linkCount > 1 ? "s" : ""}</span></div>`);
   }
-  if (linkCount) teasers.push(`<div>${icon("link", "icon-sm")}<span>${linkCount} linked source${linkCount > 1 ? "s" : ""}</span></div>`);
   if (teasers.length) {
     html += `<div class="teasers">${teasers.join("")}</div>`;
   }
 
+  // The "Read full content →" button only earns its space on narrow viewports
+  // where the right pane is collapsed; otherwise the right pane is right
+  // there. Render unconditionally but the CSS rule already hides it above
+  // 1280px — leave that alone.
   if (hasFullContent(item)) {
     html += `<button class="show-full-btn has-content" id="show-full"><span>Read full content</span>${icon("arrow-right", "icon-sm")}</button>`;
   }
 
-  if (images.length) {
+  // The image gallery is useful when there's no full-pane article to look
+  // at — those images are the tweet's actual payload. When the full pane is
+  // about to render the same article (whose body includes most of these
+  // images inline), the second copy is just noise.
+  if (images.length && !ownArticleInFull) {
     const shown = images.slice(0, 9);
     const cls = shown.length <= 2 ? ` count-${shown.length}` : "";
     html += `<div class="gallery${cls}">`;
@@ -1470,6 +1499,9 @@ function setThumb(id, value) {
 
 // Pick a short title for the list row, mirroring server-side best_item_title.
 function rowTitle(item) {
+  if (item.source_type === "poche") {
+    return pochePick(item, "article_title") || pochePick(item, "text") || item.article_url || "(no text)";
+  }
   if (item.article_title) return item.article_title;
   const stripped = (item.text || "").replace(/https?:\/\/\S+/g, "").trim();
   if (stripped) return stripped;
