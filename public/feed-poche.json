@@ -54455,6 +54455,8 @@
       "category": "Articles",
       "created_at": "2025-10-17T04:04:56.507783Z",
       "description": "cto.new is the world's first completely free AI code agent. Use the latest frontier models from Anthropic, OpenAI and more. No credit card or API keys required.",
+      "description_zh": "cto.new 是全球首个完全免费的 AI 代码代理。它使用来自 Anthropic、OpenAI 等机构的最新前沿模型，无需信用卡或 API 密钥。",
+      "description_zh_hash": "f6a4681f9b6f1122",
       "domain": "cto.new",
       "embed_type": "",
       "id": "k172x0e0q99kckjf6g5rs1rdrs7smgyy",
@@ -54486,6 +54488,8 @@
       "category": "Design",
       "created_at": "2025-10-17T04:07:28.953502Z",
       "description": "Discover fresh UI inspiration, add favorites to your canvas, and generate hundreds of fresh variants based on your taste. No pixel-pushing required.",
+      "description_zh": "发现新鲜的 UI 灵感，将心仪的设计收藏到画布，并根据你的品味生成数百种全新变体。无需逐像素调整。",
+      "description_zh_hash": "90cbc3c6f872bcfa",
       "domain": "21st.dev",
       "embed_type": "",
       "id": "k17demynctjss3qz6napg0a6097smfdr",
@@ -54508,6 +54512,8 @@
         }
       ],
       "title": "21st.dev: The first vibe-crafting tool",
+      "title_zh": "21st.dev：首款氛围创作工具",
+      "title_zh_hash": "575d8eef2a7290e4",
       "url": "https://21st.dev/",
       "x_status_id": null
     },
@@ -54515,6 +54521,8 @@
       "category": "Design",
       "created_at": "2025-10-17T04:07:53.987323Z",
       "description": "Landscape is a production ecosystem leveraging new technologies to deliver films, content and creative solutions for today's brands.",
+      "description_zh": "Landscape 是一个利用新技术为当今品牌提供电影、内容和创意解决方案的生产生态系统。",
+      "description_zh_hash": "5a53ea5a8776741f",
       "domain": "landscape.productions",
       "embed_type": "",
       "id": "k1777m2ats92hrqa500pj08mdh7sn2tm",
@@ -54544,6 +54552,8 @@
       "category": "Media",
       "created_at": "2025-10-16T13:25:26.677565Z",
       "description": "Listen to your favorite podcasts online, in your browser. Discover the world's most powerful podcast player.",
+      "description_zh": "在浏览器中在线收听你喜爱的播客。探索全球最强大的播客播放器。",
+      "description_zh_hash": "a0c32fd8495a494f",
       "domain": "pca.st",
       "embed_type": "",
       "id": "k17dfeq3202nqqv9kbaepfk25s7sj8cq",
@@ -54566,6 +54576,8 @@
         }
       ],
       "title": "#482 – Pavel Durov: Telegram, Freedom, Censorship, Money, Power & Human Nature - Pocket Casts",
+      "title_zh": "#482 – 帕维尔·杜罗夫：Telegram、自由、审查、金钱、权力与人性 - Pocket Casts",
+      "title_zh_hash": "90699a503bfd36fb",
       "url": "https://pca.st/episode/7163cfb1-501f-4b2c-a298-ee3eb4640dd9",
       "x_status_id": null
     },
@@ -54573,6 +54585,8 @@
       "category": "Development",
       "created_at": "2025-10-16T06:45:05.202278Z",
       "description": "Experience native Screen Space Global Illumination (SSGI) with WebGPU and React Three Fiber. Watch real-time color bleeding, dynamic emissive lighting, and realistic light bounces in an interactive 3D scene. Built with Three.js and TSL (Three Shading Language).",
+      "description_zh": "使用 WebGPU 和 React Three Fiber 体验原生屏幕空间全局光照（SSGI）。在交互式 3D 场景中，实时观察色彩溢出、动态自发光照明以及逼真的光线反弹效果。基于 Three.js 和 TSL（Three 着色语言）构建。",
+      "description_zh_hash": "5e64ccfb867a6f01",
       "domain": "ssgi-webgpu-demo.vercel.app",
       "embed_type": "",
       "id": "k17d7bdh7w3dr7kyrrqz60j4v97skh3j",
@@ -54595,6 +54609,8 @@
         }
       ],
       "title": "SSGI Demo - Screen Space Global Illumination with WebGPU & Three.js |\n      Anderson Mancini",
+      "title_zh": "SSGI 演示 - 基于 WebGPU 与 Three.js 的屏幕空间全局光照 |\nAnderson Mancini",
+      "title_zh_hash": "0a21927eef10e1a6",
       "url": "https://ssgi-webgpu-demo.vercel.app/",
       "x_status_id": null
     },
@@ -54602,6 +54618,8 @@
       "category": "Articles",
       "created_at": "2025-10-16T03:33:34.714449Z",
       "description": "Cloudflare investigated CPU performance benchmark results for Workers, uncovering and fixing issues in infrastructure, V8 garbage collection, and OpenNext optimizations. These improvements have made Cloudflare Workers faster for all customers.",
+      "description_zh": "Cloudflare 对 Workers 的 CPU 性能基准测试结果进行了深入调查，发现并修复了基础设施、V8 垃圾回收以及 OpenNext 优化中的问题。这些改进使得 Cloudflare Workers 对所有客户而言都更加快速。",
+      "description_zh_hash": "178dd8d747eab4b6",
       "domain": "blog.cloudflare.com",
       "embed_type": "",
       "id": "k171wp6ah2jkre8m8mh1khk6557sk6fc",
@@ -54624,6 +54642,8 @@
         }
       ],
       "title": "Unpacking Cloudflare Workers CPU Performance Benchmarks",
+      "title_zh": "解析 Cloudflare Workers CPU 性能基准测试",
+      "title_zh_hash": "abef23c3646cbfd4",
       "url": "https://blog.cloudflare.com/unpacking-cloudflare-workers-cpu-performance-benchmarks/",
       "x_status_id": null
     },
@@ -54631,6 +54651,8 @@
       "category": "Tools",
       "created_at": "2025-10-16T04:57:05.531628Z",
       "description": "Experience the future of home entertainment, a symphony of sound, furniture & atmosphere that transcends mere audio and elevates your lifestyle.",
+      "description_zh": "体验未来家庭娱乐，一场融合声音、家具与氛围的交响盛宴，超越纯粹音频，提升您的生活品质。",
+      "description_zh_hash": "ba931f606503d5b6",
       "domain": "evok.com.au",
       "embed_type": "",
       "id": "k17e6e5fxgqqx0wx8c9aw036ad7sj3cq",
@@ -54653,6 +54675,8 @@
         }
       ],
       "title": "EVOK - Sound Systems",
+      "title_zh": "EVOK - 音响系统",
+      "title_zh_hash": "97efa8d1c208c114",
       "url": "https://evok.com.au/",
       "x_status_id": null
     },
@@ -54682,6 +54706,8 @@
         }
       ],
       "title": "Pallet | AI Logistics Workforce",
+      "title_zh": "Pallet | AI 物流劳动力",
+      "title_zh_hash": "d1844c69f2bfd1d9",
       "url": "https://www.pallet.com/",
       "x_status_id": null
     },
@@ -54689,6 +54715,8 @@
       "category": "Tools",
       "created_at": "2025-10-16T04:48:40.223183Z",
       "description": "Automate anything in the Strawberry browser with AI Companions. Make your own or start from templates.",
+      "description_zh": "在 Strawberry 浏览器中，通过 AI 伴侣实现一切自动化。你可以自行创建，或从模板开始。",
+      "description_zh_hash": "8f8450b2350e7b51",
       "domain": "strawberrybrowser.com",
       "embed_type": "",
       "id": "k178sh95jy2spgznp4tyca6r817sjfvr",
@@ -54740,6 +54768,8 @@
         }
       ],
       "title": "Emil Kowalski (@emilkowalski_) on X",
+      "title_zh": "Emil Kowalski (@emilkowalski_) 在 X 平台",
+      "title_zh_hash": "7a85ce55558aaeb6",
       "url": "https://x.com/emilkowalski_/status/1978152092880474267",
       "x_status_id": "1978152092880474267"
     },
@@ -54747,6 +54777,8 @@
       "category": "Social",
       "created_at": "2025-10-16T04:43:17.016551Z",
       "description": "It's finally here. Zed is available on Windows. \n\nBuilt from scratch, and rendering at 1 million pixels/millisecond. \n\nDownload it today :point_down:",
+      "description_zh": "终于来了。Zed 现已登陆 Windows。\n\n从零构建，渲染速度达每秒百万像素。\n\n立即下载 :point_down:",
+      "description_zh_hash": "32ec5aca92e225d1",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17aqypdf3y3wems6tcdzw75197sjmac",
@@ -54769,6 +54801,8 @@
         }
       ],
       "title": "Zed (@zeddotdev) on X",
+      "title_zh": "Zed (@zeddotdev) 在 X 平台上",
+      "title_zh_hash": "ff7052324189106e",
       "url": "https://x.com/zeddotdev/status/1978498543464669543",
       "x_status_id": "1978498543464669543"
     },
@@ -54776,6 +54810,8 @@
       "category": "Design",
       "created_at": "2025-10-15T03:07:36.524681Z",
       "description": "Brand identity and website design for the bespoke textile company.",
+      "description_zh": "定制纺织公司的品牌形象与网站设计。",
+      "description_zh_hash": "4725880e87583739",
       "domain": "www.pentagram.com",
       "embed_type": "",
       "id": "k173dbjm4h5912fjpw8waxzeyd7sgrt7",
@@ -54827,6 +54863,8 @@
         }
       ],
       "title": "My AI Videos Hit 1M+ Views (Veo3 + Sora 2 Demo)",
+      "title_zh": "我的AI视频突破百万播放量（Veo3 + Sora 2 演示）",
+      "title_zh_hash": "c76ba165ea303388",
       "url": "https://youtu.be/rQgaQ1p4tKU?si=vNCbPv0RHGoYAMjW",
       "x_status_id": null
     },
@@ -54834,6 +54872,8 @@
       "category": "Social",
       "created_at": "2025-10-15T06:51:57.170087Z",
       "description": "Figure’s new website is live! A full redesign, top to bottom",
+      "description_zh": "Figure 全新网站正式上线！从里到外全面焕新设计。",
+      "description_zh_hash": "c124c2a945f0069a",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17f72v7ympcy0gp89yerg41557sgkg6",
@@ -54856,6 +54896,8 @@
         }
       ],
       "title": "Brett Adcock (@adcock_brett) on X",
+      "title_zh": "布雷特·阿德科克（@adcock_brett）在 X 平台",
+      "title_zh_hash": "8f2d75fa63f54618",
       "url": "https://x.com/adcock_brett/status/1978124226742944193?s=46",
       "x_status_id": "1978124226742944193"
     },
@@ -54863,6 +54905,8 @@
       "category": "Tools",
       "created_at": "2025-10-15T04:38:27.789426Z",
       "description": "We're changing the future of short-form video. Mirage's AI research powers the Captions app and Mirage Studio, making video production easier for everyone.",
+      "description_zh": "我们正在改变短视频的未来。Mirage 的 AI 研究驱动着 Captions 应用和 Mirage Studio，让视频制作对每个人来说都更加简单。",
+      "description_zh_hash": "e7941ad35d3c1afc",
       "domain": "mirage.app",
       "embed_type": "",
       "id": "k171mbb427s097y9bjpasacyrd7sh991",
@@ -54885,6 +54929,8 @@
         }
       ],
       "title": "Mirage AI Video | Redefining Video Generation And Production",
+      "title_zh": "Mirage AI 视频 | 重新定义视频生成与制作",
+      "title_zh_hash": "dd8b18fff43fe9c0",
       "url": "https://mirage.app/",
       "x_status_id": null
     },
@@ -54892,6 +54938,8 @@
       "category": "Social",
       "created_at": "2025-10-13T11:00:49.972596Z",
       "description": "Our recent design project is live. Meet the new look of Search Party. 3 months of work - branding, design, development, and motion. Powered, as usual, by @nextjs and @tailwindcss.",
+      "description_zh": "我们最新的设计项目已上线。来看看 Search Party 的全新面貌。历时 3 个月的工作——品牌、设计、开发和动效。一如既往，由 @nextjs 和 @tailwindcss 提供技术支持。",
+      "description_zh_hash": "ca2017c06d5bc7c3",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17cn1w5ygq08wq6vt3awqk4qd7sdbk8",
@@ -54914,6 +54962,8 @@
         }
       ],
       "title": "Alex Barashkov (@alex_barashkov) on X",
+      "title_zh": "Alex Barashkov (@alex_barashkov) 在 X 平台上",
+      "title_zh_hash": "5b462690a0e5e43d",
       "url": "https://x.com/alex_barashkov/status/1977661244988608567",
       "x_status_id": "1977661244988608567"
     },
@@ -54950,6 +55000,8 @@
       "category": "Development",
       "created_at": "2025-10-13T04:45:31.235616Z",
       "description": "We are building the next generation of JavaScript tooling",
+      "description_zh": "我们正在构建下一代 JavaScript 工具链。",
+      "description_zh_hash": "df27fc2264281529",
       "domain": "voidzero.dev",
       "embed_type": "",
       "id": "k170zqx18jt3gsv3pgeq91qs4d7scexw",
@@ -54972,6 +55024,8 @@
         }
       ],
       "title": "VoidZero | Next Generation Tooling for the Web",
+      "title_zh": "VoidZero | 下一代 Web 工具链",
+      "title_zh_hash": "349b9d7790caf630",
       "url": "https://voidzero.dev/",
       "x_status_id": null
     },
@@ -54979,6 +55033,8 @@
       "category": "Development",
       "created_at": "2025-10-13T08:46:00.485290Z",
       "description": "A creative web development practice specialized in building sophisticated and impactful digital experiences.",
+      "description_zh": "专注于构建精致且富有影响力的数字体验的创意网页开发实践。",
+      "description_zh_hash": "406c1c2e6d8d5f3c",
       "domain": "buena-suerte.studio",
       "embed_type": "",
       "id": "k1709gfecf5ba0hkpv4xgwb2ch7sc8zj",
@@ -55001,6 +55057,8 @@
         }
       ],
       "title": "Buena Suerte",
+      "title_zh": "祝你好运",
+      "title_zh_hash": "61844c8c03c0a379",
       "url": "https://buena-suerte.studio/",
       "x_status_id": null
     },
@@ -55008,6 +55066,8 @@
       "category": "Articles",
       "created_at": "2025-10-11T05:30:26.548084Z",
       "description": "Or why The Browser Company is being acquired to bring Dia to the masses.",
+      "description_zh": "或者，为什么 The Browser Company 被收购，以便将 Dia 带给大众。",
+      "description_zh_hash": "1c77d5c7797ea050",
       "domain": "browsercompany.substack.com",
       "embed_type": "",
       "id": "k176tjqangn7a583c2zrcmesjs7s8cp2",
@@ -55030,6 +55090,8 @@
         }
       ],
       "title": "Your Tuesday in 2030 - Keeping Tabs by The Browser Company",
+      "title_zh": "你在2030年的星期二 - The Browser Company 的《Keeping Tabs》",
+      "title_zh_hash": "46cfcde4a198c6d9",
       "url": "https://browsercompany.substack.com/p/your-tuesday-in-2030",
       "x_status_id": null
     },
@@ -55037,6 +55099,8 @@
       "category": "Tools",
       "created_at": "2025-10-11T12:22:35.936824Z",
       "description": "Your 360° partner for safety in electromobility. Protection sleeves for the mobility of tomorrow.",
+      "description_zh": "您在电动出行安全领域的360°合作伙伴。为未来出行保驾护航的保护套。",
+      "description_zh_hash": "cd6e7fdc5130bc3f",
       "domain": "toptier.relats.com",
       "embed_type": "",
       "id": "k1739w1nbc318awg897m0ynpc17s9cyt",
@@ -55059,6 +55123,8 @@
         }
       ],
       "title": "Relats | Top tier solutions",
+      "title_zh": "Relats | 顶级解决方案",
+      "title_zh_hash": "e79b0411d0c680e7",
       "url": "https://toptier.relats.com/",
       "x_status_id": null
     },
@@ -55066,6 +55132,8 @@
       "category": "Design",
       "created_at": "2025-10-12T09:59:22.783334Z",
       "description": "Displaay is an independent type-foundry that focuses on developing retail and custom typefaces.",
+      "description_zh": "Displaay 是一家专注于开发零售和定制字体的独立字体工坊。",
+      "description_zh_hash": "a650d00a98aff29e",
       "domain": "displaay.net",
       "embed_type": "",
       "id": "k1771k0zg61wyvyj7bzmenfnhx7sb4n2",
@@ -55088,6 +55156,8 @@
         }
       ],
       "title": "Homepage - Displaay Type Foundry",
+      "title_zh": "首页 - Displaay 字体工坊",
+      "title_zh_hash": "f99b33460b02c16f",
       "url": "https://displaay.net/",
       "x_status_id": null
     },
@@ -55095,6 +55165,8 @@
       "category": "Crypto",
       "created_at": "2025-10-12T11:18:54.000386Z",
       "description": "coss.com - the everything but AI company",
+      "description_zh": "coss.com——一家专注于人工智能以外所有领域的公司",
+      "description_zh_hash": "13faa16fe48d8bd2",
       "domain": "coss.com",
       "embed_type": "",
       "id": "k17dshq4fqzv2nn46rpb18cpbx7sa7w9",
@@ -55124,6 +55196,8 @@
       "category": "Articles",
       "created_at": "2025-10-10T08:08:26.016846Z",
       "description": "Find out why Logitech Spot is on TIME's list of 2025's best inventions.",
+      "description_zh": "了解为什么罗技 Spot 入选《时代》周刊 2025 年最佳发明榜单。",
+      "description_zh_hash": "9fea2a2095b8f971",
       "domain": "time.com",
       "embed_type": "",
       "id": "k177sefr459ngpy5ktpfwae4ph7s7jmv",
@@ -55146,6 +55220,8 @@
         }
       ],
       "title": "Logitech Spot: The Best Inventions of 2025 | TIME",
+      "title_zh": "罗技 Spot：2025 年度最佳发明 | 《时代》周刊",
+      "title_zh_hash": "58ccad7ea9d542c5",
       "url": "https://time.com/collections/best-inventions-2025/7318485/logitech-spot/?filters=productivity",
       "x_status_id": null
     },
@@ -55175,6 +55251,8 @@
         }
       ],
       "title": "BENJAMIN EDGAR, an object company. – BENJAMIN EDGAR, object company.",
+      "title_zh": "BENJAMIN EDGAR，一家目标公司。",
+      "title_zh_hash": "a03d31f75bbf9fda",
       "url": "https://www.benjaminedgar.com/",
       "x_status_id": null
     },
@@ -55182,6 +55260,8 @@
       "category": "Social",
       "created_at": "2025-10-11T04:18:31.379712Z",
       "description": "Coming to an iPhone near you\n\nAnything. Anywhere:iphone:\n\nInvites start rolling today, reply for early access",
+      "description_zh": "即将登陆你的iPhone\n\n随时随地，无所不能 :iphone:\n\n今日起开始发放邀请，回复即可获得抢先体验资格",
+      "description_zh_hash": "be567dda609fdc39",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k179c5cepm27pc3kmbxha71mpx7s94qg",
@@ -55204,6 +55284,8 @@
         }
       ],
       "title": "Anything (@anythingai) on X",
+      "title_zh": "Anything (@anythingai) 在 X 上",
+      "title_zh_hash": "9ea5c5dbc7dfcd5f",
       "url": "https://x.com/anythingai/status/1958529947120906548",
       "x_status_id": "1958529947120906548"
     },
@@ -55211,6 +55293,8 @@
       "category": "Development",
       "created_at": "2025-10-11T04:19:26.253268Z",
       "description": "Build on the infrastructure that powers 20% of the Internet.",
+      "description_zh": "构建支撑互联网20%流量的基础设施。",
+      "description_zh_hash": "74ce3c473278415c",
       "domain": "workers.cloudflare.com",
       "embed_type": "",
       "id": "k172a4zyjwt0ame5dt0f21hw797s8g0w",
@@ -55233,6 +55317,8 @@
         }
       ],
       "title": "Cloudflare Workers Platform",
+      "title_zh": "Cloudflare Workers 平台",
+      "title_zh_hash": "7c9cc36bdcb78172",
       "url": "https://workers.cloudflare.com/",
       "x_status_id": null
     },
@@ -55262,6 +55348,8 @@
         }
       ],
       "title": "How Teenage Engineering Makes Cool Stuff!",
+      "title_zh": "Teenage Engineering 如何打造酷炫产品！",
+      "title_zh_hash": "c020eff3a4326346",
       "url": "https://www.youtube.com/watch?v=NlHk4HQDgaM",
       "x_status_id": null
     },
@@ -55291,6 +55379,8 @@
         }
       ],
       "title": "Vite+ | The Unified Toolchain for the Web",
+      "title_zh": "Vite+ | 面向 Web 的统一工具链",
+      "title_zh_hash": "ff5ade25904ca83f",
       "url": "https://viteplus.dev/",
       "x_status_id": null
     },
@@ -55320,6 +55410,8 @@
         }
       ],
       "title": "A Conversation with Sam and Jony",
+      "title_zh": "与Sam和Jony的一次对话",
+      "title_zh_hash": "ede3659e0b6437a6",
       "url": "https://youtu.be/7cKbPLzNYws?si=rtZ1pUUSEJ6BVwNo",
       "x_status_id": null
     },
@@ -55327,6 +55419,8 @@
       "category": "Tools",
       "created_at": "2025-10-09T04:14:45.914115Z",
       "description": "Monk automates accounts receivables from contracts to invoices to collections and reporting. Save time, grow cashflow and get reliable revenue reports with the complete AR automation platform.",
+      "description_zh": "Monk 自动化应收账款流程，涵盖合同、发票、催款及报告环节。借助完整的应收账款自动化平台，节省时间、提升现金流，并获取可靠的收入报告。",
+      "description_zh_hash": "e6c472072dcc47a2",
       "domain": "monk.com",
       "embed_type": "",
       "id": "k172bqftppfvtkjbmkvvh0jd697s5gfn",
@@ -55349,6 +55443,8 @@
         }
       ],
       "title": "Accounts Receivable Automation | Turn Contracts Into Cash Fast",
+      "title_zh": "应收账款自动化 | 快速将合同转化为现金",
+      "title_zh_hash": "7e4e1645579e94b1",
       "url": "https://monk.com/",
       "x_status_id": null
     },
@@ -55356,6 +55452,8 @@
       "category": "Tools",
       "created_at": "2025-10-10T01:05:02.011638Z",
       "description": "Connect with next-gen talent and tools to get work underway. Hire more independents. Start more projects. Get more creative.",
+      "description_zh": "与新一代人才和工具建立联系，让工作快速启动。雇佣更多独立人才，启动更多项目，释放更多创意。",
+      "description_zh_hash": "8a16f4d04466b3db",
       "domain": "contra.com",
       "embed_type": "",
       "id": "k17dv5m6fc8yq4njwsyjfm404d7s6y8n",
@@ -55378,6 +55476,8 @@
         }
       ],
       "title": "Contra - A professional network for the jobs and skills of the future",
+      "title_zh": "Contra —— 面向未来职业与技能的专业网络平台",
+      "title_zh_hash": "5e34d728fb40f609",
       "url": "https://contra.com/",
       "x_status_id": null
     },
@@ -55385,6 +55485,8 @@
       "category": "Tools",
       "created_at": "2025-10-09T06:20:50.074868Z",
       "description": "Sell anywhere. Diversify revenue streams. Streamline operations. Manage your staff. Get paid faster. Sign up for Square today.",
+      "description_zh": "随处销售。多元化收入来源。简化运营。管理员工。更快收款。立即注册 Square。",
+      "description_zh_hash": "44453ad551b315d4",
       "domain": "squareup.com",
       "embed_type": "",
       "id": "k178byy1kxhq7ypppby1dmwawh7s4mky",
@@ -55407,6 +55509,8 @@
         }
       ],
       "title": "Power your entire business | Square",
+      "title_zh": "为您的整个业务赋能 | Square",
+      "title_zh_hash": "b89b84ad30b9169d",
       "url": "https://squareup.com/us/en",
       "x_status_id": null
     },
@@ -55414,6 +55518,8 @@
       "category": "Articles",
       "created_at": "2025-10-10T04:54:37.937880Z",
       "description": "Introducing RND1-30B, the largest open-source diffusion language model, trained via AR-to-Diffusion conversion with a simple, scalable recipe.",
+      "description_zh": "推出 RND1-30B，这是目前最大的开源扩散语言模型，通过自回归到扩散（AR-to-Diffusion）转换训练而成，采用简单且可扩展的方案。",
+      "description_zh_hash": "da93513ab2dfd8b9",
       "domain": "www.radicalnumerics.ai",
       "embed_type": "",
       "id": "k1774fw352tqhj4xeztrzrd0dx7s7882",
@@ -55436,6 +55542,8 @@
         }
       ],
       "title": "RND1:  Simple, Scalable AR-to-Diffusion Conversion · Radical Numerics",
+      "title_zh": "RND1：简单、可扩展的AR到扩散转换 · Radical Numerics",
+      "title_zh_hash": "d4667518dfa82858",
       "url": "https://www.radicalnumerics.ai/blog/rnd1",
       "x_status_id": null
     },
@@ -55443,6 +55551,8 @@
       "category": "Articles",
       "created_at": "2025-10-10T04:24:43.298846Z",
       "description": "Next.js 16 beta includes stable Turbopack, file system caching, React Compiler support, smarter routing, new caching APIs, and React 19.2 features.",
+      "description_zh": "Next.js 16 beta 包含稳定的 Turbopack、文件系统缓存、React Compiler 支持、更智能的路由、新的缓存 API 以及 React 19.2 特性。",
+      "description_zh_hash": "f98cd7ca5c2c0826",
       "domain": "nextjs.org",
       "embed_type": "",
       "id": "k179k5dhy7yszsb7edb825bsed7s7js5",
@@ -55465,6 +55575,8 @@
         }
       ],
       "title": "Next.js 16 (beta) | Next.js",
+      "title_zh": "Next.js 16 (beta) | Next.js",
+      "title_zh_hash": "2da7c4818dbb88c9",
       "url": "https://nextjs.org/blog/next-16-beta",
       "x_status_id": null
     },
@@ -55472,6 +55584,8 @@
       "category": "Media",
       "created_at": "2025-10-10T05:02:07.958823Z",
       "description": "Discover Radical Face: Complete discography, tour dates, news, short fiction, and artwork from indie folk artist Ben Cooper—where haunting melodies meet powerful storytelling.",
+      "description_zh": "探索 Radical Face：独立民谣艺术家 Ben Cooper 的完整唱片目录、巡演日期、新闻、短篇故事与艺术作品——当萦绕心头的旋律与震撼人心的叙事相遇。",
+      "description_zh_hash": "8ed277c95cafd636",
       "domain": "www.radicalface.com",
       "embed_type": "",
       "id": "k177c38rzdv8ebfhyb6f0hks657s65va",
@@ -55494,6 +55608,8 @@
         }
       ],
       "title": "Radical Face - Music, Writing, and Art | Radical Face",
+      "title_zh": "Radical Face - 音乐、写作与艺术 | Radical Face",
+      "title_zh_hash": "74e2a9d859c3683f",
       "url": "https://www.radicalface.com/",
       "x_status_id": null
     },
@@ -55523,6 +55639,8 @@
         }
       ],
       "title": "Stoke Space / 100% reusable rockets / USA",
+      "title_zh": "Stoke Space / 100% 可重复使用火箭 / 美国",
+      "title_zh_hash": "a7f9ec90abb5eba1",
       "url": "https://www.stokespace.com/",
       "x_status_id": null
     },
@@ -55559,6 +55677,8 @@
       "category": "Design",
       "created_at": "2025-10-10T05:16:32.432227Z",
       "description": "Yuni Grotesque! It’s not just a compressed sans or a dismembered sibling of Yuni Slab ———— it is the second coming of the highly anticipated Yuni…",
+      "description_zh": "Yuni Grotesque！它不仅仅是一款压缩无衬线字体，也不是Yuni Slab被肢解的兄弟字体————它是备受期待的Yuni的第二次降临……",
+      "description_zh_hash": "b356191fb23ec31e",
       "domain": "www.typemates.com",
       "embed_type": "",
       "id": "k177hskwx7dz1g2dngr1p2xkdd7s70r5",
@@ -55581,6 +55701,8 @@
         }
       ],
       "title": "Yuni Grotesque | TypeMates",
+      "title_zh": "Yuni Grotesque | TypeMates",
+      "title_zh_hash": "bbaaa2a88994d0d8",
       "url": "https://www.typemates.com/fonts/yuni-grotesque",
       "x_status_id": null
     },
@@ -55588,6 +55710,8 @@
       "category": "Design",
       "created_at": "2025-10-08T14:20:27.643910Z",
       "description": "Die Grotesk was shaped in the long shadow of Helvetica, a typeface both revered and resented in equal measure. Graphic designers love it. Type designers hate it. Endlessly revived and resold, simultaneously banal and sublime, its forms feel inevitable.",
+      "description_zh": "Die Grotesk 字体诞生于 Helvetica 的漫长阴影之下，这款字体既备受推崇又饱受争议。平面设计师对其钟爱有加，而字体设计师却深恶痛绝。它被不断复兴与转售，既平庸又崇高，其形态仿佛命中注定。",
+      "description_zh_hash": "bd96cdf36fa35975",
       "domain": "klim.co.nz",
       "embed_type": "",
       "id": "k17c3qgqt0f4v0b4tfd590k7nh7s2cq6",
@@ -55610,6 +55734,8 @@
         }
       ],
       "title": "Die Grotesk fonts · Klim Type Foundry",
+      "title_zh": "Grotesk 字体 · Klim Type Foundry",
+      "title_zh_hash": "7ccc2974ded0c22a",
       "url": "https://klim.co.nz/fonts/die-grotesk",
       "x_status_id": null
     },
@@ -55617,6 +55743,8 @@
       "category": "Social",
       "created_at": "2025-10-09T00:28:01.365644Z",
       "description": "The enemy of sleep is effort.\n\nIn this episode, Dr. Michael Grandner (@michaelgrandner) explains how insomnia fundamentally stems from a learned pattern of wakefulness and why, for many, the bed itself becomes a source of stress and vigilance rather than rest.\n\nWe explore",
+      "description_zh": "睡眠的敌人是努力。\n\n在本期节目中，迈克尔·格兰德纳博士（@michaelgrandner）解释了失眠如何从根本上源于一种习得的清醒模式，以及为什么对许多人来说，床本身成为了压力和警觉的来源，而非休息。我们将探讨——",
+      "description_zh_hash": "f4af3b23b45ec388",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17fxcqbhxawmjwk4fbyztqxy57s5bs8",
@@ -55639,6 +55767,8 @@
         }
       ],
       "title": "Dr. Rhonda Patrick (@foundmyfitness) on X",
+      "title_zh": "朗达·帕特里克博士（@foundmyfitness）在 X 平台上的发言",
+      "title_zh_hash": "76ef10fbe82a0b29",
       "url": "https://x.com/foundmyfitness/status/1975257422282269100",
       "x_status_id": "1975257422282269100"
     },
@@ -55646,6 +55776,8 @@
       "category": "Crypto",
       "created_at": "2025-10-08T23:35:34.641403Z",
       "description": "Plasma is a high‑performance Layer 1 built for USD₮ payments at global scale. Instant transfers, low fees and full EVM compatibility.",
+      "description_zh": "Plasma 是一个专为全球规模 USD₮ 支付而构建的高性能 Layer 1。支持即时转账、低费用，并完全兼容 EVM。",
+      "description_zh_hash": "35e40345345f481b",
       "domain": "www.plasma.to",
       "embed_type": "",
       "id": "k17f6kdyjyjsyctnvfg4rck6sn7s34rm",
@@ -55668,6 +55800,8 @@
         }
       ],
       "title": "Plasma - Stablecoin infrastructure for instant payments",
+      "title_zh": "Plasma - 即时支付的稳定币基础设施",
+      "title_zh_hash": "f689aa0e1e642510",
       "url": "https://www.plasma.to/",
       "x_status_id": null
     },
@@ -55675,6 +55809,8 @@
       "category": "Tools",
       "created_at": "2025-10-08T23:37:39.454775Z",
       "description": "Your API available everywhere. Generate MCP servers, SDKs, docs & Terraform providers all from OpenAPI",
+      "description_zh": "你的 API 随处可用。从 OpenAPI 生成 MCP 服务器、SDK、文档和 Terraform 提供商。",
+      "description_zh_hash": "eb002cd093e3a198",
       "domain": "www.speakeasy.com",
       "embed_type": "",
       "id": "k17c6pvf8n1bwzd26kk4nneqyd7s3eqz",
@@ -55697,6 +55833,8 @@
         }
       ],
       "title": "Generate MCP servers & SDKs from OpenAPI | Speakeasy",
+      "title_zh": "从 OpenAPI 生成 MCP 服务器和 SDK | Speakeasy",
+      "title_zh_hash": "03e945572458b5fb",
       "url": "https://www.speakeasy.com/",
       "x_status_id": null
     },
@@ -55704,6 +55842,8 @@
       "category": "Tools",
       "created_at": "2025-10-08T23:37:45.907378Z",
       "description": "Access booked revenue on annual and multi-year deals immediately and close more deals with flexible payment terms. Easy-to-use, integrated vendor financing platform that enables faster decision-making through real-time data and response and automated workflows, available across nine countries.",
+      "description_zh": "立即获取年度及多年期交易的已预订收入，并通过灵活的付款条款达成更多交易。易于使用、集成的供应商融资平台，通过实时数据、快速响应和自动化工作流加速决策，现已覆盖九个国家。",
+      "description_zh_hash": "e042a33e8d8e468b",
       "domain": "www.capchase.com",
       "embed_type": "",
       "id": "k172gfpfjdvgh9r49dkv0ws7rh7s2y7y",
@@ -55726,6 +55866,8 @@
         }
       ],
       "title": "Modern Vendor Financing for B2B Software and Hardware Purchases | Capchase",
+      "title_zh": "现代B2B软硬件采购的供应商融资方案 | Capchase",
+      "title_zh_hash": "ca7ed27b157d7c77",
       "url": "https://www.capchase.com/",
       "x_status_id": null
     },
@@ -55733,6 +55875,8 @@
       "category": "Development",
       "created_at": "2025-10-08T23:35:50.880601Z",
       "description": "A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript.",
+      "description_zh": "一个高质量、无样式的组件集合，用于使用 React 和 TypeScript 创建精美的电子邮件。",
+      "description_zh_hash": "34d256e16d9fce54",
       "domain": "react.email",
       "embed_type": "",
       "id": "k17d5x1qw6mbpkwj53qz7zer4h7s3tt1",
@@ -55762,6 +55906,8 @@
       "category": "Design",
       "created_at": "2025-10-08T23:38:57.050909Z",
       "description": "Snøhetta is a global transdisciplinary practice. Creating places for societies to connect with each other and with the world around them is a primary motivation in our work. Dialogue and diversity empower this approach.",
+      "description_zh": "Snøhetta 是一家全球性的跨学科实践机构。在我们的工作中，核心动力是创造让社会彼此连接、并与周围世界互动的场所。对话与多元性正是这一理念的驱动力。",
+      "description_zh_hash": "5a1a4dd695368811",
       "domain": "www.snohetta.com",
       "embed_type": "",
       "id": "k17f4vnecfxvwkedtdh4188c497s2kpg",
@@ -55791,6 +55937,8 @@
       "category": "Tools",
       "created_at": "2025-10-08T23:40:36.206820Z",
       "description": "Your AI-powered travel guide for meaningful journeys. Routes, events, and unique places tailored to you and always up to date.",
+      "description_zh": "你的AI驱动旅行指南，助你开启有意义的旅程。路线、活动与独特景点，专为你量身定制，实时更新。",
+      "description_zh_hash": "338b1c2325a8705e",
       "domain": "arie.guide",
       "embed_type": "",
       "id": "k170jkm9pv4cpvx9z58fvytrt17s2w78",
@@ -55813,6 +55961,8 @@
         }
       ],
       "title": "Arie – All-in-one travel companion",
+      "title_zh": "Arie – 一站式旅行伴侣",
+      "title_zh_hash": "3e99a983f47817ac",
       "url": "https://arie.guide/",
       "x_status_id": null
     },
@@ -55820,6 +55970,8 @@
       "category": "Tools",
       "created_at": "2025-10-08T23:41:39.673100Z",
       "description": "Who says that work and play don’t mix? Not us! Play Pocket Boss, the game where you handle lots of fun data and one not-so-fun boss.",
+      "description_zh": "谁说工作和娱乐不能兼得？我们可不这么认为！快来玩《口袋老板》——这款游戏里，你将处理海量有趣的数据，还要应付一位不那么有趣的老板。",
+      "description_zh_hash": "40b64626acc6e763",
       "domain": "pocketboss.ch",
       "embed_type": "",
       "id": "k17deym6db8g9dt8at1z738n8x7s3470",
@@ -55849,6 +56001,8 @@
       "category": "Tools",
       "created_at": "2025-10-08T23:44:00.107186Z",
       "description": "Reducto provides high-quality document ingestion for AI teams by accurately parsing complex documents like PDFs, Excel spreadsheets, and PowerPoint slides. Get started for free.",
+      "description_zh": "Reducto 为 AI 团队提供高质量的文档解析服务，能够精准处理 PDF、Excel 电子表格和 PowerPoint 幻灯片等复杂文档。免费开始使用。",
+      "description_zh_hash": "d3a67576e1601787",
       "domain": "reducto.ai",
       "embed_type": "",
       "id": "k17aq4cb6yh2c00b00qr8brp8d7s3mnb",
@@ -55871,6 +56025,8 @@
         }
       ],
       "title": "Reducto: AI document parsing & extraction software",
+      "title_zh": "Reducto：AI文档解析与提取软件",
+      "title_zh_hash": "85cffd7df7348f94",
       "url": "https://reducto.ai/",
       "x_status_id": null
     },
@@ -55878,6 +56034,8 @@
       "category": "Social",
       "created_at": "2025-10-08T07:27:11.655857Z",
       "description": "Today @GoogleDeepMind released a state of the art computer use model, in partnership with Browserbase.\n\nComputer use is hard to evaluate. You need reliable browser infrastructure and realistic tasks.\n\nBelow, we cover how we ran these benchmarks and how you can try yourself!",
+      "description_zh": "今天，@GoogleDeepMind 与 Browserbase 合作，发布了一款最先进的计算机使用模型。\n\n计算机使用能力的评估颇具挑战性，需要可靠的浏览器基础设施和贴近现实的任务场景。\n\n下面，我们将介绍如何运行这些基准测试，以及您如何亲自尝试！",
+      "description_zh_hash": "a5eede38e1fb1a83",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k179818zz0phny74z5cqatp0p17s2eq7",
@@ -55900,6 +56058,8 @@
         }
       ],
       "title": "Browserbase (@browserbasehq) on X",
+      "title_zh": "Browserbase (@browserbasehq) 在 X 平台",
+      "title_zh_hash": "6e1c2ae45ac4434c",
       "url": "https://x.com/browserbasehq/status/1975649022112374913",
       "x_status_id": "1975649022112374913"
     },
@@ -55907,6 +56067,8 @@
       "category": "Articles",
       "created_at": "2025-10-08T07:12:20.688840Z",
       "description": "Showcase of practical AI use cases for personal and professional contexts, by journalist and product developer David Bauer",
+      "description_zh": "记者兼产品开发者David Bauer展示的AI在个人与专业场景中的实用案例集锦",
+      "description_zh_hash": "d1586a434e469876",
       "domain": "labs.davidbauer.ch",
       "embed_type": "",
       "id": "k177q4pamzk33a70max6e8tar57s3n6f",
@@ -55929,6 +56091,8 @@
         }
       ],
       "title": "How I Use AI",
+      "title_zh": "我如何使用人工智能",
+      "title_zh_hash": "9b6cb55653a89761",
       "url": "https://labs.davidbauer.ch/how-i-use-ai/",
       "x_status_id": null
     },
@@ -55936,6 +56100,8 @@
       "category": "Other",
       "created_at": "2025-10-08T07:11:00.609164Z",
       "description": "Ponpon Mania is an interactive comic. Follow the adventure of a megalomaniac sheep who wants to make the world dance. Created by Justine Soulié & Patrick Heng.",
+      "description_zh": "Ponpon Mania 是一部互动漫画。跟随一只妄图让全世界起舞的狂妄绵羊展开冒险。由 Justine Soulié 与 Patrick Heng 创作。",
+      "description_zh_hash": "26a94a1afe362d0d",
       "domain": "ponpon-mania.com",
       "embed_type": "",
       "id": "k17egvevfa2kh86cayavqtqkks7s3ewh",
@@ -55958,6 +56124,8 @@
         }
       ],
       "title": "Ponpon Mania - Interactive Comic",
+      "title_zh": "《胖胖狂热 - 互动漫画》",
+      "title_zh_hash": "97d75cd7deb2c9b7",
       "url": "https://ponpon-mania.com/",
       "x_status_id": null
     },
@@ -55987,6 +56155,8 @@
         }
       ],
       "title": "Upstatement | A strategic digital studio with an editorial mindset.",
+      "title_zh": "Upstatement | 一家秉持编辑思维的战略数字工作室。",
+      "title_zh_hash": "170aeae645ed7cb0",
       "url": "https://upstatement.com/",
       "x_status_id": null
     },
@@ -55994,6 +56164,8 @@
       "category": "Tools",
       "created_at": "2025-10-07T05:14:10.746300Z",
       "description": "Grilli Type started with a simple thought: what if we did things our own way? It started with a small shop with printed matter and typefaces. Ten years after the founding of Grilli, we’re back with an online shop.",
+      "description_zh": "Grilli Type 始于一个简单的想法：如果我们用自己的方式做事会怎样？它从一家售卖印刷品和字体的小店起步。在 Grilli 成立十年后，我们带着线上商店回归了。",
+      "description_zh_hash": "f76e2d76a8fc342a",
       "domain": "grillikiosk.com",
       "embed_type": "",
       "id": "k17c4a50cqq0w7pptxhp56100d7s1yrk",
@@ -56016,6 +56188,8 @@
         }
       ],
       "title": "Grilli Kiosk",
+      "title_zh": "Grilli Kiosk",
+      "title_zh_hash": "b30dde88dbe6b6fd",
       "url": "https://grillikiosk.com/",
       "x_status_id": null
     },
@@ -56023,6 +56197,8 @@
       "category": "Social",
       "created_at": "2025-10-06T23:47:11.164545Z",
       "description": "Introducing Paper Mono: a beautiful monospace font for design and code.\n\nGet the download and more details in the thread.",
+      "description_zh": "Paper Mono 发布：一款适用于设计与代码的优雅等宽字体。\n\n更多详情及下载链接请见下文。",
+      "description_zh_hash": "98ca7d937ea6e78a",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17b5zr2kcnpsyzfw852nqwjpd7rzk82",
@@ -56045,6 +56221,8 @@
         }
       ],
       "title": "Vlad Moroz (@vladyslavmoroz) on X",
+      "title_zh": "Vlad Moroz (@vladyslavmoroz) 在 X 平台",
+      "title_zh_hash": "722fb65f6d175394",
       "url": "https://x.com/vladyslavmoroz/status/1975195068127711481?s=12",
       "x_status_id": "1975195068127711481"
     },
@@ -56074,6 +56252,8 @@
         }
       ],
       "title": "Tobi Lütke is still captivated by internet commerce, 20 years later",
+      "title_zh": "20年后，Tobi Lütke 依然对互联网商业着迷。",
+      "title_zh_hash": "4017713df333f6eb",
       "url": "https://www.youtube.com/watch?v=eMSqlQMk480",
       "x_status_id": null
     },
@@ -56081,6 +56261,8 @@
       "category": "Design",
       "created_at": "2025-10-06T09:22:31.738948Z",
       "description": "art director / graphic designer / typographer",
+      "description_zh": "艺术总监 / 平面设计师 / 字体设计师",
+      "description_zh_hash": "dabb20558436c7d4",
       "domain": "wangzhihong.com",
       "embed_type": "",
       "id": "k177b87mwpjbcbpcy453f5fw0x7rzm1m",
@@ -56103,6 +56285,8 @@
         }
       ],
       "title": "WANGZHIHONG CO.",
+      "title_zh": "王智宏公司",
+      "title_zh_hash": "45971e61e4bdd2d8",
       "url": "https://wangzhihong.com/",
       "x_status_id": null
     },
@@ -56132,6 +56316,8 @@
         }
       ],
       "title": "Nothing OS is evolving | Nothing TV",
+      "title_zh": "Nothing OS 正在进化 | Nothing TV",
+      "title_zh_hash": "961c536d133f9b67",
       "url": "https://www.youtube.com/watch?v=uZRK60JNA54",
       "x_status_id": null
     },
@@ -56139,6 +56325,8 @@
       "category": "Tools",
       "created_at": "2025-10-03T08:48:29.809208Z",
       "description": "Spec connects to your everyday apps and helps before you ask",
+      "description_zh": "Spec 连接你日常使用的应用，在你提问之前就提供帮助。",
+      "description_zh_hash": "219ac3b917baca2f",
       "domain": "withspec.com",
       "embed_type": "",
       "id": "k17271hdqx82g5r9bmc23ntgbs7rr2ed",
@@ -56161,6 +56349,8 @@
         }
       ],
       "title": "Spec | hit escape",
+      "title_zh": "规格 | 按 Esc 退出",
+      "title_zh_hash": "b49fba1655a2eed1",
       "url": "https://withspec.com/",
       "x_status_id": null
     },
@@ -56168,6 +56358,8 @@
       "category": "Social",
       "created_at": "2025-10-03T08:59:01.498657Z",
       "description": "˗ˏˋ NEW ˎˊ˗\n\nOur new \"The Bookmarker\" plan is now available on mobile.\n\nAt $4.99 per month, this is our most affordable plan.\n\nIf you're not sure you need all the fancy AI features, it's a great way to try out mymind and see if you vibe with it :orange_heart:\n\nThis is in addition to our",
+      "description_zh": "˗ˏˋ 新品上线 ˎˊ˗\n\n我们的全新 \"The Bookmarker\" 套餐现已支持移动端使用。\n\n每月仅需 $4.99，这是我们最经济实惠的套餐。\n\n如果你不确定是否需要那些花哨的 AI 功能，这是体验 mymind 并感受其魅力的绝佳方式 :orange_heart:\n\n此套餐是对我们现有",
+      "description_zh_hash": "81a10e861939706d",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k173kr3kx52x2cx0yc2gdb5kvx7rrptg",
@@ -56190,6 +56382,8 @@
         }
       ],
       "title": "mymind (@mymind) on X",
+      "title_zh": "mymind (@mymind) 在 X 上",
+      "title_zh_hash": "f099fe08079041de",
       "url": "https://x.com/mymind/status/1973858658028302812",
       "x_status_id": "1973858658028302812"
     },
@@ -56197,6 +56391,8 @@
       "category": "Social",
       "created_at": "2025-10-06T04:37:55.527453Z",
       "description": "i've got this huge archive of random past work that i'd love to write up some day. in the meantime, i've made a virtual filing cabinet you can rifle through and put it on my website. lots of junk, some gems!",
+      "description_zh": "我有一大堆过去随手做的零散作品，总想着哪天能好好整理成文。趁现在，我在网站上搭了个虚拟文件柜，你可以随意翻翻。里面垃圾不少，但也不乏一些宝贝！",
+      "description_zh_hash": "3300ca2c7b48616f",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17acfv7pjxf4emtka8fc9d3j17rzf17",
@@ -56219,6 +56415,8 @@
         }
       ],
       "title": "nate parrott (@nateparrott) on X",
+      "title_zh": "nate parrott (@nateparrott) 在 X 平台",
+      "title_zh_hash": "ff854a9d3b399b6e",
       "url": "https://x.com/nateparrott/status/1975049144806056046",
       "x_status_id": "1975049144806056046"
     },
@@ -56226,6 +56424,8 @@
       "category": "Tools",
       "created_at": "2025-10-06T07:30:58.290983Z",
       "description": "Exponentially faster builds for everyone.",
+      "description_zh": "为所有人实现指数级更快的构建。",
+      "description_zh_hash": "2c233c898276eb4c",
       "domain": "depot.dev",
       "embed_type": "",
       "id": "k17ffsempjcazc42ks5m779byh7rz2f1",
@@ -56248,6 +56448,8 @@
         }
       ],
       "title": "Depot - Up to 55x Faster Builds, Half the Cost | Docker & GitHub Actions",
+      "title_zh": "Depot - 构建速度提升最高55倍，成本减半 | Docker 与 GitHub Actions",
+      "title_zh_hash": "39df87b7e04faec1",
       "url": "https://depot.dev/",
       "x_status_id": null
     },
@@ -56255,6 +56457,8 @@
       "category": "Social",
       "created_at": "2025-10-06T07:57:23.390673Z",
       "description": "New work, and it's a big one!\n\nStoked to team up with @JordanGilroy to develop the new site for Claude dot com! I am extremely grateful to @designbizco for involving me in this collaboration and to the amazing team at @AnthropicAI, who have been a pleasure to work with.",
+      "description_zh": "新作品，而且是个大项目！\n\n非常激动能与 @JordanGilroy 合作开发 Claude 官网！衷心感谢 @designbizco 让我参与这次合作，也感谢 @AnthropicAI 的出色团队，与他们共事非常愉快。",
+      "description_zh_hash": "cf6f94f107c02969",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17cykm3qqrr9pwt84t7xy3f917rzb8m",
@@ -56277,6 +56481,8 @@
         }
       ],
       "title": "Kyle Craven • Webflow Partner (@_KyleCraven) on X",
+      "title_zh": "Kyle Craven • Webflow 合作伙伴 (@_KyleCraven) 在 X 平台",
+      "title_zh_hash": "7aad24391b7bd884",
       "url": "https://x.com/_KyleCraven/status/1972951776984015250",
       "x_status_id": "1972951776984015250"
     },
@@ -56284,6 +56490,8 @@
       "category": "Crypto",
       "created_at": "2025-10-06T07:59:14.925078Z",
       "description": "Uniswap Cup 2025: A single-day soccer tournament, featuring your favorite teams in crypto.",
+      "description_zh": "Uniswap Cup 2025：一场单日足球锦标赛，汇聚加密货币领域你最喜爱的队伍。",
+      "description_zh_hash": "d712fe0fc467e8d7",
       "domain": "unicup.uniswap.org",
       "embed_type": "",
       "id": "k170ks7wd0qzpmb3qyt8jm253x7rz8y4",
@@ -56313,6 +56521,8 @@
       "category": "Design",
       "created_at": "2025-10-06T08:05:04.880115Z",
       "description": "Gander is an award-winning branding and graphic design studio based in New York City. We create thoughtful experiences for humans and propel brands with soul and substance. We specialize in branding, packaging, web design, and art direction.",
+      "description_zh": "Gander 是一家屡获殊荣的品牌与平面设计工作室，总部位于纽约市。我们致力于为人类打造富有巧思的体验，以灵魂与内涵驱动品牌发展。我们的专长涵盖品牌塑造、包装设计、网页设计及艺术指导。",
+      "description_zh_hash": "efdf4f7e90a0e151",
       "domain": "takeagander.com",
       "embed_type": "",
       "id": "k172bdwsd41m5g4rvwfw5y3x917rzf4t",
@@ -56342,6 +56552,8 @@
       "category": "Development",
       "created_at": "2025-10-06T08:06:44.020972Z",
       "description": "Public preview for the new Chrome DevTools MCP server, bringing the power of Chrome DevTools to AI coding assistants.",
+      "description_zh": "新版 Chrome DevTools MCP 服务器公开预览版发布，将 Chrome DevTools 的强大功能引入 AI 编程助手。",
+      "description_zh_hash": "bbfe474ca5da352e",
       "domain": "developer.chrome.com",
       "embed_type": "",
       "id": "k17d5w9xzw659kxs2srh2hz0357rz0xh",
@@ -56364,6 +56576,8 @@
         }
       ],
       "title": "Chrome DevTools (MCP) for your AI agent  |  Blog  |  Chrome for Developers",
+      "title_zh": "Chrome DevTools (MCP) 供您的 AI 代理使用 | 博客 | Chrome for Developers",
+      "title_zh_hash": "897584a8987d3e66",
       "url": "https://developer.chrome.com/blog/chrome-devtools-mcp",
       "x_status_id": null
     },
@@ -56371,6 +56585,8 @@
       "category": "Development",
       "created_at": "2025-10-06T08:07:05.877147Z",
       "description": "The Agentic Commerce Protocol is an open standard that enables programmatic commerce flows between AI agents and businesses. Developed by Stripe + OpenAI.",
+      "description_zh": "Agentic Commerce Protocol 是一个开放标准，支持 AI 代理与商家之间实现可编程的商业流程。由 Stripe 和 OpenAI 联合开发。",
+      "description_zh_hash": "fef99e96280d3f92",
       "domain": "www.agenticcommerce.dev",
       "embed_type": "",
       "id": "k17ezh7bkx49d71yq57hhg86a97rzwpg",
@@ -56393,6 +56609,8 @@
         }
       ],
       "title": "Agentic Commerce Protocol",
+      "title_zh": "Agentic Commerce Protocol",
+      "title_zh_hash": "0a504b9973014810",
       "url": "https://www.agenticcommerce.dev/",
       "x_status_id": null
     },
@@ -56429,6 +56647,8 @@
       "category": "Crypto",
       "created_at": "2025-10-06T08:08:57.252183Z",
       "description": "The power of crypto meets the ease of cash. Keep all your money in one balance. Use your card anywhere and earn interest while you sleep.",
+      "description_zh": "加密货币的力量，现金般的便捷。将所有资金集中在一个余额中。随时随地使用您的卡片，在睡梦中也能赚取利息。",
+      "description_zh_hash": "fc49bf125d7fe0dd",
       "domain": "phantom.com",
       "embed_type": "",
       "id": "k170at0n7qnfnw4yg7bhfbnj6h7rzy4k",
@@ -56451,6 +56671,8 @@
         }
       ],
       "title": "Meet Phantom Cash.",
+      "title_zh": "认识 Phantom Cash。",
+      "title_zh_hash": "4da113dda0e3c15e",
       "url": "https://phantom.com/cash",
       "x_status_id": null
     },
@@ -56458,6 +56680,8 @@
       "category": "Tools",
       "created_at": "2025-10-06T08:09:10.171882Z",
       "description": "Making Space a Transportation Layer for Earth.",
+      "description_zh": "让太空成为地球的交通层。",
+      "description_zh_hash": "d0dc2fac3e6e33c9",
       "domain": "www.inversionspace.com",
       "embed_type": "",
       "id": "k170q23v1g425dqc5zn2d3pjbn7rz9he",
@@ -56487,6 +56711,8 @@
       "category": "Design",
       "created_at": "2025-10-06T08:09:48.528307Z",
       "description": "How a subtle refresh of our Microsoft 365 icons signals deeper change.",
+      "description_zh": "微软365图标的一次微妙更新，预示着更深层次的变革。",
+      "description_zh_hash": "fa746e6936114f37",
       "domain": "microsoft.design",
       "embed_type": "",
       "id": "k17aqfv77ngy059y3wya87z2kh7ry0hy",
@@ -56509,6 +56735,8 @@
         }
       ],
       "title": "Fluid forms, vibrant colors - Microsoft Design",
+      "title_zh": "流体形态，绚丽色彩——微软设计",
+      "title_zh_hash": "c64bd9d36f757e3c",
       "url": "https://microsoft.design/articles/fluid-forms-vibrant-colors/",
       "x_status_id": null
     },
@@ -56516,6 +56744,8 @@
       "category": "Development",
       "created_at": "2025-10-06T08:11:13.703290Z",
       "description": "Tinker is a training API for researchers and developers.",
+      "description_zh": "Tinker 是一个面向研究人员和开发者的训练 API。",
+      "description_zh_hash": "82cb9b3e4c4eaf9b",
       "domain": "thinkingmachines.ai",
       "embed_type": "",
       "id": "k174g7pkrj6t640czm3vjyft9x7rz30n",
@@ -56538,6 +56768,8 @@
         }
       ],
       "title": "Tinker - Thinking Machines Lab",
+      "title_zh": "Tinker - Thinking Machines Lab",
+      "title_zh_hash": "b0b21ea46a3e3bfa",
       "url": "https://thinkingmachines.ai/tinker/",
       "x_status_id": null
     },
@@ -56545,6 +56777,8 @@
       "category": "Tools",
       "created_at": "2025-10-06T08:11:24.688670Z",
       "description": "Genie is a tool that learns your brand identity and generates custom visuals on demand through simple prompts.",
+      "description_zh": "Genie 是一款能够学习您品牌形象，并通过简单提示按需生成定制视觉内容的工具。",
+      "description_zh_hash": "aab085e64ec3e337",
       "domain": "geniestudio.app",
       "embed_type": "",
       "id": "k170z3zgrzcncngfwcc6v1s4rs7rz1hb",
@@ -56574,6 +56808,8 @@
       "category": "Design",
       "created_at": "2025-10-06T08:11:51.994470Z",
       "description": "Goodside created the brand identity for Ditto, and all-in-one platform for sustainability compliance.",
+      "description_zh": "Goodside 为 Ditto 打造了品牌形象，Ditto 是一个一站式可持续发展合规平台。",
+      "description_zh_hash": "f1fec16ba8e1bcf7",
       "domain": "www.goodside.studio",
       "embed_type": "",
       "id": "k17bfy9za2ccqwgn7d00eak9zh7ryzpa",
@@ -56596,6 +56832,8 @@
         }
       ],
       "title": "Ditto → Goodside",
+      "title_zh": "Ditto → Goodside",
+      "title_zh_hash": "377da8f971c08f98",
       "url": "https://www.goodside.studio/work/ditto",
       "x_status_id": null
     },
@@ -56603,6 +56841,8 @@
       "category": "Tools",
       "created_at": "2025-10-06T08:12:14.227144Z",
       "description": "Amplify your customer service experience with a team of personal AI agents. Leverage the full power of generative AI for contact center automation.",
+      "description_zh": "通过一支专属AI智能体团队，提升您的客户服务体验。充分发挥生成式AI的全部潜力，实现联络中心自动化。",
+      "description_zh_hash": "5613ba205708291c",
       "domain": "www.parloa.com",
       "embed_type": "",
       "id": "k171rvnhbkttq5010rvfp0behn7rzgsd",
@@ -56625,6 +56865,8 @@
         }
       ],
       "title": "AI Agent Management Platform for contact centers",
+      "title_zh": "面向联络中心的AI智能体管理平台",
+      "title_zh_hash": "43c98be84d2aa65f",
       "url": "https://www.parloa.com/",
       "x_status_id": null
     },
@@ -56632,6 +56874,8 @@
       "category": "Tools",
       "created_at": "2025-10-06T08:14:59.366697Z",
       "description": "Things, Inc. is an award winning startup creating software that promotes collaborative creation and emergent play.",
+      "description_zh": "Things, Inc. 是一家屡获殊荣的初创公司，致力于开发促进协作创作与涌现式玩法的软件。",
+      "description_zh_hash": "42e37971cd5aaf41",
       "domain": "things.inc",
       "embed_type": "",
       "id": "k171mpz9bdtecpwxzjn7aqxm7s7ryevb",
@@ -56654,6 +56898,8 @@
         }
       ],
       "title": "Things, Inc.",
+      "title_zh": "Things, Inc.",
+      "title_zh_hash": "8872a62605d2807d",
       "url": "https://things.inc/",
       "x_status_id": null
     },
@@ -56661,6 +56907,8 @@
       "category": "Development",
       "created_at": "2025-10-06T08:16:21.843831Z",
       "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications. - payload/templates/with-cloudflare-d1 at main · payloadcms/payload",
+      "description_zh": "Payload 是一个开源的、全栈的 Next.js 框架，能瞬间赋予你强大的后端能力。立即获得完整的 TypeScript 后端和管理面板。你可以将 Payload 用作无头 CMS，或用于构建功能强大的应用程序。 - payload/templates/with-cloudflare-d1 at main · payloadcms/payload",
+      "description_zh_hash": "559b860c621d12bc",
       "domain": "github.com",
       "embed_type": "",
       "id": "k1768v2anvt4d49702ccjz7ahx7rzn4v",
@@ -56683,6 +56931,8 @@
         }
       ],
       "title": "payload/templates/with-cloudflare-d1 at main · payloadcms/payload · GitHub",
+      "title_zh": "payload/templates/with-cloudflare-d1 at main · payloadcms/payload · GitHub",
+      "title_zh_hash": "9f3c3bc0686e0791",
       "url": "https://github.com/payloadcms/payload/tree/main/templates/with-cloudflare-d1",
       "x_status_id": null
     },
@@ -56690,6 +56940,8 @@
       "category": "Articles",
       "created_at": "2025-10-01T07:29:08.961785Z",
       "description": "Kagi News distills thousands of world-wide news sources into one perfect daily briefing. Get every critical perspective in just 5 minutes. No endless scrolling. No attention hijacking.",
+      "description_zh": "Kagi News 将全球数千个新闻来源提炼成一份完美的每日简报。只需5分钟即可获取所有关键视角。无需无休止地滚动。无需劫持注意力。",
+      "description_zh_hash": "fcbf317867d0e583",
       "domain": "kite.kagi.com",
       "embed_type": "",
       "id": "k17cz96p4jg992zn8r4md1ytt97rna4n",
@@ -56719,6 +56971,8 @@
       "category": "Social",
       "created_at": "2025-10-02T00:10:51.281867Z",
       "description": "Screen Studio integration with iPhone Mirroring on macOS 26 Tahoe work in progress.\n\nScreen Studio detects you are recording \"iPhone Mirroring\" window on your mac. Automatically crops your recording, adds iPhone frame and sets cursor type to \"Touch\" instead of macOS Arrow.",
+      "description_zh": "Screen Studio 正在开发与 macOS 26 Tahoe 上 iPhone 镜像功能的集成。\n\nScreen Studio 会检测到您正在 Mac 上录制\"iPhone 镜像\"窗口，并自动裁剪您的录制画面，添加 iPhone 边框，同时将光标类型设置为\"触摸\"而非 macOS 的箭头光标。",
+      "description_zh_hash": "41bcb237287699c2",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17dae1sntj134s9w2w3jwa0517rqksr",
@@ -56741,6 +56995,8 @@
         }
       ],
       "title": "Adam Pietrasiak (@pie6k) on X",
+      "title_zh": "Adam Pietrasiak (@pie6k) 在 X 平台",
+      "title_zh_hash": "c6c7e2484ce224a7",
       "url": "https://x.com/pie6k/status/1973396379373298162?s=46",
       "x_status_id": "1973396379373298162"
     },
@@ -56748,6 +57004,8 @@
       "category": "Social",
       "created_at": "2025-10-02T01:08:26.106565Z",
       "description": "<Activity> - The most exciting React feature just came out!\n\nHide a React subtree and unmount its Effects while preserving its state, and keep rendering it with lower priority. \n\nUnlocks very exciting pre-rendering patterns along the way! \n\nMore Activity modes are coming",
+      "description_zh": "<Activity> - 最令人兴奋的 React 特性刚刚发布！\n\n隐藏 React 子树并卸载其 Effects，同时保留其状态，并以较低优先级继续渲染。\n\n这解锁了非常令人兴奋的预渲染模式！\n\n更多 Activity 模式即将推出",
+      "description_zh_hash": "49051c610d7c5911",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k173dtt5rfx2wyk3gw99a8qmw57rp4rv",
@@ -56770,6 +57028,8 @@
         }
       ],
       "title": "Seb :atom_symbol: ThisWeekInReact.com (@sebastienlorber) on X",
+      "title_zh": "Seb :atom_symbol: ThisWeekInReact.com (@sebastienlorber) 在 X 平台",
+      "title_zh_hash": "6edb11d8b408e2f1",
       "url": "https://x.com/sebastienlorber/status/1973519712182284661",
       "x_status_id": "1973519712182284661"
     },
@@ -56777,6 +57037,8 @@
       "category": "Social",
       "created_at": "2025-10-02T04:25:34.633308Z",
       "description": "Imagine a world where anyone can create any world they want. This world is coming, very soon.",
+      "description_zh": "想象一个世界，任何人都能创造他们想要的任何世界。这个世界即将到来，而且很快。",
+      "description_zh_hash": "d15dd66647f7a568",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k174ast78z4q4z95xfrp5qqbx57rqhtp",
@@ -56799,6 +57061,8 @@
         }
       ],
       "title": "Runway (@runwayml) on X",
+      "title_zh": "Runway (@runwayml) 在 X 平台上",
+      "title_zh_hash": "dce8298d27224f06",
       "url": "https://x.com/runwayml/status/1973407832654463348?s=46",
       "x_status_id": "1973407832654463348"
     },
@@ -56806,6 +57070,8 @@
       "category": "Social",
       "created_at": "2025-09-29T06:06:44.658955Z",
       "description": "I made a Chrome extension that turns localhost into a visual editor for Cursor.\n\nClick any element on your dev site → describe what you want changed → it automatically sends the edit request to Cursor in the background with the element context.\n\nHere's how it works...",
+      "description_zh": "我做了一个 Chrome 扩展，能把 localhost 变成 Cursor 的可视化编辑器。\n\n点击你开发网站上的任意元素 → 描述你想做的修改 → 它会自动将编辑请求连同元素上下文发送到后台的 Cursor。\n\n具体工作原理如下...",
+      "description_zh_hash": "bf9c64817d137d64",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k174675zh6mehfrsgew81aba897rhq29",
@@ -56828,6 +57094,8 @@
         }
       ],
       "title": "pav (@pavitarsaini) on X",
+      "title_zh": "pav (@pavitarsaini) 在 X 平台",
+      "title_zh_hash": "a2f49e78fe9f6303",
       "url": "https://x.com/pavitarsaini/status/1972027826976313785",
       "x_status_id": "1972027826976313785"
     },
@@ -56835,6 +57103,8 @@
       "category": "Tools",
       "created_at": "2025-09-29T06:32:11.415483Z",
       "description": "Robin makes contracts simple for legal teams with AI-powered contract software that reviews contracts 80% faster, 3 seconds to search for a clause. Legal…",
+      "description_zh": "Robin 通过 AI 驱动的合同软件，让法律团队的合同工作变得简单，合同审查速度提升 80%，3 秒内即可搜索到条款。法律…",
+      "description_zh_hash": "ca9ea0be9af41af1",
       "domain": "robinai.com",
       "embed_type": "",
       "id": "k176z82jb5asgv6s9nsvjjkatn7rhase",
@@ -56857,6 +57127,8 @@
         }
       ],
       "title": "Robin | Legal AI | AI-Powered Contract Software",
+      "title_zh": "Robin | 法律 AI | AI 驱动的合同软件",
+      "title_zh_hash": "c4d38ff3c50bbf38",
       "url": "https://robinai.com/",
       "x_status_id": null
     },
@@ -56864,6 +57136,8 @@
       "category": "Other",
       "created_at": "2025-09-29T06:47:08.839657Z",
       "description": "Fisher James Capital connects capital with investment real estate. Led by industry expert Putnam Daily, this San Francisco-based boutique firm specializes in leased investment brokerage, representing private and institutional clients in the acquisition and disposition of single and multi-tenant commercial properties nationwide, with a focus on newly constructed assets for passive investors.",
+      "description_zh": "Fisher James Capital 连接资本与投资性房地产。这家总部位于旧金山的精品公司由行业专家 Putnam Daily 领导，专注于租赁投资经纪业务，代表私人和机构客户在全美范围内进行单租户及多租户商业地产的收购与处置，重点为被动投资者提供新建资产服务。",
+      "description_zh_hash": "036ffebb30303a0e",
       "domain": "www.fisherjamescapital.com",
       "embed_type": "",
       "id": "k1775cc1zd0xsqdr39kppjg7w17rgasv",
@@ -56886,6 +57160,8 @@
         }
       ],
       "title": "Fisher James Capital | Commercial Real Estate Investment",
+      "title_zh": "Fisher James Capital | 商业房地产投资",
+      "title_zh_hash": "cbfeecb9bb33e571",
       "url": "https://www.fisherjamescapital.com/",
       "x_status_id": null
     },
@@ -56893,6 +57169,8 @@
       "category": "Social",
       "created_at": "2025-09-30T01:19:30.431041Z",
       "description": "introducing Ami\n\ncomment on the page → make a change to your app",
+      "description_zh": "介绍 Ami\n\n在页面发表评论 → 对你的应用进行更改",
+      "description_zh_hash": "c46913fd4bcd29bf",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17fzvd75pdb92bmhdwfemm8k97rjdwq",
@@ -56915,6 +57193,8 @@
         }
       ],
       "title": "Aiden Bai (@aidenybai) on X",
+      "title_zh": "X平台上的Aiden Bai（@aidenybai）",
+      "title_zh_hash": "3e30f9a6ae94fd7e",
       "url": "https://x.com/aidenybai/status/1972689770036773055?t=Qhe8w9sfP8PdYeZBxyaX5g&s=19",
       "x_status_id": "1972689770036773055"
     },
@@ -56922,6 +57202,8 @@
       "category": "Development",
       "created_at": "2025-09-30T02:48:36.041650Z",
       "description": "Contribute to evanw/miniffi development by creating an account on GitHub.",
+      "description_zh": "通过创建 GitHub 账号，为 evanw/miniffi 的开发做出贡献。",
+      "description_zh_hash": "881ce2a926a8ef76",
       "domain": "github.com",
       "embed_type": "",
       "id": "k179wx85zc0qptr6j76mengq1h7rkq3s",
@@ -56944,6 +57226,8 @@
         }
       ],
       "title": "GitHub - evanw/miniffi",
+      "title_zh": "GitHub - evanw/miniffi",
+      "title_zh_hash": "4aba05c430f9c3c8",
       "url": "https://github.com/evanw/miniffi",
       "x_status_id": null
     },
@@ -56951,6 +57235,8 @@
       "category": "Articles",
       "created_at": "2025-09-29T02:43:47.291440Z",
       "description": "Make your website accessible to LLM agents by serving plain Markdown when they request text/plain or text/markdown. Save tokens and improve agent experience with this simple Astro and Cloudflare Workers implementation.",
+      "description_zh": "通过提供纯文本 Markdown 格式，让您的网站对 LLM 代理更易访问。当代理请求 `text/plain` 或 `text/markdown` 时，直接返回纯 Markdown 内容。借助这个简单的 Astro 和 Cloudflare Workers 实现方案，节省 Token 并提升代理体验。",
+      "description_zh_hash": "deeb9fb745b54213",
       "domain": "www.skeptrune.com",
       "embed_type": "",
       "id": "k174thb3xh5gajgddgkmnvt0kh7rhv85",
@@ -56973,6 +57259,8 @@
         }
       ],
       "title": "Use the Accept Header to serve Markdown instead of HTML to LLMs",
+      "title_zh": "使用 Accept 头部为 LLM 提供 Markdown 而非 HTML",
+      "title_zh_hash": "35d3570fef0e2aef",
       "url": "https://www.skeptrune.com/posts/use-the-accept-header-to-serve-markdown-instead-of-html-to-llms/",
       "x_status_id": null
     },
@@ -56980,6 +57268,8 @@
       "category": "Development",
       "created_at": "2025-09-28T03:59:35.234445Z",
       "description": "Build faster with AI coding agents. Factory Droids automate coding, testing, and deployment for startups and enterprises.",
+      "description_zh": "借助AI编程智能体加速开发。Factory Droids为初创企业和大型企业自动化编码、测试与部署流程。",
+      "description_zh_hash": "45c16d462c73a203",
       "domain": "factory.ai",
       "embed_type": "",
       "id": "k172k8hq44e5dxgks5q79n5je97rfzad",
@@ -57002,6 +57292,8 @@
         }
       ],
       "title": "Factory | Agent-Native Software Development",
+      "title_zh": "工厂 | 基于Agent的原生软件开发",
+      "title_zh_hash": "ef1cb09dd355aa04",
       "url": "https://factory.ai/",
       "x_status_id": null
     },
@@ -57009,6 +57301,8 @@
       "category": "Tools",
       "created_at": "2025-09-28T04:01:04.959304Z",
       "description": "Cypher builds tailored data solutions for your business so you can make better decisions, increase revenue, and save hours of work",
+      "description_zh": "Cypher 为您量身打造数据解决方案，助您做出更明智的决策、提升营收、节省大量工作时间。",
+      "description_zh_hash": "cfe9466d863a1a2f",
       "domain": "cypher.build",
       "embed_type": "",
       "id": "k171zwcgcs0cvwkk7tme2zwgch7revh3",
@@ -57031,6 +57325,8 @@
         }
       ],
       "title": "Cypher - Scaling DTC Brands with Data",
+      "title_zh": "Cypher — 用数据驱动DTC品牌规模化增长",
+      "title_zh_hash": "5bb7cfab6336fe88",
       "url": "https://cypher.build/",
       "x_status_id": null
     },
@@ -57038,6 +57334,8 @@
       "category": "Articles",
       "created_at": "2025-09-28T04:02:18.914534Z",
       "description": "Cloudflare is making every feature available to any customer.",
+      "description_zh": "Cloudflare 正在向所有客户开放每一项功能。",
+      "description_zh_hash": "6a326bcf92484fc2",
       "domain": "blog.cloudflare.com",
       "embed_type": "",
       "id": "k17f8txcsnhtmx27k0snzbysq57rfhxb",
@@ -57060,6 +57358,8 @@
         }
       ],
       "title": "Every Cloudflare feature, available to everyone",
+      "title_zh": "每个 Cloudflare 功能，人人皆可使用",
+      "title_zh_hash": "0e56bdeb8e70eb9e",
       "url": "https://blog.cloudflare.com/enterprise-grade-features-for-all/",
       "x_status_id": null
     },
