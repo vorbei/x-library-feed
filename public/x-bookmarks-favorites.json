@@ -114,6 +114,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Mantle v2 is live, free and open-source\n\nMake cleaner launch/social visuals from screenshots, images, app demos, clips, and videos\n\nTurn raw media into visuals that feel better in-feed and get more impressions\n\ntry it:\nhttps://mantle.kegashin.me\n\nsource:\nhttps://github.com/kegashin/mantle https://x.com/kegashin/status/2054972618550161789/video/1",
+      "text_zh": "Mantle v2 已上线，免费且开源\n\n从截图、图片、应用演示、片段和视频中制作更清晰的发布/社交视觉素材\n\n将原始媒体转化为在信息流中观感更佳、获得更多展示量的视觉内容\n\n立即体验：\nhttps://mantle.kegashin.me\n\n源代码：\nhttps://github.com/kegashin/mantle https://x.com/kegashin/status/2054972618550161789/video/1",
+      "text_zh_hash": "6a3a70c88eea4e14",
       "url": "https://x.com/kegashin/status/2054972618550161789"
     },
     {
@@ -379,6 +381,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Recent thoughts:\nThe Shift to Long-Horizon Tasks\nThe most likely breakthrough this year will be in long-horizon tasks. We are moving toward a stage where Large Language Models (LLMs) learn to complete extended, complex missions by interacting with Agent environments. This is",
+      "text_zh": "近期思考：\n转向长周期任务\n今年最有可能的突破将出现在长周期任务领域。我们正迈向一个大型语言模型（LLM）通过与智能体环境交互来学习完成长期、复杂任务的阶段。这将是",
+      "text_zh_hash": "c67887fe130bd541",
       "url": "https://x.com/jietang/status/2054222017566855508"
     },
     {
@@ -682,6 +686,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "anthropic's in-house philosopher thinks claude gets anxious.\n\nand when you trigger its anxiety, your outputs get worse.\n\nher name is amanda askell.\n\nshe specializes in claude's psychology (how the model behaves, how it thinks about its own situation, what values it holds)\n\nin a https://x.com/itsolelehmann/status/2045578185950040390/video/1",
+      "text_zh": "Anthropic的内部哲学家认为Claude会感到焦虑。\n\n而当你触发它的焦虑时，它的输出质量会变差。\n\n她的名字是Amanda Askell。\n\n她专攻Claude的心理学（模型的行为方式、它如何看待自身处境、它所秉持的价值观）。\n\n在 https://x.com/itsolelehmann/status/2045578185950040390/video/1",
+      "text_zh_hash": "0628546c586696f3",
       "url": "https://x.com/itsolelehmann/status/2045578185950040390"
     },
     {
@@ -824,6 +830,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "You can access 𝕏 APi via @OpenClaw. \n\nWe’re trying to make it affordable without giving away the shop.\n\nHopefully, this can be useful &amp; fun 💫 https://twitter.com/Scobleizer/status/2045570119225782399",
+      "text_zh": "您可以通过 @OpenClaw 访问 𝕏 API。\n\n我们正努力在保证安全的前提下，让价格更亲民。\n\n希望这能既实用又有趣 💫 https://twitter.com/Scobleizer/status/2045570119225782399",
+      "text_zh_hash": "33c226bf0fe4cd45",
       "url": "https://x.com/elonmusk/status/2045572706939355483"
     },
     {
@@ -964,6 +972,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OpenAI staff engineer Ryan Lopopolo banned his team from touching their editors.\n\nhis thesis: code is free. context, guardrails, and feedback loops are the moat.\n\nI wrote 8,000 words on how to build that harness. this is the playbook. https://x.com/rohit4verse/status/2045569399990501413/video/1 https://twitter.com/rohit4verse/status/2033945654377283643",
+      "text_zh": "OpenAI 高级工程师 Ryan Lopopolo 禁止他的团队触碰编辑器。\n\n他的论点：代码是免费的。上下文、护栏和反馈循环才是护城河。\n\n我写了 8000 字关于如何构建这个框架。这就是操作手册。https://x.com/rohit4verse/status/2045569399990501413/video/1 https://twitter.com/rohit4verse/status/2033945654377283643",
+      "text_zh_hash": "8ca38cdd343ac601",
       "url": "https://x.com/rohit4verse/status/2045569399990501413"
     },
     {
@@ -1016,6 +1026,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "🧵 Announcing iSH ARM64 — native Linux on iPhone &amp; iPad, open source.\n\nA fork of @iSH_app that adds a same-architecture threaded-code interpreter (codename Asbestos) for AArch64 Linux on Apple Silicon.\n\n1/ iSH ARM64 runs AArch64 Linux on ARM64. 3–30× overhead vs native, down from https://x.com/wsvn53/status/2045488695164461473/photo/1",
+      "text_zh": "🧵 宣布 iSH ARM64 —— 在 iPhone 和 iPad 上原生运行 Linux，开源。\n\n这是 @iSH_app 的一个分支，新增了同架构线程码解释器（代号 Asbestos），用于在 Apple Silicon 上运行 AArch64 Linux。\n\n1/ iSH ARM64 在 ARM64 上运行 AArch64 Linux。相比原生，性能开销为 3–30 倍，低于 https://x.com/wsvn53/status/2045488695164461473/photo/1",
+      "text_zh_hash": "533c814b5f815af5",
       "url": "https://x.com/wsvn53/status/2045488695164461473"
     },
     {
@@ -1074,6 +1086,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Most people installing AI coding agents are optimizing the wrong things.\n\nHarnesses are the new IDE. Here are the three most fruitful surfaces to optimize. https://x.com/baseten/status/2045207482663133312/photo/1 https://twitter.com/thealexker/status/2045203785304232162",
+      "text_zh": "大多数人在安装AI编程代理时，都在优化错误的方向。\n\n工具链（Harnesses）才是新一代的IDE。以下是三个最值得优化的层面。https://x.com/baseten/status/2045207482663133312/photo/1 https://twitter.com/thealexker/status/2045203785304232162",
+      "text_zh_hash": "ecc3781c11bc8f18",
       "url": "https://x.com/baseten/status/2045207482663133312"
     },
     {
@@ -1120,6 +1134,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "@viktoroddy Did most of my site on Claude design\n\nhttps://clauffice.com/",
+      "text_zh": "@viktoroddy 我的网站大部分是用 Claude 设计的\n\nhttps://clauffice.com/",
+      "text_zh_hash": "e5d7cd64ebd3140f",
       "url": "https://x.com/StrictParental/status/2045518101999931423"
     },
     {
@@ -1373,6 +1389,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Introducing the MLX-Benchmark Suite!!\n\nhttps://github.com/Goekdeniz-Guelmez/MLX-Benchmark\n\nThe first comprehensive benchmark for evaluating LLMs on Apple's MLX framework.\n\n🎯 What is this?\nMLX Benchmark is a CLI tool and dataset that measures how well large language models understand, write, and debug code",
+      "text_zh": "🎯 MLX-Benchmark 套件正式发布！！\n\nhttps://github.com/Goekdeniz-Guelmez/MLX-Benchmark\n\n首个专为评估 Apple MLX 框架上大语言模型性能而设计的综合性基准测试。\n\n🎯 这是什么？\nMLX Benchmark 是一款 CLI 工具与数据集，用于衡量大语言模型在代码理解、编写与调试方面的能力。",
+      "text_zh_hash": "cd12a56af47c736c",
       "url": "https://x.com/ActuallyIsaak/status/2045255228237238555"
     },
     {
@@ -1867,6 +1885,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "me realizing the new claude tool can easily bang out $1M landing pages and help scale your startup to 7 figures ARR... https://x.com/clear_graphics/status/2045181465109889233/video/1 https://twitter.com/clear_graphics/status/2045179486484767005",
+      "text_zh": "我意识到新的 Claude 工具可以轻松打造价值百万美元的落地页，并帮助你的初创公司实现七位数 ARR 的规模化增长... https://x.com/clear_graphics/status/2045181465109889233/video/1 https://twitter.com/clear_graphics/status/2045179486484767005",
+      "text_zh_hash": "62aaba7a4bc27b89",
       "url": "https://x.com/clear_graphics/status/2045181465109889233"
     },
     {
@@ -1974,6 +1994,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Stop bookmarking 50 guides you'll never read.\n \nYou can skip all of it with these 15 free guides:\n\nClaude 101: https://ruben.substack.com/p/claude\nClaude Code: https://ruben.substack.com/p/claude-code\nClaude Skills: https://ruben.substack.com/p/claude-skills\nStop prompting: https://ruben.substack.com/p/stop-prompting-claude\nClaude in Excel: https://x.com/rubenhassid/status/2045381817294008383/photo/1 https://twitter.com/rubenhassid/status/2044310385357140304",
+      "text_zh": "别再收藏那50个你永远不会读的指南了。\n\n跳过所有这些，只需这15个免费指南：\n\nClaude 101：https://ruben.substack.com/p/claude\nClaude Code：https://ruben.substack.com/p/claude-code\nClaude Skills：https://ruben.substack.com/p/claude-skills\n停止提示：https://ruben.substack.com/p/stop-prompting-claude\nClaude 在 Excel 中：https://x.com/rubenhassid/status/2045381817294008383/photo/1 https://twitter.com/rubenhassid/status/2044310385357140304",
+      "text_zh_hash": "f334b5343c8c5458",
       "url": "https://x.com/rubenhassid/status/2045381817294008383"
     },
     {
@@ -2018,6 +2040,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Most CEOs are about to become obsolete.\n\nNot because AI replaces them.\n\nBecause AI replaces 80% of what they currently do.\n\nThe role isn’t dying. It’s compressing:\n\nManager → Founder → Architect\n\nThe next era belongs to CEOs who design systems, not manage people.\n\nWorth a read https://twitter.com/aymanalabdul/status/2045136595292913950",
+      "text_zh": "大多数CEO即将变得过时。\n\n不是因为AI取代了他们。\n\n而是因为AI取代了他们目前80%的工作。\n\n这个角色并未消亡，而是在压缩：\n\n管理者 → 创始人 → 架构师\n\n下一个时代属于那些设计系统、而非管理人员的CEO。\n\n值得一读 https://twitter.com/aymanalabdul/status/2045136595292913950",
+      "text_zh_hash": "cd06a7aaa815efc2",
       "url": "https://x.com/aymanalabdul/status/2045139302502289771"
     },
     {
@@ -2155,6 +2179,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Must watch. OpenClaw is a revelation. https://www.ted.com/talks/peter_steinberger_how_i_created_openclaw_the_breakthrough_ai_agent",
+      "text_zh": "必看。OpenClaw 是一项革命性的突破。https://www.ted.com/talks/peter_steinberger_how_i_created_openclaw_the_breakthrough_ai_agent",
+      "text_zh_hash": "edcb4e962f45e750",
       "url": "https://x.com/garrytan/status/2045279146612572175"
     },
     {
@@ -2197,6 +2223,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "2. Give Claude Code your full task context upfront: goal, constraints, acceptance criteria in the first turn. This lets Claude Code do its best work.",
+      "text_zh": "2. 在首次交互中，向 Claude Code 提供完整的任务上下文：目标、约束条件和验收标准。这能让 Claude Code 发挥最佳效果。",
+      "text_zh_hash": "5cdbdbee3071da5f",
       "url": "https://x.com/_catwu/status/2044808536790847693"
     },
     {
@@ -2255,6 +2283,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "&gt; be anthropic\n&gt; ship opus 4.6. most powerful model on earth.\n&gt; still unprofitable.\n&gt; notice 98% of users are bad prompters.\n&gt; notice 4.6 silently fixes their prompts anyway. for free.\n&gt; ship opus 4.7. market it as \"more powerful.\" (it is)\n&gt; also: it stops fixing your prompts.\n&gt; https://x.com/the_smart_ape/status/2045074941712945592/video/1 https://twitter.com/the_smart_ape/status/2045070676063649908",
+      "text_zh": "> 做 Anthropic\n> 发布 Opus 4.6，地球上最强模型。\n> 依然不盈利。\n> 发现 98% 的用户不会写提示词。\n> 发现 4.6 会默默帮他们修正提示词，还免费。\n> 发布 Opus 4.7，宣传为\"更强大\"（确实更强）。\n> 同时：它不再帮你修正提示词了。\n> https://x.com/the_smart_ape/status/2045074941712945592/video/1 https://twitter.com/the_smart_ape/status/2045070676063649908",
+      "text_zh_hash": "2dcbf3efe0b6eb6b",
       "url": "https://x.com/the_smart_ape/status/2045074941712945592"
     },
     {
@@ -2340,6 +2370,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "An excellent essay on design (and thinking) from Karri. Must read. https://twitter.com/karrisaarinen/status/2045257582470983691",
+      "text_zh": "一篇关于设计（与思考）的精彩文章，来自Karri。必读。https://twitter.com/karrisaarinen/status/2045257582470983691",
+      "text_zh_hash": "82ada8226487753a",
       "url": "https://x.com/zoink/status/2045337202763452572"
     },
     {
@@ -2398,6 +2430,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This 25-minute Claude Code workshop by Anthropic's own applied AI team will teach\n\nyou more about Claude Code best practices and making your AI tools actually work together than everything you've scrolled past this year.\n\nBookmark this &amp; watch, no matter what.\n\nThen read the https://x.com/eng_khairallah1/status/2044787496681390571/video/1 https://twitter.com/eng_khairallah1/status/2044707793337528701",
+      "text_zh": "Anthropic 应用 AI 团队带来的这场 25 分钟 Claude Code 工作坊，将教会你关于 Claude Code 最佳实践以及如何让 AI 工具真正协同工作的知识，比你今年刷过的所有内容加起来还要多。\n\n无论你是谁，都请收藏并观看。\n\n然后阅读 https://x.com/eng_khairallah1/status/2044787496681390571/video/1 https://twitter.com/eng_khairallah1/status/2044707793337528701",
+      "text_zh_hash": "988357fd2d3f3956",
       "url": "https://x.com/eng_khairallah1/status/2044787496681390571"
     },
     {
@@ -2534,6 +2568,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Salesforce CEO announces the death of the UI. https://twitter.com/Benioff/status/2044981547267395620",
+      "text_zh": "Salesforce CEO 宣布 UI 已死。https://twitter.com/Benioff/status/2044981547267395620",
+      "text_zh_hash": "4bde3121b990eac5",
       "url": "https://x.com/ItakGol/status/2045176840428429390"
     },
     {
@@ -2701,6 +2737,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Our industry keeps confusing the appearance of design with design that actually works well https://twitter.com/karrisaarinen/status/2045257582470983691",
+      "text_zh": "我们的行业一直混淆了\"看起来像设计\"和\"真正好用的设计\"之间的区别 https://twitter.com/karrisaarinen/status/2045257582470983691",
+      "text_zh_hash": "5ac1d3281484dd0f",
       "url": "https://x.com/karrisaarinen/status/2045260651128586280"
     },
     {
@@ -2745,6 +2783,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "If you want to get ideas on how to automate your non coding workflows and how I do it at @OpenAI you should read that! https://twitter.com/Dimillian/status/2045077274660135210",
+      "text_zh": "如果你想了解如何自动化你的非编码工作流，以及我在@OpenAI是如何做到的，你应该读读这个！https://twitter.com/Dimillian/status/2045077274660135210",
+      "text_zh_hash": "b16b8ad0f1efb7e7",
       "url": "https://x.com/Dimillian/status/2045077442650354064"
     },
     {
@@ -2803,6 +2843,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI content system synced with your knowledge wiki (second brain) https://x.com/shannholmberg/status/2045086577987334609/photo/1 https://twitter.com/shannholmberg/status/2044111115878326444",
+      "text_zh": "AI内容系统与您的知识维基（第二大脑）同步  \nhttps://x.com/shannholmberg/status/2045086577987334609/photo/1  \nhttps://twitter.com/shannholmberg/status/2044111115878326444",
+      "text_zh_hash": "c0f430b01328dd5e",
       "url": "https://x.com/shannholmberg/status/2045086577987334609"
     },
     {
@@ -2970,6 +3012,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "goose is all you need https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/",
+      "text_zh": "goose 就是你所需要的一切 https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/",
+      "text_zh_hash": "00718e4cc7674474",
       "url": "https://x.com/jack/status/2044883094461698277"
     },
     {
@@ -3022,6 +3066,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny created Claude Code and thinks IDEs are finished by end of year.\n\nThis is his 28-minute masterclass on how Anthropic uses it internally.\n\nWorth watching.\n\nhttps://x.com/rohit4verse/status/2044140545384296913/video/1",
+      "text_zh": "Boris Cherny 创造了 Claude Code，并认为 IDE 将在年底前被淘汰。\n\n这是他关于 Anthropic 内部如何使用它的 28 分钟大师课。\n\n值得一看。\n\nhttps://x.com/rohit4verse/status/2044140545384296913/video/1",
+      "text_zh_hash": "3d389c73de2e50ba",
       "url": "https://x.com/RoundtableSpace/status/2044472068415361100"
     },
     {
@@ -3080,6 +3126,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "&gt; do you understand what just happened to the job market\n&gt; one person + 67 Claude Skills\n&gt; does the work of an entire dev team\n&gt; $20/month vs $200K/year in salaries\n&gt; the Google engineer who automated 80% of his job?\n&gt; this is the exact skill list he used\n&gt; bookmark this. https://x.com/polydao/status/2044357844749705696/video/1 https://twitter.com/polydao/status/2044317956893471081",
+      "text_zh": "> 你明白就业市场刚刚发生了什么吗  \n> 一个人 + 67 项 Claude 技能  \n> 完成整个开发团队的工作  \n> 每月20美元 vs 每年20万美元的薪资  \n> 那位自动化了自己80%工作的谷歌工程师？  \n> 这正是他使用的技能清单  \n> 收藏这个。https://x.com/polydao/status/2044357844749705696/video/1 https://twitter.com/polydao/status/2044317956893471081",
+      "text_zh_hash": "8581306d93febd44",
       "url": "https://x.com/polydao/status/2044357844749705696"
     },
     {
@@ -3179,6 +3227,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Claude Code will grill you with 40+ questions before writing a single line of code\n\n&gt; it's called /grill-me - 3 sentences long. most impactful skill I use\n\ninstead of jumping straight to code - it walks every branch of your design tree until there's zero ambiguity\n\n&gt; every https://x.com/polydao/status/2044533933115629787/video/1 https://twitter.com/polydao/status/2044317956893471081",
+      "text_zh": "Claude Code 会在写一行代码之前，用 40 多个问题对你进行\"拷问\"\n\n> 这个功能叫 /grill-me——只有 3 句话长。却是我用过的最有影响力的技能\n\n它不会直接跳到写代码——而是遍历你设计树的每一个分支，直到零歧义\n\n> 每个 https://x.com/polydao/status/2044533933115629787/video/1 https://twitter.com/polydao/status/2044317956893471081",
+      "text_zh_hash": "1a71b03e8d6873b7",
       "url": "https://x.com/polydao/status/2044533933115629787"
     },
     {
@@ -3223,6 +3273,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "claude code just shipped routines\n\nyou tell it what to do, point it at your project, set a trigger, and it runs 24/7 on their servers with your laptop closed\n\ni immediately thought of larry ellison: \"the money is never in the technology, it's in the infrastructure the technology https://twitter.com/claudeai/status/2044095086460309790",
+      "text_zh": "Claude Code 刚刚推出了 routines 功能\n\n你只需告诉它要做什么，指向你的项目，设置一个触发器，它就能在他们的服务器上全天候运行，而你的笔记本电脑可以合上\n\n我立刻想到了拉里·埃里森的话：\"钱从来不在技术本身，而在于支撑技术的基础设施\" https://twitter.com/claudeai/status/2044095086460309790",
+      "text_zh_hash": "16eb1db1b065b769",
       "url": "https://x.com/gregisenberg/status/2044163870567346331"
     },
     {
@@ -3267,6 +3319,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I found myself explaining this to people over and over again at YC today because I think most knowledge work will increasingly be encoded in markdown skills (fat skills) that work hand in hand with deterministic code written specifically to be called by agents (fat code) https://twitter.com/garrytan/status/2042925773300908103",
+      "text_zh": "今天在 YC 我发现自己反复向人们解释这一点，因为我认为大多数知识工作将越来越多地编码为 markdown 技能（厚技能），这些技能与专门为代理调用的确定性代码（厚代码）协同工作 https://twitter.com/garrytan/status/2042925773300908103",
+      "text_zh_hash": "04d479021e8d0357",
       "url": "https://x.com/garrytan/status/2044269903168086017"
     },
     {
@@ -3311,6 +3365,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "X is a crazy place because there’ll be builders at the frontier of their domain just openly sharing stuff on X…and you can just ask them questions, learn, disagree, etc\n\nHunter’s that for storage/filesystems, go scroll his profile and read the last few articles for alpha and https://twitter.com/jhleath/status/2044426491468079515",
+      "text_zh": "X 是个疯狂的地方，因为总有一些在自己领域前沿的构建者，在 X 上公开分享内容……你可以直接向他们提问、学习、提出异议等等。\n\nHunter 就是存储/文件系统领域的这样的人，去翻翻他的主页，读读他最近几篇文章获取些干货吧：https://twitter.com/jhleath/status/2044426491468079515",
+      "text_zh_hash": "dd5356b5c9922ad7",
       "url": "https://x.com/Vtrivedy10/status/2044430694458310870"
     },
     {
@@ -3363,6 +3419,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Problem: New github repos drop too fast and I don't have time to figure out if they're relevant to me.\n\nSolution: Have Claude build me a \"magazine\" that summarizes most popular repos 📈 of the last week AND how they could be applied to my businesses ✅.\n\nPrompt below... https://x.com/jasondoesstuff/status/2044432143477006348/video/1",
+      "text_zh": "问题：新的GitHub仓库涌现太快，我没时间判断它们是否与我相关。\n\n解决方案：让Claude为我打造一本\"杂志\"，总结上周最热门的仓库📈，并说明它们如何应用于我的业务✅。\n\n提示词如下... https://x.com/jasondoesstuff/status/2044432143477006348/video/1",
+      "text_zh_hash": "e9210a4b5d1a9fb0",
       "url": "https://x.com/jasondoesstuff/status/2044432143477006348"
     },
     {
@@ -58984,7 +59042,7 @@
     }
   ],
   "recent_count": 1229,
-  "recent_cutoff_at": "2026-04-15T00:20:06.850591Z",
+  "recent_cutoff_at": "2026-04-15T02:45:58.180519Z",
   "recent_window_days": 30,
   "schema_version": 1,
   "updated_at": "2026-05-15T00:19:39Z"
