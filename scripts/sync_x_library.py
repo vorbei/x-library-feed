@@ -600,6 +600,18 @@ def fetch_link_content(url: str) -> dict[str, Any]:
     if result["kind"] == "page":
         # Page cards don't need the text dump.
         result["text_excerpt"] = ""
+    # Per-site cleanup: strip nav prefix, accessibility skip links, footer
+    # rails, etc. Idempotent — also safe to call on already-cleaned text.
+    try:
+        from clean_article import clean_article_text, CLEANER_VERSION  # noqa: E402
+        if result.get("text_excerpt"):
+            cleaned = clean_article_text(result["text_excerpt"], url)
+            if cleaned:
+                result["text_excerpt"] = cleaned
+                result["cleaner_v"] = CLEANER_VERSION
+    except Exception:
+        # Cleaning is best-effort; never fail the fetch over it.
+        pass
     return result
 
 
@@ -1197,6 +1209,12 @@ def update_linked_content(
     # entries. Cached entries that predate the classifier get their kind
     # computed in-place; `frameable` defaults to None (viewer treats that as
     # "render a preview card" to be safe).
+    try:
+        from clean_article import clean_article_text, CLEANER_VERSION
+    except Exception:
+        clean_article_text = None
+        CLEANER_VERSION = 0
+    backfilled_clean = 0
     for u, entry in content.items():
         if not isinstance(entry, dict):
             continue
@@ -1211,6 +1229,24 @@ def update_linked_content(
             entry["text_excerpt"] = ""
             entry["text_excerpt_zh"] = ""
             entry.pop("text_excerpt_zh_hash", None)
+            continue
+        # Per-site cleanup backfill on the cached body. Run once per
+        # CLEANER_VERSION bump so we never re-clean unchanged text.
+        if clean_article_text and entry.get("cleaner_v") != CLEANER_VERSION:
+            text = entry.get("text_excerpt") or ""
+            if text.strip():
+                new_text = clean_article_text(text, u)
+                if new_text and new_text != text:
+                    entry["text_excerpt"] = new_text
+                    entry["text_excerpt_zh"] = ""
+                    entry.pop("text_excerpt_zh_hash", None)
+                    backfilled_clean += 1
+            entry["cleaner_v"] = CLEANER_VERSION
+    if backfilled_clean:
+        print(
+            f"::notice::clean_article: {backfilled_clean} linked-content entries re-cleaned",
+            file=sys.stderr,
+        )
 
     # Second pass: store URL lists per item (the viewer / markdown renderers
     # look up the full entry from `linked_content_by_url`). This drops ~2.7 MB

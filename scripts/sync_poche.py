@@ -266,13 +266,16 @@ def enrich_with_content(
     # Lazy import — only need fetch_link_content when we actually run.
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from sync_x_library import fetch_link_content, should_fetch_link  # noqa: E402
+    from clean_article import clean_article_text, CLEANER_VERSION  # noqa: E402
 
     linked = cache.get("linked_content_by_url") or {}
     refs = cache.get("referenced_articles_by_id") or {}
     fetched = 0
     reused = 0
     cleared_garbage = 0
+    backfilled = 0
     for it in items:
+        url = (it.get("url") or "").strip()
         # Detect and clear garbage scrapes that slipped through earlier runs
         # (X.com SPA shell, github nav menus, etc.) before we look at the
         # body — leaving them in place defeats the whole point.
@@ -281,7 +284,21 @@ def enrich_with_content(
             it["article_text"] = ""
             it["article_text_zh"] = ""
             it.pop("article_text_zh_hash", None)
+            existing = ""
             cleared_garbage += 1
+        # Backfill: run the per-site cleaner over any existing body whose
+        # cleaner_v predates this build. Clean-on-clean is a no-op so this
+        # stays safe across reruns.
+        if existing and it.get("cleaner_v") != CLEANER_VERSION:
+            new_text = clean_article_text(existing, url)
+            if new_text != existing:
+                it["article_text"] = new_text
+                # Source text changed — invalidate the translation so the
+                # next translate cron re-runs with the cleaned body.
+                it["article_text_zh"] = ""
+                it.pop("article_text_zh_hash", None)
+                backfilled += 1
+            it["cleaner_v"] = CLEANER_VERSION
         if (it.get("article_text") or "").strip():
             continue  # already populated from a previous run
         url = (it.get("url") or "").strip()
@@ -336,10 +353,13 @@ def enrich_with_content(
             continue
         fetched += 1
         body = (res.get("text_excerpt") or "").strip()
+        if body:
+            body = clean_article_text(body, url)
         if body and is_garbage_scrape(body):
             body = ""
         if body:
             it["article_text"] = body
+            it["cleaner_v"] = CLEANER_VERSION
         if res.get("title"):
             it["article_title_extracted"] = res["title"]
         if res.get("image_urls"):
@@ -350,7 +370,8 @@ def enrich_with_content(
             it["article_fetch_error"] = res["fetch_error"]
     print(
         f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache, "
-        f"{cleared_garbage} prior garbage scrapes cleared",
+        f"{cleared_garbage} prior garbage scrapes cleared, "
+        f"{backfilled} bodies re-cleaned by per-site rules",
         file=sys.stderr,
     )
     return fetched
