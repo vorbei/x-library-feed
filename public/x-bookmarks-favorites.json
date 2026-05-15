@@ -50786,6 +50786,8 @@
         "favorite@chumsdock"
       ],
       "text": "https://www.dina.so/ 3.0.1 is live.\n\nAI voice overs are now built into the editor. Generate AI narration instantly, fully editable in your timeline.\n\nThis took a lot of work to get right.\n\nTry it free → https://www.dina.so/\nVisit changelog → https://www.dina.so/changelog https://x.com/Zaidbren/status/2027819626445607214/video/1",
+      "text_zh": "https://www.dina.so/ 3.0.1 已上线。\n\nAI 配音现已集成至编辑器。即时生成 AI 旁白，并可在时间线中完全编辑。\n\n实现这一功能耗费了大量心血。\n\n免费试用 → https://www.dina.so/\n查看更新日志 → https://www.dina.so/changelog https://x.com/Zaidbren/status/2027819626445607214/video/1",
+      "text_zh_hash": "c4bc83d420a1ec13",
       "url": "https://x.com/Zaidbren/status/2027819626445607214"
     },
     {
@@ -50828,6 +50830,8 @@
         "bookmark@chumsdock"
       ],
       "text": "the harness matters\n\nmodels are great but the harness shapes them to be good (and cost efficient) for work we care about https://twitter.com/rasbt/status/2038980345316413862",
+      "text_zh": "模型固然重要，但真正让它们变得好用（且成本高效）的，是围绕它们构建的框架——这决定了它们能否胜任我们关心的实际工作。https://twitter.com/rasbt/status/2038980345316413862",
+      "text_zh_hash": "1020c0ac31cb5dd8",
       "url": "https://x.com/Vtrivedy10/status/2038993396463796638"
     },
     {
@@ -50878,6 +50882,8 @@
         "favorite@chumsdock"
       ],
       "text": "Whole UI Design made with @paper for @futurepost https://x.com/allodev/status/2027745138928144836/photo/1",
+      "text_zh": "使用 @paper 为 @futurepost 制作的完整 UI 设计 https://x.com/allodev/status/2027745138928144836/photo/1",
+      "text_zh_hash": "8408a7775cadb101",
       "url": "https://x.com/allodev/status/2027745138928144836"
     },
     {
@@ -50975,6 +50981,8 @@
         "favorite@chumsdock"
       ],
       "text": "I built a step counter app from scratch.\n\nYour steps update in real-time from Apple Health. A progress ring fills up as you walk. An hourly chart shows when you're most active.\n\nNo manual logging. Just put your phone in your pocket and walk.\n\nhttps://getsteps.app/ https://x.com/hieudinh_/status/2027429599798563144/video/1",
+      "text_zh": "我从零开始构建了一个计步器应用。\n\n你的步数会从 Apple Health 实时更新。随着你行走，进度环会逐渐填满。每小时图表会显示你何时最活跃。\n\n无需手动记录。只需把手机放进口袋，走起来就行。\n\nhttps://getsteps.app/ https://x.com/hieudinh_/status/2027429599798563144/video/1",
+      "text_zh_hash": "42de029443eb99e3",
       "url": "https://x.com/hieudinh_/status/2027429599798563144"
     },
     {
@@ -51075,6 +51083,8 @@
         "favorite@chumsdock"
       ],
       "text": "only lags while recording but this has been dope, simulating the sun in diff atmospheres with shaders https://x.com/jadroy2/status/2027120444143485091/video/1",
+      "text_zh": "仅在录制时会有延迟，但这效果太棒了，用着色器在不同大气中模拟太阳。https://x.com/jadroy2/status/2027120444143485091/video/1",
+      "text_zh_hash": "314acd4768e281b5",
       "url": "https://x.com/jadroy2/status/2027120444143485091"
     },
     {
@@ -51127,6 +51137,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Claude +  Nano Banana \nClaude has started to get really damn good at design.\n\nPrompt below ↓ https://x.com/AshikArtistry/status/2039061966669648093/photo/1",
+      "text_zh": "Claude + Nano Banana  \nClaude 的设计能力已经变得相当出色了。\n\n提示词如下 ↓ https://x.com/AshikArtistry/status/2039061966669648093/photo/1",
+      "text_zh_hash": "4b9e5e78d95f2da1",
       "url": "https://x.com/AshikArtistry/status/2039061966669648093"
     },
     {
@@ -51166,6 +51178,8 @@
         "favorite@chumsdock"
       ],
       "text": "I do a lot with code and agents, but I can’t design anything meaningful without a serious design tool\n\nI’ve always wanted a two-way workflow where design and code keep talking to each other, so here we are\n\njust wrote about it as we’re building @paper \nhttps://paper.design/blog/a-real-space-to-design-in-the-age-of-agents",
+      "text_zh": "我经常与代码和智能体打交道，但如果没有一个像样的设计工具，我根本无法做出有意义的设计。\n\n我一直渴望一种双向工作流，让设计与代码持续对话，于是我们便有了现在的成果。\n\n我刚刚写了一篇文章，介绍我们正在打造的 @paper 项目：\nhttps://paper.design/blog/a-real-space-to-design-in-the-age-of-agents",
+      "text_zh_hash": "269e3d085d8c2f6c",
       "url": "https://x.com/agusegui/status/2027438947329036618"
     },
     {
@@ -51268,6 +51282,8 @@
         "favorite@chumsdock"
       ],
       "text": "I don't think people understand how good @paper mcp is. I just had to double tweet because this thing is in a league of its own.\nIt took 3 mins to bring these components that are not even well organized into the canvas. They match exactly as code, not just visually, but https://x.com/this_is_moody/status/2027519205487350205/photo/1",
+      "text_zh": "我觉得大家还没真正体会到 @paper mcp 有多厉害。我不得不连发两条推文，因为这玩意儿完全是独一档的存在。\n只花了3分钟，就把这些甚至都没好好整理的组件拖进了画布。它们和代码完全匹配，不只是视觉上，还有 https://x.com/this_is_moody/status/2027519205487350205/photo/1",
+      "text_zh_hash": "4062f1c4f63e5978",
       "url": "https://x.com/this_is_moody/status/2027519205487350205"
     },
     {
@@ -51530,6 +51546,8 @@
         "favorite@chumsdock"
       ],
       "text": "Inspired by Remotion's Agent Skills, I've gone and done the same for @rive_app - generate a .riv file from Claude Code, Codex or Cursor and immediately apply it in your project, no need to go to the editor https://x.com/stevy_smith/status/2015564987394081172/video/1",
+      "text_zh": "受 Remotion 的 Agent Skills 启发，我也为 @rive_app 实现了同样的功能——通过 Claude Code、Codex 或 Cursor 生成 .riv 文件，并立即应用到你的项目中，无需再打开编辑器。https://x.com/stevy_smith/status/2015564987394081172/video/1",
+      "text_zh_hash": "0b7075eabf839b43",
       "url": "https://x.com/stevy_smith/status/2015564987394081172"
     },
     {
@@ -51622,6 +51640,8 @@
         "favorite@chumsdock"
       ],
       "text": "New release of Rodney, my CLI tool for browser automation (designed for use by coding agents and with Showboat) - contributions from five people! https://simonwillison.net/2026/Feb/17/rodney/ https://x.com/simonw/status/2023896441085948069/photo/1",
+      "text_zh": "Rodney 新版本发布，这是我用于浏览器自动化的 CLI 工具（专为编码代理设计，可与 Showboat 配合使用）—— 已有五人贡献代码！https://simonwillison.net/2026/Feb/17/rodney/ https://x.com/simonw/status/2023896441085948069/photo/1",
+      "text_zh_hash": "007f331fbba3eb50",
       "url": "https://x.com/simonw/status/2023896441085948069"
     },
     {
@@ -51770,6 +51790,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing Design System Agents.\n\nTurn your repos, npm packages and docs into an agent that builds prototypes engineering can actually ship.\n\nThe Prototype is t̶h̶r̶o̶w̶n̶ ̶a̶w̶a̶y̶ the Product. https://x.com/boltdotnew/status/2039024467846860972/video/1",
+      "text_zh": "推出设计系统代理。\n\n将你的代码仓库、npm 包和文档转化为一个能构建出工程团队可实际交付原型的代理。\n\n原型即产品，而非被丢弃的产物。https://x.com/boltdotnew/status/2039024467846860972/video/1",
+      "text_zh_hash": "d6c82feda98a105f",
       "url": "https://x.com/boltdotnew/status/2039024467846860972"
     },
     {
@@ -51902,6 +51924,8 @@
         "favorite@chumsdock"
       ],
       "text": "https://poche.app/explore https://x.com/disinfeqt/status/2021276227550519489/photo/1",
+      "text_zh": "https://poche.app/explore https://x.com/disinfeqt/status/2021276227550519489/photo/1",
+      "text_zh_hash": "faecc6e938e0a674",
       "url": "https://x.com/disinfeqt/status/2021276227550519489"
     },
     {
@@ -51944,6 +51968,8 @@
         "bookmark@chumsdock"
       ],
       "text": "New compound engineering release! https://twitter.com/trevin/status/2038893322333507781",
+      "text_zh": "新的复合工程版本发布！https://twitter.com/trevin/status/2038893322333507781",
+      "text_zh_hash": "710e063289327ebc",
       "url": "https://x.com/danshipper/status/2038952867030036572"
     },
     {
@@ -51988,6 +52014,8 @@
         "favorite@chumsdock"
       ],
       "text": "@jenny_wen @claudeai @leesimin Awesome to see this. I’m working on an open source collection of similar tool-based UIs. Hope to see these proliferate across more chat UIs.\n\nhttps://www.tool-ui.com/",
+      "text_zh": "@jenny_wen @claudeai @leesimin 太棒了。我正在开发一个类似工具型用户界面的开源合集。希望这些界面能在更多聊天UI中普及。\n\nhttps://www.tool-ui.com/",
+      "text_zh_hash": "610ced0f1cf7dc4f",
       "url": "https://x.com/petekp/status/2021256955671486964"
     },
     {
@@ -52087,6 +52115,8 @@
         "favorite@chumsdock"
       ],
       "text": "We grew up on Kid Pix and MS Paint, and wanted to instill Style Dropper with that same sense of magic\n\n(And yes, it really does look that cool in Variant) https://x.com/bnj/status/2021330959942156333/video/1",
+      "text_zh": "我们是在 Kid Pix 和 MS Paint 的陪伴下长大的，想把那种神奇的感觉注入 Style Dropper\n\n（没错，在 Variant 里它看起来就是这么酷）https://x.com/bnj/status/2021330959942156333/video/1",
+      "text_zh_hash": "580e3ba1b5e287ad",
       "url": "https://x.com/bnj/status/2021330959942156333"
     },
     {
@@ -52333,6 +52363,8 @@
         "bookmark@chumsdock"
       ],
       "text": "agents need agent management (UI). \nfew different approaches we've built/tried: https://lukew.com/ff/entry.asp?2106 https://x.com/LukeW/status/2039019990113005847/photo/1",
+      "text_zh": "代理需要代理管理（UI）。  \n我们构建/尝试过的几种不同方法：  \nhttps://lukew.com/ff/entry.asp?2106  \nhttps://x.com/LukeW/status/2039019990113005847/photo/1",
+      "text_zh_hash": "65760bbce813be3e",
       "url": "https://x.com/LukeW/status/2039019990113005847"
     },
     {
@@ -52383,6 +52415,8 @@
         "favorite@chumsdock"
       ],
       "text": "this is what they called AI slop\n\neverything you see, hear here is generated with kling AI 3.0.. its over https://x.com/EHuanglu/status/2019137679083106458/video/1",
+      "text_zh": "这就是他们所谓的AI垃圾内容。\n\n你在这里看到、听到的一切，都是用Kling AI 3.0生成的。它已经结束了。https://x.com/EHuanglu/status/2019137679083106458/video/1",
+      "text_zh_hash": "de48e535a418ffba",
       "url": "https://x.com/EHuanglu/status/2019137679083106458"
     },
     {
@@ -52561,6 +52595,8 @@
         "favorite@chumsdock"
       ],
       "text": "New look. Same notepad. https://x.com/meetgranola/status/2018297996619010233/video/1",
+      "text_zh": "新外观。同样的记事本。https://x.com/meetgranola/status/2018297996619010233/video/1",
+      "text_zh_hash": "2b29feb1f05d4ec4",
       "url": "https://x.com/meetgranola/status/2018297996619010233"
     },
     {
@@ -52842,6 +52878,8 @@
         "favorite@chumsdock"
       ],
       "text": "scifi                                       reality https://x.com/djcows/status/2017371153887543737/photo/1",
+      "text_zh": "科幻                                      现实 https://x.com/djcows/status/2017371153887543737/photo/1",
+      "text_zh_hash": "98bc1a6568d2b717",
       "url": "https://x.com/djcows/status/2017371153887543737"
     },
     {
@@ -52938,6 +52976,8 @@
         "favorite@chumsdock"
       ],
       "text": "New skill: Transparent videos!\n\nCreate a call-to-action overlay for your next video with just one prompt! https://x.com/Remotion/status/2017286966593642570/video/1",
+      "text_zh": "新技能：透明视频！\n\n只需一个提示，就能为你的下一个视频创建行动号召叠加层！https://x.com/Remotion/status/2017286966593642570/video/1",
+      "text_zh_hash": "e15ccf8608f2375d",
       "url": "https://x.com/Remotion/status/2017286966593642570"
     },
     {
@@ -53021,6 +53061,8 @@
         "favorite@chumsdock"
       ],
       "text": "Videos generated with @Kling_ai 2.5 Keyframes and Nano Banana Pro via @hedra_labs Elements.\n\nPrompt:\n\nUse the uploaded image(s) as the reference for the character, clothing, lighting and environment.\n\nSubject Reference: [SUBJECT DESCRIPTION] (e.g., A male model)\nOutfit: [OUTFIT",
+      "text_zh": "使用 @Kling_ai 2.5 关键帧和 @hedra_labs Elements 的 Nano Banana Pro 生成的视频。\n\n提示词：\n\n以上传的图像作为角色、服装、光照和环境的参考。\n\n主体参考：[主体描述]（例如，一名男模特）\n服装：[服装描述]",
+      "text_zh_hash": "79e2de6eaf2a6859",
       "url": "https://x.com/HalimAlrasihi/status/2016584919133159460"
     },
     {
@@ -53157,6 +53199,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Two things:\n\n1. Highly recommend you check out DeepAgents from @LangChain \n\n2. Highly recommend you follow @sydneyrunkle -Sydney is consistently publishing awesome tidbits on how to use it. I am eagerly awaiting all these harness engineering posts.\n\nDisclaimer: No affiliation https://twitter.com/sydneyrunkle/status/2039040565749096607",
+      "text_zh": "两件事：\n\n1. 强烈推荐你关注 @LangChain 的 DeepAgents\n\n2. 强烈推荐你关注 @sydneyrunkle ——Sydney 持续发布关于如何使用它的精彩内容。我正热切期待这些 harness 工程相关的文章。\n\n免责声明：无关联关系 https://twitter.com/sydneyrunkle/status/2039040565749096607",
+      "text_zh_hash": "a956a5bb99cc95ab",
       "url": "https://x.com/mstockton/status/2039044514178867705"
     },
     {
@@ -53665,6 +53709,8 @@
         "favorite@chumsdock"
       ],
       "text": "Very excited to share that we’re moving to San Francisco and I’ve just joined the product team at Anthropic! https://x.com/RobertJBye/status/2016325127928205459/photo/1",
+      "text_zh": "非常激动地宣布，我们将搬到旧金山，而我刚刚加入了Anthropic的产品团队！https://x.com/RobertJBye/status/2016325127928205459/photo/1",
+      "text_zh_hash": "be7eb7dcf03a43c0",
       "url": "https://x.com/RobertJBye/status/2016325127928205459"
     },
     {
@@ -53924,6 +53970,8 @@
         "favorite@chumsdock"
       ],
       "text": "LTX-2 Audio-to-Video is now available via API.\n\nGenerate 1080p video up to 20 seconds directly from audio, with consistent voices, lip sync, and performance control.\n\nAccess the LTX-2 API: https://console.ltx.video/overview/?utm_source=x&utm_campaign=a2v&utm_id=a2v https://x.com/ltx_model/status/2016166995193167948/video/1",
+      "text_zh": "LTX-2 音频转视频现已通过 API 提供。\n\n直接从音频生成最长 20 秒的 1080p 视频，具备一致的声音、唇形同步和表演控制。\n\n访问 LTX-2 API：https://console.ltx.video/overview/?utm_source=x&utm_campaign=a2v&utm_id=a2v https://x.com/ltx_model/status/2016166995193167948/video/1",
+      "text_zh_hash": "8bf66d912f27abda",
       "url": "https://x.com/ltx_model/status/2016166995193167948"
     },
     {
@@ -54019,6 +54067,8 @@
         "favorite@chumsdock"
       ],
       "text": "Introducing Identity! 🏆\n\nA brand new template pack for animating and showcasing your brand. Perfect for: \n\n🧭 Design guidelines and handoff\n🎨 Visual identity exploration \n⚡️ Decks and marketing comms\n\nSwitch in your assets and bring your logos, colours, and typography to life https://x.com/LottielabHQ/status/2016177861879537963/video/1",
+      "text_zh": "隆重推出 Identity！🏆\n\n一款全新的动画模板包，助您生动展示品牌形象。适用于：\n\n🧭 设计规范与交接\n🎨 视觉识别探索\n⚡️ 演示文稿与营销传播\n\n替换您的素材，让标志、色彩和字体跃然眼前 https://x.com/LottielabHQ/status/2016177861879537963/video/1",
+      "text_zh_hash": "4517a217e7319ecb",
       "url": "https://x.com/LottielabHQ/status/2016177861879537963"
     },
     {
@@ -54109,6 +54159,8 @@
         "favorite@chumsdock"
       ],
       "text": "Breakdown of the Rebranding Launch Video we made for a YC Company https://x.com/debxdesign/status/2015765137500860573/video/1",
+      "text_zh": "我们为一家YC公司制作的品牌重塑发布视频的拆解 https://x.com/debxdesign/status/2015765137500860573/video/1",
+      "text_zh_hash": "509c25e233b04ce4",
       "url": "https://x.com/debxdesign/status/2015765137500860573"
     },
     {
@@ -54212,6 +54264,8 @@
         "favorite@chumsdock"
       ],
       "text": "Mole, the Mac cleaning tool that can free up tens of GBs in one go, just shipped an update. Huge thanks to the contributors who keep Mole moving. v1.23.2 is out. \n\nThis release focuses on safer, smarter cleaning: JetBrains Toolbox old IDE cleanup with whitelist-safe handling, https://x.com/HiTw93/status/2015924964856332412/photo/1",
+      "text_zh": "Mole，这款Mac清理工具能一次性释放数十GB空间，刚刚发布了更新。衷心感谢持续推动Mole发展的贡献者们。v1.23.2版本现已推出。\n\n本次更新聚焦更安全、更智能的清理功能：JetBrains Toolbox旧版IDE清理新增白名单安全处理机制。https://x.com/HiTw93/status/2015924964856332412/photo/1",
+      "text_zh_hash": "f08733a4ec08652c",
       "url": "https://x.com/HiTw93/status/2015924964856332412"
     },
     {
@@ -54314,6 +54368,8 @@
         "favorite@chumsdock"
       ],
       "text": "Meet Dave.\nDave is terrible at producing videos. \n\nOur new Video Agent fixes that.\n\n→ See the full blueprint before anything renders. \n→ Direct changes through conversation. \n→ Edit every element after.\n\nDave always had the message. \nNow he owns the production.\n\nVideo Agent https://x.com/HeyGen/status/2015832103888552108/video/1",
+      "text_zh": "认识一下戴夫。  \n戴夫做视频的水平糟糕透顶。  \n\n我们的全新视频智能体（Video Agent）解决了这个问题。  \n\n→ 在渲染前查看完整蓝图。  \n→ 通过对话直接修改。  \n→ 之后可编辑每个元素。  \n\n戴夫一直有内容要表达。  \n现在他掌握了制作权。  \n\n视频智能体 https://x.com/HeyGen/status/2015832103888552108/video/1",
+      "text_zh_hash": "0df0ed4e8c56c226",
       "url": "https://x.com/HeyGen/status/2015832103888552108"
     },
     {
@@ -54397,6 +54453,8 @@
         "favorite@chumsdock"
       ],
       "text": "Bookmark this:\nCollection of UI patterns and considerations for designing AI-first products\nhttps://www.shapeof.ai",
+      "text_zh": "将此页面加入书签：\n面向AI优先产品的UI模式与设计考量合集\nhttps://www.shapeof.ai",
+      "text_zh_hash": "2c9372b64def01fa",
       "url": "https://x.com/gaddafirusli/status/2015605615356420329"
     },
     {
@@ -54497,6 +54555,8 @@
         "favorite@chumsdock"
       ],
       "text": "inline action confirmation interaction ⎯⟡° https://x.com/nitishkmrk/status/2015729639675879668/video/1",
+      "text_zh": "内联操作确认交互 ⎯⟡° https://x.com/nitishkmrk/status/2015729639675879668/video/1",
+      "text_zh_hash": "5cb91354386f9271",
       "url": "https://x.com/nitishkmrk/status/2015729639675879668"
     },
     {
@@ -54639,6 +54699,8 @@
         "favorite@chumsdock"
       ],
       "text": "Cooked this one in 2 hours in React and Motion https://x.com/karaan_dev/status/2015468941934805466/video/1",
+      "text_zh": "在 React 和 Motion 中花了 2 小时搞定这个：https://x.com/karaan_dev/status/2015468941934805466/video/1",
+      "text_zh_hash": "ad44b3dd3fb1fd26",
       "url": "https://x.com/karankendre/status/2015468941934805466"
     },
     {
@@ -54731,6 +54793,8 @@
         "favorite@chumsdock"
       ],
       "text": "simple and clean grocery app - in motion ✨ https://x.com/mnowakdesign/status/2015092323336716396/video/1",
+      "text_zh": "简洁干净的杂货应用 - 动态效果 ✨ https://x.com/mnowakdesign/status/2015092323336716396/video/1",
+      "text_zh_hash": "21181b60ca05b4a3",
       "url": "https://x.com/mnowakdesign/status/2015092323336716396"
     },
     {
@@ -54781,6 +54845,8 @@
         "favorite@chumsdock"
       ],
       "text": "Yesterday I set up an AI agent on a mac mini in my garage. Told it \"handle my life\" and went to bed\nWoke up and it had:\n\n• Quit my job on my behalf (negotiated 18 months severance)\n• Divorced my wife (I got the house)\n• Filed 4 patents. I have not been briefed on what they do https://x.com/ImSh4yy/status/2015515058063733085/photo/1",
+      "text_zh": "昨天我在车库的Mac Mini上部署了一个AI智能体，告诉它“打理我的人生”就去睡觉了。  \n醒来发现它已经：  \n\n• 替我辞了职（谈妥了18个月遣散费）  \n• 替我离了婚（房子归我）  \n• 提交了4项专利申请。我还没被告知这些专利具体是什么内容。  \nhttps://x.com/ImSh4yy/status/2015515058063733085/photo/1",
+      "text_zh_hash": "85bceb7532ab3f8c",
       "url": "https://x.com/ImSh4yy/status/2015515058063733085"
     },
     {
@@ -54820,6 +54886,8 @@
         "favorite@chumsdock"
       ],
       "text": "If you don’t get it why people are obsessing over clawdbot and buying Mac minis, read this article:\n\nhttps://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/",
+      "text_zh": "如果你不明白为什么人们对Clawdbot如此着迷，甚至纷纷购买Mac mini，请阅读这篇文章：\n\nhttps://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/",
+      "text_zh_hash": "b8d7f4f76377f490",
       "url": "https://x.com/Legendaryy/status/2015059652547842308"
     },
     {
@@ -55129,6 +55197,8 @@
         "favorite@chumsdock"
       ],
       "text": "claude code with design agents is amazing. you can vibe design beautiful apps right where you code and move beyond stock UI\n\ngive every AI engineer an AI designer\n\nget Pencil - now available in GA on claude code, cursor, vscode, codex, and any IDE 👇 https://twitter.com/tomkrcha/status/2014028990810300498",
+      "text_zh": "Claude Code 配合设计智能体简直太棒了。你可以在编码的同时轻松设计出精美的应用，彻底摆脱千篇一律的界面。\n\n让每位 AI 工程师都拥有一位 AI 设计师\n\n立即获取 Pencil —— 现已全面上线，支持 Claude Code、Cursor、VSCode、Codex 及任意 IDE 👇 https://twitter.com/tomkrcha/status/2014028990810300498",
+      "text_zh_hash": "87963784f74fb8b5",
       "url": "https://x.com/Tocelot/status/2014033250700894486"
     },
     {
@@ -55181,6 +55251,8 @@
         "favorite@chumsdock"
       ],
       "text": "For all the Claude Code designers out there:\n\nWe built Agentation to help you iterate faster. *Annotate anything* and get precise feedback to give to Claude.\n\nGive the docs a read: https://www.agentation.com/ https://x.com/seldom/status/2014111177454788975/video/1",
+      "text_zh": "致所有 Claude Code 设计师：\n\n我们构建了 Agentation，助您更快迭代。*标注任何内容*，获取精准反馈，再交给 Claude。\n\n阅读文档：https://www.agentation.com/ https://x.com/seldom/status/2014111177454788975/video/1",
+      "text_zh_hash": "ff5066415b9f3b73",
       "url": "https://x.com/seldom/status/2014111177454788975"
     },
     {
@@ -55231,6 +55303,8 @@
         "favorite@chumsdock"
       ],
       "text": "Added a badge unlock sheet on level up 🏆 https://x.com/andrew_cfg/status/2013929851963490475/video/1",
+      "text_zh": "在升级时新增了徽章解锁表 🏆 https://x.com/andrew_cfg/status/2013929851963490475/video/1",
+      "text_zh_hash": "cf47a0ff526d984e",
       "url": "https://x.com/andrewtanchuk/status/2013929851963490475"
     },
     {
@@ -55283,6 +55357,8 @@
         "favorite@chumsdock"
       ],
       "text": "Today I started working on a brand new https://macosicons.com/!\n\nDesigned entirely from the ground up with zero legacy code, written in @nuxt_js with SSR, new design language, and better support for adding new features.\n\nComing soooon! https://x.com/elrumo/status/2014039255840936023/video/1",
+      "text_zh": "今天我开始着手打造一个全新的 https://macosicons.com/！\n\n完全从零开始设计，无任何遗留代码，采用 @nuxt_js 构建并支持服务端渲染（SSR），全新的设计语言，以及更完善的新功能扩展支持。\n\n即将上线！https://x.com/elrumo/status/2014039255840936023/video/1",
+      "text_zh_hash": "19e95eafdd91a90f",
       "url": "https://x.com/elrumo/status/2014039255840936023"
     },
     {
@@ -55333,6 +55409,8 @@
         "favorite@chumsdock"
       ],
       "text": "“The Parallel World”- from comics to AI cartoons 🤖\n\nTransform any visual style into fully animated story.\n\nTurn your ideas into motion.\n\nLet me show you how ⬇️ https://x.com/Framer_X/status/2013718280259936561/video/1",
+      "text_zh": "《平行世界》——从漫画到AI动画 🤖\n\n将任意视觉风格转化为完整动画故事。\n\n让你的创意动起来。\n\n让我为你演示 ⬇️ https://x.com/Framer_X/status/2013718280259936561/video/1",
+      "text_zh_hash": "cdbb189e0b6c8c41",
       "url": "https://x.com/Framer_X/status/2013718280259936561"
     },
     {
@@ -55383,6 +55461,8 @@
         "favorite@chumsdock"
       ],
       "text": "Making films with AI is so EASY! \n\nSimon Meyer made this whole film by just pressing 1 button...\n\nMaybe the AI haters are right? 🤣 https://x.com/PJaccetturo/status/2013675665539596651/video/1",
+      "text_zh": "用AI拍电影太简单了！\n\n西蒙·迈耶只按了一个按钮，就拍完了整部电影……\n\n也许那些AI反对者说得对？🤣 https://x.com/PJaccetturo/status/2013675665539596651/video/1",
+      "text_zh_hash": "56a36755a921c1aa",
       "url": "https://x.com/PJaccetturo/status/2013675665539596651"
     },
     {
@@ -55433,6 +55513,8 @@
         "favorite@chumsdock"
       ],
       "text": "HeroUI v3 beta.4 is live 🚀\n\nThis one is BIG.\n\n🎨 New Theme Builder\n🧩 3 new components → Autocomplete, Breadcrumbs, Toast\n✨ Major Input and Tabs improvements\n⚠️ Clear breaking changes toward stability\n\nWe are getting very close to v3 stable. https://x.com/hero_ui/status/2013626181501808931/photo/1",
+      "text_zh": "HeroUI v3 beta.4 已上线 🚀\n\n这次更新内容非常重磅。\n\n🎨 全新主题构建器\n🧩 3 个新组件 → 自动补全、面包屑导航、提示框\n✨ 输入框和标签页的重大改进\n⚠️ 为稳定性而明确的破坏性变更\n\n我们正非常接近 v3 稳定版。https://x.com/hero_ui/status/2013626181501808931/photo/1",
+      "text_zh_hash": "10efa146a9bddba2",
       "url": "https://x.com/hero_ui/status/2013626181501808931"
     },
     {
@@ -55483,6 +55565,8 @@
         "favorite@chumsdock"
       ],
       "text": "App Store screenshots I designed for FamilyCloud, a new French app reinventing the way families stay organized!\n\nLoved cooking this concept 🔥 https://x.com/scrnshtstudio/status/2013532285048406511/video/1",
+      "text_zh": "我为FamilyCloud设计的App Store截图，这是一款重新定义家庭协作方式的法国新应用！\n\n超爱这个概念的创作过程 🔥 https://x.com/scrnshtstudio/status/2013532285048406511/video/1",
+      "text_zh_hash": "ea19aac905ef6692",
       "url": "https://x.com/scrnshtstudio/status/2013532285048406511"
     },
     {
@@ -55533,6 +55617,8 @@
         "favorite@chumsdock"
       ],
       "text": "Building a mobile app?\n\nDon't skip these 7 screens.\n\nWe've designed 100+ apps for startups. These come up every time (🧵): https://x.com/adriankuleszo/status/2013253890804949007/photo/1",
+      "text_zh": "正在开发移动应用？\n\n别跳过这7个关键界面。\n\n我们为初创公司设计过100多款应用。这些界面每次都会出现（🧵）：https://x.com/adriankuleszo/status/2013253890804949007/photo/1",
+      "text_zh_hash": "48e11197e5a5eb05",
       "url": "https://x.com/adriankuleszo/status/2013253890804949007"
     },
     {
@@ -55593,6 +55679,8 @@
         "favorite@chumsdock"
       ],
       "text": "The most valuable learning resources for design engineers in 2026:\n\n1. https://devouringdetails.com/ @raunofreiberg \n2. https://animations.dev/ @emilkowalski \n3. https://www.svg.guide/ @nandafyi \n4. https://www.interfacecraft.dev/ @joshpuckett \n5. https://www.userinterface.wiki/ @raphaelsalaja https://x.com/zayn_harris_dev/status/2013463029464342835/photo/1",
+      "text_zh": "2026年设计工程师最有价值的学习资源：\n\n1. https://devouringdetails.com/ @raunofreiberg \n2. https://animations.dev/ @emilkowalski \n3. https://www.svg.guide/ @nandafyi \n4. https://www.interfacecraft.dev/ @joshpuckett \n5. https://www.userinterface.wiki/ @raphaelsalaja https://x.com/zayn_harris_dev/status/2013463029464342835/photo/1",
+      "text_zh_hash": "8ef100b56186c1d5",
       "url": "https://x.com/zayn_harris_dev/status/2013463029464342835"
     },
     {
@@ -55650,6 +55738,8 @@
         "favorite@chumsdock"
       ],
       "text": "Here's how we created the above video!\n\nFull prompt history: https://gist.github.com/JonnyBurger/5b801182176f1b76447901fbeb5a84ac https://x.com/Remotion/status/2013628043105890779/video/1",
+      "text_zh": "以下是制作上述视频的方法！\n\n完整提示历史：https://gist.github.com/JonnyBurger/5b801182176f1b76447901fbeb5a84ac https://x.com/Remotion/status/2013628043105890779/video/1",
+      "text_zh_hash": "be9891fe092aa449",
       "url": "https://x.com/Remotion/status/2013628043105890779"
     },
     {
@@ -55730,6 +55820,8 @@
         "favorite@chumsdock"
       ],
       "text": "Some SAAS statics that caught my eye this weekend… 📍 https://x.com/PhilKiel/status/2012932143731663024/photo/1",
+      "text_zh": "这个周末看到的一些 SaaS 统计数据引起了我的注意…… 📍 https://x.com/PhilKiel/status/2012932143731663024/photo/1",
+      "text_zh_hash": "60b3526aafc5af9c",
       "url": "https://x.com/PhilKiel/status/2012932143731663024"
     },
     {
@@ -55960,6 +56052,8 @@
         "favorite@chumsdock"
       ],
       "text": "Breakdown of the video we've made for @usewonder https://x.com/MarkKnd/status/2012573870839013787/video/1 https://twitter.com/aibek_design/status/1957856991608512898",
+      "text_zh": "我们为 @usewonder 制作的视频解析 https://x.com/MarkKnd/status/2012573870839013787/video/1 https://twitter.com/aibek_design/status/1957856991608512898",
+      "text_zh_hash": "3e9ca023db3f1f2a",
       "url": "https://x.com/MarkKnd/status/2012573870839013787"
     },
     {
@@ -56010,6 +56104,8 @@
         "favorite@chumsdock"
       ],
       "text": "This is how we make things easier to understand ✨ https://x.com/driceroland/status/1976236175963848890/video/1",
+      "text_zh": "这就是我们让事情变得更易懂的方法 ✨ https://x.com/driceroland/status/1976236175963848890/video/1",
+      "text_zh_hash": "6e5e76a7c65ae207",
       "url": "https://x.com/driceroland/status/1976236175963848890"
     },
     {
@@ -56060,6 +56156,8 @@
         "favorite@chumsdock"
       ],
       "text": "Now in Claude Code: when you accept a plan, Claude automatically clears your context, so your plan gets a fresh context window.\n\nWe found this helps keep Claude on track longer, and significantly improves plan adherence.\n\nIf you prefer not to clear your context when accepting a https://x.com/bcherny/status/2012663636465254662/photo/1",
+      "text_zh": "现在在 Claude Code 中：当你接受一个计划时，Claude 会自动清除你的上下文，这样你的计划就能获得一个全新的上下文窗口。\n\n我们发现这有助于让 Claude 更长时间地保持专注，并显著提高计划执行的一致性。\n\n如果你不希望在接受计划时清除上下文，请参考 https://x.com/bcherny/status/2012663636465254662/photo/1",
+      "text_zh_hash": "9ff1d4dbfd7e8a86",
       "url": "https://x.com/bcherny/status/2012663636465254662"
     },
     {
@@ -56095,6 +56193,8 @@
         "favorite@chumsdock"
       ],
       "text": "Claude Cowork is now available to Pro subscribers, too!\n\nGive it a try and let us know how you’d like to see it improve",
+      "text_zh": "Claude Cowork 现已向 Pro 订阅用户开放！\n\n快来试试吧，告诉我们您希望它如何改进。",
+      "text_zh_hash": "8ab0c846febcf705",
       "url": "https://x.com/felixrieseberg/status/2012229717298926051"
     },
     {
@@ -56145,6 +56245,8 @@
         "favorite@chumsdock"
       ],
       "text": "AI-Powered Design System Management\n\nLater this year, you will be able to talk to @claudeai and ask it to build you an interface using @AgenticUi.\n\nNeed to update components to match your brand? \nJust ask Claude to change it. No keyboard.\n\nIt's a new paradigm.\nw/ @AgenticUi https://x.com/alexgilev/status/2011838998293942288/photo/1",
+      "text_zh": "AI驱动的设计系统管理\n\n今年晚些时候，你将能够与@claudeai对话，让它使用@AgenticUi为你构建界面。\n\n需要更新组件以匹配你的品牌？\n只需告诉Claude进行更改，无需键盘操作。\n\n这是一个全新的范式。\n与@AgenticUi合作 https://x.com/alexgilev/status/2011838998293942288/photo/1",
+      "text_zh_hash": "5d0abefacd6c6c18",
       "url": "https://x.com/alexgilev/status/2011838998293942288"
     },
     {
@@ -56195,6 +56297,8 @@
         "favorite@chumsdock"
       ],
       "text": "I'm back with a new pocket guide - 10 principles for better design critique. \n\nI've sat in hundreds of design crits over 30+ years as a designer. These are tried and true. \n\nHemeon’s Pocket Guide to Design Critique\n\n01 / Same Team, Same Goal\nCritique is not a courtroom. It’s a https://x.com/hemeon/status/2011846069794324522/photo/1",
+      "text_zh": "我带着一本新的口袋指南回来了——关于如何更好地进行设计评审的10条原则。\n\n在过去30多年的设计生涯中，我参加了数百次设计评审。这些原则经过反复验证，行之有效。\n\n赫蒙的设计评审口袋指南\n\n01 / 同一团队，同一目标\n评审不是法庭。它是https://x.com/hemeon/status/2011846069794324522/photo/1",
+      "text_zh_hash": "7a21b2cc024f65a3",
       "url": "https://x.com/hemeon/status/2011846069794324522"
     },
     {
@@ -56245,6 +56349,8 @@
         "favorite@chumsdock"
       ],
       "text": "Several folks asked for invoices for Interface Craft, so obviously the only solution was to ship a self-serve experience to grab one. https://x.com/joshpuckett/status/2012006918101807458/video/1",
+      "text_zh": "不少用户询问Interface Craft的发票事宜，显然唯一的解决方案就是推出自助服务功能，方便大家自行获取发票。https://x.com/joshpuckett/status/2012006918101807458/video/1",
+      "text_zh_hash": "87e77d709eef66bc",
       "url": "https://x.com/joshpuckett/status/2012006918101807458"
     },
     {
@@ -56525,6 +56631,8 @@
         "favorite@chumsdock"
       ],
       "text": "We built Openwork!\n\nI found Claude Cowork to be too expensive\n\nSo i asked Claude Code to build me a better version with @composio tool router\n\nIt can:\n- access local files and your terminal via claude code\n- connect and use 500+ apps like gmail, outlook, slack on demand\n- chain https://x.com/KaranVaidya6/status/2011845965234536540/video/1",
+      "text_zh": "我们打造了 Openwork！\n\n我觉得 Claude Cowork 太贵了\n\n所以我让 Claude Code 用 @composio 工具路由帮我构建了一个更好的版本\n\n它可以：\n- 通过 Claude Code 访问本地文件和你的终端\n- 按需连接并使用 500 多个应用，如 Gmail、Outlook、Slack\n- 链式调用 https://x.com/KaranVaidya6/status/2011845965234536540/video/1",
+      "text_zh_hash": "e0c1e221888ccffd",
       "url": "https://x.com/KaranVaidya6/status/2011845965234536540"
     },
     {
@@ -56605,6 +56713,8 @@
         "favorite@chumsdock"
       ],
       "text": "Prompt: Create a collection of icons representing [a theme], they belong together as a single theme. Put them in a 3x3 grid. The background is white. Make the icons in a colorful and tactile 3D style. No text.\n\n- dogs with different emotions\n- bananas\n- January\n- the same cat in https://x.com/NanoBanana/status/2009660363227152653/photo/1",
+      "text_zh": "提示：创建一组代表[主题]的图标，它们共同构成一个统一的主题。将它们排列在3x3的网格中。背景为白色。图标采用色彩丰富且具有触感的3D风格。不包含文字。\n\n- 不同情绪的狗\n- 香蕉\n- 一月\n- 与 https://x.com/NanoBanana/status/2009660363227152653/photo/1 中相同的猫",
+      "text_zh_hash": "e99654ea7d4f7bba",
       "url": "https://x.com/NanoBanana/status/2009660363227152653"
     },
     {
@@ -56685,6 +56795,8 @@
         "favorite@chumsdock"
       ],
       "text": "New pitch deck designs https://x.com/rahulluthra22/status/2011687325647192174/photo/1",
+      "text_zh": "新的 Pitch Deck 设计 https://x.com/rahulluthra22/status/2011687325647192174/photo/1",
+      "text_zh_hash": "ce9cce97d8a4f84c",
       "url": "https://x.com/rahulluthra22/status/2011687325647192174"
     },
     {
@@ -56767,6 +56879,8 @@
         "favorite@chumsdock"
       ],
       "text": "@DamiDina Thanks! I hope they release it officially soon😂",
+      "text_zh": "@DamiDina 谢谢！希望他们尽快正式发布😂",
+      "text_zh_hash": "901a49159278a16b",
       "url": "https://x.com/ysk_en/status/2011457579013337160"
     },
     {
@@ -56846,6 +56960,8 @@
         "favorite@chumsdock"
       ],
       "text": "Idk, just type this into Claude Code and see what happens:\n\n\"\"\"\nRead the README on this repository: https://github.com/ChrisWiles/claude-code-showcase \n\nExplore the code base to learn about best practices and patterns for using Claude Code effectively. Take what you learn and bring it back into the context",
+      "text_zh": "不知道，直接把这个输入到 Claude Code 里看看会发生什么：\n\n\"\"\"\n阅读此仓库的 README：https://github.com/ChrisWiles/claude-code-showcase\n\n探索代码库，了解有效使用 Claude Code 的最佳实践和模式。将学到的内容带回当前上下文。\n\"\"\"",
+      "text_zh_hash": "060ccc362bdd6589",
       "url": "https://x.com/brian_lovin/status/2011579369710657641"
     },
     {
@@ -56896,6 +57012,8 @@
         "favorite@chumsdock"
       ],
       "text": "Introducing json-render\n\nAI-generated UI. Deterministic output.\n\n1. Define your component catalog\n2. AI steams JSON\n3. Render interactive UI\n\nLet users prompt dashboards, widgets and apps - safely constrained to components and actions you define https://x.com/ctatedev/status/2011589295862395238/video/1",
+      "text_zh": "json-render 介绍\n\nAI 生成的用户界面。确定性输出。\n\n1. 定义你的组件目录\n2. AI 流式输出 JSON\n3. 渲染交互式 UI\n\n让用户通过提示创建仪表盘、小部件和应用——安全地限制在你定义的组件和操作范围内 https://x.com/ctatedev/status/2011589295862395238/video/1",
+      "text_zh_hash": "4f6d8870e230df6e",
       "url": "https://x.com/ctatedev/status/2011589295862395238"
     },
     {
@@ -56938,6 +57056,8 @@
         "favorite@chumsdock"
       ],
       "text": "AI is controlling browsers more than ever, but our tools haven't evolved. \n\nThe Playwright MCP was made for testing, not high performance automation. That's why we're building Stagehand, in public and open source. \n\nToday, it's now available in most major programming languages. https://twitter.com/Stagehanddev/status/2011136135884620055",
+      "text_zh": "AI 比以往任何时候都更多地控制着浏览器，但我们的工具却未能同步进化。\n\nPlaywright MCP 是为测试而设计的，而非高性能自动化。这正是我们公开开源构建 Stagehand 的原因。\n\n如今，它已支持大多数主流编程语言。https://twitter.com/Stagehanddev/status/2011136135884620055",
+      "text_zh_hash": "910d6026e65f6501",
       "url": "https://x.com/pk_iv/status/2011136915475685792"
     },
     {
@@ -56973,6 +57093,8 @@
         "favorite@chumsdock"
       ],
       "text": "I have one hard commitment to myself in 2026 to make this the best year of my life.\n\nI will put my all into everything I do with care, focus, and attention, seeing it through to fruition. \n\nSculpt and refine, sculpt and refine. That’s it.\n\nI will show mental fortitude and",
+      "text_zh": "我在2026年对自己有一个坚定的承诺：让这一年成为我人生中最精彩的一年。\n\n我会用心、专注、细致地投入我所做的每一件事，并坚持到底，直至开花结果。\n\n精雕细琢，反复打磨。仅此而已。\n\n我将展现坚韧的心智。",
+      "text_zh_hash": "66f6e73730ff84a4",
       "url": "https://x.com/liammatteson/status/2011229279213011358"
     },
     {
@@ -57033,6 +57155,8 @@
         "favorite@chumsdock"
       ],
       "text": "plans ui for @async https://x.com/atlou_/status/2011222833381457951/photo/1",
+      "text_zh": "为 @async 设计的 UI 方案 https://x.com/atlou_/status/2011222833381457951/photo/1",
+      "text_zh_hash": "5e9d9b82f6ef6619",
       "url": "https://x.com/atlou_/status/2011222833381457951"
     },
     {
@@ -57134,6 +57258,8 @@
         "favorite@chumsdock"
       ],
       "text": "Here are my CLAUDE​.md additions for making plan mode 10x better\n\nBefore: unreadably long plans\nAfter: concise, useful plans with followup questions\n\nhttps://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read https://x.com/mattpocockuk/status/2011092347254182097/photo/1",
+      "text_zh": "以下是我为让计划模式提升10倍而添加的 CLAUDE​.md 内容\n\n**之前**：难以阅读的长篇计划  \n**之后**：简洁实用的计划，附带后续问题\n\nhttps://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read  \nhttps://x.com/mattpocockuk/status/2011092347254182097/photo/1",
+      "text_zh_hash": "cbf82834bd89121d",
       "url": "https://x.com/mattpocockuk/status/2011092347254182097"
     },
     {
@@ -57186,6 +57312,8 @@
         "favorite@chumsdock"
       ],
       "text": "/ui-skills now installable via\n\ncurl -fsSL https://www.ui-skills.com/install | bash https://x.com/Ibelick/status/2011346216496611687/photo/1",
+      "text_zh": "/ui-skills 现在可通过以下命令安装：\n\ncurl -fsSL https://www.ui-skills.com/install | bash https://x.com/Ibelick/status/2011346216496611687/photo/1",
+      "text_zh_hash": "5d3b3b92e7b0a751",
       "url": "https://x.com/Ibelick/status/2011346216496611687"
     },
     {
@@ -57221,6 +57349,8 @@
         "favorite@chumsdock"
       ],
       "text": "👋 Hi, I'm Felix and I work on Claude Cowork, bringing Claude Code closer to all kinds of knowledge work. It's an early and rough preview, please tag me in any feedback - we want to iterate very quickly and make it a little better every day.",
+      "text_zh": "👋 你好，我是 Felix，负责 Claude Cowork 项目，致力于让 Claude Code 更贴近各类知识工作场景。目前这还是一个早期且粗糙的预览版，有任何反馈请直接 @我——我们希望快速迭代，每天都能进步一点点。",
+      "text_zh_hash": "9fe0f247b5476a69",
       "url": "https://x.com/felixrieseberg/status/2010851698550415826"
     },
     {
@@ -57271,6 +57401,8 @@
         "favorite@chumsdock"
       ],
       "text": "Introducing Cowork: Claude Code for the rest of your work.\n\nCowork lets you complete non-technical tasks much like how developers use Claude Code. https://x.com/claudeai/status/2010805682434666759/video/1",
+      "text_zh": "推出 Cowork：让非技术工作也能用上 Claude Code。\n\nCowork 让你像开发者使用 Claude Code 一样完成非技术任务。https://x.com/claudeai/status/2010805682434666759/video/1",
+      "text_zh_hash": "4cf787caaf00aad6",
       "url": "https://x.com/claudeai/status/2010805682434666759"
     },
     {
@@ -57326,6 +57458,8 @@
         "favorite@chumsdock"
       ],
       "text": "In Cowork, you give Claude access to a folder on your computer. Claude can then read, edit, or create files in that folder.\n\nTry it to create a spreadsheet from a pile of screenshots, or produce a first draft from scattered notes. https://x.com/claudeai/status/2010805685530038351/video/1",
+      "text_zh": "在 Cowork 中，你可以让 Claude 访问电脑上的一个文件夹。随后，Claude 就能读取、编辑或在该文件夹中创建文件。\n\n试试用它从一堆截图中创建电子表格，或根据零散的笔记生成初稿。https://x.com/claudeai/status/2010805685530038351/video/1",
+      "text_zh_hash": "2b56832663d4b074",
       "url": "https://x.com/claudeai/status/2010805685530038351"
     },
     {
@@ -57375,6 +57509,8 @@
         "favorite@chumsdock"
       ],
       "text": "@mckaywrigley Very cool! I built something similar as well - https://www.trygooey.com/ - on top of the Agents SDK, so you can bring your own subscription or pay as you ago\n\nhttps://x.com/akshayvkt/status/2009050621081788457?s=46",
+      "text_zh": "@mckaywrigley 非常酷！我也构建了类似的东西——https://www.trygooey.com/——基于 Agents SDK，因此你可以自带订阅或按需付费。\n\nhttps://x.com/akshayvkt/status/2009050621081788457?s=46",
+      "text_zh_hash": "417fa3f817135fa8",
       "url": "https://x.com/akshayvkt/status/2010916781049721234"
     },
     {
@@ -57425,6 +57561,8 @@
         "favorite@chumsdock"
       ],
       "text": "Looked at Anthropic's ralph-wiggum plugin again. Single session, accumulating context, no re-anchoring.\n\nThis really defeats the purpose.\n\nThe original vision by @GeoffreyHuntley:\n- Fresh context per iteration\n- File I/O as state (not transcript)\n- Dumb bash loop, deterministic https://x.com/gmickel/status/2009939771171434867/photo/1",
+      "text_zh": "又看了一遍Anthropic的ralph-wiggum插件。单会话、累积上下文、没有重新锚定。\n\n这完全违背了初衷。\n\n@GeoffreyHuntley 最初的构想：\n- 每次迭代使用全新上下文\n- 以文件I/O作为状态（而非对话记录）\n- 简单的bash循环，确定性 https://x.com/gmickel/status/2009939771171434867/photo/1",
+      "text_zh_hash": "8bbcf41f83cf8df0",
       "url": "https://x.com/gmickel/status/2009939771171434867"
     },
     {
@@ -57475,6 +57613,8 @@
         "favorite@chumsdock"
       ],
       "text": "NEW: \n\ni wrote a complete technical guide to building agent-native software (co-authored with claude)\n\nit covers:\n\n- the five pillars of agent native design (parity, granularity, composability, emergent capability, self-improvement)\n- files as the universal interface\n- agent https://x.com/danshipper/status/2009651408144835021/photo/1",
+      "text_zh": "新发布：\n\n我撰写了一份关于构建原生代理软件的完整技术指南（与Claude合著）\n\n内容涵盖：\n\n- 原生代理设计的五大支柱（对等性、粒度、可组合性、涌现能力、自我改进）\n- 文件作为通用接口\n- 代理 https://x.com/danshipper/status/2009651408144835021/photo/1",
+      "text_zh_hash": "c88fe67d6de29115",
       "url": "https://x.com/danshipper/status/2009651408144835021"
     },
     {
@@ -57514,6 +57654,8 @@
         "favorite@chumsdock"
       ],
       "text": "Hello world, my blog is live!\n\nhttps://mike.tech/blog/death-of-software-development",
+      "text_zh": "大家好，我的博客上线啦！\n\nhttps://mike.tech/blog/death-of-software-development",
+      "text_zh_hash": "225dfe254e39a3c3",
       "url": "https://x.com/MichaelArnaldi/status/2010433126783463604"
     },
     {
@@ -57733,6 +57875,8 @@
         "favorite@chumsdock"
       ],
       "text": "Agents are getting better at creating UI, but some things still annoy me.\n\nI wrote them down as https://agentskills.io/home.\n\nhttp://www.ui-skills.com/ https://x.com/Ibelick/status/2010022421726933129/video/1",
+      "text_zh": "Agent 在创建 UI 方面越来越强，但有些地方还是让我不爽。\n\n我把它写在了 https://agentskills.io/home。\n\nhttp://www.ui-skills.com/ https://x.com/Ibelick/status/2010022421726933129/video/1",
+      "text_zh_hash": "c104b1cb85d4fdb5",
       "url": "https://x.com/Ibelick/status/2010022421726933129"
     },
     {
@@ -57924,6 +58068,8 @@
         "favorite@chumsdock"
       ],
       "text": "Opus 4.5 + Ralph Wiggum with XcodeBuild and playwright is going to mint millionaires.\n\nMark my words.\n\nYou’re not ready",
+      "text_zh": "Opus 4.5 加上 Ralph Wiggum，配合 XcodeBuild 和 playwright，这组合能造就百万富翁。\n\n记住我的话。\n\n你还没准备好。",
+      "text_zh_hash": "4aec50a657187212",
       "url": "https://x.com/hunterhammonds/status/2008344076773413357"
     },
     {
@@ -57976,6 +58122,8 @@
         "favorite@chumsdock"
       ],
       "text": "Claude Code is having a moment.\n\nHere’s our conversation with @bcherny and @_catwu, recorded before the buzz, along with some of our best Claude Code posts:\n\nhttps://every.to/podcast/how-to-use-claude-code-like-the-people-who-built-it https://x.com/every/status/2008569817843044490/video/1",
+      "text_zh": "Claude Code 正迎来高光时刻。\n\n以下是我们与 @bcherny 和 @_catwu 在热度爆发前的对话记录，以及我们精选的一些 Claude Code 最佳帖子：\n\nhttps://every.to/podcast/how-to-use-claude-code-like-the-people-who-built-it https://x.com/every/status/2008569817843044490/video/1",
+      "text_zh_hash": "9cb5691eecdb44cc",
       "url": "https://x.com/every/status/2008569817843044490"
     },
     {
@@ -58028,6 +58176,8 @@
         "favorite@chumsdock"
       ],
       "text": "I've collected my thoughts and techniques on JSON prompting Nano Banana Pro into a blog post (and an app in AI studio):\n\nhttps://www.fofr.ai/prompting-with-json https://x.com/fofrAI/status/2008646099163328516/video/1",
+      "text_zh": "我已将关于 JSON 提示词 Nano Banana Pro 的思考与技巧整理成一篇博客文章（以及 AI Studio 中的应用）：\n\nhttps://www.fofr.ai/prompting-with-json https://x.com/fofrAI/status/2008646099163328516/video/1",
+      "text_zh_hash": "e1684660356f357d",
       "url": "https://x.com/fofrAI/status/2008646099163328516"
     },
     {
@@ -58070,6 +58220,8 @@
         "favorite@chumsdock"
       ],
       "text": "I used Ralph last night with Amp and was blown away.\n\nWrote a tutorial for y'all! https://twitter.com/ryancarson/status/2008548371712135632",
+      "text_zh": "昨晚我用Ralph配合Amp，效果惊艳到我了。\n\n给大家写了个教程！https://twitter.com/ryancarson/status/2008548371712135632",
+      "text_zh_hash": "6ae96cfec8c71715",
       "url": "https://x.com/ryancarson/status/2008587855434838190"
     },
     {
@@ -58269,6 +58421,8 @@
         "favorite@chumsdock"
       ],
       "text": "My love letter to Agent Skills https://everything.intellectronica.net/p/agent-skills-changed-how-i-work-with",
+      "text_zh": "我写给 Agent Skills 的情书 https://everything.intellectronica.net/p/agent-skills-changed-how-i-work-with",
+      "text_zh_hash": "3292ed225a23b473",
       "url": "https://x.com/intellectronica/status/2008160386844156299"
     },
     {
@@ -58415,6 +58569,8 @@
         "favorite@chumsdock"
       ],
       "text": "Prompt:\n\nA minimalist, black-and-white flat vector illustration portrait of [CHARACTER NAME], rendered in the expressive \"Notion avatar\" art style.\n\nLINE WORK &amp; VIBE:\n\nStyle: Use THICK, UNIFORM black outlines (monoline weight). The lines should feel organic, smooth, and https://x.com/AmirMushich/status/2007535692973240822/photo/1",
+      "text_zh": "提示词：\n\n一幅极简的黑白扁平矢量插画肖像，描绘的是[角色名称]，采用富有表现力的“Notion头像”艺术风格呈现。\n\n线条与氛围：\n\n风格：使用粗而均匀的黑色轮廓线（单线粗细）。线条应呈现有机、流畅的感觉，且https://x.com/AmirMushich/status/2007535692973240822/photo/1",
+      "text_zh_hash": "4b2476ac1619cf78",
       "url": "https://x.com/AmirMushich/status/2007535692973240822"
     },
     {
@@ -58467,6 +58623,8 @@
         "favorite@chumsdock"
       ],
       "text": "Mole, the Mac cleaning tool that can free up tens of GBs in one go, has been updated again. v1.18.0 is here!  https://github.com/tw93/Mole\n\nSmarter Cleaning\n· Browsers: automatically finds and removes old versions of Chrome &amp; Edge.\n· Projects: intelligent discovery for Zig, plus https://x.com/HiTw93/status/2007358824026648915/photo/1",
+      "text_zh": "Mole，这款Mac清理工具，一次就能释放几十GB空间，又更新了！v1.18.0 来了！https://github.com/tw93/Mole\n\n更智能的清理\n· 浏览器：自动查找并移除 Chrome 和 Edge 的旧版本。\n· 项目：智能识别 Zig，以及 https://x.com/HiTw93/status/2007358824026648915/photo/1",
+      "text_zh_hash": "e89ea3bd1a5a7476",
       "url": "https://x.com/HiTw93/status/2007358824026648915"
     },
     {
@@ -58517,6 +58675,8 @@
         "favorite@chumsdock"
       ],
       "text": "A man created this work called \"What I'm Seeing\" and it turned out great. https://x.com/ceciarmy/status/2007075387235283288/video/1",
+      "text_zh": "一位创作者完成了名为《我所见》的作品，效果非常出色。https://x.com/ceciarmy/status/2007075387235283288/video/1",
+      "text_zh_hash": "94ff0db225063234",
       "url": "https://x.com/itsme_urstruly/status/2007193693112217982"
     },
     {
@@ -58567,6 +58727,8 @@
         "favorite@chumsdock"
       ],
       "text": "Can't believe AI designed this\n\n(prompt below) https://x.com/mattiapomelli/status/2007133873881108960/photo/1",
+      "text_zh": "难以置信，这是AI设计的\n\n（提示如下）https://x.com/mattiapomelli/status/2007133873881108960/photo/1",
+      "text_zh_hash": "2584db9c43f0d757",
       "url": "https://x.com/mattiapomelli/status/2007133873881108960"
     },
     {
@@ -58602,6 +58764,8 @@
         "favorite@chumsdock"
       ],
       "text": "BREAKING: OpenAI is predicted to buy Pinterest, $PINS, in 2026, per the Information",
+      "text_zh": "突发：据The Information预测，OpenAI将于2026年收购Pinterest（$PINS）。",
+      "text_zh_hash": "2a0b811ce9e350d8",
       "url": "https://x.com/unusual_whales/status/2007157259340849524"
     },
     {
@@ -58637,6 +58801,8 @@
         "favorite@chumsdock"
       ],
       "text": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to",
+      "text_zh": "我是 Boris，Claude Code 的创建者。很多人问我是如何使用 Claude Code 的，所以我想稍微展示一下我的配置。\n\n我的配置可能出乎意料地普通！Claude Code 开箱即用效果就很好，所以我个人并没有做太多定制。没有唯一正确的方式——",
+      "text_zh_hash": "22fa5961669181b0",
       "url": "https://x.com/bcherny/status/2007179832300581177"
     },
     {
@@ -58781,6 +58947,8 @@
         "favorite@chumsdock"
       ],
       "text": "Here's the @freepik Spaces doc I used for the character exploration:\n\nhttps://www.freepik.com/pikaso/spaces/a0bbbafe-d459-4936-b597-3f06ce120ab5/invite?payload=eyJpdiI6IkxGZllsMTBYdmNtUERtWTIxWlQ4VFE9PSIsInZhbHVlIjoiZ0JXWko4NTRmTi9TV2liMGt2Y283SnhLR2pxVlYwREVyNkdmRC94dzVKbEtGdi9QY2o1TFovQjZHMHhYZTZzN2daNDRTeTU5WmdxeThtY0xRZlQ0OG15UUYwTGRxQ1hPTFo0YldNNjJaTjAxMmFuM1pRZk4yMTlwbUpvcWt4NUIiLCJtYWMiOiIyMWVlZjRmZTNhYTliNGQyNmY0ODY3YWM3Mzk2MjdmYjUwODMxMmU0YzU4ZGY3MWQzZDdmNzk2MDgyYjUyMDg4IiwidGFnIjoiIn0%3D https://x.com/martinleblanc/status/2007043977405776162/photo/1 https://twitter.com/martinleblanc/status/2006765800502472873",
+      "text_zh": "这是我在角色探索中使用的 @freepik Spaces 文档：\n\nhttps://www.freepik.com/pikaso/spaces/a0bbbafe-d459-4936-b597-3f06ce120ab5/invite?payload=eyJpdiI6IkxGZllsMTBYdmNtUERtWTIxWlQ4VFE9PSIsInZhbHVlIjoiZ0JXWko4NTRmTi9TV2liMGt2Y283SnhLR2pxVlYwREVyNkdmRC94dzVKbEtGdi9QY2o1TFovQjZHMHhYZTZzN2daNDRTeTU5WmdxeThtY0xRZlQ0OG15UUYwTGRxQ1hPTFo0YldNNjJaTjAxMmFuM1pRZk4yMTlwbUpvcWt4NUIiLCJtYWMiOiIyMWVlZjRmZTNhYTliNGQyNmY0ODY3YWM3Mzk2MjdmYjUwODMxMmU0YzU4ZGY3MWQzZDdmNzk2MDgyYjUyMDg4IiwidGFnIjoiIn0%3D https://x.com/martinleblanc/status/2007043977405776162/photo/1 https://twitter.com/martinleblanc/status/2006765800502472873",
+      "text_zh_hash": "890ff2d1ab8a3408",
       "url": "https://x.com/martinleblanc/status/2007043977405776162"
     },
     {
@@ -58831,6 +58999,8 @@
         "favorite@chumsdock"
       ],
       "text": "i'm thrilled to announce\nDOGSPINNER: FESTIVE EDITION\n\navailable now at pigenpalace dot com\nuntil christmas https://x.com/TodePond/status/1999523716758135068/video/1",
+      "text_zh": "我激动地宣布\nDOGSPINNER: 节日版\n\n现已在 pigenpalace.com 上线\n持续至圣诞节 https://x.com/TodePond/status/1999523716758135068/video/1",
+      "text_zh_hash": "9fe3baa06d132053",
       "url": "https://x.com/TodePond/status/1999523716758135068"
     },
     {
@@ -58883,6 +59053,8 @@
         "favorite@chumsdock"
       ],
       "text": "playwriter is exactly what i have been looking for in giving Claude access to a browser\n\nnice work @__morse  https://playwriter.dev/ https://x.com/RhysSullivan/status/2006888046600282484/video/1",
+      "text_zh": "playwriter 正是我一直在寻找的，能让 Claude 访问浏览器的工具\n\n干得漂亮 @__morse  https://playwriter.dev/ https://x.com/RhysSullivan/status/2006888046600282484/video/1",
+      "text_zh_hash": "f595e7b4d925ac74",
       "url": "https://x.com/RhysSullivan/status/2006888046600282484"
     },
     {
@@ -58933,6 +59105,8 @@
         "favorite@chumsdock"
       ],
       "text": "On maximizing Claude Code.\n\nEarly on, I spent time building reusable workflows/patterns.\n\nTedious to build, but this had a wild compounding effect as models and agent harnesses improved.\n\nI think these effects will continue to compound exponentially.\n\nNo point in starting fresh https://x.com/omarsar0/status/2006390906371629222/photo/1",
+      "text_zh": "关于最大化利用Claude Code。\n\n早期，我投入时间构建可复用的工作流/模式。\n\n构建过程虽繁琐，但随着模型和代理工具（agent harnesses）的改进，这产生了惊人的复利效应。\n\n我认为这些效应将持续呈指数级增长。\n\n无需从头开始 https://x.com/omarsar0/status/2006390906371629222/photo/1",
+      "text_zh_hash": "ed59832b74717f7d",
       "url": "https://x.com/omarsar0/status/2006390906371629222"
     },
     {
@@ -59066,6 +59240,8 @@
         "favorite@chumsdock"
       ],
       "text": "This is a great article. https://twitter.com/thebeautyofsaas/status/2006104228381721052",
+      "text_zh": "这是一篇很棒的文章。https://twitter.com/thebeautyofsaas/status/2006104228381721052",
+      "text_zh_hash": "e22b5623393801f5",
       "url": "https://x.com/TundeTASH/status/2006407250420682992"
     },
     {
@@ -59146,6 +59322,8 @@
         "favorite@chumsdock"
       ],
       "text": "Prompt share: Low-poly\n\n💬Prompt:\nA low-poly 3D render of a [subject], constructed from clean triangular facets and shaded in flat [color1] and [color2] tones. Set in a stylized minimalist environment with crisp geometry and soft ambient occlusion, the scene evokes a playful, https://x.com/azed_ai/status/2006320465611268295/photo/1",
+      "text_zh": "提示词分享：低多边形\n\n💬提示词：\n一个低多边形3D渲染的[主体]，由干净的三角形面片构成，并采用平坦的[颜色1]和[颜色2]色调进行着色。场景设置在一个风格化的极简环境中，具有清晰的几何形状和柔和的全局环境光遮蔽，营造出俏皮、https://x.com/azed_ai/status/2006320465611268295/photo/1",
+      "text_zh_hash": "d9d2ca0733d7b23c",
       "url": "https://x.com/azed_ai/status/2006320465611268295"
     },
     {
@@ -59198,6 +59376,8 @@
         "favorite@chumsdock"
       ],
       "text": "Zpdf: a very fast, zero-copy PDF text extraction library with parallel processing https://github.com/Lulzx/zpdf https://x.com/jedisct1/status/2006120581331067299/photo/1",
+      "text_zh": "Zpdf：一个极速、零拷贝的PDF文本提取库，支持并行处理 https://github.com/Lulzx/zpdf https://x.com/jedisct1/status/2006120581331067299/photo/1",
+      "text_zh_hash": "dbd9a6d6884d61b2",
       "url": "https://x.com/jedisct1/status/2006120581331067299"
     },
     {
@@ -59248,6 +59428,8 @@
         "favorite@chumsdock"
       ],
       "text": "this is what AUTOMATED end-to-end testing looks like ✨\n\ntesting @duolingo's user flow https://x.com/maestro__dev/status/2005727614812704921/video/1",
+      "text_zh": "这就是自动化端到端测试的样子 ✨\n\n测试 @duolingo 的用户流程 https://x.com/maestro__dev/status/2005727614812704921/video/1",
+      "text_zh_hash": "c513553257d31a31",
       "url": "https://x.com/maestro__dev/status/2005727614812704921"
     },
     {
@@ -59298,6 +59480,8 @@
         "favorite@chumsdock"
       ],
       "text": "✨We are excited to open-source Tencent HY-Motion 1.0, a billion-parameter text-to-motion model built on the Diffusion Transformer (DiT) architecture and flow matching. Tencent HY-Motion 1.0 empowers developers and individual creators alike by transforming natural language into https://x.com/TencentHunyuan/status/2005916817987100708/video/1",
+      "text_zh": "✨我们很高兴开源腾讯混元HY-Motion 1.0，这是一个基于扩散变换器（DiT）架构和流匹配技术的十亿参数文本到动作模型。腾讯混元HY-Motion 1.0通过将自然语言转化为https://x.com/TencentHunyuan/status/2005916817987100708/video/1，赋能开发者与个人创作者。",
+      "text_zh_hash": "cc0673c7be536d5b",
       "url": "https://x.com/TencentHunyuan/status/2005916817987100708"
     },
     {
@@ -59337,6 +59521,8 @@
         "favorite@chumsdock"
       ],
       "text": "Looking back on 2025: jagged intelligence becomes a fault line. \n\nIt's been an incredible year for AI, shaped by the success of synthetic data and coding applications. The challenge is to now building trust through reliability.\nhttps://www.dbreunig.com/2025/12/29/2025-in-review.html",
+      "text_zh": "回顾2025：参差不齐的智能成为分水岭。\n\n对人工智能而言，这是不可思议的一年，合成数据与编码应用的成功塑造了它的轨迹。当下的挑战在于通过可靠性建立信任。\nhttps://www.dbreunig.com/2025/12/29/2025-in-review.html",
+      "text_zh_hash": "0d3f2ba2bf8760a3",
       "url": "https://x.com/dbreunig/status/2005801680869466364"
     },
     {
@@ -59389,6 +59575,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Marketing Skills v1.5.0 is out.\n\nWhat shipped:\n\n/customer-research — full-stack customer research. Analyze transcripts, surveys, and reviews. Scrape Reddit, G2, Indie Hackers, HN, LinkedIn, and YouTube. Extract JTBD with confidence scoring. Generate structured personas. https://x.com/coreyhainesco/status/2038624102156783922/video/1",
+      "text_zh": "Marketing Skills v1.5.0 已发布。\n\n本次更新内容：\n\n/customer-research — 全栈式客户研究。分析访谈记录、调查问卷和用户评价。抓取 Reddit、G2、Indie Hackers、HN、LinkedIn 和 YouTube 数据。提取 JTBD（待完成工作）并附带置信度评分。生成结构化用户画像。https://x.com/coreyhainesco/status/2038624102156783922/video/1",
+      "text_zh_hash": "c2464e4952002b94",
       "url": "https://x.com/coreyhainesco/status/2038624102156783922"
     },
     {
@@ -59441,6 +59629,8 @@
         "bookmark@chumsdock"
       ],
       "text": "How to design beautiful products with Claude or Codex https://x.com/theShaneLevine/status/2038693565111353353/photo/1",
+      "text_zh": "如何使用Claude或Codex设计美观的产品 https://x.com/theShaneLevine/status/2038693565111353353/photo/1",
+      "text_zh_hash": "fcb78b33a2440b2d",
       "url": "https://x.com/theShaneLevine/status/2038693565111353353"
     },
     {
@@ -59483,6 +59673,8 @@
         "bookmark@chumsdock"
       ],
       "text": "We’ve seen Claude Code users bring in Codex for code review and use GPT-5.4 for more complex tasks, so we thought: why not make that easier?\n\nToday we’re open sourcing a plugin for it! You can call Codex from Claude Code with your ChatGPT subscription.\n\nWe love an open ecosystem! https://twitter.com/dkundel/status/2038670330257109461",
+      "text_zh": "我们注意到，Claude Code 用户已经将 Codex 引入代码审查，并使用 GPT-5.4 处理更复杂的任务。于是我们想：何不让这变得更简单？\n\n今天，我们开源了一个插件！你可以通过 ChatGPT 订阅，在 Claude Code 中调用 Codex。\n\n我们热爱开放的生态系统！https://twitter.com/dkundel/status/2038670330257109461",
+      "text_zh_hash": "b96f1b1e311a73ca",
       "url": "https://x.com/romainhuet/status/2038677236304245087"
     },
     {
@@ -59539,6 +59731,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Starting today you can use Codex in Claude Code 👀\n\n/plugin marketplace add openai/codex-plugin-cc\n\nTry it out today with:\n/codex:review for a normal read-only Codex review\n/codex:adversarial-review for a steerable challenge review\n/codex:rescue to let codex rescue your code https://x.com/reach_vb/status/2038671858862583967/video/1 https://twitter.com/reach_vb/status/2038670509768839458",
+      "text_zh": "从今天起，你可以在 Claude Code 中使用 Codex 👀\n\n/plugin marketplace add openai/codex-plugin-cc\n\n立即尝试以下功能：\n/codex:review 进行常规的只读 Codex 审查\n/codex:adversarial-review 进行可引导的挑战性审查\n/codex:rescue 让 Codex 拯救你的代码 https://x.com/reach_vb/status/2038671858862583967/video/1 https://twitter.com/reach_vb/status/2038670509768839458",
+      "text_zh_hash": "126c28d42ff42d62",
       "url": "https://x.com/reach_vb/status/2038671858862583967"
     },
     {
@@ -59636,6 +59830,8 @@
         "bookmark@chumsdock"
       ],
       "text": "AI for UX Design — Nearly 1,000 Designers Trained https://designlab.com/advanced/get-started-ai-for-ux?utm_source=newsletter&utm_medium=ux-collective&utm_campaign=aiux_mar26 #ad #UX https://x.com/uxdesigncc/status/2038566918601228514/photo/1",
+      "text_zh": "AI 助力 UX 设计——近千名设计师已接受培训 https://designlab.com/advanced/get-started-ai-for-ux?utm_source=newsletter&utm_medium=ux-collective&utm_campaign=aiux_mar26 #广告 #UX https://x.com/uxdesigncc/status/2038566918601228514/photo/1",
+      "text_zh_hash": "fa1e7c24e6ecd339",
       "url": "https://x.com/uxdesigncc/status/2038566918601228514"
     },
     {
@@ -59942,7 +60138,7 @@
     }
   ],
   "recent_count": 1229,
-  "recent_cutoff_at": "2026-04-15T02:55:58.116192Z",
+  "recent_cutoff_at": "2026-04-15T03:00:50.871610Z",
   "recent_window_days": 30,
   "schema_version": 1,
   "updated_at": "2026-05-15T00:19:39Z"
