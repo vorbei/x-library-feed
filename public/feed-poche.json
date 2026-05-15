@@ -66211,6 +66211,8 @@
       "category": "Tools",
       "created_at": "2025-07-31T03:01:07.647692Z",
       "description": "Inkwell — the Intelligence Layer that optimizes processes, reduces costs and fuels creativity.",
+      "description_zh": "Inkwell — 智能层，优化流程、降低成本、激发创造力。",
+      "description_zh_hash": "be409a2f402d8aa7",
       "domain": "inkwell.tech",
       "embed_type": "",
       "id": "k17dykbfwby2e3qymcyvv70yb57msqby",
@@ -66242,6 +66244,8 @@
       "category": "Development",
       "created_at": "2025-07-30T05:20:19.602843Z",
       "description": "In the next version of Bun\n\nbun install now automatically migrates from yarn.lock -> bun.lock, preserving resolved dependency versions",
+      "description_zh": "在 Bun 的下一个版本中\n\n`bun install` 现在会自动从 `yarn.lock` 迁移到 `bun.lock`，并保留已解析的依赖版本。",
+      "description_zh_hash": "d7eb09092114bc16",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17d6jpatmqpy443ydvff2t2xd7mq1bt",
@@ -66264,6 +66268,8 @@
         }
       ],
       "title": "Bun (@bunjavascript) on X",
+      "title_zh": "Bun (@bunjavascript) 在 X 平台上",
+      "title_zh_hash": "ee5536b59167fb11",
       "url": "https://x.com/bunjavascript/status/1950315929042297281",
       "x_status_id": "1950315929042297281"
     },
@@ -66271,6 +66277,8 @@
       "category": "Tools",
       "created_at": "2025-07-30T12:49:54.766143Z",
       "description": "Observable's collaborative data canvas helps you explore data, perform analysis, and build expressive charts and dashboards.",
+      "description_zh": "Observable 的协作式数据画布可帮助您探索数据、执行分析，并构建富有表现力的图表和仪表板。",
+      "description_zh_hash": "79f0fdd099cb0bea",
       "domain": "observablehq.com",
       "embed_type": "",
       "id": "k17bqqjfrcqyy87h81vy76cm4d7mph1d",
@@ -66293,6 +66301,8 @@
         }
       ],
       "title": "Observable: Explore and visualize data together",
+      "title_zh": "Observable：共同探索与可视化数据",
+      "title_zh_hash": "21620f5ca4da3a43",
       "url": "https://observablehq.com/",
       "x_status_id": null
     },
@@ -66300,6 +66310,8 @@
       "category": "Design",
       "created_at": "2025-07-25T16:00:16.930405Z",
       "description": "Flow 2,the Smoothest Keyboard: Evolved, Redefined, Unleashed",
+      "description_zh": "Flow 2，最丝滑的键盘：进化、重塑、释放",
+      "description_zh_hash": "0176826c6e23fb8f",
       "domain": "www.lofree.co",
       "embed_type": "",
       "id": "k17a8819bj1wzm460k7txgg62n7mdjn9",
@@ -66322,6 +66334,8 @@
         }
       ],
       "title": "Flow V2 Pre-launch",
+      "title_zh": "Flow V2 预发布",
+      "title_zh_hash": "7eaa5028f07d2a5f",
       "url": "https://www.lofree.co/pages/flow-2",
       "x_status_id": null
     },
@@ -66329,6 +66343,8 @@
       "category": "Social",
       "created_at": "2025-07-25T09:42:53.582071Z",
       "description": "RightFont 9.6 is here! :rocket:Our redesigned Figma plugin makes missing font activation faster and easier than ever.\nLearn more: <https://t.co/khhrMsgbxJ> #RightFont #FontManagement #Typography #Figma",
+      "description_zh": "RightFont 9.6 来了！:rocket:  \n我们重新设计的 Figma 插件让缺失字体的激活比以往更快、更便捷。  \n了解更多：<https://t.co/khhrMsgbxJ> #RightFont #字体管理 #排版 #Figma",
+      "description_zh_hash": "f38c3f7369b61e99",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k174emtffd9xvzbrh8ryjhbgd57mchme",
@@ -66351,6 +66367,8 @@
         }
       ],
       "title": "RightFont (@RightFontApp) on X",
+      "title_zh": "RightFont (@RightFontApp) 在 X 平台上",
+      "title_zh_hash": "c92d55e1f82edc5a",
       "url": "https://x.com/RightFontApp/status/1948650155256742080",
       "x_status_id": "1948650155256742080"
     },
@@ -66358,6 +66376,8 @@
       "category": "Tools",
       "created_at": "2025-07-25T08:31:19.096005Z",
       "description": "Linear changelog - New updates and improvements to Linear.",
+      "description_zh": "Linear 更新日志 - Linear 的新功能与改进。",
+      "description_zh_hash": "47d3ceb9511740fe",
       "domain": "linear.app",
       "embed_type": "",
       "id": "k176kjv1y2gk9d8rwbbc6r3fjh7md01v",
@@ -66380,6 +66400,8 @@
         }
       ],
       "title": "Dashboards – Changelog",
+      "title_zh": "仪表盘 – 更新日志",
+      "title_zh_hash": "51d4defcfb5aae92",
       "url": "https://linear.app/changelog/2025-07-24-dashboards",
       "x_status_id": null
     },
@@ -66387,6 +66409,8 @@
       "category": "Tools",
       "created_at": "2025-07-25T10:35:17.401953Z",
       "description": "Captions reveals the context and attribution behind every image such as author, year, and style to properly credit original creators.",
+      "description_zh": "说明文字揭示了每张图片背后的背景和归属信息，例如作者、年份和风格，以恰当标注原始创作者。",
+      "description_zh_hash": "b177579ff318a5b8",
       "domain": "landing.cosmos.so",
       "embed_type": "",
       "id": "k17av64p82z2gbf850m7trryrd7md8ke",
@@ -66409,6 +66433,8 @@
         }
       ],
       "title": "Captions • Cosmos",
+      "title_zh": "字幕 • Cosmos",
+      "title_zh_hash": "f103b244e5c360c7",
       "url": "https://landing.cosmos.so/captions",
       "x_status_id": null
     },
@@ -66416,6 +66442,8 @@
       "category": "Tools",
       "created_at": "2025-07-24T15:10:32.171812Z",
       "description": "We’re building a better way to use the internet, starting with your browser.",
+      "description_zh": "我们正在构建一种更好的互联网使用方式，从你的浏览器开始。",
+      "description_zh_hash": "d48d4f44e4981ae0",
       "domain": "thebrowser.company",
       "embed_type": "",
       "id": "k17d5qvn57wjgmb91zpf2gv3j97mbj6f",
@@ -66438,6 +66466,8 @@
         }
       ],
       "title": "The Browser Company | Building Dia",
+      "title_zh": "The Browser Company | 打造 Dia",
+      "title_zh_hash": "2a74704caef8b46c",
       "url": "https://thebrowser.company/",
       "x_status_id": null
     },
@@ -66467,6 +66497,8 @@
         }
       ],
       "title": "Algorytm – Interval Type",
+      "title_zh": "算法 – 区间类型",
+      "title_zh_hash": "e6395b36a814c054",
       "url": "https://intervaltype.com/product/algorytm/",
       "x_status_id": null
     },
@@ -66474,6 +66506,8 @@
       "category": "Other",
       "created_at": "2025-06-09T10:51:32.911376Z",
       "description": "methaphone oblique strateges clear phone glass phone",
+      "description_zh": "methaphone 斜向策略 清除手机 玻璃手机",
+      "description_zh_hash": "8bf4ff83d7c0c74a",
       "domain": "mindless-toys.com",
       "embed_type": "",
       "id": "k172zk7p3nbcdqchq0d1kt370x7hg9qf",
@@ -66496,6 +66530,8 @@
         }
       ],
       "title": "mindless toys",
+      "title_zh": "无脑玩具",
+      "title_zh_hash": "5aad590e0bf45bde",
       "url": "https://mindless-toys.com/",
       "x_status_id": null
     },
@@ -66503,6 +66539,8 @@
       "category": "Tools",
       "created_at": "2025-06-12T02:39:24.930212Z",
       "description": "Dia is the AI browser from The Browser Company. Chat with your tabs, write in your own voice, learn and plan faster, shop, and more — all with privacy that you control.",
+      "description_zh": "Dia 是 The Browser Company 推出的 AI 浏览器。与你的标签页对话，用你自己的语气写作，更快地学习和规划，购物等等——一切都在你掌控的隐私保护之下。",
+      "description_zh_hash": "a463008ae7253321",
       "domain": "www.diabrowser.com",
       "embed_type": "",
       "id": "k170th98xkdz3byjpa386by0217hqfew",
@@ -66525,6 +66563,8 @@
         }
       ],
       "title": "Meet Dia – the AI Browser Where You Can Chat with Your Tabs",
+      "title_zh": "认识 Dia——一款能与标签页对话的 AI 浏览器",
+      "title_zh_hash": "19dc1947672fdc81",
       "url": "https://www.diabrowser.com/",
       "x_status_id": null
     },
@@ -66561,6 +66601,8 @@
       "category": "Design",
       "created_at": "2025-06-17T01:37:34.431330Z",
       "description": "As your strategic and creative partner, our global network builds brands connected through purpose and profit. We balance logic and emotion. We uncover powerful brand ideas built on empathetic strategy. Whether you’re an ambitious founder, leading a marketing team, or a brand looking for its next iteration, we help clarify your vision.",
+      "description_zh": "作为您的战略与创意伙伴，我们的全球网络致力于打造兼顾使命与利润的品牌。我们平衡理性与感性，基于共情策略发掘强大的品牌理念。无论您是雄心勃勃的创始人、领导营销团队的负责人，还是寻求迭代升级的品牌，我们都能助您明晰愿景。",
+      "description_zh_hash": "76fde7429bffb0de",
       "domain": "blurrbureau.com",
       "embed_type": "",
       "id": "k178qf7d6gzq3fvnfw2ddm3d8x7j0zqx",
@@ -66583,6 +66625,8 @@
         }
       ],
       "title": "Blurr Bureau",
+      "title_zh": "Blurr Bureau",
+      "title_zh_hash": "689795bb38659045",
       "url": "https://blurrbureau.com/",
       "x_status_id": null
     },
@@ -66590,6 +66634,8 @@
       "category": "Tools",
       "created_at": "2025-06-17T03:58:09.865341Z",
       "description": "All the AI, on your Mac. Chat with o3, Claude, Gemini, DeepSeek, and others all at once. The best models, as soon as they come out, in one app.",
+      "description_zh": "所有AI，尽在你的Mac。同时与o3、Claude、Gemini、DeepSeek等模型对话。最新最强模型，一经发布，即刻集成于单一应用。",
+      "description_zh_hash": "9f81decc16fcf7b5",
       "domain": "chorus.sh",
       "embed_type": "",
       "id": "k1795dyzdbjrskhfwg314k8nbx7j04h4",
@@ -66619,6 +66665,8 @@
       "category": "Tools",
       "created_at": "2025-06-18T09:03:22.888676Z",
       "description": "David AI is an audio data research company - trusted by top AI labs to develop the proprietary audio datasets that power their models.",
+      "description_zh": "David AI 是一家音频数据研究公司——深受顶尖AI实验室信赖，为其开发驱动模型所需的专有音频数据集。",
+      "description_zh_hash": "fd25ccc813b0ebec",
       "domain": "www.withdavid.ai",
       "embed_type": "",
       "id": "k17e7rrgehep3rksadqmz4jt3x7j3ncm",
@@ -66641,6 +66689,8 @@
         }
       ],
       "title": "David AI | High-Quality Audio Datasets for Speech & Conversational AI",
+      "title_zh": "David AI | 用于语音与对话AI的高质量音频数据集",
+      "title_zh_hash": "2a9e97eca168bc2e",
       "url": "https://www.withdavid.ai/",
       "x_status_id": null
     },
@@ -66670,6 +66720,8 @@
         }
       ],
       "title": "Yep! Type Foundry",
+      "title_zh": "是的！字体铸造厂",
+      "title_zh_hash": "a07db517fe835853",
       "url": "https://www.yeptype.com/",
       "x_status_id": null
     },
@@ -66677,6 +66729,8 @@
       "category": "Development",
       "created_at": "2025-06-22T12:33:00.488562Z",
       "description": "The most powerful AI software development platform with the industry-leading context engine.",
+      "description_zh": "最强大的AI软件开发平台，搭载业界领先的上下文引擎。",
+      "description_zh_hash": "fdaa5f03bea97928",
       "domain": "www.augmentcode.com",
       "embed_type": "",
       "id": "k175wp2naxjekxk1zdy9z0nx4n7jbpjn",
@@ -66699,6 +66753,8 @@
         }
       ],
       "title": "Augment Code - AI coding platform for real software.",
+      "title_zh": "Augment Code - 面向真实软件的AI编码平台。",
+      "title_zh_hash": "4c368bc9d115106e",
       "url": "https://www.augmentcode.com/",
       "x_status_id": null
     },
@@ -66706,6 +66762,8 @@
       "category": "Tools",
       "created_at": "2025-07-02T01:46:45.931494Z",
       "description": "Phone (3) combines elegantly bold and playful design with a new kind of experience — one that’s more playful, personal, and intuitive with every use. It’s a phone with a soul, that doesn’t just perform — it understands you, evolves with you, and helps you stay in flow.",
+      "description_zh": "Phone (3) 将优雅大胆且充满趣味的设 计与全新体验融为一体——每一次使用都更富趣味、更具个性、更加直观。这是一部有灵魂的手机，它不仅能高效运行，更能理解你、与你一同成长，并助你保持心流状态。",
+      "description_zh_hash": "f6f2e8ee683f042b",
       "domain": "nothing.tech",
       "embed_type": "",
       "id": "k17172y48avvgn5an4j1enj7vs7jzn02",
@@ -66728,6 +66786,8 @@
         }
       ],
       "title": "Phone (3) | Phones | Nothing | UK",
+      "title_zh": "Phone (3) | 手机 | Nothing | 英国",
+      "title_zh_hash": "1a3a5f83af74026a",
       "url": "https://nothing.tech/products/phone-3?Colour=White&Capacity=12+256GB",
       "x_status_id": null
     },
@@ -66757,6 +66817,8 @@
         }
       ],
       "title": "Andreas Storm (@avstorm) on X",
+      "title_zh": "Andreas Storm (@avstorm) 在 X 平台",
+      "title_zh_hash": "6a38eecc2233e202",
       "url": "https://x.com/avstorm/status/1942854125256949979",
       "x_status_id": "1942854125256949979"
     },
@@ -66764,6 +66826,8 @@
       "category": "Social",
       "created_at": "2025-07-09T15:05:07.523092Z",
       "description": "TikTok Sans is a font inspired by and made for online creators, visionaries, and storytellers. \n\nIt’s a variable font with weight, width, slant, and optical size axes, supporting 460+ languages across Latin, Cyrillic, and Greek, optimized for stylish captions and mobile UI",
+      "description_zh": "TikTok Sans 是一款专为在线创作者、远见者和故事讲述者设计并汲取灵感的字体。\n\n这是一款可变字体，支持字重、字宽、倾斜度和视觉尺寸轴，涵盖拉丁、西里尔和希腊字母的460多种语言，专为时尚字幕和移动端界面优化。",
+      "description_zh_hash": "e63a5cbaa6be9952",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k171z53x8yg0rq4m9wc0rpg9g97kdnk3",
@@ -66786,6 +66850,8 @@
         }
       ],
       "title": "Google Fonts (@googlefonts) on X",
+      "title_zh": "Google Fonts (@googlefonts) 在 X 平台",
+      "title_zh_hash": "3f249a38a631d2fa",
       "url": "https://x.com/googlefonts/status/1942936692916134262",
       "x_status_id": "1942936692916134262"
     },
@@ -66793,6 +66859,8 @@
       "category": "Crypto",
       "created_at": "2025-07-21T01:59:25.903981Z",
       "description": "Create, earn, trade, discover apps, and chat with friends all in one place. Join the waitlist.",
+      "description_zh": "创建、赚取、交易、发现应用，以及与朋友聊天——一切尽在一处。立即加入候补名单。",
+      "description_zh_hash": "99713f4ea88f429c",
       "domain": "join.base.app",
       "embed_type": "",
       "id": "k17aqnqt69g2nb85yt304gj8hh7m5x6z",
@@ -66815,6 +66883,8 @@
         }
       ],
       "title": "It pays to be here | Base",
+      "title_zh": "在此处值得停留 | Base",
+      "title_zh_hash": "67ef4076d9009e34",
       "url": "https://join.base.app/",
       "x_status_id": null
     },
@@ -66822,6 +66892,8 @@
       "category": "Articles",
       "created_at": "2025-07-14T08:45:53.270863Z",
       "description": "Alone in New York is a study in contradictions. A city that never sleeps, never pauses, never empties—yet within its restless pulse, moments of loneliness emerge.",
+      "description_zh": "《独在纽约》是一部关于矛盾的研究。一座不眠不休、永不停歇、永不空旷的城市——然而在其躁动的脉搏中，孤独的时刻悄然浮现。",
+      "description_zh_hash": "1b67e5e7ceb85fcc",
       "domain": "aloneinnewyork.com",
       "embed_type": "",
       "id": "k17advvre2145xfpbgszymhcsn7kpxbe",
@@ -66844,6 +66916,8 @@
         }
       ],
       "title": "Alone in New York",
+      "title_zh": "独处纽约",
+      "title_zh_hash": "7d66303f655f34d4",
       "url": "https://aloneinnewyork.com/",
       "x_status_id": null
     },
@@ -66851,6 +66925,8 @@
       "category": "Social",
       "created_at": "2025-07-19T06:42:50.268232Z",
       "description": "My buddy @ceciliorz made some amazing improvements to the @v0 logo. It’s just perfect now! :fire:",
+      "description_zh": "我的好友 @ceciliorz 对 @v0 的 logo 做了一些令人惊叹的改进。现在简直完美了！:fire:",
+      "description_zh_hash": "a2e0d66f4b668857",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k171a3f29w8rs4g4jtp1ensgm97m0z8x",
@@ -66873,6 +66949,8 @@
         }
       ],
       "title": "Evil Rabbit (@evilrabbit_) on X",
+      "title_zh": "X 上的 Evil Rabbit (@evilrabbit_)",
+      "title_zh_hash": "6976b8dc32847123",
       "url": "https://x.com/evilrabbit_/status/1946297931545665869",
       "x_status_id": "1946297931545665869"
     },
@@ -66880,6 +66958,8 @@
       "category": "Tools",
       "created_at": "2025-07-22T06:32:32.429412Z",
       "description": "A simple but powerful video editor that gets the job done. In your browser.",
+      "description_zh": "一款简单但功能强大的视频编辑器，能帮你轻松完成任务。就在你的浏览器里。",
+      "description_zh_hash": "52b56e4a0e6d0715",
       "domain": "opencut.app",
       "embed_type": "",
       "id": "k1715vv1n288vdgenw6enaxmt97m6e84",
@@ -66931,6 +67011,8 @@
         }
       ],
       "title": "Real-Time AI Animation Platform",
+      "title_zh": "实时AI动画平台",
+      "title_zh_hash": "e4e4a8fc9a06784d",
       "url": "https://www.animation.inc/",
       "x_status_id": null
     },
@@ -66960,6 +67042,8 @@
         }
       ],
       "title": "DHH: Future of Programming, AI, Ruby on Rails, Productivity & Parenting | Lex Fridman Podcast #474",
+      "title_zh": "DHH：编程的未来、AI、Ruby on Rails、生产力与育儿 | Lex Fridman 播客 #474",
+      "title_zh_hash": "a4c17009d87c9f31",
       "url": "https://youtu.be/vagyIcmIGOQ?si=tiSSZyGm2DDHE_tU",
       "x_status_id": null
     },
@@ -66989,6 +67073,8 @@
         }
       ],
       "title": "JJ Ying (@JJYing) on X",
+      "title_zh": "JJ Ying (@JJYing) 在 X 平台",
+      "title_zh_hash": "273a15f1c872ebef",
       "url": "https://x.com/JJYing/status/1944934686243086369",
       "x_status_id": "1944934686243086369"
     },
@@ -66996,6 +67082,8 @@
       "category": "Social",
       "created_at": "2025-07-16T16:04:15.292580Z",
       "description": "A planned #DinkieBitmap update on Sep. 20",
+      "description_zh": "计划于9月20日进行的#DinkieBitmap更新",
+      "description_zh_hash": "cc8974fc5f5a1031",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k170hy82s2y0ax5tynr147tsr17kvpwg",
@@ -67018,6 +67106,8 @@
         }
       ],
       "title": "Willie Liu (@Willie4624) on X",
+      "title_zh": "Willie Liu (@Willie4624) 在 X 平台",
+      "title_zh_hash": "984e8bdce69378f4",
       "url": "https://x.com/Willie4624/status/1944043766178099228",
       "x_status_id": "1944043766178099228"
     },
@@ -67025,6 +67115,8 @@
       "category": "Other",
       "created_at": "2025-07-17T05:41:08.164825Z",
       "description": "We are Yamauchi-No.10 Family Office. Our mission is making a contribution to the society through our activities.",
+      "description_zh": "我们是山内第十家族办公室。我们的使命是通过自身活动为社会做出贡献。",
+      "description_zh_hash": "e02a651708a727c0",
       "domain": "y-n10.com",
       "embed_type": "",
       "id": "k172yhxzxhcz3nrb2k1en0dp317kxkx0",
@@ -67047,6 +67139,8 @@
         }
       ],
       "title": "Yamauchi No.10 Family Office",
+      "title_zh": "山内第10家族办公室",
+      "title_zh_hash": "ff64383c276a186e",
       "url": "https://y-n10.com/",
       "x_status_id": null
     },
@@ -67054,6 +67148,8 @@
       "category": "Social",
       "created_at": "2025-07-17T08:34:59.670039Z",
       "description": "Another look at the softer side of Sharp icons :sparkles:",
+      "description_zh": "再探Sharp图标柔和的一面 :sparkles:",
+      "description_zh_hash": "28a069bac87fb3c9",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17b85sehrty5s1bhyv72ec8qs7kwn9s",
@@ -67076,6 +67172,8 @@
         }
       ],
       "title": "Streamline Icons (@streamlinehq) on X",
+      "title_zh": "Streamline Icons (@streamlinehq) 在 X 平台上",
+      "title_zh_hash": "55283a5e5a91e61f",
       "url": "https://x.com/streamlinehq/status/1945447749341900883",
       "x_status_id": "1945447749341900883"
     },
@@ -67083,6 +67181,8 @@
       "category": "Tools",
       "created_at": "2025-07-17T14:56:55.781781Z",
       "description": "Finally, a data tool your whole company wants to use",
+      "description_zh": "终于，有一款全公司都想用的数据工具了。",
+      "description_zh_hash": "3feedff61edbd20a",
       "domain": "sundial.so",
       "embed_type": "",
       "id": "k1738yv5eest6j6ja7kmthtw7s7kxm2q",
@@ -67134,6 +67234,8 @@
         }
       ],
       "title": "Justin Jay Wang",
+      "title_zh": "Justin Jay Wang",
+      "title_zh_hash": "db613e21e82204ff",
       "url": "https://justinjay.wang/",
       "x_status_id": null
     },
@@ -67141,6 +67243,8 @@
       "category": "Articles",
       "created_at": "2025-07-18T07:11:09.638092Z",
       "description": "As part of our commitment to updating Goodreads for readers, authors, and publishers, we have been hard at work on improvements, both public-facing and ‘...",
+      "description_zh": "作为我们致力于为读者、作者和出版商更新Goodreads的一部分，我们一直在努力进行改进，无论是面向公众的，还是‘……’",
+      "description_zh_hash": "c689bacb4f3c0674",
       "domain": "www.goodreads.com",
       "embed_type": "",
       "id": "k173jv57kmf0x637reqgff4hp57kzzts",
@@ -67163,6 +67267,8 @@
         }
       ],
       "title": "Introducing Our New Logo, and More Ways We Continue to Improve Goodreads  - Goodreads News & Interviews",
+      "title_zh": "推出全新标识，以及我们持续改进Goodreads的更多方式 - Goodreads新闻与访谈",
+      "title_zh_hash": "898147135a2fdb04",
       "url": "https://www.goodreads.com/blog/show/2984-introducing-our-new-logo-and-more-ways-we-continue-to-improve-goodreads",
       "x_status_id": null
     },
@@ -67170,6 +67276,8 @@
       "category": "Tools",
       "created_at": "2025-07-17T15:03:20.049352Z",
       "description": "Find the most creative and coolest ways people are using Skills in our community.",
+      "description_zh": "发掘社区中人们使用 Skills 的最具创意和最酷的方式。",
+      "description_zh_hash": "a2850580c6034927",
       "domain": "www.diabrowser.com",
       "embed_type": "",
       "id": "k175v19zeaymhv75pcvfcqajsn7kwds0",
@@ -67192,6 +67300,8 @@
         }
       ],
       "title": "Skills Gallery | Dia Browser",
+      "title_zh": "# 技能画廊 | Dia 浏览器",
+      "title_zh_hash": "1d34f47dd80f15f7",
       "url": "https://www.diabrowser.com/skills",
       "x_status_id": null
     },
@@ -67221,6 +67331,8 @@
         }
       ],
       "title": "Wojciech Zieliński (@zielinskiwoj) on X",
+      "title_zh": "Wojciech Zieliński (@zielinskiwoj) 在 X 平台",
+      "title_zh_hash": "3a4f6c5d9d63749b",
       "url": "https://x.com/zielinskiwoj/status/1946198216598229232",
       "x_status_id": "1946198216598229232"
     },
@@ -67228,6 +67340,8 @@
       "category": "Development",
       "created_at": "2025-07-21T02:13:05.994550Z",
       "description": "Essential best practices for building scalable Convex applications including database queries, function organization, validation, and security.",
+      "description_zh": "构建可扩展 Convex 应用的核心最佳实践，涵盖数据库查询、函数组织、验证及安全性。",
+      "description_zh_hash": "8b571d83d3b47207",
       "domain": "docs.convex.dev",
       "embed_type": "",
       "id": "k175mjk8adpbbth9hvw2q0q46n7m4nqt",
@@ -67250,6 +67364,8 @@
         }
       ],
       "title": "Best Practices | Convex Developer Hub",
+      "title_zh": "最佳实践 | Convex 开发者中心",
+      "title_zh_hash": "5da3610f4cea1522",
       "url": "https://docs.convex.dev/understanding/best-practices/",
       "x_status_id": null
     },
@@ -67257,6 +67373,8 @@
       "category": "Design",
       "created_at": "2025-07-21T02:25:00.524314Z",
       "description": "Brand identity for a new all-day Italian restaurant and cafe on New York’s Upper West Side.",
+      "description_zh": "纽约上西区全新全日意式餐厅与咖啡馆的品牌形象设计。",
+      "description_zh_hash": "f1945772be6a6caa",
       "domain": "www.pentagram.com",
       "embed_type": "",
       "id": "k1773xsbqbn2c2m3henk0g7ecn7m4pqr",
@@ -67286,6 +67404,8 @@
       "category": "Other",
       "created_at": "2025-07-21T10:21:19.671537Z",
       "description": "A secluded hanok retreat embracing Korea’s heritage. The Hanok Heritage offers refined tranquility, warm hospitality, and a deep connection to nature.",
+      "description_zh": "一座隐逸的韩屋静居，承载韩国文化精髓。韩屋遗产酒店以精致静谧、温暖待客之道，缔结人与自然的深层联结。",
+      "description_zh_hash": "20317de6f572f248",
       "domain": "www.thehanokheritage.com",
       "embed_type": "",
       "id": "k178er5fqxz5magjp06hyztqrh7m4npq",
@@ -67308,6 +67428,8 @@
         }
       ],
       "title": "The Hanok Heritage",
+      "title_zh": "韩屋遗产",
+      "title_zh_hash": "dd44fc8e84a6930c",
       "url": "https://www.thehanokheritage.com/",
       "x_status_id": null
     },
@@ -67315,6 +67437,8 @@
       "category": "Design",
       "created_at": "2025-07-21T12:54:24.381083Z",
       "description": "Optimists building brand and digital for the most impactful companies of today and the founders defining tomorrow.",
+      "description_zh": "乐观主义者为当今最具影响力的公司打造品牌与数字体验，同时助力定义未来的创始人。",
+      "description_zh_hash": "40985edbd4c6fb63",
       "domain": "koto.studio",
       "embed_type": "",
       "id": "k1768nakfa78nqb5s4tz0mc3cs7m4zx8",
