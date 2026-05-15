@@ -33576,6 +33576,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“Agents will generate workflows dynamically. Applications will get thinner. And the systems that manage memory, state, coordination, and history will become more important than ever.\n\nWhich is why I think databases are moving back to the center of software architecture.\n\nNot as https://twitter.com/siddontang/status/2050409724949270783",
+      "text_zh": "“Agent将动态生成工作流。应用将变得更薄。而管理记忆、状态、协调和历史记录的系统将变得比以往任何时候都更加重要。\n\n正因如此，我认为数据库正在重新回到软件架构的中心位置。\n\n并非作为 https://twitter.com/siddontang/status/2050409724949270783",
+      "text_zh_hash": "7c5bc3e5fa1d728d",
       "url": "https://x.com/anshublog/status/2050742675763319014"
     },
     {
@@ -33618,6 +33620,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is a good explanation of why the gap between open and closed models is larger than it appears in benchmarks. I would add in that current open models are also more fragile than closed: they handle out-of-distribution problems far less well &amp; have lower emergent capabilities. https://twitter.com/scaling01/status/2050616057191072161",
+      "text_zh": "这是对为什么开源模型与闭源模型之间的差距比基准测试中显示的更大这一问题的很好解释。我想补充一点，当前的开源模型也比闭源模型更脆弱：它们在处理分布外问题时的能力远不如闭源模型，并且涌现能力也更低。https://twitter.com/scaling01/status/2050616057191072161",
+      "text_zh_hash": "2df416f115ee8f1c",
       "url": "https://x.com/emollick/status/2050904152511848871"
     },
     {
@@ -34039,6 +34043,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "New article: Agentic RAG\n\nRead here: https://outcomeschool.com/blog/agentic-rag https://x.com/amitiitbhu/status/2050062612025810998/photo/1",
+      "text_zh": "新文章：Agentic RAG\n\n阅读地址：https://outcomeschool.com/blog/agentic-rag https://x.com/amitiitbhu/status/2050062612025810998/photo/1",
+      "text_zh_hash": "e9853e5e4cb3f929",
       "url": "https://x.com/amitiitbhu/status/2050062612025810998"
     },
     {
@@ -34115,6 +34121,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "https://chatgpt.com/codex/for-work/\n\nI don’t know what AGI looks like, but this feels directionally correct.",
+      "text_zh": "https://chatgpt.com/codex/for-work/\n\n我不知道AGI最终会是什么样子，但感觉这个方向是对的。",
+      "text_zh_hash": "0449e2a49f3f7719",
       "url": "https://x.com/TheRealAdamG/status/2050061245533843756"
     },
     {
@@ -34287,6 +34295,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The Codex App Server is massively underrated.\n\nYou can inject Codex-level intelligence into any platform using your ChatGPT account.\n\nI embedded it into Chrome… and it works flawlessly.\n\nAnd yes… it’s 100% open source.\n\nhttps://github.com/GENEXIS-AI/chromex https://x.com/arrakis_ai/status/2049484893877637359/video/1",
+      "text_zh": "Codex App Server 被严重低估了。\n\n你可以利用自己的 ChatGPT 账户，将 Codex 级别的智能注入到任何平台中。\n\n我把它嵌入到了 Chrome 里……运行起来完美无瑕。\n\n而且没错……它完全开源。\n\nhttps://github.com/GENEXIS-AI/chromex https://x.com/arrakis_ai/status/2049484893877637359/video/1",
+      "text_zh_hash": "72d350d024857c43",
       "url": "https://x.com/arrakis_ai/status/2049484893877637359"
     },
     {
@@ -34329,6 +34339,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "One of the questions I often get from leaders is: Can agents reliably get real work done, end to end?\n\nA lot of that answer depends on the harness around the model—the system that decides how to break a request into steps, which tools to call, what to remember, and when to stop. https://twitter.com/tonygentilcore/status/2049482833111232694",
+      "text_zh": "领导者们常问我一个问题：智能体能否可靠地完成端到端的实际工作？\n\n答案很大程度上取决于模型周围的\"框架\"——即决定如何将请求分解为步骤、调用哪些工具、记住什么内容以及何时停止的系统。https://twitter.com/tonygentilcore/status/2049482833111232694",
+      "text_zh_hash": "49134ca9e76ccfbf",
       "url": "https://x.com/jainarvind/status/2049483104411386077"
     },
     {
@@ -34441,6 +34453,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Full Workshop: @OpenAI Codex masterclass\n\nThe agent is no longer just one chat window. In this workshop, @reach_vb and @kagigz get into how coding systems start to change when you can delegate work across subagents, split tasks up, and manage more context than a single thread can https://x.com/aiDotEngineer/status/2049527486124560491/photo/1 https://twitter.com/reach_vb/status/2033636057690800452",
+      "text_zh": "完整工作坊：@OpenAI Codex 大师课\n\n智能体不再只是一个聊天窗口。在本工作坊中，@reach_vb 和 @kagigz 深入探讨了当你可以将工作委派给子智能体、拆分任务、并管理比单个线程所能承载的更多上下文时，编码系统将如何开始发生变化。https://x.com/aiDotEngineer/status/2049527486124560491/photo/1 https://twitter.com/reach_vb/status/2033636057690800452",
+      "text_zh_hash": "ff02eec72467b542",
       "url": "https://x.com/aiDotEngineer/status/2049527486124560491"
     },
     {
@@ -34480,6 +34494,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "New Awesome DeepSeek\n\nhttps://github.com/deepseek-ai/awesome-deepseek-agent",
+      "text_zh": "全新 Awesome DeepSeek\n\nhttps://github.com/deepseek-ai/awesome-deepseek-agent",
+      "text_zh_hash": "67f9c238cce0ab7f",
       "url": "https://x.com/Presidentlin/status/2049484579816226885"
     },
     {
@@ -34650,6 +34666,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI adoption ≠ AI transformation\nThe winners will redesign their org around AI, not bolt it onto the old one.\nGreat take by @RaphaelDabadie from @Foaster_ai https://twitter.com/RaphaelDabadie/status/2048433094198231296",
+      "text_zh": "AI 采用 ≠ AI 转型  \n赢家会围绕 AI 重新设计组织，而非将其生硬地嫁接在旧架构上。  \n@RaphaelDabadie 来自 @Foaster_ai 的精彩观点 https://twitter.com/RaphaelDabadie/status/2048433094198231296",
+      "text_zh_hash": "f4daac42718dc215",
       "url": "https://x.com/dessaigne/status/2048801030524338191"
     },
     {
@@ -34788,6 +34806,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the perfect AI agent should remember everything.\n\nSam Altman said it: \"every conversation. every book. every email. your whole life appending to one context window.\"\n\nmemory isn't a feature. it's the definition.\n\nI just built the memory layer. open source. install in one command. https://x.com/Av1dlive/status/2048820874690842886/video/1 https://twitter.com/Av1dlive/status/2048800691943309698",
+      "text_zh": "完美的 AI 智能体应当记住一切。\n\nSam Altman 说过：\"每一次对话。每一本书。每一封邮件。你整个人生都附加到一个上下文窗口中。\"\n\n记忆不是一项功能。它就是定义本身。\n\n我刚刚构建了记忆层。开源。一条命令即可安装。https://x.com/Av1dlive/status/2048820874690842886/video/1 https://twitter.com/Av1dlive/status/2048800691943309698",
+      "text_zh_hash": "468f2d83db56fd4e",
       "url": "https://x.com/Av1dlive/status/2048820874690842886"
     },
     {
@@ -34844,6 +34864,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "David Silver is the brilliant mind who conquered the devilishly difficult game of Go.\n\nThe key insight: learning from experience (self-play, RL)  triumphs over human priors.\n\n@Alfred_Lin &amp; I are honored to back David as he builds an experience-driven superlearner @IneffableLabs https://x.com/sonyatweetybird/status/2048796919879832008/photo/1 https://twitter.com/Alfred_Lin/status/2048792542771027975",
+      "text_zh": "大卫·西尔弗（David Silver）是攻克了极其复杂的围棋游戏的杰出天才。\n\n其核心洞见在于：从经验中学习（自我对弈、强化学习）胜过人类先验知识。\n\n我与@Alfred_Lin 很荣幸能支持大卫，他正在@IneffableLabs 打造一个经验驱动的超级学习系统。https://x.com/sonyatweetybird/status/2048796919879832008/photo/1 https://twitter.com/Alfred_Lin/status/2048792542771027975",
+      "text_zh_hash": "e529677840e192b9",
       "url": "https://x.com/sonyatweetybird/status/2048796919879832008"
     },
     {
@@ -34927,6 +34949,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "My latest scenario: we are entering a period of permanent (decades) ultra-high uncertainty, in AI and all around. https://kevinkelly.substack.com/p/our-uncertain-uncertainties",
+      "text_zh": "我最新设想的情景：我们正进入一个持续数十年、在人工智能及其相关领域都充满极高不确定性的时期。https://kevinkelly.substack.com/p/our-uncertain-uncertainties",
+      "text_zh_hash": "ea28f23fa3d671fd",
       "url": "https://x.com/kevin2kelly/status/2048839114137743549"
     },
     {
@@ -34983,6 +35007,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "claude code users when they realize this .md file will 10x their outputs https://x.com/DataChaz/status/2048716448961290347/video/1 https://twitter.com/zodchiii/status/2048683276194185640",
+      "text_zh": "Claude Code 用户在意识到这个 .md 文件能让他们的产出提升 10 倍时的反应\n\nhttps://x.com/DataChaz/status/2048716448961290347/video/1\nhttps://twitter.com/zodchiii/status/2048683276194185640",
+      "text_zh_hash": "582d7c2e3027596a",
       "url": "https://x.com/DataChaz/status/2048716448961290347"
     },
     {
@@ -35079,6 +35105,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the AI knowledge layer is the highest leverage thing you can build for your agents right now\n\n90% are stuck at custom prompts and manual skills, the next step is setting up brand foundation and a knowledge base\n\ngenerated a breakdown of the article below\n\nsave this and send it to https://x.com/shannholmberg/status/2048787219083878452/photo/1 https://twitter.com/shannholmberg/status/2044111115878326444",
+      "text_zh": "AI 知识层是目前你为智能体构建的最高杠杆率的东西\n\n90% 的人仍停留在自定义提示词和手动技能阶段，下一步是建立品牌基础与知识库\n\n生成了以下文章的详细分解\n\n保存此内容并发送至 https://x.com/shannholmberg/status/2048787219083878452/photo/1 https://twitter.com/shannholmberg/status/2044111115878326444",
+      "text_zh_hash": "4682f5d84bbc71cf",
       "url": "https://x.com/shannholmberg/status/2048787219083878452"
     },
     {
@@ -35121,6 +35149,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OpenClaw is interesting because it breaks in the right places.\n\nThat sounds like criticism. I mean it as the reason to study it.\n\nThe AI agent demos with OpenClaw are impressive, but the failures are more useful.\n\nThey show the real work hiding behind every serious agent system. https://twitter.com/hnshah/status/2048773771662934078",
+      "text_zh": "OpenClaw 的有趣之处在于它在恰当的地方失效了。\n\n这听起来像批评，但我正是因此才研究它。\n\n基于 OpenClaw 的 AI 智能体演示令人印象深刻，但其中的失败案例更具价值。\n\n它们揭示了每个严肃智能体系统背后隐藏的真实工作。https://twitter.com/hnshah/status/2048773771662934078",
+      "text_zh_hash": "6f7a930ad909dbe9",
       "url": "https://x.com/hnshah/status/2048786748814356937"
     },
     {
@@ -35259,6 +35289,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "wrote another article. https://twitter.com/quarqlabs/status/2048802002877251600",
+      "text_zh": "又写了一篇文章。https://twitter.com/quarqlabs/status/2048802002877251600",
+      "text_zh_hash": "9d3d1c3e22fabb41",
       "url": "https://x.com/smykx/status/2048803840435388842"
     },
     {
@@ -35298,6 +35330,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "NEW POST\n\nThoughtworks internal IT use a workflow for agentic programming called Structured-Prompt-Driven Development (SPDD). @WeiZhang595190  and Jessie Jie Xia describe how this works with a simple example plus details in a github project. \n\nhttps://martinfowler.com/articles/structured-prompt-driven/",
+      "text_zh": "新文章\n\nThoughtworks 内部 IT 采用了一种名为“结构化提示驱动开发”（Structured-Prompt-Driven Development，SPDD）的代理编程工作流。@WeiZhang595190 和 Jessie Jie Xia 通过一个简单示例及 GitHub 项目中的详细说明，描述了这一工作流的运作方式。\n\nhttps://martinfowler.com/articles/structured-prompt-driven/",
+      "text_zh_hash": "e0df688f11611e3f",
       "url": "https://x.com/martinfowler/status/2049115357781098709"
     },
     {
@@ -35340,6 +35374,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "An LLM is stateless. Every call is like talking to someone who has never met you before.\n\nAI Agent Memory is the system that fakes remembering. The LLM does not remember. The agent remembers on its behalf. https://twitter.com/amitiitbhu/status/2048977539893547456",
+      "text_zh": "LLM 是无状态的。每次调用都像是在和一个从未见过你的人对话。\n\nAI Agent 记忆系统则模拟了记忆功能。LLM 本身并不具备记忆能力，而是由 Agent 代为记忆。https://twitter.com/amitiitbhu/status/2048977539893547456",
+      "text_zh_hash": "3f98ae1e824f6066",
       "url": "https://x.com/amitiitbhu/status/2049089818584654306"
     },
     {
@@ -35390,6 +35426,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "My friend is a 10x software engineer.\n\nHe is insanely gifted. We were looking at the Yamauchi No.10 Family Office website together years ago and I asked him what it would cost to build it today. I will never forget his answer…\n\n\"We can’t, we don’t know how to do it.\" https://x.com/leerob/status/2048761048786690391/video/1",
+      "text_zh": "我朋友是个10倍效率的软件工程师。\n\n他天赋异禀。几年前我们一起浏览山内第10家族办公室的网站时，我问他如今要搭建这样一个网站需要多少成本。我永远忘不了他的回答……\n\n\"我们做不到，我们不知道怎么做。\" https://x.com/leerob/status/2048761048786690391/video/1",
+      "text_zh_hash": "ea36db57830a2462",
       "url": "https://x.com/leerob/status/2048761048786690391"
     },
     {
@@ -35429,6 +35467,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I’ve been thinking about how I present design work. Over the weekend, I revisited an article I wrote in 2018 and found it very grounding. I updated it and added an audio version to my site.\n\nhttps://charliedeets.com/writings/presenting-design-work",
+      "text_zh": "我一直在思考如何展示设计作品。周末，我重读了自己2018年写的一篇文章，发现它依然能让我回归本心。于是我对文章进行了更新，并在网站上添加了音频版本。\n\nhttps://charliedeets.com/writings/presenting-design-work",
+      "text_zh_hash": "295585edb08fcc1a",
       "url": "https://x.com/charliedeets/status/2048750710322282631"
     },
     {
@@ -35485,6 +35525,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Building AI Agents with Skills vs without Skills https://x.com/Saboo_Shubham_/status/2048841506744877419/video/1 https://twitter.com/Saboo_Shubham_/status/2048596364196761721",
+      "text_zh": "构建具备技能与不具备技能的AI智能体 https://x.com/Saboo_Shubham_/status/2048841506744877419/video/1 https://twitter.com/Saboo_Shubham_/status/2048596364196761721",
+      "text_zh_hash": "45d7f34b7d4b8feb",
       "url": "https://x.com/Saboo_Shubham_/status/2048841506744877419"
     },
     {
@@ -35661,6 +35703,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The most powerful real-time visual tool in creative coding also has the steepest learning curve\n\nNow your Hermes agent can just run TouchDesigner for you.\n\nVideo credit: made by @macbethAI, a talented AI artist and avid Hermes user, with the TouchDesigner skill https://x.com/NousResearch/status/2048917794410897914/video/1",
+      "text_zh": "创意编程中最强大的实时视觉工具，学习曲线也最为陡峭。\n\n现在，你的 Hermes 智能体可以直接为你运行 TouchDesigner。\n\n视频来源：由才华横溢的 AI 艺术家兼 Hermes 重度用户 @macbethAI 使用 TouchDesigner 技能制作。https://x.com/NousResearch/status/2048917794410897914/video/1",
+      "text_zh_hash": "691c5eec71e1cbd2",
       "url": "https://x.com/NousResearch/status/2048917794410897914"
     },
     {
@@ -36015,6 +36059,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I poured all my engineering knowledge into this blog, so if you're not reading it, you're seriously missing out. https://twitter.com/ghumare64/status/2047401813364683007",
+      "text_zh": "我把所有工程知识都倾注在这篇博客里了，如果你还没读，那真是亏大了。https://twitter.com/ghumare64/status/2047401813364683007",
+      "text_zh_hash": "4eb94a5a7176511e",
       "url": "https://x.com/ghumare64/status/2048351073992073253"
     },
     {
@@ -36100,6 +36146,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "a few lessons we’ve learned on context management + long-term memory https://twitter.com/RLanceMartin/status/2047720067107033525",
+      "text_zh": "我们在上下文管理与长期记忆方面学到的一些经验 https://twitter.com/RLanceMartin/status/2047720067107033525",
+      "text_zh_hash": "b91ceb37c137562a",
       "url": "https://x.com/RLanceMartin/status/2048455663756677618"
     },
     {
@@ -36150,6 +36198,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Deepseek-v4-flash continues to slam through all my benchmarks, puzzles, challenges, and work. \n\nVideo coming tomorrow full breakdown of the model capabilities, and costs to get running. https://x.com/0xSero/status/2048446728366346528/video/1",
+      "text_zh": "Deepseek-v4-flash 持续碾压我所有的基准测试、谜题、挑战和工作任务。\n\n明天将发布视频，全面解析该模型的能力及运行成本。https://x.com/0xSero/status/2048446728366346528/video/1",
+      "text_zh_hash": "7321db89bd603542",
       "url": "https://x.com/0xSero/status/2048446728366346528"
     },
     {
@@ -36320,6 +36370,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the crawl army so agents can read it all. https://x.com/steipete/status/2048159526822535435/photo/1",
+      "text_zh": "爬虫大军出动，让智能体能够读取所有内容。https://x.com/steipete/status/2048159526822535435/photo/1",
+      "text_zh_hash": "e5a5e7ada1ed1eef",
       "url": "https://x.com/steipete/status/2048159526822535435"
     },
     {
@@ -36451,6 +36503,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "React Native is dead 😭 https://twitter.com/expo/status/2047801945013002684",
+      "text_zh": "React Native 已死 😭 https://twitter.com/expo/status/2047801945013002684",
+      "text_zh_hash": "6145ee567adc1e04",
       "url": "https://x.com/adnansahinovich/status/2047967495680651537"
     },
     {
@@ -36593,6 +36647,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Amp's smart mode now uses Opus 4.7.\n\nIt's very, very good.\n\nAnd we could remove three tools. \n\nhttps://ampcode.com/news/opus-4.7 https://x.com/thorstenball/status/2047968722887815566/photo/1",
+      "text_zh": "Amp 的智能模式现已使用 Opus 4.7。\n\n效果非常、非常出色。\n\n而且我们移除了三个工具。\n\nhttps://ampcode.com/news/opus-4.7 https://x.com/thorstenball/status/2047968722887815566/photo/1",
+      "text_zh_hash": "0b03092250ee26f4",
       "url": "https://x.com/thorstenball/status/2047968722887815566"
     },
     {
@@ -36649,6 +36705,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I automated my content engine and 2 hrs/day dropped to 10 min\n\n[ what’s new in v2 ]:\n\n- 9 platforms scraped while I sleep → 2,000+ topics/day\n- a 5-signal scoring brain that filters down to the 10 that matter\n- voice DNA writer.. same tone, different structure every time\n- a https://x.com/DeRonin_/status/2048078915520901242/photo/1 https://twitter.com/deronin_/status/2042604279077237170",
+      "text_zh": "我实现了内容引擎自动化，每天2小时的工作量缩减到10分钟\n\n[ v2 新功能 ]：\n\n- 在我睡觉时抓取9个平台 → 每天2,000+个话题\n- 5信号评分大脑，过滤出10个真正重要的内容\n- 语音DNA写作器... 保持相同语调，每次结构不同\n- 一个 https://x.com/DeRonin_/status/2048078915520901242/photo/1 https://twitter.com/deronin_/status/2042604279077237170",
+      "text_zh_hash": "608e5c06461727f9",
       "url": "https://x.com/DeRonin_/status/2048078915520901242"
     },
     {
@@ -36684,6 +36742,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Weekends are for building... except today it was mostly cleaning up messy code\n\nSo I am publishing a skill I made to save you all some time - it's one command /tech-debt-skill\n\nAnd you'll get back a very thorough review file with everything that needs to be addressed\n\nAnd not",
+      "text_zh": "周末是用来构建的……但今天大部分时间都在清理混乱的代码\n\n所以我发布了一个技能，希望能为大家节省时间——只需一条命令 `/tech-debt-skill`\n\n你将获得一份非常详尽的审查文件，列出所有需要处理的问题\n\n而且不会",
+      "text_zh_hash": "a19236678854bc23",
       "url": "https://x.com/KSimback/status/2048166748575203593"
     },
     {
@@ -36839,6 +36899,8 @@
         "favorite@CatHanami97880"
       ],
       "text": "At the end of the day, taste matters https://x.com/uiux_harshit/status/2038671337414414757/photo/1",
+      "text_zh": "归根结底，品味才是关键 https://x.com/uiux_harshit/status/2038671337414414757/photo/1",
+      "text_zh_hash": "196ef8bdbd89d7ca",
       "url": "https://x.com/uiux_harshit/status/2038671337414414757"
     },
     {
@@ -36994,6 +37056,8 @@
         "favorite@chumsdock"
       ],
       "text": "pretty insane scroll effect by @azhassan_\n\n(swift ui metal shader)  \n https://x.com/azhassan_/status/2018342393410400408/video/1",
+      "text_zh": "@azhassan_ 制作的超炫酷滚动效果\n\n（Swift UI 金属着色器）\nhttps://x.com/azhassan_/status/2018342393410400408/video/1",
+      "text_zh_hash": "3b428d4db50c189e",
       "url": "https://x.com/Aurelien_Gz/status/2053156936552415606"
     },
     {
@@ -37116,6 +37180,8 @@
         "favorite@chumsdock"
       ],
       "text": "Why hire us for your product design?\n\nBecause we have a complete product system that brings every design we implement to the next level 🚀 https://x.com/_heyrico/status/2052765030303855070/photo/1 https://twitter.com/1332370121071816706/status/2052706098046697956",
+      "text_zh": "为何选择我们进行产品设计？\n\n因为我们拥有完整的产品体系，能将每一个落地的设计提升至全新高度 🚀 https://x.com/_heyrico/status/2052765030303855070/photo/1 https://twitter.com/1332370121071816706/status/2052706098046697956",
+      "text_zh_hash": "b37797a714893987",
       "url": "https://x.com/_heyrico/status/2052765030303855070"
     },
     {
@@ -37196,6 +37262,8 @@
         "favorite@chumsdock"
       ],
       "text": "Design guidelines from Bythlon https://x.com/swarnima_otw/status/2053004540904091925/photo/1",
+      "text_zh": "来自 Bythlon 的设计指南 https://x.com/swarnima_otw/status/2053004540904091925/photo/1",
+      "text_zh_hash": "aab3441f62617d99",
       "url": "https://x.com/swarnima_otw/status/2053004540904091925"
     },
     {
@@ -37479,6 +37547,8 @@
         "favorite@chumsdock"
       ],
       "text": "love where we landed w/ conduit https://x.com/ayushsoni_io/status/2052682499885859256/photo/1",
+      "text_zh": "很喜欢我们最终在conduit上的成果 https://x.com/ayushsoni_io/status/2052682499885859256/photo/1",
+      "text_zh_hash": "3ad8a854033713f1",
       "url": "https://x.com/ayushsoni_io/status/2052682499885859256"
     },
     {
@@ -37529,6 +37599,8 @@
         "favorite@chumsdock"
       ],
       "text": "Progressive blur reveal https://x.com/JoelTankard/status/2045049691747004890/video/1",
+      "text_zh": "渐进式模糊揭示 https://x.com/JoelTankard/status/2045049691747004890/video/1",
+      "text_zh_hash": "72b85d690d74491f",
       "url": "https://x.com/JoelTankard/status/2045049691747004890"
     },
     {
@@ -37601,6 +37673,8 @@
         "favorite@chumsdock"
       ],
       "text": "Crazy what you can do with Bump Mapping &amp; some SVG filters https://x.com/JoelTankard/status/2052556086071173518/video/1",
+      "text_zh": "利用凹凸贴图（Bump Mapping）和一些 SVG 滤镜，你能实现的效果简直不可思议。https://x.com/JoelTankard/status/2052556086071173518/video/1",
+      "text_zh_hash": "a36837fc358238d5",
       "url": "https://x.com/JoelTankard/status/2052556086071173518"
     },
     {
@@ -37772,6 +37846,8 @@
         "bookmark@chumsdock"
       ],
       "text": "the stuff that never gets likes is the stuff that makes the work good\n\ncolor systems. type scales. pattern logic. grid rules.\n\nnobody posts these, but they're why the final work holds together https://x.com/VadimCarazan/status/2052362586654470249/photo/1 https://twitter.com/VadimCarazan/status/2051679802432610411",
+      "text_zh": "那些永远得不到点赞的东西，恰恰是让作品变得优秀的东西。\n\n色彩系统。字体层级。模式逻辑。网格规则。\n\n没有人会发布这些，但它们正是最终作品能够浑然一体的原因。",
+      "text_zh_hash": "04b455538d697095",
       "url": "https://x.com/VadimCarazan/status/2052362586654470249"
     },
     {
@@ -37893,6 +37969,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Peekaboo 3.0 is live. Biggest release since 2.0.\n\n⚡ Action-first macOS computer use\n👁️ Unified screenshot + UI detection\n🧩 Cleaner JSON across CLI + MCP\n🛠️ Better snapshots\n\nI started this last year, but the models just weren’t good enough. Now they are. https://peekaboo.sh",
+      "text_zh": "Peekaboo 3.0 已正式上线。这是自 2.0 以来最大的一次版本更新。\n\n⚡ 以操作为先的 macOS 电脑使用体验  \n👁️ 统一截图 + 界面检测  \n🧩 更简洁的 JSON，覆盖 CLI 和 MCP  \n🛠️ 更完善的快照功能  \n\n我去年就启动了该项目，但当时模型还不够成熟。现在，它们已经足够好了。https://peekaboo.sh",
+      "text_zh_hash": "318d3ca68d388e87",
       "url": "https://x.com/steipete/status/2053114837698249190"
     },
     {
@@ -38025,6 +38103,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Inheritable taste through skill files https://x.com/emilkowalski/status/2052400581528916288/photo/1",
+      "text_zh": "通过技能文件实现可继承的风格 https://x.com/emilkowalski/status/2052400581528916288/photo/1",
+      "text_zh_hash": "745c2ec9423474ad",
       "url": "https://x.com/emilkowalski/status/2052400581528916288"
     },
     {
@@ -38107,6 +38187,8 @@
         "favorite@chumsdock"
       ],
       "text": "NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION. \n\nUnbelievable perspectives captured by the Crew! The aurora on the eclipse is incredible. https://x.com/matthewwmullin/status/2050945938999431592/photo/1",
+      "text_zh": "NASA已发布超过12,000张阿尔忒弥斯二号任务图像。\n\n机组人员捕捉到了令人难以置信的视角！日食期间的极光景象令人叹为观止。https://x.com/matthewwmullin/status/2050945938999431592/photo/1",
+      "text_zh_hash": "b61a3dc47c553999",
       "url": "https://x.com/matthewwmullin/status/2050945938999431592"
     },
     {
@@ -38155,6 +38237,8 @@
         "bookmark@chumsdock"
       ],
       "text": "@OpenAI Here is the link btw\nhttps://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg",
+      "text_zh": "@OpenAI 顺便附上链接\nhttps://chromewebstore.google.com/detail/codex/hehggadaopoacecdllhhajmbjkdcmajg",
+      "text_zh_hash": "b84d29a00fd11adc",
       "url": "https://x.com/VoidsWork/status/2052491063986733429"
     },
     {
@@ -38259,6 +38343,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Codex now works directly in Chrome on macOS and Windows.\n\nIt’s even better at working with apps and sites in Chrome, and now works in parallel across tabs in the background without taking over your browser.\n\nTo get started, install the Chrome plugin in the Codex app. https://x.com/OpenAI/status/2052480800004956323/video/1",
+      "text_zh": "Codex 现在可以直接在 macOS 和 Windows 上的 Chrome 浏览器中运行。\n\n它在处理 Chrome 中的应用程序和网站时表现更出色，并且现在可以在后台跨标签页并行工作，而不会占用你的浏览器。\n\n要开始使用，请在 Codex 应用中安装 Chrome 插件。https://x.com/OpenAI/status/2052480800004956323/video/1",
+      "text_zh_hash": "6f410cb973b02ec5",
       "url": "https://x.com/OpenAI/status/2052480800004956323"
     },
     {
@@ -38310,6 +38396,8 @@
         "favorite@chumsdock"
       ],
       "text": "Today is Interfacer's first anniversary 🎊🎊 Quick recap: https://x.com/intrfacer/status/2051674574568268023/video/1",
+      "text_zh": "今天是 Interfacer 的一周年纪念日 🎊🎊 快速回顾：https://x.com/intrfacer/status/2051674574568268023/video/1",
+      "text_zh_hash": "bb7a6f1d35583a53",
       "url": "https://x.com/intrfacer/status/2051674574568268023"
     },
     {
@@ -38406,6 +38494,8 @@
         "bookmark@chumsdock"
       ],
       "text": "How to set up your own AI project manager, via @kplikethebird:\n\n1. Give it context\n\nFeed the agent your OKRs, strategy docs, project briefs, recurring workstream docs, and a stack-rank of what matters most.\n\nThe stack-rank is key. Your agent needs to know which project you would https://x.com/every/status/2051336617609335230/photo/1",
+      "text_zh": "如何搭建你自己的AI项目经理，来自 @kplikethebird：\n\n1. 提供上下文\n\n向agent输入你的OKR、战略文档、项目简报、周期性工作流文档，以及最重要事项的优先级排序。\n\n优先级排序是关键。你的agent需要知道哪个项目是你最优先关注的。",
+      "text_zh_hash": "cc601ad63a934c8c",
       "url": "https://x.com/every/status/2051336617609335230"
     },
     {
@@ -38486,6 +38576,8 @@
         "favorite@chumsdock"
       ],
       "text": "Minimal Line + Color Accent Illustrations\n\nPROMPT:\n“Minimal illustration of [SUBJECT/OBJECT], clean thin lines with selective vibrant color accents, lots of negative space, refined composition, modern editorial style, elegant and simple.” https://x.com/aleenaamiir/status/2049400614195794230/photo/1",
+      "text_zh": "极简线条 + 色彩点缀插画\n\n提示词：\n“极简插画，描绘[主体/物体]，干净纤细的线条，局部点缀鲜艳色彩，大量留白，构图精炼，现代编辑风格，优雅简约。” https://x.com/aleenaamiir/status/2049400614195794230/photo/1",
+      "text_zh_hash": "02d6a9f31ae02701",
       "url": "https://x.com/aleenaamiir/status/2049400614195794230"
     },
     {
@@ -38621,6 +38713,8 @@
         "bookmark@chumsdock"
       ],
       "text": "I’ve had the most fun I’ve found in a while noodling over all the little details on my site. Wild how much pent up creativity was stuck behind minor technical limitations in things like app architecture and deployment. AI is a force multiplier for designers, not a death sentence https://x.com/elou/status/2051292836763762747/video/1",
+      "text_zh": "我最近一直在琢磨网站上的各种小细节，这真是我很久以来最开心的事了。真没想到，那么多被压抑的创意，竟然只是因为应用架构和部署这类小技术限制而卡住了。AI 是设计师的倍增器，而不是死刑判决。https://x.com/elou/status/2051292836763762747/video/1",
+      "text_zh_hash": "41c05bc2b0b23809",
       "url": "https://x.com/elou/status/2051292836763762747"
     },
     {
@@ -38708,6 +38802,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing Mini Apps.\n\nA new way to interact with AI agents. No more walls of text.\n\nGet custom apps for your workflows:\n&gt; Hiring? A site comparing every candidate.\n&gt; Deal flow? A tracker with every touchpoint.\n&gt; Running ads? A dashboard for every campaign.\n\nLive now. Enjoy :) https://x.com/NebulaAI/status/2051793024141721841/video/1",
+      "text_zh": "推出迷你应用。\n\n一种与AI智能体交互的全新方式。告别长篇大论的文本。\n\n为你的工作流定制专属应用：\n> 招聘中？一个对比所有候选人的网站。\n> 交易流程？一个记录每个接触点的追踪器。\n> 投放广告？一个管理每个广告活动的仪表盘。\n\n现已上线。尽情享用 :) https://x.com/NebulaAI/status/2051793024141721841/video/1",
+      "text_zh_hash": "a4d1c686bdc913ab",
       "url": "https://x.com/NebulaAI/status/2051793024141721841"
     },
     {
@@ -38824,6 +38920,8 @@
         "favorite@chumsdock"
       ],
       "text": "Prompt share: Notion Mono Editorial\n\n💬Prompt:\nA simple black-and-white illustration of a [subject] in [outfit], [doing action], with a [facial expression] expression, in a Notion-style minimalist editorial aesthetic, clean line art, flat monochrome design, simple shapes, subtle https://x.com/azed_ai/status/2051603007109054865/photo/1",
+      "text_zh": "提示词分享：Notion Mono Editorial\n\n💬提示词：\n一幅简单的黑白插画，描绘了[主题]穿着[服装]，正在[做动作]，面带[面部表情]，采用Notion风格的极简编辑美学，干净的线条艺术，扁平单色设计，简洁的形状，微妙的https://x.com/azed_ai/status/2051603007109054865/photo/1",
+      "text_zh_hash": "c616db13a92369f9",
       "url": "https://x.com/azed_ai/status/2051603007109054865"
     },
     {
@@ -39069,6 +39167,8 @@
         "favorite@chumsdock"
       ],
       "text": "neighborhood scene https://x.com/HakimiHamizi/status/2047095967288316061/video/1 https://twitter.com/HakimiHamizi/status/2046566772699218233",
+      "text_zh": "街区场景 https://x.com/HakimiHamizi/status/2047095967288316061/video/1 https://twitter.com/HakimiHamizi/status/2046566772699218233",
+      "text_zh_hash": "245e0334e9b4af0b",
       "url": "https://x.com/HakimiHamizi/status/2047095967288316061"
     },
     {
@@ -39156,6 +39256,8 @@
         "favorite@chumsdock"
       ],
       "text": "Parallel Agents just shipped. Mix and match any agent, run them all at once, and manage everything from a new Threads Sidebar. Claude Agent, Codex, Zed's agent, or anything on ACP. One window, across all your projects.\n\nhttps://zed.dev/blog/parallel-agents https://x.com/zeddotdev/status/2047004387961106435/photo/1",
+      "text_zh": "Parallel Agents 现已发布。您可以混搭任意代理，同时运行它们，并通过全新的线程侧边栏管理一切。支持 Claude Agent、Codex、Zed 的代理，或任何基于 ACP 的代理。一个窗口，覆盖您所有项目。\n\nhttps://zed.dev/blog/parallel-agents https://x.com/zeddotdev/status/2047004387961106435/photo/1",
+      "text_zh_hash": "57078e2a6abf4044",
       "url": "https://x.com/zeddotdev/status/2047004387961106435"
     },
     {
@@ -39245,6 +39347,8 @@
         "favorite@chumsdock"
       ],
       "text": "For the past few months, @pierrecomputer has been working on a brand new primitive, Trees. Just like Diffs, it’s an incredibly fast, modern, and beautiful library for rendering lists of files and folders. https://x.com/mdo/status/2047019336439841070/photo/1",
+      "text_zh": "过去几个月，@pierrecomputer 一直在开发一个全新的基础组件——Trees。与 Diffs 类似，这是一个极其快速、现代且美观的库，用于渲染文件和文件夹列表。https://x.com/mdo/status/2047019336439841070/photo/1",
+      "text_zh_hash": "ea80a9eb3657faa4",
       "url": "https://x.com/mdo/status/2047019336439841070"
     },
     {
@@ -39327,6 +39431,8 @@
         "bookmark@chumsdock"
       ],
       "text": "UPDATE for imagegen-frontend-web skill\n\nmore \"creative\" outputs\n- different layouts\n- better understanding of the request\n\nskill:\nhttps://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md https://x.com/LexnLin/status/2051008331355971979/photo/1",
+      "text_zh": "# imagegen-frontend-web 技能更新\n\n更具\"创意\"的输出\n- 不同的布局\n- 更好地理解请求\n\n技能：\nhttps://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md https://x.com/LexnLin/status/2051008331355971979/photo/1",
+      "text_zh_hash": "8a681f1616728f24",
       "url": "https://x.com/LexnLin/status/2051008331355971979"
     },
     {
@@ -39419,6 +39525,8 @@
         "favorite@chumsdock"
       ],
       "text": "Colorcons https://x.com/iconists/status/2047041569702785325/photo/1",
+      "text_zh": "Colorcons https://x.com/iconists/status/2047041569702785325/photo/1",
+      "text_zh_hash": "5b98d956e0936f2c",
       "url": "https://x.com/iconists/status/2047041569702785325"
     },
     {
@@ -39808,6 +39916,8 @@
         "favorite@chumsdock"
       ],
       "text": "Des skieurs qui ressemblent à des notes de musique…  \n\nUne magnifique photo de Haukur Sigurdsson. https://x.com/PerseusLeGrand/status/2044527132244684905/photo/1",
+      "text_zh": "滑雪者宛如音符般跃动……\n\nHaukur Sigurdsson 的绝美摄影作品。https://x.com/PerseusLeGrand/status/2044527132244684905/photo/1",
+      "text_zh_hash": "6f6260dbafce0a8f",
       "url": "https://x.com/PerseusLeGrand/status/2044527132244684905"
     },
     {
@@ -39850,6 +39960,8 @@
         "bookmark@chumsdock"
       ],
       "text": "So excited for this - in the past four months I've written all my code using Deep Agents with:\n\n- Opus 4.6\n- GPT-5.4\n- GLM-5\n- Kimi 2.6\n- Opus 4.7\n- GPT-5.5\n\nCurrently using 5.5 as my driver with Opus supporting with reviews. Pumped to make that work even better! https://twitter.com/Vtrivedy10/status/2049535740233523600",
+      "text_zh": "太期待了——过去四个月，我一直用 Deep Agents 编写所有代码，搭配了：\n\n- Opus 4.6\n- GPT-5.4\n- GLM-5\n- Kimi 2.6\n- Opus 4.7\n- GPT-5.5\n\n目前以 5.5 作为主力驱动，Opus 辅助进行审查。非常期待能让这套组合发挥得更好！https://twitter.com/Vtrivedy10/status/2049535740233523600",
+      "text_zh_hash": "39c373ceb4d2ae1f",
       "url": "https://x.com/Hacubu/status/2049539835824873811"
     },
     {
@@ -40022,6 +40134,8 @@
         "favorite@chumsdock"
       ],
       "text": "The SEGA_DBS https://x.com/SciFiArchives/status/2044463260343152966/photo/1",
+      "text_zh": "SEGA_DBS https://x.com/SciFiArchives/status/2044463260343152966/photo/1",
+      "text_zh_hash": "bc26f2575f95f2d0",
       "url": "https://x.com/SciFiArchives/status/2044463260343152966"
     },
     {
@@ -40072,6 +40186,8 @@
         "bookmark@chumsdock"
       ],
       "text": "// Agentic Harness Engineering //\n\nPay attention to this one, AI devs.\n\n(bookmark it)\n\nMost coding-agent harnesses are still tuned by hand or brittle trial-and-error self-evolution.\n\nThis new work introduces Agentic Harness Engineering, a framework that makes harness evolution https://x.com/omarsar0/status/2049492169887748365/photo/1",
+      "text_zh": "// 智能体框架工程 //\n\nAI开发者们，请留意这个。\n\n（收藏它）\n\n大多数编码智能体框架仍依赖手动调优或脆弱的试错式自我进化。\n\n这项新工作引入了智能体框架工程（Agentic Harness Engineering），一个让框架进化变得系统化的框架。https://x.com/omarsar0/status/2049492169887748365/photo/1",
+      "text_zh_hash": "56198b3274f01645",
       "url": "https://x.com/omarsar0/status/2049492169887748365"
     },
     {
@@ -40122,6 +40238,8 @@
         "favorite@chumsdock"
       ],
       "text": "LEGOtype animation. A-B.\nBlender. \nMore to come… https://x.com/black_boi__/status/2044467856998371673/video/1",
+      "text_zh": "LEGO风格动画。A-B。\nBlender制作。\n更多内容即将推出…… https://x.com/black_boi__/status/2044467856998371673/video/1",
+      "text_zh_hash": "c55748f38a13a474",
       "url": "https://x.com/black_boi__/status/2044467856998371673"
     },
     {
@@ -40163,6 +40281,8 @@
         "bookmark@chumsdock"
       ],
       "text": "https://developers.openai.com/api/docs/guides/prompt-guidance?model=gpt-5.5\n\n**NEW: GPT-5.5 Prompting Guide**\n\n\"GPT-5.5 works best when prompts define the outcome and leave room for the model to choose an efficient solution path. Compared with earlier models, you can often use shorter, more outcome-oriented prompts: describe what",
+      "text_zh": "https://developers.openai.com/api/docs/guides/prompt-guidance?model=gpt-5.5\n\n**新：GPT-5.5 提示词指南**\n\n\"GPT-5.5 在提示词明确界定预期结果、并为模型留出选择高效解决路径的空间时表现最佳。与早期模型相比，你通常可以使用更简短、更注重结果的提示词：描述你期望的最终输出即可。",
+      "text_zh_hash": "c5b98a42c592928d",
       "url": "https://x.com/TheRealAdamG/status/2049523746910908886"
     },
     {
@@ -40255,6 +40375,8 @@
         "bookmark@chumsdock"
       ],
       "text": "95%+ design restoration?\nThis is insane.\n\nOpen source + design systems + AI agents = 🔥 https://twitter.com/tuturetom/status/2049066330934976610",
+      "text_zh": "95%+ 的设计还原度？\n这太疯狂了。\n\n开源 + 设计系统 + AI 智能体 = 🔥 https://twitter.com/tuturetom/status/2049066330934976610",
+      "text_zh_hash": "d3687390f7f83236",
       "url": "https://x.com/SefaYilmaz_04/status/2049387268926853519"
     },
     {
@@ -40379,6 +40501,8 @@
         "favorite@chumsdock"
       ],
       "text": "Cursor, Codex, and Claude Code desktop look exactly the same now.",
+      "text_zh": "现在，Cursor、Codex 和 Claude Code 桌面版看起来完全一样了。",
+      "text_zh_hash": "f0672027a3ae5a07",
       "url": "https://x.com/rileybrown/status/2044249970220642732"
     },
     {
@@ -40560,6 +40684,8 @@
         "favorite@chumsdock"
       ],
       "text": "Introducing Fluid Functionalism, \nopen source ui components where every hover, transition, and animation serves a purpose.\n\nBuilt on top of shadcn/ui and radix. \nOne CLI command to install.\n\nLink ↓ https://x.com/micka_design/status/2044056580690428364/video/1",
+      "text_zh": "介绍 Fluid Functionalism，  \n这是一套开源 UI 组件，其中的每一次悬停、过渡和动画都服务于特定目的。\n\n基于 shadcn/ui 和 radix 构建。  \n一条 CLI 命令即可安装。\n\n链接 ↓ https://x.com/micka_design/status/2044056580690428364/video/1",
+      "text_zh_hash": "9e749ee8435f728d",
       "url": "https://x.com/micka_design/status/2044056580690428364"
     },
     {
@@ -40814,6 +40940,8 @@
         "favorite@chumsdock"
       ],
       "text": "Early version, more to come 🌸 https://x.com/bogdan_qclay/status/2042638807988641991/video/1",
+      "text_zh": "早期版本，更多精彩即将呈现 🌸 https://x.com/bogdan_qclay/status/2042638807988641991/video/1",
+      "text_zh_hash": "f3a7a73691e1c6fb",
       "url": "https://x.com/bogdan_qclay/status/2042638807988641991"
     },
     {
@@ -40896,6 +41024,8 @@
         "bookmark@chumsdock"
       ],
       "text": "I can't believe how well this works. I made a skill you can use in Claude Code called /documentation-website-for-software-project:\n\nhttps://jeffreys-skills.md/skills/documentation-website-for-software-project\n\nYou literally just invoke the skill in a folder containing a software project, and it autonomously cranks for an hour or https://x.com/doodlestein/status/2047325477967106067/photo/1",
+      "text_zh": "简直难以置信，这个功能居然这么好用。我制作了一个可以在 Claude Code 中使用的技能，叫做 /documentation-website-for-software-project：\n\nhttps://jeffreys-skills.md/skills/documentation-website-for-software-project\n\n你只需在包含软件项目的文件夹中调用这个技能，它就会自主运行一个小时左右，然后生成 https://x.com/doodlestein/status/2047325477967106067/photo/1",
+      "text_zh_hash": "8648c89e1b6538f0",
       "url": "https://x.com/doodlestein/status/2047325477967106067"
     },
     {
@@ -40946,6 +41076,8 @@
         "favorite@chumsdock"
       ],
       "text": "Your customers don't remember features. \n\nThey remember how you made them feel. Design creates that feeling. Every. Single. Time. https://x.com/_sameerrr0/status/2042580864052400433/video/1",
+      "text_zh": "你的客户不会记住功能。\n\n他们记住的是你带给他们的感受。设计创造了这种感受。每一次。都是如此。https://x.com/_sameerrr0/status/2042580864052400433/video/1",
+      "text_zh_hash": "ce828c36a10d2e4d",
       "url": "https://x.com/_sameerrr0/status/2042580864052400433"
     },
     {
@@ -40996,6 +41128,8 @@
         "bookmark@chumsdock"
       ],
       "text": "🚀 Meet Qwen3.6-27B, our latest dense, open-source model, packing flagship-level coding power!\n\nYes, 27B, and Qwen3.6-27B punches way above its weight. 👇\n\nWhat's new:\n🧠 Outstanding agentic coding — surpasses Qwen3.5-397B-A17B across all major coding benchmarks\n💡 Strong https://x.com/Alibaba_Qwen/status/2046939764428009914/photo/1",
+      "text_zh": "🚀 欢迎 Qwen3.6-27B，我们最新的稠密开源模型，拥有旗舰级的编码能力！\n\n没错，27B 参数，但 Qwen3.6-27B 的实力远超其体量。👇\n\n新特性：\n🧠 卓越的智能体编码能力 — 在所有主要编码基准测试中超越 Qwen3.5-397B-A17B\n💡 强大",
+      "text_zh_hash": "22405d1c023cc8cb",
       "url": "https://x.com/Alibaba_Qwen/status/2046939764428009914"
     },
     {
@@ -41142,6 +41276,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Copying component code on https://21st.dev/home is now one click away.\n\nNo more jumping to the component page - grab the prompt, the raw code, or code + demo right from the preview dialog or the listing. https://x.com/serafimcloud/status/2047009682133573885/photo/1",
+      "text_zh": "在 https://21st.dev/home 上复制组件代码现在只需一键即可完成。\n\n无需再跳转到组件页面——直接从预览对话框或列表中获取提示词、原始代码，或代码加演示。https://x.com/serafimcloud/status/2047009682133573885/photo/1",
+      "text_zh_hash": "aa090832e019d6a2",
       "url": "https://x.com/serafimcloud/status/2047009682133573885"
     },
     {
@@ -41192,6 +41328,8 @@
         "favorite@chumsdock"
       ],
       "text": "Introducing Impeccable 2.0.\n\n• data-driven skill rewrite (evals across 7 niches) → better font/color diversity\n• /critique: subagent de-bias + deterministic anti-pattern detection\n• visual mode: /critique, CLI, (soon) Chrome\n• npx impeccable detect (files + URLs)\n\nDemo: https://x.com/pbakaus/status/2041999176683418064/video/1",
+      "text_zh": "隆重推出 Impeccable 2.0。\n\n• 数据驱动的技能重写（覆盖 7 个细分领域的评估）→ 更丰富的字体/色彩多样性\n• /critique：子代理去偏 + 确定性反模式检测\n• 视觉模式：/critique、CLI，（即将推出）Chrome\n• npx impeccable detect（文件 + URL）\n\n演示：https://x.com/pbakaus/status/2041999176683418064/video/1",
+      "text_zh_hash": "4e27e19d10e2c905",
       "url": "https://x.com/pbakaus/status/2041999176683418064"
     },
     {
@@ -41379,6 +41517,8 @@
         "favorite@chumsdock"
       ],
       "text": "Relaunching my website I decided to finally put the not only the interactive version of Orbits on the page but also the original source code. Pre-AI code lol - https://glauber.org/archive/orbits (proper update with Lisergia, @luisbizarro framework that I love) https://x.com/glauberxyz/status/2042079444031172898/video/1",
+      "text_zh": "重新上线我的网站时，我决定不仅把交互版的Orbits放上去，还要附上原始源代码。AI时代前的代码哈哈 - https://glauber.org/archive/orbits （配合Lisergia和@luisbizarro框架的正式更新，这个框架我超爱）https://x.com/glauberxyz/status/2042079444031172898/video/1",
+      "text_zh_hash": "53878eee04e476c2",
       "url": "https://x.com/glauberxyz/status/2042079444031172898"
     },
     {
@@ -41429,6 +41569,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing the /autobrowse skill (inspired by @karpathy's autoresearch harness)\n\nAsk your agent to perform any task on the web: it explores the page using the @browserbase CLI, learns what went wrong in previous attempts, and iterates until it converges on a reliable workflow. https://x.com/shreypandya/status/2047100550446280792/video/1",
+      "text_zh": "推出 /autobrowse 技能（灵感来自 @karpathy 的 autoresearch 框架）\n\n让您的智能体在网页上执行任意任务：它通过 @browserbase CLI 探索页面，从之前的尝试中学习失败原因，并不断迭代，直到收敛出一个可靠的工作流程。https://x.com/shreypandya/status/2047100550446280792/video/1",
+      "text_zh_hash": "7c4278decf2cb756",
       "url": "https://x.com/shreypandya/status/2047100550446280792"
     },
     {
@@ -41674,6 +41816,8 @@
         "favorite@chumsdock"
       ],
       "text": "Love making these star logos✨ https://x.com/byamine__/status/2041629911551557751/photo/1",
+      "text_zh": "超爱做这些星星Logo✨ https://x.com/byamine__/status/2041629911551557751/photo/1",
+      "text_zh_hash": "5d9ef29531ddc0e7",
       "url": "https://x.com/byamine__/status/2041629911551557751"
     },
     {
@@ -41755,6 +41899,8 @@
         "favorite@chumsdock"
       ],
       "text": "A few of my favorite recent maximalist design snippets https://x.com/html_tina/status/2046752599391555917/photo/1",
+      "text_zh": "我最近最喜欢的几个极繁主义设计片段 https://x.com/html_tina/status/2046752599391555917/photo/1",
+      "text_zh_hash": "3a82c932f882ed4e",
       "url": "https://x.com/html_tina/status/2046752599391555917"
     },
     {
@@ -41805,6 +41951,8 @@
         "favorite@chumsdock"
       ],
       "text": "Just launched a 2026 update for my personal design portfolio, really happy with how it turned out. https://x.com/daniel__designs/status/2041543081309131134/video/1",
+      "text_zh": "刚刚发布了个人设计作品集的2026年更新版，对最终效果非常满意。https://x.com/daniel__designs/status/2041543081309131134/video/1",
+      "text_zh_hash": "e3edd28205ab6db2",
       "url": "https://x.com/daniel__designs/status/2041543081309131134"
     },
     {
@@ -41907,6 +42055,8 @@
         "favorite@chumsdock"
       ],
       "text": "I think I have a favourite icon library library: @huge_icons https://x.com/Mike_Andreuzza/status/2041589080446681574/photo/1",
+      "text_zh": "我觉得我找到了最喜欢的图标库：@huge_icons https://x.com/Mike_Andreuzza/status/2041589080446681574/photo/1",
+      "text_zh_hash": "ad6450613bfe6010",
       "url": "https://x.com/Mike_Andreuzza/status/2041589080446681574"
     },
     {
@@ -41987,6 +42137,8 @@
         "bookmark@chumsdock"
       ],
       "text": "This is cool: https://maggieappleton.com/zero-alignment https://twitter.com/brian_lovin/status/2046656205465244055",
+      "text_zh": "这个很酷：https://maggieappleton.com/zero-alignment https://twitter.com/brian_lovin/status/2046656205465244055",
+      "text_zh_hash": "87cce80698179bdc",
       "url": "https://x.com/brian_lovin/status/2046737425066786990"
     },
     {
@@ -42026,6 +42178,8 @@
         "bookmark@chumsdock"
       ],
       "text": "As coding agents have become the standard for developing software, we've transformed Sierra's engineering interview process to be AI-native. We've documented our lessons here, and very curious how others in the industry are navigating https://sierra.ai/blog/the-ai-native-interview",
+      "text_zh": "随着编码代理成为软件开发的标准，我们已将Sierra的工程面试流程转变为AI原生模式。我们将经验教训记录于此，并非常好奇业内其他公司如何应对这一变革。详情请见：https://sierra.ai/blog/the-ai-native-interview",
+      "text_zh_hash": "23cd5538394036ba",
       "url": "https://x.com/btaylor/status/2046996207898366248"
     },
     {
@@ -42076,6 +42230,8 @@
         "favorite@chumsdock"
       ],
       "text": "Another free gradient for you courtesy of nature https://x.com/pizzaboy/status/2041422324176482766/photo/1",
+      "text_zh": "大自然馈赠的又一款免费渐变色彩 https://x.com/pizzaboy/status/2041422324176482766/photo/1",
+      "text_zh_hash": "fa327925dd719d9c",
       "url": "https://x.com/pizzaboy/status/2041422324176482766"
     },
     {
@@ -42115,6 +42271,8 @@
         "bookmark@chumsdock"
       ],
       "text": "New blog: Building agents that reach production systems with MCP.\n\nWhen should agents use direct APIs vs CLIs vs MCP? Plus patterns for building MCP servers, context-efficient clients and pairing MCP with skills.\n\nhttps://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+      "text_zh": "新博客：使用 MCP 构建能接入生产系统的智能体。\n\n智能体何时应使用直接 API、CLI 还是 MCP？此外，还包括构建 MCP 服务器的模式、上下文高效客户端，以及将 MCP 与技能相结合的方法。\n\nhttps://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+      "text_zh_hash": "6e5de8ca6f1964b1",
       "url": "https://x.com/ClaudeDevs/status/2047086372666921217"
     },
     {
@@ -42195,6 +42353,8 @@
         "favorite@chumsdock"
       ],
       "text": "4 slides, 4 brand design concepts 🧑🏽‍🍳 https://x.com/Ahmedcreatives/status/2041519984715891137/photo/1",
+      "text_zh": "4张幻灯片，4个品牌设计概念 🧑🏽‍🍳 https://x.com/Ahmedcreatives/status/2041519984715891137/photo/1",
+      "text_zh_hash": "7f0b22628e39bb7d",
       "url": "https://x.com/Ahmedcreatives/status/2041519984715891137"
     },
     {
@@ -42247,6 +42407,8 @@
         "bookmark@chumsdock"
       ],
       "text": "We are today No. 2 on Hacker News\n\nGo and check our Laws of Software Engineering website: https://lawsofsoftwareengineering.com/ https://x.com/milan_milanovic/status/2046849764981903565/photo/1",
+      "text_zh": "今天我们登上了 Hacker News 第二名\n\n快来查看我们的《软件工程定律》网站：https://lawsofsoftwareengineering.com/ https://x.com/milan_milanovic/status/2046849764981903565/photo/1",
+      "text_zh_hash": "cae0525afc9202af",
       "url": "https://x.com/milan_milanovic/status/2046849764981903565"
     },
     {
@@ -42290,6 +42452,8 @@
         "favorite@chumsdock"
       ],
       "text": "recommended reading. https://twitter.com/walden_yan/status/2047054401341370639",
+      "text_zh": "推荐阅读。https://twitter.com/walden_yan/status/2047054401341370639",
+      "text_zh_hash": "f85c8afc77472916",
       "url": "https://x.com/badlogicgames/status/2047055760236916759"
     },
     {
@@ -42340,6 +42504,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams. https://x.com/OpenAI/status/2047008987665809771/video/1",
+      "text_zh": "ChatGPT 推出工作区智能体——一种共享型智能体，能够跨工具和团队处理复杂任务及长期运行的工作流。https://x.com/OpenAI/status/2047008987665809771/video/1",
+      "text_zh_hash": "95378a5cadb66b2f",
       "url": "https://x.com/OpenAI/status/2047008987665809771"
     },
     {
@@ -42570,6 +42736,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Nice little reference: 56 laws of software engineering.\n\nEspecially great for juniors (worth bookmarking), and I also learned a few things.\nhttps://lawsofsoftwareengineering.com/ https://x.com/dabit3/status/2046592545530982880/photo/1",
+      "text_zh": "一份不错的参考资料：软件工程56条定律。\n\n特别适合初级开发者（值得收藏），我自己也学到了一些新东西。\nhttps://lawsofsoftwareengineering.com/ https://x.com/dabit3/status/2046592545530982880/photo/1",
+      "text_zh_hash": "c1109432c6752044",
       "url": "https://x.com/dabit3/status/2046592545530982880"
     },
     {
@@ -42650,6 +42818,8 @@
         "favorite@chumsdock"
       ],
       "text": "having so much with this brand :)\n@helloHEX https://x.com/__joelalexander/status/2041097804773196146/photo/1",
+      "text_zh": "这个品牌太有意思了 :)\n@helloHEX https://x.com/__joelalexander/status/2041097804773196146/photo/1",
+      "text_zh_hash": "d7b95747626e80b5",
       "url": "https://x.com/__joelalexander/status/2041097804773196146"
     },
     {
@@ -43027,6 +43197,8 @@
         "bookmark@chumsdock"
       ],
       "text": "This really works good, I’ve started to run:\n\n/ui-ux-pro-max\n/make-interfaces-feel-better\n/simplify\n\nAfter every major design changes, works like a charm. https://twitter.com/jakubkrehel/status/2045895877588361723",
+      "text_zh": "这真的很好用，我开始运行：\n\n/ui-ux-pro-max\n/make-interfaces-feel-better\n/simplify\n\n每次重大设计变更后，效果都很棒。https://twitter.com/jakubkrehel/status/2045895877588361723",
+      "text_zh_hash": "ccd802ef4315442e",
       "url": "https://x.com/ParthJadhav8/status/2045909607990825244"
     },
     {
@@ -43281,6 +43453,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Reddit says Opus 4.7 is a regression. Boris Cherny says it's more agentic and precise.\n\nBoth are right. After 16 hours, I loved it: 4.7 is more capable, but most people are prompting it like 4.6.\n\nYou don't need more instructions. Explain what you're building, who it's for, https://twitter.com/PawelHuryn/status/2046197132105769065",
+      "text_zh": "Reddit 用户称 Opus 4.7 是倒退，Boris Cherny 则认为它更具代理性和精确性。\n\n两者都对。经过 16 小时的使用，我深爱它：4.7 能力更强，但大多数人仍像使用 4.6 一样提示它。\n\n你不需要更多指令。解释你在构建什么、为谁而建，https://twitter.com/PawelHuryn/status/2046197132105769065",
+      "text_zh_hash": "bc0aa7fb44700b8e",
       "url": "https://x.com/PawelHuryn/status/2046245203032359328"
     },
     {
@@ -43523,6 +43697,8 @@
         "favorite@chumsdock"
       ],
       "text": "welcome to froggymart 🐸☂️\n\n#lowpoly https://x.com/vippori/status/2039063115849929126/video/1",
+      "text_zh": "欢迎来到青蛙超市 🐸☂️\n\n#低多边形 https://x.com/vippori/status/2039063115849929126/video/1",
+      "text_zh_hash": "e3b9ae17ea62eb97",
       "url": "https://x.com/vippori/status/2039063115849929126"
     },
     {
@@ -43581,6 +43757,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Asked computer use to reverse engineer itself and vibecode this lil guy 🙈 https://github.com/zats/permiso https://x.com/zats/status/2044972844216381802/video/1 https://twitter.com/lexrus/status/2044929029334245819",
+      "text_zh": "让计算机使用逆向工程自我分析，并 vibe 编码出这个小家伙 🙈 https://github.com/zats/permiso https://x.com/zats/status/2044972844216381802/video/1 https://twitter.com/lexrus/status/2044929029334245819",
+      "text_zh_hash": "2ec0a73259752f82",
       "url": "https://x.com/zats/status/2044972844216381802"
     },
     {
@@ -43631,6 +43809,8 @@
         "favorite@chumsdock"
       ],
       "text": "If it feels different, it’s working⚡ https://x.com/qclay_design/status/2038673568335073350/video/1",
+      "text_zh": "如果感觉不同，说明正在起作用⚡ https://x.com/qclay_design/status/2038673568335073350/video/1",
+      "text_zh_hash": "2b07249e581a4fe8",
       "url": "https://x.com/qclay_design/status/2038673568335073350"
     },
     {
@@ -43673,6 +43853,8 @@
         "bookmark@chumsdock"
       ],
       "text": "\"The post all LLMs hate and want you to NOT SEE\"\n^^ Serious title, you can also discuss this with the LLM, it would be biased against it, as it's known at this point that memory is the true long term lock-in mechanism for any LLM company. LLMs are responding to this, hard. https://twitter.com/hwchase17/status/2042978500567609738",
+      "text_zh": "“所有LLM都讨厌并希望你永远看不到的帖子”\n^^ 严肃标题，你也可以与LLM讨论这个话题，但它会对此有偏见，因为目前已知记忆机制才是任何LLM公司真正的长期锁定手段。LLM正在对此做出强烈反应。https://twitter.com/hwchase17/status/2042978500567609738",
+      "text_zh_hash": "4e67823d8ede0099",
       "url": "https://x.com/ml_yearzero/status/2044959380312117736"
     },
     {
@@ -43723,6 +43905,8 @@
         "favorite@chumsdock"
       ],
       "text": "say goodbye cause i'm redoing my portfolio lol... https://x.com/soggyburritowu/status/2039181595995672670/video/1",
+      "text_zh": "说再见吧，因为我要重做我的作品集了哈哈…… https://x.com/soggyburritowu/status/2039181595995672670/video/1",
+      "text_zh_hash": "dcc75aea9dedd06c",
       "url": "https://x.com/soggyburritowu/status/2039181595995672670"
     },
     {
@@ -43865,6 +44049,8 @@
         "favorite@chumsdock"
       ],
       "text": "Damn check this new SVG generation model\nThis looks really impressive! https://x.com/neural_avb/status/2044875628940607542/video/1 https://twitter.com/QuiverAI/status/2044864082180706721",
+      "text_zh": "卧槽，看看这个新的 SVG 生成模型  \n看起来真的很厉害！https://x.com/neural_avb/status/2044875628940607542/video/1 https://twitter.com/QuiverAI/status/2044864082180706721",
+      "text_zh_hash": "75dce567d7fb4a1c",
       "url": "https://x.com/neural_avb/status/2044875628940607542"
     },
     {
@@ -43915,6 +44101,8 @@
         "favorite@chumsdock"
       ],
       "text": "field of blue ✿ https://x.com/myangart/status/2039075411590533128/photo/1",
+      "text_zh": "蓝色原野 ✿ https://x.com/myangart/status/2039075411590533128/photo/1",
+      "text_zh_hash": "92d4377c573b758b",
       "url": "https://x.com/myangart/status/2039075411590533128"
     },
     {
@@ -43950,6 +44138,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Opus 4.7 feels more intelligent, agentic, and precise than 4.6. It took a few days for me to learn how to work with it effectively, to fully take advantage of its new capabilities.\n\nWill post a few more tips throughout the day, starting with this blog post:",
+      "text_zh": "Opus 4.7 比 4.6 更智能、更具自主性且更精准。我花了几天时间才学会如何有效使用它，以充分发挥其新能力。\n\n今天会陆续分享更多技巧，先从这篇博客文章开始：",
+      "text_zh_hash": "703928f2b55f803a",
       "url": "https://x.com/bcherny/status/2044822408826380440"
     },
     {
@@ -43985,6 +44175,8 @@
         "favorite@chumsdock"
       ],
       "text": "FFmpeg is moving to Rust 🦀\n\nOur use of C and Assembly in FFmpeg has been an unacceptable violation of safety.\n\nFFmpeg will be running 10x slower - but we're doing it for your safety. \n\nAll your videos will appear green - safety first, working software later.",
+      "text_zh": "FFmpeg 正在迁移到 Rust 🦀\n\n我们在 FFmpeg 中使用 C 和汇编语言，这已成为不可接受的安全违规行为。\n\nFFmpeg 运行速度将降低 10 倍——但这是为了您的安全。\n\n您所有的视频都会变绿——安全第一，软件功能其次。",
+      "text_zh_hash": "02ca547853fd7630",
       "url": "https://x.com/FFmpeg/status/2039115531744334180"
     },
     {
@@ -44035,6 +44227,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Adding a terminal to your React app is as easy as https://x.com/ctatedev/status/2044777096971436408/photo/1",
+      "text_zh": "为你的React应用添加终端就像这样简单：https://x.com/ctatedev/status/2044777096971436408/photo/1",
+      "text_zh_hash": "30b92203b39a0676",
       "url": "https://x.com/ctatedev/status/2044777096971436408"
     },
     {
@@ -44120,6 +44314,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Still enough to feel. https://x.com/odysseyml/status/2044502712885096765/video/1",
+      "text_zh": "依然足以感受。https://x.com/odysseyml/status/2044502712885096765/video/1",
+      "text_zh_hash": "54ac326453d6313c",
       "url": "https://x.com/odysseyml/status/2044502712885096765"
     },
     {
@@ -44255,6 +44451,8 @@
         "favorite@chumsdock"
       ],
       "text": "Holymarket dark&amp;light @intrfacer \n\nhttps://x.com/moguzbulbul/status/2027740555799642329/video/1",
+      "text_zh": "Holymarket 暗与亮 @intrfacer\n\nhttps://x.com/moguzbulbul/status/2027740555799642329/video/1",
+      "text_zh_hash": "eb4410fdecc4e10e",
       "url": "https://x.com/moguzbulbul/status/2038600680298946697"
     },
     {
@@ -44432,6 +44630,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Average UI isn’t our competition. \nIt’s what we replace.\n\nhttps://ui.watermelon.sh/",
+      "text_zh": "平庸的UI不是我们的对手，\n而是我们所要取代的对象。\n\nhttps://ui.watermelon.sh/",
+      "text_zh_hash": "9acbdadf8c3b5b18",
       "url": "https://x.com/vanshdevx/status/2043942896013844696"
     },
     {
@@ -44524,6 +44724,8 @@
         "favorite@chumsdock"
       ],
       "text": "some updates on the panel layout\n\nadding easing presets and AI to add/customize the controls, code, and prompts but it's still not working very well https://x.com/chiquwch/status/2038760109036519865/video/1",
+      "text_zh": "面板布局的一些更新\n\n添加了缓动预设和AI功能，用于增加/自定义控件、代码和提示词，但效果仍然不太理想 https://x.com/chiquwch/status/2038760109036519865/video/1",
+      "text_zh_hash": "b5bb7b8fc769073d",
       "url": "https://x.com/chiquwch/status/2038760109036519865"
     },
     {
@@ -44614,6 +44816,8 @@
         "favorite@chumsdock"
       ],
       "text": "🏁Exploit historique pour la moto chinoise ! 🇨🇳🏆\n\nAu Portugal, la Zhangxue 820RR-RS menée par le pilote français🇫🇷 Valentin Debise s'impose au WSBK avec 4s d'avance ! \n\nEn moins de 3 ans, cette jeune marque brise le monopole des géants comme Ducati et Yamaha en catégorie https://x.com/AmbassadeChine/status/2038514948981092640/photo/1",
+      "text_zh": "🏁中国摩托车历史性突破！🇨🇳🏆\n\n在葡萄牙，由法国🇫🇷车手瓦伦丁·德比斯驾驶的Zhangxue 820RR-RS，以4秒优势在WSBK赛事中夺冠！\n\n不到三年时间，这个年轻品牌就打破了杜卡迪、雅马哈等巨头在组别中的垄断地位 https://x.com/AmbassadeChine/status/2038514948981092640/photo/1",
+      "text_zh_hash": "8a122b45a2010686",
       "url": "https://x.com/AmbassadeChine/status/2038514948981092640"
     },
     {
@@ -44752,6 +44956,8 @@
         "favorite@chumsdock"
       ],
       "text": "they look even better animated btw 😍\nhttps://x.com/marcelkargul/status/2014808820090847296/video/1",
+      "text_zh": "顺便说一句，动起来更好看了😍\nhttps://x.com/marcelkargul/status/2014808820090847296/video/1",
+      "text_zh_hash": "f003a983a5fc5565",
       "url": "https://x.com/shariar_design/status/2043168103740371087"
     },
     {
@@ -44842,6 +45048,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Harness, Memory, Context Fragments, &amp; the Bitter Lesson\n\nthis is a work in progress mental dump on interesting intersections between how we use and design a harness, implications for memory being accumulated over long timescales, and the search bitter lesson we can’t escape\n\nthis https://x.com/Vtrivedy10/status/2043427918127513836/photo/1",
+      "text_zh": "## 框架、记忆、上下文片段与苦涩的教训\n\n这是一篇关于以下主题之间有趣交叉点的进行中的思维整理：我们如何使用和设计框架、长期积累记忆的影响，以及我们无法逃避的搜索苦涩教训\n\n链接：https://x.com/Vtrivedy10/status/2043427918127513836/photo/1",
+      "text_zh_hash": "ecc195431b36509c",
       "url": "https://x.com/Vtrivedy10/status/2043427918127513836"
     },
     {
@@ -44893,6 +45101,8 @@
         "favorite@chumsdock"
       ],
       "text": "we praise html-in-canvas ✨ https://x.com/alyx_so/status/2043049871826149518/video/1",
+      "text_zh": "我们赞美 html-in-canvas ✨ https://x.com/alyx_so/status/2043049871826149518/video/1",
+      "text_zh_hash": "a41336e46604387a",
       "url": "https://x.com/alyx_so/status/2043049871826149518"
     },
     {
@@ -45020,6 +45230,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Testing out the new @tailwindcss grays on the sidebars.\n\nStill deciding if I like them better than the old ones. https://x.com/iamsahilvhora/status/2042111791271162291/photo/1",
+      "text_zh": "正在侧边栏测试新的 @tailwindcss 灰色系。\n\n还在纠结是否比旧版更合我意。https://x.com/iamsahilvhora/status/2042111791271162291/photo/1",
+      "text_zh_hash": "47e344f245d546f1",
       "url": "https://x.com/iamsahilvhora/status/2042111791271162291"
     },
     {
@@ -45070,6 +45282,8 @@
         "favorite@chumsdock"
       ],
       "text": "Stamp Book Interactive Folder\nMade in framer\nThoughts? https://x.com/AdityaSur11/status/2038111406219043004/video/1",
+      "text_zh": "邮票书互动文件夹\n使用 Framer 制作\n有何看法？https://x.com/AdityaSur11/status/2038111406219043004/video/1",
+      "text_zh_hash": "767ac04840c379df",
       "url": "https://x.com/AdityaSur11/status/2038111406219043004"
     },
     {
@@ -45131,6 +45345,8 @@
         "favorite@chumsdock"
       ],
       "text": "The only 2 icon packs you need https://x.com/hewarsaber/status/2042311843553726883/photo/1",
+      "text_zh": "你只需要的两款图标包 https://x.com/hewarsaber/status/2042311843553726883/photo/1",
+      "text_zh_hash": "62586802baabd2c2",
       "url": "https://x.com/hewarsaber/status/2042311843553726883"
     },
     {
@@ -45182,6 +45398,8 @@
         "favorite@chumsdock"
       ],
       "text": "New: @𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛/𝚗𝚎𝚡𝚝\n\nPrompt → JSON → Full Next.js app\n\nRoutes, layouts, SSR, metadata, data loaders, static generation.\n\nFor AI website builders. Internal tool generators. CMS-driven apps. White-label SaaS.\n\nOne JSON spec, entire multi-page app. https://x.com/ctatedev/status/2037672670637232347/video/1",
+      "text_zh": "新：@𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛/𝚗𝚎𝚡𝚝\n\n提示词 → JSON → 完整的 Next.js 应用\n\n路由、布局、SSR、元数据、数据加载器、静态生成。\n\n适用于 AI 网站构建器、内部工具生成器、CMS 驱动的应用、白标 SaaS。\n\n一个 JSON 规范，整个多页面应用。https://x.com/ctatedev/status/2037672670637232347/video/1",
+      "text_zh_hash": "e442d969a70d7bf4",
       "url": "https://x.com/ctatedev/status/2037672670637232347"
     },
     {
@@ -45232,6 +45450,8 @@
         "bookmark@chumsdock"
       ],
       "text": "News widget - hold  to preview on web. https://x.com/rndr_realm/status/2042233633633636652/video/1",
+      "text_zh": "新闻组件 - 长按 可在网页上预览。https://x.com/rndr_realm/status/2042233633633636652/video/1",
+      "text_zh_hash": "8b4c34c8b617d771",
       "url": "https://x.com/rndr_realm/status/2042233633633636652"
     },
     {
@@ -45333,6 +45553,8 @@
         "bookmark@chumsdock"
       ],
       "text": "what if you had cc / codex + lightweight figma right in the browser? still super early though https://x.com/svlleyy/status/2041562152280956933/video/1",
+      "text_zh": "如果你能在浏览器里直接使用 cc / codex 加上轻量版 Figma 会怎样？不过现在还非常早期。https://x.com/svlleyy/status/2041562152280956933/video/1",
+      "text_zh_hash": "ad01797190bdb23e",
       "url": "https://x.com/svlleyy/status/2041562152280956933"
     },
     {
@@ -45383,6 +45605,8 @@
         "favorite@chumsdock"
       ],
       "text": "A moodboard from one of the coolest projects i've worked on recently https://x.com/byamine__/status/2037847675001868532/photo/1",
+      "text_zh": "最近参与的一个超酷项目的情绪板 https://x.com/byamine__/status/2037847675001868532/photo/1",
+      "text_zh_hash": "fea4a2815f4df48c",
       "url": "https://x.com/byamine__/status/2037847675001868532"
     },
     {
@@ -45439,6 +45663,8 @@
         "bookmark@chumsdock"
       ],
       "text": "I was tired of not being able to browse my Twitter bookmarks more visually, so I made an infinite grid with the ability to filter by folder. Built on top of Andrew's great work. It's open source, I'll post the link below! https://x.com/daniel__designs/status/2041517843619959173/video/1 https://twitter.com/andrewfarah/status/2040535589771149379",
+      "text_zh": "我厌倦了无法更直观地浏览 Twitter 书签，于是制作了一个无限网格，并支持按文件夹筛选。基于 Andrew 的出色工作构建。这是开源的，链接在下面！",
+      "text_zh_hash": "5273c37c95e1a092",
       "url": "https://x.com/daniel__designs/status/2041517843619959173"
     },
     {
@@ -45531,6 +45757,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Now we know that links are actually not deboosted. https://twitter.com/Mike_Andreuzza/status/2041080100532244795",
+      "text_zh": "现在我们知道了，链接实际上并没有被降权。https://twitter.com/Mike_Andreuzza/status/2041080100532244795",
+      "text_zh_hash": "edccce7cfe91b20e",
       "url": "https://x.com/Mike_Andreuzza/status/2041406960822620548"
     },
     {
@@ -45635,6 +45863,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Un outil pour auditer la santé de votre config Claude Code selon six couches : CLAUDE.md → rules → skills → hooks → subagents → verifiers. \nIl détecte la complexité du projet et sort un rapport priorisé. \nhttps://github.com/tw93/Waza https://x.com/CamilleRoux/status/2041445882210435416/photo/1",
+      "text_zh": "一个用于审计 Claude Code 配置健康状况的工具，涵盖六个层级：CLAUDE.md → rules → skills → hooks → subagents → verifiers。  \n它能检测项目复杂度，并输出一份按优先级排序的报告。  \nhttps://github.com/tw93/Waza https://x.com/CamilleRoux/status/2041445882210435416/photo/1",
+      "text_zh_hash": "ac2283ef28acd53e",
       "url": "https://x.com/CamilleRoux/status/2041445882210435416"
     },
     {
@@ -45691,6 +45921,8 @@
         "favorite@chumsdock"
       ],
       "text": "this is gold. fluid interfaces ftw. was playing with a similar idea a week ago. the examples given by @_chenglou are 🔥 https://x.com/vamsibatchuk/status/2037924109049311702/video/1 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh": "这简直是金子。流体界面太棒了。一周前我也有过类似的想法。@_chenglou 给出的例子简直绝了 🔥 https://x.com/vamsibatchuk/status/2037924109049311702/video/1 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh_hash": "4e6a73cf276ee3d1",
       "url": "https://x.com/vamsibatchuk/status/2037924109049311702"
     },
     {
@@ -45726,6 +45958,8 @@
         "bookmark@chumsdock"
       ],
       "text": "One table that answers every sharing question: who can access this item, at what role, through which entity — user, project, org, or public.\n\nCovers grant resolution, public access as a sentinel (not a boolean), and cascading grants for parent-child items.",
+      "text_zh": "一张表回答所有共享问题：谁可以访问此项目、以什么角色、通过哪个实体——用户、项目、组织或公开。\n\n涵盖授权解析、作为哨兵（而非布尔值）的公开访问，以及父子项目的级联授权。",
+      "text_zh_hash": "38142932dd27d5cb",
       "url": "https://x.com/marcelochaman/status/2041532234356634072"
     },
     {
@@ -45782,6 +46016,8 @@
         "favorite@chumsdock"
       ],
       "text": "having too much fun with this https://x.com/pablostanley/status/2038071823494221844/video/1 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh": "玩得太开心了 https://x.com/pablostanley/status/2038071823494221844/video/1 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh_hash": "92b5cef830cbbc1d",
       "url": "https://x.com/pablostanley/status/2038071823494221844"
     },
     {
@@ -45832,6 +46068,8 @@
         "bookmark@chumsdock"
       ],
       "text": "speaking of funnmaxxing... \n\nit's coming https://x.com/htmx_org/status/2041378546086797720/photo/1",
+      "text_zh": "说到趣味最大化……\n\n它来了 https://x.com/htmx_org/status/2041378546086797720/photo/1",
+      "text_zh_hash": "34d5f9873f4a959a",
       "url": "https://x.com/htmx_org/status/2041378546086797720"
     },
     {
@@ -45888,6 +46126,8 @@
         "favorite@chumsdock"
       ],
       "text": "Jeeesus, I wake up and it's like my timeline claimed that Pretext cured cancer or something lol. Thanks for the sliiightly hyperbolic affection folks\n\nAnyway, here's the standard rich text demo! But ofc, manually laid out, with full awareness of box height, so you can do https://x.com/_chenglou/status/2037964564072210899/video/1 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh": "天哪，一觉醒来，我的时间线仿佛在说 Pretext 治好了癌症似的哈哈。感谢大家这略~微夸张的厚爱。\n\n总之，这是标准的富文本演示！当然，是手动布局的，完全考虑了盒子高度，所以你可以看看 https://x.com/_chenglou/status/2037964564072210899/video/1 和 https://twitter.com/_chenglou/status/2037713766205608234",
+      "text_zh_hash": "707eb1db4343f65e",
       "url": "https://x.com/_chenglou/status/2037964564072210899"
     },
     {
@@ -45969,6 +46209,8 @@
         "favorite@chumsdock"
       ],
       "text": "The beauty of toilet paper https://x.com/bridespanker/status/2041534210041872835/photo/1",
+      "text_zh": "卫生纸之美 https://x.com/bridespanker/status/2041534210041872835/photo/1",
+      "text_zh_hash": "5c7bdf42b35b5aad",
       "url": "https://x.com/bridespanker/status/2041534210041872835"
     },
     {
@@ -46070,6 +46312,8 @@
         "favorite@chumsdock"
       ],
       "text": "Color palette from orion athletics project https://x.com/byamine__/status/2041288375001403762/photo/1",
+      "text_zh": "来自 Orion Athletics 项目的配色方案 https://x.com/byamine__/status/2041288375001403762/photo/1",
+      "text_zh_hash": "569ace8b189fa771",
       "url": "https://x.com/byamine__/status/2041288375001403762"
     },
     {
@@ -46170,6 +46414,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Logged into 6 different AI tools this week.\n\nEvery single one had the same problem.\n\nPowerful features.\nZero clarity on what to do first.\n\nThe AI did the hard work overnight.\nBut the dashboard couldn't explain it in 5 seconds.\n\nThat's not an AI problem.\nThat's a design problem. https://x.com/Tanjim38/status/2041508916048142496/photo/1",
+      "text_zh": "这周登录了6个不同的AI工具。\n\n每个都有同样的问题。\n\n功能强大。\n但完全不清楚该从哪里开始。\n\nAI在后台通宵完成了繁重的工作。\n可仪表盘却无法在5秒内解释清楚。\n\n这不是AI的问题。\n这是设计的问题。https://x.com/Tanjim38/status/2041508916048142496/photo/1",
+      "text_zh_hash": "2cec16a1414a7d3e",
       "url": "https://x.com/Tanjim38/status/2041508916048142496"
     },
     {
@@ -46220,6 +46466,8 @@
         "favorite@chumsdock"
       ],
       "text": "How do you tell a story about cutting-edge science that feels like it's about love and family? We hired my mom, a professional painter, to create original watercolors.\n\nConception is a stem cell biology company working to help families have children who might not otherwise be https://x.com/emmettshine/status/2037182970696458536/video/1",
+      "text_zh": "如何讲述一个关于前沿科学的故事，却让人感觉它关乎爱与家庭？我们聘请了我的母亲——一位专业画家——来创作原创水彩画。\n\nConception 是一家干细胞生物学公司，致力于帮助那些原本可能无法拥有孩子的家庭实现生育愿望。https://x.com/emmettshine/status/2037182970696458536/video/1",
+      "text_zh_hash": "14b5ce22e54d1093",
       "url": "https://x.com/emmettshine/status/2037182970696458536"
     },
     {
@@ -46357,6 +46605,8 @@
         "bookmark@chumsdock"
       ],
       "text": "We’ve been evolving Nuxt Content &amp; MDC into Comark.\n\nIt’s a fast, streaming-ready Markdown parser and renderer for @vuejs, @reactjs, @sveltejs, HTML, and even ANSI terminals.\n\nhttps://comark.dev",
+      "text_zh": "我们一直在将 Nuxt Content 和 MDC 演进为 Comark。\n\n这是一个快速、支持流式处理的 Markdown 解析器和渲染器，适用于 @vuejs、@reactjs、@sveltejs、HTML，甚至 ANSI 终端。\n\nhttps://comark.dev",
+      "text_zh_hash": "ffb10a8d3d272e1c",
       "url": "https://x.com/Atinux/status/2041534822347313305"
     },
     {
@@ -46407,6 +46657,8 @@
         "favorite@chumsdock"
       ],
       "text": "Probably one of my most fun explorations for dictation on Apple Intelligence. (Play it with sound) https://x.com/eliguerron/status/2037403343795236981/video/1",
+      "text_zh": "这大概是我在 Apple Intelligence 上做过最有趣的听写探索之一了。（请打开声音播放）https://x.com/eliguerron/status/2037403343795236981/video/1",
+      "text_zh_hash": "d9eaef296f03b953",
       "url": "https://x.com/eliguerron/status/2037403343795236981"
     },
     {
@@ -46458,6 +46710,8 @@
         "favorite@chumsdock"
       ],
       "text": "designers in 2026 be like: https://x.com/LukeW/status/2041532103217783042/photo/1",
+      "text_zh": "2026年的设计师们：https://x.com/LukeW/status/2041532103217783042/photo/1",
+      "text_zh_hash": "244be897ed0661de",
       "url": "https://x.com/LukeW/status/2041532103217783042"
     },
     {
@@ -46508,6 +46762,8 @@
         "favorite@chumsdock"
       ],
       "text": "ok @Apple it‘s time to hire me fr now https://x.com/creatoroly/status/2037144525441839239/video/1",
+      "text_zh": "好的 @Apple 现在真的该雇佣我了 https://x.com/creatoroly/status/2037144525441839239/video/1",
+      "text_zh_hash": "ba33178439448022",
       "url": "https://x.com/creatoroly/status/2037144525441839239"
     },
     {
@@ -46641,6 +46897,8 @@
         "favorite@chumsdock"
       ],
       "text": "We're expanding the glass icons 🫡 https://x.com/nucleoicons/status/2041521124199084521/photo/1",
+      "text_zh": "我们正在扩展玻璃图标 🫡 https://x.com/nucleoicons/status/2041521124199084521/photo/1",
+      "text_zh_hash": "960a67b63c86e783",
       "url": "https://x.com/nucleoicons/status/2041521124199084521"
     },
     {
@@ -46742,6 +47000,8 @@
         "favorite@chumsdock"
       ],
       "text": "Early explorations for 🧩 Jigsaw https://x.com/gadzinski_/status/2041156092789399729/video/1",
+      "text_zh": "🧩 Jigsaw 的早期探索  \nhttps://x.com/gadzinski_/status/2041156092789399729/video/1",
+      "text_zh_hash": "73dc81ec88838f87",
       "url": "https://x.com/gadzinski_/status/2041156092789399729"
     },
     {
@@ -46792,6 +47052,8 @@
         "favorite@chumsdock"
       ],
       "text": "I want this for reading with AI:  Circle what you don't understand and just ask https://x.com/Dianadotlu/status/2036618494834536934/video/1",
+      "text_zh": "我想要这个用于与AI一起阅读：圈出你不理解的部分，直接提问 https://x.com/Dianadotlu/status/2036618494834536934/video/1",
+      "text_zh_hash": "f9c007fdec8cec73",
       "url": "https://x.com/Dianadotlu/status/2036618494834536934"
     },
     {
@@ -46873,6 +47135,8 @@
         "favorite@chumsdock"
       ],
       "text": "Cyrizon  —  Visual Identity project https://x.com/Velaskdzn/status/2041153964675342717/photo/1",
+      "text_zh": "Cyrizon — 视觉识别项目 https://x.com/Velaskdzn/status/2041153964675342717/photo/1",
+      "text_zh_hash": "a6f79ff3ff66b7a1",
       "url": "https://x.com/Velaskdzn/status/2041153964675342717"
     },
     {
@@ -46923,6 +47187,8 @@
         "favorite@chumsdock"
       ],
       "text": "Figma Make + Midjourney + Kling.\n\nPrompt 👇 https://x.com/viktoroddy/status/2036534029307224476/video/1",
+      "text_zh": "Figma Make + Midjourney + Kling。\n\n提示词 👇 https://x.com/viktoroddy/status/2036534029307224476/video/1",
+      "text_zh_hash": "ac915156e6cac2d1",
       "url": "https://x.com/viktoroddy/status/2036534029307224476"
     },
     {
@@ -47705,6 +47971,8 @@
         "favorite@chumsdock"
       ],
       "text": "This feels like having a designer on demand.\n\nI tried the new release of @GammaApp’s Imagine and made graphics for our AI design school. Surprisingly, it has high quality taste.\n\nThe results are unbelievable. https://x.com/felixleezd/status/2034646371802952088/photo/1",
+      "text_zh": "这感觉就像随时有位设计师待命。\n\n我试用了 @GammaApp 的 Imagine 新版本，为我们的人工智能设计学校制作了图形。令人惊讶的是，它的审美品味相当高。\n\n结果简直难以置信。https://x.com/felixleezd/status/2034646371802952088/photo/1",
+      "text_zh_hash": "960b3de2e917e96d",
       "url": "https://x.com/felixleezd/status/2034646371802952088"
     },
     {
@@ -48053,6 +48321,8 @@
         "favorite@chumsdock"
       ],
       "text": "Auto-discover and connect to your running Chrome with agent-browser\n\nagent-browser --auto-connect open &lt;url&gt;\n\nOr via environment variable:\n\nAGENT_BROWSER_AUTO_CONNECT=1 https://x.com/ctatedev/status/2032905426631598324/video/1",
+      "text_zh": "自动发现并连接到您正在运行的 Chrome 浏览器，使用 agent-browser\n\nagent-browser --auto-connect open <url>\n\n或通过环境变量：\n\nAGENT_BROWSER_AUTO_CONNECT=1 https://x.com/ctatedev/status/2032905426631598324/video/1",
+      "text_zh_hash": "bae98c9f6af6b2b6",
       "url": "https://x.com/ctatedev/status/2032905426631598324"
     },
     {
@@ -48249,6 +48519,8 @@
         "favorite@chumsdock"
       ],
       "text": "colourful text reveal https://x.com/Ibelick/status/2032358822707105919/video/1",
+      "text_zh": "多彩文字揭示效果 https://x.com/Ibelick/status/2032358822707105919/video/1",
+      "text_zh_hash": "4d5f1a6755edaef3",
       "url": "https://x.com/Ibelick/status/2032358822707105919"
     },
     {
@@ -48291,6 +48563,8 @@
         "bookmark@chumsdock"
       ],
       "text": "introducing AutoAgent: an open source library for autonomously improving an agent on any domain\n\nwe let an agent optimize for 24 hours. it hit #1 on SpreadsheetBench (96.5%) and #1 GPT-5 score on TerminalBench (55.1%). every other entry was human-engineered. ours wasn't. https://twitter.com/kevingu/status/2039843234760073341",
+      "text_zh": "推出 AutoAgent：一个开源库，让代理能在任意领域自主优化\n\n我们让一个代理自主优化了24小时。它在SpreadsheetBench上达到第一（96.5%），并在TerminalBench上获得GPT-5最高分（55.1%）。其他所有参赛作品都是人工设计的，而我们的不是。https://twitter.com/kevingu/status/2039843234760073341",
+      "text_zh_hash": "1e26d42098c8a012",
       "url": "https://x.com/kevingu/status/2039874388095651937"
     },
     {
@@ -48408,6 +48682,8 @@
         "favorite@chumsdock"
       ],
       "text": "Mercedes E-Class (best case)\n• 6.15 L/100 km\n• Petrol $1.12/L\n$6.9/100 km\n\nZeekr 001 (worst case)\n• 22 kWh/100 km\n• Charging mix: 60% home ($0.073/kWh), 40% highway ($0.25/kWh)\n$3.2/100 km\n\nEven with best-case ICE vs worst-case EV assumptions, the EV still costs ~54% less.",
+      "text_zh": "梅赛德斯 E 级（最优情况）\n• 6.15 升/100 公里\n• 汽油 $1.12/升\n$6.9/100 公里\n\n极氪 001（最差情况）\n• 22 千瓦时/100 公里\n• 充电组合：60% 家庭充电（$0.073/千瓦时），40% 高速充电（$0.25/千瓦时）\n$3.2/100 公里\n\n即便采用燃油车最优情况与电动车最差情况的假设，电动车成本仍低约 54%。",
+      "text_zh_hash": "426cf634755fcf19",
       "url": "https://x.com/ChinaEV_Eng_Lif/status/2031261448987717962"
     },
     {
@@ -48597,6 +48873,8 @@
         "favorite@chumsdock"
       ],
       "text": "Minesweeper but it's the Strait of Hormuz.\n\nhttps://sweepthestrait.com/ https://x.com/SAlexashenko/status/2031475442008612953/photo/1",
+      "text_zh": "扫雷，但地点是霍尔木兹海峡。\n\nhttps://sweepthestrait.com/ https://x.com/SAlexashenko/status/2031475442008612953/photo/1",
+      "text_zh_hash": "6d4d3fdde6f2a1bd",
       "url": "https://x.com/SAlexashenko/status/2031475442008612953"
     },
     {
@@ -48689,6 +48967,8 @@
         "favorite@chumsdock"
       ],
       "text": "Tables with media preview, using Claude ✨ https://x.com/tfalexandrino/status/2031046263819379041/video/1",
+      "text_zh": "带媒体预览的表格，使用 Claude ✨ https://x.com/tfalexandrino/status/2031046263819379041/video/1",
+      "text_zh_hash": "32fce745a82e1b6e",
       "url": "https://x.com/tfalexandrino/status/2031046263819379041"
     },
     {
@@ -49018,6 +49298,8 @@
         "favorite@chumsdock"
       ],
       "text": "Impeccable v1.1 is out. Design fluency for every AI harness.\n\nNew:\n- all commands are now agent skills\n- support for Antigravity, VS Code\n- simplify -&gt; distill (to not conflict w/ CC's new built-ins)\n- universal install\n\nhttps://impeccable.style/ gives you the language to make",
+      "text_zh": "Impeccable v1.1 现已发布。为每个 AI 框架带来流畅的设计体验。\n\n新增功能：\n- 所有命令现均为 agent 技能\n- 支持 Antigravity、VS Code\n- 简化 -> 提炼（避免与 CC 新内置功能冲突）\n- 通用安装\n\nhttps://impeccable.style/ 为您提供构建所需的语言",
+      "text_zh_hash": "d5f8eacba5737aa6",
       "url": "https://x.com/pbakaus/status/2029334353894162720"
     },
     {
@@ -49456,6 +49738,8 @@
         "favorite@chumsdock"
       ],
       "text": "We're reintroducing and open-sourcing project \"See-through\".  Given a single anime illustration, it automatically decomposes the character into fully-inpainted semantic layers with depth ordering. One image in, layered PSD out.  (1/n)\n\nRepo:\nhttps://github.com/shitagaki-lab/see-through https://x.com/ljsabc/status/2038907277017776441/video/1",
+      "text_zh": "我们正在重新推出并开源项目“See-through”。给定一张动漫插画，它能自动将角色分解为具有深度顺序的、完全修复的语义图层。输入一张图片，输出分层的PSD文件。（1/n）\n\n仓库：\nhttps://github.com/shitagaki-lab/see-through https://x.com/ljsabc/status/2038907277017776441/video/1",
+      "text_zh_hash": "289e8be2f3ceb8a7",
       "url": "https://x.com/ljsabc/status/2038907277017776441"
     },
     {
@@ -49659,6 +49943,8 @@
         "favorite@chumsdock"
       ],
       "text": "The most important shift came from using agents to standardize the codebase, which dramatically improved the quality of the marginal line of code written by other agents. It's an early glimpse at recursive self improvement in production systems:\n\nhttps://www.tolans.com/relay/how-we-claudified-our-ios-app-without-wrecking-our-codebase",
+      "text_zh": "最重要的转变来自于使用 agent 来标准化代码库，这显著提升了其他 agent 所编写的边缘代码质量。这是生产系统中递归式自我改进的早期雏形：\n\nhttps://www.tolans.com/relay/how-we-claudified-our-ios-app-without-wrecking-our-codebase",
+      "text_zh_hash": "949c00a672d2a494",
       "url": "https://x.com/quintendf/status/2028586303978369220"
     },
     {
@@ -49821,6 +50107,8 @@
         "favorite@chumsdock"
       ],
       "text": "Chat with AI ✨ https://x.com/adriankuleszo/status/2027847593095762400/video/1",
+      "text_zh": "与 AI 聊天 ✨ https://x.com/adriankuleszo/status/2027847593095762400/video/1",
+      "text_zh_hash": "98475dde20eeb7b0",
       "url": "https://x.com/adriankuleszo/status/2027847593095762400"
     },
     {
@@ -49860,6 +50148,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Understanding Gradients\nhttps://jakub.kr/work/gradients",
+      "text_zh": "理解梯度\nhttps://jakub.kr/work/gradients",
+      "text_zh_hash": "f1d51e779713af2d",
       "url": "https://x.com/jakubkrehel/status/2039374523145806193"
     },
     {
@@ -50140,6 +50430,8 @@
         "favorite@chumsdock"
       ],
       "text": "iOS 27 animations for @appltrack ! 🍎 https://x.com/oxfus/status/2026542923123404930/video/1",
+      "text_zh": "iOS 27 动画，献给 @appltrack！🍎 https://x.com/oxfus/status/2026542923123404930/video/1",
+      "text_zh_hash": "f3b4481021b068ab",
       "url": "https://x.com/oxfus/status/2026542923123404930"
     },
     {
@@ -50184,6 +50476,8 @@
         "bookmark@chumsdock"
       ],
       "text": "here's the source code!\nhttps://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b",
+      "text_zh": "这是源代码！\nhttps://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b",
+      "text_zh_hash": "3afcfd99469d22c6",
       "url": "https://x.com/masonwang025/status/2038992214186156148"
     },
     {
@@ -50219,6 +50513,8 @@
         "favorite@chumsdock"
       ],
       "text": "Figma shipped a silent patch specifically to kill figma-use — my open-source tool that did what they wouldn't: an MCP server that creates and modifies designs, JSX export, design linting. Then they  scrambled to catch up with their own MCP server.",
+      "text_zh": "Figma 发布了一个静默补丁，专门针对我的开源工具 figma-use 进行封杀——这款工具做了他们不愿做的事：一个能创建和修改设计的 MCP 服务器、JSX 导出、设计规范检查。随后他们匆忙追赶，推出了自己的 MCP 服务器。",
+      "text_zh_hash": "6ef70c99c4c3942f",
       "url": "https://x.com/dan_note/status/2028201388074013048"
     },
     {
@@ -50393,6 +50689,8 @@
         "favorite@chumsdock"
       ],
       "text": "My new favorite tmux dev layout features @opencode  (with Kimi K2.5 running on @FireworksAI_HQ) on top and Claude Code on the bottom. I start almost all agent tasks with Kimi (so fast!), then ask Claude if I need a second opinion/more advanced stuff. Great combo! https://x.com/dhh/status/2027775243473854884/photo/1",
+      "text_zh": "我最新的 tmux 开发布局，上方是 @opencode（运行在 @FireworksAI_HQ 上的 Kimi K2.5），下方是 Claude Code。几乎所有代理任务我都先用 Kimi（速度飞快！），需要第二意见或更高级功能时再问 Claude。绝佳组合！https://x.com/dhh/status/2027775243473854884/photo/1",
+      "text_zh_hash": "0454e75e7ef8c92c",
       "url": "https://x.com/dhh/status/2027775243473854884"
     },
     {
@@ -50432,6 +50730,8 @@
         "bookmark@chumsdock"
       ],
       "text": "We have just updated our \"Atlas of Inequality.\" Have a look at the new version and our research on how to map experience segregation in cities https://inequality.media.mit.edu/",
+      "text_zh": "我们刚刚更新了“不平等地图集”。欢迎查看新版本以及我们关于如何绘制城市体验隔离的研究成果：https://inequality.media.mit.edu/",
+      "text_zh_hash": "ae91af2aabf733bf",
       "url": "https://x.com/estebanmoro/status/2038995623660204409"
     },
     {
@@ -59642,7 +59942,7 @@
     }
   ],
   "recent_count": 1229,
-  "recent_cutoff_at": "2026-04-15T02:52:10.569833Z",
+  "recent_cutoff_at": "2026-04-15T02:55:58.116192Z",
   "recent_window_days": 30,
   "schema_version": 1,
   "updated_at": "2026-05-15T00:19:39Z"
