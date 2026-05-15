@@ -70,6 +70,8 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing Image-to-Replica.\n\nAny face that can exist as a single image, whether it's a brand mascot that has lived in a logo for thirty years, a historical figure, or an AI character designed from a single prompt, can now hold a real conversation. https://x.com/tavus/status/2054990954118152627/video/1",
+      "text_zh": "推出“图像到副本”功能。\n\n任何能以单张图像形式存在的面孔，无论是已在标志中存续三十年的品牌吉祥物、历史人物，还是仅凭一句提示词设计的AI角色，如今都能进行真实的对话。https://x.com/tavus/status/2054990954118152627/video/1",
+      "text_zh_hash": "1425176674b9cc5b",
       "url": "https://x.com/tavus/status/2054990954118152627"
     },
     {
@@ -232,6 +234,8 @@
         "bookmark@chumsdock"
       ],
       "text": "everything you need to know about how the team built the new @raycast from the ground up\n\nhonestly worth a read 👉 https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast\n\nthere's nothing to hide",
+      "text_zh": "关于团队如何从零开始构建全新 @raycast 的所有你需要了解的内容\n\n老实说，值得一读 👉 https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast\n\n没什么可隐瞒的",
+      "text_zh_hash": "44a6684f432ce092",
       "url": "https://x.com/peduarte/status/2054897907069813093"
     },
     {
@@ -60359,7 +60363,7 @@
     }
   ],
   "recent_count": 1233,
-  "recent_cutoff_at": "2026-04-15T07:18:11.265950Z",
+  "recent_cutoff_at": "2026-04-15T07:41:49.704449Z",
   "recent_window_days": 30,
   "schema_version": 1,
   "updated_at": "2026-05-15T07:17:39Z"
