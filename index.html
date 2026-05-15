@@ -834,7 +834,7 @@ function inferHeadings(md) {
   return lines.join("\n");
 }
 
-function cleanArticleMarkdown(md) {
+function cleanArticleMarkdown(md, opts) {
   let cleaned = String(md || "")
     .replace(/##\s*\n+\s*To view keyboard shortcuts[^\n]*\n+(\[View keyboard shortcuts\][^\n]*\n+)?/g, "")
     .replace(/\[View keyboard shortcuts\]\([^)]+\)\n*/g, "")
@@ -844,6 +844,20 @@ function cleanArticleMarkdown(md) {
     .replace(/^[ \t]+$/gm, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
+  // Strip the article's own title from the body when it would duplicate the
+  // heading-size title we already render above the markdown. Trafilatura
+  // exports often begin with `# Title` or even a bare repeat of the title;
+  // showing both is visual noise.
+  const stripTitle = (opts && opts.stripTitle ? opts.stripTitle.trim() : "");
+  if (stripTitle) {
+    const norm = s => s.replace(/^[#\s]+/, "").replace(/\s+/g, " ").trim().toLowerCase();
+    const target = norm(stripTitle);
+    const lines = cleaned.split("\n");
+    while (lines.length && (!lines[0].trim() || norm(lines[0]) === target)) {
+      lines.shift();
+    }
+    cleaned = lines.join("\n").trimStart();
+  }
   return inferHeadings(cleaned);
 }
 
@@ -1228,7 +1242,11 @@ function renderFull(item, refArticles) {
     const bodies = pickBodies(item.article_text, item.article_text_zh, true);
     let inner = "";
     for (const b of bodies) {
-      const cleaned = cleanArticleMarkdown(b.text);
+      // Strip the body's own title when it would duplicate the heading-size
+      // title we render above. Pass both languages — trafilatura often emits
+      // an English h1 at the top even when the body is zh.
+      const stripTitle = b.label === "中文" ? (titleZh || titleEn) : (titleEn || titleZh);
+      const cleaned = cleanArticleMarkdown(b.text, { stripTitle });
       const rendered = renderMarkdown(cleaned);
       const heading = b.label ? `<div class="lang-lbl">${b.label}</div>` : "";
       inner += heading + `<div class="md-body" style="max-height:none">${rendered}</div>`;
