@@ -227,6 +227,9 @@ def main() -> int:
     for item in items:
         is_pri = item.get("id") in priority_ids
         maybe_enqueue(item, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
+        # Tweet bodies themselves need translation too — the summary
+        # blockquote falls back to English when text_zh is missing.
+        maybe_enqueue(item, "text", "text_zh", "text_zh_hash", is_pri)
     for url, entry in lc.items():
         is_pri = url in priority_urls
         maybe_enqueue(entry, "text_excerpt", "text_excerpt_zh", "text_excerpt_zh_hash", is_pri)

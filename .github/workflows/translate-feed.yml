@@ -33,7 +33,7 @@ jobs:
       - name: Translate English content via DeepSeek
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_TRANSLATE_MAX_CALLS: ${{ vars.DEEPSEEK_TRANSLATE_MAX_CALLS || '30' }}
+          DEEPSEEK_TRANSLATE_MAX_CALLS: ${{ vars.DEEPSEEK_TRANSLATE_MAX_CALLS || '150' }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-chat' }}
           TRANSLATE_PRIORITY_IDS: ${{ inputs.priority_id }}
         run: |
