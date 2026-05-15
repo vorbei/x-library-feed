@@ -231,15 +231,27 @@ def _load_x_lib_cache() -> dict[str, Any]:
 # Snippets we know come from page chrome rather than article content. When
 # the scraped body starts with one of these the extractor lost the article
 # boundary — better to keep nothing than to publish navigation menus as
-# "article content".
+# "article content". Includes both English originals and the Chinese
+# translations the translator produced before this filter existed.
 _NAV_SIGNATURES = (
+    # English
     "Home Explore Notifications Chat Grok Premium",
+    "To view keyboard shortcuts, press question mark",
+    "View keyboard shortcuts",
     "Skip to content Navigation Menu",
     "Sign in Sign up",
     "Toggle navigation",
     "Loading...",
     "JavaScript is not available",
     "Enable JavaScript",
+    # Chinese — produced by translating the X.com / github.com SPA shell
+    "查看键盘快捷键，请按问号键",
+    "首页 探索 通知 聊天 Grok",
+    "首页](",  # markdown-link form: [首页](url)
+    "查看新帖子",
+    "跳过导航",
+    "切换导航",
+    "登录 注册",
 )
 
 
@@ -247,12 +259,26 @@ def is_garbage_scrape(text: str) -> bool:
     """Return True when the scraped text is dominated by nav chrome rather
     than article prose. Cheap heuristic — exact-match on a few signature
     phrases at the head of the document covers the major culprits."""
-    head = (text or "").strip()[:600]
+    head = (text or "").strip()[:800]
     if not head:
         return True
     if any(sig in head for sig in _NAV_SIGNATURES):
         return True
     return False
+
+
+_X_STATUS_RE = re.compile(
+    r"^https?://(?:www\.)?(?:x|twitter)\.com/[^/]+/status/\d+", re.I
+)
+
+
+def url_should_have_empty_body(url: str) -> bool:
+    """X tweet pages (non-article) only render usefully through the X API,
+    not through generic scraping. Any cached article_text on these URLs is
+    SPA-shell garbage by definition."""
+    if not url:
+        return False
+    return bool(_X_STATUS_RE.match(url) and "/article/" not in url)
 
 
 def enrich_with_content(
@@ -273,9 +299,19 @@ def enrich_with_content(
     fetched = 0
     reused = 0
     cleared_garbage = 0
+    cleared_x_status = 0
     backfilled = 0
     for it in items:
         url = (it.get("url") or "").strip()
+        # x.com / twitter.com status pages were fetched by older code that
+        # didn't yet gate against the SPA shell — any cached body on those
+        # URLs is nav garbage regardless of what is_garbage_scrape thinks.
+        if url_should_have_empty_body(url) and (it.get("article_text") or "").strip():
+            it["article_text"] = ""
+            it["article_text_zh"] = ""
+            it.pop("article_text_zh_hash", None)
+            it.pop("article_text_zh", None)
+            cleared_x_status += 1
         # Detect and clear garbage scrapes that slipped through earlier runs
         # (X.com SPA shell, github nav menus, etc.) before we look at the
         # body — leaving them in place defeats the whole point.
@@ -371,6 +407,7 @@ def enrich_with_content(
     print(
         f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache, "
         f"{cleared_garbage} prior garbage scrapes cleared, "
+        f"{cleared_x_status} x.com SPA-shell bodies cleared by URL, "
         f"{backfilled} bodies re-cleaned by per-site rules",
         file=sys.stderr,
     )
