@@ -40,10 +40,15 @@ SYSTEM_PROMPT = (
 )
 
 
-def is_english_dominant(text: str, threshold: float = 0.7) -> bool:
-    """Return True when the text is mostly Latin script (≥threshold of non-space chars)."""
+def is_english_dominant(text: str, threshold: float = 0.7, min_len: int = 40) -> bool:
+    """Return True when the text is mostly Latin script (≥threshold of non-space chars).
+
+    `min_len` gates very-short strings as noise. Default 40 chars works for
+    tweet/article bodies; callers can lower it for known headline-y fields
+    like poche.app titles where a single English phrase is meaningful.
+    """
     text = text.strip()
-    if len(text) < 40:
+    if len(text) < min_len:
         return False
     cjk = sum(1 for c in text if "一" <= c <= "鿿")
     if cjk / max(len(text), 1) > 0.05:
@@ -225,9 +230,10 @@ def main() -> int:
         zh_key: str,
         hash_key: str,
         is_priority: bool,
+        min_len: int = 40,
     ) -> None:
         text = record.get(src_key) or ""
-        if not text or not text.strip() or not is_english_dominant(text):
+        if not text or not text.strip() or not is_english_dominant(text, min_len=min_len):
             return
         new_hash = content_hash(text)
         if record.get(zh_key) and record.get(hash_key) == new_hash:
@@ -251,8 +257,11 @@ def main() -> int:
         maybe_enqueue(ref, "article_text", "article_text_zh", "article_text_zh_hash", is_pri)
         maybe_enqueue(ref, "text", "text_zh", "text_zh_hash", is_pri)
     # Poche items: title + description (no priority queue for poche yet).
+    # Poche titles are headline-y and often short ("Poppy", "A Technical Deep
+    # Dive into the New Raycast") — drop the 40-char floor for them, keep the
+    # English-dominant gate so brand names like "Muxy" still skip.
     for p in poche_items:
-        maybe_enqueue(p, "title", "title_zh", "title_zh_hash", False)
+        maybe_enqueue(p, "title", "title_zh", "title_zh_hash", False, min_len=12)
         maybe_enqueue(p, "description", "description_zh", "description_zh_hash", False)
 
     jobs: list[Job] = priority_jobs + regular_jobs
