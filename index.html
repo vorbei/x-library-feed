@@ -839,12 +839,35 @@ function renderMarkdown(md) {
   return html;
 }
 
+// True if a URL looks like a profile photo / favicon / logo / icon rather
+// than a content image. We try to avoid showing those as hero thumbs or
+// gallery items because they carry no information beyond the brand mark.
+function isAvatarLike(url) {
+  if (!url) return true;
+  const u = url.toLowerCase();
+  if (/abs\.twimg\.com\/emoji\//.test(u)) return true;
+  if (/\/profile_(images|banners)\//.test(u)) return true;
+  if (/[\/_-]avatar(s)?[\/_.\-]/.test(u)) return true;
+  if (/favicon\.|apple-touch-icon|android-chrome|mstile-/.test(u)) return true;
+  // Open Graph "logo" payloads — common in poche items when the source
+  // page only exposes its brand mark rather than a hero image.
+  if (/[\/_-]open_graph_logo|[\/_-]og[_-]logo|[\/_-]site[_-]logo/.test(u)) return true;
+  // Bare-host SVGs are almost always logos/icons. Allow SVGs in /assets/
+  // or /images/ that look content-y to slip through.
+  if (/\.svg(\?|$)/.test(u)) return true;
+  return false;
+}
+
 // Collect every image URL referenced by an item across primary, linked, and
 // referenced-tweet sources so the gallery can show a consolidated view.
 function collectImages(item, refArticles) {
   const seen = new Set();
   const out = [];
-  const push = u => { if (u && !seen.has(u)) { seen.add(u); out.push(u); } };
+  const push = u => {
+    if (!u || seen.has(u)) return;
+    if (isAvatarLike(u)) return;
+    seen.add(u); out.push(u);
+  };
   for (const u of (item.image_urls || [])) push(u);
   for (const lc of linkedFor(item)) {
     for (const u of (lc.image_urls || [])) push(u);
@@ -889,7 +912,10 @@ function renderPocheSummary(item) {
   const url = esc(item.article_url || "");
   const title = esc(pochePick(item, "article_title") || pochePick(item, "text") || url);
   const desc = esc(pochePick(item, "text").trim());
-  const ogImg = item.og_image_url || (item.image_urls || [])[0] || "";
+  // Skip hero entirely if it's an avatar / logo / favicon — better to show
+  // no image than a brand mark stretched to 360x200.
+  const heroCandidate = item.og_image_url || (item.image_urls || [])[0] || "";
+  const ogImg = isAvatarLike(heroCandidate) ? "" : heroCandidate;
 
   let html = `<div class="summary-card poche-card">`;
   html += `<div class="head">`;
@@ -1088,11 +1114,15 @@ function pickPageThumb(lc) {
   const imgs = Array.isArray(lc.image_urls) ? lc.image_urls : [];
   for (const src of imgs) {
     if (!src) continue;
-    if (/\.svg(\?|$)/i.test(src)) continue;
-    if (/sprite|icon|favicon|logo|emoji|avatar/i.test(src)) continue;
+    if (isAvatarLike(src)) continue;
+    if (/sprite|icon/i.test(src)) continue;
     return src;
   }
-  return imgs[0] || "";
+  // Don't fall back to a known-avatar URL — better to render no thumb.
+  for (const src of imgs) {
+    if (src && !isAvatarLike(src)) return src;
+  }
+  return "";
 }
 
 function renderPageEmbed(lc, url) {
@@ -1538,19 +1568,21 @@ function renderRow(item) {
   const handleText = isPoche ? (item.domain || "") : ("@" + (a.username || "?"));
   const handle = esc(handleText);
   const title = esc(rowTitle(item).slice(0, 220));
-  // Pick a thumbnail
+  // Pick a thumbnail — skip avatars / favicons / logos so the list shows
+  // real content imagery instead of brand marks.
   let thumb = "";
   for (const u of (item.image_urls || [])) {
-    if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
+    if (!isAvatarLike(u)) { thumb = u; break; }
   }
   if (!thumb) {
     for (const lc of linkedFor(item)) {
       for (const u of (lc.image_urls || [])) {
-        if (!/abs\.twimg\.com\/emoji/.test(u)) { thumb = u; break; }
+        if (!isAvatarLike(u)) { thumb = u; break; }
       }
       if (thumb) break;
       const md = extractMarkdownImages(lc.text_excerpt || "").urls;
-      if (md.length) { thumb = md[0]; break; }
+      const firstReal = md.find(u => !isAvatarLike(u));
+      if (firstReal) { thumb = firstReal; break; }
     }
   }
   const sources = (item.sources || []).map(s => `<span class="src">${shortenSource(s)}</span>`).join("");
