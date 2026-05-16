@@ -50,6 +50,8 @@
       "category": "Tools",
       "created_at": "2026-02-07T10:02:15.804367Z",
       "description": "Sitegeist is an AI assistant designed for browser integration, allowing users to automate web tasks and extract data efficiently. Key features include real-time data extraction for research, summarizing video content, grammar checks, and social media engagement automation. The tool prioritizes user privacy, storing data locally and providing control over personal information. Sitegeist can operate in various Chromium-based browsers and supports both cloud and local AI models. It is open source under the AGPL-3.0 license. Users can create custom automation skills specific to websites, maintain live documents, and manage system settings easily.",
+      "description_zh": "Sitegeist 是一款专为浏览器集成设计的AI助手，可帮助用户高效自动化网页任务并提取数据。其核心功能包括：实时数据提取（适用于研究场景）、视频内容摘要、语法检查以及社交媒体互动自动化。该工具注重用户隐私保护，数据本地存储并提供个人信息控制权。Sitegeist 支持多种基于 Chromium 内核的浏览器，兼容云端与本地AI模型，采用 AGPL-3.0 开源协议。用户可创建针对特定网站的自动化技能、维护实时文档，并轻松管理系统设置。",
+      "description_zh_hash": "41fca68609b0c06a",
       "domain": "sitegeist.ai",
       "embed_type": "",
       "id": "k1713vqpzwxv0nmgtapbr51kjx80p7jk",
@@ -72,6 +74,8 @@
         }
       ],
       "title": "Sitegeist - Your AI Companion for the Web",
+      "title_zh": "Sitegeist - 你的网页AI伴侣",
+      "title_zh_hash": "f704c3ffbea08231",
       "url": "https://sitegeist.ai/",
       "x_status_id": null
     },
@@ -94,6 +98,8 @@
       "category": "Tools",
       "created_at": "2026-05-16T14:10:38.895830Z",
       "description": "Mindoo takes on the routine tasks, so your team can focus on what only humans can do. Intake done. Calls answered. Follow-ups handled. You get more capacity with the same team.",
+      "description_zh": "Mindoo 处理日常事务，让你的团队专注于只有人类才能完成的工作。任务接收完成。电话已接听。后续跟进处理妥当。同样的团队，获得更强的承载能力。",
+      "description_zh_hash": "d3d66c613ea990be",
       "domain": "mindoo.ai",
       "embed_type": "",
       "id": "k1769ak67rqhzta6dmd2x4f0fx86txzr",
@@ -116,6 +122,8 @@
         }
       ],
       "title": "Mindoo - The help healthcare teams were missing.",
+      "title_zh": "Mindoo - 医疗团队所缺失的帮助。",
+      "title_zh_hash": "5786b3ce2cfc17a0",
       "url": "https://mindoo.ai/",
       "x_status_id": null
     },
@@ -131,11 +139,15 @@
         "https://images.ctfassets.net/kftzwdyauwt9/7drPwCnD6ied4wPzlJd7qa/d79ccfda974080bbca7d688ad9bcbc6f/OAI_AdsTest_Blog_ArtCard_1x1.png?w=3840&q=90&fm=webp"
       ],
       "article_text": "Today we’re releasing a preview of a new personal finance experience in ChatGPT to Pro users in the U.S. Now you can securely connect your financial accounts, see a dashboard of where your money is going, and ask ChatGPT questions grounded in your financial context – all while staying in control of your data. We’re starting with a preview to a smaller group so we can learn from real-world use, improve the experience, and expand thoughtfully.\nMoney touches nearly every part of life: where we live, what decisions we make, how we care for loved ones, what future we imagine. But managing finances today often means piecing together accounts, apps, cards, loans, and spreadsheets just to know where things stand. Even then, it can be hard to see the full picture or know what to do next.\nPeople are already turning to ChatGPT for help: more than 200 million people [come to ChatGPT(opens in a new window)](https://chatgpt.com/use-cases/money-and-finances) every month for budgeting, questions about their investments, comparing different paths, planning for future goals, and more. Recent advances in GPT‑5.5 make ChatGPT stronger at reasoning through the complex, context-dependent questions that personal finance often requires.\nWith your financial accounts connected, ChatGPT can combine that reasoning with your real financial context and what you’ve shared about your goals, lifestyle, and priorities, helping you spot patterns, understand tradeoffs, and plan for big decisions in a way that feels more personal and complete. Now you can ask questions like:\nChatGPT can help you stay informed and feel more confident managing your finances, but it is not a replacement for professional financial advice.\nStarting today, we’re rolling out the ability for Pro users in the U.S. to connect their financial accounts in ChatGPT on web and iOS, with support for more than 12,000 financial institutions. We’ll learn and improve from early use before rolling it out to Plus, with the goal of making it available to everyone.\nConnect your financial information\nTo get started, open Finances from the sidebar in ChatGPT and select ‘Get started’ or start a conversation from anywhere in ChatGPT by saying ‘@Finances, connect my accounts’.\nChatGPT will then guide you through securely linking accounts through Plaid, with Intuit support coming soon. After you authenticate, ChatGPT will begin syncing and categorizing your data, which may take a few minutes.\nOnce your accounts are synced, you can see a dashboard that gives you an up-to-date view of where you stand across portfolio performance, spending, subscriptions, upcoming payments, and more.\nBeyond connected accounts, you can share important context about your financial life, like a mortgage, a savings goal, or a major purchase you’re planning for. For example, you might tell ChatGPT: “I’m saving up to buy a car early next year” or “I still owe my parents [X amount] for the loan they gave me.” ChatGPT can save that context to your Financial memories to inform future conversations.\nThat broader context is part of what makes this experience useful – instead of treating each question in isolation, ChatGPT can help connect the dots across your accounts, your goals, and what you’ve already shared, so the guidance is more personal and complete.\nWithout Finances connected\nWith Finances connected\nThe vision for ChatGPT is to go beyond answering questions to help users take action towards improving their financial lives, and we’re working with trusted ecosystem partners like Intuit to do this. For example, a user could go from getting a credit card recommendation to understanding their approval odds and submitting an application, or from asking about tax implications of a stock sale to getting a trusted tax estimate and scheduling a session with a live, local tax expert, powered by Intuit and all inside ChatGPT.\nYour financial data is sensitive, and we have built this experience to respect your privacy and ensure that you’re in",
+      "article_text_zh": "今天我们向美国地区的 Pro 用户发布 ChatGPT 中一项全新的个人财务管理体验预览版。现在，你可以安全地关联自己的金融账户，查看资金流向仪表盘，并基于个人财务背景向 ChatGPT 提问——全程由你掌控数据。我们首先向小规模用户推出预览版，以便从实际使用中学习、优化体验，并逐步扩大覆盖范围。\n\n金钱几乎触及生活的方方面面：我们住在哪里、做出什么决定、如何关爱家人、憧憬怎样的未来。但如今管理财务往往意味着要拼凑账户、应用、银行卡、贷款和电子表格，才能了解自己的财务状况。即便如此，也很难看清全局或知道下一步该怎么做。\n\n人们已经开始向 ChatGPT 寻求帮助：每月有超过 2 亿人[访问 ChatGPT（在新窗口中打开）](https://chatgpt.com/use-cases/money-and-finances)，用于预算规划、投资咨询、方案比较、未来目标规划等。GPT‑5.5 的最新进展使 ChatGPT 在处理个人财务所需的复杂、依赖上下文的推理问题时更加强大。\n\n关联你的金融账户后，ChatGPT 可以将这种推理能力与你的真实财务背景、以及你分享的目标、生活方式和优先事项相结合，帮助你发现规律、理解权衡，并为重大决策制定更个性化、更全面的计划。现在你可以提出如下问题：\n\nChatGPT 可以帮助你保持信息灵通，更自信地管理财务，但它不能替代专业财务建议。\n\n从今天开始，我们向美国地区的 Pro 用户推出在 ChatGPT 网页版和 iOS 端关联金融账户的功能，支持超过 12,000 家金融机构。我们将在早期使用中学习和改进，然后逐步向 Plus 用户推出，最终目标是让所有人都能使用。\n\n**关联你的财务信息**\n\n要开始使用，请从 ChatGPT 侧边栏打开“财务”并选择“开始”，或在 ChatGPT 的任何位置通过输入“@财务，关联我的账户”来发起对话。\n\nChatGPT 将引导你通过 Plaid 安全地关联账户，Intuit 支持即将推出。完成身份验证后，ChatGPT 将开始同步和分类你的数据，这可能需要几分钟时间。\n\n账户同步完成后，你可以看到一个仪表盘，实时展示你的投资组合表现、支出、订阅、即将到来的付款等信息。\n\n除了关联账户，你还可以分享关于财务生活的重要背景信息，比如房贷、储蓄目标或计划中的大额购买。例如，你可以告诉 ChatGPT：“我正在为明年初买车存钱”或“我还欠父母 [X 金额] 的贷款”。ChatGPT 可以将这些背景信息保存到你的“财务记忆”中，用于后续对话。\n\n这种更广泛的背景正是该体验的价值所在——ChatGPT 不是孤立地处理每个问题，而是帮助你关联账户、目标和已分享的信息，从而提供更个性化、更全面的指导。\n\n**未关联财务时**\n\n**关联财务后**\n\nChatGPT 的愿景是超越回答问题，帮助用户采取行动改善财务生活，我们正在与 Intuit 等值得信赖的生态系统合作伙伴合作实现这一目标。例如，用户可以从获得信用卡推荐，到了解获批概率并提交申请；或者从询问股票出售的税务影响，到获得可靠的税务估算并预约与当地税务专家会面——这一切都由 Intuit 提供支持，且全部在 ChatGPT 内完成。\n\n你的财务数据非常敏感，我们构建此体验时充分尊重你的隐私，并确保你始终处于掌控之中。",
+      "article_text_zh_hash": "e695c25c62bb9fad",
       "article_title_extracted": "A new personal finance experience in ChatGPT | OpenAI",
       "category": "Tools",
       "cleaner_v": 1,
       "created_at": "2026-05-16T14:08:51.276796Z",
       "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "description_zh": "在 ChatGPT 中预览面向美国 Pro 用户的个人理财新体验。安全连接您的金融账户，获取基于您的财务状况、目标和优先事项的 AI 驱动洞察与指导。",
+      "description_zh_hash": "7cc0a4e4c3828b59",
       "domain": "openai.com",
       "embed_type": "",
       "id": "k174cm2vd8n62s1zdmf0wphjz986tjwz",
@@ -158,6 +170,8 @@
         }
       ],
       "title": "A new personal finance experience in ChatGPT | OpenAI",
+      "title_zh": "ChatGPT 中的全新个人理财体验 | OpenAI",
+      "title_zh_hash": "c903b63572041725",
       "url": "https://openai.com/index/personal-finance-chatgpt/",
       "x_status_id": null
     },
@@ -169,6 +183,8 @@
       "category": "Development",
       "created_at": "2026-05-16T14:08:36.383919Z",
       "description": "The programming language for agents. Contribute to vercel-labs/zero development by creating an account on GitHub.",
+      "description_zh": "面向智能体的编程语言。在 GitHub 上创建账户，为 vercel-labs/zero 的开发贡献力量。",
+      "description_zh_hash": "d80b767bf7f89fdb",
       "domain": "github.com",
       "embed_type": "",
       "id": "k174c6ksbmyn1mc6330242n70d86ttzq",
@@ -191,6 +207,8 @@
         }
       ],
       "title": "GitHub - vercel-labs/zero: The programming language for agents · GitHub",
+      "title_zh": "GitHub - vercel-labs/zero: 面向智能体的编程语言 · GitHub",
+      "title_zh_hash": "95ffc3d82df56a98",
       "url": "https://github.com/vercel-labs/zero",
       "x_status_id": null
     },
@@ -201,11 +219,15 @@
         "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.2365-6/699828804_747354538402181_5840429370446836_n.png?_nc_cat=109&ccb=1-7&_nc_sid=873e83&_nc_ohc=9fkGmu4coiEQ7kNvwFVZxPe&_nc_oc=Adq0sWUtAEPKbODFpTM9yqsUBI58-Dxg3hLXQnX7E2Vo8vw4r6Q4FOt1YnhDNH6lp4M&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ygjFr5RfZ6B2If1ZJpjGbQ&_nc_ss=7820f&oh=00_Af73VO34XLzzgaejNbCpYeO4YiIk0FqYxQJZAuZuMqSTHA&oe=6A0E65D8"
       ],
       "article_text": "Developers have been experimenting and building hands-free experiences on our AI glasses using camera, audio, and voice. Now, we’re excited to offer a way to present information visually, directly in the moment.\nWe're rolling out access to the display on [Meta Ray-Ban Display](https://www.meta.com/blog/meta-ray-ban-display-ai-glasses-connect-2025/) glasses with two build paths: for mobile apps and now for Web Apps as well, both in developer preview. You can create display experiences using familiar tools, whether you're extending an existing iOS or Android mobile app or building something entirely new.\nYou can get a head start [building and testing display experiences](http://developer.meta.com/wearables) on AI glasses that are worn by people around the world. You don't need to build with a dev kit and imagine what might be possible—these glasses already exist.\nAvailability is rolling out over the coming weeks, so start building early to help define the future of wearables development. If you run into any issues, let us know by sharing your feedback and reporting bugs through the [Developer Center](https://wearables.developer.meta.com/docs/support).\nVideo featuring apps of hands-free experiences on our AI glasses using camera, audio, and voice.\nDisplay is only part of the story. How users interact matters just as much.\nMeta Ray-Ban Display glasses support gesture controls powered by surface electromyography (EMG) via Meta Neural Band, enabling effortless input through subtle finger and hand movements.\nFor developers, this opens up a new unique interaction model that doesn’t rely on touchscreens, voice, or capacitive touch. You can design experiences that respond to simple gestures, enabling more discrete, immediate control in real-world contexts without speaking or reaching for the glasses.\nWith access to the display, developers can start exploring a wide range of use cases:\n- Information overlays\n- Real-time data displays, like scores or status updates\n- Micro-apps, utilities, and experimental interactions\n- Streaming media\nWhether you're an iOS, Android, or web developer, you can build for Meta Ray-Ban Display glasses without learning a new language or a new framework. Your existing stack works for both build paths.\nWe’ve added display capabilities to the Meta Wearables Device Access Toolkit. This native mobile SDK for iOS and Android that lets you extend your existing app onto the glasses display. Using the toolchains you already know—Swift for iOS, Kotlin for Android— you can now add display UI components including text, images, lists, buttons, and video playback. Combined with the existing toolkit capabilities (camera, audio, and display), the Device Access Toolkit gives mobile developers deep hardware integration that no other AI glasses SDK can match.\nRead more in our [developer docs](https://wearables.developer.meta.com/docs/develop/dat).\nA new path for developers who want to build standalone experiences from scratch using standard HTML, CSS, and JavaScript. No proprietary framework to learn. No new language. You can build games, transit tools, cooking guides, grocery lists, instrument practice, and more. with access to motion and orientation data, phone GPS, input from the Meta Neural Band and local storage. Because it's web-native, iteration is fast: build and preview in your browser, then deploy to your glasses via a URL. This path is ideal for rapid prototyping, lightweight utilities, and entirely new categories of on-device experiences.\nRead more in our [developer docs](https://wearables.developer.meta.com/docs/develop/webapps).\nAvailability is rolling out starting today, see linked documentation for full details.:\n- Device Access Toolkit: Check out the GitHub repos for\n[iOS](https://github.com/facebook/meta-wearables-dat-ios)and[Android to](https://github.com/facebook/meta-wearables-dat-android)integrate the SDK, and visit the[documentation](https://wearables.developer.meta.com/docs/develop/dat)for more details.",
+      "article_text_zh": "开发者们一直在利用我们AI眼镜的摄像头、音频和语音功能，探索并构建免手持交互体验。如今，我们很高兴能提供一种在关键时刻直接以视觉方式呈现信息的新途径。\n\n我们正在为[Meta Ray-Ban Display](https://www.meta.com/blog/meta-ray-ban-display-ai-glasses-connect-2025/)眼镜开放显示功能访问权限，提供两种构建路径：移动应用和Web应用，目前均处于开发者预览阶段。无论你是扩展现有的iOS或Android移动应用，还是从零构建全新体验，都可以使用熟悉的工具来打造显示交互体验。\n\n你可以立即开始[构建和测试显示体验](http://developer.meta.com/wearables)，这些AI眼镜已被全球用户佩戴。无需使用开发套件凭空想象可能性——这些眼镜已经真实存在。\n\n功能将在未来几周内逐步开放，请尽早开始构建，共同定义可穿戴设备开发的未来。如遇任何问题，欢迎通过[开发者中心](https://wearables.developer.meta.com/docs/support)提交反馈和报告Bug。\n\n视频展示了基于AI眼镜摄像头、音频和语音的免手持交互应用。\n\n显示功能只是故事的一部分。用户的交互方式同样重要。\n\nMeta Ray-Ban Display眼镜支持通过Meta Neural Band的表面肌电图（EMG）技术实现手势控制，通过细微的手指和手部动作实现轻松输入。\n\n对开发者而言，这开启了一种全新的交互模式，无需依赖触控屏、语音或电容触控。你可以设计响应简单手势的体验，在现实场景中实现更隐蔽、更即时的控制，无需说话或触碰眼镜。\n\n借助显示功能，开发者可以开始探索广泛的应用场景：\n- 信息叠加\n- 实时数据展示，如比分或状态更新\n- 微应用、实用工具和实验性交互\n- 流媒体播放\n\n无论你是iOS、Android还是Web开发者，都可以为Meta Ray-Ban Display眼镜构建应用，无需学习新语言或新框架。现有技术栈即可适配两种构建路径。\n\n我们已将显示功能集成到Meta Wearables Device Access Toolkit中。这个面向iOS和Android的原生移动SDK，让你能将现有应用扩展到眼镜显示屏上。使用你熟悉的工具链——iOS用Swift，Android用Kotlin——即可添加文本、图片、列表、按钮和视频播放等显示UI组件。结合现有工具包功能（摄像头、音频和显示），Device Access Toolkit为移动开发者提供了其他AI眼镜SDK无法比拟的深度硬件集成能力。\n\n更多详情请查阅[开发者文档](https://wearables.developer.meta.com/docs/develop/dat)。\n\n为希望从零构建独立体验的开发者提供的新路径，使用标准HTML、CSS和JavaScript。无需学习专有框架，无需掌握新语言。你可以构建游戏、交通工具、烹饪指南、购物清单、乐器练习等应用，并访问运动与方向数据、手机GPS、Meta Neural Band输入和本地存储。由于基于Web原生，迭代速度极快：在浏览器中构建和预览，然后通过URL部署到眼镜。此路径非常适合快速原型开发、轻量级工具以及全新类别的设备端体验。\n\n更多详情请查阅[开发者文档](https://wearables.developer.meta.com/docs/develop/webapps)。\n\n功能即日起逐步开放，完整详情请参阅相关文档：\n- Device Access Toolkit：查看GitHub仓库[iOS](https://github.com/facebook/meta-wearables-dat-ios)和[Android](https://github.com/facebook/meta-wearables-dat-android)集成SDK，并访问[文档](https://wearables.developer.meta.com/docs/develop/dat)了解更多细节。",
+      "article_text_zh_hash": "f66d860b7aa3c392",
       "article_title_extracted": "The wait is over: Build for display glasses starting today Blog | Meta Horizon OS Developers",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-16T14:07:59.465738Z",
       "description": "Meta Ray-Ban Display developer preview is live. Extend your mobile app or build standalone web apps for AI glasses already in market.",
+      "description_zh": "Meta Ray-Ban 显示开发者预览版现已上线。您可以为已上市的AI眼镜扩展移动应用，或构建独立的网页应用。",
+      "description_zh_hash": "3c68b47abe618a3f",
       "domain": "developers.meta.com",
       "embed_type": "",
       "id": "k17b0h5jc6e0v7ba4htbbanwn186vd8f",
@@ -228,6 +250,8 @@
         }
       ],
       "title": "Blog | Meta Horizon OS Developers",
+      "title_zh": "博客 | Meta Horizon OS 开发者",
+      "title_zh_hash": "82a05577181503ac",
       "url": "https://developers.meta.com/blog/build-for-display-glasses/",
       "x_status_id": null
     },
@@ -263,6 +287,8 @@
         }
       ],
       "title": "y2k — by @soapritual / Cosmos",
+      "title_zh": "y2k — 由 @soapritual / Cosmos 创作",
+      "title_zh_hash": "07a50badb2987250",
       "url": "https://www.cosmos.so/soapritual/y2k/canvas",
       "x_status_id": null
     },
@@ -274,6 +300,8 @@
       "category": "Development",
       "created_at": "2026-05-16T12:35:25.703279Z",
       "description": "Snapshot a Linux VM on one machine, restore it on another. The agent never restarts: same heap, same open files, same timers.",
+      "description_zh": "在一台机器上快照 Linux 虚拟机，在另一台机器上恢复。代理永不重启：相同的堆、相同的打开文件、相同的定时器。",
+      "description_zh_hash": "411cae1efe74abdf",
       "domain": "machinen.dev",
       "embed_type": "",
       "id": "k17fra9vvwejr501x1hwr1qmxh86tf8z",
@@ -296,6 +324,8 @@
         }
       ],
       "title": "Machinen — Hand off a running coding agent between machines",
+      "title_zh": "Machinen — 在机器之间移交运行中的编码代理",
+      "title_zh_hash": "b2488d64c41fcc84",
       "url": "https://machinen.dev/",
       "x_status_id": null
     },
@@ -314,6 +344,8 @@
       "category": "Tools",
       "created_at": "2026-05-16T12:41:55.245245Z",
       "description": "Speak freely about your day. Novu turns your thoughts into tasks, helps you focus on what matters, and reflects it back to you.",
+      "description_zh": "自由地谈论你的一天。Novu 将你的想法转化为任务，帮助你专注于重要的事情，并将其反馈给你。",
+      "description_zh_hash": "93a05978a9c7e4f0",
       "domain": "withnovu.com",
       "embed_type": "",
       "id": "k1792dhd9r2vjyraj7xz608tn986tv3a",
@@ -336,6 +368,8 @@
         }
       ],
       "title": "Novu | Talk your day. Own your time.",
+      "title_zh": "Novu | 畅谈日常，掌控时间。",
+      "title_zh_hash": "897afe66e5328562",
       "url": "https://withnovu.com/",
       "x_status_id": null
     },
@@ -357,6 +391,8 @@
       "category": "Tools",
       "created_at": "2026-05-16T12:22:14.451280Z",
       "description": "Mole is a native macOS app that quietly removes the caches, leftovers, and clutter your Mac no longer needs. One-time purchase, lifetime updates.",
+      "description_zh": "Mole 是一款原生 macOS 应用，能静默清理你的 Mac 不再需要的缓存、残留文件和杂乱数据。一次购买，终身更新。",
+      "description_zh_hash": "258c807df1050b06",
       "domain": "mole.fit",
       "embed_type": "",
       "id": "k171my7mgrwxsxmdycbz3fg10h86t18f",
@@ -379,6 +415,8 @@
         }
       ],
       "title": "Mole · A quiet Mac cleaner",
+      "title_zh": "Mole · 安静的 Mac 清理工具",
+      "title_zh_hash": "1a2559315b76afa4",
       "url": "https://mole.fit/",
       "x_status_id": null
     },
@@ -391,11 +429,15 @@
         "https://static.dinehq.com/images/contact/perplexity.svg"
       ],
       "article_text": "Work News About Contact Digest Menu Close Work News About Contact Digest Have a project in mind? hello@dinehq.com Book a meeting Telegram WeChat All News Introducing Sam - Summarize and Translate Any Webpage May 16, 2026 Reading on the web has gotten unreasonable in a quiet way, with articles that run longer than they need to, a healthy share of what’s worth reading sitting in a language you don’t fully read, and the genuinely useful tab always buried somewhere deeper in the stack than you have patience to dig for. You tell yourself you’ll come back to it later, and most of the time that later never quite arrives. Sam is a small iOS app that lives in the share sheet, so the act of reading a page through it is no more involved than tapping share from Safari and choosing Sam from the row of destinations. What comes back is a summary in whatever language you’ve asked for and in whatever style you’ve made the default, returned quickly enough that the page you were going to put off until the evening becomes something you can dispatch in the time it takes to walk to the kitchen. Translation works the same way through the same surface, and either action can be set as the default so the common case stays a single tap. The app runs on your own OpenRouter key, kept in the iOS Keychain, and lets you assign different models to summarization and translation since the two jobs ask for different strengths. You can lean on a long-context model for dense reading and a faster multilingual one for translation passes, and when something better ships next month, which on OpenRouter is more or less the rhythm of things, you swap it in without the app having an opinion about your choice. Everything Sam produces stays on your device, with the token count and the real cost recorded alongside each result so you can see at a glance what any given page was worth to you and what you spent getting there. The page you shared and the response that came back are the only things that ever touch the network, and there is no account behind the app, no sync, no dashboard waiting to be filled with your reading history. The archive belongs to you, the bill belongs to you, and the keys belong to you. Learn more / Join the beta Back to all news Remote Buffet Careers Privacy Feed llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 Ask AI about us ChatGPT Claude Perplexity Prompt",
+      "article_text_zh": "工作 新闻 关于 联系 精选 菜单 关闭 工作 新闻 关于 联系 精选 有项目想聊聊？ hello@dinehq.com 预约会议 Telegram WeChat 所有新闻 介绍 Sam——总结并翻译任意网页 2026年5月16日 网络阅读已经悄然变得不太合理：文章篇幅冗长，不少值得一读的内容却用你不完全掌握的语言写成，而真正有用的标签页总是藏在堆栈深处，让你懒得去翻。你告诉自己稍后再看，但大多数时候这个“稍后”永远不会到来。 Sam 是一款小巧的 iOS 应用，存在于共享菜单中。通过它阅读网页，只需在 Safari 中点击“共享”，然后从目的地列表中选择 Sam 即可。返回的是你指定语言的摘要，以及你设为默认的风格，速度快到让你原本打算拖到晚上的页面，能在走到厨房的这段时间里处理完毕。翻译也通过同样的界面以相同方式工作，你可以将任一操作设为默认，这样常见场景只需一次点击。 该应用使用你自己的 OpenRouter 密钥（存储在 iOS 钥匙串中），并允许你为摘要和翻译分配不同的模型，因为这两项任务需要不同的优势。你可以用长上下文模型处理密集阅读，用更快的多语言模型进行翻译。当下个月有更好的模型发布时——在 OpenRouter 上这几乎是常态——你可以直接替换，而应用不会对你的选择有任何意见。 Sam 生成的所有内容都保留在你的设备上，每次结果的 token 数量和实际成本都会被记录，让你一目了然地看到某个页面对你有多大价值，以及你为此花费了多少。你分享的页面和返回的响应是唯一会触及网络的内容，应用背后没有账户、没有同步、也没有等待填充你阅读历史的数据面板。存档属于你，账单属于你，密钥也属于你。 了解更多 / 加入测试版 返回所有新闻 Remote Buffet 职业 隐私 订阅 llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 向我们提问 AI 关于我们 ChatGPT Claude Perplexity 提示词",
+      "article_text_zh_hash": "bf0febe066af95f7",
       "article_title_extracted": "Dine - Introducing Sam - Summarize and Translate Any Webpage",
       "category": "Tools",
       "cleaner_v": 1,
       "created_at": "2026-05-16T05:43:45.472676Z",
       "description": "Reading on the web has gotten unreasonable in a quiet way, with articles that run longer than they need to, a healthy share of what's worth reading sitting in a",
+      "description_zh": "网络阅读已经悄然变得不合理，文章篇幅冗长，而真正值得阅读的内容却只占其中一小部分。",
+      "description_zh_hash": "493021f408996dc6",
       "domain": "dinehq.com",
       "embed_type": "",
       "id": "k177hf7atcpfzp3cnwb3rpcrt186vh9t",
@@ -418,6 +460,8 @@
         }
       ],
       "title": "Dine - Introducing Sam - Summarize and Translate Any Webpage",
+      "title_zh": "Dine - 介绍 Sam - 总结并翻译任意网页",
+      "title_zh_hash": "552c918b5fed9626",
       "url": "https://dinehq.com/news/sam/",
       "x_status_id": null
     },
@@ -425,6 +469,8 @@
       "category": "Tools",
       "created_at": "2026-05-16T03:16:42.590069Z",
       "description": "Native macOS terminal built on Ghostty. Works with Claude Code, Codex, OpenCode, Gemini CLI, Kiro, Aider, and any CLI tool. Vertical tabs, notification rings, split panes, and a socket API.",
+      "description_zh": "基于 Ghostty 构建的原生 macOS 终端。兼容 Claude Code、Codex、OpenCode、Gemini CLI、Kiro、Aider 及任何 CLI 工具。支持垂直标签页、通知环、分屏面板及套接字 API。",
+      "description_zh_hash": "e851e5c8dbd828f3",
       "domain": "cmux.com",
       "embed_type": "",
       "id": "k17ejka326pz5k4zmx8d42gah586v7ez",
@@ -447,6 +493,8 @@
         }
       ],
       "title": "cmux — The terminal built for multitasking",
+      "title_zh": "cmux — 专为多任务处理打造的终端",
+      "title_zh_hash": "35b5017aff8f4101",
       "url": "https://cmux.com/",
       "x_status_id": null
     },
@@ -460,6 +508,8 @@
       "category": "Development",
       "created_at": "2026-05-15T15:05:21.776000Z",
       "description": "Let AI assistants build, test, and debug your iOS apps autonomously. XcodeBuildMCP bridges the gap between AI agents and Xcode.",
+      "description_zh": "让AI助手自主构建、测试和调试你的iOS应用。XcodeBuildMCP 架起了AI代理与Xcode之间的桥梁。",
+      "description_zh_hash": "df4e9f3ebd9662ef",
       "domain": "www.xcodebuildmcp.com",
       "embed_type": "",
       "id": "k17730jjqnfpw9gkcjz8b7x6pn86rjt4",
@@ -482,6 +532,8 @@
         }
       ],
       "title": "XcodeBuildMCP - AI-Powered Xcode Automation",
+      "title_zh": "XcodeBuildMCP - 基于AI的Xcode自动化工具",
+      "title_zh_hash": "882c5a993fb0f2a3",
       "url": "https://www.xcodebuildmcp.com/",
       "x_status_id": null
     },
@@ -491,11 +543,15 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/16/a9/f516a980-0922-4718-c9c4-cb0b3b4e8b6f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/1920x1080ia-80.png"
       ],
       "article_text": "Testing Apps with TestFlight\nHelp developers test beta versions of their apps and App Clips using the TestFlight app. Download TestFlight on the App Store for iPhone, iPad, Mac, Apple TV, Apple Vision Pro, Watch, and iMessage.\nGetting started\nTo test beta versions of apps and App Clips using TestFlight, you’ll need to accept an email or public link invitation from the developer and have a device that you can use to test. You’ll be able to access the builds that the developer makes available to you.\nNote: Developers can choose to set criteria for their beta, such as a preferred device or OS. You must have the preferred device and OS in order to accept the invitation. You can tap or click Learn More in the invite to view the specific device and OS requirements the developer is looking for.\nIf you’re a member of the developer’s team, the developer can give you access to all builds or certain builds.\nTo report a scam, fraud, or offensive, illegal, or abusive content in a beta app, tap or click Report a Problem in the TestFlight app, or in your email invitation.\nRequired OS by platform\n- iOS or iPadOS apps: iPhone or iPad running iOS 16 or iPadOS 16 or later. App Clips require iOS 16 or iPadOS 16, or later.\n- macOS apps: Mac running macOS 13 or later.\n- tvOS apps: Apple TV running tvOS 18 or later.\n- visionOS apps: Apple Vision Pro running visionOS 1 or later.\n- watchOS apps: Apple Watch running watchOS 9 or later.\nInstalling and testing beta apps\nEach build is available to test for up to 90 days, starting from the day the developer uploads their build. You can see how many days you have left for testing under the app name in TestFlight. TestFlight will notify you each time a new build is available and will include instructions on what you need to test. Alternatively, with TestFlight 3 or later, you can turn on automatic updates to have the latest beta builds install automatically.\nWhen the testing period is over, you'll no longer be able to open the beta build. To install the App Store version of the app, download or purchase the app from the App Store. In-app purchases are free only during beta testing, and any in-app purchases made during testing will not carry over to App Store versions.\nNote: To automatically download additional in-app content and assets, such as Apple-Hosted Background Assets and Managed Background Assets after a beta app is installed, ensure the In-App Content or Automatically download in-app content option is enabled in your App Store settings for [iPhone](https://support.apple.com/guide/iphone/manage-purchases-subscriptions-settings-iph3dfd91de/ios), [iPad](https://support.apple.com/guide/ipad/manage-purchases-subscriptions-settings-ipadee10c6e7/ipados), [Mac](https://support.apple.com/guide/app-store/change-app-store-preferences-mchlp2257/3.0/mac/13.0), [Apple TV](https://support.apple.com/guide/tv/welcome/tvos), and [Apple Vision Pro](https://support.apple.com/guide/apple-vision-pro/welcome/visionos)\nApple-Hosted Background Assets: Devices must be running iOS/iPadOS 26 or later, and macOS 26 or later.\nManaged Background Assets: Devices must be running iOS/iPadOS 16 or later, macOS 13 or later, tvOS 18.5 or later, and visionOS 2.4 or later.\nInstallation\nTo get started, install TestFlight on the device you’ll use for testing. Then, accept your email invitation or follow the public link invitation to install the beta app. The public link invitation will include a description of the beta app and may also include screenshots, the app category, and criteria you must meet to join the beta. You can install the beta app on up to 30 devices.\nIf you do not meet the tester criteria, the beta invitation will inform you that the developer requires you to test with a specific device and OS when you tap or click Learn More on the beta invitation. If you have a device that meets the critiera, you can install TestFlight on the device and then accept the beta invitation.\nKeep in mind that you can accept an invitation on a",
+      "article_text_zh": "使用 TestFlight 测试 App\n\n帮助开发者通过 TestFlight 应用测试其 App 和 App Clip 的测试版本。在 App Store 上为 iPhone、iPad、Mac、Apple TV、Apple Vision Pro、Watch 和 iMessage 下载 TestFlight。\n\n开始使用\n\n要使用 TestFlight 测试 App 和 App Clip 的测试版本，您需要接受开发者发送的电子邮件或公开链接邀请，并拥有一台可用于测试的设备。您将能够访问开发者向您提供的构建版本。\n\n注意：开发者可以选择为其测试版设置条件，例如首选设备或操作系统。您必须拥有首选设备和操作系统才能接受邀请。您可以点击或轻点邀请中的“了解更多”以查看开发者指定的具体设备和操作系统要求。\n\n如果您是开发者团队的成员，开发者可以授予您访问所有构建版本或特定构建版本的权限。\n\n要举报测试版 App 中的诈骗、欺诈、攻击性、非法或滥用内容，请点击或轻点 TestFlight 应用或电子邮件邀请中的“报告问题”。\n\n各平台所需操作系统\n\n- iOS 或 iPadOS App：运行 iOS 16 或 iPadOS 16 及更高版本的 iPhone 或 iPad。App Clip 需要 iOS 16 或 iPadOS 16 及更高版本。\n- macOS App：运行 macOS 13 及更高版本的 Mac。\n- tvOS App：运行 tvOS 18 及更高版本的 Apple TV。\n- visionOS App：运行 visionOS 1 及更高版本的 Apple Vision Pro。\n- watchOS App：运行 watchOS 9 及更高版本的 Apple Watch。\n\n安装和测试测试版 App\n\n每个构建版本自开发者上传之日起可供测试最多 90 天。您可以在 TestFlight 中 App 名称下方查看剩余测试天数。每当有新的构建版本可用时，TestFlight 会通知您，并包含您需要测试的内容的说明。或者，使用 TestFlight 3 或更高版本，您可以开启自动更新，让最新的测试版构建版本自动安装。\n\n当测试期结束后，您将无法再打开该测试版构建版本。要安装 App Store 版本的 App，请从 App Store 下载或购买该 App。应用内购买仅在测试期间免费，测试期间进行的任何应用内购买不会延续到 App Store 版本。\n\n注意：要在测试版 App 安装后自动下载额外的应用内内容和资源（例如 Apple-Hosted Background Assets 和 Managed Background Assets），请确保在您的 App Store 设置中为 [iPhone](https://support.apple.com/guide/iphone/manage-purchases-subscriptions-settings-iph3dfd91de/ios)、[iPad](https://support.apple.com/guide/ipad/manage-purchases-subscriptions-settings-ipadee10c6e7/ipados)、[Mac](https://support.apple.com/guide/app-store/change-app-store-preferences-mchlp2257/3.0/mac/13.0)、[Apple TV](https://support.apple.com/guide/tv/welcome/tvos) 和 [Apple Vision Pro](https://support.apple.com/guide/apple-vision-pro/welcome/visionos) 启用了“应用内内容”或“自动下载应用内内容”选项。\n\nApple-Hosted Background Assets：设备必须运行 iOS/iPadOS 26 或更高版本，以及 macOS 26 或更高版本。\nManaged Background Assets：设备必须运行 iOS/iPadOS 16 或更高版本、macOS 13 或更高版本、tvOS 18.5 或更高版本，以及 visionOS 2.4 或更高版本。\n\n安装\n\n要开始使用，请在您用于测试的设备上安装 TestFlight。然后，接受您的电子邮件邀请或按照公开链接邀请安装测试版 App。公开链接邀请将包含测试版 App 的描述，还可能包含屏幕截图、App 类别以及您加入测试版必须满足的条件。您最多可以在 30 台设备上安装测试版 App。\n\n如果您不符合测试者条件，当您点击或轻点测试版邀请上的“了解更多”时，测试版邀请会告知您开发者要求您使用特定设备和操作系统进行测试。如果您拥有符合条件的设备，您可以在该设备上安装 TestFlight，然后接受测试版邀请。\n\n请记住，您可以在",
+      "article_text_zh_hash": "40ce6f7c3859f121",
       "article_title_extracted": "Join the Sam Webpage Summarizer beta - TestFlight - Apple",
       "category": "Tools",
       "cleaner_v": 1,
       "created_at": "2026-05-15T14:32:17.269009Z",
       "description": "Summarize and translate webpages from the iOS share sheet, using your own OpenRouter key.",
+      "description_zh": "从 iOS 共享菜单中总结并翻译网页内容，使用你自己的 OpenRouter 密钥。",
+      "description_zh_hash": "49443d13cb1502ac",
       "domain": "testflight.apple.com",
       "embed_type": "",
       "id": "k1749k4r738c6062j19t61qpqd86r57q",
@@ -518,6 +574,8 @@
         }
       ],
       "title": "Join the Sam beta",
+      "title_zh": "加入 Sam 测试版",
+      "title_zh_hash": "56fa6de14756879b",
       "url": "https://testflight.apple.com/join/hSy7vt6Q",
       "x_status_id": null
     },
@@ -541,6 +599,8 @@
       "category": "Design",
       "created_at": "2026-05-15T12:35:06.822007Z",
       "description": "Public benchmark leaderboard and gallery for LLM‑generated Pokémon-themed SVG",
+      "description_zh": "LLM 生成的宝可梦主题 SVG 公开基准排行榜与图库",
+      "description_zh_hash": "cd4a185f60af95ac",
       "domain": "svg-bench.fenx.work",
       "embed_type": "",
       "id": "k178hj1eh3jgmcsyjher022ye586rm02",
@@ -563,6 +623,8 @@
         }
       ],
       "title": "Pokémon SVG Bench",
+      "title_zh": "Pokémon SVG 基准测试",
+      "title_zh_hash": "83a8bc9c7a94e2a0",
       "url": "https://svg-bench.fenx.work/",
       "x_status_id": null
     },
@@ -570,6 +632,8 @@
       "category": "Social",
       "created_at": "2026-05-15T02:20:27.919648Z",
       "description": "Quick update: not dead.$FIG Q1 results:→ 46% YoY revenue growth, accelerating for the 2nd straight quarter→ Net Dollar Retention Rate increased to 139%, our highest rate in over two years→ Raising 2026 revenue guidance for the yearDesign matters more than ever. pic.twitter.com/uFLJPAsWAw",
+      "description_zh": "快速更新：还活着。  \n$FIG 第一季度财报：  \n→ 营收同比增长46%，连续第二个季度加速增长  \n→ 净美元留存率提升至139%，创两年多来最高水平  \n→ 上调2026年全年营收预期  \n设计比以往任何时候都更重要。pic.twitter.com/uFLJPAsWAw",
+      "description_zh_hash": "bb1c7ab2de7ac364",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17fwemdjfavj1cba8h8ctv0gd86rr13",
@@ -592,6 +656,8 @@
         }
       ],
       "title": "Dylan Field (@zoink) on X",
+      "title_zh": "Dylan Field (@zoink) 在 X 平台",
+      "title_zh_hash": "3e4ead28fc9c069e",
       "url": "https://x.com/zoink/status/2055018215152234926",
       "x_status_id": "2055018215152234926"
     },
@@ -615,6 +681,8 @@
       "category": "Tools",
       "created_at": "2026-05-15T02:20:36.650877Z",
       "description": "Poppy brings your calendar, email, messages and more into one quick look - so you can spend less time on your phone and more time on the rest of your day.",
+      "description_zh": "Poppy 将您的日历、邮件、消息等内容整合到一处快速浏览，让您减少手机使用时间，把更多时间留给一天中的其他事务。",
+      "description_zh_hash": "815c063acb6f7f88",
       "domain": "getpoppy.app",
       "embed_type": "",
       "id": "k178mvz7a192ckn65dkyvtnzcn86sjwd",
@@ -652,11 +720,15 @@
         "https://avatars.githubusercontent.com/u/1789?v=4"
       ],
       "article_text": "Yesterday [Anthropic announced changes to how Claude subscriptions work](https://x.com/ClaudeDevs/status/2054610152817619388) when you use Claude Code through tools like Zed, rather than directly in the terminal. The details have been hard to parse, and we've been getting a lot of questions from Zed users about what it means in practice. So here's an overview of what's actually changing and what options you have moving forward.\n[What's Changing with Anthropic's Pricing](https://zed.dev#whats-changing-with-anthropics-pricing)\nStarting June 15, [Anthropic is splitting Claude subscription billing into two pools](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan): one for using Claude through Anthropic's first-party tools (such as chat, or the official Claude Code CLI), and another for third-party agent and SDK usage (anything [running through ACP](https://agentclientprotocol.com), claude -p\n, or other third-party tools). If you use Claude Code through ACP (in Zed or anywhere else), that usage will no longer draw from your Claude Pro or Max subscription limits. Instead, it draws from a new monthly \"Agent SDK credit\" that Anthropic is adding to each plan: $20 for Pro, $100 for Max 5x, $200 for Max 20x.\nOnce the credit runs out, continued usage bills at standard API rates if you have extra usage enabled. If you don't, requests stop until your credit resets next billing cycle.\nWhat this means in practice: For anyone using agents heavily, this is a major cost increase. Claude subscriptions previously subsidized agent usage at [roughly 15-30x compared to API pricing](https://fazm.ai/blog/claude-pro-vs-api-cost-comparison), and the new credits are billed at full API rates.\n[Your Options in Zed](https://zed.dev#your-options-in-zed)\nZed supports lots of providers and multiple ways of working with agents. You're never locked into a single provider or billing arrangement.\nKeep using Claude with your subscription. If you want to keep using Claude with your Claude Pro or Max plan at your existing subscription limits, you can run Anthropic's official claude\nCLI in a terminal inside Zed instead of through ACP. When the official claude\nCLI runs in the terminal, it uses your subscription's limits, not the new credit.\nWe're actively working on making TUI agents a first-class part of orchestrating agents in Zed. Stay tuned for next week's release of Terminal Threads.\nUse Zed's built-in agent with the provider that works for you. You can use [Zed-hosted models](https://zed.dev/pricing), bring your own API keys from [any supported provider](https://zed.dev/docs/ai/llm-providers), connect to Copilot, run local models through Ollama, or use DeepSeek.\nBring your own agent. You can run any [ACP compatible agent](https://agentclientprotocol.com/get-started/registry) inside Zed. OpenCode, Codex, Factory, Cursor, and many more all [work inside Zed](https://zed.dev/docs/ai/external-agents). Several of these still offer rate-limited subscriptions that subsidize heavy usage.\n[ACP Remains Open](https://zed.dev#acp-remains-open)\nACP is an open protocol. We're building it in collaboration with other agent partners and client makers such as [JetBrains](https://zed.dev/blog/jetbrains-on-acp) and the community, so that your editor is never locked into one provider's pricing decisions. We suspect this kind of change won't be the last. Providers will continue adjusting how they bill for agent usage as the economics evolve. Having the optionality to switch agents or providers without switching editors matters, and that's what ACP and Zed give you.\nZed is the fastest interface for agentic development, and you're not locked into one agent or billing model to use it. If you have questions about configuring providers or agents, [check out our docs](https://zed.dev/docs/ai/overview) or come [find us on Discord](https://discord.com/invite/zedindustries).\nRelated Posts\nCheck out similar blogs from the Zed team.\nLooking for a better",
+      "article_text_zh": "昨天 [Anthropic 宣布了 Claude 订阅方式的变化](https://x.com/ClaudeDevs/status/2054610152817619388)，当你通过 Zed 等工具使用 Claude Code，而非直接在终端中使用时，将受到影响。这些细节难以理解，我们收到了许多 Zed 用户的疑问，想知道这在实际使用中意味着什么。因此，这里概述了实际变化的内容以及你未来可以选择的方案。\n\n## Anthropic 定价的变化\n\n从 6 月 15 日起，[Anthropic 将 Claude 订阅计费分为两个池](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)：一个用于通过 Anthropic 自有工具（如聊天或官方 Claude Code CLI）使用 Claude，另一个用于第三方 agent 和 SDK 使用（任何[通过 ACP 运行](https://agentclientprotocol.com)、`claude -p` 或其他第三方工具）。如果你通过 ACP（在 Zed 或其他任何地方）使用 Claude Code，该使用量将不再从你的 Claude Pro 或 Max 订阅额度中扣除。相反，它将从 Anthropic 为每个计划新增的月度“Agent SDK 积分”中扣除：Pro 计划为 20 美元，Max 5x 计划为 100 美元，Max 20x 计划为 200 美元。\n\n一旦积分用完，如果你启用了额外使用量，将继续按标准 API 费率计费。如果没有启用，请求将停止，直到下一个计费周期积分重置。\n\n这在实践中意味着：对于重度使用 agent 的用户来说，这是一次重大的成本增加。Claude 订阅此前以[大约 API 定价的 15-30 倍](https://fazm.ai/blog/claude-pro-vs-api-cost-comparison)补贴了 agent 使用，而新的积分则按全价 API 费率计费。\n\n## 你在 Zed 中的选择\n\nZed 支持众多提供商和多种使用 agent 的方式。你永远不会被锁定在单一的提供商或计费安排中。\n\n**继续使用你的订阅使用 Claude。** 如果你想继续使用你的 Claude Pro 或 Max 计划，并在现有订阅额度内使用 Claude，你可以在 Zed 内部的终端中运行 Anthropic 官方的 `claude` CLI，而不是通过 ACP。当官方的 `claude` CLI 在终端中运行时，它使用的是你订阅的额度，而非新的积分。\n\n我们正在积极努力，将 TUI agent 作为 Zed 中编排 agent 的一等公民功能。敬请期待下周发布的 Terminal Threads。\n\n**使用 Zed 内置的 agent 以及适合你的提供商。** 你可以使用 [Zed 托管的模型](https://zed.dev/pricing)，从[任何支持的提供商](https://zed.dev/docs/ai/llm-providers)自带 API 密钥，连接到 Copilot，通过 Ollama 运行本地模型，或使用 DeepSeek。\n\n**自带 agent。** 你可以在 Zed 内运行任何[兼容 ACP 的 agent](https://agentclientprotocol.com/get-started/registry)。OpenCode、Codex、Factory、Cursor 以及更多 agent 都[可以在 Zed 内工作](https://zed.dev/docs/ai/external-agents)。其中一些仍然提供补贴重度使用的速率限制订阅。\n\n## ACP 保持开放\n\nACP 是一个开放协议。我们正在与其他 agent 合作伙伴和客户端制造商（如 [JetBrains](https://zed.dev/blog/jetbrains-on-acp)）以及社区合作构建它，以确保你的编辑器永远不会被锁定在单一提供商的定价决策中。我们猜测这种变化不会是最后一次。随着经济模式的发展，提供商将继续调整他们对 agent 使用的计费方式。拥有在不切换编辑器的情况下切换 agent 或提供商的选择权至关重要，而这正是 ACP 和 Zed 为你提供的。\n\nZed 是 agent 开发的最快界面，并且你无需被锁定在单一的 agent 或计费模型中即可使用它。如果你对配置提供商或 agent 有疑问，[请查看我们的文档](https://zed.dev/docs/ai/overview)或来 [Discord 上找我们](https://discord.com/invite/zedindustries)。\n\n## 相关文章\n\n查看 Zed 团队的其他类似博客文章。\n\n寻找更好的...",
+      "article_text_zh_hash": "643446cfc0162839",
       "article_title_extracted": "What Anthropic's New Claude Billing Means for Zed Users — Zed's Blog",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-15T02:21:15.918611Z",
       "description": "From the Zed Blog: Claude subscriptions no longer subsidize Agent SDK usage. Here are the options you have in Zed.",
+      "description_zh": "来自 Zed 博客：Claude 订阅不再补贴 Agent SDK 的使用。以下是你在 Zed 中可用的选项。",
+      "description_zh_hash": "c530b78a57be87d1",
       "domain": "zed.dev",
       "embed_type": "",
       "id": "k17abde6anb4n3p66pjwebw1n986r1km",
@@ -679,6 +751,8 @@
         }
       ],
       "title": "What Anthropic's New Claude Billing Means for Zed Users — Zed's Blog",
+      "title_zh": "Anthropic 新推出的 Claude 计费方式对 Zed 用户意味着什么 —— Zed 博客",
+      "title_zh_hash": "bf3fbeb483072d55",
       "url": "https://zed.dev/blog/anthropic-subscription-changes",
       "x_status_id": null
     },
@@ -693,11 +767,15 @@
         "https://x.ai/bg/Subagents.png"
       ],
       "article_text": "Grok API Company Colossus Careers News Shop SpaceX 𝕏 Try Grok Grok Build Beta Read docs Try now Grok Build is in early beta for SuperGrok Heavy subscribers. Try now curl -fsSL https://x.ai/cli/install.sh | bash projects/main jasong/folder | 8.20% | ❯ Validate the cart total before charging the customer ◆ Thought for 2.5s ◆ Edit src/api/checkout.ts 42 export async function checkout ( cart : Cart ) { 43 const total = calculateTotal (cart.items); 44 if (total <= 0 ) { 45 throw new ValidationError ( 'Cart total must be positive' ); 4 } 47 48 const charge = await stripe .charges. create ( { 49 amount : total, 50 currency : 'usd' , ◆ Thought for 1.2s ❯ / bt w Ask a side question without interrupting /make-interfaces-feel- b etter Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, \"make it feel better\", \"feels off\", ❯ /bt grok-build · always-approve Enter send | Shift-Tab normal | ctrl+h home | ^-q quit Fast and flicker-free CLI Coordinate multiple agents in a powerful CLI built for plans, subagents, and parallel work. Try now curl -fsSL https://x.ai/cli/install.sh | bash Skills Plan Plugins Q&A Subagents Grok Build adapts to your workflows and preferences with skills. The plan viewer makes it easy to architect complex projects. Marketplaces help you share capabilities across your team. Grok Build asks the right questions to nail the details. Subagents run in parallel to research, build, and review at once. Bring Grok into your terminal Install now and start building with the early beta of Grok Build. Try now curl -fsSL https://x.ai/cli/install.sh | bash Try Grok On Web iOS Android Grok on X Products Grok 𝕏 Grok Enterprise Grokipedia API Overview Voice API Imagine API Pricing API Console Login Documentation Company Company Careers Contact News Resources Privacy policy Privacy portal Security Safety Legal Status",
+      "article_text_zh": "Grok API 公司 Colossus 招聘 新闻 商店 SpaceX 𝕏 试用 Grok Grok Build Beta 阅读文档 立即试用 Grok Build 目前处于早期测试阶段，面向 SuperGrok Heavy 订阅用户开放。立即试用 curl -fsSL https://x.ai/cli/install.sh | bash projects/main jasong/folder | 8.20% | ❯ 在向客户收费前验证购物车总额 ◆ 思考 2.5 秒 ◆ 编辑 src/api/checkout.ts 42 export async function checkout ( cart : Cart ) { 43 const total = calculateTotal (cart.items); 44 if (total <= 0 ) { 45 throw new ValidationError ( '购物车总额必须为正数' ); 4 } 47 48 const charge = await stripe .charges. create ( { 49 amount : total, 50 currency : 'usd' , ◆ 思考 1.2 秒 ❯ / bt w 在不中断的情况下提出辅助问题 /make-interfaces-feel- b etter 用于让界面感觉更精致的工程设计原则。在构建 UI 组件、审查前端代码、实现动画、悬停状态、阴影、边框、排版、微交互、进入/退出动画或任何视觉细节工作时使用。触发词：UI 打磨、设计细节、\"让它感觉更好\"、\"感觉不对劲\" ❯ /bt grok-build · always-approve 输入 发送 | Shift-Tab 普通模式 | ctrl+h 回到行首 | ^-q 退出 快速且无闪烁的 CLI 在专为计划、子代理和并行工作而设计的强大 CLI 中协调多个代理。立即试用 curl -fsSL https://x.ai/cli/install.sh | bash 技能 计划 插件 问答 子代理 Grok Build 通过技能适应你的工作流程和偏好。计划查看器让你轻松架构复杂项目。市场帮助你在团队中共享能力。Grok Build 会提出正确的问题以把握细节。子代理并行运行，同时进行研究、构建和审查。 将 Grok 带入你的终端 立即安装，开始体验 Grok Build 的早期测试版。立即试用 curl -fsSL https://x.ai/cli/install.sh | bash 试用 Grok 网页版 iOS 安卓 Grok on X 产品 Grok 𝕏 Grok 企业版 Grokipedia API 概述 语音 API Imagine API 定价 API 控制台 登录 文档 公司 公司 招聘 联系 新闻 资源 隐私政策 隐私门户 安全 安全 法律 状态",
+      "article_text_zh_hash": "726d78e52f1c49f3",
       "article_title_extracted": "Grok Build Beta | xAI",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-15T02:21:19.545294Z",
       "description": "Grok Build Beta adds a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/install.sh | bash.",
+      "description_zh": "Grok Build Beta 新增原生子代理视图、Plan Mode 集成、鼠标支持及全屏终端界面。通过以下命令安装：curl -fsSL https://x.ai/cli/install.sh | bash。",
+      "description_zh_hash": "c22aa293e9640861",
       "domain": "x.ai",
       "embed_type": "",
       "id": "k170pb0d0m6zhcxcprvnj7mffx86sg89",
@@ -720,6 +798,8 @@
         }
       ],
       "title": "Grok Build Beta | xAI",
+      "title_zh": "Grok Build Beta | xAI",
+      "title_zh_hash": "485553b3a0fea8da",
       "url": "https://x.ai/cli",
       "x_status_id": null
     },
@@ -727,6 +807,8 @@
       "category": "Articles",
       "created_at": "2026-05-15T02:21:20.951293Z",
       "description": "The story behind Raycast's cross-platform rewrite and the details that make it feel fast, delightful, and familiar.",
+      "description_zh": "Raycast跨平台重写背后的故事，以及让它感觉快速、愉悦且熟悉的细节。",
+      "description_zh_hash": "1b6fe50e5180aa9f",
       "domain": "www.raycast.com",
       "embed_type": "",
       "id": "k17caz8tnybekchep7a3wq96vd86rb9v",
@@ -749,6 +831,8 @@
         }
       ],
       "title": "A Technical Deep Dive Into the New Raycast - Raycast Blog",
+      "title_zh": "Raycast 技术深度解析 - Raycast 博客",
+      "title_zh_hash": "0ea851f04e688b6a",
       "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
       "x_status_id": null
     },
@@ -759,11 +843,15 @@
         "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Flag&backgroundColor=olive"
       ],
       "article_text": "2028: Two scenarios for global AI leadership\nWe’re releasing a new paper that explains our views on the competition on AI between the US and China.\nIt’s essential that the US and its allies stay ahead of authoritarian governments like the Chinese Communist Party, or CCP. AI will soon become [powerful enough](https://www.darioamodei.com/essay/the-adolescence-of-technology) to be used to repress citizens at unprecedented scale, and even to alter the balance of power [among nations](https://www.anthropic.com/news/disrupting-AI-espionage). And since AI is advancing more quickly by the day, we have only a limited period of time to set the conditions of the competition—and determine whether and how those threats materialize. It’s with this in mind that we outline what’s required to ensure America stays ahead.\nThe most important ingredient for developing AI is access to the computer chips on which the models are trained (or “compute”). Since the most capable chips are developed by American companies, the US government currently limits China’s supply by enforcing tight export controls on them. Recent history suggests these controls have been incredibly successful. In fact, AI labs in China have only built models close in intelligence to America’s because of their talent, their knack for exploiting loopholes around these export controls, and their [large-scale distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) that illicitly extract the innovations of American companies.\nIn this post, we present two scenarios for what the world might look like in 2028, when we expect transformative AI systems to have arrived.\nIn the first scenario, America has successfully defended its compute advantage. Policymakers have acted to tighten export controls further, disrupt China’s distillation attacks, and further accelerate democracies’ adoption of AI. In this world, democracies set the rules and norms around AI. It’s also in this scenario that we’re most likely to successfully engage with China on safety, which we’re supportive of to the extent this is possible.\nIn the second scenario, America has chosen not to act. Policymakers have not tightened loopholes on the CCP’s access to compute, and AI firms in China have quickly taken advantage—catching up to the frontier and even overtaking America. In this world, AI norms and rules are shaped by authoritarian regimes, and the best models enable automated repression at scale. It will be no solace that this authoritarian triumph has happened on the back of American compute.\nAmerica and its allies approach AI competition from a position of great strength. The tools for AI dominance have been built by an exceptionally innovative ecosystem of companies in democratic nations. Our past success means that our present task is largely to avoid squandering our advantage: to decide not to make it easier for the CCP to catch up.\nTwo scenarios for the US and China in 2028\nSummary\nDemocracies, not authoritarian regimes, must lead in AI development and deployment. These countries and political systems can shape the rules and norms that govern these systems.\nDemocracies currently hold a substantial lead in compute, the most important ingredient for developing frontier AI models. That lead exists thanks to American and allied innovation, and to bipartisan US export controls that defend those innovations. But on model intelligence, AI labs in the People’s Republic of China (PRC), under the jurisdiction and control of the Chinese Communist Party (CCP), are not far behind. We focus on the CCP as it is the regime that is most able to use frontier AI to cement authoritarianism; we do not seek to undermine the interests or ingenuity of the Chinese people. Already, the CCP is using AI to censor speech, repress dissidents, hack governments and corporations across the world, and strengthen the People’s Liberation Army (PLA).\nAI labs in China have world-class talent. It is compute cons",
+      "article_text_zh": "# 2028：全球AI领导权的两种情景\n\n我们发布了一篇新论文，阐述我们对中美AI竞争的看法。\n\n美国及其盟友必须保持对中国共产党（CCP）等威权政府的领先地位。AI很快将变得[足够强大](https://www.darioamodei.com/essay/the-adolescence-of-technology)，能够以前所未有的规模压制公民，甚至改变[国家间](https://www.anthropic.com/news/disrupting-AI-espionage)的力量平衡。由于AI每天都在加速发展，我们只有有限的时间来设定竞争条件——并决定这些威胁是否以及如何成为现实。正是基于这一考虑，我们概述了确保美国保持领先所需的条件。\n\n开发AI最重要的要素是获取用于训练模型的计算机芯片（即\"算力\"）。由于最先进的芯片由美国公司开发，美国政府目前通过实施严格的出口管制来限制中国的供应。近期的历史表明，这些管制措施极为成功。事实上，中国的AI实验室之所以能构建出接近美国水平的智能模型，靠的是他们的人才、利用出口管制漏洞的技巧，以及大规模[蒸馏攻击](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks)——非法窃取美国公司的创新成果。\n\n在这篇文章中，我们提出了两个关于2028年世界可能面貌的情景——届时我们预计变革性的AI系统已经到来。\n\n在第一个情景中，美国成功捍卫了其算力优势。政策制定者已采取行动进一步收紧出口管制，打击中国的蒸馏攻击，并进一步加速民主国家采用AI。在这个世界中，民主国家设定了AI的规则和规范。也正是在这个情景中，我们最有可能在安全问题上与中国成功接触——在可能范围内我们对此持支持态度。\n\n在第二个情景中，美国选择不采取行动。政策制定者未能堵住中国共产党获取算力的漏洞，中国的AI公司迅速抓住机会——追赶上前沿甚至超越美国。在这个世界中，AI的规范和规则由威权政权塑造，最好的模型实现了大规模的自动化压制。这种威权主义的胜利建立在美国算力之上，这并不能带来任何安慰。\n\n美国及其盟友从强大的优势地位出发参与AI竞争。AI主导地位的工具是由民主国家中异常创新的公司生态系统构建的。我们过去的成功意味着当前的任务主要是避免浪费我们的优势：决定不让中国共产党更容易追赶上来。\n\n## 2028年中美两种情景\n\n### 摘要\n\n民主国家，而非威权政权，必须在AI开发和部署中发挥领导作用。这些国家和政治体系能够塑造治理这些系统的规则和规范。\n\n民主国家目前在算力方面拥有显著优势——这是开发前沿AI模型最重要的要素。这一优势得益于美国和盟友的创新，以及两党一致的美国出口管制对这些创新的保护。但在模型智能方面，在中国共产党管辖和控制下的中华人民共和国AI实验室并不落后太多。我们聚焦于中国共产党，因为它是最有能力利用前沿AI来巩固威权主义的政权；我们无意损害中国人民的利益或创造力。中国共产党已经在利用AI审查言论、压制异见人士、入侵世界各地的政府和企业，并加强中国人民解放军。\n\n中国的AI实验室拥有世界一流的人才。正是算力制约",
+      "article_text_zh_hash": "8a7be59f6376eeef",
       "article_title_extracted": "2028: Two scenarios for global AI leadership \\ Anthropic",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-15T02:21:24.057122Z",
       "description": "Our views on the AI competition between the US and China.",
+      "description_zh": "我们对中美AI竞争的看法。",
+      "description_zh_hash": "644ff36e5f9629b1",
       "domain": "www.anthropic.com",
       "embed_type": "",
       "id": "k17fc04jye3ra9kwjq3qx26mw586srh8",
@@ -786,6 +874,8 @@
         }
       ],
       "title": "2028: Two scenarios for global AI leadership \\ Anthropic",
+      "title_zh": "2028：全球AI领导力的两种情景 \\ Anthropic",
+      "title_zh_hash": "606fa4045a1553a0",
       "url": "https://www.anthropic.com/research/2028-ai-leadership",
       "x_status_id": null
     },
@@ -793,10 +883,14 @@
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_text": "* [Research](https://openai.com/index/work-with-codex-from-anywhere/research/index/)\n* Products\n* [Business](https://openai.com/index/work-with-codex-from-anywhere/business/)\n* [Developers](https://openai.com/index/work-with-codex-from-anywhere/api/)\n* [Company](https://openai.com/index/work-with-codex-from-anywhere/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=8e5ccca6-2222-41ab-b32b-763d5000b1d8&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nWork with Codex from anywhere | OpenAI\n\nTable of contents\n\n* [Stay connected to active work from anywhere](#stay-connected-to-active-work-from-anywhere)\n* [Step in when it matters](#step-in-when-it-matters)\n* [Run Codex in enterprise environments](#run-codex-in-enterprise-environments)\n* [Availability](#availability)\n\nMay 14, 2026\n\n[Product](https://openai.com/index/work-with-codex-from-anywhere/news/product-releases/)\n\n# Work with Codex from anywhere\n\nCodex is coming to your phone. Now in preview in the ChatGPT mobile app.\n\n[Download ChatGPT for mobile(opens in a new window)](https://chatgpt.com/codex/mobile?openaicom-did=8e5ccca6-2222-41ab-b32b-763d5000b1d8&openaicom%5Freferred=true)\n\n![16x9 Art Card](https://openai.com/index/work-with-codex-from-anywhere//images.ctfassets.net/kftzwdyauwt9/4i08f39LTE7HOZ0R3EKaKA/74f6008bbde015cfef96a14209f7673b/16_9.png?w=3840&q=50&fm=webp)\n\n00:0001:04\n\nListen to article\n\nShare\n\nCodex is now in the ChatGPT mobile app so you can stay in the loop from anywhere while Codex gets work done across your laptops, devboxes, or remote environments.\n\nAs agents take on longer-running work, a new rhythm for collaboration is emerging. To keep work moving, you need to be able to easily answer a question, review what Codex found, change direction, approve what comes next, or add a new idea.\n\nMore than 4 million people now use Codex every week, and we’re seeing how much those small moments matter. A quick check-in can keep a thread moving, prevent unnecessary rework, or help Codex make progress with the right context. Now you can do that from your phone. Get started [here⁠(opens in a new window)](https://developers.openai.com/codex/remote-connections).\n\n## Stay connected to active work from anywhere\n\nCodex in the ChatGPT mobile app is a fully-featured mobile experience for getting work done with Codex. When you connect to any of your machines where Codex is running (whether that’s your laptop, a dedicated Mac mini, or a managed remote environment), the app loads the live state from that environment so you can work fluidly across active threads, approvals, plugins, and project context.\n\nThis is more than the ability to remotely control a single task or dispatch new tasks to your computer. From your phone, you can work across all of your threads, review outputs, approve commands, change models, or start something new. Your files, credentials, permissions, and local setup stay on the machine where Codex is operating, while updates flow back to your phone in real time, including screenshots, terminal output, diffs, test results, and approvals.\n\nUnder the hood, Codex uses a secure relay layer that keeps trusted machines reachable across devices without exposing them directly to the public internet. That relay also keeps active session state and context synced anywhere you’re signed in with ChatGPT.\n\n## Step in when it matters\n\nAs Codex handles work over longer stretches, timely guidance becomes a bigger part of keeping that work useful. From your phone, you can start work when it is top of mind, unblock it when your judgment is needed, and stay close to the result as it takes shape.\n\nWith Codex in your pocket, now you can:\n\n* **Start investigating a bug while waiting for your coffee.** Because Codex is running from your deve",
+      "article_text_zh": "* [研究](https://openai.com/index/work-with-codex-from-anywhere/research/index/)\n* 产品\n* [商业](https://openai.com/index/work-with-codex-from-anywhere/business/)\n* [开发者](https://openai.com/index/work-with-codex-from-anywhere/api/)\n* [公司](https://openai.com/index/work-with-codex-from-anywhere/about/)\n* [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n登录[试用 ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=8e5ccca6-2222-41ab-b32b-763d5000b1d8&openaicom%5Freferred=true)\n\n* 研究\n* 产品\n* 商业\n* 开发者\n* 公司\n* [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n随时随地与 Codex 协作 | OpenAI\n\n目录\n\n* [随时随地与活跃工作保持连接](#stay-connected-to-active-work-from-anywhere)\n* [在关键时刻介入](#step-in-when-it-matters)\n* [在企业环境中运行 Codex](#run-codex-in-enterprise-environments)\n* [可用性](#availability)\n\n2026年5月14日\n\n[产品](https://openai.com/index/work-with-codex-from-anywhere/news/product-releases/)\n\n# 随时随地与 Codex 协作\n\nCodex 即将登陆你的手机。现已在 ChatGPT 移动应用中提供预览版。\n\n[下载 ChatGPT 移动版（在新窗口中打开）](https://chatgpt.com/codex/mobile?openaicom-did=8e5ccca6-2222-41ab-b32b-763d5000b1d8&openaicom%5Freferred=true)\n\n![16x9 艺术卡片](https://openai.com/index/work-with-codex-from-anywhere//images.ctfassets.net/kftzwdyauwt9/4i08f39LTE7HOZ0R3EKaKA/74f6008bbde015cfef96a14209f7673b/16_9.png?w=3840&q=50&fm=webp)\n\n00:0001:04\n\n收听文章\n\n分享\n\nCodex 现已集成到 ChatGPT 移动应用中，让你无论身在何处，都能在 Codex 跨笔记本电脑、开发环境或远程环境完成工作时，随时掌握最新动态。\n\n随着 agent 承担起更长期的任务，一种新的协作节奏正在形成。为了保持工作顺畅推进，你需要能够轻松回答问题、查看 Codex 的发现、调整方向、批准后续步骤，或添加新想法。\n\n现在每周有超过 400 万人使用 Codex，我们看到了这些微小瞬间的重要性。快速检查可以推动任务进展，避免不必要的返工，或帮助 Codex 在正确的上下文中取得进展。现在，你可以通过手机实现这一点。从[这里⁠（在新窗口中打开）](https://developers.openai.com/codex/remote-connections)开始。\n\n## 随时随地与活跃工作保持连接\n\nChatGPT 移动应用中的 Codex 提供了完整的移动端体验，让你能够通过 Codex 完成工作。当你连接到任何运行 Codex 的机器（无论是你的笔记本电脑、专用 Mac mini，还是托管的远程环境）时，应用会加载该环境的实时状态，让你能够在活跃线程、审批、插件和项目上下文之间流畅工作。\n\n这不仅仅是远程控制单个任务或向计算机派发新任务的能力。通过手机，你可以跨所有线程工作，查看输出、批准命令、切换模型，或开始新任务。你的文件、凭据、权限和本地设置保留在 Codex 运行的机器上，而更新（包括截图、终端输出、差异对比、测试结果和审批）会实时同步到你的手机。\n\n在底层，Codex 使用一个安全的中继层，使受信任的机器能够跨设备访问，而无需直接暴露在公共互联网上。该中继层还会保持活跃会话状态和上下文，在你登录 ChatGPT 的任何地方同步。\n\n## 在关键时刻介入\n\n随着 Codex 处理更长时间跨度的工作，及时的指导对于保持工作的实用性变得更加重要。通过手机，你可以在任务浮现在脑海时立即开始，在需要你的判断时解除阻塞，并在结果逐步成型时保持跟进。\n\n有了口袋里的 Codex，你现在可以：\n\n* **在等咖啡时开始调查一个 bug。** 因为 Codex 在你的开发环境中运行，",
+      "article_text_zh_hash": "007d11b3405d5617",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-15T02:21:28.867763Z",
       "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "description_zh": "在任何地方通过ChatGPT移动应用使用Codex。跨设备和远程环境实时监控、引导并批准编码任务。",
+      "description_zh_hash": "76ff4cce3c522e5b",
       "domain": "openai.com",
       "embed_type": "",
       "id": "k17ajb7setjr0gd27gd61cg44x86s0fq",
@@ -819,6 +913,8 @@
         }
       ],
       "title": "Work with Codex from anywhere | OpenAI",
+      "title_zh": "随时随地使用 Codex | OpenAI",
+      "title_zh_hash": "639145fee316b674",
       "url": "https://openai.com/index/work-with-codex-from-anywhere/",
       "x_status_id": null
     },
@@ -863,6 +959,8 @@
       "category": "Tools",
       "created_at": "2026-05-14T13:29:08.421542Z",
       "description": "Muxy is a lightweight, memory-efficient terminal multiplexer for Mac built with SwiftUI and libghostty. Project-based workflow, split panes, built-in VCS, 200+ themes.",
+      "description_zh": "Muxy 是一款轻量级、内存高效的终端复用器，专为 Mac 打造，采用 SwiftUI 和 libghostty 构建。支持基于项目的工作流、分屏面板、内置版本控制系统（VCS）以及 200 多种主题。",
+      "description_zh_hash": "632605e145506d4d",
       "domain": "muxy.app",
       "embed_type": "",
       "id": "k174skd04bwn73yct6typzrnc586q28m",
@@ -885,6 +983,8 @@
         }
       ],
       "title": "Muxy — A lightweight terminal multiplexer for Mac",
+      "title_zh": "Muxy — 一款适用于 Mac 的轻量级终端复用器",
+      "title_zh_hash": "4c9b56bcd341fa13",
       "url": "https://muxy.app/",
       "x_status_id": null
     },
@@ -908,6 +1008,8 @@
       "category": "Design",
       "created_at": "2026-05-14T03:09:48.715382Z",
       "description": "Hypra is the first next-gen imagery library for creatives and teams. Curated and contemporary, crafted with AI to serve your best ideas. Unlock Access Now.",
+      "description_zh": "Hypra 是首个面向创意人士与团队的新一代图像库。精选当代作品，借助AI精心打造，服务于您的最佳创意。立即解锁访问权限。",
+      "description_zh_hash": "f60b536f61f7771a",
       "domain": "hypra.studio",
       "embed_type": "",
       "id": "k170g1cjvfr8g8b6zc7w7vyp7586qsa8",
@@ -930,6 +1032,8 @@
         }
       ],
       "title": "Hypra — Curated Imagery for Visionary Brands",
+      "title_zh": "Hypra — 为远见品牌打造的精选视觉影像",
+      "title_zh_hash": "8f6e510d2c08c6fb",
       "url": "https://hypra.studio/",
       "x_status_id": null
     },
@@ -945,6 +1049,8 @@
       "category": "Development",
       "created_at": "2026-05-14T13:45:09.659306Z",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one - Rewrite Bun in Rust (#30412) · oven-sh/bun@23427db",
+      "description_zh": "极其快速的 JavaScript 运行时、打包器、测试运行器和包管理器——集于一身——用 Rust 重写 Bun (#30412) · oven-sh/bun@23427db",
+      "description_zh_hash": "1998ef249713cfdb",
       "domain": "github.com",
       "embed_type": "",
       "id": "k176tsq1e6wf3y9tben60y7nt986phpx",
@@ -967,6 +1073,8 @@
         }
       ],
       "title": "Rewrite Bun in Rust (#30412) · oven-sh/bun@23427db · GitHub",
+      "title_zh": "重写 Bun 为 Rust (#30412) · oven-sh/bun@23427db · GitHub",
+      "title_zh_hash": "420bd2a4306156ef",
       "url": "https://github.com/oven-sh/bun/commit/23427dbc12fdcff30c23a96a3d6a66d62fdc091d",
       "x_status_id": null
     },
@@ -1034,6 +1142,8 @@
       "category": "Tools",
       "created_at": "2026-05-14T02:40:40.633861Z",
       "description": "USVC is a venture capital fund from AngelList. One investment, broad exposure to private tech — starting at $500.",
+      "description_zh": "USVC 是 AngelList 旗下的一支风险投资基金。只需 500 美元起投，即可获得对私人科技领域的广泛投资机会。",
+      "description_zh_hash": "cfb5cf9786ebccb1",
       "domain": "usvc.com",
       "embed_type": "",
       "id": "k1796da9nh9k94beg6aq4dvy8s86psst",
@@ -1078,6 +1188,8 @@
       "category": "Development",
       "created_at": "2026-05-14T02:40:25.180850Z",
       "description": "Recursive self-improving superintelligence to automate knowledge discovery.",
+      "description_zh": "递归式自我改进超级智能，用于自动化知识发现。",
+      "description_zh_hash": "9d15fcd932a71d01",
       "domain": "www.recursive.com",
       "embed_type": "",
       "id": "k17cpd2krr9j4dk1r6yk1aa9pn86qpqz",
@@ -1110,11 +1222,15 @@
         "https://duckdb.org/images/quack/quack-release-thumbnail.jpg"
       ],
       "article_text": "Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events Everywhere Webshop Design FAQ GitHub 38.2k Support Support Search Shortcut cmd + k | ctrl + k Beta release available now Quack: Turn DuckDB into a client-server database The Quack protocol unlocks multi-client access for DuckDB, turning it into a general-purpose database system Read the announcement Get started Quack protocol Client-server access · Beta release Storage DuckDB database file DuckLake Introducing Quack Hannes Mühleisen introduced Quack at the AI Council 2026. Watch his talk on the Super-Secret Next Big Thing for DuckDB. Architecture Clients DuckDB client + Quack extension SELECT * FROM orders LIMIT 5 ; ┌──────┬───────────┬─────────┐ │ id │ product │ total │ │ 1 │ widget │ 42.00 │ └──────┴───────────┴─────────┘ DuckDB client + Quack extension INSERT INTO orders VALUES ( 3 , 'tool' , 29.99 ); 1 row inserted. quack: quack: Server DuckDB server + Quack extension CALL quack_serve (); listening on port 9494 2 active connections catalog: my_database.duckdb read/write Storage DuckDB DuckLake my_database.duckdb 128 MB · last write 0.3s TABLES VIEWS ACID TRANSACTIONS PRIMARY KEYS INDEXES my_ducklake Catalog database Object storage Parquet file Parquet file 128 MB · last write 0.5s TABLES VIEWS ACID TRANSACTIONS SNAPSHOTS TIME TRAVEL How it works Client-server setup You can take any two DuckDB processes on a network and turn them into client and server by using the Quack extension. The Quack protocol supports the full DuckDB feature set – over the wire. Optimized for performance We designed the Quack protocol for performance. We minimized the number of round trips, and ensured that the protocol can handle small updates and large batches just as well. Try Quack today Install and configure Quack in seconds Step 1 Install DuckDB curl https://install.duckdb.org | sh Step 2 Launch Quack on the server INSTALL quack FROM core_nightly ; LOAD quack ; CALL quack_serve ( 'quack:localhost' , token = 'super_secret' ); CREATE TABLE hello AS FROM VALUES ( 'world' ) v ( s ); Step 3 Connect from the client INSTALL quack FROM core_nightly ; LOAD quack ; CREATE SECRET ( TYPE quack , TOKEN 'super_secret' ); ATTACH 'quack:localhost' AS remote ; FROM remote.hello ; Step 1 Install DuckDB pip install duckdb Step 2 Install the Quack extension # TODO: Install the Quack extension Step 3 Start the server # TODO: Start the server Step 1 Deploy via CloudFormation aws cloudformation create-stack \\ --stack-name my-quack-demo \\ --template-url https://duckdb-quack-ami.s3.us-east-1.amazonaws.com/quack.yaml \\ --region us-east-2 More deployment options Frequently Asked Questions What is Quack? Quack allows DuckDB to connect to a DuckDB server through the quack: protocol. You can think of Quack as a Remote Procedure Call (RPC) protocol for DuckDB. Quack enables DuckDB instances to talk to each other, effectively turning DuckDB into a client-server database management system, where both the client and the server are DuckDB instances. Why is it called Quack? Mallard ducks communicate by quacking , so it's only fair that DuckDB instances communicate through the protocol quack . When should I use Quack? Quack can be beneficial in a number of scenarios, including the following: You need concurrent read-write access to the same DuckDB database. Your data is on a server and you want to move the computation as close to the data as possible. You have a powerful server that can process the data but would like to see the results on your local computer. And many more – we are excited to see what the community comes up with. Can I use DuckDB with Quack for transactional (OLTP) workloads? Yes. DuckDB with Quack can handle a few thousand writes per second on a server with 8 CPUs and 32 GB RAM. See the benchmarks in our announcement blog post . Can I still run DuckDB as an in-process database? Yes, DuckDB as an in-process dat",
+      "article_text_zh": "文档 入门 安装 Quack 远程协议 指南 数据导入 客户端 API SQL 简介 为什么选择 DuckDB 资源 博客 活动 无处不在 网店 设计 FAQ GitHub 38.2k 支持 支持 搜索 快捷键 cmd + k | ctrl + k Beta 版本现已可用 Quack：将 DuckDB 转变为客户端-服务器数据库 Quack 协议为 DuckDB 解锁了多客户端访问能力，将其转变为一个通用数据库系统 阅读公告 开始使用 Quack 协议 客户端-服务器访问 · Beta 版本 存储 DuckDB 数据库文件 DuckLake 介绍 Quack Hannes Mühleisen 在 AI Council 2026 上介绍了 Quack。观看他关于 DuckDB 下一个超级重磅功能的演讲。 架构 客户端 DuckDB 客户端 + Quack 扩展 SELECT * FROM orders LIMIT 5 ; ┌──────┬───────────┬─────────┐ │ id │ product │ total │ │ 1 │ widget │ 42.00 │ └──────┴───────────┴─────────┘ DuckDB 客户端 + Quack 扩展 INSERT INTO orders VALUES ( 3 , 'tool' , 29.99 ); 已插入 1 行。 quack: quack: 服务器 DuckDB 服务器 + Quack 扩展 CALL quack_serve (); 监听端口 9494 2 个活跃连接 目录: my_database.duckdb 读/写 存储 DuckDB DuckLake my_database.duckdb 128 MB · 上次写入 0.3 秒 表 视图 ACID 事务 主键 索引 my_ducklake 目录数据库 对象存储 Parquet 文件 Parquet 文件 128 MB · 上次写入 0.5 秒 表 视图 ACID 事务 快照 时间旅行 工作原理 客户端-服务器设置 您可以使用 Quack 扩展，将网络上的任意两个 DuckDB 进程转变为客户端和服务器。Quack 协议支持完整的 DuckDB 功能集——通过网络传输。 性能优化 我们为性能设计了 Quack 协议。我们最小化了往返次数，并确保协议能够同样出色地处理小更新和大批量操作。 立即尝试 Quack 在几秒钟内安装和配置 Quack 步骤 1 安装 DuckDB curl https://install.duckdb.org | sh 步骤 2 在服务器上启动 Quack INSTALL quack FROM core_nightly ; LOAD quack ; CALL quack_serve ( 'quack:localhost' , token = 'super_secret' ); CREATE TABLE hello AS FROM VALUES ( 'world' ) v ( s ); 步骤 3 从客户端连接 INSTALL quack FROM core_nightly ; LOAD quack ; CREATE SECRET ( TYPE quack , TOKEN 'super_secret' ); ATTACH 'quack:localhost' AS remote ; FROM remote.hello ; 步骤 1 安装 DuckDB pip install duckdb 步骤 2 安装 Quack 扩展 # TODO: 安装 Quack 扩展 步骤 3 启动服务器 # TODO: 启动服务器 步骤 1 通过 CloudFormation 部署 aws cloudformation create-stack \\ --stack-name my-quack-demo \\ --template-url https://duckdb-quack-ami.s3.us-east-1.amazonaws.com/quack.yaml \\ --region us-east-2 更多部署选项 常见问题 什么是 Quack？ Quack 允许 DuckDB 通过 quack: 协议连接到 DuckDB 服务器。您可以将 Quack 视为 DuckDB 的远程过程调用（RPC）协议。Quack 使 DuckDB 实例能够相互通信，有效地将 DuckDB 转变为一个客户端-服务器数据库管理系统，其中客户端和服务器都是 DuckDB 实例。 为什么叫 Quack？ 绿头鸭通过嘎嘎叫（quacking）来交流，因此 DuckDB 实例通过 quack 协议进行通信是合情合理的。 什么时候应该使用 Quack？ Quack 在多种场景下都很有用，包括以下情况： 您需要对同一个 DuckDB 数据库进行并发读写访问。 您的数据在服务器上，您希望将计算尽可能靠近数据。 您有一台强大的服务器可以处理数据，但希望在本地计算机上查看结果。 还有更多场景——我们很期待看到社区会带来什么创意。 我可以将 DuckDB 与 Quack 一起用于事务性（OLTP）工作负载吗？ 可以。在配备 8 个 CPU 和 32 GB RAM 的服务器上，使用 Quack 的 DuckDB 每秒可以处理数千次写入。请参阅我们公告博客文章中的基准测试。 我还能将 DuckDB 作为进程内数据库运行吗？ 是的，DuckDB 作为进程内数",
+      "article_text_zh_hash": "018dc1463cf132ab",
       "article_title_extracted": "Quack Remote Protocol – DuckDB",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-14T02:38:21.083549Z",
       "description": "The quack: protocol allows you to introduce remote access to DuckDB.",
+      "description_zh": "quack: 协议允许你为 DuckDB 引入远程访问功能。",
+      "description_zh_hash": "95d229b6a02a372f",
       "domain": "duckdb.org",
       "embed_type": "",
       "id": "k177k0p2ya1d61tsch39qv0efd86qfvy",
@@ -1137,6 +1253,8 @@
         }
       ],
       "title": "Quack Remote Protocol – DuckDB",
+      "title_zh": "Quack 远程协议 – DuckDB",
+      "title_zh_hash": "f483dbcf782469d7",
       "url": "https://duckdb.org/quack/",
       "x_status_id": null
     },
@@ -1151,6 +1269,8 @@
       "category": "Articles",
       "created_at": "2026-05-14T02:40:04.599551Z",
       "description": "The content emphasizes the transition from monolithic AI systems to adaptive AI that can learn and evolve according to individual user needs. Current AI models are criticized for being inflexible and overly simplistic, often requiring users to adjust their inputs to cater to the system's limitations. The article advocates for a shift toward systems that support continuous learning and adaptation, rather than relying on massive scaling of existing models. It promotes the idea that the future of AI should involve dynamically shaped datasets and interfaces that enhance human interaction with technology, ultimately creating a more effective and personalized AI experience.",
+      "description_zh": "内容强调了从单一化AI系统向能够根据用户个体需求学习和演进的适应性AI的转变。当前AI模型因僵化且过于简单而受到批评，用户往往需要调整自身输入以适应系统的局限性。文章主张转向支持持续学习与适应的系统，而非依赖现有模型的大规模扩展。它倡导未来AI应包含动态塑造的数据集和界面，以增强人与技术的交互，最终打造更高效、更个性化的AI体验。",
+      "description_zh_hash": "a936e543cd559e80",
       "domain": "www.adaptionlabs.ai",
       "embed_type": "",
       "id": "k17bcmpar4825b2ex1j8t5024n86px61",
@@ -1195,6 +1315,8 @@
       "category": "Design",
       "created_at": "2026-05-14T02:39:44.104970Z",
       "description": "Peter Eric Arnell is Chief Brand Architect of the United States of America, as well as a Designer, Brand Executive, Author, Photographer, Entrepreneur, Founder, Chairman and Chief Creative Officer of PETERARNELL, and Founder and Chairman of Arnell Intelligence AI Brands (AIM),",
+      "description_zh": "彼得·埃里克·阿内尔（Peter Eric Arnell）现任美利坚合众国首席品牌架构师，同时身兼设计师、品牌执行官、作家、摄影师、企业家多重身份。他是PETERARNELL公司的创始人、董事长兼首席创意官，亦是Arnell Intelligence AI Brands（AIM）的创始人兼董事长。",
+      "description_zh_hash": "af9a5a6f73f53855",
       "domain": "www.peterarnell.com",
       "embed_type": "",
       "id": "k17fyrpcg3fsat9576s9q3wf7s86pcma",
@@ -1217,6 +1339,8 @@
         }
       ],
       "title": "Peter Arnell",
+      "title_zh": "Peter Arnell",
+      "title_zh_hash": "8ed2f594d99b2bc9",
       "url": "https://www.peterarnell.com/",
       "x_status_id": null
     },
@@ -1236,11 +1360,15 @@
         "https://www.notion.com/front-static/pages/dev/tabs/icon_linear-2.svg"
       ],
       "article_text": "[ S ] Syncs [ A ] Agent tools [ H ] Webhooks [ W ] Workers [ E ] External agents [ P ] Platform [ D ] Docs Get Notion free Log in /dev/notion Not just another CRUD API for your SaaS. Start building on the Notion CLI or read our docs See the Developer Platform in action. Watch the keynote → Trusted by engineers at Sync any data source into Notion. Continuously upsert external records into a Notion Database with Workers, a declarative schema, and a persistent cursor. and others zendeskSync.ts See example import { Worker } from \"@notionhq/workers\"; const worker = new Worker(); const tickets = worker.database(\"tickets\", { type: \"managed\", initialTitle: \"Support Tickets\", primaryKeyProperty: \"Tickets\", schema: { properties: { \"Tickets\": Schema.title(), \"CSAT score\": Schema.select([{ name: \"Very satisfied\" }, ...]), \"Feature tags\": Schema.multiSelect([{ name: \"Account access\" }, ...]), }}, }); worker.sync(\"ticketsSync\", { database: tickets, schedule: \"5m\", execute: async () => ({ changes: (await zendesk.tickets.list()).map(t => ({ type: \"upsert\" as const, key: t.id, properties: { \"Tickets\": Builder.title(t.subject), \"CSAT score\": Builder.select(t.csat), \"Feature tags\": Builder.multiSelect(...t.tags), }, })), }), }) Workers > sync:ticketsSync Connecting. Found 5 new tickets... Build any tool for your agents. Write custom tools for Notion Agents that generate assets, query live data, and hit any API. Generate assets from your docs presentationTool.ts See example worker.tool(\"createPresentation\", { title: \"Create Presentation\", description: \"Reads a Notion page and creates a PowerPoint presentation from its content. Each heading becomes a new slide. The generated .pptx file is uploaded to the bottom of the page.\", schema: j.object({ pageId: j.string() }), execute: async ({ pageId }, { notion }) => { // Fetch page content as markdown and parse into slides const pageTitle = await getPageTitle(notion, pageId); const markdown = await getPageMarkdown(pageId); const slides = groupMarkdownIntoSlides(markdown, pageTitle); // Build the .pptx file const filename = `${pageTitle}.pptx`; const buffer = await buildPresentation(pageTitle, slides); // Upload to Notion and append to the page await uploadToNotion(notion, pageId, filename, buffer); return `Created presentation \"${pageTitle}\" with ${slides.length + 1} slides (1 title + ${slides.length} content) and added it to the page.`; }, }); Workers > tool:createPresentation Query any data warehouse queryRevenueTool.ts See example worker.tool(\"queryRevenue\", { title: \"Query Revenue\", description: \"Run a SQL query against the deals warehouse table.\", schema: j.object({ query: j .string() .describe(\"e.g. SELECT SUM(amount) AS revenue WHERE region = 'North America'\"), }), execute: async ({ query }) => snowflake.query(query.replace(/(\\s+WHERE|$)/i, \" FROM deals$1\")), }); Workers > tool:queryRevenue Take actions in any app browserTools.md Copy the prompt <!-- Copy and paste this into your coding agent of choice. --> Build a worker that lets my Notion agent order food from DoorDash using Browserbase. I want three tools: - listFavorites — Returns my saved meals (e.g. \"friday night thai\" = Pad See Ew + Green Curry from Siam Garden). - orderFavorite — Takes a meal name, shows me what it's about to order and the estimated total, and asks for confirmation before placing it. - checkOrder — Returns delivery ETA and driver status. Generate assets from your docs presentationTool.ts See example worker.tool(\"createPresentation\", { title: \"Create Presentation\", description: \"Reads a Notion page and creates a PowerPoint presentation from its content. Each heading becomes a new slide. The generated .pptx file is uploaded to the bottom of the page.\", schema: j.object({ pageId: j.string() }), execute: async ({ pageId }, { notion }) => { // Fetch page content as markdown and parse into slides const pageTitle = await getPageTitle(notion, pageId); const markdown = await getPageMarkdown(pageId); const slides = groupMarkdownInt",
+      "article_text_zh": "[ S ] 同步 [ A ] 智能体工具 [ H ] Webhooks [ W ] Workers [ E ] 外部智能体 [ P ] 平台 [ D ] 文档 免费获取 Notion 登录 /dev/notion 不只是为你的 SaaS 提供又一个 CRUD API。立即在 Notion CLI 上开始构建，或阅读我们的文档 观看开发者平台的实际演示。观看主题演讲 → 受到工程师的信赖 将任意数据源同步到 Notion。使用 Workers、声明式模式和持久化游标，持续将外部记录更新插入到 Notion 数据库中。 以及其他 Zendesk Sync.ts 查看示例 import { Worker } from \"@notionhq/workers\"; const worker = new Worker(); const tickets = worker.database(\"tickets\", { type: \"managed\", initialTitle: \"支持工单\", primaryKeyProperty: \"工单\", schema: { properties: { \"工单\": Schema.title(), \"CSAT 评分\": Schema.select([{ name: \"非常满意\" }, ...]), \"功能标签\": Schema.multiSelect([{ name: \"账户访问\" }, ...]), }}, }); worker.sync(\"ticketsSync\", { database: tickets, schedule: \"5m\", execute: async () => ({ changes: (await zendesk.tickets.list()).map(t => ({ type: \"upsert\" as const, key: t.id, properties: { \"工单\": Builder.title(t.subject), \"CSAT 评分\": Builder.select(t.csat), \"功能标签\": Builder.multiSelect(...t.tags), }, })), }), }) Workers > sync:ticketsSync 正在连接... 发现 5 个新工单... 为你的智能体构建任何工具。为 Notion 智能体编写自定义工具，用于生成资产、查询实时数据以及调用任意 API。 从你的文档生成资产 presentationTool.ts 查看示例 worker.tool(\"createPresentation\", { title: \"创建演示文稿\", description: \"读取 Notion 页面并根据其内容创建 PowerPoint 演示文稿。每个标题成为一张新幻灯片。生成的 .pptx 文件会上传到页面底部。\", schema: j.object({ pageId: j.string() }), execute: async ({ pageId }, { notion }) => { // 将页面内容作为 markdown 获取并解析为幻灯片 const pageTitle = await getPageTitle(notion, pageId); const markdown = await getPageMarkdown(pageId); const slides = groupMarkdownIntoSlides(markdown, pageTitle); // 构建 .pptx 文件 const filename = `${pageTitle}.pptx`; const buffer = await buildPresentation(pageTitle, slides); // 上传到 Notion 并附加到页面 await uploadToNotion(notion, pageId, filename, buffer); return `已创建演示文稿\"${pageTitle}\"，包含 ${slides.length + 1} 张幻灯片（1 张标题 + ${slides.length} 张内容），并已添加到页面。`; }, }); Workers > tool:createPresentation 查询任意数据仓库 queryRevenueTool.ts 查看示例 worker.tool(\"queryRevenue\", { title: \"查询收入\", description: \"对交易数据仓库表运行 SQL 查询。\", schema: j.object({ query: j .string() .describe(\"例如 SELECT SUM(amount) AS revenue WHERE region = 'North America'\"), }), execute: async ({ query }) => snowflake.query(query.replace(/(\\s+WHERE|$)/i, \" FROM deals$1\")), }); Workers > tool:queryRevenue 在任意应用中执行操作 browserTools.md 复制提示 <!-- 复制并粘贴到你选择的编码智能体中。 --> 构建一个 worker，让我的 Notion 智能体能够使用 Browserbase 从 DoorDash 订餐。我需要三个工具： - listFavorites — 返回我保存的餐食（例如 \"周五泰国菜\" = Siam Garden 的 Pad See Ew + Green Curry）。 - orderFavorite — 接受餐食名称，显示即将订购的内容和预估总价，并在下单前请求确认。 - checkOrder — 返回配送预计到达时间和司机状态。 从你的文档生成资产 presentationTool.ts 查看示例 worker.tool(\"createPresentation\", { title: \"创建演示文稿\", description: \"读取 Notion 页面并根据其内容创建 PowerPoint 演示文稿。每个标题成为一张新幻灯片。生成的 .pptx 文件会上传到页面底部。\", schema: j.object({ pageId: j.string() }), execute: async ({ pageId }, { notion }) => { // 将页面内容作为 markdown 获取并解析为幻灯片 const pageTitle = await getPageTitle(notion, pageId); const markdown = await getPageMarkdown(pageId); const slides = groupMarkdownInt",
+      "article_text_zh_hash": "ef3bece0d97a4da8",
       "article_title_extracted": "Build with Notion’s Developer Platform – Notion",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-14T02:37:21.193541Z",
       "description": "Sync any data source. Build any agent tool. Orchestrate any agent. No infra required. One shared canvas for your team and agents to work together.",
+      "description_zh": "同步任意数据源。构建任意智能体工具。编排任意智能体。无需基础设施。为你的团队和智能体提供一块共享画布，协同工作。",
+      "description_zh_hash": "7eacf191223dca4d",
       "domain": "www.notion.com",
       "embed_type": "",
       "id": "k17bdf0dpt5071n5nz9ckxvdb586q5b1",
@@ -1263,6 +1391,8 @@
         }
       ],
       "title": "Build with Notion’s Developer Platform – Notion",
+      "title_zh": "使用 Notion 开发者平台进行构建 – Notion",
+      "title_zh_hash": "36613d1da13174f9",
       "url": "https://www.notion.com/product/dev",
       "x_status_id": null
     },
@@ -1286,6 +1416,8 @@
       "category": "Development",
       "created_at": "2026-05-14T02:37:51.090746Z",
       "description": "Welcome to Cloudflare - Powering the next generation of applications",
+      "description_zh": "欢迎使用 Cloudflare — 助力下一代应用发展",
+      "description_zh_hash": "ea98962a5d1ad569",
       "domain": "www.cloudflare.com",
       "embed_type": "",
       "id": "k17eb620g0ffzsayzma65r2jq586q72h",
@@ -1308,6 +1440,8 @@
         }
       ],
       "title": "Cloudflare: Build for the agent era",
+      "title_zh": "Cloudflare：为智能体时代而构建",
+      "title_zh_hash": "be409e4b38d639a0",
       "url": "https://www.cloudflare.com/",
       "x_status_id": null
     },
@@ -1339,6 +1473,8 @@
         }
       ],
       "title": "Alex Wang Breaks His Silence On Meta's Superintelligence Bet",
+      "title_zh": "Alex Wang 打破沉默，谈 Meta 的超级智能赌注",
+      "title_zh_hash": "8a4060edceea621f",
       "url": "https://youtu.be/bYM_VMs7EO0?si=t847DeNkw27yQW1P",
       "x_status_id": null
     },
@@ -1358,11 +1494,15 @@
         "https://www.studionari.co.uk/_next/image?url=https%3A%2F%2F8d802e697ffe53e4163cdf9e7cbe7f56-16499.sites.k-hosting.co.uk%2Fstudio-nari%2Fmedia%2Fpages%2Fprojects%2Fthreads%2Fd66a7f37dc-1778498557%2Fthreads_nari_22.webp&w=3840&q=75"
       ],
       "article_text": "Threads An identity shaped by the energy of live conversation. Threads finds its own voice. Context Meta came to us at a pivotal moment for Threads. The platform had evolved beyond its launch identity and needed to establish itself as more than an extension of Instagram. While the existing wordmark borrowed heavily from Instagram Sans, it lacked the distinctiveness to stand confidently on its own. At the same time, public conversation was becoming faster, more participatory and increasingly shaped by live cultural momentum. The opportunity was to create a wordmark that could embody that immediacy while giving Threads a scalable identity across product, campaigns and future brand systems. Unlock The brief asked for a standalone wordmark and glyph, but the real challenge was defining how live public conversation should feel in typographic form. Conversation on Threads moves through emphasis, reactions and momentum rather than polished publishing. The strategic unlock was the Trending Chisel: a construction principle inspired by chisel-tip markers and the behaviour of highlighting what matters now. Directional cuts and controlled contrast translate cultural immediacy directly into the structure of the logotype. Create The identity behaves, not just exists. Chisel-inspired cuts bring emphasis and direction into the letterforms, balancing precision with human gesture. It avoids both harsh angularity and surface-level personality, instead creating a controlled, forward energy that feels immediate and tactile. The result is a wordmark that separates Threads from Instagram, scales across product and culture, and still feels native within the Meta ecosystem. Become The wordmark sets the foundation for a broader visual system built on rhythm, emphasis and cultural movement. In product, it stays clear and functional. In campaigns and live moments, the chisel logic becomes more expressive through motion, typography and graphic emphasis. The system is designed to flex across sport, music and entertainment while maintaining a recognisable core, rooted in immediacy, participation and what’s happening now. Unmistakably Threads Threads no longer appears as a neutral social platform or an inherited Instagram product. The identity gives the brand a visual behaviour tied directly to how conversation moves through culture: fast, directional and constantly evolving. While competitors rely on passive minimalism or polished corporate neutrality, Threads signals active participation in what is happening now. The Trending Chisel transforms cultural momentum into form, creating a wordmark that feels immediate, human and unmistakably built for live perspective. Fast Company Threads finally gets a logo worthy of its ambitions Studio NARI team Caterina Bianchini Executive Creative Director Julien Queyrane Creative Director Elliot Charles Strategist Lauren Davidson Design Lead Charley Ray Senior Designer Dom Vine Senior Designer Chi-Long Trieu Type Director Alexis Gargaloni Typographer Jake Richardson Motion Designer Ron Daniels Motion Designer Amber Scott-Worthington Project Manager Client team Hannah May Executive Producer Brett Itaya Creative Director Christy Silva Creative Director Oliver Thein Design Lead Aliza Grant Designer Mads Jakob Poulsen Designer Gui Schneider Product Designer Next",
+      "article_text_zh": "Threads  \n一个由实时对话能量塑造的身份。Threads找到了自己的声音。\n\n背景  \nMeta在Threads的关键时刻找到了我们。该平台已超越了其发布时的身份，需要确立自己不仅仅是Instagram的延伸。现有的文字商标大量借鉴了Instagram Sans，缺乏独立自信的辨识度。与此同时，公共对话正变得更快、更具参与性，并日益受到实时文化势能的塑造。我们的机遇是创造一个能够体现这种即时性的文字商标，同时为Threads在产品、活动和未来品牌体系中提供可扩展的身份。\n\n解锁  \n任务要求设计一个独立的文字商标和字形，但真正的挑战在于定义实时公共对话在字体形式上应有的感觉。Threads上的对话通过强调、反应和势能推进，而非精雕细琢的发布。战略突破口是“趋势凿刻”：一种受凿尖记号笔启发、并基于“突出当下重要内容”行为的设计原则。方向性的切割和受控的对比度，将文化即时性直接转化为标识字体的结构。\n\n创造  \n这个身份是动态的，而不仅仅是静态存在。受凿刻启发的切割为字母形态带来了强调和方向，在精准与人文笔触之间取得平衡。它既避免了生硬的棱角，也摒弃了肤浅的个性，反而创造出一种受控的、向前的能量，感觉即时且富有触感。最终的文字商标使Threads与Instagram区分开来，可在产品和文化中扩展，同时仍感觉是Meta生态系统中的原生部分。\n\n成为  \n该文字商标为一个更广泛的视觉系统奠定了基础，该系统建立在节奏、强调和文化运动之上。在产品中，它保持清晰和功能性。在活动和实时场景中，凿刻逻辑通过动态、排版和图形强调变得更加富有表现力。该系统旨在灵活适应体育、音乐和娱乐领域，同时保持一个可识别的核心，根植于即时性、参与性和当下正在发生之事。\n\n无可置疑的Threads  \nThreads不再是一个中立的社交平台或Instagram的继承产品。这个身份赋予品牌一种视觉行为，直接与对话在文化中的流动方式相连：快速、有方向性且不断演变。当竞争对手依赖被动的极简主义或精雕细琢的企业中立性时，Threads则标志着对当下正在发生之事的积极参与。“趋势凿刻”将文化势能转化为形态，创造出一个感觉即时、人性化，且明确为实时视角而生的文字商标。\n\nFast Company  \nThreads终于拥有了一个配得上其雄心的标志\n\nStudio NARI团队  \nCaterina Bianchini 执行创意总监  \nJulien Queyrane 创意总监  \nElliot Charles 策略师  \nLauren Davidson 设计主管  \nCharley Ray 高级设计师  \nDom Vine 高级设计师  \nChi-Long Trieu 字体总监  \nAlexis Gargaloni 字体设计师  \nJake Richardson 动态设计师  \nRon Daniels 动态设计师  \nAmber Scott-Worthington 项目经理  \n\n客户团队  \nHannah May 执行制片人  \nBrett Itaya 创意总监  \nChristy Silva 创意总监  \nOliver Thein 设计主管  \nAliza Grant 设计师  \nMads Jakob Poulsen 设计师  \nGui Schneider 产品设计师  \n\nNext",
+      "article_text_zh_hash": "0fd1764db4a8ae9c",
       "article_title_extracted": "Threads | STUDIO NARI",
       "category": "Design",
       "cleaner_v": 1,
       "created_at": "2026-05-13T14:24:09.171750Z",
       "description": "An identity shaped by the energy of live conversation. Threads finds its own voice.",
+      "description_zh": "由实时对话的能量塑造的身份。Threads找到了自己的声音。",
+      "description_zh_hash": "a3e100e089700d90",
       "domain": "www.studionari.co.uk",
       "embed_type": "",
       "id": "k176q9s6bjn4myjkytaveqg3ch86nz0h",
@@ -1385,6 +1525,8 @@
         }
       ],
       "title": "Threads | STUDIO NARI",
+      "title_zh": "线程 | STUDIO NARI",
+      "title_zh_hash": "d72119bad20f8e5d",
       "url": "https://www.studionari.co.uk/projects/threads",
       "x_status_id": null
     },
@@ -1392,6 +1534,8 @@
       "category": "Social",
       "created_at": "2026-05-13T13:11:27.191237Z",
       "description": "Since I don’t have the final font file yet, I still wanted to keep playing with it a bit more. So I created this playground to see how it behaves, spot the issues more quickly, and move forward from there. pic.twitter.com/QEi6YCtM2F",
+      "description_zh": "由于我还没有拿到最终的字体文件，但还是想再多玩一玩。于是我做了这个测试场，看看它的表现如何，更快地发现问题，然后继续推进。pic.twitter.com/QEi6YCtM2F",
+      "description_zh_hash": "813d3a4969f14b75",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k171gg9pmcx3xb4n3k5m38dyzh86m3pd",
@@ -1414,6 +1558,8 @@
         }
       ],
       "title": "Evil Rabbit (@evilrabbit_) on X",
+      "title_zh": "Evil Rabbit (@evilrabbit_) 在 X 平台",
+      "title_zh_hash": "6976b8dc32847123",
       "url": "https://x.com/evilrabbit_/status/2054357421708202165",
       "x_status_id": "2054357421708202165"
     },
@@ -1423,6 +1569,8 @@
         "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses/opengraph-image?82bb6bec0c85d4be"
       ],
       "article_text": "Tools the Vercel Product Design Team Actually Uses\nThis writeup will be out of date within weeks, but that’s ok. This is a snapshot in time kind of post. Design tools are changing fast in a world that has never felt more disrupt-able. For our latest team meeting, I hosted a design tooling Show and Tell, where product designers shared what tools they are actually using for design work.\nMy takeaways were:\n- Even within our small team, everyone is using completely different tools right now.\n- We have a wide range of AI usage, from early adopters who haven’t gone a day without using AI in 6 months to skeptics who still find it mostly useless in their creative endeavors.\n- AI tools for design workflows are clunky and lagging behind relative to AI tooling for engineering workflows.\nHere’s a deeper dive into a few specifics.\nMake Claude and Codex do Pair Programming\nTimo has been using Codex as his primary coding agent but created a skill for Claude to review Codex’s work. The skill file instructs Codex to share its plan with Claude and ask for feedback (i.e. Is this more complex than it needs to be? Is there duplication? Is the API actually well designed?). The file also instructs Codex not to blindly comply, but defend what it believes in, only updating the plan when both models agree.\nYou can try this without any custom tooling. Just ask your agent to share its plan with a second model and hash it out before coming back to you. If you want to use Timo’s skill, check it out [here](https://github.com/timolins/claude-review) or use npx skills add timolins/claude-review\nto install.\nTo Achieve Flow State, You Need Concurrent Threads\nIt was easy to get into a flow state in traditional design tools. We spent hours of focus time going broad and deep with creative juices. But now, we send a prompt and sit there waiting for the agent to complete a series of tasks. Before we know it, we’re doomscrolling Slack.\nA few people on the team have landed on ways to use parallel threads to get into a flow state. Tom will start a project in Conductor and open a few different tabs in that project for a variety of topics: maybe one is for UX flows, one is for state and data, and another is for miscellaneous small paper cut fixes. Not only does it increase your agents’ productivity in the same amount of time, it also keeps things organized so you don’t lose your mind managing 100 little robot armies at once.\nDesigning from Production\nIn the old world, design files were ahead of production. Teams worked hard to keep them in sync. Now, because implementation cost and time has dramatically dropped, design files are laughably stale and production has a million features that never even started on a canvas. That’s ok because our designers are coding too.\nBut it presents some challenges. Sometimes you need a canvas to play around with ideas before going back to code. We’ve found a few tools that are good at getting production styles back into a canvas: I’ve personally had success with the Paper browser extension that copies the structure and style of a page almost perfectly and brings it into the Paper design canvas. But I’m not really an expert in designing in Paper yet and having more native access to our design system seems like the logical next feature.\nWith production as the source of truth, Sam built this [custom chrome extension](https://github.com/sambernhardt/click-to-component-chrome-extension) as an alternative to React Dev Tools to jump to the file locations. Both technically work but the custom extension is a bit quicker for his workflow so he prefers that - keyboard shortcuts for the win.\nWe also use agents in Slack to change code and open PRs for us. Everything from v0 to Cursor to Claude get @ mentions all the time in our Slack channels to update the repo for anything that doesn’t require significant new componentry. You can skip adding things to the backlog. It’s just as easy to fix clear and obvious paper cuts with an agent right from the Slac",
+      "article_text_zh": "Vercel 产品设计团队实际使用的工具\n\n这篇文章几周内就会过时，但没关系。这是一篇记录当下时刻的帖子。在一个从未如此容易被颠覆的世界里，设计工具正在快速变化。在我们最近的团队会议上，我主持了一场设计工具展示会，产品设计师们分享了他们在设计工作中实际使用的工具。\n\n我的主要收获是：\n- 即使在我们这个小团队里，每个人现在使用的工具也完全不同。\n- 我们对 AI 的使用程度差异很大，从连续 6 个月每天离不开 AI 的早期采用者，到仍然认为 AI 在创意工作中基本无用的怀疑论者。\n- 用于设计工作流的 AI 工具相对笨拙，且落后于用于工程工作流的 AI 工具。\n\n以下是几个具体方面的深入探讨。\n\n让 Claude 和 Codex 进行结对编程\n\nTimo 一直将 Codex 作为他的主要编码代理，但他创建了一个技能让 Claude 来审查 Codex 的工作。该技能文件指示 Codex 与 Claude 分享其计划并征求反馈（例如：这比需要的更复杂吗？有重复吗？API 设计得真的好吗？）。该文件还指示 Codex 不要盲目服从，而是要捍卫自己认为正确的内容，只有在两个模型达成一致时才更新计划。\n\n你无需任何自定义工具即可尝试此操作。只需让你的代理与第二个模型分享其计划，并在返回给你之前进行讨论。如果你想使用 Timo 的技能，请查看[这里](https://github.com/timolins/claude-review)或使用 `npx skills add timolins/claude-review` 进行安装。\n\n要进入心流状态，你需要并发线程\n\n在传统设计工具中，进入心流状态很容易。我们花费数小时的专注时间，在创意中广泛而深入地探索。但现在，我们发送一个提示，然后坐在那里等待代理完成一系列任务。不知不觉中，我们就在 Slack 上刷屏了。\n\n团队中有几个人找到了使用并行线程进入心流状态的方法。Tom 会在 Conductor 中启动一个项目，并为该项目的各种主题打开几个不同的标签页：可能一个用于 UX 流程，一个用于状态和数据，另一个用于各种琐碎的小修补。这不仅能在相同时间内提高你的代理的生产力，还能保持组织有序，这样你就不会因为同时管理 100 个小机器人军队而抓狂。\n\n从生产环境进行设计\n\n在过去，设计文件领先于生产环境。团队努力保持它们同步。现在，由于实施成本和时间大幅下降，设计文件已经过时得可笑，而生产环境中有数百万个从未在画布上开始的功能。这没关系，因为我们的设计师也在编码。\n\n但这带来了一些挑战。有时你需要一个画布来尝试一些想法，然后再回到代码中。我们发现了一些工具，可以很好地将生产样式带回画布：我个人成功使用了 Paper 浏览器扩展，它几乎完美地复制了页面的结构和样式，并将其带入 Paper 设计画布。但我还不是在 Paper 中设计的专家，更原生地访问我们的设计系统似乎是合乎逻辑的下一个功能。\n\n以生产环境为唯一真实来源，Sam 构建了这个[自定义 Chrome 扩展](https://github.com/sambernhardt/click-to-component-chrome-extension)，作为 React Dev Tools 的替代方案，用于跳转到文件位置。两者在技术上都能工作，但自定义扩展在他的工作流中更快一些，所以他更喜欢它——快捷键是王道。\n\n我们还使用 Slack 中的代理来为我们更改代码和打开 PR。从 v0 到 Cursor 再到 Claude，在我们的 Slack 频道中，它们经常被 @ 提及，以更新仓库中任何不需要大量新组件的内容。你可以跳过将事情添加到待办事项列表。直接从 Slack 用代理修复清晰明显的小问题同样容易。",
+      "article_text_zh_hash": "1f32db1f71577d62",
       "article_title_extracted": "Tools the Vercel Product Design Team Actually Uses | Hannah Hearth",
       "category": "Articles",
       "cleaner_v": 1,
@@ -1450,6 +1598,8 @@
         }
       ],
       "title": "Tools the Vercel Product Design Team Actually Uses | Hannah Hearth",
+      "title_zh": "Vercel 产品设计团队实际使用的工具 | Hannah Hearth",
+      "title_zh_hash": "9d4c28892e288f21",
       "url": "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses",
       "x_status_id": null
     },
@@ -1462,6 +1612,8 @@
       "category": "Design",
       "created_at": "2026-05-13T13:12:15.856611Z",
       "description": "KOMETA is an independent type design studio specializing in progressive retail and custom typefaces.",
+      "description_zh": "KOMETA 是一家独立字体设计工作室，专注于前卫的零售字体和定制字体设计。",
+      "description_zh_hash": "c4700f9f7823725a",
       "domain": "kometatype.com",
       "embed_type": "",
       "id": "k176hmhc54p92fedwd7xw2ds9186m43k",
@@ -1484,6 +1636,8 @@
         }
       ],
       "title": "Future-Facing Fonts  ● KOMETA",
+      "title_zh": "未来感字体 ● KOMETA",
+      "title_zh_hash": "bc8a5bf6f3e30ccb",
       "url": "https://kometatype.com/",
       "x_status_id": null
     },
@@ -1507,6 +1661,8 @@
       "category": "Tools",
       "created_at": "2026-05-13T09:13:52.877141Z",
       "description": "Detect AI-generated text in essays, articles & documents. Identifies ChatGPT, Claude, Gemini & more with 99.98% accuracy. Third-party verified results.",
+      "description_zh": "在论文、文章及文档中检测AI生成的文本。可识别ChatGPT、Claude、Gemini等模型，准确率达99.98%。结果经第三方验证。",
+      "description_zh_hash": "5e26813d2e8182a9",
       "domain": "www.pangram.com",
       "embed_type": "",
       "id": "k17ebrv48x4v1mt7738z6kbmwd86nhkm",
@@ -1529,6 +1685,8 @@
         }
       ],
       "title": "AI Detector — Verified AI Content Checker | Pangram",
+      "title_zh": "AI 检测器 — 已验证的 AI 内容检查器 | Pangram",
+      "title_zh_hash": "d60c8bcad6f35aa4",
       "url": "https://www.pangram.com/",
       "x_status_id": null
     },
@@ -1536,6 +1694,8 @@
       "category": "Social",
       "created_at": "2026-05-13T00:22:21.431758Z",
       "description": "In conversation with Sheta Chatterjee, Senior Director, Head of UX and Design, Google Cloud AI, and Jenny Xie, Editor, Figma. Hero illustration by Pedro Sanches",
+      "description_zh": "在与 Sheta Chatterjee（Google Cloud AI 用户体验与设计高级总监兼主管）和 Jenny Xie（Figma 编辑）的对话中。主图由 Pedro Sanches 绘制。",
+      "description_zh_hash": "a895a5371fcb81d6",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k1730k58pmq4270kmtqfs2zspx86n8gd",
@@ -1558,6 +1718,8 @@
         }
       ],
       "title": "How to design agentic tools for work",
+      "title_zh": "如何为工作设计智能体工具",
+      "title_zh_hash": "d57fea8fb0a6fe46",
       "url": "https://x.com/figma/status/2054222624864026913",
       "x_status_id": "2054222624864026913"
     },
@@ -1569,11 +1731,15 @@
         "https://csswizardry.com/Obs.js/demo/assets/showcase/csswizardry.com.png"
       ],
       "article_text": "[Obs.js](https://github.com/csswizardry/Obs.js) reads a handful of\nbrowser signals\n([Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator)\nand [Battery](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)\nAPIs) to infer connection strength, battery status, and device capability. It\nexposes those signals as CSS classes on the <html>\nelement,\nand as properties on window.obs\n, so you can adapt delivery\naccordingly: serve lower-resolution media, forgo web fonts, disable\nauto-playing video… you name it.\nIn fact, if you have critically low battery, data saver mode\nenabled, or a weak connection, you won’t see the nice rounded\n[Fredoka](https://fonts.google.com/specimen/Fredoka)\nin the <h1>\nabove—you’ll just see your\nsystem-ui\nfont:\n[Obs.js](https://github.com/csswizardry/Obs.js) is built and\nmaintained by [Harry Roberts](https://csswizardry.com) under the MIT\nlicense.\nThis page shows the .has-*\nclasses that [Obs.js](https://github.com/csswizardry/Obs.js) adds to the\n<html>\nelement, and the current window.obs\nobject where it stores device and network information.\nTry toggling Data Saver, plugging/unplugging power, or changing networks to see updates (where supported).\nhtml.classList\nwindow.obs\nNote: API support varies by browser; Chromium has the broadest coverage.\nObs.js must be placed early in the <head>\nas an inline\n<script>\n, much like Google Tag Manager. Any attempt to\ninstall Obs.js any other way—via a package manager, as an external file—will\ncause Obs.js to self-terminate.\nIn order for Obs.js to provide its key function, it needs to run before any\nother HTML, CSS, or JS that might depend on it. Thus, Obs.js must be installed\nearly and synchronously. Early and synchronously\n, usually means\nslow, but by pasting Obs.js as an inline <script>\n,\nit takes about 1.5ms to run on a [real\nSamsung Galaxy A54](https://csswizardry.com/2025/08/low-and-mid-tier-mobile-for-the-real-world-2025/).\nGet the snippet on [GitHub](https://github.com/csswizardry/Obs.js#installation).\n<video>\nDemoIf your connection allows it, you should see a small video below. If not,\nyou will see a static <img>\n—what can you see?\nIf your RUM\nor analytics provider accepts window.obs\n-style data, you can send\nit off to them! You don’t need to use Obs.js to adapt or change your\nsite—you can use it as a purely observational tool to learn more about\nyour audience:\nI send all of my data off to my friends at [SpeedCurve](https://www.speedcurve.com/). With that, I can begin\nsegmenting my [RUM](https://csswizardry.com#dfn:rum) data and designing strategies to serve\ndifferent demographics.\nIf you only want to use Obs.js for analytics, you can disable adaptive mode before Obs.js runs:\nWith adaptive: false\n, Obs.js will still populate\nwindow.obs\n, but it won’t add any .has-*\nclasses to\nthe <html>\nelement, and it no longer needs the strict\ninline-in-<head>\ninstallation pattern required for\nadaptive use.\nThat means analytics-only installs can be loaded more flexibly, including via an external script.\nHere’s the exact snippet I use to send Obs.js data to [SpeedCurve](https://www.speedcurve.com/):\nThese fine folk are using [Obs.js](https://github.com/csswizardry/Obs.js):\n-\n- Site\n[csswizardry.com](https://csswizardry.com)- Usage\n- Deliver low-resolution hero images on constrained networks; disable transitions and animations on low battery mode.",
+      "article_text_zh": "[Obs.js](https://github.com/csswizardry/Obs.js) 读取少量浏览器信号（[Navigator](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator) 和 [Battery](https://developer.mozilla.org/zh-CN/docs/Web/API/Battery_Status_API) API），用于推断网络连接强度、电池状态和设备性能。它会将这些信号以 CSS 类的形式暴露在 `<html>` 元素上，并以属性的形式暴露在 `window.obs` 对象中，从而让你能够相应地调整内容交付策略：提供低分辨率媒体、放弃网络字体、禁用自动播放视频……一切皆有可能。\n\n实际上，如果你的设备电量严重不足、启用了省流量模式或网络连接较弱，你将看不到上方 `<h1>` 标题中圆润的 [Fredoka](https://fonts.google.com/specimen/Fredoka) 字体，而只会看到系统默认的 `system-ui` 字体。\n\n[Obs.js](https://github.com/csswizardry/Obs.js) 由 [Harry Roberts](https://csswizardry.com) 构建并维护，采用 MIT 许可证。\n\n本页面展示了 [Obs.js](https://github.com/csswizardry/Obs.js) 添加到 `<html>` 元素上的 `.has-*` 类，以及用于存储设备和网络信息的当前 `window.obs` 对象。\n\n尝试切换省流量模式、插拔电源或更换网络，即可看到更新（在支持的情况下）。\n\n`html.classList`\n\n`window.obs`\n\n注意：API 支持情况因浏览器而异；Chromium 的覆盖范围最广。\n\nObs.js 必须像 Google Tag Manager 一样，以内联 `<script>` 的形式尽早放置在 `<head>` 中。任何其他安装方式——通过包管理器或作为外部文件——都会导致 Obs.js 自行终止。\n\n为了让 Obs.js 发挥其核心功能，它必须在任何可能依赖它的 HTML、CSS 或 JS 之前运行。因此，Obs.js 必须尽早且同步地安装。尽早且同步通常意味着速度慢，但通过将 Obs.js 粘贴为内联 `<script>`，它在[真实的 Samsung Galaxy A54 设备](https://csswizardry.com/2025/08/low-and-mid-tier-mobile-for-the-real-world-2025/)上运行仅需约 1.5 毫秒。\n\n在 [GitHub](https://github.com/csswizardry/Obs.js#installation) 上获取代码片段。\n\n<video>\n演示如果你的网络连接允许，你应该能在下方看到一个小视频。如果不能，你将看到一张静态的 <img>——你看到了什么？\n\n如果你的 RUM 或分析提供商接受 `window.obs` 格式的数据，你可以将数据发送给他们！你无需使用 Obs.js 来适配或更改你的网站——你可以将其纯粹作为观察工具，用于更深入地了解你的受众：\n\n我将所有数据发送给我的朋友们所在的 [SpeedCurve](https://www.speedcurve.com/)。这样，我就可以开始细分我的 [RUM](https://csswizardry.com#dfn:rum) 数据，并设计服务于不同用户群体的策略。\n\n如果你只想将 Obs.js 用于分析目的，可以在 Obs.js 运行前禁用自适应模式：\n\n设置 `adaptive: false` 后，Obs.js 仍会填充 `window.obs`，但不会向 `<html>` 元素添加任何 `.has-*` 类，并且也不再需要自适应使用所需的严格的内联-在-`<head>` 中的安装模式。\n\n这意味着仅用于分析的安装可以更灵活地加载，包括通过外部脚本加载。\n\n以下是我用于将 Obs.js 数据发送到 [SpeedCurve](https://www.speedcurve.com/) 的确切代码片段：\n\n以下优秀人士正在使用 [Obs.js](https://github.com/csswizardry/Obs.js)：\n\n- 网站 [csswizardry.com](https://csswizardry.com)\n- 用途：在受限网络下提供低分辨率首图；在低电量模式下禁用过渡和动画效果。",
+      "article_text_zh_hash": "9781add22ec1be5f",
       "article_title_extracted": "Obs.js – context-aware web performance for everyone",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-12T23:47:49.093242Z",
       "description": "Obs.js reads device and network signals and allows you to build adaptive user experiences.",
+      "description_zh": "Obs.js 读取设备和网络信号，让您构建自适应用户体验。",
+      "description_zh_hash": "9bf929e56ce7ad44",
       "domain": "csswizardry.com",
       "embed_type": "",
       "id": "k172cr36r5j7a18dw2cd3aeqnn86kbb4",
@@ -1596,6 +1762,8 @@
         }
       ],
       "title": "Obs.js – context-aware web performance for everyone",
+      "title_zh": "Obs.js – 面向所有人的上下文感知网页性能优化",
+      "title_zh_hash": "ce7c9e2a98406ecf",
       "url": "https://csswizardry.com/Obs.js/demo/",
       "x_status_id": null
     },
@@ -1603,6 +1771,8 @@
       "category": "Social",
       "created_at": "2026-05-13T00:15:35.816964Z",
       "description": "What if anatomy explorers felt alive?This 3D dog, including the skeleton, organs and rig, was generated with ai and reacts to the cursor in real time with head tracking and tail movement.- Used GPT Images 2 for consistency- @omma_ai for 3D generation and code using @threejs… pic.twitter.com/Wo9MhBEeOj",
+      "description_zh": "如果解剖探索者能感受到生命呢？这只3D狗，包括骨骼、器官和骨架，均由AI生成，并能通过头部追踪和尾巴摆动实时响应光标移动。  \n- 使用GPT Images 2保持一致性  \n- @omma_ai负责3D生成和代码，基于@threejs… pic.twitter.com/Wo9MhBEeOj",
+      "description_zh_hash": "31fa3596a781a380",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17ee0h7ktz5kpzsdes3192zpd86mf67",
@@ -1625,6 +1795,8 @@
         }
       ],
       "title": "Gábor Pribék (@gaborpribek) on X",
+      "title_zh": "Gábor Pribék (@gaborpribek) 在 X 平台",
+      "title_zh_hash": "54668acf66020520",
       "url": "https://x.com/gaborpribek/status/2054249569588830586",
       "x_status_id": "2054249569588830586"
     },
@@ -1648,6 +1820,8 @@
       "category": "Tools",
       "created_at": "2026-05-13T00:15:42.767780Z",
       "description": "Transform your video editing workflow with Ponder.AI's revolutionary AI-powered platform. Sign up free or download now to experience the future of video creation.",
+      "description_zh": "使用 Ponder.AI 革命性的 AI 驱动平台，改变您的视频编辑工作流程。立即免费注册或下载，体验视频创作的未来。",
+      "description_zh_hash": "129496e1c06e1d78",
       "domain": "ponder.ai",
       "embed_type": "",
       "id": "k17erq0kst19dakndsv3ykf96n86n3nz",
@@ -1681,11 +1855,15 @@
         "https://tailwindcss.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frobinmalfait.05vb3f82k0393.jpg&w=96&q=75"
       ],
       "article_text": "Tailwind CSS v4.3 is here, and because apparently shipping v4.2 was easier than remembering to blog about it, this post is secretly about two releases worth of new stuff.\nHere's what landed in v4.2:\n[New](https://tailwindcss.com#new-mauve-olive-mist-and-taupe-palettes)— four more neutral-ish palettes for when gray, zinc, neutral, stone, and slate have somehow failed you.mauve\n,olive\n,mist\n, andtaupe\npalettes[First-class webpack plugin](https://tailwindcss.com#first-class-webpack-plugin)— for a huge performance boost in frameworks like Next.js.[More logical property utilities](https://tailwindcss.com#more-logical-property-utilities)— includingpbs-*\n,mbs-*\n,inline-*\n,block-*\n, and new logical inset utilities.[New](https://tailwindcss.com#new-font-features-utility)— control low-level OpenType features without writing custom CSS every time.font-features-*\nutility\n…and here's what's new in v4.3:\n[New scrollbar utilities](https://tailwindcss.com#new-scrollbar-utilities)— style scrollbars without wondering which half-supported browser API you're supposed to use this week.[New](https://tailwindcss.com#new-container-size-utility)— create size containers for when your container queries need to care about height too.@container-size\nutility[New](https://tailwindcss.com#new-zoom-utilities)— use the CSSzoom-*\nutilitieszoom\nproperty directly in your markup, now that every browser has finally agreed it exists.[New](https://tailwindcss.com#new-tab-utilities)— control the rendered width of tab characters, just please don't make it eight like GitHub used to.tab-*\nutilities[Stacked + compound](https://tailwindcss.com#stacked-compound-variant-support)— use stacked and compound variants directly in CSS.@variant\nsupport[Default values for functional utilities](https://tailwindcss.com#default-values-for-functional-utilities)— define utilities that work with or without a value.\nA lot of the v4.2 improvements, including the new logical property utilities and font-features-*\nsupport, came out of collaborations with teams at Netflix and Vercel through our [Partners Program](https://tailwindcss.com/sponsor#partners). If there are framework improvements like this that would make Tailwind CSS work better for your team, we'd love to help.\nUpgrade your projects by installing the latest version of tailwindcss\nfrom npm:\nnpm install tailwindcss@latest @tailwindcss/cli@latest\nnpm install tailwindcss@latest @tailwindcss/vite@latest\nnpm install tailwindcss@latest @tailwindcss/postcss@latest\nnpm install tailwindcss@latest @tailwindcss/webpack@latest\n[New ](https://tailwindcss.com#new-mauve-olive-mist-and-taupe-palettes)mauve\n, olive\n, mist\n, and taupe\npalettes\nmauve\n, olive\n, mist\n, and taupe\npalettesIn v4.2 we added four new color palettes to the default theme: mauve\n, olive\n, mist\n, and taupe\n.\nThese originally came out of [Oatmeal](https://tailwindcss.com/plus/changelog#2025-12-18), the multi-theme marketing site kit we released for Tailwind Plus back in December, where we needed a few more neutral-ish palettes that still felt distinct from the grays we already ship.\nThey're all in that useful neutral-adjacent category where you want something that still behaves like gray, but has a little more personality:\nThey're a nice substitute for the existing gray palettes when you want the whole design to lean a little warmer, cooler, greener, or… mauver?\n<div class=\"bg-mauve-950 text-mauve-100 ...\">Mauve</div><div class=\"bg-olive-100 text-olive-950 ...\">Olive</div><div class=\"border border-mist-200 shadow-taupe-950/10 ...\">Mist and taupe</div>\nCheck out the [colors documentation](https://tailwindcss.com/docs/colors) for a pretty grid of all the available colors.\n[First-class webpack plugin](https://tailwindcss.com#first-class-webpack-plugin)\nTailwind CSS v4.2 added a dedicated @tailwindcss/webpack\nloader for integrating Tailwind CSS in webpack projects.\nBefore this, webpack projects usually ran Tailwind through postcss-loader\nand @tailwindcss/postcss\n, which works, but m",
+      "article_text_zh": "Tailwind CSS v4.3 来了，而且因为发布 v4.2 比记得写博客要容易得多，这篇文章实际上是在介绍两个版本的新内容。\n\n以下是 v4.2 中新增的功能：\n\n*   [新增](https://tailwindcss.com#new-mauve-olive-mist-and-taupe-palettes)——四种更中性的调色板，适用于当灰色、锌色、中性色、石色和板岩色都无法满足需求的情况。mauve、olive、mist 和 taupe 调色板\n*   [一流的 webpack 插件](https://tailwindcss.com#first-class-webpack-plugin)——在 Next.js 等框架中实现巨大的性能提升。\n*   [更多逻辑属性工具](https://tailwindcss.com#more-logical-property-utilities)——包括 `pbs-*`、`mbs-*`、`inline-*`、`block-*` 以及新的逻辑 inset 工具。\n*   [新增 `font-features-*` 工具](https://tailwindcss.com#new-font-features-utility)——无需每次都编写自定义 CSS 即可控制底层 OpenType 特性。\n\n……以下是 v4.3 中新增的功能：\n\n*   [新增滚动条工具](https://tailwindcss.com#new-scrollbar-utilities)——无需纠结本周该使用哪个半支持的浏览器 API 即可设置滚动条样式。\n*   [新增 `@container-size` 工具](https://tailwindcss.com#new-container-size-utility)——创建尺寸容器，让你的容器查询也能关心高度。\n*   [新增 `zoom-*` 工具](https://tailwindcss.com#new-zoom-utilities)——直接在标记中使用 CSS `zoom` 属性，现在所有浏览器终于都承认它的存在了。\n*   [新增 `tab-*` 工具](https://tailwindcss.com#new-tab-utilities)——控制制表符的渲染宽度，只是请别像 GitHub 以前那样设为 8 个字符。\n*   [堆叠 + 复合 `@variant` 支持](https://tailwindcss.com#stacked-compound-variant-support)——直接在 CSS 中使用堆叠和复合变体。\n*   [函数式工具的默认值](https://tailwindcss.com#default-values-for-functional-utilities)——定义无论是否带值都能工作的工具。\n\nv4.2 的许多改进，包括新的逻辑属性工具和 `font-features-*` 支持，都是通过我们的 [合作伙伴计划](https://tailwindcss.com/sponsor#partners) 与 Netflix 和 Vercel 团队合作产生的。如果类似的框架改进能让 Tailwind CSS 更好地为你的团队服务，我们很乐意提供帮助。\n\n通过从 npm 安装最新版本的 `tailwindcss` 来升级你的项目：\n\n```bash\nnpm install tailwindcss@latest @tailwindcss/cli@latest\nnpm install tailwindcss@latest @tailwindcss/vite@latest\nnpm install tailwindcss@latest @tailwindcss/postcss@latest\nnpm install tailwindcss@latest @tailwindcss/webpack@latest\n```\n\n[新增](https://tailwindcss.com#new-mauve-olive-mist-and-taupe-palettes) mauve、olive、mist 和 taupe 调色板\n\n在 v4.2 中，我们为默认主题添加了四种新的调色板：mauve、olive、mist 和 taupe。\n\n这些最初源自 [Oatmeal](https://tailwindcss.com/plus/changelog#2025-12-18)，这是我们去年 12 月为 Tailwind Plus 发布的多主题营销网站套件，当时我们需要一些额外的中性调色板，同时又要感觉与我们已有的灰色有所区别。\n\n它们都属于有用的中性邻近类别，你希望它们的行为像灰色，但又多了一点个性：\n\n当你希望整个设计偏向更暖、更冷、更绿或……更紫红时，它们是现有灰色调色板的绝佳替代品。\n\n```html\n<div class=\"bg-mauve-950 text-mauve-100 ...\">Mauve</div>\n<div class=\"bg-olive-100 text-olive-950 ...\">Olive</div>\n<div class=\"border border-mist-200 shadow-taupe-950/10 ...\">Mist and taupe</div>\n```\n\n查看[颜色文档](https://tailwindcss.com/docs/colors)以获取所有可用颜色的漂亮网格。\n\n[一流的 webpack 插件](https://tailwindcss.com#first-class-webpack-plugin)\n\nTailwind CSS v4.2 添加了一个专用的 `@tailwindcss/webpack` 加载器，用于在 webpack 项目中集成 Tailwind CSS。\n\n在此之前，webpack 项目通常通过 `postcss-loader` 和 `@tailwindcss/postcss` 来运行 Tailwind，这虽然可行，但",
+      "article_text_zh_hash": "a19928cae26cb135",
       "article_title_extracted": "Tailwind CSS v4.3: Scrollbars, new colors, and more - Tailwind CSS",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:15:50.379727Z",
       "description": "Tailwind CSS v4.3 is here with first-party scrollbar styling, even more logical property utilities, new zoom and tab-size utilities, better @variant support, and all the v4.2 stuff we shipped while forgetting blogs existed.",
+      "description_zh": "Tailwind CSS v4.3 正式发布，新增官方滚动条样式支持、更多逻辑属性工具类、全新的缩放和标签大小工具、更完善的 @variant 支持，以及我们在忘记写博客期间发布的 v4.2 所有功能。",
+      "description_zh_hash": "61b4345e6e4888b0",
       "domain": "tailwindcss.com",
       "embed_type": "",
       "id": "k172h8yrtvsams13jn27a86cg586nxr1",
@@ -1708,6 +1886,8 @@
         }
       ],
       "title": "Tailwind CSS v4.3: Scrollbars, new colors, and more - Tailwind CSS",
+      "title_zh": "Tailwind CSS v4.3：滚动条、新颜色及更多功能 - Tailwind CSS",
+      "title_zh_hash": "c89cff3a5d54e696",
       "url": "https://tailwindcss.com/blog/tailwindcss-v4-3",
       "x_status_id": null
     },
@@ -1720,6 +1900,8 @@
       "category": "Development",
       "created_at": "2026-05-13T00:16:06.182337Z",
       "description": "Explore the Oxide Cloud Computer in 3D. Navigate the hardware architecture from rack to sleds to CPUs, with guided tours of the components that make up a cloud computer.",
+      "description_zh": "以3D方式探索Oxide云计算机。从机架到计算节点再到CPU，逐层深入硬件架构，并跟随导览了解构成云计算机的各个组件。",
+      "description_zh_hash": "0651aa008703cc78",
       "domain": "explorer.oxide.computer",
       "embed_type": "",
       "id": "k1725qd81ah61qaamcz9jgj57n86ne0p",
@@ -1742,6 +1924,8 @@
         }
       ],
       "title": "Oxide 3D Explorer",
+      "title_zh": "Oxide 3D 资源管理器",
+      "title_zh_hash": "a892cdddf6320dcc",
       "url": "https://explorer.oxide.computer/",
       "x_status_id": null
     },
@@ -1757,11 +1941,15 @@
         "https://bitrig.com/assets/logos/social/discord-logo.svg"
       ],
       "article_text": "Mac iPhone Blog Pricing About Download Bitrig Now Builds iPad Apps April 14, 2026 by Kyle Macomber There’s something irresistible about the iPad. It’s incredibly thin, light, and fast. A piece of glass that instantly transforms into whatever app you’re using. A bigger, blanker canvas than the iPhone. More direct and intimate than the Mac. It invites exploration and creativity. Today, we’re excited to share: Bitrig can now build native Swift iPad apps. You get access to the full iPadOS SDK, so you can build iPad apps with rich multi-column layouts, Apple Pencil support, multiple windows, and more. You can run your app on a connected iPad or in the Xcode iPad Simulator, so your previews reflect what your users get on TestFlight and the App Store. After all these years, it still feels like the iPad hasn’t fully realized its potential. Maybe the killer app for iPad hasn’t been built yet? Maybe you’ll build it. Product Mac iPhone Pricing Company Blog About Privacy Policy Terms of Service Contact Us",
+      "article_text_zh": "Mac iPhone 博客 定价 关于 下载 Bitrig 现已支持构建 iPad 应用 2026年4月14日 Kyle Macomber 撰文 iPad 有一种难以抗拒的魅力。它极致轻薄、迅捷，如同一块玻璃，瞬间化身为你所使用的任何应用。相比 iPhone，它拥有更大、更空白的画布；相比 Mac，它更直接、更亲密。它激发探索与创造力。今天，我们激动地宣布：Bitrig 现已支持构建原生 Swift iPad 应用。你将获得完整的 iPadOS SDK 访问权限，从而打造具备丰富多列布局、Apple Pencil 支持、多窗口等特性的 iPad 应用。你可以在连接的 iPad 或 Xcode iPad 模拟器中运行应用，确保预览效果与用户在 TestFlight 和 App Store 中获得的体验一致。多年过去，iPad 似乎仍未完全释放其潜力。或许 iPad 的杀手级应用尚未诞生？也许，它正由你创造。 产品 Mac iPhone 定价 公司 博客 关于 隐私政策 服务条款 联系我们",
+      "article_text_zh_hash": "103e7a1b5354f8a3",
       "article_title_extracted": "Bitrig Now Builds iPad Apps",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:17:01.633521Z",
       "description": "Bitrig can now build native Swift iPad apps with full access to the iPadOS SDK, including rich multi-column layouts, Apple Pencil, and multiple windows.",
+      "description_zh": "Bitrig 现在可以构建原生 Swift iPad 应用，并完整访问 iPadOS SDK，包括丰富的多列布局、Apple Pencil 和多窗口支持。",
+      "description_zh_hash": "4c0537c6fd3caeb6",
       "domain": "bitrig.com",
       "embed_type": "",
       "id": "k17263dvhw7pkzhyd6rgczqmn986m2hg",
@@ -1784,6 +1972,8 @@
         }
       ],
       "title": "Bitrig Now Builds iPad Apps",
+      "title_zh": "Bitrig 现已支持构建 iPad 应用",
+      "title_zh_hash": "872b98683e341426",
       "url": "https://bitrig.com/blog/bitrig-builds-ipad-apps",
       "x_status_id": null
     },
@@ -1794,11 +1984,15 @@
         "https://railway.com/assets/ios-splash-dark-B5j0iOCm.png"
       ],
       "article_text": "Railway Product Developers Enterprise Company Pricing Now in TestFlight · iOS beta Railway is going mobile Deploy, monitor, and manage your services from anywhere. Your full Railway workspace, now in your pocket. Download in TestFlight Request Android access → All systems operational ↗ © 2026 Railway Corp. All rights reserved.",
+      "article_text_zh": "Railway 产品开发者 企业版 公司 定价 现已上线 TestFlight · iOS 测试版 Railway 即将推出移动端 随时随地部署、监控和管理您的服务。您的完整 Railway 工作空间，尽在掌中。在 TestFlight 中下载 申请 Android 访问权限 → 所有系统运行正常 ↗ © 2026 Railway Corp. 保留所有权利。",
+      "article_text_zh_hash": "9c87fa2f0a08fe42",
       "article_title_extracted": "Railway is going mobile",
       "category": "Tools",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:17:21.386708Z",
       "description": "Deploy, monitor, and manage your services from anywhere. Your full Railway workspace, now in your pocket.",
+      "description_zh": "随时随地部署、监控和管理你的服务。你的完整 Railway 工作空间，现在尽在掌中。",
+      "description_zh_hash": "c357c2a39e809b76",
       "domain": "railway.com",
       "embed_type": "",
       "id": "k170dfr3kfdar1wav75nf2e5xs86mm98",
@@ -1821,6 +2015,8 @@
         }
       ],
       "title": "Railway is going mobile",
+      "title_zh": "Railway 正在走向移动化",
+      "title_zh_hash": "0b09e7993b187128",
       "url": "https://railway.com/mobile",
       "x_status_id": null
     },
@@ -1841,11 +2037,15 @@
         "https://shop.panasonic.com/cdn/shop/files/lumix-2026-l10-galleryimages-2-260417.png?v=1777365665&width=2000"
       ],
       "article_text": "LUMIX L10 Premium Point & Shoot Digital Camera, 24-75mm Zoom Lens\nThe LUMIX L10 is designed for everyday inspiration. A bright Leica 24–75mm F1.7-2.8 zoom lens, large sensor, and Real Time LUT color tools help you create beautiful images straight out of camera that you can share on social instantly. A premium, everyday carry camera made for street, travel, and daily moments.\nFeatures\n- Premium compact design for everyday carry\n- Bright Leica 24-75mm F1.7-2.8 zoom lens for creative range\n- Expressive color creation with Real Time LUTs, film‑inspired styles, and AI looks\n- 20.4MP CMOS sensor for rich detail, natural color, and strong low‑light performance\n- AI tracking and image stabilization for sharp, blur-free shots\n- OLED viewfinder and free‑angle screen for confident horizontal or vertical content capture\n[LUMIX L10 Premium Point & Shoot Digital Camera, 24-75mm Zoom Lens](https://shop.panasonic.com/products/lumix-l10-premium-point-shoot-digital-camera-24-75mm-zoom-lens)\nShaping Emotions\nDeveloped in Osaka, Japan, the LUMIX L10 is a premium compact camera made to feel instantly natural in your hands. Designed for effortless control and a truly enjoyable shooting experience, it lets your eyes stay on what matters most—the moment in front of you. Compact enough to go anywhere, with controls placed exactly where you expect them, the LUMIX L10 helps you focus on capturing the moment, not figuring out the camera.\nTrusted Design. Beautiful Presence.\nDesigned as a dependable tool for passionate photographers, it combines the rich feel of metal with a saffiano-leather-textured exterior in an authentic design. This creates a presence that feels both modern and classic, and makes it a pleasure to carry.\n[FIND OUT MORE](https://shop.panasonic.com/pages/lumix-l10-design-form-meets-function#trusted)\nMaster the Light\nPrecision-machined from solid metal, the lens barrel features a high quality finish. A front-positioned aperture ring lets you intuitively control the light entering the lens.\nCompact Body, Full Creative Control\nA compact form for everyday use with intuitive analog controls. Enjoy the tactile feel of the dials and rings, and compose through the viewfinder. It balances minimal design with responsive handling.\n[FIND OUT MORE](https://shop.panasonic.com/pages/lumix-l10-design-form-meets-function#compact)\nA Design Worth Celebrating\nSince its debut in 2001, LUMIX has continued to evolve and now celebrates its 25th anniversary. To mark the occasion, Titanium Gold is introduced as a special-edition color option alongside the classic Black and Silver options.\n[FIND OUT MORE](https://shop.panasonic.com/pages/lumix-l10-celebratory-titanium-gold-edition-development-story)\nCapture the Subtle Expressions of Light with the LEICA DC Lens\nFeaturing a LEICA DC Lens\nThe LEICA DC VARIO-SUMMILUX 24-75mm* F1.7-2.8 lens renders rich depth, impressive bokeh, and delicate gradations of light and shadow.\n*35mm camera equivalent.\n･Leica is a registered trademark of Leica Microsystems IR GmbH.\nDiscover the World of Macro Photography\nGet as close as 3cm (approx. 1.18in) to your subject at the wide end with AF Macro capability. Capture captivating details up close, from beautifully crafted objects to small flowers discovered on a walk.\nLUMIX Color\nLUMIX is built around the philosophy of “Capturing It All”—so you can capture the full strength, beauty, and emotion of every moment. At the heart of this is the Standard Photo Style, designed to deliver natural, true‑to‑life images with a refined balance of realistic color and pleasing tones. When you’re ready to explore, a wide range of Photo Styles lets you match the look to your scene or your creative mood, giving you more ways to express your vision. And following the popularity of L.ClassicNeo, two new film‑inspired Photo Styles have been introduced—bringing even more character and creative freedom to your photography.\nL.Classic\nWith its soft, low-saturation palette and smooth tonal gradation, this filter",
+      "article_text_zh": "松下LUMIX L10高级便携数码相机，配备24-75mm变焦镜头\n\nLUMIX L10专为日常灵感而设计。明亮的徕卡24-75mm F1.7-2.8变焦镜头、大尺寸传感器以及实时LUT色彩工具，助您直出精美影像，即刻分享至社交平台。这是一款专为街拍、旅行和日常瞬间打造的高级随身相机。\n\n特点\n- 高级紧凑设计，便于日常携带\n- 明亮的徕卡24-75mm F1.7-2.8变焦镜头，提供创意拍摄范围\n- 通过实时LUT、胶片风格和AI滤镜实现富有表现力的色彩创作\n- 2040万像素CMOS传感器，呈现丰富细节、自然色彩和出色低光性能\n- AI追踪与图像稳定功能，确保清晰无抖动的拍摄\n- OLED取景器和自由角度屏幕，自信捕捉水平或垂直内容\n\n[松下LUMIX L10高级便携数码相机，配备24-75mm变焦镜头](https://shop.panasonic.com/products/lumix-l10-premium-point-shoot-digital-camera-24-75mm-zoom-lens)\n\n塑造情感\n\nLUMIX L10在日本大阪研发，是一款高级紧凑相机，握持感自然舒适。它设计直观、操控轻松，让您专注于眼前最重要的瞬间。机身小巧，可随身携带，按键布局符合直觉，助您专注捕捉瞬间，而非研究相机操作。\n\n值得信赖的设计，优雅的存在感\n\n作为专为热情摄影师打造的可靠工具，它融合了金属质感与Saffiano皮革纹理外观，呈现真实设计。这种风格兼具现代与经典，让携带成为一种享受。\n\n[了解更多](https://shop.panasonic.com/pages/lumix-l10-design-form-meets-function#trusted)\n\n掌控光线\n\n镜头筒由整块金属精密加工而成，表面处理精致。前置光圈环让您直观控制进入镜头的光线。\n\n紧凑机身，全面创意掌控\n\n紧凑机身适合日常使用，配备直观的模拟操控。享受拨盘和环的触感，通过取景器构图。它在简约设计与灵敏操控之间取得平衡。\n\n[了解更多](https://shop.panasonic.com/pages/lumix-l10-design-form-meets-function#compact)\n\n值得庆祝的设计\n\n自2001年问世以来，LUMIX不断进化，如今迎来25周年。为纪念这一时刻，除经典黑色和银色外，特别推出钛金色限量版配色。\n\n[了解更多](https://shop.panasonic.com/pages/lumix-l10-celebratory-titanium-gold-edition-development-story)\n\n用LEICA DC镜头捕捉光线的微妙表现\n\n配备LEICA DC镜头\n\nLEICA DC VARIO-SUMMILUX 24-75mm* F1.7-2.8镜头呈现丰富景深、迷人虚化效果以及细腻的光影渐变。\n\n*35mm相机等效焦距。\n\n･Leica是Leica Microsystems IR GmbH的注册商标。\n\n探索微距摄影世界\n\n在广角端使用AF微距功能，可近至约3厘米（约1.18英寸）拍摄。从精美工艺品到散步时发现的小花，近距离捕捉迷人细节。\n\nLUMIX色彩\n\nLUMIX秉承\"捕捉一切\"的理念——让您捕捉每个瞬间的全部力量、美感和情感。其核心是标准照片风格，旨在呈现自然真实的影像，在真实色彩与悦目色调之间实现精妙平衡。当您准备探索时，丰富的照片风格让您根据场景或创意心情匹配效果，以更多方式表达您的视觉。继L.ClassicNeo大获成功后，新增两种胶片风格照片风格——为您的摄影带来更多个性和创意自由。\n\nL.Classic\n\n这款滤镜以柔和、低饱和度的色调和平滑的色调渐变著称",
+      "article_text_zh_hash": "3ea4319d8a8d1b4c",
       "article_title_extracted": "LUMIX L10 Premium Point & Shoot Digital Camera, 24-75mm Zoom Lens",
       "category": "Tools",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:18:12.145378Z",
       "description": "The LUMIX L10 is designed for everyday inspiration. A bright Leica 24–75mm F1.7-2.8 zoom lens, large sensor, and Real Time LUT color tools help you create beautiful images straight out of camera that you can share on social instantly. A premium, everyday carry camera made for street, travel, and daily moments.",
+      "description_zh": "LUMIX L10 专为日常灵感而设计。明亮的徕卡24-75mm F1.7-2.8变焦镜头、大尺寸传感器以及实时LUT色彩工具，助您直出精美影像，即刻分享至社交平台。这款高端日常随身相机，专为街拍、旅行与生活瞬间而生。",
+      "description_zh_hash": "30b38a03bc474c3b",
       "domain": "shop.panasonic.com",
       "embed_type": "",
       "id": "k171q13s97rptshdvpj9537fjd86m4sm",
@@ -1868,6 +2068,8 @@
         }
       ],
       "title": "LUMIX L10 Premium Point & Shoot Digital Camera, 24-75mm Zoom Lens",
+      "title_zh": "LUMIX L10 高级便携数码相机，配备24-75mm变焦镜头",
+      "title_zh_hash": "4876e6e239f9573a",
       "url": "https://shop.panasonic.com/products/lumix-l10-premium-point-shoot-digital-camera-24-75mm-zoom-lens",
       "x_status_id": null
     },
@@ -1888,11 +2090,15 @@
         "https://framerusercontent.com/images/JcqAasdkka87VImPmQR2xPxY4GA.png?width=88&height=88"
       ],
       "article_text": "Mobbin MCP\nMobbin MCP\nThe design reference your AI agents are missing.\nMobbin MCP connects your AI agents to 600,000+ real product screens, so what they build starts with what already works.\nThe design reference your AI agents are missing.\nMobbin MCP connects your AI agents to 600,000+ real product screens, so what they build starts with what already works.\nAvailable on Pro & Team plans\nAvailable on Pro & Team plans\nTrusted by 2M+ designers. Now available to your AI agents.\nTrusted by 2M+ designers. Now available to your AI agents.\nAI agents can write code.\nBut they don’t know what works.\nThey're guessing… and it shows.\nMobbin MCP fixes that.\nAI agents can write code. But they don’t know what works. They're guessing… and it shows. Mobbin MCP fixes that.\nYou\nDesign a paywall for our Pro plan\nClaude\nI'll search Mobbin for proven paywall patterns from shipped products.\nUsed Mobbin MCP integration\nGot 43 paywalls. Pulling the strongest for synthesis.\nRevolut\nBundled value framing\nThird-party perks reframe the price as services received.\nPersonalization signal\n\"Best for you\" implies algorithmic match, not arbitrary push.\nPrice in the CTA\nRemoves the last hesitation at click.\nPhysical product hero\nTangible anchor for an intangible upgrade.\nImplies abundance without overwhelming.\nImplies abundance without overwhelming.\nDuolingo\nSoft rejection\nEm-dashes for FREE column, not red X marks.\nSubtle column weighting\nTint instead of color flooding for hierarchy.\nObjection-killer microcopy\n\"One-time payment. No auto-renewal.\" right above CTA.\nGifting frame\nRepositions extraction as generosity.\nPlayful mascot state\nNo emotional manipulation.\nUber\nPersonalized savings hero\n\"Save $19 every month\" based on local member data — concrete, not generic.\nRisk reversal as a benefit\n\"$5 credit if arrival estimate is off\" reframes guarantees as value.\nCancel anytime as a feature\nPromoted in the list, not buried in legal.\nSingle tier, no decision tax\nOne plan removes choice paralysis at the upgrade moment.\nIcon-led benefits\nVisual rhythm makes the list scannable in 3 seconds.\nYou\nDesign a paywall for our Pro plan\nClaude\nI'll search Mobbin for proven paywall patterns from shipped products.\nUsed Mobbin MCP integration\nGot 43 paywalls. Pulling the strongest for synthesis.\nRevolut\nBundled value framing\nThird-party perks reframe the price as services received.\nPersonalization signal\n\"Best for you\" implies algorithmic match, not arbitrary push.\nPrice in the CTA\nRemoves the last hesitation at click.\nPhysical product hero\nTangible anchor for an intangible upgrade.\nImplies abundance without overwhelming.\nImplies abundance without overwhelming.\nDuolingo\nSoft rejection\nEm-dashes for FREE column, not red X marks.\nSubtle column weighting\nTint instead of color flooding for hierarchy.\nObjection-killer microcopy\n\"One-time payment. No auto-renewal.\" right above CTA.\nGifting frame\nRepositions extraction as generosity.\nPlayful mascot state\nNo emotional manipulation.\nUber\nPersonalized savings hero\n\"Save $19 every month\" based on local member data — concrete, not generic.\nRisk reversal as a benefit\n\"$5 credit if arrival estimate is off\" reframes guarantees as value.\nCancel anytime as a feature\nPromoted in the list, not buried in legal.\nSingle tier, no decision tax\nOne plan removes choice paralysis at the upgrade moment.\nIcon-led benefits\nVisual rhythm makes the list scannable in 3 seconds.\nYou\nDesign a paywall for our Pro plan\nClaude\nI'll search Mobbin for proven paywall patterns from shipped products.\nUsed Mobbin MCP integration\nGot 43 paywalls. Pulling the strongest for synthesis.\nRevolut\nBundled value framing\nThird-party perks reframe the price as services received.\nPersonalization signal\n\"Best for you\" implies algorithmic match, not arbitrary push.\nPrice in the CTA\nRemoves the last hesitation at click.\nPhysical product hero\nTangible anchor for an intangible upgrade.\nImplies abundance without overwhelming.\nImplies abundance without overwhelming.\nDuolingo\nSoft rejection\nEm-d",
+      "article_text_zh": "# Mobbin MCP\n\n你的AI代理缺少的设计参考。\n\nMobbin MCP 将你的AI代理连接到超过60万个真实产品屏幕，让它们构建的内容从已被验证有效的设计开始。\n\n## 适用于 Pro 和 Team 计划\n\n## 受到200万+设计师信赖。现在可供你的AI代理使用。\n\nAI代理可以编写代码。  \n但它们不知道什么有效。  \n它们在猜测……而且结果显而易见。  \nMobbin MCP 解决了这个问题。\n\n---\n\n**你**  \n为我们的 Pro 计划设计一个付费墙\n\n**Claude**  \n我将搜索 Mobbin 中已上线产品的成熟付费墙模式。\n\n*已使用 Mobbin MCP 集成*\n\n获取了43个付费墙。提取最强模式进行综合。\n\n---\n\n### Revolut\n- **捆绑价值框架**  \n  第三方福利将价格重新定义为所获得的服务。\n- **个性化信号**  \n  “最适合你”暗示算法匹配，而非随意推送。\n- **CTA中的价格**  \n  消除点击前的最后犹豫。\n- **实体产品主图**  \n  为无形的升级提供有形的锚点。\n- **暗示丰富而不令人 overwhelmed**\n\n### Duolingo\n- **软性拒绝**  \n  FREE 列使用破折号，而非红色 X 标记。\n- **微妙的列权重**  \n  使用色调而非颜色泛滥来建立层级。\n- **消除异议的微文案**  \n  “一次性付款。无自动续费。”紧贴 CTA 上方。\n- **赠送框架**  \n  将索取重新定位为慷慨。\n- **俏皮的吉祥物状态**  \n  无情感操控。\n\n### Uber\n- **个性化节省主图**  \n  “每月节省19美元”基于本地会员数据——具体而非泛泛。\n- **风险逆转作为福利**  \n  “如果到达时间预估不准，补偿5美元”将保证重新定义为价值。\n- **随时取消作为功能**  \n  在列表中推广，而非埋藏在法律条款中。\n- **单一层级，无决策负担**  \n  一个计划消除了升级时刻的选择瘫痪。\n- **图标引导的福利**  \n  视觉节奏使列表在3秒内可扫描。\n\n---\n\n**你**  \n为我们的 Pro 计划设计一个付费墙\n\n**Claude**  \n我将搜索 Mobbin 中已上线产品的成熟付费墙模式。\n\n*已使用 Mobbin MCP 集成*\n\n获取了43个付费墙。提取最强模式进行综合。\n\n---\n\n### Revolut\n- **捆绑价值框架**  \n  第三方福利将价格重新定义为所获得的服务。\n- **个性化信号**  \n  “最适合你”暗示算法匹配，而非随意推送。\n- **CTA中的价格**  \n  消除点击前的最后犹豫。\n- **实体产品主图**  \n  为无形的升级提供有形的锚点。\n- **暗示丰富而不令人 overwhelmed**\n\n### Duolingo\n- **软性拒绝**  \n  FREE 列使用破折号，而非红色 X 标记。\n- **微妙的列权重**  \n  使用色调而非颜色泛滥来建立层级。\n- **消除异议的微文案**  \n  “一次性付款。无自动续费。”紧贴 CTA 上方。\n- **赠送框架**  \n  将索取重新定位为慷慨。\n- **俏皮的吉祥物状态**  \n  无情感操控。\n\n### Uber\n- **个性化节省主图**  \n  “每月节省19美元”基于本地会员数据——具体而非泛泛。\n- **风险逆转作为福利**  \n  “如果到达时间预估不准，补偿5美元”将保证重新定义为价值。\n- **随时取消作为功能**  \n  在列表中推广，而非埋藏在法律条款中。\n- **单一层级，无决策负担**  \n  一个计划消除了升级时刻的选择瘫痪。\n- **图标引导的福利**  \n  视觉节奏使列表在3秒内可扫描。\n\n---\n\n**你**  \n为我们的 Pro 计划设计一个付费墙\n\n**Claude**  \n我将搜索 Mobbin 中已上线产品的成熟付费墙模式。\n\n*已使用 Mobbin MCP 集成*\n\n获取了43个付费墙。提取最强模式进行综合。\n\n---\n\n### Revolut\n- **捆绑价值框架**  \n  第三方福利将价格重新定义为所获得的服务。\n- **个性化信号**  \n  “最适合你”暗示算法匹配，而非随意推送。\n- **CTA中的价格**  \n  消除点击前的最后犹豫。\n- **实体产品主图**  \n  为无形的升级提供有形的锚点。\n- **暗示丰富而不令人 overwhelmed**\n\n### Duolingo\n- **软性拒绝**  \n  FREE 列使用破折号，而非红色 X 标记。",
+      "article_text_zh_hash": "194d88561dcb7ee9",
       "article_title_extracted": "Mobbin MCP — Design reference for AI agents",
       "category": "Design",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:19:10.708627Z",
       "description": "Mobbin MCP connects your AI agents to 600,000+ real screens from shipped products. Build from proven design patterns, not guesswork.",
+      "description_zh": "Mobbin MCP 将您的 AI 智能体与超过 60 万个来自已发布产品的真实界面连接起来。基于经过验证的设计模式进行构建，而非凭空猜测。",
+      "description_zh_hash": "eb644fbf586ee356",
       "domain": "mobbin.com",
       "embed_type": "",
       "id": "k176ntmfxj6m7a4qrbjq7v9z3x86nrv7",
@@ -1915,6 +2121,8 @@
         }
       ],
       "title": "Mobbin MCP — Design reference for AI agents",
+      "title_zh": "Mobbin MCP — AI 代理的设计参考",
+      "title_zh_hash": "2a71fd9eee831a91",
       "url": "https://mobbin.com/mcp",
       "x_status_id": null
     },
@@ -1930,11 +2138,15 @@
         "https://blog.intercomassets.com/blog/wp-content/uploads/2019/09/ciaran-nolan-48x48.jpg"
       ],
       "article_text": "Skip to main content Intercom Blog Product For customers Meet your customers where they already are with the world’s best business messenger for chat, email, voice, social… For support agents An AI-enhanced inbox to supercharge your team. For support leaders Manage your team, your AI agents and your entire support experience in one beautifully designed system. Resources Ideas blog Product & Design thoughts from our leadership team AI research blog Insights from the Intercom AI group The Ticket podcast Conversations with future-focused leaders at the cutting edge of customer service. Our customers Help center Academy Events Community Guides & Reports Search Search for: Sign in View demo Start free trial Search for: Intercom Blog Product For customers Meet your customers where they already are with the world’s best business messenger for chat, email, voice, social… For support agents An AI-enhanced inbox to supercharge your team. For support leaders Manage your team, your AI agents and your entire support experience in one beautifully designed system. Resources Ideas blog Product & Design thoughts from our leadership team AI research blog Insights from the Intercom AI group The Ticket podcast Conversations with future-focused leaders at the cutting edge of customer service. Our customers Help center Academy Events Community Guides & Reports Sign in View demo Start free trial News & Updates Published May 12, 2026 Today Intercom becomes Fin We’re changing the name of our company to Fin. Intercom will live on as our customer service software platform, but Fin is our future. Eoghan McCabe 3 min Sometimes you see a corporate announcement that’s so obvious and so late, it’s almost an admission of failure. And I’m open to feedback on how I should have pulled the trigger on this change much sooner. But the tech industry is so littered with awkward and arguably unsuccessful name changes that I thought it prudent to procrastinate on this one. But finally, today, we’re changing the name of our company to Fin . The name Intercom will still live on as the name of our customer service software platform that increasingly the best brands are choosing as their primary help desk; we just launched a complete rebuild, Intercom 2 , and we’re dramatically increasing our investment in it. But the company behind it will be named after our leading customer agent platform, Fin. All of our 1,400 employees are now employed by Fin. You’re reading a post by the CEO of Fin. In this moment of great change, for our industry, and for all economic players, the winners of yesteryear have largely been left holding on to their former positions that brought them so much glory. Yet, as I’ve written before, the only path to success in the future is through destroying your past. We’ve done this with our culture, our pricing model, our product lineup, and our investment priorities. But the company name stayed the same. However, when we started the service agent category three years ago, we promoted our new technology with the name Fin, with Intercom very much in the background, and usually not even mentioned at all. The simple reason is that humans are very good at mapping meaning onto the world and then updating that map rarely, with a very strong bias for the things that are new and shiny. We couldn’t possibly wake up every morning questioning what a chair was and how it works. But when a new type of drone or artificially intelligent software product reaches our attention, we do our best to understand it and add it to the repertoire of things we understand about the world. This is true in all aspects of life, including with companies and their brand names and the positions they hold in the market. I believe this so thoroughly that I actually think that the relative success of the newcomers in our category, despite the fact that we have provably superior technology, is a result of the fact that they have no baggage. They don’t need to convince anyone of their new positi",
+      "article_text_zh": "跳到主内容 Intercom 博客 产品 面向客户 使用全球最佳的业务通讯工具（支持聊天、邮件、语音、社交），在客户所在之处与他们相遇。 面向客服专员 一个由 AI 增强的收件箱，助力您的团队超常发挥。 面向客服主管 在一个设计精美的系统中，管理您的团队、AI 智能体以及整个客服体验。 资源 创意博客 来自我们领导团队的产品与设计思考 AI 研究博客 Intercom AI 团队的见解 The Ticket 播客 与面向未来的客服领域领军人物进行的对话。 我们的客户 帮助中心 学院 活动 社区 指南与报告 搜索 搜索： 登录 查看演示 免费试用 搜索： Intercom 博客 产品 面向客户 使用全球最佳的业务通讯工具（支持聊天、邮件、语音、社交），在客户所在之处与他们相遇。 面向客服专员 一个由 AI 增强的收件箱，助力您的团队超常发挥。 面向客服主管 在一个设计精美的系统中，管理您的团队、AI 智能体以及整个客服体验。 资源 创意博客 来自我们领导团队的产品与设计思考 AI 研究博客 Intercom AI 团队的见解 The Ticket 播客 与面向未来的客服领域领军人物进行的对话。 我们的客户 帮助中心 学院 活动 社区 指南与报告 登录 查看演示 免费试用 新闻与更新 发布于 2026 年 5 月 12 日 今天，Intercom 更名为 Fin 我们将公司名称改为 Fin。Intercom 将作为我们的客户服务软件平台继续存在，但 Fin 是我们的未来。 Eoghan McCabe 3 分钟 有时，你会看到一则企业公告，它如此显而易见却又姗姗来迟，几乎等同于承认失败。我愿意接受反馈，关于我本应更早做出这个改变。但科技行业充斥着尴尬且可以说是不成功的更名案例，因此我认为谨慎地拖延一下是明智的。但最终，今天，我们将公司名称改为 Fin。Intercom 这个名字将继续作为我们的客户服务软件平台的名称存在，越来越多的优秀品牌正选择它作为主要帮助台；我们刚刚推出了完全重建的 Intercom 2，并且正在大幅增加对其的投资。但其背后的公司将以我们领先的客户智能体平台 Fin 命名。我们所有的 1,400 名员工现在都受雇于 Fin。你正在阅读的是 Fin 首席执行官发布的文章。 在这个行业以及所有经济参与者都经历巨大变革的时刻，昔日的赢家大多固守着曾带给他们辉煌的旧有地位。然而，正如我之前写过的，未来成功的唯一途径就是摧毁你的过去。我们在文化、定价模式、产品线和投资重点上都做到了这一点。但公司名称一直没变。然而，三年前我们开创服务智能体类别时，我们用 Fin 这个名字推广我们的新技术，而 Intercom 则退居幕后，通常甚至根本不提及。原因很简单：人类非常擅长将意义映射到世界上，然后很少更新这个映射，并且对新奇闪亮的事物有很强的偏好。我们不可能每天早上醒来都质疑椅子是什么以及它是如何工作的。但是，当一种新型无人机或人工智能软件产品引起我们的注意时，我们会尽力去理解它，并将其添加到我们对世界认知的储备中。这在生活的方方面面都是如此，包括公司及其品牌名称以及它们在市场中的地位。我对此深信不疑，以至于我实际上认为，尽管我们拥有可证明的卓越技术，但该类别新进入者的相对成功，是因为他们没有历史包袱。他们不需要说服任何人相信他们的新定位。",
+      "article_text_zh_hash": "3d308f987120c11e",
       "article_title_extracted": "Today Intercom becomes Fin - The Intercom Blog",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:21:04.160784Z",
       "description": "We're changing the name of our company to Fin. Intercom will live on as our customer service software platform, but Fin is our future.",
+      "description_zh": "我们正在将公司更名为 Fin。Intercom 将作为我们的客户服务软件平台继续存在，而 Fin 代表着我们的未来。",
+      "description_zh_hash": "fb185df9fffb857e",
       "domain": "www.intercom.com",
       "embed_type": "",
       "id": "k175j9hmv55cde0kb7vg66qm8n86nb90",
@@ -1957,6 +2169,8 @@
         }
       ],
       "title": "Today Intercom becomes Fin - The Intercom Blog",
+      "title_zh": "今天，Intercom 正式更名为 Fin —— Intercom 博客",
+      "title_zh_hash": "21deb5d56e278ee8",
       "url": "https://www.intercom.com/blog/today-intercom-becomes-fin/",
       "x_status_id": null
     },
@@ -1977,11 +2191,15 @@
         "https://blog.maximeheckel.com/_next/image/?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHFoTdQMW0AAvfvJ.jpg&w=3840&q=75"
       ],
       "article_text": "On Rendering the Sky, Sunsets, and Planets\nThere’s this photo that’s been sitting on my inspiration board for a while, of the space shuttle Endeavour, suspended in space in low Earth orbit at sunset. It shows Earth’s upper atmosphere as a backdrop, featuring beautiful, colorful layers ranging from dark orange to blue before fading away into the deep black of space. Not only is that gradient of color aesthetically pleasing, but the phenomenon behind those colors, atmospheric scattering, is even more of an interesting topic once you start looking into how it works and how to reproduce it.\nI wanted to build my own version of this effect with shaders, rendering the sky’s distinctive blue color and realistic sunsets and sunrises directly in the browser. The goal was to get as close as I could to that photo, while also moving toward the kind of atmospheric rendering often seen in games and other shader-based media.\nHere’s a compilation of what came out of this month-long journey, all running in real time:\nI didn’t originally plan on writing about this subject, but the enthusiasm around the recent Artemis II mission, combined with my own interest in all things space, made it feel worth exploring in depth. It also felt like the perfect opportunity to build an interactive experience that could make the topic more accessible. In this write-up, we’ll see how to implement an atmospheric scattering shader post-processing effect step-by-step, starting with the implementation of the different building blocks (raymarching, Rayleigh and Mie scattering, as well as ozone absorption) to render a realistic sky dome, and then adapt the result to render it as an atmospheric shell around a planet. Finally, we'll look into Sebastian Hillaire’s LUT-based approach for a more performant result, or at least my attempt at implementing it, as this was very much the stepping outside of my comfort zone phase for this project.\nYou may have, at some point or another, tried to slap a blue gradient background behind some of your work in an attempt to give it a more \"atmospheric\" look and call it a day, but quickly noticed doing so never feels quite right [1](https://blog.maximeheckel.com#fn-1).\nFor a more true to life implementation, we must treat the sky and its color as the result of light interacting with air and its constituents, while taking into account several variables, such the altitude of the observer, the amount of dust, the time of day, etc, all of that in a volume.\nWith that established, our goal for this first part is to use this as guiding principle to lay the foundation for our atmosphere shader, and get to a result that feels almost indistinguishable from a real sky, at any time of the day.\nSampling Atmospheric Density\nMuch like how we’d approach [volumetric clouds](https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/) or [volumetric light](https://blog.maximeheckel.com/posts/shaping-light-volumetric-lighting-with-post-processing-and-raymarching/), one easy way to sample the atmosphere is through raymarching. We can cast rays from the camera’s position into the scene and step through the transparent medium to answer the two following questions:\n- How much light survives traveling through the atmosphere? This is the transmittance term.\n- How much light is redirected toward the camera at each sample? Also known as scattering.\nTo answer the first one, we need to accumulate the atmospheric density encountered along the ray to obtain what is known as the optical depth. We will model this using the Rayleigh density function, which tells us how much \"air\" there is at a given altitude h\n. This is important to take into account that the atmosphere gets thinner as altitude increases.\nSampling Rayleigh density and accumulating optical depth\n1const float RAYLEIGH_SCALE_HEIGHT = 8.0; // km2const float ATMOSPHERE_HEIGHT = 100.0; // km - Karman line3const float VIEW_DISTANCE = 200.0; // km4const int PRIMARY_STEPS = 24;5const ve",
+      "article_text_zh": "关于渲染天空、日落和行星\n\n我的灵感板上一直放着一张照片：日落时分，奋进号航天飞机悬浮在近地轨道太空中。背景是地球高层大气，呈现出从深橙色到蓝色再到深邃太空黑色的美丽彩色分层。这种色彩渐变不仅在美学上令人愉悦，其背后的现象——大气散射——更是一个有趣的话题，一旦你开始研究它的原理和如何重现它。\n\n我想用着色器构建自己版本的这种效果，直接在浏览器中渲染天空独特的蓝色和逼真的日落日出。目标是尽可能接近那张照片，同时向游戏和其他基于着色器的媒体中常见的大气渲染效果靠拢。\n\n以下是我这一个月探索的成果汇编，全部实时运行：\n\n我原本没打算写这个主题，但最近阿尔忒弥斯二号任务引发的热情，加上我自己对太空相关一切的兴趣，让我觉得值得深入探讨。这也正好是构建一个交互式体验、让这个话题更易于理解的好机会。在这篇文章中，我们将一步步实现一个大气散射着色器后处理效果，从构建不同的基础模块（光线步进、瑞利散射和米氏散射，以及臭氧吸收）开始，渲染逼真的天空穹顶，然后调整结果使其成为行星周围的大气层外壳。最后，我们将探讨塞巴斯蒂安·希莱尔基于LUT的方法以获得更高性能的结果，或者至少是我尝试实现它的过程，因为这正是这个项目中我走出舒适区的阶段。\n\n你可能在某个时候尝试过在你的作品后面放一个蓝色渐变背景，试图给它一个更\"大气\"的外观，然后就此收工，但很快发现这样做感觉总是不太对劲[1](https://blog.maximeheckel.com#fn-1)。\n\n为了实现更逼真的效果，我们必须将天空及其颜色视为光与空气及其成分相互作用的结果，同时考虑多个变量，如观察者海拔高度、尘埃量、一天中的时间等，所有这些都在一个体积中。\n\n有了这个基础，我们第一部分的目的是以此为指导原则，为我们的大气着色器奠定基础，并达到在任何时间都几乎与真实天空难以区分的效果。\n\n**采样大气密度**\n\n就像我们处理[体积云](https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/)或[体积光](https://blog.maximeheckel.com/posts/shaping-light-volumetric-lighting-with-post-processing-and-raymarching/)一样，采样大气的一种简单方法是通过光线步进。我们可以从相机位置向场景投射光线，并步进穿过透明介质，回答以下两个问题：\n\n- 有多少光在穿过大气层后幸存？这是透射率项。\n- 在每个采样点，有多少光被重定向到相机？这也称为散射。\n\n要回答第一个问题，我们需要累积沿光线遇到的大气密度，以获得所谓的光学深度。我们将使用瑞利密度函数来建模，该函数告诉我们给定海拔高度 \\( h \\) 处有多少\"空气\"。这对于考虑大气随海拔升高而变稀薄很重要。\n\n**采样瑞利密度并累积光学深度**\n\n```glsl\nconst float RAYLEIGH_SCALE_HEIGHT = 8.0; // km\nconst float ATMOSPHERE_HEIGHT = 100.0; // km - 卡门线\nconst float VIEW_DISTANCE = 200.0; // km\nconst int PRIMARY_STEPS = 24;\n```",
+      "article_text_zh_hash": "f40eb8932fb4c388",
       "article_title_extracted": "On Rendering the Sky, Sunsets, and Planets - The Blog of Maxime Heckel",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:23:02.305665Z",
       "description": "This article explores how to render realistic skies and atmospheres in real time in the browser with shaders, from simple sky domes, to entire planets using shaders, raymarching, Rayleigh and Mie scattering, and ozone absorption.",
+      "description_zh": "本文探讨了如何在浏览器中利用着色器实时渲染逼真的天空与大气效果，涵盖从简单天空穹顶到完整行星的渲染技术，涉及着色器、光线步进、瑞利散射、米氏散射以及臭氧吸收等核心方法。",
+      "description_zh_hash": "6b5696b0409609e7",
       "domain": "blog.maximeheckel.com",
       "embed_type": "",
       "id": "k17fd1v3dme1e9fq9szyhdhvwh86nhgh",
@@ -2004,6 +2222,8 @@
         }
       ],
       "title": "On Rendering the Sky, Sunsets, and Planets - The Blog of Maxime Heckel",
+      "title_zh": "关于渲染天空、日落与行星——Maxime Heckel 的博客",
+      "title_zh_hash": "0c838bcc4a3e3f38",
       "url": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
       "x_status_id": null
     },
@@ -2011,6 +2231,8 @@
       "category": "Tools",
       "created_at": "2026-05-13T00:23:08.701045Z",
       "description": "All-in-one platform for creative professionals. Connect with verified talents, manage projects, and collaborate seamlessly. Join the waitlist for iOS launch.",
+      "description_zh": "创意专业人士的一站式平台。与经过验证的人才建立联系，管理项目，无缝协作。加入iOS版候补名单。",
+      "description_zh_hash": "50c7f4634cb8a493",
       "domain": "www.isomeet.com",
       "embed_type": "",
       "id": "k17escjqapqpatrezfk05rz94h86mjgd",
@@ -2033,6 +2255,8 @@
         }
       ],
       "title": "ISO Meet - Connect, Collaborate & Hire Creative Talent",
+      "title_zh": "ISO Meet - 连接、协作与招募创意人才",
+      "title_zh_hash": "37b3a86ad2fb93c0",
       "url": "https://www.isomeet.com/",
       "x_status_id": null
     },
@@ -2044,6 +2268,8 @@
       "category": "Development",
       "created_at": "2026-05-13T00:23:23.009700Z",
       "description": "Build desktop apps with Zig and selectable web engines. System WebView or bundled Chromium.",
+      "description_zh": "使用 Zig 构建桌面应用，并支持可选的 Web 引擎。系统 WebView 或内置 Chromium。",
+      "description_zh_hash": "dad535bce164c274",
       "domain": "zero-native.dev",
       "embed_type": "",
       "id": "k17a26j131wyj1byam73ka1ch586n4m6",
@@ -2066,6 +2292,8 @@
         }
       ],
       "title": "zero-native | Desktop Apps with Zig + WebView",
+      "title_zh": "zero-native | 使用 Zig + WebView 构建桌面应用",
+      "title_zh_hash": "1f79826fcc5da177",
       "url": "https://zero-native.dev/",
       "x_status_id": null
     },
@@ -2083,6 +2311,8 @@
       "category": "Articles",
       "created_at": "2026-05-13T00:23:39.199314Z",
       "description": "A letter to our customers and our investors.",
+      "description_zh": "致我们的客户与投资者的一封信。",
+      "description_zh_hash": "e3cae583df758d29",
       "domain": "about.gitlab.com",
       "embed_type": "",
       "id": "k178rmcet4dqbfj3yyjct2an9s86n0a7",
@@ -2105,6 +2335,8 @@
         }
       ],
       "title": "GitLab Act 2",
+      "title_zh": "GitLab 第二幕",
+      "title_zh_hash": "d9c7b9581c6f732f",
       "url": "https://about.gitlab.com/blog/gitlab-act-2/",
       "x_status_id": null
     },
@@ -2117,6 +2349,8 @@
       "category": "Development",
       "created_at": "2026-05-13T00:23:44.828384Z",
       "description": "Join us for a first look at our new developer platform. Let’s build, together.",
+      "description_zh": "欢迎抢先体验我们的全新开发者平台。让我们一起，开始构建。",
+      "description_zh_hash": "69d31bad65898a7e",
       "domain": "makewithnotion.com",
       "embed_type": "",
       "id": "k172245vj6jwzwje8p8pam2q7986nvb9",
@@ -2139,6 +2373,8 @@
         }
       ],
       "title": "Notion Developer Platform Launch — May 13",
+      "title_zh": "Notion 开发者平台正式上线 —— 5 月 13 日",
+      "title_zh_hash": "6d2d0800b925e49b",
       "url": "https://makewithnotion.com/",
       "x_status_id": null
     },
@@ -2159,6 +2395,8 @@
       "category": "Tools",
       "created_at": "2026-05-13T00:24:22.082585Z",
       "description": "AI Automation for Manufacturing. Harmony AI is an AI-native layer that runs your plant with real time data. Machines, software, and paperwork, all connected. No rip-and-replace.",
+      "description_zh": "制造业AI自动化。Harmony AI 是一个原生AI层，通过实时数据驱动工厂运营。机器、软件与纸质文档全面互联，无需推倒重来。",
+      "description_zh_hash": "5dd286f2ab6b7918",
       "domain": "www.tryharmony.ai",
       "embed_type": "",
       "id": "k174mvm83anw4tybased3fh81n86m4zy",
@@ -2181,6 +2419,8 @@
         }
       ],
       "title": "Harmony AI (tryharmony.ai) - AI Automation for Manufacturing",
+      "title_zh": "Harmony AI (tryharmony.ai) - 制造业的AI自动化",
+      "title_zh_hash": "d69fecf1726e740d",
       "url": "https://www.tryharmony.ai/",
       "x_status_id": null
     },
@@ -2197,11 +2437,15 @@
         "https://blog.google/static/blogv2/images/newsletter_toast.svg?version=pr20260507-1819"
       ],
       "article_text": "Skip to main content The Keyword End-to-end encrypted RCS messaging begins rolling out today for Android and iPhone users Share x.com Facebook LinkedIn Mail Copy link Home Innovation & AI Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Products & platforms Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog See all product updates Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog See all product updates Company news Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Feed Subscribe Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) [\"What is the Fitbit Air?\", \"How can I learn new AI skills?\", \"What's the latest Android news?\"] Subscribe The Keyword Home Innovation & AI Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Products & platforms Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog See all product updates Company news Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Feed Images RSS feed Subscribe Breadcrumb Products & Platforms Platforms Android End-to-end encrypted RCS messaging begins rolling out today for Android and iPhone users May 11, 2026 · Share x.com Facebook LinkedIn Mail Copy link Google and Apple are rolling out end-to-end encryption for RCS, securing chats between Android and iPhone users by default. Elmar Weber GM, Android and Busines",
+      "article_text_zh": "跳转到主要内容 The Keyword 端到端加密RCS消息今日起向Android和iPhone用户推送 分享 x.com Facebook LinkedIn 邮件 复制链接 首页 创新与AI 创新与AI 模型与研究 Google DeepMind Google Research Google Labs Gemini模型 量子计算 查看全部 产品 开发者工具 Gemini应用 NotebookLM 查看全部 基础设施与云 全球网络 Google Cloud 查看全部 技术 安全与隐私 健康 查看全部 了解更多： Google DeepMind博客 Google Research博客 Google开发者博客 Google Cloud博客 查看全部 AI更新 模型与研究 Google DeepMind Google Research Google Labs Gemini模型 量子计算 查看全部 产品 开发者工具 Gemini应用 NotebookLM 查看全部 基础设施与云 全球网络 Google Cloud 查看全部 技术 安全与隐私 健康 查看全部 了解更多： Google DeepMind博客 Google Research博客 Google开发者博客 Google Cloud博客 查看全部 AI更新 产品与平台 产品与平台 产品 搜索 地图 Chrome Google Health Google Workspace 学习与教育 购物 查看全部 平台 Android Google Play Wear OS 查看全部 设备 Pixel Google Nest Fitbit Chromebooks 查看全部 了解更多： Google Ads与Commerce博客 Waze博客 查看全部 产品更新 产品 搜索 地图 Chrome Google Health Google Workspace 学习与教育 购物 查看全部 平台 Android Google Play Wear OS 查看全部 设备 Pixel Google Nest Fitbit Chromebooks 查看全部 了解更多： Google Ads与Commerce博客 Waze博客 查看全部 产品更新 公司新闻 公司新闻 外展与倡议 创造机会 安全与隐私 Google.org 公共政策 可持续发展 健康 查看全部 领导层 Sundar Pichai，CEO 更多作者 查看全部 走进Google 全球动态 Google生活 查看全部 外展与倡议 创造机会 安全与隐私 Google.org 公共政策 可持续发展 健康 查看全部 领导层 Sundar Pichai，CEO 更多作者 查看全部 走进Google 全球动态 Google生活 查看全部 订阅 全球（英文） 非洲（英文） 澳大利亚（英文） 巴西（葡萄牙语） 加拿大（英文） 加拿大（法语） 捷克（捷克语） 德国（德语） 西班牙（西班牙语） 法国（法语） 希腊（希腊语） 印度（英文） 印度尼西亚（印尼语） 意大利（意大利语） 日本（日语） 韩国（韩语） 拉丁美洲（西班牙语） 中东和北非（阿拉伯语） MENA（英文） 荷兰（荷兰语） 新西兰（英文） 波兰（波兰语） 葡萄牙（葡萄牙语） 瑞典（瑞典语） 泰国（泰语） 土耳其（土耳其语） 台湾（中文） [\"什么是Fitbit Air？\", \"如何学习新的AI技能？\", \"最新的Android新闻是什么？\"] 订阅 The Keyword 首页 创新与AI 创新与AI 模型与研究 Google DeepMind Google Research Google Labs Gemini模型 量子计算 查看全部 产品 开发者工具 Gemini应用 NotebookLM 查看全部 基础设施与云 全球网络 Google Cloud 查看全部 技术 安全与隐私 健康 查看全部 了解更多： Google DeepMind博客 Google Research博客 Google开发者博客 Google Cloud博客 查看全部 AI更新 产品与平台 产品与平台 产品 搜索 地图 Chrome Google Health Google Workspace 学习与教育 购物 查看全部 平台 Android Google Play Wear OS 查看全部 设备 Pixel Google Nest Fitbit Chromebooks 查看全部 了解更多： Google Ads与Commerce博客 Waze博客 查看全部 产品更新 公司新闻 公司新闻 外展与倡议 创造机会 安全与隐私 Google.org 公共政策 可持续发展 健康 查看全部 领导层 Sundar Pichai，CEO 更多作者 查看全部 走进Google 全球动态 Google生活 查看全部 订阅 图片 RSS订阅 订阅 面包屑导航 产品与平台 平台 Android 端到端加密RCS消息今日起向Android和iPhone用户推送 2026年5月11日 · 分享 x.com Facebook LinkedIn 邮件 复制链接 Google和Apple正在为RCS推出端到端加密，默认保护Android和iPhone用户之间的聊天安全。 Elmar Weber Android与业务总经理",
+      "article_text_zh_hash": "0a0501b91d6b0032",
       "article_title_extracted": "E2EE RCS Messaging Rolls Out for Android and iPhone Users",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-13T00:24:45.480433Z",
       "description": "End-to-end encrypted RCS messaging is rolling out for Android and iPhone users, securing your cross-platform chats by default.",
+      "description_zh": "端到端加密的RCS消息功能正在向Android和iPhone用户推出，默认保护你的跨平台聊天安全。",
+      "description_zh_hash": "96180d28a9a5c1bd",
       "domain": "blog.google",
       "embed_type": "",
       "id": "k1709fsrh98sahzxm4c22s2pp986n591",
@@ -2224,6 +2468,8 @@
         }
       ],
       "title": "E2EE RCS Messaging Rolls Out for Android and iPhone Users",
+      "title_zh": "E2EE RCS 消息功能面向安卓和 iPhone 用户推出",
+      "title_zh_hash": "d0afd84792813f3d",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-ios-end-to-end-encrypted-rcs-messaging/",
       "x_status_id": null
     },
@@ -2246,6 +2492,8 @@
       "category": "Development",
       "created_at": "2026-05-13T00:24:50.611389Z",
       "description": "Isomorphic Labs is building a future where frontier AI can help to unlock deeper scientific insights, faster breakthroughs, and life-changing medicines.",
+      "description_zh": "Isomorphic Labs 正在构建一个未来，前沿人工智能将助力解锁更深层次的科学洞见、加速突破性发现，并催生改变生命的药物。",
+      "description_zh_hash": "dbc010e7a1cb2c51",
       "domain": "www.isomorphiclabs.com",
       "embed_type": "",
       "id": "k17bf0k5mswgrffm2s7pb1f5dd86medn",
@@ -2268,6 +2516,8 @@
         }
       ],
       "title": "Reimagining Drug Discovery Process with AI - Isomorphic Labs",
+      "title_zh": "用AI重新构想药物发现流程 - Isomorphic Labs",
+      "title_zh_hash": "930bc8b4c03c3904",
       "url": "https://www.isomorphiclabs.com/",
       "x_status_id": null
     },
@@ -2286,11 +2536,15 @@
         "https://microsoft.design/wp-content/uploads/2026/01/AIFI-ArticleBanner_Frame.jpg"
       ],
       "article_text": "As Copilot steadily evolves into a thought partner—an intelligent presence woven into your workflow—its backbone will become the Copilot Design System, an AI-forward design system we’re crafting to feel intentional and humane.\nDesign systems have always been living blueprints but in today’s era of AI-first product making, they don’t just consider interface design. They orchestrate coherence across complex systems, codify how to shape model behavior with a human-centric lens, and introduce new user behaviors and mental models rooted in AI’s ability to recognize and support human intent.\nFrom orchestration patterns to iconography, the experience we’re building will ultimately have components that work together to amplify thinking, guide decisions, and unlock creativity—seamlessly, wherever you work. Anchored in customer feedback around creating better experiences, a fundamental question guides our system’s evolution: how would a thoughtful partner look and behave?\n01\nThe system that shapes the system\nMicrosoft 365 apps have shaped organizational behavior for decades, establishing design patterns and mental models that billions of people rely on every day. Through that work, we’ve learned that productivity isn’t just a function of tools; it’s shaped by the broader system people think and work within. We can now bring these dimensions together through Copilot, supporting richer forms of collaboration and creativity across human-human, human-AI, and human-AI-human interactions.\nHow we design that partnership will influence how productivity unfolds across organizations big and small, today and ten years from now. Our design philosophy was to build at the speed of life, not AI hype—co-creating with customers and embedding user research into every step of the process.\n02\nArchitecting Copilot across the Office apps\nAs we begin moving toward an AI-first design system, an early but essential part of that story is how Copilot shows up across Office apps. Four key architectural elements currently comprise the in-app system, designed to work how humans think. Cognition isn’t a fixed state. It’s a dynamic movement between exploration and focus, a lens continuously zooming in and out. These two movements—outward to discover, inward to refine—cycle continuously, shaping how we understand and act on the world. If intelligence doesn’t meet you at the right level of that cycle, it doesn’t feel like a partner. It feels like an interruption.\nThat insight is the structural foundation of how Copilot behaves across Office apps. It sees what you’re working on and understands the context, allowing it to act within the given environment. We implemented this through four architectural elements that operate at different cognitive levels:\nAn always-available, in-app Copilot that is contextually adaptive and a primary entry point to Chat.\n03\nOne Copilot, wherever you work\nHuman behavior is deeply contextual and nuanced—how something is said or done often matters just as much as what. People make sense of the world as they physically and mentally move through it, including the liminal spaces between more defined moments. Associated words, feelings, experiences, and thoughts flow alongside us—but intelligence without continuity can feel like an interruption instead of a thought partner. Changing apps or surfaces can be like drifting out of the current. You should be able to invoke Copilot every time you move through your work.\nCollaborative cognition draws from past conversations to understand context, recognize patterns, and change direction. That means the same Copilot you interacted with in Word should be the same one you converse with in Excel. Across M365, DAB serves as your go-to thought partner across desktop, web, iPad, and mobile.\nOn each in-app surface, DAB recognizes its immediate local context. It’s how Copilot consistently follows your train of thought, offering relevant and actionable suggestions while keeping your conversation continuous across",
+      "article_text_zh": "随着 Copilot 稳步演变为思维伙伴——一种融入工作流程的智能存在——其核心将是我们精心打造的 Copilot 设计系统，这是一套以 AI 为先导的设计体系，旨在体现意图性与人性化。\n\n设计系统始终是动态的蓝图，但在当今以 AI 为先的产品时代，它们不仅关注界面设计，更需协调复杂系统间的一致性，规范如何以人为中心塑造模型行为，并引入基于 AI 识别与支持人类意图能力的新用户行为与心智模型。\n\n从编排模式到图标设计，我们正在构建的体验最终将由协同工作的组件构成，以拓展思维、引导决策、激发创造力——无缝融入你的工作场景。基于客户对更优体验的反馈，一个根本性问题指引着系统的演进：一位体贴的伙伴应如何呈现与行动？\n\n01\n塑造系统的系统\n\n微软 365 应用数十年来塑造了组织行为，确立了数十亿人日常依赖的设计模式与心智模型。通过这项工作，我们认识到生产力不仅是工具的功能，更受人们思考与工作所处的更大系统影响。如今，我们可通过 Copilot 将这些维度融合，支持人与人、人与 AI、以及人与 AI 与人之间更丰富的协作与创造形式。\n\n我们如何设计这种伙伴关系，将影响大小组织未来十年乃至更久的生产力形态。我们的设计哲学是：以生活的速度而非 AI 热潮的速度构建——与客户共创，并将用户研究嵌入每一步流程。\n\n02\n跨 Office 应用架构 Copilot\n\n在迈向 AI 优先设计系统的过程中，一个早期但关键的篇章是 Copilot 如何在 Office 应用中呈现。目前，应用内系统由四大架构元素组成，设计遵循人类思维模式。认知并非固定状态，而是探索与专注之间的动态流动——一种持续缩放视角的透镜。向外发现、向内精炼，这两种运动循环往复，塑造我们理解与作用于世界的方式。若智能未能在认知循环的恰当层级与你相遇，它便不像伙伴，而更像干扰。\n\n这一洞察是 Copilot 在 Office 应用中行为表现的结构基础。它能识别你的工作内容并理解上下文，从而在给定环境中采取行动。我们通过四个在不同认知层级运作的架构元素实现这一点：\n\n一个始终可用、上下文自适应的应用内 Copilot，作为聊天的主要入口点。\n\n03\n一个 Copilot，随处工作\n\n人类行为深具上下文关联性与微妙性——表达或行动的方式往往与内容本身同等重要。人们在物理与精神移动中理解世界，包括那些介于明确时刻之间的过渡空间。关联的词语、感受、经历与思绪始终相伴——但缺乏连续性的智能可能更像干扰而非思维伙伴。切换应用或界面如同偏离思维流。你应在每次工作流转中都能调用 Copilot。\n\n协作认知借鉴过往对话以理解上下文、识别模式并调整方向。这意味着你在 Word 中交互的 Copilot，应与在 Excel 中对话的是同一个。在 M365 中，DAB 作为你跨桌面、网页、iPad 及移动设备的首选思维伙伴。\n\n在每个应用内界面，DAB 识别其即时本地上下文。这正是 Copilot 持续追踪你思维脉络的方式——提供相关且可操作的建议，同时保持对话跨应用连续不断。",
+      "article_text_zh_hash": "4a2aa1f240b0000f",
       "article_title_extracted": "A simplified system - Microsoft Design",
       "category": "Design",
       "cleaner_v": 1,
       "created_at": "2026-05-12T15:17:34.087664Z",
       "description": "Our ongoing process to build an AI-forward design system that supports work today, while carrying us into tomorrow.",
+      "description_zh": "我们正在持续推进构建一个面向AI的设计系统，既支持当下的工作，也引领我们走向未来。",
+      "description_zh_hash": "52ea710a5ba60dc3",
       "domain": "microsoft.design",
       "embed_type": "",
       "id": "k1720kc5q8thj6mbkkm86nznf586j2pm",
@@ -2313,6 +2567,8 @@
         }
       ],
       "title": "A simplified system - Microsoft Design",
+      "title_zh": "简化系统 - 微软设计",
+      "title_zh_hash": "0d9517fec2397871",
       "url": "https://microsoft.design/articles/a-simplified-system/",
       "x_status_id": null
     },
@@ -2335,6 +2591,8 @@
       "category": "Tools",
       "created_at": "2026-05-12T05:53:38.133642Z",
       "description": "Greenhouse is more than your typical ATS recruiting software, powered by built-in AI recruiting tools to streamline sourcing, hiring and talent management.",
+      "description_zh": "Greenhouse 不仅仅是传统的ATS招聘软件，它内置了AI招聘工具，能够简化人才寻源、招聘和人才管理流程。",
+      "description_zh_hash": "0a32c776687b1860",
       "domain": "www.greenhouse.com",
       "embed_type": "",
       "id": "k170hxqfxwth48hhkpf25fnmh186jv3s",
@@ -2357,6 +2615,8 @@
         }
       ],
       "title": "Greenhouse | Applicant tracking software & hiring platform",
+      "title_zh": "Greenhouse | 申请人追踪软件与招聘平台",
+      "title_zh_hash": "a64cea91a438ea87",
       "url": "https://www.greenhouse.com/",
       "x_status_id": null
     },
@@ -2365,9 +2625,13 @@
         "https://pbs.twimg.com/amplify_video_thumb/2053624162745266176/img/uS8Bo7RlFq0hWvub.jpg"
       ],
       "article_text": "https://www.deck.gallery/ just got a big update!\n\n- Waay faster\n- A new deck every single day\n- Explore by slide type (intro, pricing, team…)\n- No membership, no paywall\n\nFree, forever. https://x.com/senyil/status/2053836728612397518/video/1",
+      "article_text_zh": "https://www.deck.gallery/ 刚刚迎来重大更新！\n\n- 速度大幅提升\n- 每日更新一套全新演示文稿\n- 可按幻灯片类型浏览（如开场页、定价页、团队页等）\n- 无需会员，无付费墙\n\n永久免费。https://x.com/senyil/status/2053836728612397518/video/1",
+      "article_text_zh_hash": "8cfc96bd539c2296",
       "category": "Social",
       "created_at": "2026-05-12T05:57:03.605161Z",
       "description": "http://deck.gallery just got a big update!- Waay faster- A new deck every single day- Explore by slide type (intro, pricing, team…)- No membership, no paywallFree, forever. pic.twitter.com/vZ85UHZi7U",
+      "description_zh": "http://deck.gallery 刚刚迎来重大更新！\n- 速度大幅提升\n- 每天更新一套全新幻灯片\n- 可按幻灯片类型浏览（开场页、定价页、团队页……）\n- 无需注册，无付费墙\n永久免费。 pic.twitter.com/vZ85UHZi7U",
+      "description_zh_hash": "99f0ae78ef66defc",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17fk0w3v9qrd8p60wep4hga3186kgxx",
@@ -2390,6 +2654,8 @@
         }
       ],
       "title": "Muharrem Şenyıl (@senyil) on X",
+      "title_zh": "Muharrem Şenyıl (@senyil) 在 X 平台",
+      "title_zh_hash": "80c5915f5fc9fa9a",
       "url": "https://x.com/senyil/status/2053836728612397518",
       "x_status_id": "2053836728612397518"
     },
@@ -2397,6 +2663,8 @@
       "category": "Social",
       "created_at": "2026-05-12T10:13:23.549535Z",
       "description": "Simulating magnetic reconnection, an astrophysical plasma phenomenon where magnetic field lines collide, break, and reconnect, releasing massive bursts of energy and high-velocity plasma jets. Built with Three.js and shaders, and features interactive controls. Best with sound on pic.twitter.com/FfCfBjv6eY",
+      "description_zh": "模拟磁重联——一种天体物理等离子体现象，磁场线相互碰撞、断裂并重新连接，释放出巨大能量爆发和高速等离子体喷流。基于Three.js和着色器构建，并具备交互控制功能。建议开启声音以获得最佳体验。pic.twitter.com/FfCfBjv6eY",
+      "description_zh_hash": "785b7fd3807e1fe5",
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k178s7t6pf9g8jy2mehx8a4zpn86jfcv",
@@ -2419,6 +2687,8 @@
         }
       ],
       "title": "Techartist (@techartist_) on X",
+      "title_zh": "Techartist (@techartist_) 在 X 平台",
+      "title_zh_hash": "933c124376d41c31",
       "url": "https://x.com/techartist_/status/2054071952986484778",
       "x_status_id": "2054071952986484778"
     },
@@ -2470,11 +2740,15 @@
         "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg"
       ],
       "article_text": "Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Blog Blog / Agent view in Claude Code Explore here Ask questions about this page Copy as markdown Agent view in Claude Code Category Product announcements Product Claude Code Date May 11, 2026 Reading time 5 min Share Copy link https://claude.com/blog/agent-view-in-claude-code Today we're introducing agent view in Claude Code: one place to manage all your Claude Code sessions. When running agents in parallel before, you've probably had to manage multiple terminal tabs, a tmux grid, and an overloaded mental ledger of what you need to tackle next. With agent view in Claude Code, you can kick off new agents, send them to the background, and jump in only when Claude needs you. See at a glance which agents are waiting on you, which are still working, and which are done, so you can easily steer many all at once. How it works Agent view improves visualizing and interacting with your Claude Code sessions in the CLI. See everything at once Press the left arrow from any session or run claude agents from the terminal to open agent view. Each row shows the session, whether it needs your input, the contents of its last response, and when you last interacted with it. Peek and reply without leaving Select a session to peek at the last turn. If a session is waiting on a decision, answer inline and the session picks back up. Press enter to attach directly to sessions where you want to explore the full transcript. Background anything Lastly, users can take any existing session and add it to agent view using /bg or skip the foreground entirely using claude --bg [task] to launch a fresh session. How developers are using agent view A few patterns we have seen from early users: Scaling the number of concurrent sessions: Dispatch several ideas at once, each optionally paired with a skill, and return to a list of pull requests ready for review. Manage long running agents: PR babysitters, dashboard updaters, and other looping jobs show their next run time right in the list. Navigate between separate sessions: When you’re in the middle of a session, press the left arrow, start a related task or quick codebase question, then arrow right back into what you were doing. Peek shows the answer when it lands. See what shipped: Status indicators on each row plus the title in peek make it easy to scan which sessions produced",
+      "article_text_zh": "了解 Claude 产品  \nClaude  \nClaude Code  \nClaude Cowork  \nClaude 安全功能  \nClaude for Chrome  \nClaude for Slack  \nClaude for Microsoft 365  \n\n技能  \n模型  \nOpus  \nSonnet  \nHaiku  \n\n平台概览  \n开发者文档  \n定价  \n控制台登录  \n\n解决方案  \n使用场景  \nAI 智能体  \n编码  \n部门  \n法律  \n安全  \n\n行业  \n客户支持  \n教育  \n金融服务  \n政府  \n医疗健康  \n生命科学  \n非营利组织  \n\n定价概览  \nAPI 方案  \nPro  \nMax  \nTeam  \n企业  \n\n资源  \n洞见  \n博客  \n客户案例  \nAnthropic 新闻  \n\n学习  \nAnthropic Academy  \n课程  \n教程  \n使用场景  \n工具  \n连接器  \n插件  \n\n连接  \n活动  \n社区  \n\n登录  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n了解 Claude 产品  \nClaude  \nClaude Code  \nClaude Cowork  \nClaude 安全功能  \nClaude for Chrome  \nClaude for Slack  \nClaude for Microsoft 365  \n\n技能  \n模型  \nOpus  \nSonnet  \nHaiku  \n\n平台概览  \n开发者文档  \n定价  \n控制台登录  \n\n解决方案  \n使用场景  \nAI 智能体  \n编码  \n部门  \n法律  \n安全  \n\n行业  \n客户支持  \n教育  \n金融服务  \n政府  \n医疗健康  \n生命科学  \n非营利组织  \n\n定价概览  \nAPI 方案  \nPro  \nMax  \nTeam  \n企业  \n\n资源  \n洞见  \n博客  \n客户案例  \nAnthropic 新闻  \n\n学习  \nAnthropic Academy  \n课程  \n教程  \n使用场景  \n工具  \n连接器  \n插件  \n\n连接  \n活动  \n社区  \n\n登录  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n联系销售  \n联系销售  \n联系销售  \n试用 Claude  \n试用 Claude  \n试用 Claude  \n\n博客  \n博客 / Claude Code 中的智能体视图  \n\n在此探索  \n询问关于此页面的问题  \n复制为 Markdown  \n\nClaude Code 中的智能体视图  \n\n分类：产品公告  \n产品：Claude Code  \n日期：2026年5月11日  \n阅读时间：5分钟  \n\n分享  \n复制链接：https://claude.com/blog/agent-view-in-claude-code  \n\n今天，我们推出 Claude Code 中的智能体视图：一个集中管理所有 Claude Code 会话的地方。以前，当并行运行多个智能体时，你可能不得不管理多个终端标签页、一个 tmux 网格，以及一个超负荷的待办事项心理清单。有了 Claude Code 中的智能体视图，你可以启动新的智能体，将它们发送到后台，并且仅在 Claude 需要你时介入。一眼就能看出哪些智能体在等待你，哪些仍在工作，哪些已经完成，从而轻松地同时指挥多个任务。  \n\n工作原理  \n\n智能体视图改进了在 CLI 中可视化和交互 Claude Code 会话的方式。  \n\n一览无余  \n从任意会话按左箭头键，或在终端中运行 `claude agents`，即可打开智能体视图。每一行显示会话信息、是否需要你的输入、最后响应的内容，以及你上次与之交互的时间。  \n\n无需离开即可预览和回复  \n选择一个会话即可预览最后一轮对话。如果会话正在等待决策，你可以内联回复，会话便会继续执行。按回车键可直接附加到你想查看完整记录的会话中。  \n\n后台运行任何任务  \n最后，用户可以将任何现有会话添加到智能体视图中（使用 `/bg`），或者完全跳过前台，使用 `claude --bg [任务]` 启动一个新会话。  \n\n开发者如何使用智能体视图  \n\n以下是早期用户的一些使用模式：  \n\n扩展并发会话数量：同时发起多个想法，每个可选配一项技能，然后返回查看已准备好审查的拉取请求列表。  \n\n管理长时间运行的智能体：PR 监控器、仪表盘更新器以及其他循环任务会在列表中直接显示下次运行时间。  \n\n在独立会话之间导航：当你在一个会话中时，按左箭头键，启动一个相关任务或快速代码库问题，然后按右箭头键回到你正在做的事情。预览会在答案出现时显示。  \n\n查看已交付内容：每行的状态指示器加上预览中的标题，让你轻松扫描哪些会话产生了成果。",
+      "article_text_zh_hash": "dad2d9e0b4240654",
       "article_title_extracted": "Agent view in Claude Code | Claude",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-12T01:38:17.245041Z",
       "description": "Today we're introducing agent view in Claude Code: one place to manage all your Claude Code sessions.",
+      "description_zh": "今天，我们在 Claude Code 中推出了代理视图（agent view）：一个集中管理所有 Claude Code 会话的地方。",
+      "description_zh_hash": "00eb29f65960e788",
       "domain": "claude.com",
       "embed_type": "",
       "id": "k1774wv46akswmzy5y7nz0g3v586jatc",
@@ -2497,6 +2771,8 @@
         }
       ],
       "title": "Agent view in Claude Code | Claude",
+      "title_zh": "Claude Code 中的代理视图 | Claude",
+      "title_zh_hash": "292a549c4941205d",
       "url": "https://claude.com/blog/agent-view-in-claude-code",
       "x_status_id": null
     },
@@ -2504,10 +2780,14 @@
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_text": "* Products\n* [Business](https://openai.com/daybreak/business/)\n* [Developers](https://openai.com/daybreak/api/)\n* [Company](https://openai.com/daybreak/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=5cdeaebb-88ca-46a0-9ec1-5057c382ea07&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nDaybreak | OpenAI for cybersecurity | OpenAI\n\n# Daybreak\n\nFrontier AI for cyber defenders.\n\n[Request vulnerability scan](https://openai.com/daybreak/daybreak/request-a-vulnerability-scan/)[Contact sales](https://openai.com/daybreak/contact-sales/)\n\n## Safer software, resilient by design\n\nOpenAI Daybreak is our vision to change the way software is built and defended.\n\nDaybreak is the first glimpse of sunlight in the morning. For cyber defense, it means seeing risk earlier, acting sooner, and helping make software resilient by design.\n\nIt starts from the premise that the next era of cyber defense should be built into software from the beginning by not only finding and patching vulnerabilities, but being resilient to them by design.\n\nAI can now help defenders reason across codebases, identify subtle vulnerabilities, validate fixes, analyze unfamiliar systems, and move from discovery to remediation faster. Because those same capabilities can be misused, Daybreak pairs expanded defensive capability with trust, verification, proportional safeguards, and accountability.\n\nThe goal is simple: accelerate cyber defenders and continuously secure software.\n\nDaybreak combines the intelligence of OpenAI models, the extensibility of Codex as an agentic harness, and our partners across the security flywheel to help make the world safer for everyone. Defenders can bring secure code review, threat modeling, patch validation, dependency risk analysis, detection, and remediation guidance into the everyday development loop so software becomes more resilient from the start.\n\nIn the coming weeks, we’re working with our industry and government partners as we prepare to deploy increasingly more cyber-capable models as part of our approach to iterative deployment.\n\n## How to deploy AI in modern cyber defense\n\n![icon of a bounding box](https://images.ctfassets.net/kftzwdyauwt9/6CXe1iCJZqYplgOK4yeVGL/fe031eb3987662421a5509301224d98a/bounds.svg?w=3840&q=90)\n\n#### Focus on the threats that matter\n\nPrioritize high-impact issues and reduce hours of analysis to minutes—with more efficient token usage.\n\n![icon of a shield](https://images.ctfassets.net/kftzwdyauwt9/4jiWnWWSMBeqMwSJANlghs/6be7b78323c0bdc907284d0c05e52734/shield.svg?w=3840&q=90)\n\n#### Patch safely, at scale\n\nGenerate and test patches directly in your repositories, with scoped access, monitoring, and review.\n\n![Icon of a circle with a checkmark inside](https://images.ctfassets.net/kftzwdyauwt9/7u2dLcotT8lgGjmRSrHlaI/a4df05387cfae41a801f5a953115ba7c/checkmark-circle.svg?w=3840&q=90)\n\n#### Verify every fix\n\nSend results and audit-ready evidence back to your systems to track and verify remediation.\n\n## Deploy frontier cyber intelligence inside Codex Security\n\n### Find and fix vulnerabilities\n\nCodex Security builds an editable threat model from your repository, then focuses analysis on realistic attack paths and high-impact code.\n\n### Burn down the backlog\n\nValidate likely vulnerabilities in an isolated environment, so teams can prioritize real, reproducible issues over noisy alerts.\n\n### Automate detection and response\n\nUse AI to spot higher risk vulnerabilities and automate monitoring for them end-to-end.\n\n## Choose the right level of access\n\nContact the OpenAI team to align on the best model for your security workflows.\n\n* [Request a vulnerability scan](https://openai.com/daybreak/daybreak/request-a-vulnerability-scan/)\n*",
+      "article_text_zh": "* 产品\n* [商业](https://openai.com/daybreak/business/)\n* [开发者](https://openai.com/daybreak/api/)\n* [公司](https://openai.com/daybreak/about/)\n* [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n登录[尝试 ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=5cdeaebb-88ca-46a0-9ec1-5057c382ea07&openaicom%5Freferred=true)\n\n* 研究\n* 产品\n* 商业\n* 开发者\n* 公司\n* [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\nDaybreak | OpenAI 网络安全解决方案 | OpenAI\n\n# Daybreak\n\n面向网络防御者的前沿 AI。\n\n[请求漏洞扫描](https://openai.com/daybreak/daybreak/request-a-vulnerability-scan/)[联系销售](https://openai.com/daybreak/contact-sales/)\n\n## 更安全的软件，天生具备韧性\n\nOpenAI Daybreak 是我们改变软件构建与防御方式的愿景。\n\nDaybreak 意为清晨的第一缕阳光。对网络防御而言，它意味着更早发现风险、更快采取行动，并助力打造天生具备韧性的软件。\n\n其核心理念是：下一代网络防御应从软件构建之初就融入其中，不仅要发现和修补漏洞，更要通过设计实现对这些漏洞的韧性。\n\n如今，AI 能够帮助防御者跨代码库进行推理、识别细微漏洞、验证修复方案、分析陌生系统，并更快地从发现漏洞过渡到修复漏洞。由于这些能力也可能被滥用，Daybreak 在增强防御能力的同时，也配套了信任、验证、适度防护和问责机制。\n\n目标很简单：赋能网络防御者，持续保障软件安全。\n\nDaybreak 结合了 OpenAI 模型的智能、Codex 作为 agentic harness 的可扩展性，以及我们安全飞轮生态中的合作伙伴，共同致力于让世界更安全。防御者可以将安全代码审查、威胁建模、补丁验证、依赖风险分析、检测和修复指导融入日常开发流程，使软件从一开始就更具韧性。\n\n在未来几周内，我们将与行业及政府合作伙伴协作，作为迭代部署策略的一部分，准备部署能力日益增强的网络模型。\n\n## 如何在现代网络防御中部署 AI\n\n![边界框图标](https://images.ctfassets.net/kftzwdyauwt9/6CXe1iCJZqYplgOK4yeVGL/fe031eb3987662421a5509301224d98a/bounds.svg?w=3840&q=90)\n\n#### 聚焦关键威胁\n\n优先处理高影响问题，将数小时的分析缩短至数分钟——同时更高效地使用 token。\n\n![盾牌图标](https://images.ctfassets.net/kftzwdyauwt9/4jiWnWWSMBeqMwSJANlghs/6be7b78323c0bdc907284d0c05e52734/shield.svg?w=3840&q=90)\n\n#### 安全地大规模修补\n\n直接在您的代码仓库中生成和测试补丁，并具备范围限定的访问、监控和审查功能。\n\n![带对勾的圆形图标](https://images.ctfassets.net/kftzwdyauwt9/7u2dLcotT8lgGjmRSrHlaI/a4df05387cfae41a801f5a953115ba7c/checkmark-circle.svg?w=3840&q=90)\n\n#### 验证每项修复\n\n将结果和可审计的证据发回您的系统，以跟踪和验证修复情况。\n\n## 在 Codex Security 中部署前沿网络智能\n\n### 发现并修复漏洞\n\nCodex Security 从您的代码仓库构建可编辑的威胁模型，然后聚焦于分析现实的攻击路径和高影响代码。\n\n### 清理积压任务\n\n在隔离环境中验证潜在漏洞，使团队能够优先处理真实、可复现的问题，而非嘈杂的警报。\n\n### 自动化检测与响应\n\n利用 AI 识别高风险漏洞，并端到端地自动监控这些漏洞。\n\n## 选择合适的访问级别\n\n联系 OpenAI 团队，为您的安全工作流程确定最佳模型。\n\n* [请求漏洞扫描](https://openai.com/daybreak/daybreak/request-a-vulnerability-scan/)",
+      "article_text_zh_hash": "894e4c3006a6501c",
       "category": "Development",
       "cleaner_v": 1,
       "created_at": "2026-05-12T01:27:43.649481Z",
       "description": "Deploy AI for cyber defense with GPT-5.5 and Codex Security to identify threats, generate patches, and verify remediation across code and systems.",
+      "description_zh": "使用GPT-5.5与Codex Security部署AI网络防御，识别威胁、生成补丁，并跨代码与系统验证修复效果。",
+      "description_zh_hash": "5b8308dc4a83c4ed",
       "domain": "openai.com",
       "embed_type": "",
       "id": "k17b79ej72gfqgdb17e5wr79vn86jwc7",
@@ -2530,6 +2810,8 @@
         }
       ],
       "title": "Daybreak | OpenAI for cybersecurity | OpenAI",
+      "title_zh": "Daybreak | 面向网络安全的 OpenAI | OpenAI",
+      "title_zh_hash": "aac01bd90daddd32",
       "url": "https://openai.com/daybreak/",
       "x_status_id": null
     },
@@ -2543,6 +2825,8 @@
       "category": "Development",
       "created_at": "2026-05-12T01:29:18.765716Z",
       "description": "Ratty is a GPU-rendered terminal emulator with inline 3D graphics.",
+      "description_zh": "Ratty 是一款支持内联3D图形的GPU渲染终端模拟器。",
+      "description_zh_hash": "503a40e09a9a6107",
       "domain": "ratty-term.org",
       "embed_type": "",
       "id": "k170dhjcp8vpb7nr34rjxj9n4x86ky0b",
@@ -2565,6 +2849,8 @@
         }
       ],
       "title": "Ratty — A GPU-rendered terminal emulator with inline 3D graphics 🐀🧀",
+      "title_zh": "Ratty — 一款支持内嵌3D图形的GPU渲染终端模拟器 🐀🧀",
+      "title_zh_hash": "8114381eee24176a",
       "url": "https://ratty-term.org/",
       "x_status_id": null
     },
@@ -2574,6 +2860,8 @@
       "category": "Design",
       "created_at": "2026-05-12T01:22:40.623589Z",
       "description": "The content provides a collection of outfit images from the website Yafa Fits, showcasing various styles for different weather conditions across multiple months. The outfits are categorized by the type of weather (breezy, cold, cloudy, etc.) and are likely intended for fashion inspiration. Additionally, user interactions, comments on outfits, links for purchasing similar clothing items, and images of individuals providing feedback on various looks are also included.",
+      "description_zh": "该内容汇集了来自Yafa Fits网站的穿搭图片，展示了多种天气条件下不同月份的着装风格。这些穿搭按天气类型（微风、寒冷、多云等）分类，旨在提供时尚灵感。此外，还包含了用户互动、穿搭评论、相似服饰购买链接，以及用户对不同造型的反馈图片。",
+      "description_zh_hash": "b30e130cc974d369",
       "domain": "www.yafafits.com",
       "embed_type": "",
       "id": "k17cm75njenegaj5hj5erf6v0s86kvf1",
@@ -2596,6 +2884,8 @@
         }
       ],
       "title": "Outfit Logger",
+      "title_zh": "Outfit Logger",
+      "title_zh_hash": "af3af8d04959f366",
       "url": "https://www.yafafits.com/",
       "x_status_id": null
     },
@@ -2616,11 +2906,15 @@
         "https://thinkingmachines.ai/blog/interaction-models/frames/1.jpg"
       ],
       "article_text": "Today, we’re announcing a research preview of interaction models: models that handle interaction natively rather than through external scaffolding. We think interactivity should scale alongside intelligence; the way we work with AI should not be treated as an afterthought. Interaction models let people collaborate with AI the way we naturally collaborate with each other—they continuously take in audio, video, and text, and think, respond, and act in real time.\nWe train an interaction model from scratch. To ensure real-time responsiveness, we adopt a multi-stream, micro-turn design. Our research preview demonstrates qualitatively new interaction capabilities, as well as state-of-the-art combined performance in intelligence and responsiveness.\nThe collaboration bottleneck\nAI labs often treat the ability for AI to work autonomously as the model’s most important capability.Kwa, T., West, B., Becker, J., et al. Measuring AI Ability to Complete Long Tasks. [METR](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), 2025. As a result, today’s models and interfaces aren’t optimized for humans to remain in the loop.A [recent frontier model card](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf) states: “Importantly, we find that when used in an interactive, synchronous, “hands-on-keyboard” pattern, the benefits of the model were less clear. When used in this fashion, some users perceived [our model] as too slow and did not realize as much value. Autonomous, long-running agent harnesses better elicited the model’s coding capabilities.”\nAutonomous interfaces are valuable, but in most real work, users can’t fully specify their requirements upfront and walk away—good results benefit from a collaborative process where the human stays in the loop, clarifying and giving feedback along the way. However, humans increasingly get pushed out not because the work doesn’t need them, but because the interface has no room for them. Instead, people are most effective when they can collaborate with AI the same way we do with other people: messaging, talking, listening, seeing, showing, and interjecting as needed—and for the model to do the same.Communication gets better with: (a) Copresence: people can interact with what others are interacting with; (b) Contemporality: people receive information as it’s produced by others with instant feedback; (c) Simultaneity: people receive and produce information at the same time. Clark H. and Brennan S., “Grounding in Communication,” in Perspectives on Socially Shared Cognition, 1991., The evanescence of orality for its participatory (cf. objectively distanced) nature. Today’s computers and mediums of knowledge work have similar interactive properties. Ong, W. J.. In Orality and Literacy: The technologizing of the word, 1982.\nIn order to resolve this, we need to move beyond the current turn-based interface for the models. Today’s models experience reality in a single thread.We are referring to commercial general-purpose frontier models—there are smaller-scale or specialized models like Moshi, PersonaPlex, Nemotron VoiceChat, or GPT-Realtime-Translate. Until the user finishes typing or speaking, the model waits with no perception of what the user is doing or how the user is doing it. Until the model finishes generating, its perception freezes, receiving no new information until it finishes or is interrupted. This creates a narrow channel for human-AI collaboration that limits how much of a person’s knowledge,“Metis, with the premium it places on practical knowledge, experience, and stochastic reasoning…is the mode of reasoning most appropriate to complex material and social tasks where the uncertainties are so daunting that we must trust our (experienced) intuition and feel our way.” Scott, J. C: Métis. In Seeing like a State: How certain schemes to improve the human condition have failed, 1998., “A little reflection will show that there is…a body of very importan",
+      "article_text_zh": "今天，我们宣布一项交互模型的研究预览：这些模型原生处理交互，而非依赖外部脚手架。我们认为交互能力应与智能水平同步提升；我们与AI协作的方式不应被视为事后才考虑的问题。交互模型让人们能够以自然协作的方式与AI合作——它们持续接收音频、视频和文本，并实时思考、回应和行动。\n\n我们从零开始训练一个交互模型。为确保实时响应，我们采用了多流、微轮次的设计。我们的研究预览展示了定性的全新交互能力，以及在智能和响应性方面达到的最先进综合性能。\n\n### 协作瓶颈\n\nAI实验室常将AI自主工作的能力视为模型最重要的特性。Kwa, T., West, B., Becker, J., 等. 《衡量AI完成长任务的能力》. [METR](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), 2025。因此，当今的模型和界面并未针对人类保持参与进行优化。一份[前沿模型卡片](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf)指出：“重要的是，我们发现当以交互式、同步、‘手不离键盘’的模式使用时，模型的优势不太明显。在这种使用方式下，一些用户认为[我们的模型]太慢，未能充分实现价值。自主、长期运行的代理框架能更好地激发模型的编码能力。”\n\n自主界面很有价值，但在大多数实际工作中，用户无法预先完全明确需求然后撒手不管——好的结果受益于一个协作过程，其中人类保持参与，在过程中不断澄清和提供反馈。然而，人类越来越被排除在外，并非因为工作不需要他们，而是因为界面没有为他们留出空间。相反，当人们能够像与他人协作一样与AI协作时——通过消息、交谈、倾听、观察、展示，并在需要时随时插话——他们最为高效，而模型也应如此。沟通因以下因素而改善：(a) 共在：人们可以与他人正在互动的内容互动；(b) 共时：人们能即时接收他人产生的信息并获得反馈；(c) 同时性：人们能同时接收和产生信息。Clark H. 和 Brennan S.，《沟通中的基础》，载于《社会共享认知视角》，1991年。口语的短暂性源于其参与性（而非客观距离性）。当今的计算机和知识工作媒介具有类似的交互特性。Ong, W. J.，《口语与书面语：文字的技术化》，1982年。\n\n为了解决这个问题，我们需要超越当前基于轮次的模型界面。当今的模型以单线程方式体验现实。我们指的是商业通用前沿模型——存在较小规模或专用模型，如Moshi、PersonaPlex、Nemotron VoiceChat或GPT-Realtime-Translate。在用户完成打字或说话之前，模型会等待，对用户正在做什么或如何做毫无感知。在模型完成生成之前，其感知会冻结，直到完成或被中断才能接收新信息。这为人类与AI的协作创造了一个狭窄的通道，限制了个人知识、“Metis强调实践知识、经验和随机推理……是最适合复杂物质和社会任务的推理模式，在这些任务中不确定性如此之大，以至于我们必须相信自己的（经验）直觉并摸索前进。” Scott, J. C: Métis. 载于《像国家一样看待：改善人类状况的某些方案如何失败》，1998年。“稍加反思就会表明，存在……一个非常重要的",
+      "article_text_zh_hash": "f3f228a425ec6853",
       "article_title_extracted": "Interaction Models: A Scalable Approach to Human-AI Collaboration - Thinking Machines Lab",
       "category": "Articles",
       "cleaner_v": 1,
       "created_at": "2026-05-12T01:20:36.317050Z",
       "description": "Interaction models move beyond turn-based AI interfaces by handling multimodal, real-time collaboration natively across audio, video, and text.",
+      "description_zh": "交互模型通过原生处理音频、视频和文本的多模态实时协作，超越了基于回合的AI界面。",
+      "description_zh_hash": "c5b84187fef6450b",
       "domain": "thinkingmachines.ai",
       "embed_type": "",
       "id": "k17aggqh86yryea91ppzgrbx6d86jk7h",
@@ -2643,6 +2937,8 @@
         }
       ],
       "title": "Interaction Models: A Scalable Approach to Human-AI Collaboration - Thinking Machines Lab",
+      "title_zh": "交互模型：人机协作的可扩展方法 - Thinking Machines Lab",
+      "title_zh_hash": "9d5ce049748289a1",
       "url": "https://thinkingmachines.ai/blog/interaction-models/",
       "x_status_id": null
     },
@@ -2672,6 +2968,8 @@
         }
       ],
       "title": "Jarred Sumner (@jarredsumner) on X",
+      "title_zh": "Jarred Sumner (@jarredsumner) 在 X 平台上",
+      "title_zh_hash": "81c6a52c3e417698",
       "url": "https://x.com/jarredsumner/status/2053808438644445230",
       "x_status_id": "2053808438644445230"
     },
