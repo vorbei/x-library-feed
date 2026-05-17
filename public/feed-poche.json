@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 379,
+      "count": 380,
       "name": "Development"
     },
     {
@@ -34,8 +34,44 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2103,
+  "item_count": 2104,
   "items": [
+    {
+      "article_image_urls": [
+        "https://www.coreauto.com/assets/ca_logo.svg",
+        "https://www.coreauto.com/assets/mail_icon.svg",
+        "https://www.coreauto.com/assets/x_icon.svg",
+        "https://www.coreauto.com/assets/footer_desktop.jpg"
+      ],
+      "article_title_extracted": "Core Automation",
+      "category": "Development",
+      "created_at": "2026-05-17T04:54:59.810005Z",
+      "description": "Core Automation focuses on innovative research in AI, moving away from traditional methods like scaling models and using reinforcement learning. They emphasize the importance of small teams utilizing capable AI agents to drive frontier research. Their approach involves automating their own workflows to enable more ambitious projects, leading to a more dynamic and creative environment. The vision posits that small teams, equipped with advanced AI systems, can perform tasks previously reserved for larger organizations, fostering broader access to ambitious work opportunities. The team is composed of experts in cutting-edge AI technologies and aims to redesign neural network architectures in a compact lab setting. They invite interested individuals to join their initiative.",
+      "domain": "www.coreauto.com",
+      "embed_type": "",
+      "id": "k17bj51h3epjhyxnjgbvqj1t5h86xnnb",
+      "og_image_url": "https://cloud.poche.app/api/storage/dad6e920-b0e2-46dc-bfaa-9434f49aed57",
+      "recommended_at": "2026-05-17T05:35:25.843000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "automation",
+        "research-lab"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T05:35:25.843000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Core Automation",
+      "url": "https://www.coreauto.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_title_extracted": "Amano - Technology that helps. Design that listens. Impact that lasts.",
@@ -183,6 +219,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-17T04:12:56.289161Z",
@@ -214,6 +251,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-17T04:12:59.659505Z",
@@ -384,7 +422,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/c9612c5f3266ef662b53195ac20651d2d6ca9107e98c6b601732742c9a47fc17/vercel-labs/zero"
+        "https://opengraph.githubassets.com/ff9b8e3e9f3f584a764a6951281f527701c7153410e3238c4e8a2ba8b73dcddb/vercel-labs/zero"
       ],
       "article_title_extracted": "GitHub - vercel-labs/zero: The programming language for agents · GitHub",
       "category": "Development",
@@ -1654,6 +1692,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-13T16:06:32.672636Z",
@@ -2548,7 +2587,7 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
+      "article_extraction": "trafilatura",
       "article_image_urls": [
         "https://images.ctfassets.net/spoqsaf9291f/4yrhxwVSEBgnFcThCgGExc/8072c98e41f251db500fa9f6482883b8/preview.png"
       ],
@@ -4466,8 +4505,8 @@
         "https://camo.githubusercontent.com/f7677bfbcab4f4c71c3675842e5864ff1016bd2f477c0677b316063ab1dc85ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6d6f64656d2d6465762f68756e6b2f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4349",
         "https://camo.githubusercontent.com/297568a47157895c517cd6b9f89b60de1d09aea57bfa14bfdf064772c3dab41f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d6f64656d2d6465762f68756e6b3f7374796c653d666f722d7468652d6261646765",
         "https://camo.githubusercontent.com/608c8dfda488178950ce502d7697514db3a6a712579327ed90b9b594260f6355/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666f722d7468652d6261646765",
-        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM0NDgsIm5iZiI6MTc3ODk5MzE0OCwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0NTQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGM2Zjg1YmUyOTEzYjVkMjcwZTYzMTA5NzA4OThkMzFiZmUzZTY5NDFhMGM1YWY1Mjg5ZjVlY2M1NmFmNzRmOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.t3eq12e7HxBIaPvfY3yX7rkwH2gIQLKShUhzcuuAAds",
-        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM0NDgsIm5iZiI6MTc3ODk5MzE0OCwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0NTQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTQ1NWE3MDhkNGY1NjExYTViZWUyOGM1Yzc0NDE4NTJiYzRhZGFkZjU4MGQ3MTIyYjM3N2E5NzUxNmFiZjllMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.bwtKmI_ZN9TKiiwrSexSrxn1qK8OXE5AamJJi011FZ0",
+        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDMzNTUsIm5iZiI6MTc3OTAwMzA1NSwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczMDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWQ3YzY4YmZmZWI3MTE1NzUzNDhmNTdlYWFiOTIyOWRmM2M3N2U2Mzc0MDEwMWRmZTE4ZmM3ZjEzNTlkZDE2NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.-t35guhxM4KEZsMHmiipU06iI6QdrGwMLjS4Ur9WmtU",
+        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDMzNTUsIm5iZiI6MTc3OTAwMzA1NSwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczMDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODA4NWUwYTVjYjIzY2VjNDMyMmI4YzgxMDczNTViMzYzOTY2Y2RlYTM1YjU3NDNiNmU0YTE2MTEwNzQ3ZmRlMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.HZJk3Usg5KiofEStCEOVgCcMIMdFGr1kSAKgysc4RZs",
         "https://camo.githubusercontent.com/5b5deb6caabfa7a609505bbadf9b1de5260ab2e3024ea3ea774e317703b8bd1c/68747470733a2f2f6d6f64656d2e6465762f696d616765732f6c6f676f2f7376672f6d6f64656d2d636f6d62696e65642d626c61636b2e737667"
       ],
       "article_title_extracted": "GitHub - modem-dev/hunk: Review-first terminal diff viewer for agentic coders · GitHub",
@@ -5174,6 +5213,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-04T16:59:00.191263Z",
@@ -5351,6 +5391,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-06T03:37:13.738347Z",
@@ -5383,7 +5424,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/9b34b15be048a11b042bd0a6d4684061b034de939fca83e1a605ec3991bc2007/steipete/RepoBar",
+        "https://opengraph.githubassets.com/2f97a823afc7f92f844e76125b73ee9523f836f4f04c86478e24dc263dfe61f3/steipete/RepoBar",
         "https://github.com/steipete/RepoBar/raw/main/docs/assets/repobar.png"
       ],
       "article_title_extracted": "GitHub - steipete/RepoBar: Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release. · GitHub",
@@ -6227,8 +6268,8 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/8837e935b52842d071651097233fdc1f70da2da0c985f051495d9026ddc763df/b-nnett/codex-plusplus",
-        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM1NTcsIm5iZiI6MTc3ODk5MzI1NywicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDA0NDczN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlZjA0NjQ4Mzg5ZmRhNmRhM2FjYTJkNDc4MDY3NDc3MmU1ZDI2NGE3MDZjMmM1YzhjODJhZmJiMTQwMTgwZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.JYXWKcJPVth7TUNmSEegQZG6u3Fvaan4Z7sMvA0hmGU"
+        "https://opengraph.githubassets.com/d75f326b0cb9e5b8ec105559f2058fc78eb49362b736f0eafdaf3d28d5cc5c0b/b-nnett/codex-plusplus",
+        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDM0NjUsIm5iZiI6MTc3OTAwMzE2NSwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDA3MzI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmZGE1M2VkZjZhZDRhYmNjNWM3ZDBmOTI0MDk1MDdjYmVmZDkwNWQwNzk1MmQyZjU1Mjc2MGMxZjA4NmNiYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.PYd80Nufh4htulxRqismUFZQtUNL0vMDHnYiTB0TsWI"
       ],
       "article_title_extracted": "GitHub - b-nnett/codex-plusplus: Codex++ tweak system for the Codex desktop app · GitHub",
       "category": "Development",
@@ -7654,7 +7695,7 @@
     {
       "article_image_urls": [
         "https://opengraph.githubassets.com/f87bbc7e2e490fb5540ba4cad1c8529962ca74a9d1b9ffa380211f06f5732859/asekachov/Markie",
-        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM2OTksIm5iZiI6MTc3ODk5MzM5OSwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0OTU5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzFhY2U0ZjFjNTU4OTVkNjU2N2NhODhjY2ZmZTQyNmVmYzVkNzE0NWVlZTAwNWY1OTg3OWYxYjQ0NWFlMDFjZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.2oMrTCTjHSoJPQR2CpDSjULXCxLNMgUu4TivMHUPQOE"
+        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDM1OTUsIm5iZiI6MTc3OTAwMzI5NSwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczNDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjFkMjU4OTI0NWRmNjVhMzBiZjU4ZTEzMzFjZmE4M2VhZDM0NGEyN2QzOTg4MTE2NDkxYjRmNWQyMWI2NDQ2MCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.6sZAw1Vi_mJaE1ktkrhex0P0Jt88BPVvxnaxHhajGiQ"
       ],
       "article_title_extracted": "GitHub - asekachov/Markie: Markie — quick-add panel for macOS. Public release feed (DMGs + Sparkle appcast). · GitHub",
       "category": "Development",
@@ -9018,7 +9059,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/51f17ba4e6da0181b679aa15baa6aefd5d750887584c83f4609d402c676516a1/google-labs-code/design.md"
+        "https://opengraph.githubassets.com/0d728e2a2681274679b484653ca56f09fd95f00903a143e011b6d70167a9b344/google-labs-code/design.md"
       ],
       "article_title_extracted": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. · GitHub",
       "category": "Development",
@@ -10916,7 +10957,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/fd22991ae65f278b492be06ca9d71e12245e45dba63db3bd1e1de97f341938ca/android/skills"
+        "https://opengraph.githubassets.com/bd7a782f140ebd361f5fb482493cb96c5cc308e91696fc955b1b467843f53255/android/skills"
       ],
       "article_title_extracted": "GitHub - android/skills · GitHub",
       "category": "Development",
@@ -11695,7 +11736,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/22769faeaffac58fe0902f8da7a18ca5f4738d726ed77674e765d5f4418ae8e2/microsoft/markitdown",
+        "https://opengraph.githubassets.com/33cc5387f2fbde7c98a4fd14414ac9c3ed4ea732392524b8dde9b1b675508501/microsoft/markitdown",
         "https://camo.githubusercontent.com/124b95350d48b05db482b4a2153dc9cb06250d6e9272e121a6f3856a5159879d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667",
         "https://camo.githubusercontent.com/b358637622bf3aede990f9e2f7d2297d2cb2974ff07ba78c71de83a0dbaf1220/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e",
         "https://camo.githubusercontent.com/e773e2d12920abb5d8b2fe1d05f510b9ba7c3c54969bc3e05b6f7e8f8705e71d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565"
@@ -11878,7 +11919,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/b6a0a6f479a03da8d9b7809d321c4aad01fb0f0d332cacf3939bd78ff00f3bf7/jimmysu0309/shinkansen"
+        "https://opengraph.githubassets.com/69e09b6a958b6f01a2d16103ff1e24deca45546563b313b7147c983b72caa63b/jimmysu0309/shinkansen"
       ],
       "article_title_extracted": "GitHub - jimmysu0309/shinkansen: 快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方 · GitHub",
       "category": "Development",
@@ -13465,7 +13506,7 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_image_urls": [
-        "https://www.infoandupdates.com/og2.jpg"
+        "https://www.infoandupdates.com/og1.jpg"
       ],
       "article_title_extracted": "A studio with Pianpian He and Max Harvey in it. Purée Madness!",
       "category": "Design",
@@ -16166,8 +16207,8 @@
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-cork-dorks-white-sm-1.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-busters.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-tls-white-sm-1.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Applejacks.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
       ],
       "article_title_extracted": "Scotch | POS, Back Office & eComm for Liquor Stores",
       "category": "Tools",
@@ -16246,7 +16287,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/51d4b503ffd3195b748c31dcbe8bf3464c21fcdd6afce2b9c6de592b9f792407/chenglou/pretext"
+        "https://opengraph.githubassets.com/e32f1e2eab05ea0fe42634a8ea4f710e3249e4ad09ca86a1f2d58819a0c612ce/chenglou/pretext"
       ],
       "article_title_extracted": "GitHub - chenglou/pretext: Fast, accurate & comprehensive text measurement & layout · GitHub",
       "category": "Development",
@@ -18614,7 +18655,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/c4e3fa2c0ddf762d0f0ca613945acb92534f47353372600845db67545a7b0cb2/collaborator-ai/collab-public",
+        "https://opengraph.githubassets.com/b4559fc12f1c52732f80c363045725875da56cc734ead881463dc91695ac1afe/collaborator-ai/collab-public",
         "https://github.com/collaborator-ai/collab-public/raw/main/screenshot.png"
       ],
       "article_title_extracted": "GitHub - collaborator-ai/collab-public: Collaborator is a place to create with agents. · GitHub",
@@ -18812,7 +18853,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/bfa411a507cbe5604e3ddc45c969ec0f3dfce1004cc0055578d641eda4b2218b/mvanhorn/last30days-skill",
+        "https://opengraph.githubassets.com/18d4f7bc084c30eefc522a3f53bcc122f8fd7d585f7ded5593003362cadbc88a/mvanhorn/last30days-skill",
         "https://camo.githubusercontent.com/724b3cc2f446613b60378e97ea3a5dad21c155c910f920a1cb8dabc0a22149e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253233312d5265706f7369746f72792532304f662532305468652532304461792d3666343263313f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c3d4749544855422532305452454e44494e47",
         "https://camo.githubusercontent.com/ce216097f72408c567d06a636dffbe758a5d6b34a1f49fa00b0b822f716278cf/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3231393937",
         "https://camo.githubusercontent.com/793b32da108d147847b23b1b8a9aaefca7cb8eda93005b02cc9a111391abb00a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d76616e686f726e2f6c6173743330646179732d736b696c6c26747970653d44617465"
@@ -20570,7 +20611,25 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-2/twitter-card.png",
+        "https://nextjs.org/_next/image?url=%2Fstatic%2Fteam%2Fjimmy.jpg&w=64&q=75&dpl=dpl_9KcRAxtsZZ2wRQJpDWxN7ArEmM3F",
+        "https://nextjs.org/_next/image?url=%2Fstatic%2Fteam%2Ftim.jpg&w=64&q=75&dpl=dpl_9KcRAxtsZZ2wRQJpDWxN7ArEmM3F",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fupdated_error_page_light_2.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fupdated_error_page_dark.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fserver_fn_log_light_2.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fserver_fn_log_dark.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fhydration_diff_light.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Fhydration_pure_dark.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Ferror_trace_light.png&w=2048&q=75",
+        "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fstatic%2Fblog%2Fnext-16-2%2Ferror_trace_dark.png&w=2048&q=75",
+        "https://nextjs.org/_next/static/media/logo-github-light.0j2vz9_zw2uex.svg?dpl=dpl_9KcRAxtsZZ2wRQJpDWxN7ArEmM3F"
+      ],
+      "article_text": "[Back to Blog](https://nextjs.org/blog)\nWednesday, March 18th 2026\nNext.js 16.2\nPosted byNext.js 16.2 includes performance improvements, better debugging, improvements for Agents, and over 200 Turbopack fixes and improvements.\n[Faster Time-to-URL](https://nextjs.org#faster-time-to-url-in-development): ~400% fasternext dev\nstartup[Faster Rendering](https://nextjs.org#faster-rendering): ~50% faster rendering[New Default Error Page](https://nextjs.org#new-default-error-page): Redesigned built-in 500 page[Server Function Logging](https://nextjs.org#server-function-logging): Dev terminal logs for Server Function execution[Hydration Diff Indicator](https://nextjs.org#hydration-diff-indicator): Clear server/client diff in the error overlay: Attach the Node.js debugger to your production server--inspect\nfornext start\nWe also published dedicated deep-dive posts for two major areas of this release:\n[Turbopack](https://nextjs.org/blog/next-16-2-turbopack): Faster builds, SRI support,postcss.config.ts\n, tree shaking improvements, Server Fast Refresh, and 200+ bug fixes[AI Improvements](https://nextjs.org/blog/next-16-2-ai):AGENTS.md\nincreate-next-app\n, browser log forwarding, andnext-browser\n(experimental)\nUpgrade today, or get started with:\n# Use the automated upgrade CLI\nnpx @next/codemod@canary upgrade latest\n# ...or upgrade manually\nnpm install next@latest react@latest react-dom@latest\n# ...or start a new project\nnpx create-next-app@latest\nFaster Time-to-URL in Development\nWe've significantly improved the time it takes before localhost:3000\nis ready during next dev\n. On the same machine and project, startup is ~87% faster compared to Next.js 16.1 on the default application.\nFaster Rendering\nWe [contributed a change](https://github.com/facebook/react/pull/35776) to React that makes Server Components payload deserialization up to 350% faster. The previous implementation used a JSON.parse\nreviver callback, which crosses the C++/JavaScript boundary in V8 for every key-value pair in the parsed JSON. Even a trivial no-op reviver makes JSON.parse\nroughly 4x slower than without one.\nThe new approach uses a two-step process: plain JSON.parse()\nfollowed by a recursive walk in pure JavaScript. This eliminates the boundary-crossing overhead and adds optimizations like short-circuiting plain strings that don't need transformation.\nIn real-world Next.js applications, this translates to 25% to 60% faster rendering to HTML, depending on the RSC payload size.\nServer render time\nServer Component Table with 1000 items\n26% faster\nBefore\n19ms\nAfter\n15ms\nServer Component with nested Suspense\n33% faster\nBefore\n80ms\nAfter\n60ms\nPayload CMS homepage\n34% faster\nBefore\n43ms\nAfter\n32ms\nPayload CMS with rich text\n60% faster\nBefore\n52ms\nAfter\n33ms\nNew Default Error Page\nThe default error page shown in production has been redesigned. When your application encounters an error and you haven't defined a custom global-error.tsx\nor error.tsx\n, Next.js renders a built-in fallback page. This fallback has been updated with a cleaner, more modern design.\nServer Function Logging\nNext.js now logs Server Function execution in the terminal during development. Each log shows the function name, its arguments, execution time, and the file it's defined in.\nHydration Diff Indicator\nWhen a hydration mismatch occurs, the error overlay now clearly labels which content came from the server and which from the client. The diff uses a + Client\n/ - Server\nlegend, making it immediately clear what diverged.\n--inspect\nfor next start\nNext.js 16.1 introduced next dev --inspect\nfor attaching the Node.js debugger during development. In 16.2, this extends to next start\n, allowing you to attach a Node.js debugger to your production server.\nnext start --inspect\nThis is useful for debugging issues or profiling CPU and memory usage.\nFor more information on how to use the Node.js debugger, see the [Chrome documentation](https://developer.chrome.com/docs/devtools/performance/nodejs).\ntransitionTypes\nProp",
+      "article_title_extracted": "Next.js 16.2 | Next.js",
       "category": "Development",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:10:04.334722Z",
       "description": "Next.js 16.2 includes Adapters, rendering performance improvements, improved debugging and error pages, and more.",
       "domain": "nextjs.org",
@@ -20599,7 +20658,23 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://thatshubham.com/img/news-audit-og.jpg",
+        "https://thatshubham.com/img/newsbanner.webp",
+        "https://thatshubham.com/img/network.webp",
+        "https://thatshubham.com/img/track.webp",
+        "https://thatshubham.com/img/gdpr.webp",
+        "https://thatshubham.com/img/economictimes.webp",
+        "https://thatshubham.com/img/autoplay.webp",
+        "https://thatshubham.com/img/guardian.webp",
+        "https://thatshubham.com/img/j1.webp",
+        "https://thatshubham.com/img/npr.webp"
+      ],
+      "article_text": "Research & Analysis Featured In\nHarvard's Nieman Lab\n•\nDaring Fireball\n•\nTechmeme\n•\nAdExchanger\n•\nPluralistic\n•\nJavaScript Weekly\n•\nHacker News\nIf active distraction of readers of your own website was an Olympic Sport, news publications would top the charts every time.\nI went to the New York Times to glimpse at four headlines and was greeted with 422 network requests and 49 megabytes of data. It took two minutes before the page settled. And then you wonder why every sane tech person has an adblocker installed on systems of all their loved ones.\nIt is the same story across top publishers today.\nTo truly wrap your head around the phenomenon of a 49 MB web\npage, let's quickly travel back a few decades. With this\npage load, you would be leaping ahead of the size of Windows\n95 (28 floppy disks). The OS that ran the world fits\nperfectly inside a single modern page load. In 2006, the\niPod reigned supreme and digital music was precious. A\nstandard high-quality MP3 song at 192 kbps bitrate took up\naround 4 to 5 MB. This singular page represents roughly 10\nto 12 full-length songs. I essentially downloaded an entire\nalbum's worth of data just to read a few paragraphs of text.\nAccording to the\n[\nInternational Telecommunication Union](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=05&ipage=update&ext=html), the global average broadband internet speed back then was\nabout 1.5 Mbps. Your browser would continue loading this\nmonstrosity for several minutes, enough time for you to walk\naway and make a cup of coffee.\nIf hardware has improved so much over the last 20 years, has the modern framework/ad-tech stack completely negated that progress with abstraction and poorly architected bloat?\nNews websites really really like to track.\nFor the example above, taking a cursory look at the network waterfall for a single article load reveals a sprawling, unregulated programmatic ad auction happening entirely in the client's browser. Before the user finishes reading the headline, the browser is forced to process dozens of concurrent bidding requests to exchanges like Rubicon Project (fastlane.json) and Amazon Ad Systems. While these requests are asynchronous over the network, their payloads are incredibly hostile to the browser's main thread. To facilitate this, the browser must download, parse and compile megabytes of JS. As a publisher, you shouldn't run compute cycles to calculate ad yields before rendering the actual journalism.\n- The user requests text.\n- The browser downloads 5MB of tracking JS.\n- A silent auction happens in the background, taxing the mobile CPU.\n- The winning bidder injects a carefully selected interstitial ad you didn't ask for.\nCommon story across many offenders A relentless heartbeat of surveillance.\nBeyond the sheer weight of the programmatic auction, the frequency of behavioral surveillance was surprising. There is user monitoring running in parallel with a relentless barrage of POST beacons firing to first-party tracking endpoints (a.et.nytimes.com/track). The background invisible pixel drops and redirects to doubleclick.net and casalemedia help stitch the user's cross-site identity together across different ad networks.\nWhen you open a website on your phone, it's like participating in a high-frequency financial trading market. That heat you feel on the back of your phone? The sudden whirring of fans on your laptop? Contributing to that plus battery usage are a combination of these tiny scripts.\nIronically, this surveillance apparatus initializes alongside requests fetching purr.nytimes.com/tcf which I can only assume is Europe's IAB transparency and consent framework. They named the consent framework endpoint purr. A cat purring while it rifles through your pockets.\nSo therein lies the paradox of modern news UX. The mandatory cookie banners you are forced to click are merely legal shields deployed to protect the publisher while they happily mine your data in the background. But that's enough about NY",
+      "article_title_extracted": "The 49MB Web Page | thatshubham",
       "category": "Articles",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T01:39:07.683661Z",
       "description": "A look at modern news websites. How programmatic ad-tech, huge payloads and hostile architecture destroyed the reading experience.",
       "domain": "thatshubham.com",
@@ -20628,6 +20703,10 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://bitratecalculator.app/og.png"
+      ],
+      "article_title_extracted": "H.264 Bitrate Calculator",
       "category": "Tools",
       "created_at": "2026-03-18T09:34:55.169064Z",
       "description": "Calculate H.264 CBR and VBR bitrates for any resolution, frame rate and motion complexity. Free, instant, no sign-up.",
@@ -20657,6 +20736,12 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://www.aidesignfieldguide.com/share-link.png",
+        "https://www.aidesignfieldguide.com/map-artifact-3-EN.svg",
+        "https://www.aidesignfieldguide.com/map-artifact-1.svg"
+      ],
+      "article_title_extracted": "AI Design Field Guide",
       "category": "Design",
       "created_at": "2026-03-18T09:34:51.226876Z",
       "description": "Learn techniques from the designers behind OpenAI, Anthropic, Figma, Notion & more",
@@ -20686,6 +20771,22 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://newpeace.jp/ogp.jpg",
+        "https://newpeace.jp/_astro/b-header_bdphoto.02f51377_2umyVC.webp",
+        "https://newpeace.jp/_astro/contact_face.e9e281f1.svg",
+        "https://newpeace.jp/_astro/contact_operate.8262c975.svg",
+        "https://newpeace.jp/_astro/contact_airplane.11955ac5.svg",
+        "https://newpeace.jp/_astro/contact_hand.7c5939fe.svg",
+        "https://newpeace.jp/_astro/b-bd_kv.0ffbbff8_ZYTaOA.webp",
+        "https://cdn.newpeace.jp/wp-content/uploads/2025/03/01075528/00_%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB_860-x-828.jpg",
+        "https://cdn.newpeace.jp/wp-content/uploads/2024/08/15173336/thumbnail.jpg",
+        "https://cdn.newpeace.jp/wp-content/uploads/2025/09/07113953/mainKV_SP.jpg",
+        "https://cdn.newpeace.jp/wp-content/uploads/2023/04/13135356/thumbnail.jpg",
+        "https://cdn.newpeace.jp/wp-content/uploads/2025/08/29145408/muscat_thumnail.png"
+      ],
+      "article_title_extracted": "NEWPEACE｜未来を左右する経営課題にクリエイティビティで解を出す",
       "category": "Design",
       "created_at": "2026-03-18T09:34:41.768571Z",
       "description": "株式会社ニューピースは、企業の根幹にあるWHYを起点に、ブランドの開発からそれを支持するコミュニティの形成まで、持続的な成長を支援するプロフェッショナルです。",
@@ -66169,7 +66270,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1952,
+      "count": 1953,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -66205,5 +66306,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-17T04:57:50.651244Z"
+  "updated_at": "2026-05-17T07:43:30.506346Z"
 }
