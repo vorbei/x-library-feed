@@ -422,7 +422,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/a78060eed510e4940632be9d0ad6ae965f785690092c4cb552a012c23f6b83cd/vercel-labs/zero"
+        "https://opengraph.githubassets.com/2c963c30b38a4ba77c0194495e6f912b4b923afbcaeca050af93731c4486ec60/vercel-labs/zero"
       ],
       "article_title_extracted": "GitHub - vercel-labs/zero: The programming language for agents · GitHub",
       "category": "Development",
@@ -3247,6 +3247,8 @@
       "x_status_id": "2053948103766716630"
     },
     {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "article_image_urls": [
         "https://dreama.fun/opengraph-image-35zqtj.jpg?opengraph-image.0nfbg4w-ed4~y.jpg",
         "https://dreama.fun/_next/static/media/logo-zh.0l5_nz61arb-v.webp",
@@ -4505,8 +4507,8 @@
         "https://camo.githubusercontent.com/f7677bfbcab4f4c71c3675842e5864ff1016bd2f477c0677b316063ab1dc85ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6d6f64656d2d6465762f68756e6b2f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4349",
         "https://camo.githubusercontent.com/297568a47157895c517cd6b9f89b60de1d09aea57bfa14bfdf064772c3dab41f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d6f64656d2d6465762f68756e6b3f7374796c653d666f722d7468652d6261646765",
         "https://camo.githubusercontent.com/608c8dfda488178950ce502d7697514db3a6a712579327ed90b9b594260f6355/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666f722d7468652d6261646765",
-        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMyMTMsIm5iZiI6MTc3OTAxMjkxMywicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxNTEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODAyYTE4MjRkMWNiNWFmMjE5Nzg3Mzc5YmI0NGQzMmNhNDg4Y2Y1MDZjN2EyZjcwNzJjNTFjMDM5OTY5ZDQ4NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.iIa2RkbLaClKfL9k4G1DBx6jNu9R6ijN-KwK0XK1r40",
-        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMyMTMsIm5iZiI6MTc3OTAxMjkxMywicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxNTEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzY4NmU0ZTc3MDZjOGRiMmJlZmUxNDY5ODJmZTRiMmJlZWRmM2FjOTliZDczZWE4MmNiMzg1MWY0OTdiM2EzNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.qh6Xzl5imGKBLi9tsQJPud6kECrEwspYdB-u62uioic",
+        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMjc0OTUsIm5iZiI6MTc3OTAyNzE5NSwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTQxMzE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODdiODE2MjJkYzg4ZDcxNWYxMDMzN2MzZTg0Mzc3NjczMjRiODQ1YjJkMDI2ZTZjOTRkMzMwMDI2ODMwYzI0ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0._HTPG045urMJ8QnHLdHuer90fLibDq2FeIlEGEVoSTs",
+        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMjc0OTUsIm5iZiI6MTc3OTAyNzE5NSwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTQxMzE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZDM0YmYzYWRiOGY4MTllODM0MjBiYTcyNTQ0NDIyY2M4YTdiOGM2NzJkZTk3YTI4YjZmZDhhM2MwOGNlOTUyYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.aQO0GzsAGA2MoZeHJJT8-MmxPnU3VIOjiQAbAtqOJaw",
         "https://camo.githubusercontent.com/5b5deb6caabfa7a609505bbadf9b1de5260ab2e3024ea3ea774e317703b8bd1c/68747470733a2f2f6d6f64656d2e6465762f696d616765732f6c6f676f2f7376672f6d6f64656d2d636f6d62696e65642d626c61636b2e737667"
       ],
       "article_title_extracted": "GitHub - modem-dev/hunk: Review-first terminal diff viewer for agentic coders · GitHub",
@@ -5126,17 +5128,17 @@
     {
       "article_image_urls": [
         "https://dayclaw.com/og-dayclaw.png",
-        "https://www.dayclaw.com/logo.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/model-logos/gemini-color.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fmain-feature.png&w=3840&q=75&dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fall-your-sources.png&w=3840&q=75&dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/sources-logos/twitter-x.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/sources-logos/youtube.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/sources-logos/reddit.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/sources-logos/hacker-news.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/sources-logos/producthunt.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/apps-logos/gmail.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk",
-        "https://www.dayclaw.com/apps-logos/slack.svg?dpl=dpl_83zuoq9BSgJCU9pFS2oiTd6VdLmk"
+        "https://www.dayclaw.com/logo.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/model-logos/gemini-color.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fmain-feature.png&w=3840&q=75&dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fall-your-sources.png&w=3840&q=75&dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/sources-logos/twitter-x.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/sources-logos/youtube.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/sources-logos/reddit.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/sources-logos/hacker-news.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/sources-logos/producthunt.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/apps-logos/gmail.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds",
+        "https://www.dayclaw.com/apps-logos/slack.svg?dpl=dpl_4qTkvwjBqXohwNbnN8JAWLerqrds"
       ],
       "article_title_extracted": "Dayclaw | AI Agent Workspace for Research & Automation",
       "category": "Tools",
@@ -5424,7 +5426,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/2f97a823afc7f92f844e76125b73ee9523f836f4f04c86478e24dc263dfe61f3/steipete/RepoBar",
+        "https://opengraph.githubassets.com/0dd859ef1dc7baea52310f09cc29376e75fb69a29e4ddd1a81b3c6d85b1a015b/steipete/RepoBar",
         "https://github.com/steipete/RepoBar/raw/main/docs/assets/repobar.png"
       ],
       "article_title_extracted": "GitHub - steipete/RepoBar: Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release. · GitHub",
@@ -6268,8 +6270,8 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/caf30cd055549fd27ae5d2b655c4b0bf0cf6341de14ed62138044d204788c443/b-nnett/codex-plusplus",
-        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMzMTAsIm5iZiI6MTc3OTAxMzAxMCwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDEwMTY1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWExMTNmMmIxM2UyYmY1OGQ5MDNkZTM4NjhlZTA2YzIwOTQxYzFiZTJmZGQ0ZjRiMWViZGY2NWYyYTZkZTI2NTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.xDen2NFFCplplOqb1uzzEc4yUy_qlc95QNILLRzzVNw"
+        "https://opengraph.githubassets.com/cf2f8166b493811bb2eb4c4cf67cfb15b30edfb2d24c0ae1e765d5432ddc6857/b-nnett/codex-plusplus",
+        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMjc1OTgsIm5iZiI6MTc3OTAyNzI5OCwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDE0MTQ1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1YjI0MDIwNGMwYmM2YzVjOTRhZjFhMjkzNGNjZTZkYzUxZThkZDkwODk0NDI4OTRlMWUxNzEwN2RlNDg4NDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.IV4O8VG1qyBMs9hkf04QyX8lEzPiSUKhOoHWn8_WX7M"
       ],
       "article_title_extracted": "GitHub - b-nnett/codex-plusplus: Codex++ tweak system for the Codex desktop app · GitHub",
       "category": "Development",
@@ -7040,8 +7042,10 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://www.youtube.com/watch?v=hTdSU7q5WCo//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://www.youtube.com/watch?v=hTdSU7q5WCo//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.161.197  \nTime: 2026-05-17T14:16:20Z  \nURL: https://www.youtube.com/watch?v=hTdSU7q5WCo",
       "article_title_extracted": "- YouTube",
       "category": "Media",
+      "cleaner_v": 1,
       "created_at": "2026-04-30T09:06:47.190591Z",
       "description": "Naval • YouTube",
       "domain": "www.youtube.com",
@@ -7695,7 +7699,7 @@
     {
       "article_image_urls": [
         "https://opengraph.githubassets.com/f87bbc7e2e490fb5540ba4cad1c8529962ca74a9d1b9ffa380211f06f5732859/asekachov/Markie",
-        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTM0MzAsIm5iZiI6MTc3OTAxMzEzMCwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxODUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTAwNWNhNGNkYTZlYWQ1Zjk2ZGQ2OWFjZDMyMDE4YzJjMDRlYjk5Nzc1MGRlMTA1OTlmNGQ1NTJlYmI4ZDFlNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.YmRXoFtS4PtXWXU_h9OgAFxFm1iY9d2KEgFxZMjSECs"
+        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMjc3MjAsIm5iZiI6MTc3OTAyNzQyMCwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTQxNzAwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTU2MDI0MGRjNDNjMmMwYmQ2NDFjZjZjYjIwNTcyOGViNGQzZWNjYTk1ZDRiYjc5ZGU3ZTAyZjVmOGQwYTA1ZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.RYGwPDVN6xDDHBzjP_Wequk9EZU0C-MGh_hZmyIjExk"
       ],
       "article_title_extracted": "GitHub - asekachov/Markie: Markie — quick-add panel for macOS. Public release feed (DMGs + Sparkle appcast). · GitHub",
       "category": "Development",
@@ -8905,6 +8909,7 @@
     },
     {
       "article_image_urls": [
+        "https://cdn.sanity.io/images/pv37i0yn/production/c33db052f8afd1af58bc0342cf8ce06cbeb84467-600x314.png",
         "https://cdn.sanity.io/images/pv37i0yn/production/2095949f01e1cf9cf0841096b67d547d9dbfba2e-215x24.svg",
         "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2Feadd3c2ed50ecd13ad2917cd46ac4ee71824d786-1024x1024.png%3Fauto%3Dformat&w=3840&q=75",
         "https://cdn.sanity.io/images/pv37i0yn/production/cc90788a38550199abccf713bc06d799a4e667a7-40x40.svg",
@@ -8915,8 +8920,7 @@
         "https://cdn.sanity.io/images/pv37i0yn/production/bb8d628c4ad0b774525ad765138a7b85c4fa4c0f-40x40.svg",
         "https://cdn.sanity.io/images/pv37i0yn/production/f549e0e24c286535bc06df0b0310d270183469e8-40x40.svg",
         "https://cdn.sanity.io/images/pv37i0yn/production/ac4f278bca97db5305dc57517631971c55d20c47-40x40.svg",
-        "https://cdn.sanity.io/images/pv37i0yn/production/1a746e6943875987fa5d792e763eaf154cac8919-628x521.svg",
-        "https://cdn.sanity.io/images/pv37i0yn/production/f1f9686e87ee08dd1d0ed921c807251e6e3bb0dc-628x521.svg"
+        "https://cdn.sanity.io/images/pv37i0yn/production/1a746e6943875987fa5d792e763eaf154cac8919-628x521.svg"
       ],
       "article_title_extracted": "Fireworks AI - Fastest Inference for Generative AI",
       "category": "Development",
@@ -9059,7 +9063,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/d755b5b1bb1c5427d022c209a06da89bf752729e209b9e1c016c5b3587a6fc32/google-labs-code/design.md"
+        "https://opengraph.githubassets.com/cc2563899f7e13c015bab4c5258f42ee8389a8823d12d1f441624aaabc08564c/google-labs-code/design.md"
       ],
       "article_title_extracted": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. · GitHub",
       "category": "Development",
@@ -10957,7 +10961,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/c4c1f9d9f2196dafb07bd22430c94ee556079cd704743791a4ae998d6e4c385e/android/skills"
+        "https://opengraph.githubassets.com/e202ca13897662ef98cae2cb36221f35a1ae2a88cd54be86a7a46947ac3be0d6/android/skills"
       ],
       "article_title_extracted": "GitHub - android/skills · GitHub",
       "category": "Development",
@@ -11736,7 +11740,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/73b7a8935ea1b3cf8d2a8b1f204c3fd124f0094d04b60522c94b1a1410496b67/microsoft/markitdown",
+        "https://opengraph.githubassets.com/f34b04e4a068596c508edad0c2ef28cc205b0d2094e4a8e9848d5bd243b01b64/microsoft/markitdown",
         "https://camo.githubusercontent.com/124b95350d48b05db482b4a2153dc9cb06250d6e9272e121a6f3856a5159879d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667",
         "https://camo.githubusercontent.com/b358637622bf3aede990f9e2f7d2297d2cb2974ff07ba78c71de83a0dbaf1220/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e",
         "https://camo.githubusercontent.com/e773e2d12920abb5d8b2fe1d05f510b9ba7c3c54969bc3e05b6f7e8f8705e71d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565"
@@ -11919,7 +11923,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/c405f8f28fdeb81adeb4bb1e8acab07fc0636696687a50551004a1b3ca52ae61/jimmysu0309/shinkansen"
+        "https://opengraph.githubassets.com/a8d6afbe48ab48574fb92ffb910831bb4ebe56d8215d16375167b45279568c82/jimmysu0309/shinkansen"
       ],
       "article_title_extracted": "GitHub - jimmysu0309/shinkansen: 快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方 · GitHub",
       "category": "Development",
@@ -12331,7 +12335,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/e7a73874b988a1c460124a37ab3329143d85af35a62b6eb04d6d47bfd1fa6c2f/xykong/flux-markdown",
+        "https://opengraph.githubassets.com/36b0044e5f1482f6ce042c72e08315ef6281889fd355e702059bcd9e1de4fc6d/xykong/flux-markdown",
         "https://camo.githubusercontent.com/b0380a417fadbcb20bd84b8cf42739a9491f8533f7a3e363c0850af65f874563/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d736f6369616c",
         "https://camo.githubusercontent.com/35b119566bec2c2a2f203adead38deba3f4c2d50bf2a0ac3fecd56156ee85550/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d666c61742d737175617265",
         "https://camo.githubusercontent.com/ea1c5b42988d7835204e6bda37a2b6918737de58d663669e38578024903a9680/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f78796b6f6e672f666c75782d6d61726b646f776e2f746f74616c3f7374796c653d666c61742d737175617265",
@@ -13384,10 +13388,10 @@
     {
       "article_image_urls": [
         "https://fleetai.com/images/OG-Image.png",
-        "https://fleetai.com/logos/fleet/fleet0b.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
-        "https://fleetai.com/logos/fleet/fleettb.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
-        "https://fleetai.com/logos/fleet/fleet0w.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
-        "https://fleetai.com/logos/fleet/fleettw.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH"
+        "https://fleetai.com/logos/fleet/fleet0b.svg?dpl=dpl_FcbiR7dV29R9DnophSzfK7kUuLqN",
+        "https://fleetai.com/logos/fleet/fleettb.svg?dpl=dpl_FcbiR7dV29R9DnophSzfK7kUuLqN",
+        "https://fleetai.com/logos/fleet/fleet0w.svg?dpl=dpl_FcbiR7dV29R9DnophSzfK7kUuLqN",
+        "https://fleetai.com/logos/fleet/fleettw.svg?dpl=dpl_FcbiR7dV29R9DnophSzfK7kUuLqN"
       ],
       "article_title_extracted": "Fleet",
       "category": "Tools",
@@ -16207,8 +16211,8 @@
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Bevvys.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Argonaught.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Argonaught.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Applejacks.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
       ],
       "article_title_extracted": "Scotch | POS, Back Office & eComm for Liquor Stores",
       "category": "Tools",
@@ -16287,7 +16291,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1c0799d01939883a2f41b6c654854d4e3321b1d0d5d67f31cdc2fccb6251a0a0/chenglou/pretext"
+        "https://opengraph.githubassets.com/9dbec2cfa6d8c7c3633552f6a8afe48ff15f3785b1e110ccaf947ca52df399e3/chenglou/pretext"
       ],
       "article_title_extracted": "GitHub - chenglou/pretext: Fast, accurate & comprehensive text measurement & layout · GitHub",
       "category": "Development",
@@ -18655,7 +18659,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/b4559fc12f1c52732f80c363045725875da56cc734ead881463dc91695ac1afe/collaborator-ai/collab-public",
+        "https://opengraph.githubassets.com/f5d37d7992b05dc626ea3563f69ac9fdbe35c7cd3ffe7f307422546c2a6811a7/collaborator-ai/collab-public",
         "https://github.com/collaborator-ai/collab-public/raw/main/screenshot.png"
       ],
       "article_title_extracted": "GitHub - collaborator-ai/collab-public: Collaborator is a place to create with agents. · GitHub",
@@ -18853,7 +18857,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/d755b5b1bb1c5427d022c209a06da89bf752729e209b9e1c016c5b3587a6fc32/mvanhorn/last30days-skill",
+        "https://opengraph.githubassets.com/ece37c669791623d89b99735af1218e8ecf318320b18102c3ef2c1324b92271e/mvanhorn/last30days-skill",
         "https://camo.githubusercontent.com/724b3cc2f446613b60378e97ea3a5dad21c155c910f920a1cb8dabc0a22149e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253233312d5265706f7369746f72792532304f662532305468652532304461792d3666343263313f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c3d4749544855422532305452454e44494e47",
         "https://camo.githubusercontent.com/ce216097f72408c567d06a636dffbe758a5d6b34a1f49fa00b0b822f716278cf/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3231393937",
         "https://camo.githubusercontent.com/793b32da108d147847b23b1b8a9aaefca7cb8eda93005b02cc9a111391abb00a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d76616e686f726e2f6c6173743330646179732d736b696c6c26747970653d44617465"
@@ -20884,6 +20888,8 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "cf_browser_rendering",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-18T04:49:46.864792Z",
       "description": "Mo Bitar • YouTube",
@@ -66316,5 +66322,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-17T10:25:40.800157Z"
+  "updated_at": "2026-05-17T14:24:04.860619Z"
 }
