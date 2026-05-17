@@ -422,7 +422,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ff9b8e3e9f3f584a764a6951281f527701c7153410e3238c4e8a2ba8b73dcddb/vercel-labs/zero"
+        "https://opengraph.githubassets.com/a78060eed510e4940632be9d0ad6ae965f785690092c4cb552a012c23f6b83cd/vercel-labs/zero"
       ],
       "article_title_extracted": "GitHub - vercel-labs/zero: The programming language for agents · GitHub",
       "category": "Development",
@@ -2587,7 +2587,7 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "trafilatura",
+      "article_extraction": "cf_browser_rendering",
       "article_image_urls": [
         "https://images.ctfassets.net/spoqsaf9291f/4yrhxwVSEBgnFcThCgGExc/8072c98e41f251db500fa9f6482883b8/preview.png"
       ],
@@ -4505,8 +4505,8 @@
         "https://camo.githubusercontent.com/f7677bfbcab4f4c71c3675842e5864ff1016bd2f477c0677b316063ab1dc85ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6d6f64656d2d6465762f68756e6b2f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4349",
         "https://camo.githubusercontent.com/297568a47157895c517cd6b9f89b60de1d09aea57bfa14bfdf064772c3dab41f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d6f64656d2d6465762f68756e6b3f7374796c653d666f722d7468652d6261646765",
         "https://camo.githubusercontent.com/608c8dfda488178950ce502d7697514db3a6a712579327ed90b9b594260f6355/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666f722d7468652d6261646765",
-        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDMzNTUsIm5iZiI6MTc3OTAwMzA1NSwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczMDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWQ3YzY4YmZmZWI3MTE1NzUzNDhmNTdlYWFiOTIyOWRmM2M3N2U2Mzc0MDEwMWRmZTE4ZmM3ZjEzNTlkZDE2NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.-t35guhxM4KEZsMHmiipU06iI6QdrGwMLjS4Ur9WmtU",
-        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDMzNTUsIm5iZiI6MTc3OTAwMzA1NSwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczMDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODA4NWUwYTVjYjIzY2VjNDMyMmI4YzgxMDczNTViMzYzOTY2Y2RlYTM1YjU3NDNiNmU0YTE2MTEwNzQ3ZmRlMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.HZJk3Usg5KiofEStCEOVgCcMIMdFGr1kSAKgysc4RZs",
+        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMyMTMsIm5iZiI6MTc3OTAxMjkxMywicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxNTEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODAyYTE4MjRkMWNiNWFmMjE5Nzg3Mzc5YmI0NGQzMmNhNDg4Y2Y1MDZjN2EyZjcwNzJjNTFjMDM5OTY5ZDQ4NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.iIa2RkbLaClKfL9k4G1DBx6jNu9R6ijN-KwK0XK1r40",
+        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMyMTMsIm5iZiI6MTc3OTAxMjkxMywicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxNTEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzY4NmU0ZTc3MDZjOGRiMmJlZmUxNDY5ODJmZTRiMmJlZWRmM2FjOTliZDczZWE4MmNiMzg1MWY0OTdiM2EzNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.qh6Xzl5imGKBLi9tsQJPud6kECrEwspYdB-u62uioic",
         "https://camo.githubusercontent.com/5b5deb6caabfa7a609505bbadf9b1de5260ab2e3024ea3ea774e317703b8bd1c/68747470733a2f2f6d6f64656d2e6465762f696d616765732f6c6f676f2f7376672f6d6f64656d2d636f6d62696e65642d626c61636b2e737667"
       ],
       "article_title_extracted": "GitHub - modem-dev/hunk: Review-first terminal diff viewer for agentic coders · GitHub",
@@ -6268,8 +6268,8 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/d75f326b0cb9e5b8ec105559f2058fc78eb49362b736f0eafdaf3d28d5cc5c0b/b-nnett/codex-plusplus",
-        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDM0NjUsIm5iZiI6MTc3OTAwMzE2NSwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDA3MzI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmZGE1M2VkZjZhZDRhYmNjNWM3ZDBmOTI0MDk1MDdjYmVmZDkwNWQwNzk1MmQyZjU1Mjc2MGMxZjA4NmNiYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.PYd80Nufh4htulxRqismUFZQtUNL0vMDHnYiTB0TsWI"
+        "https://opengraph.githubassets.com/caf30cd055549fd27ae5d2b655c4b0bf0cf6341de14ed62138044d204788c443/b-nnett/codex-plusplus",
+        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTMzMTAsIm5iZiI6MTc3OTAxMzAxMCwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDEwMTY1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWExMTNmMmIxM2UyYmY1OGQ5MDNkZTM4NjhlZTA2YzIwOTQxYzFiZTJmZGQ0ZjRiMWViZGY2NWYyYTZkZTI2NTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.xDen2NFFCplplOqb1uzzEc4yUy_qlc95QNILLRzzVNw"
       ],
       "article_title_extracted": "GitHub - b-nnett/codex-plusplus: Codex++ tweak system for the Codex desktop app · GitHub",
       "category": "Development",
@@ -7695,7 +7695,7 @@
     {
       "article_image_urls": [
         "https://opengraph.githubassets.com/f87bbc7e2e490fb5540ba4cad1c8529962ca74a9d1b9ffa380211f06f5732859/asekachov/Markie",
-        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMDM1OTUsIm5iZiI6MTc3OTAwMzI5NSwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDczNDU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjFkMjU4OTI0NWRmNjVhMzBiZjU4ZTEzMzFjZmE4M2VhZDM0NGEyN2QzOTg4MTE2NDkxYjRmNWQyMWI2NDQ2MCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.6sZAw1Vi_mJaE1ktkrhex0P0Jt88BPVvxnaxHhajGiQ"
+        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzkwMTM0MzAsIm5iZiI6MTc3OTAxMzEzMCwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMTAxODUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTAwNWNhNGNkYTZlYWQ1Zjk2ZGQ2OWFjZDMyMDE4YzJjMDRlYjk5Nzc1MGRlMTA1OTlmNGQ1NTJlYmI4ZDFlNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.YmRXoFtS4PtXWXU_h9OgAFxFm1iY9d2KEgFxZMjSECs"
       ],
       "article_title_extracted": "GitHub - asekachov/Markie: Markie — quick-add panel for macOS. Public release feed (DMGs + Sparkle appcast). · GitHub",
       "category": "Development",
@@ -8905,7 +8905,6 @@
     },
     {
       "article_image_urls": [
-        "https://cdn.sanity.io/images/pv37i0yn/production/c33db052f8afd1af58bc0342cf8ce06cbeb84467-600x314.png",
         "https://cdn.sanity.io/images/pv37i0yn/production/2095949f01e1cf9cf0841096b67d547d9dbfba2e-215x24.svg",
         "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2Feadd3c2ed50ecd13ad2917cd46ac4ee71824d786-1024x1024.png%3Fauto%3Dformat&w=3840&q=75",
         "https://cdn.sanity.io/images/pv37i0yn/production/cc90788a38550199abccf713bc06d799a4e667a7-40x40.svg",
@@ -8916,7 +8915,8 @@
         "https://cdn.sanity.io/images/pv37i0yn/production/bb8d628c4ad0b774525ad765138a7b85c4fa4c0f-40x40.svg",
         "https://cdn.sanity.io/images/pv37i0yn/production/f549e0e24c286535bc06df0b0310d270183469e8-40x40.svg",
         "https://cdn.sanity.io/images/pv37i0yn/production/ac4f278bca97db5305dc57517631971c55d20c47-40x40.svg",
-        "https://cdn.sanity.io/images/pv37i0yn/production/1a746e6943875987fa5d792e763eaf154cac8919-628x521.svg"
+        "https://cdn.sanity.io/images/pv37i0yn/production/1a746e6943875987fa5d792e763eaf154cac8919-628x521.svg",
+        "https://cdn.sanity.io/images/pv37i0yn/production/f1f9686e87ee08dd1d0ed921c807251e6e3bb0dc-628x521.svg"
       ],
       "article_title_extracted": "Fireworks AI - Fastest Inference for Generative AI",
       "category": "Development",
@@ -9059,7 +9059,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/0d728e2a2681274679b484653ca56f09fd95f00903a143e011b6d70167a9b344/google-labs-code/design.md"
+        "https://opengraph.githubassets.com/d755b5b1bb1c5427d022c209a06da89bf752729e209b9e1c016c5b3587a6fc32/google-labs-code/design.md"
       ],
       "article_title_extracted": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. · GitHub",
       "category": "Development",
@@ -10957,7 +10957,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/bd7a782f140ebd361f5fb482493cb96c5cc308e91696fc955b1b467843f53255/android/skills"
+        "https://opengraph.githubassets.com/c4c1f9d9f2196dafb07bd22430c94ee556079cd704743791a4ae998d6e4c385e/android/skills"
       ],
       "article_title_extracted": "GitHub - android/skills · GitHub",
       "category": "Development",
@@ -11736,7 +11736,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/33cc5387f2fbde7c98a4fd14414ac9c3ed4ea732392524b8dde9b1b675508501/microsoft/markitdown",
+        "https://opengraph.githubassets.com/73b7a8935ea1b3cf8d2a8b1f204c3fd124f0094d04b60522c94b1a1410496b67/microsoft/markitdown",
         "https://camo.githubusercontent.com/124b95350d48b05db482b4a2153dc9cb06250d6e9272e121a6f3856a5159879d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667",
         "https://camo.githubusercontent.com/b358637622bf3aede990f9e2f7d2297d2cb2974ff07ba78c71de83a0dbaf1220/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e",
         "https://camo.githubusercontent.com/e773e2d12920abb5d8b2fe1d05f510b9ba7c3c54969bc3e05b6f7e8f8705e71d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565"
@@ -11919,7 +11919,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/69e09b6a958b6f01a2d16103ff1e24deca45546563b313b7147c983b72caa63b/jimmysu0309/shinkansen"
+        "https://opengraph.githubassets.com/c405f8f28fdeb81adeb4bb1e8acab07fc0636696687a50551004a1b3ca52ae61/jimmysu0309/shinkansen"
       ],
       "article_title_extracted": "GitHub - jimmysu0309/shinkansen: 快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方 · GitHub",
       "category": "Development",
@@ -16207,8 +16207,8 @@
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-tls-white-sm-1.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Applejacks.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Bevvys.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Argonaught.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
       ],
       "article_title_extracted": "Scotch | POS, Back Office & eComm for Liquor Stores",
       "category": "Tools",
@@ -16287,7 +16287,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/e32f1e2eab05ea0fe42634a8ea4f710e3249e4ad09ca86a1f2d58819a0c612ce/chenglou/pretext"
+        "https://opengraph.githubassets.com/1c0799d01939883a2f41b6c654854d4e3321b1d0d5d67f31cdc2fccb6251a0a0/chenglou/pretext"
       ],
       "article_title_extracted": "GitHub - chenglou/pretext: Fast, accurate & comprehensive text measurement & layout · GitHub",
       "category": "Development",
@@ -18853,7 +18853,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/18d4f7bc084c30eefc522a3f53bcc122f8fd7d585f7ded5593003362cadbc88a/mvanhorn/last30days-skill",
+        "https://opengraph.githubassets.com/d755b5b1bb1c5427d022c209a06da89bf752729e209b9e1c016c5b3587a6fc32/mvanhorn/last30days-skill",
         "https://camo.githubusercontent.com/724b3cc2f446613b60378e97ea3a5dad21c155c910f920a1cb8dabc0a22149e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253233312d5265706f7369746f72792532304f662532305468652532304461792d3666343263313f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c3d4749544855422532305452454e44494e47",
         "https://camo.githubusercontent.com/ce216097f72408c567d06a636dffbe758a5d6b34a1f49fa00b0b822f716278cf/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3231393937",
         "https://camo.githubusercontent.com/793b32da108d147847b23b1b8a9aaefca7cb8eda93005b02cc9a111391abb00a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d76616e686f726e2f6c6173743330646179732d736b696c6c26747970653d44617465"
@@ -20816,6 +20816,8 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "cf_browser_rendering",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-18T09:30:53.293091Z",
       "description": "Paul Lagier • YouTube",
@@ -20845,7 +20847,15 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://static.simonwillison.net/static/2026/gpt-5.4-pelicans-card.jpg",
+        "https://static.simonwillison.net/static/2026/IMG_2324.jpeg",
+        "https://static.simonwillison.net/static/2026/gpt-5.4-pelican-family.svg"
+      ],
+      "article_text": "Simon Willison’s Weblog Subscribe Sponsored by: Datadog — Ship reliable AI faster with LLM Observability. Read the best practices guide GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52 17th March 2026 OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI’s self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous mini. Here’s how the pricing looks—all prices are per million tokens. gpt-5.4-nano is notably even cheaper than Google’s Gemini 3.1 Flash-Lite: Model Input Cached input Output gpt-5.4 $2.50 $0.25 $15.00 gpt-5.4-mini $0.75 $0.075 $4.50 gpt-5.4-nano $0.20 $0.02 $1.25 Other models for comparison Claude Opus 4.6 $5.00 - $25.00 Claude Sonnet 4.6 $3.00 - $15.00 Gemini 3.1 Pro $2.00 - $12.00 Claude Haiku 4.5 $1.00 - $5.00 Gemini 3.1 Flash-Lite $0.25 - $1.50 I used GPT-5.4 nano to generate a description of this photo I took at the John M. Mossman Lock Collection : llm -m gpt-5.4-nano -a IMG_2324.jpeg 'describe image' Here’s the output: The image shows the interior of a museum gallery with a long display wall. White-painted brick walls are covered with many framed portraits arranged in neat rows. Below the portraits, there are multiple glass display cases with dark wooden frames and glass tops/fronts, containing various old historical objects and equipment. The room has a polished wooden floor, hanging ceiling light fixtures/cords, and a few visible pipes near the top of the wall. In the foreground, glass cases run along the length of the room, reflecting items from other sections of the gallery. That took 2,751 input tokens and 112 output tokens, at a cost of 0.069 cents (less than a tenth of a cent). That means describing every single photo in my 76,000 photo collection would cost around $52.44. I released llm 0.29 with support for the new models. Pelicans Then I had OpenAI Codex loop through all five reasoning effort levels and all three models and produce this combined SVG grid of pelicans riding bicycles ( generation transcripts here ). I do like the gpt-5.4 xhigh one the best, it has a good bicycle (with nice spokes) and the pelican has a fish in its beak! Posted 17th March 2026 at 7:39 pm · Follow me on Mastodon , Bluesky , Twitter or subscribe to my newsletter More recent articles Notes on the xAI/Anthropic data center deal - 7th May 2026 Live blog: Code w/ Claude 2026 - 6th May 2026 Vibe coding and agentic engineering are getting closer than I'd like - 6th May 2026 This is GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52 by Simon Willison, posted on 17th March 2026 . ai 2023 openai 419 generative-ai 1790 llms 1756 llm 600 vision-llms 85 llm-pricing 72 pelican-riding-a-bicycle 113 llm-release 199 Next: Thoughts on OpenAI acquiring Astral and uv/ruff/ty Previous: My fireside chat about agentic engineering at the Pragmatic Summit Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+      "article_title_extracted": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
       "category": "Articles",
+      "cleaner_v": 1,
       "created_at": "2026-03-18T07:27:49.543348Z",
       "description": "OpenAI today: Introducing GPT‑5.4 mini and nano. These models join GPT-5.4 which was released two weeks ago. OpenAI’s self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model …",
       "domain": "simonwillison.net",
@@ -66306,5 +66316,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-17T07:43:30.506346Z"
+  "updated_at": "2026-05-17T10:25:40.800157Z"
 }
