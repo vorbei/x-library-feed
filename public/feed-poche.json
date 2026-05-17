@@ -5,11 +5,11 @@
       "name": "Tools"
     },
     {
-      "count": 376,
+      "count": 379,
       "name": "Development"
     },
     {
-      "count": 310,
+      "count": 311,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 127,
+      "count": 129,
       "name": "Media"
     },
     {
@@ -34,8 +34,215 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2097,
+  "item_count": 2103,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_title_extracted": "Amano - Technology that helps. Design that listens. Impact that lasts.",
+      "category": "Design",
+      "created_at": "2026-05-16T14:10:12.435765Z",
+      "description": "Amano - Technology that helps. Design that listens. Impact that lasts. Building human-centered solutions focused on accessibility, care, and real-world impact.",
+      "domain": "www.amanolabs.com",
+      "embed_type": "",
+      "id": "k1733c75fw8b92pq0rscmzzr9x86vna5",
+      "og_image_url": "https://cloud.poche.app/api/storage/a26b64b2-579e-4c3b-9d1c-c8ba4ee10292",
+      "recommended_at": "2026-05-17T04:13:26.638000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "accessibility",
+        "human-centered-design",
+        "social-impact"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:26.638000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Amano - Technology that helps. Design that listens. Impact that lasts.",
+      "url": "https://www.amanolabs.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://x.ai/images/news/grok-hermes.png"
+      ],
+      "article_text": "Grok API Company Colossus Careers News Shop SpaceX 𝕏 Try Grok May 15, 2026 Connect Grok to Hermes Agent Use your Grok account and subscription inside Nous Research’s open-source, self-improving Hermes agent. Starting today, you can use your Grok subscription directly inside Hermes Agent. Hermes Agent is Nous Research’s open-source, self-improving agent. It runs persistently on any computer, sandbox, or VPS and creates long-term memory across sessions, learning as you use it. Like other open-source personal agents, Hermes can connect to WhatsApp, Discord, Telegram, Signal, or other messaging providers. With your Grok subscription in Hermes, you can use: Grok 4.3 for text conversations and advanced reasoning Grok Text-to-Speech for spoken responses Grok Imagine for your agent to create images and videos Connecting Grok to your Hermes agent is available on every tier. Setup Install Hermes Agent: bash # Linux / macOS / WSL2 / Android (Termux) curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash Pick the Grok provider: bash hermes model Select xAI Grok OAuth (SuperGrok Subscription) , sign in through the browser, and start chatting: bash hermes --tui For more, see the Hermes Agent xAI Grok OAuth docs . More open-source agents and integrations are coming soon. Try Grok On Web iOS Android Grok on X Products Grok 𝕏 Grok Enterprise Grokipedia API Overview Voice API Imagine API Pricing API Console Login Documentation Company Company Careers Contact News Resources Privacy policy Privacy portal Security Safety Legal Status",
+      "article_title_extracted": "Connect Grok to Hermes Agent | xAI",
+      "category": "Development",
+      "cleaner_v": 1,
+      "created_at": "2026-05-17T04:12:16.796032Z",
+      "description": "Use your Grok account and subscription inside Nous Research’s open-source, self-improving Hermes agent.",
+      "domain": "x.ai",
+      "embed_type": "",
+      "id": "k17bbgp62ywfbkfzzsyjpwkyd586ww43",
+      "og_image_url": "https://x.ai/images/news/grok-hermes.png",
+      "recommended_at": "2026-05-17T04:13:17.634000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "llm-integration",
+        "grok"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:17.634000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Connect Grok to Hermes Agent | xAI",
+      "url": "https://x.ai/news/grok-hermes",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://www.branch.computer/og-cover.png",
+        "https://www.branch.computer/figma/branch-icon.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/branch-wordmark.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/copy-hero.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/hero-center-logo.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/hero-center-repo.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/github.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/_next/image?url=%2Ffigma%2Fcli-bg.png&w=3840&q=75&dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/traffic-lights.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/figma/shield.svg?dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/_next/image?url=%2Ffigma%2Fbuild-bg.png&w=3840&q=75&dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8",
+        "https://www.branch.computer/_next/image?url=%2Ffigma%2Fplan-bg.png&w=3840&q=75&dpl=dpl_5CXmHf6zTiCRRczDdbVKTsfZcuj8"
+      ],
+      "article_title_extracted": "Branch — Give AI the context and skills to build better products",
+      "category": "Development",
+      "created_at": "2026-05-17T04:12:20.466869Z",
+      "description": "Branch maps your repositories, relationships, and dependencies into one clear view for humans and agents.",
+      "domain": "www.branch.computer",
+      "embed_type": "",
+      "id": "k17678pwkd4g14rhaggtzbfvh186wrea",
+      "og_image_url": "https://www.branch.computer/og-cover.png",
+      "recommended_at": "2026-05-17T04:13:15.876000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-development",
+        "software-engineering",
+        "developer-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:15.876000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Branch — Give AI the context and skills to build better products",
+      "url": "https://www.branch.computer/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_image_urls": [
+        "https://next.david-hckh.com/meta/og-image.webp",
+        "https://next.david-hckh.com/meta/twitter-image.webp"
+      ],
+      "article_title_extracted": "David Heckhoff - Web Developer (WebGL & Node.js)",
+      "category": "Development",
+      "created_at": "2026-05-17T04:12:29.621479Z",
+      "description": "Web developer creating interactive 3D web experiences and real-time apps with WebGL, TypeScript, and Node.js for high-performance, engaging websites.",
+      "domain": "david-hckh.com",
+      "embed_type": "",
+      "id": "k1745gjk1mx5gf6s8nnrv9srvn86xa1k",
+      "og_image_url": "https://next.david-hckh.com/meta/og-image.webp",
+      "recommended_at": "2026-05-17T04:13:14.502000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "webgl",
+        "web-development",
+        "threejs"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:14.502000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "David Heckhoff - Web Developer (WebGL & Node.js)",
+      "url": "https://david-hckh.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-05-17T04:12:56.289161Z",
+      "description": "Jane Street • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k1717ng7mkpt9gvnwsa0dcxk9s86xx8m",
+      "og_image_url": "https://i.ytimg.com/vi/8J-GUnfSqeE/maxresdefault.jpg",
+      "recommended_at": "2026-05-17T04:13:11.256000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-infrastructure",
+        "data-centers",
+        "finance-technology"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:11.256000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dwarkesh Goes Inside Jane Street's Latest AI Data Center",
+      "url": "https://www.youtube.com/watch?v=8J-GUnfSqeE",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-05-17T04:12:59.659505Z",
+      "description": "Unsupervised Learning: With Jacob Effron • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k179bxx1b2neag5dbnbcwe0cgs86xw2f",
+      "og_image_url": "https://i.ytimg.com/vi/ngBraLDqzdI/maxresdefault.jpg",
+      "recommended_at": "2026-05-17T04:13:09.699000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "machine-learning",
+        "world-models"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-17T04:13:09.699000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Yann LeCun on What Comes After LLMs",
+      "url": "https://www.youtube.com/watch?v=ngBraLDqzdI",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -177,7 +384,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/9bc86e4199eea95f3e12437db1a96ebda28b70bd5484e46c65fc5f4abfaa9fe0/vercel-labs/zero"
+        "https://opengraph.githubassets.com/c9612c5f3266ef662b53195ac20651d2d6ca9107e98c6b601732742c9a47fc17/vercel-labs/zero"
       ],
       "article_title_extracted": "GitHub - vercel-labs/zero: The programming language for agents · GitHub",
       "category": "Development",
@@ -4259,8 +4466,8 @@
         "https://camo.githubusercontent.com/f7677bfbcab4f4c71c3675842e5864ff1016bd2f477c0677b316063ab1dc85ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6d6f64656d2d6465762f68756e6b2f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4349",
         "https://camo.githubusercontent.com/297568a47157895c517cd6b9f89b60de1d09aea57bfa14bfdf064772c3dab41f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d6f64656d2d6465762f68756e6b3f7374796c653d666f722d7468652d6261646765",
         "https://camo.githubusercontent.com/608c8dfda488178950ce502d7697514db3a6a712579327ed90b9b594260f6355/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666f722d7468652d6261646765",
-        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5Njc1OTAsIm5iZiI6MTc3ODk2NzI5MCwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTZUMjEzNDUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzQ0YTE1NDhlNTgxZmMzZDIxYmY5Y2YyMDc0MGZjMjM5YWE4MDFlOWZiMzY4ZjNhYjk0MGI2YzQzODlhMjZhMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0._EHnHjdoTqRGJkbY9smHlkKQS_ko-7gmGOeEn5DOW0A",
-        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5Njc1OTAsIm5iZiI6MTc3ODk2NzI5MCwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTZUMjEzNDUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODcxYjc1MGY3N2E5ZTBhOWM3ZTE0YmFlYWQzMzMyODM2M2IwYWU3ZGMwN2JmOTIzYmRhODYzYWViMzI2ZjU3NiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.DdBnxG6koSU_UyAU2oufs6lhQQSah1plQHgYU9Wj6B8",
+        "https://private-user-images.githubusercontent.com/2153/567514249-f6ffd9c4-67f5-483c-88f1-cbe88c19f52f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM0NDgsIm5iZiI6MTc3ODk5MzE0OCwicGF0aCI6Ii8yMTUzLzU2NzUxNDI0OS1mNmZmZDljNC02N2Y1LTQ4M2MtODhmMS1jYmU4OGMxOWY1MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0NTQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGM2Zjg1YmUyOTEzYjVkMjcwZTYzMTA5NzA4OThkMzFiZmUzZTY5NDFhMGM1YWY1Mjg5ZjVlY2M1NmFmNzRmOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.t3eq12e7HxBIaPvfY3yX7rkwH2gIQLKShUhzcuuAAds",
+        "https://private-user-images.githubusercontent.com/2153/567515104-44c542a2-0a09-41cd-b264-fbd942e92f06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM0NDgsIm5iZiI6MTc3ODk5MzE0OCwicGF0aCI6Ii8yMTUzLzU2NzUxNTEwNC00NGM1NDJhMi0wYTA5LTQxY2QtYjI2NC1mYmQ5NDJlOTJmMDYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0NTQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTQ1NWE3MDhkNGY1NjExYTViZWUyOGM1Yzc0NDE4NTJiYzRhZGFkZjU4MGQ3MTIyYjM3N2E5NzUxNmFiZjllMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.bwtKmI_ZN9TKiiwrSexSrxn1qK8OXE5AamJJi011FZ0",
         "https://camo.githubusercontent.com/5b5deb6caabfa7a609505bbadf9b1de5260ab2e3024ea3ea774e317703b8bd1c/68747470733a2f2f6d6f64656d2e6465762f696d616765732f6c6f676f2f7376672f6d6f64656d2d636f6d62696e65642d626c61636b2e737667"
       ],
       "article_title_extracted": "GitHub - modem-dev/hunk: Review-first terminal diff viewer for agentic coders · GitHub",
@@ -6020,8 +6227,8 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/b29e0db18c9d34ab9e7c91baed8e23337922f517aca633433ac53162160ad486/b-nnett/codex-plusplus",
-        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5Njc2OTUsIm5iZiI6MTc3ODk2NzM5NSwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE2VDIxMzYzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwMWNkODYxNTMzZjhhNjIyY2QzOGNmYzhiNzhhNjI1M2FmODU2NjJjZDFhZDExYzUwY2Y3M2NlMTlhOWVjNjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9._VrsvMw0kY6Q3kPUTuQuDdEfjkV_pA70lEYEsYBxsV4"
+        "https://opengraph.githubassets.com/8837e935b52842d071651097233fdc1f70da2da0c985f051495d9026ddc763df/b-nnett/codex-plusplus",
+        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM1NTcsIm5iZiI6MTc3ODk5MzI1NywicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTE3VDA0NDczN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlZjA0NjQ4Mzg5ZmRhNmRhM2FjYTJkNDc4MDY3NDc3MmU1ZDI2NGE3MDZjMmM1YzhjODJhZmJiMTQwMTgwZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.JYXWKcJPVth7TUNmSEegQZG6u3Fvaan4Z7sMvA0hmGU"
       ],
       "article_title_extracted": "GitHub - b-nnett/codex-plusplus: Codex++ tweak system for the Codex desktop app · GitHub",
       "category": "Development",
@@ -7447,7 +7654,7 @@
     {
       "article_image_urls": [
         "https://opengraph.githubassets.com/f87bbc7e2e490fb5540ba4cad1c8529962ca74a9d1b9ffa380211f06f5732859/asekachov/Markie",
-        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5Njc4MzgsIm5iZiI6MTc3ODk2NzUzOCwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTZUMjEzODU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDg4MzcyYWExMmE3OTE4ZmQxMmJmOTljZmFlMTg5ZTU5MTgwZWFiODRlMzAxODlkZGI1ZjgzOTdhMDkzZDI1NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.YPfS3-D3nf-L2xxx_-X2obHqPSXar7zMRRXT0QAMW6w"
+        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg5OTM2OTksIm5iZiI6MTc3ODk5MzM5OSwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MTdUMDQ0OTU5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzFhY2U0ZjFjNTU4OTVkNjU2N2NhODhjY2ZmZTQyNmVmYzVkNzE0NWVlZTAwNWY1OTg3OWYxYjQ0NWFlMDFjZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.2oMrTCTjHSoJPQR2CpDSjULXCxLNMgUu4TivMHUPQOE"
       ],
       "article_title_extracted": "GitHub - asekachov/Markie: Markie — quick-add panel for macOS. Public release feed (DMGs + Sparkle appcast). · GitHub",
       "category": "Development",
@@ -7626,7 +7833,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/e45be1ef12258b7c46c3a2c02cf7dd12a5b3c1f3987dce1111a094eee3c574db/raroque/boop-agent",
+        "https://opengraph.githubassets.com/7b21d4a7e4101739087df696780238a3e1c72d75add31ef81f6a114db394fa16/raroque/boop-agent",
         "https://github.com/raroque/boop-agent/raw/main/assets/boop.gif",
         "https://github.com/raroque/boop-agent/raw/main/assets/imessage.jpg",
         "https://github.com/raroque/boop-agent/raw/main/assets/agents-view.jpg",
@@ -8811,7 +9018,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/5e8ba8b043c4bb046949d30f7c762c5fd769c4e563748710072b30fd76583c65/google-labs-code/design.md"
+        "https://opengraph.githubassets.com/51f17ba4e6da0181b679aa15baa6aefd5d750887584c83f4609d402c676516a1/google-labs-code/design.md"
       ],
       "article_title_extracted": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. · GitHub",
       "category": "Development",
@@ -10709,7 +10916,7 @@
     },
     {
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ea9add623f7cbe893513cfcce5a259b3f250871e6b5c62a65e453cf142ac52f9/android/skills"
+        "https://opengraph.githubassets.com/fd22991ae65f278b492be06ca9d71e12245e45dba63db3bd1e1de97f341938ca/android/skills"
       ],
       "article_title_extracted": "GitHub - android/skills · GitHub",
       "category": "Development",
@@ -11488,7 +11695,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/f9d66af8c41cc1a93a56c38bbce0b0b13d59173118fd72c0ce68f7dc435b5f6f/microsoft/markitdown",
+        "https://opengraph.githubassets.com/22769faeaffac58fe0902f8da7a18ca5f4738d726ed77674e765d5f4418ae8e2/microsoft/markitdown",
         "https://camo.githubusercontent.com/124b95350d48b05db482b4a2153dc9cb06250d6e9272e121a6f3856a5159879d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667",
         "https://camo.githubusercontent.com/b358637622bf3aede990f9e2f7d2297d2cb2974ff07ba78c71de83a0dbaf1220/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e",
         "https://camo.githubusercontent.com/e773e2d12920abb5d8b2fe1d05f510b9ba7c3c54969bc3e05b6f7e8f8705e71d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565"
@@ -11671,7 +11878,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/22e1d8fe2ec5113df68d65568a77315eb6b91f020ce3259d8a000848666f3a68/jimmysu0309/shinkansen"
+        "https://opengraph.githubassets.com/b6a0a6f479a03da8d9b7809d321c4aad01fb0f0d332cacf3939bd78ff00f3bf7/jimmysu0309/shinkansen"
       ],
       "article_title_extracted": "GitHub - jimmysu0309/shinkansen: 快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方 · GitHub",
       "category": "Development",
@@ -12083,7 +12290,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/6b059433337fab50772fabbc1ce4f9696e22443de361ac63a31dff058ba730f1/xykong/flux-markdown",
+        "https://opengraph.githubassets.com/e7a73874b988a1c460124a37ab3329143d85af35a62b6eb04d6d47bfd1fa6c2f/xykong/flux-markdown",
         "https://camo.githubusercontent.com/b0380a417fadbcb20bd84b8cf42739a9491f8533f7a3e363c0850af65f874563/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d736f6369616c",
         "https://camo.githubusercontent.com/35b119566bec2c2a2f203adead38deba3f4c2d50bf2a0ac3fecd56156ee85550/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d666c61742d737175617265",
         "https://camo.githubusercontent.com/ea1c5b42988d7835204e6bda37a2b6918737de58d663669e38578024903a9680/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f78796b6f6e672f666c75782d6d61726b646f776e2f746f74616c3f7374796c653d666c61742d737175617265",
@@ -13136,10 +13343,10 @@
     {
       "article_image_urls": [
         "https://fleetai.com/images/OG-Image.png",
-        "https://fleetai.com/logos/fleet/fleet0b.svg?dpl=dpl_2yuXqx98heuHUkevrEyqVcFhAyHc",
-        "https://fleetai.com/logos/fleet/fleettb.svg?dpl=dpl_2yuXqx98heuHUkevrEyqVcFhAyHc",
-        "https://fleetai.com/logos/fleet/fleet0w.svg?dpl=dpl_2yuXqx98heuHUkevrEyqVcFhAyHc",
-        "https://fleetai.com/logos/fleet/fleettw.svg?dpl=dpl_2yuXqx98heuHUkevrEyqVcFhAyHc"
+        "https://fleetai.com/logos/fleet/fleet0b.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
+        "https://fleetai.com/logos/fleet/fleettb.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
+        "https://fleetai.com/logos/fleet/fleet0w.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH",
+        "https://fleetai.com/logos/fleet/fleettw.svg?dpl=dpl_8frb7qqVHqy2MZSiunX5qGQvRojH"
       ],
       "article_title_extracted": "Fleet",
       "category": "Tools",
@@ -13258,7 +13465,7 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_image_urls": [
-        "https://www.infoandupdates.com/og1.jpg"
+        "https://www.infoandupdates.com/og2.jpg"
       ],
       "article_title_extracted": "A studio with Pianpian He and Max Harvey in it. Purée Madness!",
       "category": "Design",
@@ -14280,7 +14487,7 @@
     },
     {
       "article_image_urls": [
-        "https://trynormal.ai/assets/og.jpg",
+        "https://www.trynormal.ai/assets/og.jpg",
         "https://www.trynormal.ai/assets/hero/runner-v3.jpg",
         "https://www.trynormal.ai/assets/hero/feel-off.webp",
         "https://www.trynormal.ai/assets/hero/food.webp",
@@ -15959,8 +16166,8 @@
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
         "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-tls-white-sm-1.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Argonaught.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-cork-dorks-white-sm-1.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-busters.svg&w=96&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
       ],
       "article_title_extracted": "Scotch | POS, Back Office & eComm for Liquor Stores",
       "category": "Tools",
@@ -16039,7 +16246,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/98c31e524d03108066ff69d88066887925fa7bcb8516bab2c0f6b96bbe4a7271/chenglou/pretext"
+        "https://opengraph.githubassets.com/51d4b503ffd3195b748c31dcbe8bf3464c21fcdd6afce2b9c6de592b9f792407/chenglou/pretext"
       ],
       "article_title_extracted": "GitHub - chenglou/pretext: Fast, accurate & comprehensive text measurement & layout · GitHub",
       "category": "Development",
@@ -18529,6 +18736,7 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-23T12:11:31.949705Z",
       "description": "3Blue1Brown • YouTube",
@@ -18604,7 +18812,7 @@
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/f80ecf0353665e13e2588a4c1bda1a053d905317a966adadd4c1112b78739759/mvanhorn/last30days-skill",
+        "https://opengraph.githubassets.com/bfa411a507cbe5604e3ddc45c969ec0f3dfce1004cc0055578d641eda4b2218b/mvanhorn/last30days-skill",
         "https://camo.githubusercontent.com/724b3cc2f446613b60378e97ea3a5dad21c155c910f920a1cb8dabc0a22149e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253233312d5265706f7369746f72792532304f662532305468652532304461792d3666343263313f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c3d4749544855422532305452454e44494e47",
         "https://camo.githubusercontent.com/ce216097f72408c567d06a636dffbe758a5d6b34a1f49fa00b0b822f716278cf/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3231393937",
         "https://camo.githubusercontent.com/793b32da108d147847b23b1b8a9aaefca7cb8eda93005b02cc9a111391abb00a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d76616e686f726e2f6c6173743330646179732d736b696c6c26747970653d44617465"
@@ -19148,6 +19356,7 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-21T07:40:34.969711Z",
       "description": "No Priors: AI, Machine Learning, Tech, & Startups • YouTube",
@@ -19179,6 +19388,7 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-21T01:48:09.827603Z",
       "description": "Steve Schoger • YouTube",
@@ -19981,7 +20191,14 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/4f94dcd81c982c69811aafbd56cc07aec185bc19-2400x1260.png"
+      ],
+      "article_text": "What 81,000 people\nwant from AI\nLast December, tens of thousands of Claude users around the world had a conversation with our [AI interviewer](https://www.anthropic.com/research/anthropic-interviewer) to share how they use AI, what they dream it could make possible, and what they fear it might do.\nWe heard from people across 159 countries in 70 languages. We believe this is the largest and most multilingual qualitative study ever conducted.\nPublic conversation about AI often centers on abstract projections of its risks and benefits. What's largely missing is a vision for what “AI going well” means, grounded in the concrete aspirations of people around the world who already use AI and have begun developing a sense of what it might do for them.\nSo we asked our users about their hopes and concerns with AI, as well as how their perspectives connect to their actual experiences with the technology. Over one week in December, we invited everyone with a Claude.ai account to sit down with [Anthropic Interviewer](https://www.anthropic.com/research/anthropic-interviewer)—a version of Claude prompted to conduct a conversational interview—and tell us about how they view AI. 80,508 people, across 159 countries and 70 languages, took the interview. We believe this is the largest and most multilingual qualitative study ever conducted.¹\nWhat follows is what they said about the role they want AI to play in their lives, whether it's already filling it, and what they're afraid might go wrong along the way. We also built a Quote Wall where you can hear from people directly.\nSeeing the forest and the trees\nAnthropic Interviewer asked each interviewee a set list of questions about what they want and don’t want from AI, then adapted follow-up questions based on responses. This approach bridges the typical tradeoff in qualitative research between depth and volume, and allows us to collect rich, open-ended interviews at a very large scale.\nTo make sense of this huge amount of information, we built Claude-powered classifiers that categorized each conversation across a range of dimensions—what people want from AI, whether they’re getting what they want, what they fear, what they do for a living (if mentioned), and their sentiment about AI overall. “What people want from AI” was classified into a single primary category per respondent, while concerns were multi-label—a single interview could receive multiple codes, since respondents tended to articulate several distinct worries rather than one.\nWe also used Claude to pull out representative quotes. Before choosing to participate, users were informed their responses would be used for research, and that Anthropic might publish responses with personally identifying information removed in findings. All responses were de-identified before being analyzed by a small team of researchers at Anthropic, and quotes selected for publication underwent further manual review for removal of any potentially identifying details, to help protect the privacy and public anonymity of interviewees. Answers were reflective of AI usage broadly (i.e. not just Claude), though we redacted names of other AI products.\nThe [Appendix](https://cdn.sanity.io/files/4zrzovbb/website/99156863ed4a812569fe00a2adfb1c93f7e5a911.pdf) describes our methods in more detail, as well as limitations and some additional analysis.\nWhat people want from AI\nWe asked Claude to identify and categorize what each person most wanted from AI:\nWhat people hope for\n“I receive 100-150 text messages per day from doctors and nurses. So much of my cognitive labor was spent on documentation... Since implementing AI, the pressure of documentation has been lifted. I have more patience with nurses, more time to explain things to family members.”\nHealthcare worker, United States of America\n[Read quotes about professional excellence](https://www.anthropic.com#quotes?vision=vision_professional_excellence_and_meaningful_work)\nAI is used heavily for work, and so it’s perhaps un",
+      "article_title_extracted": "What 81,000 people want from AI \\ Anthropic",
       "category": "Articles",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:43:22.667989Z",
       "description": "Last December, tens of thousands of Claude users around the world had a conversation with our AI interviewer to share how they use AI, what they dream it could make possible, and what they fear it might do.",
       "domain": "www.anthropic.com",
@@ -20010,7 +20227,20 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/hero.svg",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/02-dmesg-fireck-acpi.png",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/firecracker-architecture.png",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/01-machine-spec.png",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/03-binary-not-stripped.png",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/04-vercel-vs-antspace-symbols.png",
+        "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/05-antspace-deploy-protocol.png"
+      ],
+      "article_text": "What's inside Claude Code Web: an unstripped Go binary, Anthropic's secret deployment platform, and the architecture of an AI-native PaaS\n[The Starting Point](https://aprilnea.me#the-starting-point)\nWe are building ArcBox, a full-stack platform from Desktop to Platform, similar to Railway and E2B in positioning. Our core philosophy is local-cloud consistency: replacing OrbStack with a fully open-source ArcBox Desktop that provides Sandbox capabilities locally. Recently, we noticed more and more Coding Agent platforms launching web-based entry points, and remarkably, nearly all of them chose Firecracker under the hood. Claude Code is no exception. As practitioners in the same space, curiosity about its runtime environment led to some digging. What began as a casual strace -p 1\nturned into a full reverse-engineering session that uncovered unreleased Anthropic infrastructure, including an entirely undocumented application hosting platform.\nEverything described here was discovered through standard Linux tooling (strace\n, strings\n, objdump\n, go tool objdump\n) running inside a Claude Code session. No exploits, no privilege escalation, no network attacks. The binary was sitting right there, unstripped, with full debug symbols.\n[Layer 1: It's a Firecracker MicroVM](https://aprilnea.me#layer-1-its-a-firecracker-microvm)\nThe first question: what exactly is this environment?\nThe ACPI tables are signed with OEM ID FIRECK\nand creator ID FCAT\n, both hardcoded in [Firecracker's source code](https://github.com/firecracker-microvm/firecracker). This is the same MicroVM technology that powers AWS Lambda and Fargate.\nThe specs: 4 vCPUs (Intel Xeon Cascade Lake @ 2.80GHz), 16GB RAM, 252GB disk, Linux 6.18.5. No nested virtualization since Firecracker intentionally strips vmx\n/svm\nflags from guests.\nThe process tree is absurdly minimal:\nNo systemd. No sshd. No cron. No logging daemon. PID 1 is a custom binary that acts as both init and a WebSocket API gateway. The kernel command line confirms it:\nstrace\non PID 1 shows it running an epoll event loop, periodically checking /proc/*/children\nand /proc/*/status\nto monitor child processes. Essentially a minimal init supervisor, listening on port 2024 (WebSocket API) and port 2025 (secondary endpoint).\n[The Snapshot Architecture](https://aprilnea.me#the-snapshot-architecture)\nSessions don't boot from scratch — they're restored from frozen VM snapshots. The dmesg output reveals a 48.5-hour gap between template creation and session restore:\nDuring restore, the Firecracker host hot-swaps block devices:\n| Device | Template | After Restore | Content |\n|---|---|---|---|\n| vda | placeholder | 256 GiB ext4 | Session rootfs (Ubuntu 24.04) |\n| vdb | placeholder | 63.7 MB squashfs | /opt/claude-code |\n| vdc | placeholder | 12.1 MB squashfs | /opt/env-runner |\nThe initramfs is deliberately minimal: a 3.1MB cpio archive containing only /process_api\n. The actual Ubuntu rootfs is on the ext4 block device (vda), injected at restore time. The ext4 has mount count=11, indicating the image has been reused across 11 sessions.\n[Snapstart: The Deferred Mount Pattern](https://aprilnea.me#snapstart-the-deferred-mount-pattern)\nTemplate creation phase:\n- Firecracker boots: kernel + 3.1MB initramfs\nprocess_api\nperforms minimal init: mount/proc\n,/sys\n,/dev\n, cgroups; configure networking (IP=192.0.2.2/24, GW=192.0.2.1, MTU=1400)- Signals\nSNAPSTART_READY\nto the host - Host calls\nPUT /snapshot/create\n→ saves entire VM state\nSession restore phase:\n- Host prepares session-specific block devices (vda/vdb/vdc)\n- Host calls\nPUT /snapshot/load\nwith new device backends - VM resumes — kernel detects device changes, reseeds CRNG\nprocess_api\ndetects restore and runs:- Drop page caches — stale template cache would return garbage\n- Remount devtmpfs — refresh device nodes\n- Mount ext4 →\npivot_root\nto new rootfs - Mount squashfs overlays (claude-code, env-runner)\n- Fix wall clock via\nclock_settime()\n— otherwise stuck at template epoch - Drop CAP_S",
+      "article_title_extracted": "Anthropic's Hidden Vercel Competitor \"Antspace\" | AprilNEA",
       "category": "Articles",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:19:34.467943Z",
       "description": "Reverse-Engineering Claude Code Web's Firecracker MicroVM: Discovering Anthropic's Hidden Vercel Competitor \"Antspace\"",
       "domain": "aprilnea.me",
@@ -20039,6 +20269,21 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://framerusercontent.com/images/62VphHqwcY7P34t0nhKlW3sqFxE.png",
+        "https://framerusercontent.com/images/393rp8GtjjIos0LXMaNdhspVXQ4.png?width=2064&height=276",
+        "https://framerusercontent.com/images/Nqwc0pLZLAPM3Wf4c67Im4UW4xg.png?width=540&height=276",
+        "https://framerusercontent.com/images/NtR1zn26o0WdFZF64t2ZgcJPWw.webp?width=3384&height=1908",
+        "https://framerusercontent.com/images/F49mMltzTIcUk8kXmnyXaFpO0MU.webp?width=2218&height=1173",
+        "https://framerusercontent.com/images/kydlPclrRb6hyF80TzFvJI6z84.png?width=242&height=478",
+        "https://framerusercontent.com/images/RMRiORAUWynK6ShfFlHosk9sII.webp?width=1709&height=1709",
+        "https://framerusercontent.com/images/7mA3RNgJPwOOhwFDgEYmENQDO7Y.png?width=400&height=58",
+        "https://framerusercontent.com/images/YRqS8TUZX6aLKeVnirffPrJk5ro.png?width=132&height=132",
+        "https://framerusercontent.com/images/pMohuNv48KxbYzWKRaSTAPNfmWA.png?width=116&height=116",
+        "https://framerusercontent.com/images/iwN2gXXJRvrKSIYpNVexCAC3QU.png?width=84&height=84",
+        "https://framerusercontent.com/images/BP76gGhDA8Wm02nL3PHtN5ylYY.png?width=84&height=84"
+      ],
+      "article_title_extracted": "Compound",
       "category": "Development",
       "created_at": "2026-03-19T02:19:28.349402Z",
       "description": "Compound is an AI transformation firm. We build production AI systems for mid-market and enterprise companies in healthcare, hospitality, manufacturing, construction, financial services, and more.",
@@ -20068,7 +20313,21 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.wasmer.io/original_images/edgejs-safe-nodejs-using-wasm-sandbox-cover-49efd00c.png",
+        "https://wasmer.io/_next/static/media/bg-background-blur-purple.82165b71.webp",
+        "https://wasmer.io/_next/static/media/leftRadialLatestBlog.10cb6a8b.webp",
+        "https://wasmer.io/_next/image?url=https%3A%2F%2Fcdn.wasmer.io%2FCACHE%2Fimages%2Favatars%2Fusers%2F1%2F4d007f40127773c9dc09bcac83867459.png&w=64&q=75",
+        "https://wasmer.io/_next/image?url=https%3A%2F%2Fcdn.wasmer.io%2Foriginal_images%2Fedgejs-safe-nodejs-using-wasm-sandbox-cover-49efd00c.png&w=3840&q=75",
+        "https://wasmer.io/_next/image?url=https%3A%2F%2Fcdn.wasmer.io%2Fblog-images%2Fedgejs-safe-nodejs-using-wasm-sandbox-a03fe75b.png&w=1920&q=75",
+        "https://wasmer.io/_next/image?url=https%3A%2F%2Fcdn.wasmer.io%2Fblog-images%2Fedgejs-safe-nodejs-using-wasm-sandbox-582032b0.png&w=1920&q=75",
+        "https://wasmer.io/_next/static/media/logo.ec66bccc.svg"
+      ],
+      "article_text": "March 17, 2026\nEdge.js: Running Node apps inside a WebAssembly Sandbox\nSyrus Akbary\nFounder & CEO\nToday we are incredibly excited to open source [Edge.js](https://edgejs.org/), a JavaScript runtime specifically designed to safely run Node.js workloads for AI and Edge computing.\nThe goal is simple: run your existing Node.js applications safely and with [density and startup times that are impossible to get with containers](https://wasmer.io/posts/wasm-clouds-the-world-after-containers).\nEdge.js takes a different approach from existing JS edge runtimes like Deno or Cloudflare Workers. Instead of introducing new APIs Edge.js preserves full Node compatibility and isolates the unsafe parts of execution using WebAssembly.\nThis allows existing Node.js applications and native modules to run unmodified while system calls and native modules are sandboxed through [WASIX](https://wasix.org/).\nEdge.js is like Node.js: same architecture, same dependencies, and fully matching semantics.\n- Fully compatible with Node.js\n- Pluggable JS engine (V8, JavascriptCore or QuickJS)\n- Securely sandboxed when in\n--safe\nmode\nTL;DR: all this means that you can now run your JS-based apps, MCPs, and agents safely sandboxed without Docker!\nEdge.js story\nIn recent at Wasmer, we have been aiming to run JS and Node.js sandboxed via WebAssembly while also aiming to scale to millions serverlessly.\nWe don’t just need full Node.js compatibility, we also need to run it with great startup and runtime speeds comparable to other awesome serverless providers like Cloudflare Workers or Deno Deploy.\nIn the past we launched our own JS server for running WinterCG applications ([WinterJS](https://winterjs.org/)), matching Cloudflare’s and Deno’s offering. However, over time we realized this approach had two issues that prevented broad usage: speed, and compatibility of apps (very few frameworks support WinterCG).\nThis pushed us to start thinking of alternatives that could mix the sandboxing capabilities of WebAssembly and WASIX with the already hardened, product-ready JS runtimes.\nThe architecture was obvious in retrospect, but it took many months and different trials to discover the optimal path.\nWe made Edge.js possible by splitting the sandbox into two different silos:\n- JS engine: exposed via custom\nnapi\nAPIs. We already know JS is sandboxed by default, so no more hardening is needed for having JS fully sandboxed. - OS system calls and native application code: isolation via\n[WASIX](https://wasix.org/)(read a file, create a thread, doing network operations, …)\nThe great thing about this design is that we sandbox only what’s unsafe: the OS system calls and native logic. The rest of things will still go through a JS runtime natively, which is sandboxed by default.\nThis allowed Edge.js to provide full Node compatibility (v24). We also decided to use the same dependencies as Node is using (libuv as the event loop, simdutf for fast utf8, ada for URL parsing, llhttp for http parsing, ncrypto for encryption, ares for dns…), so behavior could be easily preserved.\nDid you know that even\n[Deno is working to make its tokio event loop to behave like Node’s uv]to unlock further Node compatibility?\nEdge.js currently runs within ~5–30% of Node.js native speed JS when run using the --safe\nflag for sandboxing with significant improvements on the horizon.\nOur goal is to make Edge.js the most friction-less and efficient runtime for Node workloads in sandboxed and serverless environments.\nWhy not use Node.js\nNode.js is a great piece of software, it runs millions of servers, its fast and incredibly robust.\nHowever, Node.js has two architectural issues: is closely tied to a specific Javascript engine (V8: same engine that powers the Google Chrome, Brave and Edge browsers), and unlike V8 it can’t run workloads safely without Containerization or hardware virtualization.\nTying the Node.js workloads to slow-to-startup containers was a no-go for our hosting offering, since it would decimate our fast",
+      "article_title_extracted": "Edge.js: Running Node apps inside a WebAssembly Sandbox · Blog · Wasmer",
       "category": "Development",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:19:14.333669Z",
       "description": "Today we are incredibly excited to open source [Edge.js](https://edgejs.org/), a JavaScript runtime specifically designed to safely run Node.js workload...",
       "domain": "wasmer.io",
@@ -20097,7 +20356,14 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "cf_browser_rendering",
+      "article_image_urls": [
+        "https://ec.europa.eu/commission/presscorner/static/sm_ec_logo_big.jpg"
+      ],
+      "article_text": "This site uses cookies. Visit our [cookies policy page](https://commission.europa.eu/cookies-policy%5Fen) or click the link in any footer for more information and to change your preferences.\n\n[Accept all cookies](#accept) [Accept only essential cookies](#refuse) \n\n[![European Commission](./assets/images/ecl/ec/logo/logo-ec--mute.svg)](https://ec.europa.eu/info/index%5Fen)[ EN](#)\n\n Select your language \n\n Close \n\n EU official languages \n\n* [bgбългарски](#)\n* [csčeština](#)\n* [dadansk](#)\n* [deDeutsch](#)\n* [elΕλληνικά](#)\n* [enEnglish](#)\n* [esespañol](#)\n* [eteesti](#)\n* [fisuomi](#)\n* [frfrançais](#)\n* [gaGaeilge](#)\n* [hrhrvatski](#)\n* [huMagyar](#)\n* [itItaliano](#)\n* [ltlietuvių kalba](#)\n* [lvlatviešu valoda](#)\n* [mtMalti](#)\n* [nlNederlands](#)\n* [plpolski](#)\n* [ptPortuguês](#)\n* [roromână](#)\n* [skslovenčina](#)\n* [slslovenščina](#)\n* [svsvenska](#)\n\n[ Search](#) Search \n\n1. ...\n[Home](https://ec.europa.eu/commission/index%5Fen)[Press corner](./home/en) Commission presents proposal for EU Inc. \n\n Available languages: българскиčeštinadanskDeutscheestiελληνικάEnglishespañolfrançaisGaeilgehrvatskiitalianolatviešulietuviųmagyarMaltiNederlandspolskiportuguêsromânăslovenčinaslovenščinasuomisvenska\n\n Press release  Mar 18, 2026  Brussels  6 min read \n\n#  Commission presents proposal for EU Inc. - unlocking the full potential of the Single Market for Europe's entrepreneurs \n\n Page contents \n\nShow full page table of contents\n\n[ Top](#)[ Quote(s)](#)[ Related media](#)[ Related topics](#)[ Print friendly pdf](#)[ Contacts for media](#)\n\nToday, the European Commission presented its proposal for **EU Inc**., a new single set of corporate rules, building the cornerstone and starting point for the **EU's 28th regime**. EU Inc. is an optional, digital-by-default European corporate framework. It will make it easier for businesses to start, operate and grow across the EU – incentivising them to stay in Europe, and encourage those who once looked elsewhere to return.\n\nToday, for far too many entrepreneurs and innovative companies, expanding across EU borders means navigating a fragmented corporate legal landscape. European innovative companies are faced with 27 national legal systems and more than 60 company legal forms. This complexity can delay the setting-up of a company for weeks or even months, slowing growth, raising costs and discouraging scale. \n\nEU Inc. is at the heart of the Commission's response to these challenges: coming in the form of a regulation, it will provide a **single harmonised set of corporate rules**that companies can choose instead of navigating multiple national regimes, unlocking the true potential of the Single Market.\n\nThe Draghi Report highlighted the urgent need to focus on improving the EU's competitiveness, including by making it easier for innovative companies to scale up in Europe. Announced in the Commission's [political guidelines for 2024 – 2029](https://commission.europa.eu/document/download/e6cd4328-673c-4e7a-8683-f63ffb2cf648%5Fen?filename=Political%20Guidelines%202024-2029%5FEN.pdf) and President **von der Leyen**'s [SOTEU speech](https://commission.europa.eu/strategy-and-policy/state-union/state-union-2025%5Fen), the EU Inc. proposal aims to reduce fragmentation, boost EU competitiveness, and respond to the needs of innovative companies.\n\nPresident Ursula **von der Leyen** said: “_Europe has the talent, the ideas and the ambition to become the best place for innovators. Yet today, European entrepreneurs who want to scale up face 27 legal systems and more than 60 national company forms. With EU Inc., we are making it drastically easier to start and grow a business all across Europe. Any entrepreneur will be able to create a company within 48 hours, from anywhere in the European Union, and fully online. This crucial step is just the beginning. Our goal is clear: one Europe – one market – by 2028._”\n\nGiven its key importance for the EU's prosperity, the Commission calls on the European Parliamen",
+      "article_title_extracted": "Commission presents proposal for EU Inc. - unlocking the full potential of the Single Market for Europe\\'s entrepreneurs Press corner | European Commission",
       "category": "Articles",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:19:10.118288Z",
       "description": "Today, the European Commission presented its proposal for EU Inc., a new single set of corporate rules, building the cornerstone and starting point for the EU\\'s 28th regime. EU Inc. is an optional, digital-by-default European corporate framework. It will make it easier for businesses to start, operate and grow across the EU – incentivising them to stay in Europe, and encourage those who once looked elsewhere to return.",
       "domain": "ec.europa.eu",
@@ -20126,6 +20392,11 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://cobe.shud.in/opengraph-image.png?opengraph-image.b44874b1.png",
+        "https://repository-images.githubusercontent.com/429536908/62a4e686-8613-4b45-b7bb-fa35b558ae8e"
+      ],
+      "article_title_extracted": "COBE",
       "category": "Development",
       "created_at": "2026-03-19T02:11:52.107089Z",
       "description": "The 5KB WebGL globe",
@@ -20155,6 +20426,10 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://radiant-shaders.com/og-image.jpg?v=3"
+      ],
+      "article_title_extracted": "Radiant — Open Source Shaders & Effects Radiant — Open Source Shaders & Effects",
       "category": "Development",
       "created_at": "2026-03-19T02:10:16.712150Z",
       "description": "130+ production-ready shaders and visual effects for the web. No dependencies. Just drop in.",
@@ -20184,7 +20459,20 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://images.ctfassets.net/ilblxxee70tt/3MTwjP4b0ikUbhpng1gE8B/14496c61e26080181716a4660b656380/RH_Hood_Month_Hero_Preview__2_.jpg",
+        "https://images.ctfassets.net/ilblxxee70tt/20qcvnASnmJdZ2oRZuB69u/164c6ba1a3c82a71f3fabbcf60e6108c/1280x900_2x.png",
+        "https://images.ctfassets.net/ilblxxee70tt/xhZ46Q6IjUadIeMRJscUr/95bb52a9c597b863b1bc6918523334a2/desktop-social-follow_insiders_-_wide.jpg",
+        "https://images.ctfassets.net/ilblxxee70tt/7iUFIX5zdBmxNgEZblZ9SX/7ffc815b6d8a9a3ce6a19fcdf8d16986/03_Real_Trades__static___motion__2x.png",
+        "https://images.ctfassets.net/ilblxxee70tt/16vdVoVzrf0Ehef7l6uOn0/ad63be1e7fef35cbf629ae52e4b32fab/web-futures-fundamentals.png",
+        "https://images.ctfassets.net/ilblxxee70tt/4BXGA6XxUboZQ3Lof9eB3c/edcc50d8c0f0c64f8c6ccbc3f6cb5f9b/05_Assets_Carousel__static__2x.png",
+        "https://images.ctfassets.net/ilblxxee70tt/50sYLoLaoRQSDvs8b98X2a/c241eb7e33b46ed6ea9b5fdeb7d86079/RH25_SocialTrading_Mod5_v001_1.jpg",
+        "https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/images/privacyoptions__86f2eb97cc1f3909c12e4512de9e267215d94ac5aaee9393d0f007f18c34e8ba.svg"
+      ],
+      "article_text": "Community is capital Follow your favorite traders, show off your recent gains, discuss strategies, and make market moves in real-time. Follow insiders, politicians, and more See the moves made by Robinhood traders, politicians, industry insiders, influencers, and hedge funds. Disclosures See real trades unfold in real time Live performance tracking gives you insight into people’s trades. See where people enter and exit positions, right when they make their move. Disclosures Track. Talk. Trade. All in one place. Follow who you want, share what you want, trade what you want — without switching apps. Discuss and trade different assets This is the first social platform where you can initiate trades across stocks, options, futures, crypto, and prediction markets. Share your strategies and execute trades, live. Verified trades. Verified traders. Every user and their trades are verified. This is your place to swap strategies, discuss different market moves, and trade with clarity. Invites coming soon Customer Relationship Summaries FINRA’s BrokerCheck Follow us on Product Invest Predict Strategies Retirement Gold Crypto Chain Wallet Connect API Legend Options Futures Trading Custodial Ventures Social Banking Gold Card Platinum Card Learn Snacks Legal & Regulatory Terms & Conditions Disclosures Robinhood US User Privacy Statement Robinhood Markets US Web Visitor Privacy Statement Law Enforcement Requests Your Privacy Choices Company About us Blog Partner With Us Affiliates Press Careers Investor Relations Support ESG Investor Index Robinhood Merch Legal & Regulatory Terms & Conditions Disclosures Robinhood US User Privacy Statement Robinhood Markets US Web Visitor Privacy Statement Law Enforcement Requests Your Privacy Choices All Investing involves risk. The statements, comments, and opinions expressed by customers on Robinhood Social are those of the individuals posting them and do not represent the views or recommendations of Robinhood Markets, Inc. or any affiliates. Content is provided for informational purposes only and is not investment advice, a solicitation, or an offer to buy or sell any security. Before investing, consider your objectives, financial situation, risk tolerance, and applicable fees. For details on a specific security, visit its Stock Detail page on Robinhood. Brokerage services are offered through Robinhood Financial LLC, (“RHF”) a registered broker dealer (member SIPC), and clearing services through Robinhood Securities, LLC, (“RHS”) a registered broker dealer (member SIPC). While there is no additional cost to use Robinhood Legend, there are other fees associated with your brokerage account. Please see the fee schedule for more information. Futures and cleared swaps trading is offered by Robinhood Derivatives, LLC, (“RHD”) a registered futures commission merchant with the Commodity Futures Trading Commission (CFTC) and a Member of the National Futures Association (NFA). RHD is not FDIC insured or SIPC protected. Futures, options on futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Please carefully consider if it's appropriate for you in light of your personal financial circumstances. Cryptocurrency services are offered through an account with Robinhood Crypto, LLC (“RHC”) (NMLS ID: 1702840). Robinhood Crypto is licensed to engage in virtual currency business activity by the New York State Department of Financial Services. Please review a list of RHC's licenses for more information. Cryptocurrency held through Robinhood Crypto is not FDIC insured or SIPC protected. RHF, RHC, and RHS are affiliated entities and wholly owned subsidiaries of Robinhood Markets, Inc. RHF, RHC,and RHS are not banks. Investing products offered by RHF are not FDIC insured and involve risk, including possible loss of principal. Options trading entails significant risk and is not appropriate for all customers. Customers must read and understand the Characteristics and Risks of Standardized",
+      "article_title_extracted": "Robinhood | Explore Robinhood Social",
       "category": "Social",
+      "cleaner_v": 1,
       "created_at": "2026-03-19T02:10:58.297520Z",
       "description": "Follow your favorite traders, discuss strategies, and make market moves in real-time. This is the first social platform where you can initiate trades across stocks, options, futures, crypto, and prediction markets.",
       "domain": "robinhood.com",
@@ -20213,6 +20501,13 @@
       "x_status_id": null
     },
     {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://optimo.microlink.io/images/banner.jpg",
+        "https://optimo.microlink.io/images/optimo-logo.png?dpl=dpl_CgWXDUHSxoyzr4Awz9JJdqhTBwBy",
+        "https://unavatar.io/x/kikobeats"
+      ],
+      "article_title_extracted": "optimo — Media Compression Commands",
       "category": "Tools",
       "created_at": "2026-03-19T02:10:11.786170Z",
       "description": "Optimize and convert images and videos using format-specific commands on top of ImageMagick and FFmpeg.",
@@ -20242,6 +20537,10 @@
       "x_status_id": null
     },
     {
+      "article_image_urls": [
+        "https://app-companion-430619.appspot.com/docs/design-systems-design-md.png"
+      ],
+      "article_title_extracted": "What is DESIGN.md? - Stitch Docs",
       "category": "Design",
       "created_at": "2026-03-19T02:09:49.897733Z",
       "description": "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
@@ -65870,7 +66169,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1946,
+      "count": 1952,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -65906,5 +66205,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-16T21:46:22.631914Z"
+  "updated_at": "2026-05-17T04:57:50.651244Z"
 }
