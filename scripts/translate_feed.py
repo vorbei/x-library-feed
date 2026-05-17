@@ -27,6 +27,10 @@ from typing import Any
 
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 DEFAULT_MODEL = "deepseek-chat"
+# Bumped when the prompt / output contract changes in a way that should force
+# re-translation of previously cached entries. The translator stamps each
+# record with `*_translator_v = TRANSLATOR_VERSION`; mismatches re-translate.
+TRANSLATOR_VERSION = 2
 SYSTEM_PROMPT = (
     "You are a precise English-to-Chinese (Simplified) technical translator. "
     "Translate the user's text faithfully into natural, fluent Simplified Chinese. "
@@ -35,6 +39,19 @@ SYSTEM_PROMPT = (
     "Preserve markdown structure: headings (#), lists (-, 1.), links "
     "([text](url)), code (`code` and ```blocks```), blockquotes (>). "
     "Translate link text and inline prose; leave URLs unchanged. "
+    "\n\n"
+    "IMPORTANT — strip page chrome before translating. The input is scraped "
+    "web content and may include navigation menus, header/footer links, "
+    "cookie/subscribe banners, author profile blocks, contact info, social "
+    "handles, copyright notices, ICP filings, and similar boilerplate. "
+    "Translate ONLY the actual article body (and its real headings, lists, "
+    "code, quotes). Drop runs of short navigation-style tokens such as "
+    "'Work News About Contact Menu Close', author contact lines like "
+    "'hello@example.com Book a meeting Telegram WeChat', and trailing site "
+    "metadata like 'Privacy Subscribe llms.txt X/Twitter Instagram © 2026 "
+    "Company ICP filing'. If the entire input is page chrome with no real "
+    "article body, output an empty string. "
+    "\n\n"
     "Do NOT add commentary, preamble, or any explanation. "
     "Output ONLY the translated content."
 )
@@ -220,7 +237,7 @@ def main() -> int:
                     priority_ref_ids.add(str(rid))
 
     # 1) Collect pending jobs (each = which dict to patch + which keys).
-    Job = tuple[dict[str, Any], str, str, str]
+    Job = tuple[dict[str, Any], str, str, str, str]
     priority_jobs: list[Job] = []
     regular_jobs: list[Job] = []
 
@@ -236,12 +253,18 @@ def main() -> int:
         if not text or not text.strip() or not is_english_dominant(text, min_len=min_len):
             return
         new_hash = content_hash(text)
-        if record.get(zh_key) and record.get(hash_key) == new_hash:
+        ver_key = f"{zh_key}_translator_v"
+        cached_ok = (
+            record.get(zh_key)
+            and record.get(hash_key) == new_hash
+            and record.get(ver_key) == TRANSLATOR_VERSION
+        )
+        if cached_ok:
             return
         bucket = priority_jobs if is_priority else regular_jobs
         if not is_priority and len(regular_jobs) >= args.max_calls:
             return
-        bucket.append((record, src_key, zh_key, hash_key))
+        bucket.append((record, src_key, zh_key, hash_key, ver_key))
 
     for item in items:
         is_pri = item.get("id") in priority_ids
@@ -285,7 +308,7 @@ def main() -> int:
     touched = 0
 
     def run_job(job: Job) -> tuple[Job, str | None]:
-        record, src_key, _, _ = job
+        record, src_key, _, _, _ = job
         text = record[src_key]
         return job, call_deepseek(api_key, text, args.model)
 
@@ -293,11 +316,12 @@ def main() -> int:
         futures = {ex.submit(run_job, j): j for j in jobs}
         for fut in as_completed(futures):
             job, translation = fut.result()
-            record, src_key, zh_key, hash_key = job
+            record, src_key, zh_key, hash_key, ver_key = job
             completed += 1
             if translation:
                 record[zh_key] = translation
                 record[hash_key] = content_hash(record[src_key])
+                record[ver_key] = TRANSLATOR_VERSION
                 touched += 1
                 print(
                     f"::notice::[{completed}/{len(jobs)}] translated {src_key} "
