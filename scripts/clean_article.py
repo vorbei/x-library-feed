@@ -21,7 +21,7 @@ import re
 import urllib.parse
 
 
-CLEANER_VERSION = 1
+CLEANER_VERSION = 2
 
 
 # Per-host nav-vocabulary tokens. A line at the top of the document that is
@@ -98,6 +98,17 @@ _PREFIX_NAV_TOKENS_BY_HOST = {
     "mercury.com": [
         "Products", "Business Banking", "Customers", "Pricing", "Resources",
         "Sign in", "Apply now",
+    ],
+    "dinehq.com": [
+        # Header nav (English + Chinese), contact CTA, share-side icons.
+        "Work", "News", "About", "Contact", "Digest", "Menu", "Close",
+        "Have a project in mind?", "Book a meeting",
+        "hello@dinehq.com", "Telegram", "WeChat", "All News",
+        # Footer / site metadata.
+        "Remote Buffet", "Careers", "Privacy", "Subscribe", "llms.txt",
+        "X/Twitter", "Instagram", "Rednote", "© 2026 Dine", "京ICP备",
+        "Ask us anything", "AI About Us",
+        "ChatGPT", "Claude", "Perplexity", "Prompt",
     ],
 }
 
