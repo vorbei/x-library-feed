@@ -53,7 +53,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -294,6 +294,27 @@ def enrich_with_content(
     from sync_x_library import fetch_link_content, should_fetch_link  # noqa: E402
     from clean_article import clean_article_text, CLEANER_VERSION  # noqa: E402
 
+    # Negative-fetch cache: URLs that consistently return no body
+    # (paywalled SPA shells, marketing pages with no scrapable prose,
+    # YouTube/GitHub/App Store pages, etc.) were retried every run before
+    # this, eating the per-run fetch budget so genuinely new items never
+    # reached the front of the queue. We stamp items we attempted but
+    # couldn't body with article_fetch_attempted_at and skip re-fetch
+    # within this window — long enough to stop the bleeding, short enough
+    # to recover from transient outages.
+    fetch_retry_window = timedelta(days=7)
+    now = datetime.now(timezone.utc)
+
+    def attempted_recently(rec: dict[str, Any]) -> bool:
+        ts = rec.get("article_fetch_attempted_at")
+        if not ts:
+            return False
+        try:
+            parsed = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+        except ValueError:
+            return False
+        return (now - parsed) < fetch_retry_window
+
     linked = cache.get("linked_content_by_url") or {}
     refs = cache.get("referenced_articles_by_id") or {}
     fetched = 0
@@ -301,6 +322,7 @@ def enrich_with_content(
     cleared_garbage = 0
     cleared_x_status = 0
     backfilled = 0
+    skipped_negative_cache = 0
     for it in items:
         url = (it.get("url") or "").strip()
         # x.com / twitter.com status pages were fetched by older code that
@@ -380,12 +402,19 @@ def enrich_with_content(
         #    won't scrape (x.com status pages render as nav-only SPA shells).
         if not should_fetch_link(url):
             continue
+        # Negative-cache skip: we tried this URL recently and got nothing
+        # back. No point burning the budget on it again.
+        if attempted_recently(it):
+            skipped_negative_cache += 1
+            continue
         if fetched >= max_fetches:
             continue
         try:
             res = fetch_link_content(url)
         except Exception as e:
             print(f"::warning::poche fetch {url}: {e}", file=sys.stderr)
+            it["article_fetch_attempted_at"] = now.isoformat().replace("+00:00", "Z")
+            it["article_fetch_error"] = str(e)[:200]
             continue
         fetched += 1
         body = (res.get("text_excerpt") or "").strip()
@@ -396,6 +425,11 @@ def enrich_with_content(
         if body:
             it["article_text"] = body
             it["cleaner_v"] = CLEANER_VERSION
+            # Real body landed — clear any prior negative-cache stamp so a
+            # late-arriving article doesn't stay marked.
+            it.pop("article_fetch_attempted_at", None)
+        else:
+            it["article_fetch_attempted_at"] = now.isoformat().replace("+00:00", "Z")
         if res.get("title"):
             it["article_title_extracted"] = res["title"]
         if res.get("image_urls"):
@@ -408,7 +442,8 @@ def enrich_with_content(
         f"::notice::poche enrich: {fetched} fresh fetches, {reused} reused from X cache, "
         f"{cleared_garbage} prior garbage scrapes cleared, "
         f"{cleared_x_status} x.com SPA-shell bodies cleared by URL, "
-        f"{backfilled} bodies re-cleaned by per-site rules",
+        f"{backfilled} bodies re-cleaned by per-site rules, "
+        f"{skipped_negative_cache} skipped by negative-fetch cache",
         file=sys.stderr,
     )
     return fetched
@@ -451,12 +486,17 @@ def main() -> int:
         "article_image_urls",
         "article_extraction",
         "article_fetch_error",
+        "article_fetch_attempted_at",
+        "cleaner_v",
         "article_text_zh",
         "article_text_zh_hash",
+        "article_text_zh_translator_v",
         "title_zh",
         "title_zh_hash",
+        "title_zh_translator_v",
         "description_zh",
         "description_zh_hash",
+        "description_zh_translator_v",
     )
     for it in items:
         old = prior_by_id.get(it.get("id"))
