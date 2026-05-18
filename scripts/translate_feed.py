@@ -254,15 +254,21 @@ def main() -> int:
             return
         new_hash = content_hash(text)
         ver_key = f"{zh_key}_translator_v"
-        cached_ok = (
+        has_old_translation = (
             record.get(zh_key)
             and record.get(hash_key) == new_hash
-            and record.get(ver_key) == TRANSLATOR_VERSION
         )
+        cached_ok = has_old_translation and record.get(ver_key) == TRANSLATOR_VERSION
         if cached_ok:
             return
-        bucket = priority_jobs if is_priority else regular_jobs
-        if not is_priority and len(regular_jobs) >= args.max_calls:
+        # Version-bump backfill: same source text, same hash, only the
+        # translator version differs. These are remediation work after a
+        # prompt change — bypass max_calls so the migration drains in one or
+        # two crons instead of competing with fresh-content jobs for cap
+        # budget (which previously starved poche items behind the X library).
+        is_backfill = has_old_translation and record.get(ver_key) != TRANSLATOR_VERSION
+        bucket = priority_jobs if (is_priority or is_backfill) else regular_jobs
+        if bucket is regular_jobs and len(regular_jobs) >= args.max_calls:
             return
         bucket.append((record, src_key, zh_key, hash_key, ver_key))
 
