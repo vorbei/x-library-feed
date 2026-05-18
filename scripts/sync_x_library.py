@@ -813,10 +813,17 @@ def collect_tweets(
     source: str,
     tokens: TokenProvider,
     max_pages: int,
+    known_ids: set[str] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
     tweets: list[dict[str, Any]] = []
     users: dict[str, dict[str, Any]] = {}
     pagination_token = None
+    # Bookmarks / liked_tweets come back newest-first. Once a page contains
+    # any tweet we already have, everything beyond it is older and known too,
+    # so we can stop paginating without missing fresh items. Cuts the steady-
+    # state call count from max_pages to ~1 per endpoint per run.
+    overlap_exit = False
+    page = 0
     for page in range(1, max_pages + 1):
         params: dict[str, str | int] = {
             "max_results": 100,
@@ -842,11 +849,20 @@ def collect_tweets(
             media_keys = (tweet.get("attachments") or {}).get("media_keys") or []
             tweet["_media"] = [media_map[key] for key in media_keys if key in media_map]
             tweets.append(tweet)
+        if known_ids and any((t.get("id") in known_ids) for t in batch):
+            overlap_exit = True
+            break
         next_token = payload.get("meta", {}).get("next_token")
         if not next_token:
             break
         pagination_token = next_token
         time.sleep(0.2)
+    if overlap_exit:
+        print(
+            f"::notice::{source} overlap-exit after page {page} "
+            f"({len(tweets)} tweets, hit a known id)",
+            flush=True,
+        )
     return tweets, users
 
 
@@ -1993,6 +2009,9 @@ def main() -> None:
 
     all_tweets: list[dict[str, Any]] = []
     all_users: dict[str, dict[str, Any]] = {}
+    known_ids: set[str] = {
+        str(it.get("id")) for it in (existing.get("items") or []) if it.get("id")
+    }
     for account in accounts:
         tokens = TokenProvider(args.auth_mode, account.get("token_suffix", ""))
         if tokens.use_xurl():
@@ -2001,7 +2020,9 @@ def main() -> None:
             ("bookmark", "/users/{user_id}/bookmarks"),
             ("favorite", "/users/{user_id}/liked_tweets"),
         ]:
-            tweets, users = collect_tweets(endpoint, account["user_id"], source, tokens, args.max_pages)
+            tweets, users = collect_tweets(
+                endpoint, account["user_id"], source, tokens, args.max_pages, known_ids
+            )
             for tweet in tweets:
                 tweet["_account"] = account
                 tweet["_source"] = f"{source}@{account['username']}"
