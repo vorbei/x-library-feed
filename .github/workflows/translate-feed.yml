@@ -52,17 +52,34 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add $PATHS
-          git commit -m "Translate feed content via DeepSeek"
-          # Long translation runs frequently race against sync's bot commits.
-          # Rebase + retry a few times before giving up so the work isn't lost.
+          # Translate runs take 5–60 min. Sync X Library Feed (and Sync Poche
+          # Feed) push to the same JSON files on their own cadence, so by the
+          # time we're ready to commit, origin/main has very likely moved.
+          # A plain `git pull --rebase` produces content-level conflicts in
+          # the JSON that git can't resolve, and the whole run is discarded.
+          # Instead: snapshot our translated files, reset to fresh
+          # origin/main, then re-apply ONLY the translation-shaped fields
+          # (*_zh / *_zh_hash / *_translator_v) onto the fresh state. This
+          # is loss-free regardless of what sync pushed in the meantime.
           for attempt in 1 2 3 4 5; do
+            for f in $PATHS; do
+              [ -f "$f" ] && cp "$f" "$f.translated"
+            done
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/merge_translations.py
+            for f in $PATHS; do rm -f "$f.translated"; done
+            if git diff --quiet -- $PATHS; then
+              echo "No translation changes after merge onto fresh main (attempt $attempt)."
+              exit 0
+            fi
+            git add $PATHS
+            git commit -m "Translate feed content via DeepSeek"
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
-            echo "Push attempt $attempt failed, rebasing on origin/main"
-            git pull --rebase --autostash origin main
+            echo "Push attempt $attempt failed; will re-merge onto newer origin/main"
           done
           echo "::error::All push attempts failed"
           exit 1
