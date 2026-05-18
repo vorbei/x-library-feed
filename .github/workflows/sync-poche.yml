@@ -48,15 +48,31 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/feed-poche.json
-          git commit -m "Update poche feed"
+          # Sync Poche Feed takes ~15 min. Translate Feed can finish and
+          # push translation-field updates to feed-poche.json during that
+          # window. A `git pull --rebase` then hits content-level JSON
+          # conflicts git can't resolve, and the whole sync run is lost
+          # (see run 26014267321). Instead: snapshot our update, reset to
+          # fresh origin/main, then run scripts/merge_poche.py which keeps
+          # our content mutations and re-applies any translation fields
+          # origin/main has accumulated.
           for attempt in 1 2 3 4 5; do
+            cp public/feed-poche.json public/feed-poche.json.poche-update
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/merge_poche.py
+            rm -f public/feed-poche.json.poche-update
+            if git diff --quiet -- public/feed-poche.json; then
+              echo "No poche changes after merge onto fresh main (attempt $attempt)."
+              exit 0
+            fi
+            git add public/feed-poche.json
+            git commit -m "Update poche feed"
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
-            echo "Push attempt $attempt failed, rebasing on origin/main"
-            git pull --rebase --autostash origin main
+            echo "Push attempt $attempt failed; will re-merge onto newer origin/main"
           done
           echo "::error::All push attempts failed"
           exit 1
