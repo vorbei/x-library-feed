@@ -72,6 +72,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Introducing https://browse.sh/, the largest open-source catalog of skills to reliably perform any task on the internet.\n\nWe've researched hundreds of sites to give your agents the playbook they need to navigate the web. https://x.com/browserbase/status/2056404332824944970/video/1",
+      "text_zh": "隆重推出 https://browse.sh/，这是最大的开源技能目录，可让您可靠地在互联网上执行任何任务。\n\n我们研究了数百个网站，为您的智能体提供在网络上导航所需的行动指南。https://x.com/browserbase/status/2056404332824944970/video/1",
+      "text_zh_hash": "7e4d7c06a4a8cc8e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/browserbase/status/2056404332824944970"
     },
     {
@@ -79,6 +82,7 @@
         "CatHanami97880"
       ],
       "article_preview_text": "My favorite slides (and takeaways) from Benedict Evans \"AI is Eating the World\" slide deck.\nSlide 4 - Tech moves in platform shifts\n \nThe amout of wealth that will be created during this platform",
+      "article_text_zh_translator_v": 2,
       "article_title": "\"AI Is Eating The World\" 79 slide deck from Benedict Evans",
       "article_url": "https://x.com/gregisenberg/article/2056369806232961276",
       "article_urls": [],
@@ -120,6 +124,7 @@
         "CatHanami97880"
       ],
       "article_preview_text": "Founders are shipping so much right now that a lot of them have lost the thread. A demo works. Launch goes out. Teams feel momentum. Then the uncomfortable part shows up. Nobody knows what the company",
+      "article_text_zh_translator_v": 2,
       "article_title": "The new startup bottleneck ",
       "article_url": "https://x.com/hnshah/article/2056390241217622502",
       "article_urls": [
@@ -169,6 +174,7 @@
         "CatHanami97880"
       ],
       "article_preview_text": "2026 is almost half over. Looking back, the biggest shift this year is that the Agent paradigm finally moved from demo to production. From Auto Research to long-horizon coding, from OS-level",
+      "article_text_zh_translator_v": 2,
       "article_title": "Measuring  the Delegation Intelligence of Agents",
       "article_url": "https://x.com/_TobiasLee/article/2056339539866886649",
       "article_urls": [],
@@ -34196,8 +34202,8 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the 3-layer company second brain blueprint, optimized for agents\n\nAshwin Gopalan's company brain series breaks down why, and it explains what you run into the second you wire agents into an organisation\n\ncompanies collect artifacts but lose the context. a CRM field tells you a https://x.com/shannholmberg/status/2051225368623972732/photo/1 https://twitter.com/ashwingop/status/2050963469898506342",
-      "text_zh": "## 面向智能体的三层公司第二大脑蓝图\n\nAshwin Gopalan 的公司大脑系列文章深入剖析了其背后的原因，并解释了当你将智能体接入组织时，立刻会遇到的问题。\n\n公司收集了各种工件，却丢失了上下文。一个 CRM 字段会告诉你一个 https://x.com/shannholmberg/status/2051225368623972732/photo/1 https://twitter.com/711598441642598400/status/2050963469898506342",
-      "text_zh_hash": "5786986aae195b5b",
+      "text_zh": "# 面向智能体的三层公司第二大脑蓝图\n\nAshwin Gopalan 的公司大脑系列深入剖析了原因，并解释了当你将智能体接入组织时立即会遇到的问题。\n\n公司收集了工件，却丢失了上下文。CRM 字段告诉你一个[链接](https://x.com/shannholmberg/status/2051225368623972732/photo/1)[链接](https://twitter.com/ashwingop/status/2050963469898506342)",
+      "text_zh_hash": "37e6f74f360a4020",
       "text_zh_translator_v": 2,
       "url": "https://x.com/shannholmberg/status/2051225368623972732"
     },
