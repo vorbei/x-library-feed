@@ -72,6 +72,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "They are now training local recursive language models inside python REPLs with reinforcement learning\n\nAgents are divide-and-conquering long problems, and passing around context as python variables.\n\nThis is so cool https://x.com/neural_avb/status/2056462216430535062/video/1 https://twitter.com/neural_avb/status/2056358393892540552",
+      "text_zh": "他们现在正在 Python REPL 内部使用强化学习训练本地递归语言模型。\n\n智能体正在采用分治策略处理长问题，并将上下文作为 Python 变量传递。\n\n这太酷了 https://x.com/neural_avb/status/2056462216430535062/video/1 https://twitter.com/neural_avb/status/2056358393892540552",
+      "text_zh_hash": "bfe981b7bcc7c359",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/neural_avb/status/2056462216430535062"
     },
     {
@@ -79,6 +82,7 @@
         "CatHanami97880"
       ],
       "article_preview_text": "Win the game in front of you, but build like the game never ends.\n--\nGame theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years",
+      "article_text_zh_translator_v": 2,
       "article_title": "Finite and Infinite Mindsets",
       "article_url": "https://x.com/Alfred_Lin/article/2056734226201100603",
       "article_urls": [],
@@ -164,6 +168,7 @@
         "CatHanami97880"
       ],
       "article_preview_text": "This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best",
+      "article_text_zh_translator_v": 2,
       "article_title": "Evals, explained",
       "article_url": "https://x.com/lotte_verheyden/article/2056754091817361670",
       "article_urls": [],
