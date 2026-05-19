@@ -58,6 +58,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Thinking about making a general solution for this so anyone can plug and play it into their agent workflows. \n\nThoughts? https://twitter.com/larsencc/status/2027225210412470668",
+      "text_zh": "正在考虑为此做一个通用解决方案，这样任何人都可以将其即插即用到他们的智能体工作流中。\n\n有什么想法？https://twitter.com/larsencc/status/2027225210412470668",
+      "text_zh_hash": "e9a8e24308db71ee",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/larsencc/status/2056444837935874156"
     },
     {
@@ -99,6 +102,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "What are best practices for running Claude Code at scale?\n\nNew blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices:\n\nhttps://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "text_zh": "大规模运行Claude Code的最佳实践是什么？\n\n新博文分享了我们从团队在数百万行单体仓库、数十年历史的遗留系统以及分布式微服务中运行Claude Code的经验总结：\n\nhttps://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "text_zh_hash": "6f0b4278ca500fff",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ClaudeDevs/status/2056403446056784288"
     },
     {
@@ -262,6 +268,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Ora just released the first ever agent readiness report and the result is pretty wild: only 1% of the web is actually usable by agents.\n\nOra ran thousands of real sessions with ChatGPT, Claude and OpenClaw on household brands. Check out the full report at https://ora.ai/",
+      "text_zh": "Ora 刚刚发布了首份智能体就绪度报告，结果相当惊人：仅有 1% 的网页真正可供智能体使用。\n\nOra 使用 ChatGPT、Claude 和 OpenClaw 对知名品牌进行了数千次真实会话测试。完整报告请查看 https://ora.ai/",
+      "text_zh_hash": "27e8de85fc200a91",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/assaf_elovic/status/2049569670798156262"
     },
     {
@@ -304,6 +313,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "jason from the codex team here,\nheres a draft on codex maxxing and the primatives i use on a daily basis\n\nhttps://jxnl.github.io/blog/writing/2026/05/10/codex-maxxing/\n\nwould love any feedback",
+      "text_zh": "来自 Codex 团队的 Jason 在此，\n这是一份关于 Codex 最大化使用以及我日常使用的基础工具的草稿。\n\nhttps://jxnl.github.io/blog/writing/2026/05/10/codex-maxxing/\n\n欢迎任何反馈。",
+      "text_zh_hash": "4bfeff27dbd4b4e1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jxnlco/status/2056139571641872765"
     },
     {
