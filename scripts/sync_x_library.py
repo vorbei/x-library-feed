@@ -212,6 +212,30 @@ def api_get(
         raise RuntimeError(f"X API GET {path} failed ({e.code}): {detail[:1000]}") from e
 
 
+def _load_graphql_cookies() -> dict[str, dict[str, str]]:
+    """Parse X_GRAPHQL_COOKIES: a JSON map of token_suffix → {auth_token, ct0}.
+    Entries missing either cookie are dropped. Returns {} when unset/invalid so
+    the caller cleanly falls through to the API path."""
+    raw = os.environ.get("X_GRAPHQL_COOKIES", "").strip()
+    if not raw:
+        return {}
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError:
+        print("::warning::X_GRAPHQL_COOKIES is not valid JSON; ignoring.", file=sys.stderr)
+        return {}
+    out: dict[str, dict[str, str]] = {}
+    if isinstance(parsed, dict):
+        for suffix, creds in parsed.items():
+            if not isinstance(creds, dict):
+                continue
+            at = str(creds.get("auth_token") or "").strip()
+            ct0 = str(creds.get("ct0") or "").strip()
+            if at and ct0:
+                out[str(suffix)] = {"auth_token": at, "ct0": ct0}
+    return out
+
+
 def parse_account_spec(spec: str) -> dict[str, str]:
     parts = spec.split(":")
     if len(parts) == 1:
@@ -2012,7 +2036,48 @@ def main() -> None:
     known_ids: set[str] = {
         str(it.get("id")) for it in (existing.get("items") or []) if it.get("id")
     }
+    # GraphQL-first: the metered X API v2 bills per read against a credit pool
+    # that runs dry (HTTP 402). The web GraphQL endpoints read the same
+    # bookmarks/likes via session cookies and consume no credits. Cookies live
+    # in X_GRAPHQL_COOKIES, a JSON map keyed by each account's token_suffix:
+    #   {"1": {"auth_token": "...", "ct0": "..."}, "2": {...}}
+    # X_FORCE_API=1 forces the old paid path (manual fallback when X rotates
+    # the GraphQL queryId). We never auto-fall-back to the API on a GraphQL
+    # failure — that would silently burn credits — we surface the error and
+    # let the operator flip X_FORCE_API.
+    force_api = os.environ.get("X_FORCE_API", "").strip() not in ("", "0", "false")
+    graphql_cookies = _load_graphql_cookies()
+    if not force_api and graphql_cookies:
+        import x_graphql  # noqa: E402
+
     for account in accounts:
+        suffix = account.get("token_suffix", "")
+        gql = None if force_api else graphql_cookies.get(suffix)
+        if gql:
+            try:
+                bm, bu = x_graphql.collect_bookmarks(
+                    gql["auth_token"], gql["ct0"], args.max_pages, known_ids,
+                    source=f"bookmark@{account['username']}",
+                )
+                fav, fu = x_graphql.collect_likes(
+                    account["user_id"], gql["auth_token"], gql["ct0"], args.max_pages,
+                    known_ids, source=f"favorite@{account['username']}",
+                )
+            except x_graphql.GraphQLError as e:
+                print(
+                    f"::error::GraphQL fetch failed for @{account['username']}: {e} "
+                    f"— set X_FORCE_API=1 to use the paid API for this run.",
+                    file=sys.stderr,
+                )
+                raise
+            for label, tws, uss in [("bookmark", bm, bu), ("favorite", fav, fu)]:
+                for tweet in tws:
+                    tweet["_account"] = account
+                all_tweets.extend(tws)
+                all_users.update(uss)
+                print(f"Fetched {len(tws)} {label} tweets for @{account['username']} (graphql)", flush=True)
+            continue
+
         tokens = TokenProvider(args.auth_mode, account.get("token_suffix", ""))
         if tokens.use_xurl():
             switch_xurl_user(account["xurl_user"])
