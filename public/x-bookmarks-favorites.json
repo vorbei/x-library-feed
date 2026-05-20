@@ -70,6 +70,9 @@
         "favorite@CatHanami97880"
       ],
       "text": "Dear frontend devs and UI designers. I bring you Liquid DOM, a complete and faithful implementation of Liquid Glass on the Web.\n\n- Shape morphing\n- All properties animatable\n- Dynamic refraction and reflection\n- Adaptive tint\n- Adaptive specular highlight\n- Dispersion\n- Full html integration\n- Super fast layout engine that works across Canvas and html\n- Pointer event handling\n- Framework and renderer-agnostic low level API\n- High level React API\n- Ootb @threejs and r3f integration\n\nAnd lots more.\n\nRead on for implementation details and demos.",
+      "text_zh": "亲爱的前端开发者与UI设计师们。我向你们呈现Liquid DOM——一个完整且忠实地在Web上实现液态玻璃效果的工具。\n\n- 形状变形\n- 所有属性均可动画化\n- 动态折射与反射\n- 自适应色调\n- 自适应高光\n- 色散效果\n- 完整的HTML集成\n- 超快布局引擎，兼容Canvas与HTML\n- 指针事件处理\n- 框架与渲染器无关的低级API\n- 高级React API\n- 开箱即用的@threejs与r3f集成\n\n以及更多功能。\n\n请继续阅读以了解实现细节与演示。",
+      "text_zh_hash": "38bc6e7bf98dc1e7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AndrewPrifer/status/2056923983581446529"
     },
     {
@@ -122,6 +125,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Introducing Hallmark!\n\nAn open source design skill to make beautiful UIs and landing pages by default.\n\nWorks in Claude Code, Cursor, and Codex.\n\nnpx skills add nutlope/hallmark https://t.co/wEZw1ZTjPW",
+      "text_zh": "隆重介绍 Hallmark！\n\n一款开源设计技能，让您默认就能打造出精美的用户界面和着陆页。\n\n适用于 Claude Code、Cursor 和 Codex。\n\nnpx skills add nutlope/hallmark https://t.co/wEZw1ZTjPW",
+      "text_zh_hash": "208afe91e9aeb05a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nutlope/status/2056754959819915459"
     },
     {
