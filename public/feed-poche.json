@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 642,
+      "count": 645,
       "name": "Tools"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 293,
+      "count": 294,
       "name": "Articles"
     },
     {
@@ -34,8 +34,193 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2118,
+  "item_count": 2122,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GeminiOmni_social.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/koray.max-244x184.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+        "https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260507-1819",
+        "https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260507-1819",
+        "https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260507-1819",
+        "https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260507-1819",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SundarKeynote-hero.width-300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header_.width-300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.width-300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.width-300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Embedding_2_social.width-300.format-webp.webp"
+      ],
+      "article_text": "Introducing Gemini Omni\nLast year, [Nano Banana](https://deepmind.google/models/gemini-image/) brought Gemini's intelligence to image generation and editing. Since then, it’s helped millions of people restore old photos, design from sketches and visualize ideas in ways that weren’t possible before. From the start we built Gemini to be natively multimodal from the ground up, and now we’re taking the next step.\nWe’re introducing [Gemini Omni](http://deepmind.google/models/gemini-omni), where Gemini’s ability to reason meets the ability to create. Omni is our new model that can create anything from any input — starting with video. With Omni, you can combine images, audio, video and text as input and generate high-quality videos grounded in Gemini's real-world knowledge. You can also easily edit your videos through conversation.\nToday, we’re rolling out the first model in the Omni family: Gemini Omni Flash, to the Gemini app, Google Flow and YouTube Shorts. In time we will support output modalities like image and audio. Here’s some of what makes Omni special:\nEdit your videos through conversation\nGemini Omni gives you an easier way to edit video — with natural language. Every instruction builds on the last. Your characters stay consistent, the physics hold up and the scene remembers what came before.\nTransform the world around you. Change specific things, or change everything. Your video becomes the starting point for something you never could have filmed yourself.\nPrompt: Make the sculpture out of bubbles.\nReimagine the action. Take a video you shot and just ask Omni to change what’s happening. Edit the action, add in new characters or objects, or transform a moment into something unexpected.\nPrompt: When the person touches the mirror, make the mirror ripple beautifully like liquid, and the person's arm turns into reflective mirror material.\nPrompt: Dim the lights in the room. Put a black and white checkerboard room inside a glass sphere that floats tracking above the hand, inside it contains a recursive representation of the same hand holding the sphere, creating an infinite recursive of rooms. Camera slowly gets closer into the sphere, creating a video loop.\nPrompt: The lights of the apartments start turning on in sync with the music.\nRefine your videos across multiple turns. Change the environment, angle, style or even specific details, without ever losing the thread of your original scene. Scroll through the carousel to see how edits build on each other.\nPrompt: A video of a violinist playing a song.\nPrompt: Transport the violinist to the image environment\nPrompt: Make the violin invisible\nPrompt: Change the camera angle to be over the violinist’s shoulder.\nBring ideas to life, grounded in Gemini’s world knowledge\nGemini Omni doesn't just build scenes that look real, it reasons about what should happen next. It combines an intuitive understanding of physics with Gemini's knowledge of history, science and cultural context, bridging the gap from photorealism to meaningful storytelling.\nCreate visuals with more accurate physics. Omni has an improved intuitive understanding of forces like gravity, kinetic energy and fluid dynamics, allowing you to create more realistic scenes.\nPrompt: A marble rolling fast on a chain reaction style track, continuous smooth shot.\nBlend knowledge and creativity. Omni draws on Gemini's knowledge to connect language, imagery and meaning in ways that go far beyond pattern matching.\nPrompt: The video shows items of the alphabet. An unusual item starting with each letter is shown sitting on a table (like a Capybara for C, disco globe for D and Lava Lamp for L). All 26 letters must be represented by 26 items with matching lower thirds displaying the letter. Only one item and lower third at a time. Each lower third must look like a black marker written on a slip of paper in the bottom left. Rapid fire, roughly 9 frames per item at 24FPS. Last frame is a slip of paper \"THE END\". The whole video is accompan",
+      "article_title_extracted": "Introducing Gemini Omni",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-20T03:24:08.560618Z",
+      "description": "Introducing Gemini Omni, which allows you to create anything from any input and edit naturally using conversational language.",
+      "domain": "blog.google",
+      "embed_type": "",
+      "id": "k17d2y0atv8dber87d8xvhtv65873x0d",
+      "og_image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GeminiOmni_social.width-1300.png",
+      "recommended_at": "2026-05-20T03:29:07.533000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "multimodal-ai",
+        "gemini"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T03:29:07.533000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing Gemini Omni",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/og-flow.png",
+        "https://labs.google/fx/icons/x-logo.svg",
+        "https://labs.google/fx/icons/instagram-logo.svg",
+        "https://labs.google/fx/icons/discord-logo-white.svg",
+        "https://labs.google/fx/pinhole/hero/wordmark.svg",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-desktop.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-mobile.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_image__nano.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__author_image__0.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__author_image__1.png",
+        "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__author_image__2.png"
+      ],
+      "article_text": "Your AI creative studio built with Google's advanced generative models.\nExplore [Google AI Subscriptions](https://one.google.com/ai?utm_source=flow&utm_medium=web&utm_campaign=vfx_landing_page_offer). See [FAQ](https://labs.google/fx/tools/flow/faq).Features may vary by Google AI subscription tier, platform (web vs. mobile), and region. 18+.\nGoogle Flow collaborates with creatives at every stage, from idea to execution—all using Google’s advanced generative models.\nCapabilities\nMeet your agent\nYour agent in Google Flow is an intelligent, creative partner. It’s built with Gemini’s intelligence and a deep understanding of your project to help unlock some of your best work while you stay in the flow.\nExplore and iterate on ideas with your agent.\nCreate without bounds\nTurn your inspiration into reality. Whether you’re blending text, image, and video inputs with Gemini Omni or building custom tools, Google Flow gives you an adaptable canvas to build with your imagination.\nCreate high-fidelity images and videos using Google’s advanced models\nRefine with confidence\nUse natural language to perform complex, iterative edits, tweak individual assets with professional controls, and easily scale those changes across your entire project.\nUse natural language edit your images and videos\nToolsCreate tools using natural language\nBuild tools for your specific creative workflows. From creative tasks, like designing video effects, to hand drawn animations, to layering, you can build, share and remix tools directly in Google Flow.\nAdd animated text to your videos\nCreated by\nResize your videos into any aspect ratio\nCreated by\nTransform objects, add text, and adjust image sizing with a layer based editor\nCreated by\nWrite a script, create the cast, and visualize a storyboard\nCreated by\nApply customizable visual filters to your videos and images\nCreated by\nComp your image into different environments\nCreated by\nPerform videos live as the beat drives playback.\nCreated by\nKat Zhang\nRender your sketches\nCreated by\nChris Maestras\nDevelop your characters and their backstory\nCreated by\nMetaPuppet\nApply post-processing effects like lo-fi and glitch\nCreated by\nLászló Gaal\nCreate image grids and extract individual images from them\nCreated by\nHenry Daubrez\nCapture a 360 degree environment from an image\nCreated by\nPJ Ace\nSessions\nFlow Sessions is an artist program that invites a select group of boundary-pushing creatives to experiment with Google Flow, collaborate directly with Google, and bring a passion project to life. Terms Apply.\nDeep in a forgotten forest lives an unassuming friendship between a stone golem and a dandelion who breaks through the soil every spring.\nTry Google Flow free of charge or upgrade to one of our plans below.\nwith a Google Account\nFree of Charge\n- Nano Banana Pro\n- Veo 3.1\n- Google Flow Tools (Usage only)\n- Agent\n- Text to Video\n- Frames to Video\n- Ingredients to Video\n- Video Extension\n- Scenebuilder\n- 2K image upscaling\n- Characters\nIncluded Features:\n50 daily Google Flow credits\n$7.99/mo\n- Everything for free users\n- Gemini Omni Flash\n- Google Flow Tools (Creation)\n- Video-to-video editing\n- Higher image generation limits\n- Higher access to agent\n- Avatars\nIncluded Features:\n200 monthly Google Flow credits\n+\n$19.99/mo\n- Everything in Plus\n- 1080p video upscaling\n- AI credits available (top-ups)\nIncluded Features:\n1,000 monthly Google Flow credits\n+\nAlso included in this plan:\nGemini app with 3.1 Pro\nYouTube Premium Lite\nGemini in Gmail, Docs, and more\n5 TB of total storage for Photos, Drive, and Gmail\nAnd other AI Pro benefits\n$99.99/mo\n- Everything in Pro\n- 4K image and video upscaling\n- Highest image generation limits\n- Highest access to agent\nIncluded Features:\n10,000 monthly Google Flow credits\n+\nAlso included in this plan:\nGemini app with 3.1 Pro Deep Think\nYouTube Premium\n20 TB of total storage for Photos, Drive, and Gmail\nAnd other AI Ultra $99.99 benefits\n$199.99/mo\n- Everything in Ultra $99.99\nIncluded Features:\n25,000 mon",
+      "article_title_extracted": "Flow",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-20T03:27:09.175154Z",
+      "description": "Flow is an AI filmmaking tool that lets you seamlessly create cinematic clips and scenes using Google DeepMind's most capable generative video model, Veo",
+      "domain": "labs.google",
+      "embed_type": "",
+      "id": "k172vk8sg0pya945csakq5c8xh873x2t",
+      "og_image_url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/og-flow.png",
+      "recommended_at": "2026-05-20T03:29:03.364000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-filmmaking",
+        "generative-video",
+        "google-veo"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T03:29:03.364000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Flow",
+      "url": "https://labs.google/fx/tools/flow",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-20T04:50:40.909239Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/PSMeVOn2vyHHuWnnIlZB6T5BlQ.png",
+        "https://framerusercontent.com/images/h5VHoQg2qBhfygdenEQ0WUtEZU.png?width=2464&height=909",
+        "https://framerusercontent.com/images/T6hTfVKiQ81oLHCljxjb0WPLHY8.png?width=2464&height=848",
+        "https://framerusercontent.com/images/J17st5pcaAXO9GWA5udu8FGf50.jpg?width=1024&height=1024",
+        "https://framerusercontent.com/images/MVRiYah2MhTCdKz3Q79AIXobIM.jpg?width=1024&height=1024",
+        "https://framerusercontent.com/images/mO82b4q0xkPyk9UthT8GcXc2vf8.jpg?width=1024&height=1024",
+        "https://framerusercontent.com/images/rNwNiQxFN2tkAEI5eUdmAxB9v4.png?width=2464&height=488",
+        "https://framerusercontent.com/images/yzwKdfh1gcsfSCL6ylKvhrtgbY.png?width=3200&height=1800",
+        "https://framerusercontent.com/images/jtkBouztMWHN35tV9uDupUp7b0.png?width=3200&height=1800",
+        "https://framerusercontent.com/images/GggiItB2BHGATkulRf4FZJ9tmGo.png?width=3200&height=1800",
+        "https://framerusercontent.com/images/giwgubyK5fSpftrgOfka34sQA.png?width=3200&height=1800",
+        "https://framerusercontent.com/images/n1xVmUcl9Kn3XOvJd3FJe2qdg.webp?lossless=1&width=1064&height=1224"
+      ],
+      "article_title_extracted": "Fora — The community platform for creators",
+      "category": "Tools",
+      "created_at": "2026-05-20T03:27:28.073710Z",
+      "description": "Fora is a white-label community platform for creators, educators, and coaches. Your subdomain. Your brand. Your members.",
+      "domain": "fora.so",
+      "embed_type": "",
+      "id": "k17eaqbxf80q8ge5yc6vzgcn1h872z73",
+      "og_image_url": "https://framerusercontent.com/images/PSMeVOn2vyHHuWnnIlZB6T5BlQ.png",
+      "recommended_at": "2026-05-20T03:28:53.014000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "community-building",
+        "creator-economy",
+        "white-label"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T03:28:53.014000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Fora — The community platform for creators",
+      "url": "https://fora.so/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-20T04:50:40.909239Z",
+      "article_image_urls": [
+        "https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png",
+        "https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png",
+        "https://browse.sh/brand/browserbase-logo.svg",
+        "https://browse.sh/api/icon?domain=12306.cn&sz=64",
+        "https://browse.sh/api/icon?domain=abc7news.com&sz=64",
+        "https://browse.sh/api/icon?domain=agentpowers.ai&sz=64",
+        "https://browse.sh/api/icon?domain=airbnb.com&sz=64",
+        "https://browse.sh/api/icon?domain=aivaclaims.com&sz=64",
+        "https://browse.sh/api/icon?domain=algolia.com&sz=64",
+        "https://browse.sh/api/icon?domain=aliexpress.com&sz=64",
+        "https://browse.sh/api/icon?domain=allrecipes.com&sz=64",
+        "https://browse.sh/api/icon?domain=alltrails.com&sz=64"
+      ],
+      "article_title_extracted": "browse.sh",
+      "category": "Tools",
+      "created_at": "2026-05-20T03:27:32.083247Z",
+      "description": "A starter page for a fast, scriptable browsing workspace.",
+      "domain": "browse.sh",
+      "embed_type": "",
+      "id": "k173qf81jhesg889kgz7gfpyt58734j6",
+      "og_image_url": "https://cloud.poche.app/api/storage/9cc0c207-38bc-46c1-9e83-b7f6749e612b",
+      "recommended_at": "2026-05-20T03:28:51.511000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-browsing",
+        "productivity",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T03:28:51.511000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "browse.sh",
+      "url": "https://browse.sh/",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/ac/e0/f5ace02b-5fd5-55d3-4acb-7a153f5369a5/Placeholder.mill/1200x630wa.jpg",
@@ -73,6 +258,7 @@
       "x_status_id": null
     },
     {
+      "article_text": "Personal update: I've joined Anthropic. I think the next few years at the frontier of LLMs will be especially formative. I am very excited to join the team here and get back to R&amp;D. I remain deeply passionate about education and plan to resume my work on it in time.",
       "category": "Social",
       "created_at": "2026-05-19T15:28:04.044613Z",
       "description": "Personal update: I've joined Anthropic. I think the next few years at the frontier of LLMs will be especially formative. I am very excited to join the team here and get back to R&D. I remain deeply passionate about education and plan to resume my work on it in time.",
@@ -85305,7 +85491,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1965,
+      "count": 1969,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -85341,5 +85527,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-19T21:58:49.945216Z"
+  "updated_at": "2026-05-20T04:50:47.849838Z"
 }
