@@ -47,6 +47,8 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
+          X_GRAPHQL_COOKIES: ${{ secrets.X_GRAPHQL_COOKIES }}
+          X_FORCE_API: ${{ vars.X_FORCE_API || '' }}
         run: |
           if [ -z "$X_USER_ACCESS_TOKEN_1" ] && [ -z "$X_REFRESH_TOKEN_1" ]; then
             echo "::warning::Account 1 X secrets are not set; skipping sync."
