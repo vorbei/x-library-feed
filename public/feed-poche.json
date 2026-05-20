@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 647,
+      "count": 649,
       "name": "Tools"
     },
     {
-      "count": 382,
+      "count": 383,
       "name": "Development"
     },
     {
@@ -34,8 +34,129 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2126,
+  "item_count": 2129,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-20T16:16:11.552566Z",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6979e08d7860cf804ace6db7_logo-mark-cernel.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b5dc3bd1aba93ab582_Group%201000005716.png",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b5102cfd81a33cb789_Group%201000005695.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b51ee3b0705bfa9805_Group%201000005696.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b5bf188ac03fd074af_Group%201000005697.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992fed99bd5e8cdf3a8af41_Line%202967.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992fed9c07defe180061531_22%25%20increase%20in%20searches%20on%20select%20attributes.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b5c66d81e781176134_Wrapper-2.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992fed9be052922812f4676_Group%201000005694.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992feda470d35e5c7e991ac_35%25%20increase%20in%20user%20search%20fit.svg",
+        "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6992f7b5ec677b2ce2d031ec_Wrapper-1.svg"
+      ],
+      "article_title_extracted": "Cernel: Product Onboarding for Ecommerce Teams",
+      "category": "Tools",
+      "created_at": "2026-05-20T13:35:11.031187Z",
+      "description": "Reduce manual work by 90%, launch 10x faster. Automate product data enrichment, media content, and feed optimization for ecommerce at scale.",
+      "domain": "cernel.com",
+      "embed_type": "",
+      "id": "k174vf465fegd8cvsrwaqzt5p58729nx",
+      "og_image_url": "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
+      "recommended_at": "2026-05-20T13:35:23.402000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ecommerce",
+        "product-onboarding",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T13:35:23.402000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Cernel: Product Onboarding for Ecommerce Teams",
+      "url": "https://cernel.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-20T16:16:11.552566Z",
+      "article_image_urls": [
+        "https://column.com/images/social/column-og.png",
+        "https://column.com/images/index/case-studies/bg-brex.png",
+        "https://column.com/images/index/case-studies/bg-mercury.png",
+        "https://column.com/images/index/case-studies/bg-ramp.png",
+        "https://column.com/images/index/case-studies/bg-bestegg.png",
+        "https://column.com/images/index/static-shadow.png"
+      ],
+      "article_title_extracted": "Column | The platform bank built for scale Column | The platform bank built for scale",
+      "category": "Development",
+      "created_at": "2026-05-20T13:28:16.435672Z",
+      "description": "The only nationally chartered bank built to enable developers and builders to create new financial services.",
+      "domain": "column.com",
+      "embed_type": "",
+      "id": "k17fkvq374pvqynm6sth2mqb51872r84",
+      "og_image_url": "https://column.com/images/social/column-og.png",
+      "recommended_at": "2026-05-20T13:30:17.319000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "fintech",
+        "banking-infrastructure",
+        "api-banking"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T13:30:17.319000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Column | The platform bank built for scale",
+      "url": "https://column.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://sandwich.vision/hovercraft/og"
+      ],
+      "article_text": "Sandwich Vision Hovercraft Theater Television Sandwich Vision · macOS Your slides. Floating in the frame. Moved by hand. Recorded in Zoom. The slide window is the camera output, not a screen share. Pick Hovercraft as your camera in Zoom or wherever. Reach up, pinch the air, pull the window where you want it. Your face stays on camera. The slide sits next to it. No screen share. No option-tab. No corner thumbnail. Try it free for a week. No card. No catch. Just download. Download Buy a license, from $19 Seven days free. No card. One-time purchase from $19. Recorded in Zoom. The slide window is the camera output, not a screen share. New in 1.1 Mark it up. Type on it. Swap it out. Draw Sketch markup over the slide for quick corrections. Type Type over the deck. T to start and stop. Swap Switch sources mid-call without breaking the stream. The shift Until now You share your screen. Your face shrinks to a corner. You option-tab to the deck, click forward, lose your place, apologize. Whoever's watching stares at a cursor for forty minutes. With Hovercraft You stay on camera. Your slide sits next to you, big and legible. You reach up, pinch it, move it where you want it. You never stop talking. No clicker. No option-tab. No moment where you lose the room. Using it One gesture. A few keys. Anything you can show. Pinch Reach up and grab the slide window out of the air. Move it wherever you want it in the frame. Scale Same pinch. Move your hand toward the camera to enlarge, away to shrink. Sources A PDF deck Drop in your file. Page through with ← → . Built for the talk you prepared. Any open window Pick a window from the picker (a Figma board, a browser tab, Keynote in presenter mode) and Hovercraft floats it in the frame next to you. Keys ← → Page through the deck. F Fill the frame. F F Full-bleed, edge to edge. C Center the slide. R Reset to the starting pose. V Hide the slide. D Hold to draw on the slide. Or ; for southpaws. T Type a chyron over the slide. ⌘ T dismisses; ⌘ ⌫ clears. S Swap. Slide takes the frame, camera moves to the corner. ⇧ F Fit / fill the camera corner while swapped. L Lock input so a passing gesture can't move it. H Toggle hand gestures on or off. Pricing Pay once. Yours for good. No subscription, no account, no telemetry. Stripe handles checkout; we email you the license. For One Hovercraft Lite Lifetime license for one Mac. All the features. $19 one-time Buy Hovercraft Lite Very Nice Hovercraft Lifetime license, two Macs. You got two computers? Lucky. $29 one-time Buy Hovercraft Maybe Later Hovercraft Pro Lifetime license up to five Macs. Native Keynote and PowerPoint, multi-deck switching, Stream Deck, ??? $49 one-time Coming soon Stay close. Notes from Adam when something ships. Worth opening. Email address Sign up Requirements macOS 15 Sequoia or later. Signed and notarized. Privacy Hovercraft runs entirely on your Mac. No account. No telemetry. Your camera, your slides, and your face never leave the machine. From the Sandwich Video guy. Lost your download link? support@sandwich.vision . Release notes Compatibility © 2026 Sandwich Vision Hovercraft Theater Television Contact",
+      "article_title_extracted": "Hovercraft",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-20T12:20:27.137177Z",
+      "description": "A virtual presentation camera for Mac. Your slides float in the frame next to you, moved by hand. No screen share, no option-tab, no corner thumbnail.",
+      "domain": "sandwich.vision",
+      "embed_type": "",
+      "id": "k176wdpbfk54q6kmvvrcbar1wx873ptp",
+      "og_image_url": "https://sandwich.vision/hovercraft/og",
+      "recommended_at": "2026-05-20T12:36:49.501000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "presentation-software",
+        "mac-apps",
+        "video-conferencing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T12:36:49.501000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Hovercraft",
+      "url": "https://sandwich.vision/hovercraft",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-05-20T11:32:47.215884Z",
@@ -86425,7 +86546,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1973,
+      "count": 1976,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -86461,5 +86582,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-20T11:34:01.952728Z"
+  "updated_at": "2026-05-20T16:16:14.212412Z"
 }
