@@ -42,6 +42,17 @@ WEB_BEARER = (
 # Scraped from the live web client 2026-05-20. Bump when X rotates them.
 BOOKMARKS_QUERY_ID = "XD0ViOeSOW4YoeNTGjVaYw"
 LIKES_QUERY_ID = "CDWHmpZeSdIJ3HGeRbNm0w"
+TWEET_DETAIL_QUERY_ID = "oCon7R-cgWRFy6EfZjaKfg"
+
+# TweetDetail wants a fieldToggles param in addition to variables + features.
+TWEET_DETAIL_FIELD_TOGGLES = {
+    "withArticleRichContentState": True,
+    "withArticlePlainText": False,
+    "withArticleSummaryText": True,
+    "withArticleVoiceOver": True,
+    "withGrokAnalyze": False,
+    "withDisallowedReplyControls": False,
+}
 
 GRAPHQL_FEATURES: dict[str, bool] = {
     "rweb_video_screen_enabled": False,
@@ -116,10 +127,12 @@ def _graphql_get(
     ct0: str,
     timeout: int = 30,
     max_attempts: int = 3,
+    field_toggles: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    qs = urllib.parse.urlencode(
-        {"variables": json.dumps(variables), "features": json.dumps(GRAPHQL_FEATURES)}
-    )
+    params = {"variables": json.dumps(variables), "features": json.dumps(GRAPHQL_FEATURES)}
+    if field_toggles is not None:
+        params["fieldToggles"] = json.dumps(field_toggles)
+    qs = urllib.parse.urlencode(params)
     url = f"https://x.com/i/api/graphql/{query_id}/{name}?{qs}"
     headers = {
         "authorization": WEB_BEARER,
@@ -409,3 +422,56 @@ def collect_likes(
         max_pages,
         known_ids,
     )
+
+
+def collect_thread_tweets(
+    conversation_id: str,
+    auth_token: str,
+    ct0: str,
+) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    """Fetch the conversation thread rooted at conversation_id via TweetDetail
+    and return its tweets in the v2 shape (+ users). The caller filters to the
+    self-thread author and extracts URLs. Replaces the metered
+    /tweets/search/recent conversation_id: query."""
+    payload = _graphql_get(
+        TWEET_DETAIL_QUERY_ID,
+        "TweetDetail",
+        {
+            "focalTweetId": str(conversation_id),
+            "with_rux_injections": False,
+            "rankingMode": "Relevance",
+            "includePromotedContent": False,
+            "withCommunity": True,
+            "withQuickPromoteEligibilityTweetFields": True,
+            "withBirdwatchNotes": True,
+            "withVoice": True,
+        },
+        auth_token,
+        ct0,
+        field_toggles=TWEET_DETAIL_FIELD_TOGGLES,
+    )
+    tweets: list[dict[str, Any]] = []
+    users: dict[str, dict[str, Any]] = {}
+    node = (payload.get("data") or {}).get("threaded_conversation_with_injections_v2") or {}
+    for ins in node.get("instructions") or []:
+        for entry in ins.get("entries") or []:
+            content = entry.get("content") or {}
+            # Single tweet entry.
+            results = []
+            single = (content.get("itemContent") or {}).get("tweet_results", {}).get("result")
+            if single:
+                results.append(single)
+            # Conversation module: multiple items.
+            for it in content.get("items") or []:
+                r = (
+                    ((it.get("item") or {}).get("itemContent") or {})
+                    .get("tweet_results", {})
+                    .get("result")
+                )
+                if r:
+                    results.append(r)
+            for result in results:
+                v2 = tweet_result_to_v2(result, users)
+                if v2:
+                    tweets.append(v2)
+    return tweets, users

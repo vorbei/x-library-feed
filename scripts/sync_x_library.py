@@ -1075,12 +1075,31 @@ def merge_items(
     return sorted(by_id.values(), key=sort_key, reverse=True)
 
 
+def _thread_urls_from_tweets(
+    tweets: list[dict[str, Any]],
+    author_id: str | None,
+    users: dict[str, dict[str, Any]],
+) -> list[str]:
+    urls: list[str] = []
+    seen: set[str] = set()
+    for tweet in tweets:
+        if author_id and tweet.get("author_id") != author_id:
+            continue
+        status_url = tweet_url(tweet["id"], users, tweet.get("author_id"))
+        for url in [status_url, *extract_urls(tweet), *extract_article_urls(tweet), *media_urls(tweet)]:
+            if url and url not in seen:
+                seen.add(url)
+                urls.append(url)
+    return urls
+
+
 def update_thread_urls(
     items: list[dict[str, Any]],
     existing_threads: dict[str, list[str]],
     tokens: TokenProvider,
     users: dict[str, dict[str, Any]],
     max_threads: int,
+    graphql_creds: dict[str, str] | None = None,
 ) -> dict[str, list[str]]:
     threads = dict(existing_threads)
     fetched = 0
@@ -1091,7 +1110,19 @@ def update_thread_urls(
         if fetched >= max_threads:
             break
         author_id = (item.get("author") or {}).get("id")
-        urls = fetch_thread_urls(conv_id, author_id, tokens, users)
+        if graphql_creds:
+            try:
+                import x_graphql
+                thread_tweets, thread_users = x_graphql.collect_thread_tweets(
+                    conv_id, graphql_creds["auth_token"], graphql_creds["ct0"]
+                )
+                users.update(thread_users)
+                urls = _thread_urls_from_tweets(thread_tweets, author_id, users)
+            except Exception as e:  # noqa: BLE001 — one bad thread shouldn't abort
+                print(f"::warning::GraphQL thread fetch skipped for {conv_id}: {e}", file=sys.stderr)
+                urls = []
+        else:
+            urls = fetch_thread_urls(conv_id, author_id, tokens, users)
         if urls:
             threads[conv_id] = urls
         fetched += 1
@@ -2049,7 +2080,11 @@ def main() -> None:
     graphql_cookies = _load_graphql_cookies()
     if not force_api and graphql_cookies:
         import x_graphql  # noqa: E402
+    # Thread / referenced-article enrichment is account-agnostic public data,
+    # so any one account's cookies will do. None when running API-only.
+    thread_creds = next(iter(graphql_cookies.values()), None) if not force_api else None
 
+    tokens: TokenProvider | None = None
     for account in accounts:
         suffix = account.get("token_suffix", "")
         gql = None if force_api else graphql_cookies.get(suffix)
@@ -2116,6 +2151,7 @@ def main() -> None:
             tokens,
             all_users,
             args.max_thread_fetches,
+            graphql_creds=thread_creds,
         )
     linked_content = existing.get("linked_content_by_url") or {}
     if not args.skip_linked_content:
@@ -2124,7 +2160,10 @@ def main() -> None:
         )
 
     referenced_articles = existing.get("referenced_articles_by_id") or {}
-    if not args.skip_referenced_articles:
+    if not args.skip_referenced_articles and tokens is not None:
+        # Still on the metered API. In GraphQL-only mode (tokens is None) we
+        # skip it — the X article bodies it would fetch are largely also
+        # reachable via the linked-content CF Browser path (/i/article/ URLs).
         referenced_articles = fetch_referenced_x_articles(
             items, referenced_articles, tokens, all_users, args.max_referenced_article_fetches
         )
