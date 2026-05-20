@@ -2053,6 +2053,9 @@ def main() -> None:
     for account in accounts:
         suffix = account.get("token_suffix", "")
         gql = None if force_api else graphql_cookies.get(suffix)
+        # One account's failure (depleted credits on the API path, a rotated
+        # GraphQL queryId, an expired cookie) must not block the others — log
+        # it and move on so the healthy account still syncs.
         if gql:
             try:
                 bm, bu = x_graphql.collect_bookmarks(
@@ -2066,10 +2069,11 @@ def main() -> None:
             except x_graphql.GraphQLError as e:
                 print(
                     f"::error::GraphQL fetch failed for @{account['username']}: {e} "
-                    f"— set X_FORCE_API=1 to use the paid API for this run.",
+                    f"— refresh its cookie in X_GRAPHQL_COOKIES, or set X_FORCE_API=1 "
+                    f"to use the paid API.",
                     file=sys.stderr,
                 )
-                raise
+                continue
             for label, tws, uss in [("bookmark", bm, bu), ("favorite", fav, fu)]:
                 for tweet in tws:
                     tweet["_account"] = account
@@ -2081,19 +2085,27 @@ def main() -> None:
         tokens = TokenProvider(args.auth_mode, account.get("token_suffix", ""))
         if tokens.use_xurl():
             switch_xurl_user(account["xurl_user"])
-        for source, endpoint in [
-            ("bookmark", "/users/{user_id}/bookmarks"),
-            ("favorite", "/users/{user_id}/liked_tweets"),
-        ]:
-            tweets, users = collect_tweets(
-                endpoint, account["user_id"], source, tokens, args.max_pages, known_ids
+        try:
+            for source, endpoint in [
+                ("bookmark", "/users/{user_id}/bookmarks"),
+                ("favorite", "/users/{user_id}/liked_tweets"),
+            ]:
+                tweets, users = collect_tweets(
+                    endpoint, account["user_id"], source, tokens, args.max_pages, known_ids
+                )
+                for tweet in tweets:
+                    tweet["_account"] = account
+                    tweet["_source"] = f"{source}@{account['username']}"
+                all_tweets.extend(tweets)
+                all_users.update(users)
+                print(f"Fetched {len(tweets)} {source} tweets for @{account['username']}", flush=True)
+        except RuntimeError as e:
+            print(
+                f"::error::X API fetch failed for @{account['username']}: {e} "
+                f"— add its cookie to X_GRAPHQL_COOKIES to use the free GraphQL path.",
+                file=sys.stderr,
             )
-            for tweet in tweets:
-                tweet["_account"] = account
-                tweet["_source"] = f"{source}@{account['username']}"
-            all_tweets.extend(tweets)
-            all_users.update(users)
-            print(f"Fetched {len(tweets)} {source} tweets for @{account['username']}", flush=True)
+            continue
 
     items = merge_items(existing.get("items") or [], all_tweets, all_users, now)
     thread_urls = existing.get("thread_urls_by_conversation") or {}
