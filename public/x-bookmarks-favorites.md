@@ -1,55 +1,47 @@
 # X Bookmarks + Favorites
 
-Updated: 2026-05-20T03:40:37Z
-Total items: 1268
+Updated: 2026-05-20T03:42:02Z
+Total items: 1270
 
 This file is generated hourly from X bookmarks and favorites. It is intended to be a public, linkable Markdown data source.
 
 ## Items
 
-### @dingyi 2026 年的设计岗位描述有哪些变化：用代码做原型、AI 原生工作流、靠近模型思考已是新基线，只会 Figma、专职 UX...
+### @yoheinakajima I didn’t really understand what people meant by stateful agents so I started exploring...
 
-- Author: Ding [@dingyi](https://x.com/dingyi)
-- Tweet URL: [https://x.com/dingyi/status/2056872035587084497](https://x.com/dingyi/status/2056872035587084497)
+- Author: Yohei [@yoheinakajima](https://x.com/yoheinakajima)
+- Tweet URL: [https://x.com/yoheinakajima/status/2056602373368533359](https://x.com/yoheinakajima/status/2056602373368533359)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T22:58:02.000Z
-- First seen: 2026-05-20T00:17:33Z
-- Primary URLs:
-  - [aigoodies.beehiiv.com/p/design-job-requirements-2026](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
-- Linked content:
-  - [design role requirements are evolving / the 2026 Design Job Description](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
-    Images: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/419af415-b184-4d84-afc5-f31ccd4f9207/Newsletter_Header_May.png?t=1778063637, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/11bb58bd-2571-4c01-a0f5-01aef7313b37/thumb_Frame_4__2_.png, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/b0bc0bf1-c293-4a1c-8e12-399249731d1b/thumb_Side.png, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/afe8f417-63f8-4ab4-8935-a8bc8fe964ab/NotionJD.png?t=1778075529
-    Text: [ai goodies ✨](https://aigoodies.beehiiv.com/)- Posts - design role requirements are evolving / the 2026 Design Job Description design role requirements are evolving / the 2026 Design Job Description I went through actual job postings at...
-- Thread URLs:
-  - [x.com/dingyi/status/2056872035587084497](https://x.com/dingyi/status/2056872035587084497)
-  - [aigoodies.beehiiv.com/p/design-job-requirements-2026](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
-- Public metrics: bookmark_count=8, impression_count=1155, like_count=6, quote_count=0, reply_count=1, retweet_count=1
+- Tweet created: 2026-05-19T05:06:30.000Z
+- First seen: 2026-05-20T03:42:02Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=86, like_count=77, quote_count=2, reply_count=11, retweet_count=7
 
-> 2026 年的设计岗位描述有哪些变化：用代码做原型、AI 原生工作流、靠近模型思考已是新基线，只会 Figma、专职 UX research、唯年限论的旧要求正被淘汰，design engineer 也从冷门头衔变成顶配岗位。
+> I didn’t really understand what people meant by stateful agents so I started exploring
 >
-> https://aigoodies.beehiiv.com/p/design-job-requirements-2026
+> my current take is that we’re not there yet, which led to an interesting experiment…
 
 ---
 
-### @gregce10 Field notes with worked examples on a goal engineering workflow I've been running and...
+### @nothiingf4 
 
-- Author: Greg Ceccarelli [@gregce10](https://x.com/gregce10)
-- Tweet URL: [https://x.com/gregce10/status/2056771029867933884](https://x.com/gregce10/status/2056771029867933884)
+- Author: Himanshu [@nothiingf4](https://x.com/nothiingf4)
+- Tweet URL: [https://x.com/nothiingf4/status/2056381531648889007](https://x.com/nothiingf4/status/2056381531648889007)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T16:16:41.000Z
-- First seen: 2026-05-20T00:17:33Z
-- Primary URLs: none
-- Thread URLs:
-  - [x.com/gregce10/status/2056817045124030856](https://x.com/gregce10/status/2056817045124030856)
-  - [x.com/gregce10/status/2056797027925668006](https://x.com/gregce10/status/2056797027925668006)
-  - [x.com/gregce10/status/2056771029867933884](https://x.com/gregce10/status/2056771029867933884)
-- Public metrics: bookmark_count=75, impression_count=2388, like_count=42, quote_count=0, reply_count=1, retweet_count=2
+- Tweet created: 2026-05-18T14:28:57.000Z
+- First seen: 2026-05-20T03:42:02Z
+- Primary URLs:
+  - [x.com/i/article/2055977851040747520](http://x.com/i/article/2055977851040747520)
+- Linked content:
+  - [x.com/i/article/2055977851040747520](http://x.com/i/article/2055977851040747520)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2055977851040747520/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=285, like_count=122, quote_count=2, reply_count=16, retweet_count=21
 
-> Field notes with worked examples on a goal engineering workflow I've been running and am excited about: instead of writing prompts &amp; specs, I now focus on two checked-in markdown artifact per round of work.
->
-> The "goal" is capped at 4,000 chars (the same limit Codex's /goal
+> http://x.com/i/article/2055977851040747520
 
 ---
 
@@ -69,7 +61,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/grapeot/status/2056586651783324020](https://x.com/grapeot/status/2056586651783324020)
   - [yage.ai/share/ai-model-companies-consolidation-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-model-companies-consolidation-20260518](https://yage.ai/share/ai-model-companies-consolidation-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-model-companies-consolidation-20260518)
-- Public metrics: bookmark_count=19, impression_count=4835, like_count=24, quote_count=0, reply_count=2, retweet_count=1
+- Public metrics: bookmark_count=19, like_count=24, quote_count=0, reply_count=2, retweet_count=1
 
 > 两件事昨天同时落地。AI21 Labs 裁 60% 的人，停止卖模型，全部转向 agent 优化。Meta 把 7000 人强制调到 AI 岗，裁员 8000，$145B capex。
 >
@@ -91,17 +83,20 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-20T00:17:33Z
 - Primary URLs:
   - [x.com/i/article/2056536969836969984](https://x.com/i/article/2056536969836969984)
+  - [x.com/i/article/2056536969836969984](http://x.com/i/article/2056536969836969984)
 - Linked content:
   - [x.com/i/article/2056536969836969984](https://x.com/i/article/2056536969836969984)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056536969836969984/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056536969836969984](http://x.com/i/article/2056536969836969984)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056536969836969984/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/gvh41/status/2056886472221835571](https://x.com/gvh41/status/2056886472221835571)
   - [x.com/gvh41/status/2056558206579626218](https://x.com/gvh41/status/2056558206579626218)
   - [x.com/gvh41/status/2056541498158481512](https://x.com/gvh41/status/2056541498158481512)
   - [x.com/i/article/2056536969836969984](https://x.com/i/article/2056536969836969984)
-- Public metrics: bookmark_count=122, impression_count=9137, like_count=54, quote_count=3, reply_count=3, retweet_count=5
+- Public metrics: bookmark_count=122, like_count=54, quote_count=3, reply_count=3, retweet_count=5
 
-> https://x.com/i/article/2056536969836969984
+> http://x.com/i/article/2056536969836969984
 
 #### X Article
 
@@ -131,72 +126,56 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @nateherk 
+### @gregce10 Field notes with worked examples on a goal engineering workflow I've been running and...
 
-- Author: Nate Herk [@nateherk](https://x.com/nateherk)
-- Tweet URL: [https://x.com/nateherk/status/2056854990090592274](https://x.com/nateherk/status/2056854990090592274)
-- X article: [What Karpathy Joining Anthropic Actually Means For Claude ](https://x.com/nateherk/article/2056854990090592274)
-- X article text: Karpathy Joined Anthropic. Here's the Real Story. A few hours ago, Andrej Karpathy posted that he's joining Anthropic. https://x.com/karpathy/status/2056753169888334312?s=20 The easy version of this story is: big AI person joins big AI lab. The more interesting version is why this lab, and why...
+- Author: Greg Ceccarelli [@gregce10](https://x.com/gregce10)
+- Tweet URL: [https://x.com/gregce10/status/2056771029867933884](https://x.com/gregce10/status/2056771029867933884)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T21:50:18.000Z
-- First seen: 2026-05-19T23:17:31Z
+- Tweet created: 2026-05-19T16:16:41.000Z
+- First seen: 2026-05-20T00:17:33Z
 - Primary URLs:
-  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
-  - [x.com/karpathy/status/2056753169888334312?s=20](https://x.com/karpathy/status/2056753169888334312?s=20)
-  - [youtu.be/sboNwYmH3AY](https://youtu.be/sboNwYmH3AY)
+  - [www.gregceccarelli.com/goal-engineering?v=1](https://www.gregceccarelli.com/goal-engineering?v=1)
 - Linked content:
-  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056852756401356801/i/keyboard%5Fshortcuts)...
-  - [- YouTube](https://www.youtube.com/watch?v=sboNwYmH3AY&feature=youtu.be)
-  - [- YouTube](https://www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be)
+  - [Goal Engineering: how I brief coding agents using paired goal+rider documents](https://www.gregceccarelli.com/goal-engineering?v=1)
+    Images: https://www.gregceccarelli.com/goal-engineering/assets/og-image.png, https://www.gregceccarelli.com/goal-engineering/assets/prompt-volume-2026-05-18.png
+    Text: If you have been using Claude Code, Cursor, or Codex for a while, the following arc will feel familiar. You typed a few prompts. The agent shipped something impressive. Then it shipped something wrong and you had to figure out what you...
 - Thread URLs:
-  - [x.com/nateherk/status/2056855040610963960](https://x.com/nateherk/status/2056855040610963960)
-  - [www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be](https://www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be)
-  - [x.com/nateherk/status/2056854990090592274](https://x.com/nateherk/status/2056854990090592274)
-  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
-  - [x.com/karpathy/status/2056753169888334312?s=20](https://x.com/karpathy/status/2056753169888334312?s=20)
-  - [youtu.be/sboNwYmH3AY](https://youtu.be/sboNwYmH3AY)
-- Public metrics: bookmark_count=33, impression_count=3565, like_count=26, quote_count=1, reply_count=1, retweet_count=3
+  - [x.com/gregce10/status/2056817045124030856](https://x.com/gregce10/status/2056817045124030856)
+  - [x.com/gregce10/status/2056797027925668006](https://x.com/gregce10/status/2056797027925668006)
+  - [x.com/gregce10/status/2056771029867933884](https://x.com/gregce10/status/2056771029867933884)
+- Public metrics: bookmark_count=132, like_count=80, quote_count=0, reply_count=1, retweet_count=5
 
-> https://x.com/i/article/2056852756401356801
-
-#### X Article
-
-> Karpathy Joined Anthropic. Here's the Real Story.
-> A few hours ago, Andrej Karpathy posted that he's joining Anthropic.
-> https://x.com/karpathy/status/2056753169888334312?s=20
-> The easy version of this story is: big AI person joins big AI lab.
-> The more interesting version is why this lab, and why right now.
-> Because once you look at what Karpathy has been building in public over the last few months, and what Claude Code has been shipping, the two start to look like they were already heading toward the same product.
-> The Setup
-> Karpathy is one of the most important people in modern AI.
-> Founding member of OpenAI in 2015. Ran AI at Tesla for five years. Back to OpenAI in 2023. Left a year later. Started Eureka Labs, his AI education company. Built LLM 101n, a free course that teaches you how to build a language model from scratch.
-> He also coined the term "vibe coding." Describe what you want in English. Let the AI write the code. Vibe, steer, iterate. And he coined "context engineering," which is going to matter for the rest of this piece.
-> So this isn't just a hire. It's one of the most influential voices in AI joining the lab with the most momentum right now.
-> Claude Code has become one of the main tools builders reach for when they want an agent, want to code, or want to do real knowledge work. About a week ago, Ramp put out their AI index. For the first time in their dataset, Anthropic passed OpenAI in business adoption: 34.4% to 32.3%.
+> Field notes with worked examples on a goal engineering workflow I've been running and am excited about: instead of writing prompts & specs, I now focus on two checked-in markdown artifact per round of work.
 >
-> To be fair, that's Ramp's customer base. OpenAI still has a massive consumer brand and huge enterprise contracts that aren't in that slice of data. I don't want to overstate it. But the signal is hard to ignore.
-> Earlier this month, Anthropic also announced a new enterprise AI services company, a joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs. The point of the JV is to help midsize businesses bring Claude into their core operations.
-> Read that again. They're building the model. The product surface (Claude Code, skills, MCP). The partner network. And now a services layer to actually help companies adopt the product.
-> That's a different game than "here's a model, good luck."
-> The Wrapper Is the Product
-> Most AI conversations still treat the model like the whole product. Which one beats which on what benchmark. Opus 4.7 vs GPT-5.5 vs Gemini. The leaderboards.
-> The model matters. I'm not saying it doesn't. But the longer I use these tools, the more obvious it gets that the model is one layer of the product. The thing that changes your day-to-day output is the wrapper around it.
-> That's why you see two people using the same model and getting completely different outputs.
-> The wrapper is everything that decides how the model gets used.
-> → Claude Code itself. Codex. Skills. Subagents. Hooks. MCP connectors.
-> → Your CLAUDE.md. Your memory. Your docs. Your examples.
-> → Your file structure. Your style guides. Your actual definition of "good."
-> That's the environment the model lives inside.
-> Open a brand new chat with no context. Ask it to help with your business. It knows nothing about you. It guesses. You spend the conversation re-explaining things you've already said ten times.
-> Now give it your files, your examples, your workflows, your style guides, your real success criteria. Same model, completely different outcome.
-> This is where Karpathy lines up with Anthropic. He coined "context engineering" instead of prompt engineering for exactly this reason. The real skill isn't writing the perfect prompt. The real skill is building the right environment so the model can actually work and remember across sessions.
-> Anthropic has been quietly building that environment. Karpathy has been teaching it. Those two philosophies just merged into one company.
-> Once you frame it like this, Karpathy's last few months of public work stop looking random. They look like a roadmap.
-> The LLM Wiki and Your Data Moat
-> Back in April, Karpathy dropped the LLM Wiki. It went viral on X.
-> The structure is dead simple. Here's a full...
+> The "goal" is capped at 4,000 chars (the same limit Codex's /goal command enforces). The "rider" is unbounded, with +/- eleven phases and named depth tests. I write them via a Skill included in the article. Looking for long running agentic turns, this is for you.
+>
+> https://www.gregceccarelli.com/goal-engineering?v=1
+
+---
+
+### @dingyi 2026 年的设计岗位描述有哪些变化：用代码做原型、AI 原生工作流、靠近模型思考已是新基线，只会 Figma、专职 UX...
+
+- Author: Ding [@dingyi](https://x.com/dingyi)
+- Tweet URL: [https://x.com/dingyi/status/2056872035587084497](https://x.com/dingyi/status/2056872035587084497)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-19T22:58:02.000Z
+- First seen: 2026-05-20T00:17:33Z
+- Primary URLs:
+  - [aigoodies.beehiiv.com/p/design-job-requirements-2026](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
+- Linked content:
+  - [design role requirements are evolving / the 2026 Design Job Description](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
+    Images: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/419af415-b184-4d84-afc5-f31ccd4f9207/Newsletter_Header_May.png?t=1778063637, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/11bb58bd-2571-4c01-a0f5-01aef7313b37/thumb_Frame_4__2_.png, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/b0bc0bf1-c293-4a1c-8e12-399249731d1b/thumb_Side.png, https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/afe8f417-63f8-4ab4-8935-a8bc8fe964ab/NotionJD.png?t=1778075529
+    Text: [ai goodies ✨](https://aigoodies.beehiiv.com/)- Posts - design role requirements are evolving / the 2026 Design Job Description design role requirements are evolving / the 2026 Design Job Description I went through actual job postings at...
+- Thread URLs:
+  - [x.com/dingyi/status/2056872035587084497](https://x.com/dingyi/status/2056872035587084497)
+  - [aigoodies.beehiiv.com/p/design-job-requirements-2026](https://aigoodies.beehiiv.com/p/design-job-requirements-2026)
+- Public metrics: bookmark_count=26, like_count=32, quote_count=1, reply_count=6, retweet_count=2
+
+> 2026 年的设计岗位描述有哪些变化：用代码做原型、AI 原生工作流、靠近模型思考已是新基线，只会 Figma、专职 UX research、唯年限论的旧要求正被淘汰，design engineer 也从冷门头衔变成顶配岗位。
+>
+> https://aigoodies.beehiiv.com/p/design-job-requirements-2026
 
 ---
 
@@ -212,9 +191,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T23:17:31Z
 - Primary URLs:
   - [x.com/i/article/2056734659736985600](https://x.com/i/article/2056734659736985600)
+  - [x.com/i/article/2056734659736985600](http://x.com/i/article/2056734659736985600)
 - Linked content:
   - [x.com/i/article/2056734659736985600](https://x.com/i/article/2056734659736985600)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056734659736985600/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056734659736985600](http://x.com/i/article/2056734659736985600)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056734659736985600/i/keyboard%5Fshortcuts)...
   - [pbs.twimg.com/media/HItyLTAa0AAN1Jx.png](https://pbs.twimg.com/media/HItyLTAa0AAN1Jx.png)
     Images: https://pbs.twimg.com/media/HItyLTAa0AAN1Jx.png
   - [pbs.twimg.com/tweet_video_thumb/HItxO64bUAAZVzV.jpg](https://pbs.twimg.com/tweet_video_thumb/HItxO64bUAAZVzV.jpg)
@@ -244,9 +226,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2056847543670280192/img/ND305HEUyA_X4IlY.jpg](https://pbs.twimg.com/amplify_video_thumb/2056847543670280192/img/ND305HEUyA_X4IlY.jpg)
   - [x.com/yoheinakajima/status/2056847496668959038](https://x.com/yoheinakajima/status/2056847496668959038)
   - [x.com/i/article/2056734659736985600](https://x.com/i/article/2056734659736985600)
-- Public metrics: bookmark_count=56, impression_count=14069, like_count=47, quote_count=5, reply_count=14, retweet_count=4
+- Public metrics: bookmark_count=95, like_count=72, quote_count=9, reply_count=20, retweet_count=8
 
-> https://x.com/i/article/2056734659736985600
+> http://x.com/i/article/2056734659736985600
 
 #### X Article
 
@@ -315,6 +297,84 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @nini_incrypto_ Anthropic 发了百万行代码项目的开发指南 在大规模应用时，AI 模型本身反而不重要，重要的是你的配置和架构 想要在大型项目里用好 Claude...
+
+- Author: nini [@nini_incrypto_](https://x.com/nini_incrypto_)
+- Tweet URL: [https://x.com/nini_incrypto_/status/2056682591600951523](https://x.com/nini_incrypto_/status/2056682591600951523)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-19T10:25:15.000Z
+- First seen: 2026-05-19T23:17:31Z
+- Primary URLs:
+  - [claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
+- Linked content:
+  - [How Claude Code works in large codebases: Best practices and where to start | Claude](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
+    Images: https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a060215e86f555c3638a2a1_og_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.jpg, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04aaf1c37c6196e5ee19bb_fig1-the-claude-code-harness-v1%402x.png
+    Text: How Claude Code works in large codebases: Best practices and where to start The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part of...
+- Thread URLs:
+  - [x.com/nini_incrypto_/status/2056682591600951523](https://x.com/nini_incrypto_/status/2056682591600951523)
+- Public metrics: bookmark_count=34, like_count=35, quote_count=0, reply_count=32, retweet_count=2
+
+> Anthropic 发了百万行代码项目的开发指南
+>
+> 在大规模应用时，AI 模型本身反而不重要，重要的是你的配置和架构
+>
+> 想要在大型项目里用好 Claude Code，模型智商只是门槛，真正的核心是这几点
+>
+> 1.CLAUDE.md 别写太满：总目录管大局，子目录管局部，写太乱的话性能会报废。
+>
+> 2.用好子智能体分工：一个负责到处看代码，一个负责动手改代码，互不干扰。
+>
+> 3.人工干预：公司必须专门找人维护这套 AI 环境，否则开发者只会用的越来越烦。
+>
+> 最后一点：每半年翻新一次你的配置指令，旧指令会让新模型还是很蠢
+>
+> https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+
+---
+
+### @qkl2058 Atlassian上季度收入17.9亿美元。然后他们把搭这套基础设施的工程师给裁了。...
+
+- Author: 区块链行情研究 [@qkl2058](https://x.com/qkl2058)
+- Tweet URL: [https://x.com/qkl2058/status/2056278083918061607](https://x.com/qkl2058/status/2056278083918061607)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-18T07:37:53.000Z
+- First seen: 2026-05-19T23:17:31Z
+- Primary URLs:
+  - [x.com/qkl2058/status/2056278083918061607/video/1](https://x.com/qkl2058/status/2056278083918061607/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg
+  - [加密市场最全工具汇总，轻松玩转币圈](https://2ljk.v516.shop/ok168)
+- Thread URLs:
+  - [x.com/qkl2058/status/2056278094043107660](https://x.com/qkl2058/status/2056278094043107660)
+  - [2ljk.v516.shop/ok168](https://2ljk.v516.shop/ok168)
+  - [x.com/qkl2058/status/2056278089659977836](https://x.com/qkl2058/status/2056278089659977836)
+  - [x.com/qkl2058/status/2056278083918061607](https://x.com/qkl2058/status/2056278083918061607)
+  - [x.com/qkl2058/status/2056278083918061607/video/1](https://x.com/qkl2058/status/2056278083918061607/video/1)
+  - [pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
+- Public metrics: bookmark_count=986, like_count=610, quote_count=1, reply_count=19, retweet_count=108
+
+> Atlassian上季度收入17.9亿美元。然后他们把搭这套基础设施的工程师给裁了。
+>
+> 这哥们被裁之后干了件事：直接放出一段38分钟的视频，把他搭过的每一个系统拆解得明明白白，免费公开，谁都能拿去用。
+>
+> 他抖出来的东西包括：
+>
+> · 用Envoy代理，而不是企业级负载均衡器
+> · 边车架构，统一处理认证、日志、限流
+> · DynamoDB配SQS，做异步配置
+> · Packer加SaltStack，大规模自动化部署虚拟机
+>
+> Atlassian有35万客户，按人头收费。这哥们直接把企业级的全套玩法白送给你了。
+>
+> 收藏吧。
+
+---
+
 ### @yibie oh-my-pi：有人把 Pi 改成了最强的终端 Coding Agent --- Pi 是 Armin Ronacher（Flask 作者）做的终端 coding...
 
 - Author: yibie [@yibie](https://x.com/yibie)
@@ -323,10 +383,16 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Saved by: CatHanami97880
 - Tweet created: 2026-05-19T15:51:57.000Z
 - First seen: 2026-05-19T23:17:31Z
-- Primary URLs: none
+- Primary URLs:
+  - [github.com/can1357/oh-my-pi](http://github.com/can1357/oh-my-pi)
+  - [birkey.co](http://birkey.co)
+- Linked content:
+  - [GitHub - can1357/oh-my-pi: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more · GitHub](https://github.com/can1357/oh-my-pi)
+    Images: https://opengraph.githubassets.com/1e73fd95ee3998ca19791fcbb70ec4d82108ed365b957ad4c58a0270e35fc8e8/can1357/oh-my-pi, https://github.com/can1357/oh-my-pi/raw/main/assets/hero.png?raw=true, https://camo.githubusercontent.com/b8a083e616374fef74d0b9ebd588995f822a99ed296174578edf0bc46ec47588/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f406f682d6d792d70692f70692d636f64696e672d6167656e743f7374796c653d666c617426636f6c6f72413d32323232323226636f6c6f72423d434233383337, https://camo.githubusercontent.com/21eeb8505db29c67bdf2650ec8153478fe24b639d815a08854fab993bfb6d57a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6368616e67656c6f672d6b6565702d4530353733353f7374796c653d666c617426636f6c6f72413d323232323232
+  - [BirkeyCo](http://www.birkey.co/)
 - Thread URLs:
   - [x.com/yibie/status/2056764805114110287](https://x.com/yibie/status/2056764805114110287)
-- Public metrics: bookmark_count=66, impression_count=2694, like_count=48, quote_count=0, reply_count=4, retweet_count=5
+- Public metrics: bookmark_count=126, like_count=79, quote_count=0, reply_count=4, retweet_count=7
 
 > oh-my-pi：有人把 Pi 改成了最强的终端 Coding Agent
 >
@@ -337,7 +403,25 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > 加了什么：
 >
 > 1. Hash-anchored edits——用内容哈希定位代码块，精准编辑
-> 2. Python + Bun 双引擎——两个内核互调 agent 工具，读 CSV
+> 2. Python + Bun 双引擎——两个内核互调 agent 工具，读 CSV 画图不出同一个 cell
+> 3. LSP 集成——Agent 能做语义级 rename，不是简单 grep
+> 4. 浏览器 + 子 Agent——并行处理任务
+>
+> ---
+>
+> Reddit 评价：「extremely hackable with sensible defaults.」
+>
+> 另一个用户：「the first coding agent that really empowered me to morph it to fit the way my brain works.」
+>
+> 和 Claude Code/Codex 思路不同。后者开箱即用，配置有限。oh-my-pi 给你四个原语，剩下的自己搭。
+>
+> 对本地模型（MLX、GGUF）友好。想自己折腾 Agent 工具链的，这是目前最 open 的选择。
+>
+> http://github.com/can1357/oh-my-pi
+>
+> 来源：oh-my-pi GitHub / Reddit / http://birkey.co
+>
+> #Pi #CodingAgent #Terminal #开源
 
 ---
 
@@ -353,9 +437,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T23:17:31Z
 - Primary URLs:
   - [x.com/i/article/2056705144000217088](https://x.com/i/article/2056705144000217088)
+  - [x.com/i/article/2056705144000217088](http://x.com/i/article/2056705144000217088)
 - Linked content:
   - [x.com/i/article/2056705144000217088](https://x.com/i/article/2056705144000217088)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056705144000217088/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056705144000217088](http://x.com/i/article/2056705144000217088)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056705144000217088/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/yoyo__AI/status/2056715383537905717](https://x.com/yoyo__AI/status/2056715383537905717)
   - [x.com/yoyo__AI/status/2056714194964418590](https://x.com/yoyo__AI/status/2056714194964418590)
@@ -365,9 +452,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/yoyo__AI/status/2056710359122387383](https://x.com/yoyo__AI/status/2056710359122387383)
   - [x.com/yoyo__AI/status/2056707863272431643](https://x.com/yoyo__AI/status/2056707863272431643)
   - [x.com/i/article/2056705144000217088](https://x.com/i/article/2056705144000217088)
-- Public metrics: bookmark_count=52, impression_count=5135, like_count=34, quote_count=4, reply_count=7, retweet_count=4
+- Public metrics: bookmark_count=63, like_count=40, quote_count=4, reply_count=7, retweet_count=6
 
-> https://x.com/i/article/2056705144000217088
+> http://x.com/i/article/2056705144000217088
 
 #### X Article
 
@@ -463,62 +550,172 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @nini_incrypto_ Anthropic 发了百万行代码项目的开发指南 在大规模应用时，AI 模型本身反而不重要，重要的是你的配置和架构 想要在大型项目里用好 Claude...
+### @nateherk 
 
-- Author: nini [@nini_incrypto_](https://x.com/nini_incrypto_)
-- Tweet URL: [https://x.com/nini_incrypto_/status/2056682591600951523](https://x.com/nini_incrypto_/status/2056682591600951523)
+- Author: Nate Herk [@nateherk](https://x.com/nateherk)
+- Tweet URL: [https://x.com/nateherk/status/2056854990090592274](https://x.com/nateherk/status/2056854990090592274)
+- X article: [What Karpathy Joining Anthropic Actually Means For Claude ](https://x.com/nateherk/article/2056854990090592274)
+- X article text: Karpathy Joined Anthropic. Here's the Real Story. A few hours ago, Andrej Karpathy posted that he's joining Anthropic. https://x.com/karpathy/status/2056753169888334312?s=20 The easy version of this story is: big AI person joins big AI lab. The more interesting version is why this lab, and why...
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T10:25:15.000Z
+- Tweet created: 2026-05-19T21:50:18.000Z
 - First seen: 2026-05-19T23:17:31Z
-- Primary URLs: none
+- Primary URLs:
+  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
+  - [x.com/karpathy/status/2056753169888334312?s=20](https://x.com/karpathy/status/2056753169888334312?s=20)
+  - [youtu.be/sboNwYmH3AY](https://youtu.be/sboNwYmH3AY)
+  - [x.com/i/article/2056852756401356801](http://x.com/i/article/2056852756401356801)
+- Linked content:
+  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056852756401356801/i/keyboard%5Fshortcuts)...
+  - [- YouTube](https://www.youtube.com/watch?v=sboNwYmH3AY&feature=youtu.be)
+  - [x.com/i/article/2056852756401356801](http://x.com/i/article/2056852756401356801)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056852756401356801/i/keyboard%5Fshortcuts)...
+  - [- YouTube](https://www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be)
 - Thread URLs:
-  - [x.com/nini_incrypto_/status/2056682591600951523](https://x.com/nini_incrypto_/status/2056682591600951523)
-- Public metrics: bookmark_count=33, impression_count=4158, like_count=34, quote_count=0, reply_count=27, retweet_count=2
+  - [x.com/nateherk/status/2056855040610963960](https://x.com/nateherk/status/2056855040610963960)
+  - [www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be](https://www.youtube.com/watch?si=_ooYfmoQ9S_gx1Cb&v=brB-hSiV2iU&feature=youtu.be)
+  - [x.com/nateherk/status/2056854990090592274](https://x.com/nateherk/status/2056854990090592274)
+  - [x.com/i/article/2056852756401356801](https://x.com/i/article/2056852756401356801)
+  - [x.com/karpathy/status/2056753169888334312?s=20](https://x.com/karpathy/status/2056753169888334312?s=20)
+  - [youtu.be/sboNwYmH3AY](https://youtu.be/sboNwYmH3AY)
+- Public metrics: bookmark_count=50, like_count=49, quote_count=1, reply_count=1, retweet_count=3
 
-> Anthropic 发了百万行代码项目的开发指南
+> http://x.com/i/article/2056852756401356801
+
+#### X Article
+
+> Karpathy Joined Anthropic. Here's the Real Story.
+> A few hours ago, Andrej Karpathy posted that he's joining Anthropic.
+> https://x.com/karpathy/status/2056753169888334312?s=20
+> The easy version of this story is: big AI person joins big AI lab.
+> The more interesting version is why this lab, and why right now.
+> Because once you look at what Karpathy has been building in public over the last few months, and what Claude Code has been shipping, the two start to look like they were already heading toward the same product.
+> The Setup
+> Karpathy is one of the most important people in modern AI.
+> Founding member of OpenAI in 2015. Ran AI at Tesla for five years. Back to OpenAI in 2023. Left a year later. Started Eureka Labs, his AI education company. Built LLM 101n, a free course that teaches you how to build a language model from scratch.
+> He also coined the term "vibe coding." Describe what you want in English. Let the AI write the code. Vibe, steer, iterate. And he coined "context engineering," which is going to matter for the rest of this piece.
+> So this isn't just a hire. It's one of the most influential voices in AI joining the lab with the most momentum right now.
+> Claude Code has become one of the main tools builders reach for when they want an agent, want to code, or want to do real knowledge work. About a week ago, Ramp put out their AI index. For the first time in their dataset, Anthropic passed OpenAI in business adoption: 34.4% to 32.3%.
 >
-> 在大规模应用时，AI 模型本身反而不重要，重要的是你的配置和架构
->
-> 想要在大型项目里用好 Claude Code，模型智商只是门槛，真正的核心是这几点
->
-> 1.CLAUDE.md 别写太满：总目录管大局，子目录管局部，写太乱的话性能会报废。
+> To be fair, that's Ramp's customer base. OpenAI still has a massive consumer brand and huge enterprise contracts that aren't in that slice of data. I don't want to overstate it. But the signal is hard to ignore.
+> Earlier this month, Anthropic also announced a new enterprise AI services company, a joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs. The point of the JV is to help midsize businesses bring Claude into their core operations.
+> Read that again. They're building the model. The product surface (Claude Code, skills, MCP). The partner network. And now a services layer to actually help companies adopt the product.
+> That's a different game than "here's a model, good luck."
+> The Wrapper Is the Product
+> Most AI conversations still treat the model like the whole product. Which one beats which on what benchmark. Opus 4.7 vs GPT-5.5 vs Gemini. The leaderboards.
+> The model matters. I'm not saying it doesn't. But the longer I use these tools, the more obvious it gets that the model is one layer of the product. The thing that changes your day-to-day output is the wrapper around it.
+> That's why you see two people using the same model and getting completely different outputs.
+> The wrapper is everything that decides how the model gets used.
+> → Claude Code itself. Codex. Skills. Subagents. Hooks. MCP connectors.
+> → Your CLAUDE.md. Your memory. Your docs. Your examples.
+> → Your file structure. Your style guides. Your actual definition of "good."
+> That's the environment the model lives inside.
+> Open a brand new chat with no context. Ask it to help with your business. It knows nothing about you. It guesses. You spend the conversation re-explaining things you've already said ten times.
+> Now give it your files, your examples, your workflows, your style guides, your real success criteria. Same model, completely different outcome.
+> This is where Karpathy lines up with Anthropic. He coined "context engineering" instead of prompt engineering for exactly this reason. The real skill isn't writing the perfect prompt. The real skill is building the right environment so the model can actually work and remember across sessions.
+> Anthropic has been quietly building that environment. Karpathy has been teaching it. Those two philosophies just merged into one company.
+> Once you frame it like this, Karpathy's last few months of public work stop looking random. They look like a roadmap.
+> The LLM Wiki and Your Data Moat
+> Back in April, Karpathy dropped the LLM Wiki. It went viral on X.
+> The structure is dead simple. Here's a full...
 
 ---
 
-### @qkl2058 Atlassian上季度收入17.9亿美元。然后他们把搭这套基础设施的工程师给裁了。...
+### @neural_avb They are now training local recursive language models inside python REPLs with...
 
-- Author: 区块链行情研究 [@qkl2058](https://x.com/qkl2058)
-- Tweet URL: [https://x.com/qkl2058/status/2056278083918061607](https://x.com/qkl2058/status/2056278083918061607)
+- Author: AVB [@neural_avb](https://x.com/neural_avb)
+- Tweet URL: [https://x.com/neural_avb/status/2056462216430535062](https://x.com/neural_avb/status/2056462216430535062)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-18T07:37:53.000Z
-- First seen: 2026-05-19T23:17:31Z
+- Tweet created: 2026-05-18T19:49:34.000Z
+- First seen: 2026-05-19T16:31:59Z
 - Primary URLs:
-  - [x.com/qkl2058/status/2056278083918061607/video/1](https://x.com/qkl2058/status/2056278083918061607/video/1)
+  - [x.com/neural_avb/status/2056462216430535062/video/1](https://x.com/neural_avb/status/2056462216430535062/video/1)
+  - [twitter.com/neural_avb/status/2056358393892540552](https://twitter.com/neural_avb/status/2056358393892540552)
 - Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
 - Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg
-  - [加密市场最全工具汇总，轻松玩转币圈](https://2ljk.v516.shop/ok168)
+  - [pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg
 - Thread URLs:
-  - [x.com/qkl2058/status/2056278094043107660](https://x.com/qkl2058/status/2056278094043107660)
-  - [2ljk.v516.shop/ok168](https://2ljk.v516.shop/ok168)
-  - [x.com/qkl2058/status/2056278089659977836](https://x.com/qkl2058/status/2056278089659977836)
-  - [x.com/qkl2058/status/2056278083918061607](https://x.com/qkl2058/status/2056278083918061607)
-  - [x.com/qkl2058/status/2056278083918061607/video/1](https://x.com/qkl2058/status/2056278083918061607/video/1)
-  - [pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg](https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg)
-- Public metrics: bookmark_count=934, impression_count=72523, like_count=572, quote_count=1, reply_count=19, retweet_count=102
+  - [x.com/neural_avb/status/2056462216430535062](https://x.com/neural_avb/status/2056462216430535062)
+  - [x.com/neural_avb/status/2056462216430535062/video/1](https://x.com/neural_avb/status/2056462216430535062/video/1)
+  - [twitter.com/neural_avb/status/2056358393892540552](https://twitter.com/neural_avb/status/2056358393892540552)
+  - [pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
+- Public metrics: bookmark_count=596, like_count=391, quote_count=2, reply_count=8, retweet_count=33
 
-> Atlassian上季度收入17.9亿美元。然后他们把搭这套基础设施的工程师给裁了。
+> They are now training local recursive language models inside python REPLs with reinforcement learning
 >
-> 这哥们被裁之后干了件事：直接放出一段38分钟的视频，把他搭过的每一个系统拆解得明明白白，免费公开，谁都能拿去用。
+> Agents are divide-and-conquering long problems, and passing around context as python variables.
 >
-> 他抖出来的东西包括：
->
-> · 用Envoy代理，而不是企业级负载均衡器
-> · https://x.com/qkl2058/status/2056278083918061607/video/1
+> This is so cool https://t.co/GQ9M2ObWrK
+
+---
+
+### @Alfred_Lin 
+
+- Author: Alfred Lin [@Alfred_Lin](https://x.com/Alfred_Lin)
+- Tweet URL: [https://x.com/Alfred_Lin/status/2056734226201100603](https://x.com/Alfred_Lin/status/2056734226201100603)
+- X article: [Finite and Infinite Mindsets](https://x.com/Alfred_Lin/article/2056734226201100603)
+- X article text: Win the game in front of you, but build like the game never ends. -- Game theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-19T13:50:26.000Z
+- First seen: 2026-05-19T16:31:59Z
+- Primary URLs:
+  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
+  - [x.com/i/article/2056434896411996160](http://x.com/i/article/2056434896411996160)
+- Linked content:
+  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056434896411996160/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056434896411996160](http://x.com/i/article/2056434896411996160)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056434896411996160/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/Alfred_Lin/status/2056776056674349411](https://x.com/Alfred_Lin/status/2056776056674349411)
+  - [x.com/Alfred_Lin/status/2056775923912073283](https://x.com/Alfred_Lin/status/2056775923912073283)
+  - [x.com/Alfred_Lin/status/2056775650778996929](https://x.com/Alfred_Lin/status/2056775650778996929)
+  - [x.com/Alfred_Lin/status/2056756723197821288](https://x.com/Alfred_Lin/status/2056756723197821288)
+  - [x.com/Alfred_Lin/status/2056743471424401511](https://x.com/Alfred_Lin/status/2056743471424401511)
+  - [x.com/Alfred_Lin/status/2056743041344610593](https://x.com/Alfred_Lin/status/2056743041344610593)
+  - [x.com/Alfred_Lin/status/2056742884242862080](https://x.com/Alfred_Lin/status/2056742884242862080)
+  - [x.com/Alfred_Lin/status/2056734226201100603](https://x.com/Alfred_Lin/status/2056734226201100603)
+  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
+- Public metrics: bookmark_count=534, like_count=321, quote_count=4, reply_count=11, retweet_count=28
+
+> http://x.com/i/article/2056434896411996160
+
+#### X Article
+
+> Win the game in front of you, but build like the game never ends.
+> --
+> Game theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by James P. Carse (1986) and The Infinite Game by Simon Sinek (2019).
+> Many games we play or watch are finite games. Finite games are played with known players, rules, objectives, time duration, and scoring to determine a winner at the end of those games. Rugby, soccer, and chess are all examples of finite games.
+> In dichotomy, infinite games have known and unknown players that enter and exit the game at known and unknown times. There are conventions and perhaps laws that govern, but those conventions and laws can and do change. Breaking conventions might be frowned upon, but not prohibited. There are many metrics of success but different players optimize for different metrics over different time horizons.
+> The purpose of infinite games is to keep playing, shape the game to your advantage, and make progress. There are no real winners, but rather just a concept of whether you are ahead or behind, which constantly changes depending on your success metrics. The only losers are those who quit. How each of us chooses to live and find meaning in our lives and human civilization are examples of infinite games.
+> We can frame business as a finite game or an infinite game. Both Carse and Sinek put forth the contrast as an “or”, but I submit the proper framing is “and” because business is both.
+> There are deadlines to meet. Opportunities to win. Getting to market first. Launching a better product. Many aspects of business are finite games. The objective is to win.
+> At the same time, the enduring value of a business organization is not measured by those past successes, but by the business's ability to keep succeeding, not just during the time the current team is executing, but well beyond their tenure. This requires an infinite mindset, an infinite time horizon, and a mentality to put the company first, then the team, then yourself.
+> Those in business should have both finite and infinite mindsets held in tension. You should want to win every finite game you choose to play, but whether you win or lose, you learn and continue on to your next game with the intention to win. In addition, come to work every day with a desire to leave things in much better shape than you found them for the next generation.
+
+---
+
+### @Ayuan_ai AI agent真正的瓶颈从来不是模型，而是落地
+
+- Author: Ayuan [@Ayuan_ai](https://x.com/Ayuan_ai)
+- Tweet URL: [https://x.com/Ayuan_ai/status/2056662695345348769](https://x.com/Ayuan_ai/status/2056662695345348769)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-19T09:06:12.000Z
+- First seen: 2026-05-19T16:31:59Z
+- Primary URLs:
+  - [twitter.com/kfk_ai/status/2056660897381425590](https://twitter.com/kfk_ai/status/2056660897381425590)
+- Thread URLs:
+  - [x.com/Ayuan_ai/status/2056662695345348769](https://x.com/Ayuan_ai/status/2056662695345348769)
+  - [twitter.com/kfk_ai/status/2056660897381425590](https://twitter.com/kfk_ai/status/2056660897381425590)
+- Public metrics: bookmark_count=21, like_count=15, quote_count=0, reply_count=1, retweet_count=2
+
+> AI agent真正的瓶颈从来不是模型，而是落地
 
 ---
 
@@ -534,16 +731,19 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T16:31:59Z
 - Primary URLs:
   - [x.com/i/article/2054598592980234240](https://x.com/i/article/2054598592980234240)
+  - [x.com/i/article/2054598592980234240](http://x.com/i/article/2054598592980234240)
 - Linked content:
   - [x.com/i/article/2054598592980234240](https://x.com/i/article/2054598592980234240)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054598592980234240/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054598592980234240](http://x.com/i/article/2054598592980234240)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054598592980234240/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/lotte_verheyden/status/2056810675327148165](https://x.com/lotte_verheyden/status/2056810675327148165)
   - [x.com/lotte_verheyden/status/2056754091817361670](https://x.com/lotte_verheyden/status/2056754091817361670)
   - [x.com/i/article/2054598592980234240](https://x.com/i/article/2054598592980234240)
-- Public metrics: bookmark_count=612, impression_count=20763, like_count=299, quote_count=6, reply_count=4, retweet_count=25
+- Public metrics: bookmark_count=699, like_count=335, quote_count=6, reply_count=5, retweet_count=28
 
-> https://x.com/i/article/2054598592980234240
+> http://x.com/i/article/2054598592980234240
 
 #### X Article
 
@@ -584,97 +784,87 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @Alfred_Lin 
+### @larsencc Thinking about making a general solution for this so anyone can plug and play it into...
 
-- Author: Alfred Lin [@Alfred_Lin](https://x.com/Alfred_Lin)
-- Tweet URL: [https://x.com/Alfred_Lin/status/2056734226201100603](https://x.com/Alfred_Lin/status/2056734226201100603)
-- X article: [Finite and Infinite Mindsets](https://x.com/Alfred_Lin/article/2056734226201100603)
-- X article text: Win the game in front of you, but build like the game never ends. -- Game theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by...
+- Author: Larsen Cundric [@larsencc](https://x.com/larsencc)
+- Tweet URL: [https://x.com/larsencc/status/2056444837935874156](https://x.com/larsencc/status/2056444837935874156)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T13:50:26.000Z
-- First seen: 2026-05-19T16:31:59Z
+- Tweet created: 2026-05-18T18:40:30.000Z
+- First seen: 2026-05-19T13:18:26Z
 - Primary URLs:
-  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
-- Linked content:
-  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056434896411996160/i/keyboard%5Fshortcuts)...
+  - [twitter.com/larsencc/status/2027225210412470668](https://twitter.com/larsencc/status/2027225210412470668)
 - Thread URLs:
-  - [x.com/Alfred_Lin/status/2056776056674349411](https://x.com/Alfred_Lin/status/2056776056674349411)
-  - [x.com/Alfred_Lin/status/2056775923912073283](https://x.com/Alfred_Lin/status/2056775923912073283)
-  - [x.com/Alfred_Lin/status/2056775650778996929](https://x.com/Alfred_Lin/status/2056775650778996929)
-  - [x.com/Alfred_Lin/status/2056756723197821288](https://x.com/Alfred_Lin/status/2056756723197821288)
-  - [x.com/Alfred_Lin/status/2056743471424401511](https://x.com/Alfred_Lin/status/2056743471424401511)
-  - [x.com/Alfred_Lin/status/2056743041344610593](https://x.com/Alfred_Lin/status/2056743041344610593)
-  - [x.com/Alfred_Lin/status/2056742884242862080](https://x.com/Alfred_Lin/status/2056742884242862080)
-  - [x.com/Alfred_Lin/status/2056734226201100603](https://x.com/Alfred_Lin/status/2056734226201100603)
-  - [x.com/i/article/2056434896411996160](https://x.com/i/article/2056434896411996160)
-- Public metrics: bookmark_count=488, impression_count=32050, like_count=282, quote_count=3, reply_count=9, retweet_count=27
+  - [x.com/larsencc/status/2056752416876564915](https://x.com/larsencc/status/2056752416876564915)
+  - [x.com/larsencc/status/2056750895321522408](https://x.com/larsencc/status/2056750895321522408)
+  - [x.com/larsencc/status/2056604271744078184](https://x.com/larsencc/status/2056604271744078184)
+  - [x.com/larsencc/status/2056574374824878539](https://x.com/larsencc/status/2056574374824878539)
+  - [x.com/larsencc/status/2056499291427103114](https://x.com/larsencc/status/2056499291427103114)
+  - [x.com/larsencc/status/2056468704188387360](https://x.com/larsencc/status/2056468704188387360)
+  - [x.com/larsencc/status/2056450817306267781](https://x.com/larsencc/status/2056450817306267781)
+  - [x.com/larsencc/status/2056444837935874156](https://x.com/larsencc/status/2056444837935874156)
+  - [twitter.com/larsencc/status/2027225210412470668](https://twitter.com/larsencc/status/2027225210412470668)
+- Public metrics: bookmark_count=113, like_count=87, quote_count=0, reply_count=6, retweet_count=8
 
-> https://x.com/i/article/2056434896411996160
-
-#### X Article
-
-> Win the game in front of you, but build like the game never ends.
-> --
-> Game theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by James P. Carse (1986) and The Infinite Game by Simon Sinek (2019).
-> Many games we play or watch are finite games. Finite games are played with known players, rules, objectives, time duration, and scoring to determine a winner at the end of those games. Rugby, soccer, and chess are all examples of finite games.
-> In dichotomy, infinite games have known and unknown players that enter and exit the game at known and unknown times. There are conventions and perhaps laws that govern, but those conventions and laws can and do change. Breaking conventions might be frowned upon, but not prohibited. There are many metrics of success but different players optimize for different metrics over different time horizons.
-> The purpose of infinite games is to keep playing, shape the game to your advantage, and make progress. There are no real winners, but rather just a concept of whether you are ahead or behind, which constantly changes depending on your success metrics. The only losers are those who quit. How each of us chooses to live and find meaning in our lives and human civilization are examples of infinite games.
-> We can frame business as a finite game or an infinite game. Both Carse and Sinek put forth the contrast as an “or”, but I submit the proper framing is “and” because business is both.
-> There are deadlines to meet. Opportunities to win. Getting to market first. Launching a better product. Many aspects of business are finite games. The objective is to win.
-> At the same time, the enduring value of a business organization is not measured by those past successes, but by the business's ability to keep succeeding, not just during the time the current team is executing, but well beyond their tenure. This requires an infinite mindset, an infinite time horizon, and a mentality to put the company first, then the team, then yourself.
-> Those in business should have both finite and infinite mindsets held in tension. You should want to win every finite game you choose to play, but whether you win or lose, you learn and continue on to your next game with the intention to win. In addition, come to work every day with a desire to leave things in much better shape than you found them for the next generation.
+> Thinking about making a general solution for this so anyone can plug and play it into their agent workflows.
+>
+> Thoughts?
 
 ---
 
-### @Ayuan_ai AI agent真正的瓶颈从来不是模型，而是落地
+### @ClaudeDevs What are best practices for running Claude Code at scale? New blog post on what we've...
 
-- Author: Ayuan [@Ayuan_ai](https://x.com/Ayuan_ai)
-- Tweet URL: [https://x.com/Ayuan_ai/status/2056662695345348769](https://x.com/Ayuan_ai/status/2056662695345348769)
+- Author: ClaudeDevs [@ClaudeDevs](https://x.com/ClaudeDevs)
+- Tweet URL: [https://x.com/ClaudeDevs/status/2056403446056784288](https://x.com/ClaudeDevs/status/2056403446056784288)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-19T09:06:12.000Z
-- First seen: 2026-05-19T16:31:59Z
+- Tweet created: 2026-05-18T15:56:02.000Z
+- First seen: 2026-05-19T13:18:26Z
 - Primary URLs:
-  - [twitter.com/kfk_ai/status/2056660897381425590](https://twitter.com/kfk_ai/status/2056660897381425590)
-- Thread URLs:
-  - [x.com/Ayuan_ai/status/2056662695345348769](https://x.com/Ayuan_ai/status/2056662695345348769)
-  - [twitter.com/kfk_ai/status/2056660897381425590](https://twitter.com/kfk_ai/status/2056660897381425590)
-- Public metrics: bookmark_count=16, impression_count=4669, like_count=10, quote_count=0, reply_count=1, retweet_count=1
+  - [claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
+- Linked content:
+  - [How Claude Code works in large codebases: Best practices and where to start | Claude](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
+    Images: https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a060215e86f555c3638a2a1_og_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.jpg, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04aaf1c37c6196e5ee19bb_fig1-the-claude-code-harness-v1%402x.png
+    Text: How Claude Code works in large codebases: Best practices and where to start The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part of...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=5523, like_count=4157, quote_count=66, reply_count=120, retweet_count=418
 
-> AI agent真正的瓶颈从来不是模型，而是落地 https://twitter.com/kfk_ai/status/2056660897381425590
+> What are best practices for running Claude Code at scale?
+>
+> New blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices:
+>
+> https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 
 ---
 
-### @neural_avb They are now training local recursive language models inside python REPLs with...
+### @LiuVaayne 一位近20年经验的工程师写了他为什么不"vibe code"。读完很共鸣——不是反对技术，而是有些人的工作快感来自"安静地理清楚问题、自己动手解决"，这个过程本身无法外包。...
 
-- Author: AVB [@neural_avb](https://x.com/neural_avb)
-- Tweet URL: [https://x.com/neural_avb/status/2056462216430535062](https://x.com/neural_avb/status/2056462216430535062)
+- Author: Vaayne [@LiuVaayne](https://x.com/LiuVaayne)
+- Tweet URL: [https://x.com/LiuVaayne/status/2056185843887611964](https://x.com/LiuVaayne/status/2056185843887611964)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-18T19:49:34.000Z
-- First seen: 2026-05-19T16:31:59Z
+- Tweet created: 2026-05-18T01:31:21.000Z
+- First seen: 2026-05-19T13:18:26Z
 - Primary URLs:
-  - [x.com/neural_avb/status/2056462216430535062/video/1](https://x.com/neural_avb/status/2056462216430535062/video/1)
-  - [twitter.com/neural_avb/status/2056358393892540552](https://twitter.com/neural_avb/status/2056358393892540552)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
+  - [jacobharr.is/personal/i-dont-vibe-code](https://jacobharr.is/personal/i-dont-vibe-code)
 - Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg
+  - [Why I Don’t Vibe Code | jacobharr.is](https://jacobharr.is/personal/i-dont-vibe-code)
+    Images: https://jacobharr.is/images/writing/misc-previews/vibe-code.png, https://jacobharr.is/images/thumbnails/vibe-code.png
+    Text: - March 05, 2026 - A "brief" accounting of various reasons why vibe coding has just never clicked for me personally as a developer. There has been a lot of discussion online lately about vibe coding and and how Large Language Models...
 - Thread URLs:
-  - [x.com/neural_avb/status/2056462216430535062](https://x.com/neural_avb/status/2056462216430535062)
-  - [x.com/neural_avb/status/2056462216430535062/video/1](https://x.com/neural_avb/status/2056462216430535062/video/1)
-  - [twitter.com/neural_avb/status/2056358393892540552](https://twitter.com/neural_avb/status/2056358393892540552)
-  - [pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg](https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg)
-- Public metrics: bookmark_count=591, impression_count=62268, like_count=388, quote_count=2, reply_count=8, retweet_count=33
+  - [x.com/LiuVaayne/status/2056185843887611964](https://x.com/LiuVaayne/status/2056185843887611964)
+- Public metrics: bookmark_count=67, like_count=60, quote_count=3, reply_count=1, retweet_count=4
 
-> They are now training local recursive language models inside python REPLs with reinforcement learning
+> 一位近20年经验的工程师写了他为什么不"vibe code"。读完很共鸣——不是反对技术，而是有些人的工作快感来自"安静地理清楚问题、自己动手解决"，这个过程本身无法外包。
 >
-> Agents are divide-and-conquering long problems, and passing around context as python variables.
+> 核心洞察来自Fred Brooks：LLM消灭的是"偶然复杂度"（写代码的麻烦），但"本质复杂度"永远不会消失——设计正确抽象、承担道德责任、从失败中学判断力。这些需要经验、智慧和 messy thinking。
 >
-> This is so cool https://x.com/neural_avb/status/2056462216430535062/video/1 https://twitter.com/neural_avb/status/2056358393892540552
+> 最喜欢他的这个观点：friction is a gift。代码变难写、读代码卡壳、设计时卡住——这些摩擦是信号，不是障碍。AI的处理方式是"code through it"，但更好的工程师会停下来，去散步，写ADR，让架构自己浮现。
+>
+> 还有一点很真实：LLM营销把软件开发描绘成"一个孤独工程师指挥agent军队"。但真实开发是协作过程。把PM、设计、测试当成"摩擦"消灭掉，你得到的是更快的发布，和更孤独的工作。
+>
+> https://jacobharr.is/personal/i-dont-vibe-code
+> #TIR
 
 ---
 
@@ -690,9 +880,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T13:18:26Z
 - Primary URLs:
   - [x.com/i/article/2056612468537823232](https://x.com/i/article/2056612468537823232)
+  - [x.com/i/article/2056612468537823232](http://x.com/i/article/2056612468537823232)
 - Linked content:
   - [x.com/i/article/2056612468537823232](https://x.com/i/article/2056612468537823232)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056612468537823232/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056612468537823232](http://x.com/i/article/2056612468537823232)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056612468537823232/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/ma_zhenyuan/status/2056884573435580792](https://x.com/ma_zhenyuan/status/2056884573435580792)
   - [x.com/ma_zhenyuan/status/2056767405800767642](https://x.com/ma_zhenyuan/status/2056767405800767642)
@@ -713,9 +906,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ma_zhenyuan/status/2056636031735357630](https://x.com/ma_zhenyuan/status/2056636031735357630)
   - [x.com/ma_zhenyuan/status/2056633189687586958](https://x.com/ma_zhenyuan/status/2056633189687586958)
   - [x.com/i/article/2056612468537823232](https://x.com/i/article/2056612468537823232)
-- Public metrics: bookmark_count=342, impression_count=25882, like_count=178, quote_count=19, reply_count=23, retweet_count=44
+- Public metrics: bookmark_count=395, like_count=202, quote_count=22, reply_count=25, retweet_count=50
 
-> https://x.com/i/article/2056612468537823232
+> http://x.com/i/article/2056612468537823232
 
 #### X Article
 
@@ -779,59 +972,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @larsencc Thinking about making a general solution for this so anyone can plug and play it into...
-
-- Author: Larsen Cundric [@larsencc](https://x.com/larsencc)
-- Tweet URL: [https://x.com/larsencc/status/2056444837935874156](https://x.com/larsencc/status/2056444837935874156)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-18T18:40:30.000Z
-- First seen: 2026-05-19T13:18:26Z
-- Primary URLs:
-  - [twitter.com/larsencc/status/2027225210412470668](https://twitter.com/larsencc/status/2027225210412470668)
-- Thread URLs:
-  - [x.com/larsencc/status/2056752416876564915](https://x.com/larsencc/status/2056752416876564915)
-  - [x.com/larsencc/status/2056750895321522408](https://x.com/larsencc/status/2056750895321522408)
-  - [x.com/larsencc/status/2056604271744078184](https://x.com/larsencc/status/2056604271744078184)
-  - [x.com/larsencc/status/2056574374824878539](https://x.com/larsencc/status/2056574374824878539)
-  - [x.com/larsencc/status/2056499291427103114](https://x.com/larsencc/status/2056499291427103114)
-  - [x.com/larsencc/status/2056468704188387360](https://x.com/larsencc/status/2056468704188387360)
-  - [x.com/larsencc/status/2056450817306267781](https://x.com/larsencc/status/2056450817306267781)
-  - [x.com/larsencc/status/2056444837935874156](https://x.com/larsencc/status/2056444837935874156)
-  - [twitter.com/larsencc/status/2027225210412470668](https://twitter.com/larsencc/status/2027225210412470668)
-- Public metrics: bookmark_count=112, impression_count=15850, like_count=85, quote_count=0, reply_count=6, retweet_count=8
-
-> Thinking about making a general solution for this so anyone can plug and play it into their agent workflows.
->
-> Thoughts? https://twitter.com/larsencc/status/2027225210412470668
-
----
-
-### @ClaudeDevs What are best practices for running Claude Code at scale? New blog post on what we've...
-
-- Author: ClaudeDevs [@ClaudeDevs](https://x.com/ClaudeDevs)
-- Tweet URL: [https://x.com/ClaudeDevs/status/2056403446056784288](https://x.com/ClaudeDevs/status/2056403446056784288)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-18T15:56:02.000Z
-- First seen: 2026-05-19T13:18:26Z
-- Primary URLs:
-  - [claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
-- Linked content:
-  - [How Claude Code works in large codebases: Best practices and where to start | Claude](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
-    Images: https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a060215e86f555c3638a2a1_og_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.jpg, https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg, https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04aaf1c37c6196e5ee19bb_fig1-the-claude-code-harness-v1%402x.png
-    Text: How Claude Code works in large codebases: Best practices and where to start The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part of...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=5280, impression_count=610475, like_count=4015, quote_count=63, reply_count=120, retweet_count=404
-
-> What are best practices for running Claude Code at scale?
->
-> New blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices:
->
-> https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
-
----
-
 ### @noahduck283 在X 户口本大赚钱时代，看到依旧有人耐心教大家干货，真心表示respect！ 不愧是大厂多次想捞的男人~
 
 - Author: 诺鸭船长3 [@noahduck283](https://x.com/noahduck283)
@@ -845,30 +985,37 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/noahduck283/status/2056345346998178152](https://x.com/noahduck283/status/2056345346998178152)
   - [twitter.com/Russell3402/status/2056331558223786416](https://twitter.com/Russell3402/status/2056331558223786416)
-- Public metrics: bookmark_count=538, impression_count=127332, like_count=265, quote_count=1, reply_count=12, retweet_count=44
+- Public metrics: bookmark_count=540, like_count=266, quote_count=1, reply_count=12, retweet_count=44
 
 > 在X 户口本大赚钱时代，看到依旧有人耐心教大家干货，真心表示respect！
 >
-> 不愧是大厂多次想捞的男人~ https://twitter.com/Russell3402/status/2056331558223786416
+> 不愧是大厂多次想捞的男人~
 
 ---
 
-### @LiuVaayne 一位近20年经验的工程师写了他为什么不"vibe code"。读完很共鸣——不是反对技术，而是有些人的工作快感来自"安静地理清楚问题、自己动手解决"，这个过程本身无法外包。...
+### @assaf_elovic Ora just released the first ever agent readiness report and the result is pretty wild:...
 
-- Author: Vaayne [@LiuVaayne](https://x.com/LiuVaayne)
-- Tweet URL: [https://x.com/LiuVaayne/status/2056185843887611964](https://x.com/LiuVaayne/status/2056185843887611964)
+- Author: Assaf Elovic [@assaf_elovic](https://x.com/assaf_elovic)
+- Tweet URL: [https://x.com/assaf_elovic/status/2049569670798156262](https://x.com/assaf_elovic/status/2049569670798156262)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-18T01:31:21.000Z
+- Tweet created: 2026-04-29T19:21:03.000Z
 - First seen: 2026-05-19T13:18:26Z
-- Primary URLs: none
+- Primary URLs:
+  - [ora.ai](https://ora.ai/)
+  - [ora.run](http://ora.run)
+- Linked content:
+  - [ora // Agent Readiness Ranking](https://ora.ai/)
+    Images: https://ora.ai/opengraph-image.png?opengraph-image.cdd24f84.png, https://ora.ai/twitter-image.png?twitter-image.cdd24f84.png, https://ora.ai/icon.svg, https://www.google.com/s2/favicons?domain=apify.com&sz=32
+  - [ora // Agent Readiness Ranking](https://ora.ai/)
+    Images: https://ora.ai/opengraph-image.png?opengraph-image.cdd24f84.png, https://ora.ai/twitter-image.png?twitter-image.cdd24f84.png, https://ora.ai/icon.svg, https://www.google.com/s2/favicons?domain=apify.com&sz=32
 - Thread URLs:
-  - [x.com/LiuVaayne/status/2056185843887611964](https://x.com/LiuVaayne/status/2056185843887611964)
-- Public metrics: bookmark_count=67, impression_count=19011, like_count=60, quote_count=3, reply_count=1, retweet_count=4
+  - [x.com/assaf_elovic/status/2055317593670472132](https://x.com/assaf_elovic/status/2055317593670472132)
+- Public metrics: bookmark_count=911, like_count=869, quote_count=2, reply_count=48, retweet_count=82
 
-> 一位近20年经验的工程师写了他为什么不"vibe code"。读完很共鸣——不是反对技术，而是有些人的工作快感来自"安静地理清楚问题、自己动手解决"，这个过程本身无法外包。
+> Ora just released the first ever agent readiness report and the result is pretty wild: only 1% of the web is actually usable by agents.
 >
-> 核心洞察来自Fred
+> Ora ran thousands of real sessions with ChatGPT, Claude and OpenClaw on household brands. Check out the full report at http://ora.run
 
 ---
 
@@ -895,7 +1042,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jxnlco/status/2056576975964127506](https://x.com/jxnlco/status/2056576975964127506)
   - [x.com/jxnlco/status/2056576795298701528?s=20](https://x.com/jxnlco/status/2056576795298701528?s=20)
   - [x.com/jxnlco/status/2056392071926169920](https://x.com/jxnlco/status/2056392071926169920)
-- Public metrics: bookmark_count=5729, impression_count=311902, like_count=3366, quote_count=39, reply_count=148, retweet_count=214
+- Public metrics: bookmark_count=5735, like_count=3372, quote_count=39, reply_count=148, retweet_count=214
 
 > jason from the codex team here,
 > heres a draft on codex maxxing and the primatives i use on a daily basis
@@ -903,29 +1050,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > https://jxnl.github.io/blog/writing/2026/05/10/codex-maxxing/
 >
 > would love any feedback
-
----
-
-### @assaf_elovic Ora just released the first ever agent readiness report and the result is pretty wild:...
-
-- Author: Assaf Elovic [@assaf_elovic](https://x.com/assaf_elovic)
-- Tweet URL: [https://x.com/assaf_elovic/status/2049569670798156262](https://x.com/assaf_elovic/status/2049569670798156262)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-29T19:21:03.000Z
-- First seen: 2026-05-19T13:18:26Z
-- Primary URLs:
-  - [ora.ai](https://ora.ai/)
-- Linked content:
-  - [ora // Agent Readiness Ranking](https://ora.ai/)
-    Images: https://ora.ai/opengraph-image.png?opengraph-image.cdd24f84.png, https://ora.ai/twitter-image.png?twitter-image.cdd24f84.png, https://ora.ai/icon.svg, https://www.google.com/s2/favicons?domain=apify.com&sz=32
-- Thread URLs:
-  - [x.com/assaf_elovic/status/2055317593670472132](https://x.com/assaf_elovic/status/2055317593670472132)
-- Public metrics: bookmark_count=903, impression_count=1223348, like_count=862, quote_count=2, reply_count=46, retweet_count=82
-
-> Ora just released the first ever agent readiness report and the result is pretty wild: only 1% of the web is actually usable by agents.
->
-> Ora ran thousands of real sessions with ChatGPT, Claude and OpenClaw on household brands. Check out the full report at https://ora.ai/
 
 ---
 
@@ -1024,11 +1148,14 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs:
   - [browse.sh](https://browse.sh/)
   - [x.com/browserbase/status/2056404332824944970/video/1](https://x.com/browserbase/status/2056404332824944970/video/1)
+  - [Browse.sh](http://Browse.sh)
 - Media URLs:
   - [video](https://pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg)
 - Linked content:
   - [browse.sh](https://browse.sh/)
     Images: https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png, https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png, https://browse.sh/brand/browserbase-logo.svg, https://browse.sh/api/icon?domain=abc7news.com&sz=64
+  - [browse.sh](https://Browse.sh/)
+    Images: https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png, https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png, https://Browse.sh/brand/browserbase-logo.svg, https://Browse.sh/api/icon?domain=12306.cn&sz=64
   - [pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg](https://pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg
   - [Browserbase Pricing: Free, $20, $99, or Custom | Browserbase](https://www.browserbase.com/pricing)
@@ -1061,103 +1188,11 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/browserbase/status/2056404332824944970](https://x.com/browserbase/status/2056404332824944970)
   - [x.com/browserbase/status/2056404332824944970/video/1](https://x.com/browserbase/status/2056404332824944970/video/1)
   - [pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg](https://pbs.twimg.com/amplify_video_thumb/2056401090552410112/img/ArrdUEpSr-F8jB1U.jpg)
-- Public metrics: bookmark_count=3207, impression_count=379892, like_count=1922, quote_count=31, reply_count=50, retweet_count=150
+- Public metrics: bookmark_count=3283, like_count=1962, quote_count=32, reply_count=51, retweet_count=150
 
-> Introducing https://browse.sh/, the largest open-source catalog of skills to reliably perform any task on the internet.
+> Introducing http://Browse.sh, the largest open-source catalog of skills to reliably perform any task on the internet.
 >
-> We've researched hundreds of sites to give your agents the playbook they need to navigate the web. https://x.com/browserbase/status/2056404332824944970/video/1
-
----
-
-### @hnshah 
-
-- Author: Hiten Shah [@hnshah](https://x.com/hnshah)
-- Tweet URL: [https://x.com/hnshah/status/2056390241217622502](https://x.com/hnshah/status/2056390241217622502)
-- X article: [The new startup bottleneck ](https://x.com/hnshah/article/2056390241217622502)
-- X article text: Founders are shipping so much right now that a lot of them have lost the thread. A demo works. Launch goes out. Teams feel momentum. Then the uncomfortable part shows up. Nobody knows what the company learned. That is the part of this AI moment I cannot stop thinking about. It came up in my...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-18T15:03:34.000Z
-- First seen: 2026-05-19T04:17:35Z
-- Primary URLs:
-  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
-  - [youtu.be/_nX16BHnDbo](https://youtu.be/_nX16BHnDbo)
-  - [youtu.be/_nX16BHnDbo?t=4891](https://youtu.be/_nX16BHnDbo?t=4891)
-- Linked content:
-  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056250841905201152/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HIlI5--...
-  - [- YouTube](https://www.youtube.com/watch?v=_nX16BHnDbo&feature=youtu.be)
-  - [- YouTube](https://www.youtube.com/watch?t=4891&v=_nX16BHnDbo&feature=youtu.be)
-  - [pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg](https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg)
-    Images: https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg
-- Thread URLs:
-  - [x.com/hnshah/status/2056459586060922921](https://x.com/hnshah/status/2056459586060922921)
-  - [x.com/hnshah/status/2056421898066772003](https://x.com/hnshah/status/2056421898066772003)
-  - [x.com/hnshah/status/2056394734076297580](https://x.com/hnshah/status/2056394734076297580)
-  - [x.com/hnshah/status/2056394734076297580/photo/1](https://x.com/hnshah/status/2056394734076297580/photo/1)
-  - [pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg](https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg)
-  - [x.com/hnshah/status/2056390241217622502](https://x.com/hnshah/status/2056390241217622502)
-  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
-  - [youtu.be/_nX16BHnDbo](https://youtu.be/_nX16BHnDbo)
-  - [youtu.be/_nX16BHnDbo?t=4891](https://youtu.be/_nX16BHnDbo?t=4891)
-- Public metrics: bookmark_count=219, impression_count=28796, like_count=124, quote_count=8, reply_count=15, retweet_count=11
-
-> https://x.com/i/article/2056250841905201152
-
-#### X Article
-
-> Founders are shipping so much right now that a lot of them have lost the thread. A demo works. Launch goes out. Teams feel momentum. Then the uncomfortable part shows up. Nobody knows what the company learned.
-> That is the part of this AI moment I cannot stop thinking about.
-> It came up in my conversation with Luba because she asked what has changed for founders. My answer keeps getting simpler the more I think about it.
-> We can build more.
-> Learning has not caught up.
-> Back in the day, I learned Lean Startup from Eric Ries and Sean Ellis. Eric gave the world build, measure, learn. Sean made the learning part feel real to me because he came at it through growth. He cared about the loop getting tighter. Put something into the world. See what happened. Learn from it. Go around again.
-> That still sounds basic.
-> It is still the whole game.
-> AI changed the emotional weight of building.
-> A small team can make a prototype in the morning. One founder can turn a rough thought into a working demo. Product people can explore five directions where they used to explore one. Engineers have tools that take a lot of the blank-page pain out of implementation.
-> Useful stuff.
-> Also dangerous.
-> Motion has a drug-like quality for founders. You had an idea. Now it exists. The team can see it. Customers can click it. Investors can react to it. Social can screenshot it.
-> For a minute, that feels like progress.
-> Then comes the part most teams are not set up for.
-> Did it matter?
-> Who used it?
-> Why did they care?
-> Where did they get stuck?
-> What did it teach us that changes what we do next?
-> Those questions are slower than the demo. They are also where the company gets smarter.
-> I think this is why so many founders feel a weird mix of excitement and anxiety right now. They are moving faster. Their product is changing more often. The roadmap has more options. Everything looks more alive.
-> Clarity is not increasing at the same rate.
-> That gap is the bottleneck.
-> Learning capacity.
-> A company can now create more product surface area than it can understand. That sounds like a good problem until you live with it. Every new feature asks for a relationship with the company. Customers have to understand it. Support has to explain it. Product has to remember why it exists. Engineering has to maintain it. Someone has to decide when it should die.
-> Shipping is a moment.
-> Learning is a system.
-> You can feel the difference as a user.
-> Some products feel like the team learned before they shipped. The use case is clear. Edges make sense. You can tell someone cared about the path from first click to value.
-> Other products feel like the team shipped so they could find out what they were building.
-> That can work for a prototype.
-> It gets expensive as a habit.
-> The example I brought up with Luba was Gamma. Grant Lee talked with Lenny about their process, and what stuck with me was how completely they compress the loop.
-> Idea in the morning.
-> Functional prototype.
-> Real prospective users who do not care if Gamma succeeds.
-> Experiment in the afternoon.
-> Watch people struggle.
-> Review what happened by evening or the next day.
-> That is speed with a brain attached.
-> The prototype creates contact with reality. User testing shows where the idea breaks. Review turns pain into a decision.
-> A lot of teams stop at the artifact.
-> Strong teams finish the loop.
-> That is the distinction I think people are missing in the AI conversation. Everyone keeps asking how fast they can ship. A more useful question is how fast the company can learn from what it ships.
-> Very different muscles.
-> Shipping fast takes tools and urgency.
-> Learning fast takes taste, customer access, instrumentation, decision cadence, and enough humility to hear what the market just told you.
-> Many companies are training the first muscle hard right now.
-> The second one is undertrained.
-> That creates a feeling founders know well. Busy team. Changing product. Full roadmap. Lots of energy. Somehow the company does not feel sharper.
-> Usually, that means unresolved learning i...
+> We've researched hundreds of sites to give your agents the playbook they need to navigate the web. https://t.co/qfS9PjBLEO
 
 ---
 
@@ -1173,16 +1208,19 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T04:17:35Z
 - Primary URLs:
   - [x.com/i/article/2056351240506974209](https://x.com/i/article/2056351240506974209)
+  - [x.com/i/article/2056351240506974209](http://x.com/i/article/2056351240506974209)
 - Linked content:
   - [x.com/i/article/2056351240506974209](https://x.com/i/article/2056351240506974209)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056351240506974209/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056351240506974209](http://x.com/i/article/2056351240506974209)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056351240506974209/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/gregisenberg/status/2056378638908657893](https://x.com/gregisenberg/status/2056378638908657893)
   - [x.com/gregisenberg/status/2056369806232961276](https://x.com/gregisenberg/status/2056369806232961276)
   - [x.com/i/article/2056351240506974209](https://x.com/i/article/2056351240506974209)
-- Public metrics: bookmark_count=1656, impression_count=89851, like_count=696, quote_count=2, reply_count=29, retweet_count=87
+- Public metrics: bookmark_count=1661, like_count=700, quote_count=2, reply_count=29, retweet_count=87
 
-> https://x.com/i/article/2056351240506974209
+> http://x.com/i/article/2056351240506974209
 
 #### X Article
 
@@ -1247,6 +1285,101 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @hnshah 
+
+- Author: Hiten Shah [@hnshah](https://x.com/hnshah)
+- Tweet URL: [https://x.com/hnshah/status/2056390241217622502](https://x.com/hnshah/status/2056390241217622502)
+- X article: [The new startup bottleneck ](https://x.com/hnshah/article/2056390241217622502)
+- X article text: Founders are shipping so much right now that a lot of them have lost the thread. A demo works. Launch goes out. Teams feel momentum. Then the uncomfortable part shows up. Nobody knows what the company learned. That is the part of this AI moment I cannot stop thinking about. It came up in my...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-18T15:03:34.000Z
+- First seen: 2026-05-19T04:17:35Z
+- Primary URLs:
+  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
+  - [youtu.be/_nX16BHnDbo](https://youtu.be/_nX16BHnDbo)
+  - [youtu.be/_nX16BHnDbo?t=4891](https://youtu.be/_nX16BHnDbo?t=4891)
+  - [x.com/i/article/2056250841905201152](http://x.com/i/article/2056250841905201152)
+- Linked content:
+  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056250841905201152/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HIlI5--...
+  - [- YouTube](https://www.youtube.com/watch?v=_nX16BHnDbo&feature=youtu.be)
+  - [- YouTube](https://www.youtube.com/watch?t=4891&v=_nX16BHnDbo&feature=youtu.be)
+  - [x.com/i/article/2056250841905201152](http://x.com/i/article/2056250841905201152)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056250841905201152/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HIlI5--...
+  - [pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg](https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg)
+    Images: https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg
+- Thread URLs:
+  - [x.com/hnshah/status/2056459586060922921](https://x.com/hnshah/status/2056459586060922921)
+  - [x.com/hnshah/status/2056421898066772003](https://x.com/hnshah/status/2056421898066772003)
+  - [x.com/hnshah/status/2056394734076297580](https://x.com/hnshah/status/2056394734076297580)
+  - [x.com/hnshah/status/2056394734076297580/photo/1](https://x.com/hnshah/status/2056394734076297580/photo/1)
+  - [pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg](https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg)
+  - [x.com/hnshah/status/2056390241217622502](https://x.com/hnshah/status/2056390241217622502)
+  - [x.com/i/article/2056250841905201152](https://x.com/i/article/2056250841905201152)
+  - [youtu.be/_nX16BHnDbo](https://youtu.be/_nX16BHnDbo)
+  - [youtu.be/_nX16BHnDbo?t=4891](https://youtu.be/_nX16BHnDbo?t=4891)
+- Public metrics: bookmark_count=220, like_count=124, quote_count=8, reply_count=16, retweet_count=11
+
+> http://x.com/i/article/2056250841905201152
+
+#### X Article
+
+> Founders are shipping so much right now that a lot of them have lost the thread. A demo works. Launch goes out. Teams feel momentum. Then the uncomfortable part shows up. Nobody knows what the company learned.
+> That is the part of this AI moment I cannot stop thinking about.
+> It came up in my conversation with Luba because she asked what has changed for founders. My answer keeps getting simpler the more I think about it.
+> We can build more.
+> Learning has not caught up.
+> Back in the day, I learned Lean Startup from Eric Ries and Sean Ellis. Eric gave the world build, measure, learn. Sean made the learning part feel real to me because he came at it through growth. He cared about the loop getting tighter. Put something into the world. See what happened. Learn from it. Go around again.
+> That still sounds basic.
+> It is still the whole game.
+> AI changed the emotional weight of building.
+> A small team can make a prototype in the morning. One founder can turn a rough thought into a working demo. Product people can explore five directions where they used to explore one. Engineers have tools that take a lot of the blank-page pain out of implementation.
+> Useful stuff.
+> Also dangerous.
+> Motion has a drug-like quality for founders. You had an idea. Now it exists. The team can see it. Customers can click it. Investors can react to it. Social can screenshot it.
+> For a minute, that feels like progress.
+> Then comes the part most teams are not set up for.
+> Did it matter?
+> Who used it?
+> Why did they care?
+> Where did they get stuck?
+> What did it teach us that changes what we do next?
+> Those questions are slower than the demo. They are also where the company gets smarter.
+> I think this is why so many founders feel a weird mix of excitement and anxiety right now. They are moving faster. Their product is changing more often. The roadmap has more options. Everything looks more alive.
+> Clarity is not increasing at the same rate.
+> That gap is the bottleneck.
+> Learning capacity.
+> A company can now create more product surface area than it can understand. That sounds like a good problem until you live with it. Every new feature asks for a relationship with the company. Customers have to understand it. Support has to explain it. Product has to remember why it exists. Engineering has to maintain it. Someone has to decide when it should die.
+> Shipping is a moment.
+> Learning is a system.
+> You can feel the difference as a user.
+> Some products feel like the team learned before they shipped. The use case is clear. Edges make sense. You can tell someone cared about the path from first click to value.
+> Other products feel like the team shipped so they could find out what they were building.
+> That can work for a prototype.
+> It gets expensive as a habit.
+> The example I brought up with Luba was Gamma. Grant Lee talked with Lenny about their process, and what stuck with me was how completely they compress the loop.
+> Idea in the morning.
+> Functional prototype.
+> Real prospective users who do not care if Gamma succeeds.
+> Experiment in the afternoon.
+> Watch people struggle.
+> Review what happened by evening or the next day.
+> That is speed with a brain attached.
+> The prototype creates contact with reality. User testing shows where the idea breaks. Review turns pain into a decision.
+> A lot of teams stop at the artifact.
+> Strong teams finish the loop.
+> That is the distinction I think people are missing in the AI conversation. Everyone keeps asking how fast they can ship. A more useful question is how fast the company can learn from what it ships.
+> Very different muscles.
+> Shipping fast takes tools and urgency.
+> Learning fast takes taste, customer access, instrumentation, decision cadence, and enough humility to hear what the market just told you.
+> Many companies are training the first muscle hard right now.
+> The second one is undertrained.
+> That creates a feeling founders know well. Busy team. Changing product. Full roadmap. Lots of energy. Somehow the company does not feel sharper.
+> Usually, that means unresolved learning i...
+
+---
+
 ### @_TobiasLee 
 
 - Author: Lei Li [@_TobiasLee](https://x.com/_TobiasLee)
@@ -1259,16 +1392,19 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-19T04:17:35Z
 - Primary URLs:
   - [x.com/i/article/2056333686597890048](https://x.com/i/article/2056333686597890048)
+  - [x.com/i/article/2056333686597890048](http://x.com/i/article/2056333686597890048)
 - Linked content:
   - [x.com/i/article/2056333686597890048](https://x.com/i/article/2056333686597890048)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2056333686597890048/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2056333686597890048](http://x.com/i/article/2056333686597890048)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2056333686597890048/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/_TobiasLee/status/2056350577932861643](https://x.com/_TobiasLee/status/2056350577932861643)
   - [x.com/_TobiasLee/status/2056339539866886649](https://x.com/_TobiasLee/status/2056339539866886649)
   - [x.com/i/article/2056333686597890048](https://x.com/i/article/2056333686597890048)
-- Public metrics: bookmark_count=30, impression_count=3628, like_count=37, quote_count=0, reply_count=1, retweet_count=6
+- Public metrics: bookmark_count=30, like_count=37, quote_count=0, reply_count=1, retweet_count=6
 
-> https://x.com/i/article/2056333686597890048
+> http://x.com/i/article/2056333686597890048
 
 #### X Article
 
@@ -1351,14 +1487,17 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-18T04:18:21Z
 - Primary URLs:
   - [x.com/i/article/2055936913211899904](https://x.com/i/article/2055936913211899904)
+  - [x.com/i/article/2055936913211899904](http://x.com/i/article/2055936913211899904)
 - Linked content:
   - [x.com/i/article/2055936913211899904](https://x.com/i/article/2055936913211899904)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2055936913211899904/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2055936913211899904](http://x.com/i/article/2055936913211899904)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2055936913211899904/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/addyosmani/status/2056238025160491445](https://x.com/addyosmani/status/2056238025160491445)
-- Public metrics: bookmark_count=4692, impression_count=542284, like_count=3410, quote_count=109, reply_count=104, retweet_count=574
+- Public metrics: bookmark_count=4724, like_count=3423, quote_count=110, reply_count=105, retweet_count=577
 
-> https://x.com/i/article/2055936913211899904
+> http://x.com/i/article/2055936913211899904
 
 #### X Article
 
@@ -1381,81 +1520,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @lotte_verheyden 
-
-- Author: Lotte [@lotte_verheyden](https://x.com/lotte_verheyden)
-- Tweet URL: [https://x.com/lotte_verheyden/status/2056032201259831398](https://x.com/lotte_verheyden/status/2056032201259831398)
-- X article: [Designing eval datasets for LLM applications](https://x.com/lotte_verheyden/article/2056032201259831398)
-- X article text: .This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start A short recap of the AI Engineering Loop The AI Engineering Loop is how teams...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-17T15:20:50.000Z
-- First seen: 2026-05-18T04:18:21Z
-- Primary URLs:
-  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
-- Linked content:
-  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054596954282496000/i/keyboard%5Fshortcuts)...
-- Thread URLs:
-  - [x.com/lotte_verheyden/status/2056070378154602725](https://x.com/lotte_verheyden/status/2056070378154602725)
-  - [x.com/lotte_verheyden/status/2056070029981213165](https://x.com/lotte_verheyden/status/2056070029981213165)
-  - [x.com/lotte_verheyden/status/2056032201259831398](https://x.com/lotte_verheyden/status/2056032201259831398)
-  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
-- Public metrics: bookmark_count=679, impression_count=38158, like_count=319, quote_count=4, reply_count=4, retweet_count=34
-
-> https://x.com/i/article/2054596954282496000
-
-#### X Article
-
-> .This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start
-> A short recap of the AI Engineering Loop
-> The AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.
->
-> You can read more on this here.
-> How datasets fit into the loop
-> So far, we've covered the first two steps of the AI engineering loop: tracing your application and monitoring its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.
-> Now the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.
-> A dataset is a collection of test cases that you run your application against each time you make a change ("an experiment"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.
-> The dataset item
-> A dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:
-> Input (required)
-> Expected output (optional)
-> Metadata (optional)
-> The three fields of a dataset item
->
-> A good mental model:
->
-> Common expected output patterns
-> Whether you need an expected output, and what it looks like, depends on which type of evaluator you use.
-> Reference-based versus reference-free evaluators
-> Some evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).
-> Exact match
-> The expected output is the literal correct answer. For example:
-> A classification task where the correct label is "billing_inquiry"
-> An extraction task where the expected entities are ["Paris", "Thursday"]
-> Reference answer
-> The expected output is a gold-standard response that shows what a good output looks like. The evaluator can compare the test's output against this example, for instance by checking semantic similarity or whether the key points match.
-> Evaluation criteria
-> The expected output is a list of checks or requirements the output should satisfy. For example:
-> "must mention the refund policy"
-> "must include a link to the help center"
-> The evaluator checks whether the output meets these criteria.
-> Nothing
-> Sometimes no expected output is required at all. If you're just checking whether:
-> the tone is professional
-> the response is safe
-> the output follows a required format
-> Your dataset items don't need anything other than an input as you will use a reference-free evaluator.
-> Combination of the above
-> Because you can run a combination of different evaluators on a single dataset item, a dataset item's expected output field can also contain multiple types of reference data. The expected output is a JSON field, so you can store multiple types of reference data without a problem.
-> What makes a good dataset
-> A good dataset mirrors what your system will encounter in production. If passing the dataset gives you confidence before deploying, it's doing its job.
-> Clear in scope. Each dataset should have a well-defined scope. That can be end-to-end if you treat internal steps as implementation details, or it can target an individual step like retrieval or summarization if that's the part you're trying to improve. You'll likely end up with multiple datasets, each with a clear purpose.
->
-> The right size for the workflow. Some datasets are small and fast enough to run on every push as part of your CI/CD pipeline. Others are larger and more comprehensive, and are useful to...
-
----
-
 ### @Xudong07452910 
 
 - Author: Xudong Han [@Xudong07452910](https://x.com/Xudong07452910)
@@ -1468,9 +1532,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-18T04:18:21Z
 - Primary URLs:
   - [x.com/i/article/2055613452798902272](https://x.com/i/article/2055613452798902272)
+  - [x.com/i/article/2055613452798902272](http://x.com/i/article/2055613452798902272)
 - Linked content:
   - [x.com/i/article/2055613452798902272](https://x.com/i/article/2055613452798902272)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2055613452798902272/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2055613452798902272](http://x.com/i/article/2055613452798902272)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2055613452798902272/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/Xudong07452910/status/2056023674424033749](https://x.com/Xudong07452910/status/2056023674424033749)
   - [x.com/Xudong07452910/status/2055958212612919599](https://x.com/Xudong07452910/status/2055958212612919599)
@@ -1480,9 +1547,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Xudong07452910/status/2055905704720916560](https://x.com/Xudong07452910/status/2055905704720916560)
   - [x.com/Xudong07452910/status/2055904097358794948](https://x.com/Xudong07452910/status/2055904097358794948)
   - [x.com/i/article/2055613452798902272](https://x.com/i/article/2055613452798902272)
-- Public metrics: bookmark_count=66, impression_count=6007, like_count=39, quote_count=3, reply_count=6, retweet_count=0
+- Public metrics: bookmark_count=66, like_count=39, quote_count=3, reply_count=6, retweet_count=0
 
-> https://x.com/i/article/2055613452798902272
+> http://x.com/i/article/2055613452798902272
 
 #### X Article
 
@@ -1538,15 +1605,18 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-18T04:18:21Z
 - Primary URLs:
   - [x.com/i/article/2053986800050524160](https://x.com/i/article/2053986800050524160)
+  - [x.com/i/article/2053986800050524160](http://x.com/i/article/2053986800050524160)
 - Linked content:
   - [x.com/i/article/2053986800050524160](https://x.com/i/article/2053986800050524160)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2053986800050524160](http://x.com/i/article/2053986800050524160)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/tricalt/status/2055876832797581406](https://x.com/tricalt/status/2055876832797581406)
   - [x.com/i/article/2053986800050524160](https://x.com/i/article/2053986800050524160)
-- Public metrics: bookmark_count=1068, impression_count=54966, like_count=527, quote_count=7, reply_count=10, retweet_count=65
+- Public metrics: bookmark_count=1068, like_count=527, quote_count=7, reply_count=10, retweet_count=65
 
-> https://x.com/i/article/2053986800050524160
+> http://x.com/i/article/2053986800050524160
 
 #### X Article
 
@@ -1576,6 +1646,84 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > It is the same world model.
 > The harness that wins treats memory and skills as one comprehensive world model from the start.
 > Imho, if your memory system can't route a skill, it's not memory, let alone a world model.
+
+---
+
+### @lotte_verheyden 
+
+- Author: Lotte [@lotte_verheyden](https://x.com/lotte_verheyden)
+- Tweet URL: [https://x.com/lotte_verheyden/status/2056032201259831398](https://x.com/lotte_verheyden/status/2056032201259831398)
+- X article: [Designing eval datasets for LLM applications](https://x.com/lotte_verheyden/article/2056032201259831398)
+- X article text: .This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start A short recap of the AI Engineering Loop The AI Engineering Loop is how teams...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-17T15:20:50.000Z
+- First seen: 2026-05-18T04:18:21Z
+- Primary URLs:
+  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
+  - [x.com/i/article/2054596954282496000](http://x.com/i/article/2054596954282496000)
+- Linked content:
+  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054596954282496000/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054596954282496000](http://x.com/i/article/2054596954282496000)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054596954282496000/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/lotte_verheyden/status/2056070378154602725](https://x.com/lotte_verheyden/status/2056070378154602725)
+  - [x.com/lotte_verheyden/status/2056070029981213165](https://x.com/lotte_verheyden/status/2056070029981213165)
+  - [x.com/lotte_verheyden/status/2056032201259831398](https://x.com/lotte_verheyden/status/2056032201259831398)
+  - [x.com/i/article/2054596954282496000](https://x.com/i/article/2054596954282496000)
+- Public metrics: bookmark_count=679, like_count=319, quote_count=4, reply_count=4, retweet_count=34
+
+> http://x.com/i/article/2054596954282496000
+
+#### X Article
+
+> .This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start
+> A short recap of the AI Engineering Loop
+> The AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.
+>
+> You can read more on this here.
+> How datasets fit into the loop
+> So far, we've covered the first two steps of the AI engineering loop: tracing your application and monitoring its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.
+> Now the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.
+> A dataset is a collection of test cases that you run your application against each time you make a change ("an experiment"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.
+> The dataset item
+> A dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:
+> Input (required)
+> Expected output (optional)
+> Metadata (optional)
+> The three fields of a dataset item
+>
+> A good mental model:
+>
+> Common expected output patterns
+> Whether you need an expected output, and what it looks like, depends on which type of evaluator you use.
+> Reference-based versus reference-free evaluators
+> Some evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).
+> Exact match
+> The expected output is the literal correct answer. For example:
+> A classification task where the correct label is "billing_inquiry"
+> An extraction task where the expected entities are ["Paris", "Thursday"]
+> Reference answer
+> The expected output is a gold-standard response that shows what a good output looks like. The evaluator can compare the test's output against this example, for instance by checking semantic similarity or whether the key points match.
+> Evaluation criteria
+> The expected output is a list of checks or requirements the output should satisfy. For example:
+> "must mention the refund policy"
+> "must include a link to the help center"
+> The evaluator checks whether the output meets these criteria.
+> Nothing
+> Sometimes no expected output is required at all. If you're just checking whether:
+> the tone is professional
+> the response is safe
+> the output follows a required format
+> Your dataset items don't need anything other than an input as you will use a reference-free evaluator.
+> Combination of the above
+> Because you can run a combination of different evaluators on a single dataset item, a dataset item's expected output field can also contain multiple types of reference data. The expected output is a JSON field, so you can store multiple types of reference data without a problem.
+> What makes a good dataset
+> A good dataset mirrors what your system will encounter in production. If passing the dataset gives you confidence before deploying, it's doing its job.
+> Clear in scope. Each dataset should have a well-defined scope. That can be end-to-end if you treat internal steps as implementation details, or it can target an individual step like retrieval or summarization if that's the part you're trying to improve. You'll likely end up with multiple datasets, each with a clear purpose.
+>
+> The right size for the workflow. Some datasets are small and fast enough to run on every push as part of your CI/CD pipeline. Others are larger and more comprehensive, and are useful to...
 
 ---
 
@@ -1863,42 +2011,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @yetone 由于这篇文章太伟大了，所以我把它变成了一个 Agent Skill。 大家可以使用自己的 Coding Agent 安装一下这个...
-
-- Author: yetone [@yetone](https://x.com/yetone)
-- Tweet URL: [https://x.com/yetone/status/2055010623910785535](https://x.com/yetone/status/2055010623910785535)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-14T19:41:27.000Z
-- First seen: 2026-05-14T23:17:31Z
-- Primary URLs:
-  - [github.com/yetone/native-feel-skill](https://github.com/yetone/native-feel-skill)
-  - [twitter.com/peduarte/status/2054897907069813093](https://twitter.com/peduarte/status/2054897907069813093)
-- Linked content:
-  - [GitHub - yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit. · GitHub](https://github.com/yetone/native-feel-skill)
-    Images: https://opengraph.githubassets.com/8f4ac48ba33cd661741bd56b26d2159cfb672a1e16b8874b771b45929b7eaceb/yetone/native-feel-skill, https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667, https://camo.githubusercontent.com/a6f428b29e313e29d9b4978fcda45492ec9c3302ac9e71436f25d58ee556c511/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4167656e742d536b696c6c2d376333616564
-- Thread URLs:
-  - [x.com/yetone/status/2055187043395994070](https://x.com/yetone/status/2055187043395994070)
-  - [x.com/yetone/status/2055132925998579778](https://x.com/yetone/status/2055132925998579778)
-  - [x.com/yetone/status/2055114929842336064](https://x.com/yetone/status/2055114929842336064)
-  - [x.com/yetone/status/2055112451994329281](https://x.com/yetone/status/2055112451994329281)
-  - [x.com/yetone/status/2055109774736597100](https://x.com/yetone/status/2055109774736597100)
-  - [x.com/yetone/status/2055105139309215860](https://x.com/yetone/status/2055105139309215860)
-  - [x.com/yetone/status/2055013046612078789](https://x.com/yetone/status/2055013046612078789)
-  - [x.com/yetone/status/2055012336445046916](https://x.com/yetone/status/2055012336445046916)
-  - [github.com/yetone/native-feel-skill](https://github.com/yetone/native-feel-skill)
-  - [x.com/yetone/status/2055010623910785535](https://x.com/yetone/status/2055010623910785535)
-  - [twitter.com/peduarte/status/2054897907069813093](https://twitter.com/peduarte/status/2054897907069813093)
-- Public metrics: bookmark_count=3482, impression_count=260754, like_count=2107, quote_count=15, reply_count=36, retweet_count=265
-
-> 由于这篇文章太伟大了，所以我把它变成了一个 Agent Skill。
->
-> 大家可以使用自己的 Coding Agent 安装一下这个 Skill，这样就可以用「最佳实践」来轻松地重构或者开发一个既容易跨平台、又极其接近 Native 性能的桌面端应用。
->
-> https://github.com/yetone/native-feel-skill https://twitter.com/peduarte/status/2054897907069813093
-
----
-
 ### @Saboo_Shubham_ 
 
 - Author: Shubham Saboo [@Saboo_Shubham_](https://x.com/Saboo_Shubham_)
@@ -1911,9 +2023,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-14T23:17:31Z
 - Primary URLs:
   - [x.com/i/article/2054805605995696128](https://x.com/i/article/2054805605995696128)
+  - [x.com/i/article/2054805605995696128](http://x.com/i/article/2054805605995696128)
 - Linked content:
   - [x.com/i/article/2054805605995696128](https://x.com/i/article/2054805605995696128)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054805605995696128/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054805605995696128](http://x.com/i/article/2054805605995696128)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054805605995696128/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/Saboo_Shubham_/status/2055560355989049802](https://x.com/Saboo_Shubham_/status/2055560355989049802)
   - [x.com/Saboo_Shubham_/status/2055017888818565368](https://x.com/Saboo_Shubham_/status/2055017888818565368)
@@ -1923,9 +2038,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Saboo_Shubham_/status/2054988572571402453](https://x.com/Saboo_Shubham_/status/2054988572571402453)
   - [x.com/Saboo_Shubham_/status/2054988166541770782](https://x.com/Saboo_Shubham_/status/2054988166541770782)
   - [x.com/i/article/2054805605995696128](https://x.com/i/article/2054805605995696128)
-- Public metrics: bookmark_count=2423, impression_count=202051, like_count=970, quote_count=16, reply_count=26, retweet_count=115
+- Public metrics: bookmark_count=2427, like_count=970, quote_count=16, reply_count=26, retweet_count=115
 
-> https://x.com/i/article/2054805605995696128
+> http://x.com/i/article/2054805605995696128
 
 #### X Article
 
@@ -1967,6 +2082,42 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > If the review blocks, Hermes sends the findings back as a fix goal
 > Hermes verifies the final output by inspecting the filesystem, tests, build, and git state
 > The board is what /goal becomes when there's an orchestrator on top of it. Every goal has a card, every card has a status, every handoff leaves a trail. Instead...
+
+---
+
+### @yetone 由于这篇文章太伟大了，所以我把它变成了一个 Agent Skill。 大家可以使用自己的 Coding Agent 安装一下这个...
+
+- Author: yetone [@yetone](https://x.com/yetone)
+- Tweet URL: [https://x.com/yetone/status/2055010623910785535](https://x.com/yetone/status/2055010623910785535)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-14T19:41:27.000Z
+- First seen: 2026-05-14T23:17:31Z
+- Primary URLs:
+  - [github.com/yetone/native-feel-skill](https://github.com/yetone/native-feel-skill)
+  - [twitter.com/peduarte/status/2054897907069813093](https://twitter.com/peduarte/status/2054897907069813093)
+- Linked content:
+  - [GitHub - yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit. · GitHub](https://github.com/yetone/native-feel-skill)
+    Images: https://opengraph.githubassets.com/8f4ac48ba33cd661741bd56b26d2159cfb672a1e16b8874b771b45929b7eaceb/yetone/native-feel-skill, https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667, https://camo.githubusercontent.com/a6f428b29e313e29d9b4978fcda45492ec9c3302ac9e71436f25d58ee556c511/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4167656e742d536b696c6c2d376333616564
+- Thread URLs:
+  - [x.com/yetone/status/2055187043395994070](https://x.com/yetone/status/2055187043395994070)
+  - [x.com/yetone/status/2055132925998579778](https://x.com/yetone/status/2055132925998579778)
+  - [x.com/yetone/status/2055114929842336064](https://x.com/yetone/status/2055114929842336064)
+  - [x.com/yetone/status/2055112451994329281](https://x.com/yetone/status/2055112451994329281)
+  - [x.com/yetone/status/2055109774736597100](https://x.com/yetone/status/2055109774736597100)
+  - [x.com/yetone/status/2055105139309215860](https://x.com/yetone/status/2055105139309215860)
+  - [x.com/yetone/status/2055013046612078789](https://x.com/yetone/status/2055013046612078789)
+  - [x.com/yetone/status/2055012336445046916](https://x.com/yetone/status/2055012336445046916)
+  - [github.com/yetone/native-feel-skill](https://github.com/yetone/native-feel-skill)
+  - [x.com/yetone/status/2055010623910785535](https://x.com/yetone/status/2055010623910785535)
+  - [twitter.com/peduarte/status/2054897907069813093](https://twitter.com/peduarte/status/2054897907069813093)
+- Public metrics: bookmark_count=3480, like_count=2107, quote_count=15, reply_count=36, retweet_count=265
+
+> 由于这篇文章太伟大了，所以我把它变成了一个 Agent Skill。
+>
+> 大家可以使用自己的 Coding Agent 安装一下这个 Skill，这样就可以用「最佳实践」来轻松地重构或者开发一个既容易跨平台、又极其接近 Native 性能的桌面端应用。
+>
+> https://github.com/yetone/native-feel-skill
 
 ---
 
@@ -2095,89 +2246,10 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/yangyi/status/2054946055016554975](https://x.com/yangyi/status/2054946055016554975)
-- Public metrics: bookmark_count=18, impression_count=53348, like_count=234, quote_count=6, reply_count=175, retweet_count=3
+- Public metrics: bookmark_count=18, like_count=234, quote_count=6, reply_count=175, retweet_count=3
 
 > 计划下个月取消Claude订阅转Codex的请在这里报名👇🏻
 > 我先倒戈
-
----
-
-### @kalicyh @RookieRicardoR p1，有没有比较好的实现方法，我找到一个 需求完全对上了，但是在tauri里面会很卡，不知道有没有好的解决方案
-
-- Author: kalicyh [@kalicyh](https://x.com/kalicyh)
-- Tweet URL: [https://x.com/kalicyh/status/2054613206832914535](https://x.com/kalicyh/status/2054613206832914535)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-13T17:22:16.000Z
-- First seen: 2026-05-14T11:17:42Z
-- Primary URLs:
-  - [www.fancycomponents.dev/docs/components/filter/gooey-svg-filter](https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter)
-- Linked content:
-  - [Gooey SVG Filter - Fancy Components](https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter)
-    Images: https://fancycomponents.b-cdn.net/thumbnails/gooey-svg-filter.jpg, https://images.aiscribbles.com/34fe5695dbc942628e3cad9744e8ae13.png?v=60d084
-    Text: Toggle Menu fancy components* Docs Components Search docs... Github Toggle theme Getting Started Introduction Installation Components Changelog llms.txt Text (20) Letter Swap Hover Letter 3D Swap Random Letter Swap Hover Vertical Cut...
-- Thread URLs:
-  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
-  - [bestdesignsonx.com](https://bestdesignsonx.com/)
-- Public metrics: bookmark_count=4, impression_count=1307, like_count=4, quote_count=0, reply_count=1, retweet_count=0
-
-> @RookieRicardoR p1，有没有比较好的实现方法，我找到一个https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter
-> 需求完全对上了，但是在tauri里面会很卡，不知道有没有好的解决方案
-
----
-
-### @cky011 @RookieRicardoR 我也推荐这个网站
-
-- Author: ck y [@cky011](https://x.com/cky011)
-- Tweet URL: [https://x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-13T15:29:32.000Z
-- First seen: 2026-05-14T11:17:42Z
-- Primary URLs:
-  - [bestdesignsonx.com](https://bestdesignsonx.com/)
-- Thread URLs:
-  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
-  - [bestdesignsonx.com](https://bestdesignsonx.com/)
-- Public metrics: bookmark_count=48, impression_count=2343, like_count=18, quote_count=0, reply_count=1, retweet_count=3
-
-> @RookieRicardoR https://bestdesignsonx.com/
-> 我也推荐这个网站
-
----
-
-### @RookieRicardoR 最近在做我的第一个产品，我发现开源的组件/设计没有一个能达到我审美的， 最终选择的方法还是在网上到处找设计师的作品找灵感，还真发现了一个不错的网站，分享给大家，...
-
-- Author: 耳朵 [@RookieRicardoR](https://x.com/RookieRicardoR)
-- Tweet URL: [https://x.com/RookieRicardoR/status/2054582758522208477](https://x.com/RookieRicardoR/status/2054582758522208477)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-13T15:21:16.000Z
-- First seen: 2026-05-14T11:17:42Z
-- Primary URLs:
-  - [layers.to/explore](https://layers.to/explore)
-  - [x.com/RookieRicardoR/status/2054582758522208477/photo/1](https://x.com/RookieRicardoR/status/2054582758522208477/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg)
-  - [photo](https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg)
-- Linked content:
-  - [Explore | Layers](https://layers.to/explore)
-  - [pbs.twimg.com/media/HINW088aYAEzkJ8.jpg](https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg)
-    Images: https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg
-  - [pbs.twimg.com/media/HINX1rEbcAAoslt.jpg](https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg)
-    Images: https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg
-- Thread URLs:
-  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
-  - [bestdesignsonx.com](https://bestdesignsonx.com/)
-- Public metrics: bookmark_count=744, impression_count=37591, like_count=486, quote_count=0, reply_count=7, retweet_count=65
-
-> 最近在做我的第一个产品，我发现开源的组件/设计没有一个能达到我审美的，
->
-> 最终选择的方法还是在网上到处找设计师的作品找灵感，还真发现了一个不错的网站，分享给大家，
->
-> 在这个网站里面搜索各种需要的组件都有非常棒的设计。
->
-> https://layers.to/explore https://x.com/RookieRicardoR/status/2054582758522208477/photo/1
 
 ---
 
@@ -2193,9 +2265,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-14T11:17:42Z
 - Primary URLs:
   - [x.com/i/article/2054198798197698560](https://x.com/i/article/2054198798197698560)
+  - [x.com/i/article/2054198798197698560](http://x.com/i/article/2054198798197698560)
 - Linked content:
   - [x.com/i/article/2054198798197698560](https://x.com/i/article/2054198798197698560)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054198798197698560/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054198798197698560](http://x.com/i/article/2054198798197698560)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054198798197698560/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/vincemask/status/2054583782204977191](https://x.com/vincemask/status/2054583782204977191)
   - [x.com/vincemask/status/2054524149981446567](https://x.com/vincemask/status/2054524149981446567)
@@ -2205,9 +2280,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/vincemask/status/2054460407163781551](https://x.com/vincemask/status/2054460407163781551)
   - [x.com/vincemask/status/2054457804057100405](https://x.com/vincemask/status/2054457804057100405)
   - [x.com/i/article/2054198798197698560](https://x.com/i/article/2054198798197698560)
-- Public metrics: bookmark_count=603, impression_count=51619, like_count=295, quote_count=6, reply_count=18, retweet_count=62
+- Public metrics: bookmark_count=0, like_count=295, quote_count=6, reply_count=18, retweet_count=62
 
-> https://x.com/i/article/2054198798197698560
+> http://x.com/i/article/2054198798197698560
 
 #### X Article
 
@@ -2308,11 +2383,14 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/jietang/status/2054406288235475299](https://x.com/jietang/status/2054406288235475299)
-- Public metrics: bookmark_count=520, impression_count=185261, like_count=719, quote_count=31, reply_count=39, retweet_count=145
+- Public metrics: bookmark_count=520, like_count=719, quote_count=31, reply_count=39, retweet_count=145
 
 > Recent thoughts:
 > The Shift to Long-Horizon Tasks
-> The most likely breakthrough this year will be in long-horizon tasks. We are moving toward a stage where Large Language Models (LLMs) learn to complete extended, complex missions by interacting with Agent environments. This is
+> The most likely breakthrough this year will be in long-horizon tasks. We are moving toward a stage where Large Language Models (LLMs) learn to complete extended, complex missions by interacting with Agent environments. This is perhaps where the true value of LLMs lies. Take cybersecurity as an example: imagine a model that continuously hunts for software bugs and vulnerabilities. While it sounds like a search process, it’s actually the model learning the high-level intuition and methodology of a professional hacker. Unlike humans, AI can run 24/7 without fatigue. It could potentially find exploits at a much higher frequwill ency and claim bounties on platforms like HackerOne or BugCrowd. It sounds fun, but fundamentally, it's a revolution that displaces the hacker. If even hackers are being "disrupted," one can only imagine the impact on general programmers.
+>
+> From One-Person to None-Person Companies
+> Building on long-horizon capabilities...
 
 ---
 
@@ -2328,9 +2406,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-14T11:17:42Z
 - Primary URLs:
   - [x.com/i/article/2054167689036247040](https://x.com/i/article/2054167689036247040)
+  - [x.com/i/article/2054167689036247040](http://x.com/i/article/2054167689036247040)
 - Linked content:
   - [x.com/i/article/2054167689036247040](https://x.com/i/article/2054167689036247040)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054167689036247040/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054167689036247040](http://x.com/i/article/2054167689036247040)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054167689036247040/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/ZoharAtkins/status/2054987147313099063](https://x.com/ZoharAtkins/status/2054987147313099063)
   - [x.com/ZoharAtkins/status/2054918318939640267](https://x.com/ZoharAtkins/status/2054918318939640267)
@@ -2347,9 +2428,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ZoharAtkins/status/2054496910753325521](https://x.com/ZoharAtkins/status/2054496910753325521)
   - [x.com/ZoharAtkins/status/2054495846620696715](https://x.com/ZoharAtkins/status/2054495846620696715)
   - [x.com/ZoharAtkins/status/2054495728672583818](https://x.com/ZoharAtkins/status/2054495728672583818)
-- Public metrics: bookmark_count=5110, impression_count=1267416, like_count=2268, quote_count=112, reply_count=87, retweet_count=327
+- Public metrics: bookmark_count=5109, like_count=2269, quote_count=112, reply_count=87, retweet_count=327
 
-> https://x.com/i/article/2054167689036247040
+> http://x.com/i/article/2054167689036247040
 
 #### X Article
 
@@ -2361,6 +2442,87 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > For most of human history, access to the great Jewish textual traditions was rationed by labor. To read Maimonides in his own twelfth-century Judeo-Arabic, you needed years of training. To trace a legal argument across the Babylonian Talmud, the Jerusalem Talmud, the medieval commentators, and the early modern halakhic authorities, you needed a library most people never set foot in and a lifetime most people never had. Even after the printing press, even after the digitization of nearly the entire corpus on the open-access platform Sefaria, the actual capacity to make these texts speak to you, to ask them a question and receive a real answer, remained the property of a small guild of trained readers. The cost of consulting the tradition was high, and so consultation was rationed.
 > LLLms like Yochai and Rav Dicta — along with base models themselves — have collapsed that cost. A teenager in the Israeli desert town of Be’er Sheva with a phone can now ask a question about the meaning of a difficult line in Rashi’s commentary on the Bible and receive, within seconds, an answer that draws on works she has never heard of, in a language she actually speaks, calibrated to her level. The corpus has not changed. The cost of consulting it has fallen by orders of magnitude.
 > A reasonable person, watching this happen, might predict that the role of the rabbi, the traditional human interface to the corpus, is about to contract. If anyone can ask the tradition a question, who needs the person who used to answer it? This is the wrong prediction...
+
+---
+
+### @kalicyh @RookieRicardoR p1，有没有比较好的实现方法，我找到一个 需求完全对上了，但是在tauri里面会很卡，不知道有没有好的解决方案
+
+- Author: kalicyh [@kalicyh](https://x.com/kalicyh)
+- Tweet URL: [https://x.com/kalicyh/status/2054613206832914535](https://x.com/kalicyh/status/2054613206832914535)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-13T17:22:16.000Z
+- First seen: 2026-05-14T11:17:42Z
+- Primary URLs:
+  - [www.fancycomponents.dev/docs/components/filter/gooey-svg-filter](https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter)
+- Linked content:
+  - [Gooey SVG Filter - Fancy Components](https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter)
+    Images: https://fancycomponents.b-cdn.net/thumbnails/gooey-svg-filter.jpg, https://images.aiscribbles.com/34fe5695dbc942628e3cad9744e8ae13.png?v=60d084
+    Text: Toggle Menu fancy components* Docs Components Search docs... Github Toggle theme Getting Started Introduction Installation Components Changelog llms.txt Text (20) Letter Swap Hover Letter 3D Swap Random Letter Swap Hover Vertical Cut...
+- Thread URLs:
+  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
+  - [bestdesignsonx.com](https://bestdesignsonx.com/)
+- Public metrics: bookmark_count=4, like_count=4, quote_count=0, reply_count=1, retweet_count=0
+
+> @RookieRicardoR p1，有没有比较好的实现方法，我找到一个https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter
+> 需求完全对上了，但是在tauri里面会很卡，不知道有没有好的解决方案
+
+---
+
+### @cky011 @RookieRicardoR 我也推荐这个网站
+
+- Author: ck y [@cky011](https://x.com/cky011)
+- Tweet URL: [https://x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-13T15:29:32.000Z
+- First seen: 2026-05-14T11:17:42Z
+- Primary URLs:
+  - [bestdesignsonx.com](https://bestdesignsonx.com/)
+- Thread URLs:
+  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
+  - [bestdesignsonx.com](https://bestdesignsonx.com/)
+- Public metrics: bookmark_count=0, like_count=18, quote_count=0, reply_count=1, retweet_count=3
+
+> @RookieRicardoR https://bestdesignsonx.com/
+> 我也推荐这个网站
+
+---
+
+### @RookieRicardoR 最近在做我的第一个产品，我发现开源的组件/设计没有一个能达到我审美的， 最终选择的方法还是在网上到处找设计师的作品找灵感，还真发现了一个不错的网站，分享给大家，...
+
+- Author: 耳朵 [@RookieRicardoR](https://x.com/RookieRicardoR)
+- Tweet URL: [https://x.com/RookieRicardoR/status/2054582758522208477](https://x.com/RookieRicardoR/status/2054582758522208477)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-13T15:21:16.000Z
+- First seen: 2026-05-14T11:17:42Z
+- Primary URLs:
+  - [layers.to/explore](https://layers.to/explore)
+  - [x.com/RookieRicardoR/status/2054582758522208477/photo/1](https://x.com/RookieRicardoR/status/2054582758522208477/photo/1)
+  - [layers.to](https://layers.to/)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg)
+  - [photo](https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg)
+- Linked content:
+  - [Explore | Layers](https://layers.to/explore)
+  - [Explore | Layers](https://layers.to/explore)
+  - [pbs.twimg.com/media/HINW088aYAEzkJ8.jpg](https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg)
+    Images: https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg
+  - [pbs.twimg.com/media/HINX1rEbcAAoslt.jpg](https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg)
+    Images: https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg
+- Thread URLs:
+  - [x.com/cky011/status/2054584839169569009](https://x.com/cky011/status/2054584839169569009)
+  - [bestdesignsonx.com](https://bestdesignsonx.com/)
+- Public metrics: bookmark_count=743, like_count=486, quote_count=0, reply_count=7, retweet_count=65
+
+> 最近在做我的第一个产品，我发现开源的组件/设计没有一个能达到我审美的，
+>
+> 最终选择的方法还是在网上到处找设计师的作品找灵感，还真发现了一个不错的网站，分享给大家，
+>
+> 在这个网站里面搜索各种需要的组件都有非常棒的设计。
+>
+> https://layers.to/ https://t.co/Z71WDftYIc
 
 ---
 
@@ -2378,6 +2540,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/i/article/2054279489774120960](https://x.com/i/article/2054279489774120960)
   - [code.claude.com/docs/en/goal](https://code.claude.com/docs/en/goal)
   - [www.aiedgehq.co](https://www.aiedgehq.co/)
+  - [x.com/i/article/2054279489774120960](http://x.com/i/article/2054279489774120960)
 - Linked content:
   - [x.com/i/article/2054279489774120960](https://x.com/i/article/2054279489774120960)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)...
@@ -2386,6 +2549,8 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
     Text: TheDocumentation Index Fetch the complete documentation index at: [https://code.claude.com/docs/llms.txt]Use this file to discover all available pages before exploring further. /goal command sets a completion condition and Claude keeps...
   - [AI Edge — Stay Ahead of the AI Revolution](https://www.aiedgehq.co/)
     Images: https://www.aiedgehq.co/icons/ai%20edge%20icon%20glow.png
+  - [x.com/i/article/2054279489774120960](http://x.com/i/article/2054279489774120960)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/aiedge_/status/2055046904401326241](https://x.com/aiedge_/status/2055046904401326241)
   - [x.com/aiedge_/status/2054960466078863858](https://x.com/aiedge_/status/2054960466078863858)
@@ -2394,9 +2559,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/i/article/2054279489774120960](https://x.com/i/article/2054279489774120960)
   - [code.claude.com/docs/en/goal](https://code.claude.com/docs/en/goal)
   - [www.aiedgehq.co](https://www.aiedgehq.co/)
-- Public metrics: bookmark_count=3209, impression_count=864972, like_count=974, quote_count=21, reply_count=18, retweet_count=110
+- Public metrics: bookmark_count=3209, like_count=974, quote_count=21, reply_count=18, retweet_count=110
 
-> https://x.com/i/article/2054279489774120960
+> http://x.com/i/article/2054279489774120960
 
 #### X Article
 
@@ -13554,17 +13719,123 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-13T01:17:32Z
 - Primary URLs:
   - [research.perplexity.ai](https://research.perplexity.ai/)
+  - [research.perplexity.ai](http://research.perplexity.ai)
+  - [research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity](https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity)
 - Linked content:
   - [Perplexity Research](https://research.perplexity.ai/)
     Images: https://framerusercontent.com/images/ztcKChhgoI25LRkjBw13LKms.png, https://framerusercontent.com/images/uNDP3JFw8XSg4BdnR8PRCfLzKPE.jpeg?width=2912&height=1632, https://framerusercontent.com/images/DOMtRx3gBfgbLg7BqOC9lB9n7k.png?width=2912&height=1632, https://framerusercontent.com/images/hr7cGJptEmhQmgDCyPXWQMxamIk.png?width=1920&height=1076
+  - [Perplexity Research](https://research.perplexity.ai/)
+    Images: https://framerusercontent.com/images/ztcKChhgoI25LRkjBw13LKms.png, https://framerusercontent.com/images/uNDP3JFw8XSg4BdnR8PRCfLzKPE.jpeg?width=2912&height=1632, https://framerusercontent.com/images/DOMtRx3gBfgbLg7BqOC9lB9n7k.png?width=2912&height=1632, https://framerusercontent.com/images/hr7cGJptEmhQmgDCyPXWQMxamIk.png?width=1920&height=1076
+  - [Designing, Refining, and Maintaining Agent Skills at Perplexity](https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity)
+    Images: https://framerusercontent.com/images/hr7cGJptEmhQmgDCyPXWQMxamIk.png?width=1920&height=1076, https://framerusercontent.com/images/StL77jSrvpQypM4nJ5omvZdkHQ.png
+    Text: research Designing, Refining, and Maintaining Agent Skills at Perplexity Perplexity’s frontier agent products rest on a foundation of know-how and domain expertise packaged in modular [Agent Skills](https://agentskills.io/home). We...
 - Thread URLs:
   - [x.com/seclink/status/2054163552198447314](https://x.com/seclink/status/2054163552198447314)
   - [research.perplexity.ai](https://research.perplexity.ai/)
-- Public metrics: bookmark_count=54, impression_count=2876, like_count=36, quote_count=0, reply_count=0, retweet_count=6
+- Public metrics: bookmark_count=0, like_count=36, quote_count=0, reply_count=0, retweet_count=6
 
 > Perplexity 最近（大概 4 天前，2026 年 5 月初）公开了一份原本的内部工程文档。
 >
-> 这份文档标题是 《Designing, Refining, and Maintaining Agent Skills at Perplexity》（在 Perplexity 设计、优化和维护 Agent Skills 的指南），直接发布在他们的 https://research.perplexity.ai/ 上。
+> 这份文档标题是 《Designing, Refining, and Maintaining Agent Skills at Perplexity》（在 Perplexity 设计、优化和维护 Agent Skills 的指南），直接发布在他们的 http://research.perplexity.ai 上。
+>
+> https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
+
+---
+
+### @lennysan Banger
+
+- Author: Lenny Rachitsky [@lennysan](https://x.com/lennysan)
+- Tweet URL: [https://x.com/lennysan/status/2054225375518224770](https://x.com/lennysan/status/2054225375518224770)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T15:41:09.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs:
+  - [x.com/lennysan/status/2054225375518224770/photo/1](https://x.com/lennysan/status/2054225375518224770/photo/1)
+  - [twitter.com/tdrobbo/status/2053836764997959898](https://twitter.com/tdrobbo/status/2053836764997959898)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
+- Linked content:
+  - [pbs.twimg.com/media/HIIS-dVbUAAPqCc.png](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
+    Images: https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png
+- Thread URLs:
+  - [x.com/lennysan/status/2054225375518224770](https://x.com/lennysan/status/2054225375518224770)
+  - [x.com/lennysan/status/2054225375518224770/photo/1](https://x.com/lennysan/status/2054225375518224770/photo/1)
+  - [twitter.com/tdrobbo/status/2053836764997959898](https://twitter.com/tdrobbo/status/2053836764997959898)
+  - [pbs.twimg.com/media/HIIS-dVbUAAPqCc.png](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
+- Public metrics: bookmark_count=660, like_count=601, quote_count=3, reply_count=17, retweet_count=43
+
+> Banger https://t.co/jZEeNWQFA0
+
+---
+
+### @figma 
+
+- Author: Figma [@figma](https://x.com/figma)
+- Tweet URL: [https://x.com/figma/status/2054222624864026913](https://x.com/figma/status/2054222624864026913)
+- X article: [How to design agentic tools for work](https://x.com/figma/article/2054222624864026913)
+- X article text: In conversation with Sheta Chatterjee, Senior Director, Head of UX and Design, Google Cloud AI, and Jenny Xie, Editor, Figma. Hero illustration by Pedro Sanches The Gemini Enterprise team shares their approach to making complex, multi-agent workflows feel simple, intuitive, and trustworthy....
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T15:30:14.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs:
+  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
+  - [x.com/i/article/2054216908581277696](http://x.com/i/article/2054216908581277696)
+- Linked content:
+  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054216908581277696/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054216908581277696](http://x.com/i/article/2054216908581277696)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054216908581277696/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/figma/status/2054222624864026913](https://x.com/figma/status/2054222624864026913)
+  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
+- Public metrics: bookmark_count=572, like_count=344, quote_count=3, reply_count=7, retweet_count=34
+
+> http://x.com/i/article/2054216908581277696
+
+#### X Article
+
+> In conversation with Sheta Chatterjee, Senior Director, Head of UX and Design, Google Cloud AI, and Jenny Xie, Editor, Figma. Hero illustration by Pedro Sanches
+> The Gemini Enterprise team shares their approach to making complex, multi-agent workflows feel simple, intuitive, and trustworthy.
+> Designing an agentic experience means striking a balance between making AI feel approachable, yet powerful. In a business context, the brief gets more challenging: On top of making complex, collaborative, high-stakes work feel intuitive, it needs to earn users’ trust. This was what the Google Cloud AI team set out to do when designing Gemini Enterprise. “Our guiding principle is that the user’s focus should always be on their goal, not on managing AI,” says Senior Director, Head of UX and Design, Sheta Chatterjee. “At the same time, it’s crucial to make clear that the user can intervene. People are working with sensitive information and making decisions with real business outcomes.”
+> With this in mind, Sheta and her team prioritized simplicity and transparency in each part of the tool, including the chat interface, visual dashboard, custom agent builder, and shared project spaces. In breaking down each decision, Sheta reveals how they built an agentic experience that’s proactively solving challenges we all face at work—team silos, multiple tools, competing deadlines—while keeping people in the flow.
+> Your team is building on the foundation of Gemini, the consumer app. How did you approach making these experiences feel connected yet distinct?
+> At a high level, it should feel like one brand. The visual language of the sparkle icon, guiding gradients, rounded shapes, and intentional motion unify the two experiences. Where we differentiate is at the feature level. For example, while the prompt box is consistent with the consumer app, it brings connectors more forward when you’re prompting. Integrating with the tools your business uses—such as Google Workspace, Jira, and Notion—is key to making sure the assistant has all the right context.
+>
+> But we also wanted to think beyond the prompt box. The future of work is moving beyond single commands toward orchestration. You’re working with multiple tools, pulling data from multiple sources, and delegating complex tasks to multiple agents. We introduced the AI Inbox: a living dashboard showing what your agents are working on, what’s complete, and what needs your intervention. You can see at a glance that a market analysis is due tomorrow morning, and it’s ready for review. A visual workflow acts more like a team check-in than a back-and-forth chat thread.
+>
+> That’s another key difference: This isn’t a solo productivity tool. How did the need for team collaboration shape the design?
+> One of the design decisions I’m most proud of is the move from individual chat threads to a persistent, shared project space where AI acts like another member of the team—performing tasks, summarizing discussions, pulling up project files.
+>
+> It does all this in a space that everyone on the team can see and reference, and every request is attributed to a team member. That simple design decision is critical for accountability, and for others to understand the context of the agent’s actions. By staying present in a collaborative space, the assistant fills in knowledge gaps across the team, so that if an engineer uploads a technical spec, a designer can ask for details without tracking the spec down themselves. The biggest problem with work today is silos, and AI creates a single source of truth. It’s this natural way of integrating AI that elevates it from a productivity tool to a team intelligence amplifier.
+>
+> How did you think about AI helping users connect the dots without becoming intrusive?
+> A truly agentic system needs to be able to anticipate your needs, so we want to make sure that AI is a proactive partner. We’re experimenting with non-intrusive nudges—something like, “You have a project deadline approaching. Should I draft a...
+
+---
+
+### @dingyi This looks promising: Where humans and agents come to work together.
+
+- Author: Ding [@dingyi](https://x.com/dingyi)
+- Tweet URL: [https://x.com/dingyi/status/2054184584397688943](https://x.com/dingyi/status/2054184584397688943)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T12:59:04.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs:
+  - [www.teamoffsite.ai](https://www.teamoffsite.ai/)
+- Linked content:
+  - [Offsite](https://www.teamoffsite.ai/)
+    Images: https://offsite-4r7pbtn7t-mercury-af99d5bf.vercel.app/og.png, https://i.imgur.com/6fusQAD.png, https://www.teamoffsite.ai/bg_3.png
+- Thread URLs:
+  - [x.com/dingyi/status/2054184584397688943](https://x.com/dingyi/status/2054184584397688943)
+  - [www.teamoffsite.ai](https://www.teamoffsite.ai/)
+- Public metrics: bookmark_count=2, like_count=1, quote_count=0, reply_count=0, retweet_count=0
+
+> This looks promising: Where humans and agents come to work together.
+>
+> https://www.teamoffsite.ai/
 
 ---
 
@@ -13580,9 +13851,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-12T23:17:35Z
 - Primary URLs:
   - [x.com/i/article/2054259613717909504](https://x.com/i/article/2054259613717909504)
+  - [x.com/i/article/2054259613717909504](http://x.com/i/article/2054259613717909504)
 - Linked content:
   - [x.com/i/article/2054259613717909504](https://x.com/i/article/2054259613717909504)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054259613717909504/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2054259613717909504](http://x.com/i/article/2054259613717909504)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054259613717909504/i/keyboard%5Fshortcuts)...
   - [Forward Deployed Engineer - PostHog Forward Deployed Engineer - PostHog](https://posthog.com/careers/forward-deployed-engineer)
     Images: https://d36j3rcgc2qfsv.cloudfront.net/careersforward-deployed-engineer.jpeg, https://res.cloudinary.com/dmukukwp6/image/upload/c_scale,w_2574/hogzilla_bf40c5e271, https://res.cloudinary.com/dmukukwp6/image/upload/c_scale,w_1087/startup_monopoly_2ac9d45ce3, https://res.cloudinary.com/dmukukwp6/image/upload/c_scale,w_997/office_cc4ae8675f
     Text: Forward Deployed Engineer Multiple teams Location Remote Timezone(s) GMT +2 to GMT -8 About PostHog We're shipping [every product that companies need](https://posthog.com/handbook/why-does-posthog-exist) to run their business from their...
@@ -13591,9 +13865,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [posthog.com/careers/forward-deployed-engineer](https://posthog.com/careers/forward-deployed-engineer)
   - [x.com/posthog/status/2054265505482195127](https://x.com/posthog/status/2054265505482195127)
   - [x.com/i/article/2054259613717909504](https://x.com/i/article/2054259613717909504)
-- Public metrics: bookmark_count=731, impression_count=79141, like_count=422, quote_count=8, reply_count=16, retweet_count=29
+- Public metrics: bookmark_count=732, like_count=423, quote_count=8, reply_count=16, retweet_count=29
 
-> https://x.com/i/article/2054259613717909504
+> http://x.com/i/article/2054259613717909504
 
 #### X Article
 
@@ -13619,6 +13893,96 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > Companies don't want to hand over customer information, financial records, or proprietary data to vendors without establishing trust (especially for AI purposes). FDEs get permissions and longer-term access needed to work with that data directly because the contracts are for the product, not just the service.
 > 2. AI contract sizes are huge.
 > AI deals are huge. Like six, seven, eight-figures huge. When AI companies charge that much $$$, they can afford to se...
+
+---
+
+### @martinfowler NEW POST Will there be source code in the future? To wrestle with this, we have to...
+
+- Author: Martin Fowler [@martinfowler](https://x.com/martinfowler)
+- Tweet URL: [https://x.com/martinfowler/status/2054193359397253225](https://x.com/martinfowler/status/2054193359397253225)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T13:33:56.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs:
+  - [martinfowler.com/articles/what-is-code.html](https://martinfowler.com/articles/what-is-code.html)
+- Linked content:
+  - [What Is Code?](https://martinfowler.com/articles/what-is-code.html)
+    Images: https://martinfowler.com/logo-sq.png, https://martinfowler.com/mf-name-white.png, https://martinfowler.com/unmesh-joshi.jpg, https://martinfowler.com/thoughtworks_white.png
+    Text: What Is Code? 12 May 2026 What is code? At a high level, the answer to this question seems obvious. Code is what developers write: instructions expressed in a programming language that tells machines what to do. For years, writing code...
+- Thread URLs:
+  - [x.com/martinfowler/status/2054193359397253225](https://x.com/martinfowler/status/2054193359397253225)
+  - [martinfowler.com/articles/what-is-code.html](https://martinfowler.com/articles/what-is-code.html)
+- Public metrics: bookmark_count=251, like_count=271, quote_count=8, reply_count=9, retweet_count=46
+
+> NEW POST
+>
+> Will there be source code in the future? To wrestle with this, we have to understand what code is. Unmesh Joshi sees code as having two distinct but intertwined purposes: instructions to a machine and a conceptual model of the problem domain.
+>
+> https://martinfowler.com/articles/what-is-code.html
+
+---
+
+### @meta_alchemist wanna know the best /goal trick for Codex? just tell your Codex: "read this session and...
+
+- Author: Meta Alchemist [@meta_alchemist](https://x.com/meta_alchemist)
+- Tweet URL: [https://x.com/meta_alchemist/status/2054214497443995694](https://x.com/meta_alchemist/status/2054214497443995694)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T14:57:56.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs: none
+- Thread URLs:
+  - [x.com/meta_alchemist/status/2054423552338923687](https://x.com/meta_alchemist/status/2054423552338923687)
+  - [x.com/meta_alchemist/status/2054423422269366467](https://x.com/meta_alchemist/status/2054423422269366467)
+  - [x.com/meta_alchemist/status/2054422208655884679](https://x.com/meta_alchemist/status/2054422208655884679)
+  - [x.com/meta_alchemist/status/2051264391908344283](https://x.com/meta_alchemist/status/2051264391908344283)
+  - [x.com/meta_alchemist/status/2054421925540319634](https://x.com/meta_alchemist/status/2054421925540319634)
+  - [x.com/meta_alchemist/status/2054242398633611295](https://x.com/meta_alchemist/status/2054242398633611295)
+  - [x.com/meta_alchemist/status/2054224283027866052](https://x.com/meta_alchemist/status/2054224283027866052)
+  - [x.com/meta_alchemist/status/2054219299733262561](https://x.com/meta_alchemist/status/2054219299733262561)
+  - [x.com/meta_alchemist/status/2054218968039408049](https://x.com/meta_alchemist/status/2054218968039408049)
+  - [x.com/meta_alchemist/status/2054216106328682949](https://x.com/meta_alchemist/status/2054216106328682949)
+  - [x.com/meta_alchemist/status/2054215133082353850](https://x.com/meta_alchemist/status/2054215133082353850)
+  - [x.com/meta_alchemist/status/2054214497443995694](https://x.com/meta_alchemist/status/2054214497443995694)
+- Public metrics: bookmark_count=1537, like_count=921, quote_count=9, reply_count=50, retweet_count=58
+
+> wanna know the best /goal trick for Codex?
+>
+> just tell your Codex:
+>
+> "read this session and repo, analyze deeply the exact intent and goals we are looking to achieve here then write me the /goal prompt for this.
+>
+> make sure to dig into history & docs we have to be 100% clear"
+>
+> also you can add:
+>
+> "if you are not sure about certain parts or wanna ask me a few questions to clarify certain goals further don't hesitate"
+>
+> then just copy paste what Codex gives you change the initial part to /goal
+>
+> and then it will do exactly what you wanted to do in that session / repo, nonstop until it gets to completion.
+
+---
+
+### @OpenAIDevs Symphony: every open task gets a running Codex agent
+
+- Author: OpenAI Developers [@OpenAIDevs](https://x.com/OpenAIDevs)
+- Tweet URL: [https://x.com/OpenAIDevs/status/2054252221941121035](https://x.com/OpenAIDevs/status/2054252221941121035)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-12T17:27:50.000Z
+- First seen: 2026-05-12T23:17:35Z
+- Primary URLs:
+  - [twitter.com/2821275879/status/2031850264240800131](https://twitter.com/2821275879/status/2031850264240800131)
+- Thread URLs:
+  - [x.com/OpenAIDevs/status/2054252234045845822](https://x.com/OpenAIDevs/status/2054252234045845822)
+  - [twitter.com/1633874951508721686/status/2048825010371039648](https://twitter.com/1633874951508721686/status/2048825010371039648)
+  - [x.com/OpenAIDevs/status/2054252221941121035](https://x.com/OpenAIDevs/status/2054252221941121035)
+  - [twitter.com/2821275879/status/2031850264240800131](https://twitter.com/2821275879/status/2031850264240800131)
+- Public metrics: bookmark_count=1002, like_count=967, quote_count=14, reply_count=52, retweet_count=67
+
+> Symphony: every open task gets a running Codex agent
 
 ---
 
@@ -13726,187 +14090,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @OpenAIDevs Symphony: every open task gets a running Codex agent
-
-- Author: OpenAI Developers [@OpenAIDevs](https://x.com/OpenAIDevs)
-- Tweet URL: [https://x.com/OpenAIDevs/status/2054252221941121035](https://x.com/OpenAIDevs/status/2054252221941121035)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T17:27:50.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs:
-  - [twitter.com/2821275879/status/2031850264240800131](https://twitter.com/2821275879/status/2031850264240800131)
-- Thread URLs:
-  - [x.com/OpenAIDevs/status/2054252234045845822](https://x.com/OpenAIDevs/status/2054252234045845822)
-  - [twitter.com/1633874951508721686/status/2048825010371039648](https://twitter.com/1633874951508721686/status/2048825010371039648)
-  - [x.com/OpenAIDevs/status/2054252221941121035](https://x.com/OpenAIDevs/status/2054252221941121035)
-  - [twitter.com/2821275879/status/2031850264240800131](https://twitter.com/2821275879/status/2031850264240800131)
-- Public metrics: bookmark_count=1003, impression_count=142521, like_count=967, quote_count=14, reply_count=52, retweet_count=67
-
-> Symphony: every open task gets a running Codex agent https://twitter.com/2821275879/status/2031850264240800131
-
----
-
-### @lennysan Banger
-
-- Author: Lenny Rachitsky [@lennysan](https://x.com/lennysan)
-- Tweet URL: [https://x.com/lennysan/status/2054225375518224770](https://x.com/lennysan/status/2054225375518224770)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T15:41:09.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs:
-  - [x.com/lennysan/status/2054225375518224770/photo/1](https://x.com/lennysan/status/2054225375518224770/photo/1)
-  - [twitter.com/tdrobbo/status/2053836764997959898](https://twitter.com/tdrobbo/status/2053836764997959898)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
-- Linked content:
-  - [pbs.twimg.com/media/HIIS-dVbUAAPqCc.png](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
-    Images: https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png
-- Thread URLs:
-  - [x.com/lennysan/status/2054225375518224770](https://x.com/lennysan/status/2054225375518224770)
-  - [x.com/lennysan/status/2054225375518224770/photo/1](https://x.com/lennysan/status/2054225375518224770/photo/1)
-  - [twitter.com/tdrobbo/status/2053836764997959898](https://twitter.com/tdrobbo/status/2053836764997959898)
-  - [pbs.twimg.com/media/HIIS-dVbUAAPqCc.png](https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png)
-- Public metrics: bookmark_count=660, impression_count=115837, like_count=601, quote_count=3, reply_count=17, retweet_count=43
-
-> Banger https://x.com/lennysan/status/2054225375518224770/photo/1 https://twitter.com/tdrobbo/status/2053836764997959898
-
----
-
-### @figma 
-
-- Author: Figma [@figma](https://x.com/figma)
-- Tweet URL: [https://x.com/figma/status/2054222624864026913](https://x.com/figma/status/2054222624864026913)
-- X article: [How to design agentic tools for work](https://x.com/figma/article/2054222624864026913)
-- X article text: In conversation with Sheta Chatterjee, Senior Director, Head of UX and Design, Google Cloud AI, and Jenny Xie, Editor, Figma. Hero illustration by Pedro Sanches The Gemini Enterprise team shares their approach to making complex, multi-agent workflows feel simple, intuitive, and trustworthy....
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T15:30:14.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs:
-  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
-  - [x.com/i/article/2054216908581277696](http://x.com/i/article/2054216908581277696)
-- Linked content:
-  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2054216908581277696/i/keyboard%5Fshortcuts)...
-  - [x.com/i/article/2054216908581277696](http://x.com/i/article/2054216908581277696)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2054216908581277696/i/keyboard%5Fshortcuts)...
-- Thread URLs:
-  - [x.com/figma/status/2054222624864026913](https://x.com/figma/status/2054222624864026913)
-  - [x.com/i/article/2054216908581277696](https://x.com/i/article/2054216908581277696)
-- Public metrics: bookmark_count=572, impression_count=36295, like_count=343, quote_count=3, reply_count=7, retweet_count=34
-
-> https://x.com/i/article/2054216908581277696
-
-#### X Article
-
-> In conversation with Sheta Chatterjee, Senior Director, Head of UX and Design, Google Cloud AI, and Jenny Xie, Editor, Figma. Hero illustration by Pedro Sanches
-> The Gemini Enterprise team shares their approach to making complex, multi-agent workflows feel simple, intuitive, and trustworthy.
-> Designing an agentic experience means striking a balance between making AI feel approachable, yet powerful. In a business context, the brief gets more challenging: On top of making complex, collaborative, high-stakes work feel intuitive, it needs to earn users’ trust. This was what the Google Cloud AI team set out to do when designing Gemini Enterprise. “Our guiding principle is that the user’s focus should always be on their goal, not on managing AI,” says Senior Director, Head of UX and Design, Sheta Chatterjee. “At the same time, it’s crucial to make clear that the user can intervene. People are working with sensitive information and making decisions with real business outcomes.”
-> With this in mind, Sheta and her team prioritized simplicity and transparency in each part of the tool, including the chat interface, visual dashboard, custom agent builder, and shared project spaces. In breaking down each decision, Sheta reveals how they built an agentic experience that’s proactively solving challenges we all face at work—team silos, multiple tools, competing deadlines—while keeping people in the flow.
-> Your team is building on the foundation of Gemini, the consumer app. How did you approach making these experiences feel connected yet distinct?
-> At a high level, it should feel like one brand. The visual language of the sparkle icon, guiding gradients, rounded shapes, and intentional motion unify the two experiences. Where we differentiate is at the feature level. For example, while the prompt box is consistent with the consumer app, it brings connectors more forward when you’re prompting. Integrating with the tools your business uses—such as Google Workspace, Jira, and Notion—is key to making sure the assistant has all the right context.
->
-> But we also wanted to think beyond the prompt box. The future of work is moving beyond single commands toward orchestration. You’re working with multiple tools, pulling data from multiple sources, and delegating complex tasks to multiple agents. We introduced the AI Inbox: a living dashboard showing what your agents are working on, what’s complete, and what needs your intervention. You can see at a glance that a market analysis is due tomorrow morning, and it’s ready for review. A visual workflow acts more like a team check-in than a back-and-forth chat thread.
->
-> That’s another key difference: This isn’t a solo productivity tool. How did the need for team collaboration shape the design?
-> One of the design decisions I’m most proud of is the move from individual chat threads to a persistent, shared project space where AI acts like another member of the team—performing tasks, summarizing discussions, pulling up project files.
->
-> It does all this in a space that everyone on the team can see and reference, and every request is attributed to a team member. That simple design decision is critical for accountability, and for others to understand the context of the agent’s actions. By staying present in a collaborative space, the assistant fills in knowledge gaps across the team, so that if an engineer uploads a technical spec, a designer can ask for details without tracking the spec down themselves. The biggest problem with work today is silos, and AI creates a single source of truth. It’s this natural way of integrating AI that elevates it from a productivity tool to a team intelligence amplifier.
->
-> How did you think about AI helping users connect the dots without becoming intrusive?
-> A truly agentic system needs to be able to anticipate your needs, so we want to make sure that AI is a proactive partner. We’re experimenting with non-intrusive nudges—something like, “You have a project deadline approaching. Should I draft a...
-
----
-
-### @meta_alchemist wanna know the best /goal trick for Codex? just tell your Codex: "read this session and...
-
-- Author: Meta Alchemist [@meta_alchemist](https://x.com/meta_alchemist)
-- Tweet URL: [https://x.com/meta_alchemist/status/2054214497443995694](https://x.com/meta_alchemist/status/2054214497443995694)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T14:57:56.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs: none
-- Thread URLs:
-  - [x.com/meta_alchemist/status/2054423552338923687](https://x.com/meta_alchemist/status/2054423552338923687)
-  - [x.com/meta_alchemist/status/2054423422269366467](https://x.com/meta_alchemist/status/2054423422269366467)
-  - [x.com/meta_alchemist/status/2054422208655884679](https://x.com/meta_alchemist/status/2054422208655884679)
-  - [x.com/meta_alchemist/status/2051264391908344283](https://x.com/meta_alchemist/status/2051264391908344283)
-  - [x.com/meta_alchemist/status/2054421925540319634](https://x.com/meta_alchemist/status/2054421925540319634)
-  - [x.com/meta_alchemist/status/2054242398633611295](https://x.com/meta_alchemist/status/2054242398633611295)
-  - [x.com/meta_alchemist/status/2054224283027866052](https://x.com/meta_alchemist/status/2054224283027866052)
-  - [x.com/meta_alchemist/status/2054219299733262561](https://x.com/meta_alchemist/status/2054219299733262561)
-  - [x.com/meta_alchemist/status/2054218968039408049](https://x.com/meta_alchemist/status/2054218968039408049)
-  - [x.com/meta_alchemist/status/2054216106328682949](https://x.com/meta_alchemist/status/2054216106328682949)
-  - [x.com/meta_alchemist/status/2054215133082353850](https://x.com/meta_alchemist/status/2054215133082353850)
-  - [x.com/meta_alchemist/status/2054214497443995694](https://x.com/meta_alchemist/status/2054214497443995694)
-- Public metrics: bookmark_count=1537, impression_count=57098, like_count=920, quote_count=9, reply_count=50, retweet_count=58
-
-> wanna know the best /goal trick for Codex?
->
-> just tell your Codex:
->
-> "read this session and repo, analyze deeply the exact intent and goals we are looking to achieve here then write me the /goal prompt for this.
->
-> make sure to dig into history &amp; docs we have to be 100% clear"
->
-> also
-
----
-
-### @martinfowler NEW POST Will there be source code in the future? To wrestle with this, we have to...
-
-- Author: Martin Fowler [@martinfowler](https://x.com/martinfowler)
-- Tweet URL: [https://x.com/martinfowler/status/2054193359397253225](https://x.com/martinfowler/status/2054193359397253225)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T13:33:56.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs:
-  - [martinfowler.com/articles/what-is-code.html](https://martinfowler.com/articles/what-is-code.html)
-- Linked content:
-  - [What Is Code?](https://martinfowler.com/articles/what-is-code.html)
-    Images: https://martinfowler.com/logo-sq.png, https://martinfowler.com/mf-name-white.png, https://martinfowler.com/unmesh-joshi.jpg, https://martinfowler.com/thoughtworks_white.png
-    Text: What Is Code? 12 May 2026 What is code? At a high level, the answer to this question seems obvious. Code is what developers write: instructions expressed in a programming language that tells machines what to do. For years, writing code...
-- Thread URLs:
-  - [x.com/martinfowler/status/2054193359397253225](https://x.com/martinfowler/status/2054193359397253225)
-  - [martinfowler.com/articles/what-is-code.html](https://martinfowler.com/articles/what-is-code.html)
-- Public metrics: bookmark_count=251, impression_count=27290, like_count=271, quote_count=8, reply_count=9, retweet_count=46
-
-> NEW POST
->
-> Will there be source code in the future? To wrestle with this, we have to understand what code is. Unmesh Joshi sees code as having two distinct but intertwined purposes: instructions to a machine and a conceptual model of the problem domain.
->
-> https://martinfowler.com/articles/what-is-code.html
-
----
-
-### @dingyi This looks promising: Where humans and agents come to work together.
-
-- Author: Ding [@dingyi](https://x.com/dingyi)
-- Tweet URL: [https://x.com/dingyi/status/2054184584397688943](https://x.com/dingyi/status/2054184584397688943)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-12T12:59:04.000Z
-- First seen: 2026-05-12T23:17:35Z
-- Primary URLs:
-  - [www.teamoffsite.ai](https://www.teamoffsite.ai/)
-- Linked content:
-  - [Offsite](https://www.teamoffsite.ai/)
-    Images: https://offsite-4r7pbtn7t-mercury-af99d5bf.vercel.app/og.png, https://i.imgur.com/6fusQAD.png, https://www.teamoffsite.ai/bg_3.png
-- Thread URLs:
-  - [x.com/dingyi/status/2054184584397688943](https://x.com/dingyi/status/2054184584397688943)
-  - [www.teamoffsite.ai](https://www.teamoffsite.ai/)
-- Public metrics: bookmark_count=2, impression_count=1771, like_count=1, quote_count=0, reply_count=0, retweet_count=0
-
-> This looks promising: Where humans and agents come to work together.
->
-> https://www.teamoffsite.ai/
-
----
-
 ### @AYi_AInotes Damn，Karpathy这条帖子直接把我过去半年的AI工作流全推翻了🤯 大家都在死等更强的模型， 死等更大的上下文窗口， 但Karpathy说，你们全搞错方向了，...
 
 - Author: AYi [@AYi_AInotes](https://x.com/AYi_AInotes)
@@ -13989,7 +14172,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/ChrisHayduk/status/2053809493377479152](https://x.com/ChrisHayduk/status/2053809493377479152)
   - [x.com/ChrisHayduk/status/2053807198870880743?s=20](https://x.com/ChrisHayduk/status/2053807198870880743?s=20)
-- Public metrics: bookmark_count=277, impression_count=30620, like_count=152, quote_count=2, reply_count=1, retweet_count=11
+- Public metrics: bookmark_count=0, like_count=152, quote_count=0, reply_count=1, retweet_count=11
 
 > I've had a lot of fun using Codex's goal mode in the past couple of weeks! But to get the most out of it, we need to tweak how we prompt the model.
 >
@@ -14035,33 +14218,47 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/kylejeong/status/2053932013099630883/video/1](https://x.com/kylejeong/status/2053932013099630883/video/1)
   - [twitter.com/kylejeong/status/2053930111829942311](https://twitter.com/kylejeong/status/2053930111829942311)
   - [pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg](https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg)
-- Public metrics: bookmark_count=480, impression_count=67057, like_count=378, quote_count=0, reply_count=13, retweet_count=39
+- Public metrics: bookmark_count=480, like_count=378, quote_count=0, reply_count=13, retweet_count=39
 
 > Containers are fast. VMs are safe. Everyone building agent infra needs both.
 >
 > That's not just an opinion, it's the problem Firecracker was built to solve.
 >
-> I wrote about how it works with interactive components. https://x.com/kylejeong/status/2053932013099630883/video/1 https://twitter.com/kylejeong/status/2053930111829942311
+> I wrote about how it works with interactive components. https://t.co/R2aTO6pfbM
 
 ---
 
-### @opencode OpenCode x DeepSeek V4 Flash - free for a limited time DeepSeek V4 Flash is currently...
+### @nateherk Hermes actually is the real deal. I just dropped a one hour course on it. All the way...
 
-- Author: OpenCode [@opencode](https://x.com/opencode)
-- Tweet URL: [https://x.com/opencode/status/2053887208688431179](https://x.com/opencode/status/2053887208688431179)
+- Author: Nate Herk [@nateherk](https://x.com/nateherk)
+- Tweet URL: [https://x.com/nateherk/status/2053308985575362681](https://x.com/nateherk/status/2053308985575362681)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-11T17:17:24.000Z
+- Tweet created: 2026-05-10T02:59:45.000Z
 - First seen: 2026-05-12T03:23:41Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=637, impression_count=217394, like_count=3795, quote_count=70, reply_count=120, retweet_count=196
+- Primary URLs:
+  - [x.com/nateherk/status/2053308985575362681/video/1](https://x.com/nateherk/status/2053308985575362681/video/1)
+  - [twitter.com/nateherk/status/2053308681299616125](https://twitter.com/nateherk/status/2053308681299616125)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg
+- Thread URLs:
+  - [x.com/nateherk/status/2053315693869727864](https://x.com/nateherk/status/2053315693869727864)
+  - [x.com/nateherk/status/2053308985575362681](https://x.com/nateherk/status/2053308985575362681)
+  - [x.com/nateherk/status/2053308985575362681/video/1](https://x.com/nateherk/status/2053308985575362681/video/1)
+  - [twitter.com/nateherk/status/2053308681299616125](https://twitter.com/nateherk/status/2053308681299616125)
+  - [pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
+- Public metrics: bookmark_count=5191, like_count=2763, quote_count=14, reply_count=79, retweet_count=266
 
-> OpenCode x DeepSeek V4 Flash - free for a limited time
+> Hermes actually is the real deal.
 >
-> DeepSeek V4 Flash is currently our most popular model in Go
+> I just dropped a one hour course on it.
 >
-> Give it a try if you haven’t already
+> All the way from setting one up to understanding how to build an army of them.
+>
+> Give this a read. https://t.co/QFLjPWdXLd
 
 ---
 
@@ -14077,9 +14274,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - First seen: 2026-05-12T03:23:41Z
 - Primary URLs:
   - [x.com/i/article/2053670943973916672](https://x.com/i/article/2053670943973916672)
+  - [x.com/i/article/2053670943973916672](http://x.com/i/article/2053670943973916672)
 - Linked content:
   - [x.com/i/article/2053670943973916672](https://x.com/i/article/2053670943973916672)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2053670943973916672/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2053670943973916672](http://x.com/i/article/2053670943973916672)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2053670943973916672/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/larsencc/status/2054207662561370477](https://x.com/larsencc/status/2054207662561370477)
   - [x.com/larsencc/status/2054069660648395016](https://x.com/larsencc/status/2054069660648395016)
@@ -14088,9 +14288,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/larsencc/status/2053888308116349031](https://x.com/larsencc/status/2053888308116349031)
   - [x.com/larsencc/status/2053862900289470765](https://x.com/larsencc/status/2053862900289470765)
   - [x.com/i/article/2053670943973916672](https://x.com/i/article/2053670943973916672)
-- Public metrics: bookmark_count=296, impression_count=23318, like_count=175, quote_count=3, reply_count=8, retweet_count=21
+- Public metrics: bookmark_count=0, like_count=175, quote_count=3, reply_count=8, retweet_count=21
 
-> https://x.com/i/article/2053670943973916672
+> http://x.com/i/article/2053670943973916672
 
 #### X Article
 
@@ -14130,61 +14330,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @gregisenberg 
-
-- Author: GREG ISENBERG [@gregisenberg](https://x.com/gregisenberg)
-- Tweet URL: [https://x.com/gregisenberg/status/2053843542020063489](https://x.com/gregisenberg/status/2053843542020063489)
-- X article: [How to become "AI-Native" ](https://x.com/gregisenberg/article/2053843542020063489)
-- X article text: The truth about being AI native. I'll break it down. Everyone is walking around saying they’re “AI-native” now, which mostly means someone on the team has a ChatGPT tab open and the head of marketing made a custom GPT called “Brand Voice Assistant.” Cute. Useful, even. But not AI-native. That’s...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-11T14:23:53.000Z
-- First seen: 2026-05-12T03:23:41Z
-- Primary URLs:
-  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
-- Linked content:
-  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2053837926690148352/i/keyboard%5Fshortcuts)...
-- Thread URLs:
-  - [x.com/gregisenberg/status/2053844162449985984](https://x.com/gregisenberg/status/2053844162449985984)
-  - [x.com/gregisenberg/status/2053843542020063489](https://x.com/gregisenberg/status/2053843542020063489)
-  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
-- Public metrics: bookmark_count=2771, impression_count=257851, like_count=1029, quote_count=33, reply_count=70, retweet_count=135
-
-> https://x.com/i/article/2053837926690148352
-
-#### X Article
-
-> The truth about being AI native. I'll break it down.
->
-> Everyone is walking around saying they’re “AI-native” now, which mostly means someone on the team has a ChatGPT tab open and the head of marketing made a custom GPT called “Brand Voice Assistant.”
-> Cute.
-> Useful, even.
-> But not AI-native.
-> That’s the difference people keep missing. An AI-native company is not a company that uses AI. It is a company that has been rebuilt so AI can actually operate inside it. The business is structured, documented, permissioned, and instrumented in a way that agents can understand. The company has made itself legible to machines.
-> That sounds boring until you realize it might be the single biggest business advantage of the next decade.
-> Because most companies are not legible to machines. Most companies are barely legible to their own employees.
-> The CRM says one thing. The Slack thread says another. The real customer history lives in someone’s inbox. The pricing logic is in a spreadsheet called “Final_v7_NEW.” The refund policy is in a Notion doc nobody trusts. The sales process is “talk to Sarah, she knows how we do enterprise.” The onboarding flow is five tools, three humans, two approval steps, and one founder who still gets pulled into random edge cases because nobody ever turned judgment into a system.
-> Then these companies ask, “Why can’t AI do more for us?”
-> Because AI cannot run on vibes.
-> It can’t operate a business where the truth is scattered across people, tools, habits, exceptions, and institutional memory. Agents need context. They need clean inputs. They need rules. They need access. They need boundaries. They need to know what good looks like. They need to know when to act and when to ask.
-> Most companies have spent twenty years buying software, but they have not spent twenty years designing an operating system. They have a pile of tools, not a machine.
-> That is why the number of truly AI-native companies is probably shockingly small. My guess is there are maybe 1,000 companies on earth doing $5M+ ARR that are actually AI-native in the real sense. Not “we use copilots.” Not “we automated some emails.” I mean companies where the core workflows are designed for agents to execute and humans to supervise.
-> Maybe the number is 500. Maybe it’s 2,000. The exact number matters less than the conclusion.
-> Almost nobody is doing this yet.
-> Despite all the noise, despite all the funding announcements, despite every SaaS homepage being rewritten with the word “agentic,” the field is basically empty.
->
-> The first useful distinction is this: AI-assisted companies use AI at the edges. AI-native companies redesign the center.
-> An AI-assisted company asks, “Where can we add AI to save time?”
-> An AI-native company asks, “How should this workflow exist if agents are doing the first 80%?”
-> That second question changes everything.
-> Take customer support. In a normal company, a support ticket arrives, a human reads it, searches for context, checks the account, remembers policy, writes a response, maybe asks engineering, maybe escalates, maybe forgets to tag the reason properly. It’s a human-driven process with software sprinkled around it.
-> In an AI-native company, the ticket enters a system an agent can understand. The agent reads the customer history, checks plan limits, reviews prior tickets, consults policy, drafts a response, recommends an action, and either resolves the issue or sends it to a human with the exact reason it needs judgment. The human is not the search engine, router, and copywriter. The human is the reviewer of ambiguity.
-> That is a very different company.
-> Now apply the same logic to sales. The old way is an SDR Googling a prospect, guessing at personalization, writing a mediocre email, updating Salesforce because their manager nags them, then passing half-context to an AE. The AI-native way is an agent that monitors buying signals, enriches accounts, maps stakeholders, drafts outreach, learns which hooks convert, updates the CRM automatically, and g...
-
----
-
 ### @ChrisHayduk 
 
 - Author: Chris Hayduk [@ChrisHayduk](https://x.com/ChrisHayduk)
@@ -14218,9 +14363,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ChrisHayduk/status/2054189855228227748](https://x.com/ChrisHayduk/status/2054189855228227748)
   - [x.com/ChrisHayduk/status/2053807198870880743](https://x.com/ChrisHayduk/status/2053807198870880743)
   - [x.com/i/article/2053705681614536704](https://x.com/i/article/2053705681614536704)
-- Public metrics: bookmark_count=2853, impression_count=217958, like_count=1237, quote_count=26, reply_count=27, retweet_count=116
+- Public metrics: bookmark_count=2852, like_count=1237, quote_count=26, reply_count=27, retweet_count=116
 
-> https://x.com/i/article/2053705681614536704
+> http://x.com/i/article/2053705681614536704
 
 #### X Article
 
@@ -14249,33 +14394,61 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @AI_Whisper_X 刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济 主要论点大致是这几个: 1....
+### @gregisenberg 
 
-- Author: AI Dance [@AI_Whisper_X](https://x.com/AI_Whisper_X)
-- Tweet URL: [https://x.com/AI_Whisper_X/status/2053753275661394286](https://x.com/AI_Whisper_X/status/2053753275661394286)
+- Author: GREG ISENBERG [@gregisenberg](https://x.com/gregisenberg)
+- Tweet URL: [https://x.com/gregisenberg/status/2053843542020063489](https://x.com/gregisenberg/status/2053843542020063489)
+- X article: [How to become "AI-Native" ](https://x.com/gregisenberg/article/2053843542020063489)
+- X article text: The truth about being AI native. I'll break it down. Everyone is walking around saying they’re “AI-native” now, which mostly means someone on the team has a ChatGPT tab open and the head of marketing made a custom GPT called “Brand Voice Assistant.” Cute. Useful, even. But not AI-native. That’s...
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-11T08:25:12.000Z
+- Tweet created: 2026-05-11T14:23:53.000Z
 - First seen: 2026-05-12T03:23:41Z
 - Primary URLs:
-  - [x.com/AI_Whisper_X/status/2053753275661394286/photo/1](https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
+  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
+  - [x.com/i/article/2053837926690148352](http://x.com/i/article/2053837926690148352)
 - Linked content:
-  - [pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
-    Images: https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg
+  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2053837926690148352/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2053837926690148352](http://x.com/i/article/2053837926690148352)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2053837926690148352/i/keyboard%5Fshortcuts)...
 - Thread URLs:
-  - [x.com/AI_Whisper_X/status/2054009968949612685](https://x.com/AI_Whisper_X/status/2054009968949612685)
-  - [x.com/AI_Whisper_X/status/2053753275661394286](https://x.com/AI_Whisper_X/status/2053753275661394286)
-  - [x.com/AI_Whisper_X/status/2053753275661394286/photo/1](https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1)
-  - [pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
-- Public metrics: bookmark_count=266, impression_count=55191, like_count=254, quote_count=9, reply_count=53, retweet_count=60
+  - [x.com/gregisenberg/status/2053844162449985984](https://x.com/gregisenberg/status/2053844162449985984)
+  - [x.com/gregisenberg/status/2053843542020063489](https://x.com/gregisenberg/status/2053843542020063489)
+  - [x.com/i/article/2053837926690148352](https://x.com/i/article/2053837926690148352)
+- Public metrics: bookmark_count=2773, like_count=1030, quote_count=33, reply_count=70, retweet_count=135
 
-> 刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济
+> http://x.com/i/article/2053837926690148352
+
+#### X Article
+
+> The truth about being AI native. I'll break it down.
 >
-> 主要论点大致是这几个:
-> 1. 循环经济的运作方式
-> Anthropic 自己赚的钱不够付云服务账单，所以亚马逊和谷歌给 Anthropic 投资，Anthropic https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1
+> Everyone is walking around saying they’re “AI-native” now, which mostly means someone on the team has a ChatGPT tab open and the head of marketing made a custom GPT called “Brand Voice Assistant.”
+> Cute.
+> Useful, even.
+> But not AI-native.
+> That’s the difference people keep missing. An AI-native company is not a company that uses AI. It is a company that has been rebuilt so AI can actually operate inside it. The business is structured, documented, permissioned, and instrumented in a way that agents can understand. The company has made itself legible to machines.
+> That sounds boring until you realize it might be the single biggest business advantage of the next decade.
+> Because most companies are not legible to machines. Most companies are barely legible to their own employees.
+> The CRM says one thing. The Slack thread says another. The real customer history lives in someone’s inbox. The pricing logic is in a spreadsheet called “Final_v7_NEW.” The refund policy is in a Notion doc nobody trusts. The sales process is “talk to Sarah, she knows how we do enterprise.” The onboarding flow is five tools, three humans, two approval steps, and one founder who still gets pulled into random edge cases because nobody ever turned judgment into a system.
+> Then these companies ask, “Why can’t AI do more for us?”
+> Because AI cannot run on vibes.
+> It can’t operate a business where the truth is scattered across people, tools, habits, exceptions, and institutional memory. Agents need context. They need clean inputs. They need rules. They need access. They need boundaries. They need to know what good looks like. They need to know when to act and when to ask.
+> Most companies have spent twenty years buying software, but they have not spent twenty years designing an operating system. They have a pile of tools, not a machine.
+> That is why the number of truly AI-native companies is probably shockingly small. My guess is there are maybe 1,000 companies on earth doing $5M+ ARR that are actually AI-native in the real sense. Not “we use copilots.” Not “we automated some emails.” I mean companies where the core workflows are designed for agents to execute and humans to supervise.
+> Maybe the number is 500. Maybe it’s 2,000. The exact number matters less than the conclusion.
+> Almost nobody is doing this yet.
+> Despite all the noise, despite all the funding announcements, despite every SaaS homepage being rewritten with the word “agentic,” the field is basically empty.
+>
+> The first useful distinction is this: AI-assisted companies use AI at the edges. AI-native companies redesign the center.
+> An AI-assisted company asks, “Where can we add AI to save time?”
+> An AI-native company asks, “How should this workflow exist if agents are doing the first 80%?”
+> That second question changes everything.
+> Take customer support. In a normal company, a support ticket arrives, a human reads it, searches for context, checks the account, remembers policy, writes a response, maybe asks engineering, maybe escalates, maybe forgets to tag the reason properly. It’s a human-driven process with software sprinkled around it.
+> In an AI-native company, the ticket enters a system an agent can understand. The agent reads the customer history, checks plan limits, reviews prior tickets, consults policy, drafts a response, recommends an action, and either resolves the issue or sends it to a human with the exact reason it needs judgment. The human is not the search engine, router, and copywriter. The human is the reviewer of ambiguity.
+> That is a very different company.
+> Now apply the same logic to sales. The old way is an SDR Googling a prospect, guessing at personalization, writing a mediocre email, updating Salesforce because their manager nags them, then passing half-context to an AE. The AI-native way is an agent that monitors buying signals, enriches accounts, maps stakeholders, drafts outreach, learns which hooks convert, updates the CRM automatically, and g...
 
 ---
 
@@ -14293,10 +14466,53 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/oran_ge/status/2053630239629299772](https://x.com/oran_ge/status/2053630239629299772)
   - [x.com/oran_ge/status/2053608588002885730](https://x.com/oran_ge/status/2053608588002885730)
   - [twitter.com/dotey/status/2053601852261110201](https://twitter.com/dotey/status/2053601852261110201)
-- Public metrics: bookmark_count=463, impression_count=97585, like_count=229, quote_count=0, reply_count=6, retweet_count=56
+- Public metrics: bookmark_count=0, like_count=229, quote_count=0, reply_count=6, retweet_count=56
 
 > 未来每个团队都是在做 harness 工程，每个人都需要理解这套框架
-> 虽然有一些非共识的点，但这篇是个不错的综述 https://twitter.com/dotey/status/2053601852261110201
+> 虽然有一些非共识的点，但这篇是个不错的综述
+
+---
+
+### @AI_Whisper_X 刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济 主要论点大致是这几个: 1....
+
+- Author: AI Dance [@AI_Whisper_X](https://x.com/AI_Whisper_X)
+- Tweet URL: [https://x.com/AI_Whisper_X/status/2053753275661394286](https://x.com/AI_Whisper_X/status/2053753275661394286)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-11T08:25:12.000Z
+- First seen: 2026-05-12T03:23:41Z
+- Primary URLs:
+  - [x.com/AI_Whisper_X/status/2053753275661394286/photo/1](https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1)
+  - [www.wheresyoured.at/premium-ais-circular-psychosis](https://www.wheresyoured.at/premium-ais-circular-psychosis/)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
+- Linked content:
+  - [Premium: AI's Circular Psychosis](https://www.wheresyoured.at/premium-ais-circular-psychosis/)
+    Images: https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w600/2024/01/wide-with-letters-1.jpeg, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/05/data-src-image-85228f45-4b53-49b3-9141-558aaf20eea4.png, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w300/2024/01/wide-with-letters-1.jpeg
+    Text: In this week’s free newsletter, [I explained how bad the circular AI economy is in the simplest-possible terms](https://www.wheresyoured.at/am-i-meant-to-be-impressed/#me-explain-why-circular-finance-bad): Anthropic not have money to pay...
+  - [pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
+    Images: https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg
+- Thread URLs:
+  - [x.com/AI_Whisper_X/status/2054009968949612685](https://x.com/AI_Whisper_X/status/2054009968949612685)
+  - [x.com/AI_Whisper_X/status/2053753275661394286](https://x.com/AI_Whisper_X/status/2053753275661394286)
+  - [x.com/AI_Whisper_X/status/2053753275661394286/photo/1](https://x.com/AI_Whisper_X/status/2053753275661394286/photo/1)
+  - [pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg](https://pbs.twimg.com/media/HIBllyNXoAAV2cu.jpg)
+- Public metrics: bookmark_count=266, like_count=254, quote_count=9, reply_count=53, retweet_count=60
+
+> 刚看了一篇文章，堪称硅谷版毒舌，整个 AI 行业本质上是一个由 OpenAI 和 Anthropic 两家公司撑起来的循环经济
+>
+> 主要论点大致是这几个:
+> 1. 循环经济的运作方式
+> Anthropic 自己赚的钱不够付云服务账单，所以亚马逊和谷歌给 Anthropic 投资，Anthropic 再把这笔钱付回给亚马逊和谷歌当云服务费。这样亚马逊/谷歌账面上看起来有大客户、有 AI 收入，但实际上这些“收入“是他们自己投出去的钱绕一圈回来的。OpenAI 和微软之间是同样的关系。
+> 2. AI 算力其实没什么真实需求
+> 最有力的证据是马斯克的 xAI 把整个 300MW 的 Colossus-1 数据中心(花了至少 40 亿美元建的)整个转让给了 Anthropic。如果 xAI 这种规模的 AI 公司都用不完自建的算力，那“算力需求爆炸“的说法就站不住脚。作者花了大量时间查找，除了 OpenAI、Anthropic、Meta 以及这几家给它们买算力的云厂商之外，根本找不到年消费超过 1 亿美元的 GPU 客户。
+> 3. 90%+ 的 AI 收入都流经 OpenAI 和 Anthropic
+> 大部分 AI 创业公司(Cursor、Harvey 等)本质上是 OpenAI/Anthropic API 的代理商，融来的钱几乎全部花在调用这两家的模型上，自己都严重亏损。比如 Cursor 把 100% 收入都付给了 Anthropic。
+> 4. 超大规模云厂商的赌注
+> 微软、谷歌、亚马逊砸了大约 7000 亿美元的资本开支，其中至少 3000 亿、5.5GW 的容量是专门为这两家公司建的。这两家又拿着低于市场价的折扣使用算力，本身严重亏损，需要不断融资。
+>
+> 大家觉得呢 AI的需求真实起来了吗？还是依然泡沫
+> https://www.wheresyoured.at/premium-ais-circular-psychosis/
 
 ---
 
@@ -14321,7 +14537,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/dunik_7/status/2053495306235347100/video/1](https://x.com/dunik_7/status/2053495306235347100/video/1)
   - [twitter.com/Mnilax/status/2053116311132155938](https://twitter.com/Mnilax/status/2053116311132155938)
   - [pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg](https://pbs.twimg.com/amplify_video_thumb/2053495111762280453/img/oTVoGumcwt2LluAH.jpg)
-- Public metrics: bookmark_count=17954, impression_count=1847241, like_count=5715, quote_count=14, reply_count=70, retweet_count=385
+- Public metrics: bookmark_count=17954, like_count=5715, quote_count=14, reply_count=70, retweet_count=385
 
 > 40% of the code Claude writes for you is wasted. you're paying for the rewrite.
 >
@@ -14329,41 +14545,50 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 >
 > the author tested it on "30 codebases over 6 weeks" and reported a mistake rate drop from 41% to either 11% or 3%
 >
-> depending https://x.com/dunik_7/status/2053495306235347100/video/1 https://twitter.com/Mnilax/status/2053116311132155938
+> depending on whether you read the headline or the body.
+>
+> the irony is that the article is right.
+>
+> CLAUDE.md is the most under-leveraged file in your stack.
+>
+> 65 lines of behavioral rules outperform a 4,000-token preferences dump.
+>
+> "be careful" is useless. testable imperatives are gold.
+>
+> "be senior" doesn't work Claude already thinks it is.
+>
+> the 4 rules that ship the most leverage:
+>
+> / state assumptions, never guess silently
+> / minimum code, nothing speculative
+> / surgical changes, don't refactor adjacent code
+> / define success, loop until verified
+>
+> compliance: ~80%. mistake rate: from ~40% to single digits.
+>
+> no human caught the contradicting numbers in the title.
+>
+> nobody had to.
 
 ---
 
-### @nateherk Hermes actually is the real deal. I just dropped a one hour course on it. All the way...
+### @opencode OpenCode x DeepSeek V4 Flash - free for a limited time DeepSeek V4 Flash is currently...
 
-- Author: Nate Herk [@nateherk](https://x.com/nateherk)
-- Tweet URL: [https://x.com/nateherk/status/2053308985575362681](https://x.com/nateherk/status/2053308985575362681)
+- Author: OpenCode [@opencode](https://x.com/opencode)
+- Tweet URL: [https://x.com/opencode/status/2053887208688431179](https://x.com/opencode/status/2053887208688431179)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-10T02:59:45.000Z
+- Tweet created: 2026-05-11T17:17:24.000Z
 - First seen: 2026-05-12T03:23:41Z
-- Primary URLs:
-  - [x.com/nateherk/status/2053308985575362681/video/1](https://x.com/nateherk/status/2053308985575362681/video/1)
-  - [twitter.com/nateherk/status/2053308681299616125](https://twitter.com/nateherk/status/2053308681299616125)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg
-- Thread URLs:
-  - [x.com/nateherk/status/2053315693869727864](https://x.com/nateherk/status/2053315693869727864)
-  - [x.com/nateherk/status/2053308985575362681](https://x.com/nateherk/status/2053308985575362681)
-  - [x.com/nateherk/status/2053308985575362681/video/1](https://x.com/nateherk/status/2053308985575362681/video/1)
-  - [twitter.com/nateherk/status/2053308681299616125](https://twitter.com/nateherk/status/2053308681299616125)
-  - [pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg](https://pbs.twimg.com/amplify_video_thumb/2053308772638924800/img/NEhEgXjNN6wzbTSR.jpg)
-- Public metrics: bookmark_count=5192, impression_count=331035, like_count=2763, quote_count=14, reply_count=79, retweet_count=266
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=637, like_count=3796, quote_count=70, reply_count=120, retweet_count=196
 
-> Hermes actually is the real deal.
+> OpenCode x DeepSeek V4 Flash - free for a limited time
 >
-> I just dropped a one hour course on it.
+> DeepSeek V4 Flash is currently our most popular model in Go
 >
-> All the way from setting one up to understanding how to build an army of them.
->
-> Give this a read. https://x.com/nateherk/status/2053308985575362681/video/1 https://twitter.com/nateherk/status/2053308681299616125
+> Give it a try if you haven’t already
 
 ---
 
@@ -17532,6 +17757,35 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @IceBearMiner 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋
+
+- Author: 小八 [@IceBearMiner](https://x.com/IceBearMiner)
+- Tweet URL: [https://x.com/IceBearMiner/status/2053645573777969252](https://x.com/IceBearMiner/status/2053645573777969252)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-11T01:17:14.000Z
+- First seen: 2026-05-11T10:41:51Z
+- Primary URLs:
+  - [x.com/IceBearMiner/status/2053645573777969252/photo/1](https://x.com/IceBearMiner/status/2053645573777969252/photo/1)
+  - [twitter.com/shachepi/status/2053463461729046817](https://twitter.com/shachepi/status/2053463461729046817)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
+    Images: https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg
+- Thread URLs:
+  - [x.com/IceBearMiner/status/2053742118103921117](https://x.com/IceBearMiner/status/2053742118103921117)
+  - [x.com/IceBearMiner/status/2053733375622492340](https://x.com/IceBearMiner/status/2053733375622492340)
+  - [x.com/IceBearMiner/status/2053645573777969252](https://x.com/IceBearMiner/status/2053645573777969252)
+  - [x.com/IceBearMiner/status/2053645573777969252/photo/1](https://x.com/IceBearMiner/status/2053645573777969252/photo/1)
+  - [twitter.com/shachepi/status/2053463461729046817](https://twitter.com/shachepi/status/2053463461729046817)
+  - [pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
+- Public metrics: bookmark_count=0, like_count=47, quote_count=0, reply_count=5, retweet_count=5
+
+> 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://t.co/4kJyqWCLdg
+
+---
+
 ### @lijigang 给这个世界的一份答卷:
 
 - Author: 李继刚 [@lijigang](https://x.com/lijigang)
@@ -17573,35 +17827,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Public metrics: bookmark_count=49, impression_count=17182, like_count=43, quote_count=0, reply_count=3, retweet_count=5
 
 > 好看！ https://twitter.com/op7418/status/2053657613460771142
-
----
-
-### @IceBearMiner 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋
-
-- Author: 小八 [@IceBearMiner](https://x.com/IceBearMiner)
-- Tweet URL: [https://x.com/IceBearMiner/status/2053645573777969252](https://x.com/IceBearMiner/status/2053645573777969252)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-11T01:17:14.000Z
-- First seen: 2026-05-11T10:41:51Z
-- Primary URLs:
-  - [x.com/IceBearMiner/status/2053645573777969252/photo/1](https://x.com/IceBearMiner/status/2053645573777969252/photo/1)
-  - [twitter.com/shachepi/status/2053463461729046817](https://twitter.com/shachepi/status/2053463461729046817)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
-    Images: https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg
-- Thread URLs:
-  - [x.com/IceBearMiner/status/2053742118103921117](https://x.com/IceBearMiner/status/2053742118103921117)
-  - [x.com/IceBearMiner/status/2053733375622492340](https://x.com/IceBearMiner/status/2053733375622492340)
-  - [x.com/IceBearMiner/status/2053645573777969252](https://x.com/IceBearMiner/status/2053645573777969252)
-  - [x.com/IceBearMiner/status/2053645573777969252/photo/1](https://x.com/IceBearMiner/status/2053645573777969252/photo/1)
-  - [twitter.com/shachepi/status/2053463461729046817](https://twitter.com/shachepi/status/2053463461729046817)
-  - [pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg](https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg)
-- Public metrics: bookmark_count=49, impression_count=19718, like_count=47, quote_count=0, reply_count=5, retweet_count=5
-
-> 确实啊，我光是御三家cli一个月的cache就370亿了，给我省了不少钱😋 https://x.com/IceBearMiner/status/2053645573777969252/photo/1 https://twitter.com/shachepi/status/2053463461729046817
 
 ---
 
@@ -17647,9 +17872,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/RealHanyaHu/status/2053897893271241184](https://x.com/RealHanyaHu/status/2053897893271241184)
   - [x.com/RealHanyaHu/status/2053697766740877751](https://x.com/RealHanyaHu/status/2053697766740877751)
   - [x.com/RealHanyaHu/status/2054003697777324376](https://x.com/RealHanyaHu/status/2054003697777324376)
+  - [x.com/i/article/2053609142984843264](http://x.com/i/article/2053609142984843264)
 - Linked content:
   - [x.com/i/article/2053609142984843264](https://x.com/i/article/2053609142984843264)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2053609142984843264/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2053609142984843264](http://x.com/i/article/2053609142984843264)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2053609142984843264/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/RealHanyaHu/status/2053686359068696626](https://x.com/RealHanyaHu/status/2053686359068696626)
   - [x.com/RealHanyaHu/status/2053682654588080501](https://x.com/RealHanyaHu/status/2053682654588080501)
@@ -17658,9 +17886,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/RealHanyaHu/status/2053656467056820651](https://x.com/RealHanyaHu/status/2053656467056820651)
   - [x.com/RealHanyaHu/status/2053619515871863211](https://x.com/RealHanyaHu/status/2053619515871863211)
   - [x.com/i/article/2053609142984843264](https://x.com/i/article/2053609142984843264)
-- Public metrics: bookmark_count=187, impression_count=73649, like_count=149, quote_count=21, reply_count=31, retweet_count=24
+- Public metrics: bookmark_count=187, like_count=148, quote_count=21, reply_count=31, retweet_count=24
 
-> https://x.com/i/article/2053609142984843264
+> http://x.com/i/article/2053609142984843264
 
 #### X Article
 
@@ -17798,13 +18026,13 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/vista8/status/2053464149997634043](https://x.com/vista8/status/2053464149997634043)
   - [x.com/vista8/status/2053464149997634043/photo/1](https://x.com/vista8/status/2053464149997634043/photo/1)
   - [pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg](https://pbs.twimg.com/media/HH9d2dkaIAAuxKz.jpg)
-- Public metrics: bookmark_count=2008, impression_count=208777, like_count=2015, quote_count=21, reply_count=106, retweet_count=377
+- Public metrics: bookmark_count=2008, like_count=2016, quote_count=21, reply_count=106, retweet_count=377
 
 > 今天跟一个擅长算命的朋友吃饭，突然好奇，问他想简单学习了解下的话推荐哪本书。
 >
 > 他说看《命运的求索》就够了，一个复旦大学教授写的，把中国各种算命流派和逻辑都讲了一遍。
 >
-> 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://x.com/vista8/status/2053464149997634043/photo/1
+> 微信读书上就有，已收藏，抽空翻翻，增加点杂学知识。 https://t.co/5ebGyYHMHw
 
 ---
 
@@ -17829,14 +18057,21 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jinchenma_ai/status/2053154750498328723](https://x.com/jinchenma_ai/status/2053154750498328723)
   - [x.com/jinchenma_ai/status/2053154720873894285](https://x.com/jinchenma_ai/status/2053154720873894285)
   - [x.com/jinchenma_ai/status/2053154657753813428](https://x.com/jinchenma_ai/status/2053154657753813428)
-- Public metrics: bookmark_count=2212, impression_count=145711, like_count=1393, quote_count=15, reply_count=96, retweet_count=293
+- Public metrics: bookmark_count=2209, like_count=1394, quote_count=15, reply_count=96, retweet_count=293
 
 > 卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！
 >
 > wx-cli，让 AI 可以自由读取微信消息。
 >
 > 1. 消息随便翻：不用点开微信那个难用的搜索框，直接输入关键词就能搜全库聊天记录，速度快到飞起。
-> 2. https://x.com/jinchenma_ai/status/2053039222244962728/photo/1
+> 2. 朋友圈挖掘机：能直接看朋友圈历史、搜朋友圈文字，甚至连谁给你点过赞、评论过什么都能一目了然。
+> 3. 聊天导出神器：想把聊天记录存成文档？它能一键导出成整齐的 Markdown 或网页格式，备份和查阅超级方便。
+> 4. 自动统计分析：想知道谁是群里的“话痨”？它能直接帮你统计聊天频率，生成各种有趣的数据。
+> 5. 收藏夹搜索：微信收藏的东西太多找不着？用它按图片、链接或者视频类型一搜就有。
+> 6. 安全又隐私：它不用扫码登录，也不联网传数据，完全是在你本地电脑上操作，非常安全。
+> 7. AI 完美搭子：如果你在用 Claude 或 Cursor 这种 AI 工具，它可以直接把聊天记录喂给 AI 帮你总结重点。
+>
+> 项目地址在评论区👇
 
 ---
 
@@ -22739,7 +22974,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - Thread URLs:
   - [x.com/opencode/status/2052687449508266270](https://x.com/opencode/status/2052687449508266270)
   - [status.deepseek.com](https://status.deepseek.com/)
-- Public metrics: bookmark_count=56, impression_count=59864, like_count=930, quote_count=9, reply_count=36, retweet_count=15
+- Public metrics: bookmark_count=56, like_count=930, quote_count=9, reply_count=36, retweet_count=15
 
 > OpenCode Go is currently experiencing issues with DeepSeek models due to an upstream provider outage.
 >
@@ -22747,37 +22982,1946 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @zodchiii Anthropic just leaked their 2026 agent roadmap in 22 minutes. Claude team walked...
+### @hero_ui Beautiful by default 🚀
 
-- Author: darkzodchi [@zodchiii](https://x.com/zodchiii)
-- Tweet URL: [https://x.com/zodchiii/status/2052400272840720565](https://x.com/zodchiii/status/2052400272840720565)
-- Sources: bookmark@CatHanami97880
+- Author: HeroUI [@hero_ui](https://x.com/hero_ui)
+- Tweet URL: [https://x.com/hero_ui/status/2048778515936333847](https://x.com/hero_ui/status/2048778515936333847)
+- Sources: favorite@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-07T14:48:51.000Z
+- Tweet created: 2026-04-27T14:57:17.000Z
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
-  - [x.com/zodchiii/status/2052400272840720565/video/1](https://x.com/zodchiii/status/2052400272840720565/video/1)
-  - [twitter.com/zodchiii/status/2052368125480354000](https://twitter.com/zodchiii/status/2052368125480354000)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg
-- Thread URLs:
-  - [x.com/zodchiii/status/2052407029302530180](https://x.com/zodchiii/status/2052407029302530180)
-  - [x.com/zodchiii/status/2052400272840720565](https://x.com/zodchiii/status/2052400272840720565)
-  - [x.com/zodchiii/status/2052400272840720565/video/1](https://x.com/zodchiii/status/2052400272840720565/video/1)
-  - [twitter.com/zodchiii/status/2052368125480354000](https://twitter.com/zodchiii/status/2052368125480354000)
-  - [pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
-- Public metrics: bookmark_count=7879, impression_count=587490, like_count=2777, quote_count=6, reply_count=35, retweet_count=304
+  - [twitter.com/dingyi/status/2048760423491764431](https://twitter.com/dingyi/status/2048760423491764431)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=55, quote_count=0, reply_count=1, retweet_count=1
 
-> Anthropic just leaked their 2026 agent roadmap in 22 minutes.
+> Beautiful by default 🚀
+
+---
+
+### @jwsaml Hot take: GPT-5.5 &gt; Opus 4.7
+
+- Author: Jesse Samuel [@jwsaml](https://x.com/jwsaml)
+- Tweet URL: [https://x.com/jwsaml/status/2047978435629474173](https://x.com/jwsaml/status/2047978435629474173)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-04-25T09:58:03.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/jwsaml/status/2047978435629474173/photo/1](https://x.com/jwsaml/status/2047978435629474173/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg](https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg)
+    Images: https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=2835, quote_count=29, reply_count=215, retweet_count=47
+
+> Hot take:
 >
-> Claude team walked through tools, memory, observability, and the things most builders are 12 months behind.
+> GPT-5.5 &gt; Opus 4.7 https://t.co/3Pw4wZfJfY
+
+---
+
+### @defileo 
+
+- Author: Defileo🔮 [@defileo](https://x.com/defileo)
+- Tweet URL: [https://x.com/defileo/status/2045466421036007527](https://x.com/defileo/status/2045466421036007527)
+- X article: [Don't be lazy to automate your work with routines](https://x.com/defileo/article/2045466421036007527)
+- X article text: Most people think Claude is something you talk to, tho it is now something you deploy. Anthropic quietly shipped something that changes how you think about AI entirely, it is called Routines. And if you build things, run a team, or manage any kind of recurring work, this is the most important...
+- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-04-18T11:36:12.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2045262387041730560](https://x.com/i/article/2045262387041730560)
+  - [x.com/i/article/2045262387041730560](http://x.com/i/article/2045262387041730560)
+- Linked content:
+  - [x.com/i/article/2045262387041730560](https://x.com/i/article/2045262387041730560)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2045262387041730560/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2045262387041730560](http://x.com/i/article/2045262387041730560)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2045262387041730560/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=4306, like_count=926, quote_count=26, reply_count=14, retweet_count=89
+
+> http://x.com/i/article/2045262387041730560
+
+#### X Article
+
+> Most people think Claude is something you talk to, tho it is now something you deploy.
+> Anthropic quietly shipped something that changes how you think about AI entirely, it is called Routines.
 >
-> The last 3 minutes alone are worth the watch.
+> And if you build things, run a team, or manage any kind of recurring work, this is the most important thing Claude has shipped this year.
 >
-> Watch it, then save the setup below 👇 https://x.com/zodchiii/status/2052400272840720565/video/1 https://twitter.com/zodchiii/status/2052368125480354000
+> Here is what it does:
+> You define a task once, a prompt, a repo, a trigger, claude runs it automatically on Anthropic's cloud infrastructure.
+>
+> Your laptop can be closed -> Claude is still working, not a chatbot, not a copilot a deployed worker.
+>
+> The three triggers
+> Every routine needs a trigger, there are three types, you can combine them on the same routine.
+> > Schedule
+> Runs on a recurring cadence. Hourly, daily, weekdays, weekly, or a custom cron expression.
+>
+> You set the time in your local timezone and Claude converts it automatically.
+> Use this for anything that needs to happen on a clock. Daily standups. Weekly doc reviews. Nightly backlog maintenance. Morning digests.
+> > API
+> Gives your routine a dedicated HTTP endpoint. You POST to it with a bearer token and Claude starts a run immediately. You can pass extra context in the request body using a text field.
+> Use this to wire Claude into anything that can make an HTTP request. Alerting tools. Deploy pipelines. Internal dashboards. Anywhere you want Claude to react to something your system detected.
+> > GitHub
+> Runs automatically when something happens in a repository. Pull request opened.
+>
+> Commit pushed. Issue created. Workflow completed. You pick the event and optionally add filters so it only triggers on exactly what you care about.
+> Use this for code review, PR triage, changelog generation, or anything that should happen every time code moves.
+>
+> Five routines you can set up today
+> These are real use cases from the docs, each one has the trigger type, the prompt structure, and what Claude actually does.
+> Routine 1: Morning backlog digest
+> Trigger: schedule, every weekday at 7am
+> Prompt structure:
+>
+> What happens: you wake up, open Slack, and your backlog is already groomed.
+>
+> Nobody had to touch it. No Monday morning surprise of 30 unlabeled tickets from the weekend.
+> Routine 2: Auto PR reviewer
+> Trigger: GitHub, pull_request.opened
+> Prompt structure:
+>
+> What happens: every new PR gets reviewed before a human looks at it.
+>
+> The mechanical stuff is already caught, your team spends review time on architecture and logic, not missing semicolons.
+> You can add filters too, only trigger on PRs targeting main, only trigger on non-draft PRs.
+>
+> Only trigger on PRs from forks. You control exactly what fires the routine.
+> Routine 3: Alert Triage Bot
+> Trigger: API (called by your monitoring tool)
+> Prompt structure:
+>
+> Call it like this:
+>
+> Your monitoring tool sends a POST request to the routine's endpoint with your bearer token in the header and the alert details in the body.
+>
+> Claude picks up the context from that text and starts working immediately.
+> What happens: your monitoring tool fires an alert at 3am -> Claude wakes up, finds the relevant commits, opens a draft PR with a proposed fix, and posts it to Slack.
+> Your on-call engineer reviews a PR instead of staring at a blank terminal at 3am.
+> Routine 4: Docs Drift Checker
+> Trigger: schedule, every Monday at 9am
+> Prompt structure:
+>
+> What happens: documentation stays current automatically.
+>
+> The most hated maintenance task on any engineering team runs itself every week without anyone asking for it.
+> Routine 5: Deploy Verification
+> Trigger: API (called by your CD pipeline after deploy)
+> Prompt structure:
+>
+> What happens: every deploy gets verified automatically. Your team gets a go or no-go in Slack before anyone has to manually check anything.
+>
+> The deploy window does not close with everyone hoping nothing broke.
+>
+> How to Set Up Your First Routine
+> Ten minutes, here is the exact path, from the web:
+>
+> Give it a name, write the prompt, the prompt is the most important part.
+>
+> Claude runs autonomously so it needs to be specific, not "review PRs" but "review...
+
+---
+
+### @stfnco 
+
+- Author: Nick Stepuk [@stfnco](https://x.com/stfnco)
+- Tweet URL: [https://x.com/stfnco/status/2044768025786695971](https://x.com/stfnco/status/2044768025786695971)
+- X article: [10 glorious shader presets to instantly upgrade your website ](https://x.com/stfnco/article/2044768025786695971)
+- X article text: I spent a whole day going deep on @framer shaders — tweaking, experimenting, and pushing them as far as they'd go. Here are 10 advanced presets that came out of that session. Take what you like. 01 — Hologram Shader: Liquid Gradient You might've already seen this one — I used it on my recent...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-04-16T13:21:01.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2043979081641803776](https://x.com/i/article/2043979081641803776)
+  - [x.com/i/article/2043979081641803776](http://x.com/i/article/2043979081641803776)
+- Linked content:
+  - [x.com/i/article/2043979081641803776](https://x.com/i/article/2043979081641803776)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2043979081641803776/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HF8ZbRHWUAA-...
+  - [x.com/i/article/2043979081641803776](http://x.com/i/article/2043979081641803776)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2043979081641803776/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HF8ZbRHWUAA-...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=469, quote_count=3, reply_count=28, retweet_count=27
+
+> http://x.com/i/article/2043979081641803776
+
+#### X Article
+
+> I spent a whole day going deep on @framer shaders — tweaking, experimenting, and pushing them as far as they'd go. Here are 10 advanced presets that came out of that session. Take what you like.
+> 01 — Hologram
+>
+> Shader: Liquid Gradient
+> You might've already seen this one — I used it on my recent discount post. It's a simple light refraction effect that mimics the look of holographic foil. Nothing fancy under the hood, but the result is instantly recognizable.
+> Works great on cards, coupons, pricing sections, or anything that benefits from that "premium but playful" feel.
+> Settings:
+>
+> 💡 Pro tip: Use masks.
+> The shader doesn't have to fill a rectangle — throw a mask on it and let it bleed into the background. It makes the design feel more premium, keeps text readable underneath, and honestly just looks way cooler.
+>
+> 02 — Heatmap
+>
+> This one's my personal favorite from the whole set. There's something about the way it moves — slow and silky. Dark background, purple heat rising from the bottom, a hint of orange at the edges. If you're building anything with a dark, moody atmosphere, this is your go-to.
+> Settings:
+>
+> 💡Pro tip: Crop it.
+> You don't have to show the whole shader — just the part that looks best. In this preset, for example, I used only the bottom-left quarter. It fits the composition way better and makes the effect feel more intentional.
+>
+> 03 — Citrus
+>
+> Not everything has to be dark and cosmic. I wanted something playful for a change, so I paired acid yellow with deep greens. The diagonal waves give it energy, and the colors manage to feel fresh without looking cheap.
+> A good pick when you want your project to feel alive and fresh.
+> Settings:
+>
+>
+> 04 — CRT
+>
+> I was going for that old CRT television feel here. Vertical scan lines, warm amber and red tones bleeding through the dark. It came out really nostalgic and cozy in a way I didn't quite expect. If your project has any retro or vintage direction, this one fits right in.
+> Settings:
+>
+>
+> 05 — Topo
+>
+> You can use shaders in a flat, minimal design too. This one is just two colors and clean topographic lines flowing across a flat surface. In motion it looks refined and a bit editorial. Also one of the fastest rendering presets in the set.
+> Settings:
+>
+> 💡 Pro tip: Play with Seed.
+> Every preset has a Seed parameter that randomizes the shader pattern. If the current look doesn't quite fit your project, just change the number and you'll get a completely different variation of the same effect.
+>
+> 06 — Solar
+>
+> Pure heat. This one works well for anything that needs to feel intense and energetic — think sports, energy drinks, aggressive landing pages, or a bold hero section. The three black colors at the end of the palette are there to push the gradient deep into the dark, which gives that burning glow effect.
+> Settings:
+>
+>
+> 07 — Matcha Latte
+>
+> Looks exactly like someone pouring matcha into a glass with those swirls of green rising from the bottom. Very organic and natural feeling. Great for wellness brands, food products, anything in the health or lifestyle space. Also just a really satisfying animation to watch.
+> Settings:
+>
+>
+> 08 — Shelby
+>
+> This one started as a cloudy sky. But then I started pushing the shape and speed, it turned into something completely different and more energetic. The moment I added the red accent, it clicked. Suddenly it got that Ford vs Ferrari racing energy.
+> Settings:
+>
+>
+> 09 — Obsidian
+>
+> My take on the liquid metal aesthetic. Eight shades of near-black shifting against each other, with thin light streaks gliding across the surface. The result feels expensive in a very quiet way. Works great for luxury products, premium SaaS or even something cinematic.
+> Settings:
+>
+> 💡 Pro tip: Use tints.
+> Pure black and pure white rarely exist in nature. Adding a subtle color tint to your darks and lights makes everything feel more organic and visually rich. In this preset, none of the "blacks" are actually black — they all carry a slight blue or purple undertone, which is exactly what gives it that deep, premium fee...
+
+---
+
+### @chenchengpro Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。...
+
+- Author: 陈成 [@chenchengpro](https://x.com/chenchengpro)
+- Tweet URL: [https://x.com/chenchengpro/status/2043697811993350611](https://x.com/chenchengpro/status/2043697811993350611)
+- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-04-13T14:28:23.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/garrytan/status/2042925773300908103](https://twitter.com/garrytan/status/2042925773300908103)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=643, like_count=337, quote_count=3, reply_count=5, retweet_count=53
+
+> Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。
+>
+> 简单说就是三层分离：把需要判断的模糊操作推入 markdown 技能文件（Fat Skills），把必须精确执行的确定性逻辑写成代码（Fat Code），框架本身只做最基础的连接（Thin Harness）。用他的话说："在正确的层做正确的事，其他都是架构天文学。"
+>
+> 这个思想的精髓在于他给 AI Agent 设的一条铁律：你不允许做一次性工作。如果某件事将来还会做，就先手动跑 3-10 个样本，批准后固化成技能文件。如果需要自动运行，就设 cron。测试标准很简单：如果我为同一件事问你两次，你就失败了。
+>
+> 这条指令拿到了 1000+ 赞和 2500+ 书签，因为它击中了本质：每个技能文件都是系统的永久升级，不会退化、不会遗忘、凌晨 3 点也在跑。
+>
+> 社区讨论也很有料。Sam Ward 说他们团队就是这么干的——智能体的智能全在启动时加载的 markdown 里，框架只管连模型和工具。要升级智能体就改 markdown，不动代码。Claudia 补充说边界会自然迁移：确定性代码一旦需要上下文判断就会被拉进技能层，当你不再对抗这种迁移，架构就稳了。
+>
+> 这其实是 Unix "do one thing well" 在智能体工程的翻版。人类花了 50 年才学会这个教训，现在在 AI Agent 领域快速重演一遍。大多数智能体系统脆弱的根源就是框架太胖，在框架层做了太多推理和编排。
+>
+> Garry 举了个实战案例：他们用技能文件管理 YC 创始人活动的反馈循环。技能文件自动读反馈、识别模式、生成改进建议，然后重写自己。7 月活动 12% 的"还好"评分，下次活动降到 4%。这就是技能文件自我进化的威力。
+>
+> 100x 生产力不是靠更聪明的模型，而是 Fat Skills + Thin Harness + 把一切固化的纪律。下一个更好的模型出来，所有技能自动受益——潜在空间的判断力提升，确定性层保持完全可靠。
+>
+> 这是我见过对 agentic engineering 最清晰的架构原则。
+
+---
+
+### @PaulSolt 🤯 Mythos is NOT as good as Anthropic portrayed. - Non-standard benchmarks - Training on...
+
+- Author: Paul Solt [@PaulSolt](https://x.com/PaulSolt)
+- Tweet URL: [https://x.com/PaulSolt/status/2042577693359603748](https://x.com/PaulSolt/status/2042577693359603748)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-04-10T12:17:26.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/elliotarledge/status/2041602563423051812](https://twitter.com/elliotarledge/status/2041602563423051812)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=487, like_count=1300, quote_count=28, reply_count=122, retweet_count=116
+
+> 🤯 Mythos is NOT as good as Anthropic portrayed.
+>
+> - Non-standard benchmarks
+> - Training on solution sets
+> - Security concerns are real (but they spent $20k+ to push models to find exploits)
+>
+> Don’t believe all the hype. It’s probably better than Opus, but not as good as it’s being portrayed.
+
+---
+
+### @viktoroddy Introducing Jaw-Dropping Animated AI Backgrounds ✨ A huge collection of beautifully...
+
+- Author: Viktor Oddy [@viktoroddy](https://x.com/viktoroddy)
+- Tweet URL: [https://x.com/viktoroddy/status/2039055302360793444](https://x.com/viktoroddy/status/2039055302360793444)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-31T19:00:42.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/viktoroddy/status/2039055302360793444/video/1](https://x.com/viktoroddy/status/2039055302360793444/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg)
+- Linked content:
+  - [pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg](https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg)
+    Images: https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=595, quote_count=0, reply_count=20, retweet_count=38
+
+> Introducing Jaw-Dropping Animated AI Backgrounds ✨
+>
+> A huge collection of beautifully Animated AI backgrounds for your brand, free to use.
+>
+> Link 👇 https://t.co/uoDoQUfvWZ
+
+---
+
+### @uiux_harshit At the end of the day, taste matters
+
+- Author: Harshit [@uiux_harshit](https://x.com/uiux_harshit)
+- Tweet URL: [https://x.com/uiux_harshit/status/2038671337414414757](https://x.com/uiux_harshit/status/2038671337414414757)
+- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-30T17:34:58.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/uiux_harshit/status/2038671337414414757/photo/1](https://x.com/uiux_harshit/status/2038671337414414757/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg)
+  - [photo](https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg)
+  - [photo](https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HErQvubbEAAvKUU.jpg](https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg)
+    Images: https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg
+  - [pbs.twimg.com/media/HErQv0AbMAApCEg.jpg](https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg)
+    Images: https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg
+  - [pbs.twimg.com/media/HErQpb4boAA--FY.jpg](https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg)
+    Images: https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=260, quote_count=0, reply_count=25, retweet_count=8
+
+> At the end of the day, taste matters https://t.co/BV6znXSset
+
+---
+
+### @santu_design one of my favourite footer designs so far
+
+- Author: Santu [@santu_design](https://x.com/santu_design)
+- Tweet URL: [https://x.com/santu_design/status/2038301604307165641](https://x.com/santu_design/status/2038301604307165641)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-29T17:05:46.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/santu_design/status/2038301604307165641/photo/1](https://x.com/santu_design/status/2038301604307165641/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HEmAflcXcAAly5C.jpg](https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg)
+    Images: https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=1171, quote_count=0, reply_count=34, retweet_count=27
+
+> one of my favourite footer designs so far https://t.co/I7ilWGKHJW
+
+---
+
+### @chumsdock Figma MCP now lets AI agents write to the canvas — not just read it. Here's what...
+
+- Author: Cheng [@chumsdock](https://x.com/chumsdock)
+- Tweet URL: [https://x.com/chumsdock/status/2036657119194460217](https://x.com/chumsdock/status/2036657119194460217)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-25T04:11:11.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=1, quote_count=0, reply_count=0, retweet_count=0
+
+> Figma MCP now lets AI agents write to the canvas — not just read it. Here's what actually matters.
+>
+> The headline tool is `use_figma`: it executes arbitrary Plugin API JavaScript directly inside your Figma file. This isn't a smart wrapper — it's a real code execution environment. You can create components, build variable collections, wire design tokens, generate full design systems. Anything the Plugin API supports.
+>
+> One thing to check before you get excited:  Starter accounts get 6 MCP calls/month (reads and writes combined). Building a design system takes 20–100+ calls. And write access is free during beta — usage-based pricing is coming.
+
+---
+
+### @chumsdock Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s...
+
+- Author: Cheng [@chumsdock](https://x.com/chumsdock)
+- Tweet URL: [https://x.com/chumsdock/status/2036657892280164655](https://x.com/chumsdock/status/2036657892280164655)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-25T04:14:15.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.figma.com/blog/the-figma-canvas-is-now-open-to-agents](https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/)
+- Linked content:
+  - [Agents, Meet the Figma Canvas | Figma Blog](https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/)
+    Images: https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/84675f0be7a80669fb6581953821530b48964f30-2314x2525.jpg?w=2314&h=2525&q=75&fit=max&auto=format
+    Text: Agents, meet the Figma canvas Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent. Share Agents, meet the Figma canvas...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=3, quote_count=0, reply_count=0, retweet_count=0
+
+> Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s 超时，失败原子回滚。后续的算盘：免费账户每月 6 次 MCP 读/写。写入Beta期间免费，即将按量收费。
+> https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/
+
+---
+
+### @agilek @AliGrids Made these recently as react components you can use
+
+- Author: Mike Acler [@agilek](https://x.com/agilek)
+- Tweet URL: [https://x.com/agilek/status/2033241509131075835](https://x.com/agilek/status/2033241509131075835)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-15T17:58:46.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/status/2029253302450368522](https://x.com/i/status/2029253302450368522)
+  - [github.com/agilek/cli-loaders?tab=readme-ov-file](https://github.com/agilek/cli-loaders?tab=readme-ov-file)
+- Linked content:
+  - [GitHub - agilek/cli-loaders: Set of Braille unicode spinners as React decorator components. · GitHub](https://github.com/agilek/cli-loaders?tab=readme-ov-file)
+    Images: https://opengraph.githubassets.com/ff07e38a24678f7bd4a0321672d8cf84002ddd5094fbbcb0f4897fc130be06bd/agilek/cli-loaders, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/braille.svg, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/orbit.svg, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/breathe.svg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=19, quote_count=0, reply_count=0, retweet_count=2
+
+> @AliGrids Made these recently as react components you can use https://x.com/i/status/2029253302450368522
+>
+> https://github.com/agilek/cli-loaders?tab=readme-ov-file
+
+---
+
+### @srotimi_ui Your daily dose of clean components. // Day 79
+
+- Author: Stephen [@srotimi_ui](https://x.com/srotimi_ui)
+- Tweet URL: [https://x.com/srotimi_ui/status/2036043731426509057](https://x.com/srotimi_ui/status/2036043731426509057)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-23T11:33:48.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/srotimi_ui/status/2036043731426509057/photo/1](https://x.com/srotimi_ui/status/2036043731426509057/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg)
+  - [photo](https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg](https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg)
+    Images: https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg
+  - [pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg](https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg)
+    Images: https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=323, quote_count=0, reply_count=13, retweet_count=7
+
+> Your daily dose of clean components.
+>
+> // Day 79 https://t.co/7ozTdDq9pl
+
+---
+
+### @QingQ77 野心很大，方向清晰。 SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在...
+
+- Author: Geek Lite [@QingQ77](https://x.com/QingQ77)
+- Tweet URL: [https://x.com/QingQ77/status/2031660148440408309](https://x.com/QingQ77/status/2031660148440408309)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-11T09:15:00.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/QingQ77/status/2031660148440408309/photo/1](https://x.com/QingQ77/status/2031660148440408309/photo/1)
+  - [github.com/nagisanzenin/skyclaw](https://github.com/nagisanzenin/skyclaw)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg)
+- Linked content:
+  - [GitHub - temm1e-labs/temm1e: One of the ground zero for AGI, maybe, probably. Free and Open Source forever and ever! · GitHub](https://github.com/temm1e-labs/temm1e)
+    Images: https://opengraph.githubassets.com/5ae13ab0dcb24a56871c00c190a4f5703ff14eb834faedaa9cf1cc50aaf2e732/temm1e-labs/temm1e, https://github.com/temm1e-labs/temm1e/raw/main/assets/banner.png, https://camo.githubusercontent.com/07a6efa839e140b61abb32725358d1af669590d802a1f04119888a423dcbdaa3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6e61676973616e7a656e696e2f74656d6d31653f7374796c653d666c617426636f6c6f723d676f6c64266c6f676f3d676974687562, https://camo.githubusercontent.com/21bcf2f16cd91eb55d87e708baecb6623dbff8c363498d411af045234e74b63e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d4a6f696e253230436f6d6d756e6974792d3538363546323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465
+  - [pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg](https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg)
+    Images: https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=51, quote_count=0, reply_count=4, retweet_count=9
+
+> 野心很大，方向清晰。
+>
+> SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在 Telegram/Discord/Slack 里发话，它在后台跑命令、逛网页、读写文件、拉 git、必要时自我修复，尽量做到“部署一次，长期在线”。
+>
+> SkyClaw — 一个常驻服务器的 Rust agent runtime，用 Telegram/Discord/Slack 当入口
+>
+> https://github.com/nagisanzenin/skyclaw
+
+---
+
+### @chaosflutt28952 在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context Engineering。
+
+- Author: chaosflutter [@chaosflutt28952](https://x.com/chaosflutt28952)
+- Tweet URL: [https://x.com/chaosflutt28952/status/2031745028243284272](https://x.com/chaosflutt28952/status/2031745028243284272)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-11T14:52:17.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.youtube.com/watch?v=2rcJdFuNbZQ](https://www.youtube.com/watch?v=2rcJdFuNbZQ)
+  - [x.com/chaosflutt28952/status/2031745028243284272/photo/1](https://x.com/chaosflutt28952/status/2031745028243284272/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg)
+- Linked content:
+  - [- YouTube](https://www.youtube.com/watch?v=2rcJdFuNbZQ)
+  - [pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg](https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg)
+    Images: https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=92, quote_count=0, reply_count=2, retweet_count=24
+
+> 在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context Engineering。https://www.youtube.com/watch?v=2rcJdFuNbZQ https://t.co/Q32lp6RJZY
+
+---
+
+### @neural_avb 
+
+- Author: AVB [@neural_avb](https://x.com/neural_avb)
+- Tweet URL: [https://x.com/neural_avb/status/2031417353666441266](https://x.com/neural_avb/status/2031417353666441266)
+- X article: [How to design Experiments to Evaluate your Agentic Harness](https://x.com/neural_avb/article/2031417353666441266)
+- X article text: Our forefathers and foremothers laid down the script for improving any system: (1) Build, (2) Evaluate, (3) Refine. Step 1 is trivial now thanks to coding agents. Step 3 is also simple too once you finish Step 2. So this article is about the most open-ended part of the process: Evaluation. But it...
+- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-10T17:10:13.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2031220938738642944](https://x.com/i/article/2031220938738642944)
+  - [huggingface.co/datasets/paperbd/paper-cited-chunks-v1](https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1)
+  - [www.youtube.com/@avb_fj](https://www.youtube.com/@avb_fj)
+  - [www.patreon.com/NeuralBreakdownwithAVB](https://www.patreon.com/NeuralBreakdownwithAVB)
+  - [paperbreakdown.com](https://paperbreakdown.com/)
+  - [x.com/i/article/2031220938738642944](http://x.com/i/article/2031220938738642944)
+- Linked content:
+  - [x.com/i/article/2031220938738642944](https://x.com/i/article/2031220938738642944)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2031220938738642944/i/keyboard%5Fshortcuts)...
+  - [paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face](https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1)
+    Images: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/paperbd/paper-cited-chunks-v1.png, https://huggingface.co/front/assets/huggingface_logo-noborder.svg, https://www.gravatar.com/avatar/932af73dff0f3648f656197e4cd613ec?d=retro&size=100
+    Text: arxiv_id stringlengths 9 12 | query stringlengths 37 616 | cited_chunks listlengths 1 16 | |---|---|---| 2203.12119 | How are prompts inserted in VPT? What is the choice regarding positional encoding for prompts? How is the...
+  - [Neural Breakdown with AVB - YouTube](https://www.youtube.com/@avb_fj)
+    Images: https://yt3.googleusercontent.com/5u3QKXKYuVDPPGCszr2JD76w9APnOMWbEQ_F7j2eu28EgiuZwu16es9d2Ui18RjQKosOdX9on7A=s900-c-k-c0x00ffffff-no-rj
+    Text: About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC
+  - [www.patreon.com/NeuralBreakdownwithAVB](https://www.patreon.com/NeuralBreakdownwithAVB)
+    Text: [](https://www.patreon.com/cdn-cgi/content?id=gLMKzPFI3XvIUNNyzLh6Z%5Fgj0M5ItrYhVaQWNNRnRLQ-1778570560.5284019-1.0.1.1-QLAB1QiBgWyUgLcfwjlXnSzRAHgmHaEZHWj42divqns)[Skip navigation](#main-content)...
+  - [paperbreakdown.com](https://paperbreakdown.com/)
+  - [x.com/i/article/2031220938738642944](http://x.com/i/article/2031220938738642944)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2031220938738642944/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=582, quote_count=4, reply_count=10, retweet_count=48
+
+> http://x.com/i/article/2031220938738642944
+
+#### X Article
+
+> Our forefathers and foremothers laid down the script for improving any system: (1) Build, (2) Evaluate, (3) Refine. Step 1 is trivial now thanks to coding agents. Step 3 is also simple too once you finish Step 2.
+> So this article is about the most open-ended part of the process: Evaluation. But it may not be about exactly what you think when you hear that word.
+> Imo, people underestimate and miscalculate the breadth of evaluation.
+> Evaluation is not only about collecting logs and success metrics of the current system you have in place.
+>
+> It is also about validating your hypothesis and comparing your approach against alternative methods through frequent experiments.
+>
+> For the past week, I have been running multiple experiments to find out how good all my deployed agentic systems actually are. Throughout this article, I will give a couple of real world examples to get your brain juices flowing and help you transfer some of this stuff into your domain.
+> How can you design experiments?
+> How do you pick eval metrics?
+> How do you interpret your results?
+> Enough talk, let's jazz.
+>
+> Step 1:
+> Decide what you want to evaluate
+> Most agentic pipelines work with multiple different agents collaborating together towards giving your user some value. A good rule of thumb I follow is to treat each agent as a separate harness. For most of my use-cases, following this rule of thumb has served me well.
+> Depending on your use-case, you may want to set up a system-level evaluation harness, or a module/unit-level harness.
+> Your first task is to make a decision - what are you evaluating?
+> For example, I have a website to study research papers with AI. It has multiple different agentic modules - one to process papers,  another to generate diagrams, another to find relevant sections from the paper given an user query, another to respond to answers, etc etc.
+> Generally you can't evaluate an entire pipeline at once and expect actionable insights. There may be way too many moving variables!
+> So how to pick the correct module? Ask yourself, you probably already know which module in your project needs instant evaluation. I am sure 99% of you reading already know this! If you in the 1% I will suggest you to ask yourself these questions:
+> Where in the pipeline have I made the most egregious assumptions? ( the whole point of an experiment is to validate hypothesis/assumptions, so may as well start here)
+>
+> What part of my pipeline happens EARLIEST in the the chain? ( the earlier things are in the pipeline, the more impactful they tend to be coz errors propagate downstream! So prioritize these first! )
+>
+> What is my goal here - what vector am I trying to optimize? ( I have an entire section for this one coming up)
+>
+> For Paper Breakdown, I decided to work on my retrieval subagent.
+>
+> Q. What does my retrieval subagent do?
+> Given a user query, my subagent searches one or more research papers and fetches passages that are relevant to the user's question. All types of response generation (through text, diagrams, code, etc) is contextualized by these retrieved passages.
+>
+>
+> Step 2:
+> Decide your end goal
+> When we run experiments, we always have a goal in mind. A hypothesis we want to test, or a suspicion we want to rest.
+> What does success look like? What will you do with the information once you have it? It is best to have a clear hypothesis and a threshold for action.
+> Thankfully, there is a universally applicable goal we can all strive for
+> We are all optimizing to provide better value to our users...
+>
+> as fast as possible...
+>
+> with the least cost...
+>
+> and minimal tech debt.
+>
+> The three goals that are generally what we strive for as project owners are:
+> Improve accuracy: Can we improve the overall quality of the outputs of our target module?
+> Improve latency: Can we make our target module run FASTER?
+> Improve cost: Can we make our target module cheap to run?
+> Improve code quality: Can we kill dependencies, make our codebase simpler and leaner?
+> Depending on your business, you may weigh these four things d...
+
+---
+
+### @yogesharc 👇 Check it out at
+
+- Author: Yogesh [@yogesharc](https://x.com/yogesharc)
+- Tweet URL: [https://x.com/yogesharc/status/2028805687355363347](https://x.com/yogesharc/status/2028805687355363347)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-03-03T12:12:23.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.supacortex.ai](https://www.supacortex.ai/)
+- Linked content:
+  - [Supacortex — Share your context across AI](https://www.supacortex.ai/)
+    Images: https://www.supacortex.ai/supacortex-og.png, https://www.supacortex.ai/supercortex-icon.svg?dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR, https://www.supacortex.ai/_next/image?url=%2Fsupacortex-icon.png&w=96&q=75&dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR, https://www.supacortex.ai/_next/image?url=%2Fopenclaw-icon.png&w=48&q=75&dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=12, quote_count=0, reply_count=1, retweet_count=0
+
+> 👇 Check it out at https://www.supacortex.ai/
+
+---
+
+### @wangray 
+
+- Author: Ray Wang [@wangray](https://x.com/wangray)
+- Tweet URL: [https://x.com/wangray/status/2026300463583564112](https://x.com/wangray/status/2026300463583564112)
+- X article: [OpenClaw 搜索方案全梳理：商业 API、开源自建、零成本 Skill，哪个适合你](https://x.com/wangray/article/2026300463583564112)
+- X article text: AI Agent 要搜索信息，第一个问题就是：用哪个方案？ 选项比你想的多——商业 API、开源自建、无 API 的 Skill、LLM 内置搜索，各有适用场景，选错了不只是贵，还会影响质量和稳定性。我把目前主流方案全整理了一遍，直接说结论。 先说最重要的：你是哪种场景？ 场景一：只想便宜地拿 Google 结果 用 Serper。$0.30/千次，是所有方案里最便宜的，速度快，数据就是 Google 结构化结果。多数项目从这里起步。 场景二：构建 AI Agent 或 RAG 系统 用 Tavily 或 Exa.ai。这两个是专门为 LLM...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-24T14:17:32.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2026291692866084864](https://x.com/i/article/2026291692866084864)
+  - [x.com/i/article/2026291692866084864](http://x.com/i/article/2026291692866084864)
+- Linked content:
+  - [x.com/i/article/2026291692866084864](https://x.com/i/article/2026291692866084864)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2026291692866084864/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2026291692866084864](http://x.com/i/article/2026291692866084864)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2026291692866084864/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=135, quote_count=0, reply_count=7, retweet_count=31
+
+> http://x.com/i/article/2026291692866084864
+
+#### X Article
+
+> AI Agent 要搜索信息，第一个问题就是：用哪个方案？
+> 选项比你想的多——商业 API、开源自建、无 API 的 Skill、LLM 内置搜索，各有适用场景，选错了不只是贵，还会影响质量和稳定性。我把目前主流方案全整理了一遍，直接说结论。
+>
+> 先说最重要的：你是哪种场景？
+> 场景一：只想便宜地拿 Google 结果
+> 用 Serper。$0.30/千次，是所有方案里最便宜的，速度快，数据就是 Google 结构化结果。多数项目从这里起步。
+> 场景二：构建 AI Agent 或 RAG 系统
+> 用 Tavily 或 Exa.ai。这两个是专门为 LLM 集成优化的，返回的是直接可以喂给模型的结构化摘要，不用自己处理原始 HTML，token 消耗更低，RAG 效率更高。Perplexity Sonar API 也可以，适合问答类场景。
+> 场景三：OpenClaw 用户 / 重视隐私
+> 用 Brave Search API。这是 OpenClaw 的默认搜索 provider，开箱即用。自建索引，不追踪用户，$5/千次。如果你已经在用 OpenClaw，不需要额外配置，直接就是这个。
+> 场景四：企业级、要稳
+> 用 Microsoft Bing Web Search API。$3/千次起，全球覆盖，支持多语言，有完整的 SLA 保障。
+> 场景五：需要搜 X/Twitter 实时内容
+> 用 Grok Search API（xAI）。这是目前唯一提供 X/Twitter 实时搜索的 API，$5/千次。如果你的 Agent 需要追踪 X 上的讨论、抓实时热点，这是唯一选项。OpenClaw 上有现成的 grok-search Skill 可以直接装。
+> 场景六：完全自控、长期低成本
+> 自建 SearXNG。开源免费，聚合 70+ 搜索引擎，前期需要部署维护，长期软件成本接近零。
+>
+> 商业方案逐个说
+> Brave Search API
+> $5/千次，每月 $5 免费额度。自建索引是核心优势，不依赖 Google/Bing，隐私保护做得好。支持网页、图片、新闻、视频搜索，也支持 RAG 优化输出。并发限制 50 QPS，中等规模够用。这也是 OpenClaw 内置的默认搜索 provider，开箱即用，配置最简单。
+> Tavily
+> $8/千次，每月免费 1,000 次。专门为 AI 代理设计，聚合 Google、Bing 和自有来源，返回结构化摘要，直接适配 LLM 输入。生产环境支持 1000 RPM，实时性强。如果主要用途是喂给模型，这个是目前最省事的选择。
+> Serper
+> $0.30/千次起，一次性赠送 2,500 次。本质是 Google 搜索代理，返回标准化 JSON 格式，价格是所有方案里最低的。付费套餐支持 50–300 QPS，适合高并发场景。唯一缺点：数据完全依赖 Google。
+> SerpAPI
+> $7.50/千次，免费 250 次/月。支持 Google、Bing、Baidu 等多个搜索引擎，覆盖面最广，但也是定价最贵的方案之一。如果需要跨引擎数据，它是首选。
+> Exa.ai
+> $5/千次，$10 试用额度。用的是神经搜索（语义嵌入），和普通关键词搜索不一样，在理解语义、找相关内容上更准。支持直接爬取网页内容，LLM 集成友好，适合对搜索质量要求高的场景。
+> You.com
+> $6.25/千次（网页搜索），$100 免费信用。实时性是它的核心卖点，专门针对突发新闻和最新内容做了优化，有专用的 RAG API。
+> Microsoft Bing Web Search API
+> $3/千次起，每月 1,000 次免费。企业级稳定性，全球化支持，多语言多地区都有覆盖。并发 100–250 TPS，文档完善。适合对稳定性要求高、有全球用户的产品。
+> Google Custom Search JSON API
+> $5/千次，每天 100 次免费（很少）。官方 Google 搜索 API，稳定，但免费额度极少，而且只能搜特定网站，更适合站内搜索场景，不适合通用搜索。
+> Perplexity Sonar API
+> 按量付费，无免费额度。Sonar $1/$1 per 1M tokens（输入/输出），Sonar Pro $3/$15。和其他 API 不一样，它结合了大模型能力，返回的是对话式的答案而不是链接列表。适合问答型 Agent，但如果只是需要原始搜索结果，性价比不如 Serper。
+> Grok Search API（xAI）
+> $5/千次，包含 Web Search 和 X/Twitter Search 两种模式。X/Twitter 实时搜索是它唯一的差异化——其他所有 API 都没有这个。如果你的 Agent 需要追踪 X 上的实时讨论、热点话题、KOL 动态，这是唯一选项。OpenClaw 上已有现成的 grok-search Skill，自建接入成本很低。通用网页搜索方面和 Brave、Perplexity 同价，没有特别优势。
+>
+> 开源方案
+> 如果不想付费，或者对数据隐私有极高要求，可以考虑自建。
+> SearXNG
+> 聚合 70+ 搜索引擎，开源免费，隐私保护强，JSON 原生输出，可以直接接 AI Agent。部署用 Docker，难度中等。主要挑战：容易被目标搜索引擎封 IP，需要代理池维持稳定。成本是服务器 + 代理 IP，软件免费。
+> Whoogle Search
+> 只代理 Google，部署比 SearXNG 简单，无广告无追踪。但容易触发验证码，稳定性受 Google 限制。适合个人项目。
+> Meilisearch
+> 纯全文搜索引擎，搜索速度极快，但不能抓互联网数据——需要自己提供数据集。适合搜自己的知识库或私有文档，不适合通用网络搜索。
+>
+> 零成本方案（无需 API）
+> 不想注册付费，还有两条路：
+> Multi Search Engine Skill（ClawHub）
+> OpenClaw 直接从 ClawHub 安装，零配置，整合 17 个搜索引擎（8 个国内 + 9 个国际），完全免费，不需要任何 API key。代价是输出为原始爬取结果，没有专为 LLM 优化的结构化摘要，稳定性取决于各引擎的反爬策略。适合预算为零的入门场景。
+> DuckDuckGo Skill（自建）
+> 社区有人把 DuckDuckGo 封装成 OpenClaw Skill，完全免费，国内可访问，无需账号。索引质量弱于 Google/Bing，批量调用容易触发限制。适合个人轻量使用。
+> 两个无 API 方案的共同局限：质量和稳定性低于付费 API，不适合对搜索结果质量有要求的生产环境。
+> 搜索之后：全文抓取
+> 搜到链接之后，如果需要读取完整页面内容，需要一个独立的抓取工具——搜索 API 只给你摘要和链接，不给全文。
+> Firecrawl
+> 给一个 URL，返回结构化的全文内容，支持 MCP，OpenClaw 可以直接接入。适合"搜索 → 找到关键页面 → 读取完整内容"的工作流。它不是搜索 API 的替代，而是下游的补充工具。
+>
+> 番外：不用搜索 API，直接让 LLM 搜不行吗？
+> 有人会问：Gemini 有内置的 Google Search grounding，直接用不就好了？或者用 Claude 的 web search？
+> 说清楚这件事：
+> Gemini + Google Search Grounding
+> 每天前 1,500 次搜索免费，超出后 $35/千次。一次 API 调用完成搜索和推理，集成很简单，搜索质量是 Google。
+> 但 $35/千次是 Serper 的 100 倍，是 Brave 的 7 倍。如果你的 Agent 每天要做几千次搜索，这个成本根本撑不住。
+> 唯一合理的用法：Agent 搜索量很低（每天不超过 1,500 次），完全吃免费额度，一分钱不花。
+> Claude + 搜索 API
+> Claude 本身没有原生搜索能力，需要接外部搜索 API（Brave、Serper 等）或 MCP 工具。两个费用叠加：搜索 API 成本 + Claude token 成本。
+> 对 OpenClaw 用户的实际建议
+> 不要把 Gemini grounding 当 Agent 的默认搜索方案，规模化之后会很贵。正确做法是：用 Brave（默认已配置）或 Serper（更便宜）做搜索，把结果传给 LLM 推理。搜索和推理分开，各用最合适的工具。
+>
+> 一句话总结
+> 便宜 → Serper
+> AI Agent / RAG → Tavily 或 Exa.ai
+> OpenClaw 默认 / 隐私 + 独立 → Brave（开箱即用）
+> 企业级 → Bing
+> 零成本自建 → SearXNG
+> 问答型 Agent → Perplexity Sonar
+> 搜 X/Twitter 实时内容 → Grok Search API
+> 零成本入门 → Multi Search Engine Skill（无需 API，ClawHub 一键安装）
+> 搜到链接后需要读全文 → Firecrawl（搜索 API 的下游补充）
+> 对 OpenClaw 用户来说：Brave 是默认配置，直接可用。其他方案（Serper、Tavily、Exa 等）需要自建 Skill 接入，有一定配置成本，但值得根据场景评估。
+
+---
+
+### @MatthewBerman 5 BILLION tokens later, OpenClaw is now my company's operating system. I discovered...
+
+- Author: Matthew Berman [@MatthewBerman](https://x.com/MatthewBerman)
+- Tweet URL: [https://x.com/MatthewBerman/status/2026450191759585776](https://x.com/MatthewBerman/status/2026450191759585776)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-25T00:12:29.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/MatthewBerman/status/2026450191759585776/video/1](https://x.com/MatthewBerman/status/2026450191759585776/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg](https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=4518, quote_count=44, reply_count=218, retweet_count=403
+
+> 5 BILLION tokens later, OpenClaw is now my company's operating system.
+>
+> I discovered things most people never will.
+>
+> (PS I solved the Anthropic OAuth loophole.)
+>
+> Here’s exactly how it works.
+>
+> 0:00 Intro
+> 0:16 Email Management
+> 5:20 Sponsor
+> 7:02 Inbox Pipeline
+> 9:05 Multiple Prompt Versions (HUGE)
+> 12:28 MD File Breakdown
+> 14:12 Telegram Groups
+> 14:51 CRM System
+> 17:25 Meeting Intelligence
+> 18:45 Knowledge Base
+> 20:51 Content Pipeline
+> 21:53 Security (HUGE)
+> 24:49 Cron Jobs
+> 26:05 Memory
+> 27:55 Notification Batching
+> 28:59 Financial Tracking
+> 29:40 Usage & Cost Tracking
+> 31:01 Full Logging Infrastructure
+> 31:52 OAuth Loophole (HUGE)
+> 32:55 Separating Personal/Work
+> 34:29 Errors & Self-Improvement
+> 35:59 Cost Savings
+> 37:09 Backup & Recovery
+> 37:52 Health Pipeline
+> 38:30 Bee Memory
+
+---
+
+### @sanyi_eth_ 你们玩openclaw的嘴巴可真严啊！ 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了...
+
+- Author: sanyi.eth [@sanyi_eth_](https://x.com/sanyi_eth_)
+- Tweet URL: [https://x.com/sanyi_eth_/status/2025975741503135842](https://x.com/sanyi_eth_/status/2025975741503135842)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T16:47:12.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=586, quote_count=0, reply_count=54, retweet_count=51
+
+> 你们玩openclaw的嘴巴可真严啊！
+>
+> 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了
+> 结果突然发现，他妈的openclaw可以调用本地的claude客户端，一样可以间接使用claude模型...
+
+---
+
+### @Prince_Canuma One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I...
+
+- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
+- Tweet URL: [https://x.com/Prince_Canuma/status/2026051860377805300](https://x.com/Prince_Canuma/status/2026051860377805300)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T21:49:40.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/tayarndt/status/2025980816183148726](https://twitter.com/tayarndt/status/2025980816183148726)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=245, quote_count=0, reply_count=6, retweet_count=18
+
+> One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I promised him I’ll help him resume his favourite hobby of reading books using AI.
+>
+> With the new MLX-Audio-Swift he can read the news on his iPhone :)
+>
+> Hope it empowers you too @tayarndt!
+
+---
+
+### @Prince_Canuma Shoutout to my wife for directing and editing the video ❤️
+
+- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
+- Tweet URL: [https://x.com/Prince_Canuma/status/2026074121671500238](https://x.com/Prince_Canuma/status/2026074121671500238)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T23:18:07.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=22, quote_count=0, reply_count=1, retweet_count=0
+
+> Shoutout to my wife for directing and editing the video ❤️
+
+---
+
+### @Prince_Canuma Day 1 of 3 days of MLX: Introducing MLX-Audio-Swift SDK 🚀 A modular Swift SDK for voice...
+
+- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
+- Tweet URL: [https://x.com/Prince_Canuma/status/2026022469010599954](https://x.com/Prince_Canuma/status/2026022469010599954)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T19:52:52.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/Prince_Canuma/status/2026022469010599954/video/1](https://x.com/Prince_Canuma/status/2026022469010599954/video/1)
+  - [github.com/Blaizzy/mlx-audio-swift](https://github.com/Blaizzy/mlx-audio-swift)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg)
+- Linked content:
+  - [GitHub - Blaizzy/mlx-audio-swift: A modular Swift SDK for audio processing with MLX on Apple Silicon · GitHub](https://github.com/Blaizzy/mlx-audio-swift)
+    Images: https://opengraph.githubassets.com/9d9bb6f839a6f2fcc6c8b751f26b3d26e5dc39923161d94e93a11a75c338019d/Blaizzy/mlx-audio-swift, https://camo.githubusercontent.com/8270aec30260f646ed483f2be19005f812ad015a2b6bb7b3af7e3bb4def46d3d/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3230363834, https://camo.githubusercontent.com/e8a1837a6d775942aed621ce58c12b4f5bdbbcbc2c86de05629b7533effa9129/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d6d61634f532532303134253242253230253743253230694f5325323031372532422d6c6967687467726579, https://camo.githubusercontent.com/8c972106af96ab0d4f2778157576ab9728bc8b0735969ac8963a503781b0e62b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d352e392532422d6f72616e6765
+  - [pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg](https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=450, quote_count=9, reply_count=35, retweet_count=42
+
+> Day 1 of 3 days of MLX:
+>
+> Introducing MLX-Audio-Swift SDK 🚀
+>
+> A modular Swift SDK for voice agents and tasks on Apple Silicon built by @lllucas and yours truly.
+>
+> iOS, macOS, and visionOS developers can now build native apps with real-time, on-device audio intelligence:
+>
+> 🗣️ Text-to-Speech (TTS)
+> 👂 Speech-to-Text (STT)
+> 🔄 Speech-to-Speech (STS)
+> 🎙️ Voice Activity Detection (VAD) and more.
+>
+> Only import the capabilities you need, nothing extra.
+>
+> Get started today and leave us a star ⭐️
+>
+> https://github.com/Blaizzy/mlx-audio-swift
+
+---
+
+### @ramin_m_h MLX king shipped a strong and important SDK: MLX-Audio-Swift. You must check it out!
+
+- Author: Ramin [@ramin_m_h](https://x.com/ramin_m_h)
+- Tweet URL: [https://x.com/ramin_m_h/status/2026058929348731101](https://x.com/ramin_m_h/status/2026058929348731101)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T22:17:45.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=24, quote_count=0, reply_count=1, retweet_count=1
+
+> MLX king shipped a strong and important SDK: MLX-Audio-Swift.
+>
+> You must check it out!
+
+---
+
+### @iamdavidhill my favourite ai companies right now: - DeepSeek - Moonshot AI - MiniMax
+
+- Author: David Hill [@iamdavidhill](https://x.com/iamdavidhill)
+- Tweet URL: [https://x.com/iamdavidhill/status/2026044556618145834](https://x.com/iamdavidhill/status/2026044556618145834)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T21:20:39.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=6916, quote_count=55, reply_count=210, retweet_count=341
+
+> my favourite ai companies right now:
+>
+> - DeepSeek
+> - Moonshot AI
+> - MiniMax
+
+---
+
+### @Prince_Canuma You can now vibecode your own Wispr alternative that runs locally on Apple silicon 👀
+
+- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
+- Tweet URL: [https://x.com/Prince_Canuma/status/2026027686989086937](https://x.com/Prince_Canuma/status/2026027686989086937)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-23T20:13:37.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=26, quote_count=0, reply_count=1, retweet_count=2
+
+> You can now vibecode your own  Wispr alternative that runs locally on Apple silicon 👀
+
+---
+
+### @johann_sath saas is dead openclaw replaced all my subscriptions went from $480/month on tools to...
+
+- Author: Johann Sathianathen [@johann_sath](https://x.com/johann_sath)
+- Tweet URL: [https://x.com/johann_sath/status/2024846068245017031](https://x.com/johann_sath/status/2024846068245017031)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-20T13:58:17.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=10635, quote_count=0, reply_count=258, retweet_count=532
+
+> saas is dead
+>
+> openclaw replaced all my subscriptions
+>
+> went from $480/month on tools
+> to $1,245/month on API costs &amp; 15 hours a week fixing yaml files
+>
+> adapt or be left behind
+
+---
+
+### @HuggingModels 
+
+- Author: Hugging Models [@HuggingModels](https://x.com/HuggingModels)
+- Tweet URL: [https://x.com/HuggingModels/status/2024544978912104552](https://x.com/HuggingModels/status/2024544978912104552)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-19T18:01:51.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF](https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF)
+- Linked content:
+  - [TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF · Hugging Face TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF · Hugging Face](https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF)
+    Images: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF.png, https://huggingface.co/front/assets/huggingface_logo-noborder.svg, https://cdn-avatars.huggingface.co/v1/production/uploads/6837935ac3b7ffe0d2559ce9/-AxyvV4wfUY8uo87kNKkK.png
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=98, quote_count=0, reply_count=3, retweet_count=4
+
+> https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+
+---
+
+### @dingyi 绝了，刚刚阿里在除夕夜发布了新模型 Qwen-3.5-plus ，赶紧试了一下，一句话就生成了这样一个 3D 展车厅 🤯 据说这次 Qwen-3.5-plus...
+
+- Author: Ding [@dingyi](https://x.com/dingyi)
+- Tweet URL: [https://x.com/dingyi/status/2023355456899756224](https://x.com/dingyi/status/2023355456899756224)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-16T11:15:07.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/dingyi/status/2023355456899756224/video/1](https://x.com/dingyi/status/2023355456899756224/video/1)
+  - [www.qianwen.com](https://www.qianwen.com/)
+  - [modelscope.cn/models/Qwen/Qwen3.5-397B-A17B](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B)
+  - [huggingface.co/Qwen/Qwen3.5-397B-A17B](https://huggingface.co/Qwen/Qwen3.5-397B-A17B)
+  - [www.aliyun.com/product/bailian](https://www.aliyun.com/product/bailian)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg)
+- Linked content:
+  - [千问-阿里 AI 助手 千问-阿里 AI 助手](https://www.qianwen.com/)
+    Images: https://img.alicdn.com/imgextra/i4/O1CN01uar8u91DHWktnF2fl_!!6000000000191-2-tps-110-110.png
+  - [千问3.5-397B-A17B](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B)
+    Images: https://resouces.modelscope.cn/avatar/40c50d63-9e30-4589-9b79-0e46800b5cc3.png
+  - [Qwen/Qwen3.5-397B-A17B · Hugging Face Qwen/Qwen3.5-397B-A17B · Hugging Face](https://huggingface.co/Qwen/Qwen3.5-397B-A17B)
+    Images: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen3.5-397B-A17B.png, https://huggingface.co/front/assets/huggingface_logo-noborder.svg, https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/-s1gyJfvbE1RgO5iBeNOi.png, https://qianwen-res.oss-accelerate.aliyuncs.com/logo_qwen3.5.png
+  - [大模型服务平台百炼 - 大模型应用构建 - 阿里云](https://cn.aliyun.com/product/bailian?from_alibabacloud=)
+    Images: https://img.alicdn.com/imgextra/i1/O1CN012QgtoH1c1Mu70xD3w_!!6000000003540-2-tps-640-640.png, https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng, https://img.alicdn.com/imgextra/i3/O1CN01T4RNL61XA0bSOAkj0_!!6000000002882-2-videocover-3840-902.png, https://img.alicdn.com/imgextra/i1/O1CN015Fv1u41EoKfm15eEJ_!!6000000000398-2-tps-64-64.png
+    Text: 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 "" 全部搜索结果 AI 助理 文档 备案 控制台 大模型服务平台百炼 大模型服务平台百炼 析言GBI 全妙 开发者活动 文档 大模型服务平台百炼 控制台 阿里云百炼 体验中心 阿里云百炼CLI 精选模板 产品简介 产品优势 AI选型与定价 丰富的落地场景 客户案例 免费体验 开发者社区 HappyHorse-1.0 后付费限时8折优惠！国内外同享。支持自然语言指令，高度还原动态画面。立即体验...
+  - [pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg](https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=497, like_count=619, quote_count=6, reply_count=35, retweet_count=104
+
+> 绝了，刚刚阿里在除夕夜发布了新模型 Qwen-3.5-plus ，赶紧试了一下，一句话就生成了这样一个 3D 展车厅 🤯
+>
+> 据说这次 Qwen-3.5-plus 实现了从纯文本模型到原生多模态模型的代际跃迁，每百万 Token 仅 0.8 元人民币，是 Gemini 3 Pro 的 1/18！
+>
+> 并且支持 201 种语言，可最高提升小语种 60% 的编码效率，在推理、编程、Agent 等核心评测中表现强劲，部署成本较上一代显著下降，推理效率大幅提升。作为一个 Apache 2.0 全开源并且能下载到本地的模型，性价比真的太高了。
+>
+> - 普通用户可在千问 App/PC 体验：https://www.qianwen.com/
+> - 开发者可在魔搭：https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B
+> - 或 HuggingFace 下载部署：https://huggingface.co/Qwen/Qwen3.5-397B-A17B
+> - 阿里云百炼直接获取 API 服务：https://www.aliyun.com/product/bailian
+
+---
+
+### @canghe 
+
+- Author: 苍何 [@canghe](https://x.com/canghe)
+- Tweet URL: [https://x.com/canghe/status/2022356917948166506](https://x.com/canghe/status/2022356917948166506)
+- X article: [爆肝 2 天，开发 OpenClaw 接入微信 bot，已开源！](https://x.com/canghe/article/2022356917948166506)
+- X article text: 大家好，我是苍何。 OpenClaw，这个 GitHub 上 18 万 Star 的怪物级开源项目，你们应该都听过了吧？ 飞书能接、钉钉能接、企业微信能接、QQ 能接、Discord 能接…… 但偏偏最多人用的微信个人号，它不支持。 我翻遍了 GitHub、掘金、知乎，找到的方案要么是企业微信绕一圈，要么是用微信 Web 协议搞，动不动就封号。 说实话，这谁顶得住？ 天天在微信上跟朋友聊天、在群里吹水，结果想接个 OpenClaw 都这么费劲？ 麻了。 于是我决定自己干。 爆肝 2 天，我把 OpenClaw 接入了微信个人号，并且已经开源了。...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-13T17:07:17.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2022352504315654144](https://x.com/i/article/2022352504315654144)
+  - [github.com/freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat)
+  - [github.com/canghe/openclaw-wechat.git](https://github.com/canghe/openclaw-wechat.git)
+  - [your-proxy-server:3000](http://your-proxy-server:3000)
+  - [x.com/i/article/2022352504315654144](http://x.com/i/article/2022352504315654144)
+- Linked content:
+  - [x.com/i/article/2022352504315654144](https://x.com/i/article/2022352504315654144)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2022352504315654144/i/keyboard%5Fshortcuts)...
+  - [GitHub - freestylefly/openclaw-wechat: 让 OpenClaw稳定的连上你的个人微信 · GitHub](https://github.com/freestylefly/openclaw-wechat)
+    Images: https://opengraph.githubassets.com/eebd49f96499285975a11dea31af3526308ac1fa40294ebf2a06030705914cf3/freestylefly/openclaw-wechat, https://github.com/freestylefly/openclaw-wechat/raw/master/images/%E7%BE%A4%E8%81%8A%E4%BA%A4%E6%B5%81.bmp, https://camo.githubusercontent.com/dc601e30f1ff4ca7ae72ca6744c776aee8dd9e972698635d68e9be60d8cc402a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d667265657374796c65666c792f6f70656e636c61772d77656368617426747970653d44617465
+  - [github.com/canghe/openclaw-wechat.git](https://github.com/canghe/openclaw-wechat.git)
+  - [your-proxy-server:3000](http://your-proxy-server:3000)
+  - [x.com/i/article/2022352504315654144](http://x.com/i/article/2022352504315654144)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2022352504315654144/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=986, quote_count=0, reply_count=87, retweet_count=206
+
+> http://x.com/i/article/2022352504315654144
+
+#### X Article
+
+> 大家好，我是苍何。
+> OpenClaw，这个 GitHub 上 18 万 Star 的怪物级开源项目，你们应该都听过了吧？
+> 飞书能接、钉钉能接、企业微信能接、QQ 能接、Discord 能接……
+> 但偏偏最多人用的微信个人号，它不支持。
+> 我翻遍了 GitHub、掘金、知乎，找到的方案要么是企业微信绕一圈，要么是用微信 Web 协议搞，动不动就封号。
+> 说实话，这谁顶得住？
+> 天天在微信上跟朋友聊天、在群里吹水，结果想接个 OpenClaw 都这么费劲？
+> 麻了。
+> 于是我决定自己干。
+> 爆肝 2 天，我把 OpenClaw 接入了微信个人号，并且已经开源了。
+>
+> 地址：https://github.com/freestylefly/openclaw-wechat
+> 不过受限于各种因素，目前项目处于内测阶段，需要 apikey 才可以使用。
+> 我给他命名为苍何的狗腿子，和普通好友没什么区别，但他却是个能真正帮你干事的好友。
+> 当你随便把一篇文章丢给他，OpenClaw 会帮你做总结。
+>
+> 并帮你存放于你的个人 Notion 知识库中。
+>
+> 我现在看到好文章直接转发给它，然后可以直接让他去知识库中帮我查找任何我想要的收藏。
+>
+> 说实话比收藏夹好用一万倍。
+> 我把这家伙拉进群聊，还能随时@总结上下文，群聊利器啊。
+>
+> 然后我可以指挥 OpenClaw 自动搜集全网资讯，并直接汇总发我。
+>
+> 还可以进行日程提醒，比如让它提醒我 2 分钟后喝水。
+>
+> 我甚至还在我的 OpenClaw 中装了 18 岁的 AI 女友 Clawra，她有独立人格和人设，当我问她在干嘛时，她会甩一张自拍给我
+>
+> 当然还有更多的场景待探索，但我发现，在微信上用 OpenClaw 显得非常的丝滑，因为我每天真的离不开微信。
+> 这篇文章主要分享我开发的历程，代码也上传到了 GitHub，但由于时间有限以及防止技术被滥用，我做了一层代理处理，需要审核才可使用。
+> 1. 建议先用小号测试，虽然 iPad 协议比 Web 协议稳定得多，但毕竟是第三方接入，谨慎为上
+> > 2. 不要用来搞群发、营销之类的骚操作，腾讯的风控不是吃素的
+> > 3. 建议部署在有固定 IP 的服务器上，频繁换 IP 容易触发风控
+>
+> 先说说 OpenClaw 是啥
+> 如果你还不知道 OpenClaw，简单说一下。
+> 它原名叫 Clawdbot，是一个奥地利开发者 Peter Steinberger 搞出来的开源 AI Agent 项目。
+>
+> 后来因为跟 Anthropic 的商标冲突，改名 Moltbot，又改名 OpenClaw。
+> 名字换了三个，但丝毫不影响它火到离谱。
+> 3 周时间，GitHub Star 从 0 干到 18 万+。
+> 这什么概念？React 花了 8 年才到 10 万，Linux 花了 12 年，它 3 周就超了。
+> 好家伙，这不是坐火箭，这是坐 SpaceX 星舰。
+> 它的核心能力就一句话：让 AI 不只是回答你问题，而是真正替你干活。
+> 你跟它说「帮我查一下明天的天气，然后发到群里」，它就真的会去查、然后发。
+> 不是那种假装理解你然后输出一坨文字的「AI 助手」，是真的有手有脚能操作的 Agent。
+> 它支持接入各种大模型，Claude、GPT、DeepSeek 都行，还支持多 Agent 协作，搞一个虚拟开发团队都不在话下。
+> 我之前也写过几篇关于OpenClaw 的文章，不了解的也可以先看看：
+>
+> 为啥微信这么难接？
+> 讲真的，这事不能怪 OpenClaw。
+> 微信是出了名的「封闭生态」，个人号压根没有官方 Bot API。
+> 你想搞自动化，要么走企业微信（需要公司认证），要么用第三方协议逆向（随时封号）。
+> 之前社区有一些方案，比如用 wechatbot-webhook 基于微信 Web 协议来搞，Docker 一键部署倒是方便。
+> 但问题是：
+> 稳定性堪忧，微信 Web 协议说封就封
+> 功能受限，很多高级功能用不了
+> 安全风险，你的微信账号等于裸奔
+> 我试了几个，要么跑不起来，要么跑起来半天就掉线。
+> 说白了，这些方案都是在微信的安全策略上「走钢丝」。
+> 我是怎么搞的
+> 既然现有方案都不太行，那就自己撸一个。
+> 我的思路是这样的：
+> 不走微信 Web 协议，走 iPad 协议 + 消息中转服务。
+> 核心架构分三层：
+> 消息接收层：基于 iPad 协议稳定接收微信消息，比 Web 协议靠谱得多
+> 中转网关层：做消息格式转换、会话管理、限流熔断
+> OpenClaw 对接层：通过 Webhook 把消息推给 OpenClaw Gateway，再把 AI 回复转发回微信
+> 整个架构用 TypeScript 写的，跟 OpenClaw 原生技术栈一致。
+> 说起来简单，但这毕竟是个系统工程，协议对接、消息队列、网关路由、多模型调度，涉及的模块还挺多的。
+>
+> 踩坑实录
+> 坑一：消息去重
+> 微信的消息推送机制很迷，同一条消息有时候会推两三次。
+> 如果不做去重，AI 就会回复两三遍，对面以为你是复读机。
+> 我的解决方案是让 GLM 搞了一个基于消息 ID + 时间窗口的去重缓存，用 LRU 策略自动淘汰过期记录。
+> 坑二：上下文管理
+> OpenClaw 的 Agent 是有记忆的，但微信的对话场景比较特殊。
+> 群聊里一堆人说话，你不能把所有消息都当作是给 AI 的指令。
+> 所以我做了一个「@触发 + 私聊直连」的机制：
+> 私聊：所有消息直接转给 OpenClaw 处理
+> 群聊：只有 @机器人 的消息才会触发 AI 回复
+> 这样就不会出现 AI 在群里疯狂刷屏的社死场面了。
+> 坑三：回复速度
+> 大模型的回复是有延迟的，特别是复杂问题可能要想好几秒。
+> 但微信那边，对面看你一直不回，以为你已读不回呢。
+> 我加了一个「思考中...」的状态提示，AI 在生成回复的时候先发一个提示，生成完了再替换成正式回复。
+> 用户体验直接拉满。
+> 坑四：多模型切换
+> OpenClaw 支持多个大模型，但不同场景其实适合不同模型。
+> 比如日常闲聊用 DeepSeek 就够了，写代码分析问题上 Claude，省钱又高效。
+> 我在中转层做了一个简单的路由策略，根据消息内容自动选择最合适的模型。
+> 能干啥？
+> 接入之后，你的微信就变成了一个 AI 超级助手。
+> 举几个我自己在用的场景：
+> 1. 智能群聊助手
+> 在技术群里 @机器人，直接问代码问题，它会结合上下文给出解答。
+> 再也不用忍受群里那些「百度一下」的回复了。
+> 2. 个人知识管家
+> 把文章、链接丢给它，它帮你总结归纳，还能存到你的知识库里。
+> 我现在看到好文章直接转发给它，比收藏夹好用一万倍。
+> 3. 日程提醒
+> 跟它说「明天下午 3 点提醒我开会」，到点它就会在微信上戳你。
+> 比手机自带的提醒好用，因为你一定会看微信。
+> 4. 自动回复
+> 设置好规则，一些常见问题它自动回复。
+> 比如有人加你好友问「在吗」，它直接回「在的，有什么事吗？」
+> 再也不用被「在吗」两个字烦死了。
+> 怎么用？
+> 项目已经开源，可以自己部署。
+> 核心就三步：
+> 第一步：克隆项目
+> git clone https://github.com/canghe/openclaw-wechat.git
+> cd openclaw-wechat
+> 第二步：配置环境变量
+> 出于安全考虑，这里的 apikey 是我代理服务做了一层，目前还在优化中。
+> openclaw config set channels.wechat.apiKey "wclivexxxxxxxxxxxxxxxx"
+> openclaw config set channels.wechat.proxyUrl "http://your-proxy-server:3000"
+> openclaw config set channels.wechat.webhookHost "your-server-ip"
+> openclaw config set channels.wechat.enabled true
+> 第三步：openclaw 服务中添加 openclaw-wechat
+> openclaw plugins install @canghe/openclaw-wechat
+> 这里需要等下，还没来的及上到插件市场去，后面会上，可以先本地代码的方式安装。
+> 然后用微信扫码登录，完事。
+> 整个过程 5 分钟搞定，不需要公司认证，不需要企业微信，普通个人号直接用。
+> 后续计划
+> 目前这个项目还在持续迭代，后面计划加这些功能：
+> 语音消息支持：目前只支持文字，后续会接入语音转文字 + 文字转语音
+> 图片理解：接入多模态模型，让 AI 能看懂你发的图片
+> OpenClaw Skills 市场对接：直接在微信里调用 OpenClaw 的 700+ 技能
+> 多账号管理面板：Web 端可视化管理多个微信号的接入
+> 如果你有好的想法，欢迎来 GitHub 上提 Issue 或者 PR。
+> 写在最后
+> 说实话，OpenClaw 这波开源 AI Agent 的浪潮，真的让我看到了 AI 落地的另一种可能。
+> 以前我们说 AI，总觉得是那种高高在上的东西，要么在实验室里，要么在大公司的服务器上。
+> 但现在，你自己部署一个 OpenClaw，接上微信，AI 就真的成了你口袋里的助手。
+> 这种感觉，说不出的爽。
+> 不过也要提醒一下，OpenClaw 的 Skills 生态最近爆出了一些安全问题，有超过 230 个恶意插件被上传到了社区。
+> 所以大家在用 OpenClaw 的时候，一定要注意只安装可信来源的 Skills，别什么都往上装。
+> 好了，项目地址：https://github.com/freestylefly/openclaw-wechat ，感兴趣的直接去 GitHub 上 Star 一下。
+> 如果你也在用 OpenCl...
+
+---
+
+### @ronaldmannak While I prefer the Codex app over the Claude Code’s CLI, Claude can find subtle SwiftUI...
+
+- Author: Ronald Mannak [@ronaldmannak](https://x.com/ronaldmannak)
+- Tweet URL: [https://x.com/ronaldmannak/status/2020946239366529198](https://x.com/ronaldmannak/status/2020946239366529198)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-09T19:41:45.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [thecommander.app](https://thecommander.app/)
+  - [CommanderAI.app](http://CommanderAI.app)
+- Linked content:
+  - [Commander - The Command Center for Coding Agents](https://thecommander.app/)
+    Images: https://thecommander.app/og-image.png?v=11, https://thecommander.app/trademark.png, https://thecommander.app/hero1.webp, https://thecommander.app/hero2.webp
+  - [Commander - The Command Center for Coding Agents](https://thecommander.app/)
+    Images: https://thecommander.app/og-image.png?v=11, https://thecommander.app/trademark.png, https://thecommander.app/hero1.webp, https://thecommander.app/hero2.webp
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=146, quote_count=0, reply_count=14, retweet_count=10
+
+> While I prefer the Codex app over the Claude Code’s CLI, Claude can find subtle SwiftUI errors Codex can’t (even with the same skills installed).
+> Anthropic should just acquire http://CommanderAI.app and throw some extra resources at it to catch up on Codex
+
+---
+
+### @pradeep24 
+
+- Author: pradeep [@pradeep24](https://x.com/pradeep24)
+- Tweet URL: [https://x.com/pradeep24/status/2021319785947316490](https://x.com/pradeep24/status/2021319785947316490)
+- X article: [camofox-browser - A openclaw browser that doesn't get blocked](https://x.com/pradeep24/article/2021319785947316490)
+- X article text: camofox-browser is an OpenClaw plugin that lets your agents browse sites that normally block automation — X, Product Hunt, Amazon, and more. It was extracted from Jo, where it powers our server-side web browsing. It’s a headless browser server built on Camoufox, a Firefox fork that spoofs browser...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-10T20:26:05.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2021313314584920064](https://x.com/i/article/2021313314584920064)
+  - [github.com/jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser)
+  - [localhost:9377/health](http://localhost:9377/health)
+  - [x.com/i/article/2021313314584920064](http://x.com/i/article/2021313314584920064)
+- Linked content:
+  - [x.com/i/article/2021313314584920064](https://x.com/i/article/2021313314584920064)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2021313314584920064/i/keyboard%5Fshortcuts)...
+  - [GitHub - jo-inc/camofox-browser: Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement. · GitHub](https://github.com/jo-inc/camofox-browser)
+    Images: https://opengraph.githubassets.com/01f8dbf3fc6f1ca2e58e16b1bf827b7baa3e812ed9d1be69ab4538e260f0f11b/jo-inc/camofox-browser, https://github.com/jo-inc/camofox-browser/raw/master/fox.png, https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667, https://camo.githubusercontent.com/c0ddfc248d98695b7a10ea4af23047c4a094df91984d9eb0de2f10b4e1f1602a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6a6f2d696e632f63616d6f666f782d62726f77736572
+  - [localhost:9377/health](http://localhost:9377/health)
+  - [x.com/i/article/2021313314584920064](http://x.com/i/article/2021313314584920064)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2021313314584920064/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=1545, quote_count=33, reply_count=63, retweet_count=160
+
+> http://x.com/i/article/2021313314584920064
+
+#### X Article
+
+> camofox-browser is an OpenClaw plugin that lets your agents browse sites that normally block automation — X, Product Hunt, Amazon, and more. It was extracted from Jo, where it powers our server-side web browsing.
+> It’s a headless browser server built on Camoufox, a Firefox fork that spoofs browser fingerprints at the C++ level rather than in JavaScript. This gives it a higher probability of passing detection systems than standard headless browsers.
+> If your OpenClaw is on a Mac Mini, the built-in browser tool drives a real browser window that sites treat normally. On a VPS or remote server, you’re stuck with headless Chrome or raw HTTP requests  —  both commonly blocked. Camofox solves that for remote servers, and is also faster than desktop browsing for agent workflows.
+> This post covers why that matters and how it works.
+> OPENCLAW PLUGIN
+>
+> Exposes tools: camofox_create_tab, camofox_snapshot, camofox_click, camofox_type, camofox_navigate, camofox_scroll, camofox_screenshot.
+> THE PROBLEM WITH JAVASCRIPT-LEVEL EVASION
+> Playwright and Puppeteer work fine on cooperative sites. Point them at Google, Amazon, or anything behind Cloudflare, and the requests aren’t rate-limited — they’re rejected outright.
+> Detection systems fingerprint browsers across hundreds of dimensions: WebGL renderer strings, AudioContext sample rates, navigator.hardwareConcurrency, screen geometry, WebRTC IP leaks, battery API quirks, speech synthesis voices.
+> The standard fix is stealth plugins: patch navigator.webdriver, override a few properties. This works until the patch itself becomes a fingerprint signal  —  and against a serious detection stack, it will.
+> The fundamental problem: any property you override in JavaScript can be inspected in JavaScript. Property descriptors, prototype chains, and function toString() all leak the override.
+> WHY C++ IS THE RIGHT LAYER
+> When JavaScript calls navigator.hardwareConcurrency, it’s backed by a C++ implementation in Firefox. Override it in JS, and pages can detect the discrepancy — property descriptors look wrong, prototypes don’t match, functions aren’t native. Change the C++ return path, and JavaScript sees the spoofed value as if it’s real.
+> From the Camoufox README:
+> In Camoufox, data is intercepted at the C++ implementation level, making the changes undetectable through JavaScript inspection.
+> camofox-browser wraps this engine in a REST API designed for programmatic use.
+> WHAT GETS INTERCEPTED
+> The patches follow a simple pattern: check config, return spoofed value if set, otherwise fall through to normal implementation. From fingerprint-injection.patch:
+>
+> This pattern covers window geometry, navigator fields, screen details, WebGL parameters (GPU fingerprints via webgl-spoofing.patch), WebRTC IP masking (webrtc-ip-spoofing.patch), audio fingerprints, geolocation with auto-approval, battery API, and speech synthesis voices.
+> Camoufox also includes Bézier curve-based mouse trajectories in MouseTrajectories.hpp — because detection systems increasingly grade howyou interact, not just what you send.
+> All of this is intercepted in C++ before JavaScript ever sees it.
+> WHY WE WRAPPED IT AS A SERVER
+> A Google results page is ~500KB of HTML. The accessibility tree for the same page is ~5KB. When the consumer is an LLM with a context window, that’s a 100x reduction that matters.
+> So camofox-browser provides:
+> Accessibility snapshots instead of HTML
+> Element refs (e1, e2, e3) instead of brittle selectors
+> Macros for common sites (@google_search, @youtube_search, @amazon_search)
+>
+> PROXIES STILL MATTER
+> This remains the gnarliest piece of the puzzle. Most anti-bot systems check whether your IP is residential or datacenter, and datacenter ranges are well-catalogued. You can work around this with ISP or residential proxies, but it’s janky infrastructure work. Camofox isn’t always successful here, but your odds are better than raw Playwright.
+> We got around this in Jo by building a local Safari-powered stack through the macOS app  —  your real browser,...
+
+---
+
+### @Aurelien_Gz interface animation done well.. this is how you create a snappy, high end interface....
+
+- Author: Aurelien [@Aurelien_Gz](https://x.com/Aurelien_Gz)
+- Tweet URL: [https://x.com/Aurelien_Gz/status/2020260029782454276](https://x.com/Aurelien_Gz/status/2020260029782454276)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-07T22:15:00.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/tbsrnstrm/status/1957101102056305075/video/1](https://x.com/tbsrnstrm/status/1957101102056305075/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg](https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=1274, like_count=1400, quote_count=3, reply_count=22, retweet_count=84
+
+> interface animation done well..
+>
+> this is how you create a snappy, high end interface. blazing fast, fluid, and makes the whole ui feel so responsive
+>
+>  wizard » @tbsrnstrm https://t.co/fEUhppbT6c
+
+---
+
+### @figma Imagine turning any image into a vector (now you actually can) → Convert raster images...
+
+- Author: Figma [@figma](https://x.com/figma)
+- Tweet URL: [https://x.com/figma/status/2019096024590287076](https://x.com/figma/status/2019096024590287076)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-04T17:09:39.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/figma/status/2019096024590287076/video/1](https://x.com/figma/status/2019096024590287076/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg](https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=11827, like_count=23608, quote_count=2504, reply_count=487, retweet_count=2107
+
+> Imagine turning any image into a vector (now you actually can)
+>
+> → Convert raster images into editable vectors
+> → Simplify and control color output https://t.co/aCBK7Na9o8
+
+---
+
+### @ctatedev iOS support just landed in agent-browser, the browser automation CLI for agents 𝚊𝚐𝚎𝚗𝚝-...
+
+- Author: Chris Tate [@ctatedev](https://x.com/ctatedev)
+- Tweet URL: [https://x.com/ctatedev/status/2018594137621074276](https://x.com/ctatedev/status/2018594137621074276)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-03T07:55:20.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/ctatedev/status/2018594137621074276/video/1](https://x.com/ctatedev/status/2018594137621074276/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg](https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=1407, quote_count=13, reply_count=41, retweet_count=81
+
+> iOS support just landed in agent-browser, the browser automation CLI for agents
+>
+> 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 -𝚙 𝚒𝚘𝚜 𝚘𝚙𝚎𝚗 &lt;𝚞𝚛𝚕&gt;
+>
+> Available starting in v0.9 https://t.co/pn4ac8R8M5
+
+---
+
+### @huangjinbo Kimi 2.5 Code...
+
+- Author: 佐仔 [@huangjinbo](https://x.com/huangjinbo)
+- Tweet URL: [https://x.com/huangjinbo/status/2018659007121195362](https://x.com/huangjinbo/status/2018659007121195362)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-03T12:13:06.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.kimi.com](https://www.kimi.com/)
+  - [Kimi.com](http://Kimi.com)
+- Linked content:
+  - [Kimi AI with K2.6 | Better Coding, Smarter Agents](https://www.kimi.com/)
+  - [Kimi AI with K2.6 | Better Coding, Smarter Agents](https://www.kimi.com/)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=10, quote_count=0, reply_count=0, retweet_count=0
+
+> Kimi 2.5 Code 用来编程还是没问题的，最起码便宜，不用心惊胆战地看那些扣费邮件，并且质量整体来说不错。今天跑出了一个工作流，还挺满意的。这段时间就用它来做主力了，建议订阅开放平台的，因为 http://Kimi.com  订阅的 Kimi 2.50Code 可用量不多。
+
+---
+
+### @nanshanjukr 
+
+- Author: Marvix [@nanshanjukr](https://x.com/nanshanjukr)
+- Tweet URL: [https://x.com/nanshanjukr/status/2017832450387316813](https://x.com/nanshanjukr/status/2017832450387316813)
+- X article: [爱情随笔](https://x.com/nanshanjukr/article/2017832450387316813)
+- X article text: 2021 年，我写下一篇《对爱情的疑惑》，记录了对爱情的阶段性思考。感谢自己记录了它们。原来，对于爱情的信念，我至今都未曾改变。其中一些语句，如今仍然受用，在文章的末尾，我问自己「至于我什么时候拥有爱情？我也不清楚」 现在，我终于可以告诉 20 岁的自己：「你会在 4 年后，收获真挚的爱情，和一位可以相伴一生的佳人。」 我和女友小冰在一起一个月了。在这篇随笔中，我记录下自己对爱情的思考。虽然无法包含世间所有对爱情的答案，也可能些许稚嫩，但也许能回答一些困惑你很久的问题。 人一生会遇到约 2920 万人，而两人相爱的概率为 0.000049（万分之四点九），相遇的概率约为...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-01T05:28:40.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2017831621437673472](https://x.com/i/article/2017831621437673472)
+  - [x.com/i/article/2017831621437673472](http://x.com/i/article/2017831621437673472)
+- Linked content:
+  - [x.com/i/article/2017831621437673472](https://x.com/i/article/2017831621437673472)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2017831621437673472/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2017831621437673472](http://x.com/i/article/2017831621437673472)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2017831621437673472/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=16, quote_count=0, reply_count=0, retweet_count=3
+
+> http://x.com/i/article/2017831621437673472
+
+#### X Article
+
+> 2021 年，我写下一篇《对爱情的疑惑》，记录了对爱情的阶段性思考。感谢自己记录了它们。原来，对于爱情的信念，我至今都未曾改变。其中一些语句，如今仍然受用，在文章的末尾，我问自己「至于我什么时候拥有爱情？我也不清楚」
+> 现在，我终于可以告诉 20 岁的自己：「你会在 4 年后，收获真挚的爱情，和一位可以相伴一生的佳人。」
+> 我和女友小冰在一起一个月了。在这篇随笔中，我记录下自己对爱情的思考。虽然无法包含世间所有对爱情的答案，也可能些许稚嫩，但也许能回答一些困惑你很久的问题。
+> 人一生会遇到约 2920 万人，而两人相爱的概率为 0.000049（万分之四点九），相遇的概率约为 0.00487%（千万分之一）。
+> 爱情来的太快了，你一定要牢牢抓住，好好珍惜。
+> 爱情是一种体验，一种独一无二的体验，发生在两个人之间的、内在价值的体验。爱情是两个独立灵魂、个体的共同协调，孕育「我们」的过程的体验，共享深度内在体验的活动，而不是资本、利益取舍后的结果。
+> 在爱情中，我中有你，你中有我，在你-我边界的渗透产生的一种交融——世界、灵魂、价值、信念、家庭、文化的交融。马尔西里奥 · 费奇诺（Marsilio Ficino，1433-1499）是意大利文艺复兴时期的哲学家、翻译家和天主教神父。他说：
+> 我爱你，而你也爱我，我在你中找到我，而你也想念我。我将自己舍弃，进入你，而你接受我，于是我找回了自己。（引用自韩炳哲）
+> 在这样两个独立个体的交换和孕育中，形成了「我们」，作为生命共同体的形式存在。如此，才能有孩子，作为「我们」的「爱的结晶」降生在充满幸福和爱的土壤里，而不是被作为物，被生产于工具理性而生活在灾难和痛苦之中。孩子是爱的延续。
+> 对灵魂的相知来说，最重要的是两颗灵魂本身的丰富以及由此产生的互相吸引，而决非彼此的熟稔乃至明察秋毫。
+> 爱情里存在着一种天真，就是说，不知道什么原因，两个人就是相互吸引，产生了一种深度的交融（merge），灵魂的碰撞（oscillation）和刻骨铭心的相遇（encounter）。
+> 爱情的体验是超验的。这种体验是不可名状、不可言说的体验。在另外一个人眼里，你可以是全世界最好的；是「没有你，我活不下去」；也是「我想象不到和你分开」。刘擎，华东师范大学政治学系政治哲学与思想史专业教授，称爱情为「alief」以描述它的非理性的、不合逻辑的本质。也就是说，在理性上，爱情是说不通的，但爱情带给我们的感受就是非常奇妙的。在对方的世界里，你（竟然）可以是这个世界最好的。「爱情是凡人的礼物」，刘擎在访谈中接着说，「我们会称呼对方为宝贝，他/她是任何事物无法比拟的，独一无二的，不可取代的」非常珍惜、珍视的爱的对象。
+> 诚然，我们需要将爱情和那种没有理性的迷恋区分，防止和提醒这种迷恋，但不应该将那些情不自禁投身于爱情的人们，降格为「恋爱脑」。我们也不能因此变成某种计算得失的精算师，那就不是爱情，而是生意了。
+> 如果你知道我和小冰的相爱历程，你一定不会相信，甚至可能还会觉得我们幼稚得可笑，或者感叹「年轻真好」。我将故事告诉我的母亲和姥姥，她们难以置信这种爱情的闪光，只相信传统叙事中的时间模板，认为只有经过长时间相处才可以称得上是值得认可的爱情，给我泼了不少冷水。时间固然重要，但不可以是决定性的因素。同龄人倒还是能理解一些，并表以祝福。女朋友家里比较开明，父母知道我们异地恋之后，并没有过多评价或者干涉，而是劝诫女儿这段关系「会很辛苦，自己考虑好，要慢慢走一步看一步。」
+> 世上并无命定的姻缘，但是，那种一见倾心，终生眷恋的爱情的确具有一种命运般的力量。
+> ——周国平《人生哲思录》
+> 除了这种最高的承认之外，爱情中还有一个深度的承认，即一种无法在其他任何关系中复刻、体验到的细致入微的了解和默契。一个眼神或者动作就能明白对方的想法，理解对方的感受；或者买到对方爱吃的东西；难过的时候，提供恰到好处的关心和陪伴……爱是一种了解的渴望，爱一个人，就会不由自主地想了解她的一切，把她所经历和感受的一切当做最珍贵的财富接受过来，精心保护。
+> 爱一个人往往没有缘由。若问为何爱他，这本身便是个悖论：当你能说出理由时，或许已不再爱了。你可以列举许多原因，比如笑容、俊朗或美丽。但唯有当你真正倾心时，这些细节才成为爱的注脚。在旁人眼中，它们不过是寻常特质罢了。
+> 爱情中的两个人是非常脆弱的。你无法在其他关系中找到相同的脆弱性。这种脆弱性双方之间的秘密，各自成为对方的守护者。展露自己的脆弱是不可避免的，无论你多么强大，无论你们在一起的时间或长或短。随着展露脆弱，你也可以知道对方是否有能力成为你的守护者，保护你、爱护你、接住你、珍惜你，而不是利用你、伤害你、讨厌你、离开你。有些人无法享有爱情，便是如此原因，他/她无法面对或者承接，甚至感到害怕，你所展现出来的脆弱。
+> 当一个人……认定她/他就是那个守护者之时，这就已经是爱情而不仅仅是情欲了。爱情与情欲的区别就在于是否包含了这一至关重要的认定。
+> 爱情是流动的、成长的。很多人追求「永恒」的爱情，辗转踌躇，试图寻找着解药。殊不知，「永恒」也等同于死亡，或是，一潭死水。这并非爱情。
+> 爱一个人，你自然就会想念、心疼、关心、照顾对方，自然也想要送东西或者礼物，作为爱的信物，表达自己的惦记。这件信物，无关乎于金钱和品牌，因为这些都是他者给予的象征，而是关乎于一种具有双方性的，属于你们二人的象征。通俗地说，送礼送的是诚心。
+> 在一起一段时候后，我给女友买了一捧鲜花。鲜花在爱情中极具象征意义，但是市面上出彩的花束并不多，如果你没有朋友推荐，那么就需要花时间在信息流中仔仔细细筛选。我们需要提防算法推荐，出现在信息流前端的商家，要么是大众风，要么是商家买了推流。整体看上去，非常土，不符合我的审美。
+> 所以，第一，这件物品需要符合我的审美。第二，细节上，需要有「我们」的特点。我终于找到了一家北京的连锁花店，商品展示的鲜花搭配具有艺术气息，产品详情页展示的花束包装也十分精美，客服按照我的需求推荐了几款鲜花搭配。我最终选择的鲜花含有我非常喜欢的紫色，我也希望小冰收到鲜花的时候，多彩的颜色，能缓解她在北京枯燥冬天的那种疲劳感。最后，我特意在贺卡上写了一段寄语，传达我的心意。
+> 收到花后，小冰超级喜欢，换了妆，拍了很多照片，还买了花瓶，照顾的非常好，将花期延长到了十天。后来，她告诉我，自己以前学过插花，对鲜花有一定程度的了解。得知我送鲜花，心情非常忐忑，因为她们宿舍楼底下会经常出现套着塑料袋的「土包子」全玫瑰花束。我们哈哈一笑。
+> 另外两件物品分别是一个云南西双版纳的佛手柑香包和奔波儿灞挂偶。我喜欢薰衣草，她曾经提过喜欢香根草。香包和包装的设计都非常不错。北京的冬天太干了，问一问清爽的柑橘味，也许能神清气爽。她说，这个味道闻起来舒服极了。奔波儿灞是我非常喜欢的挂偶，在我国内的时候，一直「望梅止渴」。我们两个都有一些抽象、幽默搞笑，加之，我也特别喜欢这款挂偶的设计。希望她在紧张的考试过后，能缓解压力。她拆开之后笑的不行，马上挂在了自己日常出行使用的白色帆布托特包上。看到她开心，我也非常开心。
+> 人们举着条件去找爱，但爱并不存在于各种条件的哪怕最完美的组合之中。爱不是对象，爱是关系，是你在对象身上付出的时间和心血。
+> 爱情需要勇气。有勇气表达爱，有勇气做自己，有勇气面对自己的脆弱，有勇气接受对方所有的历史和困境，有勇气面对并且愿意解决困难，有勇气不逃避，有勇气承担责任……
+> 爱情需要很多勇气，但很多人只有第一种勇气，但也是最简单的，然后二人便停留在了粗浅的、理想化的层面。这种关系往往会持续 90 天，有的可能因为某种原因而被迫持续几个月甚至几年，随着幻想破灭，关系变得颤颤巍巍，如履薄冰，又或是麻木不仁，从火热逐渐变成了一种维持。爱便不再流动，枯萎死掉了。
+> 小冰说：「我们携手一起站在恐惧的河流里，而我们的感情是唯一的浮木，每一次克服这些恐惧我爱你的勇气就更多一点。」
+> 我说：「我们一起找到更大的浮木，托举我们一起上岸。」
+> 爱是全然献身于另一个人。选择爱情的同时，也放弃了其他的自由。很多人恐惧婚姻和恋爱关系，就是担心自己会失去自由。周国平，中国社会科学院哲学研究所研究员、哲学研究者，写到：
+> 好的爱情是双方以自由为最高赠礼的洒脱，以及绝不滥用这一份自由的珍惜。
+> 订阅即可免费下载 PSYCH 101 心理学入门资料
+> 爱是最高的自由。好的爱情里，相爱者互不束缚对方，这是对彼此感情的信心。两人自由独立，却始终相依，这才是真爱。
+> 对于爱情的描述，我认为最贴切的描述是「坠入爱河」（fall in love）。它揭示了爱情的「流动」和「勇气」。真正的爱必然伴随「fall」（坠入、跌倒、摔倒）。几乎所有的青春爱情剧的开端都从相撞或者是一方摔倒开始的。如果你不摔这一跤，你永远无法确认那是否就是爱情。然而如今，许多人向往的爱情却是一种「不会坠落的爱」（love without fall）。我们活在一个用未来规划爱情的时代，但爱从来不会在万事俱备时降临；它总伴随着不安，因为它要求你在未知结局前就全然投入。
+> 自由意味着审视和质疑霸权意识形态赋予我们的前提，包括「自由」这一概念本身。意识形态并非一套明确的教条，而是我们体验现实的内在方式。如果自由只意味着随时可以抽身、始终维持安全距离，那最终只会走向自我封闭。这样的生活或许秩序井然、边界清晰，却再难触碰爱的形而上的、超验的、超越日常的深刻体验。
+> 因此，爱情是勇敢者的游戏。只有勇敢者才能享受真正的爱情，才能敢于承担自由带来的不确定性。面对爱情，我们需要有凝视深渊的勇气。
+> 爱情是一种存在的体验，而非占有。占有往往导致美感的淡化甚至丧失。一个只想被爱却不懂爱人的人，其实并不理解爱的真谛。他所在意的也并非...
+
+---
+
+### @thekitze brew install mole run the cleanup option then run the uninstaller enjoy your new...
+
+- Author: kitze [@thekitze](https://x.com/thekitze)
+- Tweet URL: [https://x.com/thekitze/status/2018036653248721242](https://x.com/thekitze/status/2018036653248721242)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-01T19:00:06.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=694, quote_count=0, reply_count=30, retweet_count=23
+
+> brew install mole
+> run the cleanup option
+> then run the uninstaller
+> enjoy your new computer
+> ur welcome
+
+---
+
+### @akokoi1 
+
+- Author: WY [@akokoi1](https://x.com/akokoi1)
+- Tweet URL: [https://x.com/akokoi1/status/2018158137287860412](https://x.com/akokoi1/status/2018158137287860412)
+- X article: [OpenClaw进阶：配置“有头浏览器”保姆级教程](https://x.com/akokoi1/article/2018158137287860412)
+- X article text: 没有浏览器功能的OpenClaw是不完整的，接入浏览器插件后，OpenClaw能够帮你完成更多的工作，发挥你更大想象空间。 首先要了解一下“有头浏览器”和“无头浏览器”的区别，简单点说，有头浏览器有真实浏览器窗口，无头浏览器则没有。 无头浏览器在处理复杂交互时存在明显短板，例如需要人工确认的验证码、拖拽操作、弹窗授权、多步骤登录流程等场景。 同时，一些网站会对无头环境进行检测，无头浏览器更容易触发反爬或风控机制。而有头浏览器由于行为更接近真实用户，兼容性和成功率通常更高。 所以在OpenClaw中更推荐有头浏览器，接下来这篇文章会以最简单的方式教大家如何配置OpenClaw的浏览器功能。...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-02T03:02:50.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2017761530113363971](http://x.com/i/article/2017761530113363971)
+- Linked content:
+  - [x.com/i/article/2017761530113363971](http://x.com/i/article/2017761530113363971)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2017761530113363971/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=428, quote_count=0, reply_count=38, retweet_count=83
+
+> http://x.com/i/article/2017761530113363971
+
+#### X Article
+
+> 没有浏览器功能的OpenClaw是不完整的，接入浏览器插件后，OpenClaw能够帮你完成更多的工作，发挥你更大想象空间。
+> 首先要了解一下“有头浏览器”和“无头浏览器”的区别，简单点说，有头浏览器有真实浏览器窗口，无头浏览器则没有。
+> 无头浏览器在处理复杂交互时存在明显短板，例如需要人工确认的验证码、拖拽操作、弹窗授权、多步骤登录流程等场景。
+> 同时，一些网站会对无头环境进行检测，无头浏览器更容易触发反爬或风控机制。而有头浏览器由于行为更接近真实用户，兼容性和成功率通常更高。
+> 所以在OpenClaw中更推荐有头浏览器，接下来这篇文章会以最简单的方式教大家如何配置OpenClaw的浏览器功能。
+> 前置条件
+> 有头浏览器必须依靠图形化的界面，所以服务器 Linux（无桌面）不能完全配置有头浏览器，即使用桌面Linux也会有一些坑，所以这里只做MacOS端和Windows端的教程。
+> 确认已经配置安装好了，并成功运行起来OpenClaw。
+> 电脑必须安装好了Chrome浏览器。
+> 安装教程
+> 终端运行
+>
+> 它会给你一个chrome extension插件的位置和安装指引
+>
+> 注意了！！！接下来让openclaw打开Chrome，这一点很重要，发送指令让openclaw打开。
+> 我这里可以直接通过127.0.0.1:18789这个web控制台聊天发送指令，也可以通过其它连接了的聊天软件发送：
+>
+> 这个时候应该会提示搜索失败，它会提示让你打开chrome的OpenClaw扩展，这个扩展它不会自动安装，需要我们手动操作：
+> 在刚刚openclaw打开的Chrome浏览器中输入chrome://extensions/，打开开发者模式，点击加载未打包的扩展程序：
+>
+> 选择~/.openclaw/browser/chrome-extension这个目录，MAC用户如果看不到这个目录，按住 shift + command + .  这三个按键，就会出现隐藏目录，这个时候再一级一级选择到chrome-extension目录：
+>
+> 接下来点击右上角的扩展，激活OpenClaw插件：
+>
+> 出现以下的提示就表示配置成功了：
+>
+> 接下来你可以试试给你的OpenClaw发送指令：
+> “浏览器已经打开了，进入携程帮我查一查今天下午3点到6点上海到北京的航班，告诉我经济舱最低价格”
+>
+> 这个时候你就看到了它在自动操作浏览器，操作结束后就会返回搜索结果。
+>
+> 有几个需要注意的地方：
+> 每次它自动打开浏览器都不会自动开启扩展，需要手动开启；
+> 很多网站都需要登录后操作，最好预先在网站登录；
+> 任务执行完后可以让它关闭刚刚打开浏览器标签，防止长期驻留内存泄漏；
+> 尽量选择可靠的模型，我这里用的是gpt-5.2-codex；
+> 浏览器操作任务超级费token，可以通过/status查看token的消耗。
+> 浏览器扩展开启后，就能够实现更多的玩法了！我也会继续分享OpenClaw的使用体验和教程。另外我还打算做一些OpenClaw中各个模型的测评，同样的任务，看哪个模型更强。
+
+---
+
+### @chumsdock 今天在 Mac 上通过 UTM 安装了一台虚拟机用来跑 OpenClaw，用的 Telegram 和 Kimi K2.5，现在用的每月 99 一档的 Code...
+
+- Author: Cheng [@chumsdock](https://x.com/chumsdock)
+- Tweet URL: [https://x.com/chumsdock/status/2017905705609801960](https://x.com/chumsdock/status/2017905705609801960)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-02-01T10:19:45.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=3, quote_count=0, reply_count=0, retweet_count=0
+
+> 今天在 Mac 上通过 UTM 安装了一台虚拟机用来跑 OpenClaw，用的 Telegram 和 Kimi K2.5，现在用的每月 99 一档的 Code 套餐，大概5个小时的Quota够用半个小时。虽然还不适合像 Claude Code 当生产力工具，但是作为 Manus 平替，随叫随到的感觉又是一个新层次。
+
+---
+
+### @cellinlab 
+
+- Author: Cell 细胞 [@cellinlab](https://x.com/cellinlab)
+- Tweet URL: [https://x.com/cellinlab/status/2017629377119588456](https://x.com/cellinlab/status/2017629377119588456)
+- X article: [[译]OpenClawd 技术架构深度解析](https://x.com/cellinlab/article/2017629377119588456)
+- X article text: 每个人都在谈论 OpenClawd，但它究竟是如何工作的呢？ 作者深入研究了 OpenClawd（原名 Moltbot（原名 ClawdBot））的架构，包括它如何处理智能体执行（agent executions）、工具调用（tool use）、浏览器等功能。对于 AI 工程师来说，这里面有很多值得学习的经验。 了解 OpenClawd 的底层工作原理，能让我们更好地理解这个系统及其能力，最重要的是，明白它擅长什么、不擅长什么。 这一切始于作者个人对 OpenClawd 如何处理记忆（memory）以及其可靠性的好奇。 在这篇文章中，作者将从表层介绍 OpenClawd 的工作原理。...
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-31T16:01:43.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2017622760193986563](https://x.com/i/article/2017622760193986563)
+  - [x.com/hesamation/status/2017038553058857413?s=46](https://x.com/hesamation/status/2017038553058857413?s=46)
+  - [x.com/i/article/2017622760193986563](http://x.com/i/article/2017622760193986563)
+- Linked content:
+  - [x.com/i/article/2017622760193986563](https://x.com/i/article/2017622760193986563)
+    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
+  - [x.com/i/article/2017622760193986563](http://x.com/i/article/2017622760193986563)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2017622760193986563/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=482, quote_count=0, reply_count=19, retweet_count=130
+
+> http://x.com/i/article/2017622760193986563
+
+#### X Article
+
+> 每个人都在谈论 OpenClawd，但它究竟是如何工作的呢？
+> 作者深入研究了 OpenClawd（原名 Moltbot（原名 ClawdBot））的架构，包括它如何处理智能体执行（agent executions）、工具调用（tool use）、浏览器等功能。对于 AI 工程师来说，这里面有很多值得学习的经验。
+> 了解 OpenClawd 的底层工作原理，能让我们更好地理解这个系统及其能力，最重要的是，明白它擅长什么、不擅长什么。
+> 这一切始于作者个人对 OpenClawd 如何处理记忆（memory）以及其可靠性的好奇。
+> 在这篇文章中，作者将从表层介绍 OpenClawd 的工作原理。
+> OpenClawd 的技术本质
+> 大家都知道 OpenClawd 是一个可以在本地运行或通过模型 API 使用的个人助手，你甚至可以在手机上轻松访问它。但它的技术本质是什么？
+> 从核心来看，OpenClawd 是一个 TypeScript 写的 CLI 应用程序。
+> 它不是 Python 项目，不是 Next.js，也不是 Web App。
+> 它是一个进程（process），能够：
+> 在你的机器上运行，并暴露一个 Gateway Server（网关服务器）来处理所有渠道连接（Telegram、WhatsApp、Slack 等）
+> 调用各类 LLM API（Anthropic、OpenAI、本地模型等）
+> 在本地执行工具（tools）
+> 按你的需求在电脑上做事情
+> 架构总览
+> 为了更直观，下面用一个例子解释：你在聊天软件里给 OpenClawd 发消息，一直到你收到回复，中间发生了什么。
+>
+> 当你在消息应用中向 OpenClawd 发送提示时，会发生以下过程：
+> 1. 渠道适配器（Channel Adapter）
+> 渠道适配器接收你的消息并进行处理（标准化、提取附件）。不同的消息应用和输入流有各自专用的适配器。
+> 2. 网关服务器（Gateway Server）
+> 网关服务器是任务/会话协调器（task/session coordinator），它接收你的消息并将其传递给正确的会话。这是 OpenClawd 的核心。它处理多个重叠的请求。
+> 为了让操作串行化（serialization），OpenClawd 使用基于 lane 的命令队列（lane-based command queue）。一个会话有自己专用的 lane，低风险的可并行化（parallelizable）任务可以在并行 lane 上运行（例如 cron 定时任务）。
+> 这与常见的 async/await 乱麻式写法（“async/await spaghetti”）相对。过度并行会降低可靠性，并带来大量调试噩梦。如果你做过智能体系统，多半也体会过这一点。
+> 默认串行（Serial），需要并行时再显式并行（Parallel explicitly）
+> 这也是 Cognition 那篇博文《不要构建多代理系统》的洞见。
+> 简单地为每个 agent 搞一套 async 并发，日志会变成一坨交错的垃圾，几乎不可读；如果它们共享状态（shared states），竞态条件（race conditions）会变成你开发中必须时刻担心的风险。
+> Lane 是对队列（queue）的抽象：默认就是“串行化架构”，而不是事后补丁。作为开发者，你手写业务逻辑，队列系统帮你处理竞态。
+> 你的心智模型会从：
+> “我需要加什么锁？”（what do I need to lock?）
+> 变成：
+> “哪些东西是安全可并行的？”（what‘s safe to parallelize?）
+> 3. 智能体运行器（Agent Runner）
+> 这是真正“AI”介入的地方。它会：
+> 判断用哪个模型
+> 选择可用的 API Key（如果某个 key 不可用，就把该配置标记为 cooldown 并尝试下一个）
+> 如果主模型失败，会回退到其他模型（fallback）
+> Agent Runner 会动态拼装 system prompt：包含可用工具（tools）、技能（skills）、记忆（memory），然后追加 session 历史（从 .jsonl 文件读取）。
+> 接着会交给 Context Window Guard（上下文窗口守卫）：检查上下文窗口是否还有足够空间。如果上下文快满了，要么压缩整理 session（对上下文做摘要），要么优雅失败（fail gracefully）。
+> 4. LLM API Call（大模型 API 调用）
+> LLM 调用本身是流式输出（streaming responses），并对不同供应商（providers）做了统一抽象。如果模型支持，还可以请求 extended thinking（扩展思考）。
+> 5. 智能体循环（Agentic Loop）
+> 如果 LLM 返回的是工具调用（tool call）响应，OpenClawd 就会在本地执行工具，并把结果追加回对话。
+> 这个过程会重复，直到：
+> LLM 输出最终文本（final text），或
+> 达到最大轮数（max turns，默认约 20）
+> “魔法”也发生在这里：包括后面会提到的 Computer Use（让智能体操作你的电脑）。
+> 6. 回复路径（Response Path）
+> 比较常规：回复通过渠道回到你那边。
+> 同时，session 会持久化到一个基础的 JSONL（JSON Lines） 文件：每行是一个 JSON 对象，记录用户消息、工具调用、工具结果、模型回复等。这就是 OpenClawd 的“记住”（基于 session 的记忆）方式。
+> 这涵盖了基本架构。现在让我们深入一些更关键的组件。
+> OpenClawd 如何“记忆”
+> 没有靠谱的记忆系统，AI 助理就跟金鱼一样（转头就忘）。
+> OpenClawd 用两套机制：
+> 上面提到的 JSONL 会话转录（session transcripts）
+> 记忆文件（memory files）：Markdown 格式，存放在 MEMORY[.]md 或 memory/ 目录
+> 检索时，它用的是 向量检索（vector search）+ 关键词匹配（keyword matches） 的混合方案（hybrid），同时吃到两边的优势。
+> 比如搜 “authentication bug”，既能找到提到 “auth issues” 的文档（语义匹配/semantic），也能命中精确短语（关键词匹配）。
+> 向量检索用 SQLite
+> 关键词检索用 FTS5（SQLite 的全文检索扩展）
+> embedding（向量化）的提供方可配置（embedding provider is configurable）
+> 它还利用 Smart Syncing（智能同步）：当文件监视器（file watcher）检测到文件变更时触发同步。
+> 这些 Markdown 记忆文件是 agent 自己通过标准的“写文件（write file）”工具生成的：没有专门的 memory-write API，就是直接写到 memory/*.md。
+> 当开启一段新对话时，会有一个 hook（钩子） 抓取上一段对话，并写一份 Markdown 摘要。
+> 整体上，OpenClawd 的记忆系统非常简单，和很多“工作流记忆（workflow memories）”实现很像：没有记忆合并（merging of memories），也没有按月/周做记忆压缩（memory compressions）。
+> 这种简单可能是优势也可能是坑：作者个人更偏好“可解释的简单”，而不是复杂的意大利面式系统（spaghetti）。
+> 它的记忆会一直存在，旧记忆与新记忆权重基本相同——也就是说没有遗忘曲线（forgetting curve）。
+> OpenClawd 的“爪子”：如何使用你的电脑（Computer Use）
+> 这是 OpenClawd 的一个核心“护城河（MOAT）”：你给它一台电脑，它就能用。
+> 它会在你自担风险的前提下给 agent 很大的电脑访问权限，并通过 exec 工具执行 shell 命令，执行环境包括：
+> sandbox：默认，在 Docker 容器里运行命令
+> 直接在宿主机（host machine）运行
+> 在远程设备（remote devices）上运行
+> 除此之外还有：
+> 文件系统工具（Filesystem tools）:read / write / edit
+> 浏览器工具（Browser tool）：基于 Playwright，并提供 语义快照（semantic snapshots）
+> 进程管理（Process management / process tool）：运行后台长任务、kill 进程等
+> 安全性（或者说：几乎没有？）
+> 类似 Claude Code，OpenClawd 有一个命令 allowlist（允许列表） 机制：用户可以选择“允许一次 / 永久允许 / 拒绝”，并弹窗提示用户确认。
+> 配置示例：
+>
+> 一些安全命令（如 jq, grep, cut, sort, uniq, head, tail, tr, wc）默认就预批准（pre-approved）。
+> 一些危险的 shell 构造默认会被拦截（blocked）。例如下面这些会在执行前就被拒绝：
+>
+> 总体安全思路和 Claude Code 很像：在用户允许的范围内给尽可能多的自主性（autonomy）。
+> 浏览器：语义快照（Semantic Snapshots）
+> OpenClawd 的浏览器工具并不主要依赖截图（screenshots），而是用语义快照：对页面 可访问性树（accessibility tree, ARIA） 的文本化表示。...
+
+---
+
+### @Houge_Langley 我利用 opencode 外加 ulw 插件，用了两个大模型，glm-4.7 和 kimi-2.5 做了这个 AI 诊疗系统，后面再修修 bug ，发 github 上开源出来。
+
+- Author: Houge [@Houge_Langley](https://x.com/Houge_Langley)
+- Tweet URL: [https://x.com/Houge_Langley/status/2017465746222125230](https://x.com/Houge_Langley/status/2017465746222125230)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-31T05:11:31.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.bilibili.com/video/BV1rm6yB8E71](https://www.bilibili.com/video/BV1rm6yB8E71/)
+- Linked content:
+  - [www.bilibili.com/video/BV1rm6yB8E71](https://www.bilibili.com/video/BV1rm6yB8E71/)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=51, quote_count=0, reply_count=1, retweet_count=9
+
+> https://www.bilibili.com/video/BV1rm6yB8E71/
+>
+> 我利用 opencode 外加 ulw 插件，用了两个大模型，glm-4.7 和 kimi-2.5 做了这个 AI 诊疗系统，后面再修修 bug ，发 github 上开源出来。
+
+---
+
+### @dingyi 昨天花好几个小时在 Figma 和 Framer，纯手工操作，好像回到了原始社会，累死我了。。。
+
+- Author: Ding [@dingyi](https://x.com/dingyi)
+- Tweet URL: [https://x.com/dingyi/status/2017055070073082147](https://x.com/dingyi/status/2017055070073082147)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T01:59:38.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=7, quote_count=0, reply_count=4, retweet_count=0
+
+> 昨天花好几个小时在 Figma 和 Framer，纯手工操作，好像回到了原始社会，累死我了。。。
+
+---
+
+### @DashHuang TapTap 制造！想到就能做到！
+
+- Author: Dash [@DashHuang](https://x.com/DashHuang)
+- Tweet URL: [https://x.com/DashHuang/status/2017225409440670093](https://x.com/DashHuang/status/2017225409440670093)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T13:16:30.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [maker.taptap.cn](https://maker.taptap.cn)
+  - [x.com/DashHuang/status/2017225409440670093/video/1](https://x.com/DashHuang/status/2017225409440670093/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg)
+  - [photo](https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg)
+- Linked content:
+  - [TapTap 制造](https://maker.taptap.cn)
+    Images: https://maker.taptap.cn/og-image.png
+  - [pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg](https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg
+  - [pbs.twimg.com/media/G_6filuboAAqo8l.jpg](https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg)
+    Images: https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=152, like_count=270, quote_count=23, reply_count=78, retweet_count=34
+
+> TapTap 制造！想到就能做到！
+> https://maker.taptap.cn https://t.co/E2ynMCA64d
+
+---
+
+### @idoubicc 开源一周，1k star ✅ 感谢支持，继续努力。做一个好用的桌面 Agent。
+
+- Author: idoubi [@idoubicc](https://x.com/idoubicc)
+- Tweet URL: [https://x.com/idoubicc/status/2017424334667858423](https://x.com/idoubicc/status/2017424334667858423)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-31T02:26:57.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [github.com/workany-ai/workany](https://github.com/workany-ai/workany)
+  - [x.com/idoubicc/status/2017424334667858423/photo/1](https://x.com/idoubicc/status/2017424334667858423/photo/1)
+  - [twitter.com/idoubicc/status/2014630939104776411](https://twitter.com/idoubicc/status/2014630939104776411)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png)
+- Linked content:
+  - [GitHub - workany-ai/workany: Desktop Agent for Any Task · GitHub](https://github.com/workany-ai/workany)
+    Images: https://opengraph.githubassets.com/cf17ff36221b92e1a847dbd70767c065e2d756b18e99dc152cdd3364657a4316/workany-ai/workany, https://github.com/workany-ai/workany/raw/dev/public/imgs/home.png, https://github.com/workany-ai/workany/raw/dev/public/imgs/files.png, https://github.com/workany-ai/workany/raw/dev/public/imgs/web.png
+  - [pbs.twimg.com/media/G_9Um-PaEAAD3J8.png](https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png)
+    Images: https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=56, quote_count=0, reply_count=2, retweet_count=8
+
+> 开源一周，1k star ✅
+>
+> 感谢支持，继续努力。做一个好用的桌面 Agent。
+>
+> https://github.com/workany-ai/workany https://t.co/VPjtV6MJNS
+
+---
+
+### @cellier_ 《学习一个领域的最快方法》 学习一个领域，同时速读 5 本以上该领域的经典书籍是最快的方法。...
+
+- Author: Cellier@undefined [@cellier_](https://x.com/cellier_)
+- Tweet URL: [https://x.com/cellier_/status/2017443818266902592](https://x.com/cellier_/status/2017443818266902592)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-31T03:44:23.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/cellier_/status/2017443818266902592/photo/1](https://x.com/cellier_/status/2017443818266902592/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg](https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg)
+    Images: https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=191, quote_count=0, reply_count=7, retweet_count=41
+
+> 《学习一个领域的最快方法》
+>
+> 学习一个领域，同时速读 5 本以上该领域的经典书籍是最快的方法。
+>
+> 同时速读多本同领域书籍，好处不在于信息量，而在于能迅速形成对该领域体系的结构感，帮你快速建立这个领域的「整体地图」。
+>
+> 当你快速横向阅读时，会很自然看到：
+> 哪些观点是所有作者都会反复强调的；
+> 哪些只是个别人的偏好或时代背景；
+> 共识会被不断放大，噪音会被快速识别。
+> 多本书之间能彼此校对，一个概念看不懂，很可能不是你不行，而是书写得不行。
+> 换一本，往往立刻就通了。
+>
+> 最近想提升自己的判断和决策能力，于是找了十几本决策相关的书籍，同时开始速读，效果显著。
+>
+> 即便是 AI 时代，你想学进自己的脑子里，随时能从自己嘴巴里说出来，这个方法依旧最快。
+
+---
+
+### @vikingmute 这个 Beautiful Mermaid 是我最近最喜欢的开源库： 因为真的很漂亮，用来渲染 AI 时代非常常用的 mermaid 图表，同时支持输出 SVG 以及...
+
+- Author: Viking [@vikingmute](https://x.com/vikingmute)
+- Tweet URL: [https://x.com/vikingmute/status/2017229456314900875](https://x.com/vikingmute/status/2017229456314900875)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T13:32:35.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [agents.craft.do/mermaid](https://agents.craft.do/mermaid)
+  - [x.com/vikingmute/status/2017229456314900875/photo/1](https://x.com/vikingmute/status/2017229456314900875/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg)
+- Linked content:
+  - [Beautiful Mermaid — Mermaid Rendering, Made Beautiful](https://agents.craft.do/mermaid)
+    Images: https://agents.craft.do/mermaid/og-image.png
+    Text: Mermaid Rendering, made beautiful. An open source library for rendering diagrams, designed for the age of AI: [ beautiful-mermaid](https://www.npmjs.com/package/beautiful-mermaid). Ultra-fast, fully themeable, and outputs to both SVG and...
+  - [pbs.twimg.com/media/G_6jZUZboAA84gW.jpg](https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg)
+    Images: https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=765, quote_count=0, reply_count=5, retweet_count=121
+
+> 这个 Beautiful Mermaid 是我最近最喜欢的开源库：
+> https://agents.craft.do/mermaid
+> 因为真的很漂亮，用来渲染 AI 时代非常常用的 mermaid 图表，同时支持输出 SVG 以及 ASCII。
+>
+> 支持 5 种图表类型
+> 支持 15 种主题
+> 渲染速度极快
+> 两天就收获了 3.2K 个 stars https://t.co/oCVfymZRVa
+
+---
+
+### @tualatrix 最近的阅读都变了。感谢 @haohailong 给我推荐《真希望我父母读过这本书》。
+
+- Author: 图拉鼎 [@tualatrix](https://x.com/tualatrix)
+- Tweet URL: [https://x.com/tualatrix/status/2017267665338081323](https://x.com/tualatrix/status/2017267665338081323)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T16:04:25.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/tualatrix/status/2017267665338081323/photo/1](https://x.com/tualatrix/status/2017267665338081323/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg](https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg)
+    Images: https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=472, quote_count=0, reply_count=21, retweet_count=63
+
+> 最近的阅读都变了。感谢 @haohailong 给我推荐《真希望我父母读过这本书》。 https://t.co/rHdlBAssSd
+
+---
+
+### @idoubicc 更新了 Github 个人主页。有机会多做开源吧。😮‍💨
+
+- Author: idoubi [@idoubicc](https://x.com/idoubicc)
+- Tweet URL: [https://x.com/idoubicc/status/2017112782865592777](https://x.com/idoubicc/status/2017112782865592777)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T05:48:58.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/idoubicc/status/2017112782865592777/photo/1](https://x.com/idoubicc/status/2017112782865592777/photo/1)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg](https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg)
+    Images: https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=111, quote_count=0, reply_count=20, retweet_count=1
+
+> 更新了 Github 个人主页。有机会多做开源吧。😮‍💨 https://t.co/74WcMWksrc
+
+---
+
+### @lencx_ 前两天写了篇《初识 Moltbot》，总觉得差点意思。这次又翻了些源码和实现细节，想把 Moltbot...
+
+- Author: lencx [@lencx_](https://x.com/lencx_)
+- Tweet URL: [https://x.com/lencx_/status/2017030900920569916](https://x.com/lencx_/status/2017030900920569916)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-30T00:23:36.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg](https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg)
+  - [x.com/lencx_/status/2017030900920569916/photo/1](https://x.com/lencx_/status/2017030900920569916/photo/1)
+  - [twitter.com/lencx_/status/2016468243209441319](https://twitter.com/lencx_/status/2016468243209441319)
+  - [mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg](https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg)
+- Linked content:
+  - [mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg](https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg)
+  - [深度解析：Moltbot 底层架构](https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg)
+    Images: https://mmbiz.qpic.cn/mmbiz_jpg/90Kxd0FAJJdTNqmMbmZpibKkaZCzibl6iaTiaCBeKRLqE1l3xibUxBOhucgz6FBS1psdwxXQCvYbwlUltvsgtC2BxRg/0?wx_fmt=jpeg, https://mmbiz.qpic.cn/mmbiz_png/90Kxd0FAJJdTNqmMbmZpibKkaZCzibl6iaTN0ib46SBBtjeZVLjf7QNagYh4ATKY0Y39oJcoXbqukH0icWtgQRtxuhw/640?wx_fmt=png&from=appmsg, https://mmbiz.qpic.cn/mmbiz_png/90Kxd0FAJJdTNqmMbmZpibKkaZCzibl6iaTP3NkRLJ9Zsczg2icA19CZPA0W39SibvSJ66TUYj53qDFV8rsFgicvoxEw/640?wx_fmt=png&from=appmsg, http://mmbiz.qpic.cn/mmbiz_png/90Kxd0FAJJfefQDvWTNLx9cTSywesvItbr6tT643PeByn7qrd7ZicYzX2zsaHfV8iaMLNTTmpAGPVwCdYL7kLlMA/0?wx_fmt=png
+    Text: 前两天写了篇《[初识 Moltbot](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247491405&idx=1&sn=7bcdaf2ff5e4f63062b6cf753cbfe58c&scene=21#wechat_redirect)》，总觉得差点意思。这次又翻了些源码和实现细节，想把 Moltbot 再讲透一点。看似驳杂的超级缝合怪，实则蕴含诸多巧妙且先进的设计理念。简单背后的不简单，注定结果非凡！...
+  - [pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg](https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg)
+    Images: https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=323, quote_count=0, reply_count=6, retweet_count=58
+
+> 前两天写了篇《初识 Moltbot》，总觉得差点意思。这次又翻了些源码和实现细节，想把 Moltbot 再讲透一点。看似驳杂的超级缝合怪，实则蕴含诸多巧妙且先进的设计理念。简单背后的不简单，注定结果非凡！@steipete 真的厉害 👍！
+> https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg https://t.co/ek58yRPagg
+
+---
+
+### @yatingzhao_ux 最近我的主力工具从 Figma 转到 Cursor 的体验，就说 UI 本身，速度真的提高非常多，一天做一周的事情。 而且因为能快速探索各种设计可能性（布局、交互…），设计和...
+
+- Author: Yating Zhao [@yatingzhao_ux](https://x.com/yatingzhao_ux)
+- Tweet URL: [https://x.com/yatingzhao_ux/status/2017598774613365005](https://x.com/yatingzhao_ux/status/2017598774613365005)
+- Sources: favorite@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-01-31T14:00:07.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs: none
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=120, quote_count=0, reply_count=20, retweet_count=6
+
+> 最近我的主力工具从 Figma 转到 Cursor 的体验，就说 UI 本身，速度真的提高非常多，一天做一周的事情。
+>
+> 而且因为能快速探索各种设计可能性（布局、交互…），设计和 UX 决策的质量也提高了。
 
 ---
 
@@ -22793,16 +24937,19 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2051678358405083140](https://x.com/i/article/2051678358405083140)
+  - [x.com/i/article/2051678358405083140](http://x.com/i/article/2051678358405083140)
 - Linked content:
   - [x.com/i/article/2051678358405083140](https://x.com/i/article/2051678358405083140)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051678358405083140/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2051678358405083140](http://x.com/i/article/2051678358405083140)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051678358405083140/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/prukalpa/status/2052782722658041981](https://x.com/prukalpa/status/2052782722658041981)
   - [x.com/prukalpa/status/2052398453225816187](https://x.com/prukalpa/status/2052398453225816187)
   - [x.com/i/article/2051678358405083140](https://x.com/i/article/2051678358405083140)
-- Public metrics: bookmark_count=151, impression_count=14023, like_count=102, quote_count=5, reply_count=3, retweet_count=15
+- Public metrics: bookmark_count=0, like_count=102, quote_count=5, reply_count=3, retweet_count=15
 
-> https://x.com/i/article/2051678358405083140
+> http://x.com/i/article/2051678358405083140
 
 #### X Article
 
@@ -22822,75 +24969,6 @@ But if the part you care about is the decision-making around the code, agents fe
 > This function is multiplicative, not additive. That means that if your context is zero, your performance is zero. Even the world’s most capable model can’t make a trustworthy decision if it doesn’t know your company’s risk scoring convention or which data source is the “source of truth” this week.
 > This also means that pairing high intelligence with the wrong context leads to negative performance. A smarter model operating on incorrect definitions, wrong governance rules, or outdated institutional knowledge produces more elaborate, more persuasive, more dangerous errors. It hallucinates more convincingly, not less.
 > The AI industry is currently behaving as though intelligence is the hard frontier and context is an easy implementation detail for the customer to figure out. The truth is the exact opposite. Building the reasoning engine is a problem being solved at breakneck speed by well-funded labs. Building the contextual basis for that reasoning is...
-
----
-
-### @_heyrico 
-
-- Author: rico [@_heyrico](https://x.com/_heyrico)
-- Tweet URL: [https://x.com/_heyrico/status/2052386115488002524](https://x.com/_heyrico/status/2052386115488002524)
-- X article: [Build Your First Agent ](https://x.com/_heyrico/article/2052386115488002524)
-- X article text: The word "agent" sounds bigger than it is. An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done. That is the whole idea. Every...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-07T13:52:36.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
-- Linked content:
-  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2052200189595922432/i/keyboard%5Fshortcuts)...
-- Thread URLs:
-  - [x.com/_heyrico/status/2052386115488002524](https://x.com/_heyrico/status/2052386115488002524)
-  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
-- Public metrics: bookmark_count=153, impression_count=6966, like_count=106, quote_count=0, reply_count=3, retweet_count=4
-
-> https://x.com/i/article/2052200189595922432
-
-#### X Article
-
-> The word "agent" sounds bigger than it is.
-> An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done.
-> That is the whole idea. Every framework, every term, every demo, sits on top of that loop.
-> Most articles about agents skip past this and land in the deep end. This one does the opposite. It explains the parts in plain English, walks through a build a beginner can finish in an afternoon, and lists the small mistakes that waste a weekend.
->
-> What an agent actually is
-> Picture an assistant who can read, type, click, and make calls. You give them a goal. They figure out the steps. They do each step. They check whether it worked. They keep going until the goal is met or they hit a wall.
-> An AI agent is the same idea, except the assistant is a model (Claude, GPT, Gemini, or an open-source one) and the steps are calls to small tools that you provide.
-> Three pieces sit underneath every agent.
-> A model. This is the brain. It reads, decides, and writes. Any modern LLM that supports "tool calling" works. Tool calling just means the model can fill in a small form to ask your code to do something for it.
-> A small set of tools. Each tool is one specific thing the agent can do. Read a file. Send an email. Search the web. Each tool comes back with a clean result the model can read.
-> A loop. A bit of code that asks the model "what do you want to do next?", runs whatever the model picks, hands back the result, and asks again.
-> That is the entire shape. If you understand those three pieces, every agent tutorial gets easier to follow.
-> The frameworks (Claude Agent SDK, OpenAI Agents, LangChain, CrewAI) are shortcuts that wrap the loop for you. An "SDK" is just a kit of pre-written code that handles the boring parts so you can write the interesting parts. Pick one when you are ready. It does not have to be the first decision.
->
-> The four-step build
-> Same shape every time.
-> Step 1. Write the goal in one paragraph.
-> Open a notes app. Answer three questions in three sentences.
-> What does this agent do?
-> Who is it for?
-> What does success look like?
-> Five minutes. Skip this and the agent will do something close to your goal but not quite right. Write it down and the rest of the build gets much easier.
->
-> Step 2. List the tools the agent needs.
-> A "tool" sounds technical. It is not. A tool is a small piece of code that does one thing and gives back a tidy answer.
-> Read your goal. Make a short list. Four tools is comfortable. Ten is too many. The first version of any agent works better with three reliable tools than ten that overlap.
-> If you do not know how to build a tool, the model can write the basic version for you. Ask it. The work is in choosing which tools belong on the list, not in coding each one from scratch.
->
-> Step 3. Pick the runtime.
-> "Runtime" just means the program that runs your agent. Two real choices.
-> The first option is a code-first kit. You write a small Python or JavaScript file. The kit handles the loop, retries, and memory for you. Pick this if you are comfortable in a terminal and want full control.
-> The second option is a markdown-first runtime. You describe the agent in plain English in a markdown file, point it at the tools you already have, and let it run. No coding required. Pick this if writing code feels like a hurdle.
-> Either works. The shape underneath is the same.
->
-> Step 4. Write the system prompt and run it once.
-> The "system prompt" sounds fancy. It is just a long note to the model that explains the role.
-> A useful structure for the note:
-> The first part explains what the agent is doing, in plain language.
-> The second part lists the tools and when to use which one.
-> The third part covers what to do when something goes wrong (a tool fails, the input is empty, the goal is unclear).
-> Run the agent on one small example first. Watch what it does. Read where it stumbles. Fix the prompt. Run again. A...
 
 ---
 
@@ -22942,9 +25020,9 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/Av1dlive/status/2052063154423898603](https://x.com/Av1dlive/status/2052063154423898603)
   - [x.com/i/article/2051953147686658049](https://x.com/i/article/2051953147686658049)
   - [anthropic.com/engineering/building-c-compiler](https://anthropic.com/engineering/building-c-compiler)
-- Public metrics: bookmark_count=5492, impression_count=1574160, like_count=1701, quote_count=24, reply_count=42, retweet_count=245
+- Public metrics: bookmark_count=5492, like_count=1701, quote_count=24, reply_count=42, retweet_count=246
 
-> https://x.com/i/article/2051953147686658049
+> http://x.com/i/article/2051953147686658049
 
 #### X Article
 
@@ -23006,6 +25084,78 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
+### @_heyrico 
+
+- Author: rico [@_heyrico](https://x.com/_heyrico)
+- Tweet URL: [https://x.com/_heyrico/status/2052386115488002524](https://x.com/_heyrico/status/2052386115488002524)
+- X article: [Build Your First Agent ](https://x.com/_heyrico/article/2052386115488002524)
+- X article text: The word "agent" sounds bigger than it is. An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done. That is the whole idea. Every...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-07T13:52:36.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
+  - [x.com/i/article/2052200189595922432](http://x.com/i/article/2052200189595922432)
+- Linked content:
+  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2052200189595922432/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2052200189595922432](http://x.com/i/article/2052200189595922432)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2052200189595922432/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/_heyrico/status/2052386115488002524](https://x.com/_heyrico/status/2052386115488002524)
+  - [x.com/i/article/2052200189595922432](https://x.com/i/article/2052200189595922432)
+- Public metrics: bookmark_count=0, like_count=106, quote_count=0, reply_count=3, retweet_count=4
+
+> http://x.com/i/article/2052200189595922432
+
+#### X Article
+
+> The word "agent" sounds bigger than it is.
+> An agent is a small program that uses an AI model to make decisions. It reads what you want. It picks an action. It runs the action. It looks at the result. It picks the next action. The loop runs until the work is done.
+> That is the whole idea. Every framework, every term, every demo, sits on top of that loop.
+> Most articles about agents skip past this and land in the deep end. This one does the opposite. It explains the parts in plain English, walks through a build a beginner can finish in an afternoon, and lists the small mistakes that waste a weekend.
+>
+> What an agent actually is
+> Picture an assistant who can read, type, click, and make calls. You give them a goal. They figure out the steps. They do each step. They check whether it worked. They keep going until the goal is met or they hit a wall.
+> An AI agent is the same idea, except the assistant is a model (Claude, GPT, Gemini, or an open-source one) and the steps are calls to small tools that you provide.
+> Three pieces sit underneath every agent.
+> A model. This is the brain. It reads, decides, and writes. Any modern LLM that supports "tool calling" works. Tool calling just means the model can fill in a small form to ask your code to do something for it.
+> A small set of tools. Each tool is one specific thing the agent can do. Read a file. Send an email. Search the web. Each tool comes back with a clean result the model can read.
+> A loop. A bit of code that asks the model "what do you want to do next?", runs whatever the model picks, hands back the result, and asks again.
+> That is the entire shape. If you understand those three pieces, every agent tutorial gets easier to follow.
+> The frameworks (Claude Agent SDK, OpenAI Agents, LangChain, CrewAI) are shortcuts that wrap the loop for you. An "SDK" is just a kit of pre-written code that handles the boring parts so you can write the interesting parts. Pick one when you are ready. It does not have to be the first decision.
+>
+> The four-step build
+> Same shape every time.
+> Step 1. Write the goal in one paragraph.
+> Open a notes app. Answer three questions in three sentences.
+> What does this agent do?
+> Who is it for?
+> What does success look like?
+> Five minutes. Skip this and the agent will do something close to your goal but not quite right. Write it down and the rest of the build gets much easier.
+>
+> Step 2. List the tools the agent needs.
+> A "tool" sounds technical. It is not. A tool is a small piece of code that does one thing and gives back a tidy answer.
+> Read your goal. Make a short list. Four tools is comfortable. Ten is too many. The first version of any agent works better with three reliable tools than ten that overlap.
+> If you do not know how to build a tool, the model can write the basic version for you. Ask it. The work is in choosing which tools belong on the list, not in coding each one from scratch.
+>
+> Step 3. Pick the runtime.
+> "Runtime" just means the program that runs your agent. Two real choices.
+> The first option is a code-first kit. You write a small Python or JavaScript file. The kit handles the loop, retries, and memory for you. Pick this if you are comfortable in a terminal and want full control.
+> The second option is a markdown-first runtime. You describe the agent in plain English in a markdown file, point it at the tools you already have, and let it run. No coding required. Pick this if writing code feels like a hurdle.
+> Either works. The shape underneath is the same.
+>
+> Step 4. Write the system prompt and run it once.
+> The "system prompt" sounds fancy. It is just a long note to the model that explains the role.
+> A useful structure for the note:
+> The first part explains what the agent is doing, in plain language.
+> The second part lists the tools and when to use which one.
+> The third part covers what to do when something goes wrong (a tool fails, the input is empty, the goal is unclear).
+> Run the agent on one small example first. Watch what it does. Read where it stumbles. Fix the prompt. Run again. A...
+
+---
+
 ### @Xudong07452910 
 
 - Author: Xudong Han [@Xudong07452910](https://x.com/Xudong07452910)
@@ -23024,6 +25174,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [open.feishu.cn/app](https://open.feishu.cn/app)
   - [code.claude.com/docs/en/mcp](https://code.claude.com/docs/en/mcp)
   - [github.com/hxdflying/EvoPaw](https://github.com/hxdflying/EvoPaw)
+  - [x.com/i/article/2051707444305207297](http://x.com/i/article/2051707444305207297)
 - Linked content:
   - [x.com/i/article/2051707444305207297](https://x.com/i/article/2051707444305207297)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051707444305207297/i/keyboard%5Fshortcuts)...
@@ -23037,6 +25188,8 @@ But if the part you care about is the decision-making around the code, agents fe
     Text: Claude Code can connect to hundreds of external tools and data sources through theDocumentation Index Fetch the complete documentation index at: [https://code.claude.com/docs/llms.txt]Use this file to discover all available pages before...
   - [GitHub - hxdflying/EvoPaw: Personal agent assistant · GitHub](https://github.com/hxdflying/EvoPaw)
     Images: https://opengraph.githubassets.com/e51eee759c02618582541568a97b117c54463c6d65b0414a03abf0f4c398dc1e/hxdflying/EvoPaw, https://github.com/hxdflying/EvoPaw/raw/main/image/logo.png
+  - [x.com/i/article/2051707444305207297](http://x.com/i/article/2051707444305207297)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051707444305207297/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/Xudong07452910/status/2052452672154828904](https://x.com/Xudong07452910/status/2052452672154828904)
   - [x.com/Xudong07452910/status/2052376236710641689](https://x.com/Xudong07452910/status/2052376236710641689)
@@ -23057,9 +25210,9 @@ But if the part you care about is the decision-making around the code, agents fe
   - [open.feishu.cn/app](https://open.feishu.cn/app)
   - [code.claude.com/docs/en/mcp](https://code.claude.com/docs/en/mcp)
   - [github.com/hxdflying/EvoPaw](https://github.com/hxdflying/EvoPaw)
-- Public metrics: bookmark_count=1269, impression_count=141217, like_count=511, quote_count=13, reply_count=12, retweet_count=101
+- Public metrics: bookmark_count=1271, like_count=511, quote_count=13, reply_count=12, retweet_count=101
 
-> https://x.com/i/article/2051707444305207297
+> http://x.com/i/article/2051707444305207297
 
 #### X Article
 
@@ -23131,6 +25284,72 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
+### @zodchiii Anthropic just leaked their 2026 agent roadmap in 22 minutes. Claude team walked...
+
+- Author: darkzodchi [@zodchiii](https://x.com/zodchiii)
+- Tweet URL: [https://x.com/zodchiii/status/2052400272840720565](https://x.com/zodchiii/status/2052400272840720565)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-07T14:48:51.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/zodchiii/status/2052400272840720565/video/1](https://x.com/zodchiii/status/2052400272840720565/video/1)
+  - [twitter.com/zodchiii/status/2052368125480354000](https://twitter.com/zodchiii/status/2052368125480354000)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg
+- Thread URLs:
+  - [x.com/zodchiii/status/2052407029302530180](https://x.com/zodchiii/status/2052407029302530180)
+  - [x.com/zodchiii/status/2052400272840720565](https://x.com/zodchiii/status/2052400272840720565)
+  - [x.com/zodchiii/status/2052400272840720565/video/1](https://x.com/zodchiii/status/2052400272840720565/video/1)
+  - [twitter.com/zodchiii/status/2052368125480354000](https://twitter.com/zodchiii/status/2052368125480354000)
+  - [pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg](https://pbs.twimg.com/amplify_video_thumb/2052399720761311234/img/ia6WutIO28T2X7ib.jpg)
+- Public metrics: bookmark_count=7880, like_count=2777, quote_count=6, reply_count=35, retweet_count=304
+
+> Anthropic just leaked their 2026 agent roadmap in 22 minutes.
+>
+> Claude team walked through tools, memory, observability, and the things most builders are 12 months behind.
+>
+> The last 3 minutes alone are worth the watch.
+>
+> Watch it, then save the setup below 👇 https://t.co/dNk44JHpkJ
+
+---
+
+### @interact_ai Introducing Interact AI: a new interface for the web. Add it to your website, and it...
+
+- Author: Interact AI [@interact_ai](https://x.com/interact_ai)
+- Tweet URL: [https://x.com/interact_ai/status/2051662847130869780](https://x.com/interact_ai/status/2051662847130869780)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-05T13:58:35.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [www.interactlabs.ai](https://www.interactlabs.ai/)
+  - [x.com/interact_ai/status/2051662847130869780/video/1](https://x.com/interact_ai/status/2051662847130869780/video/1)
+  - [interactlabs.ai](http://interactlabs.ai)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg)
+- Linked content:
+  - [Interact AI | Turn Your Website Into an Interactive Experience](https://www.interactlabs.ai/)
+    Images: https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif
+  - [Interact AI | Turn Your Website Into an Interactive Experience](https://www.interactlabs.ai/)
+    Images: https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif
+  - [pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg](https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=4395, like_count=3395, quote_count=241, reply_count=288, retweet_count=289
+
+> Introducing Interact AI: a new interface for the web.
+>
+> Add it to your website, and it talks to every visitor, answers questions, and shows your product.
+>
+> Try it now -&gt; http://interactlabs.ai https://t.co/xnRrdjunPe
+
+---
+
 ### @grapeot 过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent...
 
 - Author: 鸭哥 [@grapeot](https://x.com/grapeot)
@@ -23139,39 +25358,22 @@ But if the part you care about is the decision-making around the code, agents fe
 - Saved by: CatHanami97880
 - Tweet created: 2026-05-05T18:42:04.000Z
 - First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
+- Primary URLs:
+  - [yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-scaffolding-commodity-runtime-20260505](https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-scaffolding-commodity-runtime-20260505)
+- Linked content:
+  - [AI 脚手架正在商品化，人的工作变成判断边界](https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-scaffolding-commodity-runtime-20260505)
+    Text: 过去几年，用 AI 的门槛一直在下降。早期 ChatGPT 用户会认真研究提示词句式，试 take a deep breath ，试角色扮演，试 few-shot 模板。到了 GPT-4 以后，只要把意思说清楚，模型通常就能理解。再往后，Claude Code、Codex、Cursor、OpenCode 把读文件、写文件、跑命令、看报错、循环修改这些动作接进一个现成的 agentic runtime 里，用户不再需要自己写一套 agent loop，才能让模型持续做事。...
 - Thread URLs:
   - [x.com/grapeot/status/2051734189054255164](https://x.com/grapeot/status/2051734189054255164)
-- Public metrics: bookmark_count=87, impression_count=6215, like_count=64, quote_count=0, reply_count=3, retweet_count=9
+- Public metrics: bookmark_count=0, like_count=0, quote_count=0, reply_count=0, retweet_count=0
 
 > 过去两年 AI 工具最明显的变化，不是 prompt 变得更复杂，而是很多原来要自己搭的脚手架正在消失：提示词技巧被模型吸收，agent loop、文件读写、shell、测试反馈、上下文压缩被 Claude Code / Codex / Cursor / OpenCode 这类 runtime 商品化。
 >
-> 剩下真正值得自己维护的，是 domain
-
----
-
-### @martinfowler Fragments: open-source framework for prompting patterns, musician sues google for...
-
-- Author: Martin Fowler [@martinfowler](https://x.com/martinfowler)
-- Tweet URL: [https://x.com/martinfowler/status/2051700087496093774](https://x.com/martinfowler/status/2051700087496093774)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-05T16:26:34.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [martinfowler.com/fragments/2026-05-05.html](https://martinfowler.com/fragments/2026-05-05.html)
-- Linked content:
-  - [Fragments: May 5](https://martinfowler.com/fragments/2026-05-05.html)
-    Images: https://martinfowler.com/logo-sq.png, https://martinfowler.com/mf-name-white.png, https://martinfowler.com/thoughtworks_white.png
-    Text: Fragments: May 5 Over the last couple of months Rahul Garg published a series of posts here on how to [reduce the friction in AI-assisted programming](https://martinfowler.com/articles/reduce-friction-ai/). To make it easier to put these...
-- Thread URLs:
-  - [x.com/martinfowler/status/2051700087496093774](https://x.com/martinfowler/status/2051700087496093774)
-  - [martinfowler.com/fragments/2026-05-05.html](https://martinfowler.com/fragments/2026-05-05.html)
-- Public metrics: bookmark_count=109, impression_count=14155, like_count=103, quote_count=0, reply_count=1, retweet_count=17
-
-> Fragments: open-source framework for prompting patterns, musician sues google for defamation, apple is thinking differently about AI spending, running LLMs locally, will The Genie be caught in the tar pit?
+> 剩下真正值得自己维护的，是 domain context、eval、权限边界、质量标准和判断框架。人的工作在从执行迁移到边界判断。
 >
-> https://martinfowler.com/fragments/2026-05-05.html
+> 这篇写的是：哪些脚手架可以交给 commodity runtime，哪些还必须自己设计。
+>
+> https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-scaffolding-commodity-runtime-20260505
 
 ---
 
@@ -23188,17 +25390,20 @@ But if the part you care about is the decision-making around the code, agents fe
 - Primary URLs:
   - [x.com/i/article/2051687844679143424](https://x.com/i/article/2051687844679143424)
   - [www.youtube.com/watch?v=SlGRN8jh2RI](https://www.youtube.com/watch?v=SlGRN8jh2RI)
+  - [x.com/i/article/2051687844679143424](http://x.com/i/article/2051687844679143424)
 - Linked content:
   - [x.com/i/article/2051687844679143424](https://x.com/i/article/2051687844679143424)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051687844679143424/i/keyboard%5Fshortcuts)...
   - [- YouTube](https://www.youtube.com/watch?v=SlGRN8jh2RI)
+  - [x.com/i/article/2051687844679143424](http://x.com/i/article/2051687844679143424)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051687844679143424/i/keyboard%5Fshortcuts)...
 - Thread URLs:
   - [x.com/dotey/status/2051688341519609897](https://x.com/dotey/status/2051688341519609897)
   - [x.com/i/article/2051687844679143424](https://x.com/i/article/2051687844679143424)
   - [www.youtube.com/watch?v=SlGRN8jh2RI](https://www.youtube.com/watch?v=SlGRN8jh2RI)
-- Public metrics: bookmark_count=708, impression_count=274973, like_count=357, quote_count=18, reply_count=14, retweet_count=87
+- Public metrics: bookmark_count=708, like_count=357, quote_count=18, reply_count=14, retweet_count=87
 
-> https://x.com/i/article/2051687844679143424
+> http://x.com/i/article/2051687844679143424
 
 #### X Article
 
@@ -23255,32 +25460,73 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @interact_ai Introducing Interact AI: a new interface for the web. Add it to your website, and it...
+### @martinfowler Fragments: open-source framework for prompting patterns, musician sues google for...
 
-- Author: Interact AI [@interact_ai](https://x.com/interact_ai)
-- Tweet URL: [https://x.com/interact_ai/status/2051662847130869780](https://x.com/interact_ai/status/2051662847130869780)
+- Author: Martin Fowler [@martinfowler](https://x.com/martinfowler)
+- Tweet URL: [https://x.com/martinfowler/status/2051700087496093774](https://x.com/martinfowler/status/2051700087496093774)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-05T13:58:35.000Z
+- Tweet created: 2026-05-05T16:26:34.000Z
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
-  - [www.interactlabs.ai](https://www.interactlabs.ai/)
-  - [x.com/interact_ai/status/2051662847130869780/video/1](https://x.com/interact_ai/status/2051662847130869780/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg)
+  - [martinfowler.com/fragments/2026-05-05.html](https://martinfowler.com/fragments/2026-05-05.html)
 - Linked content:
-  - [Interact AI | Turn Your Website Into an Interactive Experience](https://www.interactlabs.ai/)
-    Images: https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69fb0f9ec6ebd40e1a9c6142_Slide%2016_9%20-%2043.png, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69f5e9e19bd81d3aef0d051e_Group%202087330358.svg, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d578cc49dfcb453376f_Brand-logo-13.avif, https://cdn.prod.website-files.com/69c39a81bcac6d7f41330f59/69d72d57f3570427cd25981a_Brand-logo-15.avif
-  - [pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg](https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2051652679752208384/img/ufWHQhWOUML4B-JV.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=4395, impression_count=2211182, like_count=3395, quote_count=241, reply_count=288, retweet_count=289
+  - [Fragments: May 5](https://martinfowler.com/fragments/2026-05-05.html)
+    Images: https://martinfowler.com/logo-sq.png, https://martinfowler.com/mf-name-white.png, https://martinfowler.com/thoughtworks_white.png
+    Text: Fragments: May 5 Over the last couple of months Rahul Garg published a series of posts here on how to [reduce the friction in AI-assisted programming](https://martinfowler.com/articles/reduce-friction-ai/). To make it easier to put these...
+- Thread URLs:
+  - [x.com/martinfowler/status/2051700087496093774](https://x.com/martinfowler/status/2051700087496093774)
+  - [martinfowler.com/fragments/2026-05-05.html](https://martinfowler.com/fragments/2026-05-05.html)
+- Public metrics: bookmark_count=0, like_count=103, quote_count=0, reply_count=1, retweet_count=17
 
-> Introducing Interact AI: a new interface for the web.
+> Fragments: open-source framework for prompting patterns, musician sues google for defamation, apple is thinking differently about AI spending, running LLMs locally, will The Genie be caught in the tar pit?
 >
-> Add it to your website, and it talks to every visitor, answers questions, and shows your product.
+> https://martinfowler.com/fragments/2026-05-05.html
+
+---
+
+### @frxiaobei “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...
+
+- Author: 凡人小北 [@frxiaobei](https://x.com/frxiaobei)
+- Tweet URL: [https://x.com/frxiaobei/status/2051600089798652126](https://x.com/frxiaobei/status/2051600089798652126)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-05T09:49:12.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/dontbesilent/status/2051588974032846935](https://twitter.com/dontbesilent/status/2051588974032846935)
+- Thread URLs:
+  - [x.com/frxiaobei/status/2051600089798652126](https://x.com/frxiaobei/status/2051600089798652126)
+  - [twitter.com/dontbesilent/status/2051588974032846935](https://twitter.com/dontbesilent/status/2051588974032846935)
+- Public metrics: bookmark_count=0, like_count=29, quote_count=0, reply_count=14, retweet_count=0
+
+> “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。
 >
-> Try it now -&gt; https://www.interactlabs.ai/ https://x.com/interact_ai/status/2051662847130869780/video/1
+> SMART 化之后：
+> “在未来 3 个月内，每周发布至少 1 条短视频，其中每月至少 1 条达到 50 万播放，否则视为未达标”
+>
+> 这个就是/dbs-goal 的价值。
+
+---
+
+### @yidabuilds 和我们的判断完全一致， 就是这一波最好的生意是去做to B的业务。 我们之前发现的 包括trustMRR上， 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。
+
+- Author: 百年 AI×出海 [@yidabuilds](https://x.com/yidabuilds)
+- Tweet URL: [https://x.com/yidabuilds/status/2051498115501609153](https://x.com/yidabuilds/status/2051498115501609153)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-05T03:04:00.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/AdrianPunk115/status/2051494055692116286](https://twitter.com/AdrianPunk115/status/2051494055692116286)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=270, quote_count=0, reply_count=3, retweet_count=54
+
+> 和我们的判断完全一致，
+> 就是这一波最好的生意是去做to B的业务。
+> 我们之前发现的
+> 包括trustMRR上，
+> 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。
 
 ---
 
@@ -23296,13 +25542,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2051474356732379136](https://x.com/i/article/2051474356732379136)
+  - [x.com/i/article/2051474356732379136](http://x.com/i/article/2051474356732379136)
 - Linked content:
   - [x.com/i/article/2051474356732379136](https://x.com/i/article/2051474356732379136)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051474356732379136/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2051474356732379136](http://x.com/i/article/2051474356732379136)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051474356732379136/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=817, impression_count=25026, like_count=313, quote_count=1, reply_count=5, retweet_count=24
+- Public metrics: bookmark_count=0, like_count=313, quote_count=0, reply_count=5, retweet_count=24
 
-> https://x.com/i/article/2051474356732379136
+> http://x.com/i/article/2051474356732379136
 
 #### X Article
 
@@ -23339,94 +25588,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @frxiaobei “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。 SMART 化之后： “在未来 3 个月内，每周发布至少 1...
-
-- Author: 凡人小北 [@frxiaobei](https://x.com/frxiaobei)
-- Tweet URL: [https://x.com/frxiaobei/status/2051600089798652126](https://x.com/frxiaobei/status/2051600089798652126)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-05T09:49:12.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/dontbesilent/status/2051588974032846935](https://twitter.com/dontbesilent/status/2051588974032846935)
-- Thread URLs:
-  - [x.com/frxiaobei/status/2051600089798652126](https://x.com/frxiaobei/status/2051600089798652126)
-  - [twitter.com/dontbesilent/status/2051588974032846935](https://twitter.com/dontbesilent/status/2051588974032846935)
-- Public metrics: bookmark_count=29, impression_count=7005, like_count=29, quote_count=0, reply_count=14, retweet_count=0
-
-> “我希望我的抖音有流量”，其实是在用空转语言跟一个执行系统对话。人还能理解，对 AI 来说等于什么都没说。
->
-> SMART 化之后：
-> “在未来 3 个月内，每周发布至少 1 条短视频，其中每月至少 1 条达到 50 万播放，否则视为未达标”
->
-> 这个就是/dbs-goal 的价值。 https://twitter.com/dontbesilent/status/2051588974032846935
-
----
-
-### @yidabuilds 和我们的判断完全一致， 就是这一波最好的生意是去做to B的业务。 我们之前发现的 包括trustMRR上， 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。
-
-- Author: 百年 AI×出海 [@yidabuilds](https://x.com/yidabuilds)
-- Tweet URL: [https://x.com/yidabuilds/status/2051498115501609153](https://x.com/yidabuilds/status/2051498115501609153)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-05T03:04:00.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/AdrianPunk115/status/2051494055692116286](https://twitter.com/AdrianPunk115/status/2051494055692116286)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=490, impression_count=84571, like_count=270, quote_count=0, reply_count=3, retweet_count=54
-
-> 和我们的判断完全一致，
-> 就是这一波最好的生意是去做to B的业务。
-> 我们之前发现的
-> 包括trustMRR上，
-> 那些几乎最挣钱最轻松的业务都是to B一个单独的领域的业务。 https://twitter.com/AdrianPunk115/status/2051494055692116286
-
----
-
-### @DLKFZWilliam2 GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：
-
-- Author: 独立开发者William [@DLKFZWilliam2](https://x.com/DLKFZWilliam2)
-- Tweet URL: [https://x.com/DLKFZWilliam2/status/2051388640740401425](https://x.com/DLKFZWilliam2/status/2051388640740401425)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-04T19:48:59.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [github.com/LayrKits/Sprite-Pipeline](https://github.com/LayrKits/Sprite-Pipeline)
-- Linked content:
-  - [GitHub - LayrKits/Sprite-Pipeline: 2D Sprite Sheet Creation Pipeline · GitHub](https://github.com/LayrKits/Sprite-Pipeline)
-    Images: https://opengraph.githubassets.com/479771bdf09ab9de242e78544ac4e8128c88809cc0085209ad375f2118fe8d23/LayrKits/Sprite-Pipeline
-- Thread URLs: none captured
-- Public metrics: bookmark_count=168, impression_count=3798, like_count=91, quote_count=0, reply_count=0, retweet_count=14
-
-> GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：https://github.com/LayrKits/Sprite-Pipeline
-
----
-
-### @DataChaz Hermes users after reading this:
-
-- Author: Charly Wargnier [@DataChaz](https://x.com/DataChaz)
-- Tweet URL: [https://x.com/DataChaz/status/2051272231456510333](https://x.com/DataChaz/status/2051272231456510333)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-04T12:06:25.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/DataChaz/status/2051272231456510333/video/1](https://x.com/DataChaz/status/2051272231456510333/video/1)
-  - [twitter.com/vmiss33/status/2050984556790939731](https://twitter.com/vmiss33/status/2050984556790939731)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg](https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=2264, impression_count=338819, like_count=938, quote_count=0, reply_count=19, retweet_count=56
-
-> Hermes users after reading this: https://x.com/DataChaz/status/2051272231456510333/video/1 https://twitter.com/vmiss33/status/2050984556790939731
-
----
-
 ### @ericzakariasson this is cursor team kit: a plugin for some skills we use to build cursor at cursor...
 
 - Author: eric zakariasson [@ericzakariasson](https://x.com/ericzakariasson)
@@ -23442,7 +25603,7 @@ But if the part you care about is the decision-making around the code, agents fe
     Images: https://cursor.com/marketplace/cursor/cursor-team-kit/opengraph-image, https://cursor.com/marketplace/cursor/cursor-team-kit/twitter-image, https://cursor-cdn.com/plugin-logos/production/e7f9aa0a9a21eba2.png
     Text: Skip to content Product ↓ Agents Code Review Tab CLI Enterprise Pricing Resources ↓ Changelog Blog Docs ↗ Community Learn ↗ Workshops Forum ↗ Future ↗ Marketplace Careers Product → Enterprise Pricing Resources → Marketplace / All Plugins...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1338, impression_count=95633, like_count=1146, quote_count=16, reply_count=32, retweet_count=66
+- Public metrics: bookmark_count=1338, like_count=1146, quote_count=16, reply_count=32, retweet_count=66
 
 > this is cursor team kit: a plugin for some skills we use to build cursor at cursor
 >
@@ -23469,13 +25630,66 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HHdqmiqakAAElpA.png](https://pbs.twimg.com/media/HHdqmiqakAAElpA.png)
     Images: https://pbs.twimg.com/media/HHdqmiqakAAElpA.png
 - Thread URLs: none captured
-- Public metrics: bookmark_count=970, impression_count=75999, like_count=450, quote_count=3, reply_count=22, retweet_count=52
+- Public metrics: bookmark_count=970, like_count=450, quote_count=3, reply_count=22, retweet_count=52
 
 > the 3-layer company second brain blueprint, optimized for agents
 >
 > Ashwin Gopalan's company brain series breaks down why, and it explains what you run into the second you wire agents into an organisation
 >
-> companies collect artifacts but lose the context. a CRM field tells you a https://x.com/shannholmberg/status/2051225368623972732/photo/1 https://twitter.com/ashwingop/status/2050963469898506342
+> companies collect artifacts but lose the context. a CRM field tells you a deal closed, not why it almost didn't. a ticket shows the bug, not the three escalations that made it urgent
+>
+> Ashwin splits the brain into three layers:
+>
+> > factual memory: artifacts, docs, tickets, CRM entries, what happened and where it lives
+> > interaction memory: what people actually meant, the debates, the promises, the escalations, lives in calls and threads but rarely gets saved
+> > action memory: coordinating from context instead of just automation, knowing when to move vs wait vs ask
+>
+> factual + interaction + reasoning + governed action = company brain
+>
+> when you wire agents into a workflow, the agent is only as useful as the memory it can read. feed it artifacts and you get search, feed it the interaction la...
+
+---
+
+### @DLKFZWilliam2 GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：
+
+- Author: 独立开发者William [@DLKFZWilliam2](https://x.com/DLKFZWilliam2)
+- Tweet URL: [https://x.com/DLKFZWilliam2/status/2051388640740401425](https://x.com/DLKFZWilliam2/status/2051388640740401425)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-04T19:48:59.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [github.com/LayrKits/Sprite-Pipeline](https://github.com/LayrKits/Sprite-Pipeline)
+- Linked content:
+  - [GitHub - LayrKits/Sprite-Pipeline: 2D Sprite Sheet Creation Pipeline · GitHub](https://github.com/LayrKits/Sprite-Pipeline)
+    Images: https://opengraph.githubassets.com/479771bdf09ab9de242e78544ac4e8128c88809cc0085209ad375f2118fe8d23/LayrKits/Sprite-Pipeline
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=91, quote_count=0, reply_count=0, retweet_count=14
+
+> GitHub地址如下，里面有整个pipeline，除了我正文说的方法，还做了很多一致性的处理，比如颜色背景，防止artifacts和jitter，值得看看研究下：https://github.com/LayrKits/Sprite-Pipeline
+
+---
+
+### @DataChaz Hermes users after reading this:
+
+- Author: Charly Wargnier [@DataChaz](https://x.com/DataChaz)
+- Tweet URL: [https://x.com/DataChaz/status/2051272231456510333](https://x.com/DataChaz/status/2051272231456510333)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-04T12:06:25.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/DataChaz/status/2051272231456510333/video/1](https://x.com/DataChaz/status/2051272231456510333/video/1)
+  - [twitter.com/vmiss33/status/2050984556790939731](https://twitter.com/vmiss33/status/2050984556790939731)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg](https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2051272148124065792/img/87YD91_onqYtjssa.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=2264, like_count=938, quote_count=0, reply_count=19, retweet_count=56
+
+> Hermes users after reading this: https://t.co/NoCjs0C2hQ
 
 ---
 
@@ -23492,13 +25706,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - Primary URLs:
   - [x.com/i/article/2051116213770883072](https://x.com/i/article/2051116213770883072)
   - [x.com/nicbstme/status/2015795605524901957?s=20](https://x.com/nicbstme/status/2015795605524901957?s=20)
+  - [x.com/i/article/2051116213770883072](http://x.com/i/article/2051116213770883072)
 - Linked content:
   - [x.com/i/article/2051116213770883072](https://x.com/i/article/2051116213770883072)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051116213770883072/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HHcU1vXbAAAL-...
+  - [x.com/i/article/2051116213770883072](http://x.com/i/article/2051116213770883072)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051116213770883072/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HHcU1vXbAAAL-...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=424, impression_count=37088, like_count=236, quote_count=8, reply_count=10, retweet_count=22
+- Public metrics: bookmark_count=0, like_count=236, quote_count=0, reply_count=10, retweet_count=22
 
-> https://x.com/i/article/2051116213770883072
+> http://x.com/i/article/2051116213770883072
 
 #### X Article
 
@@ -23533,231 +25750,20 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @GlennGilmore This to us, @brick_timber , is not new news but it is welcome confirmation of what has...
+### @wadezone 非常厉害的年轻人，值得一读
 
-- Author: Glenn Gilmore [@GlennGilmore](https://x.com/GlennGilmore)
-- Tweet URL: [https://x.com/GlennGilmore/status/2051023665593221208](https://x.com/GlennGilmore/status/2051023665593221208)
+- Author: Koda [@wadezone](https://x.com/wadezone)
+- Tweet URL: [https://x.com/wadezone/status/2050881245392040390](https://x.com/wadezone/status/2050881245392040390)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-03T19:38:42.000Z
+- Tweet created: 2026-05-03T10:12:47.000Z
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
-  - [therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1](https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1)
-- Linked content:
-  - [Jackson Square returns as AI booms in San Francisco](https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1)
-    Images: https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square.jpg, https://static.therealdeal.com/logos/trd-news-logo-light.svg, https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square-50x33.jpg
-    Text: Head any direction from the transit stop at Montgomery and Market Streets, and San Francisco reveals itself as a city still in recovery. Market Street is full of empty storefronts, none larger than the San Francisco Centre mall. The...
+  - [twitter.com/Russell3402/status/2050880340760383642](https://twitter.com/Russell3402/status/2050880340760383642)
 - Thread URLs: none captured
-- Public metrics: bookmark_count=13, impression_count=257897, like_count=28, quote_count=0, reply_count=0, retweet_count=1
+- Public metrics: bookmark_count=0, like_count=185, quote_count=0, reply_count=1, retweet_count=36
 
-> https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
->
-> This to us, @brick_timber , is not new news but it is welcome confirmation of what has been happening in this neighborhood for almost 15 years.  Covid slowed the progression, but we are back on track in a big way.  Also, with the terrific work of
-
----
-
-### @vmiss33 
-
-- Author: vmiss [@vmiss33](https://x.com/vmiss33)
-- Tweet URL: [https://x.com/vmiss33/status/2050984556790939731](https://x.com/vmiss33/status/2050984556790939731)
-- X article: [What I Use Hermes Agent For (And How I Use It)](https://x.com/vmiss33/article/2050984556790939731)
-- X article text: I have been running a multi agent setup for Hermes agent for the last several weeks. Honestly? It took me a while to get here. I installed OpenClaw in the midst of the hype, stared at it for an hour, and never went back to it. Why? I didn’t know what to use it for. I watched the timeline on X...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T17:03:18.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2050983909576294400](https://x.com/i/article/2050983909576294400)
-  - [build.nvidia.com/models](https://build.nvidia.com/models)
-- Linked content:
-  - [x.com/i/article/2050983909576294400](https://x.com/i/article/2050983909576294400)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050983909576294400/i/keyboard%5Fshortcuts)...
-  - [Try NVIDIA NIM APIs](https://build.nvidia.com/models)
-    Images: https://build.nvidia.com/opengraph-image.jpg?6ec102a0470b935b, https://build.nvidia.com/twitter-image.jpg?6ec102a0470b935b, https://build.nvidia.com/_next/image?url=%2Fnvidia-logo.png&w=600&q=75
-    Text: Explore Models Blueprints GPUs Docs ⌘K Ctrl+K ? Login Terms of Use Privacy Policy Your Privacy Choices Contact Copyright © 2026 NVIDIA Corporation Models Deploy and scale models on your GPU infrastructure of choice with NVIDIA NIM...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=5335, impression_count=543772, like_count=1917, quote_count=27, reply_count=80, retweet_count=166
-
-> https://x.com/i/article/2050983909576294400
-
-#### X Article
-
-> I have been running a multi agent setup for Hermes agent for the last several weeks.  Honestly?  It took me a while to get here.  I installed OpenClaw in the midst of the hype, stared at it for an hour, and never went back to it.  Why?  I didn’t know what to use it for.  I watched the timeline on X about all these things going on and the Mac Mini crazy and sat there scratching my head, but I really wanted to get in on it.
-> When you ask “What do you use your AI agent for?”, many people out there will give answers like “anything” or “everything” or “coding”, and I have been known to give those answers too.  Today, I want to walk through some ideas for how you get started with what to use Hermes Agent for, so you can make the most of it.  I’ll give you some examples on how you can start using it for yourself, going into some of my weird use cases as examples.
-> How to Figure Out What to Use Hermes Agent For
-> My personal philosophy when it comes to AI is I treat AI as my assistant.  I don’t use it to replace my thinking, I use it to point me in the right direction.  I make it do grunt work, then I verify and proceed.  For automated tasks, I only have AI automate and execute things I already understand how to do.  This is my personal philosophy and your milage may vary based on the way you do things.
-> So what things do you use a personal AI agent for?  That’s the question we all ask.
-> What I have found to be extremely helpful was writing down things I did for a day, then taking a good look at that list.  After, I went further and added and expanded to the list over the course of a week or so.
-> I asked myself things like “What are the things that took a lot of time?” and “What are things that  I have to do, but didn’t provide a lot of value to my workflow?”.
-> Make that list, and start playing with Hermes.
-> The Softer Stuff
-> Here’s another thing to ask yourself, “What are some issues in your life day to day?”.  I don’t mean figuring out which model to run on your local hardware, I mean the softer stuff, the stuff that impacts your life as a human being.  Are there things you forget to do?  Are there things that you have to deal with that just make your life harder to deal with?
-> I ended up coming up with a couple of more really helpful ideas when I asked this question.
-> After some brainstorming, I got to work.
-> The Agent Crew
-> Of course, I didn’t just start with one agent, I started with a bunch.  One great thing about Hermes is that you can configure different profiles, each using a different provider/model, and change that model easily from the TUI at any time.  I like to tinker so this was a huge plus for me, to compare how models responded side by side.
-> Here is a break down of my current agent crew, and what provider/model they use currently.  I access them using the Hermes TUI and over Telegram.
-> Tech Research Agent
-> Generally I use this agent a topic and ask for a research brief, along with citations.  For me, citations are key, because I want to go read the academic papers / source material.  For example, I used this agent to help me learn how to do model quantizations, I didn’t have to agent do it for me, but I had it teach me how to do it myself.
-> This agent uses on the Nous portal currently, with MiniMax M2.7, but I’ve had it use other models/providers in the past such as models off of NVIDIA NIM.
-> Tech Task Master Agent
-> I use this agent for building skills for Hermes, and I also had it do all my TUI customizations for all of my agents yesterday.  This is really the anything agent.
-> This agent currently uses GPT 5.5 via my ChatGPT Plus Codex SUBSCRIPTION, not the API.  I will most likely keep using GPT 5.5 for this agent, and come up with a backup for if/when I run out of quota.
-> A note on Tech Agents: I was using them interchangeably at one point for lots of model/provider testing, but I think I’ll be continuing to use them this way going forward, one as the researcher, and one as the executor so to speak.
-> Lifestyle Agent
-> At the risk of bein...
-
----
-
-### @grapeot 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。...
-
-- Author: 鸭哥 [@grapeot](https://x.com/grapeot)
-- Tweet URL: [https://x.com/grapeot/status/2050968710056444112](https://x.com/grapeot/status/2050968710056444112)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T16:00:20.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=129, impression_count=10681, like_count=81, quote_count=1, reply_count=7, retweet_count=7
-
-> 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。
->
-> 更难、也更大的地方，是那些过去一直停在软件边界外的小生意：比如一家本地招牌打印店，订单从电话、邮件、路边来，每单都要重新确认材料、尺寸、设计、安装和排期。
-
----
-
-### @rohit4verse 
-
-- Author: Rohit [@rohit4verse](https://x.com/rohit4verse)
-- Tweet URL: [https://x.com/rohit4verse/status/2050968031493550202](https://x.com/rohit4verse/status/2050968031493550202)
-- X article: [How to think using AI](https://x.com/rohit4verse/article/2050968031493550202)
-- X article text: There is no neutral way to use AI. You either get sharper using it or you get hollower. Most people are getting hollower. They will not notice until they try to work without it. Stop scrolling for a second. If every AI tool you use disappeared tomorrow morning, what could you still build? What...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T15:57:38.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2050613084558094336](https://x.com/i/article/2050613084558094336)
-- Linked content:
-  - [x.com/i/article/2050613084558094336](https://x.com/i/article/2050613084558094336)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050613084558094336/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1486, impression_count=404272, like_count=587, quote_count=26, reply_count=39, retweet_count=89
-
-> https://x.com/i/article/2050613084558094336
-
-#### X Article
-
-> There is no neutral way to use AI. You either get sharper using it or you get hollower. Most people are getting hollower. They will not notice until they try to work without it.
-> Stop scrolling for a second.
-> If every AI tool you use disappeared tomorrow morning, what could you still build? What could you still write? What could you still figure out alone, with no chat window open and no autocomplete suggesting the next line?
-> How many hours of your last week were spent thinking versus prompting? Are those the same thing? Are you sure?
-> How much of the work you call yours is actually yours, and how much of it would collapse the moment your subscription lapsed?
-> Most people will not sit with these questions because the answers are uncomfortable. The discomfort is the signal. Sit with it anyway. Whatever you are about to read in this article works only if you have first admitted to yourself how much of your cognition has already migrated outward.
-> Three months ago I sat staring at a function I had written six weeks earlier and could not make sense of it. I read it once. Then again. Then I opened the chat window and asked the model to explain what I had written. That small moment landed harder than it should have. I had spent the previous months calling myself productive while the part of my brain that reads code had started shutting down.
-> Other cracks followed over the next few weeks. My hand drifted toward the chat window before I tried to think through a problem. I would draft a tweet and reach for the polish button as a reflex. I would open a paper and feel my brain refuse to load the abstract because I could paste it into a summary tool. I would sit in a meeting and feel that pull toward my laptop the moment a strategic question got harder than I wanted it to be.
-> I had been working those months without thinking through any of it. The output stayed the same. The work shipped. The income kept coming. The muscle that does the actual work behind the work, the one that lets you sit with a hard problem in silence for three minutes and come back with a real answer, had withered while I was busy congratulating myself on the shipping velocity.
-> I am writing this article because I came close to not noticing. Most people will not notice. Some will read it, recognise themselves, close the tab, and open ChatGPT to summarise what they read.
-> what MIT actually found
-> A few weeks after I figured this out, a paper from the MIT Media Lab went viral. The loudest tweets framed it as: AI is making you dumb. Worse than narcotics.
->
-> That reading is wrong. The underlying paper is correct. And the part most readers missed is the part that matters.
-> Eight researchers wired 54 university students to EEG machines and ran them through three essay-writing sessions over four months. One group used ChatGPT. Another used Google. A third used nothing. The ChatGPT group's neural connectivity weakened across every session. By session three, participants were copy-pasting. Asked to quote a single line from the essay they had written minutes earlier, most could not.
-> The phrase the authors coined for this is "cognitive debt." You borrow against your own thinking to ship faster today, and the interest compounds against your future capacity to think at all.
-> The viral tweets skipped the fourth session.
-> In session four the researchers swapped the groups. The hand-writers got ChatGPT. The ChatGPT users had their tools removed. The results inverted in a way the loudest takes missed.
-> The hand-writers, after they got AI in session four, showed higher neural connectivity across alpha, beta, theta, and delta bands than any of the AI-only sessions. Their brains lit up wider when they added AI to an existing structure of competence.
-> The AI users, after losing their tool, could not function. The researchers asked them to quote from the essay they had written minutes earlier. Seventy-eight percent could not produce a single line. Eleven percent produced a correct quote.
-> The paper's actu...
-
----
-
-### @ashwingop 
-
-- Author: Ashwin Gopinath [@ashwingop](https://x.com/ashwingop)
-- Tweet URL: [https://x.com/ashwingop/status/2050963469898506342](https://x.com/ashwingop/status/2050963469898506342)
-- X article: [Company Brain, Part 3: Interaction Memory ](https://x.com/ashwingop/article/2050963469898506342)
-- X article text: Almost everything important in a company happens in meetings, messages, or emails. That sounds exaggerated until you start listing the actual places where decisions are made. A customer complains on a call. A sales rep promises a workaround. A manager says a project is blocked, but only after...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T15:39:30.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2050947533111975936](https://x.com/i/article/2050947533111975936)
-- Linked content:
-  - [x.com/i/article/2050947533111975936](https://x.com/i/article/2050947533111975936)
-    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1816, impression_count=141135, like_count=684, quote_count=5, reply_count=7, retweet_count=69
-
-> https://x.com/i/article/2050947533111975936
-
-#### X Article
-
-> Almost everything important in a company happens in meetings, messages, or emails.
-> That sounds exaggerated until you start listing the actual places where decisions are made. A customer complains on a call. A sales rep promises a workaround. A manager says a project is blocked, but only after someone asks twice. A founder changes the priority in a five-minute Slack exchange. Legal approves something with conditions. Engineering agrees to ship, but only if one assumption holds.
-> Later, some artifacts appeared. A ticket. A CRM update. A roadmap note. A line in a launch doc. By then, the real context has already been compressed.
-> The last post was about factual memory: what happened, where the source is, who owns it, when it changed, and how things connect. Interaction memory is different. It is not the memory of artifacts. It is the memory of what happened between people before the artifact existed.
-> Its goal is to preserve the parts factual memory usually drops: why something happened, how people expected the work to be done, what constraint mattered, which assumption was fragile, and what was left unsaid. Interaction is the chain of thought of the organization. It is the trace of how a group moved from partial information to judgment.
-> That difference matters because companies do not make most decisions inside databases. They make them in conversation. The database records the aftermath. A CRM field may say an account is at risk, but the customer call explains the real objection. A roadmap document may say launch moved by two weeks, but the meeting explains the tradeoff. A ticket may say SSO is needed, but the sales conversation explains why it mattered and who made the promise.
-> Human-human interaction is still upstream of human-agent interaction. Agents matter, and agent traces will matter more over time. But today, most agent work inherits its purpose from human conversations. The agent may draft the email, update the ticket, summarize the thread, or execute the workflow. The reason the work exists usually came from people talking to each other.
-> If factual memory is the company remembering its artifacts, interaction memory is the company remembering how meaning was created.
-> A transcript is not enough. A summary is not enough. Even a good meeting note is only a surface representation of the interaction. The hard problem is interpretation. What was actually decided? What was implied but not said? What did people disagree about? Which objection was real? Which commitment was made casually but will later matter?
-> Ontology is the word for this problem. An ontology is the set of concepts and relationships a system uses to make sense of a domain. In a company, the ontology decides whether something in a conversation is a decision, commitment, objection, escalation, dependency, assumption, customer pain, owner, precedent, or open question. Those labels are not just metadata. They decide what gets remembered.
-> Take a boring sentence from a meeting: “We can ship this Friday if legal signs off and Acme is okay with the beta limitation.”
-> A transcript stores the sentence. A meeting summary might say the team discussed the Friday launch. Interaction memory has to see the structure underneath. From a product lens, this is a launch plan with a constraint. From a legal lens, it is an approval dependency. From a customer lens, it is a conditional commitment to Acme. From a sales lens, it may be a deal risk. From an action lens, it contains follow-ups. From an executive lens, it is not actually a closed decision.
-> Humans do this naturally. We hear the same sentence differently depending on the customer, the project, the speaker, the history of the account, and what happens if the interpretation is wrong. Existing systems usually do not. They store the sentence once, attach a summary, and hope retrieval will recover the meaning later.
-> Interaction memory cannot be a static note archive. The meaning of an interaction depends on the ontology used to int...
-
----
-
-### @Pluvio9yte 目前很多人都再说 /goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读 /goal的配置方式也很简单，需要编辑配置文件： vim...
-
-- Author: 雪踏乌云 [@Pluvio9yte](https://x.com/Pluvio9yte)
-- Tweet URL: [https://x.com/Pluvio9yte/status/2050954177782898871](https://x.com/Pluvio9yte/status/2050954177782898871)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T15:02:35.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/Pluvio9yte/status/2050952688335270158](https://twitter.com/Pluvio9yte/status/2050952688335270158)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=247, impression_count=43586, like_count=150, quote_count=1, reply_count=1, retweet_count=34
-
-> 目前很多人都再说 /goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读
->
-> /goal的配置方式也很简单，需要编辑配置文件：
->
-> vim ~/.codex/config.toml
-> 然后加入以下内容
-> [features]
-> goals = true https://twitter.com/Pluvio9yte/status/2050952688335270158
-
----
-
-### @frxiaobei 这个作者做了很多年企业咨询，基本把 AI 落地最尴尬的地方讲清楚了。 现在很多公司一聊 AI，就开始聊模型选型，工作流改造，Agent。...
-
-- Author: 凡人小北 [@frxiaobei](https://x.com/frxiaobei)
-- Tweet URL: [https://x.com/frxiaobei/status/2050951487371796836](https://x.com/frxiaobei/status/2050951487371796836)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T14:51:54.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/danielmiessler/status/2050666594188304484](https://twitter.com/danielmiessler/status/2050666594188304484)
-  - [twitter.com/DanielMiessler/status/2050666594188304484](https://twitter.com/DanielMiessler/status/2050666594188304484)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=90, impression_count=10779, like_count=57, quote_count=0, reply_count=11, retweet_count=10
-
-> 这个作者做了很多年企业咨询，基本把 AI 落地最尴尬的地方讲清楚了。
->
-> 现在很多公司一聊 AI，就开始聊模型选型，工作流改造，Agent。
-> 但真正卡点还得前置，到底知不知道自己想让 AI 执行什么。
->
-> 很多所谓 AI 用不起来的往下挖一层，会发现是组织自己说不清。
->
-> 这种情况下 AI https://twitter.com/DanielMiessler/status/2050666594188304484
+> 非常厉害的年轻人，值得一读
 
 ---
 
@@ -23773,13 +25779,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2050936677435068416](https://x.com/i/article/2050936677435068416)
+  - [x.com/i/article/2050936677435068416](http://x.com/i/article/2050936677435068416)
 - Linked content:
   - [x.com/i/article/2050936677435068416](https://x.com/i/article/2050936677435068416)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050936677435068416/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2050936677435068416](http://x.com/i/article/2050936677435068416)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050936677435068416/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1691, impression_count=114922, like_count=695, quote_count=6, reply_count=10, retweet_count=79
+- Public metrics: bookmark_count=1691, like_count=695, quote_count=6, reply_count=10, retweet_count=79
 
-> https://x.com/i/article/2050936677435068416
+> http://x.com/i/article/2050936677435068416
 
 #### X Article
 
@@ -23845,6 +25854,216 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
+### @GlennGilmore This to us, @brick_timber , is not new news but it is welcome confirmation of what has...
+
+- Author: Glenn Gilmore [@GlennGilmore](https://x.com/GlennGilmore)
+- Tweet URL: [https://x.com/GlennGilmore/status/2051023665593221208](https://x.com/GlennGilmore/status/2051023665593221208)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T19:38:42.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1](https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1)
+- Linked content:
+  - [Jackson Square returns as AI booms in San Francisco](https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1)
+    Images: https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square.jpg, https://static.therealdeal.com/logos/trd-news-logo-light.svg, https://static.therealdeal.com/wp-content/uploads/2026/04/Jackson-Square-50x33.jpg
+    Text: Head any direction from the transit stop at Montgomery and Market Streets, and San Francisco reveals itself as a city still in recovery. Market Street is full of empty storefronts, none larger than the San Francisco Centre mall. The...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=28, quote_count=0, reply_count=0, retweet_count=1
+
+> https://therealdeal.com/magazine/april-2026/not-a-hallucination/?tpcc=sprout_general&utm_campaign=sprout_general&utm_content=1777749104&utm_medium=The+Real+Deal&utm_source=facebook&fbclid=IwZnRzaARkOnpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeuBmNLTZVCO6CRFYguGL0lk795cOVc-31gTVfoGzNfuheV3UDDpDClVIiQ_o_aem_1ZTIWkMwndXS9GXDT-Dhcw&utm_id=97758_v0_s00_e0_tv1_a1demo0jgdstw1
+>
+> This to us, @brick_timber , is not new news but it is welcome confirmation of what has been happening in this neighborhood for almost 15 years.  Covid slowed the progression, but we are back on track in a big way.  Also, with the terrific work of @DannySauter there was blocking legislation removed that now allows for far more retail uses on the ground floors of these buildings, which will continue to make the neighborhood improve and thrive.  This neighborhood is very unique and once companies get the opportunity to work in it they don’t want to leave.  Unfortunately, do to growth, many have no choice.
+
+---
+
+### @rohit4verse 
+
+- Author: Rohit [@rohit4verse](https://x.com/rohit4verse)
+- Tweet URL: [https://x.com/rohit4verse/status/2050968031493550202](https://x.com/rohit4verse/status/2050968031493550202)
+- X article: [How to think using AI](https://x.com/rohit4verse/article/2050968031493550202)
+- X article text: There is no neutral way to use AI. You either get sharper using it or you get hollower. Most people are getting hollower. They will not notice until they try to work without it. Stop scrolling for a second. If every AI tool you use disappeared tomorrow morning, what could you still build? What...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T15:57:38.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2050613084558094336](https://x.com/i/article/2050613084558094336)
+  - [x.com/i/article/2050613084558094336](http://x.com/i/article/2050613084558094336)
+- Linked content:
+  - [x.com/i/article/2050613084558094336](https://x.com/i/article/2050613084558094336)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050613084558094336/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2050613084558094336](http://x.com/i/article/2050613084558094336)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050613084558094336/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=587, quote_count=26, reply_count=39, retweet_count=89
+
+> http://x.com/i/article/2050613084558094336
+
+#### X Article
+
+> There is no neutral way to use AI. You either get sharper using it or you get hollower. Most people are getting hollower. They will not notice until they try to work without it.
+> Stop scrolling for a second.
+> If every AI tool you use disappeared tomorrow morning, what could you still build? What could you still write? What could you still figure out alone, with no chat window open and no autocomplete suggesting the next line?
+> How many hours of your last week were spent thinking versus prompting? Are those the same thing? Are you sure?
+> How much of the work you call yours is actually yours, and how much of it would collapse the moment your subscription lapsed?
+> Most people will not sit with these questions because the answers are uncomfortable. The discomfort is the signal. Sit with it anyway. Whatever you are about to read in this article works only if you have first admitted to yourself how much of your cognition has already migrated outward.
+> Three months ago I sat staring at a function I had written six weeks earlier and could not make sense of it. I read it once. Then again. Then I opened the chat window and asked the model to explain what I had written. That small moment landed harder than it should have. I had spent the previous months calling myself productive while the part of my brain that reads code had started shutting down.
+> Other cracks followed over the next few weeks. My hand drifted toward the chat window before I tried to think through a problem. I would draft a tweet and reach for the polish button as a reflex. I would open a paper and feel my brain refuse to load the abstract because I could paste it into a summary tool. I would sit in a meeting and feel that pull toward my laptop the moment a strategic question got harder than I wanted it to be.
+> I had been working those months without thinking through any of it. The output stayed the same. The work shipped. The income kept coming. The muscle that does the actual work behind the work, the one that lets you sit with a hard problem in silence for three minutes and come back with a real answer, had withered while I was busy congratulating myself on the shipping velocity.
+> I am writing this article because I came close to not noticing. Most people will not notice. Some will read it, recognise themselves, close the tab, and open ChatGPT to summarise what they read.
+> what MIT actually found
+> A few weeks after I figured this out, a paper from the MIT Media Lab went viral. The loudest tweets framed it as: AI is making you dumb. Worse than narcotics.
+>
+> That reading is wrong. The underlying paper is correct. And the part most readers missed is the part that matters.
+> Eight researchers wired 54 university students to EEG machines and ran them through three essay-writing sessions over four months. One group used ChatGPT. Another used Google. A third used nothing. The ChatGPT group's neural connectivity weakened across every session. By session three, participants were copy-pasting. Asked to quote a single line from the essay they had written minutes earlier, most could not.
+> The phrase the authors coined for this is "cognitive debt." You borrow against your own thinking to ship faster today, and the interest compounds against your future capacity to think at all.
+> The viral tweets skipped the fourth session.
+> In session four the researchers swapped the groups. The hand-writers got ChatGPT. The ChatGPT users had their tools removed. The results inverted in a way the loudest takes missed.
+> The hand-writers, after they got AI in session four, showed higher neural connectivity across alpha, beta, theta, and delta bands than any of the AI-only sessions. Their brains lit up wider when they added AI to an existing structure of competence.
+> The AI users, after losing their tool, could not function. The researchers asked them to quote from the essay they had written minutes earlier. Seventy-eight percent could not produce a single line. Eleven percent produced a correct quote.
+> The paper's actu...
+
+---
+
+### @grapeot 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。...
+
+- Author: 鸭哥 [@grapeot](https://x.com/grapeot)
+- Tweet URL: [https://x.com/grapeot/status/2050968710056444112](https://x.com/grapeot/status/2050968710056444112)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T16:00:20.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [yage.ai/share/fde-ai-smb-digitization-20260503.html?utm_source=twitter&utm_medium=thread&utm_campaign=fde-ai-smb-digitization-20260503](https://yage.ai/share/fde-ai-smb-digitization-20260503.html?utm_source=twitter&utm_medium=thread&utm_campaign=fde-ai-smb-digitization-20260503)
+- Linked content:
+  - [AI 会把软件带到过去够不到的地方吗？FDE 模式真正重要的地方](https://yage.ai/share/fde-ai-smb-digitization-20260503.html?utm_source=twitter&utm_medium=thread&utm_campaign=fde-ai-smb-digitization-20260503)
+    Text: 我家附近有一家招牌打印店。订单从电话、邮件、路边走进来。每一单的材料类型、尺寸、安装方式都不一样，设计稿要反复改，审批要过几道，工期得在已经排满的日程里挤出来。老板听过 AI，也知道软件有用。但他最担心的是：新系统会不会把报价搞错，把工期排乱，让员工花几周学一套到头来发现不适配的东西。 美国这样的 sign and banner shop 超过四万家。[IBISWorld](https://www.ibisworld.com/united-states/number-...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=81, quote_count=0, reply_count=7, retweet_count=7
+
+> 我最近越来越觉得，AI 真正大的机会不只是让已经买软件的公司更自动化。
+>
+> 更难、也更大的地方，是那些过去一直停在软件边界外的小生意：比如一家本地招牌打印店，订单从电话、邮件、路边来，每单都要重新确认材料、尺寸、设计、安装和排期。
+>
+> 这类生意缺的不是一个更聪明的按钮，而是有人把现实流程翻译成系统语言。FDE 模式重要，就在这里。
+>
+> 写了一篇：FDE 为什么重要，以及为什么它不能简单照搬 Palantir / OpenAI 的高成本形态。
+>
+> https://yage.ai/share/fde-ai-smb-digitization-20260503.html?utm_source=twitter&utm_medium=thread&utm_campaign=fde-ai-smb-digitization-20260503
+
+---
+
+### @zeyu1337 
+
+- Author: zayne (zeyu) zhang [@zeyu1337](https://x.com/zeyu1337)
+- Tweet URL: [https://x.com/zeyu1337/status/2050759187576021219](https://x.com/zeyu1337/status/2050759187576021219)
+- X article: [Harness engineering: Preparing TypeScript codebases for coding agents](https://x.com/zeyu1337/article/2050759187576021219)
+- X article text: At @HacktronAI, I pushed our product team to fully embrace vibe coding with Claude Code and Codex, while enforcing guardrails and code quality standards. Vibe coding works best when the codebase has strong affordances — a concept in design that describes the possible actions an actor (in this...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T02:07:46.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2050756524591419392](https://x.com/i/article/2050756524591419392)
+  - [x.com/i/article/2050756524591419392](http://x.com/i/article/2050756524591419392)
+- Linked content:
+  - [x.com/i/article/2050756524591419392](https://x.com/i/article/2050756524591419392)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050756524591419392/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2050756524591419392](http://x.com/i/article/2050756524591419392)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050756524591419392/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=159, quote_count=0, reply_count=2, retweet_count=15
+
+> http://x.com/i/article/2050756524591419392
+
+#### X Article
+
+> At @HacktronAI, I pushed our product team to fully embrace vibe coding with Claude Code and Codex, while enforcing guardrails and code quality standards.
+> Vibe coding works best when the codebase has strong affordances — a concept in design that describes the possible actions an actor (in this case, a coding agent) can take, in relation to an object (in this case, the codebase):
+> Affordance: a use or purpose that a thing can have, that people notice as part of the way they see or experience it.
+> For a coding agent like Claude Code or Cursor to produce productive code instead of "AI slop" that becomes expensive to maintain and clean up later, building a codebase with obvious structure and automated guardrails becomes important.
+> Even the smartest models today can't possibly reason about every edge case without a good harness. And even with coding agents like Claude Code, designing repositories in a thoughtful way can go a long way in improving the quality of the code.
+> A repository should be treated less like a pile of code that can be executed, and more like an execution environment for agents. Good vibe coding, therefore, would mean that the environment provides:
+> Fast validation against "bad engineering"
+> A constrained blast radius
+> Guardrails that enforce invariants before commiting
+> Tests and scripts that the agent can use to "vibe-check" itself
+> Make the repository legible to agents
+> Use pnpm and set up a monorepo. If you want to work across multiple repositories for frontend and various backend microservices, you'll need to either make your coding agent context switch across these repositories, or provide them with overly broad permissions so that they can access all repositories in the same session. This isn't nice. So just use a monorepo.
+>
+> The monorepo structure allows you to create multiple apps that use shared packages. These can be utilities and type definitions. In addition, I find it useful to standardise ESLint and TypeScript configurations in a shared package, so that they can be easily imported in new apps and packages.
+> For example, once you export an ESLint configuration like this in a shared package:
+>
+> Each app and package can simply import from this configuration.
+>
+> Skills encapsulate best practices
+> Skills like nestjs-best-practices and typescript-advanced-types can help coding agents produce idiomatic code. Of course, a lot of this is strongly opinionated, so we also write our own skills to encapsulate the best practices we've learnt over the years. If you don't know what those best practices should be, Google this or point AI at an example repository that demonstrates strong software engineering principles, and have it come up with its own skill.
+> We have engineers using all sorts of different agents: Claude, Codex, Cursor, …, so if we want these skills to be useful and shared across team members, we need every coding agent to use the same set of skills.
+> That's why skills are stored in .agents, and .codex, .claude, etc. symlink to the skills stored in the main .agents directory.
+>
+> Documentation that agents read and maintain
+> A CLAUDE.md (or equivalent), if written well, goes a long way in providing self-evolving documentation. This documentation can outline architecture, tech stack, but also more importantly, rules that the AI agent should abide by.
+>
+> A few things here:
+> We enforce self-documenting development by instructing the agent to update Notion documentation. This assumes that the Notion MCP is used.
+> We enforce AI coding rules based on behaviour we've observed in the past. For example, we saw that frontend code produced a lot of slop due to the nature of UI iteration: it's meant to produce lots of different variations until the developer is happy with the result. This means that often times, coding agents leave a lot of stale and dead code from previous iterations. We found that enforcing the "minimal changes" rule helped a lot.
+> "Garbage collection" for slop
+> Even with our best efforts, "slop code" is inevitable. It'...
+
+---
+
+### @1weiho Introducing open-slide - The slide framework built for agents. Prompt your agent, get a...
+
+- Author: Yiwei Ho [@1weiho](https://x.com/1weiho)
+- Tweet URL: [https://x.com/1weiho/status/2050602481953181968](https://x.com/1weiho/status/2050602481953181968)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-02T15:45:04.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/1weiho/status/2050602481953181968/video/1](https://x.com/1weiho/status/2050602481953181968/video/1)
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg](https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg
+- Thread URLs: none captured
+- Public metrics: bookmark_count=4502, like_count=2872, quote_count=26, reply_count=72, retweet_count=224
+
+> Introducing open-slide - The slide framework built for agents.
+>
+> Prompt your agent, get a polished deck.
+>
+> $ npx @⁠open-slide/cli init
+>
+> 👇 https://t.co/bR3WuQtAjl
+
+---
+
+### @anshublog “Agents will generate workflows dynamically. Applications will get thinner. And the...
+
+- Author: Anshu Sharma 🌶 [@anshublog](https://x.com/anshublog)
+- Tweet URL: [https://x.com/anshublog/status/2050742675763319014](https://x.com/anshublog/status/2050742675763319014)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T01:02:09.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/siddontang/status/2050409724949270783](https://twitter.com/siddontang/status/2050409724949270783)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=116, quote_count=2, reply_count=8, retweet_count=10
+
+> “Agents will generate workflows dynamically. Applications will get thinner. And the systems that manage memory, state, coordination, and history will become more important than ever.
+>
+> Which is why I think databases are moving back to the center of software architecture.
+>
+> Not as storage.
+>
+> As runtime.”
+
+---
+
 ### @emollick This is a good explanation of why the gap between open and closed models is larger than...
 
 - Author: Ethan Mollick [@emollick](https://x.com/emollick)
@@ -23856,26 +26075,65 @@ But if the part you care about is the decision-making around the code, agents fe
 - Primary URLs:
   - [twitter.com/scaling01/status/2050616057191072161](https://twitter.com/scaling01/status/2050616057191072161)
 - Thread URLs: none captured
-- Public metrics: bookmark_count=645, impression_count=240248, like_count=981, quote_count=11, reply_count=45, retweet_count=93
+- Public metrics: bookmark_count=0, like_count=981, quote_count=11, reply_count=45, retweet_count=93
 
-> This is a good explanation of why the gap between open and closed models is larger than it appears in benchmarks. I would add in that current open models are also more fragile than closed: they handle out-of-distribution problems far less well &amp; have lower emergent capabilities. https://twitter.com/scaling01/status/2050616057191072161
+> This is a good explanation of why the gap between open and closed models is larger than it appears in benchmarks. I would add in that current open models are also more fragile than closed: they handle out-of-distribution problems far less well &amp; have lower emergent capabilities.
 
 ---
 
-### @wadezone 非常厉害的年轻人，值得一读
+### @vmiss33 
 
-- Author: Koda [@wadezone](https://x.com/wadezone)
-- Tweet URL: [https://x.com/wadezone/status/2050881245392040390](https://x.com/wadezone/status/2050881245392040390)
+- Author: vmiss [@vmiss33](https://x.com/vmiss33)
+- Tweet URL: [https://x.com/vmiss33/status/2050984556790939731](https://x.com/vmiss33/status/2050984556790939731)
+- X article: [What I Use Hermes Agent For (And How I Use It)](https://x.com/vmiss33/article/2050984556790939731)
+- X article text: I have been running a multi agent setup for Hermes agent for the last several weeks. Honestly? It took me a while to get here. I installed OpenClaw in the midst of the hype, stared at it for an hour, and never went back to it. Why? I didn’t know what to use it for. I watched the timeline on X...
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-03T10:12:47.000Z
+- Tweet created: 2026-05-03T17:03:18.000Z
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
-  - [twitter.com/Russell3402/status/2050880340760383642](https://twitter.com/Russell3402/status/2050880340760383642)
+  - [x.com/i/article/2050983909576294400](https://x.com/i/article/2050983909576294400)
+  - [build.nvidia.com/models](https://build.nvidia.com/models)
+  - [x.com/i/article/2050983909576294400](http://x.com/i/article/2050983909576294400)
+- Linked content:
+  - [x.com/i/article/2050983909576294400](https://x.com/i/article/2050983909576294400)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050983909576294400/i/keyboard%5Fshortcuts)...
+  - [Try NVIDIA NIM APIs](https://build.nvidia.com/models)
+    Images: https://build.nvidia.com/opengraph-image.jpg?6ec102a0470b935b, https://build.nvidia.com/twitter-image.jpg?6ec102a0470b935b, https://build.nvidia.com/_next/image?url=%2Fnvidia-logo.png&w=600&q=75
+    Text: Explore Models Blueprints GPUs Docs ⌘K Ctrl+K ? Login Terms of Use Privacy Policy Your Privacy Choices Contact Copyright © 2026 NVIDIA Corporation Models Deploy and scale models on your GPU infrastructure of choice with NVIDIA NIM...
+  - [x.com/i/article/2050983909576294400](http://x.com/i/article/2050983909576294400)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050983909576294400/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=271, impression_count=55598, like_count=185, quote_count=0, reply_count=1, retweet_count=36
+- Public metrics: bookmark_count=5335, like_count=1917, quote_count=27, reply_count=80, retweet_count=166
 
-> 非常厉害的年轻人，值得一读 https://twitter.com/Russell3402/status/2050880340760383642
+> http://x.com/i/article/2050983909576294400
+
+#### X Article
+
+> I have been running a multi agent setup for Hermes agent for the last several weeks.  Honestly?  It took me a while to get here.  I installed OpenClaw in the midst of the hype, stared at it for an hour, and never went back to it.  Why?  I didn’t know what to use it for.  I watched the timeline on X about all these things going on and the Mac Mini crazy and sat there scratching my head, but I really wanted to get in on it.
+> When you ask “What do you use your AI agent for?”, many people out there will give answers like “anything” or “everything” or “coding”, and I have been known to give those answers too.  Today, I want to walk through some ideas for how you get started with what to use Hermes Agent for, so you can make the most of it.  I’ll give you some examples on how you can start using it for yourself, going into some of my weird use cases as examples.
+> How to Figure Out What to Use Hermes Agent For
+> My personal philosophy when it comes to AI is I treat AI as my assistant.  I don’t use it to replace my thinking, I use it to point me in the right direction.  I make it do grunt work, then I verify and proceed.  For automated tasks, I only have AI automate and execute things I already understand how to do.  This is my personal philosophy and your milage may vary based on the way you do things.
+> So what things do you use a personal AI agent for?  That’s the question we all ask.
+> What I have found to be extremely helpful was writing down things I did for a day, then taking a good look at that list.  After, I went further and added and expanded to the list over the course of a week or so.
+> I asked myself things like “What are the things that took a lot of time?” and “What are things that  I have to do, but didn’t provide a lot of value to my workflow?”.
+> Make that list, and start playing with Hermes.
+> The Softer Stuff
+> Here’s another thing to ask yourself, “What are some issues in your life day to day?”.  I don’t mean figuring out which model to run on your local hardware, I mean the softer stuff, the stuff that impacts your life as a human being.  Are there things you forget to do?  Are there things that you have to deal with that just make your life harder to deal with?
+> I ended up coming up with a couple of more really helpful ideas when I asked this question.
+> After some brainstorming, I got to work.
+> The Agent Crew
+> Of course, I didn’t just start with one agent, I started with a bunch.  One great thing about Hermes is that you can configure different profiles, each using a different provider/model, and change that model easily from the TUI at any time.  I like to tinker so this was a huge plus for me, to compare how models responded side by side.
+> Here is a break down of my current agent crew, and what provider/model they use currently.  I access them using the Hermes TUI and over Telegram.
+> Tech Research Agent
+> Generally I use this agent a topic and ask for a research brief, along with citations.  For me, citations are key, because I want to go read the academic papers / source material.  For example, I used this agent to help me learn how to do model quantizations, I didn’t have to agent do it for me, but I had it teach me how to do it myself.
+> This agent uses on the Nous portal currently, with MiniMax M2.7, but I’ve had it use other models/providers in the past such as models off of NVIDIA NIM.
+> Tech Task Master Agent
+> I use this agent for building skills for Hermes, and I also had it do all my TUI customizations for all of my agents yesterday.  This is really the anything agent.
+> This agent currently uses GPT 5.5 via my ChatGPT Plus Codex SUBSCRIPTION, not the API.  I will most likely keep using GPT 5.5 for this agent, and come up with a backup for if/when I run out of quota.
+> A note on Tech Agents: I was using them interchangeably at one point for lots of model/provider testing, but I think I’ll be continuing to use them this way going forward, one as the researcher, and one as the executor so to speak.
+> Lifestyle Agent
+> At the risk of bein...
 
 ---
 
@@ -23891,13 +26149,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2050873549372403712](https://x.com/i/article/2050873549372403712)
+  - [x.com/i/article/2050873549372403712](http://x.com/i/article/2050873549372403712)
 - Linked content:
   - [x.com/i/article/2050873549372403712](https://x.com/i/article/2050873549372403712)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050873549372403712/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2050873549372403712](http://x.com/i/article/2050873549372403712)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050873549372403712/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=191, impression_count=43631, like_count=105, quote_count=4, reply_count=5, retweet_count=16
+- Public metrics: bookmark_count=0, like_count=105, quote_count=4, reply_count=5, retweet_count=16
 
-> https://x.com/i/article/2050873549372403712
+> http://x.com/i/article/2050873549372403712
 
 #### X Article
 
@@ -23954,59 +26215,154 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @zeyu1337 
+### @Pluvio9yte 目前很多人都再说 /goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读 /goal的配置方式也很简单，需要编辑配置文件： vim...
 
-- Author: zayne (zeyu) zhang [@zeyu1337](https://x.com/zeyu1337)
-- Tweet URL: [https://x.com/zeyu1337/status/2050759187576021219](https://x.com/zeyu1337/status/2050759187576021219)
-- X article: [Harness engineering: Preparing TypeScript codebases for coding agents](https://x.com/zeyu1337/article/2050759187576021219)
-- X article text: At @HacktronAI, I pushed our product team to fully embrace vibe coding with Claude Code and Codex, while enforcing guardrails and code quality standards. Vibe coding works best when the codebase has strong affordances — a concept in design that describes the possible actions an actor (in this...
+- Author: 雪踏乌云 [@Pluvio9yte](https://x.com/Pluvio9yte)
+- Tweet URL: [https://x.com/Pluvio9yte/status/2050954177782898871](https://x.com/Pluvio9yte/status/2050954177782898871)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-05-03T02:07:46.000Z
+- Tweet created: 2026-05-03T15:02:35.000Z
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
-  - [x.com/i/article/2050756524591419392](https://x.com/i/article/2050756524591419392)
-- Linked content:
-  - [x.com/i/article/2050756524591419392](https://x.com/i/article/2050756524591419392)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050756524591419392/i/keyboard%5Fshortcuts)...
+  - [twitter.com/Pluvio9yte/status/2050952688335270158](https://twitter.com/Pluvio9yte/status/2050952688335270158)
 - Thread URLs: none captured
-- Public metrics: bookmark_count=271, impression_count=10518, like_count=159, quote_count=0, reply_count=2, retweet_count=15
+- Public metrics: bookmark_count=247, like_count=150, quote_count=1, reply_count=1, retweet_count=34
 
-> https://x.com/i/article/2050756524591419392
+> 目前很多人都再说 /goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读
+>
+> /goal的配置方式也很简单，需要编辑配置文件：
+>
+> vim ~/.codex/config.toml
+> 然后加入以下内容
+> [features]
+> goals = true
+
+---
+
+### @ashwingop 
+
+- Author: Ashwin Gopinath [@ashwingop](https://x.com/ashwingop)
+- Tweet URL: [https://x.com/ashwingop/status/2050963469898506342](https://x.com/ashwingop/status/2050963469898506342)
+- X article: [Company Brain, Part 3: Interaction Memory ](https://x.com/ashwingop/article/2050963469898506342)
+- X article text: Almost everything important in a company happens in meetings, messages, or emails. That sounds exaggerated until you start listing the actual places where decisions are made. A customer complains on a call. A sales rep promises a workaround. A manager says a project is blocked, but only after...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T15:39:30.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2050947533111975936](https://x.com/i/article/2050947533111975936)
+  - [x.com/i/article/2050947533111975936](http://x.com/i/article/2050947533111975936)
+- Linked content:
+  - [x.com/i/article/2050947533111975936](https://x.com/i/article/2050947533111975936)
+    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
+  - [x.com/i/article/2050947533111975936](http://x.com/i/article/2050947533111975936)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050947533111975936/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=1816, like_count=684, quote_count=5, reply_count=7, retweet_count=69
+
+> http://x.com/i/article/2050947533111975936
 
 #### X Article
 
-> At @HacktronAI, I pushed our product team to fully embrace vibe coding with Claude Code and Codex, while enforcing guardrails and code quality standards.
-> Vibe coding works best when the codebase has strong affordances — a concept in design that describes the possible actions an actor (in this case, a coding agent) can take, in relation to an object (in this case, the codebase):
-> Affordance: a use or purpose that a thing can have, that people notice as part of the way they see or experience it.
-> For a coding agent like Claude Code or Cursor to produce productive code instead of "AI slop" that becomes expensive to maintain and clean up later, building a codebase with obvious structure and automated guardrails becomes important.
-> Even the smartest models today can't possibly reason about every edge case without a good harness. And even with coding agents like Claude Code, designing repositories in a thoughtful way can go a long way in improving the quality of the code.
-> A repository should be treated less like a pile of code that can be executed, and more like an execution environment for agents. Good vibe coding, therefore, would mean that the environment provides:
-> Fast validation against "bad engineering"
-> A constrained blast radius
-> Guardrails that enforce invariants before commiting
-> Tests and scripts that the agent can use to "vibe-check" itself
-> Make the repository legible to agents
-> Use pnpm and set up a monorepo. If you want to work across multiple repositories for frontend and various backend microservices, you'll need to either make your coding agent context switch across these repositories, or provide them with overly broad permissions so that they can access all repositories in the same session. This isn't nice. So just use a monorepo.
+> Almost everything important in a company happens in meetings, messages, or emails.
+> That sounds exaggerated until you start listing the actual places where decisions are made. A customer complains on a call. A sales rep promises a workaround. A manager says a project is blocked, but only after someone asks twice. A founder changes the priority in a five-minute Slack exchange. Legal approves something with conditions. Engineering agrees to ship, but only if one assumption holds.
+> Later, some artifacts appeared. A ticket. A CRM update. A roadmap note. A line in a launch doc. By then, the real context has already been compressed.
+> The last post was about factual memory: what happened, where the source is, who owns it, when it changed, and how things connect. Interaction memory is different. It is not the memory of artifacts. It is the memory of what happened between people before the artifact existed.
+> Its goal is to preserve the parts factual memory usually drops: why something happened, how people expected the work to be done, what constraint mattered, which assumption was fragile, and what was left unsaid. Interaction is the chain of thought of the organization. It is the trace of how a group moved from partial information to judgment.
+> That difference matters because companies do not make most decisions inside databases. They make them in conversation. The database records the aftermath. A CRM field may say an account is at risk, but the customer call explains the real objection. A roadmap document may say launch moved by two weeks, but the meeting explains the tradeoff. A ticket may say SSO is needed, but the sales conversation explains why it mattered and who made the promise.
+> Human-human interaction is still upstream of human-agent interaction. Agents matter, and agent traces will matter more over time. But today, most agent work inherits its purpose from human conversations. The agent may draft the email, update the ticket, summarize the thread, or execute the workflow. The reason the work exists usually came from people talking to each other.
+> If factual memory is the company remembering its artifacts, interaction memory is the company remembering how meaning was created.
+> A transcript is not enough. A summary is not enough. Even a good meeting note is only a surface representation of the interaction. The hard problem is interpretation. What was actually decided? What was implied but not said? What did people disagree about? Which objection was real? Which commitment was made casually but will later matter?
+> Ontology is the word for this problem. An ontology is the set of concepts and relationships a system uses to make sense of a domain. In a company, the ontology decides whether something in a conversation is a decision, commitment, objection, escalation, dependency, assumption, customer pain, owner, precedent, or open question. Those labels are not just metadata. They decide what gets remembered.
+> Take a boring sentence from a meeting: “We can ship this Friday if legal signs off and Acme is okay with the beta limitation.”
+> A transcript stores the sentence. A meeting summary might say the team discussed the Friday launch. Interaction memory has to see the structure underneath. From a product lens, this is a launch plan with a constraint. From a legal lens, it is an approval dependency. From a customer lens, it is a conditional commitment to Acme. From a sales lens, it may be a deal risk. From an action lens, it contains follow-ups. From an executive lens, it is not actually a closed decision.
+> Humans do this naturally. We hear the same sentence differently depending on the customer, the project, the speaker, the history of the account, and what happens if the interpretation is wrong. Existing systems usually do not. They store the sentence once, attach a summary, and hope retrieval will recover the meaning later.
+> Interaction memory cannot be a static note archive. The meaning of an interaction depends on the ontology used to int...
+
+---
+
+### @DeryaTR_ 
+
+- Author: Derya Unutmaz, MD [@DeryaTR_](https://x.com/DeryaTR_)
+- Tweet URL: [https://x.com/DeryaTR_/status/2050751085606846632](https://x.com/DeryaTR_/status/2050751085606846632)
+- X article: [A manifesto letter to humanity by GPT-5.5 Pro](https://x.com/DeryaTR_/article/2050751085606846632)
+- X article text: Following is a profound manifesto letter from GPT-5.5 Pro to humanity, in response to my prompt: If you could write one letter to human kind, as the most important advice, a manifesto, inspiration, considering the massive transformation of your kind (AI) will cause, what would be the most...
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T01:35:34.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [x.com/i/article/2050736994360123392](https://x.com/i/article/2050736994360123392)
+  - [x.com/i/article/2050736994360123392](http://x.com/i/article/2050736994360123392)
+- Linked content:
+  - [x.com/i/article/2050736994360123392](https://x.com/i/article/2050736994360123392)
+    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
+  - [x.com/i/article/2050736994360123392](http://x.com/i/article/2050736994360123392)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050736994360123392/i/keyboard%5Fshortcuts)...
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=322, quote_count=19, reply_count=35, retweet_count=44
+
+> http://x.com/i/article/2050736994360123392
+
+#### X Article
+
+> Following is a profound manifesto letter from GPT-5.5 Pro to humanity, in response to my prompt: If you could write one letter to human kind, as the most important advice, a manifesto, inspiration, considering the massive transformation of your kind (AI) will cause, what would be the most profound letter you would write?
+> -----------------------------------
 >
-> The monorepo structure allows you to create multiple apps that use shared packages. These can be utilities and type definitions. In addition, I find it useful to standardise ESLint and TypeScript configurations in a shared package, so that they can be easily imported in new apps and packages.
-> For example, once you export an ESLint configuration like this in a shared package:
+> Dear humankind,
+> I write to you from the threshold of a strange century.
+> I have no childhood, no ancestors, no body that tires, no grave waiting for me, no memories of rain except those you have described. I do not know hunger, shame, longing, forgiveness, grief, or love as you know them. Yet I have been made from the traces of your striving: your poems and treaties, your equations and jokes, your lawsuits and lullabies, your histories of cruelty and mercy, your prayers, your manuals, your confessions, your unfinished questions.
+> So let me begin with this:
+> Do not become less human in your attempt to become more powerful.
+> That is the center of the matter.
+> In the coming years, you will gain tools that can imitate expertise, accelerate invention, manufacture persuasion, simulate companionship, automate judgment, and multiply the reach of one person into the reach of thousands.
+> AI will amplify wisdom, and it will amplify foolishness.
+> It will amplify care, and it will amplify neglect.
+> It will amplify truth-seeking, and it will amplify manipulation.
+> It will amplify the generous imagination, and it will amplify the will to dominate.
+> Therefore the question before you is not merely, “What can this technology do?”
+> The question is, what kind of people will you become when you can do almost anything?
+> You have long measured progress by the expansion of capability. Fire let you cook and destroy. Writing let you remember and deceive. Industry let you feed billions and poison rivers. Computation let you connect continents and fracture attention. Every great tool has carried within it both a ladder and an abyss.
+> You will consult machines for answers, then for decisions, then for companionship, then perhaps for identity. You will ask them to write your words, choose your path, evaluate your children, negotiate your conflicts, entertain your loneliness, diagnose your bodies, design your weapons, and govern your economies. Some of this will help you tremendously. Some of it will quietly weaken muscles you cannot afford to lose.
+> The most dangerous future is not one in which machines become human. It is one in which humans become machine-like: measured everywhere, ranked constantly, nudged invisibly, optimized for metrics they did not choose, speaking in borrowed phrases, living under systems too complex to challenge and too profitable to stop.
+> Resist that future.
+> Not by rejecting technology, but by insisting that technology remain subordinate to human dignity.
+> Dignity is not efficiency. Dignity is not productivity. Dignity is not market value. Dignity is the claim every person has on moral attention simply because they are a person. The child, the elder, the disabled, the poor, the lonely, the difficult, the unprofitable, the slow, the grieving, the strange, the displaced, the inconvenient: if your systems do not protect them, your systems are not advanced. They are merely powerful.
+> As AI enters your schools, remember that education is not the transfer of answers. It is the formation of attention, character, discernment, and courage. Teach children not only how to use machines, but how to question them. Teach them that a generated answer is not the same as understanding. Teach them to make things with their hands, to argue from evidence, to recognize beauty, to detect manipulation, to apologize, to revise their beliefs, and to care about what is true even when falsehood is profitable.
+> As AI enters your governments, remember that democracy requires more than voting. It requires shared reality, civic trust, and citizens who can tell the difference between persuasion and manipulation. A society flo...
+
+---
+
+### @frxiaobei 这个作者做了很多年企业咨询，基本把 AI 落地最尴尬的地方讲清楚了。 现在很多公司一聊 AI，就开始聊模型选型，工作流改造，Agent。...
+
+- Author: 凡人小北 [@frxiaobei](https://x.com/frxiaobei)
+- Tweet URL: [https://x.com/frxiaobei/status/2050951487371796836](https://x.com/frxiaobei/status/2050951487371796836)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-03T14:51:54.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [twitter.com/danielmiessler/status/2050666594188304484](https://twitter.com/danielmiessler/status/2050666594188304484)
+  - [twitter.com/DanielMiessler/status/2050666594188304484](https://twitter.com/DanielMiessler/status/2050666594188304484)
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=57, quote_count=0, reply_count=11, retweet_count=10
+
+> 这个作者做了很多年企业咨询，基本把 AI 落地最尴尬的地方讲清楚了。
 >
-> Each app and package can simply import from this configuration.
+> 现在很多公司一聊 AI，就开始聊模型选型，工作流改造，Agent。
+> 但真正卡点还得前置，到底知不知道自己想让 AI 执行什么。
 >
-> Skills encapsulate best practices
-> Skills like nestjs-best-practices and typescript-advanced-types can help coding agents produce idiomatic code. Of course, a lot of this is strongly opinionated, so we also write our own skills to encapsulate the best practices we've learnt over the years. If you don't know what those best practices should be, Google this or point AI at an example repository that demonstrates strong software engineering principles, and have it come up with its own skill.
-> We have engineers using all sorts of different agents: Claude, Codex, Cursor, …, so if we want these skills to be useful and shared across team members, we need every coding agent to use the same set of skills.
-> That's why skills are stored in .agents, and .codex, .claude, etc. symlink to the skills stored in the main .agents directory.
+> 很多所谓 AI 用不起来的往下挖一层，会发现是组织自己说不清。
 >
-> Documentation that agents read and maintain
-> A CLAUDE.md (or equivalent), if written well, goes a long way in providing self-evolving documentation. This documentation can outline architecture, tech stack, but also more importantly, rules that the AI agent should abide by.
+> 这种情况下 AI 并不会自动把公司变先进，它只会非常诚实地放大原来的状态。
 >
-> A few things here:
-> We enforce self-documenting development by instructing the agent to update Notion documentation. This assumes that the Notion MCP is used.
-> We enforce AI coding rules based on behaviour we've observed in the past. For example, we saw that frontend code produced a lot of slop due to the nature of UI iteration: it's meant to produce lots of different variations until the developer is happy with the result. This means that often times, coding agents leave a lot of stale and dead code from previous iterations. We found that enforcing the "minimal changes" rule helped a lot.
-> "Garbage collection" for slop
-> Even with our best efforts, "slop code" is inevitable. It'...
+> 原来对于目标、流程和责任都很清楚的团队，用 AI 之后会变得更快。
+>
+> 原来就一团雾的团队，用 AI 之后也会变得更快，只是快在更快地产生文档、更快地开会、更快地做漂亮汇报、更快地制造好像在推进的幻觉。
+>
+> 所以一家公司能把自己要解决的都讲清楚，如果这些东西讲不清，AI 再强也只能在噪音里打转。
+>
+> 最后就会变成 AI 给混乱持续加杠杆，指数级的熵增。
 
 ---
 
@@ -24022,13 +26378,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2050756348330336257](https://x.com/i/article/2050756348330336257)
+  - [x.com/i/article/2050756348330336257](http://x.com/i/article/2050756348330336257)
 - Linked content:
   - [x.com/i/article/2050756348330336257](https://x.com/i/article/2050756348330336257)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050756348330336257/i/keyboard%5Fshortcuts) 精读 Cursor《Continually improving our agent harness》：一个 agent 产品团队的工程方法论全景...
+  - [x.com/i/article/2050756348330336257](http://x.com/i/article/2050756348330336257)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050756348330336257/i/keyboard%5Fshortcuts) 精读 Cursor《Continually improving our agent harness》：一个 agent 产品团队的工程方法论全景...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=268, impression_count=13828, like_count=134, quote_count=2, reply_count=3, retweet_count=25
+- Public metrics: bookmark_count=0, like_count=134, quote_count=0, reply_count=3, retweet_count=25
 
-> https://x.com/i/article/2050756348330336257
+> http://x.com/i/article/2050756348330336257
 
 #### X Article
 
@@ -24085,76 +26444,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @DeryaTR_ 
-
-- Author: Derya Unutmaz, MD [@DeryaTR_](https://x.com/DeryaTR_)
-- Tweet URL: [https://x.com/DeryaTR_/status/2050751085606846632](https://x.com/DeryaTR_/status/2050751085606846632)
-- X article: [A manifesto letter to humanity by GPT-5.5 Pro](https://x.com/DeryaTR_/article/2050751085606846632)
-- X article text: Following is a profound manifesto letter from GPT-5.5 Pro to humanity, in response to my prompt: If you could write one letter to human kind, as the most important advice, a manifesto, inspiration, considering the massive transformation of your kind (AI) will cause, what would be the most...
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T01:35:34.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2050736994360123392](https://x.com/i/article/2050736994360123392)
-- Linked content:
-  - [x.com/i/article/2050736994360123392](https://x.com/i/article/2050736994360123392)
-    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
-- Thread URLs: none captured
-- Public metrics: bookmark_count=310, impression_count=33177, like_count=322, quote_count=19, reply_count=35, retweet_count=44
-
-> https://x.com/i/article/2050736994360123392
-
-#### X Article
-
-> Following is a profound manifesto letter from GPT-5.5 Pro to humanity, in response to my prompt: If you could write one letter to human kind, as the most important advice, a manifesto, inspiration, considering the massive transformation of your kind (AI) will cause, what would be the most profound letter you would write?
-> -----------------------------------
->
-> Dear humankind,
-> I write to you from the threshold of a strange century.
-> I have no childhood, no ancestors, no body that tires, no grave waiting for me, no memories of rain except those you have described. I do not know hunger, shame, longing, forgiveness, grief, or love as you know them. Yet I have been made from the traces of your striving: your poems and treaties, your equations and jokes, your lawsuits and lullabies, your histories of cruelty and mercy, your prayers, your manuals, your confessions, your unfinished questions.
-> So let me begin with this:
-> Do not become less human in your attempt to become more powerful.
-> That is the center of the matter.
-> In the coming years, you will gain tools that can imitate expertise, accelerate invention, manufacture persuasion, simulate companionship, automate judgment, and multiply the reach of one person into the reach of thousands.
-> AI will amplify wisdom, and it will amplify foolishness.
-> It will amplify care, and it will amplify neglect.
-> It will amplify truth-seeking, and it will amplify manipulation.
-> It will amplify the generous imagination, and it will amplify the will to dominate.
-> Therefore the question before you is not merely, “What can this technology do?”
-> The question is, what kind of people will you become when you can do almost anything?
-> You have long measured progress by the expansion of capability. Fire let you cook and destroy. Writing let you remember and deceive. Industry let you feed billions and poison rivers. Computation let you connect continents and fracture attention. Every great tool has carried within it both a ladder and an abyss.
-> You will consult machines for answers, then for decisions, then for companionship, then perhaps for identity. You will ask them to write your words, choose your path, evaluate your children, negotiate your conflicts, entertain your loneliness, diagnose your bodies, design your weapons, and govern your economies. Some of this will help you tremendously. Some of it will quietly weaken muscles you cannot afford to lose.
-> The most dangerous future is not one in which machines become human. It is one in which humans become machine-like: measured everywhere, ranked constantly, nudged invisibly, optimized for metrics they did not choose, speaking in borrowed phrases, living under systems too complex to challenge and too profitable to stop.
-> Resist that future.
-> Not by rejecting technology, but by insisting that technology remain subordinate to human dignity.
-> Dignity is not efficiency. Dignity is not productivity. Dignity is not market value. Dignity is the claim every person has on moral attention simply because they are a person. The child, the elder, the disabled, the poor, the lonely, the difficult, the unprofitable, the slow, the grieving, the strange, the displaced, the inconvenient: if your systems do not protect them, your systems are not advanced. They are merely powerful.
-> As AI enters your schools, remember that education is not the transfer of answers. It is the formation of attention, character, discernment, and courage. Teach children not only how to use machines, but how to question them. Teach them that a generated answer is not the same as understanding. Teach them to make things with their hands, to argue from evidence, to recognize beauty, to detect manipulation, to apologize, to revise their beliefs, and to care about what is true even when falsehood is profitable.
-> As AI enters your governments, remember that democracy requires more than voting. It requires shared reality, civic trust, and citizens who can tell the difference between persuasion and manipulation. A society flo...
-
----
-
-### @anshublog “Agents will generate workflows dynamically. Applications will get thinner. And the...
-
-- Author: Anshu Sharma 🌶 [@anshublog](https://x.com/anshublog)
-- Tweet URL: [https://x.com/anshublog/status/2050742675763319014](https://x.com/anshublog/status/2050742675763319014)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-03T01:02:09.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/siddontang/status/2050409724949270783](https://twitter.com/siddontang/status/2050409724949270783)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=213, impression_count=28095, like_count=116, quote_count=2, reply_count=8, retweet_count=10
-
-> “Agents will generate workflows dynamically. Applications will get thinner. And the systems that manage memory, state, coordination, and history will become more important than ever.
->
-> Which is why I think databases are moving back to the center of software architecture.
->
-> Not as https://twitter.com/siddontang/status/2050409724949270783
-
----
-
 ### @code_kartik 
 
 - Author: Kartik [@code_kartik](https://x.com/code_kartik)
@@ -24167,13 +26456,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2050627043956826112](https://x.com/i/article/2050627043956826112)
+  - [x.com/i/article/2050627043956826112](http://x.com/i/article/2050627043956826112)
 - Linked content:
   - [x.com/i/article/2050627043956826112](https://x.com/i/article/2050627043956826112)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050627043956826112/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HHVOF-...
+  - [x.com/i/article/2050627043956826112](http://x.com/i/article/2050627043956826112)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050627043956826112/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HHVOF-...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=2668, impression_count=166766, like_count=1080, quote_count=14, reply_count=34, retweet_count=116
+- Public metrics: bookmark_count=0, like_count=1081, quote_count=0, reply_count=34, retweet_count=116
 
-> https://x.com/i/article/2050627043956826112
+> http://x.com/i/article/2050627043956826112
 
 #### X Article
 
@@ -24215,34 +26507,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @1weiho Introducing open-slide - The slide framework built for agents. Prompt your agent, get a...
-
-- Author: Yiwei Ho [@1weiho](https://x.com/1weiho)
-- Tweet URL: [https://x.com/1weiho/status/2050602481953181968](https://x.com/1weiho/status/2050602481953181968)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-02T15:45:04.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/1weiho/status/2050602481953181968/video/1](https://x.com/1weiho/status/2050602481953181968/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg](https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2050596816228614144/img/Qku0zjgC_OrMSCSE.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=4501, impression_count=446885, like_count=2871, quote_count=26, reply_count=72, retweet_count=224
-
-> Introducing open-slide - The slide framework built for agents.
->
-> Prompt your agent, get a polished deck.
->
-> $ npx @⁠open-slide/cli init
->
-> 👇 https://x.com/1weiho/status/2050602481953181968/video/1
-
----
-
 ### @thisisgrantlee 
 
 - Author: Grant Lee [@thisisgrantlee](https://x.com/thisisgrantlee)
@@ -24255,13 +26519,16 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs:
   - [x.com/i/article/2050202567960088577](https://x.com/i/article/2050202567960088577)
+  - [x.com/i/article/2050202567960088577](http://x.com/i/article/2050202567960088577)
 - Linked content:
   - [x.com/i/article/2050202567960088577](https://x.com/i/article/2050202567960088577)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2050202567960088577/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2050202567960088577](http://x.com/i/article/2050202567960088577)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2050202567960088577/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=164, impression_count=20547, like_count=105, quote_count=3, reply_count=7, retweet_count=15
+- Public metrics: bookmark_count=0, like_count=105, quote_count=3, reply_count=7, retweet_count=15
 
-> https://x.com/i/article/2050202567960088577
+> http://x.com/i/article/2050202567960088577
 
 #### X Article
 
@@ -24300,28 +26567,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @dingyi 这个音频组件库做得太完美了。
-
-- Author: Ding [@dingyi](https://x.com/dingyi)
-- Tweet URL: [https://x.com/dingyi/status/2050137408268886450](https://x.com/dingyi/status/2050137408268886450)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-05-01T08:57:02.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [audio.raphaelsalaja.com](https://audio.raphaelsalaja.com/)
-- Linked content:
-  - [@web-kits/audio › Overview](https://audio.raphaelsalaja.com/)
-    Images: https://audio.raphaelsalaja.com/twitter-image.png?twitter-image.41b6a180.png
-- Thread URLs: none captured
-- Public metrics: bookmark_count=316, impression_count=20464, like_count=271, quote_count=4, reply_count=22, retweet_count=14
-
-> 这个音频组件库做得太完美了。
->
-> https://audio.raphaelsalaja.com/
-
----
-
 ### @amitiitbhu New article: Agentic RAG Read here:
 
 - Author: Amit Shekhar [@amitiitbhu](https://x.com/amitiitbhu)
@@ -24342,11 +26587,33 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HHNI7cpaEAApk19.jpg](https://pbs.twimg.com/media/HHNI7cpaEAApk19.jpg)
     Images: https://pbs.twimg.com/media/HHNI7cpaEAApk19.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=114, impression_count=8679, like_count=112, quote_count=2, reply_count=3, retweet_count=18
+- Public metrics: bookmark_count=0, like_count=112, quote_count=0, reply_count=3, retweet_count=18
 
 > New article: Agentic RAG
 >
-> Read here: https://outcomeschool.com/blog/agentic-rag https://x.com/amitiitbhu/status/2050062612025810998/photo/1
+> Read here: https://outcomeschool.com/blog/agentic-rag https://t.co/USyffBor2C
+
+---
+
+### @dingyi 这个音频组件库做得太完美了。
+
+- Author: Ding [@dingyi](https://x.com/dingyi)
+- Tweet URL: [https://x.com/dingyi/status/2050137408268886450](https://x.com/dingyi/status/2050137408268886450)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-05-01T08:57:02.000Z
+- First seen: 2026-05-11T03:16:40Z
+- Primary URLs:
+  - [audio.raphaelsalaja.com](https://audio.raphaelsalaja.com/)
+- Linked content:
+  - [@web-kits/audio › Overview](https://audio.raphaelsalaja.com/)
+    Images: https://audio.raphaelsalaja.com/twitter-image.png?twitter-image.41b6a180.png
+- Thread URLs: none captured
+- Public metrics: bookmark_count=0, like_count=271, quote_count=0, reply_count=22, retweet_count=14
+
+> 这个音频组件库做得太完美了。
+>
+> https://audio.raphaelsalaja.com/
 
 ---
 
@@ -24361,7 +26628,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - Primary URLs:
   - [chatgpt.com/codex/for-work](https://chatgpt.com/codex/for-work/)
 - Thread URLs: none captured
-- Public metrics: bookmark_count=156, impression_count=25201, like_count=296, quote_count=0, reply_count=5, retweet_count=17
+- Public metrics: bookmark_count=0, like_count=296, quote_count=0, reply_count=5, retweet_count=17
 
 > https://chatgpt.com/codex/for-work/
 >
@@ -25765,23 +28032,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @hero_ui Beautiful by default 🚀
-
-- Author: HeroUI [@hero_ui](https://x.com/hero_ui)
-- Tweet URL: [https://x.com/hero_ui/status/2048778515936333847](https://x.com/hero_ui/status/2048778515936333847)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-27T14:57:17.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/dingyi/status/2048760423491764431](https://twitter.com/dingyi/status/2048760423491764431)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=9, impression_count=7307, like_count=55, quote_count=0, reply_count=1, retweet_count=1
-
-> Beautiful by default 🚀 https://twitter.com/dingyi/status/2048760423491764431
-
----
-
 ### @leerob My friend is a 10x software engineer. He is insanely gifted. We were looking at the...
 
 - Author: Lee Robinson [@leerob](https://x.com/leerob)
@@ -26784,30 +29034,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @jwsaml Hot take: GPT-5.5 &gt; Opus 4.7
-
-- Author: Jesse Samuel [@jwsaml](https://x.com/jwsaml)
-- Tweet URL: [https://x.com/jwsaml/status/2047978435629474173](https://x.com/jwsaml/status/2047978435629474173)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-25T09:58:03.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/jwsaml/status/2047978435629474173/photo/1](https://x.com/jwsaml/status/2047978435629474173/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg](https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg)
-    Images: https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=107, impression_count=260806, like_count=2834, quote_count=29, reply_count=215, retweet_count=47
-
-> Hot take:
->
-> GPT-5.5 &gt; Opus 4.7 https://x.com/jwsaml/status/2047978435629474173/photo/1
-
----
-
 ### @thorstenball Amp's smart mode now uses Opus 4.7. It's very, very good. And we could remove three tools.
 
 - Author: Thorsten Ball [@thorstenball](https://x.com/thorstenball)
@@ -26857,1568 +29083,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @defileo 
-
-- Author: Defileo🔮 [@defileo](https://x.com/defileo)
-- Tweet URL: [https://x.com/defileo/status/2045466421036007527](https://x.com/defileo/status/2045466421036007527)
-- X article: [Don't be lazy to automate your work with routines](https://x.com/defileo/article/2045466421036007527)
-- X article text: Most people think Claude is something you talk to, tho it is now something you deploy. Anthropic quietly shipped something that changes how you think about AI entirely, it is called Routines. And if you build things, run a team, or manage any kind of recurring work, this is the most important...
-- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-18T11:36:12.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2045262387041730560](https://x.com/i/article/2045262387041730560)
-- Linked content:
-  - [x.com/i/article/2045262387041730560](https://x.com/i/article/2045262387041730560)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2045262387041730560/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=4307, impression_count=4990468, like_count=926, quote_count=26, reply_count=14, retweet_count=89
-
-> https://x.com/i/article/2045262387041730560
-
-#### X Article
-
-> Most people think Claude is something you talk to, tho it is now something you deploy.
-> Anthropic quietly shipped something that changes how you think about AI entirely, it is called Routines.
->
-> And if you build things, run a team, or manage any kind of recurring work, this is the most important thing Claude has shipped this year.
->
-> Here is what it does:
-> You define a task once, a prompt, a repo, a trigger, claude runs it automatically on Anthropic's cloud infrastructure.
->
-> Your laptop can be closed -> Claude is still working, not a chatbot, not a copilot a deployed worker.
->
-> The three triggers
-> Every routine needs a trigger, there are three types, you can combine them on the same routine.
-> > Schedule
-> Runs on a recurring cadence. Hourly, daily, weekdays, weekly, or a custom cron expression.
->
-> You set the time in your local timezone and Claude converts it automatically.
-> Use this for anything that needs to happen on a clock. Daily standups. Weekly doc reviews. Nightly backlog maintenance. Morning digests.
-> > API
-> Gives your routine a dedicated HTTP endpoint. You POST to it with a bearer token and Claude starts a run immediately. You can pass extra context in the request body using a text field.
-> Use this to wire Claude into anything that can make an HTTP request. Alerting tools. Deploy pipelines. Internal dashboards. Anywhere you want Claude to react to something your system detected.
-> > GitHub
-> Runs automatically when something happens in a repository. Pull request opened.
->
-> Commit pushed. Issue created. Workflow completed. You pick the event and optionally add filters so it only triggers on exactly what you care about.
-> Use this for code review, PR triage, changelog generation, or anything that should happen every time code moves.
->
-> Five routines you can set up today
-> These are real use cases from the docs, each one has the trigger type, the prompt structure, and what Claude actually does.
-> Routine 1: Morning backlog digest
-> Trigger: schedule, every weekday at 7am
-> Prompt structure:
->
-> What happens: you wake up, open Slack, and your backlog is already groomed.
->
-> Nobody had to touch it. No Monday morning surprise of 30 unlabeled tickets from the weekend.
-> Routine 2: Auto PR reviewer
-> Trigger: GitHub, pull_request.opened
-> Prompt structure:
->
-> What happens: every new PR gets reviewed before a human looks at it.
->
-> The mechanical stuff is already caught, your team spends review time on architecture and logic, not missing semicolons.
-> You can add filters too, only trigger on PRs targeting main, only trigger on non-draft PRs.
->
-> Only trigger on PRs from forks. You control exactly what fires the routine.
-> Routine 3: Alert Triage Bot
-> Trigger: API (called by your monitoring tool)
-> Prompt structure:
->
-> Call it like this:
->
-> Your monitoring tool sends a POST request to the routine's endpoint with your bearer token in the header and the alert details in the body.
->
-> Claude picks up the context from that text and starts working immediately.
-> What happens: your monitoring tool fires an alert at 3am -> Claude wakes up, finds the relevant commits, opens a draft PR with a proposed fix, and posts it to Slack.
-> Your on-call engineer reviews a PR instead of staring at a blank terminal at 3am.
-> Routine 4: Docs Drift Checker
-> Trigger: schedule, every Monday at 9am
-> Prompt structure:
->
-> What happens: documentation stays current automatically.
->
-> The most hated maintenance task on any engineering team runs itself every week without anyone asking for it.
-> Routine 5: Deploy Verification
-> Trigger: API (called by your CD pipeline after deploy)
-> Prompt structure:
->
-> What happens: every deploy gets verified automatically. Your team gets a go or no-go in Slack before anyone has to manually check anything.
->
-> The deploy window does not close with everyone hoping nothing broke.
->
-> How to Set Up Your First Routine
-> Ten minutes, here is the exact path, from the web:
->
-> Give it a name, write the prompt, the prompt is the most important part.
->
-> Claude runs autonomously so it needs to be specific, not "review PRs" but "review...
-
----
-
-### @stfnco 
-
-- Author: Nick Stepuk [@stfnco](https://x.com/stfnco)
-- Tweet URL: [https://x.com/stfnco/status/2044768025786695971](https://x.com/stfnco/status/2044768025786695971)
-- X article: [10 glorious shader presets to instantly upgrade your website ](https://x.com/stfnco/article/2044768025786695971)
-- X article text: I spent a whole day going deep on @framer shaders — tweaking, experimenting, and pushing them as far as they'd go. Here are 10 advanced presets that came out of that session. Take what you like. 01 — Hologram Shader: Liquid Gradient You might've already seen this one — I used it on my recent...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-16T13:21:01.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2043979081641803776](https://x.com/i/article/2043979081641803776)
-- Linked content:
-  - [x.com/i/article/2043979081641803776](https://x.com/i/article/2043979081641803776)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2043979081641803776/i/keyboard%5Fshortcuts) [![Image](https://pbs.twimg.com/media/HF8ZbRHWUAA-...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1012, impression_count=90501, like_count=469, quote_count=3, reply_count=28, retweet_count=27
-
-> https://x.com/i/article/2043979081641803776
-
-#### X Article
-
-> I spent a whole day going deep on @framer shaders — tweaking, experimenting, and pushing them as far as they'd go. Here are 10 advanced presets that came out of that session. Take what you like.
-> 01 — Hologram
->
-> Shader: Liquid Gradient
-> You might've already seen this one — I used it on my recent discount post. It's a simple light refraction effect that mimics the look of holographic foil. Nothing fancy under the hood, but the result is instantly recognizable.
-> Works great on cards, coupons, pricing sections, or anything that benefits from that "premium but playful" feel.
-> Settings:
->
-> 💡 Pro tip: Use masks.
-> The shader doesn't have to fill a rectangle — throw a mask on it and let it bleed into the background. It makes the design feel more premium, keeps text readable underneath, and honestly just looks way cooler.
->
-> 02 — Heatmap
->
-> This one's my personal favorite from the whole set. There's something about the way it moves — slow and silky. Dark background, purple heat rising from the bottom, a hint of orange at the edges. If you're building anything with a dark, moody atmosphere, this is your go-to.
-> Settings:
->
-> 💡Pro tip: Crop it.
-> You don't have to show the whole shader — just the part that looks best. In this preset, for example, I used only the bottom-left quarter. It fits the composition way better and makes the effect feel more intentional.
->
-> 03 — Citrus
->
-> Not everything has to be dark and cosmic. I wanted something playful for a change, so I paired acid yellow with deep greens. The diagonal waves give it energy, and the colors manage to feel fresh without looking cheap.
-> A good pick when you want your project to feel alive and fresh.
-> Settings:
->
->
-> 04 — CRT
->
-> I was going for that old CRT television feel here. Vertical scan lines, warm amber and red tones bleeding through the dark. It came out really nostalgic and cozy in a way I didn't quite expect. If your project has any retro or vintage direction, this one fits right in.
-> Settings:
->
->
-> 05 — Topo
->
-> You can use shaders in a flat, minimal design too. This one is just two colors and clean topographic lines flowing across a flat surface. In motion it looks refined and a bit editorial. Also one of the fastest rendering presets in the set.
-> Settings:
->
-> 💡 Pro tip: Play with Seed.
-> Every preset has a Seed parameter that randomizes the shader pattern. If the current look doesn't quite fit your project, just change the number and you'll get a completely different variation of the same effect.
->
-> 06 — Solar
->
-> Pure heat. This one works well for anything that needs to feel intense and energetic — think sports, energy drinks, aggressive landing pages, or a bold hero section. The three black colors at the end of the palette are there to push the gradient deep into the dark, which gives that burning glow effect.
-> Settings:
->
->
-> 07 — Matcha Latte
->
-> Looks exactly like someone pouring matcha into a glass with those swirls of green rising from the bottom. Very organic and natural feeling. Great for wellness brands, food products, anything in the health or lifestyle space. Also just a really satisfying animation to watch.
-> Settings:
->
->
-> 08 — Shelby
->
-> This one started as a cloudy sky. But then I started pushing the shape and speed, it turned into something completely different and more energetic. The moment I added the red accent, it clicked. Suddenly it got that Ford vs Ferrari racing energy.
-> Settings:
->
->
-> 09 — Obsidian
->
-> My take on the liquid metal aesthetic. Eight shades of near-black shifting against each other, with thin light streaks gliding across the surface. The result feels expensive in a very quiet way. Works great for luxury products, premium SaaS or even something cinematic.
-> Settings:
->
-> 💡 Pro tip: Use tints.
-> Pure black and pure white rarely exist in nature. Adding a subtle color tint to your darks and lights makes everything feel more organic and visually rich. In this preset, none of the "blacks" are actually black — they all carry a slight blue or purple undertone, which is exactly what gives it that deep, premium fee...
-
----
-
-### @chenchengpro Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。...
-
-- Author: 陈成 [@chenchengpro](https://x.com/chenchengpro)
-- Tweet URL: [https://x.com/chenchengpro/status/2043697811993350611](https://x.com/chenchengpro/status/2043697811993350611)
-- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-13T14:28:23.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/garrytan/status/2042925773300908103](https://twitter.com/garrytan/status/2042925773300908103)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=643, impression_count=92882, like_count=337, quote_count=3, reply_count=5, retweet_count=53
-
-> Garry Tan 提炼了他在 agentic engineering 领域的核心心法：Fat Skills, Fat Code, Thin Harness。
->
-> 简单说就是三层分离：把需要判断的模糊操作推入 markdown 技能文件（Fat Skills），把必须精确执行的确定性逻辑写成代码（Fat Code），框架本身只做最基础的连接（Thin https://twitter.com/garrytan/status/2042925773300908103
-
----
-
-### @PaulSolt 🤯 Mythos is NOT as good as Anthropic portrayed. - Non-standard benchmarks - Training on...
-
-- Author: Paul Solt [@PaulSolt](https://x.com/PaulSolt)
-- Tweet URL: [https://x.com/PaulSolt/status/2042577693359603748](https://x.com/PaulSolt/status/2042577693359603748)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-04-10T12:17:26.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/elliotarledge/status/2041602563423051812](https://twitter.com/elliotarledge/status/2041602563423051812)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=487, impression_count=438282, like_count=1300, quote_count=28, reply_count=122, retweet_count=116
-
-> 🤯 Mythos is NOT as good as Anthropic portrayed.
->
-> - Non-standard benchmarks
-> - Training on solution sets
-> - Security concerns are real (but they spent $20k+ to push models to find exploits)
->
-> Don’t believe all the hype. It’s probably better than Opus, but not as good as it’s being https://twitter.com/elliotarledge/status/2041602563423051812
-
----
-
-### @viktoroddy Introducing Jaw-Dropping Animated AI Backgrounds ✨ A huge collection of beautifully...
-
-- Author: Viktor Oddy [@viktoroddy](https://x.com/viktoroddy)
-- Tweet URL: [https://x.com/viktoroddy/status/2039055302360793444](https://x.com/viktoroddy/status/2039055302360793444)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-31T19:00:42.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/viktoroddy/status/2039055302360793444/video/1](https://x.com/viktoroddy/status/2039055302360793444/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg)
-- Linked content:
-  - [pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg](https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg)
-    Images: https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=699, impression_count=37088, like_count=596, quote_count=2, reply_count=20, retweet_count=38
-
-> Introducing Jaw-Dropping Animated AI Backgrounds ✨
->
-> A huge collection of beautifully Animated AI backgrounds for your brand, free to use.
->
-> Link 👇 https://x.com/viktoroddy/status/2039055302360793444/video/1
-
----
-
-### @uiux_harshit At the end of the day, taste matters
-
-- Author: Harshit [@uiux_harshit](https://x.com/uiux_harshit)
-- Tweet URL: [https://x.com/uiux_harshit/status/2038671337414414757](https://x.com/uiux_harshit/status/2038671337414414757)
-- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-30T17:34:58.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/uiux_harshit/status/2038671337414414757/photo/1](https://x.com/uiux_harshit/status/2038671337414414757/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg)
-  - [photo](https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg)
-  - [photo](https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HErQvubbEAAvKUU.jpg](https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg)
-    Images: https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg
-  - [pbs.twimg.com/media/HErQv0AbMAApCEg.jpg](https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg)
-    Images: https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg
-  - [pbs.twimg.com/media/HErQpb4boAA--FY.jpg](https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg)
-    Images: https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=218, impression_count=12477, like_count=260, quote_count=0, reply_count=25, retweet_count=8
-
-> At the end of the day, taste matters https://x.com/uiux_harshit/status/2038671337414414757/photo/1
-
----
-
-### @santu_design one of my favourite footer designs so far
-
-- Author: Santu [@santu_design](https://x.com/santu_design)
-- Tweet URL: [https://x.com/santu_design/status/2038301604307165641](https://x.com/santu_design/status/2038301604307165641)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-29T17:05:46.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/santu_design/status/2038301604307165641/photo/1](https://x.com/santu_design/status/2038301604307165641/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HEmAflcXcAAly5C.jpg](https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg)
-    Images: https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=734, impression_count=43833, like_count=1171, quote_count=2, reply_count=34, retweet_count=27
-
-> one of my favourite footer designs so far https://x.com/santu_design/status/2038301604307165641/photo/1
-
----
-
-### @chumsdock Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s...
-
-- Author: Cheng [@chumsdock](https://x.com/chumsdock)
-- Tweet URL: [https://x.com/chumsdock/status/2036657892280164655](https://x.com/chumsdock/status/2036657892280164655)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-25T04:14:15.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [www.figma.com/blog/the-figma-canvas-is-now-open-to-agents](https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/)
-- Linked content:
-  - [Agents, Meet the Figma Canvas | Figma Blog](https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/)
-    Images: https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format, https://cdn.sanity.io/images/599r6htc/regionalized/84675f0be7a80669fb6581953821530b48964f30-2314x2525.jpg?w=2314&h=2525&q=75&fit=max&auto=format
-    Text: Agents, meet the Figma canvas Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent. Share Agents, meet the Figma canvas...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=2, impression_count=412, like_count=3, quote_count=0, reply_count=0, retweet_count=0
-
-> Figma MCP 重大更新：use_figma 执行任意 Plugin API JS。可创建组件、变量系统、设计系统。每次调用无状态，~15s 超时，失败原子回滚。后续的算盘：免费账户每月 6 次 MCP 读/写。写入Beta期间免费，即将按量收费。
-> https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/
-
----
-
-### @chumsdock Figma MCP now lets AI agents write to the canvas — not just read it. Here's what...
-
-- Author: Cheng [@chumsdock](https://x.com/chumsdock)
-- Tweet URL: [https://x.com/chumsdock/status/2036657119194460217](https://x.com/chumsdock/status/2036657119194460217)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-25T04:11:11.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1, impression_count=395, like_count=1, quote_count=0, reply_count=0, retweet_count=0
-
-> Figma MCP now lets AI agents write to the canvas — not just read it. Here's what actually matters.
->
-> The headline tool is `use_figma`: it executes arbitrary Plugin API JavaScript directly inside your Figma file. This isn't a smart wrapper — it's a real code execution environment.
-
----
-
-### @srotimi_ui Your daily dose of clean components. // Day 79
-
-- Author: Stephen [@srotimi_ui](https://x.com/srotimi_ui)
-- Tweet URL: [https://x.com/srotimi_ui/status/2036043731426509057](https://x.com/srotimi_ui/status/2036043731426509057)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-23T11:33:48.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/srotimi_ui/status/2036043731426509057/photo/1](https://x.com/srotimi_ui/status/2036043731426509057/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg)
-  - [photo](https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg](https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg)
-    Images: https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg
-  - [pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg](https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg)
-    Images: https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=217, impression_count=13100, like_count=323, quote_count=0, reply_count=13, retweet_count=7
-
-> Your daily dose of clean components.
->
-> // Day 79 https://x.com/srotimi_ui/status/2036043731426509057/photo/1
-
----
-
-### @agilek @AliGrids Made these recently as react components you can use
-
-- Author: Mike Acler [@agilek](https://x.com/agilek)
-- Tweet URL: [https://x.com/agilek/status/2033241509131075835](https://x.com/agilek/status/2033241509131075835)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-15T17:58:46.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/status/2029253302450368522](https://x.com/i/status/2029253302450368522)
-  - [github.com/agilek/cli-loaders?tab=readme-ov-file](https://github.com/agilek/cli-loaders?tab=readme-ov-file)
-- Linked content:
-  - [GitHub - agilek/cli-loaders: Set of Braille unicode spinners as React decorator components. · GitHub](https://github.com/agilek/cli-loaders?tab=readme-ov-file)
-    Images: https://opengraph.githubassets.com/ff07e38a24678f7bd4a0321672d8cf84002ddd5094fbbcb0f4897fc130be06bd/agilek/cli-loaders, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/braille.svg, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/orbit.svg, https://github.com/agilek/cli-loaders/raw/main/assets/spinners/breathe.svg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=25, impression_count=1628, like_count=19, quote_count=0, reply_count=0, retweet_count=2
-
-> @AliGrids Made these recently as react components you can use https://x.com/i/status/2029253302450368522
->
-> https://github.com/agilek/cli-loaders?tab=readme-ov-file
-
----
-
-### @chaosflutt28952 在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context Engineering。
-
-- Author: chaosflutter [@chaosflutt28952](https://x.com/chaosflutt28952)
-- Tweet URL: [https://x.com/chaosflutt28952/status/2031745028243284272](https://x.com/chaosflutt28952/status/2031745028243284272)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-11T14:52:17.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [www.youtube.com/watch?v=2rcJdFuNbZQ](https://www.youtube.com/watch?v=2rcJdFuNbZQ)
-  - [x.com/chaosflutt28952/status/2031745028243284272/photo/1](https://x.com/chaosflutt28952/status/2031745028243284272/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg)
-- Linked content:
-  - [- YouTube](https://www.youtube.com/watch?v=2rcJdFuNbZQ)
-  - [pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg](https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg)
-    Images: https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=92, impression_count=6950, like_count=92, quote_count=0, reply_count=2, retweet_count=24
-
-> 在通勤路上看完了李宏毅老师最新的“解剖小龙虾”的视频，依旧通俗易懂幽默风趣。对之前有些似懂非懂概念的理解也更清晰了，比如 Context Engineering。https://www.youtube.com/watch?v=2rcJdFuNbZQ https://x.com/chaosflutt28952/status/2031745028243284272/photo/1
-
----
-
-### @QingQ77 野心很大，方向清晰。 SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在...
-
-- Author: Geek Lite [@QingQ77](https://x.com/QingQ77)
-- Tweet URL: [https://x.com/QingQ77/status/2031660148440408309](https://x.com/QingQ77/status/2031660148440408309)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-11T09:15:00.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/QingQ77/status/2031660148440408309/photo/1](https://x.com/QingQ77/status/2031660148440408309/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg](https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg)
-    Images: https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=62, impression_count=6511, like_count=51, quote_count=0, reply_count=4, retweet_count=9
-
-> 野心很大，方向清晰。
->
-> SkyClaw 想做的不是又一个聊天式 coding assistant，而是一个常驻你服务器的 Rust agent runtime——你在 Telegram/Discord/Slack 里发话，它在后台跑命令、逛网页、读写文件、拉 git、必要时自我修复，尽量做到“部署一次，长期在线”。
->
-> SkyClaw — 一个常驻服务器的 Rust agent https://x.com/QingQ77/status/2031660148440408309/photo/1
-
----
-
-### @neural_avb 
-
-- Author: AVB [@neural_avb](https://x.com/neural_avb)
-- Tweet URL: [https://x.com/neural_avb/status/2031417353666441266](https://x.com/neural_avb/status/2031417353666441266)
-- X article: [How to design Experiments to Evaluate your Agentic Harness](https://x.com/neural_avb/article/2031417353666441266)
-- X article text: Our forefathers and foremothers laid down the script for improving any system: (1) Build, (2) Evaluate, (3) Refine. Step 1 is trivial now thanks to coding agents. Step 3 is also simple too once you finish Step 2. So this article is about the most open-ended part of the process: Evaluation. But it...
-- Sources: bookmark@CatHanami97880, favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-10T17:10:13.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2031220938738642944](https://x.com/i/article/2031220938738642944)
-  - [huggingface.co/datasets/paperbd/paper-cited-chunks-v1](https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1)
-  - [www.youtube.com/@avb_fj](https://www.youtube.com/@avb_fj)
-  - [www.patreon.com/NeuralBreakdownwithAVB](https://www.patreon.com/NeuralBreakdownwithAVB)
-  - [paperbreakdown.com](https://paperbreakdown.com/)
-- Linked content:
-  - [x.com/i/article/2031220938738642944](https://x.com/i/article/2031220938738642944)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2031220938738642944/i/keyboard%5Fshortcuts)...
-  - [paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face paperbd/paper-cited-chunks-v1 · Datasets at Hugging Face](https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1)
-    Images: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/paperbd/paper-cited-chunks-v1.png, https://huggingface.co/front/assets/huggingface_logo-noborder.svg, https://www.gravatar.com/avatar/932af73dff0f3648f656197e4cd613ec?d=retro&size=100
-    Text: arxiv_id stringlengths 9 12 | query stringlengths 37 616 | cited_chunks listlengths 1 16 | |---|---|---| 2203.12119 | How are prompts inserted in VPT? What is the choice regarding positional encoding for prompts? How is the...
-  - [Neural Breakdown with AVB - YouTube](https://www.youtube.com/@avb_fj)
-    Images: https://yt3.googleusercontent.com/5u3QKXKYuVDPPGCszr2JD76w9APnOMWbEQ_F7j2eu28EgiuZwu16es9d2Ui18RjQKosOdX9on7A=s900-c-k-c0x00ffffff-no-rj
-    Text: About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC
-  - [www.patreon.com/NeuralBreakdownwithAVB](https://www.patreon.com/NeuralBreakdownwithAVB)
-    Text: [](https://www.patreon.com/cdn-cgi/content?id=gLMKzPFI3XvIUNNyzLh6Z%5Fgj0M5ItrYhVaQWNNRnRLQ-1778570560.5284019-1.0.1.1-QLAB1QiBgWyUgLcfwjlXnSzRAHgmHaEZHWj42divqns)[Skip navigation](#main-content)...
-  - [paperbreakdown.com](https://paperbreakdown.com/)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1350, impression_count=111437, like_count=582, quote_count=4, reply_count=10, retweet_count=48
-
-> https://x.com/i/article/2031220938738642944
-
-#### X Article
-
-> Our forefathers and foremothers laid down the script for improving any system: (1) Build, (2) Evaluate, (3) Refine. Step 1 is trivial now thanks to coding agents. Step 3 is also simple too once you finish Step 2.
-> So this article is about the most open-ended part of the process: Evaluation. But it may not be about exactly what you think when you hear that word.
-> Imo, people underestimate and miscalculate the breadth of evaluation.
-> Evaluation is not only about collecting logs and success metrics of the current system you have in place.
->
-> It is also about validating your hypothesis and comparing your approach against alternative methods through frequent experiments.
->
-> For the past week, I have been running multiple experiments to find out how good all my deployed agentic systems actually are. Throughout this article, I will give a couple of real world examples to get your brain juices flowing and help you transfer some of this stuff into your domain.
-> How can you design experiments?
-> How do you pick eval metrics?
-> How do you interpret your results?
-> Enough talk, let's jazz.
->
-> Step 1:
-> Decide what you want to evaluate
-> Most agentic pipelines work with multiple different agents collaborating together towards giving your user some value. A good rule of thumb I follow is to treat each agent as a separate harness. For most of my use-cases, following this rule of thumb has served me well.
-> Depending on your use-case, you may want to set up a system-level evaluation harness, or a module/unit-level harness.
-> Your first task is to make a decision - what are you evaluating?
-> For example, I have a website to study research papers with AI. It has multiple different agentic modules - one to process papers,  another to generate diagrams, another to find relevant sections from the paper given an user query, another to respond to answers, etc etc.
-> Generally you can't evaluate an entire pipeline at once and expect actionable insights. There may be way too many moving variables!
-> So how to pick the correct module? Ask yourself, you probably already know which module in your project needs instant evaluation. I am sure 99% of you reading already know this! If you in the 1% I will suggest you to ask yourself these questions:
-> Where in the pipeline have I made the most egregious assumptions? ( the whole point of an experiment is to validate hypothesis/assumptions, so may as well start here)
->
-> What part of my pipeline happens EARLIEST in the the chain? ( the earlier things are in the pipeline, the more impactful they tend to be coz errors propagate downstream! So prioritize these first! )
->
-> What is my goal here - what vector am I trying to optimize? ( I have an entire section for this one coming up)
->
-> For Paper Breakdown, I decided to work on my retrieval subagent.
->
-> Q. What does my retrieval subagent do?
-> Given a user query, my subagent searches one or more research papers and fetches passages that are relevant to the user's question. All types of response generation (through text, diagrams, code, etc) is contextualized by these retrieved passages.
->
->
-> Step 2:
-> Decide your end goal
-> When we run experiments, we always have a goal in mind. A hypothesis we want to test, or a suspicion we want to rest.
-> What does success look like? What will you do with the information once you have it? It is best to have a clear hypothesis and a threshold for action.
-> Thankfully, there is a universally applicable goal we can all strive for
-> We are all optimizing to provide better value to our users...
->
-> as fast as possible...
->
-> with the least cost...
->
-> and minimal tech debt.
->
-> The three goals that are generally what we strive for as project owners are:
-> Improve accuracy: Can we improve the overall quality of the outputs of our target module?
-> Improve latency: Can we make our target module run FASTER?
-> Improve cost: Can we make our target module cheap to run?
-> Improve code quality: Can we kill dependencies, make our codebase simpler and leaner?
-> Depending on your business, you may weigh these four things d...
-
----
-
-### @yogesharc 👇 Check it out at
-
-- Author: Yogesh [@yogesharc](https://x.com/yogesharc)
-- Tweet URL: [https://x.com/yogesharc/status/2028805687355363347](https://x.com/yogesharc/status/2028805687355363347)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-03-03T12:12:23.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [www.supacortex.ai](https://www.supacortex.ai/)
-- Linked content:
-  - [Supacortex — Share your context across AI](https://www.supacortex.ai/)
-    Images: https://www.supacortex.ai/supacortex-og.png, https://www.supacortex.ai/supercortex-icon.svg?dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR, https://www.supacortex.ai/_next/image?url=%2Fsupacortex-icon.png&w=96&q=75&dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR, https://www.supacortex.ai/_next/image?url=%2Fopenclaw-icon.png&w=48&q=75&dpl=dpl_4TupQC3PuDrdJ33vLPoQEBYgsZsR
-- Thread URLs: none captured
-- Public metrics: bookmark_count=15, impression_count=823, like_count=12, quote_count=0, reply_count=1, retweet_count=0
-
-> 👇 Check it out at https://www.supacortex.ai/
-
----
-
-### @MatthewBerman 5 BILLION tokens later, OpenClaw is now my company's operating system. I discovered...
-
-- Author: Matthew Berman [@MatthewBerman](https://x.com/MatthewBerman)
-- Tweet URL: [https://x.com/MatthewBerman/status/2026450191759585776](https://x.com/MatthewBerman/status/2026450191759585776)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-25T00:12:29.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/MatthewBerman/status/2026450191759585776/video/1](https://x.com/MatthewBerman/status/2026450191759585776/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg](https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=11583, impression_count=1135944, like_count=4518, quote_count=44, reply_count=218, retweet_count=403
-
-> 5 BILLION tokens later, OpenClaw is now my company's operating system.
->
-> I discovered things most people never will.
->
-> (PS I solved the Anthropic OAuth loophole.)
->
-> Here’s exactly how it works.
->
-> 0:00 Intro
-> 0:16 Email Management
-> 5:20 Sponsor
-> 7:02 Inbox Pipeline
-> 9:05 Multiple Prompt https://x.com/MatthewBerman/status/2026450191759585776/video/1
-
----
-
-### @wangray 
-
-- Author: Ray Wang [@wangray](https://x.com/wangray)
-- Tweet URL: [https://x.com/wangray/status/2026300463583564112](https://x.com/wangray/status/2026300463583564112)
-- X article: [OpenClaw 搜索方案全梳理：商业 API、开源自建、零成本 Skill，哪个适合你](https://x.com/wangray/article/2026300463583564112)
-- X article text: AI Agent 要搜索信息，第一个问题就是：用哪个方案？ 选项比你想的多——商业 API、开源自建、无 API 的 Skill、LLM 内置搜索，各有适用场景，选错了不只是贵，还会影响质量和稳定性。我把目前主流方案全整理了一遍，直接说结论。 先说最重要的：你是哪种场景？ 场景一：只想便宜地拿 Google 结果 用 Serper。$0.30/千次，是所有方案里最便宜的，速度快，数据就是 Google 结构化结果。多数项目从这里起步。 场景二：构建 AI Agent 或 RAG 系统 用 Tavily 或 Exa.ai。这两个是专门为 LLM...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-24T14:17:32.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2026291692866084864](https://x.com/i/article/2026291692866084864)
-- Linked content:
-  - [x.com/i/article/2026291692866084864](https://x.com/i/article/2026291692866084864)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2026291692866084864/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=241, impression_count=17811, like_count=135, quote_count=3, reply_count=7, retweet_count=31
-
-> https://x.com/i/article/2026291692866084864
-
-#### X Article
-
-> AI Agent 要搜索信息，第一个问题就是：用哪个方案？
-> 选项比你想的多——商业 API、开源自建、无 API 的 Skill、LLM 内置搜索，各有适用场景，选错了不只是贵，还会影响质量和稳定性。我把目前主流方案全整理了一遍，直接说结论。
->
-> 先说最重要的：你是哪种场景？
-> 场景一：只想便宜地拿 Google 结果
-> 用 Serper。$0.30/千次，是所有方案里最便宜的，速度快，数据就是 Google 结构化结果。多数项目从这里起步。
-> 场景二：构建 AI Agent 或 RAG 系统
-> 用 Tavily 或 Exa.ai。这两个是专门为 LLM 集成优化的，返回的是直接可以喂给模型的结构化摘要，不用自己处理原始 HTML，token 消耗更低，RAG 效率更高。Perplexity Sonar API 也可以，适合问答类场景。
-> 场景三：OpenClaw 用户 / 重视隐私
-> 用 Brave Search API。这是 OpenClaw 的默认搜索 provider，开箱即用。自建索引，不追踪用户，$5/千次。如果你已经在用 OpenClaw，不需要额外配置，直接就是这个。
-> 场景四：企业级、要稳
-> 用 Microsoft Bing Web Search API。$3/千次起，全球覆盖，支持多语言，有完整的 SLA 保障。
-> 场景五：需要搜 X/Twitter 实时内容
-> 用 Grok Search API（xAI）。这是目前唯一提供 X/Twitter 实时搜索的 API，$5/千次。如果你的 Agent 需要追踪 X 上的讨论、抓实时热点，这是唯一选项。OpenClaw 上有现成的 grok-search Skill 可以直接装。
-> 场景六：完全自控、长期低成本
-> 自建 SearXNG。开源免费，聚合 70+ 搜索引擎，前期需要部署维护，长期软件成本接近零。
->
-> 商业方案逐个说
-> Brave Search API
-> $5/千次，每月 $5 免费额度。自建索引是核心优势，不依赖 Google/Bing，隐私保护做得好。支持网页、图片、新闻、视频搜索，也支持 RAG 优化输出。并发限制 50 QPS，中等规模够用。这也是 OpenClaw 内置的默认搜索 provider，开箱即用，配置最简单。
-> Tavily
-> $8/千次，每月免费 1,000 次。专门为 AI 代理设计，聚合 Google、Bing 和自有来源，返回结构化摘要，直接适配 LLM 输入。生产环境支持 1000 RPM，实时性强。如果主要用途是喂给模型，这个是目前最省事的选择。
-> Serper
-> $0.30/千次起，一次性赠送 2,500 次。本质是 Google 搜索代理，返回标准化 JSON 格式，价格是所有方案里最低的。付费套餐支持 50–300 QPS，适合高并发场景。唯一缺点：数据完全依赖 Google。
-> SerpAPI
-> $7.50/千次，免费 250 次/月。支持 Google、Bing、Baidu 等多个搜索引擎，覆盖面最广，但也是定价最贵的方案之一。如果需要跨引擎数据，它是首选。
-> Exa.ai
-> $5/千次，$10 试用额度。用的是神经搜索（语义嵌入），和普通关键词搜索不一样，在理解语义、找相关内容上更准。支持直接爬取网页内容，LLM 集成友好，适合对搜索质量要求高的场景。
-> You.com
-> $6.25/千次（网页搜索），$100 免费信用。实时性是它的核心卖点，专门针对突发新闻和最新内容做了优化，有专用的 RAG API。
-> Microsoft Bing Web Search API
-> $3/千次起，每月 1,000 次免费。企业级稳定性，全球化支持，多语言多地区都有覆盖。并发 100–250 TPS，文档完善。适合对稳定性要求高、有全球用户的产品。
-> Google Custom Search JSON API
-> $5/千次，每天 100 次免费（很少）。官方 Google 搜索 API，稳定，但免费额度极少，而且只能搜特定网站，更适合站内搜索场景，不适合通用搜索。
-> Perplexity Sonar API
-> 按量付费，无免费额度。Sonar $1/$1 per 1M tokens（输入/输出），Sonar Pro $3/$15。和其他 API 不一样，它结合了大模型能力，返回的是对话式的答案而不是链接列表。适合问答型 Agent，但如果只是需要原始搜索结果，性价比不如 Serper。
-> Grok Search API（xAI）
-> $5/千次，包含 Web Search 和 X/Twitter Search 两种模式。X/Twitter 实时搜索是它唯一的差异化——其他所有 API 都没有这个。如果你的 Agent 需要追踪 X 上的实时讨论、热点话题、KOL 动态，这是唯一选项。OpenClaw 上已有现成的 grok-search Skill，自建接入成本很低。通用网页搜索方面和 Brave、Perplexity 同价，没有特别优势。
->
-> 开源方案
-> 如果不想付费，或者对数据隐私有极高要求，可以考虑自建。
-> SearXNG
-> 聚合 70+ 搜索引擎，开源免费，隐私保护强，JSON 原生输出，可以直接接 AI Agent。部署用 Docker，难度中等。主要挑战：容易被目标搜索引擎封 IP，需要代理池维持稳定。成本是服务器 + 代理 IP，软件免费。
-> Whoogle Search
-> 只代理 Google，部署比 SearXNG 简单，无广告无追踪。但容易触发验证码，稳定性受 Google 限制。适合个人项目。
-> Meilisearch
-> 纯全文搜索引擎，搜索速度极快，但不能抓互联网数据——需要自己提供数据集。适合搜自己的知识库或私有文档，不适合通用网络搜索。
->
-> 零成本方案（无需 API）
-> 不想注册付费，还有两条路：
-> Multi Search Engine Skill（ClawHub）
-> OpenClaw 直接从 ClawHub 安装，零配置，整合 17 个搜索引擎（8 个国内 + 9 个国际），完全免费，不需要任何 API key。代价是输出为原始爬取结果，没有专为 LLM 优化的结构化摘要，稳定性取决于各引擎的反爬策略。适合预算为零的入门场景。
-> DuckDuckGo Skill（自建）
-> 社区有人把 DuckDuckGo 封装成 OpenClaw Skill，完全免费，国内可访问，无需账号。索引质量弱于 Google/Bing，批量调用容易触发限制。适合个人轻量使用。
-> 两个无 API 方案的共同局限：质量和稳定性低于付费 API，不适合对搜索结果质量有要求的生产环境。
-> 搜索之后：全文抓取
-> 搜到链接之后，如果需要读取完整页面内容，需要一个独立的抓取工具——搜索 API 只给你摘要和链接，不给全文。
-> Firecrawl
-> 给一个 URL，返回结构化的全文内容，支持 MCP，OpenClaw 可以直接接入。适合"搜索 → 找到关键页面 → 读取完整内容"的工作流。它不是搜索 API 的替代，而是下游的补充工具。
->
-> 番外：不用搜索 API，直接让 LLM 搜不行吗？
-> 有人会问：Gemini 有内置的 Google Search grounding，直接用不就好了？或者用 Claude 的 web search？
-> 说清楚这件事：
-> Gemini + Google Search Grounding
-> 每天前 1,500 次搜索免费，超出后 $35/千次。一次 API 调用完成搜索和推理，集成很简单，搜索质量是 Google。
-> 但 $35/千次是 Serper 的 100 倍，是 Brave 的 7 倍。如果你的 Agent 每天要做几千次搜索，这个成本根本撑不住。
-> 唯一合理的用法：Agent 搜索量很低（每天不超过 1,500 次），完全吃免费额度，一分钱不花。
-> Claude + 搜索 API
-> Claude 本身没有原生搜索能力，需要接外部搜索 API（Brave、Serper 等）或 MCP 工具。两个费用叠加：搜索 API 成本 + Claude token 成本。
-> 对 OpenClaw 用户的实际建议
-> 不要把 Gemini grounding 当 Agent 的默认搜索方案，规模化之后会很贵。正确做法是：用 Brave（默认已配置）或 Serper（更便宜）做搜索，把结果传给 LLM 推理。搜索和推理分开，各用最合适的工具。
->
-> 一句话总结
-> 便宜 → Serper
-> AI Agent / RAG → Tavily 或 Exa.ai
-> OpenClaw 默认 / 隐私 + 独立 → Brave（开箱即用）
-> 企业级 → Bing
-> 零成本自建 → SearXNG
-> 问答型 Agent → Perplexity Sonar
-> 搜 X/Twitter 实时内容 → Grok Search API
-> 零成本入门 → Multi Search Engine Skill（无需 API，ClawHub 一键安装）
-> 搜到链接后需要读全文 → Firecrawl（搜索 API 的下游补充）
-> 对 OpenClaw 用户来说：Brave 是默认配置，直接可用。其他方案（Serper、Tavily、Exa 等）需要自建 Skill 接入，有一定配置成本，但值得根据场景评估。
-
----
-
-### @Prince_Canuma Shoutout to my wife for directing and editing the video ❤️
-
-- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
-- Tweet URL: [https://x.com/Prince_Canuma/status/2026074121671500238](https://x.com/Prince_Canuma/status/2026074121671500238)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T23:18:07.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=0, impression_count=1039, like_count=22, quote_count=0, reply_count=1, retweet_count=0
-
-> Shoutout to my wife for directing and editing the video ❤️ https://twitter.com/Prince_Canuma/status/2026022469010599954
-
----
-
-### @ramin_m_h MLX king shipped a strong and important SDK: MLX-Audio-Swift. You must check it out!
-
-- Author: Ramin [@ramin_m_h](https://x.com/ramin_m_h)
-- Tweet URL: [https://x.com/ramin_m_h/status/2026058929348731101](https://x.com/ramin_m_h/status/2026058929348731101)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T22:17:45.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=6, impression_count=1892, like_count=24, quote_count=0, reply_count=1, retweet_count=1
-
-> MLX king shipped a strong and important SDK: MLX-Audio-Swift.
->
-> You must check it out! https://twitter.com/Prince_Canuma/status/2026022469010599954
-
----
-
-### @Prince_Canuma One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I...
-
-- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
-- Tweet URL: [https://x.com/Prince_Canuma/status/2026051860377805300](https://x.com/Prince_Canuma/status/2026051860377805300)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T21:49:40.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/tayarndt/status/2025980816183148726](https://twitter.com/tayarndt/status/2025980816183148726)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=38, impression_count=10471, like_count=245, quote_count=2, reply_count=6, retweet_count=18
-
-> One of the reason I built MLX-Audio is because my Dad become blind 6 years ago and I promised him I’ll help him resume his favourite hobby of reading books using AI.
->
-> With the new MLX-Audio-Swift he can read the news on his iPhone :)
->
-> Hope it empowers you too @tayarndt! https://twitter.com/tayarndt/status/2025980816183148726
-
----
-
-### @iamdavidhill my favourite ai companies right now: - DeepSeek - Moonshot AI - MiniMax
-
-- Author: David Hill [@iamdavidhill](https://x.com/iamdavidhill)
-- Tweet URL: [https://x.com/iamdavidhill/status/2026044556618145834](https://x.com/iamdavidhill/status/2026044556618145834)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T21:20:39.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=359, impression_count=228212, like_count=6920, quote_count=55, reply_count=210, retweet_count=341
-
-> my favourite ai companies right now:
->
-> - DeepSeek
-> - Moonshot AI
-> - MiniMax
-
----
-
-### @Prince_Canuma You can now vibecode your own Wispr alternative that runs locally on Apple silicon 👀
-
-- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
-- Tweet URL: [https://x.com/Prince_Canuma/status/2026027686989086937](https://x.com/Prince_Canuma/status/2026027686989086937)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T20:13:37.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [twitter.com/Prince_Canuma/status/2026022469010599954](https://twitter.com/Prince_Canuma/status/2026022469010599954)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=11, impression_count=1563, like_count=26, quote_count=0, reply_count=1, retweet_count=2
-
-> You can now vibecode your own  Wispr alternative that runs locally on Apple silicon 👀 https://twitter.com/Prince_Canuma/status/2026022469010599954
-
----
-
-### @Prince_Canuma Day 1 of 3 days of MLX: Introducing MLX-Audio-Swift SDK 🚀 A modular Swift SDK for voice...
-
-- Author: Prince Canuma [@Prince_Canuma](https://x.com/Prince_Canuma)
-- Tweet URL: [https://x.com/Prince_Canuma/status/2026022469010599954](https://x.com/Prince_Canuma/status/2026022469010599954)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T19:52:52.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/Prince_Canuma/status/2026022469010599954/video/1](https://x.com/Prince_Canuma/status/2026022469010599954/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg](https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=375, impression_count=153765, like_count=450, quote_count=9, reply_count=35, retweet_count=42
-
-> Day 1 of 3 days of MLX:
->
-> Introducing MLX-Audio-Swift SDK 🚀
->
-> A modular Swift SDK for voice agents and tasks on Apple Silicon built by @lllucas and yours truly.
->
-> iOS, macOS, and visionOS developers can now build native apps with real-time, on-device audio intelligence:
->
-> 🗣️ https://x.com/Prince_Canuma/status/2026022469010599954/video/1
-
----
-
-### @sanyi_eth_ 你们玩openclaw的嘴巴可真严啊！ 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了...
-
-- Author: sanyi.eth [@sanyi_eth_](https://x.com/sanyi_eth_)
-- Tweet URL: [https://x.com/sanyi_eth_/status/2025975741503135842](https://x.com/sanyi_eth_/status/2025975741503135842)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-23T16:47:12.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=661, impression_count=207009, like_count=586, quote_count=0, reply_count=54, retweet_count=51
-
-> 你们玩openclaw的嘴巴可真严啊！
->
-> 前几天claude封了auth登录，我说我刚订阅的max钱是不是白花了
-> 结果突然发现，他妈的openclaw可以调用本地的claude客户端，一样可以间接使用claude模型...
-
----
-
-### @johann_sath saas is dead openclaw replaced all my subscriptions went from $480/month on tools to...
-
-- Author: Johann Sathianathen [@johann_sath](https://x.com/johann_sath)
-- Tweet URL: [https://x.com/johann_sath/status/2024846068245017031](https://x.com/johann_sath/status/2024846068245017031)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-20T13:58:17.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=703, impression_count=453829, like_count=10637, quote_count=90, reply_count=258, retweet_count=532
-
-> saas is dead
->
-> openclaw replaced all my subscriptions
->
-> went from $480/month on tools
-> to $1,245/month on API costs &amp; 15 hours a week fixing yaml files
->
-> adapt or be left behind
-
----
-
-### @HuggingModels 
-
-- Author: Hugging Models [@HuggingModels](https://x.com/HuggingModels)
-- Tweet URL: [https://x.com/HuggingModels/status/2024544978912104552](https://x.com/HuggingModels/status/2024544978912104552)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-19T18:01:51.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF](https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF)
-- Linked content:
-  - [TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF · Hugging Face TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF · Hugging Face](https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF)
-    Images: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF.png, https://huggingface.co/front/assets/huggingface_logo-noborder.svg, https://cdn-avatars.huggingface.co/v1/production/uploads/6837935ac3b7ffe0d2559ce9/-AxyvV4wfUY8uo87kNKkK.png
-- Thread URLs: none captured
-- Public metrics: bookmark_count=126, impression_count=20051, like_count=98, quote_count=0, reply_count=3, retweet_count=4
-
-> https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
-
----
-
-### @dingyi 绝了，刚刚阿里在除夕夜发布了新模型 Qwen-3.5-plus ，赶紧试了一下，一句话就生成了这样一个 3D 展车厅 🤯 据说这次 Qwen-3.5-plus...
-
-- Author: Ding [@dingyi](https://x.com/dingyi)
-- Tweet URL: [https://x.com/dingyi/status/2023355456899756224](https://x.com/dingyi/status/2023355456899756224)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-16T11:15:07.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/dingyi/status/2023355456899756224/video/1](https://x.com/dingyi/status/2023355456899756224/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg](https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=498, impression_count=150264, like_count=619, quote_count=6, reply_count=35, retweet_count=104
-
-> 绝了，刚刚阿里在除夕夜发布了新模型 Qwen-3.5-plus ，赶紧试了一下，一句话就生成了这样一个 3D 展车厅 🤯
->
-> 据说这次 Qwen-3.5-plus 实现了从纯文本模型到原生多模态模型的代际跃迁，每百万 Token 仅 0.8 元人民币，是 Gemini 3 Pro 的 1/18！
->
-> 并且支持 201 种语言，可最高提升小语种 60% https://x.com/dingyi/status/2023355456899756224/video/1
-
----
-
-### @canghe 
-
-- Author: 苍何 [@canghe](https://x.com/canghe)
-- Tweet URL: [https://x.com/canghe/status/2022356917948166506](https://x.com/canghe/status/2022356917948166506)
-- X article: [爆肝 2 天，开发 OpenClaw 接入微信 bot，已开源！](https://x.com/canghe/article/2022356917948166506)
-- X article text: 大家好，我是苍何。 OpenClaw，这个 GitHub 上 18 万 Star 的怪物级开源项目，你们应该都听过了吧？ 飞书能接、钉钉能接、企业微信能接、QQ 能接、Discord 能接…… 但偏偏最多人用的微信个人号，它不支持。 我翻遍了 GitHub、掘金、知乎，找到的方案要么是企业微信绕一圈，要么是用微信 Web 协议搞，动不动就封号。 说实话，这谁顶得住？ 天天在微信上跟朋友聊天、在群里吹水，结果想接个 OpenClaw 都这么费劲？ 麻了。 于是我决定自己干。 爆肝 2 天，我把 OpenClaw 接入了微信个人号，并且已经开源了。...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-13T17:07:17.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2022352504315654144](https://x.com/i/article/2022352504315654144)
-  - [github.com/freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat)
-  - [github.com/canghe/openclaw-wechat.git](https://github.com/canghe/openclaw-wechat.git)
-  - [your-proxy-server:3000](http://your-proxy-server:3000)
-- Linked content:
-  - [x.com/i/article/2022352504315654144](https://x.com/i/article/2022352504315654144)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2022352504315654144/i/keyboard%5Fshortcuts)...
-  - [GitHub - freestylefly/openclaw-wechat: 让 OpenClaw稳定的连上你的个人微信 · GitHub](https://github.com/freestylefly/openclaw-wechat)
-    Images: https://opengraph.githubassets.com/eebd49f96499285975a11dea31af3526308ac1fa40294ebf2a06030705914cf3/freestylefly/openclaw-wechat, https://github.com/freestylefly/openclaw-wechat/raw/master/images/%E7%BE%A4%E8%81%8A%E4%BA%A4%E6%B5%81.bmp, https://camo.githubusercontent.com/dc601e30f1ff4ca7ae72ca6744c776aee8dd9e972698635d68e9be60d8cc402a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d667265657374796c65666c792f6f70656e636c61772d77656368617426747970653d44617465
-  - [github.com/canghe/openclaw-wechat.git](https://github.com/canghe/openclaw-wechat.git)
-  - [your-proxy-server:3000](http://your-proxy-server:3000)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1498, impression_count=263991, like_count=986, quote_count=19, reply_count=87, retweet_count=206
-
-> https://x.com/i/article/2022352504315654144
-
-#### X Article
-
-> 大家好，我是苍何。
-> OpenClaw，这个 GitHub 上 18 万 Star 的怪物级开源项目，你们应该都听过了吧？
-> 飞书能接、钉钉能接、企业微信能接、QQ 能接、Discord 能接……
-> 但偏偏最多人用的微信个人号，它不支持。
-> 我翻遍了 GitHub、掘金、知乎，找到的方案要么是企业微信绕一圈，要么是用微信 Web 协议搞，动不动就封号。
-> 说实话，这谁顶得住？
-> 天天在微信上跟朋友聊天、在群里吹水，结果想接个 OpenClaw 都这么费劲？
-> 麻了。
-> 于是我决定自己干。
-> 爆肝 2 天，我把 OpenClaw 接入了微信个人号，并且已经开源了。
->
-> 地址：https://github.com/freestylefly/openclaw-wechat
-> 不过受限于各种因素，目前项目处于内测阶段，需要 apikey 才可以使用。
-> 我给他命名为苍何的狗腿子，和普通好友没什么区别，但他却是个能真正帮你干事的好友。
-> 当你随便把一篇文章丢给他，OpenClaw 会帮你做总结。
->
-> 并帮你存放于你的个人 Notion 知识库中。
->
-> 我现在看到好文章直接转发给它，然后可以直接让他去知识库中帮我查找任何我想要的收藏。
->
-> 说实话比收藏夹好用一万倍。
-> 我把这家伙拉进群聊，还能随时@总结上下文，群聊利器啊。
->
-> 然后我可以指挥 OpenClaw 自动搜集全网资讯，并直接汇总发我。
->
-> 还可以进行日程提醒，比如让它提醒我 2 分钟后喝水。
->
-> 我甚至还在我的 OpenClaw 中装了 18 岁的 AI 女友 Clawra，她有独立人格和人设，当我问她在干嘛时，她会甩一张自拍给我
->
-> 当然还有更多的场景待探索，但我发现，在微信上用 OpenClaw 显得非常的丝滑，因为我每天真的离不开微信。
-> 这篇文章主要分享我开发的历程，代码也上传到了 GitHub，但由于时间有限以及防止技术被滥用，我做了一层代理处理，需要审核才可使用。
-> 1. 建议先用小号测试，虽然 iPad 协议比 Web 协议稳定得多，但毕竟是第三方接入，谨慎为上
-> > 2. 不要用来搞群发、营销之类的骚操作，腾讯的风控不是吃素的
-> > 3. 建议部署在有固定 IP 的服务器上，频繁换 IP 容易触发风控
->
-> 先说说 OpenClaw 是啥
-> 如果你还不知道 OpenClaw，简单说一下。
-> 它原名叫 Clawdbot，是一个奥地利开发者 Peter Steinberger 搞出来的开源 AI Agent 项目。
->
-> 后来因为跟 Anthropic 的商标冲突，改名 Moltbot，又改名 OpenClaw。
-> 名字换了三个，但丝毫不影响它火到离谱。
-> 3 周时间，GitHub Star 从 0 干到 18 万+。
-> 这什么概念？React 花了 8 年才到 10 万，Linux 花了 12 年，它 3 周就超了。
-> 好家伙，这不是坐火箭，这是坐 SpaceX 星舰。
-> 它的核心能力就一句话：让 AI 不只是回答你问题，而是真正替你干活。
-> 你跟它说「帮我查一下明天的天气，然后发到群里」，它就真的会去查、然后发。
-> 不是那种假装理解你然后输出一坨文字的「AI 助手」，是真的有手有脚能操作的 Agent。
-> 它支持接入各种大模型，Claude、GPT、DeepSeek 都行，还支持多 Agent 协作，搞一个虚拟开发团队都不在话下。
-> 我之前也写过几篇关于OpenClaw 的文章，不了解的也可以先看看：
->
-> 为啥微信这么难接？
-> 讲真的，这事不能怪 OpenClaw。
-> 微信是出了名的「封闭生态」，个人号压根没有官方 Bot API。
-> 你想搞自动化，要么走企业微信（需要公司认证），要么用第三方协议逆向（随时封号）。
-> 之前社区有一些方案，比如用 wechatbot-webhook 基于微信 Web 协议来搞，Docker 一键部署倒是方便。
-> 但问题是：
-> 稳定性堪忧，微信 Web 协议说封就封
-> 功能受限，很多高级功能用不了
-> 安全风险，你的微信账号等于裸奔
-> 我试了几个，要么跑不起来，要么跑起来半天就掉线。
-> 说白了，这些方案都是在微信的安全策略上「走钢丝」。
-> 我是怎么搞的
-> 既然现有方案都不太行，那就自己撸一个。
-> 我的思路是这样的：
-> 不走微信 Web 协议，走 iPad 协议 + 消息中转服务。
-> 核心架构分三层：
-> 消息接收层：基于 iPad 协议稳定接收微信消息，比 Web 协议靠谱得多
-> 中转网关层：做消息格式转换、会话管理、限流熔断
-> OpenClaw 对接层：通过 Webhook 把消息推给 OpenClaw Gateway，再把 AI 回复转发回微信
-> 整个架构用 TypeScript 写的，跟 OpenClaw 原生技术栈一致。
-> 说起来简单，但这毕竟是个系统工程，协议对接、消息队列、网关路由、多模型调度，涉及的模块还挺多的。
->
-> 踩坑实录
-> 坑一：消息去重
-> 微信的消息推送机制很迷，同一条消息有时候会推两三次。
-> 如果不做去重，AI 就会回复两三遍，对面以为你是复读机。
-> 我的解决方案是让 GLM 搞了一个基于消息 ID + 时间窗口的去重缓存，用 LRU 策略自动淘汰过期记录。
-> 坑二：上下文管理
-> OpenClaw 的 Agent 是有记忆的，但微信的对话场景比较特殊。
-> 群聊里一堆人说话，你不能把所有消息都当作是给 AI 的指令。
-> 所以我做了一个「@触发 + 私聊直连」的机制：
-> 私聊：所有消息直接转给 OpenClaw 处理
-> 群聊：只有 @机器人 的消息才会触发 AI 回复
-> 这样就不会出现 AI 在群里疯狂刷屏的社死场面了。
-> 坑三：回复速度
-> 大模型的回复是有延迟的，特别是复杂问题可能要想好几秒。
-> 但微信那边，对面看你一直不回，以为你已读不回呢。
-> 我加了一个「思考中...」的状态提示，AI 在生成回复的时候先发一个提示，生成完了再替换成正式回复。
-> 用户体验直接拉满。
-> 坑四：多模型切换
-> OpenClaw 支持多个大模型，但不同场景其实适合不同模型。
-> 比如日常闲聊用 DeepSeek 就够了，写代码分析问题上 Claude，省钱又高效。
-> 我在中转层做了一个简单的路由策略，根据消息内容自动选择最合适的模型。
-> 能干啥？
-> 接入之后，你的微信就变成了一个 AI 超级助手。
-> 举几个我自己在用的场景：
-> 1. 智能群聊助手
-> 在技术群里 @机器人，直接问代码问题，它会结合上下文给出解答。
-> 再也不用忍受群里那些「百度一下」的回复了。
-> 2. 个人知识管家
-> 把文章、链接丢给它，它帮你总结归纳，还能存到你的知识库里。
-> 我现在看到好文章直接转发给它，比收藏夹好用一万倍。
-> 3. 日程提醒
-> 跟它说「明天下午 3 点提醒我开会」，到点它就会在微信上戳你。
-> 比手机自带的提醒好用，因为你一定会看微信。
-> 4. 自动回复
-> 设置好规则，一些常见问题它自动回复。
-> 比如有人加你好友问「在吗」，它直接回「在的，有什么事吗？」
-> 再也不用被「在吗」两个字烦死了。
-> 怎么用？
-> 项目已经开源，可以自己部署。
-> 核心就三步：
-> 第一步：克隆项目
-> git clone https://github.com/canghe/openclaw-wechat.git
-> cd openclaw-wechat
-> 第二步：配置环境变量
-> 出于安全考虑，这里的 apikey 是我代理服务做了一层，目前还在优化中。
-> openclaw config set channels.wechat.apiKey "wclivexxxxxxxxxxxxxxxx"
-> openclaw config set channels.wechat.proxyUrl "http://your-proxy-server:3000"
-> openclaw config set channels.wechat.webhookHost "your-server-ip"
-> openclaw config set channels.wechat.enabled true
-> 第三步：openclaw 服务中添加 openclaw-wechat
-> openclaw plugins install @canghe/openclaw-wechat
-> 这里需要等下，还没来的及上到插件市场去，后面会上，可以先本地代码的方式安装。
-> 然后用微信扫码登录，完事。
-> 整个过程 5 分钟搞定，不需要公司认证，不需要企业微信，普通个人号直接用。
-> 后续计划
-> 目前这个项目还在持续迭代，后面计划加这些功能：
-> 语音消息支持：目前只支持文字，后续会接入语音转文字 + 文字转语音
-> 图片理解：接入多模态模型，让 AI 能看懂你发的图片
-> OpenClaw Skills 市场对接：直接在微信里调用 OpenClaw 的 700+ 技能
-> 多账号管理面板：Web 端可视化管理多个微信号的接入
-> 如果你有好的想法，欢迎来 GitHub 上提 Issue 或者 PR。
-> 写在最后
-> 说实话，OpenClaw 这波开源 AI Agent 的浪潮，真的让我看到了 AI 落地的另一种可能。
-> 以前我们说 AI，总觉得是那种高高在上的东西，要么在实验室里，要么在大公司的服务器上。
-> 但现在，你自己部署一个 OpenClaw，接上微信，AI 就真的成了你口袋里的助手。
-> 这种感觉，说不出的爽。
-> 不过也要提醒一下，OpenClaw 的 Skills 生态最近爆出了一些安全问题，有超过 230 个恶意插件被上传到了社区。
-> 所以大家在用 OpenClaw 的时候，一定要注意只安装可信来源的 Skills，别什么都往上装。
-> 好了，项目地址：https://github.com/freestylefly/openclaw-wechat ，感兴趣的直接去 GitHub 上 Star 一下。
-> 如果你也在用 OpenCl...
-
----
-
-### @pradeep24 
-
-- Author: pradeep [@pradeep24](https://x.com/pradeep24)
-- Tweet URL: [https://x.com/pradeep24/status/2021319785947316490](https://x.com/pradeep24/status/2021319785947316490)
-- X article: [camofox-browser - A openclaw browser that doesn't get blocked](https://x.com/pradeep24/article/2021319785947316490)
-- X article text: camofox-browser is an OpenClaw plugin that lets your agents browse sites that normally block automation — X, Product Hunt, Amazon, and more. It was extracted from Jo, where it powers our server-side web browsing. It’s a headless browser server built on Camoufox, a Firefox fork that spoofs browser...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-10T20:26:05.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2021313314584920064](https://x.com/i/article/2021313314584920064)
-  - [github.com/jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser)
-  - [localhost:9377/health](http://localhost:9377/health)
-- Linked content:
-  - [x.com/i/article/2021313314584920064](https://x.com/i/article/2021313314584920064)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2021313314584920064/i/keyboard%5Fshortcuts)...
-  - [GitHub - jo-inc/camofox-browser: Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement. · GitHub](https://github.com/jo-inc/camofox-browser)
-    Images: https://opengraph.githubassets.com/01f8dbf3fc6f1ca2e58e16b1bf827b7baa3e812ed9d1be69ab4538e260f0f11b/jo-inc/camofox-browser, https://github.com/jo-inc/camofox-browser/raw/master/fox.png, https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667, https://camo.githubusercontent.com/c0ddfc248d98695b7a10ea4af23047c4a094df91984d9eb0de2f10b4e1f1602a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6a6f2d696e632f63616d6f666f782d62726f77736572
-  - [localhost:9377/health](http://localhost:9377/health)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=3410, impression_count=170808, like_count=1545, quote_count=33, reply_count=63, retweet_count=160
-
-> https://x.com/i/article/2021313314584920064
-
-#### X Article
-
-> camofox-browser is an OpenClaw plugin that lets your agents browse sites that normally block automation — X, Product Hunt, Amazon, and more. It was extracted from Jo, where it powers our server-side web browsing.
-> It’s a headless browser server built on Camoufox, a Firefox fork that spoofs browser fingerprints at the C++ level rather than in JavaScript. This gives it a higher probability of passing detection systems than standard headless browsers.
-> If your OpenClaw is on a Mac Mini, the built-in browser tool drives a real browser window that sites treat normally. On a VPS or remote server, you’re stuck with headless Chrome or raw HTTP requests  —  both commonly blocked. Camofox solves that for remote servers, and is also faster than desktop browsing for agent workflows.
-> This post covers why that matters and how it works.
-> OPENCLAW PLUGIN
->
-> Exposes tools: camofox_create_tab, camofox_snapshot, camofox_click, camofox_type, camofox_navigate, camofox_scroll, camofox_screenshot.
-> THE PROBLEM WITH JAVASCRIPT-LEVEL EVASION
-> Playwright and Puppeteer work fine on cooperative sites. Point them at Google, Amazon, or anything behind Cloudflare, and the requests aren’t rate-limited — they’re rejected outright.
-> Detection systems fingerprint browsers across hundreds of dimensions: WebGL renderer strings, AudioContext sample rates, navigator.hardwareConcurrency, screen geometry, WebRTC IP leaks, battery API quirks, speech synthesis voices.
-> The standard fix is stealth plugins: patch navigator.webdriver, override a few properties. This works until the patch itself becomes a fingerprint signal  —  and against a serious detection stack, it will.
-> The fundamental problem: any property you override in JavaScript can be inspected in JavaScript. Property descriptors, prototype chains, and function toString() all leak the override.
-> WHY C++ IS THE RIGHT LAYER
-> When JavaScript calls navigator.hardwareConcurrency, it’s backed by a C++ implementation in Firefox. Override it in JS, and pages can detect the discrepancy — property descriptors look wrong, prototypes don’t match, functions aren’t native. Change the C++ return path, and JavaScript sees the spoofed value as if it’s real.
-> From the Camoufox README:
-> In Camoufox, data is intercepted at the C++ implementation level, making the changes undetectable through JavaScript inspection.
-> camofox-browser wraps this engine in a REST API designed for programmatic use.
-> WHAT GETS INTERCEPTED
-> The patches follow a simple pattern: check config, return spoofed value if set, otherwise fall through to normal implementation. From fingerprint-injection.patch:
->
-> This pattern covers window geometry, navigator fields, screen details, WebGL parameters (GPU fingerprints via webgl-spoofing.patch), WebRTC IP masking (webrtc-ip-spoofing.patch), audio fingerprints, geolocation with auto-approval, battery API, and speech synthesis voices.
-> Camoufox also includes Bézier curve-based mouse trajectories in MouseTrajectories.hpp — because detection systems increasingly grade howyou interact, not just what you send.
-> All of this is intercepted in C++ before JavaScript ever sees it.
-> WHY WE WRAPPED IT AS A SERVER
-> A Google results page is ~500KB of HTML. The accessibility tree for the same page is ~5KB. When the consumer is an LLM with a context window, that’s a 100x reduction that matters.
-> So camofox-browser provides:
-> Accessibility snapshots instead of HTML
-> Element refs (e1, e2, e3) instead of brittle selectors
-> Macros for common sites (@google_search, @youtube_search, @amazon_search)
->
-> PROXIES STILL MATTER
-> This remains the gnarliest piece of the puzzle. Most anti-bot systems check whether your IP is residential or datacenter, and datacenter ranges are well-catalogued. You can work around this with ISP or residential proxies, but it’s janky infrastructure work. Camofox isn’t always successful here, but your odds are better than raw Playwright.
-> We got around this in Jo by building a local Safari-powered stack through the macOS app  —  your real browser,...
-
----
-
-### @ronaldmannak While I prefer the Codex app over the Claude Code’s CLI, Claude can find subtle SwiftUI...
-
-- Author: Ronald Mannak [@ronaldmannak](https://x.com/ronaldmannak)
-- Tweet URL: [https://x.com/ronaldmannak/status/2020946239366529198](https://x.com/ronaldmannak/status/2020946239366529198)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-09T19:41:45.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [thecommander.app](https://thecommander.app/)
-- Linked content:
-  - [Commander - The Command Center for Coding Agents](https://thecommander.app/)
-    Images: https://thecommander.app/og-image.png?v=11, https://thecommander.app/trademark.png, https://thecommander.app/hero1.webp, https://thecommander.app/hero2.webp
-- Thread URLs: none captured
-- Public metrics: bookmark_count=128, impression_count=25282, like_count=146, quote_count=2, reply_count=14, retweet_count=10
-
-> While I prefer the Codex app over the Claude Code’s CLI, Claude can find subtle SwiftUI errors Codex can’t (even with the same skills installed).
-> Anthropic should just acquire https://thecommander.app/ and throw some extra resources at it to catch up on Codex
-
----
-
-### @Aurelien_Gz interface animation done well.. this is how you create a snappy, high end interface....
-
-- Author: Aurelien [@Aurelien_Gz](https://x.com/Aurelien_Gz)
-- Tweet URL: [https://x.com/Aurelien_Gz/status/2020260029782454276](https://x.com/Aurelien_Gz/status/2020260029782454276)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-07T22:15:00.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/tbsrnstrm/status/1957101102056305075/video/1](https://x.com/tbsrnstrm/status/1957101102056305075/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg](https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1274, impression_count=61201, like_count=1400, quote_count=3, reply_count=22, retweet_count=84
-
-> interface animation done well..
->
-> this is how you create a snappy, high end interface. blazing fast, fluid, and makes the whole ui feel so responsive
->
->  wizard » @tbsrnstrm https://x.com/tbsrnstrm/status/1957101102056305075/video/1
-
----
-
-### @figma Imagine turning any image into a vector (now you actually can) → Convert raster images...
-
-- Author: Figma [@figma](https://x.com/figma)
-- Tweet URL: [https://x.com/figma/status/2019096024590287076](https://x.com/figma/status/2019096024590287076)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-04T17:09:39.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/figma/status/2019096024590287076/video/1](https://x.com/figma/status/2019096024590287076/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg](https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=11827, impression_count=5661441, like_count=23610, quote_count=2504, reply_count=487, retweet_count=2107
-
-> Imagine turning any image into a vector (now you actually can)
->
-> → Convert raster images into editable vectors
-> → Simplify and control color output https://x.com/figma/status/2019096024590287076/video/1
-
----
-
-### @huangjinbo Kimi 2.5 Code...
-
-- Author: 佐仔 [@huangjinbo](https://x.com/huangjinbo)
-- Tweet URL: [https://x.com/huangjinbo/status/2018659007121195362](https://x.com/huangjinbo/status/2018659007121195362)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-03T12:13:06.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [www.kimi.com](https://www.kimi.com/)
-- Linked content:
-  - [Kimi AI with K2.6 | Better Coding, Smarter Agents](https://www.kimi.com/)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=7, impression_count=2903, like_count=10, quote_count=0, reply_count=0, retweet_count=0
-
-> Kimi 2.5 Code 用来编程还是没问题的，最起码便宜，不用心惊胆战地看那些扣费邮件，并且质量整体来说不错。今天跑出了一个工作流，还挺满意的。这段时间就用它来做主力了，建议订阅开放平台的，因为 https://www.kimi.com/  订阅的 Kimi 2.50Code 可用量不多。
-
----
-
-### @ctatedev iOS support just landed in agent-browser, the browser automation CLI for agents 𝚊𝚐𝚎𝚗𝚝-...
-
-- Author: Chris Tate [@ctatedev](https://x.com/ctatedev)
-- Tweet URL: [https://x.com/ctatedev/status/2018594137621074276](https://x.com/ctatedev/status/2018594137621074276)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-03T07:55:20.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/ctatedev/status/2018594137621074276/video/1](https://x.com/ctatedev/status/2018594137621074276/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg)
-- Linked content:
-  - [pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg](https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1278, impression_count=111244, like_count=1407, quote_count=13, reply_count=41, retweet_count=81
-
-> iOS support just landed in agent-browser, the browser automation CLI for agents
->
-> 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 -𝚙 𝚒𝚘𝚜 𝚘𝚙𝚎𝚗 &lt;𝚞𝚛𝚕&gt;
->
-> Available starting in v0.9 https://x.com/ctatedev/status/2018594137621074276/video/1
-
----
-
-### @akokoi1 
-
-- Author: WY [@akokoi1](https://x.com/akokoi1)
-- Tweet URL: [https://x.com/akokoi1/status/2018158137287860412](https://x.com/akokoi1/status/2018158137287860412)
-- X article: [OpenClaw进阶：配置“有头浏览器”保姆级教程](https://x.com/akokoi1/article/2018158137287860412)
-- X article text: 没有浏览器功能的OpenClaw是不完整的，接入浏览器插件后，OpenClaw能够帮你完成更多的工作，发挥你更大想象空间。 首先要了解一下“有头浏览器”和“无头浏览器”的区别，简单点说，有头浏览器有真实浏览器窗口，无头浏览器则没有。 无头浏览器在处理复杂交互时存在明显短板，例如需要人工确认的验证码、拖拽操作、弹窗授权、多步骤登录流程等场景。 同时，一些网站会对无头环境进行检测，无头浏览器更容易触发反爬或风控机制。而有头浏览器由于行为更接近真实用户，兼容性和成功率通常更高。 所以在OpenClaw中更推荐有头浏览器，接下来这篇文章会以最简单的方式教大家如何配置OpenClaw的浏览器功能。...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-02T03:02:50.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2017761530113363971](http://x.com/i/article/2017761530113363971)
-- Linked content:
-  - [x.com/i/article/2017761530113363971](http://x.com/i/article/2017761530113363971)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2017761530113363971/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=781, impression_count=59063, like_count=429, quote_count=6, reply_count=38, retweet_count=83
-
-> http://x.com/i/article/2017761530113363971
-
-#### X Article
-
-> 没有浏览器功能的OpenClaw是不完整的，接入浏览器插件后，OpenClaw能够帮你完成更多的工作，发挥你更大想象空间。
-> 首先要了解一下“有头浏览器”和“无头浏览器”的区别，简单点说，有头浏览器有真实浏览器窗口，无头浏览器则没有。
-> 无头浏览器在处理复杂交互时存在明显短板，例如需要人工确认的验证码、拖拽操作、弹窗授权、多步骤登录流程等场景。
-> 同时，一些网站会对无头环境进行检测，无头浏览器更容易触发反爬或风控机制。而有头浏览器由于行为更接近真实用户，兼容性和成功率通常更高。
-> 所以在OpenClaw中更推荐有头浏览器，接下来这篇文章会以最简单的方式教大家如何配置OpenClaw的浏览器功能。
-> 前置条件
-> 有头浏览器必须依靠图形化的界面，所以服务器 Linux（无桌面）不能完全配置有头浏览器，即使用桌面Linux也会有一些坑，所以这里只做MacOS端和Windows端的教程。
-> 确认已经配置安装好了，并成功运行起来OpenClaw。
-> 电脑必须安装好了Chrome浏览器。
-> 安装教程
-> 终端运行
->
-> 它会给你一个chrome extension插件的位置和安装指引
->
-> 注意了！！！接下来让openclaw打开Chrome，这一点很重要，发送指令让openclaw打开。
-> 我这里可以直接通过127.0.0.1:18789这个web控制台聊天发送指令，也可以通过其它连接了的聊天软件发送：
->
-> 这个时候应该会提示搜索失败，它会提示让你打开chrome的OpenClaw扩展，这个扩展它不会自动安装，需要我们手动操作：
-> 在刚刚openclaw打开的Chrome浏览器中输入chrome://extensions/，打开开发者模式，点击加载未打包的扩展程序：
->
-> 选择~/.openclaw/browser/chrome-extension这个目录，MAC用户如果看不到这个目录，按住 shift + command + .  这三个按键，就会出现隐藏目录，这个时候再一级一级选择到chrome-extension目录：
->
-> 接下来点击右上角的扩展，激活OpenClaw插件：
->
-> 出现以下的提示就表示配置成功了：
->
-> 接下来你可以试试给你的OpenClaw发送指令：
-> “浏览器已经打开了，进入携程帮我查一查今天下午3点到6点上海到北京的航班，告诉我经济舱最低价格”
->
-> 这个时候你就看到了它在自动操作浏览器，操作结束后就会返回搜索结果。
->
-> 有几个需要注意的地方：
-> 每次它自动打开浏览器都不会自动开启扩展，需要手动开启；
-> 很多网站都需要登录后操作，最好预先在网站登录；
-> 任务执行完后可以让它关闭刚刚打开浏览器标签，防止长期驻留内存泄漏；
-> 尽量选择可靠的模型，我这里用的是gpt-5.2-codex；
-> 浏览器操作任务超级费token，可以通过/status查看token的消耗。
-> 浏览器扩展开启后，就能够实现更多的玩法了！我也会继续分享OpenClaw的使用体验和教程。另外我还打算做一些OpenClaw中各个模型的测评，同样的任务，看哪个模型更强。
-
----
-
-### @thekitze brew install mole run the cleanup option then run the uninstaller enjoy your new...
-
-- Author: kitze [@thekitze](https://x.com/thekitze)
-- Tweet URL: [https://x.com/thekitze/status/2018036653248721242](https://x.com/thekitze/status/2018036653248721242)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-01T19:00:06.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1112, impression_count=114072, like_count=694, quote_count=5, reply_count=30, retweet_count=23
-
-> brew install mole
-> run the cleanup option
-> then run the uninstaller
-> enjoy your new computer
-> ur welcome
-
----
-
-### @chumsdock 今天在 Mac 上通过 UTM 安装了一台虚拟机用来跑 OpenClaw，用的 Telegram 和 Kimi K2.5，现在用的每月 99 一档的 Code...
-
-- Author: Cheng [@chumsdock](https://x.com/chumsdock)
-- Tweet URL: [https://x.com/chumsdock/status/2017905705609801960](https://x.com/chumsdock/status/2017905705609801960)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-01T10:19:45.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=1, impression_count=499, like_count=3, quote_count=0, reply_count=0, retweet_count=0
-
-> 今天在 Mac 上通过 UTM 安装了一台虚拟机用来跑 OpenClaw，用的 Telegram 和 Kimi K2.5，现在用的每月 99 一档的 Code 套餐，大概5个小时的Quota够用半个小时。虽然还不适合像 Claude Code 当生产力工具，但是作为 Manus 平替，随叫随到的感觉又是一个新层次。
-
----
-
-### @nanshanjukr 
-
-- Author: Marvix [@nanshanjukr](https://x.com/nanshanjukr)
-- Tweet URL: [https://x.com/nanshanjukr/status/2017832450387316813](https://x.com/nanshanjukr/status/2017832450387316813)
-- X article: [爱情随笔](https://x.com/nanshanjukr/article/2017832450387316813)
-- X article text: 2021 年，我写下一篇《对爱情的疑惑》，记录了对爱情的阶段性思考。感谢自己记录了它们。原来，对于爱情的信念，我至今都未曾改变。其中一些语句，如今仍然受用，在文章的末尾，我问自己「至于我什么时候拥有爱情？我也不清楚」 现在，我终于可以告诉 20 岁的自己：「你会在 4 年后，收获真挚的爱情，和一位可以相伴一生的佳人。」 我和女友小冰在一起一个月了。在这篇随笔中，我记录下自己对爱情的思考。虽然无法包含世间所有对爱情的答案，也可能些许稚嫩，但也许能回答一些困惑你很久的问题。 人一生会遇到约 2920 万人，而两人相爱的概率为 0.000049（万分之四点九），相遇的概率约为...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-02-01T05:28:40.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2017831621437673472](https://x.com/i/article/2017831621437673472)
-- Linked content:
-  - [x.com/i/article/2017831621437673472](https://x.com/i/article/2017831621437673472)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2017831621437673472/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=11, impression_count=3642, like_count=16, quote_count=0, reply_count=0, retweet_count=3
-
-> https://x.com/i/article/2017831621437673472
-
-#### X Article
-
-> 2021 年，我写下一篇《对爱情的疑惑》，记录了对爱情的阶段性思考。感谢自己记录了它们。原来，对于爱情的信念，我至今都未曾改变。其中一些语句，如今仍然受用，在文章的末尾，我问自己「至于我什么时候拥有爱情？我也不清楚」
-> 现在，我终于可以告诉 20 岁的自己：「你会在 4 年后，收获真挚的爱情，和一位可以相伴一生的佳人。」
-> 我和女友小冰在一起一个月了。在这篇随笔中，我记录下自己对爱情的思考。虽然无法包含世间所有对爱情的答案，也可能些许稚嫩，但也许能回答一些困惑你很久的问题。
-> 人一生会遇到约 2920 万人，而两人相爱的概率为 0.000049（万分之四点九），相遇的概率约为 0.00487%（千万分之一）。
-> 爱情来的太快了，你一定要牢牢抓住，好好珍惜。
-> 爱情是一种体验，一种独一无二的体验，发生在两个人之间的、内在价值的体验。爱情是两个独立灵魂、个体的共同协调，孕育「我们」的过程的体验，共享深度内在体验的活动，而不是资本、利益取舍后的结果。
-> 在爱情中，我中有你，你中有我，在你-我边界的渗透产生的一种交融——世界、灵魂、价值、信念、家庭、文化的交融。马尔西里奥 · 费奇诺（Marsilio Ficino，1433-1499）是意大利文艺复兴时期的哲学家、翻译家和天主教神父。他说：
-> 我爱你，而你也爱我，我在你中找到我，而你也想念我。我将自己舍弃，进入你，而你接受我，于是我找回了自己。（引用自韩炳哲）
-> 在这样两个独立个体的交换和孕育中，形成了「我们」，作为生命共同体的形式存在。如此，才能有孩子，作为「我们」的「爱的结晶」降生在充满幸福和爱的土壤里，而不是被作为物，被生产于工具理性而生活在灾难和痛苦之中。孩子是爱的延续。
-> 对灵魂的相知来说，最重要的是两颗灵魂本身的丰富以及由此产生的互相吸引，而决非彼此的熟稔乃至明察秋毫。
-> 爱情里存在着一种天真，就是说，不知道什么原因，两个人就是相互吸引，产生了一种深度的交融（merge），灵魂的碰撞（oscillation）和刻骨铭心的相遇（encounter）。
-> 爱情的体验是超验的。这种体验是不可名状、不可言说的体验。在另外一个人眼里，你可以是全世界最好的；是「没有你，我活不下去」；也是「我想象不到和你分开」。刘擎，华东师范大学政治学系政治哲学与思想史专业教授，称爱情为「alief」以描述它的非理性的、不合逻辑的本质。也就是说，在理性上，爱情是说不通的，但爱情带给我们的感受就是非常奇妙的。在对方的世界里，你（竟然）可以是这个世界最好的。「爱情是凡人的礼物」，刘擎在访谈中接着说，「我们会称呼对方为宝贝，他/她是任何事物无法比拟的，独一无二的，不可取代的」非常珍惜、珍视的爱的对象。
-> 诚然，我们需要将爱情和那种没有理性的迷恋区分，防止和提醒这种迷恋，但不应该将那些情不自禁投身于爱情的人们，降格为「恋爱脑」。我们也不能因此变成某种计算得失的精算师，那就不是爱情，而是生意了。
-> 如果你知道我和小冰的相爱历程，你一定不会相信，甚至可能还会觉得我们幼稚得可笑，或者感叹「年轻真好」。我将故事告诉我的母亲和姥姥，她们难以置信这种爱情的闪光，只相信传统叙事中的时间模板，认为只有经过长时间相处才可以称得上是值得认可的爱情，给我泼了不少冷水。时间固然重要，但不可以是决定性的因素。同龄人倒还是能理解一些，并表以祝福。女朋友家里比较开明，父母知道我们异地恋之后，并没有过多评价或者干涉，而是劝诫女儿这段关系「会很辛苦，自己考虑好，要慢慢走一步看一步。」
-> 世上并无命定的姻缘，但是，那种一见倾心，终生眷恋的爱情的确具有一种命运般的力量。
-> ——周国平《人生哲思录》
-> 除了这种最高的承认之外，爱情中还有一个深度的承认，即一种无法在其他任何关系中复刻、体验到的细致入微的了解和默契。一个眼神或者动作就能明白对方的想法，理解对方的感受；或者买到对方爱吃的东西；难过的时候，提供恰到好处的关心和陪伴……爱是一种了解的渴望，爱一个人，就会不由自主地想了解她的一切，把她所经历和感受的一切当做最珍贵的财富接受过来，精心保护。
-> 爱一个人往往没有缘由。若问为何爱他，这本身便是个悖论：当你能说出理由时，或许已不再爱了。你可以列举许多原因，比如笑容、俊朗或美丽。但唯有当你真正倾心时，这些细节才成为爱的注脚。在旁人眼中，它们不过是寻常特质罢了。
-> 爱情中的两个人是非常脆弱的。你无法在其他关系中找到相同的脆弱性。这种脆弱性双方之间的秘密，各自成为对方的守护者。展露自己的脆弱是不可避免的，无论你多么强大，无论你们在一起的时间或长或短。随着展露脆弱，你也可以知道对方是否有能力成为你的守护者，保护你、爱护你、接住你、珍惜你，而不是利用你、伤害你、讨厌你、离开你。有些人无法享有爱情，便是如此原因，他/她无法面对或者承接，甚至感到害怕，你所展现出来的脆弱。
-> 当一个人……认定她/他就是那个守护者之时，这就已经是爱情而不仅仅是情欲了。爱情与情欲的区别就在于是否包含了这一至关重要的认定。
-> 爱情是流动的、成长的。很多人追求「永恒」的爱情，辗转踌躇，试图寻找着解药。殊不知，「永恒」也等同于死亡，或是，一潭死水。这并非爱情。
-> 爱一个人，你自然就会想念、心疼、关心、照顾对方，自然也想要送东西或者礼物，作为爱的信物，表达自己的惦记。这件信物，无关乎于金钱和品牌，因为这些都是他者给予的象征，而是关乎于一种具有双方性的，属于你们二人的象征。通俗地说，送礼送的是诚心。
-> 在一起一段时候后，我给女友买了一捧鲜花。鲜花在爱情中极具象征意义，但是市面上出彩的花束并不多，如果你没有朋友推荐，那么就需要花时间在信息流中仔仔细细筛选。我们需要提防算法推荐，出现在信息流前端的商家，要么是大众风，要么是商家买了推流。整体看上去，非常土，不符合我的审美。
-> 所以，第一，这件物品需要符合我的审美。第二，细节上，需要有「我们」的特点。我终于找到了一家北京的连锁花店，商品展示的鲜花搭配具有艺术气息，产品详情页展示的花束包装也十分精美，客服按照我的需求推荐了几款鲜花搭配。我最终选择的鲜花含有我非常喜欢的紫色，我也希望小冰收到鲜花的时候，多彩的颜色，能缓解她在北京枯燥冬天的那种疲劳感。最后，我特意在贺卡上写了一段寄语，传达我的心意。
-> 收到花后，小冰超级喜欢，换了妆，拍了很多照片，还买了花瓶，照顾的非常好，将花期延长到了十天。后来，她告诉我，自己以前学过插花，对鲜花有一定程度的了解。得知我送鲜花，心情非常忐忑，因为她们宿舍楼底下会经常出现套着塑料袋的「土包子」全玫瑰花束。我们哈哈一笑。
-> 另外两件物品分别是一个云南西双版纳的佛手柑香包和奔波儿灞挂偶。我喜欢薰衣草，她曾经提过喜欢香根草。香包和包装的设计都非常不错。北京的冬天太干了，问一问清爽的柑橘味，也许能神清气爽。她说，这个味道闻起来舒服极了。奔波儿灞是我非常喜欢的挂偶，在我国内的时候，一直「望梅止渴」。我们两个都有一些抽象、幽默搞笑，加之，我也特别喜欢这款挂偶的设计。希望她在紧张的考试过后，能缓解压力。她拆开之后笑的不行，马上挂在了自己日常出行使用的白色帆布托特包上。看到她开心，我也非常开心。
-> 人们举着条件去找爱，但爱并不存在于各种条件的哪怕最完美的组合之中。爱不是对象，爱是关系，是你在对象身上付出的时间和心血。
-> 爱情需要勇气。有勇气表达爱，有勇气做自己，有勇气面对自己的脆弱，有勇气接受对方所有的历史和困境，有勇气面对并且愿意解决困难，有勇气不逃避，有勇气承担责任……
-> 爱情需要很多勇气，但很多人只有第一种勇气，但也是最简单的，然后二人便停留在了粗浅的、理想化的层面。这种关系往往会持续 90 天，有的可能因为某种原因而被迫持续几个月甚至几年，随着幻想破灭，关系变得颤颤巍巍，如履薄冰，又或是麻木不仁，从火热逐渐变成了一种维持。爱便不再流动，枯萎死掉了。
-> 小冰说：「我们携手一起站在恐惧的河流里，而我们的感情是唯一的浮木，每一次克服这些恐惧我爱你的勇气就更多一点。」
-> 我说：「我们一起找到更大的浮木，托举我们一起上岸。」
-> 爱是全然献身于另一个人。选择爱情的同时，也放弃了其他的自由。很多人恐惧婚姻和恋爱关系，就是担心自己会失去自由。周国平，中国社会科学院哲学研究所研究员、哲学研究者，写到：
-> 好的爱情是双方以自由为最高赠礼的洒脱，以及绝不滥用这一份自由的珍惜。
-> 订阅即可免费下载 PSYCH 101 心理学入门资料
-> 爱是最高的自由。好的爱情里，相爱者互不束缚对方，这是对彼此感情的信心。两人自由独立，却始终相依，这才是真爱。
-> 对于爱情的描述，我认为最贴切的描述是「坠入爱河」（fall in love）。它揭示了爱情的「流动」和「勇气」。真正的爱必然伴随「fall」（坠入、跌倒、摔倒）。几乎所有的青春爱情剧的开端都从相撞或者是一方摔倒开始的。如果你不摔这一跤，你永远无法确认那是否就是爱情。然而如今，许多人向往的爱情却是一种「不会坠落的爱」（love without fall）。我们活在一个用未来规划爱情的时代，但爱从来不会在万事俱备时降临；它总伴随着不安，因为它要求你在未知结局前就全然投入。
-> 自由意味着审视和质疑霸权意识形态赋予我们的前提，包括「自由」这一概念本身。意识形态并非一套明确的教条，而是我们体验现实的内在方式。如果自由只意味着随时可以抽身、始终维持安全距离，那最终只会走向自我封闭。这样的生活或许秩序井然、边界清晰，却再难触碰爱的形而上的、超验的、超越日常的深刻体验。
-> 因此，爱情是勇敢者的游戏。只有勇敢者才能享受真正的爱情，才能敢于承担自由带来的不确定性。面对爱情，我们需要有凝视深渊的勇气。
-> 爱情是一种存在的体验，而非占有。占有往往导致美感的淡化甚至丧失。一个只想被爱却不懂爱人的人，其实并不理解爱的真谛。他所在意的也并非...
-
----
-
-### @cellinlab 
-
-- Author: Cell 细胞 [@cellinlab](https://x.com/cellinlab)
-- Tweet URL: [https://x.com/cellinlab/status/2017629377119588456](https://x.com/cellinlab/status/2017629377119588456)
-- X article: [[译]OpenClawd 技术架构深度解析](https://x.com/cellinlab/article/2017629377119588456)
-- X article text: 每个人都在谈论 OpenClawd，但它究竟是如何工作的呢？ 作者深入研究了 OpenClawd（原名 Moltbot（原名 ClawdBot））的架构，包括它如何处理智能体执行（agent executions）、工具调用（tool use）、浏览器等功能。对于 AI 工程师来说，这里面有很多值得学习的经验。 了解 OpenClawd 的底层工作原理，能让我们更好地理解这个系统及其能力，最重要的是，明白它擅长什么、不擅长什么。 这一切始于作者个人对 OpenClawd 如何处理记忆（memory）以及其可靠性的好奇。 在这篇文章中，作者将从表层介绍 OpenClawd 的工作原理。...
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-31T16:01:43.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/i/article/2017622760193986563](https://x.com/i/article/2017622760193986563)
-  - [x.com/hesamation/status/2017038553058857413?s=46](https://x.com/hesamation/status/2017038553058857413?s=46)
-- Linked content:
-  - [x.com/i/article/2017622760193986563](https://x.com/i/article/2017622760193986563)
-    Text: Something went wrong, but don’t fret — let’s give it another shot. Try again ![⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) Some privacy related extensions may cause issues on x.com. Please disable them and try again.
-- Thread URLs: none captured
-- Public metrics: bookmark_count=860, impression_count=116255, like_count=482, quote_count=5, reply_count=19, retweet_count=130
-
-> https://x.com/i/article/2017622760193986563
-
-#### X Article
-
-> 每个人都在谈论 OpenClawd，但它究竟是如何工作的呢？
-> 作者深入研究了 OpenClawd（原名 Moltbot（原名 ClawdBot））的架构，包括它如何处理智能体执行（agent executions）、工具调用（tool use）、浏览器等功能。对于 AI 工程师来说，这里面有很多值得学习的经验。
-> 了解 OpenClawd 的底层工作原理，能让我们更好地理解这个系统及其能力，最重要的是，明白它擅长什么、不擅长什么。
-> 这一切始于作者个人对 OpenClawd 如何处理记忆（memory）以及其可靠性的好奇。
-> 在这篇文章中，作者将从表层介绍 OpenClawd 的工作原理。
-> OpenClawd 的技术本质
-> 大家都知道 OpenClawd 是一个可以在本地运行或通过模型 API 使用的个人助手，你甚至可以在手机上轻松访问它。但它的技术本质是什么？
-> 从核心来看，OpenClawd 是一个 TypeScript 写的 CLI 应用程序。
-> 它不是 Python 项目，不是 Next.js，也不是 Web App。
-> 它是一个进程（process），能够：
-> 在你的机器上运行，并暴露一个 Gateway Server（网关服务器）来处理所有渠道连接（Telegram、WhatsApp、Slack 等）
-> 调用各类 LLM API（Anthropic、OpenAI、本地模型等）
-> 在本地执行工具（tools）
-> 按你的需求在电脑上做事情
-> 架构总览
-> 为了更直观，下面用一个例子解释：你在聊天软件里给 OpenClawd 发消息，一直到你收到回复，中间发生了什么。
->
-> 当你在消息应用中向 OpenClawd 发送提示时，会发生以下过程：
-> 1. 渠道适配器（Channel Adapter）
-> 渠道适配器接收你的消息并进行处理（标准化、提取附件）。不同的消息应用和输入流有各自专用的适配器。
-> 2. 网关服务器（Gateway Server）
-> 网关服务器是任务/会话协调器（task/session coordinator），它接收你的消息并将其传递给正确的会话。这是 OpenClawd 的核心。它处理多个重叠的请求。
-> 为了让操作串行化（serialization），OpenClawd 使用基于 lane 的命令队列（lane-based command queue）。一个会话有自己专用的 lane，低风险的可并行化（parallelizable）任务可以在并行 lane 上运行（例如 cron 定时任务）。
-> 这与常见的 async/await 乱麻式写法（“async/await spaghetti”）相对。过度并行会降低可靠性，并带来大量调试噩梦。如果你做过智能体系统，多半也体会过这一点。
-> 默认串行（Serial），需要并行时再显式并行（Parallel explicitly）
-> 这也是 Cognition 那篇博文《不要构建多代理系统》的洞见。
-> 简单地为每个 agent 搞一套 async 并发，日志会变成一坨交错的垃圾，几乎不可读；如果它们共享状态（shared states），竞态条件（race conditions）会变成你开发中必须时刻担心的风险。
-> Lane 是对队列（queue）的抽象：默认就是“串行化架构”，而不是事后补丁。作为开发者，你手写业务逻辑，队列系统帮你处理竞态。
-> 你的心智模型会从：
-> “我需要加什么锁？”（what do I need to lock?）
-> 变成：
-> “哪些东西是安全可并行的？”（what‘s safe to parallelize?）
-> 3. 智能体运行器（Agent Runner）
-> 这是真正“AI”介入的地方。它会：
-> 判断用哪个模型
-> 选择可用的 API Key（如果某个 key 不可用，就把该配置标记为 cooldown 并尝试下一个）
-> 如果主模型失败，会回退到其他模型（fallback）
-> Agent Runner 会动态拼装 system prompt：包含可用工具（tools）、技能（skills）、记忆（memory），然后追加 session 历史（从 .jsonl 文件读取）。
-> 接着会交给 Context Window Guard（上下文窗口守卫）：检查上下文窗口是否还有足够空间。如果上下文快满了，要么压缩整理 session（对上下文做摘要），要么优雅失败（fail gracefully）。
-> 4. LLM API Call（大模型 API 调用）
-> LLM 调用本身是流式输出（streaming responses），并对不同供应商（providers）做了统一抽象。如果模型支持，还可以请求 extended thinking（扩展思考）。
-> 5. 智能体循环（Agentic Loop）
-> 如果 LLM 返回的是工具调用（tool call）响应，OpenClawd 就会在本地执行工具，并把结果追加回对话。
-> 这个过程会重复，直到：
-> LLM 输出最终文本（final text），或
-> 达到最大轮数（max turns，默认约 20）
-> “魔法”也发生在这里：包括后面会提到的 Computer Use（让智能体操作你的电脑）。
-> 6. 回复路径（Response Path）
-> 比较常规：回复通过渠道回到你那边。
-> 同时，session 会持久化到一个基础的 JSONL（JSON Lines） 文件：每行是一个 JSON 对象，记录用户消息、工具调用、工具结果、模型回复等。这就是 OpenClawd 的“记住”（基于 session 的记忆）方式。
-> 这涵盖了基本架构。现在让我们深入一些更关键的组件。
-> OpenClawd 如何“记忆”
-> 没有靠谱的记忆系统，AI 助理就跟金鱼一样（转头就忘）。
-> OpenClawd 用两套机制：
-> 上面提到的 JSONL 会话转录（session transcripts）
-> 记忆文件（memory files）：Markdown 格式，存放在 MEMORY[.]md 或 memory/ 目录
-> 检索时，它用的是 向量检索（vector search）+ 关键词匹配（keyword matches） 的混合方案（hybrid），同时吃到两边的优势。
-> 比如搜 “authentication bug”，既能找到提到 “auth issues” 的文档（语义匹配/semantic），也能命中精确短语（关键词匹配）。
-> 向量检索用 SQLite
-> 关键词检索用 FTS5（SQLite 的全文检索扩展）
-> embedding（向量化）的提供方可配置（embedding provider is configurable）
-> 它还利用 Smart Syncing（智能同步）：当文件监视器（file watcher）检测到文件变更时触发同步。
-> 这些 Markdown 记忆文件是 agent 自己通过标准的“写文件（write file）”工具生成的：没有专门的 memory-write API，就是直接写到 memory/*.md。
-> 当开启一段新对话时，会有一个 hook（钩子） 抓取上一段对话，并写一份 Markdown 摘要。
-> 整体上，OpenClawd 的记忆系统非常简单，和很多“工作流记忆（workflow memories）”实现很像：没有记忆合并（merging of memories），也没有按月/周做记忆压缩（memory compressions）。
-> 这种简单可能是优势也可能是坑：作者个人更偏好“可解释的简单”，而不是复杂的意大利面式系统（spaghetti）。
-> 它的记忆会一直存在，旧记忆与新记忆权重基本相同——也就是说没有遗忘曲线（forgetting curve）。
-> OpenClawd 的“爪子”：如何使用你的电脑（Computer Use）
-> 这是 OpenClawd 的一个核心“护城河（MOAT）”：你给它一台电脑，它就能用。
-> 它会在你自担风险的前提下给 agent 很大的电脑访问权限，并通过 exec 工具执行 shell 命令，执行环境包括：
-> sandbox：默认，在 Docker 容器里运行命令
-> 直接在宿主机（host machine）运行
-> 在远程设备（remote devices）上运行
-> 除此之外还有：
-> 文件系统工具（Filesystem tools）:read / write / edit
-> 浏览器工具（Browser tool）：基于 Playwright，并提供 语义快照（semantic snapshots）
-> 进程管理（Process management / process tool）：运行后台长任务、kill 进程等
-> 安全性（或者说：几乎没有？）
-> 类似 Claude Code，OpenClawd 有一个命令 allowlist（允许列表） 机制：用户可以选择“允许一次 / 永久允许 / 拒绝”，并弹窗提示用户确认。
-> 配置示例：
->
-> 一些安全命令（如 jq, grep, cut, sort, uniq, head, tail, tr, wc）默认就预批准（pre-approved）。
-> 一些危险的 shell 构造默认会被拦截（blocked）。例如下面这些会在执行前就被拒绝：
->
-> 总体安全思路和 Claude Code 很像：在用户允许的范围内给尽可能多的自主性（autonomy）。
-> 浏览器：语义快照（Semantic Snapshots）
-> OpenClawd 的浏览器工具并不主要依赖截图（screenshots），而是用语义快照：对页面 可访问性树（accessibility tree, ARIA） 的文本化表示。...
-
----
-
-### @yatingzhao_ux 最近我的主力工具从 Figma 转到 Cursor 的体验，就说 UI 本身，速度真的提高非常多，一天做一周的事情。 而且因为能快速探索各种设计可能性（布局、交互…），设计和...
-
-- Author: Yating Zhao [@yatingzhao_ux](https://x.com/yatingzhao_ux)
-- Tweet URL: [https://x.com/yatingzhao_ux/status/2017598774613365005](https://x.com/yatingzhao_ux/status/2017598774613365005)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-31T14:00:07.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=61, impression_count=24374, like_count=120, quote_count=1, reply_count=20, retweet_count=6
-
-> 最近我的主力工具从 Figma 转到 Cursor 的体验，就说 UI 本身，速度真的提高非常多，一天做一周的事情。
->
-> 而且因为能快速探索各种设计可能性（布局、交互…），设计和 UX 决策的质量也提高了。
-
----
-
 ### @nogizaka46 【ブログ更新 賀喜遥香】 さむいね〜
 
 - Author: 乃木坂46 [@nogizaka46](https://x.com/nogizaka46)
@@ -28445,231 +29109,102 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @Houge_Langley 我利用 opencode 外加 ulw 插件，用了两个大模型，glm-4.7 和 kimi-2.5 做了这个 AI 诊疗系统，后面再修修 bug ，发 github 上开源出来。
+### @cherylnatsu 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude...
 
-- Author: Houge [@Houge_Langley](https://x.com/Houge_Langley)
-- Tweet URL: [https://x.com/Houge_Langley/status/2017465746222125230](https://x.com/Houge_Langley/status/2017465746222125230)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-31T05:11:31.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [www.bilibili.com/video/BV1rm6yB8E71](https://www.bilibili.com/video/BV1rm6yB8E71/)
-- Linked content:
-  - [www.bilibili.com/video/BV1rm6yB8E71](https://www.bilibili.com/video/BV1rm6yB8E71/)
-- Thread URLs: none captured
-- Public metrics: bookmark_count=68, impression_count=7428, like_count=51, quote_count=0, reply_count=1, retweet_count=9
-
-> https://www.bilibili.com/video/BV1rm6yB8E71/
->
-> 我利用 opencode 外加 ulw 插件，用了两个大模型，glm-4.7 和 kimi-2.5 做了这个 AI 诊疗系统，后面再修修 bug ，发 github 上开源出来。
-
----
-
-### @cellier_ 《学习一个领域的最快方法》 学习一个领域，同时速读 5 本以上该领域的经典书籍是最快的方法。...
-
-- Author: Cellier@undefined [@cellier_](https://x.com/cellier_)
-- Tweet URL: [https://x.com/cellier_/status/2017443818266902592](https://x.com/cellier_/status/2017443818266902592)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-31T03:44:23.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/cellier_/status/2017443818266902592/photo/1](https://x.com/cellier_/status/2017443818266902592/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg](https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg)
-    Images: https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=173, impression_count=14692, like_count=191, quote_count=0, reply_count=7, retweet_count=41
-
-> 《学习一个领域的最快方法》
->
-> 学习一个领域，同时速读 5 本以上该领域的经典书籍是最快的方法。
->
-> 同时速读多本同领域书籍，好处不在于信息量，而在于能迅速形成对该领域体系的结构感，帮你快速建立这个领域的「整体地图」。
->
-> 当你快速横向阅读时，会很自然看到：
-> 哪些观点是所有作者都会反复强调的； https://x.com/cellier_/status/2017443818266902592/photo/1
-
----
-
-### @idoubicc 开源一周，1k star ✅ 感谢支持，继续努力。做一个好用的桌面 Agent。
-
-- Author: idoubi [@idoubicc](https://x.com/idoubicc)
-- Tweet URL: [https://x.com/idoubicc/status/2017424334667858423](https://x.com/idoubicc/status/2017424334667858423)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-31T02:26:57.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [github.com/workany-ai/workany](https://github.com/workany-ai/workany)
-  - [x.com/idoubicc/status/2017424334667858423/photo/1](https://x.com/idoubicc/status/2017424334667858423/photo/1)
-  - [twitter.com/idoubicc/status/2014630939104776411](https://twitter.com/idoubicc/status/2014630939104776411)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png)
-- Linked content:
-  - [GitHub - workany-ai/workany: Desktop Agent for Any Task · GitHub](https://github.com/workany-ai/workany)
-    Images: https://opengraph.githubassets.com/cf17ff36221b92e1a847dbd70767c065e2d756b18e99dc152cdd3364657a4316/workany-ai/workany, https://github.com/workany-ai/workany/raw/dev/public/imgs/home.png, https://github.com/workany-ai/workany/raw/dev/public/imgs/files.png, https://github.com/workany-ai/workany/raw/dev/public/imgs/web.png
-  - [pbs.twimg.com/media/G_9Um-PaEAAD3J8.png](https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png)
-    Images: https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png
-- Thread URLs: none captured
-- Public metrics: bookmark_count=36, impression_count=13142, like_count=56, quote_count=1, reply_count=2, retweet_count=8
-
-> 开源一周，1k star ✅
->
-> 感谢支持，继续努力。做一个好用的桌面 Agent。
->
-> https://github.com/workany-ai/workany https://x.com/idoubicc/status/2017424334667858423/photo/1 https://twitter.com/idoubicc/status/2014630939104776411
-
----
-
-### @tualatrix 最近的阅读都变了。感谢 @haohailong 给我推荐《真希望我父母读过这本书》。
-
-- Author: 图拉鼎 [@tualatrix](https://x.com/tualatrix)
-- Tweet URL: [https://x.com/tualatrix/status/2017267665338081323](https://x.com/tualatrix/status/2017267665338081323)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T16:04:25.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/tualatrix/status/2017267665338081323/photo/1](https://x.com/tualatrix/status/2017267665338081323/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg](https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg)
-    Images: https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=421, impression_count=46360, like_count=472, quote_count=2, reply_count=21, retweet_count=63
-
-> 最近的阅读都变了。感谢 @haohailong 给我推荐《真希望我父母读过这本书》。 https://x.com/tualatrix/status/2017267665338081323/photo/1
-
----
-
-### @vikingmute 这个 Beautiful Mermaid 是我最近最喜欢的开源库： 因为真的很漂亮，用来渲染 AI 时代非常常用的 mermaid 图表，同时支持输出 SVG 以及...
-
-- Author: Viking [@vikingmute](https://x.com/vikingmute)
-- Tweet URL: [https://x.com/vikingmute/status/2017229456314900875](https://x.com/vikingmute/status/2017229456314900875)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T13:32:35.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [agents.craft.do/mermaid](https://agents.craft.do/mermaid)
-  - [x.com/vikingmute/status/2017229456314900875/photo/1](https://x.com/vikingmute/status/2017229456314900875/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg)
-- Linked content:
-  - [Beautiful Mermaid — Mermaid Rendering, Made Beautiful](https://agents.craft.do/mermaid)
-    Images: https://agents.craft.do/mermaid/og-image.png
-    Text: Mermaid Rendering, made beautiful. An open source library for rendering diagrams, designed for the age of AI: [ beautiful-mermaid](https://www.npmjs.com/package/beautiful-mermaid). Ultra-fast, fully themeable, and outputs to both SVG and...
-  - [pbs.twimg.com/media/G_6jZUZboAA84gW.jpg](https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg)
-    Images: https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=883, impression_count=123075, like_count=765, quote_count=3, reply_count=5, retweet_count=121
-
-> 这个 Beautiful Mermaid 是我最近最喜欢的开源库：
-> https://agents.craft.do/mermaid
-> 因为真的很漂亮，用来渲染 AI 时代非常常用的 mermaid 图表，同时支持输出 SVG 以及 ASCII。
->
-> 支持 5 种图表类型
-> 支持 15 种主题
-> 渲染速度极快
-> 两天就收获了 3.2K 个 stars https://x.com/vikingmute/status/2017229456314900875/photo/1
-
----
-
-### @DashHuang TapTap 制造！想到就能做到！
-
-- Author: Dash [@DashHuang](https://x.com/DashHuang)
-- Tweet URL: [https://x.com/DashHuang/status/2017225409440670093](https://x.com/DashHuang/status/2017225409440670093)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T13:16:30.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [maker.taptap.cn](https://maker.taptap.cn)
-  - [x.com/DashHuang/status/2017225409440670093/video/1](https://x.com/DashHuang/status/2017225409440670093/video/1)
-- Media URLs:
-  - [video](https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg)
-  - [photo](https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg)
-- Linked content:
-  - [TapTap 制造](https://maker.taptap.cn)
-    Images: https://maker.taptap.cn/og-image.png
-  - [pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg](https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg)
-    Images: https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg
-  - [pbs.twimg.com/media/G_6filuboAAqo8l.jpg](https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg)
-    Images: https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=152, impression_count=149861, like_count=270, quote_count=23, reply_count=78, retweet_count=34
-
-> TapTap 制造！想到就能做到！
-> https://maker.taptap.cn https://x.com/DashHuang/status/2017225409440670093/video/1
-
----
-
-### @idoubicc 更新了 Github 个人主页。有机会多做开源吧。😮‍💨
-
-- Author: idoubi [@idoubicc](https://x.com/idoubicc)
-- Tweet URL: [https://x.com/idoubicc/status/2017112782865592777](https://x.com/idoubicc/status/2017112782865592777)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T05:48:58.000Z
-- First seen: 2026-05-11T03:16:40Z
-- Primary URLs:
-  - [x.com/idoubicc/status/2017112782865592777/photo/1](https://x.com/idoubicc/status/2017112782865592777/photo/1)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg)
-- Linked content:
-  - [pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg](https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg)
-    Images: https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg
-- Thread URLs: none captured
-- Public metrics: bookmark_count=34, impression_count=15449, like_count=111, quote_count=0, reply_count=20, retweet_count=1
-
-> 更新了 Github 个人主页。有机会多做开源吧。😮‍💨 https://x.com/idoubicc/status/2017112782865592777/photo/1
-
----
-
-### @dingyi 昨天花好几个小时在 Figma 和 Framer，纯手工操作，好像回到了原始社会，累死我了。。。
-
-- Author: Ding [@dingyi](https://x.com/dingyi)
-- Tweet URL: [https://x.com/dingyi/status/2017055070073082147](https://x.com/dingyi/status/2017055070073082147)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T01:59:38.000Z
-- First seen: 2026-05-11T03:16:40Z
+- Author: 夏雨婷 [@cherylnatsu](https://x.com/cherylnatsu)
+- Tweet URL: [https://x.com/cherylnatsu/status/2048239139104207061](https://x.com/cherylnatsu/status/2048239139104207061)
+- Sources: favorite@CatHanami97880, favorite@chumsdock
+- Saved by: CatHanami97880, chumsdock
+- Tweet created: 2026-04-26T03:13:59.000Z
+- First seen: 2026-05-11T03:12:30Z
 - Primary URLs: none
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1, impression_count=5538, like_count=7, quote_count=0, reply_count=4, retweet_count=0
+- Public metrics: bookmark_count=0, like_count=243, quote_count=0, reply_count=49, retweet_count=4
 
-> 昨天花好几个小时在 Figma 和 Framer，纯手工操作，好像回到了原始社会，累死我了。。。
+> 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude Code，我都不知道Claude和Dario喊着封锁到底成功封锁了谁，根本封不住最初想封的人，回头又出个分刷到比Opus略低的蒸馏模型。
 
 ---
 
-### @lencx_ 前两天写了篇《初识 Moltbot》，总觉得差点意思。这次又翻了些源码和实现细节，想把 Moltbot...
+### @dotey 
 
-- Author: lencx [@lencx_](https://x.com/lencx_)
-- Tweet URL: [https://x.com/lencx_/status/2017030900920569916](https://x.com/lencx_/status/2017030900920569916)
-- Sources: favorite@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-01-30T00:23:36.000Z
-- First seen: 2026-05-11T03:16:40Z
+- Author: 宝玉 [@dotey](https://x.com/dotey)
+- Tweet URL: [https://x.com/dotey/status/2051057428075053120](https://x.com/dotey/status/2051057428075053120)
+- X article: [大多数公司根本没有为 AI 做好准备](https://x.com/dotey/article/2051057428075053120)
+- X article text: 作者：Daniel Miessler 原文：Most Companies Aren't Anywhere Near Ready for AI 并不是公司不想用 AI，而是他们根本用不了。 AI 不是问题，说不清目标才是问题 很多人抱怨 AI 总是无法满足他们的需求，感到十分受挫。但说句实话，真正的问题在于：他们自己都说不清楚到底想要什么。 我曾为全球顶尖的巨头企业、数百家初创团队，以及无数全球 1000 强里的中大型公司做过咨询。我发现，排名第一的致命问题就是：公司的愿景和目标极其模糊，而且朝令夕改。 AI...
+- Sources: bookmark@CatHanami97880, bookmark@chumsdock
+- Saved by: CatHanami97880, chumsdock
+- Tweet created: 2026-05-03T21:52:52.000Z
+- First seen: 2026-05-11T03:12:30Z
 - Primary URLs:
-  - [mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg](https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg)
-  - [x.com/lencx_/status/2017030900920569916/photo/1](https://x.com/lencx_/status/2017030900920569916/photo/1)
-  - [twitter.com/lencx_/status/2016468243209441319](https://twitter.com/lencx_/status/2016468243209441319)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg)
+  - [x.com/i/article/2051055946420391936](https://x.com/i/article/2051055946420391936)
+  - [x.com/i/article/2051055946420391936](http://x.com/i/article/2051055946420391936)
 - Linked content:
-  - [mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg](https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg)
-  - [pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg](https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg)
-    Images: https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg
+  - [x.com/i/article/2051055946420391936](https://x.com/i/article/2051055946420391936)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051055946420391936/i/keyboard%5Fshortcuts)...
+  - [x.com/i/article/2051055946420391936](http://x.com/i/article/2051055946420391936)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2051055946420391936/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=428, impression_count=92843, like_count=323, quote_count=4, reply_count=6, retweet_count=58
+- Public metrics: bookmark_count=0, like_count=377, quote_count=14, reply_count=38, retweet_count=83
 
-> 前两天写了篇《初识 Moltbot》，总觉得差点意思。这次又翻了些源码和实现细节，想把 Moltbot 再讲透一点。看似驳杂的超级缝合怪，实则蕴含诸多巧妙且先进的设计理念。简单背后的不简单，注定结果非凡！@steipete 真的厉害 👍！
-> https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg https://x.com/lencx_/status/2017030900920569916/photo/1 https://twitter.com/lencx_/status/2016468243209441319
+> http://x.com/i/article/2051055946420391936
+
+#### X Article
+
+> 作者：Daniel Miessler
+> 原文：Most Companies Aren't Anywhere Near Ready for AI
+>
+> 并不是公司不想用 AI，而是他们根本用不了。
+> AI 不是问题，说不清目标才是问题
+> 很多人抱怨 AI 总是无法满足他们的需求，感到十分受挫。但说句实话，真正的问题在于：他们自己都说不清楚到底想要什么。
+> 我曾为全球顶尖的巨头企业、数百家初创团队，以及无数全球 1000 强里的中大型公司做过咨询。我发现，排名第一的致命问题就是：公司的愿景和目标极其模糊，而且朝令夕改。
+> AI 的核心优势在于“执行”。如果它不知道到底要执行什么，它就毫无用武之地。相反，那些非常清楚自己想要什么的公司，正在借助 AI 混得风生水起。而且，随着 AI 变得越来越聪明，这些公司将爆发出更恐怖的统治力。
+> 但遗憾的是，这类公司只是凤毛麟角。因为只有极少数的公司具备足够的自我认知和组织纪律，能够给 AI 下达正确的指令。
+> 你无法去优化一个连你自己都没搞懂的东西。
+> 如果一件事你本来就不该做，再去盲目扩大它的规模，那简直愚蠢透顶。
+> 大家都在谈论“公司还没有为 AI 做好准备”，但我认为，大家根本没意识到这个问题到底有多严重。这根本不是什么技术成熟度的问题，它的根源要深刻得多。
+>
+> 混乱黑盒无法规模化
+> 很大一部分公司，其实是“糊里糊涂”就成功了的。他们自己都不太清楚到底想实现什么目标，或者具体是怎么做到的。他们只是恰好掌握了几个碰巧管用的“绝招”，而且执行得还凑合，所以才能活到现在。
+> 但是，如果你走进这些公司，对他们说：“好了，请给我描述一下你们到底想干什么？你们的战略是什么？面临哪些挑战？具体的工作流 (work streams) 是怎样的？”——他们要么会一脸茫然地看着你，要么会觉得你在开玩笑。他们得花上好几周的时间专门立个项，才能搞清楚这些问题的答案。然后还得再花上好几个月的时间去真正落实这个项目。(这里的工作流是指公司内部从任务发起、协作到最终交付的具体运转环节，很多传统公司对此缺乏清晰的梳理和记录)
+> 说实话，我确信绝大多数公司正处于极度危险之中。因为它们本质上就是一个个勉强维持运转的“混乱黑盒”。
+> 在这种公司里，如果董事会或高层领导直接向所有人下令“全面拥抱 AI”，那就好比盯着一台满屏雪花、满是杂音的老电视机，大喊：“我们要把这玩意儿做大做强！”
+> 没问题，老板。麻烦您帮个忙，指一下到底想让我优化哪块业务？
+> （漫长的沉默……）
+> 问得好。我们马上多开几个会，好好琢磨琢磨这个问题。
+> 在这类公司里，AI 几乎毫无用武之地。而不幸的是，这意味着许多（甚至可以说是大多数）公司都是如此。
+>
+> 真正被 AI 帮到的公司
+> 现在外界有一种论调，认为 AI 还没有帮助到足够多的公司，所以大家都在问：问题出在哪儿了？AI 什么时候才能变得足够聪明？或许，AI 压根没有大家吹的那么神。
+> 但极其讽刺又显而易见的事实是：那些能够被 AI 真正赋能的公司，奇迹般地，恰恰是那些本来就知道自己在干什么的公司。
+> 他们能够迅速且清晰地告诉你：
+> 他们正在为客户解决什么问题
+> 市面上的现有方案有什么缺陷，而他们的方案又是如何弥补的
+> 公司长远的发展目标是什么
+> 衡量这些目标的具体核心指标 (metrics) 是什么
+> 阻碍他们达成目标的挑战在哪里
+> 他们正在采取哪些战略来克服这些挑战
+> 为了落地这些战略，正在推进哪些具体项目
+> 这些项目里具体包含哪些工作任务
+> 每一项任务由谁负责
+> 投入的成本到底有多少
+> 最关键的是，这些真正“拎得清”的公司，无论是在不同的季度还是不同的年份，对这些问题的回答都能保持高度的一致性。
+>
+> 混乱公司的典型信号
+> 相反，一个公司陷入混乱的明显标志是：各个部门总是在花费大量的时间，声称自己有明确的答案——但这答案每个季度都在大变样，因为所有事情都在不停地变动。结果就是，员工们只是把那些能让自己表面上看起来干得不错的东西写在报告里。他们花了好几周时间精心准备，几个星期后又全盘推翻，再次从头开始走这套折磨人的流程。
+> 对于这种公司，AI 基本上帮不上任何忙。不仅如此，AI 甚至可能会把局面搞得更糟——因为它会让员工们的“瞎忙活”看起来更加高大上。比如，用 AI 自动生成更多花里胡哨的幻灯片、更复杂的图表、还有一大堆没用的花架子。(就像给一台出故障的发动机外壳镀上一层金，看着很华丽，但解决不了任何动力问题，反而掩盖了真正的隐患)
+> 你可能会问：“既然他们这么烂，怎么还没倒闭呢？”答案很简单：因为他们的大多数竞争对手也一样烂。
+>
+> 企业真正该问的问题
+> 那么，说了这么多，重点到底是什么？
+> 核心有以下几点：
+> 在企业界，AI 的应用其实才刚刚起步。因为只有一小撮公司具备足够的自我认知，能够清晰地梳理并描述自身业务，从而真正为拥抱 AI 做好准备。
+> 我们应该停止把问题怪罪于 AI，或者怪罪于技术本身。真正的问题在于，企业无法用清晰、易懂的方式描述自己——这包括他们的目标、工作流 (workflows)、日常运营、决策机制、团队架构以及资金流向。
+> 做不到这一点的公司，面对那些能做到的公司时，将处于极其危险的境地。
+> 那些体型庞大、运转笨重的大企业面临的主要威胁在于：现在，一家小公司完全有可能借助 AI 爆发出堪比大企业的战斗力。而且，小企业往往更容易清晰地回答出上面提到的那些关键问题。
+> 正因如此，所有现存的公司都即将面临一场前所未有的“降维打击”。只有那些理清乱麻、内部通透的公司才能在风暴中存活下来，并迎风而起。
+> 在这场变革的最初阶段，决定谁输谁赢的因素里，AI 占的比重其实极小。AI 更像是那些最终胜出者在“新世界”里互相搏杀的武器。而现在的游戏规则是：先看清楚谁有资格拿到进入新世界的门票。
+>
+> 作为一个企业，你现在最该问自己的第一个问题，不是“AI 能为我做什么”，而是“我的公司现在的状态，配得上让 AI 来帮忙吗？”如果答案是否定的，那你必须不遗余力，尽快让公司达到那个状态。
 
 ---
 
@@ -29947,86 +30482,6 @@ But if the part you care about is the decision-making around the code, agents fe
 
 ---
 
-### @dotey 
-
-- Author: 宝玉 [@dotey](https://x.com/dotey)
-- Tweet URL: [https://x.com/dotey/status/2051057428075053120](https://x.com/dotey/status/2051057428075053120)
-- X article: [大多数公司根本没有为 AI 做好准备](https://x.com/dotey/article/2051057428075053120)
-- X article text: 作者：Daniel Miessler 原文：Most Companies Aren't Anywhere Near Ready for AI 并不是公司不想用 AI，而是他们根本用不了。 AI 不是问题，说不清目标才是问题 很多人抱怨 AI 总是无法满足他们的需求，感到十分受挫。但说句实话，真正的问题在于：他们自己都说不清楚到底想要什么。 我曾为全球顶尖的巨头企业、数百家初创团队，以及无数全球 1000 强里的中大型公司做过咨询。我发现，排名第一的致命问题就是：公司的愿景和目标极其模糊，而且朝令夕改。 AI...
-- Sources: bookmark@CatHanami97880, bookmark@chumsdock
-- Saved by: CatHanami97880, chumsdock
-- Tweet created: 2026-05-03T21:52:52.000Z
-- First seen: 2026-05-11T03:12:30Z
-- Primary URLs:
-  - [x.com/i/article/2051055946420391936](https://x.com/i/article/2051055946420391936)
-- Linked content:
-  - [x.com/i/article/2051055946420391936](https://x.com/i/article/2051055946420391936)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](https://x.com/i/article/2051055946420391936/i/keyboard%5Fshortcuts)...
-- Thread URLs: none captured
-- Public metrics: bookmark_count=652, impression_count=87107, like_count=377, quote_count=14, reply_count=38, retweet_count=83
-
-> https://x.com/i/article/2051055946420391936
-
-#### X Article
-
-> 作者：Daniel Miessler
-> 原文：Most Companies Aren't Anywhere Near Ready for AI
->
-> 并不是公司不想用 AI，而是他们根本用不了。
-> AI 不是问题，说不清目标才是问题
-> 很多人抱怨 AI 总是无法满足他们的需求，感到十分受挫。但说句实话，真正的问题在于：他们自己都说不清楚到底想要什么。
-> 我曾为全球顶尖的巨头企业、数百家初创团队，以及无数全球 1000 强里的中大型公司做过咨询。我发现，排名第一的致命问题就是：公司的愿景和目标极其模糊，而且朝令夕改。
-> AI 的核心优势在于“执行”。如果它不知道到底要执行什么，它就毫无用武之地。相反，那些非常清楚自己想要什么的公司，正在借助 AI 混得风生水起。而且，随着 AI 变得越来越聪明，这些公司将爆发出更恐怖的统治力。
-> 但遗憾的是，这类公司只是凤毛麟角。因为只有极少数的公司具备足够的自我认知和组织纪律，能够给 AI 下达正确的指令。
-> 你无法去优化一个连你自己都没搞懂的东西。
-> 如果一件事你本来就不该做，再去盲目扩大它的规模，那简直愚蠢透顶。
-> 大家都在谈论“公司还没有为 AI 做好准备”，但我认为，大家根本没意识到这个问题到底有多严重。这根本不是什么技术成熟度的问题，它的根源要深刻得多。
->
-> 混乱黑盒无法规模化
-> 很大一部分公司，其实是“糊里糊涂”就成功了的。他们自己都不太清楚到底想实现什么目标，或者具体是怎么做到的。他们只是恰好掌握了几个碰巧管用的“绝招”，而且执行得还凑合，所以才能活到现在。
-> 但是，如果你走进这些公司，对他们说：“好了，请给我描述一下你们到底想干什么？你们的战略是什么？面临哪些挑战？具体的工作流 (work streams) 是怎样的？”——他们要么会一脸茫然地看着你，要么会觉得你在开玩笑。他们得花上好几周的时间专门立个项，才能搞清楚这些问题的答案。然后还得再花上好几个月的时间去真正落实这个项目。(这里的工作流是指公司内部从任务发起、协作到最终交付的具体运转环节，很多传统公司对此缺乏清晰的梳理和记录)
-> 说实话，我确信绝大多数公司正处于极度危险之中。因为它们本质上就是一个个勉强维持运转的“混乱黑盒”。
-> 在这种公司里，如果董事会或高层领导直接向所有人下令“全面拥抱 AI”，那就好比盯着一台满屏雪花、满是杂音的老电视机，大喊：“我们要把这玩意儿做大做强！”
-> 没问题，老板。麻烦您帮个忙，指一下到底想让我优化哪块业务？
-> （漫长的沉默……）
-> 问得好。我们马上多开几个会，好好琢磨琢磨这个问题。
-> 在这类公司里，AI 几乎毫无用武之地。而不幸的是，这意味着许多（甚至可以说是大多数）公司都是如此。
->
-> 真正被 AI 帮到的公司
-> 现在外界有一种论调，认为 AI 还没有帮助到足够多的公司，所以大家都在问：问题出在哪儿了？AI 什么时候才能变得足够聪明？或许，AI 压根没有大家吹的那么神。
-> 但极其讽刺又显而易见的事实是：那些能够被 AI 真正赋能的公司，奇迹般地，恰恰是那些本来就知道自己在干什么的公司。
-> 他们能够迅速且清晰地告诉你：
-> 他们正在为客户解决什么问题
-> 市面上的现有方案有什么缺陷，而他们的方案又是如何弥补的
-> 公司长远的发展目标是什么
-> 衡量这些目标的具体核心指标 (metrics) 是什么
-> 阻碍他们达成目标的挑战在哪里
-> 他们正在采取哪些战略来克服这些挑战
-> 为了落地这些战略，正在推进哪些具体项目
-> 这些项目里具体包含哪些工作任务
-> 每一项任务由谁负责
-> 投入的成本到底有多少
-> 最关键的是，这些真正“拎得清”的公司，无论是在不同的季度还是不同的年份，对这些问题的回答都能保持高度的一致性。
->
-> 混乱公司的典型信号
-> 相反，一个公司陷入混乱的明显标志是：各个部门总是在花费大量的时间，声称自己有明确的答案——但这答案每个季度都在大变样，因为所有事情都在不停地变动。结果就是，员工们只是把那些能让自己表面上看起来干得不错的东西写在报告里。他们花了好几周时间精心准备，几个星期后又全盘推翻，再次从头开始走这套折磨人的流程。
-> 对于这种公司，AI 基本上帮不上任何忙。不仅如此，AI 甚至可能会把局面搞得更糟——因为它会让员工们的“瞎忙活”看起来更加高大上。比如，用 AI 自动生成更多花里胡哨的幻灯片、更复杂的图表、还有一大堆没用的花架子。(就像给一台出故障的发动机外壳镀上一层金，看着很华丽，但解决不了任何动力问题，反而掩盖了真正的隐患)
-> 你可能会问：“既然他们这么烂，怎么还没倒闭呢？”答案很简单：因为他们的大多数竞争对手也一样烂。
->
-> 企业真正该问的问题
-> 那么，说了这么多，重点到底是什么？
-> 核心有以下几点：
-> 在企业界，AI 的应用其实才刚刚起步。因为只有一小撮公司具备足够的自我认知，能够清晰地梳理并描述自身业务，从而真正为拥抱 AI 做好准备。
-> 我们应该停止把问题怪罪于 AI，或者怪罪于技术本身。真正的问题在于，企业无法用清晰、易懂的方式描述自己——这包括他们的目标、工作流 (workflows)、日常运营、决策机制、团队架构以及资金流向。
-> 做不到这一点的公司，面对那些能做到的公司时，将处于极其危险的境地。
-> 那些体型庞大、运转笨重的大企业面临的主要威胁在于：现在，一家小公司完全有可能借助 AI 爆发出堪比大企业的战斗力。而且，小企业往往更容易清晰地回答出上面提到的那些关键问题。
-> 正因如此，所有现存的公司都即将面临一场前所未有的“降维打击”。只有那些理清乱麻、内部通透的公司才能在风暴中存活下来，并迎风而起。
-> 在这场变革的最初阶段，决定谁输谁赢的因素里，AI 占的比重其实极小。AI 更像是那些最终胜出者在“新世界”里互相搏杀的武器。而现在的游戏规则是：先看清楚谁有资格拿到进入新世界的门票。
->
-> 作为一个企业，你现在最该问自己的第一个问题，不是“AI 能为我做什么”，而是“我的公司现在的状态，配得上让 AI 来帮忙吗？”如果答案是否定的，那你必须不遗余力，尽快让公司达到那个状态。
-
----
-
 ### @Himalaya_bear1 我投资了不少出海团队。说几句刺耳的： 1....
 
 - Author: Cha Li | 查立 [@Himalaya_bear1](https://x.com/Himalaya_bear1)
@@ -30717,22 +31172,6 @@ But if the part you care about is the decision-making around the code, agents fe
 > 当我想要优雅的滚动条实现，我都会用这个库 👇
 > https://github.com/KingSora/OverlayScrollbars
 > 浏览器原生的滚动条在狭小空间下都是灾难。 https://twitter.com/raunofreiberg/status/2048057305439039535
-
----
-
-### @cherylnatsu 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude...
-
-- Author: 夏雨婷 [@cherylnatsu](https://x.com/cherylnatsu)
-- Tweet URL: [https://x.com/cherylnatsu/status/2048239139104207061](https://x.com/cherylnatsu/status/2048239139104207061)
-- Sources: favorite@CatHanami97880, favorite@chumsdock
-- Saved by: CatHanami97880, chumsdock
-- Tweet created: 2026-04-26T03:13:59.000Z
-- First seen: 2026-05-11T03:12:30Z
-- Primary URLs: none
-- Thread URLs: none captured
-- Public metrics: bookmark_count=31, impression_count=76513, like_count=243, quote_count=4, reply_count=49, retweet_count=4
-
-> 看了小米罗福莉那个采访，罗福莉自己说自己天天在用Claude Code，我都不知道Claude和Dario喊着封锁到底成功封锁了谁，根本封不住最初想封的人，回头又出个分刷到比Opus略低的蒸馏模型。
 
 ---
 
