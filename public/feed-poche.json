@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 645,
+      "count": 647,
       "name": "Tools"
     },
     {
-      "count": 381,
+      "count": 382,
       "name": "Development"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 130,
+      "count": 131,
       "name": "Media"
     },
     {
@@ -34,8 +34,156 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2122,
+  "item_count": 2126,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-05-20T11:32:47.215884Z",
+      "article_title_extracted": "Wan'de Form",
+      "category": "Tools",
+      "created_at": "2026-05-20T03:29:57.167032Z",
+      "description": "The content consists of a series of SVG images indicating a 'coming soon' announcement for a website or offering. The images suggest anticipation for a future launch but do not provide detailed textual information or context. Overall, the main point is the notification of an upcoming feature or service.",
+      "domain": "wandeform.com",
+      "embed_type": "",
+      "id": "k178dzw0gc3ebhwr71hbfngv61873tr6",
+      "og_image_url": "https://cloud.poche.app/api/storage/1622b5a4-1c3b-477c-8e4b-19f4c49292d4",
+      "recommended_at": "2026-05-20T08:53:37.534000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-design",
+        "coming-soon",
+        "svg-graphics"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T08:53:37.534000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Wan'de Form",
+      "url": "https://wandeform.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_image_urls": [
+        "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/HuggingFaceBio/carbon-demo.png",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/5f0c746619cb630495b814fd/Alv1BYsORk-HMLuEqKhD7.png"
+      ],
+      "article_text": "![](https://cdn-avatars.huggingface.co/v1/production/uploads/5f0c746619cb630495b814fd/Alv1BYsORk-HMLuEqKhD7.png) \n\n[HuggingFaceBio](https://huggingface.co/spaces/HuggingFaceBio/carbon-demo/HuggingFaceBio) \n\n/\n\n[carbon-demo](https://huggingface.co/spaces/HuggingFaceBio/carbon-demo/spaces/HuggingFaceBio/carbon-demo)\n\nlike 46\n\nFetching metadata from the HF Docker repository...\n\nRefreshing",
+      "article_title_extracted": "Carbon - a Hugging Face Space by HuggingFaceBio Carbon - a Hugging Face Space by HuggingFaceBio",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-05-20T03:55:54.148644Z",
+      "description": "This interactive demo lets you paste a DNA sequence (text) and see what the Carbon model predicts. It can continue the sequence, score the impact of mutations, visualize the resulting protein struc...",
+      "domain": "huggingface.co",
+      "embed_type": "",
+      "id": "k17c3s31frtrwyvzqy1w19ztwh872vye",
+      "og_image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/HuggingFaceBio/carbon-demo.png",
+      "recommended_at": "2026-05-20T08:53:34.394000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "bioinformatics",
+        "genomics",
+        "protein-folding"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T08:53:34.394000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Carbon - a Hugging Face Space by HuggingFaceBio",
+      "url": "https://huggingface.co/spaces/HuggingFaceBio/carbon-demo",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-05-20T11:32:47.215884Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-05-20T08:37:33.907610Z",
+      "description": "The Verge • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k1797fdzhq1nzfbejbr0q3dv9d873c1p",
+      "og_image_url": "https://i.ytimg.com/vi/OMhKgQmeMhI/maxresdefault.jpg",
+      "recommended_at": "2026-05-20T08:53:32.117000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "google-io",
+        "tech-news",
+        "keynote"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T08:53:32.117000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Google I/O 2026 keynote in 35 minutes",
+      "url": "https://www.youtube.com/watch?v=OMhKgQmeMhI",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://lh3.googleusercontent.com/1E500rkSh8Gqkz2l12tkrKkMgsDmbQot0h3afeiRukXNficphb2zEE8o6J3dSKkiDGOOCcQ8WtRYzEYudgiYK9FkoQeYg_SP92-C=e365-pa-nu-w1200-rj",
+        "https://lh3.googleusercontent.com/7cXgu-xD1VaYlDuUq5wevREN5HcxdrKXQXfR7yJxghIlfeRP2zob6ILy4S7nV_oZ4kzZ1Ut_ucaE-yCzO1OW0lhOPkmQrJjsM6m2=e365-pa-nu-s0",
+        "https://lh3.googleusercontent.com/zdeJtOTXpnfHHqrTU5gmS3z2gfF87KouBdsjTdCK3mLPkI6JkPBIKk9kcKuiGv_5KjG8dCeQzYMw029rVLZDUUSu_7kQoPLU9Yw=e365-pa-nu-s0",
+        "https://lh3.googleusercontent.com/v_ZwsIbkjP3d-H751xusSc3dnJh5XXoVqaDFZWsuLRMUh3QBHu2UaQ7rSh8QKmApiRwAPbGzDfCp54SeHvIaSn9M_b38vv_793TFaA=e365-pa-nu-s0",
+        "https://lh3.googleusercontent.com/IZOL2cQ0BBGf1JFB8QfYFlS48bg1ohkK-yLpTH9rpHRZaw8LcCtqyVBRneNTcwPiZnsbIc0qQCgGl8QuA2iKCSXSpmVS7HrVq112=e365-pa-nu-s0",
+        "https://lh3.googleusercontent.com/vQq_Ve_cqT7CTqQsmf-_dcbBfamUCy1DaQn-OeIbzesX3M3k5twxxOfk4OY3fqIldjkBg5P5zVZlqGPSfAPHnw0_pNzva0OFo1WI=e365-pa-nu-s0",
+        "https://storage.googleapis.com/gweb-gemini-cdn/gemini/uploads/fd5c8aad9c578572a320db8f46f782239a8b9d96.svg",
+        "https://lh3.googleusercontent.com/qC1fr7EIhhygAFHzMmTVgZheQDXru8hDGsvqW1VKipA3MuNBhSl4J5QbkJH2uDbk083purBYRBgWF1Mrq0ZkpWjuRogEnREtLYU=e365-pa-nu-s0",
+        "https://storage.googleapis.com/gweb-gemini-cdn/gemini/uploads/162f66de57939e6ce488d23d06b6d945ae8f5a2a.svg",
+        "https://lh3.googleusercontent.com/wM7Q6459ByCwB43pvgX1Xa8tJ7_PBOs2PKqmQ6vgyw5b_nsFbfPgv3GwafwtwTbQjBRGHiDm9yjBY6sIJbXYX7UBiFfP-sE9CM0=e365-pa-nu-s0",
+        "https://storage.googleapis.com/gweb-gemini-cdn/gemini/uploads/5e1aa1fe4a8318ed543ca2313e4a238f5263d869.svg",
+        "https://lh3.googleusercontent.com/GZ950c9sM9fvCgBN-SuIlNYhZ_r1DeDMTV2qH6c2G_m_CzAX_zPpBQLNPhtbPWKKZfs7sMLN4eheWTlMKA9iy4NrVztivpzVqJpL=e365-pa-nu-s0"
+      ],
+      "article_text": "Gemini Spark\nYour 24/7 personal AI agent.\nGemini Spark helps you navigate your digital life. Give it a task and it works in the background 24/7, even if your phone and laptop are turned off. It operates autonomously, but always under your direction. You choose to turn it on and it's designed to check with you before taking major actions.\nYour most complex to‑dos, done.\nMulti-step tasks are no match for Gemini Spark. It can handle the heavy lifting from start to finish. With Personal Intelligence, you can choose to connect apps and let Gemini Spark connect the dots across your digital ecosystem to take action where it matters most. Whether you watch it work or let it run in the background, it’s always under your direction.\nYour inbox, synthesized.\nStay on top of all your industry interests and news. Have Gemini Spark keep an eye on your subscriptions and summarize critical themes for the week. Valuable insights are served in seconds.\nGet a grip on the group trip.\nTurn messy email chains into a master plan. Gemini Spark can handle the heavy lifting for your next group getaway including logging receipts into a spreadsheet, and sending an email to the crew so everyone knows the plan.\nYour home’s new hero.\nTurn past paperwork into future proofing. Gemini Spark investigates your invoices to anticipate your home’s next needs continuously. Tell it to add recurring reminders to your Calendar and keep an updated supply list in Keep, so you can spend more time living, not doing house chores.\nThe invoice hide and seek champion.\nGemini Spark cuts through the noise of your inbox to surface exactly what you need, like pending invoices and misplaced receipts, and organizes them for you, so you can spend time on the truly important part, the action.\nBrowse it, book it, buy it.\nGemini can do all the time-consuming research and live web browsing to gather information across multiple sites, compare options, and even help you complete bookings.\nFrequently asked questions\nGemini Spark is your personal AI agent currently rolling out to trusted testers and will be available for Google AI Ultra subscribers over 18 in the United States, as well as select business users. Don't worry if you don't have it yet, we’re rapidly expanding access to more users and businesses over the coming weeks.\nGemini Spark runs on Gemini 3.5 Flash and Antigravity.\nGemini Spark can connect natively with your favorite Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps. These connections are turned off by default, just head to your settings to turn them on. Once activated, Spark can help you take action across your entire digital workspace.\nTasks, Skills, and Schedules work together to unlock Gemini Spark's full potential. With Tasks, you can put your AI agent to work by connecting it to your Google Workspace ecosystem, including Gmail, Calendar, Docs, Sheets, and Slides. As you build Skills, you define exactly how you want Spark to take actions on things you do often, tailoring your experience and saving you from repetitive prompting. Finally, Schedules allow you to automate your workload on your own terms by setting up time-based or conditional triggers to execute tasks exactly when you need them.\nNo. Although it is an autonomous AI agent running in the background, it does not read your emails indiscriminately. It works under your direction to help you with email management.\nWhile standard chatbots wait for a prompt, Gemini Spark can take proactive action on your behalf, under your direction. It doesn't just answer questions, it completes multi-step tasks across your applications making it a true AI agent rather than just a conversational tool.\nAbsolutely. It is a highly capable AI agent for email management. You can instruct it to draft replies, sort incoming messages based on priority, or extract action items from long threads, making it the perfect AI agent for personal use when you're overwhelmed by unread messages.\nNot at all. We des",
+      "article_title_extracted": "Gemini Spark – Your 24/7 personal AI agent for productivity",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-20T08:53:20.975555Z",
+      "description": "Get more done with Gemini Spark, your personal AI agent. It takes action on your behalf and under your direction, handling tasks 24/7 to boost your productivity.",
+      "domain": "gemini.google",
+      "embed_type": "",
+      "id": "k17evmjxfjtqx6cv5j0ayxnm99872xdr",
+      "og_image_url": "https://lh3.googleusercontent.com/1E500rkSh8Gqkz2l12tkrKkMgsDmbQot0h3afeiRukXNficphb2zEE8o6J3dSKkiDGOOCcQ8WtRYzEYudgiYK9FkoQeYg_SP92-C=e365-pa-nu-w1200-rj",
+      "recommended_at": "2026-05-20T08:53:30.065000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "productivity",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-20T08:53:30.065000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Gemini Spark – Your 24/7 personal AI agent for productivity",
+      "url": "https://gemini.google/overview/agent/spark/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -85833,7 +85981,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1969,
+      "count": 1973,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -85869,5 +86017,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-20T04:50:47.849838Z"
+  "updated_at": "2026-05-20T11:34:01.952728Z"
 }
