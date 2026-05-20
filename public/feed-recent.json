@@ -2830,6 +2830,19 @@
       "title": "",
       "url": "http://x.com/i/article/2056734659736985600"
     },
+    "http://x.com/i/article/2056740443962892288": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2056740443962892288",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2056740443962892288/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIsUiCAXEAAHDAk?format=jpg&name=900x900)](http://x.com/i/article/2056740443962892288/Voxyz%5Fai/article/2056763091052843350/media/2056760229711253504)\n\nI tried letting my scheduled agents deliver only HTML, and I'm not going back\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2056740443962892288/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2056740443962892288/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2056740443962892288/Voxyz%5Fai)\n\n·\n\n14h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n7\n\n8\n\n145\n\n[42K](http://x.com/i/article/2056740443962892288/Voxyz%5Fai/status/2056763091052843350/analytics)\n\nA couple weeks ago Thariq published \"Using Claude Code: The Unreasonable Effectiveness of HTML,\" and it hit 12.6M views. His argument: Markdown has become the bottleneck for agent output, and he's almost completely switched to HTML.\n\nI read it at the time and shrugged. Markdown is simple, diffable, greppable, cheap on tokens, and easy to hand off between agents. I figured this was a taste thing, not worth touching, and I left it alone.\n\nThen yesterday I came across a repo called \n\n[html-anything](https://github.com/nexu-io/html-anything)\n\n. The tagline: \"Markdown is the draft, HTML is what humans read.\" That hit a nerve. So I just tried it, lol.\n\nToday I changed the output format on a few cron jobs inside X Manager (the X content management agent I run myself). Instead of pasting Markdown into Telegram, each job now delivers one HTML report. I expected this to be heavy: new rendering scaffolding, storage paths to wire up, maybe a rebuild of the downstream review flow. I even ran a benchmark first.\n\nTurns out the entire cost was 51ms of extra render time per run.\n\nWay easier on the eyes.\n\n## \n\nThe original mess\n\n[![Image](https://pbs.twimg.com/media/HIsUlcfXYAAdq4C?format=jpg&name=small)](http://x.com/i/article/2056740443962892288/Voxyz%5Fai/article/2056763091052843350/media/2056760288360226816)\n\nMy X Manager cron runs more than a dozen stages a day: scan timeline, check mentions, aggregate key accounts, generate draft packs, surface decisions for me. After each stage, the agent dumps about 2,000 words of source data, cron history, risks, and next actions into Telegram all at once.\n\nThe content was all correct. The problem was I couldn't read it. The chat turned into one long wall of text, important state buried, and the next stage had to guess what the previous one said.\n\nAt first I thought it was a length problem and wanted to give the agent stricter summary constraints. After a while I realized output length was secondary. The real block was that the chat surface itself wasn't supposed to be doing this job. I also really wanted every final decision to be mine, which meant I had to actually read all the output. Telegram is an IM tool, built for 5-line notifications. Cramming a 2,000-word technical report into it just breaks it.\n\nMy blind spot was never really about Markdown itself. Markdown as source is fine. The problem was I'd been using it as a review surface, forcing myself to read long Markdown reports the agent generated. That drains real energy.\n\n## \n\nThe new delivery contract\n\n[![Image](https://pbs.twimg.com/media/HIsUnRkWsAA4yip?format=jpg&name=small)](http://x.com/i/article/2056740443962892288/Voxyz%5Fai/article/2056763091052843350/media/2056760319788101632)\n\nI changed the output contract for the agent's cron jobs. Each real run now produces three things:\n\n* A 5-line chat summary into Telegram: verdict, stage state, next action. Nothing more.\n* A persistent Markdown file under content/memory/daily/, the source of truth and the input for the next agent.\n* An HTML report into the gateway's outbound directory, the review surface for humans.\n\nMarkdown stays the source. HTML is for humans. Telegr",
+      "title": "",
+      "url": "http://x.com/i/article/2056740443962892288"
+    },
     "http://x.com/i/article/2056852756401356801": {
       "cleaner_v": 2,
       "content_type": "",
@@ -33635,25 +33648,25 @@
     "2054175507181093201": [
       "https://x.com/colton__tollett/status/2054175507181093201",
       "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg",
-      "https://x.com/colton__tollett/status/2054614488532258833",
       "https://x.com/colton__tollett/status/2054236372131541209",
+      "https://x.com/colton__tollett/status/2054614488532258833",
       "https://x.com/colton__tollett/status/2054584852771397921",
       "https://x.com/colton__tollett/status/2054584886799806524",
       "https://x.com/colton__tollett/status/2054955847260754252",
+      "https://x.com/colton__tollett/status/2054956376103792886",
       "https://x.com/colton__tollett/status/2055336180011462772",
       "https://x.com/colton__tollett/status/2055334365802983602?s=46",
       "https://x.com/colton__tollett/status/2054585772515131877",
-      "https://x.com/colton__tollett/status/2054956376103792886",
       "https://x.com/colton__tollett/status/2054584955192193493",
-      "https://x.com/colton__tollett/status/2055336443677987000",
-      "https://x.com/colton__tollett/status/2054956244650057744",
-      "https://x.com/colton__tollett/status/2055336339445338354",
-      "https://x.com/colton__tollett/status/2054584777026556034",
-      "https://x.com/colton__tollett/status/2054300057285845424",
       "https://x.com/colton__tollett/status/2054762460662403126",
-      "https://x.com/colton__tollett/status/2056014229791031587",
-      "https://x.com/colton__tollett/status/2054614239059267694",
-      "https://x.com/colton__tollett/status/2054955743032361303"
+      "https://x.com/colton__tollett/status/2054956244650057744",
+      "https://x.com/colton__tollett/status/2054300057285845424",
+      "https://x.com/colton__tollett/status/2054584777026556034",
+      "https://x.com/colton__tollett/status/2055336339445338354",
+      "https://x.com/colton__tollett/status/2055336443677987000",
+      "https://x.com/colton__tollett/status/2054955743032361303",
+      "https://x.com/colton__tollett/status/2054955883864424522",
+      "https://x.com/colton__tollett/status/2056014229791031587"
     ],
     "2054184584397688943": [
       "https://x.com/dingyi/status/2054184584397688943",
@@ -33889,10 +33902,10 @@
     "2055904097358794948": [
       "https://x.com/Xudong07452910/status/2055904097358794948",
       "http://x.com/i/article/2055613452798902272",
+      "https://x.com/Xudong07452910/status/2055958212612919599",
       "https://x.com/Xudong07452910/status/2055907580552073221",
       "https://x.com/Xudong07452910/status/2055931072362230025",
       "https://x.com/Xudong07452910/status/2056023674424033749",
-      "https://x.com/Xudong07452910/status/2055958212612919599",
       "https://x.com/Xudong07452910/status/2055906156518711699"
     ],
     "2055945336599020021": [
@@ -34031,17 +34044,17 @@
       "https://pbs.twimg.com/media/HIocKddaoAAZtJR.jpg",
       "https://x.com/nemuiasaa/status/2056712150945804495",
       "https://x.com/nemuiasaa/status/2056708637599653893",
-      "https://x.com/nemuiasaa/status/2056710628170215525",
       "https://x.com/nemuiasaa/status/2056711402988183878",
-      "https://x.com/nemuiasaa/status/2056710469034152231",
-      "https://x.com/nemuiasaa/status/2056711044048036188",
-      "https://x.com/nemuiasaa/status/2056708936737456390",
       "https://x.com/nemuiasaa/status/2056709219760705706",
       "https://x.com/nemuiasaa/status/2056709751107641529",
+      "https://x.com/nemuiasaa/status/2056710469034152231",
+      "https://x.com/nemuiasaa/status/2056709704785768562",
+      "https://x.com/nemuiasaa/status/2056708936737456390",
+      "https://x.com/nemuiasaa/status/2056708848589979754",
       "https://x.com/nemuiasaa/status/2056710501212840246",
       "https://x.com/nemuiasaa/status/2056710563607220318",
-      "https://x.com/nemuiasaa/status/2056709704785768562",
-      "https://x.com/nemuiasaa/status/2056708848589979754",
+      "https://x.com/nemuiasaa/status/2056711044048036188",
+      "https://x.com/nemuiasaa/status/2056710628170215525",
       "https://x.com/nemuiasaa/status/2056710708663099851"
     ],
     "2056541498158481512": [
@@ -34067,6 +34080,7 @@
       "https://x.com/ma_zhenyuan/status/2056884573435580792",
       "https://x.com/ma_zhenyuan/status/2056674335264526585",
       "https://x.com/ma_zhenyuan/status/2056674419825913972",
+      "https://x.com/ma_zhenyuan/status/2056970482961051661",
       "https://x.com/ma_zhenyuan/status/2056636031735357630",
       "https://x.com/ma_zhenyuan/status/2056674279178240042",
       "https://x.com/ma_zhenyuan/status/2056644759654117507",
@@ -34090,9 +34104,9 @@
       "https://x.com/yoyo__AI/status/2056707863272431643",
       "http://x.com/i/article/2056705144000217088",
       "https://x.com/yoyo__AI/status/2056712021794848772",
-      "https://x.com/yoyo__AI/status/2056715383537905717",
       "https://x.com/yoyo__AI/status/2056713591571849400",
       "https://x.com/yoyo__AI/status/2056714194964418590",
+      "https://x.com/yoyo__AI/status/2056715383537905717",
       "https://x.com/yoyo__AI/status/2056713803392561663",
       "https://x.com/yoyo__AI/status/2056710359122387383"
     ],
@@ -34100,8 +34114,8 @@
       "https://x.com/Alfred_Lin/status/2056734226201100603",
       "http://x.com/i/article/2056434896411996160",
       "https://x.com/Alfred_Lin/status/2056775650778996929",
-      "https://x.com/Alfred_Lin/status/2056743471424401511",
       "https://x.com/Alfred_Lin/status/2056756723197821288",
+      "https://x.com/Alfred_Lin/status/2056743471424401511",
       "https://x.com/Alfred_Lin/status/2056743041344610593",
       "https://x.com/Alfred_Lin/status/2056742884242862080",
       "https://x.com/Alfred_Lin/status/2056775923912073283"
@@ -34110,6 +34124,10 @@
       "https://x.com/lotte_verheyden/status/2056754091817361670",
       "http://x.com/i/article/2054598592980234240",
       "https://x.com/lotte_verheyden/status/2056810675327148165"
+    ],
+    "2056763091052843350": [
+      "https://x.com/Voxyz_ai/status/2056763091052843350",
+      "http://x.com/i/article/2056740443962892288"
     ],
     "2056764805114110287": [
       "https://x.com/yibie/status/2056764805114110287",
@@ -34130,8 +34148,8 @@
       "https://pbs.twimg.com/media/HItyLTAa0AAN1Jx.png",
       "https://x.com/yoheinakajima/status/2056858224981381306",
       "https://x.com/yoheinakajima/status/2056862528261743095",
-      "https://x.com/yoheinakajima/status/2056858398315233679",
       "https://x.com/yoheinakajima/status/2056858476849344917",
+      "https://x.com/yoheinakajima/status/2056858398315233679",
       "https://x.com/yoheinakajima/status/2056850809980399754"
     ],
     "2056854990090592274": [
@@ -34149,6 +34167,6 @@
       "https://x.com/dingyi/status/2056915741988057592"
     ]
   },
-  "updated_at": "2026-05-20T05:17:34Z",
+  "updated_at": "2026-05-20T06:17:38Z",
   "window": "recent"
 }
