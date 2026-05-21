@@ -178,6 +178,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "DROP EVERYTHING\n\nThe bible for running LLMs locally is now available online to read for free\n\nCovers what to use on\n\n- Laptop / edge / odd hardware\n- Mac-first workflows\n- Single RTX GPUs\n- 2-4+ NVIDIA / CUDA GPUs\n- General production serving\n- Long-context / MoE / routing\n- NVIDIA max performance\n- Cluster orchestration\n\nSoftware\n\n- llama.cpp\n- MLX / MLX-LM\n- ExLlamaV2\n- ExLlamaV3\n- vLLM\n- SGLang\n- TensorRT-LLM\n- NVIDIA Dynamo\n\nYou should read this, and if you cannot now then you most definitely wanna bookmark it for later\n\nLocal AI FTW",
+      "text_zh": "放下一切\n\n本地运行 LLM 的“圣经”现已免费在线阅读\n\n涵盖以下场景的使用指南：\n\n- 笔记本电脑 / 边缘设备 / 特殊硬件\n- 以 Mac 为首选的工作流\n- 单张 RTX GPU\n- 2-4 张以上 NVIDIA / CUDA GPU\n- 通用生产环境部署\n- 长上下文 / MoE / 路由\n- NVIDIA 极致性能\n- 集群编排\n\n软件工具：\n\n- llama.cpp\n- MLX / MLX-LM\n- ExLlamaV2\n- ExLlamaV3\n- vLLM\n- SGLang\n- TensorRT-LLM\n- NVIDIA Dynamo\n\n你应该读一读这本书，如果现在没时间，那一定要收藏起来以后看。\n\n本地 AI 万岁！",
+      "text_zh_hash": "6d2496d520432a7f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheAhmadOsman/status/2057268825326796906"
     },
     {
@@ -230,6 +233,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OPENAI DROPPED A PDF ON HOW THEY USE CODEX INTERNALLY\n\nand it's actually useful\n\ntheir engineers across security, infra, frontend, and api teams use it daily for:\n▫️ understanding unfamiliar codebases fast (especially during incidents)\n▫️ refactoring changes that span dozens of files\n▫️ generating tests for edge cases devs usually miss\n▫️ scaffolding boilerplate so you ship faster\n▫️ staying in flow when your calendar is a disaster\n\nthe one that hit different:\none engineer said \"i was in meetings all day and still merged 4 PRs because codex was working in the background\"\n\nhttps://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "text_zh": "OPENAI 发布了一份关于他们内部如何使用 CODEX 的 PDF 文档\n\n而且确实很有用\n\n他们安全、基础设施、前端和 API 团队的工程师每天都在使用它，用于：\n▫️ 快速理解不熟悉的代码库（尤其是在处理事故时）\n▫️ 重构涉及数十个文件的变更\n▫️ 为开发者通常遗漏的边界情况生成测试\n▫️ 搭建样板代码，让你更快交付\n▫️ 在日程混乱时保持心流状态\n\n最让人印象深刻的一点：\n一位工程师说：“我一整天都在开会，但还是合并了 4 个 PR，因为 Codex 在后台一直工作。”\n\nhttps://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "text_zh_hash": "0c2b1ceafdba9738",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_vmlops/status/2057080944465748109"
     },
     {
