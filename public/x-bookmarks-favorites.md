@@ -1,6 +1,6 @@
 # X Bookmarks + Favorites
 
-Updated: 2026-05-21T13:18:18Z
+Updated: 2026-05-21T13:32:49Z
 Total items: 1291
 
 This file is generated hourly from X bookmarks and favorites. It is intended to be a public, linkable Markdown data source.
@@ -55,7 +55,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jeetnirnejak/status/2057102470376304931](https://x.com/jeetnirnejak/status/2057102470376304931)
   - [x.com/jeetnirnejak/status/2057144246470431186](https://x.com/jeetnirnejak/status/2057144246470431186)
   - [x.com/jeetnirnejak/status/2057109316646388146](https://x.com/jeetnirnejak/status/2057109316646388146)
-- Public metrics: bookmark_count=163, like_count=203, quote_count=1, reply_count=7, retweet_count=9
+- Public metrics: bookmark_count=164, like_count=205, quote_count=1, reply_count=7, retweet_count=10
 
 > Sprint planner agent: don’t create/move your tickets manually, let your agent take care of them
 >
@@ -105,14 +105,14 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Av1dlive/status/2057142822470590546](https://x.com/Av1dlive/status/2057142822470590546)
   - [x.com/Av1dlive/status/2057171292475072987](https://x.com/Av1dlive/status/2057171292475072987)
   - [x.com/Av1dlive/status/2057157047347749095](https://x.com/Av1dlive/status/2057157047347749095)
-  - [x.com/Av1dlive/status/2057410176609849664](https://x.com/Av1dlive/status/2057410176609849664)
   - [x.com/Av1dlive/status/2057154956256481765](https://x.com/Av1dlive/status/2057154956256481765)
+  - [x.com/Av1dlive/status/2057410176609849664](https://x.com/Av1dlive/status/2057410176609849664)
   - [x.com/Av1dlive/status/2057190057954721917](https://x.com/Av1dlive/status/2057190057954721917)
   - [x.com/Av1dlive/status/2057155376106307883](https://x.com/Av1dlive/status/2057155376106307883)
   - [x.com/Av1dlive/status/2057145889970626894](https://x.com/Av1dlive/status/2057145889970626894)
   - [x.com/Av1dlive/status/2057156455380447609](https://x.com/Av1dlive/status/2057156455380447609)
   - [x.com/Av1dlive/status/2057143106819211704](https://x.com/Av1dlive/status/2057143106819211704)
-- Public metrics: bookmark_count=340, like_count=174, quote_count=7, reply_count=23, retweet_count=17
+- Public metrics: bookmark_count=342, like_count=174, quote_count=7, reply_count=23, retweet_count=17
 
 > http://x.com/i/article/2057091363322376192
 
@@ -172,7 +172,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/athleticKoder/status/2057091692235481560](https://x.com/athleticKoder/status/2057091692235481560)
   - [x.com/i/article/2057087203403259904](http://x.com/i/article/2057087203403259904)
   - [x.com/athleticKoder/status/2057288202986373395](https://x.com/athleticKoder/status/2057288202986373395)
-- Public metrics: bookmark_count=1124, like_count=495, quote_count=1, reply_count=7, retweet_count=63
+- Public metrics: bookmark_count=1137, like_count=500, quote_count=1, reply_count=7, retweet_count=63
 
 > http://x.com/i/article/2057087203403259904
 
@@ -194,7 +194,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/vasuman/status/2057177266984226892](https://x.com/vasuman/status/2057177266984226892)
   - [x.com/i/article/2057172544277606401](http://x.com/i/article/2057172544277606401)
-- Public metrics: bookmark_count=3382, like_count=1098, quote_count=31, reply_count=27, retweet_count=110
+- Public metrics: bookmark_count=3433, like_count=1109, quote_count=30, reply_count=27, retweet_count=113
 
 > http://x.com/i/article/2057172544277606401
 
@@ -217,7 +217,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/browser_use/status/2057283804281336159](https://x.com/browser_use/status/2057283804281336159)
   - [x.com/browser_use/status/2057286037672694046](https://x.com/browser_use/status/2057286037672694046)
   - [browser-use.com/posts/goal-almost-got-me-fired](https://browser-use.com/posts/goal-almost-got-me-fired)
-- Public metrics: bookmark_count=150, like_count=91, quote_count=1, reply_count=2, retweet_count=3
+- Public metrics: bookmark_count=154, like_count=92, quote_count=1, reply_count=2, retweet_count=4
 
 > Use /goal wisely...
 
@@ -237,7 +237,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/TheAhmadOsman/status/2057286244233613818](https://x.com/TheAhmadOsman/status/2057286244233613818)
   - [x.com/TheAhmadOsman/status/2056467843965673714](https://x.com/TheAhmadOsman/status/2056467843965673714)
   - [x.com/TheAhmadOsman/status/2057319724447318083](https://x.com/TheAhmadOsman/status/2057319724447318083)
-- Public metrics: bookmark_count=2543, like_count=1293, quote_count=4, reply_count=33, retweet_count=156
+- Public metrics: bookmark_count=2572, like_count=1305, quote_count=4, reply_count=33, retweet_count=160
 
 > DROP EVERYTHING
 >
@@ -291,7 +291,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/_vmlops/status/2057080944465748109](https://x.com/_vmlops/status/2057080944465748109)
   - [cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)
   - [pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg](https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg)
-- Public metrics: bookmark_count=2676, like_count=1591, quote_count=10, reply_count=24, retweet_count=147
+- Public metrics: bookmark_count=2686, like_count=1599, quote_count=10, reply_count=24, retweet_count=148
 
 > OPENAI DROPPED A PDF ON HOW THEY USE CODEX INTERNALLY
 >
@@ -327,7 +327,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/jxnlco/status/2057153744630890620](https://x.com/jxnlco/status/2057153744630890620)
   - [x.com/i/article/2057152333696356352](http://x.com/i/article/2057152333696356352)
-- Public metrics: bookmark_count=2783, like_count=1442, quote_count=26, reply_count=33, retweet_count=129
+- Public metrics: bookmark_count=2801, like_count=1452, quote_count=26, reply_count=33, retweet_count=130
 
 > http://x.com/i/article/2057152333696356352
 
@@ -490,12 +490,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/AndrewPrifer/status/2056988491200995738](https://x.com/AndrewPrifer/status/2056988491200995738)
   - [x.com/AndrewPrifer/status/2056974775403340127](https://x.com/AndrewPrifer/status/2056974775403340127)
   - [x.com/AndrewPrifer/status/2056973936932639103](https://x.com/AndrewPrifer/status/2056973936932639103)
-  - [x.com/AndrewPrifer/status/2056988129287168068](https://x.com/AndrewPrifer/status/2056988129287168068)
   - [x.com/AndrewPrifer/status/2057002187281359300](https://x.com/AndrewPrifer/status/2057002187281359300)
+  - [x.com/AndrewPrifer/status/2056988129287168068](https://x.com/AndrewPrifer/status/2056988129287168068)
   - [x.com/AndrewPrifer/status/2057061306910621903](https://x.com/AndrewPrifer/status/2057061306910621903)
   - [x.com/AndrewPrifer/status/2057001922918494686](https://x.com/AndrewPrifer/status/2057001922918494686)
   - [x.com/AndrewPrifer/status/2057028849804972131](https://x.com/AndrewPrifer/status/2057028849804972131)
-- Public metrics: bookmark_count=5343, like_count=5565, quote_count=49, reply_count=173, retweet_count=324
+- Public metrics: bookmark_count=5350, like_count=5571, quote_count=49, reply_count=175, retweet_count=325
 
 > Dear frontend devs and UI designers. I bring you Liquid DOM, a complete and faithful implementation of Liquid Glass on the Web.
 >
@@ -559,7 +559,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/nutlope/status/2056768612736635342](https://x.com/nutlope/status/2056768612736635342)
   - [x.com/nutlope/status/2056959903726542956](https://x.com/nutlope/status/2056959903726542956)
   - [x.com/nutlope/status/2056824297843302631](https://x.com/nutlope/status/2056824297843302631)
-- Public metrics: bookmark_count=8387, like_count=4319, quote_count=32, reply_count=125, retweet_count=371
+- Public metrics: bookmark_count=8399, like_count=4326, quote_count=32, reply_count=125, retweet_count=371
 
 > Introducing Hallmark!
 >
@@ -775,7 +775,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [yage.ai/share/ai-model-companies-consolidation-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-model-companies-consolidation-20260518](https://yage.ai/share/ai-model-companies-consolidation-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-model-companies-consolidation-20260518)
   - [x.com/grapeot/status/2056559727287652413](https://x.com/grapeot/status/2056559727287652413)
   - [yage.ai/share/pi-coding-agent-locked-out-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=pi-coding-agent-locked-out-20260518](https://yage.ai/share/pi-coding-agent-locked-out-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=pi-coding-agent-locked-out-20260518)
-- Public metrics: bookmark_count=20, like_count=24, quote_count=0, reply_count=0, retweet_count=1
+- Public metrics: bookmark_count=20, like_count=24, quote_count=0, reply_count=2, retweet_count=1
 
 > 两件事昨天同时落地。AI21 Labs 裁 60% 的人，停止卖模型，全部转向 agent 优化。Meta 把 7000 人强制调到 AI 岗，裁员 8000，$145B capex。
 >
@@ -928,8 +928,8 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/yoheinakajima/status/2056862528261743095](https://x.com/yoheinakajima/status/2056862528261743095)
   - [x.com/yoheinakajima/status/2056858224981381306](https://x.com/yoheinakajima/status/2056858224981381306)
   - [x.com/yoheinakajima/status/2056850809980399754](https://x.com/yoheinakajima/status/2056850809980399754)
-  - [x.com/yoheinakajima/status/2056858476849344917](https://x.com/yoheinakajima/status/2056858476849344917)
   - [x.com/yoheinakajima/status/2056858398315233679](https://x.com/yoheinakajima/status/2056858398315233679)
+  - [x.com/yoheinakajima/status/2056858476849344917](https://x.com/yoheinakajima/status/2056858476849344917)
 - Public metrics: bookmark_count=185, like_count=141, quote_count=12, reply_count=28, retweet_count=12
 
 > http://x.com/i/article/2056734659736985600
@@ -1292,7 +1292,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/i/article/2056852756401356801](http://x.com/i/article/2056852756401356801)
   - [x.com/nateherk/status/2056855040610963960](https://x.com/nateherk/status/2056855040610963960)
   - [youtu.be/brB-hSiV2iU?si=_ooYfmoQ9S_gx1Cb](https://youtu.be/brB-hSiV2iU?si=_ooYfmoQ9S_gx1Cb)
-- Public metrics: bookmark_count=91, like_count=87, quote_count=1, reply_count=4, retweet_count=8
+- Public metrics: bookmark_count=91, like_count=88, quote_count=1, reply_count=4, retweet_count=8
 
 > http://x.com/i/article/2056852756401356801
 
@@ -1541,7 +1541,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/ClaudeDevs/status/2056403446056784288](https://x.com/ClaudeDevs/status/2056403446056784288)
   - [claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
-- Public metrics: bookmark_count=5836, like_count=4367, quote_count=65, reply_count=123, retweet_count=456
+- Public metrics: bookmark_count=5836, like_count=4368, quote_count=65, reply_count=123, retweet_count=456
 
 > What are best practices for running Claude Code at scale?
 >
@@ -1731,7 +1731,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/assaf_elovic/status/2052256533816156555](https://x.com/assaf_elovic/status/2052256533816156555)
   - [x.com/assaf_elovic/status/2052256409761234974](https://x.com/assaf_elovic/status/2052256409761234974)
   - [x.com/assaf_elovic/status/2055317593670472132](https://x.com/assaf_elovic/status/2055317593670472132)
-- Public metrics: bookmark_count=942, like_count=905, quote_count=2, reply_count=51, retweet_count=83
+- Public metrics: bookmark_count=943, like_count=905, quote_count=2, reply_count=51, retweet_count=83
 
 > Ora just released the first ever agent readiness report and the result is pretty wild: only 1% of the web is actually usable by agents.
 >
@@ -1764,7 +1764,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jxnlco/status/2056577196202897493](https://x.com/jxnlco/status/2056577196202897493)
   - [jxnl.co/writing/2026/05/18/six-levels-of-complexity-of-an-ai-powered-morning-brief-with-codex](https://jxnl.co/writing/2026/05/18/six-levels-of-complexity-of-an-ai-powered-morning-brief-with-codex/)
   - [x.com/jxnlco/status/2056392071926169920](https://x.com/jxnlco/status/2056392071926169920)
-- Public metrics: bookmark_count=6052, like_count=3495, quote_count=42, reply_count=151, retweet_count=220
+- Public metrics: bookmark_count=6052, like_count=3496, quote_count=42, reply_count=151, retweet_count=220
 
 > jason from the codex team here,
 > heres a draft on codex maxxing and the primatives i use on a daily basis
@@ -2217,7 +2217,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/addyosmani/status/2056911978875195412](https://x.com/addyosmani/status/2056911978875195412)
   - [x.com/addyosmani/status/2056086439025324154](https://x.com/addyosmani/status/2056086439025324154)
   - [x.com/addyosmani/status/2056107921227010519](https://x.com/addyosmani/status/2056107921227010519)
-- Public metrics: bookmark_count=4809, like_count=3483, quote_count=114, reply_count=107, retweet_count=589
+- Public metrics: bookmark_count=4809, like_count=3483, quote_count=115, reply_count=107, retweet_count=589
 
 > http://x.com/i/article/2055936913211899904
 
@@ -2335,7 +2335,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/tricalt/status/2055876832797581406](https://x.com/tricalt/status/2055876832797581406)
   - [x.com/i/article/2053986800050524160](http://x.com/i/article/2053986800050524160)
-- Public metrics: bookmark_count=1066, like_count=529, quote_count=7, reply_count=10, retweet_count=65
+- Public metrics: bookmark_count=1065, like_count=529, quote_count=7, reply_count=10, retweet_count=65
 
 > http://x.com/i/article/2053986800050524160
 
@@ -2392,7 +2392,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/lotte_verheyden/status/2056032201259831398](https://x.com/lotte_verheyden/status/2056032201259831398)
   - [x.com/i/article/2054596954282496000](http://x.com/i/article/2054596954282496000)
   - [x.com/lotte_verheyden/status/2056070029981213165](https://x.com/lotte_verheyden/status/2056070029981213165)
-- Public metrics: bookmark_count=680, like_count=319, quote_count=0, reply_count=4, retweet_count=34
+- Public metrics: bookmark_count=681, like_count=319, quote_count=0, reply_count=4, retweet_count=34
 
 > http://x.com/i/article/2054596954282496000
 
@@ -2884,7 +2884,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Saboo_Shubham_/status/2054988572571402453](https://x.com/Saboo_Shubham_/status/2054988572571402453)
   - [x.com/Saboo_Shubham_/status/2054988166541770782](https://x.com/Saboo_Shubham_/status/2054988166541770782)
   - [x.com/i/article/2054805605995696128](https://x.com/i/article/2054805605995696128)
-- Public metrics: bookmark_count=2433, like_count=972, quote_count=16, reply_count=26, retweet_count=116
+- Public metrics: bookmark_count=2434, like_count=972, quote_count=16, reply_count=26, retweet_count=116
 
 > http://x.com/i/article/2054805605995696128
 
@@ -24795,7 +24795,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg](https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=0, like_count=618, quote_count=6, reply_count=35, retweet_count=104
+- Public metrics: bookmark_count=497, like_count=618, quote_count=6, reply_count=35, retweet_count=104
 
 > 绝了，刚刚阿里在除夕夜发布了新模型 Qwen-3.5-plus ，赶紧试了一下，一句话就生成了这样一个 3D 展车厅 🤯
 >
@@ -30631,7 +30631,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg](https://pbs.twimg.com/media/HHuW0f8XMAA1Ue4.jpg)
   - [pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg](https://pbs.twimg.com/media/HHuW2FHXkAE9tJH.jpg)
   - [pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg](https://pbs.twimg.com/media/HHuW38mWwAQrzPT.jpg)
-- Public metrics: bookmark_count=3337, like_count=2853, quote_count=5, reply_count=29, retweet_count=93
+- Public metrics: bookmark_count=3338, like_count=2853, quote_count=5, reply_count=29, retweet_count=93
 
 > Inheritable taste through skill files https://t.co/VTWOL2VIW0
 
@@ -30674,7 +30674,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/matthewwmullin/status/2051417778930778220](https://x.com/matthewwmullin/status/2051417778930778220)
   - [x.com/matthewwmullin/status/2051417604862951683](https://x.com/matthewwmullin/status/2051417604862951683)
   - [x.com/matthewwmullin/status/2051417553986081094](https://x.com/matthewwmullin/status/2051417553986081094)
-- Public metrics: bookmark_count=9877, like_count=61620, quote_count=365, reply_count=281, retweet_count=8898
+- Public metrics: bookmark_count=9877, like_count=61619, quote_count=365, reply_count=281, retweet_count=8897
 
 > NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION.
 >
@@ -32004,7 +32004,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg](https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg)
     Images: https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=0, like_count=9024, quote_count=17, reply_count=10, retweet_count=616
+- Public metrics: bookmark_count=0, like_count=9023, quote_count=17, reply_count=10, retweet_count=616
 
 > https://t.co/XA6fgZdqYK
 
@@ -32202,7 +32202,7 @@ But if the part you care about is the decision-making around the code, agents fe
     Images: https://developers.openai.com/og/api/docs/guides/prompt-guidance.png, https://developers.openai.com/OpenAI_Developers.svg
     Text: GPT-5.5 prompting guide GPT-5.5 works best when prompts define the outcome and leave room for the model to choose an efficient solution path. Compared with earlier models, you can often use shorter, more outcome-oriented prompts:...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=0, like_count=2378, quote_count=23, reply_count=55, retweet_count=248
+- Public metrics: bookmark_count=0, like_count=2379, quote_count=23, reply_count=55, retweet_count=248
 
 > https://developers.openai.com/api/docs/guides/prompt-guidance?model=gpt-5.5
 >
@@ -35096,7 +35096,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2044440069700976640/img/V3JSqYkGccFYnXSU.jpg](https://pbs.twimg.com/amplify_video_thumb/2044440069700976640/img/V3JSqYkGccFYnXSU.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2044440069700976640/img/V3JSqYkGccFYnXSU.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=0, like_count=549, quote_count=1, reply_count=0, retweet_count=12
+- Public metrics: bookmark_count=0, like_count=549, quote_count=1, reply_count=10, retweet_count=12
 
 > https://t.co/1pTW602Ap1
 
