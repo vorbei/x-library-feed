@@ -5,19 +5,19 @@
       "name": "Tools"
     },
     {
-      "count": 384,
+      "count": 385,
       "name": "Development"
     },
     {
-      "count": 314,
+      "count": 315,
       "name": "Design"
     },
     {
-      "count": 294,
+      "count": 295,
       "name": "Articles"
     },
     {
-      "count": 258,
+      "count": 259,
       "name": "Social"
     },
     {
@@ -34,8 +34,157 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2132,
+  "item_count": 2136,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-21T11:51:44.871788Z",
+      "article_image_urls": [
+        "https://pi.dev/social.png",
+        "https://pi.dev/doom-extension.png"
+      ],
+      "article_title_extracted": "Pi Coding Agent",
+      "category": "Development",
+      "created_at": "2026-05-21T09:22:09.071446Z",
+      "description": "A terminal-based coding agent",
+      "domain": "pi.dev",
+      "embed_type": "",
+      "id": "k17dab3xzyx13c3e2wj1ckkr3x874h69",
+      "og_image_url": "https://pi.dev/social.png",
+      "recommended_at": "2026-05-21T09:22:26.497000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "terminal-tools",
+        "developer-productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-21T09:22:26.497000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Pi Coding Agent",
+      "url": "https://pi.dev/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_006.jpg",
+        "https://i.imgur.com/PLtlbdI.png",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_COVER_01_009-265x110.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_17-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_18-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_19-265x131.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_20-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_21-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_22-265x131.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_23-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_24-265x331.jpg",
+        "https://arden.studio/wp-content/uploads/2026/05/At_Glacier_ArillaType_Arden_Studio_27-265x331.jpg"
+      ],
+      "article_text": "Arden Studio Work Studio Garden Work Studio Garden Arden Studio At Glacier Type Design, Creative Direction, Campaign At Glacier is a confident step into the raw wilderness of type design. Bold features, smart structure; ice-cold elegance with glacial flow. A natural grotty, carved by instinct. Untamed. Elemental. The rare thrill of encountering something truly one of a kind. Rooted in the wild, yet made for control, At Glacier includes over 1,000 glyphs: a rich set of alternates, ligatures, numerals, symbols, arrows, dingbats, and advanced OpenType features. A complete creative toolkit — all in one font. Credits Team Omar Careaga Pedro Arilla Fonts At Glacier Download Project Images Related Projects Festival of Print 2023 Creative direction Branding Celebrating 25 years of East London Printmakers Nu Festival Creative direction Branding Shaping the identity of a next-generation cultural festival Movimiento Typography Creative direction Branding Movement as constant change and evolution Arden Studio® Unit 7 24-28 Pritchards Rd E2 9AP London United Kingdom Work Studio Garden Instagram Are.na LinkedIn Spotify Newsletter Contact Book a call hello@arden.studio +44 (0) 7593 984 037 ©2026 Arden Studio. All rights reserved. Last updated 054147761 Arden Studio® Work Studio Garden Contact Book a call hello@arden.studio +44 (0) 7593 984 037 Instagram Are.na LinkedIn Spotify Newsletter Unit 7 24-28 Pritchards Rd E2 9AP London United Kingdom ©2026 Arden Studio. All rights reserved.",
+      "article_title_extracted": "At Glacier — Arden Studio",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-05-21T02:06:43.679334Z",
+      "description": "Arden Studio showcases 'At Glacier,' a unique typeface characterized by bold features and a natural, elemental design. It includes over 1,000 glyphs, offering a comprehensive toolkit for creativity with alternates, ligatures, numerals, symbols, and advanced OpenType features. The project emphasizes a blend of untamed aesthetic and control, embodying the thrill of distinctiveness in type design. Credits are given to the team members Omar Careaga and Pedro Arilla, along with links to related projects such as Festival of Print 2023 and Nu Festival.",
+      "domain": "arden.studio",
+      "embed_type": "",
+      "id": "k17e6qy5f7hwbmvx8cq4we25ps8744pp",
+      "og_image_url": "https://cloud.poche.app/api/storage/22c17500-cc13-4efc-a71c-ea358519741c",
+      "recommended_at": "2026-05-21T05:16:03.942000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "type-design",
+        "graphic-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-21T05:16:03.942000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "At Glacier — Arden Studio",
+      "url": "https://arden.studio/at-glacier-arilla-type/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://cms-media.xreal.com/519_bd66a6df90.jpg",
+        "https://cms-media.xreal.com/google_io_blog_pic1_8658fb3808.jpeg",
+        "https://cms-media.xreal.com/google_io_blog_pic2_cedb1ab2f8.png",
+        "https://cms-media.xreal.com/rogblogcover_f7ca83bc7d.png"
+      ],
+      "article_text": "United States / English May 19, 2026 XREAL and Google Showcase Project Aura at Google I/O 2026 At Google I/O 2026, XREAL and Google showcased unique live demonstrations of Project Aura - upcoming wired XR glasses arriving globally in 2026. After months of anticipation, developers, creators, and media attending Google I/O finally got their first hands-on look at what’s possible when lightweight XR hardware meets the power of Android XR and Gemini, and the response has been incredible. Project Aura’s Public Debut Throughout Google I/O, attendees experienced a series of immersive Android XR demos running on Project Aura, showcasing the next wave of spatial computing experiences powered by XREAL, Google, and Qualcomm Technologies. Highlights included: Immersive Google Maps, enabling users to explore places and navigate spatially in an entirely new way Dynamic video content with both massive screen viewing and a mini-screen experience fit for multitasking across Project Aura’s extended reality canvas Immersive YouTube 180 and 360-degree VR videos, including 2D and stunning 3D videos brought to life through Project Aura’s massive OLED and class-leading 70-degrees field of view An intuitive and fun WebXR three-dimensional painting app vibe coded with Gemini. Connecting Project Aura via DisplayPort-in with a laptop, extending the device’s multimodal AI capabilities onto the laptop in three-dimensional AR space, including integrated Gemini support and auto-spatialization Plus more next-generation AI-powered Android XR games and interactions designed specifically for wearable computing Project Aura represents a major step forward in making XR experiences practical, lightweight, and accessible for everyday users and developers alike. Shipping Globally in 2026 XREAL and Google confirmed Project Aura will launch globally in 2026. Built in close collaboration with Google and Qualcomm, Project Aura combines XREAL’s leadership in lightweight XR hardware with Google’s Android XR platform and AI capabilities, alongside Qualcomm’s class-leading Snapdragon processors. Together, the three companies are shaping the next generation of spatial computing experiences. Today’s demonstrations offered an early glimpse into that future, one where AI, spatial interfaces, and immersive content seamlessly work together in a wearable form factor. Android XR Developer Catalyst Program To help developers begin building the next generation of XR experiences, XREAL and Google also announced the launch of the Android XR Developer Catalyst Program. As part of the program, Project Aura developer kits will become available globally, giving select developers early access to hardware along with tools and resources designed specifically for Android XR development on Project Aura. The goal is simple: empower developers to start building the XR apps and experiences they’ve always imagined. Developers interested in joining the program can apply today at g.co/dev/catalyst . XREAL and Google will review submissions and provide Project Aura developer kits in the coming weeks. Early Reactions Project Aura has quickly become one of the most exciting XR demos at Google I/O, with leading technology press and creators sharing their first impressions. From the lightweight design to immersive Android XR experiences and Gemini integration, early reactions paint a picture of just how exciting the next generation of consumer XR will be. The Road to Release Google I/O marked an important milestone not only for Project Aura, but for the broader Android XR ecosystem. Project Aura is no longer just a vision of the future — it’s real, developers are building for it today, and it’s coming globally in 2026. We can’t wait to show you what’s next. There’s more, so stay tuned! XREAL Announces Strategic Partnership with ASUS Republic of Gamers, Unveils ROG XREAL R1 AR Gaming Glasses Stay X. Stay REAL. Stay X. Stay REAL. Products Project Aura ROG XREAL R1 XREAL 1S XREAL One Pro XREAL Eye XREAL Beam",
+      "article_title_extracted": "XREAL and Google Showcase Project Aura at Google I/O 2026",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-21T05:15:15.488976Z",
+      "description": "XREAL and Google unveiled Project Aura at Google I/O 2026, showcasing immersive Android XR experiences, Gemini-powered AI interactions, and developer opportunities ahead of its global launch in 2026.",
+      "domain": "www.xreal.com",
+      "embed_type": "",
+      "id": "k171wjhjvf9km0w3vkwkhh3bpn8758dt",
+      "og_image_url": "https://cms-media.xreal.com/519_bd66a6df90.jpg",
+      "recommended_at": "2026-05-21T05:16:00.188000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "augmented-reality",
+        "android-xr",
+        "ai-integration"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-21T05:16:00.188000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "XREAL and Google Showcase Project Aura at Google I/O 2026",
+      "url": "https://www.xreal.com/us/blog/project-aura-google-io-2026",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-21T02:11:34.232611Z",
+      "description": "Now with my new data about hotels chains on my site http://hotelist.com I can now finally present you the best and worst hotels chains in the world according to overall rating🏆 Best hotel chains:1. Capella (8.97)2. Bulgari (8.68)3. Auberge (8.55)4. Four Seasons (8.54)… https://t.co/jNrPZr8nmS pic.twitter.com/lQNkvGuViz",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k175b3z8qwqv740qndakaa0a1x874cjy",
+      "og_image_url": "https://pbs.twimg.com/media/HIy81LlWEAAyCfx.jpg",
+      "recommended_at": "2026-05-21T05:15:57.907000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "hospitality",
+        "data-analysis",
+        "travel"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-21T05:15:57.907000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "@levelsio (@levelsio) on X",
+      "url": "https://x.com/levelsio/status/2057227524740931904",
+      "x_status_id": "2057227524740931904"
+    },
     {
       "article_fetch_attempted_at": "2026-05-21T04:58:59.449087Z",
       "article_image_urls": [
@@ -87981,7 +88130,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1979,
+      "count": 1983,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -88017,5 +88166,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-21T04:59:00.992284Z"
+  "updated_at": "2026-05-21T11:51:47.271842Z"
 }
