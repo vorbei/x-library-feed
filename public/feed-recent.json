@@ -2906,6 +2906,19 @@
       "title": "",
       "url": "http://x.com/i/article/2056852756401356801"
     },
+    "http://x.com/i/article/2057152333696356352": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057152333696356352",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057152333696356352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIx6TgrX0AAdNFj?format=jpg&name=900x900)](http://x.com/i/article/2057152333696356352/jxnlco/article/2057153744630890620/media/2057153605409427456)\n\nGetting the most out of Codex\n\n[![](https://pbs.twimg.com/profile_images/2031466894478503936/MGS4Spbe_normal.jpg)](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[jason](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[@jxnlco](http://x.com/i/article/2057152333696356352/jxnlco)\n\n·\n\n11h\n\n·\n\nFollow\n\nClick to Follow jxnlco\n\n24\n\n104\n\n1K\n\n[71K](http://x.com/i/article/2057152333696356352/jxnlco/status/2057153744630890620/analytics)\n\nMost developers first use coding agents for code: inspect a repository, make a diff, run tests, and open a pull request.\n\nThat’s still the center of gravity for Codex. But much of the work on a computer is already mediated by code: executing shell commands, browsing web pages, calling APIs, exporting documents, responding to events, and triggering automations. As those surfaces become available to Codex, it starts to feel less like a coding assistant in the narrow sense and more like a system for getting computer work done.\n\nThe \n\n[Codex app](https://developers.openai.com/codex/app/features/)\n\n makes that shift concrete. A thread can keep context, use tools, surface artifacts, and continue across prompts instead of resetting after each exchange.\n\nGetting more out of Codex means using these capabilities together:\n\n* durable threads that preserve context\n* voice, steering, and queuing while the user is still in the loop\n* browser, computer-use, MCP servers, and connectors that let Codex act beyond a repo\n* thread automations and Goals that continue the work while the user is away\n* the side panel, where users can review code, documents, decks, and other artifacts\n\n## \n\nDurable threads\n\n> Durable threads: Long-running Codex threads that preserve working context across repeated sessions.\n\nPinned threads are one way to keep durable threads close at hand. They’re useful for recurring work streams such as:\n\n* a Chief of Staff thread\n* a release thread\n* a documentation review thread\n* a thread dedicated to external monitoring\n\nThese are persistent workspaces, not short chats. Codex can revisit them over time, preserving prior decisions, preferences, and working context that would otherwise need to be rebuilt from scratch.\n\nPinned-thread shortcuts make this practical. Command-1 through Command-9 jump directly into saved threads.\n\n## \n\nVoice input\n\nVoice input is valuable because it captures the rough version of a thought before it’s compressed into polished prose.\n\nCodex has built-in voice input. It works especially well for vague starting points that are natural to say but awkward to type:\n\nI think someone named Ben mentioned this in Slack. I do not remember the details. Please go look.\n\nFor an agent that can search, gather context, and report back, that’s often enough.\n\nIt also works well for a two- or three-minute thought dump before the task is fully formed.\n\nTranscripts work the same way. A raw meeting transcript or dictated planning note often provides better source material than a short summary because it preserves uncertainty, emphasis, and unfinished lines of thought.\n\n## \n\nSteering and queuing\n\nVoice becomes even more useful when paired with explicit control over an active task.\n\n> Steering: Interrupting an in-flight Codex task with new direction before the current step finishes.\n\nSteering is useful when the agent is heading the wrong way and needs a correction before it finishes. During a website review, for example, the user can interrupt the work while annotating the surface in the side panel:\n\n* make this smaller\n* the spacing between these two elements feels off\n* this copy is wrong\n\n> Queuing: Adding work for Codex to do after the current step completes.\n\nQueu",
+      "title": "",
+      "url": "http://x.com/i/article/2057152333696356352"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -3911,6 +3924,19 @@
       "text_excerpt_zh": "",
       "title": "Claude Code Unpacked",
       "url": "https://ccunpacked.dev/"
+    },
+    "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf"
     },
     "https://chaojizhizao.feishu.cn/wiki/Gbm8wMdS1itpk7kIVRlcN2WCnwd": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -21709,6 +21735,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIum4c4aAAA_O8f.jpg"
     },
+    "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -33299,9 +33339,9 @@
       "https://x.com/assaf_elovic/status/2052256629664424382",
       "https://x.com/assaf_elovic/status/2051584538334105631",
       "https://x.com/assaf_elovic/status/2054178703761142014",
-      "https://x.com/assaf_elovic/status/2052256409761234974",
       "https://x.com/assaf_elovic/status/2052256024946500023",
       "https://x.com/assaf_elovic/status/2052256533816156555",
+      "https://x.com/assaf_elovic/status/2052256409761234974",
       "https://x.com/assaf_elovic/status/2055317593670472132"
     ],
     "2050044127656489095": [
@@ -34399,9 +34439,9 @@
       "https://x.com/nizzyabi/status/2056383367399055439",
       "https://x.com/nizzyabi/status/2056397515625320653",
       "https://x.com/nizzyabi/status/2057178433302438142",
-      "https://x.com/nizzyabi/status/2056430266306973932",
-      "https://x.com/nizzyabi/status/2056425309814042706",
       "https://x.com/nizzyabi/status/2056436280360091962",
+      "https://x.com/nizzyabi/status/2056425309814042706",
+      "https://x.com/nizzyabi/status/2056430266306973932",
       "https://x.com/nizzyabi/status/2056391688659038626",
       "https://x.com/nizzyabi/status/2056404723750646130",
       "https://x.com/nizzyabi/status/2056394626039247342",
@@ -34444,8 +34484,8 @@
       "https://x.com/browserbase/status/2056407173257978051",
       "https://pbs.twimg.com/media/HInTbPpaAAAJ1bL.png",
       "https://x.com/browserbase/status/2056409930572382640",
-      "https://x.com/browserbase/status/2056406003676283243",
       "https://x.com/browserbase/status/2056406084169134556",
+      "https://x.com/browserbase/status/2056406003676283243",
       "https://x.com/browserbase/status/2056407478699761949",
       "https://x.com/browserbase/status/2056485772111573499",
       "https://www.browserbase.com/pricing"
@@ -34527,8 +34567,8 @@
       "http://x.com/i/article/2056705144000217088",
       "https://x.com/yoyo__AI/status/2056712021794848772",
       "https://x.com/yoyo__AI/status/2056714194964418590",
-      "https://x.com/yoyo__AI/status/2056715383537905717",
       "https://x.com/yoyo__AI/status/2056713591571849400",
+      "https://x.com/yoyo__AI/status/2056715383537905717",
       "https://x.com/yoyo__AI/status/2056713803392561663",
       "https://x.com/yoyo__AI/status/2056989235887120537",
       "https://x.com/yoyo__AI/status/2056710359122387383"
@@ -34543,9 +34583,9 @@
       "https://x.com/Alfred_Lin/status/2057183205657297061",
       "https://x.com/Alfred_Lin/status/2057183073868112122",
       "https://x.com/Alfred_Lin/status/2056743471424401511",
-      "https://x.com/Alfred_Lin/status/2056743041344610593",
       "https://x.com/Alfred_Lin/status/2056742884242862080",
       "https://x.com/Alfred_Lin/status/2057126471748170226",
+      "https://x.com/Alfred_Lin/status/2056743041344610593",
       "https://x.com/Alfred_Lin/status/2056775923912073283"
     ],
     "2056740204380119344": [
@@ -34583,13 +34623,13 @@
       "https://x.com/nutlope/status/2056853044009013370",
       "https://x.com/nutlope/status/2056796344941957177",
       "https://x.com/nutlope/status/2056760879048233273",
-      "https://x.com/nutlope/status/2056854198256341082",
       "https://x.com/nutlope/status/2056796162993111106",
+      "https://x.com/nutlope/status/2056854198256341082",
       "https://x.com/nutlope/status/2056824568287842746",
       "https://x.com/nutlope/status/2056823702545719720",
       "https://x.com/nutlope/status/2056900066195992735",
-      "https://x.com/nutlope/status/2056798848928924089",
       "https://x.com/nutlope/status/2056768612736635342",
+      "https://x.com/nutlope/status/2056798848928924089",
       "https://x.com/nutlope/status/2056824297843302631"
     ],
     "2056763091052843350": [
@@ -34659,11 +34699,11 @@
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
       "https://x.com/AndrewPrifer/status/2057002187281359300",
-      "https://x.com/AndrewPrifer/status/2056973936932639103",
       "https://x.com/AndrewPrifer/status/2056988129287168068",
+      "https://x.com/AndrewPrifer/status/2056973936932639103",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
       "https://x.com/AndrewPrifer/status/2057001922918494686",
-      "https://x.com/AndrewPrifer/status/2057028849804972131"
+      "https://x.com/AndrewPrifer/status/2056988685166604573"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -34676,8 +34716,17 @@
       "https://pbs.twimg.com/media/HIu71U0akAASf0y.jpg",
       "https://pbs.twimg.com/media/HIu71VQbwAI7yb6.jpg",
       "https://x.com/idoubicc/status/2056963345086120002"
+    ],
+    "2057080944465748109": [
+      "https://x.com/_vmlops/status/2057080944465748109",
+      "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+    ],
+    "2057153744630890620": [
+      "https://x.com/jxnlco/status/2057153744630890620",
+      "http://x.com/i/article/2057152333696356352"
     ]
   },
-  "updated_at": "2026-05-21T04:17:38Z",
+  "updated_at": "2026-05-21T05:17:33Z",
   "window": "recent"
 }
