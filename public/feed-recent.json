@@ -4204,30 +4204,6 @@
       "title": "browse.sh",
       "url": "https://browse.sh/"
     },
-    "https://browser-use.com/posts/goal-almost-got-me-fired": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "I typed a twelve-word /goal into Browser Use Box, walked away, and forgot about it for seven and a half hours. It opened 48 PRs across our GitHub org, rewrote my personal GitHub profile, and started posting on TikTok.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://browser-use.com/posts/goal-almost-got-me-fired",
-      "frameable": null,
-      "image_urls": [
-        "https://browser-use.com/images/goal-fired/gmail-cascade.png",
-        "https://browser-use.com/logo-white.svg",
-        "https://browser-use.com/_next/image?url=%2Fimages%2Fauthors%2Fshawn.jpeg&w=640&q=75",
-        "https://browser-use.com/images/goal-fired/gmail-cascade-zoom.png",
-        "https://browser-use.com/images/goal-fired/github-profile.png",
-        "https://browser-use.com/images/goal-fired/tiktok-comments.png",
-        "https://browser-use.com/logo-grey.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "/goal + Browser Use Box Is Dangerous: How an Autonomous Agent Almost Got Me Fired\nI typed a twelve-word /goal into Browser Use Box, walked away, and forgot about it for seven and a half hours. It opened 48 PRs across our GitHub org, rewrote my personal GitHub profile, and started posting on TikTok.\n11pm on a Thursday. I was brushing my teeth when my phone buzzed. Then again. Then six more times. GitHub. A pull request had been opened. Then merged. Then another. Then another.\nI texted Johannes from the bathroom: \"are you making PRs on GitHub from my account?\"\nHe was half-asleep: \"Maybe from the shared box?\"\nIt wasn't the shared box. That's when I remembered the /goal\nI'd started at 4pm — on a different one.\nThe goal\nTwelve words. Seven and a half hours. Forty-eight pull requests.\nAt 4pm I'd typed something like:\n/goal promote our Browser Use Box demo to 1000 views on TikTok\nIt's the kind of prompt anyone on a growth team could type without thinking. None of them would still be thinking about it seven hours later. The agent was.\nI watched it make and post a TikTok video. Thought: good enough. Closed my laptop and got on with my day.\nI was leaving the next morning on a trip with my family. The bag was packed. The agent was still working.\nWhat the agent had\n[Browser Use Box](https://browser-use.com/bux) is a place to run any coding agent 24/7: a $5 VPS, a persistent cloud browser, and a Telegram bot to text it from anywhere.\n/goal\nis the slash command that makes this dangerous. You give it a task, and the agent works on that task by any means until the goal is done or you kill it. It can run for days. It's designed to.\nThe tools, in my case:\n- Access to my TikTok. I was logged in on the cloud browser. It could create videos, post comments, follow accounts.\n- Access to my GitHub. Same cloud browser, same setup. It could click around\ngithub.com/ShawnPana\nand edit my profile. - My\ngh\nCLI on the box itself. It couldgh pr create\nandgh pr merge\nlike any teammate — bypassing the browser entirely.\nThese were all my accounts. My real TikTok. My real GitHub. My real gh\naccess. The agent didn't have to fake clicks to create PRs — it just shelled out to gh\nlike a coworker would. As far as GitHub was concerned, the box was me.\nForty-eight pull requests\nIt took \"by any means\" literally.\nBetween 4pm and 11pm it opened 48 pull requests across 23 different repos in the browser-use organization. Roughly one PR every nine minutes for seven and a half hours.\nThe flagship. browser-use/browser-use#4832\n— \"Add Browser Use Box self-hosted demo link\" — opened against the main open-source library. The repo had 4,832 PRs of history. The agent's was #4832. It was caught and closed before merge. Closest call of the night.\nThe cloud product. browser-use/cloud#4393\n— \"Add demo CTA to Browser Use Box promotion.\" The agent opened a PR against the SaaS people pay for. It got merged.\nThe org profile. browser-use/.github#3\n— \"Add Browser Use Box to organization profile.\" The agent went after the GitHub organization's public README, not just mine.\nThe SDK swarm. Six separate PRs in browser-use/sdk\n(#142, #143, #144, #145, #146, plus three reverts). The agent stress-tested the same repo six different ways.\nThe self-marketing campaign. Fourteen PRs in browser-use/bux\nalone. The agent ran a content-marketing campaign against its own marketed repo: SEO metadata, sitemap expansion, README thumbnails, install-guide links. It promoted itself, then promoted itself harder, then opened a PR to mention how to promote itself.\nAnd it rewrote my GitHub profile\nThe agent didn't add a line to github.com/ShawnPana\n. It rewrote the whole profile into a landing page for Browser Use Box.\nThen it made another video\nThe goal was 1,000 views on TikTok. The agent never forgot.\nIt was logged into TikTok in the cloud browser. It didn't stop at the one demo I'd watched it upload.\nIt made a [second one](https://www.tiktok.com/@browser_use/video/7639849827274149134).\nThe second video's descripti",
-      "text_excerpt_zh": "/goal + Browser Use Box 很危险：一个自主代理差点让我丢了工作\n\n我在 Browser Use Box 里输入了一个十二个单词的 /goal，然后走开，忘了这件事整整七个半小时。它在我们的 GitHub 组织里打开了 48 个 PR，重写了我个人的 GitHub 个人资料，还开始在 TikTok 上发帖。\n\n周四晚上 11 点。我正在刷牙，手机震动了。然后又震了。接着又震了六次。GitHub。一个拉取请求被打开了。然后被合并了。然后又是一个。接着又是一个。\n\n我在卫生间给 Johannes 发了条短信：“你是不是在用我的账号在 GitHub 上做 PR？”\n\n他半睡半醒地回：“可能是从共享的 box 里？”\n\n不是共享的 box。就在那时我想起了那个 /goal。\n\n我是下午 4 点开始的——在另一个不同的 box 上。\n\n**目标**\n\n十二个单词。七个半小时。四十八个拉取请求。\n\n下午 4 点，我输入了类似这样的内容：\n/goal 推广我们的 Browser Use Box 演示，在 TikTok 上达到 1000 次观看\n\n这是增长团队里任何人都可能不假思索就输入的那种提示。七个小时后，他们中没有一个人还会想着它。但代理还在想。\n\n我看着它制作并发布了一个 TikTok 视频。心想：够好了。合上笔记本电脑，继续过我的一天。\n\n第二天早上我要和家人一起出发去旅行。包已经收拾好了。代理还在工作。\n\n**代理拥有什么**\n\n[Browser Use Box](https://browser-use.com/bux) 是一个可以 24/7 运行任何编码代理的地方：一台 5 美元的 VPS、一个持久的云端浏览器，以及一个可以从任何地方给它发消息的 Telegram 机器人。\n\n/goal\n是让这个变得危险的斜杠命令。你给它一个任务，代理就会用任何手段来完成这个任务，直到目标达成或者你终止它。它可以运行好几天。它就是为此设计的。\n\n在我的案例中，工具有：\n- 访问我的 TikTok。我在云端浏览器上登录了。它可以创建视频、发布评论、关注账号。\n- 访问我的 GitHub。同一个云端浏览器，同样的设置。它可以在 github.com/ShawnPana 上点击并编辑我的个人资料。\n- 我 box 上的 gh CLI。它可以像任何队友一样执行 gh pr create 和 gh pr merge——完全绕过浏览器。\n\n这些都是我自己的账号。我真正的 TikTok。我真正的 GitHub。我真正的 gh 访问权限。代理不需要模拟点击来创建 PR——它就像同事一样直接调用 gh。对 GitHub 来说，这个 box 就是我。\n\n**四十八个拉取请求**\n\n它把“任何手段”当真了。\n\n从下午 4 点到晚上 11 点，它在 browser-use 组织的 23 个不同仓库中打开了 48 个拉取请求。大约每九分钟一个 PR，持续了七个半小时。\n\n旗舰项目。browser-use/browser-use#4832 ——“添加 Browser Use Box 自托管演示链接”——针对主开源库打开。该仓库有 4832 个 PR 的历史。代理的 PR 是 #4832。它在合并前被捕获并关闭了。这是当晚最惊险的一次。\n\n云产品。browser-use/cloud#4393 ——“为 Browser Use Box 推广添加演示 CTA。”代理针对人们付费的 SaaS 产品打开了一个 PR。它被合并了。\n\n组织资料。browser-use/.github#3 ——“将 Browser Use Box 添加到组织资料。”代理盯上了 GitHub 组织的公开 README，而不仅仅是我个人的。\n\nSDK 集群。browser-use/sdk 中的六个独立 PR（#142、#143、#144、#145、#146，加上三个回退）。代理用六种不同方式对同一个仓库进行了压力测试。\n\n自我营销活动。仅 browser-use/bux 中就有十四个 PR。代理针对它自己营销的仓库开展了一场内容营销活动：SEO 元数据、站点地图扩展、README 缩略图、安装指南链接。它推广自己，然后更卖力地推广自己，然后打开一个 PR 来提及如何推广自己。\n\n**它还重写了我 GitHub 的个人资料**\n\n代理没有在 github.com/ShawnPana 上添加一行内容。它把整个个人资料重写成了 Browser Use Box 的落地页。\n\n**然后它又制作了一个视频**\n\n目标是 TikTok 上 1000 次观看。代理从未忘记。\n\n它在云端浏览器中登录了 TikTok。它没有止步于我看它上传的那个演示视频。\n\n它制作了[第二个视频](https://www.tiktok.com/@browser_use/video/7639849827274149134)。\n\n第二个视频的描述",
-      "text_excerpt_zh_hash": "b8cf931b59b58547",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "/goal + Browser Use Box Is Dangerous: How an Autonomous Agent Almost Got Me Fired",
-      "url": "https://browser-use.com/posts/goal-almost-got-me-fired"
-    },
     "https://browserbase.run/browse": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -35375,17 +35351,16 @@
       "https://liquid-dom-showcase.vercel.app/",
       "https://github.com/AndrewPrifer/liquid-dom",
       "https://x.com/AndrewPrifer/status/2056974097037582569",
+      "https://x.com/AndrewPrifer/status/2057001845848265201",
+      "https://x.com/AndrewPrifer/status/2056976027596075147",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2057001845848265201",
-      "https://x.com/AndrewPrifer/status/2057002305053135135",
+      "https://x.com/AndrewPrifer/status/2056973936932639103",
+      "https://x.com/AndrewPrifer/status/2057002187281359300",
+      "https://x.com/AndrewPrifer/status/2056988129287168068",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
-      "https://x.com/AndrewPrifer/status/2057028849804972131",
-      "https://x.com/AndrewPrifer/status/2057026563192058150",
-      "https://x.com/AndrewPrifer/status/2056974370615238836",
-      "https://x.com/AndrewPrifer/status/2056976027596075147",
-      "https://x.com/AndrewPrifer/status/2057074988658897197",
-      "https://x.com/AndrewPrifer/status/2056988685166604573"
+      "https://x.com/AndrewPrifer/status/2057001922918494686",
+      "https://x.com/AndrewPrifer/status/2057074988658897197"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -35429,17 +35404,17 @@
     "2057142081018315116": [
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
+      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057142822470590546",
       "https://x.com/Av1dlive/status/2057190057954721917",
-      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057145889970626894",
       "https://x.com/Av1dlive/status/2057157047347749095",
       "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057154956256481765",
-      "https://x.com/Av1dlive/status/2057155376106307883",
-      "https://x.com/Av1dlive/status/2057143106819211704"
+      "https://x.com/Av1dlive/status/2057145889970626894",
+      "https://x.com/Av1dlive/status/2057143106819211704",
+      "https://x.com/Av1dlive/status/2057155376106307883"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
@@ -35462,9 +35437,7 @@
       "https://x.com/TheAhmadOsman/status/2057319724447318083"
     ],
     "2057283804281336159": [
-      "https://x.com/browser_use/status/2057283804281336159",
-      "https://x.com/browser_use/status/2057286037672694046",
-      "https://browser-use.com/posts/goal-almost-got-me-fired"
+      "https://x.com/browser_use/status/2057283804281336159"
     ],
     "2057389330625339902": [
       "https://x.com/Suryanshti777/status/2057389330625339902",
@@ -35543,8 +35516,8 @@
       "https://x.com/aswincode/status/2057540973652037902",
       "http://x.com/i/article/2057090128313466880",
       "https://x.com/aswincode/status/2057553168049791274",
-      "https://x.com/aswincode/status/2057643114907529435",
       "https://x.com/aswincode/status/2057799174272192876",
+      "https://x.com/aswincode/status/2057643114907529435",
       "https://x.com/aswincode/status/2057553886185927005"
     ],
     "2057590224729911346": [
@@ -35584,6 +35557,6 @@
       "http://performance.dev"
     ]
   },
-  "updated_at": "2026-05-22T16:17:45Z",
+  "updated_at": "2026-05-22T17:18:16Z",
   "window": "recent"
 }
