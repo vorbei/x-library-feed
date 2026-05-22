@@ -1616,6 +1616,23 @@
       "title": "",
       "url": "http://paperbreakdown.com/abs/2603.10165"
     },
+    "http://performance.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Essays on building fast, beautiful web apps and the craft behind them.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://performance.dev",
+      "frameable": null,
+      "image_urls": [
+        "https://performance.dev/og-default.e905420a.png",
+        "https://media.performance.dev/cdn-cgi/image/width=728,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/yLYBhiiY_FsV.jpg",
+        "http://performance.dev/avatar-40.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Performance",
+      "url": "http://performance.dev"
+    },
     "http://research.perplexity.ai": {
       "content_type": "text/html",
       "description": "Perplexity Research advances our mission to transform how we navigate the internet and the wider world through frontier research in search, reasoning, agents, and systems.",
@@ -3066,6 +3083,19 @@
       "title": "",
       "url": "http://x.com/i/article/2057422569528324096"
     },
+    "http://x.com/i/article/2057462668261257217": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057462668261257217",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057462668261257217/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI2mWGYWsAArreV?format=jpg&name=900x900)](http://x.com/i/article/2057462668261257217/rousseaukazi/article/2057483816873201753/media/2057483503378280448)\n\nkill your identity before it gets murdered\n\n[![](https://pbs.twimg.com/profile_images/2036479790308630528/xVgebOh-_normal.jpg)](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n[Rousseau Kazi![](https://pbs.twimg.com/profile_images/1915449242979885059/d8IWgY7S_bigger.jpg)](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n[@rousseaukazi](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n·\n\n23h\n\nFollow\n\nClick to Follow rousseaukazi\n\n6\n\n28\n\n242\n\n[26K](http://x.com/i/article/2057462668261257217/rousseaukazi/status/2057483816873201753/analytics)\n\nthis is a note i wrote that i find my friends and i keep sharing with colleagues, family, etc. figured i'd post it here in case it's helpful.\n\n## \n\nunderstanding identity\n\na threat to one's identity is one of the scariest things we face: an athlete who gets injured, a committed partner who gets broken up with, an obsessive lawyer who gets fired from their dream firm, etc.\n\nthe initial thought is that losing identity sucks because it changes how society views you. there's shame in it. you lost something. you feel weak.\n\nafter a few days pass, we all quickly learn the uncomfortable, but in this case helpful, truth that the world is selfish. that most people are too busy dealing with their own stuff to care to think about you.\n\nthat said, the pain lingers. it lingers not because you're worried that the world views you differently, it lingers because you view yourself differently.\n\nlosing part of your identity doesn't only change your present (which you can get over), it changes your future. a sudden, tragic change means in a snap second, someone stole a bunch of daydreams of the future: winning the championship, getting married, making senior partner, etc. you didn't expect it, it's gone, and now you can't help but mourn the death of a you that will never exist.\n\nthat's the thing about identity. it's a vector where, given the general direction, you can't help but daydream along the magnitude.\n\n## \n\nyour identity is under attack\n\nif you're reading this, it means you're in my network, which means there's a high chance you're either a seasoned, prime, or aspiring knowledge work nerd.\n\nyou get paid to produce some sort of creative output (code, pixels, copy, campaigns, analyses) that pushes a mission forward.\n\nyou're probably really good at what you do. you spent years honing your craft, getting praised for your creativity and execution, and you take pride in being better at your thing than a hefty majority of the world.\n\ngiven just how good you are, you probably realized a while ago that ai was going to be better than you at your thing, and recently, that it already is.\n\nsure, \"better\" can be subjective, but if it can produce roughly the same or higher quality output in 1/10th the time at 1/10th the cost, then by the purest capitalistic definition, it's just better.\n\nthe latest opus and codex models are already better engineers than a hefty majority of engineers you'll ever meet. knowledge work output is becoming highly commoditized, tech is becoming fully democratized, and even though that's objectively a good thing, it's hard not to feel some mourning for what we've worked hard to achieve.\n\nso what do i do?\n\n## \n\nkill your identity\n\nit's natural to want to fight what's happening.\n\n> \"it still makes mistakes! idk... still feels kinda slow. you need humans to write this stuff because it just feels better when they do.\"\n\njust stop. you're being nice but not kind to yourself.\n\nthere's a reason it's called an uncomfortable truth. it sucks to accept. yeah, it hurts for a bit, but you'll be fine.\n\njust do it. it's not as precious as you thin",
+      "title": "",
+      "url": "http://x.com/i/article/2057462668261257217"
+    },
     "http://x.com/i/article/2057510372836327424": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3831,6 +3861,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2605.18747] Code as Agent Harness",
       "url": "https://arxiv.org/abs/2605.18747"
+    },
+    "https://arxiv.org/abs/2605.21997": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2605.21997: The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
+      "final_url": "https://arxiv.org/abs/2605.21997",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2605.21997 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Artificial Intelligence arXiv:2605.21997 (cs) [Submitted on 21 May 2026] Title: The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems Authors: Yohei Nakajima View a PDF of the paper titled The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems, by Yohei Nakajima View PDF HTML (experimental) Abstract: Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable \"memory.\" We describe ActiveGraph, a runtime that inverts this arrangement. The append-only event log is the source of truth; the working graph is a deterministic projection of that log; and behaviors--ordinary functions, classes, LLM-backed routines, or logic attached to typed edges--react to changes in the graph and emit new events. No component instructs another; coordination happens entirely through the shared graph. This single design decision yields three properties that retrieval-and-summarization memory systems do not provide: deterministic replay of any run from its log, cheap forking that branches a run at any event without re-executing the shared prefix, and end-to-end lineage from a high-level goal down to the individual model call that produced each artifact. We present the architecture, a determinism contract that makes replay sound, and a worked diligence example whose full causal structure is reconstructable from the log alone. We discuss--without claiming to demonstrate--why this substrate is unusually well suited to self-improving agents, and how it extends the BabyAGI lineage and prior graph-memory research. Comments: 11 pages, 1 figure. Open-source Apache-2.0 implementation with reproducible quickstart demo, deterministic replay, fork-and-diff, and lineage tracing Subjects: Artificial Intelligence (cs.AI) ; Multiagent Systems (cs.MA) Cite as: arXiv:2605.21997 [cs.AI] (or arXiv:2605.21997v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2605.21997 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yohei Nakajima [ view email ] [v1] Thu, 21 May 2026 04:55:38 UTC (55 KB) Full-text links: Access Paper: View a PDF of the paper titled The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems, by Yohei Nakajima View PDF HTML (experimental) TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2026-05 Change to browse by: cs cs.MA References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Space",
+      "title": "[2605.21997] The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
+      "url": "https://arxiv.org/abs/2605.21997"
     },
     "https://arxiv.org/html/2603.05344v1": {
       "cleaner_v": 2,
@@ -4879,6 +4929,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Designing delightful frontends with GPT-5.4 | OpenAI Developers",
       "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4"
+    },
+    "https://developers.openai.com/codex/use-cases": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Explore example workflows, teams, and tasks you can hand to Codex.",
+      "final_url": "https://developers.openai.com/codex/use-cases",
+      "frameable": null,
+      "image_urls": [
+        "https://developers.openai.com/codex/open-graph.png",
+        "https://developers.openai.com/OpenAI_Developers.svg",
+        "https://developers.openai.com/codex/use-cases/manage-your-inbox-featured.png",
+        "https://developers.openai.com/codex/use-cases/use-your-computer-with-codex-featured.png",
+        "https://developers.openai.com/codex/use-cases/follow-goals-featured.png",
+        "https://developers.openai.com/codex/use-cases/proactive-teammate.webp",
+        "https://developers.openai.com/codex/use-cases/feedback-synthesis.webp",
+        "https://developers.openai.com/codex/use-cases/clean-messy-data.webp",
+        "https://developers.openai.com/codex/use-cases/analyze-data-export.webp",
+        "https://developers.openai.com/codex/use-cases/github-code-reviews.webp",
+        "https://developers.openai.com/codex/use-cases/manage-your-inbox.webp",
+        "https://developers.openai.com/codex/use-cases/frontend-designs.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Home API Docs Guides and concepts for the OpenAI API API reference Endpoints, parameters, and responses Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams hand to Codex ChatGPT Apps SDK Build apps to extend ChatGPT Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources Showcase Demo apps to get inspired Blog Learnings and experiences from developers Cookbook Notebook examples for building with OpenAI models Learn Docs, videos, and demo apps for building with OpenAI Community Programs, meetups, and support for builders Start searching API Dashboard Search the Codex docs Search docs Suggested responses create reasoning_effort realtime prompt caching Primary navigation API API Reference Codex ChatGPT Resources Search docs Suggested responses create reasoning_effort realtime prompt caching Get started Overview Quickstart Models Pricing SDKs and CLI OpenAI SDK Agents SDK OpenAI CLI Latest: GPT-5.5 Prompt guidance Core concepts Text generation Code generation Images and vision Audio and speech Structured output Function calling Responses API Using tools Agents SDK Overview Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows Voice agents Agent Builder Overview Node reference Safety in building agents ChatKit Overview Customize Widgets Actions Advanced integrations Tools Web search MCP and Connectors Secure MCP Tunnel Skills Shell Computer use File search and retrieval File search Retrieval Tool search More tools Apply Patch Local shell Image generation Code interpreter Run and scale Conversation state Background mode Streaming WebSocket mode Webhooks File inputs Context management Compaction Counting tokens Prompt caching Prompting Overview Prompt engineering Citation formatting Migration guide Reasoning Reasoning models Reasoning best practices Evaluation Getting started Working with evals Prompt optimizer External models Best practices Realtime and audio Overview Voice agents Live translation Transcription Realtime transcription Speech to text Speech generation Realtime prompting guide Connection methods WebRTC WebSocket SIP Realtime sessions Managing conversations Voice activity detection Realtime with tools Webhooks and server-side controls Managing costs Model optimization Optimization cycle Fine-tuning Supervised fine-tuning Vision fine-tuning Direct preference optimization Reinforcement fine-tuning RFT use cases Best practices Graders Specialized models Image generation Video generation Deep research Embeddings Moderation Going live Production best practices Deployment checklist Latency optimization Overview Predicted Outputs Priority processing Cost optimization Overview Batch Flex processing Accuracy optimization Safety Safety best practices Safety checks Cybersecurity checks Under 18 API Guidance Legacy APIs Assistants API Migration guide Deep dive Tools Resources Terms and policies Changelog Your data Permissions Rate limits Admin APIs Deprecations MCP for deep research Developer mode ChatGPT Actions Introduction Getting started Actions library Authentication Production Data retrieval Sending files Docs Use cases Getting Started Overview Quickstart Explore use cases Migrate Pricing Concepts Prompting Customization Memories Chronicle Sandboxing Auto-review Subagents Workflows Models Cyber Safety Using Codex App Overview Features Settings Review Automations Worktrees Local Environments In-app browser Chrome extension Computer Use Appshots Commands Windows Troubleshooting IDE Extension Overview Features Settings IDE Commands Slash commands CLI Overview Features Command Line Options Slash commands Web Overview Environments Internet Access Integrations GitHub Slack Linear Codex Security Overview Setup Improving the threat model FAQ Configuration Config File Config Basics Advanced Config Config Reference Sample Config Per",
+      "title": "Codex use cases",
+      "url": "https://developers.openai.com/codex/use-cases"
     },
     "https://devouringdetails.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -15069,6 +15144,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2057450643485323265/img/jtTpk4JBhT8otcqW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -21607,6 +21696,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI2A73FXgAAMPsI.jpg"
     },
+    "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg"
+    },
+    "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
+    },
+    "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
+    },
     "https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -22419,6 +22550,31 @@
       "text_excerpt_zh": "",
       "title": "Peekaboo documentation — Peekaboo",
       "url": "https://peekaboo.sh"
+    },
+    "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "breakdown of the architecture behind Linear's speed: local-first sync, MobX observables, instant first loads, and a keyboard-first design.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "frameable": null,
+      "image_urls": [
+        "https://media.performance.dev/cdn-cgi/image/width=1200,height=630,quality=100,fit=cover,format=auto/posts/p_gAMR6Z7y49Fp/7gJn0_MsDnp7.png",
+        "https://performance.dev/avatar-40.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=893,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/yLYBhiiY_FsV.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/b5RGjc_nI54O.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/IdWPGINS86Ge.png",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/2Jd6ZXiwNCwp.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/2__J_PuPKayE.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/MuG3qxjnzrQq.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/KgHIdD85Bfr5.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/jvagQZ3l8V3y.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/Y6mUzOgZJJHW.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "How's Linear so fast? A technical breakdown\nA few milliseconds is all it takes to update an issue in Linear. A traditional CRUD app doing the same thing takes about 300ms. How do they do it? There's no secret silver bullet to performance. The reality is that it's built from the ground up on the right foundation, then improved by countless decisions. My goal is to walk through some of the techniques that make Linear feel the way it does and help you implement the same.\n[What I'll cover](https://performance.dev#what-ill-cover)\nDatabase in the browser\nMaking the first load feel instant\nThe sync engine\nDesigned for speed\nAnimations\nA quick disclaimer: I've never worked at [Linear](https://linear.app) and have never seen their code. Everything I share comes from my personal experience, studying their app, reading their blog posts, or watching their conference talks. I simply love building web apps and have been using Linear since their beta launch. Also, the article’s hero image comes from a video by [Meg Wayne](https://x.com/megxwayne), whose work for Linear is phenomenal.\n[Database in the browser](https://performance.dev#database-in-the-browser)\nMost web apps live inside the same loop. The user clicks. The browser fires an HTTP request. A server queries a database and sends it back. The browser repaints. The end result is a spinner, a skeleton, or a frozen UI for a few hundred milliseconds while the app waits on the network.\nLinear inverts the traditional relationship. The actual database the UI reads from is in the browser, in IndexedDB. Mutations apply locally first, then asynchronously push to the server, which broadcasts deltas back to other clients via WebSocket.\nIn my opinion, this is the most critical piece to Linear's performance. When your goal is to build a fast web app the biggest bottleneck you will fight is the network. Any data sent between the client and server costs hundreds of milliseconds. The best approach is to eliminate the need for a network request entirely: which is exactly what Linear does.\nI'll be repeating this a lot, but the secret to building incredible web apps is by hiding all the network requests from the user. The more loading states you can avoid the better.\nHere's an example of how simple Linear's requests are:\n// A traditional web app updating the server\nasync function updateIssue({ issue }) {\nshowSpinner();\nconst response = await fetch(`/api/issues/${issue.id}`, {\nmethod: \"PATCH\",\nbody: JSON.stringify({ title: issue.title }),\n});\nconst updated = await response.json();\nsetIssue(updated)\nhideSpinner();\n}\n// vs Linear\nissue.title = \"Faster app launch\";\nissue.save();\nThe first line, issue.title = \"Faster app launch\"\n, updates an in-memory datastore (MobX observable in Linear's case) . The second line, issue.save();\n, queues a transaction that their sync engine batches and flushes to the server. The key here is that the UI re-renders synchronously off the local, in-memory, update. There are no spinners because there is nothing to wait for because the data is synced in the backround. This is the magic of treating the browser as the database for each user.\n[Tuomas](https://x.com/artman), one of Linear's co-founders, said this at a conference in 2024: 'Literally the first lines of code that I wrote was the sync engine, which is very uncommon to what you usually do when you're a startup.' From day one, Linear knew the approach they wanted to take and the tradeoffs it would take.\nI know most people won't build a custom sync engine like Linear just to make their app feel fast and they don't need to. For most use cases, libraries like [Tanstack Query](https://tanstack.com/query/latest) and [SWR](https://swr.vercel.app/) can get surprisingly close with optimistic updates. Most web apps feel slow because the UI waits for each network request to complete before updating state. For most usecases the network request will succeed so you should take advantage of that and optimistically update your state.\n// opti",
+      "title": "How's Linear so fast? A technical breakdown",
+      "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
     },
     "https://playwriter.dev/": {
       "content_type": "text/html;charset=utf-8",
@@ -35078,7 +35234,10 @@
     ],
     "2056602373368533359": [
       "https://x.com/yoheinakajima/status/2056602373368533359",
-      "https://x.com/yoheinakajima/status/2056604488954482943"
+      "https://x.com/yoheinakajima/status/2056604488954482943",
+      "https://x.com/yoheinakajima/status/2057812713045377055",
+      "https://arxiv.org/abs/2605.21997",
+      "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
     ],
     "2056633189687586958": [
       "https://x.com/ma_zhenyuan/status/2056633189687586958",
@@ -35162,19 +35321,20 @@
       "https://x.com/nutlope/status/2056754963519242699",
       "https://github.com/Nutlope/hallmark",
       "https://pbs.twimg.com/media/HIsNfwyW8AAPuvc.jpg",
-      "https://x.com/nutlope/status/2056947530877854011",
-      "https://x.com/nutlope/status/2056854139636760789",
-      "https://x.com/nutlope/status/2056796344941957177",
-      "https://x.com/nutlope/status/2056853044009013370",
-      "https://x.com/nutlope/status/2056760879048233273",
       "https://x.com/nutlope/status/2056796162993111106",
+      "https://x.com/nutlope/status/2056853044009013370",
+      "https://x.com/nutlope/status/2056796344941957177",
       "https://x.com/nutlope/status/2056854198256341082",
-      "https://x.com/nutlope/status/2056824568287842746",
-      "https://x.com/nutlope/status/2056823702545719720",
+      "https://x.com/nutlope/status/2056947530877854011",
       "https://x.com/nutlope/status/2056768612736635342",
-      "https://x.com/nutlope/status/2056824297843302631",
+      "https://x.com/nutlope/status/2056760879048233273",
       "https://x.com/nutlope/status/2056959903726542956",
-      "https://x.com/nutlope/status/2056900066195992735"
+      "https://x.com/nutlope/status/2056823702545719720",
+      "https://x.com/nutlope/status/2056824568287842746",
+      "https://x.com/nutlope/status/2056768576019706006",
+      "https://x.com/nutlope/status/2056823445145403687",
+      "https://x.com/nutlope/status/2056796290906747240",
+      "https://x.com/nutlope/status/2056824397587976551"
     ],
     "2056763091052843350": [
       "https://x.com/Voxyz_ai/status/2056763091052843350",
@@ -35244,17 +35404,16 @@
       "https://liquid-dom-showcase.vercel.app/",
       "https://github.com/AndrewPrifer/liquid-dom",
       "https://x.com/AndrewPrifer/status/2056974097037582569",
+      "https://x.com/AndrewPrifer/status/2056976027596075147",
+      "https://x.com/AndrewPrifer/status/2057001845848265201",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2057001845848265201",
-      "https://x.com/AndrewPrifer/status/2057002305053135135",
-      "https://x.com/AndrewPrifer/status/2057028849804972131",
+      "https://x.com/AndrewPrifer/status/2056973936932639103",
+      "https://x.com/AndrewPrifer/status/2057002187281359300",
+      "https://x.com/AndrewPrifer/status/2056988129287168068",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
-      "https://x.com/AndrewPrifer/status/2057026563192058150",
-      "https://x.com/AndrewPrifer/status/2056974370615238836",
-      "https://x.com/AndrewPrifer/status/2056976027596075147",
-      "https://x.com/AndrewPrifer/status/2057074988658897197",
-      "https://x.com/AndrewPrifer/status/2057002049867571361"
+      "https://x.com/AndrewPrifer/status/2057001922918494686",
+      "https://x.com/AndrewPrifer/status/2057074988658897197"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -35282,14 +35441,14 @@
       "https://x.com/jeetnirnejak/status/2057098181218025543",
       "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg",
       "https://x.com/jeetnirnejak/status/2057118428490875232",
-      "https://x.com/jeetnirnejak/status/2057102470376304931",
       "https://x.com/jeetnirnejak/status/2057247773276488093",
       "https://x.com/jeetnirnejak/status/2057399850392760624",
       "https://x.com/jeetnirnejak/status/2057539312808497660",
+      "https://x.com/jeetnirnejak/status/2057102470376304931",
       "https://x.com/jeetnirnejak/status/2057177679628320983",
+      "https://x.com/jeetnirnejak/status/2057472770590839237",
       "https://x.com/jeetnirnejak/status/2057109316646388146",
-      "https://x.com/jeetnirnejak/status/2057144246470431186",
-      "https://x.com/jeetnirnejak/status/2057472770590839237"
+      "https://x.com/jeetnirnejak/status/2057144246470431186"
     ],
     "2057098820371280210": [
       "https://x.com/thisisgrantlee/status/2057098820371280210",
@@ -35298,17 +35457,17 @@
     "2057142081018315116": [
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
-      "https://x.com/Av1dlive/status/2057142822470590546",
       "https://x.com/Av1dlive/status/2057201240573128709",
+      "https://x.com/Av1dlive/status/2057142822470590546",
       "https://x.com/Av1dlive/status/2057190057954721917",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057145889970626894",
       "https://x.com/Av1dlive/status/2057157047347749095",
       "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057154956256481765",
-      "https://x.com/Av1dlive/status/2057155376106307883",
-      "https://x.com/Av1dlive/status/2057143106819211704"
+      "https://x.com/Av1dlive/status/2057145889970626894",
+      "https://x.com/Av1dlive/status/2057143106819211704",
+      "https://x.com/Av1dlive/status/2057155376106307883"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
@@ -35345,6 +35504,13 @@
       "https://github.com/multica-ai/andrej-karpathy-skills",
       "https://x.com/Suryanshti777/status/2057510847317176332"
     ],
+    "2057396108809081289": [
+      "https://x.com/seelffff/status/2057396108809081289",
+      "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg",
+      "https://x.com/seelffff/status/2057612302065586515",
+      "https://x.com/seelffff/status/2057811368636494088",
+      "https://x.com/seelffff/status/2057781199880241262"
+    ],
     "2057407113052479870": [
       "https://x.com/StarKnight/status/2057407113052479870"
     ],
@@ -35372,6 +35538,15 @@
       "https://x.com/posthog/status/2057472149145686276",
       "http://x.com/i/article/2057399390533246976"
     ],
+    "2057483816873201753": [
+      "https://x.com/rousseaukazi/status/2057483816873201753",
+      "http://x.com/i/article/2057462668261257217"
+    ],
+    "2057499319524012464": [
+      "https://x.com/derrickcchoi/status/2057499319524012464",
+      "https://developers.openai.com/codex/use-cases",
+      "https://x.com/derrickcchoi/status/2057591690496815316"
+    ],
     "2057523186766377470": [
       "https://x.com/AlphaSignalAI/status/2057523186766377470",
       "http://x.com/i/article/2057510372836327424",
@@ -35386,9 +35561,9 @@
       "https://arxiv.org/abs/2603.17150",
       "https://openreview.net/pdf?id=WC7WAcgZul",
       "https://arxiv.org/abs/2605.01160",
-      "https://x.com/AlphaSignalAI/status/2057823270318047583",
       "https://x.com/AlphaSignalAI/status/2057586725321412948",
       "https://x.com/AlphaSignalAI/status/2057775946879410435",
+      "https://x.com/AlphaSignalAI/status/2057823270318047583",
       "https://x.com/AlphaSignalAI/status/2057763051495977100",
       "https://x.com/AlphaSignalAI/status/2057776455640084658"
     ],
@@ -35430,8 +35605,16 @@
       "https://x.com/rohit4verse/status/2057760569852338255",
       "https://x.com/rohit4verse/status/2057756573343289664",
       "https://x.com/rohit4verse/status/2057762399663665639"
+    ],
+    "2057809414175027450": [
+      "https://x.com/vikingmute/status/2057809414175027450",
+      "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "http://performance.dev",
+      "https://x.com/vikingmute/status/2057759661261246530",
+      "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg",
+      "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
     ]
   },
-  "updated_at": "2026-05-22T14:17:44Z",
+  "updated_at": "2026-05-22T15:17:42Z",
   "window": "recent"
 }
