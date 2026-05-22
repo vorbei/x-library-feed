@@ -152,6 +152,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Andrej Karpathy just explained the future of software engineering without directly saying it.\n\nThe best AI engineers are no longer “prompting.”\n\nThey’re building systems around the agents.\n\nKarpathy’s biggest insight wasn’t:\n“Claude can code.”\n\nIt was:\nLLMs become dramatically better when you force them into disciplined workflows.\n\nThat’s why \"CLAUDE.md\" files are suddenly everywhere.\n\nNot because they’re prompts.\n\nBecause they behave like an operating system for the agent.\n\nKarpathy called out the exact problems with AI coding:\n\n- models assume instead of asking\n- they overengineer simple tasks\n- they hide confusion\n- they rewrite unrelated code\n- they optimize for completion, not correctness\n\nSo developers started encoding rules directly into the workflow:\n\n→ Think before coding\n→ Simplicity first\n→ Surgical edits only\n→ Goal-driven execution\n\nAnd the results are wild.\n\nPeople are now running multiple Claude Code agents in parallel like engineering teams:\n\n• one agent researching\n• one debugging\n• one writing tests\n• one optimizing code\n• one validating outputs\n\nNot “AI assistance.”\n\nActual orchestration.\n\nAnd this part from Karpathy changes everything:\n\n“Don’t tell the model what to do. Give it success criteria and let it loop.”\n\nThat is the shift.\n\nFrom:\n“write this function”\n\nTo:\n“here’s the goal, constraints, tests, and verification system — now iterate until correct.”\n\nThe craziest part?\n\nThis already feels like a phase shift in engineering.\n\nA lot of developers quietly went from:\n80% manual coding → to 80% agent-driven coding in just months.\n\nNot because AI became perfect.\n\nBecause the leverage became impossible to ignore.\n\nWe’re entering an era where the highest leverage engineers won’t necessarily be the best coders.\n\nThey’ll be the people who build the best systems around AI agents.",
+      "text_zh": "安德烈·卡帕西刚刚间接揭示了软件工程的未来。\n\n最优秀的AI工程师不再只是“写提示词”。\n\n他们正在围绕智能体构建系统。\n\n卡帕西最重要的洞见并非：\n“Claude能写代码。”\n\n而是：\n当你强制大语言模型遵循规范的工作流程时，它们会变得显著更强大。\n\n这就是为什么“CLAUDE.md”文件突然无处不在。\n\n不是因为它们是提示词。\n\n而是因为它们像智能体的操作系统一样运作。\n\n卡帕西指出了AI编程的具体问题：\n\n- 模型会假设而非询问\n- 它们会把简单任务过度工程化\n- 它们会隐藏困惑\n- 它们会重写无关代码\n- 它们追求完成度而非正确性\n\n于是开发者开始将规则直接编码到工作流程中：\n\n→ 先思考再编码\n→ 简洁优先\n→ 仅做精准修改\n→ 目标驱动执行\n\n结果令人惊叹。\n\n人们现在像管理工程团队一样并行运行多个Claude Code智能体：\n\n• 一个智能体负责研究\n• 一个负责调试\n• 一个编写测试\n• 一个优化代码\n• 一个验证输出\n\n这不是“AI辅助”。\n\n这是真正的编排。\n\n而卡帕西的这段话改变了一切：\n\n“不要告诉模型该做什么。给它成功标准，让它自行循环迭代。”\n\n这就是转变所在。\n\n从：\n“编写这个函数”\n\n到：\n“这是目标、约束条件、测试和验证系统——现在开始迭代直到正确为止。”\n\n最疯狂的部分是什么？\n\n这已经让人感觉像是工程领域的一次相变。\n\n许多开发者悄然在短短几个月内从：\n80%手动编码 → 转变为80%智能体驱动编码。\n\n不是因为AI变得完美。\n\n而是因为这种杠杆效应变得无法忽视。\n\n我们正在进入一个时代，最高杠杆率的工程师未必是最优秀的程序员。\n\n他们将是那些围绕AI智能体构建最佳系统的人。",
+      "text_zh_hash": "4252c68e2d729c91",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Suryanshti777/status/2057389330625339902"
     },
     {
@@ -205,6 +208,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Andrej Karpathy coined \"vibe coding.\" a year later it's a line on job descriptions.\n\nmost people try to catch up with another 6-hour course.\n\nBUILD THESE 5 PROJECTS, THIS WEEKEND TO MASTER  VIBE CODING(along with their repo):\n\n→ a RAG agent over your own docs (Intermediate)\nhttps://github.com/infiniflow/ragflow\n\n→ multi-agent orchestration (Intermediate)\nhttps://github.com/n8n-io/n8n\n\n→ a personal assistant that runs fully offline(Beginner)\n https://github.com/open-webui/open-webui\n\n→ a code reviewer that fixes its own findings (Advanced)\nhttps://github.com/anthropics/claude-code\n\n→ a real-time streaming agent dashboard(Advanced)\nhttps://github.com/pathwaycom/pathway\n\none repo per pillar of agentic ai. clone it, break it, ship it.\n\nevery repo + a step-by-step build plan is in the article. stuck anywhere and it walks you through that exact step.",
+      "text_zh": "安德烈·卡帕西（Andrej Karpathy）创造了\"氛围编程\"（vibe coding）一词。一年后，它已出现在职位描述中。\n\n大多数人试图通过另一门6小时的课程来追赶。\n\n这个周末，构建这5个项目，掌握氛围编程（附仓库链接）：\n\n→ 基于自有文档的RAG智能体（中级）\nhttps://github.com/infiniflow/ragflow\n\n→ 多智能体编排（中级）\nhttps://github.com/n8n-io/n8n\n\n→ 完全离线运行的个人助手（初级）\nhttps://github.com/open-webui/open-webui\n\n→ 能自行修复发现的代码审查工具（高级）\nhttps://github.com/anthropics/claude-code\n\n→ 实时流式智能体仪表盘（高级）\nhttps://github.com/pathwaycom/pathway\n\n每个仓库对应智能体AI的一个支柱。克隆它，拆解它，发布它。\n\n每个仓库及逐步构建计划均在文章中。卡在任何步骤，文章都会引导你完成该步骤。",
+      "text_zh_hash": "c9b1d637a0408d9f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rohit4verse/status/2057754859391311908"
     },
     {
@@ -260,6 +266,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Harness engineering finally got its 100-page academic survey paper from UIUC, Meta, and Stanford.\n\nClaude Code, Codex, and SWE-agent share the same 3-layer architecture under the hood:\n\nInterface · Mechanisms · Scaling\n\nWhich layer is yours missing? https://t.co/0qt8Fd9Zcc",
+      "text_zh": "工程化终于迎来了来自UIUC、Meta和斯坦福的100页学术综述论文。\n\nClaude Code、Codex和SWE-agent在底层共享相同的三层架构：\n\n接口 · 机制 · 扩展\n\n你的方案缺少哪一层？https://t.co/0qt8Fd9Zcc",
+      "text_zh_hash": "03a28bcee73fccb3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AlphaSignalAI/status/2057461413606531162"
     },
     {
