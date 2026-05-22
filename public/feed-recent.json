@@ -21696,34 +21696,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI2A73FXgAAMPsI.jpg"
     },
-    "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg"
-    },
-    "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
-    },
     "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -35458,16 +35430,16 @@
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
       "https://x.com/Av1dlive/status/2057142822470590546",
-      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057190057954721917",
+      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
+      "https://x.com/Av1dlive/status/2057145889970626894",
       "https://x.com/Av1dlive/status/2057157047347749095",
       "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057154956256481765",
-      "https://x.com/Av1dlive/status/2057145889970626894",
-      "https://x.com/Av1dlive/status/2057143106819211704",
-      "https://x.com/Av1dlive/status/2057155376106307883"
+      "https://x.com/Av1dlive/status/2057155376106307883",
+      "https://x.com/Av1dlive/status/2057143106819211704"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
@@ -35609,12 +35581,9 @@
     "2057809414175027450": [
       "https://x.com/vikingmute/status/2057809414175027450",
       "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
-      "http://performance.dev",
-      "https://x.com/vikingmute/status/2057759661261246530",
-      "https://pbs.twimg.com/media/HI6hf3RbwAA2Srw.jpg",
-      "https://pbs.twimg.com/media/HI6hf3TbIAANDdZ.jpg"
+      "http://performance.dev"
     ]
   },
-  "updated_at": "2026-05-22T15:23:23Z",
+  "updated_at": "2026-05-22T16:17:45Z",
   "window": "recent"
 }
