@@ -150,6 +150,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "karpathy's CLAUDE.md hit #1 on github trending.\n220,000 stars. most devs still haven't read it.\n\nit's 65 lines.\nit took AI coding accuracy from 65% to 94%.\n\nthe 4 rules inside:\n\n→ think before coding\nstate your assumptions. ask when unsure. never guess.\n\n→ simplicity first\nwrite the minimum code that solves the problem.\nno abstractions nobody asked for.\n\n→ surgical changes\ndon't touch code unrelated to the request.\nevery changed line must trace back to what was asked.\n\n→ goal-driven execution\nturn vague instructions into verifiable success criteria\nbefore writing a single line.\n\nthat's it.\n65 lines. 4 rules. 94% accuracy.\n\nsave this before everyone else does.",
+      "text_zh": "karpathy 的 CLAUDE.md 登顶 GitHub 热门榜第一。\n\n22 万星标。大多数开发者还没读过它。\n\n它只有 65 行。\n却把 AI 编码准确率从 65% 提升到了 94%。\n\n里面的 4 条规则：\n\n→ 先思考再编码\n陈述你的假设。不确定时主动提问。绝不猜测。\n\n→ 简洁优先\n写出能解决问题的最小代码。\n不要引入没人需要的抽象。\n\n→ 精准改动\n不要碰与需求无关的代码。\n每一行改动都必须能追溯到原始需求。\n\n→ 目标驱动执行\n在写一行代码之前，\n先把模糊的指令转化为可验证的成功标准。\n\n就这些。\n65 行。4 条规则。94% 准确率。\n\n趁别人还没看，先收藏起来。",
+      "text_zh_hash": "96c8a477a012fed3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/seelffff/status/2057396108809081289"
     },
     {
@@ -190,6 +193,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "We updated our Codex use cases page to cover more workflows from engineering to general knowledge work. \n\nShoutout to @kagigz!\n\nCheck it out: https://developers.openai.com/codex/use-cases",
+      "text_zh": "我们更新了 Codex 使用案例页面，涵盖了从工程到通用知识工作的更多工作流程。\n\n特别感谢 @kagigz！\n\n查看详情：https://developers.openai.com/codex/use-cases",
+      "text_zh_hash": "7efac8e871283c76",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/derrickcchoi/status/2057499319524012464"
     },
     {
