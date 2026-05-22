@@ -21200,6 +21200,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg"
     },
+    "https://pbs.twimg.com/media/HI5ya5dWwAAblx7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI5ya5dWwAAblx7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI5ya5dWwAAblx7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI5ya5dWwAAblx7.jpg"
+    },
     "https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -34693,7 +34707,8 @@
     ],
     "2056662695345348769": [
       "https://x.com/Ayuan_ai/status/2056662695345348769",
-      "https://x.com/Ayuan_ai/status/2057690155868459021"
+      "https://x.com/Ayuan_ai/status/2057707899707629848",
+      "https://pbs.twimg.com/media/HI5ya5dWwAAblx7.jpg"
     ],
     "2056682591600951523": [
       "https://x.com/nini_incrypto_/status/2056682591600951523",
@@ -34766,8 +34781,8 @@
       "https://x.com/nutlope/status/2056823702545719720",
       "https://x.com/nutlope/status/2056900066195992735",
       "https://x.com/nutlope/status/2056768612736635342",
-      "https://x.com/nutlope/status/2056824297843302631",
-      "https://x.com/nutlope/status/2056959903726542956"
+      "https://x.com/nutlope/status/2056959903726542956",
+      "https://x.com/nutlope/status/2056824297843302631"
     ],
     "2056763091052843350": [
       "https://x.com/Voxyz_ai/status/2056763091052843350",
@@ -34793,8 +34808,8 @@
       "https://x.com/yoheinakajima/status/2056862528261743095",
       "https://x.com/yoheinakajima/status/2056858224981381306",
       "https://x.com/yoheinakajima/status/2056850809980399754",
-      "https://x.com/yoheinakajima/status/2056858398315233679",
-      "https://x.com/yoheinakajima/status/2056858476849344917"
+      "https://x.com/yoheinakajima/status/2056858476849344917",
+      "https://x.com/yoheinakajima/status/2056858398315233679"
     ],
     "2056854990090592274": [
       "https://x.com/nateherk/status/2056854990090592274",
@@ -34841,8 +34856,8 @@
       "https://x.com/AndrewPrifer/status/2056976027596075147",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2056973936932639103",
       "https://x.com/AndrewPrifer/status/2057002187281359300",
+      "https://x.com/AndrewPrifer/status/2056973936932639103",
       "https://x.com/AndrewPrifer/status/2056988129287168068",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
       "https://x.com/AndrewPrifer/status/2057001922918494686",
@@ -34879,9 +34894,9 @@
       "https://x.com/jeetnirnejak/status/2057539312808497660",
       "https://x.com/jeetnirnejak/status/2057177679628320983",
       "https://x.com/jeetnirnejak/status/2057102470376304931",
-      "https://x.com/jeetnirnejak/status/2057472770590839237",
+      "https://x.com/jeetnirnejak/status/2057109316646388146",
       "https://x.com/jeetnirnejak/status/2057144246470431186",
-      "https://x.com/jeetnirnejak/status/2057109316646388146"
+      "https://x.com/jeetnirnejak/status/2057472770590839237"
     ],
     "2057098820371280210": [
       "https://x.com/thisisgrantlee/status/2057098820371280210",
@@ -34935,6 +34950,6 @@
       "http://x.com/i/article/2057422569528324096"
     ]
   },
-  "updated_at": "2026-05-22T06:18:44Z",
+  "updated_at": "2026-05-22T07:18:07Z",
   "window": "recent"
 }
