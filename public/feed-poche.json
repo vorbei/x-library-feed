@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 133,
+      "count": 132,
       "name": "Media"
     },
     {
@@ -34,40 +34,8 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2140,
+  "item_count": 2139,
   "items": [
-    {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
-      "article_title_extracted": "- YouTube",
-      "category": "Media",
-      "created_at": "2026-05-21T15:14:21.018420Z",
-      "description": "代码之外 Beyond Code  • YouTube",
-      "domain": "www.youtube.com",
-      "embed_type": "youtube",
-      "id": "k17amhp8gt8wb5e1ak9zjztv9h875p2c",
-      "og_image_url": "https://i.ytimg.com/vi/FTWEfhUin4Y/maxresdefault.jpg",
-      "recommended_at": "2026-05-22T03:22:29.204000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "programming",
-        "career-development",
-        "software-engineering"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-05-22T03:22:29.204000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "王自如：如果我是程序员我会淘汰我自己",
-      "url": "https://www.youtube.com/watch?v=FTWEfhUin4Y",
-      "x_status_id": null
-    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
@@ -90057,7 +90025,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1987,
+      "count": 1986,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -90093,5 +90061,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-22T04:47:41.488775Z"
+  "updated_at": "2026-05-22T11:28:46.959629Z"
 }
