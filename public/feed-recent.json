@@ -3865,29 +3865,6 @@
       "title": "[2605.18747] Code as Agent Harness",
       "url": "https://arxiv.org/abs/2605.18747"
     },
-    "https://arxiv.org/abs/2605.21997": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Abstract page for arXiv paper 2605.21997: The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
-      "final_url": "https://arxiv.org/abs/2605.21997",
-      "frameable": false,
-      "image_urls": [
-        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
-        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
-        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
-        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
-        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
-        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2605.21997 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Artificial Intelligence arXiv:2605.21997 (cs) [Submitted on 21 May 2026] Title: The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems Authors: Yohei Nakajima View a PDF of the paper titled The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems, by Yohei Nakajima View PDF HTML (experimental) Abstract: Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable \"memory.\" We describe ActiveGraph, a runtime that inverts this arrangement. The append-only event log is the source of truth; the working graph is a deterministic projection of that log; and behaviors--ordinary functions, classes, LLM-backed routines, or logic attached to typed edges--react to changes in the graph and emit new events. No component instructs another; coordination happens entirely through the shared graph. This single design decision yields three properties that retrieval-and-summarization memory systems do not provide: deterministic replay of any run from its log, cheap forking that branches a run at any event without re-executing the shared prefix, and end-to-end lineage from a high-level goal down to the individual model call that produced each artifact. We present the architecture, a determinism contract that makes replay sound, and a worked diligence example whose full causal structure is reconstructable from the log alone. We discuss--without claiming to demonstrate--why this substrate is unusually well suited to self-improving agents, and how it extends the BabyAGI lineage and prior graph-memory research. Comments: 11 pages, 1 figure. Open-source Apache-2.0 implementation with reproducible quickstart demo, deterministic replay, fork-and-diff, and lineage tracing Subjects: Artificial Intelligence (cs.AI) ; Multiagent Systems (cs.MA) Cite as: arXiv:2605.21997 [cs.AI] (or arXiv:2605.21997v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2605.21997 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yohei Nakajima [ view email ] [v1] Thu, 21 May 2026 04:55:38 UTC (55 KB) Full-text links: Access Paper: View a PDF of the paper titled The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems, by Yohei Nakajima View PDF HTML (experimental) TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2026-05 Change to browse by: cs cs.MA References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Space",
-      "text_excerpt_zh": "arXiv:2605.21997 (cs)  \n[提交于 2026年5月21日]  \n\n**标题：日志即智能体：面向可审计、可分叉智能体系统的事件溯源反应图**  \n\n**作者：Yohei Nakajima**  \n\n查看论文PDF（标题：日志即智能体：面向可审计、可分叉智能体系统的事件溯源反应图，作者：Yohei Nakajima）  \n查看PDF HTML（实验性）  \n\n**摘要：**  \n大多数智能体框架都围绕语言模型构建：先有对话循环，然后是工具，接着是规则，最后为了可观测性而附加日志层，状态则作为可检索的“记忆”持久化。我们提出ActiveGraph，一种颠覆这种安排的运行时。仅追加的事件日志是真相源；工作图是该日志的确定性投影；而行为——普通函数、类、基于LLM的例程或附加到类型化边上的逻辑——对图中的变化做出反应并发出新事件。没有组件直接指令另一个组件；协调完全通过共享图进行。这一单一设计决策带来了检索与摘要记忆系统无法提供的三个特性：从任意日志中确定性重放运行；廉价分叉，可在任意事件处分叉运行而无需重新执行共享前缀；以及从高层目标到产生每个工件（artifact）的单个模型调用的端到端溯源。我们介绍了该架构、使重放可靠的确定性契约，以及一个完整的勤勉示例，其全部因果结构仅从日志即可重建。我们讨论了——但未声称证明——为何这种基础架构特别适合自我改进的智能体，以及它如何扩展BabyAGI谱系和先前的图记忆研究。  \n\n**评论：** 11页，1张图。开源Apache-2.0实现，包含可复现的快速启动演示、确定性重放、分叉与差异比较以及溯源追踪。  \n\n**主题：** 人工智能 (cs.AI)；多智能体系统 (cs.MA)  \n\n**引用为：** arXiv:2605.21997 [cs.AI]（或本版本：arXiv:2605.21997v1 [cs.AI]）  \nhttps://doi.org/10.48550/arXiv.2605.21997  \n更多信息请点击 arXiv发布的DOI（通过DataCite，注册中）  \n\n**提交历史：**  \n来自：Yohei Nakajima [查看电子邮件]  \n[v1] 2026年5月21日 星期四 04:55:38 UTC（55 KB）  \n\n**全文链接：**  \n访问论文：查看论文PDF（标题：日志即智能体：面向可审计、可分叉智能体系统的事件溯源反应图，作者：Yohei Nakajima）  \n查看PDF HTML（实验性）  \nTeX源码  \n查看许可证  \n\n**当前浏览上下文：** cs.AI < 上一页 | 下一页 > 新 | 近期 | 2026-05  \n**切换浏览至：** cs cs.MA  \n\n**参考文献与引用：**  \nNASA ADS  \nGoogle Scholar  \nSemantic Scholar  \n导出BibTeX引用  \n加载中...  \nBibTeX格式化引用 ×  \n加载中...  \n数据提供：  \n\n**书签：**  \n**书目工具：**  \n书目浏览器（什么是书目浏览器？）  \nConnected Papers（什么是Connected Papers？）  \nLitmaps（什么是Litmaps？）  \nscite.ai（什么是scite Smart Citations？）  \n\n**代码、数据与媒体：**  \n与本文相关的代码、数据和媒体  \nalphaXiv（什么是alphaXiv？）  \n代码链接  \nCatalyzeX论文代码查找器（什么是CatalyzeX？）  \nDagsHub（什么是DagsHub？）  \nGotit.pub（什么是Gotit.pub？）  \nHuggingface（什么是Huggingface？）  \nScienceCast（什么是ScienceCast？）  \n\n**演示：**  \nReplicate（什么是Replicate？）  \nSpace",
-      "text_excerpt_zh_hash": "62d6bd128734a6b7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "[2605.21997] The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
-      "url": "https://arxiv.org/abs/2605.21997"
-    },
     "https://arxiv.org/html/2603.05344v1": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -21653,6 +21630,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg"
     },
+    "https://pbs.twimg.com/media/HI0AuJrW0AA9AUJ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI0AuJrW0AA9AUJ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI0AuJrW0AA9AUJ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI0AuJrW0AA9AUJ.jpg"
+    },
     "https://pbs.twimg.com/media/HI1QsVeaoAADUU9.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -21681,19 +21672,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI2A73FXgAAMPsI.jpg"
     },
-    "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png": {
+    "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg": {
       "cleaner_v": 2,
-      "content_type": "image/png",
+      "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png",
+      "final_url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
+        "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
+      "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     },
     "https://pbs.twimg.com/media/HIADwu0WgAAN7Oj.jpg": {
       "cleaner_v": 2,
@@ -34781,9 +34772,9 @@
       "https://x.com/colton__tollett/status/2054762460662403126",
       "https://x.com/colton__tollett/status/2054956244650057744",
       "https://x.com/colton__tollett/status/2054584777026556034",
+      "https://x.com/colton__tollett/status/2054300057285845424",
       "https://x.com/colton__tollett/status/2055336180011462772",
       "https://x.com/colton__tollett/status/2055334365802983602?s=46",
-      "https://x.com/colton__tollett/status/2054300057285845424",
       "https://x.com/colton__tollett/status/2054956376103792886",
       "https://x.com/colton__tollett/status/2054955743032361303",
       "https://x.com/colton__tollett/status/2055336339445338354",
@@ -35194,10 +35185,7 @@
     ],
     "2056602373368533359": [
       "https://x.com/yoheinakajima/status/2056602373368533359",
-      "https://x.com/yoheinakajima/status/2056604488954482943",
-      "https://x.com/yoheinakajima/status/2057812713045377055",
-      "https://arxiv.org/abs/2605.21997",
-      "https://pbs.twimg.com/media/HI7RfFTbQAE8iRr.png"
+      "https://x.com/yoheinakajima/status/2056604488954482943"
     ],
     "2056633189687586958": [
       "https://x.com/ma_zhenyuan/status/2056633189687586958",
@@ -35263,10 +35251,10 @@
       "https://x.com/AYi_AInotes/status/2056740421347262527",
       "https://github.com/rerun-io/rerun",
       "https://x.com/AYi_AInotes/status/2056781140338315716",
-      "https://x.com/AYi_AInotes/status/2056752637828039137",
       "https://x.com/AYi_AInotes/status/2056784651755126814",
-      "https://x.com/AYi_AInotes/status/2056757330889327038",
-      "https://x.com/AYi_AInotes/status/2056780752931401811"
+      "https://x.com/AYi_AInotes/status/2056752637828039137",
+      "https://x.com/AYi_AInotes/status/2056780752931401811",
+      "https://x.com/AYi_AInotes/status/2056757330889327038"
     ],
     "2056754091817361670": [
       "https://x.com/lotte_verheyden/status/2056754091817361670",
@@ -35281,20 +35269,19 @@
       "https://x.com/nutlope/status/2056754963519242699",
       "https://github.com/Nutlope/hallmark",
       "https://pbs.twimg.com/media/HIsNfwyW8AAPuvc.jpg",
-      "https://x.com/nutlope/status/2056796162993111106",
-      "https://x.com/nutlope/status/2056796344941957177",
-      "https://x.com/nutlope/status/2056854198256341082",
-      "https://x.com/nutlope/status/2056853044009013370",
-      "https://x.com/nutlope/status/2056768612736635342",
       "https://x.com/nutlope/status/2056947530877854011",
-      "https://x.com/nutlope/status/2056768576019706006",
+      "https://x.com/nutlope/status/2056854139636760789",
+      "https://x.com/nutlope/status/2056796344941957177",
+      "https://x.com/nutlope/status/2056853044009013370",
       "https://x.com/nutlope/status/2056760879048233273",
-      "https://x.com/nutlope/status/2056959903726542956",
-      "https://x.com/nutlope/status/2056823702545719720",
+      "https://x.com/nutlope/status/2056796162993111106",
+      "https://x.com/nutlope/status/2056854198256341082",
       "https://x.com/nutlope/status/2056824568287842746",
-      "https://x.com/nutlope/status/2056823445145403687",
-      "https://x.com/nutlope/status/2056796290906747240",
-      "https://x.com/nutlope/status/2056824397587976551"
+      "https://x.com/nutlope/status/2056823702545719720",
+      "https://x.com/nutlope/status/2056768612736635342",
+      "https://x.com/nutlope/status/2056824297843302631",
+      "https://x.com/nutlope/status/2056798848928924089",
+      "https://x.com/nutlope/status/2056768576019706006"
     ],
     "2056763091052843350": [
       "https://x.com/Voxyz_ai/status/2056763091052843350",
@@ -35364,17 +35351,16 @@
       "https://liquid-dom-showcase.vercel.app/",
       "https://github.com/AndrewPrifer/liquid-dom",
       "https://x.com/AndrewPrifer/status/2056974097037582569",
+      "https://x.com/AndrewPrifer/status/2056976027596075147",
+      "https://x.com/AndrewPrifer/status/2057001845848265201",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2057001845848265201",
-      "https://x.com/AndrewPrifer/status/2057002305053135135",
-      "https://x.com/AndrewPrifer/status/2057028849804972131",
+      "https://x.com/AndrewPrifer/status/2057002187281359300",
+      "https://x.com/AndrewPrifer/status/2056973936932639103",
+      "https://x.com/AndrewPrifer/status/2056988129287168068",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
-      "https://x.com/AndrewPrifer/status/2057026563192058150",
-      "https://x.com/AndrewPrifer/status/2056974370615238836",
-      "https://x.com/AndrewPrifer/status/2057074988658897197",
-      "https://x.com/AndrewPrifer/status/2056976027596075147",
-      "https://x.com/AndrewPrifer/status/2057002049867571361"
+      "https://x.com/AndrewPrifer/status/2057001922918494686",
+      "https://x.com/AndrewPrifer/status/2057074988658897197"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -35405,8 +35391,8 @@
       "https://x.com/jeetnirnejak/status/2057247773276488093",
       "https://x.com/jeetnirnejak/status/2057399850392760624",
       "https://x.com/jeetnirnejak/status/2057539312808497660",
-      "https://x.com/jeetnirnejak/status/2057102470376304931",
       "https://x.com/jeetnirnejak/status/2057177679628320983",
+      "https://x.com/jeetnirnejak/status/2057102470376304931",
       "https://x.com/jeetnirnejak/status/2057472770590839237",
       "https://x.com/jeetnirnejak/status/2057109316646388146",
       "https://x.com/jeetnirnejak/status/2057144246470431186"
@@ -35418,17 +35404,17 @@
     "2057142081018315116": [
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
-      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057142822470590546",
+      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057190057954721917",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057157047347749095",
-      "https://x.com/Av1dlive/status/2057171292475072987",
-      "https://x.com/Av1dlive/status/2057154956256481765",
       "https://x.com/Av1dlive/status/2057145889970626894",
-      "https://x.com/Av1dlive/status/2057143106819211704",
-      "https://x.com/Av1dlive/status/2057155376106307883"
+      "https://x.com/Av1dlive/status/2057171292475072987",
+      "https://x.com/Av1dlive/status/2057157047347749095",
+      "https://x.com/Av1dlive/status/2057154956256481765",
+      "https://x.com/Av1dlive/status/2057155376106307883",
+      "https://x.com/Av1dlive/status/2057143106819211704"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
@@ -35520,10 +35506,10 @@
       "https://arxiv.org/abs/2603.17150",
       "https://openreview.net/pdf?id=WC7WAcgZul",
       "https://arxiv.org/abs/2605.01160",
-      "https://x.com/AlphaSignalAI/status/2057586725321412948",
       "https://x.com/AlphaSignalAI/status/2057775946879410435",
-      "https://x.com/AlphaSignalAI/status/2057823270318047583",
       "https://x.com/AlphaSignalAI/status/2057763051495977100",
+      "https://x.com/AlphaSignalAI/status/2057586725321412948",
+      "https://x.com/AlphaSignalAI/status/2057823270318047583",
       "https://x.com/AlphaSignalAI/status/2057776455640084658"
     ],
     "2057540973652037902": [
@@ -35538,8 +35524,7 @@
       "https://x.com/TheAhmadOsman/status/2057590224729911346",
       "http://x.com/i/article/2057582083208257538",
       "https://x.com/TheAhmadOsman/status/2057594530392649995",
-      "https://x.com/TheAhmadOsman/status/2057621764054622719",
-      "https://x.com/TheAhmadOsman/status/2057590791241896254"
+      "https://x.com/TheAhmadOsman/status/2057621764054622719"
     ],
     "2057608633333199096": [
       "https://x.com/petergyang/status/2057608633333199096",
@@ -35569,8 +35554,17 @@
       "https://x.com/vikingmute/status/2057809414175027450",
       "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
       "http://performance.dev"
+    ],
+    "2057875320011882923": [
+      "https://x.com/HamelHusain/status/2057875320011882923"
+    ],
+    "2057918166244716862": [
+      "https://x.com/dani_avila7/status/2057918166244716862",
+      "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg",
+      "https://x.com/dani_avila7/status/2057301401861054759",
+      "https://pbs.twimg.com/media/HI0AuJrW0AA9AUJ.jpg"
     ]
   },
-  "updated_at": "2026-05-22T18:05:08Z",
+  "updated_at": "2026-05-22T23:17:35Z",
   "window": "recent"
 }
