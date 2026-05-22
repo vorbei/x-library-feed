@@ -5,11 +5,11 @@
       "name": "Tools"
     },
     {
-      "count": 385,
+      "count": 386,
       "name": "Development"
     },
     {
-      "count": 315,
+      "count": 316,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 131,
+      "count": 133,
       "name": "Media"
     },
     {
@@ -34,8 +34,150 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2136,
+  "item_count": 2140,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-05-21T15:14:21.018420Z",
+      "description": "代码之外 Beyond Code  • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k17amhp8gt8wb5e1ak9zjztv9h875p2c",
+      "og_image_url": "https://i.ytimg.com/vi/FTWEfhUin4Y/maxresdefault.jpg",
+      "recommended_at": "2026-05-22T03:22:29.204000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "programming",
+        "career-development",
+        "software-engineering"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-22T03:22:29.204000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "王自如：如果我是程序员我会淘汰我自己",
+      "url": "https://www.youtube.com/watch?v=FTWEfhUin4Y",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
+      "article_image_urls": [
+        "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
+        "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/gopro.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/squarespace.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/nissan.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/axel_arigato.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/nflpa.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/levis.png?height=432&width=432&format=webp&quality=80",
+        "https://cdn.epidemicsound.com/public-pages/media/images/baby_bjorn.png?height=432&width=432&format=webp&quality=80",
+        "https://images.ctfassets.net/js6ap5wzepad/7hB42uODCwcT81ykpd1jKy/e362ec9ad4d79996f2f86ce32f4b3e95/DaVinci_icon_x2.png?fm=webp&w=3840&q=75",
+        "https://images.ctfassets.net/js6ap5wzepad/4jCt5R1WJC8CHeYkbWxF8q/abf53c93d1ec299089a7c3bc8a2cd40a/monstera.png?fm=webp&w=3840&q=75",
+        "https://images.ctfassets.net/js6ap5wzepad/6rR2Cjit3hDesoOFUIvf0F/7d29f73b497524b19022a5d926dedc6c/5c45943974eb98266d0fc97e34e568e5.png?fm=webp&w=3840&q=75"
+      ],
+      "article_title_extracted": "Bring your story to life | Music & SFX for videos | Epidemic Sound",
+      "category": "Media",
+      "created_at": "2026-05-21T13:40:18.165055Z",
+      "description": "Get unlimited access to our catalog of high quality music, sound effects and soundtracking tools. Use them worry-free, worldwide, all rights included.",
+      "domain": "www.epidemicsound.com",
+      "embed_type": "",
+      "id": "k170pvdk3ba7vhmb01ya6d2mf9875c05",
+      "og_image_url": "https://cloud.poche.app/api/storage/e3f780ff-8c06-463c-989e-8e16c1879d86",
+      "recommended_at": "2026-05-22T03:22:26.589000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "music-licensing",
+        "sound-effects",
+        "content-creation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-22T03:22:26.589000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Bring your story to life | Music & SFX for videos | Epidemic Sound",
+      "url": "https://www.epidemicsound.com/",
+      "x_status_id": null
+    },
+    {
+      "category": "Design",
+      "created_at": "2026-05-21T13:51:05.981897Z",
+      "description": "From gaming legacy to global entertainment brand—see how Instrument helped evolve Electronic Arts’ entertainment future.",
+      "domain": "www.instrument.com",
+      "embed_type": "",
+      "id": "k178jc8n4z7hcn2z4p7k08g3e1875bzw",
+      "og_image_url": "https://a-us.storyblok.com/f/1004432/1200x630/2eb1618852/ea-thumb_1200x630-static.png/m/1200x630/filters:format(png)/",
+      "recommended_at": "2026-05-22T03:22:24.399000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "branding",
+        "gaming",
+        "digital-transformation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-22T03:22:24.399000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Transforming Electronic Arts (EA) | Instrument",
+      "url": "https://www.instrument.com/work/electronic-arts",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
+      "article_image_urls": [
+        "https://ursula.tonbo.io/og-default.png",
+        "https://ursula.tonbo.io/assets/tonbo.png"
+      ],
+      "article_title_extracted": "Introduction | Ursula",
+      "category": "Development",
+      "created_at": "2026-05-22T03:22:12.655602Z",
+      "description": "A self-hosted, distributed server for append-only event timelines. Thread-per-core, multi-Raft, S3-backed.",
+      "domain": "ursula.tonbo.io",
+      "embed_type": "",
+      "id": "k17782d6sd6zjmfkx97wd452mx877yc9",
+      "og_image_url": "https://cloud.poche.app/api/storage/5ceda50d-4772-4f18-80f6-a5eff31c8626",
+      "recommended_at": "2026-05-22T03:22:22.102000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "event-sourcing",
+        "distributed-systems",
+        "infrastructure"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-22T03:22:22.102000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introduction | Ursula",
+      "url": "https://ursula.tonbo.io/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-05-21T11:51:44.871788Z",
@@ -89465,7 +89607,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1983,
+      "count": 1987,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -89501,5 +89643,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-21T22:04:53.505263Z"
+  "updated_at": "2026-05-22T04:47:41.488775Z"
 }
