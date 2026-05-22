@@ -28614,19 +28614,6 @@
       "title": "Harness Engineering 在讨论什么：三个 Scaling 维度的统一框架",
       "url": "https://yage.ai/share/harness-engineering-scalability-20260330.html"
     },
-    "https://yage.ai/share/saas-ai-data-pricing-20260519.html?utm_source=twitter&utm_medium=thread&utm_campaign=saas-ai-data-pricing-20260519": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "企业 SaaS 正在把数据保护从合规义务转化为定价维度。从 Zoom 到 Slack 到 Atlassian，三代政策试错正在改变软件采购的基本逻辑。",
-      "extraction_source": "trafilatura",
-      "final_url": "https://yage.ai/share/saas-ai-data-pricing-20260519.html?utm_source=twitter&utm_medium=thread&utm_campaign=saas-ai-data-pricing-20260519",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "到 2026 年 8 月 17 日，如果你在 Jira 里记录过一个 sprint 计划，或在\nConfluence 里写过一页内部文档，Atlassian 会默认把这些数据用于训练它的 AI\n产品。根据 [Atlassian\n官方 FAQ](https://www.atlassian.com/trust/ai/data-contribution/faqs)，metadata 的收集对 Free、Standard、Premium\n层级的客户是强制的——没有关闭开关。只有升级到 Enterprise（最低 801\n用户，定制报价）才能退出。\n同一周，[GitHub\nCopilot 的 Free、Pro、Pro+ 用户](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)也被默认纳入 AI 训练数据管道。Slack\n在 2024 年已经做过一轮类似操作，[被\nArs Technica 曝光后](https://arstechnica.com/tech-policy/2024/05/slack-defends-default-opt-in-for-ai-training-on-chats-amid-user-outrage/)修改了措辞。[Figma\n的非 Enterprise 用户](https://help.figma.com/hc/en-us/articles/17725942479127-Control-AI-features-and-content-training-settings)从 2024 年 8 月起就被默认训练。[Salesforce](https://help.salesforce.com/s/articleView?id=000384050&language=en_US&type=1)\n的数据也一直在被用于训练 Einstein AI 模型。\n另一边，[Google\nWorkspace 在合同里写明](https://workspace.google.com/security/ai-privacy/)不用客户数据训练底层模型。[Microsoft\n365 Copilot 的企业数据保护承诺](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy)同样写在 Data Protection Addendum\n里。[GitLab\n把这个”不训练”做成了核心差异化策略](https://about.gitlab.com/blog/atlassian-will-train-on-your-data-opt-out-with-gitlab/)，连续发 blog 直接对比 Atlassian\n和 GitHub。\n表面上看，这是一个隐私危机。但把这一组事件放在一起看，它们在讲一个更具体的产业变化：企业 SaaS 正在把数据保护从合规义务转化为定价维度。 你的数据不被用于 AI 训练，正变得和 SSO、审计日志、SLA 一样，是一个需要花钱购买的功能。\n这个转变不是一次性的，而是经过了三代政策试错。\n第一代是 Zoom 的 land grab（2023 年 7 月）。 Zoom\n更新了服务条款，赋予自己使用”service-generated data”训练 AI\n的广泛权利，且不提供任何客户级的 opt-out。Mozilla\n基金会发文质问，社区猛烈反弹。Zoom 在一个月内退让，[在条款里加粗声明](https://www.zoom.com/en/blog/zooms-term-service-ai/)不用音频、视频、聊天内容训练\nAI。\nZoom 这一轮的教训很清楚：完全不给退出机制，在舆论上不可行。但它证明了一个关键点——即使用户反对，也不会大规模迁移。Zoom 的用户量在事件后没有明显下降。这给了后来者一个重要的信号：舆论反弹是暂时的，锁定效应是持久的。\n第二代是 Slack 的悄悄正常化（2024 年 5 月）。 Slack\n的隐私原则页面里有一句话：“To develop AI/ML models, our systems analyze\nCustomer Data (e.g. messages, content, and files) submitted to Slack.”\n被一个 [Hacker\nNews 用户](https://news.ycombinator.com/item?id=40383978)在深夜发帖爆出来后，社区炸了。Ars Technica\n报道的标题是”Slack users horrified to discover messages used for AI\ntraining”。\nSlack 的回应策略和 Zoom\n不同。它没有删掉政策，而是修改了措辞——把”AI/ML\nmodels”改成了”non-generative AI/ML models for features such as emoji and\nchannel recommendations”。官方发了 blog 强调”不用客户数据训练 LLM”。但\nopt-out 机制仍然极其笨重：需要 workspace owner 发邮件到\n[[email protected]](https://yage.ai/cdn-cgi/l/email-protection)，写特定的 subject\nline，然后等人工处理。没有自助按钮。\n这一轮比 Zoom 进了一步：它证明了”默认收集 + 提供理论上的退出 + 把退出路径藏深”是一个可操作的模板。Slack 没有遭受 Zoom 级别的舆论危机，也没有在用户量上受损。HN 和 Reddit 上的怒气很大，但实际迁移的案例极少——r/Slack 上一个帖子专门问”Are people leaving Slack?“，多数回复的结论是”不会，因为迁移到 Matrix/Element 太麻烦”。\n第三代是 Atlassian 和 GitHub 的系统性 tier-gating（2026 年）。 这一轮更精细，也更激进。不是一刀切的默认收集，而是按付费层级分层开放数据保护。\nAtlassian 把数据分成两类：metadata（story points、sprint 日期、SLA\n值、页面复杂度评分、跨客户的高频搜索词）和 in-app content（Confluence\n页面内容、Jira issue 描述和评论）。前者对 Free、Standard、Premium\n层级强制且不可关闭；后者默认开启但可关闭。只有 Enterprise\n才能完全退出。[数据保留最长七年](https://www.theregister.com/off-prem/2026/04/18/atlassian-to-train-ai-on-user-data-unless-law-or-cash-say-no/5222760)。更关键的是，Atlassian\n的 Teamwork Graph 连接器会把 Slack、Figma、Google Drive、Salesforce 等\n50+ 第三方工具的关系和活动信号也卷进元数据收集范围——这意味着暴露面不限于\nAtlassian 产品本身。\nAtlassian 做了一件之前的厂商没有做的事：逆转了此前的明确承诺。在 2025\n年 11 月之前，Atlassian 的[官方帮助页面](https://support.atlassian.com/rovo/kb/rovo-and-atlassian-intelligence-customer-data-is-not-used-for-ai-model/)标题就是”Rovo\nand Atlassian Intelligence customer data is not used for AI model\ntraining”，正文写的是”Customer data…is never used to train, fine-tune,\nor improve AI models or services.” 从”never”到”by default, unless you\npay more”，是一个硬翻转。\nGitHub Copilot 同期的政策变化结构类似：Free、Pro、Pro+\n用户的交互数据默认用于训练，Business 和 Enterprise\n客户受合同保护。Martin Woodward 在 [HN\n评论](https://news.ycombinator.com/item?id=47548243)里确认了这条边界。\n行业在 AI 数据策略上出现了明显分裂。\n默认收集（或默认训练）：Atlassian、GitHub Copilot（非 Enterprise）、Slack（非生成式 ML）、Figma（非 Enterprise）、Salesforce、LinkedIn。\n明确不训练（合同级别承诺）：[Google\nWorkspace](https://workspace.google.com/security/ai-privacy/)、[Microsoft\n365 Copilot](https://learn.microsoft.com/en-us/copilot/",
-      "title": "当数据保护变成定价功能：SaaS 行业 AI 数据策略的三代演化",
-      "url": "https://yage.ai/share/saas-ai-data-pricing-20260519.html?utm_source=twitter&utm_medium=thread&utm_campaign=saas-ai-data-pricing-20260519"
-    },
     "https://yage.ai/share/sequoia-autopilot-organizational-interface-20260405.html?utm_source=twitter&utm_medium=thread&utm_campaign=sequoia-autopilot-organizational-interface-20260405": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -34666,8 +34653,7 @@
     "2056586651783324020": [
       "https://x.com/grapeot/status/2056586651783324020",
       "https://yage.ai/share/ai-model-companies-consolidation-20260518.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-model-companies-consolidation-20260518",
-      "https://x.com/grapeot/status/2056955596101099551",
-      "https://yage.ai/share/saas-ai-data-pricing-20260519.html?utm_source=twitter&utm_medium=thread&utm_campaign=saas-ai-data-pricing-20260519"
+      "https://x.com/grapeot/status/2057549249920032944"
     ],
     "2056602373368533359": [
       "https://x.com/yoheinakajima/status/2056602373368533359",
@@ -34693,7 +34679,7 @@
     ],
     "2056662695345348769": [
       "https://x.com/Ayuan_ai/status/2056662695345348769",
-      "https://x.com/Ayuan_ai/status/2057479536099664049"
+      "https://x.com/Ayuan_ai/status/2057526611822694793"
     ],
     "2056682591600951523": [
       "https://x.com/nini_incrypto_/status/2056682591600951523",
@@ -34713,21 +34699,19 @@
     "2056734226201100603": [
       "https://x.com/Alfred_Lin/status/2056734226201100603",
       "http://x.com/i/article/2056434896411996160",
-      "https://x.com/Alfred_Lin/status/2057183477205029006",
       "https://x.com/Alfred_Lin/status/2056775650778996929",
+      "https://x.com/Alfred_Lin/status/2057183477205029006",
       "https://x.com/Alfred_Lin/status/2056756723197821288",
       "https://x.com/Alfred_Lin/status/2057183205657297061",
       "https://x.com/Alfred_Lin/status/2057183073868112122",
-      "https://x.com/Alfred_Lin/status/2056743471424401511",
       "https://x.com/Alfred_Lin/status/2057183121880363204",
-      "https://x.com/Alfred_Lin/status/2056743041344610593",
-      "https://x.com/Alfred_Lin/status/2057126471748170226",
+      "https://x.com/Alfred_Lin/status/2056743471424401511",
       "https://x.com/Alfred_Lin/status/2056742884242862080",
+      "https://x.com/Alfred_Lin/status/2057126471748170226",
+      "https://x.com/Alfred_Lin/status/2056743041344610593",
       "https://x.com/Alfred_Lin/status/2056775923912073283"
     ],
     "2056740204380119344": [
-      "https://x.com/AYi_AInotes/status/2056740204380119344",
-      "https://pbs.twimg.com/amplify_video_thumb/2056739884157542400/img/1TlMKJ41sQ4_HtQd.jpg",
       "https://x.com/AYi_AInotes/status/2056740209279021138",
       "https://rerun.io/",
       "https://x.com/AYi_AInotes/status/2056740225435467986",
@@ -34834,16 +34818,16 @@
       "https://liquid-dom-showcase.vercel.app/",
       "https://github.com/AndrewPrifer/liquid-dom",
       "https://x.com/AndrewPrifer/status/2056974097037582569",
-      "https://x.com/AndrewPrifer/status/2057001845848265201",
-      "https://x.com/AndrewPrifer/status/2056976027596075147",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
-      "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2056973936932639103",
-      "https://x.com/AndrewPrifer/status/2057002187281359300",
-      "https://x.com/AndrewPrifer/status/2056988129287168068",
+      "https://x.com/AndrewPrifer/status/2057001845848265201",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
-      "https://x.com/AndrewPrifer/status/2057001922918494686",
-      "https://x.com/AndrewPrifer/status/2056988685166604573"
+      "https://x.com/AndrewPrifer/status/2056974775403340127",
+      "https://x.com/AndrewPrifer/status/2057028849804972131",
+      "https://x.com/AndrewPrifer/status/2057002305053135135",
+      "https://x.com/AndrewPrifer/status/2056976027596075147",
+      "https://x.com/AndrewPrifer/status/2057026563192058150",
+      "https://x.com/AndrewPrifer/status/2056974370615238836",
+      "https://x.com/AndrewPrifer/status/2056988129287168068"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -34887,16 +34871,16 @@
     "2057142081018315116": [
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
-      "https://x.com/Av1dlive/status/2057142822470590546",
       "https://x.com/Av1dlive/status/2057201240573128709",
+      "https://x.com/Av1dlive/status/2057142822470590546",
       "https://x.com/Av1dlive/status/2057190057954721917",
+      "https://x.com/Av1dlive/status/2057171292475072987",
+      "https://x.com/Av1dlive/status/2057157047347749095",
+      "https://x.com/Av1dlive/status/2057155376106307883",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057157047347749095",
-      "https://x.com/Av1dlive/status/2057145889970626894",
-      "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057154956256481765",
-      "https://x.com/Av1dlive/status/2057155376106307883",
+      "https://x.com/Av1dlive/status/2057145889970626894",
       "https://x.com/Av1dlive/status/2057143106819211704"
     ],
     "2057153744630890620": [
@@ -34932,6 +34916,6 @@
       "http://x.com/i/article/2057422569528324096"
     ]
   },
-  "updated_at": "2026-05-21T23:17:56Z",
+  "updated_at": "2026-05-22T00:15:57Z",
   "window": "recent"
 }
