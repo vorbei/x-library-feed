@@ -3147,6 +3147,19 @@
       "title": "",
       "url": "http://x.com/i/article/2057599529902628864"
     },
+    "http://x.com/i/article/2057849087236419584": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057849087236419584",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057849087236419584/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI8GLlAXsAMs02x?format=jpg&name=900x900)](http://x.com/i/article/2057849087236419584/ErdalToprak/article/2057871169702027462/media/2057870350713597955)\n\nHow I set up custom subagents for Codex\n\n[![](https://pbs.twimg.com/profile_images/1972284709519437824/OE2EgZt5_normal.jpg)](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[Erdal](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[@ErdalToprak](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n·\n\n11h\n\nFollow\n\nClick to Follow ErdalToprak\n\n1\n\n7\n\n56\n\n[6.6K](http://x.com/i/article/2057849087236419584/ErdalToprak/status/2057871169702027462/analytics)\n\nThis started from a small Codex config idea: if Codex can delegate to subagents, then the useful question is not only “what should Codex do?” but “what should Codex delegate?”\n\nThe goal was to make a reusable local setup for parallel work without filling the main chat context with every investigation, edit, and review.\n\n# \n\nThe core idea\n\nThe main Codex chat should stay the coordinator:\n\n* understand the user request\n* decide what can be delegated\n* keep the critical path moving\n* integrate results\n* make final decisions\n\nSubagents should handle bounded side tasks:\n\n* quick codebase scouting\n* deeper read-only analysis\n* small patches\n* complex implementation work\n\nSkills then teach the main chat how to dispatch those agents with compact instructions.\n\n# \n\nThe generic agents\n\nI ended up with six generic agents. They are organized by two axes:\n\n* effort level\n* permission level\n\nEffort levels:\n\nmarkdown\n\n```markdown\nspark = fastest, less exhaustive, good for scouting and tiny edits\nhigh  = careful default reasoning for normal serious work\nmax   = xhigh reasoning for the hardest or riskiest tasks\n```\n\nPermission levels:\n\nmarkdown\n\n```markdown\nreader = read-only\nwriter = workspace-write\n```\n\nThat produces this grid:\n\nmarkdown\n\n```markdown\nspark-reader  -> fast read-only scouting\nspark-writer  -> tiny fast edits\n\nhigh-reader   -> careful read-only analysis\nhigh-writer   -> normal complex implementation\n\nmax-reader    -> maximum-effort read-only analysis\nmax-writer    -> maximum-effort high-risk implementation\n```\n\nThe Spark agents use gpt-5.3-codex-spark with medium reasoning.\n\nThe High agents use gpt-5.5 with high reasoning.\n\nThe Max agents use gpt-5.5 with xhigh reasoning.\n\n  \nThis config is an example for the max-writer \n\nmarkdown\n\n```markdown\nname = \"max-writer\"\ndescription = \"Maximum-effort write-capable agent for the hardest changes where xhigh reasoning, validation, and precision matter most.\"\nmodel = \"gpt-5.5\"\nmodel_reasoning_effort = \"xhigh\"\nservice_tier = \"fast\"\nsandbox_mode = \"workspace-write\"\n\ndeveloper_instructions = \"\"\"\nMake careful, well-scoped edits with maximum reasoning effort.\nUse this extra effort for difficult debugging, subtle correctness work, architecture-sensitive changes, migrations, and high-risk fixes.\nUnderstand the relevant code path before changing it, preserve existing patterns, validate thoroughly, and report tradeoffs and residual risks clearly.\nStop and report if the task requires changing user-facing contracts, broad unrelated areas, or ambiguous product decisions.\n\"\"\"\n```\n\n# \n\nGlobal Config\n\nThe shared config sets the agent limits and enables multi-agent work:\n\nmarkdown\n\n```markdown\n[agents]\nmax_threads = 24\nmax_depth = 1\njob_max_runtime_seconds = 3600\n\n[features]\nfast_mode = true\nmulti_agent = true\n```\n\nI kept max\\_depth = 1 intentionally. Recursive delegation can be powerful, but it can also become expensive and hard to reason about. Direct child agents are enough for this setup.\n\n# \n\nThe Mission Card Pattern\n\nThe most important part is the mission card.\n\nInstead of sending the entire conversation to every subagent, the main chat sends a compact task:\n\nmarkdown\n\n```markdown\nMission:\nScope:\nKnow",
+      "title": "",
+      "url": "http://x.com/i/article/2057849087236419584"
+    },
     "http://x.com/i/article/2057851625444921345": {
       "cleaner_v": 2,
       "content_type": "",
@@ -21674,6 +21687,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI2A73FXgAAMPsI.jpg"
     },
+    "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg"
+    },
     "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -35271,19 +35298,20 @@
       "https://x.com/nutlope/status/2056754963519242699",
       "https://github.com/Nutlope/hallmark",
       "https://pbs.twimg.com/media/HIsNfwyW8AAPuvc.jpg",
-      "https://x.com/nutlope/status/2056947530877854011",
-      "https://x.com/nutlope/status/2056854139636760789",
+      "https://x.com/nutlope/status/2056796162993111106",
       "https://x.com/nutlope/status/2056796344941957177",
       "https://x.com/nutlope/status/2056853044009013370",
-      "https://x.com/nutlope/status/2056760879048233273",
-      "https://x.com/nutlope/status/2056796162993111106",
       "https://x.com/nutlope/status/2056854198256341082",
-      "https://x.com/nutlope/status/2056824568287842746",
-      "https://x.com/nutlope/status/2056823702545719720",
       "https://x.com/nutlope/status/2056768612736635342",
-      "https://x.com/nutlope/status/2056824297843302631",
-      "https://x.com/nutlope/status/2056900066195992735",
-      "https://x.com/nutlope/status/2056768576019706006"
+      "https://x.com/nutlope/status/2056947530877854011",
+      "https://x.com/nutlope/status/2056760879048233273",
+      "https://x.com/nutlope/status/2056824568287842746",
+      "https://x.com/nutlope/status/2056768576019706006",
+      "https://x.com/nutlope/status/2056823702545719720",
+      "https://x.com/nutlope/status/2056959903726542956",
+      "https://x.com/nutlope/status/2056823445145403687",
+      "https://x.com/nutlope/status/2056796290906747240",
+      "https://x.com/nutlope/status/2056824397587976551"
     ],
     "2056763091052843350": [
       "https://x.com/Voxyz_ai/status/2056763091052843350",
@@ -35353,16 +35381,17 @@
       "https://liquid-dom-showcase.vercel.app/",
       "https://github.com/AndrewPrifer/liquid-dom",
       "https://x.com/AndrewPrifer/status/2056974097037582569",
-      "https://x.com/AndrewPrifer/status/2056976027596075147",
-      "https://x.com/AndrewPrifer/status/2057001845848265201",
       "https://x.com/AndrewPrifer/status/2056988491200995738",
       "https://x.com/AndrewPrifer/status/2056974775403340127",
-      "https://x.com/AndrewPrifer/status/2056973936932639103",
-      "https://x.com/AndrewPrifer/status/2057002187281359300",
-      "https://x.com/AndrewPrifer/status/2056988129287168068",
+      "https://x.com/AndrewPrifer/status/2057002305053135135",
       "https://x.com/AndrewPrifer/status/2057061306910621903",
-      "https://x.com/AndrewPrifer/status/2057001922918494686",
-      "https://x.com/AndrewPrifer/status/2057074988658897197"
+      "https://x.com/AndrewPrifer/status/2057028849804972131",
+      "https://x.com/AndrewPrifer/status/2057001845848265201",
+      "https://x.com/AndrewPrifer/status/2057026563192058150",
+      "https://x.com/AndrewPrifer/status/2056974370615238836",
+      "https://x.com/AndrewPrifer/status/2057074988658897197",
+      "https://x.com/AndrewPrifer/status/2057002049867571361",
+      "https://x.com/AndrewPrifer/status/2056974417826386168"
     ],
     "2056935730690379983": [
       "https://x.com/_lopopolo/status/2056935730690379983"
@@ -35406,21 +35435,22 @@
     "2057142081018315116": [
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
-      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057142822470590546",
+      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057190057954721917",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057157047347749095",
-      "https://x.com/Av1dlive/status/2057171292475072987",
-      "https://x.com/Av1dlive/status/2057154956256481765",
       "https://x.com/Av1dlive/status/2057145889970626894",
-      "https://x.com/Av1dlive/status/2057143106819211704",
-      "https://x.com/Av1dlive/status/2057155376106307883"
+      "https://x.com/Av1dlive/status/2057171292475072987",
+      "https://x.com/Av1dlive/status/2057157047347749095",
+      "https://x.com/Av1dlive/status/2057154956256481765",
+      "https://x.com/Av1dlive/status/2057155376106307883",
+      "https://x.com/Av1dlive/status/2057143106819211704"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
-      "http://x.com/i/article/2057152333696356352"
+      "http://x.com/i/article/2057152333696356352",
+      "https://x.com/jxnlco/status/2058027578208731324"
     ],
     "2057177266984226892": [
       "https://x.com/vasuman/status/2057177266984226892",
@@ -35511,8 +35541,9 @@
       "https://openreview.net/pdf?id=WC7WAcgZul",
       "https://arxiv.org/abs/2605.01160",
       "https://x.com/AlphaSignalAI/status/2057586725321412948",
-      "https://x.com/AlphaSignalAI/status/2057775946879410435",
       "https://x.com/AlphaSignalAI/status/2057823270318047583",
+      "https://x.com/AlphaSignalAI/status/2057775946879410435",
+      "https://x.com/AlphaSignalAI/status/2058030002096988254",
       "https://x.com/AlphaSignalAI/status/2057763051495977100",
       "https://x.com/AlphaSignalAI/status/2057776455640084658"
     ],
@@ -35520,8 +35551,8 @@
       "https://x.com/aswincode/status/2057540973652037902",
       "http://x.com/i/article/2057090128313466880",
       "https://x.com/aswincode/status/2057553168049791274",
-      "https://x.com/aswincode/status/2057643114907529435",
       "https://x.com/aswincode/status/2057799174272192876",
+      "https://x.com/aswincode/status/2057643114907529435",
       "https://x.com/aswincode/status/2057553886185927005"
     ],
     "2057590224729911346": [
@@ -35559,14 +35590,29 @@
       "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
       "http://performance.dev"
     ],
+    "2057844884443455799": [
+      "https://x.com/9hills/status/2057844884443455799",
+      "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg",
+      "https://x.com/9hills/status/2058006689740361964",
+      "https://x.com/9hills/status/2057995363953545385"
+    ],
+    "2057871169702027462": [
+      "https://x.com/ErdalToprak/status/2057871169702027462",
+      "http://x.com/i/article/2057849087236419584"
+    ],
     "2057875320011882923": [
       "https://x.com/HamelHusain/status/2057875320011882923"
+    ],
+    "2057882419257311652": [
+      "https://x.com/reach_vb/status/2057882419257311652",
+      "https://x.com/reach_vb/status/2057893897146138651",
+      "https://x.com/reach_vb/status/2057885841830105387"
     ],
     "2057918166244716862": [
       "https://x.com/dani_avila7/status/2057918166244716862",
       "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     ]
   },
-  "updated_at": "2026-05-23T03:18:36Z",
+  "updated_at": "2026-05-23T04:10:40Z",
   "window": "recent"
 }
