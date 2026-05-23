@@ -3179,6 +3179,20 @@
       "title": "",
       "url": "http://x.com/i/article/2057599529902628864"
     },
+    "http://x.com/i/article/2057718343466201088": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057718343466201088",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057718343466201088/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI5-xP8aIAAL0YM?format=jpg&name=900x900)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057721464313487360)\n\n20 AI Concepts You Must Understand in 2026\n\n[![](https://pbs.twimg.com/profile_images/1999441729800536065/6-3Y5xyR_normal.jpg)](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[Rahul](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[@sairahul1](http://x.com/i/article/2057718343466201088/sairahul1)\n\n·\n\nMay 22\n\nFollow\n\nClick to Follow sairahul1\n\n27\n\n208\n\n1.2K\n\n[3.6M](http://x.com/i/article/2057718343466201088/sairahul1/status/2057740928908161461/analytics)\n\nEveryone uses AI.\n\nAlmost nobody understands how it actually works.\n\nPeople throw around words like transformers, embeddings, RAG, agents, RLHF…\n\n…as if everyone already knows.\n\nMost don't.\n\nAnd honestly?\n\nAI is not that complicated once you see the mental models.\n\nChatGPT. Claude. Midjourney. Cursor. Coding agents.\n\nThey all make sense once you understand the 20 ideas below.\n\nNo PhD required. No jargon. Just simple explanations and visuals.\n\nSave this. You will use it again.\n\n## \n\nPART 1: HOW AI ACTUALLY WORKS (The foundation everything is built on)\n\n1\\. Neural Networks\n\n[![Image](https://pbs.twimg.com/media/HI58qtEbUAAyrSy?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719152849408000)\n\nThe brain of every AI model.\n\nA neural network is a pipeline of layers.\n\n→ Data enters the input layer → Passes through hidden layers → Exits as a prediction\n\nEach connection has a \"weight\" — a tiny score that controls how much influence one neuron has on the next.\n\nTraining = adjusting billions of these weights until the output is accurate.\n\nSimple idea. Insane at scale.\n\nGPT-4 has \\~1.8 trillion parameters. Claude 3 Opus has hundreds of billions.\n\nAll from the same basic concept: layered neurons with adjustable connections.\n\n## \n\n2\\. Tokenization\n\n[![Image](https://pbs.twimg.com/media/HI59HOVbkAA2OOE?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719642815434752)\n\nBefore AI reads your text, it breaks it into pieces called tokens.\n\nNot always full words.\n\n\"playing\" → \"play\" + \"ing\" \"ChatGPT\" → \"Chat\" + \"G\" + \"PT\" \"dog\" → \"dog\" (stays whole)\n\nWhy not just use full words?\n\nLanguage is messy. New words. Typos. Mixed languages. A fixed vocabulary of words would be impossibly large.\n\nTokens are reusable building blocks.\n\nEven if the model has never seen a word, it can understand it by breaking it into familiar pieces.\n\nRough rule: 1 token ≈ 0.75 words.\n\n1000 tokens ≈ 750 words.\n\n## \n\n3\\. Embeddings\n\n[![Image](https://pbs.twimg.com/media/HI59_uXa0AAxbxR?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720613486383104)\n\nOnce text is tokenized, each token becomes a number.\n\nThat number is an embedding — a vector that represents meaning.\n\nThink of it as Google Maps for words.\n\n→ \"Doctor\" and \"Nurse\" sit close together → \"Doctor\" and \"Pizza\" sit far apart → \"King\" minus \"Man\" plus \"Woman\" ≈ \"Queen\"\n\nThe model doesn't understand words like you do.\n\nIt understands distance and direction.\n\nThis is what powers: → Semantic search → Recommendations → RAG systems\n\nEverything that \"understands intent\" uses embeddings under the hood.\n\n## \n\n4\\. Attention\n\n[![Image](https://pbs.twimg.com/media/HI5-MFQaIAAhdVj?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720825789423616)\n\nThe word \"Apple\" means different things:\n\n→ \"I ate an Apple\" → fruit → \"I bought Apple stock\" → company\n\nEmbeddings alone can't solve this.\n\nAttention can.\n\nAttention lets every word look at every other word in a sentence and decide",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2057718343466201088"
+    },
     "http://x.com/i/article/2057849087236419584": {
       "cleaner_v": 2,
       "content_type": "",
@@ -35554,8 +35568,8 @@
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
       "https://x.com/Av1dlive/status/2057142822470590546",
-      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057190057954721917",
+      "https://x.com/Av1dlive/status/2057201240573128709",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
       "https://x.com/Av1dlive/status/2057145889970626894",
@@ -35669,8 +35683,8 @@
       "https://x.com/aswincode/status/2057540973652037902",
       "http://x.com/i/article/2057090128313466880",
       "https://x.com/aswincode/status/2057553168049791274",
-      "https://x.com/aswincode/status/2057799174272192876",
       "https://x.com/aswincode/status/2057643114907529435",
+      "https://x.com/aswincode/status/2057799174272192876",
       "https://x.com/aswincode/status/2057553886185927005"
     ],
     "2057590224729911346": [
@@ -35686,6 +35700,10 @@
     ],
     "2057737778696495367": [
       "https://x.com/Jackywine/status/2057737778696495367"
+    ],
+    "2057740928908161461": [
+      "https://x.com/sairahul1/status/2057740928908161461",
+      "http://x.com/i/article/2057718343466201088"
     ],
     "2057745930896756960": [
       "https://x.com/MaxForAI/status/2057745930896756960",
@@ -35732,7 +35750,13 @@
     ],
     "2057868339746398361": [
       "https://x.com/DamiDefi/status/2057868339746398361",
-      "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg",
+      "https://x.com/DamiDefi/status/2058090222559035761",
+      "https://x.com/DamiDefi/status/2058086368086048976",
+      "https://x.com/DamiDefi/status/2058090581172068546",
+      "https://x.com/DamiDefi/status/2058090504575738032",
+      "https://x.com/DamiDefi/status/2058090308030673108",
+      "https://x.com/DamiDefi/status/2058086081573142996"
     ],
     "2057871169702027462": [
       "https://x.com/ErdalToprak/status/2057871169702027462",
@@ -35744,13 +35768,13 @@
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643",
-      "https://x.com/Saboo_Shubham_/status/2057902016438112664",
       "https://x.com/Saboo_Shubham_/status/2057892999863185576",
+      "https://x.com/Saboo_Shubham_/status/2057902016438112664",
       "https://x.com/Saboo_Shubham_/status/2058064618787151914",
       "https://x.com/Saboo_Shubham_/status/2057900693638496759",
       "https://x.com/Saboo_Shubham_/status/2057880633062707249",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490"
+      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
+      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
     ],
     "2057882419257311652": [
       "https://x.com/reach_vb/status/2057882419257311652",
@@ -35775,6 +35799,6 @@
       "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
     ]
   },
-  "updated_at": "2026-05-23T07:17:35Z",
+  "updated_at": "2026-05-23T09:14:05Z",
   "window": "recent"
 }
