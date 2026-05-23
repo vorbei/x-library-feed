@@ -3147,6 +3147,19 @@
       "title": "",
       "url": "http://x.com/i/article/2057510372836327424"
     },
+    "http://x.com/i/article/2057568533354356736": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057568533354356736",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057568533354356736/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI8jaV1WYAAl5RB?format=jpg&name=900x900)](http://x.com/i/article/2057568533354356736/cyrilXBT/article/2058040699300241828/media/2057902490176086016)\n\nHow to Link Notes Together in Obsidian and Why It Changes Everything\n\n[![](https://pbs.twimg.com/profile_images/2035229727414534145/aWap3Jbq_normal.jpg)](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n[CyrilXBT](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n[@cyrilXBT](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n·\n\n4h\n\nFollow\n\nClick to Follow cyrilXBT\n\n9\n\n16\n\n87\n\n[10K](http://x.com/i/article/2057568533354356736/cyrilXBT/status/2058040699300241828/analytics)\n\nMost people use Obsidian as a filing cabinet.\n\nNotes go in. Notes stay there. Occasionally you search for one and find it. You read it. You close it. It goes back to sitting alone in its folder.\n\nThat is not a second brain.\n\nThat is an expensive text editor.\n\nThe feature that transforms Obsidian from a filing cabinet into a thinking system is linking. Specifically the ability to create connections between notes that mirror the way ideas actually relate to each other in your mind.\n\nWhen your notes are linked they stop being isolated documents and start being a network of knowledge.\n\nA thought you captured six months ago becomes visible when you are working on something related today.\n\nA pattern that exists across twelve different notes becomes identifiable without you manually reading all twelve.\n\nA decision you made in January becomes context for a decision you are making in May without you having to remember that January even happened.\n\nThis article is the complete guide to linking in Obsidian. What it is, how it works, every linking method available, and the specific practices that turn a collection of connected notes into genuine intellectual leverage.\n\n## \n\nWhat Linking Actually Does to Your Thinking\n\nBefore the mechanics understand the principle.\n\nHuman memory is associative. You do not remember things in isolation. You remember them in relation to other things. A smell triggers a memory. A word triggers a concept. A concept triggers a connected concept.\n\nThe traditional folder system ignores this. It organizes notes by category the way a library organizes books by subject. The chemistry books are in the chemistry section. The history books are in the history section. A book that connects chemistry to history is shelved in one place or the other. The connection is lost in the shelving decision.\n\nObsidian's linking system does not make you choose.\n\nA note about a chemistry concept can be linked to a note about a historical event without either note moving anywhere. The connection exists independently of the storage location.\n\nOver time your vault stops being a collection of categorized notes and starts being a map of how your ideas connect.\n\nThat map is where the real thinking lives.\n\n## \n\nThe Three Types of Links in Obsidian\n\nObsidian has three distinct linking mechanisms. Each one serves a different purpose and creates a different kind of connection.\n\nInternal Links\n\nInternal links connect one note to another note inside your vault.\n\nThe syntax is double brackets around the note name:\n\n\\[\\[Note Name\\]\\]\n\nWhen you type this in any note Obsidian creates a clickable link to the referenced note. Click the link and you navigate to that note instantly.\n\nIf the referenced note does not exist yet Obsidian creates an unresolved link shown in a different color. This is actually a feature not a bug. You can reference a note you intend to create before you create it and Obsidian tracks the connection as a placeholder.\n\nInternal links are the foundation of every linked vault. Every other linking mechanism builds on top of them.\n\nBlock Links\n\nBlock links connect to a specific paragraph or section within a note rather than to t",
+      "title": "",
+      "url": "http://x.com/i/article/2057568533354356736"
+    },
     "http://x.com/i/article/2057582083208257538": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3240,6 +3253,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2057869366566457344"
+    },
+    "http://x.com/i/article/2058082857541902336": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058082857541902336",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058082857541902336/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI_HfOQaQAA3iQM?format=jpg&name=900x900)](http://x.com/i/article/2058082857541902336/amitiitbhu/article/2058086754025136494/media/2058082893948403712)\n\nMath Behind Large Language Model\n\n[![](https://pbs.twimg.com/profile_images/1550394637075943424/PAdpHzNV_normal.jpg)](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n[Amit Shekhar](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n[@amitiitbhu](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n·\n\n1h\n\nFollow\n\nClick to Follow amitiitbhu\n\n6\n\n26\n\n[363](http://x.com/i/article/2058082857541902336/amitiitbhu/status/2058086754025136494/analytics)\n\nLarge Language Models can feel like magic. But underneath, every LLM is built on a small set of mathematical ideas - attention, scaling, gradients, loss, position encoding, and normalization. Once we understand the math behind each of these, the magic turns into clear, simple steps.\n\nWe will cover the following blogs in this series:\n\n1. Math behind Attention - Q, K, and V\n2. Math behind √dₖ Scaling Factor in Attention\n3. Math Behind Backpropagation\n4. Math Behind Gradient Descent\n5. Math Behind Cross-Entropy Loss\n6. Math Behind RoPE (Rotary Position Embedding)\n7. RMSNorm (Root Mean Square Layer Normalization)\n\nLet's get started.\n\n## \n\n1\\. Math behind Attention - Q, K, and V\n\nIn this blog, we will learn about the math behind Attention: Query(Q), Key(K), and Value(V) with a step-by-step numeric example.\n\nThe idea is simple: we compare what each word is looking for (Query) with what every other word offers (Key), and then use those comparisons to collect the actual information (Value) from the most relevant words.\n\nEvery Large Language Model uses this exact computation at its core.\n\nRead the full blog: \n\n[Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)\n\n## \n\n2\\. Math behind √dₖ Scaling Factor in Attention\n\nIn this blog, we will learn about why we scale the dot product attention by √dₖ in the Transformer architecture with a step-by-step numeric example.\n\nThe part we are focusing on today is / sqrt(d\\_k). This is the scaling factor. We divide the dot product scores by the square root of the Key dimension before passing them to softmax.\n\nThis single line, / sqrt(d\\_k), looks simple. But without it, the Transformer architecture would struggle to learn effectively, especially with larger dimensions.\n\nRead the full blog: \n\n[Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)\n\n## \n\n3\\. Math Behind Backpropagation\n\nIn this blog, we will learn about the math behind backpropagation in neural networks.\n\nBackpropagation is the core algorithm that allows neural networks to learn from their mistakes. Without it, training neural networks efficiently would not be possible.\n\nBackpropagation is a method used to calculate how much each weight in a neural network contributed to the error, so that we can adjust those weights to reduce the error.\n\nRead the full blog: \n\n[Math Behind Backpropagation](https://outcomeschool.com/blog/math-behind-backpropagation)\n\n## \n\n4\\. Math Behind Gradient Descent\n\nIn this blog, we will learn about the math behind gradient descent with a step-by-step numeric example.\n\nGradient descent is the most fundamental optimization algorithm used to train machine learning and deep learning models.\n\nIn simple words:\n\nGradient Descent = A simple way to slide down the error curve step by step until we reach the lowest point.\n\nRead the full blog: \n\n[Math Behind Gradient Descent](https://outcomeschool.com/blog/math-behind-gradient-descent)\n\n## \n\n5\\. Math Behind Cross-Entropy Loss\n\nIn this blog, we will learn about the math behind Cross-Entropy Loss with a step-by-step numeric example.\n\nIt is the most widely used loss function in classification tasks",
+      "title": "",
+      "url": "http://x.com/i/article/2058082857541902336"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -35568,16 +35594,16 @@
       "https://x.com/Av1dlive/status/2057142081018315116",
       "http://x.com/i/article/2057091363322376192",
       "https://x.com/Av1dlive/status/2057142822470590546",
-      "https://x.com/Av1dlive/status/2057190057954721917",
       "https://x.com/Av1dlive/status/2057201240573128709",
+      "https://x.com/Av1dlive/status/2057190057954721917",
       "https://x.com/Av1dlive/status/2057156455380447609",
       "https://x.com/Av1dlive/status/2057410176609849664",
-      "https://x.com/Av1dlive/status/2057145889970626894",
-      "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057157047347749095",
+      "https://x.com/Av1dlive/status/2057171292475072987",
       "https://x.com/Av1dlive/status/2057154956256481765",
-      "https://x.com/Av1dlive/status/2057155376106307883",
-      "https://x.com/Av1dlive/status/2057143106819211704"
+      "https://x.com/Av1dlive/status/2057145889970626894",
+      "https://x.com/Av1dlive/status/2057143106819211704",
+      "https://x.com/Av1dlive/status/2057155376106307883"
     ],
     "2057153744630890620": [
       "https://x.com/jxnlco/status/2057153744630890620",
@@ -35768,13 +35794,13 @@
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
-      "https://x.com/Saboo_Shubham_/status/2057892999863185576",
+      "https://x.com/Saboo_Shubham_/status/2057902072335642643",
       "https://x.com/Saboo_Shubham_/status/2057902016438112664",
+      "https://x.com/Saboo_Shubham_/status/2057892999863185576",
       "https://x.com/Saboo_Shubham_/status/2058064618787151914",
       "https://x.com/Saboo_Shubham_/status/2057900693638496759",
       "https://x.com/Saboo_Shubham_/status/2057880633062707249",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
+      "https://x.com/Saboo_Shubham_/status/2057880653698658490"
     ],
     "2057882419257311652": [
       "https://x.com/reach_vb/status/2057882419257311652",
@@ -35797,8 +35823,17 @@
       "https://jm-style.qiaomu.ai/",
       "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg",
       "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
+    ],
+    "2058040699300241828": [
+      "https://x.com/cyrilXBT/status/2058040699300241828",
+      "http://x.com/i/article/2057568533354356736",
+      "https://x.com/cyrilXBT/status/2058042529379979745"
+    ],
+    "2058086754025136494": [
+      "https://x.com/amitiitbhu/status/2058086754025136494",
+      "http://x.com/i/article/2058082857541902336"
     ]
   },
-  "updated_at": "2026-05-23T09:14:05Z",
+  "updated_at": "2026-05-23T09:18:39Z",
   "window": "recent"
 }
