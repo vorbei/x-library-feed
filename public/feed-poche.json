@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 386,
+      "count": 389,
       "name": "Development"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 295,
+      "count": 297,
       "name": "Articles"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 132,
+      "count": 133,
       "name": "Media"
     },
     {
@@ -38,8 +38,241 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2140,
+  "item_count": 2146,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_image_urls": [
+        "https://i.ytimg.com/vi/Lri2LNYtERM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCG4Sx17F05CzOGo_TPKw01b6tQqQ&days_since_epoch=20596"
+      ],
+      "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
+      "category": "Media",
+      "created_at": "2026-05-23T02:25:29.658879Z",
+      "description": "Stanford Online • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k17f4f8caa506fza6q0ve8jhc1878v87",
+      "og_image_url": "https://i.ytimg.com/vi/Lri2LNYtERM/hqdefault.jpg",
+      "recommended_at": "2026-05-23T02:25:50.037000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "computer-systems",
+        "distributed-systems",
+        "stanford-university"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:50.037000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Stanford CS153 Frontier Systems",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rN447WKQ5oz_YdYbS74M5IA",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://media.performance.dev/cdn-cgi/image/width=1200,height=630,quality=100,fit=cover,format=auto/posts/p_gAMR6Z7y49Fp/7gJn0_MsDnp7.png",
+        "https://performance.dev/avatar-40.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=893,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/yLYBhiiY_FsV.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/b5RGjc_nI54O.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=680,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/IdWPGINS86Ge.png",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/2Jd6ZXiwNCwp.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/2__J_PuPKayE.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/MuG3qxjnzrQq.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/KgHIdD85Bfr5.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/jvagQZ3l8V3y.jpg",
+        "https://media.performance.dev/cdn-cgi/image/width=400,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/Y6mUzOgZJJHW.jpg"
+      ],
+      "article_text": "How's Linear so fast? A technical breakdown\nA few milliseconds is all it takes to update an issue in Linear. A traditional CRUD app doing the same thing takes about 300ms. How do they do it? There's no secret silver bullet to performance. The reality is that it's built from the ground up on the right foundation, then improved by countless decisions. My goal is to walk through some of the techniques that make Linear feel the way it does and help you implement the same.\n[What I'll cover](https://performance.dev#what-ill-cover)\nDatabase in the browser\nMaking the first load feel instant\nThe sync engine\nDesigned for speed\nAnimations\nA quick disclaimer: I've never worked at [Linear](https://linear.app) and have never seen their code. Everything I share comes from my personal experience, studying their app, reading their blog posts, or watching their conference talks. I simply love building web apps and have been using Linear since their beta launch. Also, the article’s hero image comes from a video by [Meg Wayne](https://x.com/megxwayne), whose work for Linear is phenomenal.\n[Database in the browser](https://performance.dev#database-in-the-browser)\nMost web apps live inside the same loop. The user clicks. The browser fires an HTTP request. A server queries a database and sends it back. The browser repaints. The end result is a spinner, a skeleton, or a frozen UI for a few hundred milliseconds while the app waits on the network.\nLinear inverts the traditional relationship. The actual database the UI reads from is in the browser, in IndexedDB. Mutations apply locally first, then asynchronously push to the server, which broadcasts deltas back to other clients via WebSocket.\nIn my opinion, this is the most critical piece to Linear's performance. When your goal is to build a fast web app the biggest bottleneck you will fight is the network. Any data sent between the client and server costs hundreds of milliseconds. The best approach is to eliminate the need for a network request entirely: which is exactly what Linear does.\nI'll be repeating this a lot, but the secret to building incredible web apps is by hiding all the network requests from the user. The more loading states you can avoid the better.\nHere's an example of how simple Linear's requests are:\n// A traditional web app updating the server\nasync function updateIssue({ issue }) {\nshowSpinner();\nconst response = await fetch(`/api/issues/${issue.id}`, {\nmethod: \"PATCH\",\nbody: JSON.stringify({ title: issue.title }),\n});\nconst updated = await response.json();\nsetIssue(updated)\nhideSpinner();\n}\n// vs Linear\nissue.title = \"Faster app launch\";\nissue.save();\nThe first line, issue.title = \"Faster app launch\"\n, updates an in-memory datastore (MobX observable in Linear's case) . The second line, issue.save();\n, queues a transaction that their sync engine batches and flushes to the server. The key here is that the UI re-renders synchronously off the local, in-memory, update. There are no spinners because there is nothing to wait for because the data is synced in the backround. This is the magic of treating the browser as the database for each user.\n[Tuomas](https://x.com/artman), one of Linear's co-founders, said this at a conference in 2024: 'Literally the first lines of code that I wrote was the sync engine, which is very uncommon to what you usually do when you're a startup.' From day one, Linear knew the approach they wanted to take and the tradeoffs it would take.\nI know most people won't build a custom sync engine like Linear just to make their app feel fast and they don't need to. For most use cases, libraries like [Tanstack Query](https://tanstack.com/query/latest) and [SWR](https://swr.vercel.app/) can get surprisingly close with optimistic updates. Most web apps feel slow because the UI waits for each network request to complete before updating state. For most usecases the network request will succeed so you should take advantage of that and optimistically update your state.\n// opti",
+      "article_title_extracted": "How's Linear so fast? A technical breakdown",
+      "category": "Articles",
+      "created_at": "2026-05-23T02:25:07.834410Z",
+      "description": "breakdown of the architecture behind Linear's speed: local-first sync, MobX observables, instant first loads, and a keyboard-first design.",
+      "domain": "performance.dev",
+      "embed_type": "",
+      "id": "k170h71z7zw5xf82hzqahrvkr187875y",
+      "og_image_url": "https://media.performance.dev/cdn-cgi/image/width=1200,height=630,quality=100,fit=cover,format=auto/posts/p_gAMR6Z7y49Fp/7gJn0_MsDnp7.png",
+      "recommended_at": "2026-05-23T02:25:48.028000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-performance",
+        "software-architecture",
+        "linear-app"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:48.028000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "How's Linear so fast? A technical breakdown",
+      "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_image_urls": [
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.170lo5~ctoj1o.png?dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/images/og/default.png",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-opencode.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-openclaw.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-skills.webp&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-hermes.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1"
+      ],
+      "article_title_extracted": "xAI",
+      "category": "Development",
+      "created_at": "2026-05-23T02:24:11.580485Z",
+      "description": "xAI builds Grok — frontier AI models for reasoning, voice, image generation, and more. Build with the Grok API.",
+      "domain": "x.ai",
+      "embed_type": "",
+      "id": "k175r30h6gm1rakrk3qdg3wwjs879q5q",
+      "og_image_url": "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.170lo5~ctoj1o.png?dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+      "recommended_at": "2026-05-23T02:25:46.087000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "grok",
+        "machine-learning"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:46.087000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "xAI",
+      "url": "https://x.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f76163fe710723283a55b9f60d5caca6697dffd-1920x1080.jpg&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7af1880d305b982764cfefc7dce87c677f1b0254-1634x1008.png&w=3840&q=75",
+        "https://cdn.sanity.io/images/4zrzovbb/website/8831fc381f1087ce855b4fbb4f080b2685ea38ec-1200x630.jpg"
+      ],
+      "article_text": "Project Glasswing: An initial update\nLast month, we launched [Project Glasswing](https://www.anthropic.com/glasswing), our collaborative effort to secure the world’s most critical software before increasingly capable AI models can be turned against it.\nSince then, we and our approximately 50 partners have used Claude Mythos Preview to find more than ten thousand high- or critical-severity vulnerabilities across the most systemically important software in the world. Progress on software security used to be limited by how quickly we could find new vulnerabilities. Now it’s limited by how quickly we can verify, disclose, and patch the large numbers of vulnerabilities found by AI.\nIn this post, we discuss what we’ve learned about this critical challenge for cybersecurity in the first weeks of Project Glasswing. We focus on the early public evidence of Mythos Preview’s performance, on the initial results of our effort to scan thousands of open-source software projects, and on what this progress means for cyberdefenders today. We also cover what to expect next from Project Glasswing, and how we’re thinking about releasing Mythos-class models in the future.\nOur early results\nOur approach to discussing Mythos Preview’s findings\nThe software industry’s longstanding convention is to disclose new vulnerabilities 90 days after they’re discovered (or, if a patch is created before the 90 days is up, around 45 days after the patch becomes available). This allows time for end users to update their software before a vulnerability can be exploited by attackers. Our own [Coordinated Vulnerability Disclosure policy](https://www.anthropic.com/coordinated-vulnerability-disclosure) takes this approach.\nHowever, this means that disclosed vulnerabilities are a lagging indicator of the accelerating frontier of AI models’ cyber capabilities: we’re not yet at the point where we can fully detail our partners’ findings with Mythos Preview without putting end users at risk. Instead, we provide illustrative examples of the model’s performance, along with aggregate statistics on our progress to date. Once patches for the vulnerabilities that Mythos Preview has discovered are widely deployed, we’ll provide much more detail about what we’ve learned.\nEvidence from our partners and external testers\nProject Glasswing’s initial partners build and maintain software that is fundamental to the functioning of the internet and other essential infrastructure. Fixing flaws in their code reduces risk for the many other organizations that rely on it, and therefore reduces risk for billions of end users.\nAfter one month, most partners have each found hundreds of critical- or high-severity vulnerabilities in their software. Collectively, they’ve found more than ten thousand. Several have told us that their rate of bug-finding has increased by more than a factor of ten. For instance, [Cloudflare](https://blog.cloudflare.com/cyber-frontier-models/) has found 2,000 bugs (400 of which are high- or critical-severity) across their critical-path systems, with a false positive rate that Cloudflare’s team considers better than human testers.\nThis tallies with external testers’ experience of Mythos Preview’s performance, and with recent additional evaluations of the model:\n- The UK’s AI Security Institute\n[reports](https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing)that Mythos Preview is the first model to solve both of their cyber ranges (simulations of multistep cyberattacks) end to end; - Mozilla\n[found and fixed](https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/)[271 vulnerabilities](https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/)in Firefox 150 while testing Mythos Preview—over ten times more than they found in Firefox 148 with Claude Opus 4.6; - XBOW, an independent security platform,\n[reports](https://xbow.com/blog/mythos-offensive-security-xbow-evaluation)that Mythos Preview is a “significant",
+      "article_title_extracted": "Project Glasswing: An initial update \\ Anthropic",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-23T02:24:07.263546Z",
+      "description": "An early update on what we've learned from Project Glasswing.",
+      "domain": "www.anthropic.com",
+      "embed_type": "",
+      "id": "k1723yar07jpvehahtrx39trns87843s",
+      "og_image_url": "https://cdn.sanity.io/images/4zrzovbb/website/8831fc381f1087ce855b4fbb4f080b2685ea38ec-1200x630.jpg",
+      "recommended_at": "2026-05-23T02:25:44.217000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-safety",
+        "interpretability",
+        "machine-learning"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:44.217000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Project Glasswing: An initial update \\ Anthropic",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_image_urls": [
+        "https://glimm.dev/opengraph-image?8d081aec229730dd",
+        "https://glimm.dev/twitter-image?663440559795821c",
+        "https://glimm.dev/shader-diagram.svg"
+      ],
+      "article_title_extracted": "glimm — shader-driven page transitions",
+      "category": "Development",
+      "created_at": "2026-05-23T02:23:48.614737Z",
+      "description": "Shader-driven page transitions for React + Next.js. Sub-10kb, GPU-composited, drop-in.",
+      "domain": "glimm.dev",
+      "embed_type": "",
+      "id": "k178terhcj80pp3t03amy2bm6h878abj",
+      "og_image_url": "https://glimm.dev/opengraph-image?8d081aec229730dd",
+      "recommended_at": "2026-05-23T02:25:42.298000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-development",
+        "shaders",
+        "react"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:42.298000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "glimm — shader-driven page transitions",
+      "url": "https://glimm.dev/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_image_urls": [
+        "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_GNcck8U8wHb1G8UbTfcoqUndFk7L"
+      ],
+      "article_title_extracted": "bigRAG Docs",
+      "category": "Development",
+      "created_at": "2026-05-23T02:23:41.730372Z",
+      "description": "The open-source RAG platform you can self-host. Document ingestion, vector search, and retrieval-augmented generation on your own infrastructure.",
+      "domain": "rag.computer",
+      "embed_type": "",
+      "id": "k17d78wg4jgc7nq6z215rjkxr5878men",
+      "og_image_url": "https://cloud.poche.app/api/storage/b32395f2-d87d-41ea-bef8-35f38d67922c",
+      "recommended_at": "2026-05-23T02:25:40.482000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "rag",
+        "self-hosted",
+        "ai-infrastructure"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-23T02:25:40.482000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "bigRAG Docs",
+      "url": "https://rag.computer/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-05-22T15:39:51.302821Z",
       "article_image_urls": [
@@ -91358,7 +91591,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 1987,
+      "count": 1993,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -91394,5 +91627,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-22T21:46:11.724120Z"
+  "updated_at": "2026-05-23T04:28:24.429138Z"
 }
