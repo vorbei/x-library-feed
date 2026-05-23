@@ -250,6 +250,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is what happens when you actually connect Claude to the Obsidian vault and let it study your notes instead of just saving them.\n\nTwo months later it knows your thinking better than you do. https://t.co/zoLHbJ6DFc",
+      "text_zh": "这就是当你真正将Claude连接到Obsidian知识库，让它研究你的笔记而非仅仅保存时会发生的事情。\n\n两个月后，它比你自己更了解你的思维方式。https://t.co/zoLHbJ6DFc",
+      "text_zh_hash": "a6aee910100be6ca",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DamiDefi/status/2057868339746398361"
     },
     {
@@ -373,6 +376,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Phenomenal article on credential brokering. Your AI agent shouldn't be reading your API keys.\n\n@dangtony98 cooked 👇",
+      "text_zh": "关于凭证中介的精彩文章。你的AI代理不应该读取你的API密钥。\n\n@dangtony98 写得真棒 👇",
+      "text_zh_hash": "991f9aab1aff18f5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/JakeHulberg/status/2057943104385339835"
     },
     {
@@ -414,6 +420,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Couple days back @swyx posted a challenge: code a ~10M transformer in JAX/Flax/Optax, run it in free Colab, and train it on addition w/ your agent!\n\nI gave Codex the screenshot + /goal.\n\nIt controlled Colab through Chrome, used my signed-in session, handled runtime/editing weirdness, ran the T4 job, then used subagents to audit the result.\n\nEnd state: 10,652,557 params, ~19 min train, 99/100 exact random checks 🤯\n\nStill needs cleaner evals, but autonomously babysiting the training run over chrome is pretty wild!",
+      "text_zh": "几天前，@swyx 发起了一个挑战：用 JAX/Flax/Optax 编写一个约 1000 万参数的 Transformer，在免费版 Colab 上运行，并用你的智能体训练它完成加法任务！\n\n我把截图和 /goal 指令给了 Codex。\n\n它通过 Chrome 控制 Colab，使用我登录的会话，处理了运行时/编辑的异常问题，运行了 T4 任务，然后调用子智能体审计了结果。\n\n最终成果：10,652,557 个参数，训练约 19 分钟，随机检查 99/100 完全正确 🤯\n\n虽然还需要更干净的评估，但能通过 Chrome 自主看护训练过程，已经相当惊人了！",
+      "text_zh_hash": "4861883eba4a7dc2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/reach_vb/status/2057882419257311652"
     },
     {
