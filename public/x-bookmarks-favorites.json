@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The experiments conducted in this post illustrate how early we are as an industry on eval tooling.  \n\nSome takeaways and related thoughts:\n\n1. Naively applying automation (which many current frameworks do) is likely to fail. \n\n2. It's easy to get fooled that automation (esp overzealous automation) is giving you valuable insights.  \nStay skeptical at all times!\n\n3. We have to design eval workflows so human-in-the-loop accelerates effort while helping you externalize \nwhat \"good looks like\"\n\n4. Qualitative analysis hasn't sufficiently made its way into eval tooling as much as it should.   There are opportunities to design better automation here.  (QA is super underrated for evals btw)",
+      "text_zh": "本文中的实验表明，我们在评估工具领域仍处于行业早期阶段。\n\n一些要点及相关思考：\n\n1. 盲目应用自动化（当前许多框架的做法）很可能会失败。\n\n2. 很容易被自动化（尤其是过度自动化）带来的所谓\"宝贵洞察\"所迷惑。  \n请始终保持怀疑态度！\n\n3. 我们必须设计评估工作流，让人机协同既能加速工作，又能帮助你外化  \n\"何为优秀的标准\"\n\n4. 定性分析在评估工具中的渗透程度远未达到应有水平。  这里存在设计更优自动化的机会。（顺便一提，定性分析在评估中严重被低估）",
+      "text_zh_hash": "5bb55ed59ddaa5c6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/HamelHusain/status/2057875320011882923"
     },
     {
@@ -109,6 +112,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Been thinking about writing a similar article focused on Skills, Subagents and how to handle the context window with Hooks defined in their frontmatter\n\nWhat do you think, would this be useful? https://t.co/au7w5SXTWs",
+      "text_zh": "一直在考虑写一篇类似文章，重点聚焦技能（Skills）、子代理（Subagents），以及如何通过其 frontmatter 中定义的 Hooks 来处理上下文窗口。\n\n你觉得这个方向有用吗？https://t.co/au7w5SXTWs",
+      "text_zh_hash": "c4efd60c4a1b1f62",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dani_avila7/status/2057918166244716862"
     },
     {
