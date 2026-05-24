@@ -41,6 +41,40 @@
   "item_count": 2150,
   "items": [
     {
+      "article_fetch_attempted_at": "2026-05-24T17:38:57.050923Z",
+      "article_image_urls": [
+        "https://slim.tools/og-image.png"
+      ],
+      "article_title_extracted": "Slim Tools | A Smaller Runtime Tool Surface for AI Agents Slim Tools | A Smaller Runtime Tool Surface for AI Agents",
+      "category": "Tools",
+      "created_at": "2026-05-24T14:47:37.339487Z",
+      "description": "Slim Tools connects MCP and OpenAPI services behind one compact MCP URL, so agents can discover and call capabilities at runtime instead of loading every tool in context.",
+      "domain": "slim.tools",
+      "embed_type": "",
+      "id": "k1793vvwazdzvp3p2ey3rk8m3x87bbt2",
+      "og_image_url": "https://cloud.poche.app/api/storage/c76dc95b-ba2b-417b-a229-3737d3c61abf",
+      "recommended_at": "2026-05-24T14:48:33.951000Z",
+      "source": "poche@fonter",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "mcp",
+        "openapi"
+      ],
+      "teams": [
+        {
+          "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
+          "name": "fonter",
+          "recommended_at": "2026-05-24T14:48:33.951000Z",
+          "recommended_by": "fonter",
+          "slug": "fonter"
+        }
+      ],
+      "title": "Slim Tools | A Smaller Runtime Tool Surface for AI Agents",
+      "url": "https://slim.tools/",
+      "x_status_id": null
+    },
+    {
       "article_extraction": "trafilatura",
       "article_image_urls": [
         "https://cdn.shopify.com/s/files/1/0516/3761/6830/files/soundcore-liberty-5-pro-max-ai-recording-earbuds.png?v=1779416185",
@@ -1481,42 +1515,6 @@
       ],
       "title": "browse.sh",
       "url": "https://browse.sh/",
-      "x_status_id": null
-    },
-    {
-      "article_image_urls": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/ac/e0/f5ace02b-5fd5-55d3-4acb-7a153f5369a5/Placeholder.mill/1200x630wa.jpg",
-        "https://apps.apple.com/assets/artwork/1x1.gif"
-      ],
-      "article_text": "iPhone 专区 iPhone iPad Mac Vision Watch 搜索 Today 游戏 App 平台 iPhone iPad Mac Vision Watch 吃一点 - Live图记录饮食&AI热量识别&体重&喝水打卡 奶茶咖啡甜点轻食正餐，拍照算卡路里 · 食物变贴纸 仅适用于 iPhone 免费 · App 内购买 · 专为 iPhone 设计。未针对 macOS 验证。 分享 8个评分 4.8 年龄分级 9+ 岁 类别 健康健美 开发者 旷 张 语言 ZH + 2 种语言 大小 49.7 MB iPhone 拍一张，就能记录吃的每一口。热量、体重、喝水全都搞定，用 Live 图晒出你的每日饮食~ 吃一点 - 用一种新的方式来记录饮食，晒一晒你的Live图~ 「吃一点」是一款专注于饮食与健康管理的记录打卡工具，用更轻松、有趣的方式，让你看见自己的饮食习惯与身体变化。 【Live 图 · 记录真实一刻，开启Plog】 无需P图，智能一键生成 Live 图记录与分享。 不仅是静态照片，更是有温度、有动态的生活片段。 【AI热量识别 · 吃了什么一拍就知道】 拍下你的食物，AI 自动识别热量与营养信息。 无需手动查找，让记录更简单，也更科学。 【食物贴纸 · 让饮食变有趣】 每一次饮食都可以变成一张专属贴纸。 把你吃过的食物收集起来，拼成属于你的“饮食日记”。 【自由涂鸦 · 你的记录由你定义】 在Live图上记录随手涂鸦、标记、写下心情。 让每一次记录都更有表达感和个性。 【健康记录 · 轻松掌控日常】 不仅记录吃什么，也关注你的身体状态： • 体重记录：清晰查看变化趋势 • 喝水记录：养成良好补水习惯 • 饮食记录：每一餐都有迹可循 【可视化成长 · 看见自己的改变】 从饮食到体重，从习惯到状态，所有数据都会被记录与可视化呈现。 不是为严格控制，而是了解自己，慢慢找到属于自己的健康节奏。 【轻松记录，而不是负担，拒绝焦虑】 这里没有复杂规则，也不需要完美坚持。 你只需要打开 App，随手而拍，一点一点，就会看到改变。 【Plus会员自动订阅说明】 - 您可以解锁所有付费功能，享受未来高级功能的免费更新。 - 确认购买并支付后，费用将从您的 iTunes 账户扣除并自动续订, - 自动续订说明: 苹果 iTunes 账户会在当前订阅周期结束前 24 小时内自动扣费，扣费成功后订阅周期将顺延至下一个周期。 - 取消续订说明: 如需取消自动续订，请在当前订阅周期到期前至少 24小时，在 iOS“设置”>“Apple ID”>“订阅”中手动关闭自动续费功能。 - 试用期说明: 若提供免费试用，除非在试用期结束前取消订阅，否则试用期结束后将自动开通订阅并扣款。已启用订阅后，未使用完的试用期将自动失效。 使用条款：https://my.feishu.cn/wiki/S4BBwkOYZiypT4kOxRlc5Wa2nuc 隐私协议：https://my.feishu.cn/wiki/Bq7IwiuO1iwTgZkgJf6cunQXnNe 更多 评分及评论 4.8 满分 5 分 8 个评分 强烈安利 2天前 有点issue 超级棒，超级方便，很喜欢，能够很好的控制每天的热量，对于我一个减肥中的人来说简直是神仙级别的app 强烈安利 2天前 有点issue 超级棒，超级方便，很喜欢，能够很好的控制每天的热量，对于我一个减肥中的人来说简直是神仙级别的app 推荐 2天前 闹徐 希望这个贴纸效果的颜色可以自己选定，贴纸大小可以自己编辑 推荐 2天前 闹徐 希望这个贴纸效果的颜色可以自己选定，贴纸大小可以自己编辑 颜值太高了 3天前 i我话费呢UN发 真的好用 颜值太高了 3天前 i我话费呢UN发 真的好用 买断支持 5天前 Liberslave 希望可以增加更多功能！比如说添加文字等等 买断支持 5天前 Liberslave 希望可以增加更多功能！比如说添加文字等等 App 隐私 App 隐私 开发者“ 旷 张 ”已表明该 App 的隐私规范可能包括下述数据处理方式。此信息未经 Apple 验证。更多相关信息，请参阅 开发者隐私政策 。 为帮助你进一步理解开发者的回应，请参阅 隐私定义和示例 。 隐私规范可能因你使用的功能或你的年龄等因素而异。 进一步了解 未与你关联的数据 开发者可能会收集以下不会与你的身份关联的数据，并用于以下目的： App 功能 健康与健身 健康 购买项目 购买历史记录 标识符 用户 ID 设备 ID 诊断 崩溃数据 性能数据 其他诊断数据 开发者“ 旷 张 ”已表明该 App 的隐私规范可能包括下述数据处理方式。更多相关信息，请参阅 开发者隐私政策 。 未与你关联的数据 开发者可能会收集以下数据，但数据不会关联你的身份： 健康与健身 购买项目 标识符 诊断 隐私规范可能因你使用的功能或你的年龄等因素而异。 进一步了解 辅助功能 开发者尚未表明此 App 支持哪些辅助功能。 进一步了解 信息 提供者 旷 张 大小 49.7 MB 类别 健康健美 兼容性 设备需装有 iOS 17.6 或更高版本。 iPhone 设备需装有 iOS 17.6 或更高版本。 Mac 需要 macOS 14.6 或更高版本以及装有 Apple M1 或更高版本芯片的 Mac。 Apple Vision 设备需装有 visionOS 1.3 或更高版本。 语言 简体中文和另外2种 简体中文、繁体中文、英语 年龄分级 9+ 9+ 了解更多 包含 健康或保健主题 App内购买 是 年度会员 ¥98.00 永久会员 ¥98.00 永久会员 ¥128.00 月度会员 ¥48.00 进一步了解 版权 © 2026 LiveCnt Inc. 隐私政策 更多来自\"旷 张\"的 App 查看 星习惯 - 自律养成,积分奖励,打卡软件,日常记录,目标计划 用黑星星记录坏习惯，像集卡一样收集星星~ 选择国家或地区 非洲、中东和印度 查看全部 Algeria Angola Armenia Azerbaijan Bahrain Benin Botswana Burkina Faso Cameroun Cape Verde Chad Côte d’Ivoire Congo, The Democratic Republic Of The Egypt Eswatini Gabon Gambia Ghana Guinea-Bissau India Iraq Israel Jordan Kenya Kuwait Lebanon Liberia Libya Madagascar Malawi Mali Mauritania Mauritius Morocco Mozambique Namibia Niger (English) Nigeria Oman Qatar Congo, Republic of Rwanda São Tomé and Príncipe Saudi Arabia Senegal Seychelles Sierra Leone South Africa Sri Lanka Tajikistan Tanzania, United Republic Of Tunisia Turkmenistan United Arab Emirates Uganda Yemen Zambia Zimbabwe 亚太地区 查看全部 Afghanistan Australia Bhutan Brunei Darussalam Cambodia 中国大陆 Fiji 香港 Indonesia (English) 日本 Kazakhstan 대한민국 Kyrgyzstan Lao People's Democratic Republic 澳門 Malaysia (English) Maldives Micronesia, Federated States of Mongolia Myanmar Nauru Nepal New Zealand Pakistan Palau Papua New Guinea Philippines Singapore Solomon Islands 台灣 Thailand Tonga Turkmenistan Uzbekistan Vanuatu Vietnam 欧洲 查看全部 Albania Armenia Österreich Belarus Belgium Bosnia and Herzegovina Bulgaria Croatia Cyprus Czechia Denmark Estonia Finland France (Français) Georgia Deutschland Greece Hungary Iceland Ireland Italia Kosovo Latvia Lithuania Luxembourg (English) Malta Moldova, Republic Of Montenegro Nederland North Macedonia Norway Poland Portugal (Português) Romania Россия Serbia Slovakia Slovenia España Sverige Schweiz Türkiye (English) Ukraine United Kingdom 拉丁美洲和加勒比海地区 查看全部 Anguilla Antigua and Barbuda Argentina (Espa",
-      "article_title_extracted": "‎吃一点 - Live图记录饮食&AI热量识别&体重&喝水打卡 App - App Store",
-      "category": "Tools",
-      "cleaner_v": 2,
-      "created_at": "2026-05-19T15:33:27.986931Z",
-      "description": "吃一点 - 用一种新的方式来记录饮食，晒一晒你的Live图~\n\n「吃一点」是一款专注于饮食与健康管理的记录打卡工具，用更轻松、有趣的方式，让你看见自己的饮食习惯与身体变化。\n\n【Live 图 · 记录真实一刻，开启Plog】\n无需P图，智能一键生成 Live 图记录与分享。\n不仅是静态照片，更是有温度、有动态的生活片段。\n\n【AI热量识别 · 吃了什么一拍就知道】\n拍下你的食物，AI 自动识别热量与营养信息。\n无需手动查找，让记录更简单，也更科学。\n\n【食物贴纸 · 让饮食变有趣】\n每一次饮食都可以变成一张专属贴纸。\n把你吃过的食物收集起来，拼成属于你的“饮食日记”。\n\n【自由涂鸦 · 你的记录由你定义】\n在Live图上记录随手涂鸦、标记、写下心情。\n让每一次记录都更有表达感和个性。\n\n【健康记录 · 轻松掌控日常】\n不仅记录吃什么，也关注你的身体状态：\n• 体重记录：清晰查看变化趋势\n• 喝水记录：养成良好补水习惯\n• 饮食记录：每一餐都有迹可循\n\n【可视化成长 · 看见自己的改变】\n从饮食到体重，从习惯到状态，所有数据都会被记录与可视化呈现。\n不是为严格控制，而是了解自己，慢慢找到属于自己的健康节奏。\n\n【轻松记录，而不是负担，拒绝焦虑】\n这里没有复杂规则，也不需要完美坚持。\n你只需要打开 App，随手而拍，一点一点，就会看到改变。\n\n【Plus会员自动订阅说明】\n- 您可以解锁所有付费功能，享受未来高级功能的免费更新。\n- 确认购买并支付后，费用将从您的 iTunes 账户扣除并自动续订,\n- 自动续订说明:\n苹果 iTunes 账户会在当前订阅周期结束前 24 小时内自动扣费，扣费成功后订阅周期将顺延至下一个周期。\n- 取消续订说明:\n如需取消自动续订，请在当前订阅周期到期前至少 24小时，在 iOS“设置”>“Apple ID”>“订阅”中手动关闭自动续费功能。\n- 试用期说明:\n若提供免费试用，除非在试用期结束前取消订阅，否则试用期结束后将自动开通订阅并扣款。已启用订阅后，未使用完的试用期将自动失效。\n\n使用条款：https://my.feishu.cn/wiki/S4BBwkOYZiypT4kOxRlc5Wa2nuc\n隐私协议：https://my.feishu.cn/wiki/Bq7IwiuO1iwTgZkgJf6cunQXnNe",
-      "domain": "apps.apple.com",
-      "embed_type": "",
-      "id": "k173vb6kjsvdy7p5g0wdvp2cm187129e",
-      "og_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/ac/e0/f5ace02b-5fd5-55d3-4acb-7a153f5369a5/Placeholder.mill/1200x630wa.jpg",
-      "recommended_at": "2026-05-19T15:33:52.799000Z",
-      "source": "poche@fonter",
-      "source_type": "poche",
-      "tags": [
-        "diet-tracking",
-        "ai-nutrition",
-        "health-management"
-      ],
-      "teams": [
-        {
-          "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
-          "name": "fonter",
-          "recommended_at": "2026-05-19T15:33:52.799000Z",
-          "recommended_by": "fonter",
-          "slug": "fonter"
-        }
-      ],
-      "title": "‎吃一点 - Live图记录饮食&AI热量识别&体重&喝水打卡 App - App Store",
-      "url": "https://apps.apple.com/cn/app/%E5%90%83%E4%B8%80%E7%82%B9-live%E5%9B%BE%E8%AE%B0%E5%BD%95%E9%A5%AE%E9%A3%9F-ai%E7%83%AD%E9%87%8F%E8%AF%86%E5%88%AB-%E4%BD%93%E9%87%8D-%E5%96%9D%E6%B0%B4%E6%89%93%E5%8D%A1/id6761377025",
       "x_status_id": null
     },
     {
@@ -94457,5 +94455,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-24T14:10:44.067706Z"
+  "updated_at": "2026-05-24T17:38:57.954708Z"
 }
