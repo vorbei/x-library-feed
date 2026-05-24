@@ -22819,20 +22819,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
     },
-    "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg"
-    },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -35969,9 +35955,9 @@
       "https://x.com/bridge_surf/status/2057416247319618039",
       "http://x.com/i/article/2057407217054199808",
       "https://x.com/bridge_surf/status/2057735081838711165",
+      "https://x.com/bridge_surf/status/2057734897532617020",
       "https://x.com/bridge_surf/status/2057734990105104533",
-      "https://x.com/bridge_surf/status/2057507155360813319",
-      "https://x.com/bridge_surf/status/2057734897532617020"
+      "https://x.com/bridge_surf/status/2057507155360813319"
     ],
     "2057423582276522469": [
       "https://x.com/Suryanshti777/status/2057423582276522469",
@@ -36137,9 +36123,7 @@
       "https://x.com/vista8/status/2058021035715531218",
       "https://jm-style.qiaomu.ai/",
       "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg",
-      "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg",
-      "https://x.com/vista8/status/2058231846081843402",
-      "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg"
+      "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
     ],
     "2058040699300241828": [
       "https://x.com/cyrilXBT/status/2058040699300241828",
@@ -36194,10 +36178,11 @@
       "http://x.com/i/article/2058203569237450753",
       "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522354364338257",
+      "https://x.com/KSimback/status/2058568213227549162",
       "https://x.com/KSimback/status/2058303374173393348",
       "https://x.com/KSimback/status/2058521817422196895",
-      "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522535382139186",
+      "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522436862112176"
     ],
     "2058269663788736907": [
@@ -36214,8 +36199,7 @@
     "2058359677843599494": [
       "https://x.com/janehu07/status/2058359677843599494",
       "http://x.com/i/article/2058357140830683136",
-      "https://x.com/janehu07/status/2058360815191986420",
-      "https://x.com/janehu07/status/2058378575804551251"
+      "https://x.com/janehu07/status/2058360815191986420"
     ],
     "2058402096274141466": [
       "https://x.com/nurijanian/status/2058402096274141466",
@@ -36240,6 +36224,6 @@
       "https://x.com/Hi_Mrinal/status/2058531706202919295"
     ]
   },
-  "updated_at": "2026-05-24T15:17:40Z",
+  "updated_at": "2026-05-24T15:33:05Z",
   "window": "recent"
 }
