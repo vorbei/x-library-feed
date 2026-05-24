@@ -22063,20 +22063,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI2A73FXgAAMPsI.jpg"
     },
-    "https://pbs.twimg.com/media/HI7c3f1bwAA7zY4.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI7c3f1bwAA7zY4.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI7c3f1bwAA7zY4.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI7c3f1bwAA7zY4.jpg"
-    },
     "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -36079,11 +36065,11 @@
     "2057868339746398361": [
       "https://x.com/DamiDefi/status/2057868339746398361",
       "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg",
-      "https://x.com/DamiDefi/status/2058086368086048976",
       "https://x.com/DamiDefi/status/2058090222559035761",
       "https://x.com/DamiDefi/status/2058090504575738032",
-      "https://x.com/DamiDefi/status/2058086081573142996",
-      "https://x.com/DamiDefi/status/2058090581172068546"
+      "https://x.com/DamiDefi/status/2058086368086048976",
+      "https://x.com/DamiDefi/status/2058090581172068546",
+      "https://x.com/DamiDefi/status/2058086081573142996"
     ],
     "2057871169702027462": [
       "https://x.com/ErdalToprak/status/2057871169702027462",
@@ -36095,13 +36081,13 @@
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
+      "https://x.com/Saboo_Shubham_/status/2057902072335642643",
       "https://x.com/Saboo_Shubham_/status/2057892999863185576",
       "https://x.com/Saboo_Shubham_/status/2057902016438112664",
+      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
       "https://x.com/Saboo_Shubham_/status/2058064618787151914",
       "https://x.com/Saboo_Shubham_/status/2057900693638496759",
-      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
+      "https://x.com/Saboo_Shubham_/status/2057880653698658490"
     ],
     "2057882419257311652": [
       "https://x.com/reach_vb/status/2057882419257311652",
@@ -36157,9 +36143,7 @@
     ],
     "2058211100441956805": [
       "https://x.com/junaiddshaukat/status/2058211100441956805",
-      "http://x.com/i/article/2058155680197214208",
-      "https://x.com/junaiddshaukat/status/2057885452800033020",
-      "https://pbs.twimg.com/media/HI7c3f1bwAA7zY4.jpg"
+      "http://x.com/i/article/2058155680197214208"
     ],
     "2058232394046718332": [
       "https://x.com/aryanistweeting/status/2058232394046718332",
@@ -36176,12 +36160,12 @@
     "2058262328496554021": [
       "https://x.com/KSimback/status/2058262328496554021",
       "http://x.com/i/article/2058203569237450753",
+      "https://x.com/KSimback/status/2058521817422196895",
+      "https://x.com/KSimback/status/2058303374173393348",
+      "https://x.com/KSimback/status/2058568213227549162",
+      "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522354364338257",
-      "https://x.com/KSimback/status/2058568213227549162",
-      "https://x.com/KSimback/status/2058303374173393348",
-      "https://x.com/KSimback/status/2058521817422196895",
-      "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522436862112176"
     ],
@@ -36212,11 +36196,11 @@
     "2058489071274533169": [
       "https://x.com/zodchiii/status/2058489071274533169",
       "https://pbs.twimg.com/amplify_video_thumb/2058488662623502336/img/v-Cin-5tZm4enSDJ.jpg",
+      "https://x.com/zodchiii/status/2058500524702388380",
       "https://x.com/zodchiii/status/2058549246740099178",
       "https://x.com/zodchiii/status/2058514005870743941",
       "https://x.com/zodchiii/status/2058490943045505054",
       "https://x.com/zodchiii/status/2058497962209149115",
-      "https://x.com/zodchiii/status/2058500524702388380",
       "https://x.com/zodchiii/status/2058520816086589791"
     ],
     "2058491091754861046": [
@@ -36224,6 +36208,6 @@
       "https://x.com/Hi_Mrinal/status/2058531706202919295"
     ]
   },
-  "updated_at": "2026-05-24T15:33:05Z",
+  "updated_at": "2026-05-24T16:17:43Z",
   "window": "recent"
 }
