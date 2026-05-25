@@ -1384,6 +1384,20 @@
       "title": "Hostinger Horizons",
       "url": "http://aiandtheattorney.com"
     },
+    "http://appmotion.design": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 404: Not Found",
+      "final_url": "http://appmotion.design",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://appmotion.design"
+    },
     "http://birkey.co": {
       "content_type": "text/html; charset=utf-8",
       "description": "",
@@ -1396,6 +1410,78 @@
       "text_excerpt_zh": "",
       "title": "BirkeyCo",
       "url": "http://birkey.co"
+    },
+    "http://component.gallery": {
+      "content_type": "text/html",
+      "description": "An up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building user interfaces.",
+      "final_url": "http://component.gallery",
+      "frameable": null,
+      "image_urls": [
+        "https://component.gallery/open-graph/default.png",
+        "http://component.gallery/_astro/7qjMqjxxOavvcSu2-8QD4RcFjRe7aH6GVJ4cvC4n1Tw_2ovHwf.webp",
+        "http://component.gallery/_astro/DmICReTtv7Z-G4455vgs6elTyiyqgCgkm_RdMYejdQk_ZY9RiB.webp",
+        "http://component.gallery/_astro/8L20zinn_2MfHI91-Hr5wyuMHNztfHZ3cjOeTJhCFfE_2ayaFq.webp",
+        "http://component.gallery/_astro/UmVZYlDDEMTNTv1RPgxC0FVWDiGVHOt7zGFXc1T0OF4_OAhLr.webp",
+        "http://component.gallery/_astro/nZR1up0vS2PdT6P79aBgBClpZinvjRuOC0aa5iopSCU_ZpO5bn.webp",
+        "http://component.gallery/_astro/v3uWL5YTTHc1OZzgZVYCq-0PwHW5171Cdtwk7LK3GOA_Z2tfl0n.webp",
+        "http://component.gallery/_astro/EbRCS_cPC68oBakJE9j-8To_XTvd92z6wRsFiASoiDo_182ctL.webp",
+        "http://component.gallery/_astro/ZeakgyiOEt7ZkMofdiFXb5ZnRqFHsd5ubkmkb8Jmyv4_Z13UOpj.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The Component Gallery",
+      "url": "http://component.gallery"
+    },
+    "http://cta.gallery": {
+      "content_type": "text/html",
+      "description": "Explore CTA.gallery for the web's best Call-to-Actions. Perfect for designers, UI/UX experts, and creatives looking for inspiration to craft CTAs that convert.",
+      "final_url": "https://www.cta.gallery/",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/images/yXhxFS3RMgsD2U3vLGvsjBaE4Q.jpg",
+        "https://framerusercontent.com/images/8jvdFNojk7j6yUUAcZoVkQ9Vsg.png?width=270&height=103",
+        "https://framerusercontent.com/images/LscgQI2qNWyVtilnGahwkvChjM.svg?width=150&height=35",
+        "https://framerusercontent.com/images/h40SUaYewKSQSA5GSFQS0Ka8lE.svg?width=40&height=40",
+        "https://framerusercontent.com/images/OYwue27BebMs2abxRvCNrhWPa5A.svg?width=40&height=40",
+        "https://framerusercontent.com/images/JWrL6nOAeFlkVov4qbb4Vj9MTuM.svg?width=40&height=40",
+        "https://framerusercontent.com/images/QwjkPToO16vWND6PMNhINw8QPvs.svg?width=40&height=40",
+        "https://framerusercontent.com/images/rdqR9txgMJeis0M9xcInTri18p4.svg?width=40&height=40",
+        "https://framerusercontent.com/images/TatgmRBisXFG4ZRJ6BMdXwnSfqQ.svg?width=40&height=40",
+        "https://framerusercontent.com/images/gPfgQSRSd37TTwI0n1yZRJTBA7k.svg?width=40&height=40",
+        "https://framerusercontent.com/images/sM661efHpDnaXe4njquX8mNDpI.svg?width=40&height=40",
+        "https://framerusercontent.com/images/XW1xID7aROPwPdnw52g3NUOU5U.svg?width=40&height=40"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "CTA.gallery | The Best Call-to-Action Inspiration for Designers",
+      "url": "http://cta.gallery"
+    },
+    "http://curated.design": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Discover hundreds of carefully selected websites and design patterns originally featured on Curated.design.",
+      "final_url": "https://craftwork.design/curated/websites/",
+      "frameable": null,
+      "image_urls": [
+        "https://cfw6.b-cdn.net/opengraph-image.png",
+        "https://cfw6.b-cdn.net/twitter-image.png",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db86e255c2653d1135a2b8_Agency-10-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db870fb8d037fe501867cc_Assets-3-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db87b4e208a901744847e7_Portfolio-9-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db87f67e11925104c0df8c_Web3-5-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db87d79298a4bf6aa63e15_Tech-2-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db86fccabdeee857877e0f_Artificial-Intelligence-4-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db87949150274afe94b6ca_Marketing-8-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db8721678dc8f891c602ca_Design-Tools-6-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db875dcabdeee85787f9c4_Developer-Tools-7-24.svg",
+        "https://cfw6.b-cdn.net/curated_cfw/categories/64db8773bed7cd4edba54875_E-commerce-11-24.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Curated Inspiration",
+      "url": "http://curated.design"
     },
     "http://desigeist.app": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -1498,6 +1584,31 @@
       "title": "Orbits",
       "url": "http://glauber.org/archive/orbits"
     },
+    "http://hugeicons.com/?via=Abraham": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Explore the world's most complete icon library: 51,000+ icons, 10 unique styles, and 59 categories. Perfect for UI/UX designers, developers, and creators using Figma, React, Flutter, and more.",
+      "final_url": "https://hugeicons.com/?via=Abraham",
+      "frameable": null,
+      "image_urls": [
+        "https://hugeicons.com/og_preview.png",
+        "https://hugeicons.com/assets/logo/black.svg",
+        "https://hugeicons.com/assets/home/hero/y_combinator.png",
+        "https://hugeicons.com/assets/home/hero/jimdo.png",
+        "https://hugeicons.com/assets/home/hero/fiverr.png",
+        "https://hugeicons.com/assets/home/hero/hero-2.webp",
+        "https://hugeicons.com/assets/home/hero/hero-4.webp",
+        "https://hugeicons.com/assets/home/hero/hero-3.webp",
+        "https://hugeicons.com/assets/home/hero/hero-1.webp",
+        "https://hugeicons.com/assets/home/hero/hero-5.webp",
+        "https://hugeicons.com/_next/image?url=%2Foptimized%2Fhome%2Fhero%2Flogos%2FNPM.webp&w=256&q=75",
+        "https://hugeicons.com/_next/image?url=%2Foptimized%2Fhome%2Fhero%2Flogos%2FSVG.webp&w=256&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Hugeicons - 51,000+ Free & Pro Icons for Designers & Developers",
+      "url": "http://hugeicons.com/?via=Abraham"
+    },
     "http://interactlabs.ai": {
       "content_type": "text/html; charset=utf-8",
       "description": "Turn every website into an interactive experience. Interact AI talks to visitors, answers their questions, and walks them through your product in real time.",
@@ -1522,6 +1633,22 @@
       "text_excerpt_zh": "",
       "title": "Interact AI | Turn Your Website Into an Interactive Experience",
       "url": "http://interactlabs.ai"
+    },
+    "http://landing.love": {
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Get inspired by an amazing collection of over 2049 animation website designs. With a full-page video recording showcasing the best designs out there.",
+      "final_url": "https://www.landing.love/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.landing.love/img/social.jpg",
+        "https://www.landing.love/mobbin.png",
+        "https://www.landing.love/img/logo.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Showcase of the best 2049 Animation Websites - landing.love",
+      "url": "http://landing.love"
     },
     "http://linkedin.com/liviaellen/": {
       "content_type": "",
@@ -1564,6 +1691,31 @@
       "title": "LogoArchive's Logo Histories",
       "url": "http://logohistories.com"
     },
+    "http://mobbin.com/?via=abraham": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Save hours of UI & UX research with our library of 600,000+ fully searchable mobile & web app screenshots.",
+      "final_url": "https://mobbin.com/?via=abraham",
+      "frameable": false,
+      "image_urls": [
+        "https://mobbin.com/og_image.png?v=4.0",
+        "https://ct.pinterest.com/v3/?event=init&tid=2613595685854&noscript=1",
+        "https://www.facebook.com/tr?id=776416824555110&ev=PageView&noscript=1",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Floom.ce86ce82.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb.b34b1209.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwise.da9d8274.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fshop.ff5e3e84.png&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcosmos.45db1f27.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdropbox.b8e44d6f.png&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fretro.754d946a.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuber.e4559041.webp&w=1920&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi",
+        "https://mobbin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproduct-cover-web.13a49267.png&w=3840&q=75&dpl=dpl_5yYHsMdRy8WvaEGT3vBDftf7Lowi"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "url": "http://mobbin.com/?via=abraham"
+    },
     "http://myfulcrumai.com": {
       "content_type": "text/html",
       "description": "",
@@ -1589,6 +1741,31 @@
       "text_excerpt_zh": "",
       "title": "MyLitigationShield — Your Lawsuit First-Aid Kit",
       "url": "http://mylitigationshield.com"
+    },
+    "http://navbar.gallery": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Navbar Gallery is a collection of the best website navbar inspiration designs on the web. Find the ideal navigation example for your design from our collection.",
+      "final_url": "https://www.navbar.gallery/",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/65d0d08ee366dcfc3c73aa94_ogimage%20(2).webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc36b90d1e6a3a898b9f9_Frame%2021472f523666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675db6c6cc75dbb01a915b47_Screenshot%202024-12-14%20at%2017.47.59.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc2d7b9a91d0d7e66c65c_Frame%20214722365666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc26a8f9cd5e720efbf06_Frame%2024147223666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc1dcdf9032dc756dd469_Frame%2021472eew23666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc1871b4ebf6ebee49e21_Frame%20214777223666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc10cb9a91d0d7e656b08_Frame%202147e2223666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/675dc04f1fe6d015cb6ef64b_Frame%2021f47223666.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/681a37181c6f866e0777297e_1x1.webp",
+        "https://cdn.prod.website-files.com/65676438ff1c480b81cf0085/681a374f9be8e91db0ce9aa9_logo-black.png",
+        "https://cdn.navbar.gallery/Screenshot%202026-05-23%20at%2016.01.24.avif"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Navbar Gallery – Navigation Design Inspiration",
+      "url": "http://navbar.gallery"
     },
     "http://ora.run": {
       "content_type": "text/html; charset=utf-8",
@@ -1672,6 +1849,31 @@
       "title": "Performance",
       "url": "http://performance.dev"
     },
+    "http://rebrand.gallery": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Explore the best new design systems, identity launches, and rebrand reveal videos.",
+      "final_url": "https://www.rebrand.gallery/",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/vf63fv1z/production/2752485a3fac2d8b06e49be3f13821882d055c46-801x735.svg",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Fba79b9b03211f939d303b34f141e1f9a56a5f885-96x96.heif&w=48&q=75",
+        "https://cdn.sanity.io/images/vf63fv1z/production/aa71537bd10acd4b430dca7d77a429cdbe90c079-532x600.svg",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Fac6a8ae2fa4c926ea8ed4e4766ceadb9d58edaba-256x256.png&w=48&q=75",
+        "https://cdn.sanity.io/images/vf63fv1z/production/f7c2beec066c7771b9fca8f156276d7fd131fbcd-48x48.svg",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Feb0f1450c3092609347f7a3e973eb17f9051daa7-100x100.png&w=48&q=75",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Fabb0ab361e4eef7d5c39721d8d82081fa1ab35b2-262x262.png&w=48&q=75",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2F39695bde37eb142005528bca0a5bba681bf89048-300x300.png&w=48&q=75",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Fb725bb40630c68b5a93d94bd85f81ee3456d6c31-57x57.png&w=48&q=75",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2Fb204311c98b3a879ee0527be3aa1aa483b2e12da-32x32.png&w=48&q=75",
+        "https://cdn.sanity.io/images/vf63fv1z/production/c513083d0e2c1e063d43a62667a0c4458358ed57-350x350.svg",
+        "https://www.rebrand.gallery/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvf63fv1z%2Fproduction%2F4857b1b4fda0b86e28c9f1d02a705695ade9c95b-32x32.webp&w=48&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "A curated gallery of rebrands and visual identities",
+      "url": "http://rebrand.gallery"
+    },
     "http://research.perplexity.ai": {
       "content_type": "text/html",
       "description": "Perplexity Research advances our mission to transform how we navigate the internet and the wider world through frontier research in search, reasoning, agents, and systems.",
@@ -1690,6 +1892,31 @@
       "text_excerpt_zh": "",
       "title": "Perplexity Research",
       "url": "http://research.perplexity.ai"
+    },
+    "http://saaspo.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A curated collection of the best SaaS websites on the web.",
+      "final_url": "https://saaspo.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/677fac595cf6750df0bf1e05_SaaSpo%20-%20OG%20(5).jpg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/63999cef3a2be35548de1227_saaspo%20logo%20white.svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/6830eb868e59e4b4471b074d_Framer%20Logo%20(3).svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/68c409038590ba823af76205_Mobbin%20Logo.svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/67c6dca3b3f43517412ac45b_apple-touch-icon.png",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/677e9917fbe97994749bb306_Two%20Hands%20Logo%20Mark.svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/6772ec570341c194681ef557_Humblytics.svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/639997ad49dddb11d0c0efba/66c459833e66c116285e7d04_651d2d9a42ddf9001f7acf9c_It%27s%20free%201.svg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/6399d2d87f63ad4774e11dc2/6a0ec161b6b6d7090486d714_take---2026-05-21T092124.457.jpeg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/6399d2d87f63ad4774e11dc2/6a0ec1448a5029cf6503ad6b_take---2026-03-17T110448.457.jpeg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/6399d2d87f63ad4774e11dc2/6a0ec10f49bc4fb18a22eb06_take---2026-05-21T092131.922.jpeg",
+        "https://saaspo.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/6399d2d87f63ad4774e11dc2/6a0ec10714e71cded5468914_take---2026-05-21T092128.212.jpeg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The best SaaS Web Design Inspiration | Saaspo",
+      "url": "http://saaspo.com"
     },
     "http://skills.md": {
       "content_type": "text/html; charset=utf-8",
@@ -3411,6 +3638,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058256945732018176"
+    },
+    "http://x.com/i/article/2058260237858066433": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058260237858066433",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058260237858066433/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJBo4W2W8AA5PzC?format=jpg&name=900x900)](http://x.com/i/article/2058260237858066433/dair%5Fai/article/2058537927823556668/media/2058260347123855360)\n\n![🥇](https://abs.twimg.com/emoji/v2/svg/1f947.svg)Top AI Papers of the Week \n\n[![](https://pbs.twimg.com/profile_images/1643277398522187778/31dedbLo_normal.jpg)](http://x.com/i/article/2058260237858066433/dair%5Fai)\n\n[DAIR.AI](http://x.com/i/article/2058260237858066433/dair%5Fai)\n\n[@dair\\_ai](http://x.com/i/article/2058260237858066433/dair%5Fai)\n\n·\n\nMay 24\n\n2\n\n22\n\n109\n\n[36K](http://x.com/i/article/2058260237858066433/dair%5Fai/status/2058537927823556668/analytics)\n\nThe Top AI Papers of the Week (May 18 - May 24)\n\n## \n\n1\\. Code as Agent Harness\n\n[![Image](https://pbs.twimg.com/media/HJBo0SbWUAA7ulK?format=jpg&name=small)](http://x.com/i/article/2058260237858066433/dair%5Fai/article/2058537927823556668/media/2058260277217349632)\n\nA 100+ page survey treating the agent harness as a first-class research object rather than glue around an LLM. The authors argue that code-as-harness is the most promising path to general-purpose agency, and that future agent systems should satisfy four properties: executable, inspectable, stateful, and governed. The report consolidates methods, applications, and open problems across the harness layer.\n\n* Harness engineering as a discipline: The paper frames harness design as a science distinct from model training, with its own primitives, failure modes, and evaluation criteria. The taxonomy gives a vocabulary for comparing systems that has been missing in prior agent literature.\n* Four-property test for production agents: Executable, inspectable, stateful, and governed. Each property maps to a class of operational concerns. The authors use it to audit current open-source agent frameworks and identify where defaults fall short.\n* Code as the unifying substrate: Across browsing, tool use, and multi-step reasoning, harnesses that compile decisions into code consistently outperform JSON-call orchestration on the surveyed benchmarks. The paper traces this back to determinism, composability, and inspectability of the resulting traces.\n* Why it matters: If code-as-harness is the right substrate, then the next round of agent-system progress will come from harness-level innovation rather than from new base models. The survey gives builders a structured reference for that work.\n\n[Paper](https://arxiv.org/abs/2605.18747)\n\n | \n\n[Tweet](https://x.com/omarsar0/status/2056764334181884158)\n\n## \n\n2\\. OpenAI Disproves the Unit Distance Conjecture\n\n[![Image](https://pbs.twimg.com/media/HJBo6_VW0AAD9vd?format=png&name=small)](http://x.com/i/article/2058260237858066433/dair%5Fai/article/2058537927823556668/media/2058260392351027200)\n\nAn OpenAI internal reasoning model produced a counterexample to Erdős's 1946 unit distance conjecture, the first time an AI system has autonomously resolved a prominent open problem in mathematics. For nearly 80 years, mathematicians believed square grids were essentially optimal for placing n points to maximize unit-distance pairs. The new construction beats grids using an infinite unramified tower of totally real number fields with 3-power Galois groups, producing n-point sets with more than n^(1.014) unit distances. A human-verified companion paper was prepared by nine external mathematicians including Noga Alon, Tim Gowers, and Melanie Matchett Wood.\n\n* First autonomous resolution of a central open problem: The proof was discovered without human guidance on the mathematical substance. External mathematicians then verified, digested, and rewrote it for publication.\n* Deep number theory, not search: The construction uses Golod-Shafarevich theory and Galois cohomology rather than enumerative or brute-force search. The model selected and combined tools from algeb",
+      "title": "",
+      "url": "http://x.com/i/article/2058260237858066433"
     },
     "http://x.com/i/article/2058357140830683136": {
       "cleaner_v": 2,
@@ -15853,6 +16093,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -23174,6 +23428,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg"
+    },
+    "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
     },
     "https://pbs.twimg.com/media/HJGxp6lXwAAMK1n.jpg": {
       "cleaner_v": 2,
@@ -36588,14 +36856,14 @@
     "2058262328496554021": [
       "https://x.com/KSimback/status/2058262328496554021",
       "http://x.com/i/article/2058203569237450753",
-      "https://x.com/KSimback/status/2058522257291456916",
-      "https://x.com/KSimback/status/2058522354364338257",
-      "https://x.com/KSimback/status/2058521817422196895",
-      "https://x.com/KSimback/status/2058568213227549162",
       "https://x.com/KSimback/status/2058303374173393348",
-      "https://x.com/KSimback/status/2058497148275114113",
+      "https://x.com/KSimback/status/2058568213227549162",
+      "https://x.com/KSimback/status/2058521817422196895",
+      "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058859377214275626",
+      "https://x.com/KSimback/status/2058522354364338257",
+      "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522436862112176"
     ],
     "2058269663788736907": [
@@ -36633,14 +36901,14 @@
       "https://x.com/zodchiii/status/2058622012092747889",
       "http://t.me/zodchixquant",
       "https://pbs.twimg.com/media/HJGxp6lXwAAMK1n.jpg",
+      "https://x.com/zodchiii/status/2058500524702388380",
       "https://x.com/zodchiii/status/2058549246740099178",
       "https://x.com/zodchiii/status/2058514005870743941",
-      "https://x.com/zodchiii/status/2058500524702388380",
-      "https://x.com/zodchiii/status/2058490943045505054",
       "https://x.com/zodchiii/status/2058497962209149115",
+      "https://x.com/zodchiii/status/2058586198101111218",
+      "https://x.com/zodchiii/status/2058490943045505054",
       "https://x.com/zodchiii/status/2058643342162882712",
-      "https://x.com/zodchiii/status/2058520816086589791",
-      "https://x.com/zodchiii/status/2058586198101111218"
+      "https://x.com/zodchiii/status/2058520816086589791"
     ],
     "2058491091754861046": [
       "https://x.com/Hi_Mrinal/status/2058491091754861046",
@@ -36649,6 +36917,10 @@
     "2058517919760355729": [
       "https://x.com/shabnam_774/status/2058517919760355729",
       "http://x.com/i/article/2058516765546811392"
+    ],
+    "2058537927823556668": [
+      "https://x.com/dair_ai/status/2058537927823556668",
+      "http://x.com/i/article/2058260237858066433"
     ],
     "2058542532297187412": [
       "https://x.com/KSimback/status/2058542532297187412",
@@ -36671,6 +36943,20 @@
       "https://x.com/dingyi/status/2058569793456980151",
       "https://coss.com/ui"
     ],
+    "2058571337614893489": [
+      "https://x.com/UiSavior/status/2058571337614893489",
+      "http://curated.design",
+      "http://landing.love",
+      "http://saaspo.com",
+      "http://navbar.gallery",
+      "http://cta.gallery",
+      "http://appmotion.design",
+      "http://mobbin.com/?via=abraham",
+      "http://rebrand.gallery",
+      "http://hugeicons.com/?via=Abraham",
+      "http://component.gallery",
+      "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
+    ],
     "2058575298694914064": [
       "https://x.com/jerieljan/status/2058575298694914064",
       "https://jsoncanvas.org/",
@@ -36686,17 +36972,18 @@
       "https://x.com/mitsuhiko/status/2058590229196329341",
       "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
       "https://x.com/mitsuhiko/status/2058613995645403324",
+      "https://x.com/mitsuhiko/status/2058623790007955685",
       "https://x.com/mitsuhiko/status/2058670265450520625",
       "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
       "https://x.com/mitsuhiko/status/2058602085935951925",
-      "https://x.com/mitsuhiko/status/2058623790007955685",
-      "https://x.com/mitsuhiko/status/2058604562290806870",
-      "https://x.com/mitsuhiko/status/2058632866175611101"
+      "https://x.com/mitsuhiko/status/2058632866175611101",
+      "https://x.com/mitsuhiko/status/2058604562290806870"
     ],
     "2058601239307272486": [
       "https://x.com/NebulaAI/status/2058601239307272486",
       "http://x.com/i/article/2058566884081958912",
-      "https://x.com/NebulaAI/status/2058602003115200895"
+      "https://x.com/NebulaAI/status/2058602003115200895",
+      "https://x.com/NebulaAI/status/2058924570439024649"
     ],
     "2058605103192371209": [
       "https://x.com/asdennison/status/2058605103192371209",
@@ -36736,9 +37023,17 @@
     ],
     "2058819494609653875": [
       "https://x.com/0xJeff/status/2058819494609653875",
-      "http://x.com/i/article/2058817306105651200"
+      "http://x.com/i/article/2058817306105651200",
+      "https://x.com/0xJeff/status/2058918799773216846",
+      "https://x.com/0xJeff/status/2058917862186905702"
+    ],
+    "2058871597637746997": [
+      "https://x.com/monokern/status/2058871597637746997",
+      "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg",
+      "https://x.com/monokern/status/2058908301320954143",
+      "https://x.com/monokern/status/2058908255460458587"
     ]
   },
-  "updated_at": "2026-05-25T12:45:00Z",
+  "updated_at": "2026-05-25T16:03:19Z",
   "window": "recent"
 }
