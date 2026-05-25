@@ -23036,6 +23036,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJGxp6lXwAAMK1n.jpg"
     },
+    "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -36286,8 +36300,8 @@
       "https://x.com/NebulaAI/status/2057862000764432822",
       "http://x.com/i/article/2056498123640336384",
       "https://x.com/NebulaAI/status/2057862607415964026",
-      "https://x.com/NebulaAI/status/2058554404244979787",
       "https://x.com/NebulaAI/status/2058018517564240006",
+      "https://x.com/NebulaAI/status/2058554404244979787",
       "https://x.com/NebulaAI/status/2057878398651781228",
       "https://x.com/NebulaAI/status/2057863387124523022"
     ],
@@ -36372,7 +36386,9 @@
     ],
     "2058211100441956805": [
       "https://x.com/junaiddshaukat/status/2058211100441956805",
-      "http://x.com/i/article/2058155680197214208"
+      "http://x.com/i/article/2058155680197214208",
+      "https://x.com/junaiddshaukat/status/2058816932925657348",
+      "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg"
     ],
     "2058232394046718332": [
       "https://x.com/aryanistweeting/status/2058232394046718332",
@@ -36393,8 +36409,8 @@
       "http://x.com/i/article/2058203569237450753",
       "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522354364338257",
-      "https://x.com/KSimback/status/2058521817422196895",
       "https://x.com/KSimback/status/2058568213227549162",
+      "https://x.com/KSimback/status/2058521817422196895",
       "https://x.com/KSimback/status/2058303374173393348",
       "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058497148275114113",
@@ -36437,11 +36453,11 @@
       "https://pbs.twimg.com/media/HJGxp6lXwAAMK1n.jpg",
       "https://x.com/zodchiii/status/2058549246740099178",
       "https://x.com/zodchiii/status/2058500524702388380",
-      "https://x.com/zodchiii/status/2058586198101111218",
       "https://x.com/zodchiii/status/2058514005870743941",
       "https://x.com/zodchiii/status/2058490943045505054",
       "https://x.com/zodchiii/status/2058497962209149115",
       "https://x.com/zodchiii/status/2058643342162882712",
+      "https://x.com/zodchiii/status/2058586198101111218",
       "https://x.com/zodchiii/status/2058520816086589791"
     ],
     "2058491091754861046": [
@@ -36503,6 +36519,6 @@
       "http://x.com/i/article/2058730895281172480"
     ]
   },
-  "updated_at": "2026-05-25T07:17:46Z",
+  "updated_at": "2026-05-25T08:17:42Z",
   "window": "recent"
 }
