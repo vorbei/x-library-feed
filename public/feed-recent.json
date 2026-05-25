@@ -3418,6 +3418,19 @@
       "title": "",
       "url": "http://x.com/i/article/2058459230114291712"
     },
+    "http://x.com/i/article/2058516765546811392": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058516765546811392",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058516765546811392/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJFTHHGbYAABWCk?format=jpg&name=900x900)](http://x.com/i/article/2058516765546811392/shabnam%5F774/article/2058517919760355729/media/2058517886315225088)\n\nHow to Build LLM Architectures From Scratch\n\n[![](https://pbs.twimg.com/profile_images/1804361255744163840/cJnNMzre_normal.jpg)](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[Shabnam Parveen](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[@shabnam\\_774](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n·\n\n15h\n\nFollow\n\nClick to Follow shabnam\\_774\n\n3\n\n12\n\n99\n\n[47K](http://x.com/i/article/2058516765546811392/shabnam%5F774/status/2058517919760355729/analytics)\n\nA Deep Dive Into the Systems Behind Models Like OpenAI ChatGPT and Anthropic Claude\n\nMost people use AI models every day.\n\nVery few understand how they’re actually built.\n\nUnder the hood, Large Language Models (LLMs) are not magic. They are massive prediction systems trained on huge amounts of text using carefully designed neural network architectures.\n\nBut building one from scratch is far more complex than simply “training a chatbot.”\n\nIt involves:\n\n* Data engineering\n* Tokenization\n* Transformer architectures\n* Distributed training\n* GPU optimization\n* Reinforcement learning\n* Inference systems\n* Alignment layers\n* Memory optimization\n\nThis article breaks down the full architecture of modern LLMs step-by-step in a practical and understandable way.\n\n# \n\n1\\. What Is an LLM?\n\nA Large Language Model is a neural network trained to predict the next token in a sequence.\n\nExample:\n\nInput:\n\n> “The future of AI is”\n\nThe model predicts:\n\n> “transformative”\n\nThen continues predicting one token at a time.\n\nThat’s the foundation of systems like:\n\n* OpenAI GPT models\n* Anthropic Claude\n* Google Gemini\n* Meta Llama\n\nAt scale, this simple prediction process becomes incredibly powerful.\n\n# \n\n2\\. The Core Pipeline of Building an LLM\n\nThe full process looks like this:\n\nRaw Internet Data ↓ Cleaning + Filtering ↓ Tokenization ↓ Transformer Architecture ↓ Pretraining ↓ Fine-Tuning ↓ RLHF / Alignment ↓ Inference Optimization ↓ Deployment\n\nEvery stage matters.\n\nA weak dataset or poor architecture design can ruin the entire model.\n\n# \n\n3\\. Step One: Data Collection\n\nLLMs need enormous datasets.\n\nModern frontier models train on:\n\n* Books\n* Wikipedia\n* Research papers\n* Websites\n* Code repositories\n* Documentation\n* Conversations\n* Forums\n\nData sources may include:\n\n* Common Crawl\n* GitHub\n* ArXiv\n* Stack Overflow\n* Public datasets\n\nThe goal is diversity + scale.\n\nA small model trained on excellent data often beats a larger model trained on noisy data.\n\n# \n\n4\\. Data Cleaning and Filtering\n\nRaw internet data is messy.\n\nYou must remove:\n\n* Spam\n* Duplicates\n* Low-quality text\n* Toxic content\n* Broken formatting\n* Repeated sequences\n* AI-generated garbage\n\nThis stage is massively underestimated.\n\nCompanies spend enormous resources on data quality because:\n\n> Better data > Bigger models\n\nCommon filtering methods include:\n\n* Deduplication\n* Heuristic filtering\n* Quality scoring\n* Language detection\n* Safety filtering\n* NSFW removal\n\n# \n\n5\\. Tokenization: Converting Text Into Numbers\n\nNeural networks don’t understand words.\n\nThey understand numbers.\n\nSo text becomes tokens.\n\nExample:\n\n\"ChatGPT is powerful\" ↓ \\[1532, 4021, 318, 7821\\]\n\nThis process is called tokenization.\n\nPopular tokenization methods:\n\n* BPE (Byte Pair Encoding)\n* SentencePiece\n* WordPiece\n\nTokens can represent:\n\n* Words\n* Subwords\n* Characters\n* Punctuation\n\nEfficient tokenization dramatically affects performance and cost.\n\n# \n\n6\\. Embeddings: Giving Tokens Meaning\n\nTokens are converted into vectors.\n\nA vector is basically a list of numbers representing semantic meaning.\n\nExample:\n\nKing → \\[0.2, -0.8, 1.4, ...\\] Queen → \\[0.3, -0.7, 1.5, ...\\]\n\nSimilar concepts end u",
+      "title": "",
+      "url": "http://x.com/i/article/2058516765546811392"
+    },
     "http://x.com/i/article/2058545115455758336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3456,6 +3469,19 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058566884081958912/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJF_slhXUAAUGqi?format=jpg&name=900x900)](http://x.com/i/article/2058566884081958912/NebulaAI/article/2058601239307272486/media/2058566908648050688)\n\nHow to Run Multiple Agents in Parallel\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2055093023319461890/8WgixkWQ_normal.jpg)](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n[Nebula](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n[@NebulaAI](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n·\n\n5h\n\nFollow\n\nClick to Follow NebulaAI\n\n1\n\n17\n\n[700](http://x.com/i/article/2058566884081958912/NebulaAI/status/2058601239307272486/analytics)\n\nOne agent does one task at a time.\n\nMultiple agents working in parallel can cut a 2-hr workflow down to 20 minutes.\n\nBut you'll run into a problem.\n\nMost people run multiple agents manually. Opening tabs, copy-pasting outputs, and tracking what's in progress.\n\nBy agent 5, you'll have lost all the time you saved.\n\nYOU become the bottleneck. \n\nThere's a better way to do this. \n\nLet's begin. Bookmark and save this to run multiple agents later.\n\n# \n\nWhy parallel beats sequential?\n\nThe default way most people work with AI is linear.\n\nAgent 1 finishes a task.\n\nYou hand its output to agent 2\\. \n\nAgent 2 finishes. You hand it to agent 3\\. So on and so forth.\n\nThis works but it's slow. \n\nQuick example: You need to figure out how to price your product. So you're running some research on your competitors. Each search means pulling their pricing page, identifying their tiers, seeing that's included, find conversion rates, etc. \n\nThe usual way: one agent grinds through all of it, one competitor at a time\n\nThe parallel way: multiple agents looking at multiple competitors.\n\n# \n\nHow to know when you should run agents in parallel?\n\nHere's a simple framework:\n\n> Think of it like cooking. You don't wait for the rice to finish before chopping the vegetables. If two tasks aren't waiting on each other, they can happen at the same time.\n\nBefore you build anything, map out your workflow.\n\nSometimes it's useful to actually list out each step and ask:\n\nDoes this need the output of the previous step?\n\n* If yes -> keep it sequential.\n* If not -> run it in parallel.\n\nExamples of parallel work: research, drafting variations, data collection, content repurposing, competitive analysis, outreach.\n\nExamples of sequential work: final QA, anything that synthesizes prior work, anything where the second step responds to the first.\n\nMost workflows are a mix. \n\nUsually the first 60% can be parallel. The last 40% has to be sequential because it's building on what came before.\n\nNow that you have this framework, you'll begin to spot 3 patterns everywhere for workflows.\n\n# \n\n3 types of parallel workflows\n\n1\\. Fan-out:\n\nOne input, multiple agents process it differently.\n\nExample: You have a new article. One agent writes the SEO version, another writes the X version, another writes the email version. All at the same time.\n\n2\\. Independent batch:\n\nOne agent, cloned multiple times. \n\nEach clone takes one input from a list and runs at the same time as the others. \n\nExample: You have 10 topics to research, so you spin up 10 copies of your research agent, one per topic, all going at once.\n\n3\\. Specialist swarm:\n\nDifferent agents handling different parts of one big deliverable.\n\nExample: You want to make a video. You hand your script off to your agents. One agent makes the video (using Seedance or Kling for example). Another does the SFX and music. Another design title cards. All working at once. Merged at the end.\n\n# \n\nThe hidden problem with parallel agents\n\nGoing parallel sounds great until you actually try it.\n\nMost people end up as a middleman managing chat. Routing work between agents. Tracking who's doing what. Holding all of the context in their heads.\n\nThe orchestration over",
       "title": "",
       "url": "http://x.com/i/article/2058566884081958912"
+    },
+    "http://x.com/i/article/2058730895281172480": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058730895281172480",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058730895281172480/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJIYFQsb0AAfB0p?format=jpg&name=900x900)](http://x.com/i/article/2058730895281172480/Huawei/article/2058734614571880838/media/2058734458321489920)\n\nHUAWEI Presents the Tau (τ) Scaling Law, Enabling Breakthroughs in Transistor Density and System Per\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc_normal.jpg)](http://x.com/i/article/2058730895281172480/Huawei)\n\n[Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n[@Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n·\n\n59m\n\nFollow\n\nClick to Follow Huawei\n\n1\n\n15\n\n48\n\n[189K](http://x.com/i/article/2058730895281172480/Huawei/status/2058734614571880838/analytics)\n\nToday, at the 2026 IEEE International Symposium on Circuits and Systems (ISCAS), He Tingbo from HUAWEI delivered a keynote speech titled \"New Semiconductor Path in Practice\". In her speech, she presented the Tau (τ) Scaling Law, a new principle for guiding the future development of the semiconductor industry. This law proposes replacing geometric scaling with time (τ) scaling as a new guiding principle for the evolution of both semiconductors and electronic systems. Based on this principle, innovative technologies such as LogicFolding can be used to continuously compress signal propagation delay and steadily improve transistor density, which will drive the ongoing evolution of semiconductors and electronic systems.\n\nIn recent years, Moore's Law – which has guided the semiconductor industry for more than five decades – has faced severe physical limits and diminishing economic returns. The global industry has been increasingly constrained by the slowdown in the geometric scaling of transistors and the erosion of cost-per-transistor benefits. The industry must now tackle the urgent and common challenge of overcoming the physical constraints of traditional processes and finding a new, sustainable evolution path that can match surging computing demands. This is where the τ Scaling Law comes into play.\n\nBased on this law, HUAWEI has developed innovative core technologies like LogicFolding and established a multi-level co-optimization mechanism that spans semiconductor devices, circuits, chips, and systems. This mechanism aims to systematically shorten the time constant τ in order to drive up performance, energy efficiency, and transistor density at each level in the following ways:\n\n* At the device level: Optimizing the resistance and parasitic capacitance of transistors and interconnects to minimize the device-level time constant τ at the underlying physical layer\n* At the circuit level: Adopting the LogicFolding architecture to break down the physical boundaries of traditional circuit layouts, significantly shortening critical-path wiring, effectively reducing the resistive and capacitive load of signal propagation, and ultimately boosting transistor density and circuit performance\n* At the chip level: Employing full-stack coordinated design of software, architecture, and silicon to achieve fine-grained, workload-driven control over instruction and data flows, enhancing system-level parallelism and efficiency, and significantly reducing end-to-end execution time\n* At the system level: Redefining interconnect protocols for computing systems with UnifiedBus to achieve unified memory addressing and native memory semantics for SuperPoDs, significantly reducing system communications latency\n\nIn her keynote speech, He Tingbo elaborated on HUAWEI's application of the τ Scaling Law to smartphones and AI computing. Over the past six years, HUAWEI has designed and mass-produced 381 chips based on the τScaling Law, serving a wide range of industries, sectors, and markets. The Kirin chips scheduled to launch in Fall 2026 will be the first ever to adopt the LogicFolding architecture, which will c",
+      "title": "",
+      "url": "http://x.com/i/article/2058730895281172480"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -36231,11 +36257,11 @@
     "2057868339746398361": [
       "https://x.com/DamiDefi/status/2057868339746398361",
       "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg",
+      "https://x.com/DamiDefi/status/2058086368086048976",
       "https://x.com/DamiDefi/status/2058090222559035761",
       "https://x.com/DamiDefi/status/2058090504575738032",
-      "https://x.com/DamiDefi/status/2058086368086048976",
-      "https://x.com/DamiDefi/status/2058090581172068546",
-      "https://x.com/DamiDefi/status/2058086081573142996"
+      "https://x.com/DamiDefi/status/2058086081573142996",
+      "https://x.com/DamiDefi/status/2058090581172068546"
     ],
     "2057871169702027462": [
       "https://x.com/ErdalToprak/status/2057871169702027462",
@@ -36247,13 +36273,13 @@
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643",
       "https://x.com/Saboo_Shubham_/status/2057892999863185576",
       "https://x.com/Saboo_Shubham_/status/2057902016438112664",
-      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
       "https://x.com/Saboo_Shubham_/status/2058064618787151914",
       "https://x.com/Saboo_Shubham_/status/2057900693638496759",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490"
+      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
+      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
+      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
     ],
     "2057882419257311652": [
       "https://x.com/reach_vb/status/2057882419257311652",
@@ -36326,11 +36352,11 @@
     "2058262328496554021": [
       "https://x.com/KSimback/status/2058262328496554021",
       "http://x.com/i/article/2058203569237450753",
-      "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522354364338257",
+      "https://x.com/KSimback/status/2058522257291456916",
+      "https://x.com/KSimback/status/2058568213227549162",
       "https://x.com/KSimback/status/2058303374173393348",
       "https://x.com/KSimback/status/2058521817422196895",
-      "https://x.com/KSimback/status/2058568213227549162",
       "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522436862112176"
@@ -36372,9 +36398,9 @@
       "https://pbs.twimg.com/media/HJGxp6lXwAAMK1n.jpg",
       "https://x.com/zodchiii/status/2058549246740099178",
       "https://x.com/zodchiii/status/2058514005870743941",
+      "https://x.com/zodchiii/status/2058497962209149115",
       "https://x.com/zodchiii/status/2058500524702388380",
       "https://x.com/zodchiii/status/2058490943045505054",
-      "https://x.com/zodchiii/status/2058497962209149115",
       "https://x.com/zodchiii/status/2058586198101111218",
       "https://x.com/zodchiii/status/2058643342162882712",
       "https://x.com/zodchiii/status/2058520816086589791"
@@ -36382,6 +36408,10 @@
     "2058491091754861046": [
       "https://x.com/Hi_Mrinal/status/2058491091754861046",
       "https://x.com/Hi_Mrinal/status/2058531706202919295"
+    ],
+    "2058517919760355729": [
+      "https://x.com/shabnam_774/status/2058517919760355729",
+      "http://x.com/i/article/2058516765546811392"
     ],
     "2058552177912947044": [
       "https://x.com/yanhua1010/status/2058552177912947044",
@@ -36411,8 +36441,13 @@
       "https://x.com/NebulaAI/status/2058601239307272486",
       "http://x.com/i/article/2058566884081958912",
       "https://x.com/NebulaAI/status/2058602003115200895"
+    ],
+    "2058734614571880838": [
+      "https://x.com/Huawei/status/2058734614571880838",
+      "http://x.com/i/article/2058730895281172480",
+      "https://x.com/Huawei/status/2058731731478532264"
     ]
   },
-  "updated_at": "2026-05-25T02:17:37Z",
+  "updated_at": "2026-05-25T03:17:38Z",
   "window": "recent"
 }
