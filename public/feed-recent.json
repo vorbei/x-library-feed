@@ -64,14 +64,14 @@
       "id": "2056078124346228860"
     },
     {
-      "article_text": "选择关注谁，决定你会成为什么。\n最近这一年，我越来越明显地感觉到一件事：很多人每天都在高强度「关注 AI」，但真正开始动手做东西的人，其实并不多。\n每天打开 X、小红书、YouTube，你都会看到大量关于 AI 的内容。有人分析行业趋势，有人预测未来职业，有人讨论 Agent 会如何改变世界，也有人不断强调「普通人最后的机会来了」。\n这些内容本身并没有问题。很多人讲得确实好，逻辑清晰，表达有感染力，也帮助了不少人第一次接触 AI。\n但看久了之后，你会慢慢产生一种奇怪的感觉：你好像知道了很多东西，却又什么都没有真正开始。\n你收藏了几十篇「AI 创业指南」，关注了一堆「未来趋势」博主，也记住了大量热门词汇——MCP、Agent、Workflow、RAG、Multi-Agent。可回头看时会发现，自己真正做过的事情其实很少。\n这种状态我自己也经历过。有段时间，我每天刷大量 AI 内容，今天有人说「AI 将淘汰程序员」，明天有人说「一个人公司时代来了」，后天又有人说「未来属于超级个体」。每句话都让人产生「再不行动就晚了」的紧迫感，可真正让我开始改变的，并不是那些宏大的观点，而是后来我越来越多地开始关注一些真正下场做事的人。\n一、网红讲趋势，Builder 讲怎么做\n网红的价值一直存在。他们擅长总结趋势、提炼观点、放大情绪，能让更多人第一次理解 AI 到底意味着什么。\n但大部分趋势内容有一个共同特点：它们更像一种「认知消费品」。你看的时候很兴奋，觉得自己已经理解了这个时代，但这种理解往往停留在观点层面，不会真正转化成行动。\n比如有人会不断告诉你：「未来一定属于 Agent」「AI 会重构所有行业」「不会用 AI 的人会被淘汰」。这些话可能都没错，但对于真正想做事的人来说，他更关心的问题是：Agent 到底解决了什么真实需求？用户为什么愿意付费？什么场景是真的高频？一个普通人应该从哪里开始？\n这些问题，往往只有真正做过产品的人才会聊。因为它们不是观点，而是经验。经验这种东西通常不够「性感」，甚至有点狼狈，但恰恰最接近真实世界。\n二、Builder 的分享，会让你第一次认真想「怎么做」\n我现在越来越喜欢看独立开发者的分享，原因很简单：他们讲的东西通常格外具体。\n \n前段时间我看到一个开发者分享，说他最开始做 AI 产品时，一直以为用户最需要「AI 帮忙生成内容」，于是花了很多时间做 AI 写作、AI 总结之类的功能，技术做得不差，但用户始终不愿意付费。后来他偶然接触到一些跨境电商卖家，发现这些人每天都在重复做一件枯燥的事：整理 SKU、填写产品信息、同步平台数据。于是他花了一个周末，做了一个帮卖家自动整理商品表格的小工具。界面不漂亮，功能也不复杂，但上线后很快就有了付费用户。\n这个例子让我印象极深。因为它说明真实市场和想象中的市场完全不一样——很多付费需求，不过是帮别人节省一点时间，减少一点重复劳动。\n类似的还有一个人的经历：他最开始迷恋「做大产品」，想做平台、做生态、做所有人都会用的 AI 应用。折腾了大半年，功能越来越多，系统越来越复杂，但始终没人真正留下来。最后反而靠一个很小的功能活了下来：帮用户自动把会议录音整理成客户沟通纪要。这功能一点都不酷，也没有什么「AGI 感」，但因为它解决的是企业里每天都会出现的真实问题，用户愿意长期付费。\n还有一种内容我现在尤其珍惜：那些坦率承认失败的分享。有人花了两个月做产品，发现根本没人用，决定关掉；有人认真复盘为什么广告投放毫无效果，为什么自以为很重要的功能用户根本不在意。\n这种分享在互联网上很少见，因为大家更偏爱成功故事——「上线即爆火」「一个人三个月 ARR 十万美元」。但真正做过东西的人都知道，现实里大部分项目不会成功。很多产品上线后没用户、没增长、没转化，开发者默默停掉服务器，项目就结束了。而这些失败经验，反而比成功学更有价值。\n三、Builder 的日常，远没有想象中光鲜\n互联网很容易把「独立开发」「AI 创业」包装得浪漫：一个人坐在咖啡馆里用 MacBook 敲代码，白天旅居，晚上收美元，产品自动增长，自由、松弛、充满未来感。\n但真实世界里的 Builder，大部分时候没那么光鲜。更多时候是白天改需求，晚上修 bug；上线后发现支付流程坏了；landing page 改了五版，转化率还是很低；广告投出去，一个注册都没有；半夜两点还在查接口为什么突然报错；好不容易来了几个用户，一半还是朋友支持。\n很多做过产品的人应该都经历过一个经典瞬间：熬夜两个星期终于上线，满脑子想着「会不会突然爆掉」，打开后台发现第一天总共十几个访问，大部分还是自己测试的。\n那一瞬间挺打击人的。因为你第一次真正意识到，互联网不会因为你「很努力」就自动给你用户。\n但也是从这个阶段开始，一个人才真正进入「做事情」的世界。你会慢慢明白，真正难的不是「想到一个点子」，而是后面那些没人愿意讲的东西：怎么持续迭代、怎么理解用户、怎么面对长期没有反馈、怎么在没人鼓掌的时候继续做下去。\n如果长期只看网红，你很容易以为成功靠的是风口、流量和一次爆点。但如果你长期关注真正做事的人，你会发现真实世界非常朴素：有人做了二十个小产品，第二十一个才开始赚钱；有人持续发了半年内容，才接到第一个客户；有人把 onboarding 流程改了八次，留存率才终于提升。这些故事不刺激，也不容易传播，但它们会让你开始接受「慢慢来」这件事。\n四、别只围观，开始动手\n现在有一种很普遍的现象：很多人以为自己在「进入 AI 行业」，其实只是在围观。他们每天看最新模型、最新趋势，能聊很多概念，但真正需要动手时，始终停留在「等自己准备好」。\n可问题是，很多能力本来就是做出来的。你不上线一个产品，就不会理解什么叫用户反馈；不真正服务客户，就不知道什么需求有人付费；不真正踩坑，就不知道什么问题最麻烦。\nBuilder 最大的不同在于，他们会先开始做。哪怕产品很小，哪怕做得粗糙，哪怕没人关注，哪怕最后失败。因为他们知道，真实反馈永远比空谈趋势更重要。\n我不是说网红没价值——好的表达者依然重要，他们能帮更多人打开视野。但如果你真的想在 AI 时代做一点自己的事情，别只看别人讲世界，也多看看那些正在亲手做世界的人。\n \n如果你不知道从哪里开始找到这些人，可以去 X 上搜 #buildinpublic 标签，去 Product Hunt 看每天有什么新产品上线，去 Indie Hackers 读创始人的真实故事，去即刻关注「独立开发者」话题。这些地方聚集着大量正在一边做、一边分享的人。\n更重要的是，最好你自己也慢慢变成这种人。哪怕只是做一个很小的工具，自动化一个重复流程，接到第一个客户，赚到第一笔几十美元的收入，记录一次失败，认真写一次复盘。\n这些事情，可能都比继续收藏十篇「AI 趋势分析」更有价值。\n因为 AI 时代真正拉开人与人差距的，可能已经不是谁最懂趋势，而是谁开始真正动手了。",
-      "id": "2055904097358794948"
-    },
-    {
       "article_text": ".This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start\nA short recap of the AI Engineering Loop\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n \nYou can read more on this here.\nHow datasets fit into the loop\nSo far, we've covered the first two steps of the AI engineering loop: tracing your application and monitoring its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.\nNow the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.\nA dataset is a collection of test cases that you run your application against each time you make a change (\"an experiment\"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.\nThe dataset item\nA dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:\nInput (required)\nExpected output (optional)\nMetadata (optional)\nThe three fields of a dataset item\n \nA good mental model:\n \nCommon expected output patterns\nWhether you need an expected output, and what it looks like, depends on which type of evaluator you use.\nReference-based versus reference-free evaluators\nSome evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).\nExact match\nThe expected output is the literal correct answer. For example:\nA classification task where the correct label is \"billing_inquiry\"\nAn extraction task where the expected entities are [\"Paris\", \"Thursday\"]\nReference answer\nThe expected output is a gold-standard response that shows what a good output looks like. The evaluator can compare the test's output against this example, for instance by checking semantic similarity or whether the key points match.\nEvaluation criteria\nThe expected output is a list of checks or requirements the output should satisfy. For example:\n\"must mention the refund policy\"\n\"must include a link to the help center\"\nThe evaluator checks whether the output meets these criteria.\nNothing\nSometimes no expected output is required at all. If you're just checking whether:\nthe tone is professional\nthe response is safe\nthe output follows a required format\nYour dataset items don't need anything other than an input as you will use a reference-free evaluator.\nCombination of the above\nBecause you can run a combination of different evaluators on a single dataset item, a dataset item's expected output field can also contain multiple types of reference data. The expected output is a JSON field, so you can store multiple types of reference data without a problem.\nWhat makes a good dataset\nA good dataset mirrors what your system will encounter in production. If passing the dataset gives you confidence before deploying, it's doing its job.\nClear in scope. Each dataset should have a well-defined scope. That can be end-to-end if you treat internal steps as implementation details, or it can target an individual step like retrieval or summarization if that's the part you're trying to improve. You'll likely end up with multiple datasets, each with a clear purpose.\n \nThe right size for the workflow. Some datasets are small and fast enough to run on every push as part of your CI/CD pipeline. Others are larger and more comprehensive, and are useful to run periodically but too slow for every minor change.\n \nWhere to start\nStart with the most concrete examples you have, then expand coverage once you know what you are trying to test.\nPull examples from production traces that you spotted and would like to improve, either as-is or anonymized or transformed by AI.\nAdd hand-written cases based on predefined requirements, edge cases, or behaviors your agent must handle reliably.\nGenerate synthetic examples with AI once you know which dimensions you want to cover more broadly.\nWhat comes next\nOnce you have a dataset, the next step is running your system against it to see how changes affect output quality. This is what experiments are for.",
       "article_text_zh": "这是 Langfuse Academy 系列文章中的一篇，我们将带您完整走一遍 AI 工程生命周期。如果您是第一次接触这个系列，建议从《AI 工程循环》开始阅读。\n\n### AI 工程循环简述\n\nAI 工程循环是团队持续改进 AI 系统的方法。它将生产环境中发生的情况（追踪、监控）与开发阶段的结构化迭代（数据集、实验、评估）连接起来。每次交付的改进都会产生新数据，团队通过这个过程不断循环。\n\n您可以在此处阅读更多内容。\n\n### 数据集在循环中的位置\n\n到目前为止，我们已经介绍了 AI 工程循环的前两个步骤：追踪您的应用并实时监控其行为。这些步骤让您了解系统实际在做什么，并为您提供改进思路。\n\n现在的问题是：当您发现值得改进的地方时，如何在部署到生产环境之前测试更改？循环的下三个步骤正好解决了这个问题，而这一切都从数据集开始。\n\n数据集是一组测试用例的集合，每次进行更改（即“实验”）时，您都会用这些测试用例来运行您的应用。这样，您无需直接部署并寄希望于一切顺利，而是能在一组代表真实使用场景的输入上，获得可重复、一致的检查结果。\n\n### 数据集项\n\n数据集由多个项组成，每个项代表一个测试用例：即您的应用应该能够处理的一种情况。通常，一个项包含三个字段：\n\n*   **输入**（必填）\n*   **预期输出**（可选）\n*   **元数据**（可选）\n\n数据集项的这三个字段\n\n一个好的思维模型：\n\n### 常见的预期输出模式\n\n是否需要预期输出，以及它应该是什么样子，取决于您使用的评估器类型。\n\n#### 基于参考与无参考评估器\n\n有些评估器会根据预定义的预期输出进行检查（基于参考）。另一些评估器则无需真实答案进行比较，直接评估输出（无参考）。\n\n*   **精确匹配**\n    预期输出是字面上的正确答案。例如：\n    *   一个分类任务，正确标签是 \"billing_inquiry\"\n    *   一个提取任务，预期实体是 [\"Paris\", \"Thursday\"]\n\n*   **参考答案**\n    预期输出是一个黄金标准答案，展示了好的输出应该是什么样子。评估器可以将测试输出与此示例进行比较，例如通过检查语义相似度或关键点是否匹配。\n\n*   **评估标准**\n    预期输出是一系列输出应满足的检查项或要求。例如：\n    *   \"必须提及退款政策\"\n    *   \"必须包含帮助中心的链接\"\n    评估器会检查输出是否满足这些标准。\n\n*   **无预期输出**\n    有时根本不需要预期输出。如果您只是检查：\n    *   语气是否专业\n    *   回复是否安全\n    *   输出是否符合要求的格式\n    那么您的数据集项只需要输入，因为您将使用无参考评估器。\n\n*   **上述组合**\n    由于您可以在单个数据集项上运行多种不同的评估器，因此数据集项的预期输出字段也可以包含多种类型的参考数据。预期输出是一个 JSON 字段，因此您可以毫无问题地存储多种类型的参考数据。\n\n### 什么是好的数据集\n\n一个好的数据集能反映您的系统在生产环境中会遇到的情况。如果通过数据集能让您在部署前充满信心，那么它就完成了任务。\n\n*   **范围清晰**。每个数据集都应有明确定义的范围。如果您将内部步骤视为实现细节，那么范围可以是端到端的；或者，如果您想改进检索或摘要等特定步骤，也可以针对单个步骤。您最终可能会有多个数据集，每个都有明确的用途。\n\n*   **大小适合工作流程**。有些数据集很小且运行速度快，可以作为 CI/CD 流水线的一部分在每次提交时运行。其他数据集则更大、更全面，适合定期运行，但对于每次小改动来说太慢了。\n\n### 从何处开始\n\n从您手头最具体的例子开始，一旦您清楚要测试什么，再扩大覆盖范围。\n\n*   从生产追踪中发现的、您想要改进的示例中提取，可以是原样、匿名化或由 AI 转换后的形式。\n*   根据预定义的需求、边缘情况或您的智能体必须可靠处理的行为，手动编写用例。\n*   一旦您知道要更广泛地覆盖哪些维度，就使用 AI 生成合成示例。\n\n### 下一步是什么\n\n一旦您有了数据集，下一步就是运行您的系统来测试它，看看更改如何影响输出质量。这正是实验的目的所在。",
       "article_text_zh_hash": "7078f729418b149c",
       "id": "2056032201259831398"
+    },
+    {
+      "article_text": "选择关注谁，决定你会成为什么。\n最近这一年，我越来越明显地感觉到一件事：很多人每天都在高强度「关注 AI」，但真正开始动手做东西的人，其实并不多。\n每天打开 X、小红书、YouTube，你都会看到大量关于 AI 的内容。有人分析行业趋势，有人预测未来职业，有人讨论 Agent 会如何改变世界，也有人不断强调「普通人最后的机会来了」。\n这些内容本身并没有问题。很多人讲得确实好，逻辑清晰，表达有感染力，也帮助了不少人第一次接触 AI。\n但看久了之后，你会慢慢产生一种奇怪的感觉：你好像知道了很多东西，却又什么都没有真正开始。\n你收藏了几十篇「AI 创业指南」，关注了一堆「未来趋势」博主，也记住了大量热门词汇——MCP、Agent、Workflow、RAG、Multi-Agent。可回头看时会发现，自己真正做过的事情其实很少。\n这种状态我自己也经历过。有段时间，我每天刷大量 AI 内容，今天有人说「AI 将淘汰程序员」，明天有人说「一个人公司时代来了」，后天又有人说「未来属于超级个体」。每句话都让人产生「再不行动就晚了」的紧迫感，可真正让我开始改变的，并不是那些宏大的观点，而是后来我越来越多地开始关注一些真正下场做事的人。\n一、网红讲趋势，Builder 讲怎么做\n网红的价值一直存在。他们擅长总结趋势、提炼观点、放大情绪，能让更多人第一次理解 AI 到底意味着什么。\n但大部分趋势内容有一个共同特点：它们更像一种「认知消费品」。你看的时候很兴奋，觉得自己已经理解了这个时代，但这种理解往往停留在观点层面，不会真正转化成行动。\n比如有人会不断告诉你：「未来一定属于 Agent」「AI 会重构所有行业」「不会用 AI 的人会被淘汰」。这些话可能都没错，但对于真正想做事的人来说，他更关心的问题是：Agent 到底解决了什么真实需求？用户为什么愿意付费？什么场景是真的高频？一个普通人应该从哪里开始？\n这些问题，往往只有真正做过产品的人才会聊。因为它们不是观点，而是经验。经验这种东西通常不够「性感」，甚至有点狼狈，但恰恰最接近真实世界。\n二、Builder 的分享，会让你第一次认真想「怎么做」\n我现在越来越喜欢看独立开发者的分享，原因很简单：他们讲的东西通常格外具体。\n \n前段时间我看到一个开发者分享，说他最开始做 AI 产品时，一直以为用户最需要「AI 帮忙生成内容」，于是花了很多时间做 AI 写作、AI 总结之类的功能，技术做得不差，但用户始终不愿意付费。后来他偶然接触到一些跨境电商卖家，发现这些人每天都在重复做一件枯燥的事：整理 SKU、填写产品信息、同步平台数据。于是他花了一个周末，做了一个帮卖家自动整理商品表格的小工具。界面不漂亮，功能也不复杂，但上线后很快就有了付费用户。\n这个例子让我印象极深。因为它说明真实市场和想象中的市场完全不一样——很多付费需求，不过是帮别人节省一点时间，减少一点重复劳动。\n类似的还有一个人的经历：他最开始迷恋「做大产品」，想做平台、做生态、做所有人都会用的 AI 应用。折腾了大半年，功能越来越多，系统越来越复杂，但始终没人真正留下来。最后反而靠一个很小的功能活了下来：帮用户自动把会议录音整理成客户沟通纪要。这功能一点都不酷，也没有什么「AGI 感」，但因为它解决的是企业里每天都会出现的真实问题，用户愿意长期付费。\n还有一种内容我现在尤其珍惜：那些坦率承认失败的分享。有人花了两个月做产品，发现根本没人用，决定关掉；有人认真复盘为什么广告投放毫无效果，为什么自以为很重要的功能用户根本不在意。\n这种分享在互联网上很少见，因为大家更偏爱成功故事——「上线即爆火」「一个人三个月 ARR 十万美元」。但真正做过东西的人都知道，现实里大部分项目不会成功。很多产品上线后没用户、没增长、没转化，开发者默默停掉服务器，项目就结束了。而这些失败经验，反而比成功学更有价值。\n三、Builder 的日常，远没有想象中光鲜\n互联网很容易把「独立开发」「AI 创业」包装得浪漫：一个人坐在咖啡馆里用 MacBook 敲代码，白天旅居，晚上收美元，产品自动增长，自由、松弛、充满未来感。\n但真实世界里的 Builder，大部分时候没那么光鲜。更多时候是白天改需求，晚上修 bug；上线后发现支付流程坏了；landing page 改了五版，转化率还是很低；广告投出去，一个注册都没有；半夜两点还在查接口为什么突然报错；好不容易来了几个用户，一半还是朋友支持。\n很多做过产品的人应该都经历过一个经典瞬间：熬夜两个星期终于上线，满脑子想着「会不会突然爆掉」，打开后台发现第一天总共十几个访问，大部分还是自己测试的。\n那一瞬间挺打击人的。因为你第一次真正意识到，互联网不会因为你「很努力」就自动给你用户。\n但也是从这个阶段开始，一个人才真正进入「做事情」的世界。你会慢慢明白，真正难的不是「想到一个点子」，而是后面那些没人愿意讲的东西：怎么持续迭代、怎么理解用户、怎么面对长期没有反馈、怎么在没人鼓掌的时候继续做下去。\n如果长期只看网红，你很容易以为成功靠的是风口、流量和一次爆点。但如果你长期关注真正做事的人，你会发现真实世界非常朴素：有人做了二十个小产品，第二十一个才开始赚钱；有人持续发了半年内容，才接到第一个客户；有人把 onboarding 流程改了八次，留存率才终于提升。这些故事不刺激，也不容易传播，但它们会让你开始接受「慢慢来」这件事。\n四、别只围观，开始动手\n现在有一种很普遍的现象：很多人以为自己在「进入 AI 行业」，其实只是在围观。他们每天看最新模型、最新趋势，能聊很多概念，但真正需要动手时，始终停留在「等自己准备好」。\n可问题是，很多能力本来就是做出来的。你不上线一个产品，就不会理解什么叫用户反馈；不真正服务客户，就不知道什么需求有人付费；不真正踩坑，就不知道什么问题最麻烦。\nBuilder 最大的不同在于，他们会先开始做。哪怕产品很小，哪怕做得粗糙，哪怕没人关注，哪怕最后失败。因为他们知道，真实反馈永远比空谈趋势更重要。\n我不是说网红没价值——好的表达者依然重要，他们能帮更多人打开视野。但如果你真的想在 AI 时代做一点自己的事情，别只看别人讲世界，也多看看那些正在亲手做世界的人。\n \n如果你不知道从哪里开始找到这些人，可以去 X 上搜 #buildinpublic 标签，去 Product Hunt 看每天有什么新产品上线，去 Indie Hackers 读创始人的真实故事，去即刻关注「独立开发者」话题。这些地方聚集着大量正在一边做、一边分享的人。\n更重要的是，最好你自己也慢慢变成这种人。哪怕只是做一个很小的工具，自动化一个重复流程，接到第一个客户，赚到第一笔几十美元的收入，记录一次失败，认真写一次复盘。\n这些事情，可能都比继续收藏十篇「AI 趋势分析」更有价值。\n因为 AI 时代真正拉开人与人差距的，可能已经不是谁最懂趋势，而是谁开始真正动手了。",
+      "id": "2055904097358794948"
     },
     {
       "article_text": "Memory APIs are not a viable product category, and skill systems are just markdown. We've been saying it for a while.\n@sarahwooders and @hwchase17 made the case last month that memory isn't a plugin and that it is the harness instead. \nI made the same argument earlier, from the other side. We argued in a post that got 1.7M views that skills aren't static files. Skills degrade silently in dynamic environments. They need a loop — Observe → Inspect → Amend → Evaluate.\nBoth arguments are in essence about the same harness. A world model.\nTreat skills and memory as the same harness\nA world model is whatever the agent is aware of and what it uses to predict the next action it should take.  In an agent harness, it is a broad state of all things you touch: the codebase layout, the tool schemas, the file system, the last 20 turns of conversation and the user's preferences. \nThe world model is the entire aggregate of context that the harness loads to decide the next step.\nYou can look at memory as a broad harness and skill as a specific one.\nIs skill a subset of memory?\nSkills are the part that records what to do. A SKILL.md is a procedure-level claim: \"to do task T, run steps X, Y, Z.\"\nSkills extend memory with a practical ability to do N tasks. Skills are a compressed procedure. It says \"the world has responded to X, Y, Z by producing T in the past, and probably will again.\"\nMemory observes the world while skills codifies it into a rule.\nWe've extended cognee to store skills and memory in the same store. Self-improvement runtime and agentic retriever share the same graph nodes.\nHow Cognee handles it? \ncognee.remember(\"skills/\") now lets you ingest skills with one line. \nInside Cognee a SkillChangeEvent emits memory events when skill changes. The skill is a memory node that evolves, is traceable, and controllable.\nSkills improve by reading their memory. Memory improves by amending the skills attached to it. There's no clean line between them because there should not be one.\nWe have recently organized a hackathon where users built 21 LLM Knowledge Wikis in 3 hours using Cognee and Redis as session store!\nAnd they did so because it was quite easy to manage skills\n \nConclusion\nEvery world model outside board games is permanently misspecified. The harness's job isn't to fix the schema. It's to run a controller on top of one that's wrong by construction. Cognee is that controller, and skill self-improvement is the first step.\nIt doesn't matter if you use a memory api, skills, or an agent md file.  Even compaction strategies are part of the same play.  \nIt is the same world model.\nThe harness that wins treats memory and skills as one comprehensive world model from the start.\nImho, if your memory system can't route a skill, it's not memory, let alone a world model.",
@@ -1371,6 +1371,19 @@
       "title": "Kimi AI with K2.6 | Better Coding, Smarter Agents",
       "url": "http://Kimi.com"
     },
+    "http://aiandtheattorney.com": {
+      "content_type": "text/html",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://aiandtheattorney.com/",
+      "frameable": true,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Hostinger Horizons",
+      "url": "http://aiandtheattorney.com"
+    },
     "http://birkey.co": {
       "content_type": "text/html; charset=utf-8",
       "description": "",
@@ -1550,6 +1563,32 @@
       "text_excerpt_zh": "",
       "title": "LogoArchive's Logo Histories",
       "url": "http://logohistories.com"
+    },
+    "http://myfulcrumai.com": {
+      "content_type": "text/html",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://myfulcrumai.com",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Hostinger Horizons",
+      "url": "http://myfulcrumai.com"
+    },
+    "http://mylitigationshield.com": {
+      "content_type": "text/html",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mylitigationshield.com/",
+      "frameable": true,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "MyLitigationShield — Your Lawsuit First-Aid Kit",
+      "url": "http://mylitigationshield.com"
     },
     "http://ora.run": {
       "content_type": "text/html; charset=utf-8",
@@ -3479,6 +3518,19 @@
       "title": "",
       "url": "http://x.com/i/article/2058566884081958912"
     },
+    "http://x.com/i/article/2058604468850069504": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058604468850069504",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058604468850069504/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJGh7ShXwAASMud?format=jpg&name=900x900)](http://x.com/i/article/2058604468850069504/asdennison/article/2058605103192371209/media/2058604544641187840)\n\nThe Driver Model: Reorganizing Legal Practice in the Age of AI\n\n[![](https://pbs.twimg.com/profile_images/1803717890853457920/lq5igFMZ_normal.jpg)](http://x.com/i/article/2058604468850069504/asdennison)\n\n[A. Scott Dennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n[@asdennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n·\n\n15h\n\nFollow\n\nClick to Follow asdennison\n\n1\n\n2\n\n17\n\n[1.4K](http://x.com/i/article/2058604468850069504/asdennison/status/2058605103192371209/analytics)\n\nWhy the Practice of Law No Longer Has to Feel Like the Wild West\n\nThe economic model of legal practice is undergoing significant change.\n\nFor decades, large law firms operated on a familiar formula: partners originated clients, teams of associates handled the work, and a leverage pyramid supported profitability. Artificial intelligence is now disrupting that structure.\n\nA single lawyer equipped with strong judgment and effective use of modern AI systems can now accomplish work that previously required an entire team. Research, document analysis, drafting, and case preparation can occur in hours rather than days or weeks.\n\nThe production bottleneck that once supported large staffing models is diminishing.\n\nZack Shapiro described this transition in his essay “The Great Re-sorting of the Legal Market.” As AI reduces production constraints, the legal market is reorganizing into a barbell structure: high-value judgment at one end and commoditized tasks at the other.\n\nShapiro’s analysis outlines the market’s emerging shape. A complementary operating approach that some lawyers are adopting is what can be described as the Driver Model of AI-Native Legal Practice.\n\nIn this model, the lawyer functions as the driver. Supporting systems serve as the car, engineers, pit crew, and strategy team.\n\nThe Driver Model of AI-Native Legal Practice\n\nIn Formula 1 racing, the driver does not succeed by personally building the car, changing tires, analyzing telemetry, and managing logistics. Success depends on an integrated system that supports the driver’s decisions.\n\nThe car delivers performance. Engineers provide technical expertise. The pit crew executes real-time adjustments. Strategists evaluate conditions and recommend options.\n\nThe driver makes the critical decisions that determine the outcome.\n\nLegal practice is developing along similar lines. The lawyer occupies the central decision-making role. Advanced systems handle much of the operational workload, allowing focus on judgment.\n\nLarge-context AI systems act as the engine. They can process extensive document productions, deposition transcripts, pleadings, and discovery materials, surfacing relevant authority and factual patterns.\n\nSpecialized agents support specific functions: legal research and precedent analysis, drafting and citation consistency, and evaluation of procedural strategy and evidentiary issues.\n\nOrchestration systems coordinate tasks, resolve conflicts between outputs, and deliver synthesized information at appropriate times.\n\nThe lawyer retains responsibility for core professional judgment: litigation strategy, risk assessment, interpretation of evidence and narrative, and decisions regarding settlement, motion practice, or trial posture.\n\nThe systems augment judgment rather than replace it.\n\nHow the Driver Model Operates in Litigation\n\nThis approach shifts complex litigation from fragmented team efforts to more unified processes.\n\nIn a matter approaching summary judgment, traditional preparation often involves weeks of coordinated work: reviewing the record, researching authority, drafting sections, and synthesizing arguments.\n\nWith the Driver Mod",
+      "title": "",
+      "url": "http://x.com/i/article/2058604468850069504"
+    },
     "http://x.com/i/article/2058722738920124416": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3507,6 +3559,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058730895281172480"
+    },
+    "http://x.com/i/article/2058817306105651200": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058817306105651200",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058817306105651200/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJJkzUbbsAAVojL?format=jpg&name=900x900)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818812481613824)\n\nHermes as an Onchain Analyst\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[@0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n·\n\n1h\n\nFollow\n\nClick to Follow 0xJeff\n\n3\n\n6\n\n35\n\n[3.1K](http://x.com/i/article/2058817306105651200/0xJeff/status/2058819494609653875/analytics)\n\nEvery single week, Hermes gets an upgrade.\n\nEarlier last week it was x\\_search where Hermes could directly tap into X rich real-time news/insights without having to use X API (saving lots of $ on credits).\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2058817306105651200/0xJeff)\n\n0xJeff\n\n@0xJeff\n\n·\n\n[May 18](http://x.com/i/article/2058817306105651200/0xJeff/status/2056269840009318569)\n\n![Article cover image](https://pbs.twimg.com/media/HIlWFfUaoAIqYPo?format=jpg&name=small)\n\n Article\n\nHermes as a Real-time Analyst\n\n@NousResearch just partnered with @xai and Hermes just got a HUGE boost in research capability. Here are the highlights Directly Grok subscription, X Premium (and Premium+) users who have Grok subs...\n\n30\n\n81\n\n817\n\n[150K](http://x.com/i/article/2058817306105651200/0xJeff/status/2056269840009318569/analytics)\n\n3-4 days ago it was \"skill bundling\" feature, a feature that lets you group multiple individual skills into one reusable command. This is massive because instead of manually typing each skill consequently and hoping the agent remembers to load them, you can just run the bundle which loads all the skills — ensuring consistency & reliability.\n\nIn this article, we'll explore a skill bundle that's designed for an onchain analyst job — tracing onchain data, identifying who bought/who dumped, how much they have left, and more.\n\nEvery single time I decide to invest in a project, I always wonder \"Are there people who are going to dump on me\". Sure, everything is onchain and one can use tools like BubbleMaps, Arkham, Dexscreener or go through the explorer to identify who accumulated early. But the reality is.... it's not that easy, there aren't any tools that you can ask to get a complete picture.\n\nWell, there are, but most of them are quite expensive.\n\n> Actually... not anymore.... With the rise of x402-integrated services & tools, these tools are becoming very affordable. Instead of paying $100+ for subscription, paying per one time use only cost $0.03 - $0.11 per run.\n\n## \n\nThe Onchain Forensics Pipeline\n\nThis is what the report looks like after a run\n\n[![Image](https://pbs.twimg.com/media/HJJkbdGaMAAetqt?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818402492493824)\n\n[![Image](https://pbs.twimg.com/media/HJJkdssa8AA9W2v?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818441038196736)\n\nYou get\n\n* Top sellers\n* Top accumulators\n* Net flows across 4 time periods\n\nOn top of the report, Cookie MCP is run for sentiment data points & cross-check them with onchain movements.\n\nFor VVV, the output is below\n\n[![Image](https://pbs.twimg.com/media/HJJkgukbcAA9lHY?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818493081153536)\n\nInterestingly, it caught neetguy who publicly said that he sold his VVV + he committed to it onchain.\n\n## \n\nHow does the pipeline work\n\nWhen you think about top onchain forensic tools, you tend to think about Arkham Intelligence or Nansen. Both of which are highly capable and have rich databases ident",
+      "title": "",
+      "url": "http://x.com/i/article/2058817306105651200"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -15685,6 +15750,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15699,20 +15778,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2058381169326972928/img/ggd9EzXwX2g2qyNq.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058381169326972928/img/ggd9EzXwX2g2qyNq.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058381169326972928/img/ggd9EzXwX2g2qyNq.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058381169326972928/img/ggd9EzXwX2g2qyNq.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2058488662623502336/img/v-Cin-5tZm4enSDJ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15726,6 +15791,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058488662623502336/img/v-Cin-5tZm4enSDJ.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -36341,8 +36420,8 @@
       "https://x.com/NebulaAI/status/2057862000764432822",
       "http://x.com/i/article/2056498123640336384",
       "https://x.com/NebulaAI/status/2057862607415964026",
-      "https://x.com/NebulaAI/status/2058554404244979787",
       "https://x.com/NebulaAI/status/2058018517564240006",
+      "https://x.com/NebulaAI/status/2058554404244979787",
       "https://x.com/NebulaAI/status/2057878398651781228",
       "https://x.com/NebulaAI/status/2057863387124523022"
     ],
@@ -36365,13 +36444,13 @@
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
+      "https://x.com/Saboo_Shubham_/status/2057902072335642643",
       "https://x.com/Saboo_Shubham_/status/2057892999863185576",
       "https://x.com/Saboo_Shubham_/status/2057902016438112664",
+      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
       "https://x.com/Saboo_Shubham_/status/2058064618787151914",
       "https://x.com/Saboo_Shubham_/status/2057900693638496759",
-      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
+      "https://x.com/Saboo_Shubham_/status/2057880653698658490"
     ],
     "2057882419257311652": [
       "https://x.com/reach_vb/status/2057882419257311652",
@@ -36398,9 +36477,7 @@
     "2058040699300241828": [
       "https://x.com/cyrilXBT/status/2058040699300241828",
       "http://x.com/i/article/2057568533354356736",
-      "https://x.com/cyrilXBT/status/2058042529379979745",
-      "https://x.com/cyrilXBT/status/2058402610198073445",
-      "https://pbs.twimg.com/amplify_video_thumb/2058381169326972928/img/ggd9EzXwX2g2qyNq.jpg"
+      "https://x.com/cyrilXBT/status/2058042529379979745"
     ],
     "2058086754025136494": [
       "https://x.com/amitiitbhu/status/2058086754025136494",
@@ -36450,12 +36527,12 @@
     "2058262328496554021": [
       "https://x.com/KSimback/status/2058262328496554021",
       "http://x.com/i/article/2058203569237450753",
-      "https://x.com/KSimback/status/2058303374173393348",
-      "https://x.com/KSimback/status/2058521817422196895",
-      "https://x.com/KSimback/status/2058568213227549162",
-      "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058522257291456916",
       "https://x.com/KSimback/status/2058522354364338257",
+      "https://x.com/KSimback/status/2058568213227549162",
+      "https://x.com/KSimback/status/2058521817422196895",
+      "https://x.com/KSimback/status/2058303374173393348",
+      "https://x.com/KSimback/status/2058522535382139186",
       "https://x.com/KSimback/status/2058497148275114113",
       "https://x.com/KSimback/status/2058522436862112176"
     ],
@@ -36525,7 +36602,8 @@
     ],
     "2058554497333407927": [
       "https://x.com/anorth_chen/status/2058554497333407927",
-      "http://x.com/i/article/2058549481314922496"
+      "http://x.com/i/article/2058549481314922496",
+      "https://x.com/anorth_chen/status/2058839486482808916"
     ],
     "2058559764708356226": [
       "https://x.com/dingyi/status/2058569793456980151",
@@ -36554,6 +36632,17 @@
       "http://x.com/i/article/2058566884081958912",
       "https://x.com/NebulaAI/status/2058602003115200895"
     ],
+    "2058605103192371209": [
+      "https://x.com/asdennison/status/2058605103192371209",
+      "http://x.com/i/article/2058604468850069504",
+      "https://x.com/asdennison/status/2058641209246261558",
+      "http://myfulcrumai.com",
+      "http://aiandtheattorney.com",
+      "http://mylitigationshield.com",
+      "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
+      "https://x.com/asdennison/status/2058068019687870956",
+      "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
+    ],
     "2058646281308733446": [
       "https://x.com/scaling01/status/2058646281308733446"
     ],
@@ -36573,8 +36662,12 @@
     ],
     "2058794801714327835": [
       "https://x.com/maxmarchione/status/2058794801714327835"
+    ],
+    "2058819494609653875": [
+      "https://x.com/0xJeff/status/2058819494609653875",
+      "http://x.com/i/article/2058817306105651200"
     ]
   },
-  "updated_at": "2026-05-25T09:07:30Z",
+  "updated_at": "2026-05-25T09:18:16Z",
   "window": "recent"
 }
