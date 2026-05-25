@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I wanted to make a short post about this topic ~6 hours ago, but it escalated into an entire article\n\nenjoy",
+      "text_zh": "我大约6小时前想就这个话题写一篇短文，结果它演变成了一整篇文章。\n\n请享用。",
+      "text_zh_hash": "1a958322cac6c43a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/scaling01/status/2058646281308733446"
     },
     {
@@ -95,6 +98,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "TIL: Obsidian's canvas feature was defined as a spec ages ago and has its own home at https://jsoncanvas.org/\n\nSounds uneventful at first but I can just point it to a prompt and have clankers link my Obsidian files in ways I found tiresome to do manually.",
+      "text_zh": "TIL：Obsidian 的 Canvas 功能早在多年前就被定义为一项规范，并拥有专属主页 https://jsoncanvas.org/\n\n初听似乎平淡无奇，但我只需将其指向一个提示词，就能让机器以我过去觉得繁琐的方式自动链接我的 Obsidian 文件。",
+      "text_zh_hash": "d6a7f39d7d30466d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jerieljan/status/2058575298694914064"
     },
     {
@@ -136,6 +142,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "If you've ever wanted to understand how memory works within Hermes Agent\n\nor explore additional tools to enhance your memory setup\n\nThen this is your guide - I went deep, but kept it easy to follow",
+      "text_zh": "如果你一直想了解 Hermes Agent 中的记忆机制是如何运作的，\n\n或者想探索更多工具来增强你的记忆配置，\n\n那么这份指南就是为你准备的——我深入钻研了，但确保内容通俗易懂。",
+      "text_zh_hash": "92644017288bc33d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/KSimback/status/2058542532297187412"
     },
     {
@@ -257,6 +266,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Has been a while since I wrote about agentic engineering, so this time around some learnings of maintaining Pi as a junior maintainer to @badlogicgames :) https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "text_zh": "距离上次写关于智能体工程（agentic engineering）的文章已经有一段时间了，这次想分享一下作为初级维护者协助 @badlogicgames 维护 Pi 的一些心得 :) https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "text_zh_hash": "accb072a38af7969",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mitsuhiko/status/2058590229196329341"
     },
     {
