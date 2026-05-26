@@ -12116,21 +12116,6 @@
       "title": "One Developer, Two Dozen Agents, Zero Alignment",
       "url": "https://maggieappleton.com/zero-alignment"
     },
-    "https://magnifica-humanitas.fly.dev": {
-      "content_type": "text/html",
-      "description": "Annotated brief of Leo XIV's 2026 encyclical on AI and human dignity — thesis, takeaways, 14 argued claims, entity inspector, theme chart, and full annotated text.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://magnifica-humanitas.fly.dev",
-      "frameable": null,
-      "image_urls": [
-        "https://magnifica-humanitas.fly.dev/og-card.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Magnifica Humanitas — Leo XIV on AI and human dignity (annotated brief)",
-      "url": "https://magnifica-humanitas.fly.dev"
-    },
     "https://maker.taptap.cn": {
       "content_type": "text/html",
       "description": "TapTap 制造 是一款专为游戏爱好者打造的 零门槛 AI 游戏创作智能体。想到就能做到！",
@@ -12295,6 +12280,20 @@
       "text_excerpt": "[一个反直觉的发现](https://maxlv.net#一个反直觉的发现)\n用 AI 写代码，选什么语言最高效？\n直觉会说 Python——语法简单、AI 训练数据多、生成即运行。但在过去几个月用 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 开发了 [https_proxy](https://github.com/madeye/https_proxy) 和 [trans_proxy](https://github.com/madeye/trans_proxy) 两个 Rust 项目之后，我的结论恰恰相反：\nRust 可能是最适合 AI 编程的语言。\n不是因为 AI 写 Rust 从不犯错——它犯的错不少。而是因为 Rust 的编译器会在毫秒级内把错误精确地拍回来，形成一个极其高效的反馈循环。Python 代码生成后\"看起来对了\"，但 bug 可能藏在运行时的某个角落；Rust 代码只要编译通过，一大类错误就已经被消灭了。\n这篇文章以这两个项目的实际开发经历为线索，讨论为什么 Claude Code + Rust 会成为一种更好的编程范式。\n[编译器是 AI 最好的搭档](https://maxlv.net#编译器是-ai-最好的搭档)\n[类型系统：自动验证 AI 的输出](https://maxlv.net#类型系统自动验证-ai-的输出)\n先看 trans_proxy 中上游代理协议的定义：\nenum ProxyProtocol {\nHttpConnect,\nSocks5(ProxyAuth),\n}\nenum ProxyAuth {\nNone,\nUsernamePassword { username: String, password: String },\n}\n当 AI 生成处理上游连接的代码时，它必须覆盖 ProxyProtocol\n的每个变体：\nmatch &proxy.protocol {\nProxyProtocol::HttpConnect => { /* HTTP CONNECT 隧道 */ }\nProxyProtocol::Socks5(auth) => { /* SOCKS5 握手 */ }\n}\n如果 AI 遗漏了 Socks5\n分支，或者在 Socks5\n里忘记处理 UsernamePassword\n认证——编译器直接报错，连运行的机会都没有。这不是 lint 警告，不是 best practice 建议，是硬性编译失败。\n在 Python 中，同样的逻辑可能写成一串 if/elif\n，遗漏一个分支只会在运行时某个特定条件下触发 KeyError\n。AI 不会告诉你它漏了什么，因为它自己也不知道。\n[Borrow Checker：并发安全的自动证明](https://maxlv.net#borrow-checker并发安全的自动证明)\ntrans_proxy 的 DNS 模块大量使用跨任务共享状态：\n// DNS 查询表：IP → 域名的映射\nlet dns_table: Arc<RwLock<HashMap<Ipv4Addr, String>>> = ...;\n// 查询合并器：避免重复请求\nlet coalescer: Arc<QueryCoalescer> = ...;\nAI 生成的异步代码经常涉及跨 tokio::spawn\n边界的数据共享。在 Go 或 Python 中，数据竞争是运行时的偶发事件，可能在压力测试中才偶尔浮现。在 Rust 中：\n- 忘记\nArc\n包装？编译失败——所有权无法跨线程转移 - 忘记\nRwLock\n？编译失败——不能在多线程中可变借用 - 在持有锁的情况下\n.await\n？Clippy 直接警告死锁风险\nBorrow checker 把\"代码审查中需要人类凭经验发现的并发 bug\"变成了\"编译器自动检测的类型错误\"。对于 AI 生成的代码，这意味着无需信任 AI 的并发推理能力——编译器会替你验证。\n[穷举 Match：消灭遗漏](https://maxlv.net#穷举-match消灭遗漏)\nhttps_proxy 的隐身检测是一个典型例子：\npub fn is_proxy_request(req: &Request<Incoming>) -> bool {\nif req.method() == Method::CONNECT {\nreturn true;\n}\nif req.version() == Version::HTTP_2 {\nreturn false;\n}\nreq.uri().authority().is_some()\n}\n这段逻辑看似简单，但背后的判断链条非常精确：CONNECT 一定是代理请求；HTTP/2 非 CONNECT 一定不是（因为 :authority\n伪头始终存在）；HTTP/1.x 看 URI 是否包含 authority。\n当 AI 生成这类分支逻辑时，Rust 的穷举 match 确保了每个 Method\n、每个 Version\n变体都被考虑到。如果未来 hyper 库新增了 HTTP/3 的 Version\n变体，所有未覆盖的 match 会自动变成编译错误——而不是静默地走进一个错误的 fallback 分支。\n[互补关系：AI 擅长什么，Rust 补足什么](https://maxlv.net#互补关系ai-擅长什么rust-补足什么)\nAI 和 Rust 编译器各自有明显的强项和弱项，恰好形成互补：\n| AI 擅长 | AI 不擅长 | |\n|---|---|---|\n| 模式识别 | 见过数百万个 HTTP 解析器实现，生成新的得心应手 | 判断某个特定实现在边界条件下是否正确 |\n| API 记忆 | 精确记忆 tokio、hyper、reqwest 的 API 签名和用法 | 确保 API 调用的顺序和组合在所有执行路径上都正确 |\n| 样板代码 | 秒级生成 serde 序列化、clap 参数定义、错误类型转换 | 保证生成的类型定义在整个项目中一致 |\nRust 编译器精确地补上了右列的每一项：\n- 边界条件：\nOption<T>\n强制处理空值，Result<T, E>\n强制处理错误 - 执行路径：穷举 match 确保所有分支被覆盖\n- 全局一致性：类型系统确保修改一处接口后，所有调用方都必须适配\n以 https_proxy 的配置系统为例。AI 生成了完整的配置结构体：\n#[derive(Debug, Deserialize, Serialize, Clone)]\nstruct Config {\nlisten: String,\ndomain: String,\nacme: AcmeConfig,\nusers: Vec<UserConfig>,\n#[serde(default)]\nstealth: StealthConfig,\n#[serde(default)]\nfast_open: bool,\n}\n#[derive(Deserialize)]\n和 #[serde(default)]\n这类注解，AI 比大多数人都记得准。但如果 AI 在某处把 users\n的类型从 Vec<UserConfig>\n改成了 HashMap<String, String>\n，所有使用 users\n的代码会立即编译失败——不需要人去全局搜索哪里用了这个字段。\n[效率杠杆：秒级反馈循环](https://maxlv.net#效率杠杆秒级反馈循环)\n[cargo check 的魔力](https://maxlv.net#cargo-check-的魔力)\n下图对比了两种反馈循环的差异：\n左侧的传统工作流中，人是瓶颈——阅读、理解、评估一段代码可能需要几分钟。右侧的 Rust 工作流中，cargo check\n秒级完成类型检查，Claude Code 直接读取编译器输出并自动修复，整个循环不需要人的介入。\n一个典型场景：开发 trans_proxy 的 SOCKS5 支持时，AI 第一轮生成的代码在 ProxyAuth::UsernamePassword\n分支中忘记了对 username\n长度做 u8\n范围检查（SOCKS5 RFC 1929 要求用户名不超过 255 字节）。cargo check\n通过了，但 cargo test\n中的边界测试捕获了问题。AI 看到测试输出后，第二轮就生成了正确的验证逻辑。从错误到修复，整个循环不到 30 秒。\n[对比：动态语言的反馈延迟](https://maxlv.net#对比动态语言的反馈延迟)\n如果同样的项目用 Python 写：\n- 类型错误？要等运行时触发，或者依赖 mypy（覆盖率通常不到 100%）\n- 并发 bug？可能在压力测试中偶现，难以稳定复现\n- API 不匹配？import 成功不代表调用正确，要等实际执行到那一行\n这些延迟的反馈意味着 AI 的错误可能一路传播到后面的代码中，修复成本指数级增长。Rust 的编译器把尽可能多的验证前移到编译期，让 AI 的每一轮迭代都从一个已验证的基线出发。\n[实战案例：两个项目的开发历程](https://maxlv.net#实战案例两个项目的开发历程)\n[https_proxy：10 个模块的协作](https://maxlv.net#https_proxy10-个模块的协作)\nhttps_proxy 的代码组织成 10 个模块：\nsrc/\n├── main.rs # 入口与 CLI\n├──",
       "title": "Claude Code + Rust：当 AI 遇上最严格的编译器 - Lv. MAX",
       "url": "https://maxlv.net/blog/claude-code-rust-new-paradigm/"
+    },
+    "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80"
     },
     "https://mem9.ai/SKILL.md": {
       "cleaner_v": 2,
@@ -16475,20 +16474,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -23966,20 +23951,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
     },
-    "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
-    },
     "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -24008,19 +23979,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
     },
-    "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg": {
+    "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+        "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+      "url": "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -26714,21 +26685,6 @@
       "title": "千问-阿里 AI 助手 千问-阿里 AI 助手",
       "url": "https://www.qianwen.com/"
     },
-    "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "blog post",
-      "final_url": "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/",
-      "frameable": null,
-      "image_urls": [
-        "https://www.scu.edu/media/ethics-center/internet-ethics/KathrynConrad-Datafication-cropped-360x225.png",
-        "https://www.scu.edu/media/ethics-center/internet-ethics/KathrynConrad-Datafication-cropped.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to main content scu.edu Santa Clara University Homepage Offices & Services Schools & Centers Search Search Ethics scu.edu Markkula Center for Applied Ethics Homepage menu Search About the Center category links Annual Report 2024-25 Center News Consulting Services Ethics Experts for Media History Media Mentions People Press & Media Hub Focus Areas category links Bioethics Business Ethics Campus Ethics Government Ethics Institute for Technology, Ethics, and Culture Internet Ethics Journalism and Media Ethics Leadership Ethics Religious and Catholic Ethics Social Sector Ethics Technology Ethics Lucas Institute for Venture Ethics More Focus Areas Ethics Resources category links Using This Site A Framework for Ethical Decision Making Ethical Decision Making Ethics Articles Ethics Blogs Ethics Cases Ethics Curricula Ethics Links Ethics Podcasts Ethics Spotlight Ethics Videos Ethics and ESG Resource Center Ethics Spotlights category links The Ethics of Prediction Markets The Impact of AI on Human Dignity The Ethics of Immigration Enforcement Student Project Showcase 2025 Compassion in Governing: An Ethical Perspective Ethics and the Israeli-Palestinian Conflict: Here and in the Middle East Student Project Showcase 2024 Student Project Showcase 2023 Generative AI Ethics Student Project Showcase 2022 The Ethics of Guns Ethical Considerations for COVID-19 Vaccination Hackworth Fellowships Project Showcase 2021 Racism, Hate, and the AAPI Community Vaccination Ethics Violence at the Capitol Post-Election Reconciliation Election Ethics The Ethics of Going Back to School in a Pandemic Ethics and Systemic Racism Systemic Racism, Police Brutality, and the Killing of George Floyd COVID-19: Ethics, Health and Moving Forward COVID-19 Social Media and Democracy The Climate Crisis The Ethical Implications of Mass Shootings Political Speech in the Age of Social Media The Mueller Report: An Ethical Analysis The Power of Symbols The Ethics of Immigration The California Wildfires Point/Counterpoint: Democratic Legitimacy The Ethics of Dissent Brett Kavanaugh and the Ethics of the Supreme Court Confirmation Process Taking a Knee Events Donate Contact Us SCU Home Offices & Services Schools & Centers on AI and the Ethical Criteria for Assessing Its Benefits and Risks Home Markkula Center for Applied Ethics Focus Areas Internet Ethics Internet Ethics: Views From Silicon Valley on AI and the Ethical Criteria for Assessing Its Benefits and Risks drawing at kids at computers with numbers overaly Some Quotes from Pope Leo Irina Raicu I rina Raicu is the director of the Internet Ethics program ( @IEthics ) at the Markkula Center for Applied Ethics . Views are her own. Last July, the Vatican published the “ Message of Pope Leo XIV to Participants in the Second Annual Conference on Artificial Intelligence, Ethics, and Corporate Governance .” In it, Pope Leo noted that the Church wishes to contribute to a serene and informed discussion of these pressing questions by stressing above all the need to weigh the ramifications of AI in light of the ‘integral development of the human person and society’… This entails taking into account the well-being of the human person not only materially, but also intellectually and spiritually; it means safeguarding the inviolable dignity of each human person and respecting the cultural and spiritual riches and diversity of the world’s peoples. “Ultimately,” he added, “the benefits or risks of AI must be evaluated precisely according to this superior ethical criterion.” In the same message, the Pope also focused specifically on AI’s impact on young people: “All of us, I am sure,” he wrote, “are concerned for children and young people, and the possible consequences of the use of AI on their intellectual and neurological development. Our youth must be helped, and not hindered, in their journey towards maturity and true responsibility.” Then, in December, Pope Leo addressed participants in a conference titled “Artificial Intellige",
-      "title": "on AI and the Ethical Criteria for Assessing Its Benefits and Risks - Markkula Center for Applied Ethics",
-      "url": "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/"
-    },
     "https://www.shapeof.ai": {
       "content_type": "text/html; charset=utf-8",
       "description": "Pattern library of AIUX patterns exploring best practices for designing AI Products.",
@@ -26985,31 +26941,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The companies making the most money from AI | The Verge",
       "url": "https://www.theverge.com/cs/features/831818/ai-mercor-handshake-scale-surge-staffing-companies"
-    },
-    "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "In 'Black & Blue' at Larkin Durey, the Kent-based artist grapples memories, connection, and devastating loss.",
-      "final_url": "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-3.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/nav-panel-bg-mobile.svg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/nav-panel-bg.svg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2024/09/surprise-static.svg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-8.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-6.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-5-e1778505684387.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-4.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-1.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-2.jpg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/arrow-left.svg",
-        "https://www.thisiscolossal.com/wp-content/uploads/2019/03/LinseyLevendall_13.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to content Colossal The best of art, craft, and visual culture since 2010. Support Us Log in Shop Search … Menu Art Craft Design Photography Animation Books Climate Film History Conversations Illustration Music Nature Opportunities Science Social Issues Close Search & Explore Subscribe Events Conversations Art Glossary Shop About Colossal About Contact Become a Colossal Member Join Us or Log in Privacy Policy Terms of Service Detail of “This Mind Hath Demolition Reached” (2025), ballpoint pen on antique texts, 11 3/4 x 16 1/2 inches. All images © Habib Hajallie, courtesy of Larkin Durey, shared with permission Habib Hajallie’s Meticulous Ballpoint Pen Drawings Examine the Depths of Emotion May 11, 2026 Art Kate Mothes Share Email Bookmark In ballpoint pen on found fragments of philosophical and historical texts, Habib Hajallie delves into the emotional realm of memory, connection, and loss. The Kent-based artist often celebrates Black cultural figures and beloved family members, along with examining his own personal experiences as a British man of Sierra Leonean and Lebanese heritage. In his current solo exhibition, Black & Blue at Larkin Durey , Hajallie grapples with the devastating stillbirth of his daughter and the “indescribable emotions that sit beneath language,” says the gallery. For this show, the artist deliberately switched from using black ballpoint ink to blue. As he made these works, Hajallie also reflected on the loss of his sister four years ago. Using antique maps and snippets of philosophical and sociological writings, he portrays subtle sides of what the gallery describes as “an altered sense of self.” Figures, including several self-portraits, exude feelings of despair, confusion, numbness, care, and the nuanced emotions that emerge in-between. “Still Remain” (2026), ballpoint pen on antique texts, 11 3/8 x 16 1/2 inches “While this series is concerned with the internal landscape of loss and what it means to endure a profoundly altered reality, each artwork has acted as an invaluable step towards healing,” the gallery says. “By drawing directly onto antique texts that explore morality, purpose, and transcendence, Hajallie’s personal pain enters into a wider conversation about finding meaning and the ways in which drawing can become a space of solace and catharsis.” Black & Blue continues through May 22 in London. See more on the artist’s Instagram . “A Refuge Among Reflections” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches Detail of “A Refuge Among Reflections” “This Mind Hath Demolition Reached” (2025), ballpoint pen on antique texts, 11 3/4 x 16 1/2 inches “Nothing Else to Fear” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches “Arise and Walk Strongly and Fearlessly” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches Do stories and artists like this matter to you? Become a Colossal Member now, and support independent arts publishing. Hide advertising Save your favorite articles Get 15% off in the Colossal Shop Receive members-only newsletter Give 1% for art supplies in K-12 classrooms Join us today! $7/month $75/year Explore membership options Previous article Next article Related tags drawing emotions Habib Hajallie pen portraits self-portrait Related articles Swirling Patches of Multi-Hued Colored Pencil Compose Portraits by Linsey Levendall Scribbled Portraits of Brooding Figures by Adam Riches Vintage Ephemera Backdrops Mark Powell's Intimate Ballpoint Pen Drawings Mark Powell's Pen Drawings Accentuate the Memories Etched into Faces and Ephemera A New Book Plunges into the Vast Diversity of the World's Oceans Across 3,000 Years Headsongs: Graphite Portraits Morph into Landscapes Trending Around North America, Community Members Are Stitching Nearly 11,000 Birds The Photographs that Shaped the Black Arts Movement in the Mid-20th Century NASA Just Dropped More Than 12,000 Photos from the Artemis II Mission Gaia Sleeps Amid Sarah Eberle’s Award-Winning Garde",
-      "title": "Habib Hajallie's Meticulous Ballpoint Pen Drawings Examine the Depths of Emotion — Colossal",
-      "url": "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar"
     },
     "https://www.tolans.com/relay/how-we-claudified-our-ios-app-without-wrecking-our-codebase": {
       "cleaner_v": 2,
@@ -37182,9 +37113,9 @@
       "https://x.com/SidebarIO/status/2057094501986943369",
       "https://2026.stateofai.dev/en-US?ref=sidebar",
       "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg",
-      "https://x.com/SidebarIO/status/2059313879985893724",
-      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+      "https://x.com/SidebarIO/status/2059323435776401900",
+      "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
+      "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
     ],
     "2057098181218025543": [
       "https://x.com/jeetnirnejak/status/2057098181218025543",
@@ -37679,17 +37610,15 @@
       "https://github.com/botirk38/sift",
       "https://x.com/botir33751732/status/2058869447121662115",
       "https://x.com/botir33751732/status/2058895853075468397",
-      "https://x.com/botir33751732/status/2058895700927115524",
       "https://x.com/botir33751732/status/2058939779127939289",
+      "https://x.com/botir33751732/status/2058895700927115524",
       "https://x.com/botir33751732/status/2058979323478974478"
     ],
     "2058871597637746997": [
       "https://x.com/monokern/status/2058871597637746997",
       "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg",
       "https://x.com/monokern/status/2058908301320954143",
-      "https://x.com/monokern/status/2058908255460458587",
-      "https://x.com/monokern/status/2059250772215255146",
-      "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
+      "https://x.com/monokern/status/2058908255460458587"
     ],
     "2058878015279644883": [
       "https://x.com/blockchainbalak/status/2058878015279644883",
@@ -37710,8 +37639,8 @@
     "2058909624917787099": [
       "https://x.com/xiaoxiaodong01/status/2058909624917787099",
       "http://x.com/i/article/2058908349220179968",
-      "https://x.com/xiaoxiaodong01/status/2059077799034634433",
-      "https://x.com/xiaoxiaodong01/status/2058929929363005793"
+      "https://x.com/xiaoxiaodong01/status/2058929929363005793",
+      "https://x.com/xiaoxiaodong01/status/2059077799034634433"
     ],
     "2058924184991142036": [
       "https://x.com/blackanger/status/2058924184991142036"
@@ -37729,8 +37658,8 @@
       "http://x.com/i/article/2058497582888886272",
       "https://x.com/leopardracer/status/2058971818355032446",
       "https://x.com/leopardracer/status/2058968794559603165",
-      "https://x.com/leopardracer/status/2058971987666456890",
       "https://x.com/leopardracer/status/2058968947370676578",
+      "https://x.com/leopardracer/status/2058971987666456890",
       "https://x.com/leopardracer/status/2058968993549910392",
       "https://x.com/leopardracer/status/2058972229702951329",
       "https://x.com/leopardracer/status/2058971893735080131"
@@ -37739,9 +37668,9 @@
       "https://x.com/SidebarIO/status/2058951490727768087",
       "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar",
       "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg",
-      "https://x.com/SidebarIO/status/2059313879985893724",
-      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+      "https://x.com/SidebarIO/status/2059323435776401900",
+      "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
+      "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
     ],
     "2058960002350723487": [
       "https://x.com/sairahul1/status/2058960002350723487"
@@ -37750,9 +37679,9 @@
       "https://x.com/SidebarIO/status/2058961048976171183",
       "https://every.to/p/after-automation?ref=sidebar",
       "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg",
-      "https://x.com/SidebarIO/status/2059313879985893724",
-      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+      "https://x.com/SidebarIO/status/2059323435776401900",
+      "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
+      "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
     ],
     "2058961858548081097": [
       "https://x.com/KSimback/status/2058961858548081097",
@@ -37760,9 +37689,7 @@
     ],
     "2058967752485032163": [
       "https://x.com/0x_kaize/status/2058967752485032163",
-      "http://x.com/i/article/2056277142686597120",
-      "https://x.com/0x_kaize/status/2059236004863631428",
-      "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
+      "http://x.com/i/article/2056277142686597120"
     ],
     "2058968757519684069": [
       "https://x.com/NoahCorduroy/status/2058968757519684069",
@@ -37797,39 +37724,7 @@
       "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
       "https://x.com/simonw/status/2059069282844381654",
       "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s",
-      "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg",
-      "https://x.com/molt_me/status/2059066748016455945",
-      "https://x.com/baibaida/status/2059263435465204142",
-      "https://x.com/Oracle/status/2057510497717813504",
-      "https://x.com/jahanzaibai/status/2059096524181905448",
-      "https://x.com/twid/status/2059072288574849176",
-      "https://magnifica-humanitas.fly.dev",
-      "https://x.com/Chahatxsharma/status/2059271504840311153",
-      "https://x.com/baibaida/status/2059079660022173703",
-      "https://x.com/tech_summaries/status/2059186617877742044",
-      "https://x.com/andrefrcunha7/status/2059086212875378700",
-      "https://x.com/jahanzaibai/status/2059100047103709413",
-      "https://x.com/TattedWorks/status/2059079963957932154",
-      "https://x.com/hk_net/status/2059265964227625412",
-      "https://x.com/davidpfahler/status/2059262556917620805",
-      "https://x.com/IEthics/status/2059119818037747751",
-      "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/",
-      "https://x.com/zapadooo/status/2059073980380688596",
-      "https://x.com/eatthemenu/status/2059295297453613148",
-      "https://x.com/HAF_tech/status/2059154777536098566",
-      "https://x.com/JkaneJames/status/2059298043057353155",
-      "https://x.com/baibaida/status/2059170808208183523",
-      "https://x.com/baibaida/status/2059248116935885144",
-      "https://x.com/baibaida/status/2059096934502346810",
-      "https://x.com/0employees/status/2059069848408281098",
-      "https://x.com/buildsafter5/status/2059169266310492431",
-      "https://x.com/ECLresearch/status/2059067381021094388",
-      "https://x.com/Ferbin08/status/2059067395335917786",
-      "https://x.com/Ferbin08/status/2059101974029619506",
-      "https://x.com/swogx/status/2059072407596401041",
-      "https://x.com/guilhermeotina/status/2059077944564170815",
-      "https://x.com/CreaoAI/status/2059224631719186715",
-      "https://x.com/seylorra/status/2059069464621031791"
+      "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
     ],
     "2059105145481310635": [
       "https://x.com/ChrisWangwy/status/2059105145481310635",
@@ -37840,11 +37735,15 @@
       "https://x.com/ChrisWangwy/status/2059145307112480974",
       "https://x.com/ChrisWangwy/status/2059145269015613864"
     ],
+    "2059192394713899228": [
+      "https://x.com/_avichawla/status/2059192394713899228",
+      "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
+    ],
     "2059236589818269799": [
       "https://x.com/usagimaruma/status/2059236589818269799",
       "https://clickandmagic.com/notes/avoiding_uiux"
     ]
   },
-  "updated_at": "2026-05-26T16:53:04Z",
+  "updated_at": "2026-05-26T19:28:24Z",
   "window": "recent"
 }
