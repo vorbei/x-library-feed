@@ -4405,24 +4405,6 @@
       "title": "Building Effective AI Agents \\ Anthropic",
       "url": "https://anthropic.com/research/building-effective-agents"
     },
-    "https://anthropic.skilljar.com": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Browse all Anthropic courses",
-      "final_url": "https://anthropic.skilljar.com",
-      "frameable": false,
-      "image_urls": [
-        "https://cc.sj-cdn.net/instructor/4hdejjwplbrm-anthropic/catalog_page/33z62i4zzunao/tile-image.1750175621.png",
-        "https://cdn.sanity.io/images/4zrzovbb/website/c4bd33e7c8e809a2f9a9a5896ee13961e2a738ec-2400x1260.png",
-        "https://cc.sj-cdn.net/instructor/4hdejjwplbrm-anthropic/themes/3gufixqhei80k/header-logo.1749494808.png",
-        "https://anthropic.skilljar.com/static/skilljar-monorepo/statics/dist/img/transparent.d89746888da2.gif",
-        "https://anthropic.skilljar.com/static/skilljar-monorepo/statics/dist/img/powered-by-logo.864fb1f2d98e.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Anthropic Courses Anthropic Courses",
-      "url": "https://anthropic.skilljar.com"
-    },
     "https://api.anthropic.com/api/event_logging/batch": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5663,35 +5645,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "<feDiffuseLighting> - SVG | MDN",
       "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDiffuseLighting"
-    },
-    "https://developers.google.com/machine-learning/crash-course": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "",
-      "extraction_source": "trafilatura",
-      "final_url": "https://developers.google.com/machine-learning/crash-course",
-      "frameable": false,
-      "image_urls": [
-        "https://developers.google.com/static/machine-learning/crash-course/images/mlcc-hero.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Linear_Regression_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Logistic_Regression_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Classification_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Numerical_Data_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Categorical_Data_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Generalization_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Neural_Nets_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Embedding_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Large_Lanuage_Model_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Production_ML_Systems_no_text.png",
-        "https://developers.google.com/static/machine-learning/crash-course/images/MLCC_Auto_ML_Yellow_no_text.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Machine Learning Crash Course\nGoogle's fast-paced, practical introduction to machine learning, featuring a series of animated videos, interactive visualizations, and hands-on practice exercises.\nWhat's new in Machine Learning Crash Course?\nSince 2018, millions of people worldwide have relied on Machine Learning Crash Course to learn how machine learning works, and how machine learning can work for them. We're delighted to announce the launch of a refreshed version of MLCC that covers recent advances in AI, with an increased focus on interactive learning. Watch this video to learn more about the new-and-improved MLCC.\nCourse Modules\nEach Machine Learning Crash Course module is self-contained, so if you have prior experience in machine learning, you can skip directly to the topics you want to learn. If you're new to machine learning, we recommend completing modules in the order below.\nML Models\nThese modules cover the fundamentals of building regression and classification models.\n[\nLinear Regression\n](https://developers.google.com/machine-learning/crash-course/linear-regression)\nAn introduction to linear regression, covering linear models, loss, gradient descent, and hyperparameter tuning.\n[\nLogistic Regression\n](https://developers.google.com/machine-learning/crash-course/logistic-regression)\nAn introduction to logistic regression, where ML models are designed to predict the probability of a given outcome.\n[\nClassification\n](https://developers.google.com/machine-learning/crash-course/classification)\nAn introduction to binary classification models, covering thresholding, confusion matrices, and metrics like accuracy, precision, recall, and AUC.\nData\nThese modules cover fundamental techniques and best practices for working with machine learning data.\n[\nWorking with Numerical Data\n](https://developers.google.com/machine-learning/crash-course/numerical-data)\nLearn how to analyze and transform numerical data to help train ML models more effectively.\n[\nWorking with Categorical Data\n](https://developers.google.com/machine-learning/crash-course/categorical-data)\nLearn the fundamentals of working with categorical data: how to distinguish categorical data from numerical data; how to represent categorical data numerically using one-hot encoding, feature hashing, and mean encoding; and how to perform feature crosses.\n[\nDatasets, Generalization, and Overfitting\n](https://developers.google.com/machine-learning/crash-course/overfitting)\nAn introduction to the characteristics of machine learning datasets, and how to prepare your data to ensure high-quality results when training and evaluating your model.\nAdvanced ML models\nThese modules cover advanced ML model architectures.\n[\nNeural Networks\n](https://developers.google.com/machine-learning/crash-course/neural-networks)\nAn introduction to the fundamental principles of neural network architectures, including perceptrons, hidden layers, and activation functions.\n[\nEmbeddings\n](https://developers.google.com/machine-learning/crash-course/embeddings)\nLearn how embeddings allow you to do machine learning on large feature vectors.\nNew\n[\nIntro to Large Language Models\n](https://developers.google.com/machine-learning/crash-course/llm)\nAn introduction to large language models, from tokens to Transformers. Learn the basics of how LLMs learn to predict text output, as well as how they're architected and trained.\nReal-world ML\nThese modules cover critical considerations when building and deploying ML models in the real world, including productionization best practices, automation, and responsible engineering.\n[\nProduction ML Systems\n](https://developers.google.com/machine-learning/crash-course/production-ml-systems)\nLearn how a machine learning production system works across a breadth of components.\n[\nML Fairness\n](https://developers.google.com/machine-learning/crash-course/fairness)\nLearn principles and best practices for auditing ML models for fairness, including strategies for identifying and mitigating",
-      "text_excerpt_zh": "机器学习速成课程\n\nGoogle 推出的快速、实用的机器学习入门课程，包含一系列动画视频、交互式可视化内容以及动手实践练习。\n\n机器学习速成课程有哪些新内容？\n\n自 2018 年以来，全球数百万人依靠机器学习速成课程来了解机器学习的原理及其应用价值。我们很高兴地宣布推出 MLCC 的更新版本，该版本涵盖了 AI 领域的最新进展，并更加注重交互式学习。观看此视频，了解全新升级的 MLCC。\n\n课程模块\n\n机器学习速成课程的每个模块都是独立的，因此如果您有机器学习方面的经验，可以直接跳转到您想学习的主题。如果您是机器学习新手，我们建议按以下顺序完成模块。\n\nML 模型\n\n这些模块涵盖了构建回归和分类模型的基础知识。\n\n[\n线性回归\n](https://developers.google.com/machine-learning/crash-course/linear-regression)\n线性回归入门，涵盖线性模型、损失函数、梯度下降和超参数调优。\n\n[\n逻辑回归\n](https://developers.google.com/machine-learning/crash-course/logistic-regression)\n逻辑回归入门，其中 ML 模型旨在预测给定结果的概率。\n\n[\n分类\n](https://developers.google.com/machine-learning/crash-course/classification)\n二分类模型入门，涵盖阈值设定、混淆矩阵以及准确率、精确率、召回率和 AUC 等指标。\n\n数据\n\n这些模块涵盖了处理机器学习数据的基本技术和最佳实践。\n\n[\n处理数值数据\n](https://developers.google.com/machine-learning/crash-course/numerical-data)\n学习如何分析和转换数值数据，以更有效地训练 ML 模型。\n\n[\n处理分类数据\n](https://developers.google.com/machine-learning/crash-course/categorical-data)\n学习处理分类数据的基础知识：如何区分分类数据和数值数据；如何使用独热编码、特征哈希和均值编码以数值形式表示分类数据；以及如何执行特征交叉。\n\n[\n数据集、泛化与过拟合\n](https://developers.google.com/machine-learning/crash-course/overfitting)\n介绍机器学习数据集的特征，以及如何准备数据以确保在训练和评估模型时获得高质量结果。\n\n高级 ML 模型\n\n这些模块涵盖了高级 ML 模型架构。\n\n[\n神经网络\n](https://developers.google.com/machine-learning/crash-course/neural-networks)\n神经网络架构基本原理入门，包括感知器、隐藏层和激活函数。\n\n[\n嵌入\n](https://developers.google.com/machine-learning/crash-course/embeddings)\n了解嵌入如何让您对大型特征向量进行机器学习。\n\n新内容\n[\n大型语言模型入门\n](https://developers.google.com/machine-learning/crash-course/llm)\n大型语言模型入门，从词元到 Transformer。了解 LLM 学习预测文本输出的基本原理，以及它们的架构和训练方式。\n\n现实世界中的 ML\n\n这些模块涵盖了在现实世界中构建和部署 ML 模型时的关键考量因素，包括生产化最佳实践、自动化和负责任的工程实践。\n\n[\n生产级 ML 系统\n](https://developers.google.com/machine-learning/crash-course/production-ml-systems)\n了解机器学习生产系统如何在各个组件中协同工作。\n\n[\nML 公平性\n](https://developers.google.com/machine-learning/crash-course/fairness)\n学习审计 ML 模型公平性的原则和最佳实践，包括识别和缓解的策略。",
-      "text_excerpt_zh_hash": "da5d4bf10d1f723c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Machine Learning | Google for Developers",
-      "url": "https://developers.google.com/machine-learning/crash-course"
     },
     "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/": {
       "cleaner_v": 2,
@@ -16257,20 +16210,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16284,6 +16223,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2058488662623502336/img/v-Cin-5tZm4enSDJ.jpg": {
       "cleaner_v": 2,
@@ -16340,6 +16293,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -25480,26 +25447,6 @@
       "title": "San Jose, CA Police Calls 2025 · Chat DB",
       "url": "https://www.chatdb.io/apps/c9e655e3-75fe-419e-8580-f3a7e9197040"
     },
-    "https://www.cloudskillsboost.google/paths/118": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Learn and earn with Google Skills, a platform that provides  free training and certifications for Google Cloud partners and beginners. Explore now.",
-      "final_url": "https://www.skills.google/paths/118",
-      "frameable": false,
-      "image_urls": [
-        "https://www.skills.google/google_standard_32.svg",
-        "https://cdn.qwiklabs.com/lqJbxogu4tSLez1OvjDcIO8rwow6cPLwvrfIdmQLf6U%3D",
-        "https://cdn.qwiklabs.com/assets/learning_plans/shapes-activities-chip-82e9b02395fa0c83cc0b38e6a323b23b865fe7de.svg",
-        "https://cdn.qwiklabs.com/assets/learning_plans/shapes-activities-bbd699f18f1125385c6f6b83694bbbc41b8873ab.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Loading... No results found. Vertex AI is now Gemini Enterprise Agent Platform! We are currently updating our content to reflect this change. Please bear with us if you encounter naming inconsistencies during this transition. navigate_next Paths navigate_next Beginner: Introduction to Generative AI Apply your skills in Google Cloud console Path Beginner: Introduction to Generative AI Managed by Google Cloud 5 activities Last updated 19 days Sign in or join This learning path provides an overview of generative AI concepts, from the fundamentals of large language models to responsible AI principles. Home Catalog Paths Subscriptions Activities Achievements Settings Sign in or Join Youtube Help Center Terms Privacy Manage cookies",
-      "text_excerpt_zh": "加载中... 未找到结果。Vertex AI 现已升级为 Gemini Enterprise Agent Platform！我们正在更新内容以反映这一变化。过渡期间若遇到命名不一致的情况，敬请谅解。  \n\nnavigate_next 路径  \nnavigate_next 入门：生成式 AI 简介  \n在 Google Cloud 控制台中应用您的技能  \n\n路径：入门：生成式 AI 简介  \n由 Google Cloud 管理  \n5 项活动  \n上次更新：19 天前  \n\n登录或加入  \n\n本学习路径概述了生成式 AI 概念，涵盖从大型语言模型基础到负责任 AI 原则的内容。  \n\n首页 目录 路径 订阅 活动 成就 设置 登录或加入  \n\nYoutube 帮助中心 条款 隐私 管理 Cookie",
-      "text_excerpt_zh_hash": "0a2f57a084d14875",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Beginner: Introduction to Generative AI | Google Skills",
-      "url": "https://www.cloudskillsboost.google/paths/118"
-    },
     "https://www.core.so/": {
       "content_type": "text/html; charset=utf-8",
       "description": "",
@@ -26204,34 +26151,6 @@
       "text_excerpt": "日本語 English 简体中文 繁體中文 ภาษาไทย 한국어 Bahasa Melayu Bahasa Indonesia 日本語 日本語 日本語 English 简体中文 繁體中文 ภาษาไทย 한국어 Bahasa Melayu Bahasa Indonesia 8言語対応 English, 简体中文, ภาษาไทย, 한국어, Bahasa Melayu, Bahasa Indonesia, 繁體中文 ニュース スケジュール メンバー ブログ ディスコグラフィー ムービー ゲームアプリ ミート＆グリート ライブ 乃木坂工事中 グッズ 賀喜 遥香 公式ブログ 前の記事 次の記事 さむいね〜 2026.01.31 19:15 COPIED こんにちは、賀喜遥香です🐈 1月ももうすぐおわりますね☃️ これはクリスマスの頃の写真🎄 ディズニーシーに行きました！ パーク内がどこもキラキラしていて、歩いているだけでなんだか楽しかったです〜 この帽子、あったかかったよ✌️ 去年載せようと思ったけど 載せそびれたのでこのブログでみなさんにお見せしちゃおっと いつもディズニーにいったらチョコクランチを絶対買うんだけど、この日は買う時間がなかった、、ｸﾔｼｲ😠 でもポップコーンを３箱たべたよ🍩 歩いてたらいろんな味見つけちゃう また今年もいけたらいいな〜 大好きなラプンツェルのアトラクションにも乗りたいので絶対行くぞ〜 🚗💨 1月はほんとに、新年だ〜☺️って過ごしてたら終わってました。あれ〜？ 実家にいるまろん(猫)を抱っこする私 ((プライバシー(猫)を守っています)) とてもかわいいんです 朝起こしに来てくれたり、周りに私しかいない時だけすりすりしてくれたり、 とんでもねぇかわいさでした また会いに行かないと！ みんなで過ごせたお正月は幸せだった〜 それとね、 年が明けてすぐにりりあちゃんとご飯にいきました！ ずっと行きたいですねってお話ししてて、叶いました✨ いろんなお話しをりりあちゃんとしたかったのでずっと話してました 話せて嬉しいのと、りりあちゃんのかわいさに夢中で、帰ってきてから あ！写真いっしょに撮ればよかった、、 と後悔しました、、、 私はいつも写真を撮るのをわすれます またいきたいな☺️嬉しかった出来事です☺️ そしてそして、 みんなみてくれたかな〜 乃木鍋でいおきっきちゃんとお鍋を食べました🍲 楽しかった☺️ またごはんにいこうね☺️ のぎ動画の乃木坂あそぶだけでは さちゃん(菅原咲月ちゃ)にゃん(井上和にゃん)ﾕﾅﾁｬ(柴田柚菜ﾁｬﾝ)とカラオケをしたり、 ▼ https://nogidoga.com/episodes お正月の過ごし方の動画が公開されたり、 ▼ https://youtu.be/Hf3XagCeo0A 乃木坂、逃避行。ではうるうるうるみん(森平麗心ちゃん)と一緒に岩手県に行ってきました！ ▼ https://youtu.be/9Obwoe8i0aw ↑冒頭の10分ほどが見られますよ〜🌸 この時のお話とかもしたいのですが、それはまた今度、、！ すごく楽しい旅だったので、ぜひLeminoでご覧ください！✨ 最近の賀喜遥香のお話しでした🙇 読んでくださってありがとうございました☺️ また書きますね！ それでは🍒 賀喜遥香 まっすぐ、道を進むだけ 君のことが好きだよ コメントする 賀喜 遥香 かき はるか Profile 2026.01 ＜ 2026年01月 ＞ 日 月 火 水 木 金 土 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 だいすきな時間 2026.05.06 光を目指して 2026.04.12 君のことが好きだよ 2026.02.18 さむいね〜 2026.01.31 まっすぐ、道を進むだけ 2026.01.14 PRODUCER 乃木坂46合同会社 所属タレント一覧 FAQ CONTACT X Instagram Facebook Tiktok weibo 乃木坂46 OFFICIAL YouTube CHANNEL 乃木坂配信中 JASRAC許諾第9015545002Y38029号 JASRAC許諾第9015545001Y45040号 ©乃木坂46LLC 購入・ダウンロード ストリーミング LINE MUSIC Apple Music Spotify Amazon Music 購入・ダウンロード SonyMusicShop iTunes レコチョク mora 商品を購入 SonyMusicShop ダウンロード iTunes レコチョク mora ? 参加方法 オンライン握手会に参加するには 握手会に参加するには メンバーを選択 全員を選択する 選択を全て解除する 決定する お申し込みについて 未成年者について 配送と到着した商品について イベント当日における本人照会（正規購入者本人であることの確認） 個人情報取り扱いについて イベントに関する注意事項について トップ ニュース スケジュール メンバー ブログ ディスコグラフィー ムービー ゲームアプリ ミート＆グリート ライブ 乃木坂工事中 グッズ 会員制サイト 定額メッセージサービス 会員制サイト 定額制動画サービス 乃木坂46 OFFICIAL YouTube CHANNEL 乃木坂配信中",
       "title": "さむいね〜 さむいね〜",
       "url": "https://www.nogizaka46.com/s/n46/diary/detail/104312?ima=1742&utm_source=dlvr.it&utm_medium=twitter"
-    },
-    "https://www.nvidia.com/en-us/training/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Explore the latest NVIDIA technical training and gain in-demand skills, hands-on experience, and expert knowledge in AI, data science, and more.",
-      "final_url": "https://www.nvidia.com/en-us/training/",
-      "frameable": false,
-      "image_urls": [
-        "https://www.nvidia.com/content/dam/en-zz/Solutions/training/home/nv-learn-og.jpg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_2/nv_teaser_copy.coreimg.svg/1773680787463/aws-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_2/nv_teaser_copy_931232141.coreimg.svg/1773680787479/microsoft-azure-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser.coreimg.svg/1779167357370/ailab-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_2131814.coreimg.svg/1779167357382/ascendient-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_858916024.coreimg.svg/1779167357395/boston-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_52700.coreimg.svg/1779167357407/data-society-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_527007744.coreimg.svg/1779167357425/edforce-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_165633654.coreimg.svg/1779167357446/fast-lane-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_93207_1634979758.coreimg.svg/1779167357466/hpe-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_932072503.coreimg.svg/1779167357485/leadtek-china-logo.svg",
-        "https://www.nvidia.com/content/nvidiaGDC/us/en_US/training/home/_jcr_content/root/responsivegrid/nv_container_796673510/nv_tabs/item_1/nv_teaser_copy_93207.coreimg.svg/1779167357505/republic-polytechnic-logo.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) Canada Česká Republika (Czech Republic) Chile Colombia Danmark (Denmark) Deutschland (Germany) España (Spain) France India Italia (Italy) México (Mexico) Middle East Nederland (Netherlands) Norge (Norway) Österreich (Austria) Peru Polska (Poland) Rest of Europe România (Romania) Singapore Suomi (Finland) Sverige (Sweden) Türkiye (Turkey) United Kingdom United States 대한민국 (South Korea) 中国大陆 (Mainland China) 台灣 (Taiwan) 日本 (Japan) Continue Skip to main content Main Menu Products Cloud Services Creating Data Center Embedded Systems Gaming Graphics Cards and GPUs Laptops and Desktops Networking Professional Workstations Software Tools Cloud Services BioNeMo AI-driven platform for life sciences research and discovery DGX Cloud NVIDIA’s AI factory in the cloud NVIDIA APIs Explore, test, and deploy AI models and agents Private Registry Guide for using NVIDIA NGC private registry with GPU cloud NVIDIA NGC Accelerated, containerized AI models and SDKs Creating NVIDIA Studio High performance GeForce RTX PCs, purpose-built for creators NVIDIA Broadcast App AI-enhanced voice and video for next-level streams, videos, and calls NVIDIA App and Studio Drivers Optimize gaming, streaming, and AI-powered creativity RTX AI PCs AI PCs for gaming, creating, productivity and development RTX Remix Create RTX remasters of classic games with open-source AI Project G-Assist AI assistant to optimize and control your GeForce RTX PC Data Center Overview Modernizing data centers with AI and accelerated computing DGX Platform Enterprise AI factory for model development and deployment Grace CPU Architecture for data centers that transform data into intelligence HGX Platform A supercomputer purpose-built for AI and HPC IGX Platform Advanced functional safety and security for edge AI MGX Platform Accelerated computing with modular servers OVX Systems Scalable data center infrastructure for high-performance AI Embedded Systems Jetson Leading platform for autonomous machines and embedded applications DRIVE AGX Powerful in-vehicle computing for AI-driven autonomous vehicle systems IGX Platform Advanced functional safety and security for edge AI Gaming GeForce Explore graphics cards, gaming solutions, AI technology, and more GeForce Graphics Cards RTX graphics cards bring game-changing AI capabilities Gaming Laptops Thinnest and longest lasting RTX laptops, optimized by Max-Q G-SYNC Monitors Smooth, tear-free gaming with NVIDIA G-SYNC monitors DLSS Neural rendering tech boosts FPS and enhances image quality Reflex Ultimate responsiveness for faster reactions and better aim RTX Remix Create RTX remasters of classic games with open-source AI Project G-Assist AI assistant to optimize and control your GeForce RTX PC GeForce NOW Cloud Gaming RTX-powered cloud gaming. Choose from 3 memberships NVIDIA App and Game Ready Drivers Optimize gaming, streaming, and AI-powered creativity NVIDIA Broadcast App AI-enhanced voice and video for next-level streams, videos, and calls SHIELD TV World-class streaming media performance Graphics Cards and GPUs GeForce Graphics Cards RTX graphics cards bring game-changing AI capabilities NVIDIA RTX PRO Accelerating professional AI, graphics, rendering and compute workloads Virtual GPU Virtual solutions for scalable, high-performance computing Blackwell Architecture The engine of the new industrial revolution Hopper Architecture High performance, scalability, and security for every data center Ada Lovelace Architecture Performance and energy efficiency for endless possibilities Laptops and Desktops GeForce Laptops GPU-powered laptops for gamers and creators Studio Laptops High performance laptops purpose-built for creators NVIDIA RTX PRO Laptops Accelerate professional AI and visual computing from anywhere RTX AI PCs AI PCs for gaming, creating, productivity",
-      "text_excerpt_zh": "访问您所在地区的 NVIDIA 网站，获取本地化内容、定价以及特定国家的购买合作伙伴信息。  \n阿根廷 澳大利亚 比利时（荷兰语） 比利时（法语） 巴西 加拿大 捷克共和国 智利 哥伦比亚 丹麦 德国 西班牙 法国 印度 意大利 墨西哥 中东 荷兰 挪威 奥地利 秘鲁 波兰 欧洲其他地区 罗马尼亚 新加坡 芬兰 瑞典 土耳其 英国 美国 韩国 中国大陆 台湾 日本  \n\n继续 跳至主内容  \n\n主菜单  \n产品  \n云服务  \n创作  \n数据中心  \n嵌入式系统  \n游戏  \n显卡与 GPU  \n笔记本电脑与台式机  \n网络  \n专业工作站  \n软件  \n工具  \n\n云服务  \nBioNeMo — 面向生命科学研究和发现的人工智能驱动平台  \nDGX Cloud — NVIDIA 的云端 AI 工厂  \nNVIDIA APIs — 探索、测试和部署 AI 模型与智能体  \n私有注册表 — 使用 NVIDIA NGC 私有注册表与 GPU 云的指南  \nNVIDIA NGC — 加速的容器化 AI 模型与 SDK  \n\n创作  \nNVIDIA Studio — 专为创作者打造的高性能 GeForce RTX PC  \nNVIDIA Broadcast App — 增强语音和视频的 AI 工具，适用于直播、视频通话等  \nNVIDIA App 与 Studio 驱动 — 优化游戏、直播和 AI 驱动的创意工作  \nRTX AI PC — 适用于游戏、创作、生产力与开发的 AI PC  \nRTX Remix — 使用开源 AI 创建经典游戏的 RTX 重制版  \nProject G-Assist — 优化和控制 GeForce RTX PC 的 AI 助手  \n\n数据中心  \n概览 — 使用 AI 与加速计算实现数据中心现代化  \nDGX 平台 — 用于模型开发与部署的企业级 AI 工厂  \nGrace CPU 架构 — 将数据转化为智能的数据中心架构  \nHGX 平台 — 专为 AI 与 HPC 打造的超算平台  \nIGX 平台 — 面向边缘 AI 的高级功能安全与安全性  \nMGX 平台 — 使用模块化服务器实现加速计算  \nOVX 系统 — 面向高性能 AI 的可扩展数据中心基础设施  \n\n嵌入式系统  \nJetson — 面向自主机器与嵌入式应用的领先平台  \nDRIVE AGX — 面向 AI 驱动自动驾驶系统的强大车载计算平台  \nIGX 平台 — 面向边缘 AI 的高级功能安全与安全性  \n\n游戏  \nGeForce — 探索显卡、游戏解决方案、AI 技术等  \nGeForce 显卡 — RTX 显卡带来改变游戏规则的 AI 能力  \n游戏笔记本 — 由 Max-Q 优化的最轻薄、续航最长的 RTX 笔记本  \nG-SYNC 显示器 — 使用 NVIDIA G-SYNC 显示器实现流畅无撕裂的游戏体验  \nDLSS — 神经渲染技术提升帧率并增强画质  \nReflex — 极致响应速度，实现更快反应与更精准瞄准  \nRTX Remix — 使用开源 AI 创建经典游戏的 RTX 重制版  \nProject G-Assist — 优化和控制 GeForce RTX PC 的 AI 助手  \nGeForce NOW 云游戏 — RTX 驱动的云游戏，提供 3 种会员选择  \nNVIDIA App 与 Game Ready 驱动 — 优化游戏、直播和 AI 驱动的创意工作  \nNVIDIA Broadcast App — 增强语音和视频的 AI 工具，适用于直播、视频通话等  \nSHIELD TV — 世界级的流媒体播放性能  \n\n显卡与 GPU  \nGeForce 显卡 — RTX 显卡带来改变游戏规则的 AI 能力  \nNVIDIA RTX PRO — 加速专业 AI、图形、渲染与计算工作负载  \n虚拟 GPU — 面向可扩展高性能计算的虚拟解决方案  \nBlackwell 架构 — 新工业革命的引擎  \nHopper 架构 — 为每个数据中心提供高性能、可扩展性与安全性  \nAda Lovelace 架构 — 为无限可能提供性能与能效  \n\n笔记本电脑与台式机  \nGeForce 笔记本 — 面向游戏玩家与创作者的 GPU 驱动笔记本  \nStudio 笔记本 — 专为创作者打造的高性能笔记本  \nNVIDIA RTX PRO 笔记本 — 随时随地加速专业 AI 与视觉计算  \nRTX AI PC — 适用于游戏、创作、生产力与开发的 AI PC  \n\n网络  \n专业工作站  \n软件  \n工具",
-      "text_excerpt_zh_hash": "99f99314418e4ff7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "NVIDIA Deep Learning Institute Deep Learning Institute (DLI) Training and Certification | NVIDIA",
-      "url": "https://www.nvidia.com/en-us/training/"
     },
     "https://www.oreilly.com/library/view/ai-engineering/9781098166298/": {
       "cleaner_v": 2,
@@ -37311,8 +37230,8 @@
       "https://x.com/mitsuhiko/status/2058670265450520625",
       "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
       "https://x.com/mitsuhiko/status/2058602085935951925",
-      "https://x.com/mitsuhiko/status/2058632866175611101",
-      "https://x.com/mitsuhiko/status/2058604562290806870"
+      "https://x.com/mitsuhiko/status/2058604562290806870",
+      "https://x.com/mitsuhiko/status/2058632866175611101"
     ],
     "2058601239307272486": [
       "https://x.com/NebulaAI/status/2058601239307272486",
@@ -37328,8 +37247,8 @@
       "http://aiandtheattorney.com",
       "http://mylitigationshield.com",
       "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
-      "https://x.com/asdennison/status/2058068019687870956",
-      "https://pbs.twimg.com/amplify_video_thumb/2058008184518840320/img/Lx0CU2r4X0-6GFnk.jpg"
+      "https://x.com/asdennison/status/2058521070852878721",
+      "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
     ],
     "2058646281308733446": [
       "https://x.com/scaling01/status/2058646281308733446"
@@ -37370,8 +37289,8 @@
       "https://github.com/botirk38/sift",
       "https://x.com/botir33751732/status/2058869447121662115",
       "https://x.com/botir33751732/status/2058895853075468397",
-      "https://x.com/botir33751732/status/2058895700927115524",
       "https://x.com/botir33751732/status/2058939779127939289",
+      "https://x.com/botir33751732/status/2058895700927115524",
       "https://x.com/botir33751732/status/2058979323478974478"
     ],
     "2058871597637746997": [
@@ -37397,18 +37316,20 @@
     "2058909624917787099": [
       "https://x.com/xiaoxiaodong01/status/2058909624917787099",
       "http://x.com/i/article/2058908349220179968",
-      "https://x.com/xiaoxiaodong01/status/2058929929363005793"
+      "https://x.com/xiaoxiaodong01/status/2058929929363005793",
+      "https://x.com/xiaoxiaodong01/status/2059077799034634433"
     ],
     "2058924184991142036": [
-      "https://x.com/blackanger/status/2058924184991142036",
-      "https://x.com/blackanger/status/2058781267832045788"
+      "https://x.com/blackanger/status/2058924184991142036"
     ],
     "2058931260966465667": [
       "https://x.com/TechWithTimm/status/2058931260966465667",
       "http://x.com/i/article/2057774666748747777"
     ],
     "2058960002350723487": [
-      "https://x.com/sairahul1/status/2058960002350723487"
+      "https://x.com/sairahul1/status/2058960002350723487",
+      "https://x.com/sairahul1/status/2058894909633912975",
+      "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
     ],
     "2058961858548081097": [
       "https://x.com/KSimback/status/2058961858548081097",
@@ -37433,19 +37354,12 @@
     ],
     "2058982410033991811": [
       "https://x.com/heygurisingh/status/2058982410033991811",
-      "http://x.com/i/article/2058838731784892416",
-      "https://x.com/heygurisingh/status/2058790967021539661",
-      "https://anthropic.skilljar.com",
-      "https://github.com/microsoft/ai-agents-for-beginners",
-      "https://www.cloudskillsboost.google/paths/118",
-      "https://developers.google.com/machine-learning/crash-course",
-      "https://aiskillsnavigator.microsoft.com",
-      "https://www.nvidia.com/en-us/training/"
+      "http://x.com/i/article/2058838731784892416"
     ],
     "2059000585152540992": [
       "https://x.com/alex_prompter/status/2059000585152540992"
     ]
   },
-  "updated_at": "2026-05-26T00:16:07Z",
+  "updated_at": "2026-05-26T04:37:14Z",
   "window": "recent"
 }
