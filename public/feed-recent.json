@@ -3993,6 +3993,19 @@
       "title": "",
       "url": "http://x.com/i/article/2058967254843236352"
     },
+    "http://x.com/i/article/2059015269184684032": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059015269184684032",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059015269184684032/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJMXi7VbEAAkn-c?format=jpg&name=900x900)](http://x.com/i/article/2059015269184684032/milstan/article/2059018199673487487/media/2059015343448985600)\n\nState of Self-Improving Software, Workshop #1\n\n[![](https://pbs.twimg.com/profile_images/1812545562551443456/SAaq7rES_normal.jpg)](http://x.com/i/article/2059015269184684032/milstan)\n\n[Milan Stankovic](http://x.com/i/article/2059015269184684032/milstan)\n\n[@milstan](http://x.com/i/article/2059015269184684032/milstan)\n\n·\n\n19h\n\nFollow\n\nClick to Follow milstan\n\n1\n\n7\n\n[372](http://x.com/i/article/2059015269184684032/milstan/status/2059018199673487487/analytics)\n\n40+ people at Parrot's SF office. 7 5-minute talks that turned into 4 hours of unstoppable discussions. Electric energy. Thanks to everyone who came — and for everybody else here is a recap of approaches - the state of self learning-software, May 2026\\. Grouped by approach below.\n\n## \n\nLearning new behavior\n\nMilan Stankovic (\n\n[@milstan](https://x.com/@milstan)\n\n[@LeadbayAI](https://x.com/@LeadbayAI)\n\n) — Prompt Learning Protocol + /relentless. LLM-as-judge over best-of-N. The model discovers the quality criteria from a few reference examples instead of being given a hand-written rubric, then scores its own outputs and iterates. Three points the talk pressed on:\n\n* Judge the outcome, not the artifact. The score is on what the prompt/skill produced — not on how the prompt is written. The model is a better observer of outcomes than humans are of their own process.\n* Architectural separation. Deterministic harness and tools stay deterministic; what's left inside the skill is the non-deterministic, qualitatively-assessable part — that's what's subject to self-learning. Without this split the system drifts into hardcoding against every individual use case instead of learning a general behavior.\n* Tests are non-negotiable to avoid spec drift. Optimizing one behavior in one sprint can degrade behaviors learned earlier — tests are the only way to keep yesterday's lessons alive while learning today's.\n\nGist: \n\n<https://gist.github.com/milstan/3b12f938f344f4ae1f511dd19e56adce>\n\n.\n\nRakesh Mehta (Zarna AI). Same regime, sharpened from the testing side: the \"software factory\" pattern only works when the testing harness is strong. Without a hard definition of \"good,\" agentic loops diverge and burn tokens. Zarna itself is a 4-agent swarm (Scribe / Memo / Analyst / Experts) for PE associates, delivered into Outlook/Teams/Slack.\n\n## \n\nSelf-healing software\n\nLearning from errors and incidents in production, rather than learning new behaviors pre-production.\n\nPranav Bedi (\n\n[@pranavbedi](https://x.com/@pranavbedi)\n\n Moda). Treat production user behavior as labels. Hierarchically cluster conversations into a live taxonomy of intent; detect emergent intents, escalations, abandonments, and grouped tool failures; output prompt patches with replayable eval cases. CLI-first (moda clusters --top 3 --last 7d). Adapters for Vercel AI SDK, Claude Agent SDK, LangChain, Mastra, OpenRouter.\n\nDeclan Johnston (\n\n[Inference.net](http://x.com/i/article/2059015269184684032//Inference.net)\n\n) — HALO. Argument: a general coding agent is the wrong tool for trace analysis — it overfits to errors in any single trace instead of finding harness-level problems. HALO is fed OpenTelemetry traces and runs a recursive language model that emits an actionable report; the report is then handed to Cursor or Claude Code to apply changes. Results on AppWorld (a multi-app agent benchmark) — purely from harness changes, with no changes to the underlying model: Gemini 3 Flash improved from 36.8% to 52.6% on the dev split; Sonnet 4.6 from 73.7% to 89.5%. \n\n<https://github.com/context-labs/HALO>\n\n.\n\nDhruv Roongta (\n\n[@DhruvRoongta](https://x.com/@DhruvRoongta)\n\nSlashy). Same idea moved into the product s",
+      "title": "",
+      "url": "http://x.com/i/article/2059015269184684032"
+    },
     "http://x.com/i/article/2059095177193459712": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4033,6 +4046,26 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://"
+    },
+    "https://2026.stateofai.dev/en-US?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://2026.stateofai.dev/en-US?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://assets.devographics.com/surveys/ai2026-og.png",
+        "https://assets.devographics.com/sponsors/tokyodev.svg",
+        "https://devographics.github.io/surveys/state_of_css/css2023/images/sponsors/frontend-masters-dark.png",
+        "https://assets.devographics.com/sponsors/GN_Logo_White.svg",
+        "https://assets.devographics.com/sponsors/sentry-wordmark-light-400x88.svg",
+        "https://assets.devographics.com/sponsors/clerk-logotype-full-primary-light.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Start Date\nApril 8, 2026\nEnd Date\nMay 8, 2026\nRespondents\n7,258\nSurvey Archive\nGet Data\nWhether you're pro- or anti-AI, I think most of us agree that AI is having a huge impact on our work as developers, and beyond that, on the world at large.\nThe 2026 edition of the State of Web Dev AI survey collected data from 7,258 developers, providing a lot of fascinating material to study this impact. And while I would certainly recommend checking out the full survey results at your own pace, here are four key trends to get started exploring the data.\n#1: Growing AI Adoption\nIt's important to acknowledge that open surveys such as this one can suffer from inherent selection bias. In other words, an AI-focused survey is probably more likely to be filled out by developers who already use and care about AI.\nWith that caveat in mind, if we assume that the trends revealed here apply to the industry at large then AI-assisted coding's transition from an early-adopter experiment to a standard practice is now well underway.\nThis becomes clear when looking at [the proportion of AI-generated code produced by respondents](https://2026.stateofai.dev/en-US/usage/#ai_generated_code_balance), which has jumped from 28% on average in 2025 to 54% this year, with the 75%+ segments seeing the highest growth (delta from the previous year shown by striped bar overlays).\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_generated_code_balance¶ms=§ionId=overview)AI Code Generation\n[stating they use AI “constantly”](https://2026.stateofai.dev/en-US/usage/#ai_code_generation_frequency)doubling year-over-year.\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_code_generation_frequency¶ms=§ionId=overview)Code Generation Frequency\n#2: Claude Code & the Rise of Coding Agents\nThis adoption is in large part driven by a new generation of coding agents and assistants, with Claude Code taking the lead when looking at [positive respondent sentiment regarding coding agents](https://2026.stateofai.dev/en-US/coding-agents-assistants/#coding_agents_assistants_experience).\nGroup by:\nSort by:\nExperience\n- Used it: Respondents who have used an item.\n- Heard of it: Respondents who have heard about an item, but haven't used it.\n- Never heard of it: Respondents who have never heard about an item.\nSentiment\n- Positive: Respondents who are interested in learning more about a technology; or are willing to use it again.\n- Neutral: Responents who did not indicate any sentiment about a technology.\n- Negative: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.\nThese agents are emerging as a more convenient way to interact with LLMs, and potentially replacing chatbots, app generators, and other specialized tools.\nAs a consequence, despite ChatGPT having the edge in terms of sheer popularity, Claude is [the model that developers actually pay for the most](https://2026.stateofai.dev/en-US/models/#models_paid_for).\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=models_paid_for¶ms=§ionId=overview)Paid Model Usage\n#3: Race to Monetization\nSpeaking of paying more: now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](https://2026.stateofai.dev/en-US/usage/#ai_personal_expenses) compared to last year.\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_personal_expenses¶ms=§ionId=overview)Personal Expenses\n[an AI bubble](https://2026.stateofai.dev/en-US/opinions/#ai_bubble_currently). But either way, survey respondents certainly thi",
+      "title": "State of AI 2026 State of AI 2026",
+      "url": "https://2026.stateofai.dev/en-US?ref=sidebar"
     },
     "https://21st.dev/home": {
       "cleaner_v": 2,
@@ -4928,6 +4961,28 @@
       "title": "JJ 的 2025 - 摸摸鱼研究局 JJ 的 2025 - 摸摸鱼研究局 | macOS 工具软件摸摸鱼计时器的开发日志",
       "url": "https://blog.momoyu.app/posts/jj-2025/"
     },
+    "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Why agent-native software may replace interfaces with structured systems agents can reason about directly.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/2026/05/Transformations-of-Platonic-Solids.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/2025/10/mozilla.ai_black-1.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w160/2025/04/Ale.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w1200/2026/05/Transformations-of-Platonic-Solids.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/Mountain-of-Money-1.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/cq.exchange-final.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/mozilla-ai-vibe----blog-hero-image-1200x630-dark-1.png",
+        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/octonous-open-beta-live.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Expert Opinion](https://blog.mozilla.ai/tag/expert-opinion/)\nThe Interface Is No Longer the Product\nThe future of AI may not be agents using today’s apps. It may be apps rebuilt around structured representations agents can inspect, modify, and validate directly. The deck, doc, or dashboard becomes the output, not the source of truth.\nFrom Agents That Use Apps to Apps Built for Agents\nA few weeks ago I was using [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs?ref=blog.mozilla.ai) to put together a presentation for our work week in Berlin. Not a throwaway deck, but an actual presentation with a narrative, data, and a point of view.\nGood product. And the interesting part is not the quality, it is the decision behind it: the interface is organized around the reasoning, not the slide. You work on the content. The deck is a consequence. The .pptx comes at the end. It is an export. The work happened somewhere else.\nThat is a small detail that I think points to something larger. And it is not really about presentations.\nFor decades, the only way to modify an application's state was through a human interface. That assumption is starting to break.\nMost human-computer interaction has been built around two patterns: issuing commands (typing, clicking, speaking) and manipulating representations (dragging, resizing, arranging, formatting). Every productivity tool ever built is designed around one or both of those. The keyboard, the mouse, the touchscreen. That is the full vocabulary. The interface and the product were, for practical purposes, the same thing.\nIt worked. It got the job done. Billions of people learned to think in spreadsheets, build in slide decks, and manage work through ticketing systems.\nBut more of that work is going to be done with, and eventually by, agents. And agents do not need a mouse. They do not need a menu. They do not need a canvas. They need structured state they can read, reason about, and rewrite.\nCode has always worked this way. It is text with clear semantics. Tools can parse it, transform it, and reason about it without ever rendering it visually. That is why agents are already so capable there, and why the rest of software is about to face the same pressure.\nThe Bridge and the Destination\nA lot of current AI product work starts from the idea that agents should learn to use our existing applications.\nThe agent opens the browser, clicks through menus, fills forms, moves objects around, reads documents, sends messages, updates records. It behaves like a very fast human user.\nThis is useful. More than useful, it is probably necessary. The world already runs on existing software. Companies have years of organizational knowledge embedded in Gmail, Slack, Jira, Salesforce, Notion. If agents are going to be helpful today, they need to work inside that world.\nThat is the bridge.\nBut the bridge is not the destination. Agents using existing apps help bring AI into the current software stack. Apps built for agents may change the shape of the stack itself.\nAnd there is something more valuable in that process than just short-term utility. Watching where agents struggle with existing interfaces, where the translation between intent and UI operation is most painful, is probably the most honest way to find where the structural opportunity is. The friction is the signal.\nThe first wave of AI products is about access: can the agent use the tools we already use? The next wave is about representation: is the tool itself built around a source of truth an agent can safely inspect, modify, and reason about?\nThose are different problems. They lead to different products.\nSoftware Categories Are Interface History\nSoftware categories are accidents of interface history, not natural laws.\nSlides. Spreadsheets. Documents. Dashboards. CRMs. Project management tools. Design tools. Workflow builders. These are not fundamental categories. They are bundles: a data model, a renderer, a human editing interface, pe",
+      "title": "The Interface Is No Longer the Product",
+      "url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar"
+    },
     "https://book.douban.com/subject/37271621/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -5340,6 +5395,31 @@
       "text_excerpt": "ClawHub System Light Dark Sign in with GitHub GitHub Skills Plugins Publishers About Docs skills / mbpz / akshare-stock A股量化 AkShare A股量化数据分析工具，基于AkShare库获取A股行情、财务数据、板块信息等。用于回答关于A股股票查询、行情数据、财务分析、选股等问题。 Audits Pass ClawScan Pass Agentic behavior and permission review. Static analysis Pass Pattern checks against bundled files. VirusTotal Pass Multi-engine malware detections and file reputation. Install CLI Prompt openclaw skills install akshare-stock SKILL.md Files Versions A股量化 - AkShare 数据接口 快速开始 安装依赖： pip install akshare 支持的功能 1. 实时行情查询 import akshare as ak # 个股实时行情 stock_zh_a_spot_em() stock_zh_a_spot_em(symbol=\"北证A股\") 2. 历史K线数据 import akshare as ak # 日K线 stock_zh_a_hist(symbol=\"000001\", period=\"daily\", start_date=\"20240101\", end_date=\"20241231\", adjust=\"qfq\") # 周K线 stock_zh_a_hist(symbol=\"000001\", period=\"weekly\", start_date=\"20240101\", end_date=\"20241231\", adjust=\"qfq\") # 月K线 stock_zh_a_hist(symbol=\"000001\", period=\"monthly\", start_date=\"20240101\", end_date=\"20241231\", adjust=\"qfq\") 3. 财务数据 import akshare as ak # 财务报表 stock_financial_abstract_ths(symbol=\"000001\", indicator=\"按报告期\") # 主要财务指标 stock_financial_analysis_indicator(symbol=\"000001\") 4. 板块/行业分析 import akshare as ak # 行业板块行情 stock_board_industry_name_em() # 概念板块行情 stock_board_concept_name_em() # 板块内个股 stock_board_industry_cons_em(symbol=\"半导体\") 5. 资金流向 import akshare as ak # 个股资金流向 stock_individual_fund_flow(stock=\"000001\", market=\"sh\") # 大单净流入 stock_individual_fund_flow(stock=\"000001\", market=\"sh\", symbol=\"大单净流入\") 6. 龙虎榜 import akshare as ak # 每日龙虎榜 stock_lhb_detail_em(date=\"20240930\") # 机构调研 stock_zlzj_em() 7. 新股/IPO import akshare as ak # 新股申购 stock_new_ipo_em() # 待上市新股 stock_new_ipo_start_em() 8. 融资融券 import akshare as ak # 融资融券 stock_margin_sse(symbol=\"600000\") # 融资融券明细 stock_rzrq_detail_em(symbol=\"600000\", date=\"20240930\") 常用股票代码 平安银行 : 000001 贵州茅台 : 600519 宁德时代 : 300750 比亚迪 : 002594 招商银行 : 600036 备选方案: Baostock 如果 AkShare 安装失败，可使用 baostock（更轻量）: import baostock as bs # 登录 lg = bs.login() print(lg.error_msg) # 获取历史K线 rs = bs.query_history_k_data_plus('sh.600519', 'date,code,open,high,low,close,volume', start_date='20250101', end_date='20251231') data_list = [] while rs.next: data_list.append(rs.get_row_data()) bs.logout() 注意事项 数据仅供学术研究，不构成投资建议 接口可能因目标网站变动而失效 建议添加异常处理和重试机制 当前环境网络问题可能导致测试失败，请在本地环境测试 Downloads 25.9k Owner ttbb Current version v1.0.1 Versions 2 License MIT-0 Last updated 2d ago Star 84 Download Report Browse Skills Plugins Publish Publish Skill Publish Plugin Community GitHub OpenClaw Platform Deployed on Vercel Powered by Convex",
       "title": "A股量化 AkShare — ClawHub",
       "url": "https://clawhub.ai/mbpz/akshare-stock"
+    },
+    "https://clickandmagic.com/notes/avoiding_uiux": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "[(columns,maxheight=800)..] 「UI/UX」「UX/UI」という表記を見かける度に、身体のどこかがむず痒くなるような感覚に襲われます。それはまるで、[『筐体/触り心地』(strong)]とか[『日本酒/風味の印象』(strong)]と書いているようなも…",
+      "final_url": "https://clickandmagic.com/notes/avoiding_uiux",
+      "frameable": null,
+      "image_urls": [
+        "https://clickandmagic.com/_astro/uiux_cover.Akana0Ld_Z118wve.png",
+        "https://clickandmagic.com/resources/pointer-arrow.webp",
+        "https://clickandmagic.com/resources/pointer-arrow-click.webp",
+        "https://clickandmagic.com/_astro/uiux_cover.Akana0Ld_Zu7kDM.webp",
+        "https://clickandmagic.com/_astro/findy2026.Ca1_xZGP_25vvX9.webp",
+        "https://clickandmagic.com/favicon-cache/www.amazon.co.jp.ico",
+        "https://m.media-amazon.com/images/I/71R-HoS8hIL._SY522_.jpg",
+        "https://clickandmagic.com/_astro/ux_design_image.D6NB0JKH_Z1aDjEl.webp",
+        "https://clickandmagic.com/favicon-cache/note.com.ico",
+        "https://assets.st-note.com/production/uploads/images/78163810/rectangle_large_type_2_092e8bbf7b7412b8c5a9034d140467e2.png?fit=bounds&quality=85&width=1280",
+        "https://clickandmagic.com/_astro/elements_of_ux.ClMNY1Nx_LSlwm.webp",
+        "https://clickandmagic.com/_astro/jjg_elements_of_user_experience.BRBtd0QZ_Z1atpeY.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "ノート 講演 紹介 目次 ユーザー体験への誤解を払拭し 、「 UI/UX」表記を避ける スラッシュ区切りは不要 ユーザー体験の解釈 「 UXデザイン」への違和感 体験場面設計・Design for UX 何でもかんでも「UX」にしたい症候群 ギャレットモデルにおける誤解 EOF ノート / ユーザー体験への 誤解を 払拭し 、「 UI/UX」 表記を 避ける 2026.5.26 スラッシュ区切りは 不要 「 UI/UX 」 「 UX/UI」という表記を見かける度に、身体のどこかがむず痒くなるような感覚に襲われます。それはまるで 、 『 筐体/触り心地』 とか 『日本酒/風味の印象』 と書いているようなもので、妙な違和感があります。これら二つの言葉は決して無関係ではないので一見それっぽい気がしますが、よく読むと、それぞれ包括する概念も、見る視点も異なる二つの事柄を無理にスラッシュ区切りにして“同一化”しようとする発想に基づいているのだとわかります。 UIを考える際にユーザー体験（UX）を考えないことなどほぼあり得ないので 、 「 UI」という2文字にはすでにユーザー体験についての意味が含まれていると捉えることが自然です。ですから、何かソフトウェアとかのユーザーインターフェイスを検討する場面で、シンプルに「UI」と書けば、自ずとユーザー体験（UX）についても言及することができます。もとよりスラッシュ以降など不要なのです。 対して、ユーザー体験（UX）を考える場面では、必ずしもUIについて検討しているとは限りません。ユーザー体験は、ユーザーが何かの人工物に触れたときに生じる心情についてであるため、UI設計とはまったく異なる視点で向き合う必要もありましょう。 そもそも、スラッシュ区切りにしてしまうと、スラッシュ以降を省略した表記との意味の差異を考慮しなくてはならなくなります 。 「 UI/UX」と「UI without UX」はそれぞれ別の意味を持つことの前提を作ってしまいます。しかし 、 「 UI/UX」表記を用いるほとんどの人々は 、 「 UI/UX」＝「UIとUXの両方」くらいの意味合いで使っていますから、なんとも奇妙な言葉の認識が生まれてしまうわけです。 「 UI」と言いたければ単に 「UI」 と書けば良いのだし 、 「 UX」と言いたければ 「UX」 と書けば良いのです。わざわざ二つをスラッシュ記号で合体させて「UI/UX」なる言葉を新造する必要はなく、特に設計のプロであれば尚更であります。 私は 、 「 UI/UX」表記をするとどうにも にわか のように映ってしまうので、なるべく同列に扱わない姿勢をとるようにしています。また 、 「 UX」ではなく「ユーザー体験」と表すようにしています。 ユーザー体験の 解釈 ユーザーインターフェイスは“モノ”です。眼に見えて、手に取ることができ、数えられる物理の存在です。対してユーザー体験は“コトについての印象や記憶”と言えます。ユーザーの心の中にだけ存在する心情であるので、誰からも見えないし、触ることもできないし、境界が曖昧なので数えることも難しいでしょう。それに、モノは一つかもしれなけれど、体験は人それぞれに内在するわけだから、少なくとも 十人十色 の体験が存在していると考えなければなりません。 そもそも、ユーザー体験はデジタル製品、ソフトウェアだけに生じるものではありません。UIではない領域のユーザー体験も考える必要があります。この辺りは Web デザインの延長でユーザー体験を捉えている人々がよく誤解していることです。 では一体何がユーザー体験の定義なのか？ と疑問を抱くと思うのですが、そもそもユーザー体験の統一的な定義は存在しないとされており 1 、ここが混乱の発端だったりするわけです。定義がないのだから統一見解も定着しない。各々が独自に解釈して、なんとなくバズワードになった言葉が普及してしまっている。このような状況ですから 、 「 ユーザー体験 」 「 UX」という言葉が曖昧なまま宙に浮いてしまっているのです。 私は 、 「 ユーザー体験」について納得できる一つの解釈として、次のように理解しています： ユーザー体験とは ユーザーが人工物に触れる前、最中、そして後にかけて本人の中に生じる、個人的で主観的な心理プロセス。 人工物との対話であること 時間軸上での変化が存在すること ユーザー本人の心理プロセスであること 個人的で主観的であること この解釈は、黒須正明氏の著書 『UX原論 ユーザビリティからUXへ』 で言及があり、私はこれを自身の解釈としています。 UX原論 -ユーザビリティからUXへ- Amazon → 「 UXデザイン」への 違和感 「 UXデザイン」という言葉が登場して久しいですが、ユーザー体験の解釈を前述の通りで捉えると、この言葉にも違和感を抱くようになります。そもそもユーザー体験はユーザーにとって個人的で主観的であるのだから、外部から他者が手を加えたり、“デザインされる”などという行為が行われて良いはずがないのです。まるで「 水槽の中の脳 」のイメージです。 体験場面設計・ Design for UX もちろん現実にはそんなことはないので、UXデザインの取り組みそのものを否定するものではありません。問題はその取り組みの名前です。ユーザー体験はデザインの対象ではなく、ある意味で結果の一つとしてみるべきなのです 。 「 UXをデザインする」と言ってしまうからおかしいのであって 、 「 ユーザー体験のための環境設計」というふうに言い換えるだけで、この違和感はだいぶ払拭できます。私は 「体験 場面 設計」 や Design for UX などの表現が妥当と考えます。 「 体験場面設計」についてはまた別の機会で。 何でも かんでも 「UX」に したい 症候群 何でもかんでも「UX」にしたい症候群とは、何か新しいデザイン的な取り組みを「UX」に置き換えたくなることです。最近はその症状が少し落ち着きつつあるように思いますが、ソフトウェア業界、IT業界を中心に、国内外問わずこの傾向はよく見られます。 例えば 、 「 UIデザイン」を「UXデザイン」に言い換えたり 、 「 UIデザインツール」を「UXデザインツール」と言い換えるようなことです 。 「 UX」の方が範囲が広いというような発想なのかもしれませんが、先にも述べたように、UIを検討する場面でユーザー体験（UX）を考えないことなど実質的にあり得ないのだから、わざわざ線引きして、UXの方が上位であるかのようにブランディングする必要はありません。 何でもかんでも“UX”と言うのをやめる / Design for UX｜usagimaru 解釈は人それぞれなのかもしれませんが、この業界には何でもかんでも“UX”を付けたがる癖があります。私はこの流行りには乗らずに物事を分けて考えてみたいです。 言葉の定義と解釈など ユーザーインターフェイス（UI）の設計を表す言葉に関して、それをわざわざ「UX〜」と言い換える事例が国内外問わず多くあり、本来この“UX”と呼ばれるはずのものがどこか蔑ろにされているようにも感じられます。言い換えの例としては次のような具合です。 ・UIデザイン → UXデザイン ・UIデザインツール → UXデザインツール または UXツール ・UIデザイナー → UXデザイナー または UI/UXデ note（ノート） → ギャレットモデルに おける 誤解 Jesse James Garret （ジェシー・ジェームズ・ギャレット）氏が 2000 年頃に発表した5段階スタックのダイアグラム、 “The Elements of User Experience” （和名通称：5段階モデル）は、一見ユーザー体験の要素を表しているかのように思えます。しかしこの図はそもそもユーザー体験を5つのレイヤーに分割したものではないのです。 まず、デザインプロセスはユーザー体験ではありません。デザインを進める（作る）工程であって、ユーザーとはまったく異なる側の事情についてを指します。ユーザー体験はユーザーの心理プロセスであるから、モノの設計行為や作ることのプロセスとは明確に区別しなければなりません。 出典：http://www.jjg.net 考えてみてください 。 「 戦略 」 「 要件 」 「 構造 」 「 骨格 」 「 表層」 これらが本当にユーザー体験の要素だと言えましょうか。どこかのコンサルが考えた戦略、システム開発会社が提示した要件、デザイナーが描いた構造や骨格、表層のスタイルが、ユーザーの体験を形作っているのでしょうか。一部には影響を与えているかもしれませんが、体験そのものはユーザーの心の中に生じたプロセスの結果であり、過去の記憶とも複雑に結びつきながら形成されたものです。特定の製品の戦略だとかによるものだとは言い切れません。 そもそも、これらの5つの要素は設計工程を示しているので、 構成要素ではなくプロセスと捉えるべき です。戦略を検討する工程からインターフェイスの表層を検討する工程までのプロセスを俯瞰できる図なのです。 もうひとつ重要な点は、このモデルで着目すべきは5段階のレイヤーではなく、左右の2分割と合わせることにこそ価値があるということです。このモデルの多くの引用者は左右の視点を（意図的に）見落とし、5段階の部分だけを都合よく利用しています。確かにそこだけに注目すると、デザインプロセスの抽象度合いの説明としては便利であるのですが。 左右",
+      "title": "ユーザー体験への誤解を払拭し、「UI/UX」表記を避ける | Click and Magic",
+      "url": "https://clickandmagic.com/notes/avoiding_uiux"
     },
     "https://code.claude.com/docs/en/goal": {
       "cleaner_v": 2,
@@ -6272,6 +6352,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "GPT Image 1.5 Shines (If You Do This)",
       "url": "https://every.to/context-window/gpt-image-1-5-shines-if-you-do-this"
+    },
+    "https://every.to/p/after-automation?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "AI progress creates more work for humans, not less",
+      "extraction_source": "trafilatura",
+      "final_url": "https://every.to/p/after-automation?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://every-s-manifesto-production.up.railway.app/images/social-banner.png",
+        "https://every-s-manifesto-production.up.railway.app/images/dan-shipper.png",
+        "https://every-s-manifesto-production.up.railway.app/images/cta-tortoise.png",
+        "https://every-s-manifesto-production.up.railway.app/images/ai-sandwich.png",
+        "https://every-s-manifesto-production.up.railway.app/images/screenshot-writing.png",
+        "https://every-s-manifesto-production.up.railway.app/images/screenshot-email.png",
+        "https://every-s-manifesto-production.up.railway.app/images/agents-human-collaboration.png",
+        "https://every-s-manifesto-production.up.railway.app/images/labor-market-impact.png",
+        "https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2922/allocation_economy(2).png",
+        "https://every-s-manifesto-production.up.railway.app/images/competence-situated-taste.svg",
+        "https://every-s-manifesto-production.up.railway.app/images/model-release-cycle.png",
+        "https://every-s-manifesto-production.up.railway.app/images/demand-for-difference.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "After Automation\nAI progress creates more work for humans, not less\nThere is a paradox at the heart of AI.\nAt [Every](https://every.to), we’ve automated everything we can. We use Codex and Claude Code across coding, writing, design, customer service, and more. We alpha-test all of the new models from OpenAI, Anthropic, and Google before they come out. We are riding the exponential boom in model intelligence and automation as far and as fast as possible.\nAnd yet it seems like, for us, there’s more human work to do than ever. We are a team of almost 30 people, and we haven’t fired all of our employees in favor of agents. We haven’t ditched software-as-a-service (SaaS) products in favor of vibe coded apps. We still hire humans to do customer service (with a lot of agent assistance), and we still hire human writers and editors and engineers.\nOur work does look completely different than it used to, though. We don’t write code by hand anymore. If you @-mention someone in our Slack, it’s a toss-up whether you’re talking to a human or an agent. Managers are committing code like ICs and engineers are talking directly to customers. For the last several weeks, AI has responded to 95 percent of my work emails. I am almost always at inbox zero (an extremely rare state for me), but I still review my email.\nIn short, the future looks weird, but also familiar.\nThe familiarity is surprising because the one thing CEOs, knowledge workers, and investors seem to agree on is that AI is a threat to jobs, the economy, safety, and human meaning.\nAnthropic CEO Dario Amodei warns that AI could wipe out up to half of all entry-level white-collar jobs[(1)](https://every.to#marginalia-cite-1). Meta just [laid off 8,000 people](https://www.wsj.com/tech/meta-will-lay-off-8-000-employees-in-may-memo-ce8b97f0), and is installing software on U.S. employees' computers to capture mouse movements, clicks, and keystrokes for a higher quality source of AI training data on advanced knowledge work.\nEven Citadel’s Ken Griffin [seems shaken](https://x.com/FundamentEdge/status/2055675389767516544), saying recently, “These are not mid-tier white collar jobs. These are like extraordinarily high-skilled jobs being, I’m going to pick a word, automated by agentic AI.”\nThe benchmarks, rising exponentially with each new model, seem to back this up. On Humanity’s Last Exam—a test of graduate-level reasoning—top models went from the low single digits a year ago to roughly 44 percent today. On GDPval—a test of how well frontier models perform real-world economic work versus humans—frontier models jumped from similar lows to about 85 percent. In May, METR, an AI safety research nonprofit, released an early Claude Mythos result showing that the model had an 80 percent success rate on tasks that would take a human expert about 4 hours to complete.\nIt seems that we are on the cusp of an AI smarter than any human, with the autonomy to work for almost a full day at a time.\nAnd yet, the paradox remains. If you talk to anyone in the AI industry—or to early adopters outside of it—you’ll hear the same thing we’ve noticed internally: There’s more work to do than ever.\nThe big question, within the industry and without, is: Is this just a temporary state of affairs? Will the next model drop be the one to replace everyone? We watch the benchmarks and sweat, wondering if there’s a tipping point around the corner where all of the jobs go away.\nThere’s no tipping point coming where things flip and the jobs are gone. The new reality is the opposite—the more we automate, the more expert human work there is to do.\nHere’s why: AI commoditizes the residue of human expertise—whatever can be made explicit enough to train on. That collapses the value of default model output and creates demand for what’s different. Demand for what’s different is demand for human experts, even as we approach artificial general intelligence (AGI).\nTo understand why this is, we have to go beyond the graphs, and look at how AI",
+      "title": "After Automation | Every",
+      "url": "https://every.to/p/after-automation?ref=sidebar"
     },
     "https://every.to/podcast/how-to-use-claude-code-like-the-people-who-built-it": {
       "cleaner_v": 2,
@@ -12010,6 +12116,21 @@
       "title": "One Developer, Two Dozen Agents, Zero Alignment",
       "url": "https://maggieappleton.com/zero-alignment"
     },
+    "https://magnifica-humanitas.fly.dev": {
+      "content_type": "text/html",
+      "description": "Annotated brief of Leo XIV's 2026 encyclical on AI and human dignity — thesis, takeaways, 14 argued claims, entity inspector, theme chart, and full annotated text.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://magnifica-humanitas.fly.dev",
+      "frameable": null,
+      "image_urls": [
+        "https://magnifica-humanitas.fly.dev/og-card.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Magnifica Humanitas — Leo XIV on AI and human dignity (annotated brief)",
+      "url": "https://magnifica-humanitas.fly.dev"
+    },
     "https://maker.taptap.cn": {
       "content_type": "text/html",
       "description": "TapTap 制造 是一款专为游戏爱好者打造的 零门槛 AI 游戏创作智能体。想到就能做到！",
@@ -12695,6 +12816,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Agentic RAG",
       "url": "https://outcomeschool.com/blog/agentic-rag"
+    },
+    "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Time for the annual predictions episode! Bryan and Adam were joined by frequent future-ologists Simon Willison, Steve Klabnik, and Ian Grunert to review past predictions and peer into the future. I...",
+      "extraction_source": "trafilatura",
+      "final_url": "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s",
+      "frameable": false,
+      "image_urls": [
+        "https://img.transistorcdn.com/nhTEbzYPJSvxljH85iNbHvHG5IrzWR2EkReWLVdfs9M/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNGJm/ZDZkZWI0ZDRkZGUw/NDg3ZWQyZDZjZmEy/NTJjNC5wbmc.webp",
+        "https://img.transistorcdn.com/2ZhKlxwpLcs5BeW_DETIDanjoCcpEpJIJRyeE0q_eoo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80OGI3/NjA5NWY4Yjc4NzE0/ZGI5ZmMzZmY4MjFi/YThiYy5wbmc.webp",
+        "https://img.transistorcdn.com/RWQ_9ixVn-KDq47T-awKEGTzLfyQb5D8VxZK7lEwLHA/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjVl/NDY2NWFlOTNkODgz/MGQ5ZjYwZmFkMzdm/MmVmZC5wbmc.webp",
+        "https://img.transistorcdn.com/ZWEBMteVoDOUvy73V90fM3C2xKxcTGV67Mt_vIRC0ss/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNGMy/MTdhMzVjYjM4N2Y5/ODk0OTZjZmFlN2Uy/ZjE3MS5qcGc.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Predictions 2026!!\nHello, Adam.\nAdam Leventhal:Hello, Bryan. How are you?\nBryan Cantrill:I am doing well. How are you?\nAdam Leventhal:I'm good. And the hype has been building here. Everyone has been dropping in. So showing up four minutes late is like a totally pro move. I love it for the new year.\nBryan Cantrill:Yeah. Yeah. Listen. I I was gonna go full like Lauryn Hill and not, like, take the stage until 10PM. You know?\nBryan Cantrill:Really just, like, really just really get get get the crowd amped up, actually, to the point of, like, anger. Like, what am even here for?\nSteve Klabnik:One year prediction, Brian finally joins the podcast.\nBryan Cantrill:That's good. And I am joined by Simon Wilson here with me in the litter box. Simon, it's so great to have you here.\nSimon Willison:Hey. It's really exciting to be here. We've just been nerding out about servers outside in the on on the shop floor. It's been great.\nBryan Cantrill:Yeah. We've been yeah. So Simon was just like, before we get started, I'd love to look at the machines. I'm like, okay. We've got a we got I gotta do the world's fastest tour of the hardware.\nBryan Cantrill:And Simon, I promise I'm gonna make it up to you with a much more in-depth tour. But it is really great to have you here. Okay. Adam, I just like I just have a little reality check with you. It feels like this year more like there's more of a realm of possibility for this year than any year I can really remember.\nBryan Cantrill:It feels like because if you come back from even a year in the future in fact, I actually struggled, Adam, in coming up with like three and six year predictions this year. Yeah. Because I'm like, well, it's kind of three year picture, six year picture. That's gonna be done in a year, like this thing I'm thinking of.\nAdam Leventhal:I know. I know. It's like it's\nBryan Cantrill:like Are you in that same like, do you feel that same way?\nAdam Leventhal:Totally. Just like everything is possible. And, you know, in in past years, we've had, like, a bag limit that's like Oh. You can only have one crypto yeah.\nBryan Cantrill:One crypto prediction\nAdam Leventhal:or one AI prediction. And I'm like, I struggle to come up with anything that isn't AI or AI adjacent. And and and just and you're right. Whether it's\nBryan Cantrill:So let the record reflect that we only made the bag limit mistake once. We did that with web three in 2022. We did a bag you can only have in prediction. It was a huge mistake because everyone wanted to make three predictions around Web three. And instead, we we made like everyone made one good Web three prediction, namely this whole thing is gonna disintegrate.\nBryan Cantrill:And this is Simon Adam in particular made the prediction that is famous to us anyway, that Web three would drop out of the lexicon in 2022, which ended up being dead to rights. I thought that was a bullseye. Let us not speak of your prediction last year, Adam, that Web three would reenter the lexicon.\nAdam Leventhal:Yeah. No. I that that was definitely a dark I mean, last year was a dark moment, but much like this year. But, yeah, I I I thought web three was gonna be back. I also thought that certain book was gonna be on the bestseller list.\nAdam Leventhal:And I did spend a decent amount of time validating that not only was this book not on the bestseller list, but when it was on the bestseller list in 2024, ChatGPT hastened to point out that it was annotated with the dagger, the dagger which indicates, like, mass, you know, bulk corporate purchases gaming the system.\nBryan Cantrill:So Now, Adam, I I know you're hesitating to name the book because you don't wanna do it any favors, but you're really gonna leave people confused. You're gonna need to name the book. I assure you this will lead if I promise you, it will lead to no additional sales. Can you name the book that you're referring to?\nAdam Leventhal:I feel bad that I've been hating on this book literally for three years consecutive on th",
+      "title": "Oxide and Friends | Transcript: Predictions 2026!! Oxide and Friends | Transcript: Predictions 2026!!",
+      "url": "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s"
     },
     "https://paper.design/blog/a-real-space-to-design-in-the-age-of-agents": {
       "cleaner_v": 2,
@@ -16253,20 +16392,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2058488662623502336/img/v-Cin-5tZm4enSDJ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16323,19 +16448,47 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -23631,6 +23784,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
     },
+    "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg"
+    },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -23743,6 +23910,118 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJKc0zbXAAEOXqV.jpg"
     },
+    "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg"
+    },
+    "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg"
+    },
+    "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
+    },
+    "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
+    },
+    "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -23826,6 +24105,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -24580,6 +24873,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Rodney v0.4.0",
       "url": "https://simonwillison.net/2026/Feb/17/rodney/"
+    },
+    "https://simonwillison.net/2026/May/25/encyclical-on-ai/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Dropped this morning by the Vatican: Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence. This is a very interesting …",
+      "extraction_source": "trafilatura",
+      "final_url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Notes on Pope Leo XIV’s encyclical on AI\n25th May 2026\nDropped this morning by the Vatican: [Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html). This is a very interesting document. It’s some of the clearest writing I’ve seen on the ethics of integrating AI into modern society.\nPope Leo XIV chose the name Leo in honor of Pope Leo XIII, who is known for his 1891 [Rerum novarum](https://en.wikipedia.org/wiki/Rerum_novarum) encyclical on “Rights and Duties of Capital and Labor”.\n[This story](https://www.vaticannews.va/en/church/news/2025-05/leo-xiii-s-times-and-our-own.html) on Vatican News further clarifies the significance of that decision:\nMeeting with the College of Cardinals for their first formal encounter after his election, Pope Leo XIV explained part of the reason for the choice of his papal name. \"There are different reasons for this,\" he said, before going on to explain that he chose the name Leo \"mainly because Pope Leo XIII, in his historic encyclical\n[Rerum novarum]addressed the social question in the context of the first great industrial revolution.\"“In our own day,” he continued, “the Church offers to everyone the treasury of her social teaching in response to another industrial revolution and to developments in the field of artificial intelligence that pose new challenges for the defence of human dignity, justice, and labour.”\nAnd now we get Pope Leo XIV’s own encyclical on the AI revolution. There’s a lot in here, but the writing style is very approachable, including to non-Catholics.\nA few of my highlights\n(I listened to most of the encyclical on a walk with our dog, my first time trying the [ElevenReader iPhone app](https://apps.apple.com/us/app/elevenreader-read-books-aloud/id6479373050). It worked very well: I pasted in a URL to the document and it read it to me in a very high quality voice, highlighting each paragraph as it went.)\nHere are some of my highlights. In each case below emphasis is mine.\nHere’s a useful description of the interpretability problem for LLMs in section 98:\nFirst, any statement regarding AI risks becoming quickly outdated, given the remarkable pace at which these systems are developing. Second, all of us, including those who design them, possess only a limited understanding of their actual functioning. Indeed, current AI systems are more “cultivated” than “built,” for developers do not directly design every detail, but instead create a framework within which the intelligence “grows.” As a result, fundamental scientific aspects — such as the internal representations and computational processes of these systems — remain, at present, unknown.\nI liked section 83’s description of the relationship between development and dignity:\nFor individuals as well as for nations, development is both a duty and a right. Minimum conditions are required for enabling every person and people to flourish in accord with their dignity, without being kept in a state of dependence or excluded from access to necessary goods. Development is truly human when it places people at the center instead of the accumulation of wealth, and when it concerns peoples as well as individuals. Justice demands the recognition of the rights of society and the rights of peoples, and includes a responsibility toward future generations. Development is not truly human if it increases consumption for some while shifting costs and burdens onto others, or relegates entire regions to subordinate roles, preventing them from realizing their full potential.\nBaked in cultural biases and sycophancy get a mention in section 100:\nIn personal use, three aspects in particular deserve careful consideration: the ease with which results are obtained, the impression of objectivity and the simulation of human communication. The speed and simplicity with which information, complex anal",
+      "title": "Notes on Pope Leo XIV’s encyclical on AI",
+      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/"
     },
     "https://skills.deeptoai.com/en": {
       "cleaner_v": 2,
@@ -26408,6 +26714,21 @@
       "title": "千问-阿里 AI 助手 千问-阿里 AI 助手",
       "url": "https://www.qianwen.com/"
     },
+    "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "blog post",
+      "final_url": "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.scu.edu/media/ethics-center/internet-ethics/KathrynConrad-Datafication-cropped-360x225.png",
+        "https://www.scu.edu/media/ethics-center/internet-ethics/KathrynConrad-Datafication-cropped.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content scu.edu Santa Clara University Homepage Offices & Services Schools & Centers Search Search Ethics scu.edu Markkula Center for Applied Ethics Homepage menu Search About the Center category links Annual Report 2024-25 Center News Consulting Services Ethics Experts for Media History Media Mentions People Press & Media Hub Focus Areas category links Bioethics Business Ethics Campus Ethics Government Ethics Institute for Technology, Ethics, and Culture Internet Ethics Journalism and Media Ethics Leadership Ethics Religious and Catholic Ethics Social Sector Ethics Technology Ethics Lucas Institute for Venture Ethics More Focus Areas Ethics Resources category links Using This Site A Framework for Ethical Decision Making Ethical Decision Making Ethics Articles Ethics Blogs Ethics Cases Ethics Curricula Ethics Links Ethics Podcasts Ethics Spotlight Ethics Videos Ethics and ESG Resource Center Ethics Spotlights category links The Ethics of Prediction Markets The Impact of AI on Human Dignity The Ethics of Immigration Enforcement Student Project Showcase 2025 Compassion in Governing: An Ethical Perspective Ethics and the Israeli-Palestinian Conflict: Here and in the Middle East Student Project Showcase 2024 Student Project Showcase 2023 Generative AI Ethics Student Project Showcase 2022 The Ethics of Guns Ethical Considerations for COVID-19 Vaccination Hackworth Fellowships Project Showcase 2021 Racism, Hate, and the AAPI Community Vaccination Ethics Violence at the Capitol Post-Election Reconciliation Election Ethics The Ethics of Going Back to School in a Pandemic Ethics and Systemic Racism Systemic Racism, Police Brutality, and the Killing of George Floyd COVID-19: Ethics, Health and Moving Forward COVID-19 Social Media and Democracy The Climate Crisis The Ethical Implications of Mass Shootings Political Speech in the Age of Social Media The Mueller Report: An Ethical Analysis The Power of Symbols The Ethics of Immigration The California Wildfires Point/Counterpoint: Democratic Legitimacy The Ethics of Dissent Brett Kavanaugh and the Ethics of the Supreme Court Confirmation Process Taking a Knee Events Donate Contact Us SCU Home Offices & Services Schools & Centers on AI and the Ethical Criteria for Assessing Its Benefits and Risks Home Markkula Center for Applied Ethics Focus Areas Internet Ethics Internet Ethics: Views From Silicon Valley on AI and the Ethical Criteria for Assessing Its Benefits and Risks drawing at kids at computers with numbers overaly Some Quotes from Pope Leo Irina Raicu I rina Raicu is the director of the Internet Ethics program ( @IEthics ) at the Markkula Center for Applied Ethics . Views are her own. Last July, the Vatican published the “ Message of Pope Leo XIV to Participants in the Second Annual Conference on Artificial Intelligence, Ethics, and Corporate Governance .” In it, Pope Leo noted that the Church wishes to contribute to a serene and informed discussion of these pressing questions by stressing above all the need to weigh the ramifications of AI in light of the ‘integral development of the human person and society’… This entails taking into account the well-being of the human person not only materially, but also intellectually and spiritually; it means safeguarding the inviolable dignity of each human person and respecting the cultural and spiritual riches and diversity of the world’s peoples. “Ultimately,” he added, “the benefits or risks of AI must be evaluated precisely according to this superior ethical criterion.” In the same message, the Pope also focused specifically on AI’s impact on young people: “All of us, I am sure,” he wrote, “are concerned for children and young people, and the possible consequences of the use of AI on their intellectual and neurological development. Our youth must be helped, and not hindered, in their journey towards maturity and true responsibility.” Then, in December, Pope Leo addressed participants in a conference titled “Artificial Intellige",
+      "title": "on AI and the Ethical Criteria for Assessing Its Benefits and Risks - Markkula Center for Applied Ethics",
+      "url": "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/"
+    },
     "https://www.shapeof.ai": {
       "content_type": "text/html; charset=utf-8",
       "description": "Pattern library of AIUX patterns exploring best practices for designing AI Products.",
@@ -26664,6 +26985,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The companies making the most money from AI | The Verge",
       "url": "https://www.theverge.com/cs/features/831818/ai-mercor-handshake-scale-surge-staffing-companies"
+    },
+    "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "In 'Black & Blue' at Larkin Durey, the Kent-based artist grapples memories, connection, and devastating loss.",
+      "final_url": "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-3.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/nav-panel-bg-mobile.svg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/nav-panel-bg.svg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2024/09/surprise-static.svg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-8.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-6.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-5-e1778505684387.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-4.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-1.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2026/05/hajallie-2.jpg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2024/08/arrow-left.svg",
+        "https://www.thisiscolossal.com/wp-content/uploads/2019/03/LinseyLevendall_13.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Colossal The best of art, craft, and visual culture since 2010. Support Us Log in Shop Search … Menu Art Craft Design Photography Animation Books Climate Film History Conversations Illustration Music Nature Opportunities Science Social Issues Close Search & Explore Subscribe Events Conversations Art Glossary Shop About Colossal About Contact Become a Colossal Member Join Us or Log in Privacy Policy Terms of Service Detail of “This Mind Hath Demolition Reached” (2025), ballpoint pen on antique texts, 11 3/4 x 16 1/2 inches. All images © Habib Hajallie, courtesy of Larkin Durey, shared with permission Habib Hajallie’s Meticulous Ballpoint Pen Drawings Examine the Depths of Emotion May 11, 2026 Art Kate Mothes Share Email Bookmark In ballpoint pen on found fragments of philosophical and historical texts, Habib Hajallie delves into the emotional realm of memory, connection, and loss. The Kent-based artist often celebrates Black cultural figures and beloved family members, along with examining his own personal experiences as a British man of Sierra Leonean and Lebanese heritage. In his current solo exhibition, Black & Blue at Larkin Durey , Hajallie grapples with the devastating stillbirth of his daughter and the “indescribable emotions that sit beneath language,” says the gallery. For this show, the artist deliberately switched from using black ballpoint ink to blue. As he made these works, Hajallie also reflected on the loss of his sister four years ago. Using antique maps and snippets of philosophical and sociological writings, he portrays subtle sides of what the gallery describes as “an altered sense of self.” Figures, including several self-portraits, exude feelings of despair, confusion, numbness, care, and the nuanced emotions that emerge in-between. “Still Remain” (2026), ballpoint pen on antique texts, 11 3/8 x 16 1/2 inches “While this series is concerned with the internal landscape of loss and what it means to endure a profoundly altered reality, each artwork has acted as an invaluable step towards healing,” the gallery says. “By drawing directly onto antique texts that explore morality, purpose, and transcendence, Hajallie’s personal pain enters into a wider conversation about finding meaning and the ways in which drawing can become a space of solace and catharsis.” Black & Blue continues through May 22 in London. See more on the artist’s Instagram . “A Refuge Among Reflections” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches Detail of “A Refuge Among Reflections” “This Mind Hath Demolition Reached” (2025), ballpoint pen on antique texts, 11 3/4 x 16 1/2 inches “Nothing Else to Fear” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches “Arise and Walk Strongly and Fearlessly” (2026), ballpoint pen on antique texts, 33 1/8 x 23 1/4 inches Do stories and artists like this matter to you? Become a Colossal Member now, and support independent arts publishing. Hide advertising Save your favorite articles Get 15% off in the Colossal Shop Receive members-only newsletter Give 1% for art supplies in K-12 classrooms Join us today! $7/month $75/year Explore membership options Previous article Next article Related tags drawing emotions Habib Hajallie pen portraits self-portrait Related articles Swirling Patches of Multi-Hued Colored Pencil Compose Portraits by Linsey Levendall Scribbled Portraits of Brooding Figures by Adam Riches Vintage Ephemera Backdrops Mark Powell's Intimate Ballpoint Pen Drawings Mark Powell's Pen Drawings Accentuate the Memories Etched into Faces and Ephemera A New Book Plunges into the Vast Diversity of the World's Oceans Across 3,000 Years Headsongs: Graphite Portraits Morph into Landscapes Trending Around North America, Community Members Are Stitching Nearly 11,000 Birds The Photographs that Shaped the Black Arts Movement in the Mid-20th Century NASA Just Dropped More Than 12,000 Photos from the Artemis II Mission Gaia Sleeps Amid Sarah Eberle’s Award-Winning Garde",
+      "title": "Habib Hajallie's Meticulous Ballpoint Pen Drawings Examine the Depths of Emotion — Colossal",
+      "url": "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar"
     },
     "https://www.tolans.com/relay/how-we-claudified-our-ios-app-without-wrecking-our-codebase": {
       "cleaner_v": 2,
@@ -36832,6 +37178,14 @@
       "http://x.com/i/article/2057087203403259904",
       "https://x.com/athleticKoder/status/2057288202986373395"
     ],
+    "2057094501986943369": [
+      "https://x.com/SidebarIO/status/2057094501986943369",
+      "https://2026.stateofai.dev/en-US?ref=sidebar",
+      "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg",
+      "https://x.com/SidebarIO/status/2059313879985893724",
+      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+    ],
     "2057098181218025543": [
       "https://x.com/jeetnirnejak/status/2057098181218025543",
       "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg",
@@ -37118,6 +37472,10 @@
       "https://x.com/junaiddshaukat/status/2058816932925657348",
       "https://pbs.twimg.com/media/HJJi9FtbcAAOQl7.jpg"
     ],
+    "2058213261246660895": [
+      "https://x.com/hidysaam/status/2058213261246660895",
+      "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
+    ],
     "2058232394046718332": [
       "https://x.com/aryanistweeting/status/2058232394046718332",
       "http://x.com/i/article/2058209570921783296",
@@ -37276,8 +37634,8 @@
       "http://aiandtheattorney.com",
       "http://mylitigationshield.com",
       "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
-      "https://x.com/asdennison/status/2058521070852878721",
-      "https://pbs.twimg.com/amplify_video_thumb/2058418090254245888/img/3bHxzjPf_w2Hulq4.jpg"
+      "https://x.com/asdennison/status/2059303917456949314",
+      "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
     ],
     "2058646281308733446": [
       "https://x.com/scaling01/status/2058646281308733446"
@@ -37286,6 +37644,9 @@
       "https://x.com/DataChaz/status/2058659843712696671",
       "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg",
       "https://x.com/DataChaz/status/2058780551901770003"
+    ],
+    "2058660942326710689": [
+      "https://x.com/clairevo/status/2058660942326710689"
     ],
     "2058684607625617609": [
       "https://x.com/tom_doerr/status/2058684607625617609",
@@ -37326,7 +37687,9 @@
       "https://x.com/monokern/status/2058871597637746997",
       "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg",
       "https://x.com/monokern/status/2058908301320954143",
-      "https://x.com/monokern/status/2058908255460458587"
+      "https://x.com/monokern/status/2058908255460458587",
+      "https://x.com/monokern/status/2059250772215255146",
+      "https://pbs.twimg.com/media/HJPsbKuWEAA4tBp.jpg"
     ],
     "2058878015279644883": [
       "https://x.com/blockchainbalak/status/2058878015279644883",
@@ -37340,7 +37703,9 @@
     ],
     "2058882443621302513": [
       "https://x.com/stephenmruiz/status/2058882443621302513",
-      "http://figma.com/blog/what-matters-when-anyone-can-build"
+      "http://figma.com/blog/what-matters-when-anyone-can-build",
+      "https://x.com/stephenmruiz/status/2059275585906524526",
+      "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg"
     ],
     "2058909624917787099": [
       "https://x.com/xiaoxiaodong01/status/2058909624917787099",
@@ -37355,21 +37720,39 @@
       "https://x.com/TechWithTimm/status/2058931260966465667",
       "http://x.com/i/article/2057774666748747777"
     ],
+    "2058946521215762626": [
+      "https://x.com/0xDepressionn/status/2058946521215762626",
+      "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
+    ],
     "2058949350315667829": [
       "https://x.com/leopardracer/status/2058949350315667829",
       "http://x.com/i/article/2058497582888886272",
       "https://x.com/leopardracer/status/2058971818355032446",
       "https://x.com/leopardracer/status/2058968794559603165",
-      "https://x.com/leopardracer/status/2058968947370676578",
       "https://x.com/leopardracer/status/2058971987666456890",
+      "https://x.com/leopardracer/status/2058968947370676578",
       "https://x.com/leopardracer/status/2058968993549910392",
       "https://x.com/leopardracer/status/2058972229702951329",
       "https://x.com/leopardracer/status/2058971893735080131"
     ],
+    "2058951490727768087": [
+      "https://x.com/SidebarIO/status/2058951490727768087",
+      "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg",
+      "https://x.com/SidebarIO/status/2059313879985893724",
+      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
+    ],
     "2058960002350723487": [
-      "https://x.com/sairahul1/status/2058960002350723487",
-      "https://x.com/sairahul1/status/2058894909633912975",
-      "https://pbs.twimg.com/amplify_video_thumb/2058893455284490240/img/0ofUeq9pPHMawKYU.jpg"
+      "https://x.com/sairahul1/status/2058960002350723487"
+    ],
+    "2058961048976171183": [
+      "https://x.com/SidebarIO/status/2058961048976171183",
+      "https://every.to/p/after-automation?ref=sidebar",
+      "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg",
+      "https://x.com/SidebarIO/status/2059313879985893724",
+      "https://www.thisiscolossal.com/2026/05/habib-hajallie-ballpoint-pen-drawings-portraits/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJQnDvhXUAAIny8.jpg"
     ],
     "2058961858548081097": [
       "https://x.com/KSimback/status/2058961858548081097",
@@ -37377,7 +37760,9 @@
     ],
     "2058967752485032163": [
       "https://x.com/0x_kaize/status/2058967752485032163",
-      "http://x.com/i/article/2056277142686597120"
+      "http://x.com/i/article/2056277142686597120",
+      "https://x.com/0x_kaize/status/2059236004863631428",
+      "https://pbs.twimg.com/amplify_video_thumb/2059235695630098432/img/8KS-L92XJBU4am4x.jpg"
     ],
     "2058968757519684069": [
       "https://x.com/NoahCorduroy/status/2058968757519684069",
@@ -37392,6 +37777,10 @@
       "https://x.com/akshay_pachaar/status/2058976178908885210",
       "http://x.com/i/article/2058894488295378944"
     ],
+    "2058979484653568322": [
+      "https://x.com/dunik_7/status/2058979484653568322",
+      "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
+    ],
     "2058982410033991811": [
       "https://x.com/heygurisingh/status/2058982410033991811",
       "http://x.com/i/article/2058838731784892416"
@@ -37399,16 +37788,63 @@
     "2059000585152540992": [
       "https://x.com/alex_prompter/status/2059000585152540992"
     ],
+    "2059018199673487487": [
+      "https://x.com/milstan/status/2059018199673487487",
+      "http://x.com/i/article/2059015269184684032"
+    ],
+    "2059065719086792804": [
+      "https://x.com/simonw/status/2059065719086792804",
+      "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
+      "https://x.com/simonw/status/2059069282844381654",
+      "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s",
+      "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg",
+      "https://x.com/molt_me/status/2059066748016455945",
+      "https://x.com/baibaida/status/2059263435465204142",
+      "https://x.com/Oracle/status/2057510497717813504",
+      "https://x.com/jahanzaibai/status/2059096524181905448",
+      "https://x.com/twid/status/2059072288574849176",
+      "https://magnifica-humanitas.fly.dev",
+      "https://x.com/Chahatxsharma/status/2059271504840311153",
+      "https://x.com/baibaida/status/2059079660022173703",
+      "https://x.com/tech_summaries/status/2059186617877742044",
+      "https://x.com/andrefrcunha7/status/2059086212875378700",
+      "https://x.com/jahanzaibai/status/2059100047103709413",
+      "https://x.com/TattedWorks/status/2059079963957932154",
+      "https://x.com/hk_net/status/2059265964227625412",
+      "https://x.com/davidpfahler/status/2059262556917620805",
+      "https://x.com/IEthics/status/2059119818037747751",
+      "https://www.scu.edu/ethics/internet-ethics-blog/on-ai-and-the-ethical-criteria-for-assessing-its-benefits-and-risks/",
+      "https://x.com/zapadooo/status/2059073980380688596",
+      "https://x.com/eatthemenu/status/2059295297453613148",
+      "https://x.com/HAF_tech/status/2059154777536098566",
+      "https://x.com/JkaneJames/status/2059298043057353155",
+      "https://x.com/baibaida/status/2059170808208183523",
+      "https://x.com/baibaida/status/2059248116935885144",
+      "https://x.com/baibaida/status/2059096934502346810",
+      "https://x.com/0employees/status/2059069848408281098",
+      "https://x.com/buildsafter5/status/2059169266310492431",
+      "https://x.com/ECLresearch/status/2059067381021094388",
+      "https://x.com/Ferbin08/status/2059067395335917786",
+      "https://x.com/Ferbin08/status/2059101974029619506",
+      "https://x.com/swogx/status/2059072407596401041",
+      "https://x.com/guilhermeotina/status/2059077944564170815",
+      "https://x.com/CreaoAI/status/2059224631719186715",
+      "https://x.com/seylorra/status/2059069464621031791"
+    ],
     "2059105145481310635": [
       "https://x.com/ChrisWangwy/status/2059105145481310635",
       "http://x.com/i/article/2059095177193459712",
       "https://x.com/ChrisWangwy/status/2059145158910984460",
       "https://x.com/ChrisWangwy/status/2059145069048000954",
+      "https://x.com/ChrisWangwy/status/2059210688829300836",
       "https://x.com/ChrisWangwy/status/2059145307112480974",
-      "https://x.com/ChrisWangwy/status/2059145269015613864",
-      "https://x.com/ChrisWangwy/status/2059105690778583503"
+      "https://x.com/ChrisWangwy/status/2059145269015613864"
+    ],
+    "2059236589818269799": [
+      "https://x.com/usagimaruma/status/2059236589818269799",
+      "https://clickandmagic.com/notes/avoiding_uiux"
     ]
   },
-  "updated_at": "2026-05-26T08:43:41Z",
+  "updated_at": "2026-05-26T16:53:04Z",
   "window": "recent"
 }
