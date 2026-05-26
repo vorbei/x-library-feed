@@ -60,6 +60,9 @@
       "category": "Development",
       "created_at": "2026-05-24T07:11:49.297982Z",
       "description": "StrongDM's field notes on non-interactive agentic development: specs + scenarios, validation harnesses, feedback loops, and the supporting components.",
+      "description_zh": "StrongDM 关于非交互式智能体开发的现场笔记：规格与场景、验证框架、反馈循环及支持组件。",
+      "description_zh_hash": "21e7d839229bd822",
+      "description_zh_translator_v": 2,
       "domain": "factory.strongdm.ai",
       "embed_type": "",
       "id": "k17e0gvrk1g99t9makg7b79wq987aawz",
@@ -82,6 +85,9 @@
         }
       ],
       "title": "StrongDM Software Factory",
+      "title_zh": "StrongDM 软件工厂",
+      "title_zh_hash": "3c2657db823cbb93",
+      "title_zh_translator_v": 2,
       "url": "https://factory.strongdm.ai/",
       "x_status_id": null
     },
@@ -100,6 +106,9 @@
       "category": "Development",
       "created_at": "2026-05-24T07:26:27.191610Z",
       "description": "vector and full-text search built on object storage: fast, 10x cheaper, and extremely scalable",
+      "description_zh": "基于对象存储构建的向量与全文搜索：快速、成本降低10倍，且极具可扩展性",
+      "description_zh_hash": "d12c78619141eb95",
+      "description_zh_translator_v": 2,
       "domain": "turbopuffer.com",
       "embed_type": "",
       "id": "k171hzxannwt5p5qyew96at71x87b0hc",
@@ -122,6 +131,9 @@
         }
       ],
       "title": "turbopuffer - fast search engine built on object storage",
+      "title_zh": "turbopuffer - 基于对象存储构建的快速搜索引擎",
+      "title_zh_hash": "96cb63656e9a2fdb",
+      "title_zh_translator_v": 2,
       "url": "https://turbopuffer.com/",
       "x_status_id": null
     },

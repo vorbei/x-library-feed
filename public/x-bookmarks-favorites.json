@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic.\nGoogle.\nMeta.\n\nEveryone's using an idea from the 1990s to run LLM inference 2-3x faster.\n\nIn the 1990s, CPU designers hit a pipeline stall problem.\n\nOriginally, CPUs were designed to process instructions in stages, like fetch, decode, execute, and write back.\n\nThey finished one instruction before starting the next. This left most stages idle.\n\nPipelining fixed this by letting many instructions flow through these stages simultaneously, like an assembly line.\n\nBut it introduced a new problem.\n\nWhen the CPU hit a conditional branch (if/else), it didn't know which path to take yet.\n\nBut the pipeline had already started fetching the next instructions. If those turned out to be from the wrong path, all that work got flushed.\n\nThe pipeline stalled, and it happened roughly every 3rd instruction in typical programs.\n\nBranch prediction fixed this.\n\nThe processor kept a history of past branches, predicted the likely path, and executed ahead.\n\nIf the prediction was right (this happened ~95% of the time), the pipeline never stalled. If it was wrong, it just flushed and retried.\n\nLLM inference now faces the same problem on different hardware.\n\nA GPU can also process many tokens in parallel. It does this during prefill, when it ingests the entire prompt at once, and the compute units are fully saturated.\n\nBut during decoding, the model generates tokens one at a time. Each token depends on the one before it, so the GPU can't work ahead.\n\nIt loads billions of parameters from memory for each token, finishes the math almost instantly, and sits idle until the next step.\n\nHardware that could handle many tokens at once is stuck doing one.\n\nSpeculative decoding breaks this in the same way branch prediction broke CPU stalls.\n\n→ A small model guesses the next K tokens.\n→ The large model then verifies all K tokens in a single forward pass.\n\nThat verification step looks like a prefill stage, with multiple tokens processed at once and compute units fully saturated.\n\n→ Best case, this gives K+1 tokens from one large-model call.\n→ Worst case, it gives 1 token, exactly what standard decoding produces.\n\nAnd in both cases, the output distribution is always mathematically identical.\n\nGoogle Search uses this exact approach in AI Overviews to serve over 2 billion users. vLLM, TensorRT-LLM, and SGLang also ship built-in support.\n\nI wrote about the full mechanics of speculative decoding in an article. It covers KV caching, the internals of speculative decoding (with code), and tradeoffs.\n\nRead it below.\n____\nFind me →  @_avichawla\nEvery day, I share tutorials and insights on DS, ML, LLMs, and RAGs.",
+      "text_zh": "Anthropic、Google、Meta——  \n大家都在用一项源自1990年代的技术，将大语言模型推理速度提升2-3倍。\n\n上世纪90年代，CPU设计者遇到了流水线停顿问题。\n\n最初，CPU按阶段处理指令，比如取指、译码、执行和写回。  \n一条指令完成后才开始下一条，导致大部分阶段处于空闲状态。\n\n流水线技术解决了这个问题，它让多条指令像流水线一样同时流经各个阶段。  \n但这又带来了新问题。\n\n当CPU遇到条件分支（if/else）时，它还不知道该走哪条路径。  \n但流水线已经开始预取后续指令。如果这些指令来自错误路径，所有已完成的工作都会被清空。  \n流水线因此停顿，而典型程序中大约每三条指令就会发生一次这种情况。\n\n分支预测解决了这个问题。  \n处理器会记录过去的分支历史，预测可能的路径，并提前执行。  \n如果预测正确（概率约95%），流水线就不会停顿；如果预测错误，只需清空并重试。\n\n如今，大语言模型推理在不同硬件上遇到了同样的问题。\n\nGPU也能并行处理多个token。这在预填充阶段可以实现——当它一次性处理整个提示词时，计算单元完全饱和。  \n但在解码阶段，模型逐token生成。每个token依赖前一个，因此GPU无法提前工作。  \n它每次为单个token加载数十亿参数，几乎瞬间完成计算，然后闲置等待下一步。  \n本可同时处理多个token的硬件，现在只能逐个处理。\n\n推测解码打破了这一僵局，正如分支预测打破了CPU停顿。\n\n→ 一个小模型先猜测接下来的K个token。  \n→ 大模型随后通过一次前向传播验证所有K个token。\n\n这个验证步骤类似于预填充阶段：多个token同时处理，计算单元完全饱和。\n\n→ 最佳情况下，一次大模型调用可得到K+1个token。  \n→ 最差情况下，只得到1个token，与标准解码完全相同。\n\n无论哪种情况，输出分布在数学上始终完全一致。\n\nGoogle搜索在AI Overviews中正是采用这种方法，服务超过20亿用户。vLLM、TensorRT-LLM和SGLang也内置了对此功能的支持。\n\n我在一篇文章中详细介绍了推测解码的完整机制，涵盖KV缓存、推测解码的内部原理（含代码）以及权衡取舍。\n\n欢迎阅读下文。\n____\n关注我 → @_avichawla  \n每天分享关于数据科学、机器学习、大语言模型和检索增强生成的技术教程与见解。",
+      "text_zh_hash": "259f0c330e195b35",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_avichawla/status/2059192394713899228"
     },
     {
@@ -157,6 +160,9 @@
         "favorite@chumsdock"
       ],
       "text": "Animated financial icon pack. ✨\n\nMade in @LottielabHQ https://t.co/lGENFknSeY",
+      "text_zh": "动画金融图标包。✨\n\n由 @LottielabHQ 制作 https://t.co/lGENFknSeY",
+      "text_zh_hash": "60c0cf8797128e46",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hidysaam/status/2058213261246660895"
     },
     {
@@ -211,6 +217,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny: \"most SaaS exists because humans are the integration layer.\"\n\nhe's the head of Claude Code at Anthropic.\n\nhe goes further than that.\n\n\"a lot of SaaS just goes away when agents can operate software directly.\"\n\nbecause the only reason most SaaS tools exist\nis that humans need an interface to move data between systems.\n\nagents don't need the interface.\n\nand he's not talking about some distant future.\n\nhe means the people who are already running agents in parallel right now\nare not using the same software stack as everyone else.\n\nthe gap between people who know how to actually run agents\nand people who occasionally prompt Claude, is widening every month.\n\nthat's why I put together a breakdown of everything Claude can actually do\nthat most developers have never touched.\n\nread it and you'll already be ahead of 99% of people using Claude every day.\n\nfull guide in the article below.",
+      "text_zh": "Boris Cherny：“大多数SaaS之所以存在，是因为人类本身就是集成层。”\n\n他是Anthropic公司Claude Code的负责人。\n\n他进一步指出：\n\n“当智能体能够直接操作软件时，大量SaaS就会消失。”\n\n因为大多数SaaS工具存在的唯一理由，\n就是人类需要一个界面来在系统之间搬运数据。\n\n而智能体根本不需要这个界面。\n\n他说的并非遥远的未来。\n\n他的意思是，那些已经在并行运行智能体的人，\n所使用的软件栈已经和其他人完全不同。\n\n真正懂得如何运行智能体的人，\n与那些偶尔用Claude写写提示词的人之间的差距，每个月都在拉大。\n\n正因如此，我整理了一份关于Claude实际能做什么的详细解析——\n其中大部分功能，绝大多数开发者从未触碰过。\n\n读完这份指南，你就已经领先于99%每天使用Claude的人。\n\n完整指南见下文。",
+      "text_zh_hash": "6526e1045df5dc67",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xDepressionn/status/2058946521215762626"
     },
     {
@@ -265,6 +274,9 @@
         "bookmark@chumsdock"
       ],
       "text": "State of AI 2026 https://2026.stateofai.dev/en-US?ref=sidebar https://t.co/jju55K0Rqp",
+      "text_zh": "State of AI 2026 https://2026.stateofai.dev/en-US?ref=sidebar https://t.co/jju55K0Rqp",
+      "text_zh_hash": "77a22cb9b8ce6a47",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2057094501986943369"
     },
     {
@@ -319,6 +331,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "why does Boris Cherny ship 30 PRs a day and you can't on the exact same Claude?\n\nan agent with no memory is just as dumb on run 100 as it was on run 1. that's your ceiling.\n\ngive it a memory three layers, one evening:\n\n/ a file it reads at the start and rewrites at the end \n\n/ one filter for what survives \"would this change how it acts next time?\" \n\n/ a weekly job that consolidates its memory while you sleep\n\nthey're not out-prompting you. their agents just don't forget.",
+      "text_zh": "为什么鲍里斯·切尔尼（Boris Cherny）每天能提交30个PR，而你用同样的Claude却做不到？\n\n一个没有记忆的智能体，在第100次运行时和第1次一样迟钝。这就是你的上限。\n\n给它一个三层记忆系统，只需一个晚上：\n\n/ 一个文件，它在开始时读取，结束时重写\n\n/ 一个过滤器，决定哪些内容值得保留——“这个改变会影响它下次的行为吗？”\n\n/ 一个每周任务，在你睡觉时整合它的记忆\n\n他们并不是比你更会写提示词。只是他们的智能体不会遗忘。",
+      "text_zh_hash": "28570615d68a20fc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dunik_7/status/2058979484653568322"
     },
     {
@@ -373,6 +388,9 @@
         "bookmark@chumsdock"
       ],
       "text": "After Automation https://every.to/p/after-automation?ref=sidebar https://t.co/JQhf0n68eG",
+      "text_zh": "# 自动化之后\n\nhttps://every.to/p/after-automation?ref=sidebar https://t.co/JQhf0n68eG",
+      "text_zh_hash": "ef20dfb193ac9b3c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2058961048976171183"
     },
     {
@@ -427,6 +445,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The Interface Is No Longer the Product https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar https://t.co/uoj9QNqLvD",
+      "text_zh": "界面不再是产品 https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar https://t.co/uoj9QNqLvD",
+      "text_zh_hash": "6488573835cb4e4f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2058951490727768087"
     },
     {
@@ -510,6 +531,9 @@
         "bookmark@chumsdock"
       ],
       "text": "When I woke up this morning I didn't think I'd be spending a bunch of time today getting familiar with Catholic theology, but here we are. Notes on Pope Leo XIV's encyclical on AI. https://simonwillison.net/2026/May/25/encyclical-on-ai/",
+      "text_zh": "今早醒来时，我完全没料到今天会花大量时间熟悉天主教神学，但事实就是如此。关于教皇利奥十四世人工智能通谕的笔记。https://simonwillison.net/2026/May/25/encyclical-on-ai/",
+      "text_zh_hash": "e71040c2ba338a5e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/simonw/status/2059065719086792804"
     },
     {
