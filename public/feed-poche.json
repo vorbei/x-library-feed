@@ -9,7 +9,7 @@
       "name": "Development"
     },
     {
-      "count": 321,
+      "count": 320,
       "name": "Design"
     },
     {
@@ -38,59 +38,8 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2172,
+  "item_count": 2171,
   "items": [
-    {
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
-      "article_image_urls": [
-        "https://cdn.sanity.io/images/90mcwd9g/production/fc1a9ec3ae4cd69f508f5e96efc8ebe36a88b00f-2048x1366.jpg?rect=0,146,2048,1075&w=1200&h=630&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/2fe4586468408613c1b61c8bed2ef9b88eeb1b4b-2160x1440.jpg?rect=360,0,1440,1440&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/43cdfa83226ffd2030e0a83c3661ae6dc082f5d8-2560x1707.jpg?rect=427,0,1707,1707&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/8f5cde2adede3fd57294965b634f515fae028a53-2160x1440.jpg?rect=360,0,1440,1440&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/3cacd8f16daf59b3cb426066086ea812cc8b7a19-2560x1707.jpg?rect=427,0,1707,1707&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/34ac481697f06561cdb8b5ffe77ec694373b35d3-2160x1440.jpg?rect=360,0,1440,1440&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/84e032deaed3bf6dab9f684ffe376822cc39a2c4-2560x1829.jpg?rect=366,0,1829,1829&w=2048&h=2048&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/6d3a310916f36c7a78f6d94e7de6ac4b5c2ddf8f-2048x1152.heif?w=2048&h=1152&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/a99c75796cc825b2ff9e19e57ebc67ce765537aa-2048x1152.heif?w=2048&h=1152&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/b51ecaa4c0615989fddec6f3a9e1349ade39b477-2048x1152.heif?w=2048&h=1152&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/9547cc85af8db878dd0d4fb5ba6b7309687049e2-2048x1152.heif?w=2048&h=1152&max-h=3840&max-w=3840&q=85&fit=crop&auto=format",
-        "https://cdn.sanity.io/images/90mcwd9g/production/54f3ed7f6585f2cee9b56a2b6b7efdaa1269681e-1920x1920.png?w=1920&h=1920&max-h=3840&max-w=3840&q=85&fit=crop&auto=format"
-      ],
-      "article_title_extracted": "Homepage | Acronym",
-      "category": "Design",
-      "created_at": "2026-05-27T04:57:47.750040Z",
-      "description": "Acronym is an experiential design studio creating immersive installations, interactive environments, and large-scale brand activations that turn ambitious ideas into real-world experiences.",
-      "description_zh": "Acronym 是一家体验设计工作室，专注于打造沉浸式装置、互动环境及大规模品牌激活项目，将宏大构想转化为真实世界的体验。",
-      "description_zh_hash": "187794536c8175fa",
-      "description_zh_translator_v": 2,
-      "domain": "acronym.lol",
-      "embed_type": "",
-      "id": "k179nznx0b93s12m9yfk8fws7987g7y6",
-      "og_image_url": "https://cdn.sanity.io/images/90mcwd9g/production/fc1a9ec3ae4cd69f508f5e96efc8ebe36a88b00f-2048x1366.jpg?rect=0,146,2048,1075&amp;w=1200&amp;h=630&amp;max-h=3840&amp;max-w=3840&amp;q=85&amp;fit=crop&amp;auto=format",
-      "recommended_at": "2026-05-27T05:01:25.641000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "experiential-design",
-        "interactive-installations",
-        "brand-activations"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-05-27T05:01:25.641000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Homepage | Acronym",
-      "title_zh": "首页 | Acronym",
-      "title_zh_hash": "d781eba9fe7b3606",
-      "title_zh_translator_v": 2,
-      "url": "https://acronym.lol/",
-      "x_status_id": null
-    },
     {
       "category": "Media",
       "created_at": "2026-05-27T04:55:59.868121Z",
@@ -2051,7 +2000,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-20T11:32:47.215884Z",
+      "article_fetch_attempted_at": "2026-05-27T11:58:04.033605Z",
       "article_title_extracted": "Wan'de Form",
       "category": "Tools",
       "created_at": "2026-05-20T03:29:57.167032Z",
@@ -2132,7 +2081,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-20T11:32:47.215884Z",
+      "article_fetch_attempted_at": "2026-05-27T11:58:04.033605Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-20T08:37:33.907610Z",
@@ -96398,7 +96347,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2016,
+      "count": 2015,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -96434,5 +96383,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-27T05:04:23.342621Z"
+  "updated_at": "2026-05-27T11:58:48.520840Z"
 }
