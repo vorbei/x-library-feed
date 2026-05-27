@@ -2955,6 +2955,19 @@
       "title": "",
       "url": "http://x.com/i/article/2054216908581277696"
     },
+    "http://x.com/i/article/2054257420969373696": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2054257420969373696",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054257420969373696/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HINCYJTXQAAp6zd?format=jpg&name=900x900)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2054558837592506368)\n\nWe're rewriting OpenCut.\n\n[![](https://pbs.twimg.com/profile_images/2054392834342432768/KcIqAx9r_normal.jpg)](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[OpenCut](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[@opencutapp](http://x.com/i/article/2054257420969373696/opencutapp)\n\n·\n\n4h\n\n·\n\nFollow\n\nClick to Follow opencutapp\n\n7\n\n7\n\n111\n\n[10K](http://x.com/i/article/2054257420969373696/opencutapp/status/2059360143909802128/analytics)\n\nOpenCut started as an open source video editor. That's still true. But what it's becoming is something much bigger.\n\nWe're rebuilding from the ground up. Here's what that means.\n\n## \n\nEverything in this post comes from one decision.\n\n[![Image](https://pbs.twimg.com/media/HJRPLF6XMAI-8FF?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059357981599281154)\n\nThe engine is TypeScript running in a browser. That's fine when web is the only platform. It's not anymore.\n\n[![Image](https://pbs.twimg.com/media/HJQ3BD4WgAAD3FX?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059331420976218112)\n\nOpenCut is expanding to Desktop, Android, and iOS. Each platform becomes a thin UI layer, wrapped around the same underlying engine.\n\n[![Image](https://pbs.twimg.com/media/HJQ-fFCXgAADfcT?format=jpg&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059339633264132096)\n\nWe're also adding 4 things that weren't possible before.\n\n## \n\nFirst, the things you've been asking for\n\nBefore we get to the big stuff, here's what's new on the surface:\n\n* A brand new UI (revolutionary)\n* Keyboard-first mode (opt-in)\n* Auto caption fixes\n* Transitions and filters\n* A faster, more stable renderer\n* Group elements (finally)\n* A much bigger effects library\n\nThese are coming with the rewrite because we're building everything fresh.\n\n## \n\nPlugins\n\nOpenCut is getting a plugin system. You'll be able to install third-party plugins from the Store, or build and publish your own.\n\nBuilt-in features and third-party plugins run on the same Plugin API. You can disable any built-in feature you don't want.\n\nSome plugin ideas:\n\n* Custom snapping: snap to audio peaks in the timeline\n* Cross-platform publishing: publish to TikTok, YouTube, Instagram, and more all inside the editor.\n* Silence remover: scan the timeline and cut any silence longer than a threshold you set.\n\n## \n\nHeadless mode\n\nOpenCut has always been an editor. You open it, you edit some stuff, and maybe export it.\n\nBut what if you never opened it at all?\n\nHeadless mode lets you run the engine without a UI. You script what you want and it renders a finished video.\n\nSome things it makes possible:\n\n* Batch rendering: queue 50 clips with the same template, come back to finished files.\n* Template pipelines: define your format once, swap the assets, re-render. What took an hour of clicking is now a script you run.\n* Server-side rendering: Build anything on top of OpenCut. Your users click a button and a render comes out. They never see the editor.\n\n## \n\nA scripting tab\n\nPlugins are for things you want to add permanently. But sometimes, you just want to automate something once, or try something weird, or do something the UI doesn't expose.\n\nThat's what the scripting tab is for. It's a tab in the editor where you can write scripts that talk directly to OpenCut.\n\n## \n\nAn MCP server\n\n[![Image](https://pbs.twimg.com/media/HJRCySZWwAA5qID?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059344361314238464)\n\nIf",
+      "title": "",
+      "url": "http://x.com/i/article/2054257420969373696"
+    },
     "http://x.com/i/article/2054259613717909504": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3916,6 +3929,19 @@
       "title": "",
       "url": "http://x.com/i/article/2058838731784892416"
     },
+    "http://x.com/i/article/2058844103157116928": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058844103157116928",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058844103157116928/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJJ8DM_XMAA2ZIy?format=jpg&name=900x900)](http://x.com/i/article/2058844103157116928/ZoharAtkins/article/2059288101860610525/media/2058844374130176000)\n\nThe SaaS Apocalypse Is a Kabbalah Lesson\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[Zohar Atkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[@ZoharAtkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n·\n\n9h\n\nFollow\n\nClick to Follow ZoharAtkins\n\n7\n\n32\n\n[4.5K](http://x.com/i/article/2058844103157116928/ZoharAtkins/status/2059288101860610525/analytics)\n\nFor 140 years, the Florentines stared at a hole in their cathedral.\n\nThe Duomo was commissioned in 1296\\. The plans called for a dome rivaling the Pantheon, larger than anything built since the fall of Rome in masonry. But the plans did not specify how the dome would be built. No one knew what to do. The Florentines built the rest of the cathedral anyway. They built the nave, the transepts, the apse. For four generations the city's most important building rose toward a sky it could not yet close. Rain fell on the altar. The faithful prayed anyway.\n\nIn 1418, Filippo Brunelleschi won the commission with a design using herringbone brickwork that could support its own weight as it rose. By 1436 the dome was built. The hole closed. The cathedral, after a hundred and forty years of being a cathedral on paper, became a cathedral.\n\nAt the beginning of 2026, a trillion dollars in market cap vanished. A cathedral we thought was whole revealed a giant hole.\n\nPundits called it the SaaS Apocalypse. The massive drawn down in software stocks. Software was eating the world (\n\n[@pmarca](https://x.com/@pmarca)\n\n) until the narrative shifted to AI is eating software (\n\n[@naval](https://x.com/@naval)\n\n). IDC predicts that by 2028, 70% of software vendors will have refactored their pricing away from seats entirely. (The \"seat\" is the standard SaaS pricing unit: a company pays per employee who uses the software. It is the model that built Salesforce, Workday, Slack, and most of the trillion-dollar mountain that is now sliding.) BetterCloud's 2025 index found that the average number of SaaS applications per company dropped 18% in a year, with 82% of companies actively reducing supplier counts.\n\nThe conventional view is this: Foundation models, the large general-purpose AI systems that can be prompted to do almost any text-based task, are commoditizing the application layer. Vibe coding and agentic frameworks mean that the CRM-shaped thing, the ticketing-shaped thing, the planning-shaped thing can be reassembled on demand by anyone with a model and a prompt. The interface that SaaS sold as the product turns out to have been scaffolding. The seat as a unit of value was always a metric of how many humans were touching the vessel, sold as a metric of how much form was being delivered. The form is now nearly free. The seats are still being priced. The numbers do not work. (I happen to disagree with this consensus view and think \n\n[@danshipper](https://x.com/@danshipper)\n\n is directionally right: as AI agents multiply, we'll see a surge in demand for something like agent \"seating.\")\n\nIn any case, the trillion dollars did not actually disappear. It just moved elsewhere.\n\nThe question Western religion has fought over for two millennia is how the infinite reaches the finite. How does something that has no body, no location, and no edges actually arrive in a world that has all three? Three positions emerged. Each is now being recapitulated by the technology industry without anyone noticing. And this evergreen metaphysical debate is at the heart not just of debates about whether AI is intelligent, but about whether one should short Salesforce.\n\nThe first pos",
+      "title": "",
+      "url": "http://x.com/i/article/2058844103157116928"
+    },
     "http://x.com/i/article/2058863463435550721": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4008,6 +4034,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059015269184684032"
+    },
+    "http://x.com/i/article/2059015409442148352": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059015409442148352",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059015409442148352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJMYoyOaUAALSA0?format=jpg&name=900x900)](http://x.com/i/article/2059015409442148352/Alfred%5FLin/article/2059269948518932623/media/2059016543594500096)\n\nFinite and Infinite Mindsets - Part II\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n[Alfred Lin](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n[@Alfred\\_Lin](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n·\n\n10h\n\nFollow\n\nClick to Follow Alfred\\_Lin\n\n8\n\n15\n\n115\n\n[11K](http://x.com/i/article/2059015409442148352/Alfred%5FLin/status/2059269948518932623/analytics)\n\nWe play a combination of finite and infinite games on any given day. Apply the appropriate tools to each.\n\n\\--\n\nIn any introductory class to game theory, the \n\n[prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's%5Fdilemma)\n\n is one of the thought experiments discussed. This game involves two rational agents, each of whom can cooperate for mutual benefit or defect for individual gain. Defection is rational, but cooperation yields a higher payoff. If we only play one game, rationality prevails, and we defect. It turns out that if we play a fixed number of games, logic says that we would defect on the last game, which then, by induction, we would defect on the game before the last game, and therefore, every game. There is one clear strategy. These are examples of finite games.\n\nBy changing one variable, if the number of games to be played is unknown or infinite, we now have an infinite game. Various strategies are mathematically provable as \n\n[Nash equilibriums](https://en.wikipedia.org/wiki/Nash%5Fequilibrium)\n\n, where no player can gain by changing their approach. These include cooperating every time, defecting every time, and cooperating until you observe a defection and then defect from there. This revelation is a reminder not to apply finite game approaches to infinite games.\n\nMany businesses use finite game thinking on infinite games. They usually involve statements such as Company A will crush Company B because Company A has more capital and resources, a better product, a much higher valuation, or the market leader position, and the game is over. The statement shows finite game thinking. These advantages are not just temporary, they are fleeting. If that's all it takes, first movers would win every time.\n\nPundits have made proclamations, such as Microsoft will kill Apple, Intel will kill Nvidia, Google will kill Microsoft, etc., but all of these companies are larger than they were many decades ago and have switched leadership positions multiple times.\n\nBy 1995, the internet reached critical mass due to the invention of the browser. Netscape Navigator was the most widely used web browser, and Netscape became a public company on August 9, 1995\\. Microsoft assembled an elite team and licensed Mosaic to create Internet Explorer 1.0, released with Microsoft Windows 95 Plus! on August 24, 1995\\. Over the next few years, the \n\n[browser wars](https://en.wikipedia.org/wiki/Browser%5Fwars)\n\n ensued, and Internet Explorer became the new dominant browser, attaining a peak of 96% browser share in 2001\\. This was a significant win, but the bundling strategy employed by Microsoft resulted in an \n\n[antitrust trial and settlement](https://en.wikipedia.org/wiki/United%5FStates%5Fv.%5FMicrosoft%5FCorp.)\n\n that would slow the company down for over a decade.\n\nWith this opening, Google would emerge to win internet search and the second browser wars. Google enjoyed high growth, high profitability, and unlimited resources to invest in its future. Yet, they couldn't win in social (Meta, X, Snap), web services (Amazon), or mobile (Apple). Despite four decades of chip dominance by Intel, with transformer architecture and large-lang",
+      "title": "",
+      "url": "http://x.com/i/article/2059015409442148352"
     },
     "http://x.com/i/article/2059095177193459712": {
       "cleaner_v": 2,
@@ -23966,6 +24005,76 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
     },
+    "https://pbs.twimg.com/media/HJPuN-aaUAA9Srd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJPuN-aaUAA9Srd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJPuN-aaUAA9Srd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJPuN-aaUAA9Srd.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg"
+    },
+    "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
+    },
     "https://pbs.twimg.com/media/HJQEMtmXgAAaTdX.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -37628,8 +37737,8 @@
       "https://github.com/botirk38/sift",
       "https://x.com/botir33751732/status/2058869447121662115",
       "https://x.com/botir33751732/status/2058895853075468397",
-      "https://x.com/botir33751732/status/2058939779127939289",
       "https://x.com/botir33751732/status/2058895700927115524",
+      "https://x.com/botir33751732/status/2058939779127939289",
       "https://x.com/botir33751732/status/2058979323478974478"
     ],
     "2058871597637746997": [
@@ -37657,8 +37766,8 @@
     "2058909624917787099": [
       "https://x.com/xiaoxiaodong01/status/2058909624917787099",
       "http://x.com/i/article/2058908349220179968",
-      "https://x.com/xiaoxiaodong01/status/2058929929363005793",
-      "https://x.com/xiaoxiaodong01/status/2059077799034634433"
+      "https://x.com/xiaoxiaodong01/status/2059077799034634433",
+      "https://x.com/xiaoxiaodong01/status/2058929929363005793"
     ],
     "2058924184991142036": [
       "https://x.com/blackanger/status/2058924184991142036"
@@ -37675,9 +37784,9 @@
       "https://x.com/leopardracer/status/2058949350315667829",
       "http://x.com/i/article/2058497582888886272",
       "https://x.com/leopardracer/status/2058971818355032446",
-      "https://x.com/leopardracer/status/2058968794559603165",
       "https://x.com/leopardracer/status/2058968947370676578",
       "https://x.com/leopardracer/status/2058971987666456890",
+      "https://x.com/leopardracer/status/2058968794559603165",
       "https://x.com/leopardracer/status/2058968993549910392",
       "https://x.com/leopardracer/status/2058972229702951329",
       "https://x.com/leopardracer/status/2058971893735080131"
@@ -37728,7 +37837,9 @@
     ],
     "2058982410033991811": [
       "https://x.com/heygurisingh/status/2058982410033991811",
-      "http://x.com/i/article/2058838731784892416"
+      "http://x.com/i/article/2058838731784892416",
+      "https://x.com/heygurisingh/status/2059251382960734593",
+      "https://pbs.twimg.com/media/HJPuN-aaUAA9Srd.jpg"
     ],
     "2059000585152540992": [
       "https://x.com/alex_prompter/status/2059000585152540992"
@@ -37760,8 +37871,34 @@
     "2059236589818269799": [
       "https://x.com/usagimaruma/status/2059236589818269799",
       "https://clickandmagic.com/notes/avoiding_uiux"
+    ],
+    "2059269948518932623": [
+      "https://x.com/Alfred_Lin/status/2059269948518932623",
+      "http://x.com/i/article/2059015409442148352",
+      "https://x.com/Alfred_Lin/status/2059308273866870999",
+      "https://x.com/Alfred_Lin/status/2059307672030322911",
+      "https://x.com/Alfred_Lin/status/2059277200659190185",
+      "https://x.com/Alfred_Lin/status/2059277097168969778",
+      "https://x.com/Alfred_Lin/status/2059307044386304222",
+      "https://x.com/Alfred_Lin/status/2059307828079435945"
+    ],
+    "2059288101860610525": [
+      "https://x.com/ZoharAtkins/status/2059288101860610525",
+      "http://x.com/i/article/2058844103157116928"
+    ],
+    "2059332421854912937": [
+      "https://x.com/aleenaamiir/status/2059332421854912937",
+      "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg",
+      "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg",
+      "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg",
+      "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
+    ],
+    "2059360143909802128": [
+      "https://x.com/opencutapp/status/2059360143909802128",
+      "http://x.com/i/article/2054257420969373696",
+      "https://x.com/opencutapp/status/2059370183743971412"
     ]
   },
-  "updated_at": "2026-05-26T19:28:24Z",
+  "updated_at": "2026-05-27T00:18:02Z",
   "window": "recent"
 }
