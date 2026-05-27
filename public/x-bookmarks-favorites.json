@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This sounds complicated but the agents can implement this in OpenClaw/Hermes Agent trivially (use skillify from GBrain with a link to this tweet)\n\nSounds ridiculous but you should try it",
+      "text_zh": "这听起来很复杂，但代理可以在 OpenClaw/Hermes Agent 中轻松实现（使用 GBrain 的 skillify 并附上这条推文的链接）\n\n听起来很荒谬，但你应该试试",
+      "text_zh_hash": "970c1bef3460375d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/garrytan/status/2059144022778896392"
     },
     {
@@ -95,6 +98,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "When I was asked by the American Academy of Arts and Sciences to write an essay on my thoughts on how AI will accelerate Science, I felt honored but also felt that it would require a lot of thoughtfulness and diligence to distill my thoughts on paper.\n\nThe essay has now been published and I cannot be more thankful to the @americanacad and   @GoogleDeepMind  teams for their feedback and encouragement during the process.\n\nKey reflections from my essay:\n🔭 AI is our newest revolutionary lens: Just as the telescope and microscope expanded our physical perception, AI is extending our cognitive reach, allowing us to decipher the immense complexity of the data-universe.\n🧬 The rise of \"machine intuition\": AI is not just a computational engine. By detecting hidden structures across disciplines—from protein folding to extremal combinatorics—it acts as an ultimate bridge, accelerating the interdisciplinary breakthroughs that modern science depends on.\n🏗️ From puzzle-solvers to architects of questions: As we transition toward open-ended, agentic AI systems that actively generate novel hypotheses, the burden of reasoning is shifting. We are evolving from being the solvers of intricate puzzles into the architects of profound scientific questions.\n✨ Expanding human potential: AI won't replace scientists; it expands what we can imagine and achieve. Just as the telescope didn't make astronomers obsolete, AI is giving us the stars.\n\nRead the full essay here: https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed",
+      "text_zh": "美国艺术与科学院邀请我就“AI将如何加速科学”撰写一篇论文，我深感荣幸，但也意识到要将自己的思考凝练成文，需要极大的审慎与勤勉。\n\n如今这篇论文已正式发表。我由衷感谢@americanacad和@GoogleDeepMind团队在整个过程中给予的反馈与鼓励。\n\n论文中的核心思考：\n🔭 AI是我们最新的革命性透镜：正如望远镜和显微镜拓展了我们的物理感知，AI正在延伸我们的认知边界，让我们得以解读数据宇宙的浩瀚复杂性。\n🧬 “机器直觉”的崛起：AI不仅是计算引擎。通过跨学科捕捉隐藏结构——从蛋白质折叠到极值组合学——它扮演着终极桥梁的角色，加速着现代科学所依赖的跨学科突破。\n🏗️ 从解题者到问题架构师：随着我们转向能主动生成新颖假设的开放式、智能体式AI系统，推理的重担正在转移。我们正从复杂谜题的解决者，进化为深刻科学问题的架构师。\n✨ 拓展人类潜能：AI不会取代科学家；它拓展了我们所能想象和实现的一切。正如望远镜并未让天文学家过时，AI正在将星辰交到我们手中。\n\n阅读全文：https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed",
+      "text_zh_hash": "910206595ed6d600",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pushmeet/status/2059607483929211270"
     },
     {
@@ -190,6 +196,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "ANTHROPIC LITERALLY JUST HANDING US THE BLUEPRINT \n\nThe blueprint for taking your side project from idea to AI-native startup in 2026. For Free. \n\nthis 36-page guide turns your idea into a billion-dollar company using Claude. \n\nbookmark & read today. It's the most valuable 2 mins in AI right now. Then read article below.",
+      "text_zh": "ANTHROPIC 简直是在把蓝图直接塞给我们\n\n这份蓝图教你如何在2026年将你的副业项目从想法打造成AI原生初创公司。完全免费。\n\n这份36页的指南教你如何利用Claude把你的想法变成价值十亿美元的公司。\n\n立即收藏并阅读。这是目前AI领域最有价值的2分钟。然后阅读下面的文章。",
+      "text_zh_hash": "0341d80eb1d4140d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Av1dlive/status/2059563983489913148"
     },
     {
@@ -231,6 +240,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "For every single feature, we think from first principles. We break everything down into primitives, then examine how they can be combined, evolved, or redesigned. We reason, demo, push back, and reinvent. The duplication-free multi-agent collaboration approach described in this post is a perfect example.\n\nSome features may take longer than AI slop would. But if we ship, we ship the best.\n\nBTW, someone told me that Slock is even more stable than Codex remote control. So even you don't need any multi-agent workflow, you can still use Slock to access your Codex/Claude Code on your computer more stably.",
+      "text_zh": "对于每一个功能，我们都从第一性原理出发思考。我们将一切拆解为基本元素，然后审视它们如何组合、演进或重新设计。我们推理、演示、质疑、再创新。本文描述的无重复多智能体协作方法就是一个绝佳范例。\n\n有些功能可能比AI速成方案耗时更长。但一旦交付，我们交付的就是最好的。\n\n顺便说一句，有人告诉我Slock甚至比Codex远程控制更稳定。所以即使你不需要任何多智能体工作流，你仍然可以使用Slock更稳定地访问电脑上的Codex/Claude Code。",
+      "text_zh_hash": "f8c2916985c09b81",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/istdrc/status/2059610738264785367"
     },
     {
@@ -272,6 +284,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "this is prolly the greatest and the most dense article i've ever written",
+      "text_zh": "这大概是我写过最棒、信息密度最高的一篇文章。",
+      "text_zh_hash": "481414caccb5f90e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/LifeOfShandi/status/2059359475723886972"
     },
     {
@@ -313,6 +328,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the trick that makes @usekernel fast: we pay the full 5-10s of starting chromium once, snapshot ram to nvme, and resume in ~30ms when a request lands.\n\nfrom the outside it looks like a giant warm pool. under the hood it's mostly cold disk. wrote up how we got here.",
+      "text_zh": "让 @usekernel 快速运行的诀窍：我们一次性支付启动 Chromium 所需的 5-10 秒完整时间，将内存快照保存到 NVMe 固态硬盘，并在请求到达时在大约 30 毫秒内恢复运行。\n\n从外部看，它就像一个巨大的热池。在内部，它主要依赖冷磁盘。我写下了我们是如何做到这一点的。",
+      "text_zh_hash": "8e65b9057ea7bac9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rfgarcia/status/2059326660592255088"
     },
     {
