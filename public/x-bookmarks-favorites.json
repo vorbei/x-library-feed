@@ -70,6 +70,9 @@
         "bookmark@chumsdock"
       ],
       "text": "HTML docs are starting to replace Notion for us.\n\nThe missing piece was collaboration.\n\nSo we built a Google Drive for HTML docs with a WYSIWYG editor, commenting, share links, and password protection.\n\nIt works through MCP. Just ask Claude to upload to Moda: https://t.co/XcwBQKnFmK",
+      "text_zh": "HTML 文档开始取代我们使用的 Notion。\n\n缺失的一环是协作功能。\n\n因此，我们为 HTML 文档构建了一个类似 Google Drive 的工具，包含所见即所得编辑器、评论、分享链接和密码保护。\n\n它通过 MCP 运行。只需让 Claude 上传到 Moda：https://t.co/XcwBQKnFmK",
+      "text_zh_hash": "1fd0ebc50a0a8d70",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/anvisha/status/2059354289412210812"
     },
     {
@@ -110,6 +113,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "New on the Engineering Blog: The access and permissions we grant agents should evolve with their capabilities. In our own products, we set these parameters through sandboxing, which limits the scope of any potentially destructive actions.\n\nRead more: https://www.anthropic.com/engineering/how-we-contain-claude",
+      "text_zh": "工程博客新文章：我们授予智能体的访问权限和许可应当随其能力的发展而演进。在我们的产品中，我们通过沙盒机制设定这些参数，从而限制任何潜在破坏性行为的范围。\n\n阅读更多：https://www.anthropic.com/engineering/how-we-contain-claude",
+      "text_zh_hash": "e7625646817b6ea8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnthropicAI/status/2059351260243919269"
     },
     {
@@ -327,6 +333,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How to turn LinkedIn into a customer-acquisition engine: https://t.co/NUdyvooTYb",
+      "text_zh": "如何将LinkedIn打造成客户获取引擎：https://t.co/NUdyvooTYb",
+      "text_zh_hash": "38cca8bcc2a7793e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MichLieben/status/2059288698894860799"
     },
     {
@@ -368,6 +377,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Most of what you read about AI adoption inside large companies, on X or in the news, is wrong.\n\nWe've spent the past year running real implementations at some of the largest companies in the US. \n\nThe findings look nothing like the consensus. We wrote up the truth below. Cheers.",
+      "text_zh": "你在X或新闻上读到的大部分关于大公司采用AI的内容，都是错的。\n\n过去一年，我们在美国一些最大的公司里做了真正的落地实施。\n\n结果和主流看法完全不同。我们把真相写在了下面。干杯。",
+      "text_zh_hash": "5d683df9da2bac61",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vasuman/status/2059400201211924961"
     },
     {
