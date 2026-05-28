@@ -59,6 +59,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "making all of reducto's traces SQL queryable in bulk for agents has been a game changer for how we handle incidents and support as a team.\n\nwrote a bit about it here! if it sounds interesting check out our relevant roles here:\nhttps://reducto.ai/careers/0a4976be-4af3-4cba-8996-a7fe6bff696d",
+      "text_zh": "将Reducto的所有追踪记录批量转化为可SQL查询的形式，对我们团队处理事件和提供支持的方式来说，堪称革命性变革。\n\n我在这里写了些相关内容！如果感兴趣，可以看看我们的相关职位：\nhttps://reducto.ai/careers/0a4976be-4af3-4cba-8996-a7fe6bff696d",
+      "text_zh_hash": "5e3eed373256b6b5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/raunakdoesdev/status/2059690364320297394"
     },
     {
@@ -184,6 +187,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Banger. \n\nCorollary is to price by outcome instead of by token. Forces both clarity on what your outcome is and token discipline because you own the risk. \n\nSierra was pretty early to this thesis and has been critical to our growth: https://sierra.ai/blog/outcome-based-pricing-for-ai-agents",
+      "text_zh": "太棒了。\n\n推论是：按结果定价，而非按 Token 定价。这会迫使你明确自己的目标，并保持 Token 使用纪律，因为你承担了风险。\n\nSierra 很早就提出了这一论点，并且对我们的增长至关重要：https://sierra.ai/blog/outcome-based-pricing-for-ai-agents",
+      "text_zh_hash": "88366c8e457e3c85",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vijayiyengar/status/2059820242856267958"
     },
     {
@@ -225,6 +231,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "You dont have to wait for access to Mythos.\n\nYou can build an automated security posture that works today.",
+      "text_zh": "你无需等待Mythos的访问权限。\n\n现在就可以构建一个立即可用的自动化安全态势。",
+      "text_zh_hash": "8b08bdace4fd2e72",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ian_dot_so/status/2059682649308881303"
     },
     {
@@ -318,6 +327,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": ".@danshipper said to use Codex, so I used Codex to write 9,000+ words on how to use Codex. \n\nhttps://every.to/guides/codex-for-knowledge-work https://t.co/RjrUiRuGEv",
+      "text_zh": ".@danshipper 建议使用 Codex，于是我用 Codex 撰写了 9,000 多字，教你如何使用 Codex。\n\nhttps://every.to/guides/codex-for-knowledge-work https://t.co/RjrUiRuGEv",
+      "text_zh_hash": "aa8d1fd7eb829da3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/kplikethebird/status/2059386407760568408"
     },
     {
@@ -454,6 +466,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "i watched the kimi founder explain how 300 agents run on one prompt.\n\nit's not a model trick. it's just an org chart.\n\none orchestrator at the top. specialists in different roles. one shared goal.\n\nif you've ever managed a team, you already understand the architecture 👇 https://t.co/bXuCWBkS7N",
+      "text_zh": "我看了Kimi创始人解释如何用一个提示词驱动300个智能体。\n\n这不是什么模型技巧。这其实就是一张组织架构图。\n\n一个协调者在上层。不同角色的专家。一个共同目标。\n\n如果你管理过团队，你其实已经理解了这个架构 👇 https://t.co/bXuCWBkS7N",
+      "text_zh_hash": "46b6b738ca9e9b53",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rohit4verse/status/2059673247080394901"
     },
     {
@@ -508,6 +523,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "You are still hand-tuning your Claude agent in May 2026. That work is now optional.\n\nAnthropic shipped Dreaming on May 6.\n\nThe agent reviews its own session logs while it is idle and rewrites its own memory.\n\nThe corrections you flag today get baked into the agent by tomorrow.\n\nYou do not write a new system prompt. The rules file is dead. The bottleneck is gone.\n\nPeople who turned this on May 7 are already 21 days ahead.\n\nTheir agent knows the patterns yours is still being taught by hand.\n\nA setting buried in Claude Console makes the difference between an agent that compounds and an agent that plateaus.\n\nMost people will not open the console this week.\n\nThe agents that dream now are the ones running the work in six months.\n\nYours either started dreaming, or it started losing.",
+      "text_zh": "你还在手动调校你的 Claude 智能体，时间是 2026 年 5 月。这项工作现在已是可选项。\n\nAnthropic 于 5 月 6 日发布了 \"Dreaming\" 功能。\n\n智能体在空闲时会自行审查自己的会话日志，并重写自己的记忆。\n\n你今天标记的修正，到明天就会被智能体自动吸收。\n\n你不再需要编写新的系统提示词。规则文件已经过时。瓶颈不复存在。\n\n那些在 5 月 7 日就开启此功能的人，已经领先了 21 天。\n\n他们的智能体已经掌握了你的智能体还在靠手动教导的模式。\n\nClaude Console 中一个不起眼的设置，决定了智能体是持续进化还是停滞不前。\n\n大多数人本周不会打开这个控制台。\n\n现在就开始 \"做梦\" 的智能体，将在六个月后主导所有工作。\n\n你的智能体要么已经开始做梦，要么已经开始落后。",
+      "text_zh_hash": "3dad61529a20e04c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Zephyr_hg/status/2059776916484206755"
     },
     {
@@ -551,6 +569,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Jensen Huang repeatedly uses “the richness of our ecosystem” as a way to describe NVIDIA’s moat.\n\nIt is a vibrant case study for the Arrow of Desire.\n\n@grok – how would you explain why? https://x.com/soleio/status/2051074549396144416?s=20",
+      "text_zh": "黄仁勋反复用“我们生态系统的丰富性”来描述英伟达的护城河。\n\n这是“欲望之箭”的一个生动案例。\n\n@grok – 你会如何解释原因？https://x.com/soleio/status/2051074549396144416?s=20",
+      "text_zh_hash": "d217e3fbe424877e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/soleio/status/2059821390728204594"
     },
     {
