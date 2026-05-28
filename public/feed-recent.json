@@ -4406,6 +4406,34 @@
       "title": "",
       "url": "http://x.com/i/article/2059839454370828288"
     },
+    "http://x.com/i/article/2059927958916300800": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059927958916300800",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059927958916300800/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJZVrv7aQAAlfBC?format=jpg&name=900x900)](http://x.com/i/article/2059927958916300800/alextang/article/2059982444703727721/media/2059928089656967168)\n\nWe Pointed Our AI at the Founders\n\n[![](https://pbs.twimg.com/profile_images/1976992373910781958/s15yEWhu_normal.jpg)](http://x.com/i/article/2059927958916300800/alextang)\n\n[Alex Tang](http://x.com/i/article/2059927958916300800/alextang)\n\n[@alextang](http://x.com/i/article/2059927958916300800/alextang)\n\n·\n\n4h\n\nFollow\n\nClick to Follow alextang\n\n3\n\n41\n\n[124K](http://x.com/i/article/2059927958916300800/alextang/status/2059982444703727721/analytics)\n\nEveryone is using AI to make their fund more efficient. The harder question is whether it helps your portfolio.\n\nWhere the VC AI conversation is happening\n\nMost of the VC AI conversation right now is centered on making the partner's job easier. Faster deal evaluation, automated memos, liquid token monitoring, smarter LP reports. The fund is the primary user and the founder is the input. That framing makes sense for a lot of funds, and the work being done there is genuinely impressive. Some funds are building compound intelligence systems that capture IC decisions and accumulate institutional knowledge at the firm level. Others have built triage systems so that founder requests stop getting buried in the partner inbox overnight.\n\nAll of it solves real problems. And all of it sits on the partner's side of the relationship.\n\nThe harder problem is upstream\n\nThe assumption underneath most of these systems is that the hard part of portfolio management is what happens after the information arrives. We think the harder problem is getting high-quality, candid, real-time information in the first place, in a way that doesn't turn founders into administrators for their investors.\n\nThe standard update model puts the entire burden on the founder. Send a monthly email, fill out a form, join a scheduled call, and if you miss it, expect a follow-up. That model was designed around a specific type of founder in a specific context, and even there it doesn't work particularly well. Extend it across geographies, languages, and communication styles, and it starts to break down in ways that are hard to patch.\n\nFounders who are deep in execution don't naturally pause to think about what their investors need to know. That's just what building looks like at the early stage. The fund's job is to make staying connected as frictionless as possible, because the quality of support you can offer is only as good as the quality of information you actually have.\n\nWhat we built instead\n\nWhen we built the MFV platform, we made a deliberate decision to treat the founder portal as a real product in its own right, something founders would actually want to open. The result is a set of tools that founders use on their own terms.\n\nThe portal includes a fundraise tracker that replaces the Google Sheet every founder ends up building themselves at some point. A slide builder that works inside their own brand kit and visual identity. A hiring pipeline with job description drafting built in. A marketing studio for drafting press releases and campaign copy. A journal for capturing thinking that doesn't fit a structured field. And a direct channel to surface requests to the full MFV partner team, structured and trackable, so nothing gets lost in an email thread or a Telegram message that disappears under forty others overnight.\n\nThe reason this matters goes beyond founder experience. When founders are genuinely using a system because it gives them something useful, the information that flows back to partners is qualitatively different. It is continuous and candid rather than compressed into a monthly summary written under time pressure. The picture of what's actually happening inside a company gets a lot",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2059927958916300800"
+    },
+    "http://x.com/i/article/2059959528138194944": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059959528138194944",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059959528138194944/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJZ1MXhaoAAA57e?format=jpg&name=900x900)](http://x.com/i/article/2059959528138194944/VoidAsuka/article/2059963769804214506/media/2059962734901633024)\n\nData Isn't Scarce. Your Imagination Is.\n\n[![](https://pbs.twimg.com/profile_images/1993260124769841152/_faaI2Pb_normal.jpg)](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n[Asuka Zheng![🎀](https://abs.twimg.com/emoji/v2/svg/1f380.svg)](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n[@VoidAsuka](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n·\n\n5h\n\nFollow\n\nClick to Follow VoidAsuka\n\n16\n\n78\n\n[6.6K](http://x.com/i/article/2059959528138194944/VoidAsuka/status/2059963769804214506/analytics)\n\nWe're running out of training data.\n\nNo. We haven't started collecting it.\n\nWhen we talk about data, we picture reasoning, code, audio, image, robotics. Sure, those are real, and they already minted fortunes. But that list isn't the real shape of data. It just marks the current edge of our imagination. The real space runs so much larger that some of the data sitting in it, we can't even picture what shape it will take.\n\nI learned this the hard way, and then I watched it confirm itself everywhere I looked.\n\nI spent a long stretch of my life doing SRE, so I kept circling one question: could a large model replace a human SRE engineer, so we'd stop getting woken up by oncall at midnight? We actually tried. We wrote a paper on it. And once we got deep in, we found the hard part wasn't the model. It was the environment. You almost can't simulate a real SRE incident. So we reached for an idea that felt elegant at the time: train two world models. One plays the K8s expert and generates commands. The other plays the K8s environment itself and generates plausible responses under specific scenarios. Let them spar. Let the model learn to operate inside a world it conjured for itself.\n\nIt didn't work.\n\nWhat stopped us was almost cruelly specific. We couldn't get enough data, and what we did collect came out low quality. We needed the kind of data that captures a real K8s cluster across an entire incident, from the first anomaly to the moment it's fully resolved, and exactly how it responds at every step in between. In the end we fell back to a multi-agent harness, a sophisticated framework running RL on a model with very little data, and the results came out mediocre. But I swear we were almost there. The direction was right. We just missed that one kind of data, and we ran out of time before the submission.\n\nLooking back now, I realize I'd walked straight into the doorway of an entire new world. I was trying to fit the real behavior of a system into a model, and the thing that turned out scarce was end-to-end, long-horizon data. Not a single instant. A complete chain of cause and effect.\n\nThe research of these past one month convinced me that this is happening everywhere at once.\n\nThinking Machines Lab's work on interaction models shook me the most. Everyone this year talks about proactive agents. I tried to fake that proactivity myself, bolting it onto the outside with wearables. Thinking Machines showed me something deeper: give the model the right data, and that capability grows natively from inside it. Interactivity stops being scaffolding you strap to the outside. The model absorbs it. And so silence, interruption, the precise instant the visual world changes, things no dataset ever bothered to record, all turn into data you must train on and can train on.\n\nA more radical direction comes from a paper called Neural Computers (a Meta AI and KAUST team; Jürgen Schmidhuber sits among the authors, which fits, since he first brought the term \"world model\" into machine learning back in 1990). They fold computation, memory, and I/O into a single learned runtime state, then instantiate it as a video model",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2059959528138194944"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -17276,6 +17304,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -24948,19 +24990,75 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
     },
-    "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg": {
+    "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
+        "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
+      "url": "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
+    },
+    "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
+    },
+    "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+    },
+    "https://pbs.twimg.com/media/HJaOmY8W8AI9trx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaOmY8W8AI9trx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaOmY8W8AI9trx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaOmY8W8AI9trx.jpg"
+    },
+    "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -26420,6 +26518,45 @@
       "title": "",
       "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e"
     },
+    "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a"
+    },
+    "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "\"Did you see Turtle Boss yet?\" Tim asked over brunch.\n\n\"I saw it,\" said Katie over a mouthful of hash browns. \"It was so freaking good.\"\n\n\"Good?\" said Sam. \"You actually thought it was good?\"\n\n\"Yeah, it was incredible. Everyone's saying so.\"\n\n\"So you thought it was incredible or everyone",
+      "final_url": "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w1200/2023/09/what-we-like-1.png",
+        "https://vanschneider.com/blog/assets/images/hovs-logo-basic.svg?v=60ed40430f",
+        "https://www.gravatar.com/avatar/669a58b090446eb387817e14aa0c89c9?s=250&d=mm&r=x",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w256h256/2021/01/desk_publication_logo_square2.png",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/wp-content/uploads/2017/04/overload.jpg",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/2023/01/Breaking-the-Algorithm.png",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2023/11/quality_cover-1.jpg",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2023/02/When-our-persona-becomes-our-prison-2.png",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2026/05/sky.jpg",
+        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2026/02/aeth.jpg",
+        "https://vanschneider.com/wp-content/uploads/2021/06/footer-semplice.jpg",
+        "https://vanschneider.com/wp-content/uploads/2021/06/footer-semplice-supply.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Articles Series Colors New Mixtapes Signup Reading Club New Articles Series Colors New Mixtapes Signup Reading Club New How do you know what you like anymore? by Tobias van Schneider Published Sep 27, 2023 \"Did you see Turtle Boss yet?\" Tim asked over brunch. \"I saw it,\" said Katie over a mouthful of hash browns. \"It was so freaking good.\" \"Good?\" said Sam. \"You actually thought it was good?\" \"Yeah, it was incredible. Everyone's saying so.\" \"So you thought it was incredible or everyone did?\" asked Tim. \"Is anyone talking about how the main actor invented that new designer dog breed?\" Sam interjected, waving a fork-full of scrambled eggs. \"It's completely unethical.\" \"What does that have to do with Turtle Boss?\" asked Tim. \"I'm not supporting a movie that supports someone like that.\" \"So you don't support dog breeding, but you'll eat eggs,\" said Katie. \"Are those even cage-free? Don't you know how horrible chicken farms are?\" \"If you're getting on me about eggs, let's talk about the water it takes to farm those potatoes.\" Sam jabbed the fork now toward Katie's plate. The utensil was his pointer, his wand, his weapon. \"What are you, pro-climate change?\" A man sitting in the booth behind them turned around and nodded toward Sam. \"If you're climate-conscious, you should really stop using those plastic forks.\" ❋ We can't enjoy things the way we used to. There's too much baggage, too much information , too much context. In a time when an entire person can be cancelled, it's riskier to get it wrong. What's more, we've made it our personal jobs to inform and monitor the decisions of others. It's impossible to like something now just because we like it. Say you enjoy walking barefoot. Someone's going to tap you on the shoulder and say walking without shoes is bad for your health (citing multiple Instagram influencers who said so). Or you indulge in the occasional pastry. A well-meaning friend will ask, don't you know the dangers of a high-fat diet? You can't even wear your favorite sweater before someone points out the brand is morally problematic. Nothing you enjoy is safe: The director of that movie you love tweeted something questionable in 2008. That publication you read is funded by a corporate monster. That lotion you use every day causes cancer. If their unsolicited advice isn't enough to taint the thing you like, the fear of public ridicule is. Renounce the thing quickly or lose favor among not only your friends, but online strangers too! If you abide by their rules, you'll get confused quickly. What's acceptable or unacceptable may change by the hour. Scroll online for a few minutes and you'll discover a plethora of things that were formerly OKAY have now been stamped BAD. Let the public decide for you and you'll find yourself renouncing everything you enjoy on every level, from those special sweets, to your favorite author, to a city you like to visit, to an entire person or group of people you once appreciated. How do we know what we sincerely like anymore? We live at the mercy and whim of the hordes. Their influence is so strong, we don't even see it. They'll determine the movie we see, how we feel about it while watching, and the opinions we express afterward. They'll influence our personal style. The food we eat and where we get it from. The music we listen to. The books we read and don't read. The accounts we follow online. The type of plants we have in our home. The products we use in the shower. We don't even know if we enjoy these things or we want to enjoy them because everyone else does. We can't have an experience now without their voices in the back of our heads. Is it still possible to enjoy something for what it is? Is it still possible to have a pure, singular experience, untainted by its surrounding context and baggage? The movie may be good or bad, just like they say. The candy can indeed rot your teeth. That company has made questionable decisions about how they run their business. Maybe they're right, maybe",
+      "title": "How do you know what you like anymore?",
+      "url": "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/"
+    },
     "https://varchive.ai/": {
       "cf_fallback_error": "empty result",
       "content_type": "text/html; charset=utf-8",
@@ -27516,6 +27653,21 @@
       "title": "Karpathy's Autoresearch for PMs: Complete Guide",
       "url": "https://www.news.aakashg.com/p/autoresearch-guide-for-pms"
     },
+    "https://www.nikolastype.com/journal/tobias-van-schneider-creates-the-things-he-wish-existed/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Nikolas Type Interview Series: Tobias Van Schneider creates the things he wish existed",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nikolastype.com/journal/tobias-van-schneider-creates-the-things-he-wish-existed/",
+      "frameable": null,
+      "image_urls": [
+        "https://images.prismic.io/nikolas-type/aCM-kCdWJ-7kSA9l_unnamed.jpg?auto=format,compress&rect=0,25,409,463&w=576&h=652"
+      ],
+      "kind": "article",
+      "text_excerpt": "Van Schneider creates the things he wish existed\nWords by: Nikolas Wrobel\n„Do you know him? — this guy is insane\" said a friend to me many years ago, showing me Tobias Van Schneider’s Website. I was a student, freelancing at an agency. The website showed Tobias’ face with his distinctive twisted beard. For myself, I was different from all the other creatives and artists at this particular time in space, often misunderstood and Tobias face reflected the archetype of a person that could be one of the people judging me. But this was just for starters. The guy seemed to have all I ever dreamed of, all that a young ambitious designer wanted, but didn’t got: Big clients. Recognition. Awards, you name it. „No… I don’t know him“ I replied in an overplayed cool tone.\nI was exploding inside and just couldn’t transcend the infinite love, boundless energy and obsession for Graphic Design to the outside world to the extend I desired, and bring things to fruition. I was on fire, hard to tame, constantly working, pushing hard, headwinds many times. On my way home, I looked into him again. My judgement was replaced by respect. His fame and achievements? Deserved. Even more: he created something I needed. A portfolio system, called Semplice, allowing you to present your practice online. Boundless, but without the need to know how to code, without the need to squeeze your personality into a template or a platform. It was all pre social media where your portfolio was quintessential if you wanted to go big. This was my game changer.\nLater down the line, when I created my very first typeface Cosi Times, I wanted to sell it on my portfolio, but how? I asked the Semplice team, to my surprise, Tobias himself answered with first class advice, equipping me with more than required. This was not only a job to him, his care, real. I can describe this as nothing less than the start of what later grew into the Nikolas Type Foundry. But things didn’t ended here. Tobias became a license and frequent user of Nikolas Type too, which you can see when you receive one of his newsletters, called „desk“ of Van Schneider, which is set in Grand Slang B-Side. And now: he keeps doing his thing, his logos are flying to Mars, he creates Motorbikes, he shares knowledge, his thoughts, opinions, journey, he keeps killing it, and founded a new big thing, called „my mind“ an app that is an peaceful escape from the chaos of the internet, something you can describe as an ai powered search bar and extension of your mind. And you know, the next thing is just around the corner for him. Yes. This guy is insane. Ladies and gentlemen, it is my very pleasure to introduce: Tobias Van Schneider.\nTobias, under what conditions do you work best?\nThe creative me enjoys being alone. Completely isolated, nobody even in the other room. It gives me freedom and clarity to think for myself and be myself. My real creative being thrives in these moments, untouched by the opinions and desires of others.\nMy ultimate solitude tends to arrive at midnight. It almost transforms me. The dark brings focus. Silence brings new ideas. No voices interrupt, no chance of emails, just me and my thoughts. It’s this time I feel most creatively alive.\nNow, add a soundtrack to it and I’m in creative heaven (:\nGood typography is the bedrock of good design. In some cases, it is the design.\nWhat are you grateful for?\nThe fact that I’m able to do what I do everyday.\nThe fact that I do what I want everyday.\nI dream it, and then I do it. I realize how rare this is, and how lucky I am to have it. I also recognize the work and time I put in to get to this place, so I’m grateful to my younger self for the patience, hard decisions and risks that got me here.\nWhat’s the best advice you ever received?\n“The best way to complain is to create something” by James Murphy, founder of LCD Soundsystem. It has become one of my guiding principles. It turns useless, negative energy into productive, positive energy.\nHow do you clear your min",
+      "title": "Tobias Van Schneider creates the things he wish existed Tobias Van Schneider creates the things he wish existed",
+      "url": "https://www.nikolastype.com/journal/tobias-van-schneider-creates-the-things-he-wish-existed/"
+    },
     "https://www.nngroup.com/articles/top-articles-2025/?utm_campaign=&utm_source=twitter&utm_medium=social": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -27805,6 +27957,32 @@
       "text_excerpt_zh": "",
       "title": "The Shape of AI | UX Patterns for Artificial Intelligence Design",
       "url": "https://www.shapeof.ai"
+    },
+    "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "An integrated AI tool inside of Figma, with permission to go wild in your canvas. Let’s put it to the test!",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/size/w1200/2026/05/figma_agent_cover.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/04/Shapes-5.svg",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/size/w960/2026/05/figma_agent_cover.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-5.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-4.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-6.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-11.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-12.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-10.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-19.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-21.png",
+        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-15.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Figma Agent: A first look\nThere are plenty of reasons to hate on AI these days. Copyright concerns, absurd power consumption, layoffs, and an endless stream of AI slop should be enough to make anyone want to boycott the whole thing. If it weren’t for the capabilities.\nAnd those capabilities have been creeping toward the design world for quite a while. So when a beta invite to [Figma Agent](https://www.figma.com/blog/the-figma-agent-is-here/?ref=shapes.gg) landed in my inbox, I was genuinely curious. Figma will now take your prompts and generate directly on the canvas. Is this the tipping point for AI in design?\nThe basics\nIf you have beta access, there are two entry points for letting Figma design for you: the first one is through a sidebar, much like other vibe coding tools out there.\nIn addition to this, there is a star icon whenever you select something, letting you fire off prompts directly from there. The jury's still out on whether this icon will be annoying or not 😊\nFirst test: Can it draw?\nLet's start with a basic, yet fundamental skill: can it help out with drawing stuff? I was working on some sketches of a minimal chess piece set, and deliberately left out the pawn for the agent to generate. I selected the five remaining pieces and asked the agent to generate a pawn based on the style.\nUnfortunately, the result was nothing more than a waste of power, credits and patience on my end: A buggy drawing that completely missed the visual qualities of the original set. After dismissing this and adding my homemade pawn, I asked the agent to order them nicely into a chess board. A chore that would actually be nice to offload, but this too failed badly, returning a 3x3 board full of bugs.\nI'm not overly surprised: generative AI seem to struggle to do meaningful work in the realm of icons. There is however some promise in getting vector designs back, opening the door for tweaks and further refinements by a human. But all in all, this first attempt was nowhere near helpful.\nSecond test: Make a slide deck\nAfter the previous round crashed and burned, I figured I should meet the tool halfway. It have probably been trained on a ton of presentation decks, so I asked it to create one for Nest of the North, a fictional Norwegian treehouse business.\nDuring the reasoning, it concludes with \"The reference image shows a theme with earthy tones, clean typographic hierarchy, bold statement slides, and image-forward compositions. This maps perfectly to the Nordic forest aesthetic.\" Sounds promising.\nAfter a few minutes I get my results back, and it is definitely more useful than my first test. Bit generic perhaps, and some minor bugs, but this could be a starting point for further slide design work.\nI'd say it needs a few real images and some premium typefaces that haven't yet been overused, but the layout part isn't too shabby. It's all wrapped in auto layout, which I feel is a little constraining at this stage, but anyway: this feels like an improved version of their First Draft feature, and might actually hold some promise.\nTest 3: Make a signup flow\nA Figma file with a massive design system, providing lots of juicy context for the prompt. That sounds like the perfect environment for this agent to work.\nHere I tasked it to create a signup flow for an old app we worked on. I'd say it worked quite well. It made a decent flow, figured out the inputs and buttons, and generated new icons for the ones it didn't find. One of the existing illustrations found its way in there, which was nice to see, while the rest was generated on the fly (and kinda ruined it, but let's treat them as placeholders).\nIf the goal here is to have an okay starting point, prompt a few different takes, or just make something decent very quickly, then it seems to be up for the task.\nPutting in two of the original screens here for reference:\nTest 4: Make a business card\nIf I provide the logo, can I get a nice business card in return? Apparently not. The logo was recreated as",
+      "title": "Figma Agent: A first look",
+      "url": "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar"
     },
     "https://www.shiori.sh/": {
       "content_type": "text/html; charset=utf-8",
@@ -38881,9 +39059,9 @@
       "https://x.com/SidebarIO/status/2059287957777879481",
       "https://ai-on-the-internet.github.io/?ref=sidebar",
       "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg",
-      "https://x.com/SidebarIO/status/2059676261165764884",
-      "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
+      "https://x.com/SidebarIO/status/2059993607419965888",
+      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
     "2059288101860610525": [
       "https://x.com/ZoharAtkins/status/2059288101860610525",
@@ -38910,9 +39088,9 @@
       "https://x.com/SidebarIO/status/2059323435776401900",
       "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
       "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg",
-      "https://x.com/SidebarIO/status/2059676261165764884",
-      "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
+      "https://x.com/SidebarIO/status/2059993607419965888",
+      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
     "2059326660592255088": [
       "https://x.com/rfgarcia/status/2059326660592255088"
@@ -39036,23 +39214,23 @@
       "https://x.com/Damir_Akaza/status/2059621796052193667",
       "http://x.com/i/article/2059601936723136512",
       "https://x.com/Damir_Akaza/status/2059624330590392344",
-      "https://x.com/Damir_Akaza/status/2059624938718335322",
       "https://x.com/Damir_Akaza/status/2059624163644440948",
-      "https://x.com/Damir_Akaza/status/2059625059463884936",
-      "https://x.com/Damir_Akaza/status/2059624623306661996",
-      "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059624938718335322",
       "https://x.com/Damir_Akaza/status/2059627907320877145",
       "https://x.com/Damir_Akaza/status/2059626475993649232",
-      "https://x.com/Damir_Akaza/status/2059641653506241020",
+      "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059625059463884936",
       "https://x.com/Damir_Akaza/status/2059745850750812347",
+      "https://x.com/Damir_Akaza/status/2059624623306661996",
       "https://x.com/Damir_Akaza/status/2059694034394685537",
+      "https://x.com/Damir_Akaza/status/2059641653506241020",
       "https://x.com/Damir_Akaza/status/2059647769132884182"
     ],
     "2059633888243151228": [
       "https://x.com/brettcalhounn/status/2059633888243151228",
       "http://x.com/i/article/2059633283315490821",
-      "https://x.com/brettcalhounn/status/2059848063892557961",
       "https://x.com/brettcalhounn/status/2059848753901609435",
+      "https://x.com/brettcalhounn/status/2059848063892557961",
       "https://x.com/brettcalhounn/status/2059848395758489726"
     ],
     "2059647271864619029": [
@@ -39092,7 +39270,12 @@
     "2059675518966894767": [
       "https://x.com/IBuzovskyi/status/2059675518966894767",
       "http://x.com/i/article/2059639716417273860",
-      "https://x.com/IBuzovskyi/status/2059748165641998350"
+      "https://x.com/IBuzovskyi/status/2060008192361345132",
+      "https://x.com/IBuzovskyi/status/2059748165641998350",
+      "https://x.com/IBuzovskyi/status/2060001769690681811",
+      "https://x.com/IBuzovskyi/status/2060000299402527153",
+      "https://x.com/IBuzovskyi/status/2059860662658949530",
+      "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg"
     ],
     "2059675701838774352": [
       "https://x.com/simonw/status/2059675701838774352",
@@ -39145,9 +39328,8 @@
     ],
     "2059740940739477523": [
       "https://x.com/nurijanian/status/2059740940739477523",
-      "https://x.com/nurijanian/status/2059805270084317243",
-      "https://x.com/nurijanian/status/2055927283991654775?s=46",
-      "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
+      "https://x.com/nurijanian/status/2059960566631023037",
+      "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
     ],
     "2059746337697247334": [
       "https://x.com/dani_avila7/status/2059746337697247334",
@@ -39164,7 +39346,8 @@
     "2059778248372859100": [
       "https://x.com/joshuamschultz/status/2059778248372859100",
       "http://x.com/i/article/2059773418954727426",
-      "https://x.com/joshuamschultz/status/2059850892883488907"
+      "https://x.com/joshuamschultz/status/2059850892883488907",
+      "https://x.com/joshuamschultz/status/2060031160177058096"
     ],
     "2059799775143424311": [
       "https://x.com/iamai_omni/status/2059799775143424311",
@@ -39182,8 +39365,10 @@
     "2059822738530005439": [
       "https://x.com/calcsam/status/2059822738530005439",
       "http://x.com/i/article/2059808126468243457",
+      "https://x.com/calcsam/status/2060027332124152205",
+      "https://x.com/calcsam/status/2060028613781762500",
       "https://x.com/calcsam/status/2059854175966797870",
-      "https://x.com/calcsam/status/2059727054158037376"
+      "https://x.com/calcsam/status/2060027654380884320"
     ],
     "2059844244907696186": [
       "https://x.com/addyosmani/status/2059844244907696186",
@@ -39191,12 +39376,51 @@
       "https://x.com/addyosmani/status/2059869304494137808",
       "https://github.com/addyosmani/agent-skills",
       "https://x.com/addyosmani/status/2059886882771882359",
-      "https://x.com/addyosmani/status/2059884020612378875",
       "https://x.com/addyosmani/status/2059862236504719671",
+      "https://x.com/addyosmani/status/2059884020612378875",
       "https://x.com/addyosmani/status/2059861806450200985",
-      "https://x.com/addyosmani/status/2059882269138104739"
+      "https://x.com/addyosmani/status/2059882269138104739",
+      "https://x.com/addyosmani/status/2060032064364372151",
+      "https://x.com/addyosmani/status/2060032027563606182"
+    ],
+    "2059939941530980672": [
+      "https://x.com/zknmoe/status/2059939941530980672",
+      "https://x.com/zknmoe/status/2060009841486172638",
+      "https://x.com/zknmoe/status/2060010918948302898"
+    ],
+    "2059963769804214506": [
+      "https://x.com/VoidAsuka/status/2059963769804214506",
+      "http://x.com/i/article/2059959528138194944"
+    ],
+    "2059965702543712397": [
+      "https://x.com/menhguin/status/2059965702543712397"
+    ],
+    "2059982444703727721": [
+      "https://x.com/alextang/status/2059982444703727721",
+      "http://x.com/i/article/2059927958916300800"
+    ],
+    "2059993607419965888": [
+      "https://x.com/SidebarIO/status/2059993607419965888",
+      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
+      "https://x.com/SidebarIO/status/2060038649895367019",
+      "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+      "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+    ],
+    "2059996110584762439": [
+      "https://x.com/nikunj/status/2059996110584762439",
+      "https://x.com/nikunj/status/2060012024227303867"
+    ],
+    "2060033046330351708": [
+      "https://x.com/vanschneider/status/2060033046330351708",
+      "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
+      "https://x.com/vanschneider/status/2060033048859599190",
+      "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
+      "https://x.com/vanschneider/status/2059992174427529348",
+      "https://www.nikolastype.com/journal/tobias-van-schneider-creates-the-things-he-wish-existed/",
+      "https://pbs.twimg.com/media/HJaOmY8W8AI9trx.jpg"
     ]
   },
-  "updated_at": "2026-05-28T12:45:29Z",
+  "updated_at": "2026-05-28T17:02:47Z",
   "window": "recent"
 }
