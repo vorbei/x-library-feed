@@ -4182,6 +4182,19 @@
       "title": "",
       "url": "http://x.com/i/article/2059344894221799424"
     },
+    "http://x.com/i/article/2059601936723136512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059601936723136512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059601936723136512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJUtbrNWUAIn9Vk?format=jpg&name=900x900)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059602358070300674)\n\nHow to Find Business Ideas by Reading What People Already Want. AI Agent Does It Overnight. \n\n[![](https://pbs.twimg.com/profile_images/2055576554181189632/xdwM1Cbe_normal.jpg)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[damir akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[@Damir\\_Akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n·\n\n15h\n\nFollow\n\nClick to Follow Damir\\_Akaza\n\n12\n\n6\n\n82\n\n[2.8K](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/status/2059621796052193667/analytics)\n\n## \n\n$5 per run. The AI agent reads 1,500 of other people's needs overnight. By morning - a report with 10 validated business ideas. Save this :) Code inside.\n\nMost people invent business ideas like this: they sit, think, \"huh, would be cool to build X,\" build X, then nobody buys. Six months later they shut it down.But business ideas already exist. They're just not in your head. They're on Reddit, on forums, in the comments under your competitors' videos. Every day thousands of people post about their needs, wishes, and frustrations to anonymous strangers. Someone complains that tool Y is too expensive. Someone dreams \"if only Z existed.\" Someone describes a process that eats up three hours of their week - and nobody picked up on it. This is gold. But reading tens of thousands of posts manually is impossible.\n\nAn agent can. This article - how to build one, with working code. Where to point the agent (which niche, which audience) - that's on you. This is the core logic.\n\nWhat this agent actually does Four things:\n\n* Collects posts from forums you pick (Reddit, Hacker News, specialized boards - wherever)\n* Extracts specific needs, wishes, and problems from each post\n* Groups similar needs together (different people describe the same need in different words — without grouping you'd never see this)\n* Scores each group as a potential business opportunity: is this a real need, do people care enough, would they pay\n\nThe output - a report with the top 10 clusters. For each: the need in one line, how many people wrote about it, who it affects, whether similar solutions already exist, why they don't fully close the need, and a product direction that could win.\n\n[![Image](https://pbs.twimg.com/media/HJUxXi_WsAQ2uxu?format=jpg&name=small)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059606685191155716)\n\n## \n\nThe problem this solves\n\nSay you want to launch a small product or service. You need an idea - not from thin air, but one where demand already exists.\n\nThe usual ways to find an idea don't work:\n\n* \"Think harder\" - you're a product of your bubble, not the market\n* \"Ask your friends\" - friends aren't representative and will support you out of politeness\n* \"Look at what's trending\" - everyone's already fighting there and competition will crush you\n* \"Read venture reports\" - those describe what others already did, but you need what nobody's done yet\n\nWhat works: go where real people post about their real needs, wishes, and pains. That's forums where people hide behind nicknames and write honestly, without performance, because they want to vent or get advice.\n\nThe problem with this method: there are too many posts. Thousands a day in one large subreddit. Reading all of them - impossible. Reading selectively - you miss the patterns.\n\n## \n\nWhat you can point it at\n\nThis isn't a narrow tool. It works for almost anyone who needs information about what real people want.\n\nSolo dev looking for a SaaS idea. Points the agent at subreddits like r/Entrepreneur, r/SmallBusiness, r/freelance, r/Solopreneur. In the morning gets a list o",
+      "title": "",
+      "url": "http://x.com/i/article/2059601936723136512"
+    },
     "http://x.com/i/article/2059619783151374336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4245,6 +4258,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059652660022910976"
+    },
+    "http://x.com/i/article/2059732424905666560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059732424905666560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059732424905666560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJWk1-xXsAMkynY?format=jpg&name=900x900)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059733651881963523)\n\nHow we rolled out Claude Code Auto Mode across our Engineering Team\n\n[![](https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_normal.jpg)](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n[Daniel San](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n[@dani\\_avila7](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n·\n\n7h\n\nFollow\n\nClick to Follow dani\\_avila7\n\n1\n\n6\n\n51\n\n[9.6K](http://x.com/i/article/2059732424905666560/dani%5Favila7/status/2059746337697247334/analytics)\n\nAt Hedgineer we'd been testing Claude Code Auto Mode independently for a while. Each engineer configuring their own rules, their own overrides.\n\nAfter several iterations we centralized everything into a single managed-settings.json that pushes the policy to the entire team on startup.\n\nHere's what we shipped and what the data said.\n\n## \n\nDesigning the policy\n\nA good policy isn't a brainstorm. We designed ours from four inputs: infrastructure, projects, code patterns, and OpenTelemetry data.\n\nThe OTEL data was the most important. It told us exactly what the team was doing that the classifier didn't yet trust.\n\n[![Image](https://pbs.twimg.com/media/HJWuK3ZWYAEcOig?format=jpg&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059743906284068865)\n\nWe distributed the policy through server-managed settings. Admins push once, every developer gets it on next startup.\n\nThree CLI commands let anyone inspect what's active on their machine.\n\n[![Image](https://pbs.twimg.com/media/HJWuagiWcAA02JK?format=png&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059744175025713152)\n\n## \n\nWhat the telemetry said\n\nWe've been collecting OpenTelemetry data for months, navigating usage patterns between our team and Claude Code.\n\nThat let us measure the before vs. after clearly.\n\n* Auto-approval: 82% to 95%\n* Engineers stopped creating \"always allow\" rules, those dropped 89%\n* The classifier handled 21,000 more tool decisions without the team growing\n\n[![Image](https://pbs.twimg.com/media/HJWvZWhW8AQkht7?format=png&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059745254668955652)\n\nSettings without observability are guesses, observability without a policy to validate is noise, the interesting part is putting them in the same loop.\n\nFull writeup with the policy template and what we're changing next: \n\n<https://www.hedgineer.io/content/auto-mode-enterprise/>\n\n* [![](https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_normal.jpg)](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \n[Daniel San](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \n[@dani\\_avila7](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \nFollow  \nClick to Follow dani\\_avila7  \nHead of AI at [http://hedgineer.io](https://t.co/3TemmA7EdE) | Building Claude Code SubAgents, Skills & Hooks | OSS project [http://aitmpl.com](https://t.co/pEjytZiAFd) | Powered by TS, Python & Vanilla Lattes ![☕️](https://abs.twimg.com/emoji/v2/svg/2615.svg)",
+      "title": "",
+      "url": "http://x.com/i/article/2059732424905666560"
+    },
+    "http://x.com/i/article/2059808126468243457": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059808126468243457",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059808126468243457/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJX0JNjaUAA0ZDY?format=jpg&name=900x900)](http://x.com/i/article/2059808126468243457/calcsam/article/2059822738530005439/media/2059820843686055936)\n\nThe Rise of Multi-User, Multi-Channel Agents\n\n[![](https://pbs.twimg.com/profile_images/1609808333896310787/hwNl8YrT_normal.jpg)](http://x.com/i/article/2059808126468243457/calcsam)\n\n[Sam Bhagwat![](https://pbs.twimg.com/profile_images/2010770369897271296/o4rz23Gd_bigger.jpg)](http://x.com/i/article/2059808126468243457/calcsam)\n\n[@calcsam](http://x.com/i/article/2059808126468243457/calcsam)\n\n·\n\n2h\n\nFollow\n\nClick to Follow calcsam\n\n1\n\n6\n\n30\n\n[2.7K](http://x.com/i/article/2059808126468243457/calcsam/status/2059822738530005439/analytics)\n\nAn agent in 2025 was single-player: it lived in a browser, your local CLI or code editor.\n\nAgents today are multi-player: built for Slack, Discord, etc. \n\nAgents are evolving from assistants into coworkers. \n\nSo: what changes when an agent stops talking to one user 1:1 in web chat and starts talking to a room full of users, all of whom can type at once?\n\nIt turns out, a lot. \n\nWe recently shipped channels — a new option on Mastra agents that connects them directly to platforms like Slack, Discord, and Telegram.\n\nAlong the way, we touched concurrency, attribution, permissions, memory scoping, tool approval, sandbox isolation. Every layer of the stack needed a re-think for the multi-user case.\n\nWe'll walk through Slack as the example here, but each Slack-specific detail has an analog on Discord, Telegram, and the other supported platforms.\n\n## \n\nGetting started: connecting your agents to Slack\n\nOn the surface, the Mastra API you use to create an agent that can read/write from Slack is simple.\n\ntypescript\n\n```typescript\nconst agent = new Agent({\n  name: 'helper',\n  model: 'openai/gpt-5-mini',\n  channels: {\n    adapters: {\n      slack: slackAdapter,\n    },\n  },\n});\n```\n\nUnder the hood, there’s a lot.\n\nWe started with Vercel's chat SDK adapters, primarily because they normalize data shape coming from each source and provides a unified set of handlers: onDirectMessage, onNewMention, onSubscribedMessage, onAction for button clicks and onReaction for emoji.\n\nWhile the chat SDK handles parsing and messaging messaging shares, Mastra owns everything that gets you a working botToken and keeps you there. Again, for Slack (with equivalents on other platforms):\n\n* OAuth + programmatic app creation. SlackManifestClient calls Slack's Apps Configuration API (refresh-token-based) to create the app, set scopes, and register event subscriptions.\n* Request signature verification. HMAC-SHA256 with a 5-minute replay window, run before events reach the adapter.\n* Webhook routes. /slack/events/:webhookId, /slack/oauth/callback, /slack/connect, etc— surfaced via provider.getRoutes() and merged into Mastra's apiRoutes.\n* Credential storage + encryption. ChannelInstallation records in ChannelsStorage. AES + HKDF. Every credential is encrypted at rest.\n* Token rotation. Slack rotates config tokens; onTokenRotation fires; Mastra re-encrypts and re-persists.\n* Multi-tenant adapter lifecycle. SlackProvider keeps a Map<installationId, SlackAdapter>, restoring and re-registering on startup via \\_\\_registerAdapter(..., { managesRoutes: true }).\n\nFor what it’s worth, the wire protocol is uniform across platforms; but their auth model is wildly different. Slack uses HMAC + manifest API. Discord uses interactions endpoints. Telegram uses long-polling. Teams uses OAuth + bot framework.\n\n## \n\nManaging perms / memory\n\nAgents in your CLI are single-tenant. Agents in your Slack are multi-tenant.\n\nThe same agent is now talking to multiple users in DMs, channels, and threads concurrently — different identities, different access boundaries, different conversation histories. We have a two-tiered approach:\n\nThreads",
+      "title": "",
+      "url": "http://x.com/i/article/2059808126468243457"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -12521,32 +12560,6 @@
       "title": "mapcn - Beautiful maps made simple",
       "url": "https://mapcn.vercel.app/"
     },
-    "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "A practical walkthrough of computational sensors on the path to production, with a deep dive on ESLint and static analysis as feedback for coding agents.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
-      "frameable": false,
-      "image_urls": [
-        "https://martinfowler.com/articles/sensors-for-coding-agents/card.png",
-        "https://martinfowler.com/mf-name-white.png",
-        "https://martinfowler.com/articles/exploring-gen-ai/bb.jpg",
-        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-example-application.png",
-        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-example-overview.png",
-        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-structure-chativity.png",
-        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-coupling-dashboards.png",
-        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-mutation-example.png",
-        "https://martinfowler.com/thoughtworks_white.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Maintainability sensors for coding agents\nIn a [recent article about harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html), I laid out a mental model for expanding a coding agent harness: a system of guides and sensors that increase the probability of good agent outputs and enable self-correction before issues reach human eyes. This article is a more practical follow-up where I walk through my experience with using sensors that help keep the codebase maintainable.\n27 May 2026\nThere are multiple dimensions we usually want to achieve and monitor in our codebases: Functional correctness (works as intended), [architectural fitness](https://www.thoughtworks.com/insights/decoder/f/fitness-functions) (is fast/secure/usable enough), and maintainability. I define maintainability here as making it easy and low risk to change the codebase over time - [also known as “internal quality”](https://martinfowler.com/articles/is-quality-worth-cost.html). So I don't only want to be able to make changes quickly today, but also in the future. And I don't want to worry about introducing bugs or degradation of fitness every time I make a change - or have AI make a change. I usually see the first signs of cracks in the maintainability of an AI-generated codebase when the number of files changed for a small adjustment increases. Or when changes start breaking things that used to work.\nInternal quality problems affect AI agents in similar ways that they affect human developers. An agent working in a tangled codebase might look in the wrong place for an existing implementation, create inconsistencies because it has not noticed a duplicate, or be forced to load more context than a task should require.\nIn this article, I describe my experimentation with various sensors that help us and AI reflect on the maintainability of a codebase, and what I learned from that.\nThe application\nI'm working on an internal analytics dashboard for community managers that reads chat space activity, engagement, and demographic data from a combination of APIs and presents the data in a web frontend.\nFigure 1: The example app: web UI, service layer, and external APIs.\nThe tech stack is a TypeScript, NextJS, and React. The backend reads and joins data from the APIs. The application has been around for a while, but for the sake of these experiments I rebuilt it with AI from scratch.\nThere are hardly any guides (e.g. markdown files) for AI about code quality and maintainability present, I wanted to see how well it can do just by relying on sensor feedback.\nOverview of all sensors used\nFigure 2: Where sensors can run: during the initial coding session, in the pipeline, on a schedule, and in production.\nThis is an overview of the sensors I set up across the path to production.\nDuring coding session\nSensors that run continuously alongside the agent to provide fast feedback.\n- Type checker (computational)\n- ESLint (computational)\n- Semgrep, SAST tool prescribed by our internal AppSec team (computational)\n- dependency-cruiser, runs structural rules to check internal module dependencies (computational)\n- Test suite results including test coverage (computational - though the test suite is generated by AI, therefore created in an inferential way)\n- Incremental mutation testing (computational)\n- GitLeaks runs as part of the pre-commit hook, I consider it to be a sensor as well, as it will give the agent feedback when it tries to commit (computational)\nAfter integration - pipeline\nThe same computational sensors run again in CI. The in-session sensors give the agent early feedback during development. The CI pipeline confirms the result on clean infrastructure and after integration.\nRepeatedly\nSensors that run on a slower cadence to detect drift that accumulates over time, rather than errors that occur in the moment.\n- A security review, prompt derived from our AppSec checklist for internal applications (inferential)\n- A data handling review, p",
-      "text_excerpt_zh": "# 编码代理的可维护性传感器\n\n在[最近一篇关于编码代理用户使用的\"缰绳工程\"文章](https://martinfowler.com/articles/harness-engineering.html)中，我提出了一个扩展编码代理缰绳的心智模型：一个由引导和传感器组成的系统，用于提高代理输出的质量概率，并在问题暴露给人类之前实现自我修正。本文是一个更实用的后续，我将分享使用传感器来帮助保持代码库可维护性的经验。\n\n2026年5月27日\n\n我们在代码库中通常希望实现和监控多个维度：功能正确性（按预期工作）、[架构适应性](https://www.thoughtworks.com/insights/decoder/f/fitness-functions)（足够快速/安全/可用）以及可维护性。我在这里将可维护性定义为使代码库随时间推移易于变更且风险较低——[也称为\"内部质量\"](https://martinfowler.com/articles/is-quality-worth-cost.html)。因此，我不仅希望今天能快速进行更改，也希望未来能如此。而且我不希望在每次更改——或让AI进行更改时——担心引入错误或降低适应性。我通常看到AI生成的代码库可维护性出现裂痕的第一个迹象是，当进行小幅调整时需要更改的文件数量增加时。或者当更改开始破坏原本正常工作的功能时。\n\n内部质量问题对AI代理的影响与对人类开发者的影响类似。在混乱的代码库中工作的代理可能会在错误的位置查找现有实现，因为未注意到重复而创建不一致，或者被迫加载比任务所需更多的上下文。\n\n在本文中，我描述了对各种传感器的实验，这些传感器帮助我们和AI反思代码库的可维护性，以及我从中学到的经验。\n\n## 应用程序\n\n我正在开发一个面向社区管理员的内部分析仪表板，它从多个API读取聊天空间活动、参与度和人口统计数据，并在Web前端呈现数据。\n\n图1：示例应用：Web UI、服务层和外部API。\n\n技术栈是TypeScript、NextJS和React。后端读取并连接来自API的数据。该应用程序已经存在一段时间，但为了这些实验，我使用AI从头重建了它。\n\n几乎没有关于代码质量和可维护性的引导（例如markdown文件）提供给AI，我想看看仅依靠传感器反馈它能做到多好。\n\n## 所有传感器概览\n\n图2：传感器运行位置：在初始编码会话期间、在流水线中、按计划运行以及在生产环境中。\n\n以下是我在通往生产环境的路径上设置的传感器概览。\n\n### 编码会话期间\n\n与代理持续并行运行以提供快速反馈的传感器。\n\n- 类型检查器（计算型）\n- ESLint（计算型）\n- Semgrep，由我们内部AppSec团队规定的SAST工具（计算型）\n- dependency-cruiser，运行结构规则以检查内部模块依赖关系（计算型）\n- 测试套件结果，包括测试覆盖率（计算型——尽管测试套件由AI生成，因此是以推理方式创建的）\n- 增量变异测试（计算型）\n- GitLeaks作为预提交钩子的一部分运行，我认为它也是一个传感器，因为当代理尝试提交时它会提供反馈（计算型）\n\n### 集成后——流水线\n\n相同的计算型传感器在CI中再次运行。会话内传感器在开发期间为代理提供早期反馈。CI流水线在干净的基础设施上确认结果，并在集成后确认。\n\n### 重复运行\n\n以较慢节奏运行的传感器，用于检测随时间累积的漂移，而非即时发生的错误。\n\n- 安全审查，提示来自我们内部应用程序的AppSec检查清单（推理型）\n- 数据处理审查，提",
-      "text_excerpt_zh_hash": "c895c3c47377df7d",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Maintainability sensors for coding agents",
-      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor"
-    },
     "https://martinfowler.com/articles/structured-prompt-driven/": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -16999,19 +17012,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2059696516349202433/img/yH4r99Th6kYcM948.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059696516349202433/img/yH4r99Th6kYcM948.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2059696516349202433/img/yH4r99Th6kYcM948.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2059696516349202433/img/yH4r99Th6kYcM948.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -24643,20 +24670,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
     },
-    "https://pbs.twimg.com/media/HJW5I3paQAABq1G.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJW5I3paQAABq1G.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJW5I3paQAABq1G.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJW5I3paQAABq1G.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -27997,6 +28010,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=CEvIs9y1uog"
+    },
+    "https://www.youtube.com/watch?v=CwePo4847ho": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=CwePo4847ho",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=CwePo4847ho"
     },
     "https://www.youtube.com/watch?v=SlGRN8jh2RI": {
       "content_type": "text/html; charset=utf-8",
@@ -38507,9 +38533,9 @@
       "https://x.com/de1lymoon/status/2059275498660757727",
       "http://x.com/i/article/2057540499217731584",
       "https://x.com/de1lymoon/status/2059275968468992475",
+      "https://x.com/de1lymoon/status/2059282559125639238",
       "https://x.com/de1lymoon/status/2059566346929602615",
-      "https://x.com/de1lymoon/status/2059279768512549300",
-      "https://x.com/de1lymoon/status/2059282559125639238"
+      "https://x.com/de1lymoon/status/2059279768512549300"
     ],
     "2059287957777879481": [
       "https://x.com/SidebarIO/status/2059287957777879481",
@@ -38576,20 +38602,20 @@
       "https://pbs.twimg.com/amplify_video_thumb/2059359192331264000/img/ZnXklTzvC5j2GrT5.jpg",
       "https://x.com/anvisha/status/2059595526476054972",
       "https://x.com/anvisha/status/2059460382998024563",
+      "https://x.com/anvisha/status/2059808747145379983",
+      "https://x.com/anvisha/status/2059808514491469901",
       "https://x.com/anvisha/status/2059627625564209161",
       "https://x.com/anvisha/status/2059449631382077707",
       "https://x.com/anvisha/status/2059449119467278630",
       "https://x.com/anvisha/status/2059416137155100851",
       "https://x.com/anvisha/status/2059743539680952446",
       "https://x.com/anvisha/status/2059653920914293012",
-      "https://x.com/anvisha/status/2059595345714184632",
       "https://x.com/anvisha/status/2059449246223405157",
-      "https://x.com/anvisha/status/2059743253126111690",
-      "https://x.com/anvisha/status/2059743341688844307",
-      "https://x.com/anvisha/status/2059412685578457105",
-      "https://x.com/anvisha/status/2059461136945160507",
       "https://x.com/anvisha/status/2059375658447389052",
-      "https://x.com/anvisha/status/2059744546330644877"
+      "https://x.com/anvisha/status/2059743253126111690",
+      "https://x.com/anvisha/status/2059412685578457105",
+      "https://x.com/anvisha/status/2059743341688844307",
+      "https://x.com/anvisha/status/2059461136945160507"
     ],
     "2059357818709524740": [
       "https://x.com/LifeOfShandi/status/2059357818709524740",
@@ -38611,9 +38637,7 @@
       "http://x.com/i/article/2059312804893708288",
       "https://x.com/pbakaus/status/2059706288318337115",
       "https://x.com/pbakaus/status/2059654414370283691",
-      "https://x.com/pbakaus/status/2059653228636323986",
-      "https://x.com/pbakaus/status/2059756691982524807",
-      "https://pbs.twimg.com/media/HJW5I3paQAABq1G.jpg"
+      "https://x.com/pbakaus/status/2059653228636323986"
     ],
     "2059400201211924961": [
       "https://x.com/vasuman/status/2059400201211924961"
@@ -38640,13 +38664,13 @@
       "https://x.com/Av1dlive/status/2059566526156681584",
       "https://claude.com/blog/the-founders-playbook",
       "https://x.com/Av1dlive/status/2059566719488954599",
-      "https://x.com/Av1dlive/status/2059587680946778125",
       "https://x.com/Av1dlive/status/2059569446633787527",
+      "https://x.com/Av1dlive/status/2059587680946778125",
       "https://x.com/Av1dlive/status/2059569389360541975",
       "https://x.com/Av1dlive/status/2059600844862214552",
       "https://x.com/Av1dlive/status/2059566437686296792",
-      "https://x.com/Av1dlive/status/2059566592464392212",
-      "https://x.com/Av1dlive/status/2059643800834932768"
+      "https://x.com/Av1dlive/status/2059643800834932768",
+      "https://x.com/Av1dlive/status/2059566592464392212"
     ],
     "2059607483929211270": [
       "https://x.com/pushmeet/status/2059607483929211270",
@@ -38661,11 +38685,27 @@
       "https://x.com/0xJeff/status/2059621018633977908",
       "http://x.com/i/article/2059619783151374336"
     ],
+    "2059621796052193667": [
+      "https://x.com/Damir_Akaza/status/2059621796052193667",
+      "http://x.com/i/article/2059601936723136512",
+      "https://x.com/Damir_Akaza/status/2059624330590392344",
+      "https://x.com/Damir_Akaza/status/2059624938718335322",
+      "https://x.com/Damir_Akaza/status/2059625059463884936",
+      "https://x.com/Damir_Akaza/status/2059624623306661996",
+      "https://x.com/Damir_Akaza/status/2059624163644440948",
+      "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059627907320877145",
+      "https://x.com/Damir_Akaza/status/2059626475993649232",
+      "https://x.com/Damir_Akaza/status/2059641653506241020",
+      "https://x.com/Damir_Akaza/status/2059745850750812347",
+      "https://x.com/Damir_Akaza/status/2059694034394685537",
+      "https://x.com/Damir_Akaza/status/2059647769132884182"
+    ],
     "2059647271864619029": [
       "https://x.com/martinfowler/status/2059647271864619029",
       "https://martinfowler.com/articles/vibesec-reckoning.html",
-      "https://x.com/martinfowler/status/2059652825362100411",
-      "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor"
+      "https://x.com/martinfowler/status/2059722824151949603",
+      "https://martinfowler.com/fragments/2026-05-27.html"
     ],
     "2059653716568158316": [
       "https://x.com/oliviakoshy/status/2059653716568158316",
@@ -38683,6 +38723,12 @@
     "2059669384268755295": [
       "https://x.com/Voxyz_ai/status/2059669384268755295"
     ],
+    "2059673247080394901": [
+      "https://x.com/rohit4verse/status/2059673247080394901",
+      "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg",
+      "https://x.com/rohit4verse/status/2059673379070955711",
+      "https://www.youtube.com/watch?v=CwePo4847ho"
+    ],
     "2059675518966894767": [
       "https://x.com/IBuzovskyi/status/2059675518966894767",
       "http://x.com/i/article/2059639716417273860",
@@ -38691,6 +38737,7 @@
     "2059675701838774352": [
       "https://x.com/simonw/status/2059675701838774352",
       "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "https://x.com/simonw/status/2059794368228458949",
       "https://x.com/simonw/status/2059680766528012506"
     ],
     "2059688796728267261": [
@@ -38701,12 +38748,34 @@
       "https://x.com/martinfowler/status/2059722824151949603",
       "https://martinfowler.com/fragments/2026-05-27.html"
     ],
+    "2059746337697247334": [
+      "https://x.com/dani_avila7/status/2059746337697247334",
+      "http://x.com/i/article/2059732424905666560"
+    ],
     "2059753008297394245": [
       "https://x.com/kylejeong/status/2059753008297394245",
-      "https://x.com/kylejeong/status/2059697487087370380",
-      "https://pbs.twimg.com/amplify_video_thumb/2059696516349202433/img/yH4r99Th6kYcM948.jpg"
+      "https://x.com/kylejeong/status/2059814400442446282"
+    ],
+    "2059776916484206755": [
+      "https://x.com/Zephyr_hg/status/2059776916484206755",
+      "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
+    ],
+    "2059799775143424311": [
+      "https://x.com/iamai_omni/status/2059799775143424311",
+      "https://blog.janestreet.com/using-group-theory-to-explore-positional-encodings-attention/"
+    ],
+    "2059821390728204594": [
+      "https://x.com/soleio/status/2059821390728204594",
+      "https://x.com/soleio/status/2051074549396144416?s=20",
+      "https://x.com/soleio/status/2059784660209762744"
+    ],
+    "2059822738530005439": [
+      "https://x.com/calcsam/status/2059822738530005439",
+      "http://x.com/i/article/2059808126468243457",
+      "https://x.com/calcsam/status/2059854175966797870",
+      "https://x.com/calcsam/status/2059727054158037376"
     ]
   },
-  "updated_at": "2026-05-28T00:14:22Z",
+  "updated_at": "2026-05-28T04:42:35Z",
   "window": "recent"
 }
