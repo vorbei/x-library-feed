@@ -4198,6 +4198,19 @@
       "title": "",
       "url": "http://x.com/i/article/2059344894221799424"
     },
+    "http://x.com/i/article/2059551448959168512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059551448959168512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059551448959168512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVxrdkbEAA46_J?format=jpg&name=900x900)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059677396077580288)\n\nHow One AI Agent Replaces Your Entire Lead Gen Stack\n\n[![](https://pbs.twimg.com/profile_images/2032185394473955329/sT3lY5XL_normal.jpg)](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[Michel Lieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[@MichLieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n·\n\n19h\n\nFollow\n\nClick to Follow MichLieben\n\n2\n\n26\n\n[4K](http://x.com/i/article/2059551448959168512/MichLieben/status/2059680817560088590/analytics)\n\nOpen your outbound workflow right now. Count the tools.\n\nA lead-list tool, an enrichment tool, a verification tool, a CRM, a sequencing platform, a deliverability monitor, a meeting scheduler, an analytics dashboard, and a spreadsheet stitching half of them together. Maybe more. You probably pay for ten subscriptions to do what is, in the end, one job: figure out who to talk to, find a way to reach them, and start a conversation.\n\nThat whole stack is about to live in one place: a Slack channel. The chat tool your team already opens 50 times a day becomes the only interface you need. You message a request, the agent does the work, picks the verticals, scrapes the data, validates the emails, drafts the sequences, launches the campaigns, and pings you when it's done. It runs overnight while you sleep.\n\nI just sat down for an hour with Brandon Charleson, who runs Top of Funnel, and watched him do exactly this from scratch on a live call. No paid enrichment tools, no prebuilt list, no spreadsheet sitting on his desktop. A few Slack messages to his agent named Mo, and 45 verified leads sitting in a queued, sequenced, live campaign by the end of the demo.\n\nThis article walks through what I saw, what's actually happening under the hood, and the layer most people skip past when they hear about it.\n\n# \n\nWhat you've been doing is about to feel like email triage in 2009\n\nThe outbound workflow most teams run today is the same shape it had five years ago. You open Clay, build a table, and run enrichment columns. Export the result to CSV. Re-upload into Smartlead or Instantly. Switch to a doc to write copy, switch to another tab to QA, pull up a third to check deliverability. Something breaks somewhere, you fix it, you re-run.\n\nThese tools aren't the problem. The friction comes from the human being the integration layer between platforms that don't talk to each other natively. You spend eight hours a week stitching outputs together by hand, doing the same shape of work over and over.\n\nWhatever you ran last week, you're running again next week, with the same manual stitching in between.\n\nAt ColdIQ we've built and run outbound systems for 400+ B2B companies and crossed $7M ARR doing it. I've watched my team and our clients do this manual stitching work for years. Nobody on the team enjoys it, which makes it the first thing AI is going to absorb completely.\n\n[![Image](https://pbs.twimg.com/media/HJT_tcXakAAYJID?format=png&name=small)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059552085788758016)\n\nNine lead-gen tools collapsing into one Slack channel\n\n# \n\nThe shift: agents that live where your team already does\n\nBrandon's agent, Mo, lives in his Slack workspace. Not bolted into a new app or a separate dashboard, just another colleague in the channel list. You DM Mo from your phone in line at the coffee shop, from your laptop at midnight, or from your watch on a run.\n\nMost people hear \"AI agent\" and picture a chatbot sitting inside a new SaaS tool, one more tab to open. What Brandon's running is closer to an employee who happens to be software, sitting in the channels you already use, with acc",
+      "title": "",
+      "url": "http://x.com/i/article/2059551448959168512"
+    },
     "http://x.com/i/article/2059601936723136512": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4213,6 +4226,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059601936723136512"
+    },
+    "http://x.com/i/article/2059619573599739904": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059619573599739904",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059619573599739904/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVxnl0bEAINPlL?format=jpg&name=900x900)](http://x.com/i/article/2059619573599739904/itsalexvacca/article/2059679849447649748/media/2059677329572696066)\n\nHow to Make Your First $1M With AI in 2026: The Full Playbook\n\n[![](https://pbs.twimg.com/profile_images/1909705035052990467/pnfX3LA__normal.jpg)](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n[Alex Vacca](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n[@itsalexvacca](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n·\n\n19h\n\nFollow\n\nClick to Follow itsalexvacca\n\n3\n\n62\n\n[27K](http://x.com/i/article/2059619573599739904/itsalexvacca/status/2059679849447649748/analytics)\n\nThe next three years will create more millionaires than the internet did in two decades. And 90% of the people watching it happen will completely miss it.\n\nNot because they lack access to the tools. Everyone has access now. \n\nThey'll miss it because they're going to chase every shiny AI thing they see instead of picking one direction and dominating it. They'll bounce between crypto bots, automation agencies, content monetization, AI image businesses, and consulting until they wake up in 2028 and wonder where the window went.\n\nThis article is about the actual path. The version nobody on X is selling because it's not viral. The version that's worked for the 257 people my team and I have mentored through this exact transition over the last six months. The ones making money aren't smarter, faster, or more technical. They just understood three things the other 90% never figure out, and they ran straight into the GTM lane while everyone else was busy reinventing the wheel.\n\n# \n\nWhy this AI window is shorter than every other tech wave\n\nEvery major technology has a window where early operators capture insane advantages. After that window closes, you're competing on price.\n\n[![Image](https://pbs.twimg.com/media/HJU9p-9agAAiFqx?format=png&name=small)](http://x.com/i/article/2059619573599739904/itsalexvacca/article/2059679849447649748/media/2059620196076388352)\n\nYears to 50% Adoption: The AI Window Is the Shortest Ever\n\nThe telegraph took 56 years to hit 50% adoption. The internet did it in 7, smartphones in 5\\. AI is on track to hit 50% in 3 years, and we're already at 88% of businesses using it in some form. The gap right now is between adoption and execution. Most companies have ChatGPT subscriptions and zero idea how to turn that into pipeline, operational leverage, or revenue. That gap is the entire opportunity, and it's closing fast.\n\nWe built ColdIQ to \n\n[$7M+](https://x.com/search?q=%247M%2B&src=cashtag%5Fclick)\n\n ARR in under three years on the back of this exact GTM gap. We saw what AI could collapse in cold outreach before most agencies caught on, and we stayed focused while the market was sprinting in five directions. The companies that hesitated are now competing for the leftovers.\n\nLook at every previous wave. Ecommerce had a window from 1995 to 2005\\. Mobile from 2007 to 2014\\. Facebook organic reach went from nearly 100% to under 1% by 2018\\. The people who weren't in early missed the entire opportunity, not a small slice of it. In 12 to 18 months, the AI GTM playbooks are going to be public, the prices will compress, and the race to the bottom will start. Right now there's still oxygen in the room.\n\n# \n\nThe trap that catches 90% of people\n\nEvery week there's a new AI tool, a new automation, a new business model. The noise is constant and it's not slowing down. The trap is mistaking \"keeping up\" for \"making progress.\"\n\nPeople feel productive while watching tutorials, testing tools, signing up for newsletters, joining communities, and bouncing between business ideas. They look busy from the outside and broke from the inside. Because you don't hit your first million by running five experiments at",
+      "title": "",
+      "url": "http://x.com/i/article/2059619573599739904"
     },
     "http://x.com/i/article/2059619783151374336": {
       "cleaner_v": 2,
@@ -4691,6 +4717,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Alignment Research Blog",
       "url": "https://alignment.openai.com/"
+    },
+    "https://ampcode.com/news/drop-the-neo": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Amp Neo is now Amp. The rebuilt Amp is available to everyone.",
+      "final_url": "https://ampcode.com/news/drop-the-neo",
+      "frameable": false,
+      "image_urls": [
+        "https://ampcode.com/news/drop-the-neo?og-image"
+      ],
+      "kind": "article",
+      "text_excerpt": "Chronicle // [ News ] Drop the Neo May 27, 2026 Drop the Neo Amp Neo is now available to everyone. Time to drop the suffix and just call it Amp again. Thank you to everyone who sent bug reports, gave feedback, and was patient while we scaled up the infrastructure to meet the demand. Over the last few weeks, we've made a lot of improvements based on that feedback. The infrastructure is more stable. The clients are more resilient. There is still more to do, but Neo now performs well for the vast majority of users. The latest version of Amp no longer includes the --take-me-back flag that let you use pre-Neo Amp. If you need to finish work in the old Amp, you can run a previous version: npx -y @ampcode/cli@0.0.1779896748-g596c49 --take-me-back All Systems Operational Security Privacy Policy Terms of Service Product Get Started Sign In Owner's Manual Models Resources Chronicle Pricing Podcast Press Kit Guides How to Build an Agent Context Management Community 𝕏 @ampcode Amp Insiders YouTube",
+      "title": "Drop the Neo Amp",
+      "url": "https://ampcode.com/news/drop-the-neo"
     },
     "https://ampcode.com/news/opus-4.7": {
       "cleaner_v": 2,
@@ -12720,6 +12760,29 @@
       "text_excerpt_zh": "",
       "title": "mapcn - Beautiful maps made simple",
       "url": "https://mapcn.vercel.app/"
+    },
+    "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "A practical walkthrough of computational sensors on the path to production, with a deep dive on ESLint and static analysis as feedback for coding agents.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "frameable": false,
+      "image_urls": [
+        "https://martinfowler.com/articles/sensors-for-coding-agents/card.png",
+        "https://martinfowler.com/mf-name-white.png",
+        "https://martinfowler.com/articles/exploring-gen-ai/bb.jpg",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-example-application.png",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-example-overview.png",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-structure-chativity.png",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-coupling-dashboards.png",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/sensors-mutation-example.png",
+        "https://martinfowler.com/thoughtworks_white.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Maintainability sensors for coding agents\nIn a [recent article about harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html), I laid out a mental model for expanding a coding agent harness: a system of guides and sensors that increase the probability of good agent outputs and enable self-correction before issues reach human eyes. This article is a more practical follow-up where I walk through my experience with using sensors that help keep the codebase maintainable.\n27 May 2026\nThere are multiple dimensions we usually want to achieve and monitor in our codebases: Functional correctness (works as intended), [architectural fitness](https://www.thoughtworks.com/insights/decoder/f/fitness-functions) (is fast/secure/usable enough), and maintainability. I define maintainability here as making it easy and low risk to change the codebase over time - [also known as “internal quality”](https://martinfowler.com/articles/is-quality-worth-cost.html). So I don't only want to be able to make changes quickly today, but also in the future. And I don't want to worry about introducing bugs or degradation of fitness every time I make a change - or have AI make a change. I usually see the first signs of cracks in the maintainability of an AI-generated codebase when the number of files changed for a small adjustment increases. Or when changes start breaking things that used to work.\nInternal quality problems affect AI agents in similar ways that they affect human developers. An agent working in a tangled codebase might look in the wrong place for an existing implementation, create inconsistencies because it has not noticed a duplicate, or be forced to load more context than a task should require.\nIn this article, I describe my experimentation with various sensors that help us and AI reflect on the maintainability of a codebase, and what I learned from that.\nThe application\nI'm working on an internal analytics dashboard for community managers that reads chat space activity, engagement, and demographic data from a combination of APIs and presents the data in a web frontend.\nFigure 1: The example app: web UI, service layer, and external APIs.\nThe tech stack is a TypeScript, NextJS, and React. The backend reads and joins data from the APIs. The application has been around for a while, but for the sake of these experiments I rebuilt it with AI from scratch.\nThere are hardly any guides (e.g. markdown files) for AI about code quality and maintainability present, I wanted to see how well it can do just by relying on sensor feedback.\nOverview of all sensors used\nFigure 2: Where sensors can run: during the initial coding session, in the pipeline, on a schedule, and in production.\nThis is an overview of the sensors I set up across the path to production.\nDuring coding session\nSensors that run continuously alongside the agent to provide fast feedback.\n- Type checker (computational)\n- ESLint (computational)\n- Semgrep, SAST tool prescribed by our internal AppSec team (computational)\n- dependency-cruiser, runs structural rules to check internal module dependencies (computational)\n- Test suite results including test coverage (computational - though the test suite is generated by AI, therefore created in an inferential way)\n- Incremental mutation testing (computational)\n- GitLeaks runs as part of the pre-commit hook, I consider it to be a sensor as well, as it will give the agent feedback when it tries to commit (computational)\nAfter integration - pipeline\nThe same computational sensors run again in CI. The in-session sensors give the agent early feedback during development. The CI pipeline confirms the result on clean infrastructure and after integration.\nRepeatedly\nSensors that run on a slower cadence to detect drift that accumulates over time, rather than errors that occur in the moment.\n- A security review, prompt derived from our AppSec checklist for internal applications (inferential)\n- A data handling review, p",
+      "title": "Maintainability sensors for coding agents",
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor"
     },
     "https://martinfowler.com/articles/structured-prompt-driven/": {
       "cleaner_v": 2,
@@ -24803,6 +24866,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJRoq57W0AAZbXE.jpg"
     },
+    "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg"
+    },
     "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -24831,6 +24908,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
     },
+    "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
+    },
     "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -24844,6 +24935,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
+    },
+    "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -38843,9 +38948,9 @@
     "2059357818709524740": [
       "https://x.com/LifeOfShandi/status/2059357818709524740",
       "http://x.com/i/article/2059344894221799424",
+      "https://x.com/LifeOfShandi/status/2059374101165425043",
       "https://x.com/LifeOfShandi/status/2059601384723599817",
-      "https://x.com/LifeOfShandi/status/2059361746033500588",
-      "https://x.com/LifeOfShandi/status/2059374101165425043"
+      "https://x.com/LifeOfShandi/status/2059361746033500588"
     ],
     "2059359475723886972": [
       "https://x.com/LifeOfShandi/status/2059359475723886972"
@@ -38899,8 +39004,8 @@
       "https://x.com/Av1dlive/status/2059569389360541975",
       "https://x.com/Av1dlive/status/2059600844862214552",
       "https://x.com/Av1dlive/status/2059566437686296792",
-      "https://x.com/Av1dlive/status/2059566592464392212",
-      "https://x.com/Av1dlive/status/2059643800834932768"
+      "https://x.com/Av1dlive/status/2059643800834932768",
+      "https://x.com/Av1dlive/status/2059566592464392212"
     ],
     "2059607483929211270": [
       "https://x.com/pushmeet/status/2059607483929211270",
@@ -38920,16 +39025,16 @@
       "http://x.com/i/article/2059601936723136512",
       "https://x.com/Damir_Akaza/status/2059624330590392344",
       "https://x.com/Damir_Akaza/status/2059624938718335322",
-      "https://x.com/Damir_Akaza/status/2059633425586299135",
-      "https://x.com/Damir_Akaza/status/2059624623306661996",
-      "https://x.com/Damir_Akaza/status/2059625059463884936",
-      "https://x.com/Damir_Akaza/status/2059626475993649232",
-      "https://x.com/Damir_Akaza/status/2059627907320877145",
-      "https://x.com/Damir_Akaza/status/2059641653506241020",
       "https://x.com/Damir_Akaza/status/2059624163644440948",
-      "https://x.com/Damir_Akaza/status/2059647769132884182",
+      "https://x.com/Damir_Akaza/status/2059625059463884936",
+      "https://x.com/Damir_Akaza/status/2059624623306661996",
+      "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059627907320877145",
+      "https://x.com/Damir_Akaza/status/2059626475993649232",
+      "https://x.com/Damir_Akaza/status/2059641653506241020",
+      "https://x.com/Damir_Akaza/status/2059745850750812347",
       "https://x.com/Damir_Akaza/status/2059694034394685537",
-      "https://x.com/Damir_Akaza/status/2059745850750812347"
+      "https://x.com/Damir_Akaza/status/2059647769132884182"
     ],
     "2059633888243151228": [
       "https://x.com/brettcalhounn/status/2059633888243151228",
@@ -38940,7 +39045,9 @@
     ],
     "2059647271864619029": [
       "https://x.com/martinfowler/status/2059647271864619029",
-      "https://martinfowler.com/articles/vibesec-reckoning.html"
+      "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "https://x.com/martinfowler/status/2059652825362100411",
+      "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor"
     ],
     "2059653716568158316": [
       "https://x.com/oliviakoshy/status/2059653716568158316",
@@ -38981,8 +39088,27 @@
       "https://x.com/simonw/status/2059794368228458949",
       "https://x.com/simonw/status/2059680766528012506"
     ],
+    "2059679016215572815": [
+      "https://x.com/himanshutwtxs/status/2059679016215572815",
+      "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
+    ],
+    "2059679849447649748": [
+      "https://x.com/itsalexvacca/status/2059679849447649748",
+      "http://x.com/i/article/2059619573599739904"
+    ],
+    "2059680817560088590": [
+      "https://x.com/MichLieben/status/2059680817560088590",
+      "http://x.com/i/article/2059551448959168512"
+    ],
     "2059682649308881303": [
       "https://x.com/ian_dot_so/status/2059682649308881303"
+    ],
+    "2059687098584817885": [
+      "https://x.com/thorstenball/status/2059687098584817885",
+      "https://ampcode.com/news/drop-the-neo",
+      "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg",
+      "https://x.com/thorstenball/status/2059750151720432079",
+      "https://x.com/thorstenball/status/2059693801929920589"
     ],
     "2059688796728267261": [
       "https://x.com/johnyeo_/status/2059688796728267261",
@@ -38994,6 +39120,9 @@
       "https://x.com/raunakdoesdev/status/2059697449359610194",
       "https://x.com/raunakdoesdev/status/2059855677326295265"
     ],
+    "2059691582673342742": [
+      "https://x.com/aditabrm/status/2059691582673342742"
+    ],
     "2059696012466217220": [
       "https://x.com/__sishir/status/2059696012466217220",
       "http://x.com/i/article/2034444177174380544"
@@ -39001,6 +39130,12 @@
     "2059722824151949603": [
       "https://x.com/martinfowler/status/2059722824151949603",
       "https://martinfowler.com/fragments/2026-05-27.html"
+    ],
+    "2059740940739477523": [
+      "https://x.com/nurijanian/status/2059740940739477523",
+      "https://x.com/nurijanian/status/2059805270084317243",
+      "https://x.com/nurijanian/status/2055927283991654775?s=46",
+      "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
     ],
     "2059746337697247334": [
       "https://x.com/dani_avila7/status/2059746337697247334",
@@ -39050,6 +39185,6 @@
       "https://x.com/addyosmani/status/2059882269138104739"
     ]
   },
-  "updated_at": "2026-05-28T08:53:39Z",
+  "updated_at": "2026-05-28T12:45:29Z",
   "window": "recent"
 }
