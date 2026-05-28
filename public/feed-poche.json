@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "count": 660,
+      "count": 662,
       "name": "Tools"
     },
     {
-      "count": 397,
+      "count": 399,
       "name": "Development"
     },
     {
-      "count": 321,
+      "count": 322,
       "name": "Design"
     },
     {
-      "count": 302,
+      "count": 303,
       "name": "Articles"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Other"
     },
     {
-      "count": 31,
+      "count": 32,
       "name": "Crypto"
     },
     {
@@ -38,8 +38,295 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2180,
+  "item_count": 2187,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_image_urls": [
+        "https://plasma.org/og/home.png",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fplasma-one%2Fapp-icon.jpg&w=3840&q=75&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Fhero-poster-desktop.webp&w=3840&q=100&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Fhero-poster-mobile.webp&w=3840&q=90&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-plasma-one-logo-white/f771f286cc0bec165f36751fbcf84a95/logo-white.svg",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-card-workflow-virtual-poster/63d89973408998f39d4d2095e2f8000b/virtual-state.png",
+        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-card-workflow-physical-poster/d1a94a808e1710320d6a60d9341346a0/physical-state.png"
+      ],
+      "article_title_extracted": "Plasma | Stablecoin account for spending, saving and earning",
+      "category": "Crypto",
+      "created_at": "2026-05-28T02:56:18.954414Z",
+      "description": "Access USD, deposit stablecoins, send instantly, and spend globally with your Plasma card.",
+      "domain": "www.plasma.org",
+      "embed_type": "",
+      "id": "k17agpk4cvma5qk78tnzvkvfs587jfvh",
+      "og_image_url": "https://plasma.org/og/home.png",
+      "recommended_at": "2026-05-28T14:38:13.703000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "stablecoins",
+        "fintech",
+        "cryptocurrency"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:38:13.703000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Plasma | Stablecoin account for spending, saving and earning",
+      "url": "https://www.plasma.org/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/PuC0FeJifmiJ3EVZH8Jdk548nuM.png",
+        "https://framerusercontent.com/images/S4DA3EpL3XKG7vz6fwvwhMwM.png?width=2121&height=794",
+        "https://framerusercontent.com/images/Dve5OR7s1UUcQWumpTrX52P0M.png?width=96&height=96",
+        "https://framerusercontent.com/images/nvE68YClZ4O9Gh5ZEV6XFtjxow.svg?width=742&height=742",
+        "https://framerusercontent.com/images/44KZBaulAVHZbM6DLpnVbxTok.svg?width=742&height=742",
+        "https://framerusercontent.com/images/ZBS7WecjYC9pwtAhw8G7fjAouc.svg?width=742&height=742"
+      ],
+      "article_title_extracted": "Itera | Home",
+      "category": "Development",
+      "created_at": "2026-05-28T09:10:44.487351Z",
+      "description": "Instantly reconfigurable circuits turning months of work into moments of progress.",
+      "domain": "www.itera.co",
+      "embed_type": "",
+      "id": "k17erjhm8jz65rj8y0yhb3b5jx87jwmp",
+      "og_image_url": "https://framerusercontent.com/images/PuC0FeJifmiJ3EVZH8Jdk548nuM.png",
+      "recommended_at": "2026-05-28T14:38:10.223000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "hardware-engineering",
+        "reconfigurable-circuits",
+        "semiconductors"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:38:10.223000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Itera | Home",
+      "url": "https://www.itera.co/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_image_urls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/671faa3a541a76b548647676/XWNDlOu0R4fHXR0kCW3Wd.png",
+        "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/64b7a31827e9345eafcf54e3/X0LNkSfmpPF0MAxVqetZT.jpeg"
+      ],
+      "article_text": "# [Spaces](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/spaces) [![Hugging Face's logo](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/front/assets/huggingface_logo-noborder.svg)](/) \n\n---\n\n[![](https://cdn-avatars.huggingface.co/v1/production/uploads/64b7a31827e9345eafcf54e3/X0LNkSfmpPF0MAxVqetZT.jpeg) ](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/pollen-robotics) \n\n[pollen-robotics](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/pollen-robotics) \n\n/\n\n[Reachy\\_Mini](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/spaces/pollen-robotics/Reachy%5FMini) \n\nlike 145\n\n Running \n\n[ App ](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/spaces/pollen-robotics/Reachy%5FMini)[ Files Files ](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/spaces/pollen-robotics/Reachy%5FMini/tree/main)[ Community 12 ](https://huggingface.co/spaces/pollen-robotics/Reachy_Mini/spaces/pollen-robotics/Reachy%5FMini/discussions)\n\nFetching metadata from the HF Docker repository...\n\nRefreshing",
+      "article_title_extracted": "Reachy Mini - a Hugging Face Space by pollen-robotics Reachy Mini - a Hugging Face Space by pollen-robotics",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T09:11:20.210133Z",
+      "description": "This web app lets you interact with the Reachy Mini robot from your browser. You can input simple commands or design movement sequences, and the robot will perform gestures, speak, or act according...",
+      "domain": "huggingface.co",
+      "embed_type": "",
+      "id": "k17et73m1y5yv6vb5tvb13rad987jm65",
+      "og_image_url": "https://cdn-uploads.huggingface.co/production/uploads/671faa3a541a76b548647676/XWNDlOu0R4fHXR0kCW3Wd.png",
+      "recommended_at": "2026-05-28T14:38:08.263000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "robotics",
+        "human-robot-interaction",
+        "hugging-face"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:38:08.263000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Reachy Mini - a Hugging Face Space by pollen-robotics",
+      "url": "https://huggingface.co/spaces/pollen-robotics/Reachy_Mini",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://resend.com/static/cover-savour.jpg",
+        "https://resend.com/static/savour/savour-07.jpg",
+        "https://resend.com/static/savour/savour-02.jpg",
+        "https://resend.com/static/savour/savour-03.jpg",
+        "https://resend.com/static/savour/savour-01.jpg",
+        "https://resend.com/static/savour/savour-06.jpg",
+        "https://resend.com/static/savour/savour-08.jpg",
+        "https://resend.com/static/savour/savour-04.jpg",
+        "https://resend.com/static/savour/savour-05.jpg"
+      ],
+      "article_text": "Open main menu Features Company Resources Help Docs AI Pricing Log in Get started Savour — A newsletter by the design team at Resend A newsletter by the design team at Resend savour SAVOUR #07 AI didnt kill taste SAVOUR #02 The power of play SAVOUR #03 No detail is too small SAVOUR #01 How to develop taste? SAVOUR #02 The power of play SAVOUR #06 Unveiling the Hidden Art SAVOUR #01 How to develop taste? SAVOUR #08 The process behind the launch week identity SAVOUR #04 Dont copy; create instead SAVOUR #04 Dont copy; create instead SAVOUR #05 Discover the invisible design magic Subscribe ⌘ S First edition drops June 1",
+      "article_title_extracted": "Savour • A newsletter by the design team at Resend",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T09:11:36.726847Z",
+      "description": "A newsletter by the design team at Resend on taste, craft, and the details that make great products.",
+      "domain": "resend.com",
+      "embed_type": "",
+      "id": "k1721xm9z4s74fjwsykbp12mg987k3xr",
+      "og_image_url": "https://resend.com/static/cover-savour.jpg",
+      "recommended_at": "2026-05-28T14:38:05.963000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "design",
+        "product-craft",
+        "newsletter"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:38:05.963000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Savour • A newsletter by the design team at Resend",
+      "url": "https://resend.com/savour",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_image_urls": [
+        "https://datacurve.ai/og/default.jpg",
+        "https://datacurve.ai/Datacurve-Wordmark.svg",
+        "https://datacurve.ai/images/footer-brain.png",
+        "https://datacurve.ai/images/footer-head.png",
+        "https://datacurve.ai/images/footer-chip.png"
+      ],
+      "article_title_extracted": "Datacurve | The data engine for frontier AI",
+      "category": "Development",
+      "created_at": "2026-05-28T09:12:03.337262Z",
+      "description": "Custom data for long-horizon reasoning, software engineering, and data science.",
+      "domain": "datacurve.ai",
+      "embed_type": "",
+      "id": "k172np9wm713rr3584w917x5w987k081",
+      "og_image_url": "https://datacurve.ai/og/default.jpg",
+      "recommended_at": "2026-05-28T14:38:04.148000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-training",
+        "machine-learning",
+        "synthetic-data"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:38:04.148000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Datacurve | The data engine for frontier AI",
+      "url": "https://datacurve.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://www.fontfabric.com/wp-content/uploads/2026/05/01-Cover.png",
+        "https://www.fontfabric.com/wp-content/themes/fontfabric/assets/images/fontfabric-black.svg",
+        "https://www.fontfabric.com/wp-content/themes/fontfabric/assets/icons/ff-search-gray.svg",
+        "https://www.fontfabric.com/wp-content/uploads/2026/05/Guka-Top-Hat-8.png",
+        "https://www.fontfabric.com/wp-content/uploads/2026/05/web-header-FOM-May.jpg",
+        "https://www.fontfabric.com/wp-content/uploads/2026/03/top_hat_apple_and_google@2x.png",
+        "https://www.fontfabric.com/wp-content/uploads/2024/08/logo-for-invoice1.png",
+        "https://www.fontfabric.com/wp-content/uploads/2026/05/02-Details-copy.png"
+      ],
+      "article_text": "Skip to content Fontfabric™ - Home Browse Fonts Custom Services Partnerships Fonts in use About Help Blog Test our fonts for free Follow us online Browse Fonts Custom Services Licensing Fontfabric™ - Login Cart Welcome back Please verify your email. We sent verification code. To verify your email address, please check your inbox and enter the code below. Verify Otp Send Sucsessfully Didn't receive an email? Try Again Remember me Forgot password? Login now OR Continue with Facebook Continue with Google Don't have an account? Sign up Reset password Lost your password? Please enter your username or email address. You will receive a link to create a new password via email. Reset password Already have an account? Login Home / All Fonts / Guka Guka Font Family – Contemporary Slab Serif Typeface of 18 Styles • 2 Variable Fonts Enter your email to receive your free font We'll send you a zipped file with the free font, license agreement, and installation instructions. Send me the font Thanks for choosing Fontfabric's free fonts! We help designers from all over the world scale up their projects and clients with great typography. Opt-out anytime by clicking the Unsubscribe link in the footer of your emails. See our Privacy Notice for more information. Buying Options Font Tester Features Glyphs Map Trial Fonts & Specimen Buy Guka The quick brown fox jumps over the lazy dog. Sphinx of black quartz, judge my vow! Cozy sphinx waves quart jug of bad milk. Five quacking zephyrs jolt my wax bed. The five boxing wizards jump quickly. 55 px Buy Complete Family Guka Complete Family Guka Complete Family - 20 font styles - $6 Per Style Best Value $240 $120 Select Selected Remove $240 $120 Select Selected Remove Single fonts Guka Variable Regular Guka Variable Regular $120 $60 Select Selected Remove Guka Variable Italic Guka Variable Italic $120 $60 Select Selected Remove Guka Thin Guka Thin $35 $17 Select Selected Remove Guka Thin Italic Guka Thin Italic $35 Select Selected Remove Guka Extra Light Guka Extra Light $35 $17 Select Selected Remove Guka Extra Light Italic Guka Extra Light Italic $35 $17 Select Selected Remove Guka Light Guka Light $35 $17 Select Selected Remove Guka Light Italic Guka Light Italic $35 $17 Select Selected Remove Guka Regular Italic Guka Regular Italic $35 $17 Select Selected Remove Guka Regular Guka Regular $35 $17 Select Selected Remove Guka Medium Italic Guka Medium Italic $35 $17 Select Selected Remove Guka Medium Guka Medium $35 $17 Select Selected Remove Guka Semi Bold Italic Guka Semi Bold Italic $35 $17 Select Selected Remove Guka Semi Bold Guka Semi Bold $35 $17 Select Selected Remove Guka Bold Guka Bold $35 $17 Select Selected Remove Guka Bold Italic Guka Bold Italic $35 $17 Select Selected Remove Guka Extra Bold Italic Guka Extra Bold Italic $35 $17 Select Selected Remove Guka Extra Bold Guka Extra Bold $35 $17 Select Selected Remove Guka Black Italic Guka Black Italic $35 $17 Select Selected Remove Guka Black Guka Black $35 $17 Select Selected Remove To begin your purchase select a font weight and pick a license Font licenses Need help? Contact us Desktop from $17 Install the font on your computer to create designs for print or static digital images, such as logos, packaging, and marketing materials. The desktop license is always perpetual. Web from $17 The web license enables you to embed the font into your website through CSS, ensuring that visitors see your intended typography without needing to install the font themselves. It’s optimised for online performance and the usage limits are based on monthly pageviews. Annual and Perpetual options are available. App from $170 With the app license, you can integrate the font into mobile applications across different platforms like iOS and Android. It ensures that your in-app text and user interface maintain a consistent, branded look throughout the app experience. Annual and Perpetual options are available. Epub from $34 This license is tailored for digital publish",
+      "article_title_extracted": "DOWNLOAD: Guka Font Family - at Fontfabric™",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T13:53:05.266609Z",
+      "description": "Guka Font Family – 9 weights with matching italics, totaling 18 fonts. Extended Latin & Cyrillic. Try or Buy at Fontfabric today.",
+      "domain": "www.fontfabric.com",
+      "embed_type": "",
+      "id": "k17a0cfhjmzfmb1ccndh1h09qd87kvnd",
+      "og_image_url": "https://cloud.poche.app/api/storage/2ef110aa-0895-4f7f-9191-17fc0f133ba8",
+      "recommended_at": "2026-05-28T14:37:56.378000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "font-design",
+        "typeface"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:37:56.378000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Fonts - Guka | fontfabric.com",
+      "url": "https://www.fontfabric.com/fonts/guka/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://framerusercontent.com/assets/XtWH8VkLZERL16k9Rb8pDcTm9w.png",
+        "https://framerusercontent.com/images/X8K2iCW5Tob8sQuioDPe6TJEU.png?width=40&height=40",
+        "https://framerusercontent.com/images/TYhyrbxMXWxNwQXkOMjSFXKUBS8.png?scale-down-to=2048&width=3840&height=3840",
+        "https://framerusercontent.com/images/sNZOetTAoDWNG6cXdQRgWcb0VCk.png?scale-down-to=2048&width=3840&height=3840",
+        "https://framerusercontent.com/images/yugiixuurMrZe4X5V3LoyPl07g0.png?scale-down-to=2048&width=3840&height=3840",
+        "https://framerusercontent.com/images/RqtiPUhSpGhQGyAeaeNdXYdl5k.png?scale-down-to=2048&width=2160&height=2160",
+        "https://framerusercontent.com/images/mIxPaqUw474ok4jAo8uIX8ZkM.png?scale-down-to=2048&width=3840&height=3840",
+        "https://framerusercontent.com/images/Rwq58xkHcwHXo4WAfYd7yjzb6is.png?scale-down-to=2048&width=3840&height=3840"
+      ],
+      "article_text": "Log in Sign up Copy Logo as SVG Brand Guidelines Product Teams Resources Community Support Enterprise Pricing Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples Developers Search Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples Framer Framer F1 Framer F1 Framer F1 Pre-order Learn more A 7 5 % l o w - p r o f i l e m e c h a n i c a l k e y b o a r d w i t h t w o p r o g r a m m a b l e k n o b s , a 3 1 0 × 1 0 0 p x c o l o r L C D , a n d a f u l l C N C a l u m i n u m e n c l o s u r e . D e s i g n e d b y F r a m e r , d e v e l o p e d b y W o r k L o u d e r . H o t - s w a p p a b l e t a c t i l e s w i t c h e s , B l u e t o o t h w i t h u p t o t h r e e s a v e d c o n n e c t i o n s , a n d a 3 0 0 0 m A h b a t t e r y . E v e r y m a t e r i a l a n d s p e c c h o s e n a n d a d a p t e d f o r d u r a b i l i t y . A 7 5 % l o w - p r o f i l e m e c h a n i c a l k e y b o a r d w i t h t w o p r o g r a m m a b l e k n o b s , a 3 1 0 × 1 0 0 p x c o l o r L C D , a n d a f u l l C N C a l u m i n u m e n c l o s u r e . D e s i g n e d b y F r a m e r , d e v e l o p e d b y W o r k L o u d e r . H o t - s w a p p a b l e t a c t i l e s w i t c h e s , B l u e t o o t h w i t h u p t o t h r e e s a v e d c o n n e c t i o n s , a n d a 3 0 0 0 m A h b a t t e r y . E v e r y m a t e r i a l a n d s p e c c h o s e n a n d a d a p t e d f o r d u r a b i l i t y . Unmistakably Framer Publish in seconds. Open the CMS. Copy-paste effects. All your go-to Framer actions, now just a tap away. Future proof hotkey Get ready for the future with next generation Framer features right at your fingertips. Glorious details Hardware should look as beautiful as your software. Publish even more We considered every detail to create a keyboard that honors our brand and quality. Make it your own Change shortcuts and tweak entire layouts. This keyboard molds to your workflow, not the other way around. Stats at a glance Stats at a glance The F1 integrates directly with Framer to show key statistics from your sites. The F1 integrates directly with Framer to show key statistics from your sites. Details Switches Tactile / 55g / two-stage spring Layout 75% / 84 keys Top Enclosure CNC Alu / Anodized Silver Bottom Enclosure CNC Alu / Anodized Gun Metal Switch Plate Stamped Alu / Anodized Black Tilt Risers Rubberized Plastic Keycaps Dye Sub PBT Knobs Machined Aluminum Screen Glass CNC Glass w/ adhesive black film Screen 100×310 px full-color LCD Dimensions 1.935cm x 12.435cm x 31.485cm FAQs Which operating systems does it work with? The keyboard is compatible with both macOS, Windows, and Android. The keyboard is compatible with macOS, iPadOS, iOS, Windows, Android, or any other bluetooth enabled device. What switches does it use? The Framer F1 uses custom Work Louder MX switches made from POM/POK materials. Can I use other keycaps? Yes. Work Louder offsets various sets that are compatible with the Framer F1. How many devices can I connect it to wirelessly? You can wirelessly connect the F1 to up to three devices. How long is the battery life? The F1 includes a 3000mAh battery. Battery life depends on usage, especially screen brightness and RGB settings. Is it compatible with VIA/QMK? No, the F1 uses Input, Work Louder’s own free configurator built for easy customization. Can I use the F1 with apps other than Framer? Yes! The F1 is fully customizable and not limited to Framer. It works as a regular keyboard right ou",
+      "article_title_extracted": "Framer F1 by Framer & Work Louder",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T14:37:20.972215Z",
+      "description": "Introducing the Framer F1 by Work Louder. A low-profile keyboard built around the way you design and ship in Framer.",
+      "domain": "www.framer.com",
+      "embed_type": "",
+      "id": "k17f8bha3egx7fz5wbj8ksdj2x87jaxw",
+      "og_image_url": "https://framerusercontent.com/assets/XtWH8VkLZERL16k9Rb8pDcTm9w.png",
+      "recommended_at": "2026-05-28T14:37:49.847000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "framer",
+        "mechanical-keyboard",
+        "design-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T14:37:49.847000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Framer F1 by Framer & Work Louder",
+      "url": "https://www.framer.com/f1",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://cdn.weread.qq.com/weread/cover/46/cpplatform_bpydeflrt9d2xtkdsjzqqj/t6_cpplatform_bpydeflrt9d2xtkdsjzqqj1744601841.jpg"
@@ -96729,7 +97016,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2024,
+      "count": 2031,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -96765,5 +97052,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-28T12:04:06.457964Z"
+  "updated_at": "2026-05-28T16:43:10.868848Z"
 }
