@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 657,
+      "count": 660,
       "name": "Tools"
     },
     {
@@ -9,15 +9,15 @@
       "name": "Development"
     },
     {
-      "count": 320,
+      "count": 321,
       "name": "Design"
     },
     {
-      "count": 300,
+      "count": 301,
       "name": "Articles"
     },
     {
-      "count": 260,
+      "count": 263,
       "name": "Social"
     },
     {
@@ -38,8 +38,295 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2171,
+  "item_count": 2179,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-05-28T02:55:19.997267Z",
+      "description": "BREAKING 🚨: Sesame just released HER > Sesam iOS app is now available in Preview, offering a collection of 4 personal voice agents.> Sesame Agents are powered by a SOTA real-time voice mode.> Agents can search the web, manage reminders, and have memory. > App rollout is… https://t.co/VeyPHYm3pt pic.twitter.com/cFF2HaHl2V",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k1784mps5z38663s4vsrjj7hx587ja9j",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2059742142424035328/img/m9TW6j35P0cBalru.jpg",
+      "recommended_at": "2026-05-28T02:56:06.782000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "ios-apps",
+        "voice-ai"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T02:56:06.782000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "🚨 AI News | TestingCatalog (@testingcatalog) on X",
+      "url": "https://x.com/testingcatalog/status/2059743513047093533",
+      "x_status_id": "2059743513047093533"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/a8/45/a0a8451d-ba43-eeb0-0148-9ad4c55703aa/MacAppIcon-0-0-85-220-0-5-0-2x-sRGB.png/1920x1080ib-80.png"
+      ],
+      "article_text": "Testing Apps with TestFlight\nHelp developers test beta versions of their apps and App Clips using the TestFlight app. Download TestFlight on the App Store for iPhone, iPad, Mac, Apple TV, Apple Vision Pro, Watch, and iMessage.\nGetting started\nTo test beta versions of apps and App Clips using TestFlight, you’ll need to accept an email or public link invitation from the developer and have a device that you can use to test. You’ll be able to access the builds that the developer makes available to you.\nNote: Developers can choose to set criteria for their beta, such as a preferred device or OS. You must have the preferred device and OS in order to accept the invitation. You can tap or click Learn More in the invite to view the specific device and OS requirements the developer is looking for.\nIf you’re a member of the developer’s team, the developer can give you access to all builds or certain builds.\nTo report a scam, fraud, or offensive, illegal, or abusive content in a beta app, tap or click Report a Problem in the TestFlight app, or in your email invitation.\nRequired OS by platform\n- iOS or iPadOS apps: iPhone or iPad running iOS 16 or iPadOS 16 or later. App Clips require iOS 16 or iPadOS 16, or later.\n- macOS apps: Mac running macOS 13 or later.\n- tvOS apps: Apple TV running tvOS 18 or later.\n- visionOS apps: Apple Vision Pro running visionOS 1 or later.\n- watchOS apps: Apple Watch running watchOS 9 or later.\nInstalling and testing beta apps\nEach build is available to test for up to 90 days, starting from the day the developer uploads their build. You can see how many days you have left for testing under the app name in TestFlight. TestFlight will notify you each time a new build is available and will include instructions on what you need to test. Alternatively, with TestFlight 3 or later, you can turn on automatic updates to have the latest beta builds install automatically.\nWhen the testing period is over, you'll no longer be able to open the beta build. To install the App Store version of the app, download or purchase the app from the App Store. In-app purchases are free only during beta testing, and any in-app purchases made during testing will not carry over to App Store versions.\nNote: To automatically download additional in-app content and assets, such as Apple-Hosted Background Assets and Managed Background Assets after a beta app is installed, ensure the In-App Content or Automatically download in-app content option is enabled in your App Store settings for [iPhone](https://support.apple.com/guide/iphone/manage-purchases-subscriptions-settings-iph3dfd91de/ios), [iPad](https://support.apple.com/guide/ipad/manage-purchases-subscriptions-settings-ipadee10c6e7/ipados), [Mac](https://support.apple.com/guide/app-store/change-app-store-preferences-mchlp2257/3.0/mac/13.0), [Apple TV](https://support.apple.com/guide/tv/welcome/tvos), and [Apple Vision Pro](https://support.apple.com/guide/apple-vision-pro/welcome/visionos)\nApple-Hosted Background Assets: Devices must be running iOS/iPadOS 26 or later, and macOS 26 or later.\nManaged Background Assets: Devices must be running iOS/iPadOS 16 or later, macOS 13 or later, tvOS 18.5 or later, and visionOS 2.4 or later.\nInstallation\nTo get started, install TestFlight on the device you’ll use for testing. Then, accept your email invitation or follow the public link invitation to install the beta app. The public link invitation will include a description of the beta app and may also include screenshots, the app category, and criteria you must meet to join the beta. You can install the beta app on up to 30 devices.\nIf you do not meet the tester criteria, the beta invitation will inform you that the developer requires you to test with a specific device and OS when you tap or click Learn More on the beta invitation. If you have a device that meets the critiera, you can install TestFlight on the device and then accept the beta invitation.\nKeep in mind that you can accept an invitation on a",
+      "article_title_extracted": "Join the Sam Webpage Summarizer beta - TestFlight - Apple",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T01:46:52.385293Z",
+      "description": "Using TestFlight is a great way to help developers test beta versions of their apps.",
+      "domain": "testflight.apple.com",
+      "embed_type": "",
+      "id": "k17715w4s7cmetwzzqbqpmba9s87k18d",
+      "og_image_url": "https://cloud.poche.app/api/storage/4776ff6b-de7a-4ea8-a756-1945e8c48dba",
+      "recommended_at": "2026-05-28T01:48:23.909000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "summarization",
+        "web-tools",
+        "beta-testing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:48:23.909000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Sam for Mac",
+      "url": "https://testflight.apple.com/join/XkHwwzsT",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-28T00:36:45.637206Z",
+      "description": "Introducing CapCut Design Studio 2.0.A reimagined experience for Design on CapCut Web, making design more intuitive, visual, and exploratory, the way ideas naturally happen.Built on an infinite AI canvas, Design Studio 2.0 brings your references, drafts, iterations, assets,… pic.twitter.com/JpbdMoSU5V",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17cvj5tp88k6bp2je4v7ajs1187kfn7",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2059671853032206336/img/y0vn-eUagx-xJ93v.jpg",
+      "recommended_at": "2026-05-28T01:44:03.024000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "capcut",
+        "graphic-design",
+        "ai-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:44:03.024000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "CapCut (@i) on X",
+      "url": "https://x.com/i/status/2059672070221664659",
+      "x_status_id": "2059672070221664659"
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-28T01:38:09.070461Z",
+      "description": "Obsidian Web Clipper has its own icon now 🥰 pic.twitter.com/gEjM19l9qm",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k1751c9bhcd6c7sq1hyk3qmng187ktcs",
+      "og_image_url": "https://pbs.twimg.com/media/HJVgIaNboAAzENe.jpg",
+      "recommended_at": "2026-05-28T01:43:59.668000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "obsidian",
+        "web-clipper",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:43:59.668000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Obsidian (@obsdmd) on X",
+      "url": "https://x.com/obsdmd/status/2059661471144096148",
+      "x_status_id": "2059661471144096148"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/16/d6/3516d693-3dc5-0cc2-7ee8-e3057a089c34/Placeholder.mill/1200x630wa.jpg",
+        "https://apps.apple.com/assets/artwork/1x1.gif",
+        "https://apps.apple.com/assets/images/supports/supports-FamilySharing@2x.png"
+      ],
+      "article_text": "Halide Mark III - Pro Camera\nZero AI, Natural Photos\nFree · In‑App Purchases\nHalide unleashes your iPhone’s camera. Disable iPhone processing for natural photos, apply powerful film situations, access manual controls, and more. Halide has over 24,000 5-star ratings and is an App Store Editors’ Choice and Apple Design Award winner.\nHalide’s Looks are built into the camera itself, changing how your photo is captured and processed - not just a color filter applied after the fact. These are the best photos you can get out of an iPhone. Start with Process Zero for natural, film-like results, without any AI or computational photography. Explore our rich set of creative Looks developed with Hollywood colorist Cullen Kelly, and powered by sophisticated film simulation.\nFor nine years, Halide has set the standard for professional iPhone camera control. Nail your manual focus with Focus Peaking and the Focus Loupe. Compose your shots with intention using sophisticated framing guides, from a basic grid and rule of thirds, to the golden ratio and rabatment of the rectangle. Get perfect macro shots with Halide's dedicated Macro Mode.\nHate editing? Halide gives you amazing results straight out of the camera. But when you need to fine-tune, Photo Lab makes it fast and intuitive. Try dramatically different Looks, adjust framing and exposure, experiment with film simulation, or rescue details in highlights and shadows with Tone Fusion.\nYou can even import and load RAWs from other apps, such as Apple’s own camera app, or standalone cameras by Canon, Nikon, Sony, Leica, Fujifilm, and Hasselblad. Specific formats are listed below.\n*Halide is a paid app. Try it free for 7 days with an annual membership, or buy it outright with a one-time purchase — no subscription required.*\nFeatures:\n- Shoot without Apple’s computational photography for stronger contrast and more natural results.\n- Photographic Looks developed in collaboration with esteemed Hollywood colorist Cullen Kelly.\n- Rescue details in shadows and highlights with a Tone Fusion slider inspired by darkroom dodging and burning.\n- Try any Look on existing ProRAW files - including photos shot in Apple’s camera app.\n- Become a better photographer by signing up for our 10-day tutorial directly from the app.\n- Full manual exposure controls including shutter speed, ISO and white balance.\n- Technical Readout to view all details of your iPhone camera hardware.\n- Also runs on iPad, for an amazing Photo Lab experience.\nRAW File Support:\n- DNG (iPhone, Leica)\n- CR2 (Canon)\n- CR3 (Canon)\n- NEF (Nikon)\n- RAF (Fujifilm)\n- ARW (Sony)\n- FFF (Hasselblad)\nTerms of Use can be found here: https://halide.cam/terms\nPrivacy: https://www.lux.camera/privacy/\nAfter 18 months of work, we’re excited to present Halide Mark III: the most powerful camera and photo lab for iPhone. We built Mark III with to render the most beautiful photos possible from an iPhone, and provide more of a \"Batteries Included\" experience. There’s only so much space in App Store release notes, so we can only scratched the surface of everything new in Mark III. For a deep dive, check out our blog at Lux.camera!\nTHE LOOKS\nWe’ve partnered with acclaimed Hollywood Colorist Cullen Kelly to develop a set of gorgeous “Looks” for Halide Mark III. Every look serves a specific purpose. Every look is a banger.\n* VALENCIA: For landscapes and cityscapes, but it also has interesting effects on portraiture and skin tones. It features thick contrast, deep saturation, and solid color separation.\n* REMBRANDT: Our portrait look, where thick contrast in the mid-tones emphasizes bone structure and lighting. Abundant color in the low end converges to white as exposure increases, for perfect uniformity in skin-tones to emphasize contour of the face.\n* ZEPHYR: Our most subtle and restrained look. Zephyr features subtle filmic contrast, paired with rich skin tones and foliage. It has the character of a traditional print, but its neutral tone scale and tuned contrast make",
+      "article_title_extracted": "‎Halide Mark III - Pro Camera App - App Store",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T01:40:41.387344Z",
+      "description": "Halide unleashes your iPhone’s camera. Disable iPhone processing for natural photos, apply powerful film situations, access manual controls, and more. Halide has over 24,000 5-star ratings and is an App Store Editors’ Choice and Apple Design Award winner.\n\nHalide’s Looks are built into the camera itself, changing how your photo is captured and processed - not just a color filter applied after the fact. These are the best photos you can get out of an iPhone. Start with Process Zero for natural, film-like results, without any AI or computational photography. Explore our rich set of creative Looks developed with Hollywood colorist Cullen Kelly, and powered by sophisticated film simulation. \n\nFor nine years, Halide has set the standard for professional iPhone camera control. Nail your manual focus with Focus Peaking and the Focus Loupe. Compose your shots with intention using sophisticated framing guides, from a basic grid and rule of thirds, to the golden ratio and rabatment of the rectangle. Get perfect macro shots with Halide's dedicated Macro Mode.\n\nHate editing? Halide gives you amazing results straight out of the camera. But when you need to fine-tune, Photo Lab makes it fast and intuitive.  Try dramatically different Looks, adjust framing and exposure, experiment with film simulation, or rescue details in highlights and shadows with Tone Fusion.\n\nYou can even import and load RAWs from other apps, such as Apple’s own camera app, or standalone cameras by Canon, Nikon, Sony, Leica, Fujifilm, and Hasselblad. Specific formats are listed below.\n\n*Halide is a paid app. Try it free for 7 days with an annual membership, or buy it outright with a one-time purchase — no subscription required.*\n\nFeatures:\n- Shoot without Apple’s computational photography for stronger contrast and more natural results.\n- Photographic Looks developed in collaboration with esteemed Hollywood colorist Cullen Kelly.\n- Rescue details in shadows and highlights with a Tone Fusion slider inspired by darkroom dodging and burning.\n- Try any Look on existing ProRAW files - including photos shot in Apple’s camera app.\n- Become a better photographer by signing up for our 10-day tutorial directly from the app.\n- Full manual exposure controls including shutter speed, ISO and white balance.\n- Technical Readout to view all details of your iPhone camera hardware.\n- Also runs on iPad, for an amazing Photo Lab experience.\n\nRAW File Support:\n- DNG (iPhone, Leica)\n- CR2 (Canon)\n- CR3 (Canon)\n- NEF (Nikon)\n- RAF (Fujifilm)\n- ARW (Sony)\n- FFF (Hasselblad)\n\nTerms of Use can be found here: https://halide.cam/terms\n\nPrivacy: https://www.lux.camera/privacy/",
+      "domain": "apps.apple.com",
+      "embed_type": "",
+      "id": "k17cmp501pk4dpa9dke8ve6xyh87ktmq",
+      "og_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/16/d6/3516d693-3dc5-0cc2-7ee8-e3057a089c34/Placeholder.mill/1200x630wa.jpg",
+      "recommended_at": "2026-05-28T01:43:58.340000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "photography",
+        "iphone-camera",
+        "mobile-editing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:43:58.340000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "‎Halide Mark III - Pro Camera App - App Store",
+      "url": "https://apps.apple.com/us/app/halide-mark-iii-pro-camera/id885697368",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_sharing_image.png",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_1.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_3.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_4.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_5.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_7.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_8.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_9.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_10.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_11.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_gallery_12.svg",
+        "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_poster.jpg"
+      ],
+      "article_text": "Fonts Research More Rosetta Main Fonts Research Us About us Our services Contact us Extras Articles Fonts in use Shop Buy fonts Get trial fonts Buy prints Download orders Licence Support Help Terms of use Fonts Research More Scripts All Arabic Armenian Cyrillic Devanagari Georgian Greek Gujarati Hangul Hebrew Latin Tamil Collections All Adapter World Adelphi Aeropa Aisha Arek Avory Butik Clone Corsair Eskorte Gitan Gridlite Handjet Marlik Moderne Olive Nassim Neacademia Nova Caps Skolar Sutturah Yourses Get fonts Shop all fonts Free trial fonts أدابتر أدابتر Adapter Arabic ადაპტერ ადაპტერ Adapter Georgian אדפטר אדפטר Adapter Hebrew Адаптер Моно Адаптер Моно Adapter Mono PE Αντάπτερ Μόνο Αντάπτερ Μόνο Adapter Mono PE Adapter Mono Adapter Mono Adapter Mono PE Адаптер Адаптер Adapter PE Αντάπτερ Αντάπτερ Adapter PE Adapter Adapter Adapter PE அடாப்டர் அடாப்டர் Adapter Tamil Адельфи Адельфи Adelphi PE Αδέλφι Αδέλφι Adelphi PE Adelphi Adelphi Adelphi PE Аэропа Аэропа Aeropa PE Αεροπά Αεροπά Aeropa PE Aeropa Aeropa Aeropa PE عائشة عائشة Aisha Arabic Aisha Aisha Aisha Latin Արեգ Արեգ Arek Armenian Arek Arek Arek Latin Аворы Аворы Avory PE Άβορυ Άβορυ Avory PE Avory Avory Avory PE Butik Butik Butik Клон Клон Clone PE Κλώνος Κλώνος Clone PE Clone Clone Clone PE Клон Rounded Клон Rounded Clone Rounded PE Κλώνος Rounded Κλώνος Rounded Clone Rounded PE Clone Rounded Clone Rounded Clone Rounded PE Корсэр Корсэр Corsair PE Κορσερ Κορσερ Corsair PE Corsair Corsair Corsair PE إسكورتي إسكورتي Eskorte Arabic Eskorte Eskorte Eskorte Latin Gitan Gitan Gitan Latin Гридлайт Гридлайт Gridlite PE Γκρίντλάιτ Γκρίντλάιτ Gridlite PE Gridlite Gridlite Gridlite PE هاندجت هاندجت Handjet Հանտճէթ Հանտճէթ Handjet Ханджет Ханджет Handjet χαντ τζέτ χαντ τζέτ Handjet 핸드젯 핸드젯 Handjet האנדג׳ט האנדג׳ט Handjet Handjet Handjet Handjet مارلیک مارلیک Marlik Moderne Olive Moderne Olive Moderne Olive New Moderne Olive Rounded Moderne Olive Rounded Moderne Olive Rounded New نسيم نسيم Nassim Arabic Nassim Nassim Nassim Latin Неакадемия Неакадемия Neacademia Neacademia Neacademia Neacademia ΝΌΒΑ ΚΑΠΣ ΝΌΒΑ ΚΑΠΣ Nova Caps NOVA CAPS NOVA CAPS Nova Caps Only Yours Only Yours Only Yours स्कोलार स्कोलार Skolar Devanagari સ્કોલાર સ્કોલાર Skolar Gujarati Сколар Сколар Skolar PE Σκόλαρ Σκόλαρ Skolar PE Skolar Skolar Skolar PE سكولار ســـانس سكولار ســـانس Skolar Sans Arabic סקולר סנס סקולר סנס Skolar Sans Hebrew Сколар Санс Сколар Санс Skolar Sans PE Σκόλαρ Σανς Σκόλαρ Σανς Skolar Sans PE Skolar Sans Skolar Sans Skolar Sans PE Softly Yours Softly Yours Softly Yours Суттурах Суттурах Sutturah Sutturah Sutturah Sutturah Fonts Research More Us About us Our services Contact us Extras Articles Fonts in use Shop Buy fonts Get trial fonts Buy prints Download orders Licence Support Help Terms of use Back to font catalogue Light Regular Medium Semibold Bold Extrabold Black Variable Uprights Size Weight i Variation axis: Weight Used to vary stroke thickness or other design details from lighter to blacker Read more Range: 300.0 to 900.0 Tag: wght Moderne Olive She is sharp, confident, and absolutely no-nonsense. More info Download specimen Related families Buy Fonts Free Trials Single font from 45 € Family of 7+1 fonts from 158 € 7 static fonts/styles Reset Light Regular Medium Semibold Bold Extrabold Black 1 variable font (Weight axis) Reset Light Regular Medium Semibold Bold Extrabold Black Variable Uprights Size Weight i Variation axis: Weight Used to vary stroke thickness or other design details from lighter to blacker Read more Range: 300.0 to 900.0 Tag: wght Pause Play Edit Reset Close Light Regular Medium Semibold Bold Extrabold Black Variable Uprights Size Weight i Variation axis: Weight Used to vary stroke thickness or other design details from lighter to blacker Read more Range: 300.0 to 900.0 Tag: wght Pause Play Edit Reset Close Light Regular Medium Semibold Bold Extrabold Black Variable Uprights Size Weight i Variation axis: Weight Used to vary stroke thickness or other design deta",
+      "article_title_extracted": "Rosetta - Moderne Olive",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T01:40:54.957613Z",
+      "description": "Moderne Olive is a reverse-contrast sans with a stylistic vocabulary built around squarish forms. Taking cues from the famous Antique Olive by Roger Excoffon, she sets off in her own direction. In the spirit of late modernism, she regularises and simplifies, and as a nod to the present-day avant-garde, she uses high-tension, pinched strokes to ease junctions that might otherwise feel too heavy. The result is an occasionally quaint, yet highly cohesive, collection of letters that are sharp, confident, and absolutely no-nonsense.\n\nOriginally developed as part of the experimental project [Only Yours](/OnlyYours), the previously unavailable core variant has now been refined and expanded with circled numerals and a selection of pictograms. And because it shares DNA with the wider Only Yours universe, it pairs naturally with its many alternate variants whenever you need something related, yet unmistakably distinct.",
+      "domain": "rosettatype.com",
+      "embed_type": "",
+      "id": "k174253z303ngrke87m4m04z5d87j1t4",
+      "og_image_url": "https://rosettatype.com/assets/families/ModerneOlive/ModerneOlive_sharing_image.png",
+      "recommended_at": "2026-05-28T01:43:45.705000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "typeface-design",
+        "graphic-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:43:45.705000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Rosetta - Moderne Olive",
+      "url": "https://rosettatype.com/ModerneOlive",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://www.sesame.com/assets/images/blog/the-art-of-conversation-hero.jpg",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fthe-art-of-conversation-hero.jpg&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fsesame-personal-agents.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fcuriosity-partner.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fsesame-app-1.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fsesame-app-2.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fsesame-app-3.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fsesame-app-4.png&w=4096&q=75",
+        "https://www.sesame.com/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fincognito-mode.png&w=4096&q=75"
+      ],
+      "article_text": "Voice your curiosity\nRaven Jiang, Head of Product Engineering\nA year ago, we took a first step towards a future powered by natural conversations when we released our Research Preview, and we were blown away by your enthusiastic response.\nI am excited to share an update on our next milestone: an iOS preview of our lifelike conversation partners, [available now in the App Store](https://apps.apple.com/us/app/sesame-personal-agents/id6756329076).\nConversational intelligence\nAt Sesame, we’re creating a new way to interact with computers — one built on conversation, agentic capabilities, and intelligent eyewear.\nTalking to agents should be so intuitive, you can do it anywhere. Instead of agonizing over the perfect prompt, just speak your mind and let the natural flow of the conversation take you where you want to go. That’s how conversation works between people, and that’s how we think it should work with agents.\nA great conversation isn’t just question and answer — it’s timing and rhythm. Conversational agents need to respond quickly at the right moments. As part of this preview, we optimized their stack to shave off every millisecond of latency, and we trained them to have a better feel for the conversation flow. These improvements lead to better conversational intelligence.\nThere’s an inherent tension between replying quickly and taking the time to compose thoughtful responses. A slower response is usually more correct, but it can also feel unnatural if it takes too long. We took this fundamental challenge to heart when we set out to build fast search and retrieval systems to equip our agents with the most up-to-date information, so you can have natural conversations about real topics that matter to you.\nSesame agents can run multiple parallel searches while speaking and seamlessly weave relevant results into their response as they stream in, pivoting mid-sentence if necessary. This matches how humans continue to think as we speak, allowing our agents to carefully balance latency and accuracy. As a result, they can tap into slower and smarter agentic loops without awkward interruptions.\nYour partner in curiosity\nFor the iOS experience, the first thing we chose to build on this technical foundation is what we internally refer to as the “curiosity engine” — agents that help you learn, discover, and reflect.\nWe learned a lot from you, our early users, during our Research Preview. Not just about how you want to use Sesame, but where. Sesame shines in the in-between moments of daily life, where the best thinking happens when you don’t expect it. Whether you are commuting to work or taking an evening stroll around the park, we want our agents to be ready for you with insightful conversations and timely information.\nTo achieve this, we built features that make the real-time conversation experience more useful:\n- Search cards with image results that help you visualize new concepts quickly\n- Notes to capture takeaways for later\n- Texting for when it’s easier not to speak out loud\n- Deep dives for in-depth results\nThe common thread that runs through these features is that we made every one of them voice-first. The information and visuals that are presented on your phone enrich the agents’ responses and give you greater confidence in their substance, but if you choose to go display-free, the details will always be available through the app later.\nNaturally personalized\nAlongside this release, two new characters — Simone and Charlie — join Maya and Miles. We crafted them intentionally, imbuing each with a distinct voice, personality, and point of view. Choosing the right agent for the moment is a big part of personalizing your experience.\nCharlie\nSimone\nMemory is essential to interacting with agents, and it’s a big part of what makes Sesame special. Each agent has its own memory, so what you discuss with Miles stays with Miles. It’s consistent across voice and text, so each character feels like the same person whether you speak or type. Mem",
+      "article_title_extracted": "Voice your curiosity",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T01:41:15.457888Z",
+      "description": "Introducing the iOS preview: agents built around the rhythm and timing of natural conversation, powered by a curiosity engine made to help you think out loud. The first step toward more advanced agents and intelligent eyewear.",
+      "domain": "www.sesame.com",
+      "embed_type": "",
+      "id": "k176gvcffsd3kd7mhy9k2xg1f587j3xs",
+      "og_image_url": "https://www.sesame.com/assets/images/blog/the-art-of-conversation-hero.jpg",
+      "recommended_at": "2026-05-28T01:43:44.078000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "conversational-ai",
+        "wearable-tech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:43:44.078000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Voice your curiosity",
+      "url": "https://www.sesame.com/blog/voice-your-curiosity",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/3d/83/663d837f-7cfe-ead2-e0ed-f27e7d97e2f4/Placeholder.mill/1200x630wa.jpg",
+        "https://apps.apple.com/assets/artwork/1x1.gif"
+      ],
+      "article_text": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV Napkin Math: Food Journal Personalized nutrition diary Only for iPhone Free · Designed for iPhone. Not verified for macOS. Share 10 Ratings 4.3 Age Rating 16+ Years Category Health & Fitness Developer Paper Star, Corp. Language EN English Size 101.6 MB iPhone A simple, beautiful food diary that helps you understand your eating habits over time. Stop counting calories and start seeing the bigger picture. Log meals easily, build a record you can actually keep, and turn everyday entries into patterns, trends, and insight when you need them. EASY TO KEEP Log meals in a way that fits real life, without turning every bite into a chore. You can snap a pic or just describe what you remember. Easy enough to actually stick with, day after day. SEE THE BIGGER PICTURE The value of a food diary is not just what you logged today — it’s what you start to notice over weeks and months. Napkin Math helps you zoom out and see bigger-picture patterns in how you eat, so you can better understand your habits without obsessing over numbers. UNDERSTAND HOW YOU FEEL When you feel off, your data is there to help you look back. Ask to find out patterns related to symptoms, energy, appetite, digestion, or other shifts in how you feel. A simple place to start connecting the dots between what you eat and how you’re doing. SUPPORT GENTLE CHANGES Napkin Math can also help when you’re trying to move in a direction, like eating more protein or being more consistent with meals. Instead of forcing you into a rigid plan, build awareness over time so you can make changes that feel realistic and sustainable. BEAUTIFUL & SATISFYING Logging should feel good. Napkin Math is designed to be clean, pleasing, and satisfying to use, so that coming back to it feels natural. It’s a food diary you’ll actually want to open, whether you’re logging a meal or reflecting on your day. NOT A CALORIE TRACKER Built around awareness, curiosity, and useful reflection — not punishment, perfection, or calorie counting. Focus on intuitive eating and enjoying your life while feeling healthy. GET SUPPORT Have feedback or just want to say hello? Reach out to our team at team@paperstar.cc EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Terms of Service & Privacy Policy: https://www.troupetroupe.com/pooping-with/terms NOTE: We do not offer medical advice. Any and all recommendations should be viewed as suggestions, please consult with a professional and do your own research before trying a new nutrient plan. more Ratings & Reviews 4.3 out of 5 10 Ratings Yay! An app that is actually about how you feel!! 6d ago Emmy Nunez I love that this app does push counting calories. As some one who has enough years taken by disordered eating, this app makes it easy for me to keep track of food and how it makes me feel without falling into bad habits. Just 1 bugs I have encountered. The camera in the app hasn’t worked for me and I have to take a picture using my own camera app then upload it in the app. Developer Response doesn’t* push counting calories? 🙂That means a lot to us to hear, thank you! It’s really a goal we have with Napkin Math.The in-app camera should be better in the latest update, please give it a try and let us know :) would love to know any other bugs you’ve encountered, please let us know at support@napkinmath.club ! Yay! An app that is actually about how you feel!! 6d ago Emmy Nunez I love that this app does push counting calories. As some one who has enough years taken by disordered eating, this app makes it easy for me to keep track of food and how it makes me feel without falling into bad habits. Just 1 bugs I have encountered. The camera in the app hasn’t worked for me and I have to take a picture using my own camera app then upload it in the app. Developer Response 2d ago doesn’t* push counting calories? 🙂That means a lot to us to hear, thank you!",
+      "article_title_extracted": "‎Napkin Math: Food Journal App - App Store",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-28T01:43:32.486978Z",
+      "description": "A simple, beautiful food diary that helps you understand your eating habits over time. Stop counting calories and start seeing the bigger picture. Log meals easily, build a record you can actually keep, and turn everyday entries into patterns, trends, and insight when you need them.\n\nEASY TO KEEP\nLog meals in a way that fits real life, without turning every bite into a chore. You can snap a pic or just describe what you remember. Easy enough to actually stick with, day after day.\n\nSEE THE BIGGER PICTURE\nThe value of a food diary is not just what you logged today — it’s what you start to notice over weeks and months. Napkin Math helps you zoom out and see bigger-picture patterns in how you eat, so you can better understand your habits without obsessing over numbers.\n\nUNDERSTAND HOW YOU FEEL\nWhen you feel off, your data is there to help you look back. Ask to find out patterns related to symptoms, energy, appetite, digestion, or other shifts in how you feel. A simple place to start connecting the dots between what you eat and how you’re doing.\n\nSUPPORT GENTLE CHANGES\nNapkin Math can also help when you’re trying to move in a direction, like eating more protein or being more consistent with meals. Instead of forcing you into a rigid plan, build awareness over time so you can make changes that feel realistic and sustainable.\n\nBEAUTIFUL & SATISFYING\nLogging should feel good. Napkin Math is designed to be clean, pleasing, and satisfying to use, so that coming back to it feels natural. It’s a food diary you’ll actually want to open, whether you’re logging a meal or reflecting on your day.\n\nNOT A CALORIE TRACKER\nBuilt around awareness, curiosity, and useful reflection — not punishment, perfection, or calorie counting. Focus on intuitive eating and enjoying your life while feeling healthy.\n\nGET SUPPORT\nHave feedback or just want to say hello? Reach out to our team at team@paperstar.cc\n\nEULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nTerms of Service & Privacy Policy: https://www.troupetroupe.com/pooping-with/terms\n\nNOTE: We do not offer medical advice. Any and all recommendations should be viewed as suggestions, please consult with a professional and do your own research before trying a new nutrient plan.",
+      "domain": "apps.apple.com",
+      "embed_type": "",
+      "id": "k178d7xbayq7p425crgkrv9z3d87kqpr",
+      "og_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/3d/83/663d837f-7cfe-ead2-e0ed-f27e7d97e2f4/Placeholder.mill/1200x630wa.jpg",
+      "recommended_at": "2026-05-28T01:43:41.348000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "food-journal",
+        "mindful-eating",
+        "wellness-app"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-28T01:43:41.348000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "‎Napkin Math: Food Journal App - App Store",
+      "url": "https://apps.apple.com/us/app/napkin-math-food-journal/id6758642182",
+      "x_status_id": null
+    },
     {
       "category": "Media",
       "created_at": "2026-05-27T04:55:59.868121Z",
@@ -96347,7 +96634,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2015,
+      "count": 2023,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -96383,5 +96670,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-27T22:21:32.577061Z"
+  "updated_at": "2026-05-28T04:55:49.054004Z"
 }
