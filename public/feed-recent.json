@@ -1040,6 +1040,10 @@
       "id": "2048745401139028392"
     },
     {
+      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
+      "id": "2039298177061511399"
+    },
+    {
       "article_text": "Don't wrap the LLM. Don't wrap its tools either.\nAll you need is a SKILL.md and some Python helpers. The LLM has complete freedom. If something's missing, it writes it.\nThe learning\nA few months ago we wrote The Bitter Lesson of Agent Frameworks. The argument: don't wrap the LLM in abstractions. Maximal action space, then restrict.\nWe were still wrapping its tools.\nEvery click(), type(), scroll() helper is an abstraction you decided the model needs. Every one of them is a constraint the RL'd model has to fight around.\nWhy raw CDP\nWhen we built the first version of Browser Use, we shipped thousands of lines of element extractors, DOM indexers, click wrappers.\nLLMs know CDP. They were trained on millions of tokens of Page.navigate, DOM.querySelector, Runtime.evaluate.\n \nCDP is the lowest level Chrome exposes. Give it directly to the model:\nCross-origin iframes. Attach to the target directly, no frame abstraction to fight.\nShadow DOM. Walk shadowRoot.querySelectorAll like the model has seen ten thousand times.\nAnti-bot injection. It's Chrome talking to itself.\nWhat we got wrong\nA few months ago on this blog we wrote Closer to the Metal: Leaving Playwright for CDP. The conclusion of that post: \"Our agents shouldn't have to know the nuances of CDP Targets in order to Get Stuff Done.\"\nTurns out we were wrong.\nThat post listed ten ways a Chrome tab can crash. We built watchdog services to catch each one - tab crashes, target detach, renderer OOM, zygote death, GPU process crash. Each got a handler. Each handler had to be kept in sync with Chrome's internals.\nGive the LLM direct CDP access and the ability to edit its own harness, and it handles all of that itself. Pages dying, targets wrongly attached, Chrome stalling - the agent reads the error, reattaches to a fresh target, retries. It doesn't need a watchdog. It's read ten thousand threads about Chrome crashes. It already knows what to do.\nThe \"complexities of CDP\" we were trying to hide weren't something to hide. They were something to let the model see.\nFour files\nThat's the whole harness:\nrun.py (13 lines) - runs plain Python with helpers preloaded\nhelpers.py (192 lines) - thin wrappers around CDP, and the agent edits them\ndaemon.py (220 lines) - keeps the CDP websocket alive\nSKILL.md - tells the agent how to use the above\n~600 lines total.\n \nThe agent writes Python. The Python imports helpers. The helpers speak CDP. Chrome does what it's told. Everything above Chrome is rewriteable.\nThe self-heal loop\nHere's what happens when a tool is missing.\n \nWhen a helper is missing, the agent does what any Claude Code user would do: greps helpers.py, adds the function, reruns.\nWe didn't tell it to do this. We gave it Claude Code's normal Read/Edit/Write plus CDP access. Coding agents already know how to fix a missing import.\nThe key: the agent isn't writing new code from first principles. It's writing the one function that was missing, the same way it'd fix a missing import on any codebase.\nMagical moments\nUpload. We forgot to add upload_file(). Mid-task, the agent hit a file input, grepped helpers.py, saw nothing, wrote the function using raw DOM.setFileInputFiles, and uploaded the file. We found out when we read the git diff.\nChunked upload. After writing upload_file, the agent tried to upload a 12MB file. CDP websocket payloads cap around 10MB. It hit the limit, read the error, switched to a chunked upload pattern.\nGusto to calendar. Task: put every employee's birthday in our shared calendar. Required navigating Gusto's employee tab, extracting dates from the DOM, then creating Google Calendar events.\nAzure admin roles. Azure's admin portal is a pile of blades inside iframes. Raw CDP, via coordinate-level Input.dispatchMouseEvent, passes through at the compositor level.\nTry it\nSetup prompt for Claude Code or Codex:\n \nFirst person to find a task it fails on (not captcha/2FA) gets a Mac Mini. Seriously. I've been trying to break it for a week and can't.\nRepo: github.com/browser-use/browser-harness\nThe bitter lesson of agent harnesses: your helpers are abstractions too. Delete them. Let the agent write what it needs.",
       "article_text_zh": "不要给LLM套壳。也不要给它的工具套壳。\n你只需要一个SKILL.md和一些Python辅助工具。LLM拥有完全的自由。如果缺少什么，它自己会写。\n\n**学到的教训**\n\n几个月前，我们写了《Agent框架的苦涩教训》。核心观点是：不要用抽象层包裹LLM。最大化行动空间，然后再加以限制。\n\n但我们仍然在包裹它的工具。\n\n每一个click()、type()、scroll()辅助函数，都是你替模型决定的抽象。每一个都是经过强化学习的模型需要费力绕开的约束。\n\n**为什么选择原始CDP**\n\n当我们构建Browser Use的第一个版本时，我们发布了数千行的元素提取器、DOM索引器、点击封装器。\n\nLLM懂CDP。它们是在数百万个Page.navigate、DOM.querySelector、Runtime.evaluate的token上训练出来的。\n\nCDP是Chrome暴露的最低层级。直接把它交给模型：\n- 跨域iframe。直接附加到目标，无需与框架抽象层搏斗。\n- Shadow DOM。像模型已经见过上万次那样，直接调用shadowRoot.querySelectorAll。\n- 反机器人注入。这是Chrome在和自己对话。\n\n**我们错在哪里**\n\n几个月前，我们在这篇博客上写了《更贴近底层：从Playwright转向CDP》。那篇文章的结论是：“我们的Agent不应该为了完成任务而必须了解CDP目标的细微差别。”\n\n事实证明我们错了。\n\n那篇文章列出了Chrome标签页崩溃的十种方式。我们构建了看门狗服务来捕捉每一种——标签页崩溃、目标分离、渲染器内存耗尽、Zygote进程死亡、GPU进程崩溃。每种情况都有一个处理器。每个处理器都必须与Chrome的内部机制保持同步。\n\n让LLM直接访问CDP，并允许它编辑自己的工具框架，它就能自己处理所有这些问题。页面挂掉、目标错误附加、Chrome卡住——Agent读取错误信息，重新附加到新目标，重试。它不需要看门狗。它已经读过上万篇关于Chrome崩溃的帖子。它已经知道该怎么做。\n\n我们试图隐藏的“CDP复杂性”根本不是需要隐藏的东西。而是需要让模型看到的东西。\n\n**四个文件**\n\n这就是整个工具框架：\n\n- run.py（13行）——运行带有预加载辅助工具的纯Python\n- helpers.py（192行）——围绕CDP的薄封装，Agent可以编辑它们\n- daemon.py（220行）——保持CDP WebSocket存活\n- SKILL.md——告诉Agent如何使用上述内容\n\n总共约600行。\n\nAgent编写Python代码。Python导入辅助工具。辅助工具调用CDP。Chrome执行指令。Chrome之上的所有内容都是可重写的。\n\n**自愈循环**\n\n以下是工具缺失时发生的情况。\n\n当某个辅助函数缺失时，Agent会像任何Claude Code用户那样做：搜索helpers.py，添加函数，重新运行。\n\n我们没有告诉它这样做。我们给了它Claude Code正常的读/写/编辑功能，外加CDP访问权限。编码Agent已经知道如何修复缺失的导入。\n\n关键在于：Agent不是从零开始编写新代码。它只是在编写那个缺失的函数，就像在任何代码库上修复缺失的导入一样。\n\n**神奇时刻**\n\n- **上传**。我们忘了添加upload_file()。任务进行到一半，Agent遇到了一个文件输入，搜索了helpers.py，没找到，就使用原始的DOM.setFileInputFiles编写了该函数，并上传了文件。我们是读到git diff时才发现这件事的。\n- **分块上传**。编写完upload_file后，Agent尝试上传一个12MB的文件。CDP WebSocket的有效载荷上限约为10MB。它遇到了限制，读取了错误信息，然后切换到了分块上传模式。\n- **Gusto到日历**。任务：把每个员工的生日添加到共享日历中。需要导航到Gusto的员工标签页，从DOM中提取日期，然后创建Google日历事件。\n- **Azure管理员角色**。Azure的管理门户是一堆嵌套在iframe中的面板。通过坐标级别的Input.dispatchMouseEvent使用原始CDP，可以在合成器层面穿透。\n\n**试试看**\n\nClaude Code或Codex的设置提示：\n\n第一个找到它无法完成的任务（验证码/双因素认证除外）的人，可以获得一台Mac Mini。说真的，我试了一周都没能难倒它。\n\n仓库：github.com/browser-use/browser-harness\n\nAgent框架的苦涩教训：你的辅助函数也是抽象层。删除它们。让Agent自己编写它需要的东西。",
       "article_text_zh_hash": "874901559dfe5664",
@@ -1050,10 +1054,6 @@
       "article_text_zh": "如果你和我一样，经常在 X 的某个角落刷到“我是如何用 Obsidian 搭建第二大脑的”和“Anthropic 刚刚彻底干掉了 [插入某个行业]”这类帖子，那你大概也见过那个观点：UI 已死。除非一个产品能通过 MCP、API、CLI 或介于其间的方式被智能体使用，否则它就无法生存。\n\n这个趋势在 Ramp 是真实存在的。过去三个月里，我们 MCP 的周活跃用户增长了 10 倍，越来越多的客户通过 Claude、ChatGPT 和其他智能体来使用产品。\n\n上周，Salesforce 成为首批押注这一论点的行业巨头之一。\n\n来自 VentureBeat：\nSalesforce 周三发布了其 27 年历史上最具雄心的架构转型，推出了“Headless 360”——这是一项全面的计划，将其平台上的每一项能力都暴露为 API、MCP 工具或 CLI 命令，使得 AI 智能体无需打开浏览器就能操作整个系统。\n这一公告是在该公司于旧金山举行的年度 TDX 开发者大会上发布的，立即向开发者提供了超过 100 个新工具和技能。这标志着对企业软件面临的生存问题做出的决定性回应：在一个 AI 智能体能够推理、规划和执行的世界里，一家公司是否还需要一个带有图形界面的 CRM？\nSalesforce 的回答是：不需要——而这正是关键所在。\n\n这是 Salesforce 的明智之举，而且我无法想象做出这个决定有多容易。问问大多数销售人员，他们会告诉你他们有多不喜欢使用 Salesforce。但这个产品之所以无处不在，是因为其用户体验的熟悉性。销售领导们没兴趣让团队学习新技术，一致性往往胜过功能性。\n\nBenioff 和团队正在接受这个护城河正在被侵蚀的现实，并顺应这样一个事实：大部分使用将通过 Claude、ChatGPT 等智能体以及用户从未见过的后台流程来驱动。\n\n我不认为 UI 正在消亡。人类仍然想要点击、查看配置并验证已完成的工作。但 80/20 法则已经翻转：新的 80% 的软件交互将通过智能体进行。这不仅改变了你需要构建什么，也改变了你如何构建它。\n\n### 新的交互模式\n\n过去二十年，人们与软件交互的主要方式是：\n用户 → 界面 → 数据库\n你打开一个产品，点击操作，完成任务。界面是你体验软件的方式。对大多数人来说，界面就是产品。\n\n随着智能体承担更多工作，一个新的层次出现了：\n用户 → 用户的智能体（例如 Claude） → 数据库\n智能体代表用户行事。它读取、写入和导航产品，这样用户就不必亲力亲为。突然间，界面消失了。智能体直接与底层系统对话。\n\n但即使这种情况也在迅速变化。软件公司正在（并且应该）设计自己的智能体和能力。所以新的模式看起来更像这样：\n用户 → 用户的智能体 → 软件的智能体 → 数据库\n在这个模型中，软件的智能体代表用户的智能体处理复杂性：应用业务逻辑、强制执行规则、引入后者所没有的上下文。两个 LLM 协同工作以达成一个结果。\n\n### 教会智能体如何成功\n\n我大部分的头脑风暴、写作和构思都是与 LLM 一起完成的。当草稿准备好分享时，我通过 Notion 的 MCP 服务器将其推送到 Notion。多年来我一直是 Google Docs 的忠实用户；Notion 的 MCP 让我改变了主意。\n\n作为 Notion MCP 的用户，我欣赏的一点是，每当我让智能体写东西时，它都能完美完成。表格、项目符号、斜体、列表，应有尽有——智能体从不失手。\n\n这是有意为之的。\n\n`notion-create-pages` 工具的描述以这样一句话开头：“要获取完整的 Markdown 规范，请始终首先获取 MCP 资源 `notion://docs/enhanced-markdown-spec`。不要猜测或幻觉 Markdown 语法。”当我让智能体写一个页面时，它做的第一件事就是获取这个规范，然后才开始写。每一个 Notion 特有的假设都会针对通用模型的默认值被明确指出来。\n\n在旧世界里，这个规范会存在于 API 文档中，与 Notion 集成的开发者会阅读它、内化它，然后编写一个转换层。现在，Notion 在智能体需要的时候，直接把规范交给它。\n\n如果你用过 Slack MCP，你可能体验过相反的情况。你的智能体假设使用标准 markdown，而不遵守 Slack 特定的格式。你最终花在编辑格式上的时间比写消息本身还多：\n\n当然，格式指南在网上，你可以把它们保存下来，并教会你的智能体如何使用。但这很烦人，而且本不应该是必要的。\n\n想想你的智能体的调用者需要知道什么才能成功，并主动提供给他们。不要让他们自己去摸索。\n\n### 构建反馈循环\n\n当我们首次在 Ramp 推出 MCP 时，可观测性是我们最大的问题。我们可以看到工具调用量，但看不到产生这些调用的周围聊天上下文。仅凭调用量无法告诉我们什么在起作用、什么在出问题，或者人们实际上试图完成什么。\n\n我们通过几种方式解决了这个问题：\n\n*   **要求每次工具调用都附带“理由”。** 每次 MCP 或 CLI 工具调用都要求智能体包含一个 `rationale` 参数，解释它为什么发出这个请求。我们看不到聊天内容，但理由可以重构意图。理由中的模式告诉我们人们实际上在尝试做什么。\n*   **一个反馈工具。** 我们发布了一个独立的工具，当智能体被阻塞或遇到不奏效的模式时，可以调用它。智能体提交它试图做什么、尝试了什么以及在哪里卡住了。\n*   **工具特定的种子参数。** 我们为单个工具添加了特定用途的参数，以捕获我们以后可能需要的上下文：智能体可以访问但我们否则需要推断的信息。\n\n想象一下，你正在构建一个客户支持平台，并为客户提供了获取工单的工具。随着时间的推移，你开始在理由日志中注意到相同的短语：“构建事故报告”、“起草事故摘要”、“为宕机事后复盘收集工单”。\n\n这就是一个新功能！一个 `build-incident-report` 工具可以识别相关工单、评估严重性、提取受影响的客户群体，并以一种强意见格式起草摘要。\n\n一旦这个工具上线，你可能会开始收到关于它的反馈：“报告拉入了三天前不属于这次事故的工单”或“它总是包含免费层用户的工单，这些用户不应该出现在事后复盘中”。突然间，你有了智能体在告诉你的智能体到底该构建什么。当然，智能体会产生幻觉。但它们在反馈方面比大多数你曾交付给的人类用户更具体、更一致。\n\n如果报告拉入了不相关的工单，你就添加一个日期范围参数。如果它不应该包含免费层客户，你就添加一个细分过滤器。每个反馈循环都成为产品改进的新途径。\n\n### 注意上下文差距\n\n在任何智能体交互中，你的系统拥有调用智能体所没有的上下文，而调用智能体也拥有你的系统所没有的上下文。在设计这些交互时，你应该对哪一方在哪些方面更有优势有自己的看法。\n\n假设 Diego 出差了。Diego 的 AI 幕僚长收到了费用管理系统智能体发来的 Slack 提醒：他最近一次出差有未完成的费用。两个智能体现在都指向同一个目标：正确提交这些费用。\n\n这两个智能体带来了各自的上下文。\n\n**Diego 的幕僚长带来的：**\n*   Diego 的日历：知道哪些会议发生了、何时发生、与谁发生\n*   Diego 的电子邮件：有酒店和航班确认信息作为附件\n*   Diego 的 Slack：可以将 Kokkari 晚餐与一个他邀请 Acme 团队的讨论串关联起来\n*   Diego 的收据（从电子邮件附件和照片库中提取）\n\n**费用管理系统带来的：**\n*   原始交易数据（例如，商户、交易时间）\n*   公司关于提交的政策\n*   公司的总账科目\n*   公司历史编码模式\n\n传统的 API 会把问题抛回给用户。“这里有一笔需要总账科目的交易。使用这个端点获取 150 个总账科目选项，然后选一个。”\n\n一个设计良好的智能体交互则翻转了这一点——它不要求提供总账科目。它要求提供上下文：这是一顿客户餐、团队餐还是个人旅行？幕僚长智能体从日历条目或 Slack 讨论串中提取答案。费用管理系统根据它之前缺失的上下文应用正确的科目。\n\nDiego 和他的智能体永远不需要知道总账科目是什么，而财务团队得到了准确的分类。每一方都贡献了自己知道的信息，并为 Diego 和他的会计交付了更好的结果。\n\n当你设计这些智能体到智能体的交互时，要注意上下文差距。承认你的智能体在哪些方面不足是可以的——你们都在为同一个用户服务。\n\n界面曾经位于 Diego 和他的费用系统之间。现在它位于他的智能体和你的智能体之间。\n\n这种转变重新定义了产品团队的工作。你过去是为一个想要快速行动、避免错误并看到自己工作成果的人类而设计。现在，你通过一个其本能、上下文和限制都与人类不同的中介，为同一个人设计。教会智能体如何成功、构建反馈循环以及注意上下文差距，都指向同一个根本问题：你的智能体的调用者需要什么才能做好它的工作，而你正在提供这些吗？\n\n大多数公司会发布一个 MCP，勾选这个选项，然后继续前进。他们的使用量会增长几个季度，然后停滞。随着时间的推移，客户会转向那些在细节上下了功夫的产品，而避开那些没有做到的产品。\n\n用你曾经对待人类用户的那份用心去为智能体构建。用不了多久，它就会成为那个为你买单的人。",
       "article_text_zh_hash": "a79e75510e28533a",
       "id": "2047312986696454584"
-    },
-    {
-      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
-      "id": "2039298177061511399"
     },
     {
       "article_text": "I used to think my work looked good.\nClean layouts. Good typography. Proper spacing. Nothing out of place.\nIt looked good. But it didn't feel like anything.\n \nThere's a difference between a design that looks good and one that stops you mid-scroll.\nThe ones that stop you almost always have something extra beneath the surface. A layer of depth. Something that makes it feel alive instead of just... correct.\nMy taste runs minimal - black or white backgrounds, monochromatic colors, nothing screaming for attention.\nShaders, from the outside, looked like the opposite of that. Too colorful. Too busy. Not my thing.\nI was wrong.\n \nI started experimenting. Not with the colorful ones. I picked black and white tones, played with dispersion effects, and just started messing around.\n \nAt some point I stumbled onto this - light refracting, colours bleeding through dark. That's when it clicked.\nIt wasn't loud or busy. It just had depth.\nThat's the thing about shaders - they're not a style, they're a layer. Colorful and chaotic if you want or quiet and expensive-feeling if you want. The range is genuinely infinite. It's completely up to you.\n \nA few months ago, Apple dropped their event invite. That iridescent, liquid-chrome logo took over Twitter for weeks. Designers were going crazy trying to recreate it - tutorials, threads, custom GLSL code, hours of work.\n \nThat kind of effect used to require serious code or serious budget. Most of us never tried because the friction was too high.\nYou either wrote shader code yourself or messed around with plugins that were barely customizable and quietly tanked your page speed.\nFramer changed that. You don't write a single line of code. Open the canvas, drop a shader in like any other element, adjust the sliders, and you're done. There's no friction to get started.\nAnd logo shaders are coming next. Apple's been using exactly this kind of effect on their logo for event campaigns. Soon you'll be able to do the same thing - on any PNG or SVG in a few clicks.\n \n \nHere's the part worth talking about.\nClean design used to be the goal. Good typography, proper spacing, nothing out of place - that was genuinely impressive not long ago.\nAI is changing that.\nRight now AI-generated design is easy to spot. It produces something that looks okay - slap a gradient on it, call it done. But remember where image generation was three or four years ago? Diabolically bad. Now it's genuinely hard to tell real from AI-generated photos.\nDesign is on the same curve. It's not there yet. But it's coming.\nWhen it gets there, clean and well-spaced won't be impressive anymore. It'll just be the baseline.\nWhat's harder to replicate is taste. Knowing which effect fits. How subtle to go. When to stop. A liquid metal shader at low speed on a dark monochromatic site feels expensive. \nThe same shader cranked up with five colors looks like a mistake. The difference between those two isn't the tool. It's judgment. And that's still very human.\n \nA good example of this done right: lookaway.com by @kushsolitary\n \nProbably built with code. But look at how the shaders are used - the purple glow in the hero, the particle field on the manifesto page.\nThe layout stays completely clean. The shader is what makes it feel like a premium product instead of a generic template.\nThat's the balance to aim for. I'm currently experimenting with shaders in a Framer template I'm building, still a WIP - and that's honestly where I understood this properly. You don't fully learn a tool until you use it on something real.\n \nHow to use shaders without overdoing it\nThe mistake most people make: they pick a shader, change the colors to match their brand, and call it done.\nOverdoing it is easy. Too saturated, too fast, clashing with your palette - it'll make your site look worse than no shader at all.\nStart with one. Then actually spend time with the properties panel. Move every slider. See what each control does. Speed, scale, seed, amplitude - just mess around.\nYou don't need to understand the theory. You just need to see what changes. That's how you find something that actually fits.\nShaders run on the GPU. Stack too many and performance takes a hit. One used well hits harder than five fighting each other anyway.\nSomething I do all the time - set the speed to zero. The shader freezes into a static abstract visual. Export it as an image and use it anywhere. Mockup backgrounds, thumbnails, social banners. \nThat's how I made the banner for this article.\n \nI put together 10 shader presets and gave them away free.\nGrab the remix → https://framer.link/txLlluy\n \nWant to go deeper? @learnframer has solid free resources:\nGod Rays component → framer.university/resources/god-rays-component-for-framer\nAnimated gradient → framer.university/resources/animated-gradient-background-in-framer\nHover Chroma backgrounds → framer.university/resources/hover-chroma-backgrounds-in-framer\nIf you want to see more - building in public, Framer content, concept designs, and my upcoming template - follow along @yashwanth941v.",
@@ -13156,6 +13156,31 @@
       "title": "Claude Code + Rust：当 AI 遇上最严格的编译器 - Lv. MAX",
       "url": "https://maxlv.net/blog/claude-code-rust-new-paradigm/"
     },
+    "https://mechanical-pencil.com/?ref=sidebar": {
+      "content_type": "text/html",
+      "description": "Illustrating the Engineering Around Us",
+      "final_url": "https://mechanical-pencil.com/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/assets/X1q1AYi3I49IfoU4IuMZdz0yOqQ.png",
+        "https://framerusercontent.com/images/9CqkxoLZVHZVbWgYXMe0AUONoJk.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/yeGHxVXQOhJjOIXb6HdLyjFh1U.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/agCG9ybZvmajEn884ZaMhDlytE.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/zHKA5pANH29xh8rXRZmQWZ4ik.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/5jkLb4tWniTZyXFOa8vF6HHzNI.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/ZPLr2CxXffFZswvABKwsX3VDrG4.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/q9J91bJwNnWxY8jhzQ1xDb1mUQ.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/ah8WMDuB7Of6E3KxrzYUdJSvF0.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/4NB0ykeouHpj4FwUH8ZgWwgiw.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/UWObJfDJGkou7KmrKNrZl1sHqs.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/3BDosNeiua9nezwVk9w0JwnYbk8.svg?width=1440&height=1440"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Mechanical Pencil",
+      "url": "https://mechanical-pencil.com/?ref=sidebar"
+    },
     "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80": {
       "content_type": "",
       "description": "",
@@ -17525,6 +17550,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -25240,19 +25279,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
     },
-    "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg": {
+    "https://pbs.twimg.com/media/HJaARqaXMAYArir.png": {
       "cleaner_v": 2,
-      "content_type": "image/jpeg",
+      "content_type": "image/png",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+        "https://pbs.twimg.com/media/HJaARqaXMAYArir.png"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+      "url": "https://pbs.twimg.com/media/HJaARqaXMAYArir.png"
     },
     "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg": {
       "cleaner_v": 2,
@@ -25282,20 +25321,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     },
-    "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
-    },
     "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25324,6 +25349,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
     },
+    "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg"
+    },
     "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25351,6 +25390,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg"
+    },
+    "https://pbs.twimg.com/media/HJf6LG2XkAED7HA.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJf6LG2XkAED7HA.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJf6LG2XkAED7HA.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJf6LG2XkAED7HA.jpg"
+    },
+    "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg"
+    },
+    "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
+    },
+    "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -26846,20 +26941,6 @@
       "title": "",
       "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e"
     },
-    "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a"
-    },
     "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -28003,6 +28084,26 @@
       "title": "Karpathy's Autoresearch for PMs: Complete Guide",
       "url": "https://www.news.aakashg.com/p/autoresearch-guide-for-pms"
     },
+    "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Most designers invest in running critiques but skip the followup. That missing step is often why feedback culture breaks down.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png",
+        "https://media.nngroup.com/media/people/photos/rachel-krause-2025-square.jpg.256x256_q75_autocrop_crop-smart_upscale.jpg",
+        "https://media.nngroup.com/media/editor/2026/04/29/show-before-after.png",
+        "https://media.nngroup.com/media/videos/thumbnails/Anna_and_Sarah_Field_Guide_to_Explaining_UX_Strategy.png.650x364_q75_autocrop_crop-smart_upscale.png",
+        "https://media.nngroup.com/media/videos/thumbnails/When_is_High-fidelity_Worth_It_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg",
+        "https://media.nngroup.com/media/videos/thumbnails/UX_Design_Critiques_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Design critiques](https://www.nngroup.com/articles/design-critiques/) generate feedback. But feedback is valuable only if someone closes the loop on it: telling people what changed because of what they said, what didn’t change, and why. This article covers two concrete followup tactics, when to use them, and what you’re quietly risking every time you skip them.\nDesign Critiques Don’t End After the Session\nA design critique is a workshop focused on analyzing a design and giving feedback on whether it meets its objectives. Its ultimate goal is to improve the design. Most teams spend their time and energy focused on planning and facilitating a design critique — choosing the right attendees, structuring the agenda, and facilitating the conversation. Then the session ends, and the feedback gets filed away in a document that nobody touches again.\nThis is one of the most common reasons critique culture quietly breaks down. Critique followups make feedback feel worth giving rather than a nice-to-have or a courtesy. When people contribute thoughtfully to a critique and never hear what happened to their input, they learn to stop contributing and show up unprepared to further sessions because they clearly don’t matter.\nIf your critiques feel pointless, the problem may not be [your facilitation](https://www.nngroup.com/articles/derailed-design-critiques/). It may be that your stakeholders don’t know what happened with their feedback.\nHow to Close the Loop\nThere are two types of followup communication:\n- Immediate post-session recap: Captures what was heard and what will happen next\n- Deeper followup after a design has evolved: Connects the changes that people see now to the conversation that helped shape them\nThe immediate recap doesn’t need to be long. A Slack or Teams message works well: “Here’s what we’re moving forward with, what we’re still investigating, and what we’ve decided not to pursue.” Be concerned about specificity rather than length.\nThe deeper followup is where trust actually gets built. It is usually a longer document or message and takes more effort, but it also showcases the value of design critiques and stakeholder feedback directly because they see the changes in real time.\nTactic: Show the Before and After\n“Here’s the new version” shares the output. “This changed because you said that” closes the loop. When you share only the update, the people who gave feedback are left guessing: Did my comment land? Did it influence anything? Did the designer even remember it? Over time, that uncertainty erodes engagement. People stop showing up with careful observations because the feedback doesn’t seem to connect to anything.\nConsider the scenario of a designer updating a dashboard design after a critique:\n- Poor followup: “Here’s the updated dashboard. We made some changes to the navigation and hierarchy.”\n- Strong followup: “We simplified the navigation after the group flagged that users couldn’t find their primary action. We also gave savings progress more visual weight, which came from our discussion about information hierarchy.”\nThe content of both updates is nearly identical, but the strong followup includes attribution. It connects the specific change to the specific feedback from the session. That’s what makes participants feel like contributors rather than an audience.\nIf you’re including a before-and-after visual, add an annotation with context. Don’t assume the comparison is self-explanatory. A sentence or two pointing to what changed and why gives people the context to engage with the image rather than scroll past it.\nTactic: Acknowledge What You Didn’t Act On\nMost designers default to reporting the wins: what changed, what improved, and what feedback they incorporated. This is understandable (we love winning!), but it creates a selective highlight reel that can quietly erode trust over time.\n[Stakeholders notice](https://www.nngroup.com/articles/stakeholder-engagement/) when their feedback wasn’t addressed. If no on",
+      "title": "Closing the Loop: What to Do After a Design Critique Ends - NN/G",
+      "url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar"
+    },
     "https://www.nngroup.com/articles/top-articles-2025/?utm_campaign=&utm_source=twitter&utm_medium=social": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -28267,6 +28368,21 @@
       "text_excerpt_zh": "",
       "title": "千问-阿里 AI 助手 千问-阿里 AI 助手",
       "url": "https://www.qianwen.com/"
+    },
+    "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://www.seangoedecke.com/og-image.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Prompts are technical debt too\nIt’s [common](https://www.tokyodev.com/articles/all-code-is-technical-debt) and correct to say that “all code is technical debt”. Adding code is a necessary evil for developing new features: you almost always have to do it, but each line of code adds to the complexity and maintenance burden of the system. All future changes to the system have to work with the existing code, or at least avoid breaking it. Once systems accumulate enough code, they become impossible for a single person to understand: instead of reading the code and understanding what it does, you must rely on guesses, theories and heuristics[1](https://www.seangoedecke.com#fn-1). Sensible engineers write as little code as possible.\nThey write a lot of prompts, though! Many large projects now have a set of codebase-specific prompt files: AGENTS.md, CLAUDE.md, those same files in sub-directories, and [skills](https://github.com/anthropics/skills). If you’re building a program that uses AI[2](https://www.seangoedecke.com#fn-2), you’ll have separate prompts for [capabilities](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/agent/prompt) and for each [tool](https://github.com/anomalyco/opencode/blob/dev/packages/opencode/src/tool/lsp.txt), as well as a whole set of [system prompts](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt).\nPrompts are important. Minor tweaks to a LLM’s prompt can unlock significant performance improvements. If the same model feels different across Codex, Cursor, OpenCode, and Copilot, it’s almost certainly due to subtle differences in prompting. AI companies spend a lot of time testing and tweaking their prompts, so it makes sense why engineers would spend a lot of time tweaking their AGENTS.md files[3](https://www.seangoedecke.com#fn-3) for their projects. I’d even call switching tools or workflows to be a form of prompting. If I start wrapping my agents in a [Ralph loop](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt), pull in a new skill file, or install an [MCP](https://www.seangoedecke.com/model-context-protocol/) server, that’s still a change to my prompts even though I’m not the one who wrote it.\nI think it is a bad idea to spend a ton of time tweaking a bespoke agentic coding setup. Why is that, given that prompt adjustments can deliver a lot of value? Because prompt adjustments are model-specific. Earlier I said that AI companies spend a lot of time tweaking their prompts. In fact, they spend that amount of time for each new model release. A prompt that worked great for GPT-5.4 won’t necessarily work as well for GPT-5.5. You have to “learn how to hold the model” each time.\nIn other words, a set of prompts that you carefully crafted in January this year might be out of date or actively harmful by February. Worse still, you might not even notice. Model capabilities are already so hard to pin down (unless you’re running every problem through different models and tools), and even weak AI systems are surprisingly good at some problems. You might just think “huh, the new Anthropic model isn’t as impressive as the hype”, or “wow, Claude Code has gotten worse recently”.\nIn this sense, prompts are a worse form of technical debt than code. When technical debt blows up, it usually causes errors or a tangible slowdown as you try to understand the code. Prompts will decay silently. Also, even janky code tends to be relatively stable when untouched, but every single model upgrade could turn a functional prompt into a non-functional one.\nCould you simply decide not to upgrade models? Some people are trying this, but the pace of improvement is fast enough that that isn’t really practical. A delicately-prompted agentic harness built around GPT-4.1 is always going to underperform a bare-bones harness built around Opus 4.7. This might be a sensible strategy at some point in the future, when the rate of model improvement slows down",
+      "title": "Prompts are technical debt too",
+      "url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar"
     },
     "https://www.shapeof.ai": {
       "content_type": "text/html; charset=utf-8",
@@ -39767,6 +39883,7 @@
       "https://x.com/zknmoe/status/2060046324175704346",
       "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg",
       "https://x.com/zknmoe/status/2060060537707286967",
+      "https://x.com/zknmoe/status/2060350338540921060",
       "https://x.com/zknmoe/status/2060009841486172638",
       "https://x.com/zknmoe/status/2060048716526936295",
       "https://x.com/zknmoe/status/2060010918948302898"
@@ -39779,8 +39896,21 @@
     "2059965702543712397": [
       "https://x.com/menhguin/status/2059965702543712397"
     ],
+    "2059975090855428571": [
+      "https://x.com/danshipper/status/2059975090855428571",
+      "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
+      "https://x.com/danshipper/status/2059976661924290964",
+      "https://every.to/guides/codex-for-knowledge-work",
+      "https://x.com/danshipper/status/2059977059233923515",
+      "https://x.com/danshipper/status/2059980665081192736",
+      "https://x.com/danshipper/status/2060025890231197803",
+      "https://x.com/danshipper/status/2059983128551166116",
+      "https://x.com/danshipper/status/2059980665081192736?s=20"
+    ],
     "2059982309093523635": [
-      "https://x.com/calcsam/status/2059982309093523635"
+      "https://x.com/calcsam/status/2059982309093523635",
+      "https://x.com/calcsam/status/2060377968334303467",
+      "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
     ],
     "2059982444703727721": [
       "https://x.com/alextang/status/2059982444703727721",
@@ -39793,24 +39923,24 @@
     "2059988985255215288": [
       "https://x.com/justhalfbit/status/2059988985255215288",
       "http://x.com/i/article/2059978479459000320",
+      "https://x.com/justhalfbit/status/2060398624995967067",
+      "https://x.com/justhalfbit/status/2060402162207690754",
       "https://x.com/justhalfbit/status/2060201191401775357",
       "https://x.com/justhalfbit/status/2060219856444662176",
       "https://x.com/justhalfbit/status/2060155741428662481",
+      "https://x.com/justhalfbit/status/2060277182329450877",
+      "https://x.com/justhalfbit/status/2060178364455866475",
       "https://x.com/justhalfbit/status/2060215645686448152",
       "https://x.com/justhalfbit/status/2060192701799158199",
-      "https://x.com/justhalfbit/status/2060196337912545289",
       "https://x.com/justhalfbit/status/2060196854684328397",
-      "https://x.com/justhalfbit/status/2060178364455866475",
-      "https://x.com/justhalfbit/status/2060277182329450877",
+      "https://x.com/justhalfbit/status/2060367305846960426",
       "https://x.com/justhalfbit/status/2060320806077337605",
+      "https://x.com/justhalfbit/status/2060159795273892345",
+      "https://x.com/justhalfbit/status/2060196337912545289",
       "https://x.com/justhalfbit/status/2060155901210726769",
       "https://x.com/justhalfbit/status/2060178186776768924",
       "https://x.com/justhalfbit/status/2060057890598142266",
-      "https://x.com/justhalfbit/status/2060159795273892345",
-      "https://x.com/justhalfbit/status/2059999403797102908",
-      "https://x.com/justhalfbit/status/2060215825559166997",
-      "https://x.com/justhalfbit/status/2059999182602068451",
-      "https://x.com/justhalfbit/status/2059996967137051039"
+      "https://x.com/justhalfbit/status/2059999403797102908"
     ],
     "2059990512103465438": [
       "https://x.com/MichLieben/status/2059990512103465438",
@@ -39820,9 +39950,9 @@
       "https://x.com/SidebarIO/status/2059993607419965888",
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
-      "https://x.com/SidebarIO/status/2060038649895367019",
-      "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
-      "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+      "https://x.com/SidebarIO/status/2060410600908345391",
+      "https://mechanical-pencil.com/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
     ],
     "2059996110584762439": [
       "https://x.com/nikunj/status/2059996110584762439",
@@ -39851,8 +39981,8 @@
       "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
       "https://x.com/vanschneider/status/2060033048859599190",
       "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
-      "https://x.com/vanschneider/status/2060107752396001547",
-      "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
+      "https://x.com/vanschneider/status/2060390599178555447",
+      "https://pbs.twimg.com/media/HJf6LG2XkAED7HA.jpg"
     ],
     "2060035425574764708": [
       "https://x.com/Av1dlive/status/2060035425574764708",
@@ -39861,16 +39991,17 @@
       "https://github.com/codejunkie99/cove",
       "https://x.com/Av1dlive/status/2060039406824898605",
       "https://x.com/Av1dlive/status/2060315643883532597",
-      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060051064402178483",
-      "https://x.com/Av1dlive/status/2060037134313247205",
+      "https://x.com/Av1dlive/status/2060374756004893055",
+      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060036806553550971",
       "https://x.com/Av1dlive/status/2060042134175240630",
+      "https://x.com/Av1dlive/status/2060037134313247205",
       "https://x.com/Av1dlive/status/2060057107458822241",
-      "https://x.com/Av1dlive/status/2060056936515764703",
       "https://x.com/Av1dlive/status/2060063490208088186",
-      "https://x.com/Av1dlive/status/2060042640360648849",
+      "https://x.com/Av1dlive/status/2060056936515764703",
       "https://x.com/Av1dlive/status/2060070068269224322",
+      "https://x.com/Av1dlive/status/2060042640360648849",
       "https://x.com/Av1dlive/status/2060037081729253413"
     ],
     "2060049802931433800": [
@@ -39947,8 +40078,38 @@
       "https://x.com/dillon_mulroy/status/2060135644240707774",
       "https://x.com/dillon_mulroy/status/2059985696148849025",
       "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
+    ],
+    "2060174563691082117": [
+      "https://x.com/BadUncleX/status/2060174563691082117",
+      "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg",
+      "https://x.com/BadUncleX/status/2060345341371982061"
+    ],
+    "2060192548350824503": [
+      "https://x.com/Necmttn/status/2060192548350824503"
+    ],
+    "2060251822032671014": [
+      "https://x.com/odysseus0z/status/2060251822032671014"
+    ],
+    "2060289011579859152": [
+      "https://x.com/vikingmute/status/2060289011579859152"
+    ],
+    "2060355988616540534": [
+      "https://x.com/SidebarIO/status/2060355988616540534",
+      "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg",
+      "https://x.com/SidebarIO/status/2059993607419965888",
+      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
+    ],
+    "2060401038591435197": [
+      "https://x.com/SidebarIO/status/2060401038591435197",
+      "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg",
+      "https://x.com/SidebarIO/status/2059993607419965888",
+      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ]
   },
-  "updated_at": "2026-05-29T13:36:16Z",
+  "updated_at": "2026-05-29T17:44:57Z",
   "window": "recent"
 }
