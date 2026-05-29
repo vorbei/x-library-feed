@@ -61,6 +61,9 @@
         "bookmark@chumsdock"
       ],
       "text": "@rubenssoto_ai check out my post\nhttps://x.com/lexrus/status/2059611865861525665?s=20",
+      "text_zh": "@rubenssoto_ai 看看我的帖子\nhttps://x.com/lexrus/status/2059611865861525665?s=20",
+      "text_zh_hash": "669c14a5ba16d57e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/lexrus/status/2060127660005847116"
     },
     {
@@ -111,6 +114,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Deploying a Hermes Agent with Fly, Modal, OpenRouter, &amp; Cloudflare\n\n02:43 Managed vs VPS\n06:08 Architecture\n15:14 Setup\n22:23 Deployment\n28:00 Access / OIDC\n39:57 Hermes and Open WebUI\n52:07 Cloudflare\n01:01:35 Validation\n01:07:32 Recap\n\nAwesome tool - s/o @NousResearch ! https://t.co/TGl48R6BBY",
+      "text_zh": "使用 Fly、Modal、OpenRouter 和 Cloudflare 部署 Hermes Agent\n\n02:43 托管 vs VPS  \n06:08 架构  \n15:14 设置  \n22:23 部署  \n28:00 访问 / OIDC  \n39:57 Hermes 与 Open WebUI  \n52:07 Cloudflare  \n01:01:35 验证  \n01:07:32 总结\n\n很棒的工具有——感谢 @NousResearch！https://t.co/TGl48R6BBY",
+      "text_zh_hash": "fe365937bdbfcbfd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mattyp/status/2059998131140579753"
     },
     {
@@ -192,6 +198,9 @@
         "bookmark@chumsdock"
       ],
       "text": "This is a cool feature, but it also represents a completely new extensibility strategy for Claude Code: typescript. You can invoke typescript from within the Claude Code process and program against an API, just like you can in Pi. Workflows just first use case. A Big Deal™.",
+      "text_zh": "这是一个很酷的功能，但它也代表了 Claude Code 一种全新的可扩展策略：TypeScript。你可以在 Claude Code 进程内部调用 TypeScript，并像在 Pi 中一样通过 API 进行编程。工作流只是第一个用例。这可是件大事™。",
+      "text_zh_hash": "f25c755c5ec536a1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/schrockn/status/2060061106794557546"
     },
     {
@@ -239,6 +248,9 @@
         "bookmark@chumsdock"
       ],
       "text": "a number of useful tips + tricks for Opus 4.8: \n\n1/ you can now update the system prompt mid-conversation w/o breaking the prompt cache. \n\npreviously, you had to add <system-reminder> tags to user messages (see @trq212's post).\n\nhttps://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages\n\nhttps://x.com/trq212/status/2024574133011673516",
+      "text_zh": "一些关于 Opus 4.8 的实用技巧与窍门：\n\n1/ 现在你可以在对话中途更新系统提示词，而不会破坏提示缓存。\n\n之前，你需要在用户消息中添加 `<system-reminder>` 标签（参见 @trq212 的帖子）。\n\nhttps://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages\n\nhttps://x.com/trq212/status/2024574133011673516",
+      "text_zh_hash": "214b293ad1809edf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/RLanceMartin/status/2060075220044796199"
     },
     {
@@ -334,6 +346,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": ">i wrote a few minimal loop templates for openclaw and hermes,\n>you feed it a small slice of state and a 9am schedule, or just stuff this article in,\n>agent wakes up on its own and gets to work, writes a review packet and stops where you need to approve,\n>you scan 7 lines in 30 seconds: decision needed, recommended default, what changed, evidence, risks, approval boundary, next step, then snooze 10 more minutes,\n>three weeks in you've got a flock of small loops running, each one is one less briefing you have to give.",
+      "text_zh": "> 我为 OpenClaw 和 Hermes 写了一些极简的循环模板：  \n> 你只需喂给它一小段状态和一份上午 9 点的日程，或者直接把本文塞进去，  \n> 智能体就会自动醒来开始工作，写一份审查包，然后停在需要你批准的地方。  \n> 你花 30 秒扫 7 行内容：需要决策、推荐默认值、变更内容、证据、风险、批准边界、下一步行动，然后继续小睡 10 分钟。  \n> 三周后，你手头就有一群小循环在运行，每多一个，就意味着你少做一次汇报。",
+      "text_zh_hash": "97aa0829c50079e8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Voxyz_ai/status/2060058269801161016"
     },
     {
@@ -457,6 +472,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "i’ve been skeptical of throwing tons of agents at problems in parallel - especially more than a handful at once. usually just generates a firehose of slop\n\nbut @poteto’s post is a great reminder that thoughtful parallelism is powerful: multiple models reviewing each other, generating N solutions to compare, or adversarial critique\n\nthere’s a real unlock in equipping engineers with these kinds of parallel deep workflows",
+      "text_zh": "我一直对并行堆叠大量智能体（尤其是同时超过几个）持怀疑态度——通常只会产生大量垃圾信息。\n\n但 @poteto 的帖子很好地提醒了我们，经过深思熟虑的并行处理是强大的：多个模型相互审查、生成 N 个方案进行比较，或者进行对抗性批评。\n\n让工程师掌握这类并行深度工作流程，确实能带来真正的突破。",
+      "text_zh_hash": "4feaec977ecba2a2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/katia_bazzi/status/2060019907966935249"
     },
     {
@@ -507,6 +525,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Looks like @ClaudeDevs released \"dynamic workflows\" today. It's a really neat feature!\n\nHere's a video about how it works that I recorded last week. https://t.co/5JfbL3rr64",
+      "text_zh": "看起来 @ClaudeDevs 今天发布了\"动态工作流\"功能。这真是个非常棒的特性！\n\n这是我上周录制的关于其工作原理的视频。https://t.co/5JfbL3rr64",
+      "text_zh_hash": "ac2ac8c48fb48bf7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/theramjad/status/2060088782251266298"
     },
     {
@@ -590,6 +611,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Stop being Claude's context intern\" is the cleanest way I can describe the problem.\n\nIf every useful Claude conversation starts with you hauling context from five tools, the workflow is still more manual than it looks.\n\nMCPs are the way out when they remove that repeated loop.",
+      "text_zh": "“别再当Claude的上下文搬运工了”——这是我能想到最直白的描述。\n\n如果每次有价值的Claude对话，都要你从五个工具里搬运上下文，那这个工作流本质上还是比看起来更手动。\n\nMCP的价值，就在于它能消除这种重复循环。",
+      "text_zh_hash": "4d9412ca5cc7343f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hnshah/status/2060058695095267425"
     },
     {
@@ -756,6 +780,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "There’s a big difference in building agents for the browser or a local CLI and building agents that can live in Slack or Discord:",
+      "text_zh": "为浏览器或本地 CLI 构建代理，与构建能驻留在 Slack 或 Discord 中的代理，两者之间存在巨大差异：",
+      "text_zh_hash": "7ac2aba03555dbb4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/calcsam/status/2059982309093523635"
     },
     {
