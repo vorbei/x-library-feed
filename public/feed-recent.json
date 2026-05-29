@@ -1064,14 +1064,14 @@
       "id": "2047124027370869016"
     },
     {
+      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
+      "id": "2039298177061511399"
+    },
+    {
       "article_text": "We pulled dozens of AGENTS.md files from across our monorepo and measured their effect on code generation. The best ones gave our coding agent a quality jump equivalent to upgrading from Haiku to Opus. The worst ones made the output worse than having no AGENTS.md at all.\nThat gap was surprising enough that we built a systematic study around it.\nWhat we found: most of what people put in AGENTS.md either doesn't help or actively hurts, and the patterns that work are specific and learnable.\nThe same file can help one task and hurt another by 30%\nA single AGENTS.md isn't uniformly good or bad. The same file boosted best_practices by 25% on a routine bug fix and dropped completeness by 30% on a complex feature task in the same module.\nOn the bug fix, a decision table for choosing between two similar data-fetching approaches helped the agent pick the right pattern immediately and stay within codebase standards. On the feature task, the agent read that same file, got pulled into the reference section, opened dozens of other markdown files trying to verify its approach against every guideline, created unnecessary abstractions, and shipped an incomplete solution.\nDifferent blocks of the document had opposite effects on different tasks.\nWhat follows is which patterns work, which fail, and how to tell which is which for your codebase.\nHow we measured this\nWe used AuggieBench, one of our internal eval suites, to evaluate how well agents do our internal dev work. We start with high-quality PRs from a large repo that reflect typical day-to-day agent tasks, set up the environment and prompt, and ask the agent to do the same task. Then we compare its output against the golden PR, the version that actually landed after review by multiple senior engineers. We filtered out PRs with scope creep or known bugs.\nFor this study, we added two more filters: PRs had to be contained within a single module or app, and the scope had to be one where information in an AGENTS.md might plausibly help. We then ran each task twice, with and without the file, and compared scores.\nWhat works\n1. Progressive disclosure beats comprehensive coverage\nTreat your AGENTS.md like a skill. Cover the common cases and workflows at a high level, then push details into reference files the agent can load on demand. Keep each reference's scope clear so the agent knows when to pull it in.\nThe 100–150 line AGENTS.md files with a handful of focused reference documents were the top performers in our study, delivering 10–15% improvements across all metrics in mid-size modules of around 100 core files. Once the main file got longer than that, the gains started reversing.\n2. Procedural workflows take agents from failing to finishing\nDescribing a task as a numbered, multi-step workflow was one of the strongest patterns we measured. A well-written workflow can move the agent from unable to complete a task to producing a correct solution on the first try.\nOne example from our codebase: a six-step workflow for deploying a new integration. The agent followed it step by step. The share of PRs with missing wiring files dropped from 40% to 10%, and the agent finished faster on average. Correctness went up 25%. Completeness went up 20%.\nFor complex workflows, keep the main file concise and use reference files for branching cases.\n3. Decision tables resolve ambiguity before the agent writes code\nWhen your codebase has two or three reasonable ways to do something, decision tables force the choice up front. This is the pattern that most directly improved adherence to codebase conventions.\nExample: resolving React Query vs Zustand for state management.\n \nPRs in this area scored 25% higher on best_practices. The table resolved the ambiguity before the agent wrote a single line of code.\n4. Examples from the real codebase improve code reuse\nShort snippets of 3–10 lines from actual production code improved reuse and pattern adherence. Keep it to a few examples that are most relevant and not duplicative. More than that and the agent starts pattern-matching on the wrong thing.\n \n5. Domain-specific rules still matter\nThis is the pattern most people already associate with AGENTS.md: language- or org-specific gotchas.\n \nThis works when the rule is specific and enforceable. It stops working when you stack dozens of them. See the overexploration section below.\n6. Pair every \"don't\" with a \"do\"\nWarning-only documentation consistently underperformed documentation that paired prohibitions with a concrete alternative.\nIf you add Don't instantiate HTTP clients directly, pair it with Use the shared apiClient from lib/http with the retry middleware.\nThe first on its own makes the agent cautious and exploratory. The pair tells it what to do and moves on.\nAGENTS.md files with 15+ sequential \"don'ts\" and no \"dos\" caused the agent to over-explore, stay conservative, and do less work. More on that below.\n7. Keep your code modular, and AGENTS.md too\nThe best-performing agent docs described relatively isolated submodules. Mid-size modules, around 100 core files, with a 100–150 line AGENTS.md and a few reference documents, were where we saw the 10–15% cross-metric gains. Examples: UI components of the client, standalone services.\nHuge, cross-cutting AGENTS.md files at the repo root underperformed module-level ones. But the document itself is only part of the story.\nIn our study, the worst-performing AGENTS.md files were the ones sitting on top of massive surrounding documentation. One module had 37 related docs totaling about 500K characters. Another had 226 docs totaling over 2MB. In both cases, removing just the AGENTS.md barely changed agent behavior. The agent kept finding and reading the surrounding doc sprawl, and the sprawl was the problem.\nIf your AGENTS.md is good but your module has 500K of specs around it, the specs are what the agent is reading. Fix the documentation environment, not just the entry point.\nWhere AGENTS.md falls short\nThe overexploration trap\nThis is the most common failure mode we observed, and it's essentially context rot.\nTwo patterns cause it:\n1. Too much architecture overview.\n\nThe agent gets pulled into reading documentation files, sometimes dozens of them, trying to \"better understand the architecture.\" It loads tens or hundreds of thousands of tokens of context, and the output gets worse.\n \n2. Excessive warnings\nA big section of \"don'ts\" without matching \"dos\" produces a specific failure. The agent reads each instruction, tries to figure out whether it applies to the current task, and starts verifying its solution against every single warning. With 30–50 warnings, that means reading migration scripts, checking API version compatibility, and exploring auth middleware code, even on a task where none of it matters.\n \nNew patterns break old documentation\nIf you're introducing a pattern that doesn't exist in your codebase yet, AGENTS.md can actively steer the agent in the wrong direction.\n \nKnow what you're optimizing for\nDifferent patterns move different metrics. Pick the patterns that target the problem you actually have.\n \nHow agents actually find your docs\nBefore deciding how to migrate your existing documentation, it helps to know what the agent actually reads. We traced documentation discovery across hundreds of sessions. The discovery rates are lopsided enough to shape migration priorities.\nAGENTS.md files are discovered automatically in 100% of cases, for every file in the hierarchy from the working directory by most harnesses.\nReferences out of AGENTS.md are loaded on demand and read in over 90% of sessions when the agent has a reason to pull them in.\nDirectory-level README.md files aren't auto-loaded, but the agent reads them in 80%+ of sessions when it's working in that directory.\nAfter that, discovery falls off a cliff.\nNested READMEs, meaning README files in subdirectories the agent isn't currently working in, get discovered only about 40% of the time.\nOrphan docs in _docs/ folders that nothing references get read in under 10% of sessions. One service in our codebase had 30K of detailed protocol design, throttling rules, and security docs in _docs/. The agent never opened most of them across dozens of sessions.\nAGENTS.md is the only documentation location with reliable discovery. If something needs to be seen, it either lives there or is directly referenced from there. Moving the content into a referenced location is usually higher leverage than writing more docs.\nMigrating existing docs\nEvery company already has READMEs, architecture docs, and design specs scattered across the repo. Here's how to turn that into something an agent can actually use.\nShould you just rename your README.md to AGENTS.md?\nREADMEs and AGENTS.md serve different audiences, but they can be reused. Agents are good enough at codebase summarization now that human-oriented docs are less necessary than they used to be. You can either write an agentic doc from scratch, or reuse your README. If you reuse it, trim it aggressively. Keep it short, follow the patterns above, and cut any section that's there for humans to skim.\nWhen to keep existing documentation\nIf the docs are high quality, current, to the point, and have examples, reuse them. Reference them from module- or folder-level AGENTS.md files. Don't put more than 10–15 references in a single AGENTS.md and keep the context lean. And audit the surrounding environment: if the module around your AGENTS.md has dozens of architecture docs and spec files, the agent will find and read them whether you reference them or not. A focused 150-line AGENTS.md sitting on top of 500K of surrounding specs won't save the agent from the specs.\nAGENTS.md isn't the only path\nAgents find reference material through grep and semantic search too. About half of all search-result hits in our traces came from those tools, not from AGENTS.md references. If you're keeping legacy documentation, make sure the docs include relevant code examples and descriptive text that's searchable. A well-structured AGENTS.md gives you more control over what ends up in the context window, but it isn't the only way in.\nWhat this study didn't cover\nWe focused on one-shot trajectories and the agent's ability to finish coding tasks without human intervention. We didn't look at best practices for maintaining AGENTS.md over time, though we're exploring that now. We also didn't cover operational, interactive, or analytics tasks. Those are coming in future posts.\nWritten by: Slava Zhenylenko (Member of Technical Staff)",
       "article_text_zh": "我们从单体仓库中收集了数十份 AGENTS.md 文件，并测量了它们对代码生成的影响。最好的文件让我们的编码智能体质量提升，相当于从 Haiku 升级到 Opus。最差的文件则让输出结果比完全没有 AGENTS.md 还要糟糕。\n\n这一差距之大，促使我们围绕它进行了一项系统性研究。\n\n我们的发现：人们在 AGENTS.md 中放入的大部分内容要么没有帮助，要么反而有害，而真正有效的模式是具体且可学习的。\n\n**同一个文件可能对一项任务有帮助，却对另一项任务造成 30% 的损害**\n\n单个 AGENTS.md 并非绝对的好或坏。同一个文件，在一个常规的 bug 修复任务中，将 `best_practices` 指标提升了 25%；而在同一个模块的一个复杂特性任务中，却将 `completeness` 指标降低了 30%。\n\n在 bug 修复任务中，一个用于在两种相似的数据获取方法之间进行选择的决策表，帮助智能体立即选对了模式，并遵循了代码库标准。而在特性任务中，智能体读取了同一个文件，被吸引到参考部分，打开了数十个其他 markdown 文件，试图根据每一条指南来验证其方法，创建了不必要的抽象，最终交付了一个不完整的解决方案。\n\n文档中的不同区块，对不同任务产生了截然相反的效果。\n\n接下来将介绍哪些模式有效、哪些模式会失败，以及如何为你的代码库判断哪种模式适用。\n\n**我们如何测量**\n\n我们使用了 AuggieBench（我们内部的一个评估套件）来评估智能体完成内部开发工作的能力。我们从大型仓库中选取高质量的 PR，这些 PR 反映了典型的日常智能体任务。我们设置好环境和提示词，让智能体执行相同的任务。然后，将其输出与黄金 PR（即经过多位高级工程师审查后实际合并的版本）进行比较。我们过滤掉了范围蔓延或存在已知 bug 的 PR。\n\n在本研究中，我们增加了两个过滤条件：PR 必须限定在单个模块或应用内，并且其范围必须是 AGENTS.md 中的信息可能提供帮助的场景。然后，我们对每个任务运行两次（一次有该文件，一次没有），并比较得分。\n\n**什么有效**\n\n**1. 渐进式披露优于全面覆盖**\n\n将你的 AGENTS.md 视为一项技能。在高层面上覆盖常见情况和工作流程，然后将细节推送到参考文件中，智能体可以按需加载。保持每个参考文件的范围清晰，以便智能体知道何时引入它。\n\n在我们的研究中，100-150 行的 AGENTS.md 文件，配合少量重点参考文档，是表现最好的。在约 100 个核心文件的中等规模模块中，它们在所有指标上带来了 10-15% 的提升。一旦主文件超过这个长度，收益就开始逆转。\n\n**2. 程序化工作流程让智能体从失败走向完成**\n\n将任务描述为编号的多步骤工作流程，是我们测量到的最强模式之一。一个编写良好的工作流程，可以使智能体从无法完成任务，转变为首次尝试就产生正确的解决方案。\n\n我们代码库中的一个例子：一个用于部署新集成的六步工作流程。智能体一步步地遵循它。缺少连接文件的 PR 比例从 40% 下降到 10%，并且智能体平均完成速度更快。正确性提高了 25%。完整性提高了 20%。\n\n对于复杂的工作流程，保持主文件简洁，并使用参考文件来处理分支情况。\n\n**3. 决策表在智能体编写代码之前消除歧义**\n\n当你的代码库有两三种合理的方法来做某件事时，决策表会强制提前做出选择。这是最直接提高代码库约定遵循度的模式。\n\n示例：解决 React Query 与 Zustand 在状态管理中的选择。\n\n该区域的 PR 在 `best_practices` 上得分高出 25%。该表在智能体编写一行代码之前就消除了歧义。\n\n**4. 来自真实代码库的示例提高代码复用率**\n\n来自实际生产代码的 3-10 行短片段，提高了复用率和模式遵循度。保持只提供最相关且不重复的几个示例。超过这个数量，智能体就会开始对错误的东西进行模式匹配。\n\n**5. 领域特定规则仍然重要**\n\n这是大多数人已经与 AGENTS.md 关联起来的模式：语言或组织特定的注意事项。\n\n当规则具体且可执行时，这很有效。当你堆叠数十条规则时，它就会失效。请参见下面的过度探索部分。\n\n**6. 每个“不要”都配上一个“要”**\n\n仅包含警告的文档，其表现始终低于将禁止与具体替代方案配对的文档。\n\n如果你添加“不要直接实例化 HTTP 客户端”，请配上“使用 `lib/http` 中带有重试中间件的共享 `apiClient`”。\n\n前者单独出现会让智能体变得谨慎和探索性过强。后者则告诉它该做什么并继续前进。\n\n包含 15 个以上连续“不要”且没有“要”的 AGENTS.md 文件，会导致智能体过度探索、保持保守并做更少的工作。下面会详细说明。\n\n**7. 保持代码模块化，AGENTS.md 也是如此**\n\n表现最好的智能体文档描述了相对独立的子模块。大约 100 个核心文件的中等规模模块，配合 100-150 行的 AGENTS.md 和少量参考文档，是我们看到 10-15% 跨指标收益的地方。例如：客户端的 UI 组件、独立服务。\n\n仓库根目录下庞大、跨领域的 AGENTS.md 文件，其表现不如模块级别的文件。但文档本身只是故事的一部分。\n\n在我们的研究中，表现最差的 AGENTS.md 文件是那些位于大量周边文档之上的文件。一个模块有 37 个相关文档，总计约 50 万字符。另一个有 226 个文档，总计超过 2MB。在这两种情况下，仅仅移除 AGENTS.md 几乎不会改变智能体的行为。智能体仍然会找到并阅读周边的文档蔓延，而蔓延本身就是问题。\n\n如果你的 AGENTS.md 很好，但你的模块周围有 50 万字符的规范文档，那么智能体阅读的将是这些规范文档。修复的是文档环境，而不仅仅是入口点。\n\n**AGENTS.md 的不足之处**\n\n**过度探索陷阱**\n\n这是我们观察到的最常见的失败模式，本质上就是上下文腐烂。\n\n有两种模式会导致它：\n\n1.  **过多的架构概述。**\n    智能体会被吸引去阅读文档文件，有时是数十个，试图“更好地理解架构”。它加载了数万或数十万个 token 的上下文，输出结果变得更糟。\n\n2.  **过多的警告**\n    一大段没有匹配“要”的“不要”，会产生特定的失败。智能体阅读每条指令，试图判断它是否适用于当前任务，并开始根据每一条警告来验证其解决方案。面对 30-50 条警告，这意味着要阅读迁移脚本、检查 API 版本兼容性、探索认证中间件代码，即使在一个完全不需要这些的任务上也是如此。\n\n**新模式会破坏旧文档**\n\n如果你正在引入一个代码库中尚不存在的模式，AGENTS.md 可能会主动将智能体引向错误的方向。\n\n**明确你的优化目标**\n\n不同的模式会推动不同的指标。选择针对你实际问题的模式。\n\n**智能体如何实际找到你的文档**\n\n在决定如何迁移现有文档之前，了解智能体实际读取了什么会有所帮助。我们追踪了数百次会话中的文档发现过程。发现率的差异足以影响迁移的优先级。\n\n*   AGENTS.md 文件在 100% 的情况下会被自动发现，对于工作目录层次结构中的每个文件，大多数 harness 都会这样做。\n*   AGENTS.md 中的引用文件是按需加载的，当智能体有理由引入它们时，在超过 90% 的会话中会被读取。\n*   目录级别的 README.md 文件不会自动加载，但当智能体在该目录下工作时，在 80% 以上的会话中会读取它们。\n\n在此之后，发现率急剧下降。\n\n*   嵌套的 README，即智能体当前未工作的子目录中的 README 文件，只有大约 40% 的时间会被发现。\n*   在 `_docs/` 文件夹中未被任何内容引用的孤立文档，在不到 10% 的会话中被读取。我们代码库中的一个服务在 `_docs/` 中有 3 万字符的详细协议设计、限流规则和安全文档。在数十次会话中，智能体从未打开过其中大部分。\n\nAGENTS.md 是唯一具有可靠发现率的文档位置。如果某些内容需要被看到，它要么存在于那里，要么被直接引用。将内容移动到被引用的位置，通常比编写更多文档更具杠杆效应。\n\n**迁移现有文档**\n\n每家公司都已经在仓库中散落着 README、架构文档和设计规范。以下是如何将其转化为智能体可以实际使用的内容。\n\n**你应该直接把 README.md 重命名为 AGENTS.md 吗？**\n\nREADME 和 AGENTS.md 服务于不同的受众，但它们可以重复使用。现在智能体在代码库摘要方面已经足够好，以至于面向人类的文档不再像以前那样必要。你可以从头编写一份智能体文档，或者重复使用你的 README。如果重复使用，请大力精简。保持简短，遵循上述模式，并删除任何仅供人类快速浏览的部分。\n\n**何时保留现有文档**\n\n如果文档质量高、内容最新、切中要点并且有示例，请重复使用它们。从模块或文件夹级别的 AGENTS.md 文件中引用它们。不要在单个 AGENTS.md 中放置超过 10-15 个引用，并保持上下文精简。同时，审计周边环境：如果你的 AGENTS.md 所在的模块有数十个架构文档和规范文件，无论你是否引用它们，智能体都会找到并阅读它们。一个聚焦的 150 行 AGENTS.md 文件，如果位于 50 万字符的周边规范之上，是无法将智能体从规范中拯救出来的。\n\n**AGENTS.md 不是唯一的路径**\n\n智能体也可以通过 `grep` 和语义搜索来查找参考材料。在我们的追踪中，大约一半的搜索结果命中来自这些工具，而不是来自 AGENTS.md 的引用。如果你保留旧文档，请确保这些文档包含相关的代码示例和可搜索的描述性文本。一个结构良好的 AGENTS.md 能让你更好地控制最终进入上下文窗口的内容，但它不是唯一的途径。\n\n**本研究未涵盖的内容**\n\n我们专注于单次轨迹以及智能体在无人干预的情况下完成编码任务的能力。我们没有研究随时间维护 AGENTS.md 的最佳实践，尽管我们目前正在探索这一点。我们也没有涵盖运营、交互或分析类任务。这些将在未来的文章中介绍。\n\n作者：Slava Zhenylenko（技术专家）",
       "article_text_zh_hash": "fa84241b3f7e4970",
       "id": "2047164534310494709"
-    },
-    {
-      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
-      "id": "2039298177061511399"
     },
     {
       "article_text": "I’m a heavy Claude Code user and while I love Plan mode, I find it’s actually not all that thorough in its planning.\nWhile it certainly has an obscene amount of data in its training corpus, it doesn’t have everything and is obviously missing anything recent. So I’ve found that making sure a given task has the latest docs and latest web search results tends to solve problems much more efficiently.\nFor docs, it detects if you’ve got the Context7 MCP installed.\nThere’s a lot of debate on the efficacy of Context7. The argument being that web searching/scraping works just fine. But I find that a substantial number of developer sites are extremely javascript heavy or behind auth (which is certifiably insane). So Context7 fills in the gap much more efficiently.\nFor design, it uses the the ui.sh toolkit, though that's not required.\nAt any rate, here’s the /research skill I tack on to just about any new feature or bug I’m working through. This is geared towards Claude, but you should be able to adapt to whatever harness you use relatively easily.",
@@ -4437,6 +4437,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059959528138194944"
+    },
+    "http://x.com/i/article/2060024515619397638": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060024515619397638",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060024515619397638/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJa76bMXYAAVzh0?format=jpg&name=900x900)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040491975008256)\n\nHow to build your own agent harness???\n\n[![](https://pbs.twimg.com/profile_images/2000231368198852610/YnKhL5h5_normal.jpg)](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[Mike Piccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[@mfpiccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n·\n\n5h\n\nFollow\n\nClick to Follow mfpiccolo\n\n6\n\n31\n\n324\n\n[36K](http://x.com/i/article/2060024515619397638/mfpiccolo/status/2060069083878408689/analytics)\n\nMost agent teams don't build a harness. They adopt one. LangChain, LangGraph, OpenAI Agents SDK, Anthropic SDK, CrewAI, AutoGen, the loop, the tools, the memory, and the orchestration are picked off the shelf as a single decision. The harness is a framework you import. If something inside it doesn't fit, you fork it, fight it, or work around it.\n\n[![Image](https://pbs.twimg.com/media/HJa7xHCWEAQZ9aX?format=jpg&name=small)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040331945447428)\n\nI think that shape is wrong, and it's the reason every long-running agent team eventually ends up rewriting its harness from scratch. The harness isn't one thing. It's ten or twelve different things bundled together because the surrounding ecosystem doesn't give you a way to compose them. \n\n[Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent)\n\n packages are on the right track, but they are still in the paradigm of “Add another service and integrate it with all others.” The iii engine treats all workers the same and removes the integration logic completely. The provider router, the credential vault, the policy engine, the approval gate, the model catalog, the session storage, the budget tracker, the after-call hook fanout, and the durable turn loop are independent concerns. These are all interoperable with your queue, http/api server, streaming, even browser workers. A framework that ships them as one block is selling you a tradeoff you didn't have to make.\n\nThe bet underneath\n\n[ iii](https://iii.dev/)\n\n is that they shouldn't be one block. There should be a set of workers on a shared engine, each replaceable, each versioned independently, each connected by a single primitive: a trigger (iii.trigger()) that every other worker also uses. The harness becomes a stack of installable workers, and \"build your own\" stops meaning \"fork a framework.\" It means \"swap a few workers.\"\n\nThis post walks through what that actually looks like. The complete stack that drives an iii agent turn today, why each layer is its own worker, and how you replace any of them.\n\n## \n\nThe 15 jobs an agent harness has to do\n\nIf you strip a production agent harness back to its responsibilities, you get a list that looks roughly like this:\n\n1. Accept a turn request from a client and persist it\n2. Resolve credentials for whichever model provider gets called\n3. Look up what the chosen model can actually do (vision, tools, streaming, context window)\n4. Drive the per-turn state machine, provision, stream assistant, run tools, steer, tear down\n5. Load and serve skill bodies that describe each function's request shape, error codes, and usage notes\n6. Assemble the system prompt, mode paragraph, identity preamble, working directory, and default skills appendix\n7. Stream tokens back to the client as the model produces them\n8. Check every tool call (that’s just a function) against a policy before it runs\n9. Pause tool calls that need a human decision and route the answer back to the right turn\n10. Track LLM spend against per-workspace or per-agent budgets\n11. Run hooks before and after tool calls (logging, redaction, custom side",
+      "title": "",
+      "url": "http://x.com/i/article/2060024515619397638"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -24968,19 +24981,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
     },
-    "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg": {
+    "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
+        "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
+      "url": "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
     },
     "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg": {
       "cleaner_v": 2,
@@ -24995,20 +25008,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
-    },
-    "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
     },
     "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg": {
       "cleaner_v": 2,
@@ -25038,6 +25037,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg"
     },
+    "https://pbs.twimg.com/media/HJaiqaEWAAEnyPq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaiqaEWAAEnyPq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaiqaEWAAEnyPq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaiqaEWAAEnyPq.jpg"
+    },
     "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25052,19 +25065,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg"
     },
-    "https://pbs.twimg.com/media/HJbRqVjaMAA_Y-j.jpg": {
+    "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJbRqVjaMAA_Y-j.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJbRqVjaMAA_Y-j.jpg"
+        "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJbRqVjaMAA_Y-j.jpg"
+      "url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -26524,20 +26537,6 @@
       "title": "",
       "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e"
     },
-    "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a"
-    },
     "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -26701,6 +26700,30 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "My AGENTS.md file for building plans you actually read",
       "url": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read"
+    },
+    "https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "SVGs are the way",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/5cbe6003ae2b88bc820529dc/5cc4b2dddca8019789048e5b_alice-packard-logo-2.svg",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a1455de59bf88a1d19b1e52_fa%20figma%20plugin.gif",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a145aafc0911dd6110e6e7e_material%20icon%20typing.gif",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a146c7c3913b0c18e62d89f_instance%20swap%20vs%20text%20string.gif",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a145d52346074da80e266da_arrow%20comparison.png",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a146076ae66fc5cd0d9443e_Screenshot%202026-05-25%20at%2010.44.58%E2%80%AFAM.png",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a146655b4ddd877b53305dc_inline%20icon.gif",
+        "https://cdn.prod.website-files.com/5cc4f221dca80183cc053d1b/6a146825bbbcb17059d47f0d_inline%20icon2.gif",
+        "https://cdn.prod.website-files.com/5cbe6003ae2b88bc820529dc/66d62e1aac98c410245f6579_component%20tune%20up%20graphic.png",
+        "https://cdn.prod.website-files.com/5cbe6003ae2b88bc820529dc/6341ff90e2412d5c91bfa541_Frame%2021.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Getting an icon into Figma takes a lot of work. [Figma's own docs](https://help.figma.com/hc/en-us/articles/360040449513-Use-icon-fonts#h_01JADBHFYNM9E85E7RVS1GJQ2N) (which use Font Awesome as an example) describe this as a 7-step process. The worst of which involve leaving Figma to go to FA's website... browsing their collection of glyphs, selecting the right one (which opens a modal—ouch)... copying a teeny tiny inline rendering of that icon to your clipboard... and coming back to your text layer in Figma to paste it in. Woof.\nIt'd be great if [FA's official Figma plugin](https://www.figma.com/community/plugin/1283461555078380603) let you copy the font-based glyph to your keyboard to paste into your text layer. That would reduce the context switching and feel a lot faster.\nBut that's not the case. When you select an icon in FA's plugin, it places it on the canvas as an SVG path inside of a frame.\nGoogle's official [Material Icons Figma plugin](https://www.figma.com/community/plugin/1088610476491668236/material-symbols) behaves the same way.\nIf I was working with SVG paths that were stored as components, I could just pull instances directly into my designs.\nWhile I couldn't pull this off with FA-6's free collection, I could with Material's icon font: rendering the icon in my text layer by manually typing the glyph name:\nThere's something about this workflow that feels faster and more satisfying than the one above. But that doesn't mean it's great. For this to work, I'd have to memorize the exact names of glyphs. When I want a glyph I don't have memorized, I still have to use either the font-creator's plugin, or a gallery on an official website to browse my options and learn new icons' names.\nIf I was working with SVGs stored as main components, I'd get the visual previews and have \"fuzzy search\" available via keywords stored in the component descriptions. What's more, those keywords are mine (or my design system's) to control.\nI mean, just look at the difference in experience for overriding icons within a component:\nI couldn't be bothered to figure out why typing the exact icon name failed in the example above. The risk of mis-typing something is just too great... subjecting design system consumers to memorizing icon names like this is just plain bad.\nA downside I see here is a creativity trap. Because the names must be exact, and because any one person can only be expected to memorize so many exact icon names, the world of possibility shrinks. Depending on your goals as a designer, this can be a big hinderance.\nIf you're expected to explore, go wide, and produce lots of visual artifacts to compare against each other, this workflow... sucks! It's just as cumbersome as the first one, but you also have to contend with actively-fighting the urge to \"just pick an icon you've already memorized the name of\" because that's faster and has less friction than going out to source a new glyph.\nTo truly get two or more glyphs to sit side-by-side, you have to render them in Figma. In this example, I'm interested in comparing Material's <span class=\"inline-code\">arrow_back_2</span> with <span class=\"inline-code\">arrow_left</span>. Filtering their gallery by the word \"arrow\" still pulls up other relevant results around and between these glyphs.\nSpatially, they're too far apart to adequately compare them. To do that, I'd have to render these in Figma.\nComparing this to SVGs stored as main components, I'd say the same thing I did in the first point: I could simply pull instances directly onto the canvas to compare them.\nHave you ever made a font? And I mean really making a font... like, pulling on handles and creating curves. You'd do this in software like [FontLab](https://www.fontlab.com/), or [FontForge](https://fontforge.org/en-US/).\nIf your icons exist as a font, you might use that software to edit your icons. And font-editing tools will absolutely have a learning curve to them.\nBut maybe that's overkill.\nPerhaps you'd rather edit the pat",
+      "title": "Why I don't use icon fonts in Figma",
+      "url": "https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts?ref=sidebar"
     },
     "https://www.aliyun.com/product/bailian": {
       "cleaner_v": 2,
@@ -39212,15 +39235,15 @@
       "http://x.com/i/article/2059601936723136512",
       "https://x.com/Damir_Akaza/status/2059624330590392344",
       "https://x.com/Damir_Akaza/status/2059624163644440948",
-      "https://x.com/Damir_Akaza/status/2059624938718335322",
-      "https://x.com/Damir_Akaza/status/2059627907320877145",
-      "https://x.com/Damir_Akaza/status/2059626475993649232",
       "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059627907320877145",
+      "https://x.com/Damir_Akaza/status/2059624938718335322",
+      "https://x.com/Damir_Akaza/status/2059626475993649232",
       "https://x.com/Damir_Akaza/status/2059625059463884936",
-      "https://x.com/Damir_Akaza/status/2059745850750812347",
       "https://x.com/Damir_Akaza/status/2059624623306661996",
-      "https://x.com/Damir_Akaza/status/2059694034394685537",
+      "https://x.com/Damir_Akaza/status/2059745850750812347",
       "https://x.com/Damir_Akaza/status/2059641653506241020",
+      "https://x.com/Damir_Akaza/status/2059694034394685537",
       "https://x.com/Damir_Akaza/status/2059647769132884182"
     ],
     "2059633888243151228": [
@@ -39268,8 +39291,8 @@
       "http://x.com/i/article/2059639716417273860",
       "https://x.com/IBuzovskyi/status/2060008192361345132",
       "https://x.com/IBuzovskyi/status/2060075235601224161",
-      "https://x.com/IBuzovskyi/status/2060001769690681811",
       "https://x.com/IBuzovskyi/status/2059748165641998350",
+      "https://x.com/IBuzovskyi/status/2060001769690681811",
       "https://x.com/IBuzovskyi/status/2060069477836853408",
       "https://x.com/IBuzovskyi/status/2060000299402527153",
       "https://x.com/IBuzovskyi/status/2059860662658949530",
@@ -39326,8 +39349,9 @@
     ],
     "2059740940739477523": [
       "https://x.com/nurijanian/status/2059740940739477523",
-      "https://x.com/nurijanian/status/2059960566631023037",
-      "https://pbs.twimg.com/media/HJZzAqrb0AAGlD9.jpg"
+      "https://x.com/nurijanian/status/2059805270084317243",
+      "https://x.com/nurijanian/status/2055927283991654775?s=46",
+      "https://pbs.twimg.com/media/HJXl-cCaIAAHDIE.jpg"
     ],
     "2059746337697247334": [
       "https://x.com/dani_avila7/status/2059746337697247334",
@@ -39358,8 +39382,7 @@
     "2059821390728204594": [
       "https://x.com/soleio/status/2059821390728204594",
       "https://x.com/soleio/status/2051074549396144416?s=20",
-      "https://x.com/soleio/status/2060064407720530030",
-      "https://pbs.twimg.com/media/HJbRqVjaMAA_Y-j.jpg"
+      "https://x.com/soleio/status/2060142044283281519"
     ],
     "2059822738530005439": [
       "https://x.com/calcsam/status/2059822738530005439",
@@ -39377,10 +39400,10 @@
       "https://github.com/addyosmani/agent-skills",
       "https://x.com/addyosmani/status/2059886882771882359",
       "https://x.com/addyosmani/status/2059862236504719671",
-      "https://x.com/addyosmani/status/2059884020612378875",
       "https://x.com/addyosmani/status/2059861806450200985",
-      "https://x.com/addyosmani/status/2059882269138104739",
+      "https://x.com/addyosmani/status/2059884020612378875",
       "https://x.com/addyosmani/status/2060032064364372151",
+      "https://x.com/addyosmani/status/2059882269138104739",
       "https://x.com/addyosmani/status/2060032027563606182"
     ],
     "2059939941530980672": [
@@ -39407,9 +39430,9 @@
       "https://x.com/SidebarIO/status/2059993607419965888",
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
-      "https://x.com/SidebarIO/status/2060038649895367019",
-      "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
-      "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
+      "https://x.com/SidebarIO/status/2060012732116500522",
+      "https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts?ref=sidebar",
+      "https://pbs.twimg.com/media/HJaiqaEWAAEnyPq.jpg"
     ],
     "2059996110584762439": [
       "https://x.com/nikunj/status/2059996110584762439",
@@ -39422,8 +39445,19 @@
       "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
       "https://x.com/vanschneider/status/2060003061171397060",
       "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg"
+    ],
+    "2060054180379689074": [
+      "https://x.com/_catwu/status/2060054180379689074",
+      "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg",
+      "https://x.com/_catwu/status/2060054182447448387",
+      "https://x.com/_catwu/status/2060138792875352515"
+    ],
+    "2060069083878408689": [
+      "https://x.com/mfpiccolo/status/2060069083878408689",
+      "http://x.com/i/article/2060024515619397638",
+      "https://x.com/mfpiccolo/status/2060099429533646956"
     ]
   },
-  "updated_at": "2026-05-28T19:45:13Z",
+  "updated_at": "2026-05-29T00:20:18Z",
   "window": "recent"
 }
