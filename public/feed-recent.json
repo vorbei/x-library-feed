@@ -11965,6 +11965,22 @@
       "title": "Depth Anything 3 - a Hugging Face Space by depth-anything Depth Anything 3 - a Hugging Face Space by depth-anything",
       "url": "https://huggingface.co/spaces/depth-anything/depth-anything-3"
     },
+    "https://iii.dev/blog/how-to-build-your-own-agent-harness/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Most agent teams adopt a harness as one decision. iii decomposes it into eleven independently-replaceable workers on one engine bus. Build your own stops meaning fork a framework and starts meaning swap a few workers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/",
+      "frameable": false,
+      "image_urls": [
+        "https://iii.dev/og-image.png",
+        "https://iii.dev/blog/_astro/cover.D6wTHfoP_2dkUBr.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "How to Build Your Own Agent Harness\nMost agent teams don’t build a harness. They adopt one. LangChain, LangGraph, OpenAI Agents SDK, Anthropic SDK, CrewAI, AutoGen, the loop, the tools, the memory, the orchestration are picked off the shelf as a single decision. The harness is a framework you import. If something inside it doesn’t fit, you fork it, fight it, or work around it.\nI think that shape is wrong, and it’s the reason every long-running agent team eventually ends up rewriting its harness from scratch. The harness isn’t one thing. It’s ten or twelve different things bundled together because the surrounding ecosystem doesn’t give you a way to compose them. [Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) packages are on the right track, but they are still in the paradigm of “Add another service and integrate it with all others” The iii engine treats all workers the same and removes the integration logic completely. The provider router, the credential vault, the policy engine, the approval gate, the model catalog, the session storage, the budget tracker, the after-call hook fanout, the durable turn loop are independent concerns. These are all interoperable with your queue, http/api server, streaming, even browser workers. A framework that ships them as one block is selling you a tradeoff you didn’t have to make.\nThe bet underneath [iii](https://iii.dev/) is that they shouldn’t be one block. There should be a set of workers on a shared engine, each replaceable, each versioned independently, each connected by a single primitive: a trigger (iii.trigger()\n) that every other worker also uses. The harness becomes a stack of installable workers, and “build your own” stops meaning “fork a framework.” It means “swap a few workers.”\nThis post walks through what that actually looks like. The complete stack that drives an iii agent turn today, why each layer is its own worker, and how you replace any of them.\nThe 15 jobs an agent harness has to do\nIf you strip a production agent harness back to its responsibilities, you get a list that looks roughly like this:\n- Accept a turn request from a client and persist it\n- Resolve credentials for whichever model provider gets called\n- Look up what the chosen model can actually do (vision, tools, streaming, context window)\n- Drive the per-turn state machine, provision, stream assistant, run tools, steer, tear down\n- Load and serve skill bodies that describe each function’s request shape, error codes, and usage notes\n- Assemble the system prompt, mode paragraph, identity preamble, working directory, and default skills appendix\n- Stream tokens back to the client as the model produces them\n- Check every tool call (that’s just a function) against a policy before it runs\n- Pause tool calls that need a human decision and route the answer back to the right turn\n- Track LLM spend against per-workspace or per-agent budgets\n- Run hooks before and after tool calls (logging, redaction, custom side effects)\n- Persist the session as a branching tree so forks and resumes work\n- Compact session history when the context window fills up\n- Emit an event stream that the UI subscribes to\n- Missing piece from every agent’s company building, I see. Carry one OpenTelemetry trace across every step so you can debug it\nEvery serious agent harnesses most of these. The expensive ones do all of them. The cheap ones cut corners and rebuild the corners later when they hit production. The frameworks bundle them into a monolith and ship one version of each. That last part is the part that costs you, because a year in, you find out that the policy engine you want is not the policy engine the framework ships, and replacing it means replacing the harness.\nThe iii harness ships every one of those thirteen jobs as a separate worker on the [workers.iii.dev](https://workers.iii.dev/) registry. Each speaks the same WebSocket protocol. Each registers functions and triggers on the same engine bus. Each is",
+      "title": "How to Build Your Own Agent Harness",
+      "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
+    },
     "https://impeccable.style": {
       "content_type": "text/html; charset=utf-8",
       "description": "1 skill, 23 commands, and curated anti-patterns for impeccable frontend design. Works with Cursor, Claude Code, Gemini CLI, and Codex CLI.",
@@ -25235,20 +25251,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
     },
-    "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
-    },
     "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25263,19 +25265,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     },
-    "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg": {
+    "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg"
+        "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg"
+      "url": "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
     },
     "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg": {
       "cleaner_v": 2,
@@ -39742,20 +39744,21 @@
       "https://x.com/justhalfbit/status/2059988985255215288",
       "http://x.com/i/article/2059978479459000320",
       "https://x.com/justhalfbit/status/2060201191401775357",
-      "https://x.com/justhalfbit/status/2060219856444662176",
       "https://x.com/justhalfbit/status/2060155741428662481",
+      "https://x.com/justhalfbit/status/2060277182329450877",
       "https://x.com/justhalfbit/status/2060215645686448152",
+      "https://x.com/justhalfbit/status/2060219856444662176",
       "https://x.com/justhalfbit/status/2060196337912545289",
       "https://x.com/justhalfbit/status/2060192701799158199",
       "https://x.com/justhalfbit/status/2060196854684328397",
       "https://x.com/justhalfbit/status/2060178364455866475",
-      "https://x.com/justhalfbit/status/2060057890598142266",
-      "https://x.com/justhalfbit/status/2060155901210726769",
+      "https://x.com/justhalfbit/status/2059999403797102908",
       "https://x.com/justhalfbit/status/2060178186776768924",
       "https://x.com/justhalfbit/status/2060159795273892345",
-      "https://x.com/justhalfbit/status/2059999403797102908",
-      "https://x.com/justhalfbit/status/2060215825559166997",
+      "https://x.com/justhalfbit/status/2060057890598142266",
       "https://x.com/justhalfbit/status/2059999182602068451",
+      "https://x.com/justhalfbit/status/2060215825559166997",
+      "https://x.com/justhalfbit/status/2060155901210726769",
       "https://x.com/justhalfbit/status/2059996967137051039"
     ],
     "2059990512103465438": [
@@ -39797,8 +39800,8 @@
       "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
       "https://x.com/vanschneider/status/2060033048859599190",
       "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
-      "https://x.com/vanschneider/status/2060003061171397060",
-      "https://pbs.twimg.com/media/HJaZ3Z_X0AAaOEu.jpg"
+      "https://x.com/vanschneider/status/2060107752396001547",
+      "https://pbs.twimg.com/media/HJb5FTJW0AQxs9W.jpg"
     ],
     "2060035425574764708": [
       "https://x.com/Av1dlive/status/2060035425574764708",
@@ -39811,11 +39814,11 @@
       "https://x.com/Av1dlive/status/2060037134313247205",
       "https://x.com/Av1dlive/status/2060036806553550971",
       "https://x.com/Av1dlive/status/2060042134175240630",
-      "https://x.com/Av1dlive/status/2060070068269224322",
       "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060056936515764703",
-      "https://x.com/Av1dlive/status/2060063490208088186",
       "https://x.com/Av1dlive/status/2060042640360648849",
+      "https://x.com/Av1dlive/status/2060063490208088186",
+      "https://x.com/Av1dlive/status/2060070068269224322",
       "https://x.com/Av1dlive/status/2060037081729253413"
     ],
     "2060049802931433800": [
@@ -39845,6 +39848,9 @@
     "2060069083878408689": [
       "https://x.com/mfpiccolo/status/2060069083878408689",
       "http://x.com/i/article/2060024515619397638",
+      "https://x.com/mfpiccolo/status/2060296379092664708",
+      "https://iii.dev/blog/how-to-build-your-own-agent-harness/",
+      "https://x.com/mfpiccolo/status/2060294921874006411",
       "https://x.com/mfpiccolo/status/2060099429533646956"
     ],
     "2060074305887551818": [
@@ -39883,10 +39889,9 @@
     ],
     "2060135644240707774": [
       "https://x.com/dillon_mulroy/status/2060135644240707774",
-      "https://x.com/dillon_mulroy/status/2059985696148849025",
-      "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
+      "https://x.com/dillon_mulroy/status/2060177409387713011"
     ]
   },
-  "updated_at": "2026-05-29T05:39:09Z",
+  "updated_at": "2026-05-29T10:14:28Z",
   "window": "recent"
 }
