@@ -103,6 +103,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Excited to share our most powerful new Claude Code feature: dynamic workflows!\n\nMention \"workflow\" in a prompt and Claude will dynamically create an orchestration plan that it strictly follows, allowing you to confidently trust that every stage happens in the right order even across 100s of agents.",
+      "text_zh": "很高兴分享我们最强大的新Claude Code功能：动态工作流！\n\n在提示中提及\"工作流\"时，Claude会动态创建一个编排计划并严格遵循，让您能够放心地信任每个阶段都能按正确顺序执行，即使跨越数百个agent也能保证。",
+      "text_zh_hash": "c8d8bf3fcf33ed19",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_catwu/status/2060054180379689074"
     },
     {
