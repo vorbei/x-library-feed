@@ -1,23 +1,23 @@
 {
   "categories": [
     {
-      "count": 662,
+      "count": 663,
       "name": "Tools"
     },
     {
-      "count": 399,
+      "count": 400,
       "name": "Development"
     },
     {
-      "count": 322,
+      "count": 323,
       "name": "Design"
     },
     {
-      "count": 303,
+      "count": 304,
       "name": "Articles"
     },
     {
-      "count": 263,
+      "count": 267,
       "name": "Social"
     },
     {
@@ -38,8 +38,277 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2187,
+  "item_count": 2195,
   "items": [
+    {
+      "category": "Articles",
+      "created_at": "2026-05-29T02:20:56.234669Z",
+      "description": "Copilot’s redesigned experience delivers faster performance, adaptive tools, and clearer AI-powered workflows to help you easily move from intention to outcome.",
+      "domain": "www.microsoft.com",
+      "embed_type": "",
+      "id": "k17erx7kdfwgzackx9b7abfx9h87nqbm",
+      "og_image_url": "https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/M365Copilot_Hero_BannerImage_1920x1080.png",
+      "recommended_at": "2026-05-29T04:54:19.729000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "microsoft-365",
+        "copilot",
+        "ai-productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T04:54:19.729000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing a new design for Microsoft 365 Copilot | Microsoft 365 Blog",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/?v=1",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-29T03:20:07.695073Z",
+      "description": "Our fleet is expanding! ✨ Meet Ojai, powered by our sixth-gen Waymo Driver. Welcoming riders soon in LA, Phoenix, and San Francisco. pic.twitter.com/JwZYYj1qoi",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17fgzc7xw23rr7v8h946trc6587ndvh",
+      "og_image_url": "https://pbs.twimg.com/media/HJYJX2AWoAcPMkl.jpg",
+      "recommended_at": "2026-05-29T04:54:17.367000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "autonomous-vehicles",
+        "waymo",
+        "self-driving"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T04:54:17.367000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "@Waymo on X",
+      "url": "https://x.com/Waymo/status/2060013225006010467",
+      "x_status_id": "2060013225006010467"
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_image_urls": [
+        "https://circleback.ai/marketing/og/default.png",
+        "https://circleback.ai/logos/circleback.svg",
+        "https://circleback.ai/_next/image?url=%2Fmarketing%2Fhero%2Fproduct-window.png&w=3840&q=75",
+        "https://circleback.ai/_next/image?url=%2Fmarketing%2Fmisc%2Fworks-for-every-meeting.png&w=3840&q=75",
+        "https://circleback.ai/marketing/customers/ycombinator.svg",
+        "https://circleback.ai/marketing/customers/visit-california.svg",
+        "https://circleback.ai/marketing/customers/box.svg",
+        "https://circleback.ai/marketing/customers/thumbtack.svg",
+        "https://circleback.ai/marketing/customers/tiktok.svg",
+        "https://circleback.ai/marketing/customers/livenation.svg",
+        "https://circleback.ai/marketing/customers/samsung.svg",
+        "https://circleback.ai/marketing/customers/3m.svg"
+      ],
+      "article_title_extracted": "Circleback",
+      "category": "Tools",
+      "created_at": "2026-05-29T03:24:43.246733Z",
+      "description": "Get the most out of every conversation with AI-powered meeting notes, action items, automations, and search. Works with Zoom, Google Meet, Microsoft Teams, Slack huddles, and in-person conversations. Get started for free.",
+      "domain": "circleback.ai",
+      "embed_type": "",
+      "id": "k17ffm4k8yqph0r7ns7dxkbd9d87mmd2",
+      "og_image_url": "https://circleback.ai/marketing/og/default.png",
+      "recommended_at": "2026-05-29T04:54:15.478000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-meetings",
+        "productivity",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T04:54:15.478000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Circleback",
+      "url": "https://circleback.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "category": "Design",
+      "created_at": "2026-05-29T01:57:43.553804Z",
+      "description": "The Ghost Superfamily, designed by Lucas Sharp and collaborators, is a versatile typeface revolutionizing contemporary typography. Launched in 2022, it consists of 72 styles across five weights and multiple optical sizes, leveraging variable font technology. It offers adaptability in application, catering to display, text, and coding uses. The design acknowledges its historical roots in Roman typography while aiming to establish new standards in type design. Licensing options vary from individual styles to complete collections, making it accessible for different design needs.",
+      "domain": "www.sharptype.co",
+      "embed_type": "",
+      "id": "k1785w28tywc4a9x0d88xrm0sn87mc95",
+      "og_image_url": "https://cloud.poche.app/api/storage/c2514add-7e53-464c-a716-b8c74590da15",
+      "recommended_at": "2026-05-29T02:17:14.181000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "type-design",
+        "variable-fonts"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T02:17:14.181000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Ghost Display – Sharp Type",
+      "url": "https://www.sharptype.co/typefaces/ghost-display",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-29T02:12:55.246243Z",
+      "description": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors.Available today at the same price. pic.twitter.com/EufxL7T1kb",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17bx1er752d4x8a6fcbwrsqt587nkdc",
+      "og_image_url": "https://pbs.twimg.com/media/HJa4OYgWwAAlfWX.png",
+      "recommended_at": "2026-05-29T02:17:12.639000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "claude-opus",
+        "llm"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T02:17:12.639000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Claude (@claudeai) on X",
+      "url": "https://x.com/claudeai/status/2060042702150930686",
+      "x_status_id": "2060042702150930686"
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-29T02:13:12.217340Z",
+      "description": "New in Claude Code (research preview): dynamic workflows.Claude writes an orchestration script on the fly, then spins up a large fleet of coordinated subagents in parallel to take on your most complex tasks.Use the word \"workflow\" in a prompt to get started. pic.twitter.com/re4SG3AyDm",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k173prw4wgkjvn0erq3qmy7khn87ntga",
+      "og_image_url": "https://pbs.twimg.com/media/HJa_ctabIAA84so.png",
+      "recommended_at": "2026-05-29T02:17:10.846000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "claude-code",
+        "ai-agents",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T02:17:10.846000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "@ClaudeDevs on X",
+      "url": "https://x.com/ClaudeDevs/status/2060044853279617150",
+      "x_status_id": "2060044853279617150"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://astro.build/_astro/og-astro-6.4.8xfZ20VE.jpg",
+        "https://astro.build/_astro/blog-post-astro-6.4.DCu1d7BD_ZIhAJT.webp?dpl=6a186ce21d414700089bdd04",
+        "https://astro.build/_astro/erika.D_h-VfLk.webp",
+        "https://astro.build/_astro/alex.BcX1DXrO.webp",
+        "https://astro.build/_astro/armand.BK0kSPh6.webp",
+        "https://astro.build/_astro/chris.ZOiiyI05.webp",
+        "https://astro.build/_astro/ema.Cdibg2Q4.webp",
+        "https://astro.build/_astro/florian.BLmXHSlX.webp",
+        "https://astro.build/_astro/fred.CuAgzliB.webp",
+        "https://astro.build/_astro/hideoo.BJXLtTzx.png",
+        "https://astro.build/_astro/luiz.BmrApS_m.webp",
+        "https://astro.build/_astro/matt.DK7kFqz2.webp"
+      ],
+      "article_text": "Astro 6.4 is here! On today’s menu: a pluggable Markdown pipeline, a new Rust-based Markdown processor for you to try, and helpers to facilitate the use of experimental advanced routing with Cloudflare.\nExplore what’s new in this release:\n[New](https://astro.build#new-markdownprocessor-api)markdown.processor\nAPI[Faster Markdown builds with Sätteri](https://astro.build#faster-markdown-builds-with-s%C3%A4tteri)[Cloudflare helpers for advanced routing](https://astro.build#cloudflare-helpers-for-advanced-routing)\nTo upgrade an existing project, use the automated @astrojs/upgrade\nCLI tool. Alternatively, upgrade manually by running the upgrade command for your package manager:\nNew markdown.processor\nAPI\nAstro’s Markdown pipeline has always been built around [unified](https://unifiedjs.com/) (remark, rehype, and friends). That ecosystem is powerful, having thousands of plugins available, but perhaps it’s not up to your taste. Astro 6.4 adds a new markdown.processor\nconfiguration option that lets you swap that pipeline out entirely.\nThe default processor is still unified()\n, so existing projects keep working without any changes. Your remark and rehype plugins continue to behave the same, but they are now configured directly on the processor, instead of in the top-level markdown\nconfig:\nThe existing top-level markdown.remarkPlugins\n, markdown.rehypePlugins\n, markdown.remarkRehype\n, markdown.gfm\n, and markdown.smartypants\noptions still work, but they’re now deprecated in favor of passing them to unified({...})\n, and will be removed in Astro 8.0.\nFor more information, see the updated [Markdown guide](https://docs.astro.build/en/guides/markdown-content/).\nFaster Markdown builds with Sätteri\nA pluggable processor API also means Astro can ship other Markdown processors. Astro 6.4 introduces a new @astrojs/markdown-satteri\npackage, with a new processor based on [Sätteri](https://satteri.bruits.org/), a Markdown and MDX pipeline written in Rust.\nSätteri is much faster than the default unified-based pipeline, and it implements many Markdown features natively that previously required plugins. In our own testing, switching the Astro and Cloudflare docs site to Sätteri shaved over a minute off their respective build time. To try it out, install the package and set it as your processor:\nSätteri doesn’t run remark or rehype plugins. If you depend on plugins from the unified ecosystem, you’ll need to either stay on unified()\nfor now or port them to [Sätteri MDAST or HAST plugins](https://satteri.bruits.org/docs/plugins/).\nWe hope to make Sätteri the default Markdown processor in a future major version of Astro. To give feedback on the Rust processor and the new API, see the [Native Markdown / MDX RFC](https://github.com/withastro/roadmap/pull/1364).\nCloudflare helpers for advanced routing\nIf you’re using [experimental advanced routing](https://docs.astro.build/en/reference/experimental-flags/advanced-routing/) (added in [Astro 6.3](https://astro.build/blog/astro-630/#experimental-advanced-routing)) on Cloudflare, @astrojs/cloudflare\nnow ships a cf()\nhelper that wires up the Cloudflare-specific bits for you: SESSION KV binding injection, static asset serving via the ASSETS binding, locals.cfContext\n, client address from cf-connecting-ip\n, waitUntil\n, and prerendered error pages.\nWith a custom fetch handler, use cf()\nfrom @astrojs/cloudflare/fetch\n:\nWith Hono, use cf()\nfrom @astrojs/cloudflare/hono\nas middleware.\nOther improvements\nFor a complete list of bug fixes and smaller improvements, see [the full changelog](https://github.com/withastro/astro/blob/main/packages/astro/CHANGELOG.md).\nCommunity\nThe Astro core team is:\n[\nAlexander Niebuhr\n](https://twitter.com/realalexniebuhr) , [\nArmand Philippot\n](https://github.com/ArmandPhilippot) , [\nChris Swithinbank\n](https://m.webtoo.ls/@swithinbank) ,\n[\nEmanuele Stoppa\n](https://bsky.app/profile/ematipico.xyz) ,\n[\nErika\n](https://bsky.app/profile/erika.florist) , [\nFlorian Lefebvre\n](https://github.com/flo",
+      "article_title_extracted": "Astro 6.4 | Astro",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-05-29T02:13:18.536531Z",
+      "description": "Astro 6.4 introduces a new pluggable Markdown processor API, a Rust-based Markdown processor for faster builds, and helpers to wire up experimental advanced routing with Cloudflare.",
+      "domain": "astro.build",
+      "embed_type": "",
+      "id": "k17cw7z3547rqy98psdfh202bh87mmnh",
+      "og_image_url": "https://astro.build/_astro/og-astro-6.4.8xfZ20VE.jpg",
+      "recommended_at": "2026-05-29T02:17:09.222000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "astro",
+        "web-development",
+        "static-site-generators"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T02:17:09.222000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Astro 6.4 | Astro",
+      "url": "https://astro.build/blog/astro-640/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-29T02:13:26.529751Z",
+      "description": "Nano Banana 2 (Gemini 3.1 Flash Image) and Nano Banana Pro (Gemini 3 Pro Image) are now GA.- Flash: $0.045/image.- Pro: $0.134/image.🆕 Nano Banana 2 (Flash) support video as input, analyzes footage and generate context-aware images, thumbnails, and infographics from it. pic.twitter.com/i03ziZyzpJ",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17c77tjj9trxksrgmx64kwxts87nrwe",
+      "og_image_url": "https://pbs.twimg.com/media/HJbRwacXwAElNSM.png",
+      "recommended_at": "2026-05-29T02:17:08.010000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "gemini",
+        "multimodal",
+        "ai-imaging"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-29T02:17:08.010000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Philipp Schmid (@_philschmid) on X",
+      "url": "https://x.com/_philschmid/status/2060064810633482580",
+      "x_status_id": "2060064810633482580"
+    },
     {
       "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
       "article_image_urls": [
@@ -2159,7 +2428,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
+      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
       "article_image_urls": [
         "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
         "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
@@ -2245,7 +2514,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-22T04:47:32.335869Z",
+      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
       "article_image_urls": [
         "https://ursula.tonbo.io/og-default.png",
         "https://ursula.tonbo.io/assets/tonbo.png"
@@ -97070,7 +97339,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2031,
+      "count": 2039,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -97106,5 +97375,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-28T22:20:28.651258Z"
+  "updated_at": "2026-05-29T04:59:53.869627Z"
 }
