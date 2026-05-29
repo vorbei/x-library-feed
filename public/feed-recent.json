@@ -25251,6 +25251,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJa6PA7W8AAQ5j3.jpg"
     },
+    "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
+    },
     "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25306,6 +25320,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
+    },
+    "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
     },
     "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg": {
       "cleaner_v": 2,
@@ -27574,6 +27602,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Goal Engineering: how I brief coding agents using paired goal+rider documents",
       "url": "https://www.gregceccarelli.com/goal-engineering?v=1"
+    },
+    "https://www.hiten.com/mcps-for-work": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Stop copy-pasting context every time and finally give Claude the full picture of how you work",
+      "final_url": "https://www.hiten.com/mcps-for-work",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.sanity.io/images/ou0lowkd/production/f21cb3cbca638feb4f27254429a65ae30ae7a5b2-1731x909.jpg?w=1200&h=630&fit=crop",
+        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Fe04be938d353290a3daeaf7cff8e8484a046568f-627x627.jpg%3Fw%3D1280%26h%3D1280%26fit%3Dcrop&w=1920&q=75",
+        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Ffc3c1f8f713c0488c278590a11107245081ca897-2000x2000.jpg%3Fw%3D80%26h%3D80%26fit%3Dcrop&w=96&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Schedule Resources Library Schedule Library X YouTube Github Hosted By Hiten Shah MCPs for Work: Connect Claude to Your Actual Tools in 15 Minutes Stop copy-pasting context every time and finally give Claude the full picture of how you work May 29 Friday, May 29 10:00 AM PT Registration Register to join the live session. Register About I spend way too much time copy-pasting Slack threads, email chains, calendar events, and project updates into Claude every single conversation. It all gets manually fed in, over and over again. It’s exhausting and it breaks the flow. With MCPs you can connect Claude directly to the tools you already live in every day. This live session is a practical walkthrough of the MCPs actually worth installing, how to connect them properly, and how to use them together so Claude understands your work from the first message. You’ll leave with a working MCP stack you can start using the same day. This is for you if: You use Claude regularly but still spend time feeding it context by hand every conversation You’ve heard of MCPs but haven’t actually set them up yet You want Claude to feel less like a chatbot and more like someone who actually knows what you’re working on Before we get started, take a minute and think about this for yourself: Which tools are you living in every single day? Where are you still doing work manually that Claude should be handling for you? The clearer you are on those two questions, the more powerful your MCP setup becomes. We’ll go through the whole thing step by step. Registration Register to join the live session. Register",
+      "title": "MCPs for Work: Connect Claude to Your Actual Tools in 15 Minutes",
+      "url": "https://www.hiten.com/mcps-for-work"
     },
     "https://www.ignorance.ai/p/the-emerging-harness-engineering": {
       "cleaner_v": 2,
@@ -39557,8 +39601,8 @@
       "https://x.com/brettcalhounn/status/2059633888243151228",
       "http://x.com/i/article/2059633283315490821",
       "https://x.com/brettcalhounn/status/2059848063892557961",
-      "https://x.com/brettcalhounn/status/2059848753901609435",
-      "https://x.com/brettcalhounn/status/2059848395758489726"
+      "https://x.com/brettcalhounn/status/2059848395758489726",
+      "https://x.com/brettcalhounn/status/2059848753901609435"
     ],
     "2059647271864619029": [
       "https://x.com/martinfowler/status/2059647271864619029",
@@ -39718,8 +39762,8 @@
       "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg",
       "https://x.com/zknmoe/status/2060060537707286967",
       "https://x.com/zknmoe/status/2060009841486172638",
-      "https://x.com/zknmoe/status/2060010918948302898",
-      "https://x.com/zknmoe/status/2060048716526936295"
+      "https://x.com/zknmoe/status/2060048716526936295",
+      "https://x.com/zknmoe/status/2060010918948302898"
     ],
     "2059963769804214506": [
       "https://x.com/VoidAsuka/status/2059963769804214506",
@@ -39744,21 +39788,22 @@
       "https://x.com/justhalfbit/status/2059988985255215288",
       "http://x.com/i/article/2059978479459000320",
       "https://x.com/justhalfbit/status/2060201191401775357",
-      "https://x.com/justhalfbit/status/2060155741428662481",
-      "https://x.com/justhalfbit/status/2060277182329450877",
-      "https://x.com/justhalfbit/status/2060215645686448152",
       "https://x.com/justhalfbit/status/2060219856444662176",
-      "https://x.com/justhalfbit/status/2060196337912545289",
+      "https://x.com/justhalfbit/status/2060155741428662481",
+      "https://x.com/justhalfbit/status/2060215645686448152",
       "https://x.com/justhalfbit/status/2060192701799158199",
+      "https://x.com/justhalfbit/status/2060196337912545289",
       "https://x.com/justhalfbit/status/2060196854684328397",
       "https://x.com/justhalfbit/status/2060178364455866475",
-      "https://x.com/justhalfbit/status/2059999403797102908",
-      "https://x.com/justhalfbit/status/2060178186776768924",
-      "https://x.com/justhalfbit/status/2060159795273892345",
-      "https://x.com/justhalfbit/status/2060057890598142266",
-      "https://x.com/justhalfbit/status/2059999182602068451",
-      "https://x.com/justhalfbit/status/2060215825559166997",
+      "https://x.com/justhalfbit/status/2060277182329450877",
+      "https://x.com/justhalfbit/status/2060320806077337605",
       "https://x.com/justhalfbit/status/2060155901210726769",
+      "https://x.com/justhalfbit/status/2060178186776768924",
+      "https://x.com/justhalfbit/status/2060057890598142266",
+      "https://x.com/justhalfbit/status/2060159795273892345",
+      "https://x.com/justhalfbit/status/2059999403797102908",
+      "https://x.com/justhalfbit/status/2060215825559166997",
+      "https://x.com/justhalfbit/status/2059999182602068451",
       "https://x.com/justhalfbit/status/2059996967137051039"
     ],
     "2059990512103465438": [
@@ -39809,6 +39854,7 @@
       "https://x.com/Av1dlive/status/2060042597209665920",
       "https://github.com/codejunkie99/cove",
       "https://x.com/Av1dlive/status/2060039406824898605",
+      "https://x.com/Av1dlive/status/2060315643883532597",
       "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060051064402178483",
       "https://x.com/Av1dlive/status/2060037134313247205",
@@ -39816,14 +39862,13 @@
       "https://x.com/Av1dlive/status/2060042134175240630",
       "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060056936515764703",
-      "https://x.com/Av1dlive/status/2060042640360648849",
       "https://x.com/Av1dlive/status/2060063490208088186",
+      "https://x.com/Av1dlive/status/2060042640360648849",
       "https://x.com/Av1dlive/status/2060070068269224322",
       "https://x.com/Av1dlive/status/2060037081729253413"
     ],
     "2060049802931433800": [
-      "https://x.com/JanTomasekDev/status/2060049802931433800",
-      "https://x.com/JanTomasekDev/status/2059236941233561632"
+      "https://x.com/JanTomasekDev/status/2060049802931433800"
     ],
     "2060054180379689074": [
       "https://x.com/_catwu/status/2060054180379689074",
@@ -39839,10 +39884,14 @@
       "https://x.com/hnshah/status/2060058695095267425",
       "https://x.com/hnshah/status/2060079987949253024",
       "https://x.com/hnshah/status/2060074931476689376",
-      "https://x.com/hnshah/status/2060133325810090213"
+      "https://x.com/hnshah/status/2060150377123856849",
+      "https://www.hiten.com/mcps-for-work",
+      "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
     ],
     "2060061106794557546": [
       "https://x.com/schrockn/status/2060061106794557546",
+      "https://x.com/schrockn/status/2060329166629646685",
+      "https://x.com/schrockn/status/2060329584176828893",
       "https://x.com/schrockn/status/2060151949043826994"
     ],
     "2060069083878408689": [
@@ -39850,8 +39899,9 @@
       "http://x.com/i/article/2060024515619397638",
       "https://x.com/mfpiccolo/status/2060296379092664708",
       "https://iii.dev/blog/how-to-build-your-own-agent-harness/",
+      "https://x.com/mfpiccolo/status/2060099429533646956",
       "https://x.com/mfpiccolo/status/2060294921874006411",
-      "https://x.com/mfpiccolo/status/2060099429533646956"
+      "https://x.com/mfpiccolo/status/2060346570659238362"
     ],
     "2060074305887551818": [
       "https://x.com/nateherk/status/2060074305887551818",
@@ -39889,9 +39939,10 @@
     ],
     "2060135644240707774": [
       "https://x.com/dillon_mulroy/status/2060135644240707774",
-      "https://x.com/dillon_mulroy/status/2060177409387713011"
+      "https://x.com/dillon_mulroy/status/2059985696148849025",
+      "https://pbs.twimg.com/media/HJaKEh8WEAEWv4h.jpg"
     ]
   },
-  "updated_at": "2026-05-29T10:14:28Z",
+  "updated_at": "2026-05-29T13:36:16Z",
   "window": "recent"
 }
