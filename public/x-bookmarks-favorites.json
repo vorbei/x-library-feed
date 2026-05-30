@@ -57,6 +57,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "your browser agents are only as good as their guardrails. \n\nwe've deployed production agents across thousands of customers. here's exactly how we think about autonomy in our agents",
+      "text_zh": "你的浏览器代理的安全性与它的护栏机制息息相关。\n\n我们已在数千个客户环境中部署了生产级代理。以下是我们对代理自主性的具体思考方式。",
+      "text_zh_hash": "7d884e09a4d15d4a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/kylejeong/status/2060412635481559332"
     },
     {
@@ -275,6 +278,9 @@
         "bookmark@chumsdock"
       ],
       "text": "When everyone has AI and the company still learns nothing https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar https://t.co/7LgZHqcF2Z",
+      "text_zh": "当人人都有AI，公司却依然学不到任何东西  \nhttps://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar  \nhttps://t.co/7LgZHqcF2Z",
+      "text_zh_hash": "85c057608978e1ad",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2060450613662499261"
     },
     {
@@ -329,6 +335,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "HERMES AGENT JUST GOT A RESEARCH BRAIN.\n\nconnect it to NotebookLM and it becomes\na 247 research system that builds\nknowledge over time.\n\nit resources. connects ideas across sources.\nuses that context in every real task.\n\nsetup in 4 steps:\n\n1. install Hermes with MCP enabled\n2. download NotebookLM skill from GitHub\n3. add endpoint to MCP servers in config\n4. restart Hermes\n\nwhat your agent can now do:\n\n→ query your notebooks instead of the open web\n→ connect ideas across multiple sources\n→ build knowledge session after session\n→ use your curated context in every /goal\n→ zero hallucinations from your own verified sources\n\nask it anything — it answers from\nwhat YOU already know.\n\nfull setup guide — MCP, models, use cases —\nin the article 👇",
+      "text_zh": "HERMES AGENT 现在有了研究大脑。\n\n将其连接到 NotebookLM，它就会变成一个\n247 研究系统，能够随时间积累知识。\n\n它整合资源，跨来源连接观点，\n并在每个真实任务中使用这些上下文。\n\n4 步完成设置：\n\n1. 安装启用了 MCP 的 Hermes\n2. 从 GitHub 下载 NotebookLM 技能\n3. 在配置中将端点添加到 MCP 服务器\n4. 重启 Hermes\n\n你的 Agent 现在可以：\n\n→ 查询你的笔记本，而非开放网络\n→ 跨多个来源连接观点\n→ 在一次次会话中积累知识\n→ 在每次 /goal 中使用你精选的上下文\n→ 基于你已验证的来源实现零幻觉\n\n问它任何问题——它都会从\n你已知的内容中给出答案。\n\n完整设置指南——MCP、模型、用例——\n详见下方文章 👇",
+      "text_zh_hash": "2d402d8086e781e9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/IBuzovskyi/status/2059860662658949530"
     },
     {
@@ -412,6 +421,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Sorry if I post this again, but: this is the best post about AI slop you are going to read in the next 2 years.",
+      "text_zh": "抱歉如果我再发一次，但：这是未来两年内你能读到的最好的关于AI垃圾内容的文章。",
+      "text_zh_hash": "e59d1848d1e52b19",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/antirez/status/2060375845110223007"
     },
     {
