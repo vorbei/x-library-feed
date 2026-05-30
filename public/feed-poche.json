@@ -2161,9 +2161,9 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
       "article_image_urls": [
-        "https://i.ytimg.com/vi/Lri2LNYtERM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCG4Sx17F05CzOGo_TPKw01b6tQqQ&days_since_epoch=20596"
+        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20603"
       ],
       "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
       "category": "Media",
@@ -2253,20 +2253,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.170lo5~ctoj1o.png?dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20-night.jpg&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-opencode.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-openclaw.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-skills.webp&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-hermes.png&w=3840&q=75&dpl=548f457ec0a5b1a0f3ef4b668143f424dabe8ea1"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-0-1.webp&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-kilocode.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-cli-og.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-opencode.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -2348,11 +2348,12 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
-        "https://glimm.dev/shader-diagram.svg"
+        "https://glimm.dev/shader-diagram-v2.png"
       ],
       "article_title_extracted": "glimm — shader-driven page transitions",
       "category": "Development",
@@ -2390,9 +2391,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-23T04:28:09.810029Z",
+      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
       "article_image_urls": [
-        "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_GNcck8U8wHb1G8UbTfcoqUndFk7L"
+        "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
       "article_title_extracted": "bigRAG Docs",
       "category": "Development",
@@ -97420,5 +97421,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-29T22:16:36.054951Z"
+  "updated_at": "2026-05-30T04:39:05.064691Z"
 }
