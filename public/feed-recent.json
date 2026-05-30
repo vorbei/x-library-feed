@@ -1611,6 +1611,22 @@
       "title": "Orbits",
       "url": "http://glauber.org/archive/orbits"
     },
+    "http://hermes-agent.nousresearch.com/docs": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The self-improving AI agent built by Nous Research. A built-in learning loop that creates skills from experience, improves them during use, and remembers across sessions.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://hermes-agent.nousresearch.com/docs",
+      "frameable": null,
+      "image_urls": [
+        "https://hermes-agent.nousresearch.com/docs/img/hermes-agent-banner.png",
+        "https://hermes-agent.nousresearch.com/docs/img/logo.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Hermes Agent\nThe self-improving AI agent built by [Nous Research](https://nousresearch.com). The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.\nInstall[](https://hermes-agent.nousresearch.com#install)\nLinux / macOS / WSL2\ncurl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash\nWindows (native, PowerShell) — early beta, [details →](https://hermes-agent.nousresearch.com/docs/user-guide/windows-native)\niex (irm https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.ps1)\nAndroid (Termux) — same curl one-liner as Linux; the installer auto-detects Termux.\nSee the full [Installation Guide](https://hermes-agent.nousresearch.com/docs/getting-started/installation) for what the installer does, the per-user vs root layout, and Windows-specific notes.\nAfter installing, run hermes setup --portal\n— one OAuth covers a model plus all four Tool Gateway tools (web search, image generation, TTS, browser). See [Nous Portal](https://hermes-agent.nousresearch.com/docs/integrations/nous-portal).\nWhat is Hermes Agent?[](https://hermes-agent.nousresearch.com#what-is-hermes-agent)\nIt's not a coding copilot tethered to an IDE or a chatbot wrapper around a single API. It's an autonomous agent that gets more capable the longer it runs. It lives wherever you put it — a $5 VPS, a GPU cluster, or serverless infrastructure (Daytona, Modal) that costs nearly nothing when idle. Talk to it from Telegram while it works on a cloud VM you never SSH into yourself. It's not tied to your laptop.\nQuick Links[](https://hermes-agent.nousresearch.com#quick-links)\n| 🚀\n|\n[Quickstart Tutorial](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart)[Learning Path](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path)[Configuration](https://hermes-agent.nousresearch.com/docs/user-guide/configuration)[Messaging Gateway](https://hermes-agent.nousresearch.com/docs/user-guide/messaging)[Tools & Toolsets](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools)[Memory System](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory)[Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)[MCP Integration](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)[Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes)[Voice Mode](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode)[Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes)[Personality & SOUL.md](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality)[Context Files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files)[Security](https://hermes-agent.nousresearch.com/docs/user-guide/security)[Tips & Best Practices](https://hermes-agent.nousresearch.com/docs/guides/tips)[Architecture](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture)[FAQ & Troubleshooting](https://hermes-agent.nousresearch.com/docs/reference/faq)Key Features[](https://hermes-agent.nousresearch.com#key-features)\n- A closed learning loop — Agent-curated memory with periodic nudges, autonomous skill creation, skill self-improvement during use, FTS5 cross-session recall with LLM summarization, and\n[Honcho](https://github.com/plastic-labs/honcho)dialectic user modeling - Runs anywhere, not just your laptop — 6 terminal backends: local, Docker, SSH, Daytona, Singularity, Modal. Daytona and Modal offer serverless persistence — your environment hibernates when idle, costing nearly nothing\n- Lives where you do — CLI, Telegram, Discord, Slack, WhatsApp, Signal, Matrix, Mattermost, Email, SMS, DingTalk, Feishu, WeCom, Weixin, QQ Bot, Yuanbao, BlueBubbles, Home Assistant, Micr",
+      "title": "Hermes Agent Documentation | Hermes Agent",
+      "url": "http://hermes-agent.nousresearch.com/docs"
+    },
     "http://hugeicons.com/?via=Abraham": {
       "content_type": "text/html; charset=utf-8",
       "description": "Explore the world's most complete icon library: 51,000+ icons, 10 unique styles, and 59 categories. Perfect for UI/UX designers, developers, and creators using Figma, React, Flutter, and more.",
@@ -17713,6 +17729,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2060414712462888960/img/keZvYfn6mkgzC5Kz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060414712462888960/img/keZvYfn6mkgzC5Kz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060414712462888960/img/keZvYfn6mkgzC5Kz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060414712462888960/img/keZvYfn6mkgzC5Kz.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25539,6 +25583,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
     },
+    "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
+    },
     "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25651,6 +25709,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
     },
+    "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg"
+    },
     "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25664,6 +25736,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
+    },
+    "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -40156,8 +40242,9 @@
       "https://x.com/IBuzovskyi/status/2060005154041053585",
       "https://x.com/IBuzovskyi/status/2060500526228258864",
       "https://x.com/IBuzovskyi/status/2060085623575253469",
-      "https://x.com/IBuzovskyi/status/2059982757715927092",
-      "https://x.com/IBuzovskyi/status/2060009581841969436"
+      "https://x.com/IBuzovskyi/status/2060127369667457175",
+      "https://x.com/IBuzovskyi/status/2059984516035309620",
+      "http://hermes-agent.nousresearch.com/docs"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40272,8 +40359,8 @@
       "https://x.com/Av1dlive/status/2060315643883532597",
       "https://x.com/Av1dlive/status/2060051064402178483",
       "https://x.com/Av1dlive/status/2060035911635878305",
-      "https://x.com/Av1dlive/status/2060374756004893055",
       "https://x.com/Av1dlive/status/2060036806553550971",
+      "https://x.com/Av1dlive/status/2060374756004893055",
       "https://x.com/Av1dlive/status/2060042134175240630",
       "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060063490208088186",
@@ -40362,6 +40449,10 @@
       "https://pbs.twimg.com/media/HJcs0AXaQAEZiBB.jpg",
       "https://pbs.twimg.com/media/HJctbKXa4AAcgxV.jpg"
     ],
+    "2060173406494974108": [
+      "https://x.com/cellinlab/status/2060173406494974108",
+      "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
+    ],
     "2060174563691082117": [
       "https://x.com/BadUncleX/status/2060174563691082117",
       "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg",
@@ -40433,6 +40524,10 @@
       "https://x.com/kylejeong/status/2060424753538838569",
       "https://www.browserbase.com/blog/browser-agent-autonomy-levels"
     ],
+    "2060413985925820525": [
+      "https://x.com/akshay_pachaar/status/2060413985925820525",
+      "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg"
+    ],
     "2060439373074878615": [
       "https://x.com/posthog/status/2060439373074878615",
       "http://x.com/i/article/2060433567768031233"
@@ -40445,14 +40540,30 @@
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
+    "2060453308620316851": [
+      "https://x.com/benyuls/status/2060453308620316851",
+      "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg",
+      "https://x.com/benyuls/status/2060414835012087984",
+      "https://pbs.twimg.com/amplify_video_thumb/2060414712462888960/img/keZvYfn6mkgzC5Kz.jpg"
+    ],
+    "2060456206771085502": [
+      "https://x.com/thegabegaines/status/2060456206771085502",
+      "https://x.com/thegabegaines/status/2060466172680663368",
+      "https://x.com/thegabegaines/status/2060458747923689654"
+    ],
     "2060527240098587085": [
       "https://x.com/tonysimons_/status/2060527240098587085",
       "http://x.com/i/article/2060205510750552067"
     ],
+    "2060538084685459560": [
+      "https://x.com/PaulSolt/status/2060538084685459560"
+    ],
     "2060562561456611586": [
       "https://x.com/ashwingop/status/2060562561456611586",
       "http://x.com/i/article/2060551779188645898",
-      "https://x.com/ashwingop/status/2060129092670791770"
+      "https://x.com/ashwingop/status/2060564876859208020",
+      "https://x.com/ashwingop/status/2060562561456611586?s=20",
+      "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
     ],
     "2060580554131771584": [
       "https://x.com/_heyrico/status/2060580554131771584",
@@ -40462,8 +40573,12 @@
       "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg",
       "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg",
       "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg"
+    ],
+    "2060675167152648270": [
+      "https://x.com/systematicls/status/2060675167152648270",
+      "https://x.com/systematicls/status/2060419680494649353"
     ]
   },
-  "updated_at": "2026-05-30T10:17:38Z",
+  "updated_at": "2026-05-30T12:16:19Z",
   "window": "recent"
 }
