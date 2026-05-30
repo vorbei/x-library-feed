@@ -4438,22 +4438,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059839454370828288"
     },
-    "http://x.com/i/article/2059843738634010628": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059843738634010628",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059843738634010628/i/keyboard%5Fshortcuts)\n\nToken Attribution Is the Scoreboard. Memory Changes the Next Run. \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2059843738634010628/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2059843738634010628/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2059843738634010628/ashwingop)\n\n·\n\nMay 28\n\nFollow\n\nClick to Follow ashwingop\n\n2\n\n1\n\n19\n\n[1K](http://x.com/i/article/2059843738634010628/ashwingop/status/2059848423587619039/analytics)\n\nBigger context gives agents more to read. Memory tells them what should not need to be reread.\n\nTL;DR\n\n* Token-to-outcome attribution is necessary. Companies need to know which workflows deserve more compute, which should be capped, and which should stay human.\n* Falling unit costs will not end token pressure. They will make companies run more agents, across more workflows, more often.\n* The real win is cheaper tokens plus fewer wasted tokens. In early repeated-workflow tests, structured memory has reduced token usage by roughly 50–70% without observed degradation in output quality.\n* Bigger context gives agents more to read. Memory tells them what should not need to be reread.\n\n## \n\nThe token budget wars are real\n\n[Jaya Gupta’s “Token Budget Wars” frame is right](https://x.com/JayaGup10/status/2059784669382791653)\n\n. Enterprise AI has moved from adoption to allocation. The question is no longer just whether AI is useful. It is which workflows deserve more compute, which should use smaller models, which should be capped, and which should remain human.\n\nThat is why token-to-outcome attribution matters. A token bill by itself does not tell you whether AI replaced labor, reduced risk, moved revenue, shortened cycle time, or burned compute on retries and irrelevant context. At small scale, that looks like experimentation. At seven figures, it becomes an operating question. But attribution has a limit. It tells you where inference went. It does not automatically reduce how much inference the next workflow needs. If the same agent still rereads the same Slack threads, tickets, docs, CRM notes, code, and prior attempts, then the company has built a better scoreboard for waste.\n\n## \n\nMeasurement has to become memory.\n\nThe difference is simple enough to see in one workflow:\n\n[![Image](https://pbs.twimg.com/media/HJYMobVXQAMGvuW?format=jpg&name=small)](http://x.com/i/article/2059843738634010628/ashwingop/article/2059848423587619039/media/2059847768240242691)\n\nThe trace is not valuable because it exists. It is valuable when it changes the next execution path. Attribution tells you whether the run paid off. The trace tells you how the run happened. Memory decides what from that trace should change the next run.\n\n## \n\nToken costs will fall. That does not solve the problem.\n\nThe easiest mistake is to assume token pressure goes away when token prices fall. They will fall because model providers will cut prices, smaller models will get better, hardware will improve, and caching, batching, quantization, distillation, and routing will keep pushing down the cost of equivalent capability. OpenAI said GPT-4o mini was over 60% cheaper than GPT-3.5 Turbo and that cost per token had dropped 99% since text-davinci-003 (\n\n[OpenAI](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)\n\n). That does not mean companies will use less AI.\n\nWhen intelligence gets cheaper, people find more places to use it. A coding agent that was used for debugging becomes part of every pull request. A sales research agent reserved for strategic accounts becomes available for every account. A support agent that handled escalations starts touching every ticket. The effective cost falls, and usage expands. The danger is that cheap tokens",
-      "text_excerpt_zh": "## 令牌归因是记分牌，记忆改变下一次运行\n\n更大的上下文让智能体有更多内容可读。记忆告诉它们哪些内容不需要重新阅读。\n\n**太长不看版**\n\n* 令牌到结果的归因是必要的。公司需要知道哪些工作流值得更多算力，哪些应该被限制，哪些应该保留给人类。\n* 单位成本的下降不会终结令牌压力。它们会让公司运行更多智能体，跨越更多工作流，且频率更高。\n* 真正的胜利是更便宜的令牌加上更少的浪费令牌。在早期重复工作流测试中，结构化记忆已将令牌使用量减少了约 50-70%，且未观察到输出质量下降。\n* 更大的上下文让智能体有更多内容可读。记忆告诉它们哪些内容不需要重新阅读。\n\n## 令牌预算战争是真实存在的\n\n[Jaya Gupta 的\"令牌预算战争\"框架是正确的](https://x.com/JayaGup10/status/2059784669382791653)。企业 AI 已从采用阶段转向分配阶段。问题不再仅仅是 AI 是否有用。而是哪些工作流值得更多算力，哪些应该使用更小的模型，哪些应该被限制，以及哪些应该保留给人类。\n\n这就是令牌到结果归因重要的原因。仅凭一张令牌账单并不能告诉你 AI 是否替代了劳动力、降低了风险、带来了收入、缩短了周期时间，还是在重试和不相关上下文上浪费了算力。在小规模下，这看起来像是实验。在七位数规模下，这就变成了运营问题。但归因有其局限性。它能告诉你推理的去向，却不能自动减少下一个工作流所需的推理量。如果同一个智能体仍然需要重读相同的 Slack 线程、工单、文档、CRM 笔记、代码和之前的尝试，那么公司只是为浪费建立了一个更好的记分牌。\n\n## 衡量必须变成记忆。\n\n区别在一个工作流中就足够清晰可见：\n\n[![图片](https://pbs.twimg.com/media/HJYMobVXQAMGvuW?format=jpg&name=small)](http://x.com/i/article/2059843738634010628/ashwingop/article/2059848423587619039/media/2059847768240242691)\n\n追踪的价值不在于它存在。它的价值在于它改变了下一次的执行路径。归因告诉你这次运行是否值得。追踪告诉你这次运行是如何发生的。记忆决定了该追踪中的哪些内容应该改变下一次运行。\n\n## 令牌成本将会下降。但这并不能解决问题。\n\n最容易犯的错误是认为当令牌价格下降时，令牌压力就会消失。价格会下降，因为模型提供商会降价，更小的模型会变得更好，硬件会改进，而缓存、批处理、量化、蒸馏和路由将继续降低同等能力的成本。OpenAI 表示 GPT-4o mini 比 GPT-3.5 Turbo 便宜超过 60%，并且自 text-davinci-003 以来每令牌成本已下降 99%（[OpenAI](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)）。但这并不意味着公司会减少使用 AI。\n\n当智能变得更便宜时，人们会找到更多地方来使用它。一个用于调试的编码智能体会成为每个拉取请求的一部分。一个为战略客户保留的销售研究智能体会变得对每个客户都可用。一个处理升级问题的支持智能体会开始接触每一个工单。有效成本下降，使用量扩大。危险在于廉价的令牌",
-      "text_excerpt_zh_hash": "00c3669d7e8925b6",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059843738634010628"
-    },
     "http://x.com/i/article/2059927958916300800": {
       "cleaner_v": 2,
       "content_type": "",
@@ -40198,8 +40182,8 @@
       "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
       "https://x.com/danshipper/status/2059976661924290964",
       "https://every.to/guides/codex-for-knowledge-work",
-      "https://x.com/danshipper/status/2059977059233923515",
       "https://x.com/danshipper/status/2059980665081192736",
+      "https://x.com/danshipper/status/2059977059233923515",
       "https://x.com/danshipper/status/2060025890231197803",
       "https://x.com/danshipper/status/2059983128551166116",
       "https://x.com/danshipper/status/2059980665081192736?s=20"
@@ -40287,11 +40271,11 @@
       "https://x.com/Av1dlive/status/2060039406824898605",
       "https://x.com/Av1dlive/status/2060315643883532597",
       "https://x.com/Av1dlive/status/2060051064402178483",
-      "https://x.com/Av1dlive/status/2060374756004893055",
       "https://x.com/Av1dlive/status/2060035911635878305",
+      "https://x.com/Av1dlive/status/2060374756004893055",
       "https://x.com/Av1dlive/status/2060036806553550971",
-      "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060042134175240630",
+      "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060063490208088186",
       "https://x.com/Av1dlive/status/2060056936515764703",
       "https://x.com/Av1dlive/status/2060037134313247205",
@@ -40315,7 +40299,8 @@
     "2060058695095267425": [
       "https://x.com/hnshah/status/2060058695095267425",
       "https://x.com/hnshah/status/2060079987949253024",
-      "https://x.com/hnshah/status/2060074931476689376"
+      "https://x.com/hnshah/status/2060074931476689376",
+      "https://x.com/hnshah/status/2060539844494004611"
     ],
     "2060061106794557546": [
       "https://x.com/schrockn/status/2060061106794557546",
@@ -40440,8 +40425,8 @@
     "2060406977357070522": [
       "https://x.com/aparnadhinak/status/2060406977357070522",
       "http://x.com/i/article/2060381072148537344",
-      "https://x.com/aparnadhinak/status/2060472376262013363",
-      "https://x.com/aparnadhinak/status/2060427547650019413"
+      "https://x.com/aparnadhinak/status/2060427547650019413",
+      "https://x.com/aparnadhinak/status/2060472376262013363"
     ],
     "2060412635481559332": [
       "https://x.com/kylejeong/status/2060412635481559332",
@@ -40467,8 +40452,7 @@
     "2060562561456611586": [
       "https://x.com/ashwingop/status/2060562561456611586",
       "http://x.com/i/article/2060551779188645898",
-      "https://x.com/ashwingop/status/2059848423587619039",
-      "http://x.com/i/article/2059843738634010628"
+      "https://x.com/ashwingop/status/2060129092670791770"
     ],
     "2060580554131771584": [
       "https://x.com/_heyrico/status/2060580554131771584",
@@ -40480,6 +40464,6 @@
       "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg"
     ]
   },
-  "updated_at": "2026-05-30T07:57:42Z",
+  "updated_at": "2026-05-30T10:17:38Z",
   "window": "recent"
 }
