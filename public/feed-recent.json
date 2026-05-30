@@ -4438,6 +4438,20 @@
       "title": "",
       "url": "http://x.com/i/article/2059839454370828288"
     },
+    "http://x.com/i/article/2059843738634010628": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059843738634010628",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059843738634010628/i/keyboard%5Fshortcuts)\n\nToken Attribution Is the Scoreboard. Memory Changes the Next Run. \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2059843738634010628/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2059843738634010628/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2059843738634010628/ashwingop)\n\n·\n\nMay 28\n\nFollow\n\nClick to Follow ashwingop\n\n2\n\n1\n\n19\n\n[1K](http://x.com/i/article/2059843738634010628/ashwingop/status/2059848423587619039/analytics)\n\nBigger context gives agents more to read. Memory tells them what should not need to be reread.\n\nTL;DR\n\n* Token-to-outcome attribution is necessary. Companies need to know which workflows deserve more compute, which should be capped, and which should stay human.\n* Falling unit costs will not end token pressure. They will make companies run more agents, across more workflows, more often.\n* The real win is cheaper tokens plus fewer wasted tokens. In early repeated-workflow tests, structured memory has reduced token usage by roughly 50–70% without observed degradation in output quality.\n* Bigger context gives agents more to read. Memory tells them what should not need to be reread.\n\n## \n\nThe token budget wars are real\n\n[Jaya Gupta’s “Token Budget Wars” frame is right](https://x.com/JayaGup10/status/2059784669382791653)\n\n. Enterprise AI has moved from adoption to allocation. The question is no longer just whether AI is useful. It is which workflows deserve more compute, which should use smaller models, which should be capped, and which should remain human.\n\nThat is why token-to-outcome attribution matters. A token bill by itself does not tell you whether AI replaced labor, reduced risk, moved revenue, shortened cycle time, or burned compute on retries and irrelevant context. At small scale, that looks like experimentation. At seven figures, it becomes an operating question. But attribution has a limit. It tells you where inference went. It does not automatically reduce how much inference the next workflow needs. If the same agent still rereads the same Slack threads, tickets, docs, CRM notes, code, and prior attempts, then the company has built a better scoreboard for waste.\n\n## \n\nMeasurement has to become memory.\n\nThe difference is simple enough to see in one workflow:\n\n[![Image](https://pbs.twimg.com/media/HJYMobVXQAMGvuW?format=jpg&name=small)](http://x.com/i/article/2059843738634010628/ashwingop/article/2059848423587619039/media/2059847768240242691)\n\nThe trace is not valuable because it exists. It is valuable when it changes the next execution path. Attribution tells you whether the run paid off. The trace tells you how the run happened. Memory decides what from that trace should change the next run.\n\n## \n\nToken costs will fall. That does not solve the problem.\n\nThe easiest mistake is to assume token pressure goes away when token prices fall. They will fall because model providers will cut prices, smaller models will get better, hardware will improve, and caching, batching, quantization, distillation, and routing will keep pushing down the cost of equivalent capability. OpenAI said GPT-4o mini was over 60% cheaper than GPT-3.5 Turbo and that cost per token had dropped 99% since text-davinci-003 (\n\n[OpenAI](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)\n\n). That does not mean companies will use less AI.\n\nWhen intelligence gets cheaper, people find more places to use it. A coding agent that was used for debugging becomes part of every pull request. A sales research agent reserved for strategic accounts becomes available for every account. A support agent that handled escalations starts touching every ticket. The effective cost falls, and usage expands. The danger is that cheap tokens",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2059843738634010628"
+    },
     "http://x.com/i/article/2059927958916300800": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4576,6 +4590,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060157320651554816"
     },
+    "http://x.com/i/article/2060205510750552067": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060205510750552067",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060205510750552067/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJhyf4nWMAA-DMB?format=jpg&name=900x900)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060522721620930560)\n\nHow To Dominate Projects With Hermes Agent Kanban Board\n\n[![](https://pbs.twimg.com/profile_images/2058260194757369856/gx7wWnvC_normal.jpg)](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[Tony Simons](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[@tonysimons\\_](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n·\n\n6h\n\nFollow\n\nClick to Follow tonysimons\\_\n\n6\n\n28\n\n[3.2K](http://x.com/i/article/2060205510750552067/tonysimons%5F/status/2060527240098587085/analytics)\n\n# \n\nOne Agent Is The Wrong Unit\n\nI once watched a task look \"running\" for forty minutes while the worker had already died, and another task land in the wrong board because one shell was still pointed at an old slug. Nothing dramatic happened. That's the problem. The failure mode was quiet. The afternoon just leaked out through stale state, one plausible lie at a time.\n\nThe context window isn't a manager. It's just a box with limits.\n\nThe fix isn't a smarter prompt. It's a board, a contract, and receipts.\n\n## \n\nThe Context Window Isn't A Manager\n\nA lot of people try to run real work inside one giant chat because it feels fast at the beginning.\n\nOne prompt. One worker. One neat stream of output. Very tidy. Very fake.\n\nThen the work grows teeth. The transcript gets long. Someone asks for parallel research. Somebody else wants review. A worker crashes. The session starts carrying half the project in prompt residue and half in hope. \n\nThat's when the whole thing turns into context soup.\n\nWhen that happens, you don't have durable state. You have a memory leak with nice formatting.\n\nThat's why the first hard lesson is simple: long work needs durable coordination.\n\nEnter Hermes Agent Kanban.\n\n[![Image](https://pbs.twimg.com/media/HJhy0VeXIAAuTk1?format=jpg&name=small)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060523072965255168)\n\nHermes Kanban isn't a fancier chatbot. It's a way to make work survive reality.\n\nBoards isolate workstreams. Tasks carry state. Profiles name the worker shape. Parent links define order. Workspaces decide where files land. Runs, logs, and events are the receipts.\n\nReceipts beat BS vibes every time.\n\nIf you need to know what happened, who did it, how long it ran, and what the worker said before it finished, the board gives you that trail. The chat doesn't.\n\nThat's the whole product. Not a magic memory layer. Not a bigger prompt. Not a dashboard that looks coordinated from across the room.\n\nIt's a system that remembers after the conversation gets messy.\n\n# \n\nBuild The Board Like You Mean It\n\nPeople love to over-design the first board. They want ceremony before they know if the work deserves it. That usually gives you a beautiful mess.\n\nDon't do that.\n\nStart with the dumbest useful setup:\n\n```text\nhermes kanban boards show\nhermes kanban boards switch hermes-kanban-field-manual\nhermes kanban boards create hermes-kanban-field-manual \\\n  --switch \\\n  --default-workdir /home/tony/projects/hermes-kanban-field-manual\n```\n\n* boards show tells you where you are.\n* boards switch moves the active board for subsequent calls.\n* boards create ... --switch --default-workdir ... gives the board a home so new work doesn't fall into a ghost pile of scratch output nobody can find later.\n\nThat --default-workdir part matters more than it looks like it does. If the board knows where the work should live, you stop spending time asking, \"wait, where did the files go?\" That's not a philosophical problem. It's a path problem.\n\nIf you're bouncing across shells, don't trust whatever board happens to be active. Switch it on purpose before you create anything.\n\nN",
+      "title": "",
+      "url": "http://x.com/i/article/2060205510750552067"
+    },
     "http://x.com/i/article/2060265616859340800": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4607,6 +4634,33 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060304215818264576"
+    },
+    "http://x.com/i/article/2060342141381971968": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060342141381971968",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060342141381971968/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfTHz9W4AIslgI?format=jpg&name=900x900)](http://x.com/i/article/2060342141381971968/borkodotfun/article/2060350372233769261/media/2060347485705396226)\n\nAutonomous Capital\n\n[![](https://pbs.twimg.com/profile_images/2060467340639092737/49CCI7JH_normal.jpg)](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[Borko](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[@borkodotfun](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n·\n\n18h\n\nFollow\n\nClick to Follow borkodotfun\n\n3\n\n7\n\n63\n\n[1.7K](http://x.com/i/article/2060342141381971968/borkodotfun/status/2060350372233769261/analytics)\n\nAI agents will become real economic actors in finance.\n\nNot because finance is easy. But because finance is already the closest thing we have to a machine-native environment: markets are digital, assets are programmable, APIs exist, prices update continuously, decisions are measurable, and execution can happen without waiting for the physical world.\n\nThis is the reason I think the conversation around “AI trading bots” is too small. The important shift is not that users will ask chatbots what to buy. The important shift is that capital itself will become increasingly autonomous.\n\nBy autonomous capital, I mean capital that can be monitored, routed, hedged, allocated, and executed by intelligent systems operating within user-defined constraints.\n\nMost financial software today still assumes a human is the operating system. The trader opens five dashboards, checks funding, scans liquidations, reads news, looks at open interest, checks wallet balances, calculates exposure, updates their thesis, manages margin, and then manually executes. Even in crypto, where the rails are programmable, the workflow is still fragmented and human-driven.\n\nThe market is composable. The trader’s workflow is not.\n\nThat mismatch creates the opportunity.\n\nIf AI agents are going to manage financial actions, they need more than a chat interface. They need a structured understanding of the world they are operating in. In finance, that means continuously understanding both market state and portfolio state.\n\nMarket state includes things like funding rates, open interest, liquidations, order books, volatility, macro events, smart-money flows, prediction markets, and execution conditions.\n\nPortfolio state includes the user’s positions, collateral, liquidation risk, exposure across venues, trading history, strategy intent, risk tolerance, and behavioral patterns.\n\nMost products understand one side badly, or both sides separately.\n\nA trading terminal may know the market but not the user. A portfolio tracker may know the wallet but not the current opportunity. A chatbot may explain a chart but not understand the trader’s full exposure. An exchange may show liquidation price but not whether adding to a position destroys the user’s actual risk profile.\n\nThe missing layer is the system that understands all of this together.\n\nThat is what makes the category more interesting than “AI trade ideas.”\n\nA generic trading signal says: buy ETH.\n\nA portfolio-aware financial agent says: given your current BTC exposure, funding environment, collateral usage, execution costs, volatility regime, and recent trading behavior, increasing this position improves or worsens your objective by this amount.\n\nThat difference matters.\n\nThe first useful agents in finance will not be magical black boxes that predict every move. They will be systems that compress context, enforce discipline, and manage execution better than humans can under pressure.\n\nThey will help users answer questions like:\n\n\\- Am I actually underexposed, or am I emotionally trying to win back a loss?\n\n\\- What happens to my liquidation risk if I add here?\n\n\\- Should I cut immediately, scale out, or TWAP over time?\n\n\\- Is this funding spread still",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2060342141381971968"
+    },
+    "http://x.com/i/article/2060357382052454403": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060357382052454403",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060357382052454403/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfnQn4WsAM4o-D?format=jpg&name=900x900)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060369627314565123)\n\nThis Workspace Setup Will Change Your Life\n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n·\n\n15h\n\nFollow\n\nClick to Follow RianSweetDoris\n\n6\n\n54\n\n208\n\n[40K](http://x.com/i/article/2060357382052454403/RianSweetDoris/status/2060399898798018696/analytics)\n\nCharles Darwin. William Shakespeare. Emily Dickinson. Thomas Edison.\n\nWhat did all of these people have in common?\n\nThey all had a place. A specific location in time and space from which they changed the world. And the nature of that place affected the degree of change they were able to make.\n\nFrom Edison's laboratory in Menlo Park to Darwin's family Down House in Kent, these creators had a workspace in which they lost themselves in a state of flow.\n\n[![Image](https://pbs.twimg.com/media/HJfr73oXQAESnQ8?format=png&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060374768323346433)\n\nFlow can be amplified or blocked by where we work. The trouble is, very few knowledge workers have intentionally designed their workspace for it.\n\nThey tend to fall into one of three camps. Which of these sounds like you?\n\n# \n\nI. THE THREE ARCHETYPES\n\n[![Image](https://pbs.twimg.com/media/HJf2PfwXQAMBKaN?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060386100628111363)\n\n## \n\n1\\. The Overwhelmed Office Worker\n\nYou work in an open office plan plagued by constant disruptions. Between tap-on-the-shoulder meetings and chatter, you can't focus for more than a few minutes at a time. You dream of a private office, but feel powerless to change your environment.\n\n## \n\n2\\. The Uninspired Home Worker\n\nYesterday's dirty mugs still clutter your makeshift desk. Maybe you work on the couch, hunched over, so the ergonomics are terrible. The cluttered space is associated more with distraction than meaningful work. You know you could have a lovely office, but lack the motivation to set it up.\n\n## \n\n3\\. The Entrepreneurial Athlete\n\nThe Entrepreneurial Athlete engineers their workspace for flawless focus and flow. It's treated as a sacred and cherished space, so all sources of distraction are banned. Everything is set up for complete immersion and accelerated progress.\n\nThe Entrepreneurial Athlete understands their environment must facilitate focus before focus can facilitate greatness.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HJf4RUzXwAIZq-W.jpg)\n\nGIF\n\nWhichever camp you fall into, it's only after you optimize your workspace that you realize the magnitude of difference it can make to your focus, productivity, and access to flow.\n\nYour workspace is one of several specific blockers that quietly prevent access to flow state, the state of consciousness where you feel your best and perform your best. \n\nThe workspace is where I start with almost everyone, because it's the lever they're most certain doesn't matter, and it's usually the one holding them back the most.\n\n[![Image](https://pbs.twimg.com/media/HJf6AX5WkAsr8cX?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060390238866804747)\n\n# \n\nII. THE FLOW DOJO\n\nI once rented an oppressively bleak office space. 50th floor of a drab Mexico City high-rise. \n\n[![Image](https://pbs.twimg.com/media/HJf5EWuXQAQxmAL?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/206",
+      "title": "",
+      "url": "http://x.com/i/article/2060357382052454403"
     },
     "http://x.com/i/article/2060372903992991747": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -4652,6 +4706,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060433567768031233"
+    },
+    "http://x.com/i/article/2060551779188645898": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060551779188645898",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060551779188645898/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJiSYLrWkAUJiw4?format=jpg&name=900x900)](http://x.com/i/article/2060551779188645898/ashwingop/article/2060562561456611586/media/2060557773671141381)\n\nThe Infinite White Monkey Theorem \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2060551779188645898/ashwingop)\n\n·\n\n4h\n\nFollow\n\nClick to Follow ashwingop\n\n1\n\n6\n\n[836](http://x.com/i/article/2060551779188645898/ashwingop/status/2060562561456611586/analytics)\n\nThe \n\n[Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite%5Fmonkey%5Ftheorem)\n\n used to be charming. Put a monkey in front of a typewriter, give it infinite time, and eventually it produces Shakespeare. Elegant and profoundly useless: one animal, one machine, one miracle achieved through statistical violence. The monkey did not need to understand Hamlet, monarchy, ghosts, or why Shakespeare’s characters need group therapy. It just had to keep hitting keys until infinity did the heavy lifting. That was the old world. The monkey was alone. The worst thing it could do was produce nonsense.\n\nIt had no compiler, no autocomplete, no GitHub account, and definitely no AI agent whispering that what it meant was a full-stack SaaS platform with Supabase auth and tasteful gradients.\n\nThe modern monkey has Cursor, Lovable or whichever AI coding tool is currently being described on X as “insane” by a man whose profile picture was generated inside a protein shake for lookmaxxing. This monkey is hunched over a MacBook that is now legally a biohazard, sticky banana fingers slapping Command-K like a lab rat discovering venture capital. It thinks Postgres is a skin condition and authentication means screeching until the rectangle apologizes.\n\nStill, it builds, because the new machine does not require deep understanding. The monkey can begin with:\n\n“make app”\n\nThen:\n\n“no make better”\n\nThen:\n\n“make it look like Linear but with bananas”\n\nThen:\n\n“why error you stupid robot”\n\nFollowed by:\n\n“if this breaks again I will eat the .env file”\n\nThen, after the model fixes one import path:\n\n“ok thank you love u”\n\nBy dawn, something exists. But, not Shakespeare, something way more dangerous: a startup!\n\nYou have seen these things on X. Someone posts at 2:14 AM: “Built this over the weekend with no code. Already at $4k MRR.” The screenshot shows gradients, pricing, and a dashboard that says “Revenue” despite there being no customers and no evidence the founder has interacted with another mammal since Thursday. The app is always familiar: AI CRM for dentists, founder voice notes, or a knowledge base for people with too many knowledge bases. The frontend looks expensive with dithering and dark mode. The backend has worms and somewhere in the repo there is NEXT\\_PUBLIC\\_STRIPE\\_SECRET\\_KEY\\_DONT\\_STEAL\\_PLEASE\\_IM\\_BEGGING\\_YOU, four auth systems, and a hardcoded childhood-dog password. The monkey then posts: “Shipping fast. DMs open.” and the other monkeys upvote solemnly.\n\nI thought this was the Infinite Vibe Monkey Theorem. The monkey will later insist the correct name is worse.\n\nThe old theorem was randomness plus infinity producing meaning. The new one is vibes plus models producing software, or at least enough rounded corners to survive a demo call. A random monkey makes garbage, licks something, and goes to sleep. This monkey is worse because it is productive (Note: productive ≠ useful). First it builds a CRUD app, then it builds another CRUD app to manage the first CRUD app and by sunrise, it has a customer portal, Stripe checkout, manifesto, and no idea what problem it is solvin",
+      "title": "",
+      "url": "http://x.com/i/article/2060551779188645898"
+    },
+    "http://x.com/i/article/2060561764451008512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060561764451008512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060561764451008512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJimoi-akAAyKSQ?format=jpg&name=900x900)](http://x.com/i/article/2060561764451008512/%5Fheyrico/article/2060580554131771584/media/2060580045035573248)\n\nthe 100x builder\n\n[![](https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_normal.jpg)](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[rico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[@\\_heyrico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n·\n\n3h\n\nFollow\n\nClick to Follow \\_heyrico\n\n1\n\n3\n\n[246](http://x.com/i/article/2060561764451008512/%5Fheyrico/status/2060580554131771584/analytics)\n\nThe 100x builder is not someone who types one hundred times faster.\n\nThat version of the idea is a toy.\n\nThe real shift is that one capable builder can now cover more of the product surface than before: research, design, code, copy, testing, documentation, launch assets, and iteration.\n\nAI did not remove the need for taste. It made taste easier to expose.\n\nOpenAI says more than 3 million developers use Codex weekly. It also says nearly all engineers inside OpenAI now use Codex and merge 70 percent more pull requests each week. GitHub's older Copilot study found a 55 percent speed gain on a controlled task. At the same time, METR found experienced open-source developers were 19 percent slower with early-2025 AI tools on a specific set of real tasks.\n\nSo the honest story is not \"AI makes everyone 100x.\"\n\nThe honest story is sharper:\n\nAI multiplies the person who can direct work well.\n\n## \n\n  \n## \n\nThe Core Problem\n\nThe old 10x engineer myth was about individual output.\n\nOne rare person could supposedly write better code, make better decisions, and ship more than an average team. The idea was always a little messy because software work is not just typing. It is understanding the problem, choosing the right abstraction, working with constraints, reviewing tradeoffs, and keeping the system healthy.\n\nAI makes the myth more tempting and more dangerous.\n\nIt is easy to watch an agent build a feature, generate a screen, write tests, or create a landing page and conclude that the builder has become superhuman.\n\nBut that is not what is happening.\n\nThe builder is not becoming faster at every task.\n\nThe builder is changing the shape of the task.\n\nInstead of doing every step manually, the builder is becoming a director of work. They decide what needs to be done, prepare the context, choose the tool, inspect the result, correct the direction, and decide whether the output is good enough to ship.\n\nThat is a different skill.\n\nIt is closer to running a tiny product team than being a faster individual contributor.\n\n## \n\n  \n## \n\nExplanation\n\nThe 100x builder has range.\n\nNot shallow range where they can pretend to do everything. Useful range where they know enough about each layer to move the work forward.\n\nThey can research the market before building.\n\nThey can design a simple interface before writing code.\n\nThey can write the first landing page before hiring a copywriter.\n\nThey can use an agent to create a prototype.\n\nThey can test the prototype in a browser.\n\nThey can ask another model to critique the product logic.\n\nThey can turn the result into a demo, post, or investor update.\n\nThat does not mean every output is excellent.\n\nIt means the waiting cost between disciplines is lower.\n\nA designer does not need to wait a week to see whether an interaction can work in code. A founder does not need to wait for a full team to test a product promise. A solo studio owner does not need five specialists for the first version of every asset.\n\nThe bottleneck moves.\n\nBefore AI, the bottleneck was often production capacity.\n\nCan we design it?\n\nCan we code it?\n\nCan we write it?\n\nCan we make the deck?\n\nCan we create the demo?\n\nAfter AI, the bottleneck is judgment.\n\nIs this the right thing to build?\n\nIs",
+      "title": "",
+      "url": "http://x.com/i/article/2060561764451008512"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -25375,6 +25455,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     },
+    "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg"
+    },
+    "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg"
+    },
+    "https://pbs.twimg.com/media/HJajzjja8AAuE76.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJajzjja8AAuE76.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJajzjja8AAuE76.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJajzjja8AAuE76.jpg"
+    },
+    "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg"
+    },
     "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25416,20 +25552,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg"
-    },
-    "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
     },
     "https://pbs.twimg.com/media/HJcr6PAaMAAfQaR.jpg": {
       "cleaner_v": 2,
@@ -27807,25 +27929,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Goal Engineering: how I brief coding agents using paired goal+rider documents",
       "url": "https://www.gregceccarelli.com/goal-engineering?v=1"
-    },
-    "https://www.hiten.com/mcps-for-work": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Stop copy-pasting context every time and finally give Claude the full picture of how you work",
-      "final_url": "https://www.hiten.com/mcps-for-work",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.sanity.io/images/ou0lowkd/production/f21cb3cbca638feb4f27254429a65ae30ae7a5b2-1731x909.jpg?w=1200&h=630&fit=crop",
-        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Fe04be938d353290a3daeaf7cff8e8484a046568f-627x627.jpg%3Fw%3D1280%26h%3D1280%26fit%3Dcrop&w=1920&q=75",
-        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Ffc3c1f8f713c0488c278590a11107245081ca897-2000x2000.jpg%3Fw%3D80%26h%3D80%26fit%3Dcrop&w=96&q=75"
-      ],
-      "kind": "article",
-      "text_excerpt": "Schedule Resources Library Schedule Library X YouTube Github Hosted By Hiten Shah MCPs for Work: Connect Claude to Your Actual Tools in 15 Minutes Stop copy-pasting context every time and finally give Claude the full picture of how you work May 29 Friday, May 29 10:00 AM PT Registration Register to join the live session. Register About I spend way too much time copy-pasting Slack threads, email chains, calendar events, and project updates into Claude every single conversation. It all gets manually fed in, over and over again. It’s exhausting and it breaks the flow. With MCPs you can connect Claude directly to the tools you already live in every day. This live session is a practical walkthrough of the MCPs actually worth installing, how to connect them properly, and how to use them together so Claude understands your work from the first message. You’ll leave with a working MCP stack you can start using the same day. This is for you if: You use Claude regularly but still spend time feeding it context by hand every conversation You’ve heard of MCPs but haven’t actually set them up yet You want Claude to feel less like a chatbot and more like someone who actually knows what you’re working on Before we get started, take a minute and think about this for yourself: Which tools are you living in every single day? Where are you still doing work manually that Claude should be handling for you? The clearer you are on those two questions, the more powerful your MCP setup becomes. We’ll go through the whole thing step by step. Registration Register to join the live session. Register",
-      "text_excerpt_zh": "日程 | 资源 | 资料库  \n日程 | 资料库 | X | YouTube | GitHub  \n主办方：Hiten Shah  \n\n**工作中的 MCP：15 分钟将 Claude 接入你的真实工具**  \n别再每次都手动复制粘贴上下文，让 Claude 真正了解你的工作全貌  \n\n**5月29日（周五）上午10:00（太平洋时间）**  \n**注册**  \n报名参加直播。  \n[注册]  \n\n**关于本次活动**  \n我每次和 Claude 对话时，都要花大量时间手动粘贴 Slack 讨论串、邮件往来、日历事件和项目更新。一遍又一遍地手动输入，既累人又打断思路。借助 MCP，你可以将 Claude 直接连接到那些你每天都在使用的工具。  \n\n本次直播将是一次实操演练，内容包括：哪些 MCP 真正值得安装、如何正确连接它们，以及如何组合使用，让 Claude 从第一条消息开始就理解你的工作。你将获得一套可立即上手的 MCP 工具栈，当天就能用起来。  \n\n**本次活动适合你，如果：**  \n- 你经常使用 Claude，但每次对话仍需手动喂入上下文  \n- 你听说过 MCP，但还没真正配置过  \n- 你希望 Claude 不再像个聊天机器人，而更像一个真正了解你工作内容的人  \n\n**开始之前，请花一分钟思考以下问题：**  \n- 你每天最常使用哪些工具？  \n- 哪些工作你还在手动完成，而本应由 Claude 替你处理？  \n\n你对这两个问题想得越清楚，你的 MCP 配置就越强大。我们将一步步带你完成整个过程。  \n\n**注册**  \n报名参加直播。  \n[注册]",
-      "text_excerpt_zh_hash": "bfafe3ef8b8901a2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "MCPs for Work: Connect Claude to Your Actual Tools in 15 Minutes",
-      "url": "https://www.hiten.com/mcps-for-work"
     },
     "https://www.ignorance.ai/p/the-emerging-harness-engineering": {
       "cleaner_v": 2,
@@ -40042,17 +40145,19 @@
       "https://x.com/IBuzovskyi/status/2059860662658949530",
       "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg",
       "https://x.com/IBuzovskyi/status/2059988505317568888",
-      "https://x.com/IBuzovskyi/status/2060085623575253469",
+      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060050167454163416",
       "https://x.com/IBuzovskyi/status/2060365190592344535",
-      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060260830306832638",
       "https://x.com/IBuzovskyi/status/2060030951992820212",
-      "https://x.com/IBuzovskyi/status/2060005154041053585",
-      "https://x.com/IBuzovskyi/status/2059982757715927092",
+      "https://x.com/IBuzovskyi/status/2060018425406136537",
+      "https://x.com/IBuzovskyi/status/2060099081620353322",
       "https://x.com/IBuzovskyi/status/2059976851926225060",
-      "https://x.com/IBuzovskyi/status/2060310956396236878",
-      "https://x.com/IBuzovskyi/status/2059982479386144968"
+      "https://x.com/IBuzovskyi/status/2060005154041053585",
+      "https://x.com/IBuzovskyi/status/2060500526228258864",
+      "https://x.com/IBuzovskyi/status/2060085623575253469",
+      "https://x.com/IBuzovskyi/status/2059982757715927092",
+      "https://x.com/IBuzovskyi/status/2060009581841969436"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40077,8 +40182,8 @@
       "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
       "https://x.com/danshipper/status/2059976661924290964",
       "https://every.to/guides/codex-for-knowledge-work",
-      "https://x.com/danshipper/status/2059980665081192736",
       "https://x.com/danshipper/status/2059977059233923515",
+      "https://x.com/danshipper/status/2059980665081192736",
       "https://x.com/danshipper/status/2060025890231197803",
       "https://x.com/danshipper/status/2059983128551166116",
       "https://x.com/danshipper/status/2059980665081192736?s=20"
@@ -40166,11 +40271,11 @@
       "https://x.com/Av1dlive/status/2060039406824898605",
       "https://x.com/Av1dlive/status/2060315643883532597",
       "https://x.com/Av1dlive/status/2060051064402178483",
-      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060374756004893055",
+      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060036806553550971",
-      "https://x.com/Av1dlive/status/2060042134175240630",
       "https://x.com/Av1dlive/status/2060057107458822241",
+      "https://x.com/Av1dlive/status/2060042134175240630",
       "https://x.com/Av1dlive/status/2060063490208088186",
       "https://x.com/Av1dlive/status/2060056936515764703",
       "https://x.com/Av1dlive/status/2060037134313247205",
@@ -40194,10 +40299,7 @@
     "2060058695095267425": [
       "https://x.com/hnshah/status/2060058695095267425",
       "https://x.com/hnshah/status/2060079987949253024",
-      "https://x.com/hnshah/status/2060074931476689376",
-      "https://x.com/hnshah/status/2060150377123856849",
-      "https://www.hiten.com/mcps-for-work",
-      "https://pbs.twimg.com/media/HJcYVMUbgAAI2RS.jpg"
+      "https://x.com/hnshah/status/2060074931476689376"
     ],
     "2060061106794557546": [
       "https://x.com/schrockn/status/2060061106794557546",
@@ -40277,6 +40379,10 @@
       "https://x.com/Zephyr_hg/status/2060305898182971806",
       "http://x.com/i/article/2060304215818264576"
     ],
+    "2060350372233769261": [
+      "https://x.com/borkodotfun/status/2060350372233769261",
+      "http://x.com/i/article/2060342141381971968"
+    ],
     "2060355988616540534": [
       "https://x.com/SidebarIO/status/2060355988616540534",
       "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
@@ -40299,6 +40405,10 @@
       "https://x.com/antirez/status/2060375845110223007",
       "https://x.com/antirez/status/2060376095338168679"
     ],
+    "2060399898798018696": [
+      "https://x.com/RianSweetDoris/status/2060399898798018696",
+      "http://x.com/i/article/2060357382052454403"
+    ],
     "2060399973506924612": [
       "https://x.com/huntlovell/status/2060399973506924612",
       "http://x.com/i/article/2060157320651554816"
@@ -40314,8 +40424,8 @@
     "2060406977357070522": [
       "https://x.com/aparnadhinak/status/2060406977357070522",
       "http://x.com/i/article/2060381072148537344",
-      "https://x.com/aparnadhinak/status/2060427547650019413",
-      "https://x.com/aparnadhinak/status/2060472376262013363"
+      "https://x.com/aparnadhinak/status/2060472376262013363",
+      "https://x.com/aparnadhinak/status/2060427547650019413"
     ],
     "2060412635481559332": [
       "https://x.com/kylejeong/status/2060412635481559332",
@@ -40333,8 +40443,27 @@
       "https://x.com/SidebarIO/status/2059993607419965888",
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
+    ],
+    "2060527240098587085": [
+      "https://x.com/tonysimons_/status/2060527240098587085",
+      "http://x.com/i/article/2060205510750552067"
+    ],
+    "2060562561456611586": [
+      "https://x.com/ashwingop/status/2060562561456611586",
+      "http://x.com/i/article/2060551779188645898",
+      "https://x.com/ashwingop/status/2059848423587619039",
+      "http://x.com/i/article/2059843738634010628"
+    ],
+    "2060580554131771584": [
+      "https://x.com/_heyrico/status/2060580554131771584",
+      "http://x.com/i/article/2060561764451008512",
+      "https://x.com/_heyrico/status/2060014002961564128",
+      "https://pbs.twimg.com/media/HJajzjja8AAuE76.jpg",
+      "https://pbs.twimg.com/media/HJajzzKa8AABTUD.jpg",
+      "https://pbs.twimg.com/media/HJaj0IAawAAMXlv.jpg",
+      "https://pbs.twimg.com/media/HJaj0V9bcAAPcpo.jpg"
     ]
   },
-  "updated_at": "2026-05-30T05:00:17Z",
+  "updated_at": "2026-05-30T07:57:42Z",
   "window": "recent"
 }
