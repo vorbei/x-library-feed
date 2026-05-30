@@ -1991,6 +1991,23 @@
       "title": "",
       "url": "http://trygooey.com"
     },
+    "http://weeklyaiops.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Stop drowning in AI updates. Get one tested implementation guide every Monday, plus the complete operator toolkit. 703 members. 5/5 rated.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://weeklyaiops.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://weeklyaiops.com/seo/og-image.png",
+        "https://weeklyaiops.com/_next/image?url=%2Fimages%2Favatar-machina-eye.jpg&w=64&q=75&dpl=dpl_DXykvs8csNgjnRcoTMGztRSVpr9T",
+        "https://weeklyaiops.com/_next/image?url=%2Fimages%2Favatar-machina-eye.jpg&w=48&q=75&dpl=dpl_DXykvs8csNgjnRcoTMGztRSVpr9T"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Get Weekly Battle-Tested AI Workflows | The Real-Time AI Ops Community",
+      "url": "http://weeklyaiops.com"
+    },
     "http://www.ui-skills.com/": {
       "content_type": "text/html",
       "description": "Discover curated UI Skills for design engineers, including accessibility, motion, frontend craft, and interface quality guides with copy-ready install commands.",
@@ -4701,6 +4718,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060433567768031233"
     },
+    "http://x.com/i/article/2060512029065269248": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060512029065269248",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060512029065269248/i/keyboard%5Fshortcuts)\n\n[Home ](http://x.com/i/article/2060512029065269248/home)[Explore ](http://x.com/i/article/2060512029065269248/explore)[Notifications ](http://x.com/i/article/2060512029065269248/notifications)[Chat ](http://x.com/i/article/2060512029065269248/i/chat)[Grok ](http://x.com/i/article/2060512029065269248/i/grok)[Premium ](http://x.com/i/article/2060512029065269248/i/premium)[Bookmarks ](http://x.com/i/article/2060512029065269248/i/bookmarks)[Creator Studio ](http://x.com/i/article/2060512029065269248/i/jf/creators/studio)[Articles ](http://x.com/i/article/2060512029065269248/compose/articles)[Profile ](http://x.com/i/article/2060512029065269248/chumsdock)\n\nMore \n\n[Post](http://x.com/i/article/2060512029065269248/compose/post)\n\n![Cheng](https://pbs.twimg.com/profile_images/378800000010252572/78d17364b6d52a63220206d139e6ebbd_normal.jpeg)\n\nCheng\n\n@chumsdock\n\nThis page is not supported.\n\nPlease visit the author’s profile on the latest version of X to view this content.",
+      "title": "",
+      "url": "http://x.com/i/article/2060512029065269248"
+    },
     "http://x.com/i/article/2060551779188645898": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4732,6 +4762,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060561764451008512"
+    },
+    "http://x.com/i/article/2060705100503379973": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060705100503379973",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060705100503379973/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJkbOluXkAAKnG6?format=jpg&name=900x900)](http://x.com/i/article/2060705100503379973/bibryam/article/2060708326829170785/media/2060708241957425152)\n\nCoding Agents Need a Trust Layer\n\n[![](https://pbs.twimg.com/profile_images/1779610675431591936/WMVtJ651_normal.jpg)](http://x.com/i/article/2060705100503379973/bibryam)\n\n[Bilgin Ibryam](http://x.com/i/article/2060705100503379973/bibryam)\n\n[@bibryam](http://x.com/i/article/2060705100503379973/bibryam)\n\n·\n\n2h\n\nFollow\n\nClick to Follow bibryam\n\n2\n\n4\n\n31\n\n[2K](http://x.com/i/article/2060705100503379973/bibryam/status/2060708326829170785/analytics)\n\nCoding agents made writing code cheaper. Claude Code, Cursor, Codex, and similar tools can now produce useful diffs quickly. But they did not make code easier to trust.\n\nThat is the next bottleneck.\n\nA green build only tells you the code compiled, formatted, and passed existing tests. It does not tell you whether the agent preserved business rules, wrote meaningful tests, respected architecture, or touched tools it should not have access to.\n\nThe missing piece is an agent quality layer.\n\nIt sits between the coding agent and the pull request. Its job is simple: catch mistakes before they become review work, and leave enough evidence behind so humans can understand what happened later.\n\n## \n\n1\\. Feedback sensors\n\nA coding agent without compiler, lint, type, and test feedback turns the human reviewer into the first quality gate.\n\nThat is backwards.\n\nAgents should see fast failures while they work, not after they open a PR.\n\nThis is where Birgitta Böckeler’s work on maintainability sensors is useful. The lesson is simple: give agents feedback they can act on.\n\n[![Image](https://pbs.twimg.com/media/HJkaQAAW0AYOMzQ?format=jpg&name=small)](http://x.com/i/article/2060705100503379973/bibryam/article/2060708326829170785/media/2060707166680436742)\n\nUse compilers, type checks, focused tests, custom lint messages, mutation testing with tools like cargo-mutants, and fuzzing with tools like WuppieFuzz.\n\nThe goal is not more process. The goal is fewer obvious mistakes reaching review.\n\n## \n\n2\\. Semantic evals\n\nSome code compiles and still does the wrong thing.\n\nThis happens with generated tests, policy logic, tool-use workflows, data transformations, and customer-facing behavior.\n\nNormal tests check outputs.\n\nSemantic evals check meaning.\n\nUse golden examples, DeepEval, LLM-as-judge with reviewed examples, hallucination checks, tool-use checks, and semantic review for behavior that is hard to verify with deterministic tests alone.\n\n[![Image](https://pbs.twimg.com/media/HJkZ2y7WAAMroZQ?format=png&name=small)](http://x.com/i/article/2060705100503379973/bibryam/article/2060708326829170785/media/2060706733673021443)\n\nThis should not replace tests.\n\nIt should catch the class of failures that tests often miss.\n\n## \n\n3\\. Refactor boundaries\n\nCoding agents can rewrite code faster than humans can review it.\n\nThat is useful in clean modules.\n\nIt is dangerous in legacy hotspots.\n\nA 2,000-line class with years of business logic is exactly where an agent may confidently refactor code and accidentally delete behavior nobody documented.\n\nTeams need refactor boundaries.\n\n[![Image](https://pbs.twimg.com/media/HJkZ87IWkAMC9S3?format=png&name=small)](http://x.com/i/article/2060705100503379973/bibryam/article/2060708326829170785/media/2060706838954283011)\n\nUse CodeScene to find hotspots. Use CODEOWNERS for risky paths. Use dependency-cruiser, ArchUnit, or Spring Modulith to enforce module boundaries.\n\nGive agents green zones for safe cleanup, yellow zones for scoped changes, and red zones where a human design step is required first.\n\nSpeed is useful only when the blast radius is controlled.\n\n## \n\n4\\. Provenance and agent surface inventory\n\nIn an AI-assisted codebase, git blame is no longer eno",
+      "title": "",
+      "url": "http://x.com/i/article/2060705100503379973"
+    },
+    "http://x.com/i/article/2060729909690224640": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060729909690224640",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060729909690224640/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJk0pzlaYAEJkzi?format=jpg&name=900x900)](http://x.com/i/article/2060729909690224640/EXM7777/article/2060736517564477901/media/2060736197325119489)\n\nHow To Fix AI Slop (Using Hermes)\n\n[![](https://pbs.twimg.com/profile_images/1922574051580563456/-OFXIxnm_normal.jpg)](http://x.com/i/article/2060729909690224640/EXM7777)\n\n[Machina](http://x.com/i/article/2060729909690224640/EXM7777)\n\n[@EXM7777](http://x.com/i/article/2060729909690224640/EXM7777)\n\n·\n\n43m\n\nFollow\n\nClick to Follow EXM7777\n\n3\n\n2\n\n28\n\n[1.7K](http://x.com/i/article/2060729909690224640/EXM7777/status/2060736517564477901/analytics)\n\nThere's a reason some people seem to be constantly shipping the best software, writing incredible content, or generating insane images...\n\nThey adopted the eval loop, while you...\n\nYou've tried better prompts, you've switched to the more expensive model, you've written longer instructions, you've turned on memory, you've built context files the size of a novel, and the slop still comes back...\n\nit comes back because you keep fixing the layer that was never broken\n\nslop is not a prompt problem, it's a systems problem, the same way a factory shipping defective units doesn't have a worker problem, it has a quality-control problem, nobody is checking the output before it leaves the building\n\nso this is the build, by the end of this read you'll have a working eval loop running inside hermes, the open-source agent, scoring every output against your standard before it ships, watching your live output after it ships, and turning every failure back into a new test so the quality floor rises on its own\n\nwe build it together, one piece at a time, and the payoff is concrete, clean output you can trust without re-reading it at midnight, a quality number you can actually look at, and slop that gets caught on the way out the door instead of by your audience\n\nhere's what you're walking away with:\n\n\\- the real reason better prompts, bigger models, and memory never kill slop for good, and the one layer that actually does\n\n\\- the two places slop hides in your work, your content output and your product output, and why the fix is identical for both\n\n\\- what an eval loop is in plain english, the quality layer very few people run daily, and the reason no one ever told you to build one\n\n\\- a quality benchmark you can stand up this week, for content and for product, exactly what to measure and what \"good\" looks like as a number you can read off a screen\n\n\\- the exact build, step by step, for wiring that whole loop into hermes out of the pieces it already gives you, skills, memory, cron, and approval buttons, so the gate runs without you\n\nif you came here for \"the 5 prompts that fix ai slop,\" this is not that piece, those exist and they don't work, this is the version that does\n\n## \n\nyou've tried everything except the one thing\n\n[![Image](https://pbs.twimg.com/media/HJkxlBqaIAAter_?format=jpg&name=small)](http://x.com/i/article/2060729909690224640/EXM7777/article/2060736517564477901/media/2060732816669941760)\n\na short walk through what you've already done:\n\nyou rewrote the prompt, three times, four times, you added examples, you added a persona, you added a \"do not\" list a mile long\n\nyou upgraded to the frontier model, paid 5x per token, and the output got more confident without getting less generic\n\nyou turned on memory, you built a context file, you fed it your brand voice, your past work, your style guide\n\nand every single one of those moves bought you a few good generations, then the slop crept back in\n\nevery one of those is an input-side fix, you keep sharpening the thing that generates while ignoring the thing that should be catching, a better gun fired into the dark still hits nothing\n\nslop is an output-side problem, it's not that the model can't produce good work, it's that you",
+      "title": "",
+      "url": "http://x.com/i/article/2060729909690224640"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -17727,6 +17783,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2060737027478298625/img/z8ZocWaLcZQ6WUwj.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060737027478298625/img/z8ZocWaLcZQ6WUwj.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060737027478298625/img/z8ZocWaLcZQ6WUwj.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060737027478298625/img/z8ZocWaLcZQ6WUwj.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25651,34 +25721,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
     },
-    "https://pbs.twimg.com/media/HJi7mR1XIAM8qma.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJi7mR1XIAM8qma.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJi7mR1XIAM8qma.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJi7mR1XIAM8qma.jpg"
-    },
-    "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
-    },
     "https://pbs.twimg.com/media/HJkADLjaMAAoFuv.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -25790,20 +25832,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
-    },
-    "https://pbs.twimg.com/tweet_video_thumb/HJjzjs9WoAAIUgl.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HJjzjs9WoAAIUgl.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HJjzjs9WoAAIUgl.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HJjzjs9WoAAIUgl.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -40187,19 +40215,19 @@
       "https://x.com/IBuzovskyi/status/2059860662658949530",
       "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg",
       "https://x.com/IBuzovskyi/status/2059988505317568888",
-      "https://x.com/IBuzovskyi/status/2059986423357272218",
+      "https://x.com/IBuzovskyi/status/2060085623575253469",
       "https://x.com/IBuzovskyi/status/2060050167454163416",
       "https://x.com/IBuzovskyi/status/2060365190592344535",
+      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060260830306832638",
-      "https://x.com/IBuzovskyi/status/2060030951992820212",
-      "https://x.com/IBuzovskyi/status/2060018425406136537",
-      "https://x.com/IBuzovskyi/status/2060099081620353322",
       "https://x.com/IBuzovskyi/status/2060005154041053585",
-      "https://x.com/IBuzovskyi/status/2060500526228258864",
-      "https://x.com/IBuzovskyi/status/2060085623575253469",
-      "https://x.com/IBuzovskyi/status/2060127369667457175",
       "https://x.com/IBuzovskyi/status/2059982757715927092",
-      "https://x.com/IBuzovskyi/status/2060009581841969436"
+      "https://x.com/IBuzovskyi/status/2059976851926225060",
+      "https://x.com/IBuzovskyi/status/2060030951992820212",
+      "https://x.com/IBuzovskyi/status/2059982479386144968",
+      "https://x.com/IBuzovskyi/status/2060127369667457175",
+      "https://x.com/IBuzovskyi/status/2060099081620353322",
+      "https://x.com/IBuzovskyi/status/2060500526228258864"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40311,19 +40339,19 @@
       "https://x.com/Av1dlive/status/2060042597209665920",
       "https://github.com/codejunkie99/cove",
       "https://x.com/Av1dlive/status/2060039406824898605",
+      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060315643883532597",
       "https://x.com/Av1dlive/status/2060051064402178483",
-      "https://x.com/Av1dlive/status/2060374756004893055",
-      "https://x.com/Av1dlive/status/2060035911635878305",
       "https://x.com/Av1dlive/status/2060036806553550971",
-      "https://x.com/Av1dlive/status/2060057107458822241",
+      "https://x.com/Av1dlive/status/2060374756004893055",
       "https://x.com/Av1dlive/status/2060042134175240630",
-      "https://x.com/Av1dlive/status/2060063490208088186",
-      "https://x.com/Av1dlive/status/2060056936515764703",
       "https://x.com/Av1dlive/status/2060037134313247205",
+      "https://x.com/Av1dlive/status/2060056936515764703",
+      "https://x.com/Av1dlive/status/2060057107458822241",
       "https://x.com/Av1dlive/status/2060070068269224322",
-      "https://x.com/Av1dlive/status/2060042640360648849",
-      "https://x.com/Av1dlive/status/2060037081729253413"
+      "https://x.com/Av1dlive/status/2060037081729253413",
+      "https://x.com/Av1dlive/status/2060063490208088186",
+      "https://x.com/Av1dlive/status/2060042640360648849"
     ],
     "2060049802931433800": [
       "https://x.com/JanTomasekDev/status/2060049802931433800"
@@ -40406,9 +40434,7 @@
     ],
     "2060173406494974108": [
       "https://x.com/cellinlab/status/2060173406494974108",
-      "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg",
-      "https://x.com/cellinlab/status/2060603149937734119",
-      "https://pbs.twimg.com/media/HJi7mR1XIAM8qma.jpg"
+      "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
     ],
     "2060174563691082117": [
       "https://x.com/BadUncleX/status/2060174563691082117",
@@ -40457,8 +40483,8 @@
     "2060399898798018696": [
       "https://x.com/RianSweetDoris/status/2060399898798018696",
       "http://x.com/i/article/2060357382052454403",
-      "https://x.com/RianSweetDoris/status/2060664638379860036",
-      "https://pbs.twimg.com/tweet_video_thumb/HJjzjs9WoAAIUgl.jpg"
+      "https://x.com/RianSweetDoris/status/2060737039054557259",
+      "https://pbs.twimg.com/amplify_video_thumb/2060737027478298625/img/z8ZocWaLcZQ6WUwj.jpg"
     ],
     "2060399973506924612": [
       "https://x.com/huntlovell/status/2060399973506924612",
@@ -40475,8 +40501,8 @@
     "2060406977357070522": [
       "https://x.com/aparnadhinak/status/2060406977357070522",
       "http://x.com/i/article/2060381072148537344",
-      "https://x.com/aparnadhinak/status/2060427547650019413",
-      "https://x.com/aparnadhinak/status/2060472376262013363"
+      "https://x.com/aparnadhinak/status/2060472376262013363",
+      "https://x.com/aparnadhinak/status/2060427547650019413"
     ],
     "2060412635481559332": [
       "https://x.com/kylejeong/status/2060412635481559332",
@@ -40505,8 +40531,8 @@
     ],
     "2060456206771085502": [
       "https://x.com/thegabegaines/status/2060456206771085502",
-      "https://x.com/thegabegaines/status/2060458747923689654",
-      "https://x.com/thegabegaines/status/2060466172680663368"
+      "https://x.com/thegabegaines/status/2060466172680663368",
+      "https://x.com/thegabegaines/status/2060458747923689654"
     ],
     "2060527240098587085": [
       "https://x.com/tonysimons_/status/2060527240098587085",
@@ -40518,10 +40544,7 @@
     ],
     "2060562561456611586": [
       "https://x.com/ashwingop/status/2060562561456611586",
-      "http://x.com/i/article/2060551779188645898",
-      "https://x.com/ashwingop/status/2060564876859208020",
-      "https://x.com/ashwingop/status/2060562561456611586?s=20",
-      "https://pbs.twimg.com/media/HJiW6QWXMAA-MPI.jpg"
+      "http://x.com/i/article/2060551779188645898"
     ],
     "2060580554131771584": [
       "https://x.com/_heyrico/status/2060580554131771584",
@@ -40529,10 +40552,32 @@
       "https://x.com/_heyrico/status/2060678363417919751",
       "https://pbs.twimg.com/media/HJkADLjaMAAoFuv.png"
     ],
+    "2060652660773314833": [
+      "https://x.com/eng_khairallah1/status/2060652660773314833",
+      "http://x.com/i/article/2060512029065269248",
+      "https://x.com/eng_khairallah1/status/2060677950018883968",
+      "https://x.com/eng_khairallah1/status/2060656465661313442",
+      "https://x.com/eng_khairallah1/status/2060656588004950198",
+      "https://x.com/eng_khairallah1/status/2060656535915958653",
+      "https://x.com/eng_khairallah1/status/2060656490592219376",
+      "https://x.com/eng_khairallah1/status/2060656557134872588",
+      "https://x.com/eng_khairallah1/status/2060659546201391526"
+    ],
     "2060675167152648270": [
-      "https://x.com/systematicls/status/2060675167152648270"
+      "https://x.com/systematicls/status/2060675167152648270",
+      "https://x.com/systematicls/status/2060729732413747471"
+    ],
+    "2060708326829170785": [
+      "https://x.com/bibryam/status/2060708326829170785",
+      "http://x.com/i/article/2060705100503379973"
+    ],
+    "2060736517564477901": [
+      "https://x.com/EXM7777/status/2060736517564477901",
+      "http://x.com/i/article/2060729909690224640",
+      "https://x.com/EXM7777/status/2060736696438976593",
+      "http://weeklyaiops.com"
     ]
   },
-  "updated_at": "2026-05-30T14:08:13Z",
+  "updated_at": "2026-05-30T15:36:25Z",
   "window": "recent"
 }
