@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Use this SKILL to show Codex how to run your iOS app.\n\nInstead of opening Xcode, it uses a Makefile to build, run, and test apps.\n\nI use it on both iOS and macOS. Bookmark it and follow along this weekend.",
+      "text_zh": "使用此 SKILL 向 Codex 展示如何运行你的 iOS 应用。\n\n无需打开 Xcode，而是通过 Makefile 来构建、运行和测试应用。\n\n我在 iOS 和 macOS 上都在使用它。请收藏本文，并在本周末跟随操作。",
+      "text_zh_hash": "ac4b1e3e9f471c5e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PaulSolt/status/2060538084685459560"
     },
     {
@@ -109,6 +112,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Claude Code Dynamic Workflows, explained!\n\nAnthropic dropped Opus 4.8, and everyone is talking about the benchmarks, the honesty improvements, and the cheaper fast mode.\n\nBut the feature that shipped alongside it might matter more for how we actually build: Dynamic Workflows in Claude Code.\n\nHere's what they are, how they differ from subagents and agent teams (which already existed), and why they change the game for large-scale agentic coding.\n\n𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀?\n\nClaude Code already had two multi-agent primitives before this release.\n\nSubagents are lightweight workers spawned from a main session. They do a focused task and report back. But they can't talk to each other, and the main agent still acts as the bottleneck for orchestration. Every result routes through one context window.\n\nAgent Teams (shipped with Opus 4.6) removed that constraint. Multiple Claude instances coordinate through a shared task list and message each other directly. But they top out at 3-5 teammates practically, sessions don't survive interruptions (if Claude crashes mid-task, the team is gone), and you still need to design the orchestration upfront.\n\n(I published an article on both of the above; it's quoted below)\n\nDynamic Workflows sit above both.\n\nInstead of Claude holding the plan in its context window, it writes a JavaScript orchestration script. That script becomes the plan. A JS runtime executes it, fanning work across tens to hundreds of parallel subagents automatically.\n\nYou describe the task. Claude decides how to split it, how many agents to spawn, how to verify results, and what to report back. The orchestration logic moves from the LLM's memory into executable code.\n\nClaude's context window only ever sees the final converged answer. Not the intermediate results of hundreds of steps.\n\n𝗪𝗵𝘆 𝘁𝗵𝗶𝘀 𝗺𝗮𝘁𝘁𝗲𝗿𝘀\n\n→ 𝗦𝗰𝗮𝗹𝗲. Up to 16 concurrent agents, 1,000 total per workflow. Subagents max out at a handful. Agent Teams get messy past 5.\n\n→ 𝗔𝗱𝘃𝗲𝗿𝘀𝗮𝗿𝗶𝗮𝗹 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻. Agents tackle a problem from independent angles, other agents try to refute their findings, and the system iterates until answers converge. Subagents just report back. Agent Teams collaborate but don't adversarially verify.\n\n→ 𝗥𝗲𝘀𝘂𝗺𝗮𝗯𝗶𝗹𝗶𝘁𝘆. Progress saves continuously. Interrupted jobs pick up where they left off. Agent Teams die with the session.\n\n→ 𝗭𝗲𝗿𝗼 𝗼𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗯𝘂𝗿𝗱𝗲𝗻. You describe the goal. Claude decides how to split work, how many agents to spawn, and how to verify results.\n\n𝗕𝗲𝘀𝘁 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲𝘀\n\n→ Start with a scoped task to calibrate token usage before going full-scale. Workflows consume significantly more tokens than a typical session.\n\n→ Enable auto mode so Claude decides when a workflow is appropriate vs. when a simpler approach works.\n\n→ Use the `ultracode` setting (effort menu) to let Claude auto-trigger workflows. This also sets reasoning to `xhigh`.\n\n→ Review the execution plan on first trigger. A poorly scoped prompt will fan out agents unnecessarily.\n\n→ Enterprise plans have workflows off by default. An admin needs to enable them.\n\nAvailable today in research preview on Max, Team, and Enterprise plans.\n\nThe article on Subagents and Agent teams is quoted below.",
+      "text_zh": "# Claude Code 动态工作流，详解！\n\nAnthropic 发布了 Opus 4.8，所有人都在讨论基准测试、诚实度改进和更便宜的快速模式。\n\n但随之一同推出的功能，对我们实际构建方式的影响可能更大：Claude Code 中的动态工作流。\n\n下面介绍它们是什么、与已有的子代理和代理团队有何不同，以及为什么它们会改变大规模智能编码的游戏规则。\n\n## 什么是动态工作流？\n\n在此次发布之前，Claude Code 已经拥有两种多代理原语。\n\n**子代理**是从主会话中生成的轻量级工作单元。它们执行聚焦的任务并汇报结果。但它们之间无法相互通信，主代理仍然是编排的瓶颈。每个结果都通过一个上下文窗口路由。\n\n**代理团队**（随 Opus 4.6 发布）消除了这一限制。多个 Claude 实例通过共享任务列表协调，并直接相互发送消息。但实际上团队规模上限为 3-5 个成员，会话无法在中断后存活（如果 Claude 在任务中途崩溃，整个团队就消失了），而且你仍然需要预先设计编排逻辑。\n\n（我发表过一篇关于上述两者的文章，引用如下）\n\n动态工作流位于两者之上。\n\nClaude 不再将计划保存在其上下文窗口中，而是编写一个 JavaScript 编排脚本。该脚本成为计划。一个 JS 运行时执行它，自动将工作分发到数十到数百个并行子代理。\n\n你描述任务。Claude 决定如何拆分任务、生成多少个代理、如何验证结果以及汇报什么。编排逻辑从 LLM 的内存转移到可执行代码中。\n\nClaude 的上下文窗口只看到最终收敛的答案。而不是数百个步骤的中间结果。\n\n## 为什么这很重要\n\n→ **规模**。最多 16 个并发代理，每个工作流总计 1,000 个。子代理最多只有几个。代理团队超过 5 个就会变得混乱。\n\n→ **对抗性验证**。代理从独立角度解决问题，其他代理试图反驳它们的发现，系统迭代直到答案收敛。子代理只是汇报结果。代理团队会协作但不进行对抗性验证。\n\n→ **可恢复性**。进度持续保存。中断的任务从中断处继续。代理团队随会话一起消亡。\n\n→ **零编排负担**。你描述目标。Claude 决定如何拆分工作、生成多少个代理以及如何验证结果。\n\n## 最佳实践\n\n→ 从范围明确的任务开始，先校准 token 用量，再全面展开。工作流消耗的 token 远多于典型会话。\n\n→ 启用自动模式，让 Claude 自行判断何时适合使用工作流，何时采用更简单的方法。\n\n→ 使用 `ultracode` 设置（努力菜单）让 Claude 自动触发工作流。这也会将推理设置为 `xhigh`。\n\n→ 首次触发时审查执行计划。范围不当的提示会导致代理不必要地扩散。\n\n→ 企业版计划默认关闭工作流。需要管理员启用。\n\n今天在 Max、Team 和企业版计划中以研究预览形式提供。\n\n关于子代理和代理团队的文章引用如下。",
+      "text_zh_hash": "640f46480f351bee",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/akshay_pachaar/status/2060413985925820525"
     },
     {
@@ -150,6 +156,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I know Tomas. He's transformed his life using intuition.\n\nTomas is one of the most grounded people I've met.\n\nWhich is why I enjoyed reading this article with an open mind and heart.",
+      "text_zh": "我认识托马斯。他凭借直觉彻底改变了自己的人生。\n\n托马斯是我见过最脚踏实地的人之一。\n\n正因如此，我才能以开放的心态和心灵愉快地阅读这篇文章。",
+      "text_zh_hash": "0c4d204c36625ecd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/thegabegaines/status/2060456206771085502"
     },
     {
@@ -191,6 +200,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I wrote this ~3 months ago, and since then, \n\n1) Memory has been more or less fully integrated with the frontier models\n\n2) Almost all features that made OpenClaw unique as a harness has been fully absorbed by the frontier models (e.g. schedules, loops, goals, memory, etc.)\n\n3) New, vertical killing features and capabilities are being added every other week \n\n--\nAll that being said, agentic engineering is still an incredibly high skill affair.\n\nIt is now obvious to me that there is a gulf of know-how and tacit knowledge between those that CAN remove humans-out-of-the-loop and actually produce a working product, and the rest of the world insisting that agents are still producing \"slop\".",
+      "text_zh": "我大约3个月前写了这篇文章，自那以后：\n\n1) 记忆功能已基本完全集成到前沿模型中  \n2) 几乎所有让OpenClaw作为工具框架独具特色的功能（如日程安排、循环、目标、记忆等）都已被前沿模型全面吸收  \n3) 每隔一周就会新增垂直领域的杀手级功能与能力  \n\n——  \n尽管如此，智能体工程仍然是一项极高技能要求的工作。\n\n现在我清楚地看到，在那些能够真正实现\"人类脱离循环\"并产出可运行产品的人，与世界上其他坚持认为智能体仍在产出\"垃圾内容\"的人之间，存在着一道由专有技术和隐性知识构成的鸿沟。",
+      "text_zh_hash": "34472d8ca7e41510",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/systematicls/status/2060675167152648270"
     },
     {
@@ -300,6 +312,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "usuarios de claude ahora mismo https://t.co/DpKIxZX0jf",
+      "text_zh": "Claude 用户现在 https://t.co/DpKIxZX0jf",
+      "text_zh_hash": "113ed1520855cbc3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/benyuls/status/2060453308620316851"
     },
     {
