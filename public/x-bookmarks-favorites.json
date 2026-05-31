@@ -96,6 +96,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "context management and memory is the way to toxenmaxxing \n\nthis article pretty much includes all the points onto how you can cut your llm token usage",
+      "text_zh": "上下文管理与记忆是实现Token最大化的关键\n\n本文几乎涵盖了所有关于如何减少LLM Token用量的要点",
+      "text_zh_hash": "8645f82659808231",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/himanshutwtxs/status/2060832131623125345"
     },
     {
@@ -137,6 +140,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“You can assemble an iPhone with 996, but you could have never designed one.”",
+      "text_zh": "“你可以用996的方式组装一台iPhone，但永远无法设计出一台。”",
+      "text_zh_hash": "7ecf9849c057d717",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/joefioti/status/2060888016517042615"
     },
     {
@@ -177,6 +183,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "🫶 https://samihonkonen.com/posts/a-love-letter-to-exe-dev/",
+      "text_zh": "# 致 EXE 开发者的一封情书\n\n我最近一直在思考 EXE 文件。具体来说，是那些在 Windows 上双击就能运行的程序。那些不需要安装、不需要依赖、不需要包管理器、不需要终端命令的程序。只需一个文件，双击，它就运行了。\n\n我怀念那种感觉。\n\n## 我们失去的东西\n\n如今，要运行一个程序，你需要：\n\n- 安装 Node.js\n- 运行 `npm install`\n- 处理版本冲突\n- 祈祷依赖树能正常工作\n- 然后才能运行你的程序\n\n或者，如果你在写 Rust，你需要：\n\n- 安装 Rust 工具链\n- 编译你的程序\n- 处理链接器错误\n- 生成一个二进制文件……但等等，它可能无法在其他人的机器上运行，因为 glibc 版本不同。\n\nEXE 文件没有这些问题。它是一个独立的可执行文件。它包含运行所需的一切。你把它发给别人，他们双击，它就运行了。\n\n## 美丽之处\n\nEXE 文件的美丽之处在于它的简单性。它是一个文件。它做一件事。它做得很好。它不需要安装。它不需要配置。它不需要依赖。它只是一个文件。\n\n当然，EXE 文件也有问题。它们是 Windows 专属的。它们可能携带病毒。它们不跨平台。但这不是重点。重点是这个*概念*：一个独立的、可执行的文件，做一件事，并且做得很好。\n\n## 我们如何找回这种感觉\n\n我们可以从 EXE 文件中学习。我们可以构建像 EXE 文件一样工作的程序：\n\n- 独立的\n- 自包含的\n- 做一件事\n- 做得很好\n- 易于分发\n- 易于运行\n\n我们可以使用像 Go 这样的语言，它编译成独立的二进制文件。我们可以使用像 Rust 这样的语言，它也可以编译成独立的二进制文件。我们可以使用像 Nim 这样的语言，它编译成 C 语言，然后编译成独立的二进制文件。\n\n关键在于：**一个文件，一个程序，没有依赖。**\n\n## 结论\n\nEXE 文件并不完美。但它们代表了一个我们失去的计算理念：简单性。一个文件。一个程序。双击。运行。\n\n让我们找回这种感觉。",
+      "text_zh_hash": "82421c0a4c825f18",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ssh_exe_dev/status/2060931634623611183"
     },
     {
@@ -232,6 +241,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic CEO Dario Amodei:   \"The cheapest way to use Claude is also the smartest. Most devs do the exact opposite.\"  \n\nIn 36 minutes, he reveals how 132 Anthropic Engineers use Claude and their workflows\n\nthe ones shipping fastest don't have the clever setups.\n\nBookmark the full interview, then read article below",
+      "text_zh": "Anthropic CEO Dario Amodei：  \n\"使用Claude最便宜的方式，也是最聪明的方式。大多数开发者恰恰相反。\"\n\n在36分钟内，他揭示了132位Anthropic工程师如何使用Claude及其工作流程\n\n那些交付速度最快的人，并没有采用花哨的配置。\n\n请收藏完整访谈，然后阅读下方文章。",
+      "text_zh_hash": "499992629759cbc5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Av1dlive/status/2060802827635855404"
     },
     {
@@ -287,6 +299,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "you're running Claude Code on max effort and realized you're burning 8x more tokens than needed https://t.co/1QsULiHgIO",
+      "text_zh": "你在 Claude Code 上以最大努力模式运行，结果发现消耗的 token 是实际需要的 8 倍 https://t.co/1QsULiHgIO",
+      "text_zh_hash": "62452012e898c9cd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0x_kaize/status/2060794191211348040"
     },
     {
@@ -369,6 +384,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Yooo chat doo give this a read it was such a good time to read this",
+      "text_zh": "哟，兄弟们，这篇读起来真带劲，读着读着时间就飞过去了。",
+      "text_zh_hash": "c77b6cd3da4f8dfb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Hi_Mrinal/status/2060771375640625568"
     },
     {
