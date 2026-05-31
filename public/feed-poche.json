@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 663,
+      "count": 666,
       "name": "Tools"
     },
     {
-      "count": 400,
+      "count": 402,
       "name": "Development"
     },
     {
@@ -13,11 +13,11 @@
       "name": "Design"
     },
     {
-      "count": 304,
+      "count": 306,
       "name": "Articles"
     },
     {
-      "count": 267,
+      "count": 268,
       "name": "Social"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Media"
     },
     {
-      "count": 73,
+      "count": 74,
       "name": "Other"
     },
     {
@@ -38,8 +38,346 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2195,
+  "item_count": 2204,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_image_urls": [
+        "https://shiftapp.nyc/og_preview.png",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg"
+      ],
+      "article_title_extracted": "shift: Free Home Cleaning in NYC",
+      "category": "Tools",
+      "created_at": "2026-05-30T02:24:21.123829Z",
+      "description": "Book a professional cleaning at zero cost and help shape the future of robotics.",
+      "domain": "www.shiftapp.nyc",
+      "embed_type": "",
+      "id": "k174vzdzh7d876e94e8gpgyz2s87qya5",
+      "og_image_url": "https://shiftapp.nyc/og_preview.png",
+      "recommended_at": "2026-05-31T01:36:30.599000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "robotics",
+        "home-cleaning",
+        "nyc"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:30.599000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "shift: Free Home Cleaning in NYC",
+      "url": "https://www.shiftapp.nyc/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://zackoverflow.dev/writing/why-does-tsgo-use-so-much-memory/asdjsk"
+      ],
+      "article_text": "Why does tsgo use so much memory?\nIf you run tsgo\non decently sized Typescript project, it’s not uncommon to see\nit using gigabytes of memory.\nWhy is that?\nThe short answer is:\n-\nwhen multi-threading,\ntsgo\nmakes a type checker per thread -\neach type checker has its own state (types, symbols, etc.)\n-\nthis state is not shared as synchronizing it between threads is costly\n-\nso each type checker often allocates duplicate, redundant memory\n-\nin addition, allocated types are never freed\nIt’s not uncommon for Typescript projects to have:\n-\nseveral thousand Typescript files\n-\nlibraries like Zod, tRPC, Drizzle which result in many, many type instantiations\n-\nrecursive generic types which product a lot of transient types which are never freed\nWhen running tsgo\non a large Typescript project, these type creation patterns\ncompound and result in a lot of duplicated or unused memory.\nLet’s dig deeper.\nHeap analysis[λ](https://zackoverflow.dev#heap-analysis)\nLet’s first get a breakdown of the heap so we can see what’s taking up so much\nmemory.\nI’ll run tsgo\non a large nextjs project with Zod, tRPC, Drizzle, all the good\nstuff that makes the typechecker do work. Including node_modules\n, it’s about 7k\n.ts files.\nWe can use Go’s [runtime/pprof](https://pkg.go.dev/runtime/pprof) package to capture peak heap snapshots and the\n[pprof](https://github.com/google/pprof) tool to tell us which functions allocated the most memory with the\n-inuse_space\nflag.\nIf we categorize them by AST, typechecker etc. we see this:\nTotal live heap: 1471.9 MB\npprof writer self-overhead: 75.2 MB\nreal live data: 1321.5 MB\nMB pct Family\n──────────────────────────────────────────────────────────────────────────────\n594.72 45.0% AST arenas (parser-allocated)\n399.12 30.2% Checker (type/signature computation)\n121.79 9.2% LinkStore (per-node/per-symbol caches)\n63.38 4.8% OS / syscall / file I/O\n62.58 4.7% Binder (symbol/flow declarations)\n22.33 1.7% Parser (intern maps, etc.)\n20.24 1.5% pkg: collections\n15.54 1.2% Checker arenas\n13.46 1.0% AST utilities\n6.58 0.5% Compiler / module resolution\n1.10 0.1% pkg: core\n0.70 0.1% pkg: packagejson\nWhat sticks out at first glance is 45% of memory (600MB) is allocated for AST nodes. It sounds like a lot, but it’s actually expected for the bulk of the memory allocated by a compiler to be taken up by AST nodes.\nAST nodes also typically need to live for the duration of the compiler’s execution, so there’s nothing we can really do here. A lot of files means a lot of AST nodes!\nI’m more interested in the memory allocated by the typechecker (the Checker\nstruct in the source).\nWhat happens if we run tsgo\nwith --singleThreaded\n?\nTotal live heap: 797.4 MB\npprof writer self-overhead: 3.6 MB\nreal live data: 790.2 MB\nMB pct Family\n──────────────────────────────────────────────────────────────────────────────\n522.95 66.2% AST arenas (parser-allocated)\n63.37 8.0% OS / syscall / file I/O\n62.63 7.9% Binder (symbol/flow declarations)\n51.93 6.6% Checker (type/signature computation)\n23.01 2.9% LinkStore (per-node/per-symbol caches)\n22.51 2.8% Parser (intern maps, etc.)\n16.78 2.1% AST utilities\n16.15 2.0% pkg: collections\n10.21 1.3% Compiler / module resolution\n0.58 0.1% pkg: packagejson\n0.10 0.0% pkg: core\n0.01 0.0% ** unclassified **\nThe typechecker takes up only ~50MB instead of ~400MB! This strongly suggests to me that there is some overhead with multi-threading here.\nLet’s look at the typechecker deeper.\nThe type checker[λ](https://zackoverflow.dev#the-type-checker)\nThe way tsgo multi-threads typechecking is by creating a pool of Checker\nfor each thread:\n// internal/compiler/checkerpool.go\nfunc newCheckerPoolWithTracing(program *Program, tr *tracing.Tracing) *checkerPool {\ncheckerCount := 4\nif program.SingleThreaded() {\ncheckerCount = 1\n} else if c := program.Options().Checkers; c != nil {\ncheckerCount = *c\n}\ncheckerCount = max(min(checkerCount, len(program.files), 256), 1)\npool := &checkerPool{\nprogram: program,\ncheckers: make([]*checker.Checker, checker",
+      "article_title_extracted": "Why does tsgo use so much memory?",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-30T02:24:02.130150Z",
+      "description": "The `tsgo` tool consumes significant memory when used for large TypeScript projects due to its multi-threading design, where each thread creates separate type checkers that do not share state, leading to memory duplication.\n\nKey points include: \n- Multiple type checkers allocate redundant memory for types and symbols as state is not shared across threads.\n- High memory usage is driven by the number of TypeScript files, libraries producing numerous types, and recursive generics.\n- Heap analysis of memory allocation reveals that a substantial portion goes to AST nodes and type checker computations.\n- Running in single-threaded mode reduces memory usage notably, indicating multi-threading overhead.\n- Duplicated types and symbols arise when multiple checkers independently process the same files or types.\n- Potential improvements include garbage collecting transient types, sharing data structures across threads, and implementing incremental compilation to improve memory efficiency.",
+      "domain": "zackoverflow.dev",
+      "embed_type": "",
+      "id": "k1789b2ejxse7sph8wppkb44en87pn2y",
+      "og_image_url": "https://cloud.poche.app/api/storage/b5265921-e04a-4985-aa5f-903550132691",
+      "recommended_at": "2026-05-31T01:36:28.719000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typescript",
+        "memory-optimization",
+        "multithreading"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:28.719000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Why does tsgo use so much memory?",
+      "url": "https://zackoverflow.dev/writing/why-does-tsgo-use-so-much-memory",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/opengraph-insights-2026.png"
+      ],
+      "article_text": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download The Cursor Developer Habits Report Spring 2026 0. A field transformed Developer acceleration Developers are working faster and producing more code, but the changes in developer productivity go far beyond volume. AI is also changing the shape of the work, with PRs getting larger, agent sessions going deeper, and AI-generated code surviving in codebases for longer periods of time. The economics of intelligence As models get more capable, use more context, and take on deeper tasks, cost becomes a bigger part of the product experience. To understand cost-intelligence tradeoffs, we looked at model economics from three perspectives: request cost, accepted-code efficiency, and the relationship between cost and benchmark performance. The power user gap AI is changing productivity across the board, but is concentrated at the top end of the user distribution. P99 power users are achieving significantly larger gains than everyone else, and the gap is growing much larger on an absolute basis as total AI usage grows. The rise of context As models take on more complex work, they are using more context to understand the codebase, the user’s intent, and the surrounding workflow before producing output. This shift has favorable cost implications because input tokens cost much less than output tokens, and cache-read tokens cost even less. The shift toward context can help models produce better-calibrated code, consistent with the rising diff survival share we saw in developer productivity. The shift to automation AI coding tools started as a way to accelerate individual developers. We saw this impact in earlier sections of the report, with faster coding, larger PRs, deeper agent sessions, and more AI-generated code making it into commits. Now AI software development is entering a new era, with AI becoming infrastructure for automating more of the software development lifecycle end to end. ✝︎ Methodology A field transformed # The change sweeping through software development is astounding. This inaugural Developer Habits Report, based on Cursor data, captures that transformation across five themes: Developer acceleration . We chart how coding speed has doubled year-over-year, PRs are getting larger and deeper, and agent-generated code is surviving review at higher rates than ever. The economics of intelligence . We benchmark seven model families on cost per line and cost per submit, revealing wide heterogeneity in unit economics. The power user gap . We find that while AI is leading to broad productivity gains, the change is most pronounced in the top 1% of developers. The rise of context . We show the dramatic increase in input tokens, and the shift toward cache-read tokens, which is giving agents the working memory to take on more complex tasks and produce higher-quality code. The shift to automation . Finally, we look at how coding agents are evolving from a tool used by individual developers into an entire system for building and maintaining software, often automatically. This report provides a data-driven fixed point for understanding where agentic software development stands today, and where it appears to be headed next. Developer acceleration # Developers are working faster and producing more code, but the changes in developer productivity go far beyond volume. AI is also changing the shape of the work, with PRs getting larger, agent sessions going deeper, and AI-generated code surviving in codebases for longer periods of time. Code is moving faster # Developers are adding more code per week, with growth accelerating since the start of 2026. While this is not a perfect metric, it provides a directionally interesting baseline for understanding how developer work is changing. Lines added/dev/wk Ti",
+      "article_title_extracted": "Cursor · The Cursor Developer Habits Report",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-05-30T02:24:07.653741Z",
+      "description": "Spring 2026",
+      "domain": "cursor.com",
+      "embed_type": "",
+      "id": "k1738pw4dzbxvqz0dq2y1p1mad87p5wy",
+      "og_image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/opengraph-insights-2026.png",
+      "recommended_at": "2026-05-31T01:36:26.757000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "developer-productivity",
+        "software-engineering"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:26.757000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Cursor · The Cursor Developer Habits Report",
+      "url": "https://cursor.com/insights",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
+        "https://framerusercontent.com/images/4XPyOmPW1ekC3IaHitkXiBMm6TY.webp?width=1440&height=900",
+        "https://framerusercontent.com/images/qFqmtAvKn7tFrebsWzc1lMZXuo.webp?width=5735&height=3226",
+        "https://framerusercontent.com/images/oAr39yekKUxjN825kI3a9RnOhL0.svg?width=1360&height=322",
+        "https://framerusercontent.com/images/PzX7QzJDXIHbPGQiZtv9Tuf95DQ.svg?width=966&height=322",
+        "https://framerusercontent.com/images/QjiVfIWOWDZd5oFBwvshbszFv4.svg?width=1048&height=269",
+        "https://framerusercontent.com/images/aQMKaunIwesjEbGekrvCRqV3Q.svg?width=1062&height=322",
+        "https://framerusercontent.com/images/h5WNEPNqvCHBetHgSAfCqIEoKA.svg?width=1298&height=322",
+        "https://framerusercontent.com/images/0tBpQV1HkCvFvByOtlntMWNbi1s.svg?width=951&height=322",
+        "https://framerusercontent.com/images/n7FM4EVAAltXE3SlFJZRVCSg.svg?width=1597&height=322",
+        "https://framerusercontent.com/images/ZXt2iluNtLFsVNtPJ1BiNWg5faI.png?width=548&height=603",
+        "https://framerusercontent.com/images/8xHOJyWiYNeJ7qhbwLWivNNpXRE.png?width=595&height=595"
+      ],
+      "article_title_extracted": "Eragon | AI Operating System For Your Company",
+      "category": "Tools",
+      "created_at": "2026-05-30T02:24:12.390581Z",
+      "description": "Eragon is a centralized AI workspace that powers org wide business intelligence.",
+      "domain": "www.eragon.ai",
+      "embed_type": "",
+      "id": "k176w8a0s192xmt2qm3mp0pe0h87qg7v",
+      "og_image_url": "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
+      "recommended_at": "2026-05-31T01:36:24.972000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "business-intelligence",
+        "enterprise-software"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:24.972000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Eragon | AI Operating System For Your Company",
+      "url": "https://www.eragon.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://pierre.computer/pierre-co-diffs-og.png"
+      ],
+      "article_text": "PIERRE COMPUTER COMPANY █\nON RENDERING DIFFS\nPosted on May 29, 2026 by [@amadeus](https://x.com/amadeus)\n██████╗ ██╗███████╗███████╗███████╗ ██╔══██╗██║██╔════╝██╔════╝██╔════╝ ██████████╗ ██║ ██║██║█████╗ █████╗ ███████╗ ╚═════════╝ ██║ ██║██║██╔══╝ ██╔══╝ ╚════██║ ██████╔╝██║██║ ██║ ███████║ ╚═════╝ ╚═╝╚═╝ ╚═╝ ╚══════╝\n██╗ ██████╗ ██╗███████╗███████╗███████╗ ██║ ██╔══██╗██║██╔════╝██╔════╝██╔════╝ ██████████╗ ██║ ██║██║█████╗ █████╗ ███████╗ ╚═══██╔═══╝ ██║ ██║██║██╔══╝ ██╔══╝ ╚════██║ ██║ ██████╔╝██║██║ ██║ ███████║ ╚═╝ ╚═════╝ ╚═╝╚═╝ ╚═╝ ╚══════╝\nYou open a pull request expecting to understand what changed.\nFor small and medium changes, everything works. The code is readable, the files are there, you scroll around, add comments, and it’s all pretty seamless.\nThen you open something larger. Maybe an agent generated the implementation, tests, fixtures, and snapshots. Maybe the branch just touched more files than expected. Either way, the review surface starts to degrade. It might only show you one file at a time, or require each file to be loaded separately before you can read it, or even make basic navigation feel sluggish.\nSome of these are reasonable trade-offs for genuinely hard problems. But they still have a cost: reviewers feel the limits of the tool, and product teams have to build workarounds for these limits.\nDiff rendering matters, but for most tools it is not the product. The product is what happens around the code: review workflows, automation, agent output, CI results, and collaboration. Code review should support that work, not become something every team has to build from scratch.\nThat is why, about 6 months ago, we released\n[Diffs](https://diffs.com/). Our goal was to make\nthe code and diff rendering part just work, so teams could spend their time on the product\naround it.\nOriginally we launched with just the basic pieces: File\nand\nFileDiff\ncomponents. We quickly got feedback about performance issues, so we\nfollowed up with a simple virtualizer that avoided rendering code when it was out of view\nand an API to move syntax highlighting into worker threads. The simple virtualizer helped,\nbut it was a stopgap. There was still a lot of O(n×m) complexity, high memory usage, and virtualization blanking. What was missing was a\nhigher-level component that could manage an entire review surface and handle the hard\nproblems related to scale.\nThat missing layer became CodeView\n: a virtualization-first component for\nreviewing code and diffs. And we built it around a deliberately impossible goal:\nYou should be able to just render any diff.\nNot literally, of course. There are physical limits to browsers, compute, and memory. But practically speaking, I think we’ve come pretty close, and I’d like to share a bit about how we got there.\nIf you find long-form blog posts boring, go check out the CodeView\nplayground\nat [DiffsHub.com](https://diffshub.com/) where you can pretty\nmuch view any PR or diff that GitHub will send our way. Nearly any diff, at any scale,\nnearly instantly.\ndiffshub[dot]com\n— Pierre (@pierrecomputer)\nTake any public diff from GitHub and virtualize it nearly instantly, no matter how large, with DiffsHub. Built to show off our brand new CodeView component.\nTo try it out, replace `github` with `diffshub` in your address bar.[pic.twitter.com/5X30YwbpHn][May 20, 2026]\nYou can check out the CodeView component and more in the latest version of the diffs package\non npm:\n[@pierre/diffs](https://www.npmjs.com/package/@pierre/diffs), or\n[read the docs](https://diffs.com/docs#codeview).\nDIFFS LOOK SIMPLE UNTIL THEY ARE NOT\nOn the surface, rendering diffs in a browser may not seem very hard. It’s just text, right? Browsers are purpose-built to take raw HTML and turn that into something you can look at and interact with. Code is just text, after all.\nBut a good review surface needs more than text. It needs syntax highlighting, line numbers, annotations, comments, theming, split and unified layouts, wrapping modes, and en",
+      "article_title_extracted": "On Rendering Diffs :: Pierre Computer Company",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-05-30T02:24:27.209983Z",
+      "description": "A technical deep dive into how we built the @pierre/diffs package and CodeView component for zero-blanking diff rendering.",
+      "domain": "pierre.computer",
+      "embed_type": "",
+      "id": "k17apeyfvf18kb3kap6veb1a2x87qcf3",
+      "og_image_url": "https://pierre.computer/pierre-co-diffs-og.png",
+      "recommended_at": "2026-05-31T01:36:21.694000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "diff-rendering",
+        "web-development",
+        "ui-components"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:21.694000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "On Rendering Diffs :: Pierre Computer Company",
+      "url": "https://pierre.computer/writing/on-rendering-diffs",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5CAI3c5oCGv4clXL75hNaP/9dc90f701366327d4d459c52a0e932ac/image.png",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_40,h_40,q_75/contentful/image/e5382hct74si/1hihg2piKOP7dFv7wv8rpI/23e5788fd57d6bc559e705e99d7503e1/image.png"
+      ],
+      "article_text": "Skip to content Products AI Cloud AI Gateway One endpoint, all your models Sandbox Isolated, safe code execution Vercel Agent An agent that knows your stack AI SDK The AI Toolkit for TypeScript v0 Build applications with AI Core Platform CI/CD Helping teams ship 6× faster Content Delivery Fast, scalable, and reliable Fluid Compute Servers, in serverless form Workflow Long-running workflows at scale Observability Trace every step Security Bot Management Scalable bot protection BotID Invisible CAPTCHA Platform Security DDoS Protection, Firewall Web Application Firewall Granular, custom protection Resources Company Customers Trusted by the best teams Blog The latest posts and changes Changelog See what shipped Press Read the latest news Events Join us at an event Learn Docs Vercel documentation Academy Linear courses to level up Knowledge Base Find help quickly Community Join the conversation Open Source Next.js The native Next.js platform Nuxt The progressive web framework Svelte The web’s efficient UI framework Turborepo Speed with Enterprise scale Solutions Use Cases AI Apps Deploy at the speed of AI Composable Commerce Power storefronts that convert Marketing Sites Launch campaigns fast Multi-tenant Platforms Scale apps with one codebase Web Apps Ship features, not infrastructure Tools Marketplace Extend and automate workflows Templates Jumpstart app development Partner Finder Get help from solution partners Users Platform Engineers Automate away repetition Design Engineers Deploy for every idea Enterprise Pricing Ask AI Ask AI Log In Sign Up Sign Up Dashboard Blog / Changelog Run Docker containers inside Vercel Sandbox Brandon Tuttle Software Engineer, Compute 1 min read Copy URL May 29, 2026 Vercel Sandbox now supports installing and running Docker inside a sandbox. An agent can build containers, install system packages, and modify files without touching your host system. Install Docker, start the daemon, and serve a containerized application: 1 import { Sandbox } from \"@vercel/sandbox\" ; 2 3 const sandbox = await Sandbox . create ( ) ; 4 await sandbox . runCommand ( { 5 sudo : true , 6 cmd : \"dnf\" , 7 args : [ \"install\" , \"-y\" , \"docker\" ] 8 } ) ; 9 10 // Start docker daemon and wait for it to be ready 11 await sandbox . runCommand ( { sudo : true , cmd : \"dockerd\" , detached : true } ) ; 12 await sandbox . runCommand ( { 13 cmd : \"sh\" , 14 args : [ \"-lc\" , \"until sudo docker info >/dev/null 2>&1; do sleep 1; done\" ] 15 } ) ; 16 17 await sandbox . runCommand ( { 18 cmd : \"docker\" , 19 args : [ 20 \"run\" , \"--rm\" , \"-d\" , 21 \"--name\" , \"redis\" , 22 \"redis:alpine\" 23 ] 24 } ) ; 25 await sandbox . runCommand ( { 26 cmd : \"docker\" , 27 args : [ \"exec\" , \"redis\" , \"redis-cli\" , \"PING\" ] 28 } ) ; Docker in a Sandbox is useful for running containerized services like Redis or Postgres as test dependencies, validating container images before deploying, or previewing applications served from a container. Combined with persistent sandboxes , the Docker installation and pulled images carry over between sessions. As well as adding support for Docker, sandboxes now support FUSE filesystem drivers and VPN clients, unlocking unlimited capabilities to what can be built. Learn more about these new system specifications in the documentation . Ready to deploy? Start building with a free account. Speak to an expert for your Pro or Enterprise needs. Start Deploying Talk to an Expert Explore Vercel Enterprise with an interactive product tour, trial, or a personalized demo. Explore Enterprise Get Started Templates Supported frameworks Marketplace Domains Build Next.js on Vercel Turborepo v0 Scale Content delivery network Fluid compute CI/CD Observability AI Gateway New Vercel Agent New Secure Platform security Web Application Firewall Bot management BotID Sandbox New Resources Pricing Customers Enterprise Articles Startups Solution partners Learn Docs Blog Changelog Knowledge Base Academy Community Frameworks Next.js Nuxt Svelte Nitro Turbo SDKs A",
+      "article_title_extracted": "Run Docker containers inside Vercel Sandbox - Vercel",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-05-30T02:24:34.537274Z",
+      "description": "Sandboxes now allow you to run docker without any config changes to work with containerized applications",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k1737e7rq768zzdyx4g6ams05h87pw2m",
+      "og_image_url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5CAI3c5oCGv4clXL75hNaP/9dc90f701366327d4d459c52a0e932ac/image.png",
+      "recommended_at": "2026-05-31T01:36:19.738000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "vercel",
+        "docker",
+        "sandboxing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:19.738000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Run Docker containers inside Vercel Sandbox - Vercel",
+      "url": "https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-05-31T01:34:19.628731Z",
+      "description": "I've just spoken at @webexpo in Prague - this me making my slides for my talk... pic.twitter.com/4zypEJQJ5l",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17cmy1fv71hz5gzvnjhbx78td87s6db",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2060337189393747972/img/uxFAMPI0ayj1S4nJ.jpg",
+      "recommended_at": "2026-05-31T01:36:17.818000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-design",
+        "speaking",
+        "webexpo"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:17.818000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Mike Kus (@mikekus) on X",
+      "url": "https://x.com/mikekus/status/2060338585539088867",
+      "x_status_id": "2060338585539088867"
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_image_urls": [
+        "https://un.ms/assets/og4.png",
+        "https://un.ms/build/assets/office-of-unms-2-ZsTPerh3.png",
+        "https://un.ms/build/assets/distill-DUhUl5Cq.png",
+        "https://un.ms/build/assets/hero-pink-3-AnfC8jsg.png",
+        "https://un.ms/build/assets/research-BNwnMkJx.png",
+        "https://un.ms/build/assets/research-hero-3-DTuo1KdA.png",
+        "https://un.ms/build/assets/signal-COtrVi-Y.png",
+        "https://un.ms/build/assets/vocal-Gr1jVkOB.png",
+        "https://un.ms/build/assets/mudbook-type-BktnOZ61.png",
+        "https://un.ms/build/assets/pile-C3I5XgJX.png"
+      ],
+      "article_title_extracted": "UNMS UNMS / UNMS",
+      "category": "Other",
+      "created_at": "2026-05-31T01:35:30.805448Z",
+      "description": "Dare to dream, dare to create.",
+      "domain": "un.ms",
+      "embed_type": "",
+      "id": "k17bkcv3897grf1znx0xxfbm8587spa9",
+      "og_image_url": "https://un.ms/assets/og4.png",
+      "recommended_at": "2026-05-31T01:36:15.303000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "education",
+        "innovation",
+        "creativity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:15.303000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "UNMS",
+      "url": "https://un.ms/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://sophon.at/logo.svg"
+      ],
+      "article_text": "Sophon The Bloomberg terminal for AI research Every model, benchmark, leaderboard, RL environment and paper on one screen, with the signals that show what is rising and what moves a score. Open the terminal Browse the feed 910 models 584 benchmarks 1.8k RL envs 27 leaderboards 34k papers 372 labs 1 Claude Opus 4.8 2 GPT-5.2 3 Gemini 3 Ultra 4 Llama 4 405B Live standings Every leaderboard, ranked in real time. Opus GPT-5 Gem 3 MMLU 92 90 88 GSM8K 95 96 94 SWE 71 65 68 Head to head Models side by side as a benchmark matrix. reasoning math code agents verifiers-math lifts 7 swe-gym lifts 5 What lifts a score Envs and datasets ranked by the benchmarks they move. All RL envs Frontier + model Gemini 3 Ultra $5/M 2h eval AIME 2025 top 78% 5h tool terminal-bench-rl lifts 4 1d paper Scaling RL envs 2.3k★ 1d What just shipped One typed stream. Save the filters you live in as views. swe ⌘K SWE-bench Verified Claude Opus 4.8 prime-intellect / math Arena Elo Find anything ⌘K across models, evals, tools, papers and labs. 1M Context $5/M Price T·I·A Modality MMLU GPQA Spec sheets Context, price, modality and full benchmark coverage. Scaling RL environments Self-rewarding LMs Process reward models Your watchlist Star papers, models and evals to track. Browser-local, no account. trained with a verifiable reward signal across envs Highlight the source Mark up a paper's PDF in four colors. Pin a note to any passage. Notes Reproduces the SWE-bench claim. Compare reward shaping against v2. Only stored in your browser. Private notes Jot a thought on any paper. Stored only in your browser. Plugged into the RL-env ecosystem Browse all Links-first, no lock-in. 298 env-to-benchmark lift links. Harbor Laude Prime Intellect 1.3k envs OpenReward 352 envs Atropos 111 envs OpenEnv 34 envs Open the terminal Enter Sophon",
+      "article_title_extracted": "The Bloomberg terminal for AI research · Sophon",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-05-31T01:35:54.235047Z",
+      "description": "Every AI model, benchmark, leaderboard, RL environment and paper on one screen, with the signals that show what is rising and what moves a score.",
+      "domain": "sophon.at",
+      "embed_type": "",
+      "id": "k1743fz35kr307zeep03ztf30587svw3",
+      "og_image_url": "https://cloud.poche.app/api/storage/8c50cd02-bb9c-424f-b7a7-06b957a85ad4",
+      "recommended_at": "2026-05-31T01:36:13.047000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-research",
+        "machine-learning",
+        "data-analytics"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T01:36:13.047000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "The Bloomberg terminal for AI research · Sophon",
+      "url": "https://sophon.at/homepage",
+      "x_status_id": null
+    },
     {
       "category": "Articles",
       "created_at": "2026-05-29T02:20:56.234669Z",
@@ -2031,7 +2369,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-24T04:50:37.029730Z",
+      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
       "article_title_extracted": "Orion PDA — Pocket computer minimal Orion PDA — pocket computer minimal",
       "category": "Tools",
       "created_at": "2026-05-24T02:34:11.071500Z",
@@ -2123,7 +2461,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-24T04:50:37.029730Z",
+      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
       "article_image_urls": [
         "https://simplecss.org/assets/images/simple-css-feature.webp"
       ],
@@ -97385,7 +97723,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2039,
+      "count": 2048,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -97421,5 +97759,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-30T21:39:25.132986Z"
+  "updated_at": "2026-05-31T05:08:28.596826Z"
 }
