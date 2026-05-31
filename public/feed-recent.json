@@ -4816,6 +4816,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060729909690224640"
     },
+    "http://x.com/i/article/2060931168367980544": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060931168367980544",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060931168367980544/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJnmJtZbkAAhdZW?format=jpg&name=900x900)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931358978183168)\n\nEverything you need to know to get started with distributed training for LLMs\n\n[![](https://pbs.twimg.com/profile_images/1875518470781333505/KfH6t3D1_normal.jpg)](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[Jino Rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n[@jino\\_rohit](http://x.com/i/article/2060931168367980544/jino%5Frohit)\n\n·\n\n3h\n\nFollow\n\nClick to Follow jino\\_rohit\n\n7\n\n65\n\n[1.7K](http://x.com/i/article/2060931168367980544/jino%5Frohit/status/2060949625343983832/analytics)\n\nYou have a model. Its good. But you want it to be better. That means more data, bigger batch sizes, longer training runs. A single GPU is probably just not enough.\n\nDistributed Data Parallel (DDP) is a pytorch module that lets you do multi-GPU, distributed training. The core idea is simple - you replicate your model on every GPU, feed each replica a different slice of the batch, and synchronise gradients at each step so all replicas stay in sync.\n\nIn this post we will cover everything you need to know to get started with distributed training using pytorch!\n\n## \n\nHow to think about scaling to multiple GPUs\n\nThe scenario for training on multiple GPUs vs inference on multiple GPUs is extremely different. In this post we only focus on training. We will also turn our focus specifically to data parallelism that pytorch DDP offers. It is the simplest technique to start scaling to multiple GPUs.\n\nI have 10 zillion data samples, and running them on a single GPU is probably going to take years. What if I split the data across the N GPUs I have, and run each split on a model replica running on each GPU.\n\nHmm, that wont cut it. If they run independently, you end up with N different models instead of one. We need a single model that somehow accumulates knowledge from all the running GPUs.\n\nAt this point it is good to remind ourselves of how training a model actually works.\n\n## \n\nTraining a Model\n\n[![Image](https://pbs.twimg.com/media/HJnmgIPa0AAOcgF?format=jpg&name=small)](http://x.com/i/article/2060931168367980544/jino%5Frohit/article/2060949625343983832/media/2060931744141070336)\n\ni would describe the flow as follows -\n\n1. Create batches of data.\n2. At each step, feed one batch through the model.\n3. Get logits, pass through softmax for scores, calculate loss.\n4. Call loss.backward() to compute gradients.\n5. Call optimizer.step() to update weights.\n\nOut of these five stages, what do you think has the biggest impact on the models learning? The weight update! It is okay to independently run all the other stages on different GPUs, as long as you sync the gradients before doing the weight update.\n\nDDP does exactly this, it provides a smart way to sync gradients across multiple GPUs and then lets training carry on as usual.\n\nWait, isnt this just Data Parallelism?\n\nYou might have heard of PyTorchs old DataParallel (DP) module. DP does the same thing conceptually - split a batch across GPUs but it works very differently under the hood.\n\nDP uses a single process (due to the GIL interpreter). It slices the input, scatters it to GPUs, computes loss, and broadcasts gradients back. The model is replicated per GPU inside the forward pass. This creates a lot of overhead because the main GPU (rank 0) becomes a bottleneck for communication.DDP spawns one process per GPU. Each process has its own python interpreter, its own optimizer, and its own model replica. There is no central coordinator. Gradients are synchronised via all-reduce during the backward pass, completely overlapping with computation.\n\n## \n\nGradient Synchronisation and All-Reduce\n\nThe core algorithmic primitive behind DDP is all-reduce.\n\nImagine yo",
+      "title": "",
+      "url": "http://x.com/i/article/2060931168367980544"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -17850,6 +17863,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060793930921164800/img/rdKGBTq5ehZOEs9_.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25788,6 +25815,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
     },
+    "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
+    },
     "https://pbs.twimg.com/media/HJkADLjaMAAoFuv.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -26506,6 +26547,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://ruben.substack.com/p/stop-prompting-claude"
+    },
+    "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Why having a computer on the internet feels good again.",
+      "final_url": "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/",
+      "frameable": null,
+      "image_urls": [
+        "https://samihonkonen.com/og/base_hu_dc6075b310ed85a0.jpg",
+        "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/exe-dev-banner.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Sami Honkonen Posts A love letter to exe.dev May 29, 2026 · 2 min · Sami Honkonen When the internet was still fairly young, I managed to convince a local ISP to let me bring my old computer to their server room so I could run my own server. It was amazing. The coolest thing was chatting with people on IRC with a verified domain name, and using screen (the predecessor to tmux ) to keep your nickname from being stolen while you slept. Identity theft was different back then. I could just SSH to my server and do stuff. There was no provider, no console, no dashboard, no billing alerts. Just my computer on the internet. Somewhere along the way that feeling got lost. The cloud arrived and brought complexity along with it. Powerful, yes, but the feeling of “I have a computer on the internet” was buried under so many layers of indirection that I mostly stopped thinking of any of it as mine. Until I found exe.dev , and the feeling is back. You SSH to exe.dev to create an account. Once in, you can spin up a VM from the terminal in a few seconds, give it a hostname, and SSH straight into it. That’s it. You have a fresh Linux box with your public key already loaded. This site you’re reading is running on one of those VMs. The whole setup, from “I want a blog” to “here’s the URL”, was maybe two hours of pottering, most of which was bikeshedding fonts and arguing with a CSS mask. For the setup, I used pi.dev , a minimal CLI agent harness. It’s shaped the same way exe.dev is: no UI, no ceremony, just a terminal. The aesthetics line up. But that’s a separate love letter. This one is for exe.dev. What I love is that the abstraction layer has been folded back into the smallest possible thing. A box. A shell. A domain. Concepts that have been stable since 1995. They didn’t have to invent a new noun. There’s no dashboard for me to forget how to navigate in three months, no console to log out of, no SDK to keep up with. The computer is the product. The computer was always the product. It’s a little bit like that ISP server room. Someone else handles the power and the network. I handle the box. The internet feels like mine again. For the avoidance of doubt: I have no affiliation with exe.dev. Internet © 2026 Sami Honkonen · Powered by Hugo & PaperMod",
+      "title": "A love letter to exe.dev | Sami Honkonen",
+      "url": "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/"
     },
     "https://sankalp.bearblog.dev/how-prompt-caching-works/": {
       "cleaner_v": 2,
@@ -33068,6 +33124,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
+    },
+    "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=diMoCRgrSR69ky60&v=GcqQ1ebBqkc&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60"
     },
     "https://youtu.be/USmG-RXYzd8": {
       "content_type": "text/html; charset=utf-8",
@@ -40310,19 +40379,17 @@
       "https://x.com/IBuzovskyi/status/2059860662658949530",
       "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg",
       "https://x.com/IBuzovskyi/status/2059988505317568888",
-      "https://x.com/IBuzovskyi/status/2059986423357272218",
+      "https://x.com/IBuzovskyi/status/2060085623575253469",
       "https://x.com/IBuzovskyi/status/2060050167454163416",
       "https://x.com/IBuzovskyi/status/2060365190592344535",
+      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060260830306832638",
       "https://x.com/IBuzovskyi/status/2060030951992820212",
-      "https://x.com/IBuzovskyi/status/2060018425406136537",
-      "https://x.com/IBuzovskyi/status/2060099081620353322",
-      "https://x.com/IBuzovskyi/status/2059976851926225060",
       "https://x.com/IBuzovskyi/status/2060005154041053585",
-      "https://x.com/IBuzovskyi/status/2060500526228258864",
-      "https://x.com/IBuzovskyi/status/2060085623575253469",
-      "https://x.com/IBuzovskyi/status/2060127369667457175",
-      "https://x.com/IBuzovskyi/status/2060009581841969436"
+      "https://x.com/IBuzovskyi/status/2059982757715927092",
+      "https://x.com/IBuzovskyi/status/2059976851926225060",
+      "https://x.com/IBuzovskyi/status/2060310956396236878",
+      "https://x.com/IBuzovskyi/status/2059982479386144968"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40704,12 +40771,45 @@
       "https://x.com/0x_kaize/status/2060917462757945816",
       "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
     ],
+    "2060802827635855404": [
+      "https://x.com/Av1dlive/status/2060802827635855404",
+      "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg",
+      "https://x.com/Av1dlive/status/2060805353022132392",
+      "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60",
+      "https://x.com/Av1dlive/status/2060833232862826586",
+      "https://x.com/Av1dlive/status/2060833703849566307",
+      "https://x.com/Av1dlive/status/2060833101971063013",
+      "https://x.com/Av1dlive/status/2060833021729853792",
+      "https://x.com/Av1dlive/status/2060833364467474657",
+      "https://x.com/Av1dlive/status/2060803331803734056",
+      "https://x.com/Av1dlive/status/2060805022175445073",
+      "https://x.com/Av1dlive/status/2060804661582627141"
+    ],
     "2060823674295615634": [
       "https://x.com/enjojoyy/status/2060823674295615634",
       "https://x.com/enjojoyy/status/2060843188588515752",
-      "https://x.com/enjojoyy/status/2060848029889147044"
+      "https://x.com/enjojoyy/status/2060962433045598387",
+      "https://x.com/enjojoyy/status/2060997089195335852"
+    ],
+    "2060832131623125345": [
+      "https://x.com/himanshutwtxs/status/2060832131623125345"
+    ],
+    "2060888016517042615": [
+      "https://x.com/joefioti/status/2060888016517042615",
+      "https://x.com/joefioti/status/2060895075551646152",
+      "https://x.com/joefioti/status/2060915631915176342"
+    ],
+    "2060931634623611183": [
+      "https://x.com/ssh_exe_dev/status/2060931634623611183",
+      "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/"
+    ],
+    "2060949625343983832": [
+      "https://x.com/jino_rohit/status/2060949625343983832",
+      "http://x.com/i/article/2060931168367980544",
+      "https://x.com/jino_rohit/status/2060676601722044831",
+      "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
     ]
   },
-  "updated_at": "2026-05-31T04:53:19Z",
+  "updated_at": "2026-05-31T08:22:36Z",
   "window": "recent"
 }
