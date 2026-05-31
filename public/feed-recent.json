@@ -4393,6 +4393,19 @@
       "title": "",
       "url": "http://x.com/i/article/2059652660022910976"
     },
+    "http://x.com/i/article/2059654105816051715": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059654105816051715",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059654105816051715/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJl--aTX0AMrqyN?format=jpg&name=900x900)](http://x.com/i/article/2059654105816051715/DinScales26/article/2060819226248818884/media/2060817915176275971)\n\nhow to actually get good B2B dealflow from cold outbound...\n\n[![](https://pbs.twimg.com/profile_images/2004607244667658240/Nca2FK2__normal.jpg)](http://x.com/i/article/2059654105816051715/DinScales26)\n\n[Din](http://x.com/i/article/2059654105816051715/DinScales26)\n\n[@DinScales26](http://x.com/i/article/2059654105816051715/DinScales26)\n\n·\n\n18h\n\n·\n\nFollow\n\nClick to Follow DinScales26\n\n3\n\n4\n\n35\n\n[3.4K](http://x.com/i/article/2059654105816051715/DinScales26/status/2060819226248818884/analytics)\n\nthe reason a lot of b2b companies get nothing from cold outbound is they treat it like a volume game\n\nthey export a list from apollo, write a generic template, send 10,000 emails, and pray for 1% reply rates lol\n\nthe result is a handful of complete shit replies from people who were never going to buy and a pipeline full of NOTHING\n\nconsistent deal flow from cold outbound requires getting three things right simultaneously. \n\nif any one of them is broken, the whole system produces nothing...\n\n## \n\n1\\. finding people who are already looking\n\nthe list is fucking everything\n\na perfect message sent to the wrong person gets zero replies and a mediocre message sent to the right person gets meetings booked\n\nthe mistake most companies make is sourcing leads from static databases. \n\napollo and zoominfo give you contact information but they DO NOT tell you who's actively looking for a solution right now\n\nso you need intent signals layered on top of contact data...\n\n* companies hiring for roles related to your service are telling you exactly what they need\n\n\"hiring head of demand gen\" means they don't have one yet, marketing is probably a mess, and they need pipeline help. \n\n\"hiring 10 sdrs\" means they need the pipeline those sdrs are supposed to generate. \n\njob postings are PUBLICLY available buying signals that almost nobody in cold outbound is using systematically\n\n* companies that just raised funding are actively buying services.\n\nseries a companies are building their go to market\n\nseries b companies are scaling their sales infrastructure\n\nthe yc startup directory is public, crunchbase has free tiers, and sec edgar filings are completely free. \n\nthese companies have cash, they have urgency, AND they need vendors\n\n* prospects who are active on linkedin in the last 30 days are actually present on the platform s\n\nso filtering for recent activity eliminates the 40-50% of your list that never checks linkedin and will never see your message\n\nthis single filter can double your effective reply rate overnight\n\n* competitors' followers and customers are the highest intent leads possible\n\nbecause they already understand the problem and are already paying for a solution, \n\nthey just need a reason to switch. \n\nwe've seen 300% more positive responses from outreach to competitor followers compared to cold lists\n\nthe difference between a list that produces 1% reply rates and one that produces 10%+ is ENTIRELY about whether the people on it have signaled they care about what you're selling\n\n## \n\n1\\. making them actually reply\n\nthe message has to do two things in under 25 words: - prove you can solve their problem - and make it effortless to say yes\n\n* the case study lead works CONSISTENTLY across every vertical we've tested\n\n\"we booked 30 calls for a marketing agency in 5 weeks. 2 signed retainer clients. worth a quick conversation?\"\n\nthe prospect reads this and their brain immediately calculates whether a similar result would be valuable for their business\n\nif it would, they reply and if it wouldn't, they don't. there's no convincing required\n\n* relevance is the only form of personalization that moves the needle\n\ndon't mention their",
+      "title": "",
+      "url": "http://x.com/i/article/2059654105816051715"
+    },
     "http://x.com/i/article/2059732424905666560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -13453,6 +13466,31 @@
       "text_excerpt": "[一个反直觉的发现](https://maxlv.net#一个反直觉的发现)\n用 AI 写代码，选什么语言最高效？\n直觉会说 Python——语法简单、AI 训练数据多、生成即运行。但在过去几个月用 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 开发了 [https_proxy](https://github.com/madeye/https_proxy) 和 [trans_proxy](https://github.com/madeye/trans_proxy) 两个 Rust 项目之后，我的结论恰恰相反：\nRust 可能是最适合 AI 编程的语言。\n不是因为 AI 写 Rust 从不犯错——它犯的错不少。而是因为 Rust 的编译器会在毫秒级内把错误精确地拍回来，形成一个极其高效的反馈循环。Python 代码生成后\"看起来对了\"，但 bug 可能藏在运行时的某个角落；Rust 代码只要编译通过，一大类错误就已经被消灭了。\n这篇文章以这两个项目的实际开发经历为线索，讨论为什么 Claude Code + Rust 会成为一种更好的编程范式。\n[编译器是 AI 最好的搭档](https://maxlv.net#编译器是-ai-最好的搭档)\n[类型系统：自动验证 AI 的输出](https://maxlv.net#类型系统自动验证-ai-的输出)\n先看 trans_proxy 中上游代理协议的定义：\nenum ProxyProtocol {\nHttpConnect,\nSocks5(ProxyAuth),\n}\nenum ProxyAuth {\nNone,\nUsernamePassword { username: String, password: String },\n}\n当 AI 生成处理上游连接的代码时，它必须覆盖 ProxyProtocol\n的每个变体：\nmatch &proxy.protocol {\nProxyProtocol::HttpConnect => { /* HTTP CONNECT 隧道 */ }\nProxyProtocol::Socks5(auth) => { /* SOCKS5 握手 */ }\n}\n如果 AI 遗漏了 Socks5\n分支，或者在 Socks5\n里忘记处理 UsernamePassword\n认证——编译器直接报错，连运行的机会都没有。这不是 lint 警告，不是 best practice 建议，是硬性编译失败。\n在 Python 中，同样的逻辑可能写成一串 if/elif\n，遗漏一个分支只会在运行时某个特定条件下触发 KeyError\n。AI 不会告诉你它漏了什么，因为它自己也不知道。\n[Borrow Checker：并发安全的自动证明](https://maxlv.net#borrow-checker并发安全的自动证明)\ntrans_proxy 的 DNS 模块大量使用跨任务共享状态：\n// DNS 查询表：IP → 域名的映射\nlet dns_table: Arc<RwLock<HashMap<Ipv4Addr, String>>> = ...;\n// 查询合并器：避免重复请求\nlet coalescer: Arc<QueryCoalescer> = ...;\nAI 生成的异步代码经常涉及跨 tokio::spawn\n边界的数据共享。在 Go 或 Python 中，数据竞争是运行时的偶发事件，可能在压力测试中才偶尔浮现。在 Rust 中：\n- 忘记\nArc\n包装？编译失败——所有权无法跨线程转移 - 忘记\nRwLock\n？编译失败——不能在多线程中可变借用 - 在持有锁的情况下\n.await\n？Clippy 直接警告死锁风险\nBorrow checker 把\"代码审查中需要人类凭经验发现的并发 bug\"变成了\"编译器自动检测的类型错误\"。对于 AI 生成的代码，这意味着无需信任 AI 的并发推理能力——编译器会替你验证。\n[穷举 Match：消灭遗漏](https://maxlv.net#穷举-match消灭遗漏)\nhttps_proxy 的隐身检测是一个典型例子：\npub fn is_proxy_request(req: &Request<Incoming>) -> bool {\nif req.method() == Method::CONNECT {\nreturn true;\n}\nif req.version() == Version::HTTP_2 {\nreturn false;\n}\nreq.uri().authority().is_some()\n}\n这段逻辑看似简单，但背后的判断链条非常精确：CONNECT 一定是代理请求；HTTP/2 非 CONNECT 一定不是（因为 :authority\n伪头始终存在）；HTTP/1.x 看 URI 是否包含 authority。\n当 AI 生成这类分支逻辑时，Rust 的穷举 match 确保了每个 Method\n、每个 Version\n变体都被考虑到。如果未来 hyper 库新增了 HTTP/3 的 Version\n变体，所有未覆盖的 match 会自动变成编译错误——而不是静默地走进一个错误的 fallback 分支。\n[互补关系：AI 擅长什么，Rust 补足什么](https://maxlv.net#互补关系ai-擅长什么rust-补足什么)\nAI 和 Rust 编译器各自有明显的强项和弱项，恰好形成互补：\n| AI 擅长 | AI 不擅长 | |\n|---|---|---|\n| 模式识别 | 见过数百万个 HTTP 解析器实现，生成新的得心应手 | 判断某个特定实现在边界条件下是否正确 |\n| API 记忆 | 精确记忆 tokio、hyper、reqwest 的 API 签名和用法 | 确保 API 调用的顺序和组合在所有执行路径上都正确 |\n| 样板代码 | 秒级生成 serde 序列化、clap 参数定义、错误类型转换 | 保证生成的类型定义在整个项目中一致 |\nRust 编译器精确地补上了右列的每一项：\n- 边界条件：\nOption<T>\n强制处理空值，Result<T, E>\n强制处理错误 - 执行路径：穷举 match 确保所有分支被覆盖\n- 全局一致性：类型系统确保修改一处接口后，所有调用方都必须适配\n以 https_proxy 的配置系统为例。AI 生成了完整的配置结构体：\n#[derive(Debug, Deserialize, Serialize, Clone)]\nstruct Config {\nlisten: String,\ndomain: String,\nacme: AcmeConfig,\nusers: Vec<UserConfig>,\n#[serde(default)]\nstealth: StealthConfig,\n#[serde(default)]\nfast_open: bool,\n}\n#[derive(Deserialize)]\n和 #[serde(default)]\n这类注解，AI 比大多数人都记得准。但如果 AI 在某处把 users\n的类型从 Vec<UserConfig>\n改成了 HashMap<String, String>\n，所有使用 users\n的代码会立即编译失败——不需要人去全局搜索哪里用了这个字段。\n[效率杠杆：秒级反馈循环](https://maxlv.net#效率杠杆秒级反馈循环)\n[cargo check 的魔力](https://maxlv.net#cargo-check-的魔力)\n下图对比了两种反馈循环的差异：\n左侧的传统工作流中，人是瓶颈——阅读、理解、评估一段代码可能需要几分钟。右侧的 Rust 工作流中，cargo check\n秒级完成类型检查，Claude Code 直接读取编译器输出并自动修复，整个循环不需要人的介入。\n一个典型场景：开发 trans_proxy 的 SOCKS5 支持时，AI 第一轮生成的代码在 ProxyAuth::UsernamePassword\n分支中忘记了对 username\n长度做 u8\n范围检查（SOCKS5 RFC 1929 要求用户名不超过 255 字节）。cargo check\n通过了，但 cargo test\n中的边界测试捕获了问题。AI 看到测试输出后，第二轮就生成了正确的验证逻辑。从错误到修复，整个循环不到 30 秒。\n[对比：动态语言的反馈延迟](https://maxlv.net#对比动态语言的反馈延迟)\n如果同样的项目用 Python 写：\n- 类型错误？要等运行时触发，或者依赖 mypy（覆盖率通常不到 100%）\n- 并发 bug？可能在压力测试中偶现，难以稳定复现\n- API 不匹配？import 成功不代表调用正确，要等实际执行到那一行\n这些延迟的反馈意味着 AI 的错误可能一路传播到后面的代码中，修复成本指数级增长。Rust 的编译器把尽可能多的验证前移到编译期，让 AI 的每一轮迭代都从一个已验证的基线出发。\n[实战案例：两个项目的开发历程](https://maxlv.net#实战案例两个项目的开发历程)\n[https_proxy：10 个模块的协作](https://maxlv.net#https_proxy10-个模块的协作)\nhttps_proxy 的代码组织成 10 个模块：\nsrc/\n├── main.rs # 入口与 CLI\n├──",
       "title": "Claude Code + Rust：当 AI 遇上最严格的编译器 - Lv. MAX",
       "url": "https://maxlv.net/blog/claude-code-rust-new-paradigm/"
+    },
+    "https://mechanical-pencil.com/?ref=sidebar": {
+      "content_type": "text/html",
+      "description": "Illustrating the Engineering Around Us",
+      "final_url": "https://mechanical-pencil.com/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/assets/X1q1AYi3I49IfoU4IuMZdz0yOqQ.png",
+        "https://framerusercontent.com/images/9CqkxoLZVHZVbWgYXMe0AUONoJk.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/yeGHxVXQOhJjOIXb6HdLyjFh1U.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/agCG9ybZvmajEn884ZaMhDlytE.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/zHKA5pANH29xh8rXRZmQWZ4ik.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/5jkLb4tWniTZyXFOa8vF6HHzNI.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/ZPLr2CxXffFZswvABKwsX3VDrG4.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/q9J91bJwNnWxY8jhzQ1xDb1mUQ.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/ah8WMDuB7Of6E3KxrzYUdJSvF0.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/4NB0ykeouHpj4FwUH8ZgWwgiw.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/UWObJfDJGkou7KmrKNrZl1sHqs.svg?width=1440&height=1440",
+        "https://framerusercontent.com/images/3BDosNeiua9nezwVk9w0JwnYbk8.svg?width=1440&height=1440"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Mechanical Pencil",
+      "url": "https://mechanical-pencil.com/?ref=sidebar"
     },
     "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80": {
       "content_type": "",
@@ -25790,6 +25828,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
     },
+    "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
+    },
     "https://pbs.twimg.com/media/HJgNtaRbYAE_tNP.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25832,6 +25884,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
     },
+    "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
+    },
+    "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg"
+    },
     "https://pbs.twimg.com/media/HJlR_X9aAAAwled.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25859,6 +25939,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg"
+    },
+    "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -40371,17 +40465,19 @@
       "https://x.com/IBuzovskyi/status/2059860662658949530",
       "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg",
       "https://x.com/IBuzovskyi/status/2059988505317568888",
-      "https://x.com/IBuzovskyi/status/2060085623575253469",
+      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060050167454163416",
       "https://x.com/IBuzovskyi/status/2060365190592344535",
-      "https://x.com/IBuzovskyi/status/2059986423357272218",
       "https://x.com/IBuzovskyi/status/2060260830306832638",
-      "https://x.com/IBuzovskyi/status/2060005154041053585",
-      "https://x.com/IBuzovskyi/status/2059982757715927092",
-      "https://x.com/IBuzovskyi/status/2059976851926225060",
       "https://x.com/IBuzovskyi/status/2060030951992820212",
-      "https://x.com/IBuzovskyi/status/2060310956396236878",
-      "https://x.com/IBuzovskyi/status/2059982479386144968"
+      "https://x.com/IBuzovskyi/status/2060018425406136537",
+      "https://x.com/IBuzovskyi/status/2060099081620353322",
+      "https://x.com/IBuzovskyi/status/2059976851926225060",
+      "https://x.com/IBuzovskyi/status/2060005154041053585",
+      "https://x.com/IBuzovskyi/status/2060500526228258864",
+      "https://x.com/IBuzovskyi/status/2060085623575253469",
+      "https://x.com/IBuzovskyi/status/2060127369667457175",
+      "https://x.com/IBuzovskyi/status/2060009581841969436"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40681,9 +40777,9 @@
       "https://x.com/SidebarIO/status/2060450613662499261",
       "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar",
       "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg",
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
+      "https://x.com/SidebarIO/status/2060410600908345391",
+      "https://mechanical-pencil.com/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
     ],
     "2060453308620316851": [
       "https://x.com/benyuls/status/2060453308620316851",
@@ -40697,16 +40793,15 @@
     "2060527240098587085": [
       "https://x.com/tonysimons_/status/2060527240098587085",
       "http://x.com/i/article/2060205510750552067",
-      "https://x.com/tonysimons_/status/2060704623292281124",
+      "https://x.com/tonysimons_/status/2060752618259976370",
       "https://x.com/tonysimons_/status/2060752315032760527",
       "https://x.com/tonysimons_/status/2060842555525230715",
-      "https://x.com/tonysimons_/status/2060752618259976370",
+      "https://x.com/tonysimons_/status/2060704623292281124",
       "https://x.com/tonysimons_/status/2060842446829863104"
     ],
     "2060538084685459560": [
       "https://x.com/PaulSolt/status/2060538084685459560",
-      "https://x.com/PaulSolt/status/2060780233096134915",
-      "https://x.com/PaulSolt/status/2060537483972968759"
+      "https://x.com/PaulSolt/status/2060780233096134915"
     ],
     "2060562561456611586": [
       "https://x.com/ashwingop/status/2060562561456611586",
@@ -40734,7 +40829,8 @@
       "https://github.com/hugohe3/ppt-master",
       "https://x.com/Pineapp95857268/status/2060860811154018574",
       "https://x.com/Pineapp95857268/status/2060860753205452960",
-      "https://x.com/Pineapp95857268/status/2061038686394020306"
+      "https://x.com/Pineapp95857268/status/2061098543453274208",
+      "https://pbs.twimg.com/media/HJp-GaMbwAAITO8.jpg"
     ],
     "2060675167152648270": [
       "https://x.com/systematicls/status/2060675167152648270",
@@ -40773,16 +40869,20 @@
       "https://x.com/Av1dlive/status/2060833232862826586",
       "https://x.com/Av1dlive/status/2060833101971063013",
       "https://x.com/Av1dlive/status/2060833021729853792",
-      "https://x.com/Av1dlive/status/2061061017661309144",
       "https://x.com/Av1dlive/status/2060833364467474657",
       "https://x.com/Av1dlive/status/2061005496627376196",
       "https://x.com/Av1dlive/status/2061005452440408294",
       "https://x.com/Av1dlive/status/2060803331803734056",
-      "https://x.com/Av1dlive/status/2061006091920814270",
+      "https://x.com/Av1dlive/status/2061061017661309144",
       "https://x.com/Av1dlive/status/2061006171100873142",
       "https://x.com/Av1dlive/status/2061005602923704448",
       "https://x.com/Av1dlive/status/2060805022175445073",
+      "https://x.com/Av1dlive/status/2061006091920814270",
       "https://x.com/Av1dlive/status/2060804661582627141"
+    ],
+    "2060819226248818884": [
+      "https://x.com/DinScales26/status/2060819226248818884",
+      "http://x.com/i/article/2059654105816051715"
     ],
     "2060823674295615634": [
       "https://x.com/enjojoyy/status/2060823674295615634",
@@ -40808,8 +40908,14 @@
       "https://x.com/jino_rohit/status/2061029773779120596",
       "https://x.com/jino_rohit/status/2060676601722044831",
       "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
+    ],
+    "2060992814872486117": [
+      "https://x.com/honglong0420/status/2060992814872486117",
+      "https://x.com/honglong0420/status/2060737876552483241",
+      "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg",
+      "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
     ]
   },
-  "updated_at": "2026-05-31T12:46:46Z",
+  "updated_at": "2026-05-31T14:56:09Z",
   "window": "recent"
 }
