@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 402,
+      "count": 404,
       "name": "Development"
     },
     {
@@ -38,8 +38,93 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2204,
+  "item_count": 2206,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-05-31T10:34:38.170952Z",
+      "article_image_urls": [
+        "https://bitrig.com/og?title=The+best+way+to+build+native+Swift+apps+with+AI.&description=Describe+what+you+want+to+build%2C+and+Bitrig+turns+it+into+real+Swift+code+you+can+ship+to+the+App+Store.&type=default",
+        "https://bitrig.com/assets/logos/nav_icon.png",
+        "https://bitrig.com/assets/hero-video-poster.jpg",
+        "https://bitrig.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswift-code-alpha-no-shadow.07s8lnlaa4ua-.png&w=3840&q=75",
+        "https://bitrig.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fconversation-bg.109klxkwi1f83.jpg&w=3840&q=75",
+        "https://bitrig.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsim-no-shadow.0k0kyn1wy8rg~.png&w=3840&q=75",
+        "https://bitrig.com/assets/logos/app_icon_unmasked.png",
+        "https://bitrig.com/assets/logos/social/x-logo.svg",
+        "https://bitrig.com/assets/logos/social/youtube-logo.svg",
+        "https://bitrig.com/assets/logos/social/discord-logo.svg"
+      ],
+      "article_title_extracted": "Bitrig | The best way to build native Swift apps with AI",
+      "category": "Development",
+      "created_at": "2026-05-31T09:03:16.863999Z",
+      "description": "Describe what you want to build, and Bitrig turns it into real Swift code you can ship to the App Store.",
+      "domain": "bitrig.com",
+      "embed_type": "",
+      "id": "k1737e3emna566xv4cpz2nq05x87smsd",
+      "og_image_url": "https://bitrig.com/og?title=The+best+way+to+build+native+Swift+apps+with+AI.&amp;description=Describe+what+you+want+to+build%2C+and+Bitrig+turns+it+into+real+Swift+code+you+can+ship+to+the+App+Store.&amp;type=default",
+      "recommended_at": "2026-05-31T09:03:23.570000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "swift",
+        "ai-development",
+        "app-builder"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T09:03:23.570000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Bitrig | The best way to build native Swift apps with AI",
+      "url": "https://bitrig.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-05-31T10:34:38.170952Z",
+      "article_image_urls": [
+        "https://deepswe.datacurve.ai/og/deepswe-card.webp",
+        "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+        "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+        "https://deepswe.datacurve.ai/icons/Google.svg",
+        "https://deepswe.datacurve.ai/icons/Moonshot.png",
+        "https://deepswe.datacurve.ai/icons/Xiaomi.png",
+        "https://deepswe.datacurve.ai/icons/ZAI.png",
+        "https://deepswe.datacurve.ai/icons/xAI.svg",
+        "https://deepswe.datacurve.ai/icons/DeepSeek.svg"
+      ],
+      "article_title_extracted": "DeepSWE",
+      "category": "Development",
+      "created_at": "2026-05-31T08:54:07.737805Z",
+      "description": "DeepSWE measures frontier coding agents on original, long-horizon software engineering tasks.",
+      "domain": "deepswe.datacurve.ai",
+      "embed_type": "",
+      "id": "k175hzfhfpdzyyh36gv5x90zq587sw1n",
+      "og_image_url": "https://deepswe.datacurve.ai/og/deepswe-card.webp",
+      "recommended_at": "2026-05-31T08:54:16.288000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "software-engineering",
+        "ai-agents",
+        "benchmarking"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-05-31T08:54:16.288000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "DeepSWE",
+      "url": "https://deepswe.datacurve.ai/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
       "article_image_urls": [
@@ -97783,7 +97868,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2048,
+      "count": 2050,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -97819,5 +97904,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-05-31T05:08:28.596826Z"
+  "updated_at": "2026-05-31T10:34:39.105955Z"
 }
