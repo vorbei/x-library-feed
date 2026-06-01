@@ -17921,6 +17921,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2060802519421636608/img/wUrR1DjFkIxMWBQv.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2061162559491756035/img/pblTUCbn5KsgSDUT.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061162559491756035/img/pblTUCbn5KsgSDUT.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061162559491756035/img/pblTUCbn5KsgSDUT.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061162559491756035/img/pblTUCbn5KsgSDUT.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25872,20 +25886,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
-    },
-    "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
     },
     "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg": {
       "cleaner_v": 2,
@@ -40516,13 +40516,13 @@
       "https://x.com/IBuzovskyi/status/2060260830306832638",
       "https://x.com/IBuzovskyi/status/2060030951992820212",
       "https://x.com/IBuzovskyi/status/2060018425406136537",
+      "https://x.com/IBuzovskyi/status/2059972108164141114",
       "https://x.com/IBuzovskyi/status/2060099081620353322",
       "https://x.com/IBuzovskyi/status/2059976851926225060",
       "https://x.com/IBuzovskyi/status/2060005154041053585",
       "https://x.com/IBuzovskyi/status/2060500526228258864",
       "https://x.com/IBuzovskyi/status/2060085623575253469",
-      "https://x.com/IBuzovskyi/status/2060127369667457175",
-      "https://x.com/IBuzovskyi/status/2060009581841969436"
+      "https://x.com/IBuzovskyi/status/2060127369667457175"
     ],
     "2059939941530980672": [
       "https://x.com/zknmoe/status/2059939941530980672",
@@ -40783,7 +40783,9 @@
     ],
     "2060399898798018696": [
       "https://x.com/RianSweetDoris/status/2060399898798018696",
-      "http://x.com/i/article/2060357382052454403"
+      "http://x.com/i/article/2060357382052454403",
+      "https://x.com/RianSweetDoris/status/2061165649418674229",
+      "https://pbs.twimg.com/amplify_video_thumb/2061162559491756035/img/pblTUCbn5KsgSDUT.jpg"
     ],
     "2060399973506924612": [
       "https://x.com/huntlovell/status/2060399973506924612",
@@ -40919,8 +40921,8 @@
       "https://x.com/Av1dlive/status/2060833364467474657",
       "https://x.com/Av1dlive/status/2060833703849566307",
       "https://x.com/Av1dlive/status/2060805022175445073",
-      "https://x.com/Av1dlive/status/2061005452440408294",
       "https://x.com/Av1dlive/status/2061061017661309144",
+      "https://x.com/Av1dlive/status/2061005452440408294",
       "https://x.com/Av1dlive/status/2061005602923704448",
       "https://x.com/Av1dlive/status/2060803331803734056",
       "https://x.com/Av1dlive/status/2061006091920814270",
@@ -40953,17 +40955,19 @@
       "https://x.com/jino_rohit/status/2060949625343983832",
       "http://x.com/i/article/2060931168367980544",
       "https://x.com/jino_rohit/status/2061008986909159561",
-      "https://x.com/jino_rohit/status/2061029773779120596",
-      "https://x.com/jino_rohit/status/2060676601722044831",
-      "https://pbs.twimg.com/media/HJj-bH3asAA9QcS.jpg"
+      "https://x.com/jino_rohit/status/2061029773779120596"
     ],
     "2060992814872486117": [
       "https://x.com/honglong0420/status/2060992814872486117",
       "https://x.com/honglong0420/status/2060737876552483241",
       "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg",
       "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
+    ],
+    "2061188148437106928": [
+      "https://x.com/Voxyz_ai/status/2061188148437106928",
+      "https://x.com/Voxyz_ai/status/2061190201595060228"
     ]
   },
-  "updated_at": "2026-05-31T18:17:27Z",
+  "updated_at": "2026-06-01T00:15:43Z",
   "window": "recent"
 }
