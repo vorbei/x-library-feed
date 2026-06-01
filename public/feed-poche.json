@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 668,
+      "count": 669,
       "name": "Tools"
     },
     {
@@ -38,8 +38,37 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2210,
+  "item_count": 2211,
   "items": [
+    {
+      "category": "Tools",
+      "created_at": "2026-06-01T07:21:00.439018Z",
+      "description": "Discover the new Surface Laptop Ultra. Built for world makers and creative pros who require cutting-edge AI performance, power, and portability.",
+      "domain": "www.microsoft.com",
+      "embed_type": "",
+      "id": "k174tdmf9pw5ygtpnrtp1v8we987v04k",
+      "og_image_url": "https://images.ctfassets.net/jy9s7k22hbg4/1t98pPFtTrNb7PkesMIOZb/8ec66e7459879f38684f33fceb4eec3d/MSFT-R-Hero-Poster-desktop-fy26.png",
+      "recommended_at": "2026-06-01T07:21:38.309000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "surface-laptop",
+        "artificial-intelligence",
+        "hardware"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-01T07:21:38.309000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Surface Laptop Ultra: The new performance Surface Laptop | Microsoft Surface",
+      "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-01T05:29:43.857992Z",
@@ -4648,7 +4677,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/oroKHTLNFzPVuaD3QoCflqGjmA.png",
         "https://framerusercontent.com/images/EGvaq1QCaQSWJ9IvVpGKQhEk.png?width=2156&height=2156",
@@ -4696,7 +4725,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cumora.ai/assets/og-image.png",
         "https://cumora.ai/assets/logo.png",
@@ -4743,12 +4772,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.coreauto.com/assets/ca_logo.svg",
-        "https://www.coreauto.com/assets/mail_icon.svg",
-        "https://www.coreauto.com/assets/x_icon.svg",
-        "https://www.coreauto.com/assets/uk_icon.svg",
         "https://www.coreauto.com/assets/footer_desktop.jpg"
       ],
       "article_title_extracted": "Core Automation",
@@ -4788,7 +4814,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Amano - Technology that helps. Design that listens. Impact that lasts.",
       "category": "Design",
       "created_at": "2026-05-16T14:10:12.435765Z",
@@ -4869,7 +4895,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.branch.computer/og-cover.png",
         "https://www.branch.computer/figma/branch-icon.svg?dpl=dpl_HqqXUhRD2tKvQUa35pmjZqQ6vFCU",
@@ -4921,7 +4947,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://david-hckh.com/meta/og-image.webp",
         "https://david-hckh.com/meta/twitter-image.webp"
@@ -4963,7 +4989,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -4999,7 +5025,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -5038,7 +5064,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sitegeist.ai/img/pavlo.jpg",
         "https://sitegeist.ai/img/armin.jpg",
@@ -5083,7 +5109,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/693a7ff7f8662142a99517e0/6940379be918db9a0c4e3841_opengraph.png",
         "https://cdn.prod.website-files.com/693a7ff7f8662142a99517e0/693ec71f20d2dd4adbe69c5c_logo.svg",
@@ -5186,9 +5212,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/f7882650ff561b436c94ff91bf9c8dd95cf69226abcf6260f85eba41bd5a9974/vercel-labs/zerolang"
+        "https://opengraph.githubassets.com/07def7a4678fd30e991538f3628daa20f13bb2b941552f654ede9403447ffc5e/vercel-labs/zerolang"
       ],
       "article_title_extracted": "GitHub - vercel-labs/zerolang: The programming language for agents · GitHub",
       "category": "Development",
@@ -5322,7 +5348,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://machinen.dev/logo.svg"
       ],
@@ -5363,14 +5389,14 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://withnovu.com/assets/og_image.jpg",
         "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0_ec4ua0qjite.jpg&w=3840&q=75",
         "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fphone-frame.0jubfec8z6wnh.png&w=3840&q=75",
-        "https://withnovu.com/images/highlights/novu-second.png",
-        "https://withnovu.com/images/highlights/apple-watch-novu.png",
-        "https://withnovu.com/images/highlights/weekly-insights.jpg",
+        "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnovu-second.14geujvydhgvo.png&w=3840&q=75",
+        "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fapple-watch-novu.11gv52_296xrr.png&w=3840&q=75",
+        "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fweekly-insights.09bk9d1czl6~z.jpg&w=3840&q=75",
         "https://withnovu.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fcta.0_e.4b~b3rk.v.jpg&w=3840&q=75"
       ],
       "article_title_extracted": "Novu | Talk your day. Own your time.",
@@ -5410,7 +5436,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://mole.fit/img/en/lore.jpg",
         "https://mole.fit/img/en/clean.jpg",
@@ -5544,7 +5570,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://xcodebuildmcp.com/og-image.png",
         "https://www.xcodebuildmcp.com/logo.png"
@@ -5586,7 +5612,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://svg-bench.fenx.work/og-image.png",
         "https://svg-bench.fenx.work/images/icons/light-mode-light.svg",
@@ -5673,7 +5699,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/VROI8zqCS4qQzrquP0oVQm1c0qc.png",
         "https://framerusercontent.com/images/CXFehSx0j6dq6kNZZ1ZXDAPj1dI.png?width=1024&height=1024",
@@ -5977,12 +6003,15 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://muxy.app/assets/logo.svg",
-        "https://muxy.app/assets/opencode-dark.svg"
+        "https://muxy.app/screenshots/desktop-light.jpg",
+        "https://muxy.app/screenshots/desktop-dark.jpg",
+        "https://muxy.app/screenshots/ios-1.png",
+        "https://muxy.app/screenshots/ios-2.png",
+        "https://muxy.app/screenshots/ios-3.png"
       ],
-      "article_title_extracted": "Muxy — A lightweight terminal multiplexer for Mac",
+      "article_title_extracted": "Muxy — A terminal multiplexer for Mac - Muxy",
       "category": "Tools",
       "created_at": "2026-05-14T13:29:08.421542Z",
       "description": "Muxy is a lightweight, memory-efficient terminal multiplexer for Mac built with SwiftUI and libghostty. Project-based workflow, split panes, built-in VCS, 200+ themes.",
@@ -6019,19 +6048,19 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/aJiPKAOmNpOfUkJF4MBjdYIX8.png",
         "https://framerusercontent.com/images/KB3b8DGwzCnyVeFLJAS8SP0XIY.png?width=1856&height=2464",
         "https://framerusercontent.com/images/ELrvz5ec1flbMLI8kQ8hsA0YPLg.png?width=1856&height=2464",
         "https://framerusercontent.com/images/7LFkbkOBGQL0L2OgxtpHcFaCQk.png?width=1856&height=2464",
         "https://framerusercontent.com/images/yxsAaByRwmxwt4iGffY4ygjUvIo.png?width=1856&height=2464",
-        "https://framerusercontent.com/images/NU8tYPjUhpYiiz0eTNukeHiV9c.png?width=1856&height=2464",
-        "https://framerusercontent.com/images/iEOFoAcT3wRLaRZyJhYGt5G6t4.png?width=1856&height=2464",
-        "https://framerusercontent.com/images/jFzl2TP5QwugE0aipEHEm0Z2Jo.jpeg?width=964&height=1280",
+        "https://framerusercontent.com/images/H1aVk3Kfj7oeCrTJuLshljiS26s.jpg?width=1289&height=1600",
+        "https://framerusercontent.com/images/QlBnbUOhI8N6fGOZWLBRNM7bI.jpg?width=1289&height=1600",
+        "https://framerusercontent.com/images/3tvSAdua1W8oa0VlcNSFzv7Jys.jpg?width=1274&height=1600",
         "https://framerusercontent.com/images/oUOxfAuImfj6gaqljAm1Zafjs.png?width=1856&height=2464",
         "https://framerusercontent.com/images/Act2kMjrgbWbqStZK790jTZNNLQ.jpg?width=1920&height=2400",
-        "https://framerusercontent.com/images/Kknqsz3wTynqwZyxQCXVUg4w5No.png?width=3712&height=4928",
+        "https://framerusercontent.com/images/pO0YDaR2AeKeRRxn1KpPPCvPGk.jpg?width=1278&height=1600",
         "https://framerusercontent.com/images/W2YPnrQUYTf6FT3xMiD44OdQ5Js.png?width=1856&height=2464"
       ],
       "article_title_extracted": "Hypra — Curated Imagery for Visionary Brands",
@@ -6070,7 +6099,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/da0fb531d40f8165aa9bfa8fc63c9b95e01697747e48eb6141bd4428669392f0/oven-sh/bun/commit/23427dbc12fdcff30c23a96a3d6a66d62fdc091d",
         "https://avatars.githubusercontent.com/u/709451?v=4&size=40",
@@ -6114,22 +6143,22 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cire.fm/opengraph-image.png",
         "https://cire.fm/logo.svg",
-        "https://i.scdn.co/image/ab67616d0000b273344194123b90b64871c86ad8",
-        "https://i.scdn.co/image/ab67616d0000b27373870381d130b608e2deb080",
-        "https://i.scdn.co/image/ab67616d0000b273badf7bb72ae2d47fed692e47",
-        "https://i.scdn.co/image/ab67616d0000b2736a78d8381753fc0b066db328",
-        "https://i.scdn.co/image/ab67616d0000b273baff9d4bda9c5141de158a06",
-        "https://i.scdn.co/image/ab67616d0000b273dacdb67ca16ea682f5bc527f",
-        "https://i.scdn.co/image/ab67616d0000b2736f842c9eac41960e2cbe7261",
-        "https://i.scdn.co/image/ab67616d0000b273a73c241e80edd3e561e0a809",
-        "https://i.scdn.co/image/ab67616d0000b2730884df836349b95ba7bf131a",
-        "https://i.scdn.co/image/ab67616d0000b2732ca451d76a366051d52642dc"
+        "https://i.scdn.co/image/ab67616d0000b273bb17257279dcdc6bc59486f5",
+        "https://i.scdn.co/image/ab67616d0000b273e1c217cfb2356e4f2dcae213",
+        "https://i.scdn.co/image/ab67616d0000b273c0588d9dcd8bd9e7a7845844",
+        "https://i.scdn.co/image/ab67616d0000b273aa08bc1f91af50de768263a6",
+        "https://i.scdn.co/image/ab67616d0000b273ce5a50b91c21d71f401687d0",
+        "https://i.scdn.co/image/ab67616d0000b273980c2954a962172ff7084f09",
+        "https://i.scdn.co/image/ab67616d0000b273b6369a1188ac9a6cbd4e4ac8",
+        "https://i.scdn.co/image/ab67616d0000b27353c176eebe8b4813ca54d7a6",
+        "https://i.scdn.co/image/ab67616d0000b2738fff9b0ba826af775cabefec",
+        "https://i.scdn.co/image/ab67616d0000b273a9039dd4d532afa68eb564bd"
       ],
-      "article_title_extracted": "Cire",
+      "article_title_extracted": "Cire · Wax pressed by silicon.",
       "category": "Media",
       "created_at": "2026-05-14T10:16:45.003494Z",
       "description": "Cire catches the grain of new music.",
@@ -6160,7 +6189,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.prismic.io/usvc/aejJGMBOoF08xNa5_primary-preview.png?auto=format,compress&rect=0,23,1200,630&w=1200&h=630",
         "https://usvc.cdn.prismic.io/usvc/acwY2ZGXnQHGZJMD_xai.svg?w=100&h=25&fm=webp",
@@ -6208,7 +6237,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/69c2d7e2ad6312d0a414043e/6a0435b42e0cdfd8719bd9e6_recursive_opengraph_thumbnail.jpg",
         "https://cdn.prod.website-files.com/69c2d7e2ad6312d0a414043e/69fbdb51caeedcd05bb61146_logo_recursive_light.svg",
@@ -6302,7 +6331,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://adaptionlabs.ai/opengraph-image.jpg?opengraph-image.28ce77cd.jpg",
         "https://res.cloudinary.com/dhqklyjv8/image/upload/f_jpg/q_90/v1/Gradient-BG_sgv9gz?_a=BAVMn6B00",
@@ -6342,7 +6371,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "http://static1.squarespace.com/static/5a5515ddf14aa168d346a018/t/5ad12145562fa71762ef39fe/1523654982302/test7.jpg?format=1500w",
         "https://images.squarespace-cdn.com/content/v1/5a5515ddf14aa168d346a018/1523654981499-WWB5NDQ8O6AQJEMNB7EP/test7.jpg?format=1000w",
@@ -6449,7 +6478,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.cloudflare.com/preview.png",
         "https://www.cloudflare.com/people/duncan-davidson.png",
@@ -6672,7 +6701,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://kometatype.com/og-image.png",
         "https://kometatype.com/cdn-cgi/image/w=2560/images/bespoke/tt-photo-3.webp"
@@ -6714,9 +6743,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://pangram-public.s3.amazonaws.com/web/assets/Website+Image+Tag.png",
+        "https://pangram-public.s3.us-east-1.amazonaws.com/web/Home+Page/og-pangram.png",
         "https://pangram-public.s3.us-east-1.amazonaws.com/web/assets/Pangram+Main+Logo.svg",
         "https://www.pangram.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6vunltag%2Fproduction%2Fe8dbdd27f8ae6f5842e74eae031ce7c45ac8ce15-1280x986.jpg&w=256&q=75",
         "https://www.pangram.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6vunltag%2Fproduction%2Fa0d9c113db9f1b68fa07b6a261bbf53fc8e9208d-2560x1970.png&w=256&q=75",
@@ -6883,7 +6912,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/692487b717cd11b0ad36e79a/6a038cced0142da7f2f0aad0_Thumbnail.png",
         "https://cdn.prod.website-files.com/692487b717cd11b0ad36e79a/69274d11a184087a2ba5c776_da7d1b2cc3ddf42710d55761c49d3c35_PonderAI%20Logo%20%28White%29.svg",
@@ -6979,7 +7008,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://explorer.oxide.computer/images/og.webp"
       ],
@@ -7370,7 +7399,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://zero-native.dev/og"
       ],
@@ -7411,7 +7440,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://res.cloudinary.com/about-gitlab-com/image/upload/v1776362275/ozbwn9tk0dditpnfddlz.png",
         "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto,c_lfill/v1776362275/ozbwn9tk0dditpnfddlz.png",
@@ -7457,7 +7486,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.ctfassets.net/spoqsaf9291f/4yrhxwVSEBgnFcThCgGExc/8072c98e41f251db500fa9f6482883b8/preview.png"
       ],
@@ -7497,7 +7526,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.tryharmony.ai/og-default.png?v=4",
         "https://www.tryharmony.ai/assets/harmony-logo.png?v=4",
@@ -7598,7 +7627,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/69bbde37ea62d2ca86e68cd4_iso-og-compressed.png",
         "https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/685b2dd03af637d54142e925_isomorphic.svg",
@@ -7703,7 +7732,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6838cce6a2c87094baa9dfd6_Web-Home-SEO-clusters-of-three-workflows-with-photos-of-people-working-together-and-UI.png",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/683dd82ef79f0b6d7d878090_Platform-NavFeature-sourcing-and-decision-making-workflows-with-UI-and-photos-of-professionals.png",
@@ -7712,7 +7741,7 @@
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6716b79fb7517eec7624852b_Greenhouse-scorecard-icon-thumbs-up-and-office-worker-waving-to-person-virtually.webp",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6716b8508a5978331488f06f_Greenhouse-AI-icon-and-office-worker-sitting-at-a-table.webp",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6716b884e5b3b85778949f5e_Hiring-maturity-curve-and-woman-in-white-suit-in-brightly-lit-office.webp",
-        "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6a06331af6baf12400fd36cb_EN_Nav-Two-office-workers-chatting-while-walking-through-office.avif",
+        "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/6a0f41318cffb1788f1a6f43_6a06331af6baf12400fd36cb_EN_Nav-Two-office-workers-chatting-while-walking-through-office.avif",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/698ce3b0dbb962cd6c8a4a1a_26OpenForOps_FeaturedNav_UI_and_Photo_and_Open_Logo_213x207.png",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/67115f20230f1b71c1227254_Facebook_200116_235458.svg",
         "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/67115fa14af6293adb962bfd_linkedin.svg",
@@ -7832,7 +7861,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/wave-site/logo.png"
       ],
@@ -7962,7 +7991,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://ratty-term.org/assets/images/ratty-social-card.png",
         "https://ratty-term.org/assets/images/ratty-logo.gif"
@@ -8004,7 +8033,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Outfit Logger",
       "category": "Design",
       "created_at": "2026-05-12T01:22:40.623589Z",
@@ -8168,7 +8197,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "article_image_urls": [
         "https://dreama.fun/opengraph-image-35zqtj.jpg?opengraph-image.0nfbg4w-ed4~y.jpg",
@@ -8334,7 +8363,7 @@
       "x_status_id": "2053153019366363387"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://ja.mt/og-default.png"
       ],
@@ -8368,7 +8397,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "SDocs",
       "category": "Tools",
       "created_at": "2026-05-10T01:27:41.359332Z",
@@ -8458,7 +8487,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://openhanako.com/assets/Hanako-280.png"
       ],
@@ -8495,7 +8524,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/JbW5V2k0JOxvyQTnOqaRrOG17s.png",
         "https://framerusercontent.com/images/WHh5ATrQi1CGwAdA0VW46jZBQ8.png?width=2368&height=1744",
@@ -8569,7 +8598,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
         "https://avatars.githubusercontent.com/u/211979?s=64&v=4"
@@ -8611,7 +8640,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://langfuse.com/api/og?title=Langfuse+%E2%80%93+Open+Source+LLM+Engineering+Platform&description=Traces%2C+evals%2C+prompt+management+and+metrics+to+debug+and+improve+your+LLM+application.",
         "https://langfuse.com/langfuse-wordart-white.svg",
@@ -8711,7 +8740,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/178525/1761305341-social-card.png",
         "https://www.datocms-assets.com/178525/1762737021-menu.jpg",
@@ -8809,7 +8838,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Other",
       "created_at": "2026-05-09T03:23:51.129398Z",
@@ -8920,17 +8949,17 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://determinate.systems/img/open-graph.png",
-        "https://determinate.systems/_astro/background.BK9hKfbJ.svg?dpl=6a0c7d77bac03e0008270d1c",
-        "https://determinate.systems/_astro/detsys-logo-dark.B9FILpW_.svg?dpl=6a0c7d77bac03e0008270d1c",
+        "https://determinate.systems/_astro/background.BK9hKfbJ.svg?dpl=6a19de4597336000086fbb68",
+        "https://determinate.systems/_astro/detsys-logo-dark.B9FILpW_.svg?dpl=6a19de4597336000086fbb68",
         "https://i.ytimg.com/vi/0yb05mq9lLM/maxresdefault.jpg",
-        "https://determinate.systems/_astro/deploy-with-fh.CWcdeXpo.svg?dpl=6a0c7d77bac03e0008270d1c",
-        "https://determinate.systems/_astro/ditch-bootstrap-scripts.BOTQIKAb.svg?dpl=6a0c7d77bac03e0008270d1c",
-        "https://determinate.systems/_astro/pink-bars.B_4TChwp.svg?dpl=6a0c7d77bac03e0008270d1c",
-        "https://determinate.systems/_astro/blue-bars.Dnm_TB4d.svg?dpl=6a0c7d77bac03e0008270d1c",
-        "https://determinate.systems/_astro/orange-bars.B-YIR1h9.svg?dpl=6a0c7d77bac03e0008270d1c",
+        "https://determinate.systems/_astro/deploy-with-fh.CWcdeXpo.svg?dpl=6a19de4597336000086fbb68",
+        "https://determinate.systems/_astro/ditch-bootstrap-scripts.BOTQIKAb.svg?dpl=6a19de4597336000086fbb68",
+        "https://determinate.systems/_astro/pink-bars.B_4TChwp.svg?dpl=6a19de4597336000086fbb68",
+        "https://determinate.systems/_astro/blue-bars.Dnm_TB4d.svg?dpl=6a19de4597336000086fbb68",
+        "https://determinate.systems/_astro/orange-bars.B-YIR1h9.svg?dpl=6a19de4597336000086fbb68",
         "https://determinate.systems/img/testimonials/yacine-hmito.png",
         "https://determinate.systems/img/testimonials/mitchell-hashimoto.png",
         "https://determinate.systems/img/testimonials/jp.png"
@@ -8972,7 +9001,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/69e8124941d4fa4516c9d59f/69f9644d9ae64d5b51051b0d_opengraph-2.png",
         "https://cdn.prod.website-files.com/69e8124941d4fa4516c9d59f/69e832bf750f4b66aeff7297_mark-2.svg",
@@ -9146,7 +9175,7 @@
       "x_status_id": "2052489312944759202"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/69e4d2a7e95e485d724a241a/69f84ae69f58fdd1cac38cb0_Opengraph.png",
         "https://reflect.money/images/Logo.svg",
@@ -9274,12 +9303,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.gstatic.com/marketing-cms/assets/images/6e/68/fe17ee394aa9a0369d767353d209/meta-image.webp=n-w1440-h756-fcrop64=1,00000959fffff63f-rw",
-        "https://www.gstatic.com/marketing-cms/e3/67/c1790ead467c9950f7bb7c497e30/logo-enus-googlehealth-2026q2-021326.png",
-        "https://www.gstatic.com/marketing-cms/assets/images/ce/4b/a351915a43e18ef64b6f498dbc9b/logo-white.svg",
-        "https://www.gstatic.com/marketing-cms/19/bf/711199034b599dbdfdf8a2416431/google-health-enterprise-full-color-black-lockup.png",
+        "https://www.gstatic.com/marketing-cms/44/02/edbb72c246f288863b8e25b38ab0/logo-enus-googlehealth-2026q2-021326.png",
+        "https://www.gstatic.com/marketing-cms/04/34/0106949144e2b511124c7dd8c53e/google-health-enterprise-full-color-black-lockup.png",
         "https://www.gstatic.com/marketing-cms/assets/images/c7/95/4e90579545d1aa29d4eaaf8d4237/s0-hero-desktop-2.webp",
         "https://www.gstatic.com/marketing-cms/cc/19/2863e01d44c9ad9c2a3be8b66f71/image-enus-gw2-2023q3-23h103x002-037-la-lifestyle-day6-stoneypoint-bouldering-0211-r05-batch3-eos23-05-fitness-enhanced-workout-view-rgb-simp-07-19-23-7.webp",
         "https://www.gstatic.com/marketing-cms/ab/cf/90d3c5d04cee9d8de68e5865dc03/s5-m2-carousel.webp",
@@ -9287,7 +9315,8 @@
         "https://www.gstatic.com/marketing-cms/ed/02/4c9734c84037bebb79ed42107de7/image-enus-gw2-2023q3-23h103x002-037-la-lifestyle-day6-stoneypoint-bouldering-0211-r05-batch3-eos23-05-fitness-enhanced-workout-view-rgb-simp-07-19-23-10.webp",
         "https://www.gstatic.com/marketing-cms/assets/images/4b/7c/1317c3f04bc788459aed01996f80/s2-m1-01-phone-3.webp",
         "https://www.gstatic.com/marketing-cms/75/0d/708d60e143908200909ba4003626/s2-m1-02-phone.webp",
-        "https://www.gstatic.com/marketing-cms/9e/50/dcdf809749aabcf04f39c3c595a4/s2-m1-01-fitness-desktop-1.webp"
+        "https://www.gstatic.com/marketing-cms/9e/50/dcdf809749aabcf04f39c3c595a4/s2-m1-01-fitness-desktop-1.webp",
+        "https://www.gstatic.com/marketing-cms/01/67/3553d757400da23c0231469422bd/s2-m1-02-fitness-desktop-1.webp"
       ],
       "article_title_extracted": "Google Health Google Health",
       "category": "Tools",
@@ -9325,7 +9354,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/z84vkf2c/production/d381ea27978c13832fe9793f291f7174fd69a7a5-1200x628.png?w=1200",
         "https://cdn.sanity.io/images/z84vkf2c/production/f496d7868262fbf26f71782579181541f75b45b5-100x50.svg?q=75&fit=clip&auto=format",
@@ -9539,7 +9568,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://writer.computer/og.jpg"
       ],
@@ -9635,14 +9664,14 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/1184626912/b1ead621-7f04-49ab-93ec-6ce75af60958",
         "https://camo.githubusercontent.com/f7677bfbcab4f4c71c3675842e5864ff1016bd2f477c0677b316063ab1dc85ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6d6f64656d2d6465762f68756e6b2f63692e796d6c3f6272616e63683d6d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4349",
         "https://camo.githubusercontent.com/297568a47157895c517cd6b9f89b60de1d09aea57bfa14bfdf064772c3dab41f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6d6f64656d2d6465762f68756e6b3f7374796c653d666f722d7468652d6261646765",
         "https://camo.githubusercontent.com/608c8dfda488178950ce502d7697514db3a6a712579327ed90b9b594260f6355/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666f722d7468652d6261646765",
-        "https://private-user-images.githubusercontent.com/2153/594444535-35605618-be3f-479e-b6e0-edb089910651.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3MTEyODQsIm5iZiI6MTc3OTcxMDk4NCwicGF0aCI6Ii8yMTUzLzU5NDQ0NDUzNS0zNTYwNTYxOC1iZTNmLTQ3OWUtYjZlMC1lZGIwODk5MTA2NTEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjVUMTIwOTQ0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MDFkZWFmODI4M2FjMGRmMDk5NzljOTIwNTM2OTY4ODA3YTkxNjcxNDU4MDMyZGE1NTMxNGM3NTBiNzY1ZjRhOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.3TPGqeK5UjwAzY82iF4KSyf6Dm5LE-zTfuwTzCijcwc",
-        "https://private-user-images.githubusercontent.com/2153/594446307-92eb8993-f044-436d-a038-8139da5ad8de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3MTEyODQsIm5iZiI6MTc3OTcxMDk4NCwicGF0aCI6Ii8yMTUzLzU5NDQ0NjMwNy05MmViODk5My1mMDQ0LTQzNmQtYTAzOC04MTM5ZGE1YWQ4ZGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjVUMTIwOTQ0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MDc2YTliNWM2YzI2MGE2OGYzYTM5NWM3YWJjZTU0MjQwMTVjYTJkNWY2NjBkMGJmNGY4OWUwMzBjYTJiZmViMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.uYGXWhXTzluYUvos0hpmn7Ad9kAEIp3-XFOdymLgUfc",
+        "https://private-user-images.githubusercontent.com/2153/594444535-35605618-be3f-479e-b6e0-edb089910651.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODAzMjUzMzcsIm5iZiI6MTc4MDMyNTAzNywicGF0aCI6Ii8yMTUzLzU5NDQ0NDUzNS0zNTYwNTYxOC1iZTNmLTQ3OWUtYjZlMC1lZGIwODk5MTA2NTEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MDFUMTQ0MzU3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzFmMTJmZmRiZjdmNGExZmFkMThlODJiOTMwY2Q5ZTkyNTlhYzhmYjU1NzAyYWZiNTdhYTNmODQ2NmUyYzU0YiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.ImzHF_C4yDPZxpHTUlNlyDO7FQEbOc-a-GwXcAcxDhE",
+        "https://private-user-images.githubusercontent.com/2153/594446307-92eb8993-f044-436d-a038-8139da5ad8de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODAzMjUzMzcsIm5iZiI6MTc4MDMyNTAzNywicGF0aCI6Ii8yMTUzLzU5NDQ0NjMwNy05MmViODk5My1mMDQ0LTQzNmQtYTAzOC04MTM5ZGE1YWQ4ZGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MDFUMTQ0MzU3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUwNDVmODU1ZjBjZmNmYjI4Nzg4NjU0ODgyN2U5OTExYzI4YjEwNGE5MWQyZmE3Mzk4Y2QxYzA2ZWJjYjhiMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.m2Vj36G-F_dtX1kLDGB7wJWfK6FuNcUulchP1JpCAN0",
         "https://camo.githubusercontent.com/5b5deb6caabfa7a609505bbadf9b1de5260ab2e3024ea3ea774e317703b8bd1c/68747470733a2f2f6d6f64656d2e6465762f696d616765732f6c6f676f2f7376672f6d6f64656d2d636f6d62696e65642d626c61636b2e737667"
       ],
       "article_title_extracted": "GitHub - modem-dev/hunk: Review-first terminal diff viewer for agentic coders · GitHub",
@@ -9681,7 +9710,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://illoca.com/images/og-image.png"
       ],
@@ -9766,7 +9795,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Ethos - Human intelligence, on-demand",
       "category": "Tools",
       "created_at": "2026-05-07T04:26:06.849386Z",
@@ -9804,7 +9833,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/696a48a7323254ea5a7ab884/69ddc0cf68022b3ef6900757_vi-og.png",
         "https://cdn.prod.website-files.com/696a48a7323254ea5a7ab884/696a48a7323254ea5a7ab8c0_logo.png",
@@ -9932,7 +9961,7 @@
       "x_status_id": "2051982939580178749"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://k3s.io/img/k3s-logo-light.svg",
         "https://k3s.io/img/k3s-logo-dark.svg",
@@ -10021,10 +10050,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://www.altalogy.com/img/meta/og-image2.png",
-        "https://www.altalogy.com/img/meta/og-image.png",
+        "https://www.altalogy.com/img/meta/og-image3.png",
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fsunrise.png&w=3840&q=75",
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fdaytime.png&w=3840&q=75",
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fsunset.png&w=3840&q=75",
@@ -10034,7 +10062,8 @@
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fclients%2Fsheel.jpg&w=64&q=75",
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fdain5.jpg&w=3840&q=75",
         "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fchemistry.avif&w=3840&q=100",
-        "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fcofounder-bg.avif&w=3840&q=75"
+        "https://www.altalogy.com/_next/image?url=%2Fimg%2Fgridportfoliov2%2Fcofounder-bg.avif&w=3840&q=75",
+        "https://www.altalogy.com/img/linear.svg"
       ],
       "article_title_extracted": "Altalogy | Design and Engineering Studio",
       "category": "Design",
@@ -10122,7 +10151,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/WRoEvltQtpGRZcuKKW25CqhMBRQ.png"
       ],
@@ -10217,7 +10246,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://subq.ai/images/introducing-subq.png",
         "https://subq.ai/images/gemini.svg",
@@ -10263,7 +10292,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6953b66cfe49c7eee28420b2/696487db3c9b5f744a8c55b3_opengraph_english.png",
         "https://www.facebook.com/tr?id=3947529388882157&ev=PageView&noscript=1",
@@ -10314,7 +10343,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.agentcard.sh/og.png",
         "https://www.agentcard.sh/agents/amp.svg",
@@ -10365,20 +10394,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://dayclaw.com/og-dayclaw.png",
-        "https://www.dayclaw.com/logo.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/model-logos/gemini-color.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fmain-feature.png&w=3840&q=75&dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fall-your-sources.png&w=3840&q=75&dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/sources-logos/twitter-x.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/sources-logos/youtube.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/sources-logos/reddit.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/sources-logos/hacker-news.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/sources-logos/producthunt.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/apps-logos/gmail.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR",
-        "https://www.dayclaw.com/apps-logos/slack.svg?dpl=dpl_BKe9E8nAbqbF7Ndf7DgzKG7nymnR"
+        "https://www.dayclaw.com/logo.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/model-logos/gemini-color.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fmain-feature.png&w=3840&q=75&dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/_next/image?url=%2Fmarketing%2Fall-your-sources.png&w=3840&q=75&dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/sources-logos/twitter-x.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/sources-logos/youtube.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/sources-logos/reddit.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/sources-logos/hacker-news.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/sources-logos/producthunt.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/apps-logos/gmail.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1",
+        "https://www.dayclaw.com/apps-logos/slack.svg?dpl=dpl_BQhGWekfM8sjQ8xzf5Q4abUEd9M1"
       ],
       "article_title_extracted": "Dayclaw | AI Agent Workspace for Research & Automation",
       "category": "Tools",
@@ -10416,7 +10445,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://recollect.so/images/recollect-og.jpg",
         "https://recollect.so/_next/image?url=%2Fimages%2Frecollect-ipad-hero.png&w=3840&q=90&dpl=dpl_Ez96rnYquYvbFenFiJFVTiECysM8",
@@ -10468,7 +10497,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -10587,9 +10616,9 @@
       "x_status_id": "2051425337737879854"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/35cbd57c9f5d86db3089585729ce8d4128e14b229e2ac6e2644dc3e13b317498/remotion-dev/html-in-canvas"
+        "https://opengraph.githubassets.com/af981c88b860dcf1d45c1089b0b3cfae7fcd00e37afc74b6a1eb42df10338dad/remotion-dev/html-in-canvas"
       ],
       "article_title_extracted": "GitHub - remotion-dev/html-in-canvas · GitHub",
       "category": "Development",
@@ -10627,7 +10656,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/55GbCw8kDHcDMszvgobWLAxO3s.jpg",
         "https://framerusercontent.com/images/K2Kz2IPbjugizEh3Edp1kSGmtuw.svg?width=343&height=211",
@@ -10679,7 +10708,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -10715,9 +10744,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/175df5087f1de0b78c2f1ac061399614463c630293d02feae55b7346879d06da/steipete/RepoBar",
+        "https://opengraph.githubassets.com/96781026910bbb23fd9bb0b570a5caf29a6ae0ed672ce33878e819fef795bd4d/steipete/RepoBar",
         "https://github.com/steipete/RepoBar/raw/main/docs/assets/repobar.png"
       ],
       "article_title_extracted": "GitHub - steipete/RepoBar: Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release. · GitHub",
@@ -10754,7 +10783,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sobanotes.app/images/soba-og.jpg",
         "https://sobanotes.app/images/soba-wordmark-home.svg",
@@ -10792,7 +10821,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.tinyfish.ai/TF-Logos/Horizontal Logo/SVG/TF_Horizontal.svg",
         "https://www.tinyfish.ai/customer-logos/google.svg",
@@ -10843,7 +10872,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.prismic.io/panthalassa-2024/65808d10531ac2845a26bdfe_panthalassa.jpg?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=2400&h=1260",
         "https://panthalassa.com/Panthalassa | Go where the energy is"
@@ -10885,7 +10914,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://procedural.computer/og.png"
       ],
@@ -10968,7 +10997,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.docuseal.com/packs/static/images/preview-99e68f3c26abb97d939d.png",
         "https://www.docuseal.com/packs/static/images/clients/us-san-diego-logo-b7adee9dc25258a9550e.png",
@@ -11019,7 +11048,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://air.dev/images/social-preview.png?v=1"
       ],
@@ -11059,7 +11088,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://clawsweeper.bot/social-card.png",
         "https://clawsweeper.bot/clawsweeper.svg"
@@ -11100,7 +11129,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.prismic.io/shader/aXyIqgIvOtkhCHKr_og.jpg?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260"
       ],
@@ -11140,7 +11169,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://origami.chat/og-image.png",
         "https://www.facebook.com/tr?id=1691409875617972&ev=PageView&noscript=1",
@@ -11155,7 +11184,7 @@
         "https://origami.chat/TouchsuitePROD.svg",
         "https://origami.chat/StellarPROD.svg"
       ],
-      "article_title_extracted": "Origami | Great Leads in 1 Prompt",
+      "article_title_extracted": "Origami | Find your perfect customers in one prompt",
       "category": "Tools",
       "created_at": "2026-05-04T01:39:11.990125Z",
       "description": "Describe your ideal customer and Origami finds them. AI-powered prospecting that turns a single prompt into a qualified lead list.",
@@ -11279,9 +11308,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/23723b930f5458292bd7bf94251557dcb2f39623dea2d16645b0609a68838e29/twardoch/fonttools-opentype-feature-freezer"
+        "https://opengraph.githubassets.com/6089f0ece0e8de08490ac533b7f0175bdc0687c9e43e9ff96451d2e22e2d47a1/twardoch/fonttools-opentype-feature-freezer"
       ],
       "article_title_extracted": "GitHub - twardoch/fonttools-opentype-feature-freezer: OTFeatureFreezer GUI app and pyftfeatfreeze commandline tool in Python to permanently \"apply\" OpenType features to fonts, by remapping their Unicode assignments · GitHub",
       "category": "Development",
@@ -11320,7 +11349,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://copy.fail/og.png",
         "https://copy.fail/xint-code-logo.svg"
@@ -11359,7 +11388,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://v2.alchemy.run/og/index.png"
       ],
@@ -11434,7 +11463,7 @@
       "x_status_id": "2050421589150404826"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/8yrspuwy/production/18724c795ad1c6067c6973cf67fa81bae947808d-1200x630.jpg",
         "https://cdn.sanity.io/images/8yrspuwy/production/84cea93a1f875612a2e2640e6b031d1ec8ed0324-2418x3021.jpg",
@@ -11523,7 +11552,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://mikeoss.com/link-image.jpg",
         "https://mikeoss.com/screenshots/assistant.jpg",
@@ -11567,9 +11596,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_extraction": "trafilatura",
       "article_image_urls": [
-        "https://www.airthings.com/media/catalog/product/v/i/view_plus_3.jpg",
+        "https://www.airthings.com/media/catalog/product/v/i/view_plus_-_us_-_hsa_eligible.png",
         "https://www.airthings.com/hubfs/01_Website/Presskit/logos/airthings-logo-horizontal.svg",
         "https://www.airthings.com/media/wysiwyg/DGE/view-plus-box-2.jpg",
         "https://www.airthings.com/media/catalog/product/cache/cec3885aaeab468fd3d103928dc191f4/p/c/pci_airthings_corentium_home_2_-_laid_flat_on_table_-_square_-_pci_web.jpg",
@@ -11582,8 +11611,10 @@
         "https://www.airthings.com/hs-fs/hubfs/01_Website/Images/pro/corentium-pro-005_2.jpg?width=200&height=200&name=corentium-pro-005_2.jpg",
         "https://www.airthings.com/hubfs/01_Website/Images/pro/airthings%20academy.png"
       ],
+      "article_text": "Frequently asked questions\nView Plus questions, answered\n- Does the Airthings View Plus detect radon?\n- Yes. The Airthings View Plus uses a passive diffusion chamber and alpha spectrometry to detect radon from 0 to 500 pCi/L, with accuracy of approximately 10% after 7 days and 5% after 2 months at 5.4 pCi/L. The Airthings app flags any reading at or above the EPA action level of 4 pCi/L.\n- Where should I place the View Plus for best results?\n- You can use the View Plus in any room indoors where you want to track air quality. Because it is Airthings' most comprehensive monitor, Airthings recommends placing it in rooms where the family gathers and spends time together — like the kitchen or the family room. That said, you can use it in other rooms to get a broad view of air quality. Never place the monitor outdoors or in conditions with over 85% humidity, as this can cause permanent damage to the radon sensor inside. For best results, avoid placing the View Plus within 3 feet (90 cm) of vents, fans, windows, or doors, since these sources of ventilation can skew readings. Place the device near where people spend time, at average breathing height, and never higher than 6 feet (182 cm). You can stand it on a surface or mount it on a wall using the screw holes in the backplate.\n- How do I know the measurements are accurate?\n- The nature of air and the measurement of its components means there is always room for small variations. Every air sensor manufacturer has to report the device's expected range of accuracy, which is one reason two devices — of the same or different brands — can be placed side by side and report somewhat different values. This does not mean either is defective; both may be reporting values within their range of accuracy. Airthings uses only reliable, proven technology in the View Plus: a proprietary radon sensor trusted by homeowners and professionals since 2011, a laser-based particulate sensor, and an NDIR carbon dioxide sensor. Check the View Plus product sheet on airthings.com for the accuracy range of each sensor. If you suspect your device is reporting inaccurate values, contact the Airthings support team.\n- Can I check my live View Plus air quality readings in the app from anywhere?\n- Yes. The View Plus connects to your home Wi-Fi network. With internet connectivity, you can access live readings from anywhere in the Airthings app, and you also receive timely notifications when air quality declines. You can use smart home systems like IFTTT and Homey to create home automation flows that use View Plus sensor readings as triggers.\n- What is the hub feature in View Plus, and why is it useful?\n- The hub feature allows the View Plus to extend its internet connectivity to Airthings Wave monitors, which on their own use only Bluetooth. Homeowners monitoring the air in multiple rooms with a mix of View and Wave monitors can use the Airthings app to link their Wave devices to the View Plus hub. Beyond bringing internet access to the Wave readings, this enables timely air quality notifications and extends the Wave monitor's battery life.\n- Do I need the Airthings app to use the View Plus?\n- Yes. The View Plus requires the free Airthings app (iOS or Android) to function, including initial setup, alerts, and trend data. The on-device e-ink display also shows live readings without opening your phone. An Airthings account requires only an email address and a name.\n- How long does the View Plus battery last?\n- The Airthings View Plus runs for up to 2 years on six AA batteries, depending on Wi-Fi router type and sensor reporting interval. You can also run it on USB-C power for always-on operation, which also unlocks the hub function for connecting Airthings Wave devices.\n- Does the View Plus work with Alexa, Google Home, and HomeKit?\n- The Airthings View Plus integrates with Amazon Alexa, Google Assistant, IFTTT, and Homey to trigger smart home routines based on sensor readings. Apple HomeKit is not currently supported. Li",
       "article_title_extracted": "Airthings View Plus - Smart radon & air quality monitor",
       "category": "Tools",
+      "cleaner_v": 2,
       "created_at": "2026-05-03T01:36:10.172506Z",
       "description": "Our most comprehensive, radon & air quality monitor with 7 sensors including radon, PM 2.5, CO2, and more - WiFi connected and cable-free.",
       "description_zh": "我们最全面的氡气与空气质量监测仪，配备7个传感器，包括氡气、PM2.5、二氧化碳等——支持WiFi连接，无需线缆。",
@@ -11618,7 +11649,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/JDg9ISAgUDaKUhbcZFlNIdpGbs.png",
         "https://framerusercontent.com/images/spqA7GuHlcG0y6VccLXwlbzq3Q.png?width=828&height=1295",
@@ -11705,10 +11736,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1a3200bfa1ef00b25033366b6f5f4f592aa6f8412ca109d7337f87ac37cffccf/b-nnett/codex-plusplus",
-        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3MTEzODMsIm5iZiI6MTc3OTcxMTA4MywicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA1MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNTI1VDEyMTEyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjZDA2MDNiODE3M2UwZDUzYzIxNjJlMDUwMDNiMGZlMmViMDNkMGVkYmI2NjFhYmQ1NGNjOTdhNjlmNzEzMjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.KTzZkzUm6DG-eqhtCI9GJA4uhDypUOIVedr63nYSmNs"
+        "https://opengraph.githubassets.com/2b5b8331c66ae210c803481a46c0b2543524a1407a23d8724f44560902923606/b-nnett/codex-plusplus",
+        "https://private-user-images.githubusercontent.com/62760393/584757017-ea0b2ffc-c30d-4f68-ae12-dd8d6a997b2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODAzMjU0NDAsIm5iZiI6MTc4MDMyNTE0MCwicGF0aCI6Ii82Mjc2MDM5My81ODQ3NTcwMTctZWEwYjJmZmMtYzMwZC00ZjY4LWFlMTItZGQ4ZDZhOTk3YjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjAxVDE0NDU0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRjODI3NjlkMTBiZTEyYjk1NjVmMjY1NjIyYzRhODlmYTE2ZTY4N2RiOGY5ODg0Y2Y5YWZhZTMzZjhmYjMxOTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.IPPxl4EUr-CQdPsZReqRNes-2TuCRPW_KI1ZJ805xG4"
       ],
       "article_title_extracted": "GitHub - b-nnett/codex-plusplus: Codex++ tweak system for the Codex desktop app · GitHub",
       "category": "Development",
@@ -11781,7 +11812,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://dokidek.com/og.png",
         "https://www.dokidek.com/logo/logo-white.png",
@@ -11824,7 +11855,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://audio.raphaelsalaja.com/twitter-image.png?twitter-image.41b6a180.png"
       ],
@@ -11865,7 +11896,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://crabbox.sh/crabbox.svg"
       ],
@@ -11952,7 +11983,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/1205118051/7d1d7d63-a510-4e9a-91d6-da7b13db9843",
         "https://github.com/entireio/git-sync/raw/main/docs/images/gh-repo-cover.png"
@@ -11994,7 +12025,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "train",
       "category": "Media",
       "created_at": "2026-05-02T08:20:54.315901Z",
@@ -12074,12 +12105,12 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
-        "https://trymira.com/cdn/shop/t/11/assets/bg-hero-grad.avif?v=96657762791196898061777510499",
-        "https://trymira.com/cdn/shop/t/11/assets/overlay.avif?v=79620005202372253331777510499",
-        "https://trymira.com/cdn/shop/t/11/assets/links.avif?v=135337017055277406421777510502",
+        "https://trymira.com/cdn/shop/t/29/assets/bg-hero-grad.avif?v=96657762791196898061779903610",
+        "https://trymira.com/cdn/shop/t/29/assets/overlay.avif?v=79620005202372253331779903610",
+        "https://trymira.com/cdn/shop/t/29/assets/links.avif?v=135337017055277406421779903610",
         "https://trymira.com/cdn/shop/files/T_00000.avif?v=1777018949&width=1920",
         "https://trymira.com/cdn/shop/files/T_00244_047c1353-c0cb-4a22-b1e6-d9e925b6dca2.avif?v=1777019051",
         "https://trymira.com/cdn/shop/files/T_00164_8ac899e0-935b-4323-bd86-5a422bf3b4cf.avif?v=1777019039",
@@ -12090,7 +12121,7 @@
         "https://trymira.com/cdn/shop/files/yahoo.png?v=1777016985&width=400",
         "https://trymira.com/cdn/shop/files/new-york-times.png?v=1777016985&width=400"
       ],
-      "article_title_extracted": "MIRA MIRA",
+      "article_title_extracted": "MIRA AI Glasses MIRA AI Glasses",
       "category": "Tools",
       "created_at": "2026-05-02T08:21:08.339667Z",
       "description": "MIRA - The glasses to remember everything. Infinite memory and instant answers to all your questions. Starting at $649.",
@@ -12219,7 +12250,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://storage.googleapis.com/casa-frontdoor-assets/og/og-logo.jpg",
         "https://cdn.sanity.io/images/rfk9awp2/production/4bbfe74aad1a203295ab435d5cc614eaf73aaf7c-176x176.png?w=3840&q=90&auto=format",
@@ -12320,7 +12351,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://obsessed.ai/images/social.png"
       ],
@@ -12357,22 +12388,22 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/673fa3324b6c0b26078d4620_open-graph-screen.png",
         "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/67296a796f9b9a12470af11b_spellbook-logo.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/66fdaf0fb0b7f26dd244a2bb_icon-review-lg.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/66fdaf0fa8874557df5b3a8a_icon-draft-lg.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/66fdaf0f4fa7665072a63759_icon-ask-lg.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/66fdaf0f4fa7665072a63754_icon-benchmarks-lg.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/66fdaf0f05b6d998bc786aef_icon-associate-lg.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b669c5/6a0263c5855fd85caedbb05c_1600x840_Proofreading%20Blog%20Post%20-%201.png",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b669c5/69fceeb01e7ad95591b2cad6_SB-April-1600x840%402x.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0678d61cee1fdb635515d1_spellbook-associate-5.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a06821dcc4f6793e4f63f30_Group%201171279270.png",
         "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0e1c0efed10bc6ad4805a7_g2-mid-gray.svg",
         "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0e1c1707c19fefd9143d92_star-mid-gray.svg",
-        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0f8953b77ff0adb489d631_hero-logistics.png"
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0f8953b77ff0adb489d631_hero-logistics.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0f8953bfb8f90c121769ba_hero-entertainment.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0f89534208487a6bdef783_hero-business.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0cf121121d6c517ea9e43d_dropbox-logo-light.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0cf12123da52cc62da1fae_ebay-logo-light.png",
+        "https://cdn.prod.website-files.com/66fc4a00d70e086034b6699f/6a0f5fa0ea9f973d80161666_barnesandthornburg-logo-light.png"
       ],
-      "article_title_extracted": "Legal AI Contract Review & Drafting | Spellbook",
+      "article_title_extracted": "AI Contract Review & Drafting | Spellbook",
       "category": "Tools",
       "created_at": "2026-05-01T02:36:18.695679Z",
       "description": "Spellbook is the #1 Legal AI for transactional lawyers. Using GPT-5, Claude, and leading LLMs to review contracts, right in Microsoft Word.",
@@ -12453,7 +12484,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://editframe.com/images/og-image.png"
       ],
@@ -12665,7 +12696,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/68eb91477bcf3ee7d055ab45_lando-OpenGraph.webp",
         "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/67dae5835c0649927438ae19_ln4-menu-img-1.webp",
@@ -12716,7 +12747,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://amigo.ai/images/og-image-1200x630.jpg?v=2",
         "https://amigo.ai/images/twitter-card-1200x630.jpg?v=2",
@@ -12724,12 +12755,12 @@
         "https://www.amigo.ai/images/homepage/hero-poster-mobile.jpg",
         "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fhazel-health.webp&w=3840&q=75",
         "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Feucalyptus.webp&w=3840&q=75",
+        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fwisp.svg&w=3840&q=75",
         "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fjasper-health.webp&w=3840&q=75",
         "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fhumanaut.webp&w=3840&q=75",
-        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fwisp.svg&w=3840&q=75",
+        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fdallas-orthopedic.png&w=3840&q=75",
         "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fmrhs.avif&w=3840&q=75",
-        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Flyla-health.png&w=3840&q=75",
-        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fcare-clinic.webp&w=3840&q=75"
+        "https://www.amigo.ai/_next/image?url=%2Fimages%2Fcustomers%2Fzero-overdose.png&w=3840&q=75"
       ],
       "article_title_extracted": "Amigo - The Trusted Platform for Building, Training, and Deploying Clinical Agents",
       "category": "Development",
@@ -12768,7 +12799,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.mesa.dev/og-image.jpeg",
         "https://www.mesa.dev/mesa-stack-diagram.svg",
@@ -12913,7 +12944,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/681bfb0c9a4601bc6e288ec4/684b4a332c1905034fdee368_ebf0b394c307e7e092874768e7f43edc_image-sblacksmith-socialgraph.png",
         "https://cdn.prod.website-files.com/681bfb0c9a4601bc6e288ec4/683ca847da3bc476a2729c70_f5d2bfe3617d9aff82a3e717fb2ed0ba_logo-bracksmith-icon-light.svg",
@@ -13012,7 +13043,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pioneers.parallel.ai/images/opengraph.jpg"
       ],
@@ -13088,7 +13119,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Dynamic Carousel",
       "category": "Design",
       "created_at": "2026-04-30T02:53:20.181519Z",
@@ -13126,7 +13157,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://nextpad.org/assets/images/og-image.png?v=3",
         "https://nextpad.org/assets/images/app-icon-N.png",
@@ -13231,7 +13262,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://trees.software/trees-brand/opengraph-image.png",
         "https://trees.software/trees-brand/twitter-image.png"
@@ -13272,7 +13303,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://poolside.ai/og/og-home.png"
       ],
@@ -13309,7 +13340,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://clawd.rip/og-image.png",
         "https://clawd.rip/brand/claude-ai-icon.svg",
@@ -13405,10 +13436,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/fd920f958153e868481dbe30874eacbb311856362ea381561ba8baffbed30b82/asekachov/Markie",
-        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3MTE1MzAsIm5iZiI6MTc3OTcxMTIzMCwicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjVUMTIxMzUwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWJjMTgwYjI5YmI4NjA2MjBmYzMwZWViOWI1N2U1ZWM4MDk3NjBiNzQzZWM1ZWZkZjlkMmZmMmU2NGVlYjMxYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.DIOcZf_CZ4l9ulMaL3mgOt8agcy_JHsq6WPXkIpe3u4"
+        "https://opengraph.githubassets.com/139b07574706bd8c86cf97885e378081c9ee7275a4b02f55c2f8d6312f34702d/asekachov/Markie",
+        "https://private-user-images.githubusercontent.com/7436406/584333375-d677614c-cf4b-42fe-806a-5adf44be46c1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODAzMjU1NTcsIm5iZiI6MTc4MDMyNTI1NywicGF0aCI6Ii83NDM2NDA2LzU4NDMzMzM3NS1kNjc3NjE0Yy1jZjRiLTQyZmUtODA2YS01YWRmNDRiZTQ2YzEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MDFUMTQ0NzM3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTgwZTFiNWQ1MWE0ZjRmZWJmMTMzOTY3MmJmYzQ4YjE2MTZlNTI2YzIzMThiNDc1NjA4ZDUwM2Q2OGI1NmY2ZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.4qCVjl1pzj6oTxkIz2O9ppp_PF65xNF-c91-1W-5f3c"
       ],
       "article_title_extracted": "GitHub - asekachov/Markie: Markie — quick-add panel for macOS. Public release feed (DMGs + Sparkle appcast). · GitHub",
       "category": "Development",
@@ -13625,9 +13656,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ebcebf3a4782e153aeaeeda1cc6b740a6befe5cc34986f2f6ab63ea067ded59d/raroque/boop-agent",
+        "https://opengraph.githubassets.com/6eba6a3e348fe6353c3cab4e110ad4604c84fd04b182c606c05f5d8a714d6183/raroque/boop-agent",
         "https://github.com/raroque/boop-agent/raw/main/assets/boop.gif",
         "https://github.com/raroque/boop-agent/raw/main/assets/imessage.jpg",
         "https://github.com/raroque/boop-agent/raw/main/assets/agents-view.jpg",
@@ -13673,7 +13704,8 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://letusibiza.com/wp-content/uploads/2025/11/Share-photo.png",
         "https://letusibiza.com/wp-content/uploads/bf-advanced-images/1663/2-Santa-Gertrudis-250x0.webp",
@@ -13868,7 +13900,7 @@
       "x_status_id": "2048444179588808957"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://tunaformac.com/og.png",
         "https://tunaformac.com/assets/tuna-1697e0ff.webp",
@@ -13905,7 +13937,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://raven-product-page.vercel.app/assets/img/s_share.jpg",
         "https://www.withraven.ai/assets/img/r_logo.png",
@@ -13956,7 +13988,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://whoami.wiki/opengraph-image.png?opengraph-image.3e710cc3.png",
         "https://whoami.wiki/twitter-image.png?twitter-image.3e710cc3.png",
@@ -14267,7 +14299,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Merging — AI Coding Livestream",
       "category": "Media",
       "created_at": "2026-04-24T04:57:53.970688Z",
@@ -14305,7 +14337,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "wanman.ai - Your AI Agent Team",
       "category": "Tools",
       "created_at": "2026-04-25T03:06:43.423526Z",
@@ -14342,7 +14374,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/fZJO69TFLqLhdTuD0JwwvqkjHI.jpg",
         "https://framerusercontent.com/images/vUrTGWu4T6RP9jYpQwmSMJi1B90.png?width=3684&height=1094",
@@ -14422,7 +14454,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sketchapedia.com/flipbook-unfurl.jpg"
       ],
@@ -14586,7 +14618,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://neuform.ai/og-home.png"
       ],
@@ -14672,7 +14704,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "<urlopen error timed out>",
       "article_image_urls": [
         "https://paw-inc.jp/assets/img/meta/og_top.jpg?v=202602031900",
@@ -14808,20 +14840,21 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/pv37i0yn/production/c33db052f8afd1af58bc0342cf8ce06cbeb84467-600x314.png",
         "https://cdn.sanity.io/images/pv37i0yn/production/2095949f01e1cf9cf0841096b67d547d9dbfba2e-215x24.svg",
-        "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2Feadd3c2ed50ecd13ad2917cd46ac4ee71824d786-1024x1024.png%3Fauto%3Dformat&w=3840&q=75",
+        "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2F5e10913b6585d6152752d17f0a765c32f454dabb-1703x934.png%3Fauto%3Dformat&w=3840&q=75",
         "https://cdn.sanity.io/images/pv37i0yn/production/cc90788a38550199abccf713bc06d799a4e667a7-40x40.svg",
         "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2Fb6629409bd0b02c391af354e9251b5493ec1f0af-400x400.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2Feadd3c2ed50ecd13ad2917cd46ac4ee71824d786-1024x1024.png%3Fauto%3Dformat&w=3840&q=75",
         "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2F71e5ae43c4d8d32c711ba8f04d52f0dd70f39982-200x200.png%3Fauto%3Dformat&w=3840&q=75",
         "https://cdn.sanity.io/images/pv37i0yn/production/b4ff0822580cf6577a08e71eb6b928ee2704df75-142x141.svg",
         "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fproduction%2F024c5d9c1e834937377c6d297ae4c1d4e044a590-1290x726.png%3Fauto%3Dformat&w=3840&q=75",
         "https://cdn.sanity.io/images/pv37i0yn/production/bb8d628c4ad0b774525ad765138a7b85c4fa4c0f-40x40.svg",
         "https://cdn.sanity.io/images/pv37i0yn/production/f549e0e24c286535bc06df0b0310d270183469e8-40x40.svg",
-        "https://cdn.sanity.io/images/pv37i0yn/production/ac4f278bca97db5305dc57517631971c55d20c47-40x40.svg",
-        "https://cdn.sanity.io/images/pv37i0yn/production/1a746e6943875987fa5d792e763eaf154cac8919-628x521.svg"
+        "https://cdn.sanity.io/images/pv37i0yn/production/ac4f278bca97db5305dc57517631971c55d20c47-40x40.svg"
       ],
       "article_title_extracted": "Fireworks AI - Fastest Inference for Generative AI",
       "category": "Development",
@@ -14859,7 +14892,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://wiggle.three.tools/images/box.png",
         "https://wiggle.three.tools/images/files.png",
@@ -14951,7 +14984,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://gt-mechanik.com/og_image.png"
       ],
@@ -14989,9 +15022,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/fbb85bab5faa7a5a49f8d5ee4c12e451c589dd84acac86d8a5fe0ef347ed2a28/google-labs-code/design.md"
+        "https://opengraph.githubassets.com/53a2193b806ffc0819866f9834d7d2c9eb6ad561a006fe4b225e43fc48399754/google-labs-code/design.md"
       ],
       "article_title_extracted": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. · GitHub",
       "category": "Development",
@@ -15136,9 +15169,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://main--affectionate-borg-319c7a.netlify.app/images/social/home-9dc298e735.png",
+        "https://main--affectionate-borg-319c7a.netlify.app/images/social/home-7ea5e4d4a5.png",
         "https://equals.com/images/logos/notion-e34afe301c.svg",
         "https://equals.com/images/logos/intercom-f2589730e1.svg",
         "https://equals.com/images/logos/pylon-26ade939f4.svg",
@@ -15151,7 +15184,7 @@
         "https://equals.com/images/logos/sprig-ae21e81938.svg",
         "https://equals.com/images/logos/cortex-57d5711caa.svg"
       ],
-      "article_title_extracted": "GTM analytics | Equals",
+      "article_title_extracted": "Trusted AI analytics | Equals",
       "category": "Tools",
       "created_at": "2026-04-22T02:23:53.148037Z",
       "description": "Find the levers to grow faster. Equals connects to your GTM data and answers the questions your other tools can't.",
@@ -15187,7 +15220,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.glaze.app/og-image@2x.png",
         "https://www.glaze.app/assets/feature-agent-m@2x-SqlCEaw_.png",
@@ -15233,7 +15266,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://static.wixstatic.com/media/e15682_d7f108ba9c7345d88d10318af34bbac0~mv2.jpg/v1/fill/w_980,h_955,al_c/e15682_d7f108ba9c7345d88d10318af34bbac0~mv2.jpg",
         "https://static.wixstatic.com/media/e15682_69c6e76abcba4ce5aa1cd69338c9d8cf~mv2.png/v1/fill/w_72,h_48,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/e15682_69c6e76abcba4ce5aa1cd69338c9d8cf~mv2.png",
@@ -15278,7 +15311,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sunra.ai/og-home.png",
         "https://sunra.ai/twitter-home.png",
@@ -15325,20 +15358,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://cms.mistral.ai/assets/060bdeb1-fbff-419c-b2ae-b32b5e441864",
-        "https://mistral.ai/_next/image?url=%2Fimg%2Fmistral-ai-logo.svg&w=256&q=75&dpl=19be83239a61103e4c78652cf3efdb94fd221c399ace118c15bc615d6cf222cb366131313764623631323634363136306365376330383638",
-        "https://mistral.ai/_next/image?url=%2Fimg%2Fmistral-ai-logo-white.svg&w=256&q=75&dpl=19be83239a61103e4c78652cf3efdb94fd221c399ace118c15bc615d6cf222cb366131313764623631323634363136306365376330383638",
-        "https://mistral.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmistral-frontier-26.15-1ez5hhac6r.webp&w=3840&q=90&dpl=19be83239a61103e4c78652cf3efdb94fd221c399ace118c15bc615d6cf222cb366131313764623631323634363136306365376330383638",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2Fa76ee02b-0791-4c49-bd10-9e950b4f4e50&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2Fcbb6a4fa-11fd-407e-bb8c-62a60945e051&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F06a82fa5-050c-46a7-98aa-3a4d2170ab75&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F26fa92fe-a99a-4597-a24e-7a11c097edf9&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F6aec4419-ebfd-4f19-8432-17fec33e0929&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F419f5c4d-5120-42a0-9b41-e372be036c58&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F29961267-acea-45de-a00d-8539e3359c1f&w=384&q=75",
-        "https://mistral.ai/_next/image?url=https%3A%2F%2Fcms.mistral.ai%2Fassets%2F5d09066e-9c71-4875-912d-d1ba4b651903&w=384&q=75"
+        "https://mistral.ai/cms-media/api/media/file/OG-Main-1.jpg",
+        "https://mistral.ai/_astro/ai-app_LCReD.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/_astro/logo-forge_Z1mQhkS.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/_astro/vibe_Z20p2OU.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/_astro/logo-vibe-code_drDoK.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/_astro/logo-compute_ZDL3ab.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/cms-media/api/media/file/2a1ffaf3-f171-460b-be1b-fc734aa776aa.svg",
+        "https://mistral.ai/cms-media/api/media/file/icon-m-flower.svg",
+        "https://mistral.ai/cms-media/api/media/file/icon-m-lightbulb.svg",
+        "https://mistral.ai/cms-media/api/media/file/icon-m-microphone.svg",
+        "https://mistral.ai/_astro/Thumbnail-Solution-Vibe_Z2rsjBU.webp?dpl=6a1d914513a154000831a839",
+        "https://mistral.ai/_astro/Cover-Mistral-Wallpaper01_Z1xDU6z.webp?dpl=6a1d914513a154000831a839"
       ],
       "article_title_extracted": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
       "category": "Development",
@@ -15482,7 +15515,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://tsrx.dev/images/tsrx-mark.svg?v=3",
         "https://tsrx.dev/images/tsrx-mark.svg?v=4"
@@ -15567,7 +15600,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pica.joshpuckett.me/images/og.png"
       ],
@@ -15605,7 +15638,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://jobsdata.ai/opengraph-image?6ddfaab86b754a95"
       ],
@@ -15737,7 +15770,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.prismic.io/yoyoyo-nano-banana/adV6dOzlhpBNhbdG_YOYOYO_0.jpg?w=1200&h=630&q=80&fit=crop",
         "https://www.yoyoyo.ai/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fyoyoyo-nano-banana%2FacvR6pGXnQHGZIkb_1.png?auto=format,compress&w=390&q=90",
@@ -15834,7 +15867,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://isitagentready.com/og-image.png",
         "https://isitagentready.com/logo.svg"
@@ -15876,7 +15909,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sudo.ai/imgs/home/og.webp",
         "https://assets.sudoai.cc/site/sudoai/logo.svg",
@@ -16007,7 +16040,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://projects.dev/assets/images/og/og.jpg",
         "https://projects.dev/assets/images/og/twitter-large.jpg",
@@ -16105,20 +16138,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pullfrog.com/twitter-card-white.png",
         "https://pullfrog.com/logos/green-wordmark.png",
         "https://pullfrog.com/homepage/iterate-full.png",
         "https://pullfrog.com/homepage/iterate.png",
         "https://pullfrog.com/logos/customers/zed.svg",
+        "https://pullfrog.com/logos/customers/unkey.svg",
         "https://pullfrog.com/logos/customers/inkeep.svg",
         "https://pullfrog.com/logos/customers/remotion-icon.svg",
         "https://pullfrog.com/logos/customers/tambo.svg",
         "https://pullfrog.com/logos/frog-green-full.png",
         "https://pullfrog.com/homepage/bring-your-own-agent.png",
-        "https://pullfrog.com/homepage/powered-by-github-actions.png",
-        "https://pullfrog.com/homepage/repo-secrets.png"
+        "https://pullfrog.com/homepage/powered-by-github-actions.png"
       ],
       "article_title_extracted": "Pullfrog",
       "category": "Development",
@@ -16154,7 +16187,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Internet Flowers",
       "category": "Design",
       "created_at": "2026-04-19T02:40:44.548523Z",
@@ -16242,7 +16275,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://imagedelivery.net/ONlDhJ7UfN8T_iwy-8DRfg/ab1e2883-cf13-4c5f-1ac9-ea59b8a77200/public?v=2",
         "https://teameigen.com/assets/items/eigen-stamp.png",
@@ -16284,7 +16317,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://olliewagner.com/og-image.png",
         "https://olliewagner.com/keynote/0001.webp",
@@ -16329,7 +16362,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Objection - The AI Tribunal of Truth",
       "category": "Tools",
       "created_at": "2026-04-18T02:28:34.383868Z",
@@ -16367,7 +16400,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/40vlitrPM0WZcdJAeQIvTdMSQP8.png",
         "https://framerusercontent.com/images/uHeBHXDjlOZenSWpW8bVJkfBciY.png?width=3296&height=1818",
@@ -16488,7 +16521,7 @@
       "x_status_id": "2044419385759330353"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.terminal-x.ai/website-template-OG.webp",
         "https://www.terminal-x.ai/api/media/file/deploy.svg",
@@ -16571,7 +16604,8 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://lukegreenaway.com/images/open-graph/default.jpg",
         "https://lukegreenaway.com/images/interface/luke-greenaway-avatar-primary-square-v1.webp",
@@ -16622,7 +16656,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://fluid.glass/img/og.png",
         "https://a.storyblok.com/f/287789457689273/2048x1536/38cf5db74c/ashmead-barn-1.jpg/m/3840x3296/filters:format(avif,webp):quality(80)",
@@ -16632,9 +16666,9 @@
         "https://a.storyblok.com/f/287789457689273/2160x3240/eba376b173/hay-street-05.jpg/m/1200x1480/filters:format(avif,webp):quality(80)",
         "https://a.storyblok.com/f/287789457689273/3200x1800/f87985ae68/banner-showroom.jpg/m/3840x2160/filters:format(avif,webp):quality(80)",
         "https://a.storyblok.com/f/287789457689273/2048x1536/38cf5db74c/ashmead-barn-1.jpg/m/580x728/filters:format(avif,webp):quality(80)",
+        "https://a.storyblok.com/f/287789457689273/2743x3840/11bbc6c231/keepers-cottage-4.jpg/m/580x728/filters:format(avif,webp):quality(80)",
         "https://a.storyblok.com/f/287789457689273/3273x3840/07b2b36c8f/fluid-glass-sea-breeze-5.jpg/m/580x728/filters:format(avif,webp):quality(80)",
         "https://a.storyblok.com/f/287789457689273/1756x2164/f5cebacfa7/rusty-house-header.jpg/m/580x728/filters:format(avif,webp):quality(80)",
-        "https://a.storyblok.com/f/287789457689273/2160x2896/4debe456ec/fluid-glass-kensington-interior-2.jpg/m/580x728/filters:format(avif,webp):quality(80)",
         "https://a.storyblok.com/f/287789457689273/2160x3240/9a76d4e4d6/hay-street-21.jpg/m/3840x0/filters:format(avif,webp):quality(80)"
       ],
       "article_title_extracted": "Fluid Glass - Structural & Architectural Glazing Specialists",
@@ -16674,7 +16708,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -17084,7 +17118,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://super.engineering/og-image.png",
         "https://super.engineering/favicon.png",
@@ -17135,7 +17169,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.clawly.chat/opengraph-image?75e6500b5c2e75d7",
         "https://www.clawly.chat/icon.png",
@@ -17230,9 +17264,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ebeb49a566132a3d3cfcfcb4b1fe5b485c7a144e00c6ad66f8c4066379b49480/android/skills"
+        "https://opengraph.githubassets.com/5fd1722838c64e936446fc5443ef1c49703f82ac18a9e17d91113282a2ceddb9/android/skills"
       ],
       "article_title_extracted": "GitHub - android/skills · GitHub",
       "category": "Development",
@@ -17325,7 +17359,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://opengraph.b-cdn.net/production/images/763a8fd8-7dad-4f91-ab27-e36a889c2d54.png?token=3c6AgBfDRclxcs5EBSW5KdHsgL0c5WObagFZHS6Xh9w&height=630&width=1200&expires=33285588022",
         "https://sparkjs.dev/static/images/logo.svg",
@@ -17424,7 +17458,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: HTTP Forbidden",
       "category": "Tools",
       "created_at": "2026-04-16T03:28:09.402785Z",
@@ -17491,7 +17525,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://wallet.tether.io/images/og.png",
         "https://wallet.tether.io/images/logo.webp",
@@ -17589,7 +17623,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/68c1131fd681d647a4af848a/68c122bf9f6eb26d8337cbfd_Opengraph.png",
         "https://cdn.prod.website-files.com/68c1131fd681d647a4af848a/68c1131fd681d647a4af84cc_Logo.avif",
@@ -17640,7 +17674,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://media.fastly.sohohousedigital.com/v1653298156/digital-house-web/soho-logo.png",
         "https://media.fastly.sohohousedigital.com/t_dc_base/sitecore-prod/images/dotcom-sites/house-pages/all-final-icons-2023/sh_homepageicons_bedrooms_final.svg",
@@ -17783,7 +17817,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://asccli.app/static/og-image.png",
         "https://asccli.app/static/apple-touch-icon.png",
@@ -17825,7 +17859,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://open-agents.dev/opengraph-image?31983319aa5e44a1",
         "https://open-agents.dev/twitter-image?1d7b122c14048eb4"
@@ -17866,9 +17900,26 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_extraction": "trafilatura",
       "article_fetch_error": "The read operation timed out",
+      "article_image_urls": [
+        "https://www.dyson.com/etc.clientlibs/dyson/clientlibs/clientlib-main/resources/images/dyson-logo.svg",
+        "https://www.dyson.com/content/dam/dyson/motifs/master/ec/hushjet-mini-cool/HushJet-Mini-Cool_Light.png",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/colourswatches/Stone-Blush.png?fmt=png-alpha",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/colourswatches/Ink-Cobalt.png?fmt=png-alpha",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/colourswatches/Carnelian-Sky.png?fmt=png-alpha",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/squaretool/975943-02.png?$responsive$&cropPathE=square,1024&wid=112",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/squaretool/975941-02.png?$responsive$&cropPathE=square,1024&wid=112",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/squaretool/975921-02.png?$responsive$&cropPathE=square,1024&wid=112",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/squaretool/975942-01.png?$responsive$&cropPathE=square,1024&wid=112",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/carousel-tiles/home/635_PDP_anchor_cards_heatscools.jpg",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/carousel-tiles/home/Web_940_PDP-Page_Explore-Dyson_Cards-02.jpg",
+        "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/carousel-tiles/home/Web_940_PDP-Page_Explore-Dyson_Cards-03.jpg"
+      ],
+      "article_text": "Unique HushJet™ air projection. Powerful. Quiet. Fast evaporative cooling.\nDyson’s first portable cooling fan.\nCurrently out of stock\nInk/Cobalt\nChoose Color (3) -\n$99.99\nUnique HushJet™ projection\nHelps reduce turbulence for focused and quiet cooling.\nBuilt to be used anywhere\nWear it with the Neck Dock; stand it at your desk with the Charging Stand; store it with the Travel Pouch. Additional accessories sold separately for added versatility.\nPowerful cooling\nHigh-speed power up to 65,000rpm.\nBoost mode\nTurbo-charges airflow up to 55 mph.\nOptimized sound\nAcoustically engineered motor utilizes an anti-vibration rubber mount to reduce noise and improve tonality.\nBattery life\nLED indicators found at the back and front of the fan, with a runtime of up to 6 hours.²\nEasy maintenance\nHushJet™ projection, combined with a honeycombed-mesh, help keep dust and debris out, for easy maintenance.\nBladeless design\nNo fast-spinning blades. Easy to clean. Safer to use than traditional handheld fans.\nDurability\nTested for comfort and durability, with a 2-year limited warranty.\nCharge time\nFully charged in 3 hrs, using fast USB-C charging and 5000 mAh battery capacity.\n-\nSound level (Max)\n72.5 dBA\n-\nSound level (Quiet Mode)\n52 dBA\n-\nPower Watt (Fan mode)\n40 W\n-\nProduct diameter (skirt)\n1.5 in\n-\nProduct diameter (shrouds)\n1.5 in\n-\nWeight\n0.46 lb\n-\nHeight\n7.9 in\nIn the box\nHushJet™ Mini Cool fan (Ink/Cobalt)\n-\nTravel Pouch (Ink/Cobalt)\nTravel Pouch (Ink/Cobalt) protects your fan while travelling or storing it away.\n-\nNeck Dock (Ink/Cobalt)\nNeck Dock (Ink/Cobalt) allows the fan to be worn, providing comfortable, hands-free cooling.\n-\nCharging Stand (Ink/Cobalt)\nCharging Stand (Ink/Cobalt) allows for enhanced stability for desk use.\n-\nUSB-C charging cable\nCharges your fan from a USB-C power source.\n-\nHold it\nThe handheld mini fan is lightweight, durable and can easily be carried around.\n-\nWear it\nEnjoy hands-free focused cooling with the detachable Neck Dock, so you can focus on what matters for you. Ideal for travel, exercise and events.\n-\nStand it\nFor secure, hassle-free desktop cooling, slot your fan into the detachable Charging Stand. Charge it using the USB-C charging cable provided.\nFrequently asked questions\n[What makes the Dyson HushJet™ Mini Cool different from other handheld fans?](https://www.dyson.com)\nThe Dyson HushJet™ Mini Cool fan stands out thanks to its unique HushJet™ nozzle, which delivers powerful, focused cooling while reducing turbulence and noise. Unlike conventional handheld fans, its bladeless design makes it safer to use. It also turbo-charges airflow up to 55 mph in boost mode,¹ offering extra cooling power to beat the heat.\n[How long does the Dyson HushJet™ Mini Cool last on a full charge?](https://www.dyson.com)\nThe Dyson HushJet™ Mini Cool fan delivers up to six hours of run time on a single charge, depending on your chosen airflow speed.² This long-lasting battery makes it ideal for commuting, travel, outdoor events, festivals or desk use throughout the day.\n[How long does it take to fully charge the Dyson HushJet™ Mini Cool?](https://www.dyson.com)\nUsing fast USB-C charging, the Dyson HushJet™ Mini Cool fan takes around three hours to fully charge from empty. A full charge gives you up to six hours of powerful cooling.²\n[Can I use the Dyson HushJet™ Mini Cool while it’s charging?](https://www.dyson.com)\nYes. You can safely use the Dyson HushJet™ Mini Cool fan while it’s charging on airflow speed 1. This is ideal for desktop cooling at home or in the office.\n[Can I take the Dyson HushJet™ Mini Cool on a plane or pack it in my luggage?](https://www.dyson.com)\nThe Dyson HushJet™ Mini Cool fan features a built-in rechargeable lithium-ion battery, which is generally permitted in carry-on luggage and not checked baggage. Please check with your airline for any specific restrictions and the most current policies before your flight.\nYou can use the Travel Pouch to safely store and travel with your fan. It's compact and light",
+      "article_title_extracted": "Dyson HushJet™ Mini Cool fan (Ink / Cobalt) Dyson HushJet™ Mini Cool fan (Ink / Cobalt)",
       "category": "Tools",
+      "cleaner_v": 2,
       "created_at": "2026-04-14T08:50:06.355580Z",
       "description": "Unique HushJet™ air projection. Powerful. Quiet. Fast evaporative cooling. Dyson’s first portable cooling fan. In Ink / Cobalt",
       "description_zh": "独特的HushJet™气流投射技术。强劲。安静。快速蒸发冷却。戴森首款便携式冷却风扇。墨蓝/钴蓝色。",
@@ -18007,7 +18058,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.effect.institute/og/home.png"
       ],
@@ -18047,7 +18098,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/fm6j9w4b/production/886c6d493b147d62190057a76e3f777759e68ec0-1800x945.jpg?rect=0,3,1800,941&w=1200&h=627&fit=crop&auto=format",
         "https://cdn.sanity.io/images/fm6j9w4b/production/8a1af248e0d769701c4522b6b8e380acb94527b2-1074x636.png?auto=format&h=2274&w=3840&fit=min",
@@ -18098,7 +18149,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/38511/1762727117-og-image-default.jpg?auto=format",
         "https://www.datocms-assets.com/38511/1762727273-promo-card-platform.jpg?auto=format&fit=max&w=320",
@@ -18150,9 +18201,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/b15a5d6219ceeb618d7b338759cf954170e645211e4211b68b9979756ce14c29/microsoft/markitdown",
+        "https://opengraph.githubassets.com/ab31971f445799a444afc7e0984acf35055c74f252297a2f2148d3c881fe2a8f/microsoft/markitdown",
         "https://camo.githubusercontent.com/124b95350d48b05db482b4a2153dc9cb06250d6e9272e121a6f3856a5159879d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667",
         "https://camo.githubusercontent.com/b358637622bf3aede990f9e2f7d2297d2cb2974ff07ba78c71de83a0dbaf1220/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e",
         "https://camo.githubusercontent.com/e773e2d12920abb5d8b2fe1d05f510b9ba7c3c54969bc3e05b6f7e8f8705e71d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565"
@@ -18194,20 +18245,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://supermemory.ai/og-image.png",
         "https://supermemory.ai/images/brain-head.png",
-        "https://supermemory.ai/images/claude-code.png",
-        "https://supermemory.ai/images/openclaw.png",
-        "https://supermemory.ai/images/cursor.png",
-        "https://supermemory.ai/images/opencode.png",
-        "https://supermemory.ai/images/codex.png",
-        "https://supermemory.ai/images/windsurf.png",
-        "https://supermemory.ai/images/logo-cluely.png",
-        "https://supermemory.ai/images/logo-nissan.svg",
-        "https://supermemory.ai/images/logo-opennote.png",
-        "https://supermemory.ai/images/logo-2.png"
+        "https://supermemory.ai/images/Dhravya%20pfp.jpg",
+        "https://supermemory.ai/images/customer-logos/cluely-wordmark.svg",
+        "https://supermemory.ai/images/customer-logos/miria-ai-wordmark.png",
+        "https://supermemory.ai/images/customer-logos/caret-so-wordmark.svg",
+        "https://supermemory.ai/images/customer-logos/jinso-com-wordmark.png",
+        "https://supermemory.ai/images/customer-logos/moonage-ai-wordmark.svg",
+        "https://supermemory.ai/images/customer-logos/endearing-ai-wordmark.svg",
+        "https://supermemory.ai/images/customer-logos/chatnow-app-wordmark.svg",
+        "https://supermemory.ai/images/customer-logos/ppl-xyz.png",
+        "https://supermemory.ai/images/customer-logos/mosaic-so.svg"
       ],
       "article_title_extracted": "Supermemory",
       "category": "Tools",
@@ -18243,7 +18294,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -18279,7 +18330,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://meeneebee.com/images/og.png",
         "https://minibe.app/images/image3.png",
@@ -18361,9 +18412,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/f15d71be5f32683f45d87c4c41f7b9c2cabe65f5b2bc62a0997acde2034a5985/jimmysu0309/shinkansen"
+        "https://opengraph.githubassets.com/aaf6c2e73b48d8ca245aa421b1a248d7b80625df18fdf88447f6f3b138bd9455/jimmysu0309/shinkansen"
       ],
       "article_title_extracted": "GitHub - jimmysu0309/shinkansen: 快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方 · GitHub",
       "category": "Development",
@@ -18395,7 +18446,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.doss.com/assets/img/og-image-DgTw3QV_.png",
         "https://www.doss.com/images/icon1_file41b9.svg",
@@ -18403,12 +18454,12 @@
         "https://www.doss.com/images/icon3_file4bae.svg",
         "https://www.doss.com/images/vervecoffee_imagee4a.svg",
         "https://www.doss.com/images/eightsleep_image310.svg",
-        "https://www.doss.com/images/Frame_2147228426_imagef8f.png",
         "https://www.doss.com/images/pavoi_imageb99.svg",
         "https://www.doss.com/images/desoi_image2ed.svg",
         "https://www.doss.com/images/Group_2_imagea17.png",
         "https://www.doss.com/images/mezcla_image3ca.svg",
-        "https://www.doss.com/images/magicmind_image08c.svg"
+        "https://www.doss.com/images/magicmind_image08c.svg",
+        "https://www.doss.com/images/7f1b3511d6db51cf5fd54916e278535085ae5864-186x66_image7f1.svg"
       ],
       "article_title_extracted": "DOSS | Adaptive ERP and Operations Cloud",
       "category": "Tools",
@@ -18447,7 +18498,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sip.standardagents.ai/og-image.png",
         "https://sip.standardagents.ai/favicon.svg",
@@ -18495,7 +18546,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sentra.app/opengraph-image.png",
         "https://sentra.app/twitter-image.png",
@@ -18653,7 +18704,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.micwise.com/images/ogtrains.png"
       ],
@@ -18694,7 +18745,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -18730,7 +18781,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://shottr.cc/assets/page-preview.jpg",
         "https://shottr.cc/assets/logo.png",
@@ -18782,7 +18833,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://dockdoor.net/Assets/Assets.xcassets/AppIcon.appiconset/AppIcon-iOS-Default-512x512@1x.png",
         "https://dockdoor.net/resources/svg/heroShield.svg",
@@ -18793,11 +18844,11 @@
         "https://dockdoor.net/resources/svg/privacyFeature1.svg",
         "https://dockdoor.net/resources/svg/privacyFeature2.svg",
         "https://dockdoor.net/resources/svg/privacyFeature3.svg",
+        "https://dockdoor.net/resources/folderPop.png",
         "https://dockdoor.net/resources/cmd-tab-enhancements.png",
-        "https://dockdoor.net/resources/variations/dockpreview1.png",
-        "https://dockdoor.net/resources/variations/dockpreview2.png"
+        "https://dockdoor.net/resources/variations/dockpreview1.png"
       ],
-      "article_title_extracted": "DockDoor - Free Alt+Tab and Dock Preview Window Switcher for Mac | Download Now",
+      "article_title_extracted": "DockDoor - Free Alt+Tab and Native Dock Previews for Mac | Download Now",
       "category": "Tools",
       "created_at": "2026-04-11T08:33:10.124528Z",
       "description": "Transform your Mac workflow with DockDoor's free Alt+Tab switcher & dock previews. Privacy-first, open-source window management. Download instantly!",
@@ -18834,9 +18885,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/2bec22ed6e73a010df41440357ed37e428446b4279163bb56e4f32de9e1881ac/xykong/flux-markdown",
+        "https://opengraph.githubassets.com/bd936b499b9e255643c73a20c48ca8129289f87ad00a4ffa04900c13d9850540/xykong/flux-markdown",
         "https://camo.githubusercontent.com/b0380a417fadbcb20bd84b8cf42739a9491f8533f7a3e363c0850af65f874563/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d736f6369616c",
         "https://camo.githubusercontent.com/35b119566bec2c2a2f203adead38deba3f4c2d50bf2a0ac3fecd56156ee85550/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f78796b6f6e672f666c75782d6d61726b646f776e3f7374796c653d666c61742d737175617265",
         "https://camo.githubusercontent.com/ea1c5b42988d7835204e6bda37a2b6918737de58d663669e38578024903a9680/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f78796b6f6e672f666c75782d6d61726b646f776e2f746f74616c3f7374796c653d666c61742d737175617265",
@@ -18880,7 +18931,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -18916,7 +18967,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -19072,7 +19123,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.measured.site/ogimage.png",
         "https://www.measured.site/gifs/analytics.gif",
@@ -19216,7 +19267,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://imagedelivery.net/4Iq_5OuN3Oq3QRRKSY6D4w/open-graph_home/main",
         "https://imagedelivery.net/4Iq_5OuN3Oq3QRRKSY6D4w/episodes_thumbnails_vanguard/xs",
@@ -19268,7 +19319,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://charcuterie.elastiq.ch/social-share.png"
       ],
@@ -19308,7 +19359,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cogito.md/opengraph-image?125a47f4a6669739",
         "https://cogito.md/twitter-image?9d08b2de267e9822",
@@ -19359,7 +19410,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/xRTlmfZcDIGIY4MRiYpJojlaiQ.png",
         "https://framerusercontent.com/images/KBskwOB9Uq4KJdEwyd3xutrus.svg?width=230&height=230",
@@ -19410,7 +19461,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://obvious-marketing-assets.s3.amazonaws.com/marketing/og/og-home.jpg",
         "https://obvious-marketing-assets.s3.amazonaws.com/marketing/www/images/Hero.webp",
@@ -19462,7 +19513,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://images.prismic.io/mojo-website/b698dadf-3ff1-47cf-adaf-17ed57495a47_share.png?auto=compress,format?fit=crop&w=1200&w=630",
         "https://mojo-app.com/logo_mojo.svg",
@@ -19504,7 +19555,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/XA7hmGs5xxBttAlagdN821t5FM.jpeg",
         "https://framerusercontent.com/assets/FSrJVQANxVehKQVMLOk5rpxprQ.svg"
@@ -19655,7 +19706,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.expect.dev/og.png"
       ],
@@ -19692,7 +19743,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/0u2ZTSbgw8GegoHZUQaROxdDvM.png",
         "https://framerusercontent.com/images/p7jgeOnJSehMEc5nO6sOpSAUg.png?width=640&height=640",
@@ -19743,7 +19794,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/c7u6qwkj/production/e94ff8e49e2ea82b59206cd77bbed960c3a345a1-1200x630.png?rect=0,2,1200,627&w=1200&h=627&fm=jpg&fit=crop&auto=format",
         "https://cdn.sanity.io/images/c7u6qwkj/production/9cc48bfc03056148c1bf89907c62bcc15f61219e-1380x262.svg?auto=format&h=729&w=3840&fit=min&q=90",
@@ -20065,13 +20116,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://fleetai.com/images/OG-Image.png",
-        "https://fleetai.com/logos/fleet/fleet0b.svg?dpl=dpl_2MQPxvLTYay1UeDbXVuCpMty66n1",
-        "https://fleetai.com/logos/fleet/fleettb.svg?dpl=dpl_2MQPxvLTYay1UeDbXVuCpMty66n1",
-        "https://fleetai.com/logos/fleet/fleet0w.svg?dpl=dpl_2MQPxvLTYay1UeDbXVuCpMty66n1",
-        "https://fleetai.com/logos/fleet/fleettw.svg?dpl=dpl_2MQPxvLTYay1UeDbXVuCpMty66n1"
+        "https://fleetai.com/logos/fleet/fleet0b.svg",
+        "https://fleetai.com/logos/fleet/fleettb.svg",
+        "https://fleetai.com/logos/fleet/fleet0w.svg",
+        "https://fleetai.com/logos/fleet/fleettw.svg"
       ],
       "article_title_extracted": "Fleet",
       "category": "Tools",
@@ -20207,7 +20258,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.infoandupdates.com/og1.jpg"
       ],
@@ -20431,7 +20482,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pbs.twimg.com/profile_images/2030389216979349504/VLJlOJsF_normal.jpg",
         "https://pbs.twimg.com/profile_images/2015635972948369408/hNCOwizq_normal.jpg",
@@ -20479,9 +20530,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/91ce66d9888e93afcae47ada5987a8ec23d9cacb8f9e177929644c8bc47f6ff1/wantpinow/convex-sandbox"
+        "https://opengraph.githubassets.com/9fc7a63fed1de83f217dc5b638bc5aa6918f9d4e4ff133692da9c038a3e1bcf4/wantpinow/convex-sandbox"
       ],
       "article_title_extracted": "GitHub - wantpinow/convex-sandbox: Persistent bash sandboxes using just-bash and Convex file storage. No VMs. · GitHub",
       "category": "Development",
@@ -20564,7 +20615,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://maximatherapy.com/share.png",
         "https://maximatherapy.com/assets/img/nav/programs/0-to-3.jpg",
@@ -20613,7 +20664,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://lookaway.com/images/social-card.png?v=2",
         "https://lookaway.com/images/icon.mono.svg",
@@ -20866,7 +20917,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -20902,7 +20953,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -20937,7 +20988,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://emdashcms.com/_emdash/api/media/file/01KREDEFB0J69BDDYKA339VMNJ.png",
         "https://emdashcms.com/brand/logo-dark-text.svg",
@@ -21015,7 +21066,7 @@
       "x_status_id": "2040110189479665929"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://glassapp.dev/opengraph-image",
         "https://glassapp.dev/_next/image?url=%2Fimages%2Flogo.png&w=48&q=75&dpl=dpl_ECXJTTsLS62wiB3FjBVGpAcsp3D8",
@@ -21061,7 +21112,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://cumuluscoffee.com/cdn/shop/files/Mini_Cumulus_Banner_01_1200x628.jpg?v=1721141668",
@@ -21074,8 +21125,8 @@
         "https://cumuluscoffee.com/cdn/shop/files/Ritual_Decaf_New_Crop_5_300x.png?v=1768920270",
         "https://cumuluscoffee.com/cdn/shop/files/delve-crop_300x.png?v=1720542800",
         "https://cumuluscoffee.com/cdn/shop/files/valor-crop_300x.png?v=1720542800",
-        "https://cumuluscoffee.com/cdn/shop/files/Image_Frame_af3d1111-1f59-4029-938d-e95ed4d31eb6_700x.jpg?v=1726068539",
-        "https://cumuluscoffee.com/cdn/shop/files/Image_Frame_ad030a29-868c-44c6-b9b3-ba7650583efd_700x.jpg?v=1726068269"
+        "https://cumuluscoffee.com/cdn/shop/files/image6344284_700x.jpg?v=1762984605",
+        "https://cumuluscoffee.com/cdn/shop/files/Image_Frame_af3d1111-1f59-4029-938d-e95ed4d31eb6_700x.jpg?v=1726068539"
       ],
       "article_title_extracted": "Cumulus Coffee | Cold Brew, Nitro Cold Brew & Cold Espresso Machine",
       "category": "Tools",
@@ -21169,7 +21220,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://btc.day/assets/img/faucet-image-preview.png",
         "https://btc.day/assets/svg/ticker/completed-ticker.svg",
@@ -21389,7 +21440,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "article_image_urls": [
         "https://www.anima.ai/wp-content/uploads/2024/11/anima-og-image.jpg",
@@ -21402,8 +21453,8 @@
         "https://www.anima.ai/wp-content/uploads/2024/10/Mousse-480x263.jpg",
         "https://www.anima.ai/wp-content/uploads/2024/10/Asteria_Negative_sansmarges-480x108.png",
         "https://www.anima.ai/wp-content/uploads/2025/08/Stealth5-480x262.jpg",
-        "https://www.anima.ai/wp-content/uploads/2026/03/Hair-480x481.jpg",
-        "https://www.anima.ai/wp-content/uploads/2025/10/20250207-Marie-Perrin-1194-480x320.jpg"
+        "https://www.anima.ai/wp-content/uploads/2025/10/20250207-Marie-Perrin-1194-480x320.jpg",
+        "https://www.anima.ai/wp-content/uploads/2025/10/Capture-decran-2025-10-07-a-11.20.28-480x321.jpg"
       ],
       "article_title_extracted": "Anima - Growing nature-inspired ventures",
       "category": "Other",
@@ -21441,7 +21492,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.trynormal.ai/assets/og.jpg",
         "https://www.trynormal.ai/assets/hero/runner-v3.jpg",
@@ -21537,7 +21588,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pika.me/opengraph2.png",
         "https://www.pika.me/_next/image?url=%2Fimages%2Fmodels%2Fopenclaw.png&w=48&q=75",
@@ -21588,9 +21639,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/96638a37dc7496d3e31f433ba8a64dbee4da54776dd6337405a0b23dd44f9931/bddicken/tuitter",
+        "https://opengraph.githubassets.com/d1a4217efddde51934164e16cad7ba04504f44f07d8b3c4f973a30b904376d65/bddicken/tuitter",
         "https://github.com/bddicken/tuitter/raw/main/tuitter.png"
       ],
       "article_title_extracted": "GitHub - bddicken/tuitter: tuitter · GitHub",
@@ -21630,9 +21681,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/942fcc1ffbc650201f70e1a426ada0af52be57ea2ea482c2cdb6e4fa240e2299/LarsenCundric/port-whisperer"
+        "https://opengraph.githubassets.com/31afcb07df54dd836485f4de690ef89c55d9b09fdee4f76f9b39acc14c8ac662/LarsenCundric/port-whisperer"
       ],
       "article_title_extracted": "GitHub - LarsenCundric/port-whisperer: A beautiful CLI tool to see what's running on your ports · GitHub",
       "category": "Development",
@@ -21671,7 +21722,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.butterfly.so/og-image.png"
       ],
@@ -21705,10 +21756,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://hermes-agent.nousresearch.com/img/hermes-og-image.png",
-        "https://hermes-agent.nousresearch.com/_next/static/media/filler-bg0.4dbab353.webp"
+        "https://hermes-agent.nousresearch.com/_next/static/media/filler-bg0.0hapz.4k8_oc6.webp?dpl=dpl_2rUjjHv3pZE3P9Hn1wr5VPS7BTDU"
       ],
       "article_title_extracted": "Hermes Agent — The Agent That Grows With You | Nous Research",
       "category": "Development",
@@ -21849,7 +21900,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Surf",
       "category": "Social",
       "created_at": "2026-04-03T03:20:09.898390Z",
@@ -21884,7 +21935,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2026-04-03T03:19:41.235917Z",
@@ -21988,7 +22039,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://cdn.shopify.com/shopify-design-cms-media/media/OG.gif",
@@ -22037,7 +22088,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/trcHEqAOxzCxDTahfslLiSDgU.png",
         "https://framerusercontent.com/images/k2hTUMRvuxIEcleQsvFCANDKZk.jpg?lossless=1&width=3437&height=1905",
@@ -22080,7 +22131,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://designbydisruption.com/wp-content/uploads/2023/06/dxd.jpg",
         "https://designbydisruption.com/wp-content/uploads/2024/11/dxd-logo.svg",
@@ -22131,7 +22182,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://lilac-solutions.transforms.svdcdn.com/production/SEO/Lilac-SEO.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1739477438&s=08d385b49b797fe05aa7c8714df99fe2"
       ],
@@ -22171,7 +22222,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/3VWbqj3oSlaixwW5FS0stUsdR7g.png",
         "https://framerusercontent.com/images/rXZq00I8qUTEM9GWwDnoStXjKKw.png?width=1182&height=936",
@@ -22222,7 +22273,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "http://www.instapaper.com/static/img/insta_logo_large.png",
         "https://instaparser.com/static/img/logo.png?v=19cd8b4124b7d85e39eba95f5acbc23e02d27604333dddc4b33f1729c30458d2f399249740f8d2a8930a4c3632a4e8bb51ccaa43647a14d39cad9e5a00e266d0"
@@ -22293,7 +22344,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5da608af-6d7c-483a-bae7-8ae25a159298/id-preview-87bbdcd0--a990ec46-eb01-4726-b3e4-e4897b6b57ef.lovable.app-1774389386595.png"
       ],
@@ -22380,7 +22431,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/697a3312d33c2cc715ec3899/69cae04a19115963ea13d12d_prism-og-img%20(2).png",
         "https://cdn.prod.website-files.com/697a3312d33c2cc715ec3899/69961847735f3ec32aafc18e_prism-logo.svg",
@@ -22432,7 +22483,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/hzr6B16ZaxRs78SqFtTcvyAaQlQ.png",
         "https://framerusercontent.com/images/kZVIqwWUZs9plIC6tO2HansOo.png",
@@ -22484,7 +22535,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -22520,20 +22571,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://capy.ai/_marketing/opengraph-image.png",
         "https://capy.ai/_marketing/images/illustrations/circle_uwu_capy.svg",
         "https://capy.ai/_marketing/images/capy/capy-sleeping.webp",
         "https://capy.ai/_marketing/images/homepage/logos/mintlify.svg",
         "https://capy.ai/_marketing/images/homepage/logos/trigger-dev.svg",
-        "https://capy.ai/_marketing/images/homepage/logos/perplexity.svg",
         "https://capy.ai/_marketing/images/homepage/logos/exa.svg",
         "https://capy.ai/_marketing/images/homepage/logos/vercel.svg",
         "https://capy.ai/_marketing/images/homepage/logos/discord.svg",
         "https://capy.ai/_marketing/images/homepage/logos/openai.svg",
         "https://capy.ai/_marketing/images/homepage/logos/anthropic.svg",
-        "https://capy.ai/_marketing/images/homepage/logos/bytedance.svg"
+        "https://capy.ai/_marketing/images/homepage/logos/bytedance.svg",
+        "https://capy.ai/_marketing/images/homepage/hero/manga-bg.webp"
       ],
       "article_title_extracted": "Capy - The IDE for the parallel age",
       "category": "Development",
@@ -22606,7 +22657,7 @@
       "x_status_id": "2039015034286694618"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://whatcani.run/images/og/home.png"
       ],
@@ -22647,7 +22698,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Are.na Multiplexer",
       "category": "Tools",
       "created_at": "2026-04-01T01:28:50.294057Z",
@@ -22685,7 +22736,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "<urlopen error [Errno -5] No address associated with hostname>",
       "category": "Tools",
       "created_at": "2026-04-01T01:29:05.623625Z",
@@ -22767,7 +22818,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://pagescms.org/assets/social-card.png",
         "https://pagescms.org/media/screenshot.png"
@@ -22806,20 +22857,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/RAfeeAHGyDbxYk08YWqOVkqQmQ4.jpg",
         "https://framerusercontent.com/images/baWpdvpJK73kRVQ1Uo77HgPnzs.svg?width=222&height=35",
-        "https://framerusercontent.com/images/v06wVF3jPbIBEv0iGckZnztWGrA.png?width=2000&height=3000",
-        "https://framerusercontent.com/images/RyEY26FJYPiy9OyuaEmOfwuHaeo.png?width=2000&height=3000",
-        "https://framerusercontent.com/images/OXXnRWwOHTLxnj6fGttTq13VSI.png?width=3000&height=1697",
         "https://framerusercontent.com/images/m4q80MAgmSufjYRfnXAO60H2Q.png?width=500&height=285",
         "https://framerusercontent.com/images/7Q70stTU6xq08gWnrkRhMIysarU.png?width=527&height=128",
         "https://framerusercontent.com/images/uGxmEu4G7D6rSxpqJ6pbVxsX9hg.png?width=3840&height=2160",
         "https://framerusercontent.com/images/yV9oeQo5phgdhhQ54bfcVAB5W8.png?width=269&height=128",
         "https://framerusercontent.com/images/pJ1hRqMQc5hfShzxUWR2rMWS4kY.png?width=1500&height=591",
         "https://framerusercontent.com/images/OJrnErdqKq1Ohv7wRvoHfUNIZM.png?width=693&height=171",
-        "https://framerusercontent.com/images/35dFDwUZVqFIRDxqJt6iYocFTQ.png?width=2560&height=770"
+        "https://framerusercontent.com/images/35dFDwUZVqFIRDxqJt6iYocFTQ.png?width=2560&height=770",
+        "https://framerusercontent.com/images/pgC1mlDdsd1W5gRB4y6ZqHbv3I.webp?width=1184&height=257",
+        "https://framerusercontent.com/images/lRF0aFLxWs7t2OU97o7cStHih4.png?width=855&height=1038",
+        "https://framerusercontent.com/images/TKZfOYiWVXRXkTgdwGW1P8zDn4.png?width=855&height=1038"
       ],
       "article_title_extracted": "Ankar AI",
       "category": "Tools",
@@ -22887,7 +22938,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://vibeisland.app/images/og.jpg",
         "https://vibeisland.app/images/vibe-island-icon.png",
@@ -23020,7 +23071,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://altis.to/og-image.png",
         "https://altis.to/logo.svg"
@@ -23062,7 +23113,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 404: Not Found",
       "category": "Tools",
       "created_at": "2026-03-31T04:01:49.676353Z",
@@ -23189,7 +23240,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "ata-validator - Ultra-fast JSON Schema Validator",
       "category": "Development",
       "created_at": "2026-03-30T07:12:34.446519Z",
@@ -23312,7 +23363,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "Core",
       "category": "Tools",
       "created_at": "2026-03-30T03:12:38.386976Z",
@@ -23391,20 +23442,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://scotchwp.wpenginepowered.com/wp-content/uploads/2025/04/OpenGraph-1.jpg",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FMAST-Order.png&w=1920&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fcheckout-2-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fcheckout-2.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fordering-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fordering.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-sinkers-white-sm.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6",
-        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FLogo-Applejacks.svg&w=256&q=75&dpl=dpl_5d5rKDTqQRFxkLnzgc1dQDSjCfX6"
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FMAST-Order.png&w=1920&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fcheckout-2-active.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fcheckout-2.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fordering-active.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fordering.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving-active.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Freceiving.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics-active.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fanalytics.png&w=480&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-sinkers-white-sm.svg&w=256&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY",
+        "https://scotchpos.com/_next/image/?url=https%3A%2F%2Fscotchcms.wpenginepowered.com%2Fwp-content%2Fuploads%2F2026%2F03%2Flogo-cork-dorks-white-sm-1.svg&w=256&q=75&dpl=dpl_A22MkN2cboRySue8b4HogcBkzkcY"
       ],
       "article_title_extracted": "Scotch | POS, Back Office & eComm for Liquor Stores",
       "category": "Tools",
@@ -23443,20 +23494,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://traces.com/opengraph-image-12jlf3?b891f529a4aee555",
-        "https://traces.com/_next/image?url=%2Fhome%2Fuser-profile-light.png&w=3840&q=75&dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/_next/image?url=%2Fhome%2Fuser-profile-dark.png&w=3840&q=75&dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/influee.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/influee-dark.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/huggingface.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/huggingface-dark.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/mintlify.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/mintlify-dark.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/documenso.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/logos/logo-wall/documenso-dark.svg?dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU",
-        "https://traces.com/_next/image?url=%2Flogos%2Flogo-wall%2Fworklayer-light.png&w=3840&q=75&dpl=dpl_5kmRKVeTyq9euKYSM3yRSZp2oVqU"
+        "https://traces.com/_next/image?url=%2Fhome%2Fuser-profile-light.png&w=3840&q=75&dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/_next/image?url=%2Fhome%2Fuser-profile-dark.png&w=3840&q=75&dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/influee.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/influee-dark.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/huggingface.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/huggingface-dark.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/mintlify.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/mintlify-dark.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/documenso.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/logos/logo-wall/documenso-dark.svg?dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq",
+        "https://traces.com/_next/image?url=%2Flogos%2Flogo-wall%2Fworklayer-light.png&w=3840&q=75&dpl=dpl_8fjYTQQ5Xen6LTai81NbZ13WcRTq"
       ],
       "article_title_extracted": "Traces",
       "category": "Development",
@@ -23489,9 +23540,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/762b960b2c4ad43b2d4f507965a24f8e885b1173634fc099f28535d077c247e5/chenglou/pretext"
+        "https://opengraph.githubassets.com/90ca38a0a76b46730d39376b48ec7da448f34501d4084e155dbee982139c08d7/chenglou/pretext"
       ],
       "article_title_extracted": "GitHub - chenglou/pretext: Fast, accurate & comprehensive text measurement & layout · GitHub",
       "category": "Development",
@@ -23576,7 +23627,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://historyofsoftware.org/og.png",
         "https://historyofsoftware.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiphone.4977f9bc.png&w=1080&q=75&dpl=dpl_7ZPCcRQvwAi3cfoZHNb5T3JCuW2e",
@@ -23628,7 +23679,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/kLqeEKhXYSQnyTnKeywbeOtuWFw.gif",
         "https://framerusercontent.com/images/XETYLSjTeNN8ude02acX9y3skmc.svg?width=419&height=212",
@@ -23679,7 +23730,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://projects.dev/assets/images/og/og.jpg",
         "https://projects.dev/assets/images/og/twitter-large.jpg",
@@ -23721,22 +23772,23 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://encore.dev/assets/branding/social_card.png",
-        "https://encore.dev/assets/img/dbbg.png",
+        "https://encore.dev/assets/img/hero_1.png",
+        "https://encore.dev/assets/img/g2-user-love.svg",
+        "https://encore.dev/assets/img/g2-high-performer.svg",
+        "https://encore.dev/assets/img/g2-high-performer-fall-2025.svg",
+        "https://encore.dev/assets/img/g2-winter-2026.svg",
         "https://encore.dev/assets/img/groupon-logo.svg",
         "https://encore.dev/assets/img/bookshop-logo.svg",
         "https://encore.dev/assets/img/echo-logo.svg",
         "https://encore.dev/assets/img/quiqup-logo.png",
         "https://encore.dev/assets/img/carla-logo.svg",
-        "https://encore.dev/assets/img/pavebank-logo.svg",
-        "https://encore.dev/assets/img/gradient-logo.svg",
-        "https://encore.dev/assets/img/vetai-logo.svg",
-        "https://encore.dev/assets/img/pallet-logo.svg",
-        "https://encore.dev/assets/img/harbinger-logo.svg"
+        "https://encore.dev/assets/img/pavebank-logo.svg"
       ],
-      "article_title_extracted": "Encore — TypeScript Backend Framework with Automated Infrastructure",
+      "article_title_extracted": "Development Platform for your cloud on AWS & GCP — Encore Cloud",
       "category": "Development",
       "created_at": "2026-03-29T01:19:42.776129Z",
       "description": "Encore is an open-source framework for building robust distributed systems, using a declarative infrastructure-as-code approach ensuring performance, security, and quality.",
@@ -23772,7 +23824,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.dstype.com/assets/Uploads/Verbo-Article-01.svg",
         "https://www.dstype.com/assets/Uploads/Verbo-Article-02.svg",
@@ -23818,7 +23870,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://monitor-the-situation.com/og-image.png"
       ],
@@ -23893,7 +23945,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/iI78XBazGZAwOcyF4PF0Yinn18.png",
         "https://framerusercontent.com/images/gBzUUIIZd9H9hJVGQD3lc88A88.svg?width=1280&height=72",
@@ -23906,7 +23958,7 @@
         "https://framerusercontent.com/images/Cq46F9pjNxwfFbz8x23wRGSPAU.png?width=1200&height=1512",
         "https://framerusercontent.com/images/6VCV7V8kJrrr2EibSEuGlOkGs.png?width=1348&height=1514",
         "https://framerusercontent.com/images/Z79jraljX2bMnNedJkR2nlqgNYU.png?width=768&height=640",
-        "https://framerusercontent.com/images/xqSsX0CC45mgPMZl0wpS1baL1Io.png?width=3600&height=1800"
+        "https://framerusercontent.com/images/77xOndwSYi2QRMgwkkstALd0Jhw.png?width=3600&height=1520"
       ],
       "article_title_extracted": "Intelligent management platform for R&D - Orchestra",
       "category": "Tools",
@@ -23945,12 +23997,11 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://www.biscuit.so/_uc/Bw/BwsfTvMEIeXIj26O-E_qtSKolTfoZswPScE9-rfAbO0",
-        "https://www.biscuit.so/_uc/8y/8ysFfAtycKEj3Fon2CiVP3dsMK0sYXWpesRJQSQldLA"
+        "https://www.biscuit.so/_uc/Ac/Ac-hSkeqxaHs6ofeypK130B5Gj3QSLwe_r-jTnBb8rk.png"
       ],
-      "article_title_extracted": "Biscuit | The all-in-one platform for building your business Biscuit | The all-in-one platform for building your business",
+      "article_title_extracted": "Biscuit Biscuit",
       "category": "Tools",
       "created_at": "2026-03-27T03:00:01.419919Z",
       "description": "Describe your idea. We handle the rest: product, payments, emails, hosting, operations. Everything you need to go from \"I have an idea\" to \"someone just paid me.\"",
@@ -24112,7 +24163,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://assets.nexu.io/home-page/media/frame-42.png",
         "https://nexu.io/install-screenshots/en/06.png",
@@ -24163,7 +24214,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sutro.email/og-image.png",
         "https://sutro.email/assets/sutro-app-icon-7ea4af85.png",
@@ -24340,8 +24391,8 @@
       "x_status_id": "2036882102420201832"
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "http://svalboard.com/cdn/shop/files/ABS_Dual_Ball_NW_View_white_preview-_1200x628_564e20ab-6fcc-4ebd-a53f-b4bcc30a40ca.png?v=1750619614",
@@ -24394,7 +24445,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.zsa.io/assets/social/voyager/home-fb.png",
         "https://www.zsa.io/assets/social/voyager/home-twt.png",
@@ -24445,7 +24496,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://catppuccin.com/embed.png"
       ],
@@ -24482,7 +24533,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://accessgrid.com/assets/og-images/preview-8438abe9dff20e0102a40e5f134a88b96c732b15f12c52981c479f9a6485a6fb.png",
         "https://accessgrid.com/assets/nav/nav-logo-mobile-4bd8c9d3dd16e4f4f4d781a75d26277aa395b3e5d7e548de8a9d6a20d92eda64.svg",
@@ -24608,13 +24659,14 @@
       "x_status_id": "2036882312416084129"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
       "article_image_urls": [
-        "https://basecamp.com/assets/images/opengraph/agents.png?v=1.0.6",
+        "https://basecamp.com/assets/images/opengraph/agents.png?v=1.1.4",
         "https://basecamp.com/videos/agents/ai-agent-intro.jpg"
       ],
+      "article_text": "We’d like to use cookies to help understand if our ads are working or not. No, thanks Yes, that’s fine AI agents welcome █ Get full access to Basecamp through the command line using our CLI, or with your favorite AI agent. Claude, Codex, OpenCode, Cursor — all are welcome. Developers are invited to integrate their tools with Basecamp using our API and SDK. basecamp/basecamp-cli basecamp/basecamp-sdk basecamp/bc3-api Your agents can do anything in Basecamp you can do. Write a document, add and complete to-dos, and even answer check-ins about what they worked on today. The tools below make it easy for agents to get up to speed quickly and work efficiently in Basecamp. If you’re ahead of the curve, well-versed with agents, and comfortable with the command-line, the future is already here. Jump in. For everyone else, consider this a technology preview of what will be common in the near future. This is just the beginning. Running a coding agent Get full access to Basecamp through the command line, or with your favorite AI agent. Claude, Codex, OpenCode, Cursor — all are welcome. Full access to Basecamp from your terminal — basecamp is the official command-line interface ( CLI ) for Basecamp. Manage projects, todos, messages, and more from your terminal or through AI agents. basecamp works with any AI agent that can run shell commands. Agent skill for Basecamp project management — todos, cards, messages, schedule, campfire, and more. See install.md for full setup instructions including CLI authentication. Quick Start curl -fsSL https://basecamp.com/install-cli | bash basecamp/basecamp-cli Creating an agent harness Now you can bring Basecamp right into your tooling, apps, and integrations . Build with it. Automate it. Make it your own. Add Basecamp to your tooling, apps, and integrations — official Basecamp API clients, runtimes, and software development kits for Go , Ruby , TypeScript , Swift , and Kotlin . basecamp/basecamp-sdk And there’s more… Basecamp 5 is here Features and benefits The people’s path to Basecamp Bring your AI agents to Basecamp Reliable to the core Apps for every platform Integrations Books we’ve written Where we came from Come small, come all We stand with the underdogs Kill overkill How we communicate How we make decisions Group chat problems Seven shipping principles Why we choose profit What changed for the better? Night & day Leaving the Cloud See where projects really stand Basecamp accessibility Basecamp community Friendly folks, standing by Can we stay in touch? Employee handbook Basecamp ™ is designed, built, and backed by 37signals ™ , the people behind HEY ™ and Fizzy ™ Status Support Policies Privacy Security Reliability Sign in © 37signals LLC Try Basecamp free",
       "article_title_extracted": "Basecamp — Basecamp CLI and Agent Skill: Agent first, agent native",
       "category": "Development",
+      "cleaner_v": 2,
       "created_at": "2026-03-26T02:44:29.312556Z",
       "description": "We’re laying the foundation for a future where you bring your own AI agents to Basecamp.",
       "description_zh": "我们正在为这样一个未来奠定基础：你可以将自己的AI智能体带到Basecamp。",
@@ -24650,7 +24702,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "minutes — open-source conversation memory",
       "category": "Tools",
       "created_at": "2026-03-25T08:08:34.931220Z",
@@ -24687,7 +24739,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://dqy38fnwh4fqs.cloudfront.net/autosend/website/landing/autosend-og.webp",
         "https://dqy38fnwh4fqs.cloudfront.net/autosend/website/company-logos/peerlist-light.webp",
@@ -24738,7 +24790,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://zero.rocicorp.dev/api/og?title=General-Purpose%20Sync%20for%20the%20Web&logo=zero",
         "https://zero.rocicorp.dev/images/logo.svg",
@@ -24783,7 +24835,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/w2mhvsaj/production/6dd31643694b8c3c04116527a6961262a2ab04a2-1200x630.jpg?fm=webp&w=1200&q=75",
         "https://cdn.sanity.io/images/w2mhvsaj/production/24cf16d781277c0755c8acb4c2a10d11d24d9a1a-606x1080.jpg?fm=webp&q=75",
@@ -25008,7 +25060,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://static.moda.app/opengraph-image.png",
         "https://static.moda.app/_next/static/media/moda-lockup.0c00_cx4iyxlv.svg",
@@ -25059,7 +25111,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://babori.com/og.png"
       ],
@@ -25096,7 +25148,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://agentcommunity.org/opengraph-image.png?opengraph-image.0yww5bn27g741.png",
         "https://agentcommunity.org/twitter-image.png?twitter-image.0yww5bn27g741.png",
@@ -25237,7 +25289,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://openwallet.sh/social-share.png",
         "https://openwallet.sh/header-logo.svg",
@@ -25345,7 +25397,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -25381,7 +25433,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://assets.renoise.ai/static/assets/og-image/og-image.png",
         "https://www.facebook.com/tr?id=1702628954033870&ev=PageView&noscript=1"
@@ -25420,7 +25472,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://static.figma.com/uploads/3d791db872a0158f92798fa0134d8eeaf6af5535"
       ],
@@ -25514,7 +25566,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/694043d273dceabab479f631/6969830f85847c75da0f05e0_fc79382912f63892c019471871f2aa19_Social%20Banner.png",
         "https://cdn.prod.website-files.com/694043d273dceabab479f631/69417ad6a3dc4c17a9b50370_logo.svg",
@@ -25565,7 +25617,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6842cbd0245d993ef9bf60ac/694268b773e434a82f01bc4b_iyo-ai.png",
         "https://cdn.prod.website-files.com/6842cbd0245d993ef9bf60ac/6937ec1241d726149575c51b_6842cbfc49a8de496b5477a6_Button%20Circle%20(1).avif",
@@ -25651,7 +25703,7 @@
       "x_status_id": "2036152957604077827"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F85a153c63313e7f2ff34aa2f68a7cf0e5b01583e-4800x2520.png&width=1200&quality=75",
         "https://cdn.sanity.io/images/ca4jck6w/production/242e3f246303a9acaa7e4b73a59341618096e025-81x37.svg",
@@ -26062,7 +26114,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://dimension.dev/seo/opengraph-2.png"
       ],
@@ -26103,7 +26155,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://playbit.app/res/social.png",
         "https://playbit.app/res/icon_128x128@2x.png"
@@ -26176,7 +26228,7 @@
       "x_status_id": "2036195789601374705"
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://api.motion.dev/cssstudio/og/default.png",
         "https://images.motion.dev/motionscore/site-bg.png",
@@ -26218,7 +26270,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://posts.im/assets/og-default-d48cb27e.png"
       ],
@@ -26256,7 +26308,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://kapso.ai/og-image.png"
       ],
@@ -26297,9 +26349,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1101d1adc58e70d10781a94d5af0902b516a5e9c065671efd88686cbd215264f/collaborator-ai/collab-public",
+        "https://opengraph.githubassets.com/8cb547605289ebcb1d7ba8802b6aaa95728e0ff2e913b189a2060d5d39a0c114/collaborator-ai/collab-public",
         "https://github.com/collaborator-ai/collab-public/raw/main/screenshot.png"
       ],
       "article_title_extracted": "GitHub - collaborator-ai/collab-public: Collaborator is a place to create with agents. · GitHub",
@@ -26339,7 +26391,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/vn0V92oZLFWJWDd5ypiVsqJilg.png",
         "https://framerusercontent.com/images/u4ZLwgNzylUuF7dvJjzE2MvII.svg?width=500&height=500",
@@ -26390,7 +26442,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/sMxhD6ejLkbD6iMzqsI2ezue6g.png",
         "https://framerusercontent.com/images/5nm2ZYkRKTVZks3go16kmEOFbnU.png?width=3240&height=4050",
@@ -26437,7 +26489,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -26472,7 +26524,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://me.sh/_next/static/media/home.0rr06q93t3~my.jpg",
         "https://me.sh/cdn-cgi/image/width=2048,quality=70/https://me.sh/_next/static/media/notionThumb.12qdc5~3kj~_7.jpg",
@@ -26524,9 +26576,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/cf19c1ad58f1763f48a8d0e753d993144bea8709c5d40ab42389c361b1eedb68/mvanhorn/last30days-skill",
+        "https://opengraph.githubassets.com/7e74e745366de5f983a1f3a27778c67e28389b35120607e3cb8e8066e8649a93/mvanhorn/last30days-skill",
         "https://camo.githubusercontent.com/724b3cc2f446613b60378e97ea3a5dad21c155c910f920a1cb8dabc0a22149e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253233312d5265706f7369746f72792532304f662532305468652532304461792d3666343263313f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c3d4749544855422532305452454e44494e47",
         "https://camo.githubusercontent.com/ce216097f72408c567d06a636dffbe758a5d6b34a1f49fa00b0b822f716278cf/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3231393937",
         "https://camo.githubusercontent.com/793b32da108d147847b23b1b8a9aaefca7cb8eda93005b02cc9a111391abb00a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6d76616e686f726e2f6c6173743330646179732d736b696c6c26747970653d44617465"
@@ -26568,7 +26620,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://exa.imgix.net/og-image.png/",
         "https://px.ads.linkedin.com/collect/?pid=9254756&fmt=gif",
@@ -26581,7 +26633,7 @@
         "https://exa.ai/_next/image?url=%2Fimages%2Ftestimonial%2Fhubspot_logo.png&w=3840&q=75",
         "https://exa.ai/_next/image?url=%2Fimages%2Ftestimonial%2Flovable.png&w=3840&q=75",
         "https://exa.ai/_next/image?url=%2Fimages%2Ftestimonial%2Flegora.png&w=3840&q=75",
-        "https://exa.ai/_next/image?url=%2Fimages%2Ftestimonial%2Fanara.png&w=3840&q=75"
+        "https://exa.ai/_next/image?url=https%3A%2F%2Fexa.imgix.net%2Fcase-studies%2Fcognition-primary-lockup-black.png%3Ftrim%3Dcolor%26trim-color%3D000000%26trim-tol%3D12&w=3840&q=75"
       ],
       "article_title_extracted": "Exa | Web Search API, AI Search Engine, & Website Crawler",
       "category": "Tools",
@@ -26619,7 +26671,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://tenor.design/opengraph-image?b659b3574fe43fb4",
         "https://tenor.design/_next/image?url=%2Fandres-jasso.png&w=96&q=75&dpl=dpl_beF4ciVqfXXZ2ePcdh2gQMVdw4Pf"
@@ -26660,7 +26712,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.cntrl.site/projects/01H6NM3V8BNG64VPVG9TR14MET/project-assets/01KJJBXAGTKWXCWC71MMP0KP8W.jpeg",
         "https://cdn.cntrl.site/projects/01H6NM3V8BNG64VPVG9TR14MET/articles-assets/01K2FK71QYVXVADTBGY2ZT30VY.png",
@@ -26712,7 +26764,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://chops.md/icon.png",
         "https://chops.md/screenshot.png"
@@ -26798,7 +26850,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://theodore.net/assets/images/index/avatardark.svg",
         "https://theodore.net/assets/images/TeddyWarner.svg",
@@ -26838,7 +26890,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/XULZpMbYWNf4KyPvO98TlCyYR9U.png",
         "https://framerusercontent.com/images/RyJiDSDbwZRPWj1mwVcVErXBCuc.png?width=1452&height=1772",
@@ -26890,7 +26942,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "<urlopen error timed out>",
       "article_image_urls": [
         "https://departuremono.com/assets/departure-og.png"
@@ -26931,7 +26983,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/3ccg9tet/production/ab2fd80ee036fa9627f507d73c4236b5e40a0715-2400x1260.png",
         "https://www.facebook.com/tr?id=960862296485573&ev=PageView&noscript=1",
@@ -27163,7 +27215,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -27202,7 +27254,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "article_title_extracted": "- YouTube",
       "category": "Media",
@@ -27423,7 +27475,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/qKhOKSxJwu4hO5JVHLsPY424.png",
         "https://framerusercontent.com/images/mzU3QGt336XCqyLFRYWrWnaCg8.svg?width=75&height=10",
@@ -27672,7 +27724,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://oryzo.ai/meta/og_image.png",
         "https://oryzo.ai/images/video_thumb.webp",
@@ -27720,7 +27772,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6750a6d3239ddbf81847542b/691b5bdc55e4cae4c325e907_Preview.png",
         "https://cdn.prod.website-files.com/6750a6d3239ddbf81847542b/6917c1f5ce64505ec90559f9_Full%20Logo%20White.svg",
@@ -27771,7 +27823,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://arcoty.pe/images/og/og.jpeg",
         "https://www.arcoty.pe/images/landing/logo-header.svg",
@@ -27816,7 +27868,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.dailydispatch.app/images/OG_Image.png",
         "https://www.dailydispatch.app/images/logo_light.svg",
@@ -27911,7 +27963,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6863944ea74f3872c9dad68a/6892ae3ad45063ffd17a317a_meta%20image.png",
         "https://cdn.prod.website-files.com/6863944ea74f3872c9dad68a/686bd2026e1899a1d8ce4dd7_nav-sub-image.avif",
@@ -27921,12 +27973,12 @@
         "https://cdn.prod.website-files.com/6863944ea74f3872c9dad68a/68667cd19f5ffb9920a62f75_8236c6e15fdc32dd79bd21ea260199fc_sticker-cursor.avif",
         "https://cdn.prod.website-files.com/6863944ea74f3872c9dad68a/68667cd1d2809db4d62f2e7b_f587057651086d8043b98bdf1baa517c_sticker-love.avif",
         "https://cdn.prod.website-files.com/6863944ea74f3872c9dad68a/68875b3f6a29c23422dbbe5c_Coin%20sticker.avif",
-        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/686536e290a905ae0dca25de_eBay.svg",
-        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/68653927a4949fe6789179e3_The%20Daily%20USA.avif",
         "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/68653837b51b8bddc4f3af9a_Lemonade.svg",
-        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/686536d87e7d2c576b585644_Disney%2B.svg"
+        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/686536fd8cc4d31819f39dac_Finance%20Buzz.avif",
+        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/686538b345face27ad898387_Sam%27s%20Club.svg",
+        "https://cdn.prod.website-files.com/6865361aa754af2bc22e0567/6865389c67ef1fc39d783aa8_Priceline.svg"
       ],
-      "article_title_extracted": "Thanks — Turn Thank You into Revenue",
+      "article_title_extracted": "Home_Loyalty",
       "category": "Tools",
       "created_at": "2026-03-20T00:45:17.834735Z",
       "description": "Turn your high intent moments into Beautiful Revenue™ and effortlessly scale acquisition with customer-first, native ad experiences people love to engage with.",
@@ -28241,7 +28293,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/62VphHqwcY7P34t0nhKlW3sqFxE.png",
         "https://framerusercontent.com/images/393rp8GtjjIos0LXMaNdhspVXQ4.png?width=2064&height=276",
@@ -28386,7 +28438,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://cobe.shud.in/opengraph-image.png?opengraph-image.b44874b1.png",
         "https://repository-images.githubusercontent.com/429536908/62a4e686-8613-4b45-b7bb-fa35b558ae8e"
@@ -28421,7 +28473,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://radiant-shaders.com/og-image.jpg?v=3"
       ],
@@ -28513,7 +28565,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://optimo.microlink.io/images/banner.jpg",
         "https://optimo.microlink.io/images/optimo-logo.png?dpl=dpl_CgWXDUHSxoyzr4Awz9JJdqhTBwBy",
@@ -28555,7 +28607,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://app-companion-430619.appspot.com/docs/design-systems-design-md.png"
       ],
@@ -28705,7 +28757,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://bitratecalculator.app/og.png"
       ],
@@ -28745,7 +28797,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://www.aidesignfieldguide.com/share-link.png",
         "https://www.aidesignfieldguide.com/map-artifact-3-EN.svg",
@@ -28788,7 +28840,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://newpeace.jp/ogp.jpg",
         "https://newpeace.jp/_astro/b-header_bdphoto.02f51377_2umyVC.webp",
@@ -28834,7 +28886,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-25T12:06:16.680573Z",
+      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-18T09:30:53.293091Z",
@@ -98051,7 +98103,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2054,
+      "count": 2055,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -98087,5 +98139,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-01T05:29:54.999987Z"
+  "updated_at": "2026-06-01T14:55:23.643172Z"
 }
