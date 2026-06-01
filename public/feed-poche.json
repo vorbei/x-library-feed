@@ -69,6 +69,9 @@
         }
       ],
       "title": "Elon Musk explains his 5-step algorithm for running companies",
+      "title_zh": "埃隆·马斯克解释其管理公司的五步算法",
+      "title_zh_hash": "8c9123212f1b41e7",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=tdf3luOCNks",
       "x_status_id": null
     },
@@ -86,11 +89,17 @@
         "https://tina.io/svg/facebook-logo.svg"
       ],
       "article_text": "Astro is becoming the default starter for TinaCMS\nThe latest Astro starter already uses React-free visual editing, and Astro will become the default once that new path has had more time in real projects.\nWe have not changed the default yet. [The latest Astro starter is already available](https://tina.io/roadmap), and we want more people to try it before we make Astro the main path for new projects.\nHeads up: The Next.js starter is not going away.\nWe know that the 🦙 TinaCMS community loves 🚀 Astro and we were delighted with how we could make our visual editing experience work with data islands. Given our love of fast static sites driven by markdown… It quickly became obvious that this was the best framework for the 🦙 TinaCMS community.\n— Matt Wicks, Product Owner TinaCMS\n[ Why Astro?](https://tina.io#why-astro)\nMore TinaCMS users are choosing Astro. Starter clones have recently passed the Next.js starter, even though Next.js is still the default. We are also seeing [more Astro questions in Discord and support](https://github.com/tinacms/tinacms/discussions/3399). That lines up with our own experience:\nAstro is straightforward to work with, and it fits many of the sites people build with TinaCMS, including docs, blogs, marketing pages, changelogs, and company websites.\nFigure: [GitHub Discussions poll](https://github.com/tinacms/tinacms/discussions/5247) on which framework to invest in\nRepo | Clones - Sprint 108 |\n|---|---|\n| 133 |\n| 89 |\n| 50 |\n| 41 |\nFigure: Starter repository clones during Sprint 108, a one-week sprint\nAstro is also fast. It builds static output quickly, renders pages in parallel, and includes image optimisation through its <Image />\ncomponent, with formats, responsive sizes, and lazy loading handled for you.\nIt is intentionally lightweight too. You can use React, Vue, or other UI frameworks when you need them, but you do not have to make the whole site behave like a React app.\nThat gives us a better foundation for visual editing. Editors still get a live preview. Visitors just get the page.\nThere is more background in the [Sprint 108 Review](https://youtu.be/bhjE5i0y8VY?si=FIzRQLCvnhVO8A01&t=1001) around the 17-minute mark.\n[ What we've improved](https://tina.io#what-weve-improved)\nThe previous Astro setup used React for live editing. That worked, but it meant a site could carry client-side code for an experience only editors use.\nThat always felt heavier than it needed to be. If the editing UI is only for editors, visitors should not have to worry about it.\nThe latest Astro starter now uses React-free visual editing. Pages can still be built as static HTML, and editable sections can still update while an editor is typing.\n[ For editors, the workflow should feel the same](https://tina.io#for-editors-the-workflow-should-feel-the-same)\nThey open TinaCMS, click into content on the page, make changes, and preview them before publishing. Content still lives in your repository as Markdown or MDX, and every saved change can still become a Git commit.\nThe main change is behind the scenes. When an editor opens TinaCMS, editable areas on the page are connected to the editor. As the editor types, Astro re-renders just the edited section with the draft content, and TinaCMS swaps that section into the preview without reloading the whole page.\nThis works for both static and server-generated pages. Your page can still render the way your project needs it to. TinaCMS only needs to refresh the part the editor is changing.\nOn the public site, a tiny inline check detects whether the page is inside the TinaCMS editor. If it is not, it exits immediately.\n[ Show me the code!](https://tina.io#show-me-the-code)\nEach editable part of the page is registered as an island. The island knows how to fetch its content, which component to render, and how to turn the fetched data into component props.\n// src/lib/islands.tsimport type { IslandRegistry } from '@tinacms/astro/experimental';import BlogBody from '../components/islands/BlogBody.as",
+      "article_text_zh": "Astro 正成为 TinaCMS 的默认启动模板\n\n最新的 Astro 启动模板已采用无 React 的可视化编辑功能，待这条新路径在实际项目中经过更多验证后，Astro 将成为默认选择。\n\n我们尚未更改默认设置。[最新的 Astro 启动模板现已可用](https://tina.io/roadmap)，我们希望更多人先试用它，再让 Astro 成为新项目的主要路径。\n\n提醒：Next.js 启动模板不会消失。\n\n我们知道 🦙 TinaCMS 社区热爱 🚀 Astro，并且我们很高兴能够通过数据孤岛实现可视化编辑体验。鉴于我们对由 Markdown 驱动的快速静态网站的喜爱……很明显，这是最适合 🦙 TinaCMS 社区的框架。\n\n— Matt Wicks，TinaCMS 产品负责人\n\n[为什么选择 Astro？](https://tina.io#why-astro)\n\n越来越多的 TinaCMS 用户选择 Astro。启动模板的克隆量最近已超过 Next.js 启动模板，尽管 Next.js 仍是默认选项。我们还看到 [Discord 和支持渠道中关于 Astro 的问题增多](https://github.com/tinacms/tinacms/discussions/3399)。这与我们自身的经验相符：\n\nAstro 使用起来很直接，非常适合人们用 TinaCMS 构建的许多网站类型，包括文档、博客、营销页面、更新日志和公司网站。\n\n图：[GitHub Discussions 投票](https://github.com/tinacms/tinacms/discussions/5247) 关于应投资哪个框架\n\n| 仓库 | 克隆量 - Sprint 108 |\n|---|---|\n| 133 |\n| 89 |\n| 50 |\n| 41 |\n\n图：Sprint 108（一周冲刺）期间的启动模板仓库克隆量\n\nAstro 也很快。它能快速构建静态输出，并行渲染页面，并通过其 `<Image />` 组件内置图片优化功能，自动处理格式、响应式尺寸和懒加载。\n\n它还有意保持轻量。你可以在需要时使用 React、Vue 或其他 UI 框架，但不必让整个网站表现得像一个 React 应用。\n\n这为我们提供了更好的可视化编辑基础。编辑者仍能获得实时预览。访问者则只看到页面本身。\n\n更多背景信息请参见 [Sprint 108 回顾视频](https://youtu.be/bhjE5i0y8VY?si=FIzRQLCvnhVO8A01&t=1001) 第 17 分钟左右的内容。\n\n[我们改进了什么](https://tina.io#what-weve-improved)\n\n之前的 Astro 设置使用 React 进行实时编辑。这虽然可行，但意味着网站可能会携带仅供编辑者使用的客户端代码。\n\n这始终感觉比实际需要的更重。如果编辑 UI 只面向编辑者，访问者不应为此操心。\n\n最新的 Astro 启动模板现已采用无 React 的可视化编辑。页面仍可构建为静态 HTML，可编辑区域在编辑者输入时仍能实时更新。\n\n[对编辑者而言，工作流程应感觉相同](https://tina.io#for-editors-the-workflow-should-feel-the-same)\n\n他们打开 TinaCMS，点击页面上的内容，进行修改，并在发布前预览。内容仍以 Markdown 或 MDX 形式存在于你的仓库中，每次保存的更改仍可生成一个 Git 提交。\n\n主要变化在幕后。当编辑者打开 TinaCMS 时，页面上的可编辑区域会连接到编辑器。编辑者输入时，Astro 仅使用草稿内容重新渲染编辑过的部分，TinaCMS 则将该部分替换到预览中，而无需重新加载整个页面。\n\n这同时适用于静态页面和服务器生成的页面。你的页面可以按项目需要的方式渲染。TinaCMS 只需刷新编辑者正在更改的部分。\n\n在公开网站上，一个微小的内联检查会检测页面是否位于 TinaCMS 编辑器内部。如果不是，它会立即退出。\n\n[给我看代码！](https://tina.io#show-me-the-code)\n\n页面上的每个可编辑部分都注册为一个孤岛。该孤岛知道如何获取其内容、渲染哪个组件，以及如何将获取的数据转换为组件属性。\n\n```ts\n// src/lib/islands.ts\nimport type { IslandRegistry } from '@tinacms/astro/experimental';\nimport BlogBody from '../components/islands/BlogBody.as",
+      "article_text_zh_hash": "19d5c413e0c5a148",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Astro is becoming the default starter for TinaCMS | TinaCMS Blog",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-05-31T12:58:43.975788Z",
       "description": "We're planning to make  Astro  the default starter for TinaCMS. TL;DR:  The Next.js starter is not going away. The latest Astro starter\nalre...",
+      "description_zh": "我们计划将 Astro 设为 TinaCMS 的默认启动模板。简而言之：Next.js 启动模板不会消失。最新的 Astro 启动模板已经...",
+      "description_zh_hash": "157e77e36b4439f7",
+      "description_zh_translator_v": 2,
       "domain": "tina.io",
       "embed_type": "",
       "id": "k17e116ym9d7a1wk5envsqveeh87rmn0",
@@ -113,6 +122,9 @@
         }
       ],
       "title": "Astro is becoming the default starter for TinaCMS | TinaCMS Blog",
+      "title_zh": "Astro 正成为 TinaCMS 的默认起始模板 | TinaCMS 博客",
+      "title_zh_hash": "86c3bc4cb272cd8b",
+      "title_zh_translator_v": 2,
       "url": "https://tina.io/blog/astro-is-the-default-tinacms-starter",
       "x_status_id": null
     },
@@ -122,11 +134,17 @@
         "https://apps.apple.com/assets/artwork/1x1.gif"
       ],
       "article_text": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV Mockview - Mockup Generator Convert screenshots to mockups Free · In‑App Purchases Share 121 Ratings 4.7 Age Rating 4+ Years Category Graphics & Design Developer Balaji Venkatesh Language EN English Size 98.6 MB iPhone, iPad, Mac, Apple Vision Convert screenshots into mockups Mockview enables us to create stunning mockups of a variety of Apple devices, including the iPhone, MacBooks, iMac, and the Apple Watch. These mockups can be used for a variety of purposes, including presentations, app demonstrations, and more. Terms of Use https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ more Ratings & Reviews 4.7 out of 5 121 Ratings Quite the resource 01/18/2023 davidsrod360 I have been using this app for everything and anything—from passion projects to pitch decks. Making iOS mockups has never been easier. Quite the resource 01/18/2023 davidsrod360 I have been using this app for everything and anything—from passion projects to pitch decks. Making iOS mockups has never been easier. Cropped 3d mock up 11/14/2025 yoelcera I don’t know why when using the 3d mode and exporting an image the model is cropped, it doesn’t fit in the exported image because the model is bigger than the frame, the mockup scale should work with the exported image as well so the model is not cropped. Cropped 3d mock up 11/14/2025 yoelcera I don’t know why when using the 3d mode and exporting an image the model is cropped, it doesn’t fit in the exported image because the model is bigger than the frame, the mockup scale should work with the exported image as well so the model is not cropped. Impressed. 01/06/2022 Its me,hesam! Incredibly convenient, really beautiful.It would be really appreciated you added more wallpapers(using apple’s wallpapers would be nice), and added more devices. Impressed. 01/06/2022 Its me,hesam! Incredibly convenient, really beautiful.It would be really appreciated you added more wallpapers(using apple’s wallpapers would be nice), and added more devices. Works perfectly 05/30/2023 Vicesanoncity I’ve been looking for a mock-up that I can insert a video into all day and this is the only app that actually works Works perfectly 05/30/2023 Vicesanoncity I’ve been looking for a mock-up that I can insert a video into all day and this is the only app that actually works What’s New Version History • Bug Fixes and improvements 4.1.1 12/03/2025 • Added Template Mockups • Bug Fixes and improvements 4.1 12/03/2025 • iOS 26 Update • Added New iPhone Mockups • Added New Apple Watch Mockups • Bug Fixes and improvements 4.0.5 09/16/2025 • Updated Settings Page • Allows to choose default settings for mockups • Bug Fixes and improvements 4.0.4 09/11/2025 • Added new custom render sizes • Revamped UI • Added New Settings Panel • Bug Fixes and improvements 4.0.3 07/24/2025 • Bug Fixes and improvements 4.0.2 06/02/2025 • All New App Design • Improved performance • Updated user interface for iPadOS • Improvements to video mockups • Added orientation support for video mockups • Added New Product Bezels • Bug Fixes and improvements 4.0.1 05/30/2025 • All New App Design • Improved performance • Updated user interface for iPadOS • Added New Product Bezels • Bug Fixes and improvements 4.0 05/28/2025 • New Product Bezels • Modified App Icons to reflect iOS 18 changes • Bug Fixes and improvements 3.2 09/17/2024 • Modified App Icons to reflect iOS 18 changes • Bug Fixes and improvements 3.1.6 09/17/2024 • Bug Fixes and improvements 3.1.3 03/18/2024 • Fixed Video Mockups Gradient Background Issue • Bug Fixes and improvements 3.1.2 02/11/2024 • Bug Fixes and improvements 3.1.1 02/09/2024 • Redesigned user interface for iPadOS & iOS • Added the ability to add background to video mockups • Added the ability to create multi-device mockups • Bug Fixes and improvements 3.1 01/26/2024 • Redesigned user interface for iPadOS & iOS • Bug Fixes and impro",
+      "article_text_zh": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV\n\nMockview - 模型生成器  \n将截图转换为模型  \n免费 · 应用内购买  \n分享  \n121 条评分  \n4.7  \n年龄评级 4 岁以上  \n类别 图形与设计  \n开发者 Balaji Venkatesh  \n语言 英文  \n大小 98.6 MB  \niPhone、iPad、Mac、Apple Vision  \n\n将截图转换为模型  \nMockview 让我们能够为多种 Apple 设备创建精美的模型，包括 iPhone、MacBook、iMac 和 Apple Watch。这些模型可用于演示、应用展示等多种用途。  \n\n使用条款  \nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/  \n\n更多  \n评分与评论  \n4.7 分（满分 5 分）  \n121 条评分  \n\n相当实用的资源  \n2023年1月18日  \ndavidsrod360  \n我一直在用这个应用处理各种事情——从个人项目到演示文稿。制作 iOS 模型从未如此简单。  \n\n裁剪的 3D 模型  \n2025年11月14日  \nyoelcera  \n不知道为什么，使用 3D 模式导出图片时，模型会被裁剪，无法完整显示在导出的图像中，因为模型比画框大。模型缩放功能应该同时作用于导出图像，这样模型就不会被裁剪了。  \n\n印象深刻  \n2022年1月6日  \nIts me,hesam!  \n非常方便，效果也很漂亮。如果能增加更多壁纸（使用 Apple 的壁纸会很好）和更多设备，那就更棒了。  \n\n完美运行  \n2023年5月30日  \nVicesanoncity  \n我找了一整天能插入视频的模型应用，这是唯一一个真正能用的。  \n\n新内容  \n版本历史  \n• 错误修复与改进  \n4.1.1  \n2025年12月3日  \n• 新增模板模型  \n• 错误修复与改进  \n4.1  \n2025年12月3日  \n• iOS 26 更新  \n• 新增 iPhone 模型  \n• 新增 Apple Watch 模型  \n• 错误修复与改进  \n4.0.5  \n2025年9月16日  \n• 更新设置页面  \n• 允许选择模型的默认设置  \n• 错误修复与改进  \n4.0.4  \n2025年9月11日  \n• 新增自定义渲染尺寸  \n• 重新设计用户界面  \n• 新增设置面板  \n• 错误修复与改进  \n4.0.3  \n2025年7月24日  \n• 错误修复与改进  \n4.0.2  \n2025年6月2日  \n• 全新应用设计  \n• 提升性能  \n• 更新 iPadOS 用户界面  \n• 改进视频模型  \n• 为视频模型添加方向支持  \n• 新增产品边框  \n• 错误修复与改进  \n4.0.1  \n2025年5月30日  \n• 全新应用设计  \n• 提升性能  \n• 更新 iPadOS 用户界面  \n• 新增产品边框  \n• 错误修复与改进  \n4.0  \n2025年5月28日  \n• 新增产品边框  \n• 修改应用图标以适配 iOS 18 变化  \n• 错误修复与改进  \n3.2  \n2024年9月17日  \n• 修改应用图标以适配 iOS 18 变化  \n• 错误修复与改进  \n3.1.6  \n2024年9月17日  \n• 错误修复与改进  \n3.1.3  \n2024年3月18日  \n• 修复视频模型渐变背景问题  \n• 错误修复与改进  \n3.1.2  \n2024年2月11日  \n• 错误修复与改进  \n3.1.1  \n2024年2月9日  \n• 重新设计 iPadOS 和 iOS 用户界面  \n• 新增为视频模型添加背景的功能  \n• 新增创建多设备模型的功能  \n• 错误修复与改进  \n3.1  \n2024年1月26日  \n• 重新设计 iPadOS 和 iOS 用户界面  \n• 错误修复与改进",
+      "article_text_zh_hash": "00fb67ad4b4827b0",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "‎Mockview - Mockup Generator App - App Store",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2026-06-01T02:04:57.301312Z",
       "description": "Mockview enables us to create stunning mockups of a variety of Apple devices, including the iPhone, MacBooks, iMac, and the Apple Watch. These mockups can be used for a variety of purposes, including presentations, app demonstrations, and more.\n\nTerms of Use\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "description_zh": "Mockview 让我们能够创建多种 Apple 设备的精美样机，包括 iPhone、MacBook、iMac 和 Apple Watch。这些样机可用于多种用途，如演示文稿、应用展示等。\n\n使用条款\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "description_zh_hash": "dbab928205ff9cec",
+      "description_zh_translator_v": 2,
       "domain": "apps.apple.com",
       "embed_type": "",
       "id": "k175ajxwqt4axwj6614sf3ka7587tz44",
@@ -149,6 +167,9 @@
         }
       ],
       "title": "‎Mockview - Mockup Generator App - App Store",
+      "title_zh": "‎Mockview - 模型生成器应用 - App Store",
+      "title_zh_hash": "9dcde246a506d612",
+      "title_zh_translator_v": 2,
       "url": "https://apps.apple.com/us/app/mockview-mockup-generator/id1592728145",
       "x_status_id": null
     },
@@ -162,6 +183,9 @@
       "category": "Tools",
       "created_at": "2026-06-01T02:11:26.849211Z",
       "description": "Build datacenters, install compute, memory, storage, and GPU racks, manage power and staff, and fulfill lucrative contracts in Datacenter Tycoon.",
+      "description_zh": "建设数据中心，安装计算、内存、存储和GPU机架，管理电力和人员，并在《数据中心大亨》中完成利润丰厚的合同。",
+      "description_zh_hash": "ee36706ad5f112d6",
+      "description_zh_translator_v": 2,
       "domain": "dctycoon.arnav.tech",
       "embed_type": "",
       "id": "k170eyf08qv479rp3frxzb7a8587t438",
@@ -184,6 +208,9 @@
         }
       ],
       "title": "Datacenter Tycoon | Build, Power, and Scale Your Data Empire",
+      "title_zh": "数据中心大亨 | 构建、供电并扩展你的数据帝国",
+      "title_zh_hash": "025288a5ac859fcc",
+      "title_zh_translator_v": 2,
       "url": "https://dctycoon.arnav.tech/",
       "x_status_id": null
     },
