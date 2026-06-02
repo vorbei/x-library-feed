@@ -79780,6 +79780,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.159.117  \nTime: 2026-06-02T12:35:47Z  \nURL: https://www.youtube.com/watch?si=1SE-k\\_rF3OJ4dXEe&v=SWs2iltL7rU&feature=youtu.be",
+      "article_text_zh": "---\n\n**关于此页面**\n\n我们的系统检测到来自您计算机网络的异常流量。此页面用于验证请求确实由您本人发出，而非机器人。[为什么会发生这种情况？](#)\n\n当 Google 自动检测到来自您计算机网络的请求似乎违反了[服务条款](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//www.google.com/policies/terms/)时，会显示此页面。一旦这些请求停止，阻止状态将在短时间内解除。在此期间，完成上述 CAPTCHA 验证即可继续使用我们的服务。\n\n此流量可能是由恶意软件、浏览器插件或发送自动化请求的脚本导致的。如果您与他人共享网络连接，请向管理员寻求帮助——同一 IP 地址下的其他计算机可能是原因所在。[了解更多](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//support.google.com/websearch/answer/86640)\n\n如果您使用了机器人常用的高级术语，或发送请求过于频繁，有时可能会被要求完成 CAPTCHA 验证。\n\nIP 地址：104.28.159.117  \n时间：2026-06-02T12:35:47Z  \nURL：https://www.youtube.com/watch?si=1SE-k\\_rF3OJ4dXEe&v=SWs2iltL7rU&feature=youtu.be",
+      "article_text_zh_hash": "91dfb6b9a8325940",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -82714,6 +82717,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://www.youtube.com/watch?v=uZRK60JNA54//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://www.youtube.com/watch?v=uZRK60JNA54//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.165.18  \nTime: 2026-06-02T12:39:23Z  \nURL: https://www.youtube.com/watch?v=uZRK60JNA54",
+      "article_text_zh": "（页面内容为Google反爬虫验证提示，无实际文章正文，输出空字符串）",
+      "article_text_zh_hash": "2cc1a37d06f21669",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,

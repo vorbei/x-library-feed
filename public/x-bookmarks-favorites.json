@@ -72,6 +72,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Introducing Search as Code, our new search architecture for AI agents.\n\nIt writes Python that calls our search stack directly, instead of looping through function calls one at a time.\n\nAvailable in the Perplexity Agent API, and now default in Computer.\n\nhttps://research.perplexity.ai/articles/rethinking-search-as-code-generation https://t.co/jrF2nQE3bC",
+      "text_zh": "## 将搜索视为代码：面向AI代理的新搜索架构\n\n该架构直接编写Python代码调用我们的搜索栈，而非逐个循环执行函数调用。\n\n现已集成至Perplexity Agent API，并成为Computer的默认配置。\n\nhttps://research.perplexity.ai/articles/rethinking-search-as-code-generation https://t.co/jrF2nQE3bC",
+      "text_zh_hash": "7d97c2dd5e78bbf3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/perplexity_ai/status/2061506359326384319"
     },
     {
@@ -126,6 +129,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Hermes Agent Visually Explained (Operating System for AI work). https://t.co/84NWaiiXks",
+      "text_zh": "# Hermes Agent 可视化解析（AI工作的操作系统）\n\nhttps://t.co/84NWaiiXks",
+      "text_zh_hash": "554c940b789a163a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Saboo_Shubham_/status/2061498476299747378"
     },
     {
@@ -171,6 +177,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "best writeup on the topic. most harnesses out there are built with no abstractions in mind, software engineering replaced by giant brittle prompts and the occasional summarization.  you cannot test them, you can barely reason about them and like an old car they consume gallons of the most expensive tokens.",
+      "text_zh": "关于这一主题的最佳论述。目前市面上大多数工具链（harness）在设计时完全没有考虑抽象化，软件工程被巨大的脆弱提示词和偶尔的摘要生成所取代。你无法测试它们，几乎无法推理它们的行为，就像一辆老旧的汽车，它们消耗着大量最昂贵的 token。",
+      "text_zh_hash": "ca12069bb2a27c45",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dosco/status/2061611580476059768"
     },
     {
@@ -225,6 +234,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny who built Claude Code named one move that beats all 10. Almost nobody does it.\n\nBoris Cherny onboards new Anthropic hires this way.\n\nDay one: install Claude Code, point it at the codebase, ask questions.\n\nDon’t edit. Don’t touch skills, hooks, or subagents.\n\nAsk.\n\n“Why does this function have 15 arguments?”\n\nClaude reads the git history. Finds who added each one, the commit, the linked issue. Writes you the whole story.\n\nNobody taught it that. There’s nothing about git in the system prompt. The model just knows.\n\nThat habit took Anthropic onboarding from 3 weeks to 3 days.\n\nEveryone grabs the advanced toys first. The people who built it start with a question.",
+      "text_zh": "Boris Cherny（Claude Code 的构建者）指出，有一个动作能胜过所有十个步骤，但几乎没人这么做。\n\nBoris Cherny 是这样引导 Anthropic 新员工入职的。\n\n第一天：安装 Claude Code，指向代码库，然后提问。\n\n不要编辑。不要碰技能、钩子或子代理。\n\n直接问。\n\n“为什么这个函数有 15 个参数？”\n\nClaude 会读取 git 历史。找出谁添加了每个参数、对应的提交记录、关联的问题。为你写出完整的故事。\n\n没人教它这么做。系统提示里没有任何关于 git 的内容。模型自己就知道。\n\n这个习惯把 Anthropic 的入职时间从 3 周缩短到了 3 天。\n\n每个人都先抢着玩高级玩具。而构建它的人，从提问开始。",
+      "text_zh_hash": "38ecae7a3c9f909d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xMoysei/status/2061671025511649470"
     },
     {
@@ -266,6 +278,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Agent harnesses wait for no man. Updated my article to add two new steps: a testing pass and an optional security scan. The chain continues to surprise me.",
+      "text_zh": "Agent harnesses 不等人。我更新了文章，新增了两个步骤：测试环节和可选的安全扫描。这个链条仍在不断给我带来惊喜。",
+      "text_zh_hash": "ba34e46a3190e9d9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/simoncorry/status/2061471597915996262"
     },
     {
@@ -320,6 +335,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"build something people want\" is great advice.\n\nalso great: a 20-month cac payback and a product your competitor cloned by friday. https://t.co/vV32sIE1CI",
+      "text_zh": "\"做出人们想要的东西\"是绝佳建议。\n\n同样绝妙的还有：20个月的客户获取成本回收期，以及一个在周五前就被竞争对手克隆的产品。https://t.co/vV32sIE1CI",
+      "text_zh_hash": "84ff9dcc2b16a31c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/itsalexvacca/status/2061560977926263051"
     },
     {
