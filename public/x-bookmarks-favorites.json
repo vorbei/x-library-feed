@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": ">always thought the big thing about dynamic workflows was running hundreds of subagents at once.\n>ran it for a while. turned out i was only half right.\n>what actually changed is where the plan lives.\n>used to live in chat. every step needed me there to push it forward. more workers just meant my voice couldn't keep up.\n>now the plan lives in a script. claude writes it, claude runs it.\n>i just wait outside for a report.\n>don't count how many workers it launched. look at which layer the plan lives on.",
+      "text_zh": ">一直以为动态工作流的核心优势是同时运行数百个子智能体。\n>实际运行一段时间后，发现只对了一半。\n>真正改变的是\"计划\"的所在层级。\n>过去计划存在于对话中，每一步都需要我推动。增加工作节点只会让我的指令跟不上节奏。\n>现在计划存在于脚本里。Claude 编写它，Claude 执行它。\n>我只需在外部等待一份报告。\n>别数它启动了多少个工作节点，要看计划驻留在哪个层级。",
+      "text_zh_hash": "f8f0aacbec283060",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Voxyz_ai/status/2061810168854155446"
     },
     {
@@ -122,6 +125,9 @@
         "bookmark@chumsdock"
       ],
       "text": "What Apple and Google are doing to your push notifications | Jacques Corby-Tuech https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar https://t.co/g9i1bgv6hS",
+      "text_zh": "苹果和谷歌正在对你的推送通知做什么 | Jacques Corby-Tuech https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar https://t.co/g9i1bgv6hS",
+      "text_zh_hash": "2525f89f19cffbb6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2061805546353639648"
     },
     {
@@ -171,6 +177,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "One of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that suit the client’s particular needs. I’ve heard from people who are wondering anew about the FDE career path since OpenAI and Anthropic started building new teams to place FDEs within client organizations.\n\nThe rise of FDEs for AI workloads is one way AI is creating new jobs (and why the jobpolcalypse narrative of upcoming job market collapse is false -- there will be many AI and non-AI jobs). However, I believe there will be far more AI Engineer jobs than FDEs, as I explain below.\n\nThe FDE role was pioneered about two decades ago by Palantir, which sent engineers to government locations to work on secure, air-gapped networks. In addition to having good technical skills, FDEs need communication skills and sometimes business skills. For example, they may need to speak with clients to understand their needs, formulate a strategy to prioritize projects, explain complex technology, and respectfully push back if a client asks for something unrealistic. They’re enjoying a resurgence because of the amount of work involved in taking an off-the-shelf LLM and building it into a custom agentic workflow that fits particular business needs.\n\nHowever, I believe the number of AI Engineer jobs will be far larger. A company might accept a few FDEs to be embedded within its organization. But most companies will want far more of their own employees working on their projects. While my organizations do hire FDEs, we hire far more AI Engineers! Also, a common client concern is that it is hard to find vendor-neutral FDEs — they are, after all, there to deeply integrate a particular vendor’s product into a company. In this moment when it’s hard to predict which AI service will be the best one in a year’s time, optionality (the ability to pick whatever vendor turns out to fit best in the future) is very valuable. In contrast, letting FDEs tightly bind a company’s processes significantly reduces optionality.\n\nRight now, I see surging demand for AI Engineers who can build software applications using AI software components (like LLM prompting, agentic frameworks, evals, etc.) and effectively use AI coding agents (like Claude Code, Codex, Antigravity CLI, and OpenCode). As the AI Engineer role matures, I expect it to fragment into more specialized roles, like the generic Software Engineer role from decades ago fragmented into frontend, backend, mobile, data engineering, devops, and so on.\n\nWhat will be the future, specialized AI engineering roles? I don’t know. Perhaps there will be AI FDEs, LLMOps Engineers, Evals Engineers, AI Data Engineers, Harness Engineers, and other roles we don’t have names for yet. But for now, I see a lot of AI engineers who are generalists create a lot of value. Skilled AI Engineers are in very high demand! As our field continues to mature over the coming decade, I look forward to new specializations within AI Engineering that create even more job opportunities.\n\n[Original text: The Batch newsletter]",
+      "text_zh": "硅谷新兴的热门职位之一是AI现场部署工程师（FDE），这类工程师会嵌入客户组织内部，帮助定制解决方案，例如构建和调优符合客户特定需求的智能体工作流。我听说，自从OpenAI和Anthropic开始组建新团队，将FDE派驻到客户组织中后，不少人又开始关注FDE的职业发展路径。\n\nAI工作负载催生FDE岗位，是AI创造新就业的一种方式（这也说明所谓\"就业末日\"的叙事——即就业市场即将崩溃——是错误的，未来将涌现大量AI和非AI岗位）。不过，我认为AI工程师的岗位数量将远超FDE，具体原因如下。\n\nFDE这一角色大约二十年前由Palantir首创，当时他们将工程师派驻到政府机构，在安全隔离的离线网络上工作。除了扎实的技术能力，FDE还需要沟通技巧，有时甚至需要商业技能。例如，他们可能需要与客户沟通以理解需求，制定项目优先级策略，解释复杂技术，并在客户提出不切实际的要求时得体地提出异议。如今，由于将现成的大语言模型定制为符合特定业务需求的智能体工作流涉及大量工作，FDE岗位再度兴起。\n\n但我认为AI工程师的岗位数量将远远更多。一家公司可能只接受少数几名FDE嵌入其组织内部。但大多数公司更希望让大量自己的员工参与项目。虽然我的组织也会雇佣FDE，但我们雇佣的AI工程师数量要多得多！此外，客户普遍担心难以找到中立的FDE——毕竟，他们的职责是将特定供应商的产品深度整合到公司内部。在当前难以预测一年后哪家AI服务会最优的时刻，可选择性（即未来能选择最合适的供应商的能力）极具价值。相比之下，让FDE将公司流程与特定供应商紧密绑定，会显著降低这种可选择性。\n\n目前，我看到对AI工程师的需求激增，他们能够利用AI软件组件（如大语言模型提示、智能体框架、评估等）构建软件应用，并有效使用AI编码智能体（如Claude Code、Codex、Antigravity CLI和OpenCode）。随着AI工程师角色的成熟，我预计它会像几十年前通用的软件工程师角色分化为前端、后端、移动端、数据工程、DevOps等方向一样，进一步细分为更专业的角色。\n\n未来会出现哪些专门的AI工程角色？我不知道。也许会有AI现场部署工程师、大语言模型运维工程师、评估工程师、AI数据工程师、工具链工程师，以及其他我们尚未命名的角色。但就目前而言，我看到许多全栈型AI工程师创造了巨大价值。熟练的AI工程师需求极高！随着我们这个领域在未来十年持续成熟，我期待AI工程领域出现新的专业化方向，从而创造更多就业机会。\n\n[原文来源：The Batch 新闻简报]",
+      "text_zh_hash": "80e466775c3e5be2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AndrewYNg/status/2061477558693384395"
     },
     {
@@ -225,6 +234,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OBSIDIAN PLUS HERMES AGENT IS THE MOST POWERFUL PERSONAL OPERATING SYSTEM AVAILABLE RIGHT NOW AND ALMOST NOBODY HAS BUILT IT YET.\n\nObsidian holds everything you know permanently.\n\nHermes reads it, reasons across it, and runs your most important workflows automatically.\n\nMorning briefs generated from your actual vault. Inbox processed every evening without you touching it. Project health monitored every Monday.\n\nWeekly synthesis ready every Sunday.\n\nOne system. Thinks. Remembers. Runs your life.\n\nRead this and Bookmark it now.",
+      "text_zh": "OBSIDIAN 搭配 HERMES AGENT 是当下最强大的个人操作系统，几乎还没人搭建出来。\n\nObsidian 永久保存你的一切知识。\n\nHermes 能读取这些知识、进行跨库推理，并自动运行你最重要的流程。\n\n清晨简报基于你的实际知识库生成。每晚自动处理收件箱，无需你动手。每周一监控项目健康状况。\n\n每周日自动生成周度总结。\n\n一个系统。能思考。能记忆。能运行你的人生。\n\n现在就读，立刻收藏。",
+      "text_zh_hash": "846df71bd3fb0fdb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/cyrilXBT/status/2061715750356979996"
     },
     {
