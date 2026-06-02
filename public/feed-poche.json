@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 670,
+      "count": 668,
       "name": "Tools"
     },
     {
@@ -9,11 +9,11 @@
       "name": "Development"
     },
     {
-      "count": 323,
+      "count": 321,
       "name": "Design"
     },
     {
-      "count": 307,
+      "count": 305,
       "name": "Articles"
     },
     {
@@ -38,7 +38,7 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2215,
+  "item_count": 2209,
   "items": [
     {
       "article_extraction": "cf_browser_rendering",
@@ -19372,62 +19372,6 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "trafilatura",
-      "article_image_urls": [
-        "https://cdn.sanity.io/images/599r6htc/regionalized/aa01d597cc9556f8243eab17691187f7dfee01f7-1631x918.png?w=1200&q=70&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/6fdeaa3781937554eb8464d8dd923affb563716a-801x801.png?w=801&h=801&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/6aa529cc7773b30c3c5907731a33f43fb2d2707d-1600x1600.png?w=1600&h=1600&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/aa01d597cc9556f8243eab17691187f7dfee01f7-1631x918.png?rect=1,0,1630,918&w=1632&h=919&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/718518ac6ff4fcd999efece86972e835d05c9f90-1608x1206.png?w=804&h=603&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/bc85128fcb5ce4f8c99fc1793d1cf8566ee324bd-340x343.png?w=480&h=484&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/8f190bfcc9bbfed2eeefed453560c7750069a689-343x343.png?w=480&h=480&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/88cc6fe07583fd1da0b848a95c3d069bfbe9ada9-512x512.png?w=480&h=480&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/6270d29420fbdc2d1cf660a394d73aef83b0ae44-512x512.png?w=480&h=480&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/f3957764451ff9dd86338f31b81f831597beb3e3-512x512.png?w=480&h=480&q=75&fit=max&auto=format"
-      ],
-      "article_text": "Turning prompts into five scalable workflows with Figma Weave\nTo build upon a visual language with AI, you need to harness the logic behind each prompt—building, editing, and directing how visuals come to life. Here, we share five creative workflows that show the breadth of what the Figma Weave canvas can do.\nShare Turning prompts into five scalable workflows with Figma Weave\nNote from Itay Schiff\nWe started Weavy, now known as [Figma Weave](https://weave.figma.com/), because we saw a need for a new paradigm in media production—one where you can combine AI models, shape every step, and scale your process, with the speed of AI and the standards of a professional workflow. We're excited to bring that to Figma users, and are working toward a deeper integration between our products later this year.\nIn the meantime, visit [Figma Weave](https://weave.figma.com/) to get started.\nGenerating great visuals used to take a lot of time and specialized skill. Now it takes seconds. But generating the right visuals—ones that fit your brand, hold up across channels, and scale with your needs—takes more than a single prompt. It takes the ability to branch, explore, and build, connecting AI nodes together until every visual is exactly right. That's what led Figma to [acquire Weavy](https://www.figma.com/blog/welcome-weavy-to-figma/), now Figma Weave: an intelligent creative workflow canvas for creating and editing imagery, video, audio, and 3D—chaining prompts together so you can move from reference to finished asset without losing control of the output along the way.\nIntroducing Figma Weave: The next generation of AI-native creation at Figma\nFigma has acquired [Weavy](https://www.weavy.ai/), a platform that brings generative AI and professional editing tools into the open canvas. As Figma Weave, the company will help build out image, video, animation, motion design, and VFX media generation and editing capability on the Figma platform.\nIt's a new way of working, one where every step can be reshaped, reapplied, and built upon. To help you get started, we've launched workflow templates as a new resource on Figma Community. Explore these [20+ templates](https://www.figma.com/community/weave) built by the Figma Weave team to turn images into videos, generate 3D models, combine reference styles, compare image models, and more. Below, we walk through five additional workflows in detail, building on one another using sample brand assets from Epoch—a fictional contemporary sound and video shop—curated to show the full range of what Figma Weave can do.\nWeave tip\nPrompting a model to combine two styles gets you one interpretation. Building it as a workflow lets you tweak the influence of each reference independently—tinkering with the balance until the blend is exactly what you want.\n[Workflow 1: Combining two images to define a new style guide](https://www.figma.com#workflow-1-combining-two-images-to-define-a-new)\nWhen you need new imagery that matches an existing aesthetic but a photoshoot isn't an option, the answer isn't to prompt from scratch and hope—it's to pull the style directly from what you already have. Here, we started with two of Epoch's reference images (a hibiscus flower and a rock face) and ran each through an [Image Describer node](https://help.weavy.ai/en/articles/12268282-text-tools#h_d9ed37d2d4) on the Figma Weave canvas. The node analyzes an image and pulls out the key visual attributes that define its look, things like texture, color, lighting, and composition, and turns them into a written description you can edit and build from. We then combined the two descriptions into a single new style. We adjusted the balance of influence between the two until the blend felt right. Running the result across different image generation models let us pressure-test it and finalize the look and feel of the style at scale.\nWhat we ended up with wasn't a prompt. It was a reusable style definition we could carry into every workflow that followed.\n[T",
-      "article_text_zh": "将提示转化为五种可扩展的工作流程：Figma Weave\n\n要借助AI构建视觉语言，你需要掌握每个提示背后的逻辑——构建、编辑并引导视觉效果的呈现。在此，我们分享五种创意工作流程，展示Figma Weave画布所能实现的广泛可能性。\n\n分享：将提示转化为五种可扩展的工作流程：Figma Weave\n\n来自Itay Schiff的说明\n\n我们创立了Weavy（现更名为[Figma Weave](https://weave.figma.com/)），因为我们看到了媒体生产领域对新范式的需求——一种能够结合AI模型、塑造每一步流程并实现规模化扩展的方式，兼具AI的速度与专业工作流程的标准。我们很高兴将其带给Figma用户，并正致力于在今年晚些时候实现我们产品之间更深度的集成。\n\n与此同时，请访问[Figma Weave](https://weave.figma.com/)开始使用。\n\n过去，生成出色的视觉效果需要大量时间和专业技能。现在只需几秒钟。但要生成正确的视觉效果——符合品牌调性、跨渠道保持一致、并能随需求扩展——仅靠单个提示是不够的。它需要分支、探索和构建的能力，将AI节点连接起来，直到每个视觉效果都完全符合要求。这正是Figma[收购Weavy](https://www.figma.com/blog/welcome-weavy-to-figma/)（现为Figma Weave）的原因：一个智能创意工作流程画布，用于创建和编辑图像、视频、音频和3D内容——将提示串联起来，使你能从参考素材顺利过渡到最终成品，同时全程保持对输出的控制。\n\n介绍Figma Weave：Figma下一代AI原生创作工具\n\nFigma已收购[Weavy](https://www.weavy.ai/)，这是一个将生成式AI与专业编辑工具整合到开放画布中的平台。作为Figma Weave，该公司将帮助在Figma平台上构建图像、视频、动画、动态设计和VFX媒体生成与编辑能力。\n\n这是一种全新的工作方式，每一步都可以被重塑、重新应用并在此基础上构建。为了帮助你入门，我们已在Figma社区推出了工作流程模板这一新资源。探索由Figma Weave团队构建的[20多个模板](https://www.figma.com/community/weave)，用于将图像转化为视频、生成3D模型、组合参考风格、比较图像模型等。下面，我们将详细讲解五种额外的工作流程，它们相互构建，使用来自Epoch（一家虚构的当代音像店）的示例品牌素材，旨在展示Figma Weave的全部能力。\n\nWeave小贴士\n\n提示模型组合两种风格只会得到一种解读。将其构建为工作流程，则能让你独立调整每个参考的影响程度——微调平衡，直到混合效果完全符合你的期望。\n\n[工作流程1：组合两张图像以定义新的风格指南](https://www.figma.com#workflow-1-combining-two-images-to-define-a-new)\n\n当你需要与现有美学相匹配的新图像，但无法进行拍摄时，答案不是从头开始提示并寄希望于运气——而是直接从已有素材中提取风格。在此，我们从Epoch的两张参考图像（一朵芙蓉花和一张岩壁）入手，分别通过Figma Weave画布上的[图像描述器节点](https://help.weavy.ai/en/articles/12268282-text-tools#h_d9ed37d2d4)进行处理。该节点分析图像，提取定义其外观的关键视觉属性，如纹理、色彩、光照和构图，并将其转化为可编辑和构建的文字描述。然后，我们将两个描述合并成一个全新的风格。我们调整了两者之间的影响平衡，直到混合效果恰到好处。将结果在不同图像生成模型上运行，使我们能够对其进行压力测试，并最终确定该风格在规模化应用中的外观和感觉。\n\n我们最终得到的不是一个提示。而是一个可重复使用的风格定义，可以带入后续的每一个工作流程中。",
-      "article_text_zh_hash": "6a17573e65969892",
-      "article_text_zh_translator_v": 2,
-      "article_title_extracted": "Turning Prompts into Five Scalable Workflows with Figma Weave | Figma Blog",
-      "category": "Articles",
-      "cleaner_v": 2,
-      "created_at": "2026-04-10T01:30:16.914822Z",
-      "description": "To build upon a visual language with AI, you need to harness the logic behind each prompt. Here, we share five creative workflows that show the breadth of what the Figma Weave canvas can do.",
-      "description_zh": "要借助AI构建视觉语言，你需要掌握每个提示背后的逻辑。在此，我们分享五种创意工作流程，展示Figma Weave画布所能实现的广阔可能性。",
-      "description_zh_hash": "23c13a5250bf84c9",
-      "description_zh_translator_v": 2,
-      "domain": "www.figma.com",
-      "embed_type": "",
-      "id": "k17bb09v8erq6047p35sfrvb7184jxmx",
-      "og_image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/aa01d597cc9556f8243eab17691187f7dfee01f7-1631x918.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format",
-      "recommended_at": "2026-04-10T01:41:14.883000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "figma",
-        "generative-ai",
-        "design-workflows"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-04-10T01:41:14.883000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Turning Prompts into Five Scalable Workflows with Figma Weave | Figma Blog",
-      "title_zh": "将提示转化为五种可扩展工作流：Figma Weave | Figma 博客",
-      "title_zh_hash": "a311a5c0cb69dbc2",
-      "title_zh_translator_v": 2,
-      "url": "https://www.figma.com/blog/five-figma-weave-workflows/",
-      "x_status_id": null
-    },
-    {
       "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
       "article_image_urls": [
         "https://imagedelivery.net/4Iq_5OuN3Oq3QRRKSY6D4w/open-graph_home/main",
@@ -25632,100 +25576,6 @@
       ],
       "title": "Renoise",
       "url": "https://renoise.ai/",
-      "x_status_id": null
-    },
-    {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
-      "article_image_urls": [
-        "https://static.figma.com/uploads/3d791db872a0158f92798fa0134d8eeaf6af5535"
-      ],
-      "article_title_extracted": "Figma Skills: Code to Design Workflows Figma Skills: Code to Design Workflows",
-      "category": "Design",
-      "created_at": "2026-03-24T13:59:40.165962Z",
-      "description": "Explore Figma skills to generate designs, components, and variables from code. Discover AI workflows and use them in your development setup.",
-      "description_zh": "探索从代码生成设计、组件和变量的 Figma 技能。了解 AI 工作流，并将其应用于你的开发环境中。",
-      "description_zh_hash": "768d4db11725b21a",
-      "description_zh_translator_v": 2,
-      "domain": "www.figma.com",
-      "embed_type": "",
-      "id": "k1726hy1z8thc2z5kn84j1rqe583h4yr",
-      "og_image_url": "https://cloud.poche.app/api/storage/1b85f32d-0634-4e75-8606-5517e887bed9",
-      "recommended_at": "2026-03-24T14:01:35.566000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "figma",
-        "design-systems",
-        "ai-workflows"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-03-24T14:01:35.566000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Figma Skills: Code to Design Workflows",
-      "title_zh": "Figma 技能：从代码到设计的工作流程",
-      "title_zh_hash": "2b2a9bbb58da234e",
-      "title_zh_translator_v": 2,
-      "url": "https://www.figma.com/community/skills",
-      "x_status_id": null
-    },
-    {
-      "article_extraction": "trafilatura",
-      "article_image_urls": [
-        "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/84675f0be7a80669fb6581953821530b48964f30-2314x2525.jpg?w=2314&h=2525&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1632&h=918&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/4b569560fb80744397542d4700c1363bacbbda88-1608x1206.png?w=1608&h=1206&q=75&fit=crop&crop=focalpoint&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=3200&h=1800&q=75&fit=crop&crop=focalpoint&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=528&h=297&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/985cfd1d6705cd02fe869198648dbd4acfa3468a-3200x1800.png?w=528&h=297&q=75&fit=max&auto=format"
-      ],
-      "article_text": "Agents, meet the Figma canvas\nStarting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent.\nShare Agents, meet the Figma canvas\nWe're quickly improving how Figma supports AI agents. This will eventually be a usage-based paid feature, but is currently available for free during the beta period.\nDesign decisions—from color palettes and button padding, to typography and interactivity—have always defined how products take shape. No matter how small, those decisions add up. They make your product and user experience stand out from the rest. To date, AI agents haven't had this context, which is why so many designs created by AI often feel unfamiliar and generic.\nWith [Figma’s MCP server](https://www.figma.com/blog/introducing-figma-mcp-server/), agents can now write directly to your Figma files, extending the standards you’ve carefully established over time. Via the\nIntroducing our MCP server: Bringing Figma into your workflow\nToday we’re announcing the beta release of the Figma MCP server, which brings Figma directly into the developer workflow to help LLMs achieve design-informed code generation.\nuse_figma\ntool, Claude Code, Codex, and other MCP clients can generate and modify design assets that are linked to your design system. No matter where product work starts—with a coding agent, in Figma, or from the command line—Figma is where it all comes into focus. \"Teams at OpenAI use Figma to iterate, refine, and make decisions about how a product comes together,\" says Ed Bayes, design lead at Codex. \"Now, Codex can find and use all the important design context in Figma to help us build higher quality products more efficiently.”You can move fluidly between code and canvas, with agents operating in the same shared context. And skills—a set of instructions, written as markdown files—now directly shape how agents build on the Figma canvas. That expertise guides every piece of output and is more valuable now than ever.\n[Instruct your agents with skills](https://www.figma.com#instruct-your-agents-with-skills)\nWorking across code and canvas\nOur existing [ generate_figma_design tool ](https://www.figma.com/blog/introducing-claude-code-to-figma/)translates HTML from live apps and websites into editable Figma layers. Our new\nuse_figma\ntool empowers agents to operate on the canvas using your design system, making this a step forward for agent workflows in Figma.These tools are complementary. When designs fall out of sync with code, generate_figma_design\nbrings the latest UI into Figma to iterate. From there, use_figma\ncan edit those designs—or create new assets—using your components and variables.\nOpening the canvas to AI agents unlocks access to your design systems and files. Skills define how agents use that access. They outline how a workflow is executed in Figma: which steps to take, what sequencing to follow, and which conventions to abide by. But beyond the workflow itself, skills ensure that agents have the specialized knowledge and context they need to produce durable, brand-aligned designs—and know what good looks like. They bridge the knowledge gap so agents know how to work in Figma. \"The best products come from teams who care deeply about the details,\" says Cat Wu, head of product for Claude Code. \"Many design teams shape their work in Figma and bring those products to life with Claude Code. Skills teach Claude Code how to work directly in the design canvas, so you can build in a way that stays true to your team’s intent and judgment.\"\nAnyone can author a skill and writing one doesn’t require building a plugin or writing code. Several of the skills launching today come from practitioners in the community who are building these workflows and defining what great design looks like in practice. At the core is a foundational Figma skill—/figma-use\n—which all other skills build on. It gives agents a shared understanding of how Figma wo",
-      "article_text_zh": "## 智能体，遇见 Figma 画布\n\n从今天起，你可以使用 AI 智能体直接在 Figma 画布上进行设计。借助技能（skills），你可以为智能体提供团队决策和设计意图的上下文，从而引导它们的工作。\n\n**分享：智能体，遇见 Figma 画布**\n\n我们正在快速改进 Figma 对 AI 智能体的支持。这最终将成为一个基于使用量的付费功能，但在测试期间目前可免费使用。\n\n设计决策——从调色板和按钮内边距，到排版和交互性——始终决定着产品的成型方式。无论多么微小，这些决策都会累积起来。它们让你的产品和用户体验从同类中脱颖而出。迄今为止，AI 智能体一直缺乏这种上下文，这就是为什么许多由 AI 生成的设计常常让人感觉陌生且千篇一律。\n\n借助 [Figma 的 MCP 服务器](https://www.figma.com/blog/introducing-figma-mcp-server/)，智能体现在可以直接写入你的 Figma 文件，延续你长期以来精心建立的标准。\n\n**介绍我们的 MCP 服务器：将 Figma 引入你的工作流程**\n\n今天我们宣布 Figma MCP 服务器的测试版发布，它将 Figma 直接引入开发者工作流程，帮助大语言模型实现设计感知的代码生成。\n\n通过 `use_figma` 工具，Claude Code、Codex 和其他 MCP 客户端可以生成和修改与你的设计系统相关联的设计资产。无论产品工作从何处开始——编码智能体、Figma 还是命令行——Figma 都是让一切变得清晰的地方。\"OpenAI 的团队使用 Figma 来迭代、优化和决定产品如何整合在一起，\"Codex 的设计负责人 Ed Bayes 说。\"现在，Codex 可以找到并利用 Figma 中所有重要的设计上下文，帮助我们更高效地构建更高质量的产品。\"\n\n你可以在代码和画布之间流畅切换，智能体在相同的共享上下文中操作。而技能——一组以 Markdown 文件形式编写的指令——现在直接塑造了智能体在 Figma 画布上的构建方式。这些专业知识指导着每一个输出，并且比以往任何时候都更有价值。\n\n[用技能指导你的智能体](https://www.figma.com#instruct-your-agents-with-skills)\n\n### 在代码和画布之间协同工作\n\n我们现有的 [generate_figma_design 工具](https://www.figma.com/blog/introducing-claude-code-to-figma/) 将来自实时应用和网站的 HTML 转换为可编辑的 Figma 图层。我们新的 `use_figma` 工具使智能体能够使用你的设计系统在画布上操作，这标志着 Figma 中智能体工作流程向前迈进了一步。\n\n这些工具是互补的。当设计与代码不同步时，`generate_figma_design` 会将最新的 UI 带入 Figma 进行迭代。然后，`use_figma` 可以使用你的组件和变量来编辑这些设计，或创建新的资产。\n\n向 AI 智能体开放画布，可以解锁对你的设计系统和文件的访问。技能则定义了智能体如何使用这种访问权限。它们概述了在 Figma 中如何执行工作流程：需要采取哪些步骤、遵循什么顺序、遵守哪些约定。但除了工作流程本身，技能还确保智能体拥有所需的专业知识和上下文，以生成持久、符合品牌调性的设计——并知道什么是好的设计。它们弥合了知识差距，让智能体知道如何在 Figma 中工作。\"最好的产品来自那些对细节倾注心血的团队，\"Claude Code 的产品负责人 Cat Wu 说。\"许多设计团队在 Figma 中塑造他们的作品，并用 Claude Code 将这些产品变为现实。技能教会 Claude Code 如何直接在画布上工作，这样你就可以以忠于团队意图和判断的方式进行构建。\"\n\n任何人都可以编写技能，而且编写技能不需要构建插件或编写代码。今天推出的几个技能来自社区中的实践者，他们正在构建这些工作流程，并定义着实践中优秀设计的样子。其核心是一个基础的 Figma 技能——`/figma-use`——所有其他技能都建立在此之上。它让智能体对 Figma 的工作方式有了共同的理解。",
-      "article_text_zh_hash": "31ce2deb3fc85667",
-      "article_text_zh_translator_v": 2,
-      "article_title_extracted": "Agents, Meet the Figma Canvas | Figma Blog",
-      "category": "Articles",
-      "cleaner_v": 2,
-      "created_at": "2026-03-24T13:59:05.950962Z",
-      "description": "Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent.",
-      "description_zh": "从今天起，你可以使用AI代理直接在Figma画布上进行设计。借助技能功能，你还能通过团队决策和设计意图的上下文信息来引导这些代理。",
-      "description_zh_hash": "c964c4e6919a0b38",
-      "description_zh_translator_v": 2,
-      "domain": "www.figma.com",
-      "embed_type": "",
-      "id": "k177jtsz7ad8p055zgny076hq183gg9j",
-      "og_image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format",
-      "recommended_at": "2026-03-24T13:59:14.795000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "figma",
-        "ai-agents",
-        "design-automation"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-03-24T13:59:14.795000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Agents, Meet the Figma Canvas | Figma Blog",
-      "title_zh": "代理，遇见 Figma 画布 | Figma 博客",
-      "title_zh_hash": "db02cf977f6e10fa",
-      "title_zh_translator_v": 2,
-      "url": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
       "x_status_id": null
     },
     {
@@ -37661,58 +37511,6 @@
       ],
       "title": "Shiori",
       "url": "https://www.shiori.sh/",
-      "x_status_id": null
-    },
-    {
-      "article_extraction": "trafilatura",
-      "article_image_urls": [
-        "https://cdn.sanity.io/images/599r6htc/regionalized/1bc14c622ab6b8e2ad11229e6206c07dbad63311-3200x1800.png?w=1200&q=70&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/a4c376edf4a3e14a8d10f61a83c3ba7260836e9b-512x512.png?w=512&h=512&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/3387a066ba4b7ee79948cf2bef688288efa72fdf-5487x5495.jpg?w=5487&h=5495&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/4589299f6b68261278b9b27325c88fa3a764756f-1536x2048.png?w=1632&h=2176&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/396116262667f31a91d215cb60dc1b4981e94553-3264x1836.png?w=528&h=297&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/9bad32f11ca223cf75e1285e2c55afe43518bfd6-1632x918.png?w=528&h=297&q=75&fit=max&auto=format"
-      ],
-      "article_text": "From Claude Code to Figma: Turning production code into editable Figma designs\nNow you can take workflows that start in Claude Code even further in Figma.\nShare From Claude Code to Figma: Turning production code into editable Figma designs\nConnect Figma to other MCP clients\nClaude Code is one of our MCP partners. See all supported agentic tools in our [MCP catalog](https://www.figma.com/mcp-catalog/?fuid=1590478787962654948).\nSometimes, the quickest way to move an idea forward is to create something real. Building in code is one way to do this. Live prototypes let you work with real data, feel interactions in motion, and get a clearer sense for technical scope. With AI-powered workflows like Claude Code, it’s even easier to spin up these types of explorations, where you can prompt, iterate, and adjust interfaces in real time. The challenge becomes: how to bring that work out of a linear context and into a shared space where you can take it further—whether working solo or alongside a team?\nMoving quickly matters. But speed without exploration can turn into momentum in the wrong direction. That’s the moment when code needs to meet the canvas.\nBringing Claude Code workflows directly into Figma lets developers, designers, and even hobbyists capture a real, functioning UI from a browser—in production, staging, or localhost—and convert it into editable frames on the Figma canvas. Code is powerful for converging—running a build, clicking a path, and arriving at one state at a time. The canvas is powerful for diverging—laying out the full experience, seeing the branches, and shaping direction collectively. Going from code to canvas helps teams move fluidly, so work can narrow when it needs to and open up when it’s time to collaborate.\n[Start anywhere, go further](https://www.figma.com#start-anywhere-go-further)\nWith this capture-to-Figma capability, you can start building wherever it makes the most sense. Code-first exploration has a predictable shape. It’s local. You make a change, refresh, and see what happened. In a single-player environment, one person holds the whole picture—the branch, the dev server, and the context—in their head. That speed helps early on, but as soon as the UI grows beyond a single screen, that speed of solo exploration can become a constraint. Requesting feedback often means sharing screenshots, recordings, or asking someone to run a build locally—each option adds friction at the exact moment the team would benefit from going wider, and exploring more options together.\nWith Claude Code to Figma, each captured screen can be sent or copied to your clipboard and pasted into any Figma file. From there, it becomes a Figma frame you can organize, duplicate, refine, and share alongside the rest of your design work. Teams can do more than just view the UI: They can annotate what’s working, call out what’s unclear, and explore divergent ideas without needing to ask someone to context switch into a new environment or make changes that would require editing half of your code files.\nFor flows, you can even capture multiple screens in a single session, preserving sequence and context so the full experience makes sense. When interfaces created in code are brought into the canvas, the conversation changes and new possibilities open up—you enter an open space for thinking and exploration.\n[Build the best idea, not just the first one](https://www.figma.com#build-the-best-idea-not-just-the-first-one)\nWith AI changing what “starting” looks like, creating has become easier—there’s often a concrete prototype to react to almost immediately. This shifts the design conversation from how to make something to which version to expand on. We want to support all ways of working in Figma. With Figma Make you can turn prompts into working prototypes, and with [Copy design](https://www.figma.com/blog/bringing-figma-make-to-the-canvas/), you can bring any Make preview directly onto the design canvas for further iteration. Claude Code to Fig",
-      "article_text_zh": "从 Claude Code 到 Figma：将生产代码转化为可编辑的 Figma 设计\n\n现在，你可以将在 Claude Code 中启动的工作流，在 Figma 中进一步延展。\n\n分享：从 Claude Code 到 Figma：将生产代码转化为可编辑的 Figma 设计\n\n将 Figma 连接到其他 MCP 客户端\n\nClaude Code 是我们的 MCP 合作伙伴之一。请在我们的 [MCP 目录](https://www.figma.com/mcp-catalog/?fuid=1590478787962654948)中查看所有支持的智能工具。\n\n有时，推动想法前进最快的方式是创造真实的东西。用代码构建就是实现这一点的方法之一。实时原型让你能够处理真实数据，感受交互的动态过程，并对技术范围有更清晰的认识。借助像 Claude Code 这样的 AI 驱动工作流，启动这类探索变得更加容易——你可以实时提示、迭代和调整界面。挑战在于：如何将这项工作从线性环境中带出来，放入一个共享空间，以便进一步推进——无论是独立工作还是与团队协作？\n\n快速行动很重要。但缺乏探索的速度可能会变成错误方向上的动力。这正是代码需要与画布相遇的时刻。\n\n将 Claude Code 工作流直接引入 Figma，让开发者、设计师甚至爱好者能够从浏览器中捕获一个真实、可运行的 UI——无论是在生产环境、预发布环境还是本地环境——并将其转换为 Figma 画布上的可编辑框架。代码擅长收敛——运行构建、点击路径，一次到达一个状态。画布擅长发散——布局完整的体验，看到分支，并共同塑造方向。从代码到画布的转换帮助团队流畅地移动，使得工作可以在需要时收窄，在需要协作时打开。\n\n[从任何地方开始，走得更远](https://www.figma.com#start-anywhere-go-further)\n\n借助这种捕获到 Figma 的能力，你可以从最有意义的地方开始构建。代码优先的探索具有可预测的形态。它是本地的。你做出更改，刷新，然后看到发生了什么。在单人环境中，一个人掌握全局——分支、开发服务器和上下文——都在脑海中。这种速度在早期很有帮助，但一旦 UI 超出单个屏幕的范围，这种单人探索的速度就可能变成一种限制。请求反馈通常意味着分享截图、录制视频，或者要求别人在本地运行构建——每种选择都在团队最需要拓宽视野、共同探索更多选项的时刻增加了摩擦。\n\n通过 Claude Code 到 Figma，每个捕获的屏幕都可以发送或复制到剪贴板，然后粘贴到任何 Figma 文件中。从那里，它变成一个 Figma 框架，你可以组织、复制、优化，并与你的其他设计工作一起分享。团队可以做的不仅仅是查看 UI：他们可以标注哪些部分有效，指出哪些不清晰，并探索不同的想法，而无需要求某人切换环境或进行需要编辑一半代码文件的更改。\n\n对于流程，你甚至可以在单次会话中捕获多个屏幕，保留顺序和上下文，使完整体验变得有意义。当在代码中创建的界面被带入画布时，对话发生变化，新的可能性打开——你进入了一个用于思考和探索的开放空间。\n\n[构建最好的想法，而不仅仅是第一个](https://www.figma.com#build-the-best-idea-not-just-the-first-one)\n\n随着 AI 改变了“开始”的样子，创作变得更容易——几乎立即就会有一个具体的原型可供反应。这使设计对话从“如何制作某物”转变为“扩展哪个版本”。我们希望支持 Figma 中的所有工作方式。借助 Figma Make，你可以将提示转化为可工作的原型，而通过 [Copy design](https://www.figma.com/blog/bringing-figma-make-to-the-canvas/)，你可以将任何 Make 预览直接带到设计画布上进行进一步迭代。Claude Code 到 Fig",
-      "article_text_zh_hash": "09665230e0a2a397",
-      "article_text_zh_translator_v": 2,
-      "article_title_extracted": "From Claude Code to Figma: Turning Production Code into Editable Figma Designs | Figma Blog",
-      "category": "Design",
-      "cleaner_v": 2,
-      "created_at": "2026-02-23T04:34:44.436942Z",
-      "description": "Now you can take workflows that start in Claude Code even further in Figma.",
-      "description_zh": "现在，您可以将从 Claude Code 开始的工作流在 Figma 中进一步推进。",
-      "description_zh_hash": "73ef47ea2a46316b",
-      "description_zh_translator_v": 2,
-      "domain": "www.figma.com",
-      "embed_type": "",
-      "id": "k17eee1xgdjz4y4b892x3e7ex981pwqa",
-      "og_image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/1bc14c622ab6b8e2ad11229e6206c07dbad63311-3200x1800.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format",
-      "recommended_at": "2026-02-23T04:34:59.541000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "claude",
-        "code-to-design",
-        "figma"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-02-23T04:34:59.541000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "From Claude Code to Figma: Turning Production Code into Editable Figma Designs | Figma Blog",
-      "title_zh": "从 Claude Code 到 Figma：将生产代码转化为可编辑的 Figma 设计 | Figma 博客",
-      "title_zh_hash": "e6bdb5f1d5bccbca",
-      "title_zh_translator_v": 2,
-      "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
       "x_status_id": null
     },
     {
@@ -55324,41 +55122,6 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-02T05:15:41.236562Z",
-      "article_title_extracted": "Shortcuts",
-      "category": "Tools",
-      "created_at": "2026-01-03T12:43:26.754126Z",
-      "description": "Share any link from your phone.",
-      "domain": "poche.app",
-      "embed_type": "",
-      "id": "k17amxcpme6xrswfehsd8knwhh7yg927",
-      "og_image_url": "https://cloud.poche.app/api/storage/97fab26d-a2e1-4963-bc83-c5830b4abe21",
-      "recommended_at": "2026-01-03T14:06:56.217000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "productivity",
-        "bookmarking",
-        "automation"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-01-03T14:06:56.217000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Share to Poche",
-      "title_zh": "分享到Poche",
-      "title_zh_hash": "f493a37e1072f7af",
-      "title_zh_translator_v": 2,
-      "url": "https://poche.app/r/shortcut",
-      "x_status_id": null
-    },
-    {
       "article_extraction": "trafilatura",
       "article_image_urls": [
         "https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3866/full_page_cover_compoundmagician.png",
@@ -67639,7 +67402,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://bfcm.shopify.com/cdn/shopifycloud/data_stories_website/assets/new/social-share-1652028d1f342c90efa9bf93eb2398f82daaf7e8d86215ef4acc9c8ba3b66edf.gif"
       ],
@@ -67725,7 +67488,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://animating-svgs-rmom9spkv-nan-fyi.vercel.app/opengraph-image.png?0616b3ae80ba09a4",
         "https://animating-svgs-rmom9spkv-nan-fyi.vercel.app/twitter-image.png?71494547086d9ef9",
@@ -68039,7 +67802,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6750c47e14882ab5f2ffe035/68b031ed26762f84a33f6551_og-rd.png",
         "https://cdn.prod.website-files.com/6750c47e14882ab5f2ffe035/6760cbaf93897109e15ae983_blue.avif",
@@ -68088,7 +67851,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://slopdetective.kagi.com/public/img/slop-detective-banner.png",
         "https://slopdetective.kagi.com/public/img/detective-logo.svg"
@@ -68227,7 +67990,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://onyx.app/onyx-thumbnail.png"
       ],
@@ -68267,7 +68030,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/65db6dd21591364dfcb8ade9/68ed1d8d0ec468824c7db7c6_og.jpg",
         "https://cdn.prod.website-files.com/65db6dd21591364dfcb8ade9/65de617fe5a856899a52988b_shapeofai.svg",
@@ -68319,7 +68082,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-26T08:58:48.520684Z",
@@ -68407,7 +68170,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-26T04:10:28.110568Z",
@@ -68487,7 +68250,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/w/1000/i/M2556984391430076717374120396847/Frame-9045.png"
       ],
@@ -68703,7 +68466,7 @@
       "x_status_id": "1993371363026125147"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://happy.engineering/favicon.svg",
         "https://happy.engineering/wall-of-love/ADAc42xWwxCuPUIHmNH4QuOg.webp",
@@ -68750,7 +68513,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://daylightcomputer.com/_next/static/media/OG-homepage.c818d83e.png",
         "https://daylightcomputer.com/_next/static/media/Comp_00000.8d4c55ba.webp",
@@ -68834,7 +68597,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.maorisakai.com/wp-content/uploads/2024/09/tr0902.gif",
         "https://www.maorisakai.com/wp-content/uploads/2024/11/108i.jpg",
@@ -68878,20 +68641,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://getsteps.app/meta.png",
-        "https://getsteps.app/_next/image?url=%2Fapp_icon.png&w=64&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fapp_icon.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/badge_light_mode.svg?dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/badge_dark_mode.svg?dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot1.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot2.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot3.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot4.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot5.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot9.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc",
-        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot6.png&w=3840&q=75&dpl=dpl_7WG3VBrebV3WQVtUc53YVPD4hTgc"
+        "https://getsteps.app/_next/image?url=%2Fapp_icon.png&w=64&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fapp_icon.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/badge_light_mode.svg?dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/badge_dark_mode.svg?dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot1.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot2.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot3.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot4.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot5.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot9.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1",
+        "https://getsteps.app/_next/image?url=%2Fscreenshots%2Fscreenshot6.png&w=3840&q=75&dpl=dpl_258dNSQ5ES7dhraGoeXhou9C3MP1"
       ],
       "article_title_extracted": "Steps: Workout & Pedometer",
       "category": "Tools",
@@ -69033,7 +68796,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://b.stripecdn.com/wpp/assets/bfcm-microsite/2025/og-image.jpg"
       ],
@@ -69074,7 +68837,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://fashikun.com/og-image-md.gif",
         "https://fashikun.com/og-image-lg.gif"
@@ -69112,7 +68875,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/yeldghwo/production/48af8e856027885a32de45697706159137c3b9f7-1201x630.jpg"
       ],
@@ -69152,7 +68915,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/MpDYj9hcb39x7JrrToyCo6c0I.jpg",
         "https://framerusercontent.com/images/gO4La7lyfi6sXSeo15FGSgFArw.png?width=1070&height=1070",
@@ -69233,7 +68996,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-25T01:21:26.326490Z",
@@ -69356,7 +69119,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/64837/1720481675-social-image-1200x630.png",
         "https://www.datocms-assets.com/64837/1721916693-gettyimages-1472031694-processed.jpg?fit=crop&h=525&w=430",
@@ -69452,9 +69215,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/75a6d7fdb682ce1f3a310e64a37dfe6a72da3eda28aa2e6d472c2ab53b88c96c/karpathy/llm-council",
+        "https://opengraph.githubassets.com/bc68cd59d7913c2d8dfb733f7f522d81ed6138ac9533c7b7d13eafb348e9b5d6/karpathy/llm-council",
         "https://github.com/karpathy/llm-council/raw/master/header.jpg"
       ],
       "article_title_extracted": "GitHub - karpathy/llm-council: LLM Council works together to answer your hardest questions · GitHub",
@@ -69494,7 +69257,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2025-11-24T08:45:36.185916Z",
@@ -69575,7 +69338,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://biketerra.com/images/logo/logo-white.svg",
         "https://uploads.biketerra.com/homepage/v05/3d.webp",
@@ -69627,7 +69390,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.virgilabloh.com/images/vaa_social_card.png"
       ],
@@ -69665,7 +69428,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/ozA45WH5WLrn7zn5XKcWwuMCEM.gif",
         "https://framerusercontent.com/images/beRD3GspL4CtViI5XxsxyjhzrE.svg?width=121&height=110",
@@ -69716,10 +69479,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://layer9wp.wpenginepowered.com/wp-content/uploads/2025/03/layer9-OPG.jpg",
-        "https://layer9.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fblocks-stack-static-4x.61c7a8ad.png&w=3840&q=75&dpl=dpl_7SnJ4VoMme8NLBy5vY32o5K2MygZ",
+        "https://layer9.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fblocks-stack-static-4x.61c7a8ad.png&w=3840&q=75&dpl=dpl_8weS5Kb5qthh6yd3GUs34mi2CLvv",
         "https://layer9.com/_next/image/?url=https%3A%2F%2Flayer9wp.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FProative-monitoring-Thumbnail.svg&w=3840&q=75",
         "https://layer9.com/_next/image/?url=https%3A%2F%2Flayer9wp.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FReal-time-support-Thumbnail.svg&w=3840&q=75",
         "https://layer9.com/_next/image/?url=https%3A%2F%2Flayer9wp.wpenginepowered.com%2Fwp-content%2Fuploads%2F2025%2F04%2FBacked-by-human-experts-Thumbnail.svg&w=3840&q=75",
@@ -69930,7 +69693,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "OMNI-DATA CONSOLE MK-IV",
       "category": "Tools",
       "created_at": "2025-11-23T03:38:50.398546Z",
@@ -69968,7 +69731,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://readsomethingwonderful.com/images/rsw-og-default.png"
       ],
@@ -70052,7 +69815,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://lh3.googleusercontent.com/QtsHlwhhwsHn9EmLe1eIm7iJ9FI1kFicRbLA8yMvHgIs59A6-lnmP44kAt3U"
       ],
@@ -70478,7 +70241,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/uuypna2x/production/a74bee5eeec39ddd13c014b93dc6eba541ac6f1d-2400x1260.png",
         "https://cdn.sanity.io/images/uuypna2x/production/5eff7b75ee4dd2d542e9f956ef28648343f684c6-5177x3451.jpg?w=3840&q=70&fit=max&auto=format",
@@ -70522,7 +70285,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/t/original/i/5a8ca5f9235d2e6fa5af66f78d02d30815226168af10a9cecaba9f6f47e58a7e/1.jpg",
         "https://freight.cargo.site/t/original/i/a46553086d5191eea3a499595bb31838a7a947f0eb10da98f0225e48e48abb83/2.jpg",
@@ -70573,7 +70336,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://pub-0c00865d02c1476494008dbb74525b2a.r2.dev/social-preview-1.png",
         "https://pub-0c00865d02c1476494008dbb74525b2a.r2.dev/dex.png",
@@ -70657,10 +70420,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/mdewiujj/production/42e4e4b2c48f8120fd3102146cfb6cd334b3fd8a-1200x630.jpg?rect=0,2,1200,627&w=1200&h=627&fit=crop&auto=format",
-        "https://ipv4.monarch.com/api/pixel",
         "https://cdn.sanity.io/images/mdewiujj/production/2c81fc89b5b28893f373d3dec929ad918f84f49d-680x144.png?auto=format&fit=max&q=90&w=340",
         "https://cdn.sanity.io/images/mdewiujj/production/c42b9db13b92d431dcb3f6e7cf70d375abee8352-916x194.png?auto=format&fit=max&q=90&w=458",
         "https://cdn.sanity.io/images/mdewiujj/production/6653a62a62c583e8e38b16e30a699b9cbf2f9c27-680x144.png?auto=format&fit=max&q=90&w=340",
@@ -70670,7 +70432,8 @@
         "https://cdn.sanity.io/images/mdewiujj/production/0d3d27b5c77ceb4aa16c3f8b2e26b99cbd3ad5ba-1258x1452.png?auto=format&fit=max&q=90&w=629",
         "https://cdn.sanity.io/images/mdewiujj/production/7763fb002fce170db0249278bdb8d5e6bfca14c9-3200x2192.png?auto=format&fit=max&q=90&w=1600",
         "https://cdn.sanity.io/images/mdewiujj/production/9a4b49b76f5c12f7e23256118c48b986a1b05ca3-1929x1626.png?auto=format&fit=max&q=90&w=965",
-        "https://cdn.sanity.io/images/mdewiujj/production/5900cd5b7b453862c956b24b0c0edeced7eaa4b4-2195x1256.png?auto=format&fit=max&q=90&w=1098"
+        "https://cdn.sanity.io/images/mdewiujj/production/5900cd5b7b453862c956b24b0c0edeced7eaa4b4-2195x1256.png?auto=format&fit=max&q=90&w=1098",
+        "https://cdn.sanity.io/images/mdewiujj/production/554df7b9aa4425c906db8323fee78b2745b387b6-1752x1036.png?auto=format&fit=max&q=90&w=876"
       ],
       "article_title_extracted": "Track, budget, plan, and do more with your money | Monarch",
       "category": "Tools",
@@ -70709,7 +70472,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://notepadexe.com/img/ogimage.jpg",
         "https://notepadexe.com/img/icon_128x128.png",
@@ -70793,7 +70556,7 @@
       "x_status_id": "1991144898129469678"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://poly.app/og-social.jpg",
         "https://fs.cdn.poly.app/assets/landingpage/ec628e3/public/images/hero-loading.webp",
@@ -70845,7 +70608,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Articles",
       "created_at": "2025-11-20T07:46:50.120800Z",
@@ -70928,7 +70691,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.tanyavulfson.com/_assets/v11/2dd143563b969a7321302092911ede915a134ca1.png",
         "https://www.tanyavulfson.com/_assets/v11/9f4fbac73919c6122a77f16dd027067476321aa9.png",
@@ -70971,7 +70734,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/688b513c77411edaa4f0c322/68b55ec287f35d2c5ceb2cd6_ogimage-compressed.jpeg",
         "https://cdn.prod.website-files.com/688b513c77411edaa4f0c322/69a874075292436ce507adef_6c419ef5402bc343ac170bf5774dbb04_IPL%20Cerberus.avif",
@@ -71023,7 +70786,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://arc.renaissancephilanthropy.org/wp-content/uploads/2025/05/Share-Landscape.png",
         "https://arc.renaissancephilanthropy.org/wp-content/themes/arc-wordpress/icons/renphil.svg",
@@ -71246,7 +71009,7 @@
       "x_status_id": "1991167577775616107"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://static.wixstatic.com/media/e52909_94df53e123a7404cbc8da01e7faf3460.jpg/v1/fit/w_2500,h_1330,al_c/e52909_94df53e123a7404cbc8da01e7faf3460.jpg",
         "https://static.wixstatic.com/media/e52909_8e768bef267b4d27bd367a5e2d7355ae~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/e52909_8e768bef267b4d27bd367a5e2d7355ae~mv2.jpg",
@@ -71294,10 +71057,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://zo.computer/opengraph-image?8f25585de417c4ae",
-        "https://zo.computer/opengraph-image.png",
         "https://px.ads.linkedin.com/collect/?pid=7965730&fmt=gif"
       ],
       "article_title_extracted": "Zo Computer | Your Home on the Internet",
@@ -71337,8 +71099,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
+        "https://cdn.sanity.io/images/1omys9i3/production/319392a9e6c83e4b9f7c2158c5b10fa6f75e84c1-2400x1260.png",
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2F2b02N5Y501hFejR2Yas02RZAb8sMOLsWqzE68RX7T8hp3s%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2FxLLkokRSG7wrmPVmYfSE3Hz2TwlKI83Ohf8vHejgI4o%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2FLfHB0201VSYhDIeTE01FCdNF801vDpcgWX1MMeujMEBqyzQ%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
@@ -71349,8 +71112,7 @@
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2Fi2aJBzn6BIs2jQY8e3QKX2z2XhfsJv00QAzNHDyrV2XQ%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2FMmU2brIl545p02LxkOSGOYzOU3gBCzJYe01sVvsfIjqY00%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
         "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2Fd8gKqaem3hi01tFEkbkGl00SFt01bnBlIcQzEuEPFnU9mQ%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
-        "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2Fnp00yxVOCqSKb00LMiTYRTv9KeVwcoGYFetwPm4BzR02Nk%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90",
-        "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2FqONaNfbAttQQA02IDKgj7LueTxfka7TcfsJ5lNBlaVCE%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90"
+        "https://www.sunday.ai/_next/image?url=https%3A%2F%2Fimage.mux.com%2Fnp00yxVOCqSKb00LMiTYRTv9KeVwcoGYFetwPm4BzR02Nk%2Fthumbnail.webp%3Ftime%3D0&w=3840&q=90"
       ],
       "article_title_extracted": "Sunday Robotics | The helpful robotics company",
       "category": "Tools",
@@ -71467,7 +71229,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/xi1ruvdt/production/fca12011afd12675014608c9ae91dc241a2c5bef-2400x1260.png?w=1200&auto=format"
       ],
@@ -71507,7 +71269,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.coda.co/wp-content/uploads/2024/11/Landscape.jpg",
         "https://www.coda.co/wp-content/uploads/2024/11/Coda-Portal-KV.webp",
@@ -71558,7 +71320,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://physx-anything.github.io/static/videos/teaser_final.png",
         "https://physx-anything.github.io/static/videos/framework.png",
@@ -71601,7 +71363,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://squircle.style/og.png"
       ],
@@ -71642,7 +71404,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "Binnenland Typefaces",
       "category": "Design",
       "created_at": "2025-11-19T03:11:08.839489Z",
@@ -71711,7 +71473,7 @@
       "x_status_id": "1990826669062676778"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://extra.email/extra-thumb-dark.jpg",
         "https://extra.email/framer-assets/images/g9tOAfgqNoeQxCOt4JAmw4XsqA.a6013395.png",
@@ -71762,7 +71524,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "category": "Other",
       "created_at": "2025-11-19T01:51:17.990404Z",
       "description": "Google Antigravity - Build the new way",
@@ -71852,7 +71614,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-19T01:52:19.828066Z",
@@ -71886,7 +71648,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/fmzd4n68/production/e2ee60a94e1ccaae172c0c8304c59572d6316bb2-1200x630.png",
         "https://image.mux.com/uNSzCRdcdhvgngsypEJY016PoQPE5rrHzjfkAlRz02cg8/thumbnail.webp?time=0&width=1866&height=1050 1866w",
@@ -71957,7 +71719,7 @@
       "x_status_id": "1990812770762215649"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.fycartists.com/fyc-opengraph.jpg",
         "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fbritt-lloyd%2F329641843_596305902328437_7922431035091238107_n.jpeg&w=2048&q=75",
@@ -72016,7 +71778,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-18T12:10:32.712818Z",
@@ -72133,7 +71895,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://efecto.app/og-image.jpg"
       ],
@@ -72206,7 +71968,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/dmNBRSvrpcZRlw2DSNsXF7eY0MA.png",
         "https://framerusercontent.com/images/SYfROJikmtsWD27t2QSsw9osADo.png?width=4096&height=2096",
@@ -72329,7 +72091,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://pickle.com/og/memory.jpg"
       ],
@@ -72369,7 +72131,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://images.ctfassets.net/6p328xbjc78k/7E3isvhfT5EiANxi4k7Mtf/ec0a6564a8571d5be19c24ed8f57b376/webcard-1200x630.jpg",
         "https://images.ctfassets.net/6p328xbjc78k/3xeF4vFmF85o9kww5tWN3D/ff7268e63f204ff8dae78f433634df6d/webcard-627x627.png",
@@ -72528,7 +72290,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/U0YSzmpN3TDRHX8GlfNrXdCDBA.png",
         "https://framerusercontent.com/images/BblpXET68wFgAN4zqbVKyoBpgY.svg?width=1160&height=212",
@@ -72565,7 +72327,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://colorpalette.pro/colorpalettepro.png"
       ],
@@ -72605,7 +72367,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://tinyawards.net/preview.png",
         "https://tinyawards.net/media/pitcher.svg",
@@ -72686,7 +72448,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.facesofopensource.com/wp-content/uploads/2017/02/linus.faces22052.web_-819x1024.jpg",
         "https://cdn.facesofopensource.com/wp-content/uploads/2018/01/31234204/Faces-square-logo.jpg",
@@ -72735,7 +72497,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.runlayer.com/opengraph-image?47d7a815570c76d9",
         "https://www.runlayer.com/_next/image?url=%2Fimages%2Fmcp-client-any.webp&w=3840&q=75",
@@ -72787,7 +72549,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://studioworks.app/images/studioworks-social-card.jpg",
         "https://studioworks.app/static/images/Hische_SWHomepage-hi.jpg",
@@ -72884,7 +72646,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.davey.design/atom/pages/home-og.jpg"
       ],
@@ -72973,7 +72735,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6a05ae6a3f0a6ce150583845/6a0b850227ef8f723611892d_seo.jpg",
         "https://cdn.prod.website-files.com/6a05ae6a3f0a6ce150583845/6a0cc14db613dda929bbfa0e_ri_arrow-up-line.svg",
@@ -73145,7 +72907,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://s3plus.meituan.net/catpaw-external-resources/home/logo_black_long.svg"
       ],
@@ -73217,7 +72979,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://backend.foreignpolicy.design/media/site/f441cd200b-1754063565/fp_meta_data_image-1920x.png",
         "https://www.foreignpolicy.design/images/FP_mark.svg",
@@ -73340,7 +73102,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-14T10:34:58.139567Z",
@@ -73451,7 +73213,7 @@
       "x_status_id": "1989138776585851038"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/68a3622d17312a5dc16e5cc6/68c726371c9da69ce10a4895_Frame%202147228889.png",
         "https://px.ads.linkedin.com/collect/?pid=7341604&fmt=gif",
@@ -73668,20 +73430,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://assets.atlascard.com/images/atlas-social-image.jpg",
         "https://atlascard.com/assets/images/alex_loader.webp",
-        "https://atlascard.com/assets/images/carousel-1-mobile.webp",
         "https://atlascard.com/assets/images/carousel-2-mobile.webp",
+        "https://atlascard.com/assets/images/carousel-1-mobile.webp",
         "https://atlascard.com/assets/images/carousel-3-mobile.webp",
-        "https://atlascard.com/assets/images/dining-mobile.webp",
         "https://atlascard.com/assets/images/hotels-mobile.webp",
+        "https://atlascard.com/assets/images/dining-mobile.webp",
         "https://atlascard.com/assets/images/experiences-mobile.webp",
         "https://atlascard.com/assets/images/benefits-mobile.webp",
-        "https://atlascard.com/assets/icons/Blade.svg",
-        "https://atlascard.com/assets/icons/JetCharter.svg",
-        "https://atlascard.com/assets/icons/RemedyPlace.svg"
+        "https://atlascard.com/assets/images/CardInHand-mobile.webp",
+        "https://atlascard.com/assets/images/cardfront.webp",
+        "https://atlascard.com/assets/images/cardback.webp"
       ],
       "article_title_extracted": "Atlas Card Atlas Card",
       "category": "Tools",
@@ -73717,7 +73479,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/t/original/i/3521cad62e29e1c750d92b0f33c412990eb0941acbfaf7c23bdd4507c4aa99e6/CAMANOLO.gif",
         "https://freight.cargo.site/t/original/i/d13581bcd69483b300dd5c68ed6fcf41e18872b091d9708db13cba50a966d8d5/BIGDAWG.gif",
@@ -73968,7 +73730,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://res.cloudinary.com/adeolaadeoti/image/upload/v1746488718/meta_ouqeqb.png",
         "https://generation-sessions.s3.amazonaws.com/33569ab87b8d7c5f332f78b85feaec4e/img/gradient.png",
@@ -74074,7 +73836,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/dRUrpJ9QxOZhhllWzNWdy05cWc.png",
         "https://framerusercontent.com/images/7gcAxR5rqinsWNcMuZKxgCFHzTE.png?width=500&height=500",
@@ -74168,7 +73930,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/68fcf9490b2a28caaa0e59bc/690e7cacbe09fa446aa96850_cover.png",
         "https://cdn.prod.website-files.com/68fcf9490b2a28caaa0e59bc/69074c7847f39bcb35373842_Logo.svg",
@@ -74215,7 +73977,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/66834c6ee9ee484e8e47a9af/6994f19914e3e83dab70bd37_ragie-og.png",
         "https://cdn.prod.website-files.com/66834c6ee9ee484e8e47a9af/6960142d7919896e6fbf7b27_ragie-logo.svg",
@@ -74266,7 +74028,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.momentprocamera.com/_next/image?url=%2Fimages%2Fapp-icon.png&w=1920&q=75&dpl=dpl_5bRCzHZxi41hLkSWZ1Gqsph3yo8T",
         "https://www.momentprocamera.com/_next/image?url=%2Fimages%2Fhome-hero.png&w=1920&q=75&dpl=dpl_5bRCzHZxi41hLkSWZ1Gqsph3yo8T",
@@ -74404,7 +74166,7 @@
       "x_status_id": "1987696622915268937"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/f0av5ljp/production/0c7b9950fed986e0c9f69b4afc4a754faf7b60db-3840x2160.webp",
         "https://www.impulsespace.com/_next/image?url=https%3A%2F%2Fimage.mux.com%2FHKn01dZMCbHC8oCXuXQKMIBzhmEki5Um2oss1GOquUDg%2Fthumbnail.webp%3Ftime%3D0%26width%3D1920&w=2400&q=75",
@@ -74496,7 +74258,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/zjmfxwvd/production/4befc28b391dd550e5846b80e7834949c156da4b-1200x630.png",
         "https://cdn.sanity.io/images/zjmfxwvd/production/9b20182dc6871a8f4f111f8eea6cafb84b2f867f-838x640.heif",
@@ -74545,7 +74307,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "Replybound - Email Management in Slack",
       "category": "Tools",
       "created_at": "2025-11-10T01:45:01.178729Z",
@@ -74582,20 +74344,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://tryandai.com/Logo-Design-Full-Color-Black.png",
-        "https://www.tryandai.com/_next/image?url=%2Flogo-off-black.png&w=256&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2FIllustration-2.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fcharles-kts.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fkilpatrick.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fpeter-desmarais.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fdesmarais.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fben-procopio.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fprocopio.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Ftigran-quinn.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fquinn.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3",
-        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fscott-fish.png&w=3840&q=75&dpl=dpl_3AGD4WKuSqzGrqMwecKSfKqXZzo3"
+        "https://www.tryandai.com/_next/image?url=%2Flogo-off-black.png&w=256&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2FIllustration-2.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fcharles-kts.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fkilpatrick.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fpeter-desmarais.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fdesmarais.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fben-procopio.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fprocopio.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Ftigran-quinn.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-logos%2Fquinn.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc",
+        "https://www.tryandai.com/_next/image?url=%2Fadvisory-processed%2Fscott-fish.png&w=3840&q=75&dpl=dpl_FUPN7P3FFB98Pa6a7iRU9uAcaxDc"
       ],
       "article_title_extracted": "&AI | Scale your patent expertise",
       "category": "Tools",
@@ -74700,7 +74462,7 @@
       "x_status_id": "1986843082265141298"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://supersonik.ai/opengraph-image?c3172d4e7aa85b0b",
         "https://supersonik.ai/logos/salesforce.svg",
@@ -74749,7 +74511,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/A0yYH5sFzbWdsYme1utMvbVQow.png",
         "https://framerusercontent.com/images/x1ioW6hoCO0EWJfApnLyqDWxrs.png?width=6740&height=3332",
@@ -74852,7 +74614,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.untillabs.com/opengraph-image.png?opengraph-image.fba1f88c.png",
         "https://www.untillabs.com/twitter-image.png?twitter-image.fba1f88c.png",
@@ -75006,7 +74768,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-09T05:23:39.726034Z",
@@ -75096,7 +74858,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-09T04:58:55.098688Z",
@@ -75273,7 +75035,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4ab05312-819e-4347-8204-e32dd517ad9a/id-preview-fb6bb30f--cd763b07-bcf9-4107-a119-61fe46c8ad3c.lovable.app-1778491362175.png"
       ],
@@ -75350,7 +75112,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-07T08:41:41.204961Z",
@@ -75385,7 +75147,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-07T08:41:04.142943Z",
@@ -75475,7 +75237,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "http://www.cghnyc.com/img/og.png"
       ],
@@ -75637,7 +75399,7 @@
       "x_status_id": "1985840282802241683"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://aino.agency/_vercel/image?url=https%3A%2F%2Fjptmwnfp3yiatrcf.public.blob.vercel-storage.com%2Fsandisk_disc-NJCqE5wIGx5InoLEnhbck3lGKDmqJq-lz4KYW8qrySBTVgKhAppfeJEi06zmt.jpg&w=1920&q=90",
         "https://aino.agency/_vercel/image?url=https%3A%2F%2Fjptmwnfp3yiatrcf.public.blob.vercel-storage.com%2Fnudie-EfpCiKCFxlzQvbMmwruoVhZleMYCvp.jpg&w=1920&q=90",
@@ -75688,7 +75450,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "category": "Tools",
       "created_at": "2025-11-07T04:32:40.481210Z",
       "description": "Where design-driven companies and great talent meet.",
@@ -75724,7 +75486,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/6849e3988a27af11171e0946_OG%20Jords.png",
         "https://cdn.prod.website-files.com/67f510f568bf33e1f98526f9/6834cf2e4f8ddd95c2f472d4_7a8daabbda055851ef168eed6e5d7453_Nav%20moon.avif",
@@ -75775,7 +75537,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.wednesdaystudio.co'. (_ssl.c:1010)>",
       "category": "Design",
       "created_at": "2025-11-07T04:26:41.010775Z",
@@ -75813,7 +75576,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/67581c457aa592370052ee5d/6785b3d422eebb1584b26835_Opengraph%20Image%20SSV.png",
         "https://cdn.prod.website-files.com/67581c457aa592370052ee5d/67876f62ec6640854b7d9751_Frame%20704.svg",
@@ -75865,7 +75628,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/e8uiwb85/production/874c7b6c1e969cd0e8ddce4c91b41066b84102e7-1728x1117.png"
       ],
@@ -75906,7 +75669,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://r--i--o.com/rio-website-og-image.png",
         "https://r--i--o.com/rio-logo.svg"
@@ -75980,7 +75743,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.item.app/_assets/v11/62be4cb32de20247f21a11220e02ac7e234a4dd6.png",
         "https://www.item.app/_assets/v11/352e2f7bada9663e81a8e93d752a2b3d2c9735d5.svg",
@@ -76031,7 +75794,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/163962/1756426717-waabi_road2_04965.jpg?auto=format&fit=max&w=1200",
         "https://waabi.ai/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F163962%2F1760006286-kevin-wang-1gwy7no_nr4-unsplash_edited_final.jpg%3Ffit%3Dmax%26h%3D3000%26q%3D90%26w%3D2000&w=3840&q=75",
@@ -76125,7 +75888,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/646bbb5762ec3abf18791c43/6532cb1bdb513fffab5eb31a_Cornersthumb%20(1).jpg",
         "https://cdn.prod.website-files.com/646bbb5762ec3abf18791c43/652d67f94a365e738559c213_EYE.svg",
@@ -76348,7 +76111,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-06T07:58:59.685051Z",
@@ -76383,7 +76146,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-06T07:58:16.376713Z",
@@ -76417,7 +76180,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/688ce18b1758f3ea44331657/69dccd36d5368aeed54cd91f_1_FULL%20copy.jpg",
         "https://cdn.prod.website-files.com/688ce18b1758f3ea44331657/69afee0f6c83261079862353_SANDBAR_16x9_30sec_CLEAN%20NO%20AUDIO_00000.avif",
@@ -76586,7 +76349,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-11-04T01:07:48.511582Z",
@@ -76700,7 +76463,7 @@
       "x_status_id": "1985262439576006709"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.shopify.com/s/files/1/0670/2101/3179/files/4725_Front_Cap_On.png?v=1755192491",
         "https://cdn.sanity.io/images/gz2c4rr7/production/d94afc25c289b62de9003e7cd5d031cb621ea18d-2880x2160.jpg?w=300&auto=format&q=80",
@@ -76794,7 +76557,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://canvacreative.team/affinity/_assets/images/c24d4f377d115eb9b58cc368e9c28f39.jpg"
       ],
@@ -76835,7 +76598,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/cXtacANyMliFeTOtQBUPs6v990.jpg",
         "https://framerusercontent.com/images/95W9ugpTHs757saIcHuNNRJaM.svg?width=297&height=100"
@@ -76876,10 +76639,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://ds.shadcn.com/opengraph-image.jpg",
-        "https://ds.shadcn.com/_next/image?url=%2Fhero.jpg&w=3840&q=75&dpl=dpl_CYGEGg6iUpAcGGu3s7sa7VrjfSJw"
+        "https://ds.shadcn.com/_next/image?url=%2Fhero.jpg&w=3840&q=75&dpl=dpl_37iK3B8XVrAWRHH4SAVJS48mtr7q"
       ],
       "article_title_extracted": "shadcn/designer - Components for building design tools like Framer, Canva, and more.",
       "category": "Development",
@@ -76918,7 +76681,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://wikitiktok.vercel.app/logo.png",
         "https://wikitiktok.vercel.app/_next/image?url=%2Ficons%2Fexternal-link.png&w=48&q=75",
@@ -77048,7 +76811,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6303e9c89271a789d87fd8b3/67ffebc91221d2394d9f3f48_OMFGCO-Preview.svg",
         "https://cdn.prod.website-files.com/642217e11ae582cad56065a9/6902712100ba9d6ff30365c2_SEN-QNC-Preview-1.jpg",
@@ -77061,7 +76824,7 @@
         "https://cdn.prod.website-files.com/6303e9c89271a789d87fd8b3/64c0020aaa2b1db231715117_SmilePin-OMG%20(1).webp",
         "https://cdn.prod.website-files.com/6303e9c89271a789d87fd8b3/650347c48c2c40582ec46b57_Idea.png",
         "https://cdn.prod.website-files.com/6303e9c89271a789d87fd8b3/650347c28c2c40582ec469d3_Opportunity.png",
-        "https://cdn.prod.website-files.com/642217e11ae582cad56065a9/6525a00b52f7acbb9217a3ed_Sorelle%20Sign.jpg"
+        "https://cdn.prod.website-files.com/642217e11ae582cad56065a9/66cce39e1eb0ab906c41951c_NewBahru_Thumb_1.jpg"
       ],
       "article_title_extracted": "OMFGCO - Branding + Interior Design + Studio - Finding the poetry of place",
       "category": "Design",
@@ -77099,7 +76862,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://images.prismic.io/glasfurdandwalker/be22f631-194b-44c6-afd6-efe6f49f2acc_bao.jpg?auto=compress,format&rect=0,275,3888,2041&w=1200&h=630",
         "https://images.prismic.io/glasfurdandwalker/ZsqKskaF0TcGJYBG_meo.jpg?auto=format,compress&rect=0,126,1473,829&w=1600&h=900",
@@ -77246,7 +77009,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/0rRsACZKtCWmI4cJEC1ET3osedg.png",
         "https://framerusercontent.com/images/VsrL9R7IuxFbDJ1GjbEJtUm0VLM.jpg?width=400&height=400",
@@ -77295,7 +77058,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Articles",
       "created_at": "2025-10-31T03:03:43.994978Z",
@@ -77332,7 +77095,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://static.canva.com/static/images/fb_cover-1.jpg",
         "https://static.canva.com/static/images/supported_browsers/chrome.2024.png",
@@ -77376,7 +77139,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.shopify.com/s/files/1/0747/5878/3200/files/Social_Share.jpg?v=1760978876",
         "https://ridealso.com/cdn/shop/files/test_spin_tile.jpg?v=1779312181&width=360 360w",
@@ -77627,7 +77390,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/bnBXnNgTzMQzQnbksAsHmZ6iEZs.png",
         "https://framerusercontent.com/images/vnmig1RtYy02I4yfnuFYBct8FpI.png?width=640&height=327",
@@ -77720,7 +77483,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://pastok.com/og.webp",
         "https://pastok.com/logo.svg",
@@ -77762,7 +77525,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/2ydnq366/production/f4cbf0a26a4ce65a7f4994fd2a1315715e6433b3-1200x630.jpg?w=1200&h=630",
         "https://cdn.sanity.io/images/2ydnq366/production/eb4611b531228f03f5e5777fecf2a6bf6bd96cbf-553x100.svg",
@@ -77810,10 +77573,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://superhumanstatic.com/super-funnel/main/public/images/v3/social-share.png",
-        "https://superhumanstatic.com/vwfkeyj6n9ac/4ExmcB9B5akcYJaGyy2eKh/cc5cb3ba20a218281b975fb595892a8a/person-4.webp?w=822",
+        "https://superhumanstatic.com/vwfkeyj6n9ac/36MwTdlLo2sgpjLQT03flg/ca23ce926259301559af0a0e18c8340b/person-2.webp?w=822",
         "https://superhumanstatic.com/super-funnel/main/public/images/v3/trusted-by-logos/trustedby-logo-openai.svg",
         "https://superhumanstatic.com/super-funnel/main/public/images/v3/trusted-by-logos/trustedby-logo-figma.svg",
         "https://superhumanstatic.com/super-funnel/main/public/images/v3/trusted-by-logos/trustedby-logo-hubspot.svg",
@@ -77918,7 +77681,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "http://board.fun/cdn/shop/files/R376_NA_A010C004_250313PO.19_12_18_09_FNL.jpg?v=1753734577&width=1200",
         "https://board.fun/cdn/shop/files/R376_NA_A010C004_250313PO.19_12_18_09_FNL.jpg?v=1753734577&width=1200",
@@ -78045,7 +77808,7 @@
       "x_status_id": "1982864200847564978"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/w/1000/i/F2759033272680521925021673493529/Frame-5970.jpg"
       ],
@@ -78080,7 +77843,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://experience.odyssey.ml/share-card.jpg"
       ],
@@ -78118,7 +77881,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://thewoork.eu/wp-content/uploads/2023/10/home-share.png",
         "https://i0.wp.com/thewoork.eu/wp-content/uploads/2023/10/home-share_tw.png?fit=1024%2C512&ssl=1",
@@ -78167,7 +77930,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://website-landing-seven.vercel.app/opengraph-image.jpg?6fada1acf1f76e7e",
         "https://effect.website/_next/image?url=%2Fimages%2Fvideo-thumbnail.jpg&w=3840&q=75",
@@ -78219,7 +77982,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://react-grab.com/banner.png"
       ],
@@ -78256,7 +78019,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://opacity.com/assets/images/og-image.jpg",
         "https://opacity.com/assets/images/product-shot.png",
@@ -78610,7 +78373,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-25T03:41:46.641762Z",
@@ -78644,7 +78407,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/w/1000/i/C2816487430549620246018929485021/screenshot-1534454090.jpg"
       ],
@@ -78681,7 +78444,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://linusrogge.com/photos/linus.jpg",
         "https://linusrogge.com/_next/image?url=%2Fwork%2Fregpit%2Fhero.jpg&w=3840&q=90",
@@ -78790,15 +78553,15 @@
       "x_status_id": "1981419109691904422"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://workflow-sdk.dev/og",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstorytime-v2.07.~q9r~ww~2-.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstorytime-v2-dark.0z48-tinckwgh.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-v2.01bqc5_xag7wk.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-v2-dark.07rkalnvglnzt.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvectr-v2.0uhd287kt4etx.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ",
-        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvectr-v2-dark.0sd2lltx_x4ll.png&w=1920&q=75&dpl=dpl_6YJBeJVgJqDHbG2pc4As7eohQJUZ"
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstorytime-v2.07.~q9r~ww~2-.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88",
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstorytime-v2-dark.0z48-tinckwgh.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88",
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-v2.01bqc5_xag7wk.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88",
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-v2-dark.07rkalnvglnzt.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88",
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvectr-v2.0uhd287kt4etx.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88",
+        "https://workflow-sdk.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvectr-v2-dark.0sd2lltx_x4ll.png&w=1920&q=75&dpl=dpl_4H4r6AJS7XXkAbbXxSoTGqSU5H88"
       ],
       "article_title_extracted": "Workflow SDK - Make any TypeScript Function Durable",
       "category": "Development",
@@ -78837,7 +78600,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-23T12:58:06.640074Z",
@@ -78919,7 +78682,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://opengraph.b-cdn.net/production/images/fe1c7dec-9d68-436d-bd63-a95eefa43465.png?token=YelScdl-Ww1APx4IJfcUcacNJScisgb7AIDbvvKrFj0&height=675&width=1200&expires=33284440757",
         "https://deta.surf/_image?href=%2F_astro%2Fbg2.D8ojGQii.webp&w=3840&h=2160&q=100&f=webp",
@@ -79056,7 +78819,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://findanyfile.app/images/faf-big.png",
         "https://findanyfile.app/imgs/findsimple.png",
@@ -79102,7 +78865,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://minorstep.com/share.jpg",
         "https://minorstep.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fwlhinqbs%2Fproduction%2F8ce595aa5dcd1b0c9eb29da08699e27b7cdfe027-2800x3500.jpg&w=6016&q=80",
@@ -79183,22 +78946,22 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://composio.dev/_next/image?url=%2Flogos%2Fcomposio-full-white.svg&w=256&q=75",
         "https://composio.dev/_next/image?url=%2Flogos%2Fcomposio-full-black.svg&w=256&q=75",
-        "https://composio.dev/images/shader-fallback.jpg",
-        "https://composio.dev/images/clients/claude.svg",
-        "https://logos.composio.dev/api/composio",
-        "https://logos.composio.dev/api/linear",
-        "https://logos.composio.dev/api/slack",
-        "https://logos.composio.dev/api/github",
-        "https://logos.composio.dev/api/figma",
-        "https://logos.composio.dev/api/notion",
-        "https://logos.composio.dev/api/gmail",
-        "https://logos.composio.dev/api/hubspot"
+        "https://composio.dev/_next/image?url=%2Fimages%2Fclients%2Fclaude.svg&w=48&q=75",
+        "https://composio.dev/_next/image?url=%2Fimages%2Fclients%2Fcodex.svg&w=48&q=75",
+        "https://composio.dev/_next/image?url=%2Fimages%2Fclients%2Fopenclaw.svg&w=48&q=75",
+        "https://composio.dev/_next/image?url=%2Fimages%2Fclients%2Fcursor.svg&w=48&q=75",
+        "https://composio.dev/_next/image?url=%2Fimages%2Fclients%2Fhermes.png&w=48&q=75",
+        "https://composio.dev/_next/image?url=%2Fclients%2Flogo-agentai.svg&w=256&q=75",
+        "https://composio.dev/_next/image?url=%2Fclients%2Flogo-zoom.png&w=256&q=75",
+        "https://composio.dev/_next/image?url=%2Fclients%2Flogo-letta.svg&w=256&q=75",
+        "https://composio.dev/_next/image?url=%2Fclients%2Flogo-glean.svg&w=256&q=75",
+        "https://composio.dev/_next/image?url=%2Fclients%2Flogo-hubspot.svg&w=256&q=75"
       ],
-      "article_title_extracted": "For You | Composio",
+      "article_title_extracted": "Composio",
       "category": "Development",
       "created_at": "2025-10-22T04:09:42.865299Z",
       "description": "Build agents that do more. Composio gives you APIs, SDKs, and prebuilt integrations to let your AI agents interact with apps like Slack, HubSpot, GitHub and beyond.",
@@ -79410,7 +79173,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/675b5896bf40e9ccd384d999/67e721ccc23bc393814e6d26_Frame%20427320263.png",
         "https://cdn.prod.website-files.com/675b5896bf40e9ccd384d999/691fdfad4933ffb8758f4d91_BIEN%20Hero%20Video%20Thumbnail.jpeg",
@@ -79462,7 +79225,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://orage.studio/wp-content/uploads/2025/05/og-orage.jpg",
         "https://orage.studio/wp-content/themes/beaucoup/public/images/background-mobile.abaf9b.jpg"
@@ -79503,7 +79266,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://images.prismic.io/mvds/aI4C1aTt2nPbZywB_og-image.jpg",
         "https://images.prismic.io/mvds/aDyfdLh8WN-LVdUX_241125_Inmoition-5-avatar.jpg?auto=format,compress&rect=0,0,1160,1160&w=200&h=200"
@@ -79544,7 +79307,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://images.prismic.io/lightspark-web/ageHhqYofJOwHSa5_og-05-2026.png?auto=format,compress",
         "https://www.lightspark.com/images/home/gga-hero/bg-gga.webp",
@@ -79631,7 +79394,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://assets.ramp.com/nextjs/box-stunt/opengraph-image.jpg",
         "https://assets.ramp.com/nextjs/box-stunt/twitter-image.jpg"
@@ -79704,7 +79467,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://flabbergast.agency/wp-content/uploads/2025/05/OG-general.png",
         "https://flabbergast.agency/wp-content/uploads/wp-image-pack/130/DSCF0642-scaled-1-400x0.webp",
@@ -79791,7 +79556,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://rollups.com/images/og-homepage.png",
         "https://rollups.com/_next/static/media/in-action-5.7c07bb5c.png",
@@ -79840,7 +79605,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "USA Status",
       "category": "Tools",
       "created_at": "2025-10-20T03:26:00.549290Z",
@@ -79872,7 +79637,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Tools",
       "created_at": "2025-10-20T03:24:20.057740Z",
@@ -79909,7 +79674,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://nan.fyi/opengraph-image-12jlf3.png?opengraph-image.0iuxl2yjmxhfh.png",
         "https://www.nan.fyi/_next/static/media/db.0o9pj.u6xrjsa.png",
@@ -80014,9 +79779,10 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://youtu.be/SWs2iltL7rU?si=1SE-k_rF3OJ4dXEe//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.159.117  \nTime: 2026-06-02T12:35:47Z  \nURL: https://www.youtube.com/watch?si=1SE-k\\_rF3OJ4dXEe&v=SWs2iltL7rU&feature=youtu.be",
       "article_title_extracted": "- YouTube",
       "category": "Media",
+      "cleaner_v": 2,
       "created_at": "2025-10-19T03:38:56.855517Z",
       "description": "Kaizen • YouTube",
       "domain": "youtu.be",
@@ -80136,7 +79902,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://xmcp.dev/xmcp-og.png",
         "https://xmcp.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffeature-1.00._2b85g35u1.jpg&w=640&q=75&dpl=dpl_DVUJRhiWV4S84t7J13J3vd8shAKf",
@@ -80226,7 +79992,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/662d202fe2a9b95c3f103eaf/668fe1d1a56a3fc3cc2baf4c_JG%20OG.webp",
         "https://cdn.prod.website-files.com/66350427ab10739233109814/6723642270c537f5a2d7726b_TRH-Cover.avif",
@@ -80277,7 +80043,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/2Yrw6XMTAi03IeZKTBrhuoDzM.jpeg",
         "https://framerusercontent.com/images/cZP2uVLKTSIMUaOoxRUswMIc.jpg?width=1200&height=675",
@@ -80324,11 +80090,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://microsoft.ai/wp-content/themes/wp-base-theme/dist/assets/images/social.jpg",
         "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
-        "https://microsoft.ai/wp-content/uploads/2026/04/MAI-Blog-MAIN-Foundry.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/05/MAI-Blog-MAIN-Foundry-1.jpg",
         "https://microsoft.ai/wp-content/uploads/2026/03/travistrautt_-6927-1.png",
         "https://microsoft.ai/wp-content/uploads/2026/03/travistrautt_-8317-1.png",
         "https://microsoft.ai/wp-content/uploads/2026/03/travistrautt_-7374-1.png",
@@ -80376,7 +80142,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_fetch_error": "HTTP Error 404: Not Found",
       "category": "Tools",
       "created_at": "2025-10-17T04:04:01.899387Z",
@@ -80460,7 +80226,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://21st.dev/opengraph-image.png"
       ],
@@ -80501,7 +80268,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/7BQVMeZJmknbKcPXpaLDgqJAOxI.png",
         "https://framerusercontent.com/images/kADD0hKYpCopy4nlsnnQD0eFA.svg",
@@ -80595,7 +80362,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://opengraph.b-cdn.net/production/images/ce47df55-78dc-4c7b-9a6b-f55b17b4625b.jpg?token=-O2ktMkyY6-5kBkYP2MxyMljIVUJdezIm3wq7CWwOTs&height=786&width=1200&expires=33296303291"
       ],
@@ -80691,7 +80458,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://res.cloudinary.com/codevickk/image/upload/q_auto:good/v1747801647/Evok/Images/Og_Card_umwhi0.webp",
         "https://res.cloudinary.com/codevickk/image/upload/q_auto:good/v1725034704/Evok/displayau_A_white_room_with_light_wood_and_cream_walls_minimali_18d82709-4a4c-47f7-9866-5d31b4947aac_siaax9.webp"
@@ -80764,7 +80531,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://strawberrybrowser.com/images/logo-512.png",
         "https://strawberrybrowser.com/icons/brands/linkedin.svg",
@@ -80932,7 +80699,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-15T11:48:05.600645Z",
@@ -81001,7 +80768,7 @@
       "x_status_id": "1978124226742944193"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://mirage.app/mrkt-static/og-image.png",
         "https://mirage.app/_astro/video-gradient-frame.B6kRYcGV.png",
@@ -81087,7 +80854,7 @@
       "x_status_id": "1977661244988608567"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://vpcwatch.co/wp-content/uploads/2025/09/sharing-image.png"
       ],
@@ -81121,7 +80888,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://voidzero.dev/og.jpg",
         "https://voidzero.dev/assets/footer-background.BOazVP_q.jpg",
@@ -81173,7 +80940,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/qkmu9abf/production/05069ed7f5ec8891b7613fe5946b0a40beceab71-1200x630.png?auto=format&q=75&w=1200&format=png"
       ],
@@ -81256,7 +81023,8 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://toptier.relats.com/wp-content/uploads/2025/09/top-tier-opengraph.jpeg",
         "https://toptier.relats.com/wp-content/themes/relats/img/loader.gif",
@@ -81307,7 +81075,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://displaay.net/images/og-default.png",
         "https://displaay.net/images/homepage/new-releases/coolkit.jpg",
@@ -81358,10 +81126,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
-        "https://coss.com/ui/opengraph-image.png?opengraph-image.1246bed5.png",
-        "https://coss.com/ui/twitter-image.png?twitter-image.1246bed5.png"
+        "https://coss.com/ui/opengraph-image.png?opengraph-image.0xa1qes_4_px0.png",
+        "https://coss.com/ui/twitter-image.png?twitter-image.0xa1qes_4_px0.png"
       ],
       "article_title_extracted": "A new, modern UI component library built on top of Base UI - coss ui",
       "category": "Crypto",
@@ -81441,7 +81209,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.shopify.com/s/files/1/0666/1997/files/Home_Page_Desktop_from_Tommy_60ca804a-0a1a-4ab6-8d88-572d03e1c22c.jpg?v=1757004117",
         "https://www.benjaminedgar.com/cdn/shop/t/16/assets/landscape.svg?v=14891479306454149521763493001",
@@ -81524,7 +81292,7 @@
       "x_status_id": "1958529947120906548"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.cloudflare.com/preview.png",
         "https://www.cloudflare.com/people/duncan-davidson.png",
@@ -81576,7 +81344,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-10T09:22:18.646316Z",
@@ -81610,7 +81378,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://viteplus.dev/og.jpg",
         "https://viteplus.dev/assets/viteplus-dark.Cy6PBzfr.svg",
@@ -81659,7 +81427,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-10T13:31:29.496347Z",
@@ -81694,9 +81462,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/68e671add8e669bb0f19cc76_ceo-banner.avif",
+        "https://px.ads.linkedin.com/collect/?pid=9423908&fmt=gif",
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/68a86f2237bf99794450bd99_img-loop.webp",
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/68b81a08aac902c2e3d64352_image%20159-4.avif",
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/68e66ba4dc961a6bfbba4592_stopcadrnew.avif",
@@ -81706,8 +81475,7 @@
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e79fdc75b5282af7028b4_siro.avif",
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e7a0533bbc7e137bdd0cb_residesk.avif",
         "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e7a1263f5a02c1c57c755_othram.avif",
-        "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e7a1f16deca73fcd66743_flint.avif",
-        "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e7a3138638ef04732c35b_subject.avif"
+        "https://cdn.prod.website-files.com/68a6e69b06e4b0e24e9ba829/696e7a1f16deca73fcd66743_flint.avif"
       ],
       "article_title_extracted": "Accounts Receivable Automation | Get Paid Fast",
       "category": "Tools",
@@ -81745,20 +81513,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://contra.com/static/opengraph-assets/v2/fallbacks/contra-fallback-open-graph-image.png",
         "https://builds.contra.com/assets/assets/static/hero-background-left.BcTgHeV1.webp",
         "https://builds.contra.com/assets/assets/static/hero-background-right.BhyVmgaC.webp",
+        "https://media.contra.com/image/upload/lpr2jgr0swla7g60xqei",
+        "https://media.contra.com/image/upload/h_100,w_100/c6j1f0djfencp7mdttsv.avif",
+        "https://media.contra.com/image/upload/h_100,w_100/vpkmamf9ktqwfolgvb5i.avif",
+        "https://media.contra.com/image/upload/h_100,w_100/b1qgviwtovolaewrq0q2.avif",
         "https://media.contra.com/image/upload/rushnrvxw7oai4ke7ind",
-        "https://media.contra.com/image/upload/h_100,w_100/rojwqtesnx0yxpwifrnx.avif",
-        "https://media.contra.com/image/upload/h_100,w_100/ndrjimrqtdwmgzlzdqna.avif",
-        "https://media.contra.com/image/upload/h_100,w_100/zsrkhhmyoojz8fmewvcd.avif",
-        "https://media.contra.com/image/upload/product_assets/vectors/jzokjx4s0ltj1zz2tdcc",
-        "https://media.contra.com/image/upload/h_100,w_100/v08tx0lpmwfx3dpyyyic.avif",
-        "https://media.contra.com/image/upload/h_100,w_100/gc18mfukyvywconxe9ok.avif",
-        "https://media.contra.com/image/upload/h_100,w_100/mbckbwet4jmnohqcnlka.avif",
-        "https://media.contra.com/image/upload/product_assets/vectors/jnvlzvippslnle96sogo"
+        "https://media.contra.com/image/upload/h_100,w_100/nru7xzti26ebu98icxjx.avif",
+        "https://media.contra.com/image/upload/h_100,w_100/bw5six3jmlop9sezrnzx.avif",
+        "https://media.contra.com/image/upload/h_100,w_100/afl69zn0hbptpxm3blgi.avif",
+        "https://media.contra.com/image/upload/te01vwgqveuhwpdokqsf"
       ],
       "article_title_extracted": "Contra - A professional network for the jobs and skills of the future Contra - A professional network for the jobs and skills of the future Contra - The network for creative intelligence.",
       "category": "Tools",
@@ -81959,7 +81727,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://radical-face.transforms.svdcdn.com/staging/Self-Portrait-Crop-2.jpg?w=1200&h=627&q=85&fm=jpg&fit=crop&dm=1747836184&s=0903b4c145ad6e19f49d212bb555832c",
         "https://radical-face.transforms.svdcdn.com/staging/Self-Portrait-Crop-2.jpg?w=1200&h=1200&q=85&fm=jpg&fit=crop&dm=1747836184&s=a5897495a8a3c66cbba19f82fc417959",
@@ -82010,7 +81778,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.stokespace.com/wp-content/uploads/2022/12/social-bg-1200x675.jpg",
         "https://www.stokespace.com/wp-content/uploads/2022/12/social-bg.jpg",
@@ -82058,7 +81826,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/XXNiNXbRLo77197g1BXBd7iSu4.png",
         "https://framerusercontent.com/images/ilvoXTDcnDsImvphfVtUJPTKOp8.jpg?scale-down-to=2048",
@@ -82233,22 +82001,22 @@
       "x_status_id": "1975257422282269100"
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68d50498e58578b3a508786e_OG%20Image.png",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/6957e6d9ba2de3fdc968af18_Tether-symbol.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae1929f_Frame%201597880415.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae1928b_sNUSD%20-%20Option%205.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae1928d_Frame%201597880471.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae1928a_Frame%201597880475.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae1929e_Frame%201597880416.svg",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae192d9_Axis.avif",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae192c5_AUSD.avif",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae192dd_USD.ai.avif",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae192c7_USDS.avif",
-        "https://cdn.prod.website-files.com/68762d4ac364502c1ae1924b/68762d4ac364502c1ae192d8_Uranium.avif"
+        "https://www.plasma.org/og/home.png",
+        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-plasma-one-logo-white/f771f286cc0bec165f36751fbcf84a95/logo-white.svg",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_6nWrRno8frmLNy58pCtnBfX7ntnU",
+        "https://www.plasma.org/images/home-v2/partners/partner-card-ramp-hires.png",
+        "https://www.plasma.org/images/home-v2/partners/partner-card-zerohash-hires.png"
       ],
-      "article_title_extracted": "Plasma - Stablecoin infrastructure for instant payments",
+      "article_title_extracted": "Plasma | Stablecoin account for spending, saving and earning",
       "category": "Crypto",
       "created_at": "2025-10-08T23:35:34.641403Z",
       "description": "Plasma is a high‑performance Layer 1 built for USD₮ payments at global scale. Instant transfers, low fees and full EVM compatibility.",
@@ -82285,7 +82053,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.speakeasy.com/assets/og-images/og-speakeasy.png",
         "https://www.speakeasy.com/customers/fifth-third.svg",
@@ -82294,11 +82062,11 @@
         "https://www.speakeasy.com/customers/docusign.svg",
         "https://www.speakeasy.com/customers/launchdarkly.svg",
         "https://www.speakeasy.com/customers/fivetran.svg",
+        "https://www.speakeasy.com/_next/image?url=%2Fcustomers%2Fredis.png&w=256&q=75",
         "https://www.speakeasy.com/customers/glean.svg",
         "https://www.speakeasy.com/customers/vercel.svg",
         "https://www.speakeasy.com/customers/planetscale.svg",
-        "https://www.speakeasy.com/assets/logos/aws.svg",
-        "https://www.speakeasy.com/assets/logos/cursor-wordmark.svg"
+        "https://www.speakeasy.com/assets/logos/aws.svg"
       ],
       "article_title_extracted": "One platform to secure every AI agent across your organization | Speakeasy",
       "category": "Tools",
@@ -82336,20 +82104,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67b86c4b74de04411eb68bd1_flexible.webp",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b509a3779041f485b1fa3_Features.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533828035673a6280839_Integrations.svg",
         "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339f71b13cd1e531ac1_Finance.svg",
         "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339158f3f731924dce4_Sales.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/6a1442f6388a70a69800092e_Partners.svg",
         "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/67f50a84a17e18addc50b3f5_Buyers.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b53397e733ecbd35543b8_Resources%20Hub.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5338a6b9aeec8e7d10b8_Pulse%20of%20SaaS.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5338ee63156561b36110_Discount%20Impact.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533911fe440d84e6c7b1_ARR.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b509a3779041f485b1fa3_Features.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533828035673a6280839_Integrations.svg",
         "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5339f0bd808952c09738_About.svg",
-        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5370e7954b1d9cd37e09_Careers.svg"
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5370e7954b1d9cd37e09_Careers.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b53397e733ecbd35543b8_Resources%20Hub.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b5338ee63156561b36110_Discount%20Impact.svg",
+        "https://cdn.prod.website-files.com/6146543ab50f167ae088b201/679b533911fe440d84e6c7b1_ARR.svg"
       ],
       "article_title_extracted": "Modern Vendor Financing for B2B Software and Hardware Purchases | Capchase",
       "category": "Tools",
@@ -82387,7 +82155,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://react.email/static/covers/react-email.png",
         "https://react.email/_next/image?url=%2Fstatic%2Fbg.png&w=3840&q=75",
@@ -82429,19 +82197,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://snohetta.b-cdn.net/uploads/images/thumbnail_2025.jpg?width=1200&height=630&format=jpg&quality=85&crop=1920%2C1008%2C0%2C36",
         "https://snohetta.b-cdn.net/uploads/images/thumbnail_2025.jpg?width=1200&height=600&format=jpg&quality=85&crop=1920%2C960%2C0%2C60",
-        "https://snohetta.b-cdn.net/uploads/oa/usm-haller/US1234_webimageland.jpg?width=500&height=333&quality=85&crop=1717%2C1143%2C165%2C0",
         "https://snohetta.b-cdn.net/uploads/oa/aura/2023199_N28_webimageland.jpg?width=500&height=333&quality=85&crop=1730%2C1152%2C159%2C0",
+        "https://snohetta.b-cdn.net/uploads/oa/usm-haller/US1234_webimageland.jpg?width=500&height=333&quality=85&crop=1717%2C1143%2C165%2C0",
+        "https://snohetta.b-cdn.net/uploads/images/IMG_9353.jpg?width=500&height=333&quality=85&crop=1771%2C1179%2C148%2C0",
         "https://snohetta.b-cdn.net/uploads/oa/solstice-culinary-space/20241209_HK_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C0",
         "https://snohetta.b-cdn.net/uploads/oa/good-finance-taichung/2022115_HK_N72_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C137",
         "https://snohetta.b-cdn.net/uploads/oa/queensland-performing-arts-centre-the-glass-house-theatre/1818_AU_N25_webimageland.jpg?width=500&height=333&quality=85&crop=1920%2C1279%2C0%2C80",
         "https://snohetta.b-cdn.net/uploads/oa/ion-riva/2025201_OS_N3_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C342",
         "https://snohetta.b-cdn.net/uploads/images/Snohetta_Euraenergie_05-copy.jpg?width=500&height=333&quality=85&crop=2244%2C1495%2C0%2C0",
         "https://snohetta.b-cdn.net/uploads/oa/riyadh-metro-station/2012183_OS_N555_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C1",
-        "https://snohetta.b-cdn.net/uploads/oa/matter-carpet-collection-for-ege/2022217_N73_webimageland.jpg?width=500&height=333&quality=85&crop=1717%2C1143%2C165%2C0",
         "https://snohetta.b-cdn.net/uploads/oa/theodore-roosevelt-presidential-library/ACQ037_TRPL_N27_webimageland.jpg?width=500&height=333&quality=85&crop=1750%2C1165%2C149%2C0"
       ],
       "article_title_extracted": "Snøhetta",
@@ -82478,7 +82246,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/ZdiLSa8JaUlyXC673hHAKbahvYs.png",
         "https://framerusercontent.com/images/sp2vuhYPXlJDD2MBwrsvCqNNs.webp?width=2838&height=3784",
@@ -82529,7 +82297,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://pocketboss.ch/_astro/preview.yx5HrWri_Zfaomw.webp",
         "https://pocketboss.ch/_astro/bg-fallback.CMjU-LHj.jpg",
@@ -82578,7 +82346,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.facebook.com/tr?id=1319478000035333&ev=PageView&noscript=1",
         "https://reducto.ai/opengraph-image-pztefn.png?dad257abe5b90369",
@@ -82709,7 +82477,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://ponpon-mania.com/share-tw.jpg",
         "https://ponpon-mania.com/share-fb.jpg"
@@ -82782,7 +82550,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://grillikiosk.com/cdn/shop/files/daniel-faro_grilli-type_7S0A0207-Edit_lowres_400x.jpg?v=1635882076",
         "https://grillikiosk.com/cdn/shop/files/HERO_01_2000x.jpg?v=1770871218",
@@ -82869,7 +82637,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2025-10-06T09:21:49.673088Z",
@@ -82904,7 +82672,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://freight.cargo.site/i/50f4bb7a462ac004ec9f425ce55e54d0c17cb3415217a077c66bb8c51daa01cb/02_.jpg"
       ],
@@ -82945,9 +82713,10 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://www.youtube.com/watch?v=uZRK60JNA54//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://www.youtube.com/watch?v=uZRK60JNA54//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.165.18  \nTime: 2026-06-02T12:39:23Z  \nURL: https://www.youtube.com/watch?v=uZRK60JNA54",
       "article_title_extracted": "- YouTube",
       "category": "Media",
+      "cleaner_v": 2,
       "created_at": "2025-10-06T09:12:23.327649Z",
       "description": "Nothing • YouTube",
       "domain": "www.youtube.com",
@@ -82979,7 +82748,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/xc0kCBEy51ej5gLZkSIxPkVW4.jpg",
         "https://framerusercontent.com/images/3Cf6aPvDeGtTXG1PSJBbRHac74E.png?width=4096&height=2731",
@@ -83097,8 +82866,9 @@
       "x_status_id": "1975049144806056046"
     },
     {
-      "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://depot.dev/depot-social.png",
         "https://depot.dev/images/twitter/jackw_xyz.webp",
@@ -83185,7 +82955,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://unicup.uniswap.org/preview.png"
       ],
@@ -83222,7 +82992,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/fkvzptmq/production/0f55fef683e3d7d6f5f4325fb9c8ac023e5c99ae-1200x630.gif?w=1200",
         "https://takeagander.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ffkvzptmq%2Fproduction%2Fcf80d2747541609a703f3bfc320fd6608e8ba336-1856x2235.png%3Fw%3D1856%26h%3D2235%26q%3D80%26fit%3Dmax%26auto%3Dformat&w=3840&q=80",
@@ -83318,7 +83088,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.agenticcommerce.dev/_next/image?url=%2Fshirt-1.png&w=3840&q=75",
         "https://www.agenticcommerce.dev/_next/image?url=%2Fshirt-2.png&w=3840&q=75",
@@ -83367,7 +83137,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://conare.ai/og.png"
       ],
@@ -83456,7 +83226,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/aqhlygr6/production/6fa855806fd19d1b44b1fa53114264a8f310ddc5-3840x2160.jpg",
         "https://cdn.sanity.io/images/aqhlygr6/production/d9134c330af0a7b1763832a15ddd12587402a3d1-4000x3000.jpg?w=3840&q=75&fit=clip&auto=format",
@@ -83614,7 +83384,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://res.cloudinary.com/dsefru47i/image/upload/v1758877163/Preview_Image_x1dqw9.png",
         "https://geniestudio.app/logo/wordmark.svg",
@@ -83717,7 +83487,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://www.parloa.com/img/og.png",
         "https://a.storyblok.com/f/330303/800x572/5420d26b82/the-2025-ai-agent-buyer-s-guide-small.jpg/m/467x0/filters:quality(undefined):format(webp)",
@@ -83768,7 +83538,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-26T04:48:02.478105Z",
+      "article_fetch_attempted_at": "2026-06-02T12:28:09.053314Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/66ea3a5528a044beafcf913e/673414b93c1fd7b39424c945_home.webp",
         "https://cdn.prod.website-files.com/66ea3a5528a044beafcf913e/670336a784858cd4b8e6b008_question%20mark%20purple%201.png",
@@ -85027,61 +84797,6 @@
       "title_zh_translator_v": 2,
       "url": "https://x.com/jaydwivedi_/status/1970767743570911447?s=46",
       "x_status_id": "1970767743570911447"
-    },
-    {
-      "article_image_urls": [
-        "https://cdn.sanity.io/images/599r6htc/regionalized/342e17642c7afa81206490b0dd21c3e5724ae040-2400x1260.png?w=1200&q=70&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304.png?w=540&h=304&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/e668a31dbe2054432638cf03cb7f763a3231031a-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/490230df0951f1357488f9dc7e8126ed3d5b170e-256x256.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/9cf9682abec3b368e9d2e539b18fb61cbfd525d3-256x256.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/e458228cf6d70c6e64d043bdc517e8268cbe784d-256x256.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/a1f747043bd66adeb31d5ecc6a3d72886c854d8c-256x256.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/2289ead82229e52bfe32637c5d13ac4a02e198d2-98x96.svg?q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/2c1814140bd0ea9f25059b28a5b530129d619178-128x128.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/36f4e1e3d70d33d845e223d4e07b5965bcfaf186-532x454.png?rect=39,0,454,454&w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/e1fd492104a3f02b969d8aa351f7aec27a4e2b81-256x256.png?w=56&h=56&q=75&fit=max&auto=format",
-        "https://cdn.sanity.io/images/599r6htc/regionalized/24e9575901f0dcf15c4787fbf19877a4a248db9f-256x256.png?w=56&h=56&q=75&fit=max&auto=format"
-      ],
-      "article_text": "Skip to main content Products Figma Design Design and prototype in one place Dev Mode Translate designs into code FigJam Collaborate with a digital whiteboard Figma Slides Co-create presentations Figma Draw Illustrate with advanced vector tools Figma Buzz Beta Produce on-brand assets at scale Figma Sites Beta Publish fully responsive websites Figma Make Prompt to code anything you can imagine AI Explore all Figma AI features MCP Connect Figma to AI coding tools Downloads Get the desktop, mobile, and font installer apps Release Notes See the latest features and releases Solutions Use cases Design systems Prototyping UX design Web design Wireframing Online whiteboard Agile Strategic planning Brainstorming Diagramming Product development Web development Design handoff See all solutions Roles Design Engineering Product managers Organizations Enterprise Education Government Community Events Learn best practices at virtual events User groups Join a local Friends of Figma group Customer stories Read about leading product teams Figma Gallery Explore Figma Make and Figma Sites projects made by our users Resources Shortcut: The Figma blog Stories about how products take shape—and shape our world Get started Plugins UI kits Icons Widgets Templates Tools Partners See all Learn Best practices Reports & insights Resource library Demos Webinars Help center Figma Support Pricing Log in Contact sales Get started Get started for free Log in Contact sales Get started Get started for free MCP client tools Connect Figma to top MCP clients However you like to code, the Figma MCP server adds Figma context to your favorite agentic tools. MCP clients Claude Code Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access View install guide Claude Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access View install guide Cursor Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access Add MCP to Cursor VS Code Supports Figma Design, and FigJam Remote and local servers Read and write access Add MCP to VS Code GitHub Copilot CLI Supports Figma Design and Figma Make Remote and local servers Read and write access View install guide Codex by OpenAI Supports Figma Design and FigJam Remote and local servers Read and write access View install guide ChatGPT Supports Figma Design, FigJam, Figma Slides, and Figma Make Remote and local servers Read and write access Add MCP to ChatGPT Windsurf Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access View install guide Kiro Supports Figma Design and FigJam Remote and local servers Read and write access View install guide Replit Supports Figma Design and FigJam Remote server only Read only access View install guide Warp Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access View install guide Firebender Supports Figma Design, Figma Make, and FigJam Remote and local servers Read and write access View install guide Factory Supports Figma Design and FigJam Remote and local servers Read and write access View install guide Augment Supports Figma Design and FigJam Remote and local servers Read and write access View install guide Google Gemini CLI Supports Figma Design and FigJam Remote and local servers Read only access View install guide Rovo Studio Supports Figma Design and FigJam Remote and local servers Read-only access Add MCP to Rovo Studio Android Studio Supports Figma Design and FigJam Remote and local servers Read only access View install guide Amazon Q Supports Figma Design and FigJam Local server only Read only access View install guide OpenHands Supports Figma Design and FigJam Local server only Read only access View install guide Zed Supports Figma Design and FigJam Local server only Read only access View install guide ServiceNow Build Agent Supports Figma Design Remote server only Read only access View install guide Submit your app f",
-      "article_text_zh": "MCP 客户端工具  \n将 Figma 连接到主流 MCP 客户端  \n\n无论你习惯以何种方式编码，Figma MCP 服务器都能为你喜爱的智能体工具添加 Figma 上下文。  \n\n**MCP 客户端**  \n\n- **Claude Code**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Claude**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Cursor**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  将 MCP 添加到 Cursor  \n\n- **VS Code**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  将 MCP 添加到 VS Code  \n\n- **GitHub Copilot CLI**  \n  支持 Figma Design 和 Figma Make  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Codex by OpenAI**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **ChatGPT**  \n  支持 Figma Design、FigJam、Figma Slides 和 Figma Make  \n  远程与本地服务器  \n  读写权限  \n  将 MCP 添加到 ChatGPT  \n\n- **Windsurf**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Kiro**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Replit**  \n  支持 Figma Design 和 FigJam  \n  仅远程服务器  \n  只读权限  \n  查看安装指南  \n\n- **Warp**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Firebender**  \n  支持 Figma Design、Figma Make 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Factory**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Augment**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  读写权限  \n  查看安装指南  \n\n- **Google Gemini CLI**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  只读权限  \n  查看安装指南  \n\n- **Rovo Studio**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  只读权限  \n  将 MCP 添加到 Rovo Studio  \n\n- **Android Studio**  \n  支持 Figma Design 和 FigJam  \n  远程与本地服务器  \n  只读权限  \n  查看安装指南  \n\n- **Amazon Q**  \n  支持 Figma Design 和 FigJam  \n  仅本地服务器  \n  只读权限  \n  查看安装指南  \n\n- **OpenHands**  \n  支持 Figma Design 和 FigJam  \n  仅本地服务器  \n  只读权限  \n  查看安装指南  \n\n- **Zed**  \n  支持 Figma Design 和 FigJam  \n  仅本地服务器  \n  只读权限  \n  查看安装指南  \n\n- **ServiceNow Build Agent**  \n  支持 Figma Design  \n  仅远程服务器  \n  只读权限  \n  查看安装指南  \n\n提交你的应用",
-      "article_text_zh_hash": "baf9e5c67f690f03",
-      "article_text_zh_translator_v": 2,
-      "article_title_extracted": "Figma MCP Catalog | Figma",
-      "category": "Tools",
-      "cleaner_v": 2,
-      "created_at": "2025-09-24T05:05:34.126245Z",
-      "description": "However you like to code, the Figma MCP server adds Figma context to your favorite agentic tools.",
-      "description_zh": "无论你喜欢以何种方式编码，Figma MCP 服务器都能为你最喜爱的智能工具添加 Figma 上下文支持。",
-      "description_zh_hash": "74b8ffef43585b2a",
-      "description_zh_translator_v": 2,
-      "domain": "www.figma.com",
-      "embed_type": "",
-      "id": "k17eahsw9ahs6t7xsn32wt439x7r706k",
-      "og_image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/1adfa5a99040c80af7b4b5e3e2cf845315ea2367-2400x1260.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format",
-      "recommended_at": "2025-09-24T05:05:41.217000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "figma",
-        "mcp",
-        "agentic-tools"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2025-09-24T05:05:41.217000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Figma MCP Catalog | Figma",
-      "title_zh": "# Figma MCP 目录 | Figma",
-      "title_zh_hash": "b2b0b68c78015f35",
-      "title_zh_translator_v": 2,
-      "url": "https://www.figma.com/mcp-catalog/",
-      "x_status_id": null
     },
     {
       "article_fetch_attempted_at": "2026-05-26T16:30:23.002723Z",
@@ -98305,7 +98020,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2059,
+      "count": 2053,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -98341,5 +98056,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-02T05:30:55.265041Z"
+  "updated_at": "2026-06-02T12:39:38.430772Z"
 }
