@@ -7883,22 +7883,6 @@
       "title": "cozy-window-shade.html · GitHub",
       "url": "https://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b"
     },
-    "https://gist.github.com/phuryn/5d84854f90f70ea2897557f1214785a3": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "/security-audit-static (based on Claude's security-guidance plugin) - security-audit-static.md",
-      "extraction_source": "trafilatura",
-      "final_url": "https://gist.github.com/phuryn/5d84854f90f70ea2897557f1214785a3",
-      "frameable": false,
-      "image_urls": [
-        "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-        "https://avatars.githubusercontent.com/u/7837354?s=64&v=4"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "/security-audit-static (based on Claude's security-guidance plugin) · GitHub",
-      "url": "https://gist.github.com/phuryn/5d84854f90f70ea2897557f1214785a3"
-    },
     "https://github.com/0xNyk/awesome-hermes-agent": {
       "content_type": "text/html; charset=utf-8",
       "description": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research - 0xNyk/awesome-hermes-agent",
@@ -10598,35 +10582,6 @@
       "title": "GitHub - langflow-ai/langflow: Langflow is a powerful tool for building and deploying AI-powered agents and workflows. · GitHub",
       "url": "https://github.com/langflow-ai/langflow"
     },
-    "https://github.com/langfuse/langfuse/pull/13797": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23  - fix(llm): harden LLM connection fetches by wochinge · Pull Request #13797 · langfuse/langfuse",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/langfuse/langfuse/pull/13797",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/9e20c23d5c2aa605a7308eb5e33ce23cc14b5ce8b9c452add3b3390d9ca1d511/langfuse/langfuse/pull/13797",
-        "https://avatars.githubusercontent.com/u/7667273?s=80&v=4",
-        "https://avatars.githubusercontent.com/u/7667273?s=48&v=4",
-        "https://avatars.githubusercontent.com/u/7667273?s=80&u=657effd481d83562e3c7965dda45f7681b9e23ec&v=4",
-        "https://avatars.githubusercontent.com/in/1236702?s=60&v=4",
-        "https://avatars.githubusercontent.com/in/1236702?s=48&v=4",
-        "https://avatars.githubusercontent.com/u/7667273?s=40&v=4",
-        "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-        "https://avatars.githubusercontent.com/u/7667273?s=40&u=657effd481d83562e3c7965dda45f7681b9e23ec&v=4",
-        "https://avatars.githubusercontent.com/in/324583?s=40&v=4",
-        "https://avatars.githubusercontent.com/in/867647?s=60&v=4",
-        "https://avatars.githubusercontent.com/in/1236702?s=40&v=4"
-      ],
-      "kind": "article",
-      "text_excerpt": "fix(llm): harden LLM connection fetches#13797\nConversation\nSummary\n- Route LLM provider fetches through validated secure fetch handling so custom base URLs and redirects are checked consistently.\n- Move Google AI Studio and Vertex AI onto custom\n@langchain/google\nAPI clients that preserve provider auth while using the shared secure fetch path. - Preserve existing Google AI Studio\nbaseURL\nbehavior by appending the generated Google path to the configured value as-is, matching the previous@google/generative-ai\nprefix semantics. - Add focused worker tests for secure provider fetches, Google AI Studio URL rewriting, and\nfetch(Request, init)\nnormalization behavior.\nLinear\nMajor Decisions\n- Treat Google AI Studio\nbaseURL\nas an opaque prefix instead of normalizing it as a URL path, because existing stored values may include non-origin prefixes that the previous SDK concatenated directly.\nReview Focus\n- Google AI Studio custom\nbaseURL\ncompatibility, especially stored values that are not simple origins. - Secure redirect validation and sensitive-header handling for provider fetches.\n- Dependency changes from replacing provider-specific LangChain Google packages with\n@langchain/google\n.\nImpacted Packages\n@langfuse/shared\nworker\nweb\ndependency metadata\nChecks\npnpm --filter worker test secureLlmFetch.test.ts googleSecureApiClient.test.ts\npnpm --filter worker run lint\npnpm --filter @langfuse/shared run lint\n- Commit hook:\nprettier --check \"**/*.{js,jsx,ts,tsx,css}\" --experimental-cli\nandturbo run lint\nGreptile Summary\nThis PR routes all LLM provider HTTP calls through a new secureLlmFetch\n/ fetchWithSecureRedirects\npipeline that validates URLs before opening sockets, validates redirect targets, and strips credential headers on cross-origin redirects. Google AI Studio and Vertex AI are migrated from separate LangChain packages (@langchain/google-genai\n, @langchain/google-vertexai\n) to the unified @langchain/google\npackage with custom apiClient\nimplementations that inject auth while reusing the shared secure fetch path.\nsecureLlmFetch.ts\n— new entry point that normalisesfetch(input, init)\ncalls into(url, RequestInit)\n, buffers the body as text for redirect-retry, then delegates tofetchWithSecureRedirects\nwith URL validation and sensitive-header stripping configured per adapter.googleSecureApiClient.ts\n— customChatGoogleParams.apiClient\nimplementations for AI Studio (URL rewriting +X-Goog-Api-Key\ninjection) and Vertex AI (OAuth header injection viagoogle-auth-library\n), both routed throughfetchSecureLlmUrl\n.fetchLLMCompletion.ts\n— replacesfetchOptions: { dispatcher }\non every adapter with the secure fetch wrappers; updates Vertex AI and AI Studio toChatGoogle\nwith the new API clients; adds thinking-block detection for the unified SDK's{ type:\"text\", thought:true }\nformat.\nConfidence Score: 3/5\nThe core security hardening works correctly for all current code paths, but normalizeFetchInput's unconstrained ...init spread silently preserves any dispatcher injected by a future or updated SDK, bypassing the DNS-rebinding lookup agent without any error or warning.\nThe redirect pipeline, header-stripping logic, and URL validation are all correctly wired and tested. The structural gap in normalizeFetchInput — where ...init preserves dispatcher and causes addSecureOutboundConnectionValidation to short-circuit — is not triggered by today's LangChain SDK versions but leaves the protection contingent on an external convention rather than being enforced in code. Because this PR's stated goal is to make the security boundary structural and consistent, having a latent bypass path that could be activated by an SDK upgrade or a future caller is worth fixing before merging.\npackages/shared/src/server/llm/secureLlmFetch.ts — specifically the normalizeFetchInput function and the ...init spread pattern.\nSequence Diagram\nsequenceDiagram\nparticipant SDK as LangChain SDK\nparticipant SLF as createSecureLlmFetch\nparticipant NF as normalizeFetchInput\nparticipant FSU as f",
-      "text_excerpt_zh": "# 修复(LLM)：强化LLM连接获取 #13797\n\n## 对话\n\n## 摘要\n\n- 通过经过验证的安全获取处理来路由LLM提供商的获取请求，使自定义基础URL和重定向得到一致检查。\n- 将Google AI Studio和Vertex AI迁移到自定义的`@langchain/google` API客户端，该客户端在保留提供商认证的同时使用共享的安全获取路径。\n- 保留现有的Google AI Studio `baseURL`行为，将生成的Google路径按原样附加到配置值后，匹配之前`@google/generative-ai`的前缀语义。\n- 添加针对性的worker测试，用于安全提供商获取、Google AI Studio URL重写以及`fetch(Request, init)`规范化行为。\n\n## Linear\n\n## 主要决策\n\n- 将Google AI Studio `baseURL`视为不透明前缀，而非将其规范化为URL路径，因为现有存储的值可能包含非源前缀，而之前的SDK会直接拼接这些前缀。\n\n## 审查重点\n\n- Google AI Studio自定义`baseURL`兼容性，尤其是非简单源的存储值。\n- 安全重定向验证和提供商获取的敏感标头处理。\n- 依赖变更：将特定于提供商的LangChain Google包替换为`@langchain/google`。\n\n## 受影响的包\n\n`@langfuse/shared` `worker` `web` `dependency metadata`\n\n## 检查\n\n```\npnpm --filter worker test secureLlmFetch.test.ts googleSecureApiClient.test.ts\npnpm --filter worker run lint\npnpm --filter @langfuse/shared run lint\n```\n\n- 提交钩子：`prettier --check \"**/*.{js,jsx,ts,tsx,css}\" --experimental-cli` 和 `turbo run lint`\n\n## Greptile 摘要\n\n此PR将所有LLM提供商HTTP调用路由到新的`secureLlmFetch`/`fetchWithSecureRedirects`管道，该管道在打开套接字前验证URL、验证重定向目标，并在跨源重定向时剥离凭据标头。Google AI Studio和Vertex AI从独立的LangChain包（`@langchain/google-genai`、`@langchain/google-vertexai`）迁移到统一的`@langchain/google`包，使用自定义的`apiClient`实现，在注入认证的同时复用共享的安全获取路径。\n\n- **secureLlmFetch.ts** — 新的入口点，将`fetch(input, init)`调用规范化为`(url, RequestInit)`，将主体缓冲为文本以支持重定向重试，然后委托给`fetchWithSecureRedirects`，并根据适配器配置URL验证和敏感标头剥离。\n- **googleSecureApiClient.ts** — AI Studio（URL重写 + `X-Goog-Api-Key`注入）和Vertex AI（通过`google-auth-library`注入OAuth标头）的自定义`ChatGoogleParams.apiClient`实现，两者都通过`fetchSecureLlmUrl`路由。\n- **fetchLLMCompletion.ts** — 将每个适配器上的`fetchOptions: { dispatcher }`替换为安全获取包装器；将Vertex AI和AI Studio更新为使用新API客户端的`ChatGoogle`；为统一SDK的`{ type:\"text\", thought:true }`格式添加思考块检测。\n\n**置信度评分：3/5**\n\n核心安全加固对所有当前代码路径均正确工作，但`normalizeFetchInput`中不受约束的`...init`扩展会静默保留未来或更新SDK注入的任何`dispatcher`，从而绕过DNS重绑定查找代理而不产生任何错误或警告。\n\n重定向管道、标头剥离逻辑和URL验证均已正确连接并通过测试。`normalizeFetchInput`中的结构缺口——其中`...init`保留`dispatcher`并导致`addSecureOutboundConnectionValidation`短路——在当前LangChain SDK版本中不会被触发，但使得保护依赖于外部约定而非在代码中强制执行。由于此PR的既定目标是使安全边界具有结构性和一致性，存在一个可能被SDK升级或未来调用者激活的潜在绕过路径，值得在合并前修复。\n\n`packages/shared/src/server/llm/secureLlmFetch.ts` — 特别是`normalizeFetchInput`函数和`...init`扩展模式。\n\n## 时序图\n\n```mermaid\nsequenceDiagram\n    participant SDK as LangChain SDK\n    participant SLF as createSecureLlmFetch\n    participant NF as normalizeFetchInput\n    participant FSU as f\n```",
-      "text_excerpt_zh_hash": "a24def96bebc542b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "fix(llm): harden LLM connection fetches by wochinge · Pull Request #13797 · langfuse/langfuse · GitHub",
-      "url": "https://github.com/langfuse/langfuse/pull/13797"
-    },
     "https://github.com/langgenius/dify": {
       "content_type": "text/html; charset=utf-8",
       "description": "Production-ready platform for agentic workflow development. - langgenius/dify",
@@ -12973,6 +12928,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Labnana - The World's First Image Generator Powered By Google Nano Banana 2",
       "url": "https://labnana.com/home"
+    },
+    "https://landscape.aaif.io/": {
+      "content_type": "text/html",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://landscape.aaif.io/",
+      "frameable": true,
+      "image_urls": [
+        "https://cncf.github.io/landscape2-sites/cncf/open_graph.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "AAIF Landscape",
+      "url": "https://landscape.aaif.io/"
     },
     "https://lastweekin.ai/": {
       "content_type": "text/html; charset=utf-8",
@@ -26333,19 +26303,61 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
     },
-    "https://pbs.twimg.com/media/HJvU_enWgAAEh_0.jpg": {
+    "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png": {
       "cleaner_v": 2,
-      "content_type": "image/jpeg",
+      "content_type": "image/png",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJvU_enWgAAEh_0.jpg",
+      "final_url": "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HJvU_enWgAAEh_0.jpg"
+        "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HJvU_enWgAAEh_0.jpg"
+      "url": "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
+    },
+    "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
+    },
+    "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
+    },
+    "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -41271,8 +41283,8 @@
       "https://x.com/Av1dlive/status/2060833703849566307",
       "https://x.com/Av1dlive/status/2060805022175445073",
       "https://x.com/Av1dlive/status/2061005452440408294",
-      "https://x.com/Av1dlive/status/2061005602923704448",
       "https://x.com/Av1dlive/status/2061061017661309144",
+      "https://x.com/Av1dlive/status/2061005602923704448",
       "https://x.com/Av1dlive/status/2060803331803734056",
       "https://x.com/Av1dlive/status/2061006091920814270",
       "https://x.com/Av1dlive/status/2061005771714998408",
@@ -41321,7 +41333,9 @@
       "https://x.com/dimitarangg/status/2061119279177638025",
       "http://x.com/i/article/2061117982340730882",
       "https://x.com/dimitarangg/status/2061122207523201504",
-      "https://calendly.com/synergyaisolutions/discovery-call"
+      "https://calendly.com/synergyaisolutions/discovery-call",
+      "https://x.com/dimitarangg/status/2061464109715968122",
+      "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
     ],
     "2061140237753995743": [
       "https://x.com/croloris/status/2061140237753995743",
@@ -41338,9 +41352,10 @@
     "2061247081730146659": [
       "https://x.com/peterom/status/2061247081730146659",
       "https://github.com/peteromallet/arnold",
-      "https://x.com/peterom/status/2061390998014509182",
       "https://x.com/peterom/status/2061436145360064756",
-      "https://x.com/peterom/status/2061568422576640329"
+      "https://x.com/peterom/status/2061390998014509182",
+      "https://x.com/peterom/status/2061502695723143203",
+      "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg"
     ],
     "2061265412051083562": [
       "https://x.com/GoSailGlobal/status/2061265412051083562",
@@ -41351,7 +41366,8 @@
     "2061273347648868412": [
       "https://x.com/KatiMichel/status/2061273347648868412",
       "https://lucumr.pocoo.org/2026/1/31/pi/",
-      "https://x.com/KatiMichel/status/2061568142174720149"
+      "https://x.com/KatiMichel/status/2061641664381239589",
+      "https://landscape.aaif.io/"
     ],
     "2061275459812212870": [
       "https://x.com/AgrawalArian/status/2061275459812212870",
@@ -41362,14 +41378,13 @@
       "https://github.com/crimx/agentic-markdown"
     ],
     "2061340816975749472": [
-      "https://x.com/benhylak/status/2061340816975749472"
+      "https://x.com/benhylak/status/2061340816975749472",
+      "https://x.com/benhylak/status/2061695314944508367"
     ],
     "2061374590501224938": [
       "https://x.com/PawelHuryn/status/2061374590501224938",
-      "https://x.com/PawelHuryn/status/2061475446760317103",
-      "https://github.com/langfuse/langfuse/pull/13797",
-      "https://gist.github.com/phuryn/5d84854f90f70ea2897557f1214785a3",
-      "https://pbs.twimg.com/media/HJvU_enWgAAEh_0.jpg"
+      "https://x.com/PawelHuryn/status/2061583398989181279",
+      "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
     ],
     "2061376598977216558": [
       "https://x.com/gemchange_ltd/status/2061376598977216558",
@@ -41387,7 +41402,8 @@
     ],
     "2061435378024739198": [
       "https://x.com/Kpaxs/status/2061435378024739198",
-      "http://x.com/i/article/2061324501170688000"
+      "http://x.com/i/article/2061324501170688000",
+      "https://x.com/Kpaxs/status/2061643061705281691"
     ],
     "2061454423034110372": [
       "https://x.com/garrytan/status/2061454423034110372",
@@ -41415,13 +41431,16 @@
     ],
     "2061512556590809342": [
       "https://x.com/prukalpa/status/2061512556590809342",
-      "http://x.com/i/article/2061457744914173952"
+      "http://x.com/i/article/2061457744914173952",
+      "https://x.com/prukalpa/status/2061667698166354121",
+      "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg",
+      "https://x.com/prukalpa/status/2061661352733925597"
     ],
     "2061528737351688258": [
       "https://x.com/ilyasu/status/2061528737351688258",
       "https://x.com/ilyasu/status/2061530651225129269"
     ]
   },
-  "updated_at": "2026-06-02T01:36:35Z",
+  "updated_at": "2026-06-02T06:58:17Z",
   "window": "recent"
 }
