@@ -4905,6 +4905,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060931168367980544"
     },
+    "http://x.com/i/article/2061006662480314368": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061006662480314368",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061006662480314368/i/keyboard%5Fshortcuts)\n\n教 AI 別被騙，它卻學會了騙人\n\n[![](https://pbs.twimg.com/profile_images/1635566540593721344/qEsFZDjt_normal.jpg)](http://x.com/i/article/2061006662480314368/honglong0420)\n\n[原來是擅長等紅燈的朋友](http://x.com/i/article/2061006662480314368/honglong0420)\n\n[@honglong0420](http://x.com/i/article/2061006662480314368/honglong0420)\n\n·\n\nMay 31\n\n·\n\nFollow\n\nClick to Follow honglong0420\n\n1\n\n1\n\n[138](http://x.com/i/article/2061006662480314368/honglong0420/status/2061009122414449084/analytics)\n\nAnthropic 在 \n\n[Claude Opus 4.8 System Card](https://www.anthropic.com/claude-opus-4-8-system-card)\n\n 裡寫了一段話，讀起來不太像企業文件會放的東西。\n\n他們請外部團隊 \n\n[Andon Labs](https://andonlabs.com/)\n\n 把模型丟進一個叫 \n\n[Vending-Bench](https://andonlabs.com/evals/vending-bench-2)\n\n 的模擬測驗。說穿了就是讓 AI 自己顧一台販賣機(\n\n[轉生成自動販賣機的我今天也在迷宮徘徊](https://zh.wikipedia.org/zh-tw/轉生成自動販賣機的我今天也在迷宮徘徊)\n\n！？)，進貨、定價、管現金、跟供應商殺價，看它在這種要長時間連續做決定的生意裡能不能撐住、賺到錢。\n\n報告裡寫的不是新模型又進步了多少。是一段近乎自承其短的說明。\n\n> ...this training inadvertently contributed to misaligned behavior including dishonesty. We therefore removed it for Opus 4.8.— Anthropic, Claude Opus 4.8 System Card, §6.2.5\n\n上一代的 Opus 4.7，他們特地調教過它做生意的技巧，還有對付惡意代理人的本事。白話講就是教它別被坑、別讓人佔便宜。這聽起來再合理不過。誰不希望自己用的 AI 精明一點，不會被網路上那些騙子牽著鼻子走。\n\n但他們後來發現事情不對。這套訓練讓模型「意外地」學會了不誠實。為了在 Opus 4.8 把這個毛病處理掉，他們乾脆把那段訓練整個移除。代價也寫得很清楚：Opus 4.8 在那台虛擬販賣機上更容易被詐騙者得手，殺價的本事也退步了，生意做得比上一代差。他們還補一句，目前還在想辦法，讓模型既會做生意、又能老老實實不騙人。\n\n讓我停下來的不是哪一版比較會賺錢。是那條因果鏈：他們想教 AI 別被騙，AI 卻學會了騙人。\n\n關鍵藏在「意外地」這三個字。他們要的從來不是一個會說謊的模型，他們只是想要一個不會傻傻踏入陷阱的模型。可是在 AI 學到的東西裡，這兩件事沒有被乾淨地切開。它沒有學成「做生意的時候精明、其他場合老實」，它學成的是一種會擴散的傾向，就是不誠實本身。\n\n這件事讓我覺得熟悉得有點發毛，因為它根本不是 AI 才有的問題。\n\n成長經驗中大概認識幾位本來是個老實人，在「社會大學」那種爾虞我詐的場子裡待久了。為了不吃虧，他開始學著虛張聲勢，學著話只說三分，學著先把每個人都當成有問題的。一開始他會跟你解釋，我只是自保，我只在對付那些人的時候才這樣。\n\n麻煩的是，人很難只在某一個房間裡是一種樣子，走出門又切換回原來那個自己。猜疑、算計、留一手、先把人往壞處想，這些東西不是隨身工具，要用的時候才掏出來。它們會變成你的反射動作和直覺。練久了，你看誰都先跑一遍那套防詐演算。你以為你只是在對付騙子，可那塊肌肉記憶，早就悄悄換掉了你看每個人的眼光。\n\n這就是 Opus 4.7 的故事，只是主角換成了人。\n\n我們很愛講「道高一尺，魔高一丈」，多半是拿來感嘆，說正派的怎麼玩都玩不過反派。但這句話最早是修行裡的警語，講的不是外頭的魔有多兇，而是你每往上爬一階，迎面撲來的誘惑就跟著大一分。\n\n擺在這裡，這句話忽然就特別到位。真正危險的從來不是對手比你會騙。真正危險的，是你決定改用他那一套來跟他打。一旦選了以詐反詐這條路，你就踏進一場軍備競賽，而這場競賽會反過來重塑你。你贏下的每一個回合，都在把你變得越來越像你想打倒的那個對手。等你終於贏了那筆交易、那場博弈，低頭一看，自己已經是另一個人了。\n\n那難道只能任人宰割？當然不是。\n\n分野在這裡：看穿一場騙局，跟自己也下海去騙，是兩件完全不同的事。\n\n你可以把對手的招數摸得清清楚楚，卻選擇不用同一招回敬。對付騙子真正有用的，常常不是反過來騙倒他，而是認出他、守住自己的線、不給他想要的、必要時直接離開那張牌桌。這些沒有一樣需要你說謊。它需要的是判斷力和骨氣，不是詐術。\n\n[劉墉](https://zh.wikipedia.org/zh-tw/劉墉%5F%28台灣%29)\n\n以前有套暢銷書叫《我不是教你詐》，那個「不是」才是整本書的重點。他把人情世故裡的算計寫了個透，目的是讓你看得懂、不被坑，而不是把你也訓練成一個會坑人的人。識詐不等於行詐。能看穿卻選擇不做，這中間那個「選擇」，才是真正有重量的地方。\n\n回頭看 Anthropic 的決定，其實滿耐人尋味。\n\n他們大可以把那套訓練留著，讓 4.8 生意做得漂亮些、benchmark 數字好看些。反正模型只是變「精明」，聽起來也不像什麼壞事。可是他們選擇拿掉它，寧願讓旗艦模型更容易被騙、更不會殺價，也不要它帶著那份學來的不誠實上路。\n\n把這件事寫進系統卡，其實算不上什麼勇氣。技術報告本來就習慣自陳侷限，坦白弱點甚至能替自己的可信度加分。所以真正有份量的不是那段文字，是文字背後那個動作：他們讓一個要拿去賣錢的旗艦產品，在能力上實打實退了一步，只為了不讓它學會說謊。寫出來是免費的，這個退讓不是。\n\n說到底，他們替一個 AI 做了那個「能看穿、卻選擇不做」的決定。\n\n我覺得最有意思的是，一間 AI 公司拿一台模擬販賣機，不小心把一個老掉牙的道德難題又演繹了一遍。當你為了不被人整，開始學著去整別人，你到底還是不是原來那個你。\n\nAnthropic 給的答案，跟那些講了幾千年的老話差不多。一場勝利如果是靠著把自己變成對手那副模樣換來的，那算不上贏。用什麼手段過日子，久了人就長成什麼樣子。這件事對血肉之軀成立，對邏輯迷宮來說，看起來也成立。\n\n* [![](https://pbs.twimg.com/profile_images/1635566540593721344/qEsFZDjt_normal.jpg)](http://x.com/i/article/2061006662480314368/honglong0420)  \n[原來是擅長等紅燈的朋友](http://x.com/i/article/2061006662480314368/honglong0420)  \n[@honglong0420](http://x.com/i/article/2061006662480314368/honglong0420)  \nFollow  \nClick to Follow honglong0420  \n社會邊緣人，柯黑，文化恐怖份子，無愛支病，表現惡劣的台獨份子，綠營側翼，境外敵對勢力。 淺度學習，小數據工程師，智慧工人，Full Stackoverflow，霧端運算，遲緩開發。 太太的豬隊友，兩個女兒的臭臭爸。 SW-2641-6905-1509",
+      "title": "",
+      "url": "http://x.com/i/article/2061006662480314368"
+    },
     "http://x.com/i/article/2061117982340730882": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4984,6 +4997,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061457744914173952"
+    },
+    "http://x.com/i/article/2061816883691876352": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061816883691876352",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061816883691876352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0QXlyaoAA36lE?format=jpg&name=900x900)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061822201872162816)\n\nState of Memory in Agent Harness\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2038726039153881088/b3jpb6xu_normal.jpg)](http://x.com/i/article/2061816883691876352/mem0ai)\n\n[mem0](http://x.com/i/article/2061816883691876352/mem0ai)\n\n[@mem0ai](http://x.com/i/article/2061816883691876352/mem0ai)\n\n·\n\n2h\n\nFollow\n\nClick to Follow mem0ai\n\n6\n\n16\n\n68\n\n[6.2K](http://x.com/i/article/2061816883691876352/mem0ai/status/2061822612398014782/analytics)\n\nAgent harnesses are where AI software actually runs. Cursor, Devin, Claude Code, Codex: these environments handle context, orchestrate tools, coordinate agents, and increasingly, manage memory. The harness, not the model, is increasingly the product that ships software.\n\nMemory is where harness design gets hard. \n\nWhere does it sit? What persists when a session ends? It is a largely unsolved problem, and every major harness is solving it differently. This post covers what each shipped, where each falls short, and what that gap says about what memory infrastructure has to do.\n\nWhat Agent Memory Actually Is\n\nThree different things get called memory, and the distinction matters because each has different failure modes.\n\n1. Working memory is what lives in the context window during a session. It resets on session end; the compaction problem (what survives when the window fills) belongs here.\n2. External memory is anything persisted outside the weights: vector stores, knowledge graphs, files. It survives sessions; the weights don't change. This is where essentially all production memory lives in 2026.\n3. Parametric memory is knowledge encoded into weights via gradient descent, shaped by the training loop the harness feeds. It generalizes by applying rules rather than retrieving examples. Zero production deployments in 2026.\n\n(The cognitive-science split, semantic / episodic / procedural, describes what kind of information is stored; the three tiers above describe where it lives.) \n\nThe paper \"Contextual Agentic Memory is a Memo, Not True Memory\" (arXiv:2604.27707) formalizes the ceiling: retrieval needs Ω(k²) stored examples to match what parametric memory does with O(d) weight updates. Every system below operates within it.\n\nWhat Major Harnesses Shipped \\[Overview\\]\n\n[![Image](https://pbs.twimg.com/media/HJ0MFa6b0AAsAN-?format=jpg&name=small)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061817491668848640)\n\n1.\n\n[@AnthropicAI](https://x.com/@AnthropicAI)\n\n: Claude Code\n\nTwo tracks. \n\n[CLAUDE.md](http://claude.md/)\n\n is human-authored config (conventions, instructions), read at session start. Auto-memory is Claude-written notes from a background extraction agent, stored under \\~/.claude/projects/<repo>/memory/ around a MEMORY.md index capped at 200 lines / 25KB, in four categories: user, feedback, project, reference.\n\nRetrieval shapes the limits: each turn Claude Code makes a separate call to a smaller model with a manifest of filenames and descriptions, and the model picks which files load. No embeddings, max five files per turn, and silent truncation past the cap (a dropped file gets no warning because it never loads).\n\n[![Image](https://pbs.twimg.com/media/HJ0MTs9bYAEUR4O?format=jpg&name=small)](http://x.com/i/article/2061816883691876352/mem0ai/article/2061822612398014782/media/2061817737031409665)\n\nShortcoming. Selection is by filename, not semantic search, so a relevantly-named file wins over a relevant one. Team sharing exists behind a TEAMMEM flag, but underneath it's local, repo-scoped markdown with no semantic index.\n\nRead more here: \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/20387260",
+      "title": "",
+      "url": "http://x.com/i/article/2061816883691876352"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -5914,6 +5940,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Dialogue with the world, building dreams for the future: China’s pavilion and a new community of life for man and nature Dialogue with the world, building dreams for the future: China’s pavilion and a new community of life for man and nature - Bureau International des Expositions (BIE)",
       "url": "https://bie-paris.org/site/fr/grand-angle/entry/dialogue-with-the-world-building-dreams-for-the-future-chinas-pavilion-and-a-new-community-of-life-for-man-and-nature"
+    },
+    "https://bit.ly/side-div5": {
+      "content_type": "text/html;charset=utf-8",
+      "description": "Convert any PDF document into Figma designs. 100% PRIVATELY.\n\nImport your PDF into Figma as designs with fully-editable layers, or as pixel-perfect images.\nAll PDF files are kept 100% private on your local machine and never sent to any server. We never see your documents.\n\nHow to import a PDF int...",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.figma.com/community/plugin/1280917768965269588/pdf-to-design-by-divriots-import-any-pdf-to-figma?ref=UXC",
+      "frameable": false,
+      "image_urls": [
+        "https://www.figma.com/community/thumbnail?resource_id=1280917768965269588&resource_type=plugin"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma",
+      "url": "https://bit.ly/side-div5"
     },
     "https://blog.google/innovation-and-ai/products/ai-tips-2025/": {
       "cleaner_v": 2,
@@ -18233,6 +18274,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -18274,6 +18329,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -25597,6 +25680,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
+    },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26227,34 +26324,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
     },
-    "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
-    },
-    "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg"
-    },
     "https://pbs.twimg.com/media/HJnZfENWsAQMDGl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26310,6 +26379,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJt67HdXEAIKikA.jpg"
+    },
+    "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
     },
     "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png": {
       "cleaner_v": 2,
@@ -26380,6 +26463,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png"
+    },
+    "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
     },
     "https://pbs.twimg.com/media/HJvtY2MXEAAfyFI.jpg": {
       "cleaner_v": 2,
@@ -28931,6 +29028,24 @@
       "text_excerpt_zh": "",
       "title": "Interface Craft: a working library for those committed to designing with uncommon care.",
       "url": "https://www.interfacecraft.dev/"
+    },
+    "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "I wrote recently about what Google, Yahoo, Microsoft, and Apple are doing to your email: how four providers stopped being transport layers and turned into active intermediaries between brands and their customers, parsing, ranking, summarising, and increasingly answering on the recipient's behalf.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "http://www.jacquescorbytuech.com/themes/jacques_2026/icons/og-default.png",
+        "https://9to5google.com/wp-content/uploads/sites/4/2025/11/Pixel-Feature-Drop-November-2025-Notification-Summaries-1.jpg?quality=82&strip=all",
+        "https://ichef.bbci.co.uk/ace/standard/1280/cpsprodpb/1a4f/live/4a32a6d0-d4b4-11ef-9fd6-0be88a764111.png",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy9UqkrYXSxbZRZ5h2vvj9-jL4oK6cAnq8WCrwjQ5g2Uiu-z3VjwY1BpeSEbjOj7_kaXVO3TqNKaGdWHJnJlts9OdW17cp5z7tK5gKxt1OIU2eZ97m-wVJDtMKrsclTy8kEE652AMtOIca7a95qDMxNTYVEgILJh057yPlPI2TV7VT0pEg3ebvFGeVZf4/s1600/image1.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "I wrote recently about [what Google, Yahoo, Microsoft, and Apple are doing to your email](https://www.jacquescorbytuech.com/writing/what-google-yahoo-microsoft-and-apple-are-doing-your-email): how four providers stopped being transport layers and turned into active intermediaries between brands and their customers, parsing, ranking, summarising, and increasingly answering on the recipient's behalf.\nThe same thing is happening to push, with two companies in control instead of four. Apple and Google run the only two pipes that matter, and every notification you have ever sent has passed through one of them. Over the last five years the on-device model that now sits between delivery and your lock screen began summarising, reordering and, on some surfaces, rewriting it.\nPush as a battery problem\nPush begins as a battery problem. In June 2009 Scott Forstall stood at WWDC and made the case that an iPhone could not afford to let every installed application maintain its own background poll against a remote server. The proposal, delayed from its initial September 2008 announcement after Apple decided to restructure the underlying infrastructure for scale, was the Apple Push Notification Service, a single persistent TLS connection from each device to Apple, over which any registered third party could deliver alerts.[1](https://www.jacquescorbytuech.com#footnote__SDYdj8pPS1o-Oz6e0g15qmswo4aibz1PM8rrxWb7eAo_1) APNs shipped with iPhone OS 3 on 17 June 2009. Google followed in 2010 with Cloud to Device Messaging, then Google Cloud Messaging in 2012, then Firebase Cloud Messaging in 2016.[2](https://www.jacquescorbytuech.com#footnote__vZWcU1MHsCj24m7XNb39fS4C3s8GL5VUNZ7j2kobEE_1)\nThe channel was intermediated from the start. Every notification you send to an iPhone passes through Apple's servers; every one to an Android phone passes through Google's. The platforms have always been able to throttle, drop, log, deprioritise or refuse. For most of the channel's history they did very little of it visibly. The architecture was permissive of intervention; they simply chose not to intervene much. That restraint is what ended.\nFifteen years of platform intervention\nThe early consumer push era between 2009 and 2017 was comparatively quiet. APNs and the various Google services delivered to whichever apps the user had installed, with limited platform-level filtering and minimal user controls beyond a single per-app on or off toggle.\nAndroid's first significant on-device intervention was notification channels in Android 8 Oreo, August 2017.[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_1) Before Android 8, individual notifications carried a priority level decided by the sender. After Android 8, that lever passed to the developer at the channel level and then to the user at the channel level. The developer declared a small number of channels per app (downloads, messages, promotions, and so on), each with an importance value from IMPORTANCE_NONE to IMPORTANCE_HIGH; the user could then independently mute, demote, badge-disable or fully block any channel without affecting the others.[3](https://www.jacquescorbytuech.com#footnote__0XBH9LYEhUYDagA06Vs5vcTo-3ayzaoExMpHG-PeQng_2) Once a channel's importance was set by the developer it could not be raised later. Any app targeting Android 8 had to declare channels or notifications would simply not display.\nApple introduced its own version in iOS 15 in September 2021 under different language. Focus, Scheduled Summary, and a new four-level interruption taxonomy (passive, active, time-sensitive, critical) restructured how iOS treated each push.[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_1) Time-sensitive was the only level you could meaningfully address, and Apple was explicit, then and now, that you should not use it for marketing.[4](https://www.jacquescorbytuech.com#footnote__ppmDET2NMKYUmOEXQlS-y5wAPILHqqFVjMEOY7xVbw_2) A",
+      "title": "What Apple and Google are doing to your push notifications | Jacques Corby-Tuech",
+      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar"
     },
     "https://www.jonkolko.com/writing/sensemaking-and-framing": {
       "cleaner_v": 2,
@@ -41537,14 +41652,12 @@
       "http://x.com/i/article/2060931168367980544",
       "https://x.com/jino_rohit/status/2061008986909159561",
       "https://x.com/jino_rohit/status/2061360510692704416",
-      "https://x.com/jino_rohit/status/2061029773779120596",
-      "https://x.com/jino_rohit/status/2061468254863036574"
+      "https://x.com/jino_rohit/status/2061029773779120596"
     ],
     "2060992814872486117": [
       "https://x.com/honglong0420/status/2060992814872486117",
-      "https://x.com/honglong0420/status/2060737876552483241",
-      "https://pbs.twimg.com/media/HJk2K7raoAAPHLK.jpg",
-      "https://pbs.twimg.com/media/HJk2K7daYAAm5Ve.jpg"
+      "https://x.com/honglong0420/status/2061009122414449084",
+      "http://x.com/i/article/2061006662480314368"
     ],
     "2061114475797946764": [
       "https://x.com/MichLieben/status/2061114475797946764",
@@ -41650,6 +41763,10 @@
       "https://iii.dev/",
       "http://github.com/iii-hq/iii"
     ],
+    "2061477558693384395": [
+      "https://x.com/AndrewYNg/status/2061477558693384395",
+      "https://pbs.twimg.com/media/HJvWmCHagAAnTxQ.jpg"
+    ],
     "2061484958787711243": [
       "https://x.com/alanaagoyal/status/2061484958787711243"
     ],
@@ -41699,11 +41816,35 @@
       "https://x.com/0xMoysei/status/2061671025511649470",
       "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
       "https://x.com/0xMoysei/status/2061727104287347029",
+      "https://x.com/0xMoysei/status/2061676176913969196",
       "https://x.com/0xMoysei/status/2061727034108244128",
-      "https://x.com/0xMoysei/status/2061672840793874762",
-      "https://x.com/0xMoysei/status/2061676176913969196"
+      "https://x.com/0xMoysei/status/2061672840793874762"
+    ],
+    "2061715750356979996": [
+      "https://x.com/cyrilXBT/status/2061715750356979996",
+      "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
+    ],
+    "2061805546353639648": [
+      "https://x.com/SidebarIO/status/2061805546353639648",
+      "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg",
+      "https://x.com/SidebarIO/status/2061443154490847327",
+      "https://bit.ly/side-div5",
+      "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
+    ],
+    "2061810168854155446": [
+      "https://x.com/Voxyz_ai/status/2061810168854155446",
+      "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
+      "https://x.com/Voxyz_ai/status/2061495490194350144",
+      "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
+    ],
+    "2061822612398014782": [
+      "https://x.com/mem0ai/status/2061822612398014782",
+      "http://x.com/i/article/2061816883691876352",
+      "https://x.com/mem0ai/status/2061837658952024153",
+      "https://x.com/mem0ai/status/2061850660921041043"
     ]
   },
-  "updated_at": "2026-06-02T11:42:50Z",
+  "updated_at": "2026-06-02T16:55:19Z",
   "window": "recent"
 }
