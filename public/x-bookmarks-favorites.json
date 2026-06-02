@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Agree. But still find it very disconcerting when founders can't articulate a simple wedge value proposition to attract early adopter customers.",
+      "text_zh": "同意。但看到创始人无法清晰阐述一个简单的楔形价值主张来吸引早期用户时，仍然感到非常不安。",
+      "text_zh_hash": "fc52d295b6d1d1c1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ilyasu/status/2061528737351688258"
     },
     {
@@ -96,6 +99,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "garry's new piece nails one thing, tldr:\n\nhe wrote 540k lines of rails to build garry's list. then realized those 540k lines were a foxconn factory he'd built for his agent.\n\n262k lines of app code, 276k lines of tests policing it. every check, retry, guardrail was a bet the model would fail. it didn't.\n\nthe valuable thing wasn't the app. it was the byproduct that grew out of building it: gstack, the way he codes with agents now.\n\nthe economics flipped: the model got cheap and smart, code got expensive. write the intent in markdown, let the agent generate only the minimal code it needs. same capability, a fraction of the lines.",
+      "text_zh": "Garry 的新文章精准命中了一个要点，长话短说：\n\n他写了 54 万行 Rails 代码来构建 Garry's List。然后意识到，这 54 万行代码不过是他为智能体搭建的一座富士康工厂。\n\n其中 26.2 万行是应用代码，27.6 万行是监督它的测试。每一次检查、重试、护栏，都是在押注模型会失败——但它没有。\n\n真正有价值的不是这个应用，而是构建过程中生长出的副产品：gstack，他现在与智能体协作编码的方式。\n\n经济逻辑已经逆转：模型变得廉价而智能，代码反而变得昂贵。用 Markdown 写下意图，让智能体只生成它所需的最小代码量。同样的能力，代码行数却大幅缩减。",
+      "text_zh_hash": "0985c64fc5fb42fd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Voxyz_ai/status/2061465585599263169"
     },
     {
@@ -242,6 +248,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic engineer:\n\n\"The model is identical for everyone. The difference is knowing when to go deep and when not to.\"\n\n31 minutes on choosing the right model and effort level - the setting 99% never touch\n\nMost people leave it on default, then wonder why 4.8 feels the same https://t.co/Q7G08hExSQ",
+      "text_zh": "Anthropic 工程师：\n\n“模型对每个人来说都是一样的。区别在于知道什么时候该深入，什么时候不该。”\n\n31 分钟关于如何选择合适的模型和投入程度——99% 的人从未触碰的设置\n\n大多数人保持默认设置，然后奇怪为什么 4.8 感觉没什么不同 https://t.co/Q7G08hExSQ",
+      "text_zh_hash": "63c625d1bb4864d8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xMortyx/status/2061399196209447241"
     },
     {
@@ -325,6 +334,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Kaffu's \"rich man's toy\" line is the one of the sharp thing I've read on harnesses this year. He's right about the symptom. I'd push back on one part of the diagnosis.\n\nThe bloat drift he names, agent engineering quietly turning into software engineering, is real. Every harness team I've talked to hits it around month nine. The framework you started with grows features it didn't need, the system prompt swells, the retrieval layer doubles, the cost-per-task triples. Codex and Claude Code keep getting better, and you start to wonder what you're building.\n\nMy extension: the drift is structural. It happens because the unit of work in a framework-shaped harness is the whole framework. To add a capability you grow the framework. To change a behaviour you fork the framework. The bloat has nowhere else to go.\n\nWhen the unit shrinks to one narrow worker, one typed function, one job, drift loses its surface area. A retrieval worker that's wrong gets replaced, not extended. The math-based reranker kaffu is right to advocate for becomes a worker that registers rerank::score. The fine-tuned RoBERTa becomes a worker that registers embed::generate. They sit next to the LLM provider worker on the same bus. The system stays cheap by being composable.\n\nSimply, everything become a worker.\n\nThis doesn't make harnesses economically valuable on its own. Kaffu's deeper point stands. Most of what teams ship is fancy on paper and useless in production. The framework era encouraged that because the unit it sold was always too big.\n\nI don't know what the economically valuable harness looks like at steady state. I think it looks small. Small enough that every part is replaceable, every part is debuggable, every part is benchmarkable, and observable with observability worker against a 100-line fine-tuned alternative. The harness as a slider, not a monument.\n\nFor the love of the game.",
+      "text_zh": "Kaffu 关于“富人的玩具”这一论断，是我今年读到关于 harness 最犀利的观点之一。他对症状的判断是对的。但我想对诊断中的一部分提出异议。\n\n他提到的“膨胀漂移”——agent 工程悄然演变成软件工程——是真实存在的。我接触过的每个 harness 团队，大约在第九个月都会遇到这个问题。你最初使用的框架不断添加本不需要的功能，系统提示词膨胀，检索层翻倍，单次任务成本增长三倍。Codex 和 Claude Code 越来越好用，你开始怀疑自己到底在构建什么。\n\n我的补充是：这种漂移是结构性的。它之所以发生，是因为框架形态的 harness 中，工作单元是整个框架。要增加一个能力，你就得扩展框架；要改变一个行为，你就得 fork 框架。膨胀无处可去。\n\n当工作单元缩小到一个狭窄的 worker、一个类型化的函数、一个任务时，漂移就失去了它的作用面。一个出错的检索 worker 会被替换，而不是扩展。Kaffu 正确倡导的基于数学的重排序器，会变成一个注册 `rerank::score` 的 worker。微调后的 RoBERTa 会变成一个注册 `embed::generate` 的 worker。它们与 LLM 提供者 worker 并排坐在同一条总线上。系统通过可组合性保持低成本。\n\n简单来说，一切都变成了 worker。\n\n这本身并不会让 harness 具有经济价值。Kaffu 更深层的观点依然成立。大多数团队交付的东西，纸上看起来漂亮，生产环境中却毫无用处。框架时代助长了这一点，因为它所销售的工作单元总是太大。\n\n我不知道稳态下具有经济价值的 harness 长什么样。我认为它很小。小到每个部分都可替换、可调试、可基准测试，并且可以通过一个针对 100 行微调替代方案的 observability worker 进行观测。Harness 是一个滑块，而不是一座纪念碑。\n\n为了对游戏的热爱。",
+      "text_zh_hash": "653c80b565fe00c5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mfpiccolo/status/2061474404014477543"
     },
     {
@@ -366,6 +378,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "watching companies like @replit use topics to complete the loop of self-improving agents has been a peek into the future\n\nexcited that this product is now generally available for all braintrust customers (with a very generous free tier!)",
+      "text_zh": "看到像 @replit 这样的公司利用主题（topics）来完善自我改进型智能体的闭环，让人得以一窥未来。\n\n令人兴奋的是，这款产品现已面向所有 Braintrust 客户全面开放（并提供了非常慷慨的免费套餐！）",
+      "text_zh_hash": "b374570b4e549528",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/alanaagoyal/status/2061484958787711243"
     },
     {
@@ -460,6 +475,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "IT HAPPENED: You can download a hedge fund now.\n\nBuffett, Munger, Burry, Cathie Wood, Druckenmiller all on your laptop.\n\nThat's virattt's ai-hedge-fund 50k+ stars on GitHub.\n\nEach name is an AI agent arguing in that investor's real style.\n\nBuffett hunts moats. Munger kills bad ideas. Burry looks for what's broken. Wood chases disruption. Druckenmiller reads the macro.\n\nA Damodaran agent runs the valuation, Ben Graham checks the margin of safety, a portfolio manager makes the final call.\n\nThe full breakdown plus the forensic layer that checks if the numbers are honest is in the article.",
+      "text_zh": "事情发生了：你现在可以下载一个对冲基金了。\n\n巴菲特、芒格、伯里、凯西·伍德、德鲁肯米勒——全都在你的笔记本电脑里。\n\n这就是 virattt 的 ai-hedge-fund，在 GitHub 上已获得超过 5 万颗星。\n\n每个名字都是一个 AI 智能体，以该投资者真实的风格进行辩论。\n\n巴菲特寻找护城河。芒格扼杀坏主意。伯里寻找破碎的东西。伍德追逐颠覆性创新。德鲁肯米勒解读宏观趋势。\n\n一个达摩达兰智能体负责估值，本·格雷厄姆检查安全边际，一位投资组合经理做出最终决策。\n\n完整的拆解分析，以及检查数字是否诚实的法证层，都在文章里。",
+      "text_zh_hash": "77ecc91a36ba8f80",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/gemchange_ltd/status/2061376598977216558"
     },
     {
@@ -501,6 +519,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "if you're curious about why Repo2RLEnv outputs to Harbor spec, or this is your first time hearing about Harbor, check this out",
+      "text_zh": "如果你好奇为什么 Repo2RLEnv 会输出 Harbor 规范，或者这是你第一次听说 Harbor，不妨看看这里。",
+      "text_zh_hash": "b8cd72b8f751e065",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SergioPaniego/status/2061420405298987090"
     },
     {
@@ -546,6 +567,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The code is the agent’s, the way code in any company is the engineers’, not the CEO’s. The CEO is still accountable for what ships, but doesn’t earn that accountability by sitting in the editor. What I review is the artifact layer above it.",
+      "text_zh": "代码属于智能体，正如任何公司里的代码属于工程师而非CEO。CEO仍需对发布的内容负责，但这种责任并非通过坐在编辑器前获得。我所审查的是代码之上的产物层。",
+      "text_zh_hash": "a5b096bd44fc684e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2061374590501224938"
     },
     {
@@ -627,6 +651,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is a good articulation of why I love my @zocomputer",
+      "text_zh": "这是我为何热爱我的 @zocomputer 的绝佳诠释。",
+      "text_zh_hash": "d1645493998e8ebe",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AgrawalArian/status/2061275459812212870"
     },
     {
@@ -713,6 +740,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This runs on the Megaplan pipeline, which is built on top of a framework called Arnold\n\nAnd I must say, it is extremely good\n\nLink: https://github.com/peteromallet/arnold",
+      "text_zh": "该功能运行在 Megaplan 流水线上，该流水线基于名为 Arnold 的框架构建。\n\n不得不说，这个框架非常出色。\n\n链接：https://github.com/peteromallet/arnold",
+      "text_zh_hash": "057ca56241c07708",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/peterom/status/2061247081730146659"
     },
     {
@@ -915,6 +945,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Armin Ronacher, creator of Flask, on Pi, the minimal agent within OpenClaw. https://lucumr.pocoo.org/2026/1/31/pi/",
+      "text_zh": "Armin Ronacher，Flask 的创造者，谈 Pi——OpenClaw 中的最小化 agent。https://lucumr.pocoo.org/2026/1/31/pi/",
+      "text_zh_hash": "5b0479b3dfd08791",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/KatiMichel/status/2061273347648868412"
     },
     {
@@ -955,6 +988,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Ah so this is the blog post we were promised, a paragraph inside of an Antrhopic product announcement. Good shit.\n\nhttps://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "text_zh": "啊，这就是我们期待已久的那篇博文，藏在 Anthropic 产品公告里的一段话。好东西。\n\nhttps://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "text_zh_hash": "bce0fbac25d018d5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/croloris/status/2061140237753995743"
     },
     {
