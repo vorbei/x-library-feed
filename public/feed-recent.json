@@ -18274,20 +18274,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2061498008790003712/img/E5HLlKQN2w-50LM_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -41815,8 +41801,8 @@
     "2061671025511649470": [
       "https://x.com/0xMoysei/status/2061671025511649470",
       "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
-      "https://x.com/0xMoysei/status/2061727104287347029",
       "https://x.com/0xMoysei/status/2061676176913969196",
+      "https://x.com/0xMoysei/status/2061727104287347029",
       "https://x.com/0xMoysei/status/2061727034108244128",
       "https://x.com/0xMoysei/status/2061672840793874762"
     ],
@@ -41835,8 +41821,7 @@
     "2061810168854155446": [
       "https://x.com/Voxyz_ai/status/2061810168854155446",
       "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
-      "https://x.com/Voxyz_ai/status/2061495490194350144",
-      "https://pbs.twimg.com/amplify_video_thumb/2061483076279054337/img/aR0_enG4zy4ewBt9.jpg"
+      "https://x.com/Voxyz_ai/status/2061546520797753805"
     ],
     "2061822612398014782": [
       "https://x.com/mem0ai/status/2061822612398014782",
@@ -41845,6 +41830,6 @@
       "https://x.com/mem0ai/status/2061850660921041043"
     ]
   },
-  "updated_at": "2026-06-02T16:55:19Z",
+  "updated_at": "2026-06-02T20:19:42Z",
   "window": "recent"
 }
