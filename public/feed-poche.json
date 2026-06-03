@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 668,
+      "count": 670,
       "name": "Tools"
     },
     {
-      "count": 406,
+      "count": 407,
       "name": "Development"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 268,
+      "count": 269,
       "name": "Social"
     },
     {
@@ -38,8 +38,165 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2210,
+  "item_count": 2214,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn-blog.holymolly.ai/media/production/eden hero2.webp",
+        "https://cdn-web.tripo3d.ai/tripo-web/logo/tripo-logo1.webp",
+        "https://cdn-web.tripo3d.ai/tripo-web/logo/tripo-logo2.webp",
+        "https://www.tripo3d.ai/blog/bg-cta.png",
+        "https://cdn-blog.holymolly.ai/media/production/twitter.webp",
+        "https://cdn-blog.holymolly.ai/media/production/youtube.webp",
+        "https://cdn-blog.holymolly.ai/media/production/discord.webp",
+        "https://cdn-blog.holymolly.ai/media/production/reddit.webp",
+        "https://cdn-blog.holymolly.ai/media/production/medium.webp",
+        "https://cdn-blog.holymolly.ai/media/production/facebook.webp",
+        "https://cdn-blog.holymolly.ai/media/production/instagram.webp",
+        "https://cdn-blog.holymolly.ai/media/production/pinterest.webp"
+      ],
+      "article_text": "Generative AI has made extraordinary progress in video. With the rise of action-conditioned generation (where models respond to user inputs to produce continuous visual motion), the industry has increasingly begun to frame these systems as \"world models.\"\nBut does predicting the next sequence of pixels equate to simulating a world?\nNot quite. A video model predicts how pixels should change.\nA true world model must reason for what those pixels represent: objects, spaces, events, actions, memory, and physical consequences that carry forward over time. To date, research chasing this vision has largely fractured into two directions, each hitting a fundamental wall.\nThe first direction is action-conditioned video generation. Today’s monocular video models operate primarily through autoregressive prediction in 2D pixel space. Because the evolution of the world and the rendering of the current camera view are tightly coupled, the model's entire \"understanding\" of the world is compressed into a short context window of recent frames.\nThis creates a hard limit on persistence. When an object leaves the camera's field of view, there is no independent state preserving it. If the camera returns, the model must infer the object again from context, often through hallucination. The result is familiar: objects drift, disappear, or reappear inconsistently. This path captures time and motion, but lacks a durable world state.\nThe second direction is static 3D scene generation. While these systems provide strong spatial structures and allow users to move through navigable environments, they treat the scene as a fixed asset. Time, physics, and state transitions are not native to architecture. This path captures space, but lacks continuous world evolution.\nOne path captures motion without persistence. The other captures structure without evolution.\nFor VAST, a foundational world model must possess both.\nIt requires solving two foundational problems simultaneously:\n1.State: Defining the objective condition of the world at any given moment, independent of the camera.\n2.Transition: Driving that world forward as actions, events, and rules unfold over time.\nToday, we are sharing a research preview of our approach: Project Eden.\nProject Eden is a persistent, multiplayer world model that fundamentally breaks from existing paradigms by decoupling the underlying world state from visual rendering. Instead of treating the world as a sequence of transient frames, Eden treats it as a structured, evolving environment that runs continuously, can be modified by user actions, and can be consistently observed from any viewpoint.\nThe Principle of Decoupling: State Before Rendering\nEden starts from a simple design principle: space, events, viewpoints, object identity, physical changes, and visual appearance should not all be compressed into pixel history.\nIn a real interactive world, the world exists before any single camera observes it. A player can look away from a wall, and the wall should still be there. A fire can be extinguished, and the world should remember that it is out. Two players can race on the same track from different angles, and they should still be acting inside one synchronized reality.\nThese are state problems before they are rendering problems.\nA capable world model requires an underlying state that persists independently of camera view. Visual rendering should be a way to observe that state, not the medium where the entire state is stored. This is the core philosophy behind Project Eden: separating the world state from visual generation.\nUnder the Hood: A Three-Layer Architecture\nTo achieve this, Project Eden replaces the traditional monolithic video generator with a three-layer architecture, assigning clear responsibilities to each component.\n1. The Evolving Structured State\nEden maintains a global world state that persists over time, can be updated by actions, and can be queried by different cameras. For efficiency and temporal rigor, this state",
+      "article_title_extracted": "Project Eden",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-03T03:57:18.589926Z",
+      "description": "the First World Model for AI-native Multiplayer and Agent Interaction in a Consistent World State",
+      "domain": "www.tripo3d.ai",
+      "embed_type": "",
+      "id": "k1701kt3pye7d4bpmngbztf2cn87z2yb",
+      "og_image_url": "https://cdn-blog.holymolly.ai/media/production/eden hero2.webp",
+      "recommended_at": "2026-06-03T03:57:45.981000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "world-models",
+        "multiplayer-simulation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T03:57:45.981000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Project Eden",
+      "url": "https://www.tripo3d.ai/research/project-eden",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://hermes-agent.nousresearch.com/img/hermes-og-image-blue.png",
+        "https://hermes-agent.nousresearch.com/_next/static/media/filler-bg0.0hapz.4k8_oc6.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/hero-art.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/platform-art-mac.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/platform-art-windows.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/platform-art-linux.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/badge.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/feature-connect.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/feature-memory.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/feature-automation.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/feature-tasks.webp",
+        "https://hermes-agent.nousresearch.com/img/desktop/feature-browse.webp"
+      ],
+      "article_text": "Nous Docs Hermes Agent Portal Install Open Source • MIT License The Agent That Grows With You /\\-_=+|< -/= ~:*-/ macOS 12+ Mac OS Download Windows 10/11 Windows Download Any distro Linux Install via terminal Feature Preview #1 Connect Lives Everywhere Telegram, Discord, Slack, WhatsApp, Signal, Email, CLI — and a growing list of platforms. One agent, one memory, every surface. #2 Remember Persistent Memory It learns your projects, auto-generates skills, and never forgets how it solved a problem. #3 Schedule Focused Automation Natural-language scheduling for reports, backups, and briefings — running unattended through the gateway, focused every time. #4 Delegate Tasks Multiplied Isolated subagents with their own conversations, terminals, and Python RPC scripts for zero-context-cost pipelines. #5 Search Browse the Web Web search, browser automation, vision, image generation, text-to-speech, and multi-model reasoning. #6 Experiment Isolated Sandboxing Five backends — local, Docker, SSH, Singularity, Modal — with container hardening and namespace isolation. Hermes Free • Plus • Super • Ultra Nous Portal All paid tiers include monthly credits for use in Hermes Agent, access to 300+ cutting-edge models and built-in tool use View All Our Plans Nous Portal Hermes Agent v0.15.2 Nous Research MIT License · 2026",
+      "article_title_extracted": "Hermes Desktop | Nous Research",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-03T03:57:02.249662Z",
+      "description": "Hermes Desktop — the open-source agent that grows with you, now a native app for macOS, Windows, and Linux. By Nous Research.",
+      "domain": "hermes-agent.nousresearch.com",
+      "embed_type": "",
+      "id": "k1708jyg7vkwe4j00wax8xzb2s87yym1",
+      "og_image_url": "https://hermes-agent.nousresearch.com/img/hermes-og-image-blue.png",
+      "recommended_at": "2026-06-03T03:57:43.908000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "open-source"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T03:57:43.908000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Hermes Desktop | Nous Research",
+      "url": "https://hermes-agent.nousresearch.com/desktop",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
+      "article_image_urls": [
+        "https://montage.keeyen.com/og-image.png"
+      ],
+      "article_title_extracted": "Montage",
+      "category": "Tools",
+      "created_at": "2026-06-03T03:56:37.884997Z",
+      "description": "Turn image sequences into fast cut videos. Sort by color, layer expressive backgrounds from gradients to video.",
+      "domain": "montage.tools",
+      "embed_type": "",
+      "id": "k17dsw3x1a9g6qphwg1e00gtz987zafx",
+      "og_image_url": "https://montage.keeyen.com/og-image.png",
+      "recommended_at": "2026-06-03T03:57:41.273000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "video-editing",
+        "creative-tools",
+        "motion-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T03:57:41.273000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Montage",
+      "url": "https://montage.tools/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-03T03:55:56.524107Z",
+      "description": "Introducing - Surface RTX Spark Dev Box.All the power developers need, right out of the box. Sign up to learn more: https://msft.it/6016vbfbASurface RTX Spark Dev Box. Built for more. pic.twitter.com/wFqfi6z8FD",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k1773hbkbz6wag0p9mrhjx5bjh87zvrf",
+      "og_image_url": "https://pbs.twimg.com/media/HJ0qRLoWcAIgzMf.png",
+      "recommended_at": "2026-06-03T03:57:31.064000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "microsoft-surface",
+        "software-development",
+        "hardware"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T03:57:31.064000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Microsoft Surface (@surface) on X",
+      "url": "https://x.com/surface/status/2061850684052394367",
+      "x_status_id": "2061850684052394367"
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -2016,7 +2173,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_image_urls": [
         "https://navigate.ai/assets/og-image.jpg",
         "https://www.navigate.ai/assets/nai_black.svg",
@@ -2067,7 +2224,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_title_extracted": "Fatype",
       "category": "Design",
       "created_at": "2026-05-27T02:46:27.160461Z",
@@ -2102,7 +2259,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_image_urls": [
         "https://image.jakubantalik.com/images/og-image.jpg"
       ],
@@ -2143,7 +2300,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_title_extracted": "Dials",
       "category": "Tools",
       "created_at": "2026-05-27T03:01:40.077008Z",
@@ -2177,7 +2334,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_title_extracted": "Rastermill — Portable image processing for Node agents",
       "category": "Development",
       "created_at": "2026-05-27T03:11:18.829289Z",
@@ -4221,7 +4378,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PSMeVOn2vyHHuWnnIlZB6T5BlQ.png",
         "https://framerusercontent.com/images/h5VHoQg2qBhfygdenEQ0WUtEZU.png?width=2464&height=909",
@@ -4273,7 +4430,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-27T05:03:22.572982Z",
+      "article_fetch_attempted_at": "2026-06-03T05:31:14.427669Z",
       "article_image_urls": [
         "https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png",
         "https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png",
@@ -98073,7 +98230,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2053,
+      "count": 2057,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -98109,5 +98266,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-02T22:50:02.049250Z"
+  "updated_at": "2026-06-03T05:32:09.336589Z"
 }
