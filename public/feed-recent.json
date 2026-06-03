@@ -5029,6 +5029,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061458737726914560"
     },
+    "http://x.com/i/article/2061507690258472960": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061507690258472960",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061507690258472960/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and third parties integrated by X use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJxXtwJXYAAi4K2?format=jpg&name=900x900)](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas/article/2061840456992919997/media/2061619172958756864)\n\nHow we re-invented Workflow Builders using Modal Sandboxes\n\n[![](https://pbs.twimg.com/profile_images/1960053835717632000/RIqTPsQd_normal.jpg)](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas)\n\n[Thomas Karatzas](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas)\n\n[@karatzas\\_thomas](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas)\n\n·\n\n20h\n\nFollow\n\nClick to Follow karatzas\\_thomas\n\n5\n\n48\n\n[22K](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas/status/2061840456992919997/analytics)\n\nWe rebuilt the workflow builder from scratch, for the coding agent era.\n\n[Terse](https://www.useterse.ai/)\n\n is automation that lives where developers do. Build, debug, and deploy complex agentic workflows from your terminal or IDE. Serverless hosting, scaling, and observability come standard.\n\n## \n\nTLDR of Terse Architecture\n\nTerse is a code-first Workflow/Automation builder. Every organization in Terse can have multiple \n\n[projects](https://docs.useterse.ai/core-concepts/projects)\n\n. Each project, is a npm package that contains multiple Jobs. A \n\n[Job](https://docs.useterse.ai/core-concepts/jobs)\n\n, is a set of triggers + a closure that is run when a trigger fires. Closures contain multiple action steps and \n\n[TerseAgents](https://docs.useterse.ai/core-concepts/terse-agent)\n\n. Of course, all of this is defined in pure Typescript.\n\n## \n\nRequirements\n\nHosting is a key feature for us. In the age of AI, we must:\n\n1. Run un-trusted 3P code on behalf of our users\n2. Run agents in the cloud safely\n3. Pause execution and resume (Human in the Loop)\n4. Be able to scale easily with demand\n5. Be serverless (don’t want to force users to have set up hosting to get started)\n\nThat’s when I came across this \n\n[blog post](https://modal.com/blog/lovable-case-study)\n\n mentioning how Lovable is fully powered by Modal’s Sandboxes as well as the famous \n\n[Ramp one](https://modal.com/blog/how-ramp-built-a-full-context-background-coding-agent-on-modal)\n\n in January. Looks like Modal Sandboxes was the obvious choice!\n\nI remember building the core of the SDK and thinking in back of my mind this sandbox piece was going to kill me. After all, hosting is usually the hardest part right?\n\nIn reality, it took about an hour to get spun up. I was shocked.\n\nLet’s walk through my original POC and how I made job startup 100x faster by utilizing the full gamut of Modal’s sandbox API.\n\n## \n\nThe Implementation\n\nThe original was indeed a bit rough, but deployments took less than a second. It looked something like:\n\n[![Image](https://pbs.twimg.com/media/HJvz9XzXwAAbw3J?format=jpg&name=small)](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas/article/2061840456992919997/media/2061509490139185152)\n\nUnfortunately, this creates a pretty complex flow at trigger runtime:\n\n[![Image](https://pbs.twimg.com/media/HJv0D1-WgAAC_Kx?format=jpg&name=900x900)](http://x.com/i/article/2061507690258472960/karatzas%5Fthomas/article/2061840456992919997/media/2061509601317519360)\n\nThe code for the Modal part was very elegant:\n\ntypescript\n\n```typescript\n// this part is super fast\nconst app = await modal.apps.fromName(\"terse-sdk-sandbox\", { createIfMissing: true })\nconst image = modal.images.fromRegistry(\"node:22-slim\")\nconst sb = await modal.sandboxes.create(app, image)\n\n// Writ",
+      "title": "",
+      "url": "http://x.com/i/article/2061507690258472960"
+    },
     "http://x.com/i/article/2061549213083979776": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5044,6 +5057,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061549213083979776"
+    },
+    "http://x.com/i/article/2061630624428163072": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2061630624428163072",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2061630624428163072"
     },
     "http://x.com/i/article/2061638042746863616": {
       "cleaner_v": 2,
@@ -5109,6 +5135,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061831458205880320"
     },
+    "http://x.com/i/article/2061850277028802560": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2061850277028802560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2061850277028802560"
+    },
     "http://x.com/i/article/2061850535708483585": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5156,6 +5195,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061868304654864384"
+    },
+    "http://x.com/i/article/2061935366655905792": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061935366655905792",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061935366655905792/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and third parties integrated by X use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[Home ](http://x.com/i/article/2061935366655905792/home)[Explore ](http://x.com/i/article/2061935366655905792/explore)[Notifications ](http://x.com/i/article/2061935366655905792/notifications)[Chat ](http://x.com/i/article/2061935366655905792/i/chat)[Grok ](http://x.com/i/article/2061935366655905792/i/grok)[Premium ](http://x.com/i/article/2061935366655905792/i/premium)[Bookmarks ](http://x.com/i/article/2061935366655905792/i/bookmarks)[Creator Studio ](http://x.com/i/article/2061935366655905792/i/jf/creators/studio)[Articles ](http://x.com/i/article/2061935366655905792/compose/articles)[Profile ](http://x.com/i/article/2061935366655905792/chumsdock)\n\nMore \n\n[Post](http://x.com/i/article/2061935366655905792/compose/post)\n\n![Cheng](https://pbs.twimg.com/profile_images/378800000010252572/78d17364b6d52a63220206d139e6ebbd_normal.jpeg)\n\nCheng\n\n@chumsdock\n\nThis page is not supported.\n\nPlease visit the author’s profile on the latest version of X to view this content.",
+      "title": "",
+      "url": "http://x.com/i/article/2061935366655905792"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -5932,6 +5984,27 @@
       "title": "[2605.01160] The Productivity-Reliability Paradox: Specification-Driven Governance for AI-Augmented Software Development",
       "url": "https://arxiv.org/abs/2605.01160"
     },
+    "https://arxiv.org/abs/2605.05242": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2605.05242: Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "final_url": "https://arxiv.org/abs/2605.05242",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2605.05242 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Information Retrieval arXiv:2605.05242 (cs) [Submitted on 3 May 2026] Title: Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction Authors: Zhuofeng Li , Haoxiang Zhang , Cong Wei , Pan Lu , Ping Nie , Yi Lu , Yuyang Bai , Shangbin Feng , Hangxiao Zhu , Ming Zhong , Yuyu Zhang , Jianwen Xie , Yejin Choi , James Zou , Jiawei Han , Wenhu Chen , Jimmy Lin , Dongfu Jiang , Yu Zhang View a PDF of the paper titled Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction, by Zhuofeng Li and 18 other authors View PDF Abstract: Modern retrieval systems, whether lexical or semantic, expose a corpus through a fixed similarity interface that compresses access into a single top-k retrieval step before reasoning. This abstraction is efficient, but for agentic search, it becomes a bottleneck: exact lexical constraints, sparse clue conjunctions, local context checks, and multi-step hypothesis refinement are difficult to implement by calling a conventional off-the-shelf retriever, and evidence filtered out early cannot be recovered by stronger downstream reasoning. Agentic tasks further exacerbate this limitation because they require agents to orchestrate multiple steps, including discovering intermediate entities, combining weak clues, and revising the plan after observing partial evidence. To tackle the limitation, we study direct corpus interaction (DCI), where an agent searches the raw corpus directly with general-purpose terminal tools (e.g., grep, file reads, shell commands, lightweight scripts), without any embedding model, vector index, or retrieval API. This approach requires no offline indexing and adapts naturally to evolving local corpora. Across IR benchmarks and end-to-end agentic search tasks, this simple setup substantially outperforms strong sparse, dense, and reranking baselines on several BRIGHT and BEIR datasets, and attains strong accuracy on BrowseComp-Plus and multi-hop QA without relying on any conventional semantic retriever. Our results indicate that as language agents become stronger, retrieval quality depends not only on reasoning ability but also on the resolution of the interface through which the model interacts with the corpus, with which DCI opens a broader interface-design space for agentic search. Subjects: Information Retrieval (cs.IR) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2605.05242 [cs.IR] (or arXiv:2605.05242v1 [cs.IR] for this version) https://doi.org/10.48550/arXiv.2605.05242 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Zhuofeng Li [ view email ] [v1] Sun, 3 May 2026 19:13:11 UTC (5,193 KB) Full-text links: Access Paper: View a PDF of the paper titled Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction, by Zhuofeng Li and 18 other authors View PDF TeX Source view license Additional Features Audio Summary Current browse context: cs.IR < prev | next > new | recent | 2026-05 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations?",
+      "title": "[2605.05242] Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "url": "https://arxiv.org/abs/2605.05242"
+    },
     "https://arxiv.org/abs/2605.18747": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -5955,6 +6028,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2605.18747] Code as Agent Harness",
       "url": "https://arxiv.org/abs/2605.18747"
+    },
+    "https://arxiv.org/abs/2605.29307v1": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2605.29307v1: GrepSeek: Training Search Agents for Direct Corpus Interaction",
+      "final_url": "https://arxiv.org/abs/2605.29307v1",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2605.29307v1 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Computation and Language arXiv:2605.29307v1 (cs) [Submitted on 28 May 2026] Title: GrepSeek: Training Search Agents for Direct Corpus Interaction Authors: Alireza Salemi , Chang Zeng , Atharva Nijasure , Jui-Hui Chung , Razieh Rahimi , Fernando Diaz , Hamed Zamani View a PDF of the paper titled GrepSeek: Training Search Agents for Direct Corpus Interaction, by Alireza Salemi and 6 other authors View PDF HTML (experimental) Abstract: Large Language Model (LLM) search agents have shown strong promise for knowledge-intensive language tasks through multiple rounds of reasoning and information retrieval. Most existing systems access information using a retriever that takes a keyword or natural language query and returns a ranked list of documents using an index of pre-computed document representations. In this work, we explore a complementary perspective in which the search agent treats the corpus itself as the search environment and finds evidence by issuing executable shell commands. We introduce GrepSeek, an optimized direct corpus interaction (DCI) search agent that trains a compact search agent to find, filter, and compose evidence from large text corpora. To address the instability of learning behavior directly with reinforcement learning on large corpora, we propose a two-stage training pipeline. First, we construct a cold-start dataset using an answer-aware Tutor and answer-blind Planner to generate verified, causally grounded search trajectories. Second, we refine the initialized policy with Group Relative Policy Optimization (GRPO), allowing the agent to improve its task-oriented search behavior through direct interaction with the corpus. To make DCI practical at scale, we further use a semantics-preserving sharded-parallel execution engine that accelerates shell-based retrieval by up to $7.6\\times$ while preserving byte-exact equivalence with sequential execution of the shell command. Experiments across seven open-domain question answering benchmarks show that GrepSeek achieves the strongest overall token-level $F_1$ and Exact Match. Our analysis also highlights the limitations of purely lexical interaction on queries with substantial surface-form variation, suggesting DCI as a practical and competitive method for search agents that can complement existing retrieval paradigms in the real world. Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Information Retrieval (cs.IR); Machine Learning (cs.LG) Cite as: arXiv:2605.29307 [cs.CL] (or arXiv:2605.29307v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2605.29307 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Alireza Salemi [ view email ] [v1] Thu, 28 May 2026 03:37:33 UTC (928 KB) Full-text links: Access Paper: View a PDF of the paper titled GrepSeek: Training Search Agents for Direct Corpus Interaction, by Alireza Salemi and 6 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-05 Change to browse by: cs cs.AI cs.IR cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Tog",
+      "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
+      "url": "https://arxiv.org/abs/2605.29307v1"
     },
     "https://arxiv.org/html/2603.05344v1": {
       "cleaner_v": 2,
@@ -18737,6 +18831,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -18792,20 +18914,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
-    },
-    "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
     },
     "https://pbs.twimg.com/media/G-5qLVcX0AAOV8j.png": {
       "cleaner_v": 2,
@@ -26129,6 +26237,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg"
     },
+    "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
+    },
     "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26199,6 +26335,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
     },
+    "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png"
+    },
     "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -26254,6 +26404,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -28810,6 +28988,32 @@
       "text_excerpt": "52新聞社と共同通信のよんななニュース 今日は何の日？ 2026年5月23日（土） English 簡体中文 繁體中文 今日は何の日？ 2026年5月23日（土） トップ 速報 都道府県 都道府県のニュース 新聞社のニュースすべて 北海道 青森 秋田 岩手 山形 宮城 福島 群馬 栃木 茨城 埼玉 千葉 東京 神奈川 新潟 富山 石川 福井 長野 岐阜 山梨 愛知 静岡 京都 滋賀 大阪 奈良 三重 和歌山 兵庫 鳥取 岡山 島根 広島 山口 香川 愛媛 徳島 高知 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 北海道・東北 北海道 青森 秋田 岩手 山形 宮城 福島 関東 茨城 栃木 群馬 埼玉 千葉 東京 神奈川 北陸・甲信越 山梨 新潟 富山 石川 福井 長野 東海 静岡 岐阜 愛知 三重 近畿 京都 滋賀 大阪 奈良 和歌山 兵庫 中国 鳥取 岡山 島根 広島 山口 四国 香川 愛媛 徳島 高知 九州・沖縄 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 47リポーターズ 社会 政治 経済 国際 スポーツ 科学・医療 社説・コラム 写真 動画 イラン情勢 第2次高市内閣 ナフサ不安 大リーグ ハンタウイルス サッカーW杯 クマ被害 おくやみ 文化・エンタメ 地域再生 市場ウォッチ ライフ 【速報】米長官、インドとの戦略的関係の重要性強調 22時20分 【速報】沖縄知事「踏み込みすぎ」と文科省批判 21時34分 【速報】米長官、エネルギー巡りイランを非難 21時28分 【速報】沖縄県に線状降水帯 20時28分 【速報】強風で枝落下、子ども3人搬送 20時12分 TOP 速報 都道府県 北海道 青森 秋田 岩手 山形 宮城 福島 茨城 栃木 群馬 埼玉 千葉 東京 神奈川 山梨 新潟 富山 石川 福井 長野 静岡 岐阜 愛知 三重 京都 滋賀 大阪 奈良 和歌山 兵庫 鳥取 岡山 島根 広島 山口 香川 愛媛 徳島 高知 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 47リポーターズ 社会 話題 政治 世論調査 経済 地方経済 マーケット速報 市場ニュース＆レポート PRワイヤー ビジネス 国際 スポーツ 野球 サッカー 相撲 バスケ 科学・医療 医療健康 科学・環境 写真 速報写真 撮れたて 日本の風景 FOCUS×FRAME レトロ写真 動画 速報動画 地域動画 全国動画 スポーツ動画 English 簡体中文 繁體中文 速報 国際 > 中国 国際 > 韓国 共同通信 【速報】中韓タンカー含む5隻が海峡通過か 2026年05月20日 21時27分 共同通信 【イスタンブール共同】イラン国営テレビは20日、事実上の封鎖が続くホルムズ海峡を、イラン革命防衛隊の許可を得た中国や韓国などのタンカー少なくとも5隻が通過したと報じた。 共同通信 のニュース・速報一覧 共同通信 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 https://www.kyodonews.jp/ 中国 ランキング 台湾で防衛強化を支持するデモ 米国からの武器購入継続も訴え 21時02分 共同通信 中国、炭鉱事故で90人死亡 ガス爆発、山西省 16時29分 共同通信 中国、有人宇宙船発射へ 神舟23号に香港人初搭乗 16時53分 共同通信 米、インドと関係修復開始 国務長官訪問、クアッド会合も 20時44分 共同通信 プーチン大統領が弔電 中国炭鉱事故で習主席に 19時04分 共同通信 中国 の新着記事 米、インドと関係修復開始 国務長官「戦略的重要性」を強調 22時36分 共同通信 台湾で防衛強化を支持するデモ 米国からの武器購入継続も訴え 21時02分 共同通信 プーチン大統領が弔電 中国炭鉱事故で習主席に 19時04分 共同通信 中国、有人宇宙船発射へ 神舟23号に香港人初搭乗 16時53分 共同通信 中国、炭鉱事故で90人死亡 ガス爆発、山西省 16時29分 共同通信 [PR]特別企画 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 もしも自分や身近な人が悩みを抱えたら？知っておきたい、「相談」の大切さ 大学特集〜大学教育の未来を探る〜 創業5年で売り上げ50億円達成の背景に「自責」の精神 渡辺喜久男会長と塚本拓夢オーナーが「おたからや」の成功を語る 「おたからや」に学ぶ、FC経営成功の秘訣 大畑典道オーナーと渡辺喜久男会長が本音で語る 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 [PR]特別企画をもっと見る ピックアップ求人情報 「コツコツ安定ワーク」 出荷伝票の仕分け+梱包補助/シンプルワーク 株式会社ゴーバナナ 正社員 東京都 月給32万5,000円～38万5,000円 【仕事内容】未経験OK!製造×軽作業サポートスタッフ 20〜30代活躍中! 「工場ってむずかしそう…」って思ってる方も大丈夫! マニュアル通りに進める“補助作業”が中心です <具体的には> ・伝票を仕分ける ・梱包作業を補助する 未経験から始めやすい軽作業! シンプルな作業が中心で、研修やサポート体制も充実! 検品・仕分けなどからスタートし、リーダーなどへステップアップした先輩も多数活... 詳しく見る SNS運用スタッフ/SNS運用で次世代のバズりを生み出そう!/完全業界未経験OK!/各SNS媒体にて採用強化中!/1478 株式会社F&G 正社員 東京都 月給23万5,000円～29万円 【仕事内容】例外事由3号のイ・40歳未満(長期勤続によるキャリア形成のため) 20代30代の若手社員が活躍中です! 研修内容が充実していて未経験からでもキャリアアップできる環境です! 〈概要〉 「SNSを仕事にしたい!」そんな思いを叶えてみませんか? 当社は、SNSを活用した企業のプロモーションや情報発信をサポートする「SNS運用スタッフ」を募集しています。 X(旧Twitter)やInst... 詳しく見る 恵比寿/リノベーション物件の仲介営業/100%反響営業・在宅可・フレックス制 20代・30代活躍中 株式会社ツクルバ 正社員 東京都 月給31万5,000円～ 【仕事内容】<恵比寿>リノベーション物件の仲介営業/100%反響営業・在宅可・フレックス制 研修充実 販売職からのキャリアチェンジ歓迎! 100%反響営業 火水はお休み フレックス制/リモートOK ー+ー+ー < 仕事内容 > ・お客様からの問い合わせ対応(反響営業形式) ・物件のご案内(内見の現地対応) ・物件のご提案(対面やTEL/チャットでの追客) ・リノベーションのご提... 詳しく見る Sponsored by 運営会社 サイトポリシー コンテンツポリシー 利用者情報の外部送信について 広告掲載 著作権・リンク サイトマップ お問い合わせ 47NEWS 参加社一覧 北海道新聞 室蘭民報 河北新報 東奥日報 デーリー東北 秋田魁新報 山形新聞 岩手日報 福島民報 福島民友新聞 産業経済新聞 日本経済新聞 ジャパンタイムズ 下野新聞 茨城新聞 上毛新聞 千葉日報 神奈川新聞 埼玉新聞 山梨日日新聞 信濃毎日新聞 新潟日報 中日新聞 中部経済新聞 伊勢新聞 静岡新聞 岐阜新聞 北日本新聞 北國新聞 福井新聞 京都新聞 週刊大阪日日新聞 神戸新聞 奈良新聞 紀伊民報 山陽新聞 中国新聞 日本海新聞 山口新聞 山陰中央新報 四国新聞 愛媛新聞 徳島新聞 高知新聞 西日本新聞 大分合同新聞 宮崎日日新聞 長崎新聞 佐賀新聞 熊本日日新聞 南日本新聞 沖縄タイムス 琉球新報 共同通信 47NEWSに掲載の記事・写真の無断転載を禁じます。 すべての内容は日本の著作権法並びに国際条約により 保護されています。 © Press Net Japan Co.,Ltd. All Rights Reserved. ×",
       "title": "【速報】中韓タンカー含む5隻が海峡通過か|47NEWS（よんななニュース）",
       "url": "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api"
+    },
+    "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Visual AI is moving from outputs to code artifacts",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!Ec_J!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa25f1c5f-b8bd-40b1-a867-1881210cb711_2844x1600.png",
+        "https://substackcdn.com/image/fetch/$s_!ixSZ!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fa16z.substack.com%2Fapi%2Fv1%2Fpost_preview%2F200123679%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!2PP_!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png",
+        "https://substackcdn.com/image/fetch/$s_!yJJV!,e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb31fe13-e316-436e-b482-c771eb463be9_1344x257.png",
+        "https://substackcdn.com/image/fetch/$s_!bp1q!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ee8a079-baf3-4fdf-9064-ad750a9c4dfc_650x650.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!t62G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f617e80-6623-477a-bd18-012049161680_1460x650.png",
+        "https://substackcdn.com/image/fetch/$s_!SU5S!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c68d5c7-8a95-49ea-9c12-8cf7f5f0f1a1_2920x10.png",
+        "https://substackcdn.com/image/fetch/$s_!zzBh!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fprofile_images%2F2058061141902065664%2F2NyM2bw8.jpg",
+        "https://substackcdn.com/image/fetch/$s_!N4L_!,w_520,h_520,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHIJRYBPXEAABMMb.jpg",
+        "https://substackcdn.com/image/fetch/$s_!p6BO!,w_520,h_520,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHIJT-gGXYAAEs5c.jpg",
+        "https://substackcdn.com/image/fetch/$s_!UEuI!,w_520,h_520,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHIJUBCZWkAAJEJU.jpg",
+        "https://substackcdn.com/image/fetch/$s_!b3-R!,w_520,h_520,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHIJUD7DWkAAPkIo.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Next Frontier of Visual AI Is Code\nVisual AI is moving from outputs to code artifacts\n[America](https://www.a16z.news/t/america) | [Tech](https://www.a16z.news/t/technology) | [Opinion](https://www.a16z.news/t/opinion) | [Culture](https://www.a16z.news/t/culture) | [Charts](https://www.a16z.news/t/charts)\nFor the last few years, visual AI has mostly been judged by its pixels. The better the final image or video looked, the better the model seemed.\nThat made sense. Diffusion models turned text prompts into beautiful images, then videos, then increasingly realistic worlds. The obvious comparison point was Photoshop or a camera.\nBut for many visual-related tasks, like graphics design, UI design, or 3D modeling, the end representation users look for is not limited to the end state pixels. Instead, they are looking for artifacts where they can continuously iterate based on feedback and new ideas. A designer does not just need a mockup; they need layers, components, and handoff. An animator does not just need a video; they need timing curves, keyframes, and editable motion. A 3D artist does not just need a rendered picture; they need geometry, materials, lighting, cameras, and scene structure.\nThe most interesting visual AI tools today have stopped trying to generate the final output. Instead, they’re generating the source code behind it. This change is unlocking editability, iteration, and a feedback loop that pixel-native models can’t match.”\nThe two stacks of visual generation\nThere are two major ways to think about visual generation.\nThe first is pixel-native generation. These systems generate images or videos directly, usually in latent space. They are great at texture, atmosphere, lighting, and realism. If the goal is to generate a cinematic shot, a beautiful moodboard, or a photorealistic image, diffusion models are still the dominant method.\nThe second is code-native generation. These systems generate a representation that is then executed or rendered by another engine. The model does not directly produce the final pixels; it produces the program that produces the pixels.\nThat program might be an SVG file, an HTML/CSS layout, a React component, a Lottie JSON file, a Blender script, a USD scene graph, a shader, or a game-engine scene. The visual output is still pixels at the end, but the source of truth is a structured representation.\nThis distinction matters because production workflows care a lot about what happens after generation. A generated image is useful as an output, but a generated visual program is useful as an artifact – it can be edited, reused, improved, versioned. It can be integrated into the rest of the software stack and validated against constraints. It can be rendered repeatedly under different conditions or be handed off between designers, engineers and agents.\nThat is the big shift that I think is already underway: for a subset of visual problems, we will learn to reframe the visual generation task to a coding task, and get highly efficient improvements from solving a well-defined and validatable coding problem.\nCode is a good substrate for visual problems\nThe easiest way to understand the value of visual code generation is to look at what happens after the first draft.\nSay a model generates a logo. If the output is a raster image and one curve is wrong, the user has to mask it, inpaint it, regenerate it, or manually redraw it. Whereas if the output is SVG, the user can edit the path, the primitive, the gradient, the stroke, or the text element. This is already how designers are [designing logos](https://x.com/seansmithbuilds/status/2054296994261393670) on [Quiver](https://quiver.ai/).\nIn the realm of UI design, if the output is a screenshot, it is mostly inspiration. If the output is HTML/CSS or React, the designers can inspect the DOM, swap in real components, test responsive states, check accessibility, and wire it into the application.\nThis is also why visual code generation is especially interes",
+      "title": "The Next Frontier of Visual AI Is Code - by Yoko Li - a16z",
+      "url": "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is"
     },
     "https://www.agentation.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -42419,8 +42623,8 @@
       "https://x.com/Alfred_Lin/status/2061806871254835213",
       "http://x.com/i/article/2061549213083979776",
       "https://x.com/Alfred_Lin/status/2061809647141716430",
-      "https://x.com/Alfred_Lin/status/2061860319857988064",
-      "https://x.com/Alfred_Lin/status/2061836857508515972"
+      "https://x.com/Alfred_Lin/status/2061836857508515972",
+      "https://x.com/Alfred_Lin/status/2061860319857988064"
     ],
     "2061807667606163741": [
       "https://x.com/mattstromawn/status/2061807667606163741",
@@ -42433,7 +42637,10 @@
     "2061816210283749876": [
       "https://x.com/tualatrix/status/2061816210283749876",
       "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
-      "https://x.com/tualatrix/status/2061826203707981887"
+      "https://x.com/tualatrix/status/2061826203707981887",
+      "https://x.com/tualatrix/status/2062063113248387242",
+      "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
     ],
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
@@ -42448,7 +42655,8 @@
     "2061828765274214670": [
       "https://x.com/acghnu/status/2061828765274214670",
       "https://mastra.ai/docs/workflows/overview",
-      "https://x.com/acghnu/status/2061721199009501609"
+      "https://x.com/acghnu/status/2062143582920994973",
+      "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg"
     ],
     "2061836996541083912": [
       "https://x.com/ashwingop/status/2061836996541083912",
@@ -42456,9 +42664,27 @@
       "https://x.com/ashwingop/status/2061889838106755385",
       "https://x.com/ashwingop/status/2061872112235618499"
     ],
+    "2061840456992919997": [
+      "https://x.com/karatzas_thomas/status/2061840456992919997",
+      "http://x.com/i/article/2061507690258472960"
+    ],
+    "2061842081753297176": [
+      "https://x.com/a16z/status/2061842081753297176",
+      "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is",
+      "https://pbs.twimg.com/media/HJ0iciwbQAAQozT.png"
+    ],
     "2061850337716187144": [
       "https://x.com/Mnilax/status/2061850337716187144",
       "http://x.com/i/article/2061818708226342912"
+    ],
+    "2061855598988439935": [
+      "https://x.com/AlphaSignalAI/status/2061855598988439935",
+      "http://x.com/i/article/2061850277028802560",
+      "https://x.com/AlphaSignalAI/status/2061856932097384803",
+      "https://arxiv.org/abs/2605.05242",
+      "https://arxiv.org/abs/2605.29307v1",
+      "https://x.com/AlphaSignalAI/status/2061865777142087684",
+      "http://x.com/i/article/2061860599571845120"
     ],
     "2061860170846843233": [
       "https://x.com/tricalt/status/2061860170846843233",
@@ -42475,8 +42701,9 @@
       "http://x.com/i/article/2061860599571845120",
       "https://x.com/AlphaSignalAI/status/2061866232786120796",
       "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
-      "https://x.com/AlphaSignalAI/status/2061825589036675552",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
+      "https://x.com/AlphaSignalAI/status/2062081857643053236",
+      "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg",
+      "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
     ],
     "2061872114714521927": [
       "https://x.com/larsencc/status/2061872114714521927"
@@ -42500,21 +42727,35 @@
       "https://x.com/mvanhorn/status/2061902951757840759",
       "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg",
       "https://x.com/mvanhorn/status/2062014401218298234",
+      "https://x.com/mvanhorn/status/2061963776111604046",
       "https://x.com/mvanhorn/status/2061903507427631417",
       "https://x.com/mvanhorn/status/2061903039037112501",
       "https://x.com/mvanhorn/status/2062056707933745608",
-      "https://x.com/mvanhorn/status/2061963776111604046",
       "https://x.com/mvanhorn/status/2062039830197121030",
-      "https://x.com/mvanhorn/status/2061903054526665108",
+      "https://x.com/mvanhorn/status/2061885195679400193",
       "https://x.com/mvanhorn/status/2061902795465437574",
-      "https://x.com/mvanhorn/status/2061902770136100958",
-      "https://x.com/mvanhorn/status/2061902627315786173",
       "https://x.com/mvanhorn/status/2061903003024773574",
+      "https://x.com/mvanhorn/status/2061902770136100958",
+      "https://x.com/mvanhorn/status/2061903054526665108",
+      "https://x.com/mvanhorn/status/2061902627315786173",
       "https://x.com/mvanhorn/status/2061985648559727044",
-      "https://x.com/mvanhorn/status/2061962654969995308",
       "https://x.com/mvanhorn/status/2061984045140185419",
       "https://x.com/mvanhorn/status/2061903238929191257",
       "https://x.com/mvanhorn/status/2061902657930018954"
+    ],
+    "2061882958651474268": [
+      "https://x.com/kylejeong/status/2061882958651474268",
+      "http://x.com/i/article/2061630624428163072",
+      "https://x.com/kylejeong/status/2061904814813155612",
+      "https://x.com/kylejeong/status/2061888639387467957",
+      "https://x.com/kylejeong/status/2061904958912684135",
+      "https://x.com/kylejeong/status/2061925642623750223",
+      "https://x.com/kylejeong/status/2061897351653101679",
+      "https://x.com/kylejeong/status/2061911136451326245",
+      "https://x.com/kylejeong/status/2061905643527893120",
+      "https://x.com/kylejeong/status/2061931769394569624",
+      "https://x.com/kylejeong/status/2061914499062637000",
+      "https://x.com/kylejeong/status/2061890824087171317"
     ],
     "2061887650391625870": [
       "https://x.com/OpenAI/status/2061887650391625870",
@@ -42547,8 +42788,13 @@
       "https://x.com/trq212/status/2061908209540198666",
       "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png",
       "https://x.com/trq212/status/2061918748521742680",
+      "https://x.com/trq212/status/2062073548861317367",
       "https://x.com/trq212/status/2061925433441227090",
       "https://x.com/trq212/status/2061915368348921983"
+    ],
+    "2061936967290675394": [
+      "https://x.com/ryaneshea/status/2061936967290675394",
+      "http://x.com/i/article/2061935366655905792"
     ],
     "2061979261637181775": [
       "https://x.com/vikingmute/status/2061979261637181775",
@@ -42556,8 +42802,15 @@
       "https://heroui.com/",
       "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
       "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+    ],
+    "2061990115615064077": [
+      "https://x.com/rohit4verse/status/2061990115615064077",
+      "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg",
+      "https://x.com/rohit4verse/status/2061990284536467477",
+      "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "https://x.com/rohit4verse/status/2062081529174802550"
     ]
   },
-  "updated_at": "2026-06-03T07:13:17Z",
+  "updated_at": "2026-06-03T12:12:14Z",
   "window": "recent"
 }
