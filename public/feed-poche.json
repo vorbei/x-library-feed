@@ -4215,7 +4215,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-27T16:26:54.519737Z",
+      "article_fetch_attempted_at": "2026-06-03T20:04:03.332104Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6979e08d7860cf804ace6db7_logo-mark-cernel.svg",
@@ -4267,7 +4267,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-27T16:26:54.519737Z",
+      "article_fetch_attempted_at": "2026-06-03T20:04:03.332104Z",
       "article_image_urls": [
         "https://column.com/images/social/column-og.png",
         "https://column.com/images/index/case-studies/bg-brex.png",
@@ -98526,5 +98526,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-03T13:00:42.235756Z"
+  "updated_at": "2026-06-03T20:04:04.939837Z"
 }
