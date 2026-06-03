@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 670,
+      "count": 672,
       "name": "Tools"
     },
     {
-      "count": 407,
+      "count": 408,
       "name": "Development"
     },
     {
@@ -17,11 +17,11 @@
       "name": "Articles"
     },
     {
-      "count": 269,
+      "count": 270,
       "name": "Social"
     },
     {
-      "count": 136,
+      "count": 137,
       "name": "Media"
     },
     {
@@ -38,8 +38,207 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2214,
+  "item_count": 2219,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://devin.ai/assets/images/desktop/og-desktop.png",
+        "https://devin.ai/assets/images/desktop/hero/icons/chat-gpt.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconRequestClosed.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconChevronDownMedium.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconCloudSimple.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconPullRequest.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/avatar.png",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconPlanning.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconCheckmark1.svg",
+        "https://devin.ai/assets/images/desktop/hero/icons/IconMergeBranch.svg",
+        "https://devin.ai/images/acp-logos/logo-00-devin.svg",
+        "https://devin.ai/images/acp-logos/logo-01.svg"
+      ],
+      "article_text": "Manage fleets of local and cloud agents from one surface.\nPlan, delegate, review, and ship without leaving your editor.\nAgent Command Center\nevery engineer.\nDevin Desktop is the home for coding agents to do your best work.\nYou decide what to build, then your agents write the code, chase the edge cases, and test every detail.\nA world-class IDE\nexactly when you need it.\nRead, trace, and debug every change your agents ship.\nDevin Desktop includes a full IDE with syntax highlighting, autocomplete, and debugging tools built in for you to stay in flow.\nAgent Client Protocol\nAll the agents.\nWork across models and agents, powered by the Agent Client Protocol (ACP).\nSpaces\nSpaces\nUse Spaces to share context and Git worktrees across all your agents.\nSupercomplete\nSupercomplete predicts your next thought, not just your next edit.\nFast Context finds the exact files and lines your agent needs—in milliseconds.\nRapidly (or deeply) review every agent diff—before you push.\nUnlimited access to SWE-1.6, the fastest coding model in the world.\nplan.md\nTo build a dashboard for real-time store sales data, we will stream events from Kafka over websockets and render them onto a three.js globe.\nView planImplement in Cloud\nThe only IDE designed for you to close your laptop.\nExtend Devin with the tools, skills, and plugins your team already uses.\nSlack\nMCP ServerSearch channels and messages, send and read messages, and access user profiles.\nESLint\nExtensionFind and fix problems in your JavaScript and TypeScript code.\nLinear\nMCP ServerList, create, update, and query issues, projects, initiatives, cycles, and comments.\nrust-analyzer\nLanguage ServerCode completion, go-to-definition, and inline diagnostics for Rust.\nNotion\nMCP ServerRetrieve and manage pages, databases, and comments; search across your workspace.\nPrettier\nExtensionOpinionated code formatter that enforces a consistent style across your codebase.\nFigma\nMCP ServerGet files, nodes, and images; manage comments, components, styles, and webhooks.\nclangd\nLanguage ServerC and C++ language server with completion, navigation, and diagnostics.\nSentry\nMCP ServerRetrieve issue data and stack traces; search, filter, and update issue status.\nWindsurf Pyright\nExtensionFast type checking, IntelliSense, and diagnostics for Python.\nStripe\nMCP ServerCreate and manage customers, products, subscriptions, invoices, payouts, and refunds.\ngopls\nLanguage ServerThe official Go language server for completion, navigation, and refactoring.\nVercel\nMCP ServerManage projects and deployments, analyze logs, and search Vercel documentation.\nDatadog\nMCP ServerRetrieve telemetry insights and manage incidents, monitors, logs, dashboards, and traces.\nAtlassian\nMCP ServerAccess Jira and Confluence — manage issues and create enterprise documentation.\nPRICING OVERVIEW\nSTATS\n1M+\nUsersTrusted by over a million developers worldwide\n4000+\nEnterprise CustomersStartups, agencies, and enterprises\nWhat is Devin Desktop?\nDevin Desktop is the new name for Windsurf. We’re building on the IDE foundation of Windsurf to introduce the command center for managing all your agents in one place. The Agent Command Center (Spaces, Kanban view, and multi-agent management) is front and center, while the full IDE experience you know remains fully accessible.\nHow do I upgrade to Devin Desktop from Windsurf?\nDevin Desktop arrives as a standard over-the-air update, so your plan, pricing, extensions, and settings all carry over automatically. You can also download the latest Devin Desktop version from the [download page](https://devin.ai/download).\nWill I lose anything if I update?\nThe IDE, your extensions, workflows, settings, and in-progress work will all remain intact and will be fully migrated when you update. Only the name and branding are changing.\nDoes my plan or pricing change?\nNo. Your current plan and pricing stay exactly the same, including legacy Windsurf Enterprise plans.\nWhat is happening to JetBrains support?\nWindsurf for JetBrains (IntelliJ IDEA,",
+      "article_title_extracted": "Devin Desktop | Devin",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-03T12:28:54.878064Z",
+      "description": "Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.",
+      "domain": "devin.ai",
+      "embed_type": "",
+      "id": "k176k16fd0epqk151xqzhmk7js87z5z6",
+      "og_image_url": "https://devin.ai/assets/images/desktop/og-desktop.png",
+      "recommended_at": "2026-06-03T12:29:35.475000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "devin"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T12:29:35.475000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Devin Desktop | Devin",
+      "url": "https://devin.ai/desktop",
+      "x_status_id": null
+    },
+    {
+      "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "cleaner_v": 2,
+      "created_at": "2026-06-03T08:46:52.862934Z",
+      "description": "The Verge • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k1762asm2na724gv0fdjhykbgd87ytg9",
+      "og_image_url": "https://i.ytimg.com/vi/gw0HBKJlX-w/maxresdefault.jpg",
+      "recommended_at": "2026-06-03T12:29:32.940000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "microsoft-build",
+        "tech-news",
+        "software-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T12:29:32.940000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Microsoft Build event in 25 minutes",
+      "url": "https://www.youtube.com/watch?v=gw0HBKJlX-w",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
+      "article_image_urls": [
+        "https://orchid.ai/branded/cta-twilight.jpeg",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fglowing-mountain-with-flowers.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fbriefs-coffee-paper.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fmeeting-blur.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Ftypewriter-night.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fplanner-coffee.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Fshubham.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Fkosta.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Femir.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fday-not-list-photo-01.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fapp-icons%2Fmail.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fapp-icons%2Fmessages.png&w=3840&q=75"
+      ],
+      "article_title_extracted": "Orchid, the executive assistant",
+      "category": "Tools",
+      "created_at": "2026-06-03T08:18:13.683422Z",
+      "description": "Orchid is the executive assistant that doesn't sleep. Inbox, calendar, meeting prep, and follow-ups in your voice. Approved by you, handled by Orchid.",
+      "domain": "orchid.ai",
+      "embed_type": "",
+      "id": "k17d406n0s2qzc13bff172gj9h87yb8q",
+      "og_image_url": "https://orchid.ai/branded/cta-twilight.jpeg",
+      "recommended_at": "2026-06-03T08:18:17.576000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-assistant",
+        "productivity",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T08:18:17.576000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Orchid, the executive assistant",
+      "url": "https://orchid.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/p15651fl/production/a8916d5b17f86d0e20d29f68a4ae0be5179c1006-1200x630.png?q=100",
+        "https://www.joinodin.com/logo-wordmark.svg?dpl=dpl_7rUKRc6nM9aYvfk8NWvK9L9ZkQ8R",
+        "https://www.joinodin.com/menu-icon.svg?dpl=dpl_7rUKRc6nM9aYvfk8NWvK9L9ZkQ8R",
+        "https://www.joinodin.com/swatches/united%20kingdom.svg",
+        "https://www.joinodin.com/swatches/united%20states.svg",
+        "https://www.joinodin.com/swatches/global.svg",
+        "https://www.joinodin.com/chevron.down.svg",
+        "https://www.joinodin.com/swatches/luxembourg.svg",
+        "https://www.joinodin.com/swatches/singapore.svg",
+        "https://cdn.sanity.io/images/p15651fl/production/3a70d8c2e78616953d354426d8fe0c271d1f2234-1063x333.svg",
+        "https://cdn.sanity.io/images/p15651fl/production/9db317adbedcb2966eca8ff0f43793c5bc4819f1-329x178.svg",
+        "https://cdn.sanity.io/images/p15651fl/production/207090b663887626fa3e024bfb427783aa14b244-1016x100.svg"
+      ],
+      "article_title_extracted": "Odin",
+      "category": "Tools",
+      "created_at": "2026-06-03T08:17:42.463637Z",
+      "description": "Digital SPV & Fund Administration for investors building at the frontier.",
+      "domain": "www.joinodin.com",
+      "embed_type": "",
+      "id": "k171bhx729bv1ztxjhkhe7ecnx87ynxa",
+      "og_image_url": "https://cdn.sanity.io/images/p15651fl/production/a8916d5b17f86d0e20d29f68a4ae0be5179c1006-1200x630.png?q=100",
+      "recommended_at": "2026-06-03T08:17:47.999000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "fintech",
+        "venture-capital",
+        "fund-administration"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T08:17:47.999000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Odin",
+      "url": "https://www.joinodin.com/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-03T08:00:14.248948Z",
+      "description": "Agent harnesses are where AI software actually runs. Cursor, Devin, Claude Code, Codex: these environments handle context, orchestrate tools, coordinate agents, and increasingly, manage memory. The harness, not the model, is increasingly the product that ships software.",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k173jbyjhearej8gcgbgqzvz2n87y225",
+      "og_image_url": "https://pbs.twimg.com/media/HJ0QXlyaoAA36lE.jpg:large",
+      "recommended_at": "2026-06-03T08:17:00.277000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "memory-systems",
+        "llm-infrastructure"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-03T08:17:00.277000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "State of Memory in Agent Harness",
+      "url": "https://x.com/mem0ai/status/2061822612398014782",
+      "x_status_id": "2061822612398014782"
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -4125,7 +4324,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-27T11:58:04.033605Z",
+      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
       "article_title_extracted": "Wan'de Form",
       "category": "Tools",
       "created_at": "2026-05-20T03:29:57.167032Z",
@@ -4206,9 +4405,10 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-27T11:58:04.033605Z",
+      "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
       "article_title_extracted": "- YouTube",
       "category": "Media",
+      "cleaner_v": 2,
       "created_at": "2026-05-20T08:37:33.907610Z",
       "description": "The Verge • YouTube",
       "domain": "www.youtube.com",
@@ -98257,7 +98457,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2057,
+      "count": 2062,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -98293,5 +98493,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-03T05:32:09.336589Z"
+  "updated_at": "2026-06-03T13:00:42.235756Z"
 }
