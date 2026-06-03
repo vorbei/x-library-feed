@@ -1028,14 +1028,14 @@
       "id": "2050902054827360279"
     },
     {
+      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
+      "id": "2039298177061511399"
+    },
+    {
       "article_text": "Here's the thing\nThe most important design file in your project in 2026 is not the Figma library.\nIt is a markdown file at the root of your repo called design.md\nIf your team has not written one yet, every AI agent you point at your codebase is generating off-brand UI by default. Cursor, Claude Code, Codex, Lovable, v0, Windsurf, Figma Make. All of them are reading the closest set of rules they can find. If you have not given them a design.md, they pick the closest substitute. The closest substitute is \"generic Tailwind dashboard.\"\nHere is why this file exists, what to put in it, and how to write one tonight.\nWhy every agent suddenly reads markdown files\nThe pattern started with claude.md. Anthropic's Claude Code reads it before every prompt. Then Cursor added .cursorrules. Then Windsurf added .windsurfrules. Then OpenAI standardized on AGENTS.md for Codex. Then the open-source community pulled them all into one shared convention.\nThe bet underneath all of them is the same. The agent does not need a JSON schema or a compiled config. It needs a document a human can read and a model can parse. Markdown is the cheapest, most durable medium that does both.\nOnce you accept that, the question is not \"should I write one.\" It is \"how many do I need.\"\nThe answer is at least two:\nCLAUDE.md or AGENTS.md for the project-wide brain. Voice, tone, business rules, what the codebase is, what it is not.\ndesign.md for the visual brain. Tokens, components, layout rules, accessibility constraints, what the brand looks like.\nSome teams collapse them into one. Bigger teams keep them split. Either is fine. Splitting them lets a designer own the second file without touching the first.\nWhat goes in design.md, and what does not\ndesign.md is for visual rules\nColor tokens, semantic color names, typography scale, spacing scale, layout grids, component anatomy, interaction states, accessibility constraints, what the icons look like, when shadows are allowed, when they are not, what radius means.\n\nCLAUDE.md is for project-wide brain.\nVoice and tone, the audience, the business model, the file structure, what frameworks are used, what conventions matter, what the agent should refuse to do.\nWhen the two overlap, design.md wins on anything visual and CLAUDE.md wins on anything structural. If you are not sure which file a rule belongs in, ask: \"Is this rule about how something looks, or about how something works?\" Looks goes in design.md. Works goes in CLAUDE.md.\n\nThe five sections every design.md needs\nYou can copy this skeleton tonight. It works for almost every product.\nSection 1, the brand line.\n \nThree lines. The \"avoid\" line saves you more than the other two combined.\n\nSection 2, the color tokens.\n \nTokens with a \"rules\" subsection beat tokens without one. The rules carry the taste.\n\nSection 3, the typography scale.\n \n\nSection 4, the components.\n \nThe pattern. Name. Anatomy. States. Variants. Anything not in this list does not get built.\nSection 5, accessibility and dark mode.\n \nThat is the entire file. Five sections. Roughly one page. You will spend more time fighting the agent without it than writing it.\n\nThe pitfalls people hit when they write their first one\nA clean numbered list:\nOverstuffing it. A design.md longer than two pages is a liability. The agent loses focus. Cut anything that is not load-bearing.\nMixing brand voice into design.md. Voice belongs in CLAUDE.md. design.md is visual. Keep them separate or you will end up duplicating updates.\nDocumenting Figma styles instead of intent. \"Use the H1 style from Figma\" is useless to an agent that cannot open Figma. Write the actual values.\nSkipping the \"avoid\" lines. Tell the agent what not to do. Negative constraints are sharper than positive ones. \"Never use a gradient\" is more powerful than \"use solid colors.\"\nNot versioning it. Commit it to git. Review changes in pull requests. A design.md that nobody reviews drifts the same way an unreviewed component library drifts.\nOne file for everything. When the brand evolves, one file becomes a merge nightmare. Split into design.md, brand.md, and components.md if you grow past two pages.\nForgetting to refresh it. Every six months, audit. The agent's output is a mirror of the file. If the output looks wrong, the file is wrong.\n\nThe exercise that proves the point\nTry this tonight, even if you have no project ready.\nCreate an empty folder.\nWrite a design.md using the skeleton above. Fill in your own taste. Spend forty minutes.\nOpen Claude Code or Cursor in that folder.\nType: \"Build me a settings page using the rules in design.md.\"\nLook at what you get back.\nThe output will be ninety percent of the way to your brand the first time. That is not because the agent suddenly got better. It is because you finally articulated your taste in writing.\nThe exercise is not about the page. It is about the file.\n\nThe bigger shift this is part of\nDesign systems used to live in Figma and get translated to code by engineers. The translation was always lossy.\nIn 2026 the design system lives in code. The Figma file is a viewer. design.md is the source of truth. Every agent reads it. Every component respects it. Every screen ships with the right tokens because the tokens are the input, not the output.\nThis is the quietest, biggest change to design ops in a decade. Most teams have not noticed yet. The teams that have are shipping faster, more consistent product than the rest. The gap is going to compound.\nThe work is small. Open your project. Create design.md. Write five sections. Commit it.\nTomorrow, every agent that touches your code will know what your brand looks like.\nThat is the whole game.\nGo check my newsletter here for more awesome practical stuff",
       "article_text_zh": "事情是这样的\n2026年，你项目里最重要的设计文件不是 Figma 库。\n而是你仓库根目录下一个叫 `design.md` 的 markdown 文件。\n如果你的团队还没写这个文件，那么你指向代码库的每一个 AI 智能体，默认都会生成偏离品牌的 UI。Cursor、Claude Code、Codex、Lovable、v0、Windsurf、Figma Make，无一例外。它们都在读取它们能找到的最接近的规则集。如果你没有给它们一个 `design.md`，它们就会选择最接近的替代品。这个替代品就是“通用的 Tailwind 仪表盘”。\n下面解释为什么这个文件存在、里面该放什么，以及如何今晚就写好一个。\n\n**为什么每个智能体突然都开始读取 markdown 文件**\n\n这个模式始于 `claude.md`。Anthropic 的 Claude Code 在每次提示前都会读取它。接着 Cursor 添加了 `.cursorrules`。然后 Windsurf 添加了 `.windsurfrules`。OpenAI 为 Codex 标准化了 `AGENTS.md`。最后，开源社区将它们统一成了一个共享约定。\n\n所有这些背后的逻辑都一样。智能体不需要 JSON 模式或编译后的配置。它需要一份人类能读、模型能解析的文档。Markdown 是同时满足这两点最廉价、最耐用的媒介。\n\n一旦你接受了这一点，问题就不是“我该不该写一个”，而是“我需要几个”。\n\n答案至少是两个：\n\n-   `CLAUDE.md` 或 `AGENTS.md` 用于项目全局的大脑。语气、语调、业务规则、代码库是什么、不是什么。\n-   `design.md` 用于视觉大脑。令牌、组件、布局规则、无障碍约束、品牌长什么样。\n\n有些团队把它们合并成一个。较大的团队则保持分开。两种方式都可以。分开的话，设计师可以只负责第二个文件，而不必碰第一个。\n\n**`design.md` 里放什么，不放什么**\n\n`design.md` 用于视觉规则。颜色令牌、语义化颜色名称、排版比例、间距比例、布局网格、组件结构、交互状态、无障碍约束、图标样式、何时允许阴影、何时不允许、圆角意味着什么。\n\n`CLAUDE.md` 用于项目全局的大脑。语气和语调、受众、商业模式、文件结构、使用了哪些框架、哪些约定重要、智能体应该拒绝做什么。\n\n当两者重叠时，`design.md` 在视觉相关事项上优先，`CLAUDE.md` 在结构相关事项上优先。如果你不确定某条规则属于哪个文件，就问：“这条规则是关于某物看起来如何，还是关于某物如何运作？” 关于“看起来”的放 `design.md`，关于“运作”的放 `CLAUDE.md`。\n\n**每个 `design.md` 需要的五个部分**\n\n你可以今晚就复制这个骨架。它几乎适用于所有产品。\n\n**第一部分，品牌基调。** 三行。其中“避免”行比另外两行加起来都更能帮你省事。\n\n**第二部分，颜色令牌。** 带有“规则”子部分的令牌比没有的好。规则承载着品味。\n\n**第三部分，排版比例。**\n\n**第四部分，组件。** 模式。名称。结构。状态。变体。不在此列表中的任何内容都不应被构建。\n\n**第五部分，无障碍和深色模式。**\n\n这就是整个文件。五个部分。大约一页。没有它，你花在与智能体斗争上的时间会比写它多得多。\n\n**人们写第一个 `design.md` 时常犯的错误**\n\n一个清晰的编号列表：\n\n1.  **塞得太满。** 超过两页的 `design.md` 是个累赘。智能体会失去焦点。删掉任何非关键内容。\n2.  **把品牌语气混入 `design.md`。** 语气属于 `CLAUDE.md`。`design.md` 是视觉的。保持它们分离，否则你最终会重复更新。\n3.  **记录 Figma 样式而非意图。** “使用 Figma 中的 H1 样式” 对一个打不开 Figma 的智能体毫无用处。写下实际的值。\n4.  **跳过“避免”行。** 告诉智能体不要做什么。否定约束比肯定约束更有效。“永远不要使用渐变”比“使用纯色”更有力。\n5.  **不对其进行版本控制。** 把它提交到 git。在 pull request 中审查更改。一个无人审查的 `design.md` 会像无人审查的组件库一样偏离轨道。\n6.  **一个文件包罗万象。** 当品牌演变时，一个文件会变成合并的噩梦。如果文件超过两页，就拆分成 `design.md`、`brand.md` 和 `components.md`。\n7.  **忘记刷新它。** 每六个月审计一次。智能体的输出是文件的镜像。如果输出看起来不对，那就是文件有问题。\n\n**能证明这一点的练习**\n\n今晚就试试这个，即使你还没有准备好的项目。\n\n1.  创建一个空文件夹。\n2.  使用上面的骨架写一个 `design.md`。填入你自己的品味。花四十分钟。\n3.  在该文件夹中打开 Claude Code 或 Cursor。\n4.  输入：“根据 `design.md` 中的规则，给我构建一个设置页面。”\n5.  看看你得到的结果。\n\n输出第一次就能达到你品牌的百分之九十。这不是因为智能体突然变好了。而是因为你终于把你的品味用文字表达出来了。\n\n这个练习的重点不是那个页面，而是那个文件。\n\n**这背后更大的转变**\n\n设计系统过去存在于 Figma 中，然后由工程师翻译成代码。这种翻译总是有损耗的。\n\n到了 2026 年，设计系统存在于代码中。Figma 文件只是一个查看器。`design.md` 才是事实来源。每个智能体都读取它。每个组件都遵循它。每个界面都带着正确的令牌发布，因为令牌是输入，而不是输出。\n\n这是十年来设计运营领域最安静、最重大的变化。大多数团队还没有注意到。而那些已经注意到的团队，正在比其他人更快地交付更一致的产品。差距将会持续扩大。\n\n工作量很小。打开你的项目。创建 `design.md`。写五个部分。提交它。\n\n明天，每一个接触你代码的智能体都会知道你的品牌长什么样。\n\n这就是全部的游戏。\n\n更多精彩实用内容，请查看我的新闻通讯。",
       "article_text_zh_hash": "3aaccb30bf31df27",
       "id": "2049528899898610085"
-    },
-    {
-      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
-      "id": "2039298177061511399"
     },
     {
       "article_text": "What an AI-Native Designer Actually Is\nThere is a phrase doing the rounds in 2026 that means almost nothing. AI-native designer.\nMost people who say it mean \"I use Claude for ideation and Midjourney for moodboards.\" That is not it. That is an AI-augmented designer. There is a difference, and the difference is going to determine which side of the next decade you land on.\nAn AI-native designer is someone whose entire workflow is rebuilt around AI. Not bolted on. Rebuilt. The tools, the rituals, the deliverables, the way you measure your day. All of it.\nHere is what that actually looks like, and what to do about it if you want to get there.\n \nAI-augmented vs AI-native, in one sentence each\nAI-augmented designer: My workflow has not changed, but my tools are faster.\nAI-native designer: My workflow would be impossible without AI, and I think in systems that assume an agent is in the loop.\nIf you opened your laptop today and could still do your job the same way you did in 2023 with the AI features turned off, you are augmented. There is nothing wrong with that. It just means there is another tier above it.\n \nThe five things that change when you go native\nI have been operating this way for a year. The shift is not subtle.\n1. You design in code, not in mockups.\nThe Figma file becomes a thinking surface, not a deliverable. The deliverable is a working Next.js page on a real URL. You move from a mock to a click-through prototype to production with the same agent in the loop. There is no handoff because there is nothing to hand off.\n\n2. You write your design system as a prompt, not as a Figma library.\nYour design system lives in three files: a CLAUDE.md, a design.md, and a tailwind.config.ts. They are versioned with git. They are read by Claude Code, Codex, Cursor, Lovable, v0, and Figma Make, and the output of all of them looks like your brand. Updating a token updates everything that touches it.\n\n3. Your portfolio is a list of live URLs.\nStatic screenshots have lost their meaning. Anyone can generate a beautiful Midjourney mockup. Nobody can fake a working domain. The new portfolio is \"click these links and use the things.\" Recruiters figure this out fast.\n\n4. You think in many-agent flows, not one-agent chats.\nA research agent finds sources. A writing agent drafts copy. A design agent builds the page. A QA agent runs Playwright tests. A deploy agent ships to Vercel. You orchestrate the team. The chat box pattern is over for the kind of work that pays.\n\n5. You measure shipping, not output.\nThe metric is no longer \"how many Figma frames did I make this week.\" It is \"how many things went live.\" For a year I tracked both. Output and shipping diverged hard. The designers shipping more were not making more frames. They were making fewer, and shipping every one.\n \nThe five habits that get you there\nHere is the playbook. Each item is a real ritual you can install this week.\n1. The CLAUDE.md is your first artifact on every project.\nBefore you open Figma. Before you sketch. You write a CLAUDE.md. Brand voice, color tokens, type scale, components you have, components you will not allow. Forty lines. It takes thirty minutes. Every prompt for the rest of the project respects it.\nThis single habit closes the gap between your taste and the agent's default output more than anything else.\n\n2. The dispatch-and-review loop replaces the design review meeting.\nYou stop showing up to a Tuesday review with a Figma file on screen. You dispatch a Codex task on Monday night. The PR is ready Tuesday morning. The review happens in the PR comments. The fix is a follow-up dispatch. You ship by Wednesday.\nThis kills the slowest part of the old design process. Approvals stop being events. They become continuous.\n\n3. The daily craft anchor, even when the AI is doing the heavy lifting.\nEvery day I produce one new high-quality interface. Not a mockup. A working screen with real interactions. The agent does the typing. I do the deciding. The discipline is the deciding, not the typing.\nIf you skip the daily anchor, your taste atrophies and the agent becomes the taste. You do not want that.\n\n4. The constraint-first prompt.\nYou stop writing \"make me a dashboard.\" You start writing \"design a dashboard for a four-person team that runs on a desktop, has six metrics that update hourly, and must work without color.\" The constraints make the output good. Vague briefs produce vague output. That is true of designers too.\n\n5. The portfolio that is just a list of links.\nPin a section on your site that says \"Things I have shipped this month.\" Six bullets. Six real URLs. Update it weekly. Recruiters and clients click through. Nobody asks for case studies anymore.\n \nThe pitfalls that look like progress\nA clean numbered list of the traps that catch people who think they are AI-native:\nGenerating without thinking. You crank out fifty Midjourney variations and pick the prettiest. That is not design. That is curation. The AI did the design and you signed your name on it.\nTrusting the first output. The first thing the agent gives you is the average of every average solution it has seen. Always run a critique pass. Always ask the agent to argue against its own work.\nSkipping the design system file. You jump into building screens without seeding the agent. The output is generic Tailwind purple. You blame the agent. The agent is doing what you told it to.\nTreating AI as a single tool instead of a stack. Claude for one thing. Codex for another. ChatGPT Image 2.0 for a third. Cursor for a fourth. The native designer runs all four and knows which one to pick. The augmented designer picks one and forces every problem through it.\nNot articulating your taste. AI learns from what you write down. If you cannot explain in words why you reject an output, the agent cannot learn. The exercise of writing your taste is the work.\n \nTwo teams worth studying\nI went through about a dozen \"AI-native team\" claims that float around the design timeline and most of them collapse under fact-checking. Two hold up.\nCora at Every. Kieran Klaassen, the GM of Cora, documented his setup in \"The Folder Is the Agent\" on every.to. He runs forty-four project folders. Each folder has its own CLAUDE.md and acts as a scoped agent, with a dispatch layer routing work between them. Every published a separate podcast episode walking through how the Cora team operates with two engineers. The pattern is the part to learn from: many small agents, each tied to one folder, orchestrated by one human. The throughput claim is rhetorical. The architecture is documented and reproducible.\nFigma's Cooking with Constraints framework. Figma's team published a designer-facing piece on their blog called \"Cooking with Constraints: A Designer's Framework for Better AI Prompts.\" The argument: clear tasks, rich context, and tight constraints are what make AI output good. Vague briefs produce vague output. It is the cleanest articulation of the constraint-first habit any designer can adopt this week. If you read one company's documented stance on AI prompting for designers, this is the one.\nThe common pattern across both: humans set the constraints, agents do the production, humans make the decisions, agents do not.\nThere are other teams operating this way (Anthropic's own Claude Design effort, Lenny Rachitsky's documented Claude Code workflows, individual builders inside Vercel and Linear's orbit). I left those out because the public record on internal practice is thin enough that I would be guessing. If you want a third example, read Anthropic's \"Claude Design\" announcement directly. It is the principal lab's first-party stance.\n \nWhat becomes more valuable, what becomes less\nMore valuable in 2026:\nSystems thinking. The ability to see how a small decision propagates.\nConstraint-based design. Working inside a tight set of rules and shipping faster because of them.\nPrompt clarity. Articulating intent in words that compound across agents.\nCode literacy. Reading enough Tailwind, React, and HTML to know when the agent is wrong.\nEditorial taste. The ability to look at five outputs and know which one to ship.\nLess valuable in 2026:\nPixel polish in static mockups. The agent does this faster.\nTool mastery as your primary credential. Tools change every six months.\nSlow handoffs and process artifacts. The work has moved.\nVisual taste without articulation. If you cannot say why, the agent cannot learn.\n \nThe way to start tonight\nPick one project. Any project.\nWrite a CLAUDE.md for it. Forty lines max.\nBuild the next screen with Claude Code or Cursor instead of Figma.\nDeploy it to Vercel. Get the URL.\nAdd the URL to your portfolio.\nRepeat tomorrow with a different project.\nDo that for thirty days. By day thirty, you are not augmented anymore. You have built the habits. You have the URLs. You have the proof.\nThat is the whole shift. There is no certification. There is no badge. There are only the things you have shipped, and the speed at which you ship the next one.\nThe AI-native designers of 2026 are not the loudest people on the timeline. They are the quiet ones with thirty live links under their name and a calendar that says they did them in a month.\nGet to work.",
@@ -1415,23 +1415,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "http://appmotion.design"
-    },
-    "http://axllm.dev": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "",
-      "extraction_source": "trafilatura",
-      "final_url": "http://axllm.dev",
-      "frameable": null,
-      "image_urls": [
-        "https://img.shields.io/github/stars/ax-llm/ax?style=for-the-badge&logo=github&logoColor=white&color=black&labelColor=555",
-        "https://img.shields.io/npm/v/@ax-llm/ax?style=for-the-badge&logo=npm&logoColor=white&color=CC3534&labelColor=555",
-        "https://img.shields.io/twitter/follow/dosco?style=for-the-badge&logo=twitter&logoColor=white&color=1DA1F2&labelColor=555"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Ax - Build Reliable AI Apps in TypeScript",
-      "url": "http://axllm.dev"
     },
     "http://birkey.co": {
       "content_type": "text/html; charset=utf-8",
@@ -3470,6 +3453,19 @@
       "title": "",
       "url": "http://x.com/i/article/2057152333696356352"
     },
+    "http://x.com/i/article/2057167874033156096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057167874033156096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057167874033156096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0xMgiX0AAyEi-?format=jpg&name=900x900)](http://x.com/i/article/2057167874033156096/tricalt/article/2061860170846843233/media/2061858295367847936)\n\nHow sandboxes + shared memory could unlock the next big discovery\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2057167874033156096/tricalt)\n\n[Vasilije](http://x.com/i/article/2057167874033156096/tricalt)\n\n[@tricalt](http://x.com/i/article/2057167874033156096/tricalt)\n\n·\n\nJun 1\n\n·\n\nFollow\n\nClick to Follow tricalt\n\n2\n\n18\n\n104\n\n[7.8K](http://x.com/i/article/2057167874033156096/tricalt/status/2061860170846843233/analytics)\n\nHow many breakthroughs came from carrying a solution out of one field into another?\n\nA lot, but let’s check some that are relevant to AI only:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n\nThe same solution pattern transfers from completely different domains and enriches the new fields. You can now have knowledge that lived in one field, reach another, and make something new become possible.\n\n## \n\nSandboxes + agents in the same domain\n\nSandboxes were the agent story of the year, and they matter more every month as agents get more independent. Each agent gets its own isolated computer to run code and experiment without breaking something that matters.\n\nThe problem shows up the moment you run more than one. Every sandbox starts cold. Cold start is when an agent works out how your system behaves every time it starts.. The next agent re-derives the same thing. So does the one after that. You pay for the same discovery again and again. It's a tax on every multi-sandbox workflow. We saw this firsthand at our last hackathon with \n\n[@daytonaio](https://x.com/@daytonaio)\n\n, led by \n\n[@ivanburazin](https://x.com/@ivanburazin)\n\n , one of the sharpest teams in the sandbox space. \n\nAnd “reuse knowledge” here isn't the whole story. Usually these agents run at the same time, so you want the learnings shared live, the moment one of them finds something.\n\nConcrete example: You point a research agent at problem X and attack from three directions at once: three agents, three sandboxes, in parallel. A, B, and C.\n\nAgent A grinds through a hard sub-problem. Many tokens, a couple of hours, and it cracks it. Later B hits the same wall, but its prompt was framed slightly differently and it stalls where A didn't. Without shared memory, B burns more time and compute, and what A learned never leaves A's sandbox. With shared memory, A's result is written the moment it lands. B checks memory, skips the wall, keeps moving. No agent re-pays for a discovery another already made.\n\n## \n\nSandboxes + agents in different domains (The real unlock!)\n\nNow that we went through the efficiency case, let’s elaborate on the most interesting one: sharing knowledge across different domains.\n\nLook at the examples again:\n\n* Diffusion models: thermodynamics → image generation.\n* Black–Scholes: the heat equation → options pricing.\n* Convolutional nets: the visual cortex → computer vision.\n* Velcro: burdock burrs → fasteners.\n* Sonar: bat echolocation → submarine detection.\n\nNone of these pairs share similar terminologies. A burr is not a fastener, the heat equation is not an option. What they share is a shape. Someone recognized that a problem in one field had the same structure as a solved problem in another, and carried the solution across. If you could reliably abstract problems and solutions into patterns and map them between domains, you'd solve a huge share of the problems that look hard only because no one has connected them yet.\n\nThe catch has always been that this mapping lived in one head. The transfer only happened if the burrs and the fas",
+      "title": "",
+      "url": "http://x.com/i/article/2057167874033156096"
+    },
     "http://x.com/i/article/2057172544277606401": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5014,6 +5010,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061457744914173952"
     },
+    "http://x.com/i/article/2061458737726914560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061458737726914560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061458737726914560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJvGHjdWMAIlqaJ?format=jpg&name=900x900)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061459087531847682)\n\nDynamic Workflows: Claude Code Is Moving the Agent Plan from Chat into Executable Scripts\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2061458737726914560/Voxyz%5Fai)\n\n·\n\n19h\n\n·\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n2\n\n12\n\n100\n\n[13K](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/status/2061782441606451381/analytics)\n\nClaude Code shipped Dynamic Workflows a few days ago. Most people's first reaction: \"finally, hundreds of subagents at once.\"\n\nThat's half right.\n\nTo be clear, \"hundreds\" doesn't mean hundreds running at the same time. The official docs cap concurrent agents at 16, with a maximum of 1,000 agents per workflow run. The real new thing is that the plan gets written as an executable script.\n\n[![Image](https://pbs.twimg.com/media/HJzz4nBXwAAGfae?format=jpg&name=small)](http://x.com/i/article/2061458737726914560/Voxyz%5Fai/article/2061782441606451381/media/2061790883301801984)\n\nSubagents solve who does the work. Dynamic Workflows change something more fundamental: where the plan lives.\n\nBefore this, the plan lived in chat context. Claude would think one step, act one step, read results as they came. Subagents could handle side tasks, skills could teach it a method, but the thing actually deciding what happens next was still jammed into the conversation window.\n\nDynamic Workflows pull the plan out of chat. Claude writes an orchestration script. Claude Code executes it directly. Loops, branches, intermediate state, review chains, failure retries, all run inside the script. The main conversation gets a clean summary at the end, not the entire messy middle.\n\nBefore, running a big task with Claude Code was like standing on a construction site shouting orders one by one. Dig the foundation. Done. Pour the columns. Done. What's next?\n\nThe more workers you had, the more your voice became the bottleneck. Because what was really stuck wasn't who does the work, but who remembers the whole blueprint.\n\nWhat Dynamic Workflows do is pull the blueprint out of chat. Blueprint = plan. Foreman = workflow script. Crews = subagents. You = the client.\n\nIn practice it looks like this. You type one message in Claude Code:\n\nplaintext\n\n```plaintext\nAudit every API endpoint in this project.\nCheck authentication, error handling, and documentation coverage.\n```\n\nClaude decides this task fits a workflow. It writes an orchestration script with several phases: scan all endpoints, check each one, aggregate issues, generate a report. You glance at the phase breakdown, confirm it looks right, and it starts running.\n\nYou can watch progress as it goes: which phase is running, how many agents are active, whether any permission prompts came up. When it finishes, you get a structured audit report, not dozens of scattered findings floating in chat.\n\nAnthropic picked Bun as the proof case for this feature. Jarred Sumner used it to port Bun from Zig to Rust. Roughly 750,000 lines of Rust, 99.8% of existing tests passing, eleven days from first commit to merge. The official blog also notes this port was still outside production at the time. I treat it as an anatomy specimen.\n\nThis article covers the 5 rules I use to evaluate agent workflows. Each comes with a module you can take and use directly.\n\n## \n\n1\\. First question: where does the plan live\n\nWhen I look at an agent workflow, the first thing I check is where the plan lives:\n\nplaintext\n\n```plaintext\nWhere plan lives          Good for                           Main problem\nChat conte",
+      "title": "",
+      "url": "http://x.com/i/article/2061458737726914560"
+    },
     "http://x.com/i/article/2061549213083979776": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5109,6 +5118,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061850535708483585"
+    },
+    "http://x.com/i/article/2061860599571845120": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061860599571845120",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061860599571845120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ00rQCWAAAZll8?format=jpg&name=900x900)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142087684/media/2061862122049372160)\n\nStop Looping Tool Calls: Search as Code Cut Tokens 85% on a 200-CVE Task\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2061860599571845120/AlphaSignalAI)\n\n·\n\n13h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n13\n\n[1.2K](http://x.com/i/article/2061860599571845120/AlphaSignalAI/status/2061865777142087684/analytics)\n\n## \n\nBy Perplexity, Search becomes Python the model writes on the fly. The SDK stays private, the pattern doesn't.\n\n> In \\~7 mins: the CVE result (85% fewer tokens at 100% accuracy), the 5-system benchmark table, the architecture's 3 layers, the 6 design principles behind it, and a Hermes Agent walkthrough to run the pattern yourself.\n\nPerplexity just stopped letting its agents call search and started letting them program it.\n\nSearch as Code (SaC) is its new search architecture. Instead of one fixed pipeline behind a query, the model writes Python that composes the individual pieces of the search stack into a retrieval pipeline built for each task.\n\nOn a 200-CVE research task, that cut token use 85.1%, from 288.7K to 42.9K, while scoring 100% accuracy. Every non-Perplexity system tested scored below 25%.\n\nIt ships today: default in Perplexity Computer, available in the Agent API. There is a Hermes Agent walkthrough at the end if you want to run the pattern yourself.\n\n## \n\nContext\n\nThe research is published by Perplexity and titled \"Rethinking Search as Code Generation.\" It landed June 1, 2026, and builds on the first overview of Perplexity's search stack from September 2025.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg)](http://x.com/i/article/2061860599571845120/perplexity%5Fai)\n\nPerplexity\n\n@perplexity\\_ai\n\n·\n\n[Jun 1](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319)\n\nIntroducing Search as Code, our new search architecture for AI agents. It writes Python that calls our search stack directly, instead of looping through function calls one at a time. Available in the Perplexity Agent API, and now default in Computer.[https://research.perplexity.ai/articles/rethinking-search-as-code-generation…](https://t.co/ut6GGWQTVO)\n\n[![Image](https://pbs.twimg.com/media/HJvxG6jaEAEQj2j?format=png&name=small)](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/photo/1)\n\n[Perplexity Developers](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/media%5Ftags)\n\n145\n\n294\n\n1.8K\n\n[522K](http://x.com/i/article/2061860599571845120/perplexity%5Fai/status/2061506359326384319/analytics)\n\nPerplexity's search serves thousands of queries each second. The old contract was simple: the model issues a query, the engine runs a predefined pipeline, and the model reads the results. That works for a single question.\n\nIt breaks for agents. Today's agents run tasks that take hours, span thousands of retrieval operations, and need a different search strategy at each step. A fixed pipeline cannot bend to all of them. SaC is Perplexity's answer.\n\n## \n\nWhat Search as Code actually is\n\nThe old way hands the model a search box. It types a query, gets back a ranked page of results, and works with whatever the pipeline decided to return. The model never touches the steps in between.\n\n[![Image](https://pbs.twimg.com/media/HJ0zt-aWEAEHMKL?format=jpg&name=small)](http://x.com/i/article/2061860599571845120/AlphaSignalAI/article/2061865777142",
+      "title": "",
+      "url": "http://x.com/i/article/2061860599571845120"
     },
     "http://x.com/i/article/2061868304654864384": {
       "cleaner_v": 2,
@@ -12520,6 +12542,31 @@
       "title": "The State of Hermes Agent — May 2026 | Hermes Atlas",
       "url": "https://hermesatlas.com/reports/state-of-hermes-may-2026"
     },
+    "https://heroui.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
+      "final_url": "https://heroui.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.heroui.com/images/twitter-card.jpg",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdefault.00hy66eiq_fus.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsky.0erdt1x~h1l8b.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flavender.0-32nppwuod68.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmint.0-bfpgeec9090.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetflix.068-abhd3l9nu.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblack.0owg-00gewaph.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspotify.05yg_58p7hd2w.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcoinbase.17.cfzs2mm70~.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb.0h40d2kw83-5k.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord.0wmws.n6y~547.png&w=96&q=75",
+        "https://heroui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frabbit.049~3gxxqqtmv.png&w=96&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.",
+      "url": "https://heroui.com/"
+    },
     "https://hrescak.com/notes/transcribe-to-markdown-skill": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18597,19 +18644,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg": {
       "cleaner_v": 2,
@@ -18736,6 +18783,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
+    },
+    "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
     },
     "https://pbs.twimg.com/media/G-5qLVcX0AAOV8j.png": {
       "cleaner_v": 2,
@@ -26157,6 +26218,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
+    },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -27038,34 +27127,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
-    },
-    "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg"
-    },
-    "https://pbs.twimg.com/media/HJxmfJGaUAAZ4Zk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJxmfJGaUAAZ4Zk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJxmfJGaUAAZ4Zk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJxmfJGaUAAZ4Zk.jpg"
     },
     "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg": {
       "cleaner_v": 2,
@@ -29928,6 +29989,20 @@
       "title": "",
       "url": "https://www.patreon.com/NeuralBreakdownwithAVB"
     },
+    "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.perplexity.ai](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine/favicon.ico)\n\n# www.perplexity.ai\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for www.perplexity.ai to respond\n\nRay ID: `a05ce5da5e531cfe`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
+    },
     "https://www.pola.co.jp/special/o/wecaremore/menomae/": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -30322,6 +30397,18 @@
       "text_excerpt_zh": "",
       "title": "Interactive SVG Animations",
       "url": "https://www.svg.guide/"
+    },
+    "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "final_url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003���F���)P���vM�\u0004@�\u0004U�쒵T�[��N����\u000e�Df���\u0004���|�טsf `^c ��d~�\u001b\u0001\u0010dfJ�������$�Xnܸ\u0011�{ �f�\u0018�o�Ep��MO�8�O0��\u0017�[żu�E\u0010 _\u0016�X\u0017\\Ίu �.�UY� �6��v� ���z��\u0016_�&� � ��X��uQ\u0006�E��,���,���/�����:�������IY\u0016���m�?���bu\u0011�^���\u001bp��Y�o֗�U+\u0018-��b\u000eTO��i\u0011���:[� nW�jR\\/\u0017�u���d��| < .�&��m7�d>YO�i� ���qT���ޮ��5:.��j�\\O\u0016�Qó �e^\u0006gE1\u000f.��R��M�S���� < ؔ� \u0014�� Pr���\u0019O�0��\u0007���88_���U� �`\\��qq\u0014\u0014�j��V�hq!�)K?�����Y��ܪ\u0013��/�`|A �q'x�\u0018�G��\u0004�~NF�q��| ,\u0017ׂk��Λ� ��|Z.��\u0006��\"�M��d�hP�z�Z\\��\\�\u0016����� \u0001�t\u0002�\u0002W�\u00147�h X���{F0 ��\" � :T��Y򢘏 ��)H�|�P�����Ե4}ܚ2��h\u0005����q������ߜ>�o���fU�Oت�R��e@�E���qV�'9d6�VO|{9\u0004�.��\u001aew^\\���` (r�IgT�;� ;� ��\b�|c?�W�{�\u001akޏ\u0016�� ��,f fqq1-:?���㮫�V�#�;�b��G�u0�,�q�� ��q+��D� Nn�$��7�8H��$ ��M?��j�xܚ��{5 wf��jQ.�םf� 3�9+�!�gw���\u0011f4���m-T������_ < < ]��+p����M:��UӶ�s� Y7���(�#] �A�����/�3��+\u0015��]EQr�� ��\u0017�����M\u0014� ��\u0015���%�.���\\�_�]\u001a�D�G��\"*�˻�@f�qd�b �n����Z�\u001bf���>h{C��bn���wʫ�j&m�z���0����� m�.V�|]T��ޣ����n�^���ͬޑ�?x�2~���/�P\"xQ\u0014㯪V*hyѩ�\u0002� f�k�\u0015�30��9�M����z�, u�nd�&ݳ�?��i_TL\u000e{Z�\u000f!l����[o_�/�D9�aM1F�h��� ����f�궮x_�r\u0002��\\� l�`��ZnP ֧���ը�sY��'��S���\u000e��:cԤ��j\u0001'��}�Z\\ < \u0012\u0005�U�� �z �;�;�m�W���v�.��\u000fg�MI\u001bӝ �spF�;=i\u0003h���֓є'�\u000erO �\"�*�� �6+v�\u000f��gl\u0010�u���a\u0019��/��������l:An\u0018�u=aA����\u000ed�~;��]�= C�k� ]�&!���鯺�-Ɠ��G{轣�(}�&��@��]'���l1���{S�\b�n78-�\u0012�\u0010 � �N~(\\ѻD��j1A\"���D����\u0012a��'I��|�>\u0000��\u000f\ba�$�S\u0013`��(֧k� �����r����,��+���!\u0010}G�آݫ=GҸ0��T\u0015 i < ��J\\��z��û˨zŷ{Q?�M^� �`��h�\u0004�p2\u0001 < Ün���\u0007\\__w�{�5�q\u0018�]�:*�\\�#$��@ �b\u000f�������V\u0018�A4�:Q�\u000f�a�7��ݖ9z�s�\u0000�9�z�SƏ[�U \u001b\u0004Q���y\u0016w�~/�?j'lw�xЎ:�a < ⺗r� �v'��v��GI��Kz�^g��Ľ�^\u000fڼ�x��= �q��A�Gj? ��k?��^[�)@���p�h8� ���\u000f�H��~/��\u0006�H�e�:���:��u\u0018\u001b\u0014y��M\u0012� ׁ�n�x���dT4��� ;Yă?EY' d p\u00101䨓DC~�N\u0014g�0d��p`\u0017\u00008L;��Z5�tz1OB��\u0007~A2 P���\u0017��7\u0004�Q�G��8\u0001j04�:Ѡ�wa�I( \u0003L��O�O\u001a��&��(�^'\u001b� �D�C����\u0010�\u001a�eO y\u0019�L��`\bZ�� ;�T\u0003�{Q $\u0002 � �b\b�� �������Ǐß\u0006I\u0015\b�)X �>� �Cc�N�\u0007O���\u0015Z � ��a�* /� �x < :4 �h��킴^ʳ^H�(�x?\u0002j\u0007R\b���@D%��C#*@�D�\u0002!�ŏÖ\u0011U`G�\u0010 � U\u0013�\u001b�,�\u0018jPq�?ـ>��\u000e�1r���Cۧ�M�u;\u0018�\u00048���M`'�\u001a�]]zD���# < �kX\u0010\u0006�a�����0\u0012N�0��lP�%��+Lhْ9e{��\u0018���(�ؠ�'��#\u0012\u001aՂ�����J\u001b�\u000f-Ո�\u000f�\u0001\u0014����J�\"q�DT�k~�\"\u0007VzN!��ֶ�H \u0003�\u0006�5d����J# ~��\u0018;�v�\u0019\u0016h �����ۥ^��-j��U����ӳ���\u0011τ\u0002VSĮ�I�>�$L ������� ��:iڎ\u0001�-#\u0002E ��K�~�\u0018n��P:(޳Jz�X�N?\u0003w�΀�F\u001bR:�a(B��Ĥl lMl[��R$�\\�\"�M�zJ�E��f�El��N��aQ;d? P�V�F6�J3��:��\u0011q&�d, �Ǚ&)\u0003�H��6\u0005WK��)�\b,�\u0001�a���4���\u0019��n����[:� �#\u0012�R\u0006)QV\u0018QOа���D� ��2�P�\u0006\u0011�!@h{�彰�\u0007k�G$\u0015Q+\u001aj�\u000f�و�� 3�\u0010(�����h��5k��7\b��\u0001-��a\u00101q@�Q\u000eL���0����ۀ�ma�1(\u000e{\u0010\u0017X\u000e!�XߜH_��>\u0005L�6۞�>e ly�W�1����R��~�yd�h1�\u0010��FЇ�!�dK�\u0013���~;�@ ˌA�Q2 I < \u0012�AC�� ���\u000f�ŌY���N���L�>� � < �5�'�\u0007��w,�X�l\u001b��9�\u000e�\u0005���� ��2l ,ӧ'��\u0002�\u0007����\u0007*\u000e��\u0007 �T\u0004��(�s�A�v�U�\u000f�\u0016B�\u0015��L0A\u0011�\u0007����v{�ԃ\u001aj��\u000e\u0012��҆H��]'|��0c�ئ���5Ğh�cn����{�\u00074Ai|.R��Ӥ\u0003��,��\u0011_A�\u0000�-�B�FCQ XeLaH�8 \u0002����4�\u0000\u0011g*�;�\u0005�e�1 ,\u0010�Yp�t\u0006}CE��.�-���:� \u0002# < \u0006\u000f5`�m`k�\u000e\u0006�K�+ ����5�u�$�2\u0011C�\u000f� �2\u001a��d�r�\u0012Ӏ��P收�y�\u0003�)�G��F\u0019Ub�]%��2� )u\u0007�0\u0013nr�$\u0019�)\u0019�ǃ�h\b����\u000f8�Kѭ��Z��%\u0005���^�\u001b4�\u0004TתY ��mo��\u000f��떵=Wӽ�3�=\u0005������Q�\u001a �a�\u0018F\u0002�3��B,�+� ��p j�@.[��X\u0010W�\u0006\u0006��\\A�i�ծ�P��\b!�}�ٍӁ�f\u0016�Z^���2mqژ�a���a��-�\u0017�\u0017я}��R}$\"8 �k�h���s�.\u0019Z\u0012_��\u0010\bY Y��\u0001o�~�\u0006�wnpp�Zm�\u0015[P��`xl.\u0005\u0012 \\���]�9�i9� �R\u0014�#.��Д\u000eXm�T\u001b�1�|F���}��}�!r�\u0016|Dh\u000e��.Y�Q�abj@��]\u0012\u0011\u0010%�y-�t/#]{���7�6\u0006���z�l�5A�]W@ک\u0004��\u0005[�j���uG$2��fZ�ܾo#A�0 9\u0018���F\u0011{\u0017TBU- a,�̰��ȅbs���������l1�1 �g~�k$9]�\u0001 w�����h1�m�f��v�z\\�T?�e�!��ǴU����?�:��Y_�\u0017�A��|Ϊ>t�)�-V\u0018K� \u0012��:�B�'M�d^�e�l��K��O��E\u0006�l~ �ى��\u0001�;��� n\u0004�9��.��g��E��r�$��z���:A��;4��6�J�\u0012T�i�D�A�T�^�6l\u0006A���m��\u0018� �;�d]+e��i~&M�;3�\u0006�Ԋ��5}W�V��.j�z �Rg�� \u0016��j�Gt̳\u001a��R�U� 6��*�w�϶J�5����\u0016�qY�̓D�q�(�-��n�m ��gl�4�rnAep��Nͥ�:ݖ��]�'Q�{�� < ��y����\u0016 Of\u0017�\u0019�`�&p� �=D � l���\u000e߶�{웓�\u0002������\\��������=m�S>����u�O�޹ *�e�u��~\u0003s7��W\u0013yg�*�7�Z/Z���\u0011��4��|q��N\u0017׵\"u n�� ���U��� '�?m�Z'ۂ &�\u0001�\u0000�z�'��\\��\u0001�Ev���j~�ج�]\u0007�\u0012ߪS [�st����V��j��c; �\u0017+�K\u0002����r��Q�ςr�\\�p#5�3��Aـ�C�(��/��\u0007xeQ\b00�l\u0015�R\u0017z��\u0011�B\u0010���f^\u0004ё < ���8�͜.�\"p�A�~��\u0017�z�b>�������\u0015I��*y{�'Y���/���\u000f����ǇX����O�\u0002kֹ\u0007�E �\u0004\u000es��b-\u001bC�J� ����\u0006b���7\u0012C��p�h\u001av�1N���c�E��˓�bvR#\u0003��_�g�+ < �����}Q̦\u0005O��8��GA\u001a�˛�\u0007�h�= 30ֶ��O��v\u0010\u0001Smj��K�� p*�\u0017�\b�3|`�+v6 `�tj�&^��b�v� Yކe��`堼A`;� ���^b~lc�����Q��/T\u0006ח0�A��r�{j^�rs=�ˢ\u0013 < �-�68�\\`�c.�?��0�^a��c\u0007]l� ̡��|�\u0006����b��n9�m��|^,6�\u0014��Uq�S��c�s\u0001��2��gk��+kǓ����9~@��z\u0011��kupH.���A ���w[�� \u0010�7�Q��@\u0015��^iċ�y\u0013�{_,��]M�)�4W_�%�n",
+      "title": "",
+      "url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/"
     },
     "https://www.tavus.io/post/introducing-image-to-replica": {
       "cleaner_v": 2,
@@ -42193,15 +42280,16 @@
     "2061399196209447241": [
       "https://x.com/0xMortyx/status/2061399196209447241",
       "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg",
-      "https://x.com/0xMortyx/status/2061414393804423280",
-      "https://x.com/0xMortyx/status/2061414458862313892"
+      "https://x.com/0xMortyx/status/2061414458862313892",
+      "https://x.com/0xMortyx/status/2061414393804423280"
     ],
     "2061420405298987090": [
       "https://x.com/SergioPaniego/status/2061420405298987090"
     ],
     "2061435378024739198": [
       "https://x.com/Kpaxs/status/2061435378024739198",
-      "http://x.com/i/article/2061324501170688000"
+      "http://x.com/i/article/2061324501170688000",
+      "https://x.com/Kpaxs/status/2062012292145803646"
     ],
     "2061454423034110372": [
       "https://x.com/garrytan/status/2061454423034110372",
@@ -42272,11 +42360,7 @@
       "https://pbs.twimg.com/amplify_video_thumb/2061560926667763712/img/sCZ71URT5SKrKwrj.jpg"
     ],
     "2061611580476059768": [
-      "https://x.com/dosco/status/2061611580476059768",
-      "https://x.com/dosco/status/2061636366489010487",
-      "http://axllm.dev",
-      "https://pbs.twimg.com/media/HJxmfJGaUAAZ4Zk.jpg",
-      "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg"
+      "https://x.com/dosco/status/2061611580476059768"
     ],
     "2061671025511649470": [
       "https://x.com/0xMoysei/status/2061671025511649470",
@@ -42293,6 +42377,11 @@
     "2061741115481415909": [
       "https://x.com/martinfowler/status/2061741115481415909",
       "https://martinfowler.com/fragments/2026-06-02.html"
+    ],
+    "2061782441606451381": [
+      "https://x.com/Voxyz_ai/status/2061782441606451381",
+      "http://x.com/i/article/2061458737726914560",
+      "https://x.com/Voxyz_ai/status/2061912665446859255"
     ],
     "2061783905003282512": [
       "https://x.com/mitsuhiko/status/2061783905003282512",
@@ -42327,9 +42416,12 @@
     ],
     "2061810168854155446": [
       "https://x.com/Voxyz_ai/status/2061810168854155446",
-      "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
-      "https://x.com/Voxyz_ai/status/2061849069983785069",
-      "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
+    ],
+    "2061816210283749876": [
+      "https://x.com/tualatrix/status/2061816210283749876",
+      "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+      "https://x.com/tualatrix/status/2061826203707981887"
     ],
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
@@ -42356,9 +42448,26 @@
       "https://x.com/Mnilax/status/2061850337716187144",
       "http://x.com/i/article/2061818708226342912"
     ],
+    "2061860170846843233": [
+      "https://x.com/tricalt/status/2061860170846843233",
+      "http://x.com/i/article/2057167874033156096"
+    ],
+    "2061861293569765847": [
+      "https://x.com/perplexity_ai/status/2061861293569765847",
+      "https://pbs.twimg.com/amplify_video_thumb/2061861227383685120/img/bpkaDNVW35LA2JFq.jpg",
+      "https://x.com/perplexity_ai/status/2061861305838149980",
+      "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
+    ],
+    "2061865777142087684": [
+      "https://x.com/AlphaSignalAI/status/2061865777142087684",
+      "http://x.com/i/article/2061860599571845120",
+      "https://x.com/AlphaSignalAI/status/2061866232786120796",
+      "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "https://x.com/AlphaSignalAI/status/2061825589036675552",
+      "https://pbs.twimg.com/ext_tw_video_thumb/2061825576344719360/pu/img/gQZPx4VV_QJz3oBi.jpg"
+    ],
     "2061872114714521927": [
-      "https://x.com/larsencc/status/2061872114714521927",
-      "https://x.com/larsencc/status/2061524507437707384"
+      "https://x.com/larsencc/status/2061872114714521927"
     ],
     "2061872744053002735": [
       "https://x.com/mogulinfluence/status/2061872744053002735",
@@ -42376,24 +42485,24 @@
     "2061877533885473181": [
       "https://x.com/mvanhorn/status/2061877533885473181",
       "http://x.com/i/article/2061440101411102721",
-      "https://x.com/mvanhorn/status/2061903039037112501",
-      "https://x.com/mvanhorn/status/2061903507427631417",
       "https://x.com/mvanhorn/status/2061902951757840759",
       "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg",
-      "https://x.com/mvanhorn/status/2061985597930291659",
-      "https://x.com/mvanhorn/status/2061902795465437574",
-      "https://x.com/mvanhorn/status/2061985648559727044",
+      "https://x.com/mvanhorn/status/2062014401218298234",
+      "https://x.com/mvanhorn/status/2061903507427631417",
+      "https://x.com/mvanhorn/status/2061903039037112501",
+      "https://x.com/mvanhorn/status/2062056707933745608",
       "https://x.com/mvanhorn/status/2061963776111604046",
-      "https://x.com/mvanhorn/status/2061984134214697034",
-      "https://x.com/mvanhorn/status/2061902770136100958",
-      "https://x.com/mvanhorn/status/2061902657930018954",
-      "https://x.com/mvanhorn/status/2061902564879471046",
-      "https://x.com/mvanhorn/status/2061903003024773574",
-      "https://x.com/mvanhorn/status/2061902627315786173",
+      "https://x.com/mvanhorn/status/2062039830197121030",
       "https://x.com/mvanhorn/status/2061903054526665108",
-      "https://x.com/mvanhorn/status/2061902590988910810",
+      "https://x.com/mvanhorn/status/2061902795465437574",
+      "https://x.com/mvanhorn/status/2061902770136100958",
+      "https://x.com/mvanhorn/status/2061902627315786173",
+      "https://x.com/mvanhorn/status/2061903003024773574",
+      "https://x.com/mvanhorn/status/2061985648559727044",
+      "https://x.com/mvanhorn/status/2061962654969995308",
+      "https://x.com/mvanhorn/status/2061984045140185419",
       "https://x.com/mvanhorn/status/2061903238929191257",
-      "https://x.com/mvanhorn/status/2061984045140185419"
+      "https://x.com/mvanhorn/status/2061902657930018954"
     ],
     "2061887650391625870": [
       "https://x.com/OpenAI/status/2061887650391625870",
@@ -42412,11 +42521,11 @@
     "2061907337154367865": [
       "https://x.com/trq212/status/2061907337154367865",
       "http://x.com/i/article/2061850535708483585",
-      "https://x.com/trq212/status/2061945395669000519",
-      "https://x.com/trq212/status/2061933039643685316",
       "https://x.com/trq212/status/2061928448948592714",
+      "https://x.com/trq212/status/2061933039643685316",
       "https://x.com/trq212/status/2061937123880824861",
       "https://x.com/trq212/status/2061932198517968959",
+      "https://x.com/trq212/status/2061945395669000519",
       "https://x.com/trq212/status/2061951254998507751"
     ],
     "2061907538741006796": [
@@ -42428,8 +42537,15 @@
       "https://x.com/trq212/status/2061918748521742680",
       "https://x.com/trq212/status/2061925433441227090",
       "https://x.com/trq212/status/2061915368348921983"
+    ],
+    "2061979261637181775": [
+      "https://x.com/vikingmute/status/2061979261637181775",
+      "https://coss.com/ui",
+      "https://heroui.com/",
+      "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
+      "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
     ]
   },
-  "updated_at": "2026-06-03T01:47:46Z",
+  "updated_at": "2026-06-03T07:13:17Z",
   "window": "recent"
 }
