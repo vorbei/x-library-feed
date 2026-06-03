@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "First post (and article) to reach 1M impressions. \n\nGlad to see people find it useful!",
+      "text_zh": "首个达到100万阅读量的帖子（也是文章）。\n\n很高兴看到大家觉得它有用！",
+      "text_zh_hash": "2979e6f0b5327b15",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/larsencc/status/2061872114714521927"
     },
     {
@@ -262,6 +265,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "We’re making Codex more useful for your work by expanding plugins beyond individual tools.\n\nThese plugins turn Codex into a specialist for a specific role with a single install, no coding required.\n\nCodex can access 62 popular apps and 110 skills for work across sales, data analytics, creative production, product design, and public equity investing.\n\nhttps://openai.com/index/codex-for-every-role-tool-workflow/",
+      "text_zh": "我们正在扩展 Codex 的插件功能，使其不再局限于单个工具，从而更好地服务于你的工作。\n\n这些插件只需一次安装，无需编写代码，就能将 Codex 转变为特定领域的专家。\n\nCodex 现已支持 62 款热门应用和 110 项工作技能，覆盖销售、数据分析、创意制作、产品设计以及公开股权投资等领域。\n\nhttps://openai.com/index/codex-for-every-role-tool-workflow/",
+      "text_zh_hash": "a02c371b877650de",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/OpenAI/status/2061887650391625870"
     },
     {
@@ -347,6 +353,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "ENTREPRENEURS 🚨 \n\nYou should want control over your attention.\n\nIt’s the one asset every platform, app, and algorithm is trying to rent from you.\n\nThis is the deep work system for taking it back: https://t.co/uv3rpGkqYR",
+      "text_zh": "创业者们 🚨\n\n你应该掌控自己的注意力。\n\n这是每个平台、应用和算法都试图从你这里租用的唯一资产。\n\n这是夺回注意力的深度工作系统：https://t.co/uv3rpGkqYR",
+      "text_zh_hash": "5c6995500f351243",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mogulinfluence/status/2061872744053002735"
     },
     {
@@ -387,6 +396,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I feel like sharing this again. https://lucumr.pocoo.org/2025/9/4/996/",
+      "text_zh": "我想再分享一次这个。https://lucumr.pocoo.org/2025/9/4/996/",
+      "text_zh_hash": "3332cba7a4df30b1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mitsuhiko/status/2061783905003282512"
     },
     {
@@ -427,6 +439,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fragments: Dodgy metrics for AI usage, history of tech removing jobs, benchmarking closed and open models, LLMs multiply existing cruft, AI slop driving us crazy, I am the Global Interpreter Lock for agents\n\nhttps://martinfowler.com/fragments/2026-06-02.html",
+      "text_zh": "## 片段：AI使用量的可疑指标、技术淘汰岗位的历史、闭源与开源模型的基准测试、LLM放大现有冗余、AI垃圾内容令人抓狂、我是智能体的全局解释器锁\n\nhttps://martinfowler.com/fragments/2026-06-02.html",
+      "text_zh_hash": "cfc5f5fe5145a55f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/martinfowler/status/2061741115481415909"
     },
     {
@@ -551,6 +566,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A complete breakdown on using SkillOpt - a working guide to self-evolving agent skills (repo linked): 👇 https://t.co/rePr1VyPmw",
+      "text_zh": "关于使用 SkillOpt 的完整解析——一份关于自我进化智能体技能的实用指南（附仓库链接）：👇 https://t.co/rePr1VyPmw",
+      "text_zh_hash": "8fd485afc535dc79",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hooeem/status/2061804518782730310"
     },
     {
@@ -591,6 +609,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "New essay! When it comes to high-agency, AI-enabled orgs, the tools we've used to write and distribute strategy are obsolete. So what replaces them? Ideas and examples here: https://mattstromawn.com/writing/high-agency-strategy/",
+      "text_zh": "新文章！谈到高自主性、AI赋能的组织时，我们过去用来撰写和分发战略的工具已经过时了。那么，什么能取代它们呢？想法和示例在此：https://mattstromawn.com/writing/high-agency-strategy/",
+      "text_zh_hash": "2f4b6f2fa7c83ac3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mattstromawn/status/2061807667606163741"
     },
     {
@@ -756,6 +777,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Workflows are the biggest upgrade to Claude Code’s capabilities since skills and subagents.\n\nI dove deep into it with @sidbid to figure out best practices, examples and more.  I’m particularly excited about the non-technical tasks it enables for Claude Code.",
+      "text_zh": "工作流是自技能和子代理以来，Claude Code 能力最大的一次升级。\n\n我与 @sidbid 深入探讨了最佳实践、示例及更多内容。我尤其对 Claude Code 由此能够处理的非技术性任务感到兴奋。",
+      "text_zh_hash": "5b3959c40f55e852",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/trq212/status/2061907538741006796"
     },
     {
