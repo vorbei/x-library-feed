@@ -69,6 +69,9 @@
         "bookmark@chumsdock"
       ],
       "text": "anthropic shipped a claude that writes its own harness, per task, on the fly.\n\nbuilding the scaffold just stopped being the hard part.\n\nnow the edge is judgment: which pattern fits, and when more compute is wasted. https://t.co/3uUKtjDhnx",
+      "text_zh": "Anthropic 发布了一款 Claude，能够根据任务动态编写自己的测试框架。\n\n搭建脚手架不再是难点。\n\n现在的关键在于判断力：哪种模式适用，以及何时增加算力是浪费。https://t.co/3uUKtjDhnx",
+      "text_zh_hash": "a83c17dd6eb68e1c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rohit4verse/status/2061990115615064077"
     },
     {
@@ -126,6 +129,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The most interesting visual AI tools today are generating the underlying source code behind the final output.\n\nThis change is unlocking editability, iteration, and a feedback loop that pixel-native models can't match.\n\nAnd the market for visual code generation is organizing around the runtime where the artifact is rendered or executed.\n\na16z's Yoko Li on why the next frontier of visual AI is code: https://www.a16z.news/p/the-next-frontier-of-visual-ai-is",
+      "text_zh": "当今最有趣的视觉AI工具，正在生成最终输出背后的底层源代码。\n\n这一转变解锁了可编辑性、迭代能力以及像素原生模型无法比拟的反馈循环。\n\n视觉代码生成市场正围绕工件渲染或执行的运行时环境进行组织。\n\na16z的Yoko Li解读为何视觉AI的下一个前沿是代码：https://www.a16z.news/p/the-next-frontier-of-visual-ai-is",
+      "text_zh_hash": "63e0170a56dbb5f8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/a16z/status/2061842081753297176"
     },
     {

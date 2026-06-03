@@ -57,11 +57,17 @@
         "https://devin.ai/images/acp-logos/logo-01.svg"
       ],
       "article_text": "Manage fleets of local and cloud agents from one surface.\nPlan, delegate, review, and ship without leaving your editor.\nAgent Command Center\nevery engineer.\nDevin Desktop is the home for coding agents to do your best work.\nYou decide what to build, then your agents write the code, chase the edge cases, and test every detail.\nA world-class IDE\nexactly when you need it.\nRead, trace, and debug every change your agents ship.\nDevin Desktop includes a full IDE with syntax highlighting, autocomplete, and debugging tools built in for you to stay in flow.\nAgent Client Protocol\nAll the agents.\nWork across models and agents, powered by the Agent Client Protocol (ACP).\nSpaces\nSpaces\nUse Spaces to share context and Git worktrees across all your agents.\nSupercomplete\nSupercomplete predicts your next thought, not just your next edit.\nFast Context finds the exact files and lines your agent needs—in milliseconds.\nRapidly (or deeply) review every agent diff—before you push.\nUnlimited access to SWE-1.6, the fastest coding model in the world.\nplan.md\nTo build a dashboard for real-time store sales data, we will stream events from Kafka over websockets and render them onto a three.js globe.\nView planImplement in Cloud\nThe only IDE designed for you to close your laptop.\nExtend Devin with the tools, skills, and plugins your team already uses.\nSlack\nMCP ServerSearch channels and messages, send and read messages, and access user profiles.\nESLint\nExtensionFind and fix problems in your JavaScript and TypeScript code.\nLinear\nMCP ServerList, create, update, and query issues, projects, initiatives, cycles, and comments.\nrust-analyzer\nLanguage ServerCode completion, go-to-definition, and inline diagnostics for Rust.\nNotion\nMCP ServerRetrieve and manage pages, databases, and comments; search across your workspace.\nPrettier\nExtensionOpinionated code formatter that enforces a consistent style across your codebase.\nFigma\nMCP ServerGet files, nodes, and images; manage comments, components, styles, and webhooks.\nclangd\nLanguage ServerC and C++ language server with completion, navigation, and diagnostics.\nSentry\nMCP ServerRetrieve issue data and stack traces; search, filter, and update issue status.\nWindsurf Pyright\nExtensionFast type checking, IntelliSense, and diagnostics for Python.\nStripe\nMCP ServerCreate and manage customers, products, subscriptions, invoices, payouts, and refunds.\ngopls\nLanguage ServerThe official Go language server for completion, navigation, and refactoring.\nVercel\nMCP ServerManage projects and deployments, analyze logs, and search Vercel documentation.\nDatadog\nMCP ServerRetrieve telemetry insights and manage incidents, monitors, logs, dashboards, and traces.\nAtlassian\nMCP ServerAccess Jira and Confluence — manage issues and create enterprise documentation.\nPRICING OVERVIEW\nSTATS\n1M+\nUsersTrusted by over a million developers worldwide\n4000+\nEnterprise CustomersStartups, agencies, and enterprises\nWhat is Devin Desktop?\nDevin Desktop is the new name for Windsurf. We’re building on the IDE foundation of Windsurf to introduce the command center for managing all your agents in one place. The Agent Command Center (Spaces, Kanban view, and multi-agent management) is front and center, while the full IDE experience you know remains fully accessible.\nHow do I upgrade to Devin Desktop from Windsurf?\nDevin Desktop arrives as a standard over-the-air update, so your plan, pricing, extensions, and settings all carry over automatically. You can also download the latest Devin Desktop version from the [download page](https://devin.ai/download).\nWill I lose anything if I update?\nThe IDE, your extensions, workflows, settings, and in-progress work will all remain intact and will be fully migrated when you update. Only the name and branding are changing.\nDoes my plan or pricing change?\nNo. Your current plan and pricing stay exactly the same, including legacy Windsurf Enterprise plans.\nWhat is happening to JetBrains support?\nWindsurf for JetBrains (IntelliJ IDEA,",
+      "article_text_zh": "在一个界面中管理本地和云端代理集群。\n\n无需离开编辑器，即可规划、委派、审查和交付。\n\n**Agent Command Center**\n为每一位工程师而生。\n\nDevin Desktop 是编码代理的家园，助你完成最佳工作。你决定构建什么，然后你的代理负责编写代码、处理边缘情况并测试每一个细节。\n\n**世界一流的 IDE**\n在你需要时即刻呈现。\n\n阅读、追踪并调试代理所做的每一项变更。Devin Desktop 内置了完整的 IDE，包含语法高亮、自动补全和调试工具，让你保持心流状态。\n\n**Agent Client Protocol**\n所有代理，尽在掌握。\n\n基于 Agent Client Protocol (ACP)，跨模型和代理协同工作。\n\n**Spaces**\n使用 Spaces 在所有代理之间共享上下文和 Git 工作树。\n\n**Supercomplete**\nSupercomplete 预测你的下一个思路，而不仅仅是下一次编辑。\n\n**Fast Context**\n能在毫秒级内找到代理所需的精确文件和代码行。\n\n**快速（或深入）审查每个代理的差异**——在你推送之前。\n\n**无限制访问 SWE-1.6**，这是世界上最快的编码模型。\n\n```plan.md\n为了构建一个实时店铺销售数据仪表盘，我们将通过 WebSocket 从 Kafka 流式传输事件，并将其渲染到 three.js 的地球仪上。\n```\n查看计划 | 在云端实施\n\n**唯一一款为你合上笔记本电脑而设计的 IDE。**\n\n使用你的团队已经在使用的工具、技能和插件来扩展 Devin。\n\n*   **Slack** (MCP Server): 搜索频道和消息，发送和阅读消息，访问用户资料。\n*   **ESLint** (Extension): 查找并修复 JavaScript 和 TypeScript 代码中的问题。\n*   **Linear** (MCP Server): 列出、创建、更新和查询问题、项目、计划、周期、评论。\n*   **rust-analyzer** (Language Server): Rust 代码补全、跳转到定义和内联诊断。\n*   **Notion** (MCP Server): 检索和管理页面、数据库和评论；跨工作区搜索。\n*   **Prettier** (Extension): 固执己见的代码格式化工具，强制代码库风格一致。\n*   **Figma** (MCP Server): 获取文件、节点和图像；管理评论、组件、样式和 Webhook。\n*   **clangd** (Language Server): C 和 C++ 语言服务器，提供补全、导航和诊断功能。\n*   **Sentry** (MCP Server): 检索问题数据和堆栈跟踪；搜索、筛选和更新问题状态。\n*   **Windsurf Pyright** (Extension): Python 的快速类型检查、智能感知和诊断。\n*   **Stripe** (MCP Server): 创建和管理客户、产品、订阅、发票、付款和退款。\n*   **gopls** (Language Server): 官方 Go 语言服务器，用于补全、导航和重构。\n*   **Vercel** (MCP Server): 管理项目和部署，分析日志，搜索 Vercel 文档。\n*   **Datadog** (MCP Server): 检索遥测洞察，管理事件、监控器、日志、仪表盘和追踪。\n*   **Atlassian** (MCP Server): 访问 Jira 和 Confluence——管理问题并创建企业文档。\n\n**定价概览**\n\n**统计数据**\n*   **100万+** 用户：受到全球超过一百万名开发者的信赖\n*   **4000+** 企业客户：初创公司、代理机构和企业\n\n**什么是 Devin Desktop？**\nDevin Desktop 是 Windsurf 的新名称。我们在 Windsurf 的 IDE 基础上进行构建，推出了用于在一个地方管理所有代理的命令中心。Agent Command Center（Spaces、看板视图和多代理管理）是核心功能，同时你熟悉的完整 IDE 体验仍然完全可用。\n\n**如何从 Windsurf 升级到 Devin Desktop？**\nDevin Desktop 作为标准的无线更新推送，因此你的计划、定价、扩展和设置都会自动迁移。你也可以从[下载页面](https://devin.ai/download)下载最新的 Devin Desktop 版本。\n\n**如果我更新，会丢失数据吗？**\nIDE、你的扩展、工作流、设置以及正在进行的工作都将保持不变，并在你更新时完全迁移。只有名称和品牌会发生变化。\n\n**我的计划或定价会改变吗？**\n不会。你当前的计划和定价将完全保持不变，包括旧的 Windsurf 企业计划。\n\n**JetBrains 支持会怎样？**\nWindsurf for JetBrains（IntelliJ IDEA，",
+      "article_text_zh_hash": "9aeb18c213796296",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Devin Desktop | Devin",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-06-03T12:28:54.878064Z",
       "description": "Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.",
+      "description_zh": "在一个界面中管理本地和云端代理集群。无需离开编辑器即可完成规划、委派、审查和发布。",
+      "description_zh_hash": "8f35d603e1eb9457",
+      "description_zh_translator_v": 2,
       "domain": "devin.ai",
       "embed_type": "",
       "id": "k176k16fd0epqk151xqzhmk7js87z5z6",
@@ -84,11 +90,17 @@
         }
       ],
       "title": "Devin Desktop | Devin",
+      "title_zh": "Devin Desktop | Devin",
+      "title_zh_hash": "3ed2a7592c49d7f4",
+      "title_zh_translator_v": 2,
       "url": "https://devin.ai/desktop",
       "x_status_id": null
     },
     {
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -116,6 +128,9 @@
         }
       ],
       "title": "Microsoft Build event in 25 minutes",
+      "title_zh": "微软Build大会将在25分钟后开始。",
+      "title_zh_hash": "30606048cc43d1cf",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=gw0HBKJlX-w",
       "x_status_id": null
     },
@@ -140,6 +155,9 @@
       "category": "Tools",
       "created_at": "2026-06-03T08:18:13.683422Z",
       "description": "Orchid is the executive assistant that doesn't sleep. Inbox, calendar, meeting prep, and follow-ups in your voice. Approved by you, handled by Orchid.",
+      "description_zh": "Orchid 是一位不眠不休的行政助理。它能以你的口吻处理收件箱、日历、会议准备和后续跟进。经你批准，由 Orchid 全权操办。",
+      "description_zh_hash": "d83e763faab87367",
+      "description_zh_translator_v": 2,
       "domain": "orchid.ai",
       "embed_type": "",
       "id": "k17d406n0s2qzc13bff172gj9h87yb8q",
@@ -162,6 +180,9 @@
         }
       ],
       "title": "Orchid, the executive assistant",
+      "title_zh": "Orchid，行政助理",
+      "title_zh_hash": "6974f06525ed7cfd",
+      "title_zh_translator_v": 2,
       "url": "https://orchid.ai/",
       "x_status_id": null
     },
@@ -185,6 +206,9 @@
       "category": "Tools",
       "created_at": "2026-06-03T08:17:42.463637Z",
       "description": "Digital SPV & Fund Administration for investors building at the frontier.",
+      "description_zh": "数字SPV与基金管理  \n为前沿领域的投资者提供支持。",
+      "description_zh_hash": "094083bf5c3b0f54",
+      "description_zh_translator_v": 2,
       "domain": "www.joinodin.com",
       "embed_type": "",
       "id": "k171bhx729bv1ztxjhkhe7ecnx87ynxa",
@@ -214,6 +238,9 @@
       "category": "Social",
       "created_at": "2026-06-03T08:00:14.248948Z",
       "description": "Agent harnesses are where AI software actually runs. Cursor, Devin, Claude Code, Codex: these environments handle context, orchestrate tools, coordinate agents, and increasingly, manage memory. The harness, not the model, is increasingly the product that ships software.",
+      "description_zh": "Agent harness（智能体框架）是AI软件实际运行的环境。Cursor、Devin、Claude Code、Codex：这些环境负责处理上下文、编排工具、协调智能体，并日益承担起管理记忆的职责。真正交付软件的，正逐渐从模型转变为harness（智能体框架）。",
+      "description_zh_hash": "f66697ad38c1760c",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k173jbyjhearej8gcgbgqzvz2n87y225",
@@ -236,6 +263,9 @@
         }
       ],
       "title": "State of Memory in Agent Harness",
+      "title_zh": "Agent Harness 中的内存状态",
+      "title_zh_hash": "5b42d411e3084a2d",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/mem0ai/status/2061822612398014782",
       "x_status_id": "2061822612398014782"
     },
@@ -4406,6 +4436,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容为YouTube页面底部标准法律声明及版权信息，无实际文章正文，按指令输出空字符串）\n\n（空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
