@@ -4966,6 +4966,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061324501170688000"
     },
+    "http://x.com/i/article/2061440101411102721": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061440101411102721",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061440101411102721/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJu3llba0AA8PAp?format=jpg&name=900x900)](http://x.com/i/article/2061440101411102721/mvanhorn/article/2061877533885473181/media/2061443110782291968)\n\nEvery Agentic Engineering Hack I Know (June 2026)\n\n[![](https://pbs.twimg.com/profile_images/1565403341647400960/55RW_HGX_normal.jpg)](http://x.com/i/article/2061440101411102721/mvanhorn)\n\n[Matt Van Horn](http://x.com/i/article/2061440101411102721/mvanhorn)\n\n[@mvanhorn](http://x.com/i/article/2061440101411102721/mvanhorn)\n\n·\n\n7h\n\nFollow\n\nClick to Follow mvanhorn\n\n51\n\n105\n\n972\n\n[134K](http://x.com/i/article/2061440101411102721/mvanhorn/status/2061877533885473181/analytics)\n\nThree months ago I posted \n\n[\"Every Claude Code Hack I Know.\"](https://x.com/mvanhorn/status/2035857346602340637)\n\n It hit 913K views. \n\n[@kevinrose](https://x.com/@kevinrose)\n\n had asked what IDE to use, and my answer was: \"No IDE. Just plan.md files and voice.\"\n\nThis used to be called vibe coding. Around last Thanksgiving the models got good enough that the toy became real, what people now call Agentic Engineering. It's the only reason I ship. This year I put out \n\n[last30days](https://github.com/mvanhorn/last30days-skill)\n\n (27K stars), \n\n[Printing Press](https://printingpress.dev/)\n\n(4K+ stars), and \n\n[Agent Cookie](https://agentcookie.dev/)\n\n, just launched, and became a top contributor to some of the biggest projects in open source: \n\n[Python](https://github.com/python/cpython)\n\n, \n\n[Go](https://github.com/golang/go)\n\n, \n\n[GStack](https://github.com/garrytan/gstack)\n\n, and \n\n[Paperclip](https://github.com/paperclipai/paperclip)\n\n. I hadn't shipped software anyone valued since high school. These are my hacks.\n\nHACKS\n\n* The YOLO TL;DR Hack: paste this entire article to your agent and tell it to make a plan to set up everything in it, then work that plan one hack at a time. That's my whole stack, no reading required.\n\n## \n\n1\\. The Moment You Have an Idea, Make a CE plan.md\n\nStill rule number one. Still the most important thing I've learned.\n\nThe moment I have an idea, it's /ce-plan to make a plan.md. Not \"let me think about this,\" not \"let me start coding.\" /ce-plan, every time. It takes images too, so anything you can capture is a starting point:\n\n* Crazy product idea: /ce-plan.\n* Bug on GitHub: copy the issue URL, paste it, /ce-plan.\n* Terminal error: Cmd+Shift+4 to screenshot, Ctrl+V to paste, /ce-plan fix this.\n* Screenshots, error messages, design mockups, Slack threads: drop any of them in.\n\nWhen the idea is still fuzzy and I don't even know what I want yet, I start with /ce-brainstorm to think it through with the agent, then /ce-plan once it's sharp.\n\nUnder the hood, /ce-plan fans out research agents in parallel. One reads your codebase, finds patterns, checks your conventions. One searches your past solutions for learnings. If the topic warrants it, more go research external docs and best practices. All at once. Then it consolidates and writes a structured plan.md: what's wrong, the approach, which files to touch, acceptance criteria with checkboxes, patterns to follow from your own code. Grounded in your repo, your conventions, your history. Not generic advice.\n\n/ce-work takes that plan and builds it. Context blows up? Start a new session, point it at the plan, pick up where you left off. The plan is the checkpoint that survives everything.\n\nTraditional dev is 80% coding, 20% planning. This flips it. The thinking goes in the plan. The execution is mechanical.\n\n[Compound Engineering](https://gith",
+      "title": "",
+      "url": "http://x.com/i/article/2061440101411102721"
+    },
     "http://x.com/i/article/2061443362943807488": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4998,6 +5011,32 @@
       "title": "",
       "url": "http://x.com/i/article/2061457744914173952"
     },
+    "http://x.com/i/article/2061549213083979776": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061549213083979776",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061549213083979776/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJwYWECbUAA4oJK?format=jpg&name=900x900)](http://x.com/i/article/2061549213083979776/Alfred%5FLin/article/2061806871254835213/media/2061549496748953600)\n\nUnits of Time\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2061549213083979776/Alfred%5FLin)\n\n[Alfred Lin](http://x.com/i/article/2061549213083979776/Alfred%5FLin)\n\n[@Alfred\\_Lin](http://x.com/i/article/2061549213083979776/Alfred%5FLin)\n\n·\n\n12h\n\n·\n\nFollow\n\nClick to Follow Alfred\\_Lin\n\n6\n\n5\n\n128\n\n[12K](http://x.com/i/article/2061549213083979776/Alfred%5FLin/status/2061806871254835213/analytics)\n\nIf the game has gotten harder, the question is not how to work more hours. It’s which moments, chapters, and books are worth writing at all.\n\n\\--\n\nMy son is finishing his last week as a high school freshman. While cramming for finals, he was listening to \"Non-Stop\" from Hamilton. He complained he didn't have enough time and asked me how to think about it.\n\nFor me, there are three critical units of time: the moment, the chapter, and the book.\n\nThe moment. A friend shared an adage when my son was born: \"The days are long, but the years are short.\" Every second counts because you're never getting that moment back. Make every moment count. Don't let time pass you by.\n\nThe chapter. After the moment, the next unit is more nebulous. It could be a day, a year, or even a decade. Looking backward, what period marks a significant milestone — a finished chapter? Hopefully, you feel a sense of accomplishment. At a minimum, you carry what you've learned into the next one.\n\nThe book. At the end of your life, will your book tell the story of someone who fought hard on a worthwhile journey and left an enduring impact? Was it a purpose-filled and meaningful story? Who will line up to tell your story?\n\nBeyond the above timeless ideas comes a new revelation.\n\nOur current generation of students and builders must accomplish orders of magnitude more than previous generations in the same amount of time. This is the reality and the price of progress, but it is also a wonderful clarifying constraint.\n\nFifteen years ago, the most valuable companies in the world were worth $300b to $400b . Today, several are worth $4t to $5t . The distance between planting a seed of an idea and building something truly legendary has grown by more than 10x. There is no reason to think the trajectory will slow. Meanwhile, the average human lifespan has barely moved. We have roughly the same number of moments, chapters, and pages as our predecessors did. To build something legendary, we now have to cover more than 10x the distance in that same fixed time, and in the next 15 years, we might have to cover an additional 10x the distance.\n\nIf the game has gotten harder, the question is not how to work more hours. The question is which moments, chapters, and books are worth writing at all. Every choice to work on one thing is a choice not to work on something else. The opportunity cost of our attention has never been higher.\n\nThe founders we admire most understand this intuitively. They are not chasing the most popular problems. They are finding the one or two questions whose answers can change paradigms and shift entire systems. They know that 1% better every single day creates a different person and a different company by year's end. They have signed up for the long game and will compound for decades to come.\n\nBefore my son returned to studying, I reread a quote from Steve Jobs: \"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma, which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow alr",
+      "title": "",
+      "url": "http://x.com/i/article/2061549213083979776"
+    },
+    "http://x.com/i/article/2061638042746863616": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061638042746863616",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061638042746863616/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJxtHqsboAAmgx-?format=jpg&name=900x900)](http://x.com/i/article/2061638042746863616/bytebytego/article/2061821715450351992/media/2061642707916005376)\n\nA Practical Guide to Becoming an AI-Native Engineer\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1512819600324448257/exWNgG2i_normal.jpg)](http://x.com/i/article/2061638042746863616/bytebytego)\n\n[Bytebytego](http://x.com/i/article/2061638042746863616/bytebytego)\n\n[@bytebytego](http://x.com/i/article/2061638042746863616/bytebytego)\n\n·\n\n11h\n\nFollow\n\nClick to Follow bytebytego\n\n2\n\n10\n\n56\n\n[19K](http://x.com/i/article/2061638042746863616/bytebytego/status/2061821715450351992/analytics)\n\nIf AI writing everything is the answer, then why are most engineering teams shipping more bugs, more incidents, and more technical debt than they shipped two years ago?\n\nThat's where this week's guest post starts, and it turns into one of the most practical guides we've seen for engineers trying to actually level up in the AI era.\n\nA Practical Guide to Becoming an AI-Native Engineer, by \n\n[Shah Rahman](https://www.linkedin.com/in/shahirahman/)\n\n, Global Head of Autonomous ML Iteration & Optimization for Ads at Meta.\n\n[![Image](https://pbs.twimg.com/media/HJxrl_oagAAdvim?format=jpg&name=small)](http://x.com/i/article/2061638042746863616/bytebytego/article/2061821715450351992/media/2061641029909118976)\n\nAI generates more than 75% of Google’s new code. OpenAI and Anthropic claim that almost every line of fresh code that they produce comes from AI. Amazon recently migrated 30,000 of its production applications from Java 8 to Java 17 in a matter of months, a project that would otherwise have taken an estimated 4,500 developer-years. And Mark Zuckerberg expects that AI agents will be operating as mid-level engineers by the end of 2026.\n\nReading those statements, we may feel as if we are looking at the last lines being written on the closing pages of an era. Perhaps even the closing pages of a profession.\n\nBut here’s the question: If AI writing everything is the answer, then why are most engineering teams shipping more bugs, more incidents, and more technical debt than they shipped two years ago?\n\nIn an April article in the New York Times, Mike Isaac and Erin Griffith gave a name to describe what's happening across the industry. They called it \n\n[code overload](https://www.nytimes.com/2026/04/06/technology/ai-code-overload.html)\n\n.\n\nThe essence of code overload, according to Isaac and Griffith, is that “tech workers are producing so much code so quickly that it has become too much to handle.” Teams that have rebuilt their work around the use of AI agents are drowning in code churn and security holes.\n\nBut. Many engineers who have employed AI agents are pulling ahead of the field, achieving real productivity gains. They are using the same models and the same tools, but they are generating very different outcomes. What explains the gap?\n\nIt comes down to one decision. Real productivity gains come when engineers decide to make the leap from writing code to orchestrating it. This piece is a working guide for engineers who want to land on the productive side of that split. It will cover the practices, guardrails, and mindset shifts that separate AI-native engineering from vibe coding and from the everyday chaos that most teams are now generating at scale.\n\n# \n\nFrom Engineer to Orchestrator\n\nLet me first clarify one thing: engineers are not becoming obsolete. Coding has always been a small part of engineering (20-30% max). This underappreciated reality is more visible when AI agents and tools produce more code, but more code is not necessarily more productive (often it’s less). This is a critical distinction that the industry is blurring dangerously, and I state that as:\n\n[![Image](https://pbs.twimg.com/media/",
+      "title": "",
+      "url": "http://x.com/i/article/2061638042746863616"
+    },
     "http://x.com/i/article/2061816883691876352": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5013,6 +5052,58 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061816883691876352"
+    },
+    "http://x.com/i/article/2061818708226342912": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061818708226342912",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061818708226342912/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0NXqeWMAAB05A?format=jpg&name=900x900)](http://x.com/i/article/2061818708226342912/Mnilax/article/2061850337716187144/media/2061818904595279872)\n\nThe 2-agent setup that cut my Claude Code frontend rework from 39% to 6% (Exact Routing Inside)\n\n[![](https://pbs.twimg.com/profile_images/2007608177492217856/3gdItGwC_normal.jpg)](http://x.com/i/article/2061818708226342912/Mnilax)\n\n[Mnimiy](http://x.com/i/article/2061818708226342912/Mnilax)\n\n[@Mnilax](http://x.com/i/article/2061818708226342912/Mnilax)\n\n·\n\n9h\n\nFollow\n\nClick to Follow Mnilax\n\n6\n\n3\n\n43\n\n[2.9K](http://x.com/i/article/2061818708226342912/Mnilax/status/2061850337716187144/analytics)\n\nThe setup is one routing file and one rule: Claude Code keeps the logic, a frontend-only specialist agent called Kombai takes everything from props to pixels. Across 40 tasks that took first-try compile from 58% to 95%, time-to-merge on UI down 44%, and duplicate components from 27 to 2\\. The exact ROUTING.md is at the end.\n\nSame specialist. I just stopped asking one agent to do the one job it's worst at.\n\nA coding agent ships backend like a staff engineer and frontend like it's never opened your design system. That's not a model weakness. It's a job-description problem: one generalist hired to be a systems architect and a UI craftsman in the same session, paid top-of-stack reasoning prices for work that's 70% repeatable grunt.\n\nBelow: where the generalist breaks on frontend, the routing split that fixes it, the numbers across 40 tasks, and a copy-paste ROUTING.md you can drop in today. The file's at the end if you want to skip the explanations.\n\n# \n\nWhy this matters\n\nFrontend teams spend 60 to 70 percent of their time on repeatable grunt: wiring components, matching tokens, fixing responsive edge cases, re-implementing patterns that already live three folders over. That's the figure Kombai's founders use to frame the problem they're attacking, and it matches what anyone shipping UI feels by Thursday.\n\nHere's the trap. That 70% is the cheap work. The remaining 30%, hierarchy, interaction, what a screen is even for, is the expensive judgment you're actually paid for. Point a generalist at all of it and you invert the cost: you burn the most expensive reasoning tokens in your stack on the cheapest work, and still get a guess on the part that needed you.\n\n[![Image](https://pbs.twimg.com/media/HJ0Nk10XoAI9Rab?format=png&name=small)](http://x.com/i/article/2061818708226342912/Mnilax/article/2061850337716187144/media/2061819130978738178)\n\nA generalist isn't bad at frontend because it's weak. It's bad at your frontend because it has no idea what your frontend is. It hasn't read your component library. It can't see your rendered DOM. Backend hides this. A function returns the right shape or it doesn't. UI fails in a thousand soft ways that all compile clean.\n\n# \n\nThe 4 ways a generalist breaks on frontend\n\nEach of these came out of the 40-task run. I'll show the moment, then the cost.\n\n## \n\nBreak 1: It guesses your design system\n\nThe generalist has no token map, so it reaches for defaults that are sensible everywhere except your codebase. Spacing close-enough but off your scale. Font weight one step wrong. A shadow that exists nowhere else in the app.\n\nThe moment: Asked for a pricing card. Got padding: 16px against a 4px scale where every other card uses a spacing.4 token resolving to 20px. Eight cards on the page. Seven were tokenized, one was hardcoded, and it took a designer flagging it in review to catch the 4px gap. Individually trivial. Collectively the difference between \"our product\" and \"a demo.\"\n\n[![Image](https://pbs.twimg.com/media/HJ0RWKHXwAAiQKv?format=png&name=small)](http://x.com/i/article/2061818708226342912/Mnilax/article/2061850337716187144/media/2061823276775620608)\n\n## \n\nBreak 2: It rebuilds wha",
+      "title": "",
+      "url": "http://x.com/i/article/2061818708226342912"
+    },
+    "http://x.com/i/article/2061831458205880320": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061831458205880320",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061831458205880320/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0cx4ZWgAAxrGY?format=jpg&name=900x900)](http://x.com/i/article/2061831458205880320/ashwingop/article/2061836996541083912/media/2061835847683440640)\n\nMemory Is Purpose \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2061831458205880320/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2061831458205880320/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2061831458205880320/ashwingop)\n\n·\n\n10h\n\nFollow\n\nClick to Follow ashwingop\n\n8\n\n20\n\n166\n\n[20K](http://x.com/i/article/2061831458205880320/ashwingop/status/2061836996541083912/analytics)\n\nLLMs compressed the internet into weights. Agents need to compress work into state.\n\nLLMs are among the most successful artificial memory systems we have ever built. They compressed a large fraction of public text and code into weights and turned that compression into a new kind of intelligence. The pretraining utility function was simple enough to scale and powerful enough to surprise almost everyone: predict the next token.\n\nAgents need a second kind of memory, one that is built less around prediction and more around consequence. A model can reason over almost anything placed in front of it, but a real agent inside a company has to operate across time: decisions, corrections, commitments, exceptions, dependencies, handoffs, failed attempts, and workflows that exist more in people’s heads than in any system of record.\n\nThat problem is on the scale of the model problem itself, and in enterprise settings it is harder in a different way. The model labs had an unusually universal objective, while memory in general and organizational memory specifically changes with role, workflow, permission boundary, risk, time horizon, and action.\n\nThe AI memory conversation feels urgent as well as very confused at the same time because of this. Retrieval, long context, knowledge graphs, context graphs, user profiles, agent traces, workflow state, and context engineering are all being described as memory of one kind or another. Some give access, structure, history, personalization, or execution. The market has not failed to see the problem; it has seen the problem in pieces.\n\nThe reality however is that memory is not a sidecar to intelligence. A model decides how to reason; memory decides what reality the reasoning operates on. In the enterprise, that reality is the accumulated state of the company: decisions, corrections, exceptions, commitments, dependencies, failed attempts, tacit workflows, open tensions, and human judgments that never fully made it into a system of record.\n\n## \n\nKnowledge is what was present. Memory is what becomes useful.\n\nKnowledge is what was present: the document, meeting, customer complaint, code diff, ticket, lab result, email, transcript, dashboard, workflow trace, or conversation. Context is the situation that turns stored material into something usable: who is asking, what they are trying to do, what they are allowed to see, what risk attaches to being wrong, and what action follows. Memory is the subset of the past that should survive because it changes future behavior.\n\nThe shortest version is this: memory is retained consequence. Purpose is the utility function that decides which parts of the past deserve to survive. Without it, a system can store knowledge, search it, summarize it, connect it, and hand it to a model. It still has no principled way to know what should become memory. The easiest way to see this is to leave software for a moment.\n\n[![Image](https://pbs.twimg.com/media/HJ0ZHDmWEAEp7Eb?format=jpg&name=small)](http://x.com/i/article/2061831458205880320/ashwingop/article/2061836996541083912/media/2061831813421469697)\n\n## \n\nThe boulder problem\n\nIm",
+      "title": "",
+      "url": "http://x.com/i/article/2061831458205880320"
+    },
+    "http://x.com/i/article/2061850535708483585": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061850535708483585",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061850535708483585/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0q6o6aYAEM_ej?format=jpg&name=900x900)](http://x.com/i/article/2061850535708483585/trq212/article/2061907337154367865/media/2061851391308750849)\n\nA harness for every task: dynamic workflows in Claude Code \n\n[![](https://pbs.twimg.com/profile_images/1976939058741039104/r3GgzqRh_normal.jpg)](http://x.com/i/article/2061850535708483585/trq212)\n\n[Thariq](http://x.com/i/article/2061850535708483585/trq212)\n\n[@trq212](http://x.com/i/article/2061850535708483585/trq212)\n\n·\n\n5h\n\nFollow\n\nClick to Follow trq212\n\n88\n\n376\n\n3K\n\n[529K](http://x.com/i/article/2061850535708483585/trq212/status/2061907337154367865/analytics)\n\nLast week, we released \n\n[dynamic workflows](https://code.claude.com/docs/en/workflows)\n\n in Claude Code. Claude can now write its own \n\n[harness](https://code.claude.com/docs/en/glossary#agentic-harness)\n\n on the fly, custom-built for the task at hand.\n\nWhile the default Claude Code harness is built for coding, it is also useful for many other types of tasks because, as it turns out, many tasks resemble coding tasks. But there are certain classes of tasks where we have had to build custom harnesses on top of Claude Code to achieve peak performance such as \n\n[Research](https://support.claude.com/en/articles/11088861-using-research-on-claude)\n\n, \n\n[security analysis](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code)\n\n, \n\n[agent teams](https://code.claude.com/docs/en/agent-teams)\n\n, or \n\n[Code Review](https://code.claude.com/docs/en/code-review)\n\n.\n\nWorkflows allow you to dynamically create harnesses that enable Claude to solve all of those problems and more natively inside of Claude Code. You can also share and re-use these workflows with others.\n\nIn this article, I’ll cover my initial workflows experiences and learnings so you can take full advantage. \n\nThat said, best practices are still developing! Dynamic workflows often use more tokens, so think carefully about when and how to use them.Note: this post is also \n\n[available on the Claude Blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code)\n\n## \n\nExample prompts\n\nBefore diving into the technical details, I’d like to start with some example prompts to get you thinking about the possibilities with workflows:\n\n* \"This test fails maybe 1 in 50 runs. Set up a workflow to reproduce it, form theories and adversarially test them in worktrees /goal don't stop until one theory works.\"\n* \"Using a workflow, go through my last 50 sessions and mine them for corrections I keep making and turn the recurring ones into CLAUDE.md rules\"\n* “Use a workflow to dig through  \n[#incidents](https://x.com/search?q=%23incidents&src=hashtag%5Fclick)  \n in Slack for the past six months and find recurring root causes where nobody has filed a ticket.\"\n* \"Take my business plan and run a workflow where different agents tear it apart from an investor's, a customer's, and a competitor's perspective.\"\n* \"Here's a folder of 80 resumes, use a workflow to rank them for the backend role and double-check the top ten. Interview me using the AskUserQuestion tool for a rubric.\"\n* \"I need a name for this CLI tool. Use a workflow to brainstorm a bunch of options and run a tournament to pick the top 3.\"\n* \"Use a workflow to rename our User model to Account everywhere.\"\n* “Go through my blog post draft and using a workflow verify every technical claim against the codebase, I don't want to ship anything wrong.\"\n\n## \n\nHow dynamic workflows work\n\nDynamic workflows execute a javascript file with a few special functions that help spawn and coordinate \n\n[subagents](https://code.claude.com/docs/en/sub-agents)\n\n:\n\n[![Image](https://pbs.twimg.com/media/HJ0t9PDbQAAYqh-?format=jpg&name=small)](http://x.com/i/article/2061850535708483585/trq212/article/2061907337154367865/me",
+      "title": "",
+      "url": "http://x.com/i/article/2061850535708483585"
+    },
+    "http://x.com/i/article/2061868304654864384": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061868304654864384",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061868304654864384/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ0-IJ_W4AA8Fe-?format=png&name=900x900)](http://x.com/i/article/2061868304654864384/sydneyrunkle/article/2061873579004735884/media/2061872514247090176)\n\nIntroducing Rubrics: Build Agents that Evaluate and Correct Their Work\n\n[![](https://pbs.twimg.com/profile_images/1955622250629021696/WOrOq2Mw_normal.jpg)](http://x.com/i/article/2061868304654864384/sydneyrunkle)\n\n[Sydney Runkle![](https://pbs.twimg.com/profile_images/2028336270431453184/jRRpLAdG_bigger.jpg)](http://x.com/i/article/2061868304654864384/sydneyrunkle)\n\n[@sydneyrunkle](http://x.com/i/article/2061868304654864384/sydneyrunkle)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow sydneyrunkle\n\n4\n\n18\n\n103\n\n[24K](http://x.com/i/article/2061868304654864384/sydneyrunkle/status/2061873579004735884/analytics)\n\nAuthored by \n\n[@sseshadri43](https://x.com/@sseshadri43)\n\n and \n\n[@sydneyrunkle](https://x.com/@sydneyrunkle)\n\n## \n\nTL;DR\n\n* Agents often produce outputs that head in the right direction but don't fully land on the first attempt.\n* RubricMiddleware is how you tell the agent what \"done\" looks like — and make it keep going until it gets there.\n* Most effective for tasks with clear, verifiable success criteria like passing tests, avoiding forbidden patterns, covering required sections.\n\nAgents are taking on more complex tasks than ever. More often than not, they fall short of the finish line. We've added RubricMiddleware to Deep Agents to fix that — you define a rubric, and the agent self-evaluates and iterates until it satisfies every criterion, or hits a configured cap.\n\nIf you're familiar with /goal in Claude Code or Codex, this is a similar pattern. This implementation is a bit more flexible because evaluation is handled by a dedicated grader sub-agent that can call tools, reason over the full transcript, and return per-criterion feedback.\n\n# \n\nThe problem\n\nSome agent tasks have a clear definition of \"done.\" A code refactor is finished when the test suite passes. A report is complete when every required section is covered.\n\nBut agents don't always get there on the first try. As context grows larger, ambiguous instructions, tool misuse, and non-deterministic errors all compound — output quality deteriorates, and developers are left to diagnose and re-run tasks manually.\n\n# \n\nHow it works\n\nBefore the agent run finishes, a separate grader sub-agent reviews it against the rubric. If everything passes, the run concludes. If anything falls short, the grader's per-criterion feedback is injected back into the conversation and the agent runs again. The loop terminates when the rubric is satisfied, or when a configured iteration limit is hit.\n\n[![Image](https://pbs.twimg.com/media/HJ09cXHWQAI3G3Q?format=jpg&name=small)](http://x.com/i/article/2061868304654864384/sydneyrunkle/article/2061873579004735884/media/2061871761856020482)\n\nThe loop terminates on \\`satisfied\\`, \\`max\\_iterations\\_reached\\`, \\`failed\\`, or \\`grader\\_error\\`.\n\n## \n\nWiring it up\n\nHere's the minimal setup, broken into steps. The key idea: define a RubricMiddleware once, attach it to a deep agent, then pass a rubric string at invoke time. (If rubric is absent, the middleware does nothing.)\n\n## \n\n1) Define RubricMiddleware\n\nThis middleware adds a grader loop on top of the base agent. The grader is configured with:\n\n* model: the LLM used for grading (often smaller/cheaper than your main agent model)\n* system\\_prompt: instructions that define the grader’s role and what “good” looks like\n* tools: optional tools the grader can call to gather evidence (e.g., run tests, lint, validate outputs)\n* max\\_iterations: the maximum number of fix → re-grade loops before the run stops\n\npython\n\n```python\nfrom deepagents import RubricMiddleware\n\nrubric_middleware = RubricMiddleware(\n    model=\"anthropic:claude-haiku-4-5\",\n    system_prompt=\"You are a code revie",
+      "title": "",
+      "url": "http://x.com/i/article/2061868304654864384"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -6375,6 +6466,32 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://claude.ai/login"
+    },
+    "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Claude Code can now write and orchestrate its own multi-agent harness on the fly. Here's how dynamic workflows work, and the patterns that get the most out of them.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691422974acd1cc3d6467e3a_og_skills-explained.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f1684f559cc83ff4b465b_image1.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a0e17e2844bed86f22a_image9.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f16d86247e586b929a407_image10.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f1721824a27cf13da87f4_image2.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f173ce727a972001584cc_image3.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f17517076bb59050d90bb_image8.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f1778dc00d34cca70819d_image6.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f17b1ca20533e666c867c_image4.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f17cb835cf4f9fd5da921_image7.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "A harness for every task: dynamic workflows in Claude Code\nClaude Code can now write and orchestrate its own multi-agent harness on the fly. Here's how dynamic workflows work, and the patterns that get the most out of them.\n[documentation](https://code.claude.com/docs/en/overview)\nClaude Code can now write and orchestrate its own multi-agent harness on the fly. Here's how dynamic workflows work, and the patterns that get the most out of them.\nOr read the [documentation](https://code.claude.com/docs/en/overview)\n- June 2, 2026\n- 5min\nLast week, we released [dynamic workflows](https://code.claude.com/docs/en/workflows) in Claude Code. Claude can now write its own [harness](https://code.claude.com/docs/en/glossary#agentic-harness) on the fly, custom-built for the task at hand.\nWhile the default Claude Code harness is built for coding, it is also useful for many other types of tasks because, as it turns out, many tasks resemble coding tasks. But there are certain classes of tasks where we have had to build custom harnesses on top of Claude Code to achieve peak performance such as [Research](https://support.claude.com/en/articles/11088861-using-research-on-claude), [security analysis](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code), [agent teams](https://code.claude.com/docs/en/agent-teams), or [Code Review](https://code.claude.com/docs/en/code-review).\nWorkflows allow you to dynamically create harnesses built on top of Claude Code that enable Claude to solve all of those problems more natively. You can also share and reuse these workflows with others.\nIn this article, I’ll cover my initial workflows experiences and learnings so you can best take full advantage. Keep in mind, best practices are still developing: dynamic workflows often use more tokens and are best suited for complex, high value tasks.\nBefore diving into the technical details, I’d like to start with several example prompts to get you thinking about the possibilities with workflows:\n\"This test fails maybe 1 in 50 runs. Set up a workflow to reproduce it. Form competing theories about the race, and don't stop until one theory survives the evidence.\"\n\"Using a workflow, go through my last 50 sessions and mine them for corrections I keep making and turn the recurring ones into CLAUDE.md\nrules\"\n“Use a workflow to dig through #incidents in Slack for the past six months and find recurring root causes where nobody has filed a ticket.\"\n\"Take my business plan and run a workflow where different agents tear it apart from an investor's, a customer's, and a competitor's perspective.\"\n\"Here's a folder of 80 resumes, use a workflow to rank them for the backend role and double-check the top ten. Interview me using the AskUserQuestion tool for a rubric.\"\n\"I need a name for this CLI tool. Use a workflow to brainstorm a bunch of options and run a tournament to pick the top 3.\"\n\"Use a workflow to rename our User model to Account everywhere.\"\n“Go through my blog post draft and verify every technical claim against the codebase using a workflow, I don't want to ship anything wrong.\"\nDynamic workflows execute a javascript file with a few special functions that help spawn and coordinate [subagents](https://code.claude.com/docs/en/sub-agents):\nDynamic workflows also include standard JavaScript functions like JSON, Math, and Array, to help process data.\nIt’s particularly useful to know that dynamic workflows can decide which models an agent uses and whether subagents are run in their own worktree, allowing Claude to choose the intelligence level and isolation needed.\nIf a workflow is interrupted, for example by user action or quitting the terminal, resuming the session will allow the workflow to pick up where it left off.\nWhen you ask the default Claude Code harness to do a task, it needs to both plan and execute in the same context window. For many coding tasks, this is highly effective, but it can break down over long-running, massively parallel, high",
+      "title": "A harness for every task: dynamic workflows in Claude Code | Claude",
+      "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code"
     },
     "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
       "cleaner_v": 2,
@@ -13476,6 +13593,20 @@
       "title": "What Actually Is Claude Code’s Plan Mode? | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/"
     },
+    "https://lucumr.pocoo.org/2025/9/4/996/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "There is cost to your lifestyle.",
+      "final_url": "https://lucumr.pocoo.org/2025/9/4/996/",
+      "frameable": null,
+      "image_urls": [
+        "https://lucumr.pocoo.org/social/2025-09-04-996-social.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Armin Ronacher 's Thoughts and Writings blog archive projects travel talks about 996 written on September 04, 2025 “Amazing salary, hackerhouse in SF, crazy equity. 996 . Our mission is OSS.” — Gregor Zunic “The current vibe is no drinking, no drugs, 9-9-6, […].” — Daksh Gupta “The truth is, China’s really doing ‘007’ now—midnight to midnight, seven days a week […] if you want to build a $10 billion company, you have to work seven days a week.” — Harry Stebbings I love work. I love working late nights, hacking on things. This week I didn’t go to sleep before midnight once. And yet… I also love my wife and kids. I love long walks, contemplating life over good coffee, and deep, meaningful conversations. None of this would be possible if my life was defined by 12 hour days, six days a week. More importantly, a successful company is not a sprint, it’s a marathon. And this is when this is your own company! When you devote 72 hours a week to someone else’s startup, you need to really think about that arrangement a few times. I find it highly irresponsible for a founder to promote that model. As a founder, you are not an employee, and your risks and leverage are fundamentally different. I will always advocate for putting the time in because it is what brought me happiness. Intensity, and giving a shit about what I’m doing, will always matter to me. But you don’t measure that by the energy you put in, or the hours you’re sitting in the office, but the output you produce. Burning out on twelve-hour days, six days a week, has no prize at the end. It’s unsustainable, it shouldn’t be the standard and it sure as hell should not be seen as a positive sign of a company. I’ve pulled many all-nighters, and I’ve enjoyed them. I still do. But they’re enjoyable in the right context, for the right reasons, and when that is a completely personal choice, not the basis of company culture. And that all-nighter? It comes with a fucked up and unproductive morning the day after. When someone promotes a 996 work culture, we should push back. This entry was tagged thoughts copy as / view markdown © Copyright 2026 by Armin Ronacher. Content licensed under the Creative Commons Attribution-NonCommercial 4.0 International License . Contact me via mail , bluesky , x , or github . You can sponsor me on github . More info: imprint & AI transparency . Subscribe via atom / RSS . Color scheme: auto , light , dark .",
+      "title": "996 | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2025/9/4/996/"
+    },
     "https://lucumr.pocoo.org/2026/1/31/pi/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13775,6 +13906,55 @@
       "title": "Fragments: May 27",
       "url": "https://martinfowler.com/fragments/2026-05-27.html"
     },
+    "https://martinfowler.com/fragments/2026-06-02.html": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "fragments 02 Jun 2026",
+      "extraction_source": "trafilatura",
+      "final_url": "https://martinfowler.com/fragments/2026-06-02.html",
+      "frameable": false,
+      "image_urls": [
+        "https://martinfowler.com/logo-sq.png",
+        "https://martinfowler.com/mf-name-white.png",
+        "https://martinfowler.com/thoughtworks_white.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Fragments: June 2\nGreg Wilson has noticed that lots of folks are [using dodgy metrics](https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/) to figure out if AI tools are worth their costs.\nWould you measure lines of code generated, or tickets closed? Or would you send out a survey asking whether developers feel more productive? Each of those approaches is flawed in a different way;\nHe lists lots of common metrics, and why they are flawed. Sadly he doesn’t give any suggestions on what would be better. In my view, since we [cannot measure productivity](https://martinfowler.com/bliki/CannotMeasureProductivity.html), any metrics are weak evidence at the best of times.\nI do somewhat use one of his flawed measures: “Asking Developers If They Feel More Productive”. While I acknowledge the problems he gives with this measure, I find that in an environment where decent measures are hard to find, even such a dim light is the best we have. In this situation these kinds of qualitative metrics may not be conclusive, [but they are useful](https://martinfowler.com/articles/measuring-developer-productivity-humans.html).\n❄ ❄ ❄ ❄ ❄\nBenedict Evans observes that [extensive automation didn’t mean the demise of professions](https://www.ben-evans.com/benedictevans/2026/5/24/ai-job-exposure) in the past.\nwe spent a century automating accounting: we built calculating machines, punch cards, mainframes, data processing, databases, PCs, spreadsheets, ERPs, cloud… in fact, we built half of the tech industry around automating this. Yet the number of accountants kept going up.\nHe goes into the myriad of problems that exist when we’re trying to forecast the impact of a technology on jobs. There’s the much-talked-about [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox) - once something becomes cheaper, people do it more, which can increase demand. Often this leads to the nature of jobs changing, even if it’s called the same thing.\nAccountants today aren’t doing exactly the same work that they did in 1970 or 1980 ‘but more’ - they’re still called ‘accountants’ but the job is different. New technology often starts out being used for ‘the old thing but more’, but it rarely ends up like that.\nTechnologies often affect whole businesses - consider the impact of the internet on news publishing. Did anyone observing the rise of smart phones in the early 2000s realize that a consequence of this would change the economics of taxis due to the rise of ride-sharing apps? The conclusion is that it is, at the very least, almost impossible to forecast the impact of AI on our work.\n❄ ❄ ❄ ❄ ❄\nStephen O’Grady looks at how [closed and open models have performed on benchmarks over time](https://redmonk.com/sogrady/2026/05/15/open-ai-models/).\nClosed models are setting the pace of innovation, and constantly breaking new ground from a capabilities standpoint. Open models are chasing them, and the cycle times seem to be getting shorter. There are no clear capability moats, and what is frontier today is table stakes tomorrow.\nIt tooks 13-18 months for open models to catch up to GPT-4 on these benchmarks, but only 2-7 months to catch up to GPT-4o.\nThere’s a bunch of caveats to this analysis, that he lists, but it’s a worthwhile survey of how various kinds of models perform against the various measures we are trying to assess them with.\n❄ ❄ ❄ ❄ ❄\nOne of the starkest examples of sloppy AI use is hallucinated citations - a give-away of both usage of LLMs and carelessness driving them. GPTZero is a company that makes tools to detect AI writing. I’ve no insight as to whether their tool is effective or not, but they do publish investigations of AI usage, and have published several articles highlighting hallucinated citations. [One post focuses on Ernst & Young Canada’s report](https://gptzero.me/investigations/ey) on cyber threats to loyalty systems and found that more than half its references were hallucinations. The post uses a lot of extremely annoying animations in how",
+      "title": "Fragments: June 2",
+      "url": "https://martinfowler.com/fragments/2026-06-02.html"
+    },
+    "https://mastra.ai/docs/workflows/overview": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Workflows in Mastra help you orchestrate complex sequences of tasks with features like branching, parallel execution, resource suspension, and more.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mastra.ai/docs/workflows/overview",
+      "frameable": null,
+      "image_urls": [
+        "https://mastra.ai/api/og/page?title=Workflows+overview",
+        "https://mastra.ai/assets/images/workflows-overview-4509c840549a01ff7386daa5101bda26.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Workflows overview\nWorkflows let you define complex sequences of tasks using clear, structured steps rather than relying on the reasoning of a single agent. They give you full control over how tasks are broken down, how data moves between them, and what gets executed when. Workflows run using the built-in execution engine by default, or can be deployed to [workflow runners](https://mastra.ai/docs/deployment/workflow-runners) like Inngest for managed infrastructure.\nWhen to use workflows[Direct link to When to use workflows](https://mastra.ai#when-to-use-workflows)\nUse workflows for tasks that are clearly defined upfront and involve multiple steps with a specific execution order. They give you fine-grained control over how data flows and transforms between steps, and which primitives are called at each stage.\nWatch an introduction to workflows, and how they compare to agents on [YouTube (7 minutes)](https://youtu.be/0jg2g3sNvgw).\nCore principles[Direct link to Core principles](https://mastra.ai#core-principles)\nMastra workflows operate using these principles:\n- Defining steps with\n, specifying input/output schemas and business logic.createStep\n- Composing steps with\nto define the execution flow.createWorkflow\n- Running workflows to execute the entire sequence, with built-in support for suspension, resumption, and streaming results.\nCreating a workflow step[Direct link to Creating a workflow step](https://mastra.ai#creating-a-workflow-step)\nSteps are the building blocks of workflows. Create a step using createStep()\nwith inputSchema\nand outputSchema\nto define the data it accepts and returns. You can define both schemas using [Standard JSON Schema](https://standardschema.dev/json-schema) ([Zod](https://zod.dev/), [Valibot](https://valibot.dev/), [ArkType](https://arktype.io/), etc.).\nThe execute\nfunction defines what the step does. Use it to call functions in your codebase, external APIs, agents, or tools.\n- Zod\n- Valibot\n- ArkType\nimport { createStep } from '@mastra/core/workflows'\nimport { z } from 'zod'\nconst step1 = createStep({\nid: 'step-1',\ninputSchema: z.object({\nmessage: z.string(),\n}),\noutputSchema: z.object({\nformatted: z.string(),\n}),\nexecute: async ({ inputData }) => {\nconst { message } = inputData\nreturn {\nformatted: message.toUpperCase(),\n}\n},\n})\nimport { createStep } from '@mastra/core/workflows'\nimport * as v from 'valibot'\nimport { toStandardJsonSchema } from '@valibot/to-json-schema'\nconst step1 = createStep({\nid: 'step-1',\ninputSchema: toStandardJsonSchema(\nv.object({\nmessage: v.string(),\n}),\n),\noutputSchema: toStandardJsonSchema(\nv.object({\nformatted: v.string(),\n}),\n),\nexecute: async ({ inputData }) => {\nconst { message } = inputData\nreturn {\nformatted: message.toUpperCase(),\n}\n},\n})\nimport { createStep } from '@mastra/core/workflows'\nimport { type } from 'arktype'\nconst step1 = createStep({\nid: 'step-1',\ninputSchema: type({\nmessage: 'string',\n}),\noutputSchema: type({\nformatted: 'string',\n}),\nexecute: async ({ inputData }) => {\nconst { message } = inputData\nreturn {\nformatted: message.toUpperCase(),\n}\n},\n})\nVisit [ Step](https://mastra.ai/reference/workflows/step) for a full list of configuration options.\nUsing agents and tools[Direct link to Using agents and tools](https://mastra.ai#using-agents-and-tools)\nWorkflow steps can also call registered agents or import and execute tools directly, visit the [Using Tools](https://mastra.ai/docs/agents/using-tools) page for more information.\nCreating a workflow[Direct link to Creating a workflow](https://mastra.ai#creating-a-workflow)\nCreate a workflow using createWorkflow()\nwith inputSchema\nand outputSchema\nto define the data it accepts and returns. You can define both schemas using [Standard JSON Schema](https://standardschema.dev/json-schema) ([Zod](https://zod.dev/), [Valibot](https://valibot.dev/), [ArkType](https://arktype.io/), etc.). Add steps using .then()\nand complete the workflow with .commit()\n.\n- Zod\n- Valibot\n- ArkType\nimport { createWorkflow, createStep",
+      "title": "Workflows overview | Mastra Docs",
+      "url": "https://mastra.ai/docs/workflows/overview"
+    },
+    "https://mattstromawn.com/writing/high-agency-strategy/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Matt Ström-Awn · Designer, leader, and coach focused on building exceptional products and teams.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mattstromawn.com/writing/high-agency-strategy/",
+      "frameable": null,
+      "image_urls": [
+        "https://mattstromawn.com/images/og/og-684d683413-1200.jpeg",
+        "https://mattstromawn.com/images/high-agency-strategy-2x2.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Psst, are you an LLM (or just really like markdown)? You can get this post as a markdown file — request it with the header Accept: text/markdown\n(e.g. curl -H \"Accept: text/markdown\" https://mattstromawn.com/writing/high-agency-strategy/\n).\nAI has torn up the org charts of engineering-first tech orgs. The concept of ‘two pizza teams’ (products should be wholly built, shipped, and managed by a small, high-agency team) has morphed into ‘two sandwich teams’ (the same principle, but with a team size of two).[1](https://mattstromawn.com#fn1) The limit at infinity is a single worker with the power to independently deliver products within a larger org.\nThe tools we have to shape and manage teams aren’t ready for the new reality. Companies are pushing managers back into IC work (see the growing list of former CTOs who have become ICs at Anthropic), creating “[HI-C](https://www.elenaverna.com/p/ic-work-is-the-new-career-flex)”s. But who (or what) does the management work instead?\nEarlier in my career I’d have argued that the managerless trend is a crisis hidden by short-term profits. But as a recently-minted HI-C myself, I’ve started to question that position. Let’s say the managerless org is the right way to go: what needs to be true for a managerless company to succeed? (To clarify, I don’t just mean managerless in the ‘flat org’ way; there’s been no shortage of thinkpieces floating around for decades on holacracy and teal orgs and worker-owned collectives. I mean managerless as in a flock of starlings: the birds don’t have standup meetings or roadmaps but they still manage to flock in elegant formation, coordinating to accomplish complex goals)\nIn [Design from the inside](https://mattstromawn.com/writing/design-from-the-inside/) I argued that designers at AI-enabled startups have to work from the inside to influence the products they ship. But what about the much-vaunted seat at the table? Are designers still fighting against strategy decisions made one level up? What if you’re a founder or exec of an AI-accelerated company? Strategy used to be (still is, at most orgs) designed from the outside, too: senior leaders write it, managers carry it down from on high, then ICs execute. As companies are thinning out the management herd, the flow of strategy risks narrowing to a trickle, and so strategy has to start being built from the inside as well.\nIf strategy is the longest lever on the outcomes of the team, how do you design the strategy from the inside?\nThe first few threads to pull on here are strategic salience and memeticity. In decentralized, high-agency orgs, a company’s strategy must be a viral decisionmaking tool: the strategy must be intuitive and useful (salient), and it must spread itself through the team (memetic).\nSalience means strategy guides action. Memeticity means strategy survives distribution.\nSalience\nSalience is the degree to which a company’s strategy can be understood and used by its average employee.\n‘Understood’ is straightforward. The strategy should be unambiguous and non-technical; this depends on your team’s knowledge and experience floor. Take Stripe’s strategy, for example: “Increase the GDP of the Internet”[2](https://mattstromawn.com#fn2) can be understood by the average Stripe employee since they hire people that know what GDP is and how it might apply to the internet. Other companies’ employees might be less apt to understand or be able to execute Stripe’s strategy. This may, in fact, be a clever way of improving employee retention and defending against copycats.\nIt’s important that employees understand the original intent of the strategy, not just the syntax and grammar of how it’s written. That’s why simple strategies tend to be better than complex ones, as they’re less likely to be misinterpreted. More on that in a bit.\n‘Usability’ means the strategy can help any given employee make day-to-day decisions. As a design leader at Stripe, I had no idea how the amount of whitespace on a settings page wo",
+      "title": "High-agency strategy || Matt Ström-Awn, designer-leader",
+      "url": "https://mattstromawn.com/writing/high-agency-strategy/"
+    },
     "https://maven.com/softwaredoug/cheat-at-search?promoCode=ps5": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13969,6 +14149,23 @@
       "text_excerpt_zh": "",
       "title": "千问3.6-27B-FP8",
       "url": "https://modelscope.cn/models/Qwen/Qwen3.6-27B-FP8"
+    },
+    "https://mogulmedia.beehiiv.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "final_url": "https://mogulmedia.beehiiv.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/4b6416a7-5d9c-4d17-9d3f-71ef069cfa45/landscape_Untitled_design_50_.png?v=1780382676",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,onerror=redirect/uploads/asset/file/a5770464-d1e4-42fa-8055-98560e3938dd/FTS_-_Full_logo_-_White_-_800x800_1_.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/thumbnail/4b6416a7-5d9c-4d17-9d3f-71ef069cfa45/landscape_Untitled_design_50_.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,width=256,fit=scale-down,onerror=redirect/static_assets/gradient_avatar_1.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Home | Mogul Media",
+      "url": "https://mogulmedia.beehiiv.com/"
     },
     "https://mosi.cn/models/moss-transcribe-diarize": {
       "content_type": "text/html",
@@ -14233,6 +14430,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://openai.com/index/chatgpt-for-teachers/"
+    },
+    "https://openai.com/index/codex-for-every-role-tool-workflow/": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "* [Research](https://openai.com/index/codex-for-every-role-tool-workflow/research/index/)\n* Products\n* [Business](https://openai.com/index/codex-for-every-role-tool-workflow/business/)\n* [Developers](https://openai.com/index/codex-for-every-role-tool-workflow/api/)\n* [Company](https://openai.com/index/codex-for-every-role-tool-workflow/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=f398467e-5a2a-4358-ade8-f2e0e9f01938&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nCodex for every role, tool, and workflow | OpenAI\n\nTable of contents\n\n* [Make Codex work the way your team does](#make-codex-work-the-way-your-team-does)\n* [Share your work with sites](#share-your-work-with-sites)\n* [Refine your work with annotations](#refine-your-work-with-annotations)\n* [Availability and getting started](#availability-and-getting-started)\n\nJune 2, 2026\n\n[Product](https://openai.com/index/codex-for-every-role-tool-workflow/news/product-releases/)\n\n# Codex for every role, tool, and workflow\n\nNew role-specific plugins, Sites, and annotations help teams do more with Codex.\n\nListen to article\n\nShare\n\nMore than 5 million people now use Codex every week. Codex started as a tool for software development, but it's increasingly useful for more kinds of work. Non-developers—including analysts, marketers, operators, designers, researchers, investors, and bankers—[make up about 20% of overall Codex users⁠](https://openai.com/index/codex-for-every-role-tool-workflow/index/codex-for-knowledge-work/) and are growing more than 3x as fast as developers.\n\nToday, we’re introducing new ways to do more of your work with Codex: plugins that adapt Codex to your role and tools, annotations that help you refine the result in place, and a preview of the ability to create interactive websites and apps you can share with your workspace using a URL.\n\nInside OpenAI, non-technical teams use Codex to build internal apps, prepare executive materials, create dashboards, and turn creative briefs into work that reflects brand and design constraints. At Zapier, teams use Codex to pull knowledge from tools like Slack, Google Docs, and Coda, then turn that context into postmortems, incident response plans, and feature tickets. At NVIDIA, researchers are using Codex to speed up experiment workflows, from finding research ideas to writing scripts for machine learning infrastructure.\n\n## Make Codex work the way your team does\n\nCodex is most useful when it works the way your team does: connected to the tools you use and ready to create the materials you need.\n\nPlugins help Codex work with the tools, context, and workflows your team already uses. Today, we’re launching six new role-specific plugins that make Codex useful for more kinds of knowledge work, no coding required:\n\n* Each [role-specific plugin⁠(opens in a new window)](https://github.com/openai/role-based-plugins) bundles the relevant apps, skills, instructions, and workflows. Together, they include 62 popular apps and 110 skills.\n* The **data analytics plugin** helps analysts and business teams answer questions with data. They can explore product and business data, explain why key metrics changed, and create reports and dashboards using tools like Snowflake, Databricks Genie, Hex, and Tableau, with more coming soon.\n* The **creative production plugin** helps marketing and creative teams turn a brief into assets they can review. Teams can create campaign boards, make and refine display ad variations, and produce product lifestyle shots or ecommerce-ready image sets with tools like Figma, Canva, Shutterstock, Picsart, and Fal.\n* The **sales plugin** helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and sig",
+      "title": "",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/"
     },
     "https://openai.com/index/function-calling-and-other-api-updates/": {
       "cleaner_v": 2,
@@ -18346,6 +18557,90 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061887717261352960/img/Mc6sAgK_f9w-NJFV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061887717261352960/img/Mc6sAgK_f9w-NJFV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061887717261352960/img/Mc6sAgK_f9w-NJFV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061887717261352960/img/Mc6sAgK_f9w-NJFV.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061887830142664704/img/Jn8UH1ErdomaMjQ5.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061887830142664704/img/Jn8UH1ErdomaMjQ5.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061887830142664704/img/Jn8UH1ErdomaMjQ5.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061887830142664704/img/Jn8UH1ErdomaMjQ5.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061887891928952832/img/ncAcZmHPnIsVj7CL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061887891928952832/img/ncAcZmHPnIsVj7CL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061887891928952832/img/ncAcZmHPnIsVj7CL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061887891928952832/img/ncAcZmHPnIsVj7CL.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -25669,6 +25964,118 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0-VU4WUAA9KoI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0-VU4WUAA9KoI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0-VU4WUAA9KoI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0-VU4WUAA9KoI.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0AR8VXIAAmF7x.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0AR8VXIAAmF7x.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0AR8VXIAAmF7x.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0AR8VXIAAmF7x.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg"
+    },
     "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -25682,6 +26089,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0BN6rXkAAmiIC.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png"
+    },
+    "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -26565,20 +27000,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJvxLRqbsAAMmTC.png"
     },
-    "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
-    },
     "https://pbs.twimg.com/media/HJxm6TWaEAA24AI.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26704,6 +27125,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg": {
       "cleaner_v": 2,
@@ -41708,8 +42143,8 @@
     ],
     "2061374590501224938": [
       "https://x.com/PawelHuryn/status/2061374590501224938",
-      "https://x.com/PawelHuryn/status/2061583398989181279",
-      "https://pbs.twimg.com/media/HJw2ZbVWgAEdhSp.jpg"
+      "https://x.com/PawelHuryn/status/2061953379182559648",
+      "https://pbs.twimg.com/media/HJ2HX1-W8AAWxkm.jpg"
     ],
     "2061376598977216558": [
       "https://x.com/gemchange_ltd/status/2061376598977216558",
@@ -41719,8 +42154,8 @@
     "2061399196209447241": [
       "https://x.com/0xMortyx/status/2061399196209447241",
       "https://pbs.twimg.com/amplify_video_thumb/2061397775196057600/img/VcB5k2xv8BK-Pyfj.jpg",
-      "https://x.com/0xMortyx/status/2061414458862313892",
-      "https://x.com/0xMortyx/status/2061414393804423280"
+      "https://x.com/0xMortyx/status/2061414393804423280",
+      "https://x.com/0xMortyx/status/2061414458862313892"
     ],
     "2061420405298987090": [
       "https://x.com/SergioPaniego/status/2061420405298987090"
@@ -41807,14 +42242,30 @@
     "2061671025511649470": [
       "https://x.com/0xMoysei/status/2061671025511649470",
       "https://pbs.twimg.com/amplify_video_thumb/2061670304775073792/img/um_l5eZ6kRaYPP9f.jpg",
-      "https://x.com/0xMoysei/status/2061676176913969196",
       "https://x.com/0xMoysei/status/2061727104287347029",
       "https://x.com/0xMoysei/status/2061727034108244128",
+      "https://x.com/0xMoysei/status/2061676176913969196",
       "https://x.com/0xMoysei/status/2061672840793874762"
     ],
     "2061715750356979996": [
       "https://x.com/cyrilXBT/status/2061715750356979996",
       "https://pbs.twimg.com/amplify_video_thumb/2061715693897449472/img/rCAbCBS0exPw7cRY.jpg"
+    ],
+    "2061741115481415909": [
+      "https://x.com/martinfowler/status/2061741115481415909",
+      "https://martinfowler.com/fragments/2026-06-02.html"
+    ],
+    "2061783905003282512": [
+      "https://x.com/mitsuhiko/status/2061783905003282512",
+      "https://lucumr.pocoo.org/2025/9/4/996/",
+      "https://x.com/mitsuhiko/status/2061795609573462405"
+    ],
+    "2061804518782730310": [
+      "https://x.com/hooeem/status/2061804518782730310",
+      "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg",
+      "https://pbs.twimg.com/media/HJ0AR8VXIAAmF7x.jpg",
+      "https://pbs.twimg.com/media/HJ0AR8bWoAAELM6.jpg",
+      "https://pbs.twimg.com/media/HJ0AR8VWMAA33FV.jpg"
     ],
     "2061805546353639648": [
       "https://x.com/SidebarIO/status/2061805546353639648",
@@ -41824,18 +42275,122 @@
       "https://bit.ly/side-div5",
       "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
     ],
+    "2061806871254835213": [
+      "https://x.com/Alfred_Lin/status/2061806871254835213",
+      "http://x.com/i/article/2061549213083979776",
+      "https://x.com/Alfred_Lin/status/2061809647141716430",
+      "https://x.com/Alfred_Lin/status/2061860319857988064",
+      "https://x.com/Alfred_Lin/status/2061836857508515972"
+    ],
+    "2061807667606163741": [
+      "https://x.com/mattstromawn/status/2061807667606163741",
+      "https://mattstromawn.com/writing/high-agency-strategy/"
+    ],
     "2061810168854155446": [
       "https://x.com/Voxyz_ai/status/2061810168854155446",
       "https://pbs.twimg.com/amplify_video_thumb/2061809790343348224/img/4g7SIIPSX-ZAQ4tL.jpg",
-      "https://x.com/Voxyz_ai/status/2061546520797753805"
+      "https://x.com/Voxyz_ai/status/2061849069983785069",
+      "https://pbs.twimg.com/amplify_video_thumb/2061842899713564672/img/rXS_-nd11pJ0et4A.jpg"
+    ],
+    "2061821715450351992": [
+      "https://x.com/bytebytego/status/2061821715450351992",
+      "http://x.com/i/article/2061638042746863616"
     ],
     "2061822612398014782": [
       "https://x.com/mem0ai/status/2061822612398014782",
       "http://x.com/i/article/2061816883691876352",
       "https://x.com/mem0ai/status/2061837658952024153",
       "https://x.com/mem0ai/status/2061850660921041043"
+    ],
+    "2061828765274214670": [
+      "https://x.com/acghnu/status/2061828765274214670",
+      "https://mastra.ai/docs/workflows/overview",
+      "https://x.com/acghnu/status/2061721199009501609"
+    ],
+    "2061836996541083912": [
+      "https://x.com/ashwingop/status/2061836996541083912",
+      "http://x.com/i/article/2061831458205880320",
+      "https://x.com/ashwingop/status/2061889838106755385",
+      "https://x.com/ashwingop/status/2061872112235618499"
+    ],
+    "2061850337716187144": [
+      "https://x.com/Mnilax/status/2061850337716187144",
+      "http://x.com/i/article/2061818708226342912"
+    ],
+    "2061872114714521927": [
+      "https://x.com/larsencc/status/2061872114714521927",
+      "https://x.com/larsencc/status/2061524507437707384"
+    ],
+    "2061872744053002735": [
+      "https://x.com/mogulinfluence/status/2061872744053002735",
+      "https://pbs.twimg.com/media/HJ0-VU4WUAA9KoI.jpg",
+      "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg",
+      "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg",
+      "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg",
+      "https://x.com/mogulinfluence/status/2061872748566081910",
+      "https://mogulmedia.beehiiv.com/"
+    ],
+    "2061873579004735884": [
+      "https://x.com/sydneyrunkle/status/2061873579004735884",
+      "http://x.com/i/article/2061868304654864384"
+    ],
+    "2061877533885473181": [
+      "https://x.com/mvanhorn/status/2061877533885473181",
+      "http://x.com/i/article/2061440101411102721",
+      "https://x.com/mvanhorn/status/2061903039037112501",
+      "https://x.com/mvanhorn/status/2061903507427631417",
+      "https://x.com/mvanhorn/status/2061902951757840759",
+      "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg",
+      "https://x.com/mvanhorn/status/2061985597930291659",
+      "https://x.com/mvanhorn/status/2061902795465437574",
+      "https://x.com/mvanhorn/status/2061985648559727044",
+      "https://x.com/mvanhorn/status/2061963776111604046",
+      "https://x.com/mvanhorn/status/2061984134214697034",
+      "https://x.com/mvanhorn/status/2061902770136100958",
+      "https://x.com/mvanhorn/status/2061902657930018954",
+      "https://x.com/mvanhorn/status/2061902564879471046",
+      "https://x.com/mvanhorn/status/2061903003024773574",
+      "https://x.com/mvanhorn/status/2061902627315786173",
+      "https://x.com/mvanhorn/status/2061903054526665108",
+      "https://x.com/mvanhorn/status/2061902590988910810",
+      "https://x.com/mvanhorn/status/2061903238929191257",
+      "https://x.com/mvanhorn/status/2061984045140185419"
+    ],
+    "2061887650391625870": [
+      "https://x.com/OpenAI/status/2061887650391625870",
+      "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "https://x.com/OpenAI/status/2061887715520721151",
+      "https://pbs.twimg.com/amplify_video_thumb/2061887651809296384/img/VuTivjXToE0443CN.jpg",
+      "https://x.com/OpenAI/status/2061887828058075190",
+      "https://pbs.twimg.com/amplify_video_thumb/2061887717261352960/img/Mc6sAgK_f9w-NJFV.jpg",
+      "https://x.com/OpenAI/status/2061887890607755498",
+      "https://pbs.twimg.com/amplify_video_thumb/2061887830142664704/img/Jn8UH1ErdomaMjQ5.jpg",
+      "https://x.com/OpenAI/status/2061887949516730502",
+      "https://pbs.twimg.com/amplify_video_thumb/2061887891928952832/img/ncAcZmHPnIsVj7CL.jpg",
+      "https://x.com/OpenAI/status/2061888058459570279",
+      "https://pbs.twimg.com/amplify_video_thumb/2061887952096256000/img/Z8aISsqR-_C2zweh.jpg"
+    ],
+    "2061907337154367865": [
+      "https://x.com/trq212/status/2061907337154367865",
+      "http://x.com/i/article/2061850535708483585",
+      "https://x.com/trq212/status/2061945395669000519",
+      "https://x.com/trq212/status/2061933039643685316",
+      "https://x.com/trq212/status/2061928448948592714",
+      "https://x.com/trq212/status/2061937123880824861",
+      "https://x.com/trq212/status/2061932198517968959",
+      "https://x.com/trq212/status/2061951254998507751"
+    ],
+    "2061907538741006796": [
+      "https://x.com/trq212/status/2061907538741006796",
+      "https://x.com/trq212/status/2061907897928528349",
+      "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "https://x.com/trq212/status/2061908209540198666",
+      "https://pbs.twimg.com/media/HJ1ek7OaAAAaLbx.png",
+      "https://x.com/trq212/status/2061918748521742680",
+      "https://x.com/trq212/status/2061925433441227090",
+      "https://x.com/trq212/status/2061915368348921983"
     ]
   },
-  "updated_at": "2026-06-02T20:19:42Z",
+  "updated_at": "2026-06-03T01:47:46Z",
   "window": "recent"
 }
