@@ -109,6 +109,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "HERMES AGENT BUILT-IN SKILLS ARE INSANE.\n\nHermes comes with 64+ native tools.\n\nOne of them is full Home Assistant integration with 4 dedicated tools:\n- Call any service\n- Get entity state\n- List entities\n- List available services\n\nYou enable the skill, give it your IP and long-lived token.\n\nIt connects, saves the integration to memory, and starts executing.\n\nTurn off the lamp — done.  \nClose the automatic blinds — done.\n\nNo YAML. No custom scripts. No context bloat.\n\nHermes uses progressive disclosure and Tool Search. It loads only what it needs.\n\nThis turns an AI from a chatbot into something that actually controls the physical world.\n\nWhich built-in skill do you want to see next?\n\nThe full system on how to turn Hermes + built-in skills into a real 24/7 operator is in the new article 👇",
+      "text_zh": "HERMES 内置技能堪称逆天。\n\nHermes 自带 64 种以上原生工具。\n\n其中一项是完整的 Home Assistant 集成，包含 4 个专用工具：\n- 调用任意服务\n- 获取实体状态\n- 列出实体\n- 列出可用服务\n\n启用该技能后，只需提供 IP 地址和长期令牌。\n\n它会自动连接，将集成保存至内存，并开始执行指令。\n\n关灯——搞定。  \n关闭自动窗帘——搞定。\n\n无需 YAML。无需自定义脚本。无需上下文膨胀。\n\nHermes 采用渐进式披露和工具搜索机制，仅加载所需内容。\n\n这让人工智能从聊天机器人蜕变为真正能操控物理世界的存在。\n\n你希望下一个看到哪项内置技能？\n\n关于如何将 Hermes + 内置技能打造成真正的 24/7 操作员的完整系统，详见新文章 👇",
+      "text_zh_hash": "25ad27652243e50a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/IBuzovskyi/status/2062418054831554666"
     },
     {
@@ -270,6 +273,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "codex has changed how we do data analysts in the past few months \n\nIf you wanna learn how we did it, check out this blog post. \nhttps://blog.bytebytego.com/p/how-openai-built-its-data-agent",
+      "text_zh": "过去几个月，codex 改变了我们进行数据分析的方式。\n\n如果你想了解我们是如何做到的，可以看看这篇博客文章。\nhttps://blog.bytebytego.com/p/how-openai-built-its-data-agent",
+      "text_zh_hash": "b31355486f77a606",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jxnlco/status/2062337332309839985"
     },
     {
@@ -322,6 +328,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Perplexity Computer is for growing businesses.\n\nComputer connects to 400+ tools for every type of company, including Intuit QuickBooks, Vercel, Shopify, Canva, and more.\n\nLearn more about how people are using Computer for their business:\nhttps://www.perplexity.ai/enterprise/use-cases/growing-businesses https://t.co/br4yxflUwe",
+      "text_zh": "Perplexity Computer 专为成长型企业打造。\n\nComputer 可连接 400 多种适用于各类公司的工具，包括 Intuit QuickBooks、Vercel、Shopify、Canva 等。\n\n了解更多关于人们如何将 Computer 用于其业务的信息：\nhttps://www.perplexity.ai/enterprise/use-cases/growing-businesses https://t.co/br4yxflUwe",
+      "text_zh_hash": "0f0bc32a6153b8f9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/perplexity_ai/status/2062221423104704753"
     },
     {

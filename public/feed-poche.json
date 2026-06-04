@@ -50,6 +50,9 @@
       "category": "Design",
       "created_at": "2026-06-04T06:55:06.767208Z",
       "description": "Turn links into visual moodboards. Capture websites, organize by section, and sync boards to Figma.",
+      "description_zh": "将链接转化为可视化情绪板。捕捉网站内容，按板块整理，并将看板同步至 Figma。",
+      "description_zh_hash": "cd0882f84de8c54d",
+      "description_zh_translator_v": 2,
       "domain": "moodr.app",
       "embed_type": "",
       "id": "k1742g0g8b3kcttsmr1gm9ddfx880kk8",
@@ -107,6 +110,9 @@
         }
       ],
       "title": "Who’s Going to WWDC26?",
+      "title_zh": "谁要去 WWDC26？",
+      "title_zh_hash": "0c21e276da3f3777",
+      "title_zh_translator_v": 2,
       "url": "https://flighty.app/wwdc26",
       "x_status_id": null
     },
