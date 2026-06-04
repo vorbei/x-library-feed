@@ -60,6 +60,9 @@
       "category": "Tools",
       "created_at": "2026-06-04T03:46:47.369555Z",
       "description": "Lassie automates your admin — enrollments, payment posting, EFT reconciliation — so your team can focus on patients.",
+      "description_zh": "Lassie 自动化处理您的行政工作——注册登记、付款过账、EFT 对账——让您的团队专注于患者。",
+      "description_zh_hash": "307e090a97a1efb2",
+      "description_zh_translator_v": 2,
       "domain": "www.lassie.ai",
       "embed_type": "",
       "id": "k179t9fan583zr8kce8z5fpz79880jyz",
@@ -82,6 +85,9 @@
         }
       ],
       "title": "Lassie — AI That Runs the Doctor's Office",
+      "title_zh": "Lassie — 掌管诊所的AI",
+      "title_zh_hash": "8847c350ac7aa387",
+      "title_zh_translator_v": 2,
       "url": "https://www.lassie.ai/",
       "x_status_id": null
     },
@@ -101,11 +107,17 @@
         "https://ramp.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faudit-grade-confidence.08nv4456tpwye.webp&w=3840&q=75&dpl=dpl_BFw3p7pphYacAtvtkKSUDvkrYPEf"
       ],
       "article_text": "Products Partners Solutions Resources Customers Pricing Sign in See a demo arrow_back_ios Back You're gonna need a bigger book. Stack is the AI operating system for today's top accounting firms. Try Stack for free Set up fast. Scale even faster. Get set up in minutes Add clients, connect their systems, upload your close checklists, and put coworkers on the first task — all within an hour. Perfect your processes Run your agents concurrently, refine and adapt your skills, and build routines that automate every close. Take on more clients Closes are faster, clients see their financials sooner, and your team shows up as the thought partner each client needs. Build your stack. Unlock speed and capacity. Up to 60% faster closes for clients. Up to 9x faster recurring schedules and reconciliations. “The routine stuff is more standardized now, so I can put my attention on what actually needs my judgment. It’s now much easier to give clients a consistent level of service.” Katie Lamb , Manager Sales Solutions at Decimal “We're running multiple agents simultaneously — spending time reviewing work, not doing and then reviewing. It fundamentally changes the way we work.” John Ikosipentarhos , President at Zeroed-In Consulting “My role is shifting toward people investment. The tools are here to systemize the work — it’s now a lot more focussed on human relationship management.” Tyler Otto , President & Owner at Specialized Accounting Built alongside accountants. Trained on real closes. Read the story Your work. Your way. Access the most advanced AI system to do real finance work, exactly how you need it done. Connect your systems. Push, pull, read, and write across every system your clients work on — QuickBooks, Google Drive, spreadsheets, bank feeds, and beyond. Assign real work to AI on day one. Run reconciliations, schedules, and monthly reporting end to end — from workbook to ledger. Ramp comes with accounting expertise built in, ready for real client work. Tailor to each client. Your clients have different needs: project-based spending, deferred revenue recognition, custom vendor rules. Ramp learns each preference once and runs the work that way for every client, every time. Stay in control. See the work being done in real time: every reason, every source, every step. Set guardrails, step in when needed, and approve what needs judgment before it posts. All this powered by an engine that outperforms any general purpose AI. Stack handles a wider and deeper range of accounting work across 200+ independently benchmarked bookkeeping tasks. Informed by 4,500+ firms and 1M+ closes on Ramp today. Agent performance across identical simulations Ramp Stack 65.8% ChatGPT 5.5 61.7% Claude Opus 4.7 58.3% Gemini Pro 3.1 54.3% Auditable. Private. Secured. Every action is traceable. Every byte is protected. Every output is yours. Your firm's IP stays private. The skills, workflows, and expertise you build into Stack are visible only to your firm — not shared with your clients, other firms, or AI labs. Audit-grade confidence. Every output is tied to the source data and the work behind it, giving auditors and accounting teams a permanent trail back to the source. Client data stays secure. Stack runs on Ramp's banking-grade infrastructure — designed with SOC 2 controls, with data encrypted in transit and at rest. FAQ What is Stack? Stack is the AI platform built for accounting firms. Agents run the accounting work end-to-end: reconciliations, journal entries, schedule roll-forwards, variance analysis. Each workflow follows your firm's exact processes, across every client. Who is Stack for? Stack is built for accounting firms, from boutique CAS practices to large multi-client firms. Partners, senior accountants, and bookkeepers work in one platform, with firm-wide visibility, controls, and IP protection. What can Stack do? Stack handles any accounting workflow. It comes pre-loaded with skills, codified SOPs that agents follow and reuse across every client,",
+      "article_text_zh": "产品 合作伙伴 解决方案 客户 资源 定价 登录 预约演示 arrow_back_ios 返回 你需要一本更大的书。Stack 是当今顶尖会计师事务所的AI操作系统。 免费试用Stack 快速搭建，更快扩展。 几分钟内完成设置 添加客户、连接他们的系统、上传你的结账清单，并让同事参与第一个任务——所有这些都在一小时内完成。 完善你的流程 同时运行你的代理，优化和调整你的技能，构建自动化每次结账的例行程序。 承接更多客户 结账更快，客户更快看到财务数据，你的团队成为每个客户所需的思维伙伴。 构建你的Stack。释放速度与容量。 客户结账速度提升高达60%。 重复性日程与对账速度提升高达9倍。 “常规工作现在更加标准化，所以我可以把注意力放在真正需要我判断的事情上。现在更容易为客户提供一致的服务水平。” ——Katie Lamb，Decimal销售解决方案经理 “我们同时运行多个代理——花时间审查工作，而不是先做再审查。这从根本上改变了我们的工作方式。” ——John Ikosipentarhos，Zeroed-In Consulting总裁 “我的角色正在转向人员投资。这些工具用于系统化工作——现在更侧重于人际关系管理。” ——Tyler Otto，Specialized Accounting总裁兼所有者 与会计师共同构建。基于真实结账训练。 阅读故事 你的工作。你的方式。 访问最先进的AI系统，以你所需的方式完成真正的财务工作。 连接你的系统。 在你客户使用的每个系统中推送、拉取、读取和写入——QuickBooks、Google Drive、电子表格、银行数据源等。 从第一天起将真实工作分配给AI。 端到端运行对账、日程和月度报告——从工作簿到分类账。Ramp内置会计专业知识，随时准备处理真实客户工作。 为每个客户量身定制。 你的客户有不同的需求：项目型支出、递延收入确认、自定义供应商规则。Ramp只需学习一次每个偏好，然后每次为每个客户以相同方式运行工作。 保持控制。 实时查看工作进展：每个原因、每个来源、每个步骤。设置防护栏，在需要时介入，并在过账前批准需要判断的内容。 所有这些都由一个超越任何通用AI的引擎驱动。Stack在200多项独立基准测试的簿记任务中处理更广泛、更深入的会计工作。基于Ramp当前4500多家事务所和100多万次结账的经验。 相同模拟中的代理性能 Ramp Stack 65.8% ChatGPT 5.5 61.7% Claude Opus 4.7 58.3% Gemini Pro 3.1 54.3% 可审计。私密。安全。 每个操作都可追溯。每个字节都受保护。每个输出都属于你。 你事务所的知识产权保持私密。你在Stack中构建的技能、工作流和专业知识仅对你的事务所可见——不会与你的客户、其他事务所或AI实验室共享。 审计级信心。 每个输出都绑定到源数据及其背后的工作，为审计师和会计团队提供永久追溯至源头的轨迹。 客户数据保持安全。 Stack运行在Ramp的银行级基础设施上——采用SOC 2控制设计，数据传输和存储均加密。 常见问题 什么是Stack？ Stack是为会计师事务所构建的AI平台。代理端到端运行会计工作：对账、日记账分录、日程滚动、差异分析。每个工作流都遵循你事务所的确切流程，适用于每个客户。 Stack为谁设计？ Stack专为会计师事务所设计，从精品CAS事务所到大型多客户事务所。合伙人、高级会计师和簿记员在一个平台上工作，具有全所范围的可见性、控制和知识产权保护。 Stack能做什么？ Stack处理任何会计工作流。它预装了技能、编码的标准操作程序（SOP），代理遵循这些程序并在每个客户中重复使用。",
+      "article_text_zh_hash": "f316c8d53057b290",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "AI Platform for Accounting Firms | Ramp Stack",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2026-06-04T03:46:50.212635Z",
       "description": "Ramp Stack handles bookkeeping, reconciliations, and month-end close for accounting firms. Human sign-off built in. Expand your book without expanding your team.",
+      "description_zh": "Ramp Stack为会计师事务所处理记账、对账和月末结账工作。内置人工签核功能。在不扩充团队的前提下拓展您的业务。",
+      "description_zh_hash": "98fc2036b7251ed1",
+      "description_zh_translator_v": 2,
       "domain": "ramp.com",
       "embed_type": "",
       "id": "k17fdjn88x060xaq731fddek8h88139k",
@@ -128,6 +140,9 @@
         }
       ],
       "title": "AI Platform for Accounting Firms | Ramp Stack",
+      "title_zh": "会计事务所AI平台 | Ramp Stack",
+      "title_zh_hash": "cbfd22382a69e088",
+      "title_zh_translator_v": 2,
       "url": "https://ramp.com/stack",
       "x_status_id": null
     },
@@ -143,6 +158,9 @@
       "category": "Development",
       "created_at": "2026-06-04T03:46:58.501421Z",
       "description": "Universal way for ignoring unnecessary common files to fit your bundle - Kikobeats/untracked",
+      "description_zh": "通用忽略不必要公共文件以适配你的打包方案 - Kikobeats/untracked",
+      "description_zh_hash": "b8a21fc8d7f75170",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k17f6yhteyym78kftmcqjmbfjs8818p3",
@@ -165,6 +183,9 @@
         }
       ],
       "title": "GitHub - Kikobeats/untracked: Universal way for ignoring unnecessary common files to fit your bundle · GitHub",
+      "title_zh": "GitHub - Kikobeats/untracked：忽略不必要的通用文件以适配你的包的通用方法 · GitHub",
+      "title_zh_hash": "f56d94562ebb068f",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/Kikobeats/untracked",
       "x_status_id": null
     },
@@ -175,11 +196,17 @@
         "https://apps.apple.com/assets/images/supports/supports-Siri@2x.png"
       ],
       "article_text": "for iPhone iPhone iPad Mac Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Watch TV Brink: Podcasts and News Podcasts & News, in one place. Free · In-App Purchases · Designed for iPad. Not verified for macOS. Share 6 Ratings 5.0 Age Rating 13+ Years Category News Developer Gowtham Oleti Language EN English Size 61.3 MB iPhone, iPad Feature packed podcast player. Brink is a podcast player and news app for people who want discovery, playback, and headlines in one place, wrapped in a modern Liquid Glass design. With Brink, you can: - Discover trending podcasts and personalized recommendations - Enjoy smooth playback with queueing and progress sync - Get AI generates transcripts and chapters of podcasts - Get latest news updated from across the world. - Save key moments with timestamped bookmarks and notes - Walking mode enables you to view calories your burned while listening to podcasts - Build your listening flow by mood and interests - Continue right where you left off across your library Brink combines powerful podcast features with a clean, fluid Liquid Glass UI that feels fast, focused, and premium. Terms of use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ more Events … PREMIERE See what's trending. Tap Trending to open the World Podcast Map — visually see what podcasts are topping the charts in each country. Ratings & Reviews 5.0 out of 5 6 Ratings Designed intuitively with boldness 25 May Meforya This is hands down one of the most unique app when it comes to podcast and design. The intuitive care with which even the smallest features are taken care of is incredible. The app prompts me to count my steps and knows when I’m on a walk while listening to my fav podcasts. Not only that, it provides transcripts with timestamps in the timeline itself! I have never come across this before Brink My favourite feature is when it essentially hides spoilers from the live transcript that comes on the screenI would give this 5/5! Still cannot fathom the fact that all this is designed and coded by a single person! I cannot wait for what’s to come ahead! Designed intuitively with boldness 25 May Meforya This is hands down one of the most unique app when it comes to podcast and design. The intuitive care with which even the smallest features are taken care of is incredible. The app prompts me to count my steps and knows when I’m on a walk while listening to my fav podcasts. Not only that, it provides transcripts with timestamps in the timeline itself! I have never come across this before Brink My favourite feature is when it essentially hides spoilers from the live transcript that comes on the screenI would give this 5/5! Still cannot fathom the fact that all this is designed and coded by a single person! I cannot wait for what’s to come ahead! Fantastic 18 Mar majhical Was looking for a podcast app which was fun to use! Developer Response Thank you! Glad you liked the app. Fantastic 18 Mar majhical Was looking for a podcast app which was fun to use! Developer Response 23 Mar Thank you! Glad you liked the app. Fantastic app. 30 Mar Gagenerse Loved the design! Developer Response Thank you! Fantastic app. 30 Mar Gagenerse Loved the design! Developer Response 1 Apr Thank you! What’s New Version History - A Tab Bar With Personality — Every tap brings the new navigation to life. Worth playing with. - Library, Reborn — A fresh look at saved articles, downloads, bookmarks, and Up Next. Everything you've kept, in one place. - Bookmark a Line — Tap any line in the transcript to save the moment. Brink keeps the words and the timestamp together. - Episode Pages, Polished — Cleaner typography, tighter spacing, and easier scanning across every episode page. - Translation Scroll, Fixed — The translated-transcript overlay no longer fights your scroll. 1.2.19 9 hr ago - Your Library, Reimagined — Downloads, bookmarks, and Up Next all live in one cleaner, faster home. - A Fresher News Feed — Refreshed article layouts a",
+      "article_text_zh": "for iPhone iPhone iPad Mac Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Watch TV Brink: 播客与新闻 播客与新闻，尽在一处。免费 · 含内购 · 专为 iPad 设计 · 未验证 macOS 兼容性 分享 6 个评分 5.0 年龄分级 13+ 年 类别 新闻 开发者 Gowtham Oleti 语言 英文 大小 61.3 MB iPhone, iPad 功能丰富的播客播放器。Brink 是一款播客播放器和新闻应用，专为希望在一个地方发现内容、播放和头条新闻的用户打造，采用现代 Liquid Glass 设计。使用 Brink，您可以： - 发现热门播客和个性化推荐 - 享受流畅播放，支持队列和进度同步 - 获取 AI 生成的播客转录文本和章节 - 获取来自世界各地的最新新闻更新 - 使用带时间戳的书签和笔记保存关键时刻 - 步行模式让您在收听播客时查看消耗的卡路里 - 根据心情和兴趣构建您的收听流程 - 在您的资料库中从上次中断的地方继续收听 Brink 将强大的播客功能与干净流畅的 Liquid Glass 界面相结合，带来快速、专注且高级的使用体验。 使用条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 更多 活动 … 首映 查看热门内容。点击“热门”打开世界播客地图——直观查看每个国家/地区的播客排行榜。 评分与评论 5.0 分（满分 5 分） 6 个评分 直观大胆的设计 5月25日 Meforya 这绝对是播客和设计方面最独特的应用之一。即使是微小功能也体现出的直观关怀令人难以置信。应用会提示我计步，并在收听我最爱的播客时知道我正在散步。不仅如此，它还在时间线上提供带时间戳的转录文本！我之前从未在 Brink 上见过这个功能。我最喜欢的功能是它能自动隐藏屏幕上实时转录文本中的剧透内容。我会给这个应用打 5/5 分！仍然难以相信这一切是由一个人设计和编码的！我迫不及待想看看未来会带来什么！ 直观大胆的设计 5月25日 Meforya 这绝对是播客和设计方面最独特的应用之一。即使是微小功能也体现出的直观关怀令人难以置信。应用会提示我计步，并在收听我最爱的播客时知道我正在散步。不仅如此，它还在时间线上提供带时间戳的转录文本！我之前从未在 Brink 上见过这个功能。我最喜欢的功能是它能自动隐藏屏幕上实时转录文本中的剧透内容。我会给这个应用打 5/5 分！仍然难以相信这一切是由一个人设计和编码的！我迫不及待想看看未来会带来什么！ 太棒了 3月18日 majhical 一直在找一个好玩的播客应用！ 开发者回复 谢谢！很高兴你喜欢这个应用。 太棒了 3月18日 majhical 一直在找一个好玩的播客应用！ 开发者回复 3月23日 谢谢！很高兴你喜欢这个应用。 很棒的应用。 3月30日 Gagenerse 喜欢这个设计！ 开发者回复 谢谢！ 很棒的应用。 3月30日 Gagenerse 喜欢这个设计！ 开发者回复 4月1日 谢谢！ 更新内容 版本历史 - 有个性的标签栏——每次点击都让新导航栩栩如生，值得一试。 - 焕然一新的资料库——已保存文章、下载内容、书签和“接下来播放”的全新面貌。您保留的所有内容，集中在一处。 - 书签某一行——点击转录文本中的任意一行即可保存该时刻。Brink 会将文字和时间戳一起保存。 - 精雕细琢的单集页面——更清晰的排版、更紧凑的间距，让每个单集页面更易浏览。 - 修复翻译滚动问题——翻译转录文本覆盖层不再与滚动冲突。 1.2.19 9小时前 - 您的资料库，重新构想——下载内容、书签和“接下来播放”全部整合在一个更干净、更快速的主页中。 - 更清新的新闻流——刷新了文章布局，带来",
+      "article_text_zh_hash": "b43cfea52e4c39df",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "‎Brink: Podcasts and News App - App Store",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2026-06-04T03:47:01.989596Z",
       "description": "Brink is a podcast player and news app for people who want discovery, playback, and headlines in one place, wrapped in a modern Liquid Glass design.\n\nWith Brink, you can:\n\n- Discover trending podcasts and personalized recommendations\n- Enjoy smooth playback with queueing and progress sync\n- Get AI generates transcripts and chapters of podcasts\n- Get latest news updated from across the world.\n- Save key moments with timestamped bookmarks and notes\n- Walking mode enables you to view calories your burned while listening to podcasts\n- Build your listening flow by mood and interests\n- Continue right where you left off across your library\n\nBrink combines powerful podcast features with a clean, fluid Liquid Glass UI that feels fast, focused, and premium.\n\nTerms of use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "description_zh": "Brink 是一款播客播放器与新闻应用，专为希望将发现、播放和头条新闻整合于一处的用户打造，并采用现代液态玻璃设计。\n\n使用 Brink，您可以：\n\n- 发现热门播客和个性化推荐\n- 享受流畅播放体验，支持队列管理和进度同步\n- 获取 AI 生成的播客文字稿和章节\n- 获取来自全球的最新新闻更新\n- 通过带时间戳的书签和笔记保存关键时刻\n- 步行模式让您在收听播客时查看消耗的卡路里\n- 根据心情和兴趣构建您的收听流程\n- 在您的资料库中从上次中断处继续收听\n\nBrink 将强大的播客功能与干净流畅的液态玻璃用户界面相结合，带来快速、专注且高级的使用体验。\n\n使用条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "description_zh_hash": "889f7daf87306100",
+      "description_zh_translator_v": 2,
       "domain": "apps.apple.com",
       "embed_type": "",
       "id": "k178b8b5krd6gsx6qe5zv7tnbn8800qe",
@@ -202,6 +229,9 @@
         }
       ],
       "title": "‎Brink: Podcasts and News App - App Store",
+      "title_zh": "‎Brink：播客与新闻应用 - App Store",
+      "title_zh_hash": "a5bcc53db392b401",
+      "title_zh_translator_v": 2,
       "url": "https://apps.apple.com/in/app/brink-podcasts-and-news/id6760338948",
       "x_status_id": null
     },
@@ -222,11 +252,17 @@
         "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fannouncement%2Fbody%2Fhistory%2F05-friendly-appliances.webp&w=3840&q=75&dpl=dpl_6U2aJpDDCH2xpjNfbgvp7VMcAm19"
       ],
       "article_text": "Walking Alongside:Why We Built Town\nHumans are wired for connection. It shapes who we are, holds us together when things fall apart, and gives life most of its meaning. And decades of research keep landing on the same finding: the quality of our relationships predicts our health and happiness better than almost anything else.\nThis human need for connection is so deep that we reach for it with our imagination.\nExploring Calvin and Hobbes",
+      "article_text_zh": "并肩同行：我们为何建造 Town\n\n人类天生渴望联结。它塑造了我们是谁，在分崩离析时维系我们，并赋予生命大部分的意义。数十年的研究不断得出相同的结论：人际关系的质量比几乎其他任何因素都更能预测我们的健康与幸福。\n\n这种对联结的人类需求如此深刻，以至于我们甚至用想象力去追寻它。\n\n探索《卡尔文与霍布斯》",
+      "article_text_zh_hash": "872362dc3ce60fe1",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Why We Built Town | Town",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-06-04T03:48:32.029771Z",
       "description": "The story behind Town: why we set out to build an unusually helpful AI assistant that actually does the work, handling your email, calendar, and busywork so you don't have to.",
+      "description_zh": "# Town 背后的故事：我们为何要打造一个真正能干活、异常贴心的 AI 助手\n\n让它处理你的邮件、日历和琐事，你只管放手。",
+      "description_zh_hash": "6f77c5c3b3d484a9",
+      "description_zh_translator_v": 2,
       "domain": "www.town.com",
       "embed_type": "",
       "id": "k1700zy88e13qww7vyc25ry5qn880xaa",
@@ -249,6 +285,9 @@
         }
       ],
       "title": "Why We Built Town | Town",
+      "title_zh": "# 我们为何打造 Town",
+      "title_zh_hash": "509fadd13a331db7",
+      "title_zh_translator_v": 2,
       "url": "https://www.town.com/why-we-built-town",
       "x_status_id": null
     },
@@ -257,6 +296,9 @@
         "https://admin.abbrprojects.com/wp-content/uploads/2026/04/Frame-2147224220.png"
       ],
       "article_text": "Abbreviated Abbr. Projects Strategy 9 Design 51 Language 27 Websites 16 for Simplehuman The high-performance home goods brand Services Design Team Typography support by Office for Typography Creative Direction by Simplehuman Renderings by Hampton Dunlap Good taste in trash If you’re passionate about your trash bin, it’s probably a Simplehuman. Founded in 2000 by engineer Frank Yang, Simplehuman has built a mass following by using rigorous design thinking to elevate everyday objects into tools for efficient living. Engineering ethos Abbreviated Projects was invited to evolve the brand’s visual identity, designing a new logo suite and custom type family capable of performing across packaging, digital interfaces, and in-store environments, while better reflecting the engineering ethos at the heart of the company. Laser precision Inspired by Simplehuman’s approach to product development, we began by clearly defining the problem. Collaborative workshops with leadership revealed the functional requirements of the new identity: the logo needed to operate flawlessly at small scales, in digital contexts, and when etched directly into product materials. Uniting the brand On a perceptual level, the new logo also needed to resolve a longstanding issue: frequent misreadings of the brand name as two separate words, “Simple Human,” rather than a singular idea. A few pixels, a world of difference After hundreds of sketches, months of refinement, and extensive material testing — including etching studies on Simplehuman’s signature stainless steel — we arrived at a minimalist logotype that forms the foundation of the new identity system. Deceptively simple, every curve, counter, and pixel has been precisely considered to maximize clarity and performance, from rounded corner radii that engrave cleanly in steel to careful spacing that make “Simplehuman” read as one word. Reduced, reused, redesigned With the logo established, we turned our attention to typography. Drawing inspiration from DIN, the utilitarian typeface long used in industrial and infrastructural contexts, we designed a custom font that balances technical precision with a warmer, more human tone. In close collaboration with the Office for Typography in Lausanne, Switzerland, the type family was developed across two optical sizes and four weights, comprising 3,296 glyphs, including a suite of stylistic alternates for functional applications. Your trash is our treasure Today, the new logo and typeface are in use across Simplehuman’s retail spaces, packaging, and digital platforms — quietly doing their job, and making their way into kitchens, bathrooms, and offices around the world. Related Projects Ames Design Design The interior design think tank Studio Kër Design The experimental design studio led by a former NFL superstar Remedy Place Health & Wellness The endlessly innovative wellness club LET’S EVOLVE TOGETHER Abbr. Projects mimics nature on an abbreviated timeline to help brands evolve faster, compete stronger, and survive longer. Email Email Instagram Instagram Typefaces Typefaces View Project",
+      "article_text_zh": "**缩写项目**  \n**战略 9 | 设计 51 | 语言 27 | 网站 16**\n\n**为 Simplehuman 打造**  \n高性能家居品牌  \n\n**服务**  \n设计 · 团队 · 字体排印  \n\n**字体支持**  \nOffice for Typography  \n\n**创意指导**  \nSimplehuman  \n\n**渲染图**  \nHampton Dunlap  \n\n---\n\n### 垃圾桶里的好品味\n\n如果你对垃圾桶充满热情，那它很可能来自 Simplehuman。这家公司由工程师 Frank Yang 于 2000 年创立，通过严谨的设计思维将日常用品升华为高效生活的工具，积累了庞大的用户群体。\n\n### 工程精神\n\nAbbreviated Projects 受邀进化该品牌的视觉识别，设计一套全新的标志组合和定制字体家族，使其能够在包装、数字界面和店内环境中自如呈现，同时更好地体现公司核心的工程精神。\n\n### 激光级精度\n\n受 Simplehuman 产品开发方式的启发，我们首先清晰定义了问题。通过与领导层的协作研讨会，我们明确了新标识的功能需求：标志必须在小尺寸、数字环境以及直接蚀刻在产品材料上时都能完美运作。\n\n### 统一品牌\n\n在感知层面，新标志还需要解决一个长期存在的问题：品牌名称经常被误读为两个独立的词“Simple Human”，而非一个整体概念。\n\n### 几个像素，天壤之别\n\n经过数百张草图、数月的打磨以及大量的材料测试——包括在 Simplehuman 标志性不锈钢上的蚀刻研究——我们最终确定了一款极简的字体标志，构成了新识别系统的基础。看似简单，但每一条曲线、每一个字怀、每一个像素都经过精确考量，以最大化清晰度和性能——从能在钢材上干净雕刻的圆角半径，到让“Simplehuman”读作一个词的精心间距。\n\n### 减少、复用、重新设计\n\n标志确立后，我们将注意力转向字体排印。从 DIN 字体（一种长期用于工业和基础设施领域的实用字体）中汲取灵感，我们设计了一款定制字体，在技术精度与更温暖、更人性化的基调之间取得平衡。通过与瑞士洛桑的 Office for Typography 紧密合作，该字体家族开发了两个光学尺寸和四种字重，共包含 3,296 个字形，并配备了一套用于功能应用场景的风格替代字符。\n\n### 你的垃圾，我们的珍宝\n\n如今，新标志和字体已应用于 Simplehuman 的零售空间、包装和数字平台——它们安静地履行着自己的职责，并逐渐走进世界各地的厨房、浴室和办公室。\n\n---\n\n### 相关项目\n\n**Ames Design**  \n设计  \n室内设计智库  \n\n**Studio Kër**  \n设计  \n由前 NFL 巨星领导的实验性设计工作室  \n\n**Remedy Place**  \n健康与保健  \n不断创新的健康俱乐部  \n\n---\n\n**让我们共同进化**\n\nAbbr. Projects 在缩短的时间线上模拟自然，帮助品牌更快进化、更强竞争、更久生存。\n\n[Email](mailto:) [Instagram](https://instagram.com)  \n[Typefaces](https://typefaces.com) [View Project](https://viewproject.com)",
+      "article_text_zh_hash": "f97df9d6b190cd89",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Simplehuman | Abbr. Projects",
       "category": "Design",
       "cleaner_v": 2,
@@ -284,6 +326,9 @@
         }
       ],
       "title": "Simplehuman | Abbr. Projects",
+      "title_zh": "Simplehuman | 缩写 项目",
+      "title_zh_hash": "da213a1d9798a808",
+      "title_zh_translator_v": 2,
       "url": "https://www.abbrprojects.com/projects/simplehuman",
       "x_status_id": null
     },

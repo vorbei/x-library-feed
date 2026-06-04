@@ -55,6 +55,9 @@
         "bookmark@chumsdock"
       ],
       "text": "langchain create_agent is a super minimal agent harness\n\nvery easy to customize with... middleware!!!\n\nas you build task-specific harnesses, great to know - check it out below!",
+      "text_zh": "`langchain create_agent` 是一个极简的 agent 框架\n\n非常容易通过...中间件进行定制！！！\n\n在构建特定任务的框架时，了解这一点很有帮助——详情如下！",
+      "text_zh_hash": "4a119ffdcc8195c3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hwchase17/status/2062226357522743484"
     },
     {
@@ -281,6 +284,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I open-sourced a repo I build for myself.\n\nDefine your agents and subagents once as folders (skills/, .mcp.json, agent.md, shared)\n\nDeploy on GitHub merge or with:\nagentlift deploy ./managed-agents --target anthropic,google https://t.co/xv6qSsieaZ",
+      "text_zh": "我开源了一个为自己构建的仓库。\n\n只需一次定义你的智能体和子智能体，以文件夹形式组织（skills/、.mcp.json、agent.md、shared）\n\n在 GitHub 合并时部署，或使用以下命令：\nagentlift deploy ./managed-agents --target anthropic,google https://t.co/xv6qSsieaZ",
+      "text_zh_hash": "58e4a4293536f0e1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2062244953808335343"
     },
     {
