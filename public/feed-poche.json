@@ -2152,20 +2152,20 @@
       "x_status_id": "2060064810633482580"
     },
     {
-      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_fetch_attempted_at": "2026-06-04T19:03:45.837479Z",
       "article_image_urls": [
-        "https://plasma.org/og/home.png",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fplasma-one%2Fapp-icon.jpg&w=3840&q=75&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Fhero-poster-desktop.webp&w=3840&q=100&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fhero%2Fhero-poster-mobile.webp&w=3840&q=90&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
+        "https://www.plasma.org/og/home.png",
+        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
         "https://images.ctfassets.net/e3bb5qlfujad/home-v2-plasma-one-logo-white/f771f286cc0bec165f36751fbcf84a95/logo-white.svg",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_BhjgJEwQEQ9h8dbw3PAbc5Jipgub",
-        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-card-workflow-virtual-poster/63d89973408998f39d4d2095e2f8000b/virtual-state.png",
-        "https://images.ctfassets.net/e3bb5qlfujad/home-v2-card-workflow-physical-poster/d1a94a808e1710320d6a60d9341346a0/physical-state.png"
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_FLrKVQbo2qH7mfurMe33CddWEoDB",
+        "https://www.plasma.org/images/home-v2/partners/partner-card-ramp-hires.png",
+        "https://www.plasma.org/images/home-v2/partners/partner-card-zerohash-hires.png"
       ],
       "article_title_extracted": "Plasma | Stablecoin account for spending, saving and earning",
       "category": "Crypto",
@@ -2203,7 +2203,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_fetch_attempted_at": "2026-06-04T19:03:45.837479Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PuC0FeJifmiJ3EVZH8Jdk548nuM.png",
         "https://framerusercontent.com/images/S4DA3EpL3XKG7vz6fwvwhMwM.png?width=2121&height=794",
@@ -2347,13 +2347,14 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-28T16:42:34.127327Z",
+      "article_fetch_attempted_at": "2026-06-04T19:03:45.837479Z",
       "article_image_urls": [
         "https://datacurve.ai/og/default.jpg",
         "https://datacurve.ai/Datacurve-Wordmark.svg",
-        "https://datacurve.ai/images/footer-brain.png",
-        "https://datacurve.ai/images/footer-head.png",
-        "https://datacurve.ai/images/footer-chip.png"
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-brain.png&w=3840&q=75&dpl=dpl_BhVNuTZV1X6Wo71gJAyLrP1bgqK9",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-head.png&w=3840&q=75&dpl=dpl_BhVNuTZV1X6Wo71gJAyLrP1bgqK9",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-datacenter.png&w=3840&q=75&dpl=dpl_BhVNuTZV1X6Wo71gJAyLrP1bgqK9",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-chip.png&w=3840&q=75&dpl=dpl_BhVNuTZV1X6Wo71gJAyLrP1bgqK9"
       ],
       "article_title_extracted": "Datacurve | The data engine for frontier AI",
       "category": "Development",
@@ -99007,5 +99008,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-04T16:04:28.568307Z"
+  "updated_at": "2026-06-04T19:03:47.699048Z"
 }
