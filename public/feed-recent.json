@@ -4353,6 +4353,19 @@
       "title": "",
       "url": "http://x.com/i/article/2059619783151374336"
     },
+    "http://x.com/i/article/2059627968872280065": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2059627968872280065",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2059627968872280065"
+    },
     "http://x.com/i/article/2059630823029325825": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4448,6 +4461,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059654105816051715"
+    },
+    "http://x.com/i/article/2059705598988701696": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059705598988701696",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059705598988701696/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ85U4SawAABewH?format=jpg&name=900x900)](http://x.com/i/article/2059705598988701696/vijayiyengar/article/2062429159545303409/media/2062430185228779520)\n\nCustomer-facing agents are a different beast\n\n[![](https://pbs.twimg.com/profile_images/2047058151942615040/t0bdNbNc_normal.jpg)](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[Vijay Iyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n[@vijayiyengar](http://x.com/i/article/2059705598988701696/vijayiyengar)\n\n·\n\n3h\n\n·\n\nFollow\n\nClick to Follow vijayiyengar\n\n2\n\n7\n\n[598](http://x.com/i/article/2059705598988701696/vijayiyengar/status/2062429159545303409/analytics)\n\nI sometimes get asked \"Why is Sierra building an agent platform? Can't you just use Claude Code or Codex as your agent?\"\n\nThe answer is that Codex and Claude are fantastic coding agents. But what our customers need, and what Sierra is building, is a platform for building customer-facing agents.\n\nLet's dive in.\n\n# \n\nBack-office vs front-office\n\nMost AI agent discourse is focused on the back-office; ie: agents that talk to your employees and perform coding, analytics, finance, and knowledge work tasks. Codex and Claude in particular have taken off for this use case, and are investing heavily here.\n\nBut the front-office, ie: agents that talk to your customers, are arguably more important. As Peter Drucker says in \n\n[The Effective Executive](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials-ebook/dp/B01F1WZGNC)\n\n:\n\n> The single most important thing to remember about any enterprise is that results exist only on the outside. The result of a business is a satisfied customer. ...Inside an enterprise there are only costs.\n\nCustomer-facing agents are the front-office. They help businesses serve their customers. They can pick up on a 1-800 number at all hours of the day, speak any language, and never put you on hold. They can power search and discovery for a travel booking experience (travel agents are back!). They can handle handle complex, multi-step workflows like filing an insurance claim or applying for a mortgage.\n\nThis means a better experience for customers (no being put on hold or re-explaining yourself), better retention, and lower cost for businesses. AI is the obvious enabler of this.\n\n# \n\nWhat makes customer-facing agents hard?\n\nAgents are just \n\n[LLMs calling tools in a loop](https://simonwillison.net/2025/May/22/tools-in-a-loop/)\n\n. Codex and Claude are great agent harnesses. Why not use them to build front-office agents?\n\nLet's unpack what makes customer-facing agents different, and hard.\n\n## \n\nVoice-first, not text-first\n\nMost back-office work happens over text in a computer. This is the modality that Claude and Codex have optimized for (indeed: Anthropic doesn't have a voice model at all yet).\n\nMost customer service happens over the phone, so voice is table stakes. The voice modality brings a number of challenges that coding agents don't have to consider:\n\n1. Turn detection: There's no concept of a discrete turn, so you have to determine when the user is done talking. Does \"um\" mean there's more or is the user done?\n2. Interrupts: Was the user just clearing their throat or did they have more to say? Did them yelling \"don't touch that!\" to their dog mean the agent should stop what it's doing?\n3. Progress: When coding agents take time, they can show you reasoning and tool calls inline. How do you \"show\" progress conversationally over audio in a realistic w",
+      "title": "",
+      "url": "http://x.com/i/article/2059705598988701696"
     },
     "http://x.com/i/article/2059732424905666560": {
       "cleaner_v": 2,
@@ -5304,6 +5330,32 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2062125489721102336"
+    },
+    "http://x.com/i/article/2062179059736391681": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2062179059736391681",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062179059736391681"
+    },
+    "http://x.com/i/article/2062196865714536448": {
+      "cf_fallback_error": "TimeoutError: The read operation timed out",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2062196865714536448",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062196865714536448"
     },
     "http://x.com/i/article/2062217540411994112": {
       "cleaner_v": 2,
@@ -6347,6 +6399,32 @@
       "text_excerpt_zh": "",
       "title": "pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma",
       "url": "https://bit.ly/side-div5"
+    },
+    "https://blog.bytebytego.com/p/how-openai-built-its-data-agent": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The hardest part of data analysis isn’t writing SQL. It’s finding the right tables to use in the first place and understanding semantically how to use data.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!bcMJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c12a1d2-c330-4c2f-84c1-186b06a7b200_1585x2048.png",
+        "https://substackcdn.com/image/fetch/$s_!wcEr!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fbytebytego.substack.com%2Fapi%2Fv1%2Fpost_preview%2F200335519%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!1eXV!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8a5609ae-1239-4400-9491-6010a15c4d60_504x504.png",
+        "https://substackcdn.com/image/fetch/$s_!U1Ej!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9941c68-e5b7-4b93-be75-df7cc4ffef02_504x540.png",
+        "https://substackcdn.com/image/fetch/$s_!25Oz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F143f795a-d166-4805-8909-4ccba1c6cccb_2048x1075.png",
+        "https://substackcdn.com/image/fetch/$s_!bcMJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c12a1d2-c330-4c2f-84c1-186b06a7b200_1585x2048.png",
+        "https://substackcdn.com/image/fetch/$s_!jmI_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F389d1a60-b369-4a66-a1a4-bfda04bc152f_2048x1073.png",
+        "https://substackcdn.com/image/fetch/$s_!n00Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3a5b7c2-1fe0-4f5d-aa8e-61d372b1374a_2048x973.png",
+        "https://substackcdn.com/image/fetch/$s_!SojY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e8b25f8-0471-41d1-b2e1-06f156b6c6b4_2048x1236.png",
+        "https://substackcdn.com/image/fetch/$s_!83WQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb14361e2-cf6e-46a7-93c9-74fcff90ea30_2048x1058.png",
+        "https://substackcdn.com/image/fetch/$s_!dbZ-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fef97db-73ac-4015-87b3-4326ea5a86a4_2048x1401.png",
+        "https://substackcdn.com/image/fetch/$s_!BKUw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4575cb38-5fb8-4847-96e9-018963d8e25f_2048x1212.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "How OpenAI Built Its Data Agent\n[GitLab Transcend is next week. Built for engineers. Free to attend. Don’t miss it. (Sponsored)](https://go.bytebytego.com/GitLab_060326)\nNew research. New announcements. A new chapter for GitLab.\nOn June 10, GitLab Transcend streams live from London — and engineers get a first look at GitLab 19 and Duo Agent Platform advancements before anyone else.\nIncluding a live demo of GitLab Orbit: a knowledge graph across your entire SDLC so your agents know your pipelines, your security backlog, and what shipped last week. Not just your repo.\nVirtual, free, and just days away.\nOpenAI’s data platform stores 1.5 exabytes across 90,000 datasets and serves ~4,000 internal users as of May 2026. The team has scaled the platform through enormous growth in the last two years. At this scale, the hardest part of data analysis isn’t writing SQL. It’s finding the right tables to use in the first place and understanding semantically how to use data. Many tables look similar but mean different things. What’s the grain of each table? How do you join them against other data? Analysts can spend hours figuring out which tables to use and how to use them before writing a single line of code.\nLast year, OpenAI’s data platform team built an in-house agent to fix that. The agent is, in their own words, “pretty vanilla”, yet it works reliably across the entire ecosystem. And the same investment in Codex that powers the agent has let the team do things most companies consider impossible, like migrating thousands of DAGs, 90,000 tables and 600 petabytes between clouds in two months.\nWe spoke with [Emma Tang](https://www.linkedin.com/in/emmaytang/), Head of Data Platform Engineering at OpenAI, about how the agent works, why a simple architecture is enough at this scale due to strong data infrastructure foundations, the lessons for other teams, and where the platform is headed next. Thanks to Emma for taking the time to share the team’s work in detail.\nIn this article, you’ll learn:\nThe architecture behind OpenAI’s data agent, and why “vanilla” is the point.\nThe six layers of context that turn a single LLM into a reliable analyst across 90,000 tables.\nHow a question becomes a verified answer in three steps.\nThree real Codex use cases inside OpenAI: a 10,000 DAG, 90,000-table cross-cloud migration, hands-off open-source patching, and automated support triage.\nFive practical lessons for any team building a domain agent, and where OpenAI’s data platform is headed next.\nHow the Data Agent Works\nTo understand the agent, we will look at three things: what users experience when they ask a question, what architecture supports that experience, and how a request moves through the agent until it returns a verified answer.\nThe User Experience: Ask in Plain English\nImagine an engineer or marketer at OpenAI who needs a quick answer. They open Slack and ask their questions in plain English. Moments later, the agent replies with its answer, the SQL it ran, and the tables it pulled from. That’s OpenAI’s data agent.\nThe agent sits across the entire data platform and answers questions in natural language. A user can ask in Slack, in a web portal, in their IDE, or in the Codex CLI through MCP. The agent figures out which tables are relevant, writes SQL, runs it, checks the result, and returns the answer with its reasoning attached.\nDoing all of this reliably across 90,000 tables sounds like it would need a complex system. The team’s approach is the opposite of what most people expect. The agent itself is simple. The reliability comes from the engineering around it: careful data acquisition that gives the agent the right context before it ever sees a question. The next sections look at how the agent is built to get that context right.\nThe Architecture: Simple by Design\nOpenAI’s architecture is intentionally simple. Before diving deeper into the architecture, it helps to first understand the basic patterns behind agentic systems.\nThe basic pattern beh",
+      "title": "How OpenAI Built Its Data Agent - ByteByteGo Newsletter",
+      "url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
     },
     "https://blog.google/innovation-and-ai/products/ai-tips-2025/": {
       "cleaner_v": 2,
@@ -12871,6 +12949,24 @@
       "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.",
       "url": "https://heroui.com/"
     },
+    "https://hex.tech/blog/hex-in-codex/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Starting today, you can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects.",
+      "final_url": "https://hex.tech/blog/hex-in-codex/",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/e92memrj/production/d6deebc0ece89c69be7ab088e2f5c580c01379fa-2400x1260.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/e92memrj/production/a4cb90eb44baed2538803440badfa7bc4e031f81-1680x1020.jpg?w=1680&auto=format",
+        "https://cdn.sanity.io/images/e92memrj/production/77857a91378bfe250289aab156d07298e7e12bd7-1680x1020.jpg?w=800&auto=format",
+        "https://cdn.sanity.io/images/e92memrj/production/3e41729c8725af079576bef2e5c5d94fa880f0ce-1680x1020.png?w=800&auto=format",
+        "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" 📊 AI analytics use case: how Mercor unlocked $100M in revenue 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt 📖 State of Data Teams 2026 discover key insights from data leaders 🙏 It's just \"Hex\"! Not \"HEX\" or \"Hex dot tech\" Blog Hex is now in Codex You can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects. Claire Carroll Product Data June 2, 2026 Share: In this article Hex and Codex, better together What you can do Get started for free A lot of people are asking which tools should be used for AI analytics. There are a lot of them out there! Coding agents, productivity tools, fancy new BI tools. At Hex, we want you to be able to analyze data from wherever you do your job. And we’re working hard on building our leading analytics agents and our unique approach to context into the places our customers are working. Today, we’re excited to be part of Open AI’s launch for Codex plugins . You can bring Hex directly into Codex to run analyses, pull in existing work, and spin up new projects. You can kick off analysis, pull in Hex projects, and even create cells using our new Codex integration There are a few ways you can take advantage of this new integration. Kick off Hex analysis from Codex The most direct path: ask Codex to run an analytics task and Hex handles the execution. Need to understand churn by segment? Dig into pipeline performance? Get a read on product usage trends? Codex can invoke Hex to pull the data, run analysis, and return results without switching tabs. Pull Hex Threads into Codex If you've already done analytical work in Hex, you shouldn't have to redo it just to reference it elsewhere. The MCP connection lets Codex pull in existing Hex threads as context, so when you're doing analysis, writing a report, or prepping for a meeting, your prior work in Hex is right there. Control Hex programmatically using the CLI For more specific, structured tasks - such as creating projects, adding cells, or configuring analysis - the CLI connection gives Codex a more precise in",
+      "title": "Hex is now in Codex | Hex",
+      "url": "https://hex.tech/blog/hex-in-codex/"
+    },
     "https://hrescak.com/notes/transcribe-to-markdown-skill": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -19093,6 +19189,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062351611062808576/img/fElOw8elA9xChJAh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062351611062808576/img/fElOw8elA9xChJAh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062351611062808576/img/fElOw8elA9xChJAh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062351611062808576/img/fElOw8elA9xChJAh.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062433600717639680/img/bqxkiyowSmTQNnez.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062433600717639680/img/bqxkiyowSmTQNnez.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062433600717639680/img/bqxkiyowSmTQNnez.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062433600717639680/img/bqxkiyowSmTQNnez.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -30589,6 +30741,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://www.patreon.com/NeuralBreakdownwithAVB"
+    },
+    "https://www.perplexity.ai/enterprise/use-cases/growing-businesses": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://www.perplexity.ai/enterprise/use-cases/growing-businesses"
     },
     "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine": {
       "cleaner_v": 2,
@@ -43025,7 +43191,9 @@
     "2061816210283749876": [
       "https://x.com/tualatrix/status/2061816210283749876",
       "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
-      "https://x.com/tualatrix/status/2061826203707981887"
+      "https://x.com/tualatrix/status/2061826203707981887",
+      "https://x.com/tualatrix/status/2062351735361024190",
+      "https://pbs.twimg.com/amplify_video_thumb/2062351611062808576/img/fElOw8elA9xChJAh.jpg"
     ],
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
@@ -43068,8 +43236,8 @@
       "https://x.com/AlphaSignalAI/status/2061856932097384803",
       "https://arxiv.org/abs/2605.05242",
       "https://arxiv.org/abs/2605.29307v1",
-      "https://x.com/AlphaSignalAI/status/2062163858182328424",
-      "http://x.com/i/article/2062125489721102336"
+      "https://x.com/AlphaSignalAI/status/2062142765916422365",
+      "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg"
     ],
     "2061860170846843233": [
       "https://x.com/tricalt/status/2061860170846843233",
@@ -43133,13 +43301,13 @@
       "https://x.com/kylejeong/status/2061882958651474268",
       "http://x.com/i/article/2061630624428163072",
       "https://x.com/kylejeong/status/2061904814813155612",
-      "https://x.com/kylejeong/status/2062407478974030000",
       "https://x.com/kylejeong/status/2061888639387467957",
-      "https://x.com/kylejeong/status/2061897351653101679",
-      "https://x.com/kylejeong/status/2061914499062637000",
+      "https://x.com/kylejeong/status/2062407478974030000",
       "https://x.com/kylejeong/status/2061925642623750223",
-      "https://x.com/kylejeong/status/2061931769394569624",
       "https://x.com/kylejeong/status/2061904958912684135",
+      "https://x.com/kylejeong/status/2061931769394569624",
+      "https://x.com/kylejeong/status/2061914499062637000",
+      "https://x.com/kylejeong/status/2061897351653101679",
       "https://x.com/kylejeong/status/2061911136451326245",
       "https://x.com/kylejeong/status/2061905643527893120",
       "https://x.com/kylejeong/status/2061890824087171317"
@@ -43233,11 +43401,23 @@
       "https://meodai.github.io/heerich/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
+    "2062185564871295459": [
+      "https://x.com/polydao/status/2062185564871295459",
+      "http://x.com/i/article/2062179059736391681",
+      "https://x.com/polydao/status/2062319550444499167",
+      "https://x.com/polydao/status/2062319377811124480",
+      "https://x.com/polydao/status/2062319316347801923",
+      "https://x.com/polydao/status/2062319433939406875",
+      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062319145262158327",
+      "https://x.com/polydao/status/2062319504579858823",
+      "https://x.com/polydao/status/2062188839976706474"
+    ],
     "2062187947084968106": [
       "https://x.com/_smontlouis/status/2062187947084968106",
       "https://x.com/_smontlouis/status/2062265021787201718",
-      "https://x.com/_smontlouis/status/2062261279507505242",
-      "https://x.com/_smontlouis/status/2062214139309650167"
+      "https://x.com/_smontlouis/status/2062214139309650167",
+      "https://x.com/_smontlouis/status/2062261279507505242"
     ],
     "2062196598441177376": [
       "https://x.com/elliotchen100/status/2062196598441177376"
@@ -43248,6 +43428,11 @@
       "https://x.com/ericzakariasson/status/2062201109096357896",
       "https://x.com/ericzakariasson/status/2062204238596653283"
     ],
+    "2062199316031156709": [
+      "https://x.com/zaimiri/status/2062199316031156709",
+      "http://x.com/i/article/2062196865714536448",
+      "https://x.com/zaimiri/status/2062225157775556996"
+    ],
     "2062203743387459836": [
       "https://x.com/delba_oliveira/status/2062203743387459836",
       "http://x.com/i/article/2060308122531418112"
@@ -43256,6 +43441,11 @@
       "https://x.com/SidebarIO/status/2062212979282608233",
       "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526?ref=sidebar",
       "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
+    ],
+    "2062221423104704753": [
+      "https://x.com/perplexity_ai/status/2062221423104704753",
+      "https://www.perplexity.ai/enterprise/use-cases/growing-businesses",
+      "https://pbs.twimg.com/amplify_video_thumb/2062221346072051713/img/hs10vv04Q9oB5vDq.jpg"
     ],
     "2062222541654003885": [
       "https://x.com/SidebarIO/status/2062222541654003885",
@@ -43276,16 +43466,15 @@
     "2062233330196926720": [
       "https://x.com/aparnadhinak/status/2062233330196926720",
       "http://x.com/i/article/2062229784009256960",
-      "https://x.com/aparnadhinak/status/2062280622937370649",
-      "https://x.com/aparnadhinak/status/2062255521990852980"
+      "https://x.com/aparnadhinak/status/2062255521990852980",
+      "https://x.com/aparnadhinak/status/2062280622937370649"
     ],
     "2062244953808335343": [
       "https://x.com/PawelHuryn/status/2062244953808335343",
       "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
       "https://x.com/PawelHuryn/status/2062295015653834794",
       "https://x.com/PawelHuryn/status/2062247245072998702",
-      "https://x.com/PawelHuryn/status/2062330152239919333",
-      "https://x.com/PawelHuryn/status/2062177479339499806"
+      "https://x.com/PawelHuryn/status/2062330152239919333"
     ],
     "2062247077833310623": [
       "https://x.com/CopilotKit/status/2062247077833310623"
@@ -43302,12 +43491,24 @@
       "https://x.com/ClaudeDevs/status/2062274312363770064",
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
+    "2062301065312407891": [
+      "https://x.com/DeRonin_/status/2062301065312407891",
+      "http://x.com/i/article/2059627968872280065",
+      "https://x.com/DeRonin_/status/2062302332474335385",
+      "https://x.com/DeRonin_/status/2062438584917836167"
+    ],
+    "2062337332309839985": [
+      "https://x.com/jxnlco/status/2062337332309839985",
+      "https://blog.bytebytego.com/p/how-openai-built-its-data-agent",
+      "https://x.com/jxnlco/status/2062398710827597927",
+      "https://hex.tech/blog/hex-in-codex/"
+    ],
     "2062345653079224458": [
       "https://x.com/yanhua1010/status/2062345653079224458",
       "http://x.com/i/article/2060567536543182848",
       "https://x.com/yanhua1010/status/2062356971169444241",
-      "https://x.com/yanhua1010/status/2062390692849295424",
-      "https://x.com/yanhua1010/status/2062390639887814754"
+      "https://x.com/yanhua1010/status/2062390639887814754",
+      "https://x.com/yanhua1010/status/2062390692849295424"
     ],
     "2062380163338535064": [
       "https://x.com/libapi_/status/2062380163338535064",
@@ -43317,9 +43518,25 @@
       "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
       "https://x.com/libapi_/status/2062382540036739153",
       "https://x.com/libapi_/status/2062382239963558020",
-      "https://x.com/libapi_/status/2062403411677700336"
+      "https://x.com/libapi_/status/2062403411677700336",
+      "https://x.com/libapi_/status/2062434126909825275",
+      "https://pbs.twimg.com/amplify_video_thumb/2062433600717639680/img/bqxkiyowSmTQNnez.jpg"
+    ],
+    "2062418054831554666": [
+      "https://x.com/IBuzovskyi/status/2062418054831554666",
+      "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
+      "https://x.com/IBuzovskyi/status/2062427739659895262",
+      "https://x.com/IBuzovskyi/status/2062468232728965377",
+      "https://x.com/IBuzovskyi/status/2062477205951676692",
+      "https://x.com/IBuzovskyi/status/2062470043997245699",
+      "https://x.com/IBuzovskyi/status/2062443797171118534",
+      "https://x.com/IBuzovskyi/status/2062430940949799189"
+    ],
+    "2062429159545303409": [
+      "https://x.com/vijayiyengar/status/2062429159545303409",
+      "http://x.com/i/article/2059705598988701696"
     ]
   },
-  "updated_at": "2026-06-04T06:56:42Z",
+  "updated_at": "2026-06-04T10:45:00Z",
   "window": "recent"
 }
