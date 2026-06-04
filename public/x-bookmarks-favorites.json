@@ -68,6 +68,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The Speed of Prototyping in the Age of AI https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar https://t.co/R4bcRQMIEb",
+      "text_zh": "# AI时代的原型设计速度\n\nhttps://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar\n\nhttps://t.co/R4bcRQMIEb",
+      "text_zh_hash": "f001aca08332e83d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2062549448274628846"
     },
     {
@@ -152,6 +155,9 @@
         "bookmark@chumsdock"
       ],
       "text": "A complete breakdown on how to make your agentic workflows 100x + cheaper: 👇 https://t.co/ZVetlflB7s",
+      "text_zh": "关于如何将你的智能体工作流成本降低100倍以上的完整解析：👇 https://t.co/ZVetlflB7s",
+      "text_zh_hash": "5dfdd25dff8b2577",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hooeem/status/2062443798647517197"
     },
     {
@@ -192,6 +198,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Anthropic runs hundreds of claude code skills internally\n\nthey just published everything they learned\n\nthe biggest misconception people have: skills are \"just markdown files\"\n\nthey're not. they're folders. that means scripts, assets, reference code, data, templates all discoverable by the agent\n\nand they've found 9 categories that actually matter:\n\nlibrary docs, verification, data analysis, process automation, scaffolding, code review, ci/cd, runbooks, infrastructure ops\n\nthe best skills fit cleanly into one category. the ones that try to do everything confuse the model\n\nthree things that move the needle most:\n\n1. the gotchas section failure patterns you've actually hit, written down. highest signal content in any skill.\n\n2. progressive disclosure point claude to other files. it will read them when relevant. don't dump everything in one markdown wall.\n\n3. descriptions written for the model claude scans skill descriptions to decide what to trigger. write it like a trigger condition, not a readme.\n\nalso: verification skills have the most measurable impact on output quality. worth dedicating an engineer for a week just to get them right.\n\nskills start as a few lines and get better as you hit new edge cases. that's the whole lifecycle\n\nhttps://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "text_zh": "Anthropic 内部运行着数百个 Claude Code 技能\n\n他们刚刚公开了所有学到的经验\n\n人们最大的误解是：技能\"只是 Markdown 文件\"\n\n其实不是。它们是文件夹。这意味着脚本、资源、参考代码、数据、模板都能被 agent 发现\n\n他们发现了 9 个真正重要的类别：\n\n库文档、验证、数据分析、流程自动化、脚手架搭建、代码审查、CI/CD、操作手册、基础设施运维\n\n最好的技能能干净地归入一个类别。那些试图面面俱到的技能反而会让模型困惑\n\n最能带来成效的三件事：\n\n1. **陷阱部分**——把你实际踩过的失败模式写下来。这是任何技能中信号价值最高的内容。\n\n2. **渐进式披露**——将 Claude 指向其他文件。它会在相关时读取它们。不要把一切都塞进一个 Markdown 墙里。\n\n3. **为模型编写的描述**——Claude 会扫描技能描述来决定触发什么。要像触发条件那样写，而不是像 README。\n\n另外：**验证类技能**对输出质量的影响最可衡量。值得专门投入一名工程师花一周时间把它们做好。\n\n技能从几行代码开始，随着你遇到新的边缘情况而不断改进。这就是完整的生命周期。\n\nhttps://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "text_zh_hash": "c10d20aa07d6947e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_vmlops/status/2062428035559616604"
     },
     {
