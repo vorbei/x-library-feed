@@ -1555,32 +1555,6 @@
       "title": "Redirecting to: https://littlemight.com/",
       "url": "http://founder.codes"
     },
-    "http://github.com/CopilotKit/CopilotKit/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol - CopilotKit/CopilotKit",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/CopilotKit/CopilotKit/",
-      "frameable": false,
-      "image_urls": [
-        "https://repository-images.githubusercontent.com/655515393/3299a492-753a-4726-ad71-ea5d268c6e79",
-        "https://private-user-images.githubusercontent.com/66887028/542395772-779de607-2b8d-4751-872b-1243e97c7d18.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDIzOTU3NzItNzc5ZGU2MDctMmI4ZC00NzUxLTg3MmItMTI0M2U5N2M3ZDE4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzMmYwZDVkZTBiMjBlNGQ4M2NlYTJiNjQzNWRiMDJkMmEzNDVhMGQ5Yzc0MjU1OTcyMzVlYmU2NjVkZWMyZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.jSBEq_prT7H5yvwSSP-osV8eb_Tm6LoRPcqCU-fnJ6s",
-        "https://private-user-images.githubusercontent.com/66887028/531044097-aeb56c28-c766-44a5-810c-5d999bb6a32a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81MzEwNDQwOTctYWViNTZjMjgtYzc2Ni00NGE1LTgxMGMtNWQ5OTliYjZhMzJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIzODMxNDA0MGIwNTI4NGViZGNhOGNiODg3ZjFlODQwNDA1YjQ4NGZhOTRjYWY1YmI1Zjc1NzlkNjJiYWVjZjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.DoT2E2E604RXRdEO080YDa5rpD_yygSHLlGyBeUmmwk",
-        "https://camo.githubusercontent.com/b70f9747f6bb884a727b598896f7bf8c360b0403318cdabc35466c87ce2b5053/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f253430636f70696c6f746b697425324672656163742d636f72653f6c6f676f3d6e706d266c6f676f436f6c6f723d253233464646464646266c6162656c3d56657273696f6e26636f6c6f723d253233363936336666",
-        "https://github.com/CopilotKit/CopilotKit/raw/main/assets/license-badge.svg",
-        "https://camo.githubusercontent.com/91ed4c9856b9b212b6f0ecccf0828a3ebc2cce998f4a6e3619aa7a2c075c333e/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313132323932363035373634313734323431383f6c6f676f3d646973636f7264266c6f676f436f6c6f723d253233464646464646266c6162656c3d446973636f726426636f6c6f723d253233363936336666",
-        "https://camo.githubusercontent.com/7fce1d77184b5121b9701a4b7b9d1935f0219c1e7a696d3eb7aace80a7bf2480/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f35373330",
-        "https://camo.githubusercontent.com/62aff0461f81a88690ee28164a69e532f62f532794699c43d7c73c872a4d5b87/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f746f702d706f73742d62616467652e7376673f706f73745f69643d343238373738267468656d653d6c6967687426706572696f643d6461696c79",
-        "https://private-user-images.githubusercontent.com/66887028/545840497-6f175d86-bd22-4c26-a13a-6013654ed542.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDU4NDA0OTctNmYxNzVkODYtYmQyMi00YzI2LWExM2EtNjAxMzY1NGVkNTQyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhNDc0MmMyMTQ0NTZlYjEzNzMyYzFjNWQ1OWNmOTljY2U0N2Q1ZjE5YjRhOThjYzA5NGVmMDI0OTllZTc4YjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.hjsWiocBOw39rjjYQZfdOa6rUpNn7BxrrsNz5pHHkMk",
-        "https://private-user-images.githubusercontent.com/66887028/541395688-962f49c2-31ea-43c5-b2a3-7cdde114705a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDEzOTU2ODgtOTYyZjQ5YzItMzFlYS00M2M1LWIyYTMtN2NkZGUxMTQ3MDVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3NWUzZjYxODdjZWZkMTE0MDk1MGU3YmU2YTk3MWNmZTAwNjY0ZDQ1NjliNzgzNDA3MzFjNzMyNDY1YWM5ZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9._cNi9mmAFiVbmITktQDvfY4A8iQ1JkOMw98DIz2rWP8",
-        "https://private-user-images.githubusercontent.com/66887028/545966062-a625237a-cfc1-45fc-8d0c-637316b81291.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDU5NjYwNjItYTYyNTIzN2EtY2ZjMS00NWZjLThkMGMtNjM3MzE2YjgxMjkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY4MjJkMWFmODNjNmRlM2RkNzI0MTllNzE2Zjg4MThjMDRjYjg4YjY3N2E3MGZiM2MwODc2MTM3ODk3Y2UwZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.mMqF2KhmGlQ2Pcal0DKj9ByBrWlwSs732Zo234xxhJI",
-        "https://avatars.githubusercontent.com/u/149120496?s=64&v=4"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - CopilotKit/CopilotKit: The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol · GitHub",
-      "url": "http://github.com/CopilotKit/CopilotKit/"
-    },
     "http://github.com/Hmbown/DeepSeek-TUI": {
       "content_type": "text/html; charset=utf-8",
       "description": "Coding agent for DeepSeek models that runs in your terminal - Hmbown/DeepSeek-TUI",
@@ -4898,6 +4872,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060561764451008512"
     },
+    "http://x.com/i/article/2060567536543182848": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2060567536543182848",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2060567536543182848"
+    },
     "http://x.com/i/article/2060705100503379973": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5305,21 +5292,31 @@
       "title": "",
       "url": "http://x.com/i/article/2062094052170899456"
     },
-    "http://x.com/i/article/2062174494622416896": {
+    "http://x.com/i/article/2062125489721102336": {
+      "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2062125489721102336",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062125489721102336"
+    },
+    "http://x.com/i/article/2062217540411994112": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062174494622416896",
+      "final_url": "http://x.com/i/article/2062217540411994112",
       "frameable": false,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062174494622416896/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ5RPsvWUAEgwnW?format=png&name=900x900)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175009531908097)\n\nHow to Build a Custom Agent Harness\n\n[![](https://pbs.twimg.com/profile_images/1955622250629021696/WOrOq2Mw_normal.jpg)](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n[Sydney Runkle![](https://pbs.twimg.com/profile_images/2028336270431453184/jRRpLAdG_bigger.jpg)](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n[@sydneyrunkle](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n·\n\n8h\n\nFollow\n\nClick to Follow sydneyrunkle\n\n8\n\n47\n\n295\n\n[36K](http://x.com/i/article/2062174494622416896/sydneyrunkle/status/2062217190724579673/analytics)\n\nBuilding useful agents is largely about customization: connecting your agent to the right context, data, and environment(s) for the task at hand.\n\nAt its core, an agent is a model calling tools in a loop until it completes a task and returns a result:\n\n[![Image](https://pbs.twimg.com/media/HJ5Rj2pWoAANC33?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175355788500992)\n\nYou can also define an agent as:\n\n> agent = model + harness\n\nThe harness is the scaffolding around the model that connects it to the real world.\n\n[![Image](https://pbs.twimg.com/media/HJ5RmVHXQAABHo3?format=jpg&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175398327173120)\n\nThe remainder of this post assumes the following:\n\n1. An agent is only as good as the context provided to the model\n2. The job of a harness is to provide context to the model at every step\n\nSo, to build a useful agent, you need a harness that’s great at delivering the right context for the given task to the model.\n\n# \n\nThe base harness\n\ncreate\\_agent is LangChain's primitive for building a harness. Pass in a model, tools, and a system prompt, and you have a working agent:\n\npython\n\n```python\nfrom langchain.agents import create_agent\n\nagent = create_agent(\n    model=\"anthropic:claude-sonnet-4-6\",\n    tools=tools,\n    system_prompt=\"you are a helpful assistant...\"\n)\n```\n\nHarnesses like \n\n[Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)\n\n and the \n\n[Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)\n\n come pre-assembled with an opinionated middleware (explained below) stack: memory, context management, sandboxing, and more. They're designed to get you to a production-ready agent fast, and they work well for most cases. But many agents need finer grained customization than these harnesses support: custom prompting, business logic, guardrails, etc.\n\n\\`create\\_agent\\` takes a different approach: it’s purposefully minimalistic. Our philosophy is similar to that of \n\n[Pi](https://pi.dev/)\n\n, a highly configurable coding agent harness. create\\_agent just implements the core agent loop, and it exposes middleware as a primitive for customization.\n\n# \n\nMiddleware: how you customize the harness\n\nMiddleware hooks into the agent loop at each step: before and after model calls, before and after tool calls, at agent startup and teardown. Each piece handles one concern and composes freely with any other:\n\n[![Image](https://pbs.twimg.com/media/HJ5RwvmX0AAFi_V?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175577235247104)\n\nMiddleware allows you to add capabilities to your agent via a few levers that often work together:\n\nDeterministic Logic. Business logic, policy enforcement, dynamic agent control — anything that needs to fire at a specific point in the loop. This includes runtime control over the agent itself: swapping the model based on task complexity, adjusting the prompt, and",
-      "text_excerpt_zh": "## 如何构建自定义 Agent Harness\n\n构建有用的 agent 很大程度上取决于定制化：将 agent 连接到适合当前任务的上下文、数据和环境。\n\n从核心来看，agent 是一个在循环中调用工具、直到完成任务并返回结果的模型：\n\n[![Image](https://pbs.twimg.com/media/HJ5Rj2pWoAANC33?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175355788500992)\n\n你也可以将 agent 定义为：\n\n> agent = model + harness\n\nHarness 是围绕模型的脚手架，负责将其连接到现实世界。\n\n[![Image](https://pbs.twimg.com/media/HJ5RmVHXQAABHo3?format=jpg&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175398327173120)\n\n本文剩余部分基于以下假设：\n\n1. Agent 的好坏取决于提供给模型的上下文\n2. Harness 的职责是在每一步为模型提供上下文\n\n因此，要构建一个有用的 agent，你需要一个擅长为给定任务向模型传递正确上下文的 harness。\n\n# 基础 Harness\n\n`create_agent` 是 LangChain 用于构建 harness 的原语。传入模型、工具和系统提示词，你就拥有了一个可运行的 agent：\n\npython\n\n```python\nfrom langchain.agents import create_agent\n\nagent = create_agent(\n    model=\"anthropic:claude-sonnet-4-6\",\n    tools=tools,\n    system_prompt=\"you are a helpful assistant...\"\n)\n```\n\n像 [Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview) 和 [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) 这样的 harness 预装了一套有主见的中间件（下文详述）栈：内存、上下文管理、沙箱等。它们旨在让你快速获得一个生产就绪的 agent，并且在大多数情况下表现良好。但许多 agent 需要比这些 harness 所支持的更细粒度的定制：自定义提示词、业务逻辑、护栏等。\n\n`create_agent` 采用了不同的方法：它刻意保持极简。我们的理念与 [Pi](https://pi.dev/)（一个高度可配置的编码 agent harness）类似。`create_agent` 仅实现核心 agent 循环，并将中间件作为定制化的原语暴露出来。\n\n# 中间件：如何定制 Harness\n\n中间件在 agent 循环的每一步介入：模型调用前后、工具调用前后、agent 启动和关闭时。每个中间件处理一个关注点，并可以与其他任何中间件自由组合：\n\n[![Image](https://pbs.twimg.com/media/HJ5RwvmX0AAFi_V?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175577235247104)\n\n中间件允许你通过几个通常协同工作的杠杆为 agent 添加能力：\n\n**确定性逻辑**。业务逻辑、策略执行、动态 agent 控制——任何需要在循环中特定点触发的逻辑。这包括对 agent 本身的运行时控制：根据任务复杂度切换模型、调整提示词等。",
-      "text_excerpt_zh_hash": "f6bb671699db411a",
-      "text_excerpt_zh_translator_v": 2,
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062217540411994112/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ545MEXEAAc0o3?format=jpg&name=900x900)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062218603269656576)\n\nThe AI Integration Layer Is Becoming the New Backend \n\n[![](https://pbs.twimg.com/profile_images/2054193751174598656/2HFrpykx_normal.jpg)](http://x.com/i/article/2062217540411994112/saameeey)\n\n[Samuel Umoren](http://x.com/i/article/2062217540411994112/saameeey)\n\n[@saameeey](http://x.com/i/article/2062217540411994112/saameeey)\n\n·\n\n13h\n\nFollow\n\nClick to Follow saameeey\n\n4\n\n3\n\n25\n\n[2.9K](http://x.com/i/article/2062217540411994112/saameeey/status/2062229308878581772/analytics)\n\nBackend development has always been the part of software where product behavior becomes enforceable.\n\nThe backend manages identity, permissions, data storage, business logic, background jobs, APIs, and third-party integrations. It is where product rules become systems that customers can actually use.\n\nWith AI products, that baseline stays in place.\n\nThe added backend work sits around the LLM and the agent using it.\n\nAn AI product has to retrieve the right customer context, preserve source permissions, decide which tools an agent can use, execute those tool calls safely, route requests across models, track cost, log what happened, and give teams a way to audit the system.\n\nThat sounds like a lot, right? Yes, it is. This work lives between the product, the LLM, the agent, and the customer's business systems. Let's call it the AI integration layer.\n\nYou can describe the underlying architecture in three paths:\n\n[![Image](https://pbs.twimg.com/media/HJ55QySWwAAoEeW?format=png&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062219008665894912)\n\nThe three paths of the AI integration layer\n\nIn this piece, i'll be referencing \n\n[Merge.dev](http://x.com/i/article/2062217540411994112//Merge.dev)\n\n. \n\n[@merge\\_api](https://x.com/@merge%5Fapi)\n\n builds integration infrastructure for companies that need to connect their products to customer systems. Its recent product direction extends that work into AI infrastructure: \n\n[Unified](https://www.merge.dev/blog/the-new-merge)\n\n handles synced business context, \n\n[Agent Handler ](https://docs.merge.dev/merge-agent-handler/overview)\n\nhandles governed tool execution, and \n\n[Gateway](https://docs.merge.dev/merge-gateway/features/routing-policies/overview)\n\n handles model routing, observability, and control.\n\nPut differently, the integration layer is becoming the backend around the LLM.\n\n[![Image](https://pbs.twimg.com/media/HJ55bpNXoAA5WsW?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062219195207622656)\n\nTraditional backend responsibilities beside AI backend additions\n\n## \n\nAI products add a second backend surface\n\nA traditional SaaS backend usually has a familiar set of responsibilities:\n\n[![Image](https://pbs.twimg.com/media/HJ6AeN_WwAA57hA?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062226936022089728)\n\nWhen a product adds AI capabilities, these responsibilities remain.\n\nThen the AI layer introduces another set of runtime responsibilities:\n\n[![Image](https://pbs.twimg.com/media/HJ6AoWyWwAAXabF?format=jpg&name=small)](http://x.com/i/article/2062217540411994112/saameeey/article/2062229308878581772/media/2062227110182174720)\n\nAI products need these responsibilities because they interact with customer systems differently from traditional applications.\n\nA traditional app usually exposes a workflow through screens, forms, buttons, and API calls. The user performs the action, and then the backend validates it, writes data, and records the result.\n\nWith agents, the workflow is compressed because the agent reads context, ch",
       "title": "",
-      "url": "http://x.com/i/article/2062174494622416896"
+      "url": "http://x.com/i/article/2062217540411994112"
     },
     "http://x.com/i/article/2062229784009256960": {
       "cleaner_v": 2,
@@ -14474,6 +14471,32 @@
       "title": "Reverse-engineering Claude's generative UI - then building it for the terminal",
       "url": "https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/"
     },
+    "https://microsoft.ai/news/introducing-mai-thinking-1/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "frameable": null,
+      "image_urls": [
+        "https://microsoft.ai/wp-content/themes/wp-base-theme/images/social.jpg",
+        "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/thinking-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/code-2.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/image-5.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/transcribe-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/HeroCollageBuild3-copy-1-1.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/05/Frame-2147264168.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/05/mai-code-1-flash.jpg",
+        "https://microsoft.ai/wp-content/uploads/2026/06/AIME-2025-1.png",
+        "https://microsoft.ai/wp-content/uploads/2026/05/MAI-Thinking-1-metrics-.png",
+        "https://microsoft.ai/wp-content/uploads/2026/06/Thinking01.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Introducing MAI-Thinking-1\nToday we are introducing MAI-Thinking-1, Microsoft AI’s reasoning model. It is a medium-sized model that stands among the strongest models in its weight class. It matches leading models on key software engineering benchmarks, demonstrates advanced mathematical reasoning capabilities, and is preferred to Sonnet 4.6 in our blind human side-by-side evaluations. We trained it from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.\nMAI-Thinking-1 is a step in our broader work to build towards Humanist Superintelligence: advanced AI capabilities designed to serve people and organizations, not to replace them. The model matters on both axes: what it can do, and how it was built.\nThe Hill-Climbing Machine\nMore than a single model, we are excited to introduce our Hill-Climbing Machine: a co-designed pipeline built to make every component of model development climbable, so capabilities improve continually and reliably over time. The aim is a repeatable system that can absorb better data, stronger rewards, more capable environments, and more compute.\nThree main pillars guide our philosophy.\nFirst, capabilities should be learned, not inherited. Although faster to acquire, inherited intelligence lacks the steerability essential for real world usage: an imitator is fundamentally tied to the design choices of its teacher and struggles to adapt to new situations. MAI-Thinking-1 was trained without distillation from third party models, forcing our model to truly learn the tasks at hand.\nSecond, clean data. MAI-Thinking-1 was trained on clean and appropriately licensed data, with AI-generated content excluded from pre-training. This matters for quality, provenance, and control. If we cannot account for what shaped a model, we cannot fully understand its behavior or credibly improve it.\nThird, self-sufficiency across the entire stack. All the way from co-design of our models with MSFT’s own accelerators through to our reinforcement learning framework, we have focused efforts on in-house training infrastructure. This is a crucial part of building our hill-climbing machine, to ensure we can fully optimize and shape our systems end-to-end to best serve our needs.\nMedium-sized model, with strong software engineering performance\nMAI-Thinking-1 is a 35B-active, ~1T-total parameters, sparse Mixture of Experts model, a smaller inference footprint than much larger models. Despite this, our model is toe-to-toe with Claude Opus 4.6 on SWE-Bench Pro. That matters for developers and enterprises because model size determines where advanced coding assistance can be deployed, how often it can be used, and whether it can move from exceptional tasks into daily workflows.\nWe have invested heavily in the training environments needed for agentic coding. Each verified environment is deterministic, executable, and graded by real test suites. This gives the model practice on the kind of multi-step work developers actually do: reading code, editing files, running tests, observing failures, and recovering from intermediate mistakes.\nAdvanced mathematical reasoning capabilities\nMAI-Thinking-1 reaches 97.0% on AIME 2025, and 94.5% on AIME 2026, showing strong mathematical and scientific reasoning for its weight class. Strong performance here gives us confidence that our training loop can create real reasoning gains – climbing all the way from the ground up – from our own data, rewards, and evaluation process, enabling this intelligence to generalize to other domains over time.\nPreferred in human side-by-sides vs. Sonnet 4.6\nPeople care about whether a model understands the task, follows instructions, uses the right level of detail, writes clearly, and respects their time.\nWe built a blind side by side human evaluation with one of our partners, Surge, using their pool of professional raters to measure various models on these traits. The evaluation spanned 1,276 tasks across a wide",
+      "title": "Introducing MAI-Thinking-1 | Microsoft AI",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
+    },
     "https://mike.tech/blog/death-of-software-development": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -19064,34 +19087,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2061989887721811968/img/RltsnczDkhs5B2W_.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -26471,34 +26466,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ0-VUtWMAAi6sZ.jpg"
     },
-    "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
-    },
     "https://pbs.twimg.com/media/HJ0AR8QXoAEdk2t.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26639,20 +26606,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
     },
-    "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg"
-    },
     "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26680,6 +26633,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg"
     },
     "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg": {
       "cleaner_v": 2,
@@ -26765,6 +26732,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg"
     },
+    "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg"
+    },
     "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26778,6 +26759,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -43010,10 +43019,7 @@
     "2061816210283749876": [
       "https://x.com/tualatrix/status/2061816210283749876",
       "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
-      "https://x.com/tualatrix/status/2061826203707981887",
-      "https://x.com/tualatrix/status/2062063113248387242",
-      "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg",
-      "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
+      "https://x.com/tualatrix/status/2061826203707981887"
     ],
     "2061821715450351992": [
       "https://x.com/bytebytego/status/2061821715450351992",
@@ -43056,9 +43062,8 @@
       "https://x.com/AlphaSignalAI/status/2061856932097384803",
       "https://arxiv.org/abs/2605.05242",
       "https://arxiv.org/abs/2605.29307v1",
-      "https://x.com/AlphaSignalAI/status/2062081857643053236",
-      "https://pbs.twimg.com/media/HJ07D7uXQAAyn63.jpg",
-      "https://pbs.twimg.com/media/HJ07KjsXYAEol9i.jpg"
+      "https://x.com/AlphaSignalAI/status/2062163858182328424",
+      "http://x.com/i/article/2062125489721102336"
     ],
     "2061860170846843233": [
       "https://x.com/tricalt/status/2061860170846843233",
@@ -43094,9 +43099,7 @@
     ],
     "2061873579004735884": [
       "https://x.com/sydneyrunkle/status/2061873579004735884",
-      "http://x.com/i/article/2061868304654864384",
-      "https://x.com/sydneyrunkle/status/2062217190724579673",
-      "http://x.com/i/article/2062174494622416896"
+      "http://x.com/i/article/2061868304654864384"
     ],
     "2061877533885473181": [
       "https://x.com/mvanhorn/status/2061877533885473181",
@@ -43124,12 +43127,13 @@
       "https://x.com/kylejeong/status/2061882958651474268",
       "http://x.com/i/article/2061630624428163072",
       "https://x.com/kylejeong/status/2061904814813155612",
+      "https://x.com/kylejeong/status/2062407478974030000",
       "https://x.com/kylejeong/status/2061888639387467957",
-      "https://x.com/kylejeong/status/2061925642623750223",
-      "https://x.com/kylejeong/status/2061904958912684135",
-      "https://x.com/kylejeong/status/2061931769394569624",
       "https://x.com/kylejeong/status/2061897351653101679",
       "https://x.com/kylejeong/status/2061914499062637000",
+      "https://x.com/kylejeong/status/2061925642623750223",
+      "https://x.com/kylejeong/status/2061931769394569624",
+      "https://x.com/kylejeong/status/2061904958912684135",
       "https://x.com/kylejeong/status/2061911136451326245",
       "https://x.com/kylejeong/status/2061905643527893120",
       "https://x.com/kylejeong/status/2061890824087171317"
@@ -43207,6 +43211,14 @@
       "https://www.aiedgehq.co/",
       "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
     ],
+    "2062163858182328424": [
+      "https://x.com/AlphaSignalAI/status/2062163858182328424",
+      "http://x.com/i/article/2062125489721102336",
+      "https://x.com/AlphaSignalAI/status/2062165107300499690",
+      "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "https://x.com/AlphaSignalAI/status/2062142765916422365",
+      "https://pbs.twimg.com/media/HJ4z6tDWEAEVd5G.jpg"
+    ],
     "2062167932440817915": [
       "https://x.com/SidebarIO/status/2062167932440817915",
       "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
@@ -43217,9 +43229,9 @@
     ],
     "2062187947084968106": [
       "https://x.com/_smontlouis/status/2062187947084968106",
+      "https://x.com/_smontlouis/status/2062265021787201718",
       "https://x.com/_smontlouis/status/2062261279507505242",
-      "https://x.com/_smontlouis/status/2062214139309650167",
-      "https://x.com/_smontlouis/status/2062265021787201718"
+      "https://x.com/_smontlouis/status/2062214139309650167"
     ],
     "2062196598441177376": [
       "https://x.com/elliotchen100/status/2062196598441177376"
@@ -43247,17 +43259,30 @@
       "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
     ],
+    "2062226357522743484": [
+      "https://x.com/hwchase17/status/2062226357522743484"
+    ],
+    "2062229308878581772": [
+      "https://x.com/saameeey/status/2062229308878581772",
+      "http://x.com/i/article/2062217540411994112",
+      "https://x.com/saameeey/status/2062334132466622844"
+    ],
     "2062233330196926720": [
       "https://x.com/aparnadhinak/status/2062233330196926720",
       "http://x.com/i/article/2062229784009256960",
       "https://x.com/aparnadhinak/status/2062280622937370649",
       "https://x.com/aparnadhinak/status/2062255521990852980"
     ],
+    "2062244953808335343": [
+      "https://x.com/PawelHuryn/status/2062244953808335343",
+      "https://pbs.twimg.com/media/HJ6Q2qNW8AAjtxL.jpg",
+      "https://x.com/PawelHuryn/status/2062295015653834794",
+      "https://x.com/PawelHuryn/status/2062247245072998702",
+      "https://x.com/PawelHuryn/status/2062330152239919333",
+      "https://x.com/PawelHuryn/status/2062177479339499806"
+    ],
     "2062247077833310623": [
-      "https://x.com/CopilotKit/status/2062247077833310623",
-      "https://x.com/CopilotKit/status/2062214932159222055",
-      "http://github.com/CopilotKit/CopilotKit/",
-      "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
+      "https://x.com/CopilotKit/status/2062247077833310623"
     ],
     "2062262557016989864": [
       "https://x.com/SidebarIO/status/2062262557016989864",
@@ -43270,8 +43295,25 @@
     "2062274312363770064": [
       "https://x.com/ClaudeDevs/status/2062274312363770064",
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    ],
+    "2062345653079224458": [
+      "https://x.com/yanhua1010/status/2062345653079224458",
+      "http://x.com/i/article/2060567536543182848",
+      "https://x.com/yanhua1010/status/2062356971169444241",
+      "https://x.com/yanhua1010/status/2062390692849295424",
+      "https://x.com/yanhua1010/status/2062390639887814754"
+    ],
+    "2062380163338535064": [
+      "https://x.com/libapi_/status/2062380163338535064",
+      "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
+      "https://x.com/libapi_/status/2062388545147548097",
+      "https://x.com/libapi_/status/2062382058245390445",
+      "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
+      "https://x.com/libapi_/status/2062382540036739153",
+      "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062403411677700336"
     ]
   },
-  "updated_at": "2026-06-04T01:48:27Z",
+  "updated_at": "2026-06-04T06:56:42Z",
   "window": "recent"
 }
