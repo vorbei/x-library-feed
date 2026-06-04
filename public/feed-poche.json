@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 409,
+      "count": 410,
       "name": "Development"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 307,
+      "count": 308,
       "name": "Articles"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Media"
     },
     {
-      "count": 74,
+      "count": 75,
       "name": "Other"
     },
     {
@@ -38,8 +38,121 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2227,
+  "item_count": 2230,
   "items": [
+    {
+      "article_image_urls": [
+        "https://developers.cloudflare.com/changelog-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/hero.CVYJHPAd_26AMqX.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "article_text": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/changelog/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/changelog/post/2026-06-03-public-oauth-clients/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/changelog/post/2026-06-03-public-oauth-clients/. For this product's page index use https://developers.cloudflare.com/changelog/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Changelog New updates and improvements at Cloudflare. Subscribe to RSS View RSS feeds ← Back to all posts Introducing self-managed OAuth clients Jun 03, 2026 Cloudflare Fundamentals Today we are launching self-managed OAuth, enabling developers to build third-party applications that integrate with Cloudflare via OAuth. This provides a more secure, user-friendly, and manageable alternative to API tokens. OAuth lets third-party applications act on behalf of a user to access their Cloudflare account. For example, after a user grants consent, Wrangler can deploy Workers into that account. What is new Cloudflare Developers can now create and manage their own OAuth applications to integrate with Cloudflare. Create an application To create an application, go to Manage account > OAuth clients in your account on the Cloudflare dashboard. Go to OAuth clients Select limited scopes If you have used an API token to call Cloudflare APIs, OAuth client scopes will look familiar. Select only the scopes your application needs during application creation, and include that scope list when sending users to Cloudflare for consent. Users can review the requested scopes before they consent. Apps for both private and public use Applications start with private visibility. Private applications can only be used by members of the account where the application was created. To make an application available to any Cloudflare user, complete the prerequisites for public visibility. For more information, refer to client visibility . Client domain verification Before an application can be made public, you must verify the client domain. Domain verification helps users confirm that the application owner controls the domain shown on the consent page. After verification, users see a verified badge on the consent page. For more information, refer to domain verification . Learn more For more information, refer to OAuth clients . Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Was this helpful? Yes No",
+      "article_title_extracted": "Introducing self-managed OAuth clients · Changelog",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-04T10:09:51.311706Z",
+      "description": "Developers can now create self-managed OAuth clients that integrate with Cloudflare.",
+      "domain": "developers.cloudflare.com",
+      "embed_type": "",
+      "id": "k17edbjsa7adsgm58t302hvgg5881w5p",
+      "og_image_url": "https://developers.cloudflare.com/changelog-preview.png",
+      "recommended_at": "2026-06-04T14:46:05.672000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "cloudflare",
+        "oauth",
+        "api-security"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-04T14:46:05.672000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing self-managed OAuth clients · Changelog",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-06-03-public-oauth-clients/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://voidzero.dev/covers/voidzero-cloudflare.jpg",
+        "https://voidzero.dev/assets/footer.C-44yuQw.jpg",
+        "https://voidzero.dev/logo-transparent.svg",
+        "https://www.gravatar.com/avatar/eca93da2c67aadafe35d477aa8f454b8?s=80",
+        "https://voidzero.dev/covers/announcing-rolldown-1-0.jpg",
+        "https://voidzero.dev/covers/announcing-vite-plus-alpha.jpg"
+      ],
+      "article_text": "TL;DR: We are excited to announce that VoidZero is joining Cloudflare. Vite, Vitest, Rolldown, Oxc, and Vite+ will remain open-source and MIT-licensed. Evan and the rest of the VoidZero team will continue to lead these projects, with Cloudflare fully committed to supporting our mission.\nI have been working on open source developer tools for over a decade. From 2016 to 2023, I worked as an independent developer. I started with Vue at the frontend framework layer, and ventured deeper into build tools with Vite. With the help of the community, we organically scaled Vue and Vite to millions of weekly downloads.\nWhen I started VoidZero in 2023, the goal was to tackle a much bigger problem: building a fast, unified toolchain for the entire JavaScript ecosystem. It was clear that this vision required a dedicated full-time team, which would not be feasible with the sponsorship-based model I used for my previous projects. Raising venture capital was the most realistic way to make it happen, and so we did.\nFast forward to 2026, we have made a lot of progress:\n- We kept improving\n[Vite](https://vite.dev/)and[Vitest](https://vitest.dev/), solidifying their roles as the default choices in modern JavaScript/TypeScript development. Today, Vite alone is downloaded more than 100 million times a week. - To support Vite, we built\n[Rolldown](https://rolldown.rs/): a blazing-fast Rust bundler with esbuild feature parity and Rollup API compatibility. It is now the default bundler in Vite 8. - Rolldown was built on top of\n[Oxc](https://oxc.rs/), the JavaScript language toolchain written in Rust that powers all of our tools. In addition to bulletproofing and perf-tuning Oxc’s parser and resolver, we also implemented a full set of Babel-equivalent transforms and a minifier on top of it. The Oxc crates are now widely used outside of our own tooling as well. - We shipped\n[Oxlint](https://oxc.rs/docs/guide/usage/linter.html), a linter with full ESLint plugin compatibility and true type-aware linting powered by[tsgo](https://github.com/microsoft/typescript-go), making linting in large projects 50–100x faster. - We shipped\n[Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html), a formatter with full Prettier compatibility while being 30x faster. - We shipped\n[Vite+](https://viteplus.dev/), the unified toolchain for TypeScript that can cover the whole development workflow from runtime management, project scaffolding, to building for production.\nDespite the rapidly growing adoption of our tools, we haven’t yet solved monetization. Monetizing tooling, especially open-source software, has proven to be quite challenging. We experimented with a mixed licensing model for Vite+, but it didn’t feel right. Our conclusion was that we needed to sell a service with great synergy with our open-source tooling, without creating perverse incentives that distort our roadmaps and priorities. That is why we [open sourced Vite+ under the MIT License](https://voidzero.dev/posts/announcing-vite-plus-alpha) and started working on [Void](https://void.cloud/), a Vite-native deployment platform built on top of Cloudflare.\nHowever, working on Void presented its own issues: we had to split our already short-handed team into two, and building a cloud platform is a distinct domain compared to tooling. While we had plenty of runway, the road to scalable revenue remained long and filled with unknowns.\nEnter Cloudflare [](https://voidzero.dev#enter-cloudflare)\nVoidZero and the Vite team had been collaborating with Cloudflare extensively on the Vite Environment API and Cloudflare’s Vite plugin before any acquisition talks began. Our experiment with Void made the synergy between the Vite ecosystem and Cloudflare even more obvious. By bringing the VoidZero team into Cloudflare, we can keep focusing on what we do best while helping make Cloudflare a better platform to deploy Vite apps on.\nFrom Vue to Vite and VoidZero, the common theme of my work has remained consistent: helping developers be",
+      "article_title_extracted": "VoidZero is Joining Cloudflare | VoidZero",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-04T13:50:34.205909Z",
+      "description": "VoidZero is excited to announce that we are joining Cloudflare. Vite, Vitest, Rolldown, Oxc, and Vite+ will remain open-source and MIT-licensed. Evan and the rest of the VoidZero team will continue to lead these projects, with Cloudflare fully committed to supporting our mission.",
+      "domain": "voidzero.dev",
+      "embed_type": "",
+      "id": "k17egpa4tgwaq3xbgd08qfq1xs8801z1",
+      "og_image_url": "https://voidzero.dev/covers/voidzero-cloudflare.jpg",
+      "recommended_at": "2026-06-04T14:46:04.104000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-development",
+        "open-source",
+        "cloudflare"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-04T14:46:04.104000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "VoidZero is Joining Cloudflare | VoidZero",
+      "url": "https://voidzero.dev/posts/voidzero-cloudflare",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-04T16:04:25.625720Z",
+      "article_image_urls": [
+        "https://www.nintendo-systems.com/sns.png"
+      ],
+      "article_title_extracted": "ニンテンドーシステムズ株式会社 - Nintendo Systems Co., Ltd.",
+      "category": "Other",
+      "created_at": "2026-06-04T13:51:17.224053Z",
+      "description": "ニンテンドーシステムズ株式会社の公式サイトです。会社情報、サービス、採用情報などをご案内しています。",
+      "domain": "nintendo-systems.com",
+      "embed_type": "",
+      "id": "k170ac015zqsh9n82bp9pbktfs881bwx",
+      "og_image_url": "https://www.nintendo-systems.com/sns.png",
+      "recommended_at": "2026-06-04T14:46:02.110000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "nintendo",
+        "software-development",
+        "it-infrastructure"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-04T14:46:02.110000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "ニンテンドーシステムズ株式会社 - Nintendo Systems Co., Ltd.",
+      "url": "https://nintendo-systems.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-04T11:38:13.124128Z",
@@ -4286,7 +4399,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-28T12:04:01.609511Z",
+      "article_fetch_attempted_at": "2026-06-04T16:04:25.625720Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -4461,9 +4574,9 @@
       "x_status_id": "2057227524740931904"
     },
     {
-      "article_fetch_attempted_at": "2026-05-28T12:04:01.609511Z",
+      "article_fetch_attempted_at": "2026-06-04T16:04:25.625720Z",
       "article_image_urls": [
-        "https://oxide-computer-pp15eew1y-oxidecomputer.vercel.app/img/meta/og-oxide.png",
+        "https://oxide-computer-kkg8ez5dm-oxidecomputer.vercel.app/img/meta/og-oxide.png",
         "https://oxide.computer/img/home/rack-single-shadows.svg",
         "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-single-rack.webp&w=64&q=20",
         "https://oxide.computer/img/home/rack-double-shadows.svg",
@@ -98858,7 +98971,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2070,
+      "count": 2073,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -98894,5 +99007,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-04T11:38:27.331107Z"
+  "updated_at": "2026-06-04T16:04:28.568307Z"
 }
