@@ -1018,6 +1018,10 @@
       "id": "2048055574185779638"
     },
     {
+      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
+      "id": "2039298177061511399"
+    },
+    {
       "article_text": "作者：Daniel Miessler\n原文：Most Companies Aren't Anywhere Near Ready for AI\n \n并不是公司不想用 AI，而是他们根本用不了。\nAI 不是问题，说不清目标才是问题\n很多人抱怨 AI 总是无法满足他们的需求，感到十分受挫。但说句实话，真正的问题在于：他们自己都说不清楚到底想要什么。\n我曾为全球顶尖的巨头企业、数百家初创团队，以及无数全球 1000 强里的中大型公司做过咨询。我发现，排名第一的致命问题就是：公司的愿景和目标极其模糊，而且朝令夕改。\nAI 的核心优势在于“执行”。如果它不知道到底要执行什么，它就毫无用武之地。相反，那些非常清楚自己想要什么的公司，正在借助 AI 混得风生水起。而且，随着 AI 变得越来越聪明，这些公司将爆发出更恐怖的统治力。\n但遗憾的是，这类公司只是凤毛麟角。因为只有极少数的公司具备足够的自我认知和组织纪律，能够给 AI 下达正确的指令。\n你无法去优化一个连你自己都没搞懂的东西。\n如果一件事你本来就不该做，再去盲目扩大它的规模，那简直愚蠢透顶。\n大家都在谈论“公司还没有为 AI 做好准备”，但我认为，大家根本没意识到这个问题到底有多严重。这根本不是什么技术成熟度的问题，它的根源要深刻得多。\n \n混乱黑盒无法规模化\n很大一部分公司，其实是“糊里糊涂”就成功了的。他们自己都不太清楚到底想实现什么目标，或者具体是怎么做到的。他们只是恰好掌握了几个碰巧管用的“绝招”，而且执行得还凑合，所以才能活到现在。\n但是，如果你走进这些公司，对他们说：“好了，请给我描述一下你们到底想干什么？你们的战略是什么？面临哪些挑战？具体的工作流 (work streams) 是怎样的？”——他们要么会一脸茫然地看着你，要么会觉得你在开玩笑。他们得花上好几周的时间专门立个项，才能搞清楚这些问题的答案。然后还得再花上好几个月的时间去真正落实这个项目。(这里的工作流是指公司内部从任务发起、协作到最终交付的具体运转环节，很多传统公司对此缺乏清晰的梳理和记录)\n说实话，我确信绝大多数公司正处于极度危险之中。因为它们本质上就是一个个勉强维持运转的“混乱黑盒”。\n在这种公司里，如果董事会或高层领导直接向所有人下令“全面拥抱 AI”，那就好比盯着一台满屏雪花、满是杂音的老电视机，大喊：“我们要把这玩意儿做大做强！”\n没问题，老板。麻烦您帮个忙，指一下到底想让我优化哪块业务？\n（漫长的沉默……）\n问得好。我们马上多开几个会，好好琢磨琢磨这个问题。\n在这类公司里，AI 几乎毫无用武之地。而不幸的是，这意味着许多（甚至可以说是大多数）公司都是如此。\n \n真正被 AI 帮到的公司\n现在外界有一种论调，认为 AI 还没有帮助到足够多的公司，所以大家都在问：问题出在哪儿了？AI 什么时候才能变得足够聪明？或许，AI 压根没有大家吹的那么神。\n但极其讽刺又显而易见的事实是：那些能够被 AI 真正赋能的公司，奇迹般地，恰恰是那些本来就知道自己在干什么的公司。\n他们能够迅速且清晰地告诉你：\n他们正在为客户解决什么问题\n市面上的现有方案有什么缺陷，而他们的方案又是如何弥补的\n公司长远的发展目标是什么\n衡量这些目标的具体核心指标 (metrics) 是什么\n阻碍他们达成目标的挑战在哪里\n他们正在采取哪些战略来克服这些挑战\n为了落地这些战略，正在推进哪些具体项目\n这些项目里具体包含哪些工作任务\n每一项任务由谁负责\n投入的成本到底有多少\n最关键的是，这些真正“拎得清”的公司，无论是在不同的季度还是不同的年份，对这些问题的回答都能保持高度的一致性。\n \n混乱公司的典型信号\n相反，一个公司陷入混乱的明显标志是：各个部门总是在花费大量的时间，声称自己有明确的答案——但这答案每个季度都在大变样，因为所有事情都在不停地变动。结果就是，员工们只是把那些能让自己表面上看起来干得不错的东西写在报告里。他们花了好几周时间精心准备，几个星期后又全盘推翻，再次从头开始走这套折磨人的流程。\n对于这种公司，AI 基本上帮不上任何忙。不仅如此，AI 甚至可能会把局面搞得更糟——因为它会让员工们的“瞎忙活”看起来更加高大上。比如，用 AI 自动生成更多花里胡哨的幻灯片、更复杂的图表、还有一大堆没用的花架子。(就像给一台出故障的发动机外壳镀上一层金，看着很华丽，但解决不了任何动力问题，反而掩盖了真正的隐患)\n你可能会问：“既然他们这么烂，怎么还没倒闭呢？”答案很简单：因为他们的大多数竞争对手也一样烂。\n \n企业真正该问的问题\n那么，说了这么多，重点到底是什么？\n核心有以下几点：\n在企业界，AI 的应用其实才刚刚起步。因为只有一小撮公司具备足够的自我认知，能够清晰地梳理并描述自身业务，从而真正为拥抱 AI 做好准备。\n我们应该停止把问题怪罪于 AI，或者怪罪于技术本身。真正的问题在于，企业无法用清晰、易懂的方式描述自己——这包括他们的目标、工作流 (workflows)、日常运营、决策机制、团队架构以及资金流向。\n做不到这一点的公司，面对那些能做到的公司时，将处于极其危险的境地。\n那些体型庞大、运转笨重的大企业面临的主要威胁在于：现在，一家小公司完全有可能借助 AI 爆发出堪比大企业的战斗力。而且，小企业往往更容易清晰地回答出上面提到的那些关键问题。\n正因如此，所有现存的公司都即将面临一场前所未有的“降维打击”。只有那些理清乱麻、内部通透的公司才能在风暴中存活下来，并迎风而起。\n在这场变革的最初阶段，决定谁输谁赢的因素里，AI 占的比重其实极小。AI 更像是那些最终胜出者在“新世界”里互相搏杀的武器。而现在的游戏规则是：先看清楚谁有资格拿到进入新世界的门票。\n \n作为一个企业，你现在最该问自己的第一个问题，不是“AI 能为我做什么”，而是“我的公司现在的状态，配得上让 AI 来帮忙吗？”如果答案是否定的，那你必须不遗余力，尽快让公司达到那个状态。",
       "id": "2051057428075053120"
     },
@@ -1026,10 +1030,6 @@
       "article_text_zh": "**服务即软件：自SaaS以来最大的市场变革，多数服务企业将站错方向**\n\nY Combinator刚刚向其创始人发出号召：建立能够替代服务、而非仅仅辅助服务的公司。在其最新一期《创业公司征集函》中，原话是：\"AI原生公司不卖软件，它们卖的是服务。它们不给你工具，而是直接替你完成工作。\"\n\n保险经纪人、税务会计师、合规官、医疗管理员——这些职业在YC 2026年夏季RFS中被一一点名。\n\n这不是又一轮AI炒作周期。这是一个真实的经济论点，背后有大量资本支撑。但它也远非时间线上那些最激进的创始人声称的那样\"不可避免\"。这两件事同时成立。\n\n**\"服务即软件\"的真正含义**\n\n红杉资本用一个比率来框定这一机遇。在《服务：新软件》一文中，他们指出：企业每在软件上花费1美元，大约就要在提供该软件所支持服务的人员身上花费6美元。二十年来，这一比率一直是SaaS估值的核心约束。SaaS抓住了那1美元，而运营者抓住了那6美元。\n\n新的论点是：AI现在已足够优秀——在狭窄但不断扩展的工作流中——能够亲自充当运营者。\n\n因此，模式改变了客户关系。公司不再向簿记员销售会计插件，而是直接向小企业主销售完成的纳税申报表——由团队构建和调优的智能体生成。其产出接近人类会计师所能交付的水平。在适用的垂直领域，价格下降了近一个数量级。\n\nGarry Tan将垂直智能体称为未来十年最大的软件机遇。他的框架是：16个垂直领域，每个领域的AI渗透率目前都是个位数，正等待领域专家将智能围绕工作流进行封装。医疗、法律、金融、客户服务、物流、保险、合规。\n\n红杉将这一框架推得更远。在这种模式下，\"自动驾驶仪\"的总可寻址市场是整个类别的劳动力支出，而非其中一小部分。这是牛市情景的上限。可捕获的份额将只是其中一部分，而通往这一份额的路径取决于分销、领域专长、监管许可和信任，而不仅仅是模型质量。\n\n**为什么是现在**\n\n三股力量正在汇聚。\n\n模型已足够优秀，能够在狭窄的工作流中充当运营者。从\"AI帮助人完成工作\"到\"AI完成工作\"的飞跃，已在可重复、边界清晰的任务中发生。Anthropic自身的智能体自主性数据显示，当前最强劲的采用集中在软件工程领域，在客户支持和运营工作方面也有显著但不均衡的进展。前沿正在快速向外扩展，但尚未在所有类别中均匀分布。\n\n构建垂直智能体的基础设施已大幅降价。Claude Code、Cursor、MCP、向量存储、Vercel。2023年需要A轮融资才能构建的生产级垂直智能体，现在小团队就能进行原型开发。但从原型到实际收入所需的时间，仍然在很大程度上取决于领域复杂性、集成面和监管许可。基础设施很便宜，但通往生产的路径并不总是很短。\n\n买家变了。终端客户越来越不想学习另一个工具。他们想要工作被完成。工具是AI仅作为功能的世界中的约束。成果是AI至少有时作为运营者的世界中的需求。\n\n这三者都是真实的。但没有一个在所有类别中均匀分布。\n\n**任何服务的三个层次**\n\n每个服务业务都有三个层次。其中两个正在被\"服务即软件\"公司以截然不同的速度吸收。一个则没有。\n\n**第一层：生产性工作。** 可重复的执行。提交纳税申报表。起草合同。生成报告。开具发票。发送跟进邮件。这是按小时计费的工作。它被吞噬得最早、最快、也最明显。Anthropic的工具调用数据在软件工程领域已反映了这一点。同样的模式正在其他生产密集型类别中开始显现。\n\n**第二层：模式应用。** 使用行业已完善数十年的剧本，将已知问题转化为可行的答案。入职新客户。处理常规索赔。完成月末对账。\"服务即软件\"公司接下来将瞄准这一层，但速度高度依赖于具体领域。具有清晰\"标准答案\"的垂直领域（税务、薪资、某些合规申报）进展更快。具有严格监管或信任约束的垂直领域（医疗诊断、法律建议、保险承保）进展更慢，有时会慢得多。\n\n**第三层：战略方向。** 选择要解决的正确问题。命名客户真正需要的东西。构建合作框架。决定拒绝什么。这一层尚未以任何有意义的方式被吸收。它正变得更有价值，因为执行成本正朝着推理的边际成本坍塌。\n\n一家按小时出售第一层和第二层服务的公司，正日益与那些以低一个数量级的价格交付相同工作的智能体竞争。一家出售第三层服务以及打包好的第一层和第二层成果的公司，则有望成为智能体本身。\n\n**如何识别适合这一变革的服务**\n\n并非所有服务都以相同速度发展。有些今年就会被吞噬。有些要到2028年。某些类别可能在可预见的未来抵制替代，尤其是在监管、责任或\"人在环\"要求具有约束力的领域。五个诊断信号可以区分不同类别：\n\n1.  **工作是可重复的。** 相同的形状，不同的输入。相同的清单，不同的细节。\n2.  **工作已被外包。** 如果客户付钱给第三方来做这件事，他们已经接受了别人拥有执行权。用一个外部供应商替换另一个，只是一小步。\n3.  **存在明确的正确答案或狭窄的可接受答案范围。** 纳税申报要么通过审计，要么不通过。战略建议则模糊得多。前者被吞噬得更快。\n4.  **客户以结果而非努力来衡量成功。** 没人关心他们的会计师工作了多少小时。他们关心的是申报表是否按时提交且正确无误。\n5.  **利润率足够高，能吸引垂直智能体公司。** 每小时50美元的服务很难被颠覆，因为劳动力已经很便宜。每小时500美元的服务，在工作流允许的情况下，有足够的利润空间让软件定价的替代方案看起来神奇。\n\n一个满足其中四条且没有严重监管障碍的服务，现在很可能正在YC的某个批次中被原型化。可能还不止一次。\n\n**变革背后的经济数学**\n\n三个数字说明了问题。\n\n**1美元对6美元（红杉的框架）。** 企业每在软件上花费1美元，大约就要在提供该软件所支持服务的人员身上花费6美元。SaaS抓住了那1美元。运营者抓住了那6美元。\"服务即软件\"是第一个让单一公司能够可信地瞄准全部7美元的模式——在工作流可以被智能体完全拥有的类别中。这个条件很重要。\"全部7美元\"的论点是上限，而非中心预测。\n\n**16个垂直领域，每个都是个位数（Garry Tan的框架）。** 医疗、法律、金融、保险、合规、物流、客户服务，以及另外十个。按劳动力支出计算，每个都是超过千亿美元的市场。每个目前的AI渗透率都低于5%。每个现在都在被原型化。赢得一个垂直领域的公司，将不是SaaS独角兽的等价物。它将是对该领域人类服务层的相当大份额的等价物，只是重新定价了。实际实现的份额将比牛市情景更小、更慢，尤其是在受监管的类别中——EIOPA的生成式AI市场调查、麦肯锡的《2025年AI现状》以及其他近期企业调查一致指出，人类监督、幻觉和信任是关键的制约因素。\n\n**一个数量级的价格重置（在发生的地方）。** 在早期的\"服务即软件\"胜利中，成果的价格已从人类服务定价压缩到接近软件定价。过去需要花费数百美元会计师时间的纳税申报，现在只需智能体运行时间的一小部分。过去需要理赔员一小时的索赔审查，现在缩减到几分钟的智能体计算。这种压缩在狭窄、边界清晰的工作流中很快。它并未在所有服务中均匀发生，已发表的证据基础仍然薄弱。已经感受到压力的现有企业面临一个教科书式的选择：匹配价格并吸收利润损失，或者维持价格并失去客户给那些匹配了价格的人。\n\n这种压缩是否会推广到整个服务类别，是本周期悬而未决的问题。大多数公开市场的服务企业仍被估值，仿佛答案是否定的。而今年每一张\"服务即软件\"支票背后的论点是，在足够多的类别中，答案将是肯定的。资本正在为服务收入（目前按服务倍数交易）和软件收入（目前按软件倍数交易）之间的倍数趋同做准备，因为新公司的运营状况模糊了两者之间的界限。\n\nSaaS是一场利润率交易。\"服务即软件\"是一场市场交易。如果成功，市场交易要大得多，而且比时间线上那些最响亮的VC所定价的要远未尘埃落定。\n\n**更大的框架**\n\n\"服务即软件\"不是一个趋势。它是一个论点。它有大量的资本支持，有来自YC和红杉的严肃框架，以及在狭窄工作流中的早期实际进展。它也有来自同一批企业调查数据的严肃反证——那些最响亮的创始人一直悄悄低估的数据：在受监管的服务中，人类监督仍然占主导地位；幻觉仍然是生产部署中被提及最多的风险；信任的建立比估值所暗示的要花更长时间。\n\n很少有类别会完全不受影响。但能被干净利落地快速替代的类别则更少。步伐将是不均衡的，赢家不会是通用的AI包装器，而幸存下来的企业将拥有分销、领域专长、工作流集成、风险控制和信任——而不仅仅是模型。\n\n服务池的规模大约是软件池的六倍。整个池子现在正在被重新定价，以慢动作进行，每个垂直领域的时间线截然不同。\n\n两种失败模式的代价同样高昂。将这一变革视为不可避免，你会为早期头寸付出过高代价。将其视为夸大其词，你会错过二十年来商业软件唯一的结构性重置。\n\n选择一个立场。睁大眼睛去选。",
       "article_text_zh_hash": "ebe9173df95e55c4",
       "id": "2050902054827360279"
-    },
-    {
-      "article_text": "看到最近这个网页动画效果被这位小哥的网站又带火了，然后人们意识到现在除了 light mode 和 dark mode 之外，还应该有一个 sunny mode。\n其实这个效果最早可以追溯到 2022 年，第一次出现是在 CSS-Tricks 上面的一篇文章。学名叫 Dappled Light（斑驳光影），原理就是用 CSS 的 blur 和 mix-blend-mode 模拟这种斑驳的光影。\n2023 年，Basement Studio 为 Daylight 做的官网把这个效果再次带到了人们眼前。\n2024 年，华裔设计师 chloe 上线了一个小网站再次把这种效果带到了高潮，技术用到了 svg 和 css animation。\n随后，开源版本的终于有人做了。作者 Jacky Zhao 是 GitHub 上非常有影响力的开发者，他的其他作品比如 **Quartz** 是他最知名的项目之一，一个极简、快速且功能强大的静态网站生成器，专门用于将 Markdown 笔记转换为精美的数字花园（Digital Garden）。\n后来还有一位华裔设计师 Farah Yan 也实现了另一个版本，用到了 Lindenmayer 系统 和 @react-three/drei，Lindenmayer 是一种用于描述植物生长过程的数学形式化方法。它是斑驳光影效果的幕后功臣，专门用来模拟树木、草丛或复杂几何分形结构。\n直到今天，这个效果再次被人们熟知是因为这个网站。他在此基础上还增加了 rainy mode 和 moonlight mode，效果大同小异。但是阴影效果是直接做成了视频，每种模式还加上了音效。但如果是用视频就没啥技术含量了。\n最近还有来自斯坦福的 Mason Wang 也开源了一个版本，是用纯 Canvas 2D 实现了百叶窗阳光投射效果。\n我快速 vibe 了一个 demo：https://theme-switch.pages.dev/ 可以按字母快捷键或右上角的按钮切换体验一下。",
-      "id": "2039298177061511399"
     },
     {
       "article_text": "Here's the thing\nThe most important design file in your project in 2026 is not the Figma library.\nIt is a markdown file at the root of your repo called design.md\nIf your team has not written one yet, every AI agent you point at your codebase is generating off-brand UI by default. Cursor, Claude Code, Codex, Lovable, v0, Windsurf, Figma Make. All of them are reading the closest set of rules they can find. If you have not given them a design.md, they pick the closest substitute. The closest substitute is \"generic Tailwind dashboard.\"\nHere is why this file exists, what to put in it, and how to write one tonight.\nWhy every agent suddenly reads markdown files\nThe pattern started with claude.md. Anthropic's Claude Code reads it before every prompt. Then Cursor added .cursorrules. Then Windsurf added .windsurfrules. Then OpenAI standardized on AGENTS.md for Codex. Then the open-source community pulled them all into one shared convention.\nThe bet underneath all of them is the same. The agent does not need a JSON schema or a compiled config. It needs a document a human can read and a model can parse. Markdown is the cheapest, most durable medium that does both.\nOnce you accept that, the question is not \"should I write one.\" It is \"how many do I need.\"\nThe answer is at least two:\nCLAUDE.md or AGENTS.md for the project-wide brain. Voice, tone, business rules, what the codebase is, what it is not.\ndesign.md for the visual brain. Tokens, components, layout rules, accessibility constraints, what the brand looks like.\nSome teams collapse them into one. Bigger teams keep them split. Either is fine. Splitting them lets a designer own the second file without touching the first.\nWhat goes in design.md, and what does not\ndesign.md is for visual rules\nColor tokens, semantic color names, typography scale, spacing scale, layout grids, component anatomy, interaction states, accessibility constraints, what the icons look like, when shadows are allowed, when they are not, what radius means.\n\nCLAUDE.md is for project-wide brain.\nVoice and tone, the audience, the business model, the file structure, what frameworks are used, what conventions matter, what the agent should refuse to do.\nWhen the two overlap, design.md wins on anything visual and CLAUDE.md wins on anything structural. If you are not sure which file a rule belongs in, ask: \"Is this rule about how something looks, or about how something works?\" Looks goes in design.md. Works goes in CLAUDE.md.\n\nThe five sections every design.md needs\nYou can copy this skeleton tonight. It works for almost every product.\nSection 1, the brand line.\n \nThree lines. The \"avoid\" line saves you more than the other two combined.\n\nSection 2, the color tokens.\n \nTokens with a \"rules\" subsection beat tokens without one. The rules carry the taste.\n\nSection 3, the typography scale.\n \n\nSection 4, the components.\n \nThe pattern. Name. Anatomy. States. Variants. Anything not in this list does not get built.\nSection 5, accessibility and dark mode.\n \nThat is the entire file. Five sections. Roughly one page. You will spend more time fighting the agent without it than writing it.\n\nThe pitfalls people hit when they write their first one\nA clean numbered list:\nOverstuffing it. A design.md longer than two pages is a liability. The agent loses focus. Cut anything that is not load-bearing.\nMixing brand voice into design.md. Voice belongs in CLAUDE.md. design.md is visual. Keep them separate or you will end up duplicating updates.\nDocumenting Figma styles instead of intent. \"Use the H1 style from Figma\" is useless to an agent that cannot open Figma. Write the actual values.\nSkipping the \"avoid\" lines. Tell the agent what not to do. Negative constraints are sharper than positive ones. \"Never use a gradient\" is more powerful than \"use solid colors.\"\nNot versioning it. Commit it to git. Review changes in pull requests. A design.md that nobody reviews drifts the same way an unreviewed component library drifts.\nOne file for everything. When the brand evolves, one file becomes a merge nightmare. Split into design.md, brand.md, and components.md if you grow past two pages.\nForgetting to refresh it. Every six months, audit. The agent's output is a mirror of the file. If the output looks wrong, the file is wrong.\n\nThe exercise that proves the point\nTry this tonight, even if you have no project ready.\nCreate an empty folder.\nWrite a design.md using the skeleton above. Fill in your own taste. Spend forty minutes.\nOpen Claude Code or Cursor in that folder.\nType: \"Build me a settings page using the rules in design.md.\"\nLook at what you get back.\nThe output will be ninety percent of the way to your brand the first time. That is not because the agent suddenly got better. It is because you finally articulated your taste in writing.\nThe exercise is not about the page. It is about the file.\n\nThe bigger shift this is part of\nDesign systems used to live in Figma and get translated to code by engineers. The translation was always lossy.\nIn 2026 the design system lives in code. The Figma file is a viewer. design.md is the source of truth. Every agent reads it. Every component respects it. Every screen ships with the right tokens because the tokens are the input, not the output.\nThis is the quietest, biggest change to design ops in a decade. Most teams have not noticed yet. The teams that have are shipping faster, more consistent product than the rest. The gap is going to compound.\nThe work is small. Open your project. Create design.md. Write five sections. Commit it.\nTomorrow, every agent that touches your code will know what your brand looks like.\nThat is the whole game.\nGo check my newsletter here for more awesome practical stuff",
@@ -1554,6 +1554,32 @@
       "text_excerpt_zh": "",
       "title": "Redirecting to: https://littlemight.com/",
       "url": "http://founder.codes"
+    },
+    "http://github.com/CopilotKit/CopilotKit/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol - CopilotKit/CopilotKit",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/CopilotKit/CopilotKit/",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/655515393/3299a492-753a-4726-ad71-ea5d268c6e79",
+        "https://private-user-images.githubusercontent.com/66887028/542395772-779de607-2b8d-4751-872b-1243e97c7d18.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDIzOTU3NzItNzc5ZGU2MDctMmI4ZC00NzUxLTg3MmItMTI0M2U5N2M3ZDE4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzMmYwZDVkZTBiMjBlNGQ4M2NlYTJiNjQzNWRiMDJkMmEzNDVhMGQ5Yzc0MjU1OTcyMzVlYmU2NjVkZWMyZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.jSBEq_prT7H5yvwSSP-osV8eb_Tm6LoRPcqCU-fnJ6s",
+        "https://private-user-images.githubusercontent.com/66887028/531044097-aeb56c28-c766-44a5-810c-5d999bb6a32a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81MzEwNDQwOTctYWViNTZjMjgtYzc2Ni00NGE1LTgxMGMtNWQ5OTliYjZhMzJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIzODMxNDA0MGIwNTI4NGViZGNhOGNiODg3ZjFlODQwNDA1YjQ4NGZhOTRjYWY1YmI1Zjc1NzlkNjJiYWVjZjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.DoT2E2E604RXRdEO080YDa5rpD_yygSHLlGyBeUmmwk",
+        "https://camo.githubusercontent.com/b70f9747f6bb884a727b598896f7bf8c360b0403318cdabc35466c87ce2b5053/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f253430636f70696c6f746b697425324672656163742d636f72653f6c6f676f3d6e706d266c6f676f436f6c6f723d253233464646464646266c6162656c3d56657273696f6e26636f6c6f723d253233363936336666",
+        "https://github.com/CopilotKit/CopilotKit/raw/main/assets/license-badge.svg",
+        "https://camo.githubusercontent.com/91ed4c9856b9b212b6f0ecccf0828a3ebc2cce998f4a6e3619aa7a2c075c333e/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313132323932363035373634313734323431383f6c6f676f3d646973636f7264266c6f676f436f6c6f723d253233464646464646266c6162656c3d446973636f726426636f6c6f723d253233363936336666",
+        "https://camo.githubusercontent.com/7fce1d77184b5121b9701a4b7b9d1935f0219c1e7a696d3eb7aace80a7bf2480/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f35373330",
+        "https://camo.githubusercontent.com/62aff0461f81a88690ee28164a69e532f62f532794699c43d7c73c872a4d5b87/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f746f702d706f73742d62616467652e7376673f706f73745f69643d343238373738267468656d653d6c6967687426706572696f643d6461696c79",
+        "https://private-user-images.githubusercontent.com/66887028/545840497-6f175d86-bd22-4c26-a13a-6013654ed542.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDU4NDA0OTctNmYxNzVkODYtYmQyMi00YzI2LWExM2EtNjAxMzY1NGVkNTQyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhNDc0MmMyMTQ0NTZlYjEzNzMyYzFjNWQ1OWNmOTljY2U0N2Q1ZjE5YjRhOThjYzA5NGVmMDI0OTllZTc4YjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.hjsWiocBOw39rjjYQZfdOa6rUpNn7BxrrsNz5pHHkMk",
+        "https://private-user-images.githubusercontent.com/66887028/541395688-962f49c2-31ea-43c5-b2a3-7cdde114705a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDEzOTU2ODgtOTYyZjQ5YzItMzFlYS00M2M1LWIyYTMtN2NkZGUxMTQ3MDVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3NWUzZjYxODdjZWZkMTE0MDk1MGU3YmU2YTk3MWNmZTAwNjY0ZDQ1NjliNzgzNDA3MzFjNzMyNDY1YWM5ZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9._cNi9mmAFiVbmITktQDvfY4A8iQ1JkOMw98DIz2rWP8",
+        "https://private-user-images.githubusercontent.com/66887028/545966062-a625237a-cfc1-45fc-8d0c-637316b81291.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA1MzgwNzcsIm5iZiI6MTc4MDUzNzc3NywicGF0aCI6Ii82Njg4NzAyOC81NDU5NjYwNjItYTYyNTIzN2EtY2ZjMS00NWZjLThkMGMtNjM3MzE2YjgxMjkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA0VDAxNDkzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY4MjJkMWFmODNjNmRlM2RkNzI0MTllNzE2Zjg4MThjMDRjYjg4YjY3N2E3MGZiM2MwODc2MTM3ODk3Y2UwZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.mMqF2KhmGlQ2Pcal0DKj9ByBrWlwSs732Zo234xxhJI",
+        "https://avatars.githubusercontent.com/u/149120496?s=64&v=4"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - CopilotKit/CopilotKit: The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol · GitHub",
+      "url": "http://github.com/CopilotKit/CopilotKit/"
     },
     "http://github.com/Hmbown/DeepSeek-TUI": {
       "content_type": "text/html; charset=utf-8",
@@ -4731,6 +4757,20 @@
       "title": "",
       "url": "http://x.com/i/article/2060304215818264576"
     },
+    "http://x.com/i/article/2060308122531418112": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060308122531418112",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060308122531418112/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ5lkPEWsAAKBXX?format=jpg&name=900x900)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062197352576757760)\n\nFeedback loops: Help Claude Code complete ambitious tasks with less babysitting \n\n[![](https://pbs.twimg.com/profile_images/2045922548387651584/fzDD934a_normal.jpg)](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[Delba](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n[@delba\\_oliveira](http://x.com/i/article/2060308122531418112/delba%5Foliveira)\n\n·\n\n9h\n\n7\n\n30\n\n475\n\n[33K](http://x.com/i/article/2060308122531418112/delba%5Foliveira/status/2062203743387459836/analytics)\n\nAs we delegate more ambitious tasks to Claude, it becomes increasingly important that it can verify its own work. The more Claude can self-verify:\n\n* the more independently it can work on long-running tasks\n* the better the quality of the final result\n* the fewer back and forths it takes to get there\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062157074419548160/img/kOjfZw1gJwe3Lns8.jpg)\n\nWhen checks depend on you, coding sessions become a turn-based game, and you lose what makes agents useful: autonomy.\n\nThe good news is that Claude already self-verifies against deterministic signals like type errors, lint errors, failing tests, and runtime errors. And as models improve, this will only get better. \n\nWhat Claude can’t always infer are the manual checks you run after it responds, and later on, before you merge code into production. The more of those checks you can encode, the closer Claude’s first response gets to the final result you had in mind. \n\nYou spend less time babysitting, and Claude can keep going while you work on something else.\n\n## \n\nWrite down your processes\n\nA good place to start is to write down the best-practices version of what you or your team already do.\n\nFor frontend, that's usually: run the dev server, open the browser, check the console for errors, click around as the user would and look out for things like layout shift or slow navigations. \n\nEvery domain has its own version. For each of those steps, there's likely a tool Claude can use for verification:\n\n[![Image](https://pbs.twimg.com/media/HJ4Z1TJXAAE_fjG?format=jpg&name=small)](http://x.com/i/article/2060308122531418112/delba%5Foliveira/article/2062203743387459836/media/2062114082845556737)\n\n## \n\nEncode your process as a skill\n\nOnce the process is clear, encode as much of it as possible as a skill. Install the \\`skill-creator\\` plugin, then ask Claude to interview you:\n\nplaintext\n\n```plaintext\n/skill-creator Create a skill for verifying frontend changes end-to-end. Interview me about my workflow.\n```\n\nIf you're struggling to put your process into words, ask Claude for the domain best practices first and let it show you what an end-to-end verification flow might look like. Taste and judgment are difficult to codify, but many checks have criteria Claude measure against: a performance budget, an accessibility checklist, design system rules, good vs bad examples.\n\nFor example, a frontend skill might include instructions to capture a performance trace through the \n\n[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp/)\n\n or \n\n[Agent browser.](https://agent-browser.dev/react)\n\nmarkdown\n\n```markdown\n---\nname: frontend-verify\ndescription: Verify frontend changes in a browser. Run whenever \na UI (page, component, typography, CSS style) change is made.\n---\n\n# Frontend verify\n\n- Run",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2060308122531418112"
+    },
     "http://x.com/i/article/2060342141381971968": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5029,6 +5069,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061458737726914560"
     },
+    "http://x.com/i/article/2061487141285445632": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061487141285445632",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061487141285445632/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJvgMrbaMAAI9t5?format=jpg&name=900x900)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061487762872872960)\n\nClaude: Dynamic Workflows ULTIMATE GUIDE\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2061487141285445632/aiedge%5F)\n\n·\n\n12h\n\nFollow\n\nClick to Follow aiedge\\_\n\n5\n\n26\n\n226\n\n[59K](http://x.com/i/article/2061487141285445632/aiedge%5F/status/2062163097280979223/analytics)\n\nAnthropic just shipped the most powerful Claude feature, and 99% of people scrolled straight past it because Opus 4.8 was louder.\n\nThe feature is Dynamic Workflows, and they're like Claude Skills on steroids. \n\nIf you use Claude Code for anything complex, this changes everything.\n\nIn this article, I'm covering everything you need to know about the Dynamic Workflows.\n\nI guarantee your Claude workflow productivity will skyrocket after this read. \n\nTable of Contents\n\nI: What Are Dynamic Workflows?\n\nII: How to Use Them \n\nIII: Real World Examples \n\nIV: Pro Tips\n\n## \n\nSection I: What Are Dynamic Workflows?\n\nAnthropic's definition: \"A dynamic workflow is a JavaScript script that orchestrates subagents at scale. Claude writes the script for the task you describe, and a runtime executes it in the background while your session stays responsive.\"\n\n[![Image](https://pbs.twimg.com/media/HJwiHRwbQAA9jxG?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061560237849788416)\n\nAnthropics definition \n\nIn plain English, this now means that Claude works through a problem step by step inside a single conversation. It writes a plan as a script, spins up tens to hundreds of parallel agents to execute different parts of that plan simultaneously, and has those agents check each other's work.\n\nWhat Dynamic Workflows Do (in practice)\n\nDynamic Workflows do three things that nothing else in Claude Code can do at the same scale.\n\n1\\. They Fan Out Across Parallel Agents\n\nInstead of working through a task sequentially, a Dynamic Workflow splits it into subtasks and runs them simultaneously.\n\n2\\. Agents Verify Their Own Work\n\nA workflow can have independent agents adversarially review each other's findings before, or draft a plan from several angles and weigh them against each other.\n\n3\\. They Are Resumable\n\nDynamic Workflows are resumable (good for long tasks). \n\n4\\. The Orchestration Is Saved and Reusable\n\nOnce a workflow does what you wanted, you save it. It becomes a slash command in your project or personal library. Every future run uses the same orchestration logic, so you don't have to describe it again. \n\nYou might be thinking: \"What's the difference between Skills, Plugins, etc. ?\" \n\nThe simplest way to think about the difference:\n\n* Skills tell Claude how to do something it already knows\n* Plugins give Claude access to tools it didn't have\n* Dynamic Workflows give Claude the ability to coordinate an entire workforce to tackle something too big for one conversation\n\n[![Image](https://pbs.twimg.com/media/HJwkxqKbYAAFELi?format=jpg&name=small)](http://x.com/i/article/2061487141285445632/aiedge%5F/article/2062163097280979223/media/2061563164979060736)\n\nDifference between other Claude tools\n\nFor example, a skill can write a research brief, while a plugin can pull live data into that brief, and a Dynamic Workflow can fan out across hundreds of sources simultaneously, have agents cross-check each other's findings, filter out anything that doesn't hold up, and hand you a verified report. \n\n## \n\nSection II: How to Use Dynamic Workflows\n\nLuckily, creating and using dynamic workflows is actually extremely easy.\n\nT",
+      "title": "",
+      "url": "http://x.com/i/article/2061487141285445632"
+    },
     "http://x.com/i/article/2061507690258472960": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5214,6 +5267,60 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061935366655905792"
+    },
+    "http://x.com/i/article/2061967596568875008": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061967596568875008",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061967596568875008/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ2avu_aoAA2ZMp?format=jpg&name=900x900)](http://x.com/i/article/2061967596568875008/ericzakariasson/article/2062199026544787576/media/2061974349264101376)\n\nDon't let your agent guess, give it runtime context\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n[@ericzakariasson](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\n·\n\n10h\n\nFollow\n\nClick to Follow ericzakariasson\n\n17\n\n36\n\n517\n\n[38K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2062199026544787576/analytics)\n\nIf you've ever watched an agent try to fix a bug, you've watched it guess. It reads the code, comes up with a theory, makes an edit, and hopes. Sometimes it's right. A lot of the time you get a fix that looks confident and quietly hides the real bug.\n\nDebug Mode is what we built for that. Instead of sitting there reasoning about the code, the agent goes and gets evidence about what the code does when it runs.\n\nHere's the loop\n\n1. Agent comes up with multiple hypotheses, and starts to work on the most plausible first\n2. Then, logging is added to test one hypothesis (without touching implementation)\n3. A little debug server collects the runtime output to .cursor/debug.log while your program runs.\n4. You reproduce the bug, and agent can now read the logs and understand what happened instead of having to guess\n5. Cursor finds the root cause in the logs, makes the fix, and pulls out the logging it added.\n\nHere it is on a real bug, sped up to about a minute:\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakariasson)\n\neric zakariasson\n\n![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)\n\n@ericzakariasson\n\n·\n\n[May 5](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222)\n\nhere's me using debug mode to fix a small bug in an swift app i just built issue was the initial characters were cut off when typing it out, so i had cursor 1\\. instrument the code 2\\. ask me to reproduce the issue 3\\. read the debug logs 4\\. implement the fix 5\\. ask me to reproduce\n\nShow more\n\n![](https://pbs.twimg.com/amplify_video_thumb/2051624961782272000/img/SS_RjY8lUbUV-niR.jpg)\n\n9\n\n6\n\n188\n\n[15K](http://x.com/i/article/2061967596568875008/ericzakariasson/status/2051625046821765222/analytics)\n\n## \n\nHow the team uses it\n\nSome interesting things that we've solved internally with debug mode:\n\n* A race condition that hit 1 in 20 runs. It was corrupting git metadata in our best-of-N runs. Debug Mode pinned it down in under an hour\n* A memory leak, traced in one pass. It came down to a misuse of our frontend framework. The fix was a single line.\n* A native crash deep in C++. An Electron crash people would normally route around. The logs made it findable.\n* An SSR flicker that had been given up on. A rendering bug nobody wanted to touch, fixed once the agent could see what the page was doing at runtime.\n\nTry it with Shift+Tab (it's in the CLI too, via /debug).\n\nI'm sure people are using it in ways I haven't thought of, so let me know!\n\n* [![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/i/article/2061967596568875008/ericzakar",
+      "title": "",
+      "url": "http://x.com/i/article/2061967596568875008"
+    },
+    "http://x.com/i/article/2062094052170899456": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062094052170899456",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062094052170899456/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ4HpEEXMAAbDeO?format=jpg&name=900x900)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062094081430335488)\n\nHow to Run 100 Agents in Parallel in Claude Code (Full Playbook)\n\n[![](https://pbs.twimg.com/profile_images/2047016448820670464/_nOVnpOm_normal.jpg)](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n[regent0x](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n[@regent0x\\_](http://x.com/i/article/2062094052170899456/regent0x%5F)\n\n·\n\n16h\n\nFollow\n\nClick to Follow regent0x\\_\n\n3\n\n4\n\n43\n\n[3K](http://x.com/i/article/2062094052170899456/regent0x%5F/status/2062099361199263928/analytics)\n\nanthropic shipped something last week that most people completely missed\n\nwhile you're sitting there waiting for one claude session to grind through a task, claude code can now fan that same task out across 100 agents working in parallel - all from a single prompt\n\nit's called dynamic workflows. and the framing from anthropic is blunt: work you'd normally plan in quarters now finishes in days\n\nthis isn't hype. someone used it to rewrite 750,000 lines of code in 11 days. i'll break down exactly how that happened, when to use it, how to not bankrupt yourself on tokens, and the exact prompts to copy\n\nsave this one. it's long because it's a real playbook, not a teaser\n\n## \n\n.what dynamic workflows actually are\n\nfirst, let's clear up the confusion. claude code now has three different ways to run multiple agents, and people mix them up constantly. picking the wrong one wastes money and time\n\n→ subagents \\- run inside a single session, do one well-defined task, report back to the parent. consistent and cost-predictable. they can't talk to each other\n\n→ agent teams \\- multiple full claude sessions that coordinate, message each other, and divide work. powerful, but every message between agents is a billable round trip\n\n→ dynamic workflows \\- the new one. claude writes its own orchestration scripts, breaks your task into subtasks, and fans them out across tens to hundreds of parallel subagents in a single session\n\n[![Image](https://pbs.twimg.com/media/HJ4IvlAXUAI0HIC?format=png&name=small)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062095292862779394)\n\nthe key difference with dynamic workflows: you don't design the orchestration. claude does\n\nyou give it a big task. it plans the fan-out, runs the agents, has other agents try to refute what the first ones found, iterates until the answers converge, and hands you one coordinated result\n\none engineer at CyberAgent described it as the gap-filler \\- it sits between firing off a single subagent and hand-building a full agent team. you describe the problem, claude figures out how to parallelize it, and the plan stays on track no matter how big the task gets because the coordination happens outside the conversation\n\n  \n## \n\n.the proof - 750,000 lines in 11 days\n\nthe example that made people pay attention: the rewrite of Bun\n\nJarred Sumner used dynamic workflows to port Bun from Zig to Rust. the numbers are absurd:\n\n* roughly 750,000 lines of Rust\n* 99.8% of the existing test suite passing\n* 11 days from first commit to merge\n\n[![Image](https://pbs.twimg.com/media/HJ4JKjZWwAAQrk2?format=png&name=small)](http://x.com/i/article/2062094052170899456/regent0x%5F/article/2062099361199263928/media/2062095756287197184)\n\nhere's how it actually worked, because the process is the entire lesson:\n\n→ workflow 1 mapped",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062094052170899456"
+    },
+    "http://x.com/i/article/2062174494622416896": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062174494622416896",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062174494622416896/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ5RPsvWUAEgwnW?format=png&name=900x900)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175009531908097)\n\nHow to Build a Custom Agent Harness\n\n[![](https://pbs.twimg.com/profile_images/1955622250629021696/WOrOq2Mw_normal.jpg)](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n[Sydney Runkle![](https://pbs.twimg.com/profile_images/2028336270431453184/jRRpLAdG_bigger.jpg)](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n[@sydneyrunkle](http://x.com/i/article/2062174494622416896/sydneyrunkle)\n\n·\n\n8h\n\nFollow\n\nClick to Follow sydneyrunkle\n\n8\n\n47\n\n295\n\n[36K](http://x.com/i/article/2062174494622416896/sydneyrunkle/status/2062217190724579673/analytics)\n\nBuilding useful agents is largely about customization: connecting your agent to the right context, data, and environment(s) for the task at hand.\n\nAt its core, an agent is a model calling tools in a loop until it completes a task and returns a result:\n\n[![Image](https://pbs.twimg.com/media/HJ5Rj2pWoAANC33?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175355788500992)\n\nYou can also define an agent as:\n\n> agent = model + harness\n\nThe harness is the scaffolding around the model that connects it to the real world.\n\n[![Image](https://pbs.twimg.com/media/HJ5RmVHXQAABHo3?format=jpg&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175398327173120)\n\nThe remainder of this post assumes the following:\n\n1. An agent is only as good as the context provided to the model\n2. The job of a harness is to provide context to the model at every step\n\nSo, to build a useful agent, you need a harness that’s great at delivering the right context for the given task to the model.\n\n# \n\nThe base harness\n\ncreate\\_agent is LangChain's primitive for building a harness. Pass in a model, tools, and a system prompt, and you have a working agent:\n\npython\n\n```python\nfrom langchain.agents import create_agent\n\nagent = create_agent(\n    model=\"anthropic:claude-sonnet-4-6\",\n    tools=tools,\n    system_prompt=\"you are a helpful assistant...\"\n)\n```\n\nHarnesses like \n\n[Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)\n\n and the \n\n[Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)\n\n come pre-assembled with an opinionated middleware (explained below) stack: memory, context management, sandboxing, and more. They're designed to get you to a production-ready agent fast, and they work well for most cases. But many agents need finer grained customization than these harnesses support: custom prompting, business logic, guardrails, etc.\n\n\\`create\\_agent\\` takes a different approach: it’s purposefully minimalistic. Our philosophy is similar to that of \n\n[Pi](https://pi.dev/)\n\n, a highly configurable coding agent harness. create\\_agent just implements the core agent loop, and it exposes middleware as a primitive for customization.\n\n# \n\nMiddleware: how you customize the harness\n\nMiddleware hooks into the agent loop at each step: before and after model calls, before and after tool calls, at agent startup and teardown. Each piece handles one concern and composes freely with any other:\n\n[![Image](https://pbs.twimg.com/media/HJ5RwvmX0AAFi_V?format=png&name=small)](http://x.com/i/article/2062174494622416896/sydneyrunkle/article/2062217190724579673/media/2062175577235247104)\n\nMiddleware allows you to add capabilities to your agent via a few levers that often work together:\n\nDeterministic Logic. Business logic, policy enforcement, dynamic agent control — anything that needs to fire at a specific point in the loop. This includes runtime control over the agent itself: swapping the model based on task complexity, adjusting the prompt, and",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062174494622416896"
+    },
+    "http://x.com/i/article/2062229784009256960": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062229784009256960",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062229784009256960/i/keyboard%5Fshortcuts)\n\nDid someone say … cookies?\n\nX and its partners use cookies to provide you with a better, safer and faster service and to support our business. Some cookies are necessary to use our services, improve our services, and make sure they work properly. Show more about your choices.\n\nAccept all cookies\n\nRefuse non-essential cookies\n\n[![Image](https://pbs.twimg.com/media/HJ6Zq_eaoAAGtqA?format=jpg&name=900x900)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062254643254829056)\n\nFaking a Filesystem For your Agent: PostgresFS\n\n[![](https://pbs.twimg.com/profile_images/1258117513872728064/c5A0LbF5_normal.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[Aparna Dhinakaran![](https://pbs.twimg.com/profile_images/2051433378692640768/Ph-ysq0G_bigger.jpg)](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n[@aparnadhinak](http://x.com/i/article/2062229784009256960/aparnadhinak)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow aparnadhinak\n\n5\n\n16\n\n109\n\n[8.4K](http://x.com/i/article/2062229784009256960/aparnadhinak/status/2062233330196926720/analytics)\n\nFaking a filesystem for your agent: why PostgresFS lost to a skill\n\nCo written by \n\n[@SufjanFana](https://x.com/@SufjanFana)\n\nWorking with agent harnesses, it is hard not to be impressed by the power that Bash and filesystems lend to the modern agent. Bash and file operations sit at the core of the tool-calling workflows harnesses use every day. The strength of that foundation has even led some people to say, \n\n[“Bash might be all you need.”](https://vercel.com/changelog/introducing-bash-tool-for-filesystem-based-context-retrieval)\n\nBut that raises a deeper question for us: how far should we push this abstraction? Why does Bash work so well for agents, and where are the edges?\n\n[@mintlify](https://x.com/@mintlify)\n\n[recently introduced an approach](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)\n\n called ChromaFS, which gives their database a filesystem-like interface. Their write-up was thoughtful and sparked a serious debate on our team. Should every database expose a filesystem-style interface for agents? It felt like the perfect test case for answering some of our deeper questions about Bash-centric workflows.\n\n[![Image](https://pbs.twimg.com/media/HJ6DxVAa0AASBYM?format=jpg&name=small)](http://x.com/i/article/2062229784009256960/aparnadhinak/article/2062233330196926720/media/2062230562857996288)\n\n# \n\nThe pattern teams are copying\n\nMintlify built ChromaFs to make their docs assistant smarter. Plain vector RAG could only return chunks that matched a query embedding; if the answer spanned several pages, or needed exact syntax that never landed in the top-K, the agent was stuck. So they wrapped their Chroma vector store in a filesystem-shaped interface: the agent runs ls, cat, grep, and underneath every command is a database read. They published it as a pattern other teams could copy. The same \"wrap the database as a filesystem\" move is now showing up on SQL databases that never needed it.\n\nYour agent has the same shape of problem: it needs to work with data in a database. The premise behind the pattern is that agents are fluent at what their training data has seen, so you should hand them a familiar surface. Whether a familiar surface is enough, or whether what matters is where the data actually lives, is what we set out to test.\n\n# \n\nOur Hypothesis\n\nSelectively letting an agent pull only the data it needs from a database (via a skill), then giving it the full local Bash toolset, should beat the complexity of building a Bash-like interface into the database itself.\n\nThe reason is practical: many shell and pipe workflows only exist in full form locally. The local toolbox is broader than what you can realistically re-create behind a database abstraction. Databases",
+      "title": "",
+      "url": "http://x.com/i/article/2062229784009256960"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -5610,6 +5717,21 @@
       "text_excerpt_zh": "",
       "title": "animations.dev",
       "url": "https://animations.dev/"
+    },
+    "https://animations.dev/vocabulary?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A glossary of common animation patterns, so you know what to ask for.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://animations.dev/vocabulary?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://animations.dev/opengraph-image-pwu6ef.png?opengraph-image.8dc3bdbf.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "A glossary of common animation patterns taught in the course. Use these names to describe what you want when prompting an AI.\nHow elements appear and disappear.\n- -\nFade in / Fade out — Element appears or disappears by changing opacity.\n- -\nSlide in — Element enters by sliding in from off-screen (left, right, top, or bottom).\n- -\nScale in — Element grows from smaller to full size as it appears, often paired with a fade.\n- -\nPop in — Element appears with a slight overshoot, like it bounces into place.\n- -\nReveal — Content is uncovered gradually, often by animating a clip-path or mask.\n- -\nEnter / Exit — The animation an element plays when it’s added to or removed from the screen.\nCoordinating multiple elements or moments.\n- -\nKeyframes — Defined points in an animation (0%, 50%, 100%) that the browser fills the gaps between.\n- -\nInterpolation / Tween — Generating all the in-between frames between a start and end value, so motion is continuous.\n- -\nStagger — Animate several items one after another with a small delay between each, creating a cascade.\n- -\nOrchestration — Deliberately timing multiple animations so they feel like one coordinated motion.\n- -\nDelay — Time before an animation starts.\n- -\nDuration — How long an animation takes.\n- -\nFill mode — Whether an element keeps its first or last frame's styles before the animation starts or after it ends (e.g. forwards).\n- -\nStepped animation — An animation that is divided into discrete steps, like a countdown timer.\nChanging an element’s position, size, or angle.\n- -\nTranslate — Move an element along the X or Y axis.\n- -\nScale — Make an element bigger or smaller.\n- -\nRotate — Spin an element around a point.\n- -\nSkew — Slant an element along the X or Y axis, shearing it out of its rectangular shape.\n- -\n3D tilt / Flip — Rotate in 3D space (rotateX / rotateY) to add depth.\n- -\nPerspective — How strong the 3D effect looks — a lower value exaggerates depth, like the viewer is closer.\n- -\nTransform origin — The anchor point a scale or rotation grows or spins from.\n- -\nOrigin-aware animation — An element animates out of its trigger, like a popover growing from the button that opened it instead of from its own center which is the default in CSS.\nConnecting one state, view, or element to another.\n- -\nCrossfade — One element fades out as another fades in, in the same spot.\n- -\nContinuity transition — A change that keeps the user oriented by visually connecting before and after. For example, making the same rectangle bigger and smaller.\n- -\nMorph — One shape smoothly turns into another shape, e.g. Dynamic Island.\n- -\nShared element transition — An element travels and transforms from one position into another, like a thumbnail expanding into a card.\n- -\nLayout animation — When an element’s size or position changes, it animates to the new spot instead of snapping.\n- -\nAccordion / Collapse — A section smoothly expands and collapses its height to show or hide content.\n- -\nDirection-aware transition — Content slides one way going forward and the opposite way going back, so navigation has a sense of direction.\nMotion tied to scrolling or navigating between views.\n- -\nScroll reveal — Elements fade or slide into place as they enter the viewport.\n- -\nScroll-driven animation — An animation whose progress is tied directly to scroll position.\n- -\nParallax — Background and foreground move at different speeds while scrolling, creating depth.\n- -\nPage transition — An animation that plays when navigating from one page or route to another.\n- -\nView transition — The browser morphs between two states or pages, connecting shared elements.\nResponding to the user’s actions.\n- -\nHover effect — Visual change when the cursor moves over an element.\n- -\nPress / Tap feedback — A subtle scale-down when an element is clicked, so it feels physical.\n- -\nHold to confirm — A progress effect that fills up while the user holds a button.\n- -\nDrag — Moving an element by grabbing it, often with momentum when released.\n- -\nDrag",
+      "title": "Vocabulary",
+      "url": "https://animations.dev/vocabulary?ref=sidebar"
     },
     "https://annas-archive.se/md5/8c9d7e28187c5e67fc9af86228692ed6": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -6706,6 +6828,31 @@
       "title": "Building agents that reach production systems with MCP | Claude",
       "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
     },
+    "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Tips and approaches to maximizing Claude’s ability to drive self-serve data insights",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a20599a39bd49c6ce8d4cde_og-self-service-data-analytics.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a20480bedac32484c00d6b9_4a7645b6.png",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef72_74528df2.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef75_98412372.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "- June 3, 2026\n- 5min\nAs many data science and data engineering teams can attest, enabling self-service business analytics has traditionally been a slog.\nMaking the data model more accessible to less technical coworkers via wide and denormalized tables often leads to overlapping views with inconsistent definitions as the business scales (and does little to bridge the gap for employees with little desire to learn SQL). Alternatively, creating more ringfenced environments for users often misses the long tail of business questions and leads to metric and dashboard bloat as teams silo their work.\nThe rise of LLMs provides an additional path for self-service analytics that avoids those challenges. However, pointing Claude at a warehouse and letting the agents execute can create a false sense of precision.\nThe initial elation of liberation from ad-hoc requests turns into dread with the realization that this setup separates stakeholders from the underlying infrastructure, documentation, and expertise that previously steered them toward carefully curated datasets.\nAt Anthropic, 95% of business analytics queries are automated via Claude, with ~95% accuracy in aggregate. By giving this often rote, repetitive work to Claude, our data science team can focus on more strategic work like causal modeling, forecasting, and machine learning.\nAfter meeting with dozens of Anthropic’s top Claude Code users and having seen myriad design patterns for analytics agents, we’ve cultivated some best practices for other data teams working with LLMs. In this post, we’ll share these tips and approaches to maximizing Claude’s ability to drive self-serve business insights, including:\n- Why analytics accuracy is a context and verification problem, not a code generation issue;\n- The three failure modes that cause most errors;\n- The agentic analytics stack we built to address these errors;\n- How we measure effectiveness; and\n- A basic template for how we create the majority of our skills (see the appendix)\nData is not software\nLLMs' generative abilities are a double-edged sword: the mechanisms that enable creative solutions to complex problems can also hallucinate erroneous output. To fully understand the challenges with analytics agents, it’s useful to compare them to coding agents.\nCoding is an open-ended solution space that rewards the models' creativity, while documentation and tests provide natural guardrails against hallucination. In contrast, for analytics use cases, there’s often only a single correct answer using a single correct source in which there’s no deterministic way of proving the correctness.\nFor self-service agentic business analytics, the complexity mainly lies in the ambiguity of the data. The central problem comes down to our ability to map a user’s question to specific and up-to-date entities in our data model and know the correct way of working with them. If we can do that, then the resulting execution and SQL becomes trivial.\nWe’ve identified three attributes of this problem that account for an overwhelming majority of inaccurate responses:\n- Concept <> entity ambiguity: with hundreds of viable options in a data model (out of potentially millions of fields), the agent is unable to choose the correct fields that best answer a user’s question. For example, in measuring the number of active users: what actions constitute being “active”? Do you include fraudulent users? What lookback window do you use?\n- Data staleness: data sources, business definitions, and schemas change constantly; assets and agent knowledge go stale and start returning subtly wrong answers.\n- Retrieval failure: the right information may actually be in the data model and properly annotated, but given the vastness of the search space, the agent simply doesn’t find it.\n[documentation](https://code.claude.com/docs/en/overview)\nOur agentic analytics stack\nAt Anthropic, the main way we minimize these three errors is via our agentic data stack. Each layer exists primarily to a",
+      "title": "How Anthropic enables self-service data analytics with Claude | Claude",
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    },
     "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7614,6 +7761,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://dribbble.com/shots/26883685-Blue-Owl-Bird-Mascot-Interactive-Rive-Animation"
+    },
+    "https://duckdb.org/library/duckdb-not-quack-science/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "DuckDB is an in-process SQL database management system focused on analytical query processing. It is designed to be easy to install and easy to use. DuckDB has no external dependencies. DuckDB has bindings for C/C++, Python, R, Java, Node.js, Go and other languages.",
+      "final_url": "https://duckdb.org/library/duckdb-not-quack-science/",
+      "frameable": null,
+      "image_urls": [
+        "https://duckdb.org/images/sharingduckdb.jpg",
+        "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg",
+        "https://duckdb.org/images/blog/authors/gabor_szarnyas.png",
+        "https://duckdb.org/images/library/thumbs/placeholder-duckdb-2.svg",
+        "https://duckdb.org/images/library/thumbs/placeholder-duckdb-1.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events Everywhere Webshop Design FAQ GitHub 38.6k Support Support DuckDB: Not Quack Science Gábor Szárnyas 2026-05-27 · 35 min Event Ubuntu Summit 2026 Slides Download YouTube DuckDB: Not Quack Science Abstract DuckDB is an open-source SQL database system, geared towards analytical workloads. DuckDB ships a state-of-the-art database architecture as a single package, that is available both as a command line tool and as an in-process library. Uniquely among databases, DuckDB focuses on user experience and portability, making it easy to set up almost anywhere. In this talk, I give a high-level overview of DuckDB. I explain our “friendly SQL” language, which builds on Postgres’ SQL dialect and makes it more ergonomic while staying backwards-compatible. I also present our “friendly CLI”, a command line interface optimized for productivity. I show case studies on how you can process hundreds of GBs of data on your laptop or tens of terabytes on a single server. Other Library Resources DuckCon #7 Talk 30 min DuckCon #7 – State of the Duck 2026-06-24 Hannes Mühleisen and Mark Raasveldt infoq.com Paper DuckDB Quack: Client/Server Protocol over HTTP for Multi-User Analytics 2026-05-31 Renato Losio (InfoQ) Joe Reis Podcast 70 min Quack w/ Hannes Mühleisen 2026-05-28 Hannes Mühleisen All library resources DuckDB is an open-source project by DuckLabs . Documentation Getting Started Installation Guides Data Import Client APIs SQL Introduction Quack Remote Protocol Why DuckDB Resources Engineering Blog Library Quack Page Events Webshop RSS Feed Status Page FAQ Development Release Calendar Roadmap Building DuckDB GitHub Issues Related Sites DuckLake DuckLabs DuckDB Foundation Commercial Support Community Community Extensions LinkedIn Bluesky X (Twitter) Discord © 2026 DuckDB Foundation, Amsterdam NL Code of Conduct Trademark Use",
+      "title": "DuckDB: Not Quack Science – DuckDB",
+      "url": "https://duckdb.org/library/duckdb-not-quack-science/"
     },
     "https://efecto.app/": {
       "cf_fallback_error": "empty result",
@@ -14245,6 +14410,22 @@
       "title": "",
       "url": "https://mem9.ai/SKILL.md"
     },
+    "https://meodai.github.io/heerich/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A tiny engine for 3D voxel scenes rendered to SVG. Boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://meodai.github.io/heerich/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://meodai.github.io/heerich/social.png",
+        "https://storage.ko-fi.com/cdn/brandasset/kofi_s_logo_nolabel.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "heerich.js A tiny engine for 3D voxel scenes rendered to SVG\nheerich.js is a minimalist JavaScript engine that constructs 3D voxel compositions and distills them into pristine SVG. By extruding volumes, carving negative space, and applying boolean operations, you wield a programmatic chisel—projecting complex spatial arrangements into a flat, resolution-independent vector canvas.\nWhile SVG trades raw frame-rates for architectural elegance, its integration with the DOM is profound. The resulting geometry sits natively within the browser, inviting manipulation through CSS and uncompromised infinite scaling. The output is not an ephemeral pixel buffer, but semantic, stylable, and enduring markup.\nThe visual language draws deep inspiration from the geometric rigor\nof\n[Erwin Heerich](https://de.wikipedia.org/wiki/Erwin_Heerich)†\n(1922–2004) — exploring stacked topologies, deliberate subtractions,\nand the quiet tension that exists between solid mass and absolute\nvoid.\nThis page serves as both a technical manual and an interactive gallery. Engage with the examples below to comprehend the mechanics of the engine one primitive at a time.\nCreating an engine\nA Heerich\ninstance holds a 3D grid of voxels and knows\nhow to project them into 2D SVG. You initialize one by providing grid\ndimensions, a rendering tile size in pixels, and an optional baseline\nstyle applied universally across the active sequence.\nimport { Heerich } from './src/heerich.js'\nconst heerich = new Heerich({\ncamera: { type: 'oblique', angle: 315, distance: 25 },\nstyle: { fill: '#ddd', stroke: '#333', strokeWidth: 0.5 },\ngap: 0.05 // uniform spacing between voxels (0–0.5)\n})\nAll parameters are optional — new Heerich()\nworks with\nsensible defaults. Call heerich.toSVG()\nto get an SVG\nstring you can drop into the DOM.\nThe SVG is automatically centered — the engine computes the exact\nbounding box of all visible geometry and sets the\nviewBox\nto fit it, with optional padding. No manual\npositioning needed, even when shapes extend into negative coordinates.\n// Auto-centered with padding\ndocument.body.innerHTML = heerich.toSVG({ padding: 30 })\n// Access raw bounds if you need them\nconst { x, y, w, h } = heerich.getBounds()\nBoxes\nThe most fundamental primitive is a box — a rectangular volume\nanchored by a corner position\nand dimensions. You can\nalso use center\ninstead — the engine offsets by half\nthe size automatically.\nheerich.applyGeometry({\ntype: 'box',\nposition: [0, 0, 0],\nsize: [6, 4, 3]\n})\nDrag the sliders below — the engine clears and rebuilds the scene on\nevery frame. Because getFaces()\nutilizes a dirty-flag\ncache, calculating rapid structural changes remains highly\nefficient.\nSpheres\napplyGeometry({ type: 'sphere' })\nplots a rounded\nvolume using an internal distance check. You can use\nposition\n(bounding-box corner) instead of\ncenter\n, and size\ninstead of\nradius\n. Fractional offsets like .5\nfor\nboth radius and center (e.g., center: 4\n, radius:\n4\n) tend to produce the cleanest symmetrical forms on\ninteger grids.\nheerich.applyGeometry({\ntype: 'sphere',\ncenter: [4.5, 4.5, 4.5],\nradius: 4.5\n})\nConversely, removeGeometry({ type: 'sphere' })\ncarves a\nhollow void using the exact same parameters. Layer a sphere\nsubtraction into a solid box to effortlessly create arched doorways\nor dome cutouts.\nLines\napplyGeometry({ type: 'line' })\nplots a continuous\nvoxelized path between two spatial coordinates. Lines are the only\nshape that uses from\n/to\ninstead of the\nusual position\n/center\n+ size\n.\nYou can thicken the stroke via radius\n, and alter its\njoint geometry via shape\n— choosing either\n'rounded'\n(a sequence of overlapping spheres) or\n'square'\n(overlapping cubes).\nheerich.applyGeometry({\ntype: 'line', from: [0, 0, 0], to: [8, 8, 8],\nradius: 1.5, shape: 'rounded'\n})\nCustom shapes\napplyGeometry({ type: 'fill' })\nis the engine's\narchitectural bedrock — allowing you to define arbitrary\ngeometry as an evaluation function over\n(x, y, z)\ncoordinates. You can specify the area with bounds\n, or\nus",
+      "title": "heerich.js — Interactive Guide",
+      "url": "https://meodai.github.io/heerich/?ref=sidebar"
+    },
     "https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18870,6 +19051,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062063024266256384/img/hTIGZVqEwatKDtrf.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -26431,6 +26626,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ3rZTEb0AApd55.jpg"
     },
+    "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg"
+    },
     "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26444,6 +26653,104 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ40oo6bMAE2kEl.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ6I8qkW0AAc_ag.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6I8qkW0AAc_ag.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6I8qkW0AAc_ag.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6I8qkW0AAc_ag.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -29435,6 +29742,27 @@
       "text_excerpt_zh": "",
       "title": "Core",
       "url": "https://www.core.so/"
+    },
+    "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The projects that defy clarity and specificity.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w1200/2026/06/self-fulfilling-project-1.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2023/01/LOGO-SIMPLE-1-2-2.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2022/02/Screenshot-2022-02-03-at-22.11.06.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2026/06/self-fulfilling-project-1.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/2026/06/self-fulfilling-project-2.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/2026/06/self-fulfilling-project-pierce-1.png",
+        "https://storage.ghost.io/c/d1/ba/d1baee41-d47e-4387-b3f4-1436f65958e0/content/images/size/w30/2026/05/bsnap-full.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "I'm trying to get a handle on the hard and evergreen problems in product work — the ones that will always emerge and grow, so long as there is growth and change.\n[Last time](https://www.davesresearch.com/playing-the-background/) I laid them out in a simple bulleted list, titled like this:\n- Clarity and specificity\n- Traction and motion\n- Alignment and direction\n- Operational adaptation\n- Anticipation and influence\nThis kind of typology is helpful, perhaps, if you already know what the problem is lacking. The hard problems are hard because they defy simple attempts to to build clarity, or alignment, or change how things work, for example. But there's a unhelpful reduction here, the framing ignores the features of the problem that cause it to defy your efforts to build clarity and specificity, or whatever the situation requires.\nA more interesting frame will help you see the type of problem in terms of what is concrete and present as you encounter it.\nI'm working with \"self-fulfilling projects\" as a primary emblem for situations of the first type: ones that demand real clarity and specificity, but defy it. This one, like a self-fulfilling prophecy that causes itself to be true, is the project that causes itself to be important.\nRooted in a narrative about what is true, these projects feed on the strength of personal authority and protect themself self-sealing logic. The story need not be rooted in reality.\nThat the project itself is harmful is not always the case here. Sometimes they are successful, and create empty learning that will reinforce the same behavior. But when the project is harmful, challenging the narrative is extremely difficult. The higher the position of the primary sponsor, the harder it is to pierce the veil of the project and connect it to the current state of things.\nNot incidentally, a major function of [Wardley Mapping](https://www.davesresearch.com/wardley-mapping/) is to turn narrative into tangible and discussable assertion, something that can be challenged without challenging a leader's authority.\nThe self-fulfilling project primarily references itself and feeds off its own importance. It defies attachment to the existing structure of internal potential and external opportunity, replacing specific awareness with stories about what is there. It does the same for the forces at play in the landscape.\nThis kind of situation is inevitable. It arises because people see what they wish was there, rather than what’s really in play. Recall what Peter Korn said, in [Why We Make Things and Why It Matters](https://www.goodreads.com/book/show/18062640-why-we-make-things-and-why-it-matters) (goodreads link):\nIt would be impossible to overstate the degree to which each of us tailors our mental map to assemble a comforting picture. My saga of becoming a furniture maker was neither more nor less than an extended process of inventing narratives that would provide a sense of belonging, meaning, and so on.\nYet at the same time, those narratives had to be anchored in reality if I was to earn a satisfactory livelihood – which they never quite were.\nI modeled myself on an ideal of the craftsman as a self-employed artisan, working alone, building furniture with integrity to his own technical and aesthetic standards, but I failed to stock my mental inventory with useful stories about how to conduct a business, how to market your work, how to build relationships with customers, how to work efficiently. For twelve years I painstakingly cut every mortise by hand with a mallet and chisels, and wondered why I couldn’t earn a decent living!\nYou can’t argue against a self-fulfilling project with outside facts, because it is not rooted in the background. It is a seductive narrative that changes shape in response to challenge. Holding on to the narrative is a means of reducing energy — it's easier to believe what one believes than to expend the energy to examine it.\nIndividually, you can Wardley Map the situation and recognize concrete",
+      "title": "Self-Fulfilling Projects",
+      "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
     },
     "https://www.daybreak.studio/writing/adaline-typography": {
       "cleaner_v": 2,
@@ -42729,11 +43057,16 @@
       "https://pbs.twimg.com/media/HJ0-VUqW0AE6k7f.jpg",
       "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg",
       "https://x.com/mogulinfluence/status/2061872748566081910",
-      "https://mogulmedia.beehiiv.com/"
+      "https://mogulmedia.beehiiv.com/",
+      "https://x.com/mogulinfluence/status/2062236640160932306",
+      "https://pbs.twimg.com/media/HJ6I8qkW0AAc_ag.jpg",
+      "https://pbs.twimg.com/media/HJ6I9dFWIAAOBde.jpg"
     ],
     "2061873579004735884": [
       "https://x.com/sydneyrunkle/status/2061873579004735884",
-      "http://x.com/i/article/2061868304654864384"
+      "http://x.com/i/article/2061868304654864384",
+      "https://x.com/sydneyrunkle/status/2062217190724579673",
+      "http://x.com/i/article/2062174494622416896"
     ],
     "2061877533885473181": [
       "https://x.com/mvanhorn/status/2061877533885473181",
@@ -42741,22 +43074,21 @@
       "https://x.com/mvanhorn/status/2061902951757840759",
       "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg",
       "https://x.com/mvanhorn/status/2062014401218298234",
-      "https://x.com/mvanhorn/status/2061903507427631417",
       "https://x.com/mvanhorn/status/2061903039037112501",
-      "https://x.com/mvanhorn/status/2062056707933745608",
+      "https://x.com/mvanhorn/status/2061903507427631417",
       "https://x.com/mvanhorn/status/2061963776111604046",
+      "https://x.com/mvanhorn/status/2062056707933745608",
+      "https://x.com/mvanhorn/status/2062039830197121030",
       "https://x.com/mvanhorn/status/2061902795465437574",
-      "https://x.com/mvanhorn/status/2061962654969995308",
       "https://x.com/mvanhorn/status/2061902770136100958",
       "https://x.com/mvanhorn/status/2061903003024773574",
-      "https://x.com/mvanhorn/status/2062039830197121030",
+      "https://x.com/mvanhorn/status/2062298533995450614",
       "https://x.com/mvanhorn/status/2061902627315786173",
-      "https://x.com/mvanhorn/status/2061985648559727044",
+      "https://x.com/mvanhorn/status/2061903054526665108",
+      "https://x.com/mvanhorn/status/2061985597930291659",
       "https://x.com/mvanhorn/status/2061903238929191257",
-      "https://x.com/mvanhorn/status/2061885195679400193",
-      "https://x.com/mvanhorn/status/2061984045140185419",
-      "https://x.com/mvanhorn/status/2061902657930018954",
-      "https://x.com/mvanhorn/status/2061985597930291659"
+      "https://x.com/mvanhorn/status/2061985648559727044",
+      "https://x.com/mvanhorn/status/2061902657930018954"
     ],
     "2061882958651474268": [
       "https://x.com/kylejeong/status/2061882958651474268",
@@ -42764,12 +43096,12 @@
       "https://x.com/kylejeong/status/2061904814813155612",
       "https://x.com/kylejeong/status/2061888639387467957",
       "https://x.com/kylejeong/status/2061925642623750223",
-      "https://x.com/kylejeong/status/2061897351653101679",
       "https://x.com/kylejeong/status/2061904958912684135",
+      "https://x.com/kylejeong/status/2061931769394569624",
+      "https://x.com/kylejeong/status/2061897351653101679",
+      "https://x.com/kylejeong/status/2061914499062637000",
       "https://x.com/kylejeong/status/2061911136451326245",
       "https://x.com/kylejeong/status/2061905643527893120",
-      "https://x.com/kylejeong/status/2061931769394569624",
-      "https://x.com/kylejeong/status/2061914499062637000",
       "https://x.com/kylejeong/status/2061890824087171317"
     ],
     "2061887650391625870": [
@@ -42824,8 +43156,92 @@
       "https://x.com/rohit4verse/status/2061990284536467477",
       "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
       "https://x.com/rohit4verse/status/2062081529174802550"
+    ],
+    "2062030462613352815": [
+      "https://x.com/colderoshay/status/2062030462613352815"
+    ],
+    "2062070249508295054": [
+      "https://x.com/duckdb/status/2062070249508295054",
+      "https://pbs.twimg.com/media/HJ3wBHzW8AAR0Em.jpg",
+      "https://x.com/duckdb/status/2062070251848638815",
+      "https://duckdb.org/library/duckdb-not-quack-science/"
+    ],
+    "2062099361199263928": [
+      "https://x.com/regent0x_/status/2062099361199263928",
+      "http://x.com/i/article/2062094052170899456"
+    ],
+    "2062163097280979223": [
+      "https://x.com/aiedge_/status/2062163097280979223",
+      "http://x.com/i/article/2061487141285445632",
+      "https://x.com/aiedge_/status/2062190557800362224",
+      "https://www.aiedgehq.co/",
+      "https://pbs.twimg.com/media/HJ5fTHBbsAElgTp.jpg"
+    ],
+    "2062167932440817915": [
+      "https://x.com/SidebarIO/status/2062167932440817915",
+      "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg",
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+    ],
+    "2062187947084968106": [
+      "https://x.com/_smontlouis/status/2062187947084968106",
+      "https://x.com/_smontlouis/status/2062261279507505242",
+      "https://x.com/_smontlouis/status/2062214139309650167",
+      "https://x.com/_smontlouis/status/2062265021787201718"
+    ],
+    "2062196598441177376": [
+      "https://x.com/elliotchen100/status/2062196598441177376"
+    ],
+    "2062199026544787576": [
+      "https://x.com/ericzakariasson/status/2062199026544787576",
+      "http://x.com/i/article/2061967596568875008",
+      "https://x.com/ericzakariasson/status/2062201109096357896",
+      "https://x.com/ericzakariasson/status/2062204238596653283"
+    ],
+    "2062203743387459836": [
+      "https://x.com/delba_oliveira/status/2062203743387459836",
+      "http://x.com/i/article/2060308122531418112"
+    ],
+    "2062212979282608233": [
+      "https://x.com/SidebarIO/status/2062212979282608233",
+      "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ5zxozXYAElHJE.jpg"
+    ],
+    "2062222541654003885": [
+      "https://x.com/SidebarIO/status/2062222541654003885",
+      "https://animations.dev/vocabulary?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg",
+      "https://x.com/SidebarIO/status/2062167932440817915",
+      "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
+    ],
+    "2062233330196926720": [
+      "https://x.com/aparnadhinak/status/2062233330196926720",
+      "http://x.com/i/article/2062229784009256960",
+      "https://x.com/aparnadhinak/status/2062280622937370649",
+      "https://x.com/aparnadhinak/status/2062255521990852980"
+    ],
+    "2062247077833310623": [
+      "https://x.com/CopilotKit/status/2062247077833310623",
+      "https://x.com/CopilotKit/status/2062214932159222055",
+      "http://github.com/CopilotKit/CopilotKit/",
+      "https://pbs.twimg.com/amplify_video_thumb/2062214880443400195/img/VJXMNsav0qcNfLJ7.jpg"
+    ],
+    "2062262557016989864": [
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg",
+      "https://x.com/SidebarIO/status/2062167932440817915",
+      "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg"
+    ],
+    "2062274312363770064": [
+      "https://x.com/ClaudeDevs/status/2062274312363770064",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ]
   },
-  "updated_at": "2026-06-03T17:18:12Z",
+  "updated_at": "2026-06-04T01:48:27Z",
   "window": "recent"
 }
