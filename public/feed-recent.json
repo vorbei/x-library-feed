@@ -7030,6 +7030,32 @@
       "title": "Introducing dynamic workflows | Claude",
       "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
     },
+    "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What we learned building and scaling hundreds of skills internally at Anthropic.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2058f7af91f02cff0a6187_og-lessons-from-building-claude-code.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439c_b7942952.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a2_6f109d87.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f026439f_0e0f23c0.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ae_3c108f2c.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643a8_d5e89124.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f0264399_a60f7943.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643b1_9159a9b1.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f3a763cec27e2f02643ab_00319576.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Lessons from building Claude Code: How we use skills\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\nWhat we learned building and scaling hundreds of skills internally at Anthropic.\n- June 3, 2026\n- 5min\nSkills have become one of the most used extension points in Claude Code. They’re flexible, easy to make, and easy to distribute.\nBut this flexibility also makes it hard to know what works best. What type of skills are worth making? How do you structure a skill? When do you share them with others?\nWe've been using skills in Claude Code extensively at Anthropic with hundreds of them in active use. These are the lessons we've learned about using skills to accelerate our development.\nSkills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently. This blog post assumes familiarity with skills basics; if you’re new, start with our [Introduction to agent skills course on Skilljar](https://anthropic.skilljar.com/introduction-to-agent-skills).\nA common misconception we hear about skills is that they are “just markdown files.” They’re actually folders that can include scripts, assets, data, etc. that the agent can discover, explore and manipulate.\nIn Claude Code, skills also have a [wide variety of configuration options](https://code.claude.com/docs/en/skills#frontmatter-reference) including registering dynamic hooks.\nWe’ve found that some of the most effective skills in Claude Code use these configuration options and folder structure effectively.\nOr read the [documentation](https://code.claude.com/docs/en/overview)\nAfter cataloging all of our internal skills at Anthropic, we noticed they cluster into nine categories. The best skills fit cleanly into one; the ones that try to do too much straddle several and confuse the agent. This isn't a definitive list, but it is a useful framework for identifying gaps in your own skills library.\nThese are skills that explain how to correctly use a library, CLI, or SDKs. They could be both for internal libraries or common libraries that Claude Code sometimes struggles to handle. These skills often included a folder of reference code snippets and a list of gotchas for Claude to avoid when writing a script.\nExamples include:\nbilling-lib\n— your internal billing library: edge cases, footguns, etc.internal-platform-cli\n— every subcommand of your internal CLI wrapper with examples on when to use them.sandbox-proxy\n— configuring your org's egress gateway for dev work: which hosts are reachable, how to debug \"connection refused\" errors, how to add an allowlist entry.\nThese are skills that describe how to test or verify that your code is working. They are often paired with playwright, tmux, or other external tools for verification.\nVerification skills have had the most measurable impact on Claude’s output quality internally. It can be worth having an engineer spend a week just making your verification skills excellent.\nConsider techniques like having Claude record a video of its output so you can see exactly what it tested, or enforcing programmatic assertions on state at each step. These are often done by including a variety of scripts in the skill.\nExamples include:\nsignup-flow-driver\n— runs through signup → email verify → onboarding in a headless browser, with hooks for asserting state at each stepcheckout-verifier\n— drives the checkout UI with Stripe test cards, verifies the invoice actually lands in the right statetmux-cli-driver\n— for interactive CLI testing where the thing you're verifying needs a TTY\nThese are skills that connect to your data and monitoring stacks. These skills might include libraries to fetch your data with credentials, specific dashboard ids, etc., as well as instructions on common workflows or ways to get data.\nExamples include:\nfunnel-query\n— \"which events do I join to see signup → activation → paid\" plus the table that actually has the canonical user_idcohort-compare\n— comp",
+      "title": "Lessons from building Claude Code: How we use skills | Claude",
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
+    },
     "https://claude.com/blog/the-founders-playbook": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7360,6 +7386,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Cursor Team Kit | Cursor Plugins",
       "url": "https://cursor.com/marketplace/cursor/cursor-team-kit"
+    },
+    "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How AI has changed the way I prototype, plan, and ship; and what I'm doing to keep my hands dirty.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://darylcecile.net/og?slug=speed-of-prototyping-age-of-ai",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://github.com&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mikemcquaid.com&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cassidoo.co&size=32",
+        "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://simonwillison.net&size=32",
+        "https://darylcecile.net/icon.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Note: These are personal reflections on how my workflow has shifted over the past year, not a pitch for any tool. Your mileage will (and probably should) vary.\nA few years back I wrote about my love of [throwaway prototypes](/notes/throwaway-prototypes); those little proof-of-concepts that exist purely to get an idea out of your head and into something tangible. At the time, my biggest bottleneck was me; the time it took to scaffold a project, wire up the boring bits, and get to a place where the interesting parts could actually be tested. Fast forward to now, and that bottleneck has all but vanished.\nI've been a little hesitant to write about this. I've already shared some [cautious thoughts on AI](/notes/github-copilot-agent-actually-useful-ai) and where it fits into my workflow, and I stand by all of it. I still think the industry is figuring things out in real time, and I still think it pays to be careful. But cautious doesn't mean blind, and the honest truth is that AI has changed how quickly I can go from \"I wonder if…\" to \"oh, it works\".\nIf you've looked at my [GitHub](https://github.com/darylcecile) recently, you'll have noticed a stream of new repos showing up. [Sakoa](/projects/sakoa), a progressive systems language I've been designing from scratch, complete with an effect system, three memory modes, and a MIR with multiple backends. [Kato](/projects/kato), a notation language meant to sit somewhere between JSON, TOML, and YAML, but explicitly designed to be friendly to both humans and agents. [Seal](/projects/seal), a tiny CLI that quietly kills the .env file by stashing secrets in OS-native credential stores. [Karabiner](/projects/karabiner-app), an iOS-first agent-native messaging app. [Plim](/projects/plim), a Notion-inspired, embeddable block editor for the web with a framework-agnostic core and React bindings. And a few more knocking around that aren't ready for the spotlight yet.\nA few years ago, that list would have been three repos with READMEs, two abandoned branches, and one working prototype I'd be quietly proud of. Now? The prototypes exist. They run. Some of them have tests. A couple are starting to look like real projects. And while not all of them will turn into anything serious (and that's [kind of the point](/notes/throwaway-prototypes)), there is something really satisfying about being able to actually try an idea, rather than just talk about it.\nThe thing nobody really warned me about is how much AI changes the shape of engineering work, not just the speed of it. When I'm not the one typing every line, I'm forced to think differently. I'm thinking about boundaries, contracts, and how the pieces fit together. I'm writing prompts and specs that describe the system holistically, before the system exists.\nThat shift sounds small but it's been quietly transformative. I'm planning at a more abstracted level, framing problems before I solve them, and I've gotten noticeably better at delegating; both to agents and to people. Turns out that the skill of \"describing exactly what success looks like, in a way that a junior engineer (or a model) can act on without you in the room\" is the same skill in both directions. Sharing vision, breaking work down, anticipating where things might go wrong; these are muscles I've been forced to exercise much more deliberately, and I'm better for it.\nI've been tracking this loosely for a while, mostly out of curiosity. Based on my own day-to-day engineering tasks (measured roughly by time-to-PR for typical pieces of work), I'm averaging about 4x faster than I was before agents became a meaningful part of my workflow. Some days it's more, some days it's less, and some days the agent does something delightfully strange that costs me an hour to undo (which I'll happily count against the average).\nBut that number understates the more interesting effect: the kind of work I can take on has changed. Things I would have previously parked under \"nice idea, no time\" now slot into an",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar"
     },
     "https://delete-images-button.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -26593,6 +26639,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
+    },
     "https://pbs.twimg.com/media/HJ0-VU0XAAAKhMt.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26984,6 +27044,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
     "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
       "cleaner_v": 2,
@@ -43361,14 +43477,14 @@
       "https://x.com/kylejeong/status/2061882958651474268",
       "http://x.com/i/article/2061630624428163072",
       "https://x.com/kylejeong/status/2061904814813155612",
-      "https://x.com/kylejeong/status/2061888639387467957",
       "https://x.com/kylejeong/status/2062407478974030000",
-      "https://x.com/kylejeong/status/2061925642623750223",
-      "https://x.com/kylejeong/status/2061904958912684135",
-      "https://x.com/kylejeong/status/2061931769394569624",
-      "https://x.com/kylejeong/status/2061914499062637000",
+      "https://x.com/kylejeong/status/2061888639387467957",
       "https://x.com/kylejeong/status/2061897351653101679",
+      "https://x.com/kylejeong/status/2061914499062637000",
       "https://x.com/kylejeong/status/2061911136451326245",
+      "https://x.com/kylejeong/status/2061904958912684135",
+      "https://x.com/kylejeong/status/2061925642623750223",
+      "https://x.com/kylejeong/status/2061931769394569624",
       "https://x.com/kylejeong/status/2061905643527893120",
       "https://x.com/kylejeong/status/2061890824087171317"
     ],
@@ -43457,9 +43573,9 @@
       "https://x.com/SidebarIO/status/2062167932440817915",
       "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ5KzlgXYAEx5mM.jpg",
-      "https://x.com/SidebarIO/status/2062187058047668541",
-      "https://poyo.co/note/20260525T094605/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
     "2062185564871295459": [
       "https://x.com/polydao/status/2062185564871295459",
@@ -43467,10 +43583,10 @@
       "https://x.com/polydao/status/2062319550444499167",
       "https://x.com/polydao/status/2062319377811124480",
       "https://x.com/polydao/status/2062319316347801923",
-      "https://x.com/polydao/status/2062188839976706474",
-      "https://x.com/polydao/status/2062319504579858823",
       "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062188839976706474",
       "https://x.com/polydao/status/2062319433939406875",
+      "https://x.com/polydao/status/2062319504579858823",
       "https://x.com/polydao/status/2062319145262158327"
     ],
     "2062187947084968106": [
@@ -43494,8 +43610,8 @@
       "https://x.com/zaimiri/status/2062523909241774470",
       "https://x.com/zaimiri/status/2062523861267370269",
       "https://x.com/zaimiri/status/2062523820477681966",
-      "https://x.com/zaimiri/status/2062523769277866246",
       "https://x.com/zaimiri/status/2062523732623831083",
+      "https://x.com/zaimiri/status/2062523769277866246",
       "https://x.com/zaimiri/status/2062523790471635193",
       "https://x.com/zaimiri/status/2062225157775556996"
     ],
@@ -43517,9 +43633,9 @@
       "https://x.com/SidebarIO/status/2062222541654003885",
       "https://animations.dev/vocabulary?ref=sidebar",
       "https://pbs.twimg.com/media/HJ58eQlW8AA_B7l.jpg",
-      "https://x.com/SidebarIO/status/2062187058047668541",
-      "https://poyo.co/note/20260525T094605/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ],
     "2062226357522743484": [
       "https://x.com/hwchase17/status/2062226357522743484"
@@ -43579,9 +43695,9 @@
       "https://x.com/yanhua1010/status/2062345653079224458",
       "http://x.com/i/article/2060567536543182848",
       "https://x.com/yanhua1010/status/2062356971169444241",
-      "https://x.com/yanhua1010/status/2062390639887814754",
+      "https://x.com/yanhua1010/status/2062494496575861099",
       "https://x.com/yanhua1010/status/2062390692849295424",
-      "https://x.com/yanhua1010/status/2062494496575861099"
+      "https://x.com/yanhua1010/status/2062390639887814754"
     ],
     "2062380163338535064": [
       "https://x.com/libapi_/status/2062380163338535064",
@@ -43589,30 +43705,55 @@
       "https://x.com/libapi_/status/2062388545147548097",
       "https://x.com/libapi_/status/2062382058245390445",
       "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
-      "https://x.com/libapi_/status/2062487028378546243",
       "https://x.com/libapi_/status/2062488649963594062",
+      "https://x.com/libapi_/status/2062552422783033678",
       "https://x.com/libapi_/status/2062382540036739153",
       "https://x.com/libapi_/status/2062487159588942068",
       "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062487028378546243",
+      "https://x.com/libapi_/status/2062543042175967659",
       "https://x.com/libapi_/status/2062403411677700336"
     ],
     "2062418054831554666": [
       "https://x.com/IBuzovskyi/status/2062418054831554666",
       "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
       "https://x.com/IBuzovskyi/status/2062427739659895262",
+      "https://x.com/IBuzovskyi/status/2062583604316958753",
       "https://x.com/IBuzovskyi/status/2062533992281248111",
+      "https://x.com/IBuzovskyi/status/2062571983548633101",
       "https://x.com/IBuzovskyi/status/2062470043997245699",
-      "https://x.com/IBuzovskyi/status/2062468232728965377",
       "https://x.com/IBuzovskyi/status/2062443797171118534",
       "https://x.com/IBuzovskyi/status/2062477205951676692",
+      "https://x.com/IBuzovskyi/status/2062468232728965377",
       "https://x.com/IBuzovskyi/status/2062430940949799189",
-      "https://x.com/IBuzovskyi/status/2062509027351781425"
+      "https://x.com/IBuzovskyi/status/2062509027351781425",
+      "https://x.com/IBuzovskyi/status/2062548402018160685"
+    ],
+    "2062428035559616604": [
+      "https://x.com/_vmlops/status/2062428035559616604",
+      "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
     ],
     "2062429159545303409": [
       "https://x.com/vijayiyengar/status/2062429159545303409",
       "http://x.com/i/article/2059705598988701696"
+    ],
+    "2062443798647517197": [
+      "https://x.com/hooeem/status/2062443798647517197",
+      "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
+      "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
+      "https://x.com/hooeem/status/2062447490104783100"
+    ],
+    "2062549448274628846": [
+      "https://x.com/SidebarIO/status/2062549448274628846",
+      "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     ]
   },
-  "updated_at": "2026-06-04T14:10:38Z",
+  "updated_at": "2026-06-04T17:23:06Z",
   "window": "recent"
 }
