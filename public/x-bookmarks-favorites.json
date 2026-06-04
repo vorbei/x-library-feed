@@ -177,6 +177,9 @@
         "bookmark@chumsdock"
       ],
       "text": "How do we automate business analytics with Claude?\n\nNew blog post covering our best practices for skills, data foundations, and evaluations when building agents to perform data analysis: \n\nhttps://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "text_zh": "我们如何用Claude实现商业分析自动化？\n\n最新博文涵盖了我们构建数据分析代理时关于技能、数据基础和评估的最佳实践：\n\nhttps://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "text_zh_hash": "11e7b78b4d004cfc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ClaudeDevs/status/2062274312363770064"
     },
     {
@@ -268,6 +271,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The revolution will not be optimised: on frictionmaxxing and the creative virtues of inconvenience https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526?ref=sidebar https://t.co/em0cxLirkz",
+      "text_zh": "革命不会被优化：论“摩擦最大化”与不便的创造性美德  \nhttps://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526?ref=sidebar  \nhttps://t.co/em0cxLirkz",
+      "text_zh_hash": "64447b3333f659e0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2062212979282608233"
     },
     {
@@ -322,6 +328,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Vocabulary https://animations.dev/vocabulary?ref=sidebar https://t.co/lbXgb4jLGz",
+      "text_zh": "词汇表 https://animations.dev/vocabulary?ref=sidebar https://t.co/lbXgb4jLGz",
+      "text_zh_hash": "76727d745fbd6435",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2062222541654003885"
     },
     {
@@ -368,6 +377,9 @@
         "bookmark@chumsdock"
       ],
       "text": "🔗 https://duckdb.org/library/duckdb-not-quack-science/",
+      "text_zh": "# DuckDB：不只是“嘎嘎”科学\n\nDuckDB 是一个嵌入式、进程内的 SQL OLAP 数据库管理系统。它专为数据分析工作负载而设计，能够高效地处理大规模数据集。DuckDB 的架构使其非常适合在数据科学、数据工程和分析应用中使用。\n\n## 主要特性\n\n- **嵌入式**：无需安装单独的服务器进程，可直接集成到应用程序中\n- **列式存储**：针对分析查询进行了优化，支持向量化执行\n- **SQL 兼容**：支持标准 SQL，包括窗口函数、CTE 等高级功能\n- **多语言支持**：提供 Python、R、Java、Node.js 等多种语言的 API\n- **零配置**：开箱即用，无需复杂的配置\n\n## 性能优势\n\nDuckDB 在处理分析查询时表现出色，尤其是在以下场景：\n\n- 聚合查询\n- 连接操作\n- 窗口函数\n- 数据过滤和转换\n\n## 使用场景\n\n1. **数据探索**：快速分析 CSV、Parquet 等文件格式的数据\n2. **ETL 管道**：作为轻量级的数据转换引擎\n3. **嵌入式分析**：在应用程序中提供分析功能\n4. **教学和学习**：学习 SQL 和数据分析的理想工具\n\n## 示例代码\n\n```python\nimport duckdb\n\n# 创建连接\nconn = duckdb.connect()\n\n# 加载数据\nconn.execute(\"CREATE TABLE sales AS SELECT * FROM 'sales.csv'\")\n\n# 执行查询\nresult = conn.execute(\"\"\"\n    SELECT \n        product,\n        SUM(amount) as total_sales\n    FROM sales\n    GROUP BY product\n    ORDER BY total_sales DESC\n\"\"\").fetchdf()\n\nprint(result)\n```\n\n## 与其他工具的集成\n\nDuckDB 可以轻松与流行的数据科学工具集成：\n\n- **Pandas**：直接读取和写入 DataFrame\n- **Apache Arrow**：支持零拷贝数据交换\n- **Jupyter Notebook**：在 Notebook 中直接使用\n- **dbt**：作为 dbt 的适配器使用\n\n## 结论\n\nDuckDB 是一个强大而灵活的分析数据库，特别适合需要快速、高效处理数据的场景。它的嵌入式特性和对标准 SQL 的支持使其成为数据科学家和工程师的得力工具。",
+      "text_zh_hash": "49121e9b45360b41",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/duckdb/status/2062070251848638815"
     },
     {
@@ -412,6 +424,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Fantastic writeup on Generative UI by @Saboo_Shubham_ \n\nQuite a few mentions of CopilotKit 🎉",
+      "text_zh": "关于 @Saboo_Shubham_ 撰写的生成式 UI 精彩文章\n\n文中多次提及 CopilotKit 🎉",
+      "text_zh_hash": "f00b9b6c7edcaf81",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CopilotKit/status/2062247077833310623"
     },
     {
@@ -466,6 +481,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Self-Fulfilling Projects https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar https://t.co/Iz8lQTWHQr",
+      "text_zh": "自我实现的计划 https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar https://t.co/Iz8lQTWHQr",
+      "text_zh_hash": "0677d86210604434",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2062167932440817915"
     },
     {
@@ -520,6 +538,9 @@
         "bookmark@chumsdock"
       ],
       "text": "heerich.js https://meodai.github.io/heerich/?ref=sidebar https://t.co/4obEpNtnvU",
+      "text_zh": "heerich.js https://meodai.github.io/heerich/?ref=sidebar https://t.co/4obEpNtnvU",
+      "text_zh_hash": "3afc14e06d63939a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2062262557016989864"
     },
     {
@@ -561,6 +582,9 @@
         "bookmark@chumsdock"
       ],
       "text": "/improve-codebase-architecture\n\nj'ai rarement vu un skill aussi merveilleux",
+      "text_zh": "/improve-codebase-architecture\n\n我很少见过如此出色的技能。",
+      "text_zh_hash": "5a5392370c635232",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_smontlouis/status/2062187947084968106"
     },
     {
@@ -602,6 +626,9 @@
         "bookmark@chumsdock"
       ],
       "text": "a little late on this but my god…\nincredible read.",
+      "text_zh": "虽然来得有点晚，但这篇文章……  \n读起来真是令人叹为观止。",
+      "text_zh_hash": "f2747f45203c3091",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/colderoshay/status/2062030462613352815"
     },
     {
