@@ -28372,6 +28372,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg"
     },
+    "https://pbs.twimg.com/media/HKC28xPbMAAzoeq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKC28xPbMAAzoeq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKC28xPbMAAzoeq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKC28xPbMAAzoeq.jpg"
+    },
+    "https://pbs.twimg.com/media/HKC28xQaEAEioUD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKC28xQaEAEioUD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKC28xQaEAEioUD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKC28xQaEAEioUD.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -44004,13 +44032,13 @@
       "https://x.com/polydao/status/2062185564871295459",
       "http://x.com/i/article/2062179059736391681",
       "https://x.com/polydao/status/2062319550444499167",
-      "https://x.com/polydao/status/2062188839976706474",
-      "https://x.com/polydao/status/2062319145262158327",
+      "https://x.com/polydao/status/2062319316347801923",
       "https://x.com/polydao/status/2062319377811124480",
-      "https://x.com/polydao/status/2062319504579858823",
-      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062188839976706474",
       "https://x.com/polydao/status/2062319433939406875",
-      "https://x.com/polydao/status/2062319316347801923"
+      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062319504579858823",
+      "https://x.com/polydao/status/2062319145262158327"
     ],
     "2062187947084968106": [
       "https://x.com/_smontlouis/status/2062187947084968106",
@@ -44118,46 +44146,44 @@
     "2062345653079224458": [
       "https://x.com/yanhua1010/status/2062345653079224458",
       "http://x.com/i/article/2060567536543182848",
-      "https://x.com/yanhua1010/status/2062494496575861099",
       "https://x.com/yanhua1010/status/2062356971169444241",
-      "https://x.com/yanhua1010/status/2062390692849295424",
-      "https://x.com/yanhua1010/status/2062390639887814754"
+      "https://x.com/yanhua1010/status/2062494496575861099",
+      "https://x.com/yanhua1010/status/2062390639887814754",
+      "https://x.com/yanhua1010/status/2062390692849295424"
     ],
     "2062380163338535064": [
       "https://x.com/libapi_/status/2062380163338535064",
       "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
       "https://x.com/libapi_/status/2062388545147548097",
+      "https://x.com/libapi_/status/2062487028378546243",
+      "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062552422783033678",
+      "https://x.com/libapi_/status/2062487159588942068",
       "https://x.com/libapi_/status/2062382058245390445",
       "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
-      "https://x.com/libapi_/status/2062487159588942068",
       "https://x.com/libapi_/status/2062488649963594062",
-      "https://x.com/libapi_/status/2062382540036739153",
-      "https://x.com/libapi_/status/2062552422783033678",
-      "https://x.com/libapi_/status/2062382239963558020",
-      "https://x.com/libapi_/status/2062487028378546243",
       "https://x.com/libapi_/status/2062543042175967659",
-      "https://x.com/libapi_/status/2062403411677700336"
+      "https://x.com/libapi_/status/2062403411677700336",
+      "https://x.com/libapi_/status/2062382540036739153"
     ],
     "2062414047073448262": [
       "https://x.com/Potatoloogs/status/2062414047073448262",
-      "https://claude.com/blog/running-an-ai-native-engineering-org",
-      "https://x.com/Potatoloogs/status/2062513449100595489",
-      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+      "https://claude.com/blog/running-an-ai-native-engineering-org"
     ],
     "2062418054831554666": [
       "https://x.com/IBuzovskyi/status/2062418054831554666",
       "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
       "https://x.com/IBuzovskyi/status/2062427739659895262",
-      "https://x.com/IBuzovskyi/status/2062583604316958753",
-      "https://x.com/IBuzovskyi/status/2062533992281248111",
       "https://x.com/IBuzovskyi/status/2062443797171118534",
+      "https://x.com/IBuzovskyi/status/2062468232728965377",
+      "https://x.com/IBuzovskyi/status/2062533992281248111",
+      "https://x.com/IBuzovskyi/status/2062470043997245699",
       "https://x.com/IBuzovskyi/status/2062477205951676692",
       "https://x.com/IBuzovskyi/status/2062571983548633101",
       "https://x.com/IBuzovskyi/status/2062430940949799189",
-      "https://x.com/IBuzovskyi/status/2062468232728965377",
-      "https://x.com/IBuzovskyi/status/2062470043997245699",
-      "https://x.com/IBuzovskyi/status/2062509027351781425",
-      "https://x.com/IBuzovskyi/status/2062548402018160685"
+      "https://x.com/IBuzovskyi/status/2062583604316958753",
+      "https://x.com/IBuzovskyi/status/2062548402018160685",
+      "https://x.com/IBuzovskyi/status/2062509027351781425"
     ],
     "2062428035559616604": [
       "https://x.com/_vmlops/status/2062428035559616604",
@@ -44170,9 +44196,12 @@
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
       "http://x.com/i/article/2059613463731732484",
+      "https://x.com/AdamBartas/status/2062789494198223194",
       "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062480475277472227",
-      "https://x.com/AdamBartas/status/2062600236393267462"
+      "https://x.com/AdamBartas/status/2062789236806328781",
+      "https://x.com/AdamBartas/status/2062600236393267462",
+      "https://x.com/AdamBartas/status/2062789057705390579"
     ],
     "2062443798647517197": [
       "https://x.com/hooeem/status/2062443798647517197",
@@ -44192,8 +44221,8 @@
       "https://x.com/0xCodez/status/2062483755520987393",
       "https://x.com/0xCodez/status/2062468272738484617",
       "https://x.com/0xCodez/status/2062469613363875992",
-      "https://x.com/0xCodez/status/2062483550314651721",
-      "https://x.com/0xCodez/status/2062474910996271452"
+      "https://x.com/0xCodez/status/2062474910996271452",
+      "https://x.com/0xCodez/status/2062483550314651721"
     ],
     "2062495991421616319": [
       "https://x.com/riba2534/status/2062495991421616319",
@@ -44205,7 +44234,9 @@
     ],
     "2062513692747682129": [
       "https://x.com/ai_Kyros/status/2062513692747682129",
-      "https://x.com/ai_Kyros/status/2062773461324636279"
+      "https://x.com/ai_Kyros/status/2062849793408540688",
+      "https://pbs.twimg.com/media/HKC28xQaEAEioUD.jpg",
+      "https://pbs.twimg.com/media/HKC28xPbMAAzoeq.jpg"
     ],
     "2062515658420572271": [
       "https://x.com/tayloramurphy/status/2062515658420572271",
@@ -44227,13 +44258,14 @@
       "https://x.com/Av1dlive/status/2062561213532471707",
       "http://x.com/i/article/2062489133445201920",
       "https://x.com/Av1dlive/status/2062638021233856941",
-      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062583273277317301",
-      "https://x.com/Av1dlive/status/2062647510800482789",
+      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062658439936107000",
+      "https://x.com/Av1dlive/status/2062647510800482789",
       "https://x.com/Av1dlive/status/2062564180574740908",
-      "https://x.com/Av1dlive/status/2062647578857288082",
       "https://x.com/Av1dlive/status/2062564208223596991",
+      "https://x.com/Av1dlive/status/2062805766969659733",
+      "https://x.com/Av1dlive/status/2062647578857288082",
       "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062562364755681671"
     ],
@@ -44279,9 +44311,9 @@
       "http://x.com/i/article/2062577089501601793",
       "https://x.com/FullStackML/status/2062588660504281091",
       "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "https://x.com/FullStackML/status/2062595467410866450",
       "https://x.com/FullStackML/status/2062785090082742504",
-      "https://x.com/FullStackML/status/2062741198054494422",
-      "https://x.com/FullStackML/status/2062595467410866450"
+      "https://x.com/FullStackML/status/2062741198054494422"
     ],
     "2062595534381326421": [
       "https://x.com/posthog/status/2062595534381326421",
@@ -44313,6 +44345,6 @@
       "http://x.com/i/article/2062661069458620416"
     ]
   },
-  "updated_at": "2026-06-05T06:43:29Z",
+  "updated_at": "2026-06-05T10:55:06Z",
   "window": "recent"
 }
