@@ -189,6 +189,9 @@
         "bookmark@chumsdock"
       ],
       "text": "AI Agent Memory\n\nRead here: https://outcomeschool.com/blog/ai-agent-memory https://t.co/Q3ymWPzW6L",
+      "text_zh": "AI Agent 记忆\n\n阅读原文：https://outcomeschool.com/blog/ai-agent-memory https://t.co/Q3ymWPzW6L",
+      "text_zh_hash": "b8505a135091b016",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pallavishekhar_/status/2062576319871984013"
     },
     {
@@ -244,6 +247,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Claude Code creator:\n\n\"I don't prompt Claude anymore. I write loops - and the loops do the work. My job is to write loops.\"\n\nin 30 minutes Boris reveals his actual daily Claude Code setup.\n\nClaude Code + loops + dynamic workflow  \n\nWorth more than a $500 vibe-coding course https://t.co/wf5CRlGr0G",
+      "text_zh": "Claude Code 的创造者：\n\n“我不再给 Claude 写提示词了。我写循环——循环替我干活。我的工作就是写循环。”\n\n30 分钟后，Boris 将展示他实际日常使用的 Claude Code 配置。\n\nClaude Code + 循环 + 动态工作流\n\n比一门 500 美元的“氛围编程”课程更有价值 https://t.co/wf5CRlGr0G",
+      "text_zh_hash": "8f953c861f720c32",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xCodez/status/2062464183409545224"
     },
     {
@@ -287,6 +293,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor.\n\nIt’s happening faster than we thought, and the implications deserve greater attention. https://www.anthropic.com/institute/recursive-self-improvement",
+      "text_zh": "我们内部数据显示，Claude正在加速AI开发——这可能是通往递归自我改进的路径，即AI自主构建更强大的后继者。\n\n这一进程比我们预想的更快，其影响值得更多关注。https://www.anthropic.com/institute/recursive-self-improvement",
+      "text_zh_hash": "2a1187153fafa2da",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnthropicAI/status/2062568862479208923"
     },
     {
@@ -408,6 +417,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Earlier this week we GAed Topics, and now we're sharing the details on how we built it.\n\nClustering may seem simple, but the hard part is making it work across millions of production traces without blowing out token costs or breaking down at scale.\n\nWe use an LLM to summarize the trace along a single dimension in a sentence or two. Then we can embed that summary, cluster the embeddings, and name the clusters with a second LLM pass. The trace itself never has to fit in an embedding model’s context window, and the downstream pipeline never has to know anything about agents, tools, or token counts.\n\nThis is how we apply intelligence, cost-effectively, at AI scale. There's also lots of interesting architecture and design choices in the implementation that we get into here:",
+      "text_zh": "本周早些时候，我们正式发布了Topics，现在来分享构建它的具体细节。\n\n聚类看似简单，但难点在于如何让它在数百万条生产追踪数据中稳定运行，同时避免token成本失控或在大规模场景下崩溃。\n\n我们使用LLM将追踪数据沿单一维度总结为一两句话。然后对该摘要进行嵌入，对嵌入向量进行聚类，再通过第二轮LLM调用为聚类结果命名。这样，追踪数据本身无需适配嵌入模型的上下文窗口，下游管道也无需了解任何关于智能体、工具或token计数的信息。\n\n这就是我们以成本高效的方式，在AI规模下应用智能的方法。此外，实现过程中还有许多有趣的架构和设计选择，我们将在本文中深入探讨。",
+      "text_zh_hash": "e793a0a6a708f6ed",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ankrgyl/status/2062642701250842675"
     },
     {
@@ -747,6 +759,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Call your Hermes Agent https://t.co/NJcWGfefPw",
+      "text_zh": "调用你的 Hermes Agent https://t.co/NJcWGfefPw",
+      "text_zh_hash": "daecc3a8b6771f14",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ElevenLabsDevs/status/2062562168843714795"
     },
     {
@@ -788,6 +803,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.\n\nToday, that work is rolling out as a more capable memory system in ChatGPT. https://openai.com/index/chatgpt-memory-dreaming/",
+      "text_zh": "我们一直在研究让ChatGPT记忆在对话间传递上下文并长期保持有用的新方法。\n\n今天，这项成果已作为更强大的记忆系统在ChatGPT中推出。https://openai.com/index/chatgpt-memory-dreaming/",
+      "text_zh_hash": "baed9e76a97d4981",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/OpenAI/status/2062567556524003631"
     },
     {
