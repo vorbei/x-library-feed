@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 676,
+      "count": 679,
       "name": "Tools"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 308,
+      "count": 310,
       "name": "Articles"
     },
     {
@@ -38,8 +38,216 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2230,
+  "item_count": 2235,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_image_urls": [
+        "https://mainframe.app/og.jpg",
+        "https://mainframe.app/landing-wallpaper.jpg",
+        "https://mainframe.app/_next/image?url=%2Flanding-carousel-design-thumb.jpg&w=3840&q=75",
+        "https://mainframe.app/_next/image?url=%2Flanding-carousel-docs-thumb.jpg&w=3840&q=75",
+        "https://mainframe.app/_next/image?url=%2Flanding-carousel-features-thumb.jpg&w=3840&q=75",
+        "https://mainframe.app/_next/image?url=%2Flanding-carousel-marketing-thumb.jpg&w=3840&q=75",
+        "https://mainframe.app/_next/image?url=%2Flanding-carousel-roadmap-thumb.jpg&w=3840&q=75",
+        "https://mainframe.app/landing-showcase-coding.webp",
+        "https://mainframe.app/landing-showcase-pr.webp",
+        "https://mainframe.app/landing-showcase-docs.webp",
+        "https://mainframe.app/landing-showcase-design.webp",
+        "https://mainframe.app/landing-showcase-marketing.webp"
+      ],
+      "article_title_extracted": "Mainframe — Watch your agents work.",
+      "category": "Tools",
+      "created_at": "2026-06-05T03:05:29.421561Z",
+      "description": "Mainframe turns agent work into videos your team can keep up with.",
+      "domain": "mainframe.app",
+      "embed_type": "",
+      "id": "k170wd9wdg3155tb1pgjdzcev1883mxs",
+      "og_image_url": "https://mainframe.app/og.jpg",
+      "recommended_at": "2026-06-05T03:05:41.287000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "observability",
+        "workflow-automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T03:05:41.287000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Mainframe — Watch your agents work.",
+      "url": "https://mainframe.app/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://api.motion.dev/magazine/og/article/collision-detection-in-hover-detection.png?title=Crashing+cars+and+improving+hover+detection&description=Fast+pointer+movements+can+skip+over+elements%2C+breaking+hover+detection.+The+surprising+solution+can+be+found+in+game+development.&category=Feature&author=Matt+Perry&date=2026-06-04T00%3A00%3A00.000Z",
+        "https://images.motion.dev/magazine/ulZPf8sPx65JUasbGmCjltf6uEU.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1920,quality=85,format=auto/magazine/rCRjf4zUtZHHo4u3DUPxTrsREQ.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1920,quality=85,format=auto/magazine/B11EJ9tiIZXSP7ouZ3Fo7IisSqw.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1800,quality=85,format=auto/magazine/oTlEwUgnWSnhaARDalKz5Mv5q8.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1800,quality=85,format=auto/magazine/Y0P9c0xJ3IDQblchKWxoo5NvXcE.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1800,quality=85,format=auto/magazine/GMjwImBgc9duFV76RUOaN2Mc.jpg",
+        "https://images.motion.dev/cdn-cgi/image/width=1920,quality=85,format=auto/magazine/NuhceCv6C9R2cQ7PMhYjpNnVo.jpg",
+        "https://images.motion.dev/cdn-cgi/image/width=1726,quality=85,format=auto/magazine/gFJHc66zMdnKtqPqXUjOak1y1wA.png",
+        "https://images.motion.dev/cdn-cgi/image/width=1920,quality=85,format=auto/magazine/PW7TZzsRuEq5sLfu3FYVeD6Kcg.png",
+        "https://api.motion.dev/score/badge?url=motion.dev"
+      ],
+      "article_text": "Crashing cars and improving hover detection\nFast pointer movements can skip over elements, breaking hover detection. The surprising solution can be found in game development.\nI'm going to show you an effect that you'll recognise immediately, perhaps without ever having paid it much attention.\nTake any collection of elements that react to hover: a list of menu items, swatches in a colour picker, squares in a grid. Now quickly swipe your cursor across them:\nIn real life, your hand moves across your desk, or your finger across the screen, in a continuous, unbroken motion. But this isn't reflected in the example above. Here, lights in the path of motion are switched on seemingly at random. Move slower, and you'll see that every element lights up, and the faster you swipe, the more elements are skipped.\nNow run your mouse over this version. Swipe it as fast as you like: every cell you cross lights up, with nothing skipped.\nHonestly when I created this second example I couldn't stop playing with it. It is weird how responsive it feels, why doesn't it always work like this? By the end of this post you'll know why, and how to build this improved hover yourself.\nSurprisingly, this is the exact same problem that video game engines encounter when deciding whether a car has crashed, or any other type of collision has taken place. As such, a solution to our skipped elements was invented decades ago.\nDiscrete vs continuous motion\nCSS selectors like :hover\n, Motion events like onHoverStart\n, and JS events like pointerenter\nare all afflicted by this skipped element problem.\nThe reason being, pointer position is sampled discretely, rather than continuously. Streamed as a series of points, via events, to the browser and then by the browser to our code.\nTo illustrate, lets imagine a row of elements, with a pointer moving slowly across them. The pointer events always come in at the same rate, so with slower motion these events are closer together. Meaning that it's more likely at least one pointer event lands on each element, triggering its hover state:\nFaster movement means the gaps between these events increases. Which means any elements lying in these gaps are completely skipped.\nIf you've ever written a physics engine, this'll feel familiar, because it's a textbook collision detection problem with a specific name: tunnelling.\nPhysics engines run a loop. Every iteration, they calculate the next position of objects based on their position and velocity. Then, they check which objects hit which. It's similar to pointer events in sense that you're checking discrete snapshots of positions rather than continuous motion (the latter essentially requiring infinite computation).\nPicture a car driving towards a thin wall. During Animation Frame A it's just short of the wall, and then as it drives a little further, in Frame B it's overlapping the wall. The engine spots the overlap and registers a hit.\nIn a game, it will probably do something like move the car back outside the wall and trigger a crashing animation, so they appear to impact.\nBut now, imagine a car that's moving even faster. It's moving so fast that, in Frame B, it's already out the other side of the wall. In no single frame does the car overlap the wall, so the collision check, which only ever looks once per frame, sees nothing. The car sails straight through.\nThis is tunnelling, and it's the exact same problem as our pointer sampling. The pointer is the fast object, each hover target a thin wall.\nThe fix\nGames fix tunnelling by, instead of asking \"where is the object this frame, and does that overlap anything?\", you ask \"what path did the object take since last frame, and did that path cross anything?\".\nRather than test a point, you test a line.\nFor pointers, that line is easy to calculate. You can measure the pointer's position this frame, and look back at where it was in the previous frame. Draw a line between the two and you've got the route the cursor took. So instead of checking which",
+      "article_title_extracted": "Crashing cars and improving hover detection | Motion Magazine",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-05T02:54:32.686942Z",
+      "description": "Fast pointer movements can skip over elements, breaking hover detection. The surprising solution can be found in game development., The naive approach: lighting grid cells on pointerenter, which skips cells on a fast cursor. The counter-example to swept collision detection in Motion for React., A 20x20 light grid that catches every cell the pointer sweeps, even on a fast flick, using swept collision detection in Motion for React., A 20x20 light grid that catches every cell the pointer sweeps, even on a fast flick, using swept collision detection in Motion for React.",
+      "domain": "motion.dev",
+      "embed_type": "",
+      "id": "k173qn2dfg40hafj3pp40r1wqx8837mt",
+      "og_image_url": "https://cloud.poche.app/api/storage/aa094b6b-f8b2-4b29-bee8-10fb7a0fecab",
+      "recommended_at": "2026-06-05T02:54:54.589000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "motion-dev",
+        "collision-detection",
+        "web-animation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T02:54:54.589000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Crashing cars and improving hover detection | Motion Magazine",
+      "url": "https://motion.dev/magazine/collision-detection-in-hover-detection",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0c9f5257f2f92db53e5dcd_og_problem-solvers.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a44d4c2ac593c18cbae_founders-still-final-1.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a42dfa5dd7f5b722bbc_founders-still-final-2.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a43586ca228b6bd036d_founders-still-final-3.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a42b82d6530050157ae_founders-still-final-4.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a435f2782fc6a7bb05f_founders-still-final-5.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a4284042f5efcba6b33_founders-still-final-6.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a41ea1a56d66429ae99_founders-still-final-7.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a413a6dbae2717aa161_founders-still-final-8.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a3f177bb63ba50dc9be_founders-still-final-9.webp",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a0b2a3e11a4ebf0ed59318c_founders-still-final-10.webp"
+      ],
+      "article_text": "The Problem Solvers\nThe most driven founders are problem solvers. What keeps them building on Claude is a partnership that scales with their ambitions. Watch their unscripted conversations with the Anthropic engineers deeply embedded in their work.\nCaring deeply is craft\nAnton Osika\nCo-founder and CEO\nAnton Osika thinks moving fast and doing it right are the same job. Lovable lets anyone build software through conversation, no engineering team required. Two months after launch, millions of people were already on the platform. Anton's working thesis is that the most underrated advantage in AI is trust. Gaining trust requires craft, care, and obsession. Partnering with Anthropic has been central to that bet: dedicated people embedded in their work, building together.\n“My advice to founders working with Anthropic would be to dig into a partnership, ask for help, and spend time with the team. These are humans who really care.”\nAnton Osika\nCo-founder and CEO\nMax Junestrand\nCo-founder and CEO\nSteering an industry through unchartered territory\nLegora is the AI-native operating system, where legal teams can autonomously plan, execute, review, and complete complex legal work end-to-end. Max Junestrand says one of the oldest jobs in the world is interpreting law. Today he’s approaching that role with responsibility. In an industry where prior technology changes introduced only incremental ways of working, Max is taking a strategic bet that every new model release \"raises the tide\" significantly. Legora's motivation is to build boats for everyone else. With Anthropic, they’re shaping what the industry can look like when the next tide comes in.\n“We're thinking a lot about how to build the boats on top of that rising tide so that our system gets better with every new model released.”\nMax Junestrand\nCo-founder and CEO\nUnfazed by the impossible\nScott Wu\nCo-founder and CEO\nScott Wu was world champion of competitive programming at 17. For years he wondered whether AI would do what he could. Now he runs Cognition, the team behind the first AI software engineer. When they got early access to a new Claude model, Scott ran it against their toughest benchmark. It held up. By then, they'd spent months trading notes with the Anthropic team. After that, the partnership deepened.\n“The models Anthropic built have been pretty clearly ahead of the curve. Engineers are going three, five times faster — and just shipping so much more.”\nScott Wu\nCo-founder and CEO\nMichele Catasta\nPresident & Head of AI\nPioneering permission to build\nAt 16, Michele Catasta set out to make software open to everyone. What followed was a decade of research at Stanford and Google in training state-of-the-art models, all in service of that goal. He joined Replit as a pioneer in agentic building: the place where anyone can take an idea and build it in natural language, with no coding experience required. Over 50 million users are doing exactly that, many discovering for the first time that they have permission to build.None of it works without the right model. Replit chose Claude in early 2024 for its coding capabilities, and that decision has evolved into a partnership. Anthropic brings Replit in on early research previews, they build against what's coming, and when a new model ships, Replit ships the same day.\n“To remove the barrier of entry to coding, the model makes the difference. Anthropic continues to have the best coding models on the market.”\nMichele Catasta\nPresident & Head of AI\nBuilding on your beliefs\nKay Zhu\nCo-founder and CTO\nKay Zhu built Genspark on a belief he's living at home: that AI should free people to follow their heart. His teenage son is studying commercial dance instead of computer science with his full support. As CTO and co-founder, Kay built Genspark to make that possible at scale with an all-in-one AI workspace for business. In a market moving this fast, anyone can build, but Kay believes the team is what makes the difference. He chose Claude for its r",
+      "article_title_extracted": "Claude — The AI for problem solvers",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-05T02:28:59.444594Z",
+      "description": "Founders choose Claude for its power, reliability, accuracy, and security.  They get a thinking partner that scales with their ambitions. Watch their unscripted conversations with the Anthropic engineers embedded in their work.",
+      "domain": "claude.com",
+      "embed_type": "",
+      "id": "k174zg11te74rqcy5cp89h00ks883k12",
+      "og_image_url": "https://cloud.poche.app/api/storage/bb7725d4-763f-4cf7-8bb0-d243c3d34637",
+      "recommended_at": "2026-06-05T02:43:05.991000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "anthropic-claude",
+        "entrepreneurship"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T02:43:05.991000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Claude — The AI for problem solvers",
+      "url": "https://claude.com/problem-solvers",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_title_extracted": "we were online",
+      "category": "Tools",
+      "created_at": "2026-06-05T02:29:18.810937Z",
+      "description": "The content introduces \"we were online,\" an interactive online multiplayer environment that transforms the internet into a shared space, promoting real-time connections among users. It highlights the growing sense of loneliness while browsing the internet and compares it to the social interactions of the physical world. Users can install browser extensions for Chrome and Firefox, and contribute to a collaborative digital experience. The platform is based on \"playhtml,\" allowing customization and interaction tailored to personal histories and personalities. The text opens up discussions on fostering online solidarity and creating meaningful connections without addiction. It encourages designers and creatives to join the effort to reshape the internet as a more communal space.",
+      "domain": "wewere.online",
+      "embed_type": "",
+      "id": "k17f9m48ex4gb8mrvmkqr6am5s8827bh",
+      "og_image_url": "https://cloud.poche.app/api/storage/380c1c04-3c2c-493b-89ee-142099eebbd3",
+      "recommended_at": "2026-06-05T02:43:04.588000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "digital-socializing",
+        "web-interaction",
+        "community-building"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T02:43:04.588000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "we were online",
+      "url": "https://wewere.online/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F52a19d636c659cf4515dc0d7d70b8ceb1bbfd768-2200x1276.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F30f1266938f0d62a770dccf77baf24a0ad237fbd-2200x1276.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6fc2841bc896ad4ea8ee77e515df1a0a6bed8bcf-2200x1276.png&w=3840&q=75"
+      ],
+      "article_text": "For most of AI’s history, humans drove every step in its development cycle. But at Anthropic, we are delegating a growing share of AI development to AI systems themselves, which is speeding up our work.\nTaken far enough, and given enough compute, that trend points to an AI system capable of fully autonomously designing and developing its own successor. This is called recursive self-improvement. We are not there yet, and recursive self-improvement is not inevitable. But it could come sooner than most institutions are prepared for.\nUsing public benchmarks and previously unreported data from within Anthropic, [The Anthropic Institute](https://www.anthropic.com/institute) is showing that AI is already accelerating the development of AI systems. To take just one example: today, Anthropic engineers on average ship 8x as much code per quarter as they did from 2021-2025.\nThe technical trends discussed in this piece suggest that AI systems are going to become much more capable in coming years. These trends have huge implications. AI that can build itself would be a major development in the history of technology—one that could bring [enormous good for the world](https://www.darioamodei.com/essay/machines-of-loving-grace) in science, healthcare, and beyond. But full recursive self-improvement also might increase the [risks](https://www.darioamodei.com/essay/the-adolescence-of-technology) of humans losing control over AI systems. If systems are capable of fully building their own successors, the ways we secure them, monitor them, and shape their behavior all grow much more important.\n2021–2023\nBuilding the first Claude\nIn the early days, work at Anthropic looked like work at any other tech company: people writing code and docs on laptops.\n2023–2025\nChatbots\nPeople used early chatbots to help with parts of the process, like generating short code snippets and copying the output into text editors.\n2025–2026\nCoding agents\nAs the agents became more capable, they were able to write and edit code on their own, sometimes entire files.\nToday\nAutonomous agents\nAgents can now run code themselves and delegate hours of work to other agents.\n20XX?\nClosing the loop\nIn the future, agents could become capable enough to build and train models themselves. If this happens, future versions of Claude could be continuously improved by Claude itself.\nEvidence from the outside world\nThe rate at which AI models improve is accelerating. The length of tasks that they can [reliably complete on their own](https://metr.org/time-horizons/) has been doubling roughly every four months, up from an earlier trend of [doubling](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) every seven months. In March 2024, Claude Opus 3 could complete software tasks that take humans about four minutes to complete. A year later, Claude Sonnet 3.7 managed tasks that took about an hour and a half. A year after that, Claude Opus 4.6 managed 12-hour tasks.1 If this trend holds, tasks that take a skilled person days could come into range this year. In 2027, AI systems could be capable of tasks that take a person weeks.\nThe same pattern appears on coding and research benchmarks. Benchmarks measure the performance of models in a given domain, and they’re “saturated” when models achieve close to 100% performance.2 [SWE-bench](https://www.swebench.com/) is a standard test of real-world software engineering: it hands a model an actual open-source codebase and a real bug report, and asks it to write a code change that fixes the issue and passes the project’s own tests. Models have gone from scoring in the low single digits to saturating the benchmark in two years.\n[CORE-Bench](https://arxiv.org/abs/2409.11363) tests whether a model can reproduce existing research, a prerequisite for them to conduct original research. It gives an AI model the code and data behind a published paper, and asks it to rerun everything and confirm it can replicate the paper’s results. AI system",
+      "article_title_extracted": "When AI builds itself \\ Anthropic",
+      "category": "Articles",
+      "created_at": "2026-06-05T02:42:10.081372Z",
+      "description": "Our progress toward recursive self-improvement, and its implications.",
+      "domain": "www.anthropic.com",
+      "embed_type": "",
+      "id": "k1757mn5j6najhyk56wb58cbt58823wc",
+      "og_image_url": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "recommended_at": "2026-06-05T02:43:02.778000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-safety",
+        "recursive-self-improvement",
+        "agi"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T02:43:02.778000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "When AI builds itself \\ Anthropic",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://developers.cloudflare.com/changelog-preview.png",
@@ -1923,7 +2131,7 @@
       "x_status_id": "2060013225006010467"
     },
     {
-      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
       "article_image_urls": [
         "https://circleback.ai/marketing/og/default.png",
         "https://circleback.ai/logos/circleback.svg",
@@ -1972,7 +2180,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2026-05-29T01:57:43.553804Z",
@@ -4290,7 +4498,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
       "article_image_urls": [
         "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
         "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
@@ -4376,7 +4584,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-29T04:59:49.807228Z",
+      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
       "article_image_urls": [
         "https://ursula.tonbo.io/og-default.png",
         "https://ursula.tonbo.io/assets/tonbo.png"
@@ -98990,7 +99198,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2073,
+      "count": 2078,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -99026,5 +99234,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-04T22:10:37.780552Z"
+  "updated_at": "2026-06-05T05:02:58.675798Z"
 }
