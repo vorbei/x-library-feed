@@ -54,6 +54,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I think it is really worth reading this piece on RSI at Anthropic.\n\nThere is a bit of navel-gazing, some marketing, and a lot of very sincere beliefs about what Anthropic thinks is likely in the near future of AI that you probably want to be aware of. https://www.anthropic.com/institute/recursive-self-improvement",
+      "text_zh": "我认为这篇关于Anthropic在递归自我改进（RSI）方面的文章非常值得一读。\n\n文中有些自我反思的成分，也有一些营销内容，但更多的是Anthropic对AI近期发展可能性的非常真诚的看法——这些观点你很可能需要了解。https://www.anthropic.com/institute/recursive-self-improvement",
+      "text_zh_hash": "f76c68fea091de0a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/emollick/status/2062582362194460698"
     },
     {
@@ -94,6 +97,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "long live data engineering https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "text_zh": "数据工程万岁 https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "text_zh_hash": "81afe733c4ab9200",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/tayloramurphy/status/2062515658420572271"
     },
     {
