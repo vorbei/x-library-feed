@@ -4321,6 +4321,19 @@
       "title": "",
       "url": "http://x.com/i/article/2059601936723136512"
     },
+    "http://x.com/i/article/2059613463731732484": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059613463731732484",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059613463731732484/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJU4BCjWMAMGT8H?format=jpg&name=900x900)](http://x.com/i/article/2059613463731732484/AdamBartas/article/2062435013484814400/media/2059613995108020227)\n\nFigma Is No Longer the Best Place for Product Design \n\n[![](https://pbs.twimg.com/profile_images/1909312276185669632/IxorQk1j_normal.jpg)](http://x.com/i/article/2059613463731732484/AdamBartas)\n\n[Adam Barta](http://x.com/i/article/2059613463731732484/AdamBartas)\n\n[@AdamBartas](http://x.com/i/article/2059613463731732484/AdamBartas)\n\n·\n\n18h\n\nFollow\n\nClick to Follow AdamBartas\n\n6\n\n5\n\n36\n\n[8.5K](http://x.com/i/article/2059613463731732484/AdamBartas/status/2062435013484814400/analytics)\n\nFigma is dead for product design.\n\nThat sounds dramatic. It is also how the last few weeks have felt for me.\n\nOn my latest project, I saved more than 60 hours by not skipping Figma as the main deliverable and using code to create a prototype instead.\n\nNot because Figma is bad. Figma is still one of the best tools ever made for visual design, design systems, component libraries, and collaboration. But for a lot of product design work, especially early prototypes, the current workflow is really slow.\n\nThe traditional path looks like this:\n\n* Map the product flow\n* Design the main screens\n* Build or maintain the design system\n* Create every state and variant\n* Hand it off\n* When feedback comes in, make sure the change is applied across all screens\n\nThis flow used to make sense because the design canvas was the fastest place to explore product ideas.\n\nIt’s not anymore.\n\n# \n\nDitch the boring part\n\nInstead of spending days designing repetitive screens, designers can now start from product context, and user flows, sketch layouts of the important screens, plug in a component system like shadcn/ui, and let AI generate a working interface.\n\nNot only is this way faster, but the client also gets delivered an interactive prototype that they can click through and in which they can change the mocked-up data. This is simply not possible in Figma.\n\n[![Image](https://pbs.twimg.com/media/HJU4IqoWYAMRvJa?format=jpg&name=small)](http://x.com/i/article/2059613463731732484/AdamBartas/article/2062435013484814400/media/2059614126125506563)\n\nThat is invaluable for early product decisions.\n\nIt also compresses a lot of repetitive work on the designer's side.\n\nYou do not need to manually design the tenth settings screen from scratch. You do not need to keep recreating tables, empty states, modals, filters, and form layouts just to prove the same system over and over.\n\nIf the product direction is clear, AI can generate a large part of it faster than a designer can.\n\nThe designer’s job shifts from drawing every screen to directing the system, tweaking details, and most importantly, testing a lot more flow variations and ideas than they would have been able to otherwise.\n\n# \n\nDon't reinvent the wheel\n\nCreating your own design system doesn’t make sense in most cases. Start with a proven component library and build on top of it.\n\n[shadcn/ui](https://ui.shadcn.com/)\n\n works well in this workflow because it gives the AI a strong starting point, but offers heavy customization options\n\nThe components already have a good structure. The accessibility basics are better than most hand-made UI kits. The patterns are close to what many modern products need. And with the new advanced themes, you can even add some character to the interface right out of the box.\n\n[![Image](https://pbs.twimg.com/media/HJU4RP_W0AMskue?format=jpg&name=small)](http://x.com/i/article/2059613463731732484/AdamBartas/article/2062435013484814400/media/2059614273593069571)\n\nInstead of rebuilding the wheel, designers can just use shadcn as the base.\n\nThat means the designer can focus on the things that actually matter:\n\n* How should the flows work?\n* What should the user understand on each",
+      "title": "",
+      "url": "http://x.com/i/article/2059613463731732484"
+    },
     "http://x.com/i/article/2059619573599739904": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5334,6 +5347,19 @@
       "title": "",
       "url": "http://x.com/i/article/2062125489721102336"
     },
+    "http://x.com/i/article/2062152051157782528": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062152051157782528",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062152051157782528/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ-QAxraQAAPpvK?format=jpg&name=900x900)](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar/article/2062526843564233040/media/2062525497368788992)\n\nHermes Kanban: Mission control for your Agents\n\n[![](https://pbs.twimg.com/profile_images/1578327351544360960/YFpWSWIX_normal.jpg)](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar)\n\n[Akshay ![🚀](https://abs.twimg.com/emoji/v2/svg/1f680.svg)](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar)\n\n[@akshay\\_pachaar](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar)\n\n·\n\n12h\n\nBlocked\n\n6\n\n10\n\n119\n\n[11K](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar/status/2062526843564233040/analytics)\n\nA complete walkthrough of Hermes Kanban: the coordination model, sharing context between agents, and building a 4-Agent software team (PM, backend, frontend, tester) in about 20 minutes.\n\nAI agents were supposed to work like a team.\n\nYou describe the goal. They divide the work. Each one picks up where the last left off.\n\nThat's the pitch. What actually happens is the opposite. Agents start with a blank slate. An agent doesn't know what the others built, which files changed, or what the API looks like. Every handoff is a cold start, and the work degrades the moment it crosses from one agent to the next.\n\nHermes Kanban fixes that. Every task survives crashes and reboots. Every briefing carries exactly what the next agent needs. Every failure is saved, so the retry knows what broke. \n\nThis is how your mission control looks like:\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062525987347476480/img/0ZYGhuEvebRBlInx.jpg)\n\nKanban dashboard\n\nThe best part is that the whole team runs from your phone. You create and steer tasks over Telegram, and the agents pick them up while you're away from the desk.\n\nCheck this out:\n\n[![Image](https://pbs.twimg.com/media/HJ90UUjbcAAak6Z?format=jpg&name=small)](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar/article/2062526843564233040/media/2062495046822490112)\n\nIn this article we build this full setup from scratch: the coordination model, the briefings, and a 4 member software team running on your own hardware in about 20 minutes.\n\nTo demonstrate this I created a working Google Docs clone, AI features included, production ready backend, built by this exact agent team.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062498671066050560/img/-w0HQhQJNf-yY0re.jpg)\n\nGoogle docs clone demo\n\nSo, without any further ado, let's get into it. \n\n# \n\nWhy one agent isn't enough\n\n Say, for example, you want to add password reset feature. The work splits across three domains:\n\n* A backend developer who builds the REST API\n* A frontend developer who reads that API and builds the UI on top of it\n* A tester who verifies the whole thing end to end\n\n[![Image](https://pbs.twimg.com/media/HJ95xfkb0AAO2Jm?format=jpg&name=small)](http://x.com/i/article/2062152051157782528/akshay%5Fpachaar/article/2062526843564233040/media/2062501045553844224)\n\n1 vs 3 Agents \n\nYou can run all three through a single agent, but the context window fills up and the agent loses track of what it did three steps ago. You spend more time managing it than it saves you.\n\nSplitting the work across agents who each own a domain creates a different problem: how does the frontend developer know what the backend developer built? That shared-context problem is what Hermes Kanban solves.\n\n# \n\nThe mental model: a task board, but agents sit behind the columns\n\nA task has a title, a description, an owner, and a status. Someone picks it up, moves it across the board, and closes it. The board is the single source of truth.\n\nHermes Kanban keeps that model and puts agents behind each column instead of humans.\n\n[![Image](https://pbs.twimg.com/media/HJ97bJAa0AAJ_4z?format=jpg&name=small)](http://x",
+      "title": "",
+      "url": "http://x.com/i/article/2062152051157782528"
+    },
     "http://x.com/i/article/2062179059736391681": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
       "cleaner_v": 2,
@@ -5346,6 +5372,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2062179059736391681"
+    },
+    "http://x.com/i/article/2062185472387121152": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062185472387121152",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062185472387121152/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_KX4EbkAAVtLy?format=jpg&name=900x900)](http://x.com/i/article/2062185472387121152/posthog/article/2062595534381326421/media/2062589665895747584)\n\nKarpathy's Autoresearch found a 3-year-old bug in our query engine (and improved performance by 11%)\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2051741479433822210/YboW6yWw_normal.png)](http://x.com/i/article/2062185472387121152/posthog)\n\n[PostHog](http://x.com/i/article/2062185472387121152/posthog)\n\n[@posthog](http://x.com/i/article/2062185472387121152/posthog)\n\n·\n\n7h\n\nFollow\n\nClick to Follow posthog\n\n2\n\n12\n\n143\n\n[9.1K](http://x.com/i/article/2062185472387121152/posthog/status/2062595534381326421/analytics)\n\nA few weeks ago at a team offsite in Lisbon, we pointed an AI agent at our query engine, fed it slow queries from production, and let it run overnight.\n\nBy the next morning it had found something embarrassing: for almost three years, every query with a timestamp filter had not been using ClickHouse's primary key correctly. \n\n[The fix](https://github.com/PostHog/posthog/pull/54819)\n\n cut the number of granules ClickHouse had to scan by 62% on the benchmark query, and made the query itself meaningfully faster.\n\nThis post is about the setup we used, the bug itself, and what we're building now so this kind of analysis happens automatically.\n\n# \n\nWhat's autoresearch?\n\nThe general idea isn't ours. Andrej Karpathy \n\n[packaged it up](https://github.com/karpathy/autoresearch)\n\n and gave it a name in March 2026: give an AI agent a small but real system, a benchmark, and a budget, and let it loop; propose a change, run the benchmark, keep what helps, throw away what doesn't.\n\nKarpathy ran it for two days against a depth-12 nanochat training run and found \n\n[about 20 changes that improved validation loss](https://x.com/karpathy/status/2031135152349524125)\n\n, some of which transferred to a bigger model. The shape isn't new (DeepMind's \n\n[FunSearch](https://www.nature.com/articles/s41586-023-06924-6)\n\n (2023) and \n\n[Sakana's AI Scientist](https://sakana.ai/ai-scientist/)\n\n (2024) are earlier examples), but Karpathy's repo is small and concrete enough to inspire you to build your own version in an afternoon.\n\nThe interesting part for us is the second-order effect: the agent doesn't carry the bias that comes from living in a codebase. To us, the toTimeZone() wrap had just always been there. The kind of code you stop seeing. The agent has no priors. It runs every diagnostic, reads the surrounding ClickHouse and PostHog source for context, and treats a three-year-old expression with the same suspicion as the line you wrote yesterday.\n\n# \n\nSetting up autoresearch for ClickHouse in a hackathon\n\nEvery year, we run \n\n[hackathons](https://posthog.com/newsletter/hackathons)\n\n at company offsites. A lot of what's now PostHog (\n\n[session replay](https://posthog.com/session-replay)\n\n, the \n\n[data warehouse](https://posthog.com/data-warehouse)\n\n, \n\n[logs](https://posthog.com/logs)\n\n, and more) started this way. At a smaller joint team offsite for the \n\n[Analytics Platform](https://posthog.com/teams/analytics-platform)\n\n and \n\n[Query Performance](https://posthog.com/teams/query-performance)\n\n teams in Lisbon, our hackathon project was to do Karpathy's thing, but for ClickHouse query performance.\n\nThe stack we used:\n\n* [pi](https://pi.dev/)  \n: a small terminal coding agent built by  \n[Mario Zechner](https://github.com/badlogic)  \n. It speaks to whatever LLM you point it at, exposes a small SDK, and is small enough that you can read the entire codebase.\n* [pi-autoresearch](https://github.com/davebcn87/pi-autoresearch)  \n: a community extension by davebcn87 that wires Karpathy's loop into pi. You give it an objective, a baseline, a benchmark command, and a target metric. It iterates, commits each candi",
+      "title": "",
+      "url": "http://x.com/i/article/2062185472387121152"
     },
     "http://x.com/i/article/2062196865714536448": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -5407,6 +5446,111 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062248271444111360"
+    },
+    "http://x.com/i/article/2062489133445201920": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062489133445201920",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062489133445201920/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ-v6eRbwAAmDsW?format=jpg&name=900x900)](http://x.com/i/article/2062489133445201920/Av1dlive/article/2062561213532471707/media/2062560573452435456)\n\nHow to Build AI Agent Swarms (Complete Guide)\n\n[![](https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_normal.jpg)](http://x.com/i/article/2062489133445201920/Av1dlive)\n\n[Avid](http://x.com/i/article/2062489133445201920/Av1dlive)\n\n[@Av1dlive](http://x.com/i/article/2062489133445201920/Av1dlive)\n\n·\n\n9h\n\nFollow\n\nClick to Follow Av1dlive\n\n15\n\n35\n\n215\n\n[18K](http://x.com/i/article/2062489133445201920/Av1dlive/status/2062561213532471707/analytics)\n\nThis is a complete A–Z breakdown of AI Agent Swarms what they are, how to use them. Why they change everything about how you work with AI.\n\n> Bookmark this before you forget.\n\nKimi K2.6, Moonshot AI's April 2026 open-weight flagship, is the most serious open-source implementation of this idea I've seen.\n\nReal tasks have width. Fifty companies to research. \n\nTwo hundred files to analyze. A dozen subtasks that don't depend on each other and shouldn't wait in line behind each other. An agent swarm is the architecture for that.\n\n[![Image](https://pbs.twimg.com/media/HJ-rrJDbgAAtfL_?format=jpg&name=small)](http://x.com/i/article/2062489133445201920/Av1dlive/article/2062561213532471707/media/2062555912012005376)\n\nThis guide breaks down how it works, from the training infrastructure up to the API, then covers the pattern I think matters most right now: Kimi for execution, Claude Opus 4.8 for planning and verification.\n\nHere is the how the Final Workflow looks\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062553771826352128/img/xe-tWVZU4GT9x5HY.jpg)\n\n## \n\nSection 1: What is an agent swarm?\n\nAn agent swarm is multiple agents working simultaneously on decomposed subtasks, coordinated by an orchestrator that aggregates the results.\n\nThe distinction from a sequential chain is the whole point:\n\n* Sequential chain: Agent A runs, hands off to B, B hands off to C. Total time = A + B + C.\n* Swarm: Orchestrator splits the goal, agents A, B, C run at the same time on independent subtasks, results get merged. Total time ≈ max(A, B, C).\n\nWhen a task has genuine parallel structure, that's the difference between minutes and hours.\n\nA swarm also solves context overflow. One agent on a long task accumulates tokens until its window drowns. A swarm gives each subtask its own bounded context, and only structured output flows back to the orchestrator.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062550418690125824/img/m8S5f9ZbVhwm_bdW.jpg)\n\n## \n\nThe six building blocks\n\nEvery swarm has the same core components:\n\n| Component          | What It Does                                                                  |\n| ------------------ | ----------------------------------------------------------------------------- |\n| Orchestrator       | Decomposes the task, assigns subtasks, monitors execution, aggregates results |\n| Subagents          | Specialized workers scoped to one domain (research, code, analysis, writing)  |\n| Tools              | Functions agents can call: web search, code interpreter, file I/O, APIs       |\n| Memory             | Shared state the swarm can read/write                                         |\n| Handoffs / Routing | Mechanism for passing control or data between agents                          |\n| Guardrails         | Iteration limits, timeouts, human-in-the-loop triggers, error recovery        |\n\nGet these six right and you have a swarm. Get any one wrong and you have an expensive debugging session.\n\n## \n\nSection 2: What Kimi K2.6 actually is\n\nBefore getting into the swarm behavior, worth understanding what's underneath it. K2.6 is a 1-trillion-parameter Mixture-of-Experts model from Moonshot AI, released open-weight on April 20, 2026 under a",
+      "title": "",
+      "url": "http://x.com/i/article/2062489133445201920"
+    },
+    "http://x.com/i/article/2062495770012782593": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062495770012782593",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062495770012782593/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ91IgvbAAAywft?format=jpg&name=900x900)](http://x.com/i/article/2062495770012782593/riba2534/article/2062495991421616319/media/2062495943447216128)\n\nAnthropic 如何用 Claude 实现自助式数据分析\n\n[![](https://pbs.twimg.com/profile_images/1984416007822225408/6iKVCdxw_normal.jpg)](http://x.com/i/article/2062495770012782593/riba2534)\n\n[riba2534](http://x.com/i/article/2062495770012782593/riba2534)\n\n[@riba2534](http://x.com/i/article/2062495770012782593/riba2534)\n\n·\n\n14h\n\nFollow\n\nClick to Follow riba2534\n\n9\n\n23\n\n[4.5K](http://x.com/i/article/2062495770012782593/riba2534/status/2062495991421616319/analytics)\n\n> 原文链接：\n> \n> [How Anthropic enables self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\n\n> 原文作者：Chen Chang、Clement Peng、Justin Leder、Johanne Jiao、Josh Cherry，均为 Anthropic 数据科学与数据工程团队成员。作者还感谢 Michael Segner 的贡献。\n\n> 本文为原文的完整简体中文翻译。\n\n正如许多数据科学和数据工程团队都能证实的那样，让业务分析做到自助，历来是一桩苦差事。\n\n通过又宽又反规范化的表，把数据模型变得对技术没那么强的同事更易上手，往往会随着业务规模扩大而催生出一堆定义彼此矛盾、相互重叠的视图（而且对那些压根不想学 SQL 的员工，几乎起不到弥合鸿沟的作用）。换一条路，为用户搭建更多圈起来的独立环境，又往往照顾不到业务问题那条长尾，并且随着各团队把工作各自割据，导致指标和看板泛滥成灾。\n\n大语言模型的兴起，为自助分析提供了一条能绕开这些难题的新路径。然而，把 Claude 指向一个数仓、放手让 agent 去执行，可能会制造出一种虚假的精确感。\n\n从临时取数请求中解放出来的最初那份狂喜，会在你意识到这套做法把利益相关方和底层基础设施、文档与专业知识隔开之后，变成一种忧虑——而正是那些基础设施、文档和专业知识，此前一直在引导他们走向那些精心策划过的数据集。\n\n在 Anthropic，95% 的业务分析查询都由 Claude 自动完成，整体准确率约为 95%。 把这些往往机械、重复的工作交给 Claude，我们的数据科学团队就能专注于更具战略性的工作，比如因果建模、预测和机器学习。\n\n在和数十位 Anthropic 顶级 Claude Code 用户深入交流、并见识了形形色色的分析 agent 设计模式之后，我们为其他与大模型打交道的数据团队沉淀出了一些最佳实践。在这篇文章里，我们会分享这些把 Claude 驱动自助式业务洞察的能力发挥到极致的技巧与方法，包括：\n\n* 为什么分析准确性是一个上下文与验证问题，而非代码生成问题；\n* 导致大部分错误的三种失败模式；\n* 我们为应对这些错误而搭建的 Agent 分析技术栈；\n* 我们如何度量有效性；以及\n* 我们创建大多数技能时所用的一个基础模板（见附录）。\n\n## \n\n数据不是软件\n\n大模型的生成能力是一把双刃剑：那些能为复杂问题想出创造性解法的机制，同样可能幻觉出错误的输出。要充分理解分析 agent 面临的挑战，把它们和编程 agent 做个对比会很有帮助。\n\n编程是一个开放式的解空间，奖励模型的创造力，与此同时，文档和测试提供了对抗幻觉的天然护栏。相比之下，在分析的场景里，往往只有一个正确答案、对应一个正确来源，而且没有确定性的办法去证明其正确性。\n\n[![Image](https://pbs.twimg.com/media/HJ91BkGbgAA9wTw?format=jpg&name=small)](http://x.com/i/article/2062495770012782593/riba2534/article/2062495991421616319/media/2062495824089939968)\n\n对于自助式的 Agent 业务分析来说，复杂性主要在于数据的模糊性。核心问题归根结底，在于我们能否把用户的问题映射到数据模型里那些具体且最新的实体，并知道与它们打交道的正确方式。如果我们能做到这一点，那么随之而来的执行和 SQL 就变得无足轻重了。\n\n我们识别出了这个问题的三个属性，它们解释了绝大多数不准确回答的成因：\n\n* 概念 ↔ 实体的模糊性：在一个数据模型里有数百个可行选项（出自可能多达数百万个字段），agent 没法挑出最能回答用户问题的那个正确字段。比如，在统计活跃用户数时：哪些行为才算\"活跃\"？要不要把欺诈用户算进去？用多长的回看窗口？\n* 数据陈旧：数据源、业务定义和 schema 时刻在变；资产和 agent 的知识会过时，开始返回那种微妙错误的答案。\n* 检索失败：正确的信息也许确实在数据模型里、也做了恰当的标注，但鉴于搜索空间之浩瀚，agent 就是找不到它。\n\n## \n\n我们的 Agent 分析技术栈\n\n在 Anthropic，我们把这三类错误降到最低的主要手段，就是我们的 Agent 数据栈。每一层的存在，主要都是为了攻克其中一个或多个问题：\n\n* 实体模糊性：数据地基和真相来源把可信实体的空间收缩，直到只剩一个受治理的答案。\n* 陈旧：维护与验证流程让一切不随业务变化而腐烂。\n* 检索失败：技能确保 agent 可靠地找到并正确使用那个答案。\n\n在这一节里，我们会讲讲每一层是怎么搭起来的。\n\n[![Image](https://pbs.twimg.com/media/HJ91CK7aMAAeJCy?format=jpg&name=small)](http://x.com/i/article/2062495770012782593/riba2534/article/2062495991421616319/media/2062495834512699392)\n\n数据地基\n\n确保分析 agent 准确，最重要的一环是靠扎实的数据地基，它包括数仓里的数据模型、转换、测试和表，以及描述它们的元数据。维度建模、左移测试（shift-left testing）、对关键管道做新鲜度和完整性检查等标准的数据工程与数据质量实践依然全部适用（这些我们就不再赘述了）。\n\n[![Image](https://pbs.twimg.com/media/HJ91CLFbAAA2hX8?format=jpg&name=small)](http://x.com/i/article/2062495770012782593/riba2534/article/2062495991421616319/media/2062495834554695680)\n\n真正发生改变的是，你数据模型的最终用户不再是数据专家（比如数据科学家），而是代表用户行事的 agent，而这些用户对数据的专业程度、对底层基础设施的理解千差万别。这种转变带来了一个挑战：结果不能要求用户去验证其底层的正确性，原因很简单——最终用户根本不懂。\n\n数据地基这一层主要瞄准的是模糊性：举例来说，如果\"营收\"能解析到一个受治理的数据集、而不是四十个看似都行的候选，那么这个问题在 agent 还没开始搜索之前就基本消失了。这也是第一道抵御陈旧的防线所在之处，因为定义规范模型的那个仓库，天然就是强制它们保持最新的地方。\n\n我们见过几种做法效果尤其好：\n\n* 创建规范数据集（canonical datasets）：到目前为止最常见的失败，是 agent 没法把一个概念（\"产品 X 的营收\"）映射到那张唯一正确的表、列和指标定义上，通常是因为存在多个看似都行、但实现上有微妙差异的候选。解法是更少、治理更重的逻辑模型：精心策划出一小批规范的、单一真相来源的数据集，它们归属清晰、开箱即用、易于发现，然后大刀阔斧地弃用那些近似重复的版本。物理上的汇总表和缓存对成本和性能仍然重要，但它们应当从规范模型机械地派生出来，而不是作为替代品和规范模型并列存在。目标是：当一个 agent 去搜索一个概念时，它找到的是一个受治理的唯一答案。\n* 强制执行你的标准：我们发现，只有当规范模型和指标定义被工具（ag",
+      "title": "",
+      "url": "http://x.com/i/article/2062495770012782593"
+    },
+    "http://x.com/i/article/2062496062326411264": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062496062326411264",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062496062326411264/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ91jQ8asAAPGlB?format=jpg&name=900x900)](http://x.com/i/article/2062496062326411264/riba2534/article/2062496438630965457/media/2062496403063222272)\n\n构建 Claude Code 的经验：我们如何使用 Skills\n\n[![](https://pbs.twimg.com/profile_images/1984416007822225408/6iKVCdxw_normal.jpg)](http://x.com/i/article/2062496062326411264/riba2534)\n\n[riba2534](http://x.com/i/article/2062496062326411264/riba2534)\n\n[@riba2534](http://x.com/i/article/2062496062326411264/riba2534)\n\n·\n\n14h\n\nFollow\n\nClick to Follow riba2534\n\n3\n\n6\n\n[1.4K](http://x.com/i/article/2062496062326411264/riba2534/status/2062496438630965457/analytics)\n\n> 原文链接：\n> \n> [Lessons from building Claude Code: How we use skills](https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills)\n\n> 原文作者：\n> \n> [Thariq Shihipar](https://x.com/trq212)\n> \n> ，Anthropic 技术团队成员，从事 Claude Code 的开发。\n\n> 本文为原文的完整简体中文翻译。\n\n技能（skills）已经成为 Claude Code 里最常被用到的扩展点之一。它们灵活、好做，也方便分发。\n\n但正是这份灵活，让人很难判断怎么用才最好。哪种技能值得做？一个技能该怎么组织结构？什么时候该把它分享给别人？\n\n我们在 Anthropic 内部把技能用得很重，目前有数百个技能在活跃使用。下面这些，就是我们在用技能加速开发的过程中摸索出来的心得。\n\n## \n\n什么是技能\n\n技能是一个个文件夹，里面装着指令、脚本和资源，agent 可以发现并使用它们，从而把事情做得更准、更高效。这篇文章默认你已经了解技能的基础知识；如果你是新手，可以先从我们在 Skilljar 上的《Agent 技能入门》课程开始。\n\n我们常听到一个关于技能的误解，认为它们\"不过是一些 markdown 文件\"。它们其实是文件夹，里面可以包含脚本、素材、数据等等，agent 能去发现、探索并操作这些内容。\n\n在 Claude Code 里，技能还有一大堆配置选项，包括注册动态 hook。\n\n我们发现，Claude Code 里那些最有效的技能，往往都把这些配置选项和文件夹结构用得很到位。\n\n## \n\n技能的类型\n\n把 Anthropic 内部所有技能盘点了一遍之后，我们注意到它们能聚成九个类别。最好的技能都能干净地落进其中某一类；那些想做太多事的技能，往往横跨好几类，把 agent 搞糊涂。这并不是一份权威清单，但它是个有用的框架，能帮你找出自己技能库里的空白。\n\n[![Image](https://pbs.twimg.com/media/HJ91SfFbUAAoTbi?format=jpg&name=small)](http://x.com/i/article/2062496062326411264/riba2534/article/2062496438630965457/media/2062496114801332224)\n\n1\\. 库与 API 参考\n\n这类技能讲清楚如何正确使用某个库、CLI 或 SDK。它们既可以针对内部库，也可以针对那些 Claude Code 偶尔会用不利索的常见库。这类技能通常会附带一个参考代码片段的文件夹，外加一份坑点清单，提醒 Claude 写脚本时绕开它们。\n\n例子包括：\n\n* billing-lib —— 你们内部的计费库：边缘情况、暗坑等等。\n* internal-platform-cli —— 你们内部 CLI 封装的每一个子命令，并附上各自的使用时机示例。\n* sandbox-proxy —— 为开发工作配置组织的出口网关：哪些主机可达、如何调试\"connection refused\"错误、如何添加白名单条目。\n\n2\\. 产品验证\n\n这类技能描述如何测试或验证你的代码是否正常工作。它们经常和 playwright、tmux 或其他外部工具搭配做验证。\n\n在内部，验证类技能对 Claude 产出质量的影响是最可量化的。让一位工程师花上一周时间，专门把你们的验证技能打磨到极致，是很值的。\n\n可以考虑一些做法，比如让 Claude 录一段它产出的视频，这样你就能确切看到它测了什么；又或者在每一步都对状态做程序化断言。这些通常是通过在技能里塞进各种脚本来实现的。\n\n例子包括：\n\n* signup-flow-driver —— 在无头浏览器里跑一遍注册 → 邮箱验证 → 引导上手，并在每一步都挂上断言状态的 hook。\n* checkout-verifier —— 用 Stripe 测试卡驱动结账 UI，验证发票确实落到了正确的状态。\n* tmux-cli-driver —— 用于交互式 CLI 测试，适合那些需要 TTY 才能验证的场景。\n\n3\\. 数据获取与分析\n\n这类技能连接你的数据栈和监控栈。它们可能包含带凭证拉取数据的库、特定的看板 ID 等等，以及关于常见工作流或取数方式的说明。\n\n例子包括：\n\n* funnel-query —— \"我该 join 哪些事件才能看到注册 → 激活 → 付费\"，外加那张真正持有规范 user\\_id 的表。\n* cohort-compare —— 比较两个分群的留存或转化，标出统计显著的差异，并链接到对应的分群定义。\n* grafana —— 数据源 UID、集群名、\"问题 → 看板\"的查找表。\n* datadog —— 字段参考（  \n[@request\\_id](https://x.com/@request%5Fid)  \n 还是 trace\\_id）、服务列表、指标前缀约定。\n\n4\\. 业务流程与团队自动化\n\n这类技能把重复的工作流自动化成一条命令。它们通常是相当简单的指令，但可能对其他技能或 MCP 有更复杂的依赖。对这类技能来说，把过往结果存进日志文件，能帮模型保持一致性，并回顾此前几次的执行。\n\n例子包括：\n\n* standup-post —— 聚合你的工单系统、GitHub 活动和此前的 Slack 内容 → 格式化的站会播报，只保留增量。\n* create-<ticket-system>-ticket —— 强制 schema（合法的枚举值、必填字段），外加创建后的工作流（@ 评审人、在 Slack 里贴链接）。\n* weekly-recap —— 已合并的 PR + 已关闭的工单 + 部署记录 → 格式化的周报。\n\n5\\. 脚手架与模板\n\n这类技能为代码库里某个特定功能生成框架样板。你可以把这类技能和可组合的脚本搭配起来。当你的脚手架带有那种纯靠代码覆盖不了的自然语言需求时，它们尤其有用。\n\n例子包括：\n\n* new-<framework>-workflow —— 按你的注解脚手架出一个新的服务/工作流/handler。\n* new-migration —— 你的迁移文件模板，外加常见坑点。\n* create-app —— 一个全新的内部应用，认证、日志和部署配置都已预先接好线。\n\n6\\. 代码质量与审查\n\n这类技能在你的组织内部强制代码质量，并辅助代码审查。它们可以包含确定性的脚本或工具以追求最大的稳健性。你可能会想让这类技能作为 hook 的一部分自动运行，或放进 GitHub Action 里。\n\n* adversarial-review —— 派生一个全新视角的子 agent 来挑刺、实施修复、反复迭代，直到发现的问题退化成吹毛求疵为止。\n* code-style —— 强制代码风格，尤其是 Claude 默认做得不太好的那些风格。\n* testing-practices —— 关于如何写测试、以及该测什么的说明。\n\n7\\. CI/CD 与部署\n\n这类技能帮你在代码库里拉取、推送和部署代码。它们可能会引用其他技能来收集数据。\n\n例子包括：\n\n* babysit-pr —— 盯着一个 PR → 重试不稳定的 CI → 解决合并冲突 → 启用自动合并。\n* deploy-<service> —— 构建 → 冒烟测试 → 逐步放量并对比错误率 → 一旦出现回归就自动回滚。\n* cherry-pick-prod —— 隔离",
+      "title": "",
+      "url": "http://x.com/i/article/2062496062326411264"
+    },
+    "http://x.com/i/article/2062535871379972096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062535871379972096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062535871379972096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ-dvqUbUAEKgBZ?format=jpg&name=900x900)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062540596498354177)\n\nAI Agents Don't Need Bigger Context Windows \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2062535871379972096/AlphaSignalAI)\n\n·\n\n10h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n4\n\n2\n\n28\n\n[2.2K](http://x.com/i/article/2062535871379972096/AlphaSignalAI/status/2062553418460479577/analytics)\n\n## \n\nThis repo treats context as a managed resource: compress, cache, retrieve, and share rather than a prompt that just keeps growing.\n\n> In 8 minutes, you'll learn how Headroom cuts agent context by up to 90% without losing access to the original information.\n\nWatch a coding agent debug a production issue.\n\nIt searches the repo. grep returns 1,000 results. It opens the logs. 50,000 tokens. It reads the stack trace. 10,000 tokens.\n\nIt needed 3 files, 1 stack frame, 20 log lines. About 800 tokens of signal.\n\nIt consumed 77,000 to get there.\n\nThis isn't a model problem. The model would do fine with the right 800 tokens. The problem is nobody filtered the noise before it arrived.\n\nContext windows keep getting bigger. But bigger windows don't fix this. They just make it more expensive.\n\nAn agent with a 200K context window that fills 60% of it with irrelevant logs is not a smarter agent. It's a slower, costlier one. Attention diluted across 77,000 tokens finds the right signal less reliably than attention over 800.\n\nThere's an open-source project called Headroom that sits between your agent and the LLM and compresses that noise before it ever arrives. The architecture has one idea in particular worth understanding carefully.\n\n## \n\nMost compression is a one-way door\n\nEvery existing approach to this problem shares the same flaw: once you compress, the original is gone.\n\nSummarize a tool output and discard it, the details are gone. Truncate a log file and the model can't recover what was cut. Provider-native compaction collapses conversation history and that's final.\n\nThis forces an impossible tradeoff. Compress aggressively and risk losing something important. Compress conservatively and leave most of the savings on the table.\n\nHeadroom's core architecture, called CCR (Compress-Cache-Retrieve), eliminates this tradeoff by making compression reversible.\n\nWhen content is compressed, the original is stored in a local cache with a content hash. The model receives the compressed version plus a retrieval tool called headroom\\_retrieve.\n\nIf the model needs the full data, it calls headroom\\_retrieve(hash=abc123) and gets the original back in 1ms.\n\n[![Image](https://pbs.twimg.com/media/HJ-k4eraoAA3zwF?format=jpg&name=small)](http://x.com/i/article/2062535871379972096/AlphaSignalAI/article/2062553418460479577/media/2062548444573769728)\n\nNothing is permanently lost. You're not making a one-way decision anymore. The model decides when it needs more. Headroom just makes sure nothing is gone when it does.\n\n## \n\nThree compressors, one router\n\nHeadroom's ContentRouter classifies every incoming piece of content and sends it to the right compressor.\n\nSmartCrusher handles JSON.\n\nA grep returning 1,000 file paths gets reduced to the 20 most relevant. It's selecting based on task context, not just truncating by position.\n\nCodeCompressor is AST-aware.\n\nIt strips docstrings, collapses function bodies to signatures, removes comment blocks. The structural skeleton stays. The prose the model doesn't need goes.\n\nKompress-base is Headroom's own HuggingFace model, trained specifically on agentic traces rather than",
+      "title": "",
+      "url": "http://x.com/i/article/2062535871379972096"
+    },
+    "http://x.com/i/article/2062582346872918016": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062582346872918016",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062582346872918016/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_DuEIXYAAEPym?format=jpg&name=900x900)](http://x.com/i/article/2062582346872918016/ArtemXTech/article/2062582596190498864/media/2062582350509203456)\n\nClaude Dynamic Workflows for Your Second Brain\n\n[![](https://pbs.twimg.com/profile_images/1919125345115975680/qIxUarRm_normal.jpg)](http://x.com/i/article/2062582346872918016/ArtemXTech)\n\n[Artem Zhutov](http://x.com/i/article/2062582346872918016/ArtemXTech)\n\n[@ArtemXTech](http://x.com/i/article/2062582346872918016/ArtemXTech)\n\n·\n\n8h\n\nFollow\n\nClick to Follow ArtemXTech\n\n2\n\n31\n\n[2.5K](http://x.com/i/article/2062582346872918016/ArtemXTech/status/2062582596190498864/analytics)\n\nAnthropic released a new feature called Dynamic Workflows. At first I thought it was only for coders, but it's really not. It's the biggest update in Claude Code since skills and subagents, and it changed the way I use my Obsidian vault.\n\nYou think this one's just for people who write code? So did I.\n\nIf you are using Claude Code to run your life, all the knowledge you captured is sitting there. Your sessions, your notes, your everything... But now you can actually apply dynamic workflows reliably to extract insights and do meaningful work with it.\n\n## \n\nWhat a dynamic workflow actually is\n\nYou can think about dynamic workflows as a script which orchestrates agents. Claude writes those JavaScript programs to orchestrate different sub-agents. So you don't hand-write the JavaScript. Claude writes the script for you.\n\nThe one building block is an agent. It has a model specification and an agent type. Out of all of these agents, you can construct programs of two types. You can execute those agents in parallel, or you can have a pipeline. In our workflow we have a first phase as a draft, and then when all of those agents are finished, it goes into the second phase to check.\n\n[![Image](https://pbs.twimg.com/media/HJ_DmqGWEAAXGli?format=jpg&name=small)](http://x.com/i/article/2062582346872918016/ArtemXTech/article/2062582596190498864/media/2062582223262322688)\n\nThe HTML report the workflow produced: 49 sessions analyzed, 86 corrections mined, every quote verified against the actual session next to the proposed CLAUDE.md edit\n\n## \n\nWhy use dynamic workflows at all\n\nThere are a few problems which have been around with Claude Code and existing sub-agents. One of them is agent laziness. If you hand Claude a big task, say analyzing 50 items in a security review, or your daily notes, or analyzing videos, it can stop the task before actually finishing it completely.\n\nWith a workflow, this is not really possible. What we are doing is actually executing a program, and it's deterministic. We are spawning all the sub-agents with isolated context, and there's an actual deterministic program that runs to make sure all of the items have been addressed.\n\nAnother problem is if you're working within the main Claude Code agent, it tends to have this self-preferential bias to prefer its own findings. With sub-agents, because each one has its own isolated context window, they're on their own, and that allows you to remove this bias.\n\nThe final point is a goal drift. Claude tends to drift about its initial goal which was set if you run a session over many, many turns. That comes from this problem of context thread, and because we have those sub-agents with isolated context, we can actually solve this issue.\n\n## \n\nMine your last 50 sessions for the corrections you keep making\n\nI just asked Claude to set up a workflow and go through my last 50 sessions and turn them into recurring rules. The prompt I used:\n\ngo through my last 50 sessions and mine them for the corrections I keep making and turn them into CLAUDE.md rules\n\nIt's going to run 10 parallel agents to extract corrections, then there's going to be an agent to analyze those corrections, and then the",
+      "title": "",
+      "url": "http://x.com/i/article/2062582346872918016"
+    },
+    "http://x.com/i/article/2062594837644226560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062594837644226560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062594837644226560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_SYKWXcAAicyp?format=jpg&name=900x900)](http://x.com/i/article/2062594837644226560/Voxyz%5Fai/article/2062604405682090403/media/2062598466895835136)\n\nHow to Build an AI Second Brain for Your OpenClaw/Hermes That Learns While You Sleep (full guide)\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2062594837644226560/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2062594837644226560/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2062594837644226560/Voxyz%5Fai)\n\n·\n\n6h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n4\n\n12\n\n74\n\n[8.6K](http://x.com/i/article/2062594837644226560/Voxyz%5Fai/status/2062604405682090403/analytics)\n\nEveryone who's set up a nightly review for their agent has had the same thought: let it summarize on its own overnight, wake up smarter tomorrow.\n\nI did too. Hermes and OpenClaw are two popular agent runtimes, the layer that actually wakes your agent up, runs its tools, and sends results back. Hermes can fire on a cron schedule. OpenClaw has Dreaming, which consolidates short-term signals into long-term memory candidates. But after running this for a while, I found that if each one only stores things inside its own runtime, what you end up with is two agents keeping separate diaries.\n\n[![Image](https://pbs.twimg.com/media/HJ_StC-W0AAjFpd?format=jpg&name=small)](http://x.com/i/article/2062594837644226560/Voxyz%5Fai/article/2062604405682090403/media/2062598825693335552)\n\nA system that actually works keeps three things apart:\n\nplaintext\n\n```plaintext\nRuntime   who wakes up and does the work\nMemory    what is worth keeping\nBrain     one current state any runtime can load next time\n```\n\nThis is why I ended up putting gbrain above both Hermes and OpenClaw.\n\nHermes and OpenClaw are peer runtimes. They run the loop, call tools, fire on schedule, and send results back to me. gbrain is different: an open-source structured knowledge layer. It can run its own ingestion, dream cycle, even a full agent on top. But in this setup I don't use it as a runtime. I use it for one job: deciding how today's events should surface tomorrow.\n\n[![Image](https://pbs.twimg.com/media/HJ_SywCXgAAIN8w?format=jpg&name=small)](http://x.com/i/article/2062594837644226560/Voxyz%5Fai/article/2062604405682090403/media/2062598923689099264)\n\nThis article has nothing to do with switching on some Dreaming feature.\n\nIt's about how to use gbrain to build one shared AI second brain on top of your runtime, whether you run Hermes or OpenClaw.\n\n## \n\n1\\. Separate the three layers first\n\nI now split the whole system into three layers:\n\nplaintext\n\n```plaintext\nHermes / OpenClaw\n= agent runtime: wakes up, executes, delivers\n\nruntime memory\n= each runtime's own short and long-term boot memory\n\ngbrain\n= a unified knowledge layer, independent of any runtime\n```\n\nThese three can't be mixed.\n\nHermes / OpenClaw: who does the work\n\nHermes is good for personal agent loops that wake on a fixed schedule: a morning summary, a nightly audit, a periodic check, results pushed back to Telegram, Slack, or the CLI.\n\nA normal \n\n[Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory)\n\n session has its own persistent memory: MEMORY.md / USER.md injected at session start, plus a session\\_search tool to pull up past conversations on demand.\n\n[Cron](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/cron.md)\n\n is a different story. A Hermes cron job is fired by the gateway daemon, and every run starts a fresh agent session that doesn't inherit your current chat context. The current implementation also skips memory providers during cron (skip\\_memory=True by default). So a 1am job has to carry its own context: a self-contained prompt, context\\_from, workdir or context files, or a direct read from g",
+      "title": "",
+      "url": "http://x.com/i/article/2062594837644226560"
+    },
+    "http://x.com/i/article/2062641002016620545": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062641002016620545",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062641002016620545/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_-c2aacAAYUkb?format=jpg&name=900x900)](http://x.com/i/article/2062641002016620545/hnshah/article/2062647149582750101/media/2062646925955067904)\n\nEvery Company’s First AI Strategy Should Be a Skill Library \n\n[![](https://pbs.twimg.com/profile_images/1498191257218076672/rvtMDI8Q_normal.jpg)](http://x.com/i/article/2062641002016620545/hnshah)\n\n[Hiten Shah![](https://pbs.twimg.com/profile_images/65441891/crazyegg_logo_avatar_bigger.png)](http://x.com/i/article/2062641002016620545/hnshah)\n\n[@hnshah](http://x.com/i/article/2062641002016620545/hnshah)\n\n·\n\n4h\n\nFollow\n\nClick to Follow hnshah\n\n13\n\n27\n\n237\n\n[58K](http://x.com/i/article/2062641002016620545/hnshah/status/2062647149582750101/analytics)\n\nWatch your best people work long enough and you notice something. They have patterns.\n\nA great salesperson approaches an important call with a clear sense of what matters. They look for the last conversation, identify the real buyer, uncover the unstated objection, and trace the promise someone made three weeks ago that never showed up in the notes.\n\nA strong support lead reads a customer escalation differently from everyone else. Beyond the ticket itself, they pick up on tone, history, account value, product pain, and the subtle signals that suggest a small issue is about to become something much larger.\n\nA finance leader looks beyond the numbers on the page. They understand which movements matter, which ones are noise, and which ones need a story before the board meeting.\n\nThis is work most companies depend on every day, yet it often remains difficult to capture, organize, and learn from.\n\nThey call it experience, judgment, taste, or institutional knowledge, but in practice those qualities can become a polished way of justifying decisions that reinforce existing assumptions and preferences.\n\nAI companies are starting to call it skills.\n\nI’m walking through this live Friday at 10 AM PT. Register for Skills 101 if you want the practical version.\n\nWhat a Skill is. Where it fits. How to stop re-explaining the same work to Claude and ChatGPT. \n\n[Register free for Skills 101.](https://www.hiten.com/skills-101)\n\n## \n\nThe Work Already Has a Method\n\nEvery company has ways of doing things that are more specific than they realize.\n\nThe way sales gets ready for a renewal.\n\nWhat product teams do to turn customer feedback into priorities. How marketing knows whether a campaign is actually working. When support decides it's time to escalate an issue. The process engineering uses to review risky changes. How finance makes sense of what's changed in the business.\n\nSome of this is written down. Most of it is scattered across docs, Slack threads, templates, old decks, onboarding calls, and the heads of the people who have been around long enough to know better.\n\nThat knowledge is usually treated as background, but it is about to become infrastructure.\n\nAgents are only useful when they understand more than the task itself. They need to understand the method behind it.\n\n## \n\nAccess Is the Easy Part\n\nWith AI, people tend to start with access to data.\n\nLink the agent to the CRM. Set up Slack integration. Provide access to Google Drive. Enable connectivity with GitHub. Establish a connection to the data warehouse.\n\nThat all matters. An agent without access is mostly guessing.\n\nBut access does not create good work. An agent can read every sales note and still miss the shape of a deal.\n\nIt can search every support ticket and still fail to recognize the customer who needs immediate attention. A model can open every product doc and still produce a PRD that sounds right while missing the actual decision.\n\nThe challenge is helping the agent understand how your company approaches the work, not expanding the agent’s access to information.\n\nThat is where skills matter.\n\n## \n\nA Skill Is",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062641002016620545"
+    },
+    "http://x.com/i/article/2062645394719547392": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062645394719547392",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062645394719547392/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ__ZKabkAA2NiA?format=jpg&name=900x900)](http://x.com/i/article/2062645394719547392/dkundel/article/2062650378089594955/media/2062647962116001792)\n\nA guide to /goal ![🥅](https://abs.twimg.com/emoji/v2/svg/1f945.svg)\n\n[![](https://pbs.twimg.com/profile_images/2058062533496565760/Jcn_Jm9u_normal.jpg)](http://x.com/i/article/2062645394719547392/dkundel)\n\n[dominik kundel](http://x.com/i/article/2062645394719547392/dkundel)\n\n[@dkundel](http://x.com/i/article/2062645394719547392/dkundel)\n\n·\n\n3h\n\nFollow\n\nClick to Follow dkundel\n\n12\n\n53\n\n474\n\n[104K](http://x.com/i/article/2062645394719547392/dkundel/status/2062650378089594955/analytics)\n\nWe launched the goal mode (or /goal) as a way to help you have Codex drive towards a concrete outcome. When you set a goal Codex will continue to work until the goal is achieved, whether that takes hours or days. Some people have used Codex to work on a single goal for more than 120 hours.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_normal.jpg)](http://x.com/i/article/2062645394719547392/OpenAIDevs)\n\nOpenAI Developers\n\n![](https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg)\n\n@OpenAIDevs\n\n·\n\n[May 21](http://x.com/i/article/2062645394719547392/OpenAIDevs/status/2057530209470210453)\n\nReplying to \n\n[@OpenAIDevs](http://x.com/i/article/2062645394719547392/OpenAIDevs)\n\n![🥅](https://abs.twimg.com/emoji/v2/svg/1f945.svg)/goal has graduated from an experiment—for tasks big and small, Codex gets your work done. Use goal mode in the Codex app, IDE Extension, or CLI to give Codex a specific milestone, and it will keep working until it gets there, even across hours or days. You can check in and\n\nShow more\n\n![](https://pbs.twimg.com/media/HI3SW4jaEAEKG-C.jpg)\n\n46\n\n132\n\n1.3K\n\n[437K](http://x.com/i/article/2062645394719547392/OpenAIDevs/status/2057530209470210453/analytics)\n\nGoal mode is incredibly powerful, and there are a few things you can do to get the most out of it. Here are 7 things to keep in mind when you use /goal.\n\n## \n\n1\\. Clear \\*verifiable\\* criteria\n\nThe prompt you define when you activate goal mode might act as your initial prompt but more importantly it will act as your exit criteria for the goal. Codex will check after a turn whether the goal has been achieved or not. As a result your goal prompt should not be overly long and focus on a clear criteria on when the goal has been achieved.\n\nIn most cases a good goal contains a clear number\\* for the model to reach before the goal is considered complete. Good examples:\n\n1. \"Reduce the build and deployment time by 30%.\"\n2. \"Migrate this feature from TypeScript to Rust and reach 100% test parity.\"\n3. \"Improve application scaffolding to get the largest contentful paint in production to below 2.5s.\"\n\n\\*The prompt doesn’t always have to be a number but generally it helps with the next tips.\n\nIf you are unsure how to best define your goal or you want to work with Codex first to brainstorm the project you don’t have to start a thread with goal mode.\n\nCodex can set a goal on its own so you can start a conversation and when you are ready for Codex to start the work you can ask Codex to set the goal based on your conversation.\n\nYou can also always edit the goal at any point in time by pressing the edit button in the Codex app or using /goal again in the CLI.\n\n## \n\n2\\. Provide guidance if possible\n\nSending a prompt like \"Reduce the build and deployment time by 30%\" can be cool and even find some creative solutions. It could also send Codex down a wild goose chase if you have an idea where the issue might lie.\n\nWhen possible give Codex a starting point where to start working, what tools it can use to achieve the goal, or any other pointers where Codex might go down the wrong path.\n\nMy colleague \n\n[@reach\\_v",
+      "title": "",
+      "url": "http://x.com/i/article/2062645394719547392"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -7058,6 +7202,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Lessons from building Claude Code: How we use skills | Claude",
       "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
+    },
+    "https://claude.com/blog/running-an-ai-native-engineering-org": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How the Claude Code engineering team’s processes and structure changed once agentic coding became the default way of working.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1f0f1a5a045e955123064a_og_running-an-ai-native-engineering-org.jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Running an AI-native engineering org\nAt Code w/ Claude SF 2026, Director of Engineering for Claude Code and Claude Cowork Fiona Fung walked through how the team’s processes and structure changed once agentic coding became the default way of working.\nAt Code w/ Claude SF 2026, Director of Engineering for Claude Code and Claude Cowork Fiona Fung walked through how the team’s processes and structure changed once agentic coding became the default way of working.\n- June 3, 2026\n- 5min\nFor years, engineering bandwidth was the expensive part of building applications. Every process we used to have around software planning and shipping, first waterfall and then agile, was built around that cost.\nI started my career in the early 2000s working on Visual Studio. In those days we shipped software on CD-ROMs with hard manufacturing deadlines. Once we could distribute software online, we began increasing to shipping updates continuously. Now we’re changing the way we work again, this time around the time and people it takes to write software.\nOn the Claude Code team, writing code, writing tests, and refactoring rarely slows us down anymore. But the bottlenecks didn’t go away when agentic coding took away the actual need to type code. Verification, code review, and security took their place.\nWe can all generate a lot of code really fast now, but this also brings up new questions: Is this code correct? How is it maintained? And one of the top questions I get from fellow engineering leaders: “How are humans keeping up with how you’re doing code reviews?”\nWe all put processes in place for a reason, to close a gap or make something work better. But when that gap no longer exists and those processes become obsolete, they rarely go away on their own. When the Claude Code team began using agentic coding as our default way of working, a lot of our existing processes stopped working. Here are the norms we rewrote, and why.\nThe old norm was to spend a lot more time pre-planning because coding time was expensive. When I first joined the Claude Code team, we wrote a pretty good six month roadmap, and then because of Claude Code, so many things changed that it was out of date by month three.\nEngineering speed and throughput is different now, so the way we plan sprints has changed. I call it just-in-time (JIT) planning, almost like JIT compiling: how do you do just the right amount at the right time? Our planning ritual shifted away from design docs toward discussions in PRs or prototypes. The space moves fast so we don’t do a lot of product reviews. Our process now is let's prototype, get a lot of internal users on it, and start acting on their feedback.\nWhen engineers wrote code, the first step to getting an answer to most questions was to find the person who wrote the code. Now, since all our PRs are assisted by Claude, \"Who made this change?\" is no longer sufficient. Our new norm is to go a level deeper: what do you actually need to know? For instance: Are you looking for who caused a regression? An expert to answer a customer question? Or context on a decision? You ask Claude that question, and consider whether Claude can answer it directly, also with more data and context.\nOn the Claude Code team, no matter what that question is, our process is to also ask “Is there a way to automate it?” For example, having Claude summarize customer feedback channels every morning went from a ritual I did manually with my coffee to something I just have running automatically in the background.\nWe use [Code Review](https://code.claude.com/docs/en/code-review) heavily. Claude handles all the style and linting, PR feedback requests, catching bugs and fixing them before a full commit, and adding tests. Where we still definitely want a human is expertise.\nThe new norm is human review where it matters: for legal review, I always want my legal partner involved in risk tolerance. For trust boundaries and security-sensitive code, I want the domain experts. Product managers a",
+      "title": "Running an AI-native engineering org | Claude",
+      "url": "https://claude.com/blog/running-an-ai-native-engineering-org"
     },
     "https://claude.com/blog/the-founders-playbook": {
       "cleaner_v": 2,
@@ -15039,6 +15205,20 @@
       "title": "",
       "url": "https://openai.com/index/chatgpt-for-teachers/"
     },
+    "https://openai.com/index/chatgpt-memory-dreaming/": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "* Products\n* [Business](https://openai.com/index/chatgpt-memory-dreaming/business/)\n* [Developers](https://openai.com/index/chatgpt-memory-dreaming/api/)\n* [Company](https://openai.com/index/chatgpt-memory-dreaming/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=e7bfc2fe-9a6f-464b-8b38-2d19c07ba9ce&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nDreaming: Better memory for a more helpful ChatGPT | OpenAI\n\nTable of contents\n\n* [How memory has evolved](#how-memory-has-evolved)\n* [How we evaluate memory](#how-we-evaluate-memory)\n* [Carrying forward context](#carrying-forward-context)\n* [Following preferences](#following-preferences)\n* [Staying current over time](#staying-current-over-time)\n* [A more scalable foundation for the future](#a-more-scalable-foundation-for-the-future)\n\nJune 4, 2026\n\n[Research](https://openai.com/index/chatgpt-memory-dreaming/news/research/)[Product](https://openai.com/index/chatgpt-memory-dreaming/news/product-releases/)[Release](https://openai.com/index/chatgpt-memory-dreaming/research/index/release/)\n\n# Dreaming: Better memory for a more helpful ChatGPT\n\nImproving memory synthesis in ChatGPT to optimize for freshness, continuity and relevance.\n\nListen to article\n\nShare\n\nToday we’re beginning to roll out a more capable and scalable system for synthesizing memory, developed to tackle the staleness, correctness, and scalability challenges that we observe when memory is applied to the hundreds of millions of users and multi-year time horizons in ChatGPT.\n\nMemory is what helps ChatGPT learn your preferences, projects, and constraints, allowing future conversations to start from shared context rather than from scratch.\n\nOver the last two years, memory has grown into a critical part of the ChatGPT experience, helping ChatGPT better understand your context so it can help you accomplish meaningful goals over time. This is central to making ChatGPT more useful: knowing you, helping you, and doing more for you.\n\nThis update is available to Plus and Pro users in the US today, and will roll out to additional countries and Free and Go users over the coming weeks.\n\n## How memory has evolved\n\nMemory first launched in April 2024 (also known as saved memories). The feature let you ask ChatGPT to remember information and carry it forward into future chats.\n\n![Saved memories modal showing a searchable list of personal details, including work, interests, travel, and response preferences.](https://images.ctfassets.net/kftzwdyauwt9/6kVwo3uYRhe81W7gx1uGoR/c7c242fd100e910d28b451eada638b89/Saved_memories.png?w=3840&q=90&fm=webp)\n\nSaved memories were only written during the conversation and relied on strong cues to decide when to trigger memory, such as an instruction to \"remember I’m traveling to Singapore in July.\" In practice, interacting with this system could feel like talking to someone who took a few notes, but still forgot everything that wasn’t written down. Saved memories also tend to go stale over time and eventually become incorrect or irrelevant.\n\nIn April 2025, we updated ChatGPT’s memory by giving the model the ability to reference chat context outside of the saved memories list; this was done by introducing the first version of **dreaming**—a method for ChatGPT to _automatically_ curate memories in the background by referencing chat history.\n\n![Memory settings page in ChatGPT showing options to reference chat history, use saved memories, manage saved memories, and enable Pulse memory suggestions.](https://images.ctfassets.net/kftzwdyauwt9/nSkMroPG2SPQCrcIUh2l4/bf05aa9cfb0287cfa7f187f9d84674dd/Memory_settings__1_.png?w=3840&q=90&fm=webp)\n\nIn contrast to saved memories, dreaming leverages a",
+      "title": "",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+    },
     "https://openai.com/index/codex-for-every-role-tool-workflow/": {
       "cleaner_v": 2,
       "content_type": "",
@@ -15240,6 +15420,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Agentic RAG",
       "url": "https://outcomeschool.com/blog/agentic-rag"
+    },
+    "https://outcomeschool.com/blog/ai-agent-memory": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In this blog, we will learn about AI Agent Memory - why agents need it, the memory stack, the four core operations (write, read, update, forget), how memory flows at runtime, and the common mistakes.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://outcomeschool.com/blog/ai-agent-memory",
+      "frameable": false,
+      "image_urls": [
+        "https://outcomeschool.com/static/images/blog/ai-agent-memory.png",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Famit-avatar.png&w=96&q=75",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Fblog%2Fai-agent-memory.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI Agent Memory\n- Authors\n- Name\n- Amit Shekhar\n- Published on\nIn this blog, we will learn about AI Agent Memory - why agents need it, the memory stack, the four core operations (write, read, update, forget), how memory flows at runtime, and the common mistakes.\nWe will cover the following:\n- The Big Picture\n- Why AI Agents Need Memory\n- The Memory Stack\n- The Four Core Operations\n- How Memory Flows at Runtime\n- What to Store and What Not to Store\n- Common Mistakes and How to Fix Them\n- Quick Summary\nI am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com), I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.\nI teach [AI and Machine Learning](https://outcomeschool.com/program/ai-and-machine-learning) at Outcome School.\nLet's get started.\nThe Big Picture\nBefore we go into the details, let's understand the big picture.\nAn LLM by itself is stateless. Every time we call it, it is like talking to someone who has never met us before. It does not remember our name, our last conversation, or what task it helped us with yesterday. AI Agent Memory is everything we build around the LLM to give it the feeling of remembering. The LLM does not actually remember. The agent remembers on its behalf.\nIn simple words:\nAI Agent Memory = The system that lets a stateless LLM act like it remembers across turns, sessions, and users.\nThink of an [AI agent](https://outcomeschool.com/blog/ai-agent) like a brilliant assistant who forgets everything the moment every meeting ends. Without memory, they cannot learn our preferences, recall past decisions, or build on yesterday's work. Memory is the notebook, the filing cabinet, and the personal diary that keeps them useful from one day to the next.\nWhy AI Agents Need Memory\nBefore we go deeper, let's understand why memory matters so much. Without memory, an agent has four big problems:\nNo continuity. The agent cannot remember what the user said 30 seconds ago once the current call ends - the next call starts fresh, with nothing carried over unless we explicitly pass it in.\nNo personalization. The agent cannot remember that the user prefers short answers, writes in Python, or lives in Bangalore. It treats every user the same.\nNo learning. The agent cannot remember what worked and what did not. It will make the same mistakes again and again.\nNo long tasks. Multi-step tasks that take hours or days become impossible. The agent forgets the plan halfway through and has to start over.\nSo, here comes AI Agent Memory to the rescue. It solves all four problems by giving the agent a place to store information and a way to bring it back when needed.\nNow, let's understand what memory actually looks like inside an agent.\nThe Memory Stack\nAI Agent Memory is not a single thing. It is a stack of layers, each with a different lifespan and a different purpose. Let's decode each layer.\n+--------------------------------------------+\n| AI Agent Memory |\n| |\n| Layer 1: Context Window (in the prompt) |\n| - In the current prompt |\n| - Lost when context overflows |\n| |\n| Layer 2: Short-Term Memory (session) |\n| - Scratchpad, current task state |\n| - Lost when the session ends |\n| |\n| Layer 3: Long-Term Memory (persistent) |\n| - Facts about the user |\n| - Past conversations |\n| - Learned preferences |\n| |\n| Layer 4: External Knowledge (tools/RAG) |\n| - Documents, databases, APIs |\n| - Queried, not maintained by agent |\n+--------------------------------------------+\nLayer 1 - Context Window. This is the text the LLM sees in a single call. It is the fastest memory because the LLM reads it directly. But it is also the smallest. Once it is full, older messages have to be dropped or summarized. For tasks where the input itself is too large to fit, we have a detailed blog on [",
+      "title": "AI Agent Memory",
+      "url": "https://outcomeschool.com/blog/ai-agent-memory"
     },
     "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s": {
       "cleaner_v": 2,
@@ -19295,6 +19492,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -19308,6 +19519,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062495207648907265/img/22ifazwEtzRrTOSg.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -26645,6 +26870,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
+    "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png"
+    },
+    "https://pbs.twimg.com/media/HJ-2Vs6a4AAUiXV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ-2Vs6a4AAUiXV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ-2Vs6a4AAUiXV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ-2Vs6a4AAUiXV.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ-2h70acAAmFX-.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ-2h70acAAmFX-.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ-2h70acAAmFX-.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ-2h70acAAmFX-.jpg"
+    },
     "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -27485,6 +27766,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
     },
+    "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
+    },
     "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28114,6 +28409,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -29876,6 +30185,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How we contain Claude across products \\ Anthropic",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    },
+    "https://www.anthropic.com/institute/recursive-self-improvement": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Our progress toward recursive self-improvement, and its implications.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F52a19d636c659cf4515dc0d7d70b8ceb1bbfd768-2200x1276.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F30f1266938f0d62a770dccf77baf24a0ad237fbd-2200x1276.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6fc2841bc896ad4ea8ee77e515df1a0a6bed8bcf-2200x1276.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "For most of AI’s history, humans drove every step in its development cycle. But at Anthropic, we are delegating a growing share of AI development to AI systems themselves, which is speeding up our work.\nTaken far enough, and given enough compute, that trend points to an AI system capable of fully autonomously designing and developing its own successor. This is called recursive self-improvement. We are not there yet, and recursive self-improvement is not inevitable. But it could come sooner than most institutions are prepared for.\nUsing public benchmarks and previously unreported data from within Anthropic, [The Anthropic Institute](https://www.anthropic.com/institute) is showing that AI is already accelerating the development of AI systems. To take just one example: today, Anthropic engineers on average ship 8x as much code per quarter as they did from 2021-2025.\nThe technical trends discussed in this piece suggest that AI systems are going to become much more capable in coming years. These trends have huge implications. AI that can build itself would be a major development in the history of technology—one that could bring [enormous good for the world](https://www.darioamodei.com/essay/machines-of-loving-grace) in science, healthcare, and beyond. But full recursive self-improvement also might increase the [risks](https://www.darioamodei.com/essay/the-adolescence-of-technology) of humans losing control over AI systems. If systems are capable of fully building their own successors, the ways we secure them, monitor them, and shape their behavior all grow much more important.\n2021–2023\nBuilding the first Claude\nIn the early days, work at Anthropic looked like work at any other tech company: people writing code and docs on laptops.\n2023–2025\nChatbots\nPeople used early chatbots to help with parts of the process, like generating short code snippets and copying the output into text editors.\n2025–2026\nCoding agents\nAs the agents became more capable, they were able to write and edit code on their own, sometimes entire files.\nToday\nAutonomous agents\nAgents can now run code themselves and delegate hours of work to other agents.\n20XX?\nClosing the loop\nIn the future, agents could become capable enough to build and train models themselves. If this happens, future versions of Claude could be continuously improved by Claude itself.\nEvidence from the outside world\nThe rate at which AI models improve is accelerating. The length of tasks that they can [reliably complete on their own](https://metr.org/time-horizons/) has been doubling roughly every four months, up from an earlier trend of [doubling](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) every seven months. In March 2024, Claude Opus 3 could complete software tasks that take humans about four minutes to complete. A year later, Claude Sonnet 3.7 managed tasks that took about an hour and a half. A year after that, Claude Opus 4.6 managed 12-hour tasks.1 If this trend holds, tasks that take a skilled person days could come into range this year. In 2027, AI systems could be capable of tasks that take a person weeks.\nThe same pattern appears on coding and research benchmarks. Benchmarks measure the performance of models in a given domain, and they’re “saturated” when models achieve close to 100% performance.2 [SWE-bench](https://www.swebench.com/) is a standard test of real-world software engineering: it hands a model an actual open-source codebase and a real bug report, and asks it to write a code change that fixes the issue and passes the project’s own tests. Models have gone from scoring in the low single digits to saturating the benchmark in two years.\n[CORE-Bench](https://arxiv.org/abs/2409.11363) tests whether a model can reproduce existing research, a prerequisite for them to conduct original research. It gives an AI model the code and data behind a published paper, and asks it to rerun everything and confirm it can replicate the paper’s results. AI system",
+      "title": "When AI builds itself \\ Anthropic",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement"
     },
     "https://www.anthropic.com/news/3-5-models-and-computer-use": {
       "cleaner_v": 2,
@@ -35469,6 +35796,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60"
+    },
+    "https://youtu.be/RkQQ7WEor7w?si=s0nH7NDw69qZ5Jf4": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=s0nH7NDw69qZ5Jf4&v=RkQQ7WEor7w&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/RkQQ7WEor7w?si=s0nH7NDw69qZ5Jf4"
     },
     "https://youtu.be/USmG-RXYzd8": {
       "content_type": "text/html; charset=utf-8",
@@ -43572,8 +43912,8 @@
       "http://x.com/i/article/2062125489721102336",
       "https://x.com/AlphaSignalAI/status/2062165107300499690",
       "https://microsoft.ai/news/introducing-mai-thinking-1/",
-      "https://x.com/AlphaSignalAI/status/2062505121112621474",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg"
+      "https://x.com/AlphaSignalAI/status/2062553418460479577",
+      "http://x.com/i/article/2062535871379972096"
     ],
     "2062167932440817915": [
       "https://x.com/SidebarIO/status/2062167932440817915",
@@ -43587,11 +43927,11 @@
       "https://x.com/polydao/status/2062185564871295459",
       "http://x.com/i/article/2062179059736391681",
       "https://x.com/polydao/status/2062319550444499167",
-      "https://x.com/polydao/status/2062319377811124480",
       "https://x.com/polydao/status/2062319316347801923",
-      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062319377811124480",
       "https://x.com/polydao/status/2062188839976706474",
       "https://x.com/polydao/status/2062319433939406875",
+      "https://x.com/polydao/status/2062319236421230722",
       "https://x.com/polydao/status/2062319504579858823",
       "https://x.com/polydao/status/2062319145262158327"
     ],
@@ -43616,10 +43956,10 @@
       "https://x.com/zaimiri/status/2062523909241774470",
       "https://x.com/zaimiri/status/2062523861267370269",
       "https://x.com/zaimiri/status/2062523820477681966",
-      "https://x.com/zaimiri/status/2062523732623831083",
       "https://x.com/zaimiri/status/2062523769277866246",
       "https://x.com/zaimiri/status/2062523790471635193",
-      "https://x.com/zaimiri/status/2062225157775556996"
+      "https://x.com/zaimiri/status/2062225157775556996",
+      "https://x.com/zaimiri/status/2062523732623831083"
     ],
     "2062203743387459836": [
       "https://x.com/delba_oliveira/status/2062203743387459836",
@@ -43688,6 +44028,7 @@
     "2062301065312407891": [
       "https://x.com/DeRonin_/status/2062301065312407891",
       "http://x.com/i/article/2059627968872280065",
+      "https://x.com/DeRonin_/status/2062598746425184599",
       "https://x.com/DeRonin_/status/2062302332474335385",
       "https://x.com/DeRonin_/status/2062438584917836167"
     ],
@@ -43701,39 +44042,45 @@
       "https://x.com/yanhua1010/status/2062345653079224458",
       "http://x.com/i/article/2060567536543182848",
       "https://x.com/yanhua1010/status/2062356971169444241",
-      "https://x.com/yanhua1010/status/2062494496575861099",
+      "https://x.com/yanhua1010/status/2062390639887814754",
       "https://x.com/yanhua1010/status/2062390692849295424",
-      "https://x.com/yanhua1010/status/2062390639887814754"
+      "https://x.com/yanhua1010/status/2062494496575861099"
     ],
     "2062380163338535064": [
       "https://x.com/libapi_/status/2062380163338535064",
       "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
       "https://x.com/libapi_/status/2062388545147548097",
+      "https://x.com/libapi_/status/2062487028378546243",
+      "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062552422783033678",
       "https://x.com/libapi_/status/2062382058245390445",
       "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
-      "https://x.com/libapi_/status/2062488649963594062",
-      "https://x.com/libapi_/status/2062552422783033678",
-      "https://x.com/libapi_/status/2062382540036739153",
       "https://x.com/libapi_/status/2062487159588942068",
-      "https://x.com/libapi_/status/2062382239963558020",
-      "https://x.com/libapi_/status/2062487028378546243",
+      "https://x.com/libapi_/status/2062488649963594062",
       "https://x.com/libapi_/status/2062543042175967659",
-      "https://x.com/libapi_/status/2062403411677700336"
+      "https://x.com/libapi_/status/2062403411677700336",
+      "https://x.com/libapi_/status/2062382540036739153"
+    ],
+    "2062414047073448262": [
+      "https://x.com/Potatoloogs/status/2062414047073448262",
+      "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "https://x.com/Potatoloogs/status/2062513449100595489",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062418054831554666": [
       "https://x.com/IBuzovskyi/status/2062418054831554666",
       "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
       "https://x.com/IBuzovskyi/status/2062427739659895262",
-      "https://x.com/IBuzovskyi/status/2062583604316958753",
-      "https://x.com/IBuzovskyi/status/2062533992281248111",
-      "https://x.com/IBuzovskyi/status/2062571983548633101",
-      "https://x.com/IBuzovskyi/status/2062470043997245699",
       "https://x.com/IBuzovskyi/status/2062443797171118534",
-      "https://x.com/IBuzovskyi/status/2062477205951676692",
       "https://x.com/IBuzovskyi/status/2062468232728965377",
+      "https://x.com/IBuzovskyi/status/2062533992281248111",
+      "https://x.com/IBuzovskyi/status/2062470043997245699",
+      "https://x.com/IBuzovskyi/status/2062477205951676692",
+      "https://x.com/IBuzovskyi/status/2062571983548633101",
       "https://x.com/IBuzovskyi/status/2062430940949799189",
-      "https://x.com/IBuzovskyi/status/2062509027351781425",
-      "https://x.com/IBuzovskyi/status/2062548402018160685"
+      "https://x.com/IBuzovskyi/status/2062583604316958753",
+      "https://x.com/IBuzovskyi/status/2062548402018160685",
+      "https://x.com/IBuzovskyi/status/2062509027351781425"
     ],
     "2062428035559616604": [
       "https://x.com/_vmlops/status/2062428035559616604",
@@ -43743,6 +44090,13 @@
       "https://x.com/vijayiyengar/status/2062429159545303409",
       "http://x.com/i/article/2059705598988701696"
     ],
+    "2062435013484814400": [
+      "https://x.com/AdamBartas/status/2062435013484814400",
+      "http://x.com/i/article/2059613463731732484",
+      "https://x.com/AdamBartas/status/2062480475277472227",
+      "https://x.com/AdamBartas/status/2062600341326352455",
+      "https://x.com/AdamBartas/status/2062600236393267462"
+    ],
     "2062443798647517197": [
       "https://x.com/hooeem/status/2062443798647517197",
       "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
@@ -43751,6 +44105,37 @@
       "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg",
       "https://x.com/hooeem/status/2062447490104783100"
     ],
+    "2062464183409545224": [
+      "https://x.com/0xCodez/status/2062464183409545224",
+      "https://pbs.twimg.com/amplify_video_thumb/2062463771969290240/img/FkZgIjNg_u56k-q2.jpg",
+      "https://x.com/0xCodez/status/2062495857568600213",
+      "https://youtu.be/RkQQ7WEor7w?si=s0nH7NDw69qZ5Jf4",
+      "https://x.com/0xCodez/status/2062475013899354408",
+      "https://x.com/0xCodez/status/2062468272738484617",
+      "https://x.com/0xCodez/status/2062492129746723100",
+      "https://x.com/0xCodez/status/2062483755520987393",
+      "https://x.com/0xCodez/status/2062469613363875992",
+      "https://x.com/0xCodez/status/2062474910996271452",
+      "https://x.com/0xCodez/status/2062483550314651721"
+    ],
+    "2062495991421616319": [
+      "https://x.com/riba2534/status/2062495991421616319",
+      "http://x.com/i/article/2062495770012782593",
+      "https://x.com/riba2534/status/2062496438630965457",
+      "http://x.com/i/article/2062496062326411264"
+    ],
+    "2062513449100595489": [
+      "https://x.com/Potatoloogs/status/2062513449100595489",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    ],
+    "2062513692747682129": [
+      "https://x.com/ai_Kyros/status/2062513692747682129",
+      "https://x.com/ai_Kyros/status/2062707219536531670"
+    ],
+    "2062526843564233040": [
+      "https://x.com/akshay_pachaar/status/2062526843564233040",
+      "http://x.com/i/article/2062152051157782528"
+    ],
     "2062549448274628846": [
       "https://x.com/SidebarIO/status/2062549448274628846",
       "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
@@ -43758,8 +44143,80 @@
       "https://x.com/SidebarIO/status/2062262557016989864",
       "https://meodai.github.io/heerich/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+    ],
+    "2062561213532471707": [
+      "https://x.com/Av1dlive/status/2062561213532471707",
+      "http://x.com/i/article/2062489133445201920",
+      "https://x.com/Av1dlive/status/2062593076502405309",
+      "https://x.com/Av1dlive/status/2062638021233856941",
+      "https://x.com/Av1dlive/status/2062583273277317301",
+      "https://x.com/Av1dlive/status/2062658439936107000",
+      "https://x.com/Av1dlive/status/2062647510800482789",
+      "https://x.com/Av1dlive/status/2062564180574740908",
+      "https://x.com/Av1dlive/status/2062647578857288082",
+      "https://x.com/Av1dlive/status/2062597636839133188",
+      "https://x.com/Av1dlive/status/2062564208223596991",
+      "https://x.com/Av1dlive/status/2062562364755681671"
+    ],
+    "2062562168843714795": [
+      "https://x.com/ElevenLabsDevs/status/2062562168843714795",
+      "https://pbs.twimg.com/amplify_video_thumb/2062561996290109441/img/hrWtmJh_3OhR9ZZK.jpg"
+    ],
+    "2062567556524003631": [
+      "https://x.com/OpenAI/status/2062567556524003631",
+      "https://openai.com/index/chatgpt-memory-dreaming/",
+      "https://x.com/OpenAI/status/2062567558252007554",
+      "https://x.com/OpenAI/status/2062567559673856346",
+      "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png",
+      "https://x.com/OpenAI/status/2062567561276100809"
+    ],
+    "2062568862479208923": [
+      "https://x.com/AnthropicAI/status/2062568862479208923",
+      "https://www.anthropic.com/institute/recursive-self-improvement",
+      "https://x.com/AnthropicAI/status/2062568864240836995",
+      "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png",
+      "https://x.com/AnthropicAI/status/2062568867151684045",
+      "https://pbs.twimg.com/media/HJ-2Vs6a4AAUiXV.jpg",
+      "https://x.com/AnthropicAI/status/2062568869240476050",
+      "https://x.com/AnthropicAI/status/2062568870872003021",
+      "https://pbs.twimg.com/media/HJ-2h70acAAmFX-.jpg",
+      "https://x.com/AnthropicAI/status/2062568873321513443"
+    ],
+    "2062576319871984013": [
+      "https://x.com/pallavishekhar_/status/2062576319871984013",
+      "https://outcomeschool.com/blog/ai-agent-memory",
+      "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
+    ],
+    "2062582596190498864": [
+      "https://x.com/ArtemXTech/status/2062582596190498864",
+      "http://x.com/i/article/2062582346872918016"
+    ],
+    "2062595534381326421": [
+      "https://x.com/posthog/status/2062595534381326421",
+      "http://x.com/i/article/2062185472387121152"
+    ],
+    "2062604405682090403": [
+      "https://x.com/Voxyz_ai/status/2062604405682090403",
+      "http://x.com/i/article/2062594837644226560",
+      "https://x.com/Voxyz_ai/status/2062612487715848597",
+      "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg"
+    ],
+    "2062642701250842675": [
+      "https://x.com/ankrgyl/status/2062642701250842675",
+      "https://x.com/ankrgyl/status/2062655650304508030",
+      "https://x.com/ankrgyl/status/2062678487681667505"
+    ],
+    "2062647149582750101": [
+      "https://x.com/hnshah/status/2062647149582750101",
+      "http://x.com/i/article/2062641002016620545",
+      "https://x.com/hnshah/status/2062698915204595789",
+      "https://x.com/hnshah/status/2062695035548950538"
+    ],
+    "2062650378089594955": [
+      "https://x.com/dkundel/status/2062650378089594955",
+      "http://x.com/i/article/2062645394719547392"
     ]
   },
-  "updated_at": "2026-06-04T17:23:06Z",
+  "updated_at": "2026-06-05T01:30:33Z",
   "window": "recent"
 }
