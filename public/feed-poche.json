@@ -4665,7 +4665,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-29T16:28:25.991339Z",
+      "article_fetch_attempted_at": "2026-06-05T18:26:23.305939Z",
       "article_image_urls": [
         "https://grizz.fyi/assets/Material/OGImage.png",
         "https://grizz.fyi/assets/Material/TwitterImage.png",
@@ -99447,5 +99447,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-05T15:38:54.627488Z"
+  "updated_at": "2026-06-05T18:26:24.002231Z"
 }
