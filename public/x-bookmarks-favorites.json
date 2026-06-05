@@ -98,6 +98,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "great thoughts on building our skills library from our co-founder/cto papa @0xbosta",
+      "text_zh": "来自我们的联合创始人/CTO papa @0xbosta 关于构建技能库的精彩见解",
+      "text_zh_hash": "a331000fa5d7889a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/steeldotdev/status/2062899956243939807"
     },
     {
@@ -152,6 +155,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Did you know you can use the best CLI agent for free (: \n\nDroid let's you BYOK with cliproxyapi/vibeproxy you can plug in any subs, openrouter key, or even local inference to Droid. \n\nTry it out, with the new router + queue mode you can run  Droid 24/7 autonomously. https://t.co/7KxZAx0ZSJ",
+      "text_zh": "你知道吗？你可以免费使用最棒的CLI代理（:  \n\nDroid 支持自带密钥（BYOK），配合 cliproxyapi/vibeproxy，你可以接入任意订阅、OpenRouter 密钥，甚至本地推理到 Droid。  \n\n试试看吧，借助全新的路由 + 队列模式，你可以让 Droid 全天候自主运行。https://t.co/7KxZAx0ZSJ",
+      "text_zh_hash": "24d42e1122011781",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xSero/status/2062268757972484292"
     },
     {
@@ -313,6 +319,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Sharing some of our learnings taking firecracker to the limit. h/t to infra god @sjmiller609",
+      "text_zh": "分享我们在将 Firecracker 推向极限过程中的一些心得。特别感谢基础设施大神 @sjmiller609",
+      "text_zh_hash": "095dbd9361df7eb5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rfgarcia/status/2062899534460588057"
     },
     {
