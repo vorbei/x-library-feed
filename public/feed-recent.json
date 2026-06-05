@@ -44394,7 +44394,9 @@
     ],
     "2062414047073448262": [
       "https://x.com/Potatoloogs/status/2062414047073448262",
-      "https://claude.com/blog/running-an-ai-native-engineering-org"
+      "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "https://x.com/Potatoloogs/status/2062513449100595489",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062418054831554666": [
       "https://x.com/IBuzovskyi/status/2062418054831554666",
@@ -44422,11 +44424,11 @@
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
       "http://x.com/i/article/2059613463731732484",
-      "https://x.com/AdamBartas/status/2062852624219595110",
       "https://x.com/AdamBartas/status/2062789494198223194",
+      "https://x.com/AdamBartas/status/2062852624219595110",
       "https://x.com/AdamBartas/status/2062480475277472227",
-      "https://x.com/AdamBartas/status/2062789236806328781",
       "https://x.com/AdamBartas/status/2062600341326352455",
+      "https://x.com/AdamBartas/status/2062789236806328781",
       "https://x.com/AdamBartas/status/2062600236393267462",
       "https://x.com/AdamBartas/status/2062789057705390579"
     ],
@@ -44460,7 +44462,8 @@
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062513692747682129": [
-      "https://x.com/ai_Kyros/status/2062513692747682129"
+      "https://x.com/ai_Kyros/status/2062513692747682129",
+      "https://x.com/ai_Kyros/status/2062966143447650322"
     ],
     "2062515658420572271": [
       "https://x.com/tayloramurphy/status/2062515658420572271",
@@ -44481,17 +44484,17 @@
     "2062561213532471707": [
       "https://x.com/Av1dlive/status/2062561213532471707",
       "http://x.com/i/article/2062489133445201920",
+      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062638021233856941",
       "https://x.com/Av1dlive/status/2062583273277317301",
-      "https://x.com/Av1dlive/status/2062593076502405309",
-      "https://x.com/Av1dlive/status/2062564180574740908",
-      "https://x.com/Av1dlive/status/2062805766969659733",
       "https://x.com/Av1dlive/status/2062647510800482789",
-      "https://x.com/Av1dlive/status/2062909619119476984",
+      "https://x.com/Av1dlive/status/2062564180574740908",
       "https://x.com/Av1dlive/status/2062658439936107000",
-      "https://x.com/Av1dlive/status/2062597636839133188",
-      "https://x.com/Av1dlive/status/2062564208223596991",
+      "https://x.com/Av1dlive/status/2062805766969659733",
       "https://x.com/Av1dlive/status/2062647578857288082",
+      "https://x.com/Av1dlive/status/2062597636839133188",
+      "https://x.com/Av1dlive/status/2062909619119476984",
+      "https://x.com/Av1dlive/status/2062564208223596991",
       "https://x.com/Av1dlive/status/2062562364755681671"
     ],
     "2062562168843714795": [
@@ -44548,8 +44551,7 @@
     ],
     "2062592730795221256": [
       "https://x.com/disksing/status/2062592730795221256",
-      "https://github.com/ngaut/agent-git-service",
-      "https://x.com/disksing/status/2062200056732958944"
+      "https://github.com/ngaut/agent-git-service"
     ],
     "2062595534381326421": [
       "https://x.com/posthog/status/2062595534381326421",
@@ -44576,6 +44578,7 @@
     "2062644695776248096": [
       "https://x.com/cobi_bean/status/2062644695776248096",
       "http://x.com/i/article/2062531985239617536",
+      "https://x.com/cobi_bean/status/2062949229572612489",
       "https://x.com/cobi_bean/status/2062842211088134217",
       "https://x.com/cobi_bean/status/2062879027057115197"
     ],
@@ -44646,6 +44649,6 @@
       "https://x.com/steeldotdev/status/2062899956243939807"
     ]
   },
-  "updated_at": "2026-06-05T16:41:38Z",
+  "updated_at": "2026-06-05T19:09:13Z",
   "window": "recent"
 }
