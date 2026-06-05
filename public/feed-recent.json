@@ -5645,6 +5645,46 @@
       "title": "",
       "url": "http://x.com/i/article/2062661069458620416"
     },
+    "http://x.com/i/article/2062711848722460672": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062711848722460672",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062711848722460672/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKA6uIYWcAALUbU?format=jpg&name=900x900)](http://x.com/i/article/2062711848722460672/toddsaunders/article/2062869438404194499/media/2062713193533698048)\n\nThe Trades Are Building \n\n[![](https://pbs.twimg.com/profile_images/1864085962269110272/xFuUH3pu_normal.jpg)](http://x.com/i/article/2062711848722460672/toddsaunders)\n\n[Todd Saunders](http://x.com/i/article/2062711848722460672/toddsaunders)\n\n[@toddsaunders](http://x.com/i/article/2062711848722460672/toddsaunders)\n\n·\n\n4h\n\nFollow\n\nClick to Follow toddsaunders\n\n3\n\n1\n\n17\n\n[1.6K](http://x.com/i/article/2062711848722460672/toddsaunders/status/2062869438404194499/analytics)\n\nThere’s a moment that happens in almost every home service business. It usually happens late, after the trucks are back in the yard and the kids are down.\n\nThe owner sits at the kitchen table with a laptop and a stack of paper. The software they pay for every month already did part of the job. It booked the calls. It sent the invoice. But it could not do the one thing that actually makes the business theirs. So they do that part by hand. A spreadsheet on the side. A note in their head. A three-ring binder. Again.\n\nI have watched a thousand versions of that table. And I want to tell you why it exists, why it is about to stop existing, and why we started a company to make sure it does.\n\n## \n\nA promise that got broken\n\nSoftware was supposed to serve the people doing the work.\n\nThat was the whole idea. The tool was meant to disappear into the background so the plumber could plumb, the roofer could roof, the tech could get to the next stop on time. Somewhere along the way, it flipped. The work started bending around the software instead of the software bending around the work.\n\nYou know exactly how this feels, because you live it.\n\nYour vendor pushes an interface update on a Friday afternoon, and your crew shows up Monday to a screen that rearranged itself over the weekend, relearning a tool they already knew. You try to turn last month’s job for a good customer into a recurring one, and the software makes you build a brand new job from scratch, as if you had never met them. You want to edit a workflow, rename a feature, add a decline button to your invoice. You are not allowed to touch any of it.\n\nAnd those are just the daily aggravations. The deeper ones are the parts only someone in your trade would even think to ask for. You want to track refrigerant recovery by job, because EPA Section 608 logs in a binder are not a system, they are a liability waiting for an audit. Your software does not do that. You want your estimator to price by roof pitch, because a 12/12 burns far more labor than a 4/12, between the added surface area and roping off for safety, and your proposal has no idea. It does not do that either. And if you clear land with a herd of goats, you want your map to show which paddock they have already grazed and where the herd is standing right now, because a GPS collar is useless if nothing is reading it. Good luck getting your software to do that.\n\nYou called your vendor. You asked for the feature. And you heard the two sentences every operator in this industry has heard at least once: put in a support ticket, and that’s too niche for us to build.\n\nHere is the truth nobody said out loud… it was never too niche. It was just too small for them. The companies serving the trades were built to sell the same product to as many people as possible, which means they build for the middle of the market and never for the edges. The problem is that your business does not live in the middle. Your business lives at the edges. The edges are the reason you win the job, keep the customer, and make the margin. The edges are where the craft is.\n\nUp until now, you either accepted software that almost fit, or you ran the business on paper and",
+      "title": "",
+      "url": "http://x.com/i/article/2062711848722460672"
+    },
+    "http://x.com/i/article/2062719542636548096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062719542636548096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062719542636548096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKBDT1NbUAEmRB1?format=jpg&name=900x900)](http://x.com/i/article/2062719542636548096/contextkingceo/article/2062725510715822266/media/2062722637315657729)\n\nSelection, Not Capacity: The Case for Context Infrastructure \n\n[![](https://pbs.twimg.com/profile_images/1904944251517157376/gBD-1YKd_normal.jpg)](http://x.com/i/article/2062719542636548096/contextkingceo)\n\n[Nishkarsh](http://x.com/i/article/2062719542636548096/contextkingceo)\n\n[@contextkingceo](http://x.com/i/article/2062719542636548096/contextkingceo)\n\n·\n\n14h\n\nFollow\n\nClick to Follow contextkingceo\n\n1\n\n3\n\n37\n\n[1.7K](http://x.com/i/article/2062719542636548096/contextkingceo/status/2062725510715822266/analytics)\n\nBigger context windows and bolt-on memory don't fix long-horizon agents, because the bottleneck was never how much you can store. It's deciding what the model attends to and that's the layer that is worth building as infrastructure. Every team building autonomous agents eventually meets the same wall. A capable model, given tools and a long task, performs beautifully for twenty steps, then drifts, contradicts itself, and falls apart somewhere around step eighty. The reflex is to reach for more: a model with a longer context window, or a memory system that lets the agent store what it learns and recall it later. Both are reasonable. Neither works the way people expect. Understanding the why points directly at the most valuable, least understood layer in the agent stack.\n\n## \n\nThe failure is a loop.\n\nThe reason agents degrade isn't a shortage of capability. It's a feedback loop, and it has four links.\n\nIt starts with a fact that undermines everything built on top of it: a model's ability to use its context is not uniform across that context, and it gets worse as the context fills. Models reliably use information at the start and end of their context and systematically under-attend to the middle, even when they're built for long inputs. Output reliability falls as input grows even on tasks as trivial as repeating back a list of words, with a single distractor measurably hurting performance and several compounding. \n\nThe effective context, which is the part a model can actually reason over reliably, is far smaller than the advertised window and it shrinks as you pack more in. So an agent that accumulates history and tool output as it works is steadily lowering the quality of every step it takes. The growing context manufactures per-step errors.\n\nPer-step error would be tolerable if agents took a few steps. They take many, and the failures multiply rather than add. An agent that is 95% reliable on each step becomes closer to coin flips as the steps increase. This is why long-horizon autonomy has lagged so far behind raw capability. The drifts are also self-reinforcing in nature. One tool call that goes off-trajectory makes the next one significantly more likely. Stack that on the first link and the base error rate is itself climbing as the window fills. That's why agents don't degrade gracefully. They hold, then they unpredictably cliff. \n\nA long task therefore has to put state somewhere outside the model, because language models are stateless. Every call begins blank and retains nothing except what you feed back. The answer so far has been to externalize: scratchpads and progress files, checkpoints, vector stores, dedicated memory layers. Some borrow the operating-system metaphor directly, paging information between the context window and larger external stores; memory products extract facts and re-serve them across sessions. This is correct and necessary, and it looks like a clean resolution. The agent forgets nothing important because everything important lives in durable storage.\n\nExcept stored memory is inert. The model cannot reason over a database; it can only reason over what is",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062719542636548096"
+    },
+    "http://x.com/i/article/2062833192890220544": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062833192890220544",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062833192890220544/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKCn6AnaYAAxL0f?format=jpg&name=900x900)](http://x.com/i/article/2062833192890220544/DWFVentures/article/2062897248233787776/media/2062833244375244800)\n\nHermes: Compound Effect At Its Best \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2009567758099607552/FAA_lnyZ_normal.jpg)](http://x.com/i/article/2062833192890220544/DWFVentures)\n\n[DWF Ventures![](https://pbs.twimg.com/profile_images/1578704446577840129/AYRr3eB7_bigger.jpg)](http://x.com/i/article/2062833192890220544/DWFVentures)\n\n[@DWFVentures](http://x.com/i/article/2062833192890220544/DWFVentures)\n\n·\n\n2h\n\nFollow\n\nClick to Follow DWFVentures\n\n9\n\n5\n\n72\n\n[4.4K](http://x.com/i/article/2062833192890220544/DWFVentures/status/2062897248233787776/analytics)\n\n## \n\nKey Takeaways\n\n* Statelessness is a design flaw, not a trade-off. Most current agents reset every session, but Hermes puts memory and knowledge first.\n* Skills turn the agent into compounding infrastructure. Hermes’ learning loop converts one-off successes into reusable, hierarchical skills that automatically discover and compose across tasks.\n* Self-improvement is end-to-end persistent. The stack combines skills, episodic memory, dedicated user profiles, and an automated Curator that prunes and archives stale skills.\n* Security is enforced at the system level. Default-on secret redaction, credential pools with automatic rotation, profile isolation, and environment scrubbing make Hermes viable for production and multi-tenant use.\n* The model layer is verifiably decentralized. Hermes sits atop Psyche, aligning the agent’s security model with a permissionless, trackable training fabric rather than closed proprietary providers.\n\nIn February 2026, Nous Research released Hermes Agent under the MIT license. What began as a single curl command and a GitHub repository quickly distinguished itself from the wave of stateless AI assistants entering the market. Within two months, the project accumulated significant community traction, boasting top rankings on OpenRouter’s leaderboards and token volumes exceeding those of the next-ranked applications by a wide margin.\n\n[![Image](https://pbs.twimg.com/media/HKCpDA7awAAsXEm?format=jpg&name=small)](http://x.com/i/article/2062833192890220544/DWFVentures/article/2062897248233787776/media/2062834498589605888)\n\nSource: OpenRouter (\n\n<https://openrouter.ai/apps>\n\n)\n\nHermes’ growth and traction reflect something beyond just hype: a fundamentally different architecture built around persistent learning, local sovereignty, and deep tool integration. It is an open-source agent framework that can be deployed across multiple environments, including terminals, messaging platforms, and IDEs, connects to more than twenty LLM providers, and ships with over forty built-in tools and adapters for various platforms. Its defining claim is that an agent should compound in capability the longer it works with a user, rather than resetting with every session.\n\nThis report examines the stateless problem limiting most current AI agents, outlines Hermes’ architecture and learning mechanisms, and compares it against alternatives.\n\n## \n\nThe Stateless Problem\n\nMost AI agents share a critical design constraint: statelessness. Context, prompts, results, and feedback are confined to a single session, and when that session ends, everything is lost. This has been a semi-deliberate decision. Memory is genuinely difficult to implement well, with storage making retrieval a more tedious process, on top of significant engineering costs associated with the required curation, compression and retrieval logic. Stateless APIs are also simpler to operate at scale, and for the larger firms, keeping memory on their own infrastructure preserves platform lock-in. Stateless agents simply presented a lower risk, and more attractive optio",
+      "title": "",
+      "url": "http://x.com/i/article/2062833192890220544"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -27490,6 +27530,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
     },
+    "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg"
+    },
     "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28498,6 +28552,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg"
     },
+    "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28637,6 +28705,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -44263,6 +44345,13 @@
       "https://poyo.co/note/20260525T094605/?ref=sidebar",
       "https://pbs.twimg.com/media/HJ5cMw9WwAARVgk.jpg"
     ],
+    "2062268757972484292": [
+      "https://x.com/0xSero/status/2062268757972484292",
+      "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg",
+      "https://x.com/0xSero/status/2062421357351129595",
+      "https://x.com/0xSero/status/2062274868779897050",
+      "https://x.com/0xSero/status/2062270105036181650"
+    ],
     "2062274312363770064": [
       "https://x.com/ClaudeDevs/status/2062274312363770064",
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
@@ -44335,9 +44424,9 @@
       "http://x.com/i/article/2059613463731732484",
       "https://x.com/AdamBartas/status/2062852624219595110",
       "https://x.com/AdamBartas/status/2062789494198223194",
-      "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062480475277472227",
       "https://x.com/AdamBartas/status/2062789236806328781",
+      "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062600236393267462",
       "https://x.com/AdamBartas/status/2062789057705390579"
     ],
@@ -44357,8 +44446,8 @@
       "https://x.com/0xCodez/status/2062475013899354408",
       "https://x.com/0xCodez/status/2062483755520987393",
       "https://x.com/0xCodez/status/2062492129746723100",
-      "https://x.com/0xCodez/status/2062468272738484617",
       "https://x.com/0xCodez/status/2062469613363875992",
+      "https://x.com/0xCodez/status/2062468272738484617",
       "https://x.com/0xCodez/status/2062474910996271452",
       "https://x.com/0xCodez/status/2062483550314651721"
     ],
@@ -44371,8 +44460,7 @@
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062513692747682129": [
-      "https://x.com/ai_Kyros/status/2062513692747682129",
-      "https://x.com/ai_Kyros/status/2062897982224421056"
+      "https://x.com/ai_Kyros/status/2062513692747682129"
     ],
     "2062515658420572271": [
       "https://x.com/tayloramurphy/status/2062515658420572271",
@@ -44396,13 +44484,14 @@
       "https://x.com/Av1dlive/status/2062638021233856941",
       "https://x.com/Av1dlive/status/2062583273277317301",
       "https://x.com/Av1dlive/status/2062593076502405309",
-      "https://x.com/Av1dlive/status/2062647510800482789",
-      "https://x.com/Av1dlive/status/2062658439936107000",
       "https://x.com/Av1dlive/status/2062564180574740908",
       "https://x.com/Av1dlive/status/2062805766969659733",
+      "https://x.com/Av1dlive/status/2062647510800482789",
+      "https://x.com/Av1dlive/status/2062909619119476984",
+      "https://x.com/Av1dlive/status/2062658439936107000",
+      "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062564208223596991",
       "https://x.com/Av1dlive/status/2062647578857288082",
-      "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062562364755681671"
     ],
     "2062562168843714795": [
@@ -44452,9 +44541,10 @@
       "http://x.com/i/article/2062577089501601793",
       "https://x.com/FullStackML/status/2062588660504281091",
       "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "https://x.com/FullStackML/status/2062785090082742504",
       "https://x.com/FullStackML/status/2062741198054494422",
       "https://x.com/FullStackML/status/2062595467410866450",
-      "https://x.com/FullStackML/status/2062785090082742504"
+      "https://x.com/FullStackML/status/2062912258452382204"
     ],
     "2062592730795221256": [
       "https://x.com/disksing/status/2062592730795221256",
@@ -44486,15 +44576,18 @@
     "2062644695776248096": [
       "https://x.com/cobi_bean/status/2062644695776248096",
       "http://x.com/i/article/2062531985239617536",
-      "https://x.com/cobi_bean/status/2062879027057115197",
-      "https://x.com/cobi_bean/status/2062842211088134217"
+      "https://x.com/cobi_bean/status/2062842211088134217",
+      "https://x.com/cobi_bean/status/2062879027057115197"
     ],
     "2062647149582750101": [
       "https://x.com/hnshah/status/2062647149582750101",
       "http://x.com/i/article/2062641002016620545",
       "https://x.com/hnshah/status/2062698915204595789",
+      "https://x.com/hnshah/status/2062921129183085055",
+      "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg",
       "https://x.com/hnshah/status/2062695035548950538",
-      "https://x.com/hnshah/status/2062738209411612964"
+      "https://x.com/hnshah/status/2062738209411612964",
+      "https://x.com/hnshah/status/2062899571655934123"
     ],
     "2062650378089594955": [
       "https://x.com/dkundel/status/2062650378089594955",
@@ -44515,6 +44608,10 @@
       "https://x.com/hyojun_at/status/2062723028149215610",
       "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
     ],
+    "2062725510715822266": [
+      "https://x.com/contextkingceo/status/2062725510715822266",
+      "http://x.com/i/article/2062719542636548096"
+    ],
     "2062729116609363973": [
       "https://x.com/yaohui12138/status/2062729116609363973"
     ],
@@ -44527,8 +44624,28 @@
     ],
     "2062761266083754088": [
       "https://x.com/garrytan/status/2062761266083754088"
+    ],
+    "2062869438404194499": [
+      "https://x.com/toddsaunders/status/2062869438404194499",
+      "http://x.com/i/article/2062711848722460672",
+      "https://x.com/toddsaunders/status/2062895380086366332"
+    ],
+    "2062877995576992171": [
+      "https://x.com/NoraX2026/status/2062877995576992171",
+      "https://x.com/NoraX2026/status/2062897798119305512",
+      "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+    ],
+    "2062897248233787776": [
+      "https://x.com/DWFVentures/status/2062897248233787776",
+      "http://x.com/i/article/2062833192890220544"
+    ],
+    "2062899534460588057": [
+      "https://x.com/rfgarcia/status/2062899534460588057"
+    ],
+    "2062899956243939807": [
+      "https://x.com/steeldotdev/status/2062899956243939807"
     ]
   },
-  "updated_at": "2026-06-05T14:03:27Z",
+  "updated_at": "2026-06-05T16:41:38Z",
   "window": "recent"
 }
