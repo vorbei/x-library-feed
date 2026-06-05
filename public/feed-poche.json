@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 679,
+      "count": 680,
       "name": "Tools"
     },
     {
-      "count": 410,
+      "count": 412,
       "name": "Development"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 270,
+      "count": 271,
       "name": "Social"
     },
     {
@@ -38,8 +38,160 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2235,
+  "item_count": 2239,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://fin.ai/img/social/voice-2-og.jpg",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Fapex-flash-banner-mobile.webp&w=3840&q=100&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Fapex-flash-banner-desktop.webp&w=3840&q=100&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fecomm%2Favocado-kurt-dwiggins.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Fbrand-voice-choose.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Fbrand-voice-policies.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Ftestimonial-rizwan-sherif.webp&w=1920&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Ftest-and-deploy-preview.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Ftest-and-deploy-inspect.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Ftest-and-deploy-handoff.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Ftest-and-deploy-query-handling.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU",
+        "https://fin.ai/_next/image?url=%2Fimg%2Fvoice-2%2Fone-system-channels.webp&w=3840&q=75&dpl=dpl_4UG45a8PZBwo1zFbPTarhKztMwPU"
+      ],
+      "article_text": "Fin\nVoice 2New\nThe most natural, powerful voice agent for customer experience.\nPowered by our new model Fin Apex Flash - the fastest, highest-performing model for voice.\nhigh accuracy\nFin Voice 2 runs on Apex Flash - our latest Fin model, built for latency-sensitive tasks. Apex Flash produces quick responses that are accurate and structured, while sounding natural when spoken aloud. It’s fine-tuned for customer service, grounded in your knowledge base, and trained to apply your specific policies on every call.\nIncreased resolution:+24.5%\nLatency (time to first audio):-0.43s\nend-to-end\nVerifying an identity, processing a refund, booking an appointment: not just answers - actions. Fin connects to your systems, takes the action, and resolves the call without a transfer.\nVerifyProcessUpdateCheckAskResolve\nexceptional phone support\nIncludes real-time insights with one-click recommendations to improve Fin’s performance, outbound calling, automated follow-ups, performance monitoring, and deeper integrations - your whole phone operation, easier to manage.\nMonitorsIntegrationsInsightsOutbound20+ updates\nFreeze and replace card\nBook an appointment\nWhere is my order?\nFreeze and replace card\nBook an appointment\nWhere is my order?\n1 / 3\nMost voice AI follows the same pattern: convert speech to text, process it with a general model, then convert the answer back into speech. It adds latency and delivers answers from a model that wasn't built for customer service.\nApex Flash is different. Fine-tuned for customer service, it generates answers that are more accurate and structured for how speech sounds when delivered aloud.\nAlongside it, a real-time layer handles speech processing - audio, pacing, and conversational flow. Separating the two is what drives the performance improvement.\nResponds instantly.\nHandles background noise.\nPronounces your brand terms correctly.\nKnows when to listen and when to speak.\nFin voice 2\naction\nFin Voice takes action by following structured workflows and connecting to your systems. It handles complex, multi-step requests from verifying identities, and processing refunds, to changing subscriptions and booking appointments.\nFin can issue refunds, update records, look up account details, and verify information by seamlessly connecting to your APIs.\nFin checks details with the customer before moving forward, so every action is accurate before it's submitted.\nDescribe the steps Fin should follow during a call. Fin turns them into a workflow you can review, test, and set live.\nFin voice 2\nfeatures\nCall quality\n- Brand voice selection\n- Natural interruption handling\n- 30-language support\nAnswers and action\n- Knowledge base answers\n- Customizable call behavior\n- Audience-specific responses\n- AI call summaries\nInsights and reporting\n- Automatic call categorization\n- Call performance dashboards\n- Pre-launch response testing\nSetup and operations\n- Full context on transfer\n- Custom escalation rules\n- Availability scheduling\n- Call forwarding setup\nIncludes all Voice 1 features\nApex Flash\nCall quality\n- Brand term pronunciation\n- Background noise reduction\n- New voices and accents\n- Adapts to caller speech patterns\n- Accurate intent detection\nAnswers and action\n- Complex query handling (Procedures)\n- Natural language Procedure setup\n- Pre-launch Procedure testing\n- Real-time tool calling\n- Data connector and API support\n- Proactive outbound calling\n- Automated follow-up SMS\n- Actions and thinking log\nInsights and reporting\n- Real-time topic insights\n- One-click recommendations\n- Automated feedback collection\n- Automated performance monitors\nSetup and operations\n- API support\n- Deep telephony integration\n- Intelligent call routing\n- Dynamic language switching\n- Brand-specific deployments\nFin voice 2\nbrand\nChoose a voice that fits your brand and define the policies Fin will follow. Fin delivers that experience on every call, without the variation and retraining challenges of large call-center teams.\nChoose from an expanded libra",
+      "article_title_extracted": "Meet Fin Voice 2. The most natural, powerful voice agent, for customer experience.",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-05T07:45:36.305129Z",
+      "description": "Fin Voice 2 is powered by Apex Flash, our newest model built for voice. Higher resolution rates, more natural calls, and complex queries resolved end-to-end.",
+      "domain": "fin.ai",
+      "embed_type": "",
+      "id": "k17e2xz3rvn9vyjr82123zcb69882bgt",
+      "og_image_url": "https://fin.ai/img/social/voice-2-og.jpg",
+      "recommended_at": "2026-06-05T07:45:46.050000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-voice",
+        "customer-support",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T07:45:46.050000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Meet Fin Voice 2. The most natural, powerful voice agent, for customer experience.",
+      "url": "https://fin.ai/voice",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-05T11:46:39.991934Z",
+      "article_title_extracted": "Warden",
+      "category": "Development",
+      "created_at": "2026-06-05T07:43:38.426691Z",
+      "description": "Define skills in Markdown. Compose them into agents that review every change.",
+      "domain": "warden.sentry.dev",
+      "embed_type": "",
+      "id": "k17d99ebvf1b8yv15js2zgwv018834y1",
+      "og_image_url": "https://cloud.poche.app/api/storage/2b49f8f4-1d6f-4b6a-a9ae-23cfbfd095b3",
+      "recommended_at": "2026-06-05T07:43:54.007000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "code-review",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T07:43:54.007000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Warden",
+      "url": "https://warden.sentry.dev/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-05T11:46:39.991934Z",
+      "article_image_urls": [
+        "https://transitions.dev/assets/og-image.jpg",
+        "https://transitions.dev/assets/theme-moon-01.svg",
+        "https://transitions.dev/assets/theme-sun.svg",
+        "https://transitions.dev/assets/icon%20light%202x.png",
+        "https://transitions.dev/assets/icon-dark-2x.png?v=2",
+        "https://transitions.dev/assets/avatars/avatar-1.webp",
+        "https://transitions.dev/assets/avatars/avatar-2.webp",
+        "https://transitions.dev/assets/avatars/avatar-3.webp",
+        "https://transitions.dev/assets/avatars/avatar-4.webp",
+        "https://transitions.dev/assets/avatars/avatar-5.webp",
+        "https://transitions.dev/assets/avatars/avatar-6.webp"
+      ],
+      "article_title_extracted": "Transitions.dev — Essential transitions for web apps",
+      "category": "Development",
+      "created_at": "2026-06-05T03:10:52.940019Z",
+      "description": "Collection of the most essential transitions for web apps that you can just copy and paste into any project.",
+      "domain": "transitions.dev",
+      "embed_type": "",
+      "id": "k17dart0x0qrrbp0mnkabrtwz9883ae5",
+      "og_image_url": "https://transitions.dev/assets/og-image.jpg",
+      "recommended_at": "2026-06-05T07:42:25.367000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-development",
+        "ui-design",
+        "css-animations"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T07:42:25.367000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Transitions.dev — Essential transitions for web apps",
+      "url": "https://transitions.dev/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-05T03:09:49.373620Z",
+      "description": "MAFIA EP 001 pic.twitter.com/FDijsKFdJN",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k172f221z73ngcyn90cxyhpkyh882570",
+      "og_image_url": "https://pbs.twimg.com/media/HJ8JkytbgAAodwa.jpg",
+      "recommended_at": "2026-06-05T07:42:23.275000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "venture-capital",
+        "entrepreneurship",
+        "paypal-mafia"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-05T07:42:23.275000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Founders Fund (@foundersfund) on X",
+      "url": "https://x.com/foundersfund/status/2062583885607862639",
+      "x_status_id": "2062583885607862639"
+    },
     {
       "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
       "article_image_urls": [
@@ -254,6 +406,7 @@
       "article_text_zh_translator_v": 2,
       "article_title_extracted": "When AI builds itself \\ Anthropic",
       "category": "Articles",
+      "cleaner_v": 2,
       "created_at": "2026-06-05T02:42:10.081372Z",
       "description": "Our progress toward recursive self-improvement, and its implications.",
       "description_zh": "我们朝着递归自我改进的进展及其影响。",
@@ -99237,7 +99390,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2078,
+      "count": 2082,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -99273,5 +99426,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-05T05:02:58.675798Z"
+  "updated_at": "2026-06-05T11:46:42.517381Z"
 }
