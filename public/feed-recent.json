@@ -5485,19 +5485,6 @@
       "title": "",
       "url": "http://x.com/i/article/2062495770012782593"
     },
-    "http://x.com/i/article/2062496062326411264": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2062496062326411264",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062496062326411264/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ91jQ8asAAPGlB?format=jpg&name=900x900)](http://x.com/i/article/2062496062326411264/riba2534/article/2062496438630965457/media/2062496403063222272)\n\n构建 Claude Code 的经验：我们如何使用 Skills\n\n[![](https://pbs.twimg.com/profile_images/1984416007822225408/6iKVCdxw_normal.jpg)](http://x.com/i/article/2062496062326411264/riba2534)\n\n[riba2534](http://x.com/i/article/2062496062326411264/riba2534)\n\n[@riba2534](http://x.com/i/article/2062496062326411264/riba2534)\n\n·\n\n14h\n\nFollow\n\nClick to Follow riba2534\n\n3\n\n6\n\n[1.4K](http://x.com/i/article/2062496062326411264/riba2534/status/2062496438630965457/analytics)\n\n> 原文链接：\n> \n> [Lessons from building Claude Code: How we use skills](https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills)\n\n> 原文作者：\n> \n> [Thariq Shihipar](https://x.com/trq212)\n> \n> ，Anthropic 技术团队成员，从事 Claude Code 的开发。\n\n> 本文为原文的完整简体中文翻译。\n\n技能（skills）已经成为 Claude Code 里最常被用到的扩展点之一。它们灵活、好做，也方便分发。\n\n但正是这份灵活，让人很难判断怎么用才最好。哪种技能值得做？一个技能该怎么组织结构？什么时候该把它分享给别人？\n\n我们在 Anthropic 内部把技能用得很重，目前有数百个技能在活跃使用。下面这些，就是我们在用技能加速开发的过程中摸索出来的心得。\n\n## \n\n什么是技能\n\n技能是一个个文件夹，里面装着指令、脚本和资源，agent 可以发现并使用它们，从而把事情做得更准、更高效。这篇文章默认你已经了解技能的基础知识；如果你是新手，可以先从我们在 Skilljar 上的《Agent 技能入门》课程开始。\n\n我们常听到一个关于技能的误解，认为它们\"不过是一些 markdown 文件\"。它们其实是文件夹，里面可以包含脚本、素材、数据等等，agent 能去发现、探索并操作这些内容。\n\n在 Claude Code 里，技能还有一大堆配置选项，包括注册动态 hook。\n\n我们发现，Claude Code 里那些最有效的技能，往往都把这些配置选项和文件夹结构用得很到位。\n\n## \n\n技能的类型\n\n把 Anthropic 内部所有技能盘点了一遍之后，我们注意到它们能聚成九个类别。最好的技能都能干净地落进其中某一类；那些想做太多事的技能，往往横跨好几类，把 agent 搞糊涂。这并不是一份权威清单，但它是个有用的框架，能帮你找出自己技能库里的空白。\n\n[![Image](https://pbs.twimg.com/media/HJ91SfFbUAAoTbi?format=jpg&name=small)](http://x.com/i/article/2062496062326411264/riba2534/article/2062496438630965457/media/2062496114801332224)\n\n1\\. 库与 API 参考\n\n这类技能讲清楚如何正确使用某个库、CLI 或 SDK。它们既可以针对内部库，也可以针对那些 Claude Code 偶尔会用不利索的常见库。这类技能通常会附带一个参考代码片段的文件夹，外加一份坑点清单，提醒 Claude 写脚本时绕开它们。\n\n例子包括：\n\n* billing-lib —— 你们内部的计费库：边缘情况、暗坑等等。\n* internal-platform-cli —— 你们内部 CLI 封装的每一个子命令，并附上各自的使用时机示例。\n* sandbox-proxy —— 为开发工作配置组织的出口网关：哪些主机可达、如何调试\"connection refused\"错误、如何添加白名单条目。\n\n2\\. 产品验证\n\n这类技能描述如何测试或验证你的代码是否正常工作。它们经常和 playwright、tmux 或其他外部工具搭配做验证。\n\n在内部，验证类技能对 Claude 产出质量的影响是最可量化的。让一位工程师花上一周时间，专门把你们的验证技能打磨到极致，是很值的。\n\n可以考虑一些做法，比如让 Claude 录一段它产出的视频，这样你就能确切看到它测了什么；又或者在每一步都对状态做程序化断言。这些通常是通过在技能里塞进各种脚本来实现的。\n\n例子包括：\n\n* signup-flow-driver —— 在无头浏览器里跑一遍注册 → 邮箱验证 → 引导上手，并在每一步都挂上断言状态的 hook。\n* checkout-verifier —— 用 Stripe 测试卡驱动结账 UI，验证发票确实落到了正确的状态。\n* tmux-cli-driver —— 用于交互式 CLI 测试，适合那些需要 TTY 才能验证的场景。\n\n3\\. 数据获取与分析\n\n这类技能连接你的数据栈和监控栈。它们可能包含带凭证拉取数据的库、特定的看板 ID 等等，以及关于常见工作流或取数方式的说明。\n\n例子包括：\n\n* funnel-query —— \"我该 join 哪些事件才能看到注册 → 激活 → 付费\"，外加那张真正持有规范 user\\_id 的表。\n* cohort-compare —— 比较两个分群的留存或转化，标出统计显著的差异，并链接到对应的分群定义。\n* grafana —— 数据源 UID、集群名、\"问题 → 看板\"的查找表。\n* datadog —— 字段参考（  \n[@request\\_id](https://x.com/@request%5Fid)  \n 还是 trace\\_id）、服务列表、指标前缀约定。\n\n4\\. 业务流程与团队自动化\n\n这类技能把重复的工作流自动化成一条命令。它们通常是相当简单的指令，但可能对其他技能或 MCP 有更复杂的依赖。对这类技能来说，把过往结果存进日志文件，能帮模型保持一致性，并回顾此前几次的执行。\n\n例子包括：\n\n* standup-post —— 聚合你的工单系统、GitHub 活动和此前的 Slack 内容 → 格式化的站会播报，只保留增量。\n* create-<ticket-system>-ticket —— 强制 schema（合法的枚举值、必填字段），外加创建后的工作流（@ 评审人、在 Slack 里贴链接）。\n* weekly-recap —— 已合并的 PR + 已关闭的工单 + 部署记录 → 格式化的周报。\n\n5\\. 脚手架与模板\n\n这类技能为代码库里某个特定功能生成框架样板。你可以把这类技能和可组合的脚本搭配起来。当你的脚手架带有那种纯靠代码覆盖不了的自然语言需求时，它们尤其有用。\n\n例子包括：\n\n* new-<framework>-workflow —— 按你的注解脚手架出一个新的服务/工作流/handler。\n* new-migration —— 你的迁移文件模板，外加常见坑点。\n* create-app —— 一个全新的内部应用，认证、日志和部署配置都已预先接好线。\n\n6\\. 代码质量与审查\n\n这类技能在你的组织内部强制代码质量，并辅助代码审查。它们可以包含确定性的脚本或工具以追求最大的稳健性。你可能会想让这类技能作为 hook 的一部分自动运行，或放进 GitHub Action 里。\n\n* adversarial-review —— 派生一个全新视角的子 agent 来挑刺、实施修复、反复迭代，直到发现的问题退化成吹毛求疵为止。\n* code-style —— 强制代码风格，尤其是 Claude 默认做得不太好的那些风格。\n* testing-practices —— 关于如何写测试、以及该测什么的说明。\n\n7\\. CI/CD 与部署\n\n这类技能帮你在代码库里拉取、推送和部署代码。它们可能会引用其他技能来收集数据。\n\n例子包括：\n\n* babysit-pr —— 盯着一个 PR → 重试不稳定的 CI → 解决合并冲突 → 启用自动合并。\n* deploy-<service> —— 构建 → 冒烟测试 → 逐步放量并对比错误率 → 一旦出现回归就自动回滚。\n* cherry-pick-prod —— 隔离",
-      "title": "",
-      "url": "http://x.com/i/article/2062496062326411264"
-    },
     "http://x.com/i/article/2062535871379972096": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5513,6 +5500,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062535871379972096"
+    },
+    "http://x.com/i/article/2062577089501601793": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062577089501601793",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062577089501601793/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJ_ArvRaYAACL-y?format=jpg&name=900x900)](http://x.com/i/article/2062577089501601793/FullStackML/article/2062587219156832718/media/2062579012015382528)\n\nOpenAI vs Anthropic: two internal data agents - same lessons, different builds\n\n[![](https://pbs.twimg.com/profile_images/1119846563012943875/Hbs3rDoO_normal.png)](http://x.com/i/article/2062577089501601793/FullStackML)\n\n[Dmitry Petrov](http://x.com/i/article/2062577089501601793/FullStackML)\n\n[@FullStackML](http://x.com/i/article/2062577089501601793/FullStackML)\n\n·\n\n13h\n\nFollow\n\nClick to Follow FullStackML\n\n4\n\n3\n\n35\n\n[64K](http://x.com/i/article/2062577089501601793/FullStackML/status/2062587219156832718/analytics)\n\nYesterday Anthropic published how they built their internal \"data agent\": \n\n[How Anthropic enables self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\n\nOpenAI published their \"in-house data agent\" post five months ago: I\n\n[nside OpenAI’s in-house data agent](https://openai.com/index/inside-our-in-house-data-agent/)\n\nI read both - here's the result.\n\n## \n\nWhere they agree\n\n* The hard part is not writing SQL. It's finding the right table and understanding how to use it properly. Both repeat this.\n* The model a commodity (they didn't say that directly but...) - the context around it is the product. Anthropic went from 21% to 95% accuracy just by adding a skill which has access to context - a knowledge base.\n* (surprise, not surprise) More context doesn't necessary help. Anthropic's accuracy increased less than 1% after they gave access to all thousands of past queries (I can only imagine how much their token consumption went up 🙂).\n\n## \n\nHow they differ\n\n* OpenAI built a standalone agent. Codex and internal ChatGPT uses the agent via MCP or user can directly chat with it via web or Slack. While Anthropic built just a skill that has access to data context via some knowledge base (md files based).\n* OpenAI has context in an \"index\" that is populated daily by a pipeline jobs while Anthropic commits the knowledge base as md files in the same repo as data model, updated in the same PR.\n\n## \n\nMy take (after building a \"data agent\" for unstructured data, not SQL)\n\nAnthropic's approach with skills is more \"harness-native\" so, it fits better to the existing toolset. I believe the whole developer experience, data context as well as the whole data platform will move under the harnesses (the best academic paper in this direction - \n\n[Code as Agent Harness](https://code-as-harness.github.io/code-as-harness-webpage/)\n\n). OpenAI's approach seems more scalable and mature (5 months ahead?) - with a dedicated data agents, 600Tb of data and scheduled pipelines for updating the context. We will see hot it evolves.\n\n## \n\nQuestion for the data folks here\n\nHow far along are you on any of these agentic workflows? My understanding is that most teams are still hand-writing SQL and copy-past \"context\" piece by piece into Claude Code/Copilot/Codex and share knowledge in Slack. Full side-by-side comparison table with more details and numbers in our blog post - link in comments 👇\n\n* [![](https://pbs.twimg.com/profile_images/1119846563012943875/Hbs3rDoO_normal.png)](http://x.com/i/article/2062577089501601793/FullStackML)  \n[Dmitry Petrov](http://x.com/i/article/2062577089501601793/FullStackML)  \n[@FullStackML](http://x.com/i/article/2062577089501601793/FullStackML)  \nFollow  \nClick to Follow FullStackML  \n![🛠️](https://abs.twimg.com/emoji/v2/svg/1f6e0.svg) Building data infra for AI/ML. Ex-Data Scientist  \n[@Microsoft](http://x.com/i/article/2062577089501601793/Microsoft)  \n. Created DVC, now DataChain. PhD in CS. Serious about data. Less serious about everything else.",
+      "title": "",
+      "url": "http://x.com/i/article/2062577089501601793"
     },
     "http://x.com/i/article/2062582346872918016": {
       "cleaner_v": 2,
@@ -5577,6 +5577,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062645394719547392"
+    },
+    "http://x.com/i/article/2062661069458620416": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062661069458620416",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062661069458620416/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKALodMbYAA81vW?format=jpg&name=900x900)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661418995113984)\n\nOpenAI Codex: Build Apps That Work For You 24/7\n\n[![](https://pbs.twimg.com/profile_images/1955709395553124352/b_NlfUL__normal.jpg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[The Startup Ideas Podcast (SIP) ![🧃](https://abs.twimg.com/emoji/v2/svg/1f9c3.svg)](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n[@startupideaspod](http://x.com/i/article/2062661069458620416/startupideaspod)\n\n·\n\n8h\n\n·\n\nFollow\n\nClick to Follow startupideaspod\n\n2\n\n3\n\n53\n\n[6.9K](http://x.com/i/article/2062661069458620416/startupideaspod/status/2062662633472622784/analytics)\n\nCodex shipped Sites.\n\n[![Image](https://pbs.twimg.com/media/HKAMInnasAAApP7?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661971548483584)\n\nI assumed it was a clunky Replit clone.\n\nSix prompts later, I had a startup board that updates itself.\n\nI used to run a web design agency. Back then I told clients one thing on repeat: a website is a living, breathing thing. You ship it, then it needs care every week.\n\nMy own site proves the point. 158,000 people read my newsletter. When that climbs to 160,000, I open the file and edit it by hand.\n\nIn 2026, an agent can carry that for me.\n\nThe real difference\n\n[![Image](https://pbs.twimg.com/media/HKAMFUXaMAAjmUF?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062661914841460736)\n\nReplit and Lovable give you everything in one box. Editor, database, server, hosting, even a domain. Perfect when you want to type one prompt and walk away.\n\nCodex Sites asks more of you. It assumes you live in Codex and keep your context there. In return, it does something rare. It keeps building the app on its own.\n\nI built a Startup Ideas OS in six prompts\n\n[![Image](https://pbs.twimg.com/media/HKAMMCebQAAWgIi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662030298136576)\n\nThe goal: a live board with five columns. Inbox, researching, validating, building, killed. Each card holds an idea, the buyer, the pain, proof, a next step, and a score.\n\nAn internal tool I would actually use.\n\nPrompt 1\\. Build the shell.Invoke it with \n\n[@sites](https://x.com/@sites)\n\n. It runs as a plugin. Ask for realistic sample data. Then add the five words that change everything: save for review, do not deploy. Left alone, it rushes to ship. That one line keeps the work in product mode.\n\n[![Image](https://pbs.twimg.com/media/HKAMW_kasAAnSdi?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662218496520192)\n\nPrompt 2\\. Add memory.Codex Sites starts fresh each visit. Ask it to add persistent storage so ideas save between visits. The trick: tell it to show you the data model first, before it writes code. It came back with Cloudflare D1 as the store, one record type called ideas, and a clean list of actions. List, add, update, move, score, archive. Memory turns a demo into real software.\n\nPrompt 3\\. Add safe actions.This is the part people sleep on. A safe action is an approved button. The agent calls named moves like add idea or update idea, and only those. Why it matters: I can sit in any Codex chat, spitball a startup idea, say add idea, and it lands on the live board through the one approved path.\n\n[![Image](https://pbs.twimg.com/media/HKAMbU1aUAAVwto?format=jpg&name=small)](http://x.com/i/article/2062661069458620416/startupideaspod/article/2062662633472622784/media/2062662292924420096)\n\nPrompt 4\\. Create a skill.Ask Codex to build a skil",
+      "title": "",
+      "url": "http://x.com/i/article/2062661069458620416"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -7607,6 +7620,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Speed of Prototyping in the Age of AI",
       "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar"
+    },
+    "https://datachain.ai/blog/openai-anthropic-data-agents": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In January OpenAI published how it built an internal data agent. Last week Anthropic published how it built one too. Two frontier labs, the same problem, five months apart. Here is the honest side-by-side: what they agree on, where they diverge, and the one assumption they both quietly depend on.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "frameable": false,
+      "image_urls": [
+        "https://datachain.ai/blog/images/2026-06-04/openai-vs-anthropic.png",
+        "https://datachain.ai/static/77b5dd3dd92976d1bfd5b3f8a8c6fa01/8ccd8/dmitry_petrov.png",
+        "https://datachain.ai/static/62051a8c79ee9ce271623ec50116e00c/78327/openai-vs-anthropic.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "We read OpenAI's and Anthropic's data-agent posts so you don't have to\nOpenAI and Anthropic each shipped a writeup on the internal data agent they run in production. Read together, they show two frontier labs solving the same problem independently, and agreeing on most of it: the hard part is finding the right data, not writing SQL, and the agent stays simple while the context around it does the work. They differ on how context is delivered and how much they verify. The short version of both posts.\nTwo frontier labs, the same problem: how to make an agent reliable over real company data.\nIn January, [OpenAI](https://openai.com/index/inside-our-in-house-data-agent/)\npublished how it built an internal data agent that thousands of employees now\nuse to ask questions of company data in plain English. Yesterday,\n[Anthropic](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\npublished how it built one too. Two frontier labs, the same problem, five months\napart.\nWe build the unstructured-data side of this, so we read both closely. Both posts are worth reading in full. But if you only have ten minutes, here is the honest digest: what they agree on, where they diverge, and the one assumption they share.\nSide by side[\n](https://datachain.ai#side-by-side)\n| OpenAI | Anthropic | |\n|---|---|---|\n| Post | \"Inside our in-house data agent\" (Jan 2026) | \"How Anthropic enables self-service data analytics with Claude\" (Jun 2026) |\n| Scale | 600+ PB, 70,000 datasets, thousands of users; built by 2 engineers in 3 months, ~70% AI-written | Powers 95% of business analytics queries at ~95% accuracy |\n| Stated core problem | \"isn't writing SQL - it's finding the right tables … and understanding … how to use data\" | \"map a user's question to specific and up-to-date entities in our data model\" |\n| Architecture | Simple agent (one LLM + runtime + ~13 curated tools) over 6 context layers | 4-layer stack: data foundations, sources of truth, skills, validation |\n| How context is delivered | Six layers assembled offline, retrieved at runtime | Markdown skills the agent reads on demand: a \"knowledge\" router + an \"unbook\" workflow |\n| Form factor | Standalone agent (Slack bot, own runtime + tools) | Skills loaded into Claude Code (no new agent) |\n| Context kept fresh by | Scheduled jobs rebuild an index (nightly Codex code crawl) | Markdown committed in the same PR as the data model |\n| Context sources | usage metadata, human annotations, Codex code analysis, institutional knowledge, memory, live warehouse queries | semantic layer (consulted first), lineage graph, query corpus, business context |\n| Headline number | ~100 fixes/day; ran months autonomously; no accuracy figure given | 21% → 95%+ accuracy once skills were added |\n| Sharpest finding | fewer tools win (40 → 13); rank queries by trust, don't embed them all | raw query access added <1 point (\"structure, not access\"); skills rot 95% → 65% in a month if unmaintained |\n| Verification | data foundations, tool curation, a memory of past corrections | semantic-layer-first, offline evals, adversarial review, a provenance footer on every answer |\n| Built on | a warehouse: schema, lineage, query surface for free | the same, plus a curated semantic layer |\nWhat they agree on[\n](https://datachain.ai#what-they-agree-on)\nThe bottleneck is discovery, not SQL. Both lead with the same point. OpenAI: the hard part \"isn't writing SQL - it's finding the right tables to use in the first place.\" Anthropic: the central problem is the \"ability to map a user's question to specific and up-to-date entities in our data model.\" Generating the query was never the hard part.\nKeep the agent simple; spend the effort on context. OpenAI's agent is a single model with a small set of curated tools; the reliability comes from the engineering around it. Anthropic's accuracy jumped from 21% to over 95% not from a better model but from adding context (skills). In both cases the model was already good enou",
+      "title": "We read OpenAI's and Anthropic's data-agent posts so you don't have to We read OpenAI's and Anthropic's data-agent posts so you don't have to",
+      "url": "https://datachain.ai/blog/openai-anthropic-data-agents"
     },
     "https://delete-images-button.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -43965,13 +43995,13 @@
       "https://x.com/polydao/status/2062185564871295459",
       "http://x.com/i/article/2062179059736391681",
       "https://x.com/polydao/status/2062319550444499167",
-      "https://x.com/polydao/status/2062319316347801923",
-      "https://x.com/polydao/status/2062319377811124480",
       "https://x.com/polydao/status/2062188839976706474",
-      "https://x.com/polydao/status/2062319433939406875",
-      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062319145262158327",
+      "https://x.com/polydao/status/2062319377811124480",
       "https://x.com/polydao/status/2062319504579858823",
-      "https://x.com/polydao/status/2062319145262158327"
+      "https://x.com/polydao/status/2062319236421230722",
+      "https://x.com/polydao/status/2062319433939406875",
+      "https://x.com/polydao/status/2062319316347801923"
     ],
     "2062187947084968106": [
       "https://x.com/_smontlouis/status/2062187947084968106",
@@ -44079,25 +44109,25 @@
     "2062345653079224458": [
       "https://x.com/yanhua1010/status/2062345653079224458",
       "http://x.com/i/article/2060567536543182848",
+      "https://x.com/yanhua1010/status/2062494496575861099",
       "https://x.com/yanhua1010/status/2062356971169444241",
-      "https://x.com/yanhua1010/status/2062390639887814754",
       "https://x.com/yanhua1010/status/2062390692849295424",
-      "https://x.com/yanhua1010/status/2062494496575861099"
+      "https://x.com/yanhua1010/status/2062390639887814754"
     ],
     "2062380163338535064": [
       "https://x.com/libapi_/status/2062380163338535064",
       "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg",
       "https://x.com/libapi_/status/2062388545147548097",
-      "https://x.com/libapi_/status/2062487028378546243",
-      "https://x.com/libapi_/status/2062382239963558020",
-      "https://x.com/libapi_/status/2062552422783033678",
       "https://x.com/libapi_/status/2062382058245390445",
       "https://pbs.twimg.com/media/HJ8NZ4DaQAALPfq.jpg",
       "https://x.com/libapi_/status/2062487159588942068",
       "https://x.com/libapi_/status/2062488649963594062",
+      "https://x.com/libapi_/status/2062382540036739153",
+      "https://x.com/libapi_/status/2062552422783033678",
+      "https://x.com/libapi_/status/2062382239963558020",
+      "https://x.com/libapi_/status/2062487028378546243",
       "https://x.com/libapi_/status/2062543042175967659",
-      "https://x.com/libapi_/status/2062403411677700336",
-      "https://x.com/libapi_/status/2062382540036739153"
+      "https://x.com/libapi_/status/2062403411677700336"
     ],
     "2062414047073448262": [
       "https://x.com/Potatoloogs/status/2062414047073448262",
@@ -44109,16 +44139,16 @@
       "https://x.com/IBuzovskyi/status/2062418054831554666",
       "https://pbs.twimg.com/amplify_video_thumb/2062415276306546688/img/5RvN7n6zmTvIT56e.jpg",
       "https://x.com/IBuzovskyi/status/2062427739659895262",
-      "https://x.com/IBuzovskyi/status/2062443797171118534",
-      "https://x.com/IBuzovskyi/status/2062468232728965377",
+      "https://x.com/IBuzovskyi/status/2062583604316958753",
       "https://x.com/IBuzovskyi/status/2062533992281248111",
-      "https://x.com/IBuzovskyi/status/2062470043997245699",
+      "https://x.com/IBuzovskyi/status/2062443797171118534",
       "https://x.com/IBuzovskyi/status/2062477205951676692",
       "https://x.com/IBuzovskyi/status/2062571983548633101",
       "https://x.com/IBuzovskyi/status/2062430940949799189",
-      "https://x.com/IBuzovskyi/status/2062583604316958753",
-      "https://x.com/IBuzovskyi/status/2062548402018160685",
-      "https://x.com/IBuzovskyi/status/2062509027351781425"
+      "https://x.com/IBuzovskyi/status/2062468232728965377",
+      "https://x.com/IBuzovskyi/status/2062470043997245699",
+      "https://x.com/IBuzovskyi/status/2062509027351781425",
+      "https://x.com/IBuzovskyi/status/2062548402018160685"
     ],
     "2062428035559616604": [
       "https://x.com/_vmlops/status/2062428035559616604",
@@ -44131,8 +44161,8 @@
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
       "http://x.com/i/article/2059613463731732484",
-      "https://x.com/AdamBartas/status/2062480475277472227",
       "https://x.com/AdamBartas/status/2062600341326352455",
+      "https://x.com/AdamBartas/status/2062480475277472227",
       "https://x.com/AdamBartas/status/2062600236393267462"
     ],
     "2062443798647517197": [
@@ -44149,18 +44179,16 @@
       "https://x.com/0xCodez/status/2062495857568600213",
       "https://youtu.be/RkQQ7WEor7w?si=s0nH7NDw69qZ5Jf4",
       "https://x.com/0xCodez/status/2062475013899354408",
-      "https://x.com/0xCodez/status/2062468272738484617",
       "https://x.com/0xCodez/status/2062492129746723100",
       "https://x.com/0xCodez/status/2062483755520987393",
+      "https://x.com/0xCodez/status/2062468272738484617",
       "https://x.com/0xCodez/status/2062469613363875992",
-      "https://x.com/0xCodez/status/2062474910996271452",
-      "https://x.com/0xCodez/status/2062483550314651721"
+      "https://x.com/0xCodez/status/2062483550314651721",
+      "https://x.com/0xCodez/status/2062474910996271452"
     ],
     "2062495991421616319": [
       "https://x.com/riba2534/status/2062495991421616319",
-      "http://x.com/i/article/2062495770012782593",
-      "https://x.com/riba2534/status/2062496438630965457",
-      "http://x.com/i/article/2062496062326411264"
+      "http://x.com/i/article/2062495770012782593"
     ],
     "2062513449100595489": [
       "https://x.com/Potatoloogs/status/2062513449100595489",
@@ -44168,7 +44196,11 @@
     ],
     "2062513692747682129": [
       "https://x.com/ai_Kyros/status/2062513692747682129",
-      "https://x.com/ai_Kyros/status/2062707219536531670"
+      "https://x.com/ai_Kyros/status/2062773461324636279"
+    ],
+    "2062515658420572271": [
+      "https://x.com/tayloramurphy/status/2062515658420572271",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
     ],
     "2062526843564233040": [
       "https://x.com/akshay_pachaar/status/2062526843564233040",
@@ -44185,15 +44217,15 @@
     "2062561213532471707": [
       "https://x.com/Av1dlive/status/2062561213532471707",
       "http://x.com/i/article/2062489133445201920",
-      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062638021233856941",
+      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062583273277317301",
-      "https://x.com/Av1dlive/status/2062658439936107000",
       "https://x.com/Av1dlive/status/2062647510800482789",
+      "https://x.com/Av1dlive/status/2062658439936107000",
       "https://x.com/Av1dlive/status/2062564180574740908",
       "https://x.com/Av1dlive/status/2062647578857288082",
-      "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062564208223596991",
+      "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062562364755681671"
     ],
     "2062562168843714795": [
@@ -44225,9 +44257,22 @@
       "https://outcomeschool.com/blog/ai-agent-memory",
       "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
     ],
+    "2062582362194460698": [
+      "https://x.com/emollick/status/2062582362194460698",
+      "https://www.anthropic.com/institute/recursive-self-improvement"
+    ],
     "2062582596190498864": [
       "https://x.com/ArtemXTech/status/2062582596190498864",
       "http://x.com/i/article/2062582346872918016"
+    ],
+    "2062587219156832718": [
+      "https://x.com/FullStackML/status/2062587219156832718",
+      "http://x.com/i/article/2062577089501601793",
+      "https://x.com/FullStackML/status/2062588660504281091",
+      "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "https://x.com/FullStackML/status/2062785090082742504",
+      "https://x.com/FullStackML/status/2062741198054494422",
+      "https://x.com/FullStackML/status/2062595467410866450"
     ],
     "2062595534381326421": [
       "https://x.com/posthog/status/2062595534381326421",
@@ -44241,20 +44286,24 @@
     ],
     "2062642701250842675": [
       "https://x.com/ankrgyl/status/2062642701250842675",
-      "https://x.com/ankrgyl/status/2062655650304508030",
-      "https://x.com/ankrgyl/status/2062678487681667505"
+      "https://x.com/ankrgyl/status/2062655650304508030"
     ],
     "2062647149582750101": [
       "https://x.com/hnshah/status/2062647149582750101",
       "http://x.com/i/article/2062641002016620545",
       "https://x.com/hnshah/status/2062698915204595789",
-      "https://x.com/hnshah/status/2062695035548950538"
+      "https://x.com/hnshah/status/2062695035548950538",
+      "https://x.com/hnshah/status/2062738209411612964"
     ],
     "2062650378089594955": [
       "https://x.com/dkundel/status/2062650378089594955",
       "http://x.com/i/article/2062645394719547392"
+    ],
+    "2062662633472622784": [
+      "https://x.com/startupideaspod/status/2062662633472622784",
+      "http://x.com/i/article/2062661069458620416"
     ]
   },
-  "updated_at": "2026-06-05T01:30:33Z",
+  "updated_at": "2026-06-05T06:43:29Z",
   "window": "recent"
 }
