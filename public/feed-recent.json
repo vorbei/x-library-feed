@@ -27722,34 +27722,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg"
     },
-    "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg"
-    },
-    "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
-    },
     "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28785,6 +28757,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
+    },
+    "https://pbs.twimg.com/media/HKHuIIPXIAAQLXb.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKHuIIPXIAAQLXb.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKHuIIPXIAAQLXb.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKHuIIPXIAAQLXb.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -44786,9 +44772,9 @@
       "http://x.com/i/article/2062577089501601793",
       "https://x.com/FullStackML/status/2062588660504281091",
       "https://datachain.ai/blog/openai-anthropic-data-agents",
-      "https://x.com/FullStackML/status/2062595467410866450",
-      "https://x.com/FullStackML/status/2062785090082742504",
       "https://x.com/FullStackML/status/2062741198054494422",
+      "https://x.com/FullStackML/status/2062785090082742504",
+      "https://x.com/FullStackML/status/2062595467410866450",
       "https://x.com/FullStackML/status/2062912258452382204"
     ],
     "2062592730795221256": [
@@ -44820,8 +44806,8 @@
     "2062644695776248096": [
       "https://x.com/cobi_bean/status/2062644695776248096",
       "http://x.com/i/article/2062531985239617536",
-      "https://x.com/cobi_bean/status/2062949229572612489",
       "https://x.com/cobi_bean/status/2062842211088134217",
+      "https://x.com/cobi_bean/status/2062949229572612489",
       "https://x.com/cobi_bean/status/2062879027057115197"
     ],
     "2062647149582750101": [
@@ -44878,7 +44864,8 @@
     ],
     "2062877995576992171": [
       "https://x.com/NoraX2026/status/2062877995576992171",
-      "https://x.com/NoraX2026/status/2063153290771116215"
+      "https://x.com/NoraX2026/status/2063191951235547614",
+      "https://pbs.twimg.com/media/HKHuIIPXIAAQLXb.jpg"
     ],
     "2062897248233787776": [
       "https://x.com/DWFVentures/status/2062897248233787776",
@@ -44903,10 +44890,7 @@
       "https://x.com/lucamrtl/status/2062947242030567797",
       "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine",
       "https://github.com/Kaelio/ktx",
-      "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg",
-      "https://x.com/lucamrtl/status/2062274497835930023",
-      "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg",
-      "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
+      "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg"
     ],
     "2062947317011878002": [
       "https://x.com/SidebarIO/status/2062947317011878002",
@@ -44946,9 +44930,10 @@
     ],
     "2063144667756310741": [
       "https://x.com/neural_avb/status/2063144667756310741",
-      "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg",
+      "https://x.com/neural_avb/status/2063193354154999835"
     ]
   },
-  "updated_at": "2026-06-06T08:02:46Z",
+  "updated_at": "2026-06-06T10:22:12Z",
   "window": "recent"
 }
