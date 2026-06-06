@@ -28758,20 +28758,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
     },
-    "https://pbs.twimg.com/media/HKISHBmbYAAbopA.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKISHBmbYAAbopA.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKISHBmbYAAbopA.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKISHBmbYAAbopA.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -44864,8 +44850,7 @@
     ],
     "2062877995576992171": [
       "https://x.com/NoraX2026/status/2062877995576992171",
-      "https://x.com/NoraX2026/status/2063231500590674084",
-      "https://pbs.twimg.com/media/HKISHBmbYAAbopA.jpg"
+      "https://x.com/NoraX2026/status/2063245927264252356"
     ],
     "2062897248233787776": [
       "https://x.com/DWFVentures/status/2062897248233787776",
@@ -44934,6 +44919,6 @@
       "https://x.com/neural_avb/status/2063193354154999835"
     ]
   },
-  "updated_at": "2026-06-06T12:18:10Z",
+  "updated_at": "2026-06-06T14:53:23Z",
   "window": "recent"
 }
