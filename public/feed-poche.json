@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 680,
+      "count": 682,
       "name": "Tools"
     },
     {
-      "count": 412,
+      "count": 413,
       "name": "Development"
     },
     {
-      "count": 323,
+      "count": 324,
       "name": "Design"
     },
     {
@@ -38,8 +38,161 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2239,
+  "item_count": 2243,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://aave.design/design/_next/static/media/opengraph-image.8587e064.png",
+        "https://aave.com/design/demo/photos/aave-glass-icon.png",
+        "https://aave.com/design/demo/videos/cosmos-flowers-in-the-field-18491376/placeholder.webp",
+        "https://aave.com/design/images/team/abhijeet.jpg",
+        "https://aave.com/design/images/team/lochie.png",
+        "https://aave.com/design/images/team/alex.png",
+        "https://aave.com/design/images/team/ana.png"
+      ],
+      "article_text": "In June last year [Apple announced Liquid Glass at WWDC](https://developer.apple.com/videos/play/wwdc2025/219/), a fresh design language built around the physics of light bending through curved glass. It was a bold move that immediately captured the imagination of designers and developers alike.\nWe felt inspired to bring that same magic to our apps, starting by bringing our own version of the effect to our [Aave App for iOS and Android](https://aave.com/app), which we call Aave Glass.\nThis quickly became a defining part of the Aave App experience, making our interfaces feel more alive and tactile.\nThe challenge with the web\nIn the months that followed WWDC, we saw a wave of interest from others who also felt inspired to recreate the effect for the web. Most of the demos and experiments that surfaced only ran in Chromium browsers. They leaned on either an SVG backdrop-filter\napproach or the experimental [HTML-in-Canvas API](https://developer.chrome.com/blog/html-in-canvas-origin-trial) hidden behind a flag, and neither holds up in other browsers.\nBefore building our own, we worked through the approaches already going around.\n| Approach | Chromium | Safari | Firefox |\n|---|---|---|---|\nSVG backdrop-filter | ✓ | ✕ | ✕ |\n| HTML-in-Canvas API | Behind flag | ✕ | ✕ |\n| Our technique | ✓ | ✓ | ✓ |\n[Our technique](https://aave.com#how-it-works) runs in every modern browser, on desktop and on mobile, with no flags to turn on and no fallbacks to maintain. It just works.\nA family of components\nBuilding a cross-browser effect that works on any content was only the first step. We wanted to make sure it could be used in real interfaces, and that it could bring the same sense of delight to our web experiences as it does in our mobile apps.\nSo we built a family of components that use the glass as a core part of their experience.\nMobile apps rely on switches for binary choices, and glass suits them well. The thumb of the switch is a small lens that creates a moving highlight as you toggle.\nThe content renders normally and stays visible everywhere outside the lens, the whole ideology behind our technique is that it refracts live HTML, the real rendered content.\nTo achieve the glass effect on the handle we give our glass component a copy of the track's fill that sits on its own layer and gets bent by the glass. The fill registers as a moving highlight that gives the switch a sense of depth and tactility.\n<Glass\nlens={{ lensW: 90, lensH: 60, borderRadius: 30 }}\nx={progress} // lens acts as the thumb (0–1 across the track)\n>\n<SwitchTrack />\n</Glass>\nA slider is also a natural home for the effect. The glass travels along the track, refracting the fill beneath it as it goes, and the value you're setting stays visible right through the glass.\nDragging is cheap to animate. As the handle moves, only the filter's region shifts along the track while the displacement map stays the same, so the motion holds a steady frame rate even on a phone. The map is regenerated only when the glass changes shape, never when it simply changes place.\nThe slider leans on a gentler bend than the switch, a fraction of the refraction strength, since the fill underneath has to stay readable as a value rather than just register as a moving highlight.\n// Same refractionTarget trick, a softer bend, the handle drives the lens.\n<Glass\nlens={{ lensW: 90, lensH: 60, borderRadius: 30 }}\nx={handlePosition}\nrefractionTarget={<TrackFill progress={progress} />}\n>\n<SliderTrack />\n</Glass>\nThe toggle group uses the glass itself as the selection indicator, gliding between options and easing towards the one you pick.\nAs with the switch, the glass refracts a highlighted pill rather than the buttons behind it, so the selected option stays legible whichever label sits underneath. It eases between options with a spring rather than a straight slide, so the selection settles into place instead of snapping.\n// The glass is the selection indicator. It bends a highlighted copy of\n// the options and s",
+      "article_title_extracted": "Building Glass for the Web",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-06T03:59:03.128394Z",
+      "description": "How we built a cross-browser glass effect for the web, and how it shapes a family of components.",
+      "domain": "aave.com",
+      "embed_type": "",
+      "id": "k174pkxz7phxr7jf5zcebbg4xn885hf2",
+      "og_image_url": "https://aave.design/design/_next/static/media/opengraph-image.8587e064.png",
+      "recommended_at": "2026-06-06T03:59:22.641000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-design",
+        "css-effects",
+        "ui-components"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-06T03:59:22.641000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Building Glass for the Web",
+      "url": "https://aave.com/design/building-glass-for-the-web",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_title_extracted": "mouseless",
+      "category": "Tools",
+      "created_at": "2026-06-06T03:58:56.025999Z",
+      "description": "Mouseless is an application designed for efficient mouse control using keyboard shortcuts, enabling users to click, move, drag, and scroll quickly without a physical mouse. It offers a 14-day free trial for Linux, with options for lifetime or subscription plans across five devices. Users report significant improvements in productivity and comfort, especially those with ergonomic concerns. Mouseless is praised for its customizability and ease of use, allowing control from various positions without needing a mouse. The application also supports users with disabilities, enhancing accessibility. Community feedback highlights its effectiveness and positive impact on workflow.",
+      "domain": "mouseless.click",
+      "embed_type": "",
+      "id": "k17fwxbfayfs3442dzqhrc88e1884nh7",
+      "og_image_url": "https://cloud.poche.app/api/storage/34db99b5-a166-4be9-b28d-518d6cf7d3a1",
+      "recommended_at": "2026-06-06T03:59:21.247000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "productivity",
+        "keyboard-shortcuts",
+        "accessibility"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-06T03:59:21.247000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "mouseless",
+      "url": "https://mouseless.click/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_image_urls": [
+        "https://flueframework.com/og2.jpg"
+      ],
+      "article_title_extracted": "Flue — The Agent Harness Framework",
+      "category": "Development",
+      "created_at": "2026-06-06T03:57:28.715438Z",
+      "description": "Agent = Model + Harness. Build autonomous agents and powerful AI workflows with Flue's programmable TypeScript harness. Write once, deploy anywhere.",
+      "domain": "www.flueframework.com",
+      "embed_type": "",
+      "id": "k17b9tzjk6ca1hzsxzpk41r5a5884hep",
+      "og_image_url": "https://flueframework.com/og2.jpg",
+      "recommended_at": "2026-06-06T03:59:19.663000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "typescript",
+        "framework"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-06T03:59:19.663000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Flue — The Agent Harness Framework",
+      "url": "https://www.flueframework.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_image_urls": [
+        "https://conduit.ai/og-image.jpg",
+        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
+        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf"
+      ],
+      "article_title_extracted": "AI for Hospitality: Customer Service Agents to Elevate Guest Experience",
+      "category": "Tools",
+      "created_at": "2026-06-06T03:57:14.568114Z",
+      "description": "Conduit deploys AI agents that handle guest communication, automate internal operations, and elevate the hospitality experience across every channel.",
+      "domain": "www.conduit.ai",
+      "embed_type": "",
+      "id": "k171ba6h9va0z6c24nee8kk9x988564s",
+      "og_image_url": "https://conduit.ai/og-image.jpg",
+      "recommended_at": "2026-06-06T03:59:17.993000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "hospitality-tech",
+        "ai-automation",
+        "customer-experience"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-06T03:59:17.993000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "AI for Hospitality: Customer Service Agents to Elevate Guest Experience",
+      "url": "https://www.conduit.ai/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -4398,9 +4551,9 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
       "article_image_urls": [
-        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20603"
+        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20610"
       ],
       "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
       "category": "Media",
@@ -4490,20 +4643,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-14-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-20-night.jpg&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-0-1.webp&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-kilocode.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-cli-og.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-opencode.png&w=3840&q=75&dpl=5c2f91edf2427e90bd58dc75e35d916ca4cb11b8"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fxai-vapi.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-1-5-og.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fcomposer-2-5-og.png&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-0-1.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -4586,7 +4738,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
@@ -4628,7 +4780,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-30T04:38:57.813478Z",
+      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
       "article_image_urls": [
         "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
@@ -99411,7 +99563,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2082,
+      "count": 2086,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -99447,5 +99599,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-05T22:05:00.875145Z"
+  "updated_at": "2026-06-06T04:41:34.344867Z"
 }
