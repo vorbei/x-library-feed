@@ -5741,6 +5741,19 @@
       "title": "",
       "url": "http://x.com/i/article/2062947397635043328"
     },
+    "http://x.com/i/article/2062949527317864448": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062949527317864448",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062949527317864448/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKESQmkWUAAWJWz?format=jpg&name=900x900)](http://x.com/i/article/2062949527317864448/RianSweetDoris/article/2062956203664175124/media/2062950180752609280)\n\nWork Compression: The 3-Hour Rule Is a Productivity Superpower \n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2062949527317864448/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2062949527317864448/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2062949527317864448/RianSweetDoris)\n\n·\n\n11h\n\nFollow\n\nClick to Follow RianSweetDoris\n\n8\n\n33\n\n242\n\n[152K](http://x.com/i/article/2062949527317864448/RianSweetDoris/status/2062956203664175124/analytics)\n\nThe very thing suppressing your productivity is the number of hours you're allowing yourself to be productive.\n\nAnd if you're grinding through 10-hour days, wondering why you feel like you're running in place, this is probably why.\n\nLet me tell you a story.\n\n# \n\nI. The Founder Who Couldn't Get Out of Bed\n\nA few years back, a friend of mine was all-in building his startup.\n\nHe'd tapped his entire network, including close friends and family, and secured millions in venture capital funding. He was living his entrepreneurial dream. Early mornings, late nights, weekends at his laptop. The full founder grind.\n\nAnd then one day, he woke up, and couldn't get out of bed.\n\nLyme disease.\n\n[![Image](https://pbs.twimg.com/media/HKETYgqX0AAE86b?format=jpg&name=small)](http://x.com/i/article/2062949527317864448/RianSweetDoris/article/2062956203664175124/media/2062951416117841920)\n\nFrom there on, it was fever, chills, and fatigue. His body ached all over. His brain broke down. Simple decisions that used to take seconds now required enormous effort. His working memory felt like it had shrunk by half.\n\nImagine strapping into a rollercoaster, full of thrill and anticipation, only to jerk to a halt midway up the first big climb. Imagine the faces of his friends, family, and investors, strapped in with him, their savings riding on his shoulders.\n\nAnd then the ride just... stops.\n\nAll of a sudden, he was on the hook to get a return for all the most important people in his life, but could barely get out of bed.\n\nHe was used to working 12-hour days, which felt like a necessity to get his company to work and provide a return for his investors. Twelve hours felt like survival. Or so he believed.\n\nBut now, he could barely manage three hours per day. That's all his Lyme-riddled body and brain could tolerate.\n\nThen something strange happened.\n\nHe noticed that as he was doing these three-hour days, he started seeing more clearly. \n\nThings that previously seemed important became obviously less important or even completely irrelevant. \n\nThings he thought only he could do, he now realized he could pass off to others. \n\nMeetings he attended out of habit, he now skipped without consequence. \n\nEntire projects he'd been pouring hours into, he now recognized as distractions that barely moved anything forward.\n\nHe was working in a dramatically different way on dramatically different things.\n\nThe important tasks popped out at him like a neon sign in a desert night. The trivial ones faded into oblivion.\n\nAnd despite working 75% less, he accomplished more than his 12-hour days ever produced.\n\nHis company didn't stall. It accelerated.\n\n[![Image](https://pbs.twimg.com/media/HKEStJAXgAA24_j?format=jpg&name=small)](http://x.com/i/article/2062949527317864448/RianSweetDoris/article/2062956203664175124/media/2062950671033270272)\n\n# \n\nII. The Inverse of Parkinson's Law\n\nWhat happened with my friend is the inverse version of Parkinson's Law.\n\n[![Image](https://pbs.twimg.com/media/HKETdyKXMAA_AtZ?format=jpg&name=small)](http://x.com/i/article/2062949527317864448/RianSweetDoris/article/2062956203664175124/media/206295150671476736",
+      "title": "",
+      "url": "http://x.com/i/article/2062949527317864448"
+    },
     "http://x.com/i/article/2062990693061005312": {
       "cleaner_v": 2,
       "content_type": "",
@@ -7480,6 +7493,29 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The founder's playbook: Building an AI-native startup | Claude",
       "url": "https://claude.com/blog/the-founders-playbook"
+    },
+    "https://claude.com/blog/using-llms-to-secure-source-code": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We share best practices for how you can work with Claude Opus to build a threat model, discover vulnerabilities in your codebase, then verify, triage, and patch them.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/using-llms-to-secure-source-code",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1765c92ff7f5b53db95147_og_using-llms-to-secure-source-code%20(1).jpg",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a17340b26b22fa10e3ed68e_image1.png",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Using LLMs to secure source code\nWe share best practices for how you can work with Claude Opus to build a threat model, discover vulnerabilities in your codebase, then verify, triage, and patch them.\nWe share best practices for how you can work with Claude Opus to build a threat model, discover vulnerabilities in your codebase, then verify, triage, and patch them.\n- May 27, 2026\n- 5min\nModel capabilities are advancing quickly, and unevenly. We’ve been [working with security teams](https://www.anthropic.com/glasswing) to find and fix vulnerabilities in their own code and open source software, and the work has given us a better understanding of how to use models to secure source code. Our primary takeaway: discovery is now straightforward to parallelize, and the bottleneck has shifted to verification, triage, and patching.\nTo give some indication of this discrepancy, as part of [our own scanning](https://www.anthropic.com/research/glasswing-initial-update) of open source software, as of May 22, 2026, we had disclosed 1,596 vulnerabilities. To our knowledge, 97 of these have been patched.\nThis guide walks through how you can work with Claude Opus to build a threat model, discover vulnerabilities in your codebase, then verify, triage, and patch them. While we don’t have all the answers, we’ll share how teams have scaled discovery and what’s helped in the later stages. Get started today with the [accompanying repo](https://github.com/anthropics/defending-code-reference-harness) which includes skills for interactive workflows and a demo harness for autonomous scanning; we’ll call out the skill that implements each step as you read.\nTeams finding and fixing the most vulnerabilities converged on a variation of existing best practices. We’ve distilled them into a sequence of six steps:\n- Threat model: Decide what counts as a vulnerability before you start scanning.\n- Sandbox: Build a sandbox environment to isolate agents and prove exploits.\n- Discovery: Have models look for vulnerabilities in your source code.\n- Verification: Independently confirm which findings are actually exploitable.\n- Triage: Deduplicate findings, assign severity, and prioritize what needs fixing.\n- Patching: Apply the fix, confirm the vulnerability is nullified, and search for variants.\nThe first two steps—building a threat model and a sandbox—are the setup for the rest of the loop. These are typically done once per codebase and revisited when the underlying system changes. The next four steps are the loop you’ll run against the source: discover, verify, triage, and patch.\nThe first run on a codebase typically has the highest number of findings. Subsequent runs tend to have fewer—though often more complex—vulnerabilities, as the simpler ones were patched in prior runs. However, don’t expect the nth run to have zero new findings. Models are stochastic, and a large codebase can have a long tail of vulnerabilities that continue to trickle in even when the code is unchanged.\nOn your first iteration with a codebase, you should run the loop multiple times, deciding when to stop based on the number of net-new findings and your risk tolerance for that system. After that first iteration, continue to scan (1) periodically or (2) whenever the code meaningfully changes.\nNext, we’ll walk through each step in detail, explaining why it matters, what it produces, and how to implement it.\nThe most common cause of false positives is that the model lacks a good understanding of your trust boundaries. The model might flag code as vulnerable because it assumes a client could send corrupted values or an attacker could control the config, even though these inputs are trusted in your environment. Conversely, the model might assume that an internet-facing service is internal-only and thus under-report true vulnerabilities. In both cases, the model is wrong about the threat model, not the code.\nOne team noticed a pattern across their findings: the model performed best on systems with well",
+      "title": "Using LLMs to secure source code | Claude",
+      "url": "https://claude.com/blog/using-llms-to-secure-source-code"
     },
     "https://clauffice.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -28648,20 +28684,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg"
     },
-    "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
-    },
     "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28675,6 +28697,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
+    },
+    "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -44651,9 +44687,9 @@
       "http://x.com/i/article/2062577089501601793",
       "https://x.com/FullStackML/status/2062588660504281091",
       "https://datachain.ai/blog/openai-anthropic-data-agents",
+      "https://x.com/FullStackML/status/2062595467410866450",
       "https://x.com/FullStackML/status/2062785090082742504",
       "https://x.com/FullStackML/status/2062741198054494422",
-      "https://x.com/FullStackML/status/2062595467410866450",
       "https://x.com/FullStackML/status/2062912258452382204"
     ],
     "2062592730795221256": [
@@ -44743,8 +44779,8 @@
     ],
     "2062877995576992171": [
       "https://x.com/NoraX2026/status/2062877995576992171",
-      "https://x.com/NoraX2026/status/2062942184119148732",
-      "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
+      "https://x.com/NoraX2026/status/2063103063322452459",
+      "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
     ],
     "2062897248233787776": [
       "https://x.com/DWFVentures/status/2062897248233787776",
@@ -44778,13 +44814,30 @@
       "https://x.com/jhleath/status/2062966990839706049",
       "https://x.com/jhleath/status/2062973044197605875"
     ],
+    "2062956203664175124": [
+      "https://x.com/RianSweetDoris/status/2062956203664175124",
+      "http://x.com/i/article/2062949527317864448"
+    ],
     "2062992045803745540": [
       "https://x.com/tanmaye_bhatia/status/2062992045803745540",
       "http://x.com/i/article/2062990693061005312",
       "https://x.com/tanmaye_bhatia/status/2063029754865828339",
       "https://x.com/tanmaye_bhatia/status/2062562327858184443"
+    ],
+    "2063019732912251146": [
+      "https://x.com/VoidAsuka/status/2063019732912251146",
+      "https://x.com/VoidAsuka/status/2063023001050968308"
+    ],
+    "2063027333766803536": [
+      "https://x.com/bibryam/status/2063027333766803536",
+      "https://claude.com/blog/using-llms-to-secure-source-code"
+    ],
+    "2063092277145489665": [
+      "https://x.com/manthanguptaa/status/2063092277145489665",
+      "https://x.com/manthanguptaa/status/2063119719545385305",
+      "https://x.com/manthanguptaa/status/2062764913299460188"
     ]
   },
-  "updated_at": "2026-06-06T00:19:47Z",
+  "updated_at": "2026-06-06T05:04:59Z",
   "window": "recent"
 }
