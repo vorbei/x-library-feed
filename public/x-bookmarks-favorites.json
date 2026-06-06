@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Most prompt optimizers are designed to evolve a single prompt. \n\nThis algorithm literally simulates a market (auctions, bids, wallets) to optimize multi-agent prompt systems to collaboratively complete tasks! https://t.co/92nxPPRLT4",
+      "text_zh": "大多数提示优化器都设计用于优化单一提示。\n\n这个算法实际上模拟了一个市场（拍卖、出价、钱包），用于优化多智能体提示系统，使其协同完成任务！https://t.co/92nxPPRLT4",
+      "text_zh_hash": "a34537399766a791",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/neural_avb/status/2063144667756310741"
     },
     {
@@ -124,6 +127,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The data team at @AnthropicAI just published its internal playbook for self-serve analytics.\n\nWe reverse-engineered it and open-sourced the result. Here's how to set it up at your company: https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine\n\nOur post walks through each component of Anthropic’s internal agentic analytics system and explains how we packaged the same 4 layers as 1 installable engine that builds and maintains itself, with a human-in-the-loop mechanism.\n\nRepo: https://github.com/Kaelio/ktx",
+      "text_zh": "@AnthropicAI 的数据团队刚刚发布了其自助分析的内部分析手册。\n\n我们对其进行了逆向工程，并将结果开源。以下是如何在你的公司中设置它：https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine\n\n我们的文章详细介绍了 Anthropic 内部 agentic 分析系统的每个组件，并解释了如何将相同的 4 层架构打包成一个可安装的引擎，该引擎能够自我构建和维护，并包含一个人机协作机制。\n\n仓库地址：https://github.com/Kaelio/ktx",
+      "text_zh_hash": "fcea2ff1ac42d831",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/lucamrtl/status/2062947242030567797"
     },
     {
@@ -165,6 +171,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I have a similar setup of 3 skills that I now run on almost every feature after I am done coding.\n\n1. Review skill\nSpins up 3 sub-agents using different models from different providers. They independently look for performance issues, over-engineering, security vulnerabilities, missed edge cases, logical bugs, etc. GPT-5.5 then fixes the issues they find.\n\n2. Integration testing skill\nRuns the backend server, generates 30-40 user-style queries designed to aggressively test the feature, executes them one by one, and monitors Braintrust traces, terminal logs, and Tempo logs. If something breaks, it gets fixed on the spot, and the process continues until everything passes.\n\n3. /babysit skill\nWatches the PR and fixes CI failures as they show up.\n\nI still review all the code before handing it off to another engineer, but automating review, testing, debugging, and CI cleanup takes a massive amount of work off my plate.\n\nThis is where I have found the most value from coding agents by having them relentlessly review, test, and polish it.",
+      "text_zh": "我有一套类似的3项技能组合，在完成编码后几乎每个功能都会运行。\n\n1. **审查技能**  \n   启动3个子代理，分别使用不同提供商的不同模型。它们独立查找性能问题、过度工程化、安全漏洞、遗漏的边界情况、逻辑错误等。然后由GPT-5.5修复它们发现的问题。\n\n2. **集成测试技能**  \n   运行后端服务器，生成30-40条用户风格的查询，旨在激进地测试该功能，逐一执行它们，并监控Braintrust追踪、终端日志和Tempo日志。如果出现问题，立即修复，然后继续该过程，直到所有测试通过。\n\n3. **/babysit技能**  \n   监控PR，并在CI失败出现时进行修复。\n\n在将代码交给另一位工程师之前，我仍然会审查所有代码，但自动化审查、测试、调试和CI清理工作大大减轻了我的负担。\n\n这就是我从编码代理中获得最大价值的地方——让它们不懈地审查、测试和完善代码。",
+      "text_zh_hash": "2cecbcd3fa718413",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/manthanguptaa/status/2063092277145489665"
     },
     {
@@ -245,6 +254,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Best practices to secure code with Claude\nhttps://claude.com/blog/using-llms-to-secure-source-code",
+      "text_zh": "使用Claude保护代码的最佳实践",
+      "text_zh_hash": "d3efc97cf53f01e3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2063027333766803536"
     },
     {
@@ -286,6 +298,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "actually very good writing.\n\nwhat humans excel at- and what machines won't be able to catch up to anytime soon - is the ability to form good abstractions under uncertainty and with missing pieces. \n\nour brain is such an easy-to-train model; how does it do that? we are truly God's masterpieces.",
+      "text_zh": "写得确实非常好。\n\n人类真正擅长、而机器短期内难以企及的，是在不确定性和信息缺失的情况下，形成良好抽象的能力。\n\n我们的大脑是如此易于训练的模型；它是如何做到这一点的？我们真是上帝的精妙杰作。",
+      "text_zh_hash": "7864301587fb566c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VoidAsuka/status/2063019732912251146"
     },
     {
