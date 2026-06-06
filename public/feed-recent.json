@@ -9499,6 +9499,32 @@
       "title": "GitHub - ItzCrazyKns/Vane: Vane is an AI-powered answering engine. · GitHub",
       "url": "https://github.com/ItzCrazyKns/Vane"
     },
+    "https://github.com/Kaelio/ktx": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, and any AI agent to query data accurately through MCP with skills, memory and a semantic layer - Kaelio/ktx",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/Kaelio/ktx",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/f591c5da410a541f8dbd819d5bf7208a52788f98933f76c5cb1534d891137357/Kaelio/ktx",
+        "https://github.com/Kaelio/ktx/raw/main/assets/ktx-lockup.svg",
+        "https://camo.githubusercontent.com/585c3edae00605877d4f5523c92a15a7244306cbc63238f10d6988f2983cdf3a/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f406b61656c696f2f6b74783f7374796c653d666c61742d73717561726526636f6c6f723d663937333136",
+        "https://camo.githubusercontent.com/e41f9e1190e2c5904dd8f97f71f20a36d73d1090ab7fed7ef777f9fc2a3b4464/68747470733a2f2f636f6465636f762e696f2f67682f4b61656c696f2f6b74782f67726170682f62616467652e7376673f6272616e63683d6d61696e",
+        "https://camo.githubusercontent.com/c5b2dbcbe4eb7192be900c528b6c071dda6c1c13a2dace63282412ddfe19837d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4b61656c696f2f6b74782f63692e796d6c3f6272616e63683d6d61696e266c6162656c3d7465737473267374796c653d666c61742d737175617265",
+        "https://camo.githubusercontent.com/b741b471e5c5ae58c4c14ac496048cb8905c2e1ab706f8e65d6522b4463f117f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6b74782d3232633535653f7374796c653d666c61742d737175617265",
+        "https://camo.githubusercontent.com/78b299094de245da2a22181de7213c1dae22202bc1cc37308b878aefb3f68959/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736c61636b2d6a6f696e253230636f6d6d756e6974792d3441313534423f7374796c653d666c61742d737175617265266c6f676f3d736c61636b266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/f33da71a29405001aa02da9ecc600166564fbf91b075090f06daf1a0012969a3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322e302d626c75653f7374796c653d666c61742d737175617265",
+        "https://camo.githubusercontent.com/7a21a05bff97fdfe87dab1a99e0fa22029efc0d1a6f384b372e5635c1d983617/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f59253230436f6d62696e61746f722d5032352d6f72616e67653f7374796c653d666c61742d737175617265",
+        "https://github.com/Kaelio/ktx/raw/main/assets/launch-video-thumb.png",
+        "https://github.com/Kaelio/ktx/raw/main/docs-site/public/images/ingestion-flow.png",
+        "https://github.com/Kaelio/ktx/raw/main/docs-site/public/images/mcp-runtime-flow.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - Kaelio/ktx: ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, and any AI agent to query data accurately through MCP with skills, memory and a semantic layer · GitHub",
+      "url": "https://github.com/Kaelio/ktx"
+    },
     "https://github.com/KingSora/OverlayScrollbars": {
       "content_type": "text/html; charset=utf-8",
       "description": "A javascript scrollbar plugin that hides the native scrollbars, provides custom styleable overlay scrollbars, and preserves the native functionality and feel. - KingSora/OverlayScrollbars",
@@ -19878,6 +19904,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062734837371293696/img/8P5Nlb5lzbFbn0sc.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -27676,6 +27716,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg"
     },
+    "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg"
+    },
+    "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
+    },
     "https://pbs.twimg.com/media/HJ8HrJJawAAqjH1.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28684,6 +28752,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg"
     },
+    "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg"
+    },
     "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28697,20 +28779,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
-    },
-    "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -31316,6 +31384,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Jon Kolko - Sensemaking and Framing: A Theoretical Reflection on Perspective in Design Synthesis",
       "url": "https://www.jonkolko.com/writing/sensemaking-and-framing"
+    },
+    "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropic published how its data team automated close to 100% of business analytics at 95%+ accuracy. The four-layer architecture they describe is the same one we had already open-sourced as ktx, an independent, Apache-2.0 context engine for data agents.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine",
+      "frameable": false,
+      "image_urls": [
+        "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine/opengraph-image",
+        "https://www.kaelio.com/_next/image?url=%2Fbrand%2Fkaelio-logo.png&w=256&q=75&dpl=dpl_8uNJYf4sycy8anqCZtXZLBNwXgfV",
+        "https://www.kaelio.com/brand/ktx-mascot.svg?dpl=dpl_8uNJYf4sycy8anqCZtXZLBNwXgfV",
+        "https://www.kaelio.com/_next/image?url=%2Fteam%2Fluca.png&w=96&q=75&dpl=dpl_8uNJYf4sycy8anqCZtXZLBNwXgfV",
+        "https://www.kaelio.com/images/blog/open-source-anthropic-internal-data-analytics-engine/analytics-stack-ktx.png",
+        "https://www.kaelio.com/images/blog/open-source-anthropic-internal-data-analytics-engine/anthropic-ktx-mapping.png",
+        "https://www.kaelio.com/images/blog/open-source-anthropic-internal-data-analytics-engine/search-not-grep.png",
+        "https://www.kaelio.com/images/blog/open-source-anthropic-internal-data-analytics-engine/ingest-pull-request.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "We Built the Open-Source Version of Anthropic's Internal Data Analytics Engine\nAt a glance\nAnthropic published how its data team automated close to 100% of business analytics at 95%+ accuracy. The four-layer architecture they describe is the same one we had already open-sourced as ktx, an independent, Apache-2.0 context engine for data agents.\nAnthropic just published their data team's playbook for self-serve analytics: [How Anthropic enables self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude).\nThe results are impressive: their agent now automates close to 100% of business analytics requests, and does so at 95%+ accuracy.\nThe article is a gold mine. It's also a \"what-we-did\" and not a \"how-you-do-it\", so rebuilding it at your own company means reverse-engineering most of the hard parts.\nWe already built it, so you don't have to bother with that: [ktx](https://github.com/Kaelio/ktx) is an open-source context engine that packages the same four layers described by Anthropic's data team, and we shipped it before Anthropic's article went up. We arrived at the same architecture independently, which confirms these are the right four layers. [ktx](https://github.com/Kaelio/ktx) is Apache-2.0, and you can install and run it with one command: [github.com/Kaelio/ktx](https://github.com/Kaelio/ktx).\nThis post walks through each component of Anthropic's agentic analytics systems and explains how ktx packages the same four layers as one installable engine that builds and maintains itself, with a human in the loop.\nDisclaimer: we are not affiliated with Anthropic and we never saw their code.\nWhy self-serve analytics fails\nVery briefly on this. Even though you might have heard about it hundreds of times, Anthropic articulates the problem behind self-serve analytics in one of the clearest ways we've seen: data is not software. When an agent writes code, the solution space is open-ended and tests catch hallucinations. Analytics is the opposite. \"There's often only a single correct answer using a single correct source,\" and no compiler will tell you when the number is wrong.\nThey name three reasons agents produce those wrong answers:\n- Concept-to-entity ambiguity: \"the agent is unable to choose the correct fields that best answer a user's question.\" The example they cite: \"In measuring the number of active users: what actions constitute being 'active'? Do you include fraudulent users? What lookback window do you use?\"\n- Staleness: \"data sources, business definitions, and schemas change constantly; assets and agent knowledge go stale.\"\n- Retrieval failure: \"the right information may actually be in the data model and properly annotated, but the agent simply doesn't find it.\"\nEvery component below exists to kill one of these three.\nAnthropic's agentic analytics stack, layer by layer\nAnthropic's stack is four layers, built from the warehouse up. Here is the same stack, annotated with the ktx piece that implements each layer and the failure mode it kills.\n1. Data foundations\nAnthropic's definition: \"the data models, transforms, tests, and tables in a data warehouse, along with the metadata describing them.\" They want \"column and table descriptions, canonical metric definitions, grain documentation, valid value ranges, lineage, ownership, and model tiering ... maintained with the same rigor as the transformations themselves.\"\n2. Sources of truth\nThese are the reference surfaces that help the agent navigate: a semantic layer (managed metric definitions), lineage, a query corpus of how real analysts have queried this data, and a business context layer.\nA few lessons:\n- Business context is critical. They model it as a knowledge graph of indexed docs, roadmaps, decision logs, and their organizational structure.\n- Do not let an LLM own the semantic layer. They tried \"bootstrapping the semantic layer by having an LLM auto-generate metric definitions from raw tables and query logs,\"",
+      "title": "We Built the Open-Source Version of Anthropic's Internal Data Analytics Engine | Kaelio",
+      "url": "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine"
     },
     "https://www.kimi.com/": {
       "content_type": "text/html; charset=utf-8",
@@ -44779,8 +44869,7 @@
     ],
     "2062877995576992171": [
       "https://x.com/NoraX2026/status/2062877995576992171",
-      "https://x.com/NoraX2026/status/2063103063322452459",
-      "https://pbs.twimg.com/media/HKGdS6AaMAEOxKx.png"
+      "https://x.com/NoraX2026/status/2063153290771116215"
     ],
     "2062897248233787776": [
       "https://x.com/DWFVentures/status/2062897248233787776",
@@ -44790,7 +44879,8 @@
       "https://x.com/rfgarcia/status/2062899534460588057"
     ],
     "2062899956243939807": [
-      "https://x.com/steeldotdev/status/2062899956243939807"
+      "https://x.com/steeldotdev/status/2062899956243939807",
+      "https://x.com/steeldotdev/status/2063159461141794914"
     ],
     "2062928213605543938": [
       "https://x.com/Voxyz_ai/status/2062928213605543938",
@@ -44799,6 +44889,15 @@
     "2062930609861976454": [
       "https://x.com/neural_avb/status/2062930609861976454",
       "http://x.com/i/article/2062555781736902656"
+    ],
+    "2062947242030567797": [
+      "https://x.com/lucamrtl/status/2062947242030567797",
+      "https://www.kaelio.com/blog/open-source-anthropic-internal-data-analytics-engine",
+      "https://github.com/Kaelio/ktx",
+      "https://pbs.twimg.com/media/HKEPe4ubYAAwq_l.jpg",
+      "https://x.com/lucamrtl/status/2062274497835930023",
+      "https://pbs.twimg.com/media/HJ6rIEibMAAbnC2.jpg",
+      "https://pbs.twimg.com/media/HJ6rJdXbYAElbXZ.jpg"
     ],
     "2062947317011878002": [
       "https://x.com/SidebarIO/status/2062947317011878002",
@@ -44834,10 +44933,13 @@
     ],
     "2063092277145489665": [
       "https://x.com/manthanguptaa/status/2063092277145489665",
-      "https://x.com/manthanguptaa/status/2063119719545385305",
-      "https://x.com/manthanguptaa/status/2062764913299460188"
+      "https://x.com/manthanguptaa/status/2063119719545385305"
+    ],
+    "2063144667756310741": [
+      "https://x.com/neural_avb/status/2063144667756310741",
+      "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg"
     ]
   },
-  "updated_at": "2026-06-06T05:04:59Z",
+  "updated_at": "2026-06-06T08:02:46Z",
   "window": "recent"
 }
