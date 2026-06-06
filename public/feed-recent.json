@@ -5007,6 +5007,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061117982340730882"
     },
+    "http://x.com/i/article/2061125977577529344": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061125977577529344",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2061125977577529344/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKIEwP5XYAAcNrU?format=jpg&name=900x900)](http://x.com/i/article/2061125977577529344/DamiDefi/article/2063216842970112330/media/2063216806236479488)\n\nMy Hermes Agent Gets Smarter Every Session. Here Is the Full Architecture Behind It.\n\n[![](https://pbs.twimg.com/profile_images/1964533406399942657/6mf-WCsr_normal.jpg)](http://x.com/i/article/2061125977577529344/DamiDefi)\n\n[Dami-Defi](http://x.com/i/article/2061125977577529344/DamiDefi)\n\n[@DamiDefi](http://x.com/i/article/2061125977577529344/DamiDefi)\n\n·\n\n5h\n\nFollow\n\nClick to Follow DamiDefi\n\n9\n\n27\n\n162\n\n[14K](http://x.com/i/article/2061125977577529344/DamiDefi/status/2063216842970112330/analytics)\n\nThree weeks after setting up my Hermes programmer agent, it solved a problem in 22 seconds that had taken me 20 minutes the first time I encountered it.\n\nNot because the model got better. Because the agent had written a skill file the first time it solved the problem, stored the working approach in plain markdown, and retrieved it automatically when the same pattern appeared again. The fix was already there. The agent did not rediscover it. It remembered.\n\nThat is the compounding Hermes is built around. And it is architecturally different from anything else running in the open-source agent space right now.\n\nMost AI agents are smart. None of the others are learning. Hermes is the only open-source agent that combines runtime skill creation, persistent multi-layer memory, and an offline skill optimization pipeline in a single framework. Not even OpenClaw does all three. That combination is why the agent you are running in month three is genuinely more capable than the one you installed on day one, without you changing a single line of configuration.\n\nThis article is the full architecture. What each layer does, why it matters, and how to build a three-agent setup that runs 24/7.\n\n## \n\nThe Problem Every Other Agent Has\n\nEvery AI agent session has the same failure mode at the end of it.\n\nYou close the chat. Everything the agent figured out disappears. The fix it spent ten minutes working through. The project convention you corrected it on twice. The exact sequence of steps that finally worked. Gone. Next session, you re-explain everything from scratch.\n\nThis is not a model intelligence problem. It is an architecture problem. The agent has no mechanism for writing down what it learned and reading it back later.\n\nHermes solves this with three distinct compounding mechanisms that work at different speeds.\n\n## \n\nThe Three Layers That Make Hermes Compound\n\nLayer 1: Runtime skill creation. When the agent solves a complex problem, it writes a skill file documenting the successful approach. Next time it encounters a similar problem, it loads the skill and follows the proven path instead of rediscovering it. The longer you run the agent, the richer the skill library becomes.\n\nLayer 2: Persistent multi-tier memory. Three memory tiers operating at different speeds: a fast in-context layer for critical facts, a searchable SQLite database for full session history, and optional external providers for deeper persistence. Each tier has a specific job. None of them reset when you close the session.\n\nLayer 3: GEPA. An offline skill optimization pipeline that reads your agent's execution traces, identifies where skills are failing, and proposes improvements through evolutionary search. No GPU required. No fine-tuning. Around $2 to $10 per optimization run. This is the layer most people skip and the one that produces the biggest quality jump.\n\nThe first layer is active every session. The second builds over weeks. The third is something you run when you want to push the capability ceiling without touching model weights.\n\nNo other open-source agent ships all three. That is the architectural claim worth understanding before you i",
+      "title": "",
+      "url": "http://x.com/i/article/2061125977577529344"
+    },
     "http://x.com/i/article/2061176923531984896": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5772,6 +5785,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062990693061005312"
+    },
+    "http://x.com/i/article/2063175884312301568": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063175884312301568",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063175884312301568/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKHf6jUXsAAqtVI?format=jpg&name=900x900)](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff/article/2063206960799866988/media/2063176301318483968)\n\nDrag. Drop. Overfit.\n\n[![](https://pbs.twimg.com/profile_images/1957400345245634560/cjZXTFyf_normal.jpg)](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)\n\n[Kieran Duff](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)\n\n[@kieran\\_\\_duff](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)\n\n·\n\n5h\n\nFollow\n\nClick to Follow kieran\\_\\_duff\n\n1\n\n3\n\n15\n\n[2.4K](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff/status/2063206960799866988/analytics)\n\nFor years the reason most traders gave for not giving systematic trading a whirl was:\n\n> \"I can't code.\"\n\nThen block builders arrived (drag-and-drop platforms that assemble a strategy without a line of MQL or Python), and that \"I can't code\" began to hold less meaning. More recently, the rise of agentic coding agents, such as \n\n[@AnthropicAI](https://x.com/@AnthropicAI)\n\n, \n\n[@cursor\\_ai](https://x.com/@cursor%5Fai)\n\n, \n\n[@OpenAI](https://x.com/@OpenAI)\n\n et al. has lowered the barrier to entry even more.\n\n## \n\nThe Real Barrier\n\nRemoving the code barrier just drops you faster at the wall that was always the real one: designing an edge that survives contact with a live market.\n\nI build in multiple ways. I data mine, use AI agents to scour source material, and generate my own hypotheses to test. I used to lean on block-style tooling for the parts that would otherwise be a coding slog, however over the past few months 90% of my workflow has been redirected to utilising teams of agentic coding agents. What that buys me is time.\n\nMy time then goes into the work that actually decides whether a strategy lives: feature selection, signal logic, how the sizing responds when volatility shifts, where the exits actually sit. The design work. Hard because it's genuinely hard, not because the tooling is fiddly.\n\n## \n\nA Curve Is Not an Edge\n\nThe trap I watch beginners walk into a lot is that these platforms make unscoped building feel like you're making progress. You generate fifty candidate strategies, half of which have lovely curves, and it feels like you're getting somewhere. But a curve is not an edge. The platform can produce the curve. It cannot tell you why the edge should exist, which regime it's built for, or how it should behave when that regime flips. Those are design questions, and they're still entirely yours.\n\nSo a block builder or similar platform is a force multiplier on whatever judgement you already have. Point it at a clean strategy idea and it'll get you to a testable candidate fast. Point it at a vague one and it'll get you nowhere. It's not going to do the work for you.\n\n## \n\nLearn the Design Questions First\n\nWhat I'd tell anyone picking one of these tools up: learn the design questions before you learn the platform.\n\n> What is your edge, in one sentence, and why should it exist? What is it built for, and how should it behave when conditions turn against it?\n\nIf you can't answer those, the platform won't help you. It'll just help you be wrong faster, with a nicer-looking backtest.\n\nThe coding barrier coming down is genuinely good. More people who think in markets but not in syntax get to build. Just don't mistake the open door for the finish line. There's still a hell of a lot of work for you to do as the portfolio or strategy orchestrator.\n\n* [![](https://pbs.twimg.com/profile_images/1957400345245634560/cjZXTFyf_normal.jpg)](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)  \n[Kieran Duff](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)  \n[@kieran\\_\\_duff](http://x.com/i/article/2063175884312301568/kieran%5F%5Fduff)  \nFollow  \nClick to Follow kieran\\_\\_duff  \nSystematic PM & Head",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063175884312301568"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -44792,8 +44819,8 @@
     "2062644695776248096": [
       "https://x.com/cobi_bean/status/2062644695776248096",
       "http://x.com/i/article/2062531985239617536",
-      "https://x.com/cobi_bean/status/2062949229572612489",
       "https://x.com/cobi_bean/status/2062842211088134217",
+      "https://x.com/cobi_bean/status/2062949229572612489",
       "https://x.com/cobi_bean/status/2062879027057115197"
     ],
     "2062647149582750101": [
@@ -44898,8 +44925,7 @@
     "2062992045803745540": [
       "https://x.com/tanmaye_bhatia/status/2062992045803745540",
       "http://x.com/i/article/2062990693061005312",
-      "https://x.com/tanmaye_bhatia/status/2063029754865828339",
-      "https://x.com/tanmaye_bhatia/status/2062562327858184443"
+      "https://x.com/tanmaye_bhatia/status/2063029754865828339"
     ],
     "2063019732912251146": [
       "https://x.com/VoidAsuka/status/2063019732912251146",
@@ -44913,12 +44939,31 @@
       "https://x.com/manthanguptaa/status/2063092277145489665",
       "https://x.com/manthanguptaa/status/2063119719545385305"
     ],
+    "2063107590452871597": [
+      "https://x.com/affe_is_me/status/2063107590452871597",
+      "https://x.com/affe_is_me/status/2063273082253648247",
+      "https://x.com/affe_is_me/status/2063273143264051211"
+    ],
     "2063144667756310741": [
       "https://x.com/neural_avb/status/2063144667756310741",
       "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg",
       "https://x.com/neural_avb/status/2063193354154999835"
+    ],
+    "2063206960799866988": [
+      "https://x.com/kieran__duff/status/2063206960799866988",
+      "http://x.com/i/article/2063175884312301568",
+      "https://x.com/kieran__duff/status/2063270419340075520",
+      "https://x.com/kieran__duff/status/2063174662188646748"
+    ],
+    "2063216842970112330": [
+      "https://x.com/DamiDefi/status/2063216842970112330",
+      "http://x.com/i/article/2061125977577529344",
+      "https://x.com/DamiDefi/status/2063267755843883354",
+      "https://x.com/DamiDefi/status/2063263918730998096",
+      "https://x.com/DamiDefi/status/2063263795087134820",
+      "https://x.com/DamiDefi/status/2063263725243465777"
     ]
   },
-  "updated_at": "2026-06-06T14:53:23Z",
+  "updated_at": "2026-06-06T16:19:38Z",
   "window": "recent"
 }
