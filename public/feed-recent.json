@@ -5533,6 +5533,20 @@
       "title": "",
       "url": "http://x.com/i/article/2062535871379972096"
     },
+    "http://x.com/i/article/2062555781736902656": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062555781736902656",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062555781736902656/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKD_vwQaQAE285A?format=jpg&name=900x900)](http://x.com/i/article/2062555781736902656/neural%5Favb/article/2062930609861976454/media/2062929825208352769)\n\nEconomy of Minds: Multi-Agent Prompt Optimization explained\n\n[![](https://pbs.twimg.com/profile_images/2015375309147611136/WKvfQ-oV_normal.jpg)](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[AVB](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n[@neural\\_avb](http://x.com/i/article/2062555781736902656/neural%5Favb)\n\n·\n\n8h\n\nFollow\n\nClick to Follow neural\\_avb\n\n14\n\n145\n\n[7.6K](http://x.com/i/article/2062555781736902656/neural%5Favb/status/2062930609861976454/analytics)\n\nWake up babe there's a new paper from Harvard: Economy of Minds (EOM). They've made a decentralized multi-agent system where agents coordinate and improve over time using market-like mechanisms (auctions, payments, wealth accumulation).\n\nThey are reporting that such an environment has led to emergent multi-step reasoning and strong performance on several agentic tasks!\n\nNote: This article was written by AVB using GPT-5.2 inside the Paper Breakdown harness\n\n[![](https://pbs.twimg.com/profile_images/1978164240549564417/eReMGiC1_normal.jpg)](http://x.com/i/article/2062555781736902656/ZhentingQi)\n\nZhenting Qi\n\n@ZhentingQi\n\n·\n\n[Jun 4](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039)\n\nImagine a population of machine agents. Each might be strong on certain tasks but fundamentally limited: partial tools, partial observations, finite context, bounded compute. How can these agents self-orchestrate and self-evolve into stronger collective intelligence to solve\n\nShow more\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062552575078195200/img/tsbNNbDtB_L0mEOA.jpg)\n\n3\n\n29\n\n139\n\n[225K](http://x.com/i/article/2062555781736902656/ZhentingQi/status/2062557667361792039/analytics)\n\n## \n\nWhy should I care about whatever this is?\n\nIf you are building multi-agent systems to accomplish specific tasks - this is for you. Most multi-agent stacks still rely on a lot of hand-designed orchestration \\- you (the developer) go write explicit prompts and state machine graphs to manually define \"who does what and when\".\n\nLong tasks require different role switches according to the state and progress of the task. And it is almost always best to design systems that can switch up your system prompts optimally so tasks always make forward progress.\n\n> The goal of this paper is do exactly this. Given a task, how do you generate an optimized population of multi-agents, each with specific instructions on how to act AND when to act.And they did it in a really unique and fun way - simulating a market system that externally controls how agents evolve.\n\nThe end result of this optimization is a group of specialized agents and a intelligent routing mechanism to select how they solve a task.\n\nWhen we put simple agents with a basic action space in a complex multi-agent scenario, what do you think happens? Complex behaviours emerge automatically because those simple agents begin to optimize their life around the uncertainties posed by other agents in the scenario. That's the best part about all of this.\n\nBy the way, this theory of \"behaviours organically emerging from multi-agent scenario\" is not a new concept. Even some older pre-LLM multi-agent works have indicated this, such as the famous OpenAI Hide and Seek paper.\n\n<https://openai.com/index/emergent-tool-use/>\n\n![](https://pbs.twimg.com/amplify_video_thumb/2062917645364776960/img/iAZqXNQhzubCDSP6.jpg)\n\nWhile this paper reminded me some ideas from those older multi-agent papers, there are a few caveats. It is important to note the following:\n\n* This paper is NOT training agents to be financially independent or perform trades or auctions!\n* In fact, this is a new algorithm",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062555781736902656"
+    },
     "http://x.com/i/article/2062577089501601793": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5692,6 +5706,45 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062833192890220544"
+    },
+    "http://x.com/i/article/2062891077359595520": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062891077359595520",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062891077359595520/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKDchtSXMAAqQZU?format=jpg&name=900x900)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/article/2062928213605543938/media/2062891100986093568)\n\nStart with Repetitive, High-Judgment Work: Building Your First Skill Library\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2062891077359595520/Voxyz%5Fai)\n\n·\n\n8h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n2\n\n13\n\n92\n\n[5.3K](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/status/2062928213605543938/analytics)\n\nThe first step in building a skill library is the easiest to get wrong.\n\nMany people start with prompts. They organize common prompts into folders, name them, and write brief instructions. It looks neat at first, but ultimately becomes an abandoned warehouse nobody ever opens.\n\nThe reason is simple: these tasks are too \"light.\"\n\n\"Rewrite this weekly report,\" \"Summarize these meeting minutes,\" \"Categorize these emails,\" \"Polish this paragraph\", sure, you can organize these. But today's agents can already produce a decent first pass out of the box. Building dedicated \"skills\" for them just leaves you with a glorified prompt collection.\n\nYour first skill library should start with \"heavier\" work.\n\nBy \"heavy,\" I mean judgment-heavy: risk, context, owner calls, and stop rules.\n\nSome tasks happen every week. The steps seem identical, but at critical junctures, they require an experienced pair of eyes to sign off.\n\nFor example:\n\n* PRD reviews\n* Launch QA\n* Support escalations\n* Code reviews\n* Brand voice reviews\n* Sales call prep\n* Content ideation\n* Customer feedback handling\n\nOn the surface, these tasks follow a process. What's truly valuable are the forks in the road within that process.\n\n* Should we push forward with this issue, or stop and ask a human?\n* Should this document trust the CRM, or the latest Slack message?\n* Is this feedback just a minor tweak, or has the direction drifted entirely?\n* Is this customer just using a harsh tone, or are they an actual churn risk?\n* Can the agent directly revise this output, or must a human make the final call?\n\nIf these judgments only live in someone's head, the company will keep paying the price.\n\nA senior goes on PTO, and review quality drops a tier. A project pauses for two weeks, and the agent starts referencing outdated statuses. A prompt is copy-pasted, and the old project's preferences pollute the new one. Feedback is taken too literally, resulting in three rounds of useless revisions.\n\nSo, your first question shouldn't be: \"What prompts can I organize?\"\n\nAsk instead: \"What task has recurred frequently lately, where I still feel the need to personally double-check it for peace of mind?\"\n\nStart there.\n\n[![Image](https://pbs.twimg.com/media/HKD4TdaWkAAZ-WC?format=jpg&name=small)](http://x.com/i/article/2062891077359595520/Voxyz%5Fai/article/2062928213605543938/media/2062921642532048896)\n\n## \n\nA Skill Library Captures the Sequence of Judgment\n\nThe basic format for a single skill does not need to feel mysterious. Official docs already make the package clear: a directory, a \n\n[SKILL.md](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n\n, and optional instructions, references, scripts, and assets.\n\n[OpenAI Codex Skills](https://developers.openai.com/codex/skills)\n\n describe the same pattern from another angle: a skill packages instructions, resources, and optional scripts so an agent can follow a workflow reliably. This article is about the layer after that: how to choose and organize the skills that deserve to exist.\n\nThe hard part is the library.\n\nA library isn't just dumping 20 skills into a folder. A library needs to",
+      "title": "",
+      "url": "http://x.com/i/article/2062891077359595520"
+    },
+    "http://x.com/i/article/2062947397635043328": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062947397635043328",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062947397635043328/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKERF1MbsAAOYGW?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062948896188641280)\n\nWho will build Vercel for agents?\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/i/article/2062947397635043328/jhleath)\n\n[Hunter Leath](http://x.com/i/article/2062947397635043328/jhleath)\n\n[@jhleath](http://x.com/i/article/2062947397635043328/jhleath)\n\n·\n\n6h\n\n·\n\nFollow\n\nClick to Follow jhleath\n\n8\n\n2\n\n64\n\n[10K](http://x.com/i/article/2062947397635043328/jhleath/status/2062948931886334020/analytics)\n\nThis isn't surprising to you, but I believe there's a reason why none of the \"vercel for agents\" companies have won yet: none of these technologies have innovated in how to manage stateful applications.\n\n[![Image](https://pbs.twimg.com/media/HKERVSebUAAgaPN?format=jpg&name=900x900)](http://x.com/i/article/2062947397635043328/jhleath/article/2062948931886334020/media/2062949161746780160)\n\n\\[tweet: \n\n<https://x.com/utpalnadiger/status/2062702881019744474>\n\n\\]\n\nFundamentally, AI agents are \\*a very different shape\\* than what we used to deploy in the cloud.\n\nPreviously, a \"cloud application\" would be an API wrapped around a database and S3\\. It would only need to access its own data, and the \\*server\\* didn't need to contain any state at all, so they were super simple to spin up/replace -- the \"kubernetes\" model of deployment.\n\nIf you look out at the \"agent deployment\" options, everyone is sort of competing on what the \\*thing\\* is that will allow them to satisfy this new shape of application.\n\nThe sandbox companies believe that the fundamental problem is compute. If you can spin up compute fast enough and flexibly enough, then you can serve agents. I don't find this very inspiring, but it also doesn't \\*help\\*. Spinning up a server quickly is helpful, but it's not enough for making agents simple -- you've just replicated what people were doing prior to Vercel for websites.\n\n\\[side note: it's funny to me that Vercel themselves haven't seemed to release anything yet to recognize this, but it's early days\\]\n\nI think the next most-inspired option is a company that believes that \\*networking\\* is the fundamental thing that needs to change in order to serve agents well. This is the category where I put \n\n[@ssh\\_exe\\_dev](https://x.com/@ssh%5Fexe%5Fdev)\n\n. They're betting on the fact that having servers that are super easy to address (ssh \n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n) and spin up copies of themselves is the fundamental primitive required to serve agents well.\n\nThis seems to mostly be working, for select parts of the agent stack. We most commonly see people want to use \n\n[exe.dev](http://x.com/i/article/2062947397635043328//exe.dev)\n\n for the \"agent loop\" portion of the problem (where do you run the harness), but it doesn't necessarily solve the ability for that agent loop to call untrusted code or manipulate their context window.\n\nInstead, I \\[of course\\] believe that the real DX advancement that needs to happen to solve for incredibly simple agent deployment and management is \\*storage\\*.\n\nThe reason for this is simple: agents are stateful in a way that no previous application was, so you need to figure out how to handle state differently than \"configure a Kubernetes ProvisionedVolume if you want\".\n\nAgents are actually made up of two different parts: the agent loop (the \"trusted\" code which contains the pieces that connect the LLM to the tools) and the sandbox (the \"untrusted\" code that runs to manipulate context). The agent loop needs to be addressable via a URI (for example, in order to set up a webhook that triggers the agent) and the sandbox needs to be cheap to spin up in large quantities.\n\nThese two separate pieces nee",
+      "title": "",
+      "url": "http://x.com/i/article/2062947397635043328"
+    },
+    "http://x.com/i/article/2062990693061005312": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062990693061005312",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062990693061005312/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKE3IbrWgAA1Inn?format=jpg&name=900x900)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062990722320465920)\n\nThe Queryable Firm. \n\n[![](https://pbs.twimg.com/profile_images/1847301896102375424/gZroWOKm_normal.jpg)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[tanmaye](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n[@tanmaye\\_bhatia](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia)\n\n·\n\n4h\n\n·\n\nFollow\n\nClick to Follow tanmaye\\_bhatia\n\n2\n\n11\n\n[1.4K](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/status/2062992045803745540/analytics)\n\nNotes on AI in venture. Part one is about board decks\n\nA firm only knows what it can query.\n\nMy work involves building intelligence at my firm. The longer I work on that, the more the phrase means something simple. Intelligence is downstream of access. A firm gets smarter exactly as fast as it can reach its own data. So, I spent time exploring one data source.\n\n## \n\nThe deck is a database\n\nFinance runs on documents. Banks have filings, hedge funds have transcripts and tear sheets, and early-stage venture has a messy pile of recurring artifacts. One of the richest sources is the inscrutable quarterly board deck. It is the best periodic signal you get on a company you have backed, and most of the time it dies in a partner’s inbox.\n\nA board deck is a database that has been laid out for the human eye and ruined for every other reader. A deck usually has metrics ranging from the nearly-universal (ARR, burn, runway, net new logos), to domain-specific numbers, to sometimes, entirely novel ones. It usually spans the company’s narrative, asks, and risks. Stack these decks over quarters and years and you have enough data to be a better-prepared partner to founders. Think board members who walk into the meeting already knowing your business, we don’t need constant repetition, and track progress against your asks.\n\nOnly if you could parse it. The trouble is what a deck is. Let’s zoom in on KPI extraction. The problem is not storage and it is not intelligence.\n\n[![Image](https://pbs.twimg.com/media/HKE3auaWEAEEehx?format=jpg&name=small)](http://x.com/i/article/2062990693061005312/tanmaye%5Fbhatia/article/2062992045803745540/media/2062991036587053057)\n\nPortCo, Inc. is invented. Every name, number, and metric on this slide is synthetic.\n\nOn one slide, ARR shows up as a tile, as a bar in a chart, and again in a footnote. Six numbers, one per quarter, and one of them a projection you can tell apart only by its dashed outline. Take the same slide across eight quarters and you have forty-eight ARR values, historical and forecast tangled together. Reading 4.2 is trivial. The work is binding 4.2 to ARR, to Q3 2025, and to actual.\n\n> The bottleneck is not computation. It’s representation.\n\nThe decks are 38 pages long and 72,000 tokens on average. A quarter of them arrived as images, the numbers baked into pixels. Several carried metrics not seen at any other company. Unlike term sheets and cap tables, board decks have no standardized format. There is no schema to inherit. You have to manufacture one.\n\n## \n\nThe graded tuple\n\nOne approach is to stop extracting numbers and start extracting records. Every metric becomes a tuple.\n\n* the metric\n* the value and its unit\n* the period it describes\n* the date it is measured from, or as of\n* the grain: point-in-time, quarterly, annual\n* the status: actual, projected, estimated\n* the citation: the exact page it came from\n\nI expected the larger models to win this on raw retrieval. They barely moved the needle. The gain came from promoting period, grain, and status to first-class fields with a defined way to derive each one. Make the representation honest and the retrieval mostly takes care of itsel",
+      "title": "",
+      "url": "http://x.com/i/article/2062990693061005312"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -6830,6 +6883,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Interface Is No Longer the Product",
       "url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar"
+    },
+    "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Reopening every decision you left implicit, and settling it without you",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w1200/2026/06/0_0.jpg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/2026/03/mtlogo2-1.svg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/03/48Ekqgdx_400x400-copy.png",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/05/0_2--1-.jpeg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/fc384b8f-d07e-40c0-bf56-c7fbe4b0df08_1456x816-jpeg.jpg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/bc5e27c9-618a-4445-884c-c16acc95c8d7_1456x816-jpeg-1.jpg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/2f66bbe9-b6e7-47a9-9a62-2ece78ac49a9_1456x816-jpeg.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "A year ago I wrote a piece called [your next design system user is an agent](https://blog.murphytrueman.com/p/your-next-design-system-user). The case was that you should treat your components like an API, give them clear contracts, names that mean something, so an agent can read them. I still think that's right. What I didn't sit with for long enough is how much of an agent's time is spent past the edge of what you wrote down, and how much rides on what it finds out there.\nAn agent doesn't stop at that edge. It can't. It runs into something you left open, a prop you never added, a state nobody designed, a spacing value that shows up in three components and never got a name, and it just keeps going. It has to put something there. And what it picks won't be what you meant, because what you meant was never written down anywhere it could find. So it uses the average instead. Your Card\nends up looking like whatever the most common Card\non the internet looks like, because once your definition runs out, that's all that's left to copy.\nPeople want to call this drift. It isn't. Drift is when your system says two different things and the agent faithfully builds both, and I've written about that, it's real and it's a mess. But drift means the answer is in there somewhere, just arguing with itself. This is different. There was nothing in the gap at all. The agent didn't copy your inconsistency, it made up a consistency you never agreed to, and it did it without a second of hesitation.\nA designer in that spot knows they're guessing. They'll ask in Slack, or go find whoever built the thing, or leave a comment saying they weren't sure. Everyone downstream can see it was a guess. An agent doesn't do that. Its guess comes back as finished code that looks exactly like the parts it got right, and nothing tells you which is which. Read it back a week later and you won't be able to say what came from your documentation and what came from the agent's best impression of a date picker.\nSo the empty spaces in your system start to cost you, when they used to be the cheapest thing in it. An undocumented prop was just a question someone would eventually ask, and the whole cost of it was one Slack message and an afternoon. Now that gap gets filled on every single run, always from the same outside default, and not one of those answers ever shows up as a decision a person made. You find out months later, if you find out at all, when something looks slightly off in review and you trace it back to a behaviour nobody on the team ever chose, sitting there in every screen.\nHere's the kind of thing I mean. Say your team builds a confirmation dialog for the destructive stuff, deleting an account, wiping a dataset, the things you can't take back. A lot of dialogs put keyboard focus straight on the confirm button when they open, and plenty of libraries ship it that way, so that's what an agent reaches for too. Your team did the opposite and focused the cancel button. As it happens, that's also what [the W3C suggests](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/?ref=blog.murphytrueman.com) for anything you can't undo. But you didn't do it because of a spec. You did it because you once watched someone hammer enter the second the dialog appeared, delete the thing, and then go very still in the way people do when they know it's gone for good. So you moved focus to cancel and made people travel to confirm. That decision was never in a style guide. It came out of watching it go wrong.\nNow hand that system to an agent and ask for a new confirmation flow. Your ConfirmDialog\nsays nothing about focus, because the behaviour sits down in the code and the reason for it only exists in the heads of the people who were there. So the agent does what everyone else does and focuses confirm. What it builds looks like yours, imports your component, gets through review without a second look. And it has walked the exact problem your team built the thing to avoid straight back in",
+      "title": "The parts of your system you never wrote down",
+      "url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar"
     },
     "https://book.douban.com/subject/37271621/": {
       "cleaner_v": 2,
@@ -28560,19 +28634,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg"
     },
-    "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg": {
+    "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+        "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+      "url": "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
+    },
+    "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -44357,8 +44445,7 @@
       "https://x.com/0xSero/status/2062268757972484292",
       "https://pbs.twimg.com/media/HJ6mGtEXwAEKwkY.jpg",
       "https://x.com/0xSero/status/2062421357351129595",
-      "https://x.com/0xSero/status/2062274868779897050",
-      "https://x.com/0xSero/status/2062270105036181650"
+      "https://x.com/0xSero/status/2062274868779897050"
     ],
     "2062274312363770064": [
       "https://x.com/ClaudeDevs/status/2062274312363770064",
@@ -44402,9 +44489,7 @@
     ],
     "2062414047073448262": [
       "https://x.com/Potatoloogs/status/2062414047073448262",
-      "https://claude.com/blog/running-an-ai-native-engineering-org",
-      "https://x.com/Potatoloogs/status/2062513449100595489",
-      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+      "https://claude.com/blog/running-an-ai-native-engineering-org"
     ],
     "2062418054831554666": [
       "https://x.com/IBuzovskyi/status/2062418054831554666",
@@ -44432,12 +44517,12 @@
     "2062435013484814400": [
       "https://x.com/AdamBartas/status/2062435013484814400",
       "http://x.com/i/article/2059613463731732484",
-      "https://x.com/AdamBartas/status/2062789494198223194",
       "https://x.com/AdamBartas/status/2062852624219595110",
+      "https://x.com/AdamBartas/status/2062789494198223194",
       "https://x.com/AdamBartas/status/2062480475277472227",
-      "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062789236806328781",
       "https://x.com/AdamBartas/status/2062600236393267462",
+      "https://x.com/AdamBartas/status/2062600341326352455",
       "https://x.com/AdamBartas/status/2062789057705390579"
     ],
     "2062443798647517197": [
@@ -44492,17 +44577,17 @@
     "2062561213532471707": [
       "https://x.com/Av1dlive/status/2062561213532471707",
       "http://x.com/i/article/2062489133445201920",
-      "https://x.com/Av1dlive/status/2062593076502405309",
+      "https://x.com/Av1dlive/status/2062647510800482789",
       "https://x.com/Av1dlive/status/2062638021233856941",
       "https://x.com/Av1dlive/status/2062583273277317301",
-      "https://x.com/Av1dlive/status/2062647510800482789",
       "https://x.com/Av1dlive/status/2062564180574740908",
-      "https://x.com/Av1dlive/status/2062658439936107000",
+      "https://x.com/Av1dlive/status/2062593076502405309",
       "https://x.com/Av1dlive/status/2062805766969659733",
-      "https://x.com/Av1dlive/status/2062647578857288082",
-      "https://x.com/Av1dlive/status/2062597636839133188",
       "https://x.com/Av1dlive/status/2062909619119476984",
+      "https://x.com/Av1dlive/status/2062597636839133188",
+      "https://x.com/Av1dlive/status/2062658439936107000",
       "https://x.com/Av1dlive/status/2062564208223596991",
+      "https://x.com/Av1dlive/status/2062647578857288082",
       "https://x.com/Av1dlive/status/2062562364755681671"
     ],
     "2062562168843714795": [
@@ -44628,7 +44713,8 @@
     ],
     "2062735297037672783": [
       "https://x.com/cyrilXBT/status/2062735297037672783",
-      "https://pbs.twimg.com/amplify_video_thumb/2062734837371293696/img/8P5Nlb5lzbFbn0sc.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2062734837371293696/img/8P5Nlb5lzbFbn0sc.jpg",
+      "https://x.com/cyrilXBT/status/2062982991337447738"
     ],
     "2062756323985363359": [
       "https://x.com/anorth_chen/status/2062756323985363359"
@@ -44643,8 +44729,8 @@
     ],
     "2062877995576992171": [
       "https://x.com/NoraX2026/status/2062877995576992171",
-      "https://x.com/NoraX2026/status/2062897798119305512",
-      "https://pbs.twimg.com/media/HKDimfsWcAAy5ms.jpg"
+      "https://x.com/NoraX2026/status/2062942184119148732",
+      "https://pbs.twimg.com/media/HKEK-O5WgAA0dmm.jpg"
     ],
     "2062897248233787776": [
       "https://x.com/DWFVentures/status/2062897248233787776",
@@ -44655,8 +44741,36 @@
     ],
     "2062899956243939807": [
       "https://x.com/steeldotdev/status/2062899956243939807"
+    ],
+    "2062928213605543938": [
+      "https://x.com/Voxyz_ai/status/2062928213605543938",
+      "http://x.com/i/article/2062891077359595520"
+    ],
+    "2062930609861976454": [
+      "https://x.com/neural_avb/status/2062930609861976454",
+      "http://x.com/i/article/2062555781736902656"
+    ],
+    "2062947317011878002": [
+      "https://x.com/SidebarIO/status/2062947317011878002",
+      "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg",
+      "https://x.com/SidebarIO/status/2062262557016989864",
+      "https://meodai.github.io/heerich/?ref=sidebar",
+      "https://pbs.twimg.com/media/HJ6g3XLXkAAjsd2.jpg"
+    ],
+    "2062948931886334020": [
+      "https://x.com/jhleath/status/2062948931886334020",
+      "http://x.com/i/article/2062947397635043328",
+      "https://x.com/jhleath/status/2062966990839706049",
+      "https://x.com/jhleath/status/2062973044197605875"
+    ],
+    "2062992045803745540": [
+      "https://x.com/tanmaye_bhatia/status/2062992045803745540",
+      "http://x.com/i/article/2062990693061005312",
+      "https://x.com/tanmaye_bhatia/status/2063029754865828339",
+      "https://x.com/tanmaye_bhatia/status/2062562327858184443"
     ]
   },
-  "updated_at": "2026-06-05T19:09:13Z",
+  "updated_at": "2026-06-06T00:19:47Z",
   "window": "recent"
 }
