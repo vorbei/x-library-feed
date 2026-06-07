@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 682,
+      "count": 683,
       "name": "Tools"
     },
     {
@@ -9,7 +9,7 @@
       "name": "Development"
     },
     {
-      "count": 324,
+      "count": 325,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 137,
+      "count": 138,
       "name": "Media"
     },
     {
@@ -38,8 +38,116 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2243,
+  "item_count": 2245,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://www.youtube.com/watch?v=kPqH3ZSbVjo//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://www.youtube.com/watch?v=kPqH3ZSbVjo//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.161.215  \nTime: 2026-06-07T05:11:53Z  \nURL: https://www.youtube.com/watch?v=kPqH3ZSbVjo",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "cleaner_v": 2,
+      "created_at": "2026-06-07T04:40:51.761457Z",
+      "description": "South Park Commons • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k17dgmnba237crqbshc5tjeayx887cmt",
+      "og_image_url": "https://i.ytimg.com/vi/kPqH3ZSbVjo/maxresdefault.jpg",
+      "recommended_at": "2026-06-07T04:40:56.583000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "software-design",
+        "product-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-07T04:40:56.583000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Lessons from Figma, Software Decay, & the Creation of the Inter Font | Playbit’s Rasmus Andersson",
+      "url": "https://www.youtube.com/watch?v=kPqH3ZSbVjo",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca92ea67ef60d728ed80d0_opengraph-topazlabs-r.jpg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/652d36e4bdb4c58ae007a00a_vai4-menu-close.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/66a00857c4ab17ce90e8f0b4_icon-check-blue.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/69f2559e9ff065775ee89933_info_24dp_000000_FILL0_wght500_GRAD0_opsz24.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/66fea73e588b75e13f6386ca_icon-cloud-credit-blue.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/69f256b9fd9020c4f582f86f_info_24dp_FFFFFF_FILL0_wght500_GRAD0_opsz24.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68d1aa55ea71e44b7916c8e3_topaz-logo-(r)-white.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68af9737eb4d3147aad67b87_icon-topaz-photo.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68b0647c1b2bf2aaedf1890e_icon-studio.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68af97376fbc83545d307491_icon-topaz-video.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/69fa18810b84776322901365_product-icon-image-web.svg",
+        "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68498c7cf113f5ca7a9933bb_product-astra.svg"
+      ],
+      "article_title_extracted": "Professional photo & video enhancement powered by AI | Topaz Labs",
+      "category": "Tools",
+      "created_at": "2026-06-07T03:40:32.077337Z",
+      "description": "Photo and video enhancement software powered by deep learning gets you the best image quality available for noise reduction, sharpening, upscaling, and more.",
+      "domain": "www.topazlabs.com",
+      "embed_type": "",
+      "id": "k17ehes4rc8j3q6cg230p89dvh886p19",
+      "og_image_url": "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca92ea67ef60d728ed80d0_opengraph-topazlabs-r.jpg",
+      "recommended_at": "2026-06-07T04:01:37.511000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-photography",
+        "video-enhancement",
+        "image-upscaling"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-07T04:01:37.511000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Professional photo & video enhancement powered by AI | Topaz Labs",
+      "url": "https://www.topazlabs.com/",
+      "x_status_id": null
+    },
+    {
+      "category": "Design",
+      "created_at": "2026-06-07T04:00:45.485315Z",
+      "description": "Each themed edition of BranD showcases brand work and design. An excellent reference publication for anyone working in commercial or brand-based design, as well as those working in graphic design more generally. Plus, it often features innovative print finishing techniques. \"This issue explores the theme “Exhalation an",
+      "domain": "www.counter-print.co.uk",
+      "embed_type": "",
+      "id": "k17am17mrkhrgsxf3jva0ybvt1887nh5",
+      "og_image_url": "http://www.counter-print.co.uk/cdn/shop/files/01_d1de96c2-15cc-458c-a921-d23824b37122.jpg?v=1779959806",
+      "recommended_at": "2026-06-07T04:01:34.988000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "graphic-design",
+        "branding",
+        "typography"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-07T04:01:34.988000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Brand 81\n\n        – Counterprint",
+      "url": "https://www.counter-print.co.uk/products/brand-81",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -2056,18 +2164,18 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
       "article_image_urls": [
         "https://shiftapp.nyc/og_preview.png",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_2zvdtsiTH17AjovTWtUpj4ftD9Bg"
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y"
       ],
       "article_title_extracted": "shift: Free Home Cleaning in NYC",
       "category": "Tools",
@@ -2191,7 +2299,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
         "https://framerusercontent.com/images/4XPyOmPW1ekC3IaHitkXiBMm6TY.webp?width=1440&height=900",
@@ -2367,7 +2475,7 @@
       "x_status_id": "2060338585539088867"
     },
     {
-      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
       "article_image_urls": [
         "https://un.ms/assets/og4.png",
         "https://un.ms/build/assets/office-of-unms-2-ZsTPerh3.png",
@@ -4445,7 +4553,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
       "article_title_extracted": "Orion PDA — Pocket computer minimal Orion PDA — pocket computer minimal",
       "category": "Tools",
       "created_at": "2026-05-24T02:34:11.071500Z",
@@ -4537,7 +4645,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-31T05:08:19.855111Z",
+      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
       "article_image_urls": [
         "https://simplecss.org/assets/images/simple-css-feature.webp"
       ],
@@ -17797,6 +17905,13 @@
           "recommended_at": "2026-04-19T04:54:32.668000Z",
           "recommended_by": "huan",
           "slug": "huan"
+        },
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-03-29T01:20:47.004000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
         }
       ],
       "title": "Stripe Projects | Provision and Manage Services from the CLI",
@@ -25399,48 +25514,6 @@
       "title_zh_hash": "8a6ee504c03d03a9",
       "title_zh_translator_v": 2,
       "url": "https://www.panton.vitra.com/",
-      "x_status_id": null
-    },
-    {
-      "article_fetch_attempted_at": "2026-06-01T14:40:35.121651Z",
-      "article_image_urls": [
-        "https://projects.dev/assets/images/og/og.jpg",
-        "https://projects.dev/assets/images/og/twitter-large.jpg",
-        "https://projects.dev/img/_-NTWf-bqg-1266.jpeg"
-      ],
-      "article_title_extracted": "Stripe Projects | Provision and Manage Services from the CLI",
-      "category": "Development",
-      "created_at": "2026-03-29T01:19:37.199660Z",
-      "description": "Enable you or your agents to provision hosting, databases, auth, AI, and more from the CLI. Generate credentials and manage usage and billing in one place.",
-      "description_zh": "让您或您的代理能够通过命令行界面（CLI）配置托管、数据库、身份验证、AI 等功能。在一个地方生成凭证并管理使用情况和计费。",
-      "description_zh_hash": "93883db91938aa65",
-      "description_zh_translator_v": 2,
-      "domain": "projects.dev",
-      "embed_type": "",
-      "id": "k17a4rpz6p9f9jj66bcrfxa64583t3rq",
-      "og_image_url": "https://projects.dev/assets/images/og/og.jpg",
-      "recommended_at": "2026-03-29T01:20:47.004000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "devops",
-        "cloud-infrastructure",
-        "cli-tools"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-03-29T01:20:47.004000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "Stripe Projects | Provision and Manage Services from the CLI",
-      "title_zh": "Stripe 项目 | 通过 CLI 配置和管理服务",
-      "title_zh_hash": "29446fd5da962d55",
-      "title_zh_translator_v": 2,
-      "url": "https://projects.dev/",
       "x_status_id": null
     },
     {
@@ -99587,7 +99660,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2086,
+      "count": 2089,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -99623,5 +99696,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-06T21:42:53.829551Z"
+  "updated_at": "2026-06-07T05:12:09.265518Z"
 }
