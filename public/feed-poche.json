@@ -4555,11 +4555,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-05-31T17:43:31.251201Z",
+      "article_fetch_attempted_at": "2026-06-07T17:51:30.886363Z",
       "article_image_urls": [
         "https://slim.tools/og-image.png"
       ],
-      "article_title_extracted": "Slim Tools | A Smaller Runtime Tool Surface for AI Agents Slim Tools | A Smaller Runtime Tool Surface for AI Agents",
+      "article_title_extracted": "Slim Tools | Tool Orchestration Runtime for AI Agents Slim Tools | Tool Orchestration Runtime for AI Agents",
       "category": "Tools",
       "created_at": "2026-05-24T14:47:37.339487Z",
       "description": "Slim Tools connects MCP and OpenAPI services behind one compact MCP URL, so agents can discover and call capabilities at runtime instead of loading every tool in context.",
@@ -99795,5 +99795,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-07T14:31:57.391046Z"
+  "updated_at": "2026-06-07T17:51:32.324797Z"
 }
