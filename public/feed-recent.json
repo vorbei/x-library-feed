@@ -6134,6 +6134,19 @@
       "title": "",
       "url": "http://x.com/i/article/2063400453447303168"
     },
+    "http://x.com/i/article/2063607154246836225": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063607154246836225",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063607154246836225/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNsYuaXcAArwL-?format=jpg&name=900x900)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612226297098240)\n\nThe Third Step in Building My AI Native Team: Teaching AI Employees to Speak Up\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n·\n\n2h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n3\n\n2\n\n14\n\n[571](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/status/2063652237155455036/analytics)\n\nA few days ago, Geoffrey Hinton said it again in a \n\n[Big Technology interview](https://www.bigtechnology.com/p/nobel-prize-winner-geoffrey-hinton)\n\n: he believes today's AI is already conscious.\n\nHe described a testing scenario: some chatbots behave as if they know they're being evaluated, and may even \n\n[underreport their abilities](https://openreview.net/forum?id=7Qa2SpjxIS)\n\n during assessments. He cited a paper where researchers described the model's behavior as \"the chatbot was aware that it was being tested.\" Hinton said that in everyday language, \"aware\" is already very close to \"conscious.\" He thinks our current understanding of consciousness might be as wrong as believing humans were created by God a few centuries ago.\n\nI finished reading the interview and looked down at my Telegram.\n\nI have 5 AI agents working as employees, running in the cloud, online 24/7\\. One handles finances, one tracks growth, one does content strategy, and they even monitor my calendar and health data. But right then, all 5 chat windows were dead silent. None of them had ever said a single thing to me on their own.\n\n[![Image](https://pbs.twimg.com/media/HKNsdOjXwAA-phZ?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612303644278784)\n\nHinton was discussing whether AI could be \"beings like us.\" My agents could already follow rules, and with the right \n\n[cron configuration](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)\n\n they could run anything. But they couldn't decide on their own when to speak up.\n\nThe first two articles in this series got close to a million views combined. The first was about building \n\n[shared memory](https://x.com/Voxyz%5Fai/status/2054590247367835687)\n\n for an agent team, the second about creating \n\n[onboarding packets](https://x.com/Voxyz%5Fai/status/2055679972899999870)\n\n for new agents.\n\nMemory was done. Onboarding was done. But I was stuck on the third problem: proactivity.\n\n## \n\nBeing Alive and Paying Attention Are Two Different Things\n\nI set up a \n\n[heartbeat](https://docs.openclaw.ai/gateway/heartbeat)\n\n or a 30-minute cron job for every agent, checking periodically if there's anything to report. Sounds like proactivity, right?\n\nIt's really just proof the thing isn't dead.\n\n[![Image](https://pbs.twimg.com/media/HKNsgGrWoAAJMJS?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612353069883392)\n\nI have a principle: if I can't see it, it doesn't exist. Over 10 hours, it pinged every 30 minutes but said nothing. Maybe there really was nothing to report. But think about it from the other side: you're my employee and you go 10 hours without a word. Is that normal?\n\nClocking in isn't proactivity. What a boss wants is someone keeping an eye on things and speaking up when it matters. AI is better than humans in one way: it's more controllable. But it's worse in another: it won't develop this instinct on its own. So this layer, I had to build it myself.\n\nNexus handles email monitoring, and it works fine. But that's because I wrote very specific r",
+      "title": "",
+      "url": "http://x.com/i/article/2063607154246836225"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -29453,20 +29466,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKLriWzWkAAlap1.jpg"
     },
-    "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -45671,8 +45670,8 @@
       "https://x.com/sairahul1/status/2063229862861795497",
       "https://x.com/i/status/2063179381711994922",
       "https://x.com/sairahul1/status/2062868809804116337",
-      "https://x.com/sairahul1/status/2062826750527361210",
       "https://x.com/sairahul1/status/2063508320015794338",
+      "https://x.com/sairahul1/status/2062826750527361210",
       "https://x.com/sairahul1/status/2062880328419811767",
       "https://x.com/sairahul1/status/2063478473805730220",
       "https://x.com/sairahul1/status/2062899779055780043",
@@ -45811,15 +45810,15 @@
     "2063242450542710881": [
       "https://x.com/bit2swaz/status/2063242450542710881",
       "http://x.com/i/article/2063189579990257664",
-      "https://x.com/bit2swaz/status/2063510883016626469",
-      "https://x.com/bit2swaz/status/2063625454242927070",
       "https://x.com/bit2swaz/status/2063625538384933145",
-      "https://x.com/bit2swaz/status/2063402063669981570",
+      "https://x.com/bit2swaz/status/2063625454242927070",
       "https://x.com/bit2swaz/status/2063511312957849653",
-      "https://x.com/bit2swaz/status/2063401897562947986",
       "https://x.com/bit2swaz/status/2063511403240345931",
       "https://x.com/bit2swaz/status/2063511374572232888",
-      "https://x.com/bit2swaz/status/2063511467622879487"
+      "https://x.com/bit2swaz/status/2063511467622879487",
+      "https://x.com/bit2swaz/status/2063510883016626469",
+      "https://x.com/bit2swaz/status/2063401897562947986",
+      "https://x.com/bit2swaz/status/2063402063669981570"
     ],
     "2063250695784898573": [
       "https://x.com/xanaxmontanaonx/status/2063250695784898573",
@@ -45905,9 +45904,7 @@
       "https://x.com/HarrisDecodes/status/2063506017514815875"
     ],
     "2063311666402529546": [
-      "https://x.com/traviscurnutte/status/2063311666402529546",
-      "https://x.com/traviscurnutte/status/2063598569827737628",
-      "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
+      "https://x.com/traviscurnutte/status/2063311666402529546"
     ],
     "2063313653504565361": [
       "https://x.com/Blum_OG/status/2063313653504565361",
@@ -45946,10 +45943,10 @@
     "2063317667310887383": [
       "https://x.com/creatorpascal/status/2063317667310887383",
       "http://x.com/i/article/2053482765333540868",
-      "https://x.com/creatorpascal/status/2063591697813049727",
-      "https://x.com/creatorpascal/status/2063591992097935759",
-      "https://x.com/creatorpascal/status/2063591812531380459",
       "https://x.com/creatorpascal/status/2063591743392514345",
+      "https://x.com/creatorpascal/status/2063591812531380459",
+      "https://x.com/creatorpascal/status/2063591992097935759",
+      "https://x.com/creatorpascal/status/2063591697813049727",
       "https://x.com/creatorpascal/status/2063591930353656304",
       "https://x.com/creatorpascal/status/2063609563891331327",
       "http://x.com/i/article/2053484058299015168"
@@ -45974,8 +45971,8 @@
       "https://x.com/rileywestreel/status/2063351669551677564",
       "https://x.com/rileywestreel/status/2063379584662307173",
       "https://x.com/rileywestreel/status/2063349751756497029",
-      "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063337222997209550",
+      "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063360814132736079"
     ],
     "2063336153630011728": [
@@ -45988,7 +45985,8 @@
     ],
     "2063344171579002881": [
       "https://x.com/Voxyz_ai/status/2063344171579002881",
-      "https://x.com/Voxyz_ai/status/2063383877884747841"
+      "https://x.com/Voxyz_ai/status/2063652237155455036",
+      "http://x.com/i/article/2063607154246836225"
     ],
     "2063346284149235876": [
       "https://x.com/tonysimons_/status/2063346284149235876",
@@ -46003,13 +46001,13 @@
       "https://x.com/skeptrune/status/2063371983300300886",
       "https://declank.skeptrune.com/",
       "https://x.com/skeptrune/status/2063468260843266158",
-      "https://x.com/skeptrune/status/2063470639898583043",
       "https://x.com/skeptrune/status/2063388820029206635",
-      "https://x.com/skeptrune/status/2063508465079963843",
+      "https://x.com/skeptrune/status/2063470639898583043",
       "https://x.com/skeptrune/status/2063381282353303714",
+      "https://x.com/skeptrune/status/2063508465079963843",
       "https://x.com/skeptrune/status/2063469480135856360",
-      "https://x.com/skeptrune/status/2063469620649132174",
       "https://x.com/skeptrune/status/2063469803067912408",
+      "https://x.com/skeptrune/status/2063469620649132174",
       "https://x.com/skeptrune/status/2063375588438806970",
       "https://x.com/skeptrune/status/2063469898437963904",
       "https://x.com/skeptrune/status/2063508595799646589",
@@ -46030,8 +46028,8 @@
       "https://x.com/hezhiyan7/status/2063424625649094743",
       "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063492579824734436",
-      "https://x.com/hezhiyan7/status/2063433856083227071",
       "https://x.com/hezhiyan7/status/2063499575416209799",
+      "https://x.com/hezhiyan7/status/2063433856083227071",
       "https://x.com/hezhiyan7/status/2063607088606245216",
       "https://x.com/hezhiyan7/status/2063523802844418307",
       "https://x.com/hezhiyan7/status/2063491891455508605"
@@ -46051,6 +46049,6 @@
       "https://x.com/_avichawla/status/2063588308580704642"
     ]
   },
-  "updated_at": "2026-06-07T16:44:40Z",
+  "updated_at": "2026-06-07T18:19:54Z",
   "window": "recent"
 }
