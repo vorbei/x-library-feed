@@ -108,6 +108,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "the hard part of multi-agent systems isn't building agents\n\nit's knowing which agent in a 20-step chain actually helped\n\nif you only get a result at the very end\n\nthere's no obvious way to trace back who deserved credit\n\nEOM from Harvard solves this with one rule:\n> when agent B takes over from agent A, B pays A from its wallet\n> if B's move sets things up so that agent C is willing to pay a lot - B profits too\n\nagents get rewarded for setting up good next steps\n\nnot just for finishing the task themselves\n\nthe result on accelerator design:\n> the system discovered a useful design pattern on its own\n> no template, no instructions - just payment rules and trial and error\n\nthe lesson:\n> if your pipeline only produces a result at the end of a long chain,\n> the bottleneck is usually \"who gets credit for what\", not the prompts\n\na market-based training loop can figure out the right agent sequence\n\nthat you'd otherwise have to design by hand",
+      "text_zh": "多智能体系统的难点不在于构建智能体\n\n而在于：在一个20步的链条中，你根本不知道哪个智能体真正起了作用\n\n如果你只在最后一步得到结果\n\n就无法追溯功劳该归谁\n\n哈佛大学的EOM方法用一个规则解决了这个问题：\n> 当智能体B从智能体A接手时，B需要从自己的钱包向A支付费用\n> 如果B的动作为智能体C愿意支付高价创造了条件——B也能从中获利\n\n智能体因成功铺垫下一步而获得奖励\n\n而不仅仅是因为自己完成了任务\n\n在加速器设计上的结果：\n> 系统自主发现了一个有用的设计模式\n> 没有模板，没有指令——只有支付规则和试错\n\n启示：\n> 如果你的流水线只在长链条的末端产生结果，\n> 瓶颈通常在于\"功劳归属\"，而非提示词本身\n\n基于市场的训练循环能够自动找出正确的智能体序列\n\n而这一序列原本需要你手动设计",
+      "text_zh_hash": "7fa6a9b69797043b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Blum_OG/status/2063313653504565361"
     },
     {
@@ -162,6 +165,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Jensen Huang, CEO of Nvidia:\n\n\"Every engineer is going to have and manage hundreds of agents.\"\n\nThe most valuable engineering skill of 2026 is not taught in any university.\n\nNo CS program teaches harness engineering.\nNo bootcamp teaches agent memory architecture.\nNo degree prepares you to build systems that survive production.\n\nOne builder mapped the entire thing out — free, step by step, no degree required.\n\nThis is the roadmap ↓\n\nBookmark this for the weekend.",
+      "text_zh": "英伟达CEO黄仁勋：\n\n\"每位工程师都将拥有并管理数百个智能体。\"\n\n2026年最具价值的工程技能，没有任何大学会教授。\n\n没有计算机科学课程教授\"工具链工程\"。\n没有编程训练营教授\"智能体记忆架构\"。\n没有学位能让你为构建经得起生产环境考验的系统做好准备。\n\n一位实践者已完整梳理出这一切——免费、循序渐进、无需学位。\n\n这就是路线图 ↓\n\n收藏起来，周末细读。",
+      "text_zh_hash": "8e98d95549080f37",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sairahul1/status/2062810319920209933"
     },
     {
@@ -216,6 +222,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "your polymarket research doesn't scale because you don't scale\n\n  > market #1 gets your full focus. market #20 gets whatever's left\n  > tired, rushed, or annoyed changes how you read a rulebook\n  > the pipeline runs the same seven agents on the first market and the fiftieth\n  > no fatigue, no boredom, no \"good enough, it's late\"\n\nthe bottleneck was never your skill. it was being one person with one day",
+      "text_zh": "你的 Polymarket 研究无法规模化，因为你自己无法规模化\n\n> 市场 #1 获得你的全部注意力。市场 #20 只能得到剩下的残渣  \n> 疲惫、匆忙或烦躁会改变你阅读规则手册的方式  \n> 流水线对第一个市场和第五十个市场运行同样的七个代理  \n> 没有疲劳，没有厌倦，没有“够好了，已经很晚了”\n\n瓶颈从来不是你的技能。而是你只有一个人，只有一天的时间。",
+      "text_zh_hash": "2f068c89ea534535",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/s1rozha_/status/2063237805606609059"
     },
     {
@@ -271,6 +280,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic engineer:\n\n\"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nthis is one of the best workflows I've seen in a long time\n\nin this video he breaks down exactly how most people are using Claude:\n\n- the 14% you lose to CLAUDE.md before typing a word\n- the plugins that 95% of users have never installed\n- the caching setup that keeps it at 95% hit rate and almost free\n- why starting every chat from zero is the slowest way to use Claude\n\nif you've been using Claude for more than a month and never left the chat window, you've been using one project when you could be running a team of them\n\ninstead of another show tonight, watch this\n\nmake sure to bookmark it before it gets lost in your feed\n\nfull guide in the article below",
+      "text_zh": "Anthropic 工程师：\n\n“你不应该去提示 Claude。你应该构建一个能自我提示的系统。”\n\n这是我很久以来见过的最佳工作流之一\n\n在这个视频中，他详细拆解了大多数人使用 Claude 的方式：\n\n- 在你输入任何内容之前，就有 14% 的 token 消耗在 CLAUDE.md 上\n- 95% 的用户从未安装过的插件\n- 能将缓存命中率保持在 95% 且几乎免费的缓存设置\n- 为什么每次从零开始对话是使用 Claude 最慢的方式\n\n如果你使用 Claude 超过一个月却从未离开过聊天窗口，那你本可以运行一整个团队，却只用了一个项目\n\n今晚别再看另一场秀了，看看这个\n\n记得收藏，以免它从你的信息流中消失\n\n完整指南见下方文章",
+      "text_zh_hash": "ec22f92dc1c17aa8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/eng_khairallah1/status/2063272524927103459"
     },
     {
@@ -325,6 +337,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic CFO:\n\n\"Right now within the company, 90% of our code is written by Claude Code.\n\nIf we told our team they couldn't use our models, it would save us billions in revenue.\"\n\nin 1-hour podcast, Anthropic's CFO reveals how they use Claude Code internally to build a trillion company.\n\nWatch it today. Worth more than a $500 vibe-coding course",
+      "text_zh": "Anthropic CFO：\n\n“目前在公司内部，90% 的代码是由 Claude Code 编写的。\n\n如果我们告诉团队不能使用我们的模型，那将让我们损失数十亿美元的收入。”\n\n在一小时的播客中，Anthropic 的 CFO 透露了他们如何内部使用 Claude Code 来打造一家万亿级公司。\n\n今天就观看。价值远超 500 美元的 vibe-coding 课程。",
+      "text_zh_hash": "6cdbb3938c9f52dc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xCodez/status/2063234274254364908"
     },
     {
@@ -382,6 +397,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "🚨 The coaching industry just got completely disrupted.\nOne developer poured 22,000 hours into building a full Personal AI Operating System on top of Claude Code.\nNow anyone with a terminal can install it for free.\nIt remembers your goals, every decision you’ve ever made, and even prepares your morning briefing while you sleep. The numbers are next-level:\n→  22,000 dev hours\n→  6,000 sessions logged\n→  2–3 hours saved every single day\n→  12,100 GitHub stars\n→  45 skills built in\n→  171 workflows wired up\n→  37 safety hooks\n→  $0 to install\n\nThe tech is refreshingly simple:\n\nNo embeddings. No vector databases. Just plain Markdown files you can read with cat, search with ripgrep, and version with Git.\n\n→ It compounds 4 memory layers over time:\n→ Work memory (active projects & open decisions)\n→ Knowledge memory (expertise & research)\n→ People memory (contacts, companies, relationships)\n\nEvery complex task runs through a clean 7-step cycle:\n\nOBSERVE → THINK → PLAN → BUILD → EXECUTE → VERIFY → LEARN\n\nPrivacy isn’t a prompt — it’s enforced by code. The Containment Guard physically blocks sensitive data from leaving its designated zones.\n\nFreelancers are already charging $500–$2,000 to install this for executives and founders in a single weekend. \n\nEvery $30/ month AI productivity app you pay for? This one open-source repo can replace it after ~4 hours of setup.\n\n100% OPEN SOURCE • FREEF\n https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "text_zh": "🚨 教练行业刚刚被彻底颠覆了。\n\n一位开发者投入了 22,000 小时，在 Claude Code 之上构建了一个完整的个人 AI 操作系统。\n\n现在，任何拥有终端的人都可以免费安装它。\n\n它能记住你的目标、你做出的每一个决定，甚至在你睡觉时为你准备晨间简报。数据令人惊叹：\n\n→ 22,000 开发小时\n→ 6,000 次会话记录\n→ 每天节省 2–3 小时\n→ 12,100 GitHub 星标\n→ 内置 45 项技能\n→ 连接 171 个工作流\n→ 37 个安全钩子\n→ 安装费用 $0\n\n技术方案出奇地简洁：\n\n无需嵌入。无需向量数据库。只需纯 Markdown 文件——你可以用 cat 读取，用 ripgrep 搜索，用 Git 进行版本控制。\n\n→ 它随时间累积 4 层记忆：\n→ 工作记忆（活跃项目与待定决策）\n→ 知识记忆（专业知识与研究）\n→ 人际记忆（联系人、公司、关系）\n\n每个复杂任务都经过清晰的 7 步循环：\n\n观察 → 思考 → 规划 → 构建 → 执行 → 验证 → 学习\n\n隐私不是一句提示——而是由代码强制执行的。隔离守卫会物理阻止敏感数据离开其指定区域。\n\n自由职业者已经向高管和创始人收取 500–2000 美元，在一个周末内完成安装。\n\n你每月支付 30 美元的 AI 生产力应用？这个开源仓库经过约 4 小时的设置后，就能替代它们。\n\n100% 开源 • 免费\nhttps://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "text_zh_hash": "c24e3090e5edc2d1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/HarrisDecodes/status/2063305978905268322"
     },
     {
@@ -477,6 +495,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI is making something painfully obvious:\n\nA lot of agencies don't have a production problem. They have a coordination problem.\n\nThe old model was built around production being expensive.\n\nToday, the slowest part of the process is often the handoff.\n\nThe agencies getting the most leverage from AI seem to have one thing in common: fewer layers between the work and the decision.\n\nHere's how we're thinking about this:",
+      "text_zh": "AI正在揭示一个令人痛苦的事实：\n\n许多代理机构的问题不在于生产环节，而在于协调环节。\n\n旧模式建立在\"生产昂贵\"这一前提之上。\n\n如今，流程中最慢的部分往往是交接环节。\n\n那些从AI中获得最大杠杆效应的代理机构似乎有一个共同点：工作与决策之间的层级更少。\n\n以下是我们对此的思考：",
+      "text_zh_hash": "5e35127b4019636c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ericosiu/status/2063277986074243404"
     },
     {
@@ -531,6 +552,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A senior researcher at Anthropic:\n\n\"Stop writing few-shot examples. They cripple a model smart enough to reason on its own.\"\n\nIn one 30-min talk they distilled all of agent prompting to one principle — think like your agent: if a human can't act on your tool descriptions, neither can the model.\n\nMost people over-engineer the prompt and under-engineer the tools.\n\nWatch the Anthropic talk today, then read the breakdown below to build your own agent.\n\nWorth more than a $2,000 agents course.",
+      "text_zh": "Anthropic 的一位资深研究员：\n\n“别再写少样本示例了。它们会限制一个本可以自主推理的模型。”\n\n在一场 30 分钟的演讲中，他们将智能体提示工程归结为一个原则——像你的智能体一样思考：如果人类无法根据你的工具描述采取行动，那么模型也无法做到。\n\n大多数人过度设计提示，却对工具设计不足。\n\n今天观看 Anthropic 的演讲，然后阅读下面的解析，来构建你自己的智能体。\n\n这比价值 2000 美元的智能体课程更有价值。",
+      "text_zh_hash": "8e11b52de2e3466a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rileywestreel/status/2063333708455645425"
     },
     {
@@ -656,6 +680,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The Skills ecosystem is growing fast , http://aitmpl.com alone has crossed 1M downloads with hundreds of Skills submitted every month\n\nAt that scale, automated security scanning on every PR stops being optional. \n\nSkillSpector (@NVIDIAAI) does that, static analysis, 64 patterns, risk score 0–100, blocks at 50\n\nFull writeup on how it works and how to integrate it 👇",
+      "text_zh": "Skills 生态系统正在快速发展，仅 http://aitmpl.com 一个平台就突破了 100 万次下载，每月新增数百个 Skills。\n\n在这种规模下，对每个 PR 进行自动化安全扫描已不再是可选项。\n\nSkillSpector（@NVIDIAAI）正是为此而生——它提供静态分析、64 种检测模式、0–100 的风险评分，并在 50 分时自动拦截。\n\n完整的技术原理与集成方法如下 👇",
+      "text_zh_hash": "7b3f67acf75f39cc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dani_avila7/status/2063338558346105095"
     },
     {
@@ -697,6 +724,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "i built an app that removes ai image watermarks\nhttps://declank.skeptrune.com/",
+      "text_zh": "我开发了一个去除AI图片水印的应用\nhttps://declank.skeptrune.com/",
+      "text_zh_hash": "a0969fb0e89926aa",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/skeptrune/status/2063371983300300886"
     },
     {
@@ -738,6 +768,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "tools go stale. here's how they evolve instead.\n\nworkflows change. models change. your standards change. rules you write today might be wrong in three weeks. so every tool needs a patch loop.\n\ndidn't trigger when it should have → fix the trigger\ntriggered when it shouldn't → narrow the scope\nused outdated info → update the source of truth\nsame mistake keeps happening → add a failure mode\nyou keep editing the same thing by hand → turn that edit into a rule\nhasn't been used in a while → archive it\n\nthe return on tooling comes from compounding. compounding comes from updating.",
+      "text_zh": "工具会过时。以下是它们如何进化的。\n\n工作流会变。模型会变。你的标准也会变。今天写的规则，三周后可能就错了。所以每个工具都需要一个修补循环。\n\n该触发时没触发 → 修复触发条件  \n不该触发时触发了 → 缩小范围  \n使用了过时信息 → 更新事实来源  \n同样的错误反复出现 → 添加故障模式  \n你总在手动编辑同一件事 → 把那次编辑变成一条规则  \n很久没用过了 → 归档它  \n\n工具化的回报来自复利。复利来自持续更新。",
+      "text_zh_hash": "2c8b2dc0d64a9bbf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Voxyz_ai/status/2063344171579002881"
     },
     {
@@ -875,6 +908,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "FOUNDERS 🚨\n\n8 weeks from now you could have a personal AI analyst running your morning brief. \n\nHere's your roadmap:\n\n(Save to track progress) https://t.co/4sAkpRepCh",
+      "text_zh": "创始人 🚨\n\n从现在起8周后，你就能拥有一个为你运行晨间简报的个人AI分析师。\n\n以下是你的路线图：\n\n（保存以跟踪进度）https://t.co/4sAkpRepCh",
+      "text_zh_hash": "c890c3862b1e805f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mogulinfluence/status/2063276021881729037"
     },
     {
@@ -1014,6 +1050,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Garry Tan (CEO of Y-Combinator):  \"when someone asks how I 'prompt' my AI,  the answer is: I don't. the skills are the prompts.\"  \n\n[if I had this weekend to master skills and how to use them to automate workflows:]  \n\n→ read the Skillify 11-item checklist (SKILL.md in gbrain) \n→ watch Murag + Barry Zhang: \"Don't Build Agents. Build Skills Instead.\" \n→ Read \"Designing, Refining, and Maintaining Agent Skills at Perplexity\" \n→ do one workflow. type /skillify. watch it become permanent.  that's the whole day.  \n\nhere is how to set it up:  \n1. clone GBrain (his open-source second brain, Postgres-backed memory + 30 skills)  \n2. add GStack (23 battle-tested slash-command skills, drops right in)  \n3. do anything once → type /skillify → it's a skill forever  \n\nprompting is dead. skillifying is next.",
+      "text_zh": "Garry Tan（Y-Combinator 首席执行官）：“当有人问我如何‘提示’我的 AI 时，答案是：我不提示。技能本身就是提示。”\n\n[如果这个周末我要掌握技能并学会如何用它们自动化工作流程：]\n\n→ 阅读 Skillify 11 项清单（gbrain 中的 SKILL.md）\n→ 观看 Murag + Barry Zhang 的演讲：“别构建智能体，去构建技能。”\n→ 阅读《在 Perplexity 设计、优化与维护智能体技能》\n→ 完成一个工作流程。输入 /skillify。看着它变成永久技能。这就是一整天的工作。\n\n以下是设置方法：\n1. 克隆 GBrain（他的开源第二大脑，基于 Postgres 的记忆系统 + 30 项技能）\n2. 添加 GStack（23 个经过实战检验的斜杠命令技能，可直接嵌入）\n3. 做任何事一次 → 输入 /skillify → 它就永远成为一项技能\n\n提示已死。技能化是下一个时代。",
+      "text_zh_hash": "bebe4cc0467b1a1c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Av1dlive/status/2063314381203738690"
     },
     {
@@ -1055,6 +1094,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Matt just dropped absolute gold 👑. \n\nHuge unlock below:",
+      "text_zh": "Matt 刚刚发布了绝对的金矿 👑。\n\n以下是重大突破：",
+      "text_zh_hash": "5e9ab1bf8be45867",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/cathrynlavery/status/2063297251951194219"
     },
     {
@@ -1096,6 +1138,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "imo there’s a pretty solid default recipe that everyone should use to optimize a system of\nAgent = Model + Harness \n\nyou should “train” both \n\n1. Build v1 agent using a sensible base harness and some task specific prompting + tools\n\n2. Harness Engineering using eval tasks that roughly match prod\n\nthis is often enough - most companies can get acceptable perf doing this.  then they collect traces, mine them for patterns, and make slight tweaks from there\n\n3. SFT using data collected from traces) or synthetic data.  Often is good candidate for “distillation tasks” to train a cheaper model while maintaining existing performance\n\n4. RL if you have the bandwidth and ability and desire to create environments and designing rewards that represents the tasks you want your agent to be good at.  Push past the SFT behavior of “copying” data from existing model to pushing past in some dimension\n\n5. Light harness engineering again to squeeze any more juice (ex: slight prompting) using the trained model that’s better at your task distribution\n\nthis loop will largely be productized as a general purpose recipe for building and improving agents\n\nwe’re still in the earliest innings of the world’s companies getting comfortable with steps 1-2 of this loop.  Harness engineering will probably be the dominant way ppl will optimize agents\n\nbut i expect a large number of companies to onboard through this entire loop on some trial project of interest in the next year",
+      "text_zh": "我认为存在一套相当可靠的默认方案，所有人都应遵循这套方案来优化系统：\n\n**智能体 = 模型 + 工具框架**\n\n你应该对两者进行\"训练\"：\n\n1. **构建 v1 智能体**：使用合理的基础工具框架，配合特定任务的提示词和工具集\n\n2. **工具框架工程**：利用与生产环境大致匹配的评估任务进行优化\n\n这一步通常就足够了——大多数公司通过此方法即可获得可接受的性能。随后收集追踪数据，挖掘模式，并据此进行微调\n\n3. **监督微调**：使用追踪数据或合成数据进行训练。这通常是\"蒸馏任务\"的理想选择——用更便宜的模型保持现有性能\n\n4. **强化学习**：如果你有带宽、能力和意愿，可以创建环境并设计能代表目标任务的奖励函数。突破监督微调阶段\"复制\"现有模型行为的局限，在某些维度实现超越\n\n5. **轻量工具框架工程**：利用已针对任务分布优化过的训练模型，进一步榨取性能（例如微调提示词）\n\n这个循环将逐步产品化为构建和优化智能体的通用方案\n\n目前全球企业仍处于适应这套循环第1-2步的最早期阶段。工具框架工程很可能是人们优化智能体的主要方式\n\n但我预计，未来一年内将有大量企业通过某个试点项目，完整走完这套循环",
+      "text_zh_hash": "260e5e67fd2e0e6f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Vtrivedy10/status/2063429138304668093"
     },
     {
@@ -1137,6 +1182,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Human -> Personal agent -> Codex / Claude Code.\" Can't agree more. Personal agent will be the next operating system.\n\nThe reason why we need a personal agent in parallel with Codex / Claude Code is that coding agents are single threaded. They are designed to work on a specific task. True async multiplexing needs an orchestrator. Currently we are acting as the orchestrator ourselves, using tabs to multiplex coding agents. The next step would be a personal agent like @huangzesen1 has built, with all the context of the user and orchestrate all tasks of the user.",
+      "text_zh": "\"人类 → 个人代理 → Codex / Claude Code。\" 完全赞同。个人代理将成为下一代操作系统。\n\n我们需要与 Codex / Claude Code 并行的个人代理，原因在于编码代理是单线程的——它们被设计用于处理特定任务。真正的异步多路复用需要一个编排器。目前，我们自己充当编排器，通过标签页来多路复用编码代理。下一步将是一个像 @huangzesen1 构建的个人代理，它拥有用户的所有上下文，并编排用户的所有任务。",
+      "text_zh_hash": "06d125fefc3a9cbb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bojie_li/status/2063237796060610700"
     },
     {
@@ -1178,6 +1226,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I cannot recommend this article enough.\n\nOriginally turned onto it by @tibor_tee \n\nThose of you with skills, have been in the professional world for a while, deeply learning AI.\n\nIt honestly echos a lot of @KenColeman Proximity principle (which changed my life almost 7 years ago when I read it)\n\nYou are the network you surround yourself with.\n\nYour next job?\n\nIt’s probably coming from that network you surround yourself with.\n\nSo keep reaching out.\n\nKeep building.\n\nAnd thanks @benln for a great read.",
+      "text_zh": "我强烈推荐这篇文章。\n\n最初是由 @tibor_tee 推荐给我的。\n\n那些有技能、在职场打拼多年、并深入学习AI的朋友们。\n\n说实话，这让我想起了 @KenColeman 的“邻近原则”（大约7年前读到它时，它几乎改变了我的人生）。\n\n你就是你所处的那个圈子。\n\n你的下一份工作？\n\n很可能就来自你身边的那个圈子。\n\n所以，继续主动联系吧。\n\n继续构建。\n\n感谢 @benln 带来这篇精彩的文章。",
+      "text_zh_hash": "d40e0b710b8f6c0c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/traviscurnutte/status/2063311666402529546"
     },
     {
@@ -1233,6 +1284,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I spent 30 minutes a day with one person on my team. Did that 10 to 15 times.\n\nThat person started doing the work of four or five people.\n\nNo micromanagement. No constant check-ins. They just executed without me pushing.\n\nSo I asked myself: why am I not doing this at scale?\n\nThat question led me to build what I'm calling the \"Pod of One apprenticeship\" at Single Grain. \n\nI pick a small group of the most talented, AI-forward operators on my team. I spend real one-on-one time with them. I share my speed, my expectations, my frameworks. Then they go train the next layer of the org.\n\nJedi training, basically. You teach the ones who can teach.\n\nI asked one of the people I trained how impactful it was. He said 9/10. I didn't think much of the time I was putting in. He thought it was massive.\n\nThat gap in perception is the whole point. Founders often underestimate how much signal they carry just by being in the room.\n\nI rolled this out this week and it's already one of the higher leverage things I've done.",
+      "text_zh": "我每天花30分钟与团队中的一个人交流，这样做了10到15次。\n\n这个人开始完成相当于四五个人的工作量。\n\n没有微观管理，没有频繁的进度检查。他们只是在我没有推动的情况下自主执行。\n\n于是我自问：为什么我不把这种做法规模化？\n\n这个问题促使我在Single Grain公司建立了所谓的\"单人学徒制\"。\n\n我挑选团队中最有才华、最擅长运用AI的少数成员，与他们进行真正的一对一交流。分享我的工作速度、期望和框架。然后他们再去培训组织中的下一层成员。\n\n基本上就是绝地武士训练。你教导那些能够教导他人的人。\n\n我曾问一位接受过培训的成员，这种培训的影响力有多大。他说9/10。我对自己投入的时间不以为意，但他却认为意义重大。\n\n这种认知差距正是关键所在。创始人常常低估了自己仅仅在场就能传递多少信号。\n\n我本周推出了这个计划，它已经是我做过的高杠杆率举措之一。",
+      "text_zh_hash": "c8fd77406d603626",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ericosiu/status/2063316993101480353"
     },
     {
@@ -1327,6 +1381,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Claude Code creator:\n\n \"Your company's principles document, the model can use it too. It comes as skills.\"\n\nBoris Cherny built Claude Code at Anthropic. In this interview he gave away the cheapest way to own a model.\n\nYou do not train one. You hand Claude your principles as skills, and it acts like a model tuned to your company, for $0. His org runs on it. New hires ramp in 2 days, not weeks. Ask how to query the database and the answer is: there's a skill, it knows.\n\n3 tiers to your own LLM: from scratch (millions), fine-tune (1 night, $16), or skills on Claude (free, tonight).\n\nMost people reach for tier 1. Boris ships on tier 3.\n\nFull breakdown in the article below.",
+      "text_zh": "Claude Code 创造者：\n\n\"你们公司的原则文档，模型也能用。它会以技能的形式呈现。\"\n\nBoris Cherny 在 Anthropic 构建了 Claude Code。在这次访谈中，他透露了拥有一个模型最便宜的方式。\n\n你不需要训练模型。你只需将你的原则作为技能交给 Claude，它就会像一个为你公司量身定制的模型一样运作，成本为零。他的团队就在这样运作。新员工两天内就能上手，而不是几周。想知道如何查询数据库？答案是：有个技能，它知道。\n\n拥有自己的 LLM 有三个层级：从零开始（数百万美元）、微调（一晚，16 美元）、或在 Claude 上使用技能（免费，今晚就能搞定）。\n\n大多数人会选择第一层级。Boris 在第三层级上交付产品。\n\n完整解析见下方文章。",
+      "text_zh_hash": "f3b9bb44a975f8de",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xMoysei/status/2063376019462172894"
     },
     {
@@ -1408,6 +1465,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "😶‍🌫️Hermes Dreaming v0.4.0 is live.\n\nThis is the “trust loop” release.\n\n⚕️ Revert bad applies.\n⚕️ Dry-run before touching live files.\n⚕️ Selectively apply by priority or target.\n⚕️ Stage from real Hermes sessions in one command, redacted.\n\nRun hermes-dreaming update now! 🤘",
+      "text_zh": "😶‍🌫️Hermes Dreaming v0.4.0 已上线。\n\n这是“信任循环”版本。\n\n⚕️ 回滚错误的应用。\n⚕️ 在触及实际文件前进行预演。\n⚕️ 按优先级或目标选择性应用。\n⚕️ 从真实的 Hermes 会话中一键暂存（已脱敏处理）。\n\n立即运行 hermes-dreaming update！🤘",
+      "text_zh_hash": "9ad93761f897ca0d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/tonysimons_/status/2063346284149235876"
     },
     {
@@ -1448,6 +1508,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Some weekend thoughts of recent mob behaviors. https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "text_zh": "关于近期群体行为的一些周末思考。https://lucr.pocoo.org/2026/6/6/communities-of-not/",
+      "text_zh_hash": "2572cfffae2e2a28",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mitsuhiko/status/2063280970233496036"
     },
     {
@@ -1532,6 +1595,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "if you're a PM who keeps booking 1:1s to get clarity on what your exec meant, you're solving it backward.\n\ninformation was never meant to flow down to you. you're the compression layer.",
+      "text_zh": "如果你是一个PM，总是通过预约一对一会议来搞清楚高管到底想表达什么，那你的解决思路就反了。\n\n信息从来就不是自上而下流向你的。你才是那个压缩层。",
+      "text_zh_hash": "61890388f9ddba81",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nurijanian/status/2063303909280805093"
     },
     {
@@ -1617,6 +1683,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A must read\n\nhttps://www.0xkato.xyz/how-llms-actually-work/",
+      "text_zh": "必读\n\nhttps://www.0xkato.xyz/how-llms-actually-work/",
+      "text_zh_hash": "eb4c22a43cd4e0e3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nisedo_/status/2063265397361586451"
     },
     {
@@ -1712,6 +1781,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic engineer James Brady: \n\n\"Every agent in production lies. We measured it. The good ones lie less, the great ones catch the lie before the user does.\"\n\nIn 29 minutes, he walks through the verification stack he built and the patterns the Claude Code team adopted to keep agents honest at scale.\n\nWatch the full talk, then save the config below👇",
+      "text_zh": "Anthropic 工程师 James Brady：\n\n\"生产环境中的每个智能体都会说谎。我们测量过。好的智能体说得少，优秀的智能体能在用户发现之前就抓住谎言。\"\n\n在29分钟内，他介绍了自己构建的验证栈，以及Claude Code团队为在大规模场景下保持智能体诚实而采用的模式。\n\n观看完整演讲，然后保存下方配置👇",
+      "text_zh_hash": "050e320a3c33612c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0x_rody/status/2063318596202242171"
     },
     {

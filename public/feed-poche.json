@@ -43,6 +43,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "---\n\n  \n---\n\n**About this page**  \n  \nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. [Why did this happen?](#)  \n  \nThis page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the [Terms of Service](https://www.youtube.com/watch?v=kPqH3ZSbVjo//www.google.com/policies/terms/). The block will expire shortly after those requests stop. In the meantime, solving the above CAPTCHA will let you continue to use our services.  \n  \nThis traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests. If you share your network connection, ask your administrator for help — a different computer using the same IP address may be responsible. [Learn more](https://www.youtube.com/watch?v=kPqH3ZSbVjo//support.google.com/websearch/answer/86640)  \n  \nSometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.\n\n  \nIP address: 104.28.161.215  \nTime: 2026-06-07T05:11:53Z  \nURL: https://www.youtube.com/watch?v=kPqH3ZSbVjo",
+      "article_text_zh": "---\n\n**关于此页面**\n\n我们的系统检测到来自您计算机网络的异常流量。此页面用于验证请求确实由您本人发出，而非机器人。[为什么会发生这种情况？](#)\n\n当 Google 自动检测到来自您计算机网络的请求似乎违反了[服务条款](https://www.youtube.com/watch?v=kPqH3ZSbVjo//www.google.com/policies/terms/)时，会显示此页面。在这些请求停止后，阻止将很快解除。在此期间，解决上述 CAPTCHA 验证码将使您能够继续使用我们的服务。\n\n此流量可能由恶意软件、浏览器插件或发送自动请求的脚本导致。如果您共享网络连接，请向管理员寻求帮助——同一 IP 地址下的其他计算机可能是原因所在。[了解更多](https://www.youtube.com/watch?v=kPqH3ZSbVjo//support.google.com/websearch/answer/86640)\n\n有时，如果您使用了机器人常用的高级词汇，或发送请求的速度过快，您可能会被要求解决 CAPTCHA 验证码。\n\nIP 地址：104.28.161.215  \n时间：2026-06-07T05:11:53Z  \nURL：https://www.youtube.com/watch?v=kPqH3ZSbVjo",
+      "article_text_zh_hash": "ba458bb6c514ac25",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -70,6 +73,9 @@
         }
       ],
       "title": "Lessons from Figma, Software Decay, & the Creation of the Inter Font | Playbit’s Rasmus Andersson",
+      "title_zh": "来自Figma的教训、软件衰退与Inter字体的诞生 | Playbit的Rasmus Andersson",
+      "title_zh_hash": "fa81f2a0842f6193",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=kPqH3ZSbVjo",
       "x_status_id": null
     },
@@ -94,6 +100,9 @@
       "category": "Tools",
       "created_at": "2026-06-07T03:40:32.077337Z",
       "description": "Photo and video enhancement software powered by deep learning gets you the best image quality available for noise reduction, sharpening, upscaling, and more.",
+      "description_zh": "由深度学习驱动的照片和视频增强软件，可为您提供降噪、锐化、放大等方面的最佳图像质量。",
+      "description_zh_hash": "ab18b8567b85718b",
+      "description_zh_translator_v": 2,
       "domain": "www.topazlabs.com",
       "embed_type": "",
       "id": "k17ehes4rc8j3q6cg230p89dvh886p19",
@@ -116,6 +125,9 @@
         }
       ],
       "title": "Professional photo & video enhancement powered by AI | Topaz Labs",
+      "title_zh": "专业照片与视频AI增强工具 | Topaz Labs",
+      "title_zh_hash": "7cdecf4efc94c01e",
+      "title_zh_translator_v": 2,
       "url": "https://www.topazlabs.com/",
       "x_status_id": null
     },
@@ -123,6 +135,9 @@
       "category": "Design",
       "created_at": "2026-06-07T04:00:45.485315Z",
       "description": "Each themed edition of BranD showcases brand work and design. An excellent reference publication for anyone working in commercial or brand-based design, as well as those working in graphic design more generally. Plus, it often features innovative print finishing techniques. \"This issue explores the theme “Exhalation an",
+      "description_zh": "《BranD》每一期主题版都聚焦品牌作品与设计。对于从事商业或品牌设计的人士，乃至更广泛的平面设计从业者而言，这是一本极佳的参考刊物。此外，它常展示创新的印刷装帧工艺。“本期以‘呼气’为主题展开探索。",
+      "description_zh_hash": "2767a24be41a99fb",
+      "description_zh_translator_v": 2,
       "domain": "www.counter-print.co.uk",
       "embed_type": "",
       "id": "k17am17mrkhrgsxf3jva0ybvt1887nh5",
@@ -145,6 +160,9 @@
         }
       ],
       "title": "Brand 81\n\n        – Counterprint",
+      "title_zh": "品牌81\n\n– Counterprint",
+      "title_zh_hash": "cfdb09e510d88b92",
+      "title_zh_translator_v": 2,
       "url": "https://www.counter-print.co.uk/products/brand-81",
       "x_status_id": null
     },
