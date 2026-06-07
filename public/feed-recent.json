@@ -6107,6 +6107,20 @@
       "title": "",
       "url": "http://x.com/i/article/2063400453447303168"
     },
+    "http://x.com/i/article/2063585564931117056": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063585564931117056",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063585564931117056/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNULxlXMAAr_F-?format=jpg&name=900x900)](http://x.com/i/article/2063585564931117056/0xMoysei/article/2063589789392109620/media/2063585615531159552)\n\nLearn 5x faster with Claude and actually remember it\n\n[![](https://pbs.twimg.com/profile_images/2057949246687449088/pXfkWgZD_normal.jpg)](http://x.com/i/article/2063585564931117056/0xMoysei)\n\n[Moysei](http://x.com/i/article/2063585564931117056/0xMoysei)\n\n[@0xMoysei](http://x.com/i/article/2063585564931117056/0xMoysei)\n\n·\n\n1h\n\nFollow\n\nClick to Follow 0xMoysei\n\n2\n\n2\n\n6\n\n[144](http://x.com/i/article/2063585564931117056/0xMoysei/status/2063589789392109620/analytics)\n\nThe switch: stop asking, make it ask you. $0 setup, 40% less study time, 2x retention.\n\nA 28-year-old logistics analyst in Warsaw spent four months on a data course. She watched 60 hours of video, highlighted her notes twice, asked ChatGPT to explain every concept she got stuck on. On the certification exam she scored 54%. She knew the material the night before. By the test it was gone.\n\n> Follow my profile for more like this.\n\nShe did one thing differently the second time. She stopped asking the AI to explain things. She made it interrogate her instead. Five weeks later she passed at 89% and still remembers the SQL joins she learned in week one. Same brain, same hours, opposite result.\n\n## \n\n1\\. Why asking for answers makes you forget them\n\n[![Image](https://pbs.twimg.com/media/HKNV_k5XEAAbEY6?format=jpg&name=small)](http://x.com/i/article/2063585564931117056/0xMoysei/article/2063589789392109620/media/2063587604990201856)\n\nReading an answer feels like learning. It isn't. Your brain logs the page as familiar and you mistake that warm recognition for knowledge. Cognitive scientists call it the fluency illusion. Students who reread notes consistently rate themselves higher than students who tested themselves, then score lower on the actual exam.\n\nThe numbers are blunt. Students who test themselves retain about 57% of material a week later. Students who reread retain 29%. Almost double, from the same study time. Karpicke and Roediger proved this in 2008 and it has held up across dozens of replications since.\n\nWhen you ask Claude a question and read its answer, you are the reader who highlights. You feel smart and learn nothing.\n\n## \n\n2\\. The one-line system prompt that flips it\n\n[![Image](https://pbs.twimg.com/media/HKNWCcpXcAA4WDy?format=jpg&name=small)](http://x.com/i/article/2063585564931117056/0xMoysei/article/2063589789392109620/media/2063587654315241472)\n\nOpen Claude. Before you paste any material, paste this:\n\n```text\nYou are my tutor. I will give you material to learn.\nNever explain it to me first. Quiz me on it.\nAsk one question at a time. Wait for my answer.\nIf I'm wrong or vague, tell me, then ask again.\nMake me retrieve before you ever confirm.\n```\n\nNow drop in your lecture transcript, textbook chapter, or PDF. Claude will not summarize it. It will start firing questions and force you to pull answers out of an empty head. That effortful pull is the entire mechanism. It feels worse than reading. That feeling is the learning.\n\n## \n\n3\\. Make it grade your blurting\n\n[![Image](https://pbs.twimg.com/media/HKNWHnDWsAAme_I?format=jpg&name=small)](http://x.com/i/article/2063585564931117056/0xMoysei/article/2063589789392109620/media/2063587743007944704)\n\nThe strongest version of recall is blurting. You read a chapter once, close it, and write everything you remember in raw form. Then you check for gaps.\n\nPaste your blurt into Claude with this:\n\n```text\nHere is everything I remember about [topic], unedited.\nMark what's correct, what's wrong, and what I missed entirely.\nList only my gaps as questions for me to answer now.\n```\n\nA 34-year-old nurse studying for a licensing exam ran this every night for three weeks. Her gap list shrank from 22",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063585564931117056"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -29376,6 +29390,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKJmIoqXoAAUs_y.jpg"
     },
+    "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -45579,15 +45607,15 @@
       "https://pbs.twimg.com/amplify_video_thumb/2062810116483956736/img/f-Rba-s6iFn_CYI1.jpg",
       "https://x.com/sairahul1/status/2063229862861795497",
       "https://x.com/i/status/2063179381711994922",
-      "https://x.com/sairahul1/status/2063508320015794338",
       "https://x.com/sairahul1/status/2062868809804116337",
       "https://x.com/sairahul1/status/2062826750527361210",
-      "https://x.com/sairahul1/status/2063478473805730220",
+      "https://x.com/sairahul1/status/2063508320015794338",
       "https://x.com/sairahul1/status/2062880328419811767",
-      "https://x.com/sairahul1/status/2062912674556748224",
+      "https://x.com/sairahul1/status/2063478473805730220",
       "https://x.com/sairahul1/status/2062899779055780043",
       "https://x.com/sairahul1/status/2062845646374314145",
-      "https://x.com/sairahul1/status/2062820796620550157"
+      "https://x.com/sairahul1/status/2062820796620550157",
+      "https://x.com/sairahul1/status/2062912674556748224"
     ],
     "2062869438404194499": [
       "https://x.com/toddsaunders/status/2062869438404194499",
@@ -45681,9 +45709,9 @@
       "http://x.com/i/article/2062943721902235648",
       "https://x.com/ramxcodes/status/2063162826412396886",
       "https://x.com/ramxcodes/status/2063163900166893909",
+      "https://x.com/ramxcodes/status/2063235824699990156",
       "https://x.com/ramxcodes/status/2063158714425868549",
       "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg",
-      "https://x.com/ramxcodes/status/2063235824699990156",
       "https://x.com/ramxcodes/status/2063161213979328956",
       "https://x.com/ramxcodes/status/2063189057065365645",
       "https://x.com/ramxcodes/status/2063314230431089119",
@@ -45721,18 +45749,18 @@
       "https://x.com/bit2swaz/status/2063242450542710881",
       "http://x.com/i/article/2063189579990257664",
       "https://x.com/bit2swaz/status/2063510883016626469",
+      "https://x.com/bit2swaz/status/2063402063669981570",
+      "https://x.com/bit2swaz/status/2063401897562947986",
       "https://x.com/bit2swaz/status/2063511312957849653",
       "https://x.com/bit2swaz/status/2063511403240345931",
       "https://x.com/bit2swaz/status/2063511374572232888",
-      "https://x.com/bit2swaz/status/2063511467622879487",
-      "https://x.com/bit2swaz/status/2063401897562947986",
-      "https://x.com/bit2swaz/status/2063402063669981570"
+      "https://x.com/bit2swaz/status/2063511467622879487"
     ],
     "2063250695784898573": [
       "https://x.com/xanaxmontanaonx/status/2063250695784898573",
       "http://x.com/i/article/2063242519907840000",
-      "https://x.com/xanaxmontanaonx/status/2063342165032325197",
-      "https://x.com/xanaxmontanaonx/status/2063545743676223794"
+      "https://x.com/xanaxmontanaonx/status/2063545743676223794",
+      "https://x.com/xanaxmontanaonx/status/2063342165032325197"
     ],
     "2063260427619008751": [
       "https://x.com/aashatwt/status/2063260427619008751",
@@ -45751,11 +45779,11 @@
       "https://x.com/eng_khairallah1/status/2063548282912293226",
       "https://x.com/eng_khairallah1/status/2063545603955785778",
       "https://x.com/eng_khairallah1/status/2063272860219809914",
-      "https://x.com/eng_khairallah1/status/2063276208633073841",
       "https://x.com/eng_khairallah1/status/2063279144201564342",
+      "https://x.com/eng_khairallah1/status/2063276208633073841",
       "https://x.com/eng_khairallah1/status/2063273328006328721",
-      "https://x.com/eng_khairallah1/status/2063287389888643332",
       "https://x.com/eng_khairallah1/status/2063278557204517113",
+      "https://x.com/eng_khairallah1/status/2063287389888643332",
       "https://x.com/eng_khairallah1/status/2063276229172597193"
     ],
     "2063276021881729037": [
@@ -45776,7 +45804,8 @@
     ],
     "2063289940310372596": [
       "https://x.com/Voxyz_ai/status/2063289940310372596",
-      "http://x.com/i/article/2063265407838957569"
+      "http://x.com/i/article/2063265407838957569",
+      "https://x.com/Voxyz_ai/status/2063337298867929269"
     ],
     "2063291588932141302": [
       "https://x.com/iamsahaj_xyz/status/2063291588932141302",
@@ -45796,7 +45825,6 @@
       "https://x.com/cathrynlavery/status/2063297251951194219"
     ],
     "2063303909280805093": [
-      "https://x.com/nurijanian/status/2063303909280805093",
       "https://x.com/nurijanian/status/2063473753959678243",
       "http://nurijanian.substack.com",
       "http://prodmgmt.world"
@@ -45809,7 +45837,9 @@
       "https://x.com/HarrisDecodes/status/2063506017514815875"
     ],
     "2063311666402529546": [
-      "https://x.com/traviscurnutte/status/2063311666402529546"
+      "https://x.com/traviscurnutte/status/2063311666402529546",
+      "https://x.com/traviscurnutte/status/2063598569827737628",
+      "https://pbs.twimg.com/media/HKNf9OPW0AA-faP.jpg"
     ],
     "2063313653504565361": [
       "https://x.com/Blum_OG/status/2063313653504565361",
@@ -45825,15 +45855,17 @@
       "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm",
       "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
       "https://x.com/garrytan/status/2053127519872614419",
-      "https://x.com/Av1dlive/status/2063357589027725665",
-      "https://x.com/Av1dlive/status/2063357582119690319",
+      "https://x.com/Av1dlive/status/2063593645404791277",
+      "https://x.com/Av1dlive/status/2063592868581978517?s=20",
       "https://x.com/Av1dlive/status/2063357609680458182",
+      "https://x.com/Av1dlive/status/2063357582119690319",
       "https://x.com/Av1dlive/status/2063357616513024117",
       "https://x.com/Av1dlive/status/2063357575660458199",
       "https://x.com/Av1dlive/status/2063357595864400171",
-      "https://x.com/Av1dlive/status/2063357637228658983",
       "https://x.com/Av1dlive/status/2063318727291191495",
+      "https://x.com/Av1dlive/status/2063357589027725665",
       "https://x.com/Av1dlive/status/2063318811772854380",
+      "https://x.com/Av1dlive/status/2063357637228658983",
       "https://x.com/Av1dlive/status/2063321388799463899",
       "https://x.com/Av1dlive/status/2063318874133827884"
     ],
@@ -45845,7 +45877,12 @@
     ],
     "2063317667310887383": [
       "https://x.com/creatorpascal/status/2063317667310887383",
-      "http://x.com/i/article/2053482765333540868"
+      "http://x.com/i/article/2053482765333540868",
+      "https://x.com/creatorpascal/status/2063591697813049727",
+      "https://x.com/creatorpascal/status/2063591743392514345",
+      "https://x.com/creatorpascal/status/2063591812531380459",
+      "https://x.com/creatorpascal/status/2063591992097935759",
+      "https://x.com/creatorpascal/status/2063591930353656304"
     ],
     "2063318596202242171": [
       "https://x.com/0x_rody/status/2063318596202242171",
@@ -45865,10 +45902,10 @@
       "https://x.com/rileywestreel/status/2063360517805146118",
       "https://x.com/rileywestreel/status/2063350017918689557",
       "https://x.com/rileywestreel/status/2063351669551677564",
-      "https://x.com/rileywestreel/status/2063379584662307173",
       "https://x.com/rileywestreel/status/2063349751756497029",
       "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063337222997209550",
+      "https://x.com/rileywestreel/status/2063379584662307173",
       "https://x.com/rileywestreel/status/2063360814132736079"
     ],
     "2063336153630011728": [
@@ -45896,11 +45933,11 @@
       "https://x.com/skeptrune/status/2063371983300300886",
       "https://declank.skeptrune.com/",
       "https://x.com/skeptrune/status/2063468260843266158",
+      "https://x.com/skeptrune/status/2063470639898583043",
       "https://x.com/skeptrune/status/2063388820029206635",
       "https://x.com/skeptrune/status/2063381282353303714",
-      "https://x.com/skeptrune/status/2063470639898583043",
-      "https://x.com/skeptrune/status/2063508465079963843",
       "https://x.com/skeptrune/status/2063469480135856360",
+      "https://x.com/skeptrune/status/2063508465079963843",
       "https://x.com/skeptrune/status/2063469803067912408",
       "https://x.com/skeptrune/status/2063469620649132174",
       "https://x.com/skeptrune/status/2063375588438806970",
@@ -45911,7 +45948,9 @@
     "2063376019462172894": [
       "https://x.com/0xMoysei/status/2063376019462172894",
       "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg",
-      "https://x.com/0xMoysei/status/2063377640661139755"
+      "https://x.com/0xMoysei/status/2063377640661139755",
+      "https://x.com/0xMoysei/status/2063589789392109620",
+      "http://x.com/i/article/2063585564931117056"
     ],
     "2063386291606012208": [
       "https://x.com/freddiexpott/status/2063386291606012208",
@@ -45920,18 +45959,18 @@
     "2063400736223043728": [
       "https://x.com/hezhiyan7/status/2063400736223043728",
       "http://x.com/i/article/2063400453447303168",
-      "https://x.com/hezhiyan7/status/2063424625649094743",
       "https://x.com/hezhiyan7/status/2063461291138978260",
-      "https://x.com/hezhiyan7/status/2063499575416209799",
+      "https://x.com/hezhiyan7/status/2063424625649094743",
       "https://x.com/hezhiyan7/status/2063492579824734436",
-      "https://x.com/hezhiyan7/status/2063491891455508605",
+      "https://x.com/hezhiyan7/status/2063499575416209799",
       "https://x.com/hezhiyan7/status/2063433856083227071",
+      "https://x.com/hezhiyan7/status/2063491891455508605",
       "https://x.com/hezhiyan7/status/2063523802844418307"
     ],
     "2063429138304668093": [
       "https://x.com/Vtrivedy10/status/2063429138304668093"
     ]
   },
-  "updated_at": "2026-06-07T11:16:39Z",
+  "updated_at": "2026-06-07T12:52:31Z",
   "window": "recent"
 }
