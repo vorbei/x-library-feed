@@ -1402,6 +1402,28 @@
       "title": "Subscribe | The AI Solopreneur",
       "url": "http://aisolo.beehiiv.com/subscribe"
     },
+    "http://aitmpl.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Browse and install 1000+ pre-built components for Claude Code. AI agents, slash commands, MCP integrations, hooks, and settings. Free, open-source CLI tool.",
+      "final_url": "https://aitmpl.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.aitmpl.com/logo.png",
+        "https://aitmpl.com/logo.png",
+        "https://avatars.githubusercontent.com/u/213028976?v=4",
+        "https://aitmpl.com/tinyfish-logo.png",
+        "https://docs.claudekit.cc/logo-horizontal.png",
+        "https://aitmpl.com/braingrid-logo.png",
+        "https://cdn.simpleicons.org/vercel/currentColor",
+        "https://neon.tech/favicon/favicon.svg",
+        "https://cdn.simpleicons.org/anthropic/currentColor"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Claude Code Templates: 1000+ Agents, Commands, Skills & MCP Integrations",
+      "url": "http://aitmpl.com"
+    },
     "http://appmotion.design": {
       "content_type": "",
       "description": "",
@@ -1836,6 +1858,39 @@
       "title": "Navbar Gallery – Navigation Design Inspiration",
       "url": "http://navbar.gallery"
     },
+    "http://newsletter.levelingup.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Actionable marketing insights you can apply immediately",
+      "final_url": "https://newsletter.levelingup.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/5f2c3b03-d0bd-4810-8a81-8e9b133d805c/landscape_image.png",
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/5f2c3b03-d0bd-4810-8a81-8e9b133d805c/thumb_Screenshot_2023-11-02_at_12.15.57.png",
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/5f2c3b03-d0bd-4810-8a81-8e9b133d805c/Screenshot_2023-11-02_at_12.15.57.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/publication/thumbnail/5f2c3b03-d0bd-4810-8a81-8e9b133d805c/landscape_image.png",
+        "https://beehiiv-images-production.s3.amazonaws.com/uploads/user/profile_picture/c2217d48-26b1-4553-8f12-14bf8c1ca26f/Screenshot_2023-11-02_at_12.15.57.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/asset/file/ed3f7053-abea-4668-b5d5-210c1f3729fe/ChatGPT_Content_Team_Image.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Leveling Up",
+      "url": "http://newsletter.levelingup.com"
+    },
+    "http://nurijanian.substack.com": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "http://nurijanian.substack.com",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://nurijanian.substack.com"
+    },
     "http://ora.run": {
       "content_type": "text/html; charset=utf-8",
       "description": "Rank how ready your business is for AI agents across five layers.",
@@ -1917,6 +1972,32 @@
       "text_excerpt_zh": "",
       "title": "Performance",
       "url": "http://performance.dev"
+    },
+    "http://prodmgmt.world": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A system of product management resources, tools, and insights to help you build better products faster.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.prodmgmt.world/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.prodmgmt.world/product_images/homepage-og.jpg",
+        "https://www.prodmgmt.world/icons/compatibility/claude.png",
+        "https://www.prodmgmt.world/icons/compatibility/cursor.svg",
+        "https://www.prodmgmt.world/_next/image?url=%2Favatars%2F1.jpeg&w=96&q=75",
+        "https://www.prodmgmt.world/_next/image?url=%2Favatars%2F2.jpeg&w=96&q=75",
+        "https://www.prodmgmt.world/_next/image?url=%2Favatars%2F3.jpeg&w=96&q=75",
+        "https://www.prodmgmt.world/_next/image?url=%2Favatars%2F4.jpeg&w=96&q=75",
+        "https://www.prodmgmt.world/_next/image?url=%2Favatars%2F5.jpeg&w=96&q=75",
+        "https://www.prodmgmt.world/_next/image?url=%2Fcompany-logos%2Famazon.jpg&w=384&q=75",
+        "https://www.prodmgmt.world/company-logos/apple.svg",
+        "https://www.prodmgmt.world/company-logos/google.svg",
+        "https://www.prodmgmt.world/company-logos/meta.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "prodmgmt.world | AI PM OS",
+      "url": "http://prodmgmt.world"
     },
     "http://rebrand.gallery": {
       "content_type": "text/html; charset=utf-8",
@@ -2608,6 +2689,19 @@
       "title": "",
       "url": "http://x.com/i/article/2050202567960088577"
     },
+    "http://x.com/i/article/2050344788281503744": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2050344788281503744",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2050344788281503744/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKDDbszXcAEqp8e?format=jpg&name=900x900)](http://x.com/i/article/2050344788281503744/creatorpascal/article/2062862324533240088/media/2062863509986177025)\n\nWhy no one will read this article\n\n[![](https://pbs.twimg.com/profile_images/2051663422199140356/CvNNOAyx_normal.jpg)](http://x.com/i/article/2050344788281503744/creatorpascal)\n\n[Pascal](http://x.com/i/article/2050344788281503744/creatorpascal)\n\n[@creatorpascal](http://x.com/i/article/2050344788281503744/creatorpascal)\n\n·\n\nJun 5\n\n·\n\nFollow\n\nClick to Follow creatorpascal\n\n2\n\n18\n\n40\n\n[5.1K](http://x.com/i/article/2050344788281503744/creatorpascal/status/2062862324533240088/analytics)\n\nYou're not going to finish this article.\n\nYou already scanned the title, decided it was interesting enough to open, glanced at the first two paragraphs, and your finger is probably already hovering over the button to feed the rest to an AI for a summary. I'd bet on it. That's what was about to happen, or it would have been, if I hadn't called it out first.\n\nI'm not judging you here. I do it all the time too.\n\nAnd that's exactly why we need to talk about it.\n\nIf you're anything like me, you get annoyed at long texts. When AI gives you an answer thats too detailed or too long, you always skip over it or tell it to condense it. And even when someone sends you a document, you'd rather just have AI summarize it.\n\nIt's not all bad. You can still get through a short text, tweet or caption, sure. But somewhere in the last few years, the thing you used to do without thinking: open a document, sit with it, take it in, has quietly stopped happening. You scan now. You're a master skimmer. You feed things to AI and ask for the \"gist\" of it.\n\nAnd the worst part is that no one seems to notice what's happening.\n\nI realized it a few weeks ago when I sent a client a one-pager with six recommendations on improvements we should make. I had used AI to help me condense the doc into the shortest possible version, because I knew how many balls he juggles and I wanted to respect his time. \n\nHe told me later on our weekly call that he had read the first few lines, then ran the rest through Claude to summarize it for him. My condensed and summarized one-pager was getting summarized again.\n\nAnd that's when it hit me... I do the exact same thing with one of my freelancers whenever he sends me weekly one-pager reports.\n\nA few years ago, the cutoff for \"too long to read\" was a fifty-page contract. Then it became a ten-page proposal. Then a five-page brief. Now we've reached a one-pager, a single page of densely considered thinking, and even that is too much. We would rather pay a machine to digest it for us before we'll digest it ourselves.\n\nSomething is seriously happening to the way we think, and I don't believe it's what most people are saying it is. I think it's something entirely different. And I believe it's something that is going to define the next decade of work, business, and frankly, who gets to think for a living and who doesn't.\n\nNow, a fair warning before we begin.\n\nThis isn't one of those articles you read through and forget about (although, ironically, that's exactly what most people will do with it).\n\nNo, this is going to be an uncomfortable read, so stick with me.\n\n## \n\nWe've been told the wrong story about our attention\n\nFor ten years now we've heard the same explanation. The phones did it. The reels did it. TikTok rewired our brains. Our attention spans are shot. We've heard it so many times it's become wallpaper, the kind of explanation everybody nods at and nobody actually examines.\n\nI don't think it's wrong, exactly. I think it's... lazy.\n\nIf this were really an attention problem, you'd be unable to focus on anything, but that isn't what's happening. You and I both know you can binge a 3-hour documentary. You can play a v",
+      "title": "",
+      "url": "http://x.com/i/article/2050344788281503744"
+    },
     "http://x.com/i/article/2050613084558094336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -2880,6 +2974,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2052200189595922432"
+    },
+    "http://x.com/i/article/2053482765333540868": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2053482765333540868",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2053482765333540868/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKJgan2XgAARcHj?format=jpg&name=900x900)](http://x.com/i/article/2053482765333540868/creatorpascal/article/2063317667310887383/media/2063317589778989056)\n\nYou don't need a unique idea to get rich \n\n[![](https://pbs.twimg.com/profile_images/2051663422199140356/CvNNOAyx_normal.jpg)](http://x.com/i/article/2053482765333540868/creatorpascal)\n\n[Pascal](http://x.com/i/article/2053482765333540868/creatorpascal)\n\n[@creatorpascal](http://x.com/i/article/2053482765333540868/creatorpascal)\n\n·\n\n11h\n\nFollow\n\nClick to Follow creatorpascal\n\n1\n\n1\n\n9\n\n[815](http://x.com/i/article/2053482765333540868/creatorpascal/status/2063317667310887383/analytics)\n\n## \n\nStop trying to reinvent electricity.\n\nIf you're anything like me, you've spent way too much time hunting for the \"perfect\" business idea. The unicorn. The blue ocean nobody has touched or even thought of yet.\n\nAnd if you're really anything like me, you've also quietly judged the people making money off ideas that look almost embarrassingly simple from the outside (the Notion templates, the cold email agencies, the niche newsletters) while you were busy trying to invent something nobody had ever seen before.\n\nI'm not here to talk down on you. I did this for years. I had notebooks full of ideas that were supposed to be \"the one.\" I had a graveyard of half-built products that nobody asked for, all because I was convinced that the only path to a meaningful income was to stumble onto something nobody had ever stumbled onto before.\n\nThe unfortunate reality is that this belief is the single biggest thing that keeps people broke.\n\nBecause while you're trying to invent electricity for the second time, the person two steps ahead of you is just plugging things into the wall.\n\nThis essay is something I actually want you to sit with, because it changed the entire trajectory of my life when it finally clicked.\n\nLet's begin.\n\n## \n\nIf it is humanly possible, it is possible for you\n\n> \"We become what we behold. We shape our tools, and thereafter our tools shape us\". – Marshall McLuhan\n\nAbout four years ago I was scrolling Twitter and stumbled on this guy with a faceless profile picture casually tweeting that he'd made $9,000 that month from selling Notion templates.\n\nAt the time I had no idea what that even was. I clicked his profile out of pure curiosity, and that single click ended up being the day my entire life changed.\n\nBecause here was this random guy, no different from me in any meaningful way, just sharing his journey, occasionally dropping products, and printing money in the process.\n\nThe truth is that I've always operated from one core belief that has shaped just about every decision I've made since I was a teenager:\n\nIf it is humanly possible, it is possible for me too.\n\nAnything a human can do, I can do.\n\nThis sounds like a Pinterest quote, but I want you to actually sit with it for a second, because most people read this kind of line and nod along without ever internalizing what it actually means.\n\nLet's run through an example.\n\nTake Usain Bolt. For 15 years he has been the only human being to run 100m in 9.58 seconds. By any conventional logic, the belief I should hold is that I will never beat that record. He's the fastest. End of conversation.\n\nBut hear me out on this one (call me a disillusioned egomaniac if you want), if I truly decided I wanted to beat his record, I genuinely believe I could.\n\nAnd yes, I'm 28 next year and I'd be the first to admit my window for sprinting is probably already closed. But in theory? If I put in double the training he did over the years, why couldn't I? If I dedicated my entire existence to it. If I structured every meal, every recovery session, every micro-decision around that one outcome, the math says it's possible.\n\nThat's the belief I have.\n\n\"Another human did this, there",
+      "title": "",
+      "url": "http://x.com/i/article/2053482765333540868"
     },
     "http://x.com/i/article/2053609142984843264": {
       "cleaner_v": 2,
@@ -4930,6 +5037,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060567536543182848"
     },
+    "http://x.com/i/article/2060705098053890053": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060705098053890053",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060705098053890053/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKJ88uDWsAAA4Mx?format=jpg&name=900x900)](http://x.com/i/article/2060705098053890053/bibryam/article/2063349737089331531/media/2063348961885204480)\n\nThe Backpressure Loop Pattern for Coding Agents\n\n[![](https://pbs.twimg.com/profile_images/1779610675431591936/WMVtJ651_normal.jpg)](http://x.com/i/article/2060705098053890053/bibryam)\n\n[Bilgin Ibryam](http://x.com/i/article/2060705098053890053/bibryam)\n\n[@bibryam](http://x.com/i/article/2060705098053890053/bibryam)\n\n·\n\n9h\n\nFollow\n\nClick to Follow bibryam\n\n2\n\n8\n\n71\n\n[5.9K](http://x.com/i/article/2060705098053890053/bibryam/status/2063349737089331531/analytics)\n\nCoding agents made code generation faster. They did not make code validation faster. >>That is the bottleneck <<\n\nClaude Code, Cursor, Codex, and similar tools can now produce useful diffs quickly. But when the agent works without feedback, the human becomes the first real quality gate.\n\n✗ The human checks the build.\n\n✗ The human finds the broken test.\n\n✗ The human notices the missing import.\n\n✗ The human spots the visual bug.\n\n✗ The human explains the issue and sends the agent back for another try.\n\n✗ That is not review.\n\n✗ That is babysitting.\n\nThe pattern that fixes this is the Backpressure Loop.\n\n[![Image](https://pbs.twimg.com/media/HKJ6oejXQAAZWYp?format=jpg&name=small)](http://x.com/i/article/2060705098053890053/bibryam/article/2063349737089331531/media/2063346415103852544)\n\nBackpressure is feedback that reaches the agent before the agent reaches the human.\n\nThe source can be a type checker, test, linter, build, browser check, log, trace, structural rule, or eval. The important part is the loop:\n\nagent changes code → system pushes back → agent repairs → agent retries.\n\n## \n\n1\\. Move feedback into the agent loop\n\n✓ A coding agent is a fast producer.\n\n✗ A human reviewer is a slow consumer.\n\nWhen all meaningful feedback comes from the human, every simple failure becomes review work. That does not scale.\n\nThe goal is not only to ask:\n\nHow good is the model?\n\nThe better question is:\n\nWhat feedback can the agent use without asking me?\n\nIf the agent can run the type checker, read the failure, fix the code, and try again, the human should not be involved yet.\n\nThe human should review intent, design, trade-offs, and product behavior.\n\nThe system should catch mechanical failures first.\n\n## \n\n2\\. CI is not enough\n\nA CI failure after the agent is finished is a gate.\n\nA failure the agent sees while working is backpressure.\n\nThat distinction matters.\n\nA green build is useful, but narrow. It tells you the code compiled, formatted, and passed existing tests. It does not prove the product rule survived. It does not prove the generated test asserts meaningful behavior. It does not prove the refactor respected the architecture.\n\nSo the goal is not just “run CI earlier.”\n\nThe goal is to make feedback fast, specific, and actionable enough for the agent to repair the work.\n\n✗ Bad feedback:\n\n> The code is wrong.\n\n✓ Better feedback:\n\n> auth/session.test.ts failed. Expected expired sessions to redirect to /login. Received 200 from /dashboard. Fix the session expiration path. Do not change the test.\n\nThe second version gives the agent something to do.\n\n[![Image](https://pbs.twimg.com/media/HKJ7HXRXgAA0Mdk?format=jpg&name=small)](http://x.com/i/article/2060705098053890053/bibryam/article/2063349737089331531/media/2063346945725267968)\n\n## \n\n3\\. Compress success, expand failure\n\nMore output is not better feedback.\n\nA thousand lines of passing logs can be worse than a short signal.\n\nUseful backpressure should be:\n\n* informative\n* valid\n* non-redundant\n* retained for the next attempt\n\nPassing checks should be tiny.\n\nFailing checks should be actionable.\n\nExample:\n\n✓ typecheck ✓ lint ✗ auth tests FAIL auth/session.test.ts Expected redirect to /login for expired sessi",
+      "title": "",
+      "url": "http://x.com/i/article/2060705098053890053"
+    },
     "http://x.com/i/article/2060705100503379973": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5501,6 +5621,19 @@
       "title": "",
       "url": "http://x.com/i/article/2062495770012782593"
     },
+    "http://x.com/i/article/2062498852481925120": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062498852481925120",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062498852481925120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKGh2eTXwAA6dQ-?format=jpg&name=900x900)](http://x.com/i/article/2062498852481925120/scaling%5Fshields/article/2063329359910392293/media/2063108061531717632)\n\nhow to beat the game of cold email in 2026...\n\n[![](https://pbs.twimg.com/profile_images/1978439762731020290/iNWmGYro_normal.jpg)](http://x.com/i/article/2062498852481925120/scaling%5Fshields)\n\n[James Shields](http://x.com/i/article/2062498852481925120/scaling%5Fshields)\n\n[@scaling\\_shields](http://x.com/i/article/2062498852481925120/scaling%5Fshields)\n\n·\n\n10h\n\nFollow\n\nClick to Follow scaling\\_shields\n\n3\n\n5\n\n21\n\n[3.1K](http://x.com/i/article/2062498852481925120/scaling%5Fshields/status/2063329359910392293/analytics)\n\ncold email in 2026 is simple asf\n\nthe people who say it's dead are sending 50 emails a day from 3 inboxes wondering why nobody replies lol\n\nthat's a hobby\n\nreal cold email is 500+ inboxes sending 10,000 emails a day with a simple offer that makes it hard to say no. \n\nthe math works every single time IF you give it enough volume to work with\n\n## \n\nwhy volume beats everything:\n\n[![Image](https://pbs.twimg.com/media/HKGlKpXWcAAkr4A?format=png&name=small)](http://x.com/i/article/2062498852481925120/scaling%5Fshields/article/2063329359910392293/media/2063111706633465856)\n\nthe booking rate at scale is roughly 0.1-0.15%. \n\nthat means for every 1,000 emails you send, you book 1 to 1.5 calls. the numbers are CONSISTENT across every niche we've tested\n\naccounting firms, ecom agencies, ai agencies, seo companies, landscaping businesses, marketing agencies. the conversion rate stays roughly the same.\n\nso the question becomes dead simple. \n\nhow many calls do you want per month?\n\nif you want 10 calls a month, you need to send about 10,000 emails per month.\n\nthat's 330 a day which is achievable with 20 inboxes so most people can do this\n\nif you want 30 calls a month, you need about 30,000 emails per month which is 1,000 a day so you need 60-80 inboxes. \n\nstill very doable though.\n\nif you want 150 calls a month, you need about 150,000 emails per month. \n\nthat's 5,000 a day and you need 300+ inboxes which is where most people tap out because it feels crazy. \n\nbut THIS is the level where cold email stops being inconsistent and starts being a machine\n\nif you want 300 calls a month, you need 200,000+ emails per month. 6,500+ a day. 500+ inboxes.\n\nthis is where we operate (my agency)\n\nat this volume it's GENUINELY hard to fail because the math won't let you\n\ncold email is not broken lmfaoo. 200 emails a day is broken. \n\nyou're literally not giving the system enough data points to produce a result. \n\nit's like throwing a dart once, missing, and concluding that darts don't work\n\ncompletely illogical\n\n## \n\nthe system that makes this possible:\n\n[![Image](https://pbs.twimg.com/media/HKGlTUnW8AA8BWk?format=jpg&name=small)](http://x.com/i/article/2062498852481925120/scaling%5Fshields/article/2063329359910392293/media/2063111855682285568)\n\nthe infrastructure is straightforward. \n\n240-800 inboxes warmed up on full admin google workspace accounts. 60-80 domains minimum. each inbox sends about 15 emails per day which keeps deliverability solid without burning any individual inbox\n\nthe total volume comes from having HUNDREDS of inboxes running simultaneously\n\ni use frostmailer for the inboxes (i built it, so ofc i'm biased, but the inboxes are $1-2 each and they're full admin accounts that don't go down). \n\ninstantly for the sending platform. clay for lead enrichment. and a setter in the unified inbox plus warm calling on every positive reply\n\nthe warm calling piece doubled our call booking rate overnight.\n\nANYONE who replies positively or shows interest gets a phone call within minutes. \n\n\"hey bro, saw you replied to my email, wanted to chat quickly about what we can do for you.\" \n\nthat human touch on top o",
+      "title": "",
+      "url": "http://x.com/i/article/2062498852481925120"
+    },
     "http://x.com/i/article/2062512037541130240": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5741,6 +5874,33 @@
       "title": "",
       "url": "http://x.com/i/article/2062891077359595520"
     },
+    "http://x.com/i/article/2062918752191356928": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062918752191356928",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062918752191356928/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKD5tkgbEAARNka?format=jpg&name=900x900)](http://x.com/i/article/2062918752191356928/everestchris6/article/2063294444175278458/media/2062923190624784384)\n\nselling AI agents 101\n\n[![](https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih_normal.jpg)](http://x.com/i/article/2062918752191356928/everestchris6)\n\n[Chris](http://x.com/i/article/2062918752191356928/everestchris6)\n\n[@everestchris6](http://x.com/i/article/2062918752191356928/everestchris6)\n\n·\n\n12h\n\nFollow\n\nClick to Follow everestchris6\n\n1\n\n3\n\n66\n\n[7.5K](http://x.com/i/article/2062918752191356928/everestchris6/status/2063294444175278458/analytics)\n\ni want to walk through an actual business idea here, the whole thing end to end, because i think it's one of the best opportunities sitting in front of anyone right now and barely anyone is running it properly.\n\nthe core of it is this. there are millions of ordinary businesses out there, quietly drowning in manual work. and the money in that isn't in walking up and selling them ai, because that almost never works. the second you say the words ai or automation to a guy who runs, let's say a concrete company, he stops hearing you, because those words mean nothing to him except expensive and risky and probably going to break the thing he spent his whole life building.\n\nso you don't sell him the automation. you sell him something tiny and obvious first, something he can see the value immediately, and you let that little thing get you in the door.\n\nthe tool i'd lead with is dead simple. the owner drops in his website, it pulls his logo and his colours and the photos he's already got sitting there, and it hands him thirty social media posts in his own branding, ready to put up for the month. that's the whole thing. you charge him $99/mo and he says yes without really thinking about it, because he already knows he's supposed to be posting every day, and $99/mo is nothing to him. he's holding the result in his hand and there's nothing to explain to him.\n\nbut that was never the point. that tool is a door, and the only thing that actually matters is what's on the other side of it, which is that this man now pays you every month, opens your thing every week.that's trust, sitting right in front of the exact kind of owner who would have ignored your email a month ago. and you can build that with a few hundred of them at the same time, because the tool just runs on its own.\n\nthen one day you get him on a call, and you're not selling him anything, you just ask how the business is going, and he starts telling you about the stuff that's actually grinding him down. it's never the exciting stuff. it's quotes he puts together manually, invoices he types in one at a time, leads that die because nobody chased them etc., i had a client whose entire company was basically running out of one enormous broken spreadsheet, and we built them something that pulled their invoices straight off their site and dropped them into one clean dashboard on their own. that mess was costing him hours every week and real money on top of it, far more than the little tool ever was, and now you're the obvious person to fix it, because you've already proven you can be trusted with a piece of how he makes his living.\n\nso you build him the real thing. if his problem is big you build one proper system for it, usually a dashboard/agent that plugs straight into the crm he's already using so everything finally lives in one place. if it's smaller you build two or three automations that just does the boring work for him. either way you're charging at least $5000/mo to run it.\n\nand here's the part almost nobody sees coming, the part that turns this into something that actually compounds. the system you just built for him was never really about him. every business in his industry has the s",
+      "title": "",
+      "url": "http://x.com/i/article/2062918752191356928"
+    },
+    "http://x.com/i/article/2062943721902235648": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062943721902235648",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062943721902235648/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKHIaNAakAAAqCz?format=jpg&name=900x900)](http://x.com/i/article/2062943721902235648/ramxcodes/article/2063156455159861723/media/2063150456805953536)\n\nDear Indian Students\n\n[![](https://pbs.twimg.com/profile_images/2019076324976189440/zGjftdyf_normal.jpg)](http://x.com/i/article/2062943721902235648/ramxcodes)\n\n[Ram](http://x.com/i/article/2062943721902235648/ramxcodes)\n\n[@ramxcodes](http://x.com/i/article/2062943721902235648/ramxcodes)\n\n·\n\n21h\n\nFollow\n\nClick to Follow ramxcodes\n\n57\n\n45\n\n316\n\n[19K](http://x.com/i/article/2062943721902235648/ramxcodes/status/2063156455159861723/analytics)\n\nThis blog is probably going to offend some people.\n\nGood.\n\nBecause honestly, I am tired of watching the same cycle repeat every year.\n\nStudents enter college with big dreams.\n\nFour years later, most of them leave with excuses.\n\nAnd before someone starts typing \"bro you are generalizing,\" yes, obviously not everyone.\n\nBut if you are from an engineering background, especially a tier-3 or tier-69 college, you know exactly what I am talking about.\n\nThis is not a motivational blog.\n\nThis is not a \"follow your passion\" blog.\n\nThis is just a collection of observations from my own journey, my friends, people I have worked with, and thousands of students I have seen online.\n\nSo let's talk.\n\nFor better reading experience read it here: \n\n[Dear Indian Students](https://ramx.in/blog/dear-indian-students)\n\n## \n\nThe Dead Crowd\n\nWalk into most engineering classrooms.\n\nHalf the class is sleeping.\n\nThe other half is scrolling Instagram.\n\nNobody gives a shit about what is being taught.\n\nAnd to be fair, most professors don't seem very excited either.\n\nEverybody is just trying to get through the day.\n\nBut the problem goes deeper than bad professors.\n\nThe real issue is that our education system trained us to memorize, not to explore.\n\nSchool rewarded us for remembering things.\n\nNot questioning things.\n\nNot building things.\n\nNot experimenting.\n\nJust remember the answer.\n\nWrite the answer.\n\nGet the marks.\n\nRepeat.\n\nJEE, boards, entrance exams everything optimized us for scores, not curiosity. So when people enter college, they are already mentally exhausted.\n\nThey're waiting for instructions.\n\n* Which course should I watch?\n* Which language should I learn?\n* Which project should I build?\n* Which company should I target?\n\nEvery decision is outsourced.\n\nIf you want my detailed answers to most of these questions, I wrote an entire FAQ Blog: \n\n[The FAQ](https://ramx.in/blog/faq)\n\nVery few people actually sit down and think:\n\n\"What do I want to learn?\"\n\nI realized this pretty early.\n\nWithin the first few months of college, I figured out something that changed everything for me.\n\nThis college is probably not going to get me where I want to go.\n\nAnd after talking to people from other colleges, I realized something even funnier.\n\nMost colleges are playing the same game.\n\nDifferent building.\n\nDifferent logo.\n\nSame shit.\n\nThe only thing I could control was myself.\n\nSo in the middle of my first year, I started grinding.\n\nNot web development. Not AI. Not any of the trendy stuff.\n\nGraphic design and video editing.\n\nMy goal was simple.\n\nEarn money.\n\nBecause I knew one thing.\n\nIf I wanted freedom to experiment, take risks, build weird things, fail, learn and try again, I needed financial independence.\n\nNobody was going to hand it to me.\n\nThat mindset got me my first internship.\n\nNot because I was special. Not because I was smarter.\n\nI simply accepted reality earlier than most people.\n\nIf you want the full story, read my blog: \n\n[How to be me?](https://ramx.in/blog/how-to-be-me-learn-build-and-crush-it)\n\nThe biggest lesson?\n\nNobody is coming to save you.\n\nNot your college. Not your professors. Not your friends.\n\nCertainly not some random YouTube playlist.\n\n## \n\nThe Crab Mentality Problem\n\nThe second",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062943721902235648"
+    },
     "http://x.com/i/article/2062947397635043328": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5804,6 +5964,97 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2063175884312301568"
+    },
+    "http://x.com/i/article/2063189579990257664": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063189579990257664",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063189579990257664/i/keyboard%5Fshortcuts)\n\n[Home ](http://x.com/i/article/2063189579990257664/home)[Explore ](http://x.com/i/article/2063189579990257664/explore)[Notifications ](http://x.com/i/article/2063189579990257664/notifications)[Chat ](http://x.com/i/article/2063189579990257664/i/chat)[Grok ](http://x.com/i/article/2063189579990257664/i/grok)[Premium ](http://x.com/i/article/2063189579990257664/i/premium)[Bookmarks ](http://x.com/i/article/2063189579990257664/i/bookmarks)[Creator Studio ](http://x.com/i/article/2063189579990257664/i/jf/creators/studio)[Articles ](http://x.com/i/article/2063189579990257664/compose/articles)[Profile ](http://x.com/i/article/2063189579990257664/chumsdock)\n\nMore \n\n[Post](http://x.com/i/article/2063189579990257664/compose/post)\n\n![Cheng](https://pbs.twimg.com/profile_images/378800000010252572/78d17364b6d52a63220206d139e6ebbd_normal.jpeg)\n\nCheng\n\n@chumsdock\n\nThis page is not supported.\n\nPlease visit the author’s profile on the latest version of X to view this content.",
+      "title": "",
+      "url": "http://x.com/i/article/2063189579990257664"
+    },
+    "http://x.com/i/article/2063236351328411648": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063236351328411648",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063236351328411648/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKIm6TnaEAAcha-?format=jpg&name=900x900)](http://x.com/i/article/2063236351328411648/aashatwt/article/2063260427619008751/media/2063254362428936192)\n\nhow not to make ai slop sites\n\n[![](https://pbs.twimg.com/profile_images/1878012880177532928/jRU9o7dG_normal.jpg)](http://x.com/i/article/2063236351328411648/aashatwt)\n\n[aasha![](https://pbs.twimg.com/profile_images/2052032909662457859/jXkJZhas_bigger.png)](http://x.com/i/article/2063236351328411648/aashatwt)\n\n[@aashatwt](http://x.com/i/article/2063236351328411648/aashatwt)\n\n·\n\n14h\n\nFollow\n\nClick to Follow aashatwt\n\n4\n\n3\n\n42\n\n[16K](http://x.com/i/article/2063236351328411648/aashatwt/status/2063260427619008751/analytics)\n\nif you wanna build sites like these, you need to check this out :\n\n![](https://pbs.twimg.com/amplify_video_thumb/2063237772455096320/img/eN33X3o9bE2lSGKw.jpg)\n\nthis takes literally 5 mins to build and you can do it.step 1 :  just tell claude to build a site with all the details that you wanna build a hero section with xyz fonts and to keep the right section empty.\n\nbash\n\n```bash\nprompt : build a hero section “xyz” tagline. use a single tiktok sans medium font throughout and a clean white background across the entire section. no imagery or illustrations needed. construct the navbar, the main headline block, and the selection question area. leave the right side blank for now.\n```\n\nstep 2 : \\> go find cool holographic avatars > pintrest is a good place to find \n\n[![Image](https://pbs.twimg.com/media/HKIguyrbMAA6X46?format=jpg&name=small)](http://x.com/i/article/2063236351328411648/aashatwt/article/2063260427619008751/media/2063247567539089408)\n\nthen get the image of that character from every angle. > i used chatgpt for this\n\n[![Image](https://pbs.twimg.com/media/HKIi91QaYAEOelv?format=jpg&name=small)](http://x.com/i/article/2063236351328411648/aashatwt/article/2063260427619008751/media/2063250024952389633)\n\nstep 3 : > go to kling and share the images > and tell it to animate > just prompt claude to add this video in the background of our hero section without any overlays.\n\n[![Image](https://pbs.twimg.com/media/HKIjj17agAAgQO5?format=jpg&name=small)](http://x.com/i/article/2063236351328411648/aashatwt/article/2063260427619008751/media/2063250677967781888)\n\nstep 4 : > to add the cursor movement thing you need to prompt this and you're done.\n\n```text\nThe video is muted, playsInline, preload=\"auto\". It does NOT autoplay.\nThe video scrubs forward/backward based on horizontal mouse movement. Use a mousemove event listener on window. Track prevX, compute delta = currentX - prevX, convert to a time offset: (delta / window.innerWidth) * SENSITIVITY * video.duration where SENSITIVITY = 0.8. Clamp targetTime between 0 and video.duration. Use video.currentTime to seek, and an onSeeked handler to queue the next seek if targetTime has moved, preventing seek-flooding.\n```\n\nthis is one of the easiest way to make some cooler sites than some ai slop.\n\n* [![](https://pbs.twimg.com/profile_images/1878012880177532928/jRU9o7dG_normal.jpg)](http://x.com/i/article/2063236351328411648/aashatwt)  \n[aasha![](https://pbs.twimg.com/profile_images/2052032909662457859/jXkJZhas_bigger.png)](http://x.com/i/article/2063236351328411648/aashatwt)  \n[@aashatwt](http://x.com/i/article/2063236351328411648/aashatwt)  \nFollow  \nClick to Follow aashatwt  \ni like to vibecode and write stuff / gtm eng  \n[@eigenlabs](http://x.com/i/article/2063236351328411648/eigenlabs)",
+      "title": "",
+      "url": "http://x.com/i/article/2063236351328411648"
+    },
+    "http://x.com/i/article/2063265407838957569": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063265407838957569",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063265407838957569/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKI1bgBXoAE6kCN?format=jpg&name=900x900)](http://x.com/i/article/2063265407838957569/Voxyz%5Fai/article/2063289940310372596/media/2063270325857525761)\n\nTurn the stuff you keep asking Claude Code/Codex to do into actual tools\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2063265407838957569/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2063265407838957569/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2063265407838957569/Voxyz%5Fai)\n\n·\n\n13h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n4\n\n7\n\n65\n\n[8.2K](http://x.com/i/article/2063265407838957569/Voxyz%5Fai/status/2063289940310372596/analytics)\n\nYou probably asked AI to do a few of these last week:\n\nTurn a bug report into an assignable ticket. Review a chunk of code. Merge info from three different places into one summary. Check something before you send it out. Prioritize a pile of customer messages. Pull numbers from a few data sources and see what moved.\n\nFirst time, totally normal.\n\nSecond time, still fine.\n\nBy the third time you're copy-pasting the same prompt, that task has a pattern.\n\nA pattern means you can leave a tool behind.\n\n[![Image](https://pbs.twimg.com/media/HKI1fbaWsAAro9i?format=jpg&name=small)](http://x.com/i/article/2063265407838957569/Voxyz%5Fai/article/2063289940310372596/media/2063270393339621376)\n\nThe tool doesn't have to be big. It could be a test runner script, a deploy-preflight.md, a triage-checklist.md, a \n\n[SKILL.md](https://developers.openai.com/codex/skills)\n\n, a new rule in your AGENTS.md, or a metrics checklist that runs once a day.\n\nThe point is that next time the same kind of work comes up, Claude Code/Codex doesn't have to guess your standards.\n\nIt should read directly from your project:\n\nHow this task starts. What the inputs are. What good output looks like. Which file is the source of truth. What it can do automatically. Where it must stop and wait for a human.\n\n## \n\nOne-off conversations don't compound\n\nA lot of people use Claude Code/Codex as a fancy chat window.\n\nToday:\n\n> Turn this bug report into an assignable ticket.\n\nTomorrow:\n\n> Compare these three options and tell me which one has the least risk.\n\nDay after:\n\n> Pull this week's numbers and flag anything that dropped.\n\nEach time it saves you a little time.\n\nBut each time you have to re-explain the standards.\n\nTickets need repro steps and a priority level. Comparisons need clear tradeoffs laid out. Metrics need to be compared against last week, not just raw numbers. Passing locally doesn't mean it's safe to ship. Anything public-facing needs to stop before human approval.\n\nThat's the cost of repeating yourself.\n\nA better approach: after each task, leave something in the project folder that makes the next time easier.\n\nTriage a bug today, leave behind a triage checklist. Compare options today, leave behind a decision template. Pull metrics today, leave behind a weekly metrics script. Catch AI overstepping a boundary today, write that approval gate into AGENTS.md.\n\nAfter every task, the project should know a little more.\n\n[![Image](https://pbs.twimg.com/media/HKI1iDqWAAA38bH?format=jpg&name=small)](http://x.com/i/article/2063265407838957569/Voxyz%5Fai/article/2063289940310372596/media/2063270438503841792)\n\n## \n\nDefine the result first, then the steps\n\nI wouldn't start by writing:\n\nplaintext\n\n```plaintext\n1. Gather info\n2. Make a decision\n3. Output the result\n```\n\nThat's too vague. AI reads that and still has to guess what you actually want.\n\nA better starting point is to describe what \"done\" looks like.\n\nSay you want it to prioritize bugs. Don't just say \"tell me which bugs are important.\"\n\nWrite it like this:\n\nplaintext\n\n```plaintext\nGoal:\nDetermine the priority of this bug report.\n\nInputs:\n- Bug description and repro steps\n- Blast radius (how many users",
+      "title": "",
+      "url": "http://x.com/i/article/2063265407838957569"
+    },
+    "http://x.com/i/article/2063273395320750080": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063273395320750080",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063273395320750080/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKJBk-Ga8AAYmwS?format=jpg&name=900x900)](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz/article/2063291588932141302/media/2063283682690134016)\n\nSkills are great, let me explain\n\n[![](https://pbs.twimg.com/profile_images/1954573702768504833/LW-j7iTr_normal.jpg)](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz)\n\n[Sahaj](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz)\n\n[@iamsahaj\\_xyz](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz)\n\n·\n\n12h\n\nFollow\n\nClick to Follow iamsahaj\\_xyz\n\n2\n\n1\n\n28\n\n[1.5K](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz/status/2063291588932141302/analytics)\n\nskills tend to be discussed interchangeably with CLI tools or MCP servers. That's not incorrect. Skills are, in fact, complementary to those approaches\n\n## \n\n1\\. It's just a bunch of .md files\n\nYes, which makes it ultra-distributable (inside your repo, as part of your NPM package or \n\n[skill.sh](http://x.com/i/article/2063273395320750080//skill.sh)\n\n). You can version-control them if you want and you can also ship them with your MCP server / CLI tools\n\nSkills aren't limited to just .md files. The \n\n[skills spec](https://agentskills.io/)\n\n allows you to add literally any file as part of the skill. So your skills can ship images, assets, scripts, apps and literally anything as part of your skill\n\n## \n\n2\\. Progressive disclosure\n\nThis is the cool bit. The skill implicitly has a 3-tiered approach to being used.\n\n* First, when the skill isn't loaded, the model only sees the \"name\" and the \"description\" of the skill. This lets the agent choose when to activate the skill\n* Then, when it does activate (and depending on your harness's implementation), it only loads the SKILL.md file's content + the structure of the skill.\n* The agent can then decide which files it wants to read into its context and / or stuff it wants to execute. Selective retrieval.\n\nThis is super powerful because context windows stay lean and relevant. \n\n## \n\n3\\. Skills encode Operating Policy\n\nWhy can't I just ship a --help command to my CLI tool? This is a great argument and something I see all the time. The difference here is that skills aren't just meant to be \"documentation\" (I mean you can treat them as docs but that's up to you)\n\nA help command will typically list out the tool's capabilities, but it won't tell the agent what the best / intended way to use it is. You can ship skills with your CLI tools meant to be used by agents that describe possible workflows and capabilities\n\n## \n\n4\\. They're multi-purpose\n\nYou can model a lot of use-cases just out of skills\n\nIt could be a prompt template / simple task: this is how I use skills 90% of the time. It's often an adjective like \"create-draft-pr\" that tell the agent to create a PR my way\n\nOr it could be documentation, benefitting from the progressive disclosure point. Or it could also model entire workflows: incident response, release procedures, and research processes since you can ship executables or reference tools as part of the skill\n\nSo implementing a single spec in your harness unlocks a whole bunch of workflows that are also largely portable across harnesses\n\n## \n\nDownsides\n\nIt's not all roses. Much like CLI tools, the downside to skills is that it needs access to something resembling a file-system, and depending on what your skill ships, it might also need the ability to execute commands. Also, Skills themselves do not execute anything.\n\nMCP on the other hand gets around this problem by just requiring a transport-protocol which exposes and calls tools (MCP also has other trade-offs but those are out of scope for this article)\n\n* [![](https://pbs.twimg.com/profile_images/1954573702768504833/LW-j7iTr_normal.jpg)](http://x.com/i/article/2063273395320750080/iamsahaj%5Fxyz)  \n[Sahaj](http://x.com/i/a",
+      "title": "",
+      "url": "http://x.com/i/article/2063273395320750080"
+    },
+    "http://x.com/i/article/2063294118101688321": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063294118101688321",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063294118101688321/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKJL6BVa0AASyoA?format=jpg&name=900x900)](http://x.com/i/article/2063294118101688321/sheriyuo/article/2063295181131247674/media/2063295039451877376)\n\nRL Interview Questions 2026\n\n[![](https://pbs.twimg.com/profile_images/2018976441795502081/bpw974ir_normal.jpg)](http://x.com/i/article/2063294118101688321/sheriyuo)\n\n[Xiuyu Li](http://x.com/i/article/2063294118101688321/sheriyuo)\n\n[@sheriyuo](http://x.com/i/article/2063294118101688321/sheriyuo)\n\n·\n\n12h\n\nFollow\n\nClick to Follow sheriyuo\n\n9\n\n98\n\n935\n\n[91K](http://x.com/i/article/2063294118101688321/sheriyuo/status/2063295181131247674/analytics)\n\nAfter seeing several people receive PhD offers and then immediately land highly paid industry positions during spring recruiting, I started wondering whether going straight into industry might actually be the better move.\n\nSo I went through essentially every RL-related interview experience I could find on Zhihu, combined them with recent discussions and my own observations, and distilled everything into 35 of the most interesting questions.\n\nThink of it as an RL interview benchmark.\n\nCN version in Zhihu: \n\n<https://zhuanlan.zhihu.com/p/2046740446353811230>\n\nA few notes:\n\n• The list does not strictly separate LLM RL from Agentic RL. Some questions have very different answers depending on the setting.\n\n• Nearly every question can be extended much further. No reference answers are provided. If you use an LLM, keep asking follow-up questions and search extensively.\n\n• Modern RL hiring increasingly expects full-stack understanding. If you are an algorithm researcher, people will still ask infrastructure questions. The reverse is also true.\n\n• Data-related questions are not included. Those are almost impossible to memorize and depend heavily on your actual experience.\n\n• Memorizing interview questions is not enough. Deep understanding matters far more.\n\nAlgorithm\n\n1. Why use Actor-Critic instead of a pure Critic approach?\n2. What is the relationship between KL divergence, cross entropy, and MLE?\n3. How should rewards be designed in different RL scenarios?\n4. How do importance sampling, rejection sampling, and other Monte Carlo methods fit into RL?\n5. How is advantage computed in PPO and GRPO? Why subtract a baseline? Is standard deviation normalization really necessary?\n6. How do RL training and test-time scaling perform exploration differently?\n7. How does PPO clipping work? Why take the minimum objective? What happens without clipping? How does CISPO differ?\n8. Why does GRPO include a KL penalty? How is the KL computed? Why do methods such as DAPO and GSPO remove it?\n9. During LLM training, what happens if loss is accidentally All Reduced multiple times?\n10. What is the reward function in DPO? Can reward hacking occur? How can it be mitigated?\n11. What methods address train-inference mismatch in MoE models, and how do they work?\n12. How should group size, learning rate, PPO epochs, and generation length be selected during RL training?\n13. Compared with GRPO, how do Dr.GRPO, DAPO, GSPO, CISPO, SAPO, DPPO, MaxRL, and SimKO improve the training process? What are their limitations?\n14. How do TRPO, DPPO, and AReaL enforce trust-region constraints on RL objectives?\n15. Can RL fundamentally expand the capability frontier of LLMs?\n16. Based on works such as ProRL, how should we think about scaling the boundaries of RL training?\n17. What improvements does OPD introduce over traditional RL and SFT? What are its applications?\n18. At which stage of training does reasoning ability emerge in LLMs?\n19. From DeepSeek R1 to V3.2 and future V4 systems, what RL-related improvements have been introduced? How is RL different in MoE models?\n\nInfrastructure\n\n1. Ignoring CPU offload, how many model copies exist in memory during GRPO training? How much memory can various optimizations",
+      "title": "",
+      "url": "http://x.com/i/article/2063294118101688321"
+    },
+    "http://x.com/i/article/2063325372775575552": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063325372775575552",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063325372775575552/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKJsyqUXYAEvrIY?format=jpg&name=900x900)](http://x.com/i/article/2063325372775575552/dani%5Favila7/article/2063336153630011728/media/2063331196898074625)\n\nHow NVIDIA's SkillSpector works and How to add It to your skill PRs \n\n[![](https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_normal.jpg)](http://x.com/i/article/2063325372775575552/dani%5Favila7)\n\n[Daniel San](http://x.com/i/article/2063325372775575552/dani%5Favila7)\n\n[@dani\\_avila7](http://x.com/i/article/2063325372775575552/dani%5Favila7)\n\n·\n\n9h\n\n·\n\nFollow\n\nClick to Follow dani\\_avila7\n\n2\n\n10\n\n84\n\n[10K](http://x.com/i/article/2063325372775575552/dani%5Favila7/status/2063336153630011728/analytics)\n\nAI agents run code they didn't write. Skills, tools, MCP servers, prompts pulled from external repos. The attack surface is real, and most teams aren't thinking about it yet.\n\nNVIDIA's SkillSpector is their answer, and this is how you run it.\n\n## \n\nWhat it is\n\nSkillSpector is a static security scanner built for AI agent skills (Claude Code, Codex, Antigravity, Cursor, and similar). It answers one question: is this skill safe to install?\n\nRepo: \n\n<https://github.com/nvidia/skillspector>\n\n[![Image](https://pbs.twimg.com/media/HKJtZyPWYAA3KW-?format=jpg&name=small)](http://x.com/i/article/2063325372775575552/dani%5Favila7/article/2063336153630011728/media/2063331869039419392)\n\nIt analyzes the SKILL.md and every script in the folder, runs 64 detection patterns across 16 categories, and produces a risk score from 0 to 100 with a clear verdict. Apache-2.0, so you can read exactly what it's doing.\n\n## \n\nHow it works\n\nThe scanner builds a context from the skill folder, then runs analyzers in parallel:\n\n* Prompt injection and instruction overrides\n* Data exfiltration (env var harvesting, context leakage, external transmission)\n* Supply chain (curl | bash, CVEs via  \n[OSV.dev](http://x.com/i/article/2063325372775575552//OSV.dev)  \n, typosquatting)\n* Behavioral AST (eval, exec, subprocess, dynamic imports)\n* Taint tracking (credentials flowing to the network, file read to exfiltration)\n* YARA signatures for malware, webshells, cryptominers\n* MCP-specific patterns: tool poisoning, unicode deception, least-privilege violations\n\nScoring is additive: LOW +5, MEDIUM +10, HIGH +25, CRITICAL +50\\. A single CRITICAL pattern puts you at 50 before anything else is counted. \n\nIf executable scripts are present, the total is multiplied by 1.3\\. The final number maps to a verdict on a 0–100 scale, anything above 50 is blocked automatically.\n\n[![Image](https://pbs.twimg.com/media/HKJt7DmWYAAR0HB?format=jpg&name=small)](http://x.com/i/article/2063325372775575552/dani%5Favila7/article/2063336153630011728/media/2063332440634974208)\n\nReports come out as terminal output, JSON, Markdown, or SARIF, which is what makes it drop into CI cleanly.\n\n## \n\nAdding it to your Skill PRs\n\nSkillSpector plugs into GitHub Actions without much ceremony.\n\n[![Image](https://pbs.twimg.com/media/HKJwbnlWgAAVRf_?format=jpg&name=small)](http://x.com/i/article/2063325372775575552/dani%5Favila7/article/2063336153630011728/media/2063335199073533952)\n\nOn every PR that touches your skills directory, only the changed skills are scanned, fast, deterministic, no API keys needed in --no-llm mode. The scan posts a Markdown report directly on the PR, uploads SARIF to the Security tab, and blocks the merge if any skill scores above 50\\. A separate weekly workflow scans the full registry for ongoing visibility but never blocks. The gate only lives on PRs.\n\nSeen in practice: Claude Code Templates\n\nClaude Code Templates (\n\n[aitmpl.com](http://x.com/i/article/2063325372775575552//aitmpl.com)\n\n) runs SkillSpector on every PR that adds or modifies a skill in the registry. \n\nCheck this PR: \n\n<https://github.com/davila7/claude-code-templates/pull/623>\n\n[!",
+      "title": "",
+      "url": "http://x.com/i/article/2063325372775575552"
+    },
+    "http://x.com/i/article/2063369932725796864": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063369932725796864",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063369932725796864/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKKem40WcAA-YVT?format=jpg&name=900x900)](http://x.com/i/article/2063369932725796864/freddiexpott/article/2063386291606012208/media/2063385970213285888)\n\nHow To Actually Print With Content (Not Just DMs...) \n\n[![](https://pbs.twimg.com/profile_images/2005472895653629952/8Gmp57DF_normal.jpg)](http://x.com/i/article/2063369932725796864/freddiexpott)\n\n[Frederick Potticary](http://x.com/i/article/2063369932725796864/freddiexpott)\n\n[@freddiexpott](http://x.com/i/article/2063369932725796864/freddiexpott)\n\n·\n\n6h\n\nFollow\n\nClick to Follow freddiexpott\n\n1\n\n1\n\n10\n\n[229](http://x.com/i/article/2063369932725796864/freddiexpott/status/2063386291606012208/analytics)\n\nmost mfs will grind their DMs, send hundreds of messages a week, and post the occasional random thing on their profile because someone told them they \"should be posting.\"\n\nso their content does nothing.\n\nit's a few disconnected posts with no strategy, consistency, or real purpose, sitting on a profile that prospects glance at and forget.\n\nand then they conclude content doesn't work lol.\n\nnow, they're half right.\n\nlazy content genuinely does nothing.\n\nbut content done properly is one of the most powerful revenue tools you have, and it does 3 things outbound alone can't.\n\nit books calls on its own, pulling in warm inbound from people who found you rather than the other way around.\n\nit makes your outbound convert better, because every prospect you message checks your profile, and strong content is what convinces them you're worth replying to.\n\nit compounds, building an audience and a reputation over time so that your pipeline keeps getting easier instead of resetting to zero every month.\n\nso let me break down how to make content actually print:\n\n## \n\nWhy Content And Outbound Work Better Together\n\nbefore the how, you need to understand why content matters even if outbound is your main engine.\n\nevery single prospect you reach out to does one thing before they reply. they click your profile to see who you are.\n\nwhat they find in that moment decides whether the conversation goes anywhere.\n\nif they land on a profile with nothing on it, no posts, no proof you know your space, just a name and a job title, your message loses credibility instantly. you look like every other random person sliding into their DMs.\n\nif they land on a profile with a steady stream of sharp, relevant content that proves you deeply understand the problem you solve, your message gains credibility. now you're not a stranger pitching them, you're someone who clearly knows their world, reaching out.\n\nso even if you never wanted content to be a lead source on its own, it still raises your reply rate on everything else you do. it's the credibility layer underneath your entire outbound effort.\n\nand that's before content starts booking calls on its own, which it will once it's running properly.\n\n## \n\nThe 3 Types Of Content That Actually Book Calls\n\n[![Image](https://pbs.twimg.com/media/HKKasPsXYAAP4Zj?format=jpg&name=small)](http://x.com/i/article/2063369932725796864/freddiexpott/article/2063386291606012208/media/2063381664206643200)\n\nhere's where most people go wrong. they post randomly, no structure, no plan, just whatever comes to mind that day.\n\ncontent that prints is built around 3 specific types, each with a job. you want a mix of all 3, because together they move a stranger from never having heard of you to trusting you enough to have a conversation.\n\n1\\. Personal Posts\n\nthese are about your journey, your story, your unique takes on your industry.\n\ntheir job is to build connection. people buy from people, and if you only ever post pure information, you become a faceless account nobody feels anything about. personal posts make prospects feel like they know you, which is what makes them comfortable reaching out.\n\nthis isn't about overs",
+      "title": "",
+      "url": "http://x.com/i/article/2063369932725796864"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -7904,6 +8155,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "We read OpenAI's and Anthropic's data-agent posts so you don't have to We read OpenAI's and Anthropic's data-agent posts so you don't have to",
       "url": "https://datachain.ai/blog/openai-anthropic-data-agents"
+    },
+    "https://declank.skeptrune.com/": {
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Declank removes AI generator watermarks (Gemini, Doubao, Jimeng, Samsung), invisible signals, and metadata from your images. No blur, no sign-up, free.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://declank.skeptrune.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://declank.skeptrune.com/og.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Declank: Remove AI Watermarks From Images Online, Free",
+      "url": "https://declank.skeptrune.com/"
     },
     "https://delete-images-button.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -11126,6 +11392,21 @@
       "text_excerpt_zh": "",
       "title": "GitHub - freestylefly/openclaw-wechat: 让 OpenClaw稳定的连上你的个人微信 · GitHub",
       "url": "https://github.com/freestylefly/openclaw-wechat"
+    },
+    "https://github.com/garrytan/gbrain": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain. Contribute to garrytan/gbrain development by creating an account on GitHub.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/garrytan/gbrain",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/cee8d69e60aef8c11928e9f1e951621e0ed1c348a004d973c96fa27d5d6617c9/garrytan/gbrain"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain · GitHub",
+      "url": "https://github.com/garrytan/gbrain"
     },
     "https://github.com/garrytan/gstack": {
       "content_type": "text/html; charset=utf-8",
@@ -14751,6 +15032,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Building Pi With Pi | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/5/24/pi-oss/"
+    },
+    "https://lucumr.pocoo.org/2026/6/6/communities-of-not/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "On the strange hostility that grows in communities built around abstinence.",
+      "final_url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "frameable": null,
+      "image_urls": [
+        "https://lucumr.pocoo.org/social/2026-06-06-communities-of-not-social.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Armin Ronacher 's Thoughts and Writings blog archive projects travel talks about Communities of Not written on June 06, 2026 There is a strange thing that happens in communities that gather around abstinence from something: identity from opposition. At their best these communities are not just negative: childfree spaces can be about autonomy, choice and acceptance, anti-car spaces about safer streets and transit, and LLM-skeptical developer spaces about the future of labor, code quality and slop 1 . But the thing being refused often does not go away and instead becomes the main subject of the community’s identity. That would be fine if it stayed at criticism, maybe even angry criticism, but more often than not it turns into policing and hatred towards others. An influencer without children becomes a parent, an urban bike commuter by choice buys a Porsche, a respected developer tries LLMs, and the community feels betrayed because it assumed they were members of the same tribe. The expulsion of that person (who never signed up to be a community member) is entirely imaginary but the punishment that the community unleashes is not: people pile on and shame them, quote them out of context and turn their weakest moments into proof that the person was always unserious, a sharlatan or should not be listened to. I do not think the answer is to tell people to stop paying attention. Cars shape cities even for people who cycle, children influence politics, workplaces and taxes even for people who do not have them. For us developers, LLMs show up in editors, issue trackers, hiring conversations, management pressure and code reviews whether we asked for them or not. Resisting that can be legitimate but that is no excuse for using one’s rejection to justify shitty mob behavior. I understand the thinking all too well, because I have done versions of this myself in the past. It took me a while to become more accepting of other people’s worldviews that diverge from mine. Whatever insecurities we have, finding a group of others sharing them can be comforting. The danger is that being part of a crowd of negativity can easily make us part of collective harassment. I can only encourage you to breathe, slow down, de-escalate when given the chance, and resist the temptation to always assume the most catastrophic reading. Default to being open to new things . Being negative towards something, and making that ones identity, is an easy trap to fall into. These examples are not meant as equivalents. The recent mob against rsync is the LLM version that prompted this post. I picked the others because I’m familiar with those communities and they all show similar cases of personal choices being interpreted as betrayal. ↩ This entry was tagged ai and thoughts copy as / view markdown © Copyright 2026 by Armin Ronacher. Content licensed under the Creative Commons Attribution-NonCommercial 4.0 International License . Contact me via mail , bluesky , x , or github . You can sponsor me on github . More info: imprint & AI transparency . Subscribe via atom / RSS . Color scheme: auto , light , dark .",
+      "title": "Communities of Not | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/"
     },
     "https://lukew.com/ff/entry.asp?2106": {
       "cleaner_v": 2,
@@ -19942,6 +20237,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2062734837371293696/img/8P5Nlb5lzbFbn0sc.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2063103304247205888/img/t_5qt255teOLMClU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063103304247205888/img/t_5qt255teOLMClU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063103304247205888/img/t_5qt255teOLMClU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063103304247205888/img/t_5qt255teOLMClU.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -19955,6 +20264,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2063314313142849536/img/hFJLvE24FCGN9tC0.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063314313142849536/img/hFJLvE24FCGN9tC0.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063314313142849536/img/hFJLvE24FCGN9tC0.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063314313142849536/img/hFJLvE24FCGN9tC0.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2063316740004597760/img/mBwsuEJg0U9wJ5qn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063316740004597760/img/mBwsuEJg0U9wJ5qn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063316740004597760/img/mBwsuEJg0U9wJ5qn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063316740004597760/img/mBwsuEJg0U9wJ5qn.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -28790,6 +29155,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
     },
+    "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg"
+    },
     "https://pbs.twimg.com/media/HKJmIoqXoAAUs_y.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28957,6 +29336,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HKD31NubgAAsKb8.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -30055,6 +30448,22 @@
       "title": "Stitch - Design with AI",
       "url": "https://stitch.withgoogle.com/"
     },
+    "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "You’ve almost certainly encountered Conventional Commits before. It may have reared its ugly head in the changelog of an open source project you’ve used. It may have been the enforced commit format for an open source project you contributed to. A lot of people swear by it. I swear at it. Even though it is used by a large number of popular open source projects, Conventional Commits is an actively bad standard which encourages focus on the wrong things and fails to deliver on its promises.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "frameable": null,
+      "image_urls": [
+        "https://sumnerevans.com/profile_hu_ec6b45997520a46d.webp",
+        "https://notbyai.fyi/img/written-by-human-not-by-ai-black.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Posted\non\nin\n[Software Engineering](https://sumnerevans.com/categories/software-engineering)\n• 1882 words\n• 9 minute read\nTags:\n[Git](https://sumnerevans.com/tags/git), [Commits](https://sumnerevans.com/tags/commits), [Scoped Commits](https://sumnerevans.com/tags/scoped-commits), [Conventional Commits](https://sumnerevans.com/tags/conventional-commits)\nYou’ve almost certainly encountered\n[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) before.\nIt may have reared its ugly head in the changelog of an open source project\nyou’ve used. It may have been the enforced commit format for an open source\nproject you contributed to. A lot of people swear by it. I swear at it.\nEven though it is used by\n[a](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md)\n[large](https://electronjs.org/docs/development/pull-requests#commit-message-guidelines)\n[number](https://contribute.freecodecamp.org/how-to-contribute-to-the-codebase/)\n[of](https://jenkins-x.io/community/code/)\n[popular](https://github.com/conventional-changelog/commitlint/blob/master/.github/CONTRIBUTING.md)\n[open](https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md)\n[source](https://github.com/nuxt/nuxt/blob/main/CONTRIBUTING.md)\n[projects](https://github.com/vitejs/vite/blob/main/.github/commit-convention.md),\nConventional Commits is an actively bad standard which\n[encourages focus on the wrong things](https://sumnerevans.com#focus-failure) and\n[fails to deliver on its promises](https://sumnerevans.com#broken-promises).\nFocus Failure\nConventional Commits promises to add semantic meaning to commit messages to aid\ndevelopers and end-users in understanding the changes made in a commit. However,\nConventional Commits fails to do this in spectacular fashion. To demonstrate\nthis, let’s look at the anatomy of a conventional commit. According to the\n[Conventional Commit website](https://www.conventionalcommits.org/en/v1.0.0/#summary)\ncommit messages should be formatted as follows:\n<type>[optional scope]: <description>\n[optional body]\n[optional footer(s)]\nThe commit’s subject line has a <type>\n(something like fix\n, feat\n, chore\n,\ndocs\n, or refactor\n[1](https://sumnerevans.com#fn:1)) describing the type of change. Following that, there\nis an optional scope, and then a description.\nThis format has a major failing: type is prioritised over scope. This is exactly backwards.\nScope > Type\nThe scope of a change (the subject of the change) is the most important part of a commit. To demonstrate this, let’s consider why each one of the following stakeholders care about the scope of the change more than the type of the change:\nContributors: when you are a contributor to a project, you often need to read the commit log to identify changes in the codebase relevant to a certain area of the code. There are many reasons for this including:\n- Wanting to catch up on what has happened since the last time you contributed.\n- Trying to understand where the project’s overall inertia is.\n- Looking for commits that might conflict with your in-progress work when pulling or rebasing.\nAs you read the commit log, you’re looking at what areas were touched. You really do not care about the type of change happening, you care about the scope of the change.\nDebuggers: when investigating a bug, you often want to look through the commit log to see what changes might have touched areas related to the component where the bug manifested. Once again, the scope is the most important piece of information. The type of change is entirely useless because bugs can be introduced in any change regardless of type. (I’m sure we’ve all experienced writing a bugfix that caused another bug.)\nIncident responders: when production is down, scanning the commit log for changes that were made around the time of the outage is an effective way to identify what areas may be causing the problem. Scope is once again the most important piece of information you can h",
+      "title": "Stop Using Conventional Commits - Sumner Evans",
+      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/"
+    },
     "https://syncless.ai": {
       "content_type": "text/html",
       "description": "",
@@ -30518,6 +30927,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "iii-state - iii worker",
       "url": "https://workers.iii.dev/workers/iii-state"
+    },
+    "https://www.0xkato.xyz/how-llms-actually-work/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A from-the-ground-up walkthrough of how modern LLMs work, from tokens to transformer blocks to the next-token loop",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.0xkato.xyz/how-llms-actually-work/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.0xkato.xyz/assets/transformer-pipeline.png",
+        "https://www.0xkato.xyz/assets/transformer-tokenization.png",
+        "https://www.0xkato.xyz/assets/transformer-embedding-analogy.png",
+        "https://www.0xkato.xyz/assets/transformer-rope.png",
+        "https://www.0xkato.xyz/assets/transformer-attention-heatmap.png",
+        "https://www.0xkato.xyz/assets/transformer-multi-head-attention.png",
+        "https://www.0xkato.xyz/assets/transformer-ffn.png",
+        "https://www.0xkato.xyz/assets/transformer-residual-stream.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "How LLMs Actually Work\n- 26 minsThis post is a walkthrough of how LLMs work. Modern LLMs are mostly built by stacking transformer blocks over and over, so understanding the transformer machinery gets you most of the way there.\nI’ll cover the core mechanisms inside modern transformer-based LLMs, without all that sticky math stuff. Don’t get me wrong, you should learn the math, but this can serve as an introduction.\nMost modern LLMs share the same transformer-family skeleton. The differences come from what each one was trained on, the scale and configuration choices, and the post-training done on top. By the end, you should be able to read many modern LLM papers or model cards and know which piece of the architecture each section is talking about.\nHere’s the path:\n- Tokens, how a string of text becomes a sequence of integers\n- Embeddings, how those integers get meaning\n- Positional encoding, how the model knows what order the tokens came in\n- Attention, how tokens share information with each other\n- Multi-head attention, how the model tracks many kinds of relationships at once\n- The feed-forward network, where a large share of the model’s stored structure lives\n- The residual stream and layer normalization, what makes deep stacks trainable\n- Predicting the next token, what the model actually outputs and how the generation loop works\n- Architecture vs trained weights, what’s broadly shared across modern LLMs, and what’s different\nTiny explainers appear throughout so anyone can follow along, regardless of background.\nTokenization\nModels don’t read text directly. They read integer IDs. The step that converts your prompt into a sequence of those integers.\nThat conversion step is called tokenization. A tokenizer takes a string and produces a sequence of integers, where each integer points to an entry in a fixed vocabulary. Modern LLM vocabularies usually contain tens of thousands to a few hundred thousand entries.\nTiny explainer: token ID\nA token ID is the integer the model uses for one vocabulary entry. The model works with the number, not the written word itself.\nTokens aren’t usually whole words. They’re usually subword pieces. The word “tokenization” might split into [“token”, “ization”]. The word “running” might split into [“run”, “ning”]. The reason is efficiency. Whole-word vocabularies are too big and don’t generalize to new words. Character-level vocabularies are too small and force the model to learn even the simplest patterns from scratch. Subword tokenization sits in the middle. The most common pieces become single tokens, and rare or novel words get composed from smaller pieces.\nTiny explainer: vocabulary\nThe vocabulary is the tokenizer’s fixed list of pieces. Each piece has an ID, and the model can only directly receive IDs from that list.\nThe trade-off shows up in places people don’t expect. The classic example: ask an LLM how many R’s are in “strawberry.” LLMs used to get it wrong. That’s not the model failing at counting. It’s the model not operating on letters directly, only token IDs that happen to spell out a word a human would split letter by letter.\nDifferent model families use different tokenizers. GPT models use Byte Pair Encoding variants. SentencePiece is common in LLaMA-style models. The choice matters for compute (fewer tokens means less work) and for things like multilingual coverage, but the basic shape is the same. Text in, integers out.\nNow that the prompt is a sequence of integers, the next step is to give those integers meaning.\nEmbeddings\nA token ID like 1024\nis just a row index. It doesn’t mean anything by itself. The thing that gives it meaning is a giant table called the embedding matrix.\nEvery model has one. It has one row per entry in the vocabulary, and each row is a long vector of numbers. The length of each row is the model’s hidden size. In many 7B-class models, that means 4,096 numbers per token. Larger models usually use wider vectors.\nTiny explainer: vector\nA vector is a list of numbers.",
+      "title": "How LLMs Actually Work | 0xkato",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/"
     },
     "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api": {
       "cleaner_v": 2,
@@ -36363,6 +36794,19 @@
       "title": "- YouTube",
       "url": "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
     },
+    "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=ytqFmiQuOqAuA4qm&v=CEvIs9y1uog&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm"
+    },
     "https://youtu.be/GcqQ1ebBqkc?si=diMoCRgrSR69ky60": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -36479,6 +36923,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://youtu.be/sboNwYmH3AY"
+    },
+    "https://youtu.be/wkv2ifxPpF8?si=rJWIwXGDb5FtqsNW": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=rJWIwXGDb5FtqsNW&v=wkv2ifxPpF8&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/wkv2ifxPpF8?si=rJWIwXGDb5FtqsNW"
     },
     "https://youtu.be/zjkBMFhNj_g": {
       "content_type": "text/html; charset=utf-8",
@@ -44957,6 +45414,11 @@
       "https://x.com/bibryam/status/2063027333766803536",
       "https://claude.com/blog/using-llms-to-secure-source-code"
     ],
+    "2063072796146897370": [
+      "https://x.com/ivenvd/status/2063072796146897370",
+      "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "https://x.com/ivenvd/status/2063147365520028027"
+    ],
     "2063092277145489665": [
       "https://x.com/manthanguptaa/status/2063092277145489665",
       "https://x.com/manthanguptaa/status/2063119719545385305"
@@ -44971,6 +45433,20 @@
       "https://pbs.twimg.com/amplify_video_thumb/2063143684233969664/img/jcQTr0SzFSqrhY8-.jpg",
       "https://x.com/neural_avb/status/2063193354154999835"
     ],
+    "2063156455159861723": [
+      "https://x.com/ramxcodes/status/2063156455159861723",
+      "http://x.com/i/article/2062943721902235648",
+      "https://x.com/ramxcodes/status/2063162826412396886",
+      "https://x.com/ramxcodes/status/2063163900166893909",
+      "https://x.com/ramxcodes/status/2063158714425868549",
+      "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg",
+      "https://x.com/ramxcodes/status/2063235824699990156",
+      "https://x.com/ramxcodes/status/2063161213979328956",
+      "https://x.com/ramxcodes/status/2063314230431089119",
+      "https://x.com/ramxcodes/status/2063189057065365645",
+      "https://x.com/ramxcodes/status/2063305342784815198",
+      "https://x.com/ramxcodes/status/2063236037074374745"
+    ],
     "2063206960799866988": [
       "https://x.com/kieran__duff/status/2063206960799866988",
       "http://x.com/i/article/2063175884312301568",
@@ -44982,10 +45458,170 @@
       "http://x.com/i/article/2061125977577529344",
       "https://x.com/DamiDefi/status/2063267755843883354",
       "https://x.com/DamiDefi/status/2063263918730998096",
-      "https://x.com/DamiDefi/status/2063263795087134820",
-      "https://x.com/DamiDefi/status/2063263725243465777"
+      "https://x.com/DamiDefi/status/2063263725243465777",
+      "https://x.com/DamiDefi/status/2063263795087134820"
+    ],
+    "2063237796060610700": [
+      "https://x.com/bojie_li/status/2063237796060610700"
+    ],
+    "2063242450542710881": [
+      "https://x.com/bit2swaz/status/2063242450542710881",
+      "http://x.com/i/article/2063189579990257664",
+      "https://x.com/bit2swaz/status/2063401897562947986",
+      "https://x.com/bit2swaz/status/2063402063669981570"
+    ],
+    "2063260427619008751": [
+      "https://x.com/aashatwt/status/2063260427619008751",
+      "http://x.com/i/article/2063236351328411648"
+    ],
+    "2063265397361586451": [
+      "https://x.com/nisedo_/status/2063265397361586451",
+      "https://www.0xkato.xyz/how-llms-actually-work/",
+      "https://x.com/nisedo_/status/2063414644035723669"
+    ],
+    "2063276021881729037": [
+      "https://x.com/mogulinfluence/status/2063276021881729037",
+      "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg",
+      "https://x.com/mogulinfluence/status/2063276027548200989",
+      "https://x.com/mogulinfluence/status/2063276030404534664",
+      "https://mogulmedia.beehiiv.com/"
+    ],
+    "2063280970233496036": [
+      "https://x.com/mitsuhiko/status/2063280970233496036",
+      "https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "https://x.com/mitsuhiko/status/2063329018603061463"
+    ],
+    "2063289940310372596": [
+      "https://x.com/Voxyz_ai/status/2063289940310372596",
+      "http://x.com/i/article/2063265407838957569",
+      "https://x.com/Voxyz_ai/status/2063337298867929269"
+    ],
+    "2063291588932141302": [
+      "https://x.com/iamsahaj_xyz/status/2063291588932141302",
+      "http://x.com/i/article/2063273395320750080"
+    ],
+    "2063294444175278458": [
+      "https://x.com/everestchris6/status/2063294444175278458",
+      "http://x.com/i/article/2062918752191356928"
+    ],
+    "2063295181131247674": [
+      "https://x.com/sheriyuo/status/2063295181131247674",
+      "http://x.com/i/article/2063294118101688321"
+    ],
+    "2063297251951194219": [
+      "https://x.com/cathrynlavery/status/2063297251951194219"
+    ],
+    "2063303909280805093": [
+      "https://x.com/nurijanian/status/2063303909280805093",
+      "https://x.com/nurijanian/status/2063473753959678243",
+      "http://nurijanian.substack.com",
+      "http://prodmgmt.world"
+    ],
+    "2063311666402529546": [
+      "https://x.com/traviscurnutte/status/2063311666402529546"
+    ],
+    "2063314381203738690": [
+      "https://x.com/Av1dlive/status/2063314381203738690",
+      "https://pbs.twimg.com/amplify_video_thumb/2063314313142849536/img/hFJLvE24FCGN9tC0.jpg",
+      "https://x.com/Av1dlive/status/2063315499623297220",
+      "https://youtu.be/wkv2ifxPpF8?si=rJWIwXGDb5FtqsNW",
+      "https://github.com/garrytan/gbrain",
+      "https://github.com/garrytan/gstack",
+      "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm",
+      "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+      "https://x.com/garrytan/status/2053127519872614419",
+      "https://x.com/Av1dlive/status/2063357589027725665",
+      "https://x.com/Av1dlive/status/2063357582119690319",
+      "https://x.com/Av1dlive/status/2063357609680458182",
+      "https://x.com/Av1dlive/status/2063357575660458199",
+      "https://x.com/Av1dlive/status/2063318727291191495",
+      "https://x.com/Av1dlive/status/2063357637228658983",
+      "https://x.com/Av1dlive/status/2063357595864400171",
+      "https://x.com/Av1dlive/status/2063318811772854380",
+      "https://x.com/Av1dlive/status/2063321388799463899",
+      "https://x.com/Av1dlive/status/2063318874133827884"
+    ],
+    "2063316993101480353": [
+      "https://x.com/ericosiu/status/2063316993101480353",
+      "https://pbs.twimg.com/amplify_video_thumb/2063103304247205888/img/t_5qt255teOLMClU.jpg",
+      "https://x.com/ericosiu/status/2063369998483980531",
+      "http://newsletter.levelingup.com"
+    ],
+    "2063317667310887383": [
+      "https://x.com/creatorpascal/status/2063317667310887383",
+      "http://x.com/i/article/2053482765333540868",
+      "https://x.com/creatorpascal/status/2062862324533240088",
+      "http://x.com/i/article/2050344788281503744"
+    ],
+    "2063318596202242171": [
+      "https://x.com/0x_rody/status/2063318596202242171",
+      "https://pbs.twimg.com/amplify_video_thumb/2063316740004597760/img/mBwsuEJg0U9wJ5qn.jpg"
+    ],
+    "2063329359910392293": [
+      "https://x.com/scaling_shields/status/2063329359910392293",
+      "http://x.com/i/article/2062498852481925120",
+      "https://x.com/scaling_shields/status/2063329867379212696",
+      "https://x.com/scaling_shields/status/2063333408890139092"
+    ],
+    "2063333708455645425": [
+      "https://x.com/rileywestreel/status/2063333708455645425",
+      "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg",
+      "https://x.com/rileywestreel/status/2063360517805146118",
+      "https://x.com/rileywestreel/status/2063350017918689557",
+      "https://x.com/rileywestreel/status/2063349751756497029",
+      "https://x.com/rileywestreel/status/2063379584662307173",
+      "https://x.com/rileywestreel/status/2063351669551677564",
+      "https://x.com/rileywestreel/status/2063335359941841022",
+      "https://x.com/rileywestreel/status/2063337222997209550",
+      "https://x.com/rileywestreel/status/2063360814132736079"
+    ],
+    "2063336153630011728": [
+      "https://x.com/dani_avila7/status/2063336153630011728",
+      "http://x.com/i/article/2063325372775575552"
+    ],
+    "2063338558346105095": [
+      "https://x.com/dani_avila7/status/2063338558346105095",
+      "http://aitmpl.com"
+    ],
+    "2063344171579002881": [
+      "https://x.com/Voxyz_ai/status/2063344171579002881",
+      "https://x.com/Voxyz_ai/status/2062928213605543938",
+      "http://x.com/i/article/2062891077359595520"
+    ],
+    "2063346284149235876": [
+      "https://x.com/tonysimons_/status/2063346284149235876",
+      "https://x.com/tonysimons_/status/2063386368290496638"
+    ],
+    "2063349737089331531": [
+      "https://x.com/bibryam/status/2063349737089331531",
+      "http://x.com/i/article/2060705098053890053"
+    ],
+    "2063371983300300886": [
+      "https://x.com/skeptrune/status/2063371983300300886",
+      "https://declank.skeptrune.com/",
+      "https://x.com/skeptrune/status/2063468260843266158",
+      "https://x.com/skeptrune/status/2063388820029206635",
+      "https://x.com/skeptrune/status/2063381282353303714",
+      "https://x.com/skeptrune/status/2063469620649132174",
+      "https://x.com/skeptrune/status/2063469480135856360",
+      "https://x.com/skeptrune/status/2063469803067912408",
+      "https://x.com/skeptrune/status/2063470639898583043",
+      "https://x.com/skeptrune/status/2063469898437963904",
+      "https://x.com/skeptrune/status/2063375588438806970"
+    ],
+    "2063376019462172894": [
+      "https://x.com/0xMoysei/status/2063376019462172894",
+      "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg",
+      "https://x.com/0xMoysei/status/2063377640661139755"
+    ],
+    "2063386291606012208": [
+      "https://x.com/freddiexpott/status/2063386291606012208",
+      "http://x.com/i/article/2063369932725796864"
+    ],
+    "2063429138304668093": [
+      "https://x.com/Vtrivedy10/status/2063429138304668093"
     ]
   },
-  "updated_at": "2026-06-07T00:17:08Z",
+  "updated_at": "2026-06-07T04:59:08Z",
   "window": "recent"
 }
