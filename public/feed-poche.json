@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "count": 684,
+      "count": 685,
       "name": "Tools"
     },
     {
-      "count": 414,
+      "count": 415,
       "name": "Development"
     },
     {
-      "count": 325,
+      "count": 326,
       "name": "Design"
     },
     {
-      "count": 310,
+      "count": 312,
       "name": "Articles"
     },
     {
@@ -25,11 +25,11 @@
       "name": "Media"
     },
     {
-      "count": 75,
+      "count": 76,
       "name": "Other"
     },
     {
-      "count": 32,
+      "count": 33,
       "name": "Crypto"
     },
     {
@@ -38,8 +38,232 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2247,
+  "item_count": 2252,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_image_urls": [
+        "https://opengraph.githubassets.com/9633fea35cc2c8f35a6dbe49e7934467049cf832e440c7fb64d6316b6c8d7b89/b-nnett/goose",
+        "https://github.com/b-nnett/goose/raw/main/docs/assets/readme-hero.png"
+      ],
+      "article_title_extracted": "GitHub - b-nnett/goose: Goose Swift proof-of-concept README · GitHub",
+      "category": "Development",
+      "created_at": "2026-06-08T04:35:27.565272Z",
+      "description": "Goose Swift proof-of-concept README. Contribute to b-nnett/goose development by creating an account on GitHub.",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k174anf30z7aqnb3bw37j0tbk5889d6y",
+      "og_image_url": "https://opengraph.githubassets.com/77eb922fce4d56386deb9b4090f1230e0dcb0eeba79d1de26ad5decc776cb71d/b-nnett/goose",
+      "recommended_at": "2026-06-08T04:36:13.107000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "swift",
+        "programming-language",
+        "proof-of-concept"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T04:36:13.107000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "GitHub - b-nnett/goose: Goose Swift proof-of-concept README · GitHub",
+      "url": "https://github.com/b-nnett/goose",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_image_urls": [
+        "https://ironhill.au/sharing-global.jpg"
+      ],
+      "article_title_extracted": "Ironhill | A place the maps don’t show",
+      "category": "Other",
+      "created_at": "2026-06-08T04:35:34.170692Z",
+      "description": "Shake off the grip of your daily grind and come watch the mist sit low, heat your hands by the embers’ warm, and step onto the Ironhill.",
+      "domain": "ironhill.au",
+      "embed_type": "",
+      "id": "k17cfrbdw73aj20mb3nhe8vfr1889szn",
+      "og_image_url": "https://ironhill.au/sharing-global.jpg",
+      "recommended_at": "2026-06-08T04:36:11.546000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "glamping",
+        "nature-retreat",
+        "travel"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T04:36:11.546000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Ironhill | A place the maps don’t show",
+      "url": "https://ironhill.au/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_image_urls": [
+        "https://trysoar.com/Soar/ogimage.jpg",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-background.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2FSoarLogoNavbar.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-device-strip.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-floating-card.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fdonotsmoke.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Ftradeany.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Ftrusted-device.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/Soar/logotrusted_01.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/Soar/logotrusted_02.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/Soar/logotrusted_03.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
+        "https://trysoar.com/Soar/logotrusted_04.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ"
+      ],
+      "article_title_extracted": "SOAR — trade pre-IPO startups",
+      "category": "Crypto",
+      "created_at": "2026-06-08T04:35:58.366765Z",
+      "description": "Trade synthetic markets on pre-IPO startups like OpenAI, Anthropic, and SpaceX. SOAR is the Robinhood for private companies. Join the waitlist for early access.",
+      "domain": "trysoar.com",
+      "embed_type": "",
+      "id": "k17282zhjpcbj5c5zaky01gcpn8898j6",
+      "og_image_url": "https://trysoar.com/Soar/ogimage.jpg",
+      "recommended_at": "2026-06-08T04:36:09.897000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "pre-ipo",
+        "fintech",
+        "investing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T04:36:09.897000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "SOAR — trade pre-IPO startups",
+      "url": "https://trysoar.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://framerusercontent.com/assets/WEqOuc8Jpvg2ytIvYRzPS8oKQ.jpg",
+        "https://framerusercontent.com/images/X8K2iCW5Tob8sQuioDPe6TJEU.png?width=40&height=40"
+      ],
+      "article_text": "Log in Sign up Copy Logo as SVG Brand Guidelines Product Teams Resources Community Support Enterprise Pricing Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples Developers Search Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples A peek into the future Join us on June 16 at 10 AM PDT as we unveil the future of designing , followed by a 24 hour hackathon. Watch the event live on framer.com or our YouTube channel . Join us on June 16 at 10 AM PDT as we unveil the future of designing , followed by a 24 hour hackathon. Watch the event live on framer.com or our YouTube channel . Add to your calendar Get an AI summary of Framer © Framer B.V. 2026",
+      "article_title_extracted": "Framer: Live Events",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-08T04:23:52.670297Z",
+      "description": "Join us on June 16 at 10 AM PDT as we unveil the future of designing, followed by a 24 hour hackathon. Watch live on framer.com or our YouTube channel.",
+      "domain": "www.framer.com",
+      "embed_type": "",
+      "id": "k1732hp8e4pb3ds6yxm7cnphxh88830a",
+      "og_image_url": "https://framerusercontent.com/assets/WEqOuc8Jpvg2ytIvYRzPS8oKQ.jpg",
+      "recommended_at": "2026-06-08T04:29:21.192000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-design",
+        "framer",
+        "hackathon"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T04:29:21.192000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Framer: Live Events",
+      "url": "https://www.framer.com/events/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_image_urls": [
+        "https://macatron.ai/og-image.png",
+        "https://www.macatron.ai/siri-logo.png",
+        "https://www.macatron.ai/icons/finder.jpg",
+        "https://www.macatron.ai/icons/mail.jpg",
+        "https://www.macatron.ai/icons/music.jpg",
+        "https://www.macatron.ai/icons/System_Preferences_icon.png",
+        "https://www.macatron.ai/icons/reminders.jpg"
+      ],
+      "article_title_extracted": "Mac-1 — The Siri You Always Wanted",
+      "category": "Tools",
+      "created_at": "2026-06-08T04:18:47.046308Z",
+      "description": "Mac-1 is a private AI model that runs entirely on your Mac. No cloud, No API, No data ever leaves your machine.",
+      "domain": "www.macatron.ai",
+      "embed_type": "",
+      "id": "k170qzssvj4pdf917p9azeeqr9888xm5",
+      "og_image_url": "https://macatron.ai/og-image.png",
+      "recommended_at": "2026-06-08T04:18:54.851000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "privacy",
+        "macos"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T04:18:54.851000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Mac-1 — The Siri You Always Wanted",
+      "url": "https://www.macatron.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "category": "Tools",
+      "created_at": "2026-06-08T02:41:23.435335Z",
+      "description": "有没有想过，广告商是怎么跨App和网站认出你的？答案通常是指纹识别：关于你设备的一些细小、普通的信息，被组合在一起，直到这个组合罕见到足以指向你本人。\n\nLoupe让你亲眼看到这些信息。它调用第三方App所用的同一批公开iOS接口，把原始数据呈现给你，并解释它为何重要。\n\n你能探索什么\n跟踪器不需要你的姓名、邮箱或位置，就能认出你。你的地区、语言、设置、存储和传感器，会形成一种足够独特的模式，在网上一路跟随你。Loupe把这些读数集中到一处，让你清楚看到自己正在共享什么。\n\n三种访问级别\nLoupe按每项读数所需的访问权限多少来分类：\n\n- 被动：任何App都能读取，完全没有提示，从时区、键盘语言到电池和存储。\n- 需要权限：会触发iOS提示的读数，比如位置、通讯录、照片和运动与健身。\n- 高级：公开接口允许的旁路手段，比如检查你装了哪些App、在隐藏的浏览器里做图形检测，以及一条能在重装App后依然留存的记录。\n\n没有任何信息离开你的iPhone\nLoupe在你的设备上读取一切，并把它们留在本机。除非你自己导出，否则不会上传、同步或分享任何内容。没有账户，也没有分析统计。\n\n你可以看看这些\n- 透露你居住地和出行地的地区、语言和设置\n- 你的屏幕、图形、存储和电池细节\n- 已配对配件上的名称，常常会泄露你本人的名字\n- 你装了哪些热门App，无需任何权限即可推断出来\n- 你的设备完成设置或上次抹掉的精确时刻\n\nLoupe由安全研究团队Mysk打造。它揭示你iPhone上可被用来跟踪你的那些信息，让你自己决定如何应对。",
+      "domain": "apps.apple.com",
+      "embed_type": "",
+      "id": "k17cx8d33hrp4ecehrywv478vh888vje",
+      "og_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/ed/51/44ed5101-df5a-a063-4f9c-4607d391eb9f/Placeholder.mill/1200x630wa.jpg",
+      "recommended_at": "2026-06-08T03:55:22.255000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "privacy",
+        "fingerprinting",
+        "ios-security"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T03:55:22.255000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "‎Loupe：App能看到什么 App - App Store",
+      "url": "https://apps.apple.com/us/app/loupe-app%E8%83%BD%E7%9C%8B%E5%88%B0%E4%BB%80%E4%B9%88/id6766152470?l=zh-Hans-CN",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-07T10:55:23.998908Z",
@@ -50767,44 +50991,6 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-02T05:15:41.236562Z",
-      "article_image_urls": [
-        "https://mage.run/og.webp",
-        "https://mage.run/logo.webp"
-      ],
-      "article_title_extracted": "mage — AI image generation built for professional teams",
-      "category": "Tools",
-      "created_at": "2026-01-21T13:41:16.595289Z",
-      "description": "AI image generation built for teams. One workspace, one bill, everyone in sync.",
-      "description_zh": "为团队打造的AI图像生成工具。一个工作空间，一张账单，全员同步协作。",
-      "description_zh_hash": "1ecbd4cb4ff34a4c",
-      "description_zh_translator_v": 2,
-      "domain": "mage.run",
-      "embed_type": "",
-      "id": "k176xh7ph8xfz2jedcm0kmyd5x7zmqcx",
-      "og_image_url": "https://mage.run/og.webp",
-      "recommended_at": "2026-01-21T13:41:23.769000Z",
-      "source": "poche@dine",
-      "source_type": "poche",
-      "tags": [
-        "ai-image-generation",
-        "collaboration",
-        "saas"
-      ],
-      "teams": [
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-01-21T13:41:23.769000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
-        }
-      ],
-      "title": "mage",
-      "url": "https://mage.run/",
-      "x_status_id": null
-    },
-    {
       "category": "Social",
       "created_at": "2026-01-21T12:23:14.846307Z",
       "description": "Hand Mirror 4 is out now, you can take a Snap, draw on it, and save it to your Photo Library :camera_with_flash:\n\nHere's some of my favorite UI details:",
@@ -99759,7 +99945,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2091,
+      "count": 2098,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -99795,5 +99981,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-07T21:49:13.798596Z"
+  "updated_at": "2026-06-08T05:18:56.461140Z"
 }
