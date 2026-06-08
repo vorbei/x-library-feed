@@ -49,11 +49,17 @@
         "https://static.dinehq.com/images/contact/perplexity.svg"
       ],
       "article_text": "Work News About Contact Digest 中 中 中 Work News About Contact Digest Have a project in mind? hello@dinehq.com Book a meeting WeChat Telegram All News Reintroducing Moodr — Turn Links Into Visual Moodboards June 8, 2026 Moodr started as a joke , a moodboard that worked like Tinder, put together in a few days with v0 and Cursor. It was fun to use, but the more references we gathered for our own projects, the clearer it became that the tool we actually wanted was a different one. So we rebuilt Moodr from the ground up, into a real tool for the way designers collect and shape inspiration. The new Moodr begins with a list of links. You paste in the sites you have been saving, and Moodr captures each one as a full-page screenshot with its title, description, and a short summary, so a board fills itself out in about the time it takes to gather the URLs. The captures are stored rather than borrowed, which means a board you build today still looks the same many months from now, and you can group sites into sections and reorder them as a direction starts to emerge, turning a loose pile of bookmarks into something you can read at a glance. From there you can sync a finished board straight into Figma, where each section becomes a frame and every site lands as a labeled screenshot, ready to sit beside the work in progress. And because design decisions are rarely made alone, Moodr is built around teams, with boards inside projects and projects inside teams, so you can invite collaborators at the right level of access, clients included. That was the spirit of the original joke all along, making design decisions with clients a little less painful, and this time we built the tool to actually do it. Try Moodr Remote Buffet Careers Privacy Feed llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 Ask AI about us ChatGPT Claude Perplexity Prompt",
+      "article_text_zh": "重新介绍 Moodr —— 将链接转化为视觉情绪板  \n2026年6月8日  \n\nMoodr 最初只是个玩笑——一个像 Tinder 一样工作的情绪板，用 v0 和 Cursor 在几天内拼凑而成。用起来很有趣，但随着我们为自己的项目收集越来越多的参考素材，我们意识到真正想要的工具其实是另一种。于是，我们从零开始重建了 Moodr，把它变成一款真正适合设计师收集和塑造灵感的工具。  \n\n全新的 Moodr 从一系列链接开始。你粘贴上自己一直收藏的网站，Moodr 就会为每个网站截取全页截图，并附上标题、描述和简短摘要，这样一来，在你收集 URL 的差不多时间里，情绪板就自动填充好了。这些截图是存储下来的，而非临时借用，这意味着你今天搭建的情绪板，几个月后看起来依然如初。你还可以将网站分组到不同板块，并随着设计方向逐渐清晰而重新排序，从而把一堆零散的书签变成一目了然的可读内容。  \n\n接下来，你可以将完成的情绪板直接同步到 Figma 中，每个板块变成一个画框，每个网站则作为带标签的截图，随时准备与进行中的设计作品放在一起。此外，由于设计决策很少由一个人独立完成，Moodr 围绕团队构建：情绪板放在项目内，项目放在团队内，因此你可以按合适的权限邀请协作者，包括客户在内。这从一开始就是那个玩笑的精神所在——让与客户的设计决策过程少一些痛苦——而这一次，我们真正打造了实现这一目标的工具。  \n\n试用 Moodr",
+      "article_text_zh_hash": "6f77ec3ce8af09f8",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Dine - Reintroducing Moodr — Turn Links Into Visual Moodboards",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-06-08T16:30:26.401949Z",
       "description": "Moodr started as a joke, a moodboard that worked like Tinder, put together in a few days with v0 and Cursor. It was fun to use, but the more references we gathe",
+      "description_zh": "Moodr 最初只是个玩笑——一个像 Tinder 一样运作的情绪板，用 v0 和 Cursor 在几天内拼凑而成。用起来很有趣，但随着我们收集的参考素材越来越多……",
+      "description_zh_hash": "8d05eeddbe2587cc",
+      "description_zh_translator_v": 2,
       "domain": "dinehq.com",
       "embed_type": "",
       "id": "k1786w5j7tmkw7dv9bnfek5b0s889159",
@@ -76,6 +82,9 @@
         }
       ],
       "title": "Reintroducing Moodr — Turn Links Into Visual Moodboards",
+      "title_zh": "重新介绍 Moodr —— 将链接转化为可视化情绪板",
+      "title_zh_hash": "7841520d6ae4358e",
+      "title_zh_translator_v": 2,
       "url": "https://dinehq.com/news/reintroducing-moodr/",
       "x_status_id": null
     },
@@ -108,6 +117,9 @@
         }
       ],
       "title": "Can Modern VFX Artists use 90s Software?",
+      "title_zh": "现代视觉特效艺术家能用90年代的软件吗？",
+      "title_zh_hash": "b6799405ae7685f9",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/lxxC7oQbmJw?si=43IANWBazZSBm-qf",
       "x_status_id": null
     },
@@ -115,6 +127,9 @@
       "category": "Tools",
       "created_at": "2026-06-08T13:31:48.489517Z",
       "description": "Mixfont is the world's first artificial intelligence powered digital font foundry. Identify, generate, and edit fonts, all powered by uniquely trained models.",
+      "description_zh": "Mixfont 是全球首家由人工智能驱动的数字字体工坊。字体识别、生成与编辑，均由独特训练的模型驱动。",
+      "description_zh_hash": "3c6480d838b3efea",
+      "description_zh_translator_v": 2,
       "domain": "www.mixfont.com",
       "embed_type": "",
       "id": "k17df9k87r7fj5g3jytm19ydnd889a7q",
@@ -137,6 +152,9 @@
         }
       ],
       "title": "Mixfont — Make Any Font You Can Imagine",
+      "title_zh": "Mixfont — 想象任何字体，皆可生成",
+      "title_zh_hash": "ce85ecfcb6533217",
+      "title_zh_translator_v": 2,
       "url": "https://www.mixfont.com/",
       "x_status_id": null
     },
