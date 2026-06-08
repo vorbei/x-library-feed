@@ -51,6 +51,9 @@
       "category": "Development",
       "created_at": "2026-06-08T04:35:27.565272Z",
       "description": "Goose Swift proof-of-concept README. Contribute to b-nnett/goose development by creating an account on GitHub.",
+      "description_zh": "# Goose Swift 概念验证 README\n\n参与 b-nnett/goose 项目的开发，请先在 GitHub 上创建账户。",
+      "description_zh_hash": "9447eee13067c871",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k174anf30z7aqnb3bw37j0tbk5889d6y",
@@ -73,6 +76,9 @@
         }
       ],
       "title": "GitHub - b-nnett/goose: Goose Swift proof-of-concept README · GitHub",
+      "title_zh": "# GitHub - b-nnett/goose: Goose Swift 概念验证 README · GitHub",
+      "title_zh_hash": "6a5500c92e5207df",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/b-nnett/goose",
       "x_status_id": null
     },
@@ -85,6 +91,9 @@
       "category": "Other",
       "created_at": "2026-06-08T04:35:34.170692Z",
       "description": "Shake off the grip of your daily grind and come watch the mist sit low, heat your hands by the embers’ warm, and step onto the Ironhill.",
+      "description_zh": "挣脱日常的束缚，来此看薄雾低垂，在余烬暖意中烘暖双手，踏上铁丘。",
+      "description_zh_hash": "cf2ecc4e215e8cdd",
+      "description_zh_translator_v": 2,
       "domain": "ironhill.au",
       "embed_type": "",
       "id": "k17cfrbdw73aj20mb3nhe8vfr1889szn",
@@ -107,6 +116,9 @@
         }
       ],
       "title": "Ironhill | A place the maps don’t show",
+      "title_zh": "铁山 | 地图上找不到的地方",
+      "title_zh_hash": "fd1a4da96eafb686",
+      "title_zh_translator_v": 2,
       "url": "https://ironhill.au/",
       "x_status_id": null
     },
@@ -130,6 +142,9 @@
       "category": "Crypto",
       "created_at": "2026-06-08T04:35:58.366765Z",
       "description": "Trade synthetic markets on pre-IPO startups like OpenAI, Anthropic, and SpaceX. SOAR is the Robinhood for private companies. Join the waitlist for early access.",
+      "description_zh": "在OpenAI、Anthropic和SpaceX等Pre-IPO初创公司上交易合成市场。SOAR是面向私人公司的Robinhood。加入等待名单，获取早期访问权限。",
+      "description_zh_hash": "4d32aca10c13bc8e",
+      "description_zh_translator_v": 2,
       "domain": "trysoar.com",
       "embed_type": "",
       "id": "k17282zhjpcbj5c5zaky01gcpn8898j6",
@@ -152,6 +167,9 @@
         }
       ],
       "title": "SOAR — trade pre-IPO startups",
+      "title_zh": "SOAR — 交易Pre-IPO初创公司",
+      "title_zh_hash": "28ca4cfabd0a7e38",
+      "title_zh_translator_v": 2,
       "url": "https://trysoar.com/",
       "x_status_id": null
     },
@@ -161,11 +179,17 @@
         "https://framerusercontent.com/images/X8K2iCW5Tob8sQuioDPe6TJEU.png?width=40&height=40"
       ],
       "article_text": "Log in Sign up Copy Logo as SVG Brand Guidelines Product Teams Resources Community Support Enterprise Pricing Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples Developers Search Search... Get Started Overview Compare FAQ Plugins Introduction Quick Start Publishing Changelog Reference Guides Server API Introduction Quick Start Reference FAQ Fetch Introduction Examples Components Introduction Examples Asset Sharing Auto-Sizing Property Controls Reference Overrides Introduction Examples A peek into the future Join us on June 16 at 10 AM PDT as we unveil the future of designing , followed by a 24 hour hackathon. Watch the event live on framer.com or our YouTube channel . Join us on June 16 at 10 AM PDT as we unveil the future of designing , followed by a 24 hour hackathon. Watch the event live on framer.com or our YouTube channel . Add to your calendar Get an AI summary of Framer © Framer B.V. 2026",
+      "article_text_zh": "登录  注册  复制 Logo 为 SVG  品牌指南  产品  团队  资源  社区  支持  企业  定价  搜索...  开始使用  概览  对比  常见问题  插件  介绍  快速入门  发布  更新日志  参考指南  服务器 API  介绍  快速入门  参考  常见问题  Fetch  介绍  示例  组件  介绍  示例  资源分享  自动调整大小  属性控制  参考  覆盖  介绍  示例  开发者  搜索  搜索...  开始使用  概览  对比  常见问题  插件  介绍  快速入门  发布  更新日志  参考指南  服务器 API  介绍  快速入门  参考  常见问题  Fetch  介绍  示例  组件  介绍  示例  资源分享  自动调整大小  属性控制  参考  覆盖  介绍  示例\n\n一窥未来  \n加入我们，于 6 月 16 日上午 10 点（太平洋夏令时）共同揭晓设计的未来，随后将进行一场 24 小时黑客马拉松。在 framer.com 或我们的 YouTube 频道观看活动直播。  \n加入我们，于 6 月 16 日上午 10 点（太平洋夏令时）共同揭晓设计的未来，随后将进行一场 24 小时黑客马拉松。在 framer.com 或我们的 YouTube 频道观看活动直播。  \n添加到日历  \n获取 Framer 的 AI 摘要  \n\n© Framer B.V. 2026",
+      "article_text_zh_hash": "2c35c6a235bde676",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Framer: Live Events",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2026-06-08T04:23:52.670297Z",
       "description": "Join us on June 16 at 10 AM PDT as we unveil the future of designing, followed by a 24 hour hackathon. Watch live on framer.com or our YouTube channel.",
+      "description_zh": "欢迎参加我们于6月16日上午10点（太平洋夏令时）举办的活动，届时我们将揭晓设计的未来，随后还将进行一场24小时黑客马拉松。您可以通过framer.com或我们的YouTube频道观看直播。",
+      "description_zh_hash": "72c7b552dbd4305e",
+      "description_zh_translator_v": 2,
       "domain": "www.framer.com",
       "embed_type": "",
       "id": "k1732hp8e4pb3ds6yxm7cnphxh88830a",
@@ -188,6 +212,9 @@
         }
       ],
       "title": "Framer: Live Events",
+      "title_zh": "Framer：实时活动",
+      "title_zh_hash": "a356ae1af16417c9",
+      "title_zh_translator_v": 2,
       "url": "https://www.framer.com/events/",
       "x_status_id": null
     },
@@ -207,6 +234,9 @@
       "category": "Tools",
       "created_at": "2026-06-08T04:18:47.046308Z",
       "description": "Mac-1 is a private AI model that runs entirely on your Mac. No cloud, No API, No data ever leaves your machine.",
+      "description_zh": "Mac-1 是一款完全在 Mac 上运行的私有 AI 模型。无需云端、无需 API，数据永远不会离开你的设备。",
+      "description_zh_hash": "ecb9267e190bc436",
+      "description_zh_translator_v": 2,
       "domain": "www.macatron.ai",
       "embed_type": "",
       "id": "k170qzssvj4pdf917p9azeeqr9888xm5",
@@ -229,6 +259,9 @@
         }
       ],
       "title": "Mac-1 — The Siri You Always Wanted",
+      "title_zh": "Mac-1 — 你一直想要的 Siri",
+      "title_zh_hash": "40aac65ca5da9fb2",
+      "title_zh_translator_v": 2,
       "url": "https://www.macatron.ai/",
       "x_status_id": null
     },

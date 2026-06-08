@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic's main manager:\n\n \"Nobody types prompts from scratch. The commands should be live in the project.\"\n\nIn 26 minutes, she walks through how Anthropic runs Claude Code, including the command library every new dev inherits on day one.\n\nWatch the full talk, then save the config below👇",
+      "text_zh": "Anthropic 主管：\n\n“没有人会从零开始编写提示词。命令应该直接存在于项目中。”\n\n在 26 分钟内，她详细介绍了 Anthropic 如何运行 Claude Code，包括每位新开发者在入职第一天就能继承的命令库。\n\n观看完整演讲，然后保存下方配置👇",
+      "text_zh_hash": "bf16a03df7fce2df",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0x_rody/status/2063722061126651935"
     },
     {
