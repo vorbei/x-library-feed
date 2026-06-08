@@ -51,6 +51,9 @@
       "category": "Articles",
       "created_at": "2026-06-08T05:11:36.541556Z",
       "description": "A personal collection of good public-domain reads. Free to read, free to keep.",
+      "description_zh": "个人精选的优秀公共领域读物。免费阅读，永久收藏。",
+      "description_zh_hash": "658737b154ccfbdc",
+      "description_zh_translator_v": 2,
       "domain": "www.cypherpunkbooks.com",
       "embed_type": "",
       "id": "k1751e0dkvn0vh9bw8svkfds39889cqg",
@@ -73,6 +76,9 @@
         }
       ],
       "title": "The Cypherpunk Library",
+      "title_zh": "密码朋克图书馆",
+      "title_zh_hash": "fec2e804b9b17418",
+      "title_zh_translator_v": 2,
       "url": "https://www.cypherpunkbooks.com/",
       "x_status_id": null
     },
@@ -106,6 +112,9 @@
         }
       ],
       "title": "WWDC 2026: Apple’s Secret Meeting That Led It to Take AI Seriously; iOS 27 - Bloomberg",
+      "title_zh": "WWDC 2026：苹果秘密会议促使其认真对待AI；iOS 27 —— 彭博社",
+      "title_zh_hash": "55adf94836740ee3",
+      "title_zh_translator_v": 2,
       "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall",
       "x_status_id": null
     },
