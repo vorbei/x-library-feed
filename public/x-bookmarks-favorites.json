@@ -111,6 +111,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic engineer:\n\n\"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nthis is one of the best workflows I've seen in a long time\n\nin this video she breaks down exactly how most people are using Claude:\n\n- the 14% you lose to CLAUDE.md before typing a word\n- one agent researching. one building. one reviewing. one orchestrating\n- the architecture that separates hobbyists from real builders\n- the 3 properties every agent team needs to actually survive\n\nif you've been using Claude for more than a month and never left the chat window, you have at least 25 untouched features. probably 28\n\ninstead of another show tonight, watch this\n\nmake sure to bookmark it before it gets lost in your feed\n\nthe guide is in the article below",
+      "text_zh": "Anthropic 工程师：\n\n“你不应该去提示 Claude。你应该构建一个能自我提示的系统。”\n\n这是我很久以来见过的最佳工作流之一。\n\n在这个视频中，她详细拆解了大多数人使用 Claude 的方式：\n\n- 在你输入第一个字之前，就有 14% 的效能损失在 CLAUDE.md 上\n- 一个 agent 负责研究，一个负责构建，一个负责审查，一个负责编排\n- 区分业余玩家与真正构建者的架构\n- 每个 agent 团队真正存活所需的三个特性\n\n如果你使用 Claude 超过一个月，却从未离开过聊天窗口，那你至少错过了 25 个未触及的功能。很可能有 28 个。\n\n今晚别再看另一场演出了，看看这个。\n\n记得收藏，免得它在你的信息流中消失。\n\n指南就在下面的文章中。",
+      "text_zh_hash": "2b73a981a8ff2868",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/eng_khairallah1/status/2063633896517022014"
     },
     {
@@ -205,6 +208,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny, the creator of claude code at anthropic, just explained why the future of AI isn't better prompts or smarter single agents.\n\nIt's teams of agents working together.\n\nIn this talk, he breaks down:\n\n> why you're already losing context before you even start\n\n> why one agent should research while another builds and another reviews\n\n> the architecture serious builders are moving toward\n\n> the core principles that make agent teams actually work\n\nmost people are still sitting in one chat window asking one agent to do everything.\n\nmeanwhile, the people building the next generation of AI products are learning how to coordinate teams of agents.\n\nIf you've been using claude, this is worth watching.\n\nThe full guide is in the article below.",
+      "text_zh": "Anthropic 的 Claude Code 创始人 Boris Cherny 刚刚解释了为什么 AI 的未来不在于更好的提示词或更聪明的单一智能体。\n\n而在于协同工作的智能体团队。\n\n在这次演讲中，他剖析了：\n\n> 为什么你在开始之前就已经丢失了上下文\n\n> 为什么一个智能体应该负责研究，另一个负责构建，再另一个负责审查\n\n> 严肃的构建者正在转向的架构\n\n> 让智能体团队真正运作的核心原则\n\n大多数人仍然坐在一个聊天窗口里，让一个智能体包揽所有事情。\n\n与此同时，构建下一代 AI 产品的人正在学习如何协调智能体团队。\n\n如果你一直在使用 Claude，这值得一看。\n\n完整指南见下方文章。",
+      "text_zh_hash": "1437d436c1f944d1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Akasheth_/status/2063671722096886128"
     },
     {
@@ -383,6 +389,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is the best site on the internet to learn harness engineering.  \n\nFree. Completely.  \n\nMost AI engineers have never heard the term.\n\nhttps://walkinglabs.github.io/learn-harness-engineering/en/\n\nBookmark this site.  \n\nThen read this setup ↓ https://t.co/ddEP0XowXM",
+      "text_zh": "这是互联网上学习 Harness 工程的最佳网站。\n\n完全免费。\n\n大多数 AI 工程师从未听说过这个术语。\n\nhttps://walkinglabs.github.io/learn-harness-engineering/en/\n\n收藏这个网站。\n\n然后阅读以下设置 ↓ https://t.co/ddEP0XowXM",
+      "text_zh_hash": "e109dc9012b2e4b8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sairahul1/status/2063609922667815064"
     },
     {
@@ -503,6 +512,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OpenAI just published dozens of real-world workflows showing how teams are using it to automate work.\n\n> Manage your inbox and draft replies in your voice\n> Review GitHub pull requests before human review\n> Turn Figma designs into production-ready code\n> Understand large codebases in minutes\n> Automate bug triage and QA workflows\n> Query spreadsheets and datasets using natural language\n> Deploy apps and websites directly from prompts\n> Build Mac and iOS applications faster\n> Create slide decks automatically\n> Turn Slack threads into coding tasks\n> Use your computer through AI-powered actions\n\nFrom software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.\n\nExplore all use cases:\nhttps://developers.openai.com/codex/use-cases",
+      "text_zh": "OpenAI 刚刚发布了数十个真实工作流程，展示了团队如何利用它实现工作自动化。\n\n> 管理收件箱并以你的语气草拟回复\n> 在人工审查前审阅 GitHub 拉取请求\n> 将 Figma 设计转化为可直接上线的代码\n> 数分钟内理解大型代码库\n> 自动化 Bug 分类与 QA 工作流\n> 使用自然语言查询电子表格与数据集\n> 通过提示词直接部署应用和网站\n> 更快地构建 Mac 与 iOS 应用\n> 自动创建幻灯片\n> 将 Slack 讨论串转化为编码任务\n> 通过 AI 驱动的操作操控你的电脑\n\n从软件工程、设计到数据分析与运营，Codex 正从单纯的 AI 助手转变为 AI 队友。\n\n探索所有用例：\nhttps://developers.openai.com/codex/use-cases",
+      "text_zh_hash": "72eff2fd3241e51c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/suraj_sharma14/status/2063589795813785841"
     },
     {
