@@ -6390,6 +6390,19 @@
       "title": "",
       "url": "http://x.com/i/article/2063893302181519360"
     },
+    "http://x.com/i/article/2063916662223470592": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063916662223470592",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063916662223470592/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKSeaTbXsAAPgGa?format=jpg&name=900x900)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063948703971389440)\n\nGive This AI a Few Reports and It Can Explain an Entire Industry\n\n[![](https://pbs.twimg.com/profile_images/2050365720085549056/IjWOByOd_normal.jpg)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n[moontanax](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n[@xanaxmontanaonx](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n·\n\n7h\n\nFollow\n\nClick to Follow xanaxmontanaonx\n\n15\n\n[869](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/status/2063949009899659761/analytics)\n\nIndustry research usually lives across annual reports, earnings calls, market studies, spreadsheets, and browser tabs.\n\nWell, the information exists. The connections disappear.\n\nNotebookLM can turn that document pile into one focused research system. You choose the evidence, define the analyst's job, and ask the same questions every quarter.\n\nStandard NotebookLM accounts support 50 sources per notebook. Deep Research also runs inside NotebookLM, so it can search the web, prepare a report, and suggest sources for the notebook.\n\nA useful first version needs around 15 documents.\n\n[![Image](https://pbs.twimg.com/media/HKSYGIAWUAADP_F?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063941760238112768)\n\n# \n\nBuild the source base\n\nSo, start with three layers.\n\nLayer 1: companies\n\nAdd annual reports from 5-7 listed companies across the value chain. Include a large operator, a regional player, a supplier, and a specialist business.\n\nThis gives the notebook different business models instead of seven versions of the same company.\n\nLayer 2: industry structure\n\nCreate three Deep Research reports before you start asking company-level questions. In practice, these reports become the background knowledge for everything that follows.\n\nThe first one is the history report:\n\n```text\nROLE\nYou are an economic historian and industry analyst.\n\nTASK\nWrite a factual, data-based history of [INDUSTRY].\n\nExplain how the industry formed, why it matters economically, which forces shaped it, how major winners appeared, and which cycles repeat over time.\n\nCover:\n• formation and early need\n• first technologies, financing models, and institutions\n• scale breakthroughs and standardization\n• crises, regulation, consolidation, and profitability\n• leading firms, market share changes, mergers, and breakups\n• digital transformation and new entrants\n• regional differences, trade, subsidies, and geography\n• capital intensity, debt use, returns, and valuation patterns\n• lessons for long-term investors\n\nUse clear cause-and-effect analysis. Support claims with numbers and citations.\n```\n\n[![Image](https://pbs.twimg.com/media/HKSU8xDXYAAzeLq?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063938300923043840)\n\nThe second one is the future report:\n\n```text\nAct as an industry strategist.\nAnalyze [INDUSTRY] today and the next 5-10 years.\nCover demand growth, supply limits, pricing power, regulation, technology shifts, automation, new entrants, customer behavior, margin pressure, capex needs, and possible disruption.\nGive 3 scenarios:\n• base case\n• upside case\n• downside case\nFor each scenario, explain which companies gain advantage, which business models lose power, and what metrics an investor should track.\nUse citations for numerical claims.\n```\n\n[![Image](https://pbs.twimg.com/media/HKSVbfCWgAAUrRx?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063938828662898688)\n\nThe third one is the economics report:\n\n```text\nAct as a",
+      "title": "",
+      "url": "http://x.com/i/article/2063916662223470592"
+    },
     "http://x.com/i/article/2063935271796723712": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6402,6 +6415,19 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063935271796723712/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKSSwE8WsAAeyqE?format=jpg&name=900x900)](http://x.com/i/article/2063935271796723712/Zephyr%5Fhg/article/2063935932349255713/media/2063935883900792832)\n\nHow To Build A Content Machine That Researches, Drafts, And Schedules For You. One Weekend In n8n\n\n[![](https://pbs.twimg.com/profile_images/1741076613939277824/vs_v9C1j_normal.jpg)](http://x.com/i/article/2063935271796723712/Zephyr%5Fhg)\n\n[Zephyr](http://x.com/i/article/2063935271796723712/Zephyr%5Fhg)\n\n[@Zephyr\\_hg](http://x.com/i/article/2063935271796723712/Zephyr%5Fhg)\n\n·\n\n5h\n\nFollow\n\nClick to Follow Zephyr\\_hg\n\n1\n\n43\n\n[4.1K](http://x.com/i/article/2063935271796723712/Zephyr%5Fhg/status/2063935932349255713/analytics)\n\nThe professionals shipping daily content built a machine. The machine researches, drafts, and schedules for them. Full build is one weekend in n8n. After that it runs forever.\n\nHere's what the machine actually is, how each layer works, and why a weekend is enough.\n\n## \n\nThe Four Jobs The Machine Handles For You\n\nA content machine isn't one workflow. It's four jobs strung together.\n\nJob one: research. Every morning the machine pulls fresh angles from the sources you read anyway. Newsletters, podcasts, top-performing posts in your niche, your own analytics.\n\nJob two: drafts. The research lands in a prompt. The prompt fires through your writing style. A draft sits in your folder before breakfast.\n\nJob three: review. You read the draft. You edit it. You approve it.\n\nJob four: scheduling. The approved piece routes to the right channel at the right time. Twitter, LinkedIn, email, podcast description.\n\nYou're the bottleneck on job three. The other three run without you.\n\n## \n\nHow The Research Layer Works\n\nOpen n8n. Build one workflow. Schedule it for 6 AM daily.\n\nThe workflow hits five inputs. An RSS feed of your niche newsletters. An X list of top creators in your space. Your Google Analytics for what's spiking. A Reddit subreddit watcher. A saved search on Google News.\n\nEach input drops into a single AI node. The node summarizes the day's signals into three angles you could write about today.\n\nThose three angles land in your folder by 7 AM. You pick one over coffee.\n\nThat step alone is two hours of weekly research handed off to the machine.\n\n## \n\nHow The Drafting Layer Works\n\nOnce you pick the angle, a second n8n workflow triggers.\n\nIt pulls your tone guide from a saved doc. It pulls your hook template. It pulls past pieces that performed well as reference material. It pulls the angle you chose this morning.\n\nAll four feed into one structured prompt. The prompt is the same one you'd use in a chat. Written once. Saved as a variable. Called from inside n8n.\n\nThe drafting node fires. A draft comes back. It lands in your folder, ready for review.\n\nYou read it. You cut what's weak. You tighten the hook. Twenty minutes of edit and the piece is ready.\n\nThis step replaces four hours of weekly writing from scratch.\n\n## \n\nHow The Scheduling Layer Works\n\nThe approved piece flows through one last workflow.\n\nA switch node looks at the piece's metadata. Article goes to a long-form scheduler. Thread goes to Typefully. LinkedIn goes to a draft. Newsletter goes to your ESP.\n\nEach branch posts the piece at a saved time. Optimal times you decided once and never touch again.\n\nNo tab switching. No copy-paste. No \"I forgot to post the thread today\" moments.\n\n## \n\nWhy The Build Takes A Weekend\n\nSaturday: build the research layer. Two hours to wire the inputs. One hour to test. One hour to refine the prompt that produces the angles.\n\nSunday: build the drafting and scheduling layers. Three hours for drafting (most of it is writing the right prompt). Two hours for scheduling.\n\nBy Sunday night the full machine runs end to end. You wake up Monday to fresh angles. You write through your normal pieces. You watc",
       "title": "",
       "url": "http://x.com/i/article/2063935271796723712"
+    },
+    "http://x.com/i/article/2064044221732892675": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064044221732892675",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2064044221732892675/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKT1tnKXEAAxXgs?format=jpg&name=900x900)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064044693197885440)\n\nMost Developers Do Not Need Agent Loops Yet \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n·\n\n53m\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n2\n\n8\n\n[533](http://x.com/i/article/2064044221732892675/AlphaSignalAI/status/2064055529883029550/analytics)\n\n## \n\nThe patterns were documented in 2024\\. Here's who it pays off for, and the four conditions that decide.\n\n> In \\~9 mins: the four-condition test, what Anthropic documented back in 2024, who loses and why, the one thing that separates a working loop from an expensive one, and the minimum viable loop to build first.\n\nMost developers do not need to put their coding agent in a loop yet, even though the technique went viral this month.\n\nLoop engineering is building a system that prompts your agent on a schedule, instead of typing each prompt yourself.\n\nPeter Steinberger kicked off this round of hype on June 7 with one line: stop prompting coding agents, start designing loops that prompt them.\n\n[![](https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png)](http://x.com/i/article/2064044221732892675/steipete)\n\nPeter Steinberger ![🦞](https://abs.twimg.com/emoji/v2/svg/1f99e.svg)\n\n![](https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg)\n\n@steipete\n\n·\n\n[Jun 7](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627)\n\nHere’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.\n\n1.4K\n\n2.2K\n\n16K\n\n[5.3M](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627/analytics)\n\nIt pays off under four conditions: the task repeats, verification is automated, your token budget can absorb the waste, and the agent already has the tools a senior engineer would use. Miss one and the loop costs more than it returns.\n\n## \n\nWhat a loop actually does\n\nA loop finds the work, hands it to the agent, checks the result, records what happened, and decides the next move.\n\n[![Image](https://pbs.twimg.com/media/HKT5TXqW4AA6X03?format=jpg&name=small)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064048640407035904)\n\nAddy Osmani, who published a long post on the practice the same week, defines it plainly: loop engineering is replacing yourself as the person who prompts the agent, and building the system that does it instead.\n\nBoris Cherny, who runs Claude Code at Anthropic, said the same thing, quoted in Osmani's post: \"I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops.\"\n\nOsmani breaks a loop into six parts: automations that run on a schedule, worktrees that isolate parallel work, skills that store project knowledge, connectors that reach your tools, sub-agents that split writing from checking, and a state file that survives between runs.\n\nThe agent forgets each run. The file does not.\n\n## \n\nThe idea isn't new, the access is\n\nAnthropic described these patterns in December 2024.\n\nIts engineering post Building Effective Agents named the evaluator-optimizer loop (one model generates, another critiques, repeat) and the orchestrator-workers pattern (one model delegates to others), and defined an agent as \"typically just LLMs using tools based on environmental feedback in a loop.\"\n\nThe vocabulary going viral in 2026 was documented eighteen m",
+      "title": "",
+      "url": "http://x.com/i/article/2064044221732892675"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -20896,20 +20922,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2064007329285083136/img/Ta64HFnhQzFDOKYR.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2064007329285083136/img/Ta64HFnhQzFDOKYR.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2064007329285083136/img/Ta64HFnhQzFDOKYR.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2064007329285083136/img/Ta64HFnhQzFDOKYR.jpg"
-    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -20979,20 +20991,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg"
-    },
-    "https://pbs.twimg.com/ext_tw_video_thumb/2063637371862523906/pu/img/y6aC2CzMgVfZlNhb.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2063637371862523906/pu/img/y6aC2CzMgVfZlNhb.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2063637371862523906/pu/img/y6aC2CzMgVfZlNhb.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063637371862523906/pu/img/y6aC2CzMgVfZlNhb.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
       "cleaner_v": 2,
@@ -29856,19 +29854,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
     },
-    "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg": {
+    "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
+        "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
+      "url": "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
     },
     "https://pbs.twimg.com/media/HKTchLNbkAAyYYX.jpg": {
       "cleaner_v": 2,
@@ -46129,15 +46127,15 @@
       "https://pbs.twimg.com/amplify_video_thumb/2062810116483956736/img/f-Rba-s6iFn_CYI1.jpg",
       "https://x.com/sairahul1/status/2063229862861795497",
       "https://x.com/i/status/2063179381711994922",
-      "https://x.com/sairahul1/status/2062868809804116337",
       "https://x.com/sairahul1/status/2063508320015794338",
+      "https://x.com/sairahul1/status/2062868809804116337",
       "https://x.com/sairahul1/status/2062826750527361210",
-      "https://x.com/sairahul1/status/2062880328419811767",
       "https://x.com/sairahul1/status/2063478473805730220",
-      "https://x.com/sairahul1/status/2062899779055780043",
+      "https://x.com/sairahul1/status/2062880328419811767",
+      "https://x.com/sairahul1/status/2062912674556748224",
       "https://x.com/sairahul1/status/2062845646374314145",
       "https://x.com/sairahul1/status/2062820796620550157",
-      "https://x.com/sairahul1/status/2062912674556748224"
+      "https://x.com/sairahul1/status/2062899779055780043"
     ],
     "2062869438404194499": [
       "https://x.com/toddsaunders/status/2062869438404194499",
@@ -46286,8 +46284,8 @@
       "http://x.com/i/article/2063242519907840000",
       "https://x.com/xanaxmontanaonx/status/2063342165032325197",
       "https://x.com/xanaxmontanaonx/status/2063545743676223794",
-      "https://x.com/xanaxmontanaonx/status/2064008351227187604",
-      "https://pbs.twimg.com/amplify_video_thumb/2064007329285083136/img/Ta64HFnhQzFDOKYR.jpg"
+      "https://x.com/xanaxmontanaonx/status/2063949009899659761",
+      "http://x.com/i/article/2063916662223470592"
     ],
     "2063260427619008751": [
       "https://x.com/aashatwt/status/2063260427619008751",
@@ -46306,10 +46304,9 @@
       "https://x.com/eng_khairallah1/status/2063548282912293226",
       "https://x.com/eng_khairallah1/status/2063545603955785778",
       "https://x.com/eng_khairallah1/status/2063272860219809914",
-      "https://x.com/eng_khairallah1/status/2063273328006328721",
       "https://x.com/eng_khairallah1/status/2063276208633073841",
       "https://x.com/eng_khairallah1/status/2063279144201564342",
-      "https://x.com/eng_khairallah1/status/2063287389888643332",
+      "https://x.com/eng_khairallah1/status/2063273328006328721",
       "https://x.com/eng_khairallah1/status/2063278557204517113",
       "https://x.com/eng_khairallah1/status/2063276229172597193"
     ],
@@ -46491,13 +46488,13 @@
       "https://x.com/hezhiyan7/status/2063400736223043728",
       "http://x.com/i/article/2063400453447303168",
       "https://x.com/hezhiyan7/status/2063424625649094743",
-      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063492579824734436",
-      "https://x.com/hezhiyan7/status/2063499575416209799",
-      "https://x.com/hezhiyan7/status/2063607088606245216",
+      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063491891455508605",
+      "https://x.com/hezhiyan7/status/2063523802844418307",
       "https://x.com/hezhiyan7/status/2063433856083227071",
-      "https://x.com/hezhiyan7/status/2063523802844418307"
+      "https://x.com/hezhiyan7/status/2063499575416209799",
+      "https://x.com/hezhiyan7/status/2063607088606245216"
     ],
     "2063429138304668093": [
       "https://x.com/Vtrivedy10/status/2063429138304668093",
@@ -46531,21 +46528,21 @@
       "https://developers.openai.com/codex/use-cases",
       "https://x.com/suraj_sharma14/status/2063773759388143642",
       "https://x.com/suraj_sharma14/status/2063617204986478829",
-      "https://x.com/suraj_sharma14/status/2063913300262539518",
-      "https://x.com/suraj_sharma14/status/2063914038061662334",
-      "https://x.com/suraj_sharma14/status/2063913515157749856",
       "https://x.com/suraj_sharma14/status/2063913103901999489",
-      "https://x.com/suraj_sharma14/status/2063913929605263403",
+      "https://x.com/suraj_sharma14/status/2063913515157749856",
+      "https://x.com/suraj_sharma14/status/2063913300262539518",
+      "https://x.com/suraj_sharma14/status/2063914153706926549",
+      "https://x.com/suraj_sharma14/status/2063774037508329701",
       "https://x.com/suraj_sharma14/status/2063773583915266088",
       "https://x.com/suraj_sharma14/status/2063773288334328236",
       "https://x.com/suraj_sharma14/status/2063913801473487000",
+      "https://x.com/suraj_sharma14/status/2063913929605263403",
+      "https://x.com/suraj_sharma14/status/2063914038061662334",
       "https://x.com/suraj_sharma14/status/2063914285764587900",
-      "https://x.com/suraj_sharma14/status/2063914153706926549",
-      "https://x.com/suraj_sharma14/status/2063914614774263940",
+      "https://x.com/suraj_sharma14/status/2063773874945397211",
       "https://x.com/suraj_sharma14/status/2063773449374642302",
       "https://x.com/suraj_sharma14/status/2063913642710675570",
-      "https://x.com/suraj_sharma14/status/2063773874945397211",
-      "https://x.com/suraj_sharma14/status/2063774037508329701"
+      "https://x.com/suraj_sharma14/status/2063914427574059221"
     ],
     "2063602634854982113": [
       "https://x.com/atrekovas/status/2063602634854982113",
@@ -46568,45 +46565,46 @@
       "https://x.com/mvanhorn/status/2063624356484501832",
       "http://x.com/i/article/2063492603706740736",
       "https://x.com/mvanhorn/status/2063705494355861997",
-      "https://x.com/mvanhorn/status/2063653353247347152",
-      "https://x.com/mvanhorn/status/2063633081450541154",
       "https://x.com/mvanhorn/status/2063733723032633612",
-      "https://x.com/mvanhorn/status/2063625708447174839",
-      "https://x.com/mvanhorn/status/2063630793243799998",
+      "https://x.com/mvanhorn/status/2063653353247347152",
       "https://x.com/mvanhorn/status/2063868075586560045",
+      "https://x.com/mvanhorn/status/2063625708447174839",
+      "https://x.com/mvanhorn/status/2063633081450541154",
+      "https://x.com/mvanhorn/status/2063795942193877095",
       "https://x.com/mvanhorn/status/2063809947138457838",
-      "https://x.com/mvanhorn/status/2063795942193877095"
+      "https://x.com/mvanhorn/status/2063630793243799998"
     ],
     "2063633896517022014": [
       "https://x.com/eng_khairallah1/status/2063633896517022014",
       "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
       "https://x.com/eng_khairallah1/status/2063645221611864434",
       "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
-      "https://x.com/eng_khairallah1/status/2063638299760382309",
       "https://x.com/eng_khairallah1/status/2063636157666361649",
+      "https://x.com/eng_khairallah1/status/2063638299760382309",
+      "https://x.com/eng_khairallah1/status/2063635029931209146",
       "https://x.com/eng_khairallah1/status/2063672183663288343",
-      "https://x.com/eng_khairallah1/status/2063634722455228664",
       "https://x.com/eng_khairallah1/status/2063640487115055604",
-      "https://x.com/eng_khairallah1/status/2063635029931209146"
+      "https://x.com/eng_khairallah1/status/2063634722455228664"
     ],
     "2063645563241844823": [
       "https://x.com/IBuzovskyi/status/2063645563241844823",
       "http://x.com/i/article/2063630561466265600",
+      "https://x.com/IBuzovskyi/status/2064068817609687279",
       "https://x.com/IBuzovskyi/status/2063747555398176972",
-      "https://x.com/IBuzovskyi/status/2064003531481219524",
       "https://x.com/IBuzovskyi/status/2063762007984160784",
+      "https://x.com/IBuzovskyi/status/2064003531481219524",
       "https://x.com/IBuzovskyi/status/2063946410475614595"
     ],
     "2063671722096886128": [
       "https://x.com/Akasheth_/status/2063671722096886128",
       "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
-      "https://x.com/Akasheth_/status/2063688893522948312",
-      "https://x.com/Akasheth_/status/2063689605208289615",
       "https://x.com/Akasheth_/status/2063689095650623849",
+      "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063688893522948312",
       "https://x.com/Akasheth_/status/2063689533078786263",
+      "https://x.com/Akasheth_/status/2063689169105461693",
       "https://x.com/Akasheth_/status/2063688944035000667",
-      "https://x.com/Akasheth_/status/2063689052776460520",
-      "https://x.com/Akasheth_/status/2063689169105461693"
+      "https://x.com/Akasheth_/status/2063689052776460520"
     ],
     "2063688044843090179": [
       "https://x.com/scaling_shields/status/2063688044843090179",
@@ -46629,16 +46627,16 @@
     "2063731230466834892": [
       "https://x.com/viktor_pali/status/2063731230466834892",
       "http://x.com/i/article/2063729870518341632",
-      "https://x.com/viktor_pali/status/2064016192130383920",
       "https://x.com/viktor_pali/status/2063736331071783188",
       "https://x.com/viktor_pali/status/2063994513668952168",
-      "https://x.com/viktor_pali/status/2063990531206644045",
       "https://x.com/viktor_pali/status/2063990659283869940",
       "https://x.com/viktor_pali/status/2063859532078755973",
+      "https://x.com/viktor_pali/status/2063990531206644045",
       "https://x.com/viktor_pali/status/2063990889349804361",
       "https://x.com/viktor_pali/status/2063853747571470800",
       "https://x.com/viktor_pali/status/2063746947442475159",
       "https://x.com/viktor_pali/status/2063991031813611715",
+      "https://x.com/viktor_pali/status/2064016192130383920",
       "https://x.com/viktor_pali/status/2063990937366176214"
     ],
     "2063781381021258026": [
@@ -46654,8 +46652,7 @@
     "2063840704892440976": [
       "https://x.com/disinfeqt/status/2063840704892440976",
       "https://x.com/disinfeqt/status/2063887526587486423",
-      "https://x.com/disinfeqt/status/2063969590947053914",
-      "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
+      "https://x.com/disinfeqt/status/2064020452289503740"
     ],
     "2063846807810253118": [
       "https://x.com/allstarsaasfund/status/2063846807810253118",
@@ -46669,8 +46666,10 @@
       "https://x.com/mvanhorn/status/2064010832170950884",
       "https://x.com/mvanhorn/status/2063866667881607559",
       "https://x.com/mvanhorn/status/2063868012831428619",
-      "https://x.com/mvanhorn/status/2064012838063243750",
-      "https://x.com/mvanhorn/status/2064012892379480151"
+      "https://x.com/mvanhorn/status/2064012892379480151",
+      "https://x.com/mvanhorn/status/2064028346871316773",
+      "https://x.com/mvanhorn/status/2064028299903574435",
+      "https://x.com/mvanhorn/status/2064012838063243750"
     ],
     "2063888864436195388": [
       "https://x.com/AlphaSignalAI/status/2063888864436195388",
@@ -46678,15 +46677,17 @@
       "https://x.com/AlphaSignalAI/status/2063889311259611267",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
       "https://dora.dev/research/2025/dora-report/",
-      "https://x.com/AlphaSignalAI/status/2063637407757398434",
-      "https://pbs.twimg.com/ext_tw_video_thumb/2063637371862523906/pu/img/y6aC2CzMgVfZlNhb.jpg"
+      "https://x.com/AlphaSignalAI/status/2064055529883029550",
+      "http://x.com/i/article/2064044221732892675"
     ],
     "2063907440509571354": [
       "https://x.com/neural_avb/status/2063907440509571354",
       "http://x.com/i/article/2063857990461968384",
       "https://x.com/neural_avb/status/2064012370821918888",
       "https://x.com/neural_avb/status/2063986518876958895",
-      "https://x.com/neural_avb/status/2063932479480975807"
+      "https://x.com/neural_avb/status/2063932479480975807",
+      "https://x.com/neural_avb/status/2063957500114960592",
+      "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
     ],
     "2063928611619455268": [
       "https://x.com/0x_rody/status/2063928611619455268",
@@ -46703,6 +46704,6 @@
       "http://x.com/i/article/2054556222360084480"
     ]
   },
-  "updated_at": "2026-06-08T16:20:28Z",
+  "updated_at": "2026-06-08T19:35:22Z",
   "window": "recent"
 }
