@@ -2341,7 +2341,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-01T07:46:06.953710Z",
@@ -2375,9 +2375,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/b642919f689d22661a55218e5ee24c0406e25d01224e5c7d20d95b0d263df0b7/disinfeqt/tbd"
+        "https://opengraph.githubassets.com/9cf8829f61bb8f33b646d5481db2adc64b1ec43468327f500e76cfa483961249/disinfeqt/tbd"
       ],
       "article_title_extracted": "GitHub - disinfeqt/tbd · GitHub",
       "category": "Development",
@@ -6809,16 +6809,17 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "http://www.fonts.xyz/static/img/fontsxyz.png",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/js-type/coverimages/Screenshot_2026-05-18_at_00.14.56.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/burrow-lab/coverimages/Burrowlab_Favicon.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/giulia-boggio/coverimages/Asset_3300x.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/about-type/coverimages/CoverTest.jpg",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/teaser/coverimages/Teaser.jpg",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/alias/coverimages/fontsxyz_Red_CoverA.jpg",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/proof-of-words/coverimages/PoW-insta_avatar-long.jpg",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/static/img/doggy.webp?v=none",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/static/img/thinky.webp?v=none",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_private/collection_item_thumbnails/Screenshot_2026-05-11_at_15.53.26.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO8016PUF36UL67T3K77%2F20260601%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20260601T204644Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e2a099a695a727a402424dba1d3d28367e83cc640df377439b9c16187c1425c4"
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_private/collection_item_thumbnails/Screenshot_2026-05-11_at_15.53.26.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO8016PUF36UL67T3K77%2F20260608%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20260608T221437Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6489ff72acda9d4211b4fd457a66cd840e583a70f350baea9975065c5abf1221"
       ],
       "article_title_extracted": "Buy Fonts — Regret Nothing — fonts.xyz",
       "category": "Design",
@@ -6856,7 +6857,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://static.wixstatic.com/media/9b7452_2a16bc053625475daa769651947cbabb~mv2.jpg/v1/fill/w_640,h_360,al_c/9b7452_2a16bc053625475daa769651947cbabb~mv2.jpg",
         "https://static.wixstatic.com/media/9b7452_a57f7e44b7df4530befdf21d2dc65441.jpg/v1/crop/x_21,y_740,w_1379,h_149/fill/w_975,h_105,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7452_a57f7e44b7df4530befdf21d2dc65441.jpg",
@@ -6963,10 +6964,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Gpdzhphj0570c7CQSMsB2dIRhzQ.jpg",
-        "https://framerusercontent.com/images/7FWJeIZfP0AghcN8zbobaQXzBSg.svg?width=1920&height=1080",
         "https://framerusercontent.com/images/rxIDBQ8714zdjTL10j34mGTyw.png?width=1448&height=542",
         "https://framerusercontent.com/images/u47bwSoIlogr52yCzlsOXhVnHI.svg?width=687&height=443",
         "https://framerusercontent.com/images/CRdqeUzS3t1KSCwxtZiPy5dnnk.svg?width=863&height=324",
@@ -6976,7 +6976,8 @@
         "https://framerusercontent.com/images/GLBliXITbdOfWWzLY2Kegav0Nc.png?width=866&height=866",
         "https://framerusercontent.com/images/zziifFKhmZ43R1gQe7om1DYPPo.webp?width=800&height=800",
         "https://framerusercontent.com/images/KPhHxaiG6uELEovNv4wh6ls6v0.webp?width=600&height=600",
-        "https://framerusercontent.com/images/rjv0gUw8pQ2v8OAcaDeTv320isI.jpg?width=1404&height=1403"
+        "https://framerusercontent.com/images/rjv0gUw8pQ2v8OAcaDeTv320isI.jpg?width=1404&height=1403",
+        "https://framerusercontent.com/images/ouwqo1fqmyeyIE4xqhaof5KBdOE.jpeg?width=1516&height=1529"
       ],
       "article_title_extracted": "Torso Electronics",
       "category": "Tools",
@@ -31181,7 +31182,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-18T04:49:46.864792Z",
@@ -31251,7 +31252,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ifeelsomuchsha.me/web-assets/1.gif"
       ],
@@ -31291,20 +31292,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ardot.tencent.com/android-chrome-512x512.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/navigation-logo.46dfc7ce.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/carousel-static-pc.8e81dfe8.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/carousel-title-ardor.c742a966.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/carousel-title-eyes.8eb9e169.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/interface-element-1.5937e7cc.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/interface-element-2.5d044511.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/interface-element-3.5e31c8d0.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/CapabilityCard-3.231ba9dc.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/CapabilityCard-mobile-1.b958a2b3.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/CapabilityCard-1.1d500e51.png",
-        "https://static.d.gtimg.com/cocraft/7cae76a3//_next/static/media/CapabilityCard-mobile-2.26102972.png"
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/navigation-logo.46dfc7ce.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-static-pc.8e81dfe8.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-title-ardor.c742a966.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-title-eyes.8eb9e169.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-1.5937e7cc.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-2.5d044511.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-3.5e31c8d0.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-3.231ba9dc.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-mobile-1.b958a2b3.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-1.1d500e51.png",
+        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-mobile-2.26102972.png"
       ],
       "article_title_extracted": "腾讯设计 Ardot — AI 驱动的智能设计工具",
       "category": "Tools",
@@ -31430,7 +31431,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://seoul-world-model.github.io/assets/data.png",
         "https://seoul-world-model.github.io/assets/vis_attn.png",
@@ -31475,7 +31476,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://taphaptic.com/assets/og-image.png",
         "https://www.taphaptic.com/assets/taphaptic-logo-dark.svg",
@@ -31520,7 +31521,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://layer-website-assets.b-cdn.net/opengraph/og-image-layer-home.jpeg"
       ],
@@ -31768,7 +31769,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "S.H.*.T Space",
       "category": "Articles",
       "created_at": "2026-03-17T03:21:51.965572Z",
@@ -31907,9 +31908,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/d80c21c5c1770d28f54669e1b630eaaf0494fc1b6852e0dce0eed12f6b1a37d2/basecamp/once",
+        "https://opengraph.githubassets.com/3cf589034bf869541ad46afb197ad1aeadc37dfc2b6392e1dae27a2f646c98d2/basecamp/once",
         "https://github.com/basecamp/once/raw/main/.github/media/install.gif"
       ],
       "article_title_extracted": "GitHub - basecamp/once: Easy self-hosting for Docker-based web apps · GitHub",
@@ -31993,7 +31994,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://omou.app/img/og_image.png",
         "https://omou.app/_next/image?url=%2Fimg%2Fstamp_01.webp%3Fv%3D20260315&w=3840&q=75",
@@ -32074,7 +32075,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.facebook.com/tr?id=&ev=PageView&noscript=1"
       ],
@@ -32247,9 +32248,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/5bf0d6b947ab208c82335f8dd772cae047037a2247bb662d28cdb9682405e43f/jonesphillip/sharehtml",
+        "https://opengraph.githubassets.com/fc6d117f886094cd7a56a56c192b72d601f705d327f573d21af507b9d96d4db2/jonesphillip/sharehtml",
         "https://github.com/jonesphillip/sharehtml/raw/main/assets/screenshot.png"
       ],
       "article_title_extracted": "GitHub - jonesphillip/sharehtml: Deploy HTML, Markdown, and code files from the CLI. Get a shareable URL with live comments, reactions, and presence. Self-hosted on Cloudflare Workers. · GitHub",
@@ -32289,7 +32290,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://sair.foundation/seo.jpg"
       ],
@@ -32330,7 +32331,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ac-bu.info/kindolphin/assets/ogp.png?20231204",
         "https://ac-bu.info/kindolphin/assets/kindle_ish_tree.webp"
@@ -32445,7 +32446,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://next-tryotter.cdn.prismic.io/next-tryotter/Zx7VR68jQArTz3b4_icon-pos.svg",
         "https://next-tryotter.cdn.prismic.io/next-tryotter/Zx_0ca8jQArTz6mA_icon-pos-hover.svg",
@@ -32496,7 +32497,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/zZG7WgGkp22JxBsbgEuZUZIDY.png",
         "https://framerusercontent.com/images/MYPHRssBK2ut3Qwg6dftdA9MBGE.png?width=400&height=400",
@@ -32545,7 +32546,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-03-14T12:48:03.953120Z",
@@ -32668,7 +32669,7 @@
       "x_status_id": "2032161195533242422"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/dNoeYLyZlFglP4fydOlA1DIZB1o.png",
         "https://framerusercontent.com/images/KN2L0Qo5WSR9dqKWxvlgrJAfc4U.webp?width=375&height=375"
@@ -32810,7 +32811,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/NPVBZBXBchAFMG23UA7gT6qVSE.png",
         "https://framerusercontent.com/images/YJqXkHvC73mkAXftHWMcRD1hTV0.webp?width=1440&height=960",
@@ -32908,7 +32909,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://void.cloud/assets/void-thumb.BiO2L2GR.jpg",
         "https://void.cloud/assets/footer-background.BOazVP_q.jpg"
@@ -32947,7 +32948,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/R20Ufz4COhoDtfs0B8UfsHA2LK4.png",
         "https://framerusercontent.com/images/rRYEcSfakSWpJdSWvKE1QpJNF0.png?width=720&height=560",
@@ -33196,7 +33197,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://giant-grouse-674.convex.cloud/api/storage/99fe52b7-7be7-4b65-90a0-c2cb7425c4c3"
       ],
@@ -33237,7 +33238,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://truecolorfilms.com/og-default.jpg"
       ],
@@ -33275,7 +33276,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-12T06:35:21.223192Z",
@@ -33420,7 +33421,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.method.security/content/seo/method-graphic-social-1200x628.png",
         "https://www.method.security/logotext.svg",
@@ -33468,7 +33469,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/698ac5bf59a78ef179c406e4_meta-1200-630-c.png",
         "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/68ecd074ce970e73cb212219_giphy3-ezgif.com-crop.gif",
@@ -33516,7 +33517,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://hesjustalittleguy.com/img/starboy/preview.webp",
         "https://hesjustalittleguy.com/img/starboy/preview-x.webp",
@@ -33599,7 +33600,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.proofeditor.ai/homepage-social-share.png?v=20260311b",
         "https://proofeditor.ai/assets/proof-logo.svg?v=20260316",
@@ -33699,7 +33700,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://my.wordpress.net/ogimage-mywp.png"
       ],
@@ -33740,7 +33742,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://natural.co/opengraph.jpg",
         "https://www.natural.co/assets/brand/natural-icon.svg",
@@ -33789,7 +33791,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://bruno-simon.com/social/share-image.png?cb=a",
         "https://bruno-simon.com/ui/map.svg",
@@ -33834,7 +33836,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/8GvhNRXE513dH6q3yLvasFqdRI.png",
         "https://framerusercontent.com/images/BlNNrFDUbYbzmYhG0u8Q3Psl8dk.png",
@@ -33886,7 +33888,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "Aaron's Waypoints",
       "category": "Articles",
       "created_at": "2026-03-11T15:12:35.006554Z",
@@ -33924,7 +33926,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-11T12:40:27.526237Z",
@@ -33959,7 +33961,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-11T08:54:51.419298Z",
@@ -34049,7 +34051,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.parseword.com/apple-touch-icon.png"
       ],
@@ -34281,7 +34283,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://portless.sh/og"
       ],
@@ -34319,7 +34321,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://fvqcrhkhgatlyl2m.public.blob.vercel-storage.com/vercel_ship_26_index.gif"
       ],
@@ -34359,7 +34361,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/684fbcc170396646e14881e5/6a1b1da17682ee1bfce0a9ab_Overlay%20web%20preview.png",
         "https://cdn.prod.website-files.com/684fbcc170396646e14881e5/69e0120b893ee019caacae3d_OVERLAY%20Logo%20SVG%202%20(1).png",
@@ -34411,7 +34413,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-10T09:16:32.975867Z",
@@ -34446,7 +34448,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://freight.cargo.site/i/146fd1691449635c24fd0313ea70c75447e41c1dc22975b4960e8e6a66c5d9e9/Stetson-Yondr-Studio-7.jpg",
         "https://freight.cargo.site/t/original/i/14e8f5fc615ecbc2baeee5f4065ebb85fb58cc1bc02b728c23626af12d0b9093/Yondr-Studio-Large-Green.gif",
@@ -34488,7 +34490,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6968f95cf64678111b0f9968/6970a8d1adfbe0df606179cc_open-graph.png"
       ],
@@ -34529,7 +34531,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://veeso.ai/Veeso_og.jpg",
         "https://veeso.ai/veesoai-black.svg",
@@ -34581,7 +34583,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://desengs.com/og.png",
         "https://desengs.com/logo.svg"
@@ -34664,7 +34666,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://refero.design/open-graph-4-1200x630.png"
       ],
@@ -34704,13 +34706,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-nav.png",
-        "https://cdn.qclaw.qq.com/qclaw/website/image/tencent-logo.png",
-        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-combined.png",
-        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-cta.png",
-        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-footer.png"
+        "https://cdn.qclaw.qq.com/qclaw/website/image/og-cover.png",
+        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-nav.png"
       ],
       "article_title_extracted": "QClaw - 微信远程办公 AI 助手 | 腾讯出品",
       "category": "Tools",
@@ -34745,7 +34745,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://jido.run/og/render/home"
       ],
@@ -34786,7 +34786,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://data-table.openstatus.dev/assets/data-table-infinite.png"
       ],
@@ -34826,7 +34826,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://camcraft-70ijldcqt-matthewp-4429s-projects.vercel.app/landing_page.jpeg",
         "https://camcraft.vercel.app/_next/image?url=%2Flogo.png&w=64&q=75",
@@ -34872,9 +34872,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/90d462b8c0621e53a457714be65cdb879425f9c99a9240f7720cb3dc320019b0/ylytdeng/wechat-decrypt"
+        "https://opengraph.githubassets.com/311d1a7e3b619a4137d6988b23d71be2fd84ad65feced657c54f3f059ee4037a/ylytdeng/wechat-decrypt"
       ],
       "article_title_extracted": "GitHub - ylytdeng/wechat-decrypt: WeChat 4.0 database decryptor - extract keys from memory, decrypt SQLCipher 4 databases, real-time message monitor · GitHub",
       "category": "Development",
@@ -34912,20 +34912,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/f6oskg04/production/ffce80c74d88a7632ebb865b734216d28458c8aa-1200x630.png",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0vijmlvyt4zmj.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitems-sidebar.0qjxqj95.ncr3.webp&w=750&q=100&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdetails-sidebar.0-2j0530g72j2.webp&w=750&q=100&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-ask-ai.0vr1-e019qpuk.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-answer-engine-insights.0vuy0vrvb3t_5.png&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agents.04gqet16mxjt3.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agent-analytics.00onbqov9v0wi.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGeorge-Bonaci.0x00.f4tm.5rk.jpeg&w=64&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faeo-and-seo.0oxxeiits~ys7.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontent-and-demand.0hw~oacd_0k1r.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpr-and-communications.0siixlg4r5vio.webp&w=3840&q=75&dpl=dpl_Hdzdt1brHdRA3VsrxQYXAVkCYd7a"
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0vijmlvyt4zmj.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitems-sidebar.0qjxqj95.ncr3.webp&w=750&q=100&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdetails-sidebar.0-2j0530g72j2.webp&w=750&q=100&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-ask-ai.0vr1-e019qpuk.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-answer-engine-insights.0vuy0vrvb3t_5.png&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agents.04gqet16mxjt3.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agent-analytics.00onbqov9v0wi.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGeorge-Bonaci.0x00.f4tm.5rk.jpeg&w=64&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faeo-and-seo.0oxxeiits~ys7.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontent-and-demand.0hw~oacd_0k1r.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpr-and-communications.0siixlg4r5vio.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5"
       ],
       "article_title_extracted": "Profound | Optimize Your Brand's Visibility in AI Search",
       "category": "Tools",
@@ -34964,7 +34964,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://chillcraft.app/og.webp"
       ],
@@ -35033,7 +35033,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://happycapy.ai/og-image.png",
         "https://happycapy.ai/images/textlogo_happycapy.svg",
@@ -35084,7 +35084,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/517126881/8d966ed9-7942-41ea-8275-9070470b4c9f"
       ],
@@ -35124,7 +35124,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.arqfinance.com/og-image-en.png",
         "https://www.arqfinance.com/_astro/logo.D534Oqrz_Z1xxVCU.svg",
@@ -35173,14 +35173,19 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://delphi.tools/delphi-lowlod.png",
         "https://delphi.tools/delphi-friday.png",
         "https://delphi.tools/delphi-boxes.png",
-        "https://delphi.tools/delphi-cli.png"
+        "https://delphi.tools/delphi-cli.png",
+        "https://delphi.tools/stickers/chant.png",
+        "https://delphi.tools/stickers/trans.png",
+        "https://delphi.tools/stickers/marker.png",
+        "https://delphi.tools/stickers/policy.png",
+        "https://delphi.tools/stickers/saas-h8r.png"
       ],
-      "article_title_extracted": "delphitools",
+      "article_title_extracted": "delphitools — privacy-first browser tools",
       "category": "Tools",
       "created_at": "2026-03-08T02:57:48.347614Z",
       "description": "A collection of small, low stakes and low effort tools. No logins, no registration, no data collection.",
@@ -35214,7 +35219,8 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_error": "HTTP Error 522: <none>",
       "article_title_extracted": "PullNotes",
       "category": "Tools",
       "created_at": "2026-03-08T02:57:49.825531Z",
@@ -35346,7 +35352,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://rwsdk.com/images/og-image.png",
         "https://rwsdk.com/images/logo--light.svg",
@@ -35398,7 +35404,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://antislop.xyz/og-image.png",
         "https://www.antislop.xyz/_next/image?url=%2Fantislop%20logo%20(header).png&w=384&q=75&dpl=dpl_FbxFSFfZd7LHxBrieq7cQ7VtR6EA"
@@ -35436,7 +35442,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://handy.computer/og-banner.png",
         "https://handy.computer/sponsor-images/wordcab.png",
@@ -35477,7 +35483,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.cotool.ai/images/og.jpg",
         "https://www.cotool.ai/_next/image?url=%2Fimages%2Fantoinette-stevens.jpeg&w=96&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
@@ -35526,7 +35532,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://demo.define.app/define_logo_bw.png",
         "https://demo.define.app/define_og_media.png"
@@ -35568,7 +35574,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://t3.codes/harnesses/claude-ai-icon.svg",
         "https://t3.codes/harnesses/openai_dark.svg",
@@ -35664,9 +35670,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://apr-mag.com/wp-content/uploads/2023/11/apr_mag_hdr_logo_1.png",
+        "https://apr-mag.com/wp-content/uploads/2026/05/catherinedebrunner-portrat-scaled-1200x1500.jpg",
         "https://apr-mag.com/wp-content/uploads/2026/04/NDT-APR-17-scaled-1200x1500.jpg",
         "https://apr-mag.com/wp-content/uploads/2026/04/APR_Houdini_PFW_-39-1200x1500.jpg",
         "https://apr-mag.com/wp-content/uploads/2026/02/ss25-lightspray-pr-mood_still-03-1200x1500.jpg",
@@ -35676,8 +35683,7 @@
         "https://apr-mag.com/wp-content/uploads/2025/11/KOREA_SELECTS_34-scaled-1200x1500.jpg",
         "https://apr-mag.com/wp-content/uploads/2025/10/nike-tn.png",
         "https://apr-mag.com/wp-content/uploads/2025/10/01-scaled-1200x1500.jpg",
-        "https://apr-mag.com/wp-content/uploads/2025/08/APR-MAG-on-1200x1500.jpg",
-        "https://apr-mag.com/wp-content/uploads/2025/08/1.jpg"
+        "https://apr-mag.com/wp-content/uploads/2025/08/APR-MAG-on-1200x1500.jpg"
       ],
       "article_title_extracted": "APR MAG - Articles - APR MAG",
       "category": "Articles",
@@ -35751,7 +35757,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://ern.app/og"
@@ -35895,7 +35901,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.commonknowled.ge/unfurl.png"
       ],
@@ -35971,7 +35977,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://impeccable.style/og-image-v2.jpg",
         "https://impeccable.style/assets/openai-logo.png",
@@ -36117,7 +36123,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://promptfolio.club/og/default.png"
       ],
@@ -36224,9 +36230,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ciggies.app/opengraph-image?5b77838236e879ec",
+        "https://www.ciggies.app/api/img/products/202606042127281690.jpg",
+        "https://www.ciggies.app/api/img/products/202606031150128380.jpg",
         "https://www.ciggies.app/api/img/products/202605271044390100.jpg",
         "https://www.ciggies.app/api/img/products/202605231525277140.jpg",
         "https://www.ciggies.app/api/img/products/202605231458189880.png",
@@ -36235,9 +36243,7 @@
         "https://www.ciggies.app/api/img/products/202605021608489090.png",
         "https://www.ciggies.app/api/img/products/202604280625112560.png",
         "https://www.ciggies.app/api/img/products/202604112321263160.jpg",
-        "https://www.ciggies.app/api/img/products/202604112257087610.jpg",
-        "https://www.ciggies.app/api/img/products/202604112241567690.png",
-        "https://www.ciggies.app/api/img/products/202604112220491100.png"
+        "https://www.ciggies.app/api/img/products/202604112257087610.jpg"
       ],
       "article_title_extracted": "中国卷烟博物馆 · Chinese Cigarette Museum",
       "category": "Tools",
@@ -36272,7 +36278,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://lawn.video/og/home.png"
       ],
@@ -36312,7 +36318,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://twine.com/_astro/_social.BmoqoTMV.png",
         "https://twine.com/_astro/_hero_slack_notification.CM2JT05z_Z2otnMQ.webp",
@@ -36427,22 +36433,22 @@
       "x_status_id": "2029198844093997145"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.agentcard.sh/og.png",
-        "https://www.agentcard.sh/agents/amp.svg",
-        "https://www.agentcard.sh/agents/antigravity.svg",
-        "https://www.agentcard.sh/agents/claude-code.svg",
-        "https://www.agentcard.sh/agents/clawdbot.svg",
-        "https://www.agentcard.sh/agents/cline.svg",
-        "https://www.agentcard.sh/agents/codex.svg",
-        "https://www.agentcard.sh/agents/cursor.svg",
-        "https://www.agentcard.sh/agents/droid.svg",
-        "https://www.agentcard.sh/agents/gemini.svg",
-        "https://www.agentcard.sh/agents/copilot.svg",
-        "https://www.agentcard.sh/agents/goose.svg"
+        "https://www.agentcard.sh/landing/home/agentcard-logo.svg",
+        "https://www.agentcard.sh/landing/home/hero-bg.svg",
+        "https://www.agentcard.sh/landing/home/sparkle.svg",
+        "https://www.agentcard.sh/landing/home/claude-icon.svg",
+        "https://www.agentcard.sh/landing/home/openai-icon.svg",
+        "https://www.agentcard.sh/landing/home/visa-hero.svg",
+        "https://www.agentcard.sh/landing/home/agentcard-label.svg",
+        "https://www.agentcard.sh/landing/home/visa.svg",
+        "https://www.agentcard.sh/landing/home/claude-large.svg",
+        "https://www.agentcard.sh/landing/home/openai-large.svg",
+        "https://www.agentcard.sh/_next/image?url=%2Favatars%2Fsimon-taylor.jpg&w=96&q=75"
       ],
-      "article_title_extracted": "AgentCard — Give Your AI Agent a Debit Card",
+      "article_title_extracted": "Agentcard",
       "category": "Crypto",
       "created_at": "2026-03-05T01:08:22.389168Z",
       "description": "Prepaid virtual Visa cards for AI agents. Fund a card in seconds, hand the number to any AI agent via MCP, and spend anywhere Visa is accepted.",
@@ -36479,9 +36485,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ff92632810210d388d6162ae3401868c08dd47b408f15ed22b8d25f8420290ca/googleworkspace/cli",
+        "https://opengraph.githubassets.com/1356caf9adf717c2e5311bc52b3cbc7f21cebc83b981bfd420a4007e735f4d0f/googleworkspace/cli",
         "https://camo.githubusercontent.com/4853e953516d5f164a9f4f700d7685fc8029cb9193ba11a7f133dd1be9944cc5/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40676f6f676c65776f726b73706163652f636c69",
         "https://camo.githubusercontent.com/7ae38d1c7e56b6b45bfd15bca0e93945abdd5b3bafab93771df6da4025024eaa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f676f6f676c65776f726b73706163652f636c69",
         "https://camo.githubusercontent.com/32e1c944ab8e80496deee97e80e8d68796a04256690c3fa2ea868b439974905c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f676f6f676c65776f726b73706163652f636c692f63692e796d6c3f6272616e63683d6d61696e266c6162656c3d4349",
@@ -36523,7 +36529,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.glaze.app/og-image@2x.png",
         "https://www.glaze.app/assets/feature-agent-m@2x-SqlCEaw_.png",
@@ -36569,7 +36575,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://superset.sh/og-image.png",
         "https://superset.sh/app-icons/claude.svg",
@@ -36620,7 +36626,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ogtag.xyz/?url=https%3A%2F%2Fkeep.md%2F&v=ttj6pf",
         "https://keep.md/testimonials/ben-tossell.jpg",
@@ -36668,13 +36674,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://interfere.com/cdn/opengraph-image.png",
+        "https://interfere.com/og/opengraph-image.png",
         "https://ojlajfkioceqxno6.public.blob.vercel-storage.com/marketing-site/homepage/dylan.png",
         "https://ojlajfkioceqxno6.public.blob.vercel-storage.com/marketing-site/homepage/profound.png"
       ],
-      "article_title_extracted": "Interfere › software that never breaks",
+      "article_title_extracted": "Production visibility for teams that ship fast › Interfere",
       "category": "Development",
       "created_at": "2026-03-04T07:06:27.954069Z",
       "description": "Build software that never breaks - Interfere finds and fixes bugs automatically in real-time, no human intervention required.",
@@ -36711,7 +36717,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-04T05:16:50.044881Z",
@@ -36745,7 +36751,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.assemblyai.com/_aai/images/meta/og-default.jpg",
         "https://www.assemblyai.com/_aai/images/logos/assemblyai-icon-primary.svg",
@@ -36796,7 +36802,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://sessions.co.uk/wp-content/uploads/2025/12/Sessions_OG.jpg",
         "https://sessions.co.uk/wp-content/uploads/2025/12/SOBE_PLYMOUTH_OPENING-19-800x534.jpg",
@@ -36848,7 +36854,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/K7fwZcdPPFs8nlclmMI8qYiU9sA.png",
         "https://framerusercontent.com/images/vh7P86BBSpw0skblzdbXWXE.png?width=2600&height=1792",
@@ -36900,13 +36906,13 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://better-auth.com/og.png",
-        "https://better-auth.com/left-3d-logo.svg?dpl=dpl_5iKeWNHa3e9kX8CjdMxocxwtWz3G",
-        "https://better-auth.com/right-3d-logo.svg?dpl=dpl_5iKeWNHa3e9kX8CjdMxocxwtWz3G",
-        "https://better-auth.com/left-3d-logo-light.svg?dpl=dpl_5iKeWNHa3e9kX8CjdMxocxwtWz3G",
-        "https://better-auth.com/right-3d-logo-light.svg?dpl=dpl_5iKeWNHa3e9kX8CjdMxocxwtWz3G",
+        "https://better-auth.com/left-3d-logo.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
+        "https://better-auth.com/right-3d-logo.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
+        "https://better-auth.com/left-3d-logo-light.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
+        "https://better-auth.com/right-3d-logo-light.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
         "https://avatars.githubusercontent.com/u/86073083?v=4&s=64",
         "https://avatars.githubusercontent.com/u/14026360?v=4&s=64",
         "https://avatars.githubusercontent.com/u/65047246?v=4&s=64",
@@ -37109,7 +37115,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/g6Tnai3ElQmeSqLtqpVqsmEtns.png",
         "https://framerusercontent.com/images/V86s9SvhrJzntk6Qjgp6ixdHNR8.png?width=400&height=400",
@@ -37289,7 +37295,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://tools.casabranda.com/images/og-preview.png"
       ],
@@ -37329,7 +37335,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://thegridcn.com/og-image.png"
       ],
@@ -37495,7 +37501,7 @@
       "x_status_id": "2028533326966088188"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.clawly.chat/opengraph-image?75e6500b5c2e75d7",
         "https://www.clawly.pet/icon.png",
@@ -37542,7 +37548,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.llamaindex.ai/og-image.png",
         "https://www.llamaindex.ai/_astro/header-careers.q9Hk8rsS_1RSkuD.webp",
@@ -37594,7 +37600,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://haptics.lochie.me/og.png"
       ],
@@ -37732,7 +37738,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://historyofsoftware.org/og.png",
         "https://historyofsoftware.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiphone.4977f9bc.png&w=1080&q=75&dpl=dpl_7ZPCcRQvwAi3cfoZHNb5T3JCuW2e",
@@ -37783,7 +37789,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://sshx.io/images/social-image2.png",
         "https://sshx.io/_app/immutable/assets/logotype-dark.05834138.svg",
@@ -37824,7 +37830,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://component.gallery/open-graph/default.png",
         "https://component.gallery/_astro/7qjMqjxxOavvcSu2-8QD4RcFjRe7aH6GVJ4cvC4n1Tw_2ovHwf.webp",
@@ -37976,7 +37982,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-02T04:14:30.167820Z",
@@ -38049,7 +38055,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://garden.cloudflare.dev/assets/og-home.png",
         "https://garden.cloudflare.dev/_astro/cloudflare.FR8UpI_e.svg",
@@ -38136,7 +38142,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_fetch_error": "HTTP Error 404: Not Found",
       "category": "Design",
       "created_at": "2026-02-28T08:05:18.742774Z",
@@ -38174,7 +38180,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://readout.org/og.png",
         "https://www.readout.org/logo-outline.svg",
@@ -38211,7 +38217,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "App Store Screenshot Design Inspiration | before.click",
       "category": "Design",
       "created_at": "2026-02-28T08:04:14.296883Z",
@@ -38245,7 +38251,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://actors.dev/og-image.png"
       ],
@@ -38334,22 +38341,22 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://faces.app/opengraph-image.png?opengraph-image.0.35pr0nnnga..png",
         "https://faces.app/opengraph-image.png",
+        "https://faces.app/_next/image?url=%2Flanding%2Fwhy%2Fwhy-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
+        "https://faces.app/_next/image?url=%2Flanding%2Ffeatures%2Ffeatures-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
+        "https://faces.app/_next/image?url=%2Flanding%2Ffooter-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
         "https://faces.app/landing/slides/row-1/posters/1.jpg",
         "https://faces.app/landing/slides/row-1/posters/2.jpg",
         "https://faces.app/landing/slides/row-1/posters/3.jpg",
         "https://faces.app/landing/slides/row-1/posters/4.jpg",
         "https://faces.app/landing/slides/row-1/posters/5.jpg",
         "https://faces.app/landing/slides/row-1/posters/6.jpg",
-        "https://faces.app/landing/slides/row-2/posters/1.jpg",
-        "https://faces.app/landing/slides/row-2/posters/2.jpg",
-        "https://faces.app/landing/slides/row-2/posters/3.jpg",
-        "https://faces.app/landing/slides/row-2/posters/4.jpg"
+        "https://faces.app/landing/slides/row-2/posters/1.jpg"
       ],
-      "article_title_extracted": "Faces: Interactive Presentations",
+      "article_title_extracted": "Faces: Slides worth presenting",
       "category": "Design",
       "created_at": "2026-02-28T07:28:21.848481Z",
       "description": "Create interactive, explorable decks that truly deliver. Made effortlessly with AI.",
@@ -38385,7 +38392,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.shortkit.dev/_next/image?url=%2Fyc-square.png&w=48&q=75"
       ],
@@ -38423,7 +38430,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.appstar.world/_next/image?url=https%3A%2F%2Fmljjuwrjocdvrbgzricu.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fapp-assets%2Fthumbnails%2Fdid%3Aprivy%3Acmkr0ily700ebl50chukx9lz8%2F1772040709924-f4hmtq48fw.png&w=1200&q=75",
         "https://www.appstar.world/_next/image?url=https%3A%2F%2Fmljjuwrjocdvrbgzricu.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fapp-assets%2Fthumbnails%2Fdid%3Aprivy%3Acmmc3mw4t01km0djrnr2zijz9%2F1772645205648-252hggbdlnr.webp&w=1200&q=75",
@@ -38465,7 +38472,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/31heufl5/production/cc9f736e633f4e0a410d30f847e71bfc752c4655-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630",
         "https://cdn.sanity.io/images/31heufl5/production/36012a3129bd5a165444987e1851715bcd3caff5-3948x2640.png?rect=1,0,3947,2640&w=3400&h=2274&q=90&fit=max&auto=format&width=3400",
@@ -38555,7 +38562,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.droneland.au/opengraph-image.png?opengraph-image.71a1bcb1.png",
         "https://www.droneland.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-01.1a364421.jpg&w=3840&q=75&dpl=dpl_Gu7QBZfUqPhPffBqW28pZhEPHFMQ",
@@ -38602,7 +38609,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/667440285a368b0bfed2aec2/6682805c6a6b21d1bd9cc3ae_preview.webp",
         "https://cdn.prod.website-files.com/66b45ff6295fb0013cdf1dfd/66b45ff6295fb0013cdf1e0a_logo-velvet.svg",
@@ -38654,7 +38661,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-26T15:44:50.997130Z",
@@ -38688,11 +38695,12 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://quiver.ai/og.png",
-        "https://quiver.ai/blog-2/1.1-cover.png",
-        "https://quiver.ai/blog/seed-round-cover.png"
+        "https://quiver.ai/blog-partners/timbal-ai.jpg",
+        "https://quiver.ai/blog-partners/paper.jpg",
+        "https://quiver.ai/blog-partners/comfyui.jpg"
       ],
       "article_title_extracted": "QuiverAI – Building the Future of Vector Design",
       "category": "Design",
@@ -38829,7 +38837,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://on.design/Link.jpg?v=2",
         "https://on.design/carousel-auth/Alex.jpeg",
@@ -38934,9 +38942,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/239d1b47888e188b69191ca1f418bf4c355c5dc61280776f890e4c2ce85cb0ca/Lakr233/AssppWeb",
+        "https://opengraph.githubassets.com/1cebde22a343569fc6316c3b4211aa09f615ae827f60dfa669280cc40c6abd61/Lakr233/AssppWeb",
         "https://github.com/Lakr233/AssppWeb/raw/main/resources/preview.png",
         "https://camo.githubusercontent.com/aa3de9a0130879a84691a2286f5302105d5f3554c5d0af4e3f2f24174eeeea25/68747470733a2f2f6465706c6f792e776f726b6572732e636c6f7564666c6172652e636f6d2f627574746f6e"
       ],
@@ -39094,7 +39102,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/S1AutcEo7DtO17XQccA1BB7294.png",
         "https://www.guidelines.online/framerusercontent.com/images/CLSoe4YF8B6FgXmFjLcXJPxNSf0.svg%3Fwidth=1018&height=259",
@@ -39237,7 +39245,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://pinhead.ink/banner.jpg",
         "https://pinhead.ink/v1/pin.svg",
@@ -39282,7 +39290,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://s.page/og.jpg"
       ],
@@ -39445,7 +39453,7 @@
       "x_status_id": "2026348761501581620"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://images.ctfassets.net/vc31guzs8eg0/3VwbD56MXK0cajx6HPihi8/26fa05154bbdf7abf4a19e33a47b6bb0/LTYC-shareimage-v3.png"
       ],
@@ -39565,7 +39573,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-24T04:49:04.473067Z",
@@ -39600,7 +39608,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-24T04:41:08.250304Z",
@@ -39634,7 +39642,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "Senso — News Through an Ancient Lens",
       "category": "Articles",
       "created_at": "2026-02-23T15:11:30.682905Z",
@@ -39671,7 +39679,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.shiori.sh/og-image.png",
         "https://www.shiori.sh/logo.png",
@@ -39714,7 +39722,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://external-cdn.morphic.com/website-production/assets/images/og/home.avif",
         "https://morphic.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplatform-preview-blur.05lx~jabvkeim.webp&w=3840&q=75",
@@ -39765,7 +39773,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://vizejs.dev/logo.svg",
         "https://github.com/ubugeeei.png"
@@ -39803,7 +39811,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://eyedrop.ai/eyedrop-og.png",
         "https://eyedrop.ai/_astro/eyedrop-iris-cropped.CsS9xXCd.png",
@@ -39948,7 +39956,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_error": "HTTP Error 502: Bad Gateway",
       "article_image_urls": [
         "https://walkie.sh/assets/walkie-web.png"
       ],
@@ -39988,7 +39998,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "http://littleampscoffee.com/cdn/shop/files/Little_Amps-4.jpg?v=1767030403",
         "https://littleampscoffee.com/cdn/shop/files/preview_images/c8d31ad3915b4930b599ff494663ddcb.thumbnail.0000000000_small.jpg?v=1762896926",
@@ -40075,7 +40085,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "chat jimmy",
       "category": "Tools",
       "created_at": "2026-02-22T07:55:39.105630Z",
@@ -40106,20 +40116,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/snowdog/menu/node/s/e/sengematch_1_2.svg?speedsize=r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/snowdog/menu/node/c/o/comparison_3.svg?speedsize=r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/snowdog/menu/node/s/t/stofprove_icon_1_2.svg?speedsize=r_cover",
-        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/pillow_madness/Pillow_madness_hero_dk.png?speedsize=w_2560,r_cover",
-        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/pillow_madness/Pillow_madness_title_dk.svg?speedsize=r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/kon_1.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/ele_1.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/box_1.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/sengeramme.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/sovesofa_1.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/catalog/product/a/n/angle_1_render_venus_180_baltimore_sand_2.jpg?speedsize=w_600,h_600,r_cover",
-        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/v/i/vivo.jpg?speedsize=w_400,h_320,r_cover"
+        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/v/i/vivo.jpg?speedsize=w_400,h_320,r_cover",
+        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_mollis_180_olympus_903_5.jpg?speedsize=w_400,h_320,r_cover",
+        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_moma_austin_1_1.jpg?speedsize=w_400,h_320,r_cover"
       ],
       "article_title_extracted": "Better Nights. Good beds and good sleep change everything.",
       "category": "Tools",
@@ -40158,10 +40168,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://holocron.so/api/og?title=Termcast&description=Build+terminal+apps+with+React+and+Raycast-like+APIs&icon=https%3A%2F%2Ftermcast.app%2Ffavicon.ico&siteName=Termcast&pageLabel=termcast.app%2F",
-        "https://holocron.so/api/ai-logo/termcast.jpeg"
+        "https://termcast.app/holocron-api/ai-logo/termcast.jpeg"
       ],
       "article_title_extracted": "Termcast — Termcast",
       "category": "Development",
@@ -40200,7 +40210,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6550dc350fc956749ca012c6/69ab5dd2958a14c8924ad65e_Backup-Logo.jpg",
         "https://cdn.prod.website-files.com/6550dc350fc956749ca012c6/69f4e119027c0f3a9fe9b4fb_spring%2026_%20photoshoot-230.avif",
@@ -40251,7 +40261,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "http://woset.world/cdn/shop/files/Woset___Logo.jpg?v=1701335373",
         "https://woset.world/cdn/shop/files/DoonasMagicCrayon.webp?v=1741764656&width=1200",
@@ -40359,19 +40369,19 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://kino.ai/logo/opengraph-image.png",
-        "https://kino.ai/_next/image?url=%2Flanding%2Fkino-guy-bg-blurred.png&w=3840&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
+        "https://kino.ai/_next/image?url=%2Flanding%2Fkino-guy-bg-blurred.png&w=3840&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
         "https://kino.ai/logo/kino-primary-logo-white.svg",
         "https://kino.ai/landing/light-texture.png",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fshiva.jpg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fjordanmitchell.jpg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fmaximus.png&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fkrazam.jpg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fdonald.jpg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbowden.jpeg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbrayden.jpg&w=64&q=75&dpl=dpl_3Js2u2wL31ep2jcpxqpbPD1v51BY"
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fshiva.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fjordanmitchell.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fmaximus.png&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fkrazam.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fdonald.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbowden.jpeg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbrayden.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V"
       ],
       "article_title_extracted": "Kino — The new home for video editors – Kino",
       "category": "Tools",
@@ -40451,7 +40461,18 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_image_urls": [
+        "https://taalas.com/h-content/uploads/2024/02/lead-block-taalas-taalas.png",
+        "https://taalas.com/h-content/uploads/2024/02/video-poster-taalas.jpg",
+        "https://taalas.com/h-content/themes/h-theme-child/media/taalas-snapshot-0.jpg",
+        "https://taalas.com/h-content/themes/h-theme-child/media/taalas-snapshot-1.jpg",
+        "https://taalas.com/h-content/uploads/2024/02/b-2-top-min-taalas-min-taalas.png",
+        "https://taalas.com/h-content/uploads/2024/02/b2-bottom-min-taalas-min-taalas.png",
+        "https://taalas.com/h-content/uploads/2024/02/block-3-min-taalas-taalas-1.png",
+        "https://taalas.com/h-content/uploads/2024/02/block-3-min-taalas-mob-taalas-1.png"
+      ],
+      "article_title_extracted": "Taalas | The model is The Computer",
       "category": "Development",
       "created_at": "2026-02-22T07:52:19.857621Z",
       "description": "We are creating a platform that makes it easy to turn any deep learning model into custom silicon quickly.",
@@ -40488,7 +40509,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://asccli.sh/og.png"
       ],
@@ -40529,7 +40550,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-21T01:53:53.553957Z",
@@ -40687,7 +40708,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-20T09:55:51.484607Z",
@@ -40827,10 +40848,10 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://rork.com/og-image.png",
-        "https://i.ytimg.com/vi/BYKxBnEqtGs/hqdefault.jpg"
+        "https://rork.com/_next/image?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBYKxBnEqtGs%2Fmaxresdefault.jpg&w=3840&q=75"
       ],
       "article_title_extracted": "Rork — create a mobile app using AI in minutes",
       "category": "Development",
@@ -40925,7 +40946,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://fb.edoo.gg/assets/images/card.jpg?v=86ae0ddf",
         "https://fb.edoo.gg/assets/images/image01.jpg?v=86ae0ddf",
@@ -41027,11 +41048,14 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://npmx.dev/_og/d/a_~YSBmYXN0LCBtb2Rlcm4gYnJvd3NlciBmb3IgdGhlIG5wbSByZWdpc3RyeS4gU2VhcmNoLCBicm93c2UsIGFuZCBleHBsb3JlIHBhY2thZ2VzIHdpdGggYSBtb2Rlcm4gaW50ZXJmYWNlLg,c_Splash.takumi,s_CJrpH9ChvBFkc5j7.png",
         "https://npmx.dev/extra/npmx-cute.svg",
-        "https://npmx.dev/extra/pride-1.svg"
+        "https://npmx.dev/extra/pride-1.svg",
+        "https://npmx.dev/extra/tetris.svg",
+        "https://npmx.dev/extra/pride-2.svg",
+        "https://npmx.dev/extra/pride-3.png"
       ],
       "article_title_extracted": "npmx - Package Browser for the npm Registry",
       "category": "Tools",
@@ -41070,7 +41094,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://spacebot.sh/og.jpg",
         "https://spacebot.sh/ball.png",
@@ -41168,7 +41192,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.wist.chat/images/widget-splash.jpg",
         "https://www.wist.chat/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwist-chat-agent-builder.6f7dbfc0.jpg&w=3840&q=75",
@@ -41217,7 +41241,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://beside.com/og/home.png",
         "https://www.beside.com/beside-header-logo.svg",
@@ -41321,7 +41345,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://wholeearth.info/share-image.jpg",
         "https://wholeearth.info/logos/we-catalog.png",
@@ -41407,20 +41431,20 @@
       "x_status_id": "2024144333511815588"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/8nmbzj0x/production/3462cd76bd3792d4ec715bdc568644888fb9b42e-2000x1125.png",
         "https://www.moderntreasury.com/assets/seo/default-meta-image.png",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-1-anchoragedigital.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-2-avidxchange.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-3-bamboohr.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-4-bilt.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-5-check.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-6-classpass.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-7-conservice.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-8-drivewealth.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-9-float.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-10-forma.svg?dpl=dpl_E6BYEcHAYN5kviWtuYvLFrdDmxmh"
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-1-anchoragedigital.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-2-avidxchange.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-3-bamboohr.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-4-bilt.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-5-check.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-6-classpass.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-7-conservice.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-8-drivewealth.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-9-float.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-10-forma.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr"
       ],
       "article_title_extracted": "Modern Treasury - Build Products That Move Money",
       "category": "Tools",
@@ -41459,13 +41483,13 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.react.doctor/opengraph-image",
-        "https://www.react.doctor/images/logos/paypal.svg?dpl=dpl_EgR3WHqYWrEUHNBx5AEtUjeBS3aa",
-        "https://www.react.doctor/images/logos/rippling.svg?dpl=dpl_EgR3WHqYWrEUHNBx5AEtUjeBS3aa",
-        "https://www.react.doctor/images/logos/alibaba.svg?dpl=dpl_EgR3WHqYWrEUHNBx5AEtUjeBS3aa",
-        "https://www.react.doctor/images/logos/posthog.svg?dpl=dpl_EgR3WHqYWrEUHNBx5AEtUjeBS3aa"
+        "https://www.react.doctor/images/logos/paypal.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
+        "https://www.react.doctor/images/logos/rippling.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
+        "https://www.react.doctor/images/logos/alibaba.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
+        "https://www.react.doctor/images/logos/posthog.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF"
       ],
       "article_title_extracted": "React Doctor",
       "category": "Development",
@@ -41504,7 +41528,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-19T02:06:12.426327Z",
@@ -41539,7 +41563,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.dreamer.com/images/media-thumbnail.png?v=2"
       ],
@@ -41612,7 +41636,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-18T16:17:35.428956Z",
@@ -41738,7 +41762,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-18T16:13:32.481556Z",
@@ -41814,20 +41838,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.dench.com/claw/opengraph-image-sidafs.png?opengraph-image.e0c34f1e.png",
         "https://www.dench.com/api/og",
-        "https://www.dench.com/_next/image?url=%2Fbackgrounds%2Fhero-ascii-art.png&w=3840&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fdench-workspace-icon.png&w=3840&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-drive.png&w=96&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/logos/apps/notion.svg?dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fsalesforce.png&w=96&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/logos/apps/hubspot.svg?dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgmail.png&w=96&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-calendar.png&w=96&q=75&dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/logos/apps/obsidian.svg?dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc",
-        "https://www.dench.com/logos/apps/slack.svg?dpl=dpl_3KQEgsEaHKz6cVPfdSt61wffKXqc"
+        "https://www.dench.com/_next/image?url=%2Fbackgrounds%2Fhero-ascii-art.png&w=3840&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fdench-workspace-icon.png&w=3840&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-drive.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/logos/apps/notion.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fsalesforce.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/logos/apps/hubspot.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgmail.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-calendar.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/logos/apps/obsidian.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
+        "https://www.dench.com/logos/apps/slack.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85"
       ],
       "article_title_extracted": "DenchClaw — AI CRM, hosted locally on your Mac",
       "category": "Tools",
@@ -41866,7 +41890,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "Nova is now Spacesuit",
       "category": "Tools",
       "created_at": "2026-02-17T08:25:50.692613Z",
@@ -41903,9 +41927,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/fb276222bcb127fc477292494f3c6831b1e2e0418e23c49caaf61b6651fec4da/rjs/shaping-skills"
+        "https://opengraph.githubassets.com/0e6c24ba42b9c932da9e2eb41be03b01f13c79d048fa23f26b3e60bce709f31f/rjs/shaping-skills"
       ],
       "article_title_extracted": "GitHub - rjs/shaping-skills: Skills I use with Claude for shaping · GitHub",
       "category": "Development",
@@ -41944,7 +41968,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "http://themonolithproject.net/share-og.png",
         "http://themonolithproject.net/share-x.png"
@@ -41983,7 +42007,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Q3hu4kS2kYgSouHNdLEGzYTP8Q.png",
         "https://framerusercontent.com/images/Pu8KKBqpKIhdLXacok6a0vs6qjw.svg?width=300&height=300",
@@ -42035,7 +42059,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://firstofkind.com/og-image.png"
       ],
@@ -42075,7 +42099,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://wiretext.app/opengraph-image?0426fc09442f549d"
       ],
@@ -42231,7 +42255,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/4c8dc6148b4c73153c2653a1b8bf9cda091748691da9077332d72b54fa7f841a/opengeos/anymap-ts",
         "https://camo.githubusercontent.com/eff96fda6b2e0fff8cdf2978f89d61aa434bb98c00453ae23dd0aab8d1451633/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667",
@@ -42336,7 +42360,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://summarize.sh/social-card.png"
       ],
@@ -42377,9 +42401,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/34fe0150656a66675c01e5f9257a889b2929ad56eb4315ba9c0bf60fbe882726/joshpuckett/dialkit",
+        "https://opengraph.githubassets.com/5459bb238ac32d170a792d9f6410f9a18d298b20e826381223e941671fecdf24/joshpuckett/dialkit",
         "https://camo.githubusercontent.com/e457bb68cbddd3e0013d75029c4846301d9f3d0c955935dc43a35f82ca9f134a/68747470733a2f2f6a6f73687075636b6574742e6d652f696d616765732f6469616c6b69742e706e67"
       ],
       "article_title_extracted": "GitHub - joshpuckett/dialkit: A library to help you dial in interface parameters of any kind · GitHub",
@@ -42529,7 +42553,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.worldmonitor.app/favico/og-image.png"
       ],
@@ -42569,7 +42593,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.monaco.com/og-image.png",
         "https://www.monaco.com/global/logo-mark.svg",
@@ -42614,7 +42638,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://searchingforbirds.visualcinnamon.com/img/socials/searching-for-birds-social-1200x630.jpg",
         "https://searchingforbirds.visualcinnamon.com/img/socials/data-visualization-introduction-snow-owl.jpg",
@@ -42665,7 +42689,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://a.storyblok.com/f/338771/1820x956/706e30d903/newsharecard.png/m/1200x630",
         "https://a.storyblok.com/f/338771/96x96/019ab12c5f/sparkle.png",
@@ -42716,7 +42740,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://wero-wallet.eu/storage/images/Frame-1.png",
         "https://img.imageboss.me/wero-wallet-assets/width/3072/format:png/images/Home-phone-EN-min.png",
@@ -42802,20 +42826,20 @@
       "x_status_id": "2022073098674311554"
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/bz52j8pw/production/7eda3233fe44682df9551bdc8a2b5024ad641a2b-1200x630.png?rect=0,2,1200,627&w=1200&h=627&fit=crop&auto=format",
         "https://cdn.sanity.io/images/bz52j8pw/production/14b8759f41800a056b695bb2cac246f5cab7643b-1970x594.png?auto=format&h=594&w=1970",
         "https://cdn.sanity.io/images/bz52j8pw/production/94aed1fb37c0e3a579bd5c3b67477a5b39db624e-2196x542.png?auto=format&h=542&w=2196",
-        "https://cdn.sanity.io/images/bz52j8pw/production/361b1a6688786ac17e6ad56bec763db6502b332a-1970x654.png?auto=format&h=654&w=1970",
         "https://cdn.sanity.io/images/bz52j8pw/production/a23d2173db1178cd8fcd008e274adc816003481c-1784x372.png?auto=format&h=372&w=1784",
         "https://cdn.sanity.io/images/bz52j8pw/production/155ba50520e3cdf571f1a12d70b3d57e68994ee5-1842x756.png?auto=format&h=756&w=1842",
         "https://cdn.sanity.io/images/bz52j8pw/production/5ffc5417e3a6e7193867f57f4042f6b286604036-1784x544.png?auto=format&h=544&w=1784",
-        "https://cdn.sanity.io/images/bz52j8pw/production/fcd761cdc93ff30ddff2a15fb9c96c1c141dabde-612x605.png?auto=format&h=3796&w=3840&fit=min",
         "https://www.simile.ai/images/wealthfront_logo.svg",
-        "https://www.simile.ai/images/telstra_logo.svg",
         "https://www.simile.ai/images/suntory_logo.svg",
-        "https://www.simile.ai/images/cvs_logo.svg"
+        "https://www.simile.ai/images/cvs_logo.svg",
+        "https://www.simile.ai/images/gsp_logo.svg",
+        "https://www.simile.ai/images/itau_logo.svg",
+        "https://cdn.sanity.io/images/bz52j8pw/production/fcd761cdc93ff30ddff2a15fb9c96c1c141dabde-612x605.png?auto=format&h=3796&w=3840&fit=min"
       ],
       "article_title_extracted": "Home | Simile",
       "category": "Tools",
@@ -42854,10 +42878,11 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
-        "https://agent.minimax.io/assets/logo/favicon_v2.png?v=4"
+        "https://agent.minimax.io/assets/logo/favicon_v2.png?v=4",
+        "https://www.facebook.com/tr?id=1570392887839826&ev=PageView&noscript=1"
       ],
       "article_title_extracted": "MiniMax Agent Experts - Discover AI Expert Agents, Skills & Subagents",
       "category": "Tools",
@@ -42895,7 +42920,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://oblique.security/images/opengraph-image.png",
         "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2400,height=1600,format=webp/_astro/hero-screenshot.Ce7GWSAO.png",
@@ -42940,7 +42965,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://mem.nowledge.co/opengraph-image",
         "https://mem.nowledge.co/images/nowledge-mem-logo.webp?dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
@@ -43047,7 +43072,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-12T02:40:11.501514Z",
@@ -43217,7 +43242,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://tax-ui.brianlovin.com/tax-ui-og.png"
       ],
@@ -43301,7 +43326,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://rolldown.rs/og.jpg",
         "https://rolldown.rs/assets/footer-background.SqbDtxzL.jpg",
@@ -43393,7 +43418,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://entire.io/images/og/home.png?v=2"
       ],
@@ -43430,7 +43455,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://farayan.me/opengraph-image.png?67f42c7e1b284e28",
         "https://farayan.me/_next/image?url=%2Fwindow%2Fwindow.webp&w=1080&q=75"
@@ -43466,7 +43491,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "Obsidian CLI - Obsidian Help",
       "category": "Articles",
       "created_at": "2026-02-10T17:00:07.243052Z",
@@ -43613,7 +43638,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/156916/1742564948-gothenburg-film-festival.jpg?auto=format&fit=max&w=1200",
         "https://newland.tv/_next/image/?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2109728536-b9c0bc9d2448bab082058d60dcfb99fcda484fa1b60683d956135e17682ebcfb-d_1920x1080%3Fregion%3Dus&w=3840&q=75",
@@ -43719,7 +43744,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://images.ctfassets.net/bkmkssdu4exw/4AmtjJsDFh6FaE3A9yrjTt/5614b55c2840d91cc8b6913db3db86a6/Web_Meta_OG_Image.png",
         "https://images.ctfassets.net/bkmkssdu4exw/45ab7gjbGt1vkhly454AUr/22b735f32a8cc8d71ec1b6896c78e7ce/Home_Hero_020726.png?w=3840&q=80&fm=webp",
@@ -43860,7 +43885,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://walzr.com/thumb-img0001pic.jpg",
         "https://walzr.com/thumb-bopspotter.jpg",
@@ -43908,7 +43933,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://botdrop.app/opengraph-image?aea83049959f80cc",
         "https://botdrop.app/logo.svg",
@@ -44061,7 +44086,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://facehash.dev/og-image.png"
       ],
@@ -44179,7 +44204,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://raffi.town/assets/cover-image.png",
         "https://www.raffi.zip/assets/phone-mockups/home-desktop.jpg",
@@ -44273,20 +44298,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://trustmrr.com/opengraph-image.png?64f2b66277614554",
         "https://trustmrr.com/twitter-image.png?64f2b66277614554",
-        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon_trans.5846c62e.png&w=256&q=75&dpl=dpl_84a2waH5qx4tDL9aGLXUtBonTLU4",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Flazyseo-dff9007b-99fd-4e35-993d-6941fd407628.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Foutstand-so-8d2ddb7f-bc53-4695-a4ef-03ed92c51464.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fanonymous_startup_icon.c2df1b6b.png&w=64&q=75&dpl=dpl_84a2waH5qx4tDL9aGLXUtBonTLU4",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.dawnce.app%2Fsmall&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fgomytho-56536184-8c75-4afe-af81-d9178fc305bb.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fthesisai-af9192ad-1638-4eaa-ad72-ecfa631914c8.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fredgrow-a632bd73-91d0-40d1-a799-3b82bd68ef7e.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fdisputestack-cba5c64e-b3c1-4081-98e0-1d87e5814986.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Flifeflexia-08b6f5c9-c3bd-465f-9d62-20e2f4b0808f.png&w=64&q=75"
+        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon_trans.5846c62e.png&w=256&q=75&dpl=dpl_Hc6Png9auBf23X33C2Ds8FttNg8x",
+        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fanonymous_startup_icon.c2df1b6b.png&w=64&q=75&dpl=dpl_Hc6Png9auBf23X33C2Ds8FttNg8x",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fviberise-manifest-attract-f60260ec-7fc5-4be5-8127-86193b31503d.png&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.classyaction.app%2Fsmall&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.rift.shifting%2Fsmall&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xU3NaclJCNXBlQThLd0hLfGZsX2xpdmVfU1Q5UlJzQmRzcURBd0kxU2JhdWhTOENt00axH7wGpY&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xTjkxbExDZWR5akxMclBRfGZsX2xpdmVfaDM3aGpteUZpcVJ5dW1KN1dkbHk2Q0JL00uqGnE9T8&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xUmdKelVHQXB5Y3FqWG16fGZsX2xpdmVfTjY2eW1FOWhaeVVJZHFHaWJnTVJkTHhX00JmrPWojE&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fsnaplearn-ffc65e12-8920-48f9-9e4b-bc852bd17cef.webp&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fapp.swipeaway-photo-app%2Fsmall&w=64&q=75"
       ],
       "article_title_extracted": "TrustMRR - Verified startup revenue database",
       "category": "Tools",
@@ -44325,7 +44350,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://hyper3d.ai/assets/og-banner.png"
       ],
@@ -44365,7 +44390,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cua.ai/cua-logo-accent.svg",
         "https://cua.ai/koala.svg"
@@ -44461,7 +44486,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.useforma.app/og.png",
         "https://www.useforma.app/images/forma-grayscale.svg",
@@ -44512,7 +44537,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://ortho.brdrck.com/opengraph-image.png?opengraph-image.7e8b79d5.png",
         "https://ortho.brdrck.com/twitter-image.png?twitter-image.d729c123.png",
@@ -44555,7 +44580,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-08T16:54:13.488351Z",
@@ -44587,9 +44612,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/e225ea9c33439819db8aaf1e5fc3c71f321130645211ea5ab388823464084ba1/mitchellh/vouch"
+        "https://opengraph.githubassets.com/9a3ed45ccde4e61499bbfd7c1bad54870f7a1ed28a77471461daa4fd70d85cb9/mitchellh/vouch"
       ],
       "article_title_extracted": "GitHub - mitchellh/vouch: A community trust management system based on explicit vouches to participate. · GitHub",
       "category": "Development",
@@ -44673,7 +44698,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://soloterm.com/brand/og-v2.png",
         "https://soloterm.com/brand/logo.svg",
@@ -44776,7 +44801,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://env.t3.gg/opengraph-image.png"
       ],
@@ -44814,7 +44839,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://sip.baby/og.webp"
       ],
@@ -44902,7 +44927,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://coteditor.com/img/appicon/512@2x.png",
         "https://coteditor.com/img/appicon/128@2x.png",
@@ -44996,7 +45021,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -45087,7 +45112,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://intertapes.net/img/og/default.jpg",
         "https://intertapes.net/uploads/tapes/actv92/grid_generated.webp",
@@ -45168,7 +45193,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://www.sophieseita.com/media/pages/bio/948228067e-1758493933/sophieseita-by-christa-holka-2aug21-124web.jpg",
         "https://www.sophieseita.com/media/pages/news/glossary-voice/975cc7b6ad-1778701278/img_8099-copy.jpeg",
@@ -45219,9 +45244,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/74b7ac88cc410df9f86c153f23f48e98f8b8774da16460c43464d2a4dca913d7/tmux/tmux",
+        "https://opengraph.githubassets.com/97c4d6f19da9e35895db32761a65e0b56ed72d6ec2ed734d3c0638ab7b77164c/tmux/tmux",
         "https://github.com/tmux/tmux/raw/master/logo/tmux-logo-medium.png?raw=true"
       ],
       "article_title_extracted": "Home · tmux/tmux Wiki · GitHub",
@@ -45310,7 +45335,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-02-06T05:31:03.794712Z",
@@ -45436,9 +45461,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/d5618792031aa904e657ab5f9583007b98c2f4e454baaa8d6ddb7d965ca85c47/open-cli-tools/concurrently",
+        "https://opengraph.githubassets.com/492d391c43e7889031c36073990fcb5ad3e8c81d281182a17c336549474cadf0/open-cli-tools/concurrently",
         "https://camo.githubusercontent.com/b27123a6a7559bb1dda38ae59b716b215aff24c68155c41e141011a1be07dd38/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6f70656e2d636c692d746f6f6c732f636f6e63757272656e746c793f6c6162656c3d52656c65617365",
         "https://camo.githubusercontent.com/230eda386f6b5edf605ecdf0c1ddfd5ebd46b073854bc1542a3e976b159ad01d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6f70656e2d636c692d746f6f6c732f636f6e63757272656e746c793f6c6162656c3d4c6963656e7365",
         "https://camo.githubusercontent.com/4341149b2dd2e6fddd4f64956a706e4d6af419543e6bcb0ab3e849656a09e1d1/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64772f636f6e63757272656e746c793f6c6162656c3d446f776e6c6f616473266c6f676f3d6e706d",
@@ -45483,7 +45508,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "category": "Media",
       "created_at": "2026-02-06T04:55:03.194342Z",
       "description": "Fly a fighter jet over photorealistic San Francisco. Free multiplayer browser flight simulator with Google 3D Tiles.",
@@ -45611,7 +45636,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-05T13:24:11.810242Z",
@@ -45697,8 +45722,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://wayofcode.com/opengraph2.png"
       ],
@@ -45738,7 +45763,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://assets.vercel.com/image/upload/q_auto/front/vercel/twitter-card.png"
       ],
@@ -45861,7 +45886,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://itsyhome.app/opengraph-image.png?opengraph-image.6bbd32d8.png",
         "https://itsyhome.app/twitter-image.png?twitter-image.6bbd32d8.png",
@@ -45906,7 +45931,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-04T14:17:49.179416Z",
@@ -45941,7 +45966,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/TcqGH24J7DCy46RMYkFuepV2vg.png",
         "https://framerusercontent.com/images/E7s3kPIj146LPElH7RnRirGFIeQ.svg?width=145&height=32",
@@ -45989,7 +46014,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://topfeed.xyz/og-image.png"
       ],
@@ -46094,7 +46119,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg?w=1200&h=630&fit=max&auto=format",
         "https://cdn.sanity.io/images/e4qjo92p/production/aebac4a1420934999d100fc6fb162044f17241f7-5616x3160.jpg?auto=format&dpr=2&fit=max&q=75&w=1600",
@@ -46142,7 +46167,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-01T20:46:33.741970Z",
+      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
       "article_image_urls": [
         "https://phylo.bio/og-image.jpg",
         "https://phylo.bio/logo mark.svg?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
@@ -100218,5 +100243,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-08T19:24:37.323181Z"
+  "updated_at": "2026-06-08T22:26:59.247445Z"
 }
