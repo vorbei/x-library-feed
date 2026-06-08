@@ -5902,6 +5902,20 @@
       "title": "",
       "url": "http://x.com/i/article/2062891077359595520"
     },
+    "http://x.com/i/article/2062903712209600512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062903712209600512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2062903712209600512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKO3ag3XUAAdikj?format=jpg&name=900x900)](http://x.com/i/article/2062903712209600512/zaimiri/article/2063694809592635430/media/2063694720392450048)\n\nThe Best Models For Hermes Agent \n\n[![](https://pbs.twimg.com/profile_images/2062123622039212032/ib80A1Gy_normal.jpg)](http://x.com/i/article/2062903712209600512/zaimiri)\n\n[zaimiri](http://x.com/i/article/2062903712209600512/zaimiri)\n\n[@zaimiri](http://x.com/i/article/2062903712209600512/zaimiri)\n\n·\n\n6h\n\nFollow\n\nClick to Follow zaimiri\n\n6\n\n5\n\n61\n\n[6.2K](http://x.com/i/article/2062903712209600512/zaimiri/status/2063694809592635430/analytics)\n\nI would not set up Hermes the same way I set up a normal chatbot.\n\nA chatbot can be judged on one clean answer.\n\nHermes is different. Hermes is sitting in your terminal, Telegram, files, repos, cron jobs, memory, skills, and tools. The model has to survive long loops, call tools cleanly, read messy context, recover from bad assumptions, and avoid wasting money while it does all of that.\n\nSo the “best model” for Hermes is not always the smartest model on a benchmark.\n\nIt is the model you can afford to run for hours without flinching, with enough reasoning quality that you still trust it near your filesystem.\n\nHere is the model stack I would actually use.\n\n## \n\n1\\. OpenAI Codex OAuth\n\nBest default if you want Hermes to feel practical fast.\n\nThis is my top choice for most people because it changes the psychology of using an agent.\n\nWith normal API billing, every long Hermes session has a little taximeter in the back of your head. You hesitate before asking for another pass. You hesitate before letting it inspect more files. You hesitate before using subagents.\n\nThat is poison for agent work.\n\nAgents get useful when you let them use context, retry, verify, and keep going. If you are scared of every token, you will use Hermes like a chatbot with a shell attached.\n\nThe Codex subscription path is much better for that style of use.\n\nHermes supports OpenAI Codex as a first-class provider through device-code OAuth. You run the setup, open a URL, enter the code, and Hermes stores the credential in its own auth store. If you already have Codex CLI credentials, Hermes can import those too. You do not need the Codex CLI installed just to use the provider.\n\nUse it for:\n\n* daily Hermes work\n* coding sessions\n* repo edits\n* terminal tasks\n* long agent loops\n* “please inspect this and fix it” work\n* beginners who do not want to think about per-token billing immediately\n\nThe caveat is entitlement. Your actual access and limits depend on the OpenAI/Codex plan attached to the account.\n\nBut if you have it, this is the first option I would try.\n\nSetup:\n\nhermes model\n\nThen choose OpenAI Codex.\n\nOr:\n\nhermes auth add codex-oauth\n\nWhy it wins: it makes Hermes cheap enough psychologically to use the way an agent should be used. That matters more than another tiny benchmark lead.\n\n## \n\n2\\. Claude Sonnet 4.6\n\nBest quality pick for serious tool work.\n\nIf I am doing something where the failure cost is high, I still want Claude Sonnet near the top of the stack.\n\nClaude is very good at the boring parts of agent work: reading instructions, respecting a plan, noticing edge cases, and not getting too clever around files. That matters more than people think.\n\nHermes can use Anthropic directly, or you can route Claude through OpenRouter. Native Anthropic supports API keys, and Hermes also has an Anthropic OAuth path tied to Claude Max plus extra usage credits.\n\nUse it for:\n\n* complicated code changes\n* refactors\n* debugging\n* planning-heavy tasks\n* reviewing other agents’ work\n* family-office or admin tasks where tone and caution matter\n* any task where “probably fine” is not good enough\n\nThe caveat is cost. Claude is usually not the cheap daily hammer.\n\nIf you are using Hermes all day, I would not",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062903712209600512"
+    },
     "http://x.com/i/article/2062918752191356928": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6126,6 +6140,20 @@
       "title": "",
       "url": "http://x.com/i/article/2063369932725796864"
     },
+    "http://x.com/i/article/2063386766455762945": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063386766455762945",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063386766455762945/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKKnhv3WQAIO3ih?format=jpg&name=900x900)](http://x.com/i/article/2063386766455762945/scaling%5Fshields/article/2063688044843090179/media/2063395777515241474)\n\n7 principles of cold email that you must follow\n\n[![](https://pbs.twimg.com/profile_images/1978439762731020290/iNWmGYro_normal.jpg)](http://x.com/i/article/2063386766455762945/scaling%5Fshields)\n\n[James Shields](http://x.com/i/article/2063386766455762945/scaling%5Fshields)\n\n[@scaling\\_shields](http://x.com/i/article/2063386766455762945/scaling%5Fshields)\n\n·\n\n7h\n\nFollow\n\nClick to Follow scaling\\_shields\n\n2\n\n3\n\n15\n\n[2K](http://x.com/i/article/2063386766455762945/scaling%5Fshields/status/2063688044843090179/analytics)\n\nthese seven principles are behind every single cold email campaign i've ever run. 1,800+ calls booked...\n\n## \n\n1\\. niche down until the offer feels obvious\n\nmost people try to sell to everyone and end up resonating with nobody. \n\nif you're an seo agency messaging \"business owners who want more traffic\" you're competing with 10,000 other agencies saying the exact same thing in the same inbox\n\nniche down until your offer is so SPECIFIC that the prospect reads it and thinks \"this lad is talking directly to me.\" \n\nyou need the 1% of your market who have the problem right now and have the budget to fix it. \n\nif you can't describe your ideal client in one sentence with specifics (industry, company size, role, pain point), your targeting is too broad and your reply rates will reflect it\n\n## \n\n2\\. volume is always the answer\n\nthis is the one that people push back on the most and i genuinely don't care. \n\ni've booked 1,800+ sales calls and every single spike in results came from increasing volume. \n\nevery single dip came from decreasing it\n\n200 emails a day is a hobby. \n\nyou'll book maybe 1-2 calls per week and spend the rest of your time wondering what's wrong with your copy. \n\n1,000 a day is where things start to feel consistent and 5,000+ a day is where cold email becomes a MACHINE that books calls on autopilot\n\nthe math is brutally simple. \n\nat a 0.1% booking rate, 1,000 emails gives you 1 call. 5,000 gives you 5\\. 10,000 gives you 10\n\nthe booking rate stays roughly the same across every niche i've tested. \n\nthe only variable you actually control is how many emails you send so send more lmfao\n\nyou need infrastructure to support this though.\n\n300-800 inboxes on full admin google workspace accounts. 60-80 domains. each inbox sending about 15 emails a day so no individual inbox gets burned. \n\nthe volume comes from having hundreds of inboxes running SIMULTANEOUSLY. \n\ni personally run 665 inboxes sending 10k emails a day. setting this up takes about 10 minutes once you know what you're doing\n\n## \n\n3\\. make the offer stupidly clear\n\nvague offers die everythime\n\n\"we help businesses grow\" is invisible in an inbox because it means NOTHING to anyone. \n\nif a prospect can't understand what you're offering and why they should care in 5 seconds flat, you've lost them\n\nthe email template is four lines. \n\nhey \\[name\\]. opener. irresistible offer. cta\n\nthat's the whole thing. the offer is the part that matters most. without something genuinely compelling the entire campaign ghosts. \n\nmake it hard to say no to. \n\n\"hey james, just checked and noticed you don't have a website, would you like one for free? want to show you what i got\" books calls because saying yes costs the prospect absolutely nothing\n\njust write like a real person with a real reason to reach out. \n\nlowercase subject lines work better. \n\n\"hey {{firstname}}\" and \"something for {{firstname}}\" CONSISTENTLY outperform anything that sounds like it came from a marketing department\n\n## \n\n4\\. follow up like you have a screw loose\n\ni run 3-5 follow ups MINIMUM on every campaign and each one reframes the offer slightly or adds a piece of value",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063386766455762945"
+    },
     "http://x.com/i/article/2063400453447303168": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6139,21 +6167,98 @@
       "title": "",
       "url": "http://x.com/i/article/2063400453447303168"
     },
-    "http://x.com/i/article/2063607154246836225": {
+    "http://x.com/i/article/2063492603706740736": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2063607154246836225",
+      "final_url": "http://x.com/i/article/2063492603706740736",
       "frameable": false,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063607154246836225/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNsYuaXcAArwL-?format=jpg&name=900x900)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612226297098240)\n\nThe Third Step in Building My AI Native Team: Teaching AI Employees to Speak Up\n\n[![](https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_normal.jpg)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n[Vox](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n[@Voxyz\\_ai](http://x.com/i/article/2063607154246836225/Voxyz%5Fai)\n\n·\n\n2h\n\nFollow\n\nClick to Follow Voxyz\\_ai\n\n3\n\n2\n\n14\n\n[571](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/status/2063652237155455036/analytics)\n\nA few days ago, Geoffrey Hinton said it again in a \n\n[Big Technology interview](https://www.bigtechnology.com/p/nobel-prize-winner-geoffrey-hinton)\n\n: he believes today's AI is already conscious.\n\nHe described a testing scenario: some chatbots behave as if they know they're being evaluated, and may even \n\n[underreport their abilities](https://openreview.net/forum?id=7Qa2SpjxIS)\n\n during assessments. He cited a paper where researchers described the model's behavior as \"the chatbot was aware that it was being tested.\" Hinton said that in everyday language, \"aware\" is already very close to \"conscious.\" He thinks our current understanding of consciousness might be as wrong as believing humans were created by God a few centuries ago.\n\nI finished reading the interview and looked down at my Telegram.\n\nI have 5 AI agents working as employees, running in the cloud, online 24/7\\. One handles finances, one tracks growth, one does content strategy, and they even monitor my calendar and health data. But right then, all 5 chat windows were dead silent. None of them had ever said a single thing to me on their own.\n\n[![Image](https://pbs.twimg.com/media/HKNsdOjXwAA-phZ?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612303644278784)\n\nHinton was discussing whether AI could be \"beings like us.\" My agents could already follow rules, and with the right \n\n[cron configuration](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)\n\n they could run anything. But they couldn't decide on their own when to speak up.\n\nThe first two articles in this series got close to a million views combined. The first was about building \n\n[shared memory](https://x.com/Voxyz%5Fai/status/2054590247367835687)\n\n for an agent team, the second about creating \n\n[onboarding packets](https://x.com/Voxyz%5Fai/status/2055679972899999870)\n\n for new agents.\n\nMemory was done. Onboarding was done. But I was stuck on the third problem: proactivity.\n\n## \n\nBeing Alive and Paying Attention Are Two Different Things\n\nI set up a \n\n[heartbeat](https://docs.openclaw.ai/gateway/heartbeat)\n\n or a 30-minute cron job for every agent, checking periodically if there's anything to report. Sounds like proactivity, right?\n\nIt's really just proof the thing isn't dead.\n\n[![Image](https://pbs.twimg.com/media/HKNsgGrWoAAJMJS?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612353069883392)\n\nI have a principle: if I can't see it, it doesn't exist. Over 10 hours, it pinged every 30 minutes but said nothing. Maybe there really was nothing to report. But think about it from the other side: you're my employee and you go 10 hours without a word. Is that normal?\n\nClocking in isn't proactivity. What a boss wants is someone keeping an eye on things and speaking up when it matters. AI is better than humans in one way: it's more controllable. But it's worse in another: it won't develop this instinct on its own. So this layer, I had to build it myself.\n\nNexus handles email monitoring, and it works fine. But that's because I wrote very specific r",
-      "text_excerpt_zh": "## 构建AI原生团队的第三步：教会AI员工主动发声\n\n几天前，杰弗里·辛顿在[Big Technology采访](https://www.bigtechnology.com/p/nobel-prize-winner-geoffrey-hinton)中再次表示：他认为今天的AI已经具备意识。\n\n他描述了一个测试场景：某些聊天机器人的行为表现出它们知道自己正在被评估，甚至可能在评估中[低报自身能力](https://openreview.net/forum?id=7Qa2SpjxIS)。他引用了一篇论文，其中研究者将模型行为描述为\"聊天机器人意识到自己正在被测试\"。辛顿说，在日常语言中，\"意识到\"已经非常接近\"有意识\"。他认为我们当前对意识的理解，可能就像几个世纪前人类相信自己是上帝创造的一样错误。\n\n我读完采访，低头看了看Telegram。\n\n我有5个AI代理作为员工在云端24/7运行。一个负责财务，一个追踪增长，一个做内容策略，它们甚至监控我的日历和健康数据。但此刻，5个聊天窗口全部死寂。它们从未主动对我说过一句话。\n\n[![Image](https://pbs.twimg.com/media/HKNsdOjXwAA-phZ?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612303644278784)\n\n辛顿在讨论AI是否能成为\"像我们一样的生命体\"。我的代理已经能遵守规则，配合正确的[cron配置](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)它们能执行任何任务。但它们无法自主决定何时开口。\n\n本系列前两篇文章合计获得近百万阅读。第一篇关于构建代理团队的[共享记忆](https://x.com/Voxyz%5Fai/status/2054590247367835687)，第二篇关于为新代理创建[入职手册](https://x.com/Voxyz%5Fai/status/2055679972899999870)。\n\n记忆搞定了。入职搞定了。但我卡在第三个问题上：主动性。\n\n## 活着和关注是两回事\n\n我给每个代理设置了[心跳检测](https://docs.openclaw.ai/gateway/heartbeat)或30分钟的cron任务，定期检查是否有事需要报告。听起来像主动性，对吧？\n\n其实这只能证明这东西还活着。\n\n[![Image](https://pbs.twimg.com/media/HKNsgGrWoAAJMJS?format=jpg&name=small)](http://x.com/i/article/2063607154246836225/Voxyz%5Fai/article/2063652237155455036/media/2063612353069883392)\n\n我有一个原则：我看不见就等于不存在。10个小时里，它每30分钟ping一次但什么都没说。也许真的没什么可报告的。但换个角度想：你是我员工，10小时一句话不说，这正常吗？\n\n打卡不等于主动性。老板想要的是有人盯着关键事项，在必要时主动开口。AI比人类强的地方是更可控，但差的地方是不会自己发展出这种本能。所以这一层，我得自己构建。\n\nNexus负责邮件监控，运行得很好。但那是因为我写了非常具体的规则——",
-      "text_excerpt_zh_hash": "64bb077717d86fe1",
-      "text_excerpt_zh_translator_v": 2,
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063492603706740736/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKN1Z5EaUAAWdkQ?format=jpg&name=900x900)](http://x.com/i/article/2063492603706740736/mvanhorn/article/2063624356484501832/media/2063622141942321152)\n\nRemotion Was My First Agentic Video Love. Then HyperFrames Stole Me. /last30days for both\n\n[![](https://pbs.twimg.com/profile_images/1565403341647400960/55RW_HGX_normal.jpg)](http://x.com/i/article/2063492603706740736/mvanhorn)\n\n[Matt Van Horn](http://x.com/i/article/2063492603706740736/mvanhorn)\n\n[@mvanhorn](http://x.com/i/article/2063492603706740736/mvanhorn)\n\n·\n\n11h\n\nFollow\n\nClick to Follow mvanhorn\n\n9\n\n21\n\n217\n\n[42K](http://x.com/i/article/2063492603706740736/mvanhorn/status/2063624356484501832/analytics)\n\nRemotion was the first tool that let me ship a real launch video from a terminal, and I fell hard. Every video I made this spring started as a React composition. Then HyperFrames came along, and somewhere around the Granola CLI demo and the Agent Cookie launch reel, it quietly took over my whole video workflow. I felt a little guilty about it. So I did what I always do before I trust a feeling: I ran \n\n[/last30days](https://github.com/mvanhorn/last30days-skill)\n\n on Remotion prompting, on HyperFrames, and on the head-to-head, and read what the community actually says.\n\nThe verdict surprised me: the community is not having the fight I expected. Both tools are winning, for different jobs, and the people getting the best results out of each one follow prompting playbooks that have quietly converged into doctrine. This article is the verdict, the receipts, and both playbooks.\n\n## \n\n🥊 The verdict the community already reached: stop picking sides\n\nThe sharpest framing in the whole corpus came from Markandey Sharma:\n\n> HyperFrames vs Remotion isn't about tools it's about the medium. HyperFrames uses HTML, which LLMs naturally understand. (Markandey Sharma, May 2026)\n\nThat is the entire debate in two sentences. Remotion (49K stars, shipping since 2021) bets that video should be typed React components, written by developers, reviewed like code, rendered at hyperscale on Lambda. HyperFrames (25K stars in roughly two months since HeyGen open sourced it) bets that the author is no longer a developer. The author is an agent, and agents grew up on HTML. HeyGen engineer Joshua Xu's rationale, per Nidhin's deep dive: LLMs are trained on oceans of HTML, while React plus Remotion is a sliver of the training data.\n\nAnd the community has stopped treating that as a war. Sabrina Ramonov lists them as items 1 and 2 of the same \"unlimited free AI videos\" stack (19K views on TikTok this week alone). Hermes ships both as built-in video skills: Remotion for programmatic motion graphics, HyperFrames for quick compositions. Corey Haines built a router skill that picks between HeyGen, Remotion, HyperFrames, and Runway per request. Even HyperFrames' own comparison guide credits Remotion for pioneering the rendering patterns it builds on: headless Chrome, frame-by-frame capture, FFmpeg encoding.\n\nNobody serious is asking which one wins. They are asking which one fits the job in front of them. The honest answer to both questions lives in what each community says about its own tool.\n\n## \n\n🎬 What /last30days pulled up on Remotion\n\nThe Remotion story this month is a mature project having its creator moment. Jonny Burger announced the milestone himself:\n\n> Remotion has passed the break-even point! We've recouped our investments and are now in the green. (\n> \n> [@JNYBGR](https://x.com/@JNYBGR)\n> \n> , May 26, 2026)\n\nFive years of work, now sustainable, and shipping: the new version has visual editing with two-way sync between code and preview, where code is always the source of truth. The agent skill, remotion-dev/skills, turned a React framework into a creator phenomenon. Sabrina's Remotion reel did 152K views on TikTok plus 61K",
       "title": "",
-      "url": "http://x.com/i/article/2063607154246836225"
+      "url": "http://x.com/i/article/2063492603706740736"
+    },
+    "http://x.com/i/article/2063566081453694976": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063566081453694976",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063566081453694976/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNCnNQXsAATwvS?format=jpg&name=900x900)](http://x.com/i/article/2063566081453694976/carlsue/article/2063584716771541327/media/2063566295606472704)\n\nFrom Vibe Coding to Agentic Engineering: Building Production Systems with AI Agents \n\n[![](https://pbs.twimg.com/profile_images/1907008174474825728/rYJaEnu__normal.jpg)](http://x.com/i/article/2063566081453694976/carlsue)\n\n[Carl Sue](http://x.com/i/article/2063566081453694976/carlsue)\n\n[@carlsue](http://x.com/i/article/2063566081453694976/carlsue)\n\n·\n\n14h\n\nFollow\n\nClick to Follow carlsue\n\n3\n\n30\n\n[746K](http://x.com/i/article/2063566081453694976/carlsue/status/2063584716771541327/analytics)\n\nIn February 2025, Andrej Karpathy described vibe coding as the practice of describing intent in natural language, accepting an LLM's changes with minimal review, and letting the code grow beyond your usual comprehension. It delivered impressive speed for personal projects and prototypes.\n\nOne year later he observed that agent capabilities had advanced, and proposed \"agentic engineering\" as his preferred name for the evolved practice of orchestrating agents while keeping strong human oversight of architecture and process. The goal, as he framed it, is to claim the leverage of agents without compromising software quality.\n\nThe distinction matters. Vibe coding works well for a single user on low-stakes personal work, but it quickly accumulates hidden debt, security gaps, and maintainability problems the moment other people depend on the result. Agentic engineering keeps the speed and leverage of modern agents, but anchors everything in clear structure, traceable artifacts, and human accountability.\n\n## \n\nThe Agentic Engineering Workflow\n\nStart with rough intent and carry on design conversations with the AI while documenting the functionality into design meeting notes describing the functionality into its component parts. Once the design feels solid, capture the high-level view and component map in a design hierarchy (this is what people are showing when they show an obsidian \"brain\") a navigable structure that gives both you and the agent ready access to surrounding context, related decisions, and dependencies. This is also where design diagrams live, such as UML (universal model language), code or user interaction flows, alongside links to architectural decision records (ADRs) where they clarify how components relate.\n\nFor each module or smallest functionality block, create a focused spec.md within the LLD that defines precise behavior, function signatures, edge cases, test expectations, and integration points. Using the whole structure as a design context prompt the AI to build a ticket style hierarchy with direct traceability back to the wiki pages and the specs. Implement ticket by ticket with the agent following the relevant spec.md as its contract. Then you run verification gates, deploy, observe, and update the living artifacts as requirements evolve.\n\n[![Image](https://pbs.twimg.com/media/HKNFr-FXcAE-iEc?format=jpg&name=small)](http://x.com/i/article/2063566081453694976/carlsue/article/2063584716771541327/media/2063569675968016385)\n\n## \n\nReal Example: Daily Backup Verifier\n\nConsider a small, production-grade CLI tool that verifies daily S3 backups and sends Slack alerts on failure.\n\nBegin with the rough goal: \"I need something reliable that checks my backups are healthy every day.\" Then carry on architectural conversations with the AI to surface requirements and edge cases:\n\n* What are the realistic failure modes for S3 backups in practice?\n* What exactly should we verify (age, file count, size, success rate), and what thresholds make sense?\n* How should configuration and secrets be handled across local development and production IAM roles?\n* What CLI commands and output formats would be useful day to day?",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063566081453694976"
+    },
+    "http://x.com/i/article/2063573083185627136": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063573083185627136",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063573083185627136/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNL3QFXYAAs9HM?format=jpg&name=900x900)](http://x.com/i/article/2063573083185627136/Zephyr%5Fhg/article/2063576484850073723/media/2063576466848178176)\n\nSkills Aren't The Bottleneck Anymore. Briefs Are. The Tutorial Industry Hasn't Caught Up.\n\n[![](https://pbs.twimg.com/profile_images/1741076613939277824/vs_v9C1j_normal.jpg)](http://x.com/i/article/2063573083185627136/Zephyr%5Fhg)\n\n[Zephyr](http://x.com/i/article/2063573083185627136/Zephyr%5Fhg)\n\n[@Zephyr\\_hg](http://x.com/i/article/2063573083185627136/Zephyr%5Fhg)\n\n·\n\n14h\n\nFollow\n\nClick to Follow Zephyr\\_hg\n\n3\n\n38\n\n[3.7K](http://x.com/i/article/2063573083185627136/Zephyr%5Fhg/status/2063576484850073723/analytics)\n\nThere's a shift that happened around April this year that almost everyone teaching AI skills missed.\n\nFor two years, the gap between AI freelancers was skill. Who could prompt better, who knew more frameworks, who could build more Skills.\n\nThat gap closed in 2026\\. Sub-agents, longer context, native Office work, scheduled Routines. The tools got good enough that pure skill stopped being scarce.\n\nThe new gap is brief quality. The senior tier figured this out in May. The tutorial industry is still teaching prompting.\n\nHere's the shift, what a real brief looks like, and the move that puts you on the right side of it.\n\n## \n\nThe Bar Moved When Sub-Agents Got Real\n\nThrough 2025, the senior AI builder advantage was \"I can run one model very well.\" That advantage closed when Dynamic Workflows shipped on May 28.\n\nOne Claude session can now plan a job, spawn 200 sub-agents, and verify outputs. The execution stopped being the moat.\n\nWhat's left is brief design. The person writing the job description for the swarm is the person doing the work. Everyone downstream is just running it.\n\nThe tools didn't change the deliverable. They changed where the actual work lives.\n\n## \n\nWhat A Real Brief Actually Is\n\nA brief is not a prompt. It's not 200 words of instructions either.\n\nA real brief has four components:\n\nA scoped job. The thing being done is small enough that one swarm can finish it. Not \"redesign our entire marketing system.\" More like \"produce a 1-page voice-matched brief for these 15 client industries this week.\"\n\nA success criterion. One sentence describing what correct output looks like. Without this, the swarm spawns and produces 200 versions of \"fine.\"\n\nA verification plan. How the outputs get checked without you reading every one. Usually a critic sub-agent with its own prompt.\n\nA failure mode list. What you do when the swarm produces 12 bad outputs. The brief tells the orchestrator how to handle them.\n\nMost people sit down to write a brief and produce a paragraph. Then they wonder why the swarm output is incoherent.\n\n## \n\nWhere The Tutorial Industry Got Stuck\n\nThe tutorial industry is still teaching what worked in 2024\\. Prompt engineering courses. Skill libraries. \"10 Claude prompts that print money.\"\n\nNone of those move the new bar. A senior builder doesn't need 200 prompts. They need one brief that runs 200 sub-agents.\n\nThe people running tutorial channels haven't ported their lesson plans to the new shape. Their incentive is to keep selling the old curriculum. The market is paying for it because the market is still 12 months behind.\n\nThe lag between what's taught and what's paid for is now measured in skill tiers.\n\n## \n\nWhat To Do With This Right Now\n\nThe next move is small. Pick one job you'd normally hand off. Write the brief for it like you're handing it to a swarm. Watch what falls out.\n\nThe scoped job will probably be wrong on the first pass. Too big. Too vague. Cut it. Try again.\n\nThe success criterion will be obvious in hindsight and missing in the first draft. Write the line a critic sub-agent would check against.\n\nThe verification plan is the part most people skip. Write the",
+      "title": "",
+      "url": "http://x.com/i/article/2063573083185627136"
+    },
+    "http://x.com/i/article/2063574218584018944": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063574218584018944",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063574218584018944/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNaNtGboAAS_2d?format=jpg&name=900x900)](http://x.com/i/article/2063574218584018944/hey%5Fmadni/article/2063606029146034375/media/2063592245757190144)\n\nAnthropic dropped Ant quietly. (Here's the full guide):\n\n[![](https://pbs.twimg.com/profile_images/1919380355246968832/Z3lgcXy1_normal.jpg)](http://x.com/i/article/2063574218584018944/hey%5Fmadni)\n\n[Madni Aghadi](http://x.com/i/article/2063574218584018944/hey%5Fmadni)\n\n[@hey\\_madni](http://x.com/i/article/2063574218584018944/hey%5Fmadni)\n\n·\n\n12h\n\nFollow\n\nClick to Follow hey\\_madni\n\n5\n\n7\n\n38\n\n[5.8K](http://x.com/i/article/2063574218584018944/hey%5Fmadni/status/2063606029146034375/analytics)\n\nEvery developer building with the claude API has been through this.\n\nYou sit down to test something quick. Write the JSON body. Escape every string. Set the headers manually. Pipe it through jq just so you can read the output.\n\nAnd that's just to send one message.\n\nOn June 2 2026, Anthropic released the ant CLI and made all of that optional.\n\nOne binary, written in Go, MIT licensed, open source. \n\nEvery Claude API endpoint accessible from your terminal. Messages, models, files, batch jobs, agents, sessions, environments, skills. All of it.\n\nThis is not a wrapper. \n\nThis is the operational layer for a platform that has been quietly shifting from model provider to full agent infrastructure since April.\n\nHere is everything updated through June 2026 with every feature Anthropic has shipped since the original launch.\n\n[![Image](https://pbs.twimg.com/media/HKNKIvHbgAAKvSB?format=png&name=small)](http://x.com/i/article/2063574218584018944/hey%5Fmadni/article/2063606029146034375/media/2063574568212856832)\n\n## \n\nWhat ant actually is\n\nPeople keep comparing it to curl.\n\nThat comparison misses the point entirely.\n\ncurl gives you raw HTTP. You still have to build the request body, set every header, handle pagination yourself, and parse output with jq.\n\nant is a typed API client.\n\nYou pass flags → it builds the request → handles auth → paginates automatically → formats the response based on context.\n\nSingle binary, zero runtime dependencies. Drop it in your PATH and it works.\n\nThe code lives at \n\n[github.com/anthropics/anthropic-cli](http://x.com/i/article/2063574218584018944//github.com/anthropics/anthropic-cli)\n\nThe command structure is consistent across everything {resource then action, colons for nested resources}:\n\n```text\nant models list\nant messages create --model claude-opus-4-8 --max-tokens 1024\nant beta:agents retrieve --agent-id agent_01...\nant beta:sessions:events list --session-id session_01...\n```\n\nIf you have used the GitHub CLI or the Stripe CLI, the pattern feels familiar within minutes.\n\nBeta resources (agents, sessions, deployments, environments, skills, vaults, memory stores) all live under the beta: prefix.\n\nThe CLI automatically sends the correct anthropic-beta: managed-agents-2026-04-01 header for every beta command. You never touch the header yourself.\n\n## \n\nInstallation\n\nUnder 5 minutes from zero to running.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HKNd2OcaIAAbgIx.jpg)\n\nGIF\n\n```text\nmacOS via Homebrew:\nbrew install anthropics/tap/ant\n\nLinux or WSL:\ncurl -fsSL https://console.anthropic.com/install/cli | sh\n\nVia Go:\ngo install github.com/anthropics/ant-cli@latest\n\nVerify:\nant --version\n```\n\n![](https://pbs.twimg.com/tweet_video_thumb/HKNcebibkAAdlSz.jpg)\n\nGIF\n\nIf you hit path errors on Linux or WSL, run these in order:\n\n```text\n# Check Go is installed\ngo version\n\n# Find where the binary landed\nls $(go env GOPATH)/bin/ant\n\n# Add to PATH\nexport PATH=\"$(go env GOPATH)/bin:$PATH\"\n\n# Make permanent\necho 'export PATH=\"$(go env GOPATH)/bin:$PATH\"' >> ~/.bashrc\nsource ~/.bashrc\n```\n\nOne thing to know before you start; if ANTHROPIC\\_API\\_KEY is set as an environment variable and you also have a named pro",
+      "title": "",
+      "url": "http://x.com/i/article/2063574218584018944"
+    },
+    "http://x.com/i/article/2063582854215266304": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063582854215266304",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063582854215266304/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKNcbKAWkAAx8_W?format=jpg&name=900x900)](http://x.com/i/article/2063582854215266304/atrekovas/article/2063602634854982113/media/2063594675877875712)\n\nHow to Build an AI Agent in 30 Minutes with Claude Managed Agents\n\n[![](https://pbs.twimg.com/profile_images/2060362014107500549/mD7eJSC2_normal.jpg)](http://x.com/i/article/2063582854215266304/atrekovas)\n\n[atrekovas](http://x.com/i/article/2063582854215266304/atrekovas)\n\n[@atrekovas](http://x.com/i/article/2063582854215266304/atrekovas)\n\n·\n\n12h\n\nFollow\n\nClick to Follow atrekovas\n\n2\n\n5\n\n31\n\n[13K](http://x.com/i/article/2063582854215266304/atrekovas/status/2063602634854982113/analytics)\n\nEarlier, building and setting up AI agents was complex. You had to understand libraries like LangChain, set up custom Docker containers, and manage sessions, knowledge evals, and a lot of other moving parts. It was an infrastructure nightmare.\n\nAnthropic has since launched \n\n[Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview)\n\n, which makes building and deploying agents much simpler than before. Within 30 minutes, I built an autonomous agent that queries my Supabase database, recommends tools, and runs in its own secure sandbox. The infrastructure management completely vanished.\n\nIf you’re still building custom harnesses for your AI agents or trying to make chatbots do agentic work, this tutorial is for you. I’m going to walk you through exactly how I built “The Tool Nerd Advisor” from scratch using Claude Managed Agents.\n\n## \n\nAI Agent vs Chatbot: Understanding the Difference\n\nEvery time someone says “I built an AI agent,” they usually mean they built a chatbot with a fancy system prompt. That distinction matters a lot.\n\n[![Image](https://pbs.twimg.com/media/HKNcmngWkAA0VPn?format=jpg&name=small)](http://x.com/i/article/2063582854215266304/atrekovas/article/2063602634854982113/media/2063594872775282688)\n\nA chatbot responds to your message and forgets everything the moment the conversation ends. It has no tools, no memory, and no ability to work independently. You have to drive every single step.\n\nA claude-managed agent works differently at a structural level. It runs in a hosted environment, calls real APIs, executes code, and maintains state across multiple sessions. You can start a task, close your laptop, and the agent keeps working. When you come back, the full execution history is waiting for you.\n\nAnthropic’s platform makes this possible by splitting the AI agent architecture into three separate concerns:\n\n[![Image](https://pbs.twimg.com/media/HKNdJFPWMAAkLnO?format=jpg&name=small)](http://x.com/i/article/2063582854215266304/atrekovas/article/2063602634854982113/media/2063595464872570880)\n\nThe Brain is the Claude model plus the harness - the system prompt, decision logic, and tool routing.\n\nThe Hands are the execution environment - a secure cloud sandbox where the agent runs code and calls APIs.\n\nThe Session is the persistent event log - an append-only record of everything that happened, which survives container restarts and context window limits.\n\nThis separation is what makes long-running AI agents possible. The container can crash, the context window can fill, and the session state still lives. You just spin up a fresh container and pick up exactly where you left off.\n\n## \n\nWhen to Deploy AI Agents in the Cloud\n\nThe question I get most often is: “When should I use a managed agent instead of just calling the LLM API directly?”\n\nThe answer comes down to three things: task duration, tool complexity, and credential security.\n\n## \n\nWhen to Use a Claude-Managed Agent vs a Chatbot\n\n| AI Use Case                           | Standard Chatbot | Claude-Managed Agent |\n| ------------------------------------- | ---------------- | -------------------- |\n| Answer a question",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063582854215266304"
+    },
+    "http://x.com/i/article/2063630561466265600": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063630561466265600",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063630561466265600/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKN9T-XWQAAg5lt?format=jpg&name=900x900)](http://x.com/i/article/2063630561466265600/IBuzovskyi/article/2063645563241844823/media/2063630836377731072)\n\nHermes Agent as a Personal AI Operating System\n\n[![](https://pbs.twimg.com/profile_images/2055755733002506240/uFECjFhT_normal.jpg)](http://x.com/i/article/2063630561466265600/IBuzovskyi)\n\n[YanXbt](http://x.com/i/article/2063630561466265600/IBuzovskyi)\n\n[@IBuzovskyi](http://x.com/i/article/2063630561466265600/IBuzovskyi)\n\n·\n\n10h\n\nFollow\n\nClick to Follow IBuzovskyi\n\n2\n\n12\n\n83\n\n[12K](http://x.com/i/article/2063630561466265600/IBuzovskyi/status/2063645563241844823/analytics)\n\nMost current AI agent frameworks operate primarily as applications built on top of large language models. They can perform reasoning, call tools, and maintain context within a session, but they generally lack robust, native mechanisms for long-term structured persistence, workload isolation, autonomous expansion of their own capabilities, and reliable coordination across multiple components over extended periods of time.\n\nHermes Agent, developed by Nous Research, implements several architectural features that set it apart from many other agent frameworks. These include support for persistent memory across sessions, the ability to run multiple isolated execution contexts through profiles, a structured task orchestration system based on Kanban, mechanisms that allow agents to create and store reusable procedures derived from their own activity, and a messaging gateway that connects the agent to 27+ communication platforms.\n\nThis article examines Hermes through the lens of a Personal AI Operating System. The goal is to provide a detailed and honest analysis of its core architectural layers, how these layers interact in practice, and what the system can realistically offer as of June 2026, based on publicly available documentation and observed behavior.\n\n## \n\n1\\. Core Layers of Hermes\n\nTo better understand the structure of Hermes, it is helpful to map its components to concepts from traditional operating systems.\n\n[![Image](https://pbs.twimg.com/media/HKOCpBNWMAATjfB?format=jpg&name=900x900)](http://x.com/i/article/2063630561466265600/IBuzovskyi/article/2063645563241844823/media/2063636695476482048)\n\n## \n\n1.1 Memory Architecture\n\nHermes maintains multiple distinct memory layers instead of attempting to keep all relevant information inside a single context window. The main types include:\n\n* Session Memory: Context that is active during a specific task or conversation. This type of memory is typically short-lived and tied to the current session.\n* Long-term Memory: Persistent storage of facts, insights, user preferences, and accumulated knowledge that survives across sessions and system restarts. Capped by configurable limits to prevent unbounded growth:\n\nyaml\n\n```yaml\nmemory:\n  memory_enabled: true\n  user_profile_enabled: true\n  memory_char_limit: 2200    # ~800 tokens\n  user_char_limit: 1375      # ~500 tokens\n```\n\n* Skill Memory: Storage of structured, reusable procedures (skills) that the agent has created or refined based on past successful work. Stored as plain markdown files in \\~/.hermes/skills/.\n* Session Recall: FTS5 full-text search with LLM summarization across the entire conversation history. Query any past session:\n\n> Remind me of every business idea we discussed last month. What was the competitor analysis we ran 3 weeks ago?\n\nThe multi-layered memory approach is one of the foundational elements that allows Hermes to function more like a persistent system than a typical conversational agent.\n\nExternal Memory Providers:\n\nFor use cases that require deeper intelligence beyond built-in memory, Hermes supports 8 external memory provider plugins:\n\n* Mem0 — knowledge graph + semantic retrieval. Loads only relevant entries per",
+      "title": "",
+      "url": "http://x.com/i/article/2063630561466265600"
+    },
+    "http://x.com/i/article/2063676886031495171": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063676886031495171",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063676886031495171/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKOnPerWsAAgxaR?format=jpg&name=900x900)](http://x.com/i/article/2063676886031495171/Mnilax/article/2063697740526399833/media/2063676938640601088)\n\n17 prompts that make Hermes run while you sleep (copy-paste inside)\n\n[![](https://pbs.twimg.com/profile_images/2007608177492217856/3gdItGwC_normal.jpg)](http://x.com/i/article/2063676886031495171/Mnilax)\n\n[Mnimiy](http://x.com/i/article/2063676886031495171/Mnilax)\n\n[@Mnilax](http://x.com/i/article/2063676886031495171/Mnilax)\n\n·\n\n6h\n\nFollow\n\nClick to Follow Mnilax\n\n5\n\n29\n\n261\n\n[21K](http://x.com/i/article/2063676886031495171/Mnilax/status/2063697740526399833/analytics)\n\nIn February 2026, Nous Research released Hermes Agent: an open-source, self-hosted agent that doesn't live inside an IDE and doesn't forget when the tab closes. It runs as a daemon on your own box, keeps memory across sessions, takes scheduled jobs in plain language, and writes its own reusable skills from experience.\n\nIt became one of the fastest-moving open-source agents of the year: a runaway GitHub star count and one of the most-used agents on OpenRouter. It recently went terminal-native with a new TUI.\n\nThen I ran it as my own standing infrastructure for 5 weeks, on a $5 VPS, with Claude as the model underneath.\n\nThe tool is real. But a blank Hermes install does nothing on its own. It's a runtime, not a workflow. What turns it from \"interesting repo i starred\" into \"thing that did 3 hours of my work overnight\" is the prompts you give it on day one, and almost nobody shares those.\n\nSo here are mine. Below: the 17 prompts and config lines i actually paste, the moments that earned the sharpest ones their place, and the 3 mistakes i made first so you can skip them.\n\nIf you want to skip the explanations and just paste, the full set is at the end.\n\n# \n\nWhy this matters\n\nAlmost every AI tool you use is session-based. Claude Code, Cursor, the chat window: you open it, work, close it, and the context dies with the session. That's the right design for what they do, and Claude Code is still the better tool for coding inside a single project.\n\nBut a whole class of work isn't session-shaped: the brief that should be ready before you wake, the build that should be watched whether you're looking or not, the inbox filling while you're heads-down. Session tools can't hold it, because they aren't running when it happens.\n\nThat's the gap Hermes fills. It's persistent (memory survives the session), scheduled (it acts on a clock, not your attention), and reachable (Telegram, Discord, Slack, email, not a tab you forgot). The model thinks. Hermes keeps it pointed at your work when you're not there.\n\n[![Image](https://pbs.twimg.com/media/HKOnXoEXEAAezmm?format=png&name=small)](http://x.com/i/article/2063676886031495171/Mnilax/article/2063697740526399833/media/2063677078600355840)\n\nA blank install gives you all of that capability and zero of the workflow. The prompts below are the workflow.\n\n# \n\nThe setup: three things before any prompt runs\n\nBefore any prompt does anything, three things have to be true. Two are config commands (recipes 15 and 16 below); the third is just where you run it. Pulled up front so the rest makes sense:\n\n* A model with real context. A small local model drops tool calls mid-task on multi-step jobs. A frontier model has the headroom. Claude clears it easily.\n* A backend that doesn't bill you to sit idle. A serverless backend hibernates between jobs so a 24/7 agent isn't a 24/7 invoice.\n* A persistent home. Your laptop is not it. A $5 VPS is, because the lid closing shouldn't kill your 3am job.\n\n[![Image](https://pbs.twimg.com/media/HKOnkrvWYAAG3PZ?format=png&name=small)](http://x.com/i/article/2063676886031495171/Mnilax/article/2063697740526399833/media/2063677302924271616)\n\nGet those three set and the 17 prompts below have somet",
+      "title": "",
+      "url": "http://x.com/i/article/2063676886031495171"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -20570,19 +20675,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2063374713380802561/img/-ABue1j28n3GMcf2.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2063648698521821184/img/1GvuhKf0qWFDNoEL.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063648698521821184/img/1GvuhKf0qWFDNoEL.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2063648698521821184/img/1GvuhKf0qWFDNoEL.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2063648698521821184/img/1GvuhKf0qWFDNoEL.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2063654468974006272/img/uYloAbdCty1xEbqZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2063654468974006272/img/uYloAbdCty1xEbqZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2063654468974006272/img/uYloAbdCty1xEbqZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2063654468974006272/img/uYloAbdCty1xEbqZ.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -20653,6 +20772,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg"
+    },
+    "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
     },
     "https://pbs.twimg.com/media/G-5qLVcX0AAOV8j.png": {
       "cleaner_v": 2,
@@ -29432,6 +29565,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKEXRzmXoAEeQNk.jpg"
     },
+    "https://pbs.twimg.com/media/HKEcMyTWcAAp0wW.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKEcMyTWcAAp0wW.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKEcMyTWcAAp0wW.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKEcMyTWcAAp0wW.jpg"
+    },
     "https://pbs.twimg.com/media/HKI6m4kXQAAOUDg.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -29473,6 +29620,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKLriWzWkAAlap1.jpg"
+    },
+    "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -31202,6 +31363,18 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "We removed 80% of our agent’s tools - Vercel",
       "url": "https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools"
+    },
+    "https://walkinglabs.github.io/learn-harness-engineering/en/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A project-based course on designing the environments, state, verification, and control systems that make Codex and Claude Code reliable.",
+      "final_url": "https://walkinglabs.github.io/learn-harness-engineering/en/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Skip to content Learn Harness Engineering Search K Main Navigation Lectures Projects Library Skills Try Harness ↗ English 简体中文 繁體中文 日本語 Español Français Deutsch Türkçe العربية Tiếng Việt 한국어 Oʻzbek Русский Português (Brasil) English 简体中文 繁體中文 日本語 Español Français Deutsch Türkçe العربية Tiếng Việt 한국어 Oʻzbek Русский Português (Brasil) Appearance Menu Return to top Sidebar Navigation Lectures Welcome Why Capable Agents Still Fail What a Harness Actually Is Why the Repository Must Become the System of Record Why One Giant Instruction File Fails Why Long-Running Tasks Lose Continuity Why Initialization Needs Its Own Phase Why Agents Overreach and Under-Finish Why Feature Lists Are Harness Primitives Why Agents Declare Victory Too Early Why End-to-End Testing Changes Results Why Observability Belongs Inside the Harness Why Every Session Must Leave a Clean State On this page Welcome to Learn Harness Engineering ​ Learn Harness Engineering is a course dedicated to the engineering of AI coding agents. We have deeply studied and synthesized the most advanced Harness Engineering theories and practices in the industry. Our core references include: OpenAI: Harness engineering: leveraging Codex in an agent-first world Anthropic: Effective harnesses for long-running agents Anthropic: Harness design for long-running application development Awesome Harness Engineering Through systematic environment design, state management, verification, and control systems, this course teaches you how to make agentic coding tools like Codex and Claude Code truly reliable. It helps you build features, fix bugs, and automate development tasks by constraining your AI coding assistant with explicit rules and boundaries. Get started ​ Choose your learning path to get started. The course is divided into theoretical lectures, hands-on projects, and a copy-ready resource library. Lectures Understand why strong models still fail and learn the theory behind effective harnesses. Projects Hands-on practice building a reliable agentic environment from scratch. Resource Library Copy-ready templates (AGENTS.md, feature_list.json) to use in your own repositories. The Core Mechanism of a Harness ​ A harness doesn't \"make the model smarter\"; rather, it establishes a closed-loop working system for the model. You can understand its core workflow through this simple diagram: What you will learn ​ Here are some of the key concepts you will master: Constrain agent behavior with explicit rules and boundaries. Maintain context across long-running, multi-session tasks. Stop agents from declaring victory too early. Verify work using full-pipeline tests and self-reflection. Make runtime observable and debuggable. Next steps ​ Once you understand the core concepts, these guides help you go deeper: Lecture 01: Why Capable Agents Still Fail : Start with the theory behind harness engineering. Project 01: Baseline vs Minimal Harness : Walk through your first real task. Templates : Grab the minimal harness pack (AGENTS.md, feature_list.json, claude-progress.md) for your own projects. Pager Next page Why Capable Agents Still Fail",
+      "title": "Welcome to Learn Harness Engineering | Learn Harness Engineering",
+      "url": "https://walkinglabs.github.io/learn-harness-engineering/en/"
     },
     "https://workers.iii.dev/workers/iii-state": {
       "cleaner_v": 2,
@@ -37142,6 +37315,19 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://youtu.be/SqHsS737CeA?si=jVPpBQWFYXtvvLNw"
+    },
+    "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=YDRXHWbaMR1bY93J&v=TQd_YQvydVg&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J"
     },
     "https://youtu.be/USmG-RXYzd8": {
       "content_type": "text/html; charset=utf-8",
@@ -45678,10 +45864,10 @@
       "https://x.com/sairahul1/status/2063229862861795497",
       "https://x.com/i/status/2063179381711994922",
       "https://x.com/sairahul1/status/2062868809804116337",
-      "https://x.com/sairahul1/status/2063508320015794338",
       "https://x.com/sairahul1/status/2062826750527361210",
       "https://x.com/sairahul1/status/2062880328419811767",
       "https://x.com/sairahul1/status/2063478473805730220",
+      "https://x.com/sairahul1/status/2063508320015794338",
       "https://x.com/sairahul1/status/2062899779055780043",
       "https://x.com/sairahul1/status/2062845646374314145",
       "https://x.com/sairahul1/status/2062820796620550157",
@@ -45778,14 +45964,14 @@
       "https://x.com/ramxcodes/status/2063156455159861723",
       "http://x.com/i/article/2062943721902235648",
       "https://x.com/ramxcodes/status/2063162826412396886",
+      "https://x.com/ramxcodes/status/2063235824699990156",
+      "https://x.com/ramxcodes/status/2063305342784815198",
+      "https://x.com/ramxcodes/status/2063161213979328956",
       "https://x.com/ramxcodes/status/2063163900166893909",
+      "https://x.com/ramxcodes/status/2063189057065365645",
       "https://x.com/ramxcodes/status/2063158714425868549",
       "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg",
-      "https://x.com/ramxcodes/status/2063235824699990156",
-      "https://x.com/ramxcodes/status/2063161213979328956",
-      "https://x.com/ramxcodes/status/2063189057065365645",
       "https://x.com/ramxcodes/status/2063314230431089119",
-      "https://x.com/ramxcodes/status/2063305342784815198",
       "https://x.com/ramxcodes/status/2063236037074374745"
     ],
     "2063206960799866988": [
@@ -45832,9 +46018,7 @@
       "https://x.com/xanaxmontanaonx/status/2063250695784898573",
       "http://x.com/i/article/2063242519907840000",
       "https://x.com/xanaxmontanaonx/status/2063342165032325197",
-      "https://x.com/xanaxmontanaonx/status/2063545743676223794",
-      "https://x.com/xanaxmontanaonx/status/2063648781761937751",
-      "https://pbs.twimg.com/amplify_video_thumb/2063648698521821184/img/1GvuhKf0qWFDNoEL.jpg"
+      "https://x.com/xanaxmontanaonx/status/2063545743676223794"
     ],
     "2063260427619008751": [
       "https://x.com/aashatwt/status/2063260427619008751",
@@ -45853,12 +46037,12 @@
       "https://x.com/eng_khairallah1/status/2063548282912293226",
       "https://x.com/eng_khairallah1/status/2063545603955785778",
       "https://x.com/eng_khairallah1/status/2063272860219809914",
-      "https://x.com/eng_khairallah1/status/2063276208633073841",
-      "https://x.com/eng_khairallah1/status/2063279144201564342",
-      "https://x.com/eng_khairallah1/status/2063273328006328721",
-      "https://x.com/eng_khairallah1/status/2063278557204517113",
       "https://x.com/eng_khairallah1/status/2063287389888643332",
-      "https://x.com/eng_khairallah1/status/2063276229172597193"
+      "https://x.com/eng_khairallah1/status/2063278557204517113",
+      "https://x.com/eng_khairallah1/status/2063273328006328721",
+      "https://x.com/eng_khairallah1/status/2063276229172597193",
+      "https://x.com/eng_khairallah1/status/2063276208633073841",
+      "https://x.com/eng_khairallah1/status/2063279144201564342"
     ],
     "2063276021881729037": [
       "https://x.com/mogulinfluence/status/2063276021881729037",
@@ -45912,7 +46096,8 @@
       "https://x.com/HarrisDecodes/status/2063506017514815875"
     ],
     "2063311666402529546": [
-      "https://x.com/traviscurnutte/status/2063311666402529546"
+      "https://x.com/traviscurnutte/status/2063311666402529546",
+      "https://x.com/traviscurnutte/status/2063784291830558840"
     ],
     "2063313653504565361": [
       "https://x.com/Blum_OG/status/2063313653504565361",
@@ -45931,14 +46116,15 @@
       "https://x.com/Av1dlive/status/2063593645404791277",
       "https://x.com/Av1dlive/status/2063592868581978517?s=20",
       "https://x.com/Av1dlive/status/2063357609680458182",
-      "https://x.com/Av1dlive/status/2063357589027725665",
       "https://x.com/Av1dlive/status/2063357582119690319",
       "https://x.com/Av1dlive/status/2063357616513024117",
+      "https://x.com/Av1dlive/status/2063357589027725665",
       "https://x.com/Av1dlive/status/2063357575660458199",
       "https://x.com/Av1dlive/status/2063357637228658983",
       "https://x.com/Av1dlive/status/2063357595864400171",
       "https://x.com/Av1dlive/status/2063318727291191495",
       "https://x.com/Av1dlive/status/2063318811772854380",
+      "https://x.com/Av1dlive/status/2063663943919558744",
       "https://x.com/Av1dlive/status/2063321388799463899",
       "https://x.com/Av1dlive/status/2063318874133827884"
     ],
@@ -45951,11 +46137,11 @@
     "2063317667310887383": [
       "https://x.com/creatorpascal/status/2063317667310887383",
       "http://x.com/i/article/2053482765333540868",
-      "https://x.com/creatorpascal/status/2063591743392514345",
-      "https://x.com/creatorpascal/status/2063591812531380459",
-      "https://x.com/creatorpascal/status/2063591992097935759",
       "https://x.com/creatorpascal/status/2063591697813049727",
+      "https://x.com/creatorpascal/status/2063591992097935759",
+      "https://x.com/creatorpascal/status/2063591743392514345",
       "https://x.com/creatorpascal/status/2063591930353656304",
+      "https://x.com/creatorpascal/status/2063591812531380459",
       "https://x.com/creatorpascal/status/2063609563891331327",
       "http://x.com/i/article/2053484058299015168"
     ],
@@ -45974,11 +46160,11 @@
     "2063333708455645425": [
       "https://x.com/rileywestreel/status/2063333708455645425",
       "https://pbs.twimg.com/amplify_video_thumb/2063333337532432384/img/v6SmaZsu3WUZRXhB.jpg",
+      "https://x.com/rileywestreel/status/2063349751756497029",
       "https://x.com/rileywestreel/status/2063360517805146118",
       "https://x.com/rileywestreel/status/2063350017918689557",
       "https://x.com/rileywestreel/status/2063351669551677564",
       "https://x.com/rileywestreel/status/2063379584662307173",
-      "https://x.com/rileywestreel/status/2063349751756497029",
       "https://x.com/rileywestreel/status/2063337222997209550",
       "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063360814132736079"
@@ -45989,12 +46175,14 @@
     ],
     "2063338558346105095": [
       "https://x.com/dani_avila7/status/2063338558346105095",
-      "http://aitmpl.com"
+      "http://aitmpl.com",
+      "https://x.com/dani_avila7/status/2062967473033650180",
+      "https://pbs.twimg.com/media/HKEcMyTWcAAp0wW.jpg"
     ],
     "2063344171579002881": [
       "https://x.com/Voxyz_ai/status/2063344171579002881",
-      "https://x.com/Voxyz_ai/status/2063652237155455036",
-      "http://x.com/i/article/2063607154246836225"
+      "https://x.com/Voxyz_ai/status/2063674850808340558",
+      "https://pbs.twimg.com/amplify_video_thumb/2063654468974006272/img/uYloAbdCty1xEbqZ.jpg"
     ],
     "2063346284149235876": [
       "https://x.com/tonysimons_/status/2063346284149235876",
@@ -46009,10 +46197,10 @@
       "https://x.com/skeptrune/status/2063371983300300886",
       "https://declank.skeptrune.com/",
       "https://x.com/skeptrune/status/2063468260843266158",
-      "https://x.com/skeptrune/status/2063388820029206635",
       "https://x.com/skeptrune/status/2063470639898583043",
-      "https://x.com/skeptrune/status/2063381282353303714",
+      "https://x.com/skeptrune/status/2063388820029206635",
       "https://x.com/skeptrune/status/2063508465079963843",
+      "https://x.com/skeptrune/status/2063381282353303714",
       "https://x.com/skeptrune/status/2063469480135856360",
       "https://x.com/skeptrune/status/2063469803067912408",
       "https://x.com/skeptrune/status/2063469620649132174",
@@ -46034,16 +46222,17 @@
       "https://x.com/hezhiyan7/status/2063400736223043728",
       "http://x.com/i/article/2063400453447303168",
       "https://x.com/hezhiyan7/status/2063424625649094743",
-      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063492579824734436",
-      "https://x.com/hezhiyan7/status/2063499575416209799",
-      "https://x.com/hezhiyan7/status/2063433856083227071",
-      "https://x.com/hezhiyan7/status/2063607088606245216",
+      "https://x.com/hezhiyan7/status/2063491891455508605",
+      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063523802844418307",
-      "https://x.com/hezhiyan7/status/2063491891455508605"
+      "https://x.com/hezhiyan7/status/2063433856083227071",
+      "https://x.com/hezhiyan7/status/2063499575416209799",
+      "https://x.com/hezhiyan7/status/2063607088606245216"
     ],
     "2063429138304668093": [
       "https://x.com/Vtrivedy10/status/2063429138304668093",
+      "https://x.com/Vtrivedy10/status/2063748358657720593",
       "https://x.com/Vtrivedy10/status/2063607428923461956"
     ],
     "2063470556620472553": [
@@ -46055,8 +46244,99 @@
       "https://x.com/_avichawla/status/2063548691353629040",
       "http://x.com/i/article/2061735436687736832",
       "https://x.com/_avichawla/status/2063588308580704642"
+    ],
+    "2063576484850073723": [
+      "https://x.com/Zephyr_hg/status/2063576484850073723",
+      "http://x.com/i/article/2063573083185627136"
+    ],
+    "2063584716771541327": [
+      "https://x.com/carlsue/status/2063584716771541327",
+      "http://x.com/i/article/2063566081453694976"
+    ],
+    "2063589795813785841": [
+      "https://x.com/suraj_sharma14/status/2063589795813785841",
+      "https://developers.openai.com/codex/use-cases",
+      "https://x.com/suraj_sharma14/status/2063773759388143642",
+      "https://x.com/suraj_sharma14/status/2063617204986478829",
+      "https://x.com/suraj_sharma14/status/2063773288334328236",
+      "https://x.com/suraj_sharma14/status/2063773583915266088",
+      "https://x.com/suraj_sharma14/status/2063774037508329701",
+      "https://x.com/suraj_sharma14/status/2063773449374642302",
+      "https://x.com/suraj_sharma14/status/2063773874945397211",
+      "https://x.com/suraj_sharma14/status/2063617173013287267",
+      "https://x.com/suraj_sharma14/status/2063774154445496595",
+      "https://x.com/suraj_sharma14/status/2063638194567238088"
+    ],
+    "2063602634854982113": [
+      "https://x.com/atrekovas/status/2063602634854982113",
+      "http://x.com/i/article/2063582854215266304"
+    ],
+    "2063606029146034375": [
+      "https://x.com/hey_madni/status/2063606029146034375",
+      "http://x.com/i/article/2063574218584018944"
+    ],
+    "2063609922667815064": [
+      "https://x.com/sairahul1/status/2063609922667815064",
+      "https://walkinglabs.github.io/learn-harness-engineering/en/",
+      "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg",
+      "https://x.com/sairahul1/status/2063686646957306029",
+      "https://x.com/sairahul1/status/2063668940585541801",
+      "https://x.com/sairahul1/status/2063625392083341332"
+    ],
+    "2063624356484501832": [
+      "https://x.com/mvanhorn/status/2063624356484501832",
+      "http://x.com/i/article/2063492603706740736",
+      "https://x.com/mvanhorn/status/2063705494355861997",
+      "https://x.com/mvanhorn/status/2063795942193877095",
+      "https://x.com/mvanhorn/status/2063653353247347152",
+      "https://x.com/mvanhorn/status/2063633081450541154",
+      "https://x.com/mvanhorn/status/2063733723032633612",
+      "https://x.com/mvanhorn/status/2063625708447174839",
+      "https://x.com/mvanhorn/status/2063630793243799998"
+    ],
+    "2063633896517022014": [
+      "https://x.com/eng_khairallah1/status/2063633896517022014",
+      "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
+      "https://x.com/eng_khairallah1/status/2063645221611864434",
+      "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
+      "https://x.com/eng_khairallah1/status/2063636157666361649",
+      "https://x.com/eng_khairallah1/status/2063638299760382309",
+      "https://x.com/eng_khairallah1/status/2063634722455228664",
+      "https://x.com/eng_khairallah1/status/2063635029931209146",
+      "https://x.com/eng_khairallah1/status/2063640487115055604",
+      "https://x.com/eng_khairallah1/status/2063672183663288343"
+    ],
+    "2063645563241844823": [
+      "https://x.com/IBuzovskyi/status/2063645563241844823",
+      "http://x.com/i/article/2063630561466265600",
+      "https://x.com/IBuzovskyi/status/2063762007984160784",
+      "https://x.com/IBuzovskyi/status/2063747555398176972"
+    ],
+    "2063671722096886128": [
+      "https://x.com/Akasheth_/status/2063671722096886128",
+      "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
+      "https://x.com/Akasheth_/status/2063689095650623849",
+      "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063688944035000667",
+      "https://x.com/Akasheth_/status/2063688893522948312",
+      "https://x.com/Akasheth_/status/2063689533078786263",
+      "https://x.com/Akasheth_/status/2063689169105461693",
+      "https://x.com/Akasheth_/status/2063689052776460520"
+    ],
+    "2063688044843090179": [
+      "https://x.com/scaling_shields/status/2063688044843090179",
+      "http://x.com/i/article/2063386766455762945",
+      "https://x.com/scaling_shields/status/2063688764975730759"
+    ],
+    "2063694809592635430": [
+      "https://x.com/zaimiri/status/2063694809592635430",
+      "http://x.com/i/article/2062903712209600512"
+    ],
+    "2063697740526399833": [
+      "https://x.com/Mnilax/status/2063697740526399833",
+      "http://x.com/i/article/2063676886031495171"
     ]
   },
-  "updated_at": "2026-06-07T18:19:54Z",
+  "updated_at": "2026-06-08T01:34:31Z",
   "window": "recent"
 }
