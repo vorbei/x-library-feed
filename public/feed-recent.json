@@ -6299,6 +6299,20 @@
       "title": "",
       "url": "http://x.com/i/article/2063729870518341632"
     },
+    "http://x.com/i/article/2063916662223470592": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063916662223470592",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063916662223470592/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKSeaTbXsAAPgGa?format=jpg&name=900x900)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063948703971389440)\n\nGive This AI a Few Reports and It Can Explain an Entire Industry\n\n[![](https://pbs.twimg.com/profile_images/2050365720085549056/IjWOByOd_normal.jpg)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n[moontanax](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n[@xanaxmontanaonx](http://x.com/i/article/2063916662223470592/xanaxmontanaonx)\n\n·\n\n30m\n\nFollow\n\nClick to Follow xanaxmontanaonx\n\n2\n\n[5](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/status/2063949009899659761/analytics)\n\nIndustry research usually lives across annual reports, earnings calls, market studies, spreadsheets, and browser tabs.\n\nWell, the information exists. The connections disappear.\n\nNotebookLM can turn that document pile into one focused research system. You choose the evidence, define the analyst's job, and ask the same questions every quarter.\n\nStandard NotebookLM accounts support 50 sources per notebook. Deep Research also runs inside NotebookLM, so it can search the web, prepare a report, and suggest sources for the notebook.\n\nA useful first version needs around 15 documents.\n\n[![Image](https://pbs.twimg.com/media/HKSYGIAWUAADP_F?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063941760238112768)\n\n# \n\nBuild the source base\n\nSo, start with three layers.\n\nLayer 1: companies\n\nAdd annual reports from 5-7 listed companies across the value chain. Include a large operator, a regional player, a supplier, and a specialist business.\n\nThis gives the notebook different business models instead of seven versions of the same company.\n\nLayer 2: industry structure\n\nCreate three Deep Research reports before you start asking company-level questions. In practice, these reports become the background knowledge for everything that follows.\n\nThe first one is the history report:\n\n```text\nROLE\nYou are an economic historian and industry analyst.\n\nTASK\nWrite a factual, data-based history of [INDUSTRY].\n\nExplain how the industry formed, why it matters economically, which forces shaped it, how major winners appeared, and which cycles repeat over time.\n\nCover:\n• formation and early need\n• first technologies, financing models, and institutions\n• scale breakthroughs and standardization\n• crises, regulation, consolidation, and profitability\n• leading firms, market share changes, mergers, and breakups\n• digital transformation and new entrants\n• regional differences, trade, subsidies, and geography\n• capital intensity, debt use, returns, and valuation patterns\n• lessons for long-term investors\n\nUse clear cause-and-effect analysis. Support claims with numbers and citations.\n```\n\n[![Image](https://pbs.twimg.com/media/HKSU8xDXYAAzeLq?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063938300923043840)\n\nThe second one is the future report:\n\n```text\nAct as an industry strategist.\nAnalyze [INDUSTRY] today and the next 5-10 years.\nCover demand growth, supply limits, pricing power, regulation, technology shifts, automation, new entrants, customer behavior, margin pressure, capex needs, and possible disruption.\nGive 3 scenarios:\n• base case\n• upside case\n• downside case\nFor each scenario, explain which companies gain advantage, which business models lose power, and what metrics an investor should track.\nUse citations for numerical claims.\n```\n\n[![Image](https://pbs.twimg.com/media/HKSVbfCWgAAUrRx?format=jpg&name=small)](http://x.com/i/article/2063916662223470592/xanaxmontanaonx/article/2063949009899659761/media/2063938828662898688)\n\nThe third one is the economics report:\n\n```text\nAct as an",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063916662223470592"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -29674,6 +29688,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKLriWzWkAAlap1.jpg"
     },
+    "https://pbs.twimg.com/media/HKMxO05bMAA8mvV.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKMxO05bMAA8mvV.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKMxO05bMAA8mvV.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKMxO05bMAA8mvV.jpg"
+    },
     "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -46020,15 +46048,15 @@
       "https://x.com/ramxcodes/status/2063156455159861723",
       "http://x.com/i/article/2062943721902235648",
       "https://x.com/ramxcodes/status/2063162826412396886",
-      "https://x.com/ramxcodes/status/2063235824699990156",
-      "https://x.com/ramxcodes/status/2063848630344454169",
-      "https://x.com/ramxcodes/status/2063305342784815198",
-      "https://x.com/ramxcodes/status/2063161213979328956",
       "https://x.com/ramxcodes/status/2063163900166893909",
+      "https://x.com/ramxcodes/status/2063235824699990156",
       "https://x.com/ramxcodes/status/2063158714425868549",
       "https://pbs.twimg.com/tweet_video_thumb/HKHP6PlbQAAmUmx.jpg",
+      "https://x.com/ramxcodes/status/2063161213979328956",
       "https://x.com/ramxcodes/status/2063189057065365645",
+      "https://x.com/ramxcodes/status/2063848630344454169",
       "https://x.com/ramxcodes/status/2063314230431089119",
+      "https://x.com/ramxcodes/status/2063305342784815198",
       "https://x.com/ramxcodes/status/2063236037074374745"
     ],
     "2063206960799866988": [
@@ -46075,7 +46103,9 @@
       "https://x.com/xanaxmontanaonx/status/2063250695784898573",
       "http://x.com/i/article/2063242519907840000",
       "https://x.com/xanaxmontanaonx/status/2063342165032325197",
-      "https://x.com/xanaxmontanaonx/status/2063545743676223794"
+      "https://x.com/xanaxmontanaonx/status/2063545743676223794",
+      "https://x.com/xanaxmontanaonx/status/2063949009899659761",
+      "http://x.com/i/article/2063916662223470592"
     ],
     "2063260427619008751": [
       "https://x.com/aashatwt/status/2063260427619008751",
@@ -46097,8 +46127,8 @@
       "https://x.com/eng_khairallah1/status/2063276208633073841",
       "https://x.com/eng_khairallah1/status/2063279144201564342",
       "https://x.com/eng_khairallah1/status/2063273328006328721",
-      "https://x.com/eng_khairallah1/status/2063278557204517113",
       "https://x.com/eng_khairallah1/status/2063287389888643332",
+      "https://x.com/eng_khairallah1/status/2063278557204517113",
       "https://x.com/eng_khairallah1/status/2063276229172597193"
     ],
     "2063276021881729037": [
@@ -46194,10 +46224,10 @@
     "2063317667310887383": [
       "https://x.com/creatorpascal/status/2063317667310887383",
       "http://x.com/i/article/2053482765333540868",
-      "https://x.com/creatorpascal/status/2063591697813049727",
-      "https://x.com/creatorpascal/status/2063591992097935759",
-      "https://x.com/creatorpascal/status/2063591812531380459",
       "https://x.com/creatorpascal/status/2063591743392514345",
+      "https://x.com/creatorpascal/status/2063591812531380459",
+      "https://x.com/creatorpascal/status/2063591992097935759",
+      "https://x.com/creatorpascal/status/2063591697813049727",
       "https://x.com/creatorpascal/status/2063591930353656304"
     ],
     "2063318596202242171": [
@@ -46317,14 +46347,21 @@
       "https://developers.openai.com/codex/use-cases",
       "https://x.com/suraj_sharma14/status/2063773759388143642",
       "https://x.com/suraj_sharma14/status/2063617204986478829",
+      "https://x.com/suraj_sharma14/status/2063913300262539518",
+      "https://x.com/suraj_sharma14/status/2063913515157749856",
+      "https://x.com/suraj_sharma14/status/2063913929605263403",
+      "https://x.com/suraj_sharma14/status/2063913103901999489",
+      "https://x.com/suraj_sharma14/status/2063914153706926549",
+      "https://x.com/suraj_sharma14/status/2063774037508329701",
       "https://x.com/suraj_sharma14/status/2063773583915266088",
       "https://x.com/suraj_sharma14/status/2063773288334328236",
-      "https://x.com/suraj_sharma14/status/2063774037508329701",
+      "https://x.com/suraj_sharma14/status/2063914038061662334",
+      "https://x.com/suraj_sharma14/status/2063913801473487000",
+      "https://x.com/suraj_sharma14/status/2063914285764587900",
       "https://x.com/suraj_sharma14/status/2063773874945397211",
       "https://x.com/suraj_sharma14/status/2063773449374642302",
-      "https://x.com/suraj_sharma14/status/2063617173013287267",
-      "https://x.com/suraj_sharma14/status/2063774154445496595",
-      "https://x.com/suraj_sharma14/status/2063638194567238088"
+      "https://x.com/suraj_sharma14/status/2063913642710675570",
+      "https://x.com/suraj_sharma14/status/2063914427574059221"
     ],
     "2063602634854982113": [
       "https://x.com/atrekovas/status/2063602634854982113",
@@ -46340,20 +46377,21 @@
       "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg",
       "https://x.com/sairahul1/status/2063686646957306029",
       "https://x.com/sairahul1/status/2063668940585541801",
-      "https://x.com/sairahul1/status/2063625392083341332"
+      "https://x.com/sairahul1/status/2063625392083341332",
+      "https://x.com/sairahul1/status/2063948495602831664"
     ],
     "2063624356484501832": [
       "https://x.com/mvanhorn/status/2063624356484501832",
       "http://x.com/i/article/2063492603706740736",
       "https://x.com/mvanhorn/status/2063705494355861997",
-      "https://x.com/mvanhorn/status/2063733723032633612",
       "https://x.com/mvanhorn/status/2063653353247347152",
-      "https://x.com/mvanhorn/status/2063625708447174839",
-      "https://x.com/mvanhorn/status/2063868075586560045",
       "https://x.com/mvanhorn/status/2063633081450541154",
+      "https://x.com/mvanhorn/status/2063733723032633612",
+      "https://x.com/mvanhorn/status/2063625708447174839",
+      "https://x.com/mvanhorn/status/2063630793243799998",
+      "https://x.com/mvanhorn/status/2063868075586560045",
       "https://x.com/mvanhorn/status/2063795942193877095",
-      "https://x.com/mvanhorn/status/2063809947138457838",
-      "https://x.com/mvanhorn/status/2063630793243799998"
+      "https://x.com/mvanhorn/status/2063809947138457838"
     ],
     "2063633896517022014": [
       "https://x.com/eng_khairallah1/status/2063633896517022014",
@@ -46362,27 +46400,28 @@
       "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
       "https://x.com/eng_khairallah1/status/2063636157666361649",
       "https://x.com/eng_khairallah1/status/2063638299760382309",
-      "https://x.com/eng_khairallah1/status/2063634722455228664",
       "https://x.com/eng_khairallah1/status/2063635029931209146",
+      "https://x.com/eng_khairallah1/status/2063672183663288343",
       "https://x.com/eng_khairallah1/status/2063640487115055604",
-      "https://x.com/eng_khairallah1/status/2063672183663288343"
+      "https://x.com/eng_khairallah1/status/2063634722455228664"
     ],
     "2063645563241844823": [
       "https://x.com/IBuzovskyi/status/2063645563241844823",
       "http://x.com/i/article/2063630561466265600",
       "https://x.com/IBuzovskyi/status/2063762007984160784",
-      "https://x.com/IBuzovskyi/status/2063747555398176972"
+      "https://x.com/IBuzovskyi/status/2063747555398176972",
+      "https://x.com/IBuzovskyi/status/2063946410475614595"
     ],
     "2063671722096886128": [
       "https://x.com/Akasheth_/status/2063671722096886128",
       "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
-      "https://x.com/Akasheth_/status/2063688893522948312",
-      "https://x.com/Akasheth_/status/2063688944035000667",
-      "https://x.com/Akasheth_/status/2063689605208289615",
       "https://x.com/Akasheth_/status/2063689095650623849",
+      "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063688893522948312",
       "https://x.com/Akasheth_/status/2063689533078786263",
-      "https://x.com/Akasheth_/status/2063689052776460520",
-      "https://x.com/Akasheth_/status/2063689169105461693"
+      "https://x.com/Akasheth_/status/2063689169105461693",
+      "https://x.com/Akasheth_/status/2063688944035000667",
+      "https://x.com/Akasheth_/status/2063689052776460520"
     ],
     "2063688044843090179": [
       "https://x.com/scaling_shields/status/2063688044843090179",
@@ -46408,8 +46447,14 @@
       "https://x.com/viktor_pali/status/2063859532078755973",
       "https://x.com/viktor_pali/status/2063746947442475159",
       "https://x.com/viktor_pali/status/2063853747571470800"
+    ],
+    "2063840704892440976": [
+      "https://x.com/disinfeqt/status/2063840704892440976",
+      "https://x.com/disinfeqt/status/2063887526587486423",
+      "https://x.com/disinfeqt/status/2063547196201697493",
+      "https://pbs.twimg.com/media/HKMxO05bMAA8mvV.jpg"
     ]
   },
-  "updated_at": "2026-06-08T07:04:02Z",
+  "updated_at": "2026-06-08T12:09:06Z",
   "window": "recent"
 }
