@@ -38,8 +38,77 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2252,
+  "item_count": 2254,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
+      "article_image_urls": [
+        "https://www.cypherpunkbooks.com/opengraph-image.png?opengraph-image.0uxdxnxa5mj37.png?dpl=dpl_EPuLYZZVxoeBits9AHJiaYiVgEHT",
+        "https://www.cypherpunkbooks.com/twitter-image.png?twitter-image.0uxdxnxa5mj37.png?dpl=dpl_EPuLYZZVxoeBits9AHJiaYiVgEHT"
+      ],
+      "article_title_extracted": "The Cypherpunk Library",
+      "category": "Articles",
+      "created_at": "2026-06-08T05:11:36.541556Z",
+      "description": "A personal collection of good public-domain reads. Free to read, free to keep.",
+      "domain": "www.cypherpunkbooks.com",
+      "embed_type": "",
+      "id": "k1751e0dkvn0vh9bw8svkfds39889cqg",
+      "og_image_url": "https://www.cypherpunkbooks.com/opengraph-image.png?opengraph-image.0uxdxnxa5mj37.png?dpl=dpl_7LbeGJQUxn2nLpyDwXrxgPDNR3wp",
+      "recommended_at": "2026-06-08T05:17:48.125000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "cypherpunk",
+        "privacy",
+        "literature"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T05:17:48.125000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "The Cypherpunk Library",
+      "url": "https://www.cypherpunkbooks.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
+      "article_text": "# Bloomberg\n\n[Need help? Contact us](https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall/feedback) \n\n## We've detected unusual activity from your computer network\n\nTo continue, please click the box below to let us know you're not a robot.\n\n### Why did this happen?\n\nPlease make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our [Terms of Service](https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall/notices/tos) and [Cookie Policy](https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall/notices/tos).\n\n### Need Help?\n\nFor inquiries related to this message please [contact our support team](https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall/feedback) and provide the reference ID below.\n\nBlock reference ID:64d156ec-6338-11f1-ad90-67e886eaaacc\n\nGet the most important global markets news at your fingertips with a [Bloomberg.com](https://bloomberg.com) subscription.\n\n[SUBSCRIBE NOW](https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall/subscription)",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-08T05:15:32.267411Z",
+      "description": "Also: What to expect at WWDC 2026.",
+      "domain": "www.bloomberg.com",
+      "embed_type": "",
+      "id": "k170rp1992xdadgve8600rf3h9889exh",
+      "og_image_url": "https://cloud.poche.app/api/storage/e04d4b00-6188-4a1e-a9ea-1e93fcf88ae0",
+      "recommended_at": "2026-06-08T05:17:46.085000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "apple",
+        "artificial-intelligence",
+        "wwdc"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-08T05:17:46.085000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "WWDC 2026: Apple’s Secret Meeting That Led It to Take AI Seriously; iOS 27 - Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDg0NDQ3NCwiZXhwIjoxNzgxNDQ5Mjc0LCJhcnRpY2xlSWQiOiJURzlMSzFSMjRVOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.fE7xdnsnm8-sZp6i1wdTXf7f3T4dboyzXAg26n7XON4&leadSource=uverify+wall",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
@@ -2252,7 +2321,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T05:29:43.857992Z",
+      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-31T08:41:46.112919Z",
@@ -2385,7 +2454,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-01T05:29:43.857992Z",
+      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
       "article_image_urls": [
         "https://dctycoon.arnav.tech/og-image.jpg"
       ],
@@ -100014,5 +100083,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-08T05:18:56.461140Z"
+  "updated_at": "2026-06-08T12:49:14.118659Z"
 }
