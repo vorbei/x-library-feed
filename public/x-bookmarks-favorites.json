@@ -184,6 +184,9 @@
         "favorite@chumsdock"
       ],
       "text": "iOS 27 adds separate volume sliders for Ringtone, Alarms, and Alerts! https://t.co/Si1bIIGq5r",
+      "text_zh": "iOS 27 新增了独立的铃声、闹钟和提醒音量滑块！https://t.co/Si1bIIGq5r",
+      "text_zh_hash": "997cfbb6fcff8b54",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/BrandonButch/status/2064099819841577040"
     },
     {
@@ -352,6 +355,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "https://www.langchain.com/blog/tuning-deep-agents-different-models",
+      "text_zh": "[链接](https://www.langchain.com/blog/tuning-deep-agents-different-models)",
+      "text_zh_hash": "67796018d2e018a0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/9hills/status/2064156903689891988"
     },
     {
