@@ -6669,6 +6669,19 @@
       "title": "",
       "url": "http://x.com/i/article/2064264218858164224"
     },
+    "http://x.com/i/article/2064290620416589824": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064290620416589824",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKYLkj3bwAAOsvb?format=jpg&name=900x900)](http://x.com/AlphaSignalAI/article/2064350250786341326/media/2064350201926893568)\n\nThe Best AI Code Review Tools Don't Let the Model Do Everything\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/AlphaSignalAI)\n\n·\n\n4h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n3\n\n[590](http://x.com/AlphaSignalAI/status/2064350250786341326/analytics)\n\n## \n\nStop asking the LLM for guarantees. It can only give you judgment.\n\n> In 4 minutes, you'll learn why AI code review fails when models own both reasoning and control, and how Alibaba separates deterministic guarantees from judgment.\n\nMost teams adding AI to their code review workflow do the same thing.\n\nThey give a general-purpose agent the diff, write a prompt that says \"review this carefully,\" and hope the output is useful.\n\nSometimes it is. Often it isn't.\n\nThe mistake isn't using an LLM for code review.\n\nThe mistake is asking the LLM to provide both judgment and guarantees.\n\nJudgment is probabilistic. Guarantees are deterministic. Open Code Review separates the two.\n\n## \n\nThe three things code review requires\n\nBefore getting to the architecture, it's worth being precise about what reliable code review actually needs.\n\nComplete coverage. Every file in the changeset gets reviewed. Not most files. Not the files the model decided were important. Every file.\n\nPrecise positioning. A reported issue maps to the exact line it describes. Line 247 means line 247, not approximately that area of the file.\n\nConsistent rule enforcement. The same rule applied to the same pattern produces the same result across every file, every run.\n\nThese are deterministic requirements. They don't benefit from reasoning. They require guarantees.\n\nA purely language-driven agent can approximate all three. It cannot guarantee any of them. That distinction is where pure LLM code review breaks.\n\n## \n\nWhat breaks in production\n\n[![Image](https://pbs.twimg.com/media/HKYKePxbYAAhUBJ?format=jpg&name=small)](http://x.com/AlphaSignalAI/article/2064350250786341326/media/2064348993942151168)\n\nOpen Code Review originated as Alibaba's internal official code review assistant, serving tens of thousands of developers over two years and identifying millions of code defects before being open-sourced.\n\nThe README is unusually direct about what failed before the hybrid architecture was built.\n\nThree failure modes appeared consistently when using general-purpose agents.\n\nIncomplete coverage.\n\nOn larger changesets, agents cut corners. They selectively review some files and skip others without signaling that anything was skipped. The diff had 40 files. The agent reviewed 12\\. You find out when something ships broken.\n\nPosition drift.\n\nReported issues don't match actual code locations. Line numbers drift. File references shift. The agent found a real bug but pointed at the wrong line, so the reviewer can't locate it and the comment gets dismissed.\n\nUnstable quality.\n\nMinor prompt variations cause wild swings in review quality. The same diff reviewed twice with slightly different wording produces completely different feedback. There's no deterministic layer to inspect when something goes wrong.\n\nThe root cause is precise: a purely language-driven architecture lacks hard constraints on the review process.\n\n## \n\nThe architecture in one sentence\n\nDeterministic engineering owns the decisions that must not go wrong. The LLM owns the decisions that require judgment.\n\nThat single boundary is the design.\n\n## \n\nHow the boundary works in practice\n\nWhat deterministic engineering handles:\n\nPrecise file selection.\n\nEngineering logic determines exactly which files need review and which should be filtered. N",
+      "title": "",
+      "url": "http://x.com/i/article/2064290620416589824"
+    },
     "http://x.com/i/article/2064331718723579904": {
       "cleaner_v": 2,
       "content_type": "",
@@ -30236,19 +30249,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
     },
-    "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg": {
+    "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+        "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+      "url": "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -46955,9 +46968,9 @@
       "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg",
       "https://x.com/sairahul1/status/2064186560434884612",
       "https://x.com/sairahul1/status/2063686646957306029",
+      "https://x.com/sairahul1/status/2063668940585541801",
       "https://x.com/sairahul1/status/2063625392083341332",
-      "https://x.com/sairahul1/status/2063948495602831664",
-      "https://x.com/sairahul1/status/2063668940585541801"
+      "https://x.com/sairahul1/status/2063948495602831664"
     ],
     "2063624356484501832": [
       "https://x.com/mvanhorn/status/2063624356484501832",
@@ -46995,13 +47008,13 @@
     "2063671722096886128": [
       "https://x.com/Akasheth_/status/2063671722096886128",
       "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
-      "https://x.com/Akasheth_/status/2063688893522948312",
-      "https://x.com/Akasheth_/status/2063688944035000667",
-      "https://x.com/Akasheth_/status/2063689605208289615",
       "https://x.com/Akasheth_/status/2063689095650623849",
+      "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063688944035000667",
+      "https://x.com/Akasheth_/status/2063688893522948312",
       "https://x.com/Akasheth_/status/2063689533078786263",
-      "https://x.com/Akasheth_/status/2063689052776460520",
-      "https://x.com/Akasheth_/status/2063689169105461693"
+      "https://x.com/Akasheth_/status/2063689169105461693",
+      "https://x.com/Akasheth_/status/2063689052776460520"
     ],
     "2063688044843090179": [
       "https://x.com/scaling_shields/status/2063688044843090179",
@@ -47060,13 +47073,13 @@
       "https://x.com/mvanhorn/status/2064012863367512094",
       "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064010832170950884",
+      "https://x.com/mvanhorn/status/2064347803162489127",
       "https://x.com/mvanhorn/status/2063866667881607559",
       "https://x.com/mvanhorn/status/2064092740678475891",
       "https://x.com/mvanhorn/status/2064084739578032216",
       "https://x.com/mvanhorn/status/2064028299903574435",
       "https://x.com/mvanhorn/status/2064251068557750536",
       "https://x.com/mvanhorn/status/2064012892379480151",
-      "https://x.com/mvanhorn/status/2064347803162489127",
       "https://x.com/mvanhorn/status/2064028346871316773",
       "https://x.com/mvanhorn/status/2064339837260591135",
       "http://Juneoven.com",
@@ -47079,8 +47092,8 @@
       "https://x.com/AlphaSignalAI/status/2063889311259611267",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
       "https://dora.dev/research/2025/dora-report/",
-      "https://x.com/AlphaSignalAI/status/2064364907722616841",
-      "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+      "https://x.com/AlphaSignalAI/status/2064350250786341326",
+      "http://x.com/i/article/2064290620416589824"
     ],
     "2063907440509571354": [
       "https://x.com/neural_avb/status/2063907440509571354",
@@ -47092,8 +47105,8 @@
     "2063928611619455268": [
       "https://x.com/0x_rody/status/2063928611619455268",
       "http://x.com/i/article/2063893302181519360",
-      "https://x.com/0x_rody/status/2063954047434944696",
-      "https://x.com/0x_rody/status/2063935123658010698"
+      "https://x.com/0x_rody/status/2063935123658010698",
+      "https://x.com/0x_rody/status/2063954047434944696"
     ],
     "2063935932349255713": [
       "https://x.com/Zephyr_hg/status/2063935932349255713",
@@ -47113,8 +47126,8 @@
       "https://x.com/_rohit_tiwari_/status/2063983267179872474",
       "https://github.com/analyticalrohit/llms-from-scratch",
       "https://x.com/_rohit_tiwari_/status/2064066219452588459",
-      "https://x.com/_rohit_tiwari_/status/2064025481536823385",
-      "https://x.com/_rohit_tiwari_/status/2064066114708287542"
+      "https://x.com/_rohit_tiwari_/status/2064066114708287542",
+      "https://x.com/_rohit_tiwari_/status/2064025481536823385"
     ],
     "2063983640535847093": [
       "https://x.com/amitiitbhu/status/2063983640535847093",
@@ -47130,7 +47143,8 @@
       "https://x.com/AashiDutt/status/2064012846065958966",
       "http://x.com/i/article/2062938717573259264",
       "https://x.com/AashiDutt/status/2064122425370136809",
-      "https://x.com/AashiDutt/status/2064325501725126885"
+      "https://x.com/AashiDutt/status/2064402039925563712",
+      "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
     ],
     "2064036299825160400": [
       "https://x.com/cyrilXBT/status/2064036299825160400",
@@ -47178,11 +47192,11 @@
       "https://x.com/AlphaSignalAI/status/2064329501757051371",
       "https://x.com/AlphaSignalAI/status/2064332097989341628",
       "https://x.com/AlphaSignalAI/status/2064330309823287575",
+      "https://x.com/AlphaSignalAI/status/2064331573428682907",
       "https://x.com/AlphaSignalAI/status/2064330705572671887",
       "https://x.com/AlphaSignalAI/status/2064330023146840223",
       "https://x.com/AlphaSignalAI/status/2064331654538080258",
-      "https://x.com/AlphaSignalAI/status/2064331929277661623",
-      "https://x.com/AlphaSignalAI/status/2064331573428682907"
+      "https://x.com/AlphaSignalAI/status/2064331929277661623"
     ],
     "2064152622928728099": [
       "https://x.com/Must_be_Ash/status/2064152622928728099",
@@ -47205,7 +47219,8 @@
       "https://x.com/robertcourson/status/2064161006373216269",
       "http://x.com/i/article/2064157304472154112",
       "https://x.com/robertcourson/status/2064161264947884164",
-      "https://github.com/robzilla1738/supergoal"
+      "https://github.com/robzilla1738/supergoal",
+      "https://x.com/robertcourson/status/2064396692640686299"
     ],
     "2064216929397842327": [
       "https://x.com/NathanFlurry/status/2064216929397842327",
@@ -47213,8 +47228,7 @@
       "https://x.com/NathanFlurry/status/2064219158599143732"
     ],
     "2064221035734646916": [
-      "https://x.com/chenchengpro/status/2064221035734646916",
-      "https://x.com/chenchengpro/status/2063990991627886839"
+      "https://x.com/chenchengpro/status/2064221035734646916"
     ],
     "2064239881199477240": [
       "https://x.com/Phoenixyin13/status/2064239881199477240"
@@ -47225,6 +47239,6 @@
       "https://x.com/alokbishoyi97/status/2064313324146495881"
     ]
   },
-  "updated_at": "2026-06-09T15:29:04Z",
+  "updated_at": "2026-06-09T18:21:05Z",
   "window": "recent"
 }
