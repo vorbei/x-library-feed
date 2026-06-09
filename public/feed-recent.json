@@ -6386,6 +6386,19 @@
       "title": "",
       "url": "http://x.com/i/article/2063729870518341632"
     },
+    "http://x.com/i/article/2063849005743050752": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063849005743050752",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKVXuNqasAALBVK?format=jpg&name=900x900)](http://x.com/Must%5Fbe%5FAsh/article/2064152622928728099/media/2064152455672410112)\n\nThe Prompt Was Never the Point \n\n[![](https://pbs.twimg.com/profile_images/1945552700697100288/_4HjwzE6_normal.jpg)](http://x.com/Must%5Fbe%5FAsh)\n\n[Ash](http://x.com/Must%5Fbe%5FAsh)\n\n[@Must\\_be\\_Ash](http://x.com/Must%5Fbe%5FAsh)\n\n·\n\n7h\n\nFollow\n\nClick to Follow Must\\_be\\_Ash\n\n2\n\n1\n\n9\n\n[1.2K](http://x.com/Must%5Fbe%5FAsh/status/2064152622928728099/analytics)\n\nFor about two years I kept a text file of prompts I was proud of. Little incantations I had tuned word by word, the ones that finally got the model to stop apologizing, stop hedging, stop writing the same four-paragraph essay every time. I treated them like recipes. I copied the good ones between projects. I felt clever every time one of them worked.\n\nA few weeks ago I went looking through that file to reuse something, and I realized I had not opened it in months. The prompts that used to be load-bearing were now things I barely thought about, because the model was good enough that the exact wording mostly stopped mattering. What I was spending all my time on instead was something else entirely, something I did not have a clean name for until the whole timeline started using one this spring. The work had moved off the prompt and onto the loop.\n\nThe thing that actually got better\n\nHere is the part nobody likes to admit, because it makes a lot of last year's expertise look quaint. Prompt engineering was always partly a workaround. We wrote careful, defensive, over-specified instructions because the models were brittle and we were trying to squeeze a reliable answer out of one shot. I remember literally seeing viral tweets folks say blah blah's system prompt just got leaked and like gigillion people bookmarking it.\n\nThat constraint is loosening. When a frontier model can disprove a standing conjecture or find a counterexample to an eighty-year-old Erdős problem, the bottleneck on your average task is no longer whether you said \"think step by step\" in the magic order. Andrej Karpathy did a long, widely shared session this spring showing how he actually works day to day, and the striking thing about it was how unceremonious the prompting was. He talks to the machine the way you would brief a competent coworker, in plain words, and then spends his real effort on what surrounds that conversation. Boris Cherny, Peter Steinberger, Garry Tan, a whole chorus of people who build with these things for a living, landed on the same realization in the same few weeks. You no longer hand-prompt a capable agent. You build the system that prompts it for you, over and over, while you do something else.\n\nSo if the magic words matter less, what matters more? What matters more is the loop, the runtime the model lives inside. What it can see, what it can touch, how it finds out whether its last move worked, and what it is allowed to do without asking you first.\n\nWhat a loop actually is\n\nStrip away the jargon and an agent loop is almost embarrassingly simple to describe. The model takes an action. It observes what came back. It decides what to do next, and then it does that, and the whole thing goes around again until the job is done or it hits a wall. A prompt is a single sentence you say once. A loop is the conversation you set up so the model can keep talking to the world and adjusting based on what the world says back.\n\nThe community that has formed around this even has a slogan it keeps repeating, and like all good slogans it is a little reductive but mostly right. The model is the brain, and the harness is the hands. Or, as one of the more popular framings puts it, the model is the CPU and the harness is the operating system. You can have the fastest processor ever built, but without an OS around it deciding what",
+      "title": "",
+      "url": "http://x.com/i/article/2063849005743050752"
+    },
     "http://x.com/i/article/2063850827694096385": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6564,6 +6577,19 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "http://x.com/i/article/2064090102452621312"
+    },
+    "http://x.com/i/article/2064205612913963008": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064205612913963008",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKWR05Wa0AAUDNo?format=jpg&name=900x900)](http://x.com/NathanFlurry/article/2064216929397842327/media/2064216342153318400)\n\nThere are 6 ways we write code. It's not all loops.\n\n[![](https://pbs.twimg.com/profile_images/1846325112402071557/JpWNvwoO_normal.jpg)](http://x.com/NathanFlurry)\n\n[Nathan Flurry ![🔩](https://abs.twimg.com/emoji/v2/svg/1f529.svg)](http://x.com/NathanFlurry)\n\n[@NathanFlurry](http://x.com/NathanFlurry)\n\n·\n\n3h\n\nFollow\n\nClick to Follow NathanFlurry\n\n2\n\n1\n\n11\n\n[866](http://x.com/NathanFlurry/status/2064216929397842327/analytics)\n\nI keep seeing \"you need to be using agents like X\" takes on here creating widespread FOMO.\n\nMany of these posts have value to what they're recommending, but I want to provide a more nuanced look at how we do engineering at Rivet. This is not a manual for how to write your code, but hopefully provides a chance to reflect on your processes.\n\nOur work largely falls in to these 6 categories:\n\n1. Sync vibe coding (w/ review)\n2. Sync vibe coding (no review)\n3. Async quick tasks\n4. Async long horizon tasks\n5. Triggers for async tasks\n6. By Hand (yes, really)\n\nI'll break down a bit how we use each of these below.\n\n  \n# \n\nPreface #1: \"Loops\"\n\nX is doing what it does best with \"loops:\"\n\n1. New buzzword surfaces\n2. Everyone assigns whatever meaning they want to that word – often to promote something (e.g. promote product or newsletter)\n3. Proceed to argue and produce FOMO\n\nQuite frankly – I still don't really get what the \"universal\" definition of loops is yet. Seems some hodge-podge of agent-agent prompting with subagents, dynamic workflows, /loop, /goal, and agent-written specs.\n\nBut by most definitions I find, most of what we do already includes \"loops\" in some form already. We're pretty aggressive about trying new techniques.\n\n  \n# \n\nPreface #2: the type of software we write\n\nThe software we write at \n\n[Rivet](https://github.com/rivet-dev/rivet)\n\n is performance, security, and backwards compatibility sensitive infrastructure. It's not a CRUD API or frontend that is \"on rails\" with agents.\n\nThat means we do a lot more written by hand & reviewed than most user-facing products.\n\nAgent-assisted MTTR is also not an option because our most important customers run on-prem. We need to write it correctly the first time.\n\n  \n# \n\n👀 Sync vibe coding (w/ review)\n\nThis is the majority of the code we write, largely bc our work at Rivet is perf + security + backwards compatibility sensitive. This also includes writing docs.\n\nIt's exactly what you'd expect: tmux split of nvim on the left and agent/jjui/lumen on the right.\n\nThis often isn't where \"loop\" techniques help, since the requests we make are usually pretty scoped requests on the code we're looking at.\n\n  \n# \n\n⚡ Sync vibe coding (no review)\n\nThis is usually websites, writing scripts, or experimenting. This saves us a lot of time.\n\nIt's about the same as above, but frequently involves more \"loop\"-y subagents + dynamic workflows for batch changes.\n\n  \n# \n\n🪄 Async quick tasks\n\nUsually docs or bug fixes that I fire off to merge later. Frequently I'm on a call, mid-conversation, or on a walk when I do these.\n\nThis stuff is pretty magical and saves so much time, but you need to have a good grasp on what an agent can one-shot and assume your repo is already set up for agents (AGENTS.md, test suite, CI).\n\nI still don't use an agent orchestrator for these. These are usually done by asking an agent to spin off a worktree and push a PR. Tailscale + Termius if on the go. Nothing fancy.\n\n  \n# \n\n🗾 Async long horizon tasks\n\nThese are specs I've iterated on for a few hours and feel confident can be executed correctly on the first try. Usually for jobs likely to have no unknown-unknowns.\n\nWriting the specs frequently uses many routes of subagents to review and push back on my spec. Specs are never written by hand,",
+      "title": "",
+      "url": "http://x.com/i/article/2064205612913963008"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -30061,6 +30087,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg"
     },
+    "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -46732,22 +46772,22 @@
       "https://x.com/suraj_sharma14/status/2063589795813785841",
       "https://developers.openai.com/codex/use-cases",
       "https://x.com/suraj_sharma14/status/2063773759388143642",
-      "https://x.com/suraj_sharma14/status/2063617204986478829",
       "https://x.com/suraj_sharma14/status/2063913103901999489",
-      "https://x.com/suraj_sharma14/status/2063773583915266088",
-      "https://x.com/suraj_sharma14/status/2063774037508329701",
-      "https://x.com/suraj_sharma14/status/2063914153706926549",
-      "https://x.com/suraj_sharma14/status/2063773288334328236",
+      "https://x.com/suraj_sharma14/status/2063617204986478829",
       "https://x.com/suraj_sharma14/status/2063913929605263403",
-      "https://x.com/suraj_sharma14/status/2063913801473487000",
-      "https://x.com/suraj_sharma14/status/2063913515157749856",
       "https://x.com/suraj_sharma14/status/2063914285764587900",
-      "https://x.com/suraj_sharma14/status/2063913300262539518",
-      "https://x.com/suraj_sharma14/status/2063773874945397211",
-      "https://x.com/suraj_sharma14/status/2063913642710675570",
+      "https://x.com/suraj_sharma14/status/2063773583915266088",
+      "https://x.com/suraj_sharma14/status/2063773288334328236",
+      "https://x.com/suraj_sharma14/status/2063913801473487000",
+      "https://x.com/suraj_sharma14/status/2063914153706926549",
+      "https://x.com/suraj_sharma14/status/2063914614774263940",
       "https://x.com/suraj_sharma14/status/2063773449374642302",
-      "https://x.com/suraj_sharma14/status/2063914427574059221",
-      "https://x.com/suraj_sharma14/status/2063914614774263940"
+      "https://x.com/suraj_sharma14/status/2063773874945397211",
+      "https://x.com/suraj_sharma14/status/2063913515157749856",
+      "https://x.com/suraj_sharma14/status/2063774037508329701",
+      "https://x.com/suraj_sharma14/status/2063913300262539518",
+      "https://x.com/suraj_sharma14/status/2063913642710675570",
+      "https://x.com/suraj_sharma14/status/2063617173013287267"
     ],
     "2063602634854982113": [
       "https://x.com/atrekovas/status/2063602634854982113",
@@ -46771,26 +46811,26 @@
       "https://x.com/mvanhorn/status/2063624356484501832",
       "http://x.com/i/article/2063492603706740736",
       "https://x.com/mvanhorn/status/2063705494355861997",
-      "https://x.com/mvanhorn/status/2063653353247347152",
-      "https://x.com/mvanhorn/status/2063633081450541154",
       "https://x.com/mvanhorn/status/2063733723032633612",
-      "https://x.com/mvanhorn/status/2063625708447174839",
-      "https://x.com/mvanhorn/status/2063630793243799998",
+      "https://x.com/mvanhorn/status/2063653353247347152",
       "https://x.com/mvanhorn/status/2063868075586560045",
+      "https://x.com/mvanhorn/status/2063625708447174839",
+      "https://x.com/mvanhorn/status/2063633081450541154",
       "https://x.com/mvanhorn/status/2063809947138457838",
-      "https://x.com/mvanhorn/status/2063795942193877095"
+      "https://x.com/mvanhorn/status/2063795942193877095",
+      "https://x.com/mvanhorn/status/2063630793243799998"
     ],
     "2063633896517022014": [
       "https://x.com/eng_khairallah1/status/2063633896517022014",
       "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
       "https://x.com/eng_khairallah1/status/2063645221611864434",
       "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
-      "https://x.com/eng_khairallah1/status/2063638299760382309",
       "https://x.com/eng_khairallah1/status/2063636157666361649",
+      "https://x.com/eng_khairallah1/status/2063638299760382309",
       "https://x.com/eng_khairallah1/status/2063672183663288343",
-      "https://x.com/eng_khairallah1/status/2063634722455228664",
       "https://x.com/eng_khairallah1/status/2063635029931209146",
-      "https://x.com/eng_khairallah1/status/2063640487115055604"
+      "https://x.com/eng_khairallah1/status/2063640487115055604",
+      "https://x.com/eng_khairallah1/status/2063634722455228664"
     ],
     "2063645563241844823": [
       "https://x.com/IBuzovskyi/status/2063645563241844823",
@@ -46806,10 +46846,10 @@
       "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
       "https://x.com/Akasheth_/status/2063689095650623849",
       "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063688944035000667",
       "https://x.com/Akasheth_/status/2063688893522948312",
       "https://x.com/Akasheth_/status/2063689533078786263",
       "https://x.com/Akasheth_/status/2063689169105461693",
-      "https://x.com/Akasheth_/status/2063688944035000667",
       "https://x.com/Akasheth_/status/2063689052776460520"
     ],
     "2063688044843090179": [
@@ -46833,31 +46873,31 @@
     "2063731230466834892": [
       "https://x.com/viktor_pali/status/2063731230466834892",
       "http://x.com/i/article/2063729870518341632",
-      "https://x.com/viktor_pali/status/2063859532078755973",
-      "https://x.com/viktor_pali/status/2063994513668952168",
       "https://x.com/viktor_pali/status/2063736331071783188",
-      "https://x.com/viktor_pali/status/2063991031813611715",
-      "https://x.com/viktor_pali/status/2063990889349804361",
-      "https://x.com/viktor_pali/status/2063990531206644045",
+      "https://x.com/viktor_pali/status/2063994513668952168",
+      "https://x.com/viktor_pali/status/2063859532078755973",
       "https://x.com/viktor_pali/status/2063990659283869940",
+      "https://x.com/viktor_pali/status/2063990531206644045",
       "https://x.com/viktor_pali/status/2063853747571470800",
+      "https://x.com/viktor_pali/status/2063990889349804361",
+      "https://x.com/viktor_pali/status/2063991031813611715",
       "https://x.com/viktor_pali/status/2063746947442475159",
       "https://x.com/viktor_pali/status/2063990937366176214"
     ],
     "2063781381021258026": [
       "https://x.com/geoffreylitt/status/2063781381021258026",
       "http://x.com/i/article/2063706797572227072",
-      "https://x.com/geoffreylitt/status/2063978460926591400",
-      "https://zillapi.com",
       "https://x.com/geoffreylitt/status/2063972563236073872",
       "https://x.com/geoffreylitt/status/2063784066709660017",
+      "https://x.com/geoffreylitt/status/2063978460926591400",
+      "https://zillapi.com",
       "https://x.com/geoffreylitt/status/2063972304267210819",
       "https://x.com/geoffreylitt/status/2063978917292032350"
     ],
     "2063840704892440976": [
       "https://x.com/disinfeqt/status/2063840704892440976",
       "https://x.com/disinfeqt/status/2063887526587486423",
-      "https://x.com/disinfeqt/status/2064020452289503740"
+      "https://x.com/disinfeqt/status/2064187151898792266"
     ],
     "2063846807810253118": [
       "https://x.com/allstarsaasfund/status/2063846807810253118",
@@ -46866,13 +46906,14 @@
     "2063865685558903149": [
       "https://x.com/mvanhorn/status/2063865685558903149",
       "http://x.com/i/article/2063850827694096385",
-      "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064012863367512094",
+      "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064010832170950884",
       "https://x.com/mvanhorn/status/2063866667881607559",
+      "https://x.com/mvanhorn/status/2063868012831428619",
       "https://x.com/mvanhorn/status/2064084739578032216",
       "https://x.com/mvanhorn/status/2064028299903574435",
-      "https://x.com/mvanhorn/status/2063868012831428619",
+      "https://x.com/mvanhorn/status/2064251068557750536",
       "https://x.com/mvanhorn/status/2064012892379480151",
       "https://x.com/mvanhorn/status/2064092740678475891",
       "https://x.com/mvanhorn/status/2064028346871316773",
@@ -46954,20 +46995,39 @@
     ],
     "2064098727867163124": [
       "https://x.com/dongxi_nlp/status/2064098727867163124",
-      "http://x.com/i/article/2064090102452621312"
+      "http://x.com/i/article/2064090102452621312",
+      "https://x.com/dongxi_nlp/status/2064216293318762696"
     ],
     "2064099819841577040": [
       "https://x.com/BrandonButch/status/2064099819841577040",
       "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
+    ],
+    "2064152622928728099": [
+      "https://x.com/Must_be_Ash/status/2064152622928728099",
+      "http://x.com/i/article/2063849005743050752",
+      "https://x.com/Must_be_Ash/status/2064179375688556639",
+      "https://x.com/Must_be_Ash/status/2064171015534674282"
     ],
     "2064156876821192980": [
       "https://x.com/9hills/status/2064156876821192980",
       "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg",
       "https://x.com/9hills/status/2064156903689891988",
       "https://www.langchain.com/blog/tuning-deep-agents-different-models",
-      "https://x.com/9hills/status/2064183114549883128"
+      "https://x.com/9hills/status/2064183114549883128",
+      "https://x.com/9hills/status/2064184365589131769",
+      "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+    ],
+    "2064216929397842327": [
+      "https://x.com/NathanFlurry/status/2064216929397842327",
+      "http://x.com/i/article/2064205612913963008",
+      "https://x.com/NathanFlurry/status/2064219158599143732",
+      "https://x.com/NathanFlurry/status/2064156010919633248"
+    ],
+    "2064221035734646916": [
+      "https://x.com/chenchengpro/status/2064221035734646916",
+      "https://x.com/chenchengpro/status/2063990991627886839"
     ]
   },
-  "updated_at": "2026-06-09T04:38:25Z",
+  "updated_at": "2026-06-09T08:41:38Z",
   "window": "recent"
 }
