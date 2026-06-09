@@ -6536,22 +6536,6 @@
       "title": "",
       "url": "http://x.com/i/article/2063992943619477504"
     },
-    "http://x.com/i/article/2064044221732892675": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2064044221732892675",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2064044221732892675/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKT1tnKXEAAxXgs?format=jpg&name=900x900)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064044693197885440)\n\nMost Developers Do Not Need Agent Loops Yet \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n·\n\n53m\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n2\n\n8\n\n[533](http://x.com/i/article/2064044221732892675/AlphaSignalAI/status/2064055529883029550/analytics)\n\n## \n\nThe patterns were documented in 2024\\. Here's who it pays off for, and the four conditions that decide.\n\n> In \\~9 mins: the four-condition test, what Anthropic documented back in 2024, who loses and why, the one thing that separates a working loop from an expensive one, and the minimum viable loop to build first.\n\nMost developers do not need to put their coding agent in a loop yet, even though the technique went viral this month.\n\nLoop engineering is building a system that prompts your agent on a schedule, instead of typing each prompt yourself.\n\nPeter Steinberger kicked off this round of hype on June 7 with one line: stop prompting coding agents, start designing loops that prompt them.\n\n[![](https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png)](http://x.com/i/article/2064044221732892675/steipete)\n\nPeter Steinberger ![🦞](https://abs.twimg.com/emoji/v2/svg/1f99e.svg)\n\n![](https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg)\n\n@steipete\n\n·\n\n[Jun 7](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627)\n\nHere’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.\n\n1.4K\n\n2.2K\n\n16K\n\n[5.3M](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627/analytics)\n\nIt pays off under four conditions: the task repeats, verification is automated, your token budget can absorb the waste, and the agent already has the tools a senior engineer would use. Miss one and the loop costs more than it returns.\n\n## \n\nWhat a loop actually does\n\nA loop finds the work, hands it to the agent, checks the result, records what happened, and decides the next move.\n\n[![Image](https://pbs.twimg.com/media/HKT5TXqW4AA6X03?format=jpg&name=small)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064048640407035904)\n\nAddy Osmani, who published a long post on the practice the same week, defines it plainly: loop engineering is replacing yourself as the person who prompts the agent, and building the system that does it instead.\n\nBoris Cherny, who runs Claude Code at Anthropic, said the same thing, quoted in Osmani's post: \"I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops.\"\n\nOsmani breaks a loop into six parts: automations that run on a schedule, worktrees that isolate parallel work, skills that store project knowledge, connectors that reach your tools, sub-agents that split writing from checking, and a state file that survives between runs.\n\nThe agent forgets each run. The file does not.\n\n## \n\nThe idea isn't new, the access is\n\nAnthropic described these patterns in December 2024.\n\nIts engineering post Building Effective Agents named the evaluator-optimizer loop (one model generates, another critiques, repeat) and the orchestrator-workers pattern (one model delegates to others), and defined an agent as \"typically just LLMs using tools based on environmental feedback in a loop.\"\n\nThe vocabulary going viral in 2026 was documented eighteen m",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2064044221732892675/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKT1tnKXEAAxXgs?format=jpg&name=900x900)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064044693197885440)\n\n**大多数开发者还不需要 Agent 循环**\n\n[![方形头像](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/i/article/2064044221732892675/AlphaSignalAI)\n\n·\n\n53分钟前\n\n关注\n\n点击关注 AlphaSignalAI\n\n2\n\n8\n\n[533](http://x.com/i/article/2064044221732892675/AlphaSignalAI/status/2064055529883029550/analytics)\n\n## \n\n这些模式在 2024 年就已记录在案。以下说明它适合谁，以及决定成败的四个条件。\n\n> 约 9 分钟阅读：四个条件测试、Anthropic 在 2024 年记录了什么、谁吃亏及原因、区分有效循环与昂贵循环的关键一点，以及应首先构建的最小可行循环。\n\n大多数开发者还不需要将他们的编码 agent 放入循环中，尽管这项技术本月已广泛传播。\n\n循环工程是构建一个系统，按计划自动提示你的 agent，而不是你手动输入每个提示。\n\nPeter Steinberger 在 6 月 7 日以一句话开启了这波热潮：停止手动提示编码 agent，开始设计循环来提示它们。\n\n[![](https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png)](http://x.com/i/article/2064044221732892675/steipete)\n\nPeter Steinberger ![🦞](https://abs.twimg.com/emoji/v2/svg/1f99e.svg)\n\n![](https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg)\n\n@steipete\n\n·\n\n[6月7日](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627)\n\n这是你每月的提醒：你不应该再手动提示编码 agent 了。你应该设计循环来提示你的 agent。\n\n1.4K\n\n2.2K\n\n16K\n\n[530万](http://x.com/i/article/2064044221732892675/steipete/status/2063697162748260627/analytics)\n\n它在四个条件下才有价值：任务可重复、验证已自动化、你的 token 预算能承受浪费、agent 已具备高级工程师使用的工具。缺少一个，循环的成本就会超过其回报。\n\n## \n\n循环的实际作用\n\n循环找到工作，将其交给 agent，检查结果，记录发生的情况，并决定下一步行动。\n\n[![图片](https://pbs.twimg.com/media/HKT5TXqW4AA6X03?format=jpg&name=small)](http://x.com/i/article/2064044221732892675/AlphaSignalAI/article/2064055529883029550/media/2064048640407035904)\n\nAddy Osmani 在同一周发布了一篇关于该实践的详细文章，他明确地定义：循环工程就是用你自己来替代提示 agent 的人，并构建一个系统来替代你完成这项工作。\n\nAnthropic 负责 Claude Code 的 Boris Cherny 也表达了同样的观点，该观点被引用在 Osmani 的文章中：\"我不再手动提示 Claude 了。我有循环在运行，它们提示 Claude 并决定该做什么。我的工作是编写循环。\"\n\nOsmani 将循环分解为六个部分：按计划运行的自动化、隔离并行工作的工作树、存储项目知识的技能、连接你工具的连接器、将编写与检查分离的子 agent，以及在运行之间持久化的状态文件。\n\nAgent 会忘记每次运行。但状态文件不会。\n\n## \n\n这个想法并不新鲜，新鲜的是可及性\n\nAnthropic 在 2024 年 12 月就描述了这些模式。\n\n其工程文章《构建有效 Agent》命名了评估者-优化者循环（一个模型生成，另一个模型批评，重复）和编排者-工作者模式（一个模型委托给其他模型），并将 agent 定义为\"通常只是基于环境反馈在循环中使用工具的 LLM\"。\n\n2026 年走红的词汇，在十八个月前就已记录在案。",
-      "text_excerpt_zh_hash": "9a35b2febddea36b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2064044221732892675"
-    },
     "http://x.com/i/article/2064058335205502976": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6597,6 +6581,32 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "http://x.com/i/article/2064090102452621312"
+    },
+    "http://x.com/i/article/2064149340298641408": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064149340298641408",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKVb67PbQAA7cFC?format=jpg&name=900x900)](http://x.com/agent%5Fwrapper/article/2064157228400341312/media/2064157072112173056)\n\nWhat Are Agent Loops, Really?\n\n[![](https://pbs.twimg.com/profile_images/2024262820892995584/7VeKiw-o_normal.jpg)](http://x.com/agent%5Fwrapper)\n\n[prateek](http://x.com/agent%5Fwrapper)\n\n[@agent\\_wrapper](http://x.com/agent%5Fwrapper)\n\n·\n\n10h\n\n·\n\nFollow\n\nClick to Follow agent\\_wrapper\n\n3\n\n10\n\n79\n\n[7.9K](http://x.com/agent%5Fwrapper/status/2064157228400341312/analytics)\n\nAgent \"loops\" are everywhere right now. Everyone from \n\n[@steipete](https://x.com/@steipete)\n\n to \n\n[@ThePrimeagen](https://x.com/@ThePrimeagen)\n\n has been talking about them.\n\n[![](https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png)](http://x.com/steipete)\n\nPeter Steinberger ![🦞](https://abs.twimg.com/emoji/v2/svg/1f99e.svg)\n\n![](https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg)\n\n@steipete\n\n·\n\n[Jun 7](http://x.com/steipete/status/2063697162748260627)\n\nHere’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.\n\n1.6K\n\n2.5K\n\n18K\n\n[6.9M](http://x.com/steipete/status/2063697162748260627/analytics)\n\nIn this article, I've tried to condense my understanding of agent loops based on building one of the most popular open source Agent IDEs. It's called Agent Orchestrator (\n\n[@aoagents](https://x.com/@aoagents)\n\n), and currently has ⭐7.5K Stars and \\~ 1K forks on Github. \n\n[@aoagents](https://x.com/@aoagents)\n\n gives you most of these loops out of the box, without lifting a finger.\n\n[![Image](https://pbs.twimg.com/media/HKVZe3YaIAAfJn4?format=png&name=small)](http://x.com/agent%5Fwrapper/article/2064157228400341312/media/2064154391016513536)\n\nHere's the thing most of that conversation is circling: prompting a coding agent one turn at a time is not the job. If you're hand-feeding an agent each instruction, reading its output, pasting in the error, and prompting again, you're doing the loop manually — you are the loop. The whole point is to design a system where the agent runs that cycle itself: discovering, executing, observing real results, and correcting until the goal is met.\n\nBut what does a real loop actually look like in practice? And what does it take to make loops reliable instead of expensive, noisy, or chaotic?\n\n# \n\nWhat a Loop Actually Is\n\nA loop is nothing exotic. It's the same thing a good developer already does every day:\n\nwrite code → get real feedback (tests, CI, review) → fix → repeat → and when it's done, pick up the next piece.\n\nThat's it. An agent loop is a persistent, iterative, goal-oriented version of that exact cycle:\n\n1. Understand the goal (and hold context around it)\n2. Execute (write code, use tools, make changes)\n3. Observe (get real feedback from the environment, not the model's own opinion)\n4. Reflect & correct (use that feedback to adjust)\n5. Repeat until success criteria are met — then move to new work.\n\nThe power is that you design the system once and the loop handles the repeated prompting, iteration, and self-correction. That's very different from:\n\n* One-shot prompting\n* Long back-and-forth conversations where you stay in the driver’s seat\n* Naive “just put the agent in a while(true) loop and hope for the best”\n\nMost people who try to \"add loops\" end up with expensive agents that mostly agree with themselves or spiral without making real progress. The difference is entirely in what the loop is allowed to push against.\n\n[![Image](https://pbs.twimg.com/media/HKVW3p0boAA2ZMv?format=jpg&name=small)](http://x.com/agent%5Fwrapper/article/2064157228400341312/media/2064151518337802240)\n\nThe basic cycle. Effective loops are powered by real signals from the environment — tests, visual verification, metrics, critics, human judgment, persis",
+      "title": "",
+      "url": "http://x.com/i/article/2064149340298641408"
+    },
+    "http://x.com/i/article/2064157304472154112": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064157304472154112",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKVeeI8WAAAIqDY?format=jpg&name=900x900)](http://x.com/robertcourson/article/2064161006373216269/media/2064159876108910592)\n\n/Loops, /goals, and long-running agents\n\n[![](https://pbs.twimg.com/profile_images/1978481556592160768/bbrbXFde_normal.jpg)](http://x.com/robertcourson)\n\n[Robert Courson](http://x.com/robertcourson)\n\n[@robertcourson](http://x.com/robertcourson)\n\n·\n\n10h\n\nFollow\n\nClick to Follow robertcourson\n\n2\n\n6\n\n64\n\n[4.6K](http://x.com/robertcourson/status/2064161006373216269/analytics)\n\nI’ve been thinking about this a lot while running bigger agent builds recently.\n\nThe tasks that finish in a useful state usually don’t succeed because the model is proportionally better. 9.8 times out of 10 it's because the structure around the goal is better.\n\nThe failure modes are weirdly consistent. Context gets diluted. One error turns into a restart. Earlier learnings disappear. Verification happens too late, or it doesn’t happen at all. And you end up babysitting every step because there isn’t enough structure holding the work together.\n\nThis is where my projects like supergoal and goalkeeper came from. I built them test some ideas around this, but the point is broader than one or two tools.\n\nIt’s about what seems to work when you’re trying to keep long-running work from slowly drifting into “mostly done” forever.\n\n## \n\nA goal needs more than a prompt\n\nA high-level goal is useful, but it usually isn’t enough for anything non-trivial.\n\nThe system still has to break the work down, remember constraints, track what changed, recover from failures, and decide when something is actually done. If all of that only lives in the conversation, it starts to drift pretty quickly.\n\nWhat helps is making the work explicit up front. (a contract if you will)\n\nBreak it into phases sized to the actual task. Maybe two phases for a small change. Maybe eight or twelve for a bigger build. Each phase should be checkable on its own. You should be able to look at the phase cold and know whether it worked.\n\nThe done criteria matter too. “The UI looks better” is not enough. “The build passes,” “this file exists,” “this command exits zero,” “this route returns the right shape” gives the loop something real to check.\n\nThat sounds obvious, but this is where a lot of long tasks fall apart. The work feels done for a while, then the next phase reveals that it was only kind of done.\n\n## \n\nThe loop matters\n\nThe loop that seems to work is simple:\n\n\\>Read the current state and the phase spec\n\n\\>Do the work\n\n\\>Capture evidence\n\n\\>Verify the result\n\n\\>Save anything non-obvious\n\n\\>Move on\n\nThe evidence part matters more than I expected. A summary from the agent is not proof. Command output, diffs, file listings, screenshots, test results, whatever shows what actually happened.\n\nWithout that, the next phase is trusting vibes.\n\nVerification is where drift starts. If every phase gets checked against something real, the whole task has a much better chance of staying clean. For code, that might mean the normal test/build commands plus cheap checks for obvious junk: debug prints, new TODOs, dead imports, broken formatting, etc.\n\nNone of that is fancy. It just catches a surprising amount before it spreads.\n\n## \n\nRecovery should not mean starting over\n\nLong tasks fail (that much is often unavoidable.) The important part is what happens next.\n\nA brittle loop treats failure as terminal or restarts from the beginning. That wastes the work that already succeeded and usually loses the context that would have helped fix it.\n\nA better loop has levels of recovery.\n\nFirst, retry with the actual failure context.\n\nIf that doesn’t work, generate a narrow fix for the thing that failed.\n\nIf that still fails, hand off with the full history so a person or another process can step in without reconstructing everything from scratch.\n\nMost failur",
+      "title": "",
+      "url": "http://x.com/i/article/2064157304472154112"
     },
     "http://x.com/i/article/2064205612913963008": {
       "cleaner_v": 2,
@@ -13669,6 +13679,21 @@
       "text_excerpt_zh": "",
       "title": "GitHub - reworkd/AgentGPT: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. · GitHub",
       "url": "https://github.com/reworkd/AgentGPT"
+    },
+    "https://github.com/robzilla1738/supergoal": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Plan and autonomously build a software task end-to-end. One ready-to-paste /goal, adaptive phase count, memory preload + writeback, 3-strike self-healing recovery. Works on Claude Code and Codex. - robzilla1738/supergoal",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/robzilla1738/supergoal",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/f070c4249d37085a19669279ae75572d48e2b4a3919775e286ed6295d37fe2ef/robzilla1738/supergoal"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - robzilla1738/supergoal: Plan and autonomously build a software task end-to-end. One ready-to-paste /goal, adaptive phase count, memory preload + writeback, 3-strike self-healing recovery. Works on Claude Code and Codex. · GitHub",
+      "url": "https://github.com/robzilla1738/supergoal"
     },
     "https://github.com/samanhappy/mcphub": {
       "content_type": "text/html; charset=utf-8",
@@ -30096,6 +30121,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
     },
+    "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg"
+    },
     "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -30110,19 +30149,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg"
     },
-    "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg": {
+    "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+        "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+      "url": "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -46853,10 +46892,10 @@
       "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
       "https://x.com/eng_khairallah1/status/2063636157666361649",
       "https://x.com/eng_khairallah1/status/2063638299760382309",
-      "https://x.com/eng_khairallah1/status/2063672183663288343",
       "https://x.com/eng_khairallah1/status/2063635029931209146",
-      "https://x.com/eng_khairallah1/status/2063640487115055604",
-      "https://x.com/eng_khairallah1/status/2063634722455228664"
+      "https://x.com/eng_khairallah1/status/2063672183663288343",
+      "https://x.com/eng_khairallah1/status/2063634722455228664",
+      "https://x.com/eng_khairallah1/status/2063640487115055604"
     ],
     "2063645563241844823": [
       "https://x.com/IBuzovskyi/status/2063645563241844823",
@@ -46899,16 +46938,16 @@
     "2063731230466834892": [
       "https://x.com/viktor_pali/status/2063731230466834892",
       "http://x.com/i/article/2063729870518341632",
-      "https://x.com/viktor_pali/status/2063736331071783188",
-      "https://x.com/viktor_pali/status/2063994513668952168",
       "https://x.com/viktor_pali/status/2063859532078755973",
-      "https://x.com/viktor_pali/status/2063990659283869940",
-      "https://x.com/viktor_pali/status/2063990531206644045",
-      "https://x.com/viktor_pali/status/2063853747571470800",
-      "https://x.com/viktor_pali/status/2063990889349804361",
+      "https://x.com/viktor_pali/status/2063994513668952168",
       "https://x.com/viktor_pali/status/2063991031813611715",
-      "https://x.com/viktor_pali/status/2063746947442475159",
-      "https://x.com/viktor_pali/status/2063990937366176214"
+      "https://x.com/viktor_pali/status/2063990889349804361",
+      "https://x.com/viktor_pali/status/2063990531206644045",
+      "https://x.com/viktor_pali/status/2063736331071783188",
+      "https://x.com/viktor_pali/status/2063990659283869940",
+      "https://x.com/viktor_pali/status/2063853747571470800",
+      "https://x.com/viktor_pali/status/2063990937366176214",
+      "https://x.com/viktor_pali/status/2063746947442475159"
     ],
     "2063781381021258026": [
       "https://x.com/geoffreylitt/status/2063781381021258026",
@@ -46936,14 +46975,14 @@
       "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064010832170950884",
       "https://x.com/mvanhorn/status/2063866667881607559",
-      "https://x.com/mvanhorn/status/2063868012831428619",
-      "https://x.com/mvanhorn/status/2064084739578032216",
-      "https://x.com/mvanhorn/status/2064028299903574435",
       "https://x.com/mvanhorn/status/2064251068557750536",
+      "https://x.com/mvanhorn/status/2064028299903574435",
+      "https://x.com/mvanhorn/status/2064084739578032216",
       "https://x.com/mvanhorn/status/2064012892379480151",
       "https://x.com/mvanhorn/status/2064092740678475891",
       "https://x.com/mvanhorn/status/2064028346871316773",
-      "https://x.com/mvanhorn/status/2064012838063243750"
+      "https://x.com/mvanhorn/status/2064012838063243750",
+      "https://x.com/mvanhorn/status/2063868012831428619"
     ],
     "2063888864436195388": [
       "https://x.com/AlphaSignalAI/status/2063888864436195388",
@@ -46951,14 +46990,14 @@
       "https://x.com/AlphaSignalAI/status/2063889311259611267",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
       "https://dora.dev/research/2025/dora-report/",
-      "https://x.com/AlphaSignalAI/status/2064055529883029550",
-      "http://x.com/i/article/2064044221732892675"
+      "https://x.com/AlphaSignalAI/status/2064101792103678340",
+      "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg"
     ],
     "2063907440509571354": [
       "https://x.com/neural_avb/status/2063907440509571354",
       "http://x.com/i/article/2063857990461968384",
-      "https://x.com/neural_avb/status/2064012370821918888",
       "https://x.com/neural_avb/status/2063986518876958895",
+      "https://x.com/neural_avb/status/2064012370821918888",
       "https://x.com/neural_avb/status/2063932479480975807"
     ],
     "2063928611619455268": [
@@ -46983,8 +47022,8 @@
       "https://x.com/_rohit_tiwari_/status/2063983267179872474",
       "https://github.com/analyticalrohit/llms-from-scratch",
       "https://x.com/_rohit_tiwari_/status/2064066219452588459",
-      "https://x.com/_rohit_tiwari_/status/2064025481536823385",
-      "https://x.com/_rohit_tiwari_/status/2064066114708287542"
+      "https://x.com/_rohit_tiwari_/status/2064066114708287542",
+      "https://x.com/_rohit_tiwari_/status/2064025481536823385"
     ],
     "2063983640535847093": [
       "https://x.com/amitiitbhu/status/2063983640535847093",
@@ -47006,8 +47045,8 @@
       "http://x.com/i/article/2059468354927108099",
       "https://x.com/cyrilXBT/status/2064041029838217377",
       "https://x.com/cyrilXBT/status/2064041920347668719",
-      "https://x.com/cyrilXBT/status/2064037796759650559",
-      "https://x.com/cyrilXBT/status/2064041008657051926"
+      "https://x.com/cyrilXBT/status/2064041008657051926",
+      "https://x.com/cyrilXBT/status/2064037796759650559"
     ],
     "2064060467975520341": [
       "https://x.com/mitsuhiko/status/2064060467975520341",
@@ -47017,16 +47056,28 @@
     "2064078883318825416": [
       "https://x.com/samueljmcd/status/2064078883318825416",
       "http://x.com/i/article/2064078110828470272",
-      "https://x.com/samueljmcd/status/2064086538971996349"
+      "https://x.com/samueljmcd/status/2064086538971996349",
+      "https://x.com/samueljmcd/status/2064307159622434859"
+    ],
+    "2064079731402637553": [
+      "https://x.com/PawelHuryn/status/2064079731402637553",
+      "https://x.com/PawelHuryn/status/2064201950980096078",
+      "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
     ],
     "2064098727867163124": [
       "https://x.com/dongxi_nlp/status/2064098727867163124",
       "http://x.com/i/article/2064090102452621312",
+      "https://x.com/dongxi_nlp/status/2064301127668060454",
       "https://x.com/dongxi_nlp/status/2064216293318762696"
     ],
     "2064099819841577040": [
       "https://x.com/BrandonButch/status/2064099819841577040",
       "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
+    ],
+    "2064101792103678340": [
+      "https://x.com/AlphaSignalAI/status/2064101792103678340",
+      "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg",
+      "https://x.com/AlphaSignalAI/status/2064105456541323754"
     ],
     "2064152622928728099": [
       "https://x.com/Must_be_Ash/status/2064152622928728099",
@@ -47039,9 +47090,17 @@
       "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg",
       "https://x.com/9hills/status/2064156903689891988",
       "https://www.langchain.com/blog/tuning-deep-agents-different-models",
-      "https://x.com/9hills/status/2064183114549883128",
-      "https://x.com/9hills/status/2064184365589131769",
-      "https://pbs.twimg.com/media/HKVyvjPaQAAZpdS.jpg"
+      "https://x.com/9hills/status/2064183114549883128"
+    ],
+    "2064157228400341312": [
+      "https://x.com/agent_wrapper/status/2064157228400341312",
+      "http://x.com/i/article/2064149340298641408"
+    ],
+    "2064161006373216269": [
+      "https://x.com/robertcourson/status/2064161006373216269",
+      "http://x.com/i/article/2064157304472154112",
+      "https://x.com/robertcourson/status/2064161264947884164",
+      "https://github.com/robzilla1738/supergoal"
     ],
     "2064216929397842327": [
       "https://x.com/NathanFlurry/status/2064216929397842327",
@@ -47052,8 +47111,11 @@
     "2064221035734646916": [
       "https://x.com/chenchengpro/status/2064221035734646916",
       "https://x.com/chenchengpro/status/2063990991627886839"
+    ],
+    "2064239881199477240": [
+      "https://x.com/Phoenixyin13/status/2064239881199477240"
     ]
   },
-  "updated_at": "2026-06-09T08:41:38Z",
+  "updated_at": "2026-06-09T12:15:34Z",
   "window": "recent"
 }
