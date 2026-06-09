@@ -68,6 +68,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Agent loops are not a default, even if it's viral..\n\nThey only work when the task repeats, the agent can run the code, and something inside the loop can reject bad output.\n\nMiss that gate and you are just automating token burn. https://t.co/Iuyrc08KxA",
+      "text_zh": "Agent loops 并非默认配置，即便它已经火遍全网。\n\n它们只在任务重复执行、agent 能运行代码、且循环内部能拒绝错误输出时才能正常工作。\n\n缺少这个把关机制，你只是在自动化地烧钱。https://t.co/Iuyrc08KxA",
+      "text_zh_hash": "2fc6143e2e05f737",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AlphaSignalAI/status/2064101792103678340"
     },
     {
@@ -151,6 +154,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I pointed Claude at 100 customer interviews.\n\n12 minutes later: 622 opportunities, clustered to 11 ranked needs, 3 working prototypes built against them. It read every one.\n\n113 agents did the reading. 1.95M tokens.\n\nThe code that coordinated them (decided each agent's job, merged the results, dropped the duplicates) spent zero model tokens. Not cheap. Zero.\n\nThat zero is the upgrade. Full guide ↓",
+      "text_zh": "我把 Claude 对准了 100 份客户访谈。\n\n12 分钟后：622 个机会点，聚类为 11 个排序后的需求，并据此构建了 3 个可运行的原型。它读完了每一份。\n\n113 个 agent 负责阅读。共 195 万 token。\n\n协调它们的代码（决定每个 agent 的任务、合并结果、去除重复项）消耗了零个模型 token。不便宜。零。\n\n这个零就是升级。完整指南 ↓",
+      "text_zh_hash": "faba839319956d25",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2064079731402637553"
     },
     {

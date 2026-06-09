@@ -48323,6 +48323,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容为YouTube页面底部标准法律声明与版权信息，无实际文章正文，按指令输出空字符串）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
