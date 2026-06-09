@@ -6440,6 +6440,20 @@
       "title": "",
       "url": "http://x.com/i/article/2063935271796723712"
     },
+    "http://x.com/i/article/2063992943619477504": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2063992943619477504",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2063992943619477504/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKTSyXHbgAAiOoz?format=jpg&name=900x900)](http://x.com/i/article/2063992943619477504/jhleath/article/2064006387454349411/media/2064006291882999808)\n\nThe file system is the agent\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/i/article/2063992943619477504/jhleath)\n\n[Hunter Leath](http://x.com/i/article/2063992943619477504/jhleath)\n\n[@jhleath](http://x.com/i/article/2063992943619477504/jhleath)\n\n·\n\n8h\n\nFollow\n\nClick to Follow jhleath\n\n5\n\n3\n\n117\n\n[10K](http://x.com/i/article/2063992943619477504/jhleath/status/2064006387454349411/analytics)\n\nA few weeks ago, we spoke about how the file system is the most important state management primitive of the AI era. As a result, the file system needs to evolve for this new reality. The first way that we spoke about it evolving was into the place where the agent can run code (for the first time, in a serverless way), eliminating the need for sandboxes as part of the agent stack. It turns out that this isn't quite radical enough. Today, I want to talk about how the file system actually \\*becomes\\* the agent itself.\n\nSandboxes\n\nFirst, on sandboxes. My prediction is that file systems begin to be seen less as storage libraries for organizing data on a hard drive (think XFS/ZFS), and closer to services which are offered to agents as tools. For example, if you build a file system that exports APIs like getFile, writeFile, searchFiles, and runContainer -- as consumable tools that different AI frameworks can use -- then you actually eliminate the need for agents to have sandboxes, because the file system itself already contains the primitives that are needed to run untrusted code and consistently show the same data on, for example, a web UI.\n\n[![Image](https://pbs.twimg.com/media/HKTIBa3akAAYSn0?format=png&name=small)](http://x.com/i/article/2063992943619477504/jhleath/article/2064006387454349411/media/2063994455959703552)\n\nFundamentally, the problem with thinking about a \"sandbox provider\" as a separate part of the stack is that it: (a) becomes a resource that you need to manage explicitly \\[when do you spin it up in the conversation? when do you spin it down?\\] and (b) it becomes a new data island in your stack, that you need to worry about getting your data into and out of.\n\nThis has been a really exciting development, and releasing \n\n[Serverless Execution](https://docs.archil.com/compute/serverless-execution)\n\n has been a breath of fresh air for agent teams who are overwhelmed with the complexity needed to get a production-level agent working.\n\nHowever, there's a key problem with Serverless Execution that comes up over and over again when we talk to builders: where does the system that actually \\*invokes\\* these commands run? Our users have been struggling to slot in other services -- if Archil is the serverless sandbox, does the agent run in Render? Does it run in \n\n[Exe.dev](http://x.com/i/article/2063992943619477504//Exe.dev)\n\n? Does it run in a different sandbox provider?\n\nWe hate for our users to need to deal with these kinds of questions, and so we set out to ask: what does a serverless agent look like. Building a serverless product is harder than a traditional product because you need to abstract away the inputs and outputs of the service, so we had to talk to the people who were building the best agents to get an understanding of what \\*they\\* did: folks like Clay, Browserbase, and Wordware.\n\nWe're pretty excited about what we found.\n\nWhat is an agent?\n\nThe first thing that you do when you're building an agent is lay out the context that you want that agent to have access to. Agents are the first kind of application which needs access to a breadth of different data sources so that it can synthesize insights across those data sources. This context could be",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2063992943619477504"
+    },
     "http://x.com/i/article/2064044221732892675": {
       "cleaner_v": 2,
       "content_type": "",
@@ -29884,19 +29898,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
     },
-    "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg": {
+    "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
+        "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
+      "url": "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
     },
     "https://pbs.twimg.com/media/HKTchLNbkAAyYYX.jpg": {
       "cleaner_v": 2,
@@ -46335,8 +46349,8 @@
       "https://x.com/eng_khairallah1/status/2063545603955785778",
       "https://x.com/eng_khairallah1/status/2063272860219809914",
       "https://x.com/eng_khairallah1/status/2063276208633073841",
-      "https://x.com/eng_khairallah1/status/2063279144201564342",
       "https://x.com/eng_khairallah1/status/2063273328006328721",
+      "https://x.com/eng_khairallah1/status/2063279144201564342",
       "https://x.com/eng_khairallah1/status/2063278557204517113",
       "https://x.com/eng_khairallah1/status/2063276229172597193"
     ],
@@ -46461,8 +46475,8 @@
       "https://x.com/rileywestreel/status/2063351669551677564",
       "https://x.com/rileywestreel/status/2063379584662307173",
       "https://x.com/rileywestreel/status/2063349751756497029",
-      "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063337222997209550",
+      "https://x.com/rileywestreel/status/2063335359941841022",
       "https://x.com/rileywestreel/status/2063360814132736079"
     ],
     "2063336153630011728": [
@@ -46519,8 +46533,8 @@
       "http://x.com/i/article/2063400453447303168",
       "https://x.com/hezhiyan7/status/2063424625649094743",
       "https://x.com/hezhiyan7/status/2063492579824734436",
-      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063491891455508605",
+      "https://x.com/hezhiyan7/status/2063461291138978260",
       "https://x.com/hezhiyan7/status/2063523802844418307",
       "https://x.com/hezhiyan7/status/2063433856083227071",
       "https://x.com/hezhiyan7/status/2063499575416209799",
@@ -46560,18 +46574,18 @@
       "https://x.com/suraj_sharma14/status/2063617204986478829",
       "https://x.com/suraj_sharma14/status/2063913103901999489",
       "https://x.com/suraj_sharma14/status/2063913515157749856",
-      "https://x.com/suraj_sharma14/status/2063913300262539518",
       "https://x.com/suraj_sharma14/status/2063914153706926549",
+      "https://x.com/suraj_sharma14/status/2063913300262539518",
       "https://x.com/suraj_sharma14/status/2063774037508329701",
       "https://x.com/suraj_sharma14/status/2063773583915266088",
       "https://x.com/suraj_sharma14/status/2063773288334328236",
       "https://x.com/suraj_sharma14/status/2063913801473487000",
       "https://x.com/suraj_sharma14/status/2063913929605263403",
       "https://x.com/suraj_sharma14/status/2063914038061662334",
-      "https://x.com/suraj_sharma14/status/2063914285764587900",
       "https://x.com/suraj_sharma14/status/2063773874945397211",
+      "https://x.com/suraj_sharma14/status/2063914285764587900",
       "https://x.com/suraj_sharma14/status/2063773449374642302",
-      "https://x.com/suraj_sharma14/status/2063913642710675570",
+      "https://x.com/suraj_sharma14/status/2063914614774263940",
       "https://x.com/suraj_sharma14/status/2063914427574059221"
     ],
     "2063602634854982113": [
@@ -46595,14 +46609,14 @@
       "https://x.com/mvanhorn/status/2063624356484501832",
       "http://x.com/i/article/2063492603706740736",
       "https://x.com/mvanhorn/status/2063705494355861997",
-      "https://x.com/mvanhorn/status/2063733723032633612",
       "https://x.com/mvanhorn/status/2063653353247347152",
-      "https://x.com/mvanhorn/status/2063868075586560045",
-      "https://x.com/mvanhorn/status/2063625708447174839",
       "https://x.com/mvanhorn/status/2063633081450541154",
-      "https://x.com/mvanhorn/status/2063795942193877095",
+      "https://x.com/mvanhorn/status/2063733723032633612",
+      "https://x.com/mvanhorn/status/2063625708447174839",
+      "https://x.com/mvanhorn/status/2063630793243799998",
+      "https://x.com/mvanhorn/status/2063868075586560045",
       "https://x.com/mvanhorn/status/2063809947138457838",
-      "https://x.com/mvanhorn/status/2063630793243799998"
+      "https://x.com/mvanhorn/status/2063795942193877095"
     ],
     "2063633896517022014": [
       "https://x.com/eng_khairallah1/status/2063633896517022014",
@@ -46613,16 +46627,16 @@
       "https://x.com/eng_khairallah1/status/2063638299760382309",
       "https://x.com/eng_khairallah1/status/2063635029931209146",
       "https://x.com/eng_khairallah1/status/2063672183663288343",
-      "https://x.com/eng_khairallah1/status/2063640487115055604",
-      "https://x.com/eng_khairallah1/status/2063634722455228664"
+      "https://x.com/eng_khairallah1/status/2063634722455228664",
+      "https://x.com/eng_khairallah1/status/2063640487115055604"
     ],
     "2063645563241844823": [
       "https://x.com/IBuzovskyi/status/2063645563241844823",
       "http://x.com/i/article/2063630561466265600",
-      "https://x.com/IBuzovskyi/status/2064068817609687279",
       "https://x.com/IBuzovskyi/status/2063747555398176972",
       "https://x.com/IBuzovskyi/status/2063762007984160784",
       "https://x.com/IBuzovskyi/status/2064003531481219524",
+      "https://x.com/IBuzovskyi/status/2064068817609687279",
       "https://x.com/IBuzovskyi/status/2063946410475614595"
     ],
     "2063671722096886128": [
@@ -46659,8 +46673,8 @@
       "http://x.com/i/article/2063729870518341632",
       "https://x.com/viktor_pali/status/2063736331071783188",
       "https://x.com/viktor_pali/status/2063994513668952168",
-      "https://x.com/viktor_pali/status/2063990659283869940",
       "https://x.com/viktor_pali/status/2063859532078755973",
+      "https://x.com/viktor_pali/status/2063990659283869940",
       "https://x.com/viktor_pali/status/2063990531206644045",
       "https://x.com/viktor_pali/status/2063990889349804361",
       "https://x.com/viktor_pali/status/2063853747571470800",
@@ -46682,7 +46696,8 @@
     "2063840704892440976": [
       "https://x.com/disinfeqt/status/2063840704892440976",
       "https://x.com/disinfeqt/status/2063887526587486423",
-      "https://x.com/disinfeqt/status/2064020452289503740"
+      "https://x.com/disinfeqt/status/2063969590947053914",
+      "https://pbs.twimg.com/media/HKSxYR3bUAAf4CM.jpg"
     ],
     "2063846807810253118": [
       "https://x.com/allstarsaasfund/status/2063846807810253118",
@@ -46694,11 +46709,13 @@
       "https://x.com/mvanhorn/status/2064012863367512094",
       "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064010832170950884",
+      "https://x.com/mvanhorn/status/2064084739578032216",
       "https://x.com/mvanhorn/status/2063866667881607559",
       "https://x.com/mvanhorn/status/2063868012831428619",
+      "https://x.com/mvanhorn/status/2064092740678475891",
       "https://x.com/mvanhorn/status/2064012892379480151",
-      "https://x.com/mvanhorn/status/2064028346871316773",
       "https://x.com/mvanhorn/status/2064028299903574435",
+      "https://x.com/mvanhorn/status/2064028346871316773",
       "https://x.com/mvanhorn/status/2064012838063243750"
     ],
     "2063888864436195388": [
@@ -46715,9 +46732,7 @@
       "http://x.com/i/article/2063857990461968384",
       "https://x.com/neural_avb/status/2064012370821918888",
       "https://x.com/neural_avb/status/2063986518876958895",
-      "https://x.com/neural_avb/status/2063932479480975807",
-      "https://x.com/neural_avb/status/2063957500114960592",
-      "https://pbs.twimg.com/media/HKSlvOSbQAEwSUQ.jpg"
+      "https://x.com/neural_avb/status/2063932479480975807"
     ],
     "2063928611619455268": [
       "https://x.com/0x_rody/status/2063928611619455268",
@@ -46732,8 +46747,14 @@
     "2063939753112682770": [
       "https://x.com/creatorpascal/status/2063939753112682770",
       "http://x.com/i/article/2054556222360084480"
+    ],
+    "2064006387454349411": [
+      "https://x.com/jhleath/status/2064006387454349411",
+      "http://x.com/i/article/2063992943619477504",
+      "https://x.com/jhleath/status/2064064587616682350",
+      "https://x.com/jhleath/status/2064077269338099882"
     ]
   },
-  "updated_at": "2026-06-08T19:35:22Z",
+  "updated_at": "2026-06-09T00:15:32Z",
   "window": "recent"
 }
