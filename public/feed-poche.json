@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 415,
+      "count": 416,
       "name": "Development"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 313,
+      "count": 314,
       "name": "Articles"
     },
     {
@@ -38,8 +38,100 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2257,
+  "item_count": 2259,
   "items": [
+    {
+      "article_image_urls": [
+        "https://www.apple.com/v/apple-intelligence/h/images/meta/apple_intelligence__bj33bjkp28k2_og.png?202606081607",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_1__ecjmz3usdmc2_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_2__gerwxrq3yeuu_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_middle_hw__b8z4alvpx25e_large.png",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_middle_endframe__bteidc7homeu_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_middle_startframe__dczhdiwp5jma_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_3__flsbjtf675ua_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/welcome/hero_4__cfgnddokqmmq_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/highlights/siri_endframe__b081tymr1agi_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/highlights/siri_startframe__bxzyr6qh3yya_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/highlights/siri_conversations_endframe__bwb4dpudlz1e_large.jpg",
+        "https://www.apple.com/v/apple-intelligence/h/images/overview/highlights/siri_conversations_startframe__fsc4piyp6j6u_large.jpg"
+      ],
+      "article_text": "Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Overview iOS macOS iPadOS watchOS visionOS Apple Intelligence Apple Intelligence and Siri Introducing Siri AI. Truly helpful. Truly yours. New Apple Intelligence features coming this fall. Siri AI coming in English later this year. Introducing the next generation of Apple Intelligence and Siri. Truly helpful AI that’s centered around you and your needs. Integrated into your apps, grounded in your context, and private at every step. Coming later this year. Explore what’s new for Apple Intelligence. New reimagined Siri Siri AI Apple Intelligence in apps Visual Intelligence Photo editing Write with Siri New Siri AI. An even more capable AI assistant with expanded intelligence to be more helpful every day. 1 Type or talk naturally with Siri AI to find what you need and get more done. Next-generation Apple Intelligence enhances the apps you use most — like Photos, Messages, and Safari. 2 Search and take action with Visual Intelligence, now on even more devices — iPad, Mac, and Apple Vision Pro. 3 Transform your photos with easy-to-use AI editing tools like Spatial Reframing, Extend, and Clean Up. Write with Siri virtually anywhere you type — compose, edit, and send messages. Siri AI Your AI assistant. More personal. More powerful. Siri AI is powered by Apple Intelligence and more helpful than ever. 1 Get more done every day with richer answers, natural conversations, and a new, dedicated app. Siri AI coming in English later this year. Just ask Siri. Powered by Apple Intelligence, Siri AI is your conversational AI assistant with entirely new capabilities. Ask open-ended questions, brainstorm ideas for work or creative projects, and engage in natural, back-and-forth conversations. Siri understands your personal context. Siri AI can find relevant answers to what you’re looking for just by asking. Search for a photo from years ago, easily locate an email buried in your inbox, or pull up the details from a note you saved. Take action in more apps. Siri AI can take actions in apps like Messages, Music, Reminders, and more based on what you’re doing in the moment. Quickly edit a message you just sent or add a song you hear in the car to your workout playlist. Tap into broad world knowledge. Ask about virtually any topic that’s on your mind, from important facts to recipes and travel recommendations. Siri AI can reference information online to give you detailed, up-to-date insights. Introducing the Siri app. A dedicated app brings together all your conversations in one place, so you can ask a question on your iPhone and pick up where you left off on your iPad. You can also pin conversations for easy access or start a new one. Customize how Siri sounds. Pick a voice, then customize expressivity and pace until it clicks for you. 4 Siri AI in CarPlay. On the road, ask Siri which trailhead your friend suggested and get the answer instantly. Siri in CarPlay keeps you informed without taking your hands off the wheel. 5 Visual Intelligence Learn about what’s in front of you and on your screen. Visual Intelligence is even more helpful in the moment, now in the camera and coming to Mac and iPad. 3 Siri mode in Camera. Siri mode and Visual Intelligence let you search, ask questions, and take action based on what’s around you with just a tap. New smart actions. Visual Intelligence makes it easy to split the bill with friends when you get the check, get nutritional information on a dish in front of you, quickly import a card to Apple Wallet, and more. Ask Siri about what’s in front of you. Get information, take action, and search visually using the content on your screen. Visual Intelligence with Siri on Mac. Take a screenshot of what’s on your display, like an image or a PDF, and Visual Intelligence lets you search and take action. Visual Intelligence with Siri on iPad. Ask Siri AI about virtually anything on your display with a screenshot. Just tap the i",
+      "article_title_extracted": "Apple Intelligence and Siri - Apple",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-09T04:15:41.772480Z",
+      "description": "Next-generation Apple Intelligence and Siri AI bring helpful features to iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27.",
+      "domain": "www.apple.com",
+      "embed_type": "",
+      "id": "k177bmx8wcc9jv0kw5d0ydnfsh88be83",
+      "og_image_url": "https://www.apple.com/v/apple-intelligence/h/images/meta/apple_intelligence__bj33bjkp28k2_og.png?202606081607",
+      "recommended_at": "2026-06-09T04:37:57.065000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "apple-intelligence",
+        "artificial-intelligence",
+        "siri"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-09T04:37:57.065000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Apple Intelligence and Siri - Apple",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://www.apple.com/v/os/f/images/meta/os_overview__emo3aqgxclg2_og.png?202606081607",
+        "https://www.apple.com/v/os/f/images/shared/welcome/hero_endframe__bibjo73favoy_xlarge.jpg",
+        "https://www.apple.com/v/os/f/images/shared/welcome/hero_startframe__dbgkehmqe9me_xlarge.jpg",
+        "https://www.apple.com/v/os/f/images/overview/highlights/highlights_siri_endframe__gmyt74ira1ua_large.jpg",
+        "https://www.apple.com/v/os/f/images/overview/highlights/highlights_siri_startframe__e2rbp57wdc4m_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_siri_conversations_endframe__d56qnw2oz22q_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_siri_conversations_startframe__bi80u3hb1nau_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_reframe_endframe__bh8l2culn08y_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_reframe_startframe__c36n2m8yrk4m_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_visual_intelligence_endframe__e8c8psjoo1qq_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/highlights_visual_intelligence_startframe__bl72dqckqbxy_large.jpg",
+        "https://www.apple.com/v/os/f/images/shared/highlights/child_safety__ehsqv3z433e6_large.jpg"
+      ],
+      "article_text": "Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Overview iOS macOS iPadOS watchOS visionOS Apple Intelligence OS Overview Introducing Siri AI. Truly helpful. Truly yours. iOS 27, iPadOS 27, macOS 27, watchOS 27, and visionOS 27 coming this fall. Siri AI coming in English later this year. Explore what’s new across platforms. iOS 27, iPadOS 27, macOS 27, watchOS 27, and visionOS 27 coming this fall. New Siri AI Talk naturally with Siri AI Next-generation Apple Intelligence in apps Visual Intelligence in more devices Child Safety OS improvements New Siri AI. An even more capable AI assistant with expanded intelligence to be more helpful every day. 1 Type or talk naturally with Siri AI to find what you need and get more done. Next-generation Apple Intelligence enhances the apps you use most — like Photos, Messages, and Safari. 2 Search and take action with Visual Intelligence, now on even more devices — iPad, Mac, and Apple Vision Pro. 3 New, intuitive child safety features help make it easier for parents to protect kids on their devices. An expansive set of improvements across platforms makes your experience even more responsive and delightful. Siri AI Your AI assistant. More personal. More powerful. Siri AI is powered by Apple Intelligence and more helpful than ever. 1 Get more done every day with richer answers, natural conversations, and a new, dedicated app. Siri AI coming in English later this year. Just ask Siri AI. Powered by Apple Intelligence, Siri AI is your conversational AI assistant with entirely new capabilities. Ask open-ended questions, brainstorm ideas for work or creative projects, and engage in natural, back-and-forth conversations. Coming to compatible iPhone, iPad, Mac, Apple Watch, Apple Vision Pro Siri understands your personal context. Siri AI can find relevant answers to what you’re looking for just by asking. Search for a photo from years ago, easily locate an email buried in your inbox, or pull up the details from a note you saved. Coming to compatible iPhone, iPad, Mac, Apple Watch, Apple Vision Pro Take action in more apps. Siri AI can take actions in apps like Messages, Music, Reminders, and more based on what you’re doing in the moment. Quickly edit a message you just sent or add a song you hear in the car to your workout playlist. Coming to compatible iPhone, iPad, Mac, Apple Watch, Apple Vision Pro Tap into broad world knowledge. Ask about virtually any topic that’s on your mind, from important facts to recipes and travel recommendations. Siri AI can reference information online to give you detailed, up-to-date insights. Coming to compatible iPhone, iPad, Mac, Apple Watch, Apple Vision Pro Introducing the Siri app. A dedicated app brings together all your conversations in one place, so you can ask a question on your iPhone and pick up where you left off on your iPad. You can also pin conversations for easy access or start a new one. Coming to compatible iPhone, iPad, Mac, Apple Watch, Apple Vision Pro Visual Intelligence in more places. Visual Intelligence with Siri AI expands to iPad, Mac, and Apple Vision Pro. 3 Search, ask questions, and take action using the content on your screen or what you see with Apple Vision Pro. And with Siri mode integrated into iPhone Camera, you can use Visual Intelligence to learn more about what’s around you with just a tap. Coming to compatible iPhone, iPad, Mac, Apple Vision Pro Customize how Siri sounds. Pick a voice, then customize expressivity and pace until it clicks for you. 4 Coming to compatible iPhone, iPad, Mac, Apple Vision Pro Write with Siri virtually anywhere you type. Siri AI can now generate a draft from scratch or provide feedback on what you’ve written. Just describe what you need in your own words. And in Messages and Mail, Siri AI can match your writing style, punctuation, and tone — so you sound like you. Coming to compatible iPhone, iPad, Mac, Apple Vision Pro Apple Intelligence in apps Helpful",
+      "article_title_extracted": "OS - Top OS Features - Apple",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-09T04:09:35.105004Z",
+      "description": "All-new Siri AI powered by Apple Intelligence and helpful features across iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27.",
+      "domain": "www.apple.com",
+      "embed_type": "",
+      "id": "k178f7r27m5ra7nf8wjeychbf988bbk9",
+      "og_image_url": "https://www.apple.com/v/os/f/images/meta/os_overview__emo3aqgxclg2_og.png?202606081607",
+      "recommended_at": "2026-06-09T04:14:11.772000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "apple",
+        "operating-systems",
+        "apple-intelligence"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-09T04:14:11.772000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "OS - Top OS Features - Apple",
+      "url": "https://www.apple.com/os/",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://static.dinehq.com/uploads/reintroducing-moodr.webp?image_process=resize,w_1200/format,jpg",
@@ -100210,7 +100302,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2101,
+      "count": 2103,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -100246,5 +100338,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-08T22:26:59.247445Z"
+  "updated_at": "2026-06-09T04:50:06.187375Z"
 }
