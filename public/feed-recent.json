@@ -1359,6 +1359,32 @@
       "title": "Commander - The Command Center for Coding Agents",
       "url": "http://CommanderAI.app"
     },
+    "http://Juneoven.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Looking for the best cooking results? The June Oven is a do-it-all smart convection oven that makes cooking perfectly easy.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://juneoven.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/1324/8895/files/June_logo_150px_2x_Shopify_email.png?height=628&pad_color=fff&v=1613160642&width=1200",
+        "https://juneoven.com/cdn/shop/files/june-happiness_{width}x.jpg?v=1689971950",
+        "https://juneoven.com/cdn/shop/files/june-happiness_800x.jpg?v=1689971950",
+        "https://juneoven.com/cdn/shop/files/256_convection-bake-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif",
+        "https://juneoven.com/cdn/shop/files/256_air-fry-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_grill-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_roast-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_slow-cook-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_dehydrate-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_toast-animation_2_160x.gif?v=1615320001",
+        "https://juneoven.com/cdn/shop/files/256_reheat-animation_2_160x.gif?v=1615320001"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "June Oven: 12-in-1 Countertop Convection Oven",
+      "url": "http://Juneoven.com"
+    },
     "http://Kimi.com": {
       "content_type": "text/html; charset=utf-8",
       "description": "Try Kimi K2.6 to build stunning, full-stack websites, use Agent Swarm for massive tasks, turn documents into reusable skills, and explore Claw Groups preview for agent teamwork.",
@@ -6630,6 +6656,33 @@
       "title": "",
       "url": "http://x.com/i/article/2064205612913963008"
     },
+    "http://x.com/i/article/2064264218858164224": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064264218858164224",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKW-VyqboAAWVhO?format=jpg&name=900x900)](http://x.com/alokbishoyi97/article/2064281952631525741/media/2064265285805514752)\n\nSelf-Evolving Autoresearch Workflow Loops \n\n[![](https://pbs.twimg.com/profile_images/1973703840215011329/IF-jbFJ__normal.jpg)](http://x.com/alokbishoyi97)\n\n[Alok Bishoyi](http://x.com/alokbishoyi97)\n\n[@alokbishoyi97](http://x.com/alokbishoyi97)\n\n·\n\n5h\n\nFollow\n\nClick to Follow alokbishoyi97\n\n3\n\n27\n\n152\n\n[13K](http://x.com/alokbishoyi97/status/2064281952631525741/analytics)\n\nIn this article we explain how we ported evo's autoresesarch loop to use workflows and then also made it dynamic.\n\n  \nOn June 2 Anthropic shipped\n\n[ dynamic workflows in Claude Code](https://code.claude.com/docs/en/workflows)\n\n: Claude writes a small JavaScript program on the fly that spawns and coordinates subagents. The coordination runs as code; the model does the judgment. The thing to take away is that orchestration itself moved off the model's decison and can now by described as code. h/t \n\n[@trq212](https://x.com/@trq212)\n\n's \n\n[writeup](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code)\n\n[![Image](https://pbs.twimg.com/media/HKXJJvka8AAe66Q?format=jpg&name=small)](http://x.com/alokbishoyi97/article/2064281952631525741/media/2064277173444472832)\n\n## \n\nwhat evo is\n\nevo is an autoresearch orchestrator. You give it a system, a definition of \"better,\" and a budget. It generates hypotheses, runs each one in its own isolated workspace, scores it, and keeps a tree of attempts - extending what works, pruning what doesn't - while an auditor checks every accepted change so the optimizer can't game the metric. \n\n[Open source](https://github.com/evo-hq/evo)\n\n; runs on Claude Code, Codex, Cursor, and others.\n\n## \n\nwhy we moved the loop onto workflows\n\nThe loop used to be orchestrated in-context, as one long agent run holding the whole plan: which phase comes next, how many experiments to launch, when to stop. evo does autoresearch in an opinionated way, and at every step the agent has to follow that method and drive the CLI we ship alongside it. Over a long autoresearch run, getting the agent to adhere to all of that was tricky. Prompt and instruction adherence is unreliable on long-horizon tasks: across dozens of rounds the standing rules (run this phase, use this CLI command, dedupe the briefs, keep the gate strict etc) quietly stop happening, and the longer a single context runs, the less it holds.\n\nMoving the loop onto a dynamic workflow fixes that at the root. The method is the code now: the phases, the fan-out width, the stopping rule, the gates, and the CLI calls are part of the script, deterministic and the same on round 1 and round 1000\\. Adherence stops being something the model has to remember. Every step is a fresh, scoped subagent with one job and a clean context, so there's nothing to drift. The model does judgment; the code does coordination.\n\n## \n\nwhat the evo autoresearch workflow runs: one round\n\nEach round of the optimize loop walks the same six steps, in code:\n\n[![Image](https://pbs.twimg.com/media/HKXJcPsacAAHoh5?format=jpg&name=small)](http://x.com/alokbishoyi97/article/2064281952631525741/media/2064277491305574400)\n\n* Orient: Read the experiment tree: best score, the ceiling, the open frontier. Take the top width frontier nodes as this round's parents.\n* Scan: Agents comb the evaluated nodes in parallel for what's working and what's failing, while an aggregate agent looks for patterns across the whole tree.\n* Ideate: On a stall, three research agents fire at once: one extrapolates the best branch, one dissects the failures, one reads the literature and the web.\n* Brief. A writer folds the scan findings, the patterns, and the ideas into concrete experiment briefs, then dedupes them.\n* Fan-out. One lane per brief, in parallel. Each lan",
+      "title": "",
+      "url": "http://x.com/i/article/2064264218858164224"
+    },
+    "http://x.com/i/article/2064331718723579904": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064331718723579904",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKYBui0XMAA2-Pa?format=jpg&name=900x900)](http://x.com/creatorpascal/article/2064347161903378727/media/2064339378327990272)\n\nThe Anti-Guru Bet\n\n[![](https://pbs.twimg.com/profile_images/2051663422199140356/CvNNOAyx_normal.jpg)](http://x.com/creatorpascal)\n\n[Pascal](http://x.com/creatorpascal)\n\n[@creatorpascal](http://x.com/creatorpascal)\n\n·\n\n1h\n\nFollow\n\nClick to Follow creatorpascal\n\n21\n\n22\n\n[1.4K](http://x.com/creatorpascal/status/2064347161903378727/analytics)\n\n## \n\nAnd why this bet is the entire reason I'm writing 30 essays in 30 days (the answer isn't what you think)\n\n  \nI used to believe the fastest way to build a name for yourself was to prove you'd already won.\n\nMove to a flashy city, post the view from your apartment, build a course teaching people how to replicate the outcome you're still figuring out yourself. The formula worked. Perfectly. And that's what bothered me most about it. It worked because the internet runs on aspiration, and aspiration is the easiest emotion to package into a product. You find someone who is where you were eighteen months ago, you reverse-engineer the gap between their current life and the photo you just posted, and you sell the bridge.\n\nI did this. \n\nI moved to Dubai after succeeding with my Notion template business. I used the skyline as a backdrop for my Instagram reels. I launched a course for beginners who wanted to build an online income. And here's the part I don't hear enough creators say out loud: it sold well, and yet, I still didn't go all in on it because something about the transaction left me hollow, and I couldn't explain why for almost two years.\n\nA friend asked me yesterday what the end goal of this 30-article challenge really is. The deeper play. He understands me well enough to know that I always have a plan for what I'm doing. So... what's the strategic outcome of publishing a long-form article every day for a month on an account that could just as easily post \"10 tools to make money\" and grow faster?\n\nThe honest answer landed in my chest before it reached my mouth: \n\nI want to be known for how I think.\n\nThat sentence is going to sound egotistical to some people and embarrassingly simple to others. But if you sit with it long enough, you'll realize it's a fundamentally different ambition than anything the creator economy usually rewards and it changes every downstream decision about what you build, who you serve, and what you refuse to sell.\n\nLet me explain.\n\n## \n\nThe \"guru model\" is a trap disguised as a business model\n\n> \"The worst thing that can happen to a man who already has a pseudoself is to be given more money.\" — James Baldwin\n\nThere is a well-worn playbook in the creator economy, and you've seen it a thousand times even if you've never named it. Someone gets a result: loses 30 pounds, makes their first $5K online, lands a remote job, whatever it is and within six months they're selling a course on how to get that same result.\n\nThe economics look clean on paper:\n\n1. You document your journey publicly\n2. You attract people who want the same outcome\n3. You package the process into a product\n4. You sell the product to the audience you've already built\n\nThat's four steps. A child could draw this funnel on a napkin. And the reason it dominates the internet is because it genuinely works at scale. There will always be more people at step zero than at step four, which means there will always be demand for the bridge.\n\nBut here's the part that nobody tells you until you're already deep inside this type of machine: the \"guru model\" traps you in the version of yourself that made the sale.\n\nThe moment your income depends on you being \"the person who figured out X,\" your identity calcifies around that single insight. You can't evolve publicly without threatening your revenue and you can't admit that you've changed your",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2064331718723579904"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -6947,6 +7000,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Alignment Research Blog",
       "url": "https://alignment.openai.com/"
+    },
+    "https://alphasignal.ai/newsletter": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://alphasignal.ai/newsletter",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://alphasignal.ai/newsletter"
     },
     "https://ampcode.com/news/drop-the-neo": {
       "cleaner_v": 2,
@@ -30169,6 +30236,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
     },
+    "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -46861,7 +46942,7 @@
       "https://x.com/suraj_sharma14/status/2063617173013287267"
     ],
     "2063602634854982113": [
-      "https://x.com/atrekovas/status/2063602634854982113",
+      "https://x.com/wandermist/status/2063602634854982113",
       "http://x.com/i/article/2063582854215266304"
     ],
     "2063606029146034375": [
@@ -46874,9 +46955,9 @@
       "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg",
       "https://x.com/sairahul1/status/2064186560434884612",
       "https://x.com/sairahul1/status/2063686646957306029",
-      "https://x.com/sairahul1/status/2063668940585541801",
       "https://x.com/sairahul1/status/2063625392083341332",
-      "https://x.com/sairahul1/status/2063948495602831664"
+      "https://x.com/sairahul1/status/2063948495602831664",
+      "https://x.com/sairahul1/status/2063668940585541801"
     ],
     "2063624356484501832": [
       "https://x.com/mvanhorn/status/2063624356484501832",
@@ -46896,10 +46977,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
       "https://x.com/eng_khairallah1/status/2063645221611864434",
       "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J",
-      "https://x.com/eng_khairallah1/status/2063636157666361649",
       "https://x.com/eng_khairallah1/status/2063638299760382309",
-      "https://x.com/eng_khairallah1/status/2063635029931209146",
       "https://x.com/eng_khairallah1/status/2063672183663288343",
+      "https://x.com/eng_khairallah1/status/2063635029931209146",
       "https://x.com/eng_khairallah1/status/2063634722455228664",
       "https://x.com/eng_khairallah1/status/2063640487115055604"
     ],
@@ -46915,13 +46995,13 @@
     "2063671722096886128": [
       "https://x.com/Akasheth_/status/2063671722096886128",
       "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg",
-      "https://x.com/Akasheth_/status/2063689095650623849",
-      "https://x.com/Akasheth_/status/2063689605208289615",
-      "https://x.com/Akasheth_/status/2063688944035000667",
       "https://x.com/Akasheth_/status/2063688893522948312",
+      "https://x.com/Akasheth_/status/2063688944035000667",
+      "https://x.com/Akasheth_/status/2063689605208289615",
+      "https://x.com/Akasheth_/status/2063689095650623849",
       "https://x.com/Akasheth_/status/2063689533078786263",
-      "https://x.com/Akasheth_/status/2063689169105461693",
-      "https://x.com/Akasheth_/status/2063689052776460520"
+      "https://x.com/Akasheth_/status/2063689052776460520",
+      "https://x.com/Akasheth_/status/2063689169105461693"
     ],
     "2063688044843090179": [
       "https://x.com/scaling_shields/status/2063688044843090179",
@@ -46944,16 +47024,16 @@
     "2063731230466834892": [
       "https://x.com/viktor_pali/status/2063731230466834892",
       "http://x.com/i/article/2063729870518341632",
-      "https://x.com/viktor_pali/status/2063859532078755973",
-      "https://x.com/viktor_pali/status/2063994513668952168",
-      "https://x.com/viktor_pali/status/2063991031813611715",
-      "https://x.com/viktor_pali/status/2063990889349804361",
-      "https://x.com/viktor_pali/status/2063990531206644045",
       "https://x.com/viktor_pali/status/2063736331071783188",
+      "https://x.com/viktor_pali/status/2063994513668952168",
+      "https://x.com/viktor_pali/status/2063859532078755973",
       "https://x.com/viktor_pali/status/2063990659283869940",
+      "https://x.com/viktor_pali/status/2063990531206644045",
+      "https://x.com/viktor_pali/status/2063990889349804361",
       "https://x.com/viktor_pali/status/2063853747571470800",
-      "https://x.com/viktor_pali/status/2063990937366176214",
-      "https://x.com/viktor_pali/status/2063746947442475159"
+      "https://x.com/viktor_pali/status/2063991031813611715",
+      "https://x.com/viktor_pali/status/2063746947442475159",
+      "https://x.com/viktor_pali/status/2063990937366176214"
     ],
     "2063781381021258026": [
       "https://x.com/geoffreylitt/status/2063781381021258026",
@@ -46981,12 +47061,15 @@
       "https://x.com/mvanhorn/status/2063870334269530359",
       "https://x.com/mvanhorn/status/2064010832170950884",
       "https://x.com/mvanhorn/status/2063866667881607559",
-      "https://x.com/mvanhorn/status/2064251068557750536",
-      "https://x.com/mvanhorn/status/2064028299903574435",
-      "https://x.com/mvanhorn/status/2064084739578032216",
-      "https://x.com/mvanhorn/status/2064012892379480151",
       "https://x.com/mvanhorn/status/2064092740678475891",
+      "https://x.com/mvanhorn/status/2064084739578032216",
+      "https://x.com/mvanhorn/status/2064028299903574435",
+      "https://x.com/mvanhorn/status/2064251068557750536",
+      "https://x.com/mvanhorn/status/2064012892379480151",
+      "https://x.com/mvanhorn/status/2064347803162489127",
       "https://x.com/mvanhorn/status/2064028346871316773",
+      "https://x.com/mvanhorn/status/2064339837260591135",
+      "http://Juneoven.com",
       "https://x.com/mvanhorn/status/2064012838063243750",
       "https://x.com/mvanhorn/status/2063868012831428619"
     ],
@@ -46996,21 +47079,21 @@
       "https://x.com/AlphaSignalAI/status/2063889311259611267",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
       "https://dora.dev/research/2025/dora-report/",
-      "https://x.com/AlphaSignalAI/status/2064101792103678340",
-      "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg"
+      "https://x.com/AlphaSignalAI/status/2064364907722616841",
+      "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
     ],
     "2063907440509571354": [
       "https://x.com/neural_avb/status/2063907440509571354",
       "http://x.com/i/article/2063857990461968384",
-      "https://x.com/neural_avb/status/2063986518876958895",
       "https://x.com/neural_avb/status/2064012370821918888",
+      "https://x.com/neural_avb/status/2063986518876958895",
       "https://x.com/neural_avb/status/2063932479480975807"
     ],
     "2063928611619455268": [
       "https://x.com/0x_rody/status/2063928611619455268",
       "http://x.com/i/article/2063893302181519360",
-      "https://x.com/0x_rody/status/2063935123658010698",
-      "https://x.com/0x_rody/status/2063954047434944696"
+      "https://x.com/0x_rody/status/2063954047434944696",
+      "https://x.com/0x_rody/status/2063935123658010698"
     ],
     "2063935932349255713": [
       "https://x.com/Zephyr_hg/status/2063935932349255713",
@@ -47018,7 +47101,9 @@
     ],
     "2063939753112682770": [
       "https://x.com/creatorpascal/status/2063939753112682770",
-      "http://x.com/i/article/2054556222360084480"
+      "http://x.com/i/article/2054556222360084480",
+      "https://x.com/creatorpascal/status/2064347161903378727",
+      "http://x.com/i/article/2064331718723579904"
     ],
     "2063982924714901858": [
       "https://x.com/_rohit_tiwari_/status/2063982924714901858",
@@ -47028,8 +47113,8 @@
       "https://x.com/_rohit_tiwari_/status/2063983267179872474",
       "https://github.com/analyticalrohit/llms-from-scratch",
       "https://x.com/_rohit_tiwari_/status/2064066219452588459",
-      "https://x.com/_rohit_tiwari_/status/2064066114708287542",
-      "https://x.com/_rohit_tiwari_/status/2064025481536823385"
+      "https://x.com/_rohit_tiwari_/status/2064025481536823385",
+      "https://x.com/_rohit_tiwari_/status/2064066114708287542"
     ],
     "2063983640535847093": [
       "https://x.com/amitiitbhu/status/2063983640535847093",
@@ -47044,7 +47129,8 @@
     "2064012846065958966": [
       "https://x.com/AashiDutt/status/2064012846065958966",
       "http://x.com/i/article/2062938717573259264",
-      "https://x.com/AashiDutt/status/2064122425370136809"
+      "https://x.com/AashiDutt/status/2064122425370136809",
+      "https://x.com/AashiDutt/status/2064325501725126885"
     ],
     "2064036299825160400": [
       "https://x.com/cyrilXBT/status/2064036299825160400",
@@ -47083,7 +47169,20 @@
     "2064101792103678340": [
       "https://x.com/AlphaSignalAI/status/2064101792103678340",
       "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg",
-      "https://x.com/AlphaSignalAI/status/2064105456541323754"
+      "https://x.com/AlphaSignalAI/status/2064345846326374805",
+      "https://alphasignal.ai/newsletter",
+      "https://x.com/AlphaSignalAI/status/2064330862917808525",
+      "https://x.com/AlphaSignalAI/status/2064105456541323754",
+      "https://x.com/AlphaSignalAI/status/2064331217411907923",
+      "https://x.com/AlphaSignalAI/status/2064329635970613311",
+      "https://x.com/AlphaSignalAI/status/2064329501757051371",
+      "https://x.com/AlphaSignalAI/status/2064332097989341628",
+      "https://x.com/AlphaSignalAI/status/2064330309823287575",
+      "https://x.com/AlphaSignalAI/status/2064330705572671887",
+      "https://x.com/AlphaSignalAI/status/2064330023146840223",
+      "https://x.com/AlphaSignalAI/status/2064331654538080258",
+      "https://x.com/AlphaSignalAI/status/2064331929277661623",
+      "https://x.com/AlphaSignalAI/status/2064331573428682907"
     ],
     "2064152622928728099": [
       "https://x.com/Must_be_Ash/status/2064152622928728099",
@@ -47111,8 +47210,7 @@
     "2064216929397842327": [
       "https://x.com/NathanFlurry/status/2064216929397842327",
       "http://x.com/i/article/2064205612913963008",
-      "https://x.com/NathanFlurry/status/2064219158599143732",
-      "https://x.com/NathanFlurry/status/2064156010919633248"
+      "https://x.com/NathanFlurry/status/2064219158599143732"
     ],
     "2064221035734646916": [
       "https://x.com/chenchengpro/status/2064221035734646916",
@@ -47120,8 +47218,13 @@
     ],
     "2064239881199477240": [
       "https://x.com/Phoenixyin13/status/2064239881199477240"
+    ],
+    "2064281952631525741": [
+      "https://x.com/alokbishoyi97/status/2064281952631525741",
+      "http://x.com/i/article/2064264218858164224",
+      "https://x.com/alokbishoyi97/status/2064313324146495881"
     ]
   },
-  "updated_at": "2026-06-09T12:15:34Z",
+  "updated_at": "2026-06-09T15:29:04Z",
   "window": "recent"
 }
