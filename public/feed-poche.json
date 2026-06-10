@@ -44,6 +44,9 @@
       "category": "Social",
       "created_at": "2026-06-10T09:46:48.999214Z",
       "description": "So I gave Fable 5 the watchmaker benchmark: a full Swiss lever movement in Three.js. Real gear ratios (18,000 bph), working escapement, breathing hairspring — and the hands tell actual time. It verified its own work with vision, in a loop, until done. ⌚ https://t.co/gJNrQXaTP1 pic.twitter.com/RSRfDoKxA4",
+      "description_zh": "我给 Fable 5 设置了制表师基准测试：一个基于 Three.js 构建的完整瑞士杠杆机芯。包含真实齿轮比（18,000 次/小时）、运行中的擒纵机构、动态游丝——指针还能显示真实时间。它通过视觉循环验证自身工作，直至完成。⌚ https://t.co/gJNrQXaTP1 pic.twitter.com/RSRfDoKxA4",
+      "description_zh_hash": "91f06e32c595fb29",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k1772tx71c3qsrgxjhakr01amh88dfvt",
@@ -66,6 +69,9 @@
         }
       ],
       "title": "Huy (@quanghuynt14) on X",
+      "title_zh": "X 平台上的 Huy（@quanghuynt14）",
+      "title_zh_hash": "fbca9236e74caeda",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/quanghuynt14/status/2064509430650065278",
       "x_status_id": "2064509430650065278"
     },
@@ -89,6 +95,9 @@
       "category": "Development",
       "created_at": "2026-06-10T10:17:28.732795Z",
       "description": "Starlight helps you build beautiful, high-performance documentation websites with Astro.",
+      "description_zh": "Starlight 助你使用 Astro 构建美观、高性能的文档网站。",
+      "description_zh_hash": "b39283920b072f2c",
+      "description_zh_translator_v": 2,
       "domain": "starlight.astro.build",
       "embed_type": "",
       "id": "k17e209j4c2x5akc4z9259mvw588c7b7",
@@ -111,6 +120,9 @@
         }
       ],
       "title": "Starlight 🌟 Build documentation sites with Astro",
+      "title_zh": "Starlight 🌟 使用 Astro 构建文档站点",
+      "title_zh_hash": "905e3b3374cf0247",
+      "title_zh_translator_v": 2,
       "url": "https://starlight.astro.build/",
       "x_status_id": null
     },
@@ -143,6 +155,9 @@
         }
       ],
       "title": "Behind The Scenes Of Figma's INSANE Design (w. Figma Team)",
+      "title_zh": "Figma 疯狂设计背后的故事（与 Figma 团队）",
+      "title_zh_hash": "21c03661e26d2985",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/5t8dh3DSdBk?si=ZjysIvzs6PRT_-kV",
       "x_status_id": null
     },
@@ -150,6 +165,9 @@
       "category": "Social",
       "created_at": "2026-06-10T14:39:14.477212Z",
       "description": "You have Claude Fable for only a few days. Here's how to make the most of it.Introducing /improve: use your most capable model to audit your codebase and write plans for cheaper models to execute later.Studies your code, figures out bugs, perf, tech debt, missing tests, what… pic.twitter.com/fbLrIlESMP",
+      "description_zh": "你只有几天时间使用Claude Fable。以下是如何充分利用它的方法。\n\n推出/improve功能：用你最强大的模型审计代码库，为后续更便宜的模型编写执行计划。\n\n研究你的代码，找出bug、性能问题、技术债务、缺失的测试等…… pic.twitter.com/fbLrIlESMP",
+      "description_zh_hash": "7c246023c491bbb8",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k179rewgjha911ctqa5metvj6n88cp0y",
@@ -172,6 +190,9 @@
         }
       ],
       "title": "@shadcn on X",
+      "title_zh": "@shadcn 在 X 上",
+      "title_zh_hash": "e3e2d08da112341c",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/shadcn/status/2064671802509410806",
       "x_status_id": "2064671802509410806"
     },
@@ -196,6 +217,9 @@
       "category": "Design",
       "created_at": "2026-06-10T14:55:07.369246Z",
       "description": "HUDS and GUIS is an inspiration resource site featuring Future User Interfaces, Graphic User Interfaces, Heads Up Displays and UX/UI Design from areas such as film and games.",
+      "description_zh": "HUDS and GUIS 是一个灵感资源网站，专注于展示来自电影和游戏等领域的未来用户界面、图形用户界面、抬头显示以及UX/UI设计。",
+      "description_zh_hash": "70b65a399030e923",
+      "description_zh_translator_v": 2,
       "domain": "www.hudsandguis.com",
       "embed_type": "",
       "id": "k176nk7ykajd7hewx7epgy6z7188cqxw",
@@ -250,6 +274,9 @@
         }
       ],
       "title": "Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit",
+      "title_zh": "深入探访Anthropic：价值9650亿美元的AI巨头 | The Circuit",
+      "title_zh_hash": "8747e7f90ff307da",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/v1wZwxY3CMg?si=cW9iycxDWTAdQ2uj",
       "x_status_id": null
     },
@@ -26915,6 +26942,9 @@
       "category": "Development",
       "created_at": "2026-03-29T01:19:37.199660Z",
       "description": "Enable you or your agents to provision hosting, databases, auth, AI, and more from the CLI. Generate credentials and manage usage and billing in one place.",
+      "description_zh": "让您或您的代理能够通过 CLI 配置托管、数据库、认证、AI 等服务。在一个地方生成凭证并管理使用情况和计费。",
+      "description_zh_hash": "93883db91938aa65",
+      "description_zh_translator_v": 2,
       "domain": "projects.dev",
       "embed_type": "",
       "id": "k17a4rpz6p9f9jj66bcrfxa64583t3rq",
@@ -26937,6 +26967,9 @@
         }
       ],
       "title": "Stripe Projects | Provision and Manage Services from the CLI",
+      "title_zh": "Stripe 项目 | 通过 CLI 配置和管理服务",
+      "title_zh_hash": "29446fd5da962d55",
+      "title_zh_translator_v": 2,
       "url": "https://projects.dev/",
       "x_status_id": null
     },
