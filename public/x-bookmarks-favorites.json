@@ -55,6 +55,9 @@
         "bookmark@chumsdock"
       ],
       "text": "you can technically automate the entire AI engineering loop now\n\nwhile it’s tempting, here’s what we think you should keep in your own hands to set your agent apart",
+      "text_zh": "从技术上讲，你现在可以自动化整个AI工程循环。\n\n虽然这很诱人，但我们认为，以下这些环节应掌握在自己手中，才能让你的智能体脱颖而出。",
+      "text_zh_hash": "ac8932f5dcac7dc4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/langfuse/status/2064418523192136110"
     },
     {
@@ -138,6 +141,9 @@
         "bookmark@chumsdock"
       ],
       "text": "here's a few tips for designing self-correction loops and utilizing memory with Fable 5:\nhttps://x.com/RLanceMartin/status/2064397389189071163?s=20",
+      "text_zh": "以下是关于在 Fable 5 中设计自我修正循环及利用内存的几点建议：\nhttps://x.com/RLanceMartin/status/2064397389189071163?s=20",
+      "text_zh_hash": "96b098157f6288b5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/RLanceMartin/status/2064398479011860621"
     },
     {
@@ -302,6 +308,9 @@
         "bookmark@chumsdock"
       ],
       "text": "A TIL on using http://agentsview.io to calculate token spending with Claude Fable 5 despite that model not yet being included in the AgentsView pricing database https://til.simonwillison.net/llms/agentsview-custom-model-price",
+      "text_zh": "关于使用 http://agentsview.io 计算 Claude Fable 5 的 token 消耗的今日学习笔记——尽管该模型尚未被纳入 AgentsView 定价数据库。  \nhttps://til.simonwillison.net/llms/agentsview-custom-model-price",
+      "text_zh_hash": "fabef463bcbc0368",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/simonw/status/2064464986819457210"
     },
     {
@@ -396,6 +405,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Six patterns for building dynamic workflows and loops identified by Anthropic:\n\n1. Classify-and-act: one agent decides the type, the script routes it. Example: bug vs feature vs noise.\n\n2. Fan-out-and-synthesize: one agent per piece, merged in code. Examples: market research, competitor teardown.\n\n3. Adversarial verification: a separate agent checks the output against a rubric. Example: fact-checking a PRD against the sources.\n\n4. Generate-and-filter: many candidates, deduped, the survivors kept. Examples: naming, positioning, ideation.\n\n5. Tournament (compare): agents attempt the task different ways, judges compare until one wins. Example: product strategy.\n\n6. Loop-until-done: spawn until a stop condition. Example: implement, document, and test a feature in one shot.",
+      "text_zh": "Anthropic 识别出的六种构建动态工作流与循环模式：\n\n1. 分类并执行：一个智能体决定类型，脚本进行路由。示例：缺陷 vs 功能 vs 噪音。\n\n2. 分发并整合：每个片段对应一个智能体，在代码中合并。示例：市场调研、竞品拆解。\n\n3. 对抗验证：独立的智能体根据评估标准检查输出。示例：对照来源事实核查产品需求文档。\n\n4. 生成并筛选：生成大量候选内容，去重后保留幸存者。示例：命名、定位、创意构思。\n\n5. 锦标赛（对比）：智能体以不同方式尝试任务，评审者对比直至决出胜者。示例：产品策略。\n\n6. 循环直至完成：持续生成直到满足停止条件。示例：一次性完成功能的实现、文档编写和测试。",
+      "text_zh_hash": "2cd7ccf7c6a1914a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2064201950980096078"
     },
     {
