@@ -5,11 +5,11 @@
       "name": "Tools"
     },
     {
-      "count": 421,
+      "count": 422,
       "name": "Development"
     },
     {
-      "count": 327,
+      "count": 328,
       "name": "Design"
     },
     {
@@ -17,11 +17,11 @@
       "name": "Articles"
     },
     {
-      "count": 272,
+      "count": 274,
       "name": "Social"
     },
     {
-      "count": 139,
+      "count": 141,
       "name": "Media"
     },
     {
@@ -38,8 +38,221 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2270,
+  "item_count": 2277,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-06-10T09:46:48.999214Z",
+      "description": "So I gave Fable 5 the watchmaker benchmark: a full Swiss lever movement in Three.js. Real gear ratios (18,000 bph), working escapement, breathing hairspring — and the hands tell actual time. It verified its own work with vision, in a loop, until done. ⌚ https://t.co/gJNrQXaTP1 pic.twitter.com/RSRfDoKxA4",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k1772tx71c3qsrgxjhakr01amh88dfvt",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2064509292510674944/img/cA9tINok0iDgR0eP.jpg",
+      "recommended_at": "2026-06-10T14:55:52.212000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "threejs",
+        "generative-ai",
+        "horology"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:55:52.212000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Huy (@quanghuynt14) on X",
+      "url": "https://x.com/quanghuynt14/status/2064509430650065278",
+      "x_status_id": "2064509430650065278"
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_image_urls": [
+        "https://starlight.astro.build/og.jpg?v=1",
+        "https://starlight.astro.build/_astro/logo-dark.IHkm-Unx.svg",
+        "https://starlight.astro.build/_astro/logo-light.BTLa6bQG.svg",
+        "https://starlight.astro.build/_astro/hero-star.CRrHICv4_Z1lBjS1.webp",
+        "https://starlight.astro.build/_astro/rachelnabors.DomMquzz_ZCSEAq.webp",
+        "https://starlight.astro.build/_astro/flaviocopes.6beo7Qb2_1tRdII.webp",
+        "https://starlight.astro.build/_astro/sulco.VG__aNRa_Z2lqAxS.webp",
+        "https://starlight.astro.build/_astro/RmeetsH.MA7hy-4v_EpbEK.webp",
+        "https://starlight.astro.build/_astro/jhooks.BSuxBSxI_Z1W45Qx.webp",
+        "https://starlight.astro.build/_astro/rick_viscomi.BnXw8Bso_Z1SlkPd.webp",
+        "https://starlight.astro.build/_astro/beaussan.CJ0HtLuu_Z1v2tjo.webp",
+        "https://starlight.astro.build/_astro/SylwiaVargas.DmanGXBk_Z154tpo.webp"
+      ],
+      "article_title_extracted": "Starlight 🌟 Build documentation sites with Astro",
+      "category": "Development",
+      "created_at": "2026-06-10T10:17:28.732795Z",
+      "description": "Starlight helps you build beautiful, high-performance documentation websites with Astro.",
+      "domain": "starlight.astro.build",
+      "embed_type": "",
+      "id": "k17e209j4c2x5akc4z9259mvw588c7b7",
+      "og_image_url": "https://starlight.astro.build/og.jpg?v=1",
+      "recommended_at": "2026-06-10T14:55:50.129000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "documentation",
+        "astro",
+        "web-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:55:50.129000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Starlight 🌟 Build documentation sites with Astro",
+      "url": "https://starlight.astro.build/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-10T13:48:02.035461Z",
+      "description": "Enrico Tartarotti • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k173rsyxx0d2fdq783hk3xkveh88cesw",
+      "og_image_url": "https://i.ytimg.com/vi/5t8dh3DSdBk/maxresdefault.jpg",
+      "recommended_at": "2026-06-10T14:55:48.507000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "figma",
+        "ui-design",
+        "product-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:55:48.507000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Behind The Scenes Of Figma's INSANE Design (w. Figma Team)",
+      "url": "https://youtu.be/5t8dh3DSdBk?si=ZjysIvzs6PRT_-kV",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-10T14:39:14.477212Z",
+      "description": "You have Claude Fable for only a few days. Here's how to make the most of it.Introducing /improve: use your most capable model to audit your codebase and write plans for cheaper models to execute later.Studies your code, figures out bugs, perf, tech debt, missing tests, what… pic.twitter.com/fbLrIlESMP",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k179rewgjha911ctqa5metvj6n88cp0y",
+      "og_image_url": "https://pbs.twimg.com/media/HKcv5hVXQAA079o.jpg",
+      "recommended_at": "2026-06-10T14:55:29.683000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "software-development",
+        "claude-fable"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:55:29.683000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "@shadcn on X",
+      "url": "https://x.com/shadcn/status/2064671802509410806",
+      "x_status_id": "2064671802509410806"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_image_urls": [
+        "http://static1.squarespace.com/static/5438bd1be4b0446f6692b906/t/5452cba7e4b0f94405cfa1f0/1414712231534/logo.png?format=1500w",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1414712231382-M5ASSNGX3FGY28KWMLW7/logo.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1780993044743-4Z2ZIDI9L2W8Z3AGJLTD/img-andor2.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1775536836377-KOBJ05WUCOKU1GQ6GUI2/img_news.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1766381879754-NLD2ZUPAWKJL5SAPOMV7/img_2025.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1759742806217-SJVNUUJLW1VUHAMH3VVH/img-theSilentSea.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1759132244295-SRX07ECAHJ83GX1Y98O8/img-googleM3.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1751108869906-GJJQ9KEGYA02FXOY2LWA/img-appleWWDC.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/04db438a-f382-401f-a2ea-e05634af766a/img-cybercityodeo.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1741818526192-TGUV7ZUN8B12R8O95YYU/img-silo.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1738641733547-POSFYIMBFY0M91X6UFOH/img-alienRomulus.png",
+        "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1734648577629-VBN744QXG0B8A588YJRY/img_2024b.png"
+      ],
+      "article_title_extracted": "HUDS+GUIS",
+      "category": "Design",
+      "created_at": "2026-06-10T14:55:07.369246Z",
+      "description": "HUDS and GUIS is an inspiration resource site featuring Future User Interfaces, Graphic User Interfaces, Heads Up Displays and UX/UI Design from areas such as film and games.",
+      "domain": "www.hudsandguis.com",
+      "embed_type": "",
+      "id": "k176nk7ykajd7hewx7epgy6z7188cqxw",
+      "og_image_url": "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1780993044743-4Z2ZIDI9L2W8Z3AGJLTD/img-andor2.png?format=1500w",
+      "recommended_at": "2026-06-10T14:55:27.950000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ui-design",
+        "motion-graphics",
+        "fictional-interfaces"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:55:27.950000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "HUDS+GUIS",
+      "url": "https://www.hudsandguis.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-10T14:06:23.099616Z",
+      "description": "Bloomberg Originals • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k1738bm9jrj3x5q2r4s8atkr0588cwnk",
+      "og_image_url": "https://i.ytimg.com/vi/v1wZwxY3CMg/maxresdefault.jpg",
+      "recommended_at": "2026-06-10T14:06:41.881000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "anthropic",
+        "artificial-intelligence",
+        "tech-industry"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-10T14:06:41.881000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit",
+      "url": "https://youtu.be/v1wZwxY3CMg?si=cW9iycxDWTAdQ2uj",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://lh3.googleusercontent.com/YHZhtz2k4kjpF6-rGrlyQSu7rHyJSrmhCoo7RkFLreZ3SuQwRt_H_CC2YcDc1xLhdCMbzX4zDtGVTZwFs3g7cuHg=s128-rj-sc0x00ffffff",
@@ -2518,7 +2731,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
       "article_image_urls": [
         "https://orchid.ai/branded/cta-twilight.jpeg",
         "https://orchid.ai/_next/image?url=%2Fbranded%2Fglowing-mountain-with-flowers.jpeg&w=3840&q=75",
@@ -2569,11 +2782,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/p15651fl/production/a8916d5b17f86d0e20d29f68a4ae0be5179c1006-1200x630.png?q=100",
-        "https://www.joinodin.com/logo-wordmark.svg?dpl=dpl_7rUKRc6nM9aYvfk8NWvK9L9ZkQ8R",
-        "https://www.joinodin.com/menu-icon.svg?dpl=dpl_7rUKRc6nM9aYvfk8NWvK9L9ZkQ8R",
+        "https://www.joinodin.com/logo-wordmark.svg?dpl=dpl_BRJMZCkZc1dQijuESsxrbFFxKVyM",
+        "https://www.joinodin.com/menu-icon.svg?dpl=dpl_BRJMZCkZc1dQijuESsxrbFFxKVyM",
         "https://www.joinodin.com/swatches/united%20kingdom.svg",
         "https://www.joinodin.com/swatches/united%20states.svg",
         "https://www.joinodin.com/swatches/global.svg",
@@ -6737,7 +6950,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-03T13:00:18.860353Z",
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
       "article_title_extracted": "Wan'de Form",
       "category": "Tools",
       "created_at": "2026-05-20T03:29:57.167032Z",
@@ -19087,13 +19300,6 @@
           "recommended_at": "2026-04-19T04:54:32.668000Z",
           "recommended_by": "huan",
           "slug": "huan"
-        },
-        {
-          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
-          "name": "Dine",
-          "recommended_at": "2026-03-29T01:20:47.004000Z",
-          "recommended_by": "disinfeqt",
-          "slug": "dine"
         }
       ],
       "title": "Stripe Projects | Provision and Manage Services from the CLI",
@@ -26696,6 +26902,42 @@
       "title_zh_hash": "8a6ee504c03d03a9",
       "title_zh_translator_v": 2,
       "url": "https://www.panton.vitra.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_image_urls": [
+        "https://projects.dev/assets/images/og/og.jpg",
+        "https://projects.dev/assets/images/og/twitter-large.jpg",
+        "https://projects.dev/img/_-NTWf-bqg-1266.jpeg"
+      ],
+      "article_title_extracted": "Stripe Projects | Provision and Manage Services from the CLI",
+      "category": "Development",
+      "created_at": "2026-03-29T01:19:37.199660Z",
+      "description": "Enable you or your agents to provision hosting, databases, auth, AI, and more from the CLI. Generate credentials and manage usage and billing in one place.",
+      "domain": "projects.dev",
+      "embed_type": "",
+      "id": "k17a4rpz6p9f9jj66bcrfxa64583t3rq",
+      "og_image_url": "https://projects.dev/assets/images/og/og.jpg",
+      "recommended_at": "2026-03-29T01:20:47.004000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "devops",
+        "cloud-infrastructure",
+        "cli-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-03-29T01:20:47.004000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Stripe Projects | Provision and Manage Services from the CLI",
+      "url": "https://projects.dev/",
       "x_status_id": null
     },
     {
@@ -100894,7 +101136,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2114,
+      "count": 2120,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -100930,5 +101172,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-10T11:58:17.552001Z"
+  "updated_at": "2026-06-10T16:26:12.389327Z"
 }
