@@ -59,6 +59,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Last week we launched Diffs, a new way to review PRs directly inside Linear. \n\nThe most common question we've gotten since then is how Linear handles code reviews internally. Maciek, one of the engineers who built it, breaks down his process here.",
+      "text_zh": "上周我们推出了 Diffs，这是一种直接在 Linear 内部审查 PR 的新方式。\n\n自那以来，我们收到最多的问题就是 Linear 内部如何处理代码审查。负责构建该功能的工程师之一 Maciek 在此分享了他的工作流程。",
+      "text_zh_hash": "4a3005c951c8017d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/linear/status/2064391292302307556"
     },
     {
@@ -153,6 +156,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Karl Koch | Falling in love with the build https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar https://t.co/6nRu4A37Ju",
+      "text_zh": "卡尔·科赫 | 爱上构建过程 https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar https://t.co/6nRu4A37Ju",
+      "text_zh_hash": "0b7dbee19d64ff21",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2064396870789538159"
     },
     {
@@ -247,6 +253,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Building a general-purpose accessibility agent—and what we learned in the process https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar https://t.co/aNnk73yk9a",
+      "text_zh": "构建通用无障碍代理——以及我们在过程中的收获  \nhttps://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar  \nhttps://t.co/aNnk73yk9a",
+      "text_zh_hash": "d3fc01cf8ffd242a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2064361390685438035"
     },
     {
@@ -64910,8 +64919,8 @@
         "favorite@chumsdock"
       ],
       "text": "Relaunching my website I decided to finally put the not only the interactive version of Orbits on the page but also the original source code. Pre-AI code lol - http://glauber.org/archive/orbits (proper update with Lisergia, @bizar_ro framework that I love) https://t.co/0TzI8wrNEY",
-      "text_zh": "我决定重新上线我的网站，不仅把交互版Orbits放上去，还附带了原始源代码。AI时代前的代码哈哈 - http://glauber.org/archive/orbits （配合Lisergia和@luisbizarro框架的正式更新，这是我钟爱的框架）https://t.co/0TzI8wrNEY",
-      "text_zh_hash": "5b5c6a1aa3e3c102",
+      "text_zh": "我决定重新上线我的网站，不仅把交互版的 Orbits 放上去，还附上了原始源代码。AI 时代之前的代码哈哈 - http://glauber.org/archive/orbits （配合 Lisergia 和 @bizar_ro 框架的正式更新，我超爱这个框架）https://t.co/0TzI8wrNEY",
+      "text_zh_hash": "4b78501096c5ed87",
       "text_zh_translator_v": 2,
       "url": "https://x.com/glauberxyz/status/2042079444031172898"
     },
