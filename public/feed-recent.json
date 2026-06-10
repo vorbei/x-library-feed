@@ -1125,6 +1125,26 @@
       "title": "Showcase of the best 2049 Animation Websites - landing.love",
       "url": "http://landing.love"
     },
+    "http://langfuse.com/integrations/other/hermes": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Trace and debug Hermes Agent conversations, LLM calls, and tool usage with Langfuse observability.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://langfuse.com/integrations/other/hermes",
+      "frameable": false,
+      "image_urls": [
+        "https://langfuse.com/api/og?title=Integrate+Langfuse+with+Hermes+Agent&description=Trace+and+debug+Hermes+Agent+conversations%2C+LLM+calls%2C+and+tool+usage+with+Langfuse+observability.§ion=Integrations",
+        "https://langfuse.com/langfuse-wordart-white.svg",
+        "https://langfuse.com/langfuse-wordart.svg",
+        "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Fjannikmaierhoefer.jpg&w=48&q=75",
+        "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Ftobiaswochinger.jpg&w=48&q=75",
+        "https://px.ads.linkedin.com/collect/?pid=9239642&fmt=gif"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Integrate Langfuse with Hermes Agent](https://langfuse.com#integrate-langfuse-with-hermes-agent)\nThis notebook shows how to integrate Langfuse with Hermes Agent to trace, debug, and evaluate your agent's conversations, LLM calls, and tool usage.\nWhat is Hermes Agent?\n[Hermes Agent](https://github.com/NousResearch/hermes-agent)is a self-improving AI agent built by[Nous Research](https://nousresearch.com). It features a built-in learning loop, persistent memory, autonomous skill creation, and support for any LLM provider. Hermes ships a bundled Langfuse observability plugin that traces every conversation turn, LLM request, and tool call.\nWhat is Langfuse?\n[Langfuse](https://langfuse.com)is an open-source AI engineering platform that helps teams trace, debug, and evaluate their LLM applications.\nThe steps below follow Hermes' [official Langfuse plugin docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins#observabilitylangfuse) — refer to them for the latest details.\n[Step 1: Install Dependencies](https://langfuse.com#step-1-install-dependencies)\n[Step 2: Set Up Environment Variables](https://langfuse.com#step-2-set-up-environment-variables)\nGet your Langfuse keys from the project settings in [Langfuse Cloud](https://langfuse.com/cloud) or set up [self-hosting](https://langfuse.com/self-hosting).\nHermes reads credentials from ~/.hermes/.env (the canonical location per the [Hermes docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins#observabilitylangfuse)). Create the file with:\nThe plugin also accepts the standard SDK env vars (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_BASE_URL); the HERMES_LANGFUSE_* variants win when both are set.\nThe cell below sets the same credentials inside this Python kernel so we can quickly verify them with the Langfuse SDK. Note: these os.environ values are scoped to the notebook process and will not be visible to a hermes chat command run in a separate terminal — use ~/.hermes/.env for that.\nWith the environment variables set, initialize the Langfuse client to confirm your credentials work. Hermes uses its own internal client, so this step is purely a sanity check that your keys are valid.\n[Step 3: Enable the Langfuse Plugin](https://langfuse.com#step-3-enable-the-langfuse-plugin)\nHermes ships a bundled Langfuse observability plugin under plugins/observability/langfuse. Bundled plugins are discovered automatically but opt-in — they don't load until you explicitly enable them.\nThe plugin hooks into Hermes lifecycle events (pre_api_request / post_api_request, pre_tool_call / post_tool_call) to automatically capture:\n- One root span per conversation turn (\"Hermes turn\")\n- One generation observation per LLM API call\n- One tool observation per tool call\nSession grouping uses the Hermes session ID (or task ID for sub-agents), so every turn within a hermes chat session lives under one Langfuse session. The plugin is also fail-open: missing SDK, missing credentials, or a transient Langfuse error all turn into a silent no-op — the agent loop is never impacted.\n[Step 4: Run Hermes and Generate a Trace](https://langfuse.com#step-4-run-hermes-and-generate-a-trace)\nWith the plugin enabled and credentials set, every Hermes conversation turn is automatically traced to Langfuse. Each trace captures:\n- Conversation turns as the root span (\"Hermes turn\")\n- LLM calls as generation observations with model, usage, cost, and latency\n- Tool calls as tool observations with input arguments and results\n- Token usage and cost broken down by input, output, cache, and reasoning tokens\nYou can start a conversation from the CLI:\n[Optional: Tune Tracing Behavior](https://langfuse.com#optional-tune-tracing-behavior)\nThe Hermes Langfuse plugin supports several optional environment variables:\n| Variable | Description | Default | \n|---|---|---|\n| HERMES_LANGFUSE_ENV | Environment tag (e.g. production,staging) | — | \n| HERMES_LANGFUSE_RELEASE | Release/version tag |",
+      "title": "Integrate Langfuse with Hermes Agent - Langfuse",
+      "url": "http://langfuse.com/integrations/other/hermes"
+    },
     "http://linkedin.com/liviaellen/": {
       "content_type": "",
       "description": "",
@@ -6442,6 +6462,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Keep Claude working toward a goal - Claude Code Docs",
       "url": "https://code.claude.com/docs/en/goal"
+    },
+    "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Mergeable Containers let Loro peers concurrently create the same child container under a Map key and still merge into one shared child, by deriving identity from the logical parent/key/type instead of the creation OpID.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers",
+      "frameable": null,
+      "image_urls": [
+        "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/images/blog-mergeable-containers.png",
+        "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/LORO_PURE.svg",
+        "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog-mergeable-containers.f1e62c7d.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Mergeable Containers: Fixing Concurrent Child Creation\n[Zixuan Chen](https://github.com/zxch3n/)\nTwo users are offline. Both add content to the same empty note. They come back online, sync finishes, and one user’s edits seem to disappear.\nThere is no error, and the data is not actually gone from history. But note.get(\"body\") can only return one Text container. The other container was created concurrently and still exists in history, but it is no longer visible in the current document state. From the application’s point of view, this looks like data loss.\nThis is a classic problem in JSON-like CRDTs. Users have run into versions of it in the Loro, Yjs, and Automerge communities. The [Appendix](https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev#appendix-runnable-reproductions) has short scripts that reproduce it in all three.\nLoro now solves this with Mergeable Containers. They make a child container’s identity come from its logical position in the Map, not from the ID of the operation that happened to create it.\nSpecial thanks to [Alexis Williams](https://github.com/typedrat) from [Synapdeck](https://synapdeck.com/) for the substantial implementation work and design discussion behind this feature.\nFrom the user’s point of view, the API change is small. Instead of creating an on-demand child container like this:\n// Peer A\ndoc.getMap(\"days\").setContainer(\"2026-06-08\", new LoroList()).insert(0, \"A\");\n \n// Peer B, offline\ndoc.getMap(\"days\").setContainer(\"2026-06-08\", new LoroList()).insert(0, \"B\");\n \n// after sync: only one List is visible at \"2026-06-08\"you can use a mergeable child:\n// Peer A\ndoc.getMap(\"days\").ensureMergeableList(\"2026-06-08\").insert(0, \"A\");\n \n// Peer B, offline\ndoc.getMap(\"days\").ensureMergeableList(\"2026-06-08\").insert(0, \"B\");\n \n// after sync: both peers edit the same ListAs a rule of thumb, use ensureMergeable* when a child container should be identified by its logical position:\nmap.ensureMergeableText(key);\nmap.ensureMergeableMap(key);\nmap.ensureMergeableList(key);\nmap.ensureMergeableMovableList(key);\nmap.ensureMergeableTree(key);\nmap.ensureMergeableCounter(key);Use them for fields that should behave like one shared child container for everyone: one shared Text, one shared List, one shared Map, and so on. It should not matter which peer creates that child first. The rest of this post walks through why the problem exists and how the new encoding works.\nWhy This Happens\nCRDTs are usually good at cases like “multiple users editing the same text at the same time” or “multiple users inserting into the same list concurrently.” This issue happens one layer earlier: before the peers can edit the same List, Text, or Map, they first need to agree on which child container that key refers to.\nBefore Mergeable Containers, the recommended workaround was to initialize all required child containers as soon as the parent LoroMap was created. For example, if every note always needs a body text, creating that body together with the note avoids the first-creation race.\nThat workaround is useful, but it has limits. Some applications cannot know every child container ahead of time. A schema migration may add a new child container to existing documents. A calendar-like document may create child containers by date. A dynamic index may create one child container per user-defined key. In these cases, on-demand creation is natural, and concurrent first creation is hard to avoid.\nThe root cause is the way regular child Container IDs are represented. A normal child Container ID includes the OpID that created it. Concurrent first creation therefore creates different Container IDs, and the Map conflict-resolution rule decides which one is visible.\nThe issue is not that List insertion cannot merge. Once both peers are editing the same List, List edits merge normally. The issue is that the two peers created two different Lists at the same Map key.\nWhy Root Containers Are Naturally Mergeable\nIn Loro and Yjs, top-level",
+      "title": "Mergeable Containers: Fixing Concurrent Child Creation – Loro",
+      "url": "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers"
     },
     "https://component.gallery": {
       "content_type": "text/html",
@@ -13529,6 +13566,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -17253,20 +17304,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg"
     },
-    "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
-    },
     "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -17295,19 +17332,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
     },
-    "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg": {
+    "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+        "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+      "url": "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg"
+    },
+    "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HGQGvgAbkAAxOd8.jpg": {
       "cleaner_v": 2,
@@ -17955,6 +18006,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
+    },
+    "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "The biggest shift AI has brought to design isn’t that designers can now write production code. It’s that we can finally generate evidence before committing to anything. There’s a lot of conversation about AI affecting production: designers pushing code and shipping something closer to the final product. That matters. But the bigger opportunity is even …",
+      "extraction_source": "trafilatura",
+      "final_url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/Slack_Prototyping_Art_Article_800X800.png?resize=1024,1024",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/luca-masud.jpeg",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/production-code-image-1.png?w=1024",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/prototyping-as-evidence.gif",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/gallery.gif",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/unnamed-15-1.png?w=1024",
+        "https://slack.design/wp-content/uploads/sites/8/2026/06/unnamed-14-1.png?w=1024"
+      ],
+      "kind": "article",
+      "text_excerpt": "The biggest shift AI has brought to design isn’t that designers can now write production code. It’s that we can finally generate evidence before committing to anything.\nThere’s a lot of conversation about AI affecting production: designers pushing code and shipping something closer to the final product. That matters. But the bigger opportunity is even earlier: exploring a design space before anything gets built. Not prototypes that demonstrate a decision, but prototypes that stress-test one, built to find where a solution breaks.\nFrom Theory to Practice\nIn data visualization, building parametrized tools to explore a design space is standard practice. In product design, it rarely happens. Static mocks show what something looks like, not how it behaves across a distribution of real inputs. While engineers could build a throwaway prototype, they usually don’t. Their incentives are toward scale and production quality, not disposable experiments.\nAI-assisted coding is changing this. Before, exploration like this was possible in theory but rarely happened in practice. Now it only takes a couple of days, so it actually gets done.\nAt Slack, I applied this thinking across several recent projects. Two examples: an interactive prototype comparing gallery layout algorithms, and a max-width strategy tested against 272 million desktop sessions.\nFrom Mockups to Tools\nThe typical prototype represents a decision that’s already been made, built to demonstrate it. These prototypes work the other way: built when the decision is still open, generating distributions rather than single examples.\nFor the gallery layout, I put three algorithms side by side with interactive controls for tuning parameters. For the max-width explorer, I modeled Slack’s full window geometry and swept across four max-width strategies, seeing how each one projected across our actual screen-size distribution and where users land in comfortable versus problematic whitespace.\nNeither was built to ship. A few days of building replaced weeks of production iteration, surfacing edge cases invisible in Figma, and showing max-width behavior across every real screen size, not just a handful of breakpoints. The question shifted from “Which option looks right in this one comp?” to “Which option holds up everywhere?”\nEscalating Evidence\nOnce the prototype existed, the question changed from “Which layout is better?” to “How much of the system can I actually see?” For the gallery, what followed looks like iteration, but it’s really a progression in evidence:\n- Manual testing: I uploaded real images and evaluated the results by eye. This approach was limited to whatever images I happened to have on hand, with no way to know what edge cases I was missing.\n- Distribution-based generation: I generated images matching the actual aspect ratio distribution from real Slack uploads. This made it possible to see where the layout broke for specific image shapes, not just the ones that happened to be on my desktop.\n- Monte Carlo simulation: I ran thousands of simulations measuring specific metrics — letterbox rate, dead space, and overflow — to understand how an algorithm actually behaves at population scale.\n- Configuration sweep: I ran simulations across hundreds of parameter combinations and across algorithms, mapping the strengths and weaknesses of each approach and making the tradeoffs between them legible.\nEach step didn’t just make things faster. It made the system more legible. From a few cases, to distributions, to the full space of tradeoffs.\nOne caveat: collapsing multiple dimensions into a single score is harder than it sounds. For max-width, I scored hundreds of thousands of configurations. The numbers were precise, but the assumptions weren’t. The goal isn’t a single answer. It’s to expose the shape of the tradeoffs so the team can reason about them.\nNone of this required feature flags, staged rollouts, or user traffic. By the time I committed to a direction, the uncertainty had already",
+      "title": "How I Validated Design Decisions Before Writing Production Code • Slack Design",
+      "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar"
     },
     "https://spell.sh": {
       "content_type": "text/html; charset=utf-8",
@@ -18890,30 +18962,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Closing the Loop: What to Do After a Design Critique Ends - NN/G",
       "url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar"
-    },
-    "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "\"AI design\" is one label but has forked into four different types of work.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "https://media.nngroup.com/media/articles/opengraph_images/The_Four_Design_Jobs_AI_Created-1.png",
-        "https://media.nngroup.com/media/people/photos/20211213_Vegas-22.jpg.256x256_q75_autocrop_crop-smart_upscale.jpg",
-        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-metaphor-nng.png",
-        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-design-field-graph-nng.png",
-        "https://media.nngroup.com/media/videos/thumbnails/Maria_Use_AI_Responsibly_in_Analysis.png.650x364_q75_autocrop_crop-smart_upscale.png",
-        "https://media.nngroup.com/media/videos/thumbnails/AI_Interviewers_-_Maria_Rosala.png.650x364_q75_autocrop_crop-smart_upscale.png",
-        "https://media.nngroup.com/media/videos/thumbnails/Kate_and_Sarah_Outcome-Oriented_Design__The_Era_of_AI_Design.png.650x364_q75_autocrop_crop-smart_upscale.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "What Does “AI Design” Mean?\nWhen someone says “AI design,” everyone in the room pictures something different.\nOne person is thinking about using AI to generate component variations for a design system. Another is designing a chat interface. A third is structuring data so an AI agent can parse it. A fourth is defining an LLM’s behavior.\nThey all fall under “AI design” but they are not the same work.\nI see this in job postings, LinkedIn posts, and conference talks. Someone says, “We need to figure out our AI design strategy,” and every person at the table nods — while imagining a completely different thing. Six months later, everyone’s frustrated because the “AI-design initiative” was not what they expected.\nThe conversation around AI and design is forking. What used to be a single (admittedly vague) topic has split into at least four distinct orientations. Each one focuses on a different type of design work, sits in different organizational structures, and uses different definitions of what “good” looks like. Most teams are staffed for only one of these orientations, confused about which one they’re doing, or trying to dance between all of them without realizing it.\nSo, which of the four AI design orientations are you in?\nThe Engine and the Car\nAn AI model is an engine. A powerful, complex piece of technology under the hood. You can buy just the engine (companies like Anthropic and OpenAI sell directly to developers through their APIs). But most people never experience AI that way.\nMost people experience AI inside a “car”: the dashboard, the steering wheel, the seatbelt — all the parts that turn raw capability into something a person can actually drive. Most people don’t care how the engine works. They care that it gets them where they’re going.\nThis metaphor brings us to the four different meanings of “AI design”. Each of these meanings implies a different kinds of work, skills, questions, and success metrics. They’re not mutually exclusive, but they are very different.\nThe Four Meanings of “AI Design”\n[Laura Costantino](https://www.linkedin.com/in/lauracostantino/) sketched an early version of this framework in [a LinkedIn post](https://www.linkedin.com/posts/lauracostantino_ai-design-what-i-think-we-can-simplify-share-7437301579491201024-w4S8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaiZ8sBnWYk4RbV4A-hfCGQVp8VWvD9v3s). I've taken it in a different direction by reworking one of the categories and building out the rest.\n1. Designing with AI\nYou’re the driver. You're the driver behind the wheel.\nThis is the orientation most people think of first. You use AI in your design process: to [ideate](https://www.nngroup.com/topic/ux-ideation/), [prototype](https://www.nngroup.com/topic/prototyping/), generate [copy](https://www.nngroup.com/contents/self-paced-courses/informative-microcopy-titles-headings-cards-and-more/), build [mood boards](https://www.nngroup.com/articles/mood-boards/), run [competitive research/](https://www.nngroup.com/articles/competitive-usability-evaluations/)audits, or [critique](https://www.nngroup.com/contents/self-paced-courses/design-critiques-getting-actionable-feedback/) your own work. AI tools are your vehicles, and you use them to get somewhere further, faster.\nThis is where most designers live right now, and there’s nothing wrong with that. AI-as-tool is transformative for how design work gets done. Entire workflow steps that used to take hours now happen in minutes.\nThe pitfall is treating this type of work as all there is to “AI design.” Leadership says “we’re incorporating AI into our design practice” and what they mean is “our designers are using Claude Code now.” While this type of AI design is a start, it ignores every other way AI is reshaping design opportunity inside the organization.\n2. Designing AI Products\nYou’re the manufacturer. You're building the car (or duct-taping AI onto one that's already moving).\nThis is where you design the product or interface that delivers AI capabili",
-      "text_excerpt_zh": "当人们提到“AI 设计”时，房间里每个人脑海中浮现的画面都各不相同。\n\n有人想到的是用 AI 为设计系统生成组件变体；另一个人在设计聊天界面；第三个人在结构化数据，以便 AI 代理能够解析；第四个人则在定义 LLM 的行为。\n\n这些都属于“AI 设计”的范畴，但它们并不是同一类工作。\n\n我在招聘信息、LinkedIn 帖子和会议演讲中都看到了这种现象。有人说：“我们需要明确我们的 AI 设计策略。”桌子旁的每个人都点头附和——但每个人想象的却是完全不同的事情。六个月后，大家都很沮丧，因为“AI 设计计划”并不是他们预期的那样。\n\n围绕 AI 与设计的讨论正在分化。曾经单一（诚然有些模糊）的话题，如今已分裂成至少四个不同的方向。每个方向关注不同类型的设计工作，处于不同的组织架构中，并使用不同的“好”的标准。大多数团队只配备了其中一个方向的人员，或者对自己正在做哪个方向感到困惑，又或者试图在所有这些方向之间周旋，却浑然不觉。\n\n那么，你处于这四个 AI 设计方向中的哪一个呢？\n\n**引擎与汽车**\n\nAI 模型就像引擎。一项强大而复杂的技术，藏在引擎盖下。你可以只买引擎（像 Anthropic 和 OpenAI 这样的公司通过 API 直接向开发者销售）。但大多数人体验 AI 的方式并非如此。\n\n大多数人是在“汽车”内部体验 AI 的：仪表盘、方向盘、安全带——所有将原始能力转化为人们真正能驾驶的东西的部件。大多数人并不关心引擎如何工作。他们只关心它能带他们到达目的地。\n\n这个比喻引出了“AI 设计”的四种不同含义。每种含义都意味着不同类型的工作、技能、问题和成功指标。它们并非互斥，但差异巨大。\n\n**“AI 设计”的四种含义**\n\n[Laura Costantino](https://www.linkedin.com/in/lauracostantino/) 在 [一篇 LinkedIn 帖子](https://www.linkedin.com/posts/lauracostantino_ai-design-what-i-think-we-can-simplify-share-7437301579491201024-w4S8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaiZ8sBnWYk4RbV4A-hfCGQVp8VWvD9v3s) 中勾勒了这个框架的早期版本。我通过重新设计其中一个类别并完善其余部分，将其引向了不同的方向。\n\n**1. 使用 AI 进行设计**\n\n你是司机。你坐在方向盘后面。\n\n这是大多数人首先想到的方向。你在设计过程中使用 AI：用于 [构思](https://www.nngroup.com/topic/ux-ideation/)、[原型设计](https://www.nngroup.com/topic/prototyping/)、生成 [文案](https://www.nngroup.com/contents/self-paced-courses/informative-microcopy-titles-headings-cards-and-more/)、构建 [情绪板](https://www.nngroup.com/articles/mood-boards/)、进行 [竞争研究/审计](https://www.nngroup.com/articles/competitive-usability-evaluations/)，或 [批评](https://www.nngroup.com/contents/self-paced-courses/design-critiques-getting-actionable-feedback/) 自己的作品。AI 工具是你的交通工具，你利用它们更快、更远地到达目的地。\n\n这是目前大多数设计师所处的状态，这本身并没有错。AI 作为工具，对设计工作的完成方式具有变革性。过去需要数小时的整个工作流程步骤，现在几分钟内就能完成。\n\n陷阱在于将这类工作视为“AI 设计”的全部。领导层说“我们正在将 AI 融入我们的设计实践”，而他们的意思是“我们的设计师现在正在使用 Claude Code”。虽然这种类型的 AI 设计是一个开始，但它忽略了 AI 在组织内部重塑设计机会的所有其他方式。\n\n**2. 设计 AI 产品**\n\n你是制造商。你在制造汽车（或者将 AI 用胶带粘到一辆已经在行驶的汽车上）。\n\n这是你设计交付 AI 能力的产品或界面的地方。",
-      "text_excerpt_zh_hash": "01bd2b2205912677",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Four Design Jobs AI Created (So Far) - NN/G",
-      "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar"
     },
     "https://www.oreilly.com/library/view/ai-engineering/9781098166298/": {
       "cleaner_v": 2,
@@ -27680,8 +27728,8 @@
       "https://x.com/AlphaSignalAI/status/2063889311259611267",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
       "https://dora.dev/research/2025/dora-report/",
-      "https://x.com/AlphaSignalAI/status/2064350250786341326",
-      "http://x.com/i/article/2064290620416589824"
+      "https://x.com/AlphaSignalAI/status/2064679313819984093",
+      "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
     ],
     "2063907440509571354": [
       "https://x.com/neural_avb/status/2063907440509571354",
@@ -27729,16 +27777,16 @@
       "https://x.com/AashiDutt/status/2064012846065958966",
       "http://x.com/i/article/2062938717573259264",
       "https://x.com/AashiDutt/status/2064122425370136809",
-      "https://x.com/AashiDutt/status/2064402039925563712",
-      "https://pbs.twimg.com/media/HKY6Nspa8AAHaYP.jpg"
+      "https://x.com/AashiDutt/status/2064754311742296524",
+      "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg"
     ],
     "2064036299825160400": [
       "https://x.com/cyrilXBT/status/2064036299825160400",
       "http://x.com/i/article/2059468354927108099",
       "https://x.com/cyrilXBT/status/2064041029838217377",
-      "https://x.com/cyrilXBT/status/2064041008657051926",
       "https://x.com/cyrilXBT/status/2064041920347668719",
-      "https://x.com/cyrilXBT/status/2064037796759650559"
+      "https://x.com/cyrilXBT/status/2064037796759650559",
+      "https://x.com/cyrilXBT/status/2064041008657051926"
     ],
     "2064060467975520341": [
       "https://x.com/mitsuhiko/status/2064060467975520341",
@@ -27771,15 +27819,14 @@
       "https://x.com/AlphaSignalAI/status/2064345846326374805",
       "https://alphasignal.ai/newsletter",
       "https://x.com/AlphaSignalAI/status/2064105456541323754",
-      "https://x.com/AlphaSignalAI/status/2064331217411907923",
-      "https://x.com/AlphaSignalAI/status/2064329635970613311",
-      "https://x.com/AlphaSignalAI/status/2064329501757051371",
       "https://x.com/AlphaSignalAI/status/2064332097989341628",
-      "https://x.com/AlphaSignalAI/status/2064331573428682907",
-      "https://x.com/AlphaSignalAI/status/2064330309823287575",
+      "https://x.com/AlphaSignalAI/status/2064331217411907923",
+      "https://x.com/AlphaSignalAI/status/2064329501757051371",
       "https://x.com/AlphaSignalAI/status/2064330705572671887",
+      "https://x.com/AlphaSignalAI/status/2064329635970613311",
+      "https://x.com/AlphaSignalAI/status/2064331573428682907",
       "https://x.com/AlphaSignalAI/status/2064331654538080258",
-      "https://x.com/AlphaSignalAI/status/2064330023146840223",
+      "https://x.com/AlphaSignalAI/status/2064330309823287575",
       "https://x.com/AlphaSignalAI/status/2064331929277661623"
     ],
     "2064152622928728099": [
@@ -27793,7 +27840,8 @@
       "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg",
       "https://x.com/9hills/status/2064156903689891988",
       "https://www.langchain.com/blog/tuning-deep-agents-different-models",
-      "https://x.com/9hills/status/2064183114549883128"
+      "https://x.com/9hills/status/2064183114549883128",
+      "https://x.com/9hills/status/2064711680345751727"
     ],
     "2064157228400341312": [
       "https://x.com/agent_wrapper/status/2064157228400341312",
@@ -27846,9 +27894,9 @@
       "https://x.com/SidebarIO/status/2064361390685438035",
       "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar",
       "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg",
-      "https://x.com/SidebarIO/status/2064704643687477257",
-      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
-      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+      "https://x.com/SidebarIO/status/2064759254993498364",
+      "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
     ],
     "2064374643729773029": [
       "https://x.com/0xCodez/status/2064374643729773029",
@@ -27867,9 +27915,9 @@
       "https://linear.app/now/code-review-should-be-fast",
       "https://x.com/linear/status/2064407081881653700",
       "https://linearstatus.com",
-      "https://x.com/linear/status/2064399535716364621",
+      "https://x.com/linear/status/2064399151874658725",
       "https://linearstatus.com/",
-      "https://x.com/linear/status/2064399151874658725"
+      "https://x.com/linear/status/2064399535716364621"
     ],
     "2064393462028669176": [
       "https://x.com/MatthewBerman/status/2064393462028669176",
@@ -27881,9 +27929,9 @@
       "https://x.com/SidebarIO/status/2064396870789538159",
       "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar",
       "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg",
-      "https://x.com/SidebarIO/status/2064704643687477257",
-      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
-      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+      "https://x.com/SidebarIO/status/2064759254993498364",
+      "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
     ],
     "2064397389189071163": [
       "https://x.com/RLanceMartin/status/2064397389189071163",
@@ -27892,8 +27940,24 @@
     "2064397495036440907": [
       "https://x.com/nifinet/status/2064397495036440907",
       "http://x.com/i/article/2064389744268914689",
-      "https://x.com/nifinet/status/2064459157307261082",
-      "https://x.com/nifinet/status/2064699185878745154"
+      "https://x.com/nifinet/status/2064772029291868520",
+      "https://x.com/nifinet/status/2064769117509628405",
+      "https://x.com/nifinet/status/2064768913448349830",
+      "https://x.com/nifinet/status/2064772046756983182",
+      "https://x.com/nifinet/status/2064769313052180875",
+      "https://x.com/nifinet/status/2064768993492406707",
+      "https://x.com/nifinet/status/2064768641749623133",
+      "https://x.com/nifinet/status/2064766418663715000",
+      "https://x.com/nifinet/status/2064768550385143998",
+      "https://x.com/nifinet/status/2064769014115750141",
+      "https://x.com/nifinet/status/2064768582266089605",
+      "https://x.com/nifinet/status/2064766286706688300",
+      "https://x.com/nifinet/status/2064766270705393704",
+      "https://x.com/nifinet/status/2064766443833684004",
+      "https://x.com/nifinet/status/2064766303446163936",
+      "https://x.com/nifinet/status/2064764021048574403",
+      "https://x.com/nifinet/status/2064766133211988391",
+      "https://x.com/nifinet/status/2064769229195538568"
     ],
     "2064398479011860621": [
       "https://x.com/RLanceMartin/status/2064398479011860621",
@@ -27904,7 +27968,10 @@
       "http://x.com/i/article/2064400841029910528"
     ],
     "2064418523192136110": [
-      "https://x.com/langfuse/status/2064418523192136110"
+      "https://x.com/langfuse/status/2064418523192136110",
+      "https://x.com/langfuse/status/2064712194269257930",
+      "http://langfuse.com/integrations/other/hermes",
+      "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg"
     ],
     "2064447011953225770": [
       "https://x.com/Mnilax/status/2064447011953225770",
@@ -27914,8 +27981,14 @@
       "https://x.com/simonw/status/2064464986819457210",
       "http://agentsview.io",
       "https://til.simonwillison.net/llms/agentsview-custom-model-price"
+    ],
+    "2064722736979804455": [
+      "https://x.com/ewind_dev/status/2064722736979804455",
+      "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers",
+      "https://x.com/ewind_dev/status/2064722741853602245",
+      "https://x.com/ewind_dev/status/2063864648928243770"
     ]
   },
-  "updated_at": "2026-06-10T14:29:17Z",
+  "updated_at": "2026-06-10T18:10:01Z",
   "window": "recent"
 }
