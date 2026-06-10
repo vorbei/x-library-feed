@@ -5411,6 +5411,19 @@
       "title": "",
       "url": "http://x.com/i/article/2064420014120128512"
     },
+    "http://x.com/i/article/2064425685834207232": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064425685834207232",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKZdjSlXwAAymKr?format=jpg&name=900x900)](http://x.com/Mnilax/article/2064447011953225770/media/2064440340061339648)\n\nClaude Fable 5: the exact setup to get maximum quality before the free window closes\n\n[![](https://pbs.twimg.com/profile_images/2007608177492217856/3gdItGwC_normal.jpg)](http://x.com/Mnilax)\n\n[Mnimiy](http://x.com/Mnilax)\n\n[@Mnilax](http://x.com/Mnilax)\n\n·\n\n17h\n\nFollow\n\nClick to Follow Mnilax\n\n7\n\n25\n\n274\n\n[38K](http://x.com/Mnilax/status/2064447011953225770/analytics)\n\nOn roughly 1 in 20 prompts, the most capable Claude model ever shipped won't be the one answering you.\n\nMost people will flip the dropdown to Fable 5 today and never notice the three flagged areas where it quietly hands the prompt to a weaker model, or that the free access closes in 13 days.\n\nI spent launch day putting it on four real projects and mapping every fallback trigger and config knob, so you don't burn the window guessing.\n\nBelow: the exact setup to pull maximum Fable 5 quality before the meter turns on, where it silently routes you to Opus 4.8, and the bugs it surfaced that nothing caught for months.\n\n# \n\nWhat actually shipped\n\nTwo models, one brain.\n\nFable 5 is the new flagship, available to everyone. Mythos 5 is the same underlying model with the cybersecurity safeguards lifted, restricted to Project Glasswing partners and a coming trusted-access program. The only thing separating the two is the safeguards.\n\nThe name is the tell: fable comes from the Latin fabula, \"that which is told,\" a sibling in meaning to the Greek mythos. It is the strongest model Anthropic has ever put in front of the public.\n\nOn SWE-Bench Pro it scores 80.3% against Opus 4.8's 69.2%, GPT 5.5's 58.6%, and Gemini 3.1 Pro's 54.2%. On Terminal-Bench 2.1, 88.0%. On GDPval-AA knowledge work, 1932 to Opus 4.8's 1890.\n\nThe pattern that matters more than any single number: the longer and more complex the task, the bigger the lead. This is not a model that wins on one-liners. It wins on the jobs you've been afraid to hand off.\n\nPrice is $10 per million input tokens, $50 per million output. Less than half of what Mythos Preview cost.\n\nThe advantage compounds on big work. In early testing, Stripe ran a codebase-wide migration on a 50-million-line Ruby codebase in a single day, work that would have taken a team over two months by hand.\n\n[![Image](https://pbs.twimg.com/media/HKZfV3eWwAAw8-Y?format=jpg&name=small)](http://x.com/Mnilax/article/2064447011953225770/media/2064442308469112832)\n\n# \n\nThe silent fallback: \\~5% of the time you're not talking to Fable\n\nThis is the part nobody is going to read in the announcement, and it changes how you route work.\n\nFable ships with a set of classifiers: separate systems that watch each prompt. When a request looks like it touches cybersecurity, biology and chemistry, or distillation, the response is handled by Claude Opus 4.8 instead of Fable, and you get told it happened.\n\nMore than 95% of sessions never hit a fallback. For those sessions, Fable 5 is effectively identical to Mythos 5\\. The premium model is the default experience.\n\nBut if your work lives in one of those three buckets, you are often getting Opus 4.8, not the flagship you selected. Three things to internalize:\n\n* Security work falls back, by design. The cyber classifier is built to stop Fable from making progress on offensive tasks. Under automated red-teaming, Fable's offensive-task success rate sits at 5.4%, down from Opus 4.8's 56.6% and Opus 4.6's 83.2%. That's not Fable being worse at security. That's the safeguard doing exactly its job. If you do pentest, exploit, or red-team work, expect the fallback and don't waste turns fighting it.\n* Bio and chem are netted broadly right now. Anthropic tuned these conservatively to ship safely and fast, which means even benign chemistry or biology questions can trigger a fa",
+      "title": "",
+      "url": "http://x.com/i/article/2064425685834207232"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6507,24 +6520,6 @@
       "text_excerpt_zh": "",
       "title": "Practical Deep Learning for Coders - Practical Deep Learning",
       "url": "https://course.fast.ai/"
-    },
-    "https://css-generators.com/center/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "100 different ways to center a single element horizontally and vertically inside a container.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://css-generators.com/center/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://css-generators.com/center/center.jpg"
-      ],
-      "kind": "unknown",
-      "text_excerpt": "Do you still think centering in CSS is hard? Find below 100  different methods to center a single element  inside a container.\n    \t\t<div class=\"container\">\n  <div class=\"item\">Content</div>\n</div> Many of the methods are hacky and not recommended, but it's funny to illustrate all the possible ways to center an element.red codes !\n       \n      \n  \t\t\t\n  \t\t\t\t.container {\n  display: grid;\n  place-content: center;\n}\n  \t\t\t\tCopy the CSS \n  \t\t\t \n        \n          .container {\n  display: grid;\n  place-content: space-around;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n  place-content: space-evenly;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n  place-items: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n}\n.item {\n  place-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n}\n.item {\n  margin: auto;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n  grid: 1fr auto 1fr/1fr auto 1fr;\n}\n.item {\n  grid-area: 2/2;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: grid;\n  grid: \n    1fr [x] auto [x] 1fr/\n    1fr [x] auto [x] 1fr;\n}\n.item {\n  grid-area: x;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: space-around;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: space-evenly;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n}\n.item {\n  margin: auto;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  justify-content: center;\n}\n.item {\n  align-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  justify-content: space-around;\n}\n.item {\n  align-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  justify-content: space-evenly;\n}\n.item {\n  align-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n  align-items: center;\n}\n.container:before,\n.container:after {\n  content: \"\";\n  flex: 1;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: flex;\n}\n.container:before,\n.container:after {\n  content: \"\";\n  flex: 1;\n}\n.item {\n  align-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: center;\n  justify-items: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: space-around;\n  justify-items: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: space-evenly;\n  justify-items: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: center;\n}\n.item {\n  justify-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: space-around;\n}\n.item {\n  justify-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: space-evenly;\n}\n.item {\n  justify-self: center;\n}\n          Copy the CSS \n         \n        \n          .container {\n  display: block;\n  align-content: center",
-      "text_excerpt_zh": "你还觉得用CSS居中很难吗？下面列出了100种不同的方法，用于在容器内居中一个元素。\n```html\n<div class=\"container\">\n  <div class=\"item\">Content</div>\n</div>\n```\n其中很多方法比较取巧，不推荐使用，但用来展示所有可能的居中方式还是挺有趣的。\n\n```css\n.container {\n  display: grid;\n  place-content: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n  place-content: space-around;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n  place-content: space-evenly;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n  place-items: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n}\n.item {\n  place-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n}\n.item {\n  margin: auto;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n  grid: 1fr auto 1fr/1fr auto 1fr;\n}\n.item {\n  grid-area: 2/2;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: grid;\n  grid: \n    1fr [x] auto [x] 1fr/\n    1fr [x] auto [x] 1fr;\n}\n.item {\n  grid-area: x;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: space-around;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  place-content: space-evenly;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n}\n.item {\n  margin: auto;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  justify-content: center;\n}\n.item {\n  align-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  justify-content: space-around;\n}\n.item {\n  align-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  justify-content: space-evenly;\n}\n.item {\n  align-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n  align-items: center;\n}\n.container:before,\n.container:after {\n  content: \"\";\n  flex: 1;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: flex;\n}\n.container:before,\n.container:after {\n  content: \"\";\n  flex: 1;\n}\n.item {\n  align-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: center;\n  justify-items: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: space-around;\n  justify-items: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: space-evenly;\n  justify-items: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: center;\n}\n.item {\n  justify-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: space-around;\n}\n.item {\n  justify-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: space-evenly;\n}\n.item {\n  justify-self: center;\n}\n```\n复制CSS\n\n```css\n.container {\n  display: block;\n  align-content: center;\n```",
-      "text_excerpt_zh_hash": "0e615cc9920e28d2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How to center an element horizontally and vertically",
-      "url": "https://css-generators.com/center/?ref=sidebar"
     },
     "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar": {
       "cleaner_v": 2,
@@ -17274,33 +17269,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg"
     },
-    "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg": {
+    "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+        "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+      "url": "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
     },
-    "https://pbs.twimg.com/media/HKYtUTtWsAAe5JK.jpg": {
+    "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKYtUTtWsAAe5JK.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKYtUTtWsAAe5JK.jpg"
+        "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKYtUTtWsAAe5JK.jpg"
+      "url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HGQGvgAbkAAxOd8.jpg": {
       "cleaner_v": 2,
@@ -17916,26 +17911,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Outcome-based pricing for AI Agents | Sierra",
       "url": "https://sierra.ai/blog/outcome-based-pricing-for-ai-agents"
-    },
-    "https://simonwillison.net/2026/Jun/9/claude-fable-5/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "I didn’t have early access to today’s Claude Fable 5 release, but I’ve spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is …",
-      "extraction_source": "trafilatura",
-      "final_url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/",
-      "frameable": null,
-      "image_urls": [
-        "https://static.simonwillison.net/static/2026/fable-max.jpg",
-        "https://static.simonwillison.net/static/2026/agentsview-fable-full-day.jpg",
-        "https://static.simonwillison.net/static/2026/fable-low.jpg",
-        "https://static.simonwillison.net/static/2026/fable-medium.jpg",
-        "https://static.simonwillison.net/static/2026/fable-high.jpg",
-        "https://static.simonwillison.net/static/2026/fable-xhigh.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Initial impressions of Claude Fable 5\n9th June 2026\nI didn’t have early access to today’s [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) release, but I’ve spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast. It’s slow, expensive and has been quite happily churning through everything I’ve thrown at it so far. As is frequently the case with current frontier models the challenge is finding tasks that it can’t do.\nFirst, let’s review the key characteristics.\nAnthropic claim that [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) offers the same performance as Claude Mythos 5, except with much more strict guardrails in place to prevent it being used for harmful things. Those guardrails trigger often enough that the Claude API has new mechanisms for letting you know when you hit them, and even has a [new option](https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback) to request it falls back to another model automatically if something gets rejected.\nClaude Mythos 5 is out today as well, [Anthropic say it](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5) “Shares Claude Fable 5’s capabilities without the safety classifiers”.\nThe models have a 1 million token context window, 128,000 maximum output tokens and a knowledge cut-off date of January 2026.\nThey are priced at twice the price of Claude Opus 4.5/4.6/4.7/4.8: $10/million input tokens and $50/million output tokens. There’s no increase in price for longer context usage.\nOther than that the [upgrade guide](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5) is substantially thinner than [the similar guide for Opus 4.8](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8).\nThe big model smell\nThe best way to describe Fable is that it feels big. Not just in terms of speed and cost, but also in how much it knows.\nHere’s an example prompt, which I used to compare Fable’s knowledge with Opus 4.8 (typo included):\nList all of Simon Willion's open source projects, most recent first, each with a rough date of when they were first released\nOpus 4.8’s reply [started like this](https://gist.github.com/simonw/e77abf645156ade8c5c610f524226dcb#response-1):\nI don’t have a reliable, comprehensive, and date-verified list of all of Simon Willison’s open source projects, and I want to be honest about that rather than risk giving you inaccurate dates or fabricated entries.\nHere’s what I can tell you with reasonable confidence:\nWell-known projects by Simon Willison:\nLLM (~2023) – A command-line tool and Python library for interacting with large language models.\nDatasette (~2017) – A tool for exploring and publishing data, probably his most prominent recent project.\nsqlite-utils (~2018-2019) – A Python library and CLI tool for manipulating SQLite databases, often used alongside Datasette.\nDjango (2005) – He is one of the co-creators of the Django web framework, along with Adrian Holovaty, originally developed at the Lawrence Journal-World newspaper.\nHe also maintains a large ecosystem of Datasette plugins and many smaller utilities (often with names like\nshot-scraper, various*-to-sqlitetools for importing data, etc.).\nThat’s not bad. Here’s [the start of the response](https://gist.github.com/simonw/e77abf645156ade8c5c610f524226dcb#response) for the exact same prompt from Fable 5—both models were running without access to search:\nI think you mean Simon Willison — the prolific open source developer, co-creator of Django, and creator of Datasette.\nAn important caveat upfront: a truly complete list isn’t feasible. Simon Willison is famously prolific — he has published hundreds of repositories (Datasette alone has 100+ plugins, many written by him), and my knowledge has a cutoff date, so I’ll be missing his most recent work. Below are his notable pr",
-      "title": "Initial impressions of Claude Fable 5",
-      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/"
     },
     "https://simonwillison.net/2026/May/25/encyclical-on-ai/": {
       "cleaner_v": 2,
@@ -18900,6 +18875,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Closing the Loop: What to Do After a Design Critique Ends - NN/G",
       "url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar"
+    },
+    "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "\"AI design\" is one label but has forked into four different types of work.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://media.nngroup.com/media/articles/opengraph_images/The_Four_Design_Jobs_AI_Created-1.png",
+        "https://media.nngroup.com/media/people/photos/20211213_Vegas-22.jpg.256x256_q75_autocrop_crop-smart_upscale.jpg",
+        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-metaphor-nng.png",
+        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-design-field-graph-nng.png",
+        "https://media.nngroup.com/media/videos/thumbnails/Maria_Use_AI_Responsibly_in_Analysis.png.650x364_q75_autocrop_crop-smart_upscale.png",
+        "https://media.nngroup.com/media/videos/thumbnails/AI_Interviewers_-_Maria_Rosala.png.650x364_q75_autocrop_crop-smart_upscale.png",
+        "https://media.nngroup.com/media/videos/thumbnails/Kate_and_Sarah_Outcome-Oriented_Design__The_Era_of_AI_Design.png.650x364_q75_autocrop_crop-smart_upscale.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "What Does “AI Design” Mean?\nWhen someone says “AI design,” everyone in the room pictures something different.\nOne person is thinking about using AI to generate component variations for a design system. Another is designing a chat interface. A third is structuring data so an AI agent can parse it. A fourth is defining an LLM’s behavior.\nThey all fall under “AI design” but they are not the same work.\nI see this in job postings, LinkedIn posts, and conference talks. Someone says, “We need to figure out our AI design strategy,” and every person at the table nods — while imagining a completely different thing. Six months later, everyone’s frustrated because the “AI-design initiative” was not what they expected.\nThe conversation around AI and design is forking. What used to be a single (admittedly vague) topic has split into at least four distinct orientations. Each one focuses on a different type of design work, sits in different organizational structures, and uses different definitions of what “good” looks like. Most teams are staffed for only one of these orientations, confused about which one they’re doing, or trying to dance between all of them without realizing it.\nSo, which of the four AI design orientations are you in?\nThe Engine and the Car\nAn AI model is an engine. A powerful, complex piece of technology under the hood. You can buy just the engine (companies like Anthropic and OpenAI sell directly to developers through their APIs). But most people never experience AI that way.\nMost people experience AI inside a “car”: the dashboard, the steering wheel, the seatbelt — all the parts that turn raw capability into something a person can actually drive. Most people don’t care how the engine works. They care that it gets them where they’re going.\nThis metaphor brings us to the four different meanings of “AI design”. Each of these meanings implies a different kinds of work, skills, questions, and success metrics. They’re not mutually exclusive, but they are very different.\nThe Four Meanings of “AI Design”\n[Laura Costantino](https://www.linkedin.com/in/lauracostantino/) sketched an early version of this framework in [a LinkedIn post](https://www.linkedin.com/posts/lauracostantino_ai-design-what-i-think-we-can-simplify-share-7437301579491201024-w4S8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaiZ8sBnWYk4RbV4A-hfCGQVp8VWvD9v3s). I've taken it in a different direction by reworking one of the categories and building out the rest.\n1. Designing with AI\nYou’re the driver. You're the driver behind the wheel.\nThis is the orientation most people think of first. You use AI in your design process: to [ideate](https://www.nngroup.com/topic/ux-ideation/), [prototype](https://www.nngroup.com/topic/prototyping/), generate [copy](https://www.nngroup.com/contents/self-paced-courses/informative-microcopy-titles-headings-cards-and-more/), build [mood boards](https://www.nngroup.com/articles/mood-boards/), run [competitive research/](https://www.nngroup.com/articles/competitive-usability-evaluations/)audits, or [critique](https://www.nngroup.com/contents/self-paced-courses/design-critiques-getting-actionable-feedback/) your own work. AI tools are your vehicles, and you use them to get somewhere further, faster.\nThis is where most designers live right now, and there’s nothing wrong with that. AI-as-tool is transformative for how design work gets done. Entire workflow steps that used to take hours now happen in minutes.\nThe pitfall is treating this type of work as all there is to “AI design.” Leadership says “we’re incorporating AI into our design practice” and what they mean is “our designers are using Claude Code now.” While this type of AI design is a start, it ignores every other way AI is reshaping design opportunity inside the organization.\n2. Designing AI Products\nYou’re the manufacturer. You're building the car (or duct-taping AI onto one that's already moving).\nThis is where you design the product or interface that delivers AI capabili",
+      "title": "The Four Design Jobs AI Created (So Far) - NN/G",
+      "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar"
     },
     "https://www.oreilly.com/library/view/ai-engineering/9781098166298/": {
       "cleaner_v": 2,
@@ -27698,8 +27694,8 @@
       "https://x.com/_rohit_tiwari_/status/2063983267179872474",
       "https://github.com/analyticalrohit/llms-from-scratch",
       "https://x.com/_rohit_tiwari_/status/2064066219452588459",
-      "https://x.com/_rohit_tiwari_/status/2064025481536823385",
-      "https://x.com/_rohit_tiwari_/status/2064066114708287542"
+      "https://x.com/_rohit_tiwari_/status/2064066114708287542",
+      "https://x.com/_rohit_tiwari_/status/2064025481536823385"
     ],
     "2063983640535847093": [
       "https://x.com/amitiitbhu/status/2063983640535847093",
@@ -27757,14 +27753,15 @@
       "https://x.com/AlphaSignalAI/status/2064345846326374805",
       "https://alphasignal.ai/newsletter",
       "https://x.com/AlphaSignalAI/status/2064105456541323754",
-      "https://x.com/AlphaSignalAI/status/2064332097989341628",
       "https://x.com/AlphaSignalAI/status/2064331217411907923",
-      "https://x.com/AlphaSignalAI/status/2064329501757051371",
-      "https://x.com/AlphaSignalAI/status/2064330705572671887",
       "https://x.com/AlphaSignalAI/status/2064329635970613311",
+      "https://x.com/AlphaSignalAI/status/2064329501757051371",
+      "https://x.com/AlphaSignalAI/status/2064332097989341628",
       "https://x.com/AlphaSignalAI/status/2064331573428682907",
-      "https://x.com/AlphaSignalAI/status/2064331654538080258",
       "https://x.com/AlphaSignalAI/status/2064330309823287575",
+      "https://x.com/AlphaSignalAI/status/2064330705572671887",
+      "https://x.com/AlphaSignalAI/status/2064331654538080258",
+      "https://x.com/AlphaSignalAI/status/2064330023146840223",
       "https://x.com/AlphaSignalAI/status/2064331929277661623"
     ],
     "2064152622928728099": [
@@ -27819,8 +27816,8 @@
       "http://x.com/i/article/2064290620416589824",
       "https://x.com/AlphaSignalAI/status/2064350363596255432",
       "https://github.com/alibaba/open-code-review",
-      "https://x.com/AlphaSignalAI/status/2064364907722616841",
-      "https://pbs.twimg.com/media/HKYY8XiXEAEoHWz.jpg"
+      "https://x.com/AlphaSignalAI/status/2064679313819984093",
+      "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
     ],
     "2064358779940995141": [
       "https://x.com/mfpiccolo/status/2064358779940995141",
@@ -27831,15 +27828,15 @@
       "https://x.com/SidebarIO/status/2064361390685438035",
       "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar",
       "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg",
-      "https://x.com/SidebarIO/status/2064396870789538159",
-      "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar",
-      "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg"
+      "https://x.com/SidebarIO/status/2064704643687477257",
+      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
     ],
     "2064374643729773029": [
       "https://x.com/0xCodez/status/2064374643729773029",
       "http://x.com/i/article/2064357550225510400",
-      "https://x.com/0xCodez/status/2064380097755295876",
       "https://x.com/0xCodez/status/2064381086268821771",
+      "https://x.com/0xCodez/status/2064380097755295876",
       "https://x.com/0xCodez/status/2064378547842466166"
     ],
     "2064376652331728919": [
@@ -27866,9 +27863,9 @@
       "https://x.com/SidebarIO/status/2064396870789538159",
       "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar",
       "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg",
-      "https://x.com/SidebarIO/status/2064387310053916954",
-      "https://css-generators.com/center/?ref=sidebar",
-      "https://pbs.twimg.com/media/HKYtUTtWsAAe5JK.jpg"
+      "https://x.com/SidebarIO/status/2064704643687477257",
+      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
     ],
     "2064397389189071163": [
       "https://x.com/RLanceMartin/status/2064397389189071163",
@@ -27877,7 +27874,8 @@
     "2064397495036440907": [
       "https://x.com/nifinet/status/2064397495036440907",
       "http://x.com/i/article/2064389744268914689",
-      "https://x.com/nifinet/status/2064459157307261082"
+      "https://x.com/nifinet/status/2064459157307261082",
+      "https://x.com/nifinet/status/2064699185878745154"
     ],
     "2064398479011860621": [
       "https://x.com/RLanceMartin/status/2064398479011860621",
@@ -27887,14 +27885,19 @@
       "https://x.com/lotte_verheyden/status/2064415370761646410",
       "http://x.com/i/article/2064400841029910528"
     ],
+    "2064418523192136110": [
+      "https://x.com/langfuse/status/2064418523192136110"
+    ],
+    "2064447011953225770": [
+      "https://x.com/Mnilax/status/2064447011953225770",
+      "http://x.com/i/article/2064425685834207232"
+    ],
     "2064464986819457210": [
       "https://x.com/simonw/status/2064464986819457210",
       "http://agentsview.io",
-      "https://til.simonwillison.net/llms/agentsview-custom-model-price",
-      "https://x.com/simonw/status/2064501565738930433",
-      "https://simonwillison.net/2026/Jun/9/claude-fable-5/"
+      "https://til.simonwillison.net/llms/agentsview-custom-model-price"
     ]
   },
-  "updated_at": "2026-06-10T11:04:14Z",
+  "updated_at": "2026-06-10T14:29:17Z",
   "window": "recent"
 }
