@@ -54,6 +54,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Nice improvements\nhttps://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison",
+      "text_zh": "不错的改进\nhttps://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison",
+      "text_zh_hash": "fd55de61a8d616b9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nlevin/status/2064745690958635405"
     },
     {
@@ -108,6 +111,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic CEO:\n\n\"We use Claude Code across all stages of product development cycle. That's how we ship so fast.\"\n\nIn a 1-hour interview, Dario Amodei reveals how the fastest-growing AI company runs on its own model.\n\n\"Claude + loops + routines + dynamic workflows\" - that's the secret.\n\nWatch this interview or read the article on the same setup below.",
+      "text_zh": "Anthropic CEO：\n\n“我们在产品开发周期的所有阶段都使用 Claude Code。这就是我们能够如此快速交付的原因。”\n\n在一小时的访谈中，Dario Amodei 揭示了这家增长最快的 AI 公司如何依靠自身模型运转。\n\n“Claude + 循环 + 例行程序 + 动态工作流”——这就是秘诀。\n\n观看本次访谈，或阅读下方关于相同配置的文章。",
+      "text_zh_hash": "9d701194df9364ca",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xCodez/status/2064710547795300382"
     },
     {
@@ -150,6 +156,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Reminder: most suggestions you’ll read about “killer prompts to use with Fable” are not good for Fable. \n\nAnthropic published a guide for how different prompting is with their new token torching model:\n\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "text_zh": "提醒：你读到的关于“与Fable配合使用的杀手级提示”的大多数建议，并不适用于Fable。\n\nAnthropic 发布了一份指南，说明如何针对其新的高消耗令牌模型采用不同的提示方式：\n\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "text_zh_hash": "d689051a252be754",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/trevin/status/2064727024288317658"
     },
     {
@@ -244,6 +253,9 @@
         "bookmark@chumsdock"
       ],
       "text": "iMessage is one of the most used messaging channels in America. Yet support for it in personal assistants has always been fragile.\n\nWe partnered with @NousResearch to fix that.\n\nNow anyone can connect to iMessage, on any OS, and unlock entirely new iMessage experiences. https://t.co/quhQIn815M",
+      "text_zh": "iMessage 是美国最常用的即时通讯渠道之一。然而，个人助手对其的支持一直不够稳定。\n\n我们与 @NousResearch 合作解决了这一问题。\n\n现在，任何人都可以在任何操作系统上连接 iMessage，解锁全新的 iMessage 体验。https://t.co/quhQIn815M",
+      "text_zh_hash": "607639a69afced71",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ryanzhuuuu/status/2064783001465331804"
     },
     {
@@ -342,6 +354,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Now make it a calendar integration!\n\nhttps://julian.digital/2023/07/06/multi-layered-calendars/ https://t.co/qpKUs6UTVI",
+      "text_zh": "现在把它做成日历集成！\n\nhttps://julian.digital/2023/07/06/multi-layered-calendars/ https://t.co/qpKUs6UTVI",
+      "text_zh_hash": "6fae642d60b17ac6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/julianlehr/status/2064752668082340186"
     },
     {
@@ -469,6 +484,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Killer playbook for multi-Mac agent setup. Great \"how to\" guide for Agent Cookie to have your primary Mac and your MacMini agent machine be logged into all the same things with magic cookie sync.  https://github.com/mvanhorn/agentcookie",
+      "text_zh": "多Mac代理设置终极指南。一份优秀的\"操作手册\"，教你如何通过Agent Cookie让主Mac和MacMini代理机器同步登录所有账户，实现神奇的Cookie同步。https://github.com/mvanhorn/agentcookie",
+      "text_zh_hash": "7db38ee10b3bbb72",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mvanhorn/status/2064771612579393568"
     },
     {
@@ -603,6 +621,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Anthropic and OpenAI are both telling engineers to write loops.\n\nNot prompts.\nNot agents.\nLoops.\n\nThat is not a coincidence.\n\nWhen the two most important AI labs on the planet independently converge on the same pattern — that is a signal worth paying attention to.\n\nMost engineers are still thinking in terms of single calls.\n\nInput → model → output.\n\nThe engineers winning in 2026 think in cycles.\n\nOutput becomes input. The model evaluates its own work. The loop runs until the result is right.\n\nThis is the complete breakdown of what loops are, why they matter, and how to build them ↓",
+      "text_zh": "Anthropic 和 OpenAI 都在告诉工程师们写循环。\n\n不是提示词。\n不是智能体。\n是循环。\n\n这绝非巧合。\n\n当全球最重要的两家 AI 实验室不约而同地聚焦于同一种模式时——这是一个值得关注的信号。\n\n大多数工程师仍停留在单次调用的思维里。\n\n输入 → 模型 → 输出。\n\n而在 2026 年脱颖而出的工程师们，思考的是循环。\n\n输出变成输入。模型评估自己的工作。循环持续运行，直到结果正确为止。\n\n以下是对循环的完整解析：什么是循环、为何重要、以及如何构建 ↓",
+      "text_zh_hash": "b162003ada68ff0e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sairahul1/status/2064343621130932644"
     },
     {
@@ -725,6 +746,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Joe Lonsdale shared the following with Palantir back in 2010, as part of key lessons from Peter Thiel. It hits at the root of why the last 10% (and 0.01%) matters.\n\n--\nObsess over perfection\n\n\"If you are designing something that a customer is going to use or that will represent us in public, it’s not good enough unless it’s flawless and extraordinary.\n\nEspecially in software, many situations have winner-take-all dynamics due to network effects and switching costs. Being the winner means being in the 99.99-percentile. A winner at the top takes nearly everything, and only a pittance goes to the others — so being 99.99-percentile is worth an order of magnitude or two more than being just 98-percentile. If it’s 1am and you’ve already got something that is very good, this is why it’s worth spending the next couple of hours to make it amazing.\"",
+      "text_zh": "乔·朗斯代尔在2010年与Palantir分享了以下内容，作为彼得·蒂尔的关键经验之一。它直指为何最后10%（乃至0.01%）至关重要。\n\n--\n\n**痴迷于完美**\n\n\"如果你正在设计一款客户将要使用、或代表我们面向公众的产品，那么除非它完美无瑕且卓越非凡，否则就不够好。\n\n尤其在软件领域，由于网络效应和转换成本，许多情况都呈现赢家通吃的格局。成为赢家意味着跻身99.99%的顶尖行列。顶层的赢家几乎拿走一切，而其他人只能分得残羹——因此，达到99.99%的水平，其价值比仅仅达到98%的水平要高出整整一个数量级甚至两个数量级。如果现在是凌晨1点，你手头已经有一个相当不错的东西，那么这正是为什么值得再花上几个小时，把它打磨得令人惊叹。\"",
+      "text_zh_hash": "40bc98c89631ca4c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Alfred_Lin/status/2064754027251020217"
     },
     {
@@ -901,6 +925,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Agentic Backend Architecture needs to be Composable and Integration-less.\n\niii makes adding any service on engine with simple single command:\niii worker add iii-observability\niii worker add <literally-anything>",
+      "text_zh": "Agentic 后端架构需要具备可组合性和无集成性。\n\niii 使得通过简单单条命令即可在引擎上添加任意服务：\niii worker add iii-observability\niii worker add <literally-anything>",
+      "text_zh_hash": "5261110a0a3366aa",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mfpiccolo/status/2064694805762912403"
     },
     {
@@ -982,6 +1009,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"This is also the job. An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model can act on it, handing the model the tools to act, working with the customer to change the reality of its workforce.\"\n- @saranormous \n\nThis is exactly what we're seeing as we build the AI software suite for Family Law at @HelloUntangle.\n\nThe work to define, build and measure AI-augmented workflows specifically for divorce and child custody is a massive amount of work that falls into untrainable territory.",
+      "text_zh": "“这也是工作本身。一个应用之所以能在‘不可训练’的角落占据一席之地，靠的是做那些不显眼的工作：整理公司的私有现实，让模型能够据此行动；将行动工具交到模型手中；与客户协作，改变其员工队伍的现实。”\n——@saranormous\n\n这正是我们在@HelloUntangle为家事法构建AI软件套件时所看到的。\n\n为离婚和子女监护场景专门定义、构建和衡量AI增强型工作流程，是一项庞大的工程，而这项工作恰恰属于“不可训练”的领域。",
+      "text_zh_hash": "9ef8d7437ab16dc7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ryancarson/status/2064707903953490091"
     },
     {
@@ -1205,6 +1235,9 @@
         "bookmark@chumsdock"
       ],
       "text": "How I Validated Design Decisions Before Writing Production Code • Slack Design https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar https://t.co/41NV610gyi",
+      "text_zh": "如何在编写生产代码前验证设计决策 • Slack Design https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar https://t.co/41NV610gyi",
+      "text_zh_hash": "6e0026b6473d13ee",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2064759254993498364"
     },
     {
@@ -1245,6 +1278,9 @@
         "bookmark@chumsdock"
       ],
       "text": "hey @simonw \n\ntoday a software engineer friend with limited experience using LLMs asked for resources on how to get up to speed with the latest and greatest tools/practices\n\nI couldn't think of a great up-to-date resource to get up to speed.\n\nI thought of your blog post from march 2025: https://simonwillison.net/2025/Mar/11/using-llms-for-code/ which is honestly still a pretty great framing/primer, but so much has happened in the last year\n\nI'd love to read an update on how your daily workflows have changed since then",
+      "text_zh": "嘿 @simonw，\n\n今天有位软件工程师朋友，虽然对 LLM 使用经验有限，但想了解如何快速掌握最新、最棒的工具和实践方法。\n\n我一时想不出特别好的、足够新的入门资源。\n\n我想到了你 2025 年 3 月那篇博客：https://simonwillison.net/2025/Mar/11/using-llms-for-code/ —— 说实话，那篇文章的框架和入门介绍依然非常棒，但过去一年里变化实在太大了。\n\n我很想读一读，自那以后你的日常工作流程发生了哪些变化。",
+      "text_zh_hash": "253bd8f5a6f69bc1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jakedahn/status/2064796986633818212"
     },
     {
