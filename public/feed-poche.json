@@ -50,6 +50,9 @@
       "category": "Articles",
       "created_at": "2026-06-11T04:06:26.285413Z",
       "description": "Connectionism: Research Blog by Thinking Machines Lab",
+      "description_zh": "连接主义：Thinking Machines Lab 研究博客",
+      "description_zh_hash": "ce19a48ac06d9ac7",
+      "description_zh_translator_v": 2,
       "domain": "thinkingmachines.ai",
       "embed_type": "",
       "id": "k176162vvga56eh30pffc13nan88e5sr",
@@ -72,6 +75,9 @@
         }
       ],
       "title": "Thinking Machines Lab",
+      "title_zh": "Thinking Machines Lab",
+      "title_zh_hash": "721e84312f7b9cd3",
+      "title_zh_translator_v": 2,
       "url": "https://thinkingmachines.ai/",
       "x_status_id": null
     },
@@ -81,11 +87,17 @@
         "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6a29ae1af3fb3241e2c68979_og_policy-on-the-ai-exponential.jpg"
       ],
       "article_text": "Policy on the AI Exponential\nIn one of the side plots to The Lord of the Rings, two of the Hobbits attempt to rouse Treebeard—a wise but ponderous sentient tree—to defend his forest from an army that is cutting it down. The problem is that Treebeard operates at a very different speed than the Hobbits. It takes him a full day simply to say hello to another tree, so getting him and his peers to act fast enough is nearly impossible.\nThe intersection of AI and our political institutions feels a bit like the Hobbits and Treebeard. AI is advancing at a lightning pace—in only four years, AI models have gone from barely being able to write a coherent line of code to writing [most of the code at major AI companies](https://www.anthropic.com/institute/recursive-self-improvement). Similar gains have been made in biology, physics, math, finance, law, translation, and many other fields. [AI’s scaling laws](https://arxiv.org/abs/2001.08361), which predict an exponential increase in general cognitive capabilities with increasing computing power, now have over a decade of empirical evidence behind them. If these scaling laws continue for only a year or two longer, we are likely to get what I’ve called Powerful AI, or “[a country of geniuses in a datacenter](https://darioamodei.com/essay/machines-of-loving-grace)”.\nBy contrast, policy—and especially legislation—moves very slowly. Often this is for good reasons: governments have grave powers, and it’s usually for the best that they aren’t used too hastily. But the mismatch in timescale is nevertheless very painful: in the several years that it can take Congress to act, AI can go from an amusing toy to the full country of geniuses.\nOver the last few years since AI has become a major commercial technology, those of us who wanted to handle it responsibly have faced a dilemma. We could see clearly where the exponential was going: we strongly suspected that within a few years AI would be one of the rare technologies that fundamentally reshapes the entire policy landscape, in the same way that nuclear weapons reshaped geopolitics and the industrial revolution fundamentally reshaped every economic and social issue. But to those looking only at what AI could do at the time, it looked like a much more mundane technology—similar perhaps to the latest consumer app or cryptocurrency. It was hard to convince most policymakers and companies that anything other than a laissez faire attitude made sense. And to be fair, the fact that AI’s radical effects were not yet present, and that we didn’t know exactly what shape they might take, made it difficult to design the right policies even if there had been the will to act.\nGiven the limits imposed by this situation, many safety advocates (including Anthropic) have so far been focused on advocating for policy actions that preserve optionality, tee up a fast reaction in the future, or give the world better insight into what is coming down the pike – things like transparency legislation, export controls on chips, and data collection on AI’s labor effects. These are not enough, but they have felt like all that was possible.\nIn the last few months, however, the evidence of AI’s incredible power, as well as its risks, has become undeniable. Perhaps the most emblematic example is [Claude Mythos Preview](https://www.anthropic.com/glasswing) and the discovery that frontier models pose [very real risks](https://red.anthropic.com/2026/exploit-evals/) to cybersecurity, creating the potential for disruption of the financial sector, critical infrastructure, and national security. Mythos Preview [scrambled](https://red.anthropic.com/2026/attack-navigator/) the global cybersecurity landscape. But its broader significance is that it proves beyond doubt that AI models are now tools of global and national strategic consequence. The cyber risks that Mythos-class models present will not be the last that we must face. I believe that biological risks may soon follow, and that [serious A",
+      "article_text_zh": "# 关于AI指数级发展的政策\n\n在《指环王》的一个支线情节中，两位霍比特人试图唤醒树胡——一棵智慧但迟缓的树人——以保卫他的森林免受一支正在砍伐它的军队的侵害。问题在于，树胡的运作速度与霍比特人截然不同。他仅仅向另一棵树打招呼就需要整整一天，因此让他和他的同伴们足够迅速地行动几乎是不可能的。\n\n人工智能与我们的政治制度之间的交汇点，感觉有点像霍比特人与树胡。AI正以闪电般的速度发展——仅在四年内，AI模型就从几乎无法写出连贯的代码行，发展到能编写[大多数主要AI公司的代码](https://www.anthropic.com/institute/recursive-self-improvement)。在生物学、物理学、数学、金融、法律、翻译以及许多其他领域也取得了类似的进展。AI的[规模定律](https://arxiv.org/abs/2001.08361)预测，随着计算能力的增加，通用认知能力将呈指数级增长，如今这一定律背后已有超过十年的实证证据支持。如果这些规模定律再持续一两年，我们很可能会得到我所说的强大AI，即“[数据中心里的天才之国](https://darioamodei.com/essay/machines-of-loving-grace)”。\n\n相比之下，政策——尤其是立法——则进展缓慢。这通常是有充分理由的：政府拥有重大的权力，通常最好不仓促使用。然而，时间尺度上的不匹配仍然非常令人痛苦：在国会可能需要数年才能采取行动的这段时间里，AI可以从一个有趣的玩具发展成完整的天才之国。\n\n自AI成为一项主要商业技术以来的过去几年里，我们这些希望负责任地处理它的人面临着一个两难困境。我们可以清楚地看到指数级发展的方向：我们强烈怀疑，在几年内，AI将成为少数能从根本上重塑整个政策格局的技术之一，就像核武器重塑了地缘政治、工业革命从根本上重塑了每一个经济和社会问题一样。但对于那些只关注当时AI能做什么的人来说，它看起来像是一种更为平凡的技术——也许类似于最新的消费应用或加密货币。很难说服大多数政策制定者和公司，除了自由放任的态度之外，还有什么其他做法是合理的。公平地说，AI的激进影响尚未显现，而且我们也不确切知道它们可能采取何种形式，这使得即使有行动的意愿，也很难设计出正确的政策。\n\n鉴于这种情况所带来的限制，许多安全倡导者（包括Anthropic）迄今为止一直专注于倡导那些保留选择余地、为未来快速反应做好准备、或让世界更好地洞察即将到来的事情的政策行动——例如透明度立法、芯片出口管制以及AI对劳动力影响的数据收集。这些还不够，但感觉像是当时唯一可能做到的事情。\n\n然而，在过去的几个月里，AI惊人力量及其风险的证据已变得不可否认。也许最具象征意义的例子是[Claude Mythos Preview](https://www.anthropic.com/glasswing)以及发现前沿模型对网络安全构成[非常真实的风险](https://red.anthropic.com/2026/exploit-evals/)，有可能扰乱金融部门、关键基础设施和国家安全。Mythos Preview[扰乱了](https://red.anthropic.com/2026/attack-navigator/)全球网络安全格局。但其更广泛的意义在于，它无可争议地证明了AI模型如今已成为具有全球和国家战略意义的工具。Mythos级模型带来的网络风险不会是我们必须面对的最后一种风险。我相信生物风险可能很快会随之而来，并且严重的A",
+      "article_text_zh_hash": "a79afab88dbe8cdf",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Dario Amodei — Policy on the AI Exponential",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-06-11T04:05:59.115091Z",
       "description": "The essay discusses the urgent need for effective policy measures to address the rapid advancement of AI technology, using the metaphor of Treebeard from _The Lord of the Rings_ to illustrate the slow response of political institutions to AI's exponential growth. Key points include the contrast between AI's fast development and the slow pace of legislative action, how AI could significantly alter the policy landscape similarly to historical paradigm shifts like nuclear weapons, and the risks posed by powerful AI, including cybersecurity threats and potential job displacement. The author advocates for a proactive approach, emphasizing the need for transparency in AI's safety procedures, creating regulation akin to that of the FAA for aviation, and ensuring that democratic values guide the development and deployment of AI technologies. Recommendations for policy focus include creating accountability rules for AI systems, enhancing macroeconomic strategies to handle job displacement, and fostering international cooperation among democracies to collectively address AI risks.",
+      "description_zh": "本文探讨了为应对人工智能技术快速进步而亟需有效政策措施的紧迫性，借用《指环王》中的树胡形象，隐喻政治机构对AI指数级增长的迟缓反应。核心观点包括：AI的高速发展与立法行动的缓慢步伐形成鲜明对比；AI可能像核武器等历史性范式转变一样显著改变政策格局；以及强大AI带来的风险，包括网络安全威胁和潜在的工作岗位流失。作者主张采取积极主动的方针，强调AI安全程序的透明度、建立类似航空领域FAA的监管机制，并确保民主价值观指导AI技术的开发与部署。政策建议聚焦于：为AI系统制定问责规则、强化应对岗位流失的宏观经济策略，以及促进民主国家间的国际合作以共同应对AI风险。",
+      "description_zh_hash": "fc75c4f761319938",
+      "description_zh_translator_v": 2,
       "domain": "darioamodei.com",
       "embed_type": "",
       "id": "k178z0y0akm3vqmr26ksd1pnqx88fsnn",
@@ -108,6 +120,9 @@
         }
       ],
       "title": "Dario Amodei — Policy on the AI Exponential",
+      "title_zh": "Dario Amodei — AI指数政策",
+      "title_zh_hash": "4e5a2aa75e034b23",
+      "title_zh_translator_v": 2,
       "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
       "x_status_id": null
     },
