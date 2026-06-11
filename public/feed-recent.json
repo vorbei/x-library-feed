@@ -3609,19 +3609,6 @@
       "title": "",
       "url": "http://x.com/i/article/2061324501170688000"
     },
-    "http://x.com/i/article/2061435484522401792": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2061435484522401792",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "# This page isn’t working \n\n**x.com** is currently unable to handle this request.\n\nHTTP ERROR 500\n\nnull \n\nReload \n\n**x.com** is currently unable to handle this request.",
-      "title": "",
-      "url": "http://x.com/i/article/2061435484522401792"
-    },
     "http://x.com/i/article/2061440101411102721": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5500,6 +5487,19 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKhy4DWaEAAwTVh?format=jpg&name=900x900)](http://x.com/cgtwts/article/2065026197734797813/media/2065026736446902272)\n\nHow a Solo Agency Owner Used Claude to Run Like a Five-Person Business\n\n[![](https://pbs.twimg.com/profile_images/1955738644528160769/cgVyKTcs_normal.jpg)](http://x.com/cgtwts)\n\n[CG![](https://pbs.twimg.com/profile_images/1993778330659901440/xZ32FAxg_bigger.jpg)](http://x.com/cgtwts)\n\n[@cgtwts](http://x.com/cgtwts)\n\n·\n\n5h\n\n·\n\nFollow\n\nClick to Follow cgtwts\n\n6\n\n6\n\n24\n\n[3.8K](http://x.com/cgtwts/status/2065026197734797813/analytics)\n\nMost agency owners do not have a capacity problem. They have a repetition problem.\n\nThe same proposal structure. The same onboarding questions. The same follow-up email when a client goes quiet. The same brief summary written three different ways for three different clients. Hours spent on work that keeps the business alive but does not move it forward.\n\nThat is the problem. Here is what solving it actually looks like.\n\nThe Business\n\nMarcus runs a one-person brand strategy consultancy. He works with three to five clients at a time, charges mid-to-high market rates, and had been stuck at the same revenue ceiling for two years. Not because he lacked clients. Because he kept running out of hours.\n\nHis week looked like this: fifteen hours of billable work, twelve hours of admin, proposals, emails, and meeting prep. The math was broken before he even opened his laptop.\n\nStage One: Audit Before You Automate\n\nThe instinct is to jump straight into building prompts. That is the wrong move.\n\nMarcus spent one week logging every task he repeated. Not estimating. Logging. At the end of the week he had a list of twenty-three recurring tasks. Fourteen of them were language-based. Proposals, briefs, status updates, scope clarification emails, LinkedIn posts from workshop notes, onboarding documents.\n\nHe did not need a new tool. He needed those fourteen tasks systematized.\n\nThe prompt he used for this audit:\n\n> \"I run a solo brand strategy consultancy. Here is my typical week: \\[pasted log\\]. Identify which tasks are language-based and could be handled or accelerated with an AI writing system. Group them by frequency and time cost.\"\n\nClaude returned a prioritized list in under two minutes. The top three were proposals, client onboarding briefs, and project status summaries. Combined, they were eating nine hours a week.\n\nStage Two: Build the System, Not the Shortcut\n\nThis is where most business owners get it wrong.\n\nThey ask Claude to write one proposal. It comes out decent. They feel good. Then next week they start from scratch again and wonder why results vary. That is not automation. That is assisted typing.\n\nMarcus built a Claude Project for each core workflow.\n\nFor proposals, the project system prompt included his positioning, his pricing logic, his typical client objections, and three anonymized past proposals as style references. The project remembered context across every session. It did not need re-explaining. It did not forget his tone between uses.\n\nHis proposal prompt:\n\n> \"Client: \\[name and company\\]. Industry: \\[sector\\]. Problem they described: \\[paste discovery call notes\\]. Budget signal: \\[high/medium/unclear\\]. Write a proposal using my standard structure. Keep the tone direct. Flag any section where you need more information before I send this.\"\n\nFirst draft in four minutes. Editing time down from ninety minutes to twenty. The output was not perfect. It never is. But it was eighty percent of the way there, and editing a draft is fundamentally faster than generating one from nothing.\n\nFor onboarding, he built a second project. System prompt included his full onboarding process, the questions he asks every new client, his communication style, and a note about what tends to confuse new clients in the first two weeks. New client int",
       "title": "",
       "url": "http://x.com/i/article/2065020060570370048"
+    },
+    "http://x.com/i/article/2065079481975406592": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065079481975406592",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKixdWCXAAA26GO?format=jpg&name=900x900)](http://x.com/DinScales26/article/2065095783678914853/media/2065095546839171072)\n\nhow to know in 30 days whether linkedin outbound will scale your agency to $50k/month\n\n[![](https://pbs.twimg.com/profile_images/2004607244667658240/Nca2FK2__normal.jpg)](http://x.com/DinScales26)\n\n[Din](http://x.com/DinScales26)\n\n[@DinScales26](http://x.com/DinScales26)\n\n·\n\n4h\n\nFollow\n\nClick to Follow DinScales26\n\n4\n\n4\n\n7\n\n[1K](http://x.com/DinScales26/status/2065095783678914853/analytics)\n\nmost agency owners give linkedin outbound 90 days before they decide it doesn't work. i'm going to argue that's about 75 days too long. a dialled linkedin outbound campaign tells you whether your offer can scale in the first 7 days. \n\nsometimes the first 7 hours. \n\nthe reason almost NOBODY knows this is because they've never seen a campaign that was actually dialled. what most agencies sell you under the name \"outbound\" is a 90-day waiting game. \n\nby month 2 you know it isn't working but you've already paid two retainers and you're stuck paying the third because everyone you've spoken to has told you it takes time. \n\nit DOESN'T take time. \n\nit takes a real list, a proper offer, and a way to read what's happening before you're $24k deep. i'll walk you through exactly what a working campaign tells you in week 1, week 2, and week 4 - and what each silence means.\n\n[![Image](https://pbs.twimg.com/media/HKirz5sW0AAH2rs?format=jpg&name=small)](http://x.com/DinScales26/article/2065095783678914853/media/2065089337297915904)\n\n# \n\nwhat the speed of a campaign tells you\n\na campaign reacts the SAME day it goes live when the underlying offer is right. one of ours did 5 booked calls in 2 hours from a fresh launch. \n\nanother did a 44.7% interested rate three hours after the first messages went out. \n\nthe morgan stanley vp who replied to one of our enterprise inmails did it in 4 hours. \n\n[![Image](https://pbs.twimg.com/media/HKitMvdXYAAmjXR?format=jpg&name=small)](http://x.com/DinScales26/article/2065095783678914853/media/2065090863559041024)\n\nthe gtm director at userevidence sent his calendly link back within HOURS of getting the message. none of these were the result of \"warmup.\" \n\nwe didn't run a sequence. we didn't drip. \n\none message landed, the person on the other end had the problem we sell to, and the conversation started. across 30 b2b verticals and 100,000+ inmails sent, the campaigns that work signal in days. \n\nthe campaigns that don't also signal in days.\n\nthe wait is not the diagnostic. the wait is what you do when you've already missed the diagnostic.\n\n## \n\nwhat week 1 should actually look like\n\nat the volume we run, a campaign is sending about 1,000 cold messages in its first 5-7 days from a single id-verified account. \n\nif your campaign isn't doing volume like that, the timeline numbers below shift - but the principle holds. inside those first 7 days, you should see at least one of these three things:• a positive reply with no booking intent \n\nsomeone saying \"interesting timing, but we're not buying this quarter.\" \n\nyou've found someone with the problem who isn't ready. that's a real signal - your targeting is working.• a referral\n\nsomeone saying \"not me but you should talk to X at our company.\" \n\nthis is the highest-quality possible signal in week 1\\. \n\nit means your message landed with someone close enough to a buyer that they could think of one off the top of their head.• a booked call\n\nobvious one. fewer of these in week 1 unless the campaign is unusually hot. if you've sent 1,000 messages and gotten zero of the three across 7 days, your list or your offer is wrong. \n\nnot your copy or channel. one of the upstream variables. \n\nwe've seen campaigns sit completely flat for a week and then book 23 qualified leads in the next 7 days after changing a single line of the",
+      "title": "",
+      "url": "http://x.com/i/article/2065079481975406592"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -13418,20 +13418,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2064791024426520576/img/pScNn0uUNvdTohyZ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2064791024426520576/img/pScNn0uUNvdTohyZ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2064791024426520576/img/pScNn0uUNvdTohyZ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2064791024426520576/img/pScNn0uUNvdTohyZ.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -26225,12 +26211,12 @@
     "2064343621130932644": [
       "https://x.com/sairahul1/status/2064343621130932644",
       "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg",
-      "https://x.com/sairahul1/status/2064516852571927023",
       "https://x.com/sairahul1/status/2064704723387916539",
       "https://x.com/sairahul1/status/2064885140246139185",
-      "https://x.com/sairahul1/status/2064704538012156205",
       "https://x.com/sairahul1/status/2064719841123254445",
+      "https://x.com/sairahul1/status/2064704538012156205",
       "https://x.com/sairahul1/status/2064996015850352702",
+      "https://x.com/sairahul1/status/2064516852571927023",
       "https://x.com/sairahul1/status/2064615669283610892",
       "https://x.com/sairahul1/status/2064604419099156851"
     ],
@@ -26352,12 +26338,13 @@
     "2064686372737454155": [
       "https://x.com/itsreallyvivek/status/2064686372737454155",
       "http://x.com/i/article/2064686144835739649",
-      "https://x.com/itsreallyvivek/status/2064759918792704109",
       "https://x.com/itsreallyvivek/status/2064705243246723280",
+      "https://x.com/itsreallyvivek/status/2064759918792704109",
       "https://x.com/itsreallyvivek/status/2064972643502284860",
       "https://x.com/itsreallyvivek/status/2064706056874500452",
       "https://x.com/itsreallyvivek/status/2064759823812694178",
-      "https://x.com/itsreallyvivek/status/2064759848651415606"
+      "https://x.com/itsreallyvivek/status/2064759848651415606",
+      "https://x.com/itsreallyvivek/status/2065113458853732810"
     ],
     "2064694805762912403": [
       "https://x.com/mfpiccolo/status/2064694805762912403",
@@ -26449,8 +26436,8 @@
       "http://x.com/i/article/2064543044607565824",
       "https://x.com/DinScales26/status/2064759242465120619",
       "https://x.com/messages/compose?recipient_id=2000257900099297281",
-      "https://x.com/DinScales26/status/2064382296975675867",
-      "http://x.com/i/article/2061435484522401792"
+      "https://x.com/DinScales26/status/2065095783678914853",
+      "http://x.com/i/article/2065079481975406592"
     ],
     "2064759254993498364": [
       "https://x.com/SidebarIO/status/2064759254993498364",
@@ -26469,11 +26456,11 @@
       "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg",
       "https://x.com/IBuzovskyi/status/2064952649674338441",
       "https://x.com/IBuzovskyi/status/2064953039836922199",
-      "https://x.com/IBuzovskyi/status/2064952962313581019",
       "https://x.com/IBuzovskyi/status/2064764196202401976",
       "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg",
       "https://x.com/IBuzovskyi/status/2064780171672981756",
-      "https://x.com/IBuzovskyi/status/2064953006194372925"
+      "https://x.com/IBuzovskyi/status/2064953006194372925",
+      "https://x.com/IBuzovskyi/status/2064952962313581019"
     ],
     "2064768757713768507": [
       "https://x.com/aparnadhinak/status/2064768757713768507",
@@ -26533,20 +26520,18 @@
     "2064887887578136666": [
       "https://x.com/mvanhorn/status/2064887887578136666",
       "http://x.com/i/article/2064864205749280768",
+      "https://x.com/mvanhorn/status/2064892196961358010",
       "https://x.com/mvanhorn/status/2064889497377210529",
       "https://x.com/mvanhorn/status/2064897823221670083",
       "https://x.com/mvanhorn/status/2064904749624033607",
       "https://x.com/mvanhorn/status/2064960780735541276",
-      "https://x.com/mvanhorn/status/2064892196961358010",
       "https://x.com/mvanhorn/status/2064891770039894200"
     ],
     "2065026197734797813": [
       "https://x.com/cgtwts/status/2065026197734797813",
-      "http://x.com/i/article/2065020060570370048",
-      "https://x.com/cgtwts/status/2064791083817824621",
-      "https://pbs.twimg.com/amplify_video_thumb/2064791024426520576/img/pScNn0uUNvdTohyZ.jpg"
+      "http://x.com/i/article/2065020060570370048"
     ]
   },
-  "updated_at": "2026-06-11T16:20:49Z",
+  "updated_at": "2026-06-11T19:45:20Z",
   "window": "recent"
 }
