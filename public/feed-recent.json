@@ -5279,6 +5279,20 @@
       "title": "",
       "url": "http://x.com/i/article/2064726381485842432"
     },
+    "http://x.com/i/article/2064729598328184832": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064729598328184832",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKdmlNSWoAER-UY?format=jpg&name=900x900)](http://x.com/dashboardlim/article/2064736540757012991/media/2064731743580495873)\n\nWhat Is Loop Engineering? (And Why It's the Future of AI) \n\n[![](https://pbs.twimg.com/profile_images/1983099742784532480/ri6WHAQH_normal.jpg)](http://x.com/dashboardlim)\n\n[Lian Lim | Dashboard & AI Automation Expert](http://x.com/dashboardlim)\n\n[@dashboardlim](http://x.com/dashboardlim)\n\n·\n\n20h\n\nFollow\n\nClick to Follow dashboardlim\n\n1\n\n24\n\n94\n\n[7K](http://x.com/dashboardlim/status/2064736540757012991/analytics)\n\nLoop engineering is designing automated systems that prompt your AI agents instead of you prompting them directly.\n\nYou build a small system that finds work, hands it to agents, checks the output, records what's done, and decides what's next.\n\nThen you let that system run while you sleep.\n\nThe old way: you type a prompt, read the response, type the next prompt.\n\nThe new way: you design the loop once and the loop does the prompting for you.\n\nA few days ago, Boris Cherny said something that made this click for a lot of people.\n\nCherny is the head of Claude Code at Anthropic.\n\nThe guy who built the coding agent that now writes 4% of all GitHub commits.\n\nHere's what he said:\n\n\"I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops.\"\n\nThat statement went viral.\n\n700,000 views in 24 hours.\n\nBecause it named something people were already sensing but couldn't articulate.\n\nThe leverage point has moved.\n\nPrompt engineering was the skill of 2024.\n\nLoop engineering is the skill of 2026.\n\n  \n# \n\nThe Progression\n\n[![Image](https://pbs.twimg.com/media/HKdpRZHWwAAkOcJ?format=jpg&name=small)](http://x.com/dashboardlim/article/2064736540757012991/media/2064734701693091840)\n\nThree years ago, the skill was typing fast.\n\nTwo years ago, the skill was prompting well.\n\nOne year ago, the skill was running multiple agents in parallel.\n\nNow?\n\nThe skill is designing the loop that does all of that without you.\n\nThe unit of work moved from the keystroke, to the prompt, to the loop.\n\nMost people are still on step two.\n\nThe people building the future are already on step four.\n\n  \n# \n\nThe Five Building Blocks\n\n[![Image](https://pbs.twimg.com/media/HKdo2WCWQAAIkh4?format=jpg&name=small)](http://x.com/dashboardlim/article/2064736540757012991/media/2064734237010313216)\n\nEvery loop needs five things and a place to remember stuff.\n\nHere's the framework.\n\n## \n\nAutomations\n\nThe heartbeat of the loop.\n\nScheduled tasks that run on their own.\n\nDiscovery and triage without you.\n\nThe loop wakes up, finds work, and acts on it while you sleep.\n\nAn automation can run every morning, scan your issue tracker, summarize failures, surface what needs attention, and write the findings to a state file.\n\nYou wake up to a prioritized list, not an inbox you have to manually process.\n\n## \n\nWorktrees\n\nIsolation so parallel agents don't collide.\n\nTwo agents writing the same file is chaos.\n\nWorktrees give each agent its own branch, its own working directory, sharing the same history.\n\nOne agent's work cannot touch another's.\n\nThis is what makes parallelism possible without everything breaking.\n\n## \n\nSkills\n\nProject knowledge that survives across runs.\n\nWithout skills, every loop run is day one.\n\nThe agent forgets everything between sessions.\n\nSkills hold the institutional knowledge.\n\nThe conventions, the build steps, the context that would otherwise get lost.\n\nWritten once, read every run.\n\n## \n\nConnectors\n\nThe loop needs to touch your real tools.\n\nOpen PRs, update tickets, post to Slack, query databases, trigger actions.\n\nA loop that can only read files is a loop that can only suggest.\n\nA loop with connectors is a loop that operates.\n\n## \n\nSub-agents\n\nThe agent that wrote the output is a poor judge of its own work.\n\nOne agent explores",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2064729598328184832"
+    },
     "http://x.com/i/article/2064737302065156097": {
       "cleaner_v": 2,
       "content_type": "",
@@ -13293,6 +13307,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16891,6 +16919,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
     },
+    "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg"
+    },
     "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -17030,6 +17072,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HKZVjP3a4AAH9pW.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg"
     },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
@@ -22439,10 +22495,6 @@
       "https://x.com/assaf_elovic/status/2052256409761234974",
       "https://x.com/assaf_elovic/status/2055317593670472132"
     ],
-    "2053809493377479152": [
-      "https://x.com/ChrisHayduk/status/2053809493377479152",
-      "https://x.com/ChrisHayduk/status/2053807198870880743?s=20"
-    ],
     "2053831344917291440": [
       "https://x.com/aleenaamiir/status/2053831344917291440",
       "https://x.com/aleenaamiir/status/2053831344917291440/photo/1",
@@ -26127,9 +26179,10 @@
       "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg",
       "https://x.com/sairahul1/status/2064704723387916539",
       "https://x.com/sairahul1/status/2064516852571927023",
-      "https://x.com/sairahul1/status/2064885140246139185",
-      "https://x.com/sairahul1/status/2064704538012156205",
       "https://x.com/sairahul1/status/2064719841123254445",
+      "https://x.com/sairahul1/status/2064704538012156205",
+      "https://x.com/sairahul1/status/2064996015850352702",
+      "https://x.com/sairahul1/status/2064885140246139185",
       "https://x.com/sairahul1/status/2064615669283610892",
       "https://x.com/sairahul1/status/2064604419099156851"
     ],
@@ -26138,8 +26191,8 @@
       "http://x.com/i/article/2064290620416589824",
       "https://x.com/AlphaSignalAI/status/2064350363596255432",
       "https://github.com/alibaba/open-code-review",
-      "https://x.com/AlphaSignalAI/status/2064679313819984093",
-      "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
+      "https://x.com/AlphaSignalAI/status/2064724466089824373",
+      "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg"
     ],
     "2064358779940995141": [
       "https://x.com/mfpiccolo/status/2064358779940995141",
@@ -26251,11 +26304,12 @@
     "2064686372737454155": [
       "https://x.com/itsreallyvivek/status/2064686372737454155",
       "http://x.com/i/article/2064686144835739649",
-      "https://x.com/itsreallyvivek/status/2064705243246723280",
-      "https://x.com/itsreallyvivek/status/2064759918792704109",
       "https://x.com/itsreallyvivek/status/2064706056874500452",
-      "https://x.com/itsreallyvivek/status/2064759848651415606",
-      "https://x.com/itsreallyvivek/status/2064759823812694178"
+      "https://x.com/itsreallyvivek/status/2064759823812694178",
+      "https://x.com/itsreallyvivek/status/2064705243246723280",
+      "https://x.com/itsreallyvivek/status/2064972643502284860",
+      "https://x.com/itsreallyvivek/status/2064759918792704109",
+      "https://x.com/itsreallyvivek/status/2064759848651415606"
     ],
     "2064694805762912403": [
       "https://x.com/mfpiccolo/status/2064694805762912403",
@@ -26296,6 +26350,10 @@
       "https://x.com/0x_rody/status/2064728139314389073",
       "http://x.com/i/article/2064726381485842432",
       "https://x.com/0x_rody/status/2064734803149164877"
+    ],
+    "2064736540757012991": [
+      "https://x.com/dashboardlim/status/2064736540757012991",
+      "http://x.com/i/article/2064729598328184832"
     ],
     "2064745690958635405": [
       "https://x.com/nlevin/status/2064745690958635405",
@@ -26344,6 +26402,17 @@
       "https://x.com/bromann/status/2064759991752663510",
       "http://x.com/i/article/2064756914869993472"
     ],
+    "2064763405953855834": [
+      "https://x.com/IBuzovskyi/status/2064763405953855834",
+      "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg",
+      "https://x.com/IBuzovskyi/status/2064952649674338441",
+      "https://x.com/IBuzovskyi/status/2064952962313581019",
+      "https://x.com/IBuzovskyi/status/2064953039836922199",
+      "https://x.com/IBuzovskyi/status/2064764196202401976",
+      "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg",
+      "https://x.com/IBuzovskyi/status/2064953006194372925",
+      "https://x.com/IBuzovskyi/status/2064780171672981756"
+    ],
     "2064768757713768507": [
       "https://x.com/aparnadhinak/status/2064768757713768507",
       "http://x.com/i/article/2064764378357059584"
@@ -26369,10 +26438,10 @@
     "2064783001465331804": [
       "https://x.com/ryanzhuuuu/status/2064783001465331804",
       "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg",
-      "https://x.com/ryanzhuuuu/status/2064895726602367355",
       "https://x.com/ryanzhuuuu/status/2064886243528483105",
-      "https://x.com/ryanzhuuuu/status/2064837446551093594",
+      "https://x.com/ryanzhuuuu/status/2064895726602367355",
       "https://x.com/ryanzhuuuu/status/2064855240688664722",
+      "https://x.com/ryanzhuuuu/status/2064837446551093594",
       "https://x.com/ryanzhuuuu/status/2064869009213005932"
     ],
     "2064796986633818212": [
@@ -26384,14 +26453,14 @@
     "2064887887578136666": [
       "https://x.com/mvanhorn/status/2064887887578136666",
       "http://x.com/i/article/2064864205749280768",
-      "https://x.com/mvanhorn/status/2064889497377210529",
-      "https://x.com/mvanhorn/status/2064897823221670083",
       "https://x.com/mvanhorn/status/2064904749624033607",
+      "https://x.com/mvanhorn/status/2064897823221670083",
+      "https://x.com/mvanhorn/status/2064889497377210529",
       "https://x.com/mvanhorn/status/2064892196961358010",
-      "https://x.com/mvanhorn/status/2064891770039894200",
-      "https://x.com/mvanhorn/status/2064960780735541276"
+      "https://x.com/mvanhorn/status/2064960780735541276",
+      "https://x.com/mvanhorn/status/2064891770039894200"
     ]
   },
-  "updated_at": "2026-06-11T07:05:25Z",
+  "updated_at": "2026-06-11T11:48:46Z",
   "window": "recent"
 }
