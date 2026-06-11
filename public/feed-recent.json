@@ -873,6 +873,27 @@
       "title": "Subscribe | The AI Solopreneur",
       "url": "http://aisolo.beehiiv.com/subscribe"
     },
+    "http://aitdk.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Explore free AI SEO tools and generators to enhance your search optimization strategies. Elevate your website's visibility and rankings with AI technology.",
+      "final_url": "https://aitdk.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://aitdk.com/images/logo/social.png",
+        "https://aitdk.com/images/logo/logo.svg",
+        "https://aitdk.com/images/testimonial/author-06.png",
+        "https://aitdk.com/images/testimonial/author-03.png",
+        "https://aitdk.com/images/testimonial/author-05.png",
+        "https://aitdk.com/images/testimonial/author-02.png",
+        "https://aitdk.com/images/testimonial/author-01.png",
+        "https://aitdk.com/images/testimonial/author-04.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "AITDK: Free AI SEO Tools, AI Generator for SEO",
+      "url": "http://aitdk.com"
+    },
     "http://aitmpl.com": {
       "content_type": "text/html; charset=utf-8",
       "description": "Browse and install 1000+ pre-built components for Claude Code. AI agents, slash commands, MCP integrations, hooks, and settings. Free, open-source CLI tool.",
@@ -1460,6 +1481,32 @@
       "text_excerpt_zh": "",
       "title": "The best SaaS Web Design Inspiration | Saaspo",
       "url": "http://saaspo.com"
+    },
+    "http://shipany.ai": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "ShipAny is an Agent-Native framework with built-in auth, payments, subscriptions, credit billing, i18n, storage, and AI generation for Coding Agents.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://shipany.ai/",
+      "frameable": null,
+      "image_urls": [
+        "https://shipany.ai/imgs/og/og-en.png",
+        "https://shipany.ai/logo.png",
+        "https://shipany.ai/imgs/users/gefei.webp",
+        "https://shipany.ai/imgs/users/yihui.webp",
+        "https://shipany.ai/imgs/users/james.webp",
+        "https://shipany.ai/imgs/users/liuxiaopai.webp",
+        "https://shipany.ai/imgs/users/23.webp",
+        "https://shipany.ai/imgs/users/24.webp",
+        "https://shipany.ai/imgs/users/25.webp",
+        "https://shipany.ai/imgs/users/26.webp",
+        "https://shipany.ai/imgs/users/27.webp",
+        "https://shipany.ai/imgs/users/qy.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "ShipAny: Ship Your AI Product in One Hour",
+      "url": "http://shipany.ai"
     },
     "http://t.me/zodchixquant": {
       "cleaner_v": 2,
@@ -4026,6 +4073,19 @@
       "title": "",
       "url": "http://x.com/i/article/2061735436687736832"
     },
+    "http://x.com/i/article/2061785866385911808": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2061785866385911808",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKd8KnlaEAA6SSp?format=jpg&name=900x900)](http://x.com/itsalexvacca/article/2064755591764230491/media/2064755476039077888)\n\nBuild Your GTM AI in This Exact Order: The 7-Layer Stack Behind Our $7M System\n\n[![](https://pbs.twimg.com/profile_images/1909705035052990467/pnfX3LA__normal.jpg)](http://x.com/itsalexvacca)\n\n[Alex Vacca](http://x.com/itsalexvacca)\n\n[@itsalexvacca](http://x.com/itsalexvacca)\n\n·\n\n8h\n\nFollow\n\nClick to Follow itsalexvacca\n\n1\n\n3\n\n29\n\n[2.3K](http://x.com/itsalexvacca/status/2064755591764230491/analytics)\n\nMost explanations of agentic AI are written to sound impressive, not to be understood. They stack jargon on jargon until the person who actually has to make a decision walks away more confused than when they started.\n\nSo here's the version I use with our team and with the 400+ B2B companies we've built GTM systems for at ColdIQ. Seven layers. Each one is a building block, and each one adds something the layer beneath it can't do on its own.\n\nThe useful part isn't the diagram. It's knowing which layer you're actually operating on, because most companies think they're running agents when they're really running a chatbot with extra steps.\n\n[![Image](https://pbs.twimg.com/media/HJzv1NNasAElmXU?format=jpg&name=small)](http://x.com/itsalexvacca/article/2064755591764230491/media/2061786426786885633)\n\nThe 7 layers of agentic AI, each building on the one below it\n\nI'll define each layer in plain language, then show you exactly where it lives inside the system we run every day. Including the one place we tried to climb higher and chose to come back down.\n\n# \n\nLayer 1: Machine Learning (the foundation)\n\nThis is the floor. It's AI learning patterns from data instead of following rules a human hand-coded.\n\nThree flavors live here. \n\nSupervised learning trains on labeled examples, the way you'd teach with flashcards. Unsupervised learning finds patterns nobody pointed it at. Reinforcement learning optimizes through trial and error, getting better each time it's rewarded for a good outcome.\n\nYou're already touching this layer every day, often without noticing. Lead scoring models, send-time optimization, deliverability prediction. None of it talks. All of it learns.\n\nLayer 1 in practice: the scoring that happens before a single email\n\nWe ran a campaign recently where the total addressable market was 15,000 companies. Before anything went out, every account passed through a weighted scoring model built on our own closed-won data. Funding stage, firmographics through Clay and FullEnrich, technographics through BuiltWith, growth signals through PredictLeads and Crunchbase.\n\n[![Image](https://pbs.twimg.com/media/HJzwlTzawAA3seb?format=jpg&name=small)](http://x.com/itsalexvacca/article/2064755591764230491/media/2061787253190606848)\n\nLayer 1 in practice: AI scoring cut a 15,000-company TAM to 8,900 before any email went out\n\nIt cut the list to 8,900\\. More than 40% gone, not because they were bad companies, but because the timing or the fit was wrong. Some had just raised and frozen spend, some showed zero hiring activity, some had adopted a competitor the month before.\n\nThat's Layer 1 earning its keep. \n\nSignal-based targeting like this produces 2 to 4x the performance of unscored outreach, in every campaign we run, with no exceptions I've seen across 400+ clients. The list is the strategy, and the list gets decided by a model before a human writes a word. I broke the full four-dimension scoring model down \n\n[in this post](https://x.com/itsalexvacca/status/2041547607995228198)\n\n if you want the mechanics.\n\n# \n\nLayer 2: Large Language Models (the processor)\n\nNow the machine understands and produces language.\n\nAn LLM processes enormous amounts of text, holds context across a long conversation, and increasingly handles images and audio alongside words. This is the layer that mad",
+      "title": "",
+      "url": "http://x.com/i/article/2061785866385911808"
+    },
     "http://x.com/i/article/2061816883691876352": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5459,6 +5519,149 @@
       "title": "",
       "url": "http://x.com/i/article/2064425685834207232"
     },
+    "http://x.com/i/article/2064625044308008960": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064625044308008960",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKdKIBobEAAPIzO?format=jpg&name=900x900)](http://x.com/akshay%5Fpachaar/article/2064700531600458093/media/2064700455910051840)\n\nTraining an LLM to Generate Reliable Structured Output \n\n[![](https://pbs.twimg.com/profile_images/1578327351544360960/YFpWSWIX_normal.jpg)](http://x.com/akshay%5Fpachaar)\n\n[Akshay ![🚀](https://abs.twimg.com/emoji/v2/svg/1f680.svg)](http://x.com/akshay%5Fpachaar)\n\n[@akshay\\_pachaar](http://x.com/akshay%5Fpachaar)\n\n·\n\n12h\n\nBlocked\n\n6\n\n26\n\n168\n\n[16K](http://x.com/akshay%5Fpachaar/status/2064700531600458093/analytics)\n\nYou ask a language model for JSON, and most of the time it works.\n\nThen one response comes back broken. A number shows up as a string, or the model wraps the JSON in a line of explanation, and the parser chokes.\n\nThat small failure rate is the whole problem. The output feeds a function call or a database write, and looking like valid JSON is not the same as being valid JSON.\n\nThe code downstream only finds out which one it got when it breaks.\n\nThat is what structured output means. The model returns data in a fixed shape that matches a schema, not free text that happens to read right.\n\nAgents, tool calls, and data pipelines all run on this now. The model is writing for code to run, not for a person to read.\n\nGetting this reliable is the hard part, and the usual answer is to give the model more. You add examples, tighten the prompt, and fine-tune on correct outputs.\n\nIt helps a little, then stops. The ceiling was never the amount of data. It is the objective.\n\nDeepSeek-R1 showed a way around this. Training a strong model used to mean annotation pipelines, preference pairs, and a team of labelers.\n\nDeepSeek replaced all of it with one Python function that checks whether an answer is right. If you can define correctness via code, you do not need the rest.\n\nThat is the idea behind GRPO. Instead of learning from examples, the model learns from a reward function you write.\n\nFor each prompt, it generates a few candidate answers. The reward function scores them, and the model is pushed toward the ones that score higher.\n\n[![Image](https://pbs.twimg.com/media/HKcGTQbbIAAvvOz?format=jpg&name=small)](http://x.com/akshay%5Fpachaar/article/2064700531600458093/media/2064625882069934080)\n\nGRPO explained step by step, from data prep to response generation, reward calculation and loss calculation \n\nIn this walkthrough, I use it to fine-tune Qwen3-8B for JSON extraction. The loop runs from a local notebook while the model trains on remote H200s.\n\nThe reward function does one thing: it checks whether each output parses and matches the schema.\n\n[![Image](https://pbs.twimg.com/media/HKcGHaYaUAAnYMy?format=jpg&name=small)](http://x.com/akshay%5Fpachaar/article/2064700531600458093/media/2064625678583222272)\n\nThe whole loop is driven from your local Python process, while the sampling and gradient steps run on the remote H200s.\n\nSchema-valid output went from 62% on the base model to 82% after training, past GPT-4.1 on the same eval at 58%.\n\nBefore the build, it helps to see why the obvious approach stalls. That is what makes everything after it click.\n\n# \n\nWhy SFT Hits a Ceiling\n\nSFT learns by copying examples. Show it correct completions, and it gets good at producing output that looks like them.\n\nBut looking like valid JSON and being valid JSON are different goals. SFT only ever chases the first one.\n\n[![Image](https://pbs.twimg.com/media/HKcRexvaMAABWaV?format=jpg&name=small)](http://x.com/akshay%5Fpachaar/article/2064700531600458093/media/2064638174618595328)\n\nAt the token level, a completion with one wrong field type scores almost the same as a valid one. More data lifts schema accuracy to a ceiling, then stops.\n\nThe loss is measured token by token. A completion with one field typed wrong scores almost the same as a perfect one.\n\nSo you add more examples. T",
+      "title": "",
+      "url": "http://x.com/i/article/2064625044308008960"
+    },
+    "http://x.com/i/article/2064658638942412800": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064658638942412800",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKdWBM5aUAAzSR_?format=png&name=900x900)](http://x.com/degenrsc/article/2064714047241736302/media/2064713532814544896)\n\nPart 1 of 2: Agent-First: The Full Stack for Building a Multi-LLM Research Studio That Runs Itself\n\n[![](https://pbs.twimg.com/profile_images/2024179696959901699/eeOBVTkX_normal.jpg)](http://x.com/degenrsc)\n\n[Rohit Chauhan](http://x.com/degenrsc)\n\n[@degenrsc](http://x.com/degenrsc)\n\n·\n\n11h\n\nFollow\n\nClick to Follow degenrsc\n\n2\n\n11\n\n81\n\n[7.1K](http://x.com/degenrsc/status/2064714047241736302/analytics)\n\n# \n\nTL;DR\n\n* In this article, I've captured my 3 months of real experience building agentic workflows for my crypto and equity research work\n* as a researcher, the hardest part is synthesizing myriad data, stats, opinions, and insights into a cohesive story; prior to agents this process took weeks to days depending on the depth of the final output, now I can squeeze the same quality of output to hours and days\n* the real deal isn't setting up the LLM or the agent harness, the real kicker is the second brain - that to me is the single biggest takeaway building a repeatable agentic research model\n* In this piece, I drill down the exact systems, sub-systems, and the exact commands you can use to replicate the framework (and apply it to your own unique use cases)\n* do note, this is for me, and as such there might be areas you might wanna overlook, I recommend copy pasting the whole article inside your favorite LLM of choice, and then asking him to explain it back, and also interviewing you to build your own custom agentic setup by learning the mental model, architecture, and system wide thinking extracted from my specific approach\n\nhappy reading... \n\n# \n\nIntroduction\n\nEvery research note you write today starts from zero.\n\nYou opened a tab this morning, typed in the token, the sector, the angle you wanted to think through. The model asked you what you meant. You explained the framework. You explained that you cite sources inline, that conviction tiers are High / Medium / Speculative, that you do not use em dashes (yeah ik this is the number one AI giveaway lmao). You spent the first forty minutes of the session building the context the model would forget the moment you closed the tab. When you opened a different tab tomorrow, on a different project, you did the same thing again. Last week, on this same project, you did it for the third time. You have explained your research framework to an AI four times, because it has no memory of the first three.\n\nThis is not researching, its paying the same cost over and over for context you have already built, in conversations that compound nowhere. The work you did three weeks ago on this token is buried in a chat history you will never search. The CT take that flagged the kill condition is in a screenshot somewhere on the desktop. The note got published, did well, and is now structurally inaccessible to your own future research. Six months in, you have produced forty research notes, and the cumulative knowledge sitting in queryable form is approximately what it was the day you started.\n\nThe real cost of treating AI as a chatbot is not the subscription price, Its the opportunity cost of your time better spent elsewhere doing quality creative stuff.\n\nThe alternative is not a better chatbot. It is a different relationship with the tool entirely.\n\nYou type \\`claude\\` inside a project folder. Before the cursor returns, the agent has read three files. A global identity document at \\`\\~/.claude/CLAUDE.md\\` that tells it who you are, what you are building, what your voice rules are, and what research workflow you follow. A project document at the folder root that tells it the wiki is on v2, that kill-my-thesis returned PUBLISHABLE forty minutes ago, that the next step is voice calibration on draft v1\\. A memory index of every correc",
+      "title": "",
+      "url": "http://x.com/i/article/2064658638942412800"
+    },
+    "http://x.com/i/article/2064686144835739649": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064686144835739649",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKc9OdUbIAA5ZlR?format=jpg&name=900x900)](http://x.com/itsreallyvivek/article/2064686372737454155/media/2064686272770416640)\n\nhow to be good at research\n\n[![](https://pbs.twimg.com/profile_images/2061456169491951616/MktnuLGE_normal.jpg)](http://x.com/itsreallyvivek)\n\n[Vivek](http://x.com/itsreallyvivek)\n\n[@itsreallyvivek](http://x.com/itsreallyvivek)\n\n·\n\n13h\n\nFollow\n\nClick to Follow itsreallyvivek\n\n22\n\n192\n\n1.7K\n\n[138K](http://x.com/itsreallyvivek/status/2064686372737454155/analytics)\n\nnobody really teaches you research. you get a desk, a problem someone else picked, and a vague instruction to produce something novel. so most people reverse-engineer the job from what they can see, which is papers, threads, and announcements, and what they end up learning is how to look like a researcher rather than how to be one. the actual skill is a stack of smaller skills, and almost every one of them can be deliberately trained.\n\n## \n\npick your own problems\n\nrichard hamming had a habit at bell labs that made him unpopular at lunch. he'd ask whoever sat near him what the important problems in their field were, then ask why they weren't working on them. people changed tables. the question stings because most of us have no good answer. we don't choose problems, we absorb them, from an advisor, from whatever a big lab announced last quarter, from the paper everyone is quote-tweeting this week.\n\nthe trouble with an absorbed problem is that you hold the conclusion without the reasoning. you know some famous lab cares about a direction, but not why, not what they expect to find, not what would make them drop it. when they pivot, you find out a year later. and on a problem that's already fashionable, you're racing a thousand people who started earlier and have more compute than you.\n\njohn schulman's guide to ml research splits the work into two modes. in one, you read the literature and hunt for things to improve. in the other, you choose an outcome you genuinely want to exist and reason backwards to the experiments. he argues for the second, and the quiet reason is that it manufactures originality. a goal you actually care about will drag you into territory no survey paper covers.\n\ntaste, meanwhile, gets discussed like a gift. it behaves more like a muscle. predict the result of every experiment before you run it. cover a paper's results section and guess the numbers from the method alone. mark down which of this month's releases will matter in two years and check your hit rate later. a forecast plus a correction, repeated a few hundred times, is how every good model gets trained, including the one in your head.\n\n## \n\nupgrade your inputs\n\nshared reading lists produce shared ideas. if your information diet is the trending page of arxiv plus whatever survives the group chat filter, you will reliably reach the same conclusions as everyone else, at the same time, which makes those conclusions worth approximately nothing.\n\nold material is criminally underpriced. this field reruns its own past on a delay: mixture of experts dates to 1991, lstms to 1997, backprop went mainstream in 1986\\. rich sutton needed about a thousand words in 2019 to write the bitter lesson, and it predicts the shape of the field better than surveys ten times its length. claude shannon gave a talk on creative thinking in 1952 where his opening move was to shrink a problem until it's nearly trivial, crack the small version, then reintroduce the difficulty one piece at a time. that single trick will carry you through more walls than any modern productivity advice.\n\nrange matters as much as depth. interpretability borrows shamelessly from neuroscience. eval design is mechanism design wearing a lab coat. a working sense of how gpus actually move memory tells you which architecture papers are doomed before the benchmarks do. and ho",
+      "title": "",
+      "url": "http://x.com/i/article/2064686144835739649"
+    },
+    "http://x.com/i/article/2064726381485842432": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064726381485842432",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKdjNnhXwAAU9_7?format=jpg&name=900x900)](http://x.com/0x%5Frody/article/2064728139314389073/media/2064728039771062272)\n\nHow to Build a Self-Improving Loop in Claude Code (Exact Setup Inside) \n\n[![](https://pbs.twimg.com/profile_images/2041947351120572416/4IBmZ3QT_normal.jpg)](http://x.com/0x%5Frody)\n\n[rody](http://x.com/0x%5Frody)\n\n[@0x\\_rody](http://x.com/0x%5Frody)\n\n·\n\n10h\n\nFollow\n\nClick to Follow 0x\\_rody\n\n12\n\n27\n\n195\n\n[48K](http://x.com/0x%5Frody/status/2064728139314389073/analytics)\n\nClaude writes your code, hands it over, and 3 tests are failing.\n\nYou paste the errors back, it fixes one thing, breaks another, and you spend the evening as a messenger between Claude and your terminal.\n\nMost devs accept this as the workflow.\n\n The fix is a loop where Claude checks its own work and retries until everything passes, without you in the middle.\n\nHere's the full setup you need 👇\n\n[![Image](https://pbs.twimg.com/media/HKdiLPvXQAA_ZlA?format=jpg&name=small)](http://x.com/0x%5Frody/article/2064728139314389073/media/2064726899515932672)\n\n## \n\nHow the loop works\n\nThe default Claude Code flow is a straight line: you ask, Claude writes, Claude stops. Whether it works is your problem.\n\nThe loop closes the line into a circle. Claude writes, runs the checks, sees what failed, fixes it, runs the checks again. It only stops in two cases: everything passes, or it hits the retry limit and reports exactly what's still broken.\n\nYou go from messenger to reviewer. The setup is 3 files.\n\n[![Image](https://pbs.twimg.com/media/HKdiWsuXYAAptGY?format=jpg&name=small)](http://x.com/0x%5Frody/article/2064728139314389073/media/2064727096274935808)\n\n## \n\nFile 1: the loop protocol in CLAUDE.md\n\nThis tells Claude that \"done\" means \"verified\", not \"written\". Drop it in your project root:\n\nmarkdown\n\n```markdown\n## Loop protocol\n\nEvery task runs as a loop, not a line:\n\n1. Write the change.\n2. Run the checks: tests, linter, type checker.\n3. If anything fails, read the error, fix the cause, go back to step 2.\n4. Repeat up to 5 times.\n\nStop conditions:\n- All checks pass: report \"done\" with the passing output as proof.\n- 5 attempts used: stop and report what still fails and what you tried.\n- Same error appears twice in a row: stop. You're guessing, not fixing.\n\nNever report \"done\" without check output from this session.\nNever fix a test by weakening it. Fix the code, not the test.\n```\n\nThe last line matters most. Without it, Claude eventually \"passes\" tests by deleting assertions. The loop should improve the code, not the scoreboard.\n\n## \n\nFile 2: the Stop hook that closes the loop\n\nThe protocol asks Claude to check itself. This hook makes it physical. Drop into .claude/settings.json:\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          { \"type\": \"command\", \"command\": \"npm test --silent 2>&1 | tail -20\" }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit\",\n        \"hooks\": [\n          { \"type\": \"command\", \"command\": \"npx tsc --noEmit --pretty false 2>&1 | head -10\" }\n        ]\n      }\n    ]\n  }\n}\n```\n\nThe PostToolUse hook feeds type errors back after every edit, so Claude self-corrects mid-task. \n\nThe Stop hook runs the test suite when Claude tries to finish. Failing output goes straight back into the session, and the loop protocol forces another iteration instead of a fake \"done\".\n\nFor Python, swap the commands for pytest -q and pyright. For Rust, cargo test --quiet and cargo check.\n\n## \n\nFile 3: the fixer subagent\n\nFor stubborn failures, a separate agent with fresh eyes beats the 5th retry of a tired session. Drop into .claude/agents/fixer.md:\n\nyaml\n\n```yaml\n---\nname: fixer\ndescription: Invoke when the same test keeps failing after 2 fix attempts. Diagnoses the root cause before touching code.\ntools: Read, Edit, Grep, Glob, Bash\nmodel: opus\n---\n\nY",
+      "title": "",
+      "url": "http://x.com/i/article/2064726381485842432"
+    },
+    "http://x.com/i/article/2064737302065156097": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064737302065156097",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKd3_1MXwAAczfo?format=jpg&name=900x900)](http://x.com/ryancarson/article/2064751272834593135/media/2064750892667092992)\n\nHow to automate disaster recovery with agents\n\n[![](https://pbs.twimg.com/profile_images/2016785876261679104/LJFhaQ17_normal.jpg)](http://x.com/ryancarson)\n\n[Ryan Carson![](https://pbs.twimg.com/profile_images/2050158582281166848/pJrm4-yq_bigger.jpg)](http://x.com/ryancarson)\n\n[@ryancarson](http://x.com/ryancarson)\n\n·\n\n8h\n\nFollow\n\nClick to Follow ryancarson\n\n2\n\n11\n\n120\n\n[45K](http://x.com/ryancarson/status/2064751272834593135/analytics)\n\nYou're an early adopter and your agent is already shipping 100% of your features, bug fixes, and refactors. Pat yourself on the back.\n\nIt's time to level up with automated agent-driven disaster recovery.\n\n(Cheat code: Just point your agent at this post and say and say \"Implement this\".)\n\nA database restore is the scariest button in your whole stack. It's destructive, it's rare, and the one time you need it, you'll be panicking at 2 a.m. trying to remember which backup is the good one. \n\nThat's exactly the kind of high-stakes, low-frequency procedure that should be written down as a playbook your agent can execute — and, crucially, one you've actually tested under real conditions before you need it.\n\nThis post walks through how we set that up: two independent backup strategies (a point-in-time restore and an off-site dump), a single playbook our agent follows, how we trigger it, how we verify it, and how we ran a live, destructive test against production without losing data.\n\nThe agent we use is \n\n[@DevinAI](https://x.com/@DevinAI)\n\n, and the specific mechanism is a Devin playbook — a reusable procedure Devin loads and executes. We'll be concrete about how we created that playbook, how Devin runs it, and (since people always ask) how a playbook differs from a skill. The concepts generalize to any capable coding agent, but the wiring below is exactly what we run.\n\nThroughout, two pieces of standard vocabulary are worth keeping in mind, because they're how experienced operators reason about this:\n\n* RPO (Recovery Point Objective): how much data you can afford to lose, measured in time. A daily backup implies an RPO of up to \\~24h; continuous PITR gets you to seconds.\n* RTO (Recovery Time Objective): how long recovery is allowed to take.\n\nThe other touchstone is the classic 3-2-1 rule: at least 3 copies of your data, on 2 different media/systems, with 1 off-site. Everything below is really just a concrete, agent-operated implementation of 3-2-1 with explicit RPO/RTO targets.\n\n## \n\nWhy two backups, not one\n\nThe golden rule of backups:\n\nA backup you haven't restored is just a hope. \n\nAnd a single backup strategy is a single point of failure. We use two, because they fail in different ways and cover different disasters:\n\n1\\. Point-in-time restore (PITR) — your fast \"undo\"\n\nMost modern managed Postgres providers (we use \n\n[@neondatabase](https://x.com/@neondatabase)\n\n \\- it integrates really easy with \n\n[@vercel](https://x.com/@vercel)\n\n; Supabase, RDS, Cloud SQL, and others have equivalents) keep a continuous change history and let you roll the database back to any moment within a retention window (ours is 7 days).\n\n* Best for: \"We just ran a bad migration / a bad delete / a buggy deploy 20 minutes ago.\" You roll back to the timestamp just before the damage. (Excellent RPO — seconds.)\n* Granularity: to the second.\n* Speed (RTO): provider-dependent — don't assume \"instant.\" On Neon, a restore is a copy-on-write branch operation and is near-instant. On RDS / Cloud SQL, PITR provisions a brand-new instance from base snapshot + WAL replay and can take tens of minutes to hours, after which you cut over. Know your provider's restore mechanics and time it during a drill so your RTO is a measured number, not a guess.\n* The killer featu",
+      "title": "",
+      "url": "http://x.com/i/article/2064737302065156097"
+    },
+    "http://x.com/i/article/2064742269706518528": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064742269706518528",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKdy0-TXEAAHyKZ?format=jpg&name=900x900)](http://x.com/nfcampos/article/2064746971944956299/media/2064745208575627264)\n\nLoop Driven Development\n\n[![](https://pbs.twimg.com/profile_images/1898268630389006336/9QfJN60B_normal.jpg)](http://x.com/nfcampos)\n\n[Nuno Campos](http://x.com/nfcampos)\n\n[@nfcampos](http://x.com/nfcampos)\n\n·\n\n9h\n\nFollow\n\nClick to Follow nfcampos\n\n2\n\n7\n\n45\n\n[4.9K](http://x.com/nfcampos/status/2064746971944956299/analytics)\n\n## \n\nThe oracle problem\n\nTDD with coding agents works. Red-green-refactor (\n\n<https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/>\n\n) — write a failing test, make it pass, then clean up — at agent speed is genuinely good.\n\nBut the bottleneck shifts. Implementation code is approximately free. Test scaffolding is approximately free. What is not free is knowing what the test should assert. The hard problem is no longer \"writing the test\" or \"writing the code\". It's: what is the right test or answer? This is the test-oracle problem (Howden 1978, Weyuker, Barr et al. 2015) restated for the agent era. An oracle needs to provide authoritative answers about the system and behaviors you're developing, while being external (not the system you're testing), deterministic (same query → same answer), and queryable (able to answer arbitrary new inputs on demand). That's loop-driven development (LDD): pick the feedback source deliberately, and let the agent loop against it.\n\n## \n\nBehavior coverage ≠ code coverage\n\nLine, statement, and branch coverage all measure the same thing: did this line execute under some test? You can hit 100% on every one of those metrics and still have most of your system's behavior undefined — no test pins what should happen for a given input. The code does something; nothing in the suite says it's the right something.\n\nBehavior coverage asks a different question: for the meaningful input scenarios in the domain, is the expected output pinned where a test can assert? For an Excel-compatible engine, SUM(\"42\", TRUE), SUMIF with empty criteria, a formula with a circular reference, negative zero through 0.0;-0.0, and date-serial 60 (the 1900 leap-year ghost) are each a distinct behavior. Code coverage cares about one function call; behavior coverage cares about all the variations.\n\nCoverage tools cannot tell you which behaviors are missing, because they don't know which behaviors exist. That's a domain question — and the oracle problem is: who answers it?\n\n## \n\nNot all feedback is equal\n\nAgents improve by looping against feedback — \n\n[@RLanceMartin](https://x.com/@RLanceMartin)\n\n's framing (\n\n<https://x.com/rlancemartin/status/2064397389189071163>\n\n): rather than directly prompting and steering the model, design loops that let it self-correct in response to environment feedback. So the quality of the loop is the quality of its feedback source. The holy grail is feedback that is external and queryable on demand. Two dimensions sort every source:\n\n* Independence. Does the feedback share provenance with the work, or does it come from somewhere the work can't reach? An agent grading its own output is student and examiner at once.\n* Queryability. Can you get an answer for a new, specific input on demand - or is the feedback a fixed artifact you can only read?\n\n[![Image](https://pbs.twimg.com/media/HKdzLENWoAAP0zL?format=jpg&name=small)](http://x.com/nfcampos/article/2064746971944956299/media/2064745588118167552)\n\nThe four quadrants:\n\n* Self-graded and static: re-reading your own plan/notes\n* Self-graded and queryable: in-thread self-review\n* Independent and static: standards/RFC text; mined test suites\n* Independent and queryable: off-thread review; the live oracle\n\nRanked, worst to best:\n\n1\\. In-thread review. The context that wrote the code grades it. Queryable — you can ask it anything — but with zero indepe",
+      "title": "",
+      "url": "http://x.com/i/article/2064742269706518528"
+    },
+    "http://x.com/i/article/2064750162594209794": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064750162594209794",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKd3darboAcMVA_?format=jpg&name=900x900)](http://x.com/alexeheath/article/2064751005380878379/media/2064750301434060807)\n\nInside Apple's Siri revamp\n\n[![](https://pbs.twimg.com/profile_images/1983378648787988480/cGjEMRvw_normal.jpg)](http://x.com/alexeheath)\n\n[Alex Heath](http://x.com/alexeheath)\n\n[@alexeheath](http://x.com/alexeheath)\n\n·\n\n8h\n\nFollow\n\nClick to Follow alexeheath\n\n3\n\n10\n\n78\n\n[17K](http://x.com/alexeheath/status/2064751005380878379/analytics)\n\nRight after Apple’s WWDC keynote finished, I joined dozens of other journalists, influencers, and analysts in a dimly lit theater at Apple Park to hear an AI 101 class and Q&A with Craig Federighi and other Apple execs. Tim Cook and incoming CEO John Ternus sat in the front row.\n\nApple has never done an on-the-record press Q&A like this after a big keynote. There was no live broadcasting, but below are my notes and takeaways:\n\n## \n\nThe Google deal, decoded\n\n[![Image](https://pbs.twimg.com/media/HKd3kHWa8AAgwDe?format=jpg&name=small)](http://x.com/alexeheath/article/2064751005380878379/media/2064750416504745984)\n\nTo start, Federighi clicked to a slide of a “traditional chatbot architecture” and said the amount of Google’s consumer assistant inside Apple’s system is “none.” No Gemini app, no Google-served models, no Google Search for grounding.\n\nWhat Apple runs instead for the new Siri is a \n\n[new family of five Apple Foundation Models](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models)\n\n:\n\n* On device: AFM 3 Core (3B, dense) and Core Advanced (20B sparse, firing just 1–4B parameters per request to power the new voices and dictation).\n* On Apple’s Private Cloud Compute stack: AFM 3 Cloud (the workhorse), ADM 3 Cloud (images and Spatial Reframing), and AFM 3 Cloud Pro (the heavyweight, for agentic tool use and complex reasoning).\n\nGoogle touches three of those steps, not one: its frontier Gemini models refine Apple’s models, Apple trains on Google’s cloud TPUs, and Cloud Pro runs on Nvidia GPUs inside Google Cloud.\n\nApple hasn’t put an Nvidia GPU in a Mac in about a decade, after a defect debacle and a Jobs-era falling-out. Now, its most intense Siri reasoning runs on Nvidia silicon inside Google’s data center, wrapped in an extended Private Cloud Compute that Apple says is non-negotiable. We live in interesting times.\n\n## \n\nNot a chatbot or agent\n\n[![Image](https://pbs.twimg.com/media/HKd3oG8boAMIiDh?format=jpg&name=small)](http://x.com/alexeheath/article/2064751005380878379/media/2064750485115215875)\n\nFederighi insisted Siri isn’t “a separate chatbot, an unintegrated place you go and chit chat,” but something you summon over anything on an iPhone screen.\n\nWhen answering a submitted question agents, he quipped to the room that “you guys obviously watched I/O,” which drew laughs. He called today’s agents “exciting experiments” but “very early days.”\n\nMike Rockwell, who now runs Siri, did jump in to say that that Siri’s new “modern architecture” gives Apple “the ability to extend it in the future.” For now, though, Apple isn’t sweating the agent boom; the open-source agent crowd is already buying Mac Minis to run their OpenClaws.\n\n## \n\nOpenAI is on the outs\n\n[![Image](https://pbs.twimg.com/media/HKd3vPcboAAuDN1?format=jpg&name=small)](http://x.com/alexeheath/article/2064751005380878379/media/2064750607656001536)\n\nApple has clearly cooled on OpenAI. From my conversations at Apple today, it’s clear that its leaders sees Google as the more mature partner to essentially bet the model underpinnings of Siri on.\n\nThe ChatGPT product hand-off isn’t dead in that you’ll still be able to ask the new Siri to route a query to ChatGPT, but it’s opt-in and won’t be a flow that sends OpenAI real traffic.\n\nOpenAI filed confidentially for an IPO this afternoon, is building hardware with Jony Iv",
+      "title": "",
+      "url": "http://x.com/i/article/2064750162594209794"
+    },
+    "http://x.com/i/article/2064756914869993472": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064756914869993472",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKd-hW-aYAATHlt?format=jpg&name=900x900)](http://x.com/bromann/article/2064759991752663510/media/2064758065740800000)\n\nThe Missing Link Between Agents and Applications\n\n[![](https://pbs.twimg.com/profile_images/1382672254425829380/TuBN9TO2_normal.jpg)](http://x.com/bromann)\n\n[Christian Bromann![](https://pbs.twimg.com/profile_images/2028336270431453184/jRRpLAdG_bigger.jpg)](http://x.com/bromann)\n\n[@bromann](http://x.com/bromann)\n\n·\n\n8h\n\nFollow\n\nClick to Follow bromann\n\n9\n\n35\n\n[14K](http://x.com/bromann/status/2064759991752663510/analytics)\n\nTL;DR: Most agent tools run on the server, which means agents can call APIs but not interact with the browser, app state, or device capabilities where users actually work. With headless tools in LangChain we close this gap by letting agents invoke client-side capabilities like geolocation, clipboard access, local memory, and in-app actions as first-class tools. That makes agents more useful, more private, and better aligned with real application behavior.\n\nToday's agents are increasingly capable, but many of the capabilities users care about live in the client runtime rather than on the server. Browsers and applications own things like local state, user selections, device APIs, and application-specific actions that are often unavailable through backend systems. As a result, agents can reason about what should happen next but still struggle to act on the environment where the user is actually working.\n\nOne reason for this gap is that most agent tools execute on the server. When a model decides to use a tool, the agent runs it in-process or delegates it to an external service such as an MCP server, then feeds the result back into the reasoning loop. This works well for APIs, databases, and backend systems, but it has clear limitations:\n\n* It cannot directly access browser-only or device-only APIs.\n* It cannot act on frontend state that has never been synchronized to the server.\n* It often forces privacy-sensitive data to leave the device.\n* It introduces unnecessary round trips for actions that are inherently local.\n\nThe browser is where many high-value agent actions actually happen: reading local application state, acting on the current UI, and using device capabilities without shipping that data to a backend first. Desktop apps expose the same pattern through local files, native integrations, and session-specific state. If your agent cannot reach that runtime, it stays good at backend workflows but weak at the interactions users actually experience.\n\nImagine you are building a sidecar agent for Figma, Google Slides, or a rich-text editor. The agent can reason about the user's request on the server, but the document model, selection state, and editing commands all live in the client. A server-side tool cannot insert text at the cursor, reformat the selected object, or jump to the active slide, because those actions belong to the application runtime, not the backend API. Today, teams usually bridge this with an ad-hoc UI bridge: serialize some client state to the server, get a response back, then imperatively patch the client. It works, but it is fragile, hard to compose, and invisible to the model's reasoning loop.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HKd-zLBawAA00Sh.jpg)\n\nGIF\n\nLet your agent access memory or the geolocation API directly from the users browser.\n\nThat is the problem \n\n[headless tools](https://docs.langchain.com/oss/python/langchain/frontend/headless-tools)\n\n solve in LangChain.\n\n## \n\nWhat headless tools change\n\nA headless tool looks like any other tool to the model: it has a name, a description, and a set of expected inputs. The model decides when to call it, just like any other tool. The difference is what happens next.\n\nInstead of the server running the tool itself, it sends the tool call to the client: the user'",
+      "title": "",
+      "url": "http://x.com/i/article/2064756914869993472"
+    },
+    "http://x.com/i/article/2064764378357059584": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064764378357059584",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKeIAoXbIAECCVr?format=jpg&name=900x900)](http://x.com/aparnadhinak/article/2064768757713768507/media/2064768498589704193)\n\nThe Plan Is Code: Trying Out Claude Code's Dynamic Workflows\n\n[![](https://pbs.twimg.com/profile_images/1258117513872728064/c5A0LbF5_normal.jpg)](http://x.com/aparnadhinak)\n\n[Aparna Dhinakaran![](https://pbs.twimg.com/profile_images/2051433378692640768/Ph-ysq0G_bigger.jpg)](http://x.com/aparnadhinak)\n\n[@aparnadhinak](http://x.com/aparnadhinak)\n\n·\n\n7h\n\nFollow\n\nClick to Follow aparnadhinak\n\n1\n\n6\n\n78\n\n[6.1K](http://x.com/aparnadhinak/status/2064768757713768507/analytics)\n\n[![Image](https://pbs.twimg.com/media/HKeGEZAakAA_U3p?format=jpg&name=small)](http://x.com/aparnadhinak/article/2064768757713768507/media/2064766364162887680)\n\nDynamic Workflows are Claude Code's newest way of coordinating agents. We have followed the various industry approaches to orchestration and will continue to highlight unique ideas we see in the space.\n\nAgent orchestration is a growing area of research focused on the question: How do I organize a group of agents, each with specialization, to accomplish a task? The core areas of differentiation follow in these areas:\n\n* Agent Specialization - what roles do the agents take on\n* Agent Role Assignment - are the roles fixed or dynamic\n* Context Sharing - how are results shared\n* Orchestration - who starts, stops or removes agents\n* Review and Test - how is review and test handled\n\nDynamic workflows present a unique orchestration technique that looks to be designed for a certain type of task: one that is parallelizable and that requires a high quality final answer.\n\nThe first big difference between what Claude Dynamic workers does and what we would call typical orchestration is that Dynamic Workflows turns a plan into code. It writes code that contains an agent orchestration loop.\n\nBefore dynamic workflows, every multi-agent setup we’ve seen maintained the plan inside a conversation. A single agent held it in its own context window. An orchestrator gathered subagent results back into its window. Agent teams passed a shared task list around. The bigger the job, the more the conversation could drown the orchestrator in its own coordination.\n\nA script at the center spawns the agents that do the work: each task gets a dynamically created set of roles. The finder that surfaces candidate issues, a verifier that tries to tear them down, a fixer to make changes, and a synthesizer that folds the survivors into one answer. The results come back as values in the script's variables rather than as messages between agents, so you only ever see the final report.\n\nWe wanted to give it a solid task so we pointed it at a 30,000-file production codebase and told it to hunt for security bugs. It took thirty-two minutes, 330 subagents, and 22 million tokens to output a short list of issues. What follows is how a run like that works, and what we found when we went back and verified its findings.\n\n## \n\nWhat it’s made of\n\nYou only need to understand three building blocks of Dynamic Workflows to follow our run:\n\n* agent() spawns one subagent and returns its text, or, with a schema, validated structured data.\n* parallel() fans several agents out at once and waits for all of them to finish before it returns.\n* pipeline() also fans out, but doesn't wait, so one item can be three stages along while another is still on its first.\n\nTwo limits sit underneath: at most sixteen agents run at once (less with a weaker machine), with the rest queued until a slot frees, and no single run may exceed a thousand agents in total, which is a backstop against a loop that never terminates.\n\n[![Image](https://pbs.twimg.com/media/HKeGO4LbgAALZv2?format=jpg&name=small)](http://x.com/aparnadhinak/article/2064768757713768507/media/2064766544329277440)\n\nThe diagram contrasts the two. A p",
+      "title": "",
+      "url": "http://x.com/i/article/2064764378357059584"
+    },
+    "http://x.com/i/article/2064776326280773632": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064776326280773632",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKePXPbbkAAEn9s?format=jpg&name=900x900)](http://x.com/MaxBrodeurUrbas/article/2064776992403399113/media/2064776583614009344)\n\nthe 7 deadly sins of bloated AI spend\n\n[![](https://pbs.twimg.com/profile_images/1998295391721361409/pYhBqohs_normal.jpg)](http://x.com/MaxBrodeurUrbas)\n\n[Max Brodeur-Urbas![](https://pbs.twimg.com/profile_images/2033696970808954880/7bh9EXRQ_bigger.jpg)](http://x.com/MaxBrodeurUrbas)\n\n[@MaxBrodeurUrbas](http://x.com/MaxBrodeurUrbas)\n\n·\n\n7h\n\nFollow\n\nClick to Follow MaxBrodeurUrbas\n\n4\n\n7\n\n46\n\n[5.5K](http://x.com/MaxBrodeurUrbas/status/2064776992403399113/analytics)\n\nI haven’t read the bible but I’ve read hundreds of Gong call transcripts and spent \\~500 hours this year on calls with companies adopting agents.\n\nThe biggest issue most AI-forward companies have right now is their spend ballooning across their AI tools to the point where the CFO is slamming the panic button.\n\nThe patterns are so consistent that I’ve been calling them sins. For each sin I'll give you the penance. Some penances are strategic, some are a bit more technical but regardless, they will all help you flatten your exponentially growing AI bill while rolling out agents.\n\n1\\. Gluttony: Using frontier intelligence for everything.\n\nThis is the most talked about sin but it’s shocking how expensive it is at scale. It’s responsible for one or two zeroes on the end of the average company's AI bill.\n\nThe world has yet to wake up to the fact that open source models are finally good and unbelievably cheap. I mean unbelievable in the most literal sense. When an engineer told me our internal agents switched to Kimi k2.6 from Opus at an 80% discount without anyone noticing, I made him double check. He’d undersold it, it was 93% cheaper. Open source token prices read like typos.\n\nUsing frontier models for everything is lazy and can lead to unjustifiable AI bills.\n\nSolutions:\n\n* Open source models†† must be an option in all agent harnesses. They’re harder to work with but all of those shortcomings can be worked around by whoever built the agent. There will be a massive migration to cheaper inference for most knowledge work soon.\n* Model routing† should be available by default. Users are unlikely to switch off the default model, so if you make your default model a blend of multiple levels of intelligence through routing, you see instant savings.\n* Subagents†† powered by cheap models are essential to do scalable work. They’re an affordable pressure valve that a smart model can use to alleviate an overwhelming burden.\n\n(From here on out, I'm making up my own deadly sins fyi)\n\n2\\. Cowardice: Lacking the courage to optimize agents once they’re working.\n\nOnce an agent is working, we’ve noticed how scared anyone is to touch it. The thought of having to work through regressions as you chase improvements is scary enough that people would rather let things be inefficient. This fear is natural but too expensive to tolerate.\n\nSolution:\n\n* Engineer in courage†: All agents need a way to preview potential improvements. People need to see with their own eyes that a cheaper model would have worked before they will believe it. Without this preview, building confidence to optimize requires a literal hero.\n* Cost Previews†: The easiest way to motivate optimization is to show “what could have been”. Seeing that you’d have saved thousands of dollars this month with minor improvements is often enough inspiration to have someone make a change. Cost needs to be front and center across the product. It should matter to everyone, not just the CFO.\n\n3\\. Blindness: Not being able to track and attribute spend\n\nMost companies have little to no idea where their money is actually going or how valuable the work that was done with those tokens was. Tracing back the impact per token is a multi-million dollar riddle.\n\nWho is spending,",
+      "title": "",
+      "url": "http://x.com/i/article/2064776326280773632"
+    },
+    "http://x.com/i/article/2064777704147144704": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064777704147144704",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKeQnxWWUAIZtnN?format=png&name=900x900)](http://x.com/AgnoAgi/article/2064780623026540669/media/2064777967109033986)\n\nThe Framework Wars Are Over, and Nobody Won\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1984361332624306176/KaNuKvU4_normal.jpg)](http://x.com/AgnoAgi)\n\n[Agno](http://x.com/AgnoAgi)\n\n[@AgnoAgi](http://x.com/AgnoAgi)\n\n·\n\n6h\n\nFollow\n\nClick to Follow AgnoAgi\n\n1\n\n5\n\n[196](http://x.com/AgnoAgi/status/2064780623026540669/analytics)\n\nAgent frameworks and agent runtimes are two different jobs that got bundled by accident They write decision docs. Run bake-offs. Commit. Then six months later, the field has moved and they have the conversation again.\n\nThe comparison keeps breaking down because the word \"framework\" papers over two separate jobs:\n\nOrchestration is how the agent reasons, calls tools, and composes sub-agents. This is the layer that holds the actual ideas about how an agent should think. It benefits from competition and iteration. New patterns show up every few months, and they should.\n\nRuntime is how the agent runs in production. HTTP endpoints, sessions, auth, streaming, tracing, scaling, governance. Every team solves roughly the same problem here, and adjacent domains solved it more than a decade ago.\n\nMost early agent frameworks bundled both. That bundling is what teams are paying for now.\n\n## \n\nThe cost of bundling\n\nIt shows up in three places:\n\nSwitching costs balloon for no good reason. Changing how a team expresses agent logic should be a question about ergonomics and fit. Instead it becomes a re-platforming project because the deployment surface ships with the orchestration code.\n\nOperational patterns fragment. Every framework models sessions slightly differently. Every framework streams slightly differently. Every framework integrates auth slightly differently. Multiply the differences by the number of agents a team runs.\n\nThe runtime lags the orchestration. Frameworks ship new reasoning patterns fast and new production patterns slowly, because production isn't the interesting part of the project. Teams end up forking the runtime to get JWT support, or rate limiting, or whatever they need next.\n\n## \n\nWhat would \"winning\" have looked like?\n\nThe phrase \"framework wars\" assumes one contender should pull ahead and become the standard. That outcome is neither likely nor desirable.\n\nThe orchestration layer is where agent engineering is still inventing itself. The field needs many frameworks. It needs sharp opinions. It needs the framework that ships next year to beat the one that shipped last year, and it needs teams to move to the new one cheaply.\n\nWhat the field does not need is for that movement to require rebuilding the production layer.\n\n## \n\nThe test\n\nImagine your team picked the wrong orchestration tool eighteen months ago. What does the migration look like?\n\nIf the answer involves reimplementing sessions, reimplementing streaming, reimplementing auth, and reimplementing tracing, the architecture needs rethinking, not the framework choice.\n\nIf the answer is \"rewrite the agent against a different SDK and redeploy,\" the architecture is right, no matter which framework the team happened to pick.\n\n## \n\nHow AgentOS separates the two\n\nAgentOS is a framework-agnostic runtime. Your team writes the agent in whatever orchestration tool makes sense. AgentOS handles the production surface underneath: APIs, sessions, streaming, scale, auth, observability, and governance.\n\nThe orchestration choice stays contestable. The runtime choice stops mattering.\n\nThe framework wars were never the real fight. The fight is whether your production layer survives the next three frameworks.\n\n[Read the full blog](https://www.agno.com/blog/the-framework-wars-are-over-and-nobody-won?utm%5Fsource=twitter&utm%5Fmedium=post&utm%5Fcampaign=tl&utm%5Fcontent=tl-",
+      "title": "",
+      "url": "http://x.com/i/article/2064777704147144704"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -5870,6 +6073,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned",
       "url": "https://arxiv.org/html/2603.05344v1"
+    },
+    "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=utf-8",
+      "description": "Comparing the new system applications of macOS Golden Gate (Beta 1) icons to those of macOS Tahoe",
+      "final_url": "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison",
+      "frameable": false,
+      "image_urls": [
+        "http://static1.squarespace.com/static/5e949a92e17d55230cd1d44f/5e949bf1af9d553df47e07b6/6a283522322ea14cc6d0e9f0/1781025578004/Untitled+11.png?format=1500w",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/6243f5f9-e0cd-4f4f-9158-3a0e589186a6/Logo+Blank.png?format=1500w",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/b5055d03-173b-48f6-b793-8d18125f39de/GoldenGateBeta1_1x1.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/212cb827-8ca1-448e-bd7c-c688273e7aca/finder.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/09cb6193-e5ca-4294-bbb6-0b6715913492/appstore.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/b59c1b35-d97f-44db-ab91-1c0eb6f5695e/apps.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/d13e363a-8e07-47e6-87d3-2d9f3d0e92fe/automator.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/1006032e-9fe3-4121-bfac-0f6a91098c9f/automator.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/de15f877-9b2e-4c8e-acaa-811f2a158bd3/automator.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/194d3575-2f28-448f-a943-cfc5f721d866/automator.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/d27a5e3b-183f-4709-b052-d8b20f7744fd/contacts.png",
+        "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/a86708fb-8e4d-4811-87ee-b59eec0e791e/calendar.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "0 Skip to Content Blog Haberdashery Mercantile Archive Retail Wallpapers Haberdashery 2020 2021 2022 2023 2024 2025 2026 Tip Jar Colophon RSS - Main Blog RSS - Haberdashery Gear About Open Menu Close Menu Blog Haberdashery Mercantile Archive Retail Wallpapers Haberdashery 2020 2021 2022 2023 2024 2025 2026 Tip Jar Colophon RSS - Main Blog RSS - Haberdashery Gear About Open Menu Close Menu Blog Haberdashery Mercantile Folder: Archive Back Retail Wallpapers Haberdashery 2020 2021 2022 2023 2024 2025 2026 Tip Jar Folder: Colophon Back RSS - Main Blog RSS - Haberdashery Gear About macOS Golden Gate Icon Comparison 2026 WWDC Icon Tahoe Golden Gate macOS Jun 9 Written By BasicAppleGuy Comparing the macOS System Icons between Tahoe & Golden Gate (beta 1). WWDC always brings a torrent of new content, details, and platform-wide changes. One of the first things I noticed after installing the macOS Golden Gate beta was the updated icon design. The colours are much bolder, several icons have been adjusted, and the refraction in the Liquid Glass effect has changed significantly, especially in icons like Journal. There’s also a noticeable sharpness to the icons, along with a flattening of the Liquid Glass effect. I’m not sure yet whether this is simply an early-beta artifact or the intended final look. For example, while I really like the redesigned Finder icon, the sharp black edges around the nose currently feel a little unrefined. Here are a list of many of the icons across macOS Golden Gate (beta 1) compared to their liquid glass Tahoe counterpart. Enjoy! Finder Finder has undergone a bit of rhinoplasty over the past year, returning to the more rounded nose that recalls earlier iterations of the icon. App Store Apps Automator Books Chess Clock Contacts Calendar Dictionary Font Book Freeform Updated colours, and the refractive properties of the Golden Gate icons are especially noticeable when you compare how the circle distorts as it approaches the edges of the rounded rectangle layered over it. Games Home Image Playgrounds Journal Journal is another example where we can see the updated refraction brought to macOS icons. Phone Photo Booth Maps Mail Passwords Messages Mission Control Music Photos System Settings Text Edit Time Machine Tips TV Find My FaceTime Podcasts Quicktime Safari Shortcuts Stocks Stocks Voice Memos Weather Notes iPhone Mirroring Reminders WWDC macOS Icon 2026 Tahoe Golden Gate BasicAppleGuy https://basicappleguy.com Next Next macOS Golden Gate Adventure This site has no affiliation, endorsement, or official relationship with Apple Inc. All Apple-related trademarks, product names, and logos are the property of Apple Inc. and are used here for descriptive and informational purposes only.",
+      "title": "macOS Golden Gate Icon Comparison — Basic Apple Guy",
+      "url": "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison"
     },
     "https://beincrypto.com/x-crypto-bots-spam-problem/": {
       "cf_fallback_error": "empty result",
@@ -9456,6 +9684,21 @@
       "title": "GitHub - muratcankoylan/Agent-Skills-for-Context-Engineering: A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. · GitHub",
       "url": "https://github.com/muratcankoylan/agent-skills-for-context-engineering"
     },
+    "https://github.com/mvanhorn/agentcookie": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually browse on, continuously, encrypted over Tailscale, so OpenClaw, Hermes, or any other agent runtime wakes up authenticated. macOS, peer-to-peer, no cloud middleman. - mvanhorn/agentcookie",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/mvanhorn/agentcookie",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/b6c99f064c6c86facd3280930ca487aecc9554606ca3ba421812fce6a0df655c/mvanhorn/agentcookie"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - mvanhorn/agentcookie: Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually browse on, continuously, encrypted over Tailscale, so OpenClaw, Hermes, or any other agent runtime wakes up authenticated. macOS, peer-to-peer, no cloud middleman. · GitHub",
+      "url": "https://github.com/mvanhorn/agentcookie"
+    },
     "https://github.com/myshell-ai/AIlice": {
       "content_type": "text/html; charset=utf-8",
       "description": "AIlice is a fully autonomous, general-purpose AI agent. - myshell-ai/AIlice",
@@ -10705,6 +10948,32 @@
       "text_excerpt_zh": "",
       "title": "JSON Canvas — An open file format for infinite canvas data.",
       "url": "https://jsoncanvas.org/"
+    },
+    "https://julian.digital/2023/07/06/multi-layered-calendars/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "julian.digital weblog",
+      "extraction_source": "trafilatura",
+      "final_url": "https://julian.digital/2023/07/06/multi-layered-calendars/",
+      "frameable": null,
+      "image_urls": [
+        "https://julian.digital/wp-content/uploads/2023/07/og.png",
+        "https://julian.digital/wp-content/uploads/2022/04/statusquo.png",
+        "https://julian.digital/wp-content/uploads/2022/06/Frame-4.png",
+        "https://julian.digital/wp-content/uploads/2023/07/amietodo.png",
+        "https://julian.digital/wp-content/uploads/2022/08/meetinglayer.png",
+        "https://julian.digital/wp-content/uploads/2022/12/Frame-5350.png",
+        "https://julian.digital/wp-content/uploads/2022/12/Frame-5349.png",
+        "https://julian.digital/wp-content/uploads/2023/06/flightcal.png",
+        "https://julian.digital/wp-content/uploads/2023/03/azl.png",
+        "https://julian.digital/wp-content/uploads/2023/01/cal_stress.png",
+        "https://julian.digital/wp-content/uploads/2023/01/cal_run.png",
+        "https://julian.digital/wp-content/uploads/2023/01/cal_sleep.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Traveling through time in three dimensions\nTime is a curious thing. It’s a constantly flowing stream that can’t be paused, stopped, or repeated. We experience it, but we can’t control it. We can’t even touch or feel it.\nTo get a better grasp of this weird, intangible resource that governs everything around us, humanity has invented a variety of “time devices”. These devices help us to plan and optimize how we spend our time. To make the most out of the here and now.\nThe most popular time device is the watch. A watch is a useful tool, but its functionality is limited to the present moment. It allows us to see time, but not to manage it. It only tells us the status quo.\nCalendars, on the other hand, cover the entire spectrum of time. Past, present and future. They are the closest thing we have to a time machine. Calendars allow us to travel forward in time and see the future. More importantly, they allow us to change the future.\nChanging the future means dedicating time to things that matter. It means allocating our most precious resource to activities with the highest expected return on investment.\nYou would expect technologists and entrepreneurs to be intensely focused on perfecting such a magical time travel device, but surprisingly, that has not been the case. Our digital calendars turned out to be just marginally better than their pen and paper predecessors. And since their release, neither Outlook nor Google Calendar have really changed in any meaningful way.\nIsn’t it ironic that, of all things, it’s our time machines that are stuck in the past?\nThe essay at hand is an exploration of what calendars could be if they weren’t stuck in time. But before we discuss their future, we first need to analyze their present status and how they fit into the rest of the productivity stack.\nOur productivity stack consists of four types of tools:\n- Note-taking apps\n To document and organize our thoughts\n- Email\n To communicate with others\n- Task managers\n To organize the things we need to get done\n- Calendars\n To manage our time\nThe fact that we use four distinct tools suggests that note-taking, email, task management, and time management are four distinct activities. But when you look closer, you’ll realize that these activities are actually not that clear-cut. In fact, they all heavily overlap. [Notes are just emails to your future self](http://julian.digital/2020/09/04/a-meta-layer-for-notes/). [Emails are just tasks](http://julian.digital/2020/01/17/superhuman-the-productivity-meta-layer/). And tasks are just calendar events.\nMy personal workflow looks like this:\n- I treat my email inbox as my primary task manager (and note-taking tool).\n- Tasks are emails I receive from others or emails I send to myself.\n- I snooze emails until the week I want to get them done.\n- At the beginning of each week, I go through my email todo list and block time in my calendar for each task.\nThe email<>todo part of this workflow actually works reasonably well. Most of today’s email clients are built around [the concept of Inbox Zero](https://www.youtube.com/watch?v=z9UjeTMb3Yk), which effectively turns your email inbox into a todo list with public write access.\nThe part we haven’t really figured out yet is the intersection between task managers and calendars.\nTreating todos as calendar events is helpful because calendars introduce constraints. A calendar forces you to estimate how long each task will take and then find empty space for it on a 24 hours × 7 days grid, which is already cluttered with other things. It’s like playing Tetris with blocks of time.\nSo how do we get tasks into our calendars without awkwardly switching back and forth between two different apps that don’t talk to each other?\nNew productivity tools such as [Amie](https://amie.so) are trying to solve this problem by natively inserting todo lists into the calendar experience. In Amie, every calendar event is a task that can be marked as done.\nThis approach is a step in the right direction",
+      "title": "Multi-layered calendars « julian.digital",
+      "url": "https://julian.digital/2023/07/06/multi-layered-calendars/"
     },
     "https://jxnl.co/writing/2026/05/18/six-levels-of-complexity-of-an-ai-powered-morning-brief-with-codex/": {
       "cleaner_v": 2,
@@ -13571,6 +13840,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg": {
       "cleaner_v": 2,
@@ -17296,6 +17579,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
     },
+    "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg"
+    },
     "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -17338,6 +17635,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg"
     },
+    "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg"
+    },
+    "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg"
+    },
+    "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+    },
     "https://pbs.twimg.com/media/HKdUzChW8AA5d9U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -17365,6 +17704,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
+    },
+    "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HGQGvgAbkAAxOd8.jpg": {
       "cleaner_v": 2,
@@ -17569,6 +17922,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Prompting best practices - Claude API Docs",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+    },
+    "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Behavioral differences and prompting patterns for Claude Fable 5 and Claude Mythos 5, covering effort, instruction following, long runs, memory, and scaffolding changes.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "frameable": false,
+      "image_urls": [
+        "https://platform.claude.com/docs/og?locale=en&path=build-with-claude/prompt-engineering/prompting-claude-fable-5"
+      ],
+      "kind": "article",
+      "text_excerpt": "Best practicesPrompt engineering\nBehavioral differences and prompting patterns for Claude Fable 5 and Claude Mythos 5, covering effort, instruction following, long runs, memory, and scaffolding changes.\nThis guide covers the prompting and scaffolding patterns specific to Claude Fable 5 and Claude Mythos 5. For the model's capabilities, API changes, pricing, and availability, see [Introducing Claude Fable 5 and Claude Mythos 5](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5). For techniques that apply across all current Claude models, see [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices).\nClaude Fable 5 takes on problems that were previously too complex, long-running, or ambiguous for prior models, and is particularly effective at end-to-end work that takes a person hours, days, or weeks to complete. The teams seeing the best outcomes apply Claude Fable 5 to their hardest unsolved problems; testing it only on simpler workloads tends to undersell its capability range. It also performs reliably on more straightforward tasks.\nClaude Fable 5 has several behavioral differences from Claude Opus 4.8 that may require prompt or scaffolding updates. Capability improvements at this level are also a good prompt to re-evaluate which instructions, tools, and guardrails are still needed. The patterns below cover the behaviors that most often require tuning.\nFor API parameter changes specific to Claude Fable 5 and Claude Mythos 5 (adaptive thinking only, summarized-only thinking output, no extended thinking budgets, the refusal stop reason and fallback handling), see [Introducing Claude Fable 5 and Claude Mythos 5](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5).\nClaude Fable 5 runs safety classifiers that target offensive cybersecurity techniques (such as building exploits, malware, or attack tooling), biology and life sciences content (such as lab methods or molecular mechanisms), and extraction of the model's summarized thinking. Benign cybersecurity work and beneficial life sciences tasks may also trigger these safeguards. To re-route declined requests automatically, configure [server-side or client-side fallback](https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback) to Claude Opus 4.8.\nCapability improvements\nCompared with Claude Opus 4.8, Claude Fable 5 shows improvement in:\n- Long-horizon autonomy. Claude Fable 5 sustains productive output over extended periods, completing multi-day, goal-directed runs with strong instruction retention across long, complex tasks.\n- First-shot correctness on complex, well-specified problems. Early testers reported single-pass implementations of systems that previously took days of iteration.\n- Vision. Claude Fable 5 interprets dense technical images, web applications, and detailed screenshots with substantially higher accuracy, often while using fewer output tokens, and is trained to use bash and crop tools to handle flipped, blurry, or noisy images.\n- Enterprise workflows. Claude Fable 5 follows instructions, stays in scope, and produces professional-grade output on financial analysis, spreadsheets, slides, and documents.\n- Code review and debugging. Bug-finding recall (outside the cybersecurity domains the safety classifiers cover) is noticeably higher than Claude Opus 4.8, including search across codebases and repository history.\n- Navigating ambiguity. Claude Fable 5 performs well when given complex, multi-threaded requests and asked to determine next steps.\n- Delegation and collaboration. Claude Fable 5 is significantly more dependable at dispatching and sustaining parallel subagents, and reliably manages ongoing communication with long-running subagents and peer agents.\nBeyond these specific improvements, Claude Fable 5 is generally more capable than prior models on almost all tasks.",
+      "title": "Prompting Claude Fable 5 - Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5"
     },
     "https://podcasts.apple.com/us/podcast/the-startup-ideas-podcast/id1593424985?i=1000755818065": {
       "cleaner_v": 2,
@@ -17981,6 +18349,24 @@
       "title": "Outcome-based pricing for AI Agents | Sierra",
       "url": "https://sierra.ai/blog/outcome-based-pricing-for-ai-agents"
     },
+    "https://simonwillison.net/2025/Mar/11/using-llms-for-code/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Online discussions about using Large Language Models to help write code inevitably produce comments from developers who’s experiences have been disappointing. They often ask what they’re doing wrong—how come some …",
+      "extraction_source": "trafilatura",
+      "final_url": "https://simonwillison.net/2025/Mar/11/using-llms-for-code/",
+      "frameable": null,
+      "image_urls": [
+        "https://static.simonwillison.net/static/2025/colophon.jpg",
+        "https://static.simonwillison.net/static/2025/github-actions-colophon.jpg",
+        "https://static.simonwillison.net/static/2025/github-pages-settings.jpg",
+        "https://static.simonwillison.net/static/2025/github-actions-colophon-2.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Here’s how I use LLMs to help me write code\n11th March 2025\nOnline discussions about [using Large Language Models to help write code](https://simonwillison.net/tags/ai-assisted-programming/) inevitably produce comments from developers who’s experiences have been disappointing. They often ask what they’re doing wrong—how come some people are reporting such great results when their own experiments have proved lacking?\nUsing LLMs to write code is difficult and unintuitive. It takes significant effort to figure out the sharp and soft edges of using them in this way, and there’s precious little guidance to help people figure out how best to apply them.\nIf someone tells you that coding with LLMs is easy they are (probably unintentionally) misleading you. They may well have stumbled on to patterns that work, but those patterns do not come naturally to everyone.\nI’ve been getting great results out of LLMs for code for over two years now. Here’s my attempt at transferring some of that experience and intution to you.\n- [Set reasonable expectations](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#set-reasonable-expectations)\n- [Account for training cut-off dates](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#account-for-training-cut-off-dates)\n- [Context is king](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#context-is-king)\n- [Ask them for options](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#ask-them-for-options)\n- [Tell them exactly what to do](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#tell-them-exactly-what-to-do)\n- [You have to test what it writes!](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#you-have-to-test-what-it-writes-)\n- [Remember it’s a conversation](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#remember-it-s-a-conversation)\n- [Use tools that can run the code for you](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#use-tools-that-can-run-the-code-for-you)\n- [Vibe-coding is a great way to learn](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#vibe-coding-is-a-great-way-to-learn)\n- [A detailed example using Claude Code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#a-detailed-example)\n- [Be ready for the human to take over](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#be-ready-for-the-human-to-take-over)\n- [The biggest advantage is speed of development](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#the-biggest-advantage-is-speed-of-development)\n- [LLMs amplify existing expertise](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#llms-amplify-existing-expertise)\n- [Bonus: answering questions about codebases](https://simonwillison.net/2025/Mar/11/using-llms-for-code/#bonus-answering-questions-about-codebases)\nSet reasonable expectations\nIgnore the “AGI” hype—LLMs are still fancy autocomplete. All they do is predict a sequence of tokens—but it turns out writing code is mostly about stringing tokens together in the right order, so they can be extremely useful for this provided you point them in the right direction.\nIf you assume that this technology will implement your project perfectly without you needing to exercise any of your own skill you’ll quickly be disappointed.\nInstead, use them to augment your abilities. My current favorite mental model is to think of them as an over-confident pair programming assistant who’s lightning fast at looking things up, can churn out relevant examples at a moment’s notice and can execute on tedious tasks without complaint.\nOver-confident is important. They’ll absolutely make mistakes—sometimes subtle, sometimes huge. These mistakes can be [deeply inhuman](https://simonwillison.net/2025/Mar/2/kellan-elliott-mccrea/)—if a human collaborator hallucinated a non-existent library or method you would instantly lose trust in them.\nDon’t fall into the trap of anthropomorphizing LLMs and assuming that failures which would discredit a human",
+      "title": "Here’s how I use LLMs to help me write code",
+      "url": "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
+    },
     "https://simonwillison.net/2026/May/25/encyclical-on-ai/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18050,6 +18436,34 @@
       "text_excerpt_zh": "",
       "title": "Spell UI",
       "url": "https://spell.sh"
+    },
+    "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Minions are Stripe’s homegrown coding agents, responsible for more than a thousand pull requests merged each week. Though humans review the code, minions write it from start to finish. Learn how they work, and how we built them.",
+      "final_url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "frameable": false,
+      "image_urls": [
+        "https://stripe.dev/dev_social.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[ B ] Blog [ E ] Events [ D ] Docs [ Y ] Youtube [ G ] Github [ M ] Meetups Minions: Stripe’s one-shot, end-to-end coding agents / Metadata Date: 2026.2.09 Author: Alistair Gray Reading time: 5 min read Categories: AI Developer Productivity Engineering Share: Twitter/X LinkedIn / Article About the author / About the author Alistair Gray Alistair is a software engineer on the Leverage team. The Leverage team builds surprisingly delightful internal products that Stripes can leverage to supercharge their productivity. Minions: Stripe’s one-shot, end-to-end coding agents—Part 2 / Additional resources Subscribe to Stripe Developers on YouTube. Check out the docs for the in-depth developer guidance. Join the Stripe Discord server to chat live with other developers. Join a local Stripe Developer Meetup to learn about the latest features and network with your community. / Related Articles [ Fig. 1 ] 10x Minions: Stripe’s one-shot, end-to-end coding agents—Part 2 Minions are Stripe’s homegrown coding agents, responsible for more than a thousand pull requests merged each week. Though humans review the code,... AI Developer Productivity Engineering [ Fig. 2 ] 10x Provision a production-ready dev stack from your terminal Provision hosting, databases, auth, analytics, AI and other dev tools from the Stripe CLI. Stripe Projects creates real resources in your own... Developer Productivity Engineering AI / Docs Explore our guides and examples to integrate Stripe. Learn more / Social Youtube Twitter/X Discord / Resources Docs Developer Meetups © 2026 Stripe, Inc. Privacy Legal Stripe.com",
+      "title": "Minions: Stripe’s one-shot, end-to-end coding agents | Stripe Dot Dev Blog",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents"
+    },
+    "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Minions are Stripe’s homegrown coding agents, responsible for more than a thousand pull requests merged each week. Though humans review the code, minions write it from start to finish. Learn how they work, and how we built them.",
+      "final_url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
+      "frameable": false,
+      "image_urls": [
+        "https://stripe.dev/dev_social.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[ B ] Blog [ E ] Events [ D ] Docs [ Y ] Youtube [ G ] Github [ M ] Meetups Minions: Stripe’s one-shot, end-to-end coding agents—Part 2 / Metadata Date: 2026.2.19 Author: Alistair Gray Reading time: 8 min read Categories: AI Developer Productivity Engineering Share: Twitter/X LinkedIn / Article About the author / About the author Alistair Gray Alistair is a software engineer on the Leverage team. The Leverage team builds surprisingly delightful internal products that Stripes can leverage to supercharge their productivity. Minions: Stripe’s one-shot, end-to-end coding agents / Additional resources Subscribe to Stripe Developers on YouTube. Check out the docs for the in-depth developer guidance. Join the Stripe Discord server to chat live with other developers. Join a local Stripe Developer Meetup to learn about the latest features and network with your community. / Related Articles [ Fig. 1 ] 10x Minions: Stripe’s one-shot, end-to-end coding agents Minions are Stripe’s homegrown coding agents, responsible for more than a thousand pull requests merged each week. Though humans review the code,... AI Developer Productivity Engineering [ Fig. 2 ] 10x Provision a production-ready dev stack from your terminal Provision hosting, databases, auth, analytics, AI and other dev tools from the Stripe CLI. Stripe Projects creates real resources in your own... Developer Productivity Engineering AI / Docs Explore our guides and examples to integrate Stripe. Learn more / Social Youtube Twitter/X Discord / Resources Docs Developer Meetups © 2026 Stripe, Inc. Privacy Legal Stripe.com",
+      "title": "Minions: Stripe’s one-shot, end-to-end coding agents—Part 2 | Stripe Dot Dev Blog",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2"
     },
     "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/": {
       "cleaner_v": 2,
@@ -18240,6 +18654,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "MAGI//ARCHIVE | Discovered repositories from the open source frontier",
       "url": "https://tom-doerr.github.io/repo_posts/"
+    },
+    "https://tycoon.us/blog/ai-growth-engine-for-indie-founders": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "产品做好了，客户在哪？这是 2026 年每个独立创始人都在问的问题。本文用真实案例拆解如何用 AI Agent 搭建增长引擎——从冷启动到规模化获客，零营销团队的独立创始人也能做到。",
+      "extraction_source": "trafilatura",
+      "final_url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders",
+      "frameable": null,
+      "image_urls": [
+        "https://tycoon.us/api/og/page?title=%E7%8B%AC%E7%AB%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9C%80%E7%BC%BA%E7%9A%84%E4%B8%8D%E6%98%AF%E4%BA%A7%E5%93%81%EF%BC%8C%E6%98%AF%E5%AE%A2%E6%88%B7%EF%BC%9A2026%20%E5%B9%B4%E5%A6%82%E4%BD%95%E7%94%A8%20AI%20Agent%20%E5%81%9A%E5%A2%9E%E9%95%BF&sub=%E4%BA%A7%E5%93%81%E5%8F%AA%E6%98%AF%E5%85%A5%E5%9C%BA%E5%88%B8%EF%BC%8C%E5%A2%9E%E9%95%BF%E6%89%8D%E6%98%AF%E6%AF%94%E8%B5%9B%E6%9C%AC%E8%BA%AB%E2%80%94%E2%80%94AI%20Agent%20%E8%AE%A9%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8%E4%B9%9F%E8%83%BD%E8%B7%91%E5%A2%9E%E9%95%BF%E9%A3%9E%E8%BD%AE%E3%80%82&badge=Blog"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI 增长引擎和传统营销工具有什么区别？\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n产品只是入场券，增长才是比赛本身——AI Agent 让一人公司也能跑增长飞轮。\n产品做好了，客户在哪？这是 2026 年每个独立创始人都在问的问题。本文用真实案例拆解如何用 AI Agent 搭建增长引擎——从冷启动到规模化获客，零营销团队的独立创始人也能做到。\nFree to startNo credit card requiredUpdated Jun 2026\nIndieHackers 上有一个帖子正在被疯狂讨论——「Building a complex SaaS was the easy part. Now I need proof.」发帖人花了七个月打磨产品，功能齐全、架构干净、性能优秀。然后他停在了一个问题上：谁来用？\n这不是个例。500k.io 的 2026 年独立创始人统计数据显示：73% 的独立创始人把「客户获取」列为第一痛点，远超「产品开发」（11%）和「融资」（9%）。\n产品做得再好，没人用就是零。\n但独立创始人的困境在于：你既没有预算雇增长团队，也没有时间同时搞定产品和营销。结果就是——产品上线了，然后呢？\n你在 Product Hunt 上线了，发了 X，发了 Reddit，贴了 HN。24 小时后：12 个 upvote，3 条评论，0 个注册。你的帖子沉了。\n不是产品不好——是冷启动本身就是一场信息战争，而一个人打不赢。\n你开始写博客、发推、做 LinkedIn。三个月后：博客月访问 200，X 粉丝 300。你发现内容的投入产出比低得可怕——不是因为内容没用，是因为你没有精力同时做内容和分发。\n一个博文写 4 小时，分发到 10 个渠道又要 3 小时。一周一篇博文，你每周 7 小时砸在内容上——这还不算选题和数据分析的时间。\nBazzly 的创始人 Filippo 在 IndieHackers 上写了一篇爆文：「You don't need more traffic. You need better activation.」43 个 upvote，70 条评论。核心观点：大多数独立创始人花 80% 时间在「做」增长（发帖、回帖、写邮件），只花 20% 时间在「想」增长（用户洞察、渠道策略、转化优化）。\n理想的比例应该反过来。\n2026 年的 AI Agent 已经不是「写文案的工具」了。它们能做的是一个完整增长团队的日常工作——从内容生产到多渠道分发，从冷启动 outreach 到客户反馈分析。\n一个独立创始人的增长系统只需要四个 AI 角色：\n1. AI 内容引擎 → 把「写东西」变成流水线\n不是让 AI 替你写一篇文章。是让 AI 跑一整个内容流水线：\n- 选题：扫描 IndieHackers、X、Reddit、HN 的热点话题，匹配你的产品定位\n- 撰写：基于 SEO 关键词和用户搜索意图生成结构化内容\n- 分发：自动生成 X thread、Reddit 帖子、HN 提交文案、Slack/Discord 社区分享\n- 追踪：48 小时后复盘数据，标记高转化渠道\n一个独立创始人手动跑完这个流程需要 6-10 小时。AI Agent 可以降到 1 小时以内——你的角色从「执行者」变成了「审核者」。\n2. AI 冷启动引擎 → 不是 spam，是规模化的人际接触\n冷启动最难的是什么？不是找不到目标用户——是一个个联系太慢了。\nAI 冷启动引擎的工作流程：\n- 识别你的目标用户活跃的社区（Reddit 子版块、Slack 群组、Discord 服务器）\n- 监控相关讨论话题\n- 生成个性化、有价值的回复（不是「试试我的产品」，而是真正回答问题，自然带出你的产品作为解决方案）\n- 跟踪哪些社区和话题的转化率最高\nLiFast 的创始人做了一个 AI LinkedIn outreach 工具，自己先用它做冷启动——从 600 次 LinkedIn 资料浏览到 12 个真实客户，只用了 90 天。\n3. AI 激活引擎 → 让注册用户真正用起来\n大多数独立创始人的激活流程是这样的：用户注册 → 收到一封 welcome email → 然后就没有然后了。\nIndieHackers 的数据：一个新用户在注册后 72 小时内如果没有完成「关键动作」（比如完成第一个任务、导入数据、邀请队友），流失率超过 80%。\nAI 激活引擎能做什么：\n- 根据用户注册时的行为数据，发个性化的 onboarding 序列\n- 监控用户的关键行为（登录频率、功能使用、停留时间）\n- 在用户即将流失时触发挽留动作（个性化的邮件、教程视频、甚至是一个真实的 demo offer）\n这不是「发邮件」——这是用数据驱动的自动化激活。\n4. AI 反馈引擎 → 让客户告诉你下一步做什么\n增长不等于获客。增长的真正引擎是 客户洞察 → 产品迭代 → 口碑传播。\nAI 反馈引擎的工作：\n- 自动收集和分析客服对话、社交媒体评论、产品内反馈\n- 提取高频需求和痛点\n- 标记流失信号（某个功能的使用率突然下降、负面评价集中出现）\n- 每周生成一份「你该知道的 5 件事」\n你不再是盲飞。\n假设你是一个独立创始人，刚上线了一个 AI 项目协作工具。你的增长飞轮怎么跑：\n第 1-2 周：内容播种\n- AI 内容引擎产出 2 篇 SEO 博文 + 10 条社交分发\n- 目标：建立初始内容资产，开始获取搜索流量\n第 3-4 周：社区冷启动\n- AI 冷启动引擎在 3 个目标社区持续互动\n- 每天 5-10 条有价值的回复，自然带出产品\n- 目标：获得第一批 20-30 个注册用户\n第 5-8 周：激活和迭代\n- AI 激活引擎接手新用户 onboarding\n- AI 反馈引擎收集用户行为数据和反馈\n- 根据数据迭代产品\n第 9 周起：规模化\n- 内容引擎进入周更节奏\n- 冷启动引擎扩展到新社区\n- 激活和反馈引擎持续优化\n这不是理论——500k.io 的数据显示，使用 AI Agent 做增长的独立创始人，6 个月内用户增长速度是仅靠手动增长的 3.4 倍。\nAI 不是魔法。如果你自己的增长策略是错的，AI 只是帮你更快地执行错误策略。\n先想清楚：你的目标用户是谁？他们在哪里？他们为什么应该用你的产品？这些问题的答案不能交给 AI。\nAI 可以 10 分钟产出一篇博文——但 10 篇平庸的文章不如 1 篇真正有用的文章。AI 内容引擎的起点应该是用户搜索意图研究和竞品内容分析，而不是「让 AI 随便写」。\n一个独立创始人的 AI 增长团队应该聚焦在 1-2 个渠道上做到极致，而不是 10 个渠道都蜻蜓点水。\n怎么选渠道？看两个指标：\n- 你的目标用户在不在这个渠道\n- 这个渠道是否适合长期积累（SEO 和社区 > 一次性广告）\n如果你只有 1-2 个 AI 工具（ChatGPT 写文案、一个 SEO 工具做关键词），你只是把单项任务自动化了。\n真正的增长引擎是 AI Agent 之间的协作：你的 AI 内容引擎自动把博文发给 AI 分发引擎，AI 分发引擎把用户反馈喂给 AI 分析引擎，AI 分析引擎把洞察推给你。\n这就是 Tycoon 在解决的问题——不是给你一个 AI 工具，而是给你一个 AI 增长团队：\n- [AI CEO](https://tycoon.us/blog/what-is-an-ai-ceo)— 每天早上的优先级清单，自动跟进和堵点发现\n- [AI 写手 + SEO + 分发](https://tycoon.us/blog/your-first-employee-should-be-ai)— 内容从选题到多平台分发全自动\n- [AI 增长分析师](https://tycoon.us/blog/how-to-run-a-one-person-company-with-ai)— 数据找人，而不是人找数据\n你不再是一个人在战斗。\n产品做好了，客户在哪？这个问题不会再让你失眠。\nFAQ\nClear answers about wallet credit, usage, subscriptions, and how Tycoon charges for work.\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n一个集成 AI 平台的月费通常在 $9-$99 之间，覆盖内容、分发、分析和冷启动。相比之下，雇一个兼职增长人员的成本是 $2K-$5K/月。AI 增长引擎的成本是人类的 1-3%。\nGoogle 的立场很明确：惩罚的是「低质量、为操纵排名而生的内容」，不是「AI 辅助创作的内容」。关键策略是：AI 出草稿和结构，人类把控洞察和真实经验，确保每篇内容提供独特的价值。纯 AI 生成、零人工审核的内容确实有风险。\n取决于你的产品类型和目标用户。B2B SaaS 优先 SEO + LinkedIn + 行业社区；B2C 优先 SEO + Reddit + X；开发者工具优先 SEO + HN + GitHub + Dev.to。无论选哪个渠道，聚焦 1-2 个做到 80 分，再考虑扩展。\n取决于你怎么用。AI 的正确用法",
+      "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
+      "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
     },
     "https://udlbook.github.io/udlbook/": {
       "content_type": "text/html; charset=utf-8",
@@ -18971,6 +19400,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Closing the Loop: What to Do After a Design Critique Ends - NN/G",
       "url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar"
+    },
+    "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "\"AI design\" is one label but has forked into four different types of work.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://media.nngroup.com/media/articles/opengraph_images/The_Four_Design_Jobs_AI_Created-1.png",
+        "https://media.nngroup.com/media/people/photos/20211213_Vegas-22.jpg.256x256_q75_autocrop_crop-smart_upscale.jpg",
+        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-metaphor-nng.png",
+        "https://media.nngroup.com/media/editor/2026/06/05/sarah-gibbons-ai-design-field-graph-nng.png",
+        "https://media.nngroup.com/media/videos/thumbnails/Maria_Use_AI_Responsibly_in_Analysis.png.650x364_q75_autocrop_crop-smart_upscale.png",
+        "https://media.nngroup.com/media/videos/thumbnails/AI_Interviewers_-_Maria_Rosala.png.650x364_q75_autocrop_crop-smart_upscale.png",
+        "https://media.nngroup.com/media/videos/thumbnails/Kate_and_Sarah_Outcome-Oriented_Design__The_Era_of_AI_Design.png.650x364_q75_autocrop_crop-smart_upscale.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "What Does “AI Design” Mean?\nWhen someone says “AI design,” everyone in the room pictures something different.\nOne person is thinking about using AI to generate component variations for a design system. Another is designing a chat interface. A third is structuring data so an AI agent can parse it. A fourth is defining an LLM’s behavior.\nThey all fall under “AI design” but they are not the same work.\nI see this in job postings, LinkedIn posts, and conference talks. Someone says, “We need to figure out our AI design strategy,” and every person at the table nods — while imagining a completely different thing. Six months later, everyone’s frustrated because the “AI-design initiative” was not what they expected.\nThe conversation around AI and design is forking. What used to be a single (admittedly vague) topic has split into at least four distinct orientations. Each one focuses on a different type of design work, sits in different organizational structures, and uses different definitions of what “good” looks like. Most teams are staffed for only one of these orientations, confused about which one they’re doing, or trying to dance between all of them without realizing it.\nSo, which of the four AI design orientations are you in?\nThe Engine and the Car\nAn AI model is an engine. A powerful, complex piece of technology under the hood. You can buy just the engine (companies like Anthropic and OpenAI sell directly to developers through their APIs). But most people never experience AI that way.\nMost people experience AI inside a “car”: the dashboard, the steering wheel, the seatbelt — all the parts that turn raw capability into something a person can actually drive. Most people don’t care how the engine works. They care that it gets them where they’re going.\nThis metaphor brings us to the four different meanings of “AI design”. Each of these meanings implies a different kinds of work, skills, questions, and success metrics. They’re not mutually exclusive, but they are very different.\nThe Four Meanings of “AI Design”\n[Laura Costantino](https://www.linkedin.com/in/lauracostantino/) sketched an early version of this framework in [a LinkedIn post](https://www.linkedin.com/posts/lauracostantino_ai-design-what-i-think-we-can-simplify-share-7437301579491201024-w4S8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaiZ8sBnWYk4RbV4A-hfCGQVp8VWvD9v3s). I've taken it in a different direction by reworking one of the categories and building out the rest.\n1. Designing with AI\nYou’re the driver. You're the driver behind the wheel.\nThis is the orientation most people think of first. You use AI in your design process: to [ideate](https://www.nngroup.com/topic/ux-ideation/), [prototype](https://www.nngroup.com/topic/prototyping/), generate [copy](https://www.nngroup.com/contents/self-paced-courses/informative-microcopy-titles-headings-cards-and-more/), build [mood boards](https://www.nngroup.com/articles/mood-boards/), run [competitive research/](https://www.nngroup.com/articles/competitive-usability-evaluations/)audits, or [critique](https://www.nngroup.com/contents/self-paced-courses/design-critiques-getting-actionable-feedback/) your own work. AI tools are your vehicles, and you use them to get somewhere further, faster.\nThis is where most designers live right now, and there’s nothing wrong with that. AI-as-tool is transformative for how design work gets done. Entire workflow steps that used to take hours now happen in minutes.\nThe pitfall is treating this type of work as all there is to “AI design.” Leadership says “we’re incorporating AI into our design practice” and what they mean is “our designers are using Claude Code now.” While this type of AI design is a start, it ignores every other way AI is reshaping design opportunity inside the organization.\n2. Designing AI Products\nYou’re the manufacturer. You're building the car (or duct-taping AI onto one that's already moving).\nThis is where you design the product or interface that delivers AI capabili",
+      "title": "The Four Design Jobs AI Created (So Far) - NN/G",
+      "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar"
     },
     "https://www.oreilly.com/library/view/ai-engineering/9781098166298/": {
       "cleaner_v": 2,
@@ -27886,6 +28336,17 @@
       "http://x.com/i/article/2064264218858164224",
       "https://x.com/alokbishoyi97/status/2064313324146495881"
     ],
+    "2064343621130932644": [
+      "https://x.com/sairahul1/status/2064343621130932644",
+      "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg",
+      "https://x.com/sairahul1/status/2064516852571927023",
+      "https://x.com/sairahul1/status/2064704723387916539",
+      "https://x.com/sairahul1/status/2064885140246139185",
+      "https://x.com/sairahul1/status/2064704538012156205",
+      "https://x.com/sairahul1/status/2064719841123254445",
+      "https://x.com/sairahul1/status/2064615669283610892",
+      "https://x.com/sairahul1/status/2064604419099156851"
+    ],
     "2064350250786341326": [
       "https://x.com/AlphaSignalAI/status/2064350250786341326",
       "http://x.com/i/article/2064290620416589824",
@@ -27917,6 +28378,9 @@
     "2064376652331728919": [
       "https://x.com/AgnoAgi/status/2064376652331728919",
       "http://x.com/i/article/2064376251054243840"
+    ],
+    "2064381530500460775": [
+      "https://x.com/k_nakajima_bell/status/2064381530500460775"
     ],
     "2064391292302307556": [
       "https://x.com/linear/status/2064391292302307556",
@@ -27991,13 +28455,150 @@
       "http://agentsview.io",
       "https://til.simonwillison.net/llms/agentsview-custom-model-price"
     ],
+    "2064596603772743743": [
+      "https://x.com/idoubicc/status/2064596603772743743",
+      "http://aitdk.com",
+      "http://shipany.ai"
+    ],
+    "2064650572788068378": [
+      "https://x.com/quxiaoyin/status/2064650572788068378",
+      "https://tycoon.us/blog/ai-growth-engine-for-indie-founders",
+      "https://x.com/quxiaoyin/status/2064709838391628212"
+    ],
+    "2064686372737454155": [
+      "https://x.com/itsreallyvivek/status/2064686372737454155",
+      "http://x.com/i/article/2064686144835739649",
+      "https://x.com/itsreallyvivek/status/2064759918792704109",
+      "https://x.com/itsreallyvivek/status/2064705243246723280",
+      "https://x.com/itsreallyvivek/status/2064706056874500452",
+      "https://x.com/itsreallyvivek/status/2064759823812694178",
+      "https://x.com/itsreallyvivek/status/2064759848651415606"
+    ],
+    "2064694805762912403": [
+      "https://x.com/mfpiccolo/status/2064694805762912403",
+      "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg"
+    ],
+    "2064700531600458093": [
+      "https://x.com/akshay_pachaar/status/2064700531600458093",
+      "http://x.com/i/article/2064625044308008960"
+    ],
+    "2064707903953490091": [
+      "https://x.com/ryancarson/status/2064707903953490091",
+      "https://x.com/ryancarson/status/2064861585550512158"
+    ],
+    "2064710547795300382": [
+      "https://x.com/0xCodez/status/2064710547795300382",
+      "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
+      "https://x.com/0xCodez/status/2064711766697816269",
+      "https://x.com/0xCodez/status/2064712113495380020"
+    ],
+    "2064714047241736302": [
+      "https://x.com/degenrsc/status/2064714047241736302",
+      "http://x.com/i/article/2064658638942412800"
+    ],
     "2064722736979804455": [
       "https://x.com/ewind_dev/status/2064722736979804455",
       "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers",
       "https://x.com/ewind_dev/status/2064722741853602245",
       "https://x.com/ewind_dev/status/2063864648928243770"
+    ],
+    "2064727024288317658": [
+      "https://x.com/trevin/status/2064727024288317658",
+      "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "https://x.com/trevin/status/2064757319708418167",
+      "https://x.com/trevin/status/2064735507784065179",
+      "https://x.com/trevin/status/2064828903005585566"
+    ],
+    "2064728139314389073": [
+      "https://x.com/0x_rody/status/2064728139314389073",
+      "http://x.com/i/article/2064726381485842432",
+      "https://x.com/0x_rody/status/2064734803149164877"
+    ],
+    "2064745690958635405": [
+      "https://x.com/nlevin/status/2064745690958635405",
+      "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison"
+    ],
+    "2064746971944956299": [
+      "https://x.com/nfcampos/status/2064746971944956299",
+      "http://x.com/i/article/2064742269706518528",
+      "https://x.com/nfcampos/status/2064759963063406971"
+    ],
+    "2064751005380878379": [
+      "https://x.com/alexeheath/status/2064751005380878379",
+      "http://x.com/i/article/2064750162594209794",
+      "https://x.com/alexeheath/status/2064770767288684978",
+      "https://x.com/alexeheath/status/2064730543963689464"
+    ],
+    "2064751272834593135": [
+      "https://x.com/ryancarson/status/2064751272834593135",
+      "http://x.com/i/article/2064737302065156097",
+      "https://x.com/ryancarson/status/2064787380763021453"
+    ],
+    "2064752668082340186": [
+      "https://x.com/julianlehr/status/2064752668082340186",
+      "https://julian.digital/2023/07/06/multi-layered-calendars/",
+      "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg"
+    ],
+    "2064754027251020217": [
+      "https://x.com/Alfred_Lin/status/2064754027251020217",
+      "https://x.com/Alfred_Lin/status/2064773511101723031",
+      "https://x.com/Alfred_Lin/status/2064773664143470755",
+      "https://x.com/Alfred_Lin/status/2064774211693117739",
+      "https://x.com/Alfred_Lin/status/2064830278720442542"
+    ],
+    "2064755591764230491": [
+      "https://x.com/itsalexvacca/status/2064755591764230491",
+      "http://x.com/i/article/2061785866385911808"
+    ],
+    "2064759254993498364": [
+      "https://x.com/SidebarIO/status/2064759254993498364",
+      "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg",
+      "https://x.com/SidebarIO/status/2064704643687477257",
+      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
+    ],
+    "2064759991752663510": [
+      "https://x.com/bromann/status/2064759991752663510",
+      "http://x.com/i/article/2064756914869993472"
+    ],
+    "2064768757713768507": [
+      "https://x.com/aparnadhinak/status/2064768757713768507",
+      "http://x.com/i/article/2064764378357059584"
+    ],
+    "2064771612579393568": [
+      "https://x.com/mvanhorn/status/2064771612579393568",
+      "https://github.com/mvanhorn/agentcookie"
+    ],
+    "2064771905945813219": [
+      "https://x.com/Manjusaka_Lee/status/2064771905945813219",
+      "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
+      "https://x.com/Manjusaka_Lee/status/2064587087505186949"
+    ],
+    "2064776992403399113": [
+      "https://x.com/MaxBrodeurUrbas/status/2064776992403399113",
+      "http://x.com/i/article/2064776326280773632",
+      "https://x.com/MaxBrodeurUrbas/status/2064780369103352122"
+    ],
+    "2064780623026540669": [
+      "https://x.com/AgnoAgi/status/2064780623026540669",
+      "http://x.com/i/article/2064777704147144704"
+    ],
+    "2064783001465331804": [
+      "https://x.com/ryanzhuuuu/status/2064783001465331804",
+      "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg",
+      "https://x.com/ryanzhuuuu/status/2064837446551093594",
+      "https://x.com/ryanzhuuuu/status/2064869009213005932",
+      "https://x.com/ryanzhuuuu/status/2064855240688664722"
+    ],
+    "2064796986633818212": [
+      "https://x.com/jakedahn/status/2064796986633818212",
+      "https://simonwillison.net/2025/Mar/11/using-llms-for-code/",
+      "https://x.com/jakedahn/status/2064803763173339434",
+      "https://x.com/jakedahn/status/2064809408865989008"
     ]
   },
-  "updated_at": "2026-06-10T18:10:01Z",
+  "updated_at": "2026-06-11T01:40:07Z",
   "window": "recent"
 }
