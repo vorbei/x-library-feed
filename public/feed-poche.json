@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 316,
+      "count": 318,
       "name": "Articles"
     },
     {
@@ -38,8 +38,79 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2277,
+  "item_count": 2278,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-11T05:13:44.464922Z",
+      "article_image_urls": [
+        "https://thinkingmachines.ai/images/home.png"
+      ],
+      "article_title_extracted": "Thinking Machines Lab",
+      "category": "Articles",
+      "created_at": "2026-06-11T04:06:26.285413Z",
+      "description": "Connectionism: Research Blog by Thinking Machines Lab",
+      "domain": "thinkingmachines.ai",
+      "embed_type": "",
+      "id": "k176162vvga56eh30pffc13nan88e5sr",
+      "og_image_url": "https://thinkingmachines.ai/images/home.png",
+      "recommended_at": "2026-06-11T04:07:26.099000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "connectionism",
+        "machine-learning"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-11T04:07:26.099000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6a29ae1af3fb3241e2c68979_og_policy-on-the-ai-exponential.jpg"
+      ],
+      "article_text": "Policy on the AI Exponential\nIn one of the side plots to The Lord of the Rings, two of the Hobbits attempt to rouse Treebeard—a wise but ponderous sentient tree—to defend his forest from an army that is cutting it down. The problem is that Treebeard operates at a very different speed than the Hobbits. It takes him a full day simply to say hello to another tree, so getting him and his peers to act fast enough is nearly impossible.\nThe intersection of AI and our political institutions feels a bit like the Hobbits and Treebeard. AI is advancing at a lightning pace—in only four years, AI models have gone from barely being able to write a coherent line of code to writing [most of the code at major AI companies](https://www.anthropic.com/institute/recursive-self-improvement). Similar gains have been made in biology, physics, math, finance, law, translation, and many other fields. [AI’s scaling laws](https://arxiv.org/abs/2001.08361), which predict an exponential increase in general cognitive capabilities with increasing computing power, now have over a decade of empirical evidence behind them. If these scaling laws continue for only a year or two longer, we are likely to get what I’ve called Powerful AI, or “[a country of geniuses in a datacenter](https://darioamodei.com/essay/machines-of-loving-grace)”.\nBy contrast, policy—and especially legislation—moves very slowly. Often this is for good reasons: governments have grave powers, and it’s usually for the best that they aren’t used too hastily. But the mismatch in timescale is nevertheless very painful: in the several years that it can take Congress to act, AI can go from an amusing toy to the full country of geniuses.\nOver the last few years since AI has become a major commercial technology, those of us who wanted to handle it responsibly have faced a dilemma. We could see clearly where the exponential was going: we strongly suspected that within a few years AI would be one of the rare technologies that fundamentally reshapes the entire policy landscape, in the same way that nuclear weapons reshaped geopolitics and the industrial revolution fundamentally reshaped every economic and social issue. But to those looking only at what AI could do at the time, it looked like a much more mundane technology—similar perhaps to the latest consumer app or cryptocurrency. It was hard to convince most policymakers and companies that anything other than a laissez faire attitude made sense. And to be fair, the fact that AI’s radical effects were not yet present, and that we didn’t know exactly what shape they might take, made it difficult to design the right policies even if there had been the will to act.\nGiven the limits imposed by this situation, many safety advocates (including Anthropic) have so far been focused on advocating for policy actions that preserve optionality, tee up a fast reaction in the future, or give the world better insight into what is coming down the pike – things like transparency legislation, export controls on chips, and data collection on AI’s labor effects. These are not enough, but they have felt like all that was possible.\nIn the last few months, however, the evidence of AI’s incredible power, as well as its risks, has become undeniable. Perhaps the most emblematic example is [Claude Mythos Preview](https://www.anthropic.com/glasswing) and the discovery that frontier models pose [very real risks](https://red.anthropic.com/2026/exploit-evals/) to cybersecurity, creating the potential for disruption of the financial sector, critical infrastructure, and national security. Mythos Preview [scrambled](https://red.anthropic.com/2026/attack-navigator/) the global cybersecurity landscape. But its broader significance is that it proves beyond doubt that AI models are now tools of global and national strategic consequence. The cyber risks that Mythos-class models present will not be the last that we must face. I believe that biological risks may soon follow, and that [serious A",
+      "article_title_extracted": "Dario Amodei — Policy on the AI Exponential",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-11T04:05:59.115091Z",
+      "description": "The essay discusses the urgent need for effective policy measures to address the rapid advancement of AI technology, using the metaphor of Treebeard from _The Lord of the Rings_ to illustrate the slow response of political institutions to AI's exponential growth. Key points include the contrast between AI's fast development and the slow pace of legislative action, how AI could significantly alter the policy landscape similarly to historical paradigm shifts like nuclear weapons, and the risks posed by powerful AI, including cybersecurity threats and potential job displacement. The author advocates for a proactive approach, emphasizing the need for transparency in AI's safety procedures, creating regulation akin to that of the FAA for aviation, and ensuring that democratic values guide the development and deployment of AI technologies. Recommendations for policy focus include creating accountability rules for AI systems, enhancing macroeconomic strategies to handle job displacement, and fostering international cooperation among democracies to collectively address AI risks.",
+      "domain": "darioamodei.com",
+      "embed_type": "",
+      "id": "k178z0y0akm3vqmr26ksd1pnqx88fsnn",
+      "og_image_url": "https://cloud.poche.app/api/storage/a8118b46-f8bc-4ab5-b14d-70af781342b8",
+      "recommended_at": "2026-06-11T04:07:21.454000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-policy",
+        "artificial-intelligence",
+        "governance"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-11T04:07:21.454000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dario Amodei — Policy on the AI Exponential",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "x_status_id": null
+    },
     {
       "category": "Social",
       "created_at": "2026-06-10T09:46:48.999214Z",
@@ -53081,6 +53152,13 @@
           "recommended_at": "2026-01-19T03:43:31.210000Z",
           "recommended_by": "disinfeqt",
           "slug": "dine"
+        },
+        {
+          "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
+          "name": "fonter",
+          "recommended_at": "2026-01-18T06:41:36.191000Z",
+          "recommended_by": "fonter",
+          "slug": "fonter"
         }
       ],
       "title": "Reading across books with Claude Code | Pieter Maes",
@@ -53386,58 +53464,6 @@
       "title_zh_hash": "f3e9ac3ce1dd8642",
       "title_zh_translator_v": 2,
       "url": "https://blog.jquery.com/2026/01/17/jquery-4-0-0/",
-      "x_status_id": null
-    },
-    {
-      "article_extraction": "trafilatura",
-      "article_image_urls": [
-        "https://pieterma.es/og/syntopic-reading-claude.png",
-        "https://pieterma.es/_astro/28.BP61npfK_Z1sw1Wt.png",
-        "https://pieterma.es/_astro/9.CMDuMwsu_4btpH.png",
-        "https://pieterma.es/_astro/12.BocluUvB_eHlDf.png",
-        "https://pieterma.es/_astro/112.Bbi7XcCB_ZRQoQy.png",
-        "https://pieterma.es/_astro/pipeline.Bl0o8nI__2728Xv.webp",
-        "https://pieterma.es/_astro/agent_steps.CPyESBEq_Z2rjTaW.webp",
-        "https://pieterma.es/_astro/implementation.CNN37YWY_Z1HGHsR.webp"
-      ],
-      "article_text": "Reading across books with Claude Code\nJan 4, 2026\nLLMs are overused to summarise and underused to help us read deeper.\nTo explore how they can enrich rather than reduce, I set Claude Code up with tools to mine a library of 100 non-fiction books. It found sequences of excerpts connected by an interesting idea, or trails.\nHere’s a part of one such trail, linking deception in the startup world to the social psychology of mass movements (I’m especially pleased by the jump from Jobs to Theranos):\nHow it works\nThe books were selected from Hacker News’ favourites, which I previously [scraped and visualized](https://hnbooks.pieterma.es).\nClaude browses the books a chunk at a time. A chunk is a segment of roughly 500 words that aligns with paragraphs when possible. This length is a good balance between saving tokens and providing enough context for ideas to breathe.\nChunks are indexed by topic, and topics are themselves indexed for search. This makes it easy to look up all passages in the corpus that relate to, say, deception.\nThis works well when you know what to look for, but search alone can’t tell you which topics are present to begin with. There are over 100,000 extracted topics, far too many to be browsed directly. To support exploration, they are grouped into a hierarchical tree structure.\nThis yields around 1,000 top-level topics. They emerge from combining lower-level topics, and not all of them are equally useful:\n- Incidents that frustrated Ev Williams\n- Names beginning with “Da”\n- Events between 1971 & 1974\nHowever, this [Borgesian](https://en.wikipedia.org/wiki/The_Analytical_Language_of_John_Wilkins) taxonomy is good enough for Claude to piece together what the books are about.\nClaude uses the topic tree and the search via a few CLI tools.\nThey allow it to:\n- Find all chunks associated with a topic similar to a query.\n- Find topics which occur in a window of chunks around a given topic.\n- Find topics that co-occur in multiple books.\n- Browse topics and chunks that are siblings in the topic tree.\nTo generate the trails, the agent works in stages.\n- First, it scans the library and the existing trails, and proposes novel trail ideas. It mainly browses the topic tree to find unexplored areas and rarely reads full chunks in depth.\n- Then, it takes a specific idea and turns it into a trail. It receives seed topics from the previous stage and browses many chunks. It extracts excerpts, specific sequences of sentences, and decides on how best to order them to support an insight.\n- Finally, it adds highlights and edges between consecutive excerpts.\nWhat I learned\nClaude Code is great for non-coding tasks\nEven though I’ve been using Claude Code to develop for months, my first instinct for this project was to consider it as a traditional pipeline of several discrete stages. My initial attempt at this system consisted of multiple LLM modules with carefully hand-assembled contexts.\nOn a whim, I ran Claude with access to the debugging tools I’d been using and a minimal prompt: “find something interesting.” It immediately did a better job at pulling in what it needed than the pipeline I was trying to tune by hand, while requiring much less orchestration. It was a clear improvement to push as much of the work into the agent’s loop as possible.\nI ended up using Claude as my main interface to the project.\nInitially I did so because it inferred the sequence of CLI calls I wanted to run faster than I could recall them.\nThen, I used it to automate tasks which weren’t rigid enough to be scripted traditionally.\nThe latter opened up options that I wouldn’t have considered before. For example, I changed my mind on how short I wanted excerpts to be. I communicated my new preference to Claude, which then looked through all the existing trails and edited them as necessary, balancing the way the overall meaning of the trail changed. Previously, I would’ve likely considered all previous trails to be outdated and generated new ones, because the required",
-      "article_text_zh": "# 用Claude Code跨书阅读\n\n2026年1月4日\n\nLLM常被过度用于总结，却很少被用来帮助我们更深入地阅读。\n\n为了探索它们如何丰富而非简化阅读体验，我让Claude Code配备了工具，用于挖掘一个包含100本非虚构书籍的图书馆。它找到了由某个有趣想法串联起来的摘录序列，或者说\"轨迹\"。\n\n以下是其中一条轨迹的一部分，将创业世界的欺骗与社会心理学中的群众运动联系起来（我尤其喜欢从乔布斯到Theranos的跳跃）：\n\n## 工作原理\n\n这些书籍选自Hacker News的收藏书单，我之前曾[抓取并可视化](https://hnbooks.pieterma.es)过这些数据。\n\nClaude每次浏览一本书的一个\"块\"。一个块大约500个词，尽可能与段落对齐。这个长度在节省token和为思想提供足够表达空间之间取得了良好平衡。\n\n这些块按主题建立索引，而主题本身也可被搜索。这使得查找语料库中所有与某个主题（比如\"欺骗\"）相关的段落变得容易。\n\n当你明确知道要查找什么时，这种方法效果很好，但仅靠搜索无法告诉你语料库中原本存在哪些主题。提取出的主题超过10万个，数量太多无法直接浏览。为了支持探索，这些主题被组织成层次化的树状结构。\n\n这样产生了大约1000个顶层主题。它们由底层主题组合而成，但并非所有主题都同样有用：\n\n- 让Ev Williams感到沮丧的事件\n- 以\"Da\"开头的名字\n- 1971年至1974年间的事件\n\n不过，这种[博尔赫斯式](https://en.wikipedia.org/wiki/The_Analytical_Language_of_John_Wilkins)的分类法已经足够让Claude拼凑出这些书的大致内容。\n\nClaude通过几个CLI工具使用主题树和搜索功能。\n\n这些工具允许它：\n\n- 查找与某个查询相似主题相关的所有块\n- 查找在某个主题周围窗口内出现的主题\n- 查找在多本书中共同出现的主题\n- 浏览主题树中互为兄弟节点的主题和块\n\n为了生成轨迹，智能体分阶段工作。\n\n- 首先，它扫描图书馆和已有的轨迹，并提出新颖的轨迹想法。它主要浏览主题树以发现未探索的领域，很少深入阅读完整的块。\n- 然后，它选取一个具体想法并将其转化为轨迹。它接收上一阶段的种子主题，浏览大量块，提取摘录（特定的句子序列），并决定如何最佳排序以支持某个洞见。\n- 最后，它为连续摘录之间添加高亮和连接。\n\n## 我的收获\n\n**Claude Code非常适合非编码任务**\n\n尽管我已经使用Claude Code进行开发数月，但在这个项目中，我的第一反应仍是将其视为一个由多个离散阶段组成的传统流水线。我最初尝试构建的系统包含多个LLM模块，并精心手工组装了上下文。\n\n一时兴起，我让Claude运行，并赋予它我一直在使用的调试工具和一个极简的提示：\"找点有趣的东西。\"它立即比我手工调优的流水线更好地拉取了所需内容，同时需要的编排工作更少。将尽可能多的工作推入智能体的循环中，是一个明显的改进。\n\n最终，我将Claude作为该项目的主要界面。\n\n起初这样做是因为它能比我更快地推断出我想要运行的CLI调用序列。\n\n后来，我使用它来自动化那些不够固定、无法用传统方式编写脚本的任务。\n\n后者开启了我之前未曾考虑过的可能性。例如，我改变了关于摘录应该多短的看法。我将新的偏好告知Claude，它随后查看了所有现有的轨迹，并根据需要进行编辑，平衡了轨迹整体含义的变化。以前，我可能会认为所有之前的轨迹都已过时，并生成新的轨迹，因为所需的工作量——",
-      "article_text_zh_hash": "9c1a79dbf826aea0",
-      "article_text_zh_translator_v": 2,
-      "article_title_extracted": "Reading across books with Claude Code | Pieter Maes Reading across books with Claude Code | Pieter Maes",
-      "category": "Articles",
-      "cleaner_v": 2,
-      "created_at": "2026-01-18T06:41:06.243691Z",
-      "description": "In which we teach an agent to read syntopically.",
-      "description_zh": "在此，我们教智能体进行主题阅读。",
-      "description_zh_hash": "075fed89a08255ee",
-      "description_zh_translator_v": 2,
-      "domain": "pieterma.es",
-      "embed_type": "",
-      "id": "k179ypg0vhwvhrh3m89ec756p97zehd4",
-      "og_image_url": "https://pieterma.es/og/syntopic-reading-claude.png",
-      "recommended_at": "2026-01-18T06:41:36.191000Z",
-      "source": "poche@fonter",
-      "source_type": "poche",
-      "tags": [
-        "artificial-intelligence",
-        "claude-code",
-        "syntopic-reading"
-      ],
-      "teams": [
-        {
-          "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
-          "name": "fonter",
-          "recommended_at": "2026-01-18T06:41:36.191000Z",
-          "recommended_by": "fonter",
-          "slug": "fonter"
-        }
-      ],
-      "title": "Reading across books with Claude Code | Pieter Maes",
-      "title_zh": "跨书阅读与 Claude Code | Pieter Maes",
-      "title_zh_hash": "517b4f019747643a",
-      "title_zh_translator_v": 2,
-      "url": "https://pieterma.es/syntopic-reading-claude/",
       "x_status_id": null
     },
     {
@@ -101169,7 +101195,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2120,
+      "count": 2122,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -101205,5 +101231,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-10T22:30:30.324697Z"
+  "updated_at": "2026-06-11T05:13:46.032603Z"
 }
