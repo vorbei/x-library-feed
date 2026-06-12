@@ -14598,6 +14598,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIIwX82bAAAF-nA.jpg"
     },
+    "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg"
+    },
     "https://pbs.twimg.com/media/HIKE_tlXYAAPeJm.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14653,6 +14667,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HIKFo-IXAAAXRbE.jpg"
+    },
+    "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -23148,6 +23176,6 @@
       "https://x.com/i/article/2054259613717909504"
     ]
   },
-  "updated_at": "2026-06-12T11:09:34Z",
+  "updated_at": "2026-06-12T14:15:37Z",
   "window": "archive"
 }

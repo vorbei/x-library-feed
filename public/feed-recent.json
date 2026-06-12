@@ -14564,34 +14564,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     },
-    "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIJio5AbAAALvGC.jpg"
-    },
-    "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
-    },
     "https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16929,20 +16901,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
-    },
-    "https://pbs.twimg.com/media/HKm8E9KWsAAKsY8.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKm8E9KWsAAKsY8.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKm8E9KWsAAKsY8.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKm8E9KWsAAKsY8.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
       "cleaner_v": 2,
@@ -26016,13 +25974,13 @@
     "2064686372737454155": [
       "https://x.com/itsreallyvivek/status/2064686372737454155",
       "http://x.com/i/article/2064686144835739649",
-      "https://x.com/itsreallyvivek/status/2064759918792704109",
-      "https://x.com/itsreallyvivek/status/2064705243246723280",
       "https://x.com/itsreallyvivek/status/2064706056874500452",
-      "https://x.com/itsreallyvivek/status/2064972643502284860",
+      "https://x.com/itsreallyvivek/status/2064705243246723280",
+      "https://x.com/itsreallyvivek/status/2065113458853732810",
       "https://x.com/itsreallyvivek/status/2064759848651415606",
-      "https://x.com/itsreallyvivek/status/2064759823812694178",
-      "https://x.com/itsreallyvivek/status/2065113458853732810"
+      "https://x.com/itsreallyvivek/status/2064972643502284860",
+      "https://x.com/itsreallyvivek/status/2064759918792704109",
+      "https://x.com/itsreallyvivek/status/2064759823812694178"
     ],
     "2064694805762912403": [
       "https://x.com/mfpiccolo/status/2064694805762912403",
@@ -26102,8 +26060,8 @@
       "https://x.com/Alfred_Lin/status/2064754027251020217",
       "https://x.com/Alfred_Lin/status/2064773511101723031",
       "https://x.com/Alfred_Lin/status/2064773664143470755",
-      "https://x.com/Alfred_Lin/status/2064830278720442542",
-      "https://x.com/Alfred_Lin/status/2064774211693117739"
+      "https://x.com/Alfred_Lin/status/2064774211693117739",
+      "https://x.com/Alfred_Lin/status/2064830278720442542"
     ],
     "2064755591764230491": [
       "https://x.com/itsalexvacca/status/2064755591764230491",
@@ -26171,10 +26129,10 @@
       "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg",
       "https://x.com/ryanzhuuuu/status/2064886243528483105",
       "https://x.com/ryanzhuuuu/status/2064895726602367355",
-      "https://x.com/ryanzhuuuu/status/2065217293941113304",
       "https://x.com/ryanzhuuuu/status/2064837446551093594",
       "https://x.com/ryanzhuuuu/status/2064855240688664722",
-      "https://x.com/ryanzhuuuu/status/2064869009213005932"
+      "https://x.com/ryanzhuuuu/status/2064869009213005932",
+      "https://x.com/ryanzhuuuu/status/2065217293941113304"
     ],
     "2064796986633818212": [
       "https://x.com/jakedahn/status/2064796986633818212",
@@ -26200,10 +26158,10 @@
       "https://x.com/mvanhorn/status/2064887887578136666",
       "http://x.com/i/article/2064864205749280768",
       "https://x.com/mvanhorn/status/2064904749624033607",
-      "https://x.com/mvanhorn/status/2064897823221670083",
       "https://x.com/mvanhorn/status/2064892196961358010",
       "https://x.com/mvanhorn/status/2064889497377210529",
       "https://x.com/mvanhorn/status/2064960780735541276",
+      "https://x.com/mvanhorn/status/2064897823221670083",
       "https://x.com/mvanhorn/status/2064891770039894200"
     ],
     "2064943965246201914": [
@@ -26247,9 +26205,7 @@
       "https://x.com/chrstnerode/status/2065070662973108628",
       "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg",
       "https://x.com/chrstnerode/status/2065070666949210201",
-      "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg",
-      "https://x.com/chrstnerode/status/2065389154364526762",
-      "https://pbs.twimg.com/media/HKm8E9KWsAAKsY8.png"
+      "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg"
     ],
     "2065086160292966581": [
       "https://x.com/SidebarIO/status/2065086160292966581",
@@ -26277,8 +26233,8 @@
       "https://x.com/ishaansehgal/status/2065157411271594448",
       "https://x.com/ishaansehgal/status/2065153564797002012",
       "https://x.com/ishaansehgal/status/2065161301329109382",
-      "https://x.com/ishaansehgal/status/2065133902528962697",
-      "https://x.com/ishaansehgal/status/2065297872925704606"
+      "https://x.com/ishaansehgal/status/2065297872925704606",
+      "https://x.com/ishaansehgal/status/2065133902528962697"
     ],
     "2065133771817619628": [
       "https://x.com/posthog/status/2065133771817619628",
@@ -26305,7 +26261,8 @@
     ],
     "2065200644802101633": [
       "https://x.com/dongxi_nlp/status/2065200644802101633",
-      "http://x.com/i/article/2065193949380403200"
+      "http://x.com/i/article/2065193949380403200",
+      "https://x.com/dongxi_nlp/status/2065432708172415003"
     ],
     "2065211366953369879": [
       "https://x.com/khemaridh/status/2065211366953369879",
@@ -26324,6 +26281,6 @@
       "https://github.com/byoungd/English-level-up-tips"
     ]
   },
-  "updated_at": "2026-06-12T11:09:34Z",
+  "updated_at": "2026-06-12T14:15:37Z",
   "window": "recent"
 }
