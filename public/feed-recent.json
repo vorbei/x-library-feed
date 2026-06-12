@@ -5440,6 +5440,20 @@
       "title": "",
       "url": "http://x.com/i/article/2064864205749280768"
     },
+    "http://x.com/i/article/2064983895096066048": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064983895096066048",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKhZAubaAAAg_eH?format=jpg&name=900x900)](http://x.com/ishaansehgal/article/2065129901427130678/media/2064998298147225600)\n\nThe Log Is the Agent\n\n[![](https://pbs.twimg.com/profile_images/1787308697305362432/3GRfFM3v_normal.jpg)](http://x.com/ishaansehgal)\n\n[Ishaan Sehgal](http://x.com/ishaansehgal)\n\n[@ishaansehgal](http://x.com/ishaansehgal)\n\n·\n\n13h\n\nFollow\n\nClick to Follow ishaansehgal\n\n9\n\n13\n\n52\n\n[2.1K](http://x.com/ishaansehgal/status/2065129901427130678/analytics)\n\nThink about a character you have spent 100 hours playing in Skyrim or Elden Ring.\n\nWhat exactly is your character?\n\n* Is it the game engine? No.\n* Is it the PlayStation? No.\n* Is it the controller? No.\n\nYour character is the save file.\n\nIf your PlayStation bursts into flames, your character is not dead. You buy another PlayStation, download your save file from the cloud, and your character is exactly where they were, mid-swing.\n\nAI agents are hitting the same inflection point.\n\nMost people think an agent is the model, the runtime, or the loop currently executing the task. Those things matter. But they aren't the agent.\n\nIn this piece I'll argue that an agent is its data: specifically its history of events, which we'll call the log. When the log is constructed correctly, an agent can be resumed from it alone. And that single property unlocks a whole set of capabilities that make even advanced agent use cases easier to reason about and build into everyday applications.\n\n## \n\nDefining the agent\n\nSo what is the log? Defining the agent means defining the log. At its core, the log is the event history: every user input, model output, tool call, and tool result that accumulates as the agent works: an append-only record of everything that happened.\n\nThe log also carries a reference to the session definition: the system prompt, tool descriptions, and skills the agent is running under. This doesn't change from turn to turn, so it's more a versioned constant than an active part of the stream.\n\nTogether they form the agent’s full state. Nothing the agent is lives in the runtime, the model, or the tools; they're just interpreters and appenders. They read the durable state, act on it, and write the next event back. So you can hand a fresh executor the same log and it will reconstruct exactly where the agent was and continue from there. The log is enough, on its own, to resume the agent.\n\n## \n\nThe log in practice\n\nOnce you define the agent as the log, the rest of the system gets easier to reason about. Every operation on the agent either reads the log, appends to it, or renders a view of it. The model reads a view and produces the next action. The tool runner executes a tool call and appends the result. The UI reads the log and renders a timeline; the tracing system reads it and renders traces; an auditor reads it to reconstruct what happened. It's the same pattern databases settled on years ago: the tables, indexes, and caches are all projections over an underlying log of changes. (diagram below adapted from \n\n[@dexhorthy](https://x.com/@dexhorthy)\n\n excellent \n\n[12-factor agents](https://github.com/humanlayer/12-factor-agents)\n\n; worth a read if you haven't.)\n\n[![Image](https://pbs.twimg.com/media/HKhMheraAAAdYj7?format=jpg&name=small)](http://x.com/ishaansehgal/article/2065129901427130678/media/2064984567203889152)\n\nA high-level agent control loop, running on the log.\n\nIn practice, a simplified loop can look like this:\n\n> while session\\_has\\_work: take\\_temporary\\_lease(session\\_id) state = reconstruct\\_from\\_log(session\\_id) response = \n> \n> [model.next](http://model.next/)\n> \n> (state) append(response, to=session\\_log) if response.requests\\_tool: append(tool\\_call\\_started, to=session\\_log) result = run\\_tool(response.tool\\_call) append(result, to=session\\_log) continue finish\\_turn(session\\_id)\n\nIt looks simple, but",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2064983895096066048"
+    },
     "http://x.com/i/article/2065020060570370048": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5471,6 +5485,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2065079481975406592"
+    },
+    "http://x.com/i/article/2065193949380403200": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065193949380403200",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKkLGdGXUAEMaxR?format=jpg&name=900x900)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065194109644525569)\n\nTools Are Contracts, Not Functions\n\n[![](https://pbs.twimg.com/profile_images/1955352181453774848/QfD9wuqD_normal.jpg)](http://x.com/dongxi%5Fnlp)\n\n[马东锡 NLP](http://x.com/dongxi%5Fnlp)\n\n[@dongxi\\_nlp](http://x.com/dongxi%5Fnlp)\n\n·\n\n8h\n\nClick to Subscribe to dongxi\\_nlp\n\n2\n\n31\n\n[6.3K](http://x.com/dongxi%5Fnlp/status/2065200644802101633/analytics)\n\nHarness 系列文章之 3，Tools Are Contracts。\n\n如果 Coding Agent 拥有一个世界，那么每次 tool call，就是用 generated text 请求改变其世界的状态。\n\n  \nTool call 很容易显得过于简单，model 输出 JSON，Harness parse 它，某个本地 function 被执行，result 被放回下一轮 prompt。\n\n这是 tiny agent 版本。\n\n但 coding agent 的 tool call，并非简单的 function。\n\nTool call 来自 generated text，它正在请求访问 workspace，shell，network，transcript，或者另一个 Agent。\n\n这个差异会改变整个 Coding Agent 的状态和所处的环境。\n\n> The model can ask. The harness decides.\n\n[![Image](https://pbs.twimg.com/media/HKkMgKnXAAADYXo?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065195650870870016)\n\n## \n\nThe Proposal and Contract\n\n想象 model 输出：\n\n[![Image](https://pbs.twimg.com/media/HKkMrEdXUAAy4Ba?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065195838196895744)\n\n它看起来很 structured，它依然只是一份 proposal。\n\nModel 产出了看似合法的 JSON，并不自动获得 write access。\n\nHarness 仍然需要回答：\n\n* 这个 tool 是否存在？\n* args 是否匹配 schema？\n* path 是否在 workspace 内？\n* 这是 create、overwrite，还是 patch？\n* model 最近是否读过现有文件？\n* file-state baseline 是否 fresh？\n* 这个 action 是否需要 approval？\n* approval 前应该给 human 看什么？\n* 多少 result output 可以安全进入 context？\n* 执行之后需要更新哪些 transcript 和 state？\n\n这一串问题，就是 tool contract。\n\n  \n## \n\nThe Naive Design\n\nnaive design 会把 tools 当作一个 function map：\n\n[![Image](https://pbs.twimg.com/media/HKkNL9vXcAAGhxC?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065196403329036288)\n\n这段代码很短，所以看起来干净， 但它同时把很多责任压进了一行。\n\nParsing，schema validation，path safety，permission policy，sandbox choice，execution，output clipping，transcript recording，state updates，全都被塞进 tool(...)\n\nDemo 可以这样写。但能够修改真实 repo 的 coding agent，需要更强的边界。问题不在 function 本身，问题在于 tool boundary 有不同的 trust rules。\n\nFunction call vs Tool call\n\n> 普通程序里，function call 是 implementation detail。\n\n> coding agent 里，tool call 是 generated text 请求改变真实世界的位置。\n\n  \n## \n\nWhat A Tool Contract Contains\n\n有用的 tool contract 不能只有 name 和 handler。它应该描述：\n\n[![Image](https://pbs.twimg.com/media/HKkNvI8XsAAyVJu?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065197007631790080)\n\n有些字段面向 model。有些字段只属于 harness。\n\nModel 需要足够的信息来正确发起请求，Harness 需要足够的 metadata 来正确裁决。\n\n## \n\nThe Lifecycle\n\n一个最小可用 lifecycle：\n\n[![Image](https://pbs.twimg.com/media/HKkOJkQXYAA-uZh?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065197461640011776)\n\n每一步拦截不同类型的问题。\n\n* parse 处理 malformed output\n* schema validation 处理 missing fields 和 wrong types\n* path validation 处理 workspace escape\n* policy 处理 risky action、approval、sandbox、denial\n* execution 运行真实 handler\n* bounding 避免一次 command 或 file read 淹没下一轮 prompt\n* recording 让下一轮可以恢复和审计\n\n所以，“just call the function” 这个 mental model 不够用，function 只是 lifecycle 中的很小片段。\n\n## \n\nValidate Before Approval\n\nvalidation 应该发生在 approval 之前。\n\n* 如果 patch\\_file 指向 workspace 外，先 reject\n* 如果 old\\_text 缺失或有歧义，先 reject\n* 如果 tool call 立刻重复上一轮失败请求，先 reject 或 retry\n* 如果 write 目标是现有文件，但缺少 fresh baseline，先 reject\n* approval 是 product surface\n\n用户不应该被要求判断一个本来就无效的请求。，需要 approval 时，summary 应该保持 bounded。\n\n[![Image](https://pbs.twimg.com/media/HKkOol-XQAA-cKL?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2065200644802101633/media/2065197994677321728)\n\n文件编辑的 approval prompt 应该展示 affected path 和 change shape，避免倾倒 unbounded raw content。\n\nHarness 可以之后展示 diff，count，preview。Approval boundary 要小而清楚。 \n\n## \n\nBounded Results Are",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2065193949380403200"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -8027,6 +8055,31 @@
       "text_excerpt_zh": "",
       "title": "GitHub - botirk38/sift: Indexed regex search over a codebase · GitHub",
       "url": "https://github.com/botirk38/sift"
+    },
+    "https://github.com/byoungd/English-level-up-tips": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 .  离谱的英语学习指南/英语学习教程/英语学习/学英语 - byoungd/English-level-up-tips",
+      "final_url": "https://github.com/byoungd/English-level-up-tips",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/87670589208d3d670239041a36553a2d21d872287c6d965def7fb682c4c9cc1a/byoungd/English-level-up-tips",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/my-love.png",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/token-love-domain.jpg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/CEFR@2x.png",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/feature.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/understanding@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/vocabulary@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/listening@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/reading@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/speaking@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/writing@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/ai@2x.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
+      "url": "https://github.com/byoungd/English-level-up-tips"
     },
     "https://github.com/byt3bl33d3r/figaro": {
       "content_type": "text/html; charset=utf-8",
@@ -14445,62 +14498,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     },
-    "https://pbs.twimg.com/media/HICstrHacAAVDot.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HICstrHacAAVDot.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HICstrHacAAVDot.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HICstrHacAAVDot.jpg"
-    },
-    "https://pbs.twimg.com/media/HICstrIbsAA3tpt.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HICstrIbsAA3tpt.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HICstrIbsAA3tpt.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HICstrIbsAA3tpt.jpg"
-    },
-    "https://pbs.twimg.com/media/HICstsxbYAAgoHg.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HICstsxbYAAgoHg.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HICstsxbYAAgoHg.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HICstsxbYAAgoHg.jpg"
-    },
-    "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg"
-    },
     "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -16824,6 +16821,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg"
+    },
+    "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
       "cleaner_v": 2,
@@ -22258,14 +22269,6 @@
       "https://x.com/assaf_elovic/status/2052256409761234974",
       "https://x.com/assaf_elovic/status/2055317593670472132"
     ],
-    "2053831344917291440": [
-      "https://x.com/aleenaamiir/status/2053831344917291440",
-      "https://x.com/aleenaamiir/status/2053831344917291440/photo/1",
-      "https://pbs.twimg.com/media/HICstrHacAAVDot.jpg",
-      "https://pbs.twimg.com/media/HICstrIbsAA3tpt.jpg",
-      "https://pbs.twimg.com/media/HICstsxbYAAgoHg.jpg",
-      "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg"
-    ],
     "2054154138724991073": [
       "https://x.com/azed_ai/status/2054263190683361703",
       "https://x.com/azed_ai/status/2054263081702711329",
@@ -25813,8 +25816,8 @@
       "https://x.com/sairahul1/status/2064516852571927023",
       "https://x.com/sairahul1/status/2064704723387916539",
       "https://x.com/sairahul1/status/2064885140246139185",
-      "https://x.com/sairahul1/status/2064704538012156205",
       "https://x.com/sairahul1/status/2064719841123254445",
+      "https://x.com/sairahul1/status/2064704538012156205",
       "https://x.com/sairahul1/status/2064996015850352702",
       "https://x.com/sairahul1/status/2064615669283610892",
       "https://x.com/sairahul1/status/2064604419099156851"
@@ -25937,9 +25940,9 @@
     "2064686372737454155": [
       "https://x.com/itsreallyvivek/status/2064686372737454155",
       "http://x.com/i/article/2064686144835739649",
+      "https://x.com/itsreallyvivek/status/2064706056874500452",
       "https://x.com/itsreallyvivek/status/2064705243246723280",
       "https://x.com/itsreallyvivek/status/2064759918792704109",
-      "https://x.com/itsreallyvivek/status/2064706056874500452",
       "https://x.com/itsreallyvivek/status/2064972643502284860",
       "https://x.com/itsreallyvivek/status/2064759823812694178",
       "https://x.com/itsreallyvivek/status/2064759848651415606",
@@ -25977,8 +25980,8 @@
       "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
       "https://x.com/trevin/status/2064757319708418167",
       "https://x.com/trevin/status/2064735507784065179",
-      "https://x.com/trevin/status/2064828903005585566",
-      "https://x.com/trevin/status/2064914359005180038"
+      "https://x.com/trevin/status/2064914359005180038",
+      "https://x.com/trevin/status/2064828903005585566"
     ],
     "2064728139314389073": [
       "https://x.com/0x_rody/status/2064728139314389073",
@@ -26023,8 +26026,8 @@
       "https://x.com/Alfred_Lin/status/2064754027251020217",
       "https://x.com/Alfred_Lin/status/2064773511101723031",
       "https://x.com/Alfred_Lin/status/2064773664143470755",
-      "https://x.com/Alfred_Lin/status/2064774211693117739",
-      "https://x.com/Alfred_Lin/status/2064830278720442542"
+      "https://x.com/Alfred_Lin/status/2064830278720442542",
+      "https://x.com/Alfred_Lin/status/2064774211693117739"
     ],
     "2064755591764230491": [
       "https://x.com/itsalexvacca/status/2064755591764230491",
@@ -26054,12 +26057,12 @@
       "https://x.com/IBuzovskyi/status/2064763405953855834",
       "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg",
       "https://x.com/IBuzovskyi/status/2064952649674338441",
-      "https://x.com/IBuzovskyi/status/2064953039836922199",
       "https://x.com/IBuzovskyi/status/2064952962313581019",
+      "https://x.com/IBuzovskyi/status/2064953039836922199",
       "https://x.com/IBuzovskyi/status/2064764196202401976",
       "https://pbs.twimg.com/tweet_video_thumb/HKeEFwkXEAAoYHn.jpg",
-      "https://x.com/IBuzovskyi/status/2064780171672981756",
-      "https://x.com/IBuzovskyi/status/2064953006194372925"
+      "https://x.com/IBuzovskyi/status/2064953006194372925",
+      "https://x.com/IBuzovskyi/status/2064780171672981756"
     ],
     "2064768757713768507": [
       "https://x.com/aparnadhinak/status/2064768757713768507",
@@ -26092,10 +26095,10 @@
       "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg",
       "https://x.com/ryanzhuuuu/status/2064886243528483105",
       "https://x.com/ryanzhuuuu/status/2064895726602367355",
-      "https://x.com/ryanzhuuuu/status/2065217293941113304",
-      "https://x.com/ryanzhuuuu/status/2064855240688664722",
       "https://x.com/ryanzhuuuu/status/2064837446551093594",
-      "https://x.com/ryanzhuuuu/status/2064869009213005932"
+      "https://x.com/ryanzhuuuu/status/2064855240688664722",
+      "https://x.com/ryanzhuuuu/status/2064869009213005932",
+      "https://x.com/ryanzhuuuu/status/2065217293941113304"
     ],
     "2064796986633818212": [
       "https://x.com/jakedahn/status/2064796986633818212",
@@ -26110,7 +26113,7 @@
     ],
     "2064844961065931084": [
       "https://x.com/mstockton/status/2064844961065931084",
-      "https://x.com/mstockton/status/2064804058829910453"
+      "https://x.com/mstockton/status/2065279800600646005"
     ],
     "2064848575708922093": [
       "https://x.com/cobi_bean/status/2064848575708922093",
@@ -26120,11 +26123,11 @@
     "2064887887578136666": [
       "https://x.com/mvanhorn/status/2064887887578136666",
       "http://x.com/i/article/2064864205749280768",
+      "https://x.com/mvanhorn/status/2064889497377210529",
+      "https://x.com/mvanhorn/status/2064892196961358010",
+      "https://x.com/mvanhorn/status/2064960780735541276",
       "https://x.com/mvanhorn/status/2064897823221670083",
       "https://x.com/mvanhorn/status/2064904749624033607",
-      "https://x.com/mvanhorn/status/2064960780735541276",
-      "https://x.com/mvanhorn/status/2064892196961358010",
-      "https://x.com/mvanhorn/status/2064889497377210529",
       "https://x.com/mvanhorn/status/2064891770039894200"
     ],
     "2065026197734797813": [
@@ -26157,8 +26160,31 @@
       "https://zed.dev/deltadb",
       "https://x.com/zeddotdev/status/2065207797952733340",
       "https://x.com/zeddotdev/status/2065116125055045778"
+    ],
+    "2065129901427130678": [
+      "https://x.com/ishaansehgal/status/2065129901427130678",
+      "http://x.com/i/article/2064983895096066048",
+      "https://x.com/ishaansehgal/status/2065175022294159803",
+      "https://x.com/ishaansehgal/status/2065157411271594448",
+      "https://x.com/ishaansehgal/status/2065153564797002012",
+      "https://x.com/ishaansehgal/status/2065161301329109382",
+      "https://x.com/ishaansehgal/status/2065297872925704606",
+      "https://x.com/ishaansehgal/status/2065133902528962697"
+    ],
+    "2065146824315245035": [
+      "https://x.com/Vtrivedy10/status/2065146824315245035"
+    ],
+    "2065200644802101633": [
+      "https://x.com/dongxi_nlp/status/2065200644802101633",
+      "http://x.com/i/article/2065193949380403200"
+    ],
+    "2065241808448438444": [
+      "https://x.com/austinit/status/2065241808448438444",
+      "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg",
+      "https://x.com/austinit/status/2064646806731141237",
+      "https://github.com/byoungd/English-level-up-tips"
     ]
   },
-  "updated_at": "2026-06-12T01:39:27Z",
+  "updated_at": "2026-06-12T06:55:46Z",
   "window": "recent"
 }
