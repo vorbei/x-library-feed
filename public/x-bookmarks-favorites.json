@@ -105,6 +105,9 @@
         "bookmark@chumsdock"
       ],
       "text": "great read on agent architecture in prod but my fave piece is that the team uses Traces to diagnose issues —&gt; propose changes —&gt; eval changes in a loop\n\nTraces power agent improvement —&gt; if you can see what happened, then you can understand it, and try to fix it",
+      "text_zh": "关于生产环境中智能体架构的精彩解读，但我最喜欢的一点是：该团队利用 Traces 来诊断问题 → 提出修改方案 → 评估修改效果，形成闭环。\n\nTraces 驱动智能体改进 → 如果你能看到发生了什么，就能理解它，并尝试修复它。",
+      "text_zh_hash": "76ff244bb0a20dd8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Vtrivedy10/status/2065146824315245035"
     },
     {
