@@ -55,6 +55,9 @@
         "bookmark@chumsdock"
       ],
       "text": "We are launching @runneth on June 24th.\n\nHere's the backstory on why we built it.",
+      "text_zh": "我们将在6月24日推出@runneth。\n\n以下是关于我们为何构建它的背景故事。",
+      "text_zh_hash": "52ef7cc6e1f3fb5e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rezakhadjavi/status/2065065416221679975"
     },
     {
@@ -149,6 +152,9 @@
         "bookmark@chumsdock"
       ],
       "text": "UI Skills for Design Engineers | Curated Skill Directory https://www.ui-skills.com/?ref=sidebar https://t.co/91BD4i7u1h",
+      "text_zh": "UI Skills for Design Engineers | Curated Skill Directory https://www.ui-skills.com/?ref=sidebar https://t.co/91BD4i7u1h",
+      "text_zh_hash": "0b897c1e06b3e880",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2065086160292966581"
     },
     {
@@ -190,6 +196,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Great software always took shape in conversation, not the commit. With agents, the conversation that generates the code is becoming the true source of our software. And Git can't keep up.  \n\nSo we built something that can. Meet DeltaDB: https://zed.dev/blog/introducing-deltadb",
+      "text_zh": "伟大的软件始终在对话中成形，而非在提交中。借助智能体，生成代码的对话正成为我们软件真正的源头。而Git已无法跟上这一步伐。\n\n因此，我们打造了能够胜任的工具。认识一下DeltaDB：https://zed.dev/blog/introducing-deltadb",
+      "text_zh_hash": "986c67a6c6724e8a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zeddotdev/status/2065089002445963435"
     },
     {
