@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 690,
+      "count": 692,
       "name": "Tools"
     },
     {
-      "count": 424,
+      "count": 425,
       "name": "Development"
     },
     {
@@ -38,8 +38,116 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2289,
+  "item_count": 2292,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-12T15:52:48.502532Z",
+      "article_image_urls": [
+        "https://terminalgraph.com/og-image.png?v=2",
+        "https://terminalgraph.com/graphs/hero.svg"
+      ],
+      "article_title_extracted": "Terminal Graph — A spatial development environment for macOS",
+      "category": "Tools",
+      "created_at": "2026-06-12T06:06:36.654430Z",
+      "description": "See everything. Switch nothing. Terminals, browsers, editors, and notes on one infinite canvas with dataflow connections. Native macOS.",
+      "domain": "terminalgraph.com",
+      "embed_type": "",
+      "id": "k174we8swfjre6s05dv223vyph88htwg",
+      "og_image_url": "https://terminalgraph.com/og-image.png?v=2",
+      "recommended_at": "2026-06-12T15:29:20.022000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "macos",
+        "productivity",
+        "developer-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T15:29:20.022000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Terminal Graph — A spatial development environment for macOS",
+      "url": "https://terminalgraph.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-12T15:52:48.502532Z",
+      "article_image_urls": [
+        "https://www.facebook.com/tr?id=974176008946637&ev=PageView&noscript=1"
+      ],
+      "article_title_extracted": "Kickbacks.ai - Get paid for waiting",
+      "category": "Tools",
+      "created_at": "2026-06-12T06:51:26.462261Z",
+      "description": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+      "domain": "kickbacks.ai",
+      "embed_type": "",
+      "id": "k17b39k693hfn27rz9bjfta2td88h5ck",
+      "og_image_url": "https://cloud.poche.app/api/storage/0262c7c0-8a61-45bd-8df5-e58c6274ff2b",
+      "recommended_at": "2026-06-12T15:29:16.220000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "monetization",
+        "ad-tech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T15:29:16.220000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Kickbacks.ai - Get paid for waiting",
+      "url": "https://kickbacks.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://brew.sh/assets/img/homebrew-social-card.png",
+        "https://brew.sh/assets/img/homebrew.svg",
+        "https://github.com/MikeMcQuaid.png?size=80",
+        "https://brew.sh/assets/img/forkme_right_gray_6d6d6d.svg"
+      ],
+      "article_text": "Today, I’m proud to announce Homebrew 6.0.0.\nThe most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).\n✨ Highlights since 5.1.0\n🔐 Tap trust\nHomebrew 6.0.0 introduces tap trust. A third-party tap can contain arbitrary, unsandboxed Ruby that runs on your machine, so Homebrew now requires taps (and tap-qualified formulae and casks) to be explicitly trusted before their code is evaluated or run. This reduces the risk from malicious or compromised taps while leaving the official Homebrew taps trusted by default. See the new [Tap-Trust documentation](https://docs.brew.sh/Tap-Trust) for details.\n- Homebrew [enforces initial tap trust so untrusted taps are flagged before their code runs](https://github.com/Homebrew/brew/pull/22470),[trusts qualified tap items before install](https://github.com/Homebrew/brew/pull/22621),[stops auto-tapping untrusted taps](https://github.com/Homebrew/brew/pull/22599),[pins tap allow, forbid and trust lists to remotes](https://github.com/Homebrew/brew/pull/22590)and[uses tap trust when evaluating all formulae and casks](https://github.com/Homebrew/brew/pull/22476).\n- brew tapgains commands for managing tap trust- [trust a tap by its remote URL](https://github.com/Homebrew/brew/pull/22611),- brew trustadds a- --json=v1flag- brew tap-infoadds a- trustedfield\n- brew bundlehonours the- trusted:option- brew bundle dumprecords trusted bundle entries- [marking custom-remote taps as trusted](https://github.com/Homebrew/brew/pull/22625).\n- [docs.brew.sh has new pages, including Tap-Trust](https://docs.brew.sh/Tap-Trust), explaining Homebrew’s new tap trust model, and- [Homebrew trusts taps in test-bot](https://github.com/Homebrew/brew/pull/22497).\n⚡ Default internal JSON API\nThe internal JSON API is [now the default](https://github.com/Homebrew/brew/pull/22546), [advancing](https://github.com/Homebrew/brew/pull/22367) the smaller API that Homebrew [re-enabled](https://github.com/Homebrew/brew/pull/22042) and [turned on for developers](https://github.com/Homebrew/brew/pull/22226) recently. It combines all Homebrew’s metadata into a single download, so brew updates faster and talks to the network less. It was opt-in via HOMEBREW_USE_INTERNAL_API since 5.0.0; that variable is now deprecated (see below).\n🐧 Linux sandbox\nThe [Linux Bubblewrap sandbox](https://github.com/Homebrew/brew/pull/22240) aligns Linux with macOS, where build, test and postinstall phases already run sandboxed. It is [on by default for developers](https://github.com/Homebrew/brew/pull/22370), Homebrew [moved its macOS sandbox logic](https://github.com/Homebrew/brew/pull/22238) to share code, [improved Linux sandbox behaviour](https://github.com/Homebrew/brew/pull/22315) (with [Homebrew/homebrew-core setting the sandbox env in CI](https://github.com/Homebrew/homebrew-core/pull/283172)), [hardened sandboxed install phases](https://github.com/Homebrew/brew/pull/22413), [sandboxed cask executable hooks](https://github.com/Homebrew/brew/pull/22406), [allowed logs in the build sandbox](https://github.com/Homebrew/brew/pull/22539), [installed Bubblewrap on hosted Ubuntu](https://github.com/Homebrew/brew/pull/22458) and [skips sandbox setup for syntax-only jobs](https://github.com/Homebrew/brew/pull/22507).\n⚙️ Better defaults\n- Following our [Homebrew user survey](https://github.com/orgs/Homebrew/discussions/6706), we have made many changes based on the results. The most notable is[making](https://github.com/Homebrew/brew/pull/22369), soaskmode the default for developersbrew installandbrew upgradeshow a dependency summary and confirmation prompt before making changes.\n- Homebrew [adds ask dependency plans and cask support](https://github.com/Homebrew/brew/pull/22275),[accepts one-key ask confirmations](https:",
+      "article_title_extracted": "Homebrew: 6.0.0",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-12T15:29:06.626526Z",
+      "description": "Today, I’m proud to announce Homebrew 6.0.0. The most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).",
+      "domain": "brew.sh",
+      "embed_type": "",
+      "id": "k171mgez4cmykax7tqv195xg5x88hn04",
+      "og_image_url": "https://brew.sh/assets/img/homebrew-social-card.png",
+      "recommended_at": "2026-06-12T15:29:13.672000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "homebrew",
+        "package-manager",
+        "macos"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T15:29:13.672000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Homebrew: 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_image_urls": [
@@ -101749,7 +101857,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2133,
+      "count": 2136,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -101785,5 +101893,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-12T12:01:15.316614Z"
+  "updated_at": "2026-06-12T15:52:49.839543Z"
 }
