@@ -94,6 +94,9 @@
         "bookmark@chumsdock"
       ],
       "text": "fable is expensive\n\nwrote a quick arbitrage skill for claude code to offload the hard things to fable and everything else to gpt 5.5 xhigh\n\nit will try to be always on or you could say \"implement with arbitrage\"\n\nhttps://github.com/blader/arbitrage",
+      "text_zh": "fable 太贵了\n\n写了一个快速的套利技能给 Claude Code，把困难的事情交给 fable，其他所有事情交给 GPT 5.5 xhigh\n\n它会尝试始终保持在线，或者你可以说 \"implement with arbitrage\"\n\nhttps://github.com/blader/arbitrage",
+      "text_zh_hash": "9fc436065bb05074",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/blader/status/2065318847151046781"
     },
     {
@@ -135,6 +138,9 @@
         "bookmark@chumsdock"
       ],
       "text": "this is great 👍 @elvissun is a must follow",
+      "text_zh": "这位太棒了👍 @elvissun 值得关注",
+      "text_zh_hash": "87cf1f10d5dca354",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nurijanian/status/2065359920179069039"
     },
     {
@@ -176,6 +182,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Como nunca tinha lido isso antes?\n\nHá anos os system of records (CRMs, ERPs, HCMs etc) construíram moats gigantescos armazenando dados vitais das empresas.\n\nEla argumenta que os novos system of records dos agentes serão os 'context graphs', que armazenam não só os dados crus mas também, um registry/ histórico do reasoning por trás de cada decisão tomada. \n\nIsso faz muito sentido pra mim e o artigo está super bem escrito - merecidíssimo esses 4.8M de impressões!",
+      "text_zh": "难道我以前从未读过这个？\n\n多年来，各类记录系统（如CRM、ERP、HCM等）通过存储企业的关键数据，构建了巨大的护城河。\n\n她认为，新一代智能体的记录系统将是“上下文图谱”，它不仅存储原始数据，还保存每次决策背后的推理过程记录/历史。\n\n这对我来说非常有道理，而且这篇文章写得非常出色——获得480万次展示量，实至名归！",
+      "text_zh_hash": "1bebf99def5494af",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dfolloni/status/2065200397002895748"
     },
     {
@@ -302,6 +311,9 @@
         "bookmark@chumsdock"
       ],
       "text": "@ajambrosino choosy friends choose proof\n\nhttps://proofeditor.ai",
+      "text_zh": "@ajambrosino 挑剔的朋友选择 Proof\n\nhttps://proofeditor.ai",
+      "text_zh_hash": "c6ab39aa0d8fadb5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/danshipper/status/2065430839660568842"
     },
     {
@@ -342,6 +354,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Estou me pergutando até agora pq eu não usei antes a skill \"grill-with-docs\". \n\nEssa skill é INSANA!\n\nhttps://www.skills.sh/mattpocock/skills/grill-with-docs",
+      "text_zh": "Estou me perguntando até agora por que não usei antes a skill \"grill-with-docs\".\n\nEssa skill é INSANA!\n\nhttps://www.skills.sh/mattpocock/skills/grill-with-docs",
+      "text_zh_hash": "3524b100f99f79df",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DanielVieira7/status/2065154384661516621"
     },
     {
@@ -383,6 +398,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Peter breaks down the craft of performance-agent building. The hard part is to really polish the tokens that always go into the agent's context\n\nLove the cache analogy",
+      "text_zh": "Peter 拆解了构建高性能 Agent 的技艺。真正的难点在于精心打磨那些始终注入 Agent 上下文的 token。\n\n很喜欢这个缓存类比。",
+      "text_zh_hash": "162fe8171758bd86",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/GuangyuRobert/status/2065242047767019725"
     },
     {

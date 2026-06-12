@@ -50,6 +50,9 @@
       "category": "Tools",
       "created_at": "2026-06-12T06:06:36.654430Z",
       "description": "See everything. Switch nothing. Terminals, browsers, editors, and notes on one infinite canvas with dataflow connections. Native macOS.",
+      "description_zh": "一览无余。无需切换。终端、浏览器、编辑器与笔记，汇聚于一张无限画布之上，通过数据流连接。原生 macOS 体验。",
+      "description_zh_hash": "94f1d3112f4eb58a",
+      "description_zh_translator_v": 2,
       "domain": "terminalgraph.com",
       "embed_type": "",
       "id": "k174we8swfjre6s05dv223vyph88htwg",
@@ -72,6 +75,9 @@
         }
       ],
       "title": "Terminal Graph — A spatial development environment for macOS",
+      "title_zh": "Terminal Graph — macOS 上的空间化开发环境",
+      "title_zh_hash": "8572163fc348346e",
+      "title_zh_translator_v": 2,
       "url": "https://terminalgraph.com/",
       "x_status_id": null
     },
@@ -84,6 +90,9 @@
       "category": "Tools",
       "created_at": "2026-06-12T06:51:26.462261Z",
       "description": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+      "description_zh": "Kickbacks.ai 帮助开发者通过 AI 智能体等待状态获得收益。广告商竞标获取一条微小的赞助状态栏；用户可获得 50% 的广告收入。",
+      "description_zh_hash": "a8e3efe2ad3ccfb6",
+      "description_zh_translator_v": 2,
       "domain": "kickbacks.ai",
       "embed_type": "",
       "id": "k17b39k693hfn27rz9bjfta2td88h5ck",
@@ -106,6 +115,9 @@
         }
       ],
       "title": "Kickbacks.ai - Get paid for waiting",
+      "title_zh": "Kickbacks.ai - 等待即收益",
+      "title_zh_hash": "b533b708dfd90d53",
+      "title_zh_translator_v": 2,
       "url": "https://kickbacks.ai/",
       "x_status_id": null
     },
@@ -118,11 +130,17 @@
         "https://brew.sh/assets/img/forkme_right_gray_6d6d6d.svg"
       ],
       "article_text": "Today, I’m proud to announce Homebrew 6.0.0.\nThe most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).\n✨ Highlights since 5.1.0\n🔐 Tap trust\nHomebrew 6.0.0 introduces tap trust. A third-party tap can contain arbitrary, unsandboxed Ruby that runs on your machine, so Homebrew now requires taps (and tap-qualified formulae and casks) to be explicitly trusted before their code is evaluated or run. This reduces the risk from malicious or compromised taps while leaving the official Homebrew taps trusted by default. See the new [Tap-Trust documentation](https://docs.brew.sh/Tap-Trust) for details.\n- Homebrew [enforces initial tap trust so untrusted taps are flagged before their code runs](https://github.com/Homebrew/brew/pull/22470),[trusts qualified tap items before install](https://github.com/Homebrew/brew/pull/22621),[stops auto-tapping untrusted taps](https://github.com/Homebrew/brew/pull/22599),[pins tap allow, forbid and trust lists to remotes](https://github.com/Homebrew/brew/pull/22590)and[uses tap trust when evaluating all formulae and casks](https://github.com/Homebrew/brew/pull/22476).\n- brew tapgains commands for managing tap trust- [trust a tap by its remote URL](https://github.com/Homebrew/brew/pull/22611),- brew trustadds a- --json=v1flag- brew tap-infoadds a- trustedfield\n- brew bundlehonours the- trusted:option- brew bundle dumprecords trusted bundle entries- [marking custom-remote taps as trusted](https://github.com/Homebrew/brew/pull/22625).\n- [docs.brew.sh has new pages, including Tap-Trust](https://docs.brew.sh/Tap-Trust), explaining Homebrew’s new tap trust model, and- [Homebrew trusts taps in test-bot](https://github.com/Homebrew/brew/pull/22497).\n⚡ Default internal JSON API\nThe internal JSON API is [now the default](https://github.com/Homebrew/brew/pull/22546), [advancing](https://github.com/Homebrew/brew/pull/22367) the smaller API that Homebrew [re-enabled](https://github.com/Homebrew/brew/pull/22042) and [turned on for developers](https://github.com/Homebrew/brew/pull/22226) recently. It combines all Homebrew’s metadata into a single download, so brew updates faster and talks to the network less. It was opt-in via HOMEBREW_USE_INTERNAL_API since 5.0.0; that variable is now deprecated (see below).\n🐧 Linux sandbox\nThe [Linux Bubblewrap sandbox](https://github.com/Homebrew/brew/pull/22240) aligns Linux with macOS, where build, test and postinstall phases already run sandboxed. It is [on by default for developers](https://github.com/Homebrew/brew/pull/22370), Homebrew [moved its macOS sandbox logic](https://github.com/Homebrew/brew/pull/22238) to share code, [improved Linux sandbox behaviour](https://github.com/Homebrew/brew/pull/22315) (with [Homebrew/homebrew-core setting the sandbox env in CI](https://github.com/Homebrew/homebrew-core/pull/283172)), [hardened sandboxed install phases](https://github.com/Homebrew/brew/pull/22413), [sandboxed cask executable hooks](https://github.com/Homebrew/brew/pull/22406), [allowed logs in the build sandbox](https://github.com/Homebrew/brew/pull/22539), [installed Bubblewrap on hosted Ubuntu](https://github.com/Homebrew/brew/pull/22458) and [skips sandbox setup for syntax-only jobs](https://github.com/Homebrew/brew/pull/22507).\n⚙️ Better defaults\n- Following our [Homebrew user survey](https://github.com/orgs/Homebrew/discussions/6706), we have made many changes based on the results. The most notable is[making](https://github.com/Homebrew/brew/pull/22369), soaskmode the default for developersbrew installandbrew upgradeshow a dependency summary and confirmation prompt before making changes.\n- Homebrew [adds ask dependency plans and cask support](https://github.com/Homebrew/brew/pull/22275),[accepts one-key ask confirmations](https:",
+      "article_text_zh": "今天，我自豪地宣布 Homebrew 6.0.0 正式发布。\n\n自 5.1.0 以来的最重大变化包括：新的 tap 信任安全机制、更快更小的默认内部 Homebrew JSON API、Linux 沙箱、根据用户调查优化的默认设置、大量 brew bundle 改进、性能提升以及对 macOS 27（Golden Gate）的初步支持。\n\n✨ 自 5.1.0 以来的亮点\n\n🔐 Tap 信任\n\nHomebrew 6.0.0 引入了 tap 信任机制。第三方 tap 可能包含在您机器上运行的任意、无沙箱保护的 Ruby 代码，因此 Homebrew 现在要求 tap（以及 tap 限定的 formula 和 cask）在被评估或运行前必须被明确信任。这降低了恶意或受损 tap 带来的风险，同时默认信任官方 Homebrew tap。详情请参阅新的 [Tap-Trust 文档](https://docs.brew.sh/Tap-Trust)。\n\n- Homebrew [强制初始 tap 信任，以便在 untrusted tap 的代码运行前标记它们](https://github.com/Homebrew/brew/pull/22470)，[在安装前信任限定的 tap 项目](https://github.com/Homebrew/brew/pull/22621)，[停止自动 tapping untrusted tap](https://github.com/Homebrew/brew/pull/22599)，[将 tap 的允许、禁止和信任列表固定到远程仓库](https://github.com/Homebrew/brew/pull/22590)，并且[在评估所有 formula 和 cask 时使用 tap 信任](https://github.com/Homebrew/brew/pull/22476)。\n- `brew tap` 获得了管理 tap 信任的命令——[通过远程 URL 信任一个 tap](https://github.com/Homebrew/brew/pull/22611)，`brew trust` 添加了 `--json=v1` 标志，`brew tap-info` 添加了 `trusted` 字段。\n- `brew bundle` 遵循 `trusted:` 选项，`brew bundle dump` 记录受信任的 bundle 条目，[将自定义远程 tap 标记为受信任](https://github.com/Homebrew/brew/pull/22625)。\n- [docs.brew.sh 新增了包括 Tap-Trust 在内的页面](https://docs.brew.sh/Tap-Trust)，解释了 Homebrew 新的 tap 信任模型，并且 [Homebrew 在 test-bot 中信任 tap](https://github.com/Homebrew/brew/pull/22497)。\n\n⚡ 默认内部 JSON API\n\n内部 JSON API [现已成为默认选项](https://github.com/Homebrew/brew/pull/22546)，[推进了](https://github.com/Homebrew/brew/pull/22367) Homebrew [重新启用](https://github.com/Homebrew/brew/pull/22042)并[最近为开发者开启](https://github.com/Homebrew/brew/pull/22226)的更小 API。它将 Homebrew 的所有元数据合并为一次下载，因此 `brew update` 速度更快，与网络的交互更少。自 5.0.0 起，它通过 `HOMEBREW_USE_INTERNAL_API` 可选启用；该变量现已弃用（见下文）。\n\n🐧 Linux 沙箱\n\n[Linux Bubblewrap 沙箱](https://github.com/Homebrew/brew/pull/22240)使 Linux 与 macOS 保持一致，在 macOS 上，构建、测试和 postinstall 阶段已经运行在沙箱中。它[默认对开发者开启](https://github.com/Homebrew/brew/pull/22370)，Homebrew [迁移了其 macOS 沙箱逻辑](https://github.com/Homebrew/brew/pull/22238)以共享代码，[改进了 Linux 沙箱行为](https://github.com/Homebrew/brew/pull/22315)（[Homebrew/homebrew-core 在 CI 中设置沙箱环境](https://github.com/Homebrew/homebrew-core/pull/283172)），[强化了沙箱安装阶段](https://github.com/Homebrew/brew/pull/22413)，[沙箱化了 cask 可执行文件钩子](https://github.com/Homebrew/brew/pull/22406)，[允许在构建沙箱中记录日志](https://github.com/Homebrew/brew/pull/22539)，[在托管的 Ubuntu 上安装了 Bubblewrap](https://github.com/Homebrew/brew/pull/22458)，并且[对仅语法检查的任务跳过沙箱设置](https://github.com/Homebrew/brew/pull/22507)。\n\n⚙️ 更好的默认设置\n\n- 根据我们的 [Homebrew 用户调查](https://github.com/orgs/Homebrew/discussions/6706)，我们基于结果进行了许多更改。最值得注意的是[将 `ask` 模式设为开发者的默认模式](https://github.com/Homebrew/brew/pull/22369)，使得 `brew install` 和 `brew upgrade` 在进行更改前显示依赖摘要和确认提示。\n- Homebrew [添加了 ask 依赖计划和 cask 支持](https://github.com/Homebrew/brew/pull/22275)，[接受一键式 ask 确认](https://",
+      "article_text_zh_hash": "05be36967a4335fa",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Homebrew: 6.0.0",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-06-12T15:29:06.626526Z",
       "description": "Today, I’m proud to announce Homebrew 6.0.0. The most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).",
+      "description_zh": "今天，我很自豪地宣布 Homebrew 6.0.0 正式发布。自 5.1.0 版本以来，最显著的变化包括：新的 tap 信任安全机制、更快更小的默认内部 Homebrew JSON API、Linux 上的沙箱功能、根据用户调查优化的默认设置、多项 brew bundle 改进、性能提升，以及对 macOS 27（Golden Gate）的初步支持。",
+      "description_zh_hash": "3817bb5a790bcf7e",
+      "description_zh_translator_v": 2,
       "domain": "brew.sh",
       "embed_type": "",
       "id": "k171mgez4cmykax7tqv195xg5x88hn04",
@@ -145,6 +163,9 @@
         }
       ],
       "title": "Homebrew: 6.0.0",
+      "title_zh": "Homebrew: 6.0.0",
+      "title_zh_hash": "a8cb17b1b209566e",
+      "title_zh_translator_v": 2,
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
       "x_status_id": null
     },
