@@ -2,6 +2,10 @@
   "format": "feed-detail/1",
   "items": [
     {
+      "article_text": "デザインシステムをSkill化しても、AIが中々言うことを聞いてくれなくて困っている人もいるかと思います。今日はそんな方向けに、同じファイルを色んなSkillを使ってひたすら改善し、その中で良かった方法を8つご紹介できればと思います。（※今回はデザインシステムの中でも、Design Tokenの話をさせていただきます。）サンプル数はまだ少なく精緻な情報ではないので、そこだけご容赦ください。\n0. なぜSkill化すると良いのか\nそもそもなぜSkill化すると良いのかについてですが、その中の一つに技術スタックが違ってもある程度共通のデザインを色んなプロダクトで取り入れられることにあると思っています。デザインシステムを色んなプロダクトに導入したいけど技術の制約があって中々難しい場合に、まず導入する入り口として非常に良いのではないかと個人的に感じています。\n1. Design TokenをCSSにした\n \nそれでは、まず1つ目のDesign TokenをCSSにしたことからご紹介します。AIにSkillを作ってと丸投げすると、まず最初はMarkdownでの記述がされていました。そこで、これってMarkdownが適切なのかね？と聞いてみたところ、CSSがいいんじゃないと言われたので、CSSに変えてみました。そして、Markdownとどっちのアウトプットの精度が上がったのか検証してみたのですが、「AIがまずチェックする項目がCSSの変数、その後に読み込むのがコメント」という情報の棲み分けがより簡単にでき、検証結果としてはCSSの方が高い精度を保つことができました。\n2. Cursorのruleでダブルチェック\n続いて、Cursorのrule機能でダブルチェックをすることによって、さらに検証の結果が良くなりました。これは、ruleじゃなくてもhook機能でダブルチェックをしても良いかもしれないのですが、個人的にはruleの軽さが好きなので、rule機能を使っています。\nCursorのruleとは、AIへいつも従ってほしい方針を書いておく仕組みです。会話ごとに同じことを説明し直さなくても、コード規約やアーキテクチャ・命名・禁止事項などを常に読み込ませられます。\nそして、重要なのがruleのチェック項目かと思うのですが、以下のような形で、Step by Stepで実施をしています。\n \n非常に良かったなと思う点として、AIがCSSの変数、その横のコメントを拾うようにしたことです。\nチェック項目1でまずハードコードがないかを洗い出し、2でCSS内の変数を使っているかを洗い出し、3でその横の変数と意味をすり合わせるという、AIにとって気持ちのいいワークフローを作れたんじゃないかなと思います。\n3. CSSファイルを分割\n次に、CSSファイルを分割してみることにしたら、さらに検証の結果が良くなりました。行数がめちゃくちゃ長いわけではないので一つのファイルにしていたのですが、ちょっとでもAIが読む行数が短い方がやっぱり良いみたいで、Color・TypographyなどtokenごとでCSSファイルを分割して、必要に応じて読ませることで、さらに精度が上がりました。\n4. Primitivesを全面禁止\n困ったこととして、「Semanticを優先する」みたいな書き方をしていた際に、Semanticで良いものもめちゃくちゃPrimitivesを使ってくることが多く、一度Primitivesを全面禁止にしてみました。そうすると、全面禁止にしたとて、どのみちAIは勝手に判断してPrimitivesを提案したがるので結果的にいい具合の塩梅になりました。\n5. 「等」に使用を「のみ」に使用に\nもう一つ困ったこととして、例外的に使って欲しいtokenをばりばりにAIが使ってくるという事例がありました。そこで、どんなコメントをつけていたかを見直してみると、\n〇〇など特殊なタイミングに使用\nという非常に曖昧な書き方をしてしまっていました。そこで、\n使用可: 〇〇のみ。通常は〇〇を使うこと。\nという限定的な書き方をしました。これも、Primitivesと同様に全面禁止にしたい訳ではなく場合によって使用してもいいタイミングもあるのですが、どのみちAIは勝手に判断して例外対応を使いたがるので結果的にいい具合の塩梅になりました。\n6. 複数CSSをまたぐルールは別mdに\n上記を全て試してもうまくいかない箇所がいくつかありました。それらをじっくり見てみると、複数CSSを跨いで判断しないといけない事例であることがわかりました。片方のCSSだけ読んでいるAIだと判別できなくなってしまうので、別のprohibitions.mdという横断ファイルを作成しました。\n \nこれを設けてCSS横断のルールを記載することによって、複数CSSを跨いで判断するルールに関しても、AIが情報を読み取って、判断してくれるようになりました。\n7. 人と同様のチェック手順を設ける\n最後まで中々解決しなかったことが、入れ子の構造に応じたmarginルールを理解してもらうことです。どれだけ説明してもあまり守られなかったのですが、人と同じような気持ちになって「何をまずはチェックしたらいいか」、「その次に先ほどのチェックした要素と何を比べればいいか」といったチェック手順を設けてあげることで、一気にAIがルールを理解してくれるようになりました。\n \n8. 粒度を合わせてダブりなく\n行数が増えるごとに、だんだんファイルがぐちゃぐちゃになってしまうこともあるかと思います。しかし、そうすると段々AIが思ったところをうまく読んでくれないという沼にハマってしまいます。そこで私が実施したこととしては、当たり前かもしれませんが、1.1つのファイルの中身の情報の粒度を合わせること、2.似たような内容は一回しか書かないことです。\nAIはすぐ余計な文章を追加してくるので、「他にこれって書いてるところってなかったっけ？」「これってこのファイルに追加する情報で適切なんだっけ？」という視点を持つことが重要だと思います。\n \n最後に\nいかがでしたでしょうか？もし気になる方法が見つかった方がいればぜひ試してみてください。\n▼ちなみに色々アプリも出してるので、ぜひ覗いっていってください▼\n本のおすすめSNS📕\nhttps://www.tsuntech.jp/\n個人開発アプリの投票サイト🗳️\nhttps://apps.apple.com/jp/app/onetomo/id6760103954\nお散歩中わんちゃんの可視化アプリ🐶\nhttps://apps.apple.com/jp/app/onetomo/id6760103954",
+      "id": "2054025973830684775"
+    },
+    {
       "article_text": "This role has been called “the hottest job in startups” according to a16z, with 800% growth in 2025, and it's still a hot topic with solid trajectory today. Companies that are hiring (or have hired) for this position include OpenAI, Anthropic, Databricks, Ramp, and even yours truly. But why?\nWTF is a forward deployed engineer?\nA forward deployed engineer (FDE) is an engineer who gets embedded in a customer's team to fill the gap between what your product does and what the customer needs. This can mean physically working from the customer's office for weeks, directly joining their Slack workspace, or accessing their actual infrastructure for onboarding and implementation.\nThe role originates from Palantir, who learned that even simple demos for intelligence software customers could require weeks of NDAs and security clearances. They found success with a model where engineers are “forward deployed” to customer sites where they work side-by-side with customers for product discovery and development with the right approvals and processes in place.\nBeing embedded on customer teams lets FDEs get familiar with customers' existing tech stack, pain points, and implementation challenges. Those learnings then get used by core product teams, who generalize them for other customers. It's a win-win: customers get highly customized solutions while FDEs gain valuable hands-on experience.\nFor example, when OpenAI was working on their voice models, they sent FDEs to a customer working on call center automation. They built evals to verify its performance and took that data back to the core research team to improve it further. Eventually, the customer became the first to deploy it in production, and these improvements became generally available in OpenAI's Realtime API.\nWhat do forward deployed engineers actually do?\nThe life of a FDE is pretty similar to other software engineers, except that they are \"onsite\" to develop for the customer's needs. This means they do a ton of meetings and customer-facing work and are often required to travel 20-50% of the time (unless they only do virtual visits).\nAt Palantir, an FDE's day to day looks like something like:\nMeeting with customers to understand the problem\nDesigning, writing, and testing software according to those needs\nConfiguring existing products (like AI models, or stability improvements) to unlock functionality for a customer\nCommunicating with product teams “back home” about customer feedback\nThat said, every company is different. As the role evolves, variations of FDE jobs now range from product development to sales to RevOps. The original concept of the FDE is still all about actual implementation and engineering, but at some places, FDEs are much closer to technical consultants or sales engineers.\nWhy does it feel like everyone is hiring forward deployed engineers right now?\nThe obvious answer is AI. Anjor Kanekar, an FDE at Palantir for more than seven years, put it this way:\nAI companies have a problem that the FDE is really well suited to solve. There is a gap between foundational model capabilities and the application of those in enterprise use cases where they can add value. The FDE model is a way of doing the R&D work of figuring out the 'app layer' in a really effective way. AI companies have the models, but they need to figure out what exactly needs to be built using the models to make inroads into large enterprises / public sector.\nThere are more factors beyond requiring tons of customization, though:\n1. AI privacy risks are real. \nCompanies don't want to hand over customer information, financial records, or proprietary data to vendors without establishing trust (especially for AI purposes). FDEs get permissions and longer-term access needed to work with that data directly because the contracts are for the product, not just the service.\n2. AI contract sizes are huge. \nAI deals are huge. Like six, seven, eight-figures huge. When AI companies charge that much $$$, they can afford to send engineers onsite for months to make sure the product actually works the way it's supposed to. In the past, consultants used to do this kind of work, but AI companies can take the financial hit in order to secure better contracts and gain hands-on knowledge.\n3. Decisionmakers are skeptical about AI. \nMost people – especially executives at traditional companies — don't fully believe in AI's usefulness yet and need to see it to believe it. Sales calls and demos aren't enough when there's so much at stake. FDEs bridge that gap by doing the work with the customer until they see real results with actual data.\nHow are they different from software engineers?\nFDEs still do software engineering, but they spend way more time talking to customers and scoping projects than other software engineers to decide what to build, and how. Their top priority is to deeply understand a customer's problems so that they can develop something that addresses it.\nSoftware engineers, on the other hand, focus on building features that are generalizable and maintainable. They're less involved in direct customer conversations and more focused on solutions that work at scale.\nBob McGrew, an early executive at Palantir, describes FDEs as the ones who build the rough gravel road for where the product needs to go. Software engineers from the core product team then work on turning that gravel road into a paved superhighway so that the next ten customers can also use it.\n \nThe key difference is that FDEs work on product discovery and development with one customer at a time, and generalizability is a second priority. Software engineers typically build with many users in mind from the start, and thinking about scale is baked into their process.\n \nWait, what about product engineers? Product engineers and FDEs are similar in that they both build quickly while talking to users to ship scrappy solutions that solve problems. The difference is in their setting and goals - product engineers aim to solve a problem that many people have so that they can create a reusable solution along the way, while FDEs are focused on one customer at a time.\nWhat kinds of people become forward deployed engineers?\nCompanies look to hire forward deployed engineers with...\nSolid engineering experience. Bring 5+ years of engineering or technical deployment experience that includes customer-facing work (OpenAI).\nCustomer empathy. Are humble, collaborative, and eager to help others with empathy (OpenAI).\nExcellent communication skills. Executive presence and ability to represent the company in customer-facing situations (Lambda).\nA collaborative attitude. Strong communication skills to conduct discovery with customers and to convey technical concepts to diverse stakeholders while maintaining a low ego and collaborative approach (Anthropic).\nProduct sense. Contribute accelerators, frameworks, and best practices that scale impact across accounts and influence the product roadmap (Databricks).\nDomain expertise. Experience with customer-facing ownership in biotech, pharma, clinical research, or scientific software; PhD, MS, or equivalent applied experience in a life sciences relevant field encouraged (OpenAI).\nPassion for the process. You love mixing engineering, consulting, and delivery, owning every step of the journey (HackerRank).\nShyam Sankar, President and CTO of Palantir, has been quoted that people who are “heretics” or “rebels” in their domain make for perfect FDEs because they have the unique depth, context, and energy that can unlock 3x-10x growth for a business.\n(If you haven't noticed yet, all of these are traits that also make for great product engineers and founders. It's no wonder why so many former Palantir employees go on to start their own companies.)\nWhen should we hire a forward deployed engineer?\nIf the usual product-market fit playbook is already working for you, the answer is that you shouldn't. The FDE strategy starts by solving one problem and earning the right to solve bigger ones, and that can take years for even a single customer. The goal is to land contracts that grow more valuable over time, but it has huge initial costs.\nFDEs do make sense for companies when:\n1. The product requires a lot of hands-on implementation AND you can eat the cost\nIf your product needs deep integration with existing infrastructure and has huge margins, FDEs can justify their cost. This is why so many AI startups are hiring them now.\n2. The industry has strict regulations\nIndustries like healthcare, finance, government, and defense have lots of compliance requirements that make it hard to ship and iterate at scale. FDEs make sense here because they can specialize in those standards, approvals, and processes (like they did at Palantir).\n3. You're targeting new verticals or segments\nWhen your company is exploring entirely new customer profiles and ICPs, you don't know what you don't know. FDEs can embed with early customers to understand the space and do all the product discovery for breaking into that market.\nThis is what happened with Ramp, a team that originally started out building for small businesses but added FDEs as they ran into technical challenges trying to meet the needs of enterprise.\nWhy did we just hire a forward deployed engineer at PostHog?\nWe pride ourselves on having tools that work out of the box, but there's a difference between \"any developer can use PostHog in 10 minutes\" and \"this Fortune 500 company can migrate their entire analytics stack without spending months on it.\"\nWe hired our first FDE to help with these large-scale migrations, but we're doing it PostHog-style. Our FDE is fully remote, async, and focused on building automation. It's a weird experiment for those used to the typical FDE setup, but it makes sense for us. Many of the benefits (deep customer knowledge, faster iterations, etc.) can still work if we use the tons of usage data we already have instead of doing product discovery from scratch.\nAs AI capabilities improve, people have higher expectations for what enterprise software can accomplish. We think the FDE role will grow and evolve to meet that demand. And at the end of the day, we're still approaching this as a product engineering problem by staying close to customers – it's just that instead of talking to users, we're going to go work with them.\nPostHog is an all-in-one developer platform for building successful products. We provide product analytics, web analytics, session replay, error tracking, feature flags, experiments, surveys, LLM analytics, logs, workflows, endpoints, data warehouse, CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.\n\nWritten by @jinayoon_, Technical Content Marketer at PostHog",
       "article_text_zh": "# 前向部署工程师：2025年最热门的初创公司岗位\n\n这个角色被a16z称为\"初创公司最热门的岗位\"，2025年增长了800%，至今仍是热门话题且发展势头强劲。正在招聘（或已招聘）这一职位的公司包括OpenAI、Anthropic、Databricks、Ramp，甚至还有我们PostHog。但这是为什么呢？\n\n## 前向部署工程师到底是什么？\n\n前向部署工程师（FDE）是嵌入到客户团队中的工程师，负责填补产品功能与客户需求之间的差距。这可能意味着在客户办公室实地工作数周、直接加入他们的Slack工作区，或访问他们的实际基础设施进行部署和实施。\n\n这个角色起源于Palantir，他们发现即使是为情报软件客户做简单的演示，也可能需要数周的NDA签署和安全审查。他们成功采用了一种模式：将工程师\"前向部署\"到客户现场，与客户并肩工作，在获得适当批准和流程保障的情况下进行产品发现和开发。\n\n嵌入客户团队让FDE能够熟悉客户现有的技术栈、痛点和实施挑战。这些经验随后被核心产品团队利用，推广到其他客户身上。这是一个双赢的局面：客户获得高度定制化的解决方案，而FDE则获得宝贵的实践经验。\n\n例如，当OpenAI开发语音模型时，他们将FDE派往一家从事呼叫中心自动化的客户。FDE们构建了评估系统来验证模型性能，并将数据反馈给核心研究团队以进一步改进。最终，该客户成为首个在生产环境中部署该模型的用户，而这些改进也通过OpenAI的Realtime API向所有用户开放。\n\n## 前向部署工程师实际做什么？\n\nFDE的日常工作与其他软件工程师非常相似，区别在于他们是\"现场\"为客户需求进行开发。这意味着他们要参加大量会议和客户对接工作，通常需要20%-50%的时间出差（除非只进行远程访问）。\n\n在Palantir，FDE的日常工作大致如下：\n- 与客户会面，了解问题\n- 根据需求设计、编写和测试软件\n- 配置现有产品（如AI模型或稳定性改进）以解锁客户所需功能\n- 与\"后方\"的产品团队沟通客户反馈\n\n当然，每家公司都不尽相同。随着这个角色的演变，FDE岗位的变体现在涵盖了从产品开发到销售再到RevOps的各个领域。FDE的原始概念仍然围绕实际的实施和工程工作，但在某些公司，FDE更接近于技术顾问或销售工程师。\n\n## 为什么感觉现在每个人都在招聘前向部署工程师？\n\n显而易见的答案是AI。在Palantir担任FDE超过七年的Anjor Kanekar这样描述：\n\n> AI公司面临一个FDE非常适合解决的问题。基础模型能力与这些能力在企业用例中创造价值的应用之间存在差距。FDE模式是一种非常有效的方式，用于进行\"应用层\"的研发工作。AI公司拥有模型，但他们需要弄清楚究竟应该用这些模型构建什么，才能打入大型企业和公共部门。\n\n除了需要大量定制化之外，还有更多因素：\n\n1. **AI隐私风险是真实存在的。**\n   公司不愿意在未建立信任的情况下将客户信息、财务记录或专有数据交给供应商（尤其是用于AI目的）。FDE获得必要的权限和长期访问权，可以直接处理这些数据，因为合同是针对产品的，而不仅仅是服务。\n\n2. **AI合同金额巨大。**\n   AI交易的规模巨大——六位数、七位数、八位数。当AI公司收取如此高昂的费用时，他们有能力派工程师驻场数月，确保产品按预期工作。过去，这类工作通常由顾问完成，但AI公司可以承担财务压力，以换取更好的合同和宝贵的实践经验。\n\n3. **决策者对AI持怀疑态度。**\n   大多数人——尤其是传统公司的高管——尚未完全相信AI的实用性，需要亲眼看到才能相信。当涉及重大利益时，销售电话和演示远远不够。FDE通过与客户一起工作，直到他们看到实际数据带来的真实成果，从而弥合这一差距。\n\n## 他们与软件工程师有何不同？\n\nFDE仍然从事软件工程工作，但他们花在与客户沟通和项目范围界定上的时间远多于其他软件工程师，以决定构建什么以及如何构建。他们的首要任务是深入理解客户的问题，以便开发出能够解决问题的方案。\n\n相比之下，软件工程师专注于构建可推广和可维护的功能。他们较少直接参与客户对话，更专注于可规模化运行的解决方案。\n\nPalantir的早期高管Bob McGrew将FDE描述为为产品发展方向铺设粗糙碎石路的人。核心产品团队的软件工程师随后负责将这条碎石路改造成铺好的高速公路，以便后续的十个客户也能使用。\n\n关键区别在于，FDE一次只为一个客户进行产品发现和开发，通用性是次要优先级。软件工程师通常从一开始就考虑众多用户，可扩展性思维已融入他们的工作流程。\n\n## 等等，那产品工程师呢？\n\n产品工程师和FDE的相似之处在于，他们都快速构建并与用户沟通，交付能解决问题的临时方案。区别在于他们的环境和目标——产品工程师旨在解决许多人共有的问题，并在此过程中创建可复用的解决方案；而FDE则一次专注于一个客户。\n\n## 什么样的人会成为前向部署工程师？\n\n公司招聘前向部署工程师时看重以下特质：\n\n- **扎实的工程经验。** 5年以上工程或技术部署经验，包括客户对接工作（OpenAI）。\n- **客户同理心。** 谦逊、协作、乐于以同理心帮助他人（OpenAI）。\n- **出色的沟通能力。** 高管风范，能在客户对接场合代表公司（Lambda）。\n- **协作态度。** 出色的沟通能力，用于与客户进行需求发现，并向不同利益相关者传达技术概念，同时保持低姿态和协作方式（Anthropic）。\n- **产品直觉。** 贡献加速器、框架和最佳实践，跨账户扩大影响力，并影响产品路线图（Databricks）。\n- **领域专长。** 在生物技术、制药、临床研究或科学软件领域有客户对接经验；鼓励拥有生命科学相关领域的博士、硕士或同等应用经验（OpenAI）。\n- **对过程充满热情。** 热爱工程、咨询和交付的融合，掌控旅程的每一步（HackerRank）。\n\nPalantir总裁兼CTO Shyam Sankar曾表示，在其领域中是\"异端\"或\"叛逆者\"的人是完美的FDE人选，因为他们拥有独特的深度、背景和能量，能够为企业带来3倍到10倍的增长。\n\n（如果你还没注意到，所有这些特质也造就了优秀的产品工程师和创始人。难怪这么多前Palantir员工后来都创办了自己的公司。）\n\n## 什么时候应该招聘前向部署工程师？\n\n如果常规的产品-市场匹配策略对你已经奏效，那么答案是你不需要。FDE策略从解决一个问题开始，然后赢得解决更大问题的权利，这即使对一个客户也可能需要数年时间。目标是签订随时间推移价值越来越高的合同，但初期成本巨大。\n\nFDE在以下情况下确实有意义：\n\n1. **产品需要大量手动实施，且你能承担成本**\n   如果你的产品需要与现有基础设施深度集成，且利润率很高，FDE可以证明其成本合理性。这就是为什么现在这么多AI初创公司在招聘他们。\n\n2. **行业有严格的监管要求**\n   医疗、金融、政府和国防等行业有大量合规要求，使得大规模交付和迭代变得困难。FDE在这里很有意义，因为他们可以专注于这些标准、审批和流程（就像他们在Palantir所做的那样）。\n\n3. **你正在瞄准新的垂直领域或细分市场**\n   当你的公司探索全新的客户画像和理想客户画像时，你不知道自己不知道什么。FDE可以嵌入早期客户，了解这个领域，为打入该市场进行所有的产品发现工作。\n\n这正是Ramp的经历——他们最初为小企业构建产品，但在试图满足企业需求时遇到技术挑战，于是增加了FDE。\n\n## 为什么我们PostHog刚刚招聘了一名前向部署工程师？\n\n我们以提供开箱即用的工具而自豪，但\"任何开发者都能在10分钟内使用PostHog\"与\"这家财富500强公司无需花费数月就能迁移整个分析栈\"之间是有区别的。\n\n我们招聘了第一位FDE来协助这些大规模迁移，但我们是按照PostHog的方式来做。我们的FDE完全远程、异步，专注于构建自动化。对于习惯了典型FDE设置的人来说，这是一个奇怪的实验，但对我们来说很有意义。许多好处（深入的客户知识、更快的迭代等）仍然可以实现，只要我们利用已有的海量使用数据，而不是从头开始进行产品发现。\n\n随着AI能力的提升，人们对企业软件能实现的目标有了更高的期望。我们认为FDE角色将不断发展和演变以满足这一需求。归根结底，我们仍然将其视为一个产品工程问题——通过贴近客户来解决——只是这次不是与用户交谈，而是与他们一起工作。\n\n---\n\n*PostHog是一个用于构建成功产品的全栈开发者平台。我们提供产品分析、网站分析、会话回放、错误追踪、功能开关、实验、调查、LLM分析、日志、工作流、端点、数据仓库、CDP以及AI产品助手，帮助您调试代码、更快地发布功能，并将所有使用数据和客户数据整合在一个栈中。*\n\n*作者：@jinayoon_，PostHog技术内容营销经理*",
       "article_text_zh_hash": "95e3b15426b8347e",
@@ -1736,6 +1740,19 @@
       "title": "",
       "url": "http://x.com/i/article/2053837926690148352"
     },
+    "http://x.com/i/article/2053872767976837120": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2053872767976837120",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2053872767976837120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIFa-RzbUAAOjeT?format=jpg&name=900x900)](http://x.com/i/article/2053872767976837120/haruruuun0405/article/2054025973830684775/media/2054022931035148288)\n\nDesign SystemのSkillの精度が上がった8つの方法\n\n[![](https://pbs.twimg.com/profile_images/1868956224194248704/6IGxhdIm_normal.jpg)](http://x.com/i/article/2053872767976837120/haruruuun0405)\n\n[清水はるか｜Lead Designer](http://x.com/i/article/2053872767976837120/haruruuun0405)\n\n[@haruruuun0405](http://x.com/i/article/2053872767976837120/haruruuun0405)\n\n·\n\nMay 12\n\n·\n\nFollow\n\nClick to Follow haruruuun0405\n\n1\n\n23\n\n254\n\n[46K](http://x.com/i/article/2053872767976837120/haruruuun0405/status/2054025973830684775/analytics)\n\nデザインシステムをSkill化しても、AIが中々言うことを聞いてくれなくて困っている人もいるかと思います。今日はそんな方向けに、同じファイルを色んなSkillを使ってひたすら改善し、その中で良かった方法を8つご紹介できればと思います。（※今回はデザインシステムの中でも、Design Tokenの話をさせていただきます。）サンプル数はまだ少なく精緻な情報ではないので、そこだけご容赦ください。\n\n# \n\n0\\. なぜSkill化すると良いのか\n\nそもそもなぜSkill化すると良いのかについてですが、その中の一つに技術スタックが違ってもある程度共通のデザインを色んなプロダクトで取り入れられることにあると思っています。デザインシステムを色んなプロダクトに導入したいけど技術の制約があって中々難しい場合に、まず導入する入り口として非常に良いのではないかと個人的に感じています。\n\n# \n\n1\\. Design TokenをCSSにした\n\n```text\nSKILL.md\n L references\n   L tokens-〇〇.css\n```\n\nそれでは、まず1つ目のDesign TokenをCSSにしたことからご紹介します。AIにSkillを作ってと丸投げすると、まず最初はMarkdownでの記述がされていました。そこで、これってMarkdownが適切なのかね？と聞いてみたところ、CSSがいいんじゃないと言われたので、CSSに変えてみました。そして、Markdownとどっちのアウトプットの精度が上がったのか検証してみたのですが、「AIがまずチェックする項目がCSSの変数、その後に読み込むのがコメント」という情報の棲み分けがより簡単にでき、検証結果としてはCSSの方が高い精度を保つことができました。\n\n# \n\n2\\. Cursorのruleでダブルチェック\n\n続いて、Cursorのrule機能でダブルチェックをすることによって、さらに検証の結果が良くなりました。これは、ruleじゃなくてもhook機能でダブルチェックをしても良いかもしれないのですが、個人的にはruleの軽さが好きなので、rule機能を使っています。\n\n> Cursorのruleとは、AIへいつも従ってほしい方針を書いておく仕組みです。会話ごとに同じことを説明し直さなくても、コード規約やアーキテクチャ・命名・禁止事項などを常に読み込ませられます。\n\nそして、重要なのがruleのチェック項目かと思うのですが、以下のような形で、Step by Stepで実施をしています。\n\n```text\n## Step 1: 参照ファイルを読み込む\n\n## Step 2: チェック対象を確認する\n\n## Step 3: 3点チェックを実施する\n\n### チェック 1：ハードコードがないか\n\n### チェック 2：`--ds-*` 変数を使っているか\n\n### チェック 3：トークンの用途コメントに沿っているか\n\n## Step 4: 違反があれば修正 or 確認する\n```\n\n非常に良かったなと思う点として、AIがCSSの変数、その横のコメントを拾うようにしたことです。\n\nチェック項目1でまずハードコードがないかを洗い出し、2でCSS内の変数を使っているかを洗い出し、3でその横の変数と意味をすり合わせるという、AIにとって気持ちのいいワークフローを作れたんじゃないかなと思います。\n\n# \n\n3\\. CSSファイルを分割\n\n次に、CSSファイルを分割してみることにしたら、さらに検証の結果が良くなりました。行数がめちゃくちゃ長いわけではないので一つのファイルにしていたのですが、ちょっとでもAIが読む行数が短い方がやっぱり良いみたいで、Color・TypographyなどtokenごとでCSSファイルを分割して、必要に応じて読ませることで、さらに精度が上がりました。\n\n# \n\n4\\. Primitivesを全面禁止\n\n困ったこととして、「Semanticを優先する」みたいな書き方をしていた際に、Semanticで良いものもめちゃくちゃPrimitivesを使ってくることが多く、一度Primitivesを全面禁止にしてみました。そうすると、全面禁止にしたとて、どのみちAIは勝手に判断してPrimitivesを提案したがるので結果的にいい具合の塩梅になりました。\n\n# \n\n5\\. 「等」に使用を「のみ」に使用に\n\nもう一つ困ったこととして、例外的に使って欲しいtokenをばりばりにAIが使ってくるという事例がありました。そこで、どんなコメントをつけていたかを見直してみると、\n\n> 〇〇など特殊なタイミングに使用\n\nという非常に曖昧な書き方をしてしまっていました。そこで、\n\n> 使用可: 〇〇のみ。通常は〇〇を使うこと。\n\nという限定的な書き方をしました。これも、Primitivesと同様に全面禁止にしたい訳ではなく場合によって使用してもいいタイミングもあるのですが、どのみちAIは勝手に判断して例外対応を使いたがるので結果的にいい具合の塩梅になりました。\n\n# \n\n6\\. 複数CSSをまたぐルールは別mdに\n\n上記を全て試してもうまくいかない箇所がいくつかありました。それらをじっくり見てみると、複数CSSを跨いで判断しないといけない事例であることがわかりました。片方のCSSだけ読んでいるAIだと判別できなくなってしまうので、別のprohibitions.mdという横断ファイルを作成しました。\n\n```text\nSKILL.md\n└ references\n   ├ tokens-〇〇.css\n   └ prohibitions.md → new\n```\n\nこれを設けてCSS横断のルールを記載することによって、複数CSSを跨いで判断するルールに関しても、AIが情報を読み取って、判断してくれるようになりました。\n\n# \n\n7\\. 人と同様のチェック手順を設ける\n\n最後まで中々解決しなかったことが、入れ子の構造に応じたmarginルールを理解してもらうことです。どれだけ説明してもあまり守られなかったのですが、人と同じような気持ちになって「何をまずはチェックしたらいいか」、「その次に先ほどのチェックした要素と何を比べればいいか」といったチェック手順を設けてあげることで、一気にAIがルールを理解してくれるようになりました。\n\n```text\n1. **子要素の中で最大の gap/margin を調べる**\n2. **自分の gap/margin がその値より大きいことを確認する**\n3. **親要素の gap/margin が自分の値より大きいことを確認する**\n```\n\n# \n\n8\\. 粒度を合わせてダブりなく\n\n行数が増えるごとに、だんだんファイルがぐちゃぐちゃになってしまうこともあるかと思います。しかし、そうすると段々AIが思ったところをうまく読んでくれないという沼にハマってしまいます。そこで私が実施したこととしては、当たり前かもしれませんが、1.1つのファイルの中身の情報の粒度を合わせること、2.似たような内容は一回しか書かないことです。\n\nAIはすぐ余計な文章を追加してくるので、「他にこれって書いてるところってなかったっけ？」「これってこのファイルに追加する情報で適切なんだっけ？」という視点を持つことが重要だと思います。\n\n```text\nSKILL.md　→全体概要・読み込みファイルの指定を行う\n└ references\n   ├ prohibitions.md 　→複数CS",
+      "title": "",
+      "url": "http://x.com/i/article/2053872767976837120"
+    },
     "http://x.com/i/article/2054216908581277696": {
       "cleaner_v": 2,
       "content_type": "",
@@ -2101,6 +2118,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://api.anthropic.com/api/event_logging/batch"
+    },
+    "https://apps.apple.com/jp/app/onetomo/id6760103954": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Haruka Shimizuの「OneTomo」をApp Storeでダウンロードしてください。スクリーンショット、評価とレビュー、ユーザのヒント、「OneTomo」に似たゲームを見ることなどができます。",
+      "final_url": "https://apps.apple.com/jp/app/onetomo/id6760103954",
+      "frameable": false,
+      "image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/b1/6b/3bb16b62-f285-33f5-6cf1-69a1a57b9389/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/1200x630wa.jpg",
+        "https://apps.apple.com/assets/artwork/1x1.gif"
+      ],
+      "kind": "article",
+      "text_excerpt": "（iPhone向け） iPhone iPad Mac Vision Watch TV 検索 Today ゲーム アプリ Arcade プラットフォーム iPhone iPad Mac Vision Watch TV OneTomo 犬友と出会えるお散歩GPS・位置情報共有 iPhoneのみ対応 無料 共有 9件の評価 4.7 年齢 4+ 歳 カテゴリ ライフスタイル デベロッパ Haruka Shimizu サイズ 16.3 MB iPhone 「今、どこにいる？」がわかる、新感覚のお散歩体験！ 近所のわんちゃん飼い主とリアルタイムで位置情報を共有。仲良しのあの子が散歩を始めたら通知でお知らせします。事前のプロフィール確認で、性格や相性もバッチリ把握。「はじめまして」の不安をワクワクに変えて、毎日のお散歩をもっと楽しく、もっと安心な時間に。 毎日のお散歩、もっと楽しく、もっと安心に。 「いつもの公園に、今日は誰か来ているかな？」 「他のワンちゃんが苦手だけど、今日のご挨拶は大丈夫かな？」 OneTomo（ワン友）は、そんな飼い主さんの想いから生まれた、犬と飼い主のための位置情報共有アプリです。 【主な特徴】 ● リアルタイムお散歩マップ 今、どこで誰が散歩しているかが一目でわかります。 ● 散歩開始のプッシュ通知 仲良しの犬友が散歩に出発すると通知が届くので、タイミングを合わせて合流できます。 ● 安心のプロフィール機能 「挨拶OK！」「他の犬が苦手」など、性格や相性を可視化。トラブルを防いで安全に交流できます。 ● 友達追加＆チャット 気が合う飼い主さんとは友達になって、オフ会やお出かけの相談もスムーズ。 【こんな方におすすめ】 ・近所に犬の友達を作りたい ・愛犬の性格に合った友達と遊ばせたい ・散歩の時間をもっと充実させたい ・他の犬とのトラブルを避けたい さらに見る 評価とレビュー 4.7 5段階評価中 評価件数：9 アプリの機能が明確で分かりやすい！ 3月18日 tantao@ 機能が多過ぎず、動線がわかりやすいです！アプリ上で犬友同士でコミュニケーションとれたら良いな〜って思いました！ アプリの機能が明確で分かりやすい！ 3月18日 tantao@ 機能が多過ぎず、動線がわかりやすいです！アプリ上で犬友同士でコミュニケーションとれたら良いな〜って思いました！ いつもの散歩が楽しくなります🐕 ͗ ͗ 3月12日 POYO_AI リアルタイムで位置情報を共有できるので、「あ、今公園にあの人がいる！」と分かって合流できるのが便利。人が多いタイミングを狙って社交性を高める練習をしたり、逆に空いている時間を狙ってゆったり歩いたりと、その日の気分で使い分けられます。毎日の散歩が「イベント」に変わりますね。インターフェースも見やすくて使いやす！ いつもの散歩が楽しくなります🐕 ͗ ͗ 3月12日 POYO_AI リアルタイムで位置情報を共有できるので、「あ、今公園にあの人がいる！」と分かって合流できるのが便利。人が多いタイミングを狙って社交性を高める練習をしたり、逆に空いている時間を狙ってゆったり歩いたりと、その日の気分で使い分けられます。毎日の散歩が「イベント」に変わりますね。インターフェースも見やすくて使いやす！ 可愛いUI 3月13日 あかさはなたわやかやわ 可愛いUIだなという第一印象です。わんちゃんが本当にいるかは実際分からないかも？と思いつつも散歩の時間はだいたい決まっているのでそこまで困らないのかもと思いました。得意な犬種が知れるのもいいですね！犬友と交流するきっかけとなるアプリだなと感じました🐶 可愛いUI 3月13日 あかさはなたわやかやわ 可愛いUIだなという第一印象です。わんちゃんが本当にいるかは実際分からないかも？と思いつつも散歩の時間はだいたい決まっているのでそこまで困らないのかもと思いました。得意な犬種が知れるのもいいですね！犬友と交流するきっかけとなるアプリだなと感じました🐶 UIがドストライク 3月13日 えれしゃ とにかくUIがいいです！実際にインストールしてみましたがスムーズにペットの登録もできました！早く犬友がここでできると良いなと思ってます！ UIがドストライク 3月13日 えれしゃ とにかくUIがいいです！実際にインストールしてみましたがスムーズにペットの登録もできました！早く犬友がここでできると良いなと思ってます！ アップデート バージョン履歴 位置共有中かつ登録した自宅の近くにいるときは、位置がぼかされて表示されます。プライバシーに配慮した散歩の待ち合わせが可能です。 1.1.0 3月15日 1.0 3月12日 位置共有中かつ登録した自宅の近くにいるときは、位置がぼかされて表示されます。プライバシーに配慮した散歩の待ち合わせが可能です。 さらに見る バージョン1.1.0 3月15日 アプリのプライバシー アプリのプライバシー デベロッパである“ Haruka Shimizu ”は、アプリのプライバシー慣行に、以下のデータの取り扱いが含まれる可能性があることを示しました。この情報はAppleによって検証されていません。詳しくは、 デベロッパプライバシーポリシー を参照してください。 デベロッパの回答の理解を深めるには、 プライバシーの定義と例 を参照してください。 使用する機能や年齢などによって、プライバシー慣行が異なる場合があります。 詳しい情報 ユーザに関連付けられたデータ 次のデータは収集され、ユーザの識別情報に関連付けられる場合があり、さらに以下の目的で使用される場合があります。 アナリティクス ID ユーザID デバイスID 使用状況データ 製品の操作 アプリの機能 位置情報 詳細な位置情報 連絡先情報 メールアドレス ユーザコンテンツ 写真またはビデオ ID ユーザID デバイスID デベロッパである“ Haruka Shimizu ”は、アプリのプライバシー慣行に、以下のデータの取り扱いが含まれる可能性があることを示しました。詳しくは、 デベロッパプライバシーポリシー を参照してください。 ユーザに関連付けられたデータ 次のデータは収集され、ユーザの識別情報に関連付けられる場合があります。 位置情報 連絡先情報 ユーザコンテンツ ID 使用状況データ 使用する機能や年齢などによって、プライバシー慣行が異なる場合があります。 詳しい情報 アクセシビリティ デベロッパは、このアプリがサポートしているアクセシビリティ機能をまだ示していません。 詳しい情報 情報 販売元 Haruka Shimizu サイズ 16.3 MB カテゴリ ライフスタイル 互換性 iOS 18.2以降が必要です。 iPhone iOS 18.2以降が必要です。 年齢制限 4+ 4+ 詳細はこちら 著作権 © 2026 OneTomo Project プライバシーポリシー 日本 English (US) 国または地域を選択 アフリカ、中東、インド すべて表示 Algeria Angola Armenia Azerbaijan Bahrain Benin Botswana Burkina Faso Cameroun Cape Verde Chad Côte d’Ivoire Congo, The Democratic Republic Of The Egypt Eswatini Gabon Gambia Ghana Guinea-Bissau India Iraq Israel Jordan Kenya Kuwait Lebanon Liberia Libya Madagascar Malawi Mali Mauritania Mauritius Morocco Mozambique Namibia Niger (English) Nigeria Oman Qatar Congo, Republic of Rwanda São Tomé and Príncipe Saudi Arabia Senegal Seychelles Sierra Leone South Africa Sri Lanka Tajikistan Tanzania, United Republic Of Tunisia Turkmenistan United Arab Emirates Uganda Yemen Zambia Zimbabwe アジア太平洋 すべて表示 Afghanistan Australia Bhutan Brunei Darussalam Cambodia 中国大陆 Fiji 香港 Indonesia (English) 日本 Kazakhstan 대한민국 Kyrgyzstan Lao People's Democratic Republic 澳門 Malaysia (English) Maldives Micronesia, Federated States of Mongolia Myanmar Nauru Nepal New Zealand Pakistan Palau Papua New Guinea Philippines Singapore Solomon Islands 台灣 Thailand Tonga Turkmenistan Uzbekistan Vanuatu Vietnam ヨーロッパ すべて表示 Albania Armenia Österreich Belarus Belgium Bosnia and Herz",
+      "title": "‎OneTomoアプリ - App Store",
+      "url": "https://apps.apple.com/jp/app/onetomo/id6760103954"
     },
     "https://apps.apple.com/us/app/shiuli-alt-text-generator/id6746376256": {
       "cleaner_v": 2,
@@ -5276,6 +5308,18 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://kevinkelly.substack.com/p/our-uncertain-uncertainties"
+    },
+    "https://kumo-ui.com/": {
+      "content_type": "text/html",
+      "description": "Kumo – a modern component library",
+      "final_url": "https://kumo-ui.com/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Kumo",
+      "url": "https://kumo-ui.com/"
     },
     "https://labnana.com/home": {
       "cleaner_v": 2,
@@ -14372,6 +14416,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HICstuwaYAA71S2.jpg"
     },
+    "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg"
+    },
+    "https://pbs.twimg.com/media/HIHSTI1bUAEP0Qp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIHSTI1bUAEP0Qp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIHSTI1bUAEP0Qp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIHSTI1bUAEP0Qp.jpg"
+    },
+    "https://pbs.twimg.com/media/HIHSTSpaUAAAT8n.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIHSTSpaUAAAT8n.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIHSTSpaUAAAT8n.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIHSTSpaUAAAT8n.jpg"
+    },
+    "https://pbs.twimg.com/media/HIHSTbiawAAK3fx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIHSTbiawAAK3fx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIHSTbiawAAK3fx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIHSTbiawAAK3fx.jpg"
+    },
     "https://pbs.twimg.com/media/HIIS-dVbUAAPqCc.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -14497,6 +14597,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HIIwX82bAAAF-nA.jpg"
+    },
+    "https://pbs.twimg.com/media/HIKE_tlXYAAPeJm.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIKE_tlXYAAPeJm.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIKE_tlXYAAPeJm.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIKE_tlXYAAPeJm.jpg"
+    },
+    "https://pbs.twimg.com/media/HIKE_tnWMAAPcNg.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIKE_tnWMAAPcNg.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIKE_tnWMAAPcNg.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIKE_tnWMAAPcNg.jpg"
+    },
+    "https://pbs.twimg.com/media/HIKFlflWoAAdzQw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIKFlflWoAAdzQw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIKFlflWoAAdzQw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIKFlflWoAAdzQw.jpg"
+    },
+    "https://pbs.twimg.com/media/HIKFo-IXAAAXRbE.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIKFo-IXAAAXRbE.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIKFo-IXAAAXRbE.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIKFo-IXAAAXRbE.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
@@ -16606,6 +16762,32 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://www.trygooey.com/"
+    },
+    "https://www.tsuntech.jp/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "デザイナー・エンジニア・PMが技術書・ビジネス書の感想をシェアするSNS、TsunTech（ツンテック）。",
+      "extraction_source": "trafilatura",
+      "final_url": "https://tsuntech.jp/",
+      "frameable": false,
+      "image_urls": [
+        "https://tsuntech.jp/og/pic.png?v=20260331",
+        "https://tsuntech.jp/banner-sp.jpeg",
+        "https://tsuntech.jp/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F706803679186128896%2F-Lhpzf2p_400x400.jpg&w=256&q=75",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/1744/9784022511744_1_2.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/1557/9784198661557_1_3.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/8199/9784088838199_1_5.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3570/9784865283570_1_2.jpg?_ex=200x200",
+        "https://tsuntech.jp/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1878992868737789952%2Fj0aJpOO3_400x400.jpg&w=256&q=75",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/9070/9784798179070_1_124.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/2077/9784802512077.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/2091/9784802512091_1_3.jpg?_ex=200x200",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0640/9784774170640.jpg?_ex=200x200"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "本のおすすめ | TsunTech",
+      "url": "https://www.tsuntech.jp/"
     },
     "https://www.ui-skills.com/install": {
       "content_type": "",
@@ -18769,6 +18951,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://x.com/i/article/2053837926690148352"
+    },
+    "https://x.com/i/article/2053872767976837120": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://x.com/i/article/2053872767976837120",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2053872767976837120/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIFa-RzbUAAOjeT?format=jpg&name=900x900)](https://x.com/i/article/2053872767976837120/haruruuun0405/article/2054025973830684775/media/2054022931035148288)\n\nDesign SystemのSkillの精度が上がった8つの方法\n\n[![](https://pbs.twimg.com/profile_images/1868956224194248704/6IGxhdIm_normal.jpg)](https://x.com/i/article/2053872767976837120/haruruuun0405)\n\n[清水はるか｜Lead Designer](https://x.com/i/article/2053872767976837120/haruruuun0405)\n\n[@haruruuun0405](https://x.com/i/article/2053872767976837120/haruruuun0405)\n\n·\n\nMay 12\n\n·\n\nFollow\n\nClick to Follow haruruuun0405\n\n1\n\n20\n\n222\n\n[17K](https://x.com/i/article/2053872767976837120/haruruuun0405/status/2054025973830684775/analytics)\n\nデザインシステムをSkill化しても、AIが中々言うことを聞いてくれなくて困っている人もいるかと思います。今日はそんな方向けに、同じファイルを色んなSkillを使ってひたすら改善し、その中で良かった方法を8つご紹介できればと思います。（※今回はデザインシステムの中でも、Design Tokenの話をさせていただきます。）サンプル数はまだ少なく精緻な情報ではないので、そこだけご容赦ください。\n\n# \n\n0\\. なぜSkill化すると良いのか\n\nそもそもなぜSkill化すると良いのかについてですが、その中の一つに技術スタックが違ってもある程度共通のデザインを色んなプロダクトで取り入れられることにあると思っています。デザインシステムを色んなプロダクトに導入したいけど技術の制約があって中々難しい場合に、まず導入する入り口として非常に良いのではないかと個人的に感じています。\n\n# \n\n1\\. Design TokenをCSSにした\n\n```text\nSKILL.md\n L references\n   L tokens-〇〇.css\n```\n\nそれでは、まず1つ目のDesign TokenをCSSにしたことからご紹介します。AIにSkillを作ってと丸投げすると、まず最初はMarkdownでの記述がされていました。そこで、これってMarkdownが適切なのかね？と聞いてみたところ、CSSがいいんじゃないと言われたので、CSSに変えてみました。そして、Markdownとどっちのアウトプットの精度が上がったのか検証してみたのですが、「AIがまずチェックする項目がCSSの変数、その後に読み込むのがコメント」という情報の棲み分けがより簡単にでき、検証結果としてはCSSの方が高い精度を保つことができました。\n\n# \n\n2\\. Cursorのruleでダブルチェック\n\n続いて、Cursorのrule機能でダブルチェックをすることによって、さらに検証の結果が良くなりました。これは、ruleじゃなくてもhook機能でダブルチェックをしても良いかもしれないのですが、個人的にはruleの軽さが好きなので、rule機能を使っています。\n\n> Cursorのruleとは、AIへいつも従ってほしい方針を書いておく仕組みです。会話ごとに同じことを説明し直さなくても、コード規約やアーキテクチャ・命名・禁止事項などを常に読み込ませられます。\n\nそして、重要なのがruleのチェック項目かと思うのですが、以下のような形で、Step by Stepで実施をしています。\n\n```text\n## Step 1: 参照ファイルを読み込む\n\n## Step 2: チェック対象を確認する\n\n## Step 3: 3点チェックを実施する\n\n### チェック 1：ハードコードがないか\n\n### チェック 2：`--ds-*` 変数を使っているか\n\n### チェック 3：トークンの用途コメントに沿っているか\n\n## Step 4: 違反があれば修正 or 確認する\n```\n\n非常に良かったなと思う点として、AIがCSSの変数、その横のコメントを拾うようにしたことです。\n\nチェック項目1でまずハードコードがないかを洗い出し、2でCSS内の変数を使っているかを洗い出し、3でその横の変数と意味をすり合わせるという、AIにとって気持ちのいいワークフローを作れたんじゃないかなと思います。\n\n# \n\n3\\. CSSファイルを分割\n\n次に、CSSファイルを分割してみることにしたら、さらに検証の結果が良くなりました。行数がめちゃくちゃ長いわけではないので一つのファイルにしていたのですが、ちょっとでもAIが読む行数が短い方がやっぱり良いみたいで、Color・TypographyなどtokenごとでCSSファイルを分割して、必要に応じて読ませることで、さらに精度が上がりました。\n\n# \n\n4\\. Primitivesを全面禁止\n\n困ったこととして、「Semanticを優先する」みたいな書き方をしていた際に、Semanticで良いものもめちゃくちゃPrimitivesを使ってくることが多く、一度Primitivesを全面禁止にしてみました。そうすると、全面禁止にしたとて、どのみちAIは勝手に判断してPrimitivesを提案したがるので結果的にいい具合の塩梅になりました。\n\n# \n\n5\\. 「等」に使用を「のみ」に使用に\n\nもう一つ困ったこととして、例外的に使って欲しいtokenをばりばりにAIが使ってくるという事例がありました。そこで、どんなコメントをつけていたかを見直してみると、\n\n> 〇〇など特殊なタイミングに使用\n\nという非常に曖昧な書き方をしてしまっていました。そこで、\n\n> 使用可: 〇〇のみ。通常は〇〇を使うこと。\n\nという限定的な書き方をしました。これも、Primitivesと同様に全面禁止にしたい訳ではなく場合によって使用してもいいタイミングもあるのですが、どのみちAIは勝手に判断して例外対応を使いたがるので結果的にいい具合の塩梅になりました。\n\n# \n\n6\\. 複数CSSをまたぐルールは別mdに\n\n上記を全て試してもうまくいかない箇所がいくつかありました。それらをじっくり見てみると、複数CSSを跨いで判断しないといけない事例であることがわかりました。片方のCSSだけ読んでいるAIだと判別できなくなってしまうので、別のprohibitions.mdという横断ファイルを作成しました。\n\n```text\nSKILL.md\n L references\n   L tokens-〇〇.css\n   L prohibitions.md → new\n```\n\nこれを設けてCSS横断のルールを記載することによって、複数CSSを跨いで判断するルールに関しても、AIが情報を読み取って、判断してくれるようになりました。\n\n# \n\n7\\. 人と同様のチェック手順を設ける\n\n最後まで中々解決しなかったことが、入れ子の構造に応じたmarginルールを理解してもらうことです。どれだけ説明してもあまり守られなかったのですが、人と同じような気持ちになって「何をまずはチェックしたらいいか」、「その次に先ほどのチェックした要素と何を比べればいいか」といったチェック手順を設けてあげることで、一気にAIがルールを理解してくれるようになりました。\n\n```text\n1. **子要素の中で最大の gap/margin を調べる**\n2. **自分の gap/margin がその値より大きいことを確認する**\n3. **親要素の gap/margin が自分の値より大きいことを確認する**\n```\n\n# \n\n8\\. 粒度を合わせてダブりなく\n\n行数が増えるごとに、だんだんファイルがぐちゃぐちゃになってしまうこともあるかと思います。しかし、そうすると段々AIが思ったところをうまく読んでくれないという沼にハマってしまいます。そこで私が実施したこととしては、当たり前かもしれませんが、1.1つのファイルの中身の情報の粒度を合わせること、2.似たような内容は一回しか書かないことです。\n\nAIはすぐ余計な文章を追加してくるので、「他にこれって書いてるところってなかったっけ？」「これってこのファイルに追加する情報で適切なんだっけ？」という視点を持つことが重要だと思います。\n\n```text\nSKILL.md　→全体概要・読み込みファイルの指定を行う\n L references\n   L prohibitions.m",
+      "title": "",
+      "url": "https://x.com/i/article/2053872767976837120"
     },
     "https://x.com/i/article/2054216908581277696": {
       "cleaner_v": 2,
@@ -22094,6 +22289,19 @@
       "image_urls": [],
       "text": "https://x.com/i/article/2053998987255136256",
       "url": "https://x.com/RealHanyaHu/status/2054003697777324376"
+    },
+    "2054291387873390773": {
+      "article_text": "",
+      "article_title": null,
+      "author": {
+        "name": "Sahil Lavingia",
+        "username": "shl"
+      },
+      "fetched_at": "2026-05-13T14:48:41Z",
+      "id": "2054291387873390773",
+      "image_urls": [],
+      "text": "Design systems hold you back",
+      "url": "https://x.com/shl/status/2054291387873390773"
     }
   },
   "thread_urls_by_conversation": {
@@ -22819,6 +23027,26 @@
       "https://twitter.com/kylejeong/status/2053930111829942311",
       "https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg"
     ],
+    "2054154138724991073": [
+      "https://x.com/azed_ai/status/2054263190683361703",
+      "https://x.com/azed_ai/status/2054263081702711329",
+      "https://x.com/azed_ai/status/2054263058583744553",
+      "https://x.com/azed_ai/status/2054262993731383508",
+      "https://x.com/azed_ai/status/2054262970926932171",
+      "https://x.com/azed_ai/status/2054262904837341631",
+      "https://x.com/azed_ai/status/2054262874990678459",
+      "https://x.com/azed_ai/status/2054262850332295382",
+      "https://x.com/azed_ai/status/2054262827817300387",
+      "https://x.com/azed_ai/status/2054262795944775997",
+      "https://x.com/azed_ai/status/2054262766983057698",
+      "https://x.com/azed_ai/status/2054262726419997154",
+      "https://x.com/azed_ai/status/2054154138724991073",
+      "https://x.com/azed_ai/status/2054154138724991073/photo/1",
+      "https://pbs.twimg.com/media/HIHSTARbsAAaWU9.jpg",
+      "https://pbs.twimg.com/media/HIHSTI1bUAEP0Qp.jpg",
+      "https://pbs.twimg.com/media/HIHSTSpaUAAAT8n.jpg",
+      "https://pbs.twimg.com/media/HIHSTbiawAAK3fx.jpg"
+    ],
     "2054163552198447314": [
       "https://x.com/seclink/status/2054163552198447314",
       "https://research.perplexity.ai/"
@@ -22920,6 +23148,6 @@
       "https://x.com/i/article/2054259613717909504"
     ]
   },
-  "updated_at": "2026-06-12T06:55:46Z",
+  "updated_at": "2026-06-12T11:09:34Z",
   "window": "archive"
 }
