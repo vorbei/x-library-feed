@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "count": 688,
+      "count": 690,
       "name": "Tools"
     },
     {
-      "count": 422,
+      "count": 424,
       "name": "Development"
     },
     {
-      "count": 328,
+      "count": 329,
       "name": "Design"
     },
     {
-      "count": 320,
+      "count": 321,
       "name": "Articles"
     },
     {
@@ -38,8 +38,275 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2283,
+  "item_count": 2289,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_image_urls": [
+        "https://terafab.ai/assets/og.png",
+        "https://terafab.ai/assets/tesla-logo.svg",
+        "https://terafab.ai/assets/spacex-logo.svg",
+        "https://terafab.ai/assets/xai-logo.svg",
+        "https://terafab.ai/assets/scaling/Scaling_clean.png",
+        "https://terafab.ai/assets/chips/Chip_AI5.png",
+        "https://terafab.ai/assets/chips/Chip_AI6.png",
+        "https://terafab.ai/assets/chips/Chip_D3.png",
+        "https://terafab.ai/assets/chips/Chip_Beyond.png",
+        "https://terafab.ai/assets/ai/Scalable_solution_desktop.jpg",
+        "https://terafab.ai/assets/ai/Always-Sunny.svg",
+        "https://terafab.ai/assets/mass-driver/Mass_drive_desktop.jpg"
+      ],
+      "article_title_extracted": "Terafab",
+      "category": "Development",
+      "created_at": "2026-06-12T02:58:05.413594Z",
+      "description": "Tesla, SpaceX, and xAI are launching the most epic chip-building effort ever - combining logic, memory and advanced packaging under one roof. A future among the stars.",
+      "domain": "terafab.ai",
+      "embed_type": "",
+      "id": "k175fvae1a9dmbx9x936mcmfb988gmrp",
+      "og_image_url": "https://cloud.poche.app/api/storage/bfc63d3d-58b1-4b4b-9cc0-00b190ff3deb",
+      "recommended_at": "2026-06-12T03:13:50.700000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "semiconductors",
+        "ai-infrastructure",
+        "manufacturing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:50.700000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Terafab",
+      "url": "https://terafab.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/BUoLronfNSxafF2Zk3MMcLVyfyU.png",
+        "https://framerusercontent.com/images/sFge6aM8ETZKjyhMOoT5qNWb2A.png?width=367&height=477",
+        "https://framerusercontent.com/images/0fwXS4isyTZPoMOrHHfqriTawQ.png?width=382&height=498",
+        "https://framerusercontent.com/images/DWMW065t5ZrMOgCm9uWzfMVSWBs.png?width=382&height=495",
+        "https://framerusercontent.com/images/IBLqSJsPoTz0OMjbg2Je20ykW5Y.png?width=346&height=495",
+        "https://framerusercontent.com/images/LjZ0GxJJ9S05A7ws31KMHG51kk.png?width=367&height=477",
+        "https://framerusercontent.com/images/oHp5RAbMnchKcU5w5pgCx9341U.png?width=382&height=498",
+        "https://framerusercontent.com/images/XvqyMkWypc49ou2BuUAqeHxlj4.png?width=382&height=498",
+        "https://framerusercontent.com/images/QNO3uwWyrUHSmBH8DUZTwUjc9M.png?width=382&height=495",
+        "https://framerusercontent.com/images/glPfI56IWkrbEN8YbFNKbGP8f8c.webp?width=2106&height=2050",
+        "https://framerusercontent.com/images/Qd9Auz3DIDyt1xGTe9nlaf4LriQ.png?width=545&height=545",
+        "https://framerusercontent.com/images/9NyaoiIn0cePbphE58Vo9XGrhJw.png?width=132&height=135"
+      ],
+      "article_title_extracted": "Arcway: the 3D home buying platform",
+      "category": "Tools",
+      "created_at": "2026-06-12T02:58:14.984138Z",
+      "description": "The first end-to-end 3D design platform that lets buyers configure, visualize, and price their home in real-time.",
+      "domain": "arcway.ai",
+      "embed_type": "",
+      "id": "k173d9mcsnb7vymqxmrj3hrxrs88gg6s",
+      "og_image_url": "https://cloud.poche.app/api/storage/6ae75b7f-9b95-44f3-a98b-3249ea73fa19",
+      "recommended_at": "2026-06-12T03:13:48.602000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "proptech",
+        "3d-visualization",
+        "real-estate"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:48.602000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Arcway: the 3D home buying platform",
+      "url": "https://arcway.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/5cd39662ea3befee9661b70b4a25906d.jpg",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/d9340911ca8c679b148dd4a205ad2ffa.svg",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/cac815e4ee0f383f7b4b5302b5a7a29a.svg",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/5cd39662ea3befee9661b70b4a25906d.jpg?originalWidth=1848&originalHeight=782",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/arch.jpg?v=1781066942",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/db.jpg?v=1781068316",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/ai.jpg?v=1781068370",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/full-arch.jpg?v=1781069222",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/quicksites-total.jpg?v=1781069814",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/overwrite.jpg?v=1781071272",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/88ee7022e2749387148cb4098cc4f9fb.svg",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/8051dee1dd72e78a9528a16c062cff66.svg"
+      ],
+      "article_text": "Shopify attracts people who [love to tinker.](https://www.shopify.com/news/unserious-exploration) Building has never been the bottleneck here. People are always making things: prototypes, dashboards, little tools for their teams. The hard part was getting those things in front of anyone else.\nOur solution to this was Quick: an internal platform where you drop in a folder of HTML and assets and get back a secure URL that only Shopify employees can see. No frameworks, deploy pipelines, or config files. You just upload a folder and your site is live. If you need a database, AI, file storage, or websockets, those are just an API call away.\nWe launched Quick in July 2025, and the timing turned out to be perfect. AI had just gotten good enough that people across every discipline, not just us engineers, could generate a working website from a prompt. Quick gave them somewhere to put it. AI wasn't why we built it, but it's a big part of why it took off.\nToday, Quick hosts more than 50,000 sites across Shopify. Over half the company has created at least one. Everything from dashboards that teams rely on daily to a multiplayer mountain-climbing game that nobody asked for but everybody plays.\nThis is how we got here.\nArchitecture\nQuick started with the idea of finding the simplest way to put HTML files somewhere and serve them. And what's simpler than every \"site\" being just a folder of assets in a Google Cloud Storage bucket?\nTo serve them, we put a lightweight NGINX server in front, with a wildcard config so that mysite.quick.shopify.io maps straight to the mysite folder. But we didn't want NGINX to know anything about querying buckets. This is where gcsfuse came in: it mounts the bucket as if it were part of the local filesystem, so NGINX thinks it's just serving local files.\nAuthentication is just as simple. The whole server sits behind Identity-Aware Proxy (IAP), so every request is already a verified Shopify employee before it ever reaches a site.\nThe `quick deploy` command is nothing more than a small wrapper around gcloud’s rsync. It grabs the files from your local directory and pushes it up directly to the bucket. Feels like the good old days of FTP.\nThe next step: APIs\nIn this configuration, Quick could already accommodate many use cases. But what if your prototype or site needed just a little bit of functionality from a backend? Maybe it’s to store a bit of data, or upload a file, or call out to AI. Now suddenly you’re left having to spin up databases and infrastructure, which feels like overkill in many cases.\nThat’s when we thought to ourselves, “what if we had a single server that all sites on Quick could access and could provide basic backend services?” Give it a nice little client-side API and you’re all set.\nWant your Quick site to save a blog post?\nconst posts = quick.db.collection('posts');\nconst created = await posts.create({\n  title: 'Hello Quick DB',\n  status: 'draft',\n  created_at: new Date().toISOString()\n});\nNeed realtime updates when something changes?\nconst unsubscribe = posts.subscribe({\n  onCreate: (doc) => console.log('New:', doc),\n  onUpdate: (doc) => console.log('Updated:', doc),\n  onDelete: (id) => console.log('Deleted:', id),\n});\nThe original [Firebase](https://firebase.google.com/) was a big inspiration for us. It let you easily spin up a key value store exposed to the internet that you could just read / write to. You didn’t need schemas, or migrations, or anything. And best of all, anything you saved in it magically synced across all connected clients.\nWe initially played around with the idea of each Quick site having its own sqlite database, but that didn't play as well as we hoped with gcsfuse. It was much easier to spin up a single CloudSQL database with a nodejs server in front of it.\nAI was the next feature we added, so that any Quick site could make client-side calls to the LLM of their choosing without needing to provide any API keys. The API keys are stored on the server and passed along to our",
+      "article_title_extracted": "Quick: An internal hosting platform for the AI era (2026) - Shopify",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-12T02:58:27.197984Z",
+      "description": "Quick lets anyone at Shopify ship a site in seconds. It has changed the culture of how we build and share.",
+      "domain": "shopify.engineering",
+      "embed_type": "",
+      "id": "k17bscjvxnk1426j470m4x36zn88hg95",
+      "og_image_url": "https://cloud.poche.app/api/storage/34158576-8fc2-4b63-b4aa-1ae0d63d4e93",
+      "recommended_at": "2026-06-12T03:13:47.112000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "shopify",
+        "web-hosting",
+        "developer-experience"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:47.112000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Quick: An internal hosting platform for the AI era (2026) - Shopify",
+      "url": "https://shopify.engineering/quick",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_image_urls": [
+        "https://www.kittl.com/images/og-image.jpg",
+        "https://www.kittl.com/packages/features/website-layouts/features/ai_image_gen.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/ai_vector_gen.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/ai_video_gen.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/creative_flows.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/background_remover.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/image_upscaler.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/vectorizer.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/infinite_canvas.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/teams.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/text_effects.png",
+        "https://www.kittl.com/packages/features/website-layouts/features/video_gen_banner.jpg"
+      ],
+      "article_title_extracted": "Kittl | The AI-First Design Platform for Creators",
+      "category": "Design",
+      "created_at": "2026-06-12T02:59:05.429427Z",
+      "description": "Kittl is the AI design platform built for creativity. Create with top image gen models, pro editing tools, mockups, and curated assets — free to start.",
+      "domain": "www.kittl.com",
+      "embed_type": "",
+      "id": "k171sev6vkw7b14n4g07c07m3d88g1mc",
+      "og_image_url": "https://www.kittl.com/images/og-image.jpg",
+      "recommended_at": "2026-06-12T03:13:45.555000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "graphic-design",
+        "ai-tools",
+        "creative-software"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:45.555000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Kittl | The AI-First Design Platform for Creators",
+      "url": "https://www.kittl.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://px.ads.linkedin.com/collect/?pid=8299004&fmt=gif",
+        "https://framerusercontent.com/assets/Qpa8MaodJS3HfImfsRKLZ9UWvpE.png",
+        "https://framerusercontent.com/images/p1gZmjZGlQNMa9EPWiJPnJwehx8.png?width=2560&height=2232",
+        "https://framerusercontent.com/images/HhpgFar7FikwBghx3Dwvz6mj2XU.png?width=1280&height=1116",
+        "https://framerusercontent.com/images/cJd2lJhF3DMy7ebeB89nL1qZJQ.png?width=369&height=372"
+      ],
+      "article_text": "Paste SVG Paste SVG NEWS Careers REQUEST A DEMO Paste SVG Paste SVG REQUEST A DEMO [LABS] Where multimodal reasoning is built. Where multimodal reasoning is built. Reka Labs is our core research engine — developing world language action models and the foundational science behind the next generation of multimodal AI. Reka Labs is our core research engine — developing world language action models and the foundational science behind the next generation of multimodal AI. New · PhysicalRealismBench-U PhysicalRealismBench-U: Attributable Physical Realism Evaluation for Video World Models Reka Research · June 2026 · Track-U: Physical Understanding We've been quietly working on something that's been bugging us for a while. We asked frontier VLMs to detect basic physics violations in synthetic video — objects vanishing, passing through walls, floating without support, etc. We've been quietly working on something that's been bugging us for a while. We asked frontier VLMs to detect basic physics violations in synthetic video — objects vanishing, passing through walls, floating without support, etc. Read the blog post → View leaderboard Dataset & eval pipeline [MODELS] From the lab to the edge. From the lab to the edge. VIEW REKA EDGE → Open weights 7B Vision Language Model Reka Edge Frontier-level visual intelligence, optimised for deployment. The fastest VLM in the 7B–8B class — built for real-world physical AI systems that can't wait for the cloud. 2.4× faster avg. latency 7B total parameters 64 tokens per image tile HF + vLLM easy deployment Run locally → Use via API Built for real-world edge use cases Built for real-world edge use cases Robotics & Physical AI Sub-second spatial intelligence for autonomous robots — tool localisation, bounding boxes, and agentic motor control at the edge. Sub-second latency Bounding box grounding Agentic tool use Automotive & In-cabin AI Privacy-first multimodal cabin agents running entirely offline on existing vehicle SoCs — no cloud roundtrip. Offline-first Multi-camera ADAS integration AR Wearables & Field AI Hands-free visual Q&A for frontline workers in remote locations — 64 tokens per image tile preserves battery and device thermals. Thermal-efficient ffline visual Q&A HUD integration Real-time video & media Content highlight generation, surveillance, and drone-based object detection — all at the edge without infrastructure overhead. Video understanding Object detection Drone applications [NEWS] Latest from the lab Latest from the lab All posts → Research & Insights Adding Reka Vision Without Replacing VMS: What Actually Works May 15, 2026 Research & Insights Adding Reka Vision Without Replacing VMS: What Actually Works May 15, 2026 Announcements Switch Models, Zero Code Changes: Reka Edge Now Available on OpenRouter Apr 14, 2026 Announcements Switch Models, Zero Code Changes: Reka Edge Now Available on OpenRouter Apr 14, 2026 Start building with our research. Start building with our research. Start building with our research. Full API reference, model cards, quickstart guides, and integration examples — everything you need to deploy Reka models in your stack. Reka Edge Read the docs → Request a demo ECOSYSTEM Vision Labs Infer Claru Resources News Documentation Company Careers Trust Center Help and Support Follow our socials ©2026 REKA. ALL RIGHTS RESERVED. Term and Conditions Privacy and Security ECOSYSTEM Vision Labs Infer Claru Resources News Documentation Company Careers Trust Center Help and Support Follow our socials ©2026 REKA. ALL RIGHTS RESERVED. Term and Conditions Privacy and Security ECOSYSTEM Vision Labs Infer Claru Resources News Documentation Company Careers Trust Center Help and Support Follow our socials ©2026 REKA. ALL RIGHTS RESERVED. Term and Conditions Privacy and Security",
+      "article_title_extracted": "Reka Labs | Where Multimodal Reasoning Is Built",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-12T02:59:25.426882Z",
+      "description": "Explore Reka Labs research, edge intelligence, news and the team building multimodal AI systems for the real world.",
+      "domain": "reka.ai",
+      "embed_type": "",
+      "id": "k17bp4ewt1zw90fcj0yhhwbem988hk0h",
+      "og_image_url": "https://framerusercontent.com/assets/Qpa8MaodJS3HfImfsRKLZ9UWvpE.png",
+      "recommended_at": "2026-06-12T03:13:43.562000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "multimodal-ai",
+        "artificial-intelligence",
+        "machine-learning"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:43.562000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Reka Labs | Where Multimodal Reasoning Is Built",
+      "url": "https://reka.ai/labs",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_image_urls": [
+        "https://poetic.com/og.jpg",
+        "https://poetic.com/_next/static/media/dark-bg.1wq0vbqyhh7zj.png",
+        "https://poetic.com/_next/static/media/inner1.0xroptd_g97u9.png",
+        "https://poetic.com/_next/static/media/inner2.1995wchr2e8oj.png",
+        "https://poetic.com/_next/static/media/inner3.2k0eujwx99d4t.png",
+        "https://poetic.com/_next/static/media/inner-chime.2oaa--quqfy7r.png",
+        "https://poetic.com/_next/static/media/chime-logo.0u5jajqlkfs6m.svg",
+        "https://poetic.com/_next/static/media/background.0-hs7l-3m4_i6.png",
+        "https://poetic.com/_next/static/media/card-bg.1wq0vbqyhh7zj.png",
+        "https://poetic.com/_next/static/media/accent.3dqia-oy37pkx.png",
+        "https://poetic.com/_next/static/media/avatar-aig.2fknrx0jq8uj5.png",
+        "https://poetic.com/_next/static/media/avatar-sofi.0hs-5zfekdlmt.png"
+      ],
+      "article_title_extracted": "Poetic — Turn your business into software",
+      "category": "Tools",
+      "created_at": "2026-06-12T02:59:52.770342Z",
+      "description": "Poetic is AI that learns your rules and follows them every time, handling end-to-end processes and expanding the breadth and depth of what you can automate.",
+      "domain": "poetic.com",
+      "embed_type": "",
+      "id": "k17dapkvhyrd3vdtw7rdzd21fn88ggbh",
+      "og_image_url": "https://poetic.com/og.jpg",
+      "recommended_at": "2026-06-12T03:13:42.229000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-automation",
+        "business-software",
+        "workflow-optimization"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-12T03:13:42.229000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Poetic — Turn your business into software",
+      "url": "https://poetic.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -2235,7 +2502,7 @@
       "x_status_id": "2062583885607862639"
     },
     {
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_image_urls": [
         "https://mainframe.app/og.jpg",
         "https://mainframe.app/landing-wallpaper.jpg",
@@ -2398,7 +2665,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_title_extracted": "we were online",
       "category": "Tools",
       "created_at": "2026-06-05T02:29:18.810937Z",
@@ -4366,7 +4633,7 @@
       "x_status_id": "2060013225006010467"
     },
     {
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_image_urls": [
         "https://circleback.ai/marketing/og/default.png",
         "https://circleback.ai/logos/circleback.svg",
@@ -4415,7 +4682,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2026-05-29T01:57:43.553804Z",
@@ -6732,7 +6999,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_image_urls": [
         "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
         "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
@@ -6818,7 +7085,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-05T05:02:47.802851Z",
+      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
       "article_image_urls": [
         "https://ursula.tonbo.io/og-default.png",
         "https://ursula.tonbo.io/assets/tonbo.png"
@@ -101443,7 +101710,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2127,
+      "count": 2133,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -101479,5 +101746,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-11T22:26:00.127330Z"
+  "updated_at": "2026-06-12T05:19:36.329199Z"
 }
