@@ -117,6 +117,28 @@
       "title": "browse.sh",
       "url": "http://Browse.sh"
     },
+    "http://Glyph.software": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Generate logos, typography, color palettes, UI direction, and brand systems in minutes with Glyph.",
+      "final_url": "https://Glyph.software/",
+      "frameable": false,
+      "image_urls": [
+        "https://glyph.software/og-glyph-v2.png",
+        "https://Glyph.software/_next/image?url=%2Fexample%2Fflow%2Fglyph-flow-ai-preview.png&w=3840&q=75",
+        "https://Glyph.software/_next/image?url=%2Fexample%2Fflow%2Fflow-ai-logo-primary.png&w=3840&q=75",
+        "https://Glyph.software/_next/image?url=%2Fexample%2Fflow%2Fflow-ai-poster-vision.jpg&w=3840&q=75",
+        "https://Glyph.software/_next/image?url=%2Fexample%2Fflow%2Fflow-ai-editorial-cards.jpg&w=3840&q=75",
+        "https://Glyph.software/_next/image?url=%2Fexample%2Fflow%2Fflow-ai-website-preview.jpg&w=3840&q=75",
+        "https://i.pravatar.cc/100?img=11",
+        "https://i.pravatar.cc/100?img=12",
+        "https://i.pravatar.cc/100?img=13"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Glyph AI • Brand Identity Generator for Startups | Logo, Colors & Typography",
+      "url": "http://Glyph.software"
+    },
     "http://Juneoven.com": {
       "content_type": "text/html; charset=utf-8",
       "description": "Looking for the best cooking results? The June Oven is a do-it-all smart convection oven that makes cooking perfectly easy.",
@@ -142,6 +164,31 @@
       "text_excerpt_zh": "",
       "title": "June Oven: 12-in-1 Countertop Convection Oven",
       "url": "http://Juneoven.com"
+    },
+    "http://Read.ai": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Read AI, the fastest growing AI meeting assistant, ever, delivers real-time transcription, smart summaries, and enables AI search and discovery across all your content including meeting, messages, emails, CRM, and documents.",
+      "final_url": "https://www.read.ai/",
+      "frameable": false,
+      "image_urls": [
+        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/Instant_Meeting_Summary.png",
+        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/ReadAILogo_HorizontalLockup_Color_BlackText.svg",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/691c1ae65cea0eadd1172876_chevron-right.svg",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/646fa5b811f45bad4b157ba9_meet_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/65dfc9778c19c23e2b8581f5_teams_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/646fa5bbee40ffc3888e5c88_zoom_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/671bf48a2b6bb0d87ca67749_hubpost_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/671bf4c9a67f586b47949b5e_salesforce_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/691c245cbdae8ddae4eb2c9a_atlassian_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/672aade2e48c63b8c364706b_notion_icon.png",
+        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/68507302ebf1cdee685cd89b_Platform%20Logos.png",
+        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/slack_icon+1.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Meeting Summaries, Transcripts, AI Notetaker & Enterprise Search | read.ai",
+      "url": "http://Read.ai"
     },
     "http://agentsview.io": {
       "content_type": "text/html; charset=utf-8",
@@ -12107,20 +12154,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg"
     },
-    "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg"
-    },
     "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12190,6 +12223,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
+    },
+    "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg"
+    },
+    "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
     },
     "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg": {
       "cleaner_v": 2,
@@ -13509,6 +13570,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Introducing Image-to-Replica",
       "url": "https://www.tavus.io/post/introducing-image-to-replica"
+    },
+    "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Please enable cookies.\n\n# Sorry, you have been blocked\n\n## You are unable to access theinformation.com\n\n## Why have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\n## What can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: **a0b1c653c8356804** •  Your IP:Click to reveal 104.28.152.185 • Performance & security by [Cloudflare](https://www.cloudflare.com/5xx-error-landing)",
+      "title": "",
+      "url": "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p"
     },
     "https://www.ui-skills.com/?ref=sidebar": {
       "content_type": "text/html",
@@ -18274,9 +18349,7 @@
     ],
     "2065336298055880810": [
       "https://x.com/bibryam/status/2065336298055880810",
-      "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff",
-      "https://x.com/bibryam/status/2065445933601435823",
-      "http://x.com/i/article/2065392205439651840"
+      "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff"
     ],
     "2065357584585154776": [
       "https://x.com/Charles77xixi/status/2065357584585154776",
@@ -18296,6 +18369,8 @@
       "https://pbs.twimg.com/media/HKnCY9TakAAjw7x.png",
       "https://pbs.twimg.com/media/HKnCtvabIAAAk1Y.jpg",
       "https://x.com/sumitdotme/status/2065396696650322252",
+      "https://x.com/sumitdotme/status/2065781748315951266",
+      "http://Glyph.software",
       "https://x.com/sumitdotme/status/2065394208899580219",
       "https://x.com/sumitdotme/status/2065700411139571900"
     ],
@@ -18311,13 +18386,13 @@
     "2065412916858241404": [
       "https://x.com/rewind02/status/2065412916858241404",
       "http://x.com/i/article/1806814090246893569",
-      "https://x.com/rewind02/status/2065417575714976108",
-      "https://x.com/rewind02/status/2065427536008409588",
       "https://x.com/rewind02/status/2065414487004307659",
-      "https://x.com/rewind02/status/2065418644037804356",
-      "https://x.com/rewind02/status/2065430987064885433",
+      "https://x.com/rewind02/status/2065427536008409588",
+      "https://x.com/rewind02/status/2065417575714976108",
       "https://x.com/rewind02/status/2065414956699275484",
-      "https://x.com/rewind02/status/2065414543539318974"
+      "https://x.com/rewind02/status/2065430987064885433",
+      "https://x.com/rewind02/status/2065414543539318974",
+      "https://x.com/rewind02/status/2065418644037804356"
     ],
     "2065422950589723016": [
       "https://x.com/jaminball/status/2065422950589723016",
@@ -18373,7 +18448,10 @@
     "2065456339183390743": [
       "https://x.com/ericosiu/status/2065456339183390743",
       "https://pbs.twimg.com/media/HKj0eQAW8AAA5Mx.jpg",
-      "https://x.com/ericosiu/status/2065570531751915645"
+      "https://x.com/ericosiu/status/2065595921447231734",
+      "http://Read.ai",
+      "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg",
+      "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
     ],
     "2065458053764231293": [
       "https://x.com/EXM7777/status/2065458053764231293"
@@ -18409,9 +18487,9 @@
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
       "https://x.com/benaratame/status/2065508155375665435",
-      "https://x.com/benaratame/status/2065556965049172461",
       "https://x.com/benaratame/status/2065490900772343856",
-      "https://x.com/benaratame/status/2065633553472229578"
+      "https://x.com/benaratame/status/2065633553472229578",
+      "https://x.com/benaratame/status/2065556965049172461"
     ],
     "2065488680802816313": [
       "https://x.com/zxjroma/status/2065488680802816313",
@@ -18479,6 +18557,10 @@
     "2065564935006892390": [
       "https://x.com/jediahkatz/status/2065564935006892390"
     ],
+    "2065574894545560062": [
+      "https://x.com/steipete/status/2065574894545560062",
+      "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p"
+    ],
     "2065624323952713834": [
       "https://x.com/wquguru/status/2065624323952713834",
       "http://x.com/i/article/2065613433601695744",
@@ -18489,14 +18571,12 @@
       "http://x.com/i/article/2065615613813288962",
       "https://x.com/AlphaSignalAI/status/2065625253800259770",
       "https://arxiv.org/abs/2605.27276",
-      "https://github.com/hexo-ai/sia",
-      "https://x.com/AlphaSignalAI/status/2065660434380988881",
-      "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg"
+      "https://github.com/hexo-ai/sia"
     ],
     "2065631392139018247": [
       "https://x.com/sriramkri/status/2065631392139018247"
     ]
   },
-  "updated_at": "2026-06-13T12:03:02Z",
+  "updated_at": "2026-06-13T14:26:33Z",
   "window": "recent"
 }
