@@ -165,31 +165,6 @@
       "title": "June Oven: 12-in-1 Countertop Convection Oven",
       "url": "http://Juneoven.com"
     },
-    "http://Read.ai": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Read AI, the fastest growing AI meeting assistant, ever, delivers real-time transcription, smart summaries, and enables AI search and discovery across all your content including meeting, messages, emails, CRM, and documents.",
-      "final_url": "https://www.read.ai/",
-      "frameable": false,
-      "image_urls": [
-        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/Instant_Meeting_Summary.png",
-        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/ReadAILogo_HorizontalLockup_Color_BlackText.svg",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/691c1ae65cea0eadd1172876_chevron-right.svg",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/646fa5b811f45bad4b157ba9_meet_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/65dfc9778c19c23e2b8581f5_teams_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/646fa5bbee40ffc3888e5c88_zoom_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/671bf48a2b6bb0d87ca67749_hubpost_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/671bf4c9a67f586b47949b5e_salesforce_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/691c245cbdae8ddae4eb2c9a_atlassian_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/672aade2e48c63b8c364706b_notion_icon.png",
-        "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/68507302ebf1cdee685cd89b_Platform%20Logos.png",
-        "https://readai-assets-production.s3.us-east-1.amazonaws.com/readai_images/slack_icon+1.svg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Meeting Summaries, Transcripts, AI Notetaker & Enterprise Search | read.ai",
-      "url": "http://Read.ai"
-    },
     "http://agentsview.io": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local-first desktop and web app for AI agent sessions",
@@ -315,6 +290,31 @@
       "text_excerpt_zh": "",
       "title": "BirkeyCo",
       "url": "http://birkey.co"
+    },
+    "http://cohere.com/careers": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Join our talented team to help enterprises adopt AI and realize its full potential through powerful, secure, and scalable solutions.",
+      "final_url": "https://cohere.com/careers",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+        "https://cohere.com/logo.svg",
+        "https://cohere.com/logo_mobile.svg",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/cff6f2e06a77c8723d28e42433a1ba082ef40f2d-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/7a6847b6b18232d047c6774ce002f5de649e5f65-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/56eebe2418cc4ef32114faedafd4dec1e10426d9-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/576565d3fd7ed8946389af7b03c5d38a0b652b4e-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c0c46b9c5008a6c82db0cf1c2acf23bf7dab0044-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/59fde454e2ea82b26d068438e4344a7e8e090ac5-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cohere.com/nav_icon.svg",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/d524475e79935fad07549fff10f04c691e767e8e-882x1120.png?auto=format&fit=max&q=90&w=441",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/8c3833a22c5e74c6e4d36228ce6124ad92391596-400x400.png?auto=format&fit=max&q=90&w=200"
+      ],
+      "kind": "article",
+      "text_excerpt": "North Mini Code. Cohere's first model for developers. Learn more Products Products Workplace Systems North An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command NEW High-performance models for agentic, multimodal, multilingual AI Transcribe NEW A speech recognition model for generating highly accurate audio transcripts Aya A family of multilingual research models covering 70+ languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Models Overview Solutions Industries Technology Financial Services Healthcare and Life Sciences Manufacturing Energy and Utilities Public Sector Telecommunications Model Vault Your dedicated, secure model inference platform — managed by Cohere Security Private Deployments Research Cohere Labs Cohere's research lab that seeks to solve complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program Global MMLU The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Community Discord Events On-Demand Events Merch Store Customer Stories Explore enterprise AI case studies and success stories Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command NEW High-performance models for agentic, multimodal, multilingual AI Transcribe NEW A speech recognition model for generating highly accurate audio transcripts Aya A family of multilingual research models covering 70+ languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Models Overview Solutions Industries Technology Financial Services Healthcare and Life Sciences Manufacturing Energy and Utilities Public Sector Telecommunications Model Vault Your dedicated, secure model inference platform — managed by Cohere Security Private Deployments Research Cohere Labs Cohere's research lab that seeks to solve complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program Global MMLU The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Community Discord Events On-Demand Events Merch Store Customer Stories Explore enterprise AI case studies and success stories Company Company About Careers Newsroom Partners Request a demo Sign in careers Join the mission to scale intelligence View open roles We create cutting-edge foundation models and secure AI solutions for the world’s leading enterprises. Our ambitious team is united by one goal: making AI that solves real-world problems for businesses. Come build with us. + current employees + countries represented global offices OUR VALUES Do work that matters with people who care Momentum We move quickly, trust each other, and push forward with purpose. Openness We embrace inclusivity and welcome diverse perspectives across our teams. Autonomy We support every team member with the flexibility and ownership they need to thrive. OUR BENEFITS What we offer Benefits Six weeks’ of paid vacation Equity / stock options - we are all co-owners. Retirement benefits/contribution Six months of fully paid parental leave, including adoption and surrogacy, for either parent. Coverage for medical, health insurance, vision, travel. This may differ depending on location Additional coverage for accessing mental health providers/services Financial support for fertility/family planning A monthly fitness and wellne",
+      "title": "Careers | Cohere",
+      "url": "http://cohere.com/careers"
     },
     "http://component.gallery": {
       "content_type": "text/html",
@@ -5207,6 +5207,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2065526984328056832"
+    },
+    "http://x.com/i/article/2065547821441265664": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065547821441265664",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKsS-SaW8AAGRGi?format=jpg&name=900x900)](http://x.com/zostaff/article/2065765842709590018/media/2065765715383087104)\n\nPrompt Engineering: How It Actually Works\n\n[![](https://pbs.twimg.com/profile_images/1995248671483482112/dZ1-JoSj_normal.jpg)](http://x.com/zostaff)\n\n[zostaff](http://x.com/zostaff)\n\n[@zostaff](http://x.com/zostaff)\n\n·\n\n4h\n\nFollow\n\nClick to Follow zostaff\n\n1\n\n2\n\n27\n\n[1.1K](http://x.com/zostaff/status/2065765842709590018/analytics)\n\nMost prompt guides are a list of tips at the level of \"be specific\" and \"give context.\" They are not wrong, but they miss the main thing: why those tips work. And without the why, you cannot solve a new problem that was not on the list. You will copy other people's templates without understanding why one works and a similar one does not.\n\nThis article is different. First we break down what happens inside the model when it reads your prompt. Then from that mechanics we derive the principles of thinking. And only then the rules, each of which will be a consequence of the mechanics, not an arbitrary \"do it this way.\" Once you understand the machinery, the rules stop being incantations and become engineering decisions.\n\n## \n\nWhat a prompt actually does\n\nAt every moment a language model predicts the next token from a probability distribution over the whole vocabulary. Without a prompt that distribution is smeared across everything the model saw in training. The request \"write about a dog\" leaves a gigantic space of possible continuations: an encyclopedia entry, a poem, a training manual, anything.\n\nA prompt is the narrowing of that probability space. Each refinement cuts away part of the distribution. \"Write\" narrows it to text. \"Three paragraphs\" narrows the length. \"For a veterinarian\" narrows the register. \"No marketing cliches\" cuts away a whole layer of phrasings. A good prompt is not an incantation, it is a sequence of constraints that compresses the space of possible answers down to the narrow region you need.\n\nFrom this follows the first principle of thinking, and it flips the beginner's approach. You are not persuading the model. You are narrowing its choice. The question is not \"how do I ask more nicely\" but \"which constraints will cut away everything except what I need.\" Every sentence in a prompt should remove uncertainty, not add politeness.\n\n## \n\nHow the model reads context: three facts from the architecture\n\nTo write prompts deliberately, you need to know three things about how a transformer processes text. They are not theoretical, they directly dictate how to lay out a prompt.\n\nFact one: long context works against focus, for two different reasons. The first is purely computational: the attention mechanism relates every token to every other token, which is O(n²), so doubling the length quadruples the work and hits latency and cost. The second matters more for quality: the more irrelevant text in the window, the more the model's attention smears across it, and the harder it is to see what is central. These are not the same thing. Quadratic cost is about price and speed, attention dilution is about accuracy. But the conclusion is shared: extra context is not free, neither in money nor in quality, and a long prompt is almost never better than a short and precise one.\n\nFact two: the middle sinks, and the more so the longer the context. This is a documented effect, lost in the middle. The 2024 study by Liu and coauthors showed a U-shaped curve on long contexts: accuracy is highest when the needed information is at the beginning or the end, and drops by more than 30 percent if it is buried in the middle. An important caveat usually left out: the effect grows with length. On a prompt of a couple of paragraphs it can almost be ignored, on a long context with many documents it is critical. The practical takeaway scales with the",
+      "title": "",
+      "url": "http://x.com/i/article/2065547821441265664"
     },
     "http://x.com/i/article/2065613433601695744": {
       "cleaner_v": 2,
@@ -12224,34 +12237,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
     },
-    "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg"
-    },
-    "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
-    },
     "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12265,6 +12250,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
+    },
+    "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
       "cleaner_v": 2,
@@ -14436,9 +14435,6 @@
       "https://x.com/peduarte/status/2054929230643724482",
       "https://x.com/peduarte/status/2054897907069813093",
       "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
-    ],
-    "2054917554024714309": [
-      "https://x.com/yangyi/status/2054946055016554975"
     ],
     "2054922914458464754": [
       "https://x.com/Yeuoly1/status/2054922914458464754",
@@ -18386,11 +18382,11 @@
     "2065412916858241404": [
       "https://x.com/rewind02/status/2065412916858241404",
       "http://x.com/i/article/1806814090246893569",
-      "https://x.com/rewind02/status/2065414487004307659",
-      "https://x.com/rewind02/status/2065427536008409588",
       "https://x.com/rewind02/status/2065417575714976108",
-      "https://x.com/rewind02/status/2065414956699275484",
+      "https://x.com/rewind02/status/2065427536008409588",
+      "https://x.com/rewind02/status/2065414487004307659",
       "https://x.com/rewind02/status/2065430987064885433",
+      "https://x.com/rewind02/status/2065414956699275484",
       "https://x.com/rewind02/status/2065414543539318974",
       "https://x.com/rewind02/status/2065418644037804356"
     ],
@@ -18448,10 +18444,7 @@
     "2065456339183390743": [
       "https://x.com/ericosiu/status/2065456339183390743",
       "https://pbs.twimg.com/media/HKj0eQAW8AAA5Mx.jpg",
-      "https://x.com/ericosiu/status/2065595921447231734",
-      "http://Read.ai",
-      "https://pbs.twimg.com/media/HKp3eybaUAARA4f.jpg",
-      "https://pbs.twimg.com/media/HKp3kFKaMAABSvJ.png"
+      "https://x.com/ericosiu/status/2065826002039943298"
     ],
     "2065458053764231293": [
       "https://x.com/EXM7777/status/2065458053764231293"
@@ -18487,9 +18480,9 @@
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
       "https://x.com/benaratame/status/2065508155375665435",
-      "https://x.com/benaratame/status/2065490900772343856",
       "https://x.com/benaratame/status/2065633553472229578",
-      "https://x.com/benaratame/status/2065556965049172461"
+      "https://x.com/benaratame/status/2065556965049172461",
+      "https://x.com/benaratame/status/2065490900772343856"
     ],
     "2065488680802816313": [
       "https://x.com/zxjroma/status/2065488680802816313",
@@ -18575,8 +18568,29 @@
     ],
     "2065631392139018247": [
       "https://x.com/sriramkri/status/2065631392139018247"
+    ],
+    "2065663914663358554": [
+      "https://x.com/tan_maty/status/2065663914663358554",
+      "https://github.com/multica-ai/andrej-karpathy-skills",
+      "https://x.com/tan_maty/status/2065664023157502176",
+      "https://x.com/tan_maty/status/2065789714091978796",
+      "https://x.com/tan_maty/status/2065789773781123540",
+      "https://x.com/tan_maty/status/2065672788631818704"
+    ],
+    "2065760176796246355": [
+      "https://x.com/aidangomez/status/2065760176796246355",
+      "https://x.com/aidangomez/status/2065760183158968813",
+      "http://cohere.com/careers"
+    ],
+    "2065765842709590018": [
+      "https://x.com/zostaff/status/2065765842709590018",
+      "http://x.com/i/article/2065547821441265664"
+    ],
+    "2065773939520119040": [
+      "https://x.com/PrajwalTomar_/status/2065773939520119040",
+      "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     ]
   },
-  "updated_at": "2026-06-13T14:26:33Z",
+  "updated_at": "2026-06-13T16:46:02Z",
   "window": "recent"
 }
