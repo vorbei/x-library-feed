@@ -6138,6 +6138,31 @@
       "title": "Mergeable Containers: Fixing Concurrent Child Creation – Loro",
       "url": "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers"
     },
+    "https://cohere.com/models-overview": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Explore Cohere’s enterprise AI models, from frontier generative models to multilingual and search solutions built for scalable AI applications.",
+      "final_url": "https://cohere.com/models-overview",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/b4a5418ab7062d06c2d4c47923c423a13bc1397f-1200x630.jpg?w=1200&h=630",
+        "https://cohere.com/logo_dark.svg",
+        "https://cohere.com/logo_mobile_dark.svg",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/cff6f2e06a77c8723d28e42433a1ba082ef40f2d-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/7a6847b6b18232d047c6774ce002f5de649e5f65-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/56eebe2418cc4ef32114faedafd4dec1e10426d9-568x200.webp?auto=format&fit=max&q=90&w=284",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/576565d3fd7ed8946389af7b03c5d38a0b652b4e-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c0c46b9c5008a6c82db0cf1c2acf23bf7dab0044-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/59fde454e2ea82b26d068438e4344a7e8e090ac5-576x576.png?auto=format&fit=max&q=100&w=288",
+        "https://cohere.com/nav_icon_dark.svg",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/592faf714826bf1e9e3826e29eb19f58cea53187-2720x1128.png?auto=format&fit=max&q=90&w=1360",
+        "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/181eff045e1a706c3889d161290477d105d6a9b1-736x736.png?auto=format&fit=max&q=90&w=368"
+      ],
+      "kind": "article",
+      "text_excerpt": "North Mini Code. Cohere's first model for developers. Learn more Products Products Workplace Systems North An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command NEW High-performance models for agentic, multimodal, multilingual AI Transcribe NEW A speech recognition model for generating highly accurate audio transcripts Aya A family of multilingual research models covering 70+ languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Models Overview Solutions Industries Technology Financial Services Healthcare and Life Sciences Manufacturing Energy and Utilities Public Sector Telecommunications Model Vault Your dedicated, secure model inference platform — managed by Cohere Security Private Deployments Research Cohere Labs Cohere's research lab that seeks to solve complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program Global MMLU The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Community Discord Events On-Demand Events Merch Store Customer Stories Explore enterprise AI case studies and success stories Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command NEW High-performance models for agentic, multimodal, multilingual AI Transcribe NEW A speech recognition model for generating highly accurate audio transcripts Aya A family of multilingual research models covering 70+ languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Models Overview Solutions Industries Technology Financial Services Healthcare and Life Sciences Manufacturing Energy and Utilities Public Sector Telecommunications Model Vault Your dedicated, secure model inference platform — managed by Cohere Security Private Deployments Research Cohere Labs Cohere's research lab that seeks to solve complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program Global MMLU The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Community Discord Events On-Demand Events Merch Store Customer Stories Explore enterprise AI case studies and success stories Company Company About Careers Newsroom Partners Request a demo Sign in Models Overview Explore our models Tools for generative AI, advanced search, and multilingual capabilities—making independent AI accessible for all. All Models Generative Search Aya All Models All Models Generative Search Aya All Models Generative Search Aya All Models All Models Generative Search Aya Generative Models Frontier language models for complex reasoning, generation, and agentic workflows at enterprise scale. Command A+ NEW Our fastest, most powerful open-source model for high-performance enterprise agents with maximum efficiency. Download weights Ultra-efficient serving Multilingual across 48 languages Tool use and reasoning Apache 2.0 Command A Translate An industry-leading translation model for accurate, context-aware multilingual communication across global customer, content, and localization workflows. Download weights Docs Supports 23 languages Privately deployable Tool use and structured outputs CC-BY-NC-4.0 Command A Vision A multimodal enterprise model designed to extract, interpret, and reason over visual and document-based information within complex business workflows. Download weights",
+      "title": "Enterprise Open Source AI Models | Cohere",
+      "url": "https://cohere.com/models-overview"
+    },
     "https://coss.com/ui": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -18367,8 +18392,8 @@
       "https://x.com/sumitdotme/status/2065396696650322252",
       "https://x.com/sumitdotme/status/2065781748315951266",
       "http://Glyph.software",
-      "https://x.com/sumitdotme/status/2065394208899580219",
-      "https://x.com/sumitdotme/status/2065700411139571900"
+      "https://x.com/sumitdotme/status/2065700411139571900",
+      "https://x.com/sumitdotme/status/2065394208899580219"
     ],
     "2065403846940147866": [
       "https://x.com/n8n_io/status/2065403846940147866",
@@ -18464,8 +18489,7 @@
     ],
     "2065472650042867988": [
       "https://x.com/linear/status/2065472650042867988",
-      "https://linear.app/now/linear-agent-bug-fix",
-      "https://x.com/linear/status/2065618067124858906"
+      "https://linear.app/now/linear-agent-bug-fix"
     ],
     "2065472950233636958": [
       "https://x.com/milesdeutscher/status/2065472950233636958"
@@ -18479,8 +18503,8 @@
     ],
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
-      "https://x.com/benaratame/status/2065508155375665435",
       "https://x.com/benaratame/status/2065633553472229578",
+      "https://x.com/benaratame/status/2065508155375665435",
       "https://x.com/benaratame/status/2065556965049172461",
       "https://x.com/benaratame/status/2065490900772343856"
     ],
@@ -18573,14 +18597,16 @@
       "https://x.com/tan_maty/status/2065663914663358554",
       "https://github.com/multica-ai/andrej-karpathy-skills",
       "https://x.com/tan_maty/status/2065664023157502176",
-      "https://x.com/tan_maty/status/2065789714091978796",
       "https://x.com/tan_maty/status/2065789773781123540",
+      "https://x.com/tan_maty/status/2065789714091978796",
       "https://x.com/tan_maty/status/2065672788631818704"
     ],
     "2065760176796246355": [
       "https://x.com/aidangomez/status/2065760176796246355",
       "https://x.com/aidangomez/status/2065760183158968813",
-      "http://cohere.com/careers"
+      "http://cohere.com/careers",
+      "https://x.com/aidangomez/status/2065844434244194616",
+      "https://cohere.com/models-overview"
     ],
     "2065765842709590018": [
       "https://x.com/zostaff/status/2065765842709590018",
@@ -18591,6 +18617,6 @@
       "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     ]
   },
-  "updated_at": "2026-06-13T16:46:02Z",
+  "updated_at": "2026-06-13T18:44:18Z",
   "window": "recent"
 }
