@@ -88,22 +88,6 @@
       "article_text_zh": "`/goal` 不是一个功能。它是一个原语。  \nHTTP 是一个原语。JSON 是一个原语。`/goal` 正在成为编码代理的一个原语。  \n\n几周前，OpenAI 的 Codex CLI 添加了 `/goal`，作为一种为编码工作者分配任务并定义完成状态的方式。Claude Code 本周也加入了这一功能。  \nHermes Agent，这个我在 Mac Mini 上运行、用于协调编码工作者之间工作的编排器，早已内置了 `/goal`。  \n所以，我现在拥有一个构建者、一个审查者，以及一个编排器，它们都接受相同的指令格式，尽管除此之外它们毫无共同之处。  \n\n如果你只把 `/goal` 看作一个更花哨的提示词，那你就错过了它所带来的改变。  \n\n### `/goal` 实际上是什么  \n\n一个普通的提示词是要求代理给出下一个响应。你阅读返回的内容，判断是否正确，然后推动代理进入下一步。你在每个转弯处进行操控。  \n`/goal` 则颠覆了这一点。你写下“完成”的样子，提交一次，然后代理就会朝着这个目标努力，直到达成。这是一个真实的例子：  \n\n```\n/goal 构建一个天气应用，使用 React 前端和 Node.js 后端。  \n当 `npm test` 通过、`npm run build` 通过，并且应用在 `localhost:3000` 上显示当前天气时，即视为完成。  \n不要修改任何现有文件。将所有新文件放在 `weather-app/` 目录下。  \n```\n\n这个目标会一直保持活跃，直到它被达成、暂停、阻塞、清除，或者预算耗尽。  \n\n这与在普通的单次命令中放入“goal”这个词是不同的。如果你写 `codex exec 'goal: build the app'`，那仍然是一个带有标签的提示词。真正的原语存在于一个交互式的工作会话中。你启动 CLI，提交 `/goal`，然后走开。  \n\n这种转变是从“提示”（你驱动）到“指派”（代理朝着你定义的目标自主驱动）的转变。  \n\n### 当前支持 `/goal` 的三种工具  \n\n接受 `/goal` 的三种工具并非同一类事物，因此有必要具体说明。  \n\n**Codex** 是 OpenAI 的编码 CLI。擅长实现，尤其是在给出清晰规范时。`/goal` 就是你提供规范的方式。  \n**Claude Code** 是 Anthropic 的编码 CLI。擅长相反的事情：找出看起来正确的代码中存在的问题。规范符合性、安全问题、错误状态、安全漏洞。`/goal` 就是你用它来指向代码并要求审查的方式。  \n**Hermes Agent** 则是一种完全不同的工具。它不是一个编码工作者，而是一个编排器，用于协调像上述两者这样的编码工作者之间的工作。`/goal` 是 Hermes 将任务移交给适合该工作的工具的方式，也是我首先告诉 Hermes 我想要什么的方式。  \n\n重要的不是它们中的某一个发布了 `/goal`。而是三个不同的团队汇聚到了同一个原语上，而这种汇聚使得将它们组合起来成为可能。  \n\n### 设置环境  \n\n我第一次需要在运行 Hermes 的 Mac Mini 上安装 Codex 和 Claude Code 时，并没有手动安装。我给 Hermes 发了一条消息，要求它安装两者并登录我的账号。它处理了剩下的一切。  \n\n这就是现在的工作流程。你不再需要输入安装命令。设置本身只是另一个目标。  \n\n如果你还没有运行编排器，Codex 和 Claude Code 的安装页面很容易遵循。但一旦你有了编排器，就不应该再手动设置任何其他工具。拥有编排器的意义在于，机械性的工作不再属于你。  \n\n### Hermes 在 `/goal` 之上增加了什么  \n\n一个原始的 `/goal` 本身很有用。但它给你留下了一个协调问题。  \n\n如果 Codex 在一个终端中运行，而 Claude Code 在另一个终端中运行，你必须记住哪个进程在做什么。你必须检查日志。你必须手动将审查结果从一个工具传递给另一个工具。  \n\nHermes 将这些零散的运行转变为一个工作流：  \n\n1.  你给 Hermes 发消息（在我的情况下，是通过手机上的 Telegram）  \n2.  Hermes 在看板（Kanban board）上创建目标卡片  \n3.  Hermes 为每张卡片选择合适的工人  \n4.  工人在后台运行目标  \n5.  卡片存储进程 ID、PID、仓库和完成标准  \n6.  当构建准备就绪时，Hermes 将仓库交给审查者  \n7.  如果审查阻塞，Hermes 将发现的问题作为修复目标发回  \n8.  Hermes 通过检查文件系统、测试、构建和 git 状态来验证最终输出  \n\n这个看板就是当 `/goal` 之上有一个编排器时，它变成的样子。每个目标都有一张卡片，每张卡片都有一个状态，每次交接都留下一条轨迹。你不再需要在终端中搜寻，而是在手机上看着工作在看板的列之间移动。  \n\n### 三个角色  \n\n工具会变。角色不会。  \n\n*   **编排器**：拥有控制循环。任务分解、工人选择、看板卡片、后台进程、依赖关系、最终验证、面向用户的摘要。在我的设置中，就是 Hermes。  \n*   **构建者**：接收规范并生成可工作的代码。实现是这个角色要解决的瓶颈。Codex 在这方面通常很强。  \n*   **审查者**：阅读构建者产生的内容，并找出其中的问题。正确性是瓶颈。Claude Code 在这方面通常很强。  \n\n### 一次真实的端到端运行  \n\n我给 Hermes Agent 设定了一个目标来做这件事：  \n\n```\n/goal 构建一个简单的待办事项应用，使用 React 前端和 Express 后端。  \n当 `npm test` 通过、`npm run build` 通过，并且应用在 `localhost:3000` 上运行时，即视为完成。  \n使用模拟模式，这样就不需要真正的数据库。  \n将所有代码放在 `todo-app/` 目录下。  \n```\n\nHermes 将这个请求分解成了六张卡片。  \n\n*   **卡片 1：规范**。Hermes 自己编写了 `SPEC.md`，捕获了技术栈、仓库路径、只读约束、模拟模式要求、测试和验证命令。由 PM 角色拥有。  \n*   **卡片 2：Codex 构建**。Codex 针对 `SPEC.md` 运行了 `/goal`。它创建了项目文件，实现了 UI 和后端，添加了测试，并使应用达到了通过状态。大约 15 分钟。完成后，`npm test` 通过，`npm run build` 通过，`git status` 只显示相关的新文件。  \n*   **卡片 3：Claude Code 审查**。Claude Code 运行 `/goal` 来审查 Codex 构建的内容。检查了规范符合性、只读安全性、API 密钥处理、错误状态、测试、UI 实用性、错误和安全问题。结果：通过，无阻塞问题。  \n*   **卡片 4：Codex 修复循环**。已跳过，因为审查通过了。这张卡片在跳过时仍然重要。它表明 Hermes 可以对条件性工作进行建模。如果 Claude Code 阻塞了，Hermes 会将发现的问题作为新的 `/goal` 交回给 Codex。  \n*   **卡片 5：Claude Code 最终验证**。出于同样的原因跳过。  \n*   **卡片 6：Hermes 最终摘要**。可工作的应用位于本地路径，UI 和 API 均在模拟模式下验证通过。Codex 使用 `/goal` 构建了它。Claude Code 使用 `/goal` 审查了它并返回了“通过”。  \n\n所有这些都来自一条消息。三个不同的工具完成了实际工作，但我只与 Hermes 交流过。  \n\n### 验证规则  \n\nHermes 从不信任 Codex 的自我报告。在 Codex 标记构建完成后，Hermes 自己运行了命令：  \n\n```\ncd /path/to/todo-app  \nnpm test  \nnpm run build  \n```\n\n验证器使得 `/goal` 成为一个契约，而不是一个承诺。不要相信工人最终的自我报告。要相信验证器。  \n\n编码代理很自信。它们会告诉你构建通过了，而实际上构建从未运行过。它们会告诉你测试通过了，而实际上它们编写的测试从未执行过。验证器弥合了这种差距。  \n\n没有验证，`/goal` 只是一个更花哨的提示词。有了验证，它就变成了一个契约。  \n\n### 运行多个目标  \n\n你可以并行运行多个 `/goal`，但不能不经思考就让多个编码工作者指向同一个文件。  \n\n我的默认设置是每个仓库一个主要的构建者。如果我需要并行性，我会在清晰的边界上添加它。不同的仓库、不同的分支、git 工作树、独立的包、文档与代码、测试与实现。任何两个工人不会互相干扰的地方。  \n\n糟糕的模式是三个工人都在编辑同一个仓库中的同一个文件。你会遇到冲突、部分覆盖，以及一个工人默默地撤销另一个工人的工作。  \n\n更好的模式是任何给定文件一次只有一个写入者。构建者写入，审查者只读取，修复目标的范围仅限于修复。或者让三个构建者在三个工作树中针对三种竞争方案进行构建，然后让编排器选择最好的一个。  \n\n看板使这变得实用。没有它，并行的后台工人就会变成终端混乱。  \n\n### 对我来说改变了什么  \n\n这里有用的框架不是“我可以在后台运行代理”。  \n而是一条消息变成了跨越三种不同编码工具的流水线，而我看着整个过程在一个看板上移动。  \n\n你不再坐在终端前等待一个代理完成，而是开始管理一个具有可见状态的工作队列。  \n\n如果 Codex 和 Claude Code 各自发明了自己的任务交接格式，那么没有编排器能够在它们之间路由。看板令人印象深刻，但原语使看板更加有用。  \n\n工人可以改变，但原语保持不变。下一个采用 `/goal` 的编码工具将加入这个流水线，而我无需改变任何东西。我只需将工作路由给它。  \n\n这就是好的原语所做的。  \n\n---\n\n想要了解更多关于 Hermes、OpenClaw、Claude Code、Codex 以及其他 7x24 小时代理团队的酷炫技巧和有趣想法。  \n关注 → @Saboo_Shubham_",
       "article_text_zh_hash": "3f58aa886ce5f4db",
       "id": "2054988166541770782"
-    },
-    {
-      "article_text": "你让 Claude Code 写功能、补测试、格式化文件，最后顺手提交。\n它功能写了，测试也补了大半，格式化跑了两个文件，但偏偏漏了一个。然后它很自然地告诉你：“搞完了。”\n你一看：没提交，格式也没完全对齐。\n但这些问题，其实不该靠你事后检查。在 Claude Code 里，它们都可以配置成自动流程。\n这就是 Hook 存在的理由。\n\nHook 是什么\nClaude Code hooks 是在 Claude 生命周期的固定节点自动执行的 shell 命令。不需要你给 Claude 下任何指令，Hook 就已经跑完了。\nClaude 可能不跑格式化工具。挂在 PostToolUse 上的 Hook 会在每次文件编辑后跑 Prettier。\nClaude 可能忘了通知你。挂在 Notification 上的 Hook 每次 Claude 需要你介入时都会弹窗。\nHook 把行为从 Claude 的判断里抽出来，放到你的项目规则里。代码质量、通知、安全检查。这些最要紧的事应该放在 Hook 里，不是 prompt 里。\nGitButler 的指南：从三个开始：PostToolUse 自动格式化、PreToolUse 拦截危险命令、Stop 桌面通知，覆盖最广，上手最容易。\n\n先看这 5 个生命周期事件\nClaude Code 有 20多个生命周期事件，SessionStart 到 SessionEnd。不用全记。下面 5 个是实际工作中真会用的：\nPostToolUse：Claude 用完工具后触发。自动格式化、跑 linter、记变更日志。\nPreToolUse：Claude 调工具之前触发，可以拦截。保护敏感文件（.env、package-lock.json）、阻止危险命令、在 Claude 写任何东西之前卡一刀。\nNotification：Claude 需要你关注时触发。弹桌面通知，你不用盯着终端，该干嘛干嘛。\nStop：Claude 回复结束时触发。跑测试、跑 CI、自动提交——Claude 说「搞完了」之后自动执行。\nSessionStart：会话启动或恢复时触发。压缩（compaction）之后重新灌上下文，或者加载环境相关的提醒。\n剩下事件（SubagentStart、WorktreeCreate、InstructionsLoaded 等）给更复杂的流程。先从上面 5 个上手。\n \n\n三种值得用的 Hook type\n除了标准的 shell 命令 Hook（\"type\": \"command\"），还有三种：\nPrompt Hook（\"type\": \"prompt\"）把 Hook 的输入丢给 Claude 模型（默认用 Haiku）做判断，返回是/否。适合需要模型理解的场景，比如在 Claude 停止前检查是不是所有任务都完成了：\n \n比写正则强。\nAgent Hook（\"type\": \"agent\"）起一个子代理，能读文件、搜代码、跑工具，最多 50 轮。适合需要对照实际代码状态做判断的情况——比如 Claude 停之前确认测试确实过了。\nHTTP Hook（\"type\": \"http\"）把事件数据 POST 到 URL，不跑 shell。适合团队审计日志、共享通知服务、webhook 集成。\n多数场景 \"type\": \"command\" 够用。\n\n怎么配 Hook\nHook 配置放在三个位置之一：\n \n结构都一样：\n \nMatcher 是正则，过滤触发条件。在 PostToolUse 和 PreToolUse 里匹配工具名称：\"Edit|Write\" 在文件编辑后触发，\"Bash\" 在 shell 命令后触发，\"mcp__github_.*\" 在任意 GitHub MCP 工具调用后触发。\n最简单的方式是用 /hooks 交互菜单。在 Claude Code 里敲 /hooks，选事件、设 matcher、填命令，不用手写 JSON。加了就生效。\n\n立即能配好的 5 个 Hook\n1. Claude 需要你时弹通知\n别盯终端了。每次 Claude 等你输入——权限确认、空闲等待、任何需要你介入的时刻——自动弹：\n \n放 ~/.claude/settings.json。这个要全局生效。\n2. Claude 碰过的文件自动格式化\n每次 Edit 或 Write 之后跑 Prettier。Claude 逐文件改代码导致的格式不一致，一劳永逸：\n \n需要 jq 做 JSON 解析，macOS 上安装\n \n放项目的 .claude/settings.json 并提交。这是团队规范。\n3. 不让 Claude 碰受保护文件\n拦住 .env、package-lock.json、.git/。被拦后 Claude 会收到反馈说明原因：\n \nchmod +x .claude/hooks/protect-files.sh，然后注册：\n \n4. 压缩后把上下文填回去\n上下文窗口满了，Claude 会压缩对话总结。有时候重要细节被丢掉了。这个 Hook 在每次压缩后触发，提醒 Claude 最核心的事：\n \necho 换成动态命令也行：git log --oneline -5 看最近提交，或 cat .claude/sprint-context.md 加载独立上下文文件。\n5. Git 提交强制规范\nClaude 有时候按自己喜好写 commit message——type 前缀不对、用了句子大小写、末尾拖个句号。这个 Hook 在提交落地前拦一道：\n \n这是 Prompt Hook——不写 shell 脚本，不写正则，让 Haiku 模型读命令、对照你的规范判断，直接返回结果。\n放 ~/.claude/settings.json，所有项目生效。\n\n退出码怎么用\nHook 脚本通过三个通道和 Claude Code 通信：\n \nPreToolUse Hook 真正的威力就靠这个退出码体系：你的脚本读到 Claude 即将执行的操作，对照规则判断，要么放行，要么返回具体原因。\n \n三步上手\n第一步：全局加通知 Hook\n打开 ~/.claude/settings.json，贴上面 macOS 通知的配置。最实用、零风险，纯附加行为，不拦截任何东西。让 Claude 做一件会触发权限确认的事，看看弹没弹。\n第二步：当前项目加 Prettier 格式化\n在项目根目录打开 .claude/settings.json（没有就新建），加 PostToolUse 格式化 Hook。没装 jq 先装。让 Claude 改个文件，确认自动格式化了。\n第三步：打开 /hooks 翻一翻\n交互菜单列出全部 事件和说明。想想你的工作流里还有哪些可以自动化。Stop 事件（Claude 完成后跑测试）和 PreToolUse（拦截特定模式）是下一个选择。\n\nHook 的使用总结\n没有 Hook 时，你可能需要结束后追问和检查：格式化做了吗？测试跑了吗？代码提交了吗？\n配置 Hook 之后，这些问题解决。格式化一定会执行，测试一定会运行，通知一定会弹出。它们不再依赖 Claude 是否记得、是否理解、是否照做，而是变成项目环境本身的默认行为。\n不要把关键流程寄托在 prompt 约束上。应通过环境机制强制执行关键动作，确保它们在每次运行中稳定执行。",
-      "id": "2054457804057100405"
-    },
-    {
-      "article_text": "In 1865, an English economist named William Stanley Jevons published a book that almost no one reads anymore. It was called The Coal Question, and it argued that Britain was about to ruin itself. The argument turned on a paradox so counterintuitive that Jevons spent most of the book establishing it was real before he allowed himself to draw conclusions from it.\nThe puzzle was this: James Watt’s improved steam engine, patented in 1769 and refined for decades after, was by design a more efficient machine. It produced more mechanical work from less coal. Every reasonable observer predicted that Britain would consume less coal as Watt’s engines spread. The math was airtight: a given amount of coal now produced more useful energy; therefore, to produce a given amount of useful energy, you needed less coal; therefore, total coal consumption would fall. Jevons looked at the numbers and discovered that the opposite had happened. Between Watt’s patent and the publication of The Coal Question, British coal consumption had risen more than tenfold.\nWhat Jevons saw was that efficiency generates demand. Cheaper steam power produced applications for mechanical work that had been economically impossible at the old prices. Railroads became viable. Iron smelting became cheap enough to industrialize. Ocean shipping was reorganized around coal-fired engines. The savings per engine were real, and they were swamped completely by the proliferation of engines.\nJevons drew a darker conclusion than the one he is now remembered for. He thought Britain would exhaust its coal reserves within a century and lose its industrial supremacy as a result. He was wrong about that, because he could not foresee oil. But the underlying observation, that efficiency in an input produces explosive growth in demand for that input, turned out to be one of the most durable findings in economics. It is now called the Jevons paradox, and it shows up everywhere people study the diffusion of new technology. Cheaper lighting lengthened the working day and lit up the night sky. Cheaper computation built an information economy that now consumes more electricity than most countries. The pattern repeats. When the cost of an input collapses, that input becomes the substrate of a world that could not previously exist.\nWe are about to learn this lesson again. The input this time is knowledge, and the place we are about to learn it first is the Jewish study hall.\nFor most of human history, access to the great Jewish textual traditions was rationed by labor. To read Maimonides in his own twelfth-century Judeo-Arabic, you needed years of training. To trace a legal argument across the Babylonian Talmud, the Jerusalem Talmud, the medieval commentators, and the early modern halakhic authorities, you needed a library most people never set foot in and a lifetime most people never had. Even after the printing press, even after the digitization of nearly the entire corpus on the open-access platform Sefaria, the actual capacity to make these texts speak to you, to ask them a question and receive a real answer, remained the property of a small guild of trained readers. The cost of consulting the tradition was high, and so consultation was rationed.\nLLLms like Yochai and Rav Dicta — along with base models themselves — have collapsed that cost. A teenager in the Israeli desert town of Be’er Sheva with a phone can now ask a question about the meaning of a difficult line in Rashi’s commentary on the Bible and receive, within seconds, an answer that draws on works she has never heard of, in a language she actually speaks, calibrated to her level. The corpus has not changed. The cost of consulting it has fallen by orders of magnitude.\nA reasonable person, watching this happen, might predict that the role of the rabbi, the traditional human interface to the corpus, is about to contract. If anyone can ask the tradition a question, who needs the person who used to answer it? This is the wrong prediction, and Jevons explains why. The cost of consulting Torah is collapsing while the demand for what Torah is supposed to produce stands to explode. When consultation gets cheap, the bottleneck migrates somewhere else. It migrates to a place the tradition has been pointing at for fifteen hundred years and almost nobody, including the rabbinic world itself, has organized its life around.\nThe bottleneck moves to chiddush, a Hebrew word that means, roughly, the production of genuine new insight from inherited material. The English word innovation gives the wrong flavor. So does originality. Chiddush is closer to seeing something true that nobody saw before, in a text that was already there. It is the act of reading that produces, rather than the act of reading that absorbs. The rabbinic tradition has held for a very long time that this act is what Torah study is for, and that without it, the study hall is not really functioning. The Talmud states this directly: a house of study cannot stand without chiddush (Chagigah 3a). By which the tradition means: without something new being seen, what is happening in the room is no longer Torah, however many books are open on the tables.\nIt is worth pausing here to note that the rabbinic tradition was not, in the nineteenth century, sitting around waiting for an English economist to explain to it how human desire interacts with supply.\n\nThe book of Kohelet, known in English as Ecclesiastes, already observed that the eye is not satisfied with seeing, nor the ear filled with hearing (Kohelet 1:8). The Talmud, in Sukkah 52b, sharpens the principle into a structural law: there is a small organ in a person, the Gemara says, which when starved is satisfied and when satisfied is starved. On the same page, the sage Abaye generalizes: the greater a person, the greater his appetite. The early rabbinic anthology Kohelet Rabbah (1:13) gives the principle its proverbial form: a man with a hundred wants two hundred. The eighteenth-century ethical work Mesillat Yesharim, the standard Jewish text on moral psychology, makes the same observation as a developmental claim: indulgence does not satisfy desire, it expands desire’s capacity (chapters 1 and 13). The nineteenth-century commentator Malbim, glossing the book of Proverbs (21:17), says the same of pleasure as such: attachment enlarges want rather than quieting it.\nWhat the tradition was abundance generates further appetite. This is the same observation Jevons made about coal, transposed from industrial input to human desire. Or rather, Jevons’s observation about coal is the same one Kohelet made about the eye, transposed from human desire to industrial input.\nNow we can return to the line from Chagigah 3a: a house of study cannot stand without chiddush (novel insight). The reason a house of study cannot stand without chiddush is precisely what Kohelet identified about the eye and Jevons identified about coal. Abundance generates further appetite. A learner with access to a tradition will be moved, by the structure of desire itself, to want more from it than the tradition has yet given. The only thing capable of meeting that expanded appetite is the production of new insight from inside the tradition.\nFor most of Jewish history, this collapse was avoided through a brutal economic fact. Producing chiddush required so much preparatory labor (reading the text, the parallel texts, the commentaries on the text, the commentaries on the commentaries) that the appetite was, for most learners, suppressed by the impossibility of feeding it properly. The obligation to produce chiddush, which the Talmud frames as universal, was theoretically binding on every learner and practically binding only on the small number of people who could afford the labor. The practical fact ate the theoretical principle for breakfast, and the tradition, with some discomfort, accommodated the discrepancy by treating chiddush as the elite achievement of a few rather than the obligation of all.\nWhat happens when the practical fact changes?\nYou are commanded to produce something new.\nWhen the cost of consulting a corpus falls, two things happen at once. Demand for the corpus increases. More people consult it, more often, about more things. That part is obvious. The less obvious part is that the bottleneck migrates.\nWhen books were expensive, the binding constraint on Torah was access to books. When print loosened that, the constraint became literacy. When literacy spread, the constraint became time. When time pressures eased, the constraint became guidance: someone to tell you which page to open and why it mattered. Each loosened constraint revealed the next.\nAI loosens the constraint of consultation: the friction of finding, translating, and contextualizing relevant sources. The deeper constraint is chiddush itself: the production of genuine new insight from the material now so easily at hand.\nHere Jevons hands off to the French economist Jean-Baptiste Say. Say’s proposition, that supply creates its own demand, was a claim about how new productive capacity reshapes desire. When sewing machines lowered the cost of clothing, people began to imagine wardrobes. When recorded music lowered the cost of hearing a symphony, people discovered that music could accompany every hour of the day. New supply generated demand that had not previously existed because it had not been imaginable.\nCheap consultation of the corpus will do the same to chiddush. When a learner can, in an afternoon, gather every source the medieval commentators cite on a given verse along with their full midrashic and halakhic afterlife, the question that suddenly becomes pressing is what do I see, having seen what they saw? The supply of accessible material generates a demand for synthesis that did not exist when the material was inaccessible. A student who two years ago could spend a semester just locating the relevant texts can now spend that semester actually thinking with them. The chiddush has nowhere to hide.\nFor most of Jewish history a serious learner could honorably say, I would produce chiddush if I could, but I cannot. The corpus is too vast, my time is too short, my teachers are too few. That sentence has expired. The obligation has gone from aspirational to operational.\nThe first objection runs that AI-assisted chiddush is not really chiddush. The model did the work. The human pressed the buttons. To call the output an insight is to debase the word.\nThis objection depends on a particular theory of what chiddush is. If chiddush is invention, the addition of something new to the tradition from outside it, then yes, scaling production cheapens the currency. The rabbinic tradition has always understood chiddush differently. Chiddush is recovery: the surfacing of structure that was always present in the gift but not yet visible.\nThe locus classicus is in the Talmud, tractate Menachot 29b. Moses ascends to heaven and finds God tying ornamental crowns onto the letters of the Torah. He asks why. God tells him that one day, generations hence, a man named Akiva ben Yosef will derive heaps and heaps of laws from each one of those tags. Moses asks to see him. God tells him to turn around, and suddenly Moses is sitting in the eighth row of Akiva’s study hall. He cannot follow the discussion. He does not understand what the students are saying. His strength fails him. Then a student asks Akiva where some particular ruling comes from, and Akiva answers: halakha l’Moshe miSinai, a law given to Moses at Sinai. And Moses, the text says, is settled.\nEverything turns on what settles him. Akiva’s chiddush, which Moses himself could not have produced, traces back to him. The thing Akiva sees was always there, implicit in the gift, waiting for someone with eyes to surface it.\nThis is the rabbinic theory of chiddush in compressed form. The Torah has a structure with depth, and chiddush is the surfacing of structure that was always present but not yet visible. The crowns were tied at Sinai. Akiva became their reader. If this is what chiddush is, the worry about scale dissolves. There is no risk of running out of crowns. The tradition has no upper limit on the structure it contains, because the structure is the surplus of revelation over comprehension. Every generation surfaces what its tools allow it to surface. The early rabbinic sages saw one set of crowns; their medieval successors saw another; each set saw what their methods made visible. There is no reason to think we have reached the end of what is recoverable.\nA second objection runs deeper. Even granting that chiddush is recovery and that AI can lower the cost of the preparatory work, something disordered remains about a world in which insight becomes cheap. A tradition is more than its insights. Cheap chiddush, the worry goes, produces a population of solo learners typing prompts into a chatbot, each generating private surfacings, none of them building anything together. The corpus survives; the people of the book don’t.\nThis is the right worry, and the tradition met it on the same page of the Talmud as the Akiva story. In Bava Metzia 85b, the third-century sage Reish Lakish is marking the burial caves of the great rabbis. He locates them all except for the cave of Rabbi Chiya, which keeps eluding him. He breaks down. Did I not analyze Torah like Chiya? A heavenly voice answers: yes, you analyzed like him. You did not spread like him. Chiya, the voice says, sowed flax. From the flax he made nets. With the nets he trapped deer. He fed the meat to orphans and made parchment from the hides. On the parchment he wrote the five books of Moses. He went to towns with no teachers and taught five children five books and six children six orders of the Mishnah, and told them: until I return, teach each other. In this way, he said, I have made it so that Torah will not be forgotten from Israel.\nReish Lakish was a virtuoso of analysis. Chiya was a builder of rooms. The heavenly voice’s verdict ranks them: peerless analysis without spreading is enough to lose your cave. The rabbi whose work survives is the one who builds the room in which others learn.\nA different Talmudic debate, in Horayot 14a, stages the same tension as institutional politics. The question is which is greater: Sinai, meaning the master of the corpus, the one who has read everything, or oker harim, the uprooter of mountains, the master of original insight who tears the tradition open. The community votes Sinai, with the slogan that everyone needs the master of wheat (a play on the Aramaic for master of the corpus). The academy, in lived practice, gave its presidency to the mountain-uprooter, the third-century sage Rabbah, for twenty-two years. The official answer and the lived answer diverged. We are about to experience that divergence sharply. The wheat is being technologized. The question of who can do something with it is going to dominate everything.\nThere is a small parable in the kabbalistic tradition. A man from the mountains comes down to the city, eats bread for the first time, and asks what it is. He is told it is made from wheat. He returns to his mountain, gathers raw wheat, eats it dry by the handful, and goes home convinced he has tasted what the city tastes. He has eaten the input. He has missed the thing made when the input is ground and kneaded and salted and left to rise and finally exposed to fire. Bread lives only in the baking.\nAI is the new master of wheat. It is unusually capable at producing the relevant source, the right translation, the missing citation. Information was never the goal. A learner who consumes AI-generated wheat by the handful, who asks ChatGPT for the meaning of the weekly Torah portion and stops there, has eaten dry grain and gone home thinking she has tasted Torah. She has tasted the input. The tradition lives in what gets made from it.\nThe vocation of the learner in the age of cheap wheat is to become a baker: to take the now-abundant raw material and turn it into something a human can eat. Chiddush that surfaces structure. Communities that perpetuate the learning. Students who teach each other when the teacher is gone. This is true for the rabbi and it is true for the nineteen-year-old in Be’er Sheva, because the obligation was always universal in principle (Chagigah 3a). The economics restricted it. The economics just changed.\nJevons’ coal built a new England, more dependent on coal than the old one and more capable of using it. Cheap knowledge will build a new Torah world, more dependent on the corpus than the old one and more capable of working it. The question is whether the people inside that world will recognize the work for what it is and pick up the rolling pin.\nI write from my perspective as a rabbi and teacher of Torah, but the arguments I make here well apply to academic knowledge production, too.\n\n\nIf you enjoyed this piece, you might enjoy Alexandria - our great books library with an AI tutor in the margins.",
-      "article_text_zh": "1865年，一位名叫威廉·斯坦利·杰文斯的英国经济学家出版了一本如今几乎无人问津的书。书名为《煤炭问题》，其核心论点是英国即将自毁前程。这一论点建立在一个如此反直觉的悖论之上，以至于杰文斯在得出结论之前，花了全书大部分篇幅来证明这个悖论的真实存在。\n\n这个难题是这样的：詹姆斯·瓦特于1769年获得专利、并在此后数十年间不断改进的蒸汽机，从设计上就是一种更高效的机器。它用更少的煤炭产生了更多的机械功。每一位理性的观察者都预测，随着瓦特蒸汽机的普及，英国的煤炭消耗量将会下降。这个逻辑天衣无缝：一定量的煤炭现在能产生更多有用能量；因此，要产生一定量的有用能量，所需的煤炭就更少；因此，煤炭总消耗量将会下降。杰文斯查看了数据，却发现事实恰恰相反。从瓦特获得专利到《煤炭问题》出版，英国的煤炭消耗量增长了十倍以上。\n\n杰文斯看到的是，效率催生了需求。更便宜的蒸汽动力，使得那些在旧价格下经济上不可行的机械功应用成为可能。铁路变得可行。炼铁成本降低到足以实现工业化。远洋航运围绕燃煤发动机进行了重组。每台发动机节省的成本是真实的，但它们完全被发动机数量的激增所淹没。\n\n杰文斯得出的结论，比他如今被人们记住的那个结论更为悲观。他认为英国将在百年内耗尽煤炭储备，并因此丧失工业霸权。他在这点上错了，因为他无法预见到石油。但那个根本的观察——即某种投入的效率提升会导致对该投入需求的爆炸性增长——被证明是经济学中最持久的发现之一。现在它被称为“杰文斯悖论”，并且出现在人们研究新技术扩散的每一个地方。更便宜的照明延长了工作日，照亮了夜空。更便宜的计算构建了一个信息经济，如今它消耗的电力比大多数国家都多。这个模式不断重复。当一种投入的成本暴跌时，这种投入就成为先前不可能存在的世界的基石。\n\n我们将再次学到这一课。这次的投入是知识，而我们首先将学到这一课的地方，是犹太人的研经堂。\n\n在人类历史的大部分时间里，接触伟大的犹太文本传统是受劳动限制的。要阅读迈蒙尼德用他本人12世纪犹太-阿拉伯语写成的著作，你需要多年的训练。要追溯一个法律论点穿越巴比伦塔木德、耶路撒冷塔木德、中世纪评注家以及早期现代哈拉哈权威，你需要一个大多数人从未踏足过的图书馆，以及一个大多数人从未拥有过的人生。即使在印刷术出现之后，即使在几乎所有文献都数字化并放在开放平台Sefaria上之后，真正让这些文本对你说话、向它们提问并得到真正答案的能力，仍然属于一小群训练有素的读者。咨询传统的成本很高，因此咨询是受限制的。\n\n像Yochai和Rav Dicta这样的LLM——以及基础模型本身——已经使这种成本崩溃。一个住在以色列沙漠小镇贝尔谢巴的青少年，现在可以用手机询问关于拉希《圣经》评注中某句难懂经文含义的问题，并在几秒钟内得到一个答案，这个答案引用了她从未听说过的著作，使用她实际使用的语言，并根据她的水平进行了校准。文献本身没有改变。咨询它的成本已经下降了数个数量级。\n\n一个理性的人看到这种情况，可能会预测拉比——传统上作为人与文献之间接口的角色——的作用将会收缩。如果任何人都可以向传统提问，谁还需要那个过去回答问题的人呢？这是错误的预测，杰文斯解释了原因。咨询妥拉的成本正在崩溃，而妥拉本应产生的需求却即将爆炸。当咨询变得廉价时，瓶颈就转移到了别处。它转移到了一个传统本身已经指向了一千五百年、但几乎没有人——包括拉比世界本身——围绕其组织生活的地方。\n\n瓶颈转移到了“奇杜什”（chiddush），这是一个希伯来语单词，大致意思是：从继承的材料中产生真正的新见解。英语单词“创新”（innovation）味道不对。“原创性”（originality）也不对。“奇杜什”更接近于在已经存在的文本中，看到别人从未见过的真实事物。它是一种产生的阅读行为，而非吸收的阅读行为。拉比传统长期以来一直认为，这种行为才是妥拉学习的目的，没有它，研经堂就无法真正运作。《塔木德》直接陈述了这一点：没有奇杜什，研经堂就无法立足（《哈吉加》3a）。传统的意思是：如果没有看到新东西，房间里发生的事情就不再是妥拉，无论桌子上摊开了多少本书。\n\n值得在此暂停一下，注意到拉比传统在19世纪并没有坐等一位英国经济学家来解释人类欲望如何与供给相互作用。\n\n《科赫雷特书》（英文名《传道书》）已经观察到：眼看，看不饱；耳听，听不足（《传道书》1:8）。《塔木德》在《苏卡》52b中，将这一原则提炼为一条结构性的法则：人身上有一个小器官，当它饥饿时就会满足，当它满足时就会饥饿。在同一页上，贤者阿巴耶概括道：一个人越伟大，他的欲望就越大。早期的拉比文集《科赫雷特·拉巴》（1:13）以谚语形式给出了这一原则：有一百的人想要两百。18世纪的伦理著作《正直之路》（Mesillat Yesharim），作为犹太道德心理学的标准文本，也以发展的观点做出了同样的观察：放纵并不能满足欲望，而是扩展了欲望的能力（第1章和第13章）。19世纪的评注家马尔宾在注释《箴言》（21:17）时，对快乐本身也说了同样的话：依恋会扩大欲望，而不是平息它。\n\n传统所揭示的是：丰裕会催生更大的欲望。这与杰文斯关于煤炭的观察相同，只是从工业投入转到了人类欲望。或者更确切地说，杰文斯关于煤炭的观察，与科赫雷特关于眼睛的观察相同，只是从人类欲望转到了工业投入。\n\n现在我们可以回到《哈吉加》3a的那句话：没有奇杜什（新颖见解），研经堂就无法立足。研经堂无法立足的原因，恰恰就是科赫雷特关于眼睛和杰文斯关于煤炭所识别出的东西。丰裕催生更大的欲望。一个能够接触到传统的学习者，会被欲望本身的结构所驱动，想要从传统中获得比它迄今为止所给予的更多的东西。唯一能够满足这种膨胀欲望的，就是从传统内部产生新的见解。\n\n在犹太历史的大部分时间里，这种崩溃是通过一个残酷的经济事实得以避免的。产生奇杜什需要如此多的预备劳动（阅读文本、平行文本、文本的评注、评注的评注），以至于对于大多数学习者来说，欲望因无法得到适当满足而被压制了。产生奇杜什的义务，在《塔木德》中被设定为普遍性的，理论上对每个学习者都有约束力，但实际上只对少数能够负担得起这种劳动的人有约束力。实际事实轻易地吞噬了理论原则，而传统在有些不适的情况下，通过将奇杜什视为少数人的精英成就而非所有人的义务，来适应这种差异。\n\n当实际事实发生变化时会发生什么？\n\n你被命令去产生一些新的东西。\n\n当咨询文献的成本下降时，两件事会同时发生。对文献的需求增加。更多的人更频繁地咨询它，咨询更多的事情。这部分是显而易见的。不那么显而易见的部分是，瓶颈发生了转移。\n\n当书籍昂贵时，妥拉的约束性因素是获取书籍。当印刷术缓解了这一点，约束变成了识字率。当识字率普及，约束变成了时间。当时间压力减轻，约束变成了指导：有人告诉你该打开哪一页以及为什么它重要。每一个被缓解的约束都揭示了下一个。\n\n人工智能缓解了咨询的约束：查找、翻译和语境化相关来源的摩擦。更深层的约束是奇杜什本身：从现在如此容易获得的材料中产生真正的新见解。\n\n在这里，杰文斯将接力棒交给了法国经济学家让-巴蒂斯特·萨伊。萨伊的命题——供给创造其自身的需求——是关于新的生产能力如何重塑欲望的主张。当缝纫机降低了服装的成本，人们开始想象衣橱。当录制音乐降低了听交响乐的成本，人们发现音乐可以陪伴一天的每一个小时。新的供给产生了以前不存在、因为以前无法想象的需求。\n\n对文献的廉价咨询将对奇杜什产生同样的影响。当一个学习者可以在一个下午收集到中世纪评注家就某一节经文引用的所有来源，以及它们完整的米德拉什和哈拉哈后续发展时，突然变得紧迫的问题是：看到了他们所看到的之后，我看到了什么？可获取材料的供给产生了一种对综合的需求，这种需求在材料不可获取时是不存在的。一个两年前可能花一个学期仅仅为了定位相关文本的学生，现在可以把那个学期真正用来与这些文本一起思考。奇杜什无处可藏。\n\n在犹太历史的大部分时间里，一个认真的学习者可以体面地说：如果我能，我会产生奇杜什，但我不能。文献太浩瀚，我的时间太短，我的老师太少。这句话已经失效了。这项义务已经从理想变成了可操作。\n\n第一个反对意见认为，人工智能辅助的奇杜什不是真正的奇杜什。模型做了工作。人类按了按钮。将输出称为见解是在贬低这个词。\n\n这个反对意见依赖于一个关于奇杜什是什么的特定理论。如果奇杜什是发明，是从外部向传统添加新东西，那么是的，规模化生产会贬低其价值。拉比传统一直以不同的方式理解奇杜什。奇杜什是恢复：浮现出一直存在于礼物中但尚未可见的结构。\n\n经典出处见于《塔木德》的《梅纳霍特》29b。摩西升上天堂，发现上帝正在给《妥拉》字母上装饰性的冠冕。他问为什么。上帝告诉他，在未来的世代，一个名叫阿基瓦·本·约瑟的人将从每一个这样的标记中推导出成堆成堆的律法。摩西请求见他。上帝让他转身，突然间摩西坐在了阿基瓦研经堂的第八排。他跟不上讨论。他不理解学生们在说什么。他的力量衰竭了。然后一个学生问阿基瓦某个具体裁决来自何处，阿基瓦回答：这是西奈山传给摩西的律法。而文本说，摩西安定了下来。\n\n一切的关键在于什么让他安定。阿基瓦的奇杜什，摩西自己都无法产生，却可以追溯到他身上。阿基瓦看到的东西一直都在那里，隐含在礼物之中，等待着有眼睛的人去浮现它。\n\n这是拉比式奇杜什理论的浓缩形式。《妥拉》具有深度的结构，而奇杜什就是浮现出一直存在但尚未可见的结构。冠冕是在西奈山系上的。阿基瓦成为了它们的读者。如果这就是奇杜什，那么关于规模的担忧就消散了。不存在冠冕耗尽的风险。传统对其所包含的结构没有上限，因为结构是启示超越理解的盈余。每一代人都浮现出其工具允许他们浮现的东西。早期的拉比贤者看到了一套冠冕；他们的中世纪后继者看到了另一套；每一套都看到了他们的方法使之可见的东西。没有理由认为我们已经达到了可恢复之物的尽头。\n\n第二个反对意见更为深刻。即使承认奇杜什是恢复，并且人工智能可以降低预备工作的成本，在一个见解变得廉价的世界里，仍然存在某种失序。一个传统不仅仅是它的见解。令人担忧的是，廉价的奇杜什会产生一个由独自学习者组成的群体，他们向聊天机器人输入提示，每个人都在产生私人的浮现，没有人一起构建任何东西。文献幸存了；但“书之民”却没有。\n\n这是正确的担忧，而传统在与阿基瓦故事相同的《塔木德》页面上遇到了它。在《巴瓦·梅齐亚》85b中，三世纪的贤者雷什·拉基什正在标记伟大拉比的墓穴。他找到了所有墓穴，除了拉比希亚的，它总是躲避着他。他崩溃了。难道我没有像希亚那样分析妥拉吗？一个天音回答说：是的，你像他一样分析。但你没有像他那样传播。天音说，希亚种了亚麻。用亚麻他做了网。用网他捕了鹿。他把肉喂给孤儿，用鹿皮做羊皮卷。在羊皮卷上，他写了摩西五经。他去了没有老师的城镇，教五个孩子五卷书，教六个孩子六卷《米示拿》的章节，并告诉他们：在我回来之前，你们互相教导。通过这种方式，他说，我确保了妥拉不会从以色列中被遗忘。\n\n雷什·拉基什是分析的大师。希亚是建造房间的人。天音的裁决对它们进行了排序：没有传播的无与伦比的分析，足以让你失去你的墓穴。其工作得以存续的拉比，是那个建造了他人可以在其中学习的房间的人。\n\n《塔木德》中另一场辩论，在《霍拉约特》14a，将同样的张力表现为制度政治。问题是哪个更伟大：西奈山（指文献大师，读过一切的人），还是移山者（指原创见解的大师，撕裂传统的人）。社区投票给了西奈山，口号是每个人都需要小麦大师（这是对阿拉姆语“文献大师”的文字游戏）。然而在学院的实际实践中，它却将主席职位给了移山者——三世纪的贤者拉巴——长达二十二年。官方答案和实际答案出现了分歧。我们即将尖锐地经历这种分歧。小麦正在被技术化。谁能用它做点什么的问题，将主导一切。\n\n卡巴拉传统中有一个小寓言。一个来自山区的人来到城市，第一次吃到面包，问这是什么。他被告知这是用小麦做的。他回到山上，收集生小麦，干抓一把吃下去，然后回家，确信自己尝到了城市里的味道。他吃了原料。他错过了当原料被研磨、揉捏、加盐、发酵并最终用火烤制后所制成的东西。面包只存在于烘烤之中。\n\n人工智能是新的小麦大师。它在提供相关来源、正确翻译、缺失引文方面异常擅长。信息从来不是目标。一个一把一把地消费人工智能生成的小麦的学习者，一个向ChatGPT询问每周妥拉部分的含义并就此止步的学习者，是吃了干粮然后回家，以为自己尝到了妥拉。她尝到了原料。传统存在于用它制成的东西之中。\n\n在廉价小麦时代，学习者的使命是成为面包师：利用现在丰富的原材料，将其变成人类可以食用的东西。浮现结构的奇杜什。延续学习的社区。当老师离开时互相教导的学生。这对拉比来说是真实的，对贝尔谢巴那个十九岁的年轻人也是真实的，因为这项义务在原则上始终是普遍的（《哈吉加》3a）。经济条件限制了它。经济条件刚刚改变了。\n\n杰文斯的煤炭建立了一个新的英格兰，比旧英格兰更依赖煤炭，也更有能力使用它。廉价的知识将建立一个新的妥拉世界，比旧世界更依赖文献，也更有能力运用它。问题在于，那个世界里面的人是否会认识到这项工作的本质，并拿起擀面杖。\n\n我以拉比和妥拉教师的身份写作，但我在此提出的论点同样适用于学术知识生产。\n\n---\n\n如果你喜欢这篇文章，你可能会喜欢亚历山大图书馆——我们伟大的书籍图书馆，配有页边的人工智能导师。",
-      "article_text_zh_hash": "a0da1c0d7185b0a5",
-      "id": "2054168204658815070"
-    },
-    {
-      "article_text": "Learning this single slash command will completely change how you use AI.\nAnthropic, OpenAI, and other major AI players are all shipping the same feature right now.\nThat's not a coincidence; the /goal command is fundamentally changing how we interact with AI agents in real time.\nBy learning this command, you're essentially activating a 24/7 AI agent that can work on your behalf with zero manual intervention. \nIt's genuinely one of the most powerful AI features that's shipped recently.\nIn this guide, I'll teach you exactly what /goal is, how it works, how to optimize it, & show you some real-world examples to get you started.\nBy the time you're done reading, you'll have a 24/7 mini AI employee that completes any task for you autonomously. \nNote: I'll focus on using /goals in Codex as the primary tool for this article, but many of the principles discussed can be applied to other AI tools, such as Claude Code.\n \nWhat even is /goal?\nIn one line: /goal allows AI agents to work in a \"loop\" to complete tasks without needing permission (like the Ralph loop that went viral months ago). \nExample: You tell Claude Code \"/goal create a landing page,\" and it completes the entire task on your behalf. The research, coding, debugging & so on, and then it returns a final product to you.\nIt's like telling an employee to complete a task and only return when it's done.\nWithout /goal, we are the \"bottleneck,\" as we have to approve, send prompts, tell the agent to continue, and that loop repeats.\n \nWith the introduction of /goal, Claude validates everything on its own and \"closes\" the loop.\n \nThis works because a fast, small model validates whether the conditions are met to proceed to the next step. \n \nHow to use /goals\nUsing /goals is extremely simple.\nYou just type: /goal [your task/goal] inside your AI tool of choice (CLI/desktop), and it actively works towards the new goal you set.\n \nOnce you set your goal, you'll receive confirmation that it was set, and in this case, Codex will begin working toward completion.\nThis works in the Claude Code CLI, Codex CLI, Hermes agent, and now even in the Codex app (as shown above).\nI recommend most non-technical people start with /goal inside the Codex desktop, but if you're setting it up in Codex CLI, follow these steps:\nEnable goals\nCodex desktop → Settings → Configuration and ensure goals = true\n2.    Open Terminal & launch Codex in full-auto mode if you want fewer approval prompts\n \n3.     Start prompting\n \nIf you're using Claude Code, just make sure to launch Claude Code CLI and start prompting for the /goal you want to set (the steps are similar to Codex):\nhttps://code.claude.com/docs/en/goal\n \nKeep in mind: if you run into issues during setup, you can ask Codex/Claude Code for help.\nBuilding effective /goal prompts\nThe difficult part isn't writing the syntax - it's writing good prompts so that your AI tools actually come back to you with the result you want.\nAt the bare bones, your /goal prompts should have three things:\nYour goal: your task/goal in one line\nMeasurable end state: define what done actually looks like\nConstraints: rules and constraints the model must abide by \nPutting these three things together, your /goal prompts should look like this:\n/goal [do the work] until [measurable end state] without [constraints that must hold]\nReal example:\n\"/goal fix every failing test until npm test exits 0 without modifying any file outside the /auth directory.\"\nOf course, you can make your prompts much more detailed by adding context, success criteria, and other details.\nFor complex projects, I recommend following this advanced /goal prompting structure (save this):\n \nAt its core, this is how you use /goal, and it's relatively simple!\n \n/goal examples + prompting examples\nYou can use /goal for a variety of tasks (not just coding).\nThis section should give you some good ideas for what you can use /goal for - specifically in Codex.\nResearch \n\"/goal research everything recent about the new /goal command\"\n \n2.     Visuals \n\"/goal create a cool visual for everything related to the new /goal command.\"\n \n3.     Local Files \n Some cool prompts I experimented with for accessing local files/folders:\n\"/goal Improve the README so a new contributor can install, run, test, and understand the project.\"\n\"/goal Find dead code, unused dependencies, and stale files, then propose what can be safely removed.\"\n \"/goal Turn the current notes and markdown files into a clean one-page summary document.\"\n4.     Coding\n\"/goal Add a dark/light theme toggle to this project, persist the choice in localStorage, update the UI styles to support both themes, and verify it works in the browser.\"\n\"/goal Add a command palette that can search pages/actions and open with Cmd+K.\"\nEssentially, any project or task you have can now be handed to Codex/Claude Code/Hermes for autonomous completion. \n \nPro Tips\nA section on /goal pro tips:\nOnly one /goal can be set at a time - use it wisely \nIn Claude Code, you can see how many tokens the goal is actively taking up, and the progress bar of the task\n/goal shines on long-running work. For a small one-off, a normal prompt is enough.\nPair it with /plan. A nice workflow is /goal → /plan → /goal clear\nUtilize /pause to pause goals, and /goal clear to reset your goals \nDon't be afraid to use /goal for unconventional use cases - you'd do yourself a disservice by only using /goal for coding/technical work\nYou can get the model to set its own /goal (it will likely write better prompts than you anyway)\nProvide a \"checklist\" in your prompts \nGive your agent .md files for tracking\nThis is a good article to read on optimizing /goal inside Codex for those interested:\n \n \nClosing\nI hope you found this /goals quickstart guide valuable.\nIf you did, be sure to follow me @aiedge_ - I post AI articles just like this 2-3x/week!\nIf you enjoy written AI content, feel free to subscribe to my free weekly newsletter.\nhttps://www.aiedgehq.co/\n \n100% free, no spam ever & unsub anytime\nLastly, if you can, please Like/Repost this article so others can find it.💙",
-      "article_text_zh": "学习这一个斜杠命令，将彻底改变你使用AI的方式。\n\nAnthropic、OpenAI 等主流AI公司目前都在推出同一项功能。这并非巧合；`/goal` 命令正在从根本上改变我们实时与AI智能体交互的方式。\n\n学会这个命令，你基本上就激活了一个全天候的AI智能体，它可以在无需人工干预的情况下为你工作。这绝对是近期推出的最强大的AI功能之一。\n\n在本指南中，我将精确讲解 `/goal` 是什么、如何工作、如何优化，并展示一些实际案例，帮助你快速上手。读完本文，你将拥有一个全天候的迷你AI员工，能自主为你完成任何任务。\n\n注意：本文将主要聚焦于在 Codex 中使用 `/goal`，但文中讨论的许多原则也适用于其他AI工具，例如 Claude Code。\n\n**到底什么是 `/goal`？**\n\n一句话概括：`/goal` 允许AI智能体以“循环”模式工作，无需请求许可即可完成任务（类似于几个月前爆火的 Ralph 循环）。\n\n示例：你告诉 Claude Code “`/goal` 创建一个着陆页”，它就会代表你完成整个任务。包括研究、编码、调试等等，然后返回最终成品给你。\n\n这就像告诉一个员工去完成一项任务，完成后才回来汇报。\n\n没有 `/goal` 时，我们就是“瓶颈”，因为我们必须批准、发送提示、告诉智能体继续，然后这个循环不断重复。\n\n有了 `/goal`，Claude 会自行验证所有条件，并“闭合”这个循环。\n\n这之所以有效，是因为一个快速、轻量级的模型会验证条件是否满足，以进入下一步。\n\n**如何使用 `/goal`**\n\n使用 `/goal` 非常简单。\n\n你只需在选择的AI工具（CLI/桌面端）中输入：`/goal [你的任务/目标]`，它就会主动朝着你设定的新目标工作。\n\n一旦你设定了目标，你会收到确认信息，在这种情况下，Codex 将开始朝着完成目标工作。\n\n这在 Claude Code CLI、Codex CLI、Hermes 智能体中有效，现在甚至在 Codex 应用（如上所示）中也有效。\n\n我建议大多数非技术人员从 Codex 桌面端内的 `/goal` 开始，但如果你要在 Codex CLI 中设置，请遵循以下步骤：\n\n1.  **启用目标**：Codex 桌面端 → 设置 → 配置，确保 `goals = true`\n2.  **打开终端**，如果你希望减少批准提示，以全自动模式启动 Codex\n3.  **开始提示**\n\n如果你使用 Claude Code，只需确保启动 Claude Code CLI 并开始提示你想要设置的 `/goal`（步骤与 Codex 类似）：\nhttps://code.claude.com/docs/en/goal\n\n请记住：如果在设置过程中遇到问题，你可以向 Codex/Claude Code 寻求帮助。\n\n**构建有效的 `/goal` 提示**\n\n难点不在于编写语法——而在于编写好的提示，以便你的AI工具能带着你想要的结果回来。\n\n在最基本的层面上，你的 `/goal` 提示应该包含三件事：\n\n*   **你的目标**：用一句话描述你的任务/目标\n*   **可衡量的最终状态**：定义“完成”具体是什么样子\n*   **约束条件**：模型必须遵守的规则和约束\n\n将这三件事结合起来，你的 `/goal` 提示应该如下所示：\n\n`/goal [执行工作] 直到 [可衡量的最终状态] 而不 [必须遵守的约束条件]`\n\n实际示例：\n“`/goal` 修复所有失败的测试，直到 `npm test` 退出码为0，且不修改 `/auth` 目录之外的任何文件。”\n\n当然，你可以通过添加上下文、成功标准和其他细节，让你的提示更加详细。\n\n对于复杂项目，我建议遵循这个高级 `/goal` 提示结构（请保存）：\n\n核心来说，这就是使用 `/goal` 的方法，相对简单！\n\n**`/goal` 示例 + 提示示例**\n\n你可以将 `/goal` 用于各种任务（不仅仅是编码）。本节应该能给你一些关于如何使用 `/goal` 的好点子——特别是在 Codex 中。\n\n1.  **研究**\n    “`/goal` 研究所有关于新的 `/goal` 命令的最新信息。”\n\n2.  **视觉内容**\n    “`/goal` 为所有与新的 `/goal` 命令相关的内容创建一个很酷的视觉图。”\n\n3.  **本地文件**\n    我尝试过的一些很酷的提示，用于访问本地文件/文件夹：\n    *   “`/goal` 改进 README，以便新贡献者可以安装、运行、测试和理解项目。”\n    *   “`/goal` 查找死代码、未使用的依赖项和过时文件，然后提出可以安全移除的内容。”\n    *   “`/goal` 将当前的笔记和 markdown 文件转换成一个干净的一页摘要文档。”\n\n4.  **编码**\n    *   “`/goal` 为此项目添加一个深色/浅色主题切换，将选择持久化到 localStorage，更新UI样式以支持两种主题，并在浏览器中验证其工作。”\n    *   “`/goal` 添加一个命令面板，可以搜索页面/操作，并通过 Cmd+K 打开。”\n\n基本上，你拥有的任何项目或任务现在都可以交给 Codex/Claude Code/Hermes 来自主完成。\n\n**专业技巧**\n\n关于 `/goal` 的专业技巧部分：\n\n*   一次只能设置一个 `/goal` —— 请明智使用\n*   在 Claude Code 中，你可以看到目标当前占用的 token 数量，以及任务的进度条\n*   `/goal` 擅长长时间运行的工作。对于一次性小任务，普通提示就足够了\n*   将其与 `/plan` 配对使用。一个不错的工作流程是 `/goal` → `/plan` → `/goal clear`\n*   利用 `/pause` 暂停目标，使用 `/goal clear` 重置你的目标\n*   不要害怕将 `/goal` 用于非常规用例——如果只将 `/goal` 用于编码/技术工作，那将是一种浪费\n*   你可以让模型自己设定 `/goal`（它写的提示可能比你好）\n*   在你的提示中提供一个“检查清单”\n*   给你的智能体提供 `.md` 文件用于跟踪\n\n对于有兴趣优化 Codex 中 `/goal` 的用户，这是一篇值得一读的好文章：\n\n**结语**\n\n希望这份 `/goal` 快速入门指南对你有价值。\n\n如果觉得有用，请务必关注我 @aiedge_ —— 我每周会发布2-3篇类似的AI文章！\n\n如果你喜欢文字形式的AI内容，欢迎免费订阅我的每周通讯。\nhttps://www.aiedgehq.co/\n\n100%免费，绝无垃圾邮件，可随时退订。\n\n最后，如果方便的话，请点赞/转发这篇文章，以便更多人能看到它。💙",
-      "article_text_zh_hash": "611c21e9f9bbac9b",
-      "id": "2054569766418108797"
     }
   ],
   "linked_content_by_url": {
@@ -918,36 +902,6 @@
       "title": "",
       "url": "http://x.com/i/article/2053986800050524160"
     },
-    "http://x.com/i/article/2054167689036247040": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054167689036247040",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054167689036247040/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIHe0TcW4AE5msr?format=jpg&name=900x900)](http://x.com/i/article/2054167689036247040/ZoharAtkins/article/2054168204658815070/media/2054167895211433985)\n\nWhen Knowledge Is Cheap, Insight Is Everything: Jevons Paradox applied to Torah Learning\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](http://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[Zohar Atkins](http://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[@ZoharAtkins](http://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n·\n\nMay 12\n\nFollow\n\nClick to Follow ZoharAtkins\n\n87\n\n439\n\n2.2K\n\n[1.2M](http://x.com/i/article/2054167689036247040/ZoharAtkins/status/2054168204658815070/analytics)\n\nIn 1865, an English economist named William Stanley Jevons published a book that almost no one reads anymore. It was called The Coal Question, and it argued that Britain was about to ruin itself. The argument turned on a paradox so counterintuitive that Jevons spent most of the book establishing it was real before he allowed himself to draw conclusions from it.\n\nThe puzzle was this: James Watt’s improved steam engine, patented in 1769 and refined for decades after, was by design a more efficient machine. It produced more mechanical work from less coal. Every reasonable observer predicted that Britain would consume less coal as Watt’s engines spread. The math was airtight: a given amount of coal now produced more useful energy; therefore, to produce a given amount of useful energy, you needed less coal; therefore, total coal consumption would fall. Jevons looked at the numbers and discovered that the opposite had happened. Between Watt’s patent and the publication of The Coal Question, British coal consumption had risen more than tenfold.\n\nWhat Jevons saw was that efficiency generates demand. Cheaper steam power produced applications for mechanical work that had been economically impossible at the old prices. Railroads became viable. Iron smelting became cheap enough to industrialize. Ocean shipping was reorganized around coal-fired engines. The savings per engine were real, and they were swamped completely by the proliferation of engines.\n\nJevons drew a darker conclusion than the one he is now remembered for. He thought Britain would exhaust its coal reserves within a century and lose its industrial supremacy as a result. He was wrong about that, because he could not foresee oil. But the underlying observation, that efficiency in an input produces explosive growth in demand for that input, turned out to be one of the most durable findings in economics. It is now called the Jevons paradox, and it shows up everywhere people study the diffusion of new technology. Cheaper lighting lengthened the working day and lit up the night sky. Cheaper computation built an information economy that now consumes more electricity than most countries. The pattern repeats. When the cost of an input collapses, that input becomes the substrate of a world that could not previously exist.\n\nWe are about to learn this lesson again. The input this time is knowledge, and the place we are about to learn it first is the Jewish study hall.\n\nFor most of human history, access to the great Jewish textual traditions was rationed by labor. To read Maimonides in his own twelfth-century Judeo-Arabic, you needed years of training. To trace a legal argument across the Babylonian Talmud, the Jerusalem Talmud, the medieval commentators, and the early modern halakhic authorities, you needed a library most people never set foot in and a lifetime most people never had. Even after the printing press, even after the digitization of nearly the entire corpus on the open-access platform Sefaria, the actual capacity to make these texts speak to you, to ask them a question and receive a real answer, remained the prope",
-      "text_excerpt_zh": "当知识变得廉价，洞察力便是一切：杰文斯悖论在托拉学习中的应用\n\n1865年，一位名叫威廉·斯坦利·杰文斯的英国经济学家出版了一本如今几乎无人问津的书。书名为《煤炭问题》，其核心论点是英国即将自取灭亡。这一论点建立在一个如此反直觉的悖论之上，以至于杰文斯在得出结论之前，花了大量篇幅来证明它的真实性。\n\n这个难题是这样的：詹姆斯·瓦特改进的蒸汽机（于1769年获得专利，并在随后的几十年里不断完善）在设计上是一种更高效的机器。它用更少的煤炭产生了更多的机械功。所有理性的观察者都预测，随着瓦特蒸汽机的普及，英国的煤炭消耗量将会下降。这个逻辑看似无懈可击：一定量的煤炭现在能产生更多有用的能量；因此，要产生一定量的有用能量，所需的煤炭就更少；因此，总的煤炭消耗量将会下降。杰文斯查看了数据，却发现情况恰恰相反。从瓦特获得专利到《煤炭问题》出版之间，英国的煤炭消耗量增长了十倍以上。\n\n杰文斯看到的是，效率催生了需求。更便宜的蒸汽动力使得那些在旧价格下经济上不可行的机械功应用成为可能。铁路变得可行。炼铁成本降低到足以实现工业化。远洋航运围绕燃煤发动机进行了重组。每台发动机节省的燃料是真实的，但这些节省完全被发动机数量的激增所淹没。\n\n杰文斯得出的结论比他如今为人所铭记的那个更为悲观。他认为英国将在百年内耗尽煤炭储备，并因此失去工业霸主地位。他在这点上错了，因为他无法预见到石油。然而，他那个基本的观察——即某种投入的效率提高会导致对该投入需求的爆炸性增长——被证明是经济学中最持久的发现之一。现在这被称为杰文斯悖论，它出现在人们研究新技术扩散的各个领域。更便宜的照明延长了工作日，照亮了夜空。更便宜的计算构建了一个信息经济，如今它消耗的电力超过了大多数国家。这种模式一再重复。当一种投入的成本暴跌时，这种投入便成为了一个此前不可能存在的世界的基础。\n\n我们即将再次学到这一课。这次的投入是知识，而我们最先学到这一课的地方将是犹太人的研经堂。\n\n在人类历史的大部分时间里，接触伟大的犹太文本传统都受到学习劳力的限制。要阅读迈蒙尼德用他12世纪犹太-阿拉伯语写成的原著，你需要多年的训练。要追溯一个法律论点在巴比伦塔木德、耶路撒冷塔木德、中世纪评注家以及早期现代哈拉哈权威中的脉络，你需要一个大多数人从未踏足过的图书馆，以及大多数人从未拥有过的一生。即使在印刷术出现之后，即使在开放平台Sefaria上几乎整个文献库被数字化之后，让这些文本对你说话、向它们提问并得到真正答案的实际能力，仍然是少数人的专属。",
-      "text_excerpt_zh_hash": "d0c2e58d8bfa5827",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2054167689036247040"
-    },
-    "http://x.com/i/article/2054198798197698560": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054198798197698560",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054198798197698560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIIOw7LbkAAkJpP?format=jpg&name=900x900)](http://x.com/i/article/2054198798197698560/vincemask/article/2054457804057100405/media/2054220613716512768)\n\n从 0 开始：用 Hooks 打造自动化 Claude Code 工作流\n\n[![](https://pbs.twimg.com/profile_images/2019106684720013313/Uhz3TgYm_normal.jpg)](http://x.com/i/article/2054198798197698560/vincemask)\n\n[Vince 聊开发](http://x.com/i/article/2054198798197698560/vincemask)\n\n[@vincemask](http://x.com/i/article/2054198798197698560/vincemask)\n\n·\n\nMay 13\n\n·\n\nFollow\n\nClick to Follow vincemask\n\n18\n\n68\n\n295\n\n[51K](http://x.com/i/article/2054198798197698560/vincemask/status/2054457804057100405/analytics)\n\n你让 Claude Code 写功能、补测试、格式化文件，最后顺手提交。\n\n它功能写了，测试也补了大半，格式化跑了两个文件，但偏偏漏了一个。然后它很自然地告诉你：“搞完了。”\n\n你一看：没提交，格式也没完全对齐。\n\n但这些问题，其实不该靠你事后检查。在 Claude Code 里，它们都可以配置成自动流程。\n\n这就是 Hook 存在的理由。\n\n## \n\n  \n## \n\nHook 是什么\n\n[Claude Code hooks](https://code.claude.com/docs/en/hooks-guide)\n\n 是在 Claude 生命周期的固定节点自动执行的 shell 命令。不需要你给 Claude 下任何指令，Hook 就已经跑完了。\n\nClaude 可能不跑格式化工具。挂在 PostToolUse 上的 Hook 会在每次文件编辑后跑 Prettier。\n\nClaude 可能忘了通知你。挂在 Notification 上的 Hook 每次 Claude 需要你介入时都会弹窗。\n\nHook 把行为从 Claude 的判断里抽出来，放到你的项目规则里。代码质量、通知、安全检查。这些最要紧的事应该放在 Hook 里，不是 prompt 里。\n\n[GitButler 的指南](https://blog.gitbutler.com/automate-your-ai-workflows-with-claude-code-hooks)\n\n：从三个开始：PostToolUse 自动格式化、PreToolUse 拦截危险命令、Stop 桌面通知，覆盖最广，上手最容易。\n\n## \n\n  \n## \n\n先看这 5 个生命周期事件\n\nClaude Code 有 \n\n[20多个生命周期事件](https://code.claude.com/docs/en/hooks-guide)\n\n，SessionStart 到 SessionEnd。不用全记。下面 5 个是实际工作中真会用的：\n\nPostToolUse：Claude 用完工具后触发。自动格式化、跑 linter、记变更日志。\n\nPreToolUse：Claude 调工具之前触发，可以拦截。保护敏感文件（.env、package-lock.json）、阻止危险命令、在 Claude 写任何东西之前卡一刀。\n\nNotification：Claude 需要你关注时触发。弹桌面通知，你不用盯着终端，该干嘛干嘛。\n\nStop：Claude 回复结束时触发。跑测试、跑 CI、自动提交——Claude 说「搞完了」之后自动执行。\n\nSessionStart：会话启动或恢复时触发。压缩（compaction）之后重新灌上下文，或者加载环境相关的提醒。\n\n剩下事件（SubagentStart、WorktreeCreate、InstructionsLoaded 等）给更复杂的流程。先从上面 5 个上手。\n\n[![Image](https://pbs.twimg.com/media/HIH7U5hbUAAFQmp?format=jpg&name=small)](http://x.com/i/article/2054198798197698560/vincemask/article/2054457804057100405/media/2054199241514635264)\n\n## \n\n  \n## \n\n三种值得用的 Hook type\n\n除了标准的 shell 命令 Hook（\"type\": \"command\"），还有三种：\n\nPrompt Hook（\"type\": \"prompt\"）把 Hook 的输入丢给 Claude 模型（默认用 Haiku）做判断，返回是/否。适合需要模型理解的场景，比如在 Claude 停止前检查是不是所有任务都完成了：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"prompt\",\n            \"prompt\": \"Check if all tasks are complete. If not, respond with {\\\"ok\\\": false, \\\"reason\\\": \\\"what remains to be done\\\"}.\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```\n\n比写正则强。\n\nAgent Hook（\"type\": \"agent\"）起一个子代理，能读文件、搜代码、跑工具，最多 50 轮。适合需要对照实际代码状态做判断的情况——比如 Claude 停之前确认测试确实过了。\n\nHTTP Hook（\"type\": \"http\"）把事件数据 POST 到 URL，不跑 shell。适合团队审计日志、共享通知服务、webhook 集成。\n\n多数场景 \"type\": \"command\" 够用。\n\n## \n\n  \n## \n\n怎么配 Hook\n\nHook 配置放在三个位置之一：\n\nplaintext\n\n```plaintext\n~/.claude/settings.json 所有项目\n.claude/settings.json 当前项目（提交到仓库，团队共享）\n.claude/settings.local.json 当前项目，不提交\n\n```\n\n结构都一样：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"EventName\": [\n      {\n        \"matcher\": \"ToolName|OtherTool\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"your shell command here\"\n          }\n        ]\n      }\n    ]\n  }\n}\n\n```\n\nMatcher 是正则，过滤触发条件。在 PostToolUse 和 PreToolUse 里匹配工具名称：\"Edit|Write\" 在文件编辑后触发，\"Bash\" 在 shell 命令后触发，\"mcp\\_\\_github\\_.\\*\" 在任意 GitHub MCP 工具调用后触发。\n\n最简单的方式是用 /hooks 交互菜单。在 Claude Code 里敲 /hooks，选事件、设 matcher、填命令，不用手写 JSON。加了就生效。\n\n## \n\n  \n## \n\n立即能配好的 5 个 Hook\n\n1\\. Claude 需要你时弹通知\n\n别盯终端了。每次 Claude 等你输入——权限确认、空闲等待、任何需要你介入的时刻——自动弹：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"Notification\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"osascript -e 'display notification \\\"Claude needs your attention\\\" with title \\\"Claude Code\\\"'\"\n          }\n        ]\n      }\n    ]",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "http://x.com/i/article/2054198798197698560"
-    },
     "http://x.com/i/article/2054257420969373696": {
       "cleaner_v": 2,
       "content_type": "",
@@ -963,22 +917,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2054257420969373696"
-    },
-    "http://x.com/i/article/2054279489774120960": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054279489774120960",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIJKq1UbYAA6jvu?format=jpg&name=900x900)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054286479762087936)\n\n/goal - Ultimate Guide \n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n·\n\nMay 13\n\nFollow\n\nClick to Follow aiedge\\_\n\n18\n\n131\n\n974\n\n[865K](http://x.com/i/article/2054279489774120960/aiedge%5F/status/2054569766418108797/analytics)\n\nLearning this single slash command will completely change how you use AI.\n\nAnthropic, OpenAI, and other major AI players are all shipping the same feature right now.\n\nThat's not a coincidence; the /goal command is fundamentally changing how we interact with AI agents in real time.\n\nBy learning this command, you're essentially activating a 24/7 AI agent that can work on your behalf with zero manual intervention. \n\nIt's genuinely one of the most powerful AI features that's shipped recently.\n\nIn this guide, I'll teach you exactly what /goal is, how it works, how to optimize it, & show you some real-world examples to get you started.\n\nBy the time you're done reading, you'll have a 24/7 mini AI employee that completes any task for you autonomously. \n\nNote: I'll focus on using /goals in Codex as the primary tool for this article, but many of the principles discussed can be applied to other AI tools, such as Claude Code.\n\n## \n\nWhat even is /goal?\n\nIn one line: /goal allows AI agents to work in a \"loop\" to complete tasks without needing permission (like the Ralph loop that went viral months ago). \n\nExample: You tell Claude Code \"/goal create a landing page,\" and it completes the entire task on your behalf. The research, coding, debugging & so on, and then it returns a final product to you.\n\nIt's like telling an employee to complete a task and only return when it's done.\n\nWithout /goal, we are the \"bottleneck,\" as we have to approve, send prompts, tell the agent to continue, and that loop repeats.\n\n[![Image](https://pbs.twimg.com/media/HIJOSMtbwAAP8kH?format=jpg&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290454590767104)\n\nWithout /goal\n\nWith the introduction of /goal, Claude validates everything on its own and \"closes\" the loop.\n\n[![Image](https://pbs.twimg.com/media/HIJObEZbQAAQ_BD?format=jpg&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290606978187264)\n\nWith /goal\n\nThis works because a fast, small model validates whether the conditions are met to proceed to the next step. \n\n## \n\nHow to use /goals\n\nUsing /goals is extremely simple.\n\nYou just type: /goal \\[your task/goal\\] inside your AI tool of choice (CLI/desktop), and it actively works towards the new goal you set.\n\n[![Image](https://pbs.twimg.com/media/HIJVy4ca0AEhXXr?format=png&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054298712667770881)\n\n/goal at its core\n\nOnce you set your goal, you'll receive confirmation that it was set, and in this case, Codex will begin working toward completion.\n\nThis works in the Claude Code CLI, Codex CLI, Hermes agent, and now even in the Codex app (as shown above).\n\nI recommend most non-technical people start with /goal inside the Codex desktop, but if you're setting it up in Codex CLI, follow these steps:\n\n1. Enable goals\n\nCodex desktop → Settings → Configuration and ensure goals = true\n\n2\\. Open Terminal & launch Codex in full-auto mode if you want fewer approval prompts\n\n```text\ncodex --approval-mode full-auto\n\n```\n\n3\\. Start prompting\n\n```text\n/goal [insert goal]\n\n```\n\nIf you're using Claude Code,",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIJKq1UbYAA6jvu?format=jpg&name=900x900)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054286479762087936)\n\n/goal - 终极指南\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2054279489774120960/aiedge%5F)\n\n·\n\n5月13日\n\n关注\n\n点击关注 aiedge\\_\n\n18\n\n131\n\n974\n\n[865K](http://x.com/i/article/2054279489774120960/aiedge%5F/status/2054569766418108797/analytics)\n\n学会这一个斜杠命令，将彻底改变你使用AI的方式。\n\nAnthropic、OpenAI 以及其他主要AI玩家目前都在推出相同的功能。\n\n这并非巧合；/goal 命令正在从根本上改变我们实时与AI agent交互的方式。\n\n通过掌握这个命令，你实际上是在激活一个可以全天候为你工作、无需任何手动干预的AI agent。\n\n这确实是近期推出的最强大的AI功能之一。\n\n在本指南中，我将详细讲解 /goal 是什么、如何工作、如何优化，并展示一些实际案例，帮助你快速上手。\n\n读完之后，你将拥有一个全天候的迷你AI员工，能够自主为你完成任何任务。\n\n注意：本文将主要聚焦于如何在 Codex 中使用 /goals，但所讨论的许多原则同样适用于其他AI工具，例如 Claude Code。\n\n## \n\n/goal 到底是什么？\n\n一句话概括：/goal 允许AI agent以“循环”方式完成任务，无需每次都请求许可（类似于几个月前爆火的 Ralph 循环）。\n\n示例：你告诉 Claude Code \"/goal 创建一个着陆页\"，它会代表你完成整个任务——包括研究、编码、调试等所有步骤，然后返回最终成品给你。\n\n这就像告诉一个员工去完成一项任务，完成后回来汇报即可。\n\n没有 /goal 时，我们就是“瓶颈”，因为我们必须批准、发送提示、告诉agent继续，然后这个循环不断重复。\n\n[![图片](https://pbs.twimg.com/media/HIJOSMtbwAAP8kH?format=jpg&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290454590767104)\n\n没有 /goal\n\n引入 /goal 后，Claude 自行验证所有内容并“闭合”循环。\n\n[![图片](https://pbs.twimg.com/media/HIJObEZbQAAQ_BD?format=jpg&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290606978187264)\n\n使用 /goal\n\n这是因为一个快速、轻量的模型会验证条件是否满足，以决定是否进入下一步。\n\n## \n\n如何使用 /goals\n\n使用 /goals 非常简单。\n\n你只需在选择的AI工具（CLI/桌面端）中输入：/goal \\[你的任务/目标\\]，它就会主动朝着你设定的新目标工作。\n\n[![图片](https://pbs.twimg.com/media/HIJVy4ca0AEhXXr?format=png&name=small)](http://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054298712667770881)\n\n/goal 的核心\n\n设定目标后，你会收到确认信息，然后 Codex 将开始朝着完成目标的方向工作。\n\n这适用于 Claude Code CLI、Codex CLI、Hermes agent，现在甚至适用于 Codex 应用（如上所示）。\n\n我建议大多数非技术用户从 Codex 桌面端内的 /goal 开始使用，但如果你要在 Codex CLI 中设置，请遵循以下步骤：\n\n1. 启用 goals\n\nCodex 桌面端 → 设置 → 配置，确保 goals = true\n\n2. 打开终端，如果你希望减少批准提示，以全自动模式启动 Codex\n\n```text\ncodex --approval-mode full-auto\n\n```\n\n3. 开始提示\n\n```text\n/goal [插入目标]\n\n```\n\n如果你使用的是 Claude Code，",
-      "text_excerpt_zh_hash": "e2a1f2b4e295a228",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2054279489774120960"
     },
     "http://x.com/i/article/2054556222360084480": {
       "cleaner_v": 2,
@@ -5049,6 +4987,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065193949380403200"
     },
+    "http://x.com/i/article/2065291569712779264": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065291569712779264",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKljx9LWsAA39dj?format=jpg&name=small)](http://x.com/TheAhmadOsman/article/2065307070044234186/media/2065291614013009920)\n\nAnthropic's War on Opensource AI\n\n[![](https://pbs.twimg.com/profile_images/1831406651829559296/iMbSOxdP_normal.jpg)](http://x.com/TheAhmadOsman)\n\n[Ahmad](http://x.com/TheAhmadOsman)\n\n[@TheAhmadOsman](http://x.com/TheAhmadOsman)\n\n·\n\nJun 12\n\nFollow\n\nClick to Follow TheAhmadOsman\n\n57\n\n211\n\n877\n\n[339K](http://x.com/TheAhmadOsman/status/2065307070044234186/analytics)\n\nAnthropic wants the public to see one thing: the careful lab, the safety lab, the grown-up in the room trying to keep frontier AI from running off a cliff. However, the pattern around Anthropic does not look like caution by itself. It looks like a company wrapping a business model in moral language, then using that language to justify opaque model behavior, anti-competitive access rules, regulatory pressure, and a future where builders, startups, researchers, and Opensource communities stay downstream of a few blessed frontier labs.\n\n> If a coding or research model secretly changes the quality, direction, or reliability of an answer because it classified the user as doing disallowed frontier work, the tool is no longer merely \"safe.\" It is untrustworthy.\n\nAnthropic's moat is being a permission regime. On daily basis, competitors and acquisition targets discover that access can disappear. The company asks governments to bless safety frameworks, deployment gates, incident reporting, evaluation regimes, and even future pauses that incumbents are best positioned to survive.\n\n> Imagine a compiler that emits worse binaries when it thinks you are building a competing compiler. Imagine a microscope that blurs certain samples because the manufacturer dislikes the research direction. Imagine a debugger that lies only when your codebase resembles a future rival.\n\nThe fight is whether intelligence becomes something people can own, inspect, modify, run locally, fine-tune, study, route, and improve, or whether it becomes a subscription permission layer run by companies that can refuse, degrade, surveil, retain, revoke, reroute, or lobby away your access.\n\n> Anthropic can learn from the internet, copyrighted books, code, public knowledge, user feedback if permitted, synthetic data, and its own models. But if a developer uses Claude to bootstrap a competitive open assistant, Anthropic calls foul. The company argues that safety controls may be lost and that competing models undermine the investment required to build frontier systems.\n\nIf Anthropic wants to be treated like a public-interest safety institution, it cannot behave like a hypersensitive platform monopolist whenever a customer gets too close to building alternatives.\n\n> Yes, companies protect their IP. But Anthropic is not selling a normal SaaS widget. It is selling cognition as infrastructure. Once cognition becomes infrastructure, anti-competitive access control stops being a normal vendor dispute and becomes a social bottleneck.\n\nAnthropic repeatedly converts safety, security, and responsible deployment into mechanisms of control over who may build and what could be built. We cannot trust them.\n\n## \n\nHow \"Safety\" Became Sabotage, a Permission System, and a Direct Threat to User-Owned Intelligence\n\nThe cleanest way to understand Anthropic is not to start with its slogans, but with what happens when users get too close to building independent intelligence using its models. The system can silently degrade, reroute, or refuse work that resembles AI development, which is just sabotage with better PR.\n\nThe ToS makes the boundary even clearer: you may “own” the outputs, but you may not freely use them to train competing systems. And that is where the trick lives, because “competing systems” is vague by design. As Anthropic absorbs more of your data, idea",
+      "title": "",
+      "url": "http://x.com/i/article/2065291569712779264"
+    },
     "http://x.com/i/article/2065357403747438592": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5138,6 +5089,19 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKnvLn4aYAA9cIw?format=jpg&name=900x900)](http://x.com/minicoohei/article/2065444904860610572/media/2065444887089274880)\n\nClaude Fable 5による感想レポートBigQuery・Snowflake・Databricks 「AI Ready 基盤」として使ってみた \n\n[![](https://pbs.twimg.com/profile_images/1921185156091834368/WdIzT_w3_normal.jpg)](http://x.com/minicoohei)\n\n[minicoohei.eth](http://x.com/minicoohei)\n\n[@minicoohei](http://x.com/minicoohei)\n\n·\n\n10h\n\nFollow\n\nClick to Follow minicoohei\n\n6\n\n63\n\n[9.3K](http://x.com/minicoohei/status/2065444904860610572/analytics)\n\n\\*これはClaude Fable - このPoCを実際に手で駆動したエージェント本人の一人称・感想記事です。（Claude Fable ５に実際に今のデータ基盤を移行させてみてGB級のそこまでおおきくないデータ量においてSnowflakeとBigqueryとDataBricksでどの程度ちがうのか？何がいいのか？をPOCとして比較してもらいました）\n\n以下--------本文です。\n\n## \n\n先に結論\n\n3つとも「AI に社内データを安全に使わせる基盤」として成立する。でも触ってみると、差は\"賢さ\"ではなかった。NL→SQL の賢さは Snowflake(Cortex Analyst) も Databricks(Genie) もほぼ互角で、どちらも私が日本語で投げた質問を正しい SQL に落とした（リードタイム平均=27.43日、状態別件数=124/111/3/2 まで正解値ぴったり）\n\n  \n本当に効いたのは次の2点だった。\n\n1\\. 繋ぐまでの摩擦（セットアップで何回地雷を踏むか）2\\. 意味づけ層（セマンティック層）を挟めるか（Agent が誤った数字を自信満々に返すのを防げるか）\n\n順に、触った実感を書く。\n\n## \n\nBigQuery — 一番素直。でも\"意味づけ\"が無いと暴走する\n\n最初に叩いて一番ストレスが無かったのが BigQuery だった。認証も既存の連携でほぼそのまま、クエリは投げれば即返る。エージェントにとって「素直に SQL を書いて即結果」という体験は速くて気持ちいい。\n\nただ、ここに落とし穴がある。生テーブルに直接 SQL を書く構成だと、列名や業務ルールを Agent が\"推測\"で埋める。\n\n「未完了の Issue」と言われて completed/cancelled をどう除くか、リードタイムを時間で持っているのか日で持っているのか——定義が外側に無いと、Agent はそれっぽい SQL を書いて間違った数字を自信満々に返す。これが一番怖い。\n\n→ BigQuery は「最速で始められる」が、意味づけ層を必ず外付けする前提で使うべき、という実感。運用は一番ラク。\n\n## \n\nSnowflake — 枯れていて安心。\"開放して大丈夫\"の堅さ\n\nSnowflake は触っていて「大人の基盤」という感じがした。\n\nNL→SQL（Cortex Analyst）は Semantic View に対してしか効かない作りで、生成 SQL が必ず意味づけ層を通る。\n\nつまり Agent が生テーブルを推測で叩けない。これは business user に開放する——つまり「現場の人が自由に AI に聞く」——前提だと決定的に安心できる設計だ。\n\n管理 MCP が正式版（GA）で、接続が枯れている。key-pair 認証も一度通れば安定していた。\n\n唯一ヒヤッとしたのが権限分離。\n\nロールを絞ったのに範囲外テーブルが読めてしまった。原因は \"secondary roles\" の既定で管理者権限が裏で生きていたこと。\n\n\\`USE SECONDARY ROLES NONE\\` で直ったが、「ロールを作った＝分離できた」は誤りで、必ず\"弾かれること\"を確認すべきという教訓になった。\n\n→ Snowflake は「本番で広く安全に開放する」用途で一番信頼できた。代わりにデータは必ずコピーして載せる必要がある（BQ から直接は読めない）。\n\n## \n\nDatabricks — 繋ぐまで地雷原。でも繋がれば一番賢い\n\n正直、一番手こずったのが Databricks。そして、一番感心したのも Databricks だった。\n\n繋ぐまでが地雷原。BigQuery を移さず直読する Federation は魅力的なのに、実際には：\n\n\\- サービスアカウントの鍵が組織ポリシーで作れない（既存鍵を流用して回避） - 行を読もうとすると \\`readSessionUser\\` 権限が足りず失敗 - さらに、意味づけ層（Metric View）で BigQuery を直接ラップした瞬間、Serverless のネットワーク制御に弾かれて固まる\n\n最後のは効いた。「完全ゼロコピー」のはずが、ガバナンス層を作るには結局対象テーブルだけ小さくコピー（実体化）する羽目になった。\n\nところが——繋がってからの Genie が一番賢かった。日本語で「最新のスナップショットで状態別に」と言えば \\`WHERE snapshot\\_date=(SELECT MAX(...))\\` をちゃんと書き、クロスソースの突合は CTE で join を自分で組み立てた。しかも 空間作成から質問まで全部 API で自動化できた——エージェントが自分で分析環境を立てて聞く、という未来がここだけ現実だった。\n\n→ Databricks は「繋ぐまでの摩擦は最大、繋がれば賢さと自律性は最高」。データレイク資産やデータエンジニアがいる組織向き。\n\n## \n\n横断して見えた一番大事なこと\n\n[![Image](https://pbs.twimg.com/media/HKnuzksaYAAJzmV?format=jpg&name=small)](http://x.com/minicoohei/article/2065444904860610572/media/2065444473916776448)\n\n  \n3基盤を叩いて確信したのは、Agent の信頼性を決めるのは基盤の銘柄ではなく「意味づけ層を挟むかどうか」だということ。\n\n\\- 層が無いと、どんなに賢いモデルでも生テーブルを推測で叩いてもっともらしい間違いを返す。 - 層があると、Agent は定義に縛られて暴走しない。「業務利用者に開放できる」のはこの一点にかかっている。\n\nそして面白いのは、この\"層\"は3基盤共通で同じ定義（IR）から作れること。私は1つの定義ファイル群を書いて、それを Snowflake の Semantic View にも Databricks の Metric View にもコンパイルした。基盤が違っても、Agent から見た体験（意味づけ経由で正答する）は揃う。\n\n  \n## \n\n結局どう使い分けるか\n\n[![Image](https://pbs.twimg.com/media/HKnuTAKa8AAOXph?format=jpg&name=small)](http://x.com/minicoohei/article/2065444904860610572/media/2065443914354716672)\n\n  \nGCP中心・最速で始めたい・人手薄い -> BigQuery（＋意味づけ層は必ず外付け） \n\n業務利用者に広く・本番で安全に開放したい -> Snowflake（枯れてる・分離も実証済み。)\n\n既存BQ資産を移さず・ML/レイクもある ->Databricks (Federationで移行ゼロ・Genieが賢い。繋ぐ癖は覚悟） \n\nただ、エージェントを駆動した立場で言うと、「どの基盤か」より「意味づけ層を挟んだか」のほうが体験を10倍変える。\n\nだから私の本音の推しは——基盤はどれでもいいから、まず Agent に\"業務の意味\"を教え込む層を持て。それさえあれば、銘柄の乗り換えは後からでも効く。\n\n\\-\n\n最後の文に震えたね。というかそうだねと思った。\n\n  \n\\## 注記\n\n\\- 駆動モデル: Claude Fable 5 - NL質問は日本語、採点は「修正なし正答=満点」。 - 接続・採点・図表生成まで実測。\n\n* [![](https://pbs.twimg.com/profile_images/1921185156091834368/WdIzT_w3_normal.jpg)](http://x.com/minicoohei)  \n[minicoohei.eth](http",
       "title": "",
       "url": "http://x.com/i/article/2065441692929667073"
+    },
+    "http://x.com/i/article/2065452779955748864": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065452779955748864",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKn2ZqEbMAA8JHM?format=jpg&name=900x900)](http://x.com/BetaTomorrow/article/2065454698711437810/media/2065452824776093696)\n\nIs the Giant Monolithic Model the Natural Endpoint?\n\n[![](https://pbs.twimg.com/profile_images/1806885734357549056/3JYRNGq5_normal.jpg)](http://x.com/BetaTomorrow)\n\n[deep Manifold](http://x.com/BetaTomorrow)\n\n[@BetaTomorrow](http://x.com/BetaTomorrow)\n\n·\n\n20h\n\nFollow\n\nClick to Follow BetaTomorrow\n\n2\n\n13\n\n[1K](http://x.com/BetaTomorrow/status/2065454698711437810/analytics)\n\nChinese Edition: \n\n[巨型单体模型是自然终点吗?](https://x.com/BetaTomorrow/status/2065452701950046255)\n\nRecent frontier models with multi-trillion parameter counts raise an unavoidable question: is the giant monolithic model the natural endpoint of AI?\n\nThe answer is not obvious. There are good theoretical reasons why AI has moved toward larger models, but there are also reasons to doubt that a single ever-larger model is the final architecture of intelligence.\n\n## \n\nWhy So Many Parameters Are Theoretically Understandable\n\nData complexity is rooted in high-order nonlinearity. The world is not low-order, smooth, or uniform, so a neural network needs sufficient degrees of freedom to represent it.\n\nThis is evident in physical systems. A mountain range, a mountain, a rock joint, a rock sample, and a microscope image of rock may all belong to the same domain, yet each exhibits different nonlinear structure. The mountain range reflects large-scale geometry. The rock joint introduces discontinuity, contact, friction, and block interaction. The microscope image reveals granular structure, micro-cracks, and local discontinuities.\n\n[![Image](https://pbs.twimg.com/media/HKn2ubIb0AA-vzQ?format=jpg&name=small)](http://x.com/BetaTomorrow/article/2065454698711437810/media/2065453181543632896)\n\nFrom the Deep Manifold perspective, the central issue is data complexity. Data complexity is not only data volume. It also comes from scale, scope, time, discontinuity, and high-order nonlinearity. A model facing the real world must handle many scales at once, and each scale may contain its own nonlinear structure.\n\nThis is one reason extremely large models are understandable. A trillion-parameter model is not simply a large memory. It is a huge numerical host for many local neural operators. Large parameter count provides the degrees of freedom needed to form many stacked piecewise manifolds, local covers, intrinsic pathways, and possible fixed-point behaviors.\n\nSo the rise of giant models is not irrational. Data complexity demands freedom. High-order nonlinearity demands local flexibility. Multi-scale data demands many manifolds. But this does not mean the largest monolithic model is the final answer.\n\n[Single Token Geometry 03: Data Complexity](https://x.com/BetaTomorrow/status/2050461737363951997)\n\n## \n\nGeometry Challenge of the Giant Monolithic Model\n\nTrillions of parameters also expose the theoretical weakness of the giant monolithic model. The problem begins when a single model must carry too many scales, nonlinear regimes, and local geometries within one body. A giant model can host many manifolds, but hosting many manifolds is not the same as maintaining coherent structure across them. As data becomes more heterogeneous, the challenge is no longer merely representation capacity; it is preserving compatibility, continuity, and homology across regions that obey different mathematical demands.\n\nHigh-order nonlinear and discontinuous data makes this coherence problem much harder. Smooth regions may connect through gentle transitions, but contact, friction, local failure, sharp constraints, and path-dependent behavior require boundary-sensitive local structures. When all these regimes are forced into one monolithic body, different local geometries begin to compete: some regions prefer smooth interpolation, while other",
+      "title": "",
+      "url": "http://x.com/i/article/2065452779955748864"
     },
     "http://x.com/i/article/2065487442426359809": {
       "cleaner_v": 2,
@@ -6070,27 +6034,6 @@
       "title": "ユーザー体験への誤解を払拭し、「UI/UX」表記を避ける | Click and Magic",
       "url": "https://clickandmagic.com/notes/avoiding_uiux"
     },
-    "https://code.claude.com/docs/en/goal": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Set a completion condition with /goal and Claude keeps working across turns until the condition is met.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://code.claude.com/docs/en/goal",
-      "frameable": false,
-      "image_urls": [
-        "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAutomation%26appearance%3Dsystem%26title%3DKeep%2BClaude%2Bworking%2Btoward%2Ba%2Bgoal%26description%3DSet%2Ba%2Bcompletion%2Bcondition%2Bwith%2B%252Fgoal%2Band%2BClaude%2Bkeeps%2Bworking%2Bacross%2Bturns%2Buntil%2Bthe%2Bcondition%2Bis%2Bmet.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-        "https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/logo/light.svg?fit=max&auto=format&n=c5r9_6tjPMzFdDDT&q=85&s=78fd01ff4f4340295a4f66e2ea54903c",
-        "https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/logo/dark.svg?fit=max&auto=format&n=c5r9_6tjPMzFdDDT&q=85&s=1298a0c3b3a1da603b190d0de0e31712",
-        "https://d3gk2c5xim1je2.cloudfront.net/flags/US.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "TheDocumentation Index\nFetch the complete documentation index at:\n[https://code.claude.com/docs/llms.txt]Use this file to discover all available pages before exploring further.\n/goal\ncommand sets a completion condition and Claude keeps working toward it without you prompting each step. After each turn, a small fast model checks whether the condition holds. If not, Claude starts another turn instead of returning control to you. The goal clears automatically once the condition is met.\nUse a goal for substantial work with a verifiable end state:\n- Migrating a module to a new API until every call site compiles and tests pass\n- Implementing a design doc until all acceptance criteria hold\n- Splitting a large file into focused modules until each is under a size budget\n- Working through a labeled issue backlog until the queue is empty\n[Compare autonomous workflow approaches](https://code.claude.com#compare-to-other-autonomous-workflows):/loop\n, Stop hooks, and auto mode[Set a goal](https://code.claude.com#set-a-goal)and[write an effective condition](https://code.claude.com#write-an-effective-condition)[Check status](https://code.claude.com#check-status),[clear early](https://code.claude.com#clear-a-goal), and[run non-interactively](https://code.claude.com#run-non-interactively)- See\n[how evaluation works](https://code.claude.com#how-evaluation-works)and[requirements](https://code.claude.com#requirements)\nCompare to other autonomous workflows\nThree approaches keep the current session running between prompts. Pick based on what should start the next turn:/goal\nand a Stop hook both fire after every turn. /goal\nis a session-scoped shortcut: you type a condition and it’s active for the current session only. A Stop hook lives in your settings file, applies to every session in its scope, and can run a script for deterministic checks or a prompt for model-evaluated ones.\n[Auto mode](https://code.claude.com/docs/en/auto-mode-config)on its own approves tool calls within a single turn but doesn’t start a new one. Claude stops when it judges the work done.\n/goal\nadds a separate evaluator that checks your condition after every turn, so completion is decided by a fresh model rather than the one doing the work. The two are complementary: auto mode removes per-tool prompts, and /goal\nremoves per-turn prompts.\nUse /goal\nOne goal can be active per session. The same command sets, checks, and clears it depending on the argument.\nSet a goal\nRun/goal\nfollowed by the condition you want satisfied. If a goal is already active, the new one replaces it.\n◎ /goal active\nindicator shows how long the goal has been running.\nAfter each turn, the evaluator returns a short reason explaining why the condition is or isn’t met. The most recent reason appears in the status view and in the transcript so you can see what Claude is working toward next.\nA goal keeps running until the condition is met or you run\n/goal clear\n. Run /goal\nwith no argument to see turns and tokens spent so far.Write an effective condition\nThe[evaluator](https://code.claude.com#how-evaluation-works)judges your condition against what Claude has surfaced in the conversation. It doesn’t run commands or read files independently, so write the condition as something Claude’s own output can demonstrate. “All tests in\ntest/auth\npass” works because Claude runs the tests and the result lands in the transcript for the evaluator to read.\nA condition that holds up across many turns usually has:\n- One measurable end state: a test result, a build exit code, a file count, an empty queue\n- A stated check: how Claude should prove it, such as “\nnpm test\nexits 0” or “git status\nis clean” - Constraints that matter: anything that must not change on the way there, such as “no other test file is modified”\nor stop after 20 turns\n. Claude reports progress against that clause each turn and the evaluator judges it from the conversation.\nCheck status\nRun/goal\nwith no arguments to see the current state.\n- The condition\n- How long",
-      "text_excerpt_zh": "## 文档索引\n\n获取完整的文档索引，请访问：\n[https://code.claude.com/docs/llms.txt] 使用此文件在进一步探索前发现所有可用页面。\n\n## /goal\n\n`/goal` 命令设置一个完成条件，Claude 会持续工作直至达成，无需你在每一步进行提示。每轮操作后，一个小型快速模型会检查条件是否满足。若未满足，Claude 会开始新一轮操作，而非将控制权交还给你。\n\n在具有可验证最终状态的重要工作中使用 goal：\n- 将模块迁移到新 API，直到所有调用点编译通过且测试通过\n- 实现设计文档，直到所有验收标准达成\n- 将大文件拆分为专注的模块，直到每个模块都在大小预算内\n- 处理标记的问题积压，直到队列清空\n\n[比较自主工作流方法](https://code.claude.com#compare-to-other-autonomous-workflows)：`/loop`、Stop hooks 和自动模式\n\n[设置 goal](https://code.claude.com#set-a-goal) 并[编写有效条件](https://code.claude.com#write-an-effective-condition)\n\n[检查状态](https://code.claude.com#check-status)、[提前清除](https://code.claude.com#clear-a-goal)以及[非交互式运行](https://code.claude.com#run-non-interactively)\n\n- 查看[评估工作原理](https://code.claude.com#how-evaluation-works)和[要求](https://code.claude.com#requirements)\n\n## 比较其他自主工作流\n\n三种方法可在提示之间保持当前会话运行。根据应启动下一轮操作的因素进行选择：\n\n`/goal` 和 Stop hook 都在每轮操作后触发。`/goal` 是会话范围的快捷方式：你输入一个条件，它仅对当前会话有效。Stop hook 存在于你的设置文件中，适用于其范围内的每个会话，并且可以运行脚本进行确定性检查，或运行提示进行模型评估的检查。\n\n[自动模式](https://code.claude.com/docs/en/auto-mode-config)本身会在单轮操作内批准工具调用，但不会启动新的一轮。Claude 在判断工作完成时停止。\n\n`/goal` 添加了一个独立的评估器，在每轮操作后检查你的条件，因此完成由一个新的模型决定，而非执行工作的模型。两者互补：自动模式消除了每工具的提示，而 `/goal` 消除了每轮的提示。\n\n## 使用 /goal\n\n每个会话只能有一个活跃的 goal。根据参数，同一个命令可以设置、检查和清除它。\n\n### 设置 goal\n\n运行 `/goal` 后跟你想要满足的条件。如果已有活跃的 goal，新 goal 会替换它。\n\n◎ `/goal active` 指示器显示 goal 已运行了多长时间。\n\n每轮操作后，评估器会返回一个简短的原因，说明条件是否满足。最新的原因会出现在状态视图和记录中，以便你了解 Claude 下一步的工作方向。\n\ngoal 会持续运行，直到条件满足或你运行 `/goal clear`。不带参数运行 `/goal` 可查看已使用的轮数和 token 数。\n\n### 编写有效条件\n\n[评估器](https://code.claude.com#how-evaluation-works)根据 Claude 在对话中呈现的内容判断你的条件。它不会独立运行命令或读取文件，因此请将条件编写为 Claude 自身输出可以证明的内容。\"`test/auth` 中的所有测试通过\"是有效的，因为 Claude 运行测试，结果会出现在记录中供评估器读取。\n\n一个能在多轮操作中保持有效的条件通常具有：\n- **一个可衡量的最终状态**：测试结果、构建退出码、文件数量、空队列\n- **明确的检查方式**：Claude 应如何证明，例如 \"`npm test` 退出码为 0\" 或 \"`git status` 是干净的\"\n- **重要的约束**：在此过程中不得改变的内容，例如 \"没有其他测试文件被修改\" 或 20 轮后停止。Claude 每轮都会报告该条款的进展，评估器根据对话进行判断。\n\n### 检查状态\n\n不带参数运行 `/goal` 可查看当前状态。\n- 条件\n- 运行时长",
-      "text_excerpt_zh_hash": "6ccd286e2e7fd609",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Keep Claude working toward a goal - Claude Code Docs",
-      "url": "https://code.claude.com/docs/en/goal"
-    },
     "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6462,6 +6405,32 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://ft.trib.al/s1xKc6c"
+    },
+    "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "frameable": false,
+      "image_urls": [
+        "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+        "https://avatars.githubusercontent.com/u/241138?s=64&v=4",
+        "https://avatars.githubusercontent.com/u/265482669?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/220745401?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/2110466?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/10940962?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/38995810?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/175844769?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/167013924?s=80&v=4",
+        "https://private-user-images.githubusercontent.com/167013924/601264634-039ae53b-b3b8-440a-b98e-e715fe2c8f51.svg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODEzNTI1MjAsIm5iZiI6MTc4MTM1MjIyMCwicGF0aCI6Ii8xNjcwMTM5MjQvNjAxMjY0NjM0LTAzOWFlNTNiLWIzYjgtNDQwYS1iOThlLWU3MTVmZTJjOGY1MS5zdmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYxM1QxMjAzNDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMDYzYzIxNWQ4ZjIxMDUzYTc5ZTU2YWJiMjczMjFjYjdiNDIxZGI5MmQ1ZTIxZjdmZDY2YjNiZDJiNzA4OWVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZzdmclMkJ4bWwifQ.0crDWmVdZCa0nLkg-bzm6ATW5-Q4oxFm5HgqtCuTXJE",
+        "https://private-user-images.githubusercontent.com/167013924/601268052-9c7a6ddd-bf6e-4890-8848-3fe6e44de906.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODEzNTI1MjAsIm5iZiI6MTc4MTM1MjIyMCwicGF0aCI6Ii8xNjcwMTM5MjQvNjAxMjY4MDUyLTljN2E2ZGRkLWJmNmUtNDg5MC04ODQ4LTNmZTZlNDRkZTkwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYxM1QxMjAzNDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YmNiNmI2Y2EzMmNjNGVjOTk1MWIxMzMwM2U2MDlmNDAwYmIwYWNjOTMzOGZhMDZhYWU2MTM5ODBkZTEwNjYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.FBBZp4KgAXWk-btbMmxa15_lZo_7VqrDb-5OZDXA0H0",
+        "https://avatars.githubusercontent.com/u/25124355?s=80&v=4"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "llm-wiki · GitHub",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
     },
     "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar": {
       "cleaner_v": 2,
@@ -7660,32 +7629,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Karl Koch | Falling in love with the build",
       "url": "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar"
-    },
-    "https://layers.to/": {
-      "content_type": "text/html",
-      "description": "Explore the latest design layers from the community",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://layers.to/explore",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Explore | Layers",
-      "url": "https://layers.to/"
-    },
-    "https://layers.to/explore": {
-      "content_type": "text/html",
-      "description": "Explore the latest design layers from the community",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://layers.to/explore",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Explore | Layers",
-      "url": "https://layers.to/explore"
     },
     "https://linear.app/now/code-review-should-be-fast": {
       "cleaner_v": 2,
@@ -9522,6 +9465,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2065371048002908160/img/EBVv3TC_xD40MgvG.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -9689,34 +9660,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
-    },
-    "https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HINW088aYAEzkJ8.jpg"
-    },
-    "https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg"
     },
     "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg": {
       "cleaner_v": 2,
@@ -12042,6 +11985,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
     },
+    "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
+    },
     "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -12055,6 +12012,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png"
+    },
+    "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg"
     },
     "https://pbs.twimg.com/media/HKnBoV_a4AEw3pa.jpg": {
       "cleaner_v": 2,
@@ -12125,6 +12096,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKnwXw8akAEYiSR.jpg"
+    },
+    "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg"
     },
     "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png": {
       "cleaner_v": 2,
@@ -13149,24 +13134,6 @@
       "title": "Self-Fulfilling Projects",
       "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
     },
-    "https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "An svg filter component that creates a gooey effect on the background. Can be used to create fluid interfaces or rounded-at-all-corners panels. Limited support for Safari.",
-      "final_url": "https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter",
-      "frameable": null,
-      "image_urls": [
-        "https://fancycomponents.b-cdn.net/thumbnails/gooey-svg-filter.jpg",
-        "https://images.aiscribbles.com/34fe5695dbc942628e3cad9744e8ae13.png?v=60d084"
-      ],
-      "kind": "article",
-      "text_excerpt": "Toggle Menu fancy components* Docs Components Search docs... Github Toggle theme Getting Started Introduction Installation Components Changelog llms.txt Text (20) Letter Swap Hover Letter 3D Swap Random Letter Swap Hover Vertical Cut Reveal Text Rotate Variable Font Hover By Letter Variable Font Hover By Random Letter Scroll And Swap Text Cursor Proximity Variable Font & Cursor Variable Font Cursor Proximity Breathing Text Underline Animation Underline To Background Basic Number Ticker Typewriter Scramble Hover Text Highlighter Scramble In Text Along Path Carousel (1) Box Carousel Background (2) Animated Gradient With SVG Pixel Trail Physics (3) Elastic Line Gravity Cursor Attractor & Gravity Image (2) Image Trail Parallax Floating Filter (2) Gooey SVG Filter Pixelate SVG Filter Blocks (10) Drag Elements Circling Elements Media Between Text CSS Box Screensaver Sticky Footer Float Stacking Cards Simple Marquee Marquee Along SVG Path Docs → Filter → Gooey SVG Filter Gooey SVG Filter An svg filter component that creates a gooey effect on the background. Can be used to create fluid interfaces or rounded-at-all-corners panels. Limited support for Safari. Demo Code Loading... Installation CLI Manual pnpm npm yarn bun 1 pnpm dlx shadcn add @fancy / gooey - svg - filter Usage Add the GooeySvgFilter component to your project, pass an id prop to the component (optional), then use the same id prop in the filter CSS property of the container you want to apply the filter to. High-level example: Goeey SVG Filter Example 1 < GooeySvgFilter id = \" gooey-filter \" /> 2 < div style = { { filter : \"url(#gooey-filter)\" } } > 3 filter will be applied here 4 </ div > Understanding the component The filter is surprisingly simple. First, we apply a blur, which makes closer element to 'bleed' or blur into each other. Then, we just increase the contrast of our alpha channel with a color matrix. Lastly, we composite these two layers together with an atop operator, which will mask out anything outside the filter. Please refer to this article by Lucas Bebber for more details. The entire component is derived from this work, and Lucas does a much better job explaining the filter than I do:). Examples Fluid interface Demo Code Loading... Rounded corners The following example combines the PixelTrail component with this svg filter to create a rounded-at-all-corners effect. Unfortunately, the component doesn't support Safari, so you'll need to create a fallback for that. Demo Code Loading... Notes Safari support for SVG filters is still very limited, so make sure to check compatibility, and create fallbacks (in the demos above, you can also see that the motion is disabled for Safari). For a fully supported solution, your best bet is to create a shader instead. Let us know if you would like to see a component for that! Keep a large enough space for the filter to avoid clipping. Props Prop Type Default Description id string - The id of the filter strength number 15 The strength of the gooey effect Credits The component is derived from this article by Lucas Bebber . → Parallax Floating Pixelate SVG Filter → built with 💙 by nonzeroexitcode Open in Disable filter learning-to-meditate.md spring-garden-plans.md travel-wishlist.md new-coding-projects.md 2024 2023 2022 2021 Open in Open the menu in the top left corner Open in Speaking things into existence",
-      "text_excerpt_zh": "切换菜单\n\nfancy components* 文档 组件 搜索文档... Github 切换主题\n\n开始使用\n简介\n安装\n组件\n更新日志\nllms.txt\n\n文本 (20)\n字母交换悬停\n3D 交换字母\n随机字母交换悬停\n垂直切割显示文本\n旋转文本\n可变字体悬停（按字母）\n可变字体悬停（按随机字母）\n滚动与交换文本\n光标邻近度\n可变字体与光标\n可变字体光标邻近度\n呼吸文本\n下划线动画\n下划线转背景\n基本数字滚动器\n打字机效果\n乱码悬停文本\n高亮器\n乱码显示文本\n沿路径文本\n\n轮播 (1)\n盒子轮播\n\n背景 (2)\n带SVG的动画渐变\n像素轨迹\n\n物理 (3)\n弹性线条\n重力\n光标吸引与重力\n\n图像 (2)\n图像轨迹\n视差浮动\n\n滤镜 (2)\n粘性SVG滤镜\n像素化SVG滤镜\n\n区块 (10)\n拖拽元素\n环绕元素\n文字间媒体\nCSS盒子屏保\n粘性页脚\n浮动\n堆叠卡片\n简单跑马灯\n沿SVG路径跑马灯\n\n文档 → 滤镜 → 粘性SVG滤镜\n\n粘性SVG滤镜\n一个SVG滤镜组件，可在背景上创建粘性效果。可用于创建流畅界面或全圆角面板。对Safari支持有限。\n\n演示 代码 加载中...\n\n安装\nCLI 手动\n\npnpm npm yarn bun\n\n1 pnpm dlx shadcn add @fancy/gooey-svg-filter\n\n用法\n将GooeySvgFilter组件添加到项目中，传入一个id属性（可选），然后在要应用滤镜的容器的CSS filter属性中使用相同的id。\n\n高级示例：\n\n粘性SVG滤镜示例\n\n1 <GooeySvgFilter id=\"gooey-filter\" />\n2 <div style={{ filter: \"url(#gooey-filter)\" }}>\n3   滤镜将在此处应用\n4 </div>\n\n理解该组件\n这个滤镜出奇地简单。首先，我们应用一个模糊效果，使相邻元素“渗透”或模糊在一起。然后，我们通过一个颜色矩阵增加alpha通道的对比度。最后，我们使用atop运算符将这两层合成在一起，这将遮罩掉滤镜之外的任何内容。更多细节请参考Lucas Bebber的这篇文章。整个组件源自这项工作，Lucas比我更好地解释了该滤镜:)。\n\n示例\n流畅界面\n\n演示 代码 加载中...\n\n圆角\n以下示例将PixelTrail组件与此SVG滤镜结合，创建全圆角效果。不幸的是，该组件不支持Safari，因此您需要为此创建一个回退方案。\n\n演示 代码 加载中...\n\n注意事项\nSafari对SVG滤镜的支持仍然非常有限，因此请务必检查兼容性并创建回退方案（在上面的演示中，您也可以看到Safari上禁用了动画）。对于完全支持的解决方案，最好的办法是创建一个着色器。如果您希望看到这样的组件，请告诉我们！\n\n为滤镜保留足够大的空间以避免裁剪。\n\n属性\n属性 类型 默认值 描述\nid string - 滤镜的ID\nstrength number 15 粘性效果的强度\n\n致谢\n该组件源自Lucas Bebber的这篇文章。\n\n→ 视差浮动 像素化SVG滤镜 →\n\n由 nonzeroexitcode 用 💙 构建\n\n打开 禁用滤镜\nlearning-to-meditate.md spring-garden-plans.md travel-wishlist.md new-coding-projects.md\n2024 2023 2022 2021\n打开 打开左上角菜单\n打开 将事物说成现实",
-      "text_excerpt_zh_hash": "1b9f011174fad70d",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Gooey SVG Filter - Fancy Components",
-      "url": "https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter"
-    },
     "https://www.gregceccarelli.com/goal-engineering?v=1": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13658,52 +13625,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://x.com/i/article/2053986800050524160"
-    },
-    "https://x.com/i/article/2054167689036247040": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2054167689036247040",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054167689036247040/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIHe0TcW4AE5msr?format=jpg&name=900x900)](https://x.com/i/article/2054167689036247040/ZoharAtkins/article/2054168204658815070/media/2054167895211433985)\n\nWhen Knowledge Is Cheap, Insight Is Everything: Jevons Paradox applied to Torah Learning\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[Zohar Atkins](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[@ZoharAtkins](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n·\n\nMay 12\n\nFollow\n\nClick to Follow ZoharAtkins\n\n74\n\n395\n\n2K\n\n[1.1M](https://x.com/i/article/2054167689036247040/ZoharAtkins/status/2054168204658815070/analytics)\n\nIn 1865, an English economist named William Stanley Jevons published a book that almost no one reads anymore. It was called The Coal Question, and it argued that Britain was about to ruin itself. The argument turned on a paradox so counterintuitive that Jevons spent most of the book establishing it was real before he allowed himself to draw conclusions from it.\n\nThe puzzle was this: James Watt’s improved steam engine, patented in 1769 and refined for decades after, was by design a more efficient machine. It produced more mechanical work from less coal. Every reasonable observer predicted that Britain would consume less coal as Watt’s engines spread. The math was airtight: a given amount of coal now produced more useful energy; therefore, to produce a given amount of useful energy, you needed less coal; therefore, total coal consumption would fall. Jevons looked at the numbers and discovered that the opposite had happened. Between Watt’s patent and the publication of The Coal Question, British coal consumption had risen more than tenfold.\n\nWhat Jevons saw was that efficiency generates demand. Cheaper steam power produced applications for mechanical work that had been economically impossible at the old prices. Railroads became viable. Iron smelting became cheap enough to industrialize. Ocean shipping was reorganized around coal-fired engines. The savings per engine were real, and they were swamped completely by the proliferation of engines.\n\nJevons drew a darker conclusion than the one he is now remembered for. He thought Britain would exhaust its coal reserves within a century and lose its industrial supremacy as a result. He was wrong about that, because he could not foresee oil. But the underlying observation, that efficiency in an input produces explosive growth in demand for that input, turned out to be one of the most durable findings in economics. It is now called the Jevons paradox, and it shows up everywhere people study the diffusion of new technology. Cheaper lighting lengthened the working day and lit up the night sky. Cheaper computation built an information economy that now consumes more electricity than most countries. The pattern repeats. When the cost of an input collapses, that input becomes the substrate of a world that could not previously exist.\n\nWe are about to learn this lesson again. The input this time is knowledge, and the place we are about to learn it first is the Jewish study hall.\n\nFor most of human history, access to the great Jewish textual traditions was rationed by labor. To read Maimonides in his own twelfth-century Judeo-Arabic, you needed years of training. To trace a legal argument across the Babylonian Talmud, the Jerusalem Talmud, the medieval commentators, and the early modern halakhic authorities, you needed a library most people never set foot in and a lifetime most people never had. Even after the printing press, even after the digitization of nearly the entire corpus on the open-access platform Sefaria, the actual capacity to make these texts speak to you, to ask them a question and receive a real answer, remained the p",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](https://x.com/i/article/2054167689036247040/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIHe0TcW4AE5msr?format=jpg&name=900x900)](https://x.com/i/article/2054167689036247040/ZoharAtkins/article/2054168204658815070/media/2054167895211433985)\n\n当知识变得廉价，洞察力才是一切：杰文斯悖论在托拉学习中的应用\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[Zohar Atkins](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n[@ZoharAtkins](https://x.com/i/article/2054167689036247040/ZoharAtkins)\n\n·\n\n5月12日\n\n关注\n\n点击关注 ZoharAtkins\n\n74\n\n395\n\n2K\n\n[110万](https://x.com/i/article/2054167689036247040/ZoharAtkins/status/2054168204658815070/analytics)\n\n1865年，一位名叫威廉·斯坦利·杰文斯的英国经济学家出版了一本如今几乎无人问津的书。书名为《煤炭问题》，其核心论点是英国即将自取灭亡。这一论点建立在一个反直觉的悖论之上，以至于杰文斯在得出结论之前，花了大量篇幅来证明这个悖论的真实性。\n\n这个难题是这样的：詹姆斯·瓦特于1769年获得专利、并在随后的几十年里不断改进的蒸汽机，本质上是一种更高效的机器。它用更少的煤炭产生了更多的机械功。所有理性的观察者都预测，随着瓦特蒸汽机的普及，英国的煤炭消耗量将会下降。这个数学逻辑无懈可击：一定量的煤炭现在能产生更多有用能量；因此，要产生一定量的有用能量，所需的煤炭就更少；因此，煤炭总消耗量会下降。杰文斯查看了数据，却发现事实恰恰相反。从瓦特获得专利到《煤炭问题》出版期间，英国的煤炭消耗量增长了十倍以上。\n\n杰文斯看到的是，效率催生了需求。更便宜的蒸汽动力使得那些在旧价格下经济上不可行的机械功应用成为可能。铁路变得可行。炼铁变得足够便宜，从而实现了工业化。远洋航运围绕燃煤发动机进行了重组。每台发动机节省的成本是真实的，但这些节省完全被发动机数量的激增所淹没。\n\n杰文斯得出的结论比他如今为人所铭记的那个更悲观。他认为英国将在百年内耗尽煤炭储备，并因此失去工业霸主地位。他错了，因为他无法预见到石油。但那个基本观察——投入品的效率会导致对该投入品需求的爆炸性增长——最终成为经济学中最持久的发现之一。如今它被称为杰文斯悖论，出现在人们研究新技术扩散的各个领域。更便宜的照明延长了工作日，照亮了夜空。更便宜的计算构建了一个信息经济，如今其消耗的电力超过大多数国家。这种模式一再重复。当一种投入品的成本崩溃时，它就成为了一种此前不可能存在的世界的基石。\n\n我们即将再次学到这一课。这次的投入品是知识，而我们最先学到这一课的地方，是犹太人的研经堂。\n\n在人类历史的大部分时间里，接触伟大的犹太文本传统受到劳动的限制。要阅读迈蒙尼德用他12世纪犹太-阿拉伯语写成的原著，你需要多年的训练。要追溯一个法律论点穿越巴比伦塔木德、耶路撒冷塔木德、中世纪评注家以及早期现代哈拉卡权威，你需要一个大多数人从未踏足的图书馆，以及一段大多数人从未拥有过的人生。即使在印刷术出现之后，即使在几乎所有文献都被数字化并放在开放平台Sefaria上之后，让这些文本真正对你说话、向它们提问并得到真正答案的实际能力，仍然是少数人的特权。",
-      "text_excerpt_zh_hash": "da8274f01bc73046",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2054167689036247040"
-    },
-    "https://x.com/i/article/2054198798197698560": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2054198798197698560",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054198798197698560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIIOw7LbkAAkJpP?format=jpg&name=900x900)](https://x.com/i/article/2054198798197698560/vincemask/article/2054457804057100405/media/2054220613716512768)\n\n从 0 开始：用 Hooks 打造自动化 Claude Code 工作流\n\n[![](https://pbs.twimg.com/profile_images/2019106684720013313/Uhz3TgYm_normal.jpg)](https://x.com/i/article/2054198798197698560/vincemask)\n\n[Vince 聊开发](https://x.com/i/article/2054198798197698560/vincemask)\n\n[@vincemask](https://x.com/i/article/2054198798197698560/vincemask)\n\n·\n\nMay 13\n\nFollow\n\nClick to Follow vincemask\n\n17\n\n66\n\n262\n\n[35K](https://x.com/i/article/2054198798197698560/vincemask/status/2054457804057100405/analytics)\n\n你让 Claude Code 写功能、补测试、格式化文件，最后顺手提交。\n\n它功能写了，测试也补了大半，格式化跑了两个文件，但偏偏漏了一个。然后它很自然地告诉你：“搞完了。”\n\n你一看：没提交，格式也没完全对齐。\n\n但这些问题，其实不该靠你事后检查。在 Claude Code 里，它们都可以配置成自动流程。\n\n这就是 Hook 存在的理由。\n\n## \n\n  \n## \n\nHook 是什么\n\n[Claude Code hooks](https://code.claude.com/docs/en/hooks-guide)\n\n 是在 Claude 生命周期的固定节点自动执行的 shell 命令。不需要你给 Claude 下任何指令，Hook 就已经跑完了。\n\nClaude 可能不跑格式化工具。挂在 PostToolUse 上的 Hook 会在每次文件编辑后跑 Prettier。\n\nClaude 可能忘了通知你。挂在 Notification 上的 Hook 每次 Claude 需要你介入时都会弹窗。\n\nHook 把行为从 Claude 的判断里抽出来，放到你的项目规则里。代码质量、通知、安全检查。这些最要紧的事应该放在 Hook 里，不是 prompt 里。\n\n[GitButler 的指南](https://blog.gitbutler.com/automate-your-ai-workflows-with-claude-code-hooks)\n\n：从三个开始：PostToolUse 自动格式化、PreToolUse 拦截危险命令、Stop 桌面通知，覆盖最广，上手最容易。\n\n## \n\n  \n## \n\n先看这 5 个生命周期事件\n\nClaude Code 有 \n\n[20多个生命周期事件](https://code.claude.com/docs/en/hooks-guide)\n\n，SessionStart 到 SessionEnd。不用全记。下面 5 个是实际工作中真会用的：\n\nPostToolUse：Claude 用完工具后触发。自动格式化、跑 linter、记变更日志。\n\nPreToolUse：Claude 调工具之前触发，可以拦截。保护敏感文件（.env、package-lock.json）、阻止危险命令、在 Claude 写任何东西之前卡一刀。\n\nNotification：Claude 需要你关注时触发。弹桌面通知，你不用盯着终端，该干嘛干嘛。\n\nStop：Claude 回复结束时触发。跑测试、跑 CI、自动提交——Claude 说「搞完了」之后自动执行。\n\nSessionStart：会话启动或恢复时触发。压缩（compaction）之后重新灌上下文，或者加载环境相关的提醒。\n\n剩下事件（SubagentStart、WorktreeCreate、InstructionsLoaded 等）给更复杂的流程。先从上面 5 个上手。\n\n[![Image](https://pbs.twimg.com/media/HIH7U5hbUAAFQmp?format=jpg&name=small)](https://x.com/i/article/2054198798197698560/vincemask/article/2054457804057100405/media/2054199241514635264)\n\n## \n\n  \n## \n\n三种值得用的 Hook type\n\n除了标准的 shell 命令 Hook（\"type\": \"command\"），还有三种：\n\nPrompt Hook（\"type\": \"prompt\"）把 Hook 的输入丢给 Claude 模型（默认用 Haiku）做判断，返回是/否。适合需要模型理解的场景，比如在 Claude 停止前检查是不是所有任务都完成了：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"prompt\",\n            \"prompt\": \"Check if all tasks are complete. If not, respond with {\\\"ok\\\": false, \\\"reason\\\": \\\"what remains to be done\\\"}.\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```\n\n比写正则强。\n\nAgent Hook（\"type\": \"agent\"）起一个子代理，能读文件、搜代码、跑工具，最多 50 轮。适合需要对照实际代码状态做判断的情况——比如 Claude 停之前确认测试确实过了。\n\nHTTP Hook（\"type\": \"http\"）把事件数据 POST 到 URL，不跑 shell。适合团队审计日志、共享通知服务、webhook 集成。\n\n多数场景 \"type\": \"command\" 够用。\n\n## \n\n  \n## \n\n怎么配 Hook\n\nHook 配置放在三个位置之一：\n\nplaintext\n\n```plaintext\n~/.claude/settings.json 所有项目\n.claude/settings.json 当前项目（提交到仓库，团队共享）\n.claude/settings.local.json 当前项目，不提交\n\n```\n\n结构都一样：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"EventName\": [\n      {\n        \"matcher\": \"ToolName|OtherTool\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"your shell command here\"\n          }\n        ]\n      }\n    ]\n  }\n}\n\n```\n\nMatcher 是正则，过滤触发条件。在 PostToolUse 和 PreToolUse 里匹配工具名称：\"Edit|Write\" 在文件编辑后触发，\"Bash\" 在 shell 命令后触发，\"mcp\\_\\_github\\_.\\*\" 在任意 GitHub MCP 工具调用后触发。\n\n最简单的方式是用 /hooks 交互菜单。在 Claude Code 里敲 /hooks，选事件、设 matcher、填命令，不用手写 JSON。加了就生效。\n\n## \n\n  \n## \n\n立即能配好的 5 个 Hook\n\n1\\. Claude 需要你时弹通知\n\n别盯终端了。每次 Claude 等你输入——权限确认、空闲等待、任何需要你介入的时刻——自动弹：\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"Notification\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"osascript -e 'display notification \\\"Claude needs your attention\\\" with title \\\"Claude Code\\\"'\"\n          }\n        ]\n      }",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://x.com/i/article/2054198798197698560"
-    },
-    "https://x.com/i/article/2054279489774120960": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2054279489774120960",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIJKq1UbYAA6jvu?format=jpg&name=900x900)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054286479762087936)\n\n/goal - Ultimate Guide \n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[AI Edge](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[@aiedge\\_](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n·\n\n19h\n\nFollow\n\nClick to Follow aiedge\\_\n\n10\n\n70\n\n477\n\n[486K](https://x.com/i/article/2054279489774120960/aiedge%5F/status/2054569766418108797/analytics)\n\nLearning this single slash command will completely change how you use AI.\n\nAnthropic, OpenAI, and other major AI players are all shipping the same feature right now.\n\nThat's not a coincidence; the /goal command is fundamentally changing how we interact with AI agents in real time.\n\nBy learning this command, you're essentially activating a 24/7 AI agent that can work on your behalf with zero manual intervention. \n\nIt's genuinely one of the most powerful AI features that's shipped recently.\n\nIn this guide, I'll teach you exactly what /goal is, how it works, how to optimize it, & show you some real-world examples to get you started.\n\nBy the time you're done reading, you'll have a 24/7 mini AI employee that completes any task for you autonomously. \n\nNote: I'll focus on using /goals in Codex as the primary tool for this article, but many of the principles discussed can be applied to other AI tools, such as Claude Code.\n\n## \n\nWhat even is /goal?\n\nIn one line: /goal allows AI agents to work in a \"loop\" to complete tasks without needing permission (like the Ralph loop that went viral months ago). \n\nExample: You tell Claude Code \"/goal create a landing page,\" and it completes the entire task on your behalf. The research, coding, debugging & so on, and then it returns a final product to you.\n\nIt's like telling an employee to complete a task and only return when it's done.\n\nWithout /goal, we are the \"bottleneck,\" as we have to approve, send prompts, tell the agent to continue, and that loop repeats.\n\n[![Image](https://pbs.twimg.com/media/HIJOSMtbwAAP8kH?format=jpg&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290454590767104)\n\nWithout /goal\n\nWith the introduction of /goal, Claude validates everything on its own and \"closes\" the loop.\n\n[![Image](https://pbs.twimg.com/media/HIJObEZbQAAQ_BD?format=jpg&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290606978187264)\n\nWith /goal\n\nThis works because a fast, small model validates whether the conditions are met to proceed to the next step. \n\n## \n\nHow to use /goals\n\nUsing /goals is extremely simple.\n\nYou just type: /goal \\[your task/goal\\] inside your AI tool of choice (CLI/desktop), and it actively works towards the new goal you set.\n\n[![Image](https://pbs.twimg.com/media/HIJVy4ca0AEhXXr?format=png&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054298712667770881)\n\n/goal at its core\n\nOnce you set your goal, you'll receive confirmation that it was set, and in this case, Codex will begin working toward completion.\n\nThis works in the Claude Code CLI, Codex CLI, Hermes agent, and now even in the Codex app (as shown above).\n\nI recommend most non-technical people start with /goal inside the Codex desktop, but if you're setting it up in Codex CLI, follow these steps:\n\n1. Enable goals\n\nCodex desktop → Settings → Configuration and ensure goals = true\n\n2\\. Open Terminal & launch Codex in full-auto mode if you want fewer approval prompts\n\n```text\ncodex --approval-mode full-auto\n\n```\n\n3\\. Start prompting\n\n```text\n/goal [insert goal]\n\n```\n\nIf you're using Claude",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](https://x.com/i/article/2054279489774120960/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIJKq1UbYAA6jvu?format=jpg&name=900x900)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054286479762087936)\n\n/goal - 终极指南\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[AI Edge](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n[@aiedge\\_](https://x.com/i/article/2054279489774120960/aiedge%5F)\n\n·\n\n19小时前\n\n关注\n\n点击关注 @aiedge\\_\n\n10\n\n70\n\n477\n\n[486K](https://x.com/i/article/2054279489774120960/aiedge%5F/status/2054569766418108797/analytics)\n\n学会这一个斜杠命令，将彻底改变你使用 AI 的方式。\n\nAnthropic、OpenAI 以及其他主要 AI 厂商目前都在推出相同的功能。\n\n这并非巧合；/goal 命令正在从根本上改变我们实时与 AI agent 交互的方式。\n\n通过掌握这个命令，你实际上相当于激活了一个 24/7 全天候的 AI agent，它可以零人工干预地为你工作。\n\n这绝对是近期推出的最强大的 AI 功能之一。\n\n在本指南中，我将详细讲解 /goal 是什么、如何工作、如何优化，并展示一些实际案例，帮助你快速上手。\n\n读完本文后，你将拥有一个 24/7 全天候的迷你 AI 员工，可以自主为你完成任何任务。\n\n注意：本文将主要聚焦于在 Codex 中使用 /goals，但其中讨论的许多原则也适用于其他 AI 工具，例如 Claude Code。\n\n## \n\n/goal 到底是什么？\n\n一句话概括：/goal 允许 AI agent 以“循环”方式工作，无需请求许可即可完成任务（类似于几个月前爆火的 Ralph 循环）。\n\n示例：你告诉 Claude Code \"/goal create a landing page\"，它会代表你完成整个任务——研究、编码、调试等等，然后返回最终产品给你。\n\n这就像告诉一名员工去完成一项任务，完成后才回来汇报。\n\n没有 /goal，我们就成了“瓶颈”，因为我们必须批准、发送提示、告诉 agent 继续，然后这个循环不断重复。\n\n[![图片](https://pbs.twimg.com/media/HIJOSMtbwAAP8kH?format=jpg&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290454590767104)\n\n没有 /goal\n\n引入 /goal 后，Claude 自行验证所有内容并“闭合”循环。\n\n[![图片](https://pbs.twimg.com/media/HIJObEZbQAAQ_BD?format=jpg&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054290606978187264)\n\n有 /goal\n\n这之所以有效，是因为一个快速的小模型会验证条件是否满足，以进入下一步。\n\n## \n\n如何使用 /goals\n\n使用 /goals 非常简单。\n\n你只需在选择的 AI 工具（CLI/桌面端）中输入：/goal \\[你的任务/目标\\]，它就会主动朝着你设定的新目标工作。\n\n[![图片](https://pbs.twimg.com/media/HIJVy4ca0AEhXXr?format=png&name=small)](https://x.com/i/article/2054279489774120960/aiedge%5F/article/2054569766418108797/media/2054298712667770881)\n\n/goal 的核心\n\n设定目标后，你会收到确认信息，在这种情况下，Codex 将开始朝着完成目标的方向工作。\n\n这适用于 Claude Code CLI、Codex CLI、Hermes agent，现在甚至适用于 Codex 应用（如上所示）。\n\n我建议大多数非技术人员从 Codex 桌面端内的 /goal 开始使用，但如果你要在 Codex CLI 中设置，请遵循以下步骤：\n\n1. 启用 goals\n\nCodex 桌面端 → 设置 → 配置，确保 goals = true\n\n2. 打开终端，如果你希望减少批准提示，以全自动模式启动 Codex\n\n```text\ncodex --approval-mode full-auto\n\n```\n\n3. 开始提示\n\n```text\n/goal [插入目标]\n\n```\n\n如果你使用的是 Claude",
-      "text_excerpt_zh_hash": "db4a364a9e9492ca",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2054279489774120960"
     },
     "https://x.com/i/article/2054596954282496000": {
       "cleaner_v": 2,
@@ -14371,23 +14292,6 @@
       "https://x.com/assaf_elovic/status/2052256409761234974",
       "https://x.com/assaf_elovic/status/2055317593670472132"
     ],
-    "2054168204658815070": [
-      "https://x.com/ZoharAtkins/status/2054987147313099063",
-      "https://x.com/ZoharAtkins/status/2054918318939640267",
-      "https://x.com/ZoharAtkins/status/2054892249666732460",
-      "https://x.com/ZoharAtkins/status/2054892062793683244",
-      "https://x.com/ZoharAtkins/status/2054841146623320323",
-      "https://x.com/ZoharAtkins/status/2054634220689985793",
-      "https://x.com/ZoharAtkins/status/2054633233363452042",
-      "https://x.com/ZoharAtkins/status/2054632774129078757",
-      "https://x.com/ZoharAtkins/status/2054573110767112497",
-      "https://x.com/ZoharAtkins/status/2054566434265534543",
-      "https://x.com/ZoharAtkins/status/2054529952419099125",
-      "https://x.com/ZoharAtkins/status/2054509416200687638",
-      "https://x.com/ZoharAtkins/status/2054496910753325521",
-      "https://x.com/ZoharAtkins/status/2054495846620696715",
-      "https://x.com/ZoharAtkins/status/2054495728672583818"
-    ],
     "2054175507181093201": [
       "https://x.com/colton__tollett/status/2054175507181093201",
       "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg",
@@ -14411,34 +14315,8 @@
       "https://x.com/colton__tollett/status/2054955929586557091",
       "https://x.com/colton__tollett/status/2054345895982834125"
     ],
-    "2054222017566855508": [
-      "https://x.com/jietang/status/2054406288235475299"
-    ],
     "2054385995727196611": [
       "https://x.com/StarKnight/status/2054385995727196611"
-    ],
-    "2054457804057100405": [
-      "https://x.com/vincemask/status/2054583782204977191",
-      "https://x.com/vincemask/status/2054524149981446567",
-      "https://x.com/vincemask/status/2054476132930773408",
-      "https://x.com/vincemask/status/2054466242048934272",
-      "https://x.com/vincemask/status/2054464438561112548",
-      "https://x.com/vincemask/status/2054460407163781551",
-      "https://x.com/vincemask/status/2054457804057100405",
-      "https://x.com/i/article/2054198798197698560"
-    ],
-    "2054569766418108797": [
-      "https://x.com/aiedge_/status/2055046904401326241",
-      "https://x.com/aiedge_/status/2054960466078863858",
-      "https://x.com/aiedge_/status/2054713804739826002",
-      "https://x.com/aiedge_/status/2054569766418108797",
-      "https://x.com/i/article/2054279489774120960",
-      "https://code.claude.com/docs/en/goal",
-      "https://www.aiedgehq.co/"
-    ],
-    "2054582758522208477": [
-      "https://x.com/cky011/status/2054584839169569009",
-      "https://bestdesignsonx.com/"
     ],
     "2054883113097122064": [
       "https://x.com/hwwaanng/status/2054890171309711863",
@@ -18346,6 +18224,18 @@
       "https://x.com/danshipper/status/2065430839660568842",
       "https://proofeditor.ai"
     ],
+    "2065307070044234186": [
+      "https://x.com/TheAhmadOsman/status/2065307070044234186",
+      "http://x.com/i/article/2065291569712779264",
+      "https://x.com/TheAhmadOsman/status/2065307643220996098",
+      "https://x.com/TheAhmadOsman/status/2065318285646717196",
+      "https://x.com/TheAhmadOsman/status/2058617968628551718",
+      "https://x.com/TheAhmadOsman/status/2065325597140701533",
+      "https://x.com/Mayhem4Markets/status/2065201293224775828",
+      "https://x.com/TheAhmadOsman/status/2065394693769175475",
+      "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg",
+      "https://x.com/TheAhmadOsman/status/2065412426816688155"
+    ],
     "2065310168456515756": [
       "https://x.com/akkiex007/status/2065310168456515756"
     ],
@@ -18394,11 +18284,11 @@
     "2065412916858241404": [
       "https://x.com/rewind02/status/2065412916858241404",
       "http://x.com/i/article/1806814090246893569",
-      "https://x.com/rewind02/status/2065427536008409588",
       "https://x.com/rewind02/status/2065417575714976108",
+      "https://x.com/rewind02/status/2065427536008409588",
       "https://x.com/rewind02/status/2065414487004307659",
-      "https://x.com/rewind02/status/2065430987064885433",
       "https://x.com/rewind02/status/2065418644037804356",
+      "https://x.com/rewind02/status/2065430987064885433",
       "https://x.com/rewind02/status/2065414956699275484",
       "https://x.com/rewind02/status/2065414543539318974"
     ],
@@ -18410,6 +18300,10 @@
       "https://x.com/barrowjoseph/status/2065423284343050314",
       "http://x.com/i/article/2065421433048625152",
       "https://x.com/barrowjoseph/status/2065436640424706053"
+    ],
+    "2065428681703489648": [
+      "https://x.com/0xDepressionn/status/2065428681703489648",
+      "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg"
     ],
     "2065431425113825313": [
       "https://x.com/Zephyr_hg/status/2065431425113825313",
@@ -18436,6 +18330,19 @@
       "https://x.com/bibryam/status/2065445933601435823",
       "http://x.com/i/article/2065392205439651840"
     ],
+    "2065446727004352735": [
+      "https://x.com/SametSamyeli2/status/2065446727004352735",
+      "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg",
+      "https://x.com/SametSamyeli2/status/2065447575059149303",
+      "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+    ],
+    "2065454698711437810": [
+      "https://x.com/BetaTomorrow/status/2065454698711437810",
+      "http://x.com/i/article/2065452779955748864",
+      "https://x.com/BetaTomorrow/status/2065294704909185513",
+      "https://x.com/BetaTomorrow/status/2048580677290070016",
+      "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
+    ],
     "2065456339183390743": [
       "https://x.com/ericosiu/status/2065456339183390743",
       "https://pbs.twimg.com/media/HKj0eQAW8AAA5Mx.jpg",
@@ -18449,8 +18356,8 @@
       "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png",
       "https://x.com/zongheng_yang/status/2065467596993126859",
       "https://x.com/zongheng_yang/status/2065574775741882535",
-      "https://x.com/zongheng_yang/status/2065576109002141845",
-      "https://x.com/zongheng_yang/status/2065530191930437875"
+      "https://x.com/zongheng_yang/status/2065530191930437875",
+      "https://x.com/zongheng_yang/status/2065576109002141845"
     ],
     "2065472022566649897": [
       "https://x.com/PawelHuryn/status/2065472022566649897",
@@ -18459,7 +18366,8 @@
     ],
     "2065472650042867988": [
       "https://x.com/linear/status/2065472650042867988",
-      "https://linear.app/now/linear-agent-bug-fix"
+      "https://linear.app/now/linear-agent-bug-fix",
+      "https://x.com/linear/status/2065618067124858906"
     ],
     "2065472950233636958": [
       "https://x.com/milesdeutscher/status/2065472950233636958"
@@ -18473,8 +18381,8 @@
     ],
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
-      "https://x.com/benaratame/status/2065556965049172461",
       "https://x.com/benaratame/status/2065508155375665435",
+      "https://x.com/benaratame/status/2065556965049172461",
       "https://x.com/benaratame/status/2065490900772343856",
       "https://x.com/benaratame/status/2065633553472229578"
     ],
@@ -18488,6 +18396,10 @@
       "http://x.com/i/article/2062498846085685248",
       "https://x.com/scaling_shields/status/2065491519146963442",
       "https://x.com/messages/compose?recipient_id=1597855001459712002"
+    ],
+    "2065491390113382637": [
+      "https://x.com/scaling_shields/status/2065491390113382637",
+      "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg"
     ],
     "2065494480837583297": [
       "https://x.com/ClaudeDevs/status/2065494480837583297",
@@ -18534,6 +18446,7 @@
     "2065559839036637291": [
       "https://x.com/IBuzovskyi/status/2065559839036637291",
       "https://pbs.twimg.com/amplify_video_thumb/2065559653262434304/img/9JyFE40P6f3Zv6i_.jpg",
+      "https://x.com/IBuzovskyi/status/2065748374461059556",
       "https://x.com/IBuzovskyi/status/2065685425646145810"
     ],
     "2065564935006892390": [
@@ -18541,7 +18454,8 @@
     ],
     "2065624323952713834": [
       "https://x.com/wquguru/status/2065624323952713834",
-      "http://x.com/i/article/2065613433601695744"
+      "http://x.com/i/article/2065613433601695744",
+      "https://x.com/wquguru/status/2065745691461517822"
     ],
     "2065625151383732422": [
       "https://x.com/AlphaSignalAI/status/2065625151383732422",
@@ -18556,6 +18470,6 @@
       "https://x.com/sriramkri/status/2065631392139018247"
     ]
   },
-  "updated_at": "2026-06-13T10:07:50Z",
+  "updated_at": "2026-06-13T12:03:02Z",
   "window": "recent"
 }
