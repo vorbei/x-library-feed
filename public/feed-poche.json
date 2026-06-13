@@ -46,6 +46,9 @@
       "category": "Tools",
       "created_at": "2026-06-13T13:08:35.035370Z",
       "description": "Run — or wreck — a 1992 oil refinery. Fable Refinery is a three.js reconstruction inspired by SimRefinery, the lost Maxis Business Simulations training game built for Chevron: crude slates, cutpoints, maintenance, explosions, and free building.",
+      "description_zh": "运行——或摧毁——一座1992年的炼油厂。Fable Refinery 是一个基于 three.js 的重建项目，灵感来源于 SimRefinery——这款失落的 Maxis 商业模拟培训游戏曾为雪佛龙公司打造：原油指标、切割点、维护、爆炸，以及自由建造。",
+      "description_zh_hash": "015a95f6de5aedfb",
+      "description_zh_translator_v": 2,
       "domain": "simrefinery.netlify.app",
       "embed_type": "",
       "id": "k173mkdsc4cyptdpj04d17xzbn88k9p0",
@@ -68,6 +71,9 @@
         }
       ],
       "title": "Fable Refinery",
+      "title_zh": "Fable Refinery",
+      "title_zh_hash": "f1ca81508793507d",
+      "title_zh_translator_v": 2,
       "url": "https://simrefinery.netlify.app/",
       "x_status_id": null
     },
@@ -82,6 +88,9 @@
       "category": "Development",
       "created_at": "2026-06-12T10:23:08.347325Z",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.  - GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "description_zh": "一个用于在 Mac 上通过轻量级虚拟机创建和运行 Linux 容器的工具。它使用 Swift 编写，并针对 Apple 芯片进行了优化。  \n- GitHub - apple/container：一个用于在 Mac 上通过轻量级虚拟机创建和运行 Linux 容器的工具。它使用 Swift 编写，并针对 Apple 芯片进行了优化。",
+      "description_zh_hash": "6c9a5e068774ec62",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k171qbjppk8nxbvhg7fy1ng99n88gk7z",
@@ -104,6 +113,9 @@
         }
       ],
       "title": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub",
+      "title_zh": "GitHub - apple/container：一款在 Mac 上使用轻量级虚拟机创建和运行 Linux 容器的工具。该工具采用 Swift 编写，并针对 Apple 芯片进行了优化。",
+      "title_zh_hash": "44d832b8804ae4cb",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/apple/container",
       "x_status_id": null
     },
