@@ -5092,6 +5092,20 @@
       "title": "",
       "url": "http://x.com/i/article/2065526984328056832"
     },
+    "http://x.com/i/article/2065615613813288962": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065615613813288962",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKqc46UXIAA3Tka?format=jpg&name=900x900)](http://x.com/AlphaSignalAI/article/2065625151383732422/media/2065635880644059136)\n\nHow SIA's Self-Improving Loop Works, And How to Actually Run It \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/AlphaSignalAI)\n\n·\n\n3h\n\n·\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n1\n\n5\n\n[483](http://x.com/AlphaSignalAI/status/2065625151383732422/analytics)\n\nA Feedback-Agent that rewrites scaffolds and trains LoRA weights, three SOTA results, an MIT repo, and a 10-minute setup\n\n> In \\~8 mins: the 3-agent loop, the harness-vs-weights ablation across 3 benchmarks, a 6-step install-to-run tutorial, the verifier contract for your own tasks, and the one place the public repo diverges from the paper.\n\nSIA just hit 70.1% Top-1 accuracy on LawBench's 191-class Chinese legal benchmark, where the prior best was 45.0%.\n\nHexo Labs released it on May 28 as an MIT-licensed repo, alongside an arXiv paper titled \"SIA: Self Improving AI with Harness & Weight Updates\" co-authored with the University of Oxford.\n\n[![](https://pbs.twimg.com/profile_images/1763090471822536704/l57OOjTj_normal.jpg)](http://x.com/kunalbhatia91)\n\nKunal Bhatia\n\n@kunalbhatia91\n\n·\n\n[May 28](http://x.com/kunalbhatia91/status/2060013228231725092)\n\nSuperintelligence will be built on Self Improvement. Today \n\n[@hexoai](http://x.com/hexoai)\n\n, we’re excited to release ‘SIA’ - an open-source Self-Improving AI, to achieve any goal through recursive self improvement. While trying to solve a problem, SIA doesn't just improve it's abilities by updating\n\nShow more\n\n![](https://pbs.twimg.com/amplify_video_thumb/2060003043698225152/img/HHSLcFI59c-w9fbq.jpg)\n\n121\n\n226\n\n638\n\n[516K](http://x.com/kunalbhatia91/status/2060013228231725092/analytics)\n\nThe pitch: one loop where an AI rewrites the agent's scaffold and retrains the model's weights, two levers prior research only pulled separately.\n\nThe catch: the paper's version picks the lever automatically. The version you can run today asks you to pick it yourself.\n\n# \n\nWhat SIA actually is\n\nEvery agent is two things glued together. The harness (system prompt, tools, parsers, retry logic) decides how the model works the problem, and the weights decide what the model knows.\n\n[![Image](https://pbs.twimg.com/media/HKqSNLJWcAM4myD?format=jpg&name=small)](http://x.com/AlphaSignalAI/article/2065625151383732422/media/2065624134130757635)\n\nSelf-improvement research split along that seam. One school has a meta-agent rewrite the scaffold while the weights stay frozen, the other trains weights at test time while the scaffold stays frozen.\n\nSIA runs both levers in a single loop. When scaffold edits stop paying, it trains the model instead, using the task's own scoring function as the reward.\n\n# \n\nThree benchmarks, one clean ablation\n\nThe paper isolates each lever's contribution. SIA-H is harness updates only, SIA-W+H adds weight updates on top.\n\n[![Image](https://pbs.twimg.com/media/HKqM-YIXMAAfGnt?format=jpg&name=small)](http://x.com/AlphaSignalAI/article/2065625151383732422/media/2065618382360096768)\n\nThe TriMul row translates to a 1,017 µs kernel against the prior SOTA's 1,161 µs, a 14.02x speedup over SIA's own baseline. Adding weight updates after the harness phase cut 91.9% off the harness-only peak of 12,483 µs.\n\nThe most quotable result is two lines of NumPy. On the denoising task, the first weight-update checkpoint added an np.clip \\+ np.rint step that rounds imputed gene counts to non-negative integers, a biological constraint no scaffold edit produced across every harness iteration.\n\nOne caveat before you screenshot the table. All numbers come from the authors' own verifier setup (paper, Table 3), with no",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2065615613813288962"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -11811,20 +11825,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png"
     },
-    "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
-    },
     "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -17836,7 +17836,7 @@
     ],
     "2064844961065931084": [
       "https://x.com/mstockton/status/2064844961065931084",
-      "https://x.com/mstockton/status/2065279800600646005"
+      "https://x.com/mstockton/status/2065433855532654998"
     ],
     "2064848575708922093": [
       "https://x.com/cobi_bean/status/2064848575708922093",
@@ -17911,26 +17911,26 @@
       "https://x.com/zeddotdev/status/2065089007080640516",
       "https://x.com/zeddotdev/status/2065089008502505501",
       "https://zed.dev/deltadb",
-      "https://x.com/zeddotdev/status/2065116125055045778",
-      "https://x.com/zeddotdev/status/2065207797952733340"
+      "https://x.com/zeddotdev/status/2065207797952733340",
+      "https://x.com/zeddotdev/status/2065116125055045778"
     ],
     "2065129901427130678": [
       "https://x.com/ishaansehgal/status/2065129901427130678",
       "http://x.com/i/article/2064983895096066048",
+      "https://x.com/ishaansehgal/status/2065175022294159803",
       "https://x.com/ishaansehgal/status/2065499549905694982",
       "https://x.com/ishaansehgal/status/2065495232230133868",
-      "https://x.com/ishaansehgal/status/2065175022294159803",
-      "https://x.com/ishaansehgal/status/2065537029421535480",
       "https://x.com/ishaansehgal/status/2065499843766727171",
       "https://x.com/ishaansehgal/status/2065157411271594448",
+      "https://x.com/ishaansehgal/status/2065537029421535480",
       "https://x.com/ishaansehgal/status/2065535200399142912",
       "https://x.com/ishaansehgal/status/2065499711881064669",
       "https://x.com/ishaansehgal/status/2065500480508473839",
       "https://x.com/ishaansehgal/status/2065153564797002012",
-      "https://x.com/ishaansehgal/status/2065494480959205861",
       "https://x.com/ishaansehgal/status/2065133902528962697",
+      "https://x.com/ishaansehgal/status/2065558239698469203",
       "https://x.com/ishaansehgal/status/2065161301329109382",
-      "https://x.com/ishaansehgal/status/2065558239698469203"
+      "https://x.com/ishaansehgal/status/2065494480959205861"
     ],
     "2065133771817619628": [
       "https://x.com/posthog/status/2065133771817619628",
@@ -18004,8 +18004,8 @@
     "2065318847151046781": [
       "https://x.com/blader/status/2065318847151046781",
       "https://github.com/blader/arbitrage",
-      "https://x.com/blader/status/2065377949944344794",
-      "https://x.com/blader/status/2065319465856966811"
+      "https://x.com/blader/status/2065319465856966811",
+      "https://x.com/blader/status/2065377949944344794"
     ],
     "2065336298055880810": [
       "https://x.com/bibryam/status/2065336298055880810",
@@ -18037,8 +18037,8 @@
       "http://x.com/i/article/2065383150319280129",
       "https://x.com/AlphaSignalAI/status/2065441925935870301",
       "https://github.com/NVIDIA/SkillSpector/",
-      "https://x.com/AlphaSignalAI/status/2065449628821037530",
-      "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
+      "https://x.com/AlphaSignalAI/status/2065625151383732422",
+      "http://x.com/i/article/2065615613813288962"
     ],
     "2065444904860610572": [
       "https://x.com/minicoohei/status/2065444904860610572",
@@ -18053,8 +18053,8 @@
       "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png",
       "https://x.com/zongheng_yang/status/2065467596993126859",
       "https://x.com/zongheng_yang/status/2065574775741882535",
-      "https://x.com/zongheng_yang/status/2065576109002141845",
-      "https://x.com/zongheng_yang/status/2065530191930437875"
+      "https://x.com/zongheng_yang/status/2065530191930437875",
+      "https://x.com/zongheng_yang/status/2065576109002141845"
     ],
     "2065472022566649897": [
       "https://x.com/PawelHuryn/status/2065472022566649897",
@@ -18063,7 +18063,8 @@
     ],
     "2065472650042867988": [
       "https://x.com/linear/status/2065472650042867988",
-      "https://linear.app/now/linear-agent-bug-fix"
+      "https://linear.app/now/linear-agent-bug-fix",
+      "https://x.com/linear/status/2065618067124858906"
     ],
     "2065485993734517180": [
       "https://x.com/nfcampos/status/2065485993734517180",
@@ -18095,6 +18096,6 @@
       "https://x.com/jediahkatz/status/2065564935006892390"
     ]
   },
-  "updated_at": "2026-06-13T01:34:19Z",
+  "updated_at": "2026-06-13T06:32:30Z",
   "window": "recent"
 }
