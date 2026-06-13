@@ -68,6 +68,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I ran 60 metered audits. The 2x-per-token model came out 4x cheaper.\n\nFable 5 vs Opus 4.8. 30 audits per model, same three files, every run billed from session traces. The job wasn't answering questions. It was finding problems, the work you'd actually delegate to an agent.\n\nThe price depends on the unit:\n\n→ Per token: 2x. The sticker price.\n→ Per audit: 2.5x ($2.93 vs $1.17). Fable wrote more.\n→ Per finding: 1.25x. Fable surfaced 2x more issues.\n→ Per the bug that mattered: 0.25x.\n\nA median of 14 findings against 7 could just mean more noise. That's why I planted bugs: known ground truth, caught or missed, no judgment calls.\n\nThe one that mattered was a contradiction between two files. Neither looked wrong on its own. Fable caught it in 20 of 30 audits. Opus caught it in 2. Expected spend to catch it once: $4.40 vs $17.55.\n\nBefore you ask what a token costs, ask what a miss costs. Volume subtasks where misses are cheap: the cheap model wins. Review work where one miss ships the bug: the deep model is the bargain. That's the split my CLAUDE.md encodes now.\n\nYou aren't buying tokens. You're buying the finding you'd have missed.",
+      "text_zh": "我跑了60次计量审计。按token计费2倍的模型，实际成本反而低了4倍。\n\nFable 5对比Opus 4.8。每个模型30次审计，同一组三个文件，每次运行都从会话追踪计费。任务不是回答问题，而是发现问题——这才是你真正会交给agent干的活。\n\n价格取决于计价单位：\n\n→ 按token计：2倍。这是标价。\n→ 按审计次数计：2.5倍（$2.93 vs $1.17）。Fable写得更多。\n→ 按发现数计：1.25倍。Fable发现的问题数量多了一倍。\n→ 按真正重要的bug计：0.25倍。\n\n中位数14个发现对比7个，可能只是噪音更多。所以我植入了bug：已知的基准真相，抓到或漏掉，无需主观判断。\n\n真正重要的是两个文件之间的矛盾。单独看哪个都没问题。Fable在30次审计中抓住了20次。Opus只抓住了2次。预期花费：Fable $4.40，Opus $17.55，才能抓到一次。\n\n在你问一个token多少钱之前，先问问一次遗漏的成本是多少。批量子任务中遗漏代价低：便宜模型胜出。审查工作中一次遗漏就会让bug上线：深度模型才是划算的选择。这就是我现在的CLAUDE.md所编码的分界线。\n\n你不是在买token。你是在买那个你本会错过的发现。",
+      "text_zh_hash": "90165b27c105d145",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2065472022566649897"
     },
     {
@@ -109,6 +112,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Rewriting Notion in SwiftUI:\nhttps://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/ #mjtsaiblog",
+      "text_zh": "用 SwiftUI 重写 Notion：\n\nhttps://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/ #mjtsaiblog",
+      "text_zh_hash": "bfa676095c5938f5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mjtsai/status/2065518402601418756"
     },
     {
@@ -158,6 +164,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a >4x markup to run sandboxes on someone else's machines.\n\nIntroducing SkyPilot Sandboxes — Run BYOC sandboxes on your own clusters.\n\n• 50,000+ sandboxes on a single cluster\n• Sub-second launches with warm pools\n• Great for RL rollout (keep sandbox clusters close to GPUs)\n\nBenchmark shows @skypilot_org Sandboxes are 4-10x cheaper than Modal at lower latency. Full results in blog.",
+      "text_zh": "沙盒技术正风靡一时（Modal、E2B、AWS 等）。大多数 AI 团队需支付超过 4 倍的溢价，才能在别人的机器上运行沙盒。\n\n隆重推出 SkyPilot Sandboxes —— 在您自己的集群上运行 BYOC 沙盒。\n\n• 单个集群可支持 50,000+ 个沙盒\n• 借助预热池实现亚秒级启动\n• 非常适合强化学习部署（将沙盒集群靠近 GPU 放置）\n\n基准测试显示，@skypilot_org 沙盒比 Modal 便宜 4-10 倍，且延迟更低。完整结果详见博客。",
+      "text_zh_hash": "119529616916f767",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zongheng_yang/status/2065467594694598852"
     },
     {
@@ -198,6 +207,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Linear Agent can now write code.\n\nWe put it to work, automatically fixing bugs as they land in triage.\n\nIgor, the engineer behind these automations, shares how he set them up.\n\nhttps://linear.app/now/linear-agent-bug-fix",
+      "text_zh": "Linear Agent 现在可以编写代码了。\n\n我们让它投入工作，自动修复在分类阶段出现的错误。\n\n负责这些自动化流程的工程师 Igor 分享了他是如何设置它们的。\n\nhttps://linear.app/now/linear-agent-bug-fix",
+      "text_zh_hash": "fcf6c6371967c48d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/linear/status/2065472650042867988"
     },
     {
@@ -256,6 +268,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Learn more about self-hosted code sandboxes with these and other providers in the Claude Managed Agents docs:\n\nhttps://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker https://t.co/tpUfWt2TFo",
+      "text_zh": "了解更多关于自托管代码沙箱的信息，请参阅 Claude Managed Agents 文档中的这些及其他提供商：\n\nhttps://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker https://t.co/tpUfWt2TFo",
+      "text_zh_hash": "f8111549fc938a83",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ClaudeDevs/status/2065494482460836183"
     },
     {
@@ -297,6 +312,9 @@
         "bookmark@chumsdock"
       ],
       "text": "We've invested into making agents that are able to run forever, monitor ML jobs, surface issues, and act as research helpers. Everything is very configurable, so encourage trying to find a workflow that works for you. \n\nMore like this coming down the tube!",
+      "text_zh": "我们已投入开发能够持续运行、监控机器学习任务、发现异常并充当研究助手的智能体。所有功能均可高度配置，建议您尝试找到最适合自己的工作流程。\n\n更多类似功能即将推出！",
+      "text_zh_hash": "da340d72fba3f399",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jediahkatz/status/2065564935006892390"
     },
     {
@@ -349,6 +367,9 @@
         "bookmark@chumsdock"
       ],
       "text": "At the WWDC26 Platforms State of the Union developer keynote, we mentioned that the TrueType font hinting engine had been rewritten in Swift, for speed and memory safety. This article goes into considerable detail on \"what\" and \"how\": https://www.swift.org/blog/migrating-truetype-hinting-to-swift/ https://t.co/q23hgonFRf",
+      "text_zh": "在WWDC26平台现状联盟开发者主题演讲中，我们提到TrueType字体微调引擎已用Swift重写，以提升速度和内存安全性。本文详细阐述了\"做了什么\"和\"如何实现\"：https://www.swift.org/blog/migrating-truetype-hinting-to-swift/ https://t.co/q23hgonFRf",
+      "text_zh_hash": "8ff08bf8a419422f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/timsneath/status/2065534297709466100"
     },
     {
@@ -430,6 +451,9 @@
         "bookmark@chumsdock"
       ],
       "text": "How to Grow From Senior to Staff Engineer in the AI Era\nhttps://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff",
+      "text_zh": "# 如何在AI时代从高级工程师成长为Staff工程师\n\nhttps://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff",
+      "text_zh_hash": "8e5bdc581d3eecc2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2065336298055880810"
     },
     {
