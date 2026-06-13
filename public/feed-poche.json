@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 693,
+      "count": 694,
       "name": "Tools"
     },
     {
-      "count": 427,
+      "count": 428,
       "name": "Development"
     },
     {
@@ -38,8 +38,75 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2298,
+  "item_count": 2300,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-13T14:52:38.938104Z",
+      "article_title_extracted": "Fable Refinery",
+      "category": "Tools",
+      "created_at": "2026-06-13T13:08:35.035370Z",
+      "description": "Run — or wreck — a 1992 oil refinery. Fable Refinery is a three.js reconstruction inspired by SimRefinery, the lost Maxis Business Simulations training game built for Chevron: crude slates, cutpoints, maintenance, explosions, and free building.",
+      "domain": "simrefinery.netlify.app",
+      "embed_type": "",
+      "id": "k173mkdsc4cyptdpj04d17xzbn88k9p0",
+      "og_image_url": "https://cloud.poche.app/api/storage/a6385b84-7367-4d77-84b8-c0f36cfc3fdd",
+      "recommended_at": "2026-06-13T13:08:47.354000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "simulation",
+        "retro-gaming",
+        "industrial-engineering"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T13:08:47.354000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Fable Refinery",
+      "url": "https://simrefinery.netlify.app/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-13T14:52:38.938104Z",
+      "article_image_urls": [
+        "https://repository-images.githubusercontent.com/993475914/123bf50d-9ae2-48d9-94f7-7a345bf82c15",
+        "https://github.com/apple/container/raw/main/assets/Containerization-Logo.png",
+        "https://github.com/apple/container/raw/main/docs/assets/landing-movie.gif"
+      ],
+      "article_title_extracted": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub",
+      "category": "Development",
+      "created_at": "2026-06-12T10:23:08.347325Z",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.  - GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k171qbjppk8nxbvhg7fy1ng99n88gk7z",
+      "og_image_url": "https://repository-images.githubusercontent.com/993475914/123bf50d-9ae2-48d9-94f7-7a345bf82c15",
+      "recommended_at": "2026-06-13T11:14:32.897000Z",
+      "source": "poche@huan",
+      "source_type": "poche",
+      "tags": [
+        "containers",
+        "swift",
+        "apple-silicon"
+      ],
+      "teams": [
+        {
+          "id": "m574wc4bc2w3v8hxxsced5h3ph7wkqcv",
+          "name": "huan",
+          "recommended_at": "2026-06-13T11:14:32.897000Z",
+          "recommended_by": "huan",
+          "slug": "huan"
+        }
+      ],
+      "title": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub",
+      "url": "https://github.com/apple/container",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -102124,7 +102191,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2142,
+      "count": 2143,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -102136,7 +102203,7 @@
       "slug": "fonter"
     },
     {
-      "count": 33,
+      "count": 34,
       "id": "m574wc4bc2w3v8hxxsced5h3ph7wkqcv",
       "name": "huan",
       "slug": "huan"
@@ -102160,5 +102227,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-13T11:00:27.049969Z"
+  "updated_at": "2026-06-13T14:52:40.209684Z"
 }
