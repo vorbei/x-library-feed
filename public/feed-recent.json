@@ -5047,6 +5047,45 @@
       "title": "",
       "url": "http://x.com/i/article/2065421433048625152"
     },
+    "http://x.com/i/article/2065431417861844992": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065431417861844992",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKnkLiMXUAA-QUn?format=jpg&name=900x900)](http://x.com/nfcampos/article/2065485993734517180/media/2065432790934441984)\n\nLoop Driven Development, in practice\n\n[![](https://pbs.twimg.com/profile_images/1898268630389006336/9QfJN60B_normal.jpg)](http://x.com/nfcampos)\n\n[Nuno Campos](http://x.com/nfcampos)\n\n[@nfcampos](http://x.com/nfcampos)\n\n·\n\n8h\n\nFollow\n\nClick to Follow nfcampos\n\n1\n\n12\n\n67\n\n[4K](http://x.com/nfcampos/status/2065485993734517180/analytics)\n\nIn \n\n[Loop Driven Development](https://github.com/nfcampos/loop-dev/blob/main/README.md)\n\n I made an argument: when coding agents do the implementation, the engineering that matters moves to the feedback loop, and the human's job comes down to four decisions — which oracle to trust, which properties to pin, what shape the comparison takes, and when the agent is done. This post walks through one real project, decision by decision, with verbatim excerpts from the two Claude Code sessions where it happened. The result is public: \n\n[xlsx-corpus-bench](https://github.com/witanlabs/xlsx-corpus-bench)\n\n (Apache 2.0).\n\nHere's the first message of the session that built it:\n\n> how could we quantify what % of the ooxml spec or excel feature set our xlsx product covers, compared to alternatives, like openpyxl, libre office, aspose, epplus, closedxml etc. is this doable without fudging numbers, ie in a way that people wont question it\n\nNotice the question isn't really about tests. It's about credible numbers. Anyone can publish a benchmark where their own product wins; the hard part is building one where the methodology holds up for readers who have every incentive to find the flaw. \"In a way that people won't question it\" ended up being the constraint behind most of the decisions below.\n\nOne session later I had a benchmark that runs 15,970 real-world workbooks (6.8 million formula cells) through five xlsx engines and compares every recalculated formula cell against what real Excel produces. The session ran for about 39 hours of wall clock (roughly 800 turns), most of it unattended. Two public corpora bracket the space: \n\n[FUSE](https://github.com/witanlabs/xlsx-corpus-bench/tree/main/corpus-fuse)\n\n, 10,544 workbooks crawled from the open web — old, hostile, every producer imaginable — and SpreadsheetBench, 5,426 modern, formula-heavy workbooks from real Excel forum questions. Every number has an external denominator and a binary, automated pass/fail.\n\nThe agent built all of it: the corpus plumbing, the Excel automation, the comparators, the reports, the charts. What I contributed is the four decisions. Let's go through them one at a time.\n\n## \n\nDecision 1: which oracle\n\nThe first version of the bench measured recalculation the obvious way: open each workbook, recalculate, and compare against the values already cached inside the file. Spreadsheet files store the last computed value of every formula, so this looks like free ground truth — millions of expected values, no extra work.\n\nI dropped it as soon as I noticed:\n\n> definition for recalculation is compared to what was in the file, or to what excel would produce, only the 2nd is valuable i think? as we dont know where the file came from, for all i know it was last edited by libreoffice or something\n\nThe problem with cached values is provenance. A workbook crawled from the open web might have last been saved by LibreOffice, by a Java library from 2009, or by a tool that never ran the calculation at all. Comparing against those caches doesn't measure \"does this engine calculate like Excel\"; it measures \"does this engine agree with whatever last touched the file.\" Only the first is worth publishing.\n\nSo the harness asks Excel itself, fresh, for every file. \n\n[harness/excel\\_truth.py](https://github.com/witanlabs/xlsx-corpus-bench/blob/main/harness/excel%5Ftruth.py)\n\n stages a copy of eac",
+      "title": "",
+      "url": "http://x.com/i/article/2065431417861844992"
+    },
+    "http://x.com/i/article/2065441692929667073": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065441692929667073",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKnvLn4aYAA9cIw?format=jpg&name=900x900)](http://x.com/minicoohei/article/2065444904860610572/media/2065444887089274880)\n\nClaude Fable 5による感想レポートBigQuery・Snowflake・Databricks 「AI Ready 基盤」として使ってみた \n\n[![](https://pbs.twimg.com/profile_images/1921185156091834368/WdIzT_w3_normal.jpg)](http://x.com/minicoohei)\n\n[minicoohei.eth](http://x.com/minicoohei)\n\n[@minicoohei](http://x.com/minicoohei)\n\n·\n\n10h\n\nFollow\n\nClick to Follow minicoohei\n\n6\n\n63\n\n[9.3K](http://x.com/minicoohei/status/2065444904860610572/analytics)\n\n\\*これはClaude Fable - このPoCを実際に手で駆動したエージェント本人の一人称・感想記事です。（Claude Fable ５に実際に今のデータ基盤を移行させてみてGB級のそこまでおおきくないデータ量においてSnowflakeとBigqueryとDataBricksでどの程度ちがうのか？何がいいのか？をPOCとして比較してもらいました）\n\n以下--------本文です。\n\n## \n\n先に結論\n\n3つとも「AI に社内データを安全に使わせる基盤」として成立する。でも触ってみると、差は\"賢さ\"ではなかった。NL→SQL の賢さは Snowflake(Cortex Analyst) も Databricks(Genie) もほぼ互角で、どちらも私が日本語で投げた質問を正しい SQL に落とした（リードタイム平均=27.43日、状態別件数=124/111/3/2 まで正解値ぴったり）\n\n  \n本当に効いたのは次の2点だった。\n\n1\\. 繋ぐまでの摩擦（セットアップで何回地雷を踏むか）2\\. 意味づけ層（セマンティック層）を挟めるか（Agent が誤った数字を自信満々に返すのを防げるか）\n\n順に、触った実感を書く。\n\n## \n\nBigQuery — 一番素直。でも\"意味づけ\"が無いと暴走する\n\n最初に叩いて一番ストレスが無かったのが BigQuery だった。認証も既存の連携でほぼそのまま、クエリは投げれば即返る。エージェントにとって「素直に SQL を書いて即結果」という体験は速くて気持ちいい。\n\nただ、ここに落とし穴がある。生テーブルに直接 SQL を書く構成だと、列名や業務ルールを Agent が\"推測\"で埋める。\n\n「未完了の Issue」と言われて completed/cancelled をどう除くか、リードタイムを時間で持っているのか日で持っているのか——定義が外側に無いと、Agent はそれっぽい SQL を書いて間違った数字を自信満々に返す。これが一番怖い。\n\n→ BigQuery は「最速で始められる」が、意味づけ層を必ず外付けする前提で使うべき、という実感。運用は一番ラク。\n\n## \n\nSnowflake — 枯れていて安心。\"開放して大丈夫\"の堅さ\n\nSnowflake は触っていて「大人の基盤」という感じがした。\n\nNL→SQL（Cortex Analyst）は Semantic View に対してしか効かない作りで、生成 SQL が必ず意味づけ層を通る。\n\nつまり Agent が生テーブルを推測で叩けない。これは business user に開放する——つまり「現場の人が自由に AI に聞く」——前提だと決定的に安心できる設計だ。\n\n管理 MCP が正式版（GA）で、接続が枯れている。key-pair 認証も一度通れば安定していた。\n\n唯一ヒヤッとしたのが権限分離。\n\nロールを絞ったのに範囲外テーブルが読めてしまった。原因は \"secondary roles\" の既定で管理者権限が裏で生きていたこと。\n\n\\`USE SECONDARY ROLES NONE\\` で直ったが、「ロールを作った＝分離できた」は誤りで、必ず\"弾かれること\"を確認すべきという教訓になった。\n\n→ Snowflake は「本番で広く安全に開放する」用途で一番信頼できた。代わりにデータは必ずコピーして載せる必要がある（BQ から直接は読めない）。\n\n## \n\nDatabricks — 繋ぐまで地雷原。でも繋がれば一番賢い\n\n正直、一番手こずったのが Databricks。そして、一番感心したのも Databricks だった。\n\n繋ぐまでが地雷原。BigQuery を移さず直読する Federation は魅力的なのに、実際には：\n\n\\- サービスアカウントの鍵が組織ポリシーで作れない（既存鍵を流用して回避） - 行を読もうとすると \\`readSessionUser\\` 権限が足りず失敗 - さらに、意味づけ層（Metric View）で BigQuery を直接ラップした瞬間、Serverless のネットワーク制御に弾かれて固まる\n\n最後のは効いた。「完全ゼロコピー」のはずが、ガバナンス層を作るには結局対象テーブルだけ小さくコピー（実体化）する羽目になった。\n\nところが——繋がってからの Genie が一番賢かった。日本語で「最新のスナップショットで状態別に」と言えば \\`WHERE snapshot\\_date=(SELECT MAX(...))\\` をちゃんと書き、クロスソースの突合は CTE で join を自分で組み立てた。しかも 空間作成から質問まで全部 API で自動化できた——エージェントが自分で分析環境を立てて聞く、という未来がここだけ現実だった。\n\n→ Databricks は「繋ぐまでの摩擦は最大、繋がれば賢さと自律性は最高」。データレイク資産やデータエンジニアがいる組織向き。\n\n## \n\n横断して見えた一番大事なこと\n\n[![Image](https://pbs.twimg.com/media/HKnuzksaYAAJzmV?format=jpg&name=small)](http://x.com/minicoohei/article/2065444904860610572/media/2065444473916776448)\n\n  \n3基盤を叩いて確信したのは、Agent の信頼性を決めるのは基盤の銘柄ではなく「意味づけ層を挟むかどうか」だということ。\n\n\\- 層が無いと、どんなに賢いモデルでも生テーブルを推測で叩いてもっともらしい間違いを返す。 - 層があると、Agent は定義に縛られて暴走しない。「業務利用者に開放できる」のはこの一点にかかっている。\n\nそして面白いのは、この\"層\"は3基盤共通で同じ定義（IR）から作れること。私は1つの定義ファイル群を書いて、それを Snowflake の Semantic View にも Databricks の Metric View にもコンパイルした。基盤が違っても、Agent から見た体験（意味づけ経由で正答する）は揃う。\n\n  \n## \n\n結局どう使い分けるか\n\n[![Image](https://pbs.twimg.com/media/HKnuTAKa8AAOXph?format=jpg&name=small)](http://x.com/minicoohei/article/2065444904860610572/media/2065443914354716672)\n\n  \nGCP中心・最速で始めたい・人手薄い -> BigQuery（＋意味づけ層は必ず外付け） \n\n業務利用者に広く・本番で安全に開放したい -> Snowflake（枯れてる・分離も実証済み。)\n\n既存BQ資産を移さず・ML/レイクもある ->Databricks (Federationで移行ゼロ・Genieが賢い。繋ぐ癖は覚悟） \n\nただ、エージェントを駆動した立場で言うと、「どの基盤か」より「意味づけ層を挟んだか」のほうが体験を10倍変える。\n\nだから私の本音の推しは——基盤はどれでもいいから、まず Agent に\"業務の意味\"を教え込む層を持て。それさえあれば、銘柄の乗り換えは後からでも効く。\n\n\\-\n\n最後の文に震えたね。というかそうだねと思った。\n\n  \n\\## 注記\n\n\\- 駆動モデル: Claude Fable 5 - NL質問は日本語、採点は「修正なし正答=満点」。 - 接続・採点・図表生成まで実測。\n\n* [![](https://pbs.twimg.com/profile_images/1921185156091834368/WdIzT_w3_normal.jpg)](http://x.com/minicoohei)  \n[minicoohei.eth](http",
+      "title": "",
+      "url": "http://x.com/i/article/2065441692929667073"
+    },
+    "http://x.com/i/article/2065526984328056832": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065526984328056832",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKo59UzaoAA2_oZ?format=jpg&name=900x900)](http://x.com/danshipper/article/2065527146425332190/media/2065527104821960704)\n\nThe Moral of Fable\n\n[![](https://pbs.twimg.com/profile_images/1946219091305340928/_Ef-eDlc_normal.jpg)](http://x.com/danshipper)\n\n[Dan Shipper ![📧](https://abs.twimg.com/emoji/v2/svg/1f4e7.svg)](http://x.com/danshipper)\n\n[@danshipper](http://x.com/danshipper)\n\n·\n\n5h\n\n6\n\n7\n\n88\n\n[9.9K](http://x.com/danshipper/status/2065527146425332190/analytics)\n\nAs any child who’s heard Aesop knows, the point of a fable is its moral. We see the consequences of falsely crying wolf. We learn why slow and steady wins the hare race.\n\nSo what is the moral of Claude Fable 5, Anthropic’s newest model, which this week we called the best coding model in the world?\n\nFor engineers, the case is easy to make. For many knowledge workers, though, Fable might feel incremental. You may have one-shotted an impressive demo or two, but you’re probably not using it for your day-to-day work. Why would you? It costs twice as much and the results aren’t that much better.\n\nBut there is a certain class of developers who are feeling Fable’s full force. These are people like Cora general manager Kieran Klaassen, who are suddenly churning through his backlog of bug fixes and feature requests in hours instead of days. “This is my favorite model ever,” he told me.\n\nWhat’s the difference between Kieran and everyone else? The difference between Kieran and most people using Fable isn’t simply that he’s a developer but that he’s at Level 7 or 8 on our scale of AI use: He delegates whole projects, lets agents work asynchronously, reviews the results, and feeds what he learns into the next run. In other words he writes—dare I say it, loops—not prompts.\n\nFor now, this might make Fable seem like a tool for developers. But in AI, developer workflows have a habit of spreading to the rest of knowledge work. Claude Code started as a developer tool, and now the same methodology is being used for everything from slide decks to spreadsheets inside of Cowork and Codex.\n\nIf you’re not feeling Fable’s force, that’s probably because you haven’t yet started to treat your work like gardening.\n\nGardening and loops\n\nTwo years ago I wrote:\n\n“This era of creativity is going to look more like gardening. A gardener doesn’t grow plants directly. Instead, she sets up the conditions for the garden to grow.”\n\nWhen you garden, you’re creating a loop. You water and weed, prune and stake, establishing and maintaining the optimal environment; the plant itself does the growing..\n\nLikewise, developers are now creating the optimal conditions for a product to grow and improve. They’re collecting inputs like user feedback, turning it into actionable plans, which then become the basis for AI to do its work. They also create a system for reviewing that work, merging the changes, and integrating the lessons. Each stage’s output becomes the next one’s input; the developer’s role becomes determining the best order and process to help the product flourish. The process becomes the product.\n\nYou can already measure this. As soon as he’d grasped Fable’s capabilities, Kieran set a new goal for Cora: Fix any reported papercut or bug within 24 hours. So far, Fable’s held up its end of the bargain: The median time from a bug report to a merged fix is five hours over the last week, per our internal measurements. A product built this way is like a wind-up toy in reverse: Instead of winding down after you release it, every turn of the loop gives it more energy and momentum.\n\nTending the work is the loop. You decide what goes in, what it can reach, and when it’s done, Swap the fixing bugs for making copy edits or writing quarterly sales forecasts, and the same shape holds for any knowledge work.\n\nThe end of the flat frontier\n\nWorking in the way Fable demand",
+      "title": "",
+      "url": "http://x.com/i/article/2065526984328056832"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6562,6 +6601,31 @@
       "title": "GitHub - botirk38/sift: Indexed regex search over a codebase · GitHub",
       "url": "https://github.com/botirk38/sift"
     },
+    "https://github.com/byoungd/English-level-up-tips": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 .  离谱的英语学习指南/英语学习教程/英语学习/学英语 - byoungd/English-level-up-tips",
+      "final_url": "https://github.com/byoungd/English-level-up-tips",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/33f4e1931ba5f4390c8373c58ceb455deaab1c7924ba9241bc59592e48e8ac93/byoungd/English-level-up-tips",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/my-love.png",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/token-love-domain.jpg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/CEFR@2x.png",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/feature.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/understanding@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/vocabulary@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/listening@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/reading@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/speaking@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/writing@2x.svg",
+        "https://github.com/byoungd/English-level-up-tips/raw/master/docs/assets/ai@2x.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
+      "url": "https://github.com/byoungd/English-level-up-tips"
+    },
     "https://github.com/codejunkie99/cove": {
       "content_type": "text/html; charset=utf-8",
       "description": "Contribute to codejunkie99/cove development by creating an account on GitHub.",
@@ -7441,6 +7505,27 @@
       "title": "Code review should be fast - Linear",
       "url": "https://linear.app/now/code-review-should-be-fast"
     },
+    "https://linear.app/now/linear-agent-bug-fix": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://linear.app/now/linear-agent-bug-fix",
+      "frameable": false,
+      "image_urls": [
+        "https://webassets.linear.app/images/ornj730p/production/a1233a88f24384ece9db632bc9440f9af661e425-1200x675.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/e692c0e6157849b380b458d0219bfc982b00a7bd-3904x1920.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/18a688ae61fd5c8d2fd3762b964ed4658fffab9e-2352x1280.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/546da9198c390c2b08ea78ebb9b89a1a47ddbc3a-3904x2520.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/7ad4dd8602655a29c974027764eaf3d3007bbc9b-2352x1980.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/a8b31aee3ae9241c1e6a2972296b65630e403722-3904x2744.png?q=95&auto=format&dpr=2",
+        "https://webassets.linear.app/images/ornj730p/production/54835bafa47755a2e4290055fabbde88e82ef2e8-2352x1992.png?q=95&auto=format&dpr=2"
+      ],
+      "kind": "article",
+      "text_excerpt": "Teaching an agent to auto-fix bugs\nIgor is an engineer at Linear who’s spent the last few months teaching Linear Agent to fix bugs on its own. This is his honest take on what that’s really like.\nI was very skeptical of AI to begin with. Part of me suspected the technology wasn’t as capable as the hype would suggest, while another part was deeply worried that it was far more capable than I wanted to admit.\nBut the closer I got to the technology the more those worries started to fade. The tech is very capable, but when you work with it you start to realise the extent of that capability. Where it’s strong, where it’s weak, and how the engineering role is evolving to fit the spaces between them.\nI’ve spent the majority of my time over the past few months building out automations in Linear.\nWhen combined with the Linear Agent, which can read and write code, and take actions in your workspace, you get an outcome that’s close to what we described last year as “[Self-driving SaaS](https://linear.app/now/self-driving-saas)”. Software that can do things in the background on your behalf, moving work forward, guided by rules and gates rather than a human hand.\nHow much it can own from start to finish varies enormously depending on how your team works and what your codebase looks like, it’s not a fixed property of the technology.\nWe’ve had to experiment a lot to find the edges of that capability and then work back.\nAn automation I’ve been experimenting with lately is getting the Linear Agent to auto-fix bugs that land in triage. When we first tried this workflow we had the agent attempt a first pass at all the bugs coming in. That didn’t work very well because there wasn’t enough context to one-shot the fix, so we had to narrow the ask and feed it the right instructions and tools.\nThere are two types of issues that the agent is good at fixing on the first pass in our workspace today: catching dead feature flags and patching up failing background tasks.\n[Automations I’ve been building](https://linear.app#automations-i've-been-building)\n[Through our Datadog integration](https://linear.app/integrations/datadog), a monitor catches the problem and files an issue into triage, where an automation assigns it to the Linear Agent to pick up, run the relevant skill, and take a pass.\nDead feature flags are the cleaner of the two. We rely on flags a lot, and once a feature ships to everyone the gated code is dead and we’re paying for usage we don’t need. The monitor watches how each flag evaluates, and once one returns the same result 100% of the time, it files the issue. The agent runs our cleanup skill and one-shots it nearly every time, because the task is well scoped and always the same shape. I just review and merge.\nFailing background tasks are a little messier. We have a lot of them running all the time, indexing for search, deleting integrations, and now and then one fails. Here the monitor files an issue when a task’s failure rate climbs above 0.2%. The agent has access to all the relevant logs but the failures vary too much to one-shot, so it lands the correct fix about a third of the time.\nTo cut down on PRs that miss the mark (and to save tokens), we’ve added gates that make the agent prove it understands the problem before it attempts a fix.\nIf the agent can’t fix the bug it’ll still do the initial investigation, which saves whoever picks up the issue a good chunk of time.\nI think with enough context and tokens agents can do almost anything, but there’s always a limiting factor on at least one of those things. I’ve learned that getting the agent to do things well comes down to the breadcrumbs you leave behind for it to follow.\nSome of that lives in Linear, where [Skills](https://linear.app/docs/linear-agent#skills) and [Automations](https://linear.app/docs/triage#automation) standardise how it approaches a recurring task, while the rest lives in the codebase. We encode our conventions so it can pick up the rules it can’t infer on its own,",
+      "title": "Teaching an agent to auto-fix bugs - Linear",
+      "url": "https://linear.app/now/linear-agent-bug-fix"
+    },
     "https://linearstatus.com": {
       "content_type": "text/html; charset=utf-8",
       "description": "Latest service status for Linear",
@@ -7806,6 +7891,50 @@
       "title": "Introducing MAI-Thinking-1 | Microsoft AI",
       "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
     },
+    "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/",
+      "frameable": null,
+      "image_urls": [
+        "https://mjtsai.com/images/dropdmg-icon-32.png",
+        "https://mjtsai.com/images/dropdmg-icon-32@2x.png",
+        "https://mjtsai.com/images/eaglefiler-icon-32.png",
+        "https://mjtsai.com/images/eaglefiler-icon-32@2x.png",
+        "https://mjtsai.com/images/spamsieve-icon-32.png",
+        "https://mjtsai.com/images/spamsieve-icon-32@2x.png",
+        "https://mjtsai.com/images/toothfairy-icon-32.png",
+        "https://mjtsai.com/images/toothfairy-icon-32@2x.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "[No Siri AI in EU](https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/)\nUnfortunately, due to the Digital Markets Act (DMA), Apple will not be able to ship Siri AI in the European Union with the release of iOS 27 and iPadOS 27. Over the past several months, EU regulators did not accept any of Apple’s proposed solutions to bring Siri AI to the EU while safely supporting other virtual assistants.\n[…]\nEU users will be able to access Siri AI on macOS 27 and visionOS 27. Developers located in the EU will not be able to test or use the new Siri AI features for their apps on iOS 27, iPadOS 27, and watchOS 27.\n[…]\nAccording to EU regulators, the DMA requires Apple to give any AI system nearly unlimited access to a user’s device, as well as the ability to act on that access autonomously without a user’s ongoing visibility and control.\n[…]\nApple designed a solution called Trusted System Agent — an intermediary that would allow virtual assistants to safely access the same features and capabilities as Siri AI for devices in the EU. Apple also shared a plan to launch Siri AI in the EU while gradually rolling out this new solution over an 18-month period. The European Commission said no. In fact, the European Commission did not agree to any of Apple’s proposals.\nThis phrasing is not very clear, perhaps intentionally so. Apple is trying to give the impression that it did all this extra work to meet the DMA’s requirements, and yet the EC rejected its proposals, so it’s their fault Siri AI isn’t shipping in the EU. But it looks like the crux is that the Trusted System Agent is currently vaporware. What the EC rejected is that Apple wanted to be able to ship Siri AI now on the promise of future openness. The TSA would actually be built during this 18-month window of exclusivity. It’s not surprising that the EU would reject that proposal. The App Store doesn’t approve apps that flout the guidelines but promise to comply later. It doesn’t even entertain proposals of the form, “If I built this would it be approved?”\n[European Commission](https://audiovisual.ec.europa.eu/en/media/video/I-290903) (via [Steve Troughton-Smith](https://mastodon.social/@stroughtonsmith/116720243435861551), Update: [John Gruber](https://daringfireball.net/linked/2026/06/12/the-european-commission-response-to-siri-ai-and-the-dma), [Mastodon](https://mastodon.social/@daringfireball/116738233608290725)):\nSo first, the decision not to roll out Siri AI in the EU is Apple’s and Apple’s only.\nBecause absolutely nothing in the DMA prohibits Apple from introducing new products in the EU.\nWhat Apple is however not allowed to do, just like any other gatekeeper, is to close the market.\n[…]\nApple simply made a request to the European Commission to be exempted from their interoperability obligations under the DA.\nAnd this for at least 18 months on top of it. Guess what? That’s not an option.\nApple said it detailed its plans for Siri AI to EU regulators six months ago, along with a technical proposal to allow secure third-party access to that data.\n“In essence, a commission that’s asking us to conduct a very risky experiment on many, many, many tens of millions of users,” Greg Joswiak, Apple’s marketing chief, told reporters, “and we only want to ship these capabilities when we can do so safely.”\nThe EU said not to ship it without the TSA, yet Joswiak spins this as the EU asking Apple to be reckless? And if Apple wanted to ship them safely, why did it [stop working on them](https://pxlnv.com/linklog/siri-ai-eu-availability/)?\nApple spoke of having spent hundreds of thousands of engineering hours on changes to comply with the EU. In the new report, though, Apple now says that it no longer knows what to work on.\nSo currently none of its engineers are working on adapting Siri AI to meet the EU’s demands.\nIt seems like Apple isn’t taking this very seriously. They’re more interested in trying to score PR points by blaming the delay on the EC rather than on building something compliant. So",
+      "title": "Michael Tsai - Blog - No Siri AI in EU",
+      "url": "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/"
+    },
+    "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/",
+      "frameable": null,
+      "image_urls": [
+        "https://mjtsai.com/images/dropdmg-icon-32.png",
+        "https://mjtsai.com/images/dropdmg-icon-32@2x.png",
+        "https://mjtsai.com/images/eaglefiler-icon-32.png",
+        "https://mjtsai.com/images/eaglefiler-icon-32@2x.png",
+        "https://mjtsai.com/images/spamsieve-icon-32.png",
+        "https://mjtsai.com/images/spamsieve-icon-32@2x.png",
+        "https://mjtsai.com/images/toothfairy-icon-32.png",
+        "https://mjtsai.com/images/toothfairy-icon-32@2x.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Rewriting Notion in SwiftUI](https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/)\nApple this week confirmed that Notion is migrating its user interface to SwiftUI, citing the app’s desire for greater performance and UI consistency than its existing web-based stack can deliver.\n[…]\nThe callout was clearly deliberate; Notion is one of the most widely used productivity apps on the Mac, and has long been criticized for the sluggishness that comes with its Electron-based architecture.\nPreviously:\n- [Claude Desktop App](https://mjtsai.com/blog/2026/05/18/claude-desktop-app/)\n- [Gemini 3.0 and Antigravity](https://mjtsai.com/blog/2025/11/19/gemini-3-0-and-antigravity/)\n- [Electron Apps Causing System-Wide Lag on Tahoe](https://mjtsai.com/blog/2025/09/30/electron-apps-causing-system-wide-lag-on-tahoe/)\n- [Is Electron Really That Bad?](https://mjtsai.com/blog/2025/04/25/is-electron-really-that-bad/)\n- [Rewriting SoundCloud in SwiftUI](https://mjtsai.com/blog/2023/05/30/rewriting-soundcloud-in-swiftui/)\n- [Rewriting Remotion in SwiftUI](https://mjtsai.com/blog/2023/05/30/rewriting-remotion-in-swiftui/)\n- [1Password 8 for Mac](https://mjtsai.com/blog/2022/05/03/1password-8-for-mac/)\n[RSS](https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/feed/) · [Twitter](https://twitter.com/search?q=from%3Amjtsai%20since%3A2026-06-12%20until%3A2026-06-13&src=typed_query&f=top) · [Mastodon](https://mastodon.social/@mjtsai/116738807666700167)\n\"Notion is one of the most widely used productivity apps on the Mac\"\nNever heard of it and their home page does not help figuring out what this solution actually does. Is it an announcement as big as when Maya was ported to Mac OS X?\nI’d be curious to know how many others like Notion will do the same (Slack and Asana would be nice for instance) and if SwiftUI will make the resulting app any good, where “better than Electron” isn’t a bar high enough.\nMeanwhile Gruber just tore SwiftUI a new asshole [https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps](https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps)\nThese SwiftUI guys are clowns. Look at all the comments here and on various forums. It has flipped. SwiftUI haters are the majority now I think. Give it the Liquid Glass treatment so they fucking deprecate it and/or put it on the back burner where it belongs. Think of all the improvements that could've been made to AppKit over that last 10 years. Instead they obsess on this shitty side project and they can't even get Undo/Redo right. I encourage everyone to keep telling Apple that this shit sucks otherwise this is what we are going to get stuck with.\n> I’d be curious to know how many others like Notion will do the same\nNot many. All these AI apps are Electron. Claude, Codex. Hermes Desktop. They probably bribed them...\"we'll mention you at WWDC if you use SwiftUI.\" Traditionally you go native to provide better UX but SwiftUI sucks just as much so there is no point.",
+      "title": "Michael Tsai - Blog - Rewriting Notion in SwiftUI",
+      "url": "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/"
+    },
     "https://moda.app/mcp": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7858,6 +7987,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "A Call for New Aesthetics",
       "url": "https://newaesthetics.art/grants"
+    },
+    "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Case study from The Multiplier Mindset: How to Move from Senior Engineer to Tech Leader in the AI Era",
+      "extraction_source": "trafilatura",
+      "final_url": "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!YvyG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad661ed3-1d8a-4423-916b-391cddafa3cc_1600x877.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!asWO!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fgregorojstersek.substack.com%2Fapi%2Fv1%2Fpost_preview%2F199972863%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!9opu!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0845c094-23e3-40d0-86f3-d1ff19631211_317x317.png",
+        "https://substackcdn.com/image/fetch/$s_!TiaG!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b7fdc30-d8c4-45f2-b0df-0b60baf9d4f4_1000x1000.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!tLUQ!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F670bb162-5a63-4fd2-8253-f98c28d446a7_1168x1168.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!7tC2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa69773f4-87ab-40a9-b42a-675353e326bd_1600x730.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!75Lb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83940615-d79e-42fb-8556-ba202dec3dee_1365x558.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!tfxF!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c084c3f-4f8b-411d-92d3-75c8339b9fec_800x426.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!IWUP!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f4a630b-dc1b-4475-8166-d7db0ca96419_800x450.png",
+        "https://substackcdn.com/image/fetch/$s_!A6AP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd714a671-d87d-4521-a68c-0e932f8ee7c3_1678x940.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!Y7Fq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F761e2fb1-f113-472d-922e-e0741ad21f6f_1600x751.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!O-YP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b750ad-68a7-4f20-ba4b-a2e0973d925e_1600x853.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "How to Grow From Senior to Staff Engineer in the AI Era\nCase study from The Multiplier Mindset: How to Move from Senior Engineer to Tech Leader in the AI Era\nThis week’s newsletter is sponsored by [Larridin](https://larridin.com/how-much-should-you-spend-on-ai-coding-tools?1), an AI-native developer intelligence platform.\nHow much should you spend on AI coding tools?\nLarridin analyzed data from hundreds of engineering organizations to benchmark AI coding tool costs and find the budgeting approach that maximizes productivity without Tokenmaxxing.\nInside the research paper:\n- Understand where AI coding budgets are headed \n- What high-performing teams spend \n- The formula to determine how much your team should invest \nThanks to Larridin for sponsoring this newsletter, let’s get back to this week’s thought!\nIntro\nI am currently writing a book, The Multiplier Mindset: How to Move from Senior Engineer to Tech Leader in the AI Era (check out the [early release](https://www.oreilly.com/library/view/the-multiplier-mindset/0642572310509/) on the O’Reilly website). Get also a 1-month free access to all the O’Reilly books [here](https://learning.oreilly.com/get-learning/?code=MM2026).\nThe book will feature 8 case studies of successful multipliers (tech leads, engineering managers, staff engineers, and architects), looking at:\n- How they multiply others \n- What makes them successful \n- How they use AI \n- Their advice to engineers and engineering leaders to thrive in the AI era \nToday, I am sharing the case study of Jordan Cutler, Staff Engineer at Pinterest, which will be included in the book. Let’s introduce our guest author and get started.\nIntroducing Jordan Cutler\n[Jordan](https://www.linkedin.com/in/jordancutler1/) is a good friend of mine, a [newsletter author](https://read.highgrowthengineer.com/), and a Staff Engineer at Pinterest. We have known each other now for more than 3 years and have done a number of things together, including 2 articles in this newsletter. You can read them here:\nToday, he is sharing his journey from Senior to Staff Engineer at Pinterest and the 3 important dimensions of staff engineering, each filled with his personal examples at Pinterest. Definitely a must-read if you are looking to have staff-level impact.\nOver to you, Jordan!\nWhat stops Senior Engineers from becoming Staff Engineers\nThe engineers I’ve watched get stuck at Senior are the ones who keep pushing to be better at these:\n- deeper technical skills, \n- faster execution, \n- more complex systems. \nAll good things. But Staff Engineering operates on dimensions most engineers never think about.\nI had to learn this the hard way. I spent too much time heads-down on individual contributions before realizing that my biggest impact came from work that didn’t look like “engineering” at all.\nI’m a Staff Engineer on the Web Platform team at Pinterest. Our mission is to create a world-class developer experience for over 200 web engineers. In practice, that means I work across 5-10 teams at any point, owning various developer experience metrics like build times, CI duration, documentation quality, and overall developer satisfaction.\nOver the past 2 years, I’ve been figuring out what Staff Engineering actually looks like. Not from a textbook, but from seeing what works and what doesn’t.\nThe biggest shift most engineers can make is to think about these three dimensions:\n- Expanding your surface area \n- Influencing across teams \n- Building scalable systems \nHere’s how each one played out for me.\n1. Expanding your surface area\nNobody at Pinterest asked me to become the AI person. There was no “AI initiatives” line item in my job description.\nBut I could see AI was becoming an industry-wide shift, and there was a natural overlap with my work in developer productivity. So I started experimenting... a lot.\nI tried different coding tools, tested workflows, and kept incrementally improving my velocity. Once I found what worked, I wanted to share it. But not only that,",
+      "title": "How to Grow From Senior to Staff Engineer in the AI Era",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff"
     },
     "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/": {
       "cleaner_v": 2,
@@ -9117,6 +9272,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2065055772778594304/img/ZHO2LaQbcKzLEWhd.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2065055772778594304/img/ZHO2LaQbcKzLEWhd.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065055772778594304/img/ZHO2LaQbcKzLEWhd.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2065055772778594304/img/ZHO2LaQbcKzLEWhd.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11386,6 +11569,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKdf9cGWwAAFZfl.jpg"
     },
+    "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg"
+    },
+    "https://pbs.twimg.com/media/HKe4wx3XAAEDHy2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKe4wx3XAAEDHy2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKe4wx3XAAEDHy2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKe4wx3XAAEDHy2.jpg"
+    },
     "https://pbs.twimg.com/media/HKeLJgVXEAASrDo.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11442,6 +11653,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg"
     },
+    "https://pbs.twimg.com/media/HKerWvMX0AA7WC-.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKerWvMX0AA7WC-.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKerWvMX0AA7WC-.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKerWvMX0AA7WC-.jpg"
+    },
+    "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg"
+    },
     "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11455,6 +11694,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg"
+    },
+    "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg"
+    },
+    "https://pbs.twimg.com/media/HKiXYnXWUAA2qmo.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKiXYnXWUAA2qmo.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKiXYnXWUAA2qmo.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKiXYnXWUAA2qmo.jpg"
     },
     "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg": {
       "cleaner_v": 2,
@@ -11484,6 +11751,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
     },
+    "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png"
+    },
+    "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg"
+    },
     "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -11497,6 +11792,76 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png"
+    },
+    "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
+    },
+    "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
+    },
+    "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
+    },
+    "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
+    },
+    "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
       "cleaner_v": 2,
@@ -11624,6 +11989,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HKZVjP3a4AAH9pW.jpg"
     },
+    "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg"
+    },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -11705,6 +12084,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Prompting Claude Fable 5 - Claude API Docs",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5"
+    },
+    "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Run agent sessions in your own self-hosted sandbox environment.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker",
+      "frameable": false,
+      "image_urls": [
+        "https://platform.claude.com/docs/og?locale=en&path=managed-agents/self-hosted-sandboxes"
+      ],
+      "kind": "article",
+      "text_excerpt": "Managed AgentsSelf-hosted sandboxes\nRun agent sessions in your own self-hosted sandbox environment.\nBy default, Managed Agents executes tools and code inside [Anthropic-managed cloud sandboxes](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference). Self-hosted sandboxes keep the orchestration on Anthropic's side but move tool execution into infrastructure you control, so the agent's code, filesystem, and network egress never leave your environment.\nTool execution stays on your host: the filesystem the agent reads and writes, the processes it spawns, and the network it can reach are all under your control. Tool inputs and outputs still flow to Anthropic's control plane (where Claude runs) so the model can see results and determine what to do next. See the [security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security) for the full data-flow boundary.\nSelf-hosted sandboxes support all Claude models available in Managed Agents, including Claude Opus 4.8. The model is configured on the [agent](https://platform.claude.com/docs/en/managed-agents/agent-setup), not the environment.\nHow it differs from cloud environments\n| Cloud environment | Self-hosted sandbox | |\n|---|---|---|\n| Where tools run | Anthropic-managed sandboxes | Your infrastructure | \n| Network reach | Anthropic's egress controls | Your network policy | \n| File and GitHub repo mounting | Managed by Anthropic | Managed by you | \n| Lifecycle | Managed by Anthropic | Managed by you | \nSelf-hosting is a good fit when the agent needs to operate on data that cannot leave your network boundary, reach internal services that are not publicly routable, or run under your organization's own compliance and audit controls.\nFor Zero Data Retention and HIPAA BAA eligibility, see [API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#feature-eligibility).\nWhen to combine with MCP tunnels\nSelf-hosting controls where the agent's code executes. [MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview) control how Anthropic reaches MCP servers in your network. They are independent: a session running in Anthropic's cloud sandboxes can still reach private MCP servers through a tunnel, and a self-hosted session can use either tunneled or public MCP servers. Use both when you want execution and tool access to stay inside your boundary.\nEnvironment worker\nThis guide describes how to build a worker with any generic sandboxing platform. Additional, platform-specific guides are available for [Blaxel](https://docs.blaxel.ai/Tutorials/Claude-Managed-Agents), [Cloudflare](https://developers.cloudflare.com/sandbox/claude-managed-agents/), [Daytona](https://www.daytona.io/docs/en/guides/claude/claude-managed-agents), [E2B](https://e2b.dev/docs/agents/claude-managed-agents), [GKE Agent Sandbox](https://github.com/GoogleCloudPlatform/kubernetes-engine-samples/tree/main/ai-ml/anthropic-agent-sandbox), [Modal](https://github.com/modal-labs/claude-managed-agents-modal-sandbox), [Namespace](https://namespace.so/docs/integrations/claude), [Superserve](https://docs.superserve.ai/integrations/managed-agents/claude-managed-agents), and [Vercel](https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox).\nAn environment worker is a process you run on your own infrastructure. It receives tool execution requests from Anthropic and runs them locally. The self_hosted environment acts as a work queue: when a [session](https://platform.claude.com/docs/en/managed-agents/sessions) is assigned to it, Anthropic enqueues the session as a work item. Your worker claims work items from that queue, spawns an execution context for each one, downloads the agent's [skills](https://platform.claude.com/docs/en/managed-agents/skills) (reusable, filesystem-based resources that give the agent domain-specific expertise), runs the tool calls, and posts the results back.\nWork items are c",
+      "title": "Self-hosted sandboxes - Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker"
     },
     "https://posthog.com/blog/aeo-advice": {
       "cleaner_v": 2,
@@ -12722,6 +13116,18 @@
       "text_excerpt": "�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003���F���)P���vM�\u0004@�\u0004U�쒵T�[��N����\u000e�Df���\u0004���|�טsf `^c ��d~�\u001b\u0001\u0010dfJ�������$�Xnܸ\u0011�{ �f�\u0018�o�Ep��MO�8�O0��\u0017�[żu�E\u0010 _\u0016�X\u0017\\Ίu �.�UY� �6��v� ���z��\u0016_�&� � ��X��uQ\u0006�E��,���,���/�����:�������IY\u0016���m�?���bu\u0011�^���\u001bp��Y�o֗�U+\u0018-��b\u000eTO��i\u0011���:[� nW�jR\\/\u0017�u���d��| < .�&��m7�d>YO�i� ���qT���ޮ��5:.��j�\\O\u0016�Qó �e^\u0006gE1\u000f.��R��M�S���� < ؔ� \u0014�� Pr���\u0019O�0��\u0007���88_���U� �`\\��qq\u0014\u0014�j��V�hq!�)K?�����Y��ܪ\u0013��/�`|A �q'x�\u0018�G��\u0004�~NF�q��| ,\u0017ׂk��Λ� ��|Z.��\u0006��\"�M��d�hP�z�Z\\��\\�\u0016����� \u0001�t\u0002�\u0002W�\u00147�h X���{F0 ��\" � :T��Y򢘏 ��)H�|�P�����Ե4}ܚ2��h\u0005����q������ߜ>�o���fU�Oت�R��e@�E���qV�'9d6�VO|{9\u0004�.��\u001aew^\\���` (r�IgT�;� ;� ��\b�|c?�W�{�\u001akޏ\u0016�� ��,f fqq1-:?���㮫�V�#�;�b��G�u0�,�q�� ��q+��D� Nn�$��7�8H��$ ��M?��j�xܚ��{5 wf��jQ.�םf� 3�9+�!�gw���\u0011f4���m-T������_ < < ]��+p����M:��UӶ�s� Y7���(�#] �A�����/�3��+\u0015��]EQr�� ��\u0017�����M\u0014� ��\u0015���%�.���\\�_�]\u001a�D�G��\"*�˻�@f�qd�b �n����Z�\u001bf���>h{C��bn���wʫ�j&m�z���0����� m�.V�|]T��ޣ����n�^���ͬޑ�?x�2~���/�P\"xQ\u0014㯪V*hyѩ�\u0002� f�k�\u0015�30��9�M����z�, u�nd�&ݳ�?��i_TL\u000e{Z�\u000f!l����[o_�/�D9�aM1F�h��� ����f�궮x_�r\u0002��\\� l�`��ZnP ֧���ը�sY��'��S���\u000e��:cԤ��j\u0001'��}�Z\\ < \u0012\u0005�U�� �z �;�;�m�W���v�.��\u000fg�MI\u001bӝ �spF�;=i\u0003h���֓є'�\u000erO �\"�*�� �6+v�\u000f��gl\u0010�u���a\u0019��/��������l:An\u0018�u=aA����\u000ed�~;��]�= C�k� ]�&!���鯺�-Ɠ��G{轣�(}�&��@��]'���l1���{S�\b�n78-�\u0012�\u0010 � �N~(\\ѻD��j1A\"���D����\u0012a��'I��|�>\u0000��\u000f\ba�$�S\u0013`��(֧k� �����r����,��+���!\u0010}G�آݫ=GҸ0��T\u0015 i < ��J\\��z��û˨zŷ{Q?�M^� �`��h�\u0004�p2\u0001 < Ün���\u0007\\__w�{�5�q\u0018�]�:*�\\�#$��@ �b\u000f�������V\u0018�A4�:Q�\u000f�a�7��ݖ9z�s�\u0000�9�z�SƏ[�U \u001b\u0004Q���y\u0016w�~/�?j'lw�xЎ:�a < ⺗r� �v'��v��GI��Kz�^g��Ľ�^\u000fڼ�x��= �q��A�Gj? ��k?��^[�)@���p�h8� ���\u000f�H��~/��\u0006�H�e�:���:��u\u0018\u001b\u0014y��M\u0012� ׁ�n�x���dT4��� ;Yă?EY' d p\u00101䨓DC~�N\u0014g�0d��p`\u0017\u00008L;��Z5�tz1OB��\u0007~A2 P���\u0017��7\u0004�Q�G��8\u0001j04�:Ѡ�wa�I( \u0003L��O�O\u001a��&��(�^'\u001b� �D�C����\u0010�\u001a�eO y\u0019�L��`\bZ�� ;�T\u0003�{Q $\u0002 � �b\b�� �������Ǐß\u0006I\u0015\b�)X �>� �Cc�N�\u0007O���\u0015Z � ��a�* /� �x < :4 �h��킴^ʳ^H�(�x?\u0002j\u0007R\b���@D%��C#*@�D�\u0002!�ŏÖ\u0011U`G�\u0010 � U\u0013�\u001b�,�\u0018jPq�?ـ>��\u000e�1r���Cۧ�M�u;\u0018�\u00048���M`'�\u001a�]]zD���# < �kX\u0010\u0006�a�����0\u0012N�0��lP�%��+Lhْ9e{��\u0018���(�ؠ�'��#\u0012\u001aՂ�����J\u001b�\u000f-Ո�\u000f�\u0001\u0014����J�\"q�DT�k~�\"\u0007VzN!��ֶ�H \u0003�\u0006�5d����J# ~��\u0018;�v�\u0019\u0016h �����ۥ^��-j��U����ӳ���\u0011τ\u0002VSĮ�I�>�$L ������� ��:iڎ\u0001�-#\u0002E ��K�~�\u0018n��P:(޳Jz�X�N?\u0003w�΀�F\u001bR:�a(B��Ĥl lMl[��R$�\\�\"�M�zJ�E��f�El��N��aQ;d? P�V�F6�J3��:��\u0011q&�d, �Ǚ&)\u0003�H��6\u0005WK��)�\b,�\u0001�a���4���\u0019��n����[:� �#\u0012�R\u0006)QV\u0018QOа���D� ��2�P�\u0006\u0011�!@h{�彰�\u0007k�G$\u0015Q+\u001aj�\u000f�و�� 3�\u0010(�����h��5k��7\b��\u0001-��a\u00101q@�Q\u000eL���0����ۀ�ma�1(\u000e{\u0010\u0017X\u000e!�XߜH_��>\u0005L�6۞�>e ly�W�1����R��~�yd�h1�\u0010��FЇ�!�dK�\u0013���~;�@ ˌA�Q2 I < \u0012�AC�� ���\u000f�ŌY���N���L�>� � < �5�'�\u0007��w,�X�l\u001b��9�\u000e�\u0005���� ��2l ,ӧ'��\u0002�\u0007����\u0007*\u000e��\u0007 �T\u0004��(�s�A�v�U�\u000f�\u0016B�\u0015��L0A\u0011�\u0007����v{�ԃ\u001aj��\u000e\u0012��҆H��]'|��0c�ئ���5Ğh�cn����{�\u00074Ai|.R��Ӥ\u0003��,��\u0011_A�\u0000�-�B�FCQ XeLaH�8 \u0002����4�\u0000\u0011g*�;�\u0005�e�1 ,\u0010�Yp�t\u0006}CE��.�-���:� \u0002# < \u0006\u000f5`�m`k�\u000e\u0006�K�+ ����5�u�$�2\u0011C�\u000f� �2\u001a��d�r�\u0012Ӏ��P收�y�\u0003�)�G��F\u0019Ub�]%��2� )u\u0007�0\u0013nr�$\u0019�)\u0019�ǃ�h\b����\u000f8�Kѭ��Z��%\u0005���^�\u001b4�\u0004TתY ��mo��\u000f��떵=Wӽ�3�=\u0005������Q�\u001a �a�\u0018F\u0002�3��B,�+� ��p j�@.[��X\u0010W�\u0006\u0006��\\A�i�ծ�P��\b!�}�ٍӁ�f\u0016�Z^���2mqژ�a���a��-�\u0017�\u0017я}��R}$\"8 �k�h���s�.\u0019Z\u0012_��\u0010\bY Y��\u0001o�~�\u0006�wnpp�Zm�\u0015[P��`xl.\u0005\u0012 \\���]�9�i9� �R\u0014�#.��Д\u000eXm�T\u001b�1�|F���}��}�!r�\u0016|Dh\u000e��.Y�Q�abj@��]\u0012\u0011\u0010%�y-�t/#]{���7�6\u0006���z�l�5A�]W@ک\u0004��\u0005[�j���uG$2��fZ�ܾo#A�0 9\u0018���F\u0011{\u0017TBU- a,�̰��ȅbs���������l1�1 �g~�k$9]�\u0001 w�����h1�m�f��v�z\\�T?�e�!��ǴU����?�:��Y_�\u0017�A��|Ϊ>t�)�-V\u0018K� \u0012��:�B�'M�d^�e�l��K��O��E\u0006�l~ �ى��\u0001�;��� n\u0004�9��.��g��E��r�$��z���:A��;4��6�J�\u0012T�i�D�A�T�^�6l\u0006A���m��\u0018� �;�d]+e��i~&M�;3�\u0006�Ԋ��5}W�V��.j�z �Rg�� \u0016��j�Gt̳\u001a��R�U� 6��*�w�϶J�5����\u0016�qY�̓D�q�(�-��n�m ��gl�4�rnAep��Nͥ�:ݖ��]�'Q�{�� < ��y����\u0016 Of\u0017�\u0019�`�&p� �=D � l���\u000e߶�{웓�\u0002������\\��������=m�S>����u�O�޹ *�e�u��~\u0003s7��W\u0013yg�*�7�Z/Z���\u0011��4��|q��N\u0017׵\"u n�� ���U��� '�?m�Z'ۂ &�\u0001�\u0000�z�'��\\��\u0001�Ev���j~�ج�]\u0007�\u0012ߪS [�st����V��j��c; �\u0017+�K\u0002����r��Q�ςr�\\�p#5�3��Aـ�C�(��/��\u0007xeQ\b00�l\u0015�R\u0017z��\u0011�B\u0010���f^\u0004ё < ���8�͜.�\"p�A�~��\u0017�z�b>�������\u0015I��*y{�'Y���/���\u000f����ǇX����O�\u0002kֹ\u0007�E �\u0004\u000es��b-\u001bC�J� ����\u0006b���7\u0012C��p�h\u001av�1N���c�E��˓�bvR#\u0003��_�g�+ < �����}Q̦\u0005O��8��GA\u001a�˛�\u0007�h�= 30ֶ��O��v\u0010\u0001Smj��K�� p*�\u0017�\b�3|`�+v6 `�tj�&^��b�v� Yކe��`堼A`;� ���^b~lc�����Q��/T\u0006ח0�A��r�{j^�rs=�ˢ\u0013 < �-�68�\\`�c.�?��0�^a��c\u0007]l� ̡��|�\u0006����b��n9�m��|^,6�\u0014��Uq�S��c�s\u0001��2��gk��+kǓ����9~@��z\u0011��kupH.���A ���w[�� \u0010�7�Q��@\u0015��^iċ�y\u0013�{_,��]M�)�4W_�%�n",
       "title": "",
       "url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/"
+    },
+    "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "final_url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003�[w#Wr���_�f�vU \u0011`f\"qc��.���*I\u0016�����%%�$�.\u0010�ƅ\u0017����y��9k� < ����%�E�k\u0002 KR� ��})\u0002���ر#b�m�>��q=Z�-��r}5{�މ�If�|rzP�\u000f^��$'�U9�\u000f|���e2�,��j}z�Y_�\u0006\u0007ɑ�q=]�*�{�n�\u0017�\\'/\u0017�Yu���N��z:�$��*y��To䵟N�z���Z.�\u0015�&�j n��Ib�{\u0014��0��W��A�Y_�˃dT\u0003c\u000e^����� �S������fQ/��\u00137����t\\]OGUK�$��t=-g�ը�U���\u0014^����\u0000 W��r�XO�������\u0007;]%e\u0002�jv�lV�8��F�z�\\�y�Z��q� �m�,���Z*���5�$7�y�('��0��Ï��^T����պ��\u0012\u0000�\u0012rOGP��������t6-�+V�l�\u0016�W��j�=��'岼��c���z^��\\VI9�%��l���0Y�f=��+�a\u000e���]-���bZ��.�l��Ϧ|f0�d]'��l�8(ɲ\u0004���;@�����f\u0006]x߬�i-�U=��(��t���w��u Q�er����*9�`�)�\u00128���\u0016�w�Ų� �.g��:d��0:��\u0015�ɘ�\u0015�������dVM��ฬ�J���1�J��J�o:�T2��f! &�~�~ｏe~\u0017\"5�U�X֣j�J�%��Xm���\u0006R��U�Y��arU��\u0011\u0015�OL�2YU��r��k�~2�3dn]�ނ�� U�U-��+��U� Cbx\u0003�\u0011�\u001b���k�V0`D��fY��d Y��\\�%㽪�x�Z�\u0017�\u0015|aby���Iy�w�6�ʕ0�g� ������\u0013yx}�/.g�:�^A�k�\u0002�+��G�\u0011 )�a� �\u0007���b�,7�U�u~ S {Ʉ�\u001aPyńEl�\u0006#�;���\u00104*G��jQ��\u0019A]ԫ� ��?��k�\u00070Zl�g�ե�2��\\1��*�/���y^��Ь�� U��&+��L� ��e��Ĉߐ�UR�\u0002Xe\\� �)2�\b��˷�s�\u0016p6z�j_�(\u0011ϷB��\u0003�@5_U\u0007�岺8=8���W }q�Q{}��s*[n��J Z��f\u0015#��N�]U�i�����\u0015 �\\�\u0006���\u0013��yuӊ�G��=Z�\u001a��\u0018u���#����P^��\u0001\u0016 ճz�6F��ֺ�LfU�\u000f��\u0017'G� ��\u0018��3,և�\bY����8V(���Aֻ�zI^��E��o;yR n�A�+n{��WV�Ӄ�\u0015lwt= ����e��/��\u0018���E�2R�����\bed\u0014��eK!�Y�����O�� �vh��m�﮹i�zsKo��(���w������w�Jo��_ջ����*��/~U�\u0015���]/�������,O��:s�_����\u0015� ���/]7�ͺ�d\u0012n����� ����4���uW�ꭑU�0�@\u0019=��au$��Z���^]O�L��:=���i��\u0019��� ڌ5j^�+���=\"֬;*�����W^#�q|z`�\u00051�����c��g\u000e�Ö ��Qp��\u0004�i֎Q9��bK���r�^������x����� ]9���\u0001�⽨Zv�C�\u00192 y�e^e\\\bc3�o�k\u0006{ < �ꍌ����\\��\u0007�=��B�`�����s�\u0016��\u0019Sd���)��g�џ��w)��-�C{t �\u0002qp �\u0002#f�n\u0001&>n����7���\u0016�J\u0017w 7c}wzPO�E�~#�j[\u0013J�e�bk < �˝[[|�cw��6\u001b[,ɲ,﬷�Q}�x��*\u0011��\u0012'w�\u0015�~�yB�P�#���\u0017�=\u0010p�du|`�?}��W�ƫ \u0017��E�q\u0011y�-\u0011O��$��_1YM|�b߬�,'� ����_���ZY�&� �)�k�\u0005��;c5n �Ͻ� K�y��7d}yC��y\u0003�O�L*C>���;����GIrt��U&r+�d \u0016�p���\u0012�,��)q�Y����ߌx���%v&\u0001:��o\u0013p��\b����ՙ\u0006��N��\u0019Q�jl�?{��5\u0003Y'\u0012av�\u0014M�\u0010� �FBV�v��D�&\u001a��, C\u001aO�� 7ļY��/�v�����j�_\bڛ\u0000�A��G �HN�b\u0013��9��� ���}�\u00113�(O��H�\\��x� �zz@\u0012�8�5+�$Z>�oO\u000f�$M�a��\u0006��;lw�\u0019q�E��L.�3b��\u0018g RI�Ӄ�rà�d�v�-\u0007y��u\u0012�Gभv��[Y�?�G|�t��I�V;��V��eE��):�N{�j�B��a��ݼÅ < �������/\u0012������NK��_uA��k\u000f��\u0005��a��{�\ba���;�b$�\u0006\u0003y���W�\u0003yu�+\u0016��k���1/P�u\u0018���'\u0019\u0015����Mۃ� �f�v�?`���!g�\"\u001b�7og���� �;��\u0007\u0010 vی_�*mڝ�+)�`2��T�g?\u0014B�!t�: @\u000e�\u0002���p���H*�\u000f�\u0005�� ����Ч�v�L�GG�tڃ��c�hhh~��|H8\u0015� ^)�\u0006 ��\u0014$C�*�K�����\u0000�N�\b\u0011�\u000e�%�b\b�� �\u000f�~��ҏ?�~2H �\u0001^AŔ��mb��X�=�A��P�:\u0017�vGi�T䑂 � /�t4d\u0014\u0004�a��B�N�k��\u001b���{\u0019X\u001b�R������\u0004c�P� �-Su�\u0010�⏡�2U���T\u0010`�\u000e�\u0016�\u001b\"\u0016 < �ʠ�\\�\u0019�y��� u��x}a��q�N���?�\b� 2n+aB�����A�+a� H�PF\u0007\u0005?!n�I\u0000*\u0002\u0007K�#I\u001bA\u000f\u0011Ռ�\u000f\u0007}8�\u0010�� haq�D����k� \\ys\u0017�MU��Dr3���D���J�~��\u000fge �\u0012�L�\u0000x�㻃�--��Ǫ�� �ʔ��=ެo��\u0011ׄ\u0004HS��i\u0017E�Y\u0012J�jE��\u001a�\u0007����v[9Ƞ22H����n�K �M��J��ߑ�� K�� �ݰ�GՈB��\u0001 G�|11]�\u0007� �����Rp_Wn\u0011� ��.�\b�[�]����. ��S�a���b\u0014�\u0010. \u0000o�����\u0007��\u0000�| �4��2� \u00135�O�[�)h\u0004\u0004�\u000fg� < �o�+��QFWmQt^�n�+p��8\u000f `%�\u0018QG�A�\"p�� �W С� &�S�\u0010��);i�\u0007�� a�������t8\u0018�z9�I�B�_G��� �F�\u0010�~�L���v�I�ā���t��M�3�_��gzs\u0015 � ��\u000e�\u0005�S�!�5'�\u0015+ץ��\u0012e���w�\u0002\u0015\u000f�U �y~\u0014�G���uQý��#\u0013\u0004�B�P�d\u0004=\u0018 &.\u0002 NY e�6>�,�\u0003\u0006��d\u0016�|$ < \u0006\u000fA\u0014:��\u0007��Yf�|�:�.t\u001a��\u0007�>��|\u0006�\u0002��޲��0���\u0002gx�_��\u0002R�X\"�,� [\u00066��'mw�\u0005~��\u0006� ��G{�\u0001���\u0019 %tN\u0007��~\u0011���O\u0004!\u0017 ��L0A\u0019�\u0007���%p;��C\u001a����\u0017\u0002\u0017цIy��\\�>��\u0001\u0012�J�3��a�B� s�:�lw�=� Nc��\u0016Ί6�*��\u000eG���\u0002�[� K*\u000fe]�2_\u0018ـ)Ly < �\u000e��o~\u001b�D�D>�;�\u001b�\u0002�\"t�\u0007\u0002���\u0006E��SRt�Υ����^g��)8bcpQ\u0006 �\u0015m��~�w ���3\u0014�L���\u0018̘�!��]��\u0006\u0000�\u0006Ŭ�gDL\u0006ܻ�3g�B�� �S����� y��7\u000f\u0001��\u0005K��@\u0012c�LN^\u0014#1J��xh� �\u001b\u0016 ����Q�VVd\u0011A]I!���?�\u001aԇ\u0005�Y}L!p'�v�%��p��X�u\u0001�\u0019~w\u0005�w!~�7d�y�����|AA 3A�\u001a��B��5���Bh i�!.�X�!\u0010�� \u0006^������H�,Bݎ�\u0010\u0016��z�6���gf���ǮXd\u0003Qq���a.�J�E�ZD\u0017�-\"t�\u0013���\"�a��IO$D�OV\b�\u0003�\u0015�5/ �!�0�\\\u001b��� �b�;38�E���5*h�\u0019`��\\ J\b��� 4���r��\u0012q�\u0015\u0002Q\u0014Jg|\u0004+%S���u��8ոf\u0019�:j3��-tq��E[��\u0000\u000e�R?\"�Ynqbj ��.q\u0011p%�J�� ]f���G'�j%\u0004�ޮ�E��$��\u0000o�90�7 $˚\u001a�� �Hk�(\u0003�~S���\u0007uE���d6�n��\u0012�Ty��:��\u0015�2�r�Ւ�֚�Ӄ\u000f�\u0014\"���_�g < 9�h\u0007|r4���\u0017Q�r������W�{���\u000e�����5�����^��e�Ҙh�t ���w�� \u0003��^R\u0006�&HHm����?j:�s��(j���3{�N���\u000f,��\u0014���?�\b�N��ц J�9��#��κ~\u0017\u00167U+1[S�����$�� ���\u0016\u0017KI w�oº\u0014\\���\u0010�\u0017�$T�M�\u0016\u0005E�\u0002V���r�\u0007e쯳�\\*��h\u0011M�\u000f$$���^�\u00023G�\u0015�@TR���)�+A���N��qݾ�QJ�\u0002��(�^��bR�e��\u0005�� � \u0005�Z�(�(E�dyl�����'\u000e��n�z��- l\u0019�A��l < �i-ֿ���\u0002_�O�\u001a��e�\"z�HE�V3�ký����-�v����� �k��]�[r2��X0�B�Kb��\\>PB���^�d.۬oG��Q�\u0019�\u0017���8�z��{> ����\u0000W���Q�\u001b\u000f3L�|����ҙ�\u001a���E���i>�\u0006�Y���� �^-��ڃK9c�>\u001b��u�U�������y6/Z�gG�+�� 2�= �P�� n�\u0013��7�:���j�Z��j�弾�gT;��k@3y�w��gR���t�����E4�Ȟ�",
+      "title": "",
+      "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
     },
     "https://www.tavus.io/post/introducing-image-to-replica": {
       "cleaner_v": 2,
@@ -17340,7 +17746,8 @@
       "https://x.com/DinScales26/status/2064758924369166403",
       "http://x.com/i/article/2064543044607565824",
       "https://x.com/DinScales26/status/2064759242465120619",
-      "https://x.com/messages/compose?recipient_id=2000257900099297281"
+      "https://x.com/messages/compose?recipient_id=2000257900099297281",
+      "https://x.com/DinScales26/status/2065403995922071922"
     ],
     "2064759254993498364": [
       "https://x.com/SidebarIO/status/2064759254993498364",
@@ -17407,7 +17814,8 @@
       "http://x.com/i/article/2064783698889756672"
     ],
     "2064844961065931084": [
-      "https://x.com/mstockton/status/2064844961065931084"
+      "https://x.com/mstockton/status/2064844961065931084",
+      "https://x.com/mstockton/status/2065279800600646005"
     ],
     "2064848575708922093": [
       "https://x.com/cobi_bean/status/2064848575708922093",
@@ -17431,6 +17839,8 @@
       "http://x.com/i/article/2065020060570370048"
     ],
     "2065035615800864954": [
+      "https://x.com/elvissun/status/2065035615800864954",
+      "http://x.com/i/article/2058192123556405248",
       "https://x.com/elvissun/status/2065241100114096278"
     ],
     "2065065416221679975": [
@@ -17439,19 +17849,38 @@
     "2065070625970946175": [
       "https://x.com/chrstnerode/status/2065070625970946175",
       "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg",
+      "https://x.com/chrstnerode/status/2065070629812846773",
+      "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg",
+      "https://x.com/chrstnerode/status/2065070633340268869",
+      "https://pbs.twimg.com/media/HKiXYnXWUAA2qmo.jpg",
       "https://x.com/chrstnerode/status/2065070636754497630",
       "https://pbs.twimg.com/media/HKeLJgVXEAASrDo.jpg",
       "https://x.com/chrstnerode/status/2065070641607319915",
       "https://pbs.twimg.com/media/HKeOaghWcAEpRG4.jpg",
+      "https://x.com/chrstnerode/status/2065070646439166453",
+      "https://pbs.twimg.com/media/HKerWvMX0AA7WC-.jpg",
+      "https://x.com/chrstnerode/status/2065070650310422931",
+      "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2065055772778594304/img/ZHO2LaQbcKzLEWhd.jpg",
       "https://x.com/chrstnerode/status/2065070654768972273",
       "https://pbs.twimg.com/media/HKeO7mCXMAAgzUx.jpg",
+      "https://x.com/chrstnerode/status/2065070658602631290",
+      "https://pbs.twimg.com/media/HKe4wx3XAAEDHy2.jpg",
+      "https://x.com/chrstnerode/status/2065070662973108628",
+      "https://pbs.twimg.com/media/HKexUNRWcAAT1lO.jpg",
+      "https://x.com/chrstnerode/status/2065070666949210201",
+      "https://pbs.twimg.com/media/HKe4YVnXwAA0K1I.jpg",
       "https://x.com/chrstnerode/status/2065451591772021013",
-      "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png"
+      "https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png",
+      "https://x.com/chrstnerode/status/2065551701583495386"
     ],
     "2065086160292966581": [
       "https://x.com/SidebarIO/status/2065086160292966581",
       "https://www.ui-skills.com/?ref=sidebar",
-      "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg"
+      "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg",
+      "https://x.com/SidebarIO/status/2064704643687477257",
+      "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar",
+      "https://pbs.twimg.com/media/HKdN7k0X0AARYdq.jpg"
     ],
     "2065089002445963435": [
       "https://x.com/zeddotdev/status/2065089002445963435",
@@ -17461,18 +17890,26 @@
       "https://x.com/zeddotdev/status/2065089007080640516",
       "https://x.com/zeddotdev/status/2065089008502505501",
       "https://zed.dev/deltadb",
-      "https://x.com/zeddotdev/status/2065207797952733340",
-      "https://x.com/zeddotdev/status/2065116125055045778"
+      "https://x.com/zeddotdev/status/2065116125055045778",
+      "https://x.com/zeddotdev/status/2065207797952733340"
     ],
     "2065129901427130678": [
       "https://x.com/ishaansehgal/status/2065129901427130678",
       "http://x.com/i/article/2064983895096066048",
+      "https://x.com/ishaansehgal/status/2065499549905694982",
+      "https://x.com/ishaansehgal/status/2065495232230133868",
       "https://x.com/ishaansehgal/status/2065175022294159803",
+      "https://x.com/ishaansehgal/status/2065537029421535480",
+      "https://x.com/ishaansehgal/status/2065499843766727171",
       "https://x.com/ishaansehgal/status/2065157411271594448",
+      "https://x.com/ishaansehgal/status/2065535200399142912",
+      "https://x.com/ishaansehgal/status/2065499711881064669",
+      "https://x.com/ishaansehgal/status/2065500480508473839",
       "https://x.com/ishaansehgal/status/2065153564797002012",
+      "https://x.com/ishaansehgal/status/2065494480959205861",
+      "https://x.com/ishaansehgal/status/2065133902528962697",
       "https://x.com/ishaansehgal/status/2065161301329109382",
-      "https://x.com/ishaansehgal/status/2065297872925704606",
-      "https://x.com/ishaansehgal/status/2065133902528962697"
+      "https://x.com/ishaansehgal/status/2065558239698469203"
     ],
     "2065133771817619628": [
       "https://x.com/posthog/status/2065133771817619628",
@@ -17490,7 +17927,9 @@
     "2065154384661516621": [
       "https://x.com/DanielVieira7/status/2065154384661516621",
       "https://www.skills.sh/mattpocock/skills/grill-with-docs",
-      "https://x.com/DanielVieira7/status/2065215835833065842"
+      "https://x.com/DanielVieira7/status/2065452672820322405",
+      "https://x.com/DanielVieira7/status/2065215835833065842",
+      "https://x.com/DanielVieira7/status/2065452827791552927"
     ],
     "2065176245952987441": [
       "https://x.com/nurijanian/status/2065176245952987441",
@@ -17521,15 +17960,21 @@
     ],
     "2065234780497883259": [
       "https://x.com/ChristopherA/status/2065234780497883259",
-      "http://x.com/i/article/1780641040757854209"
+      "http://x.com/i/article/1780641040757854209",
+      "https://x.com/ChristopherA/status/2065508387853586647"
     ],
     "2065241808448438444": [
       "https://x.com/austinit/status/2065241808448438444",
       "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg",
-      "https://x.com/austinit/status/2065347414152913184"
+      "https://x.com/austinit/status/2065595147149263258",
+      "https://x.com/austinit/status/2065347414152913184",
+      "https://x.com/austinit/status/2064646806731141237",
+      "https://github.com/byoungd/English-level-up-tips"
     ],
     "2065242047767019725": [
-      "https://x.com/GuangyuRobert/status/2065242047767019725"
+      "https://x.com/GuangyuRobert/status/2065242047767019725",
+      "https://x.com/GuangyuRobert/status/2065460831715033284",
+      "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png"
     ],
     "2065271875027218846": [
       "https://x.com/danshipper/status/2065430839660568842",
@@ -17537,11 +17982,21 @@
     ],
     "2065318847151046781": [
       "https://x.com/blader/status/2065318847151046781",
-      "https://github.com/blader/arbitrage"
+      "https://github.com/blader/arbitrage",
+      "https://x.com/blader/status/2065377949944344794",
+      "https://x.com/blader/status/2065319465856966811"
+    ],
+    "2065336298055880810": [
+      "https://x.com/bibryam/status/2065336298055880810",
+      "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff",
+      "https://x.com/bibryam/status/2065445933601435823",
+      "http://x.com/i/article/2065392205439651840"
     ],
     "2065357584585154776": [
       "https://x.com/Charles77xixi/status/2065357584585154776",
-      "http://x.com/i/article/2065357403747438592"
+      "http://x.com/i/article/2065357403747438592",
+      "https://x.com/Charles77xixi/status/2065463119393305005",
+      "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg"
     ],
     "2065359920179069039": [
       "https://x.com/nurijanian/status/2065359920179069039"
@@ -17560,13 +18015,65 @@
       "https://x.com/AlphaSignalAI/status/2065441777591693430",
       "http://x.com/i/article/2065383150319280129",
       "https://x.com/AlphaSignalAI/status/2065441925935870301",
-      "https://github.com/NVIDIA/SkillSpector/"
+      "https://github.com/NVIDIA/SkillSpector/",
+      "https://x.com/AlphaSignalAI/status/2065449628821037530",
+      "https://pbs.twimg.com/media/HKnzfbRXQAE25pr.jpg"
+    ],
+    "2065444904860610572": [
+      "https://x.com/minicoohei/status/2065444904860610572",
+      "http://x.com/i/article/2065441692929667073"
     ],
     "2065445933601435823": [
       "https://x.com/bibryam/status/2065445933601435823",
       "http://x.com/i/article/2065392205439651840"
+    ],
+    "2065467594694598852": [
+      "https://x.com/zongheng_yang/status/2065467594694598852",
+      "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png",
+      "https://x.com/zongheng_yang/status/2065467596993126859",
+      "https://x.com/zongheng_yang/status/2065574775741882535",
+      "https://x.com/zongheng_yang/status/2065576109002141845",
+      "https://x.com/zongheng_yang/status/2065530191930437875"
+    ],
+    "2065472022566649897": [
+      "https://x.com/PawelHuryn/status/2065472022566649897",
+      "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg",
+      "https://x.com/PawelHuryn/status/2065475059502719172"
+    ],
+    "2065472650042867988": [
+      "https://x.com/linear/status/2065472650042867988",
+      "https://linear.app/now/linear-agent-bug-fix"
+    ],
+    "2065485993734517180": [
+      "https://x.com/nfcampos/status/2065485993734517180",
+      "http://x.com/i/article/2065431417861844992"
+    ],
+    "2065494480837583297": [
+      "https://x.com/ClaudeDevs/status/2065494480837583297",
+      "https://pbs.twimg.com/amplify_video_thumb/2065494180869398528/img/Zk_My_A9jZr8ExfS.jpg",
+      "https://x.com/ClaudeDevs/status/2065494482460836183",
+      "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker",
+      "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
+    ],
+    "2065518402601418756": [
+      "https://x.com/mjtsai/status/2065518402601418756",
+      "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/",
+      "https://x.com/mjtsai/status/2064801779276009977",
+      "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/"
+    ],
+    "2065527146425332190": [
+      "https://x.com/danshipper/status/2065527146425332190",
+      "http://x.com/i/article/2065526984328056832"
+    ],
+    "2065534297709466100": [
+      "https://x.com/timsneath/status/2065534297709466100",
+      "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
+      "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
+    ],
+    "2065564935006892390": [
+      "https://x.com/jediahkatz/status/2065564935006892390"
     ]
   },
-  "updated_at": "2026-06-12T17:17:34Z",
+  "updated_at": "2026-06-13T01:34:19Z",
   "window": "recent"
 }
