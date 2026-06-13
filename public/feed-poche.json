@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 692,
+      "count": 693,
       "name": "Tools"
     },
     {
-      "count": 425,
+      "count": 427,
       "name": "Development"
     },
     {
@@ -13,11 +13,11 @@
       "name": "Design"
     },
     {
-      "count": 321,
+      "count": 323,
       "name": "Articles"
     },
     {
-      "count": 275,
+      "count": 276,
       "name": "Social"
     },
     {
@@ -38,8 +38,218 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2292,
+  "item_count": 2298,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://static.ahrefs.com/assets/img/og/agent-a-og.png?v=2",
+        "https://www.facebook.com/tr?id=1511271639109289&ev=PageView&noscript=1",
+        "https://px.ads.linkedin.com/collect/?pid=83228&fmt=gif",
+        "https://ahrefs.com/assets/esbuild/agent-a-logo-5Y54DX44.svg",
+        "https://ahrefs.com/assets/esbuild/letaido-icon-ANIEQHA4.svg",
+        "https://ahrefs.com/assets/esbuild/gradient-hero-bg-VWU2SYI2.svg",
+        "https://ahrefs.com/assets/esbuild/gradient-hero-bg-mobile-I3KIJGGZ.svg",
+        "https://ahrefs.com/assets/esbuild/agencies-D5HRJYHI.jpg",
+        "https://ahrefs.com/assets/esbuild/agent-a-logo-large-2XLPP72B.svg",
+        "https://ahrefs.com/assets/esbuild/tag-icon-claude-5G7HS5SZ.svg",
+        "https://ahrefs.com/assets/esbuild/tag-icon-chatgpt-R7CRYQRW.svg",
+        "https://ahrefs.com/assets/esbuild/tag-icon-deep-seek-W6HIJ27X.svg"
+      ],
+      "article_text": "Meet Agent A, the AI agent with unrestricted access to your Ahrefs data. Built to do the marketing work you’d rather not.\n✦ Build content calendar✦ Find keyword cannibalization✦ Create link building strategy✦ Audit technical health✦ Analyze competitor backlinks✦ Find unlinked brand mentions✦ Benchmark against industry✦ Audit technical health✦ Analyze competitor backlinks\nThere’s always more to do than time to do it.\nWhether you’re an agency, ecommerce brand, SaaS, enterprise, or freelancer, Agent A ships the work the way your business needs it.\nRun more client work without more headcount. Agent A drafts landing pages, sequences, and reports across every account, delivered into Google Docs, Notion, or HubSpot.\nOperate at catalog scale without losing the basics. Agent A keeps pages refreshed, tracks SKUs, and monitors AI visibility, with alerts in Slack and tickets in Linear.\nShip the marketing growth depends on. Agent A handles programmatic pages, launches, lifecycle email, and battlecards, delivered as briefs to Linear, Notion, and HubSpot.\nCoordinate marketing across brands and markets. Agent A produces copy variants, unifies SEO and content under shared data, and consolidates reporting.\nDeliver more client work without losing your weekends. Agent A drafts audits, briefs, and content overnight, validates niches, and keeps your brand active.\nAhrefs gives you world’s best marketing data, but turning it into action still takes hours of manual work. Agent A is the layer that changes that.\nYou could plug Claude into the Ahrefs API and hope it figures things out. Or you could use Agent A. Built from three pieces that don’t exist together anywhere else, and wired up to ship real marketing work, not just answers.\nTop AI models\nRuns on frontier models, with the agent picking the best one for each task. You don’t have to choose. You don’t pay per model.\nFull Ahrefs access\nWhile public API and MCP are limited, Agent A uses the same endpoints as the Ahrefs UI, with access to every metric, filter, and report, trained to use them like an expert.\nMarketing skills & apps\nA growing library of marketing skills and apps built by the Ahrefs team. Clone one, customize, skip the prompt engineering.\nMonitoring, alerting, working while you sleep.\nSpots problems and opportunities before you even think to look.\nRuns analyses, builds reports, and takes action on its own.\nWatch Agent A pull live Ahrefs data, analyze competitors, surface SEO issues, and generate reports, apps, and workflows from a single prompt.\nEvery app and skill in the library is pre-tuned for Ahrefs data and ready to run. Fork one into your workspace, customize it, and ship the work today instead of next quarter.\nContent Gap Analysis\nAI Mention Gap Analysis\nAnchor Text Analysis\nSERP Feature Opportunities\nLinkbait Opportunities\nSite Audit Issue Fixer\nSite Audit Discovery\nTrending Keyword Research\nBrand Authority & E-E-A-T Audit\nSEO to AI Query Converter\nAI Brand Sentiment\nDeclining Content Detection\nFix Keyword Cannibalization\nAI Bot & Web Analytics\nLink Intersect Prospecting\nProgrammatic SEO Keywords\nBroken Link Building\nAI Citation Freshness Audit\nCommunity Content Research\nPage Traffic Opportunities\nAgent A works across Ahrefs tools to turn SEO data into clear answers, recommendations, and next steps.\nKeywords Explorer\nConnect your analytics, ads, and CMS. Agent A pulls it all together so every recommendation is grounded in your real data.\nWorkspace\nNotion\nLinear\nSlack\nAirtable\nFathom\nMarketing\nHubSpot\nGong\nWordPressNew\nMailchimpNew\nResendNew\nSemrushNew\nData automation\nGitHub\nFirehose\nApifyNew\nMost AI tools query data. Agent A owns it. Ahrefs has spent the last 14 years indexing the entire web: every page, every link, every keyword, every ranking, every AI mention. Agent A can manipulate it, combine it, cross-reference it, and act on it in real time.\n170T+\nPages in our web index\n5M\nPages crawled per minute\n41.9B\nKeywords tracked\n3.5T\nExternal backlinks mapped\n18.5B\nContent pages in",
+      "article_title_extracted": "Agent A by Ahrefs — The AI Marketing Agent Powered by Ahrefs Data",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-13T04:21:18.430850Z",
+      "description": "Meet Agent A — the AI agent built on Ahrefs' industry-leading dataset of 170T+ indexed pages. Analyzes, builds, and acts on marketing insights so you can focus on strategy.",
+      "domain": "ahrefs.com",
+      "embed_type": "",
+      "id": "k17ehwv3mm8w5xanpsn20zrzj988jbt3",
+      "og_image_url": "https://static.ahrefs.com/assets/img/og/agent-a-og.png?v=2",
+      "recommended_at": "2026-06-13T04:28:40.789000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-marketing",
+        "seo-tools",
+        "marketing-automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T04:28:40.789000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Agent A by Ahrefs — The AI Marketing Agent Powered by Ahrefs Data",
+      "url": "https://ahrefs.com/agent-a",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_title_extracted": "WeLM Blog",
+      "category": "Articles",
+      "created_at": "2026-06-13T03:20:03.421309Z",
+      "description": "WeLM 系列",
+      "domain": "welm.weixin.qq.com",
+      "embed_type": "",
+      "id": "k1769h9dptq30127q63qd03ecn88kz89",
+      "og_image_url": "https://cloud.poche.app/api/storage/dc7cc659-f235-495f-ae68-1155e7425dc6",
+      "recommended_at": "2026-06-13T04:07:24.892000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "large-language-models",
+        "ai-research",
+        "nlp"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T04:07:24.892000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "WeLM Blog",
+      "url": "https://welm.weixin.qq.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_image_urls": [
+        "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
+      ],
+      "article_title_extracted": "Drop to Deploy",
+      "category": "Development",
+      "created_at": "2026-06-13T03:55:09.924331Z",
+      "description": "The page introduces the 'Drop to Deploy' feature from Vercel, allowing users to easily deploy files or folders by dragging and dropping them. It supports various formats including .zip, and automatically detects the framework being used. Static sites can be deployed instantly.",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k178v4896yrdsz4qr70e11kpa588ktkb",
+      "og_image_url": "https://cloud.poche.app/api/storage/d6e2f02b-965b-4899-bb35-422f803a0731",
+      "recommended_at": "2026-06-13T04:07:23.166000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "vercel",
+        "web-deployment",
+        "cloud-hosting"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T04:07:23.166000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Drop to Deploy",
+      "url": "https://vercel.com/drop",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/50159fff55088f12070cc8a56eb51ff61006b631-2400x1260.png"
+      ],
+      "article_text": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5\nThe US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected.\nWe received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or “jailbreaking” Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass.\nAnthropic’s posture with respect to Fable’s safeguards, as laid out in our launch [blog post](https://www.anthropic.com/news/claude-fable-5-mythos-5), is the following:\n- We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.\n- In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.\n- These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.\n- No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities.\n- We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non-universal jailbreaks (which can elicit some cyber information in specific circumstances), and it is likely that universal jailbreaks will eventually be found in the future. We stated this clearly when we [released](https://www.anthropic.com/news/claude-fable-5-mythos-5)Fable 5.\n- Given that perfect jailbreak resistance does not appear to be possible today, Anthropic adopted a defense in depth strategy with Fable 5. We aimed to make jailbreaks either narrow (in the case of non-universal jailbreaks) or very expensive to produce (in the case of universal jailbreaks), and to combine this with thorough monitoring to quickly detect and shut down any successful attacks. This is also why Anthropic has required 30-day retention of customer data with Fable—a policy change that carries [real costs for us with customers](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models), but that allows us to research and mitigate jailbreaks.\n- We stand by this defense in depth strategy. It reduces the risks posed by Fable, making them comparable to the risks of existing models already deployed across the industry.\n- We have not even received a disclosure of a concerning non-universal potential jailbreak that led to a harmful result. The potential jailbreaks that have been disclosed to us are either entirely benign responses or are minor findings that provide no Mythos-specific uplift.\nTo date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed a report that we believe is the basis of the government's",
+      "article_title_extracted": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 \\ Anthropic",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-13T03:05:14.499088Z",
+      "description": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
+      "domain": "www.anthropic.com",
+      "embed_type": "",
+      "id": "k170gp3gweecwj5c6hz16j9pah88jt11",
+      "og_image_url": "https://cdn.sanity.io/images/4zrzovbb/website/50159fff55088f12070cc8a56eb51ff61006b631-2400x1260.png",
+      "recommended_at": "2026-06-13T03:05:39.703000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-safety",
+        "export-controls",
+        "anthropic"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T03:05:39.703000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_title_extracted": "slot-text — tiny text roll animation",
+      "category": "Development",
+      "created_at": "2026-06-13T03:05:11.075737Z",
+      "description": "slot-text — dependency-free text roll animation for tiny, tactile UI labels.",
+      "domain": "textmotion.dev",
+      "embed_type": "",
+      "id": "k17dr9nawjvpdpcgv92j4956g988jrnj",
+      "og_image_url": "https://cloud.poche.app/api/storage/3343bbdc-d0f0-491c-92f8-1f3a5b9fe2fa",
+      "recommended_at": "2026-06-13T03:05:37.882000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-animation",
+        "ui-components",
+        "frontend-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T03:05:37.882000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "slot-text — tiny text roll animation",
+      "url": "https://textmotion.dev/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-13T03:05:07.161290Z",
+      "description": "Moodboard 3000 v3.0 is live. It's a @figma plugin that turns a pile of images into a real moodboard in one click. Four layout modes, up to 40 images, free.v3.0 adds subject-aware crops, remixing, video support, and a bunch more ↓",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k176easxm7z605hd8n80a52m8n88j5zh",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2065087728513896449/img/2j7_nHVB6V0g4JAE.jpg",
+      "recommended_at": "2026-06-13T03:05:35.270000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "figma",
+        "design-tools",
+        "moodboarding"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T03:05:35.270000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Gavin Potenza (@gavinpotenza) on X",
+      "url": "https://x.com/gavinpotenza/status/2065091824927043655",
+      "x_status_id": "2065091824927043655"
+    },
     {
       "article_fetch_attempted_at": "2026-06-12T15:52:48.502532Z",
       "article_image_urls": [
@@ -2372,7 +2582,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_title_extracted": "mouseless",
       "category": "Tools",
       "created_at": "2026-06-06T03:58:56.025999Z",
@@ -2406,9 +2616,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
-        "https://flueframework.com/og2.jpg"
+        "https://flueframework.com/og3.jpg"
       ],
       "article_title_extracted": "Flue — The Agent Harness Framework",
       "category": "Development",
@@ -2446,20 +2656,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
         "https://conduit.ai/og-image.jpg",
-        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf",
-        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_GZu3z9XoAj9UushYC4Gdt1BPzDnf"
+        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
+        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB"
       ],
       "article_title_extracted": "AI for Hospitality: Customer Service Agents to Elevate Guest Experience",
       "category": "Tools",
@@ -6855,9 +7065,9 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
-        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20610"
+        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20617"
       ],
       "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
       "category": "Media",
@@ -6947,19 +7157,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=6ee14237fb421f88dea59835106375cabd960e75",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fxai-vapi.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-1-5-og.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fcomposer-2-5-og.png&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-build-0-1.webp&w=3840&q=75&dpl=4a7fa70dc851903bbdfa247a9c773e66d1959076"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-plugin-marketplace.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fetoro-spacexai.png&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-gopuff.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-1-5-og.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -7042,7 +7252,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
@@ -7084,7 +7294,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-06T04:41:09.572982Z",
+      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
         "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
@@ -101878,7 +102088,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2136,
+      "count": 2142,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -101914,5 +102124,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-12T22:13:35.195448Z"
+  "updated_at": "2026-06-13T05:09:18.330071Z"
 }
