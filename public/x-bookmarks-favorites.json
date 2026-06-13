@@ -64,6 +64,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "karpathy'nin llm wikisinden sonra tum planlamayi tamamen bu alt yapiya gore yapiyorum. en az 10 kat daha hizli ve halusinasyon gormeden gelistirme yapilmasini net sagliyor.\n\nson zamanlarda okudugum en kafa acici makaleydi, cidden mukemmel✍🏻 https://t.co/8ElunVI0z9",
+      "text_zh": "Karpathy'nin LLM wiki'sinden sonra tüm planlamayı tamamen bu alt yapıya göre yapıyorum. En az 10 kat daha hızlı ve halüsinasyon görmeden geliştirme yapılmasını net bir şekilde sağlıyor.\n\nSon zamanlarda okuduğum en ufuk açıcı makaleydi, gerçekten mükemmel ✍🏻 https://t.co/8ElunVI0z9",
+      "text_zh_hash": "d0cd908186fcd04a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SametSamyeli2/status/2065446727004352735"
     },
     {
@@ -159,6 +162,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "> company rolls out Claude to every employee\n> nobody sets a spending limit\n> employees ask it about the weather\n> agentic workflows burn 1000x more tokens than chat\n> the monthly bill arrives\n> $500,000,000\n\nhalf a billion dollars. by accident. in one month\n\nyour team runs the same setup. smaller numbers, same leak. found where the money actually goes\n\narticle below",
+      "text_zh": "> 公司向每位员工开放 Claude  \n> 无人设置消费限额  \n> 员工用它查询天气  \n> 智能体工作流消耗的 token 是聊天的 1000 倍  \n> 月度账单送达  \n> 5 亿美元  \n\n五亿美元。意外产生的。仅一个月内  \n\n你的团队运行着同样的配置。数字更小，漏洞相同。找到了钱真正流向的地方  \n\n以下为正文",
+      "text_zh_hash": "c7048b57e665849d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xDepressionn/status/2065428681703489648"
     },
     {
@@ -254,6 +260,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "i just broke down exactly what every agency needs to do to acquire clients and actually make money...\n\none of the best articles ive EVER created https://t.co/PI3wudHf6Y",
+      "text_zh": "我刚刚详细拆解了每家代理机构获取客户并真正盈利所需的一切……\n\n这是我创作过的最棒的文章之一 https://t.co/PI3wudHf6Y",
+      "text_zh_hash": "b1f44f254ee317a1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/scaling_shields/status/2065491390113382637"
     },
     {
@@ -295,6 +304,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "We’re extending Harvey's Legal Agent Benchmark (LAB) to in-house contracting.\n\nContracting is the highest-volume workstream for in-house legal teams,  where a huge amount of business risk gets negotiated into binding agreements.\n\nBenchmarking it is hard because:\n\n1) Contracting includes many tasks like drafting, redlining, negotiation, issues lists, and escalation, and many contract types across areas like financing, IP, and M&A.\n\n2) Contracting depends on evolving context in a multi-turn negotiation: business context and data, precedent, playbooks, prior turns and edits, and even subjective factors like negotiating leverage.\n\nWe've added 500 new contracting tasks and 90+ contract types to LAB, with a lot more to come.\n\nFull article below:",
+      "text_zh": "我们正在将 Harvey 的法律智能体基准测试（LAB）扩展至企业内部合同审核领域。\n\n合同审核是企业法务团队工作量最大的工作流，大量商业风险在此过程中被协商并写入具有法律约束力的协议。\n\n对该领域进行基准测试之所以困难，原因在于：\n\n1) 合同审核包含起草、修订、谈判、问题清单及升级处理等诸多任务，涉及融资、知识产权、并购等多个领域的合同类型。\n\n2) 合同审核依赖于多轮谈判中不断变化的背景信息：商业背景与数据、先例、操作手册、先前轮次的内容与修改，甚至谈判筹码等主观因素。\n\n我们已在 LAB 中新增 500 项合同审核任务及 90 余种合同类型，未来还将持续扩充。\n\n完整文章如下：",
+      "text_zh_hash": "3ad282078df15e18",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/gabepereyra/status/2065482471567970467"
     },
     {
@@ -336,6 +348,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "if you're a consumer founder and haven't fully figured out distribution, take the time to read this\n\nafter years of doing growth, i've optimized every part of the UGC campaign process and compiled it into one article\n\nyou can find the md file on my site: aratame . me/notes\n\nemail is in the article, happy to answer any questions",
+      "text_zh": "如果你是一位面向消费者的创业者，且尚未完全摸清分销策略，请花时间阅读本文。\n\n经过多年增长实践，我已优化用户生成内容（UGC）活动流程的每个环节，并将其整理成文。\n\n你可以在我的网站 aratame.me/notes 上找到这份 Markdown 文件。\n\n文章末尾附有邮箱，欢迎随时提问。",
+      "text_zh_hash": "92d32b816d98c442",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/benaratame/status/2065487698010292713"
     },
     {
@@ -377,6 +392,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "lines of code as a metric is officially dead",
+      "text_zh": "代码行数作为度量标准已正式宣告死亡。",
+      "text_zh_hash": "43ecb5a5fc454aa5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dabit3/status/2065535209211039989"
     },
     {
@@ -431,6 +449,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "HERMES AGENT WITHOUT TOOLS IS A CHATBOT.\nWITH THEM IT BUILDS 3D TOWERS IN BLENDER,\nCHECKS STOCK PRICES, AND DRIVES VS CODE.\n@tonbistudio JUST DROPPED THE FULL GUIDE.\n\nmodule 6 of his 10-part Hermes masterclass.\nbest breakdown of the tool layer anyone has published.\n\nwhat you need to know:\n\nTOOLS vs SKILLS vs MCP\n\nskills = instructions (markdown, loaded into context)\ntools = callable functions (Python, agent emits call, Hermes executes)\nMCP = adapters to external systems (Blender, Stripe, Linear, Notion)\n\nevery tool has three parts:\n→ the function (does the real work)\n→ the schema (what the model sees to decide when to call it)\n→ the registry (makes the tool exist in the agent)\n\nthe model never runs the function directly.\nit emits a structured request (tool name + JSON args).\nHermes executes and returns the result.\nif the tool fails, the error goes back as JSON.\nthe agent recovers instead of crashing.\n\nTOOL SETS CONTROL THE SURFACE\n\nhermes chat --tool-sets web\n# only web tools loaded. no files, no terminal.\n\nhermes chat --tool-sets safe\n# read-only: web search, vision, image gen.\n# no file writes. no terminal. no code execution.\n\nmid-session:\n/tools enable video\n/tools disable terminal\n\nor toggle in the dashboard:\nhermes dashboard → Skills → Tool Sets\n\nMCP SERVERS\n\ntwo transport types:\nSTDIO (local subprocess) or HTTP (remote endpoint).\n\nadd a server:\nhermes mcp\n# or ask: \"add the MCP server for Blender\"\n\nfilter tools with include/exclude per server.\nkeep only what you trust.\n\nsecurity:\n→ OAuth 2.1 PKCE (no long-lived tokens in config)\n→ package scanning via api.osv. dev before launch\n→ all MCP calls go through approval gates\n\nHERMES AS MCP SERVER\n\nhermes mcp serve\n\nexposes 10 tools via FastMCP.\nconnect VS Code Copilot or Cursor\nto your running Hermes instance.\n\nBUILD YOUR OWN TOOL\n\nHe built a stock price tool live:\n→ Python function calling Finnhub API\n→ schema with name, description, parameters\n→ registered in tool_sets.py\n→ agent calls it automatically when relevant\n\nany repeating API call in your workflow\ncan become a native tool.\n\nfull Hermes architecture deep-dive in the article 👇",
+      "text_zh": "HERMES AGENT 没有工具时只是聊天机器人。\n有了工具，它就能在 Blender 中搭建 3D 塔楼、\n查询股票价格、操控 VS Code。\n@tonbistudio 刚刚发布了完整指南。\n\n这是他 10 部分 Hermes 大师课的第 6 模块。\n关于工具层，这是目前最透彻的解析。\n\n你需要知道的是：\n\n工具 vs 技能 vs MCP\n\n技能 = 指令（Markdown 格式，加载到上下文中）\n工具 = 可调用函数（Python，Agent 发出调用，Hermes 执行）\nMCP = 外部系统适配器（Blender、Stripe、Linear、Notion）\n\n每个工具包含三部分：\n→ 函数（完成实际工作）\n→ 模式（模型据此判断何时调用）\n→ 注册表（让工具在 Agent 中存在）\n\n模型从不直接运行函数。\n它发出结构化请求（工具名称 + JSON 参数）。\nHermes 执行并返回结果。\n如果工具失败，错误以 JSON 形式返回。\nAgent 可以恢复，不会崩溃。\n\n工具集控制交互界面\n\nhermes chat --tool-sets web\n# 仅加载网络工具。无文件、无终端。\n\nhermes chat --tool-sets safe\n# 只读：网络搜索、视觉、图像生成。\n# 无文件写入。无终端。无代码执行。\n\n会话中：\n/tools enable video\n/tools disable terminal\n\n或在仪表盘中切换：\nhermes dashboard → Skills → Tool Sets\n\nMCP 服务器\n\n两种传输类型：\nSTDIO（本地子进程）或 HTTP（远程端点）。\n\n添加服务器：\nhermes mcp\n# 或询问：\"添加 Blender 的 MCP 服务器\"\n\n按服务器使用 include/exclude 过滤工具。\n只保留你信任的部分。\n\n安全性：\n→ OAuth 2.1 PKCE（配置中无长期令牌）\n→ 启动前通过 api.osv.dev 进行包扫描\n→ 所有 MCP 调用需经过审批关卡\n\nHermes 作为 MCP 服务器\n\nhermes mcp serve\n\n通过 FastMCP 暴露 10 个工具。\n将 VS Code Copilot 或 Cursor\n连接到正在运行的 Hermes 实例。\n\n构建你自己的工具\n\n他现场构建了一个股票价格工具：\n→ 调用 Finnhub API 的 Python 函数\n→ 包含名称、描述、参数的模式\n→ 在 tool_sets.py 中注册\n→ Agent 在相关时自动调用\n\n工作流中任何重复的 API 调用\n都可以成为原生工具。\n\n完整 Hermes 架构深度解析见下方文章 👇",
+      "text_zh_hash": "5249466879f0ba08",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/IBuzovskyi/status/2065559839036637291"
     },
     {
@@ -472,6 +493,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "TL;DR: Anthropic seems to be hiring mostly people who spent the last decade building distributed systems, infrastructure, platforms, databases and large-scale backend systems.\n\nThe median engineer has ~12 years of experience, ~14% have PhDs\n\nTheir biggest employee pool comes from Google + DeepMind, other major talent pools include Meta, Amazon, Microsoft, Stripe, Databricks, Snowflake, Palantir and Airbnb.\n\nThe stereotype of AI labs being full of researchers is probably overstated. The AI boom might end up being the best thing that ever happened to senior platform & infra engineers",
+      "text_zh": "**TL;DR：** Anthropic 似乎主要招聘过去十年从事分布式系统、基础设施、平台、数据库及大规模后端系统开发的人才。\n\n工程师中位数经验约 12 年，约 14% 拥有博士学位。\n\n最大员工来源为 Google + DeepMind，其他主要人才池包括 Meta、Amazon、Microsoft、Stripe、Databricks、Snowflake、Palantir 和 Airbnb。\n\nAI 实验室满是研究人员的刻板印象可能被夸大了。AI 热潮最终或许会成为资深平台与基础设施工程师职业生涯中最好的机遇。",
+      "text_zh_hash": "db07e6584926479f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/akkiex007/status/2065310168456515756"
     },
     {
@@ -526,6 +550,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "For a year I read 6 morning news sources by hand before I'd write a word.\n\nBuilt one Cowork Routine in May.\n\nIt does the same job before sunrise.\n\n90 minutes a day I never got back.\n\nThe slowest part of my day was the part I had Claude trained to do. https://t.co/2ytReXQS6j",
+      "text_zh": "整整一年，我每天都要手动浏览6个早间新闻源，然后才开始动笔写作。\n\n今年五月，我建立了一个“协同工作流程”。\n\n它能在日出前完成同样的工作。\n\n每天省下的90分钟，我再也不用追回来了。\n\n我一天中最慢的部分，恰恰是让Claude训练去完成的那部分。https://t.co/2ytReXQS6j",
+      "text_zh_hash": "71d96fd335aafc5b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Zephyr_hg/status/2065431425113825313"
     },
     {
@@ -568,6 +595,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Read more:\n\nManning MEAP: https://www.manning.com/books/designing-ai-agents\n\nThe position paper underneath the framework (arXiv): https://arxiv.org/abs/2605.13850\n\ncc @ManningBooks 5/5",
+      "text_zh": "更多信息：\n\nManning MEAP：https://www.manning.com/books/designing-ai-agents\n\n框架下方的立场论文（arXiv）：https://arxiv.org/abs/2605.13850\n\n抄送 @ManningBooks 5/5",
+      "text_zh_hash": "b6a5c18cbe9aff1c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/shidaren/status/2065434050618380581"
     },
     {
@@ -662,6 +692,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The reason your AI gives generic answers isn't the model.\n\nIt's that your company's knowledge lives in 12 different tools and your agent can't see any of it.\n\nSo here's how to build a context database your agents can actually use:\n\n1) Pull it in:\n- Slack, email, meetings, docs, tickets\n- Auto-collected on a schedule into one place.\n\n2) Clean it up.\n- An agent files what matters and drops the noise, so your brain doesn't bloat.\n\n3) Store it as memory.\n- Folders of files your agents read from and write back to as they learn.\n\n4) Point your agents at it.\n- Now they draft, build, and ship with full context instead of guessing.\n\nSame model. Same agent.\n\nThe difference is whether it can understand your company or not.\n\nBuild the database once. \n\nEverything downstream gets smarter.",
+      "text_zh": "你的AI给出泛泛回答的原因不在于模型本身。\n\n而是因为你们公司的知识分散在12个不同的工具里，而你的智能体根本看不到这些信息。\n\n所以，以下是构建一个智能体真正可用的上下文数据库的方法：\n\n1) 数据拉取：\n- 包括Slack、邮件、会议、文档、工单\n- 按计划自动收集到统一位置\n\n2) 数据清洗：\n- 由智能体筛选重要信息、过滤噪音，避免知识库臃肿\n\n3) 存储为记忆：\n- 建立文件夹，智能体可在学习过程中读取和回写文件\n\n4) 让智能体接入：\n- 现在它们就能在完整上下文中起草、构建和交付，而非凭空猜测\n\n同样的模型。同样的智能体。\n\n区别在于它能否理解你的公司。\n\n只需构建一次数据库。\n\n下游所有环节都将变得更智能。",
+      "text_zh_hash": "a4f9199af44b9afa",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/startupideaspod/status/2065516731691581922"
     },
     {
@@ -702,6 +735,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "RAG makes LLM queries smarter. But basic RAG still produces noisy, inaccurate results. Advanced RAG fixes how information is searched, ranked, and filtered before it reaches the model. New guide on building retrieval systems you can trust in production.\nhttps://blog.n8n.io/advanced-rag/",
+      "text_zh": "RAG 让大模型查询更智能，但基础版 RAG 仍会产生杂乱、不准确的结果。高级 RAG 改进了信息搜索、排序和过滤方式，确保信息在到达模型前已得到优化。新指南教你构建生产环境中值得信赖的检索系统。\nhttps://blog.n8n.io/advanced-rag/",
+      "text_zh_hash": "fe7dbb91dac4eaa0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/n8n_io/status/2065403846940147866"
     },
     {
@@ -743,6 +779,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "What if the database was itself a model?\n\nWe have been cooking some crazy tech",
+      "text_zh": "如果数据库本身就是一个模型呢？\n\n我们一直在捣鼓一些疯狂的技术。",
+      "text_zh_hash": "23b3f18e173145f0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/daleverett/status/2065501591969435740"
     },
     {
@@ -878,6 +917,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How it feels to send 2,000,000 emails for $19.50/mo https://t.co/SubWn1SHd4",
+      "text_zh": "每月花19.50美元发送200万封邮件是什么体验 https://t.co/SubWn1SHd4",
+      "text_zh_hash": "de6e5627bb6dca4d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/levikmunneke/status/2065497094417203629"
     },
     {
@@ -1048,6 +1090,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must must read\n\n(The first point is my favourite and i understood this last week)",
+      "text_zh": "必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须必须阅读\n\n（第一点是我最喜欢的，上周才理解）",
+      "text_zh_hash": "f602f3903840ebd4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sumitdotme/status/2065392877535187147"
     },
     {
@@ -1089,6 +1134,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I use Claude every day to run 3 companies and a 30-person team.\n\nIt pains me to watch people use the most transformative technology ever built like it's just a fancier Google Search.\n\nClaude can change your life, but you have to use it correctly.\n\nHow to master Claude (from zero)",
+      "text_zh": "我每天都在用Claude运营3家公司和一个30人的团队。\n\n看到有人把这项最具变革性的技术当成高级版谷歌搜索来用，实在让我心痛。\n\nClaude可以改变你的人生，但你必须正确使用它。\n\n如何从零开始掌握Claude",
+      "text_zh_hash": "cc09a55499ba0089",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/milesdeutscher/status/2065472950233636958"
     },
     {
@@ -1183,6 +1231,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "DO NOT FALL BEHIND\n\nFable 5 is about to pick a winner in your niche.\n\nMake sure it's you.\n\nA new frontier model is a rare window. For a short stretch, a one-person shop can outrun a company ten times its size. Then the window closes and the new capability becomes table stakes.\n\nIn six months this will be normal. Your whole niche will be running it. The advantage goes to whoever started today and spent those months compounding while the rest caught up.\n\nSo the only question that matters is this.\n\nWhen your competitor finally figures this out, are they catching up to you? Or are you catching up to them?\n\nPick one problem in your business that costs you money.\n\nPoint Fable 5 at it this week.\n\nBe the first in your niche who did.",
+      "text_zh": "不要落后\n\nFable 5 即将在你的细分领域选出一个赢家。\n\n确保那个人是你。\n\n新一代前沿模型的出现，是难得一遇的窗口期。在短暂的一段时间里，一个人的团队也能跑赢规模大十倍的对手。随后窗口关闭，新能力成为入场门槛。\n\n六个月后，这一切将变得稀松平常。你整个细分领域都会用上它。优势属于那个今天就开始行动、在其他人追赶的这几个月里持续积累的人。\n\n所以，唯一重要的问题是：\n\n当你的竞争对手终于想明白这一点时，他们是在追赶你，还是你在追赶他们？\n\n在你的业务中，找出一个让你花钱的问题。\n\n本周就用 Fable 5 去解决它。\n\n成为你所在细分领域里第一个这么做的人。",
+      "text_zh_hash": "6e13568311239aa6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ericosiu/status/2065456339183390743"
     },
     {
