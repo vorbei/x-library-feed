@@ -5,15 +5,15 @@
       "name": "Tools"
     },
     {
-      "count": 428,
+      "count": 429,
       "name": "Development"
     },
     {
-      "count": 329,
+      "count": 330,
       "name": "Design"
     },
     {
-      "count": 323,
+      "count": 325,
       "name": "Articles"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 141,
+      "count": 142,
       "name": "Media"
     },
     {
@@ -38,8 +38,214 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2300,
+  "item_count": 2305,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute/imgs/meta.png",
+        "https://www.prisma.io/blog/authors/alexey-orlenko.png",
+        "https://www.prisma.io/blog/badges/gdpr.svg",
+        "https://www.prisma.io/blog/badges/gdpr_light.svg",
+        "https://www.prisma.io/blog/badges/hipaa.svg",
+        "https://www.prisma.io/blog/badges/hipaa_light.svg",
+        "https://www.prisma.io/blog/badges/iso27.svg",
+        "https://www.prisma.io/blog/badges/iso27_light.svg",
+        "https://www.prisma.io/blog/badges/soc2.svg",
+        "https://www.prisma.io/blog/badges/soc2_light.svg"
+      ],
+      "article_text": "[← Back to Blog](https://www.prisma.io/blog)\nWe put Bun's Rust rewrite in production on Prisma Compute\n[Alexey Orlenko](https://www.prisma.io/blog/author/alexey-orlenko)June 11, 2026\n[Prisma Compute](https://www.prisma.io/blog/series/prisma-compute)series.\n[View full series →](https://www.prisma.io/blog/series/prisma-compute)\nPrisma Compute runs TypeScript apps on Bun. When we launched the public beta, we launched it on Bun canary, specifically on the Rust rewrite that is expected to ship as Bun 1.4.\nThat decision had nothing to do with how we feel about rewrites in general. It came down to test results.\nWe picked Bun early because it matched what we wanted Compute to be: a batteries included and Node.js compatible TypeScript runtime that runs customer apps next to their database, scales to zero when idle, and wakes up when traffic returns. Then we started running it under real load, and the picture got more complicated. We ran into memory leaks and a connection pool that couldn't recover after a VM was paused and resumed. We fixed what we could in Bun's own codebase. When the Rust rewrite appeared, we tested it against the same failure modes. It handled them perfectly.\nThis post is the report behind that decision: what Compute demands from a runtime, what broke on Bun 1.3, what changed on the canary, and why launching the beta there beat the alternative of carrying an ever-growing private fork.\n[Why Compute is a hard runtime test](https://www.prisma.io#why-compute-is-a-hard-runtime-test)\n[Prisma Compute](https://www.prisma.io/blog/launching-prisma-compute-public-beta) hosts TypeScript apps on the same infrastructure as your database. You point an agent at a project. It provisions a branch database, applies your schema, builds and deploys the app, reads the logs, fixes what failed, and deploys again.\nUnderneath, every app runs on Bun. Instances scale to zero when nothing is happening. Each deploy becomes an immutable version with its own preview URL, and every database branch can carry its own app deployment.\nThat lifecycle stresses a runtime in ways a benchmark never will. A Compute app isn't a script that handles one request and exits. It's a long-lived service. It might sit idle, get paused with a memory snapshot, then resume and have to serve traffic immediately. Its connection pool may be holding sockets that were healthy before the pause and are dead after it. Its native resources have to be released even when the JavaScript abstractions are still alive.\nSo when we talk about runtime reliability, we mean things that have to keep working for months: memory that stays bounded no matter how many request and object bodies pass through, pools that notice dead connections and reconnect, paused instances that come back in a usable state, and requests that fail loudly instead of hanging forever.\nThose were the conditions we tested Bun under.\n[What failed before the rewrite](https://www.prisma.io#what-failed-before-the-rewrite)\nThe memory problems came first.\nThe clearest public example is [Bun issue #29083](https://github.com/oven-sh/bun/issues/29083). The repro is small: read the same S3 object into an ArrayBuffer over and over with Bun.S3File.arrayBuffer() inside a 1 GiB Linux container, forcing garbage collection with Bun.gc(true) after every iteration. On stable Bun, RSS climbed anyway, past the 900 MiB threshold the report set, and far enough to get the container OOM-killed.\nWhat worried us wasn't the S3 API in particular. It was what the bug implied about ordinary server code: you can read a body into memory, drop every reference to it, force a full GC, and still watch the process grow well beyond anything the JavaScript heap can account for. A long-lived service has nowhere to hide from that.\nThe connection pool was the second problem, and in some ways the worse one.\nIf a VM is paused and resumed much later, or when the network kills a socket without warning, a database pool has to notice that its idle connections are gon",
+      "article_title_extracted": "We put Bun's Rust rewrite in production on Prisma Compute",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-14T04:44:29.063503Z",
+      "description": "Why Prisma Compute's public beta runs on Bun's Rust rewrite canary: the memory and connection-pool failures we hit on stable Bun, and what changed.",
+      "domain": "www.prisma.io",
+      "embed_type": "",
+      "id": "k17325t6a3g94ke5f8va4fa1bx88mmbj",
+      "og_image_url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute/imgs/meta.png",
+      "recommended_at": "2026-06-14T04:44:35.459000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "prisma",
+        "bun",
+        "serverless"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-14T04:44:35.459000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "We put Bun's Rust rewrite in production on Prisma Compute",
+      "url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-14T04:28:15.692204Z",
+      "description": "Daring Fireball • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k17673rnvw3frx1gr8n4y2ynvn88mh4r",
+      "og_image_url": "https://i.ytimg.com/vi/OtRgxqMuUY8/maxresdefault.jpg",
+      "recommended_at": "2026-06-14T04:29:33.260000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "apple",
+        "wwdc",
+        "tech-news"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-14T04:29:33.260000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "The Talk Show: Live From WWDC 2026",
+      "url": "https://www.youtube.com/watch?v=OtRgxqMuUY8",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://daringfireball.net/graphics/df-wide-card.png",
+        "https://daringfireball.net/graphics/logos/",
+        "https://daringfireball.net/martini/images/workos.png"
+      ],
+      "article_text": "By John Gruber\n[WorkOS launches auth.md](https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026) — an open protocol for agent registration.\n[Please enjoy this article on its own webpage](https://daringfireball.net/2026/05/what_is_a_dickover). Trust me.\ndickover n. : a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. asking the user to accept “cookies”, subscribe to a newsletter, install the website’s mobile app, agree to terms of service, or anything else that the user couldn’t give two shits about.\nYou know what a dickover is, even if you didn’t know what to call it (until now). If you use the Internet, you encounter them every day. They’re popovers, but dickheaded. The web is absolutely lousy with them, and mobile apps present them too, with increasing frequency.\nDickovers are a veritable scourge. They’re so common they’re effectively part of the firmament. I started calling these things [dickpanels in 2022](https://daringfireball.net/linked/2022/08/02/banish), but when dickover popped into my head last week,[1](https://daringfireball.net#fn1-2026-05-29) I couldn’t shake the feeling that it’s a better term for these ubiquitous odious irritations. You can hardly go anywhere on the web without getting dicked over by a dickover. They often pester you about permitting cookies, like [this one from Euronews](https://daringfireball.net/misc/2026/05/dickover-euronews.jpeg) or [this one from Gallup](https://daringfireball.net/misc/2026/05/dickover-gallup-cookie.png). This malicious design pattern is so ubiquitous that it has spread even to personal blogs, [like this one from my friend Om Malik](https://daringfireball.net/misc/2026/05/dickover-om-newsletter.png), and to [great brands like Field Notes](https://daringfireball.net/misc/2026/05/dickover-field-notes.jpeg), both asking you to sign up for their newsletters.\nThe homepage for every single blog hosted by Substack shows a particularly pernicious dickover on its homepage. The Substack dickover doesn’t even look like a panel. It’s a full-screen curtain designed and worded to suggest, strongly, that you need to sign up for the blog’s email newsletter just to read anything. The dismissal button for the Substack dickover is a small text link — that doesn’t look anything like a button — that says something like “No thanks” (e.g. [Paul Krugman](https://daringfireball.net/misc/2026/05/dickover-substack-krugman.jpeg), [Matt Yglesias](https://daringfireball.net/misc/2026/05/dickover-substack-yglesias.jpeg)) or something that adds insult to injury with a cloyingly saccharine label like “Just gimme that content!” (e.g. [Volts](https://daringfireball.net/misc/2026/05/dickover-substack-volts.jpeg)).\n[Here’s one from The Philadelphia Inquirer](https://daringfireball.net/misc/2026/05/dickover-inquirer-shore-texts.jpeg), for which I pay $20/month to subscribe, asking me to sign up for SMS text messages about the Jersey shore, while I’m logged into their cursed website, before they’ll let me see the article I came to read. Every time I see one of these I think about unsubscribing. I’m paying them to abuse my time and attention. I started capturing screenshots of every dickover I saw when I started working on this article, and I soon had to give up because I was collecting too many of them. But [this one from Tom’s Hardware](https://daringfireball.net/misc/2026/05/dickover-dickover-tomshardware.png) I actually enjoyed, because their own dickover got dicked over by one of their own fucking ads in a JavaScript Z-axis slapfight.\nIf you visit a website you should ... see the website. See its content. Be able to read the article whose page you are attempting to visit. Showing a “subscribe to our newsletter” or “accept our fucking cookies” dickover to someone trying to read an article on the web makes no more sense than sending out",
+      "article_title_extracted": "Daring Fireball: What Is a Dickover?",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-14T04:29:22.645189Z",
+      "description": "dickover — a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. asking the user to accept “cookies”, subscribe to a newsletter, install the website’s mobile app, agree to terms of service, or anything else that the user couldn’t give two shits about.",
+      "domain": "daringfireball.net",
+      "embed_type": "",
+      "id": "k1791p5v4abdvf6vnxfpn8rjkh88np0e",
+      "og_image_url": "https://daringfireball.net/graphics/df-wide-card.png",
+      "recommended_at": "2026-06-14T04:29:31.518000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ux-design",
+        "dark-patterns",
+        "web-usability"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-14T04:29:31.518000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Daring Fireball: What Is a Dickover?",
+      "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/kdtbpgwz/2329_fp894002_apple-jingan.jpg&width=1200&height=630&crop=true",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/aszdgvxs/search_1942_fp638542.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/ihulcaty/contact_1701_fp539551.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/p4hb0ngz/0686_fp205519.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/ti2hyglv/expertise_2018_fp708090.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/qexj5oec/fp858042_2000.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/lsjkl5qc/people.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/ngnhul51/news_1856_fp840266.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/yfylgznl/1.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/bkmjmlw0/careers.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/i5qkkiat/2329_fp894003_apple-jingan.jpg&width=2000&height=2000&crop=false",
+        "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/ef1hxak5/2329_fp893720_apple-jingan.jpg&width=2000&height=2000&crop=false"
+      ],
+      "article_text": "Skip to main content Projects Apple Jing’an Apple Jing’an Retail Recently Completed Image Gallery Apple Jing’an is an Apple store and urban regeneration project located in the heart of Shanghai’s Jing'an District. A new circular public plaza has been carefully recreated to enhance connectivity between the historic Jing’an Temple and Jing’an Park, which are located on either side of Nanjing Road. The project knits together the city’s urban fabric with the major metro interchange below to create a new active public space for the city of Shanghai. The permeable new plaza connects different pedestrian flows across multiple levels and includes a gently sloping landscaped skywalk, which integrates an elevated gallery with terraced seating for the public to enjoy views of the temple. The plaza’s circular geometry encourages social interactions and reinforces a sense of community to create a new gathering space in the city. Seasonal planting has been integrated within the hardscape spaces to complement the warm tones of the temple and soften the urban edges. The regionally sourced Padang Light stone on the plaza flows through the interior to line the walls and floor of the store, creating a seamless transition from outside to inside. The store itself is nestled within an existing structure below Jing’an Park, with its main entrance on the plaza. Visitors descend from the plaza into the Forum, a bright double-height space, via a central stone staircase. This dramatic arrival sequence is replicated when people enter the store via the underground metro interchange, which directly connects to the double-height space of the store via curved ramps to improve accessibility. The large disc-shaped central light in the ceiling above the Forum is illuminated by a large backlit panel that simulates daylight using tunable white lighting technology. As night descends, the intensity of light shifts to a warmer tone to mimic the ambient lighting. Additional lighting layers include accent lighting for products and wall-washers along the store’s perimeter. A spectacular undulating timber ceiling follows the store’s circular geometry, wrapping around a central oculus and gently sloping upwards towards the main entrance, to bring in natural light from the plaza. The circular plaza, store entrance, interior staircase and Forum are all aligned on the central axis of the temple, offering direct views of the historic landmark from the inside and along each point of the journey between the different spaces. The development is respectful to both the temple and the park – which have their own distinct identities. The project aims to preserve these qualities and enhance their context, creating a complementary and natural addition to the surrounding urban realm. Slide 1 of 7 Slide 2 of 7 Slide 3 of 7 Slide 4 of 7 Slide 5 of 7 Slide 6 of 7 Slide 7 of 7 Facts and Figures Team More Projects Apple Myeongdong 2022 - Seoul, South Korea Shanghai Bund Riverside 2020 - Shanghai, China DUO Central Park 2018 - Sydney, Australia Apple Carnegie Library, Washington DC 2019 - Washington DC, USA Galeries Lafayette 2019 - Luxembourg City, Luxembourg Bishops Square Retail 2023 - London, UK Sydney Metro, Barangaroo Station 2024 - Sydney, Australia BMCE Branches 2011 - Casablanca, Fez, Rabat, Marrakech and Eljadida, Morocco Apple at The Grove 2021 - Los Angeles, USA Apple Battersea 2023 - London, UK Back To Top Projects Expertise Studio News Careers Contact Legal and policies © 2026 Foster + Partners. All Rights Reserved.",
+      "article_title_extracted": "Apple Jing’an | Project",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-14T00:11:11.651134Z",
+      "description": "Apple Jing’an is an Apple store and urban regeneration project located in the heart of Shanghai’s Jing'an District.",
+      "domain": "www.fosterandpartners.com",
+      "embed_type": "",
+      "id": "k17dh2jp475ptrzg8cy2mggq0988ma74",
+      "og_image_url": "https://cloud.poche.app/api/storage/c0a1af74-d91e-4181-96e2-88686cd9e8b6",
+      "recommended_at": "2026-06-14T04:18:27.694000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "architecture",
+        "shanghai",
+        "retail-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-14T04:18:27.694000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Apple Jing’an | Project",
+      "url": "https://www.fosterandpartners.com/projects/apple-jing-an",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_image_urls": [
+        "https://omnigent.ai/images/logo.svg",
+        "https://omnigent.ai/images/logo-dark.svg",
+        "https://omnigent.ai/images/hero-logo.svg",
+        "https://omnigent.ai/images/hero-logo-dark.svg",
+        "https://omnigent.ai/images/hero-demo.webp",
+        "https://omnigent.ai/images/composability-icon.png",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition-dark.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
+        "https://omnigent.ai/images/sandbox.png",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol-dark.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
+        "https://omnigent.ai/images/high-five.png"
+      ],
+      "article_title_extracted": "Omnigent — a meta-harness for building and running AI agents",
+      "category": "Development",
+      "created_at": "2026-06-13T23:52:55.950429Z",
+      "description": "Omnigent is an open-source meta-harness: a common layer for composing, governing, and collaborating on AI agents — coding and otherwise — on top of the harnesses you already use.",
+      "domain": "omnigent.ai",
+      "embed_type": "",
+      "id": "k175kmpt9d4xnsrhza08qhcabh88kpng",
+      "og_image_url": "https://cloud.poche.app/api/storage/b2481a87-b34a-42d9-8de3-51b06b2ba6c1",
+      "recommended_at": "2026-06-13T23:53:05.367000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "open-source"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-13T23:53:05.367000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Omnigent — a meta-harness for building and running AI agents",
+      "url": "https://omnigent.ai/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-13T14:52:38.938104Z",
       "article_title_extracted": "Fable Refinery",
@@ -2559,7 +2765,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca92ea67ef60d728ed80d0_opengraph-topazlabs-r.jpg",
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/652d36e4bdb4c58ae007a00a_vai4-menu-close.svg",
@@ -4661,18 +4867,18 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_image_urls": [
         "https://shiftapp.nyc/og_preview.png",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_ws3tkgmmzYidjAGbfjF1hrZh4U6y"
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe"
       ],
       "article_title_extracted": "shift: Free Home Cleaning in NYC",
       "category": "Tools",
@@ -4796,7 +5002,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
         "https://framerusercontent.com/images/4XPyOmPW1ekC3IaHitkXiBMm6TY.webp?width=1440&height=900",
@@ -4972,7 +5178,7 @@
       "x_status_id": "2060338585539088867"
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_image_urls": [
         "https://un.ms/assets/og4.png",
         "https://un.ms/build/assets/office-of-unms-2-ZsTPerh3.png",
@@ -7050,7 +7256,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_title_extracted": "Orion PDA — Pocket computer minimal Orion PDA — pocket computer minimal",
       "category": "Tools",
       "created_at": "2026-05-24T02:34:11.071500Z",
@@ -7142,7 +7348,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T05:11:50.312130Z",
+      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
       "article_image_urls": [
         "https://simplecss.org/assets/images/simple-css-feature.webp"
       ],
@@ -57976,7 +58182,7 @@
         "https://oklch.fyi/_next/image?url=https%3A%2F%2Foiszjiwtfc65cwa2.public.blob.vercel-storage.com%2Foklch%2Fcolor-wheel.avif&w=2048&q=75"
       ],
       "article_title_extracted": "oklch.fyi ▸ OKLCH Color Picker, Generator and Converter",
-      "category": "Design",
+      "category": "Tools",
       "created_at": "2026-01-07T02:58:36.889858Z",
       "description": "Convert, generate and explore OKLCH colors – a powerful tool to build unique and uniform color palettes. Preview on UI components, export CSS or Tailwind variables and learn why you should use OKLCH.",
       "description_zh": "转换、生成并探索OKLCH色彩——构建独特且均匀配色方案的强大工具。在UI组件上预览效果，导出CSS或Tailwind变量，并了解为何应使用OKLCH。",
@@ -57985,14 +58191,14 @@
       "domain": "oklch.fyi",
       "embed_type": "",
       "id": "k172tdkw7xqtzz42ybpezxf87n7ysghy",
-      "og_image_url": "https://zaevelstnancdrwi.public.blob.vercel-storage.com/oklch-fyi-og.png",
+      "og_image_url": "https://cloud.poche.app/api/storage/2ee9081b-5420-4f85-9d8a-6cc90c64f380",
       "recommended_at": "2026-01-07T03:01:28.152000Z",
       "source": "poche@dine",
       "source_type": "poche",
       "tags": [
+        "css",
         "color-theory",
-        "web-design",
-        "css"
+        "web-design"
       ],
       "teams": [
         {
@@ -102203,7 +102409,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2143,
+      "count": 2148,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -102239,5 +102445,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-13T21:50:03.471690Z"
+  "updated_at": "2026-06-14T05:19:40.659513Z"
 }
