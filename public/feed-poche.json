@@ -392,7 +392,7 @@
       "domain": "ahrefs.com",
       "embed_type": "",
       "id": "k17ehwv3mm8w5xanpsn20zrzj988jbt3",
-      "og_image_url": "https://static.ahrefs.com/assets/img/og/agent-a-og.png?v=2",
+      "og_image_url": "https://cloud.poche.app/api/storage/1be800a8-bee3-4806-adbb-29825ff6eb95",
       "recommended_at": "2026-06-13T04:28:40.789000Z",
       "source": "poche@dine",
       "source_type": "poche",
@@ -2682,7 +2682,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-07T10:55:23.998908Z",
+      "article_fetch_attempted_at": "2026-06-14T11:16:23.526959Z",
       "article_title_extracted": "Lakebed",
       "category": "Development",
       "created_at": "2026-06-07T07:30:40.944415Z",
@@ -4808,7 +4808,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T10:55:23.998908Z",
+      "article_fetch_attempted_at": "2026-06-14T11:16:23.526959Z",
       "article_image_urls": [
         "https://bitrig.com/og?title=The+best+way+to+build+native+Swift+apps+with+AI.&description=Describe+what+you+want+to+build%2C+and+Bitrig+turns+it+into+real+Swift+code+you+can+ship+to+the+App+Store.&type=default",
         "https://bitrig.com/assets/logos/nav_icon.png",
@@ -4857,7 +4857,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T10:55:23.998908Z",
+      "article_fetch_attempted_at": "2026-06-14T11:16:23.526959Z",
       "article_image_urls": [
         "https://deepswe.datacurve.ai/og/deepswe-card.webp",
         "https://deepswe.datacurve.ai/icons/OpenAI.svg",
@@ -4866,9 +4866,11 @@
         "https://deepswe.datacurve.ai/icons/Moonshot.png",
         "https://deepswe.datacurve.ai/icons/MiniMax.png",
         "https://deepswe.datacurve.ai/icons/Xiaomi.png",
+        "https://deepswe.datacurve.ai/icons/Qwen.png",
         "https://deepswe.datacurve.ai/icons/ZAI.png",
         "https://deepswe.datacurve.ai/icons/xAI.svg",
-        "https://deepswe.datacurve.ai/icons/DeepSeek.svg"
+        "https://deepswe.datacurve.ai/icons/DeepSeek.svg",
+        "https://deepswe.datacurve.ai/images/careers-cta-mountains.jpg"
       ],
       "article_title_extracted": "DeepSWE",
       "category": "Development",
@@ -102481,5 +102483,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-14T05:19:40.659513Z"
+  "updated_at": "2026-06-14T11:16:28.646259Z"
 }
