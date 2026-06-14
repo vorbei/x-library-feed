@@ -5126,6 +5126,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065441692929667073"
     },
+    "http://x.com/i/article/2065449803019100160": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065449803019100160",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKnztOdbsAA9928?format=jpg&name=900x900)](http://x.com/BetaTomorrow/article/2065452701950046255/media/2065449862427291648)\n\n巨型单体模型是自然终点吗？\n\n[![](https://pbs.twimg.com/profile_images/1806885734357549056/3JYRNGq5_normal.jpg)](http://x.com/BetaTomorrow)\n\n[deep Manifold](http://x.com/BetaTomorrow)\n\n[@BetaTomorrow](http://x.com/BetaTomorrow)\n\n·\n\nJun 12\n\n·\n\nFollow\n\nClick to Follow BetaTomorrow\n\n1\n\n9\n\n[1.3K](http://x.com/BetaTomorrow/status/2065452701950046255/analytics)\n\nEnglish Edition:\n\n[ Is the Giant Monolithic Model the Natural Endpoint?](https://x.com/BetaTomorrow/status/2065454698711437810)\n\n近年来，前沿实验室不断推出拥有万亿级参数规模的模型，这提出了一个无法回避的问题：巨型单体模型会是 AI 的自然终点吗？\n\n答案并不显然。一方面，AI 走向更大模型有充分的理论理由；另一方面，我们也有理由怀疑，一个不断变大的单体模型是否真的是智能架构的最终形态。\n\n## \n\n为什么如此多的参数在理论上是可以理解的\n\n数据复杂性根植于高阶非线性。真实世界并不是低阶的、光滑的、均匀的，因此神经网络需要足够高的自由度来表示它。\n\n这一点在物理系统中非常明显。山脉、单座山体、岩石节理、岩石样本，以及岩石显微图像，可能都属于同一个“岩石”领域，但它们在数学上表现出不同的非线性结构。山脉反映的是大尺度几何；岩石节理引入了不连续性、接触、摩擦和块体相互作用；显微图像则揭示了颗粒结构、微裂纹和局部不连续性。\n\n[![Image](https://pbs.twimg.com/media/HKn0GQQbYAAznwd?format=jpg&name=small)](http://x.com/BetaTomorrow/article/2065452701950046255/media/2065450292406345728)\n\n从深度流形的角度看，核心问题是数据复杂性。数据复杂性不仅仅是数据量，它还来自尺度、范围、时间、不连续性和高阶非线性。一个面对真实世界的模型，必须同时处理许多尺度，而每一个尺度都可能包含自身的非线性结构。\n\n这正是巨型模型在理论上可以理解的原因之一。一个万亿参数模型并不只是一个巨大的记忆体。它是许多局部神经算子的巨大数值宿主。大量参数为形成许多堆叠分片流形、局部覆盖、内在路径以及可能的不动点行为提供了自由度。\n\n因此，巨型模型的出现并不是非理性的。数据复杂性需要自由度，高阶非线性需要局部灵活性，多尺度数据需要许多流形。但这并不意味着最大的单体模型就是最终答案。\n\n[单标几何：数据复杂性](https://x.com/BetaTomorrow/status/2050461737363951997)\n\n## \n\n巨型单体模型的几何挑战\n\n万亿级参数也暴露出巨型单体模型的理论弱点。问题开始于：一个单一模型必须在同一个身体中承载太多尺度、太多非线性状态，以及太多局部几何。巨型模型可以容纳许多流形，但容纳许多流形，并不等于能够维持它们之间的相干结构。随着数据变得越来越异质，挑战不再只是表示能力，而是如何在服从不同数学要求的区域之间保持兼容性、连续性和同调性。\n\n高阶非线性和不连续数据会使这种相干性问题更加困难。光滑区域通常可以通过温和的过渡连接起来，但接触、摩擦、局部失效、尖锐约束和路径依赖行为，则需要对边界敏感的局部结构。当这些状态都被强行压入一个单体模型中时，不同的局部几何就会开始竞争：有些区域偏好光滑插值，另一些区域需要分片不连续；有些区域可以容忍较软的关系结构，另一些区域则要求严格的局部精度。正因为如此，更多参数和更多内在路径并不会自动产生更稳定的智能。一个巨型模型可能包含万亿级的下一词生成路径，但更多路径也意味着更多可能的发散、更多相互竞争的延续方向，以及更强地依赖外部边界条件，例如提示词、检索、工具、验证和智能体脚手架。从这个意义上说，智能体系统并不仅仅是应用层；它们常常是对巨型单体流形开放性的一种补偿机制。\n\n[![Image](https://pbs.twimg.com/media/HKn0f96a8AAOJ46?format=jpg&name=small)](http://x.com/BetaTomorrow/article/2065452701950046255/media/2065450734158802944)\n\n模型因此变得强大，但沉重；通用，但内部异质；具有发现能力，但依赖外部约束。它通过吸收更多结构来获得能力，但它吸收的结构越多，就越难同时维持局部保真度、全局相干性和高效遍历。这就是为什么巨型单体模型也许是一个必要阶段，但不是自然终点。\n\n[单标几何：DeepSeek V4 与流形撕裂](https://x.com/BetaTomorrow/status/2047842924923416696)\n\n## \n\n更深层的答案是分解。\n\n联邦弹性流形按照尺度、非线性状态和边界条件来分解数据复杂性。它并不把山脉、单座山体、岩石节理、岩石样本和岩石显微图像强行放入一个统一的内部几何中，而是允许每一个尺度拥有自己的局部流形，同时与其他流形保持协调。\n\n这就是联邦的数学含义：分解尺度，分解高阶非线性，局部稳定，全局协调。\n\n每一个局部流形都可以具有足够的弹性，以适应自己的数据状态，同时又有足够边界来维持稳定性。不同组件可以在不同尺度上独立处理高阶非线性，使每一个区域能够保持自身的流形结构，同时在更大的系统中维持区域之间的流形同调性。\n\n[![Image](https://pbs.twimg.com/media/HKn1zrSa4AAgAlC?format=jpg&name=small)](http://x.com/BetaTomorrow/article/2065452701950046255/media/2065452172268199936)\n\n弹性是这个范式中的关键概念。弹性并不只是模糊意义上的灵活。它意味着一个流形可以随着数据复杂性的变化，在一个领域内或跨领域地适应、扩张、收缩和重组。由于神经网络是无属性的数值系统，它们并不天然受限于语言、视觉、物理、生物或任何预定义类别。同一种底层基质，在面对不同边界条件和数据状态时，可以学习不同结构。这使得局部流形可以生长到新的任务中，与相邻流形连接，或者参与跨领域协调，而不需要完全独立的新架构。\n\n换句话说，这一范式在深度上天然可扩展，并且能够较容易地跨领域适应。\n\n[Section 7.3 Mosaic of Small Elastic Model, Deep Manifold Part 2: Neural Network Mathematics, arXiv:2512.06563](https://arxiv.org/abs/2512.06563)\n\n## \n\n实际后果\n\n当前围绕巨型单体模型的许多努力，主要集中在解决最困难的问题。这具有重要的研究价值。然而，世界并不只由最困难的问题或突破性发现定义。大多数人并不需要一个万亿参数模型来规划一次家庭旅行，一个供应链操作员也不需要这样的巨型模型来管理入库或出库运输。大多数人是实践者，而不是研究者。他们只是想把自己的工作做好，然后开心地回家。\n\nAI 驱动的科学和技术发现当然很重要，但如果 AI 能帮助白领和蓝领工作者更有效地完成工作、获得更好的收入、减少压力、改善生活质量，它可能会产生更大的社会影响。突破性发现最终会带来下游收益，但改善数百万人的日常工作，可以产生更直接、更广泛的价值。\n\n[![Image](https://pbs.twimg.com/media/HKn2CJibMAE_8jd?format=jpg&name=small)](http://x.com/BetaTomorrow/article/2065452701950046255/media/2065452420906561537)\n\n对于真实世界的企业应用，联邦弹性流形架构应该是敏捷的、精确的、高效的，而不应依赖多轮智能体交互才能得到正确结果。这凸显了今天许多巨型单体模型在实际企业环境中的局限性：在这些环境里，延迟、可靠性、成本和运营约束，与原始能力同样重要。\n\n我并不是说巨型单体模型应该被替代。相反，我想说的是，联邦弹性流形在深度流形框架中具有理论基础，并且可能为许多真实世界应用提供更有效的架构路径。通过将复杂性分解为相互协调的局部流形，同时保持全局相干性，它有潜力为整个社会带来更直接、更可扩展的",
+      "title": "",
+      "url": "http://x.com/i/article/2065449803019100160"
+    },
     "http://x.com/i/article/2065452779955748864": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6538,27 +6551,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - fastclaw-ai/fastclaw: Multi-Agent Framework · GitHub",
       "url": "https://fastclaw.ai"
-    },
-    "https://fehey.com/5-pwa-tips": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "我是 Zayn Hao（海岛心hey），对设计、产品充满热情的软件开发者，\n我喜欢设计、产品和技术，并企图在软件开发中找到完美的平衡。",
-      "final_url": "https://fehey.com/5-pwa-tips",
-      "frameable": null,
-      "image_urls": [
-        "https://static.gridea.dev/269388296724939277/FQ51wZ55-.png",
-        "https://static.gridea.dev/269388296724939277/77fgyHIvQ.png",
-        "https://static.gridea.dev/269388296724939277/8fzlmWVhV.png",
-        "https://static.gridea.dev/269388296724939277/3ckn7FUuI.png",
-        "https://static.gridea.dev/269388296724939277/xF_2B2lKv.png",
-        "https://static.gridea.dev/269388296724939277/CcDNNYJ4Q.png",
-        "https://static.gridea.dev/269388296724939277/VfVRb_jol.png",
-        "https://static.gridea.dev/17f026c3-0de7-45f6-9242-8bdf594cbd5c/97U_hTDT5.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "21 / 11 / 18 使 PWA 更像 Native App 的 6 个技巧 你在开发 PWA 吗？此篇介绍几个通过 JavaScript 和 CSS 就可以使你的 PWA 更接近 Native 应用的小技巧。 1. 为 PWA standalone 模式设置空标题 。 网页的 Title 在浏览器访问场景下有着重要的作用，尤其是当打开了多个标签页时，可以根据 Title 来快速区分不同的网页。另外一点，聪明的网页开发者经常在 Title 中设置适当的信息以利好 SEO。 而 PWA 以 standalone 模式使用时，由于其拥有自己独立的窗口、独立的启动器图标等，此时 Title 便可能不那么重要了。所以为了使其更干净，更接近 Native App，可以单独为此模式访问时设置简洁的标题，甚至不设置标题，减少页面文字元素干扰。 const mqStandAlone = '(display-mode: standalone)' // Check this page is running in pwa mode if (navigator.standalone || window.matchMedia(mqStandAlone)) { document.title = '' } navigator.standalone 是检测网页是否以独立模式运行，其仅在 iOS Safari 浏览器上收到支持。 详情见： navigator.standalone MDN 2. 使用 display-mode 来设置 PWA 专属样式 。 例如这样设置一个圆角，使浏览器 Title 区域和网页导航部分更加融为一体。而浏览器模式时，则不需要此圆角，以避免圆角与浏览器边缘相遇时的消失凹陷。 < meta name = \" theme-color \" content = \" #f5f5f5 \" /> < style > nav { background-color : #f5f5f5 ; } main { backgrround-color : #fff ; } @media all and ( display-mode : standalone ) { main { border-top-left-radius : 12 px ; } } </ style > < body > < nav > </ nav > < main > </ main > </ body > 另外注意，我们这里使用 theme-color 来设置浏览器状态栏的背景色。 3. 设置取消滚动溢出，避免滚动到顶部时产生的间隙 。 按技巧 2 设置了之后，我们发现当滚动到网页顶部或底部边界时，浏览器默认的滚动溢出行为，会使我们网页中出现一条缝隙。我们可以使用下面这个设置来避免这一表现。 body { overscroll-behavior-y : none ; } 4. 设置鼠标指针为默认 default，禁止用户选择 。 这一技巧，在页面充斥大量的菜单和按钮，而非跳转性链接时，尤为有效。同时避免鼠标指针频繁地在默认和 point 状态来回跳动。 * , a , button { cursor : default ; user-select : none ; } 有网友认为，此做法有些偏激，但只是使其更接近 Native 应用而已。现在网站越来越模糊了按钮和链接的界限。通常情况下，按钮会具有较强的 UI 特征标识，链接仅从静态视觉看上去相对按钮来说会偏弱。 所以我们进行这一设置之后，可以为需要跳转页面的链接，再单独设置 cursor: point 即可。 5. 为不同系统设置单独的应用图标 。 例如为 PWA 独立应用模式访问时，在 Mac 系统场景下，设置一个 BigSure 风格的图标，浏览器访问则使用通用风格图标。下面一段简单的介绍来实现这一点。 我们需要两个单独的 manifest.json 文件，一个是通用配置文件，另一个是专门用于 Mac 的文件。 首先，从 HTML 页面删除 manifest link 的 href 属性 < link rel = \" manifest \" id = \" manifest \" /> 然后，使用 JavaScript 来检查是否是 Mac，然后根据结果来设置 href。 const setManifest = ( ) => { const isMacOS = / Mac OS X / . test ( navigator . userAgent ) document . querySelector ( '#manifest' ) . setAttribute ( 'href' , isMacOS ? '/manifest-mac.json' : '/manifest.json' ) } 对应的文件： // manifest.json { \"short_name\" : \"YourProductName\" , \"name\" : \"YourProductName\" , \"description\" : \"Your information\" , \"icons\" : [ { \"src\" : \"/icon/android-icon-192*192.png\" , \"sizes\" : \"192*192\" , \"type\" : \"image/png\" } , { \"src\" : \"/icon/android-icon-512*512.png\" , \"sizes\" : \"512*512\" , \"type\" : \"image/png\" } ] } // manifest-mac.json { \"short_name\" : \"YourProductName\" , \"name\" : \"YourProductName\" , \"description\" : \"Your information\" , \"icons\" : [ { \"src\" : \"/icon/mac-icon.png\" , \"sizes\" : \"192*192\" , \"type\" : \"image/png\" } , ] } 使用 router.replace 来处理路由导航 。 避免在移动端左右边缘滑动时的页面跳转行为，只有当需要提供「返回」功能时，再显式设置。 好了，以上就是我本次要分享的全部内容了，希望可以帮助你在进行 PWA 开发时，更好的处理一些细节。 “ 如果你想有任何想法，欢迎在 X/Twitter 上联系我。 ” Zayn Hao Gridea & Minttr's Founder Powered by Gridea",
-      "title": "使 PWA 更像 Native App 的 6 个技巧 · 在杂草中",
-      "url": "https://fehey.com/5-pwa-tips"
     },
     "https://ft.trib.al/9ed1nwc": {
       "content_type": "",
@@ -8484,20 +8476,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -9771,34 +9749,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
-    },
-    "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg"
-    },
-    "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg"
     },
     "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg": {
       "cleaner_v": 2,
@@ -12012,20 +11962,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
     },
-    "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
-    },
     "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -12208,19 +12144,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     },
-    "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
+    "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg"
+        "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg"
+      "url": "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg": {
       "cleaner_v": 2,
@@ -13492,31 +13428,6 @@
       "title": "",
       "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
     },
-    "https://www.tavus.io/post/introducing-image-to-replica": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A face is the first impression of an AI human, and until today, every Tavus AI human began with a video recording session. Image-to-Replica changes that. A single image — a real photograph, an AI-generated portrait, an illustrated character, a brand mascot — is now enough to produce a fully usable Phoenix-4 AI human. Same emotional control, same Raven-1 perception, same real-time performance. The set of possible AI humans was bounded by who could record. Now it is bounded by what can exist as a human-like face in an image.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.tavus.io/post/introducing-image-to-replica",
-      "frameable": false,
-      "image_urls": [
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a0608e975af9e2184b474e3_Screenshot%202026-05-14%20at%2010.39.46%E2%80%AFAM.png",
-        "https://px.ads.linkedin.com/collect/?pid=7341604&fmt=gif",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1af0_x.svg",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1aa0_logo.svg",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/68c8e57e6e512b9573db1d26_jesse-rowe-headshot.jpg",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a0602d8d8cf383cd6219f4d_GIff2.gif",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a06034bbd4949d1b772ad4d_Screenshot%202026-05-14%20at%2010.15.26%E2%80%AFAM.png",
-        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1a4c_newsletter%20grid.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "All Posts\nChoose how you want to experience Tavus. Whether you’re building with our APIs or meeting a PAL, you can switch anytime.\nBuild real-time, human-like AI experiences using Tavus APIs and tools.\nBest for developers, founders, and teams integrating Tavus into a product.\nMeet your personal AI companions who listen, remember, and are always present.\nBest for individuals looking to talk, explore, and connect with a friend.\nTABLE OF CONTENTS\nTavus · Product Launch · May 2026\nImagine a historical figure, an AI character designed from a single prompt, or even a brand mascot that has lived in a logo for thirty years. With Image-to-Replica, every one of these can now hold a real conversation.\nA face is the first impression of an AI human. Long before memory, personality, perception, or conversation come into play, the face has already done the foundational work of recognition, setting the tone, establishing trust, and pulling a person into the interaction. It is the first signal of who, or what, they are about to talk to, and the first reason they decide to keep talking.\nUntil today, every Tavus AI human began at the same place: a video recording session of roughly thirty seconds of speaking and thirty seconds of listening, captured under decent lighting by someone able to sit on camera. That session produces excellent replicas of real people, and for the customers it was designed for, it has worked beautifully. But it bounded the universe of possible AI humans to the people who could sit for them, and left out entire categories of faces that customers wanted to bring to life: public figures whose calendars do not bend around studio time, historical figures and loved ones who are no longer with us, brand mascots and illustrated characters that have lived inside logos and storybooks for decades, AI-generated personas designed to spec for a role that has no body yet.\nImage-to-Replica expands that horizon. A single image is now enough to produce a fully usable Phoenix-4 AI human, and the set of faces that can become one is dramatically wider than the set of people who can sit on camera.\nThe Tavus platform that Image-to-Replica runs on already powers AI humans for more than 100,000 developers and many of the world's leading enterprises, including Amazon, Deloitte, EY, Mayo Clinic, CVS, Salesforce, Aetna, and Wix. It is the platform behind real-time AI employees, healthcare intake agents, training and coaching experiences, and customer engagement that runs across millions of conversations every month. Image-to-Replica brings that platform within reach of any face that can exist as a single image.\nThe expansion is the point because an image takes seconds to produce, is easy to iterate on, and gives the builder direct control over lighting, framing, and creative direction in a way that a one-take recording cannot always provide.\nSales prospects can spin up an AI human from a headshot before a recording session is on the calendar. The path from interested-in-Tavus to talking-to-your-own-AI-human collapses from days to minutes. For developers evaluating CVI, the first AI human can be theirs, or anyone's, without leaving the developer portal.\nPublic figures whose schedules do not permit studio time. Memorial use cases for people who are no longer here. Human-like brand mascots that have lived in a logo for decades. Each one was previously unreachable and now each one is reachable today from a single image.\nA human-like mascot can hold a real conversation. An illustrated character can become a tutor that responds to questions in real time. An AI-generated persona, designed to spec for a specific role, can be deployed as a CVI persona without ever existing in physical form. The unboundedness shows up most visibly here, in AI humans built from faces that were never filmable to begin with.\nDevelopers building a healthcare flow, a coaching app, or a roleplay simulator no longer need to record themselves, or recruit talent, to test a persona. A",
-      "text_excerpt_zh": "所有文章\n\n选择您希望体验 Tavus 的方式。无论您是通过我们的 API 进行构建，还是与 PAL 会面，都可以随时切换。\n\n使用 Tavus API 和工具，构建实时、逼真的 AI 体验。\n最适合将 Tavus 集成到产品中的开发者、创始人和团队。\n\n与您的个人 AI 伴侣见面，他们会倾听、记住，并始终陪伴在您身边。\n最适合希望与朋友交谈、探索和联系的个人。\n\n目录\nTavus · 产品发布 · 2026 年 5 月\n\n想象一位历史人物、一个仅凭一句提示就能生成的 AI 角色，或者一个在 Logo 中“生活”了三十年的品牌吉祥物。借助 Image-to-Replica，这些形象现在都能进行真实的对话。\n\n面孔是 AI 人类给人的第一印象。早在记忆、个性、感知或对话发挥作用之前，面孔就已经完成了识别的基础工作：定下基调、建立信任，并将人拉入互动之中。它是关于“将要与谁（或什么）交谈”的第一个信号，也是人们决定继续交谈的第一个理由。\n\n直到今天，每一个 Tavus AI 人类都始于同一个起点：一段大约 30 秒说话和 30 秒倾听的视频录制，在良好的光线下由能够坐在镜头前的人完成。这种录制能产生出真人极佳的复制品，并且对于其设计目标客户而言，效果一直很好。但这将可能的 AI 人类宇宙限制在了那些能够为此坐下来录制的人身上，并遗漏了客户希望赋予生命的整类面孔：日程安排无法配合录制时间的公众人物、已故的历史人物和亲人、在 Logo 和故事书中存在了几十年的品牌吉祥物和插画角色，以及为某个尚无实体的角色按规格设计的 AI 生成角色。\n\nImage-to-Replica 拓展了这一视野。现在，一张图片就足以生成一个完全可用的 Phoenix-4 AI 人类，而能够成为 AI 人类的面孔范围，远比能够坐在镜头前的人要广泛得多。\n\nImage-to-Replica 所运行的 Tavus 平台，已经为超过 100,000 名开发者以及众多世界领先企业（包括 Amazon、Deloitte、EY、Mayo Clinic、CVS、Salesforce、Aetna 和 Wix）的 AI 人类提供支持。它是实时 AI 员工、医疗保健接待代理、培训和辅导体验，以及每月处理数百万次对话的客户互动背后的平台。Image-to-Replica 将这一平台带到了任何能以单张图片形式存在的面孔面前。\n\n这种扩展至关重要，因为一张图片只需几秒钟就能生成，易于迭代，并且让构建者能够直接控制光照、构图和创意方向，这是单次录制无法始终提供的。\n\n销售线索可以在安排录制日程之前，用一张头像照片就生成一个 AI 人类。从“对 Tavus 感兴趣”到“与自己的 AI 人类交谈”的路径，从几天缩短到几分钟。对于评估 CVI 的开发者来说，第一个 AI 人类可以是他们自己，也可以是任何人，而无需离开开发者门户。\n\n日程安排不允许录制时间的公众人物。针对已故之人的纪念用途。在 Logo 中存在了几十年的逼真品牌吉祥物。每一个之前都无法实现，而现在，每一个都可以通过一张图片实现。\n\n一个逼真的吉祥物可以进行真实的对话。一个插画角色可以成为实时回答问题的导师。一个为特定角色按规格设计的 AI 生成角色，可以作为 CVI 角色部署，而无需以物理形式存在。这种无界性在此处体现得最为明显：AI 人类由那些从一开始就无法被拍摄的面孔构建而成。\n\n构建医疗保健流程、辅导应用或角色扮演模拟器的开发者，不再需要亲自录制或招募人才来测试角色。一张",
-      "text_excerpt_zh_hash": "c6865f58654d8b76",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Introducing Image-to-Replica",
-      "url": "https://www.tavus.io/post/introducing-image-to-replica"
-    },
     "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p": {
       "cleaner_v": 2,
       "content_type": "",
@@ -14307,24 +14218,6 @@
     ],
     "2054385995727196611": [
       "https://x.com/StarKnight/status/2054385995727196611"
-    ],
-    "2054990954118152627": [
-      "https://x.com/tavus/status/2054990954118152627",
-      "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg",
-      "https://x.com/tavus/status/2054990972187210027",
-      "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg",
-      "https://x.com/tavus/status/2054990999836037339",
-      "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg",
-      "https://x.com/tavus/status/2054991017733140965",
-      "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg",
-      "https://x.com/tavus/status/2054991029745660121",
-      "https://www.tavus.io/post/introducing-image-to-replica",
-      "https://x.com/tavus/status/2055090640137150910"
-    ],
-    "2055168988049793368": [
-      "https://x.com/ZaynHao/status/2055168988049793368",
-      "https://fehey.com/5-pwa-tips",
-      "https://x.com/ZaynHao/status/2055207540988998000"
     ],
     "2055429159757742112": [
       "https://x.com/Tresmort/status/2055429159757742112"
@@ -18203,8 +18096,8 @@
       "https://x.com/rewind02/status/2065430987064885433",
       "https://x.com/rewind02/status/2065414543539318974",
       "https://x.com/rewind02/status/2065418644037804356",
-      "https://x.com/rewind02/status/2065897328007938114",
-      "https://x.com/rewind02/status/2065897275197403395"
+      "https://x.com/rewind02/status/2065897275197403395",
+      "https://x.com/rewind02/status/2065897328007938114"
     ],
     "2065422950589723016": [
       "https://x.com/jaminball/status/2065422950589723016",
@@ -18253,9 +18146,8 @@
     "2065454698711437810": [
       "https://x.com/BetaTomorrow/status/2065454698711437810",
       "http://x.com/i/article/2065452779955748864",
-      "https://x.com/BetaTomorrow/status/2065294704909185513",
-      "https://x.com/BetaTomorrow/status/2048580677290070016",
-      "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
+      "https://x.com/BetaTomorrow/status/2065452701950046255",
+      "http://x.com/i/article/2065449803019100160"
     ],
     "2065456339183390743": [
       "https://x.com/ericosiu/status/2065456339183390743",
@@ -18389,8 +18281,8 @@
       "https://x.com/tan_maty/status/2065663914663358554",
       "https://github.com/multica-ai/andrej-karpathy-skills",
       "https://x.com/tan_maty/status/2065664023157502176",
-      "https://x.com/tan_maty/status/2065789714091978796",
       "https://x.com/tan_maty/status/2065789773781123540",
+      "https://x.com/tan_maty/status/2065789714091978796",
       "https://x.com/tan_maty/status/2065672788631818704"
     ],
     "2065704820288188889": [
@@ -18402,12 +18294,12 @@
       "http://x.com/i/article/2065576448803418112",
       "https://x.com/eng_khairallah1/status/2065744168907899076",
       "https://x.com/eng_khairallah1/status/2065724956961329242",
-      "https://x.com/eng_khairallah1/status/2065742158523408709",
-      "https://x.com/eng_khairallah1/status/2065731650579738790",
       "https://x.com/eng_khairallah1/status/2065891144756551985",
+      "https://x.com/eng_khairallah1/status/2065731650579738790",
+      "https://x.com/eng_khairallah1/status/2065742158523408709",
+      "https://x.com/eng_khairallah1/status/2065793793152999859",
       "https://x.com/eng_khairallah1/status/2065731676177584286",
       "https://x.com/eng_khairallah1/status/2065723545007579566",
-      "https://x.com/eng_khairallah1/status/2065793793152999859",
       "https://x.com/eng_khairallah1/status/2065731699078496350"
     ],
     "2065760176796246355": [
@@ -18431,14 +18323,23 @@
     "2065833145338105895": [
       "https://x.com/apartovi/status/2065833145338105895"
     ],
+    "2065853007619588171": [
+      "https://x.com/DavidSacks/status/2065853007619588171"
+    ],
     "2065853130567279073": [
-      "https://x.com/DengShenyang24/status/2065853130567279073"
+      "https://x.com/DengShenyang24/status/2065853130567279073",
+      "https://x.com/DengShenyang24/status/2066054299088503162"
     ],
     "2065880971031834786": [
       "https://x.com/omarsar0/status/2065880971031834786",
       "http://x.com/i/article/2065876120965111808",
       "https://x.com/omarsar0/status/2065884078881022343",
       "https://x.com/omarsar0/status/2065886381516239050"
+    ],
+    "2065890759744610759": [
+      "https://x.com/DennisonBertram/status/2065890759744610759",
+      "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg",
+      "https://x.com/DennisonBertram/status/2065941959089234286"
     ],
     "2065891201170227608": [
       "https://x.com/nicos_ai/status/2065891201170227608",
@@ -18451,8 +18352,8 @@
       "https://x.com/ericosiu/status/2065902026228478342",
       "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg",
       "https://x.com/ericosiu/status/2065948257331925200",
-      "https://x.com/ericosiu/status/2065990940402302980",
       "https://x.com/ericosiu/status/2065948341985534032",
+      "https://x.com/ericosiu/status/2065990940402302980",
       "https://x.com/ericosiu/status/2065937476548698199"
     ],
     "2065913688809431065": [
@@ -18464,9 +18365,10 @@
       "http://x.com/i/article/2065931244534415360",
       "https://x.com/BradGroux/status/2065972678708605423",
       "https://x.com/OmarShahine/status/2065946298004754441",
-      "https://x.com/BradGroux/status/2065965293164265758",
+      "https://x.com/BradGroux/status/2065944553387889016",
       "https://x.com/BradGroux/status/2065953096274997631",
-      "https://x.com/BradGroux/status/2065944553387889016"
+      "https://x.com/BradGroux/status/2065965293164265758",
+      "https://x.com/BradGroux/status/2066088931280511431"
     ],
     "2065942612293365948": [
       "https://x.com/SophiaCai99/status/2065942612293365948",
@@ -18486,6 +18388,6 @@
       "https://x.com/BhathalTanvir0/status/2065144380856676388"
     ]
   },
-  "updated_at": "2026-06-14T06:57:11Z",
+  "updated_at": "2026-06-14T10:32:04Z",
   "window": "recent"
 }

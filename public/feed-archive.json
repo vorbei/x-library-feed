@@ -4603,6 +4603,27 @@
       "title": "Introducing Missions | Factory.ai",
       "url": "https://factory.ai/news/missions"
     },
+    "https://fehey.com/5-pwa-tips": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "我是 Zayn Hao（海岛心hey），对设计、产品充满热情的软件开发者，\n我喜欢设计、产品和技术，并企图在软件开发中找到完美的平衡。",
+      "final_url": "https://fehey.com/5-pwa-tips",
+      "frameable": null,
+      "image_urls": [
+        "https://static.gridea.dev/269388296724939277/FQ51wZ55-.png",
+        "https://static.gridea.dev/269388296724939277/77fgyHIvQ.png",
+        "https://static.gridea.dev/269388296724939277/8fzlmWVhV.png",
+        "https://static.gridea.dev/269388296724939277/3ckn7FUuI.png",
+        "https://static.gridea.dev/269388296724939277/xF_2B2lKv.png",
+        "https://static.gridea.dev/269388296724939277/CcDNNYJ4Q.png",
+        "https://static.gridea.dev/269388296724939277/VfVRb_jol.png",
+        "https://static.gridea.dev/17f026c3-0de7-45f6-9242-8bdf594cbd5c/97U_hTDT5.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "21 / 11 / 18 使 PWA 更像 Native App 的 6 个技巧 你在开发 PWA 吗？此篇介绍几个通过 JavaScript 和 CSS 就可以使你的 PWA 更接近 Native 应用的小技巧。 1. 为 PWA standalone 模式设置空标题 。 网页的 Title 在浏览器访问场景下有着重要的作用，尤其是当打开了多个标签页时，可以根据 Title 来快速区分不同的网页。另外一点，聪明的网页开发者经常在 Title 中设置适当的信息以利好 SEO。 而 PWA 以 standalone 模式使用时，由于其拥有自己独立的窗口、独立的启动器图标等，此时 Title 便可能不那么重要了。所以为了使其更干净，更接近 Native App，可以单独为此模式访问时设置简洁的标题，甚至不设置标题，减少页面文字元素干扰。 const mqStandAlone = '(display-mode: standalone)' // Check this page is running in pwa mode if (navigator.standalone || window.matchMedia(mqStandAlone)) { document.title = '' } navigator.standalone 是检测网页是否以独立模式运行，其仅在 iOS Safari 浏览器上收到支持。 详情见： navigator.standalone MDN 2. 使用 display-mode 来设置 PWA 专属样式 。 例如这样设置一个圆角，使浏览器 Title 区域和网页导航部分更加融为一体。而浏览器模式时，则不需要此圆角，以避免圆角与浏览器边缘相遇时的消失凹陷。 < meta name = \" theme-color \" content = \" #f5f5f5 \" /> < style > nav { background-color : #f5f5f5 ; } main { backgrround-color : #fff ; } @media all and ( display-mode : standalone ) { main { border-top-left-radius : 12 px ; } } </ style > < body > < nav > </ nav > < main > </ main > </ body > 另外注意，我们这里使用 theme-color 来设置浏览器状态栏的背景色。 3. 设置取消滚动溢出，避免滚动到顶部时产生的间隙 。 按技巧 2 设置了之后，我们发现当滚动到网页顶部或底部边界时，浏览器默认的滚动溢出行为，会使我们网页中出现一条缝隙。我们可以使用下面这个设置来避免这一表现。 body { overscroll-behavior-y : none ; } 4. 设置鼠标指针为默认 default，禁止用户选择 。 这一技巧，在页面充斥大量的菜单和按钮，而非跳转性链接时，尤为有效。同时避免鼠标指针频繁地在默认和 point 状态来回跳动。 * , a , button { cursor : default ; user-select : none ; } 有网友认为，此做法有些偏激，但只是使其更接近 Native 应用而已。现在网站越来越模糊了按钮和链接的界限。通常情况下，按钮会具有较强的 UI 特征标识，链接仅从静态视觉看上去相对按钮来说会偏弱。 所以我们进行这一设置之后，可以为需要跳转页面的链接，再单独设置 cursor: point 即可。 5. 为不同系统设置单独的应用图标 。 例如为 PWA 独立应用模式访问时，在 Mac 系统场景下，设置一个 BigSure 风格的图标，浏览器访问则使用通用风格图标。下面一段简单的介绍来实现这一点。 我们需要两个单独的 manifest.json 文件，一个是通用配置文件，另一个是专门用于 Mac 的文件。 首先，从 HTML 页面删除 manifest link 的 href 属性 < link rel = \" manifest \" id = \" manifest \" /> 然后，使用 JavaScript 来检查是否是 Mac，然后根据结果来设置 href。 const setManifest = ( ) => { const isMacOS = / Mac OS X / . test ( navigator . userAgent ) document . querySelector ( '#manifest' ) . setAttribute ( 'href' , isMacOS ? '/manifest-mac.json' : '/manifest.json' ) } 对应的文件： // manifest.json { \"short_name\" : \"YourProductName\" , \"name\" : \"YourProductName\" , \"description\" : \"Your information\" , \"icons\" : [ { \"src\" : \"/icon/android-icon-192*192.png\" , \"sizes\" : \"192*192\" , \"type\" : \"image/png\" } , { \"src\" : \"/icon/android-icon-512*512.png\" , \"sizes\" : \"512*512\" , \"type\" : \"image/png\" } ] } // manifest-mac.json { \"short_name\" : \"YourProductName\" , \"name\" : \"YourProductName\" , \"description\" : \"Your information\" , \"icons\" : [ { \"src\" : \"/icon/mac-icon.png\" , \"sizes\" : \"192*192\" , \"type\" : \"image/png\" } , ] } 使用 router.replace 来处理路由导航 。 避免在移动端左右边缘滑动时的页面跳转行为，只有当需要提供「返回」功能时，再显式设置。 好了，以上就是我本次要分享的全部内容了，希望可以帮助你在进行 PWA 开发时，更好的处理一些细节。 “ 如果你想有任何想法，欢迎在 X/Twitter 上联系我。 ” Zayn Hao Gridea & Minttr's Founder Powered by Gridea",
+      "title": "使 PWA 更像 Native App 的 6 个技巧 · 在杂草中",
+      "url": "https://fehey.com/5-pwa-tips"
+    },
     "https://fountn.design/resource/promptlab-ai-prompt-engineering-resources-for-designers/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -13562,6 +13583,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -20534,6 +20569,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg"
     },
+    "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg"
+    },
+    "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -20589,6 +20652,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HGQGvgAbkAAxOd8.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg"
     },
     "https://pdfresources.com/tools/pdf-to-images": {
       "cleaner_v": 2,
@@ -23171,6 +23248,31 @@
       "text_excerpt_zh": "",
       "title": "Interactive SVG Animations",
       "url": "https://www.svg.guide/"
+    },
+    "https://www.tavus.io/post/introducing-image-to-replica": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A face is the first impression of an AI human, and until today, every Tavus AI human began with a video recording session. Image-to-Replica changes that. A single image — a real photograph, an AI-generated portrait, an illustrated character, a brand mascot — is now enough to produce a fully usable Phoenix-4 AI human. Same emotional control, same Raven-1 perception, same real-time performance. The set of possible AI humans was bounded by who could record. Now it is bounded by what can exist as a human-like face in an image.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.tavus.io/post/introducing-image-to-replica",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a0608e975af9e2184b474e3_Screenshot%202026-05-14%20at%2010.39.46%E2%80%AFAM.png",
+        "https://px.ads.linkedin.com/collect/?pid=7341604&fmt=gif",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1af0_x.svg",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1aa0_logo.svg",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/68c8e57e6e512b9573db1d26_jesse-rowe-headshot.jpg",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a0602d8d8cf383cd6219f4d_GIff2.gif",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6a06034bbd4949d1b772ad4d_Screenshot%202026-05-14%20at%2010.15.26%E2%80%AFAM.png",
+        "https://cdn.prod.website-files.com/68c8e57d6e512b9573db146f/68c8e57e6e512b9573db1a4c_newsletter%20grid.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "All Posts\nChoose how you want to experience Tavus. Whether you’re building with our APIs or meeting a PAL, you can switch anytime.\nBuild real-time, human-like AI experiences using Tavus APIs and tools.\nBest for developers, founders, and teams integrating Tavus into a product.\nMeet your personal AI companions who listen, remember, and are always present.\nBest for individuals looking to talk, explore, and connect with a friend.\nTABLE OF CONTENTS\nTavus · Product Launch · May 2026\nImagine a historical figure, an AI character designed from a single prompt, or even a brand mascot that has lived in a logo for thirty years. With Image-to-Replica, every one of these can now hold a real conversation.\nA face is the first impression of an AI human. Long before memory, personality, perception, or conversation come into play, the face has already done the foundational work of recognition, setting the tone, establishing trust, and pulling a person into the interaction. It is the first signal of who, or what, they are about to talk to, and the first reason they decide to keep talking.\nUntil today, every Tavus AI human began at the same place: a video recording session of roughly thirty seconds of speaking and thirty seconds of listening, captured under decent lighting by someone able to sit on camera. That session produces excellent replicas of real people, and for the customers it was designed for, it has worked beautifully. But it bounded the universe of possible AI humans to the people who could sit for them, and left out entire categories of faces that customers wanted to bring to life: public figures whose calendars do not bend around studio time, historical figures and loved ones who are no longer with us, brand mascots and illustrated characters that have lived inside logos and storybooks for decades, AI-generated personas designed to spec for a role that has no body yet.\nImage-to-Replica expands that horizon. A single image is now enough to produce a fully usable Phoenix-4 AI human, and the set of faces that can become one is dramatically wider than the set of people who can sit on camera.\nThe Tavus platform that Image-to-Replica runs on already powers AI humans for more than 100,000 developers and many of the world's leading enterprises, including Amazon, Deloitte, EY, Mayo Clinic, CVS, Salesforce, Aetna, and Wix. It is the platform behind real-time AI employees, healthcare intake agents, training and coaching experiences, and customer engagement that runs across millions of conversations every month. Image-to-Replica brings that platform within reach of any face that can exist as a single image.\nThe expansion is the point because an image takes seconds to produce, is easy to iterate on, and gives the builder direct control over lighting, framing, and creative direction in a way that a one-take recording cannot always provide.\nSales prospects can spin up an AI human from a headshot before a recording session is on the calendar. The path from interested-in-Tavus to talking-to-your-own-AI-human collapses from days to minutes. For developers evaluating CVI, the first AI human can be theirs, or anyone's, without leaving the developer portal.\nPublic figures whose schedules do not permit studio time. Memorial use cases for people who are no longer here. Human-like brand mascots that have lived in a logo for decades. Each one was previously unreachable and now each one is reachable today from a single image.\nA human-like mascot can hold a real conversation. An illustrated character can become a tutor that responds to questions in real time. An AI-generated persona, designed to spec for a specific role, can be deployed as a CVI persona without ever existing in physical form. The unboundedness shows up most visibly here, in AI humans built from faces that were never filmable to begin with.\nDevelopers building a healthcare flow, a coaching app, or a roleplay simulator no longer need to record themselves, or recruit talent, to test a persona. A",
+      "text_excerpt_zh": "所有文章\n\n选择您希望体验 Tavus 的方式。无论您是通过我们的 API 进行构建，还是与 PAL 会面，都可以随时切换。\n\n使用 Tavus API 和工具，构建实时、逼真的 AI 体验。\n最适合将 Tavus 集成到产品中的开发者、创始人和团队。\n\n与您的个人 AI 伴侣见面，他们会倾听、记住，并始终陪伴在您身边。\n最适合希望与朋友交谈、探索和联系的个人。\n\n目录\nTavus · 产品发布 · 2026 年 5 月\n\n想象一位历史人物、一个仅凭一句提示就能生成的 AI 角色，或者一个在 Logo 中“生活”了三十年的品牌吉祥物。借助 Image-to-Replica，这些形象现在都能进行真实的对话。\n\n面孔是 AI 人类给人的第一印象。早在记忆、个性、感知或对话发挥作用之前，面孔就已经完成了识别的基础工作：定下基调、建立信任，并将人拉入互动之中。它是关于“将要与谁（或什么）交谈”的第一个信号，也是人们决定继续交谈的第一个理由。\n\n直到今天，每一个 Tavus AI 人类都始于同一个起点：一段大约 30 秒说话和 30 秒倾听的视频录制，在良好的光线下由能够坐在镜头前的人完成。这种录制能产生出真人极佳的复制品，并且对于其设计目标客户而言，效果一直很好。但这将可能的 AI 人类宇宙限制在了那些能够为此坐下来录制的人身上，并遗漏了客户希望赋予生命的整类面孔：日程安排无法配合录制时间的公众人物、已故的历史人物和亲人、在 Logo 和故事书中存在了几十年的品牌吉祥物和插画角色，以及为某个尚无实体的角色按规格设计的 AI 生成角色。\n\nImage-to-Replica 拓展了这一视野。现在，一张图片就足以生成一个完全可用的 Phoenix-4 AI 人类，而能够成为 AI 人类的面孔范围，远比能够坐在镜头前的人要广泛得多。\n\nImage-to-Replica 所运行的 Tavus 平台，已经为超过 100,000 名开发者以及众多世界领先企业（包括 Amazon、Deloitte、EY、Mayo Clinic、CVS、Salesforce、Aetna 和 Wix）的 AI 人类提供支持。它是实时 AI 员工、医疗保健接待代理、培训和辅导体验，以及每月处理数百万次对话的客户互动背后的平台。Image-to-Replica 将这一平台带到了任何能以单张图片形式存在的面孔面前。\n\n这种扩展至关重要，因为一张图片只需几秒钟就能生成，易于迭代，并且让构建者能够直接控制光照、构图和创意方向，这是单次录制无法始终提供的。\n\n销售线索可以在安排录制日程之前，用一张头像照片就生成一个 AI 人类。从“对 Tavus 感兴趣”到“与自己的 AI 人类交谈”的路径，从几天缩短到几分钟。对于评估 CVI 的开发者来说，第一个 AI 人类可以是他们自己，也可以是任何人，而无需离开开发者门户。\n\n日程安排不允许录制时间的公众人物。针对已故之人的纪念用途。在 Logo 中存在了几十年的逼真品牌吉祥物。每一个之前都无法实现，而现在，每一个都可以通过一张图片实现。\n\n一个逼真的吉祥物可以进行真实的对话。一个插画角色可以成为实时回答问题的导师。一个为特定角色按规格设计的 AI 生成角色，可以作为 CVI 角色部署，而无需以物理形式存在。这种无界性在此处体现得最为明显：AI 人类由那些从一开始就无法被拍摄的面孔构建而成。\n\n构建医疗保健流程、辅导应用或角色扮演模拟器的开发者，不再需要亲自录制或招募人才来测试角色。一张",
+      "text_excerpt_zh_hash": "c6865f58654d8b76",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "Introducing Image-to-Replica",
+      "url": "https://www.tavus.io/post/introducing-image-to-replica"
     },
     "https://www.teamoffsite.ai/": {
       "content_type": "text/html; charset=utf-8",
@@ -32518,6 +32620,19 @@
       "https://x.com/Saboo_Shubham_/status/2054988166541770782",
       "https://x.com/i/article/2054805605995696128"
     ],
+    "2054990954118152627": [
+      "https://x.com/tavus/status/2054990954118152627",
+      "https://pbs.twimg.com/amplify_video_thumb/2054990895561457664/img/SEHpQysumMOXGE_1.jpg",
+      "https://x.com/tavus/status/2054990972187210027",
+      "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg",
+      "https://x.com/tavus/status/2054990999836037339",
+      "https://pbs.twimg.com/tweet_video_thumb/HITLak3aEAA3RS_.jpg",
+      "https://x.com/tavus/status/2054991017733140965",
+      "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg",
+      "https://x.com/tavus/status/2054991029745660121",
+      "https://www.tavus.io/post/introducing-image-to-replica",
+      "https://x.com/tavus/status/2055090640137150910"
+    ],
     "2055010623910785535": [
       "https://x.com/yetone/status/2055187043395994070",
       "https://x.com/yetone/status/2055132925998579778",
@@ -32530,8 +32645,13 @@
       "https://github.com/yetone/native-feel-skill",
       "https://x.com/yetone/status/2055010623910785535",
       "https://twitter.com/peduarte/status/2054897907069813093"
+    ],
+    "2055168988049793368": [
+      "https://x.com/ZaynHao/status/2055168988049793368",
+      "https://fehey.com/5-pwa-tips",
+      "https://x.com/ZaynHao/status/2055207540988998000"
     ]
   },
-  "updated_at": "2026-06-14T06:57:11Z",
+  "updated_at": "2026-06-14T10:32:04Z",
   "window": "archive"
 }
