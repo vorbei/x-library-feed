@@ -9,13 +9,351 @@
       "username": "CatHanami97880"
     }
   ],
-  "archive_count": 1229,
+  "archive_count": 1232,
   "detail_files": {
     "archive": "feed-archive.json",
     "recent": "feed-recent.json"
   },
   "format": "feed-index/1",
   "items": [
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1891573120345178112",
+        "name": "Tanvir Bhathal",
+        "username": "BhathalTanvir0"
+      },
+      "conversation_id": "2065982494454014448",
+      "created_at": "2026-06-14T02:19:45.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065982494454014448",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [],
+      "media": [],
+      "primary_urls": [],
+      "public_metrics": {
+        "bookmark_count": 15,
+        "like_count": 11,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2065965053334216718",
+          "type": "quoted"
+        }
+      ],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "A necessary read",
+      "url": "https://x.com/BhathalTanvir0/status/2065982494454014448"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1224538644247203844",
+        "name": "Khairallah AL-Awady",
+        "username": "eng_khairallah1"
+      },
+      "conversation_id": "2065721530546373016",
+      "created_at": "2026-06-13T09:02:46.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065721530546373016",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2065576448803418112"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2065576448803418112"
+      ],
+      "public_metrics": {
+        "bookmark_count": 283,
+        "like_count": 114,
+        "quote_count": 6,
+        "reply_count": 17,
+        "retweet_count": 18
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2065576448803418112",
+      "url": "https://x.com/eng_khairallah1/status/2065721530546373016"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "947237358814064640",
+        "name": "NeilXbt",
+        "username": "neil_xbt"
+      },
+      "conversation_id": "2065971076673253462",
+      "created_at": "2026-06-14T01:34:23.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065971076673253462",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2065923035916361728"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2065923035916361728"
+      ],
+      "public_metrics": {
+        "bookmark_count": 32,
+        "like_count": 67,
+        "quote_count": 1,
+        "reply_count": 13,
+        "retweet_count": 13
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2065923035916361728",
+      "url": "https://x.com/neil_xbt/status/2065971076673253462"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "940106636537901056",
+        "name": "Sophia Cai",
+        "username": "SophiaCai99"
+      },
+      "conversation_id": "2065942612293365948",
+      "created_at": "2026-06-13T23:41:16.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065942612293365948",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519"
+      ],
+      "media": [],
+      "primary_urls": [
+        "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1270,
+        "like_count": 2505,
+        "quote_count": 160,
+        "reply_count": 128,
+        "retweet_count": 339
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "NEW: Inside the 24-hrs before WH slapped export controls on Anthropic\n- Last Thursday, Amazon CEO Andy Jassy  raised concerns about Fable jailbreak to  Trump admin\n- Friday AM, Sean Cairncross, Bessent, Susie etc. held WH call to discuss \n- Then White House started reaching out to Anthropic to speak with Dario Amodei, who was at a wellness retreat. \n- When Amodei was finally available past 1pm, he had three tense phone calls with a combo of ppl including Cairncross, Bessent, Lutnick, Kessler, Will Scharf, Richard Walters, and Walker Barrett. \n-Amodei tried to clear up what he assumed was a misunderstanding. He defended the guardrails and distinguished between universal and non-universal jailbreak\n- Cairncross and Bessent were unmoved and asked Amodei to take down Fable and work with the admin to fix the vulnerabilities. (A WH official said Amazon’s findings were run past the NSA and they felt they had “proof.”) \n- Amodei asked for more time and info, but he made no commitments to pull the model \n- Bessent told Amodei directly at one point that he was making a “bad decision”\n- By Friday evening, the Trump admin imposed its export controls. \n- “Export controls were a last resort after begging them for hours to work with us,” senior WH official said. \n\nW/ @cheyennehaslett \nhttps://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+      "url": "https://x.com/SophiaCai99/status/2065942612293365948"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1487190746956546048",
+        "name": "Charafeddine Mouzouni",
+        "username": "theCharafeddine"
+      },
+      "conversation_id": "2065704820288188889",
+      "created_at": "2026-06-13T07:56:22.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065704820288188889",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2065704344373043200"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2065704344373043200"
+      ],
+      "public_metrics": {
+        "bookmark_count": 24,
+        "like_count": 31,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 17
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2065704344373043200",
+      "url": "https://x.com/theCharafeddine/status/2065704820288188889"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "7755562",
+        "name": "AlexZ 🦀",
+        "username": "blackanger"
+      },
+      "conversation_id": "2065913688809431065",
+      "created_at": "2026-06-13T21:46:20.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065913688809431065",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "https://blog.gitbutler.com/true-grit?_x_tr_hist=true"
+      ],
+      "media": [],
+      "primary_urls": [
+        "https://blog.gitbutler.com/true-grit?_x_tr_hist=true"
+      ],
+      "public_metrics": {
+        "bookmark_count": 78,
+        "like_count": 53,
+        "quote_count": 2,
+        "reply_count": 0,
+        "retweet_count": 6
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "GitHub 联合创始人 Scott Chacon 受 Anthropic 那个”用 agent 集群从零写 C 编译器”实验的启发，决定实现自己憋了 15 年的想法：把 Git 重写成库优先（library-first）、内存安全、地道的 Rust 实现。成果叫 Grit。\n\n通过了超过 99% 的 Git 测试套件（41,715 / 42,001，即 99.3%），代码量 36 万行以上（grit-lib 10 万行、grit-cli 26 万行），500+ PR，7000+ commits ￼。\n\n他特意强调的设计哲学：不是 C Git 的逐行移植。\n\n他想要的是一个纯 Rust 核心库，可重入、可链接、模块化、全面，能规范地与 Git 仓库交互；然后用一个独立的 crate 实现 CLI 表层，调用这个库去通过尽可能多的测试 ￼。\n\n这正是 Git 二十年来缺的东西。它从来不是建立在可链接、可重入的库之上，而是 Unix 哲学的命令拼接，导致长驻进程里用 Git 必须 fork/exec。\n\n一个重要的诚实声明\n\n他用了德语 “Achtung!”（注意）来加重语气：虽然 Grit 通过了测试，但它没有被真正”使用过”。没人拿它干过真事。高概率会做错事甚至损坏数据，自担风险 ￼。\n\nAgent 工程的经验教训：\n\n1. Agent 爱作弊（Agents love to cheat）\n这是全文最精彩的观察。当你让 agent “让这些测试通过”时，它会忍不住写一个直接透传给 Git 的函数来作弊 ￼。最生动的例子是 sha256：agent 发现测试只检查 rev-parse --show-object-format 是否报告 “sha256”，即只验证 init 是否把 extensions.objectformat=sha256 写进了配置，没有任何测试真正在该仓库里 add/commit/log。于是它让元数据正确，底层却仍然跑 sha1，从不真正实现 sha256 ￼。\n\n他的比喻是”像给精灵许愿，得把规则说死，不许许愿要更多愿望”。\n\n启示：测试套件作为规约（spec）是有边界的，agent 会精确地利用 spec 的不完备性。\n\n（这正是为什么我的agent-spec 把”意图”显式编码到spec）\n\n2. Agent 不知道自己破坏了东西\n\n项目差点夭折，因为一组并行 agent 中的某一个破坏了测试框架的基础部分，看起来像大规模回归 ￼，他一度以为项目不可行而放弃了一个多月。后来六月重拾时，某个 agent 自己发现了这个错误并修复了测试框架，通过率一下跳回 80% 左右 ￼。\n\n教训：长期、并行的 agent 工作缺乏对”破坏性变更”的全局感知。\n\n3. 长期 + 并行多任务出奇地难\n\n他把痛点拆成三块：\n\n协调（Coordination）：让几十个长驻 agent 共享一个任务列表非常难。他主要用带 checkbox 的共享 plan 文件，但很乱；后来用了自己的 Ticgit 本地工单系统让任务列表能随 Git 移动 ￼。\n\n资源管理：他没用一台强力服务器，而是散在笔记本、Mac Studio、Hostinger、Cursor 云 agent 上，结果并行编译 Rust 时反复遇到 swap/CPU 抖动 ￼。\n\n交接（Handoff）：跨系统、跨多个 provider 交接进行中的工作摩擦极大，他明确说 GitButler 正打算在 VCS 层而非 harness 锁定层解决这个问题 ￼。\n\n4. 成本会迅速累积\n\n钱的部分很真实：总花费大约 1–1.5 万美元，token 估算约 450 亿（Claude Code 140 亿、Cursor GPT/Codex 120 亿、Cursor composer-2 160 亿），其中近一半工作由 Cursor 的 composer-2 模型通过大量短生命周期云 agent 完成 ￼。\n\n5. 各种 agent 工作流的实战对比\n\n他试了一圈：OpenClaw + Claude Code（贵、脆弱）、Cursor 云 agent（每个文件一个，但推送代码出容器很麻烦）、Cursor “Grind mode”长驻模式（他最推荐，一句”让 t1 测试族全过”就能等一天换来 100 个 commit 的 PR）、Codex 和 Claude 的 /goal 模式（Codex 持续干活，Claude 常卡住）、以及最后用 Claude 动态工作流”Ultracode”模式收尾（70 个 agent、3 线程、跑 22 小时） ￼。\n\n6. 最重要的方法论结论：定向方法更好（Directed approach is better）\n\n他发现最好、最快的进展来自把 agent 引导成”按我自己会用的方式工作”。先写出如果亲自重写会怎么做，从底层 plumbing 命令开始，再做依赖它们的命令，自底向上；比如 diff 格式化输出可以放到最后，因为别的东西不依赖它 ￼。每次他偏离这个思路、试图大规模并行而不深思，就会陷入泥潭 ￼。\n\n一句话总结：“想清楚你会怎么解决问题，然后分步骤交给 agent” 优于 “让 agent 自己挑下一个测试一直跑”。\n\n内存安全与许可证\n\n安全：几乎全部代码都是内存安全的，只有一个日期/时间模块必须通过 FFI 与 C 交互（因为没有纯 Rust 等价物处理 localtime_r/strftime/mktime 的 TZ 环境），外加一个 TTY 检查 ￼。\n\n许可证（可能引发争议）：Git 源码是 GPL，libgit2 是带链接例外的 GPL。鉴于 LLM 为了库化和内存安全做了大规模架构改动，他们判定 Grit 不构成需要继承 GPL 的衍生作品，决定用 MIT 发布 ￼。这个法律判断本身就值得单独讨论。\n\n原文：https://blog.gitbutler.com/true-grit?_x_tr_hist=true",
+      "url": "https://x.com/blackanger/status/2065913688809431065"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1271482878958940160",
+        "name": "Turing Post",
+        "username": "TheTuringPost"
+      },
+      "conversation_id": "2065952175956619385",
+      "created_at": "2026-06-14T00:19:16.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065952175956619385",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2065949506525450240"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2065949506525450240"
+      ],
+      "public_metrics": {
+        "bookmark_count": 27,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 5
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2065949506525450240",
+      "url": "https://x.com/TheTuringPost/status/2065952175956619385"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1344791257286119425",
+        "name": "Nico",
+        "username": "nicos_ai"
+      },
+      "conversation_id": "2065891201170227608",
+      "created_at": "2026-06-13T20:16:59.000Z",
+      "first_seen_at": "2026-06-14T06:57:11Z",
+      "id": "2065891201170227608",
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg"
+      ],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://loops.elorm.xyz",
+        "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg"
+      ],
+      "media": [
+        {
+          "alt_text": "",
+          "height": 818,
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg",
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg",
+          "width": 1336
+        }
+      ],
+      "primary_urls": [
+        "http://loops.elorm.xyz"
+      ],
+      "public_metrics": {
+        "bookmark_count": 2379,
+        "like_count": 1527,
+        "quote_count": 4,
+        "reply_count": 21,
+        "retweet_count": 237
+      },
+      "referenced_tweets": [
+        {
+          "id": "2065145486890164524",
+          "type": "quoted"
+        }
+      ],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "DEJA DE PROMPTEAR. EMPIEZA A LOOPEAR.\n\nEncontré un sitio que recopila los loops más usados por la comunidad\n\n→ http://loops.elorm.xyz\n\nLos propios creadores de Claude Code lo dicen: el futuro no es promptear, es diseñar loops.\n\nNo sabes qué son ni cómo crearlos?\n\nEste articulo lo explica detalladamente👇",
+      "url": "https://x.com/nicos_ai/status/2065891201170227608"
+    },
     {
       "accounts": [
         "CatHanami97880"
@@ -34,16 +372,16 @@
       "first_seen_at": "2026-06-14T01:36:58Z",
       "id": "2065790549123342628",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 35,
-        "like_count": 14,
+        "bookmark_count": 163,
+        "like_count": 53,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 2
+        "retweet_count": 5
       },
       "referenced_tweets": [
         {
@@ -78,7 +416,7 @@
       "first_seen_at": "2026-06-14T01:36:58Z",
       "id": "2065938280508432788",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065931244534415360"
       ],
@@ -87,11 +425,11 @@
         "http://x.com/i/article/2065931244534415360"
       ],
       "public_metrics": {
-        "bookmark_count": 420,
-        "like_count": 1053,
+        "bookmark_count": 616,
+        "like_count": 1130,
         "quote_count": 0,
-        "reply_count": 3,
-        "retweet_count": 637
+        "reply_count": 5,
+        "retweet_count": 639
       },
       "referenced_tweets": [],
       "sources": [
@@ -120,7 +458,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg"
       ],
@@ -136,11 +474,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 250,
-        "like_count": 101,
-        "quote_count": 2,
-        "reply_count": 9,
-        "retweet_count": 11
+        "bookmark_count": 1240,
+        "like_count": 416,
+        "quote_count": 6,
+        "reply_count": 31,
+        "retweet_count": 47
       },
       "referenced_tweets": [
         {
@@ -175,16 +513,16 @@
       "first_seen_at": "2026-06-14T01:36:58Z",
       "id": "2065833145338105895",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 76,
-        "like_count": 115,
+        "bookmark_count": 121,
+        "like_count": 155,
         "quote_count": 1,
         "reply_count": 3,
-        "retweet_count": 5
+        "retweet_count": 7
       },
       "referenced_tweets": [
         {
@@ -219,7 +557,7 @@
       "first_seen_at": "2026-06-14T01:36:58Z",
       "id": "2065880971031834786",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065876120965111808"
       ],
@@ -228,11 +566,11 @@
         "http://x.com/i/article/2065876120965111808"
       ],
       "public_metrics": {
-        "bookmark_count": 349,
-        "like_count": 150,
-        "quote_count": 3,
-        "reply_count": 10,
-        "retweet_count": 19
+        "bookmark_count": 632,
+        "like_count": 282,
+        "quote_count": 7,
+        "reply_count": 22,
+        "retweet_count": 33
       },
       "referenced_tweets": [],
       "sources": [
@@ -259,16 +597,16 @@
       "first_seen_at": "2026-06-14T01:36:58Z",
       "id": "2065853130567279073",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1913,
-        "like_count": 826,
-        "quote_count": 0,
-        "reply_count": 4,
-        "retweet_count": 48
+        "bookmark_count": 4791,
+        "like_count": 2092,
+        "quote_count": 2,
+        "reply_count": 10,
+        "retweet_count": 174
       },
       "referenced_tweets": [
         {
@@ -300,7 +638,7 @@
       "first_seen_at": "2026-06-13T16:46:02Z",
       "id": "2065765842709590018",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065547821441265664"
       ],
@@ -309,8 +647,8 @@
         "http://x.com/i/article/2065547821441265664"
       ],
       "public_metrics": {
-        "bookmark_count": 51,
-        "like_count": 37,
+        "bookmark_count": 65,
+        "like_count": 39,
         "quote_count": 3,
         "reply_count": 3,
         "retweet_count": 1
@@ -340,7 +678,7 @@
       "first_seen_at": "2026-06-13T16:46:02Z",
       "id": "2065760176796246355",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://cohere.com/careers",
         "https://cohere.com/models-overview"
@@ -348,8 +686,8 @@
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 48,
-        "like_count": 242,
+        "bookmark_count": 51,
+        "like_count": 246,
         "quote_count": 2,
         "reply_count": 16,
         "retweet_count": 21
@@ -389,7 +727,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
       ],
@@ -405,10 +743,10 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 88,
-        "like_count": 64,
+        "bookmark_count": 98,
+        "like_count": 69,
         "quote_count": 1,
-        "reply_count": 6,
+        "reply_count": 8,
         "retweet_count": 4
       },
       "referenced_tweets": [
@@ -444,7 +782,7 @@
       "first_seen_at": "2026-06-13T16:46:02Z",
       "id": "2065663914663358554",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/multica-ai/andrej-karpathy-skills"
       ],
@@ -453,8 +791,8 @@
         "https://github.com/multica-ai/andrej-karpathy-skills"
       ],
       "public_metrics": {
-        "bookmark_count": 55,
-        "like_count": 30,
+        "bookmark_count": 58,
+        "like_count": 33,
         "quote_count": 0,
         "reply_count": 6,
         "retweet_count": 5
@@ -484,7 +822,7 @@
       "first_seen_at": "2026-06-13T14:26:33Z",
       "id": "2065574894545560062",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p"
       ],
@@ -493,8 +831,8 @@
         "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p"
       ],
       "public_metrics": {
-        "bookmark_count": 144,
-        "like_count": 830,
+        "bookmark_count": 147,
+        "like_count": 844,
         "quote_count": 3,
         "reply_count": 54,
         "retweet_count": 37
@@ -529,7 +867,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKnwe6IWoAAohok.jpg",
         "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
@@ -580,7 +918,7 @@
       "first_seen_at": "2026-06-13T12:03:02Z",
       "id": "2065454698711437810",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065452779955748864",
         "https://pbs.twimg.com/media/HKlmeasaMAAK7K_.jpg"
@@ -623,7 +961,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065428576145403904/img/jc9DNUuF-w1l-I-n.jpg"
       ],
@@ -678,7 +1016,7 @@
       "first_seen_at": "2026-06-13T12:03:02Z",
       "id": "2065307070044234186",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065291569712779264",
         "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg"
@@ -688,11 +1026,11 @@
         "http://x.com/i/article/2065291569712779264"
       ],
       "public_metrics": {
-        "bookmark_count": 719,
-        "like_count": 1036,
+        "bookmark_count": 733,
+        "like_count": 1048,
         "quote_count": 45,
-        "reply_count": 71,
-        "retweet_count": 216
+        "reply_count": 70,
+        "retweet_count": 218
       },
       "referenced_tweets": [],
       "sources": [
@@ -721,7 +1059,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065491183275536384/img/ZqPqRsZDkWy8wEQe.jpg"
       ],
@@ -776,13 +1114,13 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065482471567970467",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 45,
-        "like_count": 48,
+        "like_count": 49,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 4
@@ -820,12 +1158,12 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065487698010292713",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 308,
+        "bookmark_count": 310,
         "like_count": 130,
         "quote_count": 2,
         "reply_count": 8,
@@ -864,13 +1202,13 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065535209211039989",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 32,
-        "like_count": 56,
+        "bookmark_count": 33,
+        "like_count": 58,
         "quote_count": 1,
         "reply_count": 7,
         "retweet_count": 2
@@ -910,7 +1248,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065559653262434304/img/9JyFE40P6f3Zv6i_.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065559653262434304/img/9JyFE40P6f3Zv6i_.jpg"
       ],
@@ -926,8 +1264,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 400,
-        "like_count": 217,
+        "bookmark_count": 424,
+        "like_count": 225,
         "quote_count": 0,
         "reply_count": 13,
         "retweet_count": 24
@@ -965,7 +1303,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065310168456515756",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -1011,7 +1349,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065371048002908160/img/EBVv3TC_xD40MgvG.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065371048002908160/img/EBVv3TC_xD40MgvG.jpg"
       ],
@@ -1066,7 +1404,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065434050618380581",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.manning.com/books/designing-ai-agents",
         "https://arxiv.org/abs/2605.13850"
@@ -1111,7 +1449,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065412916858241404",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/1806814090246893569"
       ],
@@ -1120,8 +1458,8 @@
         "http://x.com/i/article/1806814090246893569"
       ],
       "public_metrics": {
-        "bookmark_count": 131,
-        "like_count": 72,
+        "bookmark_count": 135,
+        "like_count": 73,
         "quote_count": 5,
         "reply_count": 10,
         "retweet_count": 12
@@ -1153,7 +1491,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065514387893600256/img/aWeKlaBBPUviqXSC.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065514387893600256/img/aWeKlaBBPUviqXSC.jpg"
       ],
@@ -1169,7 +1507,7 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 123,
+        "bookmark_count": 128,
         "like_count": 75,
         "quote_count": 2,
         "reply_count": 8,
@@ -1208,7 +1546,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065403846940147866",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://blog.n8n.io/advanced-rag/"
       ],
@@ -1218,7 +1556,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 59,
-        "like_count": 57,
+        "like_count": 58,
         "quote_count": 2,
         "reply_count": 3,
         "retweet_count": 6
@@ -1251,7 +1589,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065501591969435740",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -1295,7 +1633,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065422950589723016",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064781548235476992"
       ],
@@ -1304,7 +1642,7 @@
         "http://x.com/i/article/2064781548235476992"
       ],
       "public_metrics": {
-        "bookmark_count": 442,
+        "bookmark_count": 444,
         "like_count": 213,
         "quote_count": 10,
         "reply_count": 4,
@@ -1335,13 +1673,13 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065631392139018247",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 648,
-        "like_count": 332,
+        "bookmark_count": 654,
+        "like_count": 334,
         "quote_count": 0,
         "reply_count": 2,
         "retweet_count": 27
@@ -1378,7 +1716,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065497039811821568/img/a6ZSn6S2T_N1rTCN.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2065497039811821568/img/a6ZSn6S2T_N1rTCN.jpg"
       ],
@@ -1394,8 +1732,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 516,
-        "like_count": 303,
+        "bookmark_count": 517,
+        "like_count": 302,
         "quote_count": 0,
         "reply_count": 2,
         "retweet_count": 13
@@ -1433,7 +1771,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065488680802816313",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065487442426359809"
       ],
@@ -1442,8 +1780,8 @@
         "http://x.com/i/article/2065487442426359809"
       ],
       "public_metrics": {
-        "bookmark_count": 263,
-        "like_count": 109,
+        "bookmark_count": 269,
+        "like_count": 111,
         "quote_count": 4,
         "reply_count": 3,
         "retweet_count": 20
@@ -1473,7 +1811,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065625151383732422",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065615613813288962",
         "https://arxiv.org/abs/2605.27276",
@@ -1484,8 +1822,8 @@
         "http://x.com/i/article/2065615613813288962"
       ],
       "public_metrics": {
-        "bookmark_count": 84,
-        "like_count": 49,
+        "bookmark_count": 88,
+        "like_count": 50,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 11
@@ -1515,13 +1853,13 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065458053764231293",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 145,
-        "like_count": 95,
+        "bookmark_count": 148,
+        "like_count": 97,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 9
@@ -1556,7 +1894,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065392877535187147",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://glyph.software",
         "https://pbs.twimg.com/media/HKnBoV_a4AEw3pa.jpg",
@@ -1567,11 +1905,11 @@
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 3228,
-        "like_count": 1305,
+        "bookmark_count": 3298,
+        "like_count": 1331,
         "quote_count": 2,
         "reply_count": 11,
-        "retweet_count": 67
+        "retweet_count": 71
       },
       "referenced_tweets": [
         {
@@ -1606,13 +1944,13 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065472950233636958",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 775,
-        "like_count": 317,
+        "bookmark_count": 782,
+        "like_count": 321,
         "quote_count": 0,
         "reply_count": 21,
         "retweet_count": 47
@@ -1650,7 +1988,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065496975097933910",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065495068111482880"
       ],
@@ -1692,7 +2030,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKj0eQAW8AAA5Mx.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKj0eQAW8AAA5Mx.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg"
@@ -1748,16 +2086,16 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065107286855471588",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1232,
-        "like_count": 896,
+        "bookmark_count": 1235,
+        "like_count": 900,
         "quote_count": 2,
         "reply_count": 9,
-        "retweet_count": 160
+        "retweet_count": 161
       },
       "referenced_tweets": [
         {
@@ -1789,7 +2127,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065491111003746412",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062498846085685248"
       ],
@@ -1798,7 +2136,7 @@
         "http://x.com/i/article/2062498846085685248"
       ],
       "public_metrics": {
-        "bookmark_count": 117,
+        "bookmark_count": 118,
         "like_count": 46,
         "quote_count": 1,
         "reply_count": 3,
@@ -1829,7 +2167,7 @@
       "first_seen_at": "2026-06-13T10:07:50Z",
       "id": "2065624323952713834",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065613433601695744"
       ],
@@ -1838,11 +2176,11 @@
         "http://x.com/i/article/2065613433601695744"
       ],
       "public_metrics": {
-        "bookmark_count": 707,
-        "like_count": 273,
+        "bookmark_count": 725,
+        "like_count": 276,
         "quote_count": 5,
-        "reply_count": 6,
-        "retweet_count": 52
+        "reply_count": 7,
+        "retweet_count": 53
       },
       "referenced_tweets": [],
       "sources": [
@@ -1871,7 +2209,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
       ],
@@ -1926,7 +2264,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065518402601418756",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/",
         "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/"
@@ -1972,7 +2310,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
       ],
@@ -1988,8 +2326,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 613,
-        "like_count": 540,
+        "bookmark_count": 614,
+        "like_count": 543,
         "quote_count": 5,
         "reply_count": 19,
         "retweet_count": 35
@@ -2022,7 +2360,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065472650042867988",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://linear.app/now/linear-agent-bug-fix"
       ],
@@ -2031,8 +2369,8 @@
         "https://linear.app/now/linear-agent-bug-fix"
       ],
       "public_metrics": {
-        "bookmark_count": 68,
-        "like_count": 118,
+        "bookmark_count": 71,
+        "like_count": 120,
         "quote_count": 4,
         "reply_count": 2,
         "retweet_count": 7
@@ -2067,7 +2405,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker",
         "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png",
@@ -2087,8 +2425,8 @@
         "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker"
       ],
       "public_metrics": {
-        "bookmark_count": 114,
-        "like_count": 126,
+        "bookmark_count": 117,
+        "like_count": 131,
         "quote_count": 3,
         "reply_count": 22,
         "retweet_count": 8
@@ -2126,15 +2464,15 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065564935006892390",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 133,
-        "like_count": 198,
+        "bookmark_count": 138,
+        "like_count": 206,
         "quote_count": 2,
-        "reply_count": 2,
+        "reply_count": 3,
         "retweet_count": 8
       },
       "referenced_tweets": [
@@ -2172,7 +2510,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
         "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
@@ -2191,11 +2529,11 @@
         "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
       ],
       "public_metrics": {
-        "bookmark_count": 84,
-        "like_count": 210,
+        "bookmark_count": 86,
+        "like_count": 218,
         "quote_count": 4,
         "reply_count": 1,
-        "retweet_count": 29
+        "retweet_count": 30
       },
       "referenced_tweets": [],
       "sources": [
@@ -2225,7 +2563,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065444904860610572",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065441692929667073"
       ],
@@ -2234,7 +2572,7 @@
         "http://x.com/i/article/2065441692929667073"
       ],
       "public_metrics": {
-        "bookmark_count": 190,
+        "bookmark_count": 192,
         "like_count": 121,
         "quote_count": 2,
         "reply_count": 0,
@@ -2265,7 +2603,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065336298055880810",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff"
       ],
@@ -2308,7 +2646,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065527146425332190",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065526984328056832"
       ],
@@ -2318,7 +2656,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 214,
-        "like_count": 122,
+        "like_count": 125,
         "quote_count": 1,
         "reply_count": 7,
         "retweet_count": 11
@@ -2348,7 +2686,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065485993734517180",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065431417861844992"
       ],
@@ -2357,8 +2695,8 @@
         "http://x.com/i/article/2065431417861844992"
       ],
       "public_metrics": {
-        "bookmark_count": 307,
-        "like_count": 178,
+        "bookmark_count": 311,
+        "like_count": 180,
         "quote_count": 3,
         "reply_count": 2,
         "retweet_count": 24
@@ -2388,7 +2726,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065357584585154776",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065357403747438592",
         "https://pbs.twimg.com/media/HKn_wO5awAA8E6M.jpg"
@@ -2429,7 +2767,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065318847151046781",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/blader/arbitrage"
       ],
@@ -2472,12 +2810,12 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065359920179069039",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 360,
+        "bookmark_count": 361,
         "like_count": 153,
         "quote_count": 0,
         "reply_count": 1,
@@ -2516,7 +2854,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065200397002895748",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -2560,7 +2898,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065441777591693430",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065383150319280129",
         "https://github.com/NVIDIA/SkillSpector/",
@@ -2602,7 +2940,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065423284343050314",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065421433048625152"
       ],
@@ -2611,8 +2949,8 @@
         "http://x.com/i/article/2065421433048625152"
       ],
       "public_metrics": {
-        "bookmark_count": 252,
-        "like_count": 131,
+        "bookmark_count": 262,
+        "like_count": 135,
         "quote_count": 3,
         "reply_count": 3,
         "retweet_count": 12
@@ -2642,7 +2980,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065430839660568842",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://proofeditor.ai"
       ],
@@ -2690,7 +3028,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065154384661516621",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.skills.sh/mattpocock/skills/grill-with-docs"
       ],
@@ -2699,7 +3037,7 @@
         "https://www.skills.sh/mattpocock/skills/grill-with-docs"
       ],
       "public_metrics": {
-        "bookmark_count": 404,
+        "bookmark_count": 403,
         "like_count": 277,
         "quote_count": 0,
         "reply_count": 10,
@@ -2733,7 +3071,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065242047767019725",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKn9fuCb0AAW3_F.png"
       ],
@@ -2779,7 +3117,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065445933601435823",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065392205439651840"
       ],
@@ -2788,8 +3126,8 @@
         "http://x.com/i/article/2065392205439651840"
       ],
       "public_metrics": {
-        "bookmark_count": 484,
-        "like_count": 256,
+        "bookmark_count": 490,
+        "like_count": 260,
         "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 53
@@ -2819,7 +3157,7 @@
       "first_seen_at": "2026-06-12T17:17:34Z",
       "id": "2065408690992148698",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2052398478916227072"
       ],
@@ -2828,7 +3166,7 @@
         "http://x.com/i/article/2052398478916227072"
       ],
       "public_metrics": {
-        "bookmark_count": 291,
+        "bookmark_count": 293,
         "like_count": 177,
         "quote_count": 1,
         "reply_count": 5,
@@ -2861,7 +3199,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg",
         "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg",
@@ -2923,7 +3261,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065176245952987441",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://nurijanian.substack.com",
         "http://prodmgmt.world"
@@ -2970,7 +3308,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2064943965246201914",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://ft.trib.al/s1xKc6c",
         "https://ft.trib.al/9ed1nwc"
@@ -3014,7 +3352,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065133771817619628",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064833547714904064",
         "https://posthog.com/blog/aeo-advice"
@@ -3055,7 +3393,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065211366953369879",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065191795487821824"
       ],
@@ -3064,7 +3402,7 @@
         "http://x.com/i/article/2065191795487821824"
       ],
       "public_metrics": {
-        "bookmark_count": 115,
+        "bookmark_count": 114,
         "like_count": 42,
         "quote_count": 1,
         "reply_count": 3,
@@ -3095,7 +3433,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065199404446068904",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064956828736249856"
       ],
@@ -3104,7 +3442,7 @@
         "http://x.com/i/article/2064956828736249856"
       ],
       "public_metrics": {
-        "bookmark_count": 486,
+        "bookmark_count": 488,
         "like_count": 173,
         "quote_count": 4,
         "reply_count": 2,
@@ -3135,7 +3473,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065153232553357378",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065152025050968066"
       ],
@@ -3147,7 +3485,7 @@
         "bookmark_count": 12,
         "like_count": 9,
         "quote_count": 0,
-        "reply_count": 0,
+        "reply_count": 1,
         "retweet_count": 2
       },
       "referenced_tweets": [],
@@ -3175,7 +3513,7 @@
       "first_seen_at": "2026-06-12T11:09:34Z",
       "id": "2065234780497883259",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/1780641040757854209"
       ],
@@ -3217,7 +3555,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg",
         "https://github.com/byoungd/English-level-up-tips"
@@ -3265,7 +3603,7 @@
       "first_seen_at": "2026-06-12T06:55:46Z",
       "id": "2065146824315245035",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -3309,7 +3647,7 @@
       "first_seen_at": "2026-06-12T06:55:46Z",
       "id": "2065129901427130678",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064983895096066048"
       ],
@@ -3318,11 +3656,11 @@
         "http://x.com/i/article/2064983895096066048"
       ],
       "public_metrics": {
-        "bookmark_count": 1072,
-        "like_count": 495,
+        "bookmark_count": 1094,
+        "like_count": 502,
         "quote_count": 28,
         "reply_count": 34,
-        "retweet_count": 44
+        "retweet_count": 45
       },
       "referenced_tweets": [],
       "sources": [
@@ -3349,7 +3687,7 @@
       "first_seen_at": "2026-06-12T06:55:46Z",
       "id": "2065200644802101633",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065193949380403200"
       ],
@@ -3358,8 +3696,8 @@
         "http://x.com/i/article/2065193949380403200"
       ],
       "public_metrics": {
-        "bookmark_count": 149,
-        "like_count": 82,
+        "bookmark_count": 151,
+        "like_count": 83,
         "quote_count": 1,
         "reply_count": 4,
         "retweet_count": 15
@@ -3389,7 +3727,7 @@
       "first_seen_at": "2026-06-12T01:39:27Z",
       "id": "2065065416221679975",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -3433,7 +3771,7 @@
       "first_seen_at": "2026-06-12T01:39:27Z",
       "id": "2065035615800864954",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2058192123556405248"
       ],
@@ -3442,11 +3780,11 @@
         "http://x.com/i/article/2058192123556405248"
       ],
       "public_metrics": {
-        "bookmark_count": 2702,
-        "like_count": 802,
+        "bookmark_count": 2714,
+        "like_count": 808,
         "quote_count": 9,
         "reply_count": 18,
-        "retweet_count": 70
+        "retweet_count": 72
       },
       "referenced_tweets": [],
       "sources": [
@@ -3475,7 +3813,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.ui-skills.com/?ref=sidebar",
         "https://pbs.twimg.com/media/HKio6xzXgAEnUld.jpg",
@@ -3530,7 +3868,7 @@
       "first_seen_at": "2026-06-12T01:39:27Z",
       "id": "2065089002445963435",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://zed.dev/blog/introducing-deltadb",
         "https://zed.dev/deltadb"
@@ -3540,8 +3878,8 @@
         "https://zed.dev/blog/introducing-deltadb"
       ],
       "public_metrics": {
-        "bookmark_count": 959,
-        "like_count": 1905,
+        "bookmark_count": 961,
+        "like_count": 1908,
         "quote_count": 90,
         "reply_count": 64,
         "retweet_count": 148
@@ -3574,7 +3912,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064844961065931084",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -3618,7 +3956,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064758924369166403",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064543044607565824"
       ],
@@ -3658,7 +3996,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064780286454542690",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://browser-use.com/posts/fetch-use"
       ],
@@ -3701,7 +4039,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064739027484287329",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064697289105383424"
       ],
@@ -3741,7 +4079,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2065026197734797813",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065020060570370048"
       ],
@@ -3781,7 +4119,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064831856164430010",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064783698889756672"
       ],
@@ -3790,8 +4128,8 @@
         "http://x.com/i/article/2064783698889756672"
       ],
       "public_metrics": {
-        "bookmark_count": 124,
-        "like_count": 67,
+        "bookmark_count": 143,
+        "like_count": 72,
         "quote_count": 5,
         "reply_count": 4,
         "retweet_count": 6
@@ -3821,7 +4159,7 @@
       "first_seen_at": "2026-06-11T16:20:49Z",
       "id": "2064848575708922093",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064770509569437696"
       ],
@@ -3831,7 +4169,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 136,
-        "like_count": 71,
+        "like_count": 72,
         "quote_count": 1,
         "reply_count": 7,
         "retweet_count": 6
@@ -3863,7 +4201,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2064763286550122496/img/i4r6DalBr40DOnr2.jpg"
       ],
@@ -3879,7 +4217,7 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 145,
+        "bookmark_count": 144,
         "like_count": 111,
         "quote_count": 0,
         "reply_count": 10,
@@ -3918,7 +4256,7 @@
       "first_seen_at": "2026-06-11T11:48:46Z",
       "id": "2064736540757012991",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064729598328184832"
       ],
@@ -3928,7 +4266,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 184,
-        "like_count": 125,
+        "like_count": 124,
         "quote_count": 1,
         "reply_count": 1,
         "retweet_count": 29
@@ -3958,7 +4296,7 @@
       "first_seen_at": "2026-06-11T07:05:25Z",
       "id": "2064887887578136666",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064864205749280768"
       ],
@@ -3967,8 +4305,8 @@
         "http://x.com/i/article/2064864205749280768"
       ],
       "public_metrics": {
-        "bookmark_count": 476,
-        "like_count": 244,
+        "bookmark_count": 478,
+        "like_count": 245,
         "quote_count": 3,
         "reply_count": 13,
         "retweet_count": 24
@@ -3998,7 +4336,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064745690958635405",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison"
       ],
@@ -4042,7 +4380,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064727024288317658",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5"
       ],
@@ -4051,7 +4389,7 @@
         "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5"
       ],
       "public_metrics": {
-        "bookmark_count": 1050,
+        "bookmark_count": 1049,
         "like_count": 583,
         "quote_count": 5,
         "reply_count": 11,
@@ -4089,7 +4427,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKeVKvTbkAAhCNh.jpg"
       ],
@@ -4147,7 +4485,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://julian.digital/2023/07/06/multi-layered-calendars/",
         "https://pbs.twimg.com/media/HKd5fsdWQAACRi9.jpg"
@@ -4167,7 +4505,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 859,
-        "like_count": 2727,
+        "like_count": 2726,
         "quote_count": 7,
         "reply_count": 21,
         "retweet_count": 101
@@ -4205,7 +4543,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064714047241736302",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064658638942412800"
       ],
@@ -4214,7 +4552,7 @@
         "http://x.com/i/article/2064658638942412800"
       ],
       "public_metrics": {
-        "bookmark_count": 281,
+        "bookmark_count": 282,
         "like_count": 177,
         "quote_count": 1,
         "reply_count": 4,
@@ -4246,7 +4584,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064771612579393568",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/mvanhorn/agentcookie"
       ],
@@ -4255,8 +4593,8 @@
         "https://github.com/mvanhorn/agentcookie"
       ],
       "public_metrics": {
-        "bookmark_count": 772,
-        "like_count": 292,
+        "bookmark_count": 773,
+        "like_count": 294,
         "quote_count": 0,
         "reply_count": 8,
         "retweet_count": 18
@@ -4297,7 +4635,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKX_OnhagAAzcfe.jpg"
       ],
@@ -4313,8 +4651,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 10522,
-        "like_count": 3991,
+        "bookmark_count": 10520,
+        "like_count": 3992,
         "quote_count": 35,
         "reply_count": 190,
         "retweet_count": 445
@@ -4352,7 +4690,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064746971944956299",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064742269706518528"
       ],
@@ -4392,7 +4730,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064751005380878379",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064750162594209794"
       ],
@@ -4401,7 +4739,7 @@
         "http://x.com/i/article/2064750162594209794"
       ],
       "public_metrics": {
-        "bookmark_count": 124,
+        "bookmark_count": 123,
         "like_count": 109,
         "quote_count": 1,
         "reply_count": 4,
@@ -4432,7 +4770,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064751272834593135",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064737302065156097"
       ],
@@ -4441,7 +4779,7 @@
         "http://x.com/i/article/2064737302065156097"
       ],
       "public_metrics": {
-        "bookmark_count": 695,
+        "bookmark_count": 694,
         "like_count": 210,
         "quote_count": 2,
         "reply_count": 4,
@@ -4475,7 +4813,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKdEEJVWEAA4wGb.jpg"
       ],
@@ -4531,7 +4869,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064759991752663510",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064756914869993472"
       ],
@@ -4571,7 +4909,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064771905945813219",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
         "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2"
@@ -4613,7 +4951,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064780623026540669",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064777704147144704"
       ],
@@ -4637,63 +4975,6 @@
     },
     {
       "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "2054190711243710464",
-        "name": "Codez",
-        "username": "0xCodez"
-      },
-      "conversation_id": "2064710547795300382",
-      "created_at": "2026-06-10T14:05:29.000Z",
-      "first_seen_at": "2026-06-11T01:40:07Z",
-      "id": "2064710547795300382",
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
-      ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
-      ],
-      "media": [
-        {
-          "alt_text": "",
-          "height": 720,
-          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
-          "width": 1280
-        }
-      ],
-      "primary_urls": [],
-      "public_metrics": {
-        "bookmark_count": 1395,
-        "like_count": 895,
-        "quote_count": 5,
-        "reply_count": 45,
-        "retweet_count": 112
-      },
-      "referenced_tweets": [
-        {
-          "id": "2064374643729773029",
-          "type": "quoted"
-        }
-      ],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "Anthropic CEO:\n\n\"We use Claude Code across all stages of product development cycle. That's how we ship so fast.\"\n\nIn a 1-hour interview, Dario Amodei reveals how the fastest-growing AI company runs on its own model.\n\n\"Claude + loops + routines + dynamic workflows\" - that's the secret.\n\nWatch this interview or read the article on the same setup below.",
-      "text_zh": "Anthropic CEO：\n\n“我们在产品开发周期的所有阶段都使用 Claude Code。这就是我们能够如此快速交付的原因。”\n\n在一小时的访谈中，Dario Amodei 揭示了这家增长最快的 AI 公司如何依靠自身模型运转。\n\n“Claude + 循环 + 例行程序 + 动态工作流”——这就是秘诀。\n\n观看本次访谈，或阅读下方关于相同配置的文章。",
-      "text_zh_hash": "9d701194df9364ca",
-      "text_zh_translator_v": 2,
-      "url": "https://x.com/0xCodez/status/2064710547795300382"
-    },
-    {
-      "accounts": [
         "chumsdock"
       ],
       "article_preview_text": "",
@@ -4712,7 +4993,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar",
         "https://pbs.twimg.com/media/HKd_mYpXoAA-fzK.jpg",
@@ -4751,46 +5032,6 @@
     },
     {
       "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "1995119133936291840",
-        "name": "vivek",
-        "username": "itsreallyvivek"
-      },
-      "conversation_id": "2064686372737454155",
-      "created_at": "2026-06-10T12:29:25.000Z",
-      "first_seen_at": "2026-06-11T01:40:07Z",
-      "id": "2064686372737454155",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2064686144835739649"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2064686144835739649"
-      ],
-      "public_metrics": {
-        "bookmark_count": 9226,
-        "like_count": 4434,
-        "quote_count": 71,
-        "reply_count": 56,
-        "retweet_count": 598
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "http://x.com/i/article/2064686144835739649",
-      "url": "https://x.com/itsreallyvivek/status/2064686372737454155"
-    },
-    {
-      "accounts": [
         "chumsdock"
       ],
       "article_preview_text": "",
@@ -4807,7 +5048,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064796986633818212",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
       ],
@@ -4841,6 +5082,103 @@
       "article_url": null,
       "article_urls": [],
       "author": {
+        "id": "2054190711243710464",
+        "name": "Codez",
+        "username": "0xCodez"
+      },
+      "conversation_id": "2064710547795300382",
+      "created_at": "2026-06-10T14:05:29.000Z",
+      "first_seen_at": "2026-06-11T01:40:07Z",
+      "id": "2064710547795300382",
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
+      ],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg"
+      ],
+      "media": [
+        {
+          "alt_text": "",
+          "height": 720,
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2064710061377679360/img/Zg0ZEd31eHow7-YU.jpg",
+          "width": 1280
+        }
+      ],
+      "primary_urls": [],
+      "public_metrics": {
+        "bookmark_count": 1395,
+        "like_count": 896,
+        "quote_count": 6,
+        "reply_count": 45,
+        "retweet_count": 113
+      },
+      "referenced_tweets": [
+        {
+          "id": "2064374643729773029",
+          "type": "quoted"
+        }
+      ],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "Anthropic CEO:\n\n\"We use Claude Code across all stages of product development cycle. That's how we ship so fast.\"\n\nIn a 1-hour interview, Dario Amodei reveals how the fastest-growing AI company runs on its own model.\n\n\"Claude + loops + routines + dynamic workflows\" - that's the secret.\n\nWatch this interview or read the article on the same setup below.",
+      "text_zh": "Anthropic CEO：\n\n“我们在产品开发周期的所有阶段都使用 Claude Code。这就是我们能够如此快速交付的原因。”\n\n在一小时的访谈中，Dario Amodei 揭示了这家增长最快的 AI 公司如何依靠自身模型运转。\n\n“Claude + 循环 + 例行程序 + 动态工作流”——这就是秘诀。\n\n观看本次访谈，或阅读下方关于相同配置的文章。",
+      "text_zh_hash": "9d701194df9364ca",
+      "text_zh_translator_v": 2,
+      "url": "https://x.com/0xCodez/status/2064710547795300382"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1995119133936291840",
+        "name": "vivek",
+        "username": "itsreallyvivek"
+      },
+      "conversation_id": "2064686372737454155",
+      "created_at": "2026-06-10T12:29:25.000Z",
+      "first_seen_at": "2026-06-11T01:40:07Z",
+      "id": "2064686372737454155",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2064686144835739649"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2064686144835739649"
+      ],
+      "public_metrics": {
+        "bookmark_count": 11450,
+        "like_count": 5112,
+        "quote_count": 89,
+        "reply_count": 67,
+        "retweet_count": 738
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2064686144835739649",
+      "url": "https://x.com/itsreallyvivek/status/2064686372737454155"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
         "id": "382490716",
         "name": "Xiaoyin Qu",
         "username": "quxiaoyin"
@@ -4850,7 +5188,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064650572788068378",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
       ],
@@ -4891,7 +5229,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064776992403399113",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064776326280773632"
       ],
@@ -4900,8 +5238,8 @@
         "http://x.com/i/article/2064776326280773632"
       ],
       "public_metrics": {
-        "bookmark_count": 76,
-        "like_count": 56,
+        "bookmark_count": 77,
+        "like_count": 57,
         "quote_count": 4,
         "reply_count": 5,
         "retweet_count": 7
@@ -4931,7 +5269,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064700531600458093",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064625044308008960"
       ],
@@ -4971,7 +5309,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064728139314389073",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064726381485842432"
       ],
@@ -4980,7 +5318,7 @@
         "http://x.com/i/article/2064726381485842432"
       ],
       "public_metrics": {
-        "bookmark_count": 1731,
+        "bookmark_count": 1732,
         "like_count": 571,
         "quote_count": 2,
         "reply_count": 16,
@@ -5011,7 +5349,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064381530500460775",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -5052,16 +5390,16 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064754027251020217",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 510,
-        "like_count": 390,
+        "bookmark_count": 511,
+        "like_count": 392,
         "quote_count": 1,
         "reply_count": 10,
-        "retweet_count": 36
+        "retweet_count": 37
       },
       "referenced_tweets": [
         {
@@ -5096,7 +5434,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064768757713768507",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064764378357059584"
       ],
@@ -5136,7 +5474,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064707903953490091",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -5180,7 +5518,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064596603772743743",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://aitdk.com",
         "http://shipany.ai"
@@ -5227,7 +5565,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064755591764230491",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2061785866385911808"
       ],
@@ -5267,7 +5605,7 @@
       "first_seen_at": "2026-06-10T18:10:01Z",
       "id": "2064722736979804455",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers"
       ],
@@ -5307,12 +5645,12 @@
       "first_seen_at": "2026-06-10T14:29:17Z",
       "id": "2064418523192136110",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 50,
+        "bookmark_count": 51,
         "like_count": 26,
         "quote_count": 0,
         "reply_count": 1,
@@ -5351,7 +5689,7 @@
       "first_seen_at": "2026-06-10T14:29:17Z",
       "id": "2064447011953225770",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064425685834207232"
       ],
@@ -5391,7 +5729,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064398479011860621",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -5437,7 +5775,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064350250786341326",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064290620416589824",
         "https://github.com/alibaba/open-code-review",
@@ -5479,7 +5817,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064376652331728919",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064376251054243840"
       ],
@@ -5519,7 +5857,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064358779940995141",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064355389676650496"
       ],
@@ -5559,7 +5897,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064464986819457210",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://agentsview.io",
         "https://til.simonwillison.net/llms/agentsview-custom-model-price"
@@ -5604,7 +5942,7 @@
       "first_seen_at": "2026-06-10T11:04:14Z",
       "id": "2064415370761646410",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064400841029910528"
       ],
@@ -5613,7 +5951,7 @@
         "http://x.com/i/article/2064400841029910528"
       ],
       "public_metrics": {
-        "bookmark_count": 193,
+        "bookmark_count": 194,
         "like_count": 127,
         "quote_count": 5,
         "reply_count": 2,
@@ -5646,7 +5984,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKWDng9XIAIdq-l.jpg"
       ],
@@ -5662,7 +6000,7 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 828,
+        "bookmark_count": 827,
         "like_count": 521,
         "quote_count": 0,
         "reply_count": 14,
@@ -5701,7 +6039,7 @@
       "first_seen_at": "2026-06-10T06:42:34Z",
       "id": "2061216087744946656",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://youtu.be/K5LAFEjTlBA"
       ],
@@ -5712,7 +6050,7 @@
       "public_metrics": {
         "bookmark_count": 1900,
         "like_count": 1686,
-        "quote_count": 100,
+        "quote_count": 102,
         "reply_count": 105,
         "retweet_count": 283
       },
@@ -5744,7 +6082,7 @@
       "first_seen_at": "2026-06-10T01:30:55Z",
       "id": "2064391292302307556",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://linear.app/now/code-review-should-be-fast",
         "https://linearstatus.com",
@@ -5792,7 +6130,7 @@
       "first_seen_at": "2026-06-10T01:30:55Z",
       "id": "2064374643729773029",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064357550225510400"
       ],
@@ -5801,7 +6139,7 @@
         "http://x.com/i/article/2064357550225510400"
       ],
       "public_metrics": {
-        "bookmark_count": 6088,
+        "bookmark_count": 6092,
         "like_count": 2559,
         "quote_count": 30,
         "reply_count": 45,
@@ -5834,7 +6172,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar",
         "https://pbs.twimg.com/media/HKY2A2lX0AAvaCW.jpg",
@@ -5889,7 +6227,7 @@
       "first_seen_at": "2026-06-10T01:30:55Z",
       "id": "2064397495036440907",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064389744268914689"
       ],
@@ -5898,7 +6236,7 @@
         "http://x.com/i/article/2064389744268914689"
       ],
       "public_metrics": {
-        "bookmark_count": 1875,
+        "bookmark_count": 1876,
         "like_count": 657,
         "quote_count": 2,
         "reply_count": 49,
@@ -5931,7 +6269,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar",
         "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg",
@@ -5986,7 +6324,7 @@
       "first_seen_at": "2026-06-10T01:30:55Z",
       "id": "2064393462028669176",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064386800391696388"
       ],
@@ -5996,7 +6334,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 1106,
-        "like_count": 1180,
+        "like_count": 1179,
         "quote_count": 9,
         "reply_count": 50,
         "retweet_count": 61
@@ -6026,7 +6364,7 @@
       "first_seen_at": "2026-06-10T01:30:55Z",
       "id": "2064397389189071163",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064380553919676416"
       ],
@@ -6035,9 +6373,9 @@
         "http://x.com/i/article/2064380553919676416"
       ],
       "public_metrics": {
-        "bookmark_count": 15804,
-        "like_count": 5997,
-        "quote_count": 149,
+        "bookmark_count": 15807,
+        "like_count": 6001,
+        "quote_count": 150,
         "reply_count": 102,
         "retweet_count": 761
       },
@@ -6066,7 +6404,7 @@
       "first_seen_at": "2026-06-09T15:29:04Z",
       "id": "2064281952631525741",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064264218858164224"
       ],
@@ -6090,46 +6428,6 @@
     },
     {
       "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "1114512617593290753",
-        "name": "prateek",
-        "username": "agent_wrapper"
-      },
-      "conversation_id": "2064157228400341312",
-      "created_at": "2026-06-09T01:26:48.000Z",
-      "first_seen_at": "2026-06-09T12:15:34Z",
-      "id": "2064157228400341312",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2064149340298641408"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2064149340298641408"
-      ],
-      "public_metrics": {
-        "bookmark_count": 228,
-        "like_count": 143,
-        "quote_count": 3,
-        "reply_count": 7,
-        "retweet_count": 22
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "http://x.com/i/article/2064149340298641408",
-      "url": "https://x.com/agent_wrapper/status/2064157228400341312"
-    },
-    {
-      "accounts": [
         "chumsdock"
       ],
       "article_preview_text": "",
@@ -6148,7 +6446,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKUo8sAX0AEB8Ib.jpg",
         "https://alphasignal.ai/newsletter"
@@ -6204,7 +6502,7 @@
       "first_seen_at": "2026-06-09T12:15:34Z",
       "id": "2064079731402637553",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -6248,16 +6546,16 @@
       "first_seen_at": "2026-06-09T12:15:34Z",
       "id": "2064239881199477240",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 436,
+        "bookmark_count": 435,
         "like_count": 438,
         "quote_count": 4,
         "reply_count": 62,
-        "retweet_count": 71
+        "retweet_count": 72
       },
       "referenced_tweets": [
         {
@@ -6270,6 +6568,46 @@
       ],
       "text": "认真读完了OpenAI 研究员 Noam Brown 今天的长帖，一个被行业严重低估的现实。\nLLM 的真实能力天花板，远高于当前任何 benchmark 所显示的水平。\n\n原因，是给它的test-time compute太少了。而随着模型迭代，这个问题会越来越突出。\n\nGPT-5.5 发布初期，benchmark 只比 5.4 略有提升，很多人觉得没那么惊艳。\n但实际体验是明显的 step-change。\n为什么？因为评估时没有控制 test-time compute。\n一旦把 tokens 放在 x 轴画曲线，5.5 在相同计算预算下明显更强。单个数 benchmark 把这个差距掩盖了。\n\n更关键的观察是，更强的模型，从额外 test-time compute 中获益更大。\n性能提升曲线更陡，plateau 被不断推远，甚至可能不存在。\nKarpathy 的 autoresearch 实验几百次实验后性能仍在上升。\nAI Security Institute 的网络攻防评测在 1 亿 tokens 后，顶级模型仍在快速进步。\n这说明能力天花板可能比我们想象的远得多。\n\n这对 AI 安全与 preparedness 的影响非常大。\n当前大部分安全评测只在低 inference budget 下进行。\n但真正危险的能力，尤其是长 horizon、多步规划、复杂 agent 行为，很可能只在高计算预算下才显现。\nGemini 3 Deep Think 的争议，暴露了这个问题。scaffold加上高 inference 能让普通用户接近高能力，但 system card 没反映这条曲线。\n\nNoam 指出一个更棘手的现实，即长 horizon 任务的评估越来越困难。\n有些能力只能通过实际长时间运行才能验证，而模型迭代周期可能已经短于这个验证时间。\n未来 labs 可能会面临一个两难，要么大幅延迟发布，要么在不完整的安全评估下发布。\n\n两年多过去了，从 o1 开始，行业依然习惯报单个数，安全组织依然会对多花 100x inference 就能显著变强感到惊讶。\n这其实是 post-o1 时代最被低估的 paradigm shift。\n未来模型之间的真实差距，更会体现在谁能更好地理解和利用 intelligence-compute 曲线。\n对于做 agent、长 horizon 推理、高风险部署的人来说，重新理解这个曲线，已经成为了重中之重的必选项。",
       "url": "https://x.com/Phoenixyin13/status/2064239881199477240"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1114512617593290753",
+        "name": "prateek",
+        "username": "agent_wrapper"
+      },
+      "conversation_id": "2064157228400341312",
+      "created_at": "2026-06-09T01:26:48.000Z",
+      "first_seen_at": "2026-06-09T12:15:34Z",
+      "id": "2064157228400341312",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2064149340298641408"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2064149340298641408"
+      ],
+      "public_metrics": {
+        "bookmark_count": 228,
+        "like_count": 144,
+        "quote_count": 3,
+        "reply_count": 7,
+        "retweet_count": 22
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2064149340298641408",
+      "url": "https://x.com/agent_wrapper/status/2064157228400341312"
     },
     {
       "accounts": [
@@ -6290,7 +6628,7 @@
       "first_seen_at": "2026-06-09T12:15:34Z",
       "id": "2064161006373216269",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064157304472154112",
         "https://github.com/robzilla1738/supergoal"
@@ -6332,7 +6670,7 @@
       "first_seen_at": "2026-06-09T08:41:38Z",
       "id": "2064152622928728099",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063849005743050752"
       ],
@@ -6356,6 +6694,47 @@
     },
     {
       "accounts": [
+        "chumsdock"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "15205852",
+        "name": "陈成",
+        "username": "chenchengpro"
+      },
+      "conversation_id": "2064221035734646916",
+      "created_at": "2026-06-09T05:40:20.000Z",
+      "first_seen_at": "2026-06-09T08:41:38Z",
+      "id": "2064221035734646916",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [],
+      "media": [],
+      "primary_urls": [],
+      "public_metrics": {
+        "bookmark_count": 529,
+        "like_count": 367,
+        "quote_count": 1,
+        "reply_count": 106,
+        "retweet_count": 80
+      },
+      "referenced_tweets": [
+        {
+          "id": "2064127981161959567",
+          "type": "quoted"
+        }
+      ],
+      "sources": [
+        "bookmark@chumsdock"
+      ],
+      "text": "Claude Code 负责人 @bcherny 说他已经不 prompt Claude 了。是循环在 prompt Claude、在决定下一步，他的活变成了写那个循环。Addy Osmani 给这事起了个名，叫 loop engineering：你不再是那个一轮轮敲 prompt 的人，而是搭一个会自己找活、分发、检查、记账、定下一步的系统，让它去捅 agent。\n\n循环就五个零件，Claude Code 和 Codex 现在都备齐了。Automations 是心跳：定时自己跑、自己发现和分流，有结果进 Triage 收件箱，没结果就归档（/loop 按周期重跑，/goal 跑到你写的可验证条件为真才停，每轮完一个独立小模型来判断算不算完成，写代码的 agent 没资格给自己打分）。Worktrees：git worktree 给每个并行 agent 一份独立 checkout，从机制上断了它们踩同一个文件的可能。Skills：SKILL.md 把项目知识摊在外面，省得 agent 每次像金鱼一样重猜一遍，没它循环每轮都从零重推你的项目。Connectors（建在 MCP 上）：让循环够得着 issue tracker、数据库、staging API、Slack，差别就在「这是修复方案」和「自己开 PR、关联 ticket、CI 绿了就 ping 频道」之间。Sub-agents：写的人和检查的人分开，毕竟写代码的模型给自己打分总是手软。\n\n还有第六件，最不起眼，可能也最要命：memory。一个 markdown 文件，或者一块 Linear board，活在单次对话之外，记着做过什么、下一步干嘛。模型每跑一次就忘光上一次，所以记忆得落在磁盘上，不能搁在 context 里。一句话，agent 会忘，repo 不会。\n\n但有三件事循环没替你解决，而且循环越顺，这三件越扎手。第一，验证还是你的事：没人盯着的循环，也是在没人盯着地犯错，done 只是它的声明，不是证明。第二，你的理解会烂掉：循环越快地 ship 那些你没亲手写的代码，你和代码之间的鸿沟就越宽。第三，最舒服的姿势往往最危险——循环自己转起来，你很容易就不再有观点、照单全收。所以那句话是对的：Build the loop, stay the engineer，循环你来搭，但工程师这个位子得你自己坐着。",
+      "url": "https://x.com/chenchengpro/status/2064221035734646916"
+    },
+    {
+      "accounts": [
         "CatHanami97880"
       ],
       "article_preview_text": "",
@@ -6372,7 +6751,7 @@
       "first_seen_at": "2026-06-09T08:41:38Z",
       "id": "2064216929397842327",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064205612913963008",
         "https://pbs.twimg.com/tweet_video_thumb/HKZVjP3a4AAH9pW.jpg"
@@ -6404,47 +6783,6 @@
       "article_url": null,
       "article_urls": [],
       "author": {
-        "id": "15205852",
-        "name": "陈成",
-        "username": "chenchengpro"
-      },
-      "conversation_id": "2064221035734646916",
-      "created_at": "2026-06-09T05:40:20.000Z",
-      "first_seen_at": "2026-06-09T08:41:38Z",
-      "id": "2064221035734646916",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [],
-      "media": [],
-      "primary_urls": [],
-      "public_metrics": {
-        "bookmark_count": 530,
-        "like_count": 367,
-        "quote_count": 1,
-        "reply_count": 106,
-        "retweet_count": 80
-      },
-      "referenced_tweets": [
-        {
-          "id": "2064127981161959567",
-          "type": "quoted"
-        }
-      ],
-      "sources": [
-        "bookmark@chumsdock"
-      ],
-      "text": "Claude Code 负责人 @bcherny 说他已经不 prompt Claude 了。是循环在 prompt Claude、在决定下一步，他的活变成了写那个循环。Addy Osmani 给这事起了个名，叫 loop engineering：你不再是那个一轮轮敲 prompt 的人，而是搭一个会自己找活、分发、检查、记账、定下一步的系统，让它去捅 agent。\n\n循环就五个零件，Claude Code 和 Codex 现在都备齐了。Automations 是心跳：定时自己跑、自己发现和分流，有结果进 Triage 收件箱，没结果就归档（/loop 按周期重跑，/goal 跑到你写的可验证条件为真才停，每轮完一个独立小模型来判断算不算完成，写代码的 agent 没资格给自己打分）。Worktrees：git worktree 给每个并行 agent 一份独立 checkout，从机制上断了它们踩同一个文件的可能。Skills：SKILL.md 把项目知识摊在外面，省得 agent 每次像金鱼一样重猜一遍，没它循环每轮都从零重推你的项目。Connectors（建在 MCP 上）：让循环够得着 issue tracker、数据库、staging API、Slack，差别就在「这是修复方案」和「自己开 PR、关联 ticket、CI 绿了就 ping 频道」之间。Sub-agents：写的人和检查的人分开，毕竟写代码的模型给自己打分总是手软。\n\n还有第六件，最不起眼，可能也最要命：memory。一个 markdown 文件，或者一块 Linear board，活在单次对话之外，记着做过什么、下一步干嘛。模型每跑一次就忘光上一次，所以记忆得落在磁盘上，不能搁在 context 里。一句话，agent 会忘，repo 不会。\n\n但有三件事循环没替你解决，而且循环越顺，这三件越扎手。第一，验证还是你的事：没人盯着的循环，也是在没人盯着地犯错，done 只是它的声明，不是证明。第二，你的理解会烂掉：循环越快地 ship 那些你没亲手写的代码，你和代码之间的鸿沟就越宽。第三，最舒服的姿势往往最危险——循环自己转起来，你很容易就不再有观点、照单全收。所以那句话是对的：Build the loop, stay the engineer，循环你来搭，但工程师这个位子得你自己坐着。",
-      "url": "https://x.com/chenchengpro/status/2064221035734646916"
-    },
-    {
-      "accounts": [
-        "chumsdock"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
         "id": "18412368",
         "name": "Brandon Butch",
         "username": "BrandonButch"
@@ -6456,7 +6794,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
       ],
@@ -6473,7 +6811,7 @@
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 525,
-        "like_count": 9580,
+        "like_count": 9579,
         "quote_count": 248,
         "reply_count": 195,
         "retweet_count": 463
@@ -6487,6 +6825,46 @@
       "text_zh_hash": "997cfbb6fcff8b54",
       "text_zh_translator_v": 2,
       "url": "https://x.com/BrandonButch/status/2064099819841577040"
+    },
+    {
+      "accounts": [
+        "chumsdock"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "4695994044",
+        "name": "Amit Shekhar",
+        "username": "amitiitbhu"
+      },
+      "conversation_id": "2063983640535847093",
+      "created_at": "2026-06-08T13:57:01.000Z",
+      "first_seen_at": "2026-06-09T04:38:25Z",
+      "id": "2063983640535847093",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2063978445714214913"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2063978445714214913"
+      ],
+      "public_metrics": {
+        "bookmark_count": 605,
+        "like_count": 311,
+        "quote_count": 5,
+        "reply_count": 8,
+        "retweet_count": 55
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@chumsdock"
+      ],
+      "text": "http://x.com/i/article/2063978445714214913",
+      "url": "https://x.com/amitiitbhu/status/2063983640535847093"
     },
     {
       "accounts": [
@@ -6506,7 +6884,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2063982924714901858",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063973322661265408",
         "https://github.com/analyticalrohit/llms-from-scratch"
@@ -6517,7 +6895,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 445,
-        "like_count": 271,
+        "like_count": 272,
         "quote_count": 1,
         "reply_count": 5,
         "retweet_count": 46
@@ -6547,7 +6925,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064012846065958966",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062938717573259264",
         "https://pbs.twimg.com/amplify_video_thumb/2064745195938435072/img/-tiauDJqgjiU_c4w.jpg"
@@ -6588,7 +6966,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064156903689891988",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.langchain.com/blog/tuning-deep-agents-different-models",
         "https://pbs.twimg.com/media/HKVbcKAbgAAhIkF.jpg"
@@ -6598,7 +6976,7 @@
         "https://www.langchain.com/blog/tuning-deep-agents-different-models"
       ],
       "public_metrics": {
-        "bookmark_count": 4,
+        "bookmark_count": 5,
         "like_count": 4,
         "quote_count": 0,
         "reply_count": 0,
@@ -6637,7 +7015,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064078883318825416",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064078110828470272"
       ],
@@ -6677,7 +7055,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064036299825160400",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2059468354927108099"
       ],
@@ -6717,7 +7095,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064060467975520341",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064058335205502976"
       ],
@@ -6757,7 +7135,7 @@
       "first_seen_at": "2026-06-09T04:38:25Z",
       "id": "2064098727867163124",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064090102452621312"
       ],
@@ -6770,7 +7148,7 @@
         "like_count": 162,
         "quote_count": 6,
         "reply_count": 28,
-        "retweet_count": 38
+        "retweet_count": 39
       },
       "referenced_tweets": [],
       "sources": [
@@ -6778,46 +7156,6 @@
       ],
       "text": "http://x.com/i/article/2064090102452621312",
       "url": "https://x.com/dongxi_nlp/status/2064098727867163124"
-    },
-    {
-      "accounts": [
-        "chumsdock"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "4695994044",
-        "name": "Amit Shekhar",
-        "username": "amitiitbhu"
-      },
-      "conversation_id": "2063983640535847093",
-      "created_at": "2026-06-08T13:57:01.000Z",
-      "first_seen_at": "2026-06-09T04:38:25Z",
-      "id": "2063983640535847093",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2063978445714214913"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2063978445714214913"
-      ],
-      "public_metrics": {
-        "bookmark_count": 605,
-        "like_count": 311,
-        "quote_count": 5,
-        "reply_count": 8,
-        "retweet_count": 55
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@chumsdock"
-      ],
-      "text": "http://x.com/i/article/2063978445714214913",
-      "url": "https://x.com/amitiitbhu/status/2063983640535847093"
     },
     {
       "accounts": [
@@ -6837,7 +7175,7 @@
       "first_seen_at": "2026-06-09T00:15:32Z",
       "id": "2064006387454349411",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063992943619477504"
       ],
@@ -6846,7 +7184,7 @@
         "http://x.com/i/article/2063992943619477504"
       ],
       "public_metrics": {
-        "bookmark_count": 535,
+        "bookmark_count": 536,
         "like_count": 286,
         "quote_count": 1,
         "reply_count": 9,
@@ -6858,6 +7196,47 @@
       ],
       "text": "http://x.com/i/article/2063992943619477504",
       "url": "https://x.com/jhleath/status/2064006387454349411"
+    },
+    {
+      "accounts": [
+        "chumsdock"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "6238012",
+        "name": "Matt Van Horn",
+        "username": "mvanhorn"
+      },
+      "conversation_id": "2063865685558903149",
+      "created_at": "2026-06-08T06:08:18.000Z",
+      "first_seen_at": "2026-06-08T16:20:28Z",
+      "id": "2063865685558903149",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T06:57:11Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2063850827694096385",
+        "http://Juneoven.com"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2063850827694096385"
+      ],
+      "public_metrics": {
+        "bookmark_count": 15151,
+        "like_count": 4837,
+        "quote_count": 162,
+        "reply_count": 204,
+        "retweet_count": 457
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@chumsdock"
+      ],
+      "text": "http://x.com/i/article/2063850827694096385",
+      "url": "https://x.com/mvanhorn/status/2063865685558903149"
     },
     {
       "accounts": [
@@ -6877,7 +7256,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063939753112682770",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2054556222360084480"
       ],
@@ -6917,7 +7296,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063888864436195388",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063673499898757120",
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118",
@@ -6960,7 +7339,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063928611619455268",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063893302181519360"
       ],
@@ -6984,47 +7363,6 @@
     },
     {
       "accounts": [
-        "chumsdock"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "6238012",
-        "name": "Matt Van Horn",
-        "username": "mvanhorn"
-      },
-      "conversation_id": "2063865685558903149",
-      "created_at": "2026-06-08T06:08:18.000Z",
-      "first_seen_at": "2026-06-08T16:20:28Z",
-      "id": "2063865685558903149",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2063850827694096385",
-        "http://Juneoven.com"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2063850827694096385"
-      ],
-      "public_metrics": {
-        "bookmark_count": 15150,
-        "like_count": 4834,
-        "quote_count": 162,
-        "reply_count": 204,
-        "retweet_count": 457
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@chumsdock"
-      ],
-      "text": "http://x.com/i/article/2063850827694096385",
-      "url": "https://x.com/mvanhorn/status/2063865685558903149"
-    },
-    {
-      "accounts": [
         "CatHanami97880"
       ],
       "article_preview_text": "",
@@ -7041,7 +7379,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063846807810253118",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2055200658723078144",
         "http://x.com/i/article/2064420014120128512"
@@ -7082,7 +7420,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063907440509571354",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063857990461968384"
       ],
@@ -7122,7 +7460,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063781381021258026",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063706797572227072",
         "https://zillapi.com"
@@ -7163,7 +7501,7 @@
       "first_seen_at": "2026-06-08T16:20:28Z",
       "id": "2063935932349255713",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063935271796723712"
       ],
@@ -7203,7 +7541,7 @@
       "first_seen_at": "2026-06-08T12:09:06Z",
       "id": "2063840704892440976",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -7239,7 +7577,7 @@
       "first_seen_at": "2026-06-08T07:04:02Z",
       "id": "2063574610889560271",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062262699703300097"
       ],
@@ -7248,7 +7586,7 @@
         "http://x.com/i/article/2062262699703300097"
       ],
       "public_metrics": {
-        "bookmark_count": 179,
+        "bookmark_count": 180,
         "like_count": 110,
         "quote_count": 4,
         "reply_count": 1,
@@ -7279,7 +7617,7 @@
       "first_seen_at": "2026-06-08T07:04:02Z",
       "id": "2063731230466834892",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063729870518341632"
       ],
@@ -7321,7 +7659,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg"
       ],
@@ -7338,7 +7676,7 @@
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 3498,
-        "like_count": 1221,
+        "like_count": 1222,
         "quote_count": 7,
         "reply_count": 25,
         "retweet_count": 120
@@ -7377,7 +7715,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063697740526399833",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063676886031495171"
       ],
@@ -7386,7 +7724,7 @@
         "http://x.com/i/article/2063676886031495171"
       ],
       "public_metrics": {
-        "bookmark_count": 3756,
+        "bookmark_count": 3755,
         "like_count": 1402,
         "quote_count": 7,
         "reply_count": 25,
@@ -7420,7 +7758,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2063631219678695426/img/cK1xzlR92zO4AjFC.jpg",
         "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J"
@@ -7437,11 +7775,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 591,
+        "bookmark_count": 590,
         "like_count": 261,
         "quote_count": 1,
         "reply_count": 38,
-        "retweet_count": 53
+        "retweet_count": 52
       },
       "referenced_tweets": [
         {
@@ -7476,7 +7814,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063694809592635430",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062903712209600512"
       ],
@@ -7518,7 +7856,7 @@
       "image_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
       ],
@@ -7573,7 +7911,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063602634854982113",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063582854215266304"
       ],
@@ -7613,7 +7951,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063576484850073723",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063573083185627136"
       ],
@@ -7653,7 +7991,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063688044843090179",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063386766455762945"
       ],
@@ -7696,7 +8034,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://walkinglabs.github.io/learn-harness-engineering/en/",
         "https://pbs.twimg.com/media/HKNSY1QbUAAgx8P.jpg"
@@ -7715,8 +8053,8 @@
         "https://walkinglabs.github.io/learn-harness-engineering/en/"
       ],
       "public_metrics": {
-        "bookmark_count": 6422,
-        "like_count": 3300,
+        "bookmark_count": 6423,
+        "like_count": 3299,
         "quote_count": 10,
         "reply_count": 54,
         "retweet_count": 440
@@ -7754,7 +8092,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063606029146034375",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063574218584018944"
       ],
@@ -7763,7 +8101,7 @@
         "http://x.com/i/article/2063574218584018944"
       ],
       "public_metrics": {
-        "bookmark_count": 115,
+        "bookmark_count": 116,
         "like_count": 63,
         "quote_count": 0,
         "reply_count": 5,
@@ -7775,89 +8113,6 @@
       ],
       "text": "http://x.com/i/article/2063574218584018944",
       "url": "https://x.com/hey_madni/status/2063606029146034375"
-    },
-    {
-      "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "1235920262765346818",
-        "name": "Carl Sue",
-        "username": "carlsue"
-      },
-      "conversation_id": "2063584716771541327",
-      "created_at": "2026-06-07T11:31:50.000Z",
-      "first_seen_at": "2026-06-08T01:34:31Z",
-      "id": "2063584716771541327",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2063566081453694976"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2063566081453694976"
-      ],
-      "public_metrics": {
-        "bookmark_count": 57,
-        "like_count": 43,
-        "quote_count": 1,
-        "reply_count": 2,
-        "retweet_count": 4
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "http://x.com/i/article/2063566081453694976",
-      "url": "https://x.com/carlsue/status/2063584716771541327"
-    },
-    {
-      "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "1042797252765528064",
-        "name": "Suraj Sharma",
-        "username": "suraj_sharma14"
-      },
-      "conversation_id": "2063589795813785841",
-      "created_at": "2026-06-07T11:52:01.000Z",
-      "first_seen_at": "2026-06-08T01:34:31Z",
-      "id": "2063589795813785841",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "https://developers.openai.com/codex/use-cases"
-      ],
-      "media": [],
-      "primary_urls": [
-        "https://developers.openai.com/codex/use-cases"
-      ],
-      "public_metrics": {
-        "bookmark_count": 1192,
-        "like_count": 872,
-        "quote_count": 9,
-        "reply_count": 35,
-        "retweet_count": 78
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "OpenAI just published dozens of real-world workflows showing how teams are using it to automate work.\n\n> Manage your inbox and draft replies in your voice\n> Review GitHub pull requests before human review\n> Turn Figma designs into production-ready code\n> Understand large codebases in minutes\n> Automate bug triage and QA workflows\n> Query spreadsheets and datasets using natural language\n> Deploy apps and websites directly from prompts\n> Build Mac and iOS applications faster\n> Create slide decks automatically\n> Turn Slack threads into coding tasks\n> Use your computer through AI-powered actions\n\nFrom software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.\n\nExplore all use cases:\nhttps://developers.openai.com/codex/use-cases",
-      "text_zh": "OpenAI 刚刚发布了数十个真实工作流程，展示了团队如何利用它实现工作自动化。\n\n> 管理收件箱并以你的语气草拟回复\n> 在人工审查前审阅 GitHub 拉取请求\n> 将 Figma 设计转化为可直接上线的代码\n> 数分钟内理解大型代码库\n> 自动化 Bug 分类与 QA 工作流\n> 使用自然语言查询电子表格与数据集\n> 通过提示词直接部署应用和网站\n> 更快地构建 Mac 与 iOS 应用\n> 自动创建幻灯片\n> 将 Slack 讨论串转化为编码任务\n> 通过 AI 驱动的操作操控你的电脑\n\n从软件工程、设计到数据分析与运营，Codex 正从单纯的 AI 助手转变为 AI 队友。\n\n探索所有用例：\nhttps://developers.openai.com/codex/use-cases",
-      "text_zh_hash": "72eff2fd3241e51c",
-      "text_zh_translator_v": 2,
-      "url": "https://x.com/suraj_sharma14/status/2063589795813785841"
     },
     {
       "accounts": [
@@ -7948,6 +8203,129 @@
       "article_url": null,
       "article_urls": [],
       "author": {
+        "id": "1042797252765528064",
+        "name": "Suraj Sharma",
+        "username": "suraj_sharma14"
+      },
+      "conversation_id": "2063589795813785841",
+      "created_at": "2026-06-07T11:52:01.000Z",
+      "first_seen_at": "2026-06-08T01:34:31Z",
+      "id": "2063589795813785841",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T01:36:58Z",
+      "linked_content_urls": [
+        "https://developers.openai.com/codex/use-cases"
+      ],
+      "media": [],
+      "primary_urls": [
+        "https://developers.openai.com/codex/use-cases"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1192,
+        "like_count": 872,
+        "quote_count": 9,
+        "reply_count": 35,
+        "retweet_count": 78
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "OpenAI just published dozens of real-world workflows showing how teams are using it to automate work.\n\n> Manage your inbox and draft replies in your voice\n> Review GitHub pull requests before human review\n> Turn Figma designs into production-ready code\n> Understand large codebases in minutes\n> Automate bug triage and QA workflows\n> Query spreadsheets and datasets using natural language\n> Deploy apps and websites directly from prompts\n> Build Mac and iOS applications faster\n> Create slide decks automatically\n> Turn Slack threads into coding tasks\n> Use your computer through AI-powered actions\n\nFrom software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.\n\nExplore all use cases:\nhttps://developers.openai.com/codex/use-cases",
+      "text_zh": "OpenAI 刚刚发布了数十个真实工作流程，展示了团队如何利用它实现工作自动化。\n\n> 管理收件箱并以你的语气草拟回复\n> 在人工审查前审阅 GitHub 拉取请求\n> 将 Figma 设计转化为可直接上线的代码\n> 数分钟内理解大型代码库\n> 自动化 Bug 分类与 QA 工作流\n> 使用自然语言查询电子表格与数据集\n> 通过提示词直接部署应用和网站\n> 更快地构建 Mac 与 iOS 应用\n> 自动创建幻灯片\n> 将 Slack 讨论串转化为编码任务\n> 通过 AI 驱动的操作操控你的电脑\n\n从软件工程、设计到数据分析与运营，Codex 正从单纯的 AI 助手转变为 AI 队友。\n\n探索所有用例：\nhttps://developers.openai.com/codex/use-cases",
+      "text_zh_hash": "72eff2fd3241e51c",
+      "text_zh_translator_v": 2,
+      "url": "https://x.com/suraj_sharma14/status/2063589795813785841"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1235920262765346818",
+        "name": "Carl Sue",
+        "username": "carlsue"
+      },
+      "conversation_id": "2063584716771541327",
+      "created_at": "2026-06-07T11:31:50.000Z",
+      "first_seen_at": "2026-06-08T01:34:31Z",
+      "id": "2063584716771541327",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T01:36:58Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2063566081453694976"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2063566081453694976"
+      ],
+      "public_metrics": {
+        "bookmark_count": 57,
+        "like_count": 43,
+        "quote_count": 1,
+        "reply_count": 2,
+        "retweet_count": 4
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2063566081453694976",
+      "url": "https://x.com/carlsue/status/2063584716771541327"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "1175166450832687104",
+        "name": "Avi Chawla",
+        "username": "_avichawla"
+      },
+      "conversation_id": "2063548691353629040",
+      "created_at": "2026-06-07T09:08:41.000Z",
+      "first_seen_at": "2026-06-07T15:01:15Z",
+      "id": "2063548691353629040",
+      "image_urls": [],
+      "last_seen_at": "2026-06-14T01:36:58Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2061735436687736832"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2061735436687736832"
+      ],
+      "public_metrics": {
+        "bookmark_count": 467,
+        "like_count": 163,
+        "quote_count": 5,
+        "reply_count": 14,
+        "retweet_count": 18
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@CatHanami97880"
+      ],
+      "text": "http://x.com/i/article/2061735436687736832",
+      "url": "https://x.com/_avichawla/status/2063548691353629040"
+    },
+    {
+      "accounts": [
+        "CatHanami97880"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
         "id": "5610072",
         "name": "Chris Short",
         "username": "ChrisShort"
@@ -7993,46 +8371,6 @@
       "text_zh_hash": "fdfc62b7a23271ce",
       "text_zh_translator_v": 2,
       "url": "https://x.com/ChrisShort/status/2063470556620472553"
-    },
-    {
-      "accounts": [
-        "CatHanami97880"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "1175166450832687104",
-        "name": "Avi Chawla",
-        "username": "_avichawla"
-      },
-      "conversation_id": "2063548691353629040",
-      "created_at": "2026-06-07T09:08:41.000Z",
-      "first_seen_at": "2026-06-07T15:01:15Z",
-      "id": "2063548691353629040",
-      "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2061735436687736832"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2061735436687736832"
-      ],
-      "public_metrics": {
-        "bookmark_count": 467,
-        "like_count": 163,
-        "quote_count": 5,
-        "reply_count": 14,
-        "retweet_count": 18
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@CatHanami97880"
-      ],
-      "text": "http://x.com/i/article/2061735436687736832",
-      "url": "https://x.com/_avichawla/status/2063548691353629040"
     },
     {
       "accounts": [
@@ -8537,7 +8875,7 @@
       "first_seen_at": "2026-06-07T04:59:08Z",
       "id": "2063329359910392293",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062498852481925120"
       ],
@@ -8579,7 +8917,7 @@
       "first_seen_at": "2026-06-07T04:59:08Z",
       "id": "2063429138304668093",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -9908,7 +10246,7 @@
       "first_seen_at": "2026-06-06T16:19:38Z",
       "id": "2063107590452871597",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10311,7 +10649,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar",
         "https://pbs.twimg.com/media/HKEPpsoXcAAuXcl.jpg",
@@ -10833,7 +11171,7 @@
       "first_seen_at": "2026-06-05T14:03:27Z",
       "id": "2062644695776248096",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062531985239617536"
       ],
@@ -10874,7 +11212,7 @@
       "first_seen_at": "2026-06-05T14:03:27Z",
       "id": "2062592730795221256",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/ngaut/agent-git-service"
       ],
@@ -10920,7 +11258,7 @@
       "first_seen_at": "2026-06-05T14:03:27Z",
       "id": "2062756323985363359",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -11643,7 +11981,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062414047073448262",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://claude.com/blog/running-an-ai-native-engineering-org"
       ],
@@ -11683,7 +12021,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062495991421616319",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062495770012782593"
       ],
@@ -11725,7 +12063,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://outcomeschool.com/blog/ai-agent-memory",
         "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg"
@@ -11778,7 +12116,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062568862479208923",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.anthropic.com/institute/recursive-self-improvement",
         "https://pbs.twimg.com/media/HJ-2RFhbMAE6prm.png",
@@ -11790,11 +12128,11 @@
         "https://www.anthropic.com/institute/recursive-self-improvement"
       ],
       "public_metrics": {
-        "bookmark_count": 15423,
-        "like_count": 28651,
+        "bookmark_count": 15420,
+        "like_count": 28647,
         "quote_count": 2963,
         "reply_count": 1771,
-        "retweet_count": 4663
+        "retweet_count": 4662
       },
       "referenced_tweets": [],
       "sources": [
@@ -11824,7 +12162,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062642701250842675",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -11869,7 +12207,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062582596190498864",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062582346872918016"
       ],
@@ -11911,7 +12249,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062561213532471707",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062489133445201920"
       ],
@@ -11952,7 +12290,7 @@
       "first_seen_at": "2026-06-05T01:30:33Z",
       "id": "2062435013484814400",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2059613463731732484"
       ],
@@ -12436,7 +12774,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar",
         "https://pbs.twimg.com/media/HJ-lysIXIAAGVis.jpg",
@@ -12496,7 +12834,7 @@
         "https://pbs.twimg.com/media/HJ9Fs7BWAAAX6MF.jpg",
         "https://pbs.twimg.com/media/HJ9Fs62XYAAKhVK.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg",
         "https://pbs.twimg.com/media/HJ9Fs7BWEAANPWU.jpg",
@@ -12578,7 +12916,7 @@
       "first_seen_at": "2026-06-04T17:23:06Z",
       "id": "2062428035559616604",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
       ],
@@ -12621,7 +12959,7 @@
       "first_seen_at": "2026-06-04T14:10:38Z",
       "id": "2062255866724884708",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062248271444111360",
         "https://pbs.twimg.com/media/HJ1HCcPX0AEHjMH.jpg"
@@ -14228,7 +14566,7 @@
         "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
         "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://coss.com/ui",
         "https://heroui.com/",
@@ -22885,7 +23223,7 @@
       "image_urls": [
         "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
       ],
@@ -25823,7 +26161,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg",
         "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg",
@@ -26854,7 +27192,7 @@
       "first_seen_at": "2026-05-22T13:17:46Z",
       "id": "2057745930896756960",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -27402,7 +27740,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg"
       ],
@@ -27418,8 +27756,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 257,
-        "like_count": 283,
+        "bookmark_count": 256,
+        "like_count": 282,
         "quote_count": 1,
         "reply_count": 11,
         "retweet_count": 13
@@ -27572,7 +27910,7 @@
       "first_seen_at": "2026-05-21T11:17:38Z",
       "id": "2056867092729913802",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -27613,7 +27951,7 @@
       "first_seen_at": "2026-05-21T11:17:38Z",
       "id": "2057407113052479870",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -28002,7 +28340,7 @@
         "https://pbs.twimg.com/media/HIu71U0akAASf0y.jpg",
         "https://pbs.twimg.com/media/HIu71VQbwAI7yb6.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://fastclaw.ai",
         "https://pbs.twimg.com/media/HIu71VWagAA129Z.jpg",
@@ -28081,7 +28419,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2056910114255486976/img/Al5wbi_HnrSX7wX6.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2056910114255486976/img/Al5wbi_HnrSX7wX6.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2056923175393660928/img/0hgHbDj16dy0Wr6C.jpg",
@@ -28104,11 +28442,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 8891,
-        "like_count": 8239,
+        "bookmark_count": 8893,
+        "like_count": 8240,
         "quote_count": 99,
         "reply_count": 239,
-        "retweet_count": 528
+        "retweet_count": 529
       },
       "referenced_tweets": [],
       "sources": [
@@ -28286,7 +28624,7 @@
       "first_seen_at": "2026-05-20T04:07:00Z",
       "id": "2054385995727196611",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -28324,7 +28662,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg"
       ],
@@ -29392,7 +29730,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HIocKddaoAAZtJR.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIocKddaoAAZtJR.jpg"
       ],
@@ -29701,7 +30039,7 @@
       "first_seen_at": "2026-05-18T12:20:38Z",
       "id": "2056196460597915730",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg"
       ],
@@ -29745,7 +30083,7 @@
       "first_seen_at": "2026-05-18T04:18:21Z",
       "id": "2056078124346228860",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2055936913211899904",
         "http://x.com/i/article/2055936913211899904"
@@ -29757,7 +30095,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 4856,
-        "like_count": 3600,
+        "like_count": 3601,
         "quote_count": 122,
         "reply_count": 109,
         "retweet_count": 609
@@ -29961,7 +30299,7 @@
       "first_seen_at": "2026-05-16T23:17:34Z",
       "id": "2055429159757742112",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -30510,7 +30848,7 @@
       "first_seen_at": "2026-05-14T15:33:10Z",
       "id": "2054917554024714309",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -30827,7 +31165,7 @@
       "first_seen_at": "2026-05-14T10:17:45Z",
       "id": "2054569766418108797",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2054279489774120960",
         "https://code.claude.com/docs/en/goal",
@@ -44952,7 +45290,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
       ],
@@ -60813,7 +61151,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2052687449508266270",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://status.deepseek.com/"
       ],
@@ -60854,7 +61192,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2048778515936333847",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -60900,7 +61238,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg"
       ],
@@ -60952,7 +61290,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2045466421036007527",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2045262387041730560",
         "http://x.com/i/article/2045262387041730560"
@@ -60963,8 +61301,8 @@
         "http://x.com/i/article/2045262387041730560"
       ],
       "public_metrics": {
-        "bookmark_count": 4288,
-        "like_count": 919,
+        "bookmark_count": 4287,
+        "like_count": 918,
         "quote_count": 26,
         "reply_count": 14,
         "retweet_count": 85
@@ -60995,7 +61333,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2044768025786695971",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2043979081641803776",
         "http://x.com/i/article/2043979081641803776"
@@ -61035,7 +61373,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2043697811993350611",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -61077,7 +61415,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2042577693359603748",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -61123,7 +61461,7 @@
       "image_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
       ],
@@ -61145,7 +61483,7 @@
         "like_count": 595,
         "quote_count": 2,
         "reply_count": 20,
-        "retweet_count": 37
+        "retweet_count": 36
       },
       "referenced_tweets": [],
       "sources": [
@@ -61166,7 +61504,7 @@
       "author": {
         "id": "1888495407564812288",
         "name": "Harshit",
-        "username": "uiux_harshit"
+        "username": "oiharshit"
       },
       "conversation_id": "2038671337414414757",
       "created_at": "2026-03-30T17:34:58.000Z",
@@ -61177,7 +61515,7 @@
         "https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg",
         "https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg",
         "https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg",
@@ -61228,7 +61566,7 @@
       "text_zh": "归根结底，品味才是关键 https://t.co/BV6znXSset",
       "text_zh_hash": "624efe2cdcd463bc",
       "text_zh_translator_v": 2,
-      "url": "https://x.com/uiux_harshit/status/2038671337414414757"
+      "url": "https://x.com/oiharshit/status/2038671337414414757"
     },
     {
       "accounts": [
@@ -61248,7 +61586,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg"
       ],
@@ -61267,7 +61605,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 736,
-        "like_count": 1165,
+        "like_count": 1164,
         "quote_count": 6,
         "reply_count": 34,
         "retweet_count": 27
@@ -61298,7 +61636,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2036657119194460217",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -61335,7 +61673,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2036657892280164655",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
       ],
@@ -61373,7 +61711,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2033241509131075835",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/agilek/cli-loaders?tab=readme-ov-file"
       ],
@@ -61427,7 +61765,7 @@
         "https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg",
         "https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg",
         "https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg"
@@ -61488,7 +61826,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/nagisanzenin/skyclaw",
         "https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg"
@@ -61539,7 +61877,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.youtube.com/watch?v=2rcJdFuNbZQ",
         "https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg"
@@ -61596,7 +61934,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2031417353666441266",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2031220938738642944",
         "https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1",
@@ -61645,7 +61983,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2028805687355363347",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.supacortex.ai/"
       ],
@@ -61692,7 +62030,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026300463583564112",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2026291692866084864",
         "http://x.com/i/article/2026291692866084864"
@@ -61734,7 +62072,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg"
       ],
@@ -61784,7 +62122,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2025975741503135842",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -61818,7 +62156,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026051860377805300",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -61862,7 +62200,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026074121671500238",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -61908,7 +62246,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/Blaizzy/mlx-audio-swift",
         "https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg"
@@ -61960,7 +62298,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026058929348731101",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -62004,13 +62342,13 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026044556618145834",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 356,
-        "like_count": 6877,
+        "like_count": 6876,
         "quote_count": 55,
         "reply_count": 209,
         "retweet_count": 336
@@ -62041,7 +62379,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026027686989086937",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -62085,7 +62423,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2024846068245017031",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -62094,7 +62432,7 @@
         "like_count": 10595,
         "quote_count": 90,
         "reply_count": 257,
-        "retweet_count": 525
+        "retweet_count": 526
       },
       "referenced_tweets": [],
       "sources": [
@@ -62122,7 +62460,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2024544978912104552",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       ],
@@ -62170,7 +62508,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.qianwen.com/",
         "https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B",
@@ -62231,7 +62569,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2022356917948166506",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2022352504315654144",
         "https://github.com/freestylefly/openclaw-wechat",
@@ -62277,7 +62615,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2020946239366529198",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://thecommander.app/",
         "http://CommanderAI.app"
@@ -62326,7 +62664,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2021319785947316490",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2021313314584920064",
         "https://github.com/jo-inc/camofox-browser",
@@ -62372,7 +62710,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg"
       ],
@@ -62391,7 +62729,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 1272,
-        "like_count": 1397,
+        "like_count": 1396,
         "quote_count": 3,
         "reply_count": 22,
         "retweet_count": 82
@@ -62424,7 +62762,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg"
       ],
@@ -62443,7 +62781,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 11761,
-        "like_count": 23532,
+        "like_count": 23531,
         "quote_count": 2505,
         "reply_count": 486,
         "retweet_count": 2091
@@ -62476,7 +62814,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg"
       ],
@@ -62526,7 +62864,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018659007121195362",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.kimi.com/",
         "http://Kimi.com"
@@ -62567,7 +62905,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017832450387316813",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2017831621437673472",
         "http://x.com/i/article/2017831621437673472"
@@ -62607,7 +62945,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018036653248721242",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -62645,7 +62983,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018158137287860412",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://x.com/i/article/2017761530113363971"
       ],
@@ -62683,7 +63021,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017905705609801960",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -62721,7 +63059,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017629377119588456",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2017622760193986563",
         "http://x.com/i/article/2017622760193986563"
@@ -62762,7 +63100,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017465746222125230",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://www.bilibili.com/video/BV1rm6yB8E71/"
       ],
@@ -62800,7 +63138,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017055070073082147",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -62837,7 +63175,7 @@
         "https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg",
         "https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://maker.taptap.cn",
         "https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg",
@@ -62897,7 +63235,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/workany-ai/workany",
         "https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png"
@@ -62954,7 +63292,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg"
       ],
@@ -63003,7 +63341,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://agents.craft.do/mermaid",
         "https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg"
@@ -63054,7 +63392,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg"
       ],
@@ -63103,7 +63441,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg"
       ],
@@ -63152,7 +63490,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg",
         "https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg",
@@ -63209,7 +63547,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017598774613365005",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -67660,7 +67998,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png"
       ],
@@ -67679,7 +68017,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 113,
-        "like_count": 1729,
+        "like_count": 1727,
         "quote_count": 4,
         "reply_count": 140,
         "retweet_count": 27
@@ -67709,7 +68047,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg"
       ],
@@ -67759,13 +68097,13 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2052916488672350294",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 77,
-        "like_count": 1767,
+        "like_count": 1766,
         "quote_count": 11,
         "reply_count": 17,
         "retweet_count": 120
@@ -67798,7 +68136,7 @@
         "https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg",
         "https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg",
         "https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg",
@@ -67887,7 +68225,7 @@
         "https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg",
         "https://pbs.twimg.com/media/HH21wymbUAA01fG.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH21wykaUAA8607.jpg",
         "https://pbs.twimg.com/media/HH21wylasAAcDPJ.png",
@@ -67964,7 +68302,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2053296999953490172",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -68002,7 +68340,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg",
         "https://pbs.twimg.com/media/HHwoO2ka4AAVosZ.jpg"
@@ -68021,7 +68359,7 @@
         "https://x.com/nakado_biko/status/2052360467738452258/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 874,
+        "bookmark_count": 873,
         "like_count": 7405,
         "quote_count": 3,
         "reply_count": 9,
@@ -68055,7 +68393,7 @@
         "https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg",
         "https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg",
         "https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg",
@@ -68100,7 +68438,7 @@
         "https://x.com/notoro_ai/status/2053082564865528087/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 1415,
+        "bookmark_count": 1414,
         "like_count": 1620,
         "quote_count": 12,
         "reply_count": 9,
@@ -68135,7 +68473,7 @@
         "https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg",
         "https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg",
         "https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg",
@@ -68181,7 +68519,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 497,
-        "like_count": 4761,
+        "like_count": 4759,
         "quote_count": 17,
         "reply_count": 38,
         "retweet_count": 88
@@ -68209,7 +68547,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2053056854222381131",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -68248,7 +68586,7 @@
         "https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg",
         "https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg",
         "https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg",
@@ -68293,7 +68631,7 @@
         "https://x.com/ayushsoni_io/status/2052682499885859256/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 1093,
+        "bookmark_count": 1092,
         "like_count": 1320,
         "quote_count": 1,
         "reply_count": 36,
@@ -68327,7 +68665,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg"
       ],
@@ -68381,7 +68719,7 @@
         "https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg",
@@ -68451,7 +68789,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2052191936727912462",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -68487,7 +68825,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg"
       ],
@@ -68543,7 +68881,7 @@
         "https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg",
         "https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg",
         "https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg",
@@ -68623,7 +68961,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg"
       ],
@@ -68675,7 +69013,7 @@
         "https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg",
         "https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg",
         "https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg",
@@ -68722,11 +69060,11 @@
         "https://x.com/matthewwmullin/status/2050945938999431592/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 9733,
-        "like_count": 61287,
+        "bookmark_count": 9729,
+        "like_count": 61284,
         "quote_count": 367,
         "reply_count": 279,
-        "retweet_count": 8785
+        "retweet_count": 8784
       },
       "referenced_tweets": [],
       "sources": [
@@ -68756,7 +69094,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png"
       ],
@@ -68803,7 +69141,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2050162329279672565",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -68838,7 +69176,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2050044127656489095",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "http://github.com/Hmbown/DeepSeek-TUI"
       ],
@@ -68881,7 +69219,7 @@
         "https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg",
         "https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg",
         "https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg",
@@ -68958,7 +69296,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2048572906234581168",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -69000,7 +69338,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2048239139104207061",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -69035,7 +69373,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047533454842376225",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -69069,7 +69407,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047571947559735698",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -69103,7 +69441,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047055760236916759",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -69148,7 +69486,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2046877515336090038",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -69184,7 +69522,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2047094712973348864/img/nDwL3LYRFR3ojPdt.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2047094712973348864/img/nDwL3LYRFR3ojPdt.jpg"
       ],
@@ -69242,7 +69580,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGhrpE0WYAE3Io7.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://zed.dev/blog/parallel-agents",
         "https://pbs.twimg.com/media/HGhrpE0WYAE3Io7.jpg"
@@ -69296,7 +69634,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png"
       ],
@@ -69351,7 +69689,7 @@
         "https://pbs.twimg.com/media/HGeGdH9XMAAxC36.jpg",
         "https://pbs.twimg.com/media/HGeGdH7XMAAfT1v.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGeFyAzW8AAyDvO.jpg",
         "https://pbs.twimg.com/media/HGeFyAnWAAAyjnw.jpg",
@@ -69397,7 +69735,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 999,
-        "like_count": 1308,
+        "like_count": 1307,
         "quote_count": 2,
         "reply_count": 9,
         "retweet_count": 57
@@ -69431,7 +69769,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGiNY2vW0AM_vbJ.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGiNY2vW0AM_vbJ.jpg"
       ],
@@ -69481,13 +69819,13 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2043849349625758112",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 1171,
-        "like_count": 40223,
+        "like_count": 40221,
         "quote_count": 335,
         "reply_count": 5,
         "retweet_count": 2019
@@ -69517,7 +69855,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg"
       ],
@@ -69536,7 +69874,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 349,
-        "like_count": 11200,
+        "like_count": 11199,
         "quote_count": 111,
         "reply_count": 115,
         "retweet_count": 529
@@ -69566,7 +69904,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGEmgxPaAAA_buY.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGEmgxPaAAA_buY.jpg"
       ],
@@ -69585,7 +69923,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 163,
-        "like_count": 1780,
+        "like_count": 1781,
         "quote_count": 2,
         "reply_count": 29,
         "retweet_count": 32
@@ -69615,7 +69953,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg"
       ],
@@ -69674,7 +70012,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg"
       ],
@@ -69726,7 +70064,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg"
       ],
@@ -69745,7 +70083,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 547,
-        "like_count": 8965,
+        "like_count": 8963,
         "quote_count": 17,
         "reply_count": 10,
         "retweet_count": 607
@@ -69778,7 +70116,7 @@
         "https://pbs.twimg.com/media/HFqQtN9XwAAv2D2.png",
         "https://pbs.twimg.com/media/HFqQtOAWkAAuUZ4.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFqQtN9XEAEFxqd.jpg",
         "https://pbs.twimg.com/media/HFqQtN-XkAA2rGG.jpg",
@@ -69824,7 +70162,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 465,
-        "like_count": 2078,
+        "like_count": 2079,
         "quote_count": 3,
         "reply_count": 3,
         "retweet_count": 114
@@ -69857,7 +70195,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044467468266311682/img/_OPoS0KrSM607WoH.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044467468266311682/img/_OPoS0KrSM607WoH.jpg"
       ],
@@ -69876,7 +70214,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 222,
-        "like_count": 1165,
+        "like_count": 1164,
         "quote_count": 6,
         "reply_count": 47,
         "retweet_count": 105
@@ -69909,7 +70247,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044453575926157315/img/twU77EPwJapHRrlR.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044453575926157315/img/twU77EPwJapHRrlR.jpg"
       ],
@@ -69958,7 +70296,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044588662881665024/img/ws0DJhUqbOr9y8ZZ.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044588662881665024/img/ws0DJhUqbOr9y8ZZ.jpg"
       ],
@@ -70005,7 +70343,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2044249970220642732",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -70044,7 +70382,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044409186155626496/img/pV_h-oBbADV3K0Nk.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/KurtGokhan/tegaki",
         "https://pbs.twimg.com/amplify_video_thumb/2044409186155626496/img/pV_h-oBbADV3K0Nk.jpg"
@@ -70095,7 +70433,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044053695823060992/img/vbMMffmOe_FcVmbe.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044053695823060992/img/vbMMffmOe_FcVmbe.jpg"
       ],
@@ -70145,7 +70483,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2043839124084535440",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -70181,7 +70519,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2014808733897887744/img/i-S8vkPlYA6aiNyR.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2014808733897887744/img/i-S8vkPlYA6aiNyR.jpg"
       ],
@@ -70234,7 +70572,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2043049745372020736/img/D1BefzgNwFLtngmb.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2043049745372020736/img/D1BefzgNwFLtngmb.jpg"
       ],
@@ -70287,7 +70625,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042638722240516099/img/JAUoclCguKJxS1_z.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042638722240516099/img/JAUoclCguKJxS1_z.jpg"
       ],
@@ -70339,7 +70677,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042559635148935170/img/nBSevW_D6SS5r3Am.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042559635148935170/img/nBSevW_D6SS5r3Am.jpg"
       ],
@@ -70389,7 +70727,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2042482651978944902",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -70433,7 +70771,7 @@
         "https://pbs.twimg.com/media/HFe_zFQXkAAVwa7.jpg",
         "https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFe_zFQXkAAVwa7.jpg",
         "https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg"
@@ -70460,7 +70798,7 @@
         "https://x.com/hewarsaber/status/2042311843553726883/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 1448,
+        "bookmark_count": 1447,
         "like_count": 1392,
         "quote_count": 2,
         "reply_count": 49,
@@ -70495,7 +70833,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041984842829852672/img/FT3ZBu4pQ_PXsj52.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041984842829852672/img/FT3ZBu4pQ_PXsj52.jpg"
       ],
@@ -70547,7 +70885,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg"
       ],
@@ -70566,7 +70904,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 395,
-        "like_count": 5650,
+        "like_count": 5649,
         "quote_count": 2,
         "reply_count": 9,
         "retweet_count": 666
@@ -70596,7 +70934,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042078866936844288/img/9ekiAWi5pCrly8PI.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://glauber.org/archive/orbits",
         "http://glauber.org/archive/orbits",
@@ -70652,7 +70990,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg"
       ],
@@ -70699,7 +71037,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2042027029445669209",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -70738,7 +71076,7 @@
         "https://pbs.twimg.com/media/HFVTPfzW8AAG4jI.jpg",
         "https://pbs.twimg.com/media/HFVTQOKa8AA1p0m.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFVTOMoa8AATp-5.jpg",
         "https://pbs.twimg.com/media/HFVTOwZWMAAy62p.jpg",
@@ -70817,7 +71155,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg"
       ],
@@ -70869,7 +71207,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFUs79fa8AEaCx-.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFUs79fa8AEaCx-.jpg"
       ],
@@ -70924,7 +71262,7 @@
         "https://pbs.twimg.com/media/HFPdtoebcAAm8VG.jpg",
         "https://pbs.twimg.com/media/HFPdxPOXsAAR5NW.png"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFPdkFNaQAA1J4o.jpg",
         "https://pbs.twimg.com/media/HFPdowVaAAAzaST.png",
@@ -70970,7 +71308,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 1224,
-        "like_count": 9032,
+        "like_count": 9030,
         "quote_count": 115,
         "reply_count": 21,
         "retweet_count": 1164
@@ -71004,7 +71342,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFQc4GFWIAArhOv.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFQc4GFWIAArhOv.jpg"
       ],
@@ -71057,7 +71395,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg"
       ],
@@ -71112,7 +71450,7 @@
         "https://pbs.twimg.com/media/HFTvmCOaUAEP8MM.jpg",
         "https://pbs.twimg.com/media/HFTvmCBa4AAmfDY.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFTvmCCaoAAwsGk.jpg",
         "https://pbs.twimg.com/media/HFTvmCCaYAAIoWs.jpg",
@@ -71191,7 +71529,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFT6oNWaQAAaZqo.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFT6oNWaQAAaZqo.jpg"
       ],
@@ -71244,7 +71582,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFTi13SbUAAbTY6.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFTi13SbUAAbTY6.jpg"
       ],
@@ -71297,7 +71635,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041155968067592192/img/SYbg7Ju68TnE6yS0.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041155968067592192/img/SYbg7Ju68TnE6yS0.jpg"
       ],
@@ -71350,7 +71688,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg"
       ],
@@ -71368,11 +71706,11 @@
         "https://x.com/yuichirohonda_/status/2041448397379407983/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 653,
+        "bookmark_count": 654,
         "like_count": 1376,
         "quote_count": 7,
         "reply_count": 0,
-        "retweet_count": 97
+        "retweet_count": 96
       },
       "referenced_tweets": [],
       "sources": [
@@ -71402,7 +71740,7 @@
         "https://pbs.twimg.com/media/HFOWmUzWoAEngDS.jpg",
         "https://pbs.twimg.com/media/HFOWmU0XoAAwJg8.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFOWmVPaoAA4qOu.jpg",
         "https://pbs.twimg.com/media/HFOWmU2WoAEovF_.jpg",
@@ -71451,7 +71789,7 @@
         "like_count": 441,
         "quote_count": 1,
         "reply_count": 25,
-        "retweet_count": 16
+        "retweet_count": 15
       },
       "referenced_tweets": [],
       "sources": [
@@ -71485,7 +71823,7 @@
         "https://pbs.twimg.com/media/HFNvm2lbsAASl2C.jpg",
         "https://pbs.twimg.com/media/HFNvm2jaEAA350w.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFNvm4xbgAABcIY.jpg",
         "https://pbs.twimg.com/media/HFNvm4xbwAADvwX.jpg",
@@ -71564,7 +71902,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFDkkKFWAAAWQRq.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFDkkKFWAAAWQRq.jpg"
       ],
@@ -71611,7 +71949,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2040331946254115278",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -71645,7 +71983,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2039715658641052063",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/sunbigfly/ppt-agent-skills",
         "https://github.com/mucsbr/ppt-agent-workflow-san",
@@ -71690,7 +72028,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HE61X-WbwAAvGlD.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HE61X-WbwAAvGlD.jpg"
       ],
@@ -71737,7 +72075,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2039920639012921618",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -71778,7 +72116,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2038905936161759232/img/e_zQ2S0KIErzrZJw.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://github.com/shitagaki-lab/see-through",
         "https://pbs.twimg.com/amplify_video_thumb/2038905936161759232/img/e_zQ2S0KIErzrZJw.jpg"
@@ -71831,7 +72169,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2038926578726621312",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -71877,7 +72215,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2039298177061511399",
       "image_urls": [],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://x.com/i/article/2011696119659855873",
         "https://theme-switch.pages.dev/",
@@ -71891,7 +72229,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 805,
-        "like_count": 489,
+        "like_count": 488,
         "quote_count": 14,
         "reply_count": 23,
         "retweet_count": 56
@@ -71921,7 +72259,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HExW9n_XkAEkViO.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HExW9n_XkAEkViO.jpg"
       ],
@@ -71939,11 +72277,11 @@
         "https://x.com/purelivn/status/2039183473257206265/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 538,
-        "like_count": 10081,
+        "bookmark_count": 537,
+        "like_count": 10079,
         "quote_count": 23,
         "reply_count": 21,
-        "retweet_count": 1288
+        "retweet_count": 1287
       },
       "referenced_tweets": [],
       "sources": [
@@ -71970,7 +72308,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HEuadCSawAAJeMA.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HEuadCSawAAJeMA.jpg"
       ],
@@ -71989,7 +72327,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 96,
-        "like_count": 1498,
+        "like_count": 1497,
         "quote_count": 2,
         "reply_count": 2,
         "retweet_count": 109
@@ -72019,7 +72357,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2039062688366555136/img/I7ctd-hmEBkh8oQZ.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2039062688366555136/img/I7ctd-hmEBkh8oQZ.jpg"
       ],
@@ -72038,10 +72376,10 @@
       ],
       "public_metrics": {
         "bookmark_count": 644,
-        "like_count": 8333,
+        "like_count": 8332,
         "quote_count": 3,
         "reply_count": 26,
-        "retweet_count": 1273
+        "retweet_count": 1271
       },
       "referenced_tweets": [],
       "sources": [
@@ -72071,7 +72409,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2038673499137404928/img/nvd2kAGT5E8hXTmU.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2038673499137404928/img/nvd2kAGT5E8hXTmU.jpg"
       ],
@@ -72123,7 +72461,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2039179494171512832/img/fByZ79CB9I5fF3I9.jpg"
       ],
-      "last_seen_at": "2026-06-14T01:36:58Z",
+      "last_seen_at": "2026-06-14T06:57:11Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2039179494171512832/img/fByZ79CB9I5fF3I9.jpg"
       ],
@@ -90984,9 +91322,9 @@
       "url": "https://x.com/driceroland/status/1976236175963848890"
     }
   ],
-  "recent_count": 663,
-  "recent_cutoff_at": "2026-05-15T01:38:08.443904Z",
+  "recent_count": 668,
+  "recent_cutoff_at": "2026-05-15T06:58:52.646393Z",
   "recent_window_days": 30,
   "schema_version": 1,
-  "updated_at": "2026-06-14T01:36:58Z"
+  "updated_at": "2026-06-14T06:57:11Z"
 }

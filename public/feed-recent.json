@@ -78,10 +78,6 @@
       "article_text_zh": "## 记忆API并非可行的产品类别，技能系统不过是Markdown\n\n我们一直在强调这一点。\n\n@sarahwooders 和 @hwchase17 上个月提出，记忆不是插件，而是\"harness\"（代理框架）。我也从另一个角度提出过同样的观点。在一篇获得170万浏览量的文章中，我们论证了技能不是静态文件——技能在动态环境中会无声地退化，它们需要一个循环：观察→检查→修正→评估。\n\n这两个论点本质上都在讨论同一个\"harness\"——世界模型。\n\n## 将技能与记忆视为同一个harness\n\n世界模型是代理所感知的一切，以及它用来预测下一步行动的依据。在代理harness中，它是一个涵盖所有接触对象的广泛状态：代码库结构、工具模式、文件系统、最近20轮对话以及用户偏好。世界模型是harness为决定下一步行动而加载的全部上下文聚合体。\n\n你可以将记忆视为广义的harness，而技能则是特定的一种。\n\n## 技能是记忆的子集吗？\n\n技能是记录\"如何做\"的部分。一个SKILL.md文件是一个过程层面的声明：\"要完成任务T，请执行步骤X、Y、Z。\"\n\n技能通过执行N个任务的实际能力来扩展记忆。技能是一种压缩后的过程——它表明\"世界过去曾通过执行X、Y、Z来产生T，未来很可能也会如此\"。记忆观察世界，而技能将其编码为规则。\n\n我们扩展了cognee，将技能和记忆存储在同一个存储中。自我改进运行时和代理检索器共享相同的图节点。\n\n## Cognee如何处理？\n\n`cognee.remember(\"skills/\")` 现在允许你一行代码即可导入技能。在Cognee内部，当技能发生变化时，SkillChangeEvent会发出记忆事件。技能是一个可演化、可追踪、可控制的记忆节点。\n\n技能通过读取其记忆来改进，记忆通过修改其附带的技能来改进。两者之间没有清晰的界限——因为本就不该有。\n\n我们最近组织了一场黑客马拉松，用户使用Cognee和Redis作为会话存储，在3小时内构建了21个LLM知识Wiki！他们之所以能做到，是因为管理技能非常容易。\n\n## 结论\n\n所有棋盘游戏之外的世界模型都永久性地存在规格偏差。harness的职责不是修正模式，而是在一个天生有缺陷的模式之上运行控制器。Cognee就是那个控制器，而技能自我改进只是第一步。\n\n无论你使用记忆API、技能还是agent md文件，甚至压缩策略，都属于同一套玩法。它们都是同一个世界模型。\n\n最终胜出的harness，从一开始就将记忆和技能视为一个统一的世界模型。\n\n依我之见，如果你的记忆系统无法路由技能，那它连记忆都算不上，更别提世界模型了。",
       "article_text_zh_hash": "f5fe3ffb8e2663bc",
       "id": "2055876832797581406"
-    },
-    {
-      "article_text": "本文仅作为个人 Blog，关于产品的正式文章与 showcase 将在后面几天逐步放出\nHello 各位，我是 Yeuoly，可能更熟悉我的另一个名字，Dify 的后端工程师周宇。\n今天不是很想聊 Dify，更想跟大家聊聊过去六个月我们一直以来都在思考的一些问题，我们一个小团队烧掉了数千亿 token，本应该更轻松，却在 Agent 元年变得越来越累的事情\n \n我们有这样一个观点：真正的增效，并不是用 Coding Agent 把一个人的判断力压榨到极限，反而应该是把富有创造力的人，浪费在事务性工作中的大量时间，释放出来，减轻他们的压力。\n而我们的目标只有一件事：不再让人成为传话筒。\n \n也许大家在一个月前看到过一篇长文：《三省六部幻觉》\n \n什么是三省六部式的 Agent？\n给不同的 Agent 以不同的角色设定：一只龙虾负责产品设计，另一只龙虾负责架构设计，再来一只负责测试，还有的负责运营，有的负责财务，现在大家管这个叫龙虾军团，于是我也去尝试了。\niOS 上架\n我让一个 Agent 专门去负责 iOS 上架，被苹果审核员打回审核的时候，他告诉我他已经完成了，关键是我根本不知道他完没完成，我还得检查，于是我的注意力又被劫持一次，这个 Agent 还需要抢工程 Agent 的注意力，导致它为了专门给苹果过审核，让工程 Agent 在代码里留了一个后门，我都不知道还有这么回事。\nUI/UX 设计\n我让另一个 Agent 专门去负责设计，我不想自己一个人去管 iOS Native / Web / Client 等好几个端的 UI / UX 设计，但 Agent 写的 UI 让我厌蠢，我也试过无数的 design skill，但也许是胃口被我们的 UI 设计师养刁了，我觉得这些 design skill 基本没什么用，GPT 就是喜欢写蓝紫色渐变，Claude 就是喜欢写左边有一撮小颜色的卡片。\n工程设计\nCodex 写了大量没有用的单元测试集成测试，留了大量的技术债务，导致 CI/CD 变慢，浪费时间，我想删掉，但到底删哪些？全部交给 Agent 自己判断？最后出了问题怎么处理？光是复现问题就需要半个小时以上，更是很难确认它的修复到底是给你打了个 mock 还是真的修复了。\n我觉得我失败了，或者说，我的注意力爆炸了，原因是我要一个人要在短时间内跑完原本几十个人上百个人所构建的流程，且对所有事负责，要对品质负责。\n于是我想看看有多少人和我一样的，我专门做了个 骂了么，发现大家骂 AI 都骂的不少。\n \n不仅有这些，还有财务合规、法务合规、运营策略、Slide 设计、易拉宝设计、官网设计、写 blog、写发布文章、想 GTM 策略，这里面有大量需要人投入精力才能做好的事情，且各个环节是环环相扣的，例如易拉宝的材料需要用官网的图片，文章里的表述要和运营策略吻合，Slide 的 UI 风格要和产品一致……\n如果不投入心思，那 Agent 只会给你一个大约六十分，有时候甚至三十分不到的成果，最后你会发现，好像去咸鱼找个人会更快更好，自己还没那么累。\n \n我考试能考 60 分，我觉得我至少不是一个不合格的人吧，但我处理不来这么多繁琐的事情。\nOpenAI 自己也说，2028 年目标才是实现 AI 自己研究自己，过去曾经说 2026。\nAnthropic 之前大火的项目，Claude 自己完成生产可用的 GCC ，可现在已经三个月没有动静了。\n所以我去看了看真实的人，在企业里究竟做着什么，AI 真的取代一切了吗？\n企业内的 SOP\n现在的企业都在做什么？\n我们看到了有的企业给全员配了没有使用上限的 Claude Code，让随便用，探索 AI 场景，员工拿到了 Claude Code 每个人都开始 Vibe 自己的系统，人人都是产品经理，人人都是工程师，可是企业内真的有这么多需要 Vibe Coding 的场景吗？\n于是我们看到了类似于这样的事情发生：\n \n我们以前工作大多数都是 SOP，而大部分企业内的 SOP，并不是一个人就能完成全部的，他们是围绕人的，这个过程中人的判断力非常重要，里面包含了大量人的品味，例如：宣传册字是不是太大了，蓝色是不是不够蓝，这么写的文章粉丝会不会喜欢。\n我们连精品店选什么品、文章用什么标题、视频用什么封面都要发起一个投票，让人选一选，现在却说 Agent 可以接管一切。\n于是每个人的 Claude Code 之间出现了壁垒，文件要通过 IM 复制黏贴，上下文有时候甚至是截图，还有的时候，我直接成了 Claude Code 的附庸，帮 Claude 做这做那，一整个大号的 Human in the loop。\n我越来越觉得，很多用户需要的东西，确实不完全是一个 Agent，更像是一个 Agentic Flow，但不是一个门槛极高，像代码的 Workflow，他们只关心：这玩意能帮我审发票吗？能帮我审合同吗？能帮我起草催款书吗？我们的 Agent 能一起操作同一个文件吗？\n我相信这些场景看起来并不怎么酷，也不怎么性感，对于做技术的朋友来说，这些也太简单不过了。\n可是我们公司的财务问了我这样的问题：她说她找了几乎市面上能找到的所有财务报销软件和 AI Workflow，没有一个能符合他的要求，她就是想要一个报销流程。\n那我问她，你的要求到底是什么？就两点：\nAI 预查一下报销合不合理，不合理的时候拒绝掉或者让对方补充材料，补充完以后继续提交\n流程能自动识别上级、财务、法务等职责，先让上级审一审合不合理，再到财务进行审批\n \n飞书没有 AI 审查，即便是 AI 审查，它也没法按照公司自己的规章制度进行审批，例如在一线城市的报销标准是多少，能不能坐商务舱，大于多少钱的时候需要额外的审批流程。\nAI Workflow 的产品里，根本不涉及多个人之间的协作。\n然后我接着问她，你直接把 Claude Code 接入到飞书流程里呢？飞书钉钉都开放了飞书 CLI，她告诉我这太繁琐了，她根本不愿意看到那个 TUI 黑框框，也不愿意去接那个飞书 Webhook API，她只能找外包帮忙做，做出来了也需要外包团队帮忙维护，Claude Code 写出来的代码她负不了责，出了问题她没法向老板交差。\n我并不认为她是一个什么很土的财务，她也是一个愿意积极拥抱 AI 的人，她的需求就因为看起来土，就应该被我们忽视吗？\n \n这不是个例，运营、法务等 back office 部门、工程和产品部门都有类似的 “多人 SOP” 的情况。\n我们可以看看下面这张图，红点，是使用 AI Coding 的人群，而没有使用过 AI 的人群，占到了整张图的 84%。\n解决这些涉及人与人的 SOP 自动化，降低人与人的摩擦，人与环境的摩擦，就是我们未来的目标，也是我们的愿景，也是我们的新产品：Syncless\n \n \n我不知道各位有没有被同事折磨过：\n同事用 AI 写长的要命的文档，让你读一下，实际上有用的也许只有其中的两句话，然后你把它复制粘贴到你的 Claude Code 或者 Codex 里，说出那一句 “帮我总结一下”\n售后同事给你转了一堆消息记录过来，看了以后你也摸不着头脑，例如，说产品性能不好，也不说哪里性能不好，什么标准的性能不好。\n产品同事丢过来一篇 PRD，要求你做可行性方案出来，你丢给 Codex，聊半天发现做不了，于是又转头告诉 PM，PM 一看，诶，不对啊，我的 Claude Code 说能做，好了，现在该你们吵一架了。\n运营同事给你发了一份文档，让你填一下，读一下，改一下，可能也许就是一个活动现场的安排，需要你填个东西，但你要先点进去，再找到填什么，再思考半天填什么。\n除了这些，应该还有更多协同上的阻塞点：确认 OKR / 提交一下发票 / 报关表单填错了打回来重改……\n极其宝贵的人的注意力，被浪费在了无数杂事的沟通与摩擦当中，而且他们高度重复，你一遍又一遍地处理着这些事情。\nSyncless\n所以 25 年末，我们决定做 Syncless，那个时候它有一个内部代号：Echo，看起来和 Dify、n8n、Coze 都很像，但它更关注人，关注人与人之间的 SOP 怎么自动化。\n \n首先是 Syncless 的第一个设计：Project 模板\n如上图所示，这是一个三个人协作的流程，从售后到产品到工程，而人与人的协作流程其实一般都是有隐性的模板的，例如，售后在反馈问题的时候应该提前说明客户的问题是在什么情况下发生的，问题看起来有什么特点，客户的画像是什么样的……\n对于传统的在线表单，CRM 之类的方案，Syncless 有很大的优势：\n所有这些信息，都可以通过自然语言的形式定义，不需要定义复杂级联表单、条件表单，不需要鼠标反复地点击新建问题。\nAgent 可以动态地根据用户反馈调整询问的内容，例如售后反馈的是 Bug 的时候，那么 Agent 应该强调怎么复现 Bug，如果反馈的是功能优化，那么 Agent 应该强调用户的原始需求和预期是什么。\n回到上文提到的财务流程，它也可以预先定义好，应该怎么查，例如在小于多少金额的时候，可以直接通过，在一线城市出差的标准是多少，二线城市是多少，能不能坐商务舱……\n还例如在物流行业，有一个路线规划的流程的场景，他们有一个专门的路线规划岗位，会处理例如非标大件（风车叶片等）怎么运输，一般是产品经理会把需要运什么的需求给到路线规划的同事，然后他们根据需求出具线路图，这个过程中也涉及大量的信息同步，例如你要运的是个什么，有多重，形状什么样的，有没有喜欢的路径，有没有特殊情况。\n过往我们都是通过填表，可是在发生意外情况的时候，例如产品需要修改重量，或者路线规划的同事反馈做不了，两个人要协调一下的时候，就得拉群了。\n产品设计 SOP\n我不知道大家有没有关注过 Codex 的产品团队是怎么设计产品的：https://openai.com/index/harness-engineering/\n他们提到，PM 的工作每天就是让 Codex 先处理繁杂的用户反馈，然后自己和 Codex 聊方案，聊设计，差不多了就把设计给到工程师，但同时，这一步 PM 也会先自己处理一些技术相关的问题，这些问题很多都是由工程师预设的，这更像是 PM 和工程师共同开发\n重要的是，PM 和 Codex 的聊天记录，上下文都给到了工程师，这极大减小了磨损。\n所以我们也借鉴了他们的思路，在 Syncless 的产品设计模板中，我们有三个节点：销售和产品、工程，这个画布定义了他们品应该如何协作，这里并不是 Agent 接管一切，每个 Node 的背后，都是人。\n例如我们在 Sales 中定义了提出一个需求的时候，应该注意一些什么，售后如果就说了句 “ Dify 性能太差了”，Agent 就会询问 “什么场景？什么指标？”，补充完成以后，流程才会进入下一个节点。\n \n接下来我们切换到产品视角，现在你作为产品经理，你接到了来自前线售后团队的问题，Agent 已经把自己和 Agent 已经聊完的上下文带了过来。\n \n大多数时候，Syncless 已经可以帮你挡住一层，Agent 已经提前和人沟通过了，但总有的时候会出现意外情况，例如就是缺了什么信息，Syncless 并没有一棒子打死式的硬限制，而是在能尽可能减少繁琐沟通的情况下，留出冗余。\n所以在这个 Demo 中，我作为产品，我非常想知道到底是个什么场景，没有具体的场景我很难和工程继续沟通，所以我选择询问销售，此时 Agent 会去询问销售，到底是什么场景，让销售进一步补充信息。\n \n回到销售的聊天框，就能看到 PM 发来了一条消息，说我需要更多的信息，我们此时只需要正常回复就好了，补充完信息，Agent 就会接着进入到下一步。\n财务报销 SOP\n上文我们提到了财务报销场景，在 Syncless 中是如何完成呢？\n \n我们定义了一个三节点，并告知了 Agent 不同城市的出差标准怎么样，餐标怎么样，并预定义了检查报销是否合理等操作。\n \n于是当有人提出报销的时候，Agent 就可以预查报销是否合理，在上图中，它就查出来了 526￥ 并不满足四个人的报销标准，并且它也不是简单的拒绝操作，而是它可以只报销 480￥，并通知报销人，只给你报了一部分，这一切都是自动的，但最后的决策决断，都是由人来完成。\n这大大省去了原来财务需要用肉眼去看发票，并仔细比对抬头对不对、金额对不对、企业名称对不对、时间对不对等一系列问题，有时候报销人就是拍了张 711，全家的发票，人肉眼去看是非常痛苦的。\n不过有的时候，报销流程会更加复杂， 例如，当金额超过 50000 的时候，需要引入 CXO 审批，不满足就不需要，或者有时候财务查出金额对不上，打回去让修改，修改以后发现，报销金额变少了，不需要 CXO 审批了，流程就又需要变动。\n这是一个完全动态的流程，Syncless 目前可以做到，但是目前完成这种极其复杂的流程有一定的难度，例如可以在协作模板里说明，当金额大于 300 时，需要另一位同事参与审批，此时 Syncless 会把这位同事加入流程。\n \n我们会持续为让它变得更简单努力，让搭建这种流程变得像喝水一样简单。\nSyncless 有什么不同？\n不同于群聊式的信息大杂烩的群聊， Syncless 更聚焦于 “上下游协同”，SOP 并不是一个 Agent 照着执行就可以包罗万象的东西，它往往串联了企业内无数团队的大脑，信息和各种制成品在一个流水线中按照企业自己的 SOP 流转。\n在过去，他们是无数的 CRM、OA、IM，我们见到了一个又一个 Workflow 系统，人在这个 Workflow 中充当螺丝钉，重复且机械地执行一个又一个 SOP。\n但多人的 SOP 是可以被完全取代的吗，我觉得这是一个关于 ROI 的故事，Anthropic 的 token 卖到天价，企业最后一看好像 token 比人还贵，陷入焦虑，不做 AI 死路一条，做了 AI ROI 死活跑不正，AI 还在稀释微薄的利润。\n而我们认为，真正的增效，并不是用 Coding Agent 把人的判断力压榨到极限，反而应该是把富有创造力的人释放出来，减轻他们的压力，把他们浪费在同步中的大量的时间释放出来，让他们真正有时间去思考怎么创造。\nAsana 认为 60% 的知识工作者的时间都花在了协调与追踪，微软的员工每天被打断 275 次，Grammarly 认为美企每年因为沟通低效损失了 1.2T$\n \n这些数字多多少少会有不精确，会有夸大的地方，但这个现象本身反映的是我们为 Sync / Align 这个概念付出的代价，现在大家都在着急把一切都换成 AI，换成龙虾，组件自己的龙虾军团，但我相信各位已经有了充分的体感，tokens 烧得更快，过不了两个月企业就开始限制 AI 使用。\n人与设备、Agent 与设备之间的壁垒\n不仅是人与人的同步存在壁垒，机器和机器的同步，平台与平台的同步，也存在壁垒，我们在 Reddit 上随便一搜，就能发现有太多的人有这个困扰：因为自己的发票涉及几十个不同的平台，要一个一个自己去拿真的麻烦得要死，而又不可能每个平台都有 MCP。\n老实说，我自己作为报销人，我不想自己去搜集乱七八糟的报销材料，我想要的是 Codex、Claude Code 能不能自己给我做了，因为我的 Email 里就有这些材料，我不想当翻译官、传话筒，把要 Agent 做个啥都写给 Agent，最后再把 Agent 的结果复制回来。\n这在今天已经是常态了，但我不喜欢，因此，Syncless 接入了多设备，你的浏览器、Macbook、服务器都可以接入 Syncless。\n \n而使用他们，可以直接通过 @，你既可以 @ 你的同事，也可以 @ 你的设备，还可以 @ Syncless 自己的云环境或者直接 @ skills。\n \n甚至能做这种事\n \n或者也可以让它直接去用你的浏览器做点什么\n \n浏览器已经有了你已经在各个平台登录的身份，Agent 有了它就可以代你做更多更。\n运维同事跟我说，自己有非常多不同的集群和机器需要控制，一个一个去不同的机器上敲命令实在太麻烦了，所以我们把所有这些外部接入都称作 Device，在未来，也许你的 Apple Watch 也可以接入 Syncless。\n像 iCloud 一样的 Skills\n同样，Syncless 也具备 Skills 能力，这是一个像 iCloud 的 skills，不管你在使用哪个设备，运行在哪里，它都永远为你在线。\n \nSyncless 的一位内测用户跟我们表达：“他很喜欢 Syncless 的 Skills 设计，在手机、电脑、浏览器、服务器上，Agent 都可以用到他的所有 skills，不用在不同设备上同步这些文件”。\n也只需要一句 “帮我把上面的流程保存为 skills”，Syncless 就会自己去记住这些可重复使用的流程，在下次使用的时候就可以绕开很多弯路。\n \n它不会自大到碰到个什么事情就建一个 Skill，碰到什么就记住，这会导致一个堆成山的 skills 列表，然后在下一次你做另外一个任务的时候告诉你，我找到了十几个相关的 skills，严重污染 Agent 宝贵的注意力和上下文。\n写在最后\n在 26 年年初，龙虾大量出现在了公众的视野中，我们看到了全民龙虾热，每个人都想往自己名字里放一只龙虾，我能看到大量的人说自己不用工作了，AI 可以帮自己完成一切。\n我们是一个五人不到的小团队，所以正好在这个时间点，我们也去尝试了这些很酷的 OPC、NPC 理念，最后发现我们被压到吃不消，AI 给我们带来的债务在很多时候远大于产出，我们在一遍又一遍地铲 AI 的代码，在一遍又一遍地改宣发材料，这让我们很累，而从 Syncless 终于终于运行起来的开始，我们的缺陷管理，产品管理，真的轻松了很多。\nSyncless 不是又一款要取代取代 Slack、Lark 等平台 的 AI 协作工具，也不是 Agent 协同模拟器，我们是希望帮人类处理掉事务性的工作，不要再因为一件又一件的小事浪费人类在这个时代宝贵的注意力。\n最后，Syncless 现在并不算非常成熟，希望我们成长的路上有你的加入，欢迎试用 https://syncless.ai ，也欢迎联系我们的团队：hello@syncless.ai\n或者加入我们的 Discord 社区：https://discord.gg/G6AbY5zgsP\n中文社区：",
-      "id": "2054922914458464754"
     }
   ],
   "linked_content_by_url": {
@@ -525,6 +521,21 @@
       "title": "Showcase of the best 2049 Animation Websites - landing.love",
       "url": "http://landing.love"
     },
+    "http://loops.elorm.xyz": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Copy closed-loop workflows for Cursor, Claude Code, and other coding agents. Self-pacing loops with feedback gates until the job is done.",
+      "final_url": "https://loops.elorm.xyz/",
+      "frameable": null,
+      "image_urls": [
+        "https://loops.elorm.xyz/image.png",
+        "https://loops.elorm.xyz/icon.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "loops! | Pre-built agent loops",
+      "url": "http://loops.elorm.xyz"
+    },
     "http://mobbin.com/?via=abraham": {
       "content_type": "text/html; charset=utf-8",
       "description": "Save hours of UI & UX research with our library of 600,000+ fully searchable mobile & web app screenshots.",
@@ -918,19 +929,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2053482765333540868"
-    },
-    "http://x.com/i/article/2053664790141358080": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2053664790141358080",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2053664790141358080/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIRve-ZasAAOc5k?format=jpg&name=900x900)](http://x.com/i/article/2053664790141358080/Yeuoly1/article/2054922914458464754/media/2054889907924152320)\n\n企业不需要三省六部制的 Agent 流程\n\n[![](https://pbs.twimg.com/profile_images/1248115335313555457/6pXp8yKs_normal.jpg)](http://x.com/i/article/2053664790141358080/Yeuoly1)\n\n[Yeuoly](http://x.com/i/article/2053664790141358080/Yeuoly1)\n\n[@Yeuoly1](http://x.com/i/article/2053664790141358080/Yeuoly1)\n\n·\n\nMay 14\n\n·\n\n7\n\n58\n\n217\n\n[66K](http://x.com/i/article/2053664790141358080/Yeuoly1/status/2054922914458464754/analytics)\n\n> 本文仅作为个人 Blog，关于产品的正式文章与 showcase 将在后面几天逐步放出\n\nHello 各位，我是 Yeuoly，可能更熟悉我的另一个名字，Dify 的后端工程师周宇。\n\n今天不是很想聊 Dify，更想跟大家聊聊过去六个月我们一直以来都在思考的一些问题，我们一个小团队烧掉了数千亿 token，本应该更轻松，却在 Agent 元年变得越来越累的事情\n\n[![Image](https://pbs.twimg.com/media/HIAVcelakAAGqmh?format=jpg&name=small)](http://x.com/i/article/2053664790141358080/Yeuoly1/article/2054922914458464754/media/2053665009071460352)\n\n我们有这样一个观点：真正的增效，并不是用 Coding Agent 把一个人的判断力压榨到极限，反而应该是把富有创造力的人，浪费在事务性工作中的大量时间，释放出来，减轻他们的压力。\n\n而我们的目标只有一件事：不再让人成为传话筒。\n\n也许大家在一个月前看到过一篇长文：《三省六部幻觉》\n\n[![](https://pbs.twimg.com/profile_images/1980203192643125248/emG7LMcm_normal.jpg)](http://x.com/i/article/2053664790141358080/sujingshen)\n\nSagaSu\n\n@sujingshen\n\n·\n\n[Apr 14](http://x.com/i/article/2053664790141358080/sujingshen/status/2043898494818410731)\n\n![Article cover image](https://pbs.twimg.com/media/HF1iD81asAAEzWJ?format=jpg&name=small)\n\n Article\n\n三省六部幻觉：为什么\"虚拟公司\"式多Agent架构在工程上不成立\n\n一个在AI社区广泛流传的架构思路，正在让大量团队走弯路。 先说结论 如果你正在考虑把多个AI Agent分别命名为\"产品经理\"、\"架构师\"、\"测试工程师\"，让它们像公司部门一样传递文档、协作完成任务——请停下来。...\n\n119\n\n414\n\n1.6K\n\n[440K](http://x.com/i/article/2053664790141358080/sujingshen/status/2043898494818410731/analytics)\n\n什么是三省六部式的 Agent？\n\n给不同的 Agent 以不同的角色设定：一只龙虾负责产品设计，另一只龙虾负责架构设计，再来一只负责测试，还有的负责运营，有的负责财务，现在大家管这个叫龙虾军团，于是我也去尝试了。\n\n## \n\niOS 上架\n\n我让一个 Agent 专门去负责 iOS 上架，被苹果审核员打回审核的时候，他告诉我他已经完成了，关键是我根本不知道他完没完成，我还得检查，于是我的注意力又被劫持一次，这个 Agent 还需要抢工程 Agent 的注意力，导致它为了专门给苹果过审核，让工程 Agent 在代码里留了一个后门，我都不知道还有这么回事。\n\n## \n\nUI/UX 设计\n\n我让另一个 Agent 专门去负责设计，我不想自己一个人去管 iOS Native / Web / Client 等好几个端的 UI / UX 设计，但 Agent 写的 UI 让我厌蠢，我也试过无数的 design skill，但也许是胃口被我们的 UI 设计师养刁了，我觉得这些 design skill 基本没什么用，GPT 就是喜欢写蓝紫色渐变，Claude 就是喜欢写左边有一撮小颜色的卡片。\n\n## \n\n工程设计\n\nCodex 写了大量没有用的单元测试集成测试，留了大量的技术债务，导致 CI/CD 变慢，浪费时间，我想删掉，但到底删哪些？全部交给 Agent 自己判断？最后出了问题怎么处理？光是复现问题就需要半个小时以上，更是很难确认它的修复到底是给你打了个 mock 还是真的修复了。\n\n我觉得我失败了，或者说，我的注意力爆炸了，原因是我要一个人要在短时间内跑完原本几十个人上百个人所构建的流程，且对所有事负责，要对品质负责。\n\n于是我想看看有多少人和我一样的，我专门做了个 \n\n[骂了么](https://leaderboard.sbai.uk/)\n\n，发现大家骂 AI 都骂的不少。\n\n[![Image](https://pbs.twimg.com/media/HIAV4c2aIAAyqHI?format=jpg&name=small)](http://x.com/i/article/2053664790141358080/Yeuoly1/article/2054922914458464754/media/2053665489642201088)\n\n不仅有这些，还有财务合规、法务合规、运营策略、Slide 设计、易拉宝设计、官网设计、写 blog、写发布文章、想 GTM 策略，这里面有大量需要人投入精力才能做好的事情，且各个环节是环环相扣的，例如易拉宝的材料需要用官网的图片，文章里的表述要和运营策略吻合，Slide 的 UI 风格要和产品一致……\n\n如果不投入心思，那 Agent 只会给你一个大约六十分，有时候甚至三十分不到的成果，最后你会发现，好像去咸鱼找个人会更快更好，自己还没那么累。\n\n[![Image](https://pbs.twimg.com/media/HIAWAd4a0AAfN6G?format=jpg&name=small)](http://x.com/i/article/2053664790141358080/Yeuoly1/article/2054922914458464754/media/2053665627358023680)\n\n我考试能考 60 分，我觉得我至少不是一个不合格的人吧，但我处理不来这么多繁琐的事情。\n\nOpenAI 自己也说，\n\n[2028 年目标才是实现 AI 自己研究自己](https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-roadmap-revealed-ai-research-interns-by-2026-full-blown-agi-researchers-by-2028?utm%5Fsource=chatgpt.com)\n\n，过去曾经说 2026。\n\nAnthropic 之前大火的项目，Claude 自己完成\n\n[生产可用的 GCC](https://github.com/anthropics/claudes-c-compiler)\n\n ，可现在已经三个月没有动静了。\n\n所以我去看了看真实的人，在企业里究竟做着什么，AI 真的取代一切了吗？\n\n## \n\n企业内的 SOP\n\n现在的企业都在做什么？\n\n我们看到了有的企业给全员配了没有使用上限的 Claude Code，让随便用，探索 AI 场景，员工拿到了 Claude Code 每个人都开始 Vibe 自己的系统，人人都是产品经理，人人都是工程师，可是企业内真的有这么多需要 Vibe Coding 的场景吗？\n\n于是我们看到了类似于这样的事情发生：\n\n[![Image](https://pbs.twimg.com/media/HILRyXaagAA6Eac?format=jpg&name=small)](http://x.com/i/article/2053664790141358080/Yeuoly1/",
-      "title": "",
-      "url": "http://x.com/i/article/2053664790141358080"
     },
     "http://x.com/i/article/2053986800050524160": {
       "cleaner_v": 2,
@@ -5205,6 +5203,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065547821441265664"
     },
+    "http://x.com/i/article/2065576448803418112": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065576448803418112",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKprdcDWsAA9WMW?format=jpg&name=900x900)](http://x.com/eng%5Fkhairallah1/article/2065721530546373016/media/2065581532593434624)\n\nHow to Actually Build Your First AI Agent Using Claude (Full Course)\n\n[![](https://pbs.twimg.com/profile_images/1888357542004162560/5D-YlH5e_normal.jpg)](http://x.com/eng%5Fkhairallah1)\n\n[Khairallah AL-Awady](http://x.com/eng%5Fkhairallah1)\n\n[@eng\\_khairallah1](http://x.com/eng%5Fkhairallah1)\n\n·\n\n21h\n\nFollow\n\nClick to Follow eng\\_khairallah1\n\n17\n\n24\n\n114\n\n[137K](http://x.com/eng%5Fkhairallah1/status/2065721530546373016/analytics)\n\nEveryone is talking about AI agents.\n\nSave this :)\n\nAI agents that research for you. AI agents that write for you. AI agents that manage your inbox, update your spreadsheets, compile your reports, and execute entire workflows while you are asleep.\n\nIt sounds incredible. It also sounds impossible if you are not technical.\n\nIt is not impossible. I am going to prove it.\n\nBy the end of this article you will have built a working AI agent that runs a complete task from start to finish without you touching anything. No coding required. No API keys. No terminal commands. Just Claude, clear instructions, and about 30 minutes of your time.\n\nThis is the simplest path to your first agent. If you follow every step, you will have one running today.\n\n## \n\nWhat Is an AI Agent (In Normal Words)\n\nForget every technical definition you have read.\n\nAn AI agent is Claude doing multiple steps automatically instead of you doing them one at a time.\n\nWhen you use Claude normally, the workflow looks like this:\n\nYou ask Claude to research a topic. You read the result. You ask Claude to write an outline. You review it. You ask Claude to write the article. You edit it. You ask Claude to format it. You copy it out.\n\nThat is four separate steps. Each one requires you to read, approve, and issue the next instruction manually.\n\nAn agent does all four steps in sequence automatically. You say \"research this topic, create an outline, write a full article, and format it for publishing.\" Claude executes all four steps, one after another, and presents the finished result.\n\nThat is the entire difference. A chatbot does one thing and waits. An agent does a sequence of things and delivers a finished output.\n\n## \n\nThe 3 Types of Agents You Can Build Without Code\n\nYou do not need the API. You do not need the Agent SDK. You do not need to write a single line of code.\n\nYou can build three types of agents using only Claude's existing tools:\n\nType 1: Chat Agent (Claude Projects)\n\nA Claude Project with a system prompt that defines a multi-step workflow. When you give it a task, it executes the full workflow automatically because the system prompt tells it exactly what sequence to follow.\n\nType 2: File Agent (Claude Cowork)\n\nA Cowork task that processes files on your computer. It reads a folder, processes each file, creates outputs, and organizes everything. All from a single instruction.\n\nType 3: Scheduled Agent (Cowork + /schedule)\n\nA Cowork task that runs automatically on a schedule. Your agent wakes up at 7am, checks your email, summarizes the important ones, and saves a briefing to your desktop. No input from you required.\n\nWe are going to build all three. Starting with the simplest.\n\n## \n\nBuild 1: The Research-to-Article Agent (15 Minutes)\n\nThis is a Chat Agent that takes a topic and produces a finished article. One input, one output.\n\nStep 1: Create a new Claude Project\n\nOpen Claude. Click Projects. Click \"Create Project.\" Name it \"Article Agent.\"\n\nStep 2: Write the system prompt\n\nPaste this into the project's system prompt:\n\nYou are an autonomous article production agent. When the user gives you a topic, you execute the following workflow automatically without stopping for approval between steps: STEP 1 - RESEARCH Search the web for the latest information on this",
+      "title": "",
+      "url": "http://x.com/i/article/2065576448803418112"
+    },
     "http://x.com/i/article/2065613433601695744": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5234,6 +5245,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065615613813288962"
     },
+    "http://x.com/i/article/2065704344373043200": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065704344373043200",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKrbRL1XQAActkB?format=jpg&name=900x900)](http://x.com/theCharafeddine/article/2065704820288188889/media/2065704467383664640)\n\n#87 - You Don't Need the Best Model.\n\n[![](https://pbs.twimg.com/profile_images/2061436690862837760/OyiDCmkQ_normal.jpg)](http://x.com/theCharafeddine)\n\n[Charafeddine Mouzouni](http://x.com/theCharafeddine)\n\n[@theCharafeddine](http://x.com/theCharafeddine)\n\n·\n\n23h\n\nFollow\n\nClick to Follow theCharafeddine\n\n1\n\n17\n\n31\n\n[3.7K](http://x.com/theCharafeddine/status/2065704820288188889/analytics)\n\nYou've been paying frontier prices to win cases your business doesn't have.\n\nThe AI OS\n\n[Read the online version here](https://www.charafeddine.co/letters/you-don-t-need-the-best-model)\n\n⎯⎯\n\nA quick note before today's letter.\n\nAfter two years, How to Think with AI is live on Amazon this morning.\n\nEveryone has the same AI tools. Some produce genius. Most produce gorgeous garbage. The difference is the human operating the machine.\n\nThis book is about that difference.\n\nThis is not a tool tutorial, nor a hype book. It’s a thinking book. For ambitious professionals who sense they're getting average work out of AI, and want to know why.\n\nIf you've felt the gap between your AI use and someone else's, this book closes it.\n\nOther platforms are coming shortly. I'll share the full landing page with all the links as soon as it's ready. For now, if you're on Kindle, you can grab it \n\n[here](https://books2read.com/u/388yBw)\n\n.\n\nThanks for being here while I built this. Now to today's letter.\n\n⎯⎯\n\nSofia forwarded me her cloud bill on a Tuesday. The subject line was: \"we need to talk.\"\n\n$47,000 for the month. Five engineers on the team. Most of it: API tokens.\n\nShe runs ops at a Series B startup. Last year, the same team's AI bill was $4,200 a month. Same people. Same product. Same outcomes. Eleven times the spend.\n\nI asked her what changed.\n\n\"We switched to the latest model. We're using agents now. Everything is reasoning.\"\n\nI told her she didn't have an AI problem. She had a Chaser problem.\n\n⎯\n\nThere's a category of professionals emerging since 2023 that I've started calling the AI Chaser.\n\nYou probably are one. So are most of your peers. So was I, months ago.\n\nThe Chaser defaults to whatever model is topping the leaderboard. The Chaser pays the metered API rate on every prompt, every token, every chain-of-thought trace, no matter how trivial the task. The Chaser switches the moment a new benchmark king is crowned, gets briefly impressed, then forgets. The Chaser's bill is, by architectural design, uncapped.\n\nThe Owner thinks differently. The Owner asks one question:\n\nWhat's the cheapest model that's good enough for this specific task, hosted in a way I control, with a fixed monthly ceiling I can defend in a board meeting?\n\nThis letter is how to stop being one and start being the other.\n\n## \n\nThe Token Tax\n\nSofia's bill didn't go from $4K to $47K because her team did eleven times more work. They did slightly more work, on a more expensive model, in a more expensive way. Three things compounded into a tax most teams are paying without noticing.\n\n1\\. Latest-model premium. Frontier models cost roughly 10–30x more per token than the model one generation back. The benchmark gains are real and modest. The pricing differential is real and not modest.\n\n2\\. Agentic loops. Agents don't make one call. They make a chain. Sometimes hundreds. An agent that \"reasons\" before it acts spends most of its tokens on the reasoning step, not on the answer. A simple classification used to cost one API call. The agentic version costs eight to fifty.\n\n3\\. Reasoning models. The current generation of \"thinking\" models bills you for the chain of thought, the internal monologue the model produces before it gives an answer. You don't see most of it. You pay for all of it. Reasoning trace tokens are billed a",
+      "title": "",
+      "url": "http://x.com/i/article/2065704344373043200"
+    },
     "http://x.com/i/article/2065876120965111808": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5250,6 +5274,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065876120965111808"
     },
+    "http://x.com/i/article/2065923035916361728": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065923035916361728",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKvNV5wXQAAHAuV?format=jpg&name=900x900)](http://x.com/neil%5Fxbt/article/2065971076673253462/media/2065970630244122624)\n\nHow to Build a Personal Knowledge Agent With Hermes and Claude That Connects Everything You Learn.\n\n[![](https://pbs.twimg.com/profile_images/2060131227756072962/s8DV8v8L_normal.jpg)](http://x.com/neil%5Fxbt)\n\n[NeilXbt](http://x.com/neil%5Fxbt)\n\n[@neil\\_xbt](http://x.com/neil%5Fxbt)\n\n·\n\n5h\n\nFollow\n\nClick to Follow neil\\_xbt\n\n13\n\n14\n\n67\n\n[5.3K](http://x.com/neil%5Fxbt/status/2065971076673253462/analytics)\n\nEverything you learn is disappearing.\n\nThe article you read last Tuesday that changed how you think about your work. \n\nThe insight from a podcast three weeks ago that connected two ideas you had been holding separately. The solution to a problem you solved in a conversation last month and will have to solve again because you do not remember how you got there. The book you finished that felt important while you were reading it and is now a vague impression of having read something good.\n\nThis is not a memory failure. It is an architectural failure. \n\nHuman memory was never designed to retain the volume of information a modern knowledge worker processes, and no amount of discipline fixes the underlying problem. The notes app you abandoned, the highlighting you never review, the bookmarks folder with four hundred links you will never open again, these are all attempts to solve an architecture problem with willpower. Willpower loses.\n\nThe reason previous attempts failed is that they all required you to be the connection-maker. You read something, and then you had to decide where it filed, what it related to, and how to find it later. That decision, made hundreds of times a week at the exact moment you are busy with something else, is the point where every personal knowledge system collapses.\n\nA personal knowledge agent removes the human from the connection-making. You feed it what you learn. It stores everything permanently, searches across everything you have ever told it, finds the connections between new information and everything already there, and surfaces relevant knowledge when you need it without you remembering it exists.\n\nThe combination that makes this possible in 2026 is Hermes Agent for the persistent memory and Claude for the reasoning. Hermes remembers everything across every session, indefinitely. Claude builds the connections and produces the synthesis. Together, they create a knowledge system that compounds across months instead of evaporating after each conversation.\n\nThis article is the complete build.\n\n## \n\nWhy This Was Impossible Until Recently\n\nThe personal knowledge agent has been the obvious idea for years and impossible to build well for a specific technical reason: agents forgot everything between sessions.\n\nEvery standard AI assistant operates with no memory across conversations. You explain something in one session, and the next session starts from zero. For a knowledge system, this is fatal. The entire value of a knowledge base is that it accumulates. An assistant that forgets everything cannot accumulate anything. It can answer a question about what you tell it right now, but it cannot connect what you tell it today to what you told it last month, because last month does not exist for it.\n\nHermes Agent changed this by building memory in as the core architecture rather than bolting it on as a feature. Hermes runs a three-tier memory system that most agents do not have.\n\nPrompt memory loads your personal notes and preferences into the system prompt at the start of every session, so the agent begins each conversation already knowing the persistent facts about you and your work. Episodic memory is a full searchable archive of every past conversation, built so the agent can search across all previous sessions and recall anything yo",
+      "title": "",
+      "url": "http://x.com/i/article/2065923035916361728"
+    },
     "http://x.com/i/article/2065931244534415360": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5265,6 +5302,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2065931244534415360"
+    },
+    "http://x.com/i/article/2065949506525450240": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065949506525450240",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKu8hR9XQAEarGr?format=jpg&name=900x900)](http://x.com/TheTuringPost/article/2065952175956619385/media/2065952134021988353)\n\n#6: The Flywheel: What Happens When Workflows Run Themselves\n\n[![](https://pbs.twimg.com/profile_images/2052479476605333508/_-CG4lvC_normal.jpg)](http://x.com/TheTuringPost)\n\n[Turing Post](http://x.com/TheTuringPost)\n\n[@TheTuringPost](http://x.com/TheTuringPost)\n\n·\n\n6h\n\nFollow\n\nClick to Follow TheTuringPost\n\n5\n\n23\n\n[1.5K](http://x.com/TheTuringPost/status/2065952175956619385/analytics)\n\nAI flywheels are closed-loop workflows that generate, measure, and decide what to try next. Here’s why verification must come before autonomy\n\nA closed loop is a workflow that feeds itself: the output of one run becomes the input of the next, with no human in between. Link several of these together and point them at a goal, and you have a flywheel – a system that generates, measures its own results, and decides what to try next without waiting for you. Coding agents already work this way. AI research labs are building their entire operation this way. This episode is about what happens when the flywheel starts spinning inside ordinary organizations, how it affects humans – and why the infrastructure to absorb it does not exist yet.\n\n## \n\nThe ladder: pipeline, workflow, flywheel\n\nIn \n\n[Episode #5](https://www.turingpost.com/p/there-are-no-ai-native-enterprises-1)\n\n we drew a line between two things. A pipeline is a fixed sequence of steps – a cron job, a script, plumbing. Whatever branching it has is logical and mechanical, it does nothing based upon what we'd call human judgment. A workflow is a repeating sequence of decisions and actions with points along the way where a human exercises judgment. Strip the judgment out and a workflow collapses back into a pipeline. We ended on an observation that as a workflow matures, the human migrates from the middle to the edges. They set the parameters at the start and review the exceptions at the end. The middle belongs to the agent.\n\nImagine now that your organization has many workflows, each one having absorbed a slice of human judgment. What's the next level? What happens when you link them together, point them at a goal, and let them run?\n\nThat linked, goal-seeking system is a flywheel. It is a collection of workflows wired so the output of one becomes the input of the next, turning continuously toward an objective you defined once. A closed loop is the smallest flywheel – one workflow feeding itself. Link several and the flywheel gets bigger, but the machine is the same, so we'll use loop and flywheel interchangeably from here.\n\nBut what separates a flywheel from a pipeline? A pipeline repeats; a flywheel steers. And the steering wheel is measurement. The system acts, measures the result of its own action, and uses that measurement to decide the next action. Also, a flywheel has three beats, not one: generate, measure, decide what to try next – then generate again.\n\nThere are two ways to close that loop: one right and one wrong.\n\nThe first is to remove the human checkpoint and hope. This is how most \"we deployed autonomous agents\" stories begin, and how most of the embarrassing ones end. This is the wrong way.\n\nThe second is to replace the human checkpoint with a verifier – something that can tell a good output from a bad one without a person reading it. A test suite. A schema validation. A reconciliation against known totals. A performance metric. The human judgment does not disappear; it gets encoded once, into the verifier, instead of being exercised by hand on every run.\n\nThat distinction is the whole episode. Loops do not close because someone decides to trust the model. They close where verification has been made cheap, fast, and objective. Everywhere else, the human stays.\n\nAnd notice where the human goes. A workflow",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2065949506525450240"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -5693,6 +5744,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How OpenAI Built Its Data Agent - ByteByteGo Newsletter",
       "url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
+    },
+    "https://blog.gitbutler.com/true-grit?_x_tr_hist=true": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We used agents to port all of Git to library-first, memory-safe Rust and it passes the entire C Git test suite.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.gitbutler.com/true-grit?_x_tr_hist=true",
+      "frameable": null,
+      "image_urls": [
+        "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/grit.webp",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fgitbutler-docs-images-public.s3.us-east-1.amazonaws.com%2Fgrit.webp&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2FCleanShot%25202026-06-09%2520at%252018.01.02%25402x.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2FCleanShot%25202026-06-08%2520at%252021.17.01%25402x.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2FCleanShot%25202026-06-03%2520at%252015.06.40%25402x.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2FCleanShot%25202026-06-03%2520at%252015.10.25%25402x.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2FCleanShot%25202026-06-03%2520at%252015.58.47%25402x.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=https%3A%2F%2Fd2m1ukvwmu7gz4.cloudfront.net%2Fdynamic-workflow.png&w=3840&q=75",
+        "https://blog.gitbutler.com/_next/image?url=%2Fprofiles%2Fschacon.jpg&w=256&q=75",
+        "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/agentic-safety.webp",
+        "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/17-series-a.webp",
+        "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/the-great-css-expansion.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "A few months ago I read about Anthropic's experiment of releasing a swarm of agents to [write a functioning C compiler](https://www.anthropic.com/engineering/building-c-compiler) and it made me wonder about the feasibility of using that same approach to accomplish something I've been dreaming about [for 15 years now](https://github.com/libgit2/libgit2/commit/4b7483a285024937df9623c3543390e717e2338a), not long after we started GitHub - rewrite Git from scratch to be library based.\nGit is of course a very complex piece of software. There are lots of \"[plumbing](https://git-scm.com/docs/git#_low_level_commands_plumbing)\" commands, lots of [higher level](https://git-scm.com/docs/git#_high_level_commands_porcelain) commands - it was put together incrementally by thousands of people over the last 20 years for projects large and small. It was never based on a linkable and reentrant library, but instead on a \"Unix\" philosophy of chaining together simpler commands, which means that it's difficult to use it in long running processes without fork/exec overhead for everything.\nHowever, interestingly, there is a very comprehensive test suite of over 42,000 tests in more than 1,400 scripts in the Git project that define pretty solidly how everything should and should not work.\nWhat if we used the same basic idea that Anthropic used on their from-scratch C compiler? Start a brand new implementation, design it as a Rust library, then throw a swarm of agents at the problem and just keep pounding away at it until all the tests pass?\nWell, I did that for the last few months, on and off, and the result is [Grit](https://github.com/schacon/grit), a from-scratch, library-based, memory-safe, idiomatic Rust reimplentation of Git that passes over 99% of the entire Git test suite.\nThe new Grit project website \nAchtung! While Grit passes the tests, it's not tested. Nobody has used\nthis for anything real yet. If you play with it, be warned that there is a\nhigh probability currently that it will do the wrong thing and may even\ncorrupt stuff. Use at your own risk. But if you find something, [let us\nknow](https://github.com/gitbutlerapp/grit/issues) so we can fix it.\nWhy would anyone do this?\nUnlike the Anthropic experiment, this wasn't just to see if it could be done. When we started, I figured that if it worked, we might have something actually pretty useful in ways that C Git is problematic. But we'll get to that in a minute.\nWhat was I trying to get out of this?\nWhat I didn't want was a pure port of C Git in Rust. In fact, the more I dug into this, I'm not even sure I should have replicated every decision that has ever been made in Git, but that's something we can work on now that the original goal is accomplished.\nWhat I did want was a pure-Rust core library that can faithfully interact with Git repositories, canonically. Reentrant, linkable, modular and comprehensive. Then as a way to ensure the comprehensiveness, an independent crate implementing a CLI surface that uses that library in order to pass as much of the Git test suite as possible.\nThis is what we've done.\nIs it perfect?\nWell, no, but it is interesting and arguably already useful.\nFirst, some caveats.\nIt's not actually passing every single test, though that is on purpose. I did mark some parts of the testing suite as \"skipped\" because I don't think it's worth recreating them in a library like this - email related stuff, i18n, perforce/svn importers, some of the midx/bitmap stuff - things of that nature. However, for everything that I'm sure is relevant to nearly anyone reading this, the Grit library/CLI can now fully pass the Git test suite.\nDoes this mean that it's perfect? Nah. It's still pretty slow (in some cases exponentially), there are some untested things that it can't do, the API isn't super clean, there is no Windows build, etc. This is the first milestone of a first pass.\nHowever, it's a pretty interesting starting point for a few months and a few billion tokens worth of work.\nSh",
+      "title": "Grit: rewriting Git in Rust with agents | Butler's Log",
+      "url": "https://blog.gitbutler.com/true-grit?_x_tr_hist=true"
     },
     "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar": {
       "cleaner_v": 2,
@@ -6278,19 +6355,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
-    },
-    "https://discord.gg/G6AbY5zgsP": {
-      "content_type": "text/html",
-      "description": "来 Discord Syncless 社区瞧瞧——结交近 36 名成员，畅享免费语音与文字聊天。",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://discord.com/invite/G6AbY5zgsP",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "加入 Discord 服务器 Syncless！ Syncless",
-      "url": "https://discord.gg/G6AbY5zgsP"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -8299,31 +8363,6 @@
       "title": "",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow/"
     },
-    "https://openai.com/index/harness-engineering/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "By Ryan Lopopolo, Member of the Technical Staff",
-      "extraction_source": "trafilatura",
-      "final_url": "https://openai.com/index/harness-engineering/",
-      "frameable": false,
-      "image_urls": [
-        "https://images.ctfassets.net/kftzwdyauwt9/2TjayW57xam6dBbbV28sae/887861e21b8d205c2c392ec5315d3681/SEO.png?w=1600&h=900&fit=fill",
-        "https://images.ctfassets.net/kftzwdyauwt9/1Gu58eNlqDEuITmbqJDmq9/1e2e62f7e15fb16d2da0da5407240564/fig_1__codex_drives_the_app_.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/4Xr18TZ5G4Bh8zIgsTFIVK/f7ae689ddd8c31664e39d809b0973425/OAI_Harness_engineering_Giving_Codex_a_full_observability_stack_desktop-light__1_.svg?w=3840&q=90",
-        "https://images.ctfassets.net/kftzwdyauwt9/7uWHsJIC6o3uQPsnQ2Avz9/8be3e321892054bd215afb2b250a176a/OAI_Harness_engineering_The_limits_of_agent_knowledge_desktop-light.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/4Rlip1H3T9apPlSmWs7Wr8/7708c176bfbe11951e06ad8e2b83bf01/OAI_Harness_engineering_Layered_domain_architecture_with_explicit_cross-cutting_boundries_desktop-light.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/IRqiqOUeNlFne8NPTbELM/9ab024f4581e7065eaf42aa18d14b724/Art_Card.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/3ZT7WZXrDjX1tFlLjcTPXp/07d42ee6cc762208896f09c385853359/Voice_AI__art_card.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/4p40cWGcpyi6xRY3U4advn/d977f47ed621f80de31c931b0b8223f0/Symphony_art_card__1_.png?w=3840&q=90&fm=webp"
-      ],
-      "kind": "article",
-      "text_excerpt": "Harness engineering: leveraging Codex in an agent-first world\nBy Ryan Lopopolo, Member of the Technical Staff\nOver the past five months, our team has been running an experiment: building and shipping an internal beta of a software product with 0 lines of manually-written code.\nThe product has internal daily users and external alpha testers. It ships, deploys, breaks, and gets fixed. What’s different is that every line of code—application logic, tests, CI configuration, documentation, observability, and internal tooling—has been written by Codex. We estimate that we built this in about 1/10th the time it would have taken to write the code by hand.\nHumans steer. Agents execute.\nWe intentionally chose this constraint so we would build what was necessary to increase engineering velocity by orders of magnitude. We had weeks to ship what ended up being a million lines of code. To do that, we needed to understand what changes when a software engineering team’s primary job is no longer to write code, but to design environments, specify intent, and build feedback loops that allow Codex agents to do reliable work.\nThis post is about what we learned by building a brand new product with a team of agents—what broke, what compounded, and how to maximize our one truly scarce resource: human time and attention.\nThe first commit to an empty repository landed in late August 2025.\nThe initial scaffold—repository structure, CI configuration, formatting rules, package manager setup, and application framework—was generated by Codex CLI using GPT‑5, guided by a small set of existing templates. Even the initial AGENTS.md file that directs agents how to work in the repository was itself written by Codex.\nThere was no pre-existing human-written code to anchor the system. From the beginning, the repository was shaped by the agent.\nFive months later, the repository contains on the order of a million lines of code across application logic, infrastructure, tooling, documentation, and internal developer utilities. Over that period, roughly 1,500 pull requests have been opened and merged with a small team of just three engineers driving Codex. This translates to an average throughput of 3.5 PRs per engineer per day, and surprisingly the throughput has increased as the team has grown to now seven engineers. Importantly, this wasn’t output for output’s sake: the product has been used by hundreds of users internally, including daily internal power users.\nThroughout the development process, humans never directly contributed any code. This became a core philosophy for the team: no manually-written code.\nThe lack of hands-on human coding introduced a different kind of engineering work, focused on systems, scaffolding, and leverage.\nEarly progress was slower than we expected, not because Codex was incapable, but because the environment was underspecified. The agent lacked the tools, abstractions, and internal structure required to make progress toward high-level goals. The primary job of our engineering team became enabling the agents to do useful work.\nIn practice, this meant working depth-first: breaking down larger goals into smaller building blocks (design, code, review, test, etc), prompting the agent to construct those blocks, and using them to unlock more complex tasks. When something failed, the fix was almost never “try harder.” Because the only way to make progress was to get Codex to do the work, human engineers always stepped into the task and asked: “what capability is missing, and how do we make it both legible and enforceable for the agent?”\nHumans interact with the system almost entirely through prompts: an engineer describes a task, runs the agent, and allows it to open a pull request. To drive a PR to completion, we instruct Codex to review its own changes locally, request additional specific agent reviews both locally and in the cloud, respond to any human or agent given feedback, and iterate in a loop until all agent reviewers are satisfied (eff",
-      "text_excerpt_zh": "# Harness 工程：在 Agent 优先的世界中运用 Codex\n\n作者：Ryan Lopopolo，技术团队成员\n\n过去五个月，我们的团队一直在进行一项实验：构建并交付一个软件产品的内部测试版，其中**零行代码**由人工编写。\n\n该产品拥有内部日常用户和外部 Alpha 测试者。它可以发布、部署、出故障，也能被修复。不同之处在于，每一行代码——应用逻辑、测试、CI 配置、文档、可观测性以及内部工具——都由 Codex 编写。我们估计，构建这个产品所花费的时间大约只有手工编写代码所需时间的 **1/10**。\n\n**人类掌舵，Agent 执行。**\n\n我们有意选择了这一约束条件，以便构建出将工程效率提升数个数量级所必需的一切。我们只有几周时间，却交付了最终达到百万行代码的产品。要做到这一点，我们需要理解：当软件工程团队的主要工作不再是编写代码，而是设计环境、明确意图、构建反馈循环，让 Codex Agent 能够可靠工作时，会发生怎样的变化。\n\n这篇文章讲述了我们通过一个 Agent 团队构建全新产品所学到的东西——哪些环节出了问题，哪些环节产生了复利效应，以及如何最大化我们唯一真正稀缺的资源：**人的时间和注意力**。\n\n对一个空仓库的首次提交发生在 2025 年 8 月下旬。\n\n初始脚手架——仓库结构、CI 配置、格式化规则、包管理器设置以及应用框架——由 Codex CLI 使用 GPT‑5 生成，并辅以少量现有模板。甚至指导 Agent 如何在仓库中工作的初始 `AGENTS.md` 文件本身也是由 Codex 编写的。\n\n系统中没有预先存在的人工编写代码作为锚点。从一开始，这个仓库就是由 Agent 塑造的。\n\n五个月后，该仓库包含约**一百万行代码**，涵盖应用逻辑、基础设施、工具、文档以及内部开发者工具。在此期间，大约有 **1,500 个拉取请求**被创建并合并，而驱动 Codex 的仅有一个由三名工程师组成的小团队。这意味着每位工程师每天平均产出 3.5 个 PR，而且令人惊讶的是，随着团队扩大到现在的七名工程师，吞吐量反而增加了。重要的是，这并非为了产出而产出：该产品已被数百名内部用户使用，包括日常的内部重度用户。\n\n在整个开发过程中，人类从未直接贡献任何代码。这成为了团队的核心理念：**不写一行手工代码**。\n\n缺乏人工编码引入了一种不同类型的工程工作，其重点在于系统、脚手架和杠杆效应。\n\n早期的进展比我们预期的要慢，不是因为 Codex 能力不足，而是因为环境定义得不够明确。Agent 缺乏实现高层目标所需的工具、抽象和内部结构。我们工程团队的主要工作变成了**让 Agent 能够完成有用的工作**。\n\n在实践中，这意味着采用深度优先的工作方式：将更大的目标分解为更小的构建块（设计、代码、审查、测试等），提示 Agent 构建这些块，并用它们来解锁更复杂的任务。当某件事失败时，修复方法几乎从来不是“再努力一点”。因为取得进展的唯一途径是让 Codex 完成工作，人类工程师总是会介入任务并问：“缺少什么能力？我们如何让它对 Agent 既清晰又可执行？”\n\n人类几乎完全通过**提示**与系统交互：工程师描述一个任务，运行 Agent，然后让它打开一个拉取请求。为了推动一个 PR 完成，我们指示 Codex 在本地审查自己的更改，在本地和云端请求额外的特定 Agent 审查，回应任何人类或 Agent 给出的反馈，并循环迭代，直到所有 Agent 审查者都满意为止。",
-      "text_excerpt_zh_hash": "d9dfadff6d2779a5",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Harness engineering: leveraging Codex in an agent-first world | OpenAI",
-      "url": "https://openai.com/index/harness-engineering/"
-    },
     "https://openreview.net/pdf?id=WC7WAcgZul": {
       "cf_fallback_error": "empty result",
       "cleaner_v": 2,
@@ -9593,6 +9632,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -9704,48 +9757,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
-    },
-    "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg"
-    },
-    "https://pbs.twimg.com/media/HIRpLodbYAAmlG2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIRpLodbYAAmlG2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIRpLodbYAAmlG2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIRpLodbYAAmlG2.jpg"
-    },
-    "https://pbs.twimg.com/media/HIRpMQcbcAAa8Qk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIRpMQcbcAAa8Qk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIRpMQcbcAAa8Qk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIRpMQcbcAAa8Qk.jpg"
     },
     "https://pbs.twimg.com/media/HITLZhNaUAAbJdG.jpg": {
       "cleaner_v": 2,
@@ -12750,19 +12761,6 @@
       "title": "Stop Using Conventional Commits - Sumner Evans",
       "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/"
     },
-    "https://syncless.ai": {
-      "content_type": "text/html",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://syncless.ai",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Syncless",
-      "url": "https://syncless.ai"
-    },
     "https://t.me/qkl188888": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13355,6 +13353,20 @@
       "title": "",
       "url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine"
     },
+    "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.politico.com](https://www.politico.com/favicon.ico)\n\n# www.politico.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for www.politico.com to respond\n\nRay ID: `a0b77225cb1d4986`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519"
+    },
     "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13615,22 +13627,6 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I"
-    },
-    "https://x.com/i/article/2053664790141358080": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2053664790141358080",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2053664790141358080/i/keyboard%5Fshortcuts)\n\n[Home ](https://x.com/i/article/2053664790141358080/home)[Explore ](https://x.com/i/article/2053664790141358080/explore)[Notifications ](https://x.com/i/article/2053664790141358080/notifications)[Chat ](https://x.com/i/article/2053664790141358080/i/chat)[Grok ](https://x.com/i/article/2053664790141358080/i/grok)[Premium ](https://x.com/i/article/2053664790141358080/i/premium)[Bookmarks ](https://x.com/i/article/2053664790141358080/i/bookmarks)[Articles ](https://x.com/i/article/2053664790141358080/compose/articles)[Profile ](https://x.com/i/article/2053664790141358080/chumsdock)\n\nMore \n\n[Post](https://x.com/i/article/2053664790141358080/compose/post)\n\n![Cheng](https://pbs.twimg.com/profile_images/378800000010252572/78d17364b6d52a63220206d139e6ebbd_normal.jpeg)\n\nCheng\n\n@chumsdock\n\nThis page is not supported.\n\nPlease visit the author’s profile on the latest version of X to view this content.",
-      "text_excerpt_zh": "程\n\n@chumsdock\n\n此页面不受支持。\n\n请访问最新版 X 上作者的资料页面以查看此内容。",
-      "text_excerpt_zh_hash": "a3328847d158bda4",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2053664790141358080"
     },
     "https://x.com/i/article/2053986800050524160": {
       "cleaner_v": 2,
@@ -14294,30 +14290,6 @@
     ],
     "2054385995727196611": [
       "https://x.com/StarKnight/status/2054385995727196611"
-    ],
-    "2054883113097122064": [
-      "https://x.com/hwwaanng/status/2054890171309711863",
-      "https://x.com/hwwaanng/status/2054883113097122064",
-      "https://x.com/hwwaanng/status/2054883113097122064/photo/1",
-      "https://pbs.twimg.com/media/HIRpLCPakAA5Ses.jpg",
-      "https://pbs.twimg.com/media/HIRpLodbYAAmlG2.jpg",
-      "https://pbs.twimg.com/media/HIRpMQcbcAAa8Qk.jpg"
-    ],
-    "2054897907069813093": [
-      "https://x.com/peduarte/status/2054960891972526593",
-      "https://x.com/peduarte/status/2054947777503805544",
-      "https://x.com/peduarte/status/2054945966562648503",
-      "https://x.com/peduarte/status/2054943985831960719",
-      "https://x.com/peduarte/status/2054929230643724482",
-      "https://x.com/peduarte/status/2054897907069813093",
-      "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
-    ],
-    "2054922914458464754": [
-      "https://x.com/Yeuoly1/status/2054922914458464754",
-      "https://x.com/i/article/2053664790141358080",
-      "https://openai.com/index/harness-engineering/",
-      "https://syncless.ai",
-      "https://discord.gg/G6AbY5zgsP"
     ],
     "2054990954118152627": [
       "https://x.com/tavus/status/2054990954118152627",
@@ -18207,11 +18179,11 @@
     "2065412916858241404": [
       "https://x.com/rewind02/status/2065412916858241404",
       "http://x.com/i/article/1806814090246893569",
-      "https://x.com/rewind02/status/2065417575714976108",
-      "https://x.com/rewind02/status/2065427536008409588",
       "https://x.com/rewind02/status/2065414487004307659",
-      "https://x.com/rewind02/status/2065430987064885433",
+      "https://x.com/rewind02/status/2065427536008409588",
+      "https://x.com/rewind02/status/2065417575714976108",
       "https://x.com/rewind02/status/2065414956699275484",
+      "https://x.com/rewind02/status/2065430987064885433",
       "https://x.com/rewind02/status/2065414543539318974",
       "https://x.com/rewind02/status/2065418644037804356",
       "https://x.com/rewind02/status/2065897328007938114",
@@ -18306,10 +18278,10 @@
     ],
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
-      "https://x.com/benaratame/status/2065508155375665435",
-      "https://x.com/benaratame/status/2065490900772343856",
       "https://x.com/benaratame/status/2065633553472229578",
-      "https://x.com/benaratame/status/2065556965049172461"
+      "https://x.com/benaratame/status/2065556965049172461",
+      "https://x.com/benaratame/status/2065508155375665435",
+      "https://x.com/benaratame/status/2065490900772343856"
     ],
     "2065488680802816313": [
       "https://x.com/zxjroma/status/2065488680802816313",
@@ -18400,9 +18372,26 @@
       "https://x.com/tan_maty/status/2065663914663358554",
       "https://github.com/multica-ai/andrej-karpathy-skills",
       "https://x.com/tan_maty/status/2065664023157502176",
-      "https://x.com/tan_maty/status/2065789773781123540",
       "https://x.com/tan_maty/status/2065789714091978796",
+      "https://x.com/tan_maty/status/2065789773781123540",
       "https://x.com/tan_maty/status/2065672788631818704"
+    ],
+    "2065704820288188889": [
+      "https://x.com/theCharafeddine/status/2065704820288188889",
+      "http://x.com/i/article/2065704344373043200"
+    ],
+    "2065721530546373016": [
+      "https://x.com/eng_khairallah1/status/2065721530546373016",
+      "http://x.com/i/article/2065576448803418112",
+      "https://x.com/eng_khairallah1/status/2065744168907899076",
+      "https://x.com/eng_khairallah1/status/2065724956961329242",
+      "https://x.com/eng_khairallah1/status/2065742158523408709",
+      "https://x.com/eng_khairallah1/status/2065731650579738790",
+      "https://x.com/eng_khairallah1/status/2065891144756551985",
+      "https://x.com/eng_khairallah1/status/2065731676177584286",
+      "https://x.com/eng_khairallah1/status/2065723545007579566",
+      "https://x.com/eng_khairallah1/status/2065793793152999859",
+      "https://x.com/eng_khairallah1/status/2065731699078496350"
     ],
     "2065760176796246355": [
       "https://x.com/aidangomez/status/2065760176796246355",
@@ -18420,8 +18409,7 @@
       "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     ],
     "2065790549123342628": [
-      "https://x.com/pratos_/status/2065790549123342628",
-      "https://x.com/pratos_/status/2065829909654823000"
+      "https://x.com/pratos_/status/2065790549123342628"
     ],
     "2065833145338105895": [
       "https://x.com/apartovi/status/2065833145338105895"
@@ -18435,21 +18423,52 @@
       "https://x.com/omarsar0/status/2065884078881022343",
       "https://x.com/omarsar0/status/2065886381516239050"
     ],
+    "2065891201170227608": [
+      "https://x.com/nicos_ai/status/2065891201170227608",
+      "http://loops.elorm.xyz",
+      "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg",
+      "https://x.com/nicos_ai/status/2065896089580982697",
+      "https://x.com/nicos_ai/status/2065892508169580598"
+    ],
     "2065902026228478342": [
       "https://x.com/ericosiu/status/2065902026228478342",
       "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg",
       "https://x.com/ericosiu/status/2065948257331925200",
+      "https://x.com/ericosiu/status/2065990940402302980",
       "https://x.com/ericosiu/status/2065948341985534032",
       "https://x.com/ericosiu/status/2065937476548698199"
+    ],
+    "2065913688809431065": [
+      "https://x.com/blackanger/status/2065913688809431065",
+      "https://blog.gitbutler.com/true-grit?_x_tr_hist=true"
     ],
     "2065938280508432788": [
       "https://x.com/BradGroux/status/2065938280508432788",
       "http://x.com/i/article/2065931244534415360",
+      "https://x.com/BradGroux/status/2065972678708605423",
+      "https://x.com/OmarShahine/status/2065946298004754441",
       "https://x.com/BradGroux/status/2065965293164265758",
       "https://x.com/BradGroux/status/2065953096274997631",
       "https://x.com/BradGroux/status/2065944553387889016"
+    ],
+    "2065942612293365948": [
+      "https://x.com/SophiaCai99/status/2065942612293365948",
+      "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+      "https://x.com/SophiaCai99/status/2065946306447565186"
+    ],
+    "2065952175956619385": [
+      "https://x.com/TheTuringPost/status/2065952175956619385",
+      "http://x.com/i/article/2065949506525450240"
+    ],
+    "2065971076673253462": [
+      "https://x.com/neil_xbt/status/2065971076673253462",
+      "http://x.com/i/article/2065923035916361728"
+    ],
+    "2065982494454014448": [
+      "https://x.com/BhathalTanvir0/status/2065982494454014448",
+      "https://x.com/BhathalTanvir0/status/2065144380856676388"
     ]
   },
-  "updated_at": "2026-06-14T01:36:58Z",
+  "updated_at": "2026-06-14T06:57:11Z",
   "window": "recent"
 }
