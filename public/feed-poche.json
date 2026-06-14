@@ -7197,7 +7197,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-07T17:51:30.886363Z",
+      "article_fetch_attempted_at": "2026-06-14T18:01:45.146313Z",
       "article_image_urls": [
         "https://slim.tools/og-image.png"
       ],
@@ -102483,5 +102483,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-14T14:58:08.091782Z"
+  "updated_at": "2026-06-14T18:01:46.350332Z"
 }
