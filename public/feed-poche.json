@@ -55,11 +55,17 @@
         "https://www.prisma.io/blog/badges/soc2_light.svg"
       ],
       "article_text": "[← Back to Blog](https://www.prisma.io/blog)\nWe put Bun's Rust rewrite in production on Prisma Compute\n[Alexey Orlenko](https://www.prisma.io/blog/author/alexey-orlenko)June 11, 2026\n[Prisma Compute](https://www.prisma.io/blog/series/prisma-compute)series.\n[View full series →](https://www.prisma.io/blog/series/prisma-compute)\nPrisma Compute runs TypeScript apps on Bun. When we launched the public beta, we launched it on Bun canary, specifically on the Rust rewrite that is expected to ship as Bun 1.4.\nThat decision had nothing to do with how we feel about rewrites in general. It came down to test results.\nWe picked Bun early because it matched what we wanted Compute to be: a batteries included and Node.js compatible TypeScript runtime that runs customer apps next to their database, scales to zero when idle, and wakes up when traffic returns. Then we started running it under real load, and the picture got more complicated. We ran into memory leaks and a connection pool that couldn't recover after a VM was paused and resumed. We fixed what we could in Bun's own codebase. When the Rust rewrite appeared, we tested it against the same failure modes. It handled them perfectly.\nThis post is the report behind that decision: what Compute demands from a runtime, what broke on Bun 1.3, what changed on the canary, and why launching the beta there beat the alternative of carrying an ever-growing private fork.\n[Why Compute is a hard runtime test](https://www.prisma.io#why-compute-is-a-hard-runtime-test)\n[Prisma Compute](https://www.prisma.io/blog/launching-prisma-compute-public-beta) hosts TypeScript apps on the same infrastructure as your database. You point an agent at a project. It provisions a branch database, applies your schema, builds and deploys the app, reads the logs, fixes what failed, and deploys again.\nUnderneath, every app runs on Bun. Instances scale to zero when nothing is happening. Each deploy becomes an immutable version with its own preview URL, and every database branch can carry its own app deployment.\nThat lifecycle stresses a runtime in ways a benchmark never will. A Compute app isn't a script that handles one request and exits. It's a long-lived service. It might sit idle, get paused with a memory snapshot, then resume and have to serve traffic immediately. Its connection pool may be holding sockets that were healthy before the pause and are dead after it. Its native resources have to be released even when the JavaScript abstractions are still alive.\nSo when we talk about runtime reliability, we mean things that have to keep working for months: memory that stays bounded no matter how many request and object bodies pass through, pools that notice dead connections and reconnect, paused instances that come back in a usable state, and requests that fail loudly instead of hanging forever.\nThose were the conditions we tested Bun under.\n[What failed before the rewrite](https://www.prisma.io#what-failed-before-the-rewrite)\nThe memory problems came first.\nThe clearest public example is [Bun issue #29083](https://github.com/oven-sh/bun/issues/29083). The repro is small: read the same S3 object into an ArrayBuffer over and over with Bun.S3File.arrayBuffer() inside a 1 GiB Linux container, forcing garbage collection with Bun.gc(true) after every iteration. On stable Bun, RSS climbed anyway, past the 900 MiB threshold the report set, and far enough to get the container OOM-killed.\nWhat worried us wasn't the S3 API in particular. It was what the bug implied about ordinary server code: you can read a body into memory, drop every reference to it, force a full GC, and still watch the process grow well beyond anything the JavaScript heap can account for. A long-lived service has nowhere to hide from that.\nThe connection pool was the second problem, and in some ways the worse one.\nIf a VM is paused and resumed much later, or when the network kills a socket without warning, a database pool has to notice that its idle connections are gon",
+      "article_text_zh": "[← 返回博客](https://www.prisma.io/blog)\n我们在 Prisma Compute 的生产环境中部署了 Bun 的 Rust 重写版\n[Alexey Orlenko](https://www.prisma.io/blog/author/alexey-orlenko)2026年6月11日\n[Prisma Compute](https://www.prisma.io/blog/series/prisma-compute)系列。\n[查看完整系列 →](https://www.prisma.io/blog/series/prisma-compute)\nPrisma Compute 在 Bun 上运行 TypeScript 应用。当我们发布公开测试版时，我们将其部署在 Bun canary 上，具体来说是预计随 Bun 1.4 发布的 Rust 重写版。\n\n这个决定与我们如何看待重写本身无关。它完全取决于测试结果。\n\n我们早期选择 Bun，是因为它符合我们对 Compute 的期望：一个功能完备且兼容 Node.js 的 TypeScript 运行时，能够在数据库旁边运行客户应用，空闲时缩容到零，并在流量恢复时唤醒。然后我们开始在真实负载下运行它，情况变得复杂起来。我们遇到了内存泄漏，以及虚拟机暂停并恢复后无法恢复的连接池。我们在 Bun 自己的代码库中修复了能修复的部分。当 Rust 重写版出现时，我们针对相同的故障模式进行了测试。它完美地处理了这些问题。\n\n这篇文章是这一决策背后的报告：Compute 对运行时提出了什么要求，Bun 1.3 出了什么问题，canary 版本有何变化，以及为什么在测试版中部署它比维护一个不断增长的私有分支更好。\n\n[为什么 Compute 是一个严苛的运行时测试](https://www.prisma.io#why-compute-is-a-hard-runtime-test)\n[Prisma Compute](https://www.prisma.io/blog/launching-prisma-compute-public-beta) 在与你的数据库相同的基础设施上托管 TypeScript 应用。你将一个 agent 指向一个项目。它会配置一个分支数据库，应用你的 schema，构建并部署应用，读取日志，修复失败的部分，然后重新部署。\n\n在底层，每个应用都在 Bun 上运行。实例在无活动时缩容到零。每次部署都成为一个不可变的版本，拥有自己的预览 URL，每个数据库分支都可以携带自己的应用部署。\n\n这种生命周期对运行时的压力是基准测试永远无法模拟的。Compute 应用不是一个处理一个请求就退出的脚本。它是一个长期运行的服务。它可能处于空闲状态，被暂停并保存内存快照，然后恢复并立即处理流量。它的连接池可能持有在暂停前健康但在暂停后失效的套接字。即使 JavaScript 抽象仍然存活，其原生资源也必须被释放。\n\n因此，当我们谈论运行时可靠性时，我们指的是那些必须持续数月正常工作的东西：无论有多少请求和对象体通过，内存都保持有界；能检测到死连接并重新连接的连接池；能恢复到可用状态的暂停实例；以及能明确失败而不是永远挂起的请求。\n\n这些就是我们在 Bun 上测试的条件。\n\n[重写前出了什么问题](https://www.prisma.io#what-failed-before-the-rewrite)\n内存问题首先出现。\n\n最清晰的公开例子是 [Bun issue #29083](https://github.com/oven-sh/bun/issues/29083)。复现步骤很简单：在 1 GiB Linux 容器中，使用 `Bun.S3File.arrayBuffer()` 反复将同一个 S3 对象读入 ArrayBuffer，并在每次迭代后强制垃圾回收（`Bun.gc(true)`）。在稳定版 Bun 上，RSS 仍然攀升，超过了报告设定的 900 MiB 阈值，并最终导致容器被 OOM 杀死。\n\n让我们担心的不是 S3 API 本身，而是这个 bug 对普通服务器代码的暗示：你可以将请求体读入内存，丢弃所有引用，强制进行完整 GC，但仍然看到进程增长到远超 JavaScript 堆所能解释的范围。一个长期运行的服务对此无处可藏。\n\n连接池是第二个问题，而且在某些方面更糟糕。\n\n如果虚拟机被暂停并在很久之后恢复，或者网络在无警告的情况下断开套接字，数据库连接池必须注意到其空闲连接已失效。",
+      "article_text_zh_hash": "2fa2a2b74252af6c",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "We put Bun's Rust rewrite in production on Prisma Compute",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-06-14T04:44:29.063503Z",
       "description": "Why Prisma Compute's public beta runs on Bun's Rust rewrite canary: the memory and connection-pool failures we hit on stable Bun, and what changed.",
+      "description_zh": "# Prisma Compute 公测版为何运行在 Bun 的 Rust 重写 Canary 版本上：我们在稳定版 Bun 上遇到的内存与连接池故障，以及哪些地方发生了变化",
+      "description_zh_hash": "00712645d7631a04",
+      "description_zh_translator_v": 2,
       "domain": "www.prisma.io",
       "embed_type": "",
       "id": "k17325t6a3g94ke5f8va4fa1bx88mmbj",
@@ -82,6 +88,9 @@
         }
       ],
       "title": "We put Bun's Rust rewrite in production on Prisma Compute",
+      "title_zh": "我们在 Prisma Compute 上正式启用了 Bun 的 Rust 重写版本。",
+      "title_zh_hash": "78389321f156530e",
+      "title_zh_translator_v": 2,
       "url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute",
       "x_status_id": null
     },
@@ -114,6 +123,9 @@
         }
       ],
       "title": "The Talk Show: Live From WWDC 2026",
+      "title_zh": "脱口秀：WWDC 2026 现场直击",
+      "title_zh_hash": "0709d8ef837a2fe6",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=OtRgxqMuUY8",
       "x_status_id": null
     },
@@ -125,11 +137,17 @@
         "https://daringfireball.net/martini/images/workos.png"
       ],
       "article_text": "By John Gruber\n[WorkOS launches auth.md](https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026) — an open protocol for agent registration.\n[Please enjoy this article on its own webpage](https://daringfireball.net/2026/05/what_is_a_dickover). Trust me.\ndickover n. : a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. asking the user to accept “cookies”, subscribe to a newsletter, install the website’s mobile app, agree to terms of service, or anything else that the user couldn’t give two shits about.\nYou know what a dickover is, even if you didn’t know what to call it (until now). If you use the Internet, you encounter them every day. They’re popovers, but dickheaded. The web is absolutely lousy with them, and mobile apps present them too, with increasing frequency.\nDickovers are a veritable scourge. They’re so common they’re effectively part of the firmament. I started calling these things [dickpanels in 2022](https://daringfireball.net/linked/2022/08/02/banish), but when dickover popped into my head last week,[1](https://daringfireball.net#fn1-2026-05-29) I couldn’t shake the feeling that it’s a better term for these ubiquitous odious irritations. You can hardly go anywhere on the web without getting dicked over by a dickover. They often pester you about permitting cookies, like [this one from Euronews](https://daringfireball.net/misc/2026/05/dickover-euronews.jpeg) or [this one from Gallup](https://daringfireball.net/misc/2026/05/dickover-gallup-cookie.png). This malicious design pattern is so ubiquitous that it has spread even to personal blogs, [like this one from my friend Om Malik](https://daringfireball.net/misc/2026/05/dickover-om-newsletter.png), and to [great brands like Field Notes](https://daringfireball.net/misc/2026/05/dickover-field-notes.jpeg), both asking you to sign up for their newsletters.\nThe homepage for every single blog hosted by Substack shows a particularly pernicious dickover on its homepage. The Substack dickover doesn’t even look like a panel. It’s a full-screen curtain designed and worded to suggest, strongly, that you need to sign up for the blog’s email newsletter just to read anything. The dismissal button for the Substack dickover is a small text link — that doesn’t look anything like a button — that says something like “No thanks” (e.g. [Paul Krugman](https://daringfireball.net/misc/2026/05/dickover-substack-krugman.jpeg), [Matt Yglesias](https://daringfireball.net/misc/2026/05/dickover-substack-yglesias.jpeg)) or something that adds insult to injury with a cloyingly saccharine label like “Just gimme that content!” (e.g. [Volts](https://daringfireball.net/misc/2026/05/dickover-substack-volts.jpeg)).\n[Here’s one from The Philadelphia Inquirer](https://daringfireball.net/misc/2026/05/dickover-inquirer-shore-texts.jpeg), for which I pay $20/month to subscribe, asking me to sign up for SMS text messages about the Jersey shore, while I’m logged into their cursed website, before they’ll let me see the article I came to read. Every time I see one of these I think about unsubscribing. I’m paying them to abuse my time and attention. I started capturing screenshots of every dickover I saw when I started working on this article, and I soon had to give up because I was collecting too many of them. But [this one from Tom’s Hardware](https://daringfireball.net/misc/2026/05/dickover-dickover-tomshardware.png) I actually enjoyed, because their own dickover got dicked over by one of their own fucking ads in a JavaScript Z-axis slapfight.\nIf you visit a website you should ... see the website. See its content. Be able to read the article whose page you are attempting to visit. Showing a “subscribe to our newsletter” or “accept our fucking cookies” dickover to someone trying to read an article on the web makes no more sense than sending out",
+      "article_text_zh": "# 什么是“Dickover”\n\n作者：John Gruber\n\n[WorkOS 推出 auth.md](https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026) —— 一个用于代理注册的开放协议。\n\n[请在其独立网页上阅读本文](https://daringfireball.net/2026/05/what_is_a_dickover)。相信我。\n\n**dickover** n. : 网站或应用呈现的模态面板、弹出窗口或遮罩层，故意遮挡自身内容，以令人沮丧的方式强迫用户进行不必要、不想要的强制性交互；例如要求用户接受\"cookies\"、订阅新闻通讯、安装网站移动应用、同意服务条款，或任何其他用户根本不在乎的事情。\n\n你知道什么是 dickover，即使你之前不知道该怎么称呼它（直到现在）。如果你使用互联网，你每天都会遇到它们。它们是弹出窗口，但令人讨厌。网络上到处都是这种东西，移动应用也越来越多地呈现它们。\n\nDickover 简直是一种祸害。它们如此普遍，实际上已成为网络环境的一部分。我在 2022 年开始称这些东西为 [dickpanels](https://daringfireball.net/linked/2022/08/02/banish)，但上周当 dickover 这个词突然出现在我脑海中时，[1](https://daringfireball.net#fn1-2026-05-29) 我无法摆脱这种感觉——这是描述这些无处不在的可恶烦扰的更好术语。你在网络上几乎无处可去而不被 dickover 坑害。它们经常纠缠你关于允许 cookies 的事情，比如 [Euronews 的这个](https://daringfireball.net/misc/2026/05/dickover-euronews.jpeg) 或 [Gallup 的这个](https://daringfireball.net/misc/2026/05/dickover-gallup-cookie.png)。这种恶意设计模式如此普遍，甚至已经蔓延到个人博客，[比如我朋友 Om Malik 的这个](https://daringfireball.net/misc/2026/05/dickover-om-newsletter.png)，以及 [Field Notes 这样的优秀品牌](https://daringfireball.net/misc/2026/05/dickover-field-notes.jpeg)，两者都要求你注册他们的新闻通讯。\n\nSubstack 托管的每个博客的主页都会显示一个特别恶劣的 dickover。Substack 的 dickover 甚至看起来不像一个面板。它是一个全屏遮罩层，其设计和措辞强烈暗示你需要注册博客的电子邮件新闻通讯才能阅读任何内容。Substack dickover 的关闭按钮是一个小文本链接——看起来完全不像按钮——写着类似\"不用了，谢谢\"（例如 [Paul Krugman](https://daringfireball.net/misc/2026/05/dickover-substack-krugman.jpeg)、[Matt Yglesias](https://daringfireball.net/misc/2026/05/dickover-substack-yglesias.jpeg)）或更侮辱人的、甜腻的标签如\"就把内容给我吧！\"（例如 [Volts](https://daringfireball.net/misc/2026/05/dickover-substack-volts.jpeg)）。\n\n[这是《费城问询报》的一个](https://daringfireball.net/misc/2026/05/dickover-inquirer-shore-texts.jpeg)，我每月支付 20 美元订阅，它却要求我注册接收关于泽西海岸的短信，在我登录他们那个该死的网站之后，才允许我看我想读的文章。每次我看到这种东西，我都想取消订阅。我付钱给他们，让他们滥用我的时间和注意力。我开始写这篇文章时，开始截取我看到的每一个 dickover 的截图，但很快就不得不放弃，因为我收集了太多。但 [Tom's Hardware 的这个](https://daringfireball.net/misc/2026/05/dickover-dickover-tomshardware.png) 我实际上还挺喜欢，因为他们自己的 dickover 被他们自己的一则该死的广告在 JavaScript Z 轴混战中给坑了。\n\n如果你访问一个网站，你应该……看到这个网站。看到它的内容。能够阅读你试图访问的文章页面。向试图在网络上阅读文章的人展示\"订阅我们的新闻通讯\"或\"接受我们该死的 cookies\"的 dickover，就像寄出一份",
+      "article_text_zh_hash": "0979d934692f008b",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Daring Fireball: What Is a Dickover?",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2026-06-14T04:29:22.645189Z",
       "description": "dickover — a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. asking the user to accept “cookies”, subscribe to a newsletter, install the website’s mobile app, agree to terms of service, or anything else that the user couldn’t give two shits about.",
+      "description_zh": "dickover — 指网站或应用弹出的模态面板、弹出框或遮罩层，故意遮挡自身内容，通过不必要且强制性的交互来困扰用户；例如要求用户接受“Cookie”、订阅新闻通讯、安装网站移动应用、同意服务条款，或任何其他用户压根不在乎的内容。",
+      "description_zh_hash": "ea13fdf763e8f94b",
+      "description_zh_translator_v": 2,
       "domain": "daringfireball.net",
       "embed_type": "",
       "id": "k1791p5v4abdvf6vnxfpn8rjkh88np0e",
@@ -152,6 +170,9 @@
         }
       ],
       "title": "Daring Fireball: What Is a Dickover?",
+      "title_zh": "Daring Fireball: What Is a Dickover?",
+      "title_zh_hash": "d08d2b2458fdab4a",
+      "title_zh_translator_v": 2,
       "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
       "x_status_id": null
     },
@@ -171,11 +192,17 @@
         "https://content.fosterandpartners.com/api/media/getCroppedImage?imagePath=/media/ef1hxak5/2329_fp893720_apple-jingan.jpg&width=2000&height=2000&crop=false"
       ],
       "article_text": "Skip to main content Projects Apple Jing’an Apple Jing’an Retail Recently Completed Image Gallery Apple Jing’an is an Apple store and urban regeneration project located in the heart of Shanghai’s Jing'an District. A new circular public plaza has been carefully recreated to enhance connectivity between the historic Jing’an Temple and Jing’an Park, which are located on either side of Nanjing Road. The project knits together the city’s urban fabric with the major metro interchange below to create a new active public space for the city of Shanghai. The permeable new plaza connects different pedestrian flows across multiple levels and includes a gently sloping landscaped skywalk, which integrates an elevated gallery with terraced seating for the public to enjoy views of the temple. The plaza’s circular geometry encourages social interactions and reinforces a sense of community to create a new gathering space in the city. Seasonal planting has been integrated within the hardscape spaces to complement the warm tones of the temple and soften the urban edges. The regionally sourced Padang Light stone on the plaza flows through the interior to line the walls and floor of the store, creating a seamless transition from outside to inside. The store itself is nestled within an existing structure below Jing’an Park, with its main entrance on the plaza. Visitors descend from the plaza into the Forum, a bright double-height space, via a central stone staircase. This dramatic arrival sequence is replicated when people enter the store via the underground metro interchange, which directly connects to the double-height space of the store via curved ramps to improve accessibility. The large disc-shaped central light in the ceiling above the Forum is illuminated by a large backlit panel that simulates daylight using tunable white lighting technology. As night descends, the intensity of light shifts to a warmer tone to mimic the ambient lighting. Additional lighting layers include accent lighting for products and wall-washers along the store’s perimeter. A spectacular undulating timber ceiling follows the store’s circular geometry, wrapping around a central oculus and gently sloping upwards towards the main entrance, to bring in natural light from the plaza. The circular plaza, store entrance, interior staircase and Forum are all aligned on the central axis of the temple, offering direct views of the historic landmark from the inside and along each point of the journey between the different spaces. The development is respectful to both the temple and the park – which have their own distinct identities. The project aims to preserve these qualities and enhance their context, creating a complementary and natural addition to the surrounding urban realm. Slide 1 of 7 Slide 2 of 7 Slide 3 of 7 Slide 4 of 7 Slide 5 of 7 Slide 6 of 7 Slide 7 of 7 Facts and Figures Team More Projects Apple Myeongdong 2022 - Seoul, South Korea Shanghai Bund Riverside 2020 - Shanghai, China DUO Central Park 2018 - Sydney, Australia Apple Carnegie Library, Washington DC 2019 - Washington DC, USA Galeries Lafayette 2019 - Luxembourg City, Luxembourg Bishops Square Retail 2023 - London, UK Sydney Metro, Barangaroo Station 2024 - Sydney, Australia BMCE Branches 2011 - Casablanca, Fez, Rabat, Marrakech and Eljadida, Morocco Apple at The Grove 2021 - Los Angeles, USA Apple Battersea 2023 - London, UK Back To Top Projects Expertise Studio News Careers Contact Legal and policies © 2026 Foster + Partners. All Rights Reserved.",
+      "article_text_zh": "项目  \nApple 静安  \nApple 静安  \n零售  \n近期完成  \n图片集  \n\nApple 静安是一家位于上海静安区核心地带的Apple零售店及城市更新项目。项目精心重建了一个新的圆形公共广场，以增强历史悠久的静安寺与静安公园之间的连通性——两者分别位于南京路两侧。该项目将城市肌理与下方的大型地铁换乘枢纽融为一体，为上海打造了一个充满活力的新型公共空间。通透的新广场连接了不同层面的行人流线，并包含一座缓缓倾斜的景观空中步道，该步道整合了一个抬高的展廊和阶梯式座位，供公众欣赏寺庙景观。广场的圆形几何设计鼓励社交互动，强化社区感，在城市中创造了一个新的聚集空间。硬质景观空间中融入了季节性植物，以衬托寺庙的暖色调，并柔化城市边缘。广场上采用的区域采购的Padang Light石材延伸至室内，铺满店铺的墙面和地面，营造出从室外到室内的无缝过渡。店铺本身坐落在静安公园下方的一座现有建筑内，主入口朝向广场。访客从广场通过中央石阶下行至Forum——一个明亮的双层挑高空间。当人们通过地下地铁换乘枢纽进入店铺时，这一戏剧性的到达序列得以重现：地铁换乘枢纽通过弧形坡道直接连接店铺的双层挑高空间，以改善可达性。Forum上方天花板中央的大型圆盘形照明灯由一块大型背光面板照亮，该面板采用可调白色照明技术模拟日光。夜幕降临时，光线强度转为更暖的色调，以模仿环境照明。额外的照明层次包括产品重点照明和沿店铺周边的洗墙灯。一道壮观的起伏木制天花板顺应店铺的圆形几何结构，环绕中央天窗，并朝主入口方向缓缓向上倾斜，将自然光从广场引入室内。圆形广场、店铺入口、室内楼梯和Forum均与寺庙的中轴线对齐，从内部以及不同空间之间的每个旅程节点，都能直接欣赏到这一历史地标的景观。该开发项目尊重寺庙和公园各自独特的身份。项目旨在保留这些特质并强化其环境背景，为周边城市区域增添一个互补且自然的组成部分。  \n\n幻灯片 1 / 7  \n幻灯片 2 / 7  \n幻灯片 3 / 7  \n幻灯片 4 / 7  \n幻灯片 5 / 7  \n幻灯片 6 / 7  \n幻灯片 7 / 7  \n\n事实与数据  \n团队  \n更多项目  \nApple 明洞 2022 - 韩国首尔  \n上海外滩滨江 2020 - 中国上海  \nDUO 中央公园 2018 - 澳大利亚悉尼  \nApple 卡内基图书馆，华盛顿特区 2019 - 美国华盛顿特区  \n老佛爷百货 2019 - 卢森堡市，卢森堡  \nBishops Square 零售 2023 - 英国伦敦  \n悉尼地铁，巴朗加鲁站 2024 - 澳大利亚悉尼  \nBMCE 分行 2011 - 卡萨布兰卡、非斯、拉巴特、马拉喀什和杰迪代，摩洛哥  \nApple The Grove 2021 - 美国洛杉矶  \nApple 巴特西 2023 - 英国伦敦  \n\n返回顶部  \n项目 专长 工作室 新闻 职业 联系 法律与政策  \n© 2026 Foster + Partners. 版权所有。",
+      "article_text_zh_hash": "282e82be662a6608",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Apple Jing’an | Project",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2026-06-14T00:11:11.651134Z",
       "description": "Apple Jing’an is an Apple store and urban regeneration project located in the heart of Shanghai’s Jing'an District.",
+      "description_zh": "Apple Jing'an 是位于上海市静安区核心地带的一家 Apple 零售店及城市更新项目。",
+      "description_zh_hash": "ec6dcdf95d2769b8",
+      "description_zh_translator_v": 2,
       "domain": "www.fosterandpartners.com",
       "embed_type": "",
       "id": "k17dh2jp475ptrzg8cy2mggq0988ma74",
@@ -198,6 +225,9 @@
         }
       ],
       "title": "Apple Jing’an | Project",
+      "title_zh": "Apple Jing'an | 项目",
+      "title_zh_hash": "e52aaadf60057fcc",
+      "title_zh_translator_v": 2,
       "url": "https://www.fosterandpartners.com/projects/apple-jing-an",
       "x_status_id": null
     },
@@ -221,6 +251,9 @@
       "category": "Development",
       "created_at": "2026-06-13T23:52:55.950429Z",
       "description": "Omnigent is an open-source meta-harness: a common layer for composing, governing, and collaborating on AI agents — coding and otherwise — on top of the harnesses you already use.",
+      "description_zh": "Omnigent 是一个开源元框架（meta-harness）：一个通用层，用于在您已使用的框架之上，对 AI 智能体（包括编码智能体及其他类型）进行组合、治理与协作。",
+      "description_zh_hash": "40704a12e4fa11e4",
+      "description_zh_translator_v": 2,
       "domain": "omnigent.ai",
       "embed_type": "",
       "id": "k175kmpt9d4xnsrhza08qhcabh88kpng",
@@ -243,6 +276,9 @@
         }
       ],
       "title": "Omnigent — a meta-harness for building and running AI agents",
+      "title_zh": "# Omnigent — 构建与运行 AI 智能体的元框架",
+      "title_zh_hash": "27dd4eadbdcc689e",
+      "title_zh_translator_v": 2,
       "url": "https://omnigent.ai/",
       "x_status_id": null
     },
