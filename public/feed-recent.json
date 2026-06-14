@@ -155,6 +155,20 @@
       "title": "June Oven: 12-in-1 Countertop Convection Oven",
       "url": "http://Juneoven.com"
     },
+    "http://Kick.com/Agruck": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "http://Kick.com/Agruck",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://Kick.com/Agruck"
+    },
     "http://agentsview.io": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local-first desktop and web app for AI agent sessions",
@@ -6539,6 +6553,31 @@
       "title": "GitHub - fastclaw-ai/fastclaw: Multi-Agent Framework · GitHub",
       "url": "https://fastclaw.ai"
     },
+    "https://footballia.eu/es": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Footballia tiene más de 40.000 partidos para ver online y una base de datos de más de 100.000 futbolistas de todo el mundo.",
+      "final_url": "https://footballia.eu/es",
+      "frameable": false,
+      "image_urls": [
+        "https://footballia.eu/assets/logo-c08b913542390c1a1c3a50819feac888.png",
+        "https://footballia.eu/assets/text_logo-61b37d07d8d572e6e077ff6c0ba7f45a.png",
+        "https://footballia.eu/uploads/team/logo/37/small_800px-Flag_of_Germany.svg.png",
+        "https://footballia.eu/uploads/team/logo/287/small_600px-Fenerbah_e.svg.png",
+        "https://footballia.eu/uploads/team/logo/26/small_Logo_of_AC_Milan.svg.png",
+        "https://footballia.eu/uploads/team/logo/11/small_800px-Flag_of_France.svg.png",
+        "https://footballia.eu/uploads/team/logo/103/small_Olympique_de_Marseille_2026_logo.svg.png",
+        "https://footballia.eu/uploads/team/logo/174/small_Logo_Olympique_Lyonnais_2022.png",
+        "https://footballia.eu/uploads/team/logo/31/small_FC_Internazionale_Milano_2021.svg.png",
+        "https://footballia.eu/uploads/team/logo/77/small_230px-Real_betis_logo.svg.png",
+        "https://footballia.eu/uploads/team/logo/152/small_570px-Lazio_Rom.svg.png",
+        "https://footballia.eu/uploads/team/logo/91/small_medium_New_PSG.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "don't just read about history experience it! es English Castellano Français Italiano Deutsch Português Türkçe Hrvatski Entra Recuérdame ¿Olvidaste la contraseña? Regístrate Acepto la política de privacidad Regístrate Buscar jugadores Buscar equipos Buscar jugadores Buscar equipos Toggle navigation home Competiciones Selecciones Mundo World Cup World Cup Qualification Olympic Games U-20 World Cup Confederations Cup Mundialito Artemio Franchi Trophy Pre-Olympic Tournament Pan American Games Pacific Games AFC–OFC Challenge Cup Arab Cup CONMEBOL–UEFA Cup of Champions Islamic Solidarity Games Europa Euro Euro Qualification Euro Under-21 Euro Under-21 Qualification Euro Under-23 British Home Championship Rous Cup Nations League A Nations League B Nations League C Nations League D Sudamérica Copa América U-20 South American Championship CONCACAF Gold Cup CONCACAF Championship Caribbean Cup Gold Cup Qualification CONCACAF Nations League Qualification CONCACAF Nations League A CONCACAF Nations League B Central American and Caribbean Games CONCACAF Championship Qualification ABCS Tournament CONCACAF Nations League C Copa Centroamericana África Africa Cup of Nations African Nations Championship Africa Cup of Nations Qualification Asia U-23 Asian Cup Asian Cup East Asian Cup Asian Cup Qualification Arabian Gulf Cup Asian Games AFC Solidarity Cup AFF Championship U-20 Asian Cup Oceanía OFC Nations Cup Internacionales Mundo Intercontinental Cup Intercontinental Supercup Club World Cup Copa Interamericana J. League Cup / Copa Sudamericana Championship Arab Club Champions Cup UEFA-CONMEBOL Club Challenge Club World Cup Qualification Anglo-Italian Cup / Coppa Anglo-Italiana Europa Champions League European Cup Cup Winners' Cup UEFA Cup Super Cup Europa League Conference League Intertoto Cup Inter-Cities Fairs Cup CIS Cup / Kubok SNG Setanta Sports Cup Sudamérica Copa Libertadores Supercopa Libertadores Copa Mercosur Copa Sudamericana Recopa Sudamericana Copa CONMEBOL Copa de Oro Nicolás Leoz Copa Máster de Supercopa Copa Merconorte Copa dos Campeões Mundiais CONCACAF CONCACAF League CONCACAF Champions Cup Caribbean Club Championship Leagues Cup UNCAF Interclub Cup Central American Cup África African Champions League African Super Cup African Confederation Cup African Cup Winners' Cup African Football League Excellence Cup Asia Asian Champions League AFC Cup Asian Cup Winners' Cup ASEAN Club Championship Dynasty Cup Asian Champions League Two Oceanía OFC Champions League OFC Pro League OFC Nations Cup Qualification OFC President's Cup Nacionales Europa England FA Cup Premier League Community Shield League Cup First Division FL Championship Full Members' Cup League One Spain Liga 1ª División Copa del Rey Supercopa Liga 2ª División Liga 2ª B Liga 3ª División Copa Catalunya Copa de la Liga Supercopa Catalunya Primera RFEF Italy Serie A Supercoppa Coppa Italia Serie B Serie C Supercoppa di Serie C France Coupe de France Ligue 1 Coupe de la Ligue Trophée des Champions Ligue 2 Coupe d'Été Germany DFB-Pokal Bundesliga DFL-Supercup Deutsche Meisterschaft FDGB-Pokal 2. Bundesliga DFL-Ligapokal 3. Liga DDR Oberliga DFV-Supercup Portugal Primeira Liga Taça de Portugal Taça da Liga Supertaça Cândido de Oliveira Netherlands Eredivisie Johan Cruijff Schaal KNVB Beker Eerste Divisie Albania Kategoria Superiore - ALB Kupa e Shqipërisë Andorra Supercopa d'Andorra Primera Divisió - AND Copa Constitució Armenia Armenian Premier League Austria Bundesliga AUT ÖFB-Cup ÖFB-Supercup Azerbaijan Azərbaycan Premyer Liqası Belarus Vysshaya Liga Belgium Eerste Klasse A Belgian Super Cup Beker van België Eerste Klasse B Bosnia and Herzegovina Kup Bosne i Hercegovine Bulgaria Kupa na Bulgaria Parva Liga - BLG Croatia Hrvatski Kup Prva HNL Hrvatski Superkup Cyprus A΄ Katigorías - CYP Czech Republic 1. Česká Liga Pohár FAČR 1. fotbalová liga - CZ Denmark Superligaen - DEN DBU Pokalen Estonia Meistriliiga - EST Faroe Islands Faroe Premier League Finland Veikkausliiga - FIN Suom",
+      "title": "Partidos de fútbol históricos completos online | Footballia",
+      "url": "https://footballia.eu/es"
+    },
     "https://ft.trib.al/9ed1nwc": {
       "content_type": "",
       "description": "",
@@ -12131,6 +12170,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
     },
+    "https://pbs.twimg.com/media/HKt2bL8W8AAApsQ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKt2bL8W8AAApsQ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKt2bL8W8AAApsQ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKt2bL8W8AAApsQ.jpg"
+    },
+    "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg"
+    },
+    "https://pbs.twimg.com/media/HKu0s6wXgAAZPDC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKu0s6wXgAAZPDC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKu0s6wXgAAZPDC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKu0s6wXgAAZPDC.jpg"
+    },
+    "https://pbs.twimg.com/media/HKu6aJOXoAE74Op.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKu6aJOXoAE74Op.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKu6aJOXoAE74Op.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKu6aJOXoAE74Op.jpg"
+    },
     "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12144,6 +12239,90 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg"
+    },
+    "https://pbs.twimg.com/media/HKvP1mmXEAADhu-.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKvP1mmXEAADhu-.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKvP1mmXEAADhu-.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKvP1mmXEAADhu-.jpg"
+    },
+    "https://pbs.twimg.com/media/HKvP1mqWAAACNBG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKvP1mqWAAACNBG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKvP1mqWAAACNBG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKvP1mqWAAACNBG.jpg"
+    },
+    "https://pbs.twimg.com/media/HKvQ-RqW0AAsCzm.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKvQ-RqW0AAsCzm.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKvQ-RqW0AAsCzm.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKvQ-RqW0AAsCzm.jpg"
+    },
+    "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg"
+    },
+    "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg"
+    },
+    "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg"
     },
     "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg": {
       "cleaner_v": 2,
@@ -12761,6 +12940,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Setting a custom price for a model in AgentsView | Simon Willison’s TILs",
       "url": "https://til.simonwillison.net/llms/agentsview-custom-model-price"
+    },
+    "https://timstreams.net/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "final_url": "https://timstreams.net/",
+      "frameable": false,
+      "image_urls": [
+        "https://timstreams.net/assets/img/logo.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "TimStreams",
+      "url": "https://timstreams.net/"
     },
     "https://tycoon.us/blog/ai-growth-engine-for-indie-founders": {
       "cleaner_v": 2,
@@ -18034,10 +18227,10 @@
       "https://x.com/TheAhmadOsman/status/2065307070044234186",
       "http://x.com/i/article/2065291569712779264",
       "https://x.com/TheAhmadOsman/status/2065307643220996098",
-      "https://x.com/TheAhmadOsman/status/2065325597140701533",
-      "https://x.com/Mayhem4Markets/status/2065201293224775828",
       "https://x.com/TheAhmadOsman/status/2065318285646717196",
       "https://x.com/TheAhmadOsman/status/2058617968628551718",
+      "https://x.com/TheAhmadOsman/status/2065325597140701533",
+      "https://x.com/Mayhem4Markets/status/2065201293224775828",
       "https://x.com/TheAhmadOsman/status/2065394693769175475",
       "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg",
       "https://x.com/TheAhmadOsman/status/2065412426816688155"
@@ -18188,10 +18381,10 @@
     ],
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
-      "https://x.com/benaratame/status/2065633553472229578",
-      "https://x.com/benaratame/status/2065556965049172461",
       "https://x.com/benaratame/status/2065508155375665435",
-      "https://x.com/benaratame/status/2065490900772343856"
+      "https://x.com/benaratame/status/2065633553472229578",
+      "https://x.com/benaratame/status/2065490900772343856",
+      "https://x.com/benaratame/status/2065556965049172461"
     ],
     "2065488680802816313": [
       "https://x.com/zxjroma/status/2065488680802816313",
@@ -18314,6 +18507,30 @@
       "https://x.com/zostaff/status/2065765842709590018",
       "http://x.com/i/article/2065547821441265664"
     ],
+    "2065768686485381340": [
+      "https://x.com/Agruck_/status/2065768686485381340",
+      "https://timstreams.net/",
+      "https://x.com/Agruck_/status/2065939407845093383",
+      "http://Kick.com/Agruck",
+      "https://x.com/Agruck_/status/2065967120890880466",
+      "https://x.com/Agruck_/status/2065951027044536437",
+      "https://x.com/Agruck_/status/2065943542250213589",
+      "https://pbs.twimg.com/media/HKu0s6wXgAAZPDC.jpg",
+      "https://x.com/Agruck_/status/2065949818258649403",
+      "https://pbs.twimg.com/media/HKu6aJOXoAE74Op.jpg",
+      "https://x.com/Agruck_/status/2066060223429718454",
+      "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg",
+      "https://x.com/Agruck_/status/2065943058131116206",
+      "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg",
+      "https://x.com/Agruck_/status/2065957599061721496",
+      "https://x.com/Agruck_/status/2066058946226343970",
+      "https://x.com/Agruck_/status/2066061253588533747",
+      "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg",
+      "https://x.com/Agruck_/status/2065950836824449215",
+      "https://footballia.eu/es",
+      "https://x.com/Agruck_/status/2066058793956303202",
+      "https://x.com/Agruck_/status/2065945367766507612"
+    ],
     "2065773939520119040": [
       "https://x.com/PrajwalTomar_/status/2065773939520119040",
       "https://pbs.twimg.com/media/HKsacz6aAAAY1El.jpg"
@@ -18331,11 +18548,23 @@
       "https://x.com/DengShenyang24/status/2065853130567279073",
       "https://x.com/DengShenyang24/status/2066054299088503162"
     ],
+    "2065875068027085059": [
+      "https://x.com/MindBranches/status/2065875068027085059",
+      "https://pbs.twimg.com/media/HKt2bL8W8AAApsQ.jpg",
+      "https://x.com/MindBranches/status/2065973378255671395",
+      "https://pbs.twimg.com/media/HKvP1mmXEAADhu-.jpg",
+      "https://pbs.twimg.com/media/HKvP1mqWAAACNBG.jpg",
+      "https://x.com/MindBranches/status/2065974628569198905",
+      "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg",
+      "https://pbs.twimg.com/media/HKvQ-RqW0AAsCzm.jpg"
+    ],
     "2065880971031834786": [
       "https://x.com/omarsar0/status/2065880971031834786",
       "http://x.com/i/article/2065876120965111808",
       "https://x.com/omarsar0/status/2065884078881022343",
-      "https://x.com/omarsar0/status/2065886381516239050"
+      "https://x.com/omarsar0/status/2066174203590570216",
+      "https://x.com/omarsar0/status/2065886381516239050",
+      "https://x.com/omarsar0/status/2066154395423711266"
     ],
     "2065890759744610759": [
       "https://x.com/DennisonBertram/status/2065890759744610759",
@@ -18352,10 +18581,16 @@
     "2065902026228478342": [
       "https://x.com/ericosiu/status/2065902026228478342",
       "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg",
+      "https://x.com/ericosiu/status/2066151937435902175",
       "https://x.com/ericosiu/status/2065948257331925200",
+      "https://x.com/ericosiu/status/2066151834117636313",
+      "https://x.com/ericosiu/status/2066152064749842558",
       "https://x.com/ericosiu/status/2065990940402302980",
+      "https://x.com/ericosiu/status/2066152087675965801",
       "https://x.com/ericosiu/status/2065937476548698199",
-      "https://x.com/ericosiu/status/2065948341985534032"
+      "https://x.com/ericosiu/status/2065948341985534032",
+      "https://x.com/ericosiu/status/2066151716933029907",
+      "https://x.com/ericosiu/status/2066152154977693789"
     ],
     "2065913688809431065": [
       "https://x.com/blackanger/status/2065913688809431065",
@@ -18366,8 +18601,8 @@
       "http://x.com/i/article/2065931244534415360",
       "https://x.com/BradGroux/status/2065972678708605423",
       "https://x.com/OmarShahine/status/2065946298004754441",
-      "https://x.com/BradGroux/status/2065953096274997631",
       "https://x.com/BradGroux/status/2065965293164265758",
+      "https://x.com/BradGroux/status/2065953096274997631",
       "https://x.com/BradGroux/status/2066088931280511431",
       "https://x.com/BradGroux/status/2065944553387889016"
     ],
@@ -18389,6 +18624,6 @@
       "https://x.com/BhathalTanvir0/status/2065144380856676388"
     ]
   },
-  "updated_at": "2026-06-14T13:04:03Z",
+  "updated_at": "2026-06-14T15:18:03Z",
   "window": "recent"
 }
