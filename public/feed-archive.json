@@ -2,6 +2,12 @@
   "format": "feed-detail/1",
   "items": [
     {
+      "article_text": "/goal is not a feature. It is a primitive. \nHTTP is a primitive. JSON is a primitive. /goal is becoming one for coding agents.\nA few weeks ago, OpenAI's Codex CLI added /goal as a way to give the coding worker a job with a defined done state. Claude Code added it this week. \nHermes Agent, the orchestrator I run on a Mac Mini to coordinate work between coding workers, has had /goal built in for a while. \nSo I now have a builder, a reviewer, and an orchestrator that all accept the same instruction format, even though they share nothing else.\nIf you've only seen /goal used as a fancier prompt, you've missed what it changes.\nWhat /goal actually is\nA regular prompt asks an agent for the next response. You read what comes back, decide if it's right, and push the agent forward to the next step. You're steering every turn.\n/goal flips that. You write down what \"done\" looks like, submit it once, and the agent works toward it until it gets there. Here's a real one:\n \nThe goal stays active until it's achieved, paused, blocked, cleared, or it runs out of budget.\nThis is different from putting the word \"goal\" inside a normal one-shot command. If you write codex exec 'goal: build the app', that's still a prompt with a label. The real primitive lives inside an interactive worker session. You launch the CLI, you submit /goal, and you walk away.\nThe shift is from prompting (you driving) to assigning (the agent driving toward a target you defined).\n \nThe three tools that currently speak /goal\nThe three tools accepting /goal aren't all the same kind of thing, so it's worth being specific.\nCodex is OpenAI's coding CLI. Strong at implementation, especially when given a clear spec. /goal is how you give it that spec.\nClaude Code is Anthropic's coding CLI. Strong at the inverse: finding what's wrong with code that looks right. Spec compliance, safety issues, error states, security holes. /goal is how you point it at code and ask for a review.\nHermes Agent is a different kind of tool entirely. Not a coding worker, but an orchestrator that coordinates work between coding workers like the two above. /goal is how Hermes hands off tasks to whichever tool is right for the job, and also how I tell Hermes what I want in the first place.\nWhat matters isn't that any one of them shipped /goal. It's that three different teams converged on the same primitive, and that convergence is what makes it possible to compose them.\n \nSetting things up\nThe first time I needed Codex and Claude Code on the Mac Mini that runs Hermes, I didn't install them by hand. I sent Hermes a message asking it to install both and log me in. It handled the rest.\nThat's the workflow now. You don't type install commands. Setup is just another goal.\nIf you don't have an orchestrator running yet, the install pages for Codex and Claude Code are easy enough to follow. But once you do, you shouldn't set up another tool by hand. The point of having an orchestrator is that mechanical work stops being yours.\nWhat Hermes adds on top of /goal\nA raw /goal is useful on its own. But it leaves you with a coordination problem.\nIf Codex is running in one terminal and Claude Code is running in another, you have to remember which process is doing what. You have to check logs. You have to manually pass review findings from one tool to the other.\nHermes turns those loose runs into a workflow:\nYou message Hermes (in my case, over Telegram from my phone)\nHermes creates goal cards on a Kanban board\nHermes picks the right worker for each card\nThe worker runs the goal in the background\nThe card stores the process id, PID, repo, and done criteria\nWhen the build is ready, Hermes hands the repo to the reviewer\nIf the review blocks, Hermes sends the findings back as a fix goal\nHermes verifies the final output by inspecting the filesystem, tests, build, and git state\nThe board is what /goal becomes when there's an orchestrator on top of it. Every goal has a card, every card has a status, every handoff leaves a trail. Instead of hunting through terminals, you watch the work move across columns on your phone.\n \nThe three roles\nThe tools change. The roles don't.\nOrchestrator. Owns the control loop. Task decomposition, worker selection, Kanban cards, background processes, dependencies, final verification, the user-facing summary. In my setup, Hermes.\nBuilder. Takes a spec and produces working code. Implementation is the bottleneck this role solves. Codex tends to be strong here.\nReviewer. Reads what the builder produced and finds what's wrong with it. Correctness is the bottleneck. Claude Code tends to be strong here.\nA real run, end to end\nI gave Hermes agent a goal to do this:\n \nHermes broke the request into six cards.\n \nCard 1: Spec. Hermes wrote SPEC.md itself, capturing the stack, repo path, read-only constraints, mock mode requirements, tests, and verification commands. Owned by the PM role.\nCard 2: Codex builds. Codex ran /goal against SPEC.md. It created the project files, implemented the UI and backend, added tests, and got the app to a passing state. About 15 minutes. When it finished, npm test passed, npm run build passed, and git status showed only relevant new files.\nCard 3: Claude Code reviews. Claude Code ran /goal to review what Codex built. Checked spec compliance, read-only safety, API key handling, error states, tests, UI usefulness, bugs, and security issues. Result: PASS, no blocking issues.\nCard 4: Codex fix loop. Skipped, because the review passed. The card still matters when skipped. It shows Hermes can model conditional work. If Claude Code had blocked, Hermes would have handed the findings back to Codex as a new /goal.\nCard 5: Claude Code final verification. Skipped for the same reason.\nCard 6: Hermes final summary. Working app at the local path, UI and API both verified in mock mode. Codex built it with /goal. Claude Code reviewed it with /goal and returned PASS.\nAll of that came from one message. Three different tools did the actual work, but I only ever talked to Hermes.\nThe verification rule\nHermes never trusted Codex's self-report. After Codex marked the build done, Hermes ran the commands itself:\n \nThe verifier is what makes a /goal a contract instead of a promise. Don't trust the worker's self-report as final. Trust the verifier.\nCoding agents are confident. They'll tell you the build passes when the build was never run. They'll tell you tests pass when they wrote tests that never executed. The verifier closes that gap.\nWithout verification, /goal is just a fancier prompt. With verification, it becomes a contract.\n \nRunning multiple goals\nYou can run multiple /goals in parallel, but you can't point multiple coding workers at the same files without thinking about it first.\nMy default is one main builder per repo. If I want parallelism, I add it across clear boundaries. Different repos, different branches, git worktrees, separate packages, docs vs code, tests vs implementation. Anywhere two workers can't step on each other.\nThe bad pattern is three workers all editing the same file in the same repo. You get conflicts, partial overwrites, and one worker silently undoing another's work.\nThe better pattern is one writer at a time on any given file. Builder writes, reviewer only reads, fix goals stay scoped to the fix. Or run three builders in three worktrees on three competing approaches and let the orchestrator pick the best one.\nThe board is what makes this practical. Without it, parallel background workers become terminal chaos.\nWhat changes for me\nThe useful framing here is not \"I can run agents in the background.\"\nIt's that one message turns into a pipeline across three different coding tools, and I watch the whole thing move across one board.\nYou stop sitting in a terminal waiting for one agent to finish, and start managing a queue of work with visible state.\nIf Codex and Claude Code had each invented their own job-handoff format, no orchestrator could route between them. The board is impressive, but the primitive makes the board even more useful. \nThe workers can change, but the primitive stays the same. The next coding tool that adopts /goal will join this pipeline without me changing anything. I'll just route work to it.\nThat's what good primitives do.\n \nFor more such cool tips and interesting ideas around Hermes, OpenClaw, Claude Code, Codex and other 24/7 agent teams.\nFollow → @Saboo_Shubham_",
+      "article_text_zh": "`/goal` 不是一个功能。它是一个原语。  \nHTTP 是一个原语。JSON 是一个原语。`/goal` 正在成为编码代理的一个原语。  \n\n几周前，OpenAI 的 Codex CLI 添加了 `/goal`，作为一种为编码工作者分配任务并定义完成状态的方式。Claude Code 本周也加入了这一功能。  \nHermes Agent，这个我在 Mac Mini 上运行、用于协调编码工作者之间工作的编排器，早已内置了 `/goal`。  \n所以，我现在拥有一个构建者、一个审查者，以及一个编排器，它们都接受相同的指令格式，尽管除此之外它们毫无共同之处。  \n\n如果你只把 `/goal` 看作一个更花哨的提示词，那你就错过了它所带来的改变。  \n\n### `/goal` 实际上是什么  \n\n一个普通的提示词是要求代理给出下一个响应。你阅读返回的内容，判断是否正确，然后推动代理进入下一步。你在每个转弯处进行操控。  \n`/goal` 则颠覆了这一点。你写下“完成”的样子，提交一次，然后代理就会朝着这个目标努力，直到达成。这是一个真实的例子：  \n\n```\n/goal 构建一个天气应用，使用 React 前端和 Node.js 后端。  \n当 `npm test` 通过、`npm run build` 通过，并且应用在 `localhost:3000` 上显示当前天气时，即视为完成。  \n不要修改任何现有文件。将所有新文件放在 `weather-app/` 目录下。  \n```\n\n这个目标会一直保持活跃，直到它被达成、暂停、阻塞、清除，或者预算耗尽。  \n\n这与在普通的单次命令中放入“goal”这个词是不同的。如果你写 `codex exec 'goal: build the app'`，那仍然是一个带有标签的提示词。真正的原语存在于一个交互式的工作会话中。你启动 CLI，提交 `/goal`，然后走开。  \n\n这种转变是从“提示”（你驱动）到“指派”（代理朝着你定义的目标自主驱动）的转变。  \n\n### 当前支持 `/goal` 的三种工具  \n\n接受 `/goal` 的三种工具并非同一类事物，因此有必要具体说明。  \n\n**Codex** 是 OpenAI 的编码 CLI。擅长实现，尤其是在给出清晰规范时。`/goal` 就是你提供规范的方式。  \n**Claude Code** 是 Anthropic 的编码 CLI。擅长相反的事情：找出看起来正确的代码中存在的问题。规范符合性、安全问题、错误状态、安全漏洞。`/goal` 就是你用它来指向代码并要求审查的方式。  \n**Hermes Agent** 则是一种完全不同的工具。它不是一个编码工作者，而是一个编排器，用于协调像上述两者这样的编码工作者之间的工作。`/goal` 是 Hermes 将任务移交给适合该工作的工具的方式，也是我首先告诉 Hermes 我想要什么的方式。  \n\n重要的不是它们中的某一个发布了 `/goal`。而是三个不同的团队汇聚到了同一个原语上，而这种汇聚使得将它们组合起来成为可能。  \n\n### 设置环境  \n\n我第一次需要在运行 Hermes 的 Mac Mini 上安装 Codex 和 Claude Code 时，并没有手动安装。我给 Hermes 发了一条消息，要求它安装两者并登录我的账号。它处理了剩下的一切。  \n\n这就是现在的工作流程。你不再需要输入安装命令。设置本身只是另一个目标。  \n\n如果你还没有运行编排器，Codex 和 Claude Code 的安装页面很容易遵循。但一旦你有了编排器，就不应该再手动设置任何其他工具。拥有编排器的意义在于，机械性的工作不再属于你。  \n\n### Hermes 在 `/goal` 之上增加了什么  \n\n一个原始的 `/goal` 本身很有用。但它给你留下了一个协调问题。  \n\n如果 Codex 在一个终端中运行，而 Claude Code 在另一个终端中运行，你必须记住哪个进程在做什么。你必须检查日志。你必须手动将审查结果从一个工具传递给另一个工具。  \n\nHermes 将这些零散的运行转变为一个工作流：  \n\n1.  你给 Hermes 发消息（在我的情况下，是通过手机上的 Telegram）  \n2.  Hermes 在看板（Kanban board）上创建目标卡片  \n3.  Hermes 为每张卡片选择合适的工人  \n4.  工人在后台运行目标  \n5.  卡片存储进程 ID、PID、仓库和完成标准  \n6.  当构建准备就绪时，Hermes 将仓库交给审查者  \n7.  如果审查阻塞，Hermes 将发现的问题作为修复目标发回  \n8.  Hermes 通过检查文件系统、测试、构建和 git 状态来验证最终输出  \n\n这个看板就是当 `/goal` 之上有一个编排器时，它变成的样子。每个目标都有一张卡片，每张卡片都有一个状态，每次交接都留下一条轨迹。你不再需要在终端中搜寻，而是在手机上看着工作在看板的列之间移动。  \n\n### 三个角色  \n\n工具会变。角色不会。  \n\n*   **编排器**：拥有控制循环。任务分解、工人选择、看板卡片、后台进程、依赖关系、最终验证、面向用户的摘要。在我的设置中，就是 Hermes。  \n*   **构建者**：接收规范并生成可工作的代码。实现是这个角色要解决的瓶颈。Codex 在这方面通常很强。  \n*   **审查者**：阅读构建者产生的内容，并找出其中的问题。正确性是瓶颈。Claude Code 在这方面通常很强。  \n\n### 一次真实的端到端运行  \n\n我给 Hermes Agent 设定了一个目标来做这件事：  \n\n```\n/goal 构建一个简单的待办事项应用，使用 React 前端和 Express 后端。  \n当 `npm test` 通过、`npm run build` 通过，并且应用在 `localhost:3000` 上运行时，即视为完成。  \n使用模拟模式，这样就不需要真正的数据库。  \n将所有代码放在 `todo-app/` 目录下。  \n```\n\nHermes 将这个请求分解成了六张卡片。  \n\n*   **卡片 1：规范**。Hermes 自己编写了 `SPEC.md`，捕获了技术栈、仓库路径、只读约束、模拟模式要求、测试和验证命令。由 PM 角色拥有。  \n*   **卡片 2：Codex 构建**。Codex 针对 `SPEC.md` 运行了 `/goal`。它创建了项目文件，实现了 UI 和后端，添加了测试，并使应用达到了通过状态。大约 15 分钟。完成后，`npm test` 通过，`npm run build` 通过，`git status` 只显示相关的新文件。  \n*   **卡片 3：Claude Code 审查**。Claude Code 运行 `/goal` 来审查 Codex 构建的内容。检查了规范符合性、只读安全性、API 密钥处理、错误状态、测试、UI 实用性、错误和安全问题。结果：通过，无阻塞问题。  \n*   **卡片 4：Codex 修复循环**。已跳过，因为审查通过了。这张卡片在跳过时仍然重要。它表明 Hermes 可以对条件性工作进行建模。如果 Claude Code 阻塞了，Hermes 会将发现的问题作为新的 `/goal` 交回给 Codex。  \n*   **卡片 5：Claude Code 最终验证**。出于同样的原因跳过。  \n*   **卡片 6：Hermes 最终摘要**。可工作的应用位于本地路径，UI 和 API 均在模拟模式下验证通过。Codex 使用 `/goal` 构建了它。Claude Code 使用 `/goal` 审查了它并返回了“通过”。  \n\n所有这些都来自一条消息。三个不同的工具完成了实际工作，但我只与 Hermes 交流过。  \n\n### 验证规则  \n\nHermes 从不信任 Codex 的自我报告。在 Codex 标记构建完成后，Hermes 自己运行了命令：  \n\n```\ncd /path/to/todo-app  \nnpm test  \nnpm run build  \n```\n\n验证器使得 `/goal` 成为一个契约，而不是一个承诺。不要相信工人最终的自我报告。要相信验证器。  \n\n编码代理很自信。它们会告诉你构建通过了，而实际上构建从未运行过。它们会告诉你测试通过了，而实际上它们编写的测试从未执行过。验证器弥合了这种差距。  \n\n没有验证，`/goal` 只是一个更花哨的提示词。有了验证，它就变成了一个契约。  \n\n### 运行多个目标  \n\n你可以并行运行多个 `/goal`，但不能不经思考就让多个编码工作者指向同一个文件。  \n\n我的默认设置是每个仓库一个主要的构建者。如果我需要并行性，我会在清晰的边界上添加它。不同的仓库、不同的分支、git 工作树、独立的包、文档与代码、测试与实现。任何两个工人不会互相干扰的地方。  \n\n糟糕的模式是三个工人都在编辑同一个仓库中的同一个文件。你会遇到冲突、部分覆盖，以及一个工人默默地撤销另一个工人的工作。  \n\n更好的模式是任何给定文件一次只有一个写入者。构建者写入，审查者只读取，修复目标的范围仅限于修复。或者让三个构建者在三个工作树中针对三种竞争方案进行构建，然后让编排器选择最好的一个。  \n\n看板使这变得实用。没有它，并行的后台工人就会变成终端混乱。  \n\n### 对我来说改变了什么  \n\n这里有用的框架不是“我可以在后台运行代理”。  \n而是一条消息变成了跨越三种不同编码工具的流水线，而我看着整个过程在一个看板上移动。  \n\n你不再坐在终端前等待一个代理完成，而是开始管理一个具有可见状态的工作队列。  \n\n如果 Codex 和 Claude Code 各自发明了自己的任务交接格式，那么没有编排器能够在它们之间路由。看板令人印象深刻，但原语使看板更加有用。  \n\n工人可以改变，但原语保持不变。下一个采用 `/goal` 的编码工具将加入这个流水线，而我无需改变任何东西。我只需将工作路由给它。  \n\n这就是好的原语所做的。  \n\n---\n\n想要了解更多关于 Hermes、OpenClaw、Claude Code、Codex 以及其他 7x24 小时代理团队的酷炫技巧和有趣想法。  \n关注 → @Saboo_Shubham_",
+      "article_text_zh_hash": "3f58aa886ce5f4db",
+      "id": "2054988166541770782"
+    },
+    {
       "article_text": "你让 Claude Code 写功能、补测试、格式化文件，最后顺手提交。\n它功能写了，测试也补了大半，格式化跑了两个文件，但偏偏漏了一个。然后它很自然地告诉你：“搞完了。”\n你一看：没提交，格式也没完全对齐。\n但这些问题，其实不该靠你事后检查。在 Claude Code 里，它们都可以配置成自动流程。\n这就是 Hook 存在的理由。\n\nHook 是什么\nClaude Code hooks 是在 Claude 生命周期的固定节点自动执行的 shell 命令。不需要你给 Claude 下任何指令，Hook 就已经跑完了。\nClaude 可能不跑格式化工具。挂在 PostToolUse 上的 Hook 会在每次文件编辑后跑 Prettier。\nClaude 可能忘了通知你。挂在 Notification 上的 Hook 每次 Claude 需要你介入时都会弹窗。\nHook 把行为从 Claude 的判断里抽出来，放到你的项目规则里。代码质量、通知、安全检查。这些最要紧的事应该放在 Hook 里，不是 prompt 里。\nGitButler 的指南：从三个开始：PostToolUse 自动格式化、PreToolUse 拦截危险命令、Stop 桌面通知，覆盖最广，上手最容易。\n\n先看这 5 个生命周期事件\nClaude Code 有 20多个生命周期事件，SessionStart 到 SessionEnd。不用全记。下面 5 个是实际工作中真会用的：\nPostToolUse：Claude 用完工具后触发。自动格式化、跑 linter、记变更日志。\nPreToolUse：Claude 调工具之前触发，可以拦截。保护敏感文件（.env、package-lock.json）、阻止危险命令、在 Claude 写任何东西之前卡一刀。\nNotification：Claude 需要你关注时触发。弹桌面通知，你不用盯着终端，该干嘛干嘛。\nStop：Claude 回复结束时触发。跑测试、跑 CI、自动提交——Claude 说「搞完了」之后自动执行。\nSessionStart：会话启动或恢复时触发。压缩（compaction）之后重新灌上下文，或者加载环境相关的提醒。\n剩下事件（SubagentStart、WorktreeCreate、InstructionsLoaded 等）给更复杂的流程。先从上面 5 个上手。\n \n\n三种值得用的 Hook type\n除了标准的 shell 命令 Hook（\"type\": \"command\"），还有三种：\nPrompt Hook（\"type\": \"prompt\"）把 Hook 的输入丢给 Claude 模型（默认用 Haiku）做判断，返回是/否。适合需要模型理解的场景，比如在 Claude 停止前检查是不是所有任务都完成了：\n \n比写正则强。\nAgent Hook（\"type\": \"agent\"）起一个子代理，能读文件、搜代码、跑工具，最多 50 轮。适合需要对照实际代码状态做判断的情况——比如 Claude 停之前确认测试确实过了。\nHTTP Hook（\"type\": \"http\"）把事件数据 POST 到 URL，不跑 shell。适合团队审计日志、共享通知服务、webhook 集成。\n多数场景 \"type\": \"command\" 够用。\n\n怎么配 Hook\nHook 配置放在三个位置之一：\n \n结构都一样：\n \nMatcher 是正则，过滤触发条件。在 PostToolUse 和 PreToolUse 里匹配工具名称：\"Edit|Write\" 在文件编辑后触发，\"Bash\" 在 shell 命令后触发，\"mcp__github_.*\" 在任意 GitHub MCP 工具调用后触发。\n最简单的方式是用 /hooks 交互菜单。在 Claude Code 里敲 /hooks，选事件、设 matcher、填命令，不用手写 JSON。加了就生效。\n\n立即能配好的 5 个 Hook\n1. Claude 需要你时弹通知\n别盯终端了。每次 Claude 等你输入——权限确认、空闲等待、任何需要你介入的时刻——自动弹：\n \n放 ~/.claude/settings.json。这个要全局生效。\n2. Claude 碰过的文件自动格式化\n每次 Edit 或 Write 之后跑 Prettier。Claude 逐文件改代码导致的格式不一致，一劳永逸：\n \n需要 jq 做 JSON 解析，macOS 上安装\n \n放项目的 .claude/settings.json 并提交。这是团队规范。\n3. 不让 Claude 碰受保护文件\n拦住 .env、package-lock.json、.git/。被拦后 Claude 会收到反馈说明原因：\n \nchmod +x .claude/hooks/protect-files.sh，然后注册：\n \n4. 压缩后把上下文填回去\n上下文窗口满了，Claude 会压缩对话总结。有时候重要细节被丢掉了。这个 Hook 在每次压缩后触发，提醒 Claude 最核心的事：\n \necho 换成动态命令也行：git log --oneline -5 看最近提交，或 cat .claude/sprint-context.md 加载独立上下文文件。\n5. Git 提交强制规范\nClaude 有时候按自己喜好写 commit message——type 前缀不对、用了句子大小写、末尾拖个句号。这个 Hook 在提交落地前拦一道：\n \n这是 Prompt Hook——不写 shell 脚本，不写正则，让 Haiku 模型读命令、对照你的规范判断，直接返回结果。\n放 ~/.claude/settings.json，所有项目生效。\n\n退出码怎么用\nHook 脚本通过三个通道和 Claude Code 通信：\n \nPreToolUse Hook 真正的威力就靠这个退出码体系：你的脚本读到 Claude 即将执行的操作，对照规则判断，要么放行，要么返回具体原因。\n \n三步上手\n第一步：全局加通知 Hook\n打开 ~/.claude/settings.json，贴上面 macOS 通知的配置。最实用、零风险，纯附加行为，不拦截任何东西。让 Claude 做一件会触发权限确认的事，看看弹没弹。\n第二步：当前项目加 Prettier 格式化\n在项目根目录打开 .claude/settings.json（没有就新建），加 PostToolUse 格式化 Hook。没装 jq 先装。让 Claude 改个文件，确认自动格式化了。\n第三步：打开 /hooks 翻一翻\n交互菜单列出全部 事件和说明。想想你的工作流里还有哪些可以自动化。Stop 事件（Claude 完成后跑测试）和 PreToolUse（拦截特定模式）是下一个选择。\n\nHook 的使用总结\n没有 Hook 时，你可能需要结束后追问和检查：格式化做了吗？测试跑了吗？代码提交了吗？\n配置 Hook 之后，这些问题解决。格式化一定会执行，测试一定会运行，通知一定会弹出。它们不再依赖 Claude 是否记得、是否理解、是否照做，而是变成项目环境本身的默认行为。\n不要把关键流程寄托在 prompt 约束上。应通过环境机制强制执行关键动作，确保它们在每次运行中稳定执行。",
       "id": "2054457804057100405"
     },
@@ -2426,6 +2432,22 @@
       "title": "",
       "url": "http://x.com/i/article/2054279489774120960"
     },
+    "http://x.com/i/article/2054805605995696128": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2054805605995696128",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054805605995696128/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HITEO5Ia0AAT0AU?format=jpg&name=900x900)](http://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/article/2054988166541770782/media/2054983090121134080)\n\nThe ultimate guide to /goal\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](http://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[Shubham Saboo](http://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[@Saboo\\_Shubham\\_](http://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n·\n\nMay 14\n\nFollow\n\nClick to Follow Saboo\\_Shubham\\_\n\n26\n\n131\n\n970\n\n[202K](http://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/status/2054988166541770782/analytics)\n\n/goal is not a feature. It is a primitive. \n\nHTTP is a primitive. JSON is a primitive. /goal is becoming one for coding agents.\n\nA few weeks ago, OpenAI's Codex CLI added /goal as a way to give the coding worker a job with a defined done state. Claude Code added it this week. \n\nHermes Agent, the orchestrator I run on a Mac Mini to coordinate work between coding workers, has had /goal built in for a while. \n\nSo I now have a builder, a reviewer, and an orchestrator that all accept the same instruction format, even though they share nothing else.\n\nIf you've only seen /goal used as a fancier prompt, you've missed what it changes.\n\n## \n\nWhat /goal actually is\n\nA regular prompt asks an agent for the next response. You read what comes back, decide if it's right, and push the agent forward to the next step. You're steering every turn.\n\n/goal flips that. You write down what \"done\" looks like, submit it once, and the agent works toward it until it gets there. Here's a real one:\n\n```text\n/goal Build the app described in SPEC.md. Done means tests pass, \nbuild passes, README is accurate, and git status only shows \nrelevant project files.\n```\n\nThe goal stays active until it's achieved, paused, blocked, cleared, or it runs out of budget.\n\nThis is different from putting the word \"goal\" inside a normal one-shot command. If you write codex exec 'goal: build the app', that's still a prompt with a label. The real primitive lives inside an interactive worker session. You launch the CLI, you submit /goal, and you walk away.\n\nThe shift is from prompting (you driving) to assigning (the agent driving toward a target you defined).\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQtyk7aYAEwJoI.jpg)\n\nGIF\n\n## \n\nThe three tools that currently speak /goal\n\nThe three tools accepting /goal aren't all the same kind of thing, so it's worth being specific.\n\nCodex is OpenAI's coding CLI. Strong at implementation, especially when given a clear spec. /goal is how you give it that spec.\n\nClaude Code is Anthropic's coding CLI. Strong at the inverse: finding what's wrong with code that looks right. Spec compliance, safety issues, error states, security holes. /goal is how you point it at code and ask for a review.\n\nHermes Agent is a different kind of tool entirely. Not a coding worker, but an orchestrator that coordinates work between coding workers like the two above. /goal is how Hermes hands off tasks to whichever tool is right for the job, and also how I tell Hermes what I want in the first place.\n\nWhat matters isn't that any one of them shipped /goal. It's that three different teams converged on the same primitive, and that convergence is what makes it possible to compose them.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQvSeHagAApJfS.jpg)\n\nGIF\n\n## \n\nSetting things up\n\nThe first time I needed Codex and Claude Code on the Mac Mini that runs Hermes, I didn't install them by hand. I sent Hermes a message asking it to install both and log me in. It handled the rest.\n\nThat's the workflow now. You don't type install commands. Setup is just another goal.\n\nIf you don't have an orchestrator running yet, the install pages for",
+      "text_excerpt_zh": "## \n\n/goal 终极指南\n\n/goal 不是一个功能。它是一个原语。\n\nHTTP 是一个原语。JSON 是一个原语。/goal 正在成为编码代理的一个原语。\n\n几周前，OpenAI 的 Codex CLI 添加了 /goal，作为一种为编码工作者分配任务并定义完成状态的方式。Claude Code 本周也添加了它。\n\nHermes Agent，这个我在 Mac Mini 上运行以协调编码工作者之间工作的编排器，早已内置了 /goal。\n\n所以，我现在有一个构建者、一个审查者，以及一个编排器，它们都接受相同的指令格式，尽管除此之外它们毫无共同之处。\n\n如果你只见过 /goal 被用作一个更花哨的提示词，那你就错过了它所改变的东西。\n\n## \n\n/goal 到底是什么\n\n一个常规的提示词要求代理给出下一个响应。你阅读返回的内容，判断是否正确，然后推动代理进入下一步。你在掌控每一个回合。\n\n/goal 颠覆了这一点。你写下“完成”的样子，一次性提交它，然后代理朝着这个目标工作，直到达成。这是一个真实的例子：\n\n```text\n/goal 构建 SPEC.md 中描述的应用程序。完成意味着测试通过，\n构建通过，README 准确无误，并且 git status 只显示\n相关的项目文件。\n```\n\n目标保持激活状态，直到它被实现、暂停、阻塞、清除，或者预算耗尽。\n\n这与将“goal”这个词放在一个普通的单次命令中不同。如果你写 `codex exec 'goal: build the app'`，那仍然是一个带有标签的提示词。真正的原语存在于一个交互式的工作会话中。你启动 CLI，提交 /goal，然后走开。\n\n这种转变是从“提示”（你驱动）到“指派”（代理朝着你定义的目标自主驱动）。\n\n## \n\n当前支持 /goal 的三个工具\n\n这三个接受 /goal 的工具并非同一种类型，所以值得具体说明。\n\nCodex 是 OpenAI 的编码 CLI。在实现方面很强，尤其是在给出清晰规范时。/goal 就是你提供规范的方式。\n\nClaude Code 是 Anthropic 的编码 CLI。在相反方面很强：找出看起来正确的代码中的问题。规范合规性、安全问题、错误状态、安全漏洞。/goal 就是你指向代码并要求审查的方式。\n\nHermes Agent 则是一种完全不同的工具。它不是编码工作者，而是一个编排器，负责协调像上述两者这样的编码工作者之间的工作。/goal 是 Hermes 将任务移交给适合该工作的工具的方式，也是我首先告诉 Hermes 我想要什么的方式。\n\n重要的不是它们中哪一个发布了 /goal。而是三个不同的团队收敛到了同一个原语上，而这种收敛使得组合它们成为可能。\n\n## \n\n设置环境\n\n我第一次需要在运行 Hermes 的 Mac Mini 上安装 Codex 和 Claude Code 时，并没有手动安装。我给 Hermes 发了一条消息，要求它安装两者并帮我登录。它处理了剩下的一切。\n\n这就是现在的工作流程。你不需要输入安装命令。设置只是另一个目标。\n\n如果你还没有运行编排器，安装页面位于",
+      "text_excerpt_zh_hash": "459934e888867503",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2054805605995696128"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -3268,6 +3290,30 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://brandarchive.xyz/"
+    },
+    "https://bridge.surf": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Bridge is an AI-powered platform that turns your ideas into action. Discover and remix skills for automating workflows, generating reports, and more.",
+      "final_url": "https://bridge.surf",
+      "frameable": null,
+      "image_urls": [
+        "https://bridge.surf/image/og-image.png",
+        "https://bridge.surf/bridgeBlack.svg",
+        "https://bridge.surf/v2/section-1/1.webp",
+        "https://bridge.surf/v2/section-1/4.webp",
+        "https://bridge.surf/v2/section-1/7.webp",
+        "https://bridge.surf/v2/section-1/2.webp",
+        "https://bridge.surf/v2/section-1/5.webp",
+        "https://bridge.surf/v2/section-1/8.webp",
+        "https://bridge.surf/v2/section-1/3.webp",
+        "https://bridge.surf/v2/section-1/6.webp",
+        "https://bridge.surf/bridgeWhite.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Bridge - Bridge Intent and Done.",
+      "url": "https://bridge.surf"
     },
     "https://build.nvidia.com/models": {
       "cleaner_v": 2,
@@ -6836,6 +6882,22 @@
       "title": "GitHub - karpathy/rendergit: Render any git repo into a single static HTML page for humans or LLMs · GitHub",
       "url": "https://github.com/karpathy/rendergit"
     },
+    "https://github.com/kegashin/mantle": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Client-side screenshot/image composer for social-ready images. - kegashin/mantle",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/kegashin/mantle",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/1224818904/60301efd-694d-4931-b3e8-d561d0d8a07d",
+        "https://github.com/kegashin/mantle/raw/main/assets/readme/mantle-editor.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - kegashin/mantle: Client-side screenshot/image composer for social-ready images. · GitHub",
+      "url": "https://github.com/kegashin/mantle"
+    },
     "https://github.com/kepano/obsidian-skills": {
       "content_type": "text/html; charset=utf-8",
       "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI. - kepano/obsidian-skills",
@@ -8307,6 +8369,23 @@
       "title": "GitHub - xxtomm/spell-ui: A large collection of high-quality React components that you can copy and paste into any project. · GitHub",
       "url": "https://github.com/xxtomm/spell-ui"
     },
+    "https://github.com/yetone/native-feel-skill": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit. - yetone/native-feel-skill",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/yetone/native-feel-skill",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/8f4ac48ba33cd661741bd56b26d2159cfb672a1e16b8874b771b45929b7eaceb/yetone/native-feel-skill",
+        "https://camo.githubusercontent.com/fdf2982b9f5d7489dcf44570e714e3a15fce6253e0cc6b5aa61a075aac2ff71b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667",
+        "https://camo.githubusercontent.com/a6f428b29e313e29d9b4978fcda45492ec9c3302ac9e71436f25d58ee556c511/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4167656e742d536b696c6c2d376333616564"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit. · GitHub",
+      "url": "https://github.com/yetone/native-feel-skill"
+    },
     "https://github.com/zats/permiso": {
       "content_type": "text/html; charset=utf-8",
       "description": "Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819 - zats/permiso",
@@ -9544,6 +9623,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "I Reverse Engineered Claude's Memory System, and Here's What I Found! - Manthan",
       "url": "https://manthanguptaa.in/posts/claude_memory/"
+    },
+    "https://mantle.kegashin.me": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://mantle.kegashin.me",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Mantle",
+      "url": "https://mantle.kegashin.me"
     },
     "https://mapcn.vercel.app/": {
       "content_type": "text/html; charset=utf-8",
@@ -13411,6 +13503,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2053931229410627584/img/Ev1wBdX70F4zu_Kz.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2054970224567275520/img/rzhShuR-WrbZvwQe.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2054970224567275520/img/rzhShuR-WrbZvwQe.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2054970224567275520/img/rzhShuR-WrbZvwQe.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2054970224567275520/img/rzhShuR-WrbZvwQe.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/1995853750452326400/pu/img/DTtAi2gTm-AfSMdL.jpg": {
       "cleaner_v": 2,
@@ -20300,6 +20420,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HINX1rEbcAAoslt.jpg"
     },
+    "https://pbs.twimg.com/media/HIS8pN9WcAA4xYt.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIS8pN9WcAA4xYt.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIS8pN9WcAA4xYt.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIS8pN9WcAA4xYt.jpg"
+    },
+    "https://pbs.twimg.com/media/HIS8qXoW8AA4LX6.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIS8qXoW8AA4LX6.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIS8qXoW8AA4LX6.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIS8qXoW8AA4LX6.jpg"
+    },
+    "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -26541,6 +26703,22 @@
       "title": "",
       "url": "https://x.com/i/article/2054279489774120960"
     },
+    "https://x.com/i/article/2054805605995696128": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://x.com/i/article/2054805605995696128",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054805605995696128/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HITEO5Ia0AAT0AU?format=jpg&name=900x900)](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/article/2054988166541770782/media/2054983090121134080)\n\nThe ultimate guide to /goal\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[Shubham Saboo](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[@Saboo\\_Shubham\\_](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n·\n\n5h\n\nFollow\n\nClick to Follow Saboo\\_Shubham\\_\n\n12\n\n18\n\n137\n\n[10K](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/status/2054988166541770782/analytics)\n\n/goal is not a feature. It is a primitive. \n\nHTTP is a primitive. JSON is a primitive. /goal is becoming one for coding agents.\n\nA few weeks ago, OpenAI's Codex CLI added /goal as a way to give the coding worker a job with a defined done state. Claude Code added it this week. \n\nHermes Agent, the orchestrator I run on a Mac Mini to coordinate work between coding workers, has had /goal built in for a while. \n\nSo I now have a builder, a reviewer, and an orchestrator that all accept the same instruction format, even though they share nothing else.\n\nIf you've only seen /goal used as a fancier prompt, you've missed what it changes.\n\n## \n\nWhat /goal actually is\n\nA regular prompt asks an agent for the next response. You read what comes back, decide if it's right, and push the agent forward to the next step. You're steering every turn.\n\n/goal flips that. You write down what \"done\" looks like, submit it once, and the agent works toward it until it gets there. Here's a real one:\n\n```text\n/goal Build the app described in SPEC.md. Done means tests pass, \nbuild passes, README is accurate, and git status only shows \nrelevant project files.\n```\n\nThe goal stays active until it's achieved, paused, blocked, cleared, or it runs out of budget.\n\nThis is different from putting the word \"goal\" inside a normal one-shot command. If you write codex exec 'goal: build the app', that's still a prompt with a label. The real primitive lives inside an interactive worker session. You launch the CLI, you submit /goal, and you walk away.\n\nThe shift is from prompting (you driving) to assigning (the agent driving toward a target you defined).\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQtyk7aYAEwJoI.jpg)\n\nGIF\n\n## \n\nThe three tools that currently speak /goal\n\nThe three tools accepting /goal aren't all the same kind of thing, so it's worth being specific.\n\nCodex is OpenAI's coding CLI. Strong at implementation, especially when given a clear spec. /goal is how you give it that spec.\n\nClaude Code is Anthropic's coding CLI. Strong at the inverse: finding what's wrong with code that looks right. Spec compliance, safety issues, error states, security holes. /goal is how you point it at code and ask for a review.\n\nHermes Agent is a different kind of tool entirely. Not a coding worker, but an orchestrator that coordinates work between coding workers like the two above. /goal is how Hermes hands off tasks to whichever tool is right for the job, and also how I tell Hermes what I want in the first place.\n\nWhat matters isn't that any one of them shipped /goal. It's that three different teams converged on the same primitive, and that convergence is what makes it possible to compose them.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQvSeHagAApJfS.jpg)\n\nGIF\n\n## \n\nSetting things up\n\nThe first time I needed Codex and Claude Code on the Mac Mini that runs Hermes, I didn't install them by hand. I sent Hermes a message asking it to install both and log me in. It handled the rest.\n\nThat's the workflow now. You don't type install commands. Setup is just another goal.\n\nIf you don't have an orchestrator running yet, the install pages for",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](https://x.com/i/article/2054805605995696128/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HITEO5Ia0AAT0AU?format=jpg&name=900x900)](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/article/2054988166541770782/media/2054983090121134080)\n\n/goal 终极指南\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[Shubham Saboo](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n[@Saboo\\_Shubham\\_](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F)\n\n·\n\n5小时前\n\n关注\n\n点击关注 @Saboo\\_Shubham\\_\n\n12\n\n18\n\n137\n\n[10K](https://x.com/i/article/2054805605995696128/Saboo%5FShubham%5F/status/2054988166541770782/analytics)\n\n/goal 不是一个功能。它是一个原语。\n\nHTTP 是一个原语。JSON 是一个原语。/goal 正在成为编码 agent 的原语。\n\n几周前，OpenAI 的 Codex CLI 添加了 /goal，作为一种为编码工作者分配任务并定义完成状态的方式。Claude Code 本周也添加了它。\n\nHermes Agent，这个我在 Mac Mini 上运行、用于协调编码工作者之间工作的编排器，早已内置了 /goal。\n\n所以，我现在有一个构建者、一个审查者，以及一个编排器，它们都接受相同的指令格式，尽管它们在其他方面毫无共同之处。\n\n如果你只把 /goal 看作一个更花哨的提示词，那你就错过了它带来的改变。\n\n## \n\n/goal 到底是什么\n\n一个普通的提示词是要求 agent 给出下一个响应。你阅读返回的内容，判断是否正确，然后推动 agent 进入下一步。你在每一步都进行操控。\n\n/goal 则颠覆了这一点。你写下“完成”状态的样子，一次性提交，然后 agent 朝着这个目标工作，直到达成。这是一个真实的例子：\n\n```text\n/goal 构建 SPEC.md 中描述的应用程序。完成意味着测试通过、\n构建通过、README 准确无误，并且 git status 只显示\n相关的项目文件。\n```\n\n这个目标会一直保持活跃，直到被达成、暂停、阻塞、清除，或者预算耗尽。\n\n这与将“goal”这个词放入一个普通的单次命令中不同。如果你写 `codex exec 'goal: build the app'`，那仍然是一个带有标签的提示词。真正的原语存在于一个交互式的工作会话中。你启动 CLI，提交 /goal，然后离开。\n\n这种转变是从“提示”（你驱动）到“指派”（agent 朝着你定义的目标自主驱动）。\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQtyk7aYAEwJoI.jpg)\n\nGIF\n\n## \n\n当前支持 /goal 的三个工具\n\n这三个接受 /goal 的工具并非同一类事物，所以值得具体说明。\n\nCodex 是 OpenAI 的编码 CLI。擅长实现，尤其是在给出明确规范时。/goal 就是你提供规范的方式。\n\nClaude Code 是 Anthropic 的编码 CLI。擅长相反的事情：找出看起来正确的代码中的问题。规范合规性、安全问题、错误状态、安全漏洞。/goal 就是你指向代码并要求审查的方式。\n\nHermes Agent 则是一种完全不同的工具。它不是一个编码工作者，而是一个编排器，负责协调像上面两个那样的编码工作者之间的工作。/goal 是 Hermes 将任务移交给适合该工作的工具的方式，也是我首先告诉 Hermes 我想要什么的方式。\n\n重要的不是它们中哪一个推出了 /goal。而是三个不同的团队汇聚到了同一个原语上，而这种汇聚使得将它们组合起来成为可能。\n\n![](https://pbs.twimg.com/tweet_video_thumb/HIQvSeHagAApJfS.jpg)\n\nGIF\n\n## \n\n设置环境\n\n我第一次需要在运行 Hermes 的 Mac Mini 上安装 Codex 和 Claude Code 时，并没有手动安装。我给 Hermes 发了一条消息，要求它安装两者并登录我的账户。它处理了剩下的一切。\n\n这就是现在的工作流程。你不需要输入安装命令。设置本身只是另一个目标。\n\n如果你还没有运行编排器，安装页面位于",
+      "text_excerpt_zh_hash": "b5f743bc34e35e94",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "https://x.com/i/article/2054805605995696128"
+    },
     "https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html?utm_source=twitter&utm_medium=thread&utm_campaign=ai-scaffolding-commodity-runtime-20260505": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -31257,6 +31435,35 @@
       "image_urls": [],
       "text": "Design systems hold you back",
       "url": "https://x.com/shl/status/2054291387873390773"
+    },
+    "2054615267922350125": {
+      "article_text": "",
+      "article_title": null,
+      "author": {
+        "name": "Jc He",
+        "username": "jc_he_afk"
+      },
+      "fetched_at": "2026-05-14T23:18:37Z",
+      "id": "2054615267922350125",
+      "image_urls": [],
+      "text": "过去几年，我一直在思考一个问题：\n\n如果 AI 不只是一次性完成任务，而是能在真实环境中不断试错，学习，它会变成什么？\n\n于是，我和来自 Deno 的 @heyang_zhou、来自 AFFiNE 的 @zanweiguo、@hwwaanng，以及来自 OpenAI / Meta 等公司的早期投资人一起，在 San Francisco 创立了 AFK Inc.",
+      "url": "https://x.com/jc_he_afk/status/2054615267922350125"
+    },
+    "2054897907069813093": {
+      "article_text": "",
+      "article_title": null,
+      "author": {
+        "name": "Pedro Duarte",
+        "username": "peduarte"
+      },
+      "fetched_at": "2026-05-14T23:18:37Z",
+      "id": "2054897907069813093",
+      "image_urls": [],
+      "text": "everything you need to know about how the team built the new @raycast from the ground up\n\nhonestly worth a read 👉 https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast\n\nthere's nothing to hide",
+      "text_zh": "关于团队如何从零开始构建全新 @raycast 的一切，你都需要了解。\n\n老实说，值得一读 👉 https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast\n\n没什么可隐瞒的。",
+      "text_zh_hash": "44a6684f432ce092",
+      "text_zh_translator_v": 2,
+      "url": "https://x.com/peduarte/status/2054897907069813093"
     }
   },
   "thread_urls_by_conversation": {
@@ -32147,8 +32354,59 @@
     ],
     "2054917554024714309": [
       "https://x.com/yangyi/status/2054946055016554975"
+    ],
+    "2054937364624237047": [
+      "https://x.com/hwwaanng/status/2054939812998881764",
+      "https://bridge.surf",
+      "https://x.com/hwwaanng/status/2054937364624237047",
+      "https://x.com/hwwaanng/status/2054937364624237047/photo/1",
+      "https://twitter.com/jc_he_afk/status/2054615267922350125",
+      "https://pbs.twimg.com/media/HISXiq-bgAAdW5c.jpg"
+    ],
+    "2054942555348099259": [
+      "https://x.com/1weiho/status/2054946502284550197",
+      "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
+    ],
+    "2054972618550161789": [
+      "https://x.com/kegashin/status/2055691555965419542",
+      "https://x.com/kegashin/status/2054975478390313369",
+      "https://x.com/kegashin/status/2054974796396449811",
+      "https://x.com/kegashin/status/2054974796396449811/photo/1",
+      "https://pbs.twimg.com/media/HIS8pN9WcAA4xYt.jpg",
+      "https://pbs.twimg.com/media/HIS8qXoW8AA4LX6.jpg",
+      "https://x.com/kegashin/status/2054974147101429967",
+      "https://x.com/kegashin/status/2054974147101429967/video/1",
+      "https://pbs.twimg.com/amplify_video_thumb/2054974052503093248/img/a6J1zDQSA347WvDG.jpg",
+      "https://x.com/kegashin/status/2054972618550161789",
+      "https://mantle.kegashin.me",
+      "https://github.com/kegashin/mantle",
+      "https://x.com/kegashin/status/2054972618550161789/video/1",
+      "https://pbs.twimg.com/amplify_video_thumb/2054970224567275520/img/rzhShuR-WrbZvwQe.jpg"
+    ],
+    "2054988166541770782": [
+      "https://x.com/Saboo_Shubham_/status/2055560355989049802",
+      "https://x.com/Saboo_Shubham_/status/2055017888818565368",
+      "https://x.com/Saboo_Shubham_/status/2053537881315229721?s=20",
+      "https://x.com/Saboo_Shubham_/status/2055006791868850306",
+      "https://x.com/Saboo_Shubham_/status/2054988880596873233",
+      "https://x.com/Saboo_Shubham_/status/2054988572571402453",
+      "https://x.com/Saboo_Shubham_/status/2054988166541770782",
+      "https://x.com/i/article/2054805605995696128"
+    ],
+    "2055010623910785535": [
+      "https://x.com/yetone/status/2055187043395994070",
+      "https://x.com/yetone/status/2055132925998579778",
+      "https://x.com/yetone/status/2055114929842336064",
+      "https://x.com/yetone/status/2055112451994329281",
+      "https://x.com/yetone/status/2055109774736597100",
+      "https://x.com/yetone/status/2055105139309215860",
+      "https://x.com/yetone/status/2055013046612078789",
+      "https://x.com/yetone/status/2055012336445046916",
+      "https://github.com/yetone/native-feel-skill",
+      "https://x.com/yetone/status/2055010623910785535",
+      "https://twitter.com/peduarte/status/2054897907069813093"
     ]
   },
-  "updated_at": "2026-06-13T18:44:18Z",
+  "updated_at": "2026-06-14T01:36:58Z",
   "window": "archive"
 }
