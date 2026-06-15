@@ -659,6 +659,25 @@
       "title": "",
       "url": "http://nurijanian.substack.com"
     },
+    "http://ocorres.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Un podcast explorando el impacto de la Inteligencia Artificial en el Desarrollo de Software. Conducido por Freddy Montes y Anibal Rojas.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://ocorres.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://ocorres.com/opengraph-image?eb5ddb3a7b4bf9c8",
+        "https://ocorres.com/opengraph-image",
+        "https://ocorres.com/_next/image?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Filsnpikm1fM%2Fmaxresdefault_live.jpg&w=3840&q=75",
+        "https://ocorres.com/_next/image?url=%2Ffreddy.jpg&w=3840&q=75",
+        "https://ocorres.com/_next/image?url=%2Fanibal.jpg&w=3840&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "O corres o te encaramas | Podcast sobre IA y Desarrollo de Software",
+      "url": "http://ocorres.com"
+    },
     "http://ora.run": {
       "content_type": "text/html; charset=utf-8",
       "description": "Rank how ready your business is for AI agents across five layers.",
@@ -11898,48 +11917,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
     },
-    "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg"
-    },
-    "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg"
-    },
-    "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
-    },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -19234,11 +19211,11 @@
       "https://x.com/AnthonyNAguirre/status/2066155812783833175",
       "http://x.com/i/article/2066151030044467200",
       "https://x.com/AnthonyNAguirre/status/2066360265835450480",
+      "https://x.com/AnthonyNAguirre/status/2066268998216654886",
+      "https://x.com/AnthonyNAguirre/status/2066323076464382120",
       "https://x.com/AnthonyNAguirre/status/2066191793918722065",
       "https://x.com/AnthonyNAguirre/status/2066175045047894137",
-      "https://flf.org/epistack/",
-      "https://x.com/AnthonyNAguirre/status/2066268998216654886",
-      "https://x.com/AnthonyNAguirre/status/2066323076464382120"
+      "https://flf.org/epistack/"
     ],
     "2066159260443250715": [
       "https://x.com/Rkpb_R/status/2066159260443250715",
@@ -19270,15 +19247,14 @@
     "2066267571301585340": [
       "https://x.com/test0rosso/status/2066267571301585340",
       "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg",
-      "https://x.com/test0rosso/status/2066459367155581060",
       "https://x.com/test0rosso/status/2066459627793928430",
       "https://x.com/test0rosso/status/2066521547452404042"
     ],
     "2066267719805407463": [
       "https://x.com/daltonmeon/status/2066267719805407463",
       "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg",
-      "https://x.com/daltonmeon/status/2066426030873870548",
-      "https://x.com/daltonmeon/status/2066465389190709402"
+      "https://x.com/daltonmeon/status/2066465389190709402",
+      "https://x.com/daltonmeon/status/2066426030873870548"
     ],
     "2066280075914252486": [
       "https://x.com/chadfowler/status/2066280075914252486",
@@ -19292,6 +19268,8 @@
     ],
     "2066300583686840710": [
       "https://x.com/fmontes/status/2066300583686840710",
+      "https://x.com/fmontes/status/2066581037061149013",
+      "http://ocorres.com",
       "https://x.com/fmontes/status/2066335212485636231",
       "https://x.com/fmontes/status/2066335761331257618",
       "https://x.com/fmontes/status/2066343741288276193",
@@ -19315,17 +19293,18 @@
       "https://x.com/AndrewCurran_/status/2066333702280581262",
       "https://x.com/i/status/2060833920615367058",
       "https://x.com/AndrewCurran_/status/2066370967811887591",
-      "https://x.com/AndrewCurran_/status/2066528482235158744",
       "https://x.com/AndrewCurran_/status/2066401735988670864",
-      "https://x.com/AndrewCurran_/status/2066341991995343303",
       "https://x.com/AndrewCurran_/status/2066334986287063072",
-      "https://x.com/AndrewCurran_/status/2066339557533196790",
       "https://x.com/AndrewCurran_/status/2066401873796723078",
-      "https://x.com/AndrewCurran_/status/2066382711305232702",
-      "https://x.com/AndrewCurran_/status/2066386862579831262",
+      "https://x.com/AndrewCurran_/status/2066339557533196790",
+      "https://x.com/AndrewCurran_/status/2066341991995343303",
       "https://x.com/AndrewCurran_/status/2066395221886402891",
+      "https://x.com/AndrewCurran_/status/2066386862579831262",
+      "https://x.com/AndrewCurran_/status/2066382711305232702",
+      "https://x.com/AndrewCurran_/status/2066589897327304789",
       "https://x.com/AndrewCurran_/status/2066347235726725172",
-      "https://x.com/AndrewCurran_/status/2066400755419156584"
+      "https://x.com/AndrewCurran_/status/2066540016520856025",
+      "https://x.com/AndrewCurran_/status/2066528482235158744"
     ],
     "2066335368539189755": [
       "https://x.com/soleio/status/2066335368539189755"
@@ -19356,6 +19335,7 @@
     "2066413406899331197": [
       "https://x.com/PawelHuryn/status/2066413406899331197",
       "https://x.com/PawelHuryn/status/2066432018389365041",
+      "https://x.com/PawelHuryn/status/2066570931326062818",
       "https://x.com/PawelHuryn/status/2066432648394817857"
     ],
     "2066415484149633329": [
@@ -19406,14 +19386,15 @@
       "https://x.com/0xMortyx/status/2066469702075920794",
       "http://x.com/i/article/2066436932624629760",
       "https://x.com/0xMortyx/status/2066481393165586480",
+      "https://x.com/0xMortyx/status/2066579000395247888",
       "https://x.com/0xMortyx/status/2066471484835459360",
-      "https://x.com/0xMortyx/status/2066481607284785398",
-      "https://x.com/0xMortyx/status/2066494564144148514",
-      "https://x.com/0xMortyx/status/2066481496915886233",
-      "https://x.com/0xMortyx/status/2066482085611671842",
-      "https://x.com/0xMortyx/status/2066511606524018893",
       "https://x.com/0xMortyx/status/2066473352181518809",
+      "https://x.com/0xMortyx/status/2066511606524018893",
+      "https://x.com/0xMortyx/status/2066481607284785398",
+      "https://x.com/0xMortyx/status/2066482085611671842",
+      "https://x.com/0xMortyx/status/2066481496915886233",
       "https://x.com/0xMortyx/status/2066482636856476118",
+      "https://x.com/0xMortyx/status/2066494564144148514",
       "https://x.com/0xMortyx/status/2066482962317603259"
     ],
     "2066476403667714432": [
@@ -19423,16 +19404,13 @@
     "2066487060999917626": [
       "https://x.com/threepointone/status/2066487060999917626",
       "https://sunilpai.dev/posts/never-waste-a-token/",
-      "https://x.com/threepointone/status/2066511623364202544",
-      "https://x.com/threepointone/status/2066493144410001826",
       "https://x.com/threepointone/status/2066499830151520380",
-      "https://x.com/threepointone/status/2066489524583068047",
-      "https://x.com/threepointone/status/2066481114949046693",
-      "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg",
-      "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg",
-      "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
+      "https://x.com/threepointone/status/2066511623364202544",
+      "https://x.com/threepointone/status/2066538074499068151",
+      "https://x.com/threepointone/status/2066493144410001826",
+      "https://x.com/threepointone/status/2066489524583068047"
     ]
   },
-  "updated_at": "2026-06-15T14:35:10Z",
+  "updated_at": "2026-06-15T19:11:41Z",
   "window": "recent"
 }
