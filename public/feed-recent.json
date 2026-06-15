@@ -5506,6 +5506,27 @@
       "title": "[2602.00180] Spec-Driven Development:From Code to Contract in the Age of AI Coding Assistants",
       "url": "https://arxiv.org/abs/2602.00180"
     },
+    "https://arxiv.org/abs/2602.01992": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Abstract page for arXiv paper 2602.01992: Emergent Analogical Reasoning in Transformers",
+      "final_url": "https://arxiv.org/abs/2602.01992",
+      "frameable": false,
+      "image_urls": [
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg",
+        "https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg",
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate > cs > arXiv:2602.01992 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About Computer Science > Artificial Intelligence arXiv:2602.01992 (cs) [Submitted on 2 Feb 2026 ( v1 ), last revised 27 May 2026 (this version, v5)] Title: Emergent Analogical Reasoning in Transformers Authors: Gouki Minegishi , Jingyuan Feng , Hiroki Furuta , Takeshi Kojima , Yusuke Iwasawa , Yutaka Matsuo View a PDF of the paper titled Emergent Analogical Reasoning in Transformers, by Gouki Minegishi and 5 other authors View PDF HTML (experimental) Abstract: Analogy is a central faculty of human intelligence, enabling abstract patterns discovered in one domain to be applied to another. Despite its central role in cognition, the mechanisms by which Transformers acquire and implement analogical reasoning remain poorly understood. In this work, inspired by the notion of functors in category theory, we formalize analogical reasoning as the inference of correspondences between entities across categories. Based on this formulation, we introduce synthetic tasks that evaluate the emergence of analogical reasoning under controlled settings. We find that the emergence of analogical reasoning is highly sensitive to data characteristics, optimization choices, and model scale. Through mechanistic analysis, we show that analogical reasoning in Transformers decomposes into two key components: (1) geometric alignment of relational structure in the embedding space, and (2) the application of a functor within the Transformer. These mechanisms enable models to transfer relational structure from one category to another, realizing analogy. Finally, we quantify these effects and find that the same trends are observed in pretrained LLMs. In doing so, we move analogy from an abstract cognitive notion to a concrete, mechanistically grounded phenomenon in modern neural networks. Comments: Accepted to ICML2026 (spotlight) Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2602.01992 [cs.AI] (or arXiv:2602.01992v5 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2602.01992 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Gouki Minegishi [ view email ] [v1] Mon, 2 Feb 2026 11:49:36 UTC (5,950 KB) [v2] Tue, 3 Feb 2026 05:30:01 UTC (5,951 KB) [v3] Tue, 10 Feb 2026 06:54:46 UTC (5,951 KB) [v4] Sat, 23 May 2026 13:43:38 UTC (6,109 KB) [v5] Wed, 27 May 2026 11:56:43 UTC (6,112 KB) Full-text links: Access Paper: View a PDF of the paper titled Emergent Analogical Reasoning in Transformers, by Gouki Minegishi and 5 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2026-02 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Re",
+      "title": "[2602.01992] Emergent Analogical Reasoning in Transformers",
+      "url": "https://arxiv.org/abs/2602.01992"
+    },
     "https://arxiv.org/abs/2603.17150": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -12327,19 +12348,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg"
     },
-    "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg": {
+    "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg",
+      "final_url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg"
+        "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg"
+      "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HInIHCjacAA3gvP.jpg": {
       "cleaner_v": 2,
@@ -18343,8 +18364,9 @@
     "2065454698711437810": [
       "https://x.com/BetaTomorrow/status/2065454698711437810",
       "http://x.com/i/article/2065452779955748864",
-      "https://x.com/BetaTomorrow/status/2066081176897642631",
-      "https://pbs.twimg.com/media/HKwx2kTaoAAurrc.jpg"
+      "https://x.com/BetaTomorrow/status/2066221353309778382",
+      "https://arxiv.org/abs/2602.01992",
+      "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     ],
     "2065456339183390743": [
       "https://x.com/ericosiu/status/2065456339183390743",
@@ -18384,8 +18406,8 @@
     ],
     "2065487698010292713": [
       "https://x.com/benaratame/status/2065487698010292713",
-      "https://x.com/benaratame/status/2065633553472229578",
       "https://x.com/benaratame/status/2065556965049172461",
+      "https://x.com/benaratame/status/2065633553472229578",
       "https://x.com/benaratame/status/2065508155375665435",
       "https://x.com/benaratame/status/2065490900772343856"
     ],
@@ -18490,14 +18512,14 @@
       "https://x.com/eng_khairallah1/status/2065721530546373016",
       "http://x.com/i/article/2065576448803418112",
       "https://x.com/eng_khairallah1/status/2065744168907899076",
-      "https://x.com/eng_khairallah1/status/2065731650579738790",
       "https://x.com/eng_khairallah1/status/2065891144756551985",
       "https://x.com/eng_khairallah1/status/2065742158523408709",
-      "https://x.com/eng_khairallah1/status/2065724956961329242",
       "https://x.com/eng_khairallah1/status/2065731676177584286",
+      "https://x.com/eng_khairallah1/status/2065724956961329242",
       "https://x.com/eng_khairallah1/status/2065723545007579566",
-      "https://x.com/eng_khairallah1/status/2065793793152999859",
-      "https://x.com/eng_khairallah1/status/2065731699078496350"
+      "https://x.com/eng_khairallah1/status/2065731650579738790",
+      "https://x.com/eng_khairallah1/status/2065731699078496350",
+      "https://x.com/eng_khairallah1/status/2065793793152999859"
     ],
     "2065760176796246355": [
       "https://x.com/aidangomez/status/2065760176796246355",
@@ -18511,8 +18533,6 @@
       "http://x.com/i/article/2065547821441265664"
     ],
     "2065768686485381340": [
-      "https://x.com/Agruck_/status/2065768686485381340",
-      "https://timstreams.net/",
       "https://x.com/Agruck_/status/2065939407845093383",
       "http://Kick.com/Agruck",
       "https://x.com/Agruck_/status/2065967120890880466",
@@ -18525,13 +18545,13 @@
       "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg",
       "https://x.com/Agruck_/status/2065943058131116206",
       "https://pbs.twimg.com/media/HKu0QhXWEAA_Snt.jpg",
-      "https://x.com/Agruck_/status/2066058946226343970",
       "https://x.com/Agruck_/status/2065957599061721496",
+      "https://x.com/Agruck_/status/2066058946226343970",
       "https://x.com/Agruck_/status/2066061253588533747",
       "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg",
+      "https://x.com/Agruck_/status/2066058793956303202",
       "https://x.com/Agruck_/status/2065950836824449215",
       "https://footballia.eu/es",
-      "https://x.com/Agruck_/status/2066058793956303202",
       "https://x.com/Agruck_/status/2065945367766507612"
     ],
     "2065773939520119040": [
@@ -18584,14 +18604,15 @@
     "2065902026228478342": [
       "https://x.com/ericosiu/status/2065902026228478342",
       "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg",
-      "https://x.com/ericosiu/status/2065948257331925200",
       "https://x.com/ericosiu/status/2066151937435902175",
-      "https://x.com/ericosiu/status/2066151834117636313",
+      "https://x.com/ericosiu/status/2065948257331925200",
       "https://x.com/ericosiu/status/2066152064749842558",
+      "https://x.com/ericosiu/status/2066151834117636313",
       "https://x.com/ericosiu/status/2065990940402302980",
-      "https://x.com/ericosiu/status/2066152087675965801",
       "https://x.com/ericosiu/status/2065937476548698199",
+      "https://x.com/ericosiu/status/2066303255815282875",
       "https://x.com/ericosiu/status/2065948341985534032",
+      "https://x.com/ericosiu/status/2066152087675965801",
       "https://x.com/ericosiu/status/2066151716933029907",
       "https://x.com/ericosiu/status/2066152154977693789"
     ],
@@ -18605,10 +18626,10 @@
       "https://x.com/BradGroux/status/2065972678708605423",
       "https://x.com/OmarShahine/status/2065946298004754441",
       "https://x.com/BradGroux/status/2065965293164265758",
-      "https://x.com/BradGroux/status/2066191615929004214",
       "https://x.com/BradGroux/status/2065953096274997631",
       "https://x.com/BradGroux/status/2066088931280511431",
-      "https://x.com/BradGroux/status/2065944553387889016"
+      "https://x.com/BradGroux/status/2065944553387889016",
+      "https://x.com/BradGroux/status/2066191615929004214"
     ],
     "2065942612293365948": [
       "https://x.com/SophiaCai99/status/2065942612293365948",
@@ -18624,13 +18645,12 @@
       "http://x.com/i/article/2065923035916361728"
     ],
     "2065982494454014448": [
-      "https://x.com/BhathalTanvir0/status/2065982494454014448",
-      "https://x.com/BhathalTanvir0/status/2065144380856676388"
+      "https://x.com/BhathalTanvir0/status/2065982494454014448"
     ],
     "2066195933969412098": [
       "https://x.com/amasad/status/2066195933969412098"
     ]
   },
-  "updated_at": "2026-06-14T17:48:04Z",
+  "updated_at": "2026-06-15T01:40:42Z",
   "window": "recent"
 }
