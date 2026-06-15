@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 694,
+      "count": 702,
       "name": "Tools"
     },
     {
@@ -9,7 +9,7 @@
       "name": "Development"
     },
     {
-      "count": 330,
+      "count": 331,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 142,
+      "count": 143,
       "name": "Media"
     },
     {
@@ -38,8 +38,397 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2305,
+  "item_count": 2315,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_title_extracted": "Isometric NYC",
+      "category": "Design",
+      "created_at": "2026-06-15T04:38:26.523760Z",
+      "description": "Isometric NYC is a project that aims to visualize the layout and structure of New York City in a unique isometric style. It focuses on providing an artistic representation that highlights the city's architecture and urban landscape through detailed illustrations.",
+      "domain": "isometric.nyc",
+      "embed_type": "",
+      "id": "k170kmp75xt0tz6m1ny2xrrfwh88qw5e",
+      "og_image_url": "https://cloud.poche.app/api/storage/e50ab9c3-0bcb-4c7b-bdf3-14b75f498d25",
+      "recommended_at": "2026-06-15T04:38:49.464000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "new-york-city",
+        "isometric-art",
+        "urban-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T04:38:49.464000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Isometric NYC",
+      "url": "https://isometric.nyc/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
+      ],
+      "article_title_extracted": "Drop to Deploy",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:48:36.912134Z",
+      "description": "The Vercel Drop feature allows users to quickly deploy web content by simply dragging and dropping files, folders, or .zip files. There is no need for configuration, and the site goes live immediately.",
+      "domain": "drop.new",
+      "embed_type": "",
+      "id": "k1713a73w10bqjxd6wvrr8ce1s88pstf",
+      "og_image_url": "https://cloud.poche.app/api/storage/6759d062-49e5-4af3-984e-133be884122d",
+      "recommended_at": "2026-06-15T03:51:17.115000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "vercel",
+        "web-deployment",
+        "cloud-hosting"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:17.115000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Drop to Deploy",
+      "url": "https://drop.new/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/Hioh4DamknpQbzzIX7Z0Xt1PAk0.webp",
+        "https://framerusercontent.com/images/DKvV5AVomRTWLfOu6iwns4Tw.png?width=2880&height=9440",
+        "https://framerusercontent.com/images/hjlIwxFgMEFrepIptiHwskmwYA.png?width=450&height=450",
+        "https://framerusercontent.com/images/gOBLBh3JBGI9E84H5kh7OPxXGE.png?width=500&height=500",
+        "https://framerusercontent.com/images/KHa8kqoZF3Etp3CtQmwZPT5hs.webp?width=512&height=512",
+        "https://framerusercontent.com/images/a6EzFI747cNqGbsJ3CLrK2Y9So.webp?width=1280&height=767",
+        "https://framerusercontent.com/images/9028brKRSfMOUkGSUADNBQ0WU8.png?width=1200&height=630",
+        "https://framerusercontent.com/images/rkuGN4hWCrDKR0leXiGewHYLA6U.png?width=512&height=512",
+        "https://framerusercontent.com/images/hOA8QPGhC3iWBTFmxSc1YflOk4.svg?width=196&height=98",
+        "https://framerusercontent.com/images/benArmwwTDPL98aV3ZLcNISVEC4.webp?width=300&height=300",
+        "https://framerusercontent.com/images/MmyeZXc1CpRMwYCpTWfLi9gaDfk.png?width=500&height=500",
+        "https://framerusercontent.com/images/Bj16HOKo4yKDY2BajpebjDZsA.png?width=500&height=500"
+      ],
+      "article_title_extracted": "Hex Security | AI-Powered Autonomous Penetration Testing",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:49:31.679090Z",
+      "description": "Hex Security's AI agents find critical vulnerabilities in your systems continuously—not just once a year. Trusted by YC companies. Start your free pentest.",
+      "domain": "hex.co",
+      "embed_type": "",
+      "id": "k17cdx2c2grc4g5vqv5c1tcyvh88pwrs",
+      "og_image_url": "https://framerusercontent.com/images/Hioh4DamknpQbzzIX7Z0Xt1PAk0.webp",
+      "recommended_at": "2026-06-15T03:51:14.496000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "cybersecurity",
+        "penetration-testing",
+        "ai-security"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:14.496000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Hex Security | AI-Powered Autonomous Penetration Testing",
+      "url": "https://hex.co/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/690a1c478363d29d3302f121_tesoro-og.jpg",
+        "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/68ee3e5c777ee4ff4b6fc51f_merchant.avif",
+        "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/68ee3e5c24b64f113ef1e952_game%20studio.avif",
+        "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/68ee3e5c51cef1583b680c9d_gamer.avif"
+      ],
+      "article_title_extracted": "Tesoro – The Rewards Platform Powering the $125 Billion Gaming Economy",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:49:40.708083Z",
+      "description": "Connect your brand with gamers in a whole new way. Tesoro’s patented platform seamlessly turns real-world spending into in-game currency for brands, studios, and players alike.",
+      "domain": "www.tesoroxp.com",
+      "embed_type": "",
+      "id": "k177mwtmejxpar1p4pej2wb8b188pg5s",
+      "og_image_url": "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/690a1c478363d29d3302f121_tesoro-og.jpg",
+      "recommended_at": "2026-06-15T03:51:12.749000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "gaming-rewards",
+        "fintech",
+        "loyalty-programs"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:12.749000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Tesoro – The Rewards Platform Powering the $125 Billion Gaming Economy",
+      "url": "https://www.tesoroxp.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://openrouter.ai/dynamic-og?title=Model+Fusion&description=Run+multiple+models+side-by-side%2C+analyze+their+strengths%2C+and+fuse+the+best+answer."
+      ],
+      "article_title_extracted": "Model Fusion | OpenRouter",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:49:47.668151Z",
+      "description": "Run multiple models side-by-side, analyze their strengths, and fuse the best answer.",
+      "domain": "openrouter.ai",
+      "embed_type": "",
+      "id": "k1753d3ybnwjw0nrwxn83sn8ts88pe1r",
+      "og_image_url": "https://openrouter.ai/dynamic-og?title=Model+Fusion&amp;description=Run+multiple+models+side-by-side%2C+analyze+their+strengths%2C+and+fuse+the+best+answer.",
+      "recommended_at": "2026-06-15T03:51:10.384000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-models",
+        "llm-tools",
+        "model-fusion"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:10.384000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Model Fusion | OpenRouter",
+      "url": "https://openrouter.ai/fusion",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://polylane.com/og.png",
+        "https://polylane.com/logos/aws.svg",
+        "https://polylane.com/logos/cloudflare.svg",
+        "https://polylane.com/logos/vercel.svg",
+        "https://polylane.com/logos/fly.svg",
+        "https://polylane.com/logos/render.svg",
+        "https://polylane.com/logos/railway.svg",
+        "https://polylane.com/logos/supabase.svg",
+        "https://polylane.com/logos/planetscale.svg",
+        "https://polylane.com/logos/modal.svg",
+        "https://polylane.com/boris.jpg"
+      ],
+      "article_title_extracted": "polylane · nobody should be on-call in 2026",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:49:53.897423Z",
+      "description": "Software that monitors, diagnoses, and fixes itself in production.",
+      "domain": "polylane.com",
+      "embed_type": "",
+      "id": "k177jbhvwctfsva1jygkstns0h88qzz4",
+      "og_image_url": "https://polylane.com/og.png",
+      "recommended_at": "2026-06-15T03:51:08.902000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "site-reliability",
+        "automation",
+        "observability"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:08.902000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "polylane · nobody should be on-call in 2026",
+      "url": "https://polylane.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-15T03:50:03.305564Z",
+      "description": "Wenting Channel • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k175myw3hpacn2dwb2d53ptxkd88pqsd",
+      "og_image_url": "https://i.ytimg.com/vi/nHbA2-_qzH4/maxresdefault.jpg",
+      "recommended_at": "2026-06-15T03:51:07.470000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "e-ink",
+        "hardware-engineering",
+        "diy-electronics"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:07.470000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "How I made a 60fps Eink Monitor, the Modos Flow",
+      "url": "https://www.youtube.com/watch?v=nHbA2-_qzH4",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://www.creative.inc/og-image.png",
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-default.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu",
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-reveal.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu",
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fobscura.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu"
+      ],
+      "article_title_extracted": "Creative Intelligence Company — Hardware for human creativity",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:50:11.861577Z",
+      "description": "We make hardware for human creativity. AI without the attention economy. Learning without the feed. Tools that serve a moment and then let you go.",
+      "domain": "www.creative.inc",
+      "embed_type": "",
+      "id": "k17730v0zs2t29agyeykvw1has88qmqw",
+      "og_image_url": "https://www.creative.inc/og-image.png",
+      "recommended_at": "2026-06-15T03:51:05.043000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "creative-technology",
+        "hardware-design",
+        "intentional-computing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:05.043000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Creative Intelligence Company — Hardware for human creativity",
+      "url": "https://www.creative.inc/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://www.gile.app/og-image.png",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-1-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-2-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-3-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-4-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-5-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-6-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
+        "https://www.gile.app/images/feature-modern-invoicing-en.png",
+        "https://www.gile.app/images/feature-invoice-templates-en.png",
+        "https://www.gile.app/images/feature-preview-page-en.png",
+        "https://www.gile.app/images/feature-search-and-filters-en.png",
+        "https://www.gile.app/images/feature-export-en.png"
+      ],
+      "article_title_extracted": "Gile - Online Invoicing Made Simple",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:50:29.924644Z",
+      "description": "An invoicing tool for freelancers and small teams. Create, manage, and send invoices without friction.",
+      "domain": "www.gile.app",
+      "embed_type": "",
+      "id": "k17b1eyhm81zvbvsxy4mbyjf7s88p2vd",
+      "og_image_url": "https://www.gile.app/og-image.png",
+      "recommended_at": "2026-06-15T03:51:02.776000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "invoicing",
+        "freelancing",
+        "fintech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:02.776000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Gile - Online Invoicing Made Simple",
+      "url": "https://www.gile.app/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_image_urls": [
+        "https://a.storyblok.com/f/288034353253643/1200x630/17bab97d71/og-home.jpg",
+        "https://a.storyblok.com/f/288034353253643/700x700/8b471550e5/home-hero-link.jpg/m/220x220/filters:format(jpeg):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/39x38/3409a82835/bankable-hardware-tier-1-components.svg",
+        "https://a.storyblok.com/f/288034353253643/33x33/aef3f79623/gigawatt-scale-supply-chain.svg",
+        "https://a.storyblok.com/f/288034353253643/51x40/9a6e2c16f6/u-s-manufacturing-feoc-compliant.svg",
+        "https://a.storyblok.com/f/288034353253643/33x39/1a6c87e243/fault-tolerant-architectures.svg",
+        "https://a.storyblok.com/f/288034353253643/4320x2430/a4add9cd4b/ai-workloads-hero.jpg/m/500x282/filters:format(jpeg):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/4320x2430/44c6e495c8/power-quality-hero.jpg/m/500x282/filters:format(jpeg):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/4320x2430/1c8efb7dd7/grid-volatility-hero.jpg/m/500x282/filters:format(jpeg):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/2048x1365/45d0e4ea96/ismario-eric-jaime.jpg/m/1168x778/filters:format(jpeg):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/1932x835/4e79a1d286/shoals-article-photo.png/m/1168x504/filters:format(png):quality(70)",
+        "https://a.storyblok.com/f/288034353253643/1932x835/4e79a1d286/shoals-article-photo.png/m/366x158/filters:format(png):quality(70)"
+      ],
+      "article_title_extracted": "ON.energy | The Race is ON for Grid-Safe AI Power",
+      "category": "Tools",
+      "created_at": "2026-06-15T03:50:33.004272Z",
+      "description": "Hyperscale power systems for AI and critical infrastructure—energy storage, power electronics, and software delivering grid stability and 99.9% uptime.",
+      "domain": "www.on.energy",
+      "embed_type": "",
+      "id": "k173njwxqgw1rp00ywbpsavxfh88qtcm",
+      "og_image_url": "https://a.storyblok.com/f/288034353253643/1200x630/17bab97d71/og-home.jpg",
+      "recommended_at": "2026-06-15T03:51:01.331000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "energy-storage",
+        "grid-stability",
+        "ai-infrastructure"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T03:51:01.331000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "ON.energy | The Race is ON for Grid-Safe AI Power",
+      "url": "https://www.on.energy/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -2425,9 +2814,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/9633fea35cc2c8f35a6dbe49e7934467049cf832e440c7fb64d6316b6c8d7b89/b-nnett/goose",
+        "https://opengraph.githubassets.com/0a21596bc8d6238acfe4e4fce3352b3865d6e47497b2bd07bb46f72dba45603c/b-nnett/goose",
         "https://github.com/b-nnett/goose/raw/main/docs/assets/readme-hero.png"
       ],
       "article_title_extracted": "GitHub - b-nnett/goose: Goose Swift proof-of-concept README · GitHub",
@@ -2466,7 +2855,8 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
       "article_image_urls": [
         "https://ironhill.au/sharing-global.jpg"
       ],
@@ -2506,20 +2896,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
       "article_image_urls": [
         "https://trysoar.com/Soar/ogimage.jpg",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-background.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2FSoarLogoNavbar.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-device-strip.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-floating-card.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Fdonotsmoke.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Ftradeany.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/_next/image?url=%2FSoar%2Ftrusted-device.png&w=3840&q=75&dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/Soar/logotrusted_01.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/Soar/logotrusted_02.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/Soar/logotrusted_03.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ",
-        "https://trysoar.com/Soar/logotrusted_04.svg?dpl=dpl_BsmSyTuYt7njG6TcQ7XsrKGvmHdQ"
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-background.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2FSoarLogoNavbar.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-device-strip.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-floating-card.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Fdonotsmoke.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Ftradeany.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/_next/image?url=%2FSoar%2Ftrusted-device.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/Soar/logotrusted_01.svg?dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/Soar/logotrusted_02.svg?dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/Soar/logotrusted_03.svg?dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
+        "https://trysoar.com/Soar/logotrusted_04.svg?dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3"
       ],
       "article_title_extracted": "SOAR — trade pre-IPO startups",
       "category": "Crypto",
@@ -2603,7 +2993,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
+      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
       "article_image_urls": [
         "https://macatron.ai/og-image.png",
         "https://www.macatron.ai/siri-logo.png",
@@ -2650,9 +3040,15 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T05:17:49.420270Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/5d/f1/2e5df11e-5eae-95e6-032f-4d03dd3f787f/Placeholder.mill/1200x630wa.jpg",
+        "https://apps.apple.com/assets/artwork/1x1.gif"
+      ],
+      "article_text": "iPhone 专区 iPhone iPad Mac Vision Watch TV 搜索 Today 游戏 App Arcade 平台 iPhone iPad Mac Vision Watch TV Loupe：App能看到什么 隐私与安全指南 免费 分享 138个评分 5.0 年龄分级 4+ 岁 排行榜 #21 软件开发工具 开发者 Mysk Inc. 语言 UK + 15 种语言 大小 8.9 MB iPhone、iPad 导览带你了解任何App都能悄悄读取的数据。看清哪些信息被暴露、为何能认出你，再由你决定如何应对。 有没有想过，广告商是怎么跨App和网站认出你的？答案通常是指纹识别：关于你设备的一些细小、普通的信息，被组合在一起，直到这个组合罕见到足以指向你本人。 Loupe让你亲眼看到这些信息。它调用第三方App所用的同一批公开iOS接口，把原始数据呈现给你，并解释它为何重要。 你能探索什么 跟踪器不需要你的姓名、邮箱或位置，就能认出你。你的地区、语言、设置、存储和传感器，会形成一种足够独特的模式，在网上一路跟随你。Loupe把这些读数集中到一处，让你清楚看到自己正在共享什么。 三种访问级别 Loupe按每项读数所需的访问权限多少来分类： - 被动：任何App都能读取，完全没有提示，从时区、键盘语言到电池和存储。 - 需要权限：会触发iOS提示的读数，比如位置、通讯录、照片和运动与健身。 - 高级：公开接口允许的旁路手段，比如检查你装了哪些App、在隐藏的浏览器里做图形检测，以及一条能在重装App后依然留存的记录。 没有任何信息离开你的iPhone Loupe在你的设备上读取一切，并把它们留在本机。除非你自己导出，否则不会上传、同步或分享任何内容。没有账户，也没有分析统计。 你可以看看这些 - 透露你居住地和出行地的地区、语言和设置 - 你的屏幕、图形、存储和电池细节 - 已配对配件上的名称，常常会泄露你本人的名字 - 你装了哪些热门App，无需任何权限即可推断出来 - 你的设备完成设置或上次抹掉的精确时刻 Loupe由安全研究团队Mysk打造。它揭示你iPhone上可被用来跟踪你的那些信息，让你自己决定如何应对。 更多 评分及评论 5.0 满分 5 分 138 个评分 Wild Access By Apps! 6月6日 aaron-hickey6 Deleted the last few non privacy focused apps after seeing what this app exposes and is available to every app installed on iOS. Using Psylo (very inexpensive for what it is) with PWAs to try and get closer to the “privacy” apple markets. Awesome apps by team mysk! Wild Access By Apps! 6月6日 aaron-hickey6 Deleted the last few non privacy focused apps after seeing what this app exposes and is available to every app installed on iOS. Using Psylo (very inexpensive for what it is) with PWAs to try and get closer to the “privacy” apple markets. Awesome apps by team mysk! Thanks - very informative 6天前 Pinocchio's Noze Well, I discovered this through an article in Apple News. Some of what this app reveals is more than a little scary, but also reassuring to see that you have most stuff locked down as far as possible. I find it very informative, thank you very much. I’ll be telling several folk about this app. Thanks - very informative 6天前 Pinocchio's Noze Well, I discovered this through an article in Apple News. Some of what this app reveals is more than a little scary, but also reassuring to see that you have most stuff locked down as far as possible. I find it very informative, thank you very much. I’ll be telling several folk about this app. Informative, simple, and a little scary. 6月6日 PaulSchmitt This app does what it says, and does it perfectly. Shining a light on all the info Apple gives away, without permission, to applications. Informative, simple, and a little scary. 6月6日 PaulSchmitt This app does what it says, and does it perfectly. Shining a light on all the info Apple gives away, without permission, to applications. Very insightful 6月7日 0f2g Provides additional details not previously consider even for someone that has created, developed, and deconstructs many apps… Very insightful 6月7日 0f2g Provides additional details not previously consider even for someone that has created, developed, and deconstructs many apps… 新功能 版本历史记录 - 现在，“照片”会先征求你的许可，再查询你照片位置的地点名称。 - 新增语言支持：韩语、波兰语、意大利语和越南语。 - 修复了 Steam 的 URL 方案，感谢 @Solarphlare。 - 界面方面的小幅优化。 - 本地化方面的小幅优化。 1.0.1 3天前 1.0.0 6月5日 - 现在，“照片”会先征求你的许可，再查询你照片位置的地点名称。 - 新增语言支持：韩语、波兰语、意大利语和越南语。 - 修复了 Steam 的 URL 方案，感谢 @Solarphlare。 - 界面方面的小幅优化。 - 本地化方面的小幅优化。 更多 版本 1.0.1 3天前 App 隐私 App 隐私 开发者“ Mysk Inc. ”已表明该 App 的隐私规范可能包括下述数据处理方式。此信息未经 Apple 验证。更多相关信息，请参阅 开发者隐私政策 。 为帮助你进一步理解开发者的回应，请参阅 隐私定义和示例 。 隐私规范可能因你使用的功能或你的年龄等因素而异。 进一步了解 未收集数据 开发者不会从此 App 中收集任何数据。 开发者“ Mysk Inc. ”已表明该 App 的隐私规范可能包括下述数据处理方式。更多相关信息，请参阅 开发者隐私政策 。 未收集数据 开发者不会从此 App 中收集任何数据。 隐私规范可能因你使用的功能或你的年龄等因素而异。 进一步了解 辅助功能 辅助功能 开发者“ Mysk Inc. ”表明此 App 支持以下辅助功能，以协助更快、更轻松地完成 App 中的常见任务。 进一步了解 旁白 使用手势、盲文和语音输出浏览和探索 App。 语音控制 使用语音进行轻点、滑动、输入等操作，以浏览并与 App 互动。 更大字体 将 App 中文字大小增加到 200% 或更大。 深色界面 将深色配色应用于屏幕、菜单和控件，以减轻视觉疲劳。 不单靠颜色进行区分 除了颜色外，使用形状或文字区分关键信息。 充足对比度 增加或调整文本或图标与背景之间的对比度。 减弱动态效果 修改或减少可能导致晕动症或不适的特定类型的动画。 字幕 以通常与时间同步的文本显示视频或纯音频内容的对话和相关声音。 口述影像 通过叙述，聆听剪辑、节目或电影中视频内容的音频描述。 开发者表明此 App 支持以下辅助功能。 进一步了解 支持的功能 旁白 语音控制 更大字体 深色界面 不单靠颜色进行区分 充足对比度 减弱动态效果 字幕 口述影像 信息 销售商 Mysk Inc.",
+      "article_title_extracted": "‎Loupe：App能看到什么 App - App Store",
       "category": "Tools",
+      "cleaner_v": 2,
       "created_at": "2026-06-08T02:41:23.435335Z",
       "description": "有没有想过，广告商是怎么跨App和网站认出你的？答案通常是指纹识别：关于你设备的一些细小、普通的信息，被组合在一起，直到这个组合罕见到足以指向你本人。\n\nLoupe让你亲眼看到这些信息。它调用第三方App所用的同一批公开iOS接口，把原始数据呈现给你，并解释它为何重要。\n\n你能探索什么\n跟踪器不需要你的姓名、邮箱或位置，就能认出你。你的地区、语言、设置、存储和传感器，会形成一种足够独特的模式，在网上一路跟随你。Loupe把这些读数集中到一处，让你清楚看到自己正在共享什么。\n\n三种访问级别\nLoupe按每项读数所需的访问权限多少来分类：\n\n- 被动：任何App都能读取，完全没有提示，从时区、键盘语言到电池和存储。\n- 需要权限：会触发iOS提示的读数，比如位置、通讯录、照片和运动与健身。\n- 高级：公开接口允许的旁路手段，比如检查你装了哪些App、在隐藏的浏览器里做图形检测，以及一条能在重装App后依然留存的记录。\n\n没有任何信息离开你的iPhone\nLoupe在你的设备上读取一切，并把它们留在本机。除非你自己导出，否则不会上传、同步或分享任何内容。没有账户，也没有分析统计。\n\n你可以看看这些\n- 透露你居住地和出行地的地区、语言和设置\n- 你的屏幕、图形、存储和电池细节\n- 已配对配件上的名称，常常会泄露你本人的名字\n- 你装了哪些热门App，无需任何权限即可推断出来\n- 你的设备完成设置或上次抹掉的精确时刻\n\nLoupe由安全研究团队Mysk打造。它揭示你iPhone上可被用来跟踪你的那些信息，让你自己决定如何应对。",
       "domain": "apps.apple.com",
@@ -102447,7 +102843,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2148,
+      "count": 2158,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -102483,5 +102879,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-14T21:55:57.232288Z"
+  "updated_at": "2026-06-15T06:08:24.025648Z"
 }
