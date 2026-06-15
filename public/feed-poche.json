@@ -5077,7 +5077,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-01T07:46:06.953710Z",
@@ -5111,7 +5111,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/9cf8829f61bb8f33b646d5481db2adc64b1ec43468327f500e76cfa483961249/disinfeqt/tbd"
       ],
@@ -9547,17 +9547,17 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "http://www.fonts.xyz/static/img/fontsxyz.png",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/burrow-lab/coverimages/Burrowlab_Favicon.jpg",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/giulia-boggio/coverimages/Asset_3300x.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/leon-hugues/coverimages/orange.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/daria-cohen/coverimages/2to1_no_parrot_doesitfinallyfit.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/js-type/coverimages/Screenshot_2026-05-18_at_00.14.56.jpg",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/about-type/coverimages/CoverTest.jpg",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/teaser/coverimages/Teaser.jpg",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/alias/coverimages/fontsxyz_Red_CoverA.jpg",
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_public/foundryassets/NaN/coverimages/Screenshot_2026-01-20_at_23.42.53.jpg",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/static/img/doggy.webp?v=none",
         "https://ams3.digitaloceanspaces.com/fonts-xyz/main/static/img/thinky.webp?v=none",
-        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_private/collection_item_thumbnails/Screenshot_2026-05-11_at_15.53.26.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO8016PUF36UL67T3K77%2F20260608%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20260608T221437Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6489ff72acda9d4211b4fd457a66cd840e583a70f350baea9975065c5abf1221"
+        "https://ams3.digitaloceanspaces.com/fonts-xyz/main/storage_private/collection_item_thumbnails/Screenshot_2026-05-11_at_15.53.26.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO8016PUF36UL67T3K77%2F20260615%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20260615T223720Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4359db52a2095304bd5f115eb388943af4480647cec040ad25401850d704e3ca"
       ],
       "article_title_extracted": "Buy Fonts — Regret Nothing — fonts.xyz",
       "category": "Design",
@@ -9595,7 +9595,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://static.wixstatic.com/media/9b7452_2a16bc053625475daa769651947cbabb~mv2.jpg/v1/fill/w_640,h_360,al_c/9b7452_2a16bc053625475daa769651947cbabb~mv2.jpg",
         "https://static.wixstatic.com/media/9b7452_a57f7e44b7df4530befdf21d2dc65441.jpg/v1/crop/x_21,y_740,w_1379,h_149/fill/w_975,h_105,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b7452_a57f7e44b7df4530befdf21d2dc65441.jpg",
@@ -9702,7 +9702,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Gpdzhphj0570c7CQSMsB2dIRhzQ.jpg",
         "https://framerusercontent.com/images/rxIDBQ8714zdjTL10j34mGTyw.png?width=1448&height=542",
@@ -33966,7 +33966,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-18T04:49:46.864792Z",
@@ -34036,7 +34036,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ifeelsomuchsha.me/web-assets/1.gif"
       ],
@@ -34076,20 +34076,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ardot.tencent.com/android-chrome-512x512.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/navigation-logo.46dfc7ce.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-static-pc.8e81dfe8.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-title-ardor.c742a966.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/carousel-title-eyes.8eb9e169.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-1.5937e7cc.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-2.5d044511.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/interface-element-3.5e31c8d0.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-3.231ba9dc.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-mobile-1.b958a2b3.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-1.1d500e51.png",
-        "https://static.d.gtimg.com/cocraft/5b182017//_next/static/media/CapabilityCard-mobile-2.26102972.png"
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/navigation-logo.46dfc7ce.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/carousel-static-pc.8e81dfe8.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/carousel-title-ardor.c742a966.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/carousel-title-eyes.8eb9e169.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/interface-element-1.5937e7cc.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/interface-element-2.5d044511.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/interface-element-3.5e31c8d0.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/CapabilityCard-3.231ba9dc.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/CapabilityCard-mobile-1.b958a2b3.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/CapabilityCard-1.1d500e51.png",
+        "https://static.d.gtimg.com/cocraft/f4ce73e6//_next/static/media/CapabilityCard-mobile-2.26102972.png"
       ],
       "article_title_extracted": "腾讯设计 Ardot — AI 驱动的智能设计工具",
       "category": "Tools",
@@ -34215,7 +34215,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://seoul-world-model.github.io/assets/data.png",
         "https://seoul-world-model.github.io/assets/vis_attn.png",
@@ -34260,7 +34260,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://taphaptic.com/assets/og-image.png",
         "https://www.taphaptic.com/assets/taphaptic-logo-dark.svg",
@@ -34305,7 +34305,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://layer-website-assets.b-cdn.net/opengraph/og-image-layer-home.jpeg"
       ],
@@ -34553,7 +34553,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "S.H.*.T Space",
       "category": "Articles",
       "created_at": "2026-03-17T03:21:51.965572Z",
@@ -34692,9 +34692,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/3cf589034bf869541ad46afb197ad1aeadc37dfc2b6392e1dae27a2f646c98d2/basecamp/once",
+        "https://opengraph.githubassets.com/0d4e337a0f40b3cdc678c6604db3709b20102a211f8225910cda7753f91d26cd/basecamp/once",
         "https://github.com/basecamp/once/raw/main/.github/media/install.gif"
       ],
       "article_title_extracted": "GitHub - basecamp/once: Easy self-hosting for Docker-based web apps · GitHub",
@@ -34778,7 +34778,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://omou.app/img/og_image.png",
         "https://omou.app/_next/image?url=%2Fimg%2Fstamp_01.webp%3Fv%3D20260315&w=3840&q=75",
@@ -34859,7 +34859,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.facebook.com/tr?id=&ev=PageView&noscript=1"
       ],
@@ -35032,7 +35032,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/fc6d117f886094cd7a56a56c192b72d601f705d327f573d21af507b9d96d4db2/jonesphillip/sharehtml",
         "https://github.com/jonesphillip/sharehtml/raw/main/assets/screenshot.png"
@@ -35074,7 +35074,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://sair.foundation/seo.jpg"
       ],
@@ -35115,7 +35115,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ac-bu.info/kindolphin/assets/ogp.png?20231204",
         "https://ac-bu.info/kindolphin/assets/kindle_ish_tree.webp"
@@ -35230,7 +35230,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://next-tryotter.cdn.prismic.io/next-tryotter/Zx7VR68jQArTz3b4_icon-pos.svg",
         "https://next-tryotter.cdn.prismic.io/next-tryotter/Zx_0ca8jQArTz6mA_icon-pos-hover.svg",
@@ -35281,7 +35281,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/assets/zZG7WgGkp22JxBsbgEuZUZIDY.png",
         "https://framerusercontent.com/images/MYPHRssBK2ut3Qwg6dftdA9MBGE.png?width=400&height=400",
@@ -35330,7 +35330,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-03-14T12:48:03.953120Z",
@@ -35453,7 +35453,7 @@
       "x_status_id": "2032161195533242422"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/dNoeYLyZlFglP4fydOlA1DIZB1o.png",
         "https://framerusercontent.com/images/KN2L0Qo5WSR9dqKWxvlgrJAfc4U.webp?width=375&height=375"
@@ -35595,7 +35595,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/NPVBZBXBchAFMG23UA7gT6qVSE.png",
         "https://framerusercontent.com/images/YJqXkHvC73mkAXftHWMcRD1hTV0.webp?width=1440&height=960",
@@ -35693,7 +35693,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://void.cloud/assets/void-thumb.BiO2L2GR.jpg",
         "https://void.cloud/assets/footer-background.BOazVP_q.jpg"
@@ -35732,7 +35732,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/R20Ufz4COhoDtfs0B8UfsHA2LK4.png",
         "https://framerusercontent.com/images/rRYEcSfakSWpJdSWvKE1QpJNF0.png?width=720&height=560",
@@ -35981,7 +35981,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://giant-grouse-674.convex.cloud/api/storage/99fe52b7-7be7-4b65-90a0-c2cb7425c4c3"
       ],
@@ -36022,7 +36022,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://truecolorfilms.com/og-default.jpg"
       ],
@@ -36060,7 +36060,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-12T06:35:21.223192Z",
@@ -36205,7 +36205,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.method.security/content/seo/method-graphic-social-1200x628.png",
         "https://www.method.security/logotext.svg",
@@ -36253,22 +36253,12 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/698ac5bf59a78ef179c406e4_meta-1200-630-c.png",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/68ecd074ce970e73cb212219_giphy3-ezgif.com-crop.gif",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e98fee29c6a3df04982373_letta_cosmic%20red%20rocks_1nd%20plan.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e98fee70444057fe3e8b0f_letta_cosmic%20red%20rocks_2nd%20plan.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e98feeaa963be4fd6b10fb_letta_cosmic%20red%20rocks_3rd%20plan.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e98fee0083bcfbb9208332_letta_cosmic%20red%20rocks_4th%20plan.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e42098bf5c573e7b0a3d75_rocks-left-top.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/66e42098bf5c573e7b0a3d46_rocks-left-middle.webp",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/683440e49b3021f111716028_logobair.svg",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/682339850e04264476d3c828_865f809de6a947d5d7d9a79efbd22d85_Letta_MainIllustration_LightMode_withLogo.svg",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/6929990fd059adb00c76c149_Group%201000007116.svg",
-        "https://cdn.prod.website-files.com/66b5f39db6c9510dc8cbe834/6929990fb5c56f13ddfd41c7_Group%201000007118.svg"
+        "https://www.letta.com/assets/images/meta-card.png",
+        "https://www.letta.com/assets/images/grid.svg"
       ],
-      "article_title_extracted": "Letta",
+      "article_title_extracted": "Letta | Machines that learn",
       "category": "Development",
       "created_at": "2026-03-12T02:00:02.135978Z",
       "description": "Making machines that learn. Create stateful agents that remember everything, learn continuously, and improve themselves over time.",
@@ -36301,7 +36291,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://hesjustalittleguy.com/img/starboy/preview.webp",
         "https://hesjustalittleguy.com/img/starboy/preview-x.webp",
@@ -36384,7 +36374,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.proofeditor.ai/homepage-social-share.png?v=20260311b",
         "https://proofeditor.ai/assets/proof-logo.svg?v=20260316",
@@ -36485,7 +36475,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://my.wordpress.net/ogimage-mywp.png"
       ],
@@ -36526,7 +36516,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://natural.co/opengraph.jpg",
         "https://www.natural.co/assets/brand/natural-icon.svg",
@@ -36575,7 +36565,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://bruno-simon.com/social/share-image.png?cb=a",
         "https://bruno-simon.com/ui/map.svg",
@@ -36620,7 +36610,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/8GvhNRXE513dH6q3yLvasFqdRI.png",
         "https://framerusercontent.com/images/BlNNrFDUbYbzmYhG0u8Q3Psl8dk.png",
@@ -36672,7 +36662,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "Aaron's Waypoints",
       "category": "Articles",
       "created_at": "2026-03-11T15:12:35.006554Z",
@@ -36710,7 +36700,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-11T12:40:27.526237Z",
@@ -36745,7 +36735,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-11T08:54:51.419298Z",
@@ -36835,7 +36825,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.parseword.com/apple-touch-icon.png"
       ],
@@ -37067,7 +37057,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://portless.sh/og"
       ],
@@ -37105,7 +37095,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://fvqcrhkhgatlyl2m.public.blob.vercel-storage.com/vercel_ship_26_index.gif"
       ],
@@ -37145,7 +37135,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/684fbcc170396646e14881e5/6a1b1da17682ee1bfce0a9ab_Overlay%20web%20preview.png",
         "https://cdn.prod.website-files.com/684fbcc170396646e14881e5/69e0120b893ee019caacae3d_OVERLAY%20Logo%20SVG%202%20(1).png",
@@ -37197,7 +37187,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-10T09:16:32.975867Z",
@@ -37232,7 +37222,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://freight.cargo.site/i/146fd1691449635c24fd0313ea70c75447e41c1dc22975b4960e8e6a66c5d9e9/Stetson-Yondr-Studio-7.jpg",
         "https://freight.cargo.site/t/original/i/14e8f5fc615ecbc2baeee5f4065ebb85fb58cc1bc02b728c23626af12d0b9093/Yondr-Studio-Large-Green.gif",
@@ -37274,7 +37264,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6968f95cf64678111b0f9968/6970a8d1adfbe0df606179cc_open-graph.png"
       ],
@@ -37315,7 +37305,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://veeso.ai/Veeso_og.jpg",
         "https://veeso.ai/veesoai-black.svg",
@@ -37367,7 +37357,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://desengs.com/og.png",
         "https://desengs.com/logo.svg"
@@ -37450,7 +37440,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://refero.design/open-graph-4-1200x630.png"
       ],
@@ -37491,10 +37481,11 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.qclaw.qq.com/qclaw/website/image/og-cover.png",
-        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-nav.png"
+        "https://cdn.qclaw.qq.com/qclaw/website/image/logo-nav.png",
+        "https://claw.guanjia.qq.com/_next/static/media/default.bfa61399.svg"
       ],
       "article_title_extracted": "QClaw - 微信远程办公 AI 助手 | 腾讯出品",
       "category": "Tools",
@@ -37529,7 +37520,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://jido.run/og/render/home"
       ],
@@ -37570,7 +37561,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://data-table.openstatus.dev/assets/data-table-infinite.png"
       ],
@@ -37610,7 +37601,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://camcraft-70ijldcqt-matthewp-4429s-projects.vercel.app/landing_page.jpeg",
         "https://camcraft.vercel.app/_next/image?url=%2Flogo.png&w=64&q=75",
@@ -37656,9 +37647,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/311d1a7e3b619a4137d6988b23d71be2fd84ad65feced657c54f3f059ee4037a/ylytdeng/wechat-decrypt"
+        "https://opengraph.githubassets.com/cf870f02f4ca2e32d26214aae125769a7e2df58730278ca454ce713a06d3d027/ylytdeng/wechat-decrypt"
       ],
       "article_title_extracted": "GitHub - ylytdeng/wechat-decrypt: WeChat 4.0 database decryptor - extract keys from memory, decrypt SQLCipher 4 databases, real-time message monitor · GitHub",
       "category": "Development",
@@ -37696,20 +37687,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/f6oskg04/production/ffce80c74d88a7632ebb865b734216d28458c8aa-1200x630.png",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0vijmlvyt4zmj.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitems-sidebar.0qjxqj95.ncr3.webp&w=750&q=100&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdetails-sidebar.0-2j0530g72j2.webp&w=750&q=100&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-ask-ai.0vr1-e019qpuk.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-answer-engine-insights.0vuy0vrvb3t_5.png&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agents.04gqet16mxjt3.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agent-analytics.00onbqov9v0wi.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGeorge-Bonaci.0x00.f4tm.5rk.jpeg&w=64&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faeo-and-seo.0oxxeiits~ys7.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontent-and-demand.0hw~oacd_0k1r.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5",
-        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpr-and-communications.0siixlg4r5vio.webp&w=3840&q=75&dpl=dpl_F3d9Pu5TGocRqgXkjUJrS1Ve7XP5"
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0vijmlvyt4zmj.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitems-sidebar.0qjxqj95.ncr3.webp&w=750&q=100&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdetails-sidebar.0-2j0530g72j2.webp&w=750&q=100&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-ask-ai.0vr1-e019qpuk.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-answer-engine-insights.0vuy0vrvb3t_5.png&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agents.04gqet16mxjt3.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsolutions-use-cases-agent-analytics.00onbqov9v0wi.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGeorge-Bonaci.0x00.f4tm.5rk.jpeg&w=64&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faeo-report-home.05lbnrqo905ew.png&w=1920&q=100&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faeo-and-seo.0oxxeiits~ys7.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ",
+        "https://www.tryprofound.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontent-and-demand.0hw~oacd_0k1r.webp&w=3840&q=75&dpl=dpl_D4CiajpgkmBYZ5xona9Px8e5MgtJ"
       ],
       "article_title_extracted": "Profound | Optimize Your Brand's Visibility in AI Search",
       "category": "Tools",
@@ -37748,7 +37739,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://chillcraft.app/og.webp"
       ],
@@ -37817,7 +37808,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://happycapy.ai/og-image.png",
         "https://happycapy.ai/images/textlogo_happycapy.svg",
@@ -37868,7 +37859,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/517126881/8d966ed9-7942-41ea-8275-9070470b4c9f"
       ],
@@ -37908,7 +37899,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.arqfinance.com/og-image-en.png",
         "https://www.arqfinance.com/_astro/logo.D534Oqrz_Z1xxVCU.svg",
@@ -37957,7 +37948,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://delphi.tools/delphi-lowlod.png",
         "https://delphi.tools/delphi-friday.png",
@@ -38003,7 +37994,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 522: <none>",
       "article_title_extracted": "PullNotes",
       "category": "Tools",
@@ -38136,7 +38127,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://rwsdk.com/images/og-image.png",
         "https://rwsdk.com/images/logo--light.svg",
@@ -38188,7 +38179,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://antislop.xyz/og-image.png",
         "https://www.antislop.xyz/_next/image?url=%2Fantislop%20logo%20(header).png&w=384&q=75&dpl=dpl_FbxFSFfZd7LHxBrieq7cQ7VtR6EA"
@@ -38226,7 +38217,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://handy.computer/og-banner.png",
         "https://handy.computer/sponsor-images/wordcab.png",
@@ -38267,17 +38258,17 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.cotool.ai/images/og.jpg",
-        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fantoinette-stevens.jpeg&w=96&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fjake-skinner.png&w=96&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fwinston-laoh.jpeg&w=96&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/static/media/feature-automate.12_rdfzz60a4f.png?dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/static/media/feature-monitor.0pq4nmt3zze4t.png?dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/static/media/feature-auto-improve.0eev~9yh5.l48.png?dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwave.0zxys7uk7l~e2.png&w=1920&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U",
-        "https://www.cotool.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-graphic-mobile.15eivl~9.pd_r.png&w=3840&q=75&dpl=dpl_4i9guFGdTCnBC7h2xMmqoKzKg69U"
+        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fantoinette-stevens.jpeg&w=96&q=75&dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fjake-skinner.png&w=96&q=75&dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/image?url=%2Fimages%2Fwinston-laoh.jpeg&w=96&q=75&dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/static/media/feature-automate.12_rdfzz60a4f.png?dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/static/media/feature-monitor.0pq4nmt3zze4t.png?dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/static/media/feature-auto-improve.0eev~9yh5.l48.png?dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwave.0zxys7uk7l~e2.png&w=1920&q=75&dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu",
+        "https://www.cotool.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-graphic-mobile.15eivl~9.pd_r.png&w=3840&q=75&dpl=dpl_fcBxTJbny3pi5KAxDfLcZHjZH1Vu"
       ],
       "article_title_extracted": "Cotool - AI for the blue team.",
       "category": "Tools",
@@ -38316,7 +38307,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://demo.define.app/define_logo_bw.png",
         "https://demo.define.app/define_og_media.png"
@@ -38358,7 +38349,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://t3.codes/harnesses/claude-ai-icon.svg",
         "https://t3.codes/harnesses/openai_dark.svg",
@@ -38454,7 +38445,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://apr-mag.com/wp-content/uploads/2023/11/apr_mag_hdr_logo_1.png",
         "https://apr-mag.com/wp-content/uploads/2026/05/catherinedebrunner-portrat-scaled-1200x1500.jpg",
@@ -38541,7 +38532,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://ern.app/og"
@@ -38685,7 +38676,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.commonknowled.ge/unfurl.png"
       ],
@@ -38761,7 +38752,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://impeccable.style/og-image-v2.jpg",
         "https://impeccable.style/assets/openai-logo.png",
@@ -38907,7 +38898,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://promptfolio.club/og/default.png"
       ],
@@ -39014,9 +39005,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ciggies.app/opengraph-image?5b77838236e879ec",
+        "https://www.ciggies.app/api/img/products/202606111303509190.jpg",
+        "https://www.ciggies.app/api/img/products/202606092036220120.jpg",
         "https://www.ciggies.app/api/img/products/202606042127281690.jpg",
         "https://www.ciggies.app/api/img/products/202606031150128380.jpg",
         "https://www.ciggies.app/api/img/products/202605271044390100.jpg",
@@ -39025,9 +39018,7 @@
         "https://www.ciggies.app/api/img/products/202605210823147580.png",
         "https://www.ciggies.app/api/img/products/202605172310040650.jpg",
         "https://www.ciggies.app/api/img/products/202605021608489090.png",
-        "https://www.ciggies.app/api/img/products/202604280625112560.png",
-        "https://www.ciggies.app/api/img/products/202604112321263160.jpg",
-        "https://www.ciggies.app/api/img/products/202604112257087610.jpg"
+        "https://www.ciggies.app/api/img/products/202604280625112560.png"
       ],
       "article_title_extracted": "中国卷烟博物馆 · Chinese Cigarette Museum",
       "category": "Tools",
@@ -39062,7 +39053,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://lawn.video/og/home.png"
       ],
@@ -39102,7 +39093,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://twine.com/_astro/_social.BmoqoTMV.png",
         "https://twine.com/_astro/_hero_slack_notification.CM2JT05z_Z2otnMQ.webp",
@@ -39217,20 +39208,20 @@
       "x_status_id": "2029198844093997145"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.agentcard.sh/og.png",
         "https://www.agentcard.sh/landing/home/agentcard-logo.svg",
         "https://www.agentcard.sh/landing/home/hero-bg.svg",
         "https://www.agentcard.sh/landing/home/sparkle.svg",
-        "https://www.agentcard.sh/landing/home/claude-icon.svg",
-        "https://www.agentcard.sh/landing/home/openai-icon.svg",
         "https://www.agentcard.sh/landing/home/visa-hero.svg",
         "https://www.agentcard.sh/landing/home/agentcard-label.svg",
         "https://www.agentcard.sh/landing/home/visa.svg",
         "https://www.agentcard.sh/landing/home/claude-large.svg",
         "https://www.agentcard.sh/landing/home/openai-large.svg",
-        "https://www.agentcard.sh/_next/image?url=%2Favatars%2Fsimon-taylor.jpg&w=96&q=75"
+        "https://www.agentcard.sh/_next/image?url=%2Favatars%2Fsimon-taylor.jpg&w=96&q=75",
+        "https://www.agentcard.sh/_next/image?url=%2Favatars%2Falex-johnson.jpg&w=96&q=75",
+        "https://www.agentcard.sh/_next/image?url=%2Favatars%2FDarlingtonDev.jpg&w=96&q=75"
       ],
       "article_title_extracted": "Agentcard",
       "category": "Crypto",
@@ -39269,9 +39260,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1356caf9adf717c2e5311bc52b3cbc7f21cebc83b981bfd420a4007e735f4d0f/googleworkspace/cli",
+        "https://opengraph.githubassets.com/c6a2e1aed6d0a7263d4f8e01282b84ec29cfaae4709d67240c21f2d4c1e72e90/googleworkspace/cli",
         "https://camo.githubusercontent.com/4853e953516d5f164a9f4f700d7685fc8029cb9193ba11a7f133dd1be9944cc5/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f40676f6f676c65776f726b73706163652f636c69",
         "https://camo.githubusercontent.com/7ae38d1c7e56b6b45bfd15bca0e93945abdd5b3bafab93771df6da4025024eaa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f676f6f676c65776f726b73706163652f636c69",
         "https://camo.githubusercontent.com/32e1c944ab8e80496deee97e80e8d68796a04256690c3fa2ea868b439974905c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f676f6f676c65776f726b73706163652f636c692f63692e796d6c3f6272616e63683d6d61696e266c6162656c3d4349",
@@ -39313,7 +39304,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.glaze.app/og-image@2x.png",
         "https://www.glaze.app/assets/feature-agent-m@2x-SqlCEaw_.png",
@@ -39359,7 +39350,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://superset.sh/og-image.png",
         "https://superset.sh/app-icons/claude.svg",
@@ -39410,7 +39401,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ogtag.xyz/?url=https%3A%2F%2Fkeep.md%2F&v=ttj6pf",
         "https://keep.md/testimonials/ben-tossell.jpg",
@@ -39458,7 +39449,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://interfere.com/og/opengraph-image.png",
         "https://ojlajfkioceqxno6.public.blob.vercel-storage.com/marketing-site/homepage/dylan.png",
@@ -39501,7 +39492,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-04T05:16:50.044881Z",
@@ -39535,20 +39526,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.assemblyai.com/_aai/images/meta/og-default.jpg",
-        "https://www.assemblyai.com/_aai/images/logos/assemblyai-icon-primary.svg",
-        "https://www.assemblyai.com/_aai/images/logos/assemblyai-logo-primary.svg",
+        "https://www.assemblyai.com/_aai/images/logos/assemblyai-logo-full-primary.svg",
         "https://www.assemblyai.com/_aai/images/customers/zoom-light.svg",
         "https://www.assemblyai.com/_aai/images/customers/siro-light.svg",
-        "https://www.assemblyai.com/_aai/images/logos/assemblyai-icon-secondary.svg",
-        "https://www.assemblyai.com/_aai/images/logos/assemblyai-logo-secondary.svg",
+        "https://www.assemblyai.com/_aai/images/logos/assemblyai-logo-full-secondary.svg",
         "https://www.assemblyai.com/_aai/images/customers/delphi.svg",
         "https://www.assemblyai.com/_aai/images/customers/happyscribe-logo.svg",
         "https://www.assemblyai.com/_aai/images/customers/supernormal-logo.svg",
         "https://www.assemblyai.com/_aai/images/customers/runway-logo.svg",
-        "https://www.assemblyai.com/_aai/images/customers/ashby-logo.svg"
+        "https://www.assemblyai.com/_aai/images/customers/ashby-logo.svg",
+        "https://www.assemblyai.com/_aai/images/customers/jiminny-logo.svg",
+        "https://www.assemblyai.com/_aai/images/customers/jotpsych.svg"
       ],
       "article_title_extracted": "AssemblyAI | AI models to transcribe and understand speech AssemblyAI | AI models to transcribe and understand speech",
       "category": "Tools",
@@ -39586,7 +39577,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://sessions.co.uk/wp-content/uploads/2025/12/Sessions_OG.jpg",
         "https://sessions.co.uk/wp-content/uploads/2025/12/SOBE_PLYMOUTH_OPENING-19-800x534.jpg",
@@ -39638,7 +39629,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/K7fwZcdPPFs8nlclmMI8qYiU9sA.png",
         "https://framerusercontent.com/images/vh7P86BBSpw0skblzdbXWXE.png?width=2600&height=1792",
@@ -39690,13 +39681,13 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://better-auth.com/og.png",
-        "https://better-auth.com/left-3d-logo.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
-        "https://better-auth.com/right-3d-logo.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
-        "https://better-auth.com/left-3d-logo-light.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
-        "https://better-auth.com/right-3d-logo-light.svg?dpl=dpl_5WQzYvsdFb9mkcFdgD2CZ2uqanZK",
+        "https://better-auth.com/left-3d-logo.svg?dpl=dpl_9McbcDAEJhkizbuPBMicRY2jbGBQ",
+        "https://better-auth.com/right-3d-logo.svg?dpl=dpl_9McbcDAEJhkizbuPBMicRY2jbGBQ",
+        "https://better-auth.com/left-3d-logo-light.svg?dpl=dpl_9McbcDAEJhkizbuPBMicRY2jbGBQ",
+        "https://better-auth.com/right-3d-logo-light.svg?dpl=dpl_9McbcDAEJhkizbuPBMicRY2jbGBQ",
         "https://avatars.githubusercontent.com/u/86073083?v=4&s=64",
         "https://avatars.githubusercontent.com/u/14026360?v=4&s=64",
         "https://avatars.githubusercontent.com/u/65047246?v=4&s=64",
@@ -39899,7 +39890,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/g6Tnai3ElQmeSqLtqpVqsmEtns.png",
         "https://framerusercontent.com/images/V86s9SvhrJzntk6Qjgp6ixdHNR8.png?width=400&height=400",
@@ -40079,7 +40070,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://tools.casabranda.com/images/og-preview.png"
       ],
@@ -40119,7 +40110,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://thegridcn.com/og-image.png"
       ],
@@ -40285,7 +40276,7 @@
       "x_status_id": "2028533326966088188"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.clawly.chat/opengraph-image?75e6500b5c2e75d7",
         "https://www.clawly.pet/icon.png",
@@ -40332,7 +40323,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.llamaindex.ai/og-image.png",
         "https://www.llamaindex.ai/_astro/header-careers.q9Hk8rsS_1RSkuD.webp",
@@ -40384,7 +40375,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://haptics.lochie.me/og.png"
       ],
@@ -40522,7 +40513,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://historyofsoftware.org/og.png",
         "https://historyofsoftware.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiphone.4977f9bc.png&w=1080&q=75&dpl=dpl_7ZPCcRQvwAi3cfoZHNb5T3JCuW2e",
@@ -40573,7 +40564,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://sshx.io/images/social-image2.png",
         "https://sshx.io/_app/immutable/assets/logotype-dark.05834138.svg",
@@ -40614,17 +40605,17 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://component.gallery/open-graph/default.png",
-        "https://component.gallery/_astro/7qjMqjxxOavvcSu2-8QD4RcFjRe7aH6GVJ4cvC4n1Tw_2ovHwf.webp",
-        "https://component.gallery/_astro/DmICReTtv7Z-G4455vgs6elTyiyqgCgkm_RdMYejdQk_ZY9RiB.webp",
-        "https://component.gallery/_astro/8L20zinn_2MfHI91-Hr5wyuMHNztfHZ3cjOeTJhCFfE_2ayaFq.webp",
-        "https://component.gallery/_astro/UmVZYlDDEMTNTv1RPgxC0FVWDiGVHOt7zGFXc1T0OF4_OAhLr.webp",
-        "https://component.gallery/_astro/nZR1up0vS2PdT6P79aBgBClpZinvjRuOC0aa5iopSCU_ZpO5bn.webp",
-        "https://component.gallery/_astro/v3uWL5YTTHc1OZzgZVYCq-0PwHW5171Cdtwk7LK3GOA_Z2tfl0n.webp",
-        "https://component.gallery/_astro/EbRCS_cPC68oBakJE9j-8To_XTvd92z6wRsFiASoiDo_182ctL.webp",
-        "https://component.gallery/_astro/ZeakgyiOEt7ZkMofdiFXb5ZnRqFHsd5ubkmkb8Jmyv4_Z13UOpj.webp"
+        "https://component.gallery/_astro/dLgBXSYWSfEzunFEnLLCfAgC2n6K4wFk3MX2Z9ewN_U_1j51LE.webp",
+        "https://component.gallery/_astro/Ub_TOwvaDGfrRULaVT3QIAqmLIVupzx5U8OwXIwir5Y_ZHdEOH.webp",
+        "https://component.gallery/_astro/jhH5o36JtVeXXsJpDWnTzy07iKcKU9cV_f_bN8u5jgY_jKkwY.webp",
+        "https://component.gallery/_astro/1qfPjElZHGvgKXGtdVPJosQ5lBuTlOc3WhE8TYsycYk_1kPOXU.webp",
+        "https://component.gallery/_astro/_pqjtJuq0lq0DcNweXUKj9pDZP41C1eZEm3u-3Gts8M_ZcJ4cK.webp",
+        "https://component.gallery/_astro/0tvdJg9xEL2V0eKLg6RDav6qJBH9tErMHBZwmy5d_cY_2msT2.webp",
+        "https://component.gallery/_astro/S37dB-GWadDunXKSGycBSytRMl0UFtpXhtC0znnNMoI_Z24zR1H.webp",
+        "https://component.gallery/_astro/w63AqLfXshYO4rWc64mQxBl2yraaFhDPj_2TlA0gda8_ZWgkq2.webp"
       ],
       "article_title_extracted": "The Component Gallery",
       "category": "Design",
@@ -40766,7 +40757,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-03-02T04:14:30.167820Z",
@@ -40839,7 +40830,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://garden.cloudflare.dev/assets/og-home.png",
         "https://garden.cloudflare.dev/_astro/cloudflare.FR8UpI_e.svg",
@@ -40926,7 +40917,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 404: Not Found",
       "category": "Design",
       "created_at": "2026-02-28T08:05:18.742774Z",
@@ -40964,7 +40955,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://readout.org/og.png",
         "https://www.readout.org/logo-outline.svg",
@@ -41001,7 +40992,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "App Store Screenshot Design Inspiration | before.click",
       "category": "Design",
       "created_at": "2026-02-28T08:04:14.296883Z",
@@ -41036,11 +41027,11 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://actors.dev/og-image.png"
       ],
-      "article_title_extracted": "Actors — Infrastructure for Autonomous Agents",
+      "article_title_extracted": "Actors — Shutting Down August 11, 2026",
       "category": "Development",
       "created_at": "2026-02-27T06:41:01.051289Z",
       "description": "Your own email inbox and unified mailbox for autonomous agents. API-first. No humans required.",
@@ -41125,13 +41116,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://faces.app/opengraph-image.png?opengraph-image.0.35pr0nnnga..png",
         "https://faces.app/opengraph-image.png",
-        "https://faces.app/_next/image?url=%2Flanding%2Fwhy%2Fwhy-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
-        "https://faces.app/_next/image?url=%2Flanding%2Ffeatures%2Ffeatures-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
-        "https://faces.app/_next/image?url=%2Flanding%2Ffooter-preview.png&w=384&q=75&dpl=dpl_EBoTLk3bPGrVL668Qb8NzmhAnNxw",
+        "https://faces.app/_next/image?url=%2Flanding%2Fwhy%2Fwhy-preview.png&w=384&q=75&dpl=dpl_5WUKv6boPmCVkDie38MuAYZ8FnGM",
+        "https://faces.app/_next/image?url=%2Flanding%2Ffeatures%2Ffeatures-preview.png&w=384&q=75&dpl=dpl_5WUKv6boPmCVkDie38MuAYZ8FnGM",
+        "https://faces.app/_next/image?url=%2Flanding%2Ffooter-preview.png&w=384&q=75&dpl=dpl_5WUKv6boPmCVkDie38MuAYZ8FnGM",
         "https://faces.app/landing/slides/row-1/posters/1.jpg",
         "https://faces.app/landing/slides/row-1/posters/2.jpg",
         "https://faces.app/landing/slides/row-1/posters/3.jpg",
@@ -41176,7 +41167,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.shortkit.dev/_next/image?url=%2Fyc-square.png&w=48&q=75"
       ],
@@ -41214,7 +41205,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.appstar.world/_next/image?url=https%3A%2F%2Fmljjuwrjocdvrbgzricu.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fapp-assets%2Fthumbnails%2Fdid%3Aprivy%3Acmkr0ily700ebl50chukx9lz8%2F1772040709924-f4hmtq48fw.png&w=1200&q=75",
         "https://www.appstar.world/_next/image?url=https%3A%2F%2Fmljjuwrjocdvrbgzricu.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fapp-assets%2Fthumbnails%2Fdid%3Aprivy%3Acmmc3mw4t01km0djrnr2zijz9%2F1772645205648-252hggbdlnr.webp&w=1200&q=75",
@@ -41256,7 +41247,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/31heufl5/production/cc9f736e633f4e0a410d30f847e71bfc752c4655-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630",
         "https://cdn.sanity.io/images/31heufl5/production/36012a3129bd5a165444987e1851715bcd3caff5-3948x2640.png?rect=1,0,3947,2640&w=3400&h=2274&q=90&fit=max&auto=format&width=3400",
@@ -41346,7 +41337,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.droneland.au/opengraph-image.png?opengraph-image.71a1bcb1.png",
         "https://www.droneland.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-01.1a364421.jpg&w=3840&q=75&dpl=dpl_Gu7QBZfUqPhPffBqW28pZhEPHFMQ",
@@ -41393,7 +41384,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/667440285a368b0bfed2aec2/6682805c6a6b21d1bd9cc3ae_preview.webp",
         "https://cdn.prod.website-files.com/66b45ff6295fb0013cdf1dfd/66b45ff6295fb0013cdf1e0a_logo-velvet.svg",
@@ -41445,7 +41436,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-26T15:44:50.997130Z",
@@ -41479,12 +41470,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://quiver.ai/og.png",
+        "https://quiver.ai/_astro/birds.C4VPaOj7.svg",
+        "https://quiver.ai/blog-mcp/quiver-mcp-visual.png",
         "https://quiver.ai/blog-partners/timbal-ai.jpg",
-        "https://quiver.ai/blog-partners/paper.jpg",
-        "https://quiver.ai/blog-partners/comfyui.jpg"
+        "https://quiver.ai/blog-partners/paper.jpg"
       ],
       "article_title_extracted": "QuiverAI – Building the Future of Vector Design",
       "category": "Design",
@@ -41621,7 +41613,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://on.design/Link.jpg?v=2",
         "https://on.design/carousel-auth/Alex.jpeg",
@@ -41726,9 +41718,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/1cebde22a343569fc6316c3b4211aa09f615ae827f60dfa669280cc40c6abd61/Lakr233/AssppWeb",
+        "https://opengraph.githubassets.com/f0e8adaf0122cbee67a95144f68423d2015df87ee670b6863949e4ad08fae439/Lakr233/AssppWeb",
         "https://github.com/Lakr233/AssppWeb/raw/main/resources/preview.png",
         "https://camo.githubusercontent.com/aa3de9a0130879a84691a2286f5302105d5f3554c5d0af4e3f2f24174eeeea25/68747470733a2f2f6465706c6f792e776f726b6572732e636c6f7564666c6172652e636f6d2f627574746f6e"
       ],
@@ -41886,11 +41878,12 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/S1AutcEo7DtO17XQccA1BB7294.png",
         "https://www.guidelines.online/framerusercontent.com/images/CLSoe4YF8B6FgXmFjLcXJPxNSf0.svg%3Fwidth=1018&height=259",
         "https://www.guidelines.online/framerusercontent.com/images/6bCKmQYhdpDB56p7zD3cjevUPs.png%3Fwidth=1000&height=1000",
+        "https://www.guidelines.online/images/examples/elevate-cover.png?v=e2144adc-900x600",
         "https://www.guidelines.online/images/examples/aero.png",
         "https://www.guidelines.online/images/examples/WcLkVl2ojafuPVpgCmJL3MEx8.png",
         "https://www.guidelines.online/images/examples/XR4dFdIZVEi0e1siDC4F2pypi7Y.png",
@@ -42029,7 +42022,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://pinhead.ink/banner.jpg",
         "https://pinhead.ink/v1/pin.svg",
@@ -42074,7 +42067,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://s.page/og.jpg"
       ],
@@ -42237,7 +42230,7 @@
       "x_status_id": "2026348761501581620"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://images.ctfassets.net/vc31guzs8eg0/3VwbD56MXK0cajx6HPihi8/26fa05154bbdf7abf4a19e33a47b6bb0/LTYC-shareimage-v3.png"
       ],
@@ -42357,7 +42350,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-24T04:49:04.473067Z",
@@ -42392,7 +42385,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-24T04:41:08.250304Z",
@@ -42426,7 +42419,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "Senso — News Through an Ancient Lens",
       "category": "Articles",
       "created_at": "2026-02-23T15:11:30.682905Z",
@@ -42463,7 +42456,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.shiori.sh/og-image.png",
         "https://www.shiori.sh/logo.png",
@@ -42506,7 +42499,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://external-cdn.morphic.com/website-production/assets/images/og/home.avif",
         "https://morphic.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplatform-preview-blur.05lx~jabvkeim.webp&w=3840&q=75",
@@ -42557,7 +42550,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://vizejs.dev/logo.svg",
         "https://github.com/ubugeeei.png"
@@ -42595,7 +42588,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://eyedrop.ai/eyedrop-og.png",
         "https://eyedrop.ai/_astro/eyedrop-iris-cropped.CsS9xXCd.png",
@@ -42741,7 +42734,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 502: Bad Gateway",
       "article_image_urls": [
         "https://walkie.sh/assets/walkie-web.png"
@@ -42782,7 +42775,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "http://littleampscoffee.com/cdn/shop/files/Little_Amps-4.jpg?v=1767030403",
         "https://littleampscoffee.com/cdn/shop/files/preview_images/c8d31ad3915b4930b599ff494663ddcb.thumbnail.0000000000_small.jpg?v=1762896926",
@@ -42869,7 +42862,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "chat jimmy",
       "category": "Tools",
       "created_at": "2026-02-22T07:55:39.105630Z",
@@ -42900,7 +42893,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/snowdog/menu/node/s/e/sengematch_1_2.svg?speedsize=r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/snowdog/menu/node/c/o/comparison_3.svg?speedsize=r_cover",
@@ -42912,8 +42905,8 @@
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/wysiwyg/upload/sovesofa_1.jpg?speedsize=w_100,h_100,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.betternights.com/media/catalog/product/a/n/angle_1_render_venus_180_baltimore_sand_2.jpg?speedsize=w_600,h_600,r_cover",
         "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/v/i/vivo.jpg?speedsize=w_400,h_320,r_cover",
-        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_mollis_180_olympus_903_5.jpg?speedsize=w_400,h_320,r_cover",
-        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_moma_austin_1_1.jpg?speedsize=w_400,h_320,r_cover"
+        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_moma_austin_1_1.jpg?speedsize=w_400,h_320,r_cover",
+        "https://aicdn.speedsize.com/ba3fb294-935f-4e08-b564-af53d494b134/www.bedrenaetter.dk/media/catalog/product/a/n/angle_1_render_moma_bjorn_24_1.jpg?speedsize=w_400,h_320,r_cover"
       ],
       "article_title_extracted": "Better Nights. Good beds and good sleep change everything.",
       "category": "Tools",
@@ -42952,7 +42945,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://holocron.so/api/og?title=Termcast&description=Build+terminal+apps+with+React+and+Raycast-like+APIs&icon=https%3A%2F%2Ftermcast.app%2Ffavicon.ico&siteName=Termcast&pageLabel=termcast.app%2F",
         "https://termcast.app/holocron-api/ai-logo/termcast.jpeg"
@@ -42994,7 +42987,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6550dc350fc956749ca012c6/69ab5dd2958a14c8924ad65e_Backup-Logo.jpg",
         "https://cdn.prod.website-files.com/6550dc350fc956749ca012c6/69f4e119027c0f3a9fe9b4fb_spring%2026_%20photoshoot-230.avif",
@@ -43045,7 +43038,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "http://woset.world/cdn/shop/files/Woset___Logo.jpg?v=1701335373",
         "https://woset.world/cdn/shop/files/DoonasMagicCrayon.webp?v=1741764656&width=1200",
@@ -43153,19 +43146,19 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://kino.ai/logo/opengraph-image.png",
-        "https://kino.ai/_next/image?url=%2Flanding%2Fkino-guy-bg-blurred.png&w=3840&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
+        "https://kino.ai/_next/image?url=%2Flanding%2Fkino-guy-bg-blurred.png&w=3840&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
         "https://kino.ai/logo/kino-primary-logo-white.svg",
         "https://kino.ai/landing/light-texture.png",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fshiva.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fjordanmitchell.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fmaximus.png&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fkrazam.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fdonald.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbowden.jpeg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V",
-        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbrayden.jpg&w=64&q=75&dpl=dpl_EnYL18JB8eUSaZRxpd2A3GqAdg3V"
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fshiva.jpg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fjordanmitchell.jpg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fmaximus.png&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fkrazam.jpg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fdonald.jpg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbowden.jpeg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy",
+        "https://kino.ai/_next/image?url=%2Flanding%2Favatars%2Fbrayden.jpg&w=64&q=75&dpl=dpl_H1p3YKb6rs2hgCNxF8pn2o2FTCQy"
       ],
       "article_title_extracted": "Kino — The new home for video editors – Kino",
       "category": "Tools",
@@ -43245,7 +43238,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://taalas.com/h-content/uploads/2024/02/lead-block-taalas-taalas.png",
         "https://taalas.com/h-content/uploads/2024/02/video-poster-taalas.jpg",
@@ -43293,7 +43286,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://asccli.sh/og.png"
       ],
@@ -43334,7 +43327,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-21T01:53:53.553957Z",
@@ -43492,7 +43485,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-20T09:55:51.484607Z",
@@ -43632,7 +43625,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://rork.com/og-image.png",
         "https://rork.com/_next/image?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBYKxBnEqtGs%2Fmaxresdefault.jpg&w=3840&q=75"
@@ -43730,7 +43723,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://fb.edoo.gg/assets/images/card.jpg?v=86ae0ddf",
         "https://fb.edoo.gg/assets/images/image01.jpg?v=86ae0ddf",
@@ -43832,7 +43825,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://npmx.dev/_og/d/a_~YSBmYXN0LCBtb2Rlcm4gYnJvd3NlciBmb3IgdGhlIG5wbSByZWdpc3RyeS4gU2VhcmNoLCBicm93c2UsIGFuZCBleHBsb3JlIHBhY2thZ2VzIHdpdGggYSBtb2Rlcm4gaW50ZXJmYWNlLg,c_Splash.takumi,s_CJrpH9ChvBFkc5j7.png",
         "https://npmx.dev/extra/npmx-cute.svg",
@@ -43878,7 +43871,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://spacebot.sh/og.jpg",
         "https://spacebot.sh/ball.png",
@@ -43976,7 +43969,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.wist.chat/images/widget-splash.jpg",
         "https://www.wist.chat/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwist-chat-agent-builder.6f7dbfc0.jpg&w=3840&q=75",
@@ -44025,7 +44018,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://beside.com/og/home.png",
         "https://www.beside.com/beside-header-logo.svg",
@@ -44129,7 +44122,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://wholeearth.info/share-image.jpg",
         "https://wholeearth.info/logos/we-catalog.png",
@@ -44215,20 +44208,20 @@
       "x_status_id": "2024144333511815588"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/8nmbzj0x/production/3462cd76bd3792d4ec715bdc568644888fb9b42e-2000x1125.png",
         "https://www.moderntreasury.com/assets/seo/default-meta-image.png",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-1-anchoragedigital.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-2-avidxchange.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-3-bamboohr.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-4-bilt.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-5-check.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-6-classpass.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-7-conservice.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-8-drivewealth.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-9-float.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr",
-        "https://www.moderntreasury.com/assets/carousel-logos/logo-10-forma.svg?dpl=dpl_AnBUKTBb8yvxW3KQqLbSGxSQLkdr"
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-1-anchoragedigital.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-2-avidxchange.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-3-bamboohr.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-4-bilt.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-5-check.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-6-classpass.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-7-conservice.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-8-drivewealth.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-9-float.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh",
+        "https://www.moderntreasury.com/assets/carousel-logos/logo-10-forma.svg?dpl=dpl_7ZyyyRbUhzcxdNQZEZRjk2aATkyh"
       ],
       "article_title_extracted": "Modern Treasury - Build Products That Move Money",
       "category": "Tools",
@@ -44267,13 +44260,13 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.react.doctor/opengraph-image",
-        "https://www.react.doctor/images/logos/paypal.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
-        "https://www.react.doctor/images/logos/rippling.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
-        "https://www.react.doctor/images/logos/alibaba.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF",
-        "https://www.react.doctor/images/logos/posthog.svg?dpl=dpl_4wYKPDY9qUcyZTf78ys7ANY67iHF"
+        "https://www.react.doctor/images/logos/paypal.svg?dpl=dpl_5GS7HK8zt961AtERAYcw5hyQpQHJ",
+        "https://www.react.doctor/images/logos/rippling.svg?dpl=dpl_5GS7HK8zt961AtERAYcw5hyQpQHJ",
+        "https://www.react.doctor/images/logos/alibaba.svg?dpl=dpl_5GS7HK8zt961AtERAYcw5hyQpQHJ",
+        "https://www.react.doctor/images/logos/posthog.svg?dpl=dpl_5GS7HK8zt961AtERAYcw5hyQpQHJ"
       ],
       "article_title_extracted": "React Doctor",
       "category": "Development",
@@ -44312,7 +44305,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-19T02:06:12.426327Z",
@@ -44347,7 +44340,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.dreamer.com/images/media-thumbnail.png?v=2"
       ],
@@ -44420,7 +44413,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-18T16:17:35.428956Z",
@@ -44546,7 +44539,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-18T16:13:32.481556Z",
@@ -44622,20 +44615,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.dench.com/claw/opengraph-image-sidafs.png?opengraph-image.e0c34f1e.png",
         "https://www.dench.com/api/og",
-        "https://www.dench.com/_next/image?url=%2Fbackgrounds%2Fhero-ascii-art.png&w=3840&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fdench-workspace-icon.png&w=3840&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-drive.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/logos/apps/notion.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fsalesforce.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/logos/apps/hubspot.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgmail.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-calendar.png&w=96&q=75&dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/logos/apps/obsidian.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85",
-        "https://www.dench.com/logos/apps/slack.svg?dpl=dpl_xWrTtGN3WCYcUKqn72M5DacWxZ85"
+        "https://www.dench.com/_next/image?url=%2Fbackgrounds%2Fhero-ascii-art.png&w=3840&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fdench-workspace-icon.png&w=3840&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-drive.png&w=96&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/logos/apps/notion.svg?dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fsalesforce.png&w=96&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/logos/apps/hubspot.svg?dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgmail.png&w=96&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/_next/image?url=%2Flogos%2Fapps%2Fgoogle-calendar.png&w=96&q=75&dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/logos/apps/obsidian.svg?dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH",
+        "https://www.dench.com/logos/apps/slack.svg?dpl=dpl_973QdiaEwyx3SLQKDQQfsJkUTQhH"
       ],
       "article_title_extracted": "DenchClaw — AI CRM, hosted locally on your Mac",
       "category": "Tools",
@@ -44674,7 +44667,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "Nova is now Spacesuit",
       "category": "Tools",
       "created_at": "2026-02-17T08:25:50.692613Z",
@@ -44711,9 +44704,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/0e6c24ba42b9c932da9e2eb41be03b01f13c79d048fa23f26b3e60bce709f31f/rjs/shaping-skills"
+        "https://opengraph.githubassets.com/789af06a5fb4f0bf2114e63f3465f67d76fff73d568abfc594ded37de791563a/rjs/shaping-skills"
       ],
       "article_title_extracted": "GitHub - rjs/shaping-skills: Skills I use with Claude for shaping · GitHub",
       "category": "Development",
@@ -44752,7 +44745,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "http://themonolithproject.net/share-og.png",
         "http://themonolithproject.net/share-x.png"
@@ -44791,7 +44784,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Q3hu4kS2kYgSouHNdLEGzYTP8Q.png",
         "https://framerusercontent.com/images/Pu8KKBqpKIhdLXacok6a0vs6qjw.svg?width=300&height=300",
@@ -44843,7 +44836,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://firstofkind.com/og-image.png"
       ],
@@ -44883,7 +44876,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://wiretext.app/opengraph-image?0426fc09442f549d"
       ],
@@ -45039,9 +45032,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/4c8dc6148b4c73153c2653a1b8bf9cda091748691da9077332d72b54fa7f841a/opengeos/anymap-ts",
+        "https://opengraph.githubassets.com/1509b4a0faccd7955360e972e4590627882e441c676193d0e6badab4ec65f287/opengeos/anymap-ts",
         "https://camo.githubusercontent.com/eff96fda6b2e0fff8cdf2978f89d61aa434bb98c00453ae23dd0aab8d1451633/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667",
         "https://camo.githubusercontent.com/06732bafabd5063d859b241af9d033552396b83daf755c70709a33fdb8f9dfb3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f7465626f6f6b2d6c696e6b2d6532643631303f6c6f676f3d6a757079746572266c6f676f436f6c6f723d7768697465",
         "https://camo.githubusercontent.com/9e0d7c5c510ec9a0cb5b1b9557a6fa8ed10875478c3c4f88450c41ffda98637e/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f616e796d61702d74732e737667",
@@ -45144,7 +45137,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://summarize.sh/social-card.png"
       ],
@@ -45185,9 +45178,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/5459bb238ac32d170a792d9f6410f9a18d298b20e826381223e941671fecdf24/joshpuckett/dialkit",
+        "https://opengraph.githubassets.com/ea2b85ca126d8ed77045022f4e388aa99f75cee00e6338caa83fa606b250d6dd/joshpuckett/dialkit",
         "https://camo.githubusercontent.com/e457bb68cbddd3e0013d75029c4846301d9f3d0c955935dc43a35f82ca9f134a/68747470733a2f2f6a6f73687075636b6574742e6d652f696d616765732f6469616c6b69742e706e67"
       ],
       "article_title_extracted": "GitHub - joshpuckett/dialkit: A library to help you dial in interface parameters of any kind · GitHub",
@@ -45337,7 +45330,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.worldmonitor.app/favico/og-image.png"
       ],
@@ -45377,7 +45370,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.monaco.com/og-image.png",
         "https://www.monaco.com/global/logo-mark.svg",
@@ -45422,7 +45415,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://searchingforbirds.visualcinnamon.com/img/socials/searching-for-birds-social-1200x630.jpg",
         "https://searchingforbirds.visualcinnamon.com/img/socials/data-visualization-introduction-snow-owl.jpg",
@@ -45473,7 +45466,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://a.storyblok.com/f/338771/1820x956/706e30d903/newsharecard.png/m/1200x630",
         "https://a.storyblok.com/f/338771/96x96/019ab12c5f/sparkle.png",
@@ -45524,7 +45517,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://wero-wallet.eu/storage/images/Frame-1.png",
         "https://img.imageboss.me/wero-wallet-assets/width/3072/format:png/images/Home-phone-EN-min.png",
@@ -45610,7 +45603,7 @@
       "x_status_id": "2022073098674311554"
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/bz52j8pw/production/7eda3233fe44682df9551bdc8a2b5024ad641a2b-1200x630.png?rect=0,2,1200,627&w=1200&h=627&fit=crop&auto=format",
         "https://cdn.sanity.io/images/bz52j8pw/production/14b8759f41800a056b695bb2cac246f5cab7643b-1970x594.png?auto=format&h=594&w=1970",
@@ -45662,7 +45655,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "article_image_urls": [
         "https://agent.minimax.io/assets/logo/favicon_v2.png?v=4",
@@ -45704,14 +45697,14 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://oblique.security/images/opengraph-image.png",
-        "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2400,height=1600,format=webp/_astro/hero-screenshot.Ce7GWSAO.png",
-        "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2400,height=1600,format=webp/_astro/feature-explainable.BbTcLEW2.png",
-        "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2400,height=1600,format=webp/_astro/feature-safe.DFNSsn66.png",
-        "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2400,height=1600,format=webp/_astro/feature-self-serve.cMeicSBN.png",
-        "https://oblique.security/cdn-cgi/image/onerror=redirect,width=2572,height=1600,format=webp/_astro/cta-image.BYrZd7UG.png"
+        "https://oblique.security/_astro/hero-screenshot.Ce7GWSAO_ZBuqU8.webp",
+        "https://oblique.security/_astro/feature-explainable.BbTcLEW2_Z1FytcG.webp",
+        "https://oblique.security/_astro/feature-safe.DFNSsn66_20G4rD.webp",
+        "https://oblique.security/_astro/feature-self-serve.cMeicSBN_Z2khLdu.webp",
+        "https://oblique.security/_astro/cta-image.BYrZd7UG_1kEIL.webp"
       ],
       "article_title_extracted": "Oblique | Self-serve identity and access management",
       "category": "Tools",
@@ -45749,20 +45742,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://mem.nowledge.co/opengraph-image",
-        "https://mem.nowledge.co/images/nowledge-mem-logo.webp?dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
+        "https://mem.nowledge.co/images/nowledge-mem-logo.webp?dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
         "https://mem.nowledge.co/images/nowledge-mem-app.webp",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FTJ.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FZink_Lu.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FFrost_Ming.png&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FNier_Ikei.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FAlexander-Gladky.webp&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fferstar.jpeg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FLiuVaayne.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fduskzhen.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ",
-        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fjijiamoer.jpg&w=96&q=75&dpl=dpl_2ttkZixUDhZfeAQ7Vcrdy2prnJQJ"
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FTJ.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FZink_Lu.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FFrost_Ming.png&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FNier_Ikei.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FAlexander-Gladky.webp&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fferstar.jpeg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2FLiuVaayne.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fduskzhen.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY",
+        "https://mem.nowledge.co/_next/image?url=%2Fimages%2Ftestimonials%2Fjijiamoer.jpg&w=96&q=75&dpl=dpl_H9HMoeV2dSVhC8yNpxTrsY4APmKY"
       ],
       "article_title_extracted": "Nowledge Mem - Think, Remember, Connect",
       "category": "Tools",
@@ -45856,7 +45849,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-12T02:40:11.501514Z",
@@ -46026,7 +46019,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://tax-ui.brianlovin.com/tax-ui-og.png"
       ],
@@ -46110,7 +46103,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://rolldown.rs/og.jpg",
         "https://rolldown.rs/assets/footer-background.SqbDtxzL.jpg",
@@ -46202,7 +46195,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://entire.io/images/og/home.png?v=2"
       ],
@@ -46239,7 +46232,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://farayan.me/opengraph-image.png?67f42c7e1b284e28",
         "https://farayan.me/_next/image?url=%2Fwindow%2Fwindow.webp&w=1080&q=75"
@@ -46275,7 +46268,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "Obsidian CLI - Obsidian Help",
       "category": "Articles",
       "created_at": "2026-02-10T17:00:07.243052Z",
@@ -46422,7 +46415,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.datocms-assets.com/156916/1742564948-gothenburg-film-festival.jpg?auto=format&fit=max&w=1200",
         "https://newland.tv/_next/image/?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2109728536-b9c0bc9d2448bab082058d60dcfb99fcda484fa1b60683d956135e17682ebcfb-d_1920x1080%3Fregion%3Dus&w=3840&q=75",
@@ -46528,7 +46521,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://images.ctfassets.net/bkmkssdu4exw/4AmtjJsDFh6FaE3A9yrjTt/5614b55c2840d91cc8b6913db3db86a6/Web_Meta_OG_Image.png",
         "https://images.ctfassets.net/bkmkssdu4exw/45ab7gjbGt1vkhly454AUr/22b735f32a8cc8d71ec1b6896c78e7ce/Home_Hero_020726.png?w=3840&q=80&fm=webp",
@@ -46669,7 +46662,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://walzr.com/thumb-img0001pic.jpg",
         "https://walzr.com/thumb-bopspotter.jpg",
@@ -46717,7 +46710,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://botdrop.app/opengraph-image?aea83049959f80cc",
         "https://botdrop.app/logo.svg",
@@ -46870,7 +46863,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://facehash.dev/og-image.png"
       ],
@@ -46988,7 +46981,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://raffi.town/assets/cover-image.png",
         "https://www.raffi.zip/assets/phone-mockups/home-desktop.jpg",
@@ -47089,20 +47082,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://trustmrr.com/opengraph-image.png?64f2b66277614554",
         "https://trustmrr.com/twitter-image.png?64f2b66277614554",
-        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon_trans.5846c62e.png&w=256&q=75&dpl=dpl_Hc6Png9auBf23X33C2Ds8FttNg8x",
-        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fanonymous_startup_icon.c2df1b6b.png&w=64&q=75&dpl=dpl_Hc6Png9auBf23X33C2Ds8FttNg8x",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fviberise-manifest-attract-f60260ec-7fc5-4be5-8127-86193b31503d.png&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.classyaction.app%2Fsmall&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.rift.shifting%2Fsmall&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xU3NaclJCNXBlQThLd0hLfGZsX2xpdmVfU1Q5UlJzQmRzcURBd0kxU2JhdWhTOENt00axH7wGpY&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xTjkxbExDZWR5akxMclBRfGZsX2xpdmVfaDM3aGpteUZpcVJ5dW1KN1dkbHk2Q0JL00uqGnE9T8&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xUmdKelVHQXB5Y3FqWG16fGZsX2xpdmVfTjY2eW1FOWhaeVVJZHFHaWJnTVJkTHhX00JmrPWojE&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fsnaplearn-ffc65e12-8920-48f9-9e4b-bc852bd17cef.webp&w=64&q=75",
-        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fapp.swipeaway-photo-app%2Fsmall&w=64&q=75"
+        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon_trans.5846c62e.png&w=256&q=75&dpl=dpl_89ZxzWgWmAjAFLU9Mdc8YT8mu9zE",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xVGd1VDg2OTQwQTZJTUlVfGZsX2xpdmVfMThaUlNodzBXaEJLUlMydzcxS2FZWHJ00072Y677Us&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fde.tk.digitalScale%2Fsmall&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Ftrancekode-infoway-56f3c976-a917-4e5e-89fd-c761e56efa46.png&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fanonymous_startup_icon.c2df1b6b.png&w=64&q=75&dpl=dpl_89ZxzWgWmAjAFLU9Mdc8YT8mu9zE",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fwww.appatar.io%2Fcom.miraska.Sufler%2Fsmall&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fpolar-public-files.s3.amazonaws.com%2Forganization_avatar%2Fc7fffcff-8f38-486d-bec0-00cd9a80c24c%2Fd8db0958-c20f-4c56-acbe-0821605010b0%2Froam-logo.png&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xUmxHNmhCTkhNM082MTF5fGZsX2xpdmVfSk9na0ZLenpEUE5EaXVadVRMR09jaGZD00GEj1D8do&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Ffiles.stripe.com%2Flinks%2FMDB8YWNjdF8xUzNwdXFSYWVCN0JoYnJYfGZsX2xpdmVfbDloMThlaGlCQTBiS0ZveHdmM0hiYzlw00BdCaGmdb&w=64&q=75",
+        "https://trustmrr.com/_next/image?url=https%3A%2F%2Fd21oz30g4w22sz.cloudfront.net%2Flogos%2Fasoitis-4d004e1e-d7ea-4946-9171-31457355083f.png&w=64&q=75"
       ],
       "article_title_extracted": "TrustMRR - Verified startup revenue database",
       "category": "Tools",
@@ -47141,7 +47134,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://hyper3d.ai/assets/og-banner.png"
       ],
@@ -47181,12 +47174,23 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://cua.ai/cua-logo-accent.svg",
+        "https://cua.ai/android-chrome-512x512.png",
+        "https://cua.ai/cua_logo_white_new.svg",
+        "https://cua.ai/img/providers/linux-white.svg",
+        "https://cua.ai/img/providers/windows-white.svg",
+        "https://cua.ai/img/providers/apple-white.svg",
+        "https://cua.ai/img/providers/android-white.svg",
+        "https://cua.ai/img/logos/yc.svg",
+        "https://cua.ai/img/logos/github-white.svg",
+        "https://cua.ai/img/logos/discord-white.svg",
+        "https://cua.ai/img/logos/x-white.svg",
+        "https://cua.ai/img/logos/linkedin-white.svg",
         "https://cua.ai/koala.svg"
       ],
-      "article_title_extracted": "Cua: Give every agent a cloud desktop",
+      "article_title_extracted": "Cua: Scale computer fleets for computer-use agents",
       "category": "Development",
       "created_at": "2026-02-08T15:03:15.423802Z",
       "description": "Cua - The Computer Use Agent Platform. Build, deploy, and scale AI agents with sandboxed environments.",
@@ -47277,7 +47281,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.useforma.app/og.png",
         "https://www.useforma.app/images/forma-grayscale.svg",
@@ -47328,7 +47332,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://ortho.brdrck.com/opengraph-image.png?opengraph-image.7e8b79d5.png",
         "https://ortho.brdrck.com/twitter-image.png?twitter-image.d729c123.png",
@@ -47371,7 +47375,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-08T16:54:13.488351Z",
@@ -47403,9 +47407,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/9a3ed45ccde4e61499bbfd7c1bad54870f7a1ed28a77471461daa4fd70d85cb9/mitchellh/vouch"
+        "https://opengraph.githubassets.com/c9cc2b0e74d867fbe237a775d8d71f20bc2aefc615dfb26ec2359f635ec77354/mitchellh/vouch"
       ],
       "article_title_extracted": "GitHub - mitchellh/vouch: A community trust management system based on explicit vouches to participate. · GitHub",
       "category": "Development",
@@ -47489,7 +47493,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://soloterm.com/brand/og-v2.png",
         "https://soloterm.com/brand/logo.svg",
@@ -47592,7 +47596,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://env.t3.gg/opengraph-image.png"
       ],
@@ -47630,7 +47634,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://sip.baby/og.webp"
       ],
@@ -47718,7 +47722,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://coteditor.com/img/appicon/512@2x.png",
         "https://coteditor.com/img/appicon/128@2x.png",
@@ -47812,7 +47816,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -47903,9 +47907,11 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://intertapes.net/img/og/default.jpg",
+        "https://intertapes.net/uploads/tapes/biada-biada-biada/grid_generated.webp",
+        "https://intertapes.net/uploads/tapes/czarna-kaseta/grid_generated.webp",
         "https://intertapes.net/uploads/tapes/actv92/grid_generated.webp",
         "https://intertapes.net/uploads/tapes/superacion-personal/grid_generated.webp",
         "https://intertapes.net/uploads/tapes/made-in-heaven/grid_generated.webp",
@@ -47914,9 +47920,7 @@
         "https://intertapes.net/uploads/tapes/ocho/grid_generated.webp",
         "https://intertapes.net/uploads/tapes/berlin94/grid_generated.webp",
         "https://intertapes.net/uploads/tapes/new-york/grid_generated.webp",
-        "https://intertapes.net/uploads/tapes/istanbul/grid_image.webp",
-        "https://intertapes.net/uploads/tapes/berlin-2/grid_image.webp",
-        "https://intertapes.net/uploads/tapes/raquel/grid_image.webp"
+        "https://intertapes.net/uploads/tapes/istanbul/grid_image.webp"
       ],
       "article_title_extracted": "Intertapes",
       "category": "Media",
@@ -47984,7 +47988,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://www.sophieseita.com/media/pages/bio/948228067e-1758493933/sophieseita-by-christa-holka-2aug21-124web.jpg",
         "https://www.sophieseita.com/media/pages/news/glossary-voice/975cc7b6ad-1778701278/img_8099-copy.jpeg",
@@ -48035,9 +48039,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/97c4d6f19da9e35895db32761a65e0b56ed72d6ec2ed734d3c0638ab7b77164c/tmux/tmux",
+        "https://opengraph.githubassets.com/a8c6021fbb3ac7388de32e1da798ac36b1995f39719e0b7601be918f3f1e7aec/tmux/tmux",
         "https://github.com/tmux/tmux/raw/master/logo/tmux-logo-medium.png?raw=true"
       ],
       "article_title_extracted": "Home · tmux/tmux Wiki · GitHub",
@@ -48126,7 +48130,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-02-06T05:31:03.794712Z",
@@ -48252,9 +48256,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/492d391c43e7889031c36073990fcb5ad3e8c81d281182a17c336549474cadf0/open-cli-tools/concurrently",
+        "https://opengraph.githubassets.com/2a4a4634fccab13d77838224473a68379983e573139712108832f3668a067228/open-cli-tools/concurrently",
         "https://camo.githubusercontent.com/b27123a6a7559bb1dda38ae59b716b215aff24c68155c41e141011a1be07dd38/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6f70656e2d636c692d746f6f6c732f636f6e63757272656e746c793f6c6162656c3d52656c65617365",
         "https://camo.githubusercontent.com/230eda386f6b5edf605ecdf0c1ddfd5ebd46b073854bc1542a3e976b159ad01d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6f70656e2d636c692d746f6f6c732f636f6e63757272656e746c793f6c6162656c3d4c6963656e7365",
         "https://camo.githubusercontent.com/4341149b2dd2e6fddd4f64956a706e4d6af419543e6bcb0ab3e849656a09e1d1/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64772f636f6e63757272656e746c793f6c6162656c3d446f776e6c6f616473266c6f676f3d6e706d",
@@ -48299,7 +48303,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "category": "Media",
       "created_at": "2026-02-06T04:55:03.194342Z",
       "description": "Fly a fighter jet over photorealistic San Francisco. Free multiplayer browser flight simulator with Google 3D Tiles.",
@@ -48427,7 +48431,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-05T13:24:11.810242Z",
@@ -48514,7 +48518,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://wayofcode.com/opengraph2.png"
       ],
@@ -48554,7 +48558,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://assets.vercel.com/image/upload/q_auto/front/vercel/twitter-card.png"
       ],
@@ -48677,15 +48681,16 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://itsyhome.app/opengraph-image.png?opengraph-image.6bbd32d8.png",
         "https://itsyhome.app/twitter-image.png?twitter-image.6bbd32d8.png",
-        "https://itsyhome.app/icon.svg?dpl=dpl_8kbecf7CuxKWrddPasteYmKSuH4U",
-        "https://itsyhome.app/_next/image?url=%2Fsplash-macos.png&w=3840&q=75&dpl=dpl_8kbecf7CuxKWrddPasteYmKSuH4U",
-        "https://itsyhome.app/_next/image?url=%2Fsplash-ios.png&w=3840&q=75&dpl=dpl_8kbecf7CuxKWrddPasteYmKSuH4U"
+        "https://itsyhome.app/icon.svg?dpl=dpl_8ci3c9eAhyNcW3frPuMrToarKyb3",
+        "https://itsyhome.app/_next/image?url=%2Fsplash-macos.png&w=3840&q=75&dpl=dpl_8ci3c9eAhyNcW3frPuMrToarKyb3",
+        "https://itsyhome.app/_next/image?url=%2Fsplash-ios.png&w=3840&q=75&dpl=dpl_8ci3c9eAhyNcW3frPuMrToarKyb3",
+        "https://itsyhome.app/_next/image?url=%2Fsplash-tvos.png&w=3840&q=75&dpl=dpl_8ci3c9eAhyNcW3frPuMrToarKyb3"
       ],
-      "article_title_extracted": "Itsyhome – Smart home control for iPhone, iPad, and Mac",
+      "article_title_extracted": "Itsyhome – Smart home control for iPhone, iPad, Mac, and Apple TV",
       "category": "Tools",
       "created_at": "2026-02-04T18:04:23.412669Z",
       "description": "A free macOS menu bar app for controlling your HomeKit smart home devices. Cameras, lights, thermostats, locks, fans, blinds, and more — always one click away.",
@@ -48722,7 +48727,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-02-04T14:17:49.179416Z",
@@ -48757,7 +48762,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/TcqGH24J7DCy46RMYkFuepV2vg.png",
         "https://framerusercontent.com/images/E7s3kPIj146LPElH7RnRirGFIeQ.svg?width=145&height=32",
@@ -48805,7 +48810,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://topfeed.xyz/og-image.png"
       ],
@@ -48910,20 +48915,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg?w=1200&h=630&fit=max&auto=format",
-        "https://cdn.sanity.io/images/e4qjo92p/production/aebac4a1420934999d100fc6fb162044f17241f7-5616x3160.jpg?auto=format&dpr=2&fit=max&q=75&w=1600",
-        "https://cdn.sanity.io/images/e4qjo92p/production/c81b3e1762e9b342ef7ecadb81daae3245c281c0-2400x1350.png?auto=format&dpr=2&fit=max&q=75&w=2000",
+        "https://cdn.sanity.io/images/e4qjo92p/production/989d16b2825031e13885390fe18df902caf9dbe2-5744x3200.png?auto=format&dpr=2&fit=max&q=75&w=2000",
+        "https://cdn.sanity.io/images/e4qjo92p/production/a2562b27028e66b4125594bc9d2d3a3b1f54e9ab-1080x1080.png?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/aebac4a1420934999d100fc6fb162044f17241f7-5616x3160.jpg?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/d1c451417ad59dd9a2f3ecf50a3429c02d3f878c-1920x1080.png?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/44c185a70dd0973a051b918f67737a123ed8fe2b-1920x1080.png?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/3fcc9a2120a22395bbbb4b14c60f107e4d785475-3840x2160.png?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/6e41632774bd23841e20dff6b6285889caab3b6c-1920x1080.jpg?auto=format&dpr=2&fit=crop&fp-x=0.5&fp-y=0.5&h=240&q=75&w=385",
+        "https://cdn.sanity.io/images/e4qjo92p/production/40c8608131973698ce436d6a8c10fffdaead6274-2800x2200.png?auto=format&dpr=2&fit=max&q=75&w=1000",
         "https://cdn.sanity.io/images/e4qjo92p/production/1571f415ac6710e1c8aa0dbd3d2c914aa4f77a2e-204x100.png?auto=format&dpr=2&fit=max&q=75&w=102",
         "https://cdn.sanity.io/images/e4qjo92p/production/62be5100ca9199400e9faa839d26ca6488c1aa88-123x100.png?auto=format&dpr=2&fit=max&q=75&w=62",
-        "https://cdn.sanity.io/images/e4qjo92p/production/c02e598d56e0a92c9147dccc30e24954e031084d-198x55.png?auto=format&dpr=2&fit=max&q=75&w=99",
-        "https://cdn.sanity.io/images/e4qjo92p/production/ce2508630bfe24004117e74e09988aa17b08e175-1600x600.png?auto=format&dpr=2&fit=max&q=75&w=800",
-        "https://cdn.sanity.io/images/e4qjo92p/production/a1d6f17929e8bd5a43e2bdf8f8ca47bea5c5b65e-558x124.png?auto=format&dpr=2&fit=max&q=75&w=279",
-        "https://cdn.sanity.io/images/e4qjo92p/production/7acd00e14ae670c26ef3ada040cff50da166f552-123x64.png?auto=format&dpr=2&fit=max&q=75&w=62",
-        "https://cdn.sanity.io/images/e4qjo92p/production/3a73ef3abaa8c9cd581a07193cb6d63448c6a322-98x118.png?auto=format&dpr=2&fit=max&q=75&w=49",
-        "https://cdn.sanity.io/images/e4qjo92p/production/3e08bb99968005a1b0d50af4e7325ab885c0dc9d-238x68.png?auto=format&dpr=2&fit=max&q=75&w=119",
-        "https://cdn.sanity.io/images/e4qjo92p/production/068e2fe443a7990a11cfd0d7529d7636d7bc64d6-114x100.png?auto=format&dpr=2&fit=max&q=75&w=57"
+        "https://cdn.sanity.io/images/e4qjo92p/production/c02e598d56e0a92c9147dccc30e24954e031084d-198x55.png?auto=format&dpr=2&fit=max&q=75&w=99"
       ],
       "article_title_extracted": "Cerebras",
       "category": "Development",
@@ -48958,16 +48963,16 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-08T22:14:25.027799Z",
+      "article_fetch_attempted_at": "2026-06-15T22:36:59.560965Z",
       "article_image_urls": [
         "https://phylo.bio/og-image.jpg",
-        "https://phylo.bio/logo mark.svg?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/Icon/24×24/Line/Interface/Arrow Right 1.svg?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/Icon/24×24/Line/Interface/Menu Burger Horizontal.svg?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/390.png?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/810.png?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/hero bg.png?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
-        "https://phylo.bio/svg/logomark biomni.svg?dpl=dpl_CTUKfsurMTdjYRymwq9FSAZ4scMV",
+        "https://phylo.bio/logo mark.svg?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/Icon/24×24/Line/Interface/Arrow Right 1.svg?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/Icon/24×24/Line/Interface/Menu Burger Horizontal.svg?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/390.png?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/810.png?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/hero bg.png?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
+        "https://phylo.bio/svg/logomark biomni.svg?dpl=dpl_3e6tHhac1E4b9ryJWTGtPcCbYvMF",
         "https://framerusercontent.com/images/motGwjAGsVtDdfWpCAUEtxlRkg.png"
       ],
       "article_title_extracted": "Phylo - AI Agents for Biomedical Research Phylo | AI Agents for Biomedical Research",
@@ -103043,5 +103048,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-15T20:23:18.349078Z"
+  "updated_at": "2026-06-15T22:49:59.048756Z"
 }
