@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 702,
+      "count": 703,
       "name": "Tools"
     },
     {
@@ -9,7 +9,7 @@
       "name": "Development"
     },
     {
-      "count": 331,
+      "count": 332,
       "name": "Design"
     },
     {
@@ -38,8 +38,89 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2315,
+  "item_count": 2317,
   "items": [
+    {
+      "article_image_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/32/8e/01328e7b-843e-5179-aa8f-a5f63fa63fa6/Placeholder.mill/1200x630wa.jpg",
+        "https://apps.apple.com/assets/artwork/1x1.gif"
+      ],
+      "article_text": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV My Yumlog Keep your signature recipes Only for iPhone Free · In‑App Purchases · Designed for iPhone. Not verified for macOS. Share Age Rating 4+ Years Category Food & Drink Developer 锋 王 Language EN + 3 More Size 111.7 MB iPhone Yumlog is your personal sanctuary for documenting every dish you create. From mastering your first signature recipe to capturing that perfect culinary moment—preserve every unforgettable flavor within Yumlog. - Effortless Management: Add dishes with ease and organize them into multi-dimensional groups. Your personal menu has never been clearer. - Smart Ingredient Linking: Automatically identify and link ingredients using AI, saving you from tedious manual entry. - AI Photo Enhancement: Transform casual snapshots into atmospheric, professional-grade food photography with built-in AI. - Meal Tracking: Track how many times you've enjoyed each dish. Discover which recipe truly becomes your \"Dish of the Year.\" - iCloud Sync & Sharing: Your data stays private and stays with you. Seamlessly sync across all your Apple devices. - Personalized Experience: A variety of customization options to make the app truly yours. Start your Yumlog today, and let every dish leave its mark. Yumlog Pro Membership (Chef Pro): Premium features and higher usage limits are available via Chef Pro. You can choose a monthly or yearly subscription (auto-renewable, cancel anytime in System Settings > Apple ID > Subscriptions), or a Lifetime Purchase (one-time payment). Specific benefits, pricing, and terms are available on the in-app purchase screen and the App Store. Account & Privacy: You can access features using \"Sign in with Apple.\" By default, your recipes and data are stored locally on your device. If iCloud/CloudKit sync is enabled, data will be stored in your iCloud account according to Apple’s service rules. When using AI-powered features, necessary content (such as images or text) will be sent via encrypted connections to the developer’s servers for processing; this information is never used for advertising. If you configure your own third-party APIs within the app, requests will be sent to the address you provide and handled according to that provider's policy. For full details, please refer to our Privacy Policy: https://fenx.design/yumlog/privacy Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ more Ratings & Reviews This app hasn’t received enough ratings or reviews to display an overview. What’s New Version History Bug fixes and performance improvements. 1.0.1 1d ago 1.0 3d ago Bug fixes and performance improvements. more Version 1.0.1 1d ago App Privacy App Privacy The developer, 锋 王 , indicated that the app’s privacy practices may include handling of data as described below. This information has not been verified by Apple. For more information, see the developer’s privacy policy . To help you better understand the developer’s responses, see Privacy Definitions and Examples . Privacy practices may vary, for example, based on the features you use or your age. Learn More Data Not Collected The developer does not collect any data from this app. The developer, 锋 王 , indicated that the app’s privacy practices may include handling of data as described below. For more information, see the developer’s privacy policy . Data Not Collected The developer does not collect any data from this app. Privacy practices may vary, for example, based on the features you use or your age. Learn More Accessibility The developer has not yet indicated which accessibility features this app supports. Learn More Information Seller 锋 王 Size 111.7 MB Category Food & Drink Compatibility Requires iOS 26.0 or later. iPhone Requires iOS 26.0 or later. Mac Requires macOS 26.0 or later and a Mac with Apple M1 chip or later. Apple Vision Requires visionOS 26.0 or later. Languages English and 3 more English,",
+      "article_title_extracted": "‎My Yumlog App - App Store",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-15T13:09:52.855829Z",
+      "description": "Yumlog is your personal sanctuary for documenting every dish you create.\nFrom mastering your first signature recipe to capturing that perfect culinary moment—preserve every unforgettable flavor within Yumlog.\n\n- Effortless Management: Add dishes with ease and organize them into multi-dimensional groups. Your personal menu has never been clearer.\n\n- Smart Ingredient Linking: Automatically identify and link ingredients using AI, saving you from tedious manual entry.\n\n- AI Photo Enhancement: Transform casual snapshots into atmospheric, professional-grade food photography with built-in AI.\n\n- Meal Tracking: Track how many times you've enjoyed each dish. Discover which recipe truly becomes your \"Dish of the Year.\"\n\n- iCloud Sync & Sharing: Your data stays private and stays with you. Seamlessly sync across all your Apple devices.\n\n- Personalized Experience: A variety of customization options to make the app truly yours.\n\nStart your Yumlog today, and let every dish leave its mark.\n\nYumlog Pro Membership (Chef Pro):\nPremium features and higher usage limits are available via Chef Pro. You can choose a monthly or yearly subscription (auto-renewable, cancel anytime in System Settings > Apple ID > Subscriptions), or a Lifetime Purchase (one-time payment). Specific benefits, pricing, and terms are available on the in-app purchase screen and the App Store.\n\nAccount & Privacy:\nYou can access features using \"Sign in with Apple.\" By default, your recipes and data are stored locally on your device. If iCloud/CloudKit sync is enabled, data will be stored in your iCloud account according to Apple’s service rules. When using AI-powered features, necessary content (such as images or text) will be sent via encrypted connections to the developer’s servers for processing; this information is never used for advertising. If you configure your own third-party APIs within the app, requests will be sent to the address you provide and handled according to that provider's policy.\n\nFor full details, please refer to our Privacy Policy: https://fenx.design/yumlog/privacy\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "domain": "apps.apple.com",
+      "embed_type": "",
+      "id": "k1746e8wm1ydh9tvc6ye27dnvx88qzkx",
+      "og_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/32/8e/01328e7b-843e-5179-aa8f-a5f63fa63fa6/Placeholder.mill/1200x630wa.jpg",
+      "recommended_at": "2026-06-15T13:12:37.703000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "food-journaling",
+        "recipe-management",
+        "ai-photography"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T13:12:37.703000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "‎My Yumlog App - App Store",
+      "url": "https://apps.apple.com/us/app/my-yumlog/id6758039922",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-15T14:46:15.821748Z",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/myopy9oh/production/f07bffff8392520bb4df66c0c435d7c95fdcfafe-2400x1260.jpg?w=1200&h=630&q=100&fit=crop&auto=format",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2F5fd2f1dd1de8c6e0e1733eb3dab34e70af2e1555-3849x2165.jpg%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90",
+        "https://image.mux.com/GNPDvoQH9waJSel02Xegk5dnQqED200ePr4MPLai1ylOI/thumbnail.webp?width=192",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2Fed4191e12de09d4c6f3a9847a036d4c3d14e68a4-2880x1620.png%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90",
+        "https://image.mux.com/301YzDIrkQqIj7OHqwZqa00MWLVxVPPb00kwZEdmwInAsg/thumbnail.webp?width=192",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2F455f79a991e15b848148469e19ac7124d8f693a1-1920x1080.jpg%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90",
+        "https://image.mux.com/1utigVmQZO002156kLXoWZyZkI1VJrAJkeaK9G1g01aAU/thumbnail.webp?width=192",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2Fe94b7af094e26f6a17cb9dc633cc576e80f7cd88-3840x2160.png%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90",
+        "https://image.mux.com/778hB2Q00iFrcnKbNZNAdBwqq02WvmG7L014uPhxos2Tno/thumbnail.webp?width=192",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2F129b1d68db01f15b30b1a70201dda18588415866-3240x3240.png%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90",
+        "https://image.mux.com/yaw73qHHIHRix4T5QfmVgdp011qVWflZEM486f004hNmo/thumbnail.webp?width=192",
+        "https://studio-drama.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fmyopy9oh%2Fproduction%2F48a9b347520bda8d54e765fce77eae2d52e526a0-5400x4320.png%3Fw%3D3840%26q%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=90"
+      ],
+      "article_title_extracted": "Studio DRAMA",
+      "category": "Design",
+      "created_at": "2026-06-15T12:47:43.405010Z",
+      "description": "We design type that sharpens identities, scales across systems, solves real business challenges, and makes every word unmistakably yours.",
+      "domain": "studio-drama.com",
+      "embed_type": "",
+      "id": "k17bwtm57j6fwyqkpyy9r95qhh88p5zj",
+      "og_image_url": "https://cdn.sanity.io/images/myopy9oh/production/f07bffff8392520bb4df66c0c435d7c95fdcfafe-2400x1260.jpg?w=1200&amp;h=630&amp;q=100&amp;fit=crop&amp;auto=format",
+      "recommended_at": "2026-06-15T12:53:02.131000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "branding",
+        "design-studio"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-15T12:53:02.131000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Studio DRAMA",
+      "url": "https://studio-drama.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
@@ -2790,10 +2871,10 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
+      "article_fetch_attempted_at": "2026-06-15T14:46:15.821748Z",
       "article_image_urls": [
-        "https://www.cypherpunkbooks.com/opengraph-image.png?opengraph-image.0uxdxnxa5mj37.png?dpl=dpl_EPuLYZZVxoeBits9AHJiaYiVgEHT",
-        "https://www.cypherpunkbooks.com/twitter-image.png?twitter-image.0uxdxnxa5mj37.png?dpl=dpl_EPuLYZZVxoeBits9AHJiaYiVgEHT"
+        "https://www.cypherpunklibrary.com/opengraph-image.png?opengraph-image.0uxdxnxa5mj37.png?dpl=dpl_8m1gD51C3qU2SXpbYwTrxt1fw5WH",
+        "https://www.cypherpunklibrary.com/twitter-image.png?twitter-image.0uxdxnxa5mj37.png?dpl=dpl_8m1gD51C3qU2SXpbYwTrxt1fw5WH"
       ],
       "article_title_extracted": "The Cypherpunk Library",
       "category": "Articles",
@@ -5088,7 +5169,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
+      "article_fetch_attempted_at": "2026-06-15T14:46:15.821748Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-05-31T08:41:46.112919Z",
@@ -5221,7 +5302,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-08T12:48:45.484454Z",
+      "article_fetch_attempted_at": "2026-06-15T14:46:15.821748Z",
       "article_image_urls": [
         "https://dctycoon.arnav.tech/og-image.jpg"
       ],
@@ -102900,7 +102981,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2158,
+      "count": 2160,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -102936,5 +103017,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-15T06:08:24.025648Z"
+  "updated_at": "2026-06-15T14:46:26.350142Z"
 }
