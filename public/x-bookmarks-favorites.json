@@ -68,6 +68,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Shared without comment. https://t.co/0IF8ac0QGW",
+      "text_zh": "不发表评论。https://t.co/0IF8ac0QGW",
+      "text_zh_hash": "b61e7fec864cd92a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jukan05/status/2066369086842605996"
     },
     {
@@ -108,6 +111,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Some observations from disassembly that might be related to iOS 27 performance boost\n\nhttps://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/",
+      "text_zh": "一些来自反汇编的观察，可能与 iOS 27 性能提升有关\n\nhttps://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/",
+      "text_zh_hash": "f7db1c445f2a7165",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CodeColorist/status/2066326578758381747"
     },
     {
@@ -292,6 +298,9 @@
         "bookmark@chumsdock"
       ],
       "text": "High-Performance Teams in the Age of AI 🔥\n\nI've spent a lot of time thinking about what makes teams move incredibly fast while others get stuck.\n\nWhat I've seen is that performance in the age of AI has surprisingly little to do with credentials on paper and increasingly everything to do with mindset.\n\nHere are a few observations from Lovable:",
+      "text_zh": "# 人工智能时代的高绩效团队 🔥\n\n我花了很多时间思考，为什么有些团队能飞速前进，而另一些却停滞不前。\n\n我观察到，在人工智能时代，团队绩效与纸面上的资历关系出奇地小，而与思维模式的关系却越来越大。\n\n以下是我在 Lovable 的一些观察：",
+      "text_zh_hash": "a7fe998ce509c2e5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/felixhhaas/status/2066168984177955157"
     },
     {
@@ -71665,8 +71674,8 @@
         "favorite@chumsdock"
       ],
       "text": "Relaunching my website I decided to finally put the not only the interactive version of Orbits on the page but also the original source code. Pre-AI code lol - http://glauber.org/archive/orbits (proper update with Lisergia, @luisbizarro framework that I love) https://t.co/0TzI8wrNEY",
-      "text_zh": "我决定重新上线我的网站，不仅要把交互版的 Orbits 放上去，还要附上原始源代码。AI 时代之前的代码哈哈 - http://glauber.org/archive/orbits （配合 Lisergia 和 @bizar_ro 框架的正式更新，我超爱这个框架）https://t.co/0TzI8wrNEY",
-      "text_zh_hash": "4b78501096c5ed87",
+      "text_zh": "我决定重新上线我的网站，不仅把交互版的Orbits放上去，还附带了原始源代码。AI时代前的代码哈哈 - http://glauber.org/archive/orbits （配合Lisergia和@luisbizarro框架的正式更新，这个框架我很喜欢）https://t.co/0TzI8wrNEY",
+      "text_zh_hash": "5b5c6a1aa3e3c102",
       "text_zh_translator_v": 2,
       "url": "https://x.com/glauberxyz/status/2042079444031172898"
     },

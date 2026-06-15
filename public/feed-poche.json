@@ -47,6 +47,9 @@
       "category": "Design",
       "created_at": "2026-06-15T04:38:26.523760Z",
       "description": "Isometric NYC is a project that aims to visualize the layout and structure of New York City in a unique isometric style. It focuses on providing an artistic representation that highlights the city's architecture and urban landscape through detailed illustrations.",
+      "description_zh": "Isometric NYC 是一个旨在以独特等轴测风格可视化纽约市布局与结构的项目。该项目通过精细的插画艺术化呈现城市建筑与都市景观，突出其艺术表现力。",
+      "description_zh_hash": "024510a065735268",
+      "description_zh_translator_v": 2,
       "domain": "isometric.nyc",
       "embed_type": "",
       "id": "k170kmp75xt0tz6m1ny2xrrfwh88qw5e",
@@ -69,6 +72,9 @@
         }
       ],
       "title": "Isometric NYC",
+      "title_zh": "Isometric NYC",
+      "title_zh_hash": "750105d0967ab797",
+      "title_zh_translator_v": 2,
       "url": "https://isometric.nyc/",
       "x_status_id": null
     },
@@ -82,6 +88,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:48:36.912134Z",
       "description": "The Vercel Drop feature allows users to quickly deploy web content by simply dragging and dropping files, folders, or .zip files. There is no need for configuration, and the site goes live immediately.",
+      "description_zh": "Vercel Drop 功能允许用户通过拖拽文件、文件夹或 .zip 压缩包的方式快速部署网页内容，无需任何配置即可让网站即时上线。",
+      "description_zh_hash": "23b48765ce9d9695",
+      "description_zh_translator_v": 2,
       "domain": "drop.new",
       "embed_type": "",
       "id": "k1713a73w10bqjxd6wvrr8ce1s88pstf",
@@ -104,6 +113,9 @@
         }
       ],
       "title": "Drop to Deploy",
+      "title_zh": "拖放部署",
+      "title_zh_hash": "66d7a383c8861f6a",
+      "title_zh_translator_v": 2,
       "url": "https://drop.new/",
       "x_status_id": null
     },
@@ -127,6 +139,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:49:31.679090Z",
       "description": "Hex Security's AI agents find critical vulnerabilities in your systems continuously—not just once a year. Trusted by YC companies. Start your free pentest.",
+      "description_zh": "Hex Security 的 AI 代理持续发现您系统中的关键漏洞——而非仅每年一次。受 YC 公司信赖。立即开始您的免费渗透测试。",
+      "description_zh_hash": "ba512626593ae35e",
+      "description_zh_translator_v": 2,
       "domain": "hex.co",
       "embed_type": "",
       "id": "k17cdx2c2grc4g5vqv5c1tcyvh88pwrs",
@@ -149,6 +164,9 @@
         }
       ],
       "title": "Hex Security | AI-Powered Autonomous Penetration Testing",
+      "title_zh": "Hex Security | AI驱动的自主渗透测试",
+      "title_zh_hash": "4e931439560f5596",
+      "title_zh_translator_v": 2,
       "url": "https://hex.co/",
       "x_status_id": null
     },
@@ -164,6 +182,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:49:40.708083Z",
       "description": "Connect your brand with gamers in a whole new way. Tesoro’s patented platform seamlessly turns real-world spending into in-game currency for brands, studios, and players alike.",
+      "description_zh": "以全新方式将您的品牌与游戏玩家连接起来。Tesoro的专利平台无缝地将现实世界消费转化为品牌方、游戏工作室和玩家均可使用的游戏内货币。",
+      "description_zh_hash": "ed3254e5b521ba16",
+      "description_zh_translator_v": 2,
       "domain": "www.tesoroxp.com",
       "embed_type": "",
       "id": "k177mwtmejxpar1p4pej2wb8b188pg5s",
@@ -186,6 +207,9 @@
         }
       ],
       "title": "Tesoro – The Rewards Platform Powering the $125 Billion Gaming Economy",
+      "title_zh": "Tesoro – 赋能1250亿美元游戏经济的奖励平台",
+      "title_zh_hash": "f1b6db61445bf70f",
+      "title_zh_translator_v": 2,
       "url": "https://www.tesoroxp.com/",
       "x_status_id": null
     },
@@ -199,6 +223,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:49:47.668151Z",
       "description": "Run multiple models side-by-side, analyze their strengths, and fuse the best answer.",
+      "description_zh": "并行运行多个模型，分析各自优势，融合出最佳答案。",
+      "description_zh_hash": "673061665fe87843",
+      "description_zh_translator_v": 2,
       "domain": "openrouter.ai",
       "embed_type": "",
       "id": "k1753d3ybnwjw0nrwxn83sn8ts88pe1r",
@@ -221,6 +248,9 @@
         }
       ],
       "title": "Model Fusion | OpenRouter",
+      "title_zh": "模型融合 | OpenRouter",
+      "title_zh_hash": "dcef4e0e296a2b86",
+      "title_zh_translator_v": 2,
       "url": "https://openrouter.ai/fusion",
       "x_status_id": null
     },
@@ -244,6 +274,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:49:53.897423Z",
       "description": "Software that monitors, diagnoses, and fixes itself in production.",
+      "description_zh": "在生产环境中自我监控、诊断和修复的软件。",
+      "description_zh_hash": "7e45fdf21c585c12",
+      "description_zh_translator_v": 2,
       "domain": "polylane.com",
       "embed_type": "",
       "id": "k177jbhvwctfsva1jygkstns0h88qzz4",
@@ -266,6 +299,9 @@
         }
       ],
       "title": "polylane · nobody should be on-call in 2026",
+      "title_zh": "polylane · 2026年，没有人应该再值班",
+      "title_zh_hash": "49201a2b7953bb0a",
+      "title_zh_translator_v": 2,
       "url": "https://polylane.com/",
       "x_status_id": null
     },
@@ -298,6 +334,9 @@
         }
       ],
       "title": "How I made a 60fps Eink Monitor, the Modos Flow",
+      "title_zh": "# 我是如何打造60fps墨水屏显示器Modos Flow的",
+      "title_zh_hash": "792080fea00df54b",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=nHbA2-_qzH4",
       "x_status_id": null
     },
@@ -314,6 +353,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:50:11.861577Z",
       "description": "We make hardware for human creativity. AI without the attention economy. Learning without the feed. Tools that serve a moment and then let you go.",
+      "description_zh": "我们为人类的创造力打造硬件。没有注意力经济的人工智能。没有信息流的深度学习。服务于当下、用完即走的工具。",
+      "description_zh_hash": "c6a19a851fdc60c6",
+      "description_zh_translator_v": 2,
       "domain": "www.creative.inc",
       "embed_type": "",
       "id": "k17730v0zs2t29agyeykvw1has88qmqw",
@@ -336,6 +378,9 @@
         }
       ],
       "title": "Creative Intelligence Company — Hardware for human creativity",
+      "title_zh": "创意智能公司 — 为人类创造力打造的硬件",
+      "title_zh_hash": "d108621a9e50c776",
+      "title_zh_translator_v": 2,
       "url": "https://www.creative.inc/",
       "x_status_id": null
     },
@@ -359,6 +404,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:50:29.924644Z",
       "description": "An invoicing tool for freelancers and small teams. Create, manage, and send invoices without friction.",
+      "description_zh": "为自由职业者和小型团队打造的发票工具。轻松创建、管理并发送发票，告别繁琐流程。",
+      "description_zh_hash": "74a3d0ab38f481e1",
+      "description_zh_translator_v": 2,
       "domain": "www.gile.app",
       "embed_type": "",
       "id": "k17b1eyhm81zvbvsxy4mbyjf7s88p2vd",
@@ -381,6 +429,9 @@
         }
       ],
       "title": "Gile - Online Invoicing Made Simple",
+      "title_zh": "Gile - 在线开票，化繁为简",
+      "title_zh_hash": "669ca6f03cb10139",
+      "title_zh_translator_v": 2,
       "url": "https://www.gile.app/",
       "x_status_id": null
     },
@@ -404,6 +455,9 @@
       "category": "Tools",
       "created_at": "2026-06-15T03:50:33.004272Z",
       "description": "Hyperscale power systems for AI and critical infrastructure—energy storage, power electronics, and software delivering grid stability and 99.9% uptime.",
+      "description_zh": "面向AI与关键基础设施的超大规模电力系统——通过储能、电力电子及软件技术，实现电网稳定与99.9%可用性。",
+      "description_zh_hash": "949218f78355609b",
+      "description_zh_translator_v": 2,
       "domain": "www.on.energy",
       "embed_type": "",
       "id": "k173njwxqgw1rp00ywbpsavxfh88qtcm",
@@ -426,6 +480,9 @@
         }
       ],
       "title": "ON.energy | The Race is ON for Grid-Safe AI Power",
+      "title_zh": "ON.energy | 电网安全AI电力的竞赛已然开启",
+      "title_zh_hash": "6514f4b7ca36d494",
+      "title_zh_translator_v": 2,
       "url": "https://www.on.energy/",
       "x_status_id": null
     },
