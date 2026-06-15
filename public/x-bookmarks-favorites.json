@@ -143,6 +143,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Vibe coding is OVER. The new era is loop engineering, auto build, test and output high quality apps seamlessly: \n\nHere’s the best GitHub I found for loops:\n\n> install https://github.com/secretbuilds/loopy\n> loopy is a meta agent that sits and scans your natural way of using Claude code & coded\n\nAll those repetitive processes of asking Claude to test & fix, delegate tasks “use subagents” etc \n\nThe things you say 1000x repeatedly, now just sits in a clean loop auto-written by loopy. \n\nLoopy is the single lowest life and highest impact thing you can do to make better code. \n\nBoth @bcherny and @steipete agree that you should not be promoting anymore , you should be looping. \n\nLoopy helps you do this without any extra effort.",
+      "text_zh": "Vibe coding 已经结束了。新时代是循环工程，自动构建、测试并无缝输出高质量应用：\n\n这是我找到的最好的循环 GitHub 仓库：\n\n> 安装 https://github.com/secretbuilds/loopy\n> loopy 是一个元代理，它会持续监控你使用 Claude Code 和 Coded 的自然方式\n\n所有那些重复的过程——让 Claude 测试和修复、委派任务“使用子代理”等等\n\n那些你重复说了 1000 遍的事情，现在只需放在一个由 loopy 自动编写的干净循环中。\n\nLoopy 是你为了写出更好的代码所能做的最省力但影响最大的事情。\n\n@bcherny 和 @steipete 都认为，你不应该再推广了，你应该循环。\n\nLoopy 能帮你毫不费力地做到这一点。",
+      "text_zh_hash": "3d3cff7b0238e265",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ghostdotenv/status/2066227720661655943"
     },
     {
@@ -308,6 +311,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "new post: never waste a token https://sunilpai.dev/posts/never-waste-a-token/ on using durable objects as a buffer for inference calls \n\n(soon available from cloudflare ai gateway ootb)",
+      "text_zh": "新文章：绝不浪费一个 token https://sunilpai.dev/posts/never-waste-a-token/ 关于使用 Durable Objects 作为推理调用的缓冲区\n\n（即将在 Cloudflare AI Gateway 中原生支持）",
+      "text_zh_hash": "91bee6cf47bd486e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/threepointone/status/2066487060999917626"
     },
     {
@@ -349,6 +355,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Notes on the recent session we had related to autonomous long-running coding agents.\n\n(bookmark it)\n\nTopics: /goal, loop engineering, verifiers, dynamic workflows, and much more.\n\nSo much to unpack, so I tried to quickly summarize the most relevant parts using my writer agent.",
+      "text_zh": "关于我们近期关于自主长时间运行编码代理的会议记录。\n\n（收藏此页）\n\n主题：/目标、循环工程、验证器、动态工作流等。\n\n内容繁多，我尝试用我的写作代理快速总结最相关的部分。",
+      "text_zh_hash": "4ec2e3031e92f4d5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/omarsar0/status/2065881740095246552"
     },
     {
@@ -389,6 +398,9 @@
         "bookmark@chumsdock"
       ],
       "text": "WWDC26: フィロソフィーとしてのHIG\nhttps://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy",
+      "text_zh": "WWDC26：作为哲学的 HIG",
+      "text_zh_hash": "563d9e0c95203503",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/usagimaruma/status/2066423174582218920"
     },
     {
@@ -510,6 +522,9 @@
         "bookmark@chumsdock"
       ],
       "text": "書いた\nhttps://zenn.dev/yusukebe/articles/ccb1f953e48ee1",
+      "text_zh": "書いた\nhttps://zenn.dev/yusukebe/articles/ccb1f953e48ee1",
+      "text_zh_hash": "170691f7bc160a7f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/yusukebe/status/2066347872115933526"
     },
     {
@@ -564,6 +579,9 @@
         "bookmark@chumsdock"
       ],
       "text": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly to make use of the fanout that i think subagents are best at.\n\nbasically the idea is \"subroutines but intelligent\". when you undersatnd just how much knowledge work is just yakshaves after yakshaves that require some judgment and intelligence, you start to appreciate that dynamic workflows are not just for coding tasks...",
+      "text_zh": "在 Anthropic 之外，还没怎么见过有人用 Ultracode。这东西烧 token 的能力惊人，但你需要把仓库设置好，做好并行化，才能充分利用我认为子智能体最擅长的扇出机制。\n\n基本上，这个思路就是“智能化的子程序”。当你意识到有多少知识工作不过是一连串需要判断力和智能的“雅克剃毛”时，你就会开始体会到动态工作流不仅仅适用于编码任务……",
+      "text_zh_hash": "79c95e42c2d6aca6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/swyx/status/2066415484149633329"
     },
     {
@@ -605,6 +623,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The modern organization will grow and compete at the rate at which it learns, not merely the rate at which it executes.\n\nEverything is a jump ball.\n\nThe quick shall inherit the earth. 🐇",
+      "text_zh": "现代组织的成长与竞争力取决于其学习的速度，而非仅仅是执行的速度。\n\n一切皆如跳球之争。\n\n敏捷者将继承世界。🐇",
+      "text_zh_hash": "a65faa14da689c80",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/soleio/status/2066335368539189755"
     },
     {
@@ -646,6 +667,9 @@
         "bookmark@chumsdock"
       ],
       "text": "People keep treating Fable 5 as a model Anthropic disabled. It isn't one.\n\nIt's a screen in front of Mythos 5. Clear it (≥95% of sessions) and you get the raw model. Trip it on cyber, bio/chem, or distillation and you get rerouted to Opus 4.8, with a notification. It sticks too: /model fable won't pull you back while the context is still flagged.",
+      "text_zh": "人们总把 Fable 5 当作 Anthropic 禁用的模型。其实并非如此。\n\n它只是 Mythos 5 前面的一道屏障。通过这道屏障（≥95% 的会话都能通过），你就能接触到原始模型。一旦触发网络、生物/化学或蒸馏相关限制，你就会被重定向到 Opus 4.8，并收到一条通知。这种重定向是持久的：只要上下文仍被标记，使用 /model fable 也无法将你拉回。",
+      "text_zh_hash": "c65230fdc1a73c72",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2066413406899331197"
     },
     {
@@ -700,6 +724,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Postgres for the Agent Era\n\nWe're making reality queryable\n(Check out the linked site) https://t.co/4qIOiLBgAT",
+      "text_zh": "# 面向智能体时代的 Postgres\n\n我们让现实变得可查询\n（查看相关网站）https://t.co/4qIOiLBgAT",
+      "text_zh_hash": "e1829b6181769535",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/daltonmeon/status/2066267719805407463"
     },
     {
@@ -781,6 +808,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "An analysis of why elite talent is reverting to independent craftsmanship, treating corporate jobs purely as non-dilutive funding to build their personal digital estates.\n\nFrom the longue durée of labor to the game theory of quiet quitting:",
+      "text_zh": "从劳动的长周期视角到“静默离职”的博弈论：精英人才为何回归独立手工艺，将企业工作纯粹视为构建个人数字资产的非稀释性融资。",
+      "text_zh_hash": "99295f937e454a3e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MrnllMtt/status/2066431515953942998"
     },
     {
@@ -875,6 +905,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fiona Fung (leads Claude Code & Cowork, Anthropic) just said what your team is too scared to:\n\n\"in technical debates, code wins.\nbuilding is cheap, arguing is expensive.\"\n\nshe stopped whiteboarding. she stopped writing design docs.\nnow she ships three versions of the PR and lets the code end the argument.\n\nthe numbers from that same stage:\n\none team - 500 PRs a week in January. 1,150 by March. +300% in 90 days.\na 23,000-engineer org now targeting 90% autonomous code by Q3.\ndemand for this stuff: up 80x this year.\n\nyour meeting culture did not scale 300%.\n\nhere's what's quietly dying, and dragging careers with it:\nthe status meeting where everyone half-listens.\nthe design doc nobody opens twice.\nthe week of \"planning\" to guard time that isn't scarce anymore.\n\nthe bottleneck was never the code.\nit was the rituals built to protect the people writing it.\n\nyour competition shipped 1,150 PRs.\nyou scheduled a sync.\n\nbookmark this before your field catches up.\nfollow - i break these shifts down before they hit your timeline.\nwhich dead ritual is your team still running? drop it below.",
+      "text_zh": "Fiona Fung（Anthropic公司Claude Code与Cowork团队负责人）刚刚说出了你们团队不敢说的话：\n\n\"在技术辩论中，代码胜出。\n构建成本低廉，争论代价高昂。\"\n\n她不再画白板。她不再写设计文档。\n现在她直接提交三个版本的PR，让代码来终结争论。\n\n同一场演讲中的数据：\n\n某个团队——1月份每周500个PR。到3月份达到1150个。90天内增长300%。\n一个拥有23000名工程师的组织，现在目标是在Q3实现90%的自主代码。\n对此类需求：今年增长了80倍。\n\n你们的会议文化可没有增长300%。\n\n以下这些正在悄然消亡，同时拖累着职业生涯：\n那种每个人都半听半就的状态会议。\n那种没人会打开第二次的设计文档。\n那种为了守护已不再稀缺的时间而进行的\"规划\"周。\n\n瓶颈从来都不是代码。\n而是那些为了保护写代码的人而建立的仪式。\n\n你们的竞争对手已经交付了1150个PR。\n你们却安排了一次同步会议。\n\n在你的领域迎头赶上之前，先收藏这篇文章。\n关注我——我会在趋势冲击你的时间线之前，提前拆解这些转变。\n你们团队还在坚持哪些已死的仪式？在评论区告诉我。",
+      "text_zh_hash": "84e4d5685c73d0ae",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/test0rosso/status/2066267571301585340"
     },
     {
@@ -915,6 +948,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic's Safety Superpower\n\nAnthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.\n\nhttps://stratechery.com/2026/anthropics-safety-superpower/",
+      "text_zh": "Anthropic的安全超能力\n\nAnthropic对自身安全承诺的信念，使该公司得以激进地偏袒自身业务，甚至挑战美国政府。\n\nhttps://stratechery.com/2026/anthropics-safety-superpower/",
+      "text_zh_hash": "813f3febf05cd659",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/stratechery/status/2066460709920342279"
     },
     {
@@ -996,6 +1032,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI agents don't fail loudly. They succeed incorrectly. That's a harder problem than anyone's talking about.",
+      "text_zh": "AI 代理不会大声失败，而是悄悄出错。这比任何人讨论的都要棘手。",
+      "text_zh_hash": "e11d0a94b454197f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VaraadDurgaay/status/2066439586650415590"
     },
     {
@@ -1116,6 +1155,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"They screwed us\": Personality clashes sent Anthropic's models offline https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1",
+      "text_zh": "\"他们坑了我们\"：性格冲突导致Anthropic模型下线  \nhttps://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1",
+      "text_zh_hash": "ef0e565e1e4b84aa",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2066448576096469185"
     },
     {
