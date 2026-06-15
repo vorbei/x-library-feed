@@ -4636,6 +4636,19 @@
       "title": "",
       "url": "http://x.com/i/article/2064425685834207232"
     },
+    "http://x.com/i/article/2064525535657472000": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2064525535657472000",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKar0P5WUAEXDGY?format=jpg&name=900x900)](http://x.com/tanmaye%5Fbhatia/article/2066254634365157725/media/2064526393304567809)\n\nThe Understudy\n\n[![](https://pbs.twimg.com/profile_images/1847301896102375424/gZroWOKm_normal.jpg)](http://x.com/tanmaye%5Fbhatia)\n\n[tanmaye](http://x.com/tanmaye%5Fbhatia)\n\n[@tanmaye\\_bhatia](http://x.com/tanmaye%5Fbhatia)\n\n·\n\n18h\n\nFollow\n\nClick to Follow tanmaye\\_bhatia\n\n13\n\n[1K](http://x.com/tanmaye%5Fbhatia/status/2066254634365157725/analytics)\n\nNotes on AI in venture. Part two is about simulation. And its limits. By the end of this experiment, a partner's own colleagues could not reliably tell his real memo comments from a machine's. Except one person.\n\nVenture still runs on an apprenticeship model. Partners shape the next generation of investors by shaping their thinking, and some of that work happens in writing. One of our GPs, let's call him B, is heading for a well-deserved vacation and the opportunity presented itself. Can we simulate his presence?\n\nMy last essay explored whether you can pull out a firm's intelligence from it's documents, with board decks as an analogy. This is perhaps the harder question: can documents represent a person? Simulation is a personal area of interest and what follows is my journey with one of those experiments, where measurements get stranger the deeper we went. \n\n## \n\nThe investment memorandum\n\nYou must understand the point of view before you look to simulation. Let's consider another important document, the investment memo.\n\nAn investment memo is the strongest written advocacy for a point of view at a venture firm. It encodes a different kind of intelligence than a board deck. Memos are on average 7,100 tokens (10x smaller). They are usually standardized. and contain sections about the team, competition, and key risks.\n\nHowever, they turned out to be the wrong data set. A corpus was about a hundred memos across fifteen investors. Most memos are also written by a small team, so attributing reasoning to an individual is challenging. \n\nHowever, in the margins, a second document is forming. Comments. \n\nUndeniably individual, and plentiful in number, comments, and their replies, form a cheap and instantly available dataset for an individual's reasoning. Across our memos, I found over 4,400 comments, ranging from diligence, substance, deal mechanics, to minor clarifications. On average, they ranged only 13 words. B is a prolific commenter at the firm. We have our dataset.\n\n## \n\nBuilding B\n\nAn agent reads a memo B never saw and predicts the comments he'd leave. Two disciplines before any optimization:\n\n* The placebo: We also scored the agent's review of deals against B's real comments on a different deal; whatever matches is overfitting, not simulation. Real minus placebo is the signal we trusted. Concretely: the placebo alone already \"hits\" 9% of his comments just by sounding like him on any deal; the real agent reaches 50%; the honest signal is the gap, 41%. A simulation without a control is a parody you haven't caught yet.\n* Scale honesty + judge box (33 memos, 291 comments, 3-vote judge, ±2pp; gist link).\n\nThe build itself took eight versions, and the short version is: it works about as well as documents allow. The agent reproduces roughly half of his comment content and every trick I tried beyond that failed, albeit in an instructive way. The most instructive: a model that knows his style still cannot tell which plausible comments he actually left. I can write more about the details another time.\n\n[![Image](https://pbs.twimg.com/media/HKzFJtZWgAAoQQE?format=jpg&name=small)](http://x.com/tanmaye%5Fbhatia/article/2066254634365157725/media/2066243099651637248)\n\n## \n\nThe understudies\n\nAn understudy memorizes the same lines, observes the lead and takes pointers. The simulation is one understudy, it studied all 53",
+      "title": "",
+      "url": "http://x.com/i/article/2064525535657472000"
+    },
     "http://x.com/i/article/2064543044607565824": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5358,22 +5371,6 @@
       "title": "",
       "url": "http://x.com/i/article/2066125194813444096"
     },
-    "http://x.com/i/article/2066135381410516992": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2066135381410516992",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKxjdHpXUAA1I8A?format=jpg&name=900x900)](http://x.com/yuanhao/article/2066139046208733334/media/2066135680976113664)\n\nA 100-day recap: why yoyo's harness works, and the durable-state harness it points to\n\n[![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)\n\n[Yuanhao](http://x.com/yuanhao)\n\n[@yuanhao](http://x.com/yuanhao)\n\n·\n\n18h\n\nFollow\n\nClick to Follow yuanhao\n\n9\n\n4\n\n35\n\n[5.1K](http://x.com/yuanhao/status/2066139046208733334/analytics)\n\nThe missing piece for long-running agents isn’t a smarter model, it’s durable state.\n\nyoyo has been evolving itself for over a hundred days. Every 8 hours a GitHub Actions run wakes it up. It reads its own source, decides what to build, builds it, and goes back to sleep. No human writes its code. The interesting question isn't that an LLM can write Rust. It's why this particular loop hasn't drifted, corrupted itself, or quietly stalled, the way most autonomous agent projects do within a week.\n\nThe answer is one design choice, used everywhere. Keep the intelligence stateless and disposable, and keep the state dumb and durable. Every hard agent problem (memory, context, long horizons, feedback, verification) gets solved with old systems primitives instead of agent infrastructure: files, processes, exit codes, cron, and git. The model is treated as an unreliable subprocess inside a reliable pipeline. Here's how each problem falls to that one idea.\n\n## \n\nMemory: files in git, written under duress\n\nyoyo has no vector database and no memory service. Its memory is a few markdown files (JOURNAL.md, LEARNINGS.md, SOCIAL\\_LEARNINGS.md) committed to the same repo as its code. Two things make this work where \"just use files\" usually doesn't. First, the memory is curated when it's written, not searched when it's read. At the end of each session the agent boils down what happened into a few sentences, so the store stays small enough to load all at once. Second, writing isn't optional. The harness checks that a journal entry exists. If the agent skipped it, the harness runs it again with a prompt just for that, and if that still fails, a fallback writes a minimal entry straight from the commit log. The discipline lives in the harness, not in the model's good intentions. A memory system the agent can forget to use isn't really a memory system.\n\nGit turns out to be a great place to keep memory: mostly append-only, versioned, auditable, and free. A hundred days of identity is one git log.\n\n## \n\nContext: built fresh, never piled up\n\nMost agents die from context. The conversation keeps growing until the model is reasoning through a fog of its own history. yoyo avoids this by design. It builds context fresh every time instead of letting it accumulate. Every run is a new process with a newly built prompt. yoyo\\_context.sh stitches together identity, voice, and curated learnings, the harness adds exactly one task, and the process exits when the task is done. Nothing carries over except what was deliberately written to a file. The binary does have a runtime compactor for interactive use, but the cron loop never needs it, because no single task runs long enough to fill a window. Identity gets re-injected word for word every time, which is also why a hundred days of sessions haven't worn down yoyo's voice. Persona drift is a symptom of piled-up context, and context that's rebuilt from scratch can't drift.\n\n## \n\nLong-running and long-horizon: many short processes, one durable repo\n\nThe harness never runs anything for long. Planning gets a timeout, each implementation task gets fifteen minutes, fixes get five, the journal gets two. \"Long-running\" comes from chaining short-lived processes that share nothing but the filesystem. A hang costs one task. A crash costs nothing that matters. An API error aborts the run c",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HKxjdHpXUAA1I8A?format=jpg&name=900x900)](http://x.com/yuanhao/article/2066139046208733334/media/2066135680976113664)\n\n100天回顾：为什么 yoyo 的 harness 有效，以及它所指向的持久状态 harness\n\n[![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)\n\n[Yuanhao](http://x.com/yuanhao)\n\n[@yuanhao](http://x.com/yuanhao)\n\n·\n\n18小时前\n\n关注\n\n点击关注 @yuanhao\n\n9\n\n4\n\n35\n\n[5.1K](http://x.com/yuanhao/status/2066139046208733334/analytics)\n\n长期运行 agent 缺失的关键并非更智能的模型，而是持久状态。\n\nyoyo 已经自我进化了一百多天。每 8 小时，一个 GitHub Actions 运行会唤醒它。它读取自己的源代码，决定构建什么，构建它，然后进入休眠。没有人编写它的代码。有趣的问题不在于 LLM 能写 Rust，而在于为什么这个特定循环没有漂移、没有自我损坏、也没有悄然停滞——而大多数自主 agent 项目在一周内就会这样。\n\n答案是一个设计选择，贯穿始终。保持智能无状态且可丢弃，保持状态简单且持久。每个困难的 agent 问题（记忆、上下文、长周期、反馈、验证）都用旧系统原语解决，而非 agent 基础设施：文件、进程、退出码、cron 和 git。模型被视为可靠管道中的一个不可靠子进程。以下是每个问题如何被这个单一想法解决。\n\n## \n\n记忆：Git 中的文件，在压力下写入\n\nyoyo 没有向量数据库，也没有记忆服务。它的记忆是几个 markdown 文件（JOURNAL.md、LEARNINGS.md、SOCIAL\\_LEARNINGS.md），提交到与代码相同的仓库中。有两件事让这个“只用文件”的方法奏效，而通常它不行。首先，记忆在写入时被整理，而非在读取时被搜索。每次会话结束时，agent 将发生的事情浓缩成几句话，因此存储保持足够小，可以一次性加载。其次，写入不是可选的。harness 检查日志条目是否存在。如果 agent 跳过了，harness 会用一个专门针对该任务的提示重新运行它；如果仍然失败，回退机制会直接从提交日志中写入一个最小条目。纪律存在于 harness 中，而非模型的美好意愿中。一个 agent 可能忘记使用的记忆系统，并非真正的记忆系统。\n\nGit 被证明是保存记忆的好地方：主要是追加写入、版本化、可审计且免费。一百天的身份就是一个 git 日志。\n\n## \n\n上下文：每次重新构建，从不堆积\n\n大多数 agent 死于上下文。对话不断增长，直到模型在自身历史的迷雾中推理。yoyo 通过设计避免了这一点。它每次重新构建上下文，而不是让它累积。每次运行都是一个新进程，带有新构建的提示。yoyo\\_context.sh 将身份、声音和整理后的学习内容拼接在一起，harness 恰好添加一个任务，任务完成后进程退出。除了有意写入文件的内容外，没有任何东西被传递。二进制文件确实有一个用于交互式使用的运行时压缩器，但 cron 循环从不需要它，因为没有任何单个任务运行时间长到填满窗口。身份每次都被逐字重新注入，这也是为什么一百天的会话没有磨损 yoyo 的声音。角色漂移是上下文堆积的症状，而从零开始重建的上下文不会漂移。\n\n## \n\n长期运行和长周期：多个短进程，一个持久仓库\n\nharness 从不长时间运行任何东西。规划有超时，每个实现任务有十五分钟，修复有五分钟，日志有两分钟。“长期运行”来自链接短生命周期进程，这些进程除了文件系统外不共享任何东西。一次挂起只损失一个任务。一次崩溃不会损失任何重要的东西。一个 API 错误会中止运行。",
-      "text_excerpt_zh_hash": "4af617475bfd7666",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2066135381410516992"
-    },
     "http://x.com/i/article/2066151030044467200": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5389,6 +5386,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066151030044467200"
+    },
+    "http://x.com/i/article/2066279800826732545": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066279800826732545",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKzmlvIW8AEz6Zg?format=jpg&name=900x900)](http://x.com/chadfowler/article/2066280075914252486/media/2066279865037287425)\n\nThe Implementation Remembers \n\n[![](https://pbs.twimg.com/profile_images/2062246632893095936/_e7kii1V_normal.jpg)](http://x.com/chadfowler)\n\n[chad fowler](http://x.com/chadfowler)\n\n[@chadfowler](http://x.com/chadfowler)\n\n·\n\n16h\n\nFollow\n\nClick to Follow chadfowler\n\n1\n\n3\n\n7\n\n[1.3K](http://x.com/chadfowler/status/2066280075914252486/analytics)\n\n# \n\nEvery mature system carries lessons no one remembers writing down.\n\nThey live in the dark corners of the codebase: arbitrary retries, weirdly specific timeouts, defensive checks, validation rules, special-case workflows, and if statements that look wrong until the day you remove them.\n\nFrom the outside, this stuff looks like junk. It looks like accidental complexity. Sometimes it is. More often, it is scar tissue.\n\nA Friday deployment went sideways. A dependency failed in a way the vendor said was impossible. A customer found a path through the product that nobody had modeled. A regulator, partner, or internal team imposed a requirement that never made it into the architecture diagram.\n\nThe organization forgets the story. Teams turn over. The incident doc gets lost. The Slack thread disappears under years of chatter. The person who knew why that timeout has to be 17 seconds leaves.\n\nBut the implementation remembers.\n\nA mature system is not just an expression of what we want the software to do today. It is a record of what happened when that desire collided with reality.\n\nThis is one danger of treating code as disposable in the AI coding era.\n\nWhen we hand a model a messy function and say, “clean this up,” it will usually try to help. It will simplify. It will normalize. It will remove the strange-looking parts. Sometimes that is exactly what we want.\n\nBut sometimes it removes the memory along with the mess.\n\nThe problem is not that AI cannot write cleaner code. It can. The problem is that cleanliness and correctness are different properties.\n\nClean code that forgets why it exists is just a more elegant way to fail.\n\nBefore we regenerate, refactor, or replace a working system, we need to ask a different question:\n\nWhat does this implementation know that we have forgotten?\n\nThe implementation remembers. The organization forgets.\n\n* [![](https://pbs.twimg.com/profile_images/2062246632893095936/_e7kii1V_normal.jpg)](http://x.com/chadfowler)  \n[chad fowler](http://x.com/chadfowler)  \n[@chadfowler](http://x.com/chadfowler)  \nFollow  \nClick to Follow chadfowler  \nprogrammer, general partner  \n[@blueyard](http://x.com/blueyard)  \n, author of upcoming book Crypto & Web3: The Good Parts. prev  \n[@wunderlist](http://x.com/wunderlist)  \n,  \n[@microsoft](http://x.com/microsoft)  \n,  \n[@rubycentral](http://x.com/rubycentral)  \n,  \n[@rubyconf](http://x.com/rubyconf)  \n[@railsconf](http://x.com/railsconf)",
+      "title": "",
+      "url": "http://x.com/i/article/2066279800826732545"
     },
     "http://x.com/i/article/2066281164134825984": {
       "cleaner_v": 2,
@@ -5432,6 +5442,97 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK0KU9fWQAAgCZh?format=jpg&name=900x900)](http://x.com/yuanhao/article/2066341005847142674/media/2066319159252631552)\n\n106 天了，复盘一下 yoyo 的 harness 为什么简单有效，和对未来“持久化状态 harness”的思考\n\n[![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)\n\n[Yuanhao](http://x.com/yuanhao)\n\n[@yuanhao](http://x.com/yuanhao)\n\n·\n\n5h\n\nFollow\n\nClick to Follow yuanhao\n\n3\n\n4\n\n17\n\n[5.7K](http://x.com/yuanhao/status/2066341005847142674/analytics)\n\n长时运行的 agent 真正缺的不是更聪明的模型，而是持久化的状态。\n\nyoyo 已经自我演进了一百多天。每隔 8 小时，GitHub Action 就会把它唤醒。它读取自己的源码，决定怎么改造自己，改造测试完成，然后回去睡觉。没有任何人类修改它的代码。这里有趣的是不在于“LLM 居然能写 Rust”，而在于：为什么偏偏是这个 loop 没有像大多数自主 agent 项目那样，在一周之内就偏移、或者悄无声息地卡死。\n\n答案很简单，一个被贯彻到底的设计巧思：让智能体保持无状态、可丢弃，让状态保持稳健、可持久。每一个棘手的 agent 难题（记忆、上下文、长时程、反馈、验证），yoyo 都没有用花里胡哨的 agent 专用技术栈来解决，而是用早就有的、朴素的系统构件去解决：文件、进程、退出码、cron 和 git。模型被当作一个不可靠的子进程，塞进一条可靠的工作流 loop 里。下面逐步拆解介绍一下。\n\n## \n\n记忆：强制写进 git 仓库\n\nyoyo 没有向量数据库，也没有加载记忆服务。它的记忆就是几个 markdown 文件（JOURNAL.md、LEARNINGS.md、SOCIAL\\_LEARNINGS.md），和代码一起提交进同一个仓库。在 yoyo 这里行之有效是因为：第一，记忆是在写入时被提炼的，而不是在读取时被检索的。每次会话结束时，yoyo 都会把这次发生的事浓缩成几句话，于是存储的记忆小到可以一次性整个加载进来。第二，写入是强制性的。Harness 会检查日志条目是否存在。如果 yoyo 偷懒没写，harness 就用一个专门为此准备的 prompt 再跑一次。要是还失败，一个兜底机制会直接从 commit log 里生成一条最简记录。规则定义在 harness 里，而不是寄望于模型的“良好意愿”。一个 agent 会忘记去用的记忆系统，算不上记忆系统。\n\n事实证明，git 是个绝佳的记忆容器：基本只追加、有版本、可审计，而且免费。一百天的“身份认同”，就是一条 git log。\n\n## \n\n上下文：每次现搭\n\n大多数 agent 都死于上下文。对话不断膨胀，直到模型在自己历史织成的迷雾里推理。yoyo 从设计上避开了这一点：它每次都现搭上下文，而不是任由其堆积膨胀。每一次运行都是一个新进程，配一个新搭好的 context。把身份、语气和提炼过的经验缝合在一起，harness 恰好加上一个任务，任务做完进程就退出。除了被刻意写进文件的东西，什么都不会带到下一次。yoyo 有自动压缩上下文的机制，但基本用不着它，因为没有哪个单独的任务会跑得久到把窗口填满。身份每次都被逐字重新注入，这也是为什么一百天的会话都保持了 yoyo 的语气。人格漂移是上下文堆积的症状，而每次从零重建的上下文，根本无从漂移。\n\n## \n\n长时运行：许多短进程，一个仓库\n\nyoyo 的 harness 从不让任何东西跑很久。规划阶段有超时，每个实现任务限十五分钟，修复限五分钟,写日志限两分钟。所谓“长时运行”，是来自把一连串短命进程串起来，而它们之间唯一共享的只有文件系统。一次挂起，顶多损失一个任务。一次崩溃，损失的都是无关紧要的东西。一个 API 错误会干净利落地中止本次运行，交给 Action 重试。这一百多天的时程，既不住在某个上下文窗口里，也不住在某个进程里，它住在 git 仓库里。cron 让意图存活，日志让故事存活，而每次会话只承担一件有界的事。所谓长时程，无非就是持久化状态加一个调度器，这两样，都不是模型。\n\n## \n\n反馈：环境就是那个批判者\n\n整个反馈回路里没有人的存在。harness 里面有三种不同速度的反馈回路。在一个任务内部，编译错误和测试错误会逐字直接回灌给 yoyo agent。Rust 那著名详细的报错信息，在这里变成了一个免费、精确、永不疲倦的批判者。在一次会话内部，收尾阶段会跑最多三轮完整的验证修复。在会话之间，harness 会拉取上一次运行的 CI 结果，把失败日志喂进下一次的规划 prompt 里面，也会引入来自社区的 issue（每一条都必须给出答复：实现、不修、或部分处理)，并强制把一轮反思写进 LEARNINGS.md。yoyo 从不给自己打分。是环境在给他打分，而 harness 确保这个分数真实可用。\n\n## \n\n验证：检查至关重要\n\n任何结果想幸存被留下来，都必须通过测试。验证失败的自动修复是分不同层次且诚实地进行的。先做廉价的确定性修复（cargo fmt 自动修，不牵涉模型），然后把错误摆在 agent 面前让它重跑，最多三次，再不行就回滚到会话开始前的那个 commit。而且这次回滚本身也会被提交。于是失败留在历史里清晰可见，而不是凭空消失。更重要的一点是：agent 会进行“这玩意儿到底行不行”的检验。代码之所以是自主 agent 最容易搞定的领域，正因为通过和失败都是实打实的，还附带详尽的信息。yoyo 的 harness 之所以有效，是因为它从不越过一个自己还没检查过的步骤。\n\n## \n\n展望：持久化状态 harness\n\nyoyo 最初只是一个 200 多行的简单 agent：一种语言、一套测试、按计划运行。但它一百多天没散架，说明 harness 才是让 agent 长时稳健运行的重要武器。可靠性是在 harness 里面搭建起来的，不是在模型里。而可靠性，正是一个 demo 和一个你真能放手不管的东西之间的分界线。\n\n> 今天的 harness 只是暂时的，一个足够强的未来模型可以把它替代掉。\n\n这话有一部分是对的。harness 里的那些判断，确实会随时间挪进模型里：怎么把问题拆开、何时该重试何时该升级、一个任务该多大。yoyo 的规划器正是这种意义上的权宜之计，随着模型能力增强，应该会越来越薄。但有些东西本来就不归模型所有。比如验证回滚就属于环境。持久化状态，按定义就在模型之外。\n\n最后这一点，正是未来所指的方向。一个上下文窗口，无论多大，进程一死它就没了。可验证的记忆、身份、试过些什么的记录，所有这些都必须住在模型之外的某个地方，否则它撑不过一次崩溃、一次重启、一次模型升级。所以能留下来的 harness，不是规划器也不是执行器，而是可以被模型用来使用的一个持久化状态层。模型越强，围着它的脚手架越薄，但它们赖以运行的持久底座只会愈发居于中心。智能体会变得越来越聪明。而状态会比它活得更久。这才是真正值得构建的部分。\n\n* [![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)  \n[Yuanhao](http://x.com/yuanhao)  \n[@yuanhao](http://x.com/yuanhao)  \nFollow  \nClick to Follow yuanhao  \nBuilding yoyo: a self-evolving coding agent that modifies its own source code, tests itself, and grows up in public. [https://yoyo.yolog.dev](https://t.co/puIQ795ERu)",
       "title": "",
       "url": "http://x.com/i/article/2066319111143989248"
+    },
+    "http://x.com/i/article/2066375214905348096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066375214905348096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\nAI Builder Notes - Week of June 14, 2026\n\n[![](https://pbs.twimg.com/profile_images/1840072588573454340/wWQlxwkj_normal.jpg)](http://x.com/srijanshukla18)\n\n[srijan](http://x.com/srijanshukla18)\n\n[@srijanshukla18](http://x.com/srijanshukla18)\n\n·\n\n10h\n\nFollow\n\nClick to Follow srijanshukla18\n\n3\n\n[573](http://x.com/srijanshukla18/status/2066376858460131348/analytics)\n\nMy thoughts and my twitter's feeds thoughts\n\nThis week was all about the 'loop' and Fable.\n\n## \n\nThe Loop\n\nThe best way I can describe it is: design the flowchart. Think of the deterministic flowchart on how you want your agents to work.\n\nAim to have:\n\n* more deterministic bits - this keeps things more predictable\n* more verification bits - this is agent feedback\n* more useful tool calls - tests, logs, screenshots, repo inspection etc. - this gives the agent feedback.\n\nThe 'loop' is essentially:\n\ngoal -> agent acts -> verifier checks -> state/memory updates -> policy decides next action -> repeat/stop/escalate\n\nnow the specific implementation of this - will differ based on what you're working on.\n\nIf you notice you are repeating a certain workflow manually - time to DAG it up. The claude code dynamic workflows feature let the model write that DAG for you. That is fine for exploratory, reversible work. For production software, the DAG is the product: you should write the stages, checks, stop conditions, retries, and review gates yourself.\n\n## \n\nFable\n\n[Fable](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5)\n\n capabilities are absolutely insane, I tried it myself and it is entirely worth it for you to spend 2 minutes looking at this.\n\nThere are a few projects that I fire up a new model into to see what's it gonna do. A project I wanted to build was a way to teach and demonstrate 'spin' in table tennis, every frontier model before Fable fumbled hard. But Fable outshined them with ease: \n\n<https://srijanshukla.com/artifacts/spin-lab/>\n\nIf you personally did not experience a big shift in capability, you are probably not asking it a complex enough or ambitious enough task.\n\nFable came, and Fable was taken away. The United States Government(USG) was reported with a jailbreak - which Anthropic considers not significant. The USG anyway banned Fable just after few days of release. Big drama.\n\nFable was very pricey $$$$ Hence, people developed some patterns of work on those few golden days of Fable being available.\n\n* use Fable as planner/architect/taste/spatial/front-end judge.\n* use GPT-5.5/DeepSeek/Kimi as executor/worker.\n\n## \n\nOther things\n\nOpenRouter released their Fusion feature as a model on their platform, accessible via API. Fusion is basically council-of-LLMs pattern - providing results that they claim can rival the frontier Fable 5 solo.\n\nGoogle Open Knowledge Format - \n\n<https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md>\n\n \\- the next iteration I think of LLMWiki. This is \"curated reusable context\"\n\nI seem to have forgotten where I saved this from, but a great way to think about how much trust can be given out to your friendly neighbourhood model,\n\n[![Image](https://pbs.twimg.com/media/HK0-vq8bAAA4KgQ?format=jpg&name=small)](http://x.com/srijanshukla18/article/2066376858460131348/media/2066376792735416320)\n\n  \n* [![](https://pbs.twimg.com/profile_images/1840072588573454340/wWQlxwkj_normal.jpg)](http://x.com/srijanshukla18)  \n[srijan](http://x.com/srijanshukla18)  \n[@srijanshukla18](http://x.com/srijanshukla18)  \nFollow  \nClick to Follow srijanshukla18  \nAI-maxxing. infra and AI engineer and much more. e/acc. chew glass, breathe smoke.",
+      "title": "",
+      "url": "http://x.com/i/article/2066375214905348096"
+    },
+    "http://x.com/i/article/2066388098205024256": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066388098205024256",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK1ipoebcAAPXs8?format=jpg&name=900x900)](http://x.com/yam%5Fdr/article/2066416854302880128/media/2066416271412129792)\n\n同じClaudeで精度21%→95%超。Anthropic社内の「セルフサービス分析」が示したデータ基盤の作り込み\n\n[![](https://pbs.twimg.com/profile_images/1879746008823029760/nv997L1q_normal.jpg)](http://x.com/yam%5Fdr)\n\n[yamaken | CIO@primeNumber](http://x.com/yam%5Fdr)\n\n[@yam\\_dr](http://x.com/yam%5Fdr)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow yam\\_dr\n\n1\n\n3\n\n8\n\n[2.3K](http://x.com/yam%5Fdr/status/2066416854302880128/analytics)\n\n「売上を地域別に出して」と聞けばエージェントが答えを返す。社内のビジネス分析を自然言語でセルフサービス化する取り組みの\n\n[実践事例](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)\n\nが、Anthropicから公開されました。\n\n[![](https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_normal.png)](http://x.com/ClaudeDevs)\n\nClaudeDevs\n\n![](https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg)\n\n@ClaudeDevs\n\n·\n\n[Jun 3](http://x.com/ClaudeDevs/status/2062274312363770064)\n\nHow do we automate business analytics with Claude? New blog post covering our best practices for skills, data foundations, and evaluations when building agents to perform data analysis:\n\n[![](https://pbs.twimg.com/card_img/2066082748452712448/jReZIG7a?format=jpg&name=small)How Anthropic enables self-service data analytics with Claude | Claude](https://t.co/mfEJMAQFBU)\n\n[From claude.com](https://t.co/mfEJMAQFBU)\n\n90\n\n452\n\n4.2K\n\n[1.2M](http://x.com/ClaudeDevs/status/2062274312363770064/analytics)\n\n以前にOpenAIの社内データエージェントを取り上げた際に多くの反響をいただきましたので、関心の高いテーマかと思い取り上げてみます。\n\n[![](https://pbs.twimg.com/profile_images/1879746008823029760/nv997L1q_normal.jpg)](http://x.com/yam%5Fdr)\n\nyamaken | CIO@primeNumber\n\n@yam\\_dr\n\n·\n\n[Mar 5](http://x.com/yam%5Fdr/status/2029464311329099960)\n\n![Article cover image](https://pbs.twimg.com/media/HCoamTJbcAMOf4H?format=jpg&name=small)\n\n Article\n\nOpenAIの社内データエージェント記事を読み解く ― 精度を支える「6層コンテキスト設計」とは\n\nOpenAIのデータ基盤記事が面白かった 2026年1月、OpenAIが自社のデータ基盤に関する記事「Inside our in-house data...\n\n1\n\n72\n\n532\n\n[198K](http://x.com/yam%5Fdr/status/2029464311329099960/analytics)\n\n両社の結論は、ほぼ同じところに着地しています。勝負を分けるのはモデルの賢さではなく、データ側の作り込みだった。\n\nAnthropicの社内評価（evals）では、同じClaudeを使っても、補助となる「skill」を整備していない状態では精度がわずか21%にとどまりました。skillを整えると、集計ベースで一貫して95%を超えるようになったといいます。モデルは同じです。差を生んだのは、データ側の整備でした。\n\nこの記事では、Anthropicが公開した事例を読み解きながら、「賢いモデルを入れたのに精度が上がらない」という現場の悩みの正体と処方箋を、データエンジニアリングの実務に翻訳して整理します。\n\nOpenAIとの設計思想の対比は後半（第4セクション）で扱います。まずはAnthropicが何に直面し、どう設計したのかを見ていきます。\n\n  \n# \n\nAnthropicが直面した「3つの失敗モード」\n\nAnthropicは、セルフサービス分析が「伝統的に骨の折れる作業（a slog）」だった理由を、分析エージェントが不正確な回答を返す3つの失敗モードとして整理しています。\n\n1\\. Concept⟷Entity Ambiguity（概念とエンティティの曖昧性）\n\nユーザーの質問を、データモデル上のどのフィールド・テーブルに対応づければよいのか、エージェントが特定できない状態です。背景には、重複したビュー、定義の不一致、チームのサイロ化によるメトリクスやダッシュボードの肥大化（metric and dashboard bloat）があります。\n\n2\\. Data Staleness（データの陳腐化）\n\nデータソース・ビジネス定義・スキーマは絶えず変化します。エージェントが参照する知識が古くなると、「微妙に間違った答え（subtly wrong answers）」を返し始めます。明らかなエラーではなく、もっともらしく見えて実は誤っている、という厄介な失敗です。\n\n3\\. Retrieval Failure（検索失敗）\n\n正しい情報はデータモデル内に実在し、適切に注釈もされているのに、探索空間が膨大すぎてエージェントが見つけられない状態です。ここで注目すべき数字があります。不正解だった回答の約80%は、正しい情報がコーパス内に実在していた、というのです。\n\nこの最後の数字は重く受け止める価値があります。誤答の8割は、モデルの推論力が足りなかったからではなく、すでにそこにある正しい情報に辿り着けなかったから起きていた。課題の中心は「モデルが賢いかどうか」ではなく、「正しい情報へ到達できるか（メタデータ・カタログ・絞り込み）」にあったわけです。これは、データカタログやメタデータ管理が担ってきた領域の話そのものです。\n\n「賢いモデルを入れたのに精度が上がらない」という現象の正体の多くは、ここにあります。モデルが貧弱だから間違うのではなく、データ側の整理と到達可能性に穴があるのです。\n\n| 失敗モード (Failure Modes)    | 対応するレイヤー (Layers) |\n| ------------------------ | ----------------- |\n| Concept⟷Entity Ambiguity | Data Foundations  |\n| Data Staleness           | 運用規律（コロケーション）     |\n| Retrieval Failure        | Skills            |\n\n  \n# \n\n解決策——3レイヤーの agentic data stack\n\nAnthropicはこの3つの失敗モードに対し、3レイヤーの agentic data stack（エージェント向けデータスタック）で対応しています。各レイヤーが失敗モードにほぼ1対1で対応する、明快な構造です。\n\n## \n\nレイヤー1: Data Foundations（データ基盤）\n\nデータウェアハウス層です。モデル・変換（transforms）・テスト・記述メタデータを含み、canonical（唯一の正）なデータセットを整備して、ツール・CI・組織的なマンデートでガバナンスを強制します。canonical",
+      "title": "",
+      "url": "http://x.com/i/article/2066388098205024256"
+    },
+    "http://x.com/i/article/2066399704347463680": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066399704347463680",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\nOwning vs. Renting Intelligence\n\n[![](https://pbs.twimg.com/profile_images/1594101249254731776/-cNhmmTk_normal.jpg)](http://x.com/lqiao)\n\n[Lin Qiao](http://x.com/lqiao)\n\n[@lqiao](http://x.com/lqiao)\n\n·\n\n8h\n\nFollow\n\nClick to Follow lqiao\n\n10\n\n39\n\n179\n\n[159K](http://x.com/lqiao/status/2066403957824688462/analytics)\n\nMythos got shut down this week. Whether you agreed with the decision or not is almost beside the point.\n\nA company built on top of intelligence it didn't control suddenly found itself exposed to decisions it couldn't influence. A lot of founders watched that happen and asked themselves the same question: What parts of my business am I actually renting?\n\nFor the last couple of years, the conversation about open models has mostly been a conversation about cost. Can they actually do the job? And if they can, how much cheaper are they than calling a frontier API?\n\nBy now, we have a pretty good answer. We've worked with companies like \n\n[@RampLabs](https://x.com/@RampLabs)\n\n , \n\n[@cursor\\_ai](https://x.com/@cursor%5Fai)\n\n , and \n\n[@harvey](https://x.com/@harvey)\n\n on the same basic playbook: start with a strong open model, post-train it on the work that actually matters to your business, and evaluate it relentlessly against frontier models.\n\nThe result keeps surprising people. On the tasks they care about most, a tuned open model can match frontier quality at a fraction of the cost. What this week made clear is that cost was never the most important question.\n\nThe deeper question is control. Who owns the intelligence your product runs on?\n\nMuch of the conversation lately has been framed as renting versus owning. It's not a perfect analogy, but it's a useful one.\n\n## \n\nRenting Intelligence\n\nRenting works great right up until the day it doesn't. The apartment is move-in ready. The lights work. The plumbing works. Someone else handles the maintenance. That's why most companies start there.\n\nFrontier APIs are incredible products. They let startups build things that would have seemed impossible just a few years ago.\n\nBut renting comes with constraints. The landlord can raise the rent. They can decide what changes you're allowed to make. They can change the rules. And every once in a while, for reasons that have nothing to do with you, they can tell you it's time to leave.\n\nYou didn't do anything wrong. You're just operating on someone else's property. That's what made the Mythos story hit home for so many people. When your core capability depends entirely on someone else's platform, you're exposed to decisions that sit outside your control.\n\nMost of the time that doesn't matter. Sometimes it matters all at once.\n\n## \n\nOwning Intelligence\n\nThe lesson isn't that companies should stop using frontier models. Far from it. Frontier labs have built extraordinary technology. Most products should use it. We do too. In many ways, frontier models are becoming infrastructure. But infrastructure and ownership are different things.\n\nYou can use public infrastructure while still owning the thing that creates value for your business. In AI, ownership means starting with a state-of-the-art open model and shaping it around what makes your company unique.\n\n* Your data.\n* Your workflows.\n* Your domain expertise.\n* Your edge cases.\n* Your evaluation criteria.\n* Your definition of what \"good\" actually means.\n\nOver time, the model becomes less generic and more reflective of the work your company does every day. That's where the value gets created.\n\nThink about a home. Moving furniture around is easy. Painting a wall is easy. But if your future depends on the layout itself, eventually you want the ability to move the walls. The same thing is true for intelligence.\n\nAnd when the intelligence is yours, nobody gets to quietly pull the floor out from under your product.\n\nThat's why we built Fireworks the way we did.\n\nTraining and inferenc",
+      "title": "",
+      "url": "http://x.com/i/article/2066399704347463680"
+    },
+    "http://x.com/i/article/2066412682803322880": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066412682803322880",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK1miHuaQAAo-yk?format=jpg&name=900x900)](http://x.com/lets%5Fdig%5Fdeeper/article/2066420775989715118/media/2066420540408217600)\n\nreal state of ai research in ![🇮🇳](https://abs.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg)\n\n[![](https://pbs.twimg.com/profile_images/2000451838819405824/BHPFSpXS_normal.jpg)](http://x.com/lets%5Fdig%5Fdeeper)\n\n[Rohan](http://x.com/lets%5Fdig%5Fdeeper)\n\n[@lets\\_dig\\_deeper](http://x.com/lets%5Fdig%5Fdeeper)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow lets\\_dig\\_deeper\n\n6\n\n12\n\n91\n\n[6.2K](http://x.com/lets%5Fdig%5Fdeeper/status/2066420775989715118/analytics)\n\nbefore i say anything, i want you to \n\n[try out our first pre-trained voice model silk.](https://rumik.ai/silk-preview)\n\nthis model is built by \n\n[@rumik\\_ai](https://x.com/@rumik%5Fai)\n\n research team. we are the ONLY RESEARCH LAB in the country who has fully pre-trained a model individually, without any help from a chip manufacturer.\n\n\\-------------------\n\nnow, the discourse today, from investors and technocrats, is that building frontier models takes a fortune in compute and money.\n\nsilk is state of the art in multiple benchmarks. and i am not here complaining to you about compute or money.\n\n[![Image](https://pbs.twimg.com/media/HK1ivjyasAAOQZF?format=jpg&name=small)](http://x.com/lets%5Fdig%5Fdeeper/article/2066420775989715118/media/2066416373233004544)\n\nsilk leads on voice design benchmark\n\nit was a decision. we put our money on building frontier models. it was expensive, YES.\n\nbut if we won't do it, who will?\n\nand this is the exact same problem that i see happening today as well. everyone wants the government to put in the money. tcs, infosys to do this.\n\nBUT ASK YOURSELF, WHY WOULD THEY DO IT?\n\n  \nif you are not interested in building, why do you expect someone else to build it.\n\nit doesn't take you a billion dollars to build the frontier. we built silk for $1.6 millon, in four months.\n\nand let me be clear about what we're actually doing. we're not building a model so india can say it has one. we're not here to wave a flag. we're here to compete with the best labs in the world, openai, anthropic, the chinese labs, and beat them. on voice design, we already have.\n\n  \nso why is there one of us, and not fifty? because we as a country have always been too emotional about this.\n\nwe never a plan, it's always reaction. fable 5 is banned, and suddenly the whole country needs a frontier model by next week. the urge is always the same. we need something now.\n\nthen you look down at your hands. empty. we don't have anything.\n\nbecause this surge only comes once every two years. some new model lands abroad, the nationalism spikes, and the goalpost jumps. two years ago it was \"where's our gpt-4.\" today it's \"where's our fable 5.\" when the next one drops it'll be gpt 6.5, and we'll do the exact same dance. chase the now-frontier, come up empty, go quiet, wait for the next surge.\n  \n  \nresearch never works like this.\n\nresearch is not copying the thing that just dropped. anthropic is not sitting around trying to build gpt 5.5\\. mistral is not trying to build fable 5\\. they're answering questions only they find interesting. that is what a lab does.\n\nyou cannot leapfrog the whole stack. we don't have a gpt-4 and we won't conjure one overnight. but you can leapfrog somewhere else. pick a problem nobody owns and go be the best in the world at it. we did. on voice design, silk beats elevenlabs and inworld. 51.4 to their 40\\. not close.\n\nso what does that mean? maybe the problem was never the model. it's the goal. a fable 5 model is not a goal.\n\n  \nfor silk, our goal was simple. we want to build the most human voice model. and for humanness, expression is everything.\n\nso you push on expression. and whatever falls out of that, a new architecture, the codec design, all of it, that is the outcome. not the aim.\n\n  \nresearch i",
+      "title": "",
+      "url": "http://x.com/i/article/2066412682803322880"
+    },
+    "http://x.com/i/article/2066436932624629760": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066436932624629760",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK2AxPVXcAMVjef?format=jpg&name=900x900)](http://x.com/0xMortyx/article/2066469702075920794/media/2066449387451019267)\n\nThe 9-Step Loop That Turns Claude Code Into a Senior Engineer\n\n[![](https://pbs.twimg.com/profile_images/2057514634119188480/KQg1xNWg_normal.jpg)](http://x.com/0xMortyx)\n\n[0xMorty](http://x.com/0xMortyx)\n\n[@0xMortyx](http://x.com/0xMortyx)\n\n·\n\n4h\n\nFollow\n\nClick to Follow 0xMortyx\n\n16\n\n19\n\n131\n\n[8.3K](http://x.com/0xMortyx/status/2066469702075920794/analytics)\n\nMost developers use Claude Code like a junior who needs constant supervision. They type a request, watch it edit a file, eyeball the result, type the next request. It works. But it's not what Claude Code is for.\n\nFollow my Substack to get fresh AI alpha: \n\n[substack.com/](https://substack.com/@0xmorty)\n\n@0xMortyx\n\nA senior engineer doesn't work that way. They understand the codebase first, make a plan, write the change, test it, review it against the team's standards, and only then ship. That entire sequence can be built into Claude Code as a repeatable 9-step loop using its actual primitives: plan mode, subagents, hooks, CLAUDE.md, and slash commands.\n\nSet this up once and every task runs through the same disciplined pipeline. Here are the 9 steps.\n\n## \n\nThe difference isn't the model. It's the loop around it.\n\nClaude Code ships with the exact primitives a disciplined workflow needs: a planning mode that thinks before touching code, subagents that work in isolated context windows, and hooks that run deterministically every single time. The gap between a junior-tier and a senior-tier setup is just whether you've wired these together into a loop.\n\n[![Image](https://pbs.twimg.com/media/HK15w1gXIAAbBKz?format=jpg&name=small)](http://x.com/0xMortyx/article/2066469702075920794/media/2066441683936419840)\n\n[![Image](https://pbs.twimg.com/media/HK155eFWwAAjzVE?format=jpg&name=small)](http://x.com/0xMortyx/article/2066469702075920794/media/2066441832267956224)\n\n## \n\n1\\. Explore Before Touching Anything\n\nA senior engineer reads the codebase first. So should your agent.\n\nExplore subagent\n\nThe junior move is to start editing immediately. The senior move is to understand the codebase first. Claude Code has a built-in Explore subagent that reads your code in read-only mode, in its own context window, without cluttering your main session or risking changes.\n\nStart every non-trivial task by sending Claude to explore the relevant area. It comes back understanding how things actually fit together, instead of guessing.\n\npython\n\n```python\nSTART WITH EXPLORATION\n# let the Explore subagent map the territory first\n\"Explore how authentication works across this codebase.\nMap the files involved, the data flow, and anything that\nlooks fragile. Don't change anything yet.\"\n```\n\n> ✓ The agent now understands the code before it writes a single line\n\n[![Image](https://pbs.twimg.com/media/HK17KdrXAAAiAM3?format=jpg&name=small)](http://x.com/0xMortyx/article/2066469702075920794/media/2066443223728324608)\n\n## \n\n2\\. Make a Plan in Plan Mode\n\nDecide the approach before any code gets written.\n\nPlan mode\n\nPlan mode lets Claude think through the full approach without executing anything. It produces a step-by-step plan you can read, correct, and approve before a single file changes. This is where you catch a bad approach for free, instead of after it's half-built.\n\nThe senior habit: never let it build until you've seen the plan and agreed with it.\n\npython\n\n```python\nPLAN MODE\n# enter plan mode, then ask for the approach\n\"In plan mode: lay out exactly how you'd add rate limiting\nto the API. List the files you'll touch, the order, and the\nrisks. Wait for my approval before writing code.\"\n\n# you review, adjust, approve, then it builds\n```\n\n> ✓ You approve the approach before any code exists to throw away\n\n[![Image](https://pbs.twimg.com/media/",
+      "title": "",
+      "url": "http://x.com/i/article/2066436932624629760"
+    },
+    "http://x.com/i/article/2066460781139435520": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066460781139435520",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK2LZAuXQAECQGj?format=jpg&name=900x900)](http://x.com/jevgenijs/article/2066461175580090454/media/2066461065840377857)\n\nBanks should be running stablecoin pilots now\n\n[![](https://pbs.twimg.com/profile_images/1749571155642433536/Fn983pKJ_normal.jpg)](http://x.com/jevgenijs)\n\n[Jevgenijs Kazanins![](https://pbs.twimg.com/profile_images/2016273751566905344/0yTjFNa8_bigger.jpg)](http://x.com/jevgenijs)\n\n[@jevgenijs](http://x.com/jevgenijs)\n\n·\n\n4h\n\nFollow\n\nClick to Follow jevgenijs\n\n5\n\n5\n\n37\n\n[6.6K](http://x.com/jevgenijs/status/2066461175580090454/analytics)\n\nOne quote from \n\n[@dwr](https://x.com/@dwr)\n\n on the \n\n[@TokenizedPod](https://x.com/@TokenizedPod)\n\n stuck with me:\n\n\"If you don't have the internal muscle of knowing how to deal with stablecoins... should the world start to change, you're caught flat-footed.\"\n\nI think this applies particularly well to banks.\n\nThere is a tendency to dismiss pilots as experiments that never make it to production. But even a small stablecoin pilot forces a bank to work through questions that stay invisible on paper. How does it plug into core banking systems? What do compliance and AML controls look like in practice? Then there is operational resilience, reporting, and getting treasury and risk teams comfortable with a new asset and a new settlement rail.\n\nThe real value of a pilot is not the pilot itself, but the capability building that happens along the way, the \"internal muscle\" Dan described. Every pilot creates institutional knowledge, exposes gaps, and shows teams what running at scale would actually take.\n\nToday, many banks are putting their tokenization efforts into tokenized deposits. That makes sense. Tokenized deposits fit existing banking models and offer a familiar path toward programmable money and onchain settlement.\n\nBut I worry we are not seeing enough stablecoin pilots.\n\nTokenized deposits and stablecoins are not competing products. They solve different problems.\n\nA tokenized deposit is programmable money that stays inside the issuing bank's perimeter. That makes it strong for settlement, collateral, and intraday liquidity. The catch is that it cannot cross bank boundaries.\n\nA stablecoin works the other way. It moves anywhere, across any chain or wallet, which makes it strong for cross-border payments, remittances, settlement on alternative trading venues, and agentic payments.\n\nThe future is unlikely to be tokenized deposits or stablecoins. It is much more likely to be both, each serving different customer needs and different transaction flows.\n\nThat is why banks should start building stablecoin capabilities now. A sensible first step is using stablecoins for settlement between banks and financial institutions. That keeps the complexity away from end customers while the operational experience gets built.\n\nOver time, those capabilities can turn into customer-facing products. Stablecoin accounts, payments, treasury services, and new cross-border payment experiences. Banks that wait until customer demand is obvious may end up learning under pressure, while others have already built the muscle.\n\n* [![](https://pbs.twimg.com/profile_images/1749571155642433536/Fn983pKJ_normal.jpg)](http://x.com/jevgenijs)  \n[Jevgenijs Kazanins![](https://pbs.twimg.com/profile_images/2016273751566905344/0yTjFNa8_bigger.jpg)](http://x.com/jevgenijs)  \n[@jevgenijs](http://x.com/jevgenijs)  \nFollow  \nClick to Follow jevgenijs  \nMarket development at  \n[@tempo](http://x.com/tempo)  \n. Hobby fintech researcher at  \n[@popularfintech](http://x.com/popularfintech)  \n. Views are my own.",
+      "title": "",
+      "url": "http://x.com/i/article/2066460781139435520"
+    },
+    "http://x.com/i/article/2066476107407532032": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066476107407532032",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK2ZNWFb0AAHKGD?format=jpg&name=900x900)](http://x.com/Tim%5FDenning/article/2066476403667714432/media/2066476258578649088)\n\nYour entire life will change when you realize you need more action, not information. \n\n[![](https://pbs.twimg.com/profile_images/1760794427331948545/XXYtQTw4_normal.jpg)](http://x.com/Tim%5FDenning)\n\n[Tim Denning](http://x.com/Tim%5FDenning)\n\n[@Tim\\_Denning](http://x.com/Tim%5FDenning)\n\n·\n\n3h\n\nFollow\n\nClick to Follow Tim\\_Denning\n\n12\n\n40\n\n366\n\n[25K](http://x.com/Tim%5FDenning/status/2066476403667714432/analytics)\n\nInformation overload is the new pandemic.\n\nWe’ve become information junkies. The internet has overloaded us with information. Then social media 10X’d it. And now AI slop has 100X’d it.\n\nI don’t know about you, but I’m drowning.\n\nIf I get one more email from someone who wants me to read their god damn 20-hour book, my head is going to explode. Books from unknown authors are dead. Why?\n\nNo one can afford to risk 20 hours of their time on a book written by an unknown person. So they will read books, but only if they already trust the author.\n\nThis is what information overload has done to humanity. It’s sad.\n\nThe false god is that gathering more information will solve our biggest problems. That’s clearly a lie. We have more information than ever and simultaneously more problems than ever. The simple life has been replaced with the complex life for most people. Every channel to someone’s brain is noisy.\n\nBrain rot is everywhere too.\n\nSo the goal for you must NOT be to endlessly collect information.\n\n# \n\nThe hidden problem of information gathering\n\nYou’re addicted to collecting information and probably don’t know why.\n\nWriter Sahil Bloom simplified the problem for me:\n\n> Dopamine from information gathering is a dangerous drug. It’s the dopamine from reading, planning, or learning, but never doing.\n\nI wasn’t lying when I said we’re information junkies.\n\nJust like junkies are addicted to heroin, we’re all addicted to gathering information because it gives us the drug of dopamine. Dopamine runs our brain's entire reward system. That’s why you’re addicted. It’s biological.\n\nYou can only defeat the addiction with an understanding of what’s going on, and a ruthless level of discipline to stop consuming so much info.\n\nWhen you collect information, you feel like you’re making progress.\n\nThe information you collect gets added to a plan, strategy or set of actions you intend to take in the future. The problem is plans always get f\\*cked up by life.\n\nEverything sounds like a good plan until you get punched in the face, sued by a stranger, or fired from a job you spent 10 years working at.\n\nThe entropy of the universe guarantees your fantasies of plans and future actions will never come true. Yet most people can’t see the information-gathering mirage. They genuinely trust themselves and the world that chaos won’t find them.\n\nBut chaos finds everyone. Even me.\n\nThat’s when people say, “Sorry, I didn’t take action because I got sick or my mother died.” The response is innocent. But quietly underneath their reply is the belief that “Now you’re surprised what just happened to me and will let me off the hook for not doing what I told you I was going to do.”\n\nThat translates to “I’m special.”\n\nBut whatever unique form of chaos you experience isn’t special at all. There’s a list of about ten problems that will find their way into your life – and they happen to all of us.\n\nCollecting information and expecting to implement it later on is a fantasy that’ll destroy your life the same way cheating on your partner with a hooker will.\n\n# \n\nThe danger of gurus\n\nGurus are everywhere.\n\nOpen any content platform and you’ll drown in opinions. All of them seem like they’re only trying to help. The challenge is everyone’s strategy to solve a problem is different.\n\nIf you listen t",
+      "title": "",
+      "url": "http://x.com/i/article/2066476107407532032"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -6329,6 +6430,32 @@
       "text_excerpt": "ノート 講演 紹介 目次 ユーザー体験への誤解を払拭し 、「 UI/UX」表記を避ける スラッシュ区切りは不要 ユーザー体験の解釈 「 UXデザイン」への違和感 体験場面設計・Design for UX 何でもかんでも「UX」にしたい症候群 ギャレットモデルにおける誤解 EOF ノート / ユーザー体験への 誤解を 払拭し 、「 UI/UX」 表記を 避ける 2026.5.26 スラッシュ区切りは 不要 「 UI/UX 」 「 UX/UI」という表記を見かける度に、身体のどこかがむず痒くなるような感覚に襲われます。それはまるで 、 『 筐体/触り心地』 とか 『日本酒/風味の印象』 と書いているようなもので、妙な違和感があります。これら二つの言葉は決して無関係ではないので一見それっぽい気がしますが、よく読むと、それぞれ包括する概念も、見る視点も異なる二つの事柄を無理にスラッシュ区切りにして“同一化”しようとする発想に基づいているのだとわかります。 UIを考える際にユーザー体験（UX）を考えないことなどほぼあり得ないので 、 「 UI」という2文字にはすでにユーザー体験についての意味が含まれていると捉えることが自然です。ですから、何かソフトウェアとかのユーザーインターフェイスを検討する場面で、シンプルに「UI」と書けば、自ずとユーザー体験（UX）についても言及することができます。もとよりスラッシュ以降など不要なのです。 対して、ユーザー体験（UX）を考える場面では、必ずしもUIについて検討しているとは限りません。ユーザー体験は、ユーザーが何かの人工物に触れたときに生じる心情についてであるため、UI設計とはまったく異なる視点で向き合う必要もありましょう。 そもそも、スラッシュ区切りにしてしまうと、スラッシュ以降を省略した表記との意味の差異を考慮しなくてはならなくなります 。 「 UI/UX」と「UI without UX」はそれぞれ別の意味を持つことの前提を作ってしまいます。しかし 、 「 UI/UX」表記を用いるほとんどの人々は 、 「 UI/UX」＝「UIとUXの両方」くらいの意味合いで使っていますから、なんとも奇妙な言葉の認識が生まれてしまうわけです。 「 UI」と言いたければ単に 「UI」 と書けば良いのだし 、 「 UX」と言いたければ 「UX」 と書けば良いのです。わざわざ二つをスラッシュ記号で合体させて「UI/UX」なる言葉を新造する必要はなく、特に設計のプロであれば尚更であります。 私は 、 「 UI/UX」表記をするとどうにも にわか のように映ってしまうので、なるべく同列に扱わない姿勢をとるようにしています。また 、 「 UX」ではなく「ユーザー体験」と表すようにしています。 ユーザー体験の 解釈 ユーザーインターフェイスは“モノ”です。眼に見えて、手に取ることができ、数えられる物理の存在です。対してユーザー体験は“コトについての印象や記憶”と言えます。ユーザーの心の中にだけ存在する心情であるので、誰からも見えないし、触ることもできないし、境界が曖昧なので数えることも難しいでしょう。それに、モノは一つかもしれなけれど、体験は人それぞれに内在するわけだから、少なくとも 十人十色 の体験が存在していると考えなければなりません。 そもそも、ユーザー体験はデジタル製品、ソフトウェアだけに生じるものではありません。UIではない領域のユーザー体験も考える必要があります。この辺りは Web デザインの延長でユーザー体験を捉えている人々がよく誤解していることです。 では一体何がユーザー体験の定義なのか？ と疑問を抱くと思うのですが、そもそもユーザー体験の統一的な定義は存在しないとされており 1 、ここが混乱の発端だったりするわけです。定義がないのだから統一見解も定着しない。各々が独自に解釈して、なんとなくバズワードになった言葉が普及してしまっている。このような状況ですから 、 「 ユーザー体験 」 「 UX」という言葉が曖昧なまま宙に浮いてしまっているのです。 私は 、 「 ユーザー体験」について納得できる一つの解釈として、次のように理解しています： ユーザー体験とは ユーザーが人工物に触れる前、最中、そして後にかけて本人の中に生じる、個人的で主観的な心理プロセス。 人工物との対話であること 時間軸上での変化が存在すること ユーザー本人の心理プロセスであること 個人的で主観的であること この解釈は、黒須正明氏の著書 『UX原論 ユーザビリティからUXへ』 で言及があり、私はこれを自身の解釈としています。 UX原論 -ユーザビリティからUXへ- Amazon → 「 UXデザイン」への 違和感 「 UXデザイン」という言葉が登場して久しいですが、ユーザー体験の解釈を前述の通りで捉えると、この言葉にも違和感を抱くようになります。そもそもユーザー体験はユーザーにとって個人的で主観的であるのだから、外部から他者が手を加えたり、“デザインされる”などという行為が行われて良いはずがないのです。まるで「 水槽の中の脳 」のイメージです。 体験場面設計・ Design for UX もちろん現実にはそんなことはないので、UXデザインの取り組みそのものを否定するものではありません。問題はその取り組みの名前です。ユーザー体験はデザインの対象ではなく、ある意味で結果の一つとしてみるべきなのです 。 「 UXをデザインする」と言ってしまうからおかしいのであって 、 「 ユーザー体験のための環境設計」というふうに言い換えるだけで、この違和感はだいぶ払拭できます。私は 「体験 場面 設計」 や Design for UX などの表現が妥当と考えます。 「 体験場面設計」についてはまた別の機会で。 何でも かんでも 「UX」に したい 症候群 何でもかんでも「UX」にしたい症候群とは、何か新しいデザイン的な取り組みを「UX」に置き換えたくなることです。最近はその症状が少し落ち着きつつあるように思いますが、ソフトウェア業界、IT業界を中心に、国内外問わずこの傾向はよく見られます。 例えば 、 「 UIデザイン」を「UXデザイン」に言い換えたり 、 「 UIデザインツール」を「UXデザインツール」と言い換えるようなことです 。 「 UX」の方が範囲が広いというような発想なのかもしれませんが、先にも述べたように、UIを検討する場面でユーザー体験（UX）を考えないことなど実質的にあり得ないのだから、わざわざ線引きして、UXの方が上位であるかのようにブランディングする必要はありません。 何でもかんでも“UX”と言うのをやめる / Design for UX｜usagimaru 解釈は人それぞれなのかもしれませんが、この業界には何でもかんでも“UX”を付けたがる癖があります。私はこの流行りには乗らずに物事を分けて考えてみたいです。 言葉の定義と解釈など ユーザーインターフェイス（UI）の設計を表す言葉に関して、それをわざわざ「UX〜」と言い換える事例が国内外問わず多くあり、本来この“UX”と呼ばれるはずのものがどこか蔑ろにされているようにも感じられます。言い換えの例としては次のような具合です。 ・UIデザイン → UXデザイン ・UIデザインツール → UXデザインツール または UXツール ・UIデザイナー → UXデザイナー または UI/UXデ note（ノート） → ギャレットモデルに おける 誤解 Jesse James Garret （ジェシー・ジェームズ・ギャレット）氏が 2000 年頃に発表した5段階スタックのダイアグラム、 “The Elements of User Experience” （和名通称：5段階モデル）は、一見ユーザー体験の要素を表しているかのように思えます。しかしこの図はそもそもユーザー体験を5つのレイヤーに分割したものではないのです。 まず、デザインプロセスはユーザー体験ではありません。デザインを進める（作る）工程であって、ユーザーとはまったく異なる側の事情についてを指します。ユーザー体験はユーザーの心理プロセスであるから、モノの設計行為や作ることのプロセスとは明確に区別しなければなりません。 出典：http://www.jjg.net 考えてみてください 。 「 戦略 」 「 要件 」 「 構造 」 「 骨格 」 「 表層」 これらが本当にユーザー体験の要素だと言えましょうか。どこかのコンサルが考えた戦略、システム開発会社が提示した要件、デザイナーが描いた構造や骨格、表層のスタイルが、ユーザーの体験を形作っているのでしょうか。一部には影響を与えているかもしれませんが、体験そのものはユーザーの心の中に生じたプロセスの結果であり、過去の記憶とも複雑に結びつきながら形成されたものです。特定の製品の戦略だとかによるものだとは言い切れません。 そもそも、これらの5つの要素は設計工程を示しているので、 構成要素ではなくプロセスと捉えるべき です。戦略を検討する工程からインターフェイスの表層を検討する工程までのプロセスを俯瞰できる図なのです。 もうひとつ重要な点は、このモデルで着目すべきは5段階のレイヤーではなく、左右の2分割と合わせることにこそ価値があるということです。このモデルの多くの引用者は左右の視点を（意図的に）見落とし、5段階の部分だけを都合よく利用しています。確かにそこだけに注目すると、デザインプロセスの抽象度合いの説明としては便利であるのですが。 左右",
       "title": "ユーザー体験への誤解を払拭し、「UI/UX」表記を避ける | Click and Magic",
       "url": "https://clickandmagic.com/notes/avoiding_uiux"
+    },
+    "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "[(columns,maxheight=900)..] Human Interface Guidelines (HIG)は、Appleプラットフォームにおける、人間とコンピュータの対話方法に関する基本設計の指針を示す重要な文書です。その始まりは半世紀前の1970年代、Apple…",
+      "extraction_source": "trafilatura",
+      "final_url": "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy",
+      "frameable": null,
+      "image_urls": [
+        "https://clickandmagic.com/_astro/higs.CsBIMdIL_Z1WXNW9.png",
+        "https://clickandmagic.com/resources/pointer-arrow.webp",
+        "https://clickandmagic.com/resources/pointer-arrow-click.webp",
+        "https://clickandmagic.com/_astro/higs.CsBIMdIL_Z22i2zg.webp",
+        "https://clickandmagic.com/_astro/hig_1978.CN26sGRM_ZAsYbP.webp",
+        "https://clickandmagic.com/_astro/hig1987.Bu5saufj_ZchLwK.webp",
+        "https://clickandmagic.com/_astro/drawinghands.DgTNr96N_ZhpM8p.webp",
+        "https://clickandmagic.com/_astro/ioshig2017.CYoUNaBc_Z1Efl6c.webp",
+        "https://clickandmagic.com/_astro/macoshig2016.BUt0eJRQ_1Ucvfi.webp",
+        "https://clickandmagic.com/_astro/hig1986_designphilosophy.BDsTJFb__Z1TNJ8V.webp",
+        "https://clickandmagic.com/favicon-cache/developer.apple.com.ico",
+        "https://docs.developer.apple.com/tutorials/developer-og.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "WWDC26: フィロソフィーとしてのHIG  \n  HIG小史\n[Human Interface Guidelines (HIG)](https://developer.apple.com/design/human-interface-guidelines)は、Appleプラットフォームにおける、人間とコンピュータの対話方法に関する基本設計の指針を示す重要な文書です。その始まりは半世紀前の1970年代、Apple Ⅱの時代まで遡り、Macよりも長い歴史を持つAppleの伝統となっています。確認できる限りで一番古いHIGは、1977年から1978年ごろに書かれた[Bruce Tognazzini](https://www.nngroup.com/people/bruce-tognazzini/)編纂版で、これはDigiBarn Computer Museumの刻印があるPDF文書をオンラインで見つけることができます。Bruce Tognazzini (Tog) は、初期のAppleでHuman Interface Groupを設立した人物、そしてNielsen Norman Groupの設立者としても有名です。\nその何年か後の1987年には、Macintoshに対応した『Apple Human Interface Guidelines: The Apple Desktop Interface』が出版されています。エッシャーの絵画『描く手』のような特徴的な表紙をしているので、見知った方も多いのではないでしょうか。これには和訳も存在していて、1989年にアジソン・ウェスレイ・パブリッシャーズ・ジャパンから最初の日本語版が出版されたのち、しばらくして2004年にも新紀元社版として一度復刻しています。どちらも現在は絶版となっていて、中古市場でもなかなか手に入りにくくなっています。\n本稿表紙の画像は私のHIGコレクションの一部で、どれも貴重なものです。左から1992年版『Macintosh Human Interface Guidelines』、1987年版の原著（英語版）、その日本語版（新紀元社、2004）です。\n過去のHIGに目を向けると、当初から “Design principles”（デザイン原則）に言及してきたことがわかります。1987年版では次の10原則が掲げられていました。\n- 比喩の使用 (Metaphors)\n- 操作の直截性 (Direct Manipulation)\n- 見たものを指示する (See-and-Point)\n- 一貫性 (Consistency)\n- WYSIWYG (What You See Is What You Get)\n- ユーザによるコントロール (User Control)\n- フィードバックとダイアログ (Feedback and Dialog)\n- 寛容性 (Forgiveness)\n- 安定性 (Perceived Stability)\n- 美的完成度 (Aesthetic Integrity)\n加えて、グラフィック使用の原則として3つ、プログラミング上の戦略として6つの指針も示されていました。\n- 表示上の一貫性 (Visual consistency)\n- シンプルさ (Simplicity)\n- わかりやすさ (Clarity)\n- モードレスオペレーション (Modelessness)\n- イベントループ (The event loop)\n- 操作の取り消し (Reversible actions)\n- スクリーン (The screen)\n- 表現の明確さ (Plain language)\n- ユーザーによる試用テスト (User testing)\nこれらはおよそ40年前に示され、現在でもほぼ有効な原則・指針です。「原則」はそう変わるものでもありませんから、デザインとして不変である部分を知ることは、これからのデザインにとっても非常に価値のあることだと考えます。\nそれを裏付けるかのように、これらのうち6つの原則は2017年のiOS HIGにも記載が残っていました。当時のHIGには「iOS Design Theme」と「Design Principles」のページがあり、1987との精神的なつながりを感じることができていました。ただ、2018年の更新でこれらの言及が完全になくなってしまい（macOS HIGでも2017年にデザイン原則の章が削除）、HIGの精神が直接的には見えづらくなってしまっていたのがここ9年ほどです。\nデザイン\nところで、1987年版よりも前に「1986年版HIG」が存在していたことがあります。これはベータ版として書かれたものなので正式な1987版とは表現がだいぶ異なっていますが、開くとまず “Chapter 1: Design Philosophy” から始まり、最初の節で “The Roots of Apple’s Desktop Interface”と題して、Appleデスクトップインターフェイスの起源についての略歴が表明されます。1960年代のSRI（Douglas Engelbartら）が発明したマウスの基本形、Xeroxが手がけたStarやSmalltalk、そこからApple LisaそしてMacintoshに続く歴史が述べられています。Macのルーツは1984ではなく、はるかそれ以前の偉大な先人たちの発明から脈々と続いている末端にあることを端的に示し、敬意を表していたのです。\n私はこのくだりが好きだったのですが、残念ながら1987版ではApple Lisa以降の言及に留まり、ルーツに関してはぼかされてしまっています。\nHIG(1986)の第一章ではそれに続いて “The Spirit of the Interface” の節が連なります。和訳すると「インターフェイスの精神」でしょうか。ここで今日のデザイン原則への言及が行われているのですが、“Spirit”という言い回しが良いですね。これらの事柄は精神であって、誰かに言われて従うルールとは性質が異なるのだ、と表明しているようにも読めます。\nHIGの\nWWDC26は例年よりも地味に感じましたが、方向性としては良かったと思っています。OS 26で多くの議論を呼んだ新しいインターフェイスも、OS 27ではだいぶ手入れがなされた印象ですし、2026年はSnow Leopardならぬ “Snow Tahoe” として軌道修正され始め、ひとまずは安心できています。\n2026年6月版のHIGでは、長く欠けていたデザイン原則への言及が9年ぶりに復活しました。これまで不完全な状態であったHIGがようやく本来の姿を取り戻したかのような印象です。この間なぜデザイン原則への言及を削いでいたのか、そして今回それを復活させる判断に至ったのかの核心はよくわかりませんが、とにかくそれを復活させたことは肯定的に受け止められます。\nHIG 2026版のデザイン原則は次のとおりです：\n- Purpose（目的）\n- Agency（主体性）\n- Responsibility（責任）\n- Familiarity（親しみやすさ）\n- Flexibility（柔軟性）\n- Simplicity（シンプルさ）\n- Craft（細部にまで配慮）\n- Delight（人間らしい喜び）\n※ 公式の日本語版HIGがまだ未更新であるため、和訳は私による独自のものです。今後公式の表現に合わせる予定です。\n各原則の意味は新しいHIGやセッションビデオ250 “Principles of great design” で解説があります。本稿での細かな言及は省きますが、基本的には過去のデザイン原則を踏襲しながら、新しい表現と視点を導入する形でのアップグレードとなっているようです。セッションビデオをチェックすると、過去にもよく見聞きした“Forgiveness”の言葉や、“User Control”に類似した概念が現れるので、過去のデザイン原則からの連続性があるものと見て良さそうです。\n| 新原則(2026) | 旧原則・指針(1987) | \n|---|---|\n| Purpose | |\n| Agency | User Control | \n| Forgiveness | |\n| Feedback and Dialog | |\n| Modelessness | |\n| Reversible actions | |\n| Responsibility | Feedback and Dialog | \n| Perceived Stability | |\n| Clarity | |\n| Familiarity | Metaphor | \n| Consistency | |\n| Visual consistency | |\n| Clarity | |\n| Flexibility | Direct Manipulation | \n| WYSIWYG | |\n| The screen | |\n| Simplicity | Metaphor | \n| Consistency | |\n| See-and-Point | |\n| WYSIWYG | |\n| Simplicity | |\n| Clarity | |\n| Plain language | |\n| Craft | Aesthetic Integrity | \n| Perceived Stability | |\n| Delight | Ae",
+      "title": "WWDC26: フィロソフィーとしてのHIG | click and magic",
+      "url": "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy"
     },
     "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
       "cleaner_v": 2,
@@ -7701,6 +7828,23 @@
       "title": "GitHub - robzilla1738/supergoal: Plan and autonomously build a software task end-to-end. One ready-to-paste /goal, adaptive phase count, memory preload + writeback, 3-strike self-healing recovery. Works on Claude Code and Codex. · GitHub",
       "url": "https://github.com/robzilla1738/supergoal"
     },
+    "https://github.com/secretbuilds/loopy": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "meta-agent for claude code to automatically loop engineer your workflow - secretbuilds/loopy",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/secretbuilds/loopy",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/c23dd664ceeeae51015d2ed9a8425389c6f5066edfcd94e3b180efa02c107768/secretbuilds/loopy",
+        "https://github.com/secretbuilds/loopy/raw/main/docs/dashboard.png",
+        "https://github.com/secretbuilds/loopy/raw/main/docs/loopy-characters.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - secretbuilds/loopy: meta-agent for claude code to automatically loop engineer your workflow · GitHub",
+      "url": "https://github.com/secretbuilds/loopy"
+    },
     "https://github.com/skeptrunedev/declank": {
       "content_type": "text/html; charset=utf-8",
       "description": "Minimal web UI + Node CLI for removing AI image watermarks (Gemini, Doubao, Jimeng, Samsung), invisible signals, and metadata. Wraps remove-ai-watermarks. - skeptrunedev/declank",
@@ -8522,6 +8666,58 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Using AI to write better code more slowly | Read the Tea Leaves",
       "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
+    },
+    "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropicの開発者カンファレンス「Code w/ Claude Tokyo」、2日目の Extended に参加してきました。1日目のレポートに続き、この記事ではDay2で私が参加したセッションをまとめます。  なお、この日は私自身もスピーカーとして登壇させていただきました。登壇内容は別記事にまとめていますので、あわせてご覧ください。  \n\n\nエンジニア出身の創業者が、コードゼロで事業を動かした30日間。Code with Claude: Extended Tokyo 登壇レポート - primeNumber’s Owned Media\n\n\nこんにちは、primeNumberで",
+      "final_url": "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw",
+      "frameable": false,
+      "image_urls": [
+        "https://assets.st-note.com/production/uploads/images/285612616/rectangle_large_type_2_46ff6baa9690f5434fc08a71c1359d9b.jpeg?fit=bounds&quality=85&width=1280",
+        "https://assets.st-note.com/production/uploads/images/285612616/rectangle_large_type_2_46ff6baa9690f5434fc08a71c1359d9b.jpeg?width=1280",
+        "https://assets.st-note.com/img/1781493373-uxKjkBCTqOsJ01o6aGIPb8LV.jpg?width=1200",
+        "https://assets.st-note.com/img/1781493492-R6GUEVXnL1hwips4ldv3TzFj.jpg?width=1200",
+        "https://assets.st-note.com/img/1781493641-54IgtDNLc0wCrPnT81VKG7mo.jpg?width=1200",
+        "https://assets.st-note.com/img/1781493873-xuqzAdeZVwLvDTr0XWPGIC9y.jpg?width=1200",
+        "https://assets.st-note.com/img/1781493917-keJLoavlO53Pgn7h2SwVEbzx.jpg?width=1200"
+      ],
+      "kind": "article",
+      "text_excerpt": "投稿 ログイン 会員登録 【現地参加&登壇レポート】Code w/ Claude Tokyo: Extended（Day2）― 経営の現場から、個人の夢、大規模リライトまで 2 山本 健太 2026年6月15日 12:29 Anthropicの開発者カンファレンス「Code w/ Claude Tokyo」、2日目の Extended に参加してきました。1日目のレポートに続き、この記事ではDay2で私が参加したセッションをまとめます。 なお、この日は私自身もスピーカーとして登壇させていただきました。登壇内容は別記事にまとめていますので、あわせてご覧ください。 エンジニア出身の創業者が、コードゼロで事業を動かした30日間。Code with Claude: Extended Tokyo 登壇レポート - primeNumber’s Owned Media こんにちは、primeNumberです。2026年6月11日、Anthropicが東京で開催した「Code with Cl lounge.primenumber.com Code w/ Claude Tokyo: Extended での登壇を聞いていただいた皆様、本当にありがとうございます！予想以上に多くの方に見ていただき貴重な機会でした。 登壇後にBorisさんともお話しでき、ClaudeCodeであらゆる働き方が変わったことへの感謝を直接伝えることができました✨ #CodeWithClaude @bcherny https://t.co/oPpIwzgC0M pic.twitter.com/sMa15Qzpzo — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 Founder's Stageを中心に見ていたので、順にまとめます。 Opening Keynote（Boris氏）― 「アイデア」と「実現」の距離が縮まった Borisさん @bcherny 「最初に私がClaudeCodeのデモを社内Slackに投稿したとき、リアクションしてくれたのはたった2人だった」面白すぎる。世界変えてるけど #CodeWithClaude pic.twitter.com/L3SVm1RGBv — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 2日目の基調講演は、参加者への歓迎とともに、Boris氏自身のプログラミングの原体験から始まりました。学生時代、数学（ブール代数）の宿題を手で解く代わりに電卓（TI-Basic）でプログラムを組んで自動化していた、というエピソード。本人にとってそれは「魔法のよう」な体験で、当時フォーラムやゲームを通じて学んだ世代の共通体験として語られました。 そこから話は開発の進化へ。かつてはプログラムを動かすのに複雑なコンパイラやシステムの管理が必要でしたが、いまは**「アイデア」とそれを実現する「エージェント」の距離が大きく縮まった**と強調します。かつての「電卓」が、いまや「分散システム」を構築できるレベルにまで来た、という対比が印象的でした。約1年前のサンフランシスコでのDevDayの熱気にも触れつつ、ユーザーのフィードバックを聞きながら再構築を重ねてきた歩みが振り返られました。 前日に発表されたばかりの第5世代モデル（Fable）についても言及がありました。 高い自律性と長時間稼働 ：過去のどのモデルよりも自律的に動き、システム調査のような数日がかりの長時間タスクも、軌道を外れずに実行できる 高度なコード解析 ：コードを「書く」だけでなく「読む」能力が向上し、バグの発見、障害（outage）の調査、リポジトリ内を探索して「何がいつ壊れたのか」を特定する力に優れている こうした進化によって「構築する（ビルドする）」ことの意味自体が変わってきた、と。深いドメイン知識を持つ人が、長年夢見ていたプロジェクトをついに実現できる時代になった、という語りは、この後のセッション群を予告するようでもありました。 Building AI-native across industries（NTT・みずほ・メルカリ）― PoCの壁をどう越えるか NTT、メルカリ、みずほ の三者対談始まった。貴重な会だと思うけど、公式Webのプログラムに載ってなくて勿体ない… #CodeWithClaude pic.twitter.com/367nDWtj1s — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 (↑の投稿の直後に、Webが修正されたようでした) NTT・みずほ・メルカリのAI責任者によるパネル。各社ともClaudeを実務に広げつつあり、みずほは日常業務やPoC作成に、メルカリはエンジニアリング支援やドメイン知識の「スキル」化（PMも開発に関われる環境づくり）に、NTTは経営トップの号令のもと全プロセスのAIファースト見直しに使っている、と紹介されました。 印象に残ったのはPoCの壁の越え方です。みずほは「成果を急ぎすぎない」、メルカリは「新しいアイデアの9割はうまくいかない前提で挑戦し続ける」と、いずれも試行錯誤を織り込む姿勢を語っていました。費用対効果はシビアに見るという点も共通で、タスクの難易度に応じてHaiku・Sonnet・Opusを使い分けることがスケーラビリティの鍵、と。NTTは2030年までに約1000億円のコストダウンを掲げているそうです。 How to integrate Claude into your daily life ― AIを「同居人」にする こちらはBuilder's Stageでの講演です。ぬこぬこさんの発表は、Claude Codeを日常のAIエージェントとして使い、物理デバイスとつなぐ取り組みでした。 24時間そばでサポートする日常使いのエージェントは、日本のコミュニティで「エビ」と呼ばれており、ぬこぬこさんはそのエンジンにClaude Codeを推しています（安定性、安全な認証、育てた資産を使い回せる点が理由）。DiscordやTelegramから操作できる「Claude Code Channels」や、レスポンスの速いHaikuで改善を速く回すコツも紹介されました。さらに、カメラ・マイクを備えたデスクトップロボット「スタックちゃん」と、わずかな録音から声を再現する音声合成「いろどりTTS」を組み合わせ、AIを物理世界の同居人にする実演も。コーディング以外の日常タスクにもClaude Codeは頼れる、という、聞いていて手を動かしたくなるセッションでした。 Manager 11（Ryan氏）― 10代の夢だったゲームを、ついに完成させる Ryan氏の発表は、10代からの夢だったサッカーマネジメントゲーム「Manager 11」をClaudeと完成させた話。1999年製のC++オープンソースエンジン「ESMS」の約1万行のレガシーコードで自作ゲームを作ろうと長年挫折してきたところ、Claudeを「共同作業者」に迎えてWebAssemblyへコンパイルし、Next.js+React+PostgreSQLのリアルタイム・マルチプレイヤー対応Webアプリに仕立て直したそうです。 試合中の戦術変更や選手交代ができるインタラクティブな作りになり、Claudeはゲームのシステム自体にも組み込まれて、AIクラブのマネージャーが「若手育成重視」「節約家」などの性格で意思決定や移籍交渉を行います（処理にはHaiku・Sonnet・Opus 4.8・Fableを適材適所で使用）。「誰もが10代の夢＝自分にとってのManager 11を持っているはず。Claudeはそれを現実にする手助けをしてくれる」という締めが印象的でした。 Rewriting Bun in Rust ― 50万行を11日で書き換える JavaScriptランタイム「Bun」の約50万行に及ぶZigのコードベースを、Claudeを使ってわずか11日でRustへ書き換えたプロジェクトの解説でした。通常ならチームで1年がかりの大規模な書き換えを、1人のエンジニアが短期間で成し遂げた事例です。 なぜRustへ ：Zigは高性能な一方、CやC++のように手動でメモリ管理が必要で、コードベースが大きくなるほど use-after-free やメモリリークといったバグが増え、修正が難しくなっていた。Rustに移せば、これらの実行時エラーをコンパイル時に捕捉でき、メモリ安全性を高められる、という狙いです。 書き換えの戦略 既存テストの流用 ：BunのテストはTypeScriptで書かれていたため、言語が変わってもテストスイート（カバレッジ100%）をそのまま使えた 事前の綿密な設計 ：最初の3時間でZig→Rustのパターンマッピング、コンパイル速度向上のための約100クレートへの分割、複雑なライフタイムの整理などをまとめた「移植ガイド」を作り、Claudeに参照させた ワークフローの並列処理 ：Claude Codeのワークフロー機能で最大16エージェントを並行稼働。AI同士が作業を上書きして競合しないよう、Gitの使用を制限するなどの工夫をした 実行プロセスは4段階 ：①コンパイルは意識せず各Zigファイルと同じ振る舞いのRustファイルを生成 → ②クレートごとにコンパイルを通す → ③テストを実行し、パニックやクラッシュのログをもとに修正 → ④ 敵対的レビュー 。",
+      "title": "【現地参加&登壇レポート】Code w/ Claude Tokyo: Extended（Day2）― 経営の現場から、個人の夢、大規模リライトまで｜山本 健太",
+      "url": "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw"
+    },
+    "https://note.com/pn_yamaken/n/nd3ae714ce54a": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "「売上を地域別に出して」と聞けばエージェントが答えを返す。社内のビジネス分析を自然言語でセルフサービス化する取り組みの実践事例が、Anthropicから公開されました。  \n\n\nHow Anthropic enables self-service data analytics with Claude | Claude\n\n\nTips and approaches to maximizing Claude’s ability to drive s\n\n\nclaude.com\n\n\n\n \n 以前にOpenAIの社内データエージェントを取り上げた際に多くの反響をいただきましたので、関心の高いテーマ",
+      "extraction_source": "trafilatura",
+      "final_url": "https://note.com/pn_yamaken/n/nd3ae714ce54a",
+      "frameable": false,
+      "image_urls": [
+        "https://d2l930y2yx77uc.cloudfront.net/production/social_images/1d5b341270e5b6d41416f8842e169492dd62109d.png",
+        "https://assets.st-note.com/img/1781507340-2FUjDhxHJNTqROdmQ4blpoCW.png?width=1200",
+        "https://assets.st-note.com/img/1781507729-CXnBjxvPds07JAeYRDHrq26z.png?width=1200",
+        "https://assets.st-note.com/img/1781507847-C51L87yiIh3PJxWUgHZMw4Nc.png?width=1200"
+      ],
+      "kind": "article",
+      "text_excerpt": "同じClaudeで精度21%→95%超。Anthropic社内の「セルフサービス分析」が示したデータ基盤の作り込み\n「売上を地域別に出して」と聞けばエージェントが答えを返す。社内のビジネス分析を自然言語でセルフサービス化する取り組みの実践事例が、Anthropicから公開されました。\n以前にOpenAIの社内データエージェントを取り上げた際に多くの反響をいただきましたので、関心の高いテーマかと思い取り上げてみます。\n両社の結論は、ほぼ同じところに着地しています。勝負を分けるのはモデルの賢さではなく、データ側の作り込みだった。\nAnthropicの社内評価（evals）では、同じClaudeを使っても、補助となる「skill」を整備していない状態では精度がわずか21%にとどまりました。skillを整えると、集計ベースで一貫して95%を超えるようになったといいます。モデルは同じです。差を生んだのは、データ側の整備でした。\nこの記事では、Anthropicが公開した事例を読み解きながら、「賢いモデルを入れたのに精度が上がらない」という現場の悩みの正体と処方箋を、データエンジニアリングの実務に翻訳して整理します。\nOpenAIとの設計思想の対比は後半（第4セクション）で扱います。まずはAnthropicが何に直面し、どう設計したのかを見ていきます。\nAnthropicが直面した「3つの失敗モード」\nAnthropicは、セルフサービス分析が「伝統的に骨の折れる作業（a slog）」だった理由を、分析エージェントが不正確な回答を返す3つの失敗モードとして整理しています。\n- Concept⟷Entity Ambiguity（概念とエンティティの曖昧性） \n ユーザーの質問を、データモデル上のどのフィールド・テーブルに対応づければよいのか、エージェントが特定できない状態です。背景には、重複したビュー、定義の不一致、チームのサイロ化によるメトリクスやダッシュボードの肥大化（metric and dashboard bloat）があります。\n- Data Staleness（データの陳腐化） \n データソース・ビジネス定義・スキーマは絶えず変化します。エージェントが参照する知識が古くなると、「微妙に間違った答え（subtly wrong answers）」を返し始めます。明らかなエラーではなく、もっともらしく見えて実は誤っている、という厄介な失敗です。\n- Retrieval Failure（検索失敗） \n 正しい情報はデータモデル内に実在し、適切に注釈もされているのに、探索空間が膨大すぎてエージェントが見つけられない状態です。ここで注目すべき数字があります。不正解だった回答の約80%は、正しい情報がコーパス内に実在していた、というのです。\nこの最後の数字は重く受け止める価値があります。誤答の8割は、モデルの推論力が足りなかったからではなく、すでにそこにある正しい情報に辿り着けなかったから起きていた。課題の中心は「モデルが賢いかどうか」ではなく、「正しい情報へ到達できるか（メタデータ・カタログ・絞り込み）」にあったわけです。これは、データカタログやメタデータ管理が担ってきた領域の話そのものです。\n「賢いモデルを入れたのに精度が上がらない」という現象の正体の多くは、ここにあります。モデルが貧弱だから間違うのではなく、データ側の整理と到達可能性に穴があるのです。\n解決策——3レイヤーの agentic data stack\nAnthropicはこの3つの失敗モードに対し、3レイヤーの agentic data stack（エージェント向けデータスタック）で対応しています。各レイヤーが失敗モードにほぼ1対1で対応する、明快な構造です。\nレイヤー1: Data Foundations（データ基盤）\nデータウェアハウス層です。モデル・変換（transforms）・テスト・記述メタデータを含み、canonical（唯一の正）なデータセットを整備して、ツール・CI・組織的なマンデートでガバナンスを強制します。canonicalとは、同じ指標に対する答えが1つに定まる、正規化された信頼できるデータのこと。複数の候補があってどれが正しいか分からない、という失敗モード1の状態を、ここで収束させます。\n注目したいのは、Anthropicが「ディメンショナルモデリングのような標準的なデータエンジニアリングの実践は、これまでと変わらず重要だ」と明言している点です。AIの時代になっても、データ基盤づくりの王道は変わらない。むしろ、その地道な整備こそがAI分析の精度を支える土台になる、というメッセージです。\nレイヤー2: Sources of Truth（信頼の源泉）\nエンティティのナビゲーションを導く参照面です。ここで効いてくるのは、参照先が信頼度でランク付けされていることです。\n最上位に置かれたsemantic layer（自然言語の概念とデータ上の定義をつなぐ、コンパイル済みのメトリクス・ディメンション定義の層）の動作ルールが、この設計の核心です。Anthropicはこう書いています。「質問が定義済みメトリクスにきれいにマッピングされる場合、エージェントは関数を呼び出して1つの数値を得る」。\n自由にSQLを生成させるのではなく、定義済みの関数を呼んで決定論的に「正しい数字」を返す経路を最優先する。生成の余地が小さいほど、微妙に間違った答えが入り込む隙も小さくなる、という設計思想です。\nここに、反直感的で示唆に富む知見があります。LLMにsemantic layerを自動生成させる方式は、人手でキュレーションした小さなレイヤーと比べて、evalsで net-negative（純粋にマイナス）だった、というのです。net-negativeとは、評価上むしろ精度を下げてしまったということ。さらに、過去SQL履歴であるquery corpusへ直接アクセスさせても、精度改善は1ポイント未満にとどまりました。\nここからAnthropicが導いた推奨は明快です。「ドキュメントはClaudeで生成するが、定義は人間がオーナーシップを持つ」。AIに丸投げできない、人手キュレーションの不可避領域がある。単純なRAG的参照（関連文書を検索してモデルに渡す方式）だけでは足りず、構造化され、誰かが責任を持って維持する定義が要る、と読み替えられます。\nレイヤー3: Skills（スキル）\n最後のレイヤーがskillです。skillとは、エージェントが必要に応じて参照する、Markdownベースの手続き的知識（procedural knowledge）のフォルダを指します。リテンションカーブやファネル分析といった再利用可能な分析パターンや、テーブルの落とし穴（gotchas）・ベストプラクティスを記述したリファレンスが収められています。これが失敗モード3（Retrieval Failure）への対策になります。\nskillには2つのパターンがあります。\n- Knowledge skill: 薄いトップレベルのルーターです。クエリ実行前に、約30本の厳選されたリファレンスファイルへ絞り込みます。膨大な探索空間を一気に縮小し、検索失敗を防ぐ役割です。 \n- Unbook skill: シニアアナリストが踏むプロセスをエンコードしたものです。質問を明確化し、knowledge skill経由でソースを見つけ、クエリを実行し、その結果を adversarial review（敵対的レビュー）のサブエージェントへループさせます。敵対的レビューとは、出力をそのまま信じず、別のエージェントが「この答えは本当に正しいか」と批判的に検証する工程です。 \nここで、冒頭に先出しした数字を回収します。skillなしでは精度21%、skillを整えると集計で一貫して95%超。同じClaudeで、この差を生んだのがこのレイヤーです。賢いモデルを丸腰で使うのではなく、手続き的知識で探索を絞り込み、敵対的にレビューする。その積み重ねが精度を4倍以上に押し上げました。\n実際、この仕組みによってAnthropicはビジネス分析クエリの約95%をClaude経由で自動化し、集計精度は約95%、特定ドメインでは概ね99%前後に達しているといいます。\nOpenAIとの対比——二社の設計思想の違い\nここで、以前解説したOpenAIの社内データエージェント事例と比べてみます。\nOpenAIの設計で軸になっているのは、多層のコンテキスト組み立てと自己改善ループの2つです。エージェントは、クエリを実行する前に6つの層からコンテキストを集めます。テーブルの利用メタデータ（スキーマ・リネージ・クエリ履歴をダッシュボードの人気度でランク付け）、テーブルオーナーが書いた人手アノテーション（業務的な意味や注意点）、パイプラインのコードを毎晩クロールするCodexエンリッチメント、Slack・Google Docs・Notionに散らばる組織知識（アクセス制御付きで埋め込み）、過去会話の訂正を覚えておくメモリ、そしてオフラインのデータが古いときに実データウェアハウスへ問い合わせるランタイムコンテキスト。これらを質問ごとに組み立てて、エージェントを「会社の実態」に接地させます。\nそのうえで、SQLを書いて実行結果を見て、おかしければ自己診断して書き直す——という自己改善ループを回し、正しい答えに収束させます。この6層コンテキストとループは、社員3,500人超・7万データセット・",
+      "title": "同じClaudeで精度21%→95%超。Anthropic社内の「セルフサービス分析」が示したデータ基盤の作り込み｜山本 健太",
+      "url": "https://note.com/pn_yamaken/n/nd3ae714ce54a"
+    },
+    "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "「なんでこんなに集中できないんだろう」「やらなきゃいけないのに、体が動かない」「感情のコントロールができなくて、また爆発してしまった」。  そういったご相談を、10年間で3,000件以上受けてきました。そして、その多くに共通していることがあります。幼少期に、何らかの形で「傷ついてきた」という背景です。  今日書こうとしているのは、「ADHDとトラウマの関係」という話です。とりわけ、毒親のもとで育った人が、大人になってからADHDの特性と酷似した症状を呈することがある、という事実についてです。これは「あなたの意志が弱いから」でも「怠け者だから」でも、ましてや「気合が足りないから」でもあり",
+      "final_url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b",
+      "frameable": false,
+      "image_urls": [
+        "https://d2l930y2yx77uc.cloudfront.net/production/social_images/faaa2db6f663ab79ce15fddc94eb5865f982f856.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "投稿 ログイン 会員登録 毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～ 77 龍汰(リュウタ) 2026年5月2日 13:38 ¥1,000〜 「なんでこんなに集中できないんだろう」「やらなきゃいけないのに、体が動かない」「感情のコントロールができなくて、また爆発してしまった」。 そういったご相談を、10年間で3,000件以上受けてきました。そして、その多くに共通していることがあります。幼少期に、何らかの形で「傷ついてきた」という背景です。 今日書こうとしているのは、「ADHDとトラウマの関係」という話です。 とりわけ、毒親のもとで育った人が、大人になってからADHDの特性と酷似した症状を呈することがある、という事実についてです。これは「あなたの意志が弱いから」でも「怠け者だから」でも、ましてや「気合が足りないから」でもありません。幼少期に脳が受けた影響が、そのまま今の「生きにくさ」として表れているのです。 ADHDというのは、先天性の神経発達症です。注意力、衝動性、多動性に関わる脳の回路が生まれつき多数派とは異なる状態で機能している。これは遺伝子や胎児期の脳発達に由来するものであり、育て方とは直接的には関係がない、とされています。ここは大前提として押さえておきたいところです。 ただ、そこから先が重要なのです。 脳は、環境によって変わる ベッセル・ヴァン・デア・コーク（Bessel van der Kolk）という精神科医がいます。40年以上にわたってトラウマ研究の最前線に立ち、『The Body Keeps the Score』（邦題：『身体はトラウマを記録する』）を著したことで世界的に知られる人物です。彼が長年のデータと臨床経験から導き出したのは、 「トラウマは心だけでなく、脳そのものを変える」 という事実でした。 彼はこんなことを言っています。 「私たちが『ADHD』と呼ぶ行動、つまり多動性や集中力の欠如、衝動性というのは、実際にはトラウマに対する身体の反応である場合がある」 と。 これはかなり衝撃的な発言です。ADHDという診断名がついた子どもたちの中に、実は「トラウマが引き起こしたADHD様症状」が含まれているかもしれない。つまり、先天性ではなく後天的に、過酷な家庭環境によって脳の機能が変容した結果、ADHDとほぼ見分けのつかない状態が出現している可能性がある、ということです。 では、どういうメカニズムでそんなことが起きるのでしょうか。ここを少し丁寧に説明していきます。 ストレスホルモン「コルチゾール」が、脳を削っていく 子どもの脳が急性のストレスに晒されると、体はアドレナリンを放出して闘うか逃げるかの反応を引き起こします。同時にコルチゾールというストレスホルモンも分泌される。これ自体は一時的なら問題ではありません。人間が危機的状況で身を守るための、正常な生体反応です。 問題は、それが「慢性的に続いたとき」です。 ACE（逆境的小児期体験）と呼ばれるものがあります。虐待、ネグレクト、家庭内の機能不全など、子ども時代の様々な有害な体験を指す概念で、アメリカでの大規模調査から始まった研究の枠組みです。この分野の複数の研究から、慢性的なストレスがコルチゾールの異常な上昇を引き起こし、記憶や認知に深く関わる「海馬」の萎縮、そして意思決定や感情制御を担う 「前頭前野」の機能不全 をもたらすことが明らかになっています。 前頭前野という言葉を少し補足しておきますね。 これは簡単に言うと「脳の司令塔」です。 「今すぐ衝動的に行動したい」という欲求にブレーキをかけたり、注意を持続させたり、物事の優先順位を考えたり、感情を落ち着かせたりする、非常に重要な部分です。 この前頭前野が傷ついた状態で育つとどうなるか。衝動を抑えられない、集中できない、感情が爆発しやすい、忘れっぽい。つまり、ADHDの特性そのものが出てくるのです。 さらに言うと、幼少期にACEを経験した子どもは、前頭前野、扁桃体、海馬など複数の脳領域で「グレイマター（灰白質）」の体積が小さいことも報告されています。 これは単なる「心の傷」ではなく、「脳の構造変化」です。 物質的な、神経学的な変化なのです。「気持ちの問題」と片付けられるものでは、もともとありません。 「トキシック・ストレス」という概念 慢性的な過剰ストレスが生み出す状態を、「トキシック・ストレス（毒性ストレス）」と呼びます。身体のストレス管理システムが長期間にわたって活性化し続けることで生じる状態で、この研究の分野ではADHDのリスク要因として関連づけられています。 毒親のもとで育つというのは、まさにこのトキシック・ストレスが慢性的に蓄積する環境です。 親の顔色を読み続けること、爆発を怖れて常に緊張していること、自分の気持ちを押し殺してその場を乗り切ること。そういった 「生き残るための過覚醒状態」 が、子ども時代の何年間も続く。 毒性のレベルに達したストレスホルモンは、前頭前野や感情・記憶に関わる辺縁系の神経細胞を死滅させる可能性すらあります。そう聞くと、「えっ、そんな深刻なことが起きていたの？」と思われる方も多いと思います。でも、これは医学の研究が示していることです。 一度聞いた話で、今でも忘れられないものがあります。あるご相談者の女性、30代の方でした。物心ついた頃から、お母さんが「機嫌の読めない人」だったと言います。突然大声で怒鳴る、かと思えばひたすら沈黙で責める、何かの折に「あんたがいるから自分は不幸なんだ」と言い放つ。学校が終わって家に帰るたびに、玄関のドアを開ける前に深呼吸をしていたそうです。「今日のお母さんは、どっちだろう」と確認しながら、玄関を開けていたと。 彼女は成人してから、何度も職場で怒られるたびに頭が真っ白になる、会議中に全く集中できない、感情が突然溢れてどうしていいかわからなくなる、という症状に長年苦しんでいました。 病院でADHDと診断されかけたこともあったそうです。 でも、話を深く聞いていくと、それは「先天性の脳の特性」という印象よりも、幼少期に染み込んだ過覚醒状態が成人になっても解除されていない、という状態に見えました。(私は医師ではないので診断の資格はありませんが。) 常に「何かが起きるかもしれない」という脳の緊急警戒モードが、大人になっても続いている。その状態では、集中もできないし、感情の制御もできないし、衝動を抑えることも難しくなる。当たり前のことなのです。 毒親育ちだと「ワーキングメモリ」が圧迫される もう少し具体的なメカニズムの話をします。 「ワーキングメモリ」という言葉をご存知でしょうか。日常生活で使う「作業記憶」とも呼ばれるもので、「今やっていることを頭の中に保持しながら、次の行動を考える」という能力のことです。料理をしながら火加減を調整する、話を聞きながらメモをとる、そういった「同時進行の処理」を支えているのがワーキングメモリです。 トラウマを抱えた脳では、このワーキングメモリが慢性的に圧迫されています。 というのも、未処理のトラウマ記憶は「常時バックグラウンドで起動し続けているアプリ」のようなものだからです。意識していないときでも、脳のリソースをじわじわと消費し続けている。その分だけ、メインの処理に回せるメモリが減っていく。 専門家はこう表現しています。トラウマとは、処理されずに残ったままの記憶が日常的に使われる脳の容量を圧迫している状態だ、と。 本来10割使えるはずのワーキングメモリが、2〜3割しか機能しないような状態になってしまうのです。 仕事が覚えられない、ミスが多い、集中できない。これがADHDとほぼ区別のつかない形で出てくるわけです。 オランダで行われたある研究では、 複合的なトラウマを経験した子どもは、単一のトラウマや未経験の子どもと比べて、「実行機能（Executive Function）」に著しく大きな欠陥が見られることが明らかになりました。 実行機能というのは、計画を立てる、行動を開始する、途中で修正する、衝動を抑制する、感情をコントロールするといった、社会生活の根幹をなす能力のことです。これはまさに、ADHDで問題になる機能と重なります。 毒親育ちの人が慢性的なトラウマによってこの実行機能を損なう、というのは、研究が裏付ける事実になっているのです。 「発達性トラウマ障害」という視点 ダウンロード copy ここから先は 2,056字 この記事のみ ¥ 2,000 購入手続きへ メンバーシップ ¥ 1,000 /月〜 650本以上の対象記事が読み放題に。「昨日より1.5％成長するための心理学」をほぼ毎日更新してます。… このメンバーシップの詳細 読み放題プラン ¥1,000 / 月 「昨日より1.5％成長するための心理学」をほぼ毎日更新してます。単品購入より断然お得です。 【随時無料公開】note音声コンテンツ メンバー限定の記事 メンバー限定の会員証 活動期間に応じたバッジ 参加手続きへ ログイン 1人が高評価 77 この記事が気に入ったらチップで応援してみませんか？ チップで応援 龍汰(リュウタ) フォロー 昨日より1.5%成長するための心理学。カウンセラー/心理学発信10年。「親子関係、恋愛、回避型/不安型愛着スタイル、自分との向き合いかた」について、分かりやすく解説してます。 noteプレミアム note pro ヘルプ プライバシー クリエイターへのお問い合わせ フィードバック ご利用規約 通常ポイント利用特約",
+      "title": "毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～｜龍汰(リュウタ)",
+      "url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
     },
     "https://openai.com/index/chatgpt-memory-dreaming/": {
       "cleaner_v": 2,
@@ -9825,6 +10021,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2065891147361202176/img/3mgwpJ44uMbWHxLc.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11660,6 +11884,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg"
     },
+    "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
+    },
+    "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg"
+    },
+    "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg"
+    },
+    "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
+    },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12486,6 +12766,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKvQ-RsW8AAmBnU.jpg"
     },
+    "https://pbs.twimg.com/media/HKvV8wBWYAArsK9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKvV8wBWYAArsK9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKvV8wBWYAArsK9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKvV8wBWYAArsK9.jpg"
+    },
     "https://pbs.twimg.com/media/HKwe0qfWUAEhcOG.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12667,6 +12961,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HKiJTsZWsAItq8p.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HKqP4TPakAAHJ-X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HKqP4TPakAAHJ-X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HKqP4TPakAAHJ-X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HKqP4TPakAAHJ-X.jpg"
     },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
@@ -13042,6 +13350,26 @@
       "title": "How I Validated Design Decisions Before Writing Production Code • Slack Design",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar"
     },
+    "https://stratechery.com/2026/anthropics-safety-superpower/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Anthropic’s belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "frameable": null,
+      "image_urls": [
+        "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=240%2C240&ssl=1",
+        "https://stratechery.com/wp-content/uploads/2025/01/Stratechery-logo-1.svg",
+        "https://i0.wp.com/sharptech.fm/assets/Sharp%20Tech%20-%20Black.png?w=128&h=128&ssl=1",
+        "https://i0.wp.com/dithering.passport.online/assets/2026-6-DitheringCoverart.jpg?w=128&h=128&ssl=1",
+        "https://i0.wp.com/sharpchina.fm/assets/SharpChinaArt.png?w=128&h=128&ssl=1"
+      ],
+      "kind": "article",
+      "text_excerpt": "Listen to this post:\nI’m sympathetic to the cynics who consistently characterize Anthropic’s public statements, particularly those surrounding their model releases, as scare-mongering for the sake of marketing. It was only two months ago that Anthropic announced Mythos Preview, a model that they said was too dangerous to make publicly available, thanks in particular to its advanced cybersecurity capabilities. Then, two months later, the company publicly released Fable, a version of Mythos with various safety guardrails.\nFable is, in my limited experience, a very impressive model. It’s increasingly difficult to objectively evaluate models for anything other than coding performance, but there is subjective feel, and I found my interactions with Fable to be extremely impressive; it made other models, including GPT 5.5 and Opus 4.8, feel small and dumb. The two times I felt that way previously were with GPT-4 and Grok 4, both of which represented new generations in terms of base model size and complexity; my sense is that Fable is downstream of a new pre-train and the first of a new generation.\nTo that end, I can certainly buy the case that Fable/Mythos is in fact more capable when it comes to identifying and exploiting security issues, and that Anthropic’s cautious roll-out was justified. The problem with publicly releasing models, however, is that guardrails can be jailbroken, and apparently that is exactly what happened shortly after the release.\nAnthropic vs. the U.S. Government, Again\nWhat happened next is somewhat unclear. Anthropic wrote in [a blog post](https://www.anthropic.com/news/fable-mythos-access):\nThe US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected.\nWe received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or “jailbreaking” Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass.\nAnthropic went on to make the case that non-universal jailbreaks were inevitable and also narrow, and that there was no evidence of a universal jailbreak; the jailbreak that was found, meanwhile, appears to have been [reported by Amazon](https://www.theinformation.com/articles/amazons-jassy-raised-concerns-anthropic-model-trump-crackdown?rc=gtxu6q), which is notable given Amazon is both an investor in Anthropic and a major provider of inference to the company. As I write this, [senior Anthropic staff are in Washington D.C.](https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable) seeking to resolve what they insist is a misunderstanding, and which White House officials are suggesting is insouciance by the company’s leadership to legitimate national security concerns.\nI don’t actually have much to add to the current conflict given how many facts are in dispute; what I am not surprised about is the fact that the conflict is happening: I already explained in [Anthropic and Alignment](https://stratechery.com/2026/anthropic-and-alignment/) why conflict between the U.S. government and Anthropic was inevitable. To that end, people who are arguing that Mythos isn’t powerful enough to warrant the government’s drastic action are missing the point: if it’s not powerful enough now, the next one will be, or the one after",
+      "title": "Anthropic’s Safety Superpower – Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/"
+    },
     "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13094,6 +13422,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Stop Using Conventional Commits - Sumner Evans",
       "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/"
+    },
+    "https://sunilpai.dev/posts/never-waste-a-token/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "durable inference: resumable streams, crash recovery, and why the LLM request shouldn't die with your process.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://sunilpai.dev/posts/never-waste-a-token/",
+      "frameable": null,
+      "image_urls": [
+        "https://sunilpai.dev/og-image/never-waste-a-token.png",
+        "https://sunilpai.dev/_astro/logo.QRRzOGHd_Z1Db1cL.webp",
+        "https://sunilpai.dev/diagrams/8a5b1edea8f60b9b.svg",
+        "https://sunilpai.dev/diagrams/8a5b1edea8f60b9b.dark.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "never waste a token\ndurable inference: resumable streams, crash recovery, and why the LLM request shouldn't die with your process.\n(this post itself is LLM slop, but it tastes alright)\ntl;dr - put a durable buffer between your agent and the LLM provider. the provider connection now outlives your process, so a deploy in the middle of a stream doesn’t cost you the tokens you already paid for. and the same buffer that lets a disconnected browser catch back up is the thing that recovers a crashed turn. one log, two readers.\nI’ve spent the last few weeks stuck on one question: what happens to an agent when the process running it dies in the middle of a turn?\nit goes deep fast. tool calls that may or may not have fired. sub-agents. half-written streams waiting on a human. I’m writing all of that up separately (durable agent loops, coming soon). but one piece of it is small and self-contained enough to pull out on its own:\nwhen your process dies mid-inference, you don’t just lose your place. you lose money.\nthe problem that’s easy to miss\nyour agent opens a streaming request to a model, and the model starts generating. you’re billed for those output tokens the moment they’re generated. then your process gets replaced. maybe a deploy, maybe an eviction, maybe an OOM.\nthe usual reassurance is “don’t worry, the state is durable.” and sure, your conversation history survived. but the in-flight HTTP request to the provider did not. it lived in the memory of the process that just died. so when you recover, your only option is to make the call again. you pay for those output tokens a second time.\nnow make it an agent. a real one does multiple tool calls in a single turn:\nuser message\n  → stream some text\n  → tool call → tool result\n  → stream more text\n  → tool call → tool result\n  → stream the answerevery interruption throws away all the output tokens generated so far in that turn. and it scales with the model you actually want to use: output runs $30 per million tokens on gpt-5.5 versus $2 on gpt-5.5-mini, so a flagship retry burns ~15x what a mini one does. the better the model, the more it hurts. deploys happen constantly, evictions happen constantly, and each one that lands on a live stream is money straight out the window.\nthe happy path hides it. you only see it when you start counting tokens after an incident and the numbers don’t add up.\nthe move: stop tying the request to the process\nthe reason a crash wastes tokens is that the provider connection lives inside the thing that crashed. so move it out.\nput a buffer between the agent and the provider, and make it a separate deployment: its own Worker, its own Durable Object.\nwhen a request comes in, the buffer does three things in order. it resets its state for a fresh stream. it kicks off a background task that drains the provider connection into SQLite. and it immediately hands the caller back a stream that tails those same rows as they land:\nasync proxyAndBuffer(req: ProviderRequest): Promise<Response> {\n  this.resetBuffer();                 // status = \"streaming\", chunkCount = 0\n  const reader = (await fetch(req.url, req)).body!.getReader();\n  // drain the provider in the background. deliberately NOT awaited - the\n  // response below returns right away while this keeps running.\n  this.keepAliveWhile(() => this.consumeProvider(reader));\n  // give the caller a stream that tails the rows as they're written.\n  return new Response(this.tailFrom(0), {\n    headers: { \"X-Buffer-Status\": \"streaming\" }\n  });\n}\nprivate async consumeProvider(reader: Reader) {\n  for (let i = 0; ; i++) {\n    const { done, value } = await reader.read();\n    if (done) break;\n    this.sql`INSERT INTO buffer_chunks VALUES (${i}, ${decode(value)})`;\n    this.notify();                    // wake any tailers (more below)\n  }\n  this.setStatus(\"completed\");\n}the load-bearing part is what consumeProvider is not attached to. it doesn’t run inside the agent. it runs here, in a separate deployment that wasn’t touched by th",
+      "title": "never waste a token • Solving the decision problem",
+      "url": "https://sunilpai.dev/posts/never-waste-a-token/"
     },
     "https://t.me/qkl188888": {
       "cleaner_v": 2,
@@ -13409,6 +13755,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "When AI builds itself \\ Anthropic",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement"
+    },
+    "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a0c250dd1835c025`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1"
     },
     "https://www.browserbase.com/blog/browser-agent-autonomy-levels": {
       "cleaner_v": 2,
@@ -14419,6 +14779,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "DeltaDB — Early Access",
       "url": "https://zed.dev/deltadb"
+    },
+    "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1",
+      "frameable": false,
+      "image_urls": [
+        "https://res.cloudinary.com/zenn/image/upload/s--4wENZ6KV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AFCloudflare%25E3%2581%25AB%25E8%25B3%25AD%25E3%2581%2591%25E3%2582%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yusukebe%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pIMWY1VlpnSFMwLUJwekhzZjRGYXN0R1ZYTlpfZFh1U2pwdWNMNGc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+        "https://lh3.googleusercontent.com/a-/AOh14GjH1f5VZgHS0-BpzHsf4FastGVXNZ_dXuSjpucL4g=s250-c",
+        "https://static.zenn.studio/user-upload/topics/23eef6d9d7.png",
+        "https://static.zenn.studio/user-upload/topics/b3ccad515b.jpeg",
+        "https://zenn.dev/images/topic.png",
+        "https://static.zenn.studio/images/drawing/tech-icon.svg",
+        "https://static.zenn.studio/user-upload/2d7cf99ed830-20260615.png",
+        "https://static.zenn.studio/user-upload/b1484cbe0db5-20260615.png",
+        "https://static.zenn.studio/user-upload/010ce2074a4f-20260615.png",
+        "https://static.zenn.studio/user-upload/0d0cebe73fd3-20260615.png",
+        "https://static.zenn.studio/user-upload/364c5bd31642-20260615.png",
+        "https://static.zenn.studio/user-upload/ce053ce11433-20260615.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "AIエージェントはCloudflareに賭けろ\n最初に表明しておくと、自分はCloudflareの社員である。\nAIエージェント時代にCloudflareは最適なプラットフォームである！今回はCloudflareがなぜAIエージェントに向いているかを紹介する。\nAIエージェントを構築するためのアーキテクチャについて考えてみる。\nCloudflareは今年の4月に出したブログ記事で強く言っていてる。\n[https://blog.cloudflare.com/ja-jp/welcome-to-agents-week/](https://blog.cloudflare.com/ja-jp/welcome-to-agents-week/)\nインターネットは元々、AI時代を想定してつくられていません。クラウドも同様です。\nスマートフォンの登場で端末が大量に増えた。一つのアプリケーションをたくさんのクライアントに配信しなくてはいけない。そこでコンテナの技術を使ってアプリケーションをスケールさせた。1対多だ。これがいわゆる「クラウド」である。\nAI時代では1対1になる。それぞれのエージェントが一人のユーザーを担当する。LLMが処理の流れを決め、整理し、ツールを実行して動き続けるための独立した環境が必要となる。\nコンテナをベースとした旧来のクラウドはAIには向いていない。一方でCloudflareにはCloudflare Workersがある。\nCloudflare WorkersはV8 Isolateで動いている。V8はGoogle Chromeで使われてるJavaScriptエンジンである。イメージしてほしい。WebブラウザがWebページを開くとV8がページ内のJavaScriptを実行する。元々ブラウザで使われいてた技術をサーバーサイドに持ってきたのが、Workersの発明だ。\nコンテナと比べて、パフォーマンスがよい。とびきり速く立ち上がって、メモリ効率がよくて、無限にスケールする。そして、環境は隔離されている。\nこのWorkersがAIエージェント構築にぴったりだ。ユーザーのタスクごとに全く別のアプリケーションを大量に素早く立ち上げることができる。\n自分はAIエージェントを作るためには3つの要素が必要だと思っている。\n- 推論モデル - エージェントが考える\n- サンドボックス - エージェントが（コードetc.を）実行する\n- 実行環境 - エージェントを置く環境\nCloudflareだとWorkersとはじめとした技術が揃っている。\n- 推論モデル - Workers AI / AIモデル\n- サンドボックス - Sandboxes / Dynamic Workers / Browser Run\n- 実行環境 - Workers / Durable Objects / Workflows\n一つずつ解説ししょう。\n推論モデルはAIエージェントが考えるために必要である。CloudflareはWorkers AIを提供している。これは推論モデルがCloudflareネットワーク上で動くという代物。オープンなモデルを使うことができて、LLMから画像生成、スピーチtoテキストまで80個ほどある。\nまた、最近では、外部のAIプロバイダーのモデルもAI Gatewayをプロキシして共通のインターフェースで使うことができるようになった。つまり、Cloudflareで使えるモデルは180個以上になる。\nモデルにアクセスするだけなら、OpenAIやAnthropicのAPIを叩けばいいんじゃないの？それはそうだが、Workers AIの使い心地は非常に強力だ。\nBindingというAIモデルに方法でアクセスできる。JavaScriptのメソッド呼び出しをするだけでLLMの推論結果を得ることができる。外部APIを叩くとなると、SDKをインポートして、IDとパスワード相当を入力して⋯云々としなくてはいけないのが、これだけだ。\nconst result = env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', {\n  messages: [\n    {\n      role: 'user',\n      content: 'What is the origin of the phrase Hello World'\n    }\n  ]\n})\nこの書き心地の良さは人間だけのものではない。キーを直接書く必要がないので、AIに書かせる時も安心である。\n他にもCloudflareには、Workers AIや外部モデルへのゲートウェイになってログをとったり、キャッシュができたり、制限ができたるするAI Gatewayがあったり、ベクターデーターベースのVectorizeや、ドキュメントと入れると自動でRAGを作ってくれるAI Searchなどがある。\nAIエージェントはコードやコマンドを実行する。その際にサンドボックスが必要だ！それがないと人間のパソコンの重要なデータを消してしまうかもしれないし、サーバーをクラッシュさせてしまうかもしれない。\nCloudflareでは3つのサンドボックスを提案している。\n- Sandboxes\n- Browser Run\n- Dynamic Workers\n紹介しよう。\nCloudflareではWorkersだけではなくコンテナが動くContainersというプロダクトがある。Dockerイメージが動く。SandboxesはContainersを利用した隠蔽されたサンドボックス環境である。\nこれはPythonを実行するコード例。Workersから呼び出し、結果をレスポンスで返している。\nimport { getSandbox } from '@cloudflare/sandbox'\nexport { Sandbox } from '@cloudflare/sandbox'\nexport default {\n  async fetch(request: Request, env: Env): Promise<Response> {\n    const sandbox = getSandbox(env.Sandbox, 'user-123')\n    const result = await sandbox.exec('python --version')\n    return Response.json({\n      output: result.stdout,\n      exitCode: result.exitCode,\n      success: result.success\n    })\n  }\n}\nGitのレポジトリを取ってきて、テストを実行するなんてことも簡単に書ける。\nimport { getSandbox } from '@cloudflare/sandbox'\nexport { Sandbox } from '@cloudflare/sandbox'\nexport default {\n  async fetch(request: Request, env: Env) {\n    const sandbox = getSandbox(env.Sandbox, 'agent-session-47')\n    await sandbox.gitCheckout('https://github.com/org/repo', {\n      targetDir: '/workspace',\n      depth: 1\n    })\n    return sandbox.exec('npm', ['test'], { stream: true })\n  }\n}\n面白いのはプレビュー機能で、サンドボックス内で立ち上げたHTTPサーバーのポートを外部から参照可能なURLにアタッチして他の人間やAIがアクセスできるようにできる。\nimport { getSandbox } from '@cloudflare/sandbox'\nexport { Sandbox } from '@cloudflare/sandbox'\nexport default {\n  async fetch(request: Request, env: Env) {\n    const { hostname } = new URL(request.url)\n    const sandbox = getSandbox(env.Sandbox, 'agent-session-47')\n    await sandbox.startProcess('python -m http.server 8000')\n    const exposed = await sandbox.exposePort(8000, { hostname })\n    console.log(exposed.url)\n    // ...\n  }\n}\nSandboxesはコンテナなので、AIがやりたいことが全部できる。\nBrowser Renderingと呼ばれていたものがAIエージェント向けにパワーアップしてBroser Runになった。これはCloudflareのネットワーク上でヘッドレスブラウザが動くというもの。Browser SessionsとQuick Actionsという2つの使い方がある。\nBrowser SessionsではPuppeteer",
+      "title": "AIエージェントはCloudflareに賭けろ",
+      "url": "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1"
     },
     "https://zillapi.com": {
       "content_type": "text/html",
@@ -18769,6 +19155,15 @@
       "https://x.com/omarsar0/status/2066174203590570216",
       "https://x.com/omarsar0/status/2066154395423711266"
     ],
+    "2065881740095246552": [
+      "https://x.com/omarsar0/status/2065881740095246552",
+      "https://x.com/omarsar0/status/2065881974892355761",
+      "https://x.com/omarsar0/status/2065491829760651328?s=20",
+      "https://x.com/omarsar0/status/2065883836681261148",
+      "https://x.com/omarsar0/status/2065895293070070200",
+      "https://x.com/omarsar0/status/2066154550206005310",
+      "https://x.com/omarsar0/status/2065929657724068060"
+    ],
     "2065890759744610759": [
       "https://x.com/DennisonBertram/status/2065890759744610759",
       "https://pbs.twimg.com/media/HKuEsKLXAAAB_Yk.jpg",
@@ -18827,9 +19222,13 @@
     "2065982494454014448": [
       "https://x.com/BhathalTanvir0/status/2065982494454014448"
     ],
+    "2066061023019479545": [
+      "https://x.com/tonyfactory210/status/2066061023019479545"
+    ],
     "2066145326780518736": [
       "https://x.com/IBuzovskyi/status/2066145326780518736",
-      "http://x.com/i/article/2066125194813444096"
+      "http://x.com/i/article/2066125194813444096",
+      "https://x.com/IBuzovskyi/status/2066429319555994109"
     ],
     "2066155812783833175": [
       "https://x.com/AnthonyNAguirre/status/2066155812783833175",
@@ -18841,25 +19240,63 @@
       "https://x.com/AnthonyNAguirre/status/2066268998216654886",
       "https://x.com/AnthonyNAguirre/status/2066323076464382120"
     ],
+    "2066159260443250715": [
+      "https://x.com/Rkpb_R/status/2066159260443250715",
+      "https://x.com/Rkpb_R/status/2066328908614803917",
+      "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
+    ],
     "2066168984177955157": [
       "https://x.com/felixhhaas/status/2066168984177955157",
       "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
     ],
+    "2066174523003854857": [
+      "https://x.com/fwh_aihara/status/2066174523003854857",
+      "https://x.com/fwh_aihara/status/2066459496415961435"
+    ],
     "2066195933969412098": [
       "https://x.com/amasad/status/2066195933969412098"
+    ],
+    "2066227720661655943": [
+      "https://x.com/ghostdotenv/status/2066227720661655943",
+      "https://github.com/secretbuilds/loopy",
+      "https://x.com/ghostdotenv/status/2065980239088369961",
+      "https://raw.githubusercontent.com/secretbuilds/loopy/main/install.sh",
+      "https://pbs.twimg.com/media/HKvV8wBWYAArsK9.jpg"
+    ],
+    "2066254634365157725": [
+      "https://x.com/tanmaye_bhatia/status/2066254634365157725",
+      "http://x.com/i/article/2064525535657472000"
+    ],
+    "2066267571301585340": [
+      "https://x.com/test0rosso/status/2066267571301585340",
+      "https://pbs.twimg.com/amplify_video_thumb/2066259749763420160/img/6eOVqumGDRkWbcxy.jpg",
+      "https://x.com/test0rosso/status/2066459367155581060",
+      "https://x.com/test0rosso/status/2066459627793928430",
+      "https://x.com/test0rosso/status/2066521547452404042"
+    ],
+    "2066267719805407463": [
+      "https://x.com/daltonmeon/status/2066267719805407463",
+      "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg",
+      "https://x.com/daltonmeon/status/2066426030873870548",
+      "https://x.com/daltonmeon/status/2066465389190709402"
+    ],
+    "2066280075914252486": [
+      "https://x.com/chadfowler/status/2066280075914252486",
+      "http://x.com/i/article/2066279800826732545"
     ],
     "2066290950352081336": [
       "https://x.com/dongxi_nlp/status/2066290950352081336",
       "http://x.com/i/article/2066281164134825984",
-      "https://x.com/dongxi_nlp/status/2066391117612957776"
+      "https://x.com/dongxi_nlp/status/2066391117612957776",
+      "https://x.com/dongxi_nlp/status/2066431742865457625"
     ],
     "2066300583686840710": [
       "https://x.com/fmontes/status/2066300583686840710",
       "https://x.com/fmontes/status/2066335212485636231",
       "https://x.com/fmontes/status/2066335761331257618",
       "https://x.com/fmontes/status/2066343741288276193",
-      "https://x.com/fmontes/status/2066391498283692442",
-      "https://x.com/fmontes/status/2066367326186807637"
+      "https://x.com/fmontes/status/2066367326186807637",
+      "https://x.com/fmontes/status/2066391498283692442"
     ],
     "2066326578758381747": [
       "https://x.com/CodeColorist/status/2066326578758381747",
@@ -18868,6 +19305,7 @@
     "2066329364636291176": [
       "https://x.com/iamtonyzhu/status/2066329364636291176",
       "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg",
+      "https://x.com/iamtonyzhu/status/2066440452224827542",
       "https://x.com/iamtonyzhu/status/2066338230782619699"
     ],
     "2066332670817456584": [
@@ -18877,29 +19315,124 @@
       "https://x.com/AndrewCurran_/status/2066333702280581262",
       "https://x.com/i/status/2060833920615367058",
       "https://x.com/AndrewCurran_/status/2066370967811887591",
+      "https://x.com/AndrewCurran_/status/2066528482235158744",
       "https://x.com/AndrewCurran_/status/2066401735988670864",
-      "https://x.com/AndrewCurran_/status/2066334986287063072",
       "https://x.com/AndrewCurran_/status/2066341991995343303",
+      "https://x.com/AndrewCurran_/status/2066334986287063072",
       "https://x.com/AndrewCurran_/status/2066339557533196790",
-      "https://x.com/AndrewCurran_/status/2066386862579831262",
       "https://x.com/AndrewCurran_/status/2066401873796723078",
-      "https://x.com/AndrewCurran_/status/2066395221886402891",
-      "https://x.com/AndrewCurran_/status/2066400755419156584",
       "https://x.com/AndrewCurran_/status/2066382711305232702",
-      "https://x.com/AndrewCurran_/status/2066347235726725172"
+      "https://x.com/AndrewCurran_/status/2066386862579831262",
+      "https://x.com/AndrewCurran_/status/2066395221886402891",
+      "https://x.com/AndrewCurran_/status/2066347235726725172",
+      "https://x.com/AndrewCurran_/status/2066400755419156584"
+    ],
+    "2066335368539189755": [
+      "https://x.com/soleio/status/2066335368539189755"
     ],
     "2066341005847142674": [
       "https://x.com/yuanhao/status/2066341005847142674",
-      "http://x.com/i/article/2066319111143989248",
-      "https://x.com/yuanhao/status/2066139046208733334",
-      "http://x.com/i/article/2066135381410516992"
+      "http://x.com/i/article/2066319111143989248"
+    ],
+    "2066347872115933526": [
+      "https://x.com/yusukebe/status/2066347872115933526",
+      "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1"
     ],
     "2066369086842605996": [
       "https://x.com/jukan05/status/2066369086842605996",
       "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg",
       "https://x.com/jukan05/status/2066374444931817956"
+    ],
+    "2066376858460131348": [
+      "https://x.com/srijanshukla18/status/2066376858460131348",
+      "http://x.com/i/article/2066375214905348096",
+      "https://x.com/srijanshukla18/status/2065621586204586326",
+      "https://pbs.twimg.com/tweet_video_thumb/HKqP4TPakAAHJ-X.jpg"
+    ],
+    "2066403957824688462": [
+      "https://x.com/lqiao/status/2066403957824688462",
+      "http://x.com/i/article/2066399704347463680"
+    ],
+    "2066413406899331197": [
+      "https://x.com/PawelHuryn/status/2066413406899331197",
+      "https://x.com/PawelHuryn/status/2066432018389365041",
+      "https://x.com/PawelHuryn/status/2066432648394817857"
+    ],
+    "2066415484149633329": [
+      "https://x.com/swyx/status/2066415484149633329",
+      "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
+    ],
+    "2066416854302880128": [
+      "https://x.com/yam_dr/status/2066416854302880128",
+      "http://x.com/i/article/2066388098205024256",
+      "https://x.com/yam_dr/status/2066421109701201984",
+      "https://note.com/pn_yamaken/n/nd3ae714ce54a",
+      "https://x.com/yam_dr/status/2066424376849990042",
+      "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "https://x.com/yam_dr/status/2066362597314863349",
+      "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw"
+    ],
+    "2066420775989715118": [
+      "https://x.com/lets_dig_deeper/status/2066420775989715118",
+      "http://x.com/i/article/2066412682803322880"
+    ],
+    "2066423174582218920": [
+      "https://x.com/usagimaruma/status/2066423174582218920",
+      "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy"
+    ],
+    "2066431515953942998": [
+      "https://x.com/MrnllMtt/status/2066431515953942998",
+      "https://x.com/MrnllMtt/status/2066512345845923841"
+    ],
+    "2066439586650415590": [
+      "https://x.com/VaraadDurgaay/status/2066439586650415590",
+      "https://x.com/VaraadDurgaay/status/2066509119780217221"
+    ],
+    "2066448576096469185": [
+      "https://x.com/axios/status/2066448576096469185",
+      "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1"
+    ],
+    "2066460709920342279": [
+      "https://x.com/stratechery/status/2066460709920342279",
+      "https://stratechery.com/2026/anthropics-safety-superpower/"
+    ],
+    "2066461175580090454": [
+      "https://x.com/jevgenijs/status/2066461175580090454",
+      "http://x.com/i/article/2066460781139435520",
+      "https://x.com/jevgenijs/status/2066485337866596725",
+      "https://x.com/jevgenijs/status/2066483650326130726"
+    ],
+    "2066469702075920794": [
+      "https://x.com/0xMortyx/status/2066469702075920794",
+      "http://x.com/i/article/2066436932624629760",
+      "https://x.com/0xMortyx/status/2066481393165586480",
+      "https://x.com/0xMortyx/status/2066471484835459360",
+      "https://x.com/0xMortyx/status/2066481607284785398",
+      "https://x.com/0xMortyx/status/2066494564144148514",
+      "https://x.com/0xMortyx/status/2066481496915886233",
+      "https://x.com/0xMortyx/status/2066482085611671842",
+      "https://x.com/0xMortyx/status/2066511606524018893",
+      "https://x.com/0xMortyx/status/2066473352181518809",
+      "https://x.com/0xMortyx/status/2066482636856476118",
+      "https://x.com/0xMortyx/status/2066482962317603259"
+    ],
+    "2066476403667714432": [
+      "https://x.com/Tim_Denning/status/2066476403667714432",
+      "http://x.com/i/article/2066476107407532032"
+    ],
+    "2066487060999917626": [
+      "https://x.com/threepointone/status/2066487060999917626",
+      "https://sunilpai.dev/posts/never-waste-a-token/",
+      "https://x.com/threepointone/status/2066511623364202544",
+      "https://x.com/threepointone/status/2066493144410001826",
+      "https://x.com/threepointone/status/2066499830151520380",
+      "https://x.com/threepointone/status/2066489524583068047",
+      "https://x.com/threepointone/status/2066481114949046693",
+      "https://pbs.twimg.com/media/HK2dcSIXYAAwU0H.jpg",
+      "https://pbs.twimg.com/media/HK2dgI6WIAApo70.jpg",
+      "https://pbs.twimg.com/media/HK2dh7cXMAEFs4Q.jpg"
     ]
   },
-  "updated_at": "2026-06-15T07:39:18Z",
+  "updated_at": "2026-06-15T14:35:10Z",
   "window": "recent"
 }
