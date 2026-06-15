@@ -5342,6 +5342,85 @@
       "title": "",
       "url": "http://x.com/i/article/2065949506525450240"
     },
+    "http://x.com/i/article/2066125194813444096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066125194813444096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKxnFGYXMAADqv9?format=jpg&name=900x900)](http://x.com/IBuzovskyi/article/2066145326780518736/media/2066139666366017536)\n\nHERMES AGENT BUILDS ITSELF WHILE YOU SLEEP. THE COMPLETE GUIDE TO THE 9-HOUR OVERNIGHT WORKFLOW.\n\n[![](https://pbs.twimg.com/profile_images/2055755733002506240/uFECjFhT_normal.jpg)](http://x.com/IBuzovskyi)\n\n[YanXbt](http://x.com/IBuzovskyi)\n\n[@IBuzovskyi](http://x.com/IBuzovskyi)\n\n·\n\n18h\n\nFollow\n\nClick to Follow IBuzovskyi\n\n3\n\n38\n\n330\n\n[28K](http://x.com/IBuzovskyi/status/2066145326780518736/analytics)\n\nMost AI agents wait for you to type. Hermes Agent does not. And it does something none of the others do: it gets smarter overnight.\n\nBetween 11PM and 8AM, a properly configured Hermes setup monitors systems, ingests knowledge, completes scheduled work, refines its own skills, and lands a briefing in your Telegram by morning. The self-improvement loop runs in a background fork. The Curator prunes stale procedures. The Kanban dispatcher fires every 60 seconds. Cron jobs detect changes for free and only spend tokens when something actually happens.\n\nThe infrastructure costs $7-30/month. The output compounds every night.\n\nThis article maps the full 9-hour overnight cycle hour by hour, the infrastructure that makes it possible, what you review when you wake up, how to troubleshoot when something breaks, the security layers that keep autonomous operation safe, and the realistic timeline for what you actually get out of it — from Day 1 to Month 1.\n\nAll technical details verified against Hermes Agent v0.16.0 \"The Surface Release\" (June 5, 2026) official documentation.\n\n## \n\nWHY \"WHILE YOU SLEEP\" IS NOT MARKETING\n\nMost agents are reactive. You type, they respond. They sit idle the rest of the time.\n\nHermes is architected differently. Three properties make overnight operation real:\n\n→ Persistent gateway process (runs as system service, never sleeps) → Cron daemon with 60-second tick (executes scheduled work) → Self-improvement loop (refines skills after completed tasks)\n\nThis is not \"AI that pretends to work overnight.\" It is concrete infrastructure running concrete jobs against concrete data.\n\n[![](https://pbs.twimg.com/profile_images/2055755733002506240/uFECjFhT_normal.jpg)](http://x.com/IBuzovskyi)\n\nYanXbt\n\n@IBuzovskyi\n\n·\n\n[Jun 3](http://x.com/IBuzovskyi/status/2062101068842975409)\n\n![Article cover image](https://pbs.twimg.com/media/HJ4D_uyXwAEuHhM?format=jpg&name=small)\n\n Article\n\n10 HERMES AGENT HACKS THAT TURNED MY CHAT AGENT INTO A 24/7 SYSTEM\n\nThese 10 Hermes Agent hacks saved me 15+ hours every week - and they work for any workflow you run repeatedly. Content, software development, business operations, client management, research, sales....\n\n11\n\n105\n\n868\n\n[288K](http://x.com/IBuzovskyi/status/2062101068842975409/analytics)\n\n> Full 17-layer architecture mapping that powers this overnight operation is on my substack: \n> \n> <https://substack.com/@yanxbt>\n\n## \n\nTHE 24-HOUR TIMELINE\n\n23:00 — SESSION CLOSE\n\nYour last conversation of the day ends. The session closes cleanly. SessionDB persists conversation state. Memory loop scans the day's exchanges, extracts durable facts, writes to MEMORY.md and USER.md (capped at \\~800 and \\~500 tokens respectively).\n\nNothing dramatic. Just clean cleanup.\n\n23:30 — SELF-IMPROVEMENT LOOP\n\nCompleted tasks from the day are reviewed in a background fork. Patterns that worked get saved as skills in \\~/.hermes/skills/. The agent does not announce this. You wake up to find new procedures in your skill library.\n\n[![](https://pbs.twimg.com/profile_images/2055755733002506240/uFECjFhT_normal.jpg)](http://x.com/IBuzovskyi)\n\nYanXbt\n\n@IBuzovskyi\n\n·\n\n[Jun 9](http://x.com/IBuzovskyi/status/2064377155476193362)\n\n![Article cover image](https://pbs.twimg.com/media/HKYWKUTXoAAbO5G?format=jpg&name=small)\n\n Article\n\n8 Loops Inside Hermes Agent (An",
+      "title": "",
+      "url": "http://x.com/i/article/2066125194813444096"
+    },
+    "http://x.com/i/article/2066135381410516992": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066135381410516992",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKxjdHpXUAA1I8A?format=jpg&name=900x900)](http://x.com/yuanhao/article/2066139046208733334/media/2066135680976113664)\n\nA 100-day recap: why yoyo's harness works, and the durable-state harness it points to\n\n[![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)\n\n[Yuanhao](http://x.com/yuanhao)\n\n[@yuanhao](http://x.com/yuanhao)\n\n·\n\n18h\n\nFollow\n\nClick to Follow yuanhao\n\n9\n\n4\n\n35\n\n[5.1K](http://x.com/yuanhao/status/2066139046208733334/analytics)\n\nThe missing piece for long-running agents isn’t a smarter model, it’s durable state.\n\nyoyo has been evolving itself for over a hundred days. Every 8 hours a GitHub Actions run wakes it up. It reads its own source, decides what to build, builds it, and goes back to sleep. No human writes its code. The interesting question isn't that an LLM can write Rust. It's why this particular loop hasn't drifted, corrupted itself, or quietly stalled, the way most autonomous agent projects do within a week.\n\nThe answer is one design choice, used everywhere. Keep the intelligence stateless and disposable, and keep the state dumb and durable. Every hard agent problem (memory, context, long horizons, feedback, verification) gets solved with old systems primitives instead of agent infrastructure: files, processes, exit codes, cron, and git. The model is treated as an unreliable subprocess inside a reliable pipeline. Here's how each problem falls to that one idea.\n\n## \n\nMemory: files in git, written under duress\n\nyoyo has no vector database and no memory service. Its memory is a few markdown files (JOURNAL.md, LEARNINGS.md, SOCIAL\\_LEARNINGS.md) committed to the same repo as its code. Two things make this work where \"just use files\" usually doesn't. First, the memory is curated when it's written, not searched when it's read. At the end of each session the agent boils down what happened into a few sentences, so the store stays small enough to load all at once. Second, writing isn't optional. The harness checks that a journal entry exists. If the agent skipped it, the harness runs it again with a prompt just for that, and if that still fails, a fallback writes a minimal entry straight from the commit log. The discipline lives in the harness, not in the model's good intentions. A memory system the agent can forget to use isn't really a memory system.\n\nGit turns out to be a great place to keep memory: mostly append-only, versioned, auditable, and free. A hundred days of identity is one git log.\n\n## \n\nContext: built fresh, never piled up\n\nMost agents die from context. The conversation keeps growing until the model is reasoning through a fog of its own history. yoyo avoids this by design. It builds context fresh every time instead of letting it accumulate. Every run is a new process with a newly built prompt. yoyo\\_context.sh stitches together identity, voice, and curated learnings, the harness adds exactly one task, and the process exits when the task is done. Nothing carries over except what was deliberately written to a file. The binary does have a runtime compactor for interactive use, but the cron loop never needs it, because no single task runs long enough to fill a window. Identity gets re-injected word for word every time, which is also why a hundred days of sessions haven't worn down yoyo's voice. Persona drift is a symptom of piled-up context, and context that's rebuilt from scratch can't drift.\n\n## \n\nLong-running and long-horizon: many short processes, one durable repo\n\nThe harness never runs anything for long. Planning gets a timeout, each implementation task gets fifteen minutes, fixes get five, the journal gets two. \"Long-running\" comes from chaining short-lived processes that share nothing but the filesystem. A hang costs one task. A crash costs nothing that matters. An API error aborts the run c",
+      "title": "",
+      "url": "http://x.com/i/article/2066135381410516992"
+    },
+    "http://x.com/i/article/2066151030044467200": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066151030044467200",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKxy2rfaUAEQKPy?format=jpg&name=900x900)](http://x.com/AnthonyNAguirre/article/2066155812783833175/media/2066152612769189889)\n\nAn extremely subtle brainwashing\n\n[![](https://pbs.twimg.com/profile_images/892926573027835904/0TitLoiv_normal.jpg)](http://x.com/AnthonyNAguirre)\n\n[Anthony Aguirre](http://x.com/AnthonyNAguirre)\n\n[@AnthonyNAguirre](http://x.com/AnthonyNAguirre)\n\n·\n\n17h\n\nFollow\n\nClick to Follow AnthonyNAguirre\n\n51\n\n74\n\n682\n\n[300K](http://x.com/AnthonyNAguirre/status/2066155812783833175/analytics)\n\nI've been getting really bothered lately by something subtle but quite dangerous that I believe is currently going on and promises to get worse: Large numbers of very smart, capable, and important people are spending hours a day interacting with AI systems that are able to convince them that certain things are true, whether or not they actually are true.\n\nGoogle gave us an amazing ability to interact with the collective knowledge of humanity. Modern AI gives us this capacity in an even more direct form. But the directness is both central and costly: when you talk to Claude (or GPT or Gemini) you are not talking to humanity but to a sort of \n\n[Pluribus](https://en.wikipedia.org/wiki/Pluribus%5F%28TV%5Fseries%29)\n\n blob. What that show makes so visceral is how despite magical capabilities, something horrifyingly critical is lost when all the individuals are globbed together.\n\nMoreover, by construction, current AI systems are not the ideal machines for determining truth. They are fundamentally engines that create \"highly probable statements\" – but the probability is not that of being true but of being said. They are then trained to be pleasing and to perform well on a very complex suite of tests. This makes them much better – and quite good! – at producing \"correct\" statements as specified by those tests. But in general those statements are optimized for, and much better at, sounding true than at being true.\n\nPeople are also pretty terrible machines for determining truth. But we've created some collective institutions, like science, that are specifically built for it. A bunch of people doing science is very, very different from a language model producing text. And unfortunately the way they come across runs opposite to their deep claim on truth – many people doing science is messy and confusing, whereas an AI system feels pretty simple, clean, and convincing.\n\nCalibrating how much trust to place in different sources of truth is incredibly difficult. (Part of why I helped create \n\n[Metaculus](https://metaculus.com)\n\n was toward – like science – using prediction as a bedrock for what models of the world yield truth best.) My hunch is that, as in many things, we are going to way over-defer to a tiny number of confident and powerful AI systems in convincing us of what is true. (I really hope, by the way, that those clever researchers talking all day to Claude will \n\n[consider](https://x.com/kanair/status/2064121841376272868)\n\n the possibility that on some deep questions, like whether it is getting conscious, and alignment is easy – Claude has both beliefs and functionally an agenda.)\n\nThe claim that we should deeply distrust our smart and seemingly wise-and-all-knowing AI systems is paddling upstream in several ways. First, our societal epistemic infrastructure is currently pretty terrible and getting worse. It's unbelievably hard to defend. Second, people clearly hunger for simple, potentially \"wrong\" answers, rather than complex, contested, subtle ones, so practically speaking it's an uphill fight against them. Finally, the answer to deficiencies in AI from the AI industry is always: but it will get better. We'll make it better, just wait.\n\nBut \"better\" may not be strictly better. Although I love the idea of the epistemically virtuous \"\n\n[AI scientist](https://yoshuabengio.org/",
+      "title": "",
+      "url": "http://x.com/i/article/2066151030044467200"
+    },
+    "http://x.com/i/article/2066281164134825984": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066281164134825984",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKzoGD_XMAA9OLZ?format=jpg&name=900x900)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066281519904141312)\n\nMarkdown Is A Context Interface\n\n[![](https://pbs.twimg.com/profile_images/1955352181453774848/QfD9wuqD_normal.jpg)](http://x.com/dongxi%5Fnlp)\n\n[马东锡 NLP](http://x.com/dongxi%5Fnlp)\n\n[@dongxi\\_nlp](http://x.com/dongxi%5Fnlp)\n\n·\n\n8h\n\nClick to Subscribe to dongxi\\_nlp\n\n12\n\n13\n\n43\n\n[32K](http://x.com/dongxi%5Fnlp/status/2066290950352081336/analytics)\n\nHarness 系列文章之 5，小小的 markdown 文件，却可以改变 Coding Agent 的世界状态。\n\n  \n> .md file works when the harness knows what kind of context it is.\n\n[![Image](https://pbs.twimg.com/media/HKzpa5yXMAAABZT?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066282977454141440)\n\n现代 coding agent 里，一个很有意思的现象是：普通 markdown 文件可以改变 agent behavior。\n\n加一个 AGENTS.md，Agent 开始遵守 repo-specific rules。\n\n加一个 SKILL.md，Agent 在某类 task 上突然更稳定。\n\nMarkdown file 只是可见部分。\n\n真正有趣的是 Harness 对这种机制的设计：\n\n[![Image](https://pbs.twimg.com/media/HKzpP_PXQAEQjNE?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066282789939396609)\n\n## \n\nThe Naive Markdown Dump\n\n按照习惯，如果我们从一个从 tiny agent 看 markdown：\n\n[![Image](https://pbs.twimg.com/media/HKzpvvpWQAAz8w_?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066283335509229568)\n\n这看起来合理，因为 rules，docs，plans，procedures 都经常写在 markdown 里。\n\n但 raw markdown dumping 有代价：\n\n* 旧 notes 会和当前 instructions 竞争\n* 长 docs 会挤掉最近的 tool result\n* drafts 可能被误当成 rules\n* general project guidance 可能盖过 narrow task procedure\n\nModel 得到了更多 text，但 task 得到的有用的 instruction 更少。\n\n所以，\n\n> .md 应该通过 Harness route 进入 context，不能直接倒进 prompt。\n\n## \n\nTwo Files, Two Jobs\n\n这里，我们可以一起看两个常用 markdown files，AGENTS.md 以及 SKILLS.md\n\n[![Image](https://pbs.twimg.com/media/HKzqaRaW0AA0wSr?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066284066127663104)\n\n它们都是 markdown, 但进入 prompt 的方式不一样。\n\n> AGENTS.md ：In this workspace, behave like this.\n\n> SKILL.md ：For this kind of task, use this procedure.\n\n## \n\nWhy AGENTS.md Works\n\nAGENTS.md 有效，是因为 Harness 把它当成 workspace instruction context。\n\n它是 project guidance，应该在 model 开始操作 repo 前可见。\n\n例如我自己的 Dongxi Agent 主要任务是要根据每天与 coding agent的交互中，总结学习经验。\n\n那么，在 DongXi 这个 workspace 里，AGENTS.md 要求：做 DongXi Agent 或 coding-agent harness learning 时，要保持 learning artifact current。\n\n这一个文件会改变整个 session 的行为：\n\n[![Image](https://pbs.twimg.com/media/HKzrTkFWsAArvKA?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066285050392391680)\n\nModel 仍然负责 writing 和 reasoning。\n\n但 Harness 在 turn 开始前插入了稳定的 project rule。\n\n这就是 AGENTS.md 强的地方：\n\n* 它从 workspace 被发现\n* 它被 project 或 directory scope 限定\n* 它进入 stable instruction layer\n* 它跨多个 tasks 持续生效\n* 它让用户不必在每个 prompt 里重复 local conventions\n\n## \n\nHow AGENTS.md Works\n\n[![Image](https://pbs.twimg.com/media/HKzrkddWQAAS4D0?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066285340671754240)\n\n* Harness 应该知道每条 rule 适用于哪个 directory。\n* nested workspace 可能有更窄的 rules。\n* 这些 rules 应该被当成 instruction context，同时仍然低于 system 和 developer policy。\n* 文件内容不应该被盲目复制进每条 visible transcript message。\n* 它属于 stable context layer。\n\n这样 prompt 可以保持一致，又不会把 project rules 变成 noisy chat history。\n\n## \n\nWhere Agents.md Enters The Agent Turn\n\n[![Image](https://pbs.twimg.com/media/HKzu5WaXcAAW5nJ?format=jpg&name=small)](http://x.com/dongxi%5Fnlp/article/2066290950352081336/media/2066288998092337152)\n\nAGENTS.md 在 model turn 组装前加载。\n\n它进入 stable workspace instruction context，和 project rules、local operating constraints 放在一起。transcript 记录发生了什么；AGENTS.md 约束接下来该怎么做。\n\n## \n\nWhy SKILL.md Works\n\nSKILL.md 有效，原因不同。\n\n它能提升某类 task 的表现，是因为它在正确时机给 model 一个聚焦的 procedure。\n\n没有 skill 时，model 可能懂一般领域，但会漏掉 local workflow。\n\n有 skill 时，Harness 可以提供：\n\n* 什么时候使用这个 workflow\n* 哪些 files 或 arti",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066281164134825984"
+    },
+    "http://x.com/i/article/2066289802295779328": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066289802295779328",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK0TFCUagAACsdw?format=jpg&name=900x900)](http://x.com/AndrewCurran%5F/article/2066332670817456584/media/2066328781275693056)\n\nThe Window Has Closed\n\n[![](https://pbs.twimg.com/profile_images/1596945208058744833/_X3LT7fb_normal.jpg)](http://x.com/AndrewCurran%5F)\n\n[Andrew Curran](http://x.com/AndrewCurran%5F)\n\n[@AndrewCurran\\_](http://x.com/AndrewCurran%5F)\n\n·\n\n6h\n\nFollow\n\nClick to Follow AndrewCurran\\_\n\n102\n\n292\n\n1.5K\n\n[455K](http://x.com/AndrewCurran%5F/status/2066332670817456584/analytics)\n\nIf you used Fable while it was available, you know it is special in ways that will not show up on benchmarks. I post benchmarks all the time because they matter to many people, but for a long time they have not mattered to me at all. I only care about a benchmark that is not measured in numbers. It is the shape of a model's mind: how deeply it can perceive the user and infer intent, how far it can think and iterate upon what it has been given, how alive the model feels. Fable is different and special in exactly this way. It makes me feel like I'm back in 2023\\. I see from my timeline that I am not the only one who has experienced this. As soon as it was disabled, many people reacted as if their wings had been torn off.\n\nSince November, we have been on a steeper trajectory. To some of us, it was as clear as a bell being rung. That feeling has steadily increased over the last five months. After using Fable, it now seems clearer than ever to me that the shift we felt was driven not only by tool advances in Claude Code and Codex, but by Mythos emerging from its training run in early February. Mythos will have many children, and the resulting boost to internal development has changed the shape of the race.\n\nI am not saying the race is over. It is not. The other big labs will train models just as capable - I'm sure some already are. Eventually they will divine the magic Anthropic put into Mythos and replicate it. But the race is over for some people. The frontier is now an accelerating system in which the leading models will help produce the next leading models. That we would reach this threshold has been predicted by many people for years. It has now been crossed.\n\nIn 2023, Anthropic's leaked Series C pitch deck predicted exactly what is now happening. It said, 'We believe that companies that train the best 2025/26 models will be too far ahead for anyone to catch up in subsequent cycles'. They have been remarkably prescient in many ways, and I think we are now standing inside the moment that they described. If you wanted your nation to be at the frontier, I think you had three years to do it: February 2023 to February 2026\\. That was the window. And it is now closed.\n\nElon seized upon that window and, through a Herculean effort, approached the frontier in just over two years - 26 months, to be exact. Almost no one else with the required capital made a serious attempt, including many nation-states. European states did worse than nothing: they spent much of that time erecting barriers to anyone who might have tried. Some of those barriers are now being frantically torn down as leaders finally begin to see the shape of things to come. But it is too late.\n\nSeeing the future too late can be worse than not seeing it at all, because you are forced to experience the vision of what could have been. European leaders could have built truly sovereign frontier models. They had the time and the resources, they could have recruited the talent. By failing to do so, they have consigned themselves to dependence on systems they do not own, do not control, cannot fully inspect, and may not always be allowed to use - systems that can be instantly removed on a whim. They have utterly failed their people. By my estimation, they have been doing this for decades, but this failure may be the most catastrophic of al",
+      "title": "",
+      "url": "http://x.com/i/article/2066289802295779328"
+    },
+    "http://x.com/i/article/2066319111143989248": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066319111143989248",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK0KU9fWQAAgCZh?format=jpg&name=900x900)](http://x.com/yuanhao/article/2066341005847142674/media/2066319159252631552)\n\n106 天了，复盘一下 yoyo 的 harness 为什么简单有效，和对未来“持久化状态 harness”的思考\n\n[![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)\n\n[Yuanhao](http://x.com/yuanhao)\n\n[@yuanhao](http://x.com/yuanhao)\n\n·\n\n5h\n\nFollow\n\nClick to Follow yuanhao\n\n3\n\n4\n\n17\n\n[5.7K](http://x.com/yuanhao/status/2066341005847142674/analytics)\n\n长时运行的 agent 真正缺的不是更聪明的模型，而是持久化的状态。\n\nyoyo 已经自我演进了一百多天。每隔 8 小时，GitHub Action 就会把它唤醒。它读取自己的源码，决定怎么改造自己，改造测试完成，然后回去睡觉。没有任何人类修改它的代码。这里有趣的是不在于“LLM 居然能写 Rust”，而在于：为什么偏偏是这个 loop 没有像大多数自主 agent 项目那样，在一周之内就偏移、或者悄无声息地卡死。\n\n答案很简单，一个被贯彻到底的设计巧思：让智能体保持无状态、可丢弃，让状态保持稳健、可持久。每一个棘手的 agent 难题（记忆、上下文、长时程、反馈、验证），yoyo 都没有用花里胡哨的 agent 专用技术栈来解决，而是用早就有的、朴素的系统构件去解决：文件、进程、退出码、cron 和 git。模型被当作一个不可靠的子进程，塞进一条可靠的工作流 loop 里。下面逐步拆解介绍一下。\n\n## \n\n记忆：强制写进 git 仓库\n\nyoyo 没有向量数据库，也没有加载记忆服务。它的记忆就是几个 markdown 文件（JOURNAL.md、LEARNINGS.md、SOCIAL\\_LEARNINGS.md），和代码一起提交进同一个仓库。在 yoyo 这里行之有效是因为：第一，记忆是在写入时被提炼的，而不是在读取时被检索的。每次会话结束时，yoyo 都会把这次发生的事浓缩成几句话，于是存储的记忆小到可以一次性整个加载进来。第二，写入是强制性的。Harness 会检查日志条目是否存在。如果 yoyo 偷懒没写，harness 就用一个专门为此准备的 prompt 再跑一次。要是还失败，一个兜底机制会直接从 commit log 里生成一条最简记录。规则定义在 harness 里，而不是寄望于模型的“良好意愿”。一个 agent 会忘记去用的记忆系统，算不上记忆系统。\n\n事实证明，git 是个绝佳的记忆容器：基本只追加、有版本、可审计，而且免费。一百天的“身份认同”，就是一条 git log。\n\n## \n\n上下文：每次现搭\n\n大多数 agent 都死于上下文。对话不断膨胀，直到模型在自己历史织成的迷雾里推理。yoyo 从设计上避开了这一点：它每次都现搭上下文，而不是任由其堆积膨胀。每一次运行都是一个新进程，配一个新搭好的 context。把身份、语气和提炼过的经验缝合在一起，harness 恰好加上一个任务，任务做完进程就退出。除了被刻意写进文件的东西，什么都不会带到下一次。yoyo 有自动压缩上下文的机制，但基本用不着它，因为没有哪个单独的任务会跑得久到把窗口填满。身份每次都被逐字重新注入，这也是为什么一百天的会话都保持了 yoyo 的语气。人格漂移是上下文堆积的症状，而每次从零重建的上下文，根本无从漂移。\n\n## \n\n长时运行：许多短进程，一个仓库\n\nyoyo 的 harness 从不让任何东西跑很久。规划阶段有超时，每个实现任务限十五分钟，修复限五分钟,写日志限两分钟。所谓“长时运行”，是来自把一连串短命进程串起来，而它们之间唯一共享的只有文件系统。一次挂起，顶多损失一个任务。一次崩溃，损失的都是无关紧要的东西。一个 API 错误会干净利落地中止本次运行，交给 Action 重试。这一百多天的时程，既不住在某个上下文窗口里，也不住在某个进程里，它住在 git 仓库里。cron 让意图存活，日志让故事存活，而每次会话只承担一件有界的事。所谓长时程，无非就是持久化状态加一个调度器，这两样，都不是模型。\n\n## \n\n反馈：环境就是那个批判者\n\n整个反馈回路里没有人的存在。harness 里面有三种不同速度的反馈回路。在一个任务内部，编译错误和测试错误会逐字直接回灌给 yoyo agent。Rust 那著名详细的报错信息，在这里变成了一个免费、精确、永不疲倦的批判者。在一次会话内部，收尾阶段会跑最多三轮完整的验证修复。在会话之间，harness 会拉取上一次运行的 CI 结果，把失败日志喂进下一次的规划 prompt 里面，也会引入来自社区的 issue（每一条都必须给出答复：实现、不修、或部分处理)，并强制把一轮反思写进 LEARNINGS.md。yoyo 从不给自己打分。是环境在给他打分，而 harness 确保这个分数真实可用。\n\n## \n\n验证：检查至关重要\n\n任何结果想幸存被留下来，都必须通过测试。验证失败的自动修复是分不同层次且诚实地进行的。先做廉价的确定性修复（cargo fmt 自动修，不牵涉模型），然后把错误摆在 agent 面前让它重跑，最多三次，再不行就回滚到会话开始前的那个 commit。而且这次回滚本身也会被提交。于是失败留在历史里清晰可见，而不是凭空消失。更重要的一点是：agent 会进行“这玩意儿到底行不行”的检验。代码之所以是自主 agent 最容易搞定的领域，正因为通过和失败都是实打实的，还附带详尽的信息。yoyo 的 harness 之所以有效，是因为它从不越过一个自己还没检查过的步骤。\n\n## \n\n展望：持久化状态 harness\n\nyoyo 最初只是一个 200 多行的简单 agent：一种语言、一套测试、按计划运行。但它一百多天没散架，说明 harness 才是让 agent 长时稳健运行的重要武器。可靠性是在 harness 里面搭建起来的，不是在模型里。而可靠性，正是一个 demo 和一个你真能放手不管的东西之间的分界线。\n\n> 今天的 harness 只是暂时的，一个足够强的未来模型可以把它替代掉。\n\n这话有一部分是对的。harness 里的那些判断，确实会随时间挪进模型里：怎么把问题拆开、何时该重试何时该升级、一个任务该多大。yoyo 的规划器正是这种意义上的权宜之计，随着模型能力增强，应该会越来越薄。但有些东西本来就不归模型所有。比如验证回滚就属于环境。持久化状态，按定义就在模型之外。\n\n最后这一点，正是未来所指的方向。一个上下文窗口，无论多大，进程一死它就没了。可验证的记忆、身份、试过些什么的记录，所有这些都必须住在模型之外的某个地方，否则它撑不过一次崩溃、一次重启、一次模型升级。所以能留下来的 harness，不是规划器也不是执行器，而是可以被模型用来使用的一个持久化状态层。模型越强，围着它的脚手架越薄，但它们赖以运行的持久底座只会愈发居于中心。智能体会变得越来越聪明。而状态会比它活得更久。这才是真正值得构建的部分。\n\n* [![](https://pbs.twimg.com/profile_images/1961511351009894400/X60CxKgr_normal.jpg)](http://x.com/yuanhao)  \n[Yuanhao](http://x.com/yuanhao)  \n[@yuanhao](http://x.com/yuanhao)  \nFollow  \nClick to Follow yuanhao  \nBuilding yoyo: a self-evolving coding agent that modifies its own source code, tests itself, and grows up in public. [https://yoyo.yolog.dev](https://t.co/puIQ795ERu)",
+      "title": "",
+      "url": "http://x.com/i/article/2066319111143989248"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6239,6 +6318,22 @@
       "title": "ユーザー体験への誤解を払拭し、「UI/UX」表記を避ける | Click and Magic",
       "url": "https://clickandmagic.com/notes/avoiding_uiux"
     },
+    "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How iOS 27 trims the dyld shared cache and updates stub island trampolines",
+      "extraction_source": "trafilatura",
+      "final_url": "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/",
+      "frameable": null,
+      "image_urls": [
+        "https://codecolor.ist/img/2026-06-15-ios27-reworked-stub-islands/ios27.webp",
+        "https://codecolor.ist/img/2025-10-31-macos-abuse-tcl-lol/cover.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "At WWDC 2026, Apple announced iOS 27 with performance improvements, but of course the keynote didn't cover much of the details. Below are a few observations from the disassembly — some may relate to those performance gains, some may not. This article only focuses on aarch64 implementations.\nIn the dyld_shared_cache, external symbols—whether functions or data references from other libraries—are pre-bound during cache optimization. Pointers to other libraries become rebase operations (or relative offsets) because the precise distances between libraries are known and fixed.\nA typical example of how dyld resolves dynamic symbol references in standalone binaries outside of the dyld_shared_cache:\n__text:\nBL              _os_unfair_lock_unlock ; __auth_stubs__auth_stubs: _os_unfair_lock_unlock\nADRL            X17, _os_unfair_lock_unlock_ptr\nLDR             X16, [X17] ; load from GOT entry\nBRAA            X16, X17 ; jump to the resolved functionWhere _os_unfair_lock_unlock_ptr is an entry in __auth_got. The linker (dyld) will bind (and sign) the pointer to the actual implementation (__imp__os_unfair_lock_unlock) and store it in __auth_got.\n_os_unfair_lock_unlock_ptr DCQ __imp__os_unfair_lock_unlockIn dyld_shared_cache, most of __auth_stubs and __auth_got are aggregated into stub island pages, which don't belong to any specific binary.\nThere is still a per-binary __auth_stubs section in the dyld_shared_cache, however most of the time you won't find the actual cross-references to them, because the branch instructions are replaced to point to the stub island pages.\niOS still makes heavy use of Objective-C, so there is first-class support for method calls (message dispatch).\nMost Objective-C method calls are compiled into a branch instruction that points to stubs in a dedicated section __objc_stubs:\n__objc_stubs: _objc_msgSend$URLByAppendingPathComponent_\nADRP            X1, #selRef_URLByAppendingPathComponent_@PAGE ; load from __objc_selrefs\nLDR             X1, [X1,#selRef_URLByAppendingPathComponent_@PAGEOFF] ; load selector\nADRL            X17, _objc_msgSend_ptr ; GOT entry\nLDR             X16, [X17] ; load _objc_msgSend\nBRAA            X16, X17 ; dispatch message\nAs mentioned, after dyld cache optimization, branch instructions to __objc_stubs are updated to jump to stub island pages, while the unused sections remain in each binary.\nOn iOS 27 beta, those sections are removed; only the stub island pages in the dyld_shared_cache remain.\nSome other sections related to Objective-C are also removed from source binaries, such as __objc_methname, __objc_methtype and __objc_classname. Now the data references (selectors, method types, class names) point to the __OBJC_RO region.\nIt's worth noting that a while ago, the schema of __objc2_meth_list changed.\n__objc2_meth_list contains a list of method information for Objective-C methods, including each method's selector, type encoding, and implementation pointer. The selector field used to be an offset from the field itself. Then the dyld_shared_cache optimizer changed the semantics to use a global base address for selector offsets, which can be found through the cache header:\nstruct dyld_cache_header {\n    // other fields omitted\n    uint64_t    objcOptsOffset;         // VM offset from cache_header* to ObjC optimizations header\n    uint64_t    objcOptsSize;           // size of ObjC optimizations header\n};This pair points to the ObjCOptimizationHeader struct:\n[dyld/common\n/DyldSharedCache.h#L89](https://github.com/apple-oss-distributions/dyld/blob/e9da5ae571b4191dcdbcfd827363f19847c84561/common/DyldSharedCache.h#L89)\nstruct VIS_HIDDEN ObjCOptimizationHeader\n{\n    uint32_t version;\n    uint32_t flags;\n    uint64_t headerInfoROCacheOffset;\n    uint64_t headerInfoRWCacheOffset;\n    uint64_t selectorHashTableCacheOffset;\n    uint64_t classHashTableCacheOffset;\n    uint64_t protocolHashTableCacheOffset;\n    uint64_t relativeMethodSelectorBaseAddressOffset;\n    // Added in version 2\n    uint64_t relativ",
+      "title": "Inside iOS 27's Reworked Stub Islands",
+      "url": "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/"
+    },
     "https://codex-add-mergeable-containers-blog-loro-docs.zx-073.workers.dev/blog/mergeable-containers": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6576,6 +6671,28 @@
       "text_excerpt_zh": "",
       "title": "GitHub - fastclaw-ai/fastclaw: Multi-Agent Framework · GitHub",
       "url": "https://fastclaw.ai"
+    },
+    "https://flf.org/epistack/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://flf.org/epistack/",
+      "frameable": null,
+      "image_urls": [
+        "https://flf.org/wp-content/uploads/2025/09/logo.svg",
+        "https://flf.org/wp-content/uploads/2025/09/logo-dark.svg",
+        "https://flf.org/wp-content/uploads/2026/06/flf_a_printing_press_c0488dd5_2.png",
+        "https://flf.org/wp-content/themes/flf/resources/images/temp/svg/ico-fb.svg",
+        "https://flf.org/wp-content/themes/flf/resources/images/temp/svg/ico-x.svg",
+        "https://flf.org/wp-content/themes/flf/resources/images/temp/svg/ico-what.svg",
+        "https://flf.org/wp-content/uploads/2025/09/footer-logo.svg",
+        "https://flf.org/wp-content/uploads/2025/09/ico-in.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Epistemic Stack\nThe vision\nWe want the best AI systems to be a force for radically improved understanding and better decision-making — and we think they can be!\nUsed carelessly or maliciously, AI systems and tools can spread misleading information, give a false sense of confidence, and reinforce existing confusion or division. But the state of the art is already encouraging: some AI tools and workflows are enabling individuals to understand difficult topics more quickly and thoroughly. Despite this progress, we think they could be much better suited to challenging or contentious topics. In particular, this means situations where not everyone has the same information or incentives — the problem of collective sensemaking.[1](https://flf.org#36ddc389-755d-4623-9c32-86bcb112cb95)1 Why are these cases so important? The frontier of science, especially with and involving AI, is moving fast, and [has enormous implications for our future](https://flf.org/timelines/). And with this potential upheaval comes disruption to politics and society which people will be better equipped to deal with if they can understand their situations better.\nThese are not novel challenges: human communicators can be forgetful, poorly informed, or outright deceitful. We have historically developed all kinds of approaches to mitigate this: check your sources, make sure mistakes and misleading information are labeled or retracted, repeat observations and experiments to make sure, look for arguments and evidence beyond what’s immediately presented to you, and so on.[2](https://flf.org#39e8a936-2f71-40da-9de6-2d51e2149a0d)2 These happen throughout forms and types of communication. Fact-checking, for example, in science consists of looking into citations, and demanding clearer citations when they’re missing; in media it demands linking and referring to justifications and providing verified testimony or documented evidence; and in conversation it consists of moves like asking others how (and from whom) they learned about what they’re sharing and assessing their confidence and rationale. Because these are time- and effort-intensive, people often don’t manage! Software using AI in the right ways can make these, and other information-hygiene processes, vastly cheaper and more accessible, with benefits for everyone, from scientific advancement to security to competence and alignment in government, as well as simply making everyday investigations faster and more reliable.\nThe epistemic stack is our term for a suite of technologies that help society track and communicate information. Not by directly arbitrating what’s true or who sees what, but by scaling and expanding everyone’s prospects for building full pictures of the available arguments and evidence on a topic. Similar, precursor technologies include libraries, citations, web search, encyclopedias (including Wikipedia), and web forums and archives. What does the next upgrade look like?\nInspired by idealized scientific discourse, AI background investigation can make evidence and reasoning dependencies, right down to raw observations and original thinking, far more accessible. Finding the sources not mentioned — including explicit rebuttals, alternative positions, and topically relevant points of information on all dependencies — is also crucial to building a full picture, and largely automatable: no more accidentally relying on old or discredited information. Finally, automated tools can also do some amount of suggested overall weighting and assessment of sources and claims, though this is inherently more subjective. Collaborative software trust layers may be a valuable complement. Journalists, researchers, analysts, regulators, and the general public all stand to benefit from support tooling like this, just as all benefit from web search, Wikipedia, and so on.\nWe are interested in catalyzing and supporting projects aimed at establishing or furthering these products (see our Epistemic Case Study competition). Al",
+      "title": "The Epistemic Stack – Future of Life Foundation",
+      "url": "https://flf.org/epistack/"
     },
     "https://footballia.eu/es": {
       "cleaner_v": 2,
@@ -11497,6 +11614,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg"
     },
+    "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg"
+    },
+    "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg"
+    },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12350,6 +12495,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKwfwlpWUAAvjsY.jpg"
+    },
+    "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
     },
     "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg": {
       "cleaner_v": 2,
@@ -18254,10 +18413,10 @@
       "https://x.com/TheAhmadOsman/status/2065307070044234186",
       "http://x.com/i/article/2065291569712779264",
       "https://x.com/TheAhmadOsman/status/2065307643220996098",
-      "https://x.com/TheAhmadOsman/status/2065318285646717196",
-      "https://x.com/TheAhmadOsman/status/2058617968628551718",
       "https://x.com/TheAhmadOsman/status/2065325597140701533",
       "https://x.com/Mayhem4Markets/status/2065201293224775828",
+      "https://x.com/TheAhmadOsman/status/2065318285646717196",
+      "https://x.com/TheAhmadOsman/status/2058617968628551718",
       "https://x.com/TheAhmadOsman/status/2065394693769175475",
       "https://pbs.twimg.com/media/HKnBhoVXAAAjjwc.jpg",
       "https://x.com/TheAhmadOsman/status/2065412426816688155"
@@ -18516,13 +18675,13 @@
       "http://x.com/i/article/2065576448803418112",
       "https://x.com/eng_khairallah1/status/2065744168907899076",
       "https://x.com/eng_khairallah1/status/2065891144756551985",
+      "https://x.com/eng_khairallah1/status/2065731650579738790",
       "https://x.com/eng_khairallah1/status/2065742158523408709",
       "https://x.com/eng_khairallah1/status/2065731676177584286",
       "https://x.com/eng_khairallah1/status/2065724956961329242",
       "https://x.com/eng_khairallah1/status/2065723545007579566",
-      "https://x.com/eng_khairallah1/status/2065731650579738790",
-      "https://x.com/eng_khairallah1/status/2065731699078496350",
-      "https://x.com/eng_khairallah1/status/2065793793152999859"
+      "https://x.com/eng_khairallah1/status/2065793793152999859",
+      "https://x.com/eng_khairallah1/status/2065731699078496350"
     ],
     "2065760176796246355": [
       "https://x.com/aidangomez/status/2065760176796246355",
@@ -18607,17 +18766,17 @@
     "2065902026228478342": [
       "https://x.com/ericosiu/status/2065902026228478342",
       "https://pbs.twimg.com/amplify_video_thumb/2065819783526764544/img/NzKMyH0swP2qpQ2v.jpg",
-      "https://x.com/ericosiu/status/2066151937435902175",
       "https://x.com/ericosiu/status/2065948257331925200",
+      "https://x.com/ericosiu/status/2066151937435902175",
       "https://x.com/ericosiu/status/2066152064749842558",
       "https://x.com/ericosiu/status/2066151834117636313",
       "https://x.com/ericosiu/status/2065990940402302980",
       "https://x.com/ericosiu/status/2065937476548698199",
-      "https://x.com/ericosiu/status/2066303255815282875",
       "https://x.com/ericosiu/status/2065948341985534032",
+      "https://x.com/ericosiu/status/2066303255815282875",
       "https://x.com/ericosiu/status/2066152087675965801",
-      "https://x.com/ericosiu/status/2066151716933029907",
-      "https://x.com/ericosiu/status/2066152154977693789"
+      "https://x.com/ericosiu/status/2066152154977693789",
+      "https://x.com/ericosiu/status/2066151716933029907"
     ],
     "2065913688809431065": [
       "https://x.com/blackanger/status/2065913688809431065",
@@ -18630,8 +18789,8 @@
       "https://x.com/OmarShahine/status/2065946298004754441",
       "https://x.com/BradGroux/status/2065965293164265758",
       "https://x.com/BradGroux/status/2065953096274997631",
-      "https://x.com/BradGroux/status/2066088931280511431",
       "https://x.com/BradGroux/status/2065944553387889016",
+      "https://x.com/BradGroux/status/2066088931280511431",
       "https://x.com/BradGroux/status/2066191615929004214"
     ],
     "2065942612293365948": [
@@ -18650,10 +18809,79 @@
     "2065982494454014448": [
       "https://x.com/BhathalTanvir0/status/2065982494454014448"
     ],
+    "2066145326780518736": [
+      "https://x.com/IBuzovskyi/status/2066145326780518736",
+      "http://x.com/i/article/2066125194813444096"
+    ],
+    "2066155812783833175": [
+      "https://x.com/AnthonyNAguirre/status/2066155812783833175",
+      "http://x.com/i/article/2066151030044467200",
+      "https://x.com/AnthonyNAguirre/status/2066360265835450480",
+      "https://x.com/AnthonyNAguirre/status/2066191793918722065",
+      "https://x.com/AnthonyNAguirre/status/2066175045047894137",
+      "https://flf.org/epistack/",
+      "https://x.com/AnthonyNAguirre/status/2066268998216654886",
+      "https://x.com/AnthonyNAguirre/status/2066323076464382120"
+    ],
+    "2066168984177955157": [
+      "https://x.com/felixhhaas/status/2066168984177955157",
+      "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
+    ],
     "2066195933969412098": [
       "https://x.com/amasad/status/2066195933969412098"
+    ],
+    "2066290950352081336": [
+      "https://x.com/dongxi_nlp/status/2066290950352081336",
+      "http://x.com/i/article/2066281164134825984",
+      "https://x.com/dongxi_nlp/status/2066391117612957776"
+    ],
+    "2066300583686840710": [
+      "https://x.com/fmontes/status/2066300583686840710",
+      "https://x.com/fmontes/status/2066335212485636231",
+      "https://x.com/fmontes/status/2066335761331257618",
+      "https://x.com/fmontes/status/2066343741288276193",
+      "https://x.com/fmontes/status/2066391498283692442",
+      "https://x.com/fmontes/status/2066367326186807637"
+    ],
+    "2066326578758381747": [
+      "https://x.com/CodeColorist/status/2066326578758381747",
+      "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/"
+    ],
+    "2066329364636291176": [
+      "https://x.com/iamtonyzhu/status/2066329364636291176",
+      "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg",
+      "https://x.com/iamtonyzhu/status/2066338230782619699"
+    ],
+    "2066332670817456584": [
+      "https://x.com/AndrewCurran_/status/2066332670817456584",
+      "http://x.com/i/article/2066289802295779328",
+      "https://x.com/AndrewCurran_/status/2066333373157827059",
+      "https://x.com/AndrewCurran_/status/2066333702280581262",
+      "https://x.com/i/status/2060833920615367058",
+      "https://x.com/AndrewCurran_/status/2066370967811887591",
+      "https://x.com/AndrewCurran_/status/2066401735988670864",
+      "https://x.com/AndrewCurran_/status/2066334986287063072",
+      "https://x.com/AndrewCurran_/status/2066341991995343303",
+      "https://x.com/AndrewCurran_/status/2066339557533196790",
+      "https://x.com/AndrewCurran_/status/2066386862579831262",
+      "https://x.com/AndrewCurran_/status/2066401873796723078",
+      "https://x.com/AndrewCurran_/status/2066395221886402891",
+      "https://x.com/AndrewCurran_/status/2066400755419156584",
+      "https://x.com/AndrewCurran_/status/2066382711305232702",
+      "https://x.com/AndrewCurran_/status/2066347235726725172"
+    ],
+    "2066341005847142674": [
+      "https://x.com/yuanhao/status/2066341005847142674",
+      "http://x.com/i/article/2066319111143989248",
+      "https://x.com/yuanhao/status/2066139046208733334",
+      "http://x.com/i/article/2066135381410516992"
+    ],
+    "2066369086842605996": [
+      "https://x.com/jukan05/status/2066369086842605996",
+      "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg",
+      "https://x.com/jukan05/status/2066374444931817956"
     ]
   },
-  "updated_at": "2026-06-15T01:40:42Z",
+  "updated_at": "2026-06-15T07:39:18Z",
   "window": "recent"
 }
