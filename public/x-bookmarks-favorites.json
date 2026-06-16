@@ -66,6 +66,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"This pattern — where humans remain heavily involved at both ends of the decide-execute-deliver sandwich, even as AI increasingly automates the middle layer, seems to be broadly applicable to most knowledge work, though it is farthest along in software\" https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers https://t.co/Q4bFmBi3tp",
+      "text_zh": "\"这种模式——即人类在决策-执行-交付的‘三明治’两端仍深度参与，而AI日益自动化中间层——似乎广泛适用于大多数知识工作，尽管在软件领域进展最为领先\" https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers https://t.co/Q4bFmBi3tp",
+      "text_zh_hash": "79cb2b04768525c9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rseroter/status/2066536456936710263"
     },
     {
@@ -148,6 +151,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "China's open-source AI models are fueling rapid adoption, with some U.S. labs now relying on Chinese research code https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881",
+      "text_zh": "中国开源AI模型正加速普及，部分美国实验室已开始依赖中国的研究代码 https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881",
+      "text_zh_hash": "c23dec0506568a4c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/restofworld/status/2066633853968560607"
     },
     {
@@ -189,6 +195,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Snowflake’s executives rely on AI agents to predict analyst questions and draft responses before earnings calls.\n\nFull story: https://thein.fo/4fD7Yww",
+      "text_zh": "Snowflake 的高管们依赖 AI 代理，在财报电话会议前预测分析师提问并草拟回复。\n\n完整报道：https://thein.fo/4fD7Yww",
+      "text_zh_hash": "c48336df91b5ce07",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/theinformation/status/2066573973580665107"
     },
     {
@@ -230,6 +239,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI models are trained on the accumulated digital output of humanity—an output they’ve largely acquired for free.\n\nBut this is a problem, not just for the uncompensated content creators, but also for the AI companies.\n\nYet AI companies already produce the two data sets required for pricing content. The technical objections that have kept both sides arguing in the dark does not hold up.\n\nThis framework offers both AI companies and content creators a fair path forward:\n\nhttps://s.hbr.org/3PZZpSc",
+      "text_zh": "AI模型基于人类积累的数字输出进行训练——而这些输出，它们大多免费获取。\n\n但这不仅是未获报酬的内容创作者的问题，也是AI公司自身的问题。\n\n然而，AI公司其实已经掌握了为内容定价所需的两类数据集。那些让双方在黑暗中争执不休的技术反对意见，根本站不住脚。\n\n这一框架为AI公司和内容创作者提供了一条公平的前进道路：\n\nhttps://s.hbr.org/3PZZpSc",
+      "text_zh_hash": "f2721b19de76221d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/HarvardBiz/status/2066556847390064721"
     },
     {
@@ -311,6 +323,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Seroter Daily Reading List – June 15, 2026 (#805): Today’s links look at why “skill fatigue” is real, how to rethink your build versus buy strategy, and how to differentiate a vibe coder from a software engineer.\n\nhttps://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/",
+      "text_zh": "Seroter 每日阅读清单 – 2026年6月15日（第805期）：今日链接探讨为何“技能疲劳”真实存在、如何重新思考自建与采购策略，以及如何区分“氛围编码者”与软件工程师。\n\nhttps://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/",
+      "text_zh_hash": "44f4028b1e643457",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rseroter/status/2066670651910623622"
     },
     {
@@ -352,6 +367,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How's Linear so fast?\n\nBuild with a core philosophy: never make users wait. \n\n→ local-first storage\n→ optimistic updates\n→ sync architecture\n→ caching\n→ keyboard shortcuts\n→ animation\nhttps://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "text_zh": "Linear 为何如此快速？\n\n其构建核心哲学是：绝不让用户等待。\n\n→ 本地优先存储\n→ 乐观更新\n→ 同步架构\n→ 缓存\n→ 键盘快捷键\n→ 动画\nhttps://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "text_zh_hash": "e3b44f04a97755bd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2066790379475599773"
     },
     {
@@ -390,6 +408,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic is being sued over Claude Max usage limits https://www.engadget.com/2194626/anthropic-hit-with-lawsuit-over-its-claude-max-usage-limits/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781549193",
+      "text_zh": "Anthropic因Claude Max使用限制被起诉",
+      "text_zh_hash": "112b4582276bbd4d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/engadget/status/2066593299771605264"
     },
     {
@@ -430,6 +451,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Just three days after Anthropic released its latest and most powerful AI model, Fable, the Trump administration called with an unusual demand: take it offline.\n\nOfficials gave the company just 90 minutes to comply. https://wapo.st/4eqrOcg",
+      "text_zh": "Anthropic发布其最新、最强大的AI模型Fable仅三天后，特朗普政府便打来电话提出一项不寻常的要求：将其下线。\n\n官员们只给了该公司90分钟的时间来遵守。https://wapo.st/4eqrOcg",
+      "text_zh_hash": "0153f7fbfcde7f64",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/washingtonpost/status/2066596654212403327"
     },
     {
@@ -468,6 +492,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The scenarios keeping AI bosses awake at night are no longer purely hypothetical https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a30a983e656e500013c71bf&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "让AI老板们夜不能寐的场景已不再是纯粹的假设\nhttps://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a30a983e656e500013c71bf&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh_hash": "d53779da7f93223e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2066697348735025590"
     },
     {
@@ -511,6 +538,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Loops are the meta right now\n\nIf you’re having issues engineering loops you need to bookmark this post and read it\n\nhttps://x.com/mikenevermiss/status/2066401066518802637?s=46",
+      "text_zh": "循环是当下的元主题\n\n如果你在工程化循环时遇到问题，请收藏本文并仔细阅读\n\nhttps://x.com/mikenevermiss/status/2066401066518802637?s=46",
+      "text_zh_hash": "36e9cebfc4c06ccf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/RoundtableSpace/status/2066630815950258246"
     },
     {
@@ -552,6 +582,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic’s annualized sales have climbed to nearly $50 billion, giving it new leverage over business customers. \n\nSome of those same customers now fear they are paying Anthropic to build products that compete with them. \n\nFull story: https://thein.fo/43wKrWU",
+      "text_zh": "Anthropic的年化销售额已攀升至近500亿美元，使其在与企业客户的谈判中获得了新的筹码。\n\n而部分客户如今担心，他们正在为Anthropic开发与自己竞争的产品买单。\n\n完整报道：https://thein.fo/43wKrWU",
+      "text_zh_hash": "767c23ffa8b89731",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/theinformation/status/2066513583593103619"
     },
     {
@@ -673,6 +706,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Working on my first X article in a while, which I'll publish sometime this summer, along with some exciting updates.",
+      "text_zh": "正在撰写我许久以来的第一篇X文章，计划今年夏天发布，同时还会带来一些令人兴奋的更新。",
+      "text_zh_hash": "60f3b2c0f2e340b2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zackbshapiro/status/2066547327767093370"
     },
     {
@@ -767,6 +803,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Interesting customers https://t.co/aqAcDyxFsW",
+      "text_zh": "有趣的客户 https://t.co/aqAcDyxFsW",
+      "text_zh_hash": "763caaeeebb2b03e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/daleverett/status/2066756366161871042"
     },
     {
@@ -864,6 +903,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Turns out lots of things are log shaped!\n\nhttps://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications https://t.co/0iTaNWP6mC",
+      "text_zh": "原来很多事物都是日志形状的！\n\nhttps://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications https://t.co/0iTaNWP6mC",
+      "text_zh_hash": "07617e7e7348e242",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_heyglassy/status/2066406457483182148"
     },
     {
@@ -907,6 +949,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A sharp read on where AI product opportunities are moving.\n\nThe next wave won’t only be better models. It will be control planes, open workflows, model-agnostic tools, private deployment, and portable creative systems.\n\nOpen Design is built around that shift.",
+      "text_zh": "关于AI产品机会走向的精准解读。\n\n下一波浪潮将不仅仅是更优的模型。它将涉及控制平面、开放工作流、模型无关工具、私有化部署以及可移植的创意系统。\n\n开放设计正是围绕这一转变而构建的。",
+      "text_zh_hash": "5db91590101125a7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/OpenDesignHQ/status/2066812274044498133"
     },
     {
@@ -947,6 +992,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fragments: enjoying programming with LLMs, four types of LLM conversation, the crevasse between AI enthusiasts and skeptics, AI companies get product/market fit, the need for decentralization\n\nhttps://martinfowler.com/fragments/2026-06-16.html",
+      "text_zh": "## 片段\n\n- 享受与LLM一起编程\n- 四种LLM对话类型\n- AI爱好者与怀疑者之间的鸿沟\n- AI公司找到产品/市场契合点\n- 去中心化的必要性\n\nhttps://martinfowler.com/fragments/2026-06-16.html",
+      "text_zh_hash": "0ec79da3846da2cb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/martinfowler/status/2066774695773446390"
     },
     {
