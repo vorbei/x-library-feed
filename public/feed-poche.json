@@ -98294,7 +98294,7 @@
       "x_status_id": "1957910550169678015"
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.microdot.vision/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fztllbc7c%2Fproduction%2F3a77ac2976a56d7f6d8633f9f80a00d7af69cd0d-600x480.png%3Ffm%3Dwebp%26fit%3Dmax&w=1200&q=75",
         "https://cdn.sanity.io/images/ztllbc7c/production/c76f2165cb11d408fa4a7f2dd50cacf3d35b7715-592x480.png?fm=webp&fit=max",
@@ -98340,7 +98340,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://agents.md/og.png",
         "https://agents.md/logos/vscode-light.svg?dpl=dpl_E2fLzMN1SaDN343v8ioZ2ncSYJWv",
@@ -98476,7 +98476,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.paradigmai.com/assets/share.png"
       ],
@@ -98603,7 +98603,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://brand.base.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmessaging.094ut6n5bb_xe.png&w=3840&q=75",
         "https://brand.base.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcore.0hruehdcqr8j1.png&w=3840&q=75",
@@ -98729,10 +98729,12 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/TuYDKcy8KTUNSLduYUtgnunKxMc.jpg",
-        "https://framerusercontent.com/images/2JnRxYnkDk5MaTYg8teQesDOw.webp?width=1500&height=2008",
+        "https://framerusercontent.com/images/Hs1mLec6u0qqCZK3eqHwBZ6E8s.webp?width=1061&height=1197",
+        "https://framerusercontent.com/images/Asw5WZFj9kvxHE7vP7kZ39qoQs.webp?width=1500&height=2008",
+        "https://framerusercontent.com/images/cGEPXxWRDcEujg0xK7s5cAbREes.jpeg?width=1152&height=2048",
         "https://framerusercontent.com/images/vtJcE7AvRBFDmttOGlF2IMMzYNY.png?width=250&height=308",
         "https://framerusercontent.com/images/58cA8jJVR0p7EO3GhmB8YtUxKY.png?width=1024&height=1024",
         "https://framerusercontent.com/images/1DM4ID2rF8mr83Y6ltZjxTO9A.png?width=630&height=800",
@@ -98920,10 +98922,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://distill.id/assets/og.png",
-        "https://distill.id/assets/brochure/video-preview.jpg",
         "https://distill.id/assets/brochure/hero-10.png",
         "https://distill.id/assets/previews/frame.png",
         "https://distill.id/assets/robot.png"
@@ -98962,7 +98963,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://images.prismic.io/pleasecallmechamp/Z-q0nXdAxsiBwIcL_OG-Image.webp?auto=format,compress&w=1200&h=630"
       ],
@@ -99002,7 +99003,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/EPv8s2TUmkEGRBI8nE36wxWoM.png",
         "https://framerusercontent.com/images/7JC86cGXXqUqGdubMfOaTuKkA0.png?scale-down-to=512&width=658&height=444",
@@ -99096,7 +99097,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://freight.cargo.site/w/1000/i/M2276223028314406375720062970672/blik_web_preview.png"
       ],
@@ -99133,7 +99134,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://geoffreymarktaylor.com/wp-content/uploads/2025/09/Geoffrey-Mark-Taylor_Sense-Check_03_processed_by_imagy.webp",
         "https://geoffreymarktaylor.com/wp-content/uploads/2025/09/Geoffrey-Mark-Taylor_Sense-Check_14_B_thumb.webp",
@@ -99182,7 +99183,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/66b9f15bcb5274b1ff92ec6f/66d84f8b5c4433ab9bb45a15_slide-black.png",
         "https://cdn.prod.website-files.com/66b9f15bcb5274b1ff92ec6f/69035d790e4b4978fd5ecc89_website-weld12.jpg",
@@ -99539,7 +99540,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/0z1l94ef/production/e44441d524a4c4e5295d8f0f358a4906647de98d-1400x1400.png",
         "https://cdn.sanity.io/images/0z1l94ef/production/e2ca86cde2c6f0b1d88cff3496ab8c568596099e-8000x4500.jpg?w=2880&q=90&auto=format",
@@ -99829,7 +99830,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_title_extracted": "CRI | Defining spaces",
       "category": "Other",
       "created_at": "2025-06-09T10:47:43.767823Z",
@@ -99864,7 +99865,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_title_extracted": "ch.at",
       "category": "Other",
       "created_at": "2025-08-12T05:54:10.103899Z",
@@ -99896,7 +99897,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://antinote.io/images/appicon.png",
         "https://antinote.io/images/logos/theverge.png",
@@ -100195,12 +100196,13 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
       "article_image_urls": [
         "https://daybreak.studio/og-image.png"
       ],
+      "article_text": "Home Work Writing Design that feels right. Tech that works well. Instagram Twitter LinkedIn Daybreak Studio © 2025",
       "article_title_extracted": "Adaline | Daybreak Studio",
       "category": "Design",
+      "cleaner_v": 2,
       "created_at": "2025-08-08T01:58:22.408778Z",
       "description": "Explore our 2 projects with Adaline",
       "domain": "www.daybreak.studio",
@@ -100276,7 +100278,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/fzjkr1k3/staging/73d80316d2d70b8c95891f33f36acaa76a1f02a3-1200x630.jpg?w=1200",
         "https://pioneer.fin.ai/_next/image?url=%2Fimg%2Ffullstream-placeholder.webp&w=3840&q=75",
@@ -100519,7 +100521,7 @@
       "x_status_id": "1951422361724436667"
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "http://getbrick.com/cdn/shop/files/brick-desk-social.jpg?v=1760024894",
         "https://getbrick.com/cdn/shop/files/brick-grey-2412312_da33aa3a-d194-4ab0-83b4-d5f4b46bb71a.webp?v=1778254826&width=140",
@@ -100698,20 +100700,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://town.com/images/brand/og/home-opengraph.png",
         "https://px.ads.linkedin.com/collect/?pid=8031172&fmt=gif",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fglobal%2Fbanner-character.webp&w=256&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fglobal%2Fbanner-character.webp&w=256&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
         "https://www.town.com/images/brand/home/cycle/1.webp",
         "https://www.town.com/images/brand/home/townies/previews/bud.webp",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fbud.webp&w=640&q=90&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Felle-norm.jpg&w=3840&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Felle.webp&w=128&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Fchris.webp&w=128&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fchris-min.jpg&w=3840&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Famy.webp&w=128&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK",
-        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Famy-theo.jpg&w=3840&q=75&dpl=dpl_E9RnWGqy9kFZ1tbzyH2VyL6w37eK"
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fbud.webp&w=640&q=90&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Felle-norm.jpg&w=3840&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Felle.webp&w=128&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Fchris.webp&w=128&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Fchris-min.jpg&w=3840&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Fproduct-section-avatars%2Famy.webp&w=128&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N",
+        "https://www.town.com/_next/image?url=%2Fimages%2Fbrand%2Fhome%2Ftownies%2Famy-theo.jpg&w=3840&q=75&dpl=dpl_EPzQTBbqbUYgHncXkMDdLwy2Yu3N"
       ],
       "article_title_extracted": "Town | The AI Assistant That Does the Work",
       "category": "Design",
@@ -100872,7 +100874,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png"
       ],
@@ -100909,7 +100911,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "http://static1.squarespace.com/static/6525740e9b18d92442e0fabc/t/657074227a8d5b2309f398ca/1701868578495/Artboard+1simple.png?format=1500w",
         "https://images.squarespace-cdn.com/content/v1/6525740e9b18d92442e0fabc/029d4ba7-6d8f-4674-a4a0-87c3e1ecc24f/Artboard+1simple.png?format=1500w",
@@ -100958,7 +100960,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://laravel.com/images/cloud/og/cloud.png",
         "https://laravel.com/images/cloud/logos/elastic-white.svg",
@@ -101009,7 +101011,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_title_extracted": "Creme",
       "category": "Media",
       "created_at": "2025-08-01T04:29:33.690650Z",
@@ -101082,9 +101084,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/ba081c4eab7516c9aa80fa3a66545b23b0107253c9e7e84b6f165572cc85f8a8/google/langextract",
+        "https://opengraph.githubassets.com/5a7820015caec5c92640855513f299909ea8815d07aca115b3d29d9609b47926/google/langextract",
         "https://raw.githubusercontent.com/google/langextract/main/docs/_static/logo.svg",
         "https://camo.githubusercontent.com/ec4faf4cff274784c4a1d3fdef978a21a911abb7bbe06e64c5283a0ad9a8afd8/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6c616e67657874726163742e737667",
         "https://camo.githubusercontent.com/c47bd46dd8c1e8c5ebde9fa9b19ca9444f2536a66ac86f87c7a735039bc57750/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f676f6f676c652f6c616e67657874726163742e7376673f7374796c653d736f6369616c266c6162656c3d53746172",
@@ -101128,7 +101130,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/67a1ecdeefb852d8b36454cf/67ced07b2c43c1a5ddfb09af_stack-og-home.jpg",
         "https://cdn.prod.website-files.com/67d421014f563b70d4bf34d7/67d421014f563b70d4bf355e_home-about-1.avif",
@@ -101206,11 +101208,11 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a0742c2032ddc0c6f4f96a5_og-image-split-m.jpg",
         "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69ca8c42c03290b86ed72c17_nav_talkin-taco.avif",
-        "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a19b4c0b13b5bf33b75443e_ashley-lee-full.avif",
+        "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a2b35973921a6af3458d117_hillcrust-pizza.avif",
         "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69ca8c4249612bc3e209ac26_nav_gradient-blue.avif",
         "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e1457c9105d068dca8dfbf_series-c_hero.jpg",
         "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d2e0dd1ef87a76018e6c8c_72874c8877deb022dd35906d595c09ff_karv.jpg",
@@ -101257,7 +101259,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://freight.cargo.site/i/e74ab652b0007e6dc6f2c0a81d149b3063e0860fec7a8e7f80889e8d8a877071/TrabuccoCampos-Home_2023.jpg"
       ],
@@ -101666,7 +101668,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://inkwell.tech/og.jpg"
       ],
@@ -101742,7 +101744,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://static.observablehq.com/assets/marketing/meta/og-image-250804.png",
         "https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg",
@@ -101922,7 +101924,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_fetch_error": "HTTP Error 404: Not Found",
       "category": "Tools",
       "created_at": "2025-07-25T10:35:17.401953Z",
@@ -101959,7 +101961,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.thebrowser.company/?auto=format&q=100&w=1200&format=png",
         "https://cdn.sanity.io/images/e5fj2khm/bcny/e3b28cd658873bc9747b22657d2e9d65f63b88a2-1200x630.png?auto=format&q=100&w=1200&format=png"
@@ -102053,7 +102055,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://mindless-toys.com/cdn/shop/files/methaphone_green_glass_{width}x.jpg?v=1751677143",
         "https://mindless-toys.com/cdn/shop/files/methaphone_green_glass_600x600@2x.jpg?v=1751677143",
@@ -102104,7 +102106,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/e5fj2khm/production/b04142c9c497f827215ce0576354f7fac5cb5ab8-2400x1260.png?auto=format&q=100&w=1200&h=630",
         "https://www.diabrowser.com/images/morning-brief-icon.png",
@@ -102154,7 +102156,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/n40cnr7v/production/293c036a1b18642d861c8c479e233cef0ca0bbb7-2400x1600.jpg?w=1200&auto=format",
         "https://cdn.sanity.io/images/n40cnr7v/production/53e906547b1ff358b56a95036425449a3f374bd7-1620x2025.jpg?w=1024&q=3&fit=clip&auto=format",
@@ -102199,8 +102201,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://blurrbureau.com/wp-content/uploads/2026/03/New-Copy-scaled.png",
         "https://blurrbureau.com/wp-content/themes/blurr/assets/images/blurr-arrow-white.svg",
@@ -102215,7 +102217,7 @@
         "https://blurrbureau.com/wp-content/uploads/2024/06/BlurrBureau-Lucia-CaseStudy-Thumbnail-Default-1.png",
         "https://blurrbureau.com/wp-content/uploads/2024/06/BlurrBureau-Lucia-CaseStudy-Thumbnail-Hover.png"
       ],
-      "article_title_extracted": "One moment, please...",
+      "article_title_extracted": "Blurr Bureau",
       "category": "Design",
       "created_at": "2025-06-17T01:37:34.431330Z",
       "description": "As your strategic and creative partner, our global network builds brands connected through purpose and profit. We balance logic and emotion. We uncover powerful brand ideas built on empathetic strategy. Whether you’re an ambitious founder, leading a marketing team, or a brand looking for its next iteration, we help clarify your vision.",
@@ -102252,7 +102254,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/MlHFdoiFmPHsEqodRZ23Lgk5hU.png",
         "https://framerusercontent.com/images/DxNEaPlQohsUJ3BP8NXUUxZjrbI.png",
@@ -102300,7 +102302,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/680b78a664218f03c0d6cce0/68120ffbe020c8678b41419c_OG%20Image-min%20(1).jpg",
         "https://cdn.prod.website-files.com/680b78a664218f03c0d6cce0/6812a60368c4b112e2c6a4d9_55293b4d83e0d1463b228c99da3388d4_nav-wordmark-dark.svg",
@@ -102351,7 +102353,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_title_extracted": "Yep! Type Foundry — Screen-first typefaces with honest pricing and friendly licensing",
       "category": "Design",
       "created_at": "2025-06-22T05:27:51.020915Z",
@@ -102386,20 +102388,20 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.augmentcode.com/api/og?title=Augment+Code%3A+Agentic+software+development+at+organizational+scale",
-        "https://www.augmentcode.com/augment_code_wordmark.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/adobe.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/mongoDB.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/purestorage.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/dxc.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/ddn.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/tekion.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/snyk.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/moneygram.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/cryptocom.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb",
-        "https://www.augmentcode.com/images/customer-logos/webflow.svg?dpl=dpl_EDZZg9DR2d9rpSFqh8ur2faWsbjb"
+        "https://www.augmentcode.com/augment_code_wordmark.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/adobe.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/mongoDB.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/purestorage.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/dxc.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/ddn.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/tekion.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/snyk.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/moneygram.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/cryptocom.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93",
+        "https://www.augmentcode.com/images/customer-logos/webflow.svg?dpl=dpl_D6taPmk6EcLLDFtti9YqQz1v9o93"
       ],
       "article_title_extracted": "Augment Code: Agentic software development at organizational scale",
       "category": "Development",
@@ -102555,16 +102557,16 @@
       "x_status_id": "1942936692916134262"
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://join.base.app/document/og-image.png",
         "https://join.base.app/images/base-app-icon.png",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-1.86e53da5.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-2.7860f7e0.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-4.56e06591.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-5.8f9c5920.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-6.5b143a8d.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
-        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-7.a6fa7695.png&w=1920&q=100&dpl=dpl_8uGyDFLScuMqy5CE6RWCnDDxEmpQ",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-1.86e53da5.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-2.7860f7e0.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-4.56e06591.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-5.8f9c5920.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-6.5b143a8d.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
+        "https://join.base.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-7.a6fa7695.png&w=1920&q=100&dpl=dpl_9GViFJ6UbsfGvku7DA8vwxwDYuNV",
         "https://join.base.app/images/base-footer-logo-huge.svg",
         "https://join.base.app/images/open-graph.png"
       ],
@@ -102605,7 +102607,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://cdn.cntrl.site/projects/01JXTVBXEJEKGHME83ZW0MEEXR/project-assets/01JY232TB3DPP78P65TWDQ1Q74.jpeg",
         "https://cdn.cntrl.site/projects/01JXTVBXEJEKGHME83ZW0MEEXR/articles-assets/01JXZJ4625B0QMR17G18P4SSMD.webp",
@@ -102691,7 +102693,7 @@
       "x_status_id": "1946297931545665869"
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://opencut.app/open-graph/default.jpg",
         "https://opencut.app/logos/opencut/svg/logo.svg?dpl=dpl_7X5zkCs1LD1ofcF5eAZVY5jYWPUx",
@@ -102730,7 +102732,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Y3G8iB693lFsZZjyKFgPxIHkQ8.png",
         "https://framerusercontent.com/images/4S4Ysd4hCL7etc3d58rsvqe0.svg?width=402&height=50",
@@ -102885,7 +102887,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://y-n10.com/assets/images/share.png"
       ],
@@ -102961,7 +102963,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/fTwvD948RG0KKCLCbJRrnRYibX0.png",
         "https://framerusercontent.com/images/Wg68O2AQpni4A6iTSNwg6yNp6o.png?width=720&height=168",
@@ -103009,7 +103011,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://storage.ghost.io/c/e5/51/e5518248-64c6-46dd-941d-a7fd73d59c60/content/images/2024/12/pastel-single-flower-cover.jpg",
         "https://storage.ghost.io/c/e5/51/e5518248-64c6-46dd-941d-a7fd73d59c60/content/images/size/w468/2026/02/cursor-logo-dark.svg",
@@ -103299,7 +103301,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
+      "article_fetch_attempted_at": "2026-06-16T22:34:08.885759Z",
       "article_image_urls": [
         "https://www.thehanokheritage.com/image/main/jpg/img_main_02.jpg",
         "https://www.thehanokheritage.com/image/main/jpg/img_main_03.jpg",
@@ -103403,9 +103405,24 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-09T18:36:03.779958Z",
-      "article_title_extracted": "Manual",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/vvv4zyug/production/d8901af16bb86cd307ce2ee53de586c727352dce-1200x900.jpg?w=1400",
+        "https://cdn.sanity.io/images/vvv4zyug/production/52e898b6c46807d08263de91d6fe928a22e217be-2000x1500.png?w=900&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/f24c6c08c591c9db0c44792daab632a0a8497183-2000x1500.png?w=900&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/2c8e790438370d7182b5273c8232586ac23c2aee-1500x3244.jpg?w=1200&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/23c51b7a5462a97e7902064a71980767a60f1b9e-3000x3000.jpg?rect=0,0,3000,2456&w=2200&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/8aeb4931f6099334264fd2935467ed6ef94b00e8-3000x3586.jpg?w=1200&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/aa191a9201daca8d045ed90d0462fc3a161f7fc3-3000x3000.jpg?w=2400&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/d64e55a1d4ca326882f2b27bd926d0e0659fff35-3000x3000.jpg?w=1200&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/49462d11fb0e8dc0a91ba6846ec67933ffdfb88a-3000x2000.jpg?w=2400&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/a60e0d7dd8391586719084c98f004a36f6574c82-3000x3000.jpg?w=1200&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/d52dd94c3bc0d002a4efddfbaa23791d430bbaa5-3000x2250.jpg?w=2400&q=90&auto=format",
+        "https://cdn.sanity.io/images/vvv4zyug/production/3fb8859b5a38031ae8e83325b52dae0cbfb667f2-1200x1200.jpg?w=1200&q=90&auto=format"
+      ],
+      "article_text": "Work About Journal Workshop Inquiries New case study Waabi Featured case study Obama Foundation New case study New Orbit Because care matters. Care.com Credits Scope Brand Identity Photo Art Direction Illustration Art Direction User Interface Design Print Materials Brand Standards Credits Custom logo refinement: Interval Type Illustrations: Tommy Parker Photography: Collin Hughes Video: Bandits & Friends Care.com: VP Brand & Marketing: Meiling Tan Executive Creative Director: Pete Karacas Introduction Care.com is a platform that helps families find care across children, aging parents, pets, and the home, while helping caregivers find meaningful work. Since 2007, it has served more than 45 million members, becoming a widely recognized name in one of the most essential but often overlooked parts of everyday life. Challenge Despite its scale and relevance, the brand experience had grown dated and narrow. Many people still understood Care.com primarily as a service for babysitters and nannies, rather than a platform supporting the full spectrum of modern care needs. As the company evolved, it needed a brand that could better reflect the emotional reality of care, connect more deeply with both families and caregivers, and express Care.com’s growing role not just as a marketplace, but as a broader advocate and champion for care in all its forms. Insight Care is not a niche service or a simple transaction. It is a deeply personal, emotionally charged part of life, built on trust, vulnerability, and human connection. The opportunity was not simply to modernize Care.com’s identity, but to reframe the brand around a more expansive truth: care is essential infrastructure, and the people who provide it deserve to be seen, valued, and centered. Solution We partnered with Care.com to reimagine the brand from the ground up, creating a more human, emotionally resonant identity and experience. The work was designed to make Care.com feel warmer, more empathetic, and more reflective of the real weight and worth of care in people’s lives. We developed a brand system that reflects the full spectrum of care, from childcare and senior care to pets and the home, helping the platform communicate greater breadth with clarity. Across messaging, photography, illustration, and interface design, the new identity was built to feel both meaningful and practical, balancing emotional storytelling with editorial confidence. Just as importantly, the new brand shifts the center of gravity toward caregivers themselves, recognizing them not simply as service providers, but as essential contributors to family wellbeing and social infrastructure. The system also gives Care.com the flexibility to move between everyday product interactions, brand storytelling, research, and advocacy with greater consistency and authority. The result is a renewed brand vision, identity, and experience that helps Care.com feel more modern, human, and emotionally true to the role it plays in people’s lives. It repositions the company from a useful marketplace to a more resonant and confident champion for care, designed to be seen, heard, and felt by the millions who rely on it every day. Read more 1/8 1/8 Next Project Previous Project New Orbit Unlocking a closer frontier. View All Work Next Project We Folk Representing Creativity. Get in touch Let’s work together Sign up for our newsletter Privacy Policy Terms of Use Cookies Site by Official Business We use cookies to improve your experience and measure site usage. Customize Reject Accept Choose which cookies you allow. Necessary cookies are always on; they keep the site working. Measurement cookies help us understand how the site is used. Necessary Always active Measurement Analytics & usage Reject all Save choices Play",
+      "article_title_extracted": "Care.com | Manual",
       "category": "Design",
+      "cleaner_v": 2,
       "created_at": "2025-07-14T12:32:11.296083Z",
       "description": "",
       "domain": "manualcreative.com",
@@ -103473,5 +103490,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-16T20:16:09.206706Z"
+  "updated_at": "2026-06-16T22:34:33.285477Z"
 }
