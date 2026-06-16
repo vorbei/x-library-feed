@@ -5926,6 +5926,19 @@
       "title": "",
       "url": "http://x.com/i/article/2066650296961335296"
     },
+    "http://x.com/i/article/2066893911600357376": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066893911600357376",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK8f70aasAAm-kK?format=jpg&name=900x900)](http://x.com/jhleath/article/2066905912238023154/media/2066905866528534528)\n\nAgents were built for the $5 VPS\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/jhleath)\n\n[Hunter Leath](http://x.com/jhleath)\n\n[@jhleath](http://x.com/jhleath)\n\n·\n\n2h\n\nFollow\n\nClick to Follow jhleath\n\n1\n\n1\n\n35\n\n[2.3K](http://x.com/jhleath/status/2066905912238023154/analytics)\n\nToday's application and sites are being hosted on tons of serverless platforms, but it's about to become clear that this is the \"MCP\" of the hosting world. Just like we moved from \"MCP\" to file systems, the world will move from serverless platforms back to the \"virtual server\" as the de-facto hosting strategy in the agent era. Let's talk about why.\n\nHow things used to be\n\nBefore all of this \"javascript\" happened, you used to deploy websites and software the old-fashioned way, by installing everything onto a server. LAMP was the name of the game, the best stack to use was Linux (for your OS), Apache (for your webserver), MySQL (for your database), and PHP (for your actual content).\n\n[![Image](https://pbs.twimg.com/media/HK8XHK6aQAAGDLg?format=png&name=small)](http://x.com/jhleath/article/2066905912238023154/media/2066896165942214656)\n\nThe nifty part about these olden times (or the now times if you're \n\n[@levelsio](https://x.com/@levelsio)\n\n) is that everything was really easy. If you wanted to test your application locally, well, you had the files, you could install the same webserver, you could run MySQL, and just see the same results. If you wanted to deploy to the cloud, you would just ... copy your stuff up to the box -- files could use ftp and your database might need to be backed up and restored.\n\nThere was just one box, one place where everything in your cloud lived (okay, maybe you still had a managed database), but you could easily SSH into that box and poke around at ... the server logs, the CPU usage, the request count. There was no external observability stack, the tools that you used to debug regular Linux processes just worked in this world.\n\nThen comes scale\n\nAs time went on, and the great Web 2.0 applications needed to handle more and more traffic, people realized that putting everything on a single-box was a recipe for not being able to grow your site traffic.\n\n* If your database is on one box, how do you grow it past the storage size of that box?\n* If your web server is on one box, how do you allow it to serve an unbounded number of requests per second?\n* If your code is on one box, how do you make it so that's low-latency for people all around the world to access?\n* If you only have one box, what do you do if that box has downtime or needs to be replaced?\n\nThe answer to these problems was, of course, horizontal scaleability. What if these things weren't on a single box, and they were instead fully-managed, highly-available services. They could even be geo-distributed for latency reasons! The region? Earth.\n\nThis was really, really hard to build, and the companies that desperately needed this kind of scale (Facebook, Amazon, Google) spend tremendous amount of resources making them possible. The people who worked at these companies left, realized that building for high-scale was the right thing, and slowly diffused these technologies to developers by making them easier and easier to use -- which leads us to the crop of \"neo-clouds\" that we have today.\n\nThere is just one problem with this story. It used to be the case that you could just SSH into your server and understand the full state of the world. Is it working? Is my database down? Am I burning too much CPU? Why did that request get a 500 error? These were easy to answer on one server, but nearly impossible to answer if your code was running across thousands of an",
+      "title": "",
+      "url": "http://x.com/i/article/2066893911600357376"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -10461,19 +10474,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -12393,34 +12420,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg"
     },
-    "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg"
-    },
-    "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
-    },
     "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13798,14 +13797,14 @@
       "title": "How AI Companies Can Pay Fair Rates for the Content They Need",
       "url": "https://s.hbr.org/3PZZpSc"
     },
-    "https://s.hbr.org/4bHd8oM": {
+    "https://s.hbr.org/40tUlqQ": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "We often hear about the power of personality in shaping our careers — how some traits are beneficial while others are more harmful. But it is less clear when personality traits matter most and who benefits most from them. A recent paper investigates this by looking at the connection between personality traits and lifetime earnings among men at different ages. It finds that men’s earnings are not affected by personality at all in the beginning of their careers, but that men who are more conscientious and extroverted, as well as less agreeable, reap large benefits between their 40s and 60s. The evidence also points to a subgroup of men who benefit from these traits more than twice as much as others: those with a graduate education.",
-      "final_url": "https://hbr.org/2018/04/these-3-personality-traits-affect-what-you-earn-but-only-after-age-40?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "description": "Pressure to speak English in the workplace continues to grow as more and more companies invest in globalizing their teams. However, mastering a new language requires time and resources that many people — especially adults who are no longer in school —struggle to find. EF Education First annually releases the world’s largest study of English proficiency in various countries and industries. They have distilled the lessons they’ve learned through their work and from the literature on second language acquisition into a few tips that highlight how people can learn English more effectively. If you’re a professional looking to improve your business English, consider incorporating these into your learning plan: set specific goals, create study habits, use authentic English materials, and join a positive learning community.",
+      "final_url": "https://hbr.org/2018/07/how-to-improve-your-business-english?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
       "frameable": null,
       "image_urls": [
-        "https://hbr.org/resources/images/article_assets/2018/04/apr18_23_769713155.jpg",
+        "https://hbr.org/resources/images/article_assets/2018/06/jul18-05-142915400-Yagi-Studio.jpg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
@@ -13813,15 +13812,14 @@
         "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg",
+        "https://hbr.org/resources/images/article_assets/2015/06/110-Minh_Tran.jpg",
+        "https://hbr.org/resources/images/article_assets/2016/11/110-Peter_Burman.jpg"
       ],
       "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Compensation and benefits | These 3 Personality Traits Affect What You Earn — but Only After Age 40 Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Compensation and benefits These 3 Personality Traits Affect What You Earn — but Only After Age 40 by Miriam Gensowski April 24, 2018 Donna Grethen/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . We often hear about the power of personality in shaping our careers — how some traits are beneficial while others are more harmful. But it is less clear when personality traits matter most ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print We often hear about the power of personality, and how some traits are beneficial for our careers while others are more harmful. For example, we know that being more conscientious (hard-working, driven, reliable, and organized) is associated with better job performance, and that being nice (more agreeable) does not pay off in wages. But it is less clear when these personality traits matter most for our careers — are they more important earlier on, or in the middle? — and who benefits most from them. Miriam Gensowski is an assistant professor at the Department of Economics of the University of Copenhagen. She obtained her PhD at the University of Chicago. She studies the origins and consequences of human inequality, at the intersection of applied micro economics and personality psychology. Post Post Share Save Get PDF Buy Copies Print Read more on Compensation and benefits or related topics Economics , Managing yourself and Age and generational issues Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Busi",
-      "text_excerpt_zh": "薪酬与福利 | 这3种人格特质影响你的收入——但仅在40岁之后\n\n订阅 登录\n\n最新 杂志 话题 播客 商店 阅读清单 数据与可视化 案例精选 HBR高管 哈佛商业评论官网\n\n订阅 最新 播客 杂志 网络研讨会 新闻通讯 所有话题 阅读清单 数据与可视化 案例精选 HBR高管 我的图书馆 账户设置 登录\n\n探索HBR 最新 杂志 播客 商店 网络研讨会 新闻通讯 热门话题 管理自我 领导力 战略 管理团队 性别 创新 工作与生活平衡 所有话题 订阅用户专属 阅读清单 数据与可视化 案例精选 HBR高管 订阅 我的账户 我的图书馆 话题订阅 订单 账户设置 邮件偏好 登录\n\n薪酬与福利\n\n这3种人格特质影响你的收入——但仅在40岁之后\n\n作者：Miriam Gensowski  \n2018年4月24日\n\nDonna Grethen/Getty Images\n\n发布 发布 分享 保存 获取PDF 购买副本 打印\n\n摘要：我们常听说人格在塑造职业生涯方面的力量——某些特质有益，而另一些则有害。但人格特质何时影响最大尚不明确……\n\n阅读西班牙语版 阅读葡萄牙语版\n\n发布 发布 分享 保存 获取PDF 购买副本 打印\n\n我们常听说人格的力量，以及某些特质如何有益于职业生涯，而另一些则有害。例如，我们知道更尽责（勤奋、有动力、可靠、有条理）与更好的工作表现相关，而更随和（更宜人）在工资上并不划算。但尚不明确的是，这些人格特质在职业生涯中何时影响最大——是在早期更重要，还是在中期？——以及谁从中受益最多。\n\nMiriam Gensowski是哥本哈根大学经济系助理教授。她在芝加哥大学获得博士学位。她研究人类不平等的起源与后果，处于应用微观经济学与人格心理学的交叉领域。\n\n发布 发布 分享 保存 获取PDF 购买副本 打印\n\n阅读更多关于薪酬与福利的内容，或相关话题：经济学、管理自我、年龄与代际问题\n\n合作伙伴中心\n\n开始订阅！\n\n探索HBR 最新 所有话题 杂志档案 阅读清单 案例精选 HBR高管 播客 网络研讨会 数据与可视化 我的图书馆 新闻通讯 HBR出版社 HBR商店 文章重印 书籍 案例 合集 杂志期号 HBR指南系列 HBR20分钟经理 HBR情商系列 HBR必读 工具 关于HBR 联系我们 广告合作 书商/零售商信息 编委会 全球版本 媒体垂询 作者指南 HBR分析服务 版权许可 无障碍 数字无障碍\n\n管理我的账户 我的图书馆 话题订阅 订单 账户设置 邮件偏好 帮助中心 联系客服\n\n探索HBR 最新 所有话题 杂志档案 阅读清单 案例精选 HBR高管 播客 网络研讨会 数据与可视化 我的图书馆 新闻通讯 HBR出版社 HBR商店 文章重印 书籍 案例 合集 杂志期号 HBR指南系列 HBR20分钟经理 HBR情商系列 HBR必读 工具 关于HBR 联系我们 广告合作 书商/零售商信息 编委会 全球版本 媒体垂询 作者指南 HBR分析服务 版权许可 无障碍 数字无障碍\n\n管理我的账户 我的图书馆 话题订阅 订单 账户设置 邮件偏好 帮助中心 联系客服\n\n关注HBR Facebook X Corp. LinkedIn Instagram 您的新闻阅读器\n\n关于我们 招聘 隐私政策 Cookie政策 版权信息 商标政策 使用条款 哈佛商业出版：高等教育 企业学习 哈佛商业评论 哈佛商学院\n\n版权所有 © 2026 哈佛商学院出版公司。保留所有权利。哈佛商业出版是哈佛商学院的附属机构。",
-      "text_excerpt_zh_hash": "a2e992561567b6b6",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "These 3 Personality Traits Affect What You Earn — but Only After Age 40",
-      "url": "https://s.hbr.org/4bHd8oM"
+      "text_excerpt": "SKIP TO CONTENT Business education | How to Improve Your Business English Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Business education How to Improve Your Business English by Minh Tran and Peter Burman July 4, 2018 yagi studio/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . Pressure to speak English in the workplace continues to grow as more and more companies invest in globalizing their teams. However, mastering a new language requires time and resources that many ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Chun Hin is a senior manager at a Hong Kong investment bank. Every morning, he listens to Bloomberg radio on his way to work and used to read each issue of the Economist from cover to cover in an effort to continuously improve his English. As a Hong Kong native who grew up speaking Cantonese and Mandarin, Chun Hin has worked hard to become fluent in English. Minh Tran is Director of Research and Partnerships for EF Education First and a member of the team that launched the EF Standard English Test . Peter Burman is president of EF Corporate Solutions . Post Post Share Save Get PDF Buy Copies Print Read more on Business education or related topics International business and Business communication Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
+      "title": "How to Improve Your Business English",
+      "url": "https://s.hbr.org/40tUlqQ"
     },
     "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/": {
       "cleaner_v": 2,
@@ -14112,6 +14110,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
+    },
+    "https://thein.fo/3QmsS8M": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://thein.fo/3QmsS8M",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://thein.fo/3QmsS8M"
     },
     "https://thein.fo/43wKrWU": {
       "content_type": "",
@@ -20312,18 +20324,19 @@
     ],
     "2066504822887751897": [
       "https://x.com/VizierPrime/status/2066504822887751897",
-      "http://x.com/i/article/2066457362656083968",
-      "https://x.com/VizierPrime/status/2066751246862823611"
+      "http://x.com/i/article/2066457362656083968"
     ],
     "2066513583593103619": [
       "https://x.com/theinformation/status/2066513583593103619",
       "https://thein.fo/43wKrWU",
-      "https://x.com/theinformation/status/2066630693493383656",
-      "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
+      "https://x.com/theinformation/status/2066891067388047561",
+      "https://thein.fo/3QmsS8M"
     ],
     "2066522716379779124": [
       "https://x.com/sidpalas/status/2066522716379779124",
-      "https://x.com/sidpalas/status/2066664757277466965"
+      "https://x.com/sidpalas/status/2066664757277466965",
+      "https://x.com/sidpalas/status/2066897078022742428",
+      "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg"
     ],
     "2066524627585634765": [
       "https://x.com/samueljmcd/status/2066524627585634765",
@@ -20349,7 +20362,8 @@
     ],
     "2066536915726184775": [
       "https://x.com/rhackett/status/2066536915726184775",
-      "http://x.com/i/article/2065528640326995968"
+      "http://x.com/i/article/2065528640326995968",
+      "https://x.com/rhackett/status/2066906591828258879"
     ],
     "2066537531227943101": [
       "https://x.com/termsheetinator/status/2066537531227943101",
@@ -20377,8 +20391,8 @@
     "2066556847390064721": [
       "https://x.com/HarvardBiz/status/2066556847390064721",
       "https://s.hbr.org/3PZZpSc",
-      "https://x.com/HarvardBiz/status/2066729984006238239",
-      "https://s.hbr.org/4bHd8oM"
+      "https://x.com/HarvardBiz/status/2066855561337958753",
+      "https://s.hbr.org/40tUlqQ"
     ],
     "2066558169741173177": [
       "https://x.com/crtr0/status/2066558169741173177",
@@ -20395,8 +20409,8 @@
     "2066573973580665107": [
       "https://x.com/theinformation/status/2066573973580665107",
       "https://thein.fo/4fD7Yww",
-      "https://x.com/theinformation/status/2066630693493383656",
-      "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
+      "https://x.com/theinformation/status/2066891067388047561",
+      "https://thein.fo/3QmsS8M"
     ],
     "2066574083060531420": [
       "https://x.com/harvey/status/2066574083060531420",
@@ -20414,6 +20428,7 @@
       "http://x.com/i/article/2065812852347428864",
       "https://x.com/qinzytech/status/2066641487207841944",
       "https://x.com/qinzytech/status/2066641583727095857",
+      "https://x.com/qinzytech/status/2066943700018803025",
       "https://x.com/qinzytech/status/2066641438415491179"
     ],
     "2066585638405849114": [
@@ -20423,14 +20438,12 @@
     "2066593299771605264": [
       "https://x.com/engadget/status/2066593299771605264",
       "https://www.engadget.com/2194626/anthropic-hit-with-lawsuit-over-its-claude-max-usage-limits/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781549193",
-      "https://x.com/engadget/status/2066662416415338817",
-      "https://www.engadget.com/2194941/xbox-closing-ninja-theory-double-fine-compulsion-game-studios/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781565654"
+      "https://x.com/engadget/status/2066924584926876057",
+      "https://www.engadget.com/2195464/its-time-to-dump-roku/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781628091"
     ],
     "2066593705906012188": [
       "https://x.com/CobusGreylingZA/status/2066593705906012188",
-      "http://x.com/i/article/2066589651532492800",
-      "https://x.com/CobusGreylingZA/status/2066608158370656537",
-      "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg"
+      "http://x.com/i/article/2066589651532492800"
     ],
     "2066595308629594363": [
       "https://x.com/addyosmani/status/2066595308629594363",
@@ -20451,8 +20464,7 @@
     ],
     "2066623996964352011": [
       "https://x.com/MichLieben/status/2066623996964352011",
-      "http://x.com/i/article/2062463044962152448",
-      "https://x.com/MichLieben/status/2066516406204784761"
+      "http://x.com/i/article/2062463044962152448"
     ],
     "2066625875622129767": [
       "https://x.com/ericosiu/status/2066625875622129767",
@@ -20512,7 +20524,8 @@
     ],
     "2066719248278241591": [
       "https://x.com/haydenfield/status/2066719248278241591",
-      "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5DR3JOaXJpcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk1MDQxMi9hbnRocm9waWMtdHJ1bXAtYWRtaW5zdHJhdGlvbi1jbGF1ZGUtbXl0aG9zLWZhYmxlLTUtZXhwb3J0LWNvbnRyb2xzIiwiZXhwIjoxNzgyMDExMjAzLCJpYXQiOjE3ODE1NzkyMDN9.x_XtrIeslRQdG1BuTGJ37Hb6KfbFLttT-8hoL8to7mc&utm_medium=gift-link"
+      "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5DR3JOaXJpcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk1MDQxMi9hbnRocm9waWMtdHJ1bXAtYWRtaW5zdHJhdGlvbi1jbGF1ZGUtbXl0aG9zLWZhYmxlLTUtZXhwb3J0LWNvbnRyb2xzIiwiZXhwIjoxNzgyMDExMjAzLCJpYXQiOjE3ODE1NzkyMDN9.x_XtrIeslRQdG1BuTGJ37Hb6KfbFLttT-8hoL8to7mc&utm_medium=gift-link",
+      "https://x.com/haydenfield/status/2066869959788015749"
     ],
     "2066740048196665527": [
       "https://x.com/Yonah_x/status/2066740048196665527"
@@ -20538,15 +20551,20 @@
     ],
     "2066812274044498133": [
       "https://x.com/OpenDesignHQ/status/2066812274044498133",
-      "https://x.com/OpenDesignHQ/status/2066513682545225980",
-      "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
+      "https://x.com/OpenDesignHQ/status/2066862314041557311",
+      "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
     ],
     "2066816324936904903": [
       "https://x.com/zaimiri/status/2066816324936904903",
       "http://x.com/i/article/2066476604801396736",
       "https://x.com/zaimiri/status/2066816746065961318"
+    ],
+    "2066905912238023154": [
+      "https://x.com/jhleath/status/2066905912238023154",
+      "http://x.com/i/article/2066893911600357376",
+      "https://x.com/jhleath/status/2066907527481274752"
     ]
   },
-  "updated_at": "2026-06-16T13:04:13Z",
+  "updated_at": "2026-06-16T18:09:39Z",
   "window": "recent"
 }
