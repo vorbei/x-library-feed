@@ -5281,6 +5281,19 @@
       "title": "",
       "url": "http://x.com/i/article/2065526984328056832"
     },
+    "http://x.com/i/article/2065528640326995968": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2065528640326995968",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HKpNShcXEAI_IYs?format=jpg&name=small)](http://x.com/rhackett/article/2066536915726184775/media/2065548359713099778)\n\nThe AI ownership rush\n\n[![](https://pbs.twimg.com/profile_images/1842211432064077824/v1yfEbIO_normal.jpg)](http://x.com/rhackett)\n\n[Robert Hackett![](https://pbs.twimg.com/profile_images/1582168997134422016/HcmVyKwV_bigger.jpg)](http://x.com/rhackett)\n\n[@rhackett](http://x.com/rhackett)\n\n·\n\n22h\n\nFollow\n\nClick to Follow rhackett\n\n4\n\n24\n\n[2.3K](http://x.com/rhackett/status/2066536915726184775/analytics)\n\nOne of the more interesting side effects of the AI boom is the scramble to own pieces of it. \n\nPeople crave ownership. Over the last few years, investors have poured money into SPVs that promise exposure to private companies. Secondary markets for startup shares have exploded. More recently, crypto traders have even experimented with pre-IPO perpetual futures tied to companies that don’t yet trade publicly. \n\nThe market keeps inventing new instruments and routing around barriers because demand is insatiable. People want in…even when the ownership itself is synthetic or uncertain. \n\n## \n\nThe bigger picture\n\nTo make sense of this phenomenon, I keep returning to Chris Dixon’s \n\n[framework](https://a16zcrypto.com/posts/article/read-write-own-intro/)\n\n for the evolution of the internet. (I edited his \n\n[book](https://readwriteown.com/)\n\n on the subject.) In his model, the first era was “read,” the second was “write,” and the third — now clawing itself into existence, notably through the recent proliferation of equity-approximating workaround attempts — is “own.” \n\nIn plainer English: The internet democratized access to information (read), then democratized the ability to create and publish it (write). The next step is to democratize ownership: giving users direct economic rights in the networks and services they use. Crypto networks are one of the clearest and longest-standing expressions of the “own” era. \n\nToday, the framework illuminates what’s happening in AI.\n\n## \n\nAI is peak read/write era\n\nThe “read” era made information accessible. The “write” era made creation accessible. AI supercharges the core capabilities of the read/write web and extends them to machines. Large language models read and write text. Diffusion models read and write images. Agents read the world and write actions back into it. \n\nIn this way, AI is not a break from the internet’s trajectory. It is the logical conclusion of the read/write era: thirty years of relentlessly driving down the cost of reading, writing, and manipulating information, consummated at last in software. This view helps explain the current financial frenzy, especially as a wave of AI mega-listings approaches. The rush into SPVs, secondaries, and synthetic derivatives reflects pent-up demand for ownership boiling over. \n\nPeople don’t just want to use new technologies. They want to own them. \n\nMany describe artificial intelligence as the next phase of the internet. Another view is that it represents the height of the previous one, the fullest expression of the read/write era. The scramble to own it is among the clearest signals that the own era is breaking loose and smashing its way through.\n\n* [![](https://pbs.twimg.com/profile_images/1842211432064077824/v1yfEbIO_normal.jpg)](http://x.com/rhackett)  \n[Robert Hackett![](https://pbs.twimg.com/profile_images/1582168997134422016/HcmVyKwV_bigger.jpg)](http://x.com/rhackett)  \n[@rhackett](http://x.com/rhackett)  \nFollow  \nClick to Follow rhackett  \nintercomputer realist  \n[@a16zcrypto](http://x.com/a16zcrypto)  \n / editor [https://readwriteown.com](https://t.co/fGE7XDg0zW) / cofounder  \n[@FortuneCrypto](http://x.com/FortuneCrypto)  \n / writing a book with  \n[@Tim\\_Org](http://x.com/Tim%5FOrg)",
+      "title": "",
+      "url": "http://x.com/i/article/2065528640326995968"
+    },
     "http://x.com/i/article/2065547821441265664": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5654,6 +5667,19 @@
       "title": "",
       "url": "http://x.com/i/article/2066412682803322880"
     },
+    "http://x.com/i/article/2066434727804821504": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066434727804821504",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK13vsYW8AAX_7R?format=jpg&name=900x900)](http://x.com/0x%5Frody/article/2066440807247159623/media/2066439465283809280)\n\nHow to Build a Team of Claude Code Agents That Never Conflict (Exact Setup Inside) \n\n[![](https://pbs.twimg.com/profile_images/2041947351120572416/4IBmZ3QT_normal.jpg)](http://x.com/0x%5Frody)\n\n[rody](http://x.com/0x%5Frody)\n\n[@0x\\_rody](http://x.com/0x%5Frody)\n\n·\n\nJun 15\n\nFollow\n\nClick to Follow 0x\\_rody\n\n1\n\n20\n\n88\n\n[92K](http://x.com/0x%5Frody/status/2066440807247159623/analytics)\n\nYou run 3 agents at once and they fight over the same file, overwrite each other's work, and hand you a merge disaster.\n\nThe fix is giving each one its own lane: scoped folders, a lock file, and a merge order.\n\nSet it up once and parallel agents actually save time instead of eating your afternoon.\n\nHere's the full setup 👇\n\n[![Image](https://pbs.twimg.com/media/HK10CKlXwAANlI9?format=jpg&name=small)](http://x.com/0x%5Frody/article/2066440807247159623/media/2066435384582586368)\n\n## \n\nWhy parallel agents collide\n\nTwo agents at once feels like double the speed, right up until both reach for utils.ts at the same second. One saves, the other saves on top, and an hour of work just vanished.\n\nIt's not the agents' fault. Nobody told them who owns what, so each one treats the whole codebase as its own and grabs whatever file it needs.\n\nWhat they're missing is boundaries. Give each agent its own territory, a way to call dibs on shared files, and an order for merging. That's the 3 files below.\n\n[![Image](https://pbs.twimg.com/media/HK13AS_WkAAjPFJ?format=jpg&name=small)](http://x.com/0x%5Frody/article/2066440807247159623/media/2066438651014189056)\n\n## \n\nPart 1: scoped folders, one owner per area\n\nThe cleanest fix is to never let two agents into the same code. Give each agent a folder it owns. Put this in CLAUDE.md:\n\nmarkdown\n\n```markdown\n## Agent territories\nWhen running agents in parallel, each owns one area and only edits there:\n\n- frontend-agent: owns src/components/, src/pages/\n- backend-agent:  owns src/api/, src/services/\n- test-agent:     owns tests/\n\nNo agent edits outside its territory. If a task needs a change\nin another agent's area, it writes a note in handoff.md instead\nof editing directly.\n```\n\nMost conflicts disappear here. Two agents can run full speed in parallel because they physically can't touch the same files. \n\nThe shared handoff.md is where cross-area requests go, so nothing gets edited by surprise.\n\n## \n\nPart 2: a lock file for the shared code\n\nSome files everyone needs: types, config, shared utils. For those, a simple lock. Drop into .claude/hooks/lock.sh:\n\nbash\n\n```bash\n#!/usr/bin/env bash\nfile=\"$1\"\nlockdir=\".claude/locks\"\nmkdir -p \"$lockdir\"\nlock=\"$lockdir/$(echo \"$file\" | tr '/' '_').lock\"\n\nif [ -f \"$lock\" ]; then\n  owner=$(cat \"$lock\")\n  echo \"🔒 $file is locked by $owner. Write a note in handoff.md instead.\"\n  exit 1\nfi\necho \"${CLAUDE_AGENT_NAME:-agent}\" > \"$lock\"\n```\n\nWire it to fire before edits in settings.json:\n\njson\n\n```json\n{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Edit(src/types/*)|Edit(src/config/*)\",\n        \"hooks\": [\n          { \"type\": \"command\", \"command\": \"bash .claude/hooks/lock.sh \\\"$file\\\"\" }\n        ]\n      }\n    ]\n  }\n}\n```\n\nFirst agent to a shared file claims it. The second gets told to wait and leave a note instead of overwriting. \n\nClear the locks between runs with rm .claude/locks/\\*.lock.\n\n## \n\nPart 3: the merge order\n\nEven with territories, branches have to come back together in the right order. Drop into .claude/merge-order.md:\n\nmarkdown\n\n```markdown\n## Merge order for parallel work\nAlways merge in this order, never alphabetically or by who finished first:\n\n1. backend-agent  (types and APIs others depend on)\n2. frontend-agent (consumes the backend)\n3. test-agent     (tests the merged result last)\n\nRule: merge the",
+      "title": "",
+      "url": "http://x.com/i/article/2066434727804821504"
+    },
     "http://x.com/i/article/2066435928739217408": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5733,6 +5759,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066476107407532032"
+    },
+    "http://x.com/i/article/2066476604801396736": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066476604801396736",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK2fD_IWEAAwlQc?format=jpg&name=900x900)](http://x.com/zaimiri/article/2066816324936904903/media/2066482694867783680)\n\nMasterclass: AI Skills (Full Guide with Prompts)\n\n[![](https://pbs.twimg.com/profile_images/2062123622039212032/ib80A1Gy_normal.jpg)](http://x.com/zaimiri)\n\n[zaimiri](http://x.com/zaimiri)\n\n[@zaimiri](http://x.com/zaimiri)\n\n·\n\n3h\n\nFollow\n\nClick to Follow zaimiri\n\n6\n\n1\n\n33\n\n[2.2K](http://x.com/zaimiri/status/2066816324936904903/analytics)\n\nWhat are AI Skills?\n\nHow do you use them?\n\nCan they really change your life? (yes, they can)\n\nMost people are still using AI like a chatbox.\n\nOpen a new conversation.\n\nPaste the same context.\n\nExplain the same rules.\n\nCorrect the same mistakes.\n\nAsk for the same output.\n\nThen do it again tomorrow.\n\nThat is fine when you are experimenting.\n\nIt is a terrible way to run repeated work.\n\nThe next jump is not a better prompt library.\n\nIt is skills.\n\nAn AI skill is a reusable procedure your agent can load when a task matches.\n\nNot one magic prompt.\n\nNot a personality preset.\n\nNot a folder of vague instructions.\n\nA real skill tells the agent:\n\n* when to use it\n* what inputs it needs\n* what steps to follow\n* what tools or files matter\n* what examples to copy\n* what mistakes to avoid\n* how to verify the result\n\nThat sounds small.\n\nIt changes the entire shape of AI work.\n\n## \n\nPrompt vs skill vs agent\n\nKeep these layers clean:\n\n```text\nPrompt = ask once\nSkill = repeat reliably\nAgent = choose and execute workflows\n```\n\nA prompt is a one-off instruction.\n\n“Summarize this article.”\n\nA skill is the repeatable method behind the instruction.\n\n“Turn a long AI article into a source-backed Zaimiri post, pick the angle, preserve the claim, remove AI slop, and create a review draft.”\n\nAn agent is the system that can decide which skill to load, use tools, read files, call APIs, write drafts, run checks, and come back with the result.\n\nMost people are trying to solve agent problems with prompt files.\n\nThat is why their AI setup keeps resetting.\n\n## \n\nWhat actually goes inside a skill\n\nA useful skill is usually plain text.\n\nThe power is not the format.\n\nThe power is that the workflow is written down where the agent can find it.\n\nA simple skill usually needs seven parts:\n\n1. Trigger\n2. Inputs\n3. Steps\n4. Examples\n5. Tools or files\n6. Failure modes\n7. Verification\n\nThe trigger tells the agent when the skill should load.\n\nBad trigger:\n\n```text\nUse for writing.\n\n```\n\nBetter trigger:\n\n```text\nUse when turning a technical AI announcement into a Zaimiri quote post. Verify the source, explain the mechanism, write one useful angle, and create a draft-only Typefully review post.\n\n```\n\nThe second version gives the agent a lane.\n\nIt knows the task.\n\nIt knows the boundary.\n\nIt knows the output.\n\nIt knows what not to do.\n\nThat is the difference between a prompt and a reusable operating procedure.\n\n## \n\nBad skill vs good skill\n\nBad skill:\n\n```text\nWrite better tweets.\nMake it viral.\nSound human.\n\n```\n\nThis is not a workflow.\n\nIt is a wish.\n\nGood skill:\n\n```text\nUse when zaimiri sends an AI product announcement for @zaimiri.\n\n1. Read the source.\n2. Identify the actual mechanism.\n3. Ignore hype claims unless the source supports them.\n4. Pick one of three structures:\n   - personal receipt\n   - feature → before/after\n   - mechanism breakdown\n5. Draft in Hana voice.\n6. Remove AI-slop phrases.\n7. Create a Typefully review draft only.\n8. Verify it is not scheduled or published.\n```\n\nNow the agent has a job.\n\nIt is not guessing your taste from scratch.\n\n## \n\nWhy skills compound\n\nSkills are where your taste becomes reusable.\n\nEvery correction can become part of the system.\n\nIf the agent writes in a style you hate, update the skill.\n\nIf it forgets a source rule, update the skill.\n\nIf a command breaks, update the skill.\n\nIf a client workflow changes, update the skill.\n\nThi",
+      "title": "",
+      "url": "http://x.com/i/article/2066476604801396736"
     },
     "http://x.com/i/article/2066513531248562176": {
       "cleaner_v": 2,
@@ -5845,6 +5884,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066605087771037696"
+    },
+    "http://x.com/i/article/2066617706183262208": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066617706183262208",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK4Z6hQWQAARJkq?format=jpg&name=900x900)](http://x.com/modal/article/2066636221921521892/media/2066617772159680512)\n\nProduct Updates: VM Sandboxes, Lower-latency routing, Domain allowlisting for Sandboxes, and More\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1899521344766627840/3lInURMw_normal.jpg)](http://x.com/modal)\n\n[Modal](http://x.com/modal)\n\n[@modal](http://x.com/modal)\n\n·\n\n15h\n\n·\n\nFollow\n\nClick to Follow modal\n\n3\n\n2\n\n62\n\n[4.4K](http://x.com/modal/status/2066636221921521892/analytics)\n\n## \n\n🌍 Lower latency with regional routing\n\nTo improve latency, Functions can now run closer to where they're called from. Instead of routing through the default US East region, you can send a Function's inputs through US West, EU West, or Asia Pacific South with a single setting on the Function. That lowers network latency for requests coming from outside US East, and keeps data in-region when you have residency requirements.\n\n[Read the docs](https://modal.com/docs/guide/region-selection#regional-routing)\n\n for more.\n\n## \n\n🔲 VM Sandboxes (Alpha)\n\nWe're building a new VM runtime for Sandboxes. VM Sandboxes run a real Linux kernel, so they can support workloads that run Docker containers within the Sandbox, or that require Linux features like eBPF, systemd, cgroups, or custom filesystem mounts. This generally also leads to better filesystem performance for I/O sensitive workloads.\n\n[Check out our docs](https://modal.com/docs/guide/vm-sandboxes#vm-sandboxes)\n\n to get started.\n\n## \n\n📋 Domain Allowlisting for Sandboxes\n\nIt’s now possible to restrict the domains that processes inside of a Sandbox can connect to. When you provide a list of domains to outbound\\_domain\\_allowlist=\\[...\\] in modal.Sandbox.create(), requests outside of the allowlist will be blocked by Modal infrastructure, and the denial will be recorded in the App logs.\n\n[Learn more](https://modal.com/docs/guide/sandbox-networking#restricting-by-domain-name-domain-allowlist)\n\n in the docs.\n\n## \n\n🗒️ Modal Skills\n\nYou can now install and manage official Modal Agent Skills using our modal skills CLI.\n\nmodal skills install to get started.\n\n## \n\n🔐 Role-Based Access Control\n\nRBAC is now available to all Team and Enterprise plans. Built around Environments as enforceable security boundaries, it lets you give agents (and people) exactly the access they need. Restricted Environments make workspace members read-only by default, scope secrets and apps to the environment, and tie into Audit Logs for a full record of who did what. There's also a new modal.Environment object and new features in the modal environment CLI for managing all of this in code.\n\n[Read the blog](https://modal.com/blog/role-based-access-control-for-humans-and-agents)\n\n for more.\n\n## \n\n📷 Share images across apps with Named Images\n\ntypescript\n\n```typescript\n// sandbox_launcher.ts\nconst image = await modal.images.fromName(\"analytics-runtime\");\nconst sb = await modal.sandboxes.create(app, image);\n\nconst p = await sb.exec([\n  \"python\",\n  \"-c\",\n  \"import pandas, sklearn; print('ready')\",\n]);\nconsole.log(await p.stdout.readText());\nsb.detach();\n```\n\nNamed Images decouple Image builds from App deployment or Sandbox creation, and simplifies the process of sharing a canonical Image across a large number of apps. Essentially a Modal-native Image registry, this is now the recommended way to handle Image builds in Sandboxes.\n\n[Learn more in the docs.](https://modal.com/docs/guide/named-images)\n\n## \n\n📈 Improvements to the Workspace Limit UI\n\n[![Image](https://pbs.twimg.com/media/HK4bMQqXkAAbGEM?format=jpg&name=small)](http://x.com/modal/article/2066636221921521892/media/2066619176454688768)\n\nWe’ve made improvements to the Workspace Limits UI to show current workspace-wide GPU usage, Container usage, and Sandbox creation rates.\n\n## \n\n💽 Volume Subdirectory Mounts",
+      "title": "",
+      "url": "http://x.com/i/article/2066617706183262208"
+    },
+    "http://x.com/i/article/2066650296961335296": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066650296961335296",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK44q0HWcAAm1cg?format=jpg&name=900x900)](http://x.com/bibryam/article/2066652088029852098/media/2066651587204771840)\n\nTop 10 Agent Skills by GitHub Stars\n\n[![](https://pbs.twimg.com/profile_images/1779610675431591936/WMVtJ651_normal.jpg)](http://x.com/bibryam)\n\n[Bilgin Ibryam](http://x.com/bibryam)\n\n[@bibryam](http://x.com/bibryam)\n\n·\n\n14h\n\n·\n\nFollow\n\nClick to Follow bibryam\n\n3\n\n8\n\n94\n\n[8.7K](http://x.com/bibryam/status/2066652088029852098/analytics)\n\nThe agent skills market has a clear signal: Small, sharp workflows are winning. I refreshed the top 10 most-starred agent skills on GitHub:\n\n1. 228,740 stars Agentic skills framework and dev methodology.  \n<https://github.com/obra/superpowers>\n2. 151,088 stars Official public Agent Skills repo from Anthropic.  \n<https://github.com/anthropics/skills>\n3. 130,016 stars Real-world skill setup from Matt Pocock.  \n<https://github.com/mattpocock/skills>\n4. 110,407 stars Claude Code setup for exec, design, engineering, docs, QA.  \n<https://github.com/garrytan/gstack>\n5. 92,040 stars Design intelligence for better UI/UX.  \n<https://github.com/nextlevelbuilder/ui-ux-pro-max-skill>\n6. 60,442 stars Turns code into an interactive knowledge graph.  \n<https://github.com/Egonex-AI/Understand-Anything>\n7. 60,265 stars Production-grade engineering skills for coding agents.  \n<https://github.com/addyosmani/agent-skills>\n8. 53,903 stars AI-powered job search system using Claude Code skill modes.  \n<https://github.com/santifer/career-ops>\n9. 44,469 stars Taste skill that pushes agents away from generic output.  \n<https://github.com/Leonxlnx/taste-skill>\n10. 42,815 stars Researches trends across Reddit, X, YouTube, HN, and the web.  \n<https://github.com/mvanhorn/last30days-skill>\n\nThe interesting part: 6 of the top 10 are single-skill repos. Not huge libraries. One sharp capability.\n\nFull post: \n\n<https://generativeprogrammer.com/p/20-agent-skills-repos-and-marketplaces>\n\n* [![](https://pbs.twimg.com/profile_images/1779610675431591936/WMVtJ651_normal.jpg)](http://x.com/bibryam)  \n[Bilgin Ibryam](http://x.com/bibryam)  \n[@bibryam](http://x.com/bibryam)  \nFollow  \nClick to Follow bibryam  \nPM at Diagrid | Ex-Red Hat Architect | Author Kubernetes Patterns → All in distributed systems; agentic apps; AI-assisted coding;",
+      "title": "",
+      "url": "http://x.com/i/article/2066650296961335296"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -8712,6 +8777,23 @@
       "title": "Fragments: June 2",
       "url": "https://martinfowler.com/fragments/2026-06-02.html"
     },
+    "https://martinfowler.com/fragments/2026-06-16.html": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "fragments 16 Jun 2026",
+      "extraction_source": "trafilatura",
+      "final_url": "https://martinfowler.com/fragments/2026-06-16.html",
+      "frameable": false,
+      "image_urls": [
+        "https://martinfowler.com/logo-sq.png",
+        "https://martinfowler.com/mf-name-white.png",
+        "https://martinfowler.com/thoughtworks_white.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Fragments: June 16\n“Prag Dave” Thomas (co-author of the outstanding “Pragmatic Programmer”) [has loved programming](https://articles.pragdave.me/p/castles-in-the-air?triedRedirect=true) since he was young.\nProgramming was how I could express myself. I wasn’t an artist. When I sing, dogs howl. When I draw, friends say, “Very nice. What is it?” I didn’t connect particularly well with people, even though I wanted to. And yet, when I wrote my first program, I discovered a medium which let me convert thought into action. All the ideas that were bottled up behind a wall of frustration suddenly had an outlet.\nThe LLM revolution worried him. Would they remove all that fun stuff? Happily he found it was the opposite. Like Kent Beck and others have told me, programming with LLMs is more fun than ever. His post lists reasons why: removing drudgery, speeding up feedback loops, reviving long abandoned projects, and exploring new technologies.\n❄ ❄ ❄ ❄ ❄\nI’ve spent a few days at the [DDD Europe](https://2026.dddeurope.com) conference, which was a very enjoyable event. With all the changes to programming due to LLMs, I suspect [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) is going to be one of those things that will continue to be useful, indeed may become even more important. The highlight of the conference was the opening keynote by Eric Evans, who gave a fascinating description of some of his experimentation with LLMs over the last couple of years. Once the video for that talk becomes available, I’ll link to it - hopefully it won’t be too long. I also particularly enjoyed talks from Violetta Pidvolotska, Kiran Prakash, Tom de Wolf, and Chelsea Troy. Gien Verschatse interviewed Eric Evans and me for an hour so so - again I’ll pass that link on when the video gets published.\nOne snippet that stood out to me was from [Chelsea Troy](https://chelseatroy.com). The main thrust of her talk was managing the context window of LLMs so that it was kept in a healthy state. Much of what she said was familiar, but one thing I hadn’t thought about was her thoughts about the different registers of conversations with LLMs.  These registers are different styles of conversation we can have with The Genie (or indeed other humans). She classified them in four ways:\n- Exploring: I want to understand before touching anything\n- Brainstorming: Generate options, I’ll evaluate them separately\n- Deciding: I need a recommendation with a rationale, not a list\n- Implementing: The decision is made, help me build it\nHer point is that whenever I have a session with an LLM, I need to be conscious about which register I’m using. And should I change register, I should start a new conversation with a fresh context.\n❄ ❄ ❄ ❄ ❄\nCharity Majors raises an alarm about [the crevasse forming between AI enthusiasts and AI skeptics](https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against).\nThe enthusiasts are not wrong. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, existential threat.\nThe skeptics are also not wrong. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, institutional knowledge evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat.\nThe heart of the problem is that there is no common feedback connecting these two groups. She posts some concrete ways forward. Enthusiasts tend to talk most publicly, and focus on the wins, but they need to tell the whole story,",
+      "title": "Fragments: June 16",
+      "url": "https://martinfowler.com/fragments/2026-06-16.html"
+    },
     "https://mastra.ai/docs/workflows/overview": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -10360,6 +10442,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -12195,6 +12291,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK0TmI_aQAAUz_y.jpg"
     },
+    "https://pbs.twimg.com/media/HK1Zs01bYAAcdG4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK1Zs01bYAAcdG4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK1Zs01bYAAcdG4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK1Zs01bYAAcdG4.jpg"
+    },
     "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -12208,6 +12318,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
+    },
+    "https://pbs.twimg.com/media/HK3GSdxbcAAKZR5.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK3GSdxbcAAKZR5.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK3GSdxbcAAKZR5.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK3GSdxbcAAKZR5.jpg"
     },
     "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg": {
       "cleaner_v": 2,
@@ -12264,6 +12388,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HK4RKQbX0AAT1Al.jpg"
+    },
+    "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
+    },
+    "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg"
     },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
@@ -13561,6 +13713,86 @@
       "title": "Rethinking Search as Code Generation",
       "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation"
     },
+    "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "India’s elite tech talent is starting to see big tech jobs in a new light.",
+      "final_url": "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/06/RoW_Dispatch-2026-Jun05-3-1600x900.jpg",
+        "https://restofworld.org/wp-content/uploads/2024/02/Copy-of-Headshot_Ananya-150x150.jpg",
+        "https://fastly.restofworld.org/uploads/2026/06/RoW_Dispatch-2026-Jun05-3.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_AI_divide_sketch_v2.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_AI_scams_final.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Reporting Global Tech Stories Global Silicon Valley’s lure is fading for India’s tech talent Sign In About Latest Newsletter Explore by Beats Tech Giants China Outside China EV Revolution Innovation Regions Africa Asia China Eastern Europe Latin America South Asia Middle East & North Africa Sections Access & Connectivity Creators & Communities E-commerce Labor Money Politics The Platform Economy Learn more About us Team news Work with us Contributors Support us Platforms Listen Follow us Dark Mode Global Dispatch Silicon Valley’s lure is fading for India’s tech talent India’s elite tech talent is starting to see big tech jobs in a new light. By Ananya Bhattacharya Ananya Bhattacharya is a reporter for Rest of World covering South Asia's tech scene. She is based in Mumbai, India. 5 June 2026 Rest of World/Marissa Leshnov Rest of World/Marissa Leshnov By Ananya Bhattacharya 5 June 2026 Global Dispatch Silicon Valley’s lure is fading for India’s tech talent By Ananya Bhattacharya > Global Dispatch This essay was first published in our Global Dispatch newsletter. Sign up here to get it straight to your inbox. Every month, at least two to three Indian-origin AI researchers in Silicon Valley between the ages of 25 and 35 reach out to Aakrit Vaish, founder of AI venture fund Activate, asking, “How can I come back to India and work in AI?” As we spoke, the Mumbai-based executive explained that Indian startups are hoping to capture top talent and capitalize on this precise moment in time. For decades, a big tech job has been the North Star for India’s elite tech workers, offering unmatched prestige, compensation, and a ticket to global mobility. Now, a combination of layoffs spurred by AI and Trump’s tightening immigration policies is reducing the once-unquestioned appeal of Silicon Valley giants. Meanwhile, Indian AI jobs are evolving beyond back-end roles. An early-stage AI company in India pays 50%–75% of what Microsoft, Google, or Meta pays for an equivalent role, but getting a foot in the door sooner comes with lucrative stock option plans and performance-linked incentives, Vaish said. “A lot of people are willing to take that sort of 50% sacrifice today for the greater pot at the end,” Vaish said. OpenAI and Anthropic have recently started expanding their engineering and AI capabilities in India. India has “only one qualified engineer available for every 10 open GenAI positions,” Neeti Sharma, CEO of tech staffing firm TeamLease Digital, told me. “In a market this supply-constrained, every credible employer is tapping into the same shallow pool.” The aura hasn’t disappeared, but the calculus has fundamentally shifted.” Anuj Agrawal, founder and CEO of recruitment firm Zyoin Group Anuj Agrawal, founder and CEO of recruitment firm Zyoin Group, routinely sees the same hiring shortlists turn up at Indian AI startups and at the India arms of global tech firms. “The aura hasn’t disappeared, but the calculus has fundamentally shifted. [U.S.] Big Tech sold two things: frontier work and stability. The layoff cycles of 2023 through 2025, combined with H-1B unpredictability, have broken the stability half of that equation. We’re now seeing Indian engineers weigh visa risk, role volatility, and family disruption as real costs, not edge cases,” Agrawal told me. A survey of 1,205 Indian techies by anonymous employee review app Blind between April 27 and May 6 showed India-based employees at Microsoft, Amazon, Oracle, and Google are willing to work for homegrown firms if laid off. This is “exactly the caliber of talent [Indian] companies need to compete globally. But converting that interest into actual talent acquisition will require a fundamental shift in workplace culture,” Alex Han, public relations manager at Blind, told me, citing overwork and burnout . The competition is particularly hot in the five-to-15-year experience bracket, where AI, machine learning, cloud engineering, cybersecurity, and platform architecture talen",
+      "title": "Silicon Valley’s status as “most desirable employer” - Rest of World",
+      "url": "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter"
+    },
+    "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Former Hugging Face APAC lead Tiezhen Wang explains how Chinese labs use open-source models to outpace the U.S. in workplace adoption and beat Western “tokenmaxxing” costs.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/06/HuggingFace-QA-HED-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/06/HuggingFace-QA-HED-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/iStock-536609381-Final-4.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/US-ev-tariffs-Final-3-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_AI_divide_sketch_v2.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "As the U.S. and China battle for artificial intelligence supremacy, a fundamental divide in engineering philosophy could determine the winner.\nWhile American pioneers like OpenAI and Anthropic favor a closed-source approach — keeping their proprietary model code locked behind a commercial interface — Chinese AI labs are aggressively releasing open-source models. This strategy allows developers to download, inspect, and deeply customize the underlying code for free, rather than remaining dependent on an American tech giant’s ecosystem.\nTiezhen Wang, former head of the Asia-Pacific ecosystem at AI community collaboration platform Hugging Face, has observed this trend over the years. Before he moved on from Hugging Face in May, he assisted AI labs in the region in launching open-source models, and helped researchers make their models easier for developers to use.\nAt a Rest of World virtual event, Wang spoke about the history of open-source models, how Chinese AI labs monetize despite not charging for their models, and the debate over model distillation and intellectual property.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World event is available [here](https://www.youtube.com/watch?v=gSsR1ezeenk).\nWhat is the role of open-source models in the China-U.S. AI competition?\nA lot of people talk about the AI competition. But in the open-source world, we hold a collaborative mindset.\nMany open-source releases from the Chinese labs are helping U.S. labs. For example, the reinforcement learning training algorithm from DeepSeek is becoming the default setting for many U.S. research labs. Many Chinese open-source weights are running on U.S. hardware.\nIt is like helping each other, not competing like a zero-sum game. We can both be winners if we are growing the pie together.\nOpenAI and Anthropic have [accused Chinese AI companies](https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china/) of distilling their models. How do you view this as an open-source advocate? Is this a challenge for Chinese AI labs?\nDistillation is a neutral word in the research world. It’s like I’ve read a book, and I’m telling someone what the book is about. The other person also understands what the book is saying. That’s basically distillation.\nIt has been done a lot in research labs. I don’t think distillation by itself is anything wrong, and I believe people in the U.S. are distilling each other as well. Recently, we have seen Elon Musk admit that xAI [distilled from OpenAI](https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/).\nIt is well known that Anthropic and ChatGPT are [crawling the internet](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/), getting all kinds of information. So it’s interesting to see that those who did not generate knowledge are trying to stop others from reusing that knowledge.\nAll AI-generated content should have zero copyright, otherwise people who have compute can abuse and generate all kinds of combinations and copyright everything.\nHow does monetization differ for open-source and closed-source models?\nIf you open-source your model, it’s hard to make money directly. But you can still make money.\nFor example, China’s [Kimi released their model for free](https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues), but their application programming interface and subscription are still in huge demand because they have the best infrastructure support.\nOnce a model is released as open-source, people have to spend engineering hours to run it. So, on day zero, the research lab that launched the model has an advantage. That’s one way they can make money.\nAnother way is, for example, Kimi could release a fine-tuned model as open-source, but keep the base models to themselves, which they can sell.\nIf we want to think about why a research lab would open-source its models, i",
+      "title": "OpenAI or Deepseek? Role of China’s open-source in the AI race - Rest of World",
+      "url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881"
+    },
+    "https://s.hbr.org/3PZZpSc": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Frontier AI models are trained on the accumulated digital output of humanity, which AI companies acquired essentially for free. This is a problem for both AI companies and content creators. For AI companies, future training will require new, high-quality human data. For creators, they face a choice between modest one-off licensing deals and copyright litigation, neither of which offers reasonable compensation. Yet AI companies already produce the two data sets required for pricing content, as a matter of course, every time a model is trained: data mixture and scaling laws capture how to divide the pie and how big it is. Further, collective management organizations (CMO), like those used in the music industry, offer a model for how to distribute payments. The technical objection that has kept both sides arguing in the dark—that data simply cannot be valued at scale—does not hold up. This framework offers both AI companies and content creators a fair path forward.",
+      "final_url": "https://hbr.org/2026/06/how-ai-companies-can-pay-fair-rates-for-the-content-they-need?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://hbr.org/resources/images/article_assets/2026/06/Jun26_14_664263282.jpg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "SKIP TO CONTENT How AI Companies Can Pay Fair Rates for the Content They Need Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In How AI Companies Can Pay Fair Rates for the Content They Need by E. Glen Weyl and Raul Castro Fernandez June 15, 2026 dene398/Getty Images Post Post Share Save Print Summary . Frontier AI models are trained on the accumulated digital output of humanity, which AI companies acquired essentially for free. This is a problem for both AI companies and content creators. For AI ... more Leer en español Ler em português Post Post Share Save Print The fight over the data that trains artificial intelligence has become one of the defining economic conflicts of the decade. Publishers, authors, and visual artists argue that their work was taken without permission or payment. AI companies counter that training on available data constitutes fair use and that even if a market in data were desirable, compensating millions of creators is technically impossible : the cost of figuring out what any given piece of data is worth, researchers have argued , would swallow most of the value that data creates in the first place. E. Glen Weyl co-founded and leads the RadicalxChange Foundation, the Plurality Institute, the Faith, Family, and Technology Network, and the Microsoft Research Plural Technology Collaboratory. He is coauthor with Eric Posner of Radical Markets and with Audrey Tang and a global community of Plurality . Raul Castro Fernandez is an assistant professor of computer science at the University of Chicago, where he studies how data flows shape technological, economic, and social systems. His work develops data ecology, a framework for designing better ways to share, govern, and use data. He is a recipient of the SIGMOD Test-of-Time Award, an NSF CAREER Award, and a Sloan Research Fellowship. Post Post Share Save Print Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvar",
+      "title": "How AI Companies Can Pay Fair Rates for the Content They Need",
+      "url": "https://s.hbr.org/3PZZpSc"
+    },
+    "https://s.hbr.org/4bHd8oM": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We often hear about the power of personality in shaping our careers — how some traits are beneficial while others are more harmful. But it is less clear when personality traits matter most and who benefits most from them. A recent paper investigates this by looking at the connection between personality traits and lifetime earnings among men at different ages. It finds that men’s earnings are not affected by personality at all in the beginning of their careers, but that men who are more conscientious and extroverted, as well as less agreeable, reap large benefits between their 40s and 60s. The evidence also points to a subgroup of men who benefit from these traits more than twice as much as others: those with a graduate education.",
+      "final_url": "https://hbr.org/2018/04/these-3-personality-traits-affect-what-you-earn-but-only-after-age-40?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://hbr.org/resources/images/article_assets/2018/04/apr18_23_769713155.jpg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
+        "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "SKIP TO CONTENT Compensation and benefits | These 3 Personality Traits Affect What You Earn — but Only After Age 40 Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Compensation and benefits These 3 Personality Traits Affect What You Earn — but Only After Age 40 by Miriam Gensowski April 24, 2018 Donna Grethen/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . We often hear about the power of personality in shaping our careers — how some traits are beneficial while others are more harmful. But it is less clear when personality traits matter most ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print We often hear about the power of personality, and how some traits are beneficial for our careers while others are more harmful. For example, we know that being more conscientious (hard-working, driven, reliable, and organized) is associated with better job performance, and that being nice (more agreeable) does not pay off in wages. But it is less clear when these personality traits matter most for our careers — are they more important earlier on, or in the middle? — and who benefits most from them. Miriam Gensowski is an assistant professor at the Department of Economics of the University of Copenhagen. She obtained her PhD at the University of Chicago. She studies the origins and consequences of human inequality, at the intersection of applied micro economics and personality psychology. Post Post Share Save Get PDF Buy Copies Print Read more on Compensation and benefits or related topics Economics , Managing yourself and Age and generational issues Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Busi",
+      "title": "These 3 Personality Traits Affect What You Earn — but Only After Age 40",
+      "url": "https://s.hbr.org/4bHd8oM"
+    },
     "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13578,6 +13810,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "A love letter to exe.dev | Sami Honkonen",
       "url": "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/"
+    },
+    "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Today’s links look at why “skill fatigue” is real, how to rethink your build versus buy strategy, and how to differentiate a vibe coder from a software engineer.",
+      "final_url": "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/",
+      "frameable": null,
+      "image_urls": [
+        "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200",
+        "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=240",
+        "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=50",
+        "https://pixel.wp.com/b.gif?v=noscript"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Richard Seroter's Architecture Musings About Daily Reading List Contact Me Subscribe Daily Reading List – June 15, 2026 (#805) Written by Richard Seroter in Daily Reading List Sometimes you need to prove that you still got it. I don’t mean with coding and AI. I mean yesterday when I beat a couple of teenagers in a game of HORSE. Not random kids, as I’m not a psycho hunting nearby parks for chances to beat kids at basketball. A fun afternoon at a friend’s house turned into a “old men vs kids” moment and this old man stepped up. Who was then was overheated and needed a cold drink. [blog] Skill Fatigue Is Real . Wonderful post. Christina calls out all the ways we can go down a slippery path by over-reliance on skills in the wrong places. [article] Why AI hasn’t replaced software engineers, and won’t . Another excellent essay. Most of the “we laid people off because of AI” stories are garbage. And building software involves more than what agents do today, or maybe ever. [article] 10 MCP servers to connect LLMs with databases . Good list, including our own open source MCP Toolbox. [blog] Steren Giannini on Google Cloud Run: Past, Present & Future . This video and transcript is an excellent look at what goes into defining a new cloud service, and how it evolves. [article] 3 Ways to Rethink Your Build-or-Buy Strategy . Buy when speed matters, and build when advantage lies in capabilities that strengthen through learning over time. [blog] Introducing the Open Knowledge Format . This simple, standard format might help us organize scattered info in a way that humans and AI can digest. [article] Essential books for product builders—part 2 . Even more terrific books to consider buying if you want to improve skills around design and influence. [blog] Simple formulas for concise writing . Smart people use simple words. Or so I’ve been told. I like this post for how to rewire your writing for conciseness. [blog] Conway’s Law: Your Operating Model Matters More Than The AI Model . Plenty of truth in this. I believe it’s also true that a massive technology shift forces a change to the operating model. [article] MCP solved tool calling. A2A solved coordination. What solves transport? HTTP-only isn’t likely the route forward. We’re still pushing for gRPC in MCP, and you’ll probably see the transport layer evolve and stabilize soon. [blog] Read Sundar Pichai’s 2026 Commencement Address at Stanford University . For those smart enough to stick around, they heard a great talk full of optimism and genuine advice. [blog] Vibe Coder vs Software Engineer . One isn’t “better” than the other. It’s a question of ownership and long-term intent. Want to get this update sent to you every day? Subscribe to my RSS feed or subscribe via email below: Type your email… Subscribe Share this: Share on X (Opens in new window) X Share on LinkedIn (Opens in new window) LinkedIn Share on Facebook (Opens in new window) Facebook Share on Reddit (Opens in new window) Reddit Email a link to a friend (Opens in new window) Email Like Loading… ← Daily Reading List – June 12, 2026 (#804) Comments Leave a comment Cancel reply Δ This site uses Akismet to reduce spam. Learn how your comment data is processed. More posts One prompt, four (sub)agents, and ninety seconds to get a working app June 1, 2026 How to force your custom agent to stop and seek human approval May 6, 2026 You can now easily call LLMs from your messaging engine. Should you? April 13, 2026 My custom agent used 87% fewer tokens when I gave it Skills for its MCP tools March 16, 2026 Stop following tutorials and learn by building (with Antigravity) instead December 17, 2025 How to build and deploy a portable AI agent that uses a managed memory service October 14, 2025 Daily Reading List – June 15, 2026 (#805) June 15, 2026 Daily Reading List – June 12, 2026 (#804) June 12, 2026 Daily Reading List – June 11, 2026 (#803) June 11, 2026 Daily Reading List – June 10, 2026 (#802) June 10, 2026 Subscribe Rich",
+      "title": "Daily Reading List – June 15, 2026 (#805) – Richard Seroter's Architecture Musings",
+      "url": "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/"
     },
     "https://sierra.ai/blog/outcome-based-pricing-for-ai-agents": {
       "cleaner_v": 2,
@@ -13831,6 +14080,34 @@
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
     },
+    "https://thein.fo/43wKrWU": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://thein.fo/43wKrWU",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://thein.fo/43wKrWU"
+    },
+    "https://thein.fo/4fD7Yww": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://thein.fo/4fD7Yww",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://thein.fo/4fD7Yww"
+    },
     "https://til.simonwillison.net/llms/agentsview-custom-model-price": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13955,6 +14232,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Welcome to Learn Harness Engineering | Learn Harness Engineering",
       "url": "https://walkinglabs.github.io/learn-harness-engineering/en/"
+    },
+    "https://wapo.st/4eqrOcg": {
+      "cf_fallback_error": "TimeoutError: The read operation timed out",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "The read operation timed out",
+      "final_url": "https://wapo.st/4eqrOcg",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://wapo.st/4eqrOcg"
     },
     "https://wapo.st/4ovL90d": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -14442,6 +14733,32 @@
       "title": "The Four Design Jobs AI Created (So Far) - NN/G",
       "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar"
     },
+    "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Coding agents as normal technology",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!eBfS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931ce348-4a6a-44e9-ad78-322dd8421bd7_1286x764.png",
+        "https://substackcdn.com/image/fetch/$s_!ajpQ!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Faisnakeoil.substack.com%2Fapi%2Fv1%2Fpost_preview%2F201537309%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!YzQY!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6780dda8-5879-4789-bf02-b3ea43a9f85e_1000x1000.png",
+        "https://substackcdn.com/image/fetch/$s_!u4S7!,e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F595a103f-0f5f-421a-a9ed-009cf269b7b4_3024x652.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!bVLI!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd0d6558-256e-46c4-b2c5-7cf7f808a9c9_693x693.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!fLlB!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30f87ce8-8dbc-468f-8f8b-9fbf430e323c_976x974.png",
+        "https://substackcdn.com/image/fetch/$s_!sj-b!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71107c50-448e-49ef-a986-a7eb496906e1_1152x552.png",
+        "https://substackcdn.com/image/fetch/$s_!vpJH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed975481-276e-4dab-a340-e3fbd85d5c86_1108x1192.png",
+        "https://substackcdn.com/image/fetch/$s_!_uJW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaee7fd7-e171-4904-9a87-02652428e96a_1616x2034.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png",
+        "https://substackcdn.com/image/fetch/$s_!fjFt!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75085a36-a45e-4294-a02c-a15272a2a339_512x512.png",
+        "https://substackcdn.com/image/fetch/$s_!MlHT!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81e88925-45cf-4d64-8542-e98c210c780a_976x976.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Why AI hasn’t replaced software engineers, and won’t\nCoding agents as normal technology\nThere is great anxiety and uncertainty about AI replacing jobs. How can we move past vague warnings and bombastic predictions and bring data to bear on this question? One good way is to look at the profession where AI capabilities are furthest along and adoption has been exceptionally rapid: software engineering.\nIn this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned.\nWe also have a good understanding of why this is the case. We can think of many kinds of knowledge work, including software development, as a “decide-execute-deliver sandwich”. AI compresses the “execute” layer — the middle of the sandwich — but the other two layers resist automation in a way that will not be overcome by capability improvements alone.\nWe conclude on a note of cautious optimism about the future trajectory of demand for software engineering. This essay is the first in a series, and the next one will look at reasons why individual software engineers’ careers might be rocky even if overall demand is healthy. The series is based on the published literature in economics and software engineering, our own [evaluations](https://sage.cs.princeton.edu/) and observations of AI agents, and many software engineers’ reflection on the present and future of AI impacts on their profession, gleaned both from published writings and our interactions with the community.\nThe stories of AI-driven mass layoffs in software seem to be classic “AI washing”\nConsider three stories that made the headlines and how they contrasted with reality:\n- In February, fintech company Block (maker of Cash App, Square, Afterpay, and other such apps) announced layoffs of 4,000 employees because, according to founder Jack Dorsey, AI is “ - [enabling a new way of working](https://x.com/jack/status/2027129697092731343?lang=en)” with “smaller and flatter teams”, specifically citing- [late-2025 improvements](https://www.wired.com/story/jack-dorsey-explains-block-layoffs/)in model capabilities.\n But- [subsequent reporting](https://www.bloomberg.com/news/articles/2026-03-01/jack-dorsey-s-4-000-job-cuts-at-block-arouse-suspicions-of-ai-washing)revealed a radically different picture. After growing headcount more than threefold during the pandemic, the company was under massive financial pressure. A data scientist on the Cash App team, Naoko Takeda- [posted](https://www.linkedin.com/posts/naoko-takeda_my-employer-block-laid-off-40-of-its-workforce-activity-7434699479389405184--D3P)that Block “shoved AI down everyone’s throats” yet she saw “very limited gains in productivity.” She refused a 75% retention raise and quit. Other employees interviewed had a- [sharply different understanding](https://www.theguardian.com/technology/2026/mar/08/block-ai-layoffs-jack-dorsey)of what AI was capable of at Block and whether Dorsey had a competent understanding of the issues.\n As Aaron Levie has pointed out, CEOs are- [uniquely prone](https://x.com/levie/status/2058582370253701432)to delusions about AI’s usefulness because they can build quick prototypes but can’t see the 90% of work it takes to turn it into a finished product. Dorsey’s public statements about AI seem to fit exactly this pattern.\n- In April, Snap - [laid off](https://deadline.com/2026/04/snap-layoffs-ceo-evan-spiegel-ai-1236861335/)about 1,000 people, with CEO Evan Spiegel primarily citing AI as the reason in his layoff memo. He also said that AI generated- [65% of new code](https://finance.yahoo.com/sectors/technology/articles/snap-ceo-praises-ai-writing-090500386.html). In reality, the layoffs followed a- [campaign](https://www.businesswire.com/news/home/20260331059373/en/Irenic-Sends-Letter-to-Snap-Inc.-Co-Founder-and-CEO-",
+      "title": "Why AI hasn’t replaced software engineers, and won’t",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers"
+    },
     "https://www.perplexity.ai/enterprise/use-cases/growing-businesses": {
       "content_type": "",
       "description": "",
@@ -14506,6 +14823,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://www.politico.com/news/2026/06/15/trump-officials-meet-with-anthropic-to-discuss-a-truce-00962698"
+    },
+    "https://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Distributed coordination makes application complex and brittle. Because all systems eventually build on logs, we can use a shared-log approach to eliminate most coordination. We discuss this conceptually and show how this is practically implemented in the open source project Restate.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications",
+      "frameable": null,
+      "image_urls": [
+        "https://restate.dev/blog/every-system-is-a-log/banner.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/dist_app_problems.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/code_simple.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/code_complex.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/one_log_journal.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/one_log_conditional_append.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/one_log_lock_state.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/restate_in_the_stack.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/code_restate.png",
+        "https://www.restate.dev/blog/every-system-is-a-log/virtual_object.png",
+        "https://www.restate.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsoc2.6869c555.webp&w=128&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Blog](https://www.restate.dev/blog)\nEvery System is a Log: Avoiding coordination in distributed applications\nStephan Ewen, Jack Kleeman, Giselle van Dongen\nBuilding resilient distributed applications remains a tough challenge.\nIt should be possible to focus almost entirely on the business logic and the complexity inherent to the domain. Instead, you need to review line-by-line and check: “what if the service crashes here?”, “what if the API we call here is temporarily unavailable”, “what if a concurrent invocation overtakes this one here”, or “what if this process becomes a zombie while executing this function, how do I prevent it from corrupting the state?”.\nAs a result, you spend a huge amount of time worrying about failover strategies, retries, race conditions, locking/fencing, ordering of operations, order visibility of changes, decoupling availability, etc. They add queues, key-value stores, locking services, schedulers, workflow orchestrators and they try to get them all to play nice together. And the hard truth is, many applications don’t get it right and are not correct under failures or even under load.\nHow can we radically simplify this? In this article, we walk through a core idea that addresses many of these issues, by avoiding distributed coordination. Much of this goes back to learnings from when we built [Apache Flink](https://flink.apache.org/).\nLet’s start with an observation about distributed applications and infrastructure: Every System is a log.\n- \nMessage queues are logs: [Apache Kafka](https://kafka.apache.org/),[Pulsar](https://pulsar.apache.org/),[Meta’s Scribe](https://engineering.fb.com/2019/10/07/core-infra/scribe/)are distributed implementations of the log abstraction. Message brokers (e.g., RabbitMQ, SQS) internally replicate messages through logs.\n- \nDatabases (and K/V stores) are logs: changes go to the write-ahead-log first, then get materialized into the tables. The database community has the famous saying “The log is the database; everything else is cache (or materialized views)” - often attributed to [Pat Helland](https://www.linkedin.com/in/pathelland). The idea of[“Turning the Database Inside Out”](https://martin.kleppmann.com/2015/11/05/database-inside-out-at-oredev.html)starts with a log.\n- \nDistributed locking- and leader election services (like [ZooKeeper](https://zookeeper.apache.org/),[Etcd](https://etcd.io/), ...) are consensus logs at their core. Consensus algorithms, like Raft, inherently model log replication.\n- \nPersistent state machines materialize logs of their state transitions. \nWhen you build an application or microservice that interacts, for example, with a database, a message queue, and a service API (backed by another database), you are orchestrating a handful of different logs in your business logic.\nThe broad applicability of thinking in logs has been described best in [Jay Kreps' iconic blog post](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying).\nIn this example, we want to implement a processPayment handler. The payment has an ID that identifies it. The handler is triggered from a queue (which also re-delivers the event if the handler fails or times out) and the processing involves checking a fraud detection model, updating account balance, storing the status, and sending a notification. There are other handlers that may handle the same payment ID, for example to cancel the payment, block it, unblock it, revert it.\nYou can probably spot some issues:\n- Concurrent invocations (other handlers like “cancel”, or retries of the same event) can produce arbitrary results.\n- A failure after line 15 means the next retry does nothing and we don’t send a notification.\n- If the fraud model is not completely deterministic (or if it is updated between retries), we might assume a payment is valid, crash after line 9, the retry declares the payment not valid, and we are setting the status to BLOCKED desp",
+      "title": "Every System is a Log: Avoiding coordination in distributed applications | Restate",
+      "url": "https://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications"
     },
     "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar": {
       "cleaner_v": 2,
@@ -15198,6 +15540,22 @@
       "title": "- YouTube",
       "url": "https://youtu.be/wkv2ifxPpF8?si=rJWIwXGDb5FtqsNW"
     },
+    "https://yusufaytas.com/vibe-coder-vs-software-engineer": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Vibe coding is useful for discovery, but software engineering starts when generated code has to be reviewed, owned, operated, and safely changed.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://yusufaytas.com/vibe-coder-vs-software-engineer",
+      "frameable": null,
+      "image_urls": [
+        "https://yusufaytas.com/images/2026/06/pretty-please-approve-pr.jpg",
+        "https://yusufaytas.com/ya-logo.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "More than a decade ago, I wrote about [Java Developer vs. Software Engineer](https://yusufaytas.com/java-developer-vs-software-engineer). At the time, I didn’t realize how deeply people had tied their professional identity to Java. My goal was to distinguish between someone defined by a specific language and someone who thinks more broadly about solving problems.\nThe whole discourse started from one premise. Java had become the way. Many developers began thinking from Java outward. The tool became the lens through which every problem was viewed. And when a problem didn’t fit that lens, the problem was bent until it did.\nI don't want to stretch that analogy too much, because AI is not just another [programming language or framework](https://yusufaytas.com/teams-choose-language). It changes the economics of [writing software](https://yusufaytas.com/on-writing-software-engineering-handbook). Still, the old pattern is there. A tool becomes powerful, people wrap their identity around it, and then the craft gets reduced to the tool.\nNow, the question is not whether AI can write code. It does. It does it better every day. The question is what kind of [work](https://yusufaytas.com/how-work-software-engineer) comes out of that process and what happens when it enters a real codebase, with real users, real [data](https://yusufaytas.com/data-as-a-product-a-new-frontier), real compliance requirements, real incidents, and real people who have to maintain it.\nThat is where I see the [difference](https://yusufaytas.com/the-invisible-difference) between a vibe coder and a software engineer. A vibe coder is someone who wants to test an idea by generating software as a prototype. A software engineer is someone who thinks about the entire software development lifecycle. So the difference is not the tool. The difference is where the responsibility starts and where it ends.\nA lot of the discussion around vibe [coding](https://yusufaytas.com/coding-in-leadership) still measures the wrong thing. People show how quickly they went from idea to app. That has value, especially when the goal is to test an idea. In a software development team, someone has to review it. Someone has to understand the intention behind it. Someone has to decide whether the [dependency](https://yusufaytas.com/working-with-dependencies) belongs there. Someone has to check whether the test verifies behaviour. Someone has to apply schema changes. Someone has to [coordinate](https://yusufaytas.com/cracking-coding-bottlenecks) the change between teams. Someone has to work on a rollback. Someone has to write a runbook. Someone has to answer to a page.\nNone of these are part of anyone's toy project. So I would measure AI-generated [work by a different](https://yusufaytas.com/the-work-runs-on-different-maps) metric: time to safe merge. That includes reviewability, [risk](https://yusufaytas.com/risk-comes-first), test [quality](https://yusufaytas.com/silent-guardians-of-quality), ownership, rollback, and whether the author can explain the meaningful decisions in the change. If AI makes code generation cheaper but makes safe merge more expensive, the team has not gained as much as it thinks.\nThis is the first difference. A vibe coder measures time to first working version. A software engineer measures time to safe merge. Time to first working version is useful when the work is discovery. Time to safe merge is necessary when the work enters a shared codebase. It includes review cost, test cost, rollout cost, rollback cost, coordination cost, and future maintenance cost. That is why the demo is the wrong finish line. It only proves that something can be shown, not that it can be absorbed by a team.\nAI-assisted code should be better, not bigger. If the tool lets you generate more, the human has to constrain more. Otherwise you are not saving work. You are moving it downstream, where maintenance becomes someone else's chore. AI-assisted code cannot be held to a different standard. It has to",
+      "title": "Vibe Coder vs Software Engineer | Yusuf Aytas",
+      "url": "https://yusufaytas.com/vibe-coder-vs-software-engineer"
+    },
     "https://zed.dev/blog/introducing-deltadb": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -15237,6 +15595,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "DeltaDB — Early Access",
       "url": "https://zed.dev/deltadb"
+    },
+    "https://zenn.dev/layerx/articles/947ce6d31701cf": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://zenn.dev/layerx/articles/947ce6d31701cf",
+      "frameable": false,
+      "image_urls": [
+        "https://res.cloudinary.com/zenn/image/upload/s--FKNU1xQ0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E4%25B8%258D%25E6%2599%2582%25E7%259D%2580%2520%7E%2520%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E5%259B%25BD%25E3%2582%2592%25E8%25BF%25BD%25E3%2582%258F%25E3%2582%258C%25E3%2580%2581%25E8%25A6%2581%25E6%25B1%2582%25E3%2581%25AE%25E5%259B%25BD%25E3%2581%25B8%2520%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:su8%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E2OTFlNjE4YzcuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:LayerX%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNHdDZWsxTUFjbzVXNlpLQUgtaGNiMGI1SDZrODRKdkd2ZGpoNDZQUT1zOTYtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+        "https://static.zenn.studio/user-upload/avatar/a691e618c7.jpeg",
+        "https://lh3.googleusercontent.com/a/AEdFTp4wCek1MAco5W6ZKAH-hcb0b5H6k84JvGvdjh46PQ=s96-c",
+        "https://static.zenn.studio/user-upload/topics/23eef6d9d7.png",
+        "https://zenn.dev/images/topic.png",
+        "https://static.zenn.studio/images/drawing/idea-icon.svg",
+        "https://static.zenn.studio/user-upload/d7f18962cf87-20260614.png",
+        "https://static.zenn.studio/user-upload/915a10463cf6-20260615.png",
+        "https://static.zenn.studio/user-upload/d927f896dd5e-20260614.png",
+        "https://static.zenn.studio/user-upload/ccd6d0cc48fd-20260615.png",
+        "https://static.zenn.studio/user-upload/e15b33d05701-20260614.png",
+        "https://static.zenn.studio/user-upload/a1da4a0dd79e-20260614.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI の不時着 ~ コードの国を追われ、要求の国へ ~\nさて、これはある朝の話です。\n目を覚ましたあなたは、見知らぬ国に立っていました。ついこのあいだまで、あなたが暮らしていたのは「コードの国」。手を動かして実装を書ける者が敬われ、難しいアルゴリズムを解ける者が一目置かれる、そういう国でした。ところがある夜、竜巻のような風があなたを巻き上げて、気づけばあなたは国境の向こう、「要求の国」へ不時着していたのです。\nこれからお話しするのは、その不時着がなぜ起きたのか、降り立った先がどんな国だったのか、という物語です。\n先に結びだけ申しておきましょう。あなたが降り立ったのは、新しく見つかった大陸ではありません。地図から消えかけていた、けれどもずっと昔からそこにあった古い大陸です。\n人はそれを、要求工学（Requirements Engineering）と呼びます。\n気づけば、コードの国から追放されていた\nまずは、多くのエンジニアが胸の奥でそっと抱えているであろう、ひとつの「失墜感」から語り始めましょう。\nここ数年、ソフトウェアづくりの常識が、静かに、けれど確かに揺らいでいきました。とどめを刺したのは、二〇二五年の暮れのことです。Opus 4.5、GPT-5.2、Gemini 3 といったモデルが立て続けに性能の壁を越え、広い範囲のコーディングで、AIの生み出すものが熟練の手書きと見分けのつかないものになりました。しかも、何時間もかけてではなく、ほんの数分で、です。Vercel のCEOは、[将来ソフトウェアは事前に作られるのではなく、ユーザーごとにその場で生成される(ephemeral / generative)ものになる](https://sequoiacap.com/podcast/training-data-guillermo-rauch/)と語りました。\"vibe coding\" の名付け親である Andrej Karpathy は、[「プログラマーとして、これほど遅れを取っていると感じたことはない」](https://www.aol.com/news/guy-coined-vibe-coding-now-172146964.html)と漏らしたのです。\nそして時を同じくして、もうひとつ、奇妙なことが起こりました。\nちょっと誇張した絵として参考程度にご理解ください\n求人欄に、見慣れない肩書きが次々と湧いて出たのです。Forward Deployed Engineer、縮めてFDEと呼ばれる職の募集は、[ある集計では八倍にも膨らむ予想](https://www.fastcompany.com/91435680/postings-for-this-ai-job-are-up-800)がされました。GTMエンジニアは、[前の年から二~三倍あまり](https://bloomberry.com/blog/i-analyzed-1000-gtm-engineering-jobs-here-is-what-i-learned/)に。プロダクトエンジニア、AIビルダー、AIエンジニア……まるで難民キャンプのように、新しい職名が、あちらにもこちらにもテントを張っていったのです。\nここで、いったん足を止めたいのです。「AIがコードを書けるようになったから」。その一言だけでは、この眺めはどうにも説明がつきません。だってそうでしょう。AIが賢くなっただけなら、エンジニアは「よい道具を手にしたエンジニア」のままでいられたはずなのです。\nそれなのに、なぜ、わざわざ新しい名前が要るようになったのでしょうか。\nこの小さな引っかかりこそ、この物語の出発点なのです。\nですからこの物語では、目の前の出来事を「AIの台頭」というひと言で片づけたりはいたしません。構造として、ゆっくり読み解いていきます。\nなぜ、あの日あなたは越境したのか\nあなたを吹き飛ばした、あの竜巻。その正体は、じつはAIそのものではありません。\n費用構造の変化\nこれこそが、正体なのです。\n経済には、素朴な、けれど侮れない一般則があります。ある材料がほとんどタダ同然になると、値打ちは、それを補い合う「希少なほうの材料」へすうっと移っていく、というものです。電気が安くなれば、値打ちは電気そのものではなく「電気で何をするか」へ移る。同じことが、いままさに実装（コーディング）に起きました。長らくソフトウェアづくりでいちばん希少だった「実装する力」が、ありふれた汎用品（commodity）に成り下がり、値打ちは、それを取り巻く希少なもの、すなわち「何を作るべきかを決めること」や「ちゃんと動くかを確かめること」のほうへ、どっさりと移っていったのです。\nさて、ここからが面白いところ。これは技術の話であると同時に、じつにもって資本主義らしい話でもあるのです。\n値打ちが動いた先には、市場はきまって、威信ある言葉を鋳造します。\n人を雇い、給金を払い、地位を授けるための「器」として、新しい肩書きが要るのですね。\nこのからくりを、いちばん鋭く言い当てたのは、ある投資家でした。Foundation Capital の Jaya Gupta は、[FDEの正体を「単なる導入ではなく、人材に関するものだ」と喝破しました](https://thenewstack.io/forward-deployed-engineer-fde-openai-google/)。むかしマッキンゼーが「クライアントサービス」という言葉で、ビジネス系の汎用人材に威信を授けた。それとそっくり同じことを、Palantir は「embedded deployment」という言葉で、技術系の汎用人材にやっているのだ、と。\nつまり、こういう見立てになります。\n新しい言葉の氾濫は、半分が技術の話、半分が経済の話なのだ。\nさあ、この見立てが当たっているかどうか。確かめるために、ひとつ物差しを持ち出しましょう。要求の国の作法、すなわち要求工学です。\n要求工学という名の隣国\n不時着した先の国の暮らしの作法を、まず確かめておきましょう。\n要求工学とは、人々の「やりたいこと」を検証できる仕様へと移し替えるための規律です。古くから、おおよそ五つの仕事として整えられてきました。\n1.　要求の抽出（elicitation）\n2.　分析と交渉（analysis & negotiation）\n3.　仕様化（specification）\n4.　妥当性確認と検証（validation & verification）\n5.　管理（management、すなわち履歴を辿り、変更を御すること）\n機能要件と非機能要件を分け、どの要求がどの実装と結びついているかを、いつでも辿れるようにしておく。これが、この国の何十年来の、当たり前なのです。\nそしてこの国には、ひとつ、美しい世界観が伝わっています。\nMichael Jackson の「[世界と機械（The World and the Machine）](https://users.ece.utexas.edu/~perry/education/SE-Intro/jackson-icse95.pdf)」という見立てです。\n彼はこう語りました。わたしたちが相手にしているのは、二つの異なる国なのだ、と。\nひとつは「世界（World）」。\n顧客や、現場の事実や、人々の願いが住まう、問題の側の国です。\nもうひとつは「機械（Machine）」。\nコードや配備が住まう、解の側の国です。\nそして「仕様（specification）」とは、この二つの国が重なり合う「共有現象」、つまり国境線そのものなのだ、というのです。\nここで、たった一語だけ、覚えていってください。Jackson は、世界には二つの「気分」があると言いました。ひとつは「である（indicative）」、すでにそうなっている事実。もうひとつは「であってほしい（optative）」、望まれているありさまです。\n要求とは、世界の側にある、この optative にほかなりません。\nどれほど機械が賢くなろうと、「であってほしい」だけは、世界の住人、つまり人間からしか、湧いてこないのです。この一語、のちの幕でそっと効いてまいりますから、どうか胸にしまっておいてください。\nさて、ここでひとつ、申し添えておきましょう。\nこの見取り図を描くレンズそのものは、AIの前も後も、変わりません。\n二つの国があるという見立ても、その大づかみの地理も、昔のまま。けれど、変わらないのは、そこまで。どちらの国が栄えるかが入れ替わり、やがては二つの国を隔てる国境そのものが、大きく揺らぎ始めるのです。それがどう動いていくのかは、のちの幕で、じっくり見てまいりましょう。\n骨格は不変、しかし重心が動いた\nでは、何が変わって、何が変わらなかったのか。順に見てまいりましょう。\n変わらなかったもの。\nそれは、さきほどの五つの仕事という骨格です。抽出し、分析し、仕様にまとめ、検証し、管理する。この手順そのものは、AIが訪れても、消えてなくなったりはしません。\nひっくり返ったもの。\nそれは、費用の構造でした。実装のコストがゼロへ向かい、そのぶん相対的に、検証と上流（要求の側）の値打ちが、跳ね上がったのです。\n同じ骨格の上で、重心だけが、ぐらりと大きく動いた。\n重心が動けば、それぞれの仕事の「居場所」「担い手」「難しさ」も、次のように組み替わってまいります。\nそして、いちばん劇的だったのが、二つの国を隔てていた国境（DMZ）の崩壊でした。\nかつては「PM（何を作るかを決",
+      "title": "AI の不時着 ~ コードの国を追われ、要求の国へ ~",
+      "url": "https://zenn.dev/layerx/articles/947ce6d31701cf"
     },
     "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1": {
       "cleaner_v": 2,
@@ -17434,6 +17818,10 @@
     ],
     "2061611580476059768": [
       "https://x.com/dosco/status/2061611580476059768"
+    ],
+    "2061670587043610688": [
+      "https://x.com/idoubicc/status/2061670587043610688",
+      "https://x.com/idoubicc/status/2062129419398086956"
     ],
     "2061671025511649470": [
       "https://x.com/0xMoysei/status/2061671025511649470",
@@ -19786,6 +20174,11 @@
       "https://x.com/lqiao/status/2066403957824688462",
       "http://x.com/i/article/2066399704347463680"
     ],
+    "2066406457483182148": [
+      "https://x.com/_heyglassy/status/2066406457483182148",
+      "https://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications",
+      "https://pbs.twimg.com/media/HK1Zs01bYAAcdG4.jpg"
+    ],
     "2066413406899331197": [
       "https://x.com/PawelHuryn/status/2066413406899331197",
       "https://x.com/PawelHuryn/status/2066432018389365041",
@@ -19820,6 +20213,11 @@
     "2066439586650415590": [
       "https://x.com/VaraadDurgaay/status/2066439586650415590",
       "https://x.com/VaraadDurgaay/status/2066509119780217221"
+    ],
+    "2066440807247159623": [
+      "https://x.com/0x_rody/status/2066440807247159623",
+      "http://x.com/i/article/2066434727804821504",
+      "https://x.com/0x_rody/status/2066448049568694605"
     ],
     "2066448576096469185": [
       "https://x.com/axios/status/2066448576096469185",
@@ -19875,6 +20273,12 @@
       "http://x.com/i/article/2066457362656083968",
       "https://x.com/VizierPrime/status/2066751246862823611"
     ],
+    "2066513583593103619": [
+      "https://x.com/theinformation/status/2066513583593103619",
+      "https://thein.fo/43wKrWU",
+      "https://x.com/theinformation/status/2066630693493383656",
+      "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
+    ],
     "2066522716379779124": [
       "https://x.com/sidpalas/status/2066522716379779124",
       "https://x.com/sidpalas/status/2066664757277466965"
@@ -19896,6 +20300,15 @@
       "https://x.com/samueljmcd/status/2066565461819441521",
       "https://x.com/samueljmcd/status/2066634615507275838"
     ],
+    "2066536456936710263": [
+      "https://x.com/rseroter/status/2066536456936710263",
+      "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "https://pbs.twimg.com/media/HK3GSdxbcAAKZR5.jpg"
+    ],
+    "2066536915726184775": [
+      "https://x.com/rhackett/status/2066536915726184775",
+      "http://x.com/i/article/2065528640326995968"
+    ],
     "2066537531227943101": [
       "https://x.com/termsheetinator/status/2066537531227943101",
       "http://x.com/i/article/2066527443390005248"
@@ -19910,10 +20323,20 @@
       "https://x.com/jhleath/status/2066541977227935829",
       "http://x.com/i/article/2066513531248562176"
     ],
+    "2066547327767093370": [
+      "https://x.com/zackbshapiro/status/2066547327767093370",
+      "https://x.com/zackbshapiro/status/2066649144861585456"
+    ],
     "2066552550565007633": [
       "https://x.com/hwchase17/status/2066552550565007633",
       "http://x.com/i/article/2066552183152373760",
       "https://x.com/hwchase17/status/2066570129538953564"
+    ],
+    "2066556847390064721": [
+      "https://x.com/HarvardBiz/status/2066556847390064721",
+      "https://s.hbr.org/3PZZpSc",
+      "https://x.com/HarvardBiz/status/2066729984006238239",
+      "https://s.hbr.org/4bHd8oM"
     ],
     "2066558169741173177": [
       "https://x.com/crtr0/status/2066558169741173177",
@@ -19926,6 +20349,12 @@
       "https://x.com/SidebarIO/status/2066535709096230912",
       "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4",
       "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg"
+    ],
+    "2066573973580665107": [
+      "https://x.com/theinformation/status/2066573973580665107",
+      "https://thein.fo/4fD7Yww",
+      "https://x.com/theinformation/status/2066630693493383656",
+      "https://pbs.twimg.com/media/HK4lpY4XYAAK2Na.jpg"
     ],
     "2066574083060531420": [
       "https://x.com/harvey/status/2066574083060531420",
@@ -19949,6 +20378,12 @@
       "https://x.com/Codydearkland/status/2066585638405849114",
       "https://x.com/Codydearkland/status/2066665239580745986"
     ],
+    "2066593299771605264": [
+      "https://x.com/engadget/status/2066593299771605264",
+      "https://www.engadget.com/2194626/anthropic-hit-with-lawsuit-over-its-claude-max-usage-limits/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781549193",
+      "https://x.com/engadget/status/2066662416415338817",
+      "https://www.engadget.com/2194941/xbox-closing-ninja-theory-double-fine-compulsion-game-studios/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781565654"
+    ],
     "2066593705906012188": [
       "https://x.com/CobusGreylingZA/status/2066593705906012188",
       "http://x.com/i/article/2066589651532492800",
@@ -19959,6 +20394,10 @@
       "https://x.com/addyosmani/status/2066595308629594363",
       "http://x.com/i/article/2066435928739217408",
       "https://x.com/addyosmani/status/2066750438188474759"
+    ],
+    "2066596654212403327": [
+      "https://x.com/washingtonpost/status/2066596654212403327",
+      "https://wapo.st/4eqrOcg"
     ],
     "2066606107834089700": [
       "https://x.com/morganlinton/status/2066606107834089700",
@@ -19977,12 +20416,32 @@
       "https://x.com/ericosiu/status/2066625875622129767",
       "http://x.com/i/article/2065834532868120577"
     ],
+    "2066630815950258246": [
+      "https://x.com/RoundtableSpace/status/2066630815950258246",
+      "https://x.com/mikenevermiss/status/2066401066518802637?s=46"
+    ],
+    "2066633853968560607": [
+      "https://x.com/restofworld/status/2066633853968560607",
+      "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881",
+      "https://x.com/restofworld/status/2066687215367766082",
+      "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter"
+    ],
+    "2066636221921521892": [
+      "https://x.com/modal/status/2066636221921521892",
+      "http://x.com/i/article/2066617706183262208"
+    ],
     "2066637411514536066": [
       "https://x.com/dexhorthy/status/2066637411514536066"
     ],
     "2066640204505768430": [
       "https://x.com/TechCrunch/status/2066640204505768430",
       "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
+    ],
+    "2066645675811733633": [
+      "https://x.com/__su888/status/2066645675811733633",
+      "https://blog.janestreet.com/formal-methods-at-jane-street-index/",
+      "https://x.com/__su888/status/2066687199463321736",
+      "https://zenn.dev/layerx/articles/947ce6d31701cf"
     ],
     "2066650207748551042": [
       "https://x.com/philippemnoel/status/2066650207748551042",
@@ -19992,6 +20451,16 @@
     "2066658389288005876": [
       "https://x.com/SophiaCai99/status/2066658389288005876",
       "https://www.politico.com/news/2026/06/15/trump-officials-meet-with-anthropic-to-discuss-a-truce-00962698"
+    ],
+    "2066670651910623622": [
+      "https://x.com/rseroter/status/2066670651910623622",
+      "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/",
+      "https://x.com/rseroter/status/2066631834684006810",
+      "https://yusufaytas.com/vibe-coder-vs-software-engineer"
+    ],
+    "2066697348735025590": [
+      "https://x.com/TheEconomist/status/2066697348735025590",
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a30a983e656e500013c71bf&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
     ],
     "2066704062851207640": [
       "https://x.com/systematicls/status/2066704062851207640",
@@ -20004,14 +20473,38 @@
       "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5DR3JOaXJpcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk1MDQxMi9hbnRocm9waWMtdHJ1bXAtYWRtaW5zdHJhdGlvbi1jbGF1ZGUtbXl0aG9zLWZhYmxlLTUtZXhwb3J0LWNvbnRyb2xzIiwiZXhwIjoxNzgyMDExMjAzLCJpYXQiOjE3ODE1NzkyMDN9.x_XtrIeslRQdG1BuTGJ37Hb6KfbFLttT-8hoL8to7mc&utm_medium=gift-link"
     ],
     "2066740048196665527": [
-      "https://x.com/Yonah_x/status/2066740048196665527",
-      "https://x.com/Yonah_x/status/2065809034968789157"
+      "https://x.com/Yonah_x/status/2066740048196665527"
     ],
     "2066740056128160028": [
       "https://x.com/washingtonpost/status/2066740056128160028",
       "https://wapo.st/4ovL90d"
+    ],
+    "2066756366161871042": [
+      "https://x.com/daleverett/status/2066756366161871042",
+      "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg",
+      "https://x.com/daleverett/status/2066773105260068989"
+    ],
+    "2066774695773446390": [
+      "https://x.com/martinfowler/status/2066774695773446390",
+      "https://martinfowler.com/fragments/2026-06-16.html"
+    ],
+    "2066790379475599773": [
+      "https://x.com/bibryam/status/2066790379475599773",
+      "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "https://x.com/bibryam/status/2066652088029852098",
+      "http://x.com/i/article/2066650296961335296"
+    ],
+    "2066812274044498133": [
+      "https://x.com/OpenDesignHQ/status/2066812274044498133",
+      "https://x.com/OpenDesignHQ/status/2066513682545225980",
+      "https://pbs.twimg.com/amplify_video_thumb/2066510883954573313/img/ofqqv0QXu8PAzXzZ.jpg"
+    ],
+    "2066816324936904903": [
+      "https://x.com/zaimiri/status/2066816324936904903",
+      "http://x.com/i/article/2066476604801396736",
+      "https://x.com/zaimiri/status/2066816746065961318"
     ]
   },
-  "updated_at": "2026-06-16T07:43:14Z",
+  "updated_at": "2026-06-16T13:04:13Z",
   "window": "recent"
 }
