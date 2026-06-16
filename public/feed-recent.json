@@ -1639,6 +1639,19 @@
       "title": "",
       "url": "http://x.com/i/article/2057849087236419584"
     },
+    "http://x.com/i/article/2057852752202792960": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057852752202792960",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI743smaEAA0dri?format=jpg&name=900x900)](http://x.com/crtr0/article/2066558169741173177/media/2057855715503640576)\n\nFile systems are the new primitive for AI agents\n\n[![](https://pbs.twimg.com/profile_images/1994065148957609989/Y79Ukkg5_normal.jpg)](http://x.com/crtr0)\n\n[Carter Rabasa](http://x.com/crtr0)\n\n[@crtr0](http://x.com/crtr0)\n\n·\n\n9h\n\nFollow\n\nClick to Follow crtr0\n\n6\n\n14\n\n80\n\n[11K](http://x.com/crtr0/status/2066558169741173177/analytics)\n\nI started writing web software in 2000 at a dev shop in Washington, DC and everything was built on a foundation of a relational database and carefully designed schemas. That was the job. A customer had some requirements, and my brain immediately went: \"Okay, what tables do we need and what custom interface do we need to build?\"\n\nEven today, I can't look a web application without thinking of the underlying data model.\n\n[![Image](https://pbs.twimg.com/media/HK3U1fFaoAARJOF?format=jpg&name=small)](http://x.com/crtr0/article/2066558169741173177/media/2066541819375296512)\n\nIMDB screenshot and data model\n\nBut software is changing. Interfaces are turning into boxes that ask \"What can I do for you?\"\n\n![](https://pbs.twimg.com/tweet_video_thumb/HI8HamragAA7AhD.jpg)\n\nGIF\n\nCaptain Picard using the replicator to make some tea\n\nPowering these new experiences are agents. And fast following are a litany of frameworks and tools hoping to be the next React for agents.\n\nBuilding memory for agents\n\nTaking a step back, let's talk about what a good read/write memory system for agents might look like. It needs to do a few things:\n\n1. Retain facts across sessions\n2. Retrieve facts selectively, because “just dump everything into the context window” stops working quickly\n3. Update and correct itself over time, which rules out a lot of read-only approaches\n4. Stay inspectable by humans, because LLMs are non-deterministic, and a black-box memory system is a debugging nightmare\n\nIf we were designing a memory system for agents, it's pretty natural to reach for things you already know like SQL, ORMs or APIs. I've built a lot of software this way.\n\nTeaching agents new tricks\n\nAgents can use SQL and data APIs, and sometimes they should. But those interfaces were designed for programs that already know exactly what they want. A web application calls GET /tasks/123 or runs a parameterized query because a developer has already turned user intent into a precise operation. Agents live one layer earlier in the process. They are still interpreting messy goals, partial context, ambiguous names, changing assumptions, and human corrections. Asking them to operate directly on normalized tables or narrowly scoped endpoints often means forcing them through an interface optimized for deterministic software, not exploratory reasoning.\n\nThat mismatch creates a lot of hidden work. You have to teach the agent the schema, the business rules, the relationships between objects, the safe mutations, the edge cases, and the difference between similar-looking fields. Then you have to keep that instruction up to date as the system changes. The agent may be capable of calling the API, but it spends valuable context and reasoning budget reconstructing the mental model that a human developer already had when they designed the API. \n\nWhat if there was an API that agents have already been trained on, to the tune of trillions of tokens?\n\nLLMs already know how to use file systems\n\nLike, really know how to use them.\n\n\\`ls\\`, \\`cat\\`, \\`grep\\`, \\`cd\\`, \\`mkdir\\`. Every engineer recognizes these instantly because this is how we learned to operate computers. And every LLM has been trained on a over 50 years of Unix/Linux man pages, Github repos and millions of documents explaining what these commands are, how they behave, and how to combine them.\n\nThat’s kind of mind-blowing when you think about it",
+      "title": "",
+      "url": "http://x.com/i/article/2057852752202792960"
+    },
     "http://x.com/i/article/2057869366566457344": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5529,6 +5542,19 @@
       "title": "",
       "url": "http://x.com/i/article/2066412682803322880"
     },
+    "http://x.com/i/article/2066435928739217408": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066435928739217408",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK12c58aoAAPZY7?format=jpg&name=900x900)](http://x.com/addyosmani/article/2066595308629594363/media/2066438042995564544)\n\nAgentic Code Review\n\n[![](https://pbs.twimg.com/profile_images/2012065253623021570/0BReDfMk_normal.jpg)](http://x.com/addyosmani)\n\n[Addy Osmani](http://x.com/addyosmani)\n\n[@addyosmani](http://x.com/addyosmani)\n\n·\n\n6h\n\nFollow\n\nClick to Follow addyosmani\n\n28\n\n101\n\n846\n\n[95K](http://x.com/addyosmani/status/2066595308629594363/analytics)\n\nCoding agents are extraordinarily good now and getting better fast. The interesting consequence is that the hard part of engineering moved from writing code to deciding whether to trust it, which makes review the most leveraged skill in software right now. How you approach it depends enormously on who you are: a solo developer with no users and a team maintaining a ten-year-old application are not solving the same problem.\n\nI am more optimistic about agentic engineering than I have ever been. The agents are genuinely good, they get better every month, and on an ordinary week I now ship things I would not have attempted in the same time a year ago. This write-up is a map of where the interesting work went, because it did move, and most teams have not fully caught up to where.\n\nCode review used to work because of a happy accident of relative speed. A senior engineer could read code faster than a junior could write it, so review kept pace without anyone designing it to, and the team absorbed how the system fit together as a side effect of reading each other’s diffs. A lot of that was not deliberate. It fell out of a single fact: writing code was the slow, expensive part, and reading it was cheap and fast.\n\nThat fact no longer holds. An agent will produce a thousand lines of often solid, well-formatted code in less time than it takes me to read this paragraph, while a human’s reading speed has not changed since roughly the day we started staring at screens for a living. So the constraint moved downstream, to the one step that did not get faster: a person being confident the change is right. I do not think that is a loss. It is the most leveraged place in software to be good right now, and it is where I have put most of my attention this year.\n\nThere is a happy twist here that shapes the rest of this piece. The same tools generating all that extra code are also the best thing I have for keeping up with it. On my own projects, including the popular open-source ones, I now point Claude Code or Codex at a batch of incoming PRs and have them triage the queue for me, and that has genuinely changed how I spend my time. So this is not an anti-AI argument, and I will come back to exactly how I use it.\n\nIt is also not a data dump, and not another round of whether letting a model write your code is wonderful or the end of the craft, because that framing is useless. The only answer that survives contact with a real codebase is that it depends entirely on who you are. A developer vibe-coding a side project a dozen people will ever run, and a team keeping a ten-year-old enterprise system alive for another quarter, share almost no constraints worth naming, and most of the advice in circulation is really one of those two people telling the other how to live.\n\n## \n\nWhat the 2026 data actually shows\n\nThe productivity gains from AI are real, but raw output overstates them: about four times the code for a tenth more delivered value. The gap between those numbers is review work, which is exactly why review is where the leverage now sits.\n\nFor a couple of years this was anecdote and argument. It is now measured at scale, by organizations with no shared agenda and in several cases competing commercial interests, and the measurements keep pointing the same way: AI pushes output sharply up, and pushes both quality and reviewability down.\n\n[Faros AI](ht",
+      "title": "",
+      "url": "http://x.com/i/article/2066435928739217408"
+    },
     "http://x.com/i/article/2066436932624629760": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5576,6 +5602,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066476107407532032"
+    },
+    "http://x.com/i/article/2066513531248562176": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066513531248562176",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK3U6kQbQAAM3eX?format=jpg&name=900x900)](http://x.com/jhleath/article/2066541977227935829/media/2066541906662998016)\n\nWhere are the serverless sandboxes?\n\n[![](https://pbs.twimg.com/profile_images/1725510925610840064/z9JLeyDz_normal.jpg)](http://x.com/jhleath)\n\n[Hunter Leath](http://x.com/jhleath)\n\n[@jhleath](http://x.com/jhleath)\n\n·\n\n10h\n\nFollow\n\nClick to Follow jhleath\n\n2\n\n5\n\n48\n\n[6.1K](http://x.com/jhleath/status/2066541977227935829/analytics)\n\nYesterday, \n\n[@ankrgyl](https://x.com/@ankrgyl)\n\n, the CEO of Braintrust, remarked that it felt like sandboxes were the convergence of servers and serverless. He should be correct here, it is the case that sandboxes kind of feel like \"serverless servers\". The problem is that nobody has built an interesting, serverless version of the sandbox. Why is that, and what would it look like?\n\n[![Image](https://pbs.twimg.com/media/HK27oBca8AESnl7?format=jpg&name=small)](http://x.com/jhleath/article/2066541977227935829/media/2066514100289728513)\n\nWhat does it mean to be serverless?\n\nToday, it seems like every infrastructure that you buy is serverless -- databases, storage, website hosting , inference-- and lots of people have lots of opinions about whether or not \"serverless\" is a good thing, or even what it means. Let's define it by starting with my favorite thing -- \"what was the world like before AWS\".\n\n[![Image](https://pbs.twimg.com/media/HK2-JWObsAAUgzD?format=png&name=small)](http://x.com/jhleath/article/2066541977227935829/media/2066516871827140608)\n\nBefore cloud computing was the only way to deploy applications, we had actual data centers and colocations. In this world (with varying levels of white-glove service from your DC), your company would rack+stack computers that you select and get network access to them. You would provision the machine, install the OS, and set up your application to run. If you needed storage, then Oracle would be happy to sell you a Box that could run a database for your computers to connect to. If you needed more capacity because your business was growing, you would need to obtain budget from your department, open a ticket to IT, buy the server, drive over to install it, and then get it all set up. This could take a long time, and wasn't something that could be done in time if your product went viral on Slashdot. If one of the hard drives or the memory in your server went bad, guess who was on the hook for buying a replacement and repairing the server?\n\nThis was pretty bad, and companies like Amazon started to realize that there was a lot of \"undifferentiated heavy lifting\" in this process. If every company was rack+stacking servers (requiring time and expertise from each company), wouldn't it be more efficient for one mega company to do all of the rack+stacking and have everyone else rent from them? Thus, we got cloud computing.\n\nWith EC2, you could now launch additional capacity in seconds instead of in months. You were still responsible for making sure your operating system was up to date, but AWS would handle replacing hard drives and procuring actual servers. Because of the large number of servers that AWS had, they could even provide a huge amount of diversity at the click of a button (need lots of ram? needs lots of CPU? they have you covered).\n\nEC2 instances launched so quickly and there was so much capacity that an entirely new idea was born: auto-scaling. Now, if your product went viral on Hacker News, AWS could actually monitor the servers for you and automatically launch more (in just minutes!) to ensure that your application stayed alive during a period of high-traffic.\n\nNow, as \n\n[@dhh](https://x.com/@dhh)\n\n knows the best, the unit-cost of these virtual servers is actually higher than installing the servers yourself in a colo. If you bought one server and placed it in a colo and used it 10",
+      "title": "",
+      "url": "http://x.com/i/article/2066513531248562176"
+    },
+    "http://x.com/i/article/2066518406573023232": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066518406573023232",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK3ClL7XkAA0xPe?format=jpg&name=900x900)](http://x.com/samueljmcd/article/2066524627585634765/media/2066521748145672192)\n\nMy Thoughts on Loop Engineering\n\n[![](https://pbs.twimg.com/profile_images/2063224622745542656/P9emcX1m_normal.jpg)](http://x.com/samueljmcd)\n\n[Samuel McDonnell](http://x.com/samueljmcd)\n\n[@samueljmcd](http://x.com/samueljmcd)\n\n·\n\n11h\n\nFollow\n\nClick to Follow samueljmcd\n\n13\n\n32\n\n332\n\n[25K](http://x.com/samueljmcd/status/2066524627585634765/analytics)\n\nLoop engineering is the new label. The hard part is the one it has always been. Verification.\n\nTip: You can copy and paste this article into Claude and ask for the best insights if you don't want to read it all!!\n\nThere is a line doing the rounds. Boris Cherny, who created and now heads Claude Code, told the Fortune Brainstorm Tech audience in June that he no longer writes the prompts himself. His phrasing was that it is now another Claude doing the prompting. On a given morning he is managing hundreds of agents, sometimes thousands.\n\nThe framing that has grown up around this is \"loop engineering.\" The pitch goes in three phases. 2024 was writing good prompts. 2025 was running agents in parallel. 2026 is building the loop that runs the agents for you. You stop typing prompts and start designing the system that types them.\n\nThat framing is fine as far as it goes. It also buries the part that decides whether your loop ships anything. A loop is a generator wired to a verifier. The generator was never the bottleneck. The verifier is.\n\n[![Image](https://pbs.twimg.com/media/HK3DvqDW0AArHkP?format=jpg&name=small)](http://x.com/samueljmcd/article/2066524627585634765/media/2066523027542560768)\n\n## \n\nWhat a loop actually is\n\nStrip the language back. A loop replaces the human cycle of prompt, read, prompt again with a self-running cycle: discover, plan, execute, verify, repeat until a condition is met. The agent drives its own iterations. You design the track it runs on.\n\nThe simplest version is a single agent looping over its own output. Research, draft, compare against the goal, fix the weak spots, repeat until it clears the bar. It is a person rewriting a draft, except the person does not get bored.\n\nThe larger version is a fleet. A goal goes to an orchestrator. The orchestrator splits it and hands pieces to specialists. Specialists hand detailed work to sub-agents. The tree runs discover, plan, execute, verify at every level until the goal is met. One is a single author. The other is a team running a project end to end.\n\n[![Image](https://pbs.twimg.com/media/HK3EEM1X0AI1K1F?format=jpg&name=small)](http://x.com/samueljmcd/article/2066524627585634765/media/2066523380476530690)\n\nNone of this is new in kind. It is the same agent loop you already run, with the human stepped out of the inner cycle and moved up to the design of it.\n\n## \n\nOpen and closed\n\nThere are two shapes, and the difference is the whole game.\n\nAn open loop gives the agent a wide exploratory space. Conditions and a goal, but freedom in between. It can find paths you did not specify and produce things you did not plan for. This is where genuinely novel output comes from. It also burns tokens at a rate most budgets cannot absorb, and on loose criteria it turns into a slop machine. The freer the loop, the more it depends on the thing checking its work.\n\nA closed loop pins the passes down in advance. Clear goal, defined steps, evaluation at each step, a stopping condition or a handoff to a human with the run data attached. The agent still loops, but inside a frame you built. It runs on a normal budget because the paths are bounded.\n\n[![Image](https://pbs.twimg.com/media/HK3EOLVWcAE2ZcE?format=jpg&name=small)](http://x.com/samueljmcd/article/2066524627585634765/media/2066523551872479233)\n\nClosed loops are what produce results today. People credit the auton",
+      "title": "",
+      "url": "http://x.com/i/article/2066518406573023232"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -8709,26 +8761,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Using AI to write better code more slowly | Read the Tea Leaves",
       "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
-    },
-    "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Anthropicの開発者カンファレンス「Code w/ Claude Tokyo」、2日目の Extended に参加してきました。1日目のレポートに続き、この記事ではDay2で私が参加したセッションをまとめます。  なお、この日は私自身もスピーカーとして登壇させていただきました。登壇内容は別記事にまとめていますので、あわせてご覧ください。  \n\n\nエンジニア出身の創業者が、コードゼロで事業を動かした30日間。Code with Claude: Extended Tokyo 登壇レポート - primeNumber’s Owned Media\n\n\nこんにちは、primeNumberで",
-      "final_url": "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw",
-      "frameable": false,
-      "image_urls": [
-        "https://assets.st-note.com/production/uploads/images/285612616/rectangle_large_type_2_46ff6baa9690f5434fc08a71c1359d9b.jpeg?fit=bounds&quality=85&width=1280",
-        "https://assets.st-note.com/production/uploads/images/285612616/rectangle_large_type_2_46ff6baa9690f5434fc08a71c1359d9b.jpeg?width=1280",
-        "https://assets.st-note.com/img/1781493373-uxKjkBCTqOsJ01o6aGIPb8LV.jpg?width=1200",
-        "https://assets.st-note.com/img/1781493492-R6GUEVXnL1hwips4ldv3TzFj.jpg?width=1200",
-        "https://assets.st-note.com/img/1781493641-54IgtDNLc0wCrPnT81VKG7mo.jpg?width=1200",
-        "https://assets.st-note.com/img/1781493873-xuqzAdeZVwLvDTr0XWPGIC9y.jpg?width=1200",
-        "https://assets.st-note.com/img/1781493917-keJLoavlO53Pgn7h2SwVEbzx.jpg?width=1200"
-      ],
-      "kind": "article",
-      "text_excerpt": "投稿 ログイン 会員登録 【現地参加&登壇レポート】Code w/ Claude Tokyo: Extended（Day2）― 経営の現場から、個人の夢、大規模リライトまで 2 山本 健太 2026年6月15日 12:29 Anthropicの開発者カンファレンス「Code w/ Claude Tokyo」、2日目の Extended に参加してきました。1日目のレポートに続き、この記事ではDay2で私が参加したセッションをまとめます。 なお、この日は私自身もスピーカーとして登壇させていただきました。登壇内容は別記事にまとめていますので、あわせてご覧ください。 エンジニア出身の創業者が、コードゼロで事業を動かした30日間。Code with Claude: Extended Tokyo 登壇レポート - primeNumber’s Owned Media こんにちは、primeNumberです。2026年6月11日、Anthropicが東京で開催した「Code with Cl lounge.primenumber.com Code w/ Claude Tokyo: Extended での登壇を聞いていただいた皆様、本当にありがとうございます！予想以上に多くの方に見ていただき貴重な機会でした。 登壇後にBorisさんともお話しでき、ClaudeCodeであらゆる働き方が変わったことへの感謝を直接伝えることができました✨ #CodeWithClaude @bcherny https://t.co/oPpIwzgC0M pic.twitter.com/sMa15Qzpzo — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 Founder's Stageを中心に見ていたので、順にまとめます。 Opening Keynote（Boris氏）― 「アイデア」と「実現」の距離が縮まった Borisさん @bcherny 「最初に私がClaudeCodeのデモを社内Slackに投稿したとき、リアクションしてくれたのはたった2人だった」面白すぎる。世界変えてるけど #CodeWithClaude pic.twitter.com/L3SVm1RGBv — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 2日目の基調講演は、参加者への歓迎とともに、Boris氏自身のプログラミングの原体験から始まりました。学生時代、数学（ブール代数）の宿題を手で解く代わりに電卓（TI-Basic）でプログラムを組んで自動化していた、というエピソード。本人にとってそれは「魔法のよう」な体験で、当時フォーラムやゲームを通じて学んだ世代の共通体験として語られました。 そこから話は開発の進化へ。かつてはプログラムを動かすのに複雑なコンパイラやシステムの管理が必要でしたが、いまは**「アイデア」とそれを実現する「エージェント」の距離が大きく縮まった**と強調します。かつての「電卓」が、いまや「分散システム」を構築できるレベルにまで来た、という対比が印象的でした。約1年前のサンフランシスコでのDevDayの熱気にも触れつつ、ユーザーのフィードバックを聞きながら再構築を重ねてきた歩みが振り返られました。 前日に発表されたばかりの第5世代モデル（Fable）についても言及がありました。 高い自律性と長時間稼働 ：過去のどのモデルよりも自律的に動き、システム調査のような数日がかりの長時間タスクも、軌道を外れずに実行できる 高度なコード解析 ：コードを「書く」だけでなく「読む」能力が向上し、バグの発見、障害（outage）の調査、リポジトリ内を探索して「何がいつ壊れたのか」を特定する力に優れている こうした進化によって「構築する（ビルドする）」ことの意味自体が変わってきた、と。深いドメイン知識を持つ人が、長年夢見ていたプロジェクトをついに実現できる時代になった、という語りは、この後のセッション群を予告するようでもありました。 Building AI-native across industries（NTT・みずほ・メルカリ）― PoCの壁をどう越えるか NTT、メルカリ、みずほ の三者対談始まった。貴重な会だと思うけど、公式Webのプログラムに載ってなくて勿体ない… #CodeWithClaude pic.twitter.com/367nDWtj1s — yamaken | CIO@primeNumber (@yam_dr) June 11, 2026 (↑の投稿の直後に、Webが修正されたようでした) NTT・みずほ・メルカリのAI責任者によるパネル。各社ともClaudeを実務に広げつつあり、みずほは日常業務やPoC作成に、メルカリはエンジニアリング支援やドメイン知識の「スキル」化（PMも開発に関われる環境づくり）に、NTTは経営トップの号令のもと全プロセスのAIファースト見直しに使っている、と紹介されました。 印象に残ったのはPoCの壁の越え方です。みずほは「成果を急ぎすぎない」、メルカリは「新しいアイデアの9割はうまくいかない前提で挑戦し続ける」と、いずれも試行錯誤を織り込む姿勢を語っていました。費用対効果はシビアに見るという点も共通で、タスクの難易度に応じてHaiku・Sonnet・Opusを使い分けることがスケーラビリティの鍵、と。NTTは2030年までに約1000億円のコストダウンを掲げているそうです。 How to integrate Claude into your daily life ― AIを「同居人」にする こちらはBuilder's Stageでの講演です。ぬこぬこさんの発表は、Claude Codeを日常のAIエージェントとして使い、物理デバイスとつなぐ取り組みでした。 24時間そばでサポートする日常使いのエージェントは、日本のコミュニティで「エビ」と呼ばれており、ぬこぬこさんはそのエンジンにClaude Codeを推しています（安定性、安全な認証、育てた資産を使い回せる点が理由）。DiscordやTelegramから操作できる「Claude Code Channels」や、レスポンスの速いHaikuで改善を速く回すコツも紹介されました。さらに、カメラ・マイクを備えたデスクトップロボット「スタックちゃん」と、わずかな録音から声を再現する音声合成「いろどりTTS」を組み合わせ、AIを物理世界の同居人にする実演も。コーディング以外の日常タスクにもClaude Codeは頼れる、という、聞いていて手を動かしたくなるセッションでした。 Manager 11（Ryan氏）― 10代の夢だったゲームを、ついに完成させる Ryan氏の発表は、10代からの夢だったサッカーマネジメントゲーム「Manager 11」をClaudeと完成させた話。1999年製のC++オープンソースエンジン「ESMS」の約1万行のレガシーコードで自作ゲームを作ろうと長年挫折してきたところ、Claudeを「共同作業者」に迎えてWebAssemblyへコンパイルし、Next.js+React+PostgreSQLのリアルタイム・マルチプレイヤー対応Webアプリに仕立て直したそうです。 試合中の戦術変更や選手交代ができるインタラクティブな作りになり、Claudeはゲームのシステム自体にも組み込まれて、AIクラブのマネージャーが「若手育成重視」「節約家」などの性格で意思決定や移籍交渉を行います（処理にはHaiku・Sonnet・Opus 4.8・Fableを適材適所で使用）。「誰もが10代の夢＝自分にとってのManager 11を持っているはず。Claudeはそれを現実にする手助けをしてくれる」という締めが印象的でした。 Rewriting Bun in Rust ― 50万行を11日で書き換える JavaScriptランタイム「Bun」の約50万行に及ぶZigのコードベースを、Claudeを使ってわずか11日でRustへ書き換えたプロジェクトの解説でした。通常ならチームで1年がかりの大規模な書き換えを、1人のエンジニアが短期間で成し遂げた事例です。 なぜRustへ ：Zigは高性能な一方、CやC++のように手動でメモリ管理が必要で、コードベースが大きくなるほど use-after-free やメモリリークといったバグが増え、修正が難しくなっていた。Rustに移せば、これらの実行時エラーをコンパイル時に捕捉でき、メモリ安全性を高められる、という狙いです。 書き換えの戦略 既存テストの流用 ：BunのテストはTypeScriptで書かれていたため、言語が変わってもテストスイート（カバレッジ100%）をそのまま使えた 事前の綿密な設計 ：最初の3時間でZig→Rustのパターンマッピング、コンパイル速度向上のための約100クレートへの分割、複雑なライフタイムの整理などをまとめた「移植ガイド」を作り、Claudeに参照させた ワークフローの並列処理 ：Claude Codeのワークフロー機能で最大16エージェントを並行稼働。AI同士が作業を上書きして競合しないよう、Gitの使用を制限するなどの工夫をした 実行プロセスは4段階 ：①コンパイルは意識せず各Zigファイルと同じ振る舞いのRustファイルを生成 → ②クレートごとにコンパイルを通す → ③テストを実行し、パニックやクラッシュのログをもとに修正 → ④ 敵対的レビュー 。",
-      "title": "【現地参加&登壇レポート】Code w/ Claude Tokyo: Extended（Day2）― 経営の現場から、個人の夢、大規模リライトまで｜山本 健太",
-      "url": "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw"
     },
     "https://note.com/pn_yamaken/n/nd3ae714ce54a": {
       "cleaner_v": 2,
@@ -11941,6 +11973,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
     },
+    "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg"
+    },
+    "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg"
+    },
+    "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg"
+    },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13544,6 +13618,20 @@
       "title": "",
       "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e"
     },
+    "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "[Sitemap](https://uxdesign.cc/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm%5Fsource%3DmobileNavBar&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fuxdesign.cc%2Fthe-flaw-is-the-feature-e6769c5cf5b4&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n[Medium Logo](https://medium.com/?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nGet app\n\n[Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top%5Fnav%5Flayout%5Fnav-----------------------new%5Fpost%5Ftopnav------------------)\n\n[Search](https://medium.com/search?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fuxdesign.cc%2Fthe-flaw-is-the-feature-e6769c5cf5b4&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n![Unknown user](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png)\n\n[UX Collective](https://uxdesign.cc/?source=post%5Fpage---publication%5Fnav-138adf9c44c-e6769c5cf5b4---------------------------------------)\n\n·\n\nFollow publication\n\n[![UX Collective](https://miro.medium.com/v2/resize:fill:76:76/1*mDhF9X4VO0rCrJvWFatyxg.png)](https://uxdesign.cc/?source=post%5Fpage---post%5Fpublication%5Fsidebar-138adf9c44c-e6769c5cf5b4---------------------------------------)\n\nWe believe designers are thinkers as much as they are makers. <https://linktr.ee/uxc>\n\nFollow publication\n\n# The flaw is the feature\n\n## _Perfection used to prove a person had tried. Now a machine conjures it in seconds, for nothing. So what is polish actually worth?_\n\n[![Dora Czerna](https://miro.medium.com/v2/resize:fill:64:64/1*5H8x8veR19T5JOv1ODOQCA.png)](https://medium.com/@doracee?source=post%5Fpage---byline--e6769c5cf5b4---------------------------------------)\n\n[Dora Czerna](https://medium.com/@doracee?source=post%5Fpage---byline--e6769c5cf5b4---------------------------------------)\n\nFollow\n\n9 min read\n\n·\n\nJun 8, 2026\n\n126\n\n[Listen](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost%5Faudio%5Fbutton%26postId%3De6769c5cf5b4&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2Fthe-flaw-is-the-feature-e6769c5cf5b4&source=---header%5Factions--e6769c5cf5b4---------------------post%5Faudio%5Fbutton------------------)\n\nShare\n\nVolunteers in a 1960s psychology study were played a tape of a man auditioning for a quiz team. He was dazzling, reeling off answer after answer, until near the end he clumsily knocked a cup of coffee over himself. Oddly, the people who heard the spill warmed to him more than those who heard a clean run. The blunder, not the brilliance, was what tipped him over into likable. Psychologists call it the pratfall effect, and it is bad news for anyone paid to make things look perfect.\n\nThe design industry, after all, is sanding every last coffee-spill out of its work, and doing it with real discipline.\n\nSpend an afternoon scrolling through its recent output. Everything is good. The corners curve to the same friendly radius, the gradients melt without a seam, the copy reads like the copy on every other site. It is all competent and tidy and precisely where it should be. The longer you look, the harder it gets to remember any of it.\n\nPress enter or click to view image in full size\n\n![A still-life painting of a wicker basket tipped on its side spilling red and green apples, beside a dark bottle, a white cloth and a plate of stacked biscuits, the table edges visibly not aligning.](https://miro.medium.com/v2/resize:fit:700/1*tzrHwLsEsJG-sT3HAqi3tg.png)\n\nCézanne let the basket tilt and the table edges refuse to line up. More than a c",
+      "title": "",
+      "url": "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4"
+    },
     "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13851,6 +13939,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Self-Fulfilling Projects",
       "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
+    },
+    "https://www.extend.ai/ui?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "React components for PDF, DOCX, XLSX, and CSV viewers, with bounding box citations, file upload, e-signing, and more.",
+      "final_url": "https://www.extend.ai/ui?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://extend.ai/ui/og?title=Open%20source%20UI%20kit%20for%20modern%20document%20apps&description=React%20components%20for%20PDF%2C%20DOCX%2C%20XLSX%2C%20and%20CSV%20viewers%2C%20with%20bounding%20box%20citations%2C%20file%20upload%2C%20e-signing%2C%20and%20more.",
+        "https://www.extend.ai/ui/_next/image?url=%2Fui%2Fimages%2Froot-components-showcase-light-v2.png&w=3840&q=75&dpl=dpl_GgyZ86yrsjN6fh7KaRfoARNz4vvy",
+        "https://www.extend.ai/ui/_next/image?url=%2Fui%2Fimages%2Froot-components-showcase-dark-v2.png&w=3840&q=75&dpl=dpl_GgyZ86yrsjN6fh7KaRfoARNz4vvy"
+      ],
+      "kind": "article",
+      "text_excerpt": "Toggle Menu Menu Extend UI Docs Components Blocks Built by Extend AI Search documentation... Search... 1k Toggle theme Open source UI kit for modern document apps React components for PDF, DOCX, XLSX, and CSV viewers, with bounding box citations, file upload, e-signing, and more. Ready to drop into user-facing flows, agents, or internal tools. View full examples View components PDF Viewer View Document Splits View XLSX Viewer View File System View File Upload View Schema Builder View PDF Viewer View Document Splits View File System View File Upload View XLSX Viewer View Schema Builder View Created by Extend . The source code is available on GitHub .",
+      "title": "Open source UI kit for modern document apps - Extend UI",
+      "url": "https://www.extend.ai/ui?ref=sidebar"
     },
     "https://www.gregceccarelli.com/goal-engineering?v=1": {
       "cleaner_v": 2,
@@ -15012,9 +15116,6 @@
     ],
     "2054385995727196611": [
       "https://x.com/StarKnight/status/2054385995727196611"
-    ],
-    "2055429159757742112": [
-      "https://x.com/Tresmort/status/2055429159757742112"
     ],
     "2055646916499714488": [
       "https://x.com/gdb/status/2055646916499714488"
@@ -19170,9 +19271,9 @@
       "https://x.com/omarsar0/status/2065881974892355761",
       "https://x.com/omarsar0/status/2065491829760651328?s=20",
       "https://x.com/omarsar0/status/2065883836681261148",
-      "https://x.com/omarsar0/status/2065895293070070200",
       "https://x.com/omarsar0/status/2066154550206005310",
-      "https://x.com/omarsar0/status/2065929657724068060"
+      "https://x.com/omarsar0/status/2065929657724068060",
+      "https://x.com/omarsar0/status/2065895293070070200"
     ],
     "2065890759744610759": [
       "https://x.com/DennisonBertram/status/2065890759744610759",
@@ -19286,8 +19387,8 @@
     "2066267719805407463": [
       "https://x.com/daltonmeon/status/2066267719805407463",
       "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg",
-      "https://x.com/daltonmeon/status/2066465389190709402",
-      "https://x.com/daltonmeon/status/2066426030873870548"
+      "https://x.com/daltonmeon/status/2066426030873870548",
+      "https://x.com/daltonmeon/status/2066465389190709402"
     ],
     "2066280075914252486": [
       "https://x.com/chadfowler/status/2066280075914252486",
@@ -19327,17 +19428,16 @@
       "https://x.com/i/status/2060833920615367058",
       "https://x.com/AndrewCurran_/status/2066370967811887591",
       "https://x.com/AndrewCurran_/status/2066401735988670864",
-      "https://x.com/AndrewCurran_/status/2066334986287063072",
+      "https://x.com/AndrewCurran_/status/2066623628259782727",
+      "https://x.com/AndrewCurran_/status/2066640626633035797",
       "https://x.com/AndrewCurran_/status/2066401873796723078",
-      "https://x.com/AndrewCurran_/status/2066339557533196790",
       "https://x.com/AndrewCurran_/status/2066341991995343303",
+      "https://x.com/AndrewCurran_/status/2066334986287063072",
+      "https://x.com/AndrewCurran_/status/2066339557533196790",
       "https://x.com/AndrewCurran_/status/2066395221886402891",
-      "https://x.com/AndrewCurran_/status/2066386862579831262",
-      "https://x.com/AndrewCurran_/status/2066382711305232702",
-      "https://x.com/AndrewCurran_/status/2066589897327304789",
-      "https://x.com/AndrewCurran_/status/2066347235726725172",
-      "https://x.com/AndrewCurran_/status/2066540016520856025",
-      "https://x.com/AndrewCurran_/status/2066528482235158744"
+      "https://x.com/AndrewCurran_/status/2066605725850448348",
+      "https://x.com/AndrewCurran_/status/2066599837844558175",
+      "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg"
     ],
     "2066335368539189755": [
       "https://x.com/soleio/status/2066335368539189755"
@@ -19382,8 +19482,7 @@
       "https://note.com/pn_yamaken/n/nd3ae714ce54a",
       "https://x.com/yam_dr/status/2066424376849990042",
       "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
-      "https://x.com/yam_dr/status/2066362597314863349",
-      "https://note.com/pn_yamaken/n/n034b3e6e8262?sub_rt=share_pw"
+      "https://x.com/yam_dr/status/2066647185907941382"
     ],
     "2066420775989715118": [
       "https://x.com/lets_dig_deeper/status/2066420775989715118",
@@ -19418,15 +19517,15 @@
     "2066469702075920794": [
       "https://x.com/0xMortyx/status/2066469702075920794",
       "http://x.com/i/article/2066436932624629760",
+      "https://x.com/0xMortyx/status/2066481496915886233",
       "https://x.com/0xMortyx/status/2066481393165586480",
       "https://x.com/0xMortyx/status/2066579000395247888",
       "https://x.com/0xMortyx/status/2066471484835459360",
-      "https://x.com/0xMortyx/status/2066473352181518809",
-      "https://x.com/0xMortyx/status/2066511606524018893",
-      "https://x.com/0xMortyx/status/2066481607284785398",
       "https://x.com/0xMortyx/status/2066482085611671842",
-      "https://x.com/0xMortyx/status/2066481496915886233",
+      "https://x.com/0xMortyx/status/2066511606524018893",
+      "https://x.com/0xMortyx/status/2066473352181518809",
       "https://x.com/0xMortyx/status/2066482636856476118",
+      "https://x.com/0xMortyx/status/2066481607284785398",
       "https://x.com/0xMortyx/status/2066494564144148514",
       "https://x.com/0xMortyx/status/2066482962317603259"
     ],
@@ -19437,13 +19536,54 @@
     "2066487060999917626": [
       "https://x.com/threepointone/status/2066487060999917626",
       "https://sunilpai.dev/posts/never-waste-a-token/",
+      "https://x.com/threepointone/status/2066608494250262706",
       "https://x.com/threepointone/status/2066499830151520380",
+      "https://x.com/threepointone/status/2066608155463733484",
       "https://x.com/threepointone/status/2066511623364202544",
+      "https://x.com/threepointone/status/2066611536303362260",
       "https://x.com/threepointone/status/2066538074499068151",
       "https://x.com/threepointone/status/2066493144410001826",
+      "https://x.com/threepointone/status/2066611631719645601",
       "https://x.com/threepointone/status/2066489524583068047"
+    ],
+    "2066524627585634765": [
+      "https://x.com/samueljmcd/status/2066524627585634765",
+      "http://x.com/i/article/2066518406573023232",
+      "https://x.com/samueljmcd/status/2066544425862348891",
+      "https://x.com/samueljmcd/status/2066620158781661601",
+      "https://x.com/samueljmcd/status/2066624195732099253",
+      "https://x.com/samueljmcd/status/2066598063825731778",
+      "https://x.com/samueljmcd/status/2066620316051247586",
+      "https://x.com/samueljmcd/status/2066634615507275838",
+      "https://x.com/samueljmcd/status/2066565461819441521"
+    ],
+    "2066541977227935829": [
+      "https://x.com/jhleath/status/2066541977227935829",
+      "http://x.com/i/article/2066513531248562176"
+    ],
+    "2066558169741173177": [
+      "https://x.com/crtr0/status/2066558169741173177",
+      "http://x.com/i/article/2057852752202792960"
+    ],
+    "2066561628494045610": [
+      "https://x.com/SidebarIO/status/2066561628494045610",
+      "https://www.extend.ai/ui?ref=sidebar",
+      "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg",
+      "https://x.com/SidebarIO/status/2066535709096230912",
+      "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4",
+      "https://pbs.twimg.com/media/HK3PRoNWAAAwmYa.jpg"
+    ],
+    "2066581650130280943": [
+      "https://x.com/droid/status/2066581650130280943"
+    ],
+    "2066595308629594363": [
+      "https://x.com/addyosmani/status/2066595308629594363",
+      "http://x.com/i/article/2066435928739217408"
+    ],
+    "2066637411514536066": [
+      "https://x.com/dexhorthy/status/2066637411514536066"
     ]
   },
-  "updated_at": "2026-06-15T19:11:41Z",
+  "updated_at": "2026-06-16T01:46:46Z",
   "window": "recent"
 }
