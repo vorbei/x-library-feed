@@ -25,7 +25,7 @@
       "name": "Media"
     },
     {
-      "count": 77,
+      "count": 78,
       "name": "Other"
     },
     {
@@ -38,8 +38,53 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2317,
+  "item_count": 2318,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-16T06:15:01.955279Z",
+      "article_image_urls": [
+        "https://body-shop.co/og-image.jpg",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Fe6b58207e423410086221a110596b9f1cf774eb1-2650x1766.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Fa2776c6b1cfb00a5d1b9ed2bcf87bfd6e5f7ada6-1600x2844.jpg%3Fauto%3Dformat&w=1920&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2F8defd20848ceb49215a1594ad1c9f1916dc1d43a-2000x1334.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2F6f76b484e240bb8986f194e5a7b9c386b64bc1e4-1400x2486.jpg%3Fauto%3Dformat&w=1920&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Fd98230e3568d60969212f61959514e1a13c07eeb-2600x1733.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2F3f8d8f5daa9a57db1e4d45c97ba3b02e588a7d1e-1600x2401.jpg%3Fauto%3Dformat&w=1920&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Fb44a6981920b19c79c8ad76b2d8da77b528e2b69-2600x1857.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Ff4e912b7e43263e9767cd0e9ba6038886992cacb-1600x2400.jpg%3Fauto%3Dformat&w=1920&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2F084b821a50d3ea404d04ec150fe6d8f877cadf21-2600x2600.jpg%3Fauto%3Dformat&w=3840&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2Ffec62b61087423ae21af881edc59cb2cd755c2e1-1600x2844.jpg%3Fauto%3Dformat&w=1920&q=75",
+        "https://www.body-shop.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51tcxin9%2Fproduction%2F89485728f13f5bfb1dc91185751efde69d72b3c6-2400x1920.jpg%3Fauto%3Dformat&w=3840&q=75"
+      ],
+      "article_title_extracted": "Body Shop",
+      "category": "Other",
+      "created_at": "2025-11-19T14:11:14.292533Z",
+      "description": "Creative workshop for universal construction.",
+      "domain": "www.body-shop.co",
+      "embed_type": "",
+      "id": "k173xzhr6qn5zhkpcysddyt5gh7vqmaa",
+      "og_image_url": "https://body-shop.co/og-image.jpg",
+      "recommended_at": "2026-06-16T00:45:58.298000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "creative-workshop",
+        "universal-construction",
+        "body-shop"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-16T00:45:58.298000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Body Shop",
+      "url": "https://www.body-shop.co/",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/32/8e/01328e7b-843e-5179-aa8f-a5f63fa63fa6/Placeholder.mill/1200x630wa.jpg",
@@ -103012,7 +103057,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2160,
+      "count": 2161,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -103048,5 +103093,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-15T22:49:59.048756Z"
+  "updated_at": "2026-06-16T06:15:03.041205Z"
 }
