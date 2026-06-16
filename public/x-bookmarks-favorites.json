@@ -96,6 +96,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "My Dockerfile/OCI-image take on sandbox environments seemed to resonate with folks!\n\nHere is what else I care about in agent sandboxes:\n- Runs real workloads\n- Exposes controlled ingress\n- Agent-friendly economics\n- Operational stability\n- Starts fast (enough)",
+      "text_zh": "我的 Dockerfile/OCI 镜像沙箱环境方案似乎引起了大家的共鸣！\n\n以下是代理沙箱中我关心的其他方面：\n- 运行真实工作负载\n- 暴露受控的入站流量\n- 对代理友好的经济性\n- 运行稳定性\n- 启动速度（足够快）",
+      "text_zh_hash": "b0f273fb8f7dc020",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sidpalas/status/2066522716379779124"
     },
     {
@@ -137,6 +140,9 @@
         "bookmark@chumsdock"
       ],
       "text": "If you haven’t tried Factory, you’re officially out of excuses.",
+      "text_zh": "如果你还没试过Factory，那真的没借口了。",
+      "text_zh_hash": "84563d61b130a831",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/morganlinton/status/2066606107834089700"
     },
     {
@@ -217,6 +223,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Trump administration officials began weighing sanctions on Anthropic weeks before they demanded the company take its latest and most advanced AI model offline, after a dispute shattered the White House’s already-fragile trust in the company. https://wapo.st/4ovL90d",
+      "text_zh": "特朗普政府官员在要求Anthropic将其最新、最先进的AI模型下线前数周，就已开始考虑对该公司的制裁措施。此前，一场争端彻底摧毁了白宫对该公司本就脆弱的信任。https://wapo.st/4ovL90d",
+      "text_zh_hash": "ae001f55b4feba89",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/washingtonpost/status/2066740056128160028"
     },
     {
@@ -259,6 +268,9 @@
         "bookmark@chumsdock"
       ],
       "text": "ParadeDB is now natively available in http://Postgres.app for all macOS users out there!\n\nhttps://postgresapp.com/extensions/",
+      "text_zh": "ParadeDB 现已原生集成至 http://Postgres.app，面向所有 macOS 用户开放！\n\nhttps://postgresapp.com/extensions/",
+      "text_zh_hash": "f5f15c343d15f8cb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/philippemnoel/status/2066650207748551042"
     },
     {
@@ -423,6 +435,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I'm so bullish on how @FactoryAI is approaching the space.\n\nA lot of companies shill the whole \"build with our AI\" thing, but when you look at Factory's  - the focus is so much more on exposing multiple different components needed the next way's teams are building.\n\nLFG 2.0",
+      "text_zh": "我对 @FactoryAI 在这个领域的布局非常看好。\n\n很多公司都在鼓吹“用我们的AI来构建”这套说法，但当你审视 Factory 的做法时——你会发现他们的重点更多地放在暴露团队未来构建方式所需的多个不同组件上。\n\nLFG 2.0",
+      "text_zh_hash": "0b7b94884e96c0ec",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Codydearkland/status/2066585638405849114"
     },
     {
@@ -543,6 +558,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "NEW: Inside the fight over Claude Mythos 5.\n\nThe Trump administration torpedoed Anthropic's newest, most powerful model. Sources told me the AI lab &amp; other industry leaders spent the weekend trying to explain that Fable 5 wasn’t *too* powerful. Gift link: https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5DR3JOaXJpcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk1MDQxMi9hbnRocm9waWMtdHJ1bXAtYWRtaW5zdHJhdGlvbi1jbGF1ZGUtbXl0aG9zLWZhYmxlLTUtZXhwb3J0LWNvbnRyb2xzIiwiZXhwIjoxNzgyMDExMjAzLCJpYXQiOjE3ODE1NzkyMDN9.x_XtrIeslRQdG1BuTGJ37Hb6KfbFLttT-8hoL8to7mc&utm_medium=gift-link",
+      "text_zh": "NEW: 揭秘克劳德神话5背后的博弈。\n\n特朗普政府叫停了Anthropic最新、最强大的模型。知情人士向我透露，这家AI实验室及其他行业领袖整个周末都在试图解释，Fable 5并非“过于”强大。赠阅链接：https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5DR3JOaXJpcDciLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk1MDQxMi9hbnRocm9waWMtdHJ1bXAtYWRtaW5zdHJhdGlvbi1jbGF1ZGUtbXl0aG9zLWZhYmxlLTUtZXhwb3J0LWNvbnRyb2xzIiwiZXhwIjoxNzgyMDExMjAzLCJpYXQiOjE3ODE1NzkyMDN9.x_XtrIeslRQdG1BuTGJ37Hb6KfbFLttT-8hoL8to7mc&utm_medium=gift-link",
+      "text_zh_hash": "ae8e6fcde017f044",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/haydenfield/status/2066719248278241591"
     },
     {
@@ -583,6 +601,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The US government’s Anthropic models ban was never about an AI jailbreak https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter",
+      "text_zh": "美国政府禁止Anthropic模型，从来就不是因为AI越狱问题",
+      "text_zh_hash": "148535c57260e7c7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TechCrunch/status/2066640204505768430"
     },
     {
@@ -664,6 +685,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Hermes Agent pro tip:\n\nDon't just read this article.\n\nPaste the entire thing inside your Hermes session and say:\n\n\"Read this end to end, then build my setup from it. Write my SOUL .md based on my stack and goals, pick the 3 profiles I should run first, and give me a /goal command for an overnight run so I wake up to finished work.\"\n\nThis is the part most builders are missing.\n\nArticles aren't content anymore.\n\nThey are playbooks your agent can turn into your actual setup.",
+      "text_zh": "Hermes Agent 专业提示：\n\n不要只是阅读这篇文章。\n\n请将整篇文章粘贴到你的 Hermes 会话中，然后说：\n\n“从头到尾读完，然后根据它构建我的配置。基于我的技术栈和目标编写我的 SOUL .md 文件，选出我应首先运行的 3 个配置文件，并给我一个用于通宵运行的 /goal 命令，这样我醒来时工作就完成了。”\n\n这正是大多数构建者所忽略的部分。\n\n文章不再是内容了。\n\n它们是行动手册，你的智能体可以将其转化为你实际的配置。",
+      "text_zh_hash": "6a477bdcbce8f363",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PrajwalTomar_/status/2066497450358272493"
     },
     {
@@ -704,6 +728,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "LATEST play-by-play on the White House-Anthropic export controls saga: \n- It will likely take longer than a few days to reach a resolution that eases export controls, a senior WH official tells me but they left the door open to the possibility that it can be done quickly. “That’s up to Anthropic.”\n- Since Friday, Trump has asked Howard Lutnick to be more involved with Anthropic \n- On Saturday, Lutnick, Sean Cairncross, Anthropic’s Tom Brown +  Sarah Heck had multiple high level hour+ long calls \n- Over the weekend, Anthropic assembled a technical team including Logan Graham from “Frontier Red Team,” Dave Orr who is head of safeguards, and lead security researcher Nicholas Carlini to engage the admin \n- Today (Monday), the Anthropic trio gave in-person presentation to administration officials from ONCD and Commerce’s CAISI. Chris Fall, head of CAISI, was one of the participants. \n- Bessent has been less involved over the weekend and Treasury did not participate in the in-person meetings Monday\n- Lutnick and Bessent both flew to G7 on Air Force One with Trump \n\n W/ @cheyennehaslett\nhttps://www.politico.com/news/2026/06/15/trump-officials-meet-with-anthropic-to-discuss-a-truce-00962698",
+      "text_zh": "白宫与Anthropic出口管制博弈最新进展：\n- 一位白宫高级官员向我透露，达成缓解出口管制的解决方案可能需要数日以上，但并未排除快速解决的可能性。\"这取决于Anthropico。\"\n- 自上周五起，特朗普已要求霍华德·卢特尼克更深入地参与与Anthropic的沟通。\n- 上周六，卢特尼克、肖恩·凯恩克罗斯、Anthropic的汤姆·布朗与莎拉·赫克进行了多次长达一小时以上的高层通话。\n- 上周末，Anthropic组建了一个技术团队，成员包括\"前沿红队\"的洛根·格雷厄姆、安全负责人戴夫·奥尔以及首席安全研究员尼古拉斯·卡利尼，以配合政府工作。\n- 本周一（今日），Anthropic三人组向白宫国家网络总监办公室（ONCD）及商务部CAISI的官员进行了现场演示。CAISI负责人克里斯·福尔出席了会议。\n- 贝森特上周末参与度较低，财政部未出席周一的面对面会议。\n- 卢特尼克与贝森特均随特朗普乘坐空军一号前往七国集团峰会。\n\n与 @cheyennehaslett 联合报道\nhttps://www.politico.com/news/2026/06/15/trump-officials-meet-with-anthropic-to-discuss-a-truce-00962698",
+      "text_zh_hash": "3f6ef077aa6797e4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SophiaCai99/status/2066658389288005876"
     },
     {
