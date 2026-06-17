@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 703,
+      "count": 705,
       "name": "Tools"
     },
     {
-      "count": 430,
+      "count": 432,
       "name": "Development"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 144,
+      "count": 146,
       "name": "Media"
     },
     {
@@ -38,8 +38,240 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2324,
+  "item_count": 2330,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-17T04:50:43.608393Z",
+      "description": "CNET • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k17a5n5z1hpebre1h2zq4tj2hx88vtrb",
+      "og_image_url": "https://i.ytimg.com/vi/fzd-k98ZkLY/maxresdefault.jpg",
+      "recommended_at": "2026-06-17T05:00:14.915000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "augmented-reality",
+        "smart-glasses",
+        "snap"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T05:00:14.915000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Snap Unveils Specs Smart Glasses at AWE 2026",
+      "url": "https://youtu.be/fzd-k98ZkLY?si=pnHTLP59Kkjew-4J",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_image_urls": [
+        "https://images.ctfassets.net/fdtlyqzgdb9e/kAKJwCQghQZYDr3SgnGvT/df72e9cf24ade861caf763438138aa53/SME_26001_0110_039_v1_11_QC.jpg?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/mDu4owAPxzqld7aUabwFt/5b034cbbfd3074abb2976e5c094c2732/SME_26001_0040_080_v2_09_QC.jpg?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2ll85PrQLAmnyH65nAXPHS/eaa39e41fd963280cb8962843492701f/SME_26001_0010_077_v4_11_QC.jpg?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/3ibpKyuFxdGUO1qAVEEqmE/d1be2a85ba4fe117eceb7b6a71bd70ae/SME_26001_0050_069_v2_10_QC.jpg?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2E7dvO1ylbnRbEt3d0dhS1/c82a09ab1b104105a496d081b0959cc8/SME_26001_0030_072_v1_12_QC.jpg?q=40",
+        "https://www.specs.com/stop.svg",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/0vYG90YnKbeOcIouo04jw/a220182da5fb0d6b09e834bd688a407c/mock.png?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/6CYq5FQMUpksTUHOU88kJu/07a825e3a2b77f33dcdb34e2f5040bb2/HP_Product_TilesTile_1.png?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/1EH8oLB1V8C9WR01Ke58Jn/3be6886140fa5c587237003526464fa5/HP_Product_TilesTile_2__1_.png?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/2iOaxJQdrm2PxgbqmX7WNx/6c683014b6618339e7a3d69ee6d3b4a1/HP_Product_TilesTile_3-copy.png?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/3SbFrV0VgW1u8e5gevxPzC/0789735c55a7fb459bec611d01d6eac9/Web_LensesArtboard-1-copy-7.png?q=40",
+        "https://images.ctfassets.net/fdtlyqzgdb9e/27QG2R5DJeMFmWniOB9x5r/4de13ed92dab8770d2919a2f1fd89e16/Navigation_Web.png?q=40"
+      ],
+      "article_title_extracted": "SPECS AR Glasses",
+      "category": "Tools",
+      "created_at": "2026-06-17T04:59:35.586277Z",
+      "description": "Meet SPECS, AR glasses designed for real life. Stay present while you work, learn, play, and see more of the world around you.",
+      "domain": "www.specs.com",
+      "embed_type": "",
+      "id": "k1797d8m74yst27vpfbfvv6edx88vs0j",
+      "og_image_url": "https://cloud.poche.app/api/storage/0e37b904-c828-459e-b060-b4d522ec1d37",
+      "recommended_at": "2026-06-17T05:00:12.585000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "augmented-reality",
+        "smart-glasses",
+        "wearable-tech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T05:00:12.585000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "SPECS AR Glasses",
+      "url": "https://www.specs.com/",
+      "x_status_id": null
+    },
+    {
+      "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "cleaner_v": 2,
+      "created_at": "2026-06-16T17:03:24.100920Z",
+      "description": "Framer • YouTube",
+      "domain": "www.youtube.com",
+      "embed_type": "youtube",
+      "id": "k171ymwgdj082sds4yz45grep988sya4",
+      "og_image_url": "https://i.ytimg.com/vi/j4WW4bwWhPk/maxresdefault.jpg",
+      "recommended_at": "2026-06-17T03:27:36.707000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "framer",
+        "web-design",
+        "no-code"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T03:27:36.707000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Framer Event: June 16",
+      "url": "https://www.youtube.com/watch?v=j4WW4bwWhPk",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/landing-pages/og-image.jpg",
+        "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Forigin%2Forigin_background.webp&w=3840&q=70&dpl=dpl_JDR2NrbJ9F6G7hk48YGBsRTpgXt3"
+      ],
+      "article_text": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी",
+      "article_title_extracted": "Cursor · Origin",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-17T03:15:31.804641Z",
+      "description": "A git forge for the agentic era.",
+      "domain": "cursor.com",
+      "embed_type": "",
+      "id": "k178ykj9hckf8kts1tygxnm4s188tcct",
+      "og_image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/landing-pages/og-image.jpg",
+      "recommended_at": "2026-06-17T03:27:32.211000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "git-forge",
+        "software-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T03:27:32.211000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Cursor · Origin",
+      "url": "https://cursor.com/origin",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_image_urls": [
+        "https://uselemma.ai/opengraph-image.png?5512ba5eded5754e",
+        "https://www.uselemma.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyc.441db66c.png&w=3840&q=75&dpl=dpl_HPFDnbtConxR2DbkGzaBgAafZ9QU",
+        "https://www.uselemma.ai/brand/lemma-avatar-square-purple.svg",
+        "https://www.uselemma.ai/demo/slack-avatar-cole.png",
+        "https://www.uselemma.ai/_next/static/media/vercel.e6643272.svg",
+        "https://www.uselemma.ai/_next/static/media/openai.151ff3ed.svg",
+        "https://www.uselemma.ai/_next/static/media/langfuse.76c66b21.svg",
+        "https://www.uselemma.ai/_next/static/media/arize-phoenix.ada07a5c.svg",
+        "https://www.uselemma.ai/_next/static/media/azure.8188ca10.svg",
+        "https://www.uselemma.ai/_next/static/media/langgraph.341ce9d9.svg",
+        "https://www.uselemma.ai/_next/static/media/anthropic.5e8552a8.svg"
+      ],
+      "article_title_extracted": "Lemma | Production monitoring for AI agents",
+      "category": "Tools",
+      "created_at": "2026-06-17T03:17:11.207327Z",
+      "description": "Stop guessing why your agents fail. Production monitoring for AI agents.",
+      "domain": "www.uselemma.ai",
+      "embed_type": "",
+      "id": "k1768sxx3v58ct6dcxv0nzf37n88vwmh",
+      "og_image_url": "https://uselemma.ai/opengraph-image.png?5512ba5eded5754e",
+      "recommended_at": "2026-06-17T03:27:30.431000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "observability",
+        "monitoring"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T03:27:30.431000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Lemma | Production monitoring for AI agents",
+      "url": "https://www.uselemma.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://framerusercontent.com/assets/l5NHCHdxjjzXXKhq2ItEri5BvHM.jpg",
+        "https://framerusercontent.com/images/X8K2iCW5Tob8sQuioDPe6TJEU.png?width=40&height=40",
+        "https://framerusercontent.com/images/MmTP6OEoY0MYnNSpsJLIK1039U.png?width=1024&height=1024",
+        "https://framerusercontent.com/images/jdXl2HLJPq4OIjhymhRVRLI8MQA.png?width=1024&height=1024",
+        "https://framerusercontent.com/images/C4LCPT9PJ43OL9FCwLXZnr8c.png?width=1024&height=1024",
+        "https://framerusercontent.com/images/nTYyAy24KdqtIvZzeUWGh6Yn6Ns.png?width=2048&height=2048",
+        "https://framerusercontent.com/images/S9zounRUePKHNPN2kI93ExzXk.png?width=3840&height=2160"
+      ],
+      "article_text": "Search\nConnect Framer to Claude, Codex, Cursor, and more\nSkip the MCP setup. Framer works directly with Claude Code, Cursor, Codex, and other AI tools. Native access to Framer with your own AI agents for deeper capabilities, custom skills and the latest model advancements.\nCopy install prompt\nClaude Code\nConnect Claude to Framer with full access to your canvas, components, CMS, and more. [Get Claude Code](https://claude.ai/).\nCopy install prompt\nCursor\nConnect Cursor to Framer with full access to your canvas, components, CMS, and more. [Get Cursor](https://www.cursor.com/).\nConnect Cursor to Framer with full access to your canvas, components, CMS, and more. [Get Cursor.](https://cursor.com/)\nCopy install prompt\nGemini CLI\nConnect Gemini CLI to Framer with full access to your canvas, components, CMS, and more. [Get Gemini CLI](https://geminicli.com/).\nCopy install prompt\nConnect your external agent\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\nRun the [install prompt](https://www.framer.com/#install) in your preferred AI. This installs the bridge your agent uses to talk to Framer.\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open.\nFrequently asked questions\nDo I need to set up a Framer MCP server?\nNo. Framer doesn’t require a separate MCP server. If you’re searching for a Framer MCP, the native Framer External Agent connection gives [Claude Code](https://www.anthropic.com/claude-code), [Cursor](https://cursor.com/), [Codex](https://openai.com/codex/), [Gemini CLI](https://github.com/google-gemini/gemini-cli), and other AI tools direct access to your canvas, components, CMS, and project context, without manual MCP setup.\nWhich AI agents are supported?\nFramer Agent works with any AI that can run a terminal command or call an MCP tool, including [Claude Code](https://www.anthropic.com/claude-code), [Codex](https://openai.com/codex/), [Cursor](https://cursor.com/), [Gemini CLI](https://github.com/google-gemini/gemini-cli), and [Windsurf](https://windsurf.com/). If your agent supports tools or a terminal, it can connect.\nCan the agent edit my live site?\nNo. The agent works on your canvas in the Framer editor, not on your published site. Changes only go live when you choose to publish them yourself or tell the agent.\nDoes the agent have access to my CMS?\nYes. Once connected, the agent can read and write CMS collections, including creating, updating, and deleting items. You stay in control of what gets published.\nIs it safe to give an agent access to my project?\nThe agent only has access to the projects you explicitly connect it to. It cannot access other projects, your account settings, or billing. You can revoke access at any time.\nWhat happens if the agent makes a mistake?\nFramer has [branching](https://www.framer.com/collaborate/), so every change made by an external agent automatically happens on a branch. You can undo changes, review the branch, and decide when to merge it back into your main branch.\nConnect Framer to Claude, Codex, Cursor, and more\nSkip the MCP setup. Framer works directly with Claude Code, Cursor, Codex, and other AI tools. Native access to Framer with your own AI agents for deeper capabilities, custom skills and the latest model advancements.\nCodex\nConnect Codex to Framer with full access to your canvas, components, CMS, and more. [Get Codex](https:",
+      "article_title_extracted": "Framer: Connect Claude Code, Cursor, and Codex",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-17T03:19:07.801302Z",
+      "description": "Use Framer with Claude Code, Cursor, Codex, and other AI tools. Connect directly to build and update sites—no Framer MCP setup required.",
+      "domain": "www.framer.com",
+      "embed_type": "",
+      "id": "k174q3wzdrrhaq2qy06rmsd6ex88vb2b",
+      "og_image_url": "https://framerusercontent.com/assets/l5NHCHdxjjzXXKhq2ItEri5BvHM.jpg",
+      "recommended_at": "2026-06-17T03:27:29.095000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "framer",
+        "ai-development",
+        "web-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T03:27:29.095000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Framer: Connect Claude Code, Cursor, and Codex",
+      "url": "https://www.framer.com/agents/external/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_image_urls": [
@@ -2767,7 +2999,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T05:05:26.898223Z",
+      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
       "article_image_urls": [
         "https://opacity.com/assets/images/og-image.jpg",
         "https://opacity.com/assets/images/product-shot.png",
@@ -2860,7 +3092,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T05:05:26.898223Z",
+      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/f738431fe1ebb9c065b585deace91026231214cf6553e4645381070128b69ad5/dinehq/convex-starter"
       ],
@@ -103460,7 +103692,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2167,
+      "count": 2173,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -103496,5 +103728,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-16T22:34:33.285477Z"
+  "updated_at": "2026-06-17T05:29:51.701227Z"
 }
