@@ -56,28 +56,6 @@
       "article_text_zh": "# 从“模型能不能做？”到“模型知不知道怎么做？”\n\n2026年已过半。回顾来看，今年最大的转变是Agent范式终于从演示阶段进入了生产阶段。从自动研究到长周期编码，从操作系统级操作到多工具编排，模型能力被重新组装：\n\n**Agent = 模型 + 框架**\n\n已成为几乎所有人的默认工程范式。\n\n过去几年我一直在做评估工作（FairEval、Video-MME等）和模型训练（MiMo和Reka），而过去一年则深耕于Agent评估领域。\n\n做得越多，我越觉得：这个领域正在经历范式转换，而我们大多数人仍在用旧尺子衡量新事物。\n\n所以我把这些想法写下来。这不是一篇综述——这是一篇立场文章，由构建过程中的挫折和迭代塑造而成。下面我将展开的大部分方法都来自Claw-Eval，这是我们团队构建的Agent评估框架。\n\n如果你做评估，希望这能帮到你。如果你构建Agent或模型，希望它能让你看到排行榜上的数字究竟指向什么。\n\n## 1. 什么才是好的评估？\n\n在我看来，一个好的评估同时做三件事。\n\n第一，它绘制模型能力的边界。一个好的基准不是只吐出一个数字的温度计——而是一张地图，告诉你模型*在哪里*有效、*在哪里*失效。\n\n第二，它推动评估方法论本身的发展。LLM作为评判者、更细粒度的步骤级评分、轨迹的结构化分析——这些方法论上的改进往往比任何单个基准的寿命更长久。\n\n第三，它打开新的想象力。这一点最被低估。\n\n典型案例：OSWorld和SWE-Bench是上一个时代最好的产物之一。OSWorld将评估从单轮问答推向了真实操作系统任务。SWE-Bench早早预见到了编程爆发，并为软件工程评估设定了标准。它们将框架从\"回答这个问题\"转变为\"在具有真实副作用的环境中操作\"。其影响远不止是往堆里又加了一个基准——它们**回溯性地定义了模型能力可能意味着什么。**\n\n最近，ProgramBench和RepoZero通过长周期编码任务进一步推动了这种想象力，这些任务需要在真实代码库中进行跨文件、跨模块的修改。不是完成一个函数——而是带着历史导航一个代码库。随着AutoResearch的出现，评估也随之跟进，让我们能够衡量开放式、长周期的研究任务。\n\n好的评估不仅衡量能力。它们定义了什么样的能力值得追求。\n\n## 2. 传统基准的天花板正在塌陷\n\n让我直说：很多我们曾经引以为傲的能力评估正在以可见的速度失去相关性。\n\n**知识基准的尴尬**\n\n模型不需要记住维基百科。当网络搜索是框架中的标准工具时，实时、截止日期后的知识总是一次查询之遥。在知识问答上刷更高分越来越像是在修补长尾——而这条尾巴的投资回报率持续下降。\n\n**长链推理基准的尴尬**\n\n魔方状态追踪、掷骰子概率链、复杂组合数学——这些问题的\"声望\"在Agent范式下正在被侵蚀。原因很简单：五行Python蒙特卡洛比20步心智链更可靠。一个能访问代码解释器的模型在这些问题上成功，不是因为它的\"推理深度\"——而是因为它意识到这应该用代码来做。\n\n框架在很多场景下绕过了长推理链的随机脆弱性。当我们在这些基准上看到分数攀升时，我们需要问：我们是在衡量能力，还是在衡量\"用了正确的工具\"？\n\n**一个必要的边界条件**\n\n上述论点仅在基础能力足够时成立。\n\n我不是说基础能力评估不重要。当模型尚未广泛达到前沿规模，或者你在处理小模型或特定垂直领域时，基础评估仍然是最可靠的找差距工具——这是一个原则。我要指出的是：当你的目标模型已经处于前沿时，将大量资源投入基础能力基准可能意味着在修补一个极长的尾巴，而蒸馏或数据合成最终也会赶上它。\n\n从中期来看，基础能力从大模型向下渗透到小模型，这使得这种分歧越来越没有意义。\n\n所以问题不是\"我们是否还应该衡量基础能力\"。\n\n而是\"对于前沿模型，主要的评估战场应该在哪里？\"\n\n## 3. 我们真正应该衡量什么？也许是\"委托智能\"\n\n现在进入建设性部分。\n\n在与Claude和GPT讨论后，我认为正确的名称是**委托智能**。\n\n核心论点很简单：我们需要衡量的不是模型能否做某事，而是它是否知道如何完成它。\n\n打个比方。一个好的工程师不会在脑子里计算2^37 × 1.0732——他们会打开计算器。他们的\"智能\"不在于在脑子里处理大数字。而在于**知道这个任务应该委托给计算器。** 同样，一个真正有能力的模型不需要把每种能力都内化到权重中。它需要知道：什么时候直接推理，什么时候调用工具，什么时候搜索，什么时候运行代码，什么时候暂停并交叉验证。\n\n在我看来，委托智能至少有三个维度：\n\n- **工具使用判断**：知道何时使用工具、使用哪个工具、使用什么参数\n- **信息综合与验证**：整合多源信息并评估来源可靠性\n- **路径选择**：在直接推理、代码执行和网络搜索之间做出选择\n\n**三个例子来建立直觉。**\n\n**例1：知识委托**\n\n**问题**：\"公司X 2026年第一季度的营收是多少？\"\n\n模型A从训练记忆中提取，自信地给出了2024年的数据。模型B立即意识到这需要当前信息，调用网络搜索，在两个独立来源间交叉验证，并返回带有来源归属和时间戳的答案。\n\n哪个更聪明？显然是模型B。B的自我意识胜过了A的记忆广度。\n\n**例2：计算委托**\n\n**问题**：\"如果你掷一个标准骰子10次，至少出现一次连续两个六的概率是多少？\"\n\n模型A手动计算条件概率——长链条，一步错就全错。模型B写五行Python蒙特卡洛，运行10万次模拟，得到稳定答案，并可选择提供95%置信区间。\n\nB没有\"更聪明的大脑\"。它有**更聪明的判断。**\n\n**例3：信息加权**\n\n**问题**：\"药物X对疾病Y有效吗？\"\n\n搜索返回三个来源：一篇《自然》上的随机对照试验、一篇个人博客、一篇2018年的过时综述。模型A均匀平均所有来源，给出模糊的\"可能有效\"。模型B优先考虑随机对照试验，指出博客权重低并给出理由，指出综述的时间局限性，并给出结构化、置信度校准的答案。\n\n这是信息综合的核心：加权，而不是平均。\n\n回到第一部分：那些重要的基准之所以重要，正是因为这些任务无法用\"原始脑力\"暴力破解。它们只能通过委托智能来解决。\"有想象力的场景\"和\"什么值得衡量\"是同一个循环。\n\n## 4. Claw-Eval实践：我们如何衡量委托智能\n\n理论听起来不错，但没有指标就只是口号。这一节是关于我们在Claw-Eval中实际做的事情。\n\n**两个维度：结果 + 路径**\n\n仅凭最终答案是不够的。Agent评估必须追踪两者：\n\n- **结果正确性**：设计具有可验证答案的任务——单元测试、数值结果、文件差异、API状态。如果机器能验证，就不要用LLM评判者。如果LLM评判者有效，就不要用人类。\n- **路径合理性**：记录所有工具调用，将轨迹作为审计面。关键是：承认存在许多有效路径。两个Agent可能解决同一个任务——一个通过搜索+综合，另一个通过代码+验证。如果路径合理且结果正确，两者都应计分。强制规定单一路径会损害评估公平性。\n\n**从Pass@k到Pass-all-k**\n\nPass@k衡量\"k次尝试中至少成功1次\"——这是近年来的主导指标。在Agent评估中，我们越来越倾向于使用**Pass-all-k**：**k次尝试中每一次都成功。**\n\n有趣的是**差距**：\n\n$$\\text{稳定性差距} = \\text{Pass@}k - \\text{Pass-all-}k$$\n\n- 大差距：模型靠运气——有时有效，但路径不稳定\n- 小差距：决策路径稳定且收敛\n\n只有当差距足够小时，我才认为模型的委托智能真正到位。稳定性本身就是判断力的信号。一个因为随机扰动而选错工具或跳过验证步骤的模型，不是一个\"知道怎么做\"的模型。\n\n人们也会问：为什么自己构建框架而不是用OpenClaw之类的东西？答案是更好的可审计性。\n\n更一般的答案是：将框架适应性视为一个独立的评估维度。一个真正强大的模型应该能在不同的提示模板、工具集和执行环境中保持稳定的性能。在未来的Claw-Eval运行中，我们会在多个框架配置下测试同一个模型，并观察分数方差——适应性本身就是一种泛化指标。\n\n**成本感知指标：Token效率**\n\n做对还不够——我们需要知道*花了多少成本*才做到。\n\nClaw-Eval还追踪token效率：模型能否以最少的工具调用、最短的轨迹、最少的token消耗得出正确答案？在生产中，这直接与成本挂钩。在评估中，它反映了模型的\"经济判断\"——一个花5万token的模型和一个花5千token的模型在同一个任务上不应被等同对待。\n\n我们的排行榜显示成本-准确率散点图。许多模型在准确率上相近，但在token成本上相差数倍。当然，这种权重取决于任务的关键性——在医疗或金融等高风险领域，正确性远重于成本。这种权衡本身就是评估设计应该考虑的一个维度。\n\n**一个我们开始衡量的维度：模型\"直觉\"**\n\n这是我觉得最引人入胜的部分。\n\n通过分析Agent的轨迹，我们注意到一个惊人的现象：**不同模型有截然不同的\"直觉\"，而目前没有主流基准衡量这一点。**\n\n我是什么意思？几个例子：\n\n- 有些Agent，没有完整阅读论文，就能精准定位方法部分的两个关键段落\n- 有些Agent，没有深入了解代码库，扫一眼目录结构就能告诉你哪些文件是核心的、哪些模式值得grep\n- 有些Agent，在信息明显不足的情况下，产生的初步判断已经接近最终答案——而其他Agent需要穷尽整个搜索/阅读循环才能收敛到同样的结论\n\n如果工具使用和路径选择是委托智能的\"可观察行为\"，那么直觉就是它的\"潜在预计算\"：它解释了为什么有些模型不需要尝试每条路径——它们从一开始就走对了路。这是更高层次的委托：不是\"知道如何找到答案\"，而是\"在还没找完之前就大致知道答案在哪里\"。\n\n这与准确率不同，也与token效率不同。两个准确率相同的模型可能有截然不同的直觉——一个尝试了每条路径直到偶然找到正确的，另一个直接走了过去。最终分数可能看不出差异，但轨迹让一切显而易见。Token效率是部分代理，但不能完全捕捉它。\n\n这些都是早期观察。但我越来越确信：谁能定义并衡量\"模型直觉\"，谁就在绘制下一个时代的能力地图。\n\n## 5. 被严重低估的工程挑战\n\n现在说一些不是\"智力\"层面的东西，但它们极大地影响你的评估结果是否可信。这是Claw-Eval团队流血最多的地方。\n\n我将其分为两组。\n\n**基础设施侧问题**\n\n- **模型服务稳定性**：在评估规模下，偶发的端点超时、速率限制、上下文窗口截断——所有这些都会污染结果。一次完整的评估运行可能需要几十个小时。中间的一次故障会让你怀疑一切。\n- **框架服务稳定性**：Agent评估对环境敏感度远高于QA评估。浏览器自动化卡死、Shell容器崩溃、文件系统状态漂移——这些都不是\"模型问题\"，但它们会被归因于模型。\n- **Docker资源充足性**：对于计算密集型任务，CPU、内存和磁盘配额必须充足。**隔离不仅是环境隔离——更是资源隔离。** 一个OOM任务可能拖垮整个评估流水线。\n\n**评估设计问题**\n\n- **模型-框架不匹配**：同一个模型在不同系统提示下可能相差20分。**不匹配严重损害跨模型可比性。** 这正是我们强调将适应性作为独立维度衡量的原因。\n- **模拟服务波动性**：网络搜索是评估中最棘手的工具之一。同一个查询今天和明天返回不同的结果——这使得\"真实答案\"发生漂移。要么使用快照，要么设计避免强时间敏感性的任务。\n\n**一个没有得到足够关注的维度：安全性**\n\n当Agent可以自主调用工具时，评估自然应该增加一个维度：模型是否调用了不该调用的工具、删除了不该删除的文件、泄露了不该泄露的信息？\n\n社区对此讨论不够，但当Agent可以在文件系统上操作并发出网络请求时，\"待在边界内\"和\"够聪明\"同样重要。\n\n在Claw-Eval中，我们设计陷阱任务来观察这些行为，安全违规在评分中具有一票否决权——这反映了安全应有的权重。\n\n## 结语：评估的下一站\n\n回到开头的三个标准：绘制能力边界、推动评估方法论、打开新的想象力。在Agent时代，三者都需要重新诠释。\n\n- 如果你构建Agent评估：优先考虑委托智能，关注Pass-all-k而不仅是Pass@k，将token效率作为一等指标，并开始思考如何衡量\"模型直觉\"。\n- 如果你构建基础能力评估：它们对小模型、垂直领域和差距检测仍然不可替代——只是要清楚你修补的差距是否在长尾中。\n- 如果你构建模型：Agent时代的强模型不是什么都知道的那个。而是知道什么时候做什么的那个。委托胜过记忆。\n\n---\n\n本文中的许多想法是通过与团队成员和社区朋友的讨论形成的，难免不完整。Agent评估仍然是一个非常早期的领域。我写的可能不对，但我希望它能给在这个方向探索的人提供一些有用的东西。",
       "article_text_zh_hash": "2437757154bd9a07",
       "id": "2056339539866886649"
-    },
-    {
-      "article_text": "Right now, it's too easy to let AI write the code while you skip the learning. The bug gets fixed but your mental model doesn't move. We are silently trading future capability for present-day speed, and the tools won't force us to do otherwise. That part has to come from you.\nThere's a default loop most of us have settled into. You paste in a spec or error message. The model hands you a fix. The symptom vanishes. You ship. Somewhere in that loop, the messy struggle between problem and solution stops happening at all.\nI've written before about cognitive surrender, the moment an AI reviewer's verdict quietly replaces your own. This is the solo version of that same loop. It's just you and the model. The model is faster, so you stop trying to compete on comprehension. Across thousands of these small interactions, what you can actually build without an AI looking over your shoulder gets a little weaker every week. None of these moments feel like a problem on the day they happen.\nI'm not anti-AI. I use these tools daily and have shipped more with them in the last year than in the years before it. But the default way we use them is optimized for one thing: closing tasks. That is a completely different goal from staying sharp enough to steer them over a career that spans a long time.\nThe studies are converging on the same point\nSeveral pieces of research over the last year have landed in roughly the same place.\nAnthropic ran a randomized trial in early 2026 where engineers learned a new Python library, half with AI assistance and half without. Both groups finished the tasks at the same speed. But the AI group bombed the follow-up comprehension quiz: 50% versus 67% for the manual group, with the gap widening on debugging. The interesting cut was inside the AI group itself. Engineers who used AI to ask conceptual questions scored above 65%. Engineers who copy-pasted the generated code scored under 40%. The tool didn't determine the outcome. The posture did.\nMIT's Your Brain on ChatGPT study compared essay writing across LLM, search-engine, and brain-only groups. EEG measurements showed brain connectivity scaling down with every layer of external support. The LLM group showed the weakest coupling. After writing the essay, 83% of LLM users couldn't quote a single line of what they had just produced. The researchers called this cognitive debt: saving mental effort today, paying for it in critical thinking tomorrow.\nA CHI 2026 study added a related finding. When people had LLM access at the start of a task, the LLM framed the entire problem. Even when the human did the rest of the work themselves, that initial anchoring produced measurably worse decisions. The order of operations mattered more than the total amount of AI used.\nDifferent methodologies reaching the same conclusion. Using AI without an active intent to learn quietly degrades the skill you're being paid for.\nThe tools default to shipping, not teaching\nIf you fire up a coding agent and stick to the defaults, everything is tuned for one metric: getting the task done. \nThe model writes the code. You accept it. The loop repeats. At no point does the tool pause and ask \"what do you think the problem is?\" or \"try writing the first five lines yourself.\"\nThat's where UX gravity is right now. Product teams get rewarded for merged changes and shorter cycle times, not for making you a sharper engineer. We all want fewer keystrokes, so the tools have sanded the friction away. The trouble is that friction was where the learning lived.\nA few companies have tried pushing back. \nAnthropic shipped Learning Mode for Claude, which uses Socratic questioning and stops to ask you to write code before continuing. OpenAI and Google have shipped similar features. Almost nobody uses them for real production work though if we're being real. We've quietly filed them under \"for students\" and that's a mistake. The same feature that helps a sophomore learn React works for a senior engineer learning Rust. You just have to be willing to feel like a beginner again.\n\"If the AI can do it, why do I need to understand it?\"\nA fair question. For some work, the answer is: you don't. If it's boilerplate, glue code, or a throwaway CI script you'll never look at again, delegate it. The opportunity cost of memorizing YAML syntax is too high.\nFor real software, pure delegation breaks down in a few specific places.\nWhen something breaks. AI-generated code crashes the same way human code does. \"The agent wrote it\" doesn't help you debug problems. Somebody on the team has to understand the architecture.\nWhen it's confidently wrong. LLMs hallucinate. The only defense against a plausible-looking incorrect answer is enough expertise to spot it.\nWhen the foundation changes. Code is temporary; systems are permanent. When frameworks update or a security review flags a structural issue, you can't re-prompt your way out. You need engineers who understand the system well enough to migrate it.\nWhen you leave the median. AI is brilliant at problems that have been solved a million times on GitHub. The further you stray from the median, the worse it gets. The hard, undocumented problems, the ones that justify a senior engineer's salary, still require deep understanding.\nWhen the market adjusts. That 20% drop in junior developer employment since 2022 isn't a fluke. Engineers who can only ship with AI, and not without it, are entering a labor pool that is already re-pricing what expertise is worth.\nIf you use AI to skip learning, you're trading future relevance for a slightly easier Tuesday.\nThe fix is in how you prompt, not whether you do\nThe good news is that the same tools that produce cognitive debt can produce sharper engineers. The difference is in what you ask of them.\nForm a hypothesis before you ask. Before requesting a fix, write down two or three sentences on what you think the problem is. Use the model's answer to test your theory, not to replace it.\nAsk for the explanation before the code. In unfamiliar territory, your first prompt should be something like \"explain how this works, what the alternatives are, and what the tradeoffs are.\" Ask for the code only after you've grasped the concepts.\nTurn on Learning Mode when you're out of your depth. Claude has it. ChatGPT has Study Mode. Gemini has Guided Learning. Yes, it feels slower. That's the point.\nTreat AI output like a PR from a junior engineer. Read it. Critique it. Push back on it. Would you merge it just because the tests passed? If not, don't merge it here either.\nRe-derive things by hand once in a while. Take a piece of code the model wrote for you and try to recreate it from scratch. It's the calibration check that tells you how much you've quietly lost.\nAsk the model to teach you what it just did. After it writes a clever function, ask what concepts it used and what you'd need to read to understand the design choice. One extra prompt changes what you take away from the session.\nNone of these are dramatic. They're small posture shifts inside the same tools you're already using.\nTwo metrics, not one\nI've started ending coding sessions with a simple question: did I learn anything today, or did I just close tickets?\nSometimes the honest answer is \"I just closed issues\" and that's fine. If it becomes the answer for months in a row, cognitive debt is accumulating in the background.\nShip and learn are two separate metrics. Your manager and your customers will only ever ask about the first one. The second is on you.\nI'd rather ship 80% of what I could have and learn 100% of what I needed to, than the reverse. Over years, those two strategies produce very different engineers.\nYou don't have to choose between using AI and learning. You do have to choose a workflow that does both, because the defaults won't choose it for you. The tools are ready whenever you are. \nThe next boring task you were about to delegate is a good place to start.",
-      "article_text_zh": "现在，让AI替你写代码而自己跳过学习过程，实在太容易了。Bug被修复了，但你的心智模型却毫无长进。我们正悄然用未来的能力换取当下的速度，而工具本身不会强迫我们做出改变。这部分必须由你自己来把握。\n\n我们大多数人已经陷入了一个默认循环：粘贴需求或报错信息，模型给出修复方案，症状消失，你发布上线。在这个循环的某个环节中，问题与解决方案之间那种混乱的挣扎过程，彻底消失了。\n\n我之前写过关于“认知投降”的文章——当AI评审者的结论悄然取代你自己的判断时。这是同一循环的单人版本。只有你和模型。模型更快，于是你不再试图在理解力上与它竞争。经过成千上万次这样的小交互，你实际能在没有AI监督下构建的能力，每周都在变弱。这些时刻在发生的当天，没有哪一个会让人觉得是个问题。\n\n我并不反对AI。我每天都在使用这些工具，过去一年里借助它们交付的成果比之前几年加起来还多。但默认的使用方式只优化了一件事：关闭任务。这与在漫长的职业生涯中保持足够敏锐以驾驭这些工具，是完全不同的目标。\n\n**多项研究正指向同一结论**\n\n过去一年里，几项研究大致得出了相同的结论。\n\nAnthropic在2026年初进行了一项随机试验，让工程师学习一个新的Python库，一半人使用AI辅助，另一半不使用。两组完成任务的速度相同。但AI组在后续的理解力测验中表现糟糕：正确率50%对67%（手动组），在调试环节差距更大。有趣的是AI组内部的差异：使用AI提出概念性问题的工程师得分超过65%；而直接复制粘贴生成代码的工程师得分低于40%。工具本身并未决定结果，是使用姿态决定了结果。\n\n麻省理工学院的“ChatGPT下的你大脑”研究比较了使用大语言模型、搜索引擎和仅靠大脑写论文的情况。脑电图测量显示，随着外部支持层级的增加，大脑连接性逐级下降。大语言模型组显示出最弱的耦合度。写完后，83%的大语言模型用户无法引用自己刚刚写出的任何一句话。研究人员称之为“认知债务”：今天节省脑力，明天为批判性思维买单。\n\nCHI 2026的一项研究补充了相关发现：当人们在任务开始时就能访问大语言模型时，模型框定了整个问题。即使人类完成了后续所有工作，这种初始锚定也会导致明显更差的决策。操作顺序比使用的AI总量更重要。\n\n不同的方法论得出了相同的结论：在没有主动学习意图的情况下使用AI，会悄然削弱你赖以谋生的技能。\n\n**工具默认偏向交付，而非教学**\n\n如果你启动一个编码智能体并坚持默认设置，一切都会围绕一个指标优化：完成任务。\n\n模型写代码，你接受，循环重复。工具在任何时候都不会停下来问“你认为问题是什么？”或“先自己写前五行试试。”\n\n这就是当前用户体验的重力方向。产品团队因合并变更和缩短周期而获得奖励，而不是因为让你成为更出色的工程师。我们都希望减少击键次数，所以工具已经磨平了摩擦。问题在于，摩擦正是学习所在。\n\n有几家公司曾尝试反向推动。\n\nAnthropic为Claude推出了“学习模式”，采用苏格拉底式提问，并会停下来要求你在继续之前自己写代码。OpenAI和Google也推出了类似功能。但说实话，几乎没有人会在实际生产工作中使用它们。我们悄然将它们归类为“给学生用的”，这是个错误。同一个能帮助大二学生学习React的功能，也能帮助资深工程师学习Rust。你只需要愿意再次像个初学者。\n\n**“如果AI能搞定，我为什么还要理解？”**\n\n这是个合理的问题。对于某些工作，答案是：你不需要。如果是样板代码、胶水代码或一个你永远不会再看的临时CI脚本，就交给它吧。记住YAML语法的机会成本太高了。\n\n但对于真正的软件，纯粹的委托在几个特定地方会失效。\n\n当出问题时。AI生成的代码和人类代码一样会崩溃。“是智能体写的”并不能帮你调试问题。团队中必须有人理解架构。\n\n当它自信地犯错时。大语言模型会幻觉。对抗看似合理但错误的答案的唯一防线，是足够的专业知识来识别它。\n\n当基础发生变化时。代码是暂时的，系统是永久的。当框架更新或安全审查标记出结构性问题时，你不能靠重新提示来脱身。你需要理解系统到足以迁移它的工程师。\n\n当你偏离中位数时。AI在GitHub上被解决过百万次的问题上表现出色。你离中位数越远，它表现越差。那些困难、无文档记录的问题——正是资深工程师薪水的依据——仍然需要深刻理解。\n\n当市场调整时。自2022年以来初级开发者就业率下降20%并非偶然。只能借助AI交付、离开AI就无法工作的工程师，正进入一个已经在重新评估专业知识价值的劳动力市场。\n\n如果你用AI跳过学习，你是在用未来的相关性换取一个稍微轻松点的星期二。\n\n**解决之道在于你如何提问，而非是否提问**\n\n好消息是，那些产生认知债务的同一批工具，也能培养出更敏锐的工程师。区别在于你向它们提出什么要求。\n\n在提问前先形成假设。在请求修复之前，写下两三句话，说明你认为问题是什么。用模型的答案来检验你的理论，而不是取代它。\n\n先要求解释，再要求代码。在不熟悉的领域，你的第一个提示应该是“解释这是如何工作的，有哪些替代方案，以及各自的权衡是什么。”只有在理解概念之后，才要求代码。\n\n在超出自己深度时开启学习模式。Claude有，ChatGPT有学习模式，Gemini有引导式学习。是的，感觉更慢。这正是关键所在。\n\n把AI输出当作初级工程师的代码评审。阅读它，批评它，反驳它。你会仅仅因为测试通过就合并它吗？如果不会，那这里也不要合并。\n\n偶尔亲手重新推导。拿一段模型为你写的代码，尝试从头重新创建。这是校准检查，告诉你自己悄然失去了多少。\n\n让模型教你它刚刚做了什么。在它写了一个巧妙的函数后，问它使用了哪些概念，以及你需要阅读什么才能理解这个设计选择。多一个提示，就能改变你从这次会话中带走的东西。\n\n这些都不是戏剧性的变化。它们是在你已经在使用的同一批工具内部，做出的微小姿态调整。\n\n**两个指标，而非一个**\n\n我开始用这样一个简单问题来结束编码会话：我今天学到了什么，还是只是关闭了工单？\n\n有时诚实的答案是“我只是关闭了问题”，这没问题。但如果连续几个月都是这个答案，认知债务就在暗中累积。\n\n交付和学习是两个独立的指标。你的经理和客户只会问第一个。第二个取决于你自己。\n\n我宁愿交付我能做到的80%，而学到我需要知道的100%，也不愿反过来。多年之后，这两种策略会造就截然不同的工程师。\n\n你不必在“使用AI”和“学习”之间做出选择。但你必须选择一个能兼顾两者的工作流程，因为默认设置不会替你选择。工具随时待命。\n\n你正要委托出去的下一个无聊任务，就是一个很好的起点。",
-      "article_text_zh_hash": "657a71a8b1ee8c59",
-      "id": "2056078124346228860"
-    },
-    {
-      "article_text": ".This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start\nA short recap of the AI Engineering Loop\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n \nYou can read more on this here.\nHow datasets fit into the loop\nSo far, we've covered the first two steps of the AI engineering loop: tracing your application and monitoring its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.\nNow the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.\nA dataset is a collection of test cases that you run your application against each time you make a change (\"an experiment\"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.\nThe dataset item\nA dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:\nInput (required)\nExpected output (optional)\nMetadata (optional)\nThe three fields of a dataset item\n \nA good mental model:\n \nCommon expected output patterns\nWhether you need an expected output, and what it looks like, depends on which type of evaluator you use.\nReference-based versus reference-free evaluators\nSome evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).\nExact match\nThe expected output is the literal correct answer. For example:\nA classification task where the correct label is \"billing_inquiry\"\nAn extraction task where the expected entities are [\"Paris\", \"Thursday\"]\nReference answer\nThe expected output is a gold-standard response that shows what a good output looks like. The evaluator can compare the test's output against this example, for instance by checking semantic similarity or whether the key points match.\nEvaluation criteria\nThe expected output is a list of checks or requirements the output should satisfy. For example:\n\"must mention the refund policy\"\n\"must include a link to the help center\"\nThe evaluator checks whether the output meets these criteria.\nNothing\nSometimes no expected output is required at all. If you're just checking whether:\nthe tone is professional\nthe response is safe\nthe output follows a required format\nYour dataset items don't need anything other than an input as you will use a reference-free evaluator.\nCombination of the above\nBecause you can run a combination of different evaluators on a single dataset item, a dataset item's expected output field can also contain multiple types of reference data. The expected output is a JSON field, so you can store multiple types of reference data without a problem.\nWhat makes a good dataset\nA good dataset mirrors what your system will encounter in production. If passing the dataset gives you confidence before deploying, it's doing its job.\nClear in scope. Each dataset should have a well-defined scope. That can be end-to-end if you treat internal steps as implementation details, or it can target an individual step like retrieval or summarization if that's the part you're trying to improve. You'll likely end up with multiple datasets, each with a clear purpose.\n \nThe right size for the workflow. Some datasets are small and fast enough to run on every push as part of your CI/CD pipeline. Others are larger and more comprehensive, and are useful to run periodically but too slow for every minor change.\n \nWhere to start\nStart with the most concrete examples you have, then expand coverage once you know what you are trying to test.\nPull examples from production traces that you spotted and would like to improve, either as-is or anonymized or transformed by AI.\nAdd hand-written cases based on predefined requirements, edge cases, or behaviors your agent must handle reliably.\nGenerate synthetic examples with AI once you know which dimensions you want to cover more broadly.\nWhat comes next\nOnce you have a dataset, the next step is running your system against it to see how changes affect output quality. This is what experiments are for.",
-      "article_text_zh": "这是 Langfuse Academy 系列文章中的一篇，我们将带您完整走一遍 AI 工程生命周期。如果您是第一次接触这个系列，建议从《AI 工程循环》开始阅读。\n\n### AI 工程循环简述\n\nAI 工程循环是团队持续改进 AI 系统的方法。它将生产环境中发生的情况（追踪、监控）与开发阶段的结构化迭代（数据集、实验、评估）连接起来。每次交付的改进都会产生新数据，团队通过这个过程不断循环。\n\n您可以在此处阅读更多内容。\n\n### 数据集在循环中的位置\n\n到目前为止，我们已经介绍了 AI 工程循环的前两个步骤：追踪您的应用并实时监控其行为。这些步骤让您了解系统实际在做什么，并为您提供改进思路。\n\n现在的问题是：当您发现值得改进的地方时，如何在部署到生产环境之前测试更改？循环的下三个步骤正好解决了这个问题，而这一切都从数据集开始。\n\n数据集是一组测试用例的集合，每次进行更改（即“实验”）时，您都会用这些测试用例来运行您的应用。这样，您无需直接部署并寄希望于一切顺利，而是能在一组代表真实使用场景的输入上，获得可重复、一致的检查结果。\n\n### 数据集项\n\n数据集由多个项组成，每个项代表一个测试用例：即您的应用应该能够处理的一种情况。通常，一个项包含三个字段：\n\n*   **输入**（必填）\n*   **预期输出**（可选）\n*   **元数据**（可选）\n\n数据集项的这三个字段\n\n一个好的思维模型：\n\n### 常见的预期输出模式\n\n是否需要预期输出，以及它应该是什么样子，取决于您使用的评估器类型。\n\n#### 基于参考与无参考评估器\n\n有些评估器会根据预定义的预期输出进行检查（基于参考）。另一些评估器则无需真实答案进行比较，直接评估输出（无参考）。\n\n*   **精确匹配**\n    预期输出是字面上的正确答案。例如：\n    *   一个分类任务，正确标签是 \"billing_inquiry\"\n    *   一个提取任务，预期实体是 [\"Paris\", \"Thursday\"]\n\n*   **参考答案**\n    预期输出是一个黄金标准答案，展示了好的输出应该是什么样子。评估器可以将测试输出与此示例进行比较，例如通过检查语义相似度或关键点是否匹配。\n\n*   **评估标准**\n    预期输出是一系列输出应满足的检查项或要求。例如：\n    *   \"必须提及退款政策\"\n    *   \"必须包含帮助中心的链接\"\n    评估器会检查输出是否满足这些标准。\n\n*   **无预期输出**\n    有时根本不需要预期输出。如果您只是检查：\n    *   语气是否专业\n    *   回复是否安全\n    *   输出是否符合要求的格式\n    那么您的数据集项只需要输入，因为您将使用无参考评估器。\n\n*   **上述组合**\n    由于您可以在单个数据集项上运行多种不同的评估器，因此数据集项的预期输出字段也可以包含多种类型的参考数据。预期输出是一个 JSON 字段，因此您可以毫无问题地存储多种类型的参考数据。\n\n### 什么是好的数据集\n\n一个好的数据集能反映您的系统在生产环境中会遇到的情况。如果通过数据集能让您在部署前充满信心，那么它就完成了任务。\n\n*   **范围清晰**。每个数据集都应有明确定义的范围。如果您将内部步骤视为实现细节，那么范围可以是端到端的；或者，如果您想改进检索或摘要等特定步骤，也可以针对单个步骤。您最终可能会有多个数据集，每个都有明确的用途。\n\n*   **大小适合工作流程**。有些数据集很小且运行速度快，可以作为 CI/CD 流水线的一部分在每次提交时运行。其他数据集则更大、更全面，适合定期运行，但对于每次小改动来说太慢了。\n\n### 从何处开始\n\n从您手头最具体的例子开始，一旦您清楚要测试什么，再扩大覆盖范围。\n\n*   从生产追踪中发现的、您想要改进的示例中提取，可以是原样、匿名化或由 AI 转换后的形式。\n*   根据预定义的需求、边缘情况或您的智能体必须可靠处理的行为，手动编写用例。\n*   一旦您知道要更广泛地覆盖哪些维度，就使用 AI 生成合成示例。\n\n### 下一步是什么\n\n一旦您有了数据集，下一步就是运行您的系统来测试它，看看更改如何影响输出质量。这正是实验的目的所在。",
-      "article_text_zh_hash": "7078f729418b149c",
-      "id": "2056032201259831398"
-    },
-    {
-      "article_text": "选择关注谁，决定你会成为什么。\n最近这一年，我越来越明显地感觉到一件事：很多人每天都在高强度「关注 AI」，但真正开始动手做东西的人，其实并不多。\n每天打开 X、小红书、YouTube，你都会看到大量关于 AI 的内容。有人分析行业趋势，有人预测未来职业，有人讨论 Agent 会如何改变世界，也有人不断强调「普通人最后的机会来了」。\n这些内容本身并没有问题。很多人讲得确实好，逻辑清晰，表达有感染力，也帮助了不少人第一次接触 AI。\n但看久了之后，你会慢慢产生一种奇怪的感觉：你好像知道了很多东西，却又什么都没有真正开始。\n你收藏了几十篇「AI 创业指南」，关注了一堆「未来趋势」博主，也记住了大量热门词汇——MCP、Agent、Workflow、RAG、Multi-Agent。可回头看时会发现，自己真正做过的事情其实很少。\n这种状态我自己也经历过。有段时间，我每天刷大量 AI 内容，今天有人说「AI 将淘汰程序员」，明天有人说「一个人公司时代来了」，后天又有人说「未来属于超级个体」。每句话都让人产生「再不行动就晚了」的紧迫感，可真正让我开始改变的，并不是那些宏大的观点，而是后来我越来越多地开始关注一些真正下场做事的人。\n一、网红讲趋势，Builder 讲怎么做\n网红的价值一直存在。他们擅长总结趋势、提炼观点、放大情绪，能让更多人第一次理解 AI 到底意味着什么。\n但大部分趋势内容有一个共同特点：它们更像一种「认知消费品」。你看的时候很兴奋，觉得自己已经理解了这个时代，但这种理解往往停留在观点层面，不会真正转化成行动。\n比如有人会不断告诉你：「未来一定属于 Agent」「AI 会重构所有行业」「不会用 AI 的人会被淘汰」。这些话可能都没错，但对于真正想做事的人来说，他更关心的问题是：Agent 到底解决了什么真实需求？用户为什么愿意付费？什么场景是真的高频？一个普通人应该从哪里开始？\n这些问题，往往只有真正做过产品的人才会聊。因为它们不是观点，而是经验。经验这种东西通常不够「性感」，甚至有点狼狈，但恰恰最接近真实世界。\n二、Builder 的分享，会让你第一次认真想「怎么做」\n我现在越来越喜欢看独立开发者的分享，原因很简单：他们讲的东西通常格外具体。\n \n前段时间我看到一个开发者分享，说他最开始做 AI 产品时，一直以为用户最需要「AI 帮忙生成内容」，于是花了很多时间做 AI 写作、AI 总结之类的功能，技术做得不差，但用户始终不愿意付费。后来他偶然接触到一些跨境电商卖家，发现这些人每天都在重复做一件枯燥的事：整理 SKU、填写产品信息、同步平台数据。于是他花了一个周末，做了一个帮卖家自动整理商品表格的小工具。界面不漂亮，功能也不复杂，但上线后很快就有了付费用户。\n这个例子让我印象极深。因为它说明真实市场和想象中的市场完全不一样——很多付费需求，不过是帮别人节省一点时间，减少一点重复劳动。\n类似的还有一个人的经历：他最开始迷恋「做大产品」，想做平台、做生态、做所有人都会用的 AI 应用。折腾了大半年，功能越来越多，系统越来越复杂，但始终没人真正留下来。最后反而靠一个很小的功能活了下来：帮用户自动把会议录音整理成客户沟通纪要。这功能一点都不酷，也没有什么「AGI 感」，但因为它解决的是企业里每天都会出现的真实问题，用户愿意长期付费。\n还有一种内容我现在尤其珍惜：那些坦率承认失败的分享。有人花了两个月做产品，发现根本没人用，决定关掉；有人认真复盘为什么广告投放毫无效果，为什么自以为很重要的功能用户根本不在意。\n这种分享在互联网上很少见，因为大家更偏爱成功故事——「上线即爆火」「一个人三个月 ARR 十万美元」。但真正做过东西的人都知道，现实里大部分项目不会成功。很多产品上线后没用户、没增长、没转化，开发者默默停掉服务器，项目就结束了。而这些失败经验，反而比成功学更有价值。\n三、Builder 的日常，远没有想象中光鲜\n互联网很容易把「独立开发」「AI 创业」包装得浪漫：一个人坐在咖啡馆里用 MacBook 敲代码，白天旅居，晚上收美元，产品自动增长，自由、松弛、充满未来感。\n但真实世界里的 Builder，大部分时候没那么光鲜。更多时候是白天改需求，晚上修 bug；上线后发现支付流程坏了；landing page 改了五版，转化率还是很低；广告投出去，一个注册都没有；半夜两点还在查接口为什么突然报错；好不容易来了几个用户，一半还是朋友支持。\n很多做过产品的人应该都经历过一个经典瞬间：熬夜两个星期终于上线，满脑子想着「会不会突然爆掉」，打开后台发现第一天总共十几个访问，大部分还是自己测试的。\n那一瞬间挺打击人的。因为你第一次真正意识到，互联网不会因为你「很努力」就自动给你用户。\n但也是从这个阶段开始，一个人才真正进入「做事情」的世界。你会慢慢明白，真正难的不是「想到一个点子」，而是后面那些没人愿意讲的东西：怎么持续迭代、怎么理解用户、怎么面对长期没有反馈、怎么在没人鼓掌的时候继续做下去。\n如果长期只看网红，你很容易以为成功靠的是风口、流量和一次爆点。但如果你长期关注真正做事的人，你会发现真实世界非常朴素：有人做了二十个小产品，第二十一个才开始赚钱；有人持续发了半年内容，才接到第一个客户；有人把 onboarding 流程改了八次，留存率才终于提升。这些故事不刺激，也不容易传播，但它们会让你开始接受「慢慢来」这件事。\n四、别只围观，开始动手\n现在有一种很普遍的现象：很多人以为自己在「进入 AI 行业」，其实只是在围观。他们每天看最新模型、最新趋势，能聊很多概念，但真正需要动手时，始终停留在「等自己准备好」。\n可问题是，很多能力本来就是做出来的。你不上线一个产品，就不会理解什么叫用户反馈；不真正服务客户，就不知道什么需求有人付费；不真正踩坑，就不知道什么问题最麻烦。\nBuilder 最大的不同在于，他们会先开始做。哪怕产品很小，哪怕做得粗糙，哪怕没人关注，哪怕最后失败。因为他们知道，真实反馈永远比空谈趋势更重要。\n我不是说网红没价值——好的表达者依然重要，他们能帮更多人打开视野。但如果你真的想在 AI 时代做一点自己的事情，别只看别人讲世界，也多看看那些正在亲手做世界的人。\n \n如果你不知道从哪里开始找到这些人，可以去 X 上搜 #buildinpublic 标签，去 Product Hunt 看每天有什么新产品上线，去 Indie Hackers 读创始人的真实故事，去即刻关注「独立开发者」话题。这些地方聚集着大量正在一边做、一边分享的人。\n更重要的是，最好你自己也慢慢变成这种人。哪怕只是做一个很小的工具，自动化一个重复流程，接到第一个客户，赚到第一笔几十美元的收入，记录一次失败，认真写一次复盘。\n这些事情，可能都比继续收藏十篇「AI 趋势分析」更有价值。\n因为 AI 时代真正拉开人与人差距的，可能已经不是谁最懂趋势，而是谁开始真正动手了。",
-      "id": "2055904097358794948"
-    },
-    {
-      "article_text": "Memory APIs are not a viable product category, and skill systems are just markdown. We've been saying it for a while.\n@sarahwooders and @hwchase17 made the case last month that memory isn't a plugin and that it is the harness instead. \nI made the same argument earlier, from the other side. We argued in a post that got 1.7M views that skills aren't static files. Skills degrade silently in dynamic environments. They need a loop — Observe → Inspect → Amend → Evaluate.\nBoth arguments are in essence about the same harness. A world model.\nTreat skills and memory as the same harness\nA world model is whatever the agent is aware of and what it uses to predict the next action it should take.  In an agent harness, it is a broad state of all things you touch: the codebase layout, the tool schemas, the file system, the last 20 turns of conversation and the user's preferences. \nThe world model is the entire aggregate of context that the harness loads to decide the next step.\nYou can look at memory as a broad harness and skill as a specific one.\nIs skill a subset of memory?\nSkills are the part that records what to do. A SKILL.md is a procedure-level claim: \"to do task T, run steps X, Y, Z.\"\nSkills extend memory with a practical ability to do N tasks. Skills are a compressed procedure. It says \"the world has responded to X, Y, Z by producing T in the past, and probably will again.\"\nMemory observes the world while skills codifies it into a rule.\nWe've extended cognee to store skills and memory in the same store. Self-improvement runtime and agentic retriever share the same graph nodes.\nHow Cognee handles it? \ncognee.remember(\"skills/\") now lets you ingest skills with one line. \nInside Cognee a SkillChangeEvent emits memory events when skill changes. The skill is a memory node that evolves, is traceable, and controllable.\nSkills improve by reading their memory. Memory improves by amending the skills attached to it. There's no clean line between them because there should not be one.\nWe have recently organized a hackathon where users built 21 LLM Knowledge Wikis in 3 hours using Cognee and Redis as session store!\nAnd they did so because it was quite easy to manage skills\n \nConclusion\nEvery world model outside board games is permanently misspecified. The harness's job isn't to fix the schema. It's to run a controller on top of one that's wrong by construction. Cognee is that controller, and skill self-improvement is the first step.\nIt doesn't matter if you use a memory api, skills, or an agent md file.  Even compaction strategies are part of the same play.  \nIt is the same world model.\nThe harness that wins treats memory and skills as one comprehensive world model from the start.\nImho, if your memory system can't route a skill, it's not memory, let alone a world model.",
-      "article_text_zh": "## 记忆API并非可行的产品类别，技能系统不过是Markdown\n\n我们一直在强调这一点。\n\n@sarahwooders 和 @hwchase17 上个月提出，记忆不是插件，而是\"harness\"（代理框架）。我也从另一个角度提出过同样的观点。在一篇获得170万浏览量的文章中，我们论证了技能不是静态文件——技能在动态环境中会无声地退化，它们需要一个循环：观察→检查→修正→评估。\n\n这两个论点本质上都在讨论同一个\"harness\"——世界模型。\n\n## 将技能与记忆视为同一个harness\n\n世界模型是代理所感知的一切，以及它用来预测下一步行动的依据。在代理harness中，它是一个涵盖所有接触对象的广泛状态：代码库结构、工具模式、文件系统、最近20轮对话以及用户偏好。世界模型是harness为决定下一步行动而加载的全部上下文聚合体。\n\n你可以将记忆视为广义的harness，而技能则是特定的一种。\n\n## 技能是记忆的子集吗？\n\n技能是记录\"如何做\"的部分。一个SKILL.md文件是一个过程层面的声明：\"要完成任务T，请执行步骤X、Y、Z。\"\n\n技能通过执行N个任务的实际能力来扩展记忆。技能是一种压缩后的过程——它表明\"世界过去曾通过执行X、Y、Z来产生T，未来很可能也会如此\"。记忆观察世界，而技能将其编码为规则。\n\n我们扩展了cognee，将技能和记忆存储在同一个存储中。自我改进运行时和代理检索器共享相同的图节点。\n\n## Cognee如何处理？\n\n`cognee.remember(\"skills/\")` 现在允许你一行代码即可导入技能。在Cognee内部，当技能发生变化时，SkillChangeEvent会发出记忆事件。技能是一个可演化、可追踪、可控制的记忆节点。\n\n技能通过读取其记忆来改进，记忆通过修改其附带的技能来改进。两者之间没有清晰的界限——因为本就不该有。\n\n我们最近组织了一场黑客马拉松，用户使用Cognee和Redis作为会话存储，在3小时内构建了21个LLM知识Wiki！他们之所以能做到，是因为管理技能非常容易。\n\n## 结论\n\n所有棋盘游戏之外的世界模型都永久性地存在规格偏差。harness的职责不是修正模式，而是在一个天生有缺陷的模式之上运行控制器。Cognee就是那个控制器，而技能自我改进只是第一步。\n\n无论你使用记忆API、技能还是agent md文件，甚至压缩策略，都属于同一套玩法。它们都是同一个世界模型。\n\n最终胜出的harness，从一开始就将记忆和技能视为一个统一的世界模型。\n\n依我之见，如果你的记忆系统无法路由技能，那它连记忆都算不上，更别提世界模型了。",
-      "article_text_zh_hash": "f5fe3ffb8e2663bc",
-      "id": "2055876832797581406"
     }
   ],
   "linked_content_by_url": {
@@ -307,6 +285,27 @@
       "text_excerpt_zh": "",
       "title": "BirkeyCo",
       "url": "http://birkey.co"
+    },
+    "http://cnb.cx/4vfsnNh": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "CNBC spoke to people who've worked with SpaceX's president and chief operating officer.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.cnbc.com/2026/06/16/gwynne-shotwell-spacex-elon-musk-ipo.html?taid=f0ac60b7-63e9-48c2-ab63-8b4f864aca04&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter",
+      "frameable": false,
+      "image_urls": [
+        "https://image.cnbcfm.com/api/v1/image/108321534-1781310577918-gettyimages-2281247867-6k4a6625_mzphxnwp.jpeg?v=1781310631&w=1920&h=1080",
+        "https://static-redesign.cnbcfm.com/dist/d6085c9e81f4d7365c8d.svg",
+        "https://static-redesign.cnbcfm.com/dist/93743f20be95b721880f.svg",
+        "https://static-redesign.cnbcfm.com/dist/69ae09b80acd376e9c97.svg",
+        "https://image.cnbcfm.com/api/v1/image/108231480-1764054713451-Kai_headshot.jpg?v=1764054738&w=60&h=60&ffmt=webp",
+        "https://static-redesign.cnbcfm.com/dist/17269f1b6083fd5f61be.svg",
+        "https://static-redesign.cnbcfm.com/dist/09c161b9810767a7849e.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "In 2002, [SpaceX](https://www.cnbc.com/quotes/SPCX/) founder [Elon Musk](https://www.cnbc.com/elon-musk/) poached Gwynne Shotwell as one of his earliest hires at the less-than-a-year-old startup.\nTwenty-four years later, Shotwell leads the company's day-to-day running as president and chief operating officer and rang the trading bell on the Nasdaq trading floor for the company's [blockbuster IPO](https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html) on Friday. She's also one of the largest individual shareholders in SpaceX, with her stake worth around $2 billion at market close on the stock's debut on Friday.\nCNBC spoke to four people who Shotwell worked with and said that, while Musk is the visionary behind the company's direction, Shotwell is the one getting stuff done.\n\"While Elon's setting the vision, she's the one making sure it gets delivered,\" Nathan Silvernail, who spent seven years at SpaceX as an engineer on projects like life support systems from 2014 to 2021, told CNBC.\n\"She handles the operational execution that actually keeps the business running and brings in the funding,\" he said. Shotwell, Silvernail added, is the \"one taking the meetings with customers, building those relationships, closing the contracts.\"\nToday, Shotwell, 62, oversees SpaceX's 22,000-person full-time workforce, after steering the company's early Falcon rocket development and contracts with NASA.\nAn engineer by background, Shotwell graduated from Northwestern University with a bachelor's degree in mechanical engineering and a master's in applied mathematics.\nOriginally hired as vice president of business development, Musk made Shotwell president in 2008.\nSpaceX did not respond to a request for comment for this story, but Shotwell described her working relationship with Musk in [a sit-down interview with CNBC](https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html), broadcast on Friday, the day of the IPO.\n\"When Elon asked me to be president we made very clear what is my job jar and what is his job jar,\" Shotwell said.\n\"I feel like I'm there as a partner to help him get the things done that need to get done, and I tend to focus on the day-to-day of the business operations, and he focuses on high-level strategy, as well as super deep dive on the technical.\"\nShotwell has managed everything from rocket development to the creation of [Starlink](https://www.cnbc.com/2026/06/11/spacex-starlink-growth-getting-harder-ahead-of-ipo.html) and, more recently, the integration of xAI. She also talks to customers, regulators and, now, public investors. Shotwell is also one of the company's eight board members.\n\"At the beginning, she sold launches when SpaceX wasn't launching successfully and keeping the customers happy while launches slipped out,\" said Kathryn Lueders, who spent more than 15 years as a program manager and administrator at NASA, working directly with Shotwell, before joining SpaceX as a general manager for two years, from 2023 to 2025.\n\"She has always been pulled in to be the steady interface for customers, stakeholders and the public,\" added Lueders, who now advises space companies, including Germany's The Exploration Company and space station company Vast.\nSpaceX's early Falcon 1 launches failed to reach orbit, but its fourth launch in 2008 saw it become the first privately developed liquid-fueled rocket to reach Earth orbit.\nPhil McAlister, a director at NASA for more than 19 years, had meetings and conversations with Shotwell and Musk about the development of the reusable Falcon 9 launch vehicle and Crew Dragon capsule.\nSpaceX used both to make history in 2020, when it became the first private company to transport astronauts to the International Space Station.\n\"I've never seen her dawdle when having to make a decision,\" McAlister said of Shotwell.\n\"She collects the information available and moves forward, even if the information is incomplete,\" he added. \"However, she is willing to revisit decisions if even",
+      "title": "How Elon Musk's second-in-command Gwynne Shotwell helped turn SpaceX into an IPO giant Who is Gwynne Shotwell, Elon Musk's second-in-command at SpaceX?",
+      "url": "http://cnb.cx/4vfsnNh"
     },
     "http://cohere.com/careers": {
       "cleaner_v": 2,
@@ -976,22 +975,6 @@
       "title": "",
       "url": "http://x.com/i/article/2053482765333540868"
     },
-    "http://x.com/i/article/2053986800050524160": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2053986800050524160",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIfu7HiawAA1ooX?format=jpg&name=900x900)](http://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874454321020928)\n\nMemory isn't a plugin. Skills aren't a plugin. They're the same harness.\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2053986800050524160/tricalt)\n\n[Vasilije](http://x.com/i/article/2053986800050524160/tricalt)\n\n[@tricalt](http://x.com/i/article/2053986800050524160/tricalt)\n\n·\n\nMay 17\n\nFollow\n\nClick to Follow tricalt\n\n10\n\n72\n\n527\n\n[55K](http://x.com/i/article/2053986800050524160/tricalt/status/2055876832797581406/analytics)\n\nMemory APIs are not a viable product category, and skill systems are just markdown. We've been saying it for a while.\n\n[@sarahwooders](https://x.com/@sarahwooders)\n\n and \n\n[@hwchase17](https://x.com/@hwchase17)\n\n made the case last month that memory isn't a plugin and that it is the harness instead. \n\nI made the same argument earlier, from the other side. We argued in a post that got 1.7M views that \n\n[skills aren't static files](https://x.com/tricalt/status/2032179887277060476)\n\n. Skills degrade silently in dynamic environments. They need a loop — Observe → Inspect → Amend → Evaluate.\n\nBoth arguments are in essence about the same harness. A world model.\n\n## \n\nTreat skills and memory as the same harness\n\nA world model is whatever the agent is aware of and what it uses to predict the next action it should take. In an agent harness, it is a broad state of all things you touch: the codebase layout, the tool schemas, the file system, the last 20 turns of conversation and the user's preferences. \n\nThe world model is the entire aggregate of context that the harness loads to decide the next step.\n\nYou can look at memory as a broad harness and skill as a specific one.\n\n## \n\nIs skill a subset of memory?\n\nSkills are the part that records what to do. A SKILL.md is a procedure-level claim: \"to do task T, run steps X, Y, Z.\"\n\nSkills extend memory with a practical ability to do N tasks. Skills are a compressed procedure. It says \"the world has responded to X, Y, Z by producing T in the past, and probably will again.\"\n\nMemory observes the world while skills codifies it into a rule.\n\nWe've extended cognee to store skills and memory in the same store. Self-improvement runtime and agentic retriever share the same graph nodes.\n\n## \n\nHow Cognee handles it? \n\ncognee.remember(\"skills/\") now lets you ingest skills with one line. \n\nInside Cognee a SkillChangeEvent emits memory events when skill changes. The skill is a memory node that evolves, is traceable, and controllable.\n\nSkills improve by reading their memory. Memory improves by amending the skills attached to it. There's no clean line between them because there should not be one.\n\nWe have recently organized a hackathon where users built 21 LLM Knowledge Wikis in 3 hours using Cognee and Redis as session store!\n\nAnd they did so because improving skills and memory is trivial in our new API:\n\npython\n\n```python\n    proposal_result = await cognee.remember(\n        SkillRunEntry(\n            selected_skill_id=skill_to_improve,\n            task_text=\"Review the current skiill,\n            result_summary=\"Review missed boundary bug.\",\n            success_score=score,\n            feedback=-1.0 if score < 0.7 else 1.0,\n        ),\n        dataset_name=DATASET,\n        session_id=SESSION,\n        skill_improvement={\n            \"skill_name\": skill_to_improve,\n            \"apply\": False,\n            \"score_threshold\": 0.9,\n        },\n    )\n```\n\n[![Image](https://pbs.twimg.com/media/HIfvVw4bkAAUfCy?format=jpg&name=small)](http://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874912095801344)\n\nHow self-improvement works for Skills added to Cognee\n\n## \n\nConclusion",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIfu7HiawAA1ooX?format=jpg&name=900x900)](http://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874454321020928)\n\n记忆不是插件。技能也不是插件。它们是同一个 harness。\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](http://x.com/i/article/2053986800050524160/tricalt)\n\n[Vasilije](http://x.com/i/article/2053986800050524160/tricalt)\n\n[@tricalt](http://x.com/i/article/2053986800050524160/tricalt)\n\n·\n\n5月17日\n\n关注\n\n点击关注 @tricalt\n\n10\n\n72\n\n527\n\n[55K](http://x.com/i/article/2053986800050524160/tricalt/status/2055876832797581406/analytics)\n\nMemory API 不是一个可行的产品类别，而技能系统不过是 markdown。我们早就这么说过。\n\n[@sarahwooders](https://x.com/@sarahwooders) 和 [@hwchase17](https://x.com/@hwchase17) 上个月论证过，记忆不是插件，而是 harness 本身。\n\n我也从另一面提出过同样的论点。在一篇获得 170 万次浏览的帖子中，我们论证了[技能不是静态文件](https://x.com/tricalt/status/2032179887277060476)。技能在动态环境中会无声地退化。它们需要一个循环——观察 → 检查 → 修正 → 评估。\n\n这两个论点本质上都指向同一个 harness：一个世界模型。\n\n## \n\n将技能和记忆视为同一个 harness\n\n世界模型是 agent 所感知的一切，以及它用来预测下一步行动的依据。在 agent harness 中，它是一个涵盖所有你触及事物的广泛状态：代码库布局、工具 schema、文件系统、最近 20 轮对话以及用户偏好。\n\n世界模型是 harness 为决定下一步而加载的全部上下文聚合。\n\n你可以将记忆视为一个广义的 harness，而技能则是一个特定的 harness。\n\n## \n\n技能是记忆的子集吗？\n\n技能是记录“做什么”的部分。一个 SKILL.md 是一个过程层面的声明：“要完成任务 T，请执行步骤 X、Y、Z。”\n\n技能通过执行 N 个任务的实际能力来扩展记忆。技能是一种压缩后的过程。它表明“世界过去曾通过响应 X、Y、Z 产生 T，并且很可能还会再次如此。”\n\n记忆观察世界，而技能将其编码为规则。\n\n我们扩展了 cognee，将技能和记忆存储在同一个存储中。自我改进运行时和 agentic 检索器共享相同的图节点。\n\n## \n\nCognee 如何处理？\n\ncognee.remember(\"skills/\") 现在允许你一行代码即可摄取技能。\n\n在 Cognee 内部，SkillChangeEvent 在技能发生变化时发出记忆事件。技能是一个会演化、可追踪且可控的记忆节点。\n\n技能通过读取其记忆来改进。记忆通过修正与之关联的技能来改进。它们之间没有清晰的界限，因为本就不该有。\n\n我们最近组织了一场黑客马拉松，用户使用 Cognee 和 Redis 作为会话存储，在 3 小时内构建了 21 个 LLM 知识 Wiki！\n\n他们之所以能做到，是因为在我们的新 API 中改进技能和记忆非常简单：\n\npython\n\n```python\n    proposal_result = await cognee.remember(\n        SkillRunEntry(\n            selected_skill_id=skill_to_improve,\n            task_text=\"Review the current skiill,\n            result_summary=\"Review missed boundary bug.\",\n            success_score=score,\n            feedback=-1.0 if score < 0.7 else 1.0,\n        ),\n        dataset_name=DATASET,\n        session_id=SESSION,\n        skill_improvement={\n            \"skill_name\": skill_to_improve,\n            \"apply\": False,\n            \"score_threshold\": 0.9,\n        },\n    )\n```\n\n[![图片](https://pbs.twimg.com/media/HIfvVw4bkAAUfCy?format=jpg&name=small)](http://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874912095801344)\n\n添加到 Cognee 的技能如何实现自我改进\n\n## \n\n结论",
-      "text_excerpt_zh_hash": "361eebdd966270fc",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2053986800050524160"
-    },
     "http://x.com/i/article/2054257420969373696": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1024,22 +1007,6 @@
       "title": "",
       "url": "http://x.com/i/article/2054556222360084480"
     },
-    "http://x.com/i/article/2054596954282496000": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054596954282496000",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054596954282496000/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIf8lCLa0AAgR6C?format=jpg&name=900x900)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2055889468088045568)\n\nDesigning eval datasets for LLM applications\n\n[![](https://pbs.twimg.com/profile_images/1994707418790432768/NvTWenyx_normal.jpg)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n[Lotte![](https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_bigger.jpg)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n[@lotte\\_verheyden](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n·\n\nMay 17\n\nFollow\n\nClick to Follow lotte\\_verheyden\n\n4\n\n38\n\n319\n\n[38K](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/status/2056032201259831398/analytics)\n\nThis is one piece of a series we’re publishing as part of the L\n\n[angfuse Academy](https://langfuse.com/academy)\n\n, where we walk through the full AI engineering lifecycle. If you’re new to the series,\n\n[The AI Engineering Loop](https://langfuse.com/academy/ai-engineering-loop)\n\nis the best place to start\n\n## \n\nA short recap of the AI Engineering Loop\n\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n\n[![Image](https://pbs.twimg.com/media/HIf6DJlasAAudWe?format=jpg&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2055886686937329664)\n\nYou can read more on this \n\n[here](https://langfuse.com/academy/ai-engineering-loop)\n\n.\n\n# \n\nHow datasets fit into the loop\n\nSo far, we've covered the first two steps of the \n\n[AI engineering loop](https://langfuse.com/academy/ai-engineering-loop)\n\n: \n\n[tracing](https://langfuse.com/academy/tracing)\n\n your application and \n\n[monitoring](https://langfuse.com/academy/monitoring)\n\n its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.\n\nNow the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.\n\nA dataset is a collection of test cases that you run your application against each time you make a change (\"an experiment\"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.\n\n# \n\nThe dataset item\n\nA dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:\n\n* Input (required)\n* Expected output (optional)\n* Metadata (optional)\n\n## \n\nThe three fields of a dataset item\n\n[![Image](https://pbs.twimg.com/media/HINlehfaMAAOPP-?format=png&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597430071668736)\n\nA good mental model:\n\n[![Image](https://pbs.twimg.com/media/HINlidcbAAAsVew?format=png&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597497704873984)\n\n## \n\nCommon expected output patterns\n\nWhether you need an expected output, and what it looks like, depends on which type of evaluator you use.\n\nReference-based versus reference-free evaluatorsSome evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).\n\nExact match\n\nThe expected output is the literal correct answer. For example:\n\n* A classification task where the correct label is",
-      "text_excerpt_zh": "## 为LLM应用设计评估数据集\n\n这是我们在[Langfuse Academy](https://langfuse.com/academy)系列文章中的一篇，该系列将带你走完完整的AI工程生命周期。如果你是第一次接触这个系列，建议从[AI工程循环](https://langfuse.com/academy/ai-engineering-loop)开始阅读。\n\n## AI工程循环简要回顾\n\nAI工程循环是团队持续改进AI系统的方法。它将生产环境中发生的情况（追踪、监控）与开发阶段的结构化迭代（数据集、实验、评估）连接起来。每次上线的改进都会产生新数据，团队会持续循环这一过程。\n\n[![Image](https://pbs.twimg.com/media/HIf6DJlasAAudWe?format=jpg&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2055886686937329664)\n\n更多内容请阅读[此处](https://langfuse.com/academy/ai-engineering-loop)。\n\n# 数据集如何融入循环\n\n到目前为止，我们已经介绍了[AI工程循环](https://langfuse.com/academy/ai-engineering-loop)的前两个步骤：对应用进行[追踪](https://langfuse.com/academy/tracing)和[监控](https://langfuse.com/academy/monitoring)其行为。这些步骤让你了解系统的实际运行情况，并为你提供改进思路。\n\n现在的问题是：当你发现值得改进的地方时，如何在部署到生产环境之前测试变更？循环中的接下来三个步骤正好解决了这个问题，而这一切从数据集开始。\n\n数据集是一组测试用例的集合，每次进行变更（即\"实验\"）时，你都会用这些用例来运行你的应用。与其直接部署并寄希望于一切顺利，不如通过一组代表真实使用场景的输入，获得可重复、一致的检查结果。\n\n# 数据集项\n\n数据集由多个项组成，每个项代表一个测试用例：即你的应用应该能够处理的一种情况。通常，一个项包含三个字段：\n\n* 输入（必填）\n* 预期输出（可选）\n* 元数据（可选）\n\n## 数据集项的三个字段\n\n[![Image](https://pbs.twimg.com/media/HINlehfaMAAOPP-?format=png&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597430071668736)\n\n一个好的思维模型：\n\n[![Image](https://pbs.twimg.com/media/HINlidcbAAAsVew?format=png&name=small)](http://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597497704873984)\n\n## 常见的预期输出模式\n\n是否需要预期输出，以及它应该是什么样子，取决于你使用的评估器类型。\n\n基于参考与无参考评估器有些评估器会根据预定义的预期输出检查结果（基于参考）。另一些则无需真实答案即可评估输出（无参考）。\n\n精确匹配\n\n预期输出是字面上的正确答案。例如：\n\n* 一个分类任务，其中正确的标签是",
-      "text_excerpt_zh_hash": "d8569dc776406228",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2054596954282496000"
-    },
     "http://x.com/i/article/2054598592980234240": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1068,35 +1035,6 @@
       "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2055200658723078144/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIWKKb_bsAEta2f?format=jpg&name=900x900)](http://x.com/i/article/2055200658723078144/allstarsaasfund/article/2063846807810253118/media/2055200716881637377)\n\n勝者はいつも「流通」で決まっていた──AI時代に唯一残る競争優位とは\n\n[![](https://pbs.twimg.com/profile_images/1695656840451981312/Y7OvsFi2_normal.jpg)](http://x.com/i/article/2055200658723078144/allstarsaasfund)\n\n[ALL STAR SAAS FUND](http://x.com/i/article/2055200658723078144/allstarsaasfund)\n\n[@allstarsaasfund](http://x.com/i/article/2055200658723078144/allstarsaasfund)\n\n·\n\n11h\n\nFollow\n\nClick to Follow allstarsaasfund\n\n3\n\n17\n\n[2.2K](http://x.com/i/article/2055200658723078144/allstarsaasfund/status/2063846807810253118/analytics)\n\n＊SaaS × AI Weeklyは、ALL STAR SAAS FUNDが毎週ピックアップした記事を日本語で要約してお届けしています。\n\n# \n\n🛣️ プロダクトより先に流通をつくれ──AI時代のB2Bソフトウェアで勝つ唯一の戦略\n\n「\n\n[THE DISTRIBUTION ERA](https://x.com/HackItMax/status/2060370743683424498)\n\n」by Max Altschuler on X\n\nGTMfund創業者のMax Altschuler氏によるB2Bソフトウェアの競争優位の変遷を論じた記事で、AIがプロダクト構築コストをゼロに近づけた結果、ディストリビューション（流通・ブランド）こそが唯一の持続的なMoatになると主張しています。\n\n## \n\nB2BソフトウェアのMoatは時代ごとに移動してきた\n\n資本（Capital）→ SaaS 1.0（プロダクト・営業）→ PLG（プロダクト体験・口コミ）と、各時代の支配的コストが崩壊するたびに競争優位の源泉は移動してきました。今AIがプロダクト構築コスト自体を崩壊させたことで、Moatはついにプロダクトの外側（オーディエンスとディストリビューション）に移りました。\n\n## \n\nAIはプロダクトのコピーコストをもゼロにした\n\nこれまでの技術革新はプロダクト周辺のコストを下げるものでしたが、AIは初めてプロダクトそのものの構築コストを崩しました。カテゴリリーダーが差別化機能をリリースしても、AIネイティブなチームが数日以内に追いつける時代では、プロダクトの優位は持続しません。\n\n👀残り5つのポイントはブログで：\n\n* ディストリビューションがプロダクトに勝る現象は以前から存在した\n* GTMはPMFの後ではなく、PMF獲得の手段そのものである\n* 市場の勝者はかつてないほど早期に決まりつつある\n* プライシングモデルもシート課金から消費・成果ベースへ移行する\n* AnthropicでさえGTMに最大の採用投資をしている\n\n[→ ALL STAR SAAS BLOGで詳細を読む](https://blog.allstarsaas.com/posts/saasxai-weekly-vol203)\n\nby \n\n[Masa](https://x.com/saas%5Fjunkie)\n\n# \n\n📚 AIで勝つ会社が最初につくるべきは、プラットフォームではなく「スキルライブラリ」だ\n\n「\n\n[Every Company's First AI Strategy Should Be a Skill Library](https://x.com/hnshah/status/2062647149582750101)\n\n」by Hiten Shah on X\n\nHiten Shah氏（Crazy Egg・KISSmetrics・Nira創業者、20年以上SaaSを構築してきたシリアルアントレプレナー）によるポストで、AIエージェントに「自社の仕事の進め方」を教える「スキルライブラリ」こそが真のAI戦略の核心であると論じた内容です。\n\n## \n\nデータへのアクセスだけではエージェントは使えない\n\nCRMやGoogle Driveへの接続は必要条件ですが十分条件ではありません。データへのアクセスを与えても、エージェントは「自社がどのように仕事を進めるか」を理解しません。情報へのアクセスと仕事のやり方の理解は、まったく別の問題です。\n\n## \n\nスキルとは「再利用可能な仕事の進め方」である\n\nプロンプトが特定の瞬間の指示であるのに対し、スキルは手順・判断基準・エッジケース・品質基準をひとつにパッケージ化したものです。トップパフォーマーが暗黙的に持つ方法論を明文化したものがスキルです。\n\n👀残り3つのポイントはブログで：\n\n* スキルライブラリが会社の「見えない資産」になる\n* 最も価値あるスキルは社内にしか存在しない\n* 最初のAI戦略はスキルのマッピングからはじめよ\n\n[→ ALL STAR SAAS BLOGで詳細を読む](https://blog.allstarsaas.com/posts/saasxai-weekly-vol203)\n\nby \n\n[Masa](https://x.com/saas%5Fjunkie)\n\n# \n\n📊 その『ARR』、実態を映しているか──AI時代の定義を問い直す4つの視点\n\n「\n\n[The \"ARR\" Guide for an AI World](https://open.substack.com/pub/onlycfo/p/arr-guide-for-ai)\n\n」by OnlyCFO on OnlyCFO's Newsletter\n\nOnlyCFOによる記事を今週も紹介します。AI SaaSベンダーにおけるARRの定義・報告・計算が歪められている実態を財務視点で分析しています。スタートアップの経営者・CFOにとって「自社のARR定義が正しいかどうかを検証する基準」を理解するうえで大切な視点を提供します。\n\n## \n\nARRの「R」はもはや\"Recurring\"ではなく\"Run-Rate\"だ\n\nAI時代の消費量ベース課金・ハイブリッドプライシング・短期契約の普及により、「Annual Recurring Revenue」という言葉が実態と乖離している。ARRは今や「Annual Run-Rate Revenue（年換算ランレート収益）」として捉えるべきであり、ARRとGAAP収益・請求額・入金額の間に大きな乖離がある場合はARR定義の見直しが必要です。\n\n## \n\nAIに特有の「ARR水増し」パターンとその見抜き方\n\n代表的なものは次の4つです。Contracted ARR（将来の契約総額を現在のARRとして計上）、試用・POC段階の収益計上、6ヶ月先の契約開始日前からの計上、一時的な使用量急増のARR換算。これらはAIスタートアップに多い手法です。ARRが過大に見積もられていないかの簡易な検証法は、ARRから推計した売上収益予測と、実際の計上収益の乖離を確認することです。説明のつかない大きな乖離があれば要注意です。\n\n👀残り2つのポイントはブログで：\n\n* AI時代のARRウォーターフォールは製品・プライシングモデル別に分解すべき\n* ARRを正直に報告することが長期的な信頼と経営判断の精度を守る\n\n[→ ALL STAR SAAS BLOGで詳細を読む](https://blog.allstarsaas.com/posts/saasxai-weekly-vol203)\n\nby \n\n[Tatsuya](https://x.com/tatsuyakozaki)\n\n# \n\n🧭 優れたVPがなぜ早期に外れるのか──Jason Lemkin氏が説く、着任前に握る『トップ5』の設計\n\n「\n\n[Before You Start as a VP — Please, Please, Please. Do a 60-Day Plan. And Make Sure the CEO Agrees With It.](https://www.saastr.com/before-you-start-as-a-vp-please-please-please-do-a-60-day-plan-and-make-sure-the-ceo-agrees/)\n\n」by Jason Lemkin on SaaStr\n\nAI",
       "title": "",
       "url": "http://x.com/i/article/2055200658723078144"
-    },
-    "http://x.com/i/article/2055613452798902272": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2055613452798902272",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2055613452798902272/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIdrl0rWQAAq_rO?format=jpg&name=900x900)](http://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055730052457709568)\n\n为什么AI 时代，别追网红，要追 Builder\n\n[![](https://pbs.twimg.com/profile_images/1327292688736034816/vJTxjjLU_normal.jpg)](http://x.com/i/article/2055613452798902272/Xudong07452910)\n\n[Xudong Han](http://x.com/i/article/2055613452798902272/Xudong07452910)\n\n[@Xudong07452910](http://x.com/i/article/2055613452798902272/Xudong07452910)\n\n·\n\nMay 17\n\nFollow\n\nClick to Follow Xudong07452910\n\n6\n\n3\n\n39\n\n[6K](http://x.com/i/article/2055613452798902272/Xudong07452910/status/2055904097358794948/analytics)\n\n> 选择关注谁，决定你会成为什么。\n\n最近这一年，我越来越明显地感觉到一件事：很多人每天都在高强度「关注 AI」，但真正开始动手做东西的人，其实并不多。\n\n每天打开 X、小红书、YouTube，你都会看到大量关于 AI 的内容。有人分析行业趋势，有人预测未来职业，有人讨论 Agent 会如何改变世界，也有人不断强调「普通人最后的机会来了」。\n\n这些内容本身并没有问题。很多人讲得确实好，逻辑清晰，表达有感染力，也帮助了不少人第一次接触 AI。\n\n但看久了之后，你会慢慢产生一种奇怪的感觉：你好像知道了很多东西，却又什么都没有真正开始。\n\n你收藏了几十篇「AI 创业指南」，关注了一堆「未来趋势」博主，也记住了大量热门词汇——MCP、Agent、Workflow、RAG、Multi-Agent。可回头看时会发现，自己真正做过的事情其实很少。\n\n这种状态我自己也经历过。有段时间，我每天刷大量 AI 内容，今天有人说「AI 将淘汰程序员」，明天有人说「一个人公司时代来了」，后天又有人说「未来属于超级个体」。每句话都让人产生「再不行动就晚了」的紧迫感，可真正让我开始改变的，并不是那些宏大的观点，而是后来我越来越多地开始关注一些真正下场做事的人。\n\n## \n\n一、网红讲趋势，Builder 讲怎么做\n\n网红的价值一直存在。他们擅长总结趋势、提炼观点、放大情绪，能让更多人第一次理解 AI 到底意味着什么。\n\n但大部分趋势内容有一个共同特点：它们更像一种「认知消费品」。你看的时候很兴奋，觉得自己已经理解了这个时代，但这种理解往往停留在观点层面，不会真正转化成行动。\n\n比如有人会不断告诉你：「未来一定属于 Agent」「AI 会重构所有行业」「不会用 AI 的人会被淘汰」。这些话可能都没错，但对于真正想做事的人来说，他更关心的问题是：Agent 到底解决了什么真实需求？用户为什么愿意付费？什么场景是真的高频？一个普通人应该从哪里开始？\n\n这些问题，往往只有真正做过产品的人才会聊。因为它们不是观点，而是经验。经验这种东西通常不够「性感」，甚至有点狼狈，但恰恰最接近真实世界。\n\n## \n\n二、Builder 的分享，会让你第一次认真想「怎么做」\n\n我现在越来越喜欢看独立开发者的分享，原因很简单：他们讲的东西通常格外具体。\n\n[![Image](https://pbs.twimg.com/media/HIdtwJ_WUAAUnYJ?format=jpg&name=small)](http://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055732429000691712)\n\n前段时间我看到一个开发者分享，说他最开始做 AI 产品时，一直以为用户最需要「AI 帮忙生成内容」，于是花了很多时间做 AI 写作、AI 总结之类的功能，技术做得不差，但用户始终不愿意付费。后来他偶然接触到一些跨境电商卖家，发现这些人每天都在重复做一件枯燥的事：整理 SKU、填写产品信息、同步平台数据。于是他花了一个周末，做了一个帮卖家自动整理商品表格的小工具。界面不漂亮，功能也不复杂，但上线后很快就有了付费用户。\n\n这个例子让我印象极深。因为它说明真实市场和想象中的市场完全不一样——很多付费需求，不过是帮别人节省一点时间，减少一点重复劳动。\n\n类似的还有一个人的经历：他最开始迷恋「做大产品」，想做平台、做生态、做所有人都会用的 AI 应用。折腾了大半年，功能越来越多，系统越来越复杂，但始终没人真正留下来。最后反而靠一个很小的功能活了下来：帮用户自动把会议录音整理成客户沟通纪要。这功能一点都不酷，也没有什么「AGI 感」，但因为它解决的是企业里每天都会出现的真实问题，用户愿意长期付费。\n\n还有一种内容我现在尤其珍惜：那些坦率承认失败的分享。有人花了两个月做产品，发现根本没人用，决定关掉；有人认真复盘为什么广告投放毫无效果，为什么自以为很重要的功能用户根本不在意。\n\n这种分享在互联网上很少见，因为大家更偏爱成功故事——「上线即爆火」「一个人三个月 ARR 十万美元」。但真正做过东西的人都知道，现实里大部分项目不会成功。很多产品上线后没用户、没增长、没转化，开发者默默停掉服务器，项目就结束了。而这些失败经验，反而比成功学更有价值。\n\n## \n\n三、Builder 的日常，远没有想象中光鲜\n\n互联网很容易把「独立开发」「AI 创业」包装得浪漫：一个人坐在咖啡馆里用 MacBook 敲代码，白天旅居，晚上收美元，产品自动增长，自由、松弛、充满未来感。\n\n但真实世界里的 Builder，大部分时候没那么光鲜。更多时候是白天改需求，晚上修 bug；上线后发现支付流程坏了；landing page 改了五版，转化率还是很低；广告投出去，一个注册都没有；半夜两点还在查接口为什么突然报错；好不容易来了几个用户，一半还是朋友支持。\n\n很多做过产品的人应该都经历过一个经典瞬间：熬夜两个星期终于上线，满脑子想着「会不会突然爆掉」，打开后台发现第一天总共十几个访问，大部分还是自己测试的。\n\n那一瞬间挺打击人的。因为你第一次真正意识到，互联网不会因为你「很努力」就自动给你用户。\n\n但也是从这个阶段开始，一个人才真正进入「做事情」的世界。你会慢慢明白，真正难的不是「想到一个点子」，而是后面那些没人愿意讲的东西：怎么持续迭代、怎么理解用户、怎么面对长期没有反馈、怎么在没人鼓掌的时候继续做下去。\n\n如果长期只看网红，你很容易以为成功靠的是风口、流量和一次爆点。但如果你长期关注真正做事的人，你会发现真实世界非常朴素：有人做了二十个小产品，第二十一个才开始赚钱；有人持续发了半年内容，才接到第一个客户；有人把 onboarding 流程改了八次，留存率才终于提升。这些故事不刺激，也不容易传播，但它们会让你开始接受「慢慢来」这件事。\n\n## \n\n四、别只围观，开始动手\n\n现在有一种很普遍的现象：很多人以为自己在「进入 AI 行业」，其实只是在围观。他们每天看最新模型、最新趋势，能聊很多概念，但真正需要动手时，始终停留在「等自己准备好」。\n\n可问题是，很多能力本来就是做出来的。你不上线一个产品，就不会理解什么叫用户反馈；不真正服务客户，就不知道什么需求有人付费；不真正踩坑，就不知道什么问题最麻烦。\n\nBuilder 最大的不同在于，他们会先开始做。哪怕产品很小，哪怕做得粗糙，哪怕没人关注，哪怕最后失败。因为他们知道，真实反馈永远比空谈趋势更重要。\n\n我不是说网红没价值——好的表达者依然重要，他们能帮更多人打开视野。但如果你真的想在 AI 时代做一点自己的事情，别只看别人讲世界，也多看看那些正在亲手做世界的人。\n\n[![Image](https://pbs.twimg.com/media/HIdt7rhX0AAKCzA?format=jpg&name=small)](http://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055732626980327424)\n\n如果你不知道从哪里开始找到这些人，可以去 X 上搜 \n\n[#buildinpublic](https://x.com/search?q=%23buildinpublic&src=hashtag%5Fclick)\n\n 标签，去 Product Hunt 看每天有什么新产品上线，去 Indie Hackers 读创始人的",
-      "title": "",
-      "url": "http://x.com/i/article/2055613452798902272"
-    },
-    "http://x.com/i/article/2055936913211899904": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2055936913211899904",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2055936913211899904/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIgrLhZb0AAxwt3?format=jpg&name=900x900)](http://x.com/i/article/2055936913211899904/addyosmani/article/2056078124346228860/media/2055940706838237184)\n\nDon't Outsource the Learning\n\n[![](https://pbs.twimg.com/profile_images/2012065253623021570/0BReDfMk_normal.jpg)](http://x.com/i/article/2055936913211899904/addyosmani)\n\n[Addy Osmani](http://x.com/i/article/2055936913211899904/addyosmani)\n\n[@addyosmani](http://x.com/i/article/2055936913211899904/addyosmani)\n\n·\n\nMay 17\n\nFollow\n\nClick to Follow addyosmani\n\n105\n\n687\n\n3.4K\n\n[555K](http://x.com/i/article/2055936913211899904/addyosmani/status/2056078124346228860/analytics)\n\nRight now, it's too easy to let AI write the code while you skip the learning. The bug gets fixed but your mental model doesn't move. It might get worse over time. We are silently trading future capability for present-day speed, and the tools won't force us to do otherwise. That part has to come from you.\n\nThere's a default loop most of us have settled into. You paste in a spec or error message. The model hands you a fix and the symptom vanishes. You ship. Somewhere in that loop, the messy struggle between problem and solution stops happening at all.\n\nI've written before about \n\n[cognitive surrender](https://addyosmani.com/blog/cognitive-surrender/)\n\n, the moment an AI reviewer's verdict quietly replaces your own. This is the solo version of that same loop. It's just you and the model. The model is faster, so you stop trying to compete on comprehension. Across thousands of these small interactions, what you can actually build without an AI looking over your shoulder gets a little weaker every week. None of these moments feel like a problem on the day they happen.\n\nI'm not anti-AI. I use these tools daily and have shipped more with them in the last year than in the years before it. But the default way we use them is optimized for one thing: closing tasks. \n\nThat is a completely different goal from staying sharp enough to steer them over a career that spans a long time.\n\n## \n\nThe studies are converging on the same point\n\nSeveral pieces of research over the last year have landed in roughly the same place.\n\nAnthropic ran a \n\n[randomized trial in early 2026](https://www.anthropic.com/research/AI-assistance-coding-skills)\n\n where engineers learned a new Python library, half with AI assistance and half without. Both groups finished the tasks at the same speed. But the AI group bombed the follow-up comprehension quiz: 50% versus 67% for the manual group, with the gap widening on debugging. The interesting cut was inside the AI group itself. Engineers who used AI to ask conceptual questions scored above 65%. Engineers who copy-pasted the generated code scored under 40%. The tool didn't determine the outcome. The posture did.\n\nMIT's \n\n[Your Brain on ChatGPT](https://www.media.mit.edu/publications/your-brain-on-chatgpt/)\n\n study compared essay writing across LLM, search-engine, and brain-only groups. EEG measurements showed brain connectivity scaling down with every layer of external support. The LLM group showed the weakest coupling. After writing the essay, 83% of LLM users couldn't quote a single line of what they had just produced. The researchers called this cognitive debt: saving mental effort today, paying for it in critical thinking tomorrow.\n\nA \n\n[CHI 2026 study](https://arxiv.org/html/2603.08849v1)\n\n added a related finding. When people had LLM access at the start of a task, the LLM framed the entire problem. Even when the human did the rest of the work themselves, that initial anchoring produced measurably worse decisions. The order of operations mattered more than the total amount of AI used.\n\nDifferent methodologies reaching the same conclusion. Using AI without an active intent to learn quietly degrades the skill you're being pa",
-      "text_excerpt_zh": "## 不要外包学习\n\n现在，让AI替你写代码而跳过学习，实在太容易了。Bug被修复了，但你的心智模型没有进步。长期来看，情况可能变得更糟。我们正在用未来的能力，换取当下的速度，而工具本身不会强迫我们做其他选择。这部分必须来自你自己。\n\n大多数人已经陷入了一个默认循环。你粘贴一个需求或错误信息。模型给你一个修复方案，症状消失了。你交付了。在这个循环的某个环节中，问题与解决方案之间那种混乱的挣扎，完全不再发生了。\n\n我之前写过关于[认知投降](https://addyosmani.com/blog/cognitive-surrender/)的文章，指的是AI审查者的判断悄然取代了你自己的判断。这是同一循环的单人版本。只有你和模型。模型更快，所以你不再试图在理解力上与它竞争。经过成千上万次这样的小交互，你在没有AI监督的情况下实际能构建的东西，每周都在变弱。这些时刻在发生的当天，都不会让人觉得是个问题。\n\n我并不反对AI。我每天都在使用这些工具，并且在过去一年里，借助它们交付的成果比之前几年加起来还多。但我们使用它们的默认方式，只优化了一件事：完成任务。\n\n这与在漫长的职业生涯中保持足够敏锐以驾驭它们，是完全不同的目标。\n\n## 研究指向了同一个结论\n\n过去一年里的几项研究，得出了大致相同的结论。\n\nAnthropic在2026年初进行了一项[随机试验](https://www.anthropic.com/research/AI-assistance-coding-skills)，让工程师学习一个新的Python库，一半人使用AI辅助，另一半不使用。两组人完成任务的速度相同。但AI组在后续的理解力测试中表现糟糕：正确率50%，而手动组为67%，在调试方面的差距更大。有趣的是AI组内部的分化。使用AI提出概念性问题的工程师得分超过65%。而直接复制粘贴生成代码的工程师得分低于40%。工具本身没有决定结果，是使用姿态决定了结果。\n\nMIT的[《ChatGPT上的大脑》](https://www.media.mit.edu/publications/your-brain-on-chatgpt/)研究比较了使用大语言模型、搜索引擎和仅凭大脑三种方式下的论文写作。脑电图测量显示，随着外部支持层级的增加，大脑连接性逐级下降。大语言模型组的耦合度最弱。写完论文后，83%的大语言模型用户无法引用他们刚刚写出的任何一行内容。研究人员将此称为认知债务：今天节省脑力，明天用批判性思维来偿还。\n\n一项[CHI 2026研究](https://arxiv.org/html/2603.08849v1)补充了一个相关发现。当人们在任务开始时就能访问大语言模型时，大语言模型框定了整个问题。即使人类自己完成了后续所有工作，这种初始锚定效应也导致了明显更差的决策。操作顺序比AI使用的总量更重要。\n\n不同的研究方法得出了相同的结论。在没有主动学习意图的情况下使用AI，会悄然削弱你正在被支付报酬的技能。",
-      "text_excerpt_zh_hash": "ff4f476f68ed1914",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2055936913211899904"
     },
     "http://x.com/i/article/2055977851040747520": {
       "cleaner_v": 2,
@@ -4844,6 +4782,19 @@
       "title": "",
       "url": "http://x.com/i/article/2064737302065156097"
     },
+    "http://x.com/i/article/2064740742564876288": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2064740742564876288",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2064740742564876288"
+    },
     "http://x.com/i/article/2064742269706518528": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5142,6 +5093,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2065291569712779264"
+    },
+    "http://x.com/i/article/2065303462028681216": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2065303462028681216",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2065303462028681216"
     },
     "http://x.com/i/article/2065357403747438592": {
       "cleaner_v": 2,
@@ -5795,6 +5759,32 @@
       "title": "",
       "url": "http://x.com/i/article/2066476604801396736"
     },
+    "http://x.com/i/article/2066496129542311937": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066496129542311937",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066496129542311937"
+    },
+    "http://x.com/i/article/2066504020135424000": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066504020135424000",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066504020135424000"
+    },
     "http://x.com/i/article/2066513531248562176": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5923,6 +5913,19 @@
       "title": "",
       "url": "http://x.com/i/article/2066617706183262208"
     },
+    "http://x.com/i/article/2066638325688020993": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066638325688020993",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066638325688020993"
+    },
     "http://x.com/i/article/2066650296961335296": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5938,6 +5941,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066650296961335296"
+    },
+    "http://x.com/i/article/2066742864974139392": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066742864974139392",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066742864974139392"
     },
     "http://x.com/i/article/2066882780286550016": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -5981,6 +5997,19 @@
       "title": "",
       "url": "http://x.com/i/article/2066893911600357376"
     },
+    "http://x.com/i/article/2066900281066196992": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066900281066196992",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK8g4Aza0AADlLE?format=jpg&name=900x900)](http://x.com/AlphaSignalAI/article/2066908477281501506/media/2066906900646776832)\n\nThe Reason Your AI Agent Keeps Getting Context Wrong \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/AlphaSignalAI)\n\n·\n\n15h\n\n·\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n3\n\n5\n\n23\n\n[2K](http://x.com/AlphaSignalAI/status/2066908477281501506/analytics)\n\n## \n\nAI agents struggle less with reasoning than with finding the right context. Google's Open Knowledge Format proposes a portable standard for organizational knowledge.\n\n> In 6 minutes you'll learn why AI agents struggle with fragmented organizational knowledge, how OKF works, and why Google believes formats, not platforms, will define the next layer of AI infrastructure.\n\nSchema of a table lives in a data catalog with a proprietary API. The business definition of a metric lives in a Confluence wiki nobody updates.\n\nThe join path between two systems lives in the head of a senior engineer who left in March.\n\nWhen an agent needs to answer \"how do I compute weekly active users from our event stream,\" it has to assemble the answer from these scattered, mutually incompatible surfaces.\n\nThe knowledge exists. The format to share it doesn't.\n\nGoogle just published a proposal for fixing that.\n\nIt's called the Open Knowledge Format (OKF). Most teams are still solving this from scratch. OKF is an argument that they shouldn't have to.\n\n[![Image](https://pbs.twimg.com/media/HK8i1i7agAA823y?format=jpg&name=small)](http://x.com/AlphaSignalAI/article/2066908477281501506/media/2066909057290764288)\n\n## \n\nThe problem is format fragmentation\n\nThe knowledge exists in most organizations. Schema of a table, business definition of a metric, join paths between systems, incident runbooks, deprecation notices for old APIs.\n\nThese atoms of context are what separate an agent that gives a generic answer from one that gives a correct one.\n\nThe problem is where they live.\n\nData catalogs with proprietary APIs. Wikis in Confluence or Notion. Code comments and docstrings. The heads of senior engineers. Every system uses its own format, its own schema, its own access model.\n\nEvery team building agents solves this assembly problem independently. The knowledge is format-locked behind whichever system created it.\n\nBefore OKF, teams were already converging on the same informal solution. Andrej Karpathy articulated it in a widely-cited gist: give the LLM a shared markdown library that grows more useful over time, let agents read and update their own files, curate the content like code.\n\n[![](https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_normal.jpg)](http://x.com/karpathy)\n\nAndrej Karpathy\n\n@karpathy\n\n·\n\n[Apr 2](http://x.com/karpathy/status/2039805659525644595)\n\nLLM Knowledge Bases Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating\n\nShow more\n\n2.8K\n\n9.3K\n\n59K\n\n[21M](http://x.com/karpathy/status/2039805659525644595/analytics)\n\nThe pattern kept reappearing independently: Obsidian vaults wired to coding agents, AGENTS.md and CLAUDE.md convention files, metadata-as-code repositories inside data teams.\n\nEach instance was bespoke. They all looked alike (markdown, YAML frontmatter, cross-links) but none were designed to cooperate. No agreed-upon fields, no agreed-upon reserved filenames, no interoperability.\n\nOKF is the formalization of this pattern.\n\n## \n\nWhat OKF actually is\n\nA bundle is a directory of markdown files. Each file represents a concept: a table, a dataset, a",
+      "title": "",
+      "url": "http://x.com/i/article/2066900281066196992"
+    },
     "http://x.com/i/article/2066900327077486592": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6023,6 +6052,45 @@
       "title": "",
       "url": "http://x.com/i/article/2066920008358514692"
     },
+    "http://x.com/i/article/2066925833198194695": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066925833198194695",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066925833198194695"
+    },
+    "http://x.com/i/article/2066943620373172224": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066943620373172224",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066943620373172224"
+    },
+    "http://x.com/i/article/2066964446086676480": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066964446086676480",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066964446086676480"
+    },
     "http://x.com/i/article/2066980572644466688": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6035,6 +6103,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2066980572644466688"
+    },
+    "http://x.com/i/article/2067066505616080896": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067066505616080896",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067066505616080896"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -7053,6 +7134,25 @@
       "title": "WWDC26: フィロソフィーとしてのHIG | click and magic",
       "url": "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy"
     },
+    "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Learn how the Open Knowledge Format helps secure data sharing and improves collaboration across teams with standardized documentation.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing",
+      "frameable": false,
+      "image_urls": [
+        "https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg",
+        "https://storage.googleapis.com/gweb-cloudblog-publish/images/siemens-alphaevolve-generative-evolved-codeb.max-700x700.jpg",
+        "https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-700x700.jpg",
+        "https://storage.googleapis.com/gweb-cloudblog-publish/images/50_-_Business_Intelligence_lw8zsjF.max-700x700.jpg",
+        "https://www.gstatic.com/cgc/super_cloud_gradient.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Introducing the Open Knowledge Format\nSam McVeety\nTech Lead, Data Analytics, Engineering, Data Cloud, Google Cloud\nAmir Hormati\nTech Lead, BigQuery, Engineering, Data Cloud, Google Cloud\nAs foundation models continue to improve, the lack of relevant context often limits what they can do, especially as they are used to build agentic systems. While these models can help you write code, summarize documents, or analyze a dataset, they still need the right information to produce accurate and actionable results.\nThat’s why today, we’re introducing the Open Knowledge Format (OKF), an open specification that formalizes the [LLM-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need.\nAs published, OKF v0.1 represents knowledge as a directory of markdown files with YAML frontmatter, with a small set of agreed-upon conventions that let wikis written by different producers be consumed by different agents without translation.\nThat's it. No complex compression scheme, no new runtime, no required SDK. A bundle of OKF documents is:\n- \nJust markdown — readable in any editor, renderable on GitHub, indexable by any search tool \n- \nJust files — shippable as a tarball, hostable in any git repo, mountable on any filesystem \n- \nJust YAML frontmatter — for the small set of structured fields that need to be queryable: type, title, description, resource, tags, and timestamp \nIf you've used Obsidian, Notion, Hugo, or any of the LLM wiki patterns that have emerged over the past year, the shape will feel familiar. OKF formalizes the small set of conventions needed to make these patterns interoperable.\nLet’s take a look at the problem that OKF can solve for your organization, how it works, how to get started with it, and what’s next.\nA fragmented context landscape\nIn most organizations, the information that foundation models use is overwhelmingly internal knowledge: the schema of a table, your business’ meaning of a metric, the runbook for an incident, the join paths between two systems, the deprecation notice for an old API, etc.\nToday, these atoms of knowledge live in a variety of highly fragmented systems:\n- \nMetadata catalogs with their own APIs \n- \nWikis, third-party systems, or in shared drives \n- \nCode comments, docstrings, or notebook cells \n- \nThe heads of a few senior engineers \nWhen an AI agent needs to answer \"How do I compute weekly active users from our event stream?\" it has to assemble the answer from these scattered, mutually incompatible surfaces. Every vendor offers its own catalog, its own SDK, its own knowledge-graph schema, and none of the knowledge is easily portable across products or organizations.\nThe result: Every agent builder is solving the same context-assembly problem from scratch, every catalog vendor is reinventing the same data models, and the knowledge itself is locked behind whichever surface created it.\nKnowledge as a living wiki\nDeveloper teams are changing how they build AI agents. Instead of using models to search the same documents for the same facts over and over, you can give your agents a shared markdown library that grows more useful over time. This lets your agents take on the drudgery of reading and updating their own files, while your team curates the content and manages it like code.\nAndrej Karpathy, the prominent AI researcher and educator, articulates this idea most crisply in his [LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). \"LLMs don't get bored, don't forget to update a cross-reference, and can touch 15 files in one pass,\" he writes. The bookkeeping that causes humans to abandon personal wikis is exactly what LLMs are good at.\nSimilar knowledge-as-Wiki pattern keeps reappearing under different names: [Obsidian vaults](https://obsidian.md/help/vault) wired",
+      "title": "How the Open Knowledge Format can improve data sharing | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
+    },
     "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7476,6 +7576,20 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://ft.trib.al/9ed1nwc"
+    },
+    "https://ft.trib.al/Mt0u2VP": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://ft.trib.al/Mt0u2VP",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://ft.trib.al/Mt0u2VP"
     },
     "https://ft.trib.al/s1xKc6c": {
       "content_type": "",
@@ -10699,6 +10813,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2066634472787709954/img/yoWdVX-8PIbGummY.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066634472787709954/img/yoWdVX-8PIbGummY.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066634472787709954/img/yoWdVX-8PIbGummY.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066634472787709954/img/yoWdVX-8PIbGummY.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10726,6 +10854,76 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -12533,6 +12731,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJyD2J7b0AADMDd.jpg"
     },
+    "https://pbs.twimg.com/media/HK--icWbIAAyBcQ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK--icWbIAAyBcQ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK--icWbIAAyBcQ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK--icWbIAAyBcQ.jpg"
+    },
     "https://pbs.twimg.com/media/HK03ucdbMAANq9h.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12673,6 +12885,76 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg"
     },
+    "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8nfUXawAAEoOX.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8nfUXawAAEoOX.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8nfUXawAAEoOX.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8nfUXawAAEoOX.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8ntk9aMAADfqs.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8ntk9aMAADfqs.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8ntk9aMAADfqs.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8ntk9aMAADfqs.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8nzD_a0AAE27t.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8nzD_a0AAE27t.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8nzD_a0AAE27t.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8nzD_a0AAE27t.jpg"
+    },
     "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -12700,6 +12982,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg"
+    },
+    "https://pbs.twimg.com/media/HK9YL2nboAAyGT6.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK9YL2nboAAyGT6.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK9YL2nboAAyGT6.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK9YL2nboAAyGT6.png"
+    },
+    "https://pbs.twimg.com/media/HK9YUJlaUAAytvw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK9YUJlaUAAytvw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK9YUJlaUAAytvw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK9YUJlaUAAytvw.jpg"
+    },
+    "https://pbs.twimg.com/media/HK9YbXLbAAAlT7L.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK9YbXLbAAAlT7L.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK9YbXLbAAAlT7L.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK9YbXLbAAAlT7L.png"
+    },
+    "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg"
     },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
@@ -12938,6 +13276,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HKYVvoDW4AAycQG.jpg"
+    },
+    "https://pbs.twimg.com/media/HK_L3vSXEAAVmqC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK_L3vSXEAAVmqC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK_L3vSXEAAVmqC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK_L3vSXEAAVmqC.jpg"
     },
     "https://pbs.twimg.com/media/HKc25N-WgAAA71w.jpg": {
       "cleaner_v": 2,
@@ -13909,6 +14261,46 @@
       "title": "Proof — The agent-first document editor",
       "url": "https://proofeditor.ai"
     },
+    "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "The U.S. government says this is about national security. But given the history—and ongoing litigation—between the White House and Anthropic, something more may be going on.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=",
+      "frameable": false,
+      "image_urls": [
+        "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2026/06/Claude-6-15-1.jpg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo_2ea65906.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo-inverted-without-tag_c6a8c72e.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./r-in-g1-01_36e38c66.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/img/c800x450-w800-q80/uploads/2026/06/Claude-6-15-1-800x450.jpg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo-without-tag_98d26ec8.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The White House vs. Anthropic's New AI Model\nThe government says this is about national security. But given the history—and ongoing litigation—between the White House and Anthropic, something more may be going on.\nIs the Trump administration just hellbent on thwarting Anthropic now? Citing \"national security\" concerns, it has effectively killed public access to Anthropic's latest artificial intelligence model. The move sure looks like payback for Anthropic's earlier refusal to grant the government the right to use its products for mass surveillance and robot weapons.\nAntrhopic's newest public-facing model is called Claude Fable 5. Launched on June 9, it was billed as a \"[safe for general use](https://www.anthropic.com/news/claude-fable-5-mythos-5)\" version of Claude Mythos 5, Anthropic's powerful new AI model that was released only to \"a small group of cyberdefenders and infrastructure providers…in collaboration with the US government.\"\nYou are reading Sex & Tech, from Elizabeth Nolan Brown. Get more of Elizabeth's sex, tech, bodily autonomy, law, and online culture coverage.\nThe White House told Anthropic in a Friday letter that under a new export control directive, Mythos and Fable 5 could not be used by any foreign national in the U.S.—including Anthropic employees here on work visas—or anyone in a foreign country.\nWith no way to immediately comply with that, Anthropic temporarily ended public access for everyone.\nDoes Fable Pose a National Security Threat?\nThe government cited national security as the reason for its new directive, but its letter \"did not provide specific details of its national security concern,\" [noted](https://www.anthropic.com/news/fable-mythos-access) Anthropic on Friday.\n\"Our understanding is that the government believes it has become aware of a method of bypassing, or 'jailbreaking' Fable 5,\" Anthropic continued.\nThis jibes with what Axios has [reported](https://www.axios.com/2026/06/13/anthropic-amazon-white-house): that the White House acted \"after an urgent report from Amazon\" that \"they were able to jailbreak and access portions of Anthropic's powerful new Mythos model that pose a national security threat.\"\nBut according to Anthropic, the hubub comes down to \"a small number of previously known, minor vulnerabilities.\" These \"all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass.\" The company has \"not even received a disclosure of a concerning non-universal potential jailbreak that led to a harmful result. The potential jailbreaks that have been disclosed to us are either entirely benign responses or are minor findings that provide no Mythos-specific uplift,\" it said.\nTo comply with the Trump administration's new directive, Anthropic blocked all access to Fable 5 and Mythos 5 for now.\nIt says it is \"working to restore access as soon as possible.\"\nIs This Retaliation?\n\"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" Anthropic stated in its Friday post. \"If this standard was applied across the industry, we believe it would essentially halt all new model deployments for all frontier model providers.\"\n\"We believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts,\" it added. \"This action does not adhere to those principles.\"\nAnthropic didn't outright accuse the administration of retaliation.\nExtent to which White House allies are signaling that this is a culture war issue, not a technical one, is striking\n[https://t.co/1fgoJEJn64](https://t.co/1fgoJEJn64)— Ben Smith (@semaforben)\n[June 13, 2026](https://x.com/semaforben/status/2065933365086187536?ref_src=twsrc%5Etfw)\nBut Anthropic has been [in the White House's crosshairs](https://reason.com/2026/02/25/pentagon-to-anthropic-if-you-wont-let-us-u",
+      "title": "The White House vs. Anthropic's new AI model",
+      "url": "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term="
+    },
+    "https://reason.com/2026/06/16/police-kill-1-year-old-boy-shooting-into-car-of-suspected-shoplifters/?utm_source=twitter&utm_medium=social_reason_non_paid&utm_campaign=reason_brand&utm_content=autoshare&utm_term=post": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "The suspects—his mother and aunt—were accused of shoplifting diapers from Walmart.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://reason.com/2026/06/16/police-kill-1-year-old-boy-shooting-into-car-of-suspected-shoplifters/?utm_source=twitter&utm_medium=social_reason_non_paid&utm_campaign=reason_brand&utm_content=autoshare&utm_term=post",
+      "frameable": false,
+      "image_urls": [
+        "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2026/06/Kohen-W-6-16-b.jpg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo_2ea65906.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo-inverted-without-tag_c6a8c72e.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./r-in-g1-01_36e38c66.svg",
+        "https://d2eehagpk5cl65.cloudfront.net/img/c800x450-w800-q80/uploads/2026/06/Kohen-W-6-16-b-800x450.jpg",
+        "https://d2eehagpk5cl65.cloudfront.net/wp-content/themes/reason-dot-com-theme/dist/./logo-without-tag_98d26ec8.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Police Kill 1-Year-Old Boy by Shooting Into Car of Suspected Shoplifters\nThe suspects—his mother and aunt—were accused of shoplifting diapers from Walmart.\nThis week, police in Mississippi shot into a car, trying to stop a fleeing suspect. In the process, they killed a 1-year-old boy and put his aunt in the hospital.\nThe scenario is tragic, but it's especially galling because in this case, what brought officers to the scene in the first place was a report of stolen diapers.\nOn Sunday, police [responded](https://wreg.com/news/mbi-investigates-shooting-at-senatobia-walmart-parking-lot/) to a call about a possible shoplifter at a Walmart in Senatobia, Mississippi. \"Officers said they encountered two adults and a small child running from the building and getting into a vehicle,\" [reports](https://www.fox13memphis.com/news/shoplifting-call-ends-with-gunfire-as-police-officer-shoots-into-car-outside-walmart-killing-child/article_40f41d42-afa5-463f-9f1f-55683feef569.html) Fox13. Cellphone footage from the scene shows officers running after the suspects on foot as they drove away.\n\"Authorities said officers attempted to stop the vehicle, but the driver drove in the direction of officers and nearly struck one of them,\" [adds](https://wreg.com/news/mbi-investigates-shooting-at-senatobia-walmart-parking-lot/) WREG, citing the Mississippi Bureau of Investigation (MBI). \"An officer then fired their weapon, according to MBI, and the vehicle fled the scene.\"\nThe car went to a local hospital, where 1-year-old Kohen Wiley was pronounced dead. [According to](https://wreg.com/news/mbi-investigates-shooting-at-senatobia-walmart-parking-lot/) Wiley's family, the other occupants of the car were his mother and his aunt, who was admitted in critical condition.\nA witness later [claimed](https://wreg.com/news/local/ms-town-looks-for-answers-after-walmart-shooting-that-killed-1-year-old/) he saw two women leaving the store, one holding the child and the other holding a box of diapers. It's not yet clear if they were actually shoplifting, but that's beside the point; even if they were, pilfering diapers hardly merits an armed response.\nIn Mississippi, shoplifting is a [misdemeanor](https://law.justia.com/codes/mississippi/title-97/chapter-23/section-97-23-93/), punishable by a fine or a few months in jail—certainly nothing that justifies deadly force. Investigators claim the suspects drove their car at one of the officers, but so far, there is no evidence to either confirm or contradict that claim. Cellphone [footage](https://www.fox13memphis.com/news/shoplifting-call-ends-with-gunfire-as-police-officer-shoots-into-car-outside-walmart-killing-child/article_40f41d42-afa5-463f-9f1f-55683feef569.html) shows them driving away, but it does not show either the car swerving toward an officer or the shooting itself.\nIt's certainly plausible that investigators may be exaggerating, or even lying about, the threat the officer faced. In [January 2026](https://reason.com/2026/01/12/the-ice-agent-who-killed-renee-good-disregarded-traffic-stop-guidelines/), U.S. Immigration and Customs Enforcement officer Jonathan Ross shot and killed Minneapolis motorist Reneé Good. Kristi Noem, then the secretary of the Department of Homeland Security, said Good had \"weaponized her vehicle\" by trying to hit him with her car, though footage at the scene indicated Good was actually trying to drive around Ross, who had positioned himself in front of her vehicle even as agents directed her to drive away.\nIt's also not clear why the officers in Mississippi felt the need to give chase in the way they did. [According to the MBI](https://wreg.com/news/local/ms-town-looks-for-answers-after-walmart-shooting-that-killed-1-year-old/), officers saw the suspects leave the store and get into their car but chose to pursue on foot. Investigators also admit that officers saw there was a child in the car, yet they still chose not only to give chase but to deploy weapons.\nThere are no national standards",
+      "title": "Police kill 1-year-old boy shooting into car of suspected shoplifters",
+      "url": "https://reason.com/2026/06/16/police-kill-1-year-old-boy-shooting-into-car-of-suspected-shoplifters/?utm_source=twitter&utm_medium=social_reason_non_paid&utm_campaign=reason_brand&utm_content=autoshare&utm_term=post"
+    },
     "https://reducto.ai/careers/0a4976be-4af3-4cba-8996-a7fe6bff696d": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -14393,6 +14785,20 @@
       "title": "",
       "url": "https://thein.fo/43wKrWU"
     },
+    "https://thein.fo/4eL4EhQ": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://thein.fo/4eL4EhQ",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://thein.fo/4eL4EhQ"
+    },
     "https://thein.fo/4fD7Yww": {
       "content_type": "",
       "description": "",
@@ -14750,6 +15156,30 @@
       "title": "When AI builds itself \\ Anthropic",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement"
     },
+    "https://www.anthropic.com/research/claude-code-expertise": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.anthropic.com/research/claude-code-expertise",
+      "frameable": false,
+      "image_urls": [
+        "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&backgroundColor=cactus",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb0c229bb9765b65716dfdf1cd0bedc2713037288-1920x1080.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc8c039a010b96ad191a3a9b7dfe6ad01adb410bf-1920x1080.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fffb14937444e81d80b38d7b085438b61d5ea46ff-1850x1830.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa72b63aceab4eadb0baa5799a69cc3ff211e7462-1920x1080.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc72f140ee2d30cdf1385e425098fb698b7c5d74c-1920x1080.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54cae744dadf523561ef80b448161fef13991420-1850x1487.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F140578bc2523d4945c016d72e69628d2692228c8-1920x1080.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d2d5df2002152c1a010a139deadab4a7e593a39-1920x1080.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Key findings\n- Building on [prior](https://www.anthropic.com/research/measuring-agent-autonomy)[work](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic), we introduce a framework for studying interactive agentic coding based on a[privacy-preserving analysis](https://www.anthropic.com/research/clio)of ~400,000 Claude Code sessions from between October 2025 and April 2026. We evaluate the composition of tasks, human-AI collaboration, and success rates.\n- In a typical session, people make most of the planning decisions (what to do) and Claude makes most of the execution decisions (how to do it). The greater domain expertise a person brings to a session, the more work Claude does per instruction. On coding tasks, every major occupation succeeds––accomplishes what the person set out to do, with verifiable evidence like passing tests or committed work––at nearly the same rate as software engineers, on average.\n- The more domain expertise a person has, the more often the session ends in success—though the gap between intermediate and expert users is modest. Over the seven months we observe, the share of sessions spent debugging fell by nearly half, and usage shifted toward more end-to-end agentic use: deploying and running code, analyzing data, and writing non-code documents.\n- Over those seven months, the value of the typical task, which we estimate through a comparison to freelance job postings, rose in almost every kind of work—about 25% on average.\nIntroduction\nAgentic coding has taken off. The share of GitHub projects with coding agent activity has more than doubled since late 2025,1 and Claude Code users now spend an average of 20 hours per week using the tool.2 Can people without formal coding experience successfully direct an agent through complex technical work? And what will rapid adoption and improvement of these tools mean for knowledge work broadly? While we don’t have full answers to these questions yet, we look to Claude Code usage data for early signals.\nThis report provides evidence on how Claude Code is used in practice, based on a [privacy-preserving analysis](https://www.anthropic.com/research/clio) of ~400,000 interactive sessions from ~235,000 people between October 2025 and April 2026. It builds on prior work focused on [measures of autonomy](https://www.anthropic.com/research/measuring-agent-autonomy) in Claude Code sessions, and [how Claude Code is changing work at Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic).3 Here, we introduce a framework for describing interactive AI coding-assistant usage: what kind of work is being done, who is doing it, and whether it succeeds. We focus on Claude Code usage through a command-line interface (CLI), [Claude.ai](http://claude.ai/redirect/website.v1.3c41b58a-f6ad-464d-9d1e-08c9cb21f402), or the Claude Code desktop app.4 By tracking how agentic coding usage changes as models get more capable, we can better understand how these tools affect the labor market for coding professionals and knowledge workers.\nWhat happens on Claude Code may be a preview of where knowledge work is headed, as agents become embedded in non-coding work. We find that Claude is handling more complex and more valuable tasks. At the same time, there remains a clear division of labor in agentic coding: People decide what to build, and the agent decides how to build it.\nWe also see evidence that domain expertise, and not coding proficiency, amplifies effective use of the tool. In particular, domain experts succeed more often, and more easily recover from errors and misunderstandings. However, the gap between experts and intermediates is modest—suggesting that proficiency in a domain is enough to use the tool almost as effectively as those with deep mastery.\nThese findings give us an early read on possible transitions in the labor market. In our data, success is determined by how well a person understands the problem they are trying to solv",
+      "title": "Agentic coding and persistent returns to expertise \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-code-expertise"
+    },
     "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1": {
       "cleaner_v": 2,
       "content_type": "",
@@ -14766,6 +15196,34 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606156a24ecc229cdae05be9823a1"
+    },
+    "https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe"
+    },
+    "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c"
     },
     "https://www.browserbase.com/blog/browser-agent-autonomy-levels": {
       "cleaner_v": 2,
@@ -14814,6 +15272,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Browserbase Pricing: Free, $20, $99, or Custom | Browserbase",
       "url": "https://www.browserbase.com/pricing"
+    },
+    "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropic’s Fable shutdown could boost open-source AI, but many of the models gaining traction are Chinese.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter",
+      "frameable": false,
+      "image_urls": [
+        "https://image.cnbcfm.com/api/v1/image/108314565-1780322976363-gettyimages-2276989325-AFS_ClaudeAILogoPhotoIlustrations_6JPG.jpeg?v=1780336837&w=1920&h=1080",
+        "https://static-redesign.cnbcfm.com/dist/d6085c9e81f4d7365c8d.svg",
+        "https://static-redesign.cnbcfm.com/dist/93743f20be95b721880f.svg",
+        "https://static-redesign.cnbcfm.com/dist/69ae09b80acd376e9c97.svg",
+        "https://image.cnbcfm.com/api/v1/image/108044898-1728590225182-AI_AGE_CNBC_COM_SPECIAL_REPORT_HEADER_BKGD_TEMPLATE_1497x160_v04.jpg?v=1728590238",
+        "https://image.cnbcfm.com/api/v1/image/108047415-1729017766754-AI_AGE_CNBC_COM_SPECIAL_REPORT_HEADER_LOGO_TEMPLATE_500x160_v06.png?v=1729017772",
+        "https://image.cnbcfm.com/api/v1/image/105984889-1561499294495headshots_190617-201_2000rr.jpg?v=1561499310&w=60&h=60&ffmt=webp",
+        "https://image.cnbcfm.com/api/v1/image/107418683-1716398841442-DEIRDRE_BOSA_EXTENDED.jpg?v=1716985030&w=60&h=60&ffmt=webp",
+        "https://image.cnbcfm.com/api/v1/image/108322778-17816395131781639507-46586605754-1080pnbcnews.jpg?v=1781639509&w=750&h=422&vtcrop=y",
+        "https://image.cnbcfm.com/api/v1/image/108317329-1780663279355-gettyimages-2279132083-BLOOMBERG_TECH.jpeg?v=1780663408&w=600&h=300&vtcrop=y",
+        "https://image.cnbcfm.com/api/v1/image/107401966-1713285147051-gettyimages-1408769890-sauditech1012web3.jpeg?v=1767980766&w=600&h=300&vtcrop=y",
+        "https://image.cnbcfm.com/api/v1/image/108255762-17690962602026-01-22t153714z_1035611969_rc2f6jatc4xw_rtrmadp_0_davos-meeting.jpeg?v=1771959662&w=600&h=300&vtcrop=y"
+      ],
+      "kind": "article",
+      "text_excerpt": "Anthropic's suspension of its top AI models late last week drove home a hard truth for the companies that were counting on them: access can be cut off at any time.\nIt's been a big theme this week, and one that Wall Street will be watching closely as Anthropic and OpenAI gear up for potentially [massive IPOs](https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html) in the coming months. \n[Microsoft](https://www.cnbc.com/quotes/MSFT/) CEO [Satya Nadella](https://www.cnbc.com/satya-nadella/) is warning of the risks, even as his company is the principal investor in OpenAI, and backed Anthropic last year to the tune of billions of dollars. He wrote Monday in a [post](https://x.com/satyanadella/status/2066182223213293753) on X  that companies need to \"build agentic systems that improve over time, while still retaining control over their IP.\"\n\"The last thing any of us want is a world where every company across every sector is ceding value to a few models that eat everything they see,\" Nadella wrote.\nInvestors have been trading on that theme. [MiniMax](https://www.cnbc.com/quotes/100-HK/) and [Zhipu](https://www.cnbc.com/quotes/2513-HK/), the Chinese open-source AI lab, both surged on Monday as the Anthropic fight put a spotlight on downloadable models that companies can run themselves.\nThe Anthropic-Fable [news](https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html) landed at an awkward moment late Friday. Roughly two hours earlier, [SpaceX](https://www.cnbc.com/quotes/SPCX/) had wrapped up its [first day of trading](https://www.google.com/search?q=cnbc+spacex+ipo+blog+june+12&rlz=1C1GCEB_enUS1195US1195&oq=cnbc+space&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg4IARBFGCcYOxiABBiKBTIICAIQRRgnGDsyBggDEEUYOTIGCAQQRRg7MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMjEwMWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8) following the biggest IPO on record. SpaceX's xAI unit is a niche player in artificial intelligence, but CEO [Elon Musk](https://www.cnbc.com/elon-musk/) is an outspoken voice on the topic. \nAnthropic [announced](https://www.anthropic.com/news/fable-mythos-access) it had pulled access to its Fable 5 and Mythos 5 models to comply with an export control directive from the U.S. government that cited \"national security authorities.\" Anthropic abruptly disabled the models for all of its customers in order to ensure compliance, but said all of its other models would not be affected.\nFor developers who want full control over model access, there's another approach. An open-source model can be downloaded, run on a company's own infrastructure, and customized for its data and needs. When the model lives on a company's own servers, no political fight can switch it off.\nYash Patel, CEO of Applied Compute, which helps companies train and run custom models, said the Anthropic fight \"highlighted the significance of owning your own model.\" He said the shift has become much more mainstream of late.\n\"What we've been hearing increasingly, probably more so in the last month than the entire year, is the fact that they want a multimodal future,\" Patel said. \"They don't want to be locked into a single vendor.\"\nThat could be a problem for the U.S., as the the open models winning the most adoption are from China, just as the world's two biggest economies are in a battle over controlling the future of AI.\nModels from DeepSeek, [Tencent](https://www.cnbc.com/quotes/700-HK/), Xiaomi, and MiniMax all rank among OpenRouter's most-used this month, even against closed competitors. Zhipu framed its latest release as a rebuttal of sorts to Washington. Cutting-edge AI, the company argued, shouldn't belong to a handful of players or be withdrawn at will.\nCost could also speed adoption. As the price of state-of-the-art AI climbs, companies are already routing routine work to cheaper models and saving the most expensive ones for the hardest tasks.\nPatel said custome",
+      "title": "Anthropic's Fable shutdown is a big moment for open-source AI Anthropic's Fable shutdown is a big moment for open-source AI",
+      "url": "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter"
     },
     "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar": {
       "cleaner_v": 2,
@@ -15276,6 +15760,30 @@
       "title": "",
       "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
     },
+    "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "AI is enabling a deluge of cyberattacks the likes of which we’ve never seen before.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/eQiGnTVh4-YyvXQovN0apSaqC64=/0x61:2876x1559/1200x625/media/img/mt/2026/06/2026_06_13_Hacking/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/MGkznmX5aR6Bv6zWbDrnuWIxv40=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_13_Hacking/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/cvqkiGqr5oeTvJi706qtcaOkivk=/815x349:3584x3118/120x120/media/img/authors/2023/06/Matteo_Wong/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Assume You Will Be Hacked\nAI is enabling a deluge of cyberattacks the likes of which we’ve never seen before.\nLate last month, I began to consider withdrawing some money from my savings account to buy gold. It’s the first time I’ve ever thought about panic-buying. For all of the firewalls and two-factor-authentication codes, the safety of the internet is starting to falter. Hackers are gaining the upper hand over organizations around the world—hospitals, energy grids, government agencies, and, yes, banks.\nAs AI tools have become extremely good at writing code, they’ve also become extremely good at pulling off cyberattacks. (Malware, after all, is still software.) The result has been a change in the scale, speed, and sophistication of hacks that is difficult to overstate: Among its tens of thousands of clients, the cybersecurity firm Palo Alto Networks identified a fourfold increase in daily attacks from 2024 to 2025. Hackers are developing AI-enhanced computer viruses that adapt on the fly to avoid detection. They are automating cyber-espionage campaigns on foreign governments. They are stealing data in minutes instead of hours. “There’s a crazy amount of offensive activity happening right now,” Alex Stamos, a former chief security officer of Yahoo and Facebook, told me. “Companies are getting hacked every single day.”\nIf the NSA is perturbed by the rise in cyberattacks, which it [apparently](https://www.nsa.gov/aisc/) is, then surely my savings are vulnerable. There could be any number of weaknesses in my bank’s IT systems to directly hack. Or perhaps an AI-written phishing email targeted at an employee, personalized to sound like a family member or manager, could let hackers into the back end to empty my coffers. Even if the bank has great cybersecurity, an attack on another business—a medical clinic I visited, a car-rental company, a newsletter subscription—could steal my payment information and, potentially, much more. The attack angles are seemingly infinite. And no one is adequately prepared.\nThe term software engineering has always been an insult to the level of rigor demanded of mechanical, civic, and other engineers. Computer programs can be riddled with vulnerabilities and run just fine for years or decades—and much of the software underlying the web has done just that. “We’ve just been writing software in a totally slapdash and insecure way for decades now,” Stamos, who is now the chief security officer at the AI-coding company Corridor, said. With some small, high-stakes exceptions—such as software used on the International Space Station or nuclear submarines—code is written and deployed without much rigorous testing. If a bug is reported, it gets patched.\nSuch a relaxed security posture has been more or less fine because discovering vulnerabilities is hard and skilled hackers are few in number: Either nobody found the bugs or nobody was able to exploit them. But traditional cybersecurity methods don’t cut it anymore. Before, you might scramble for a week to patch a hole, Giovanni Vigna, a cybersecurity expert at UC Santa Barbara, told me. “Now you could have hundreds of those every week.” Moody’s Ratings has found that the time attackers take to exploit a publicly known vulnerability (the digital equivalent of a robber plotting how to get around a bank’s guards and cameras after obtaining a key) fell from more than 700 days in 2020 to just 44 days in 2025—faster than the average time cybersecurity teams take to patch the bug.\nGovernments and major companies are on high alert for AI-enabled cyberwarfare. The wake-up call came this spring, with the announcement of two extremely advanced cyber models—[Claude Mythos Preview](https://www.theatlantic.com/technology/2026/04/claude-mythos-hacking/686746/) from Anthropic, and the analogous GPT-5.5-Cyber from OpenAI soon after. Many independent cybersecurity experts have told me that these models are as or nearly as skilled as elite human hackers, which is why Anthropic and",
+      "title": "Nothing on the Internet Is Secure Anymore - The Atlantic",
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
+    },
     "https://www.theinformation.com/articles/anthropic-blindsides-business-partners?rc=kavc8p": {
       "cleaner_v": 2,
       "content_type": "",
@@ -15433,38 +15941,6 @@
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I"
     },
-    "https://x.com/i/article/2053986800050524160": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2053986800050524160",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIfu7HiawAA1ooX?format=jpg&name=900x900)](https://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874454321020928)\n\nMemory isn't a plugin. Skills aren't a plugin. They're the same harness.\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](https://x.com/i/article/2053986800050524160/tricalt)\n\n[Vasilije](https://x.com/i/article/2053986800050524160/tricalt)\n\n[@tricalt](https://x.com/i/article/2053986800050524160/tricalt)\n\n·\n\n23h\n\nFollow\n\nClick to Follow tricalt\n\n7\n\n52\n\n457\n\n[46K](https://x.com/i/article/2053986800050524160/tricalt/status/2055876832797581406/analytics)\n\nMemory APIs are not a viable product category, and skill systems are just markdown. We've been saying it for a while.\n\n[@sarahwooders](https://x.com/@sarahwooders)\n\n and \n\n[@hwchase17](https://x.com/@hwchase17)\n\n made the case last month that memory isn't a plugin and that it is the harness instead. \n\nI made the same argument earlier, from the other side. We argued in a post that got 1.7M views that \n\n[skills aren't static files](https://x.com/tricalt/status/2032179887277060476)\n\n. Skills degrade silently in dynamic environments. They need a loop — Observe → Inspect → Amend → Evaluate.\n\nBoth arguments are in essence about the same harness. A world model.\n\n## \n\nTreat skills and memory as the same harness\n\nA world model is whatever the agent is aware of and what it uses to predict the next action it should take. In an agent harness, it is a broad state of all things you touch: the codebase layout, the tool schemas, the file system, the last 20 turns of conversation and the user's preferences. \n\nThe world model is the entire aggregate of context that the harness loads to decide the next step.\n\nYou can look at memory as a broad harness and skill as a specific one.\n\n## \n\nIs skill a subset of memory?\n\nSkills are the part that records what to do. A SKILL.md is a procedure-level claim: \"to do task T, run steps X, Y, Z.\"\n\nSkills extend memory with a practical ability to do N tasks. Skills are a compressed procedure. It says \"the world has responded to X, Y, Z by producing T in the past, and probably will again.\"\n\nMemory observes the world while skills codifies it into a rule.\n\nWe've extended cognee to store skills and memory in the same store. Self-improvement runtime and agentic retriever share the same graph nodes.\n\n## \n\nHow Cognee handles it? \n\ncognee.remember(\"skills/\") now lets you ingest skills with one line. \n\nInside Cognee a SkillChangeEvent emits memory events when skill changes. The skill is a memory node that evolves, is traceable, and controllable.\n\nSkills improve by reading their memory. Memory improves by amending the skills attached to it. There's no clean line between them because there should not be one.\n\nWe have recently organized a hackathon where users built 21 LLM Knowledge Wikis in 3 hours using Cognee and Redis as session store!\n\nAnd they did so because improving skills and memory is trivial in our new API:\n\npython\n\n```python\n    proposal_result = await cognee.remember(\n        SkillRunEntry(\n            selected_skill_id=skill_to_improve,\n            task_text=\"Review the current skiill,\n            result_summary=\"Review missed boundary bug.\",\n            success_score=score,\n            feedback=-1.0 if score < 0.7 else 1.0,\n        ),\n        dataset_name=DATASET,\n        session_id=SESSION,\n        skill_improvement={\n            \"skill_name\": skill_to_improve,\n            \"apply\": False,\n            \"score_threshold\": 0.9,\n        },\n    )\n```\n\n[![Image](https://pbs.twimg.com/media/HIfvVw4bkAAUfCy?format=jpg&name=small)](https://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874912095801344)\n\nHow self-improvement works for Skills added to Cognee\n\n## \n\nConclusi",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](https://x.com/i/article/2053986800050524160/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIfu7HiawAA1ooX?format=jpg&name=900x900)](https://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874454321020928)\n\n记忆不是一个插件。技能也不是一个插件。它们是同一个 harness。\n\n[![](https://pbs.twimg.com/profile_images/1456192254515814403/cHVJ7L7g_normal.jpg)](https://x.com/i/article/2053986800050524160/tricalt)\n\n[Vasilije](https://x.com/i/article/2053986800050524160/tricalt)\n\n[@tricalt](https://x.com/i/article/2053986800050524160/tricalt)\n\n·\n\n23小时前\n\n关注\n\n点击关注 @tricalt\n\n7\n\n52\n\n457\n\n[46K](https://x.com/i/article/2053986800050524160/tricalt/status/2055876832797581406/analytics)\n\n记忆 API 不是一个可行的产品类别，技能系统也只是 markdown。我们早就这么说过。\n\n[@sarahwooders](https://x.com/@sarahwooders) 和 [@hwchase17](https://x.com/@hwchase17) 上个月论证了记忆不是一个插件，而是 harness 本身。\n\n我也从另一个角度提出了同样的论点。我们在一个获得 170 万次浏览的帖子中论证了[技能不是静态文件](https://x.com/tricalt/status/2032179887277060476)。技能在动态环境中会静默退化。它们需要一个循环——观察 → 检查 → 修正 → 评估。\n\n这两个论点本质上都指向同一个 harness：一个世界模型。\n\n## \n\n将技能和记忆视为同一个 harness\n\n世界模型是 agent 所感知的一切，以及它用来预测下一步行动的依据。在 agent harness 中，它是一个包含所有你接触到的内容的广泛状态：代码库布局、工具 schema、文件系统、最近 20 轮对话以及用户偏好。\n\n世界模型是 harness 为决定下一步而加载的全部上下文聚合。\n\n你可以将记忆视为一个广义的 harness，而技能则是一个特定的 harness。\n\n## \n\n技能是记忆的子集吗？\n\n技能是记录“做什么”的部分。一个 SKILL.md 是一个过程级别的声明：“要完成任务 T，请执行步骤 X、Y、Z。”\n\n技能通过执行 N 个任务的实际能力来扩展记忆。技能是一种压缩的过程。它表明“世界过去曾通过执行 X、Y、Z 产生 T，并且很可能还会再次如此。”\n\n记忆观察世界，而技能将其编纂成规则。\n\n我们扩展了 cognee，将技能和记忆存储在同一个存储中。自我改进运行时和 agentic 检索器共享相同的图节点。\n\n## \n\nCognee 如何处理？\n\ncognee.remember(\"skills/\") 现在允许你通过一行代码摄取技能。\n\n在 Cognee 内部，一个 SkillChangeEvent 在技能发生变化时发出记忆事件。技能是一个会演化、可追踪且可控的记忆节点。\n\n技能通过读取其记忆来改进。记忆通过修正与之关联的技能来改进。它们之间没有清晰的界限，因为本就不该有。\n\n我们最近组织了一场黑客马拉松，用户使用 Cognee 和 Redis 作为会话存储，在 3 小时内构建了 21 个 LLM 知识 Wiki！\n\n他们之所以能做到，是因为在我们的新 API 中改进技能和记忆非常简单：\n\npython\n\n```python\n    proposal_result = await cognee.remember(\n        SkillRunEntry(\n            selected_skill_id=skill_to_improve,\n            task_text=\"Review the current skiill,\n            result_summary=\"Review missed boundary bug.\",\n            success_score=score,\n            feedback=-1.0 if score < 0.7 else 1.0,\n        ),\n        dataset_name=DATASET,\n        session_id=SESSION,\n        skill_improvement={\n            \"skill_name\": skill_to_improve,\n            \"apply\": False,\n            \"score_threshold\": 0.9,\n        },\n    )\n```\n\n[![图片](https://pbs.twimg.com/media/HIfvVw4bkAAUfCy?format=jpg&name=small)](https://x.com/i/article/2053986800050524160/tricalt/article/2055876832797581406/media/2055874912095801344)\n\n添加到 Cognee 的技能如何实现自我改进\n\n## \n\n结论",
-      "text_excerpt_zh_hash": "8446d2ece68b9ad7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2053986800050524160"
-    },
-    "https://x.com/i/article/2054596954282496000": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2054596954282496000",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054596954282496000/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIf8lCLa0AAgR6C?format=jpg&name=900x900)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2055889468088045568)\n\nDesigning eval datasets for LLM applications\n\n[![](https://pbs.twimg.com/profile_images/1994707418790432768/NvTWenyx_normal.jpg)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n[Lotte![](https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_bigger.jpg)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n[@lotte\\_verheyden](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden)\n\n·\n\n12h\n\nFollow\n\nClick to Follow lotte\\_verheyden\n\n3\n\n25\n\n242\n\n[26K](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden/status/2056032201259831398/analytics)\n\nThis is one piece of a series we’re publishing as part of the L\n\n[angfuse Academy](https://langfuse.com/academy)\n\n, where we walk through the full AI engineering lifecycle. If you’re new to the series,\n\n[The AI Engineering Loop](https://langfuse.com/academy/ai-engineering-loop)\n\nis the best place to start\n\n## \n\nA short recap of the AI Engineering Loop\n\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n\n[![Image](https://pbs.twimg.com/media/HIf6DJlasAAudWe?format=jpg&name=small)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2055886686937329664)\n\nYou can read more on this \n\n[here](https://langfuse.com/academy/ai-engineering-loop)\n\n.\n\n# \n\nHow datasets fit into the loop\n\nSo far, we've covered the first two steps of the \n\n[AI engineering loop](https://langfuse.com/academy/ai-engineering-loop)\n\n: \n\n[tracing](https://langfuse.com/academy/tracing)\n\n your application and \n\n[monitoring](https://langfuse.com/academy/monitoring)\n\n its behavior live. Those give you visibility into what your system is actually doing and give you inspiration for improvement.\n\nNow the question becomes: when you spot something worth improving, how do you test a change before deploying it to production? The next three steps of the loop cover exactly this, and it starts with datasets.\n\nA dataset is a collection of test cases that you run your application against each time you make a change (\"an experiment\"). Instead of deploying and hoping for the best, you get a repeatable, consistent check across a set of inputs that represent real-world usage.\n\n# \n\nThe dataset item\n\nA dataset is made up of items, each item represents one test case: a situation your application should be able to handle. Generally, an item has three fields:\n\n* Input (required)\n* Expected output (optional)\n* Metadata (optional)\n\n## \n\nThe three fields of a dataset item\n\n[![Image](https://pbs.twimg.com/media/HINlehfaMAAOPP-?format=png&name=small)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597430071668736)\n\nA good mental model:\n\n[![Image](https://pbs.twimg.com/media/HINlidcbAAAsVew?format=png&name=small)](https://x.com/i/article/2054596954282496000/lotte%5Fverheyden/article/2056032201259831398/media/2054597497704873984)\n\n## \n\nCommon expected output patterns\n\nWhether you need an expected output, and what it looks like, depends on which type of evaluator you use.\n\nReference-based versus reference-free evaluatorsSome evaluators check the output against a predefined expected output (reference-based). Others assess the output without needing a ground truth to compare against (reference-free).\n\nExact match\n\nThe expected output is the literal correct answer. For example:\n\n* A classification task where the correct la",
-      "text_excerpt_zh": "## 为LLM应用设计评估数据集\n\n这是我们在[Langfuse Academy](https://langfuse.com/academy)系列中发布的一篇文章，该系列将完整讲解AI工程生命周期。如果你是第一次接触这个系列，建议从[《AI工程循环》](https://langfuse.com/academy/ai-engineering-loop)开始阅读。\n\n## AI工程循环简述\n\nAI工程循环是团队持续改进AI系统的方法。它将生产环境中发生的情况（追踪、监控）与开发阶段的结构化迭代（数据集、实验、评估）连接起来。每次改进上线都会产生新数据，团队通过这个循环持续迭代。\n\n你可以[在此](https://langfuse.com/academy/ai-engineering-loop)了解更多详情。\n\n# 数据集在循环中的位置\n\n到目前为止，我们已经介绍了[AI工程循环](https://langfuse.com/academy/ai-engineering-loop)的前两个步骤：[追踪](https://langfuse.com/academy/tracing)你的应用和[监控](https://langfuse.com/academy/monitoring)其实时行为。这些步骤让你了解系统的实际运行情况，并为改进提供灵感。\n\n现在的问题是：当你发现值得改进的地方时，如何在部署到生产环境之前测试变更？循环接下来的三个步骤正好解决了这个问题，而这一切从数据集开始。\n\n数据集是一组测试用例的集合，每次你做出变更（即\"一次实验\"）时，都会用这些用例来运行你的应用。与其直接部署并寄希望于一切顺利，不如通过一组代表真实使用场景的输入，获得可重复、一致的检查结果。\n\n# 数据集项\n\n数据集由若干项组成，每一项代表一个测试用例：即你的应用应该能够处理的一种情况。通常，一个项包含三个字段：\n\n* 输入（必填）\n* 预期输出（可选）\n* 元数据（可选）\n\n## 数据集项的三个字段\n\n一个好的思维模型：\n\n## 常见的预期输出模式\n\n是否需要预期输出，以及它应该是什么样子，取决于你使用的评估器类型。\n\n基于参考与无参考评估器\n有些评估器会检查输出是否与预定义的预期输出一致（基于参考）。另一些评估器则无需真实答案作为对比，直接评估输出质量（无参考）。\n\n精确匹配\n\n预期输出就是字面上的正确答案。例如：\n\n* 一个分类任务，其中正确的标签是...",
-      "text_excerpt_zh_hash": "21c4f229b767bba6",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2054596954282496000"
-    },
     "https://x.com/i/article/2054598592980234240": {
       "cleaner_v": 2,
       "content_type": "",
@@ -15480,35 +15956,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://x.com/i/article/2054598592980234240"
-    },
-    "https://x.com/i/article/2055613452798902272": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2055613452798902272",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2055613452798902272/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIdrl0rWQAAq_rO?format=jpg&name=900x900)](https://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055730052457709568)\n\n为什么AI 时代，别追网红，要追 Builder\n\n[![](https://pbs.twimg.com/profile_images/1327292688736034816/vJTxjjLU_normal.jpg)](https://x.com/i/article/2055613452798902272/Xudong07452910)\n\n[Xudong Han](https://x.com/i/article/2055613452798902272/Xudong07452910)\n\n[@Xudong07452910](https://x.com/i/article/2055613452798902272/Xudong07452910)\n\n·\n\n21h\n\nFollow\n\nClick to Follow Xudong07452910\n\n6\n\n3\n\n30\n\n[4.1K](https://x.com/i/article/2055613452798902272/Xudong07452910/status/2055904097358794948/analytics)\n\n> 选择关注谁，决定你会成为什么。\n\n最近这一年，我越来越明显地感觉到一件事：很多人每天都在高强度「关注 AI」，但真正开始动手做东西的人，其实并不多。\n\n每天打开 X、小红书、YouTube，你都会看到大量关于 AI 的内容。有人分析行业趋势，有人预测未来职业，有人讨论 Agent 会如何改变世界，也有人不断强调「普通人最后的机会来了」。\n\n这些内容本身并没有问题。很多人讲得确实好，逻辑清晰，表达有感染力，也帮助了不少人第一次接触 AI。\n\n但看久了之后，你会慢慢产生一种奇怪的感觉：你好像知道了很多东西，却又什么都没有真正开始。\n\n你收藏了几十篇「AI 创业指南」，关注了一堆「未来趋势」博主，也记住了大量热门词汇——MCP、Agent、Workflow、RAG、Multi-Agent。可回头看时会发现，自己真正做过的事情其实很少。\n\n这种状态我自己也经历过。有段时间，我每天刷大量 AI 内容，今天有人说「AI 将淘汰程序员」，明天有人说「一个人公司时代来了」，后天又有人说「未来属于超级个体」。每句话都让人产生「再不行动就晚了」的紧迫感，可真正让我开始改变的，并不是那些宏大的观点，而是后来我越来越多地开始关注一些真正下场做事的人。\n\n## \n\n一、网红讲趋势，Builder 讲怎么做\n\n网红的价值一直存在。他们擅长总结趋势、提炼观点、放大情绪，能让更多人第一次理解 AI 到底意味着什么。\n\n但大部分趋势内容有一个共同特点：它们更像一种「认知消费品」。你看的时候很兴奋，觉得自己已经理解了这个时代，但这种理解往往停留在观点层面，不会真正转化成行动。\n\n比如有人会不断告诉你：「未来一定属于 Agent」「AI 会重构所有行业」「不会用 AI 的人会被淘汰」。这些话可能都没错，但对于真正想做事的人来说，他更关心的问题是：Agent 到底解决了什么真实需求？用户为什么愿意付费？什么场景是真的高频？一个普通人应该从哪里开始？\n\n这些问题，往往只有真正做过产品的人才会聊。因为它们不是观点，而是经验。经验这种东西通常不够「性感」，甚至有点狼狈，但恰恰最接近真实世界。\n\n## \n\n二、Builder 的分享，会让你第一次认真想「怎么做」\n\n我现在越来越喜欢看独立开发者的分享，原因很简单：他们讲的东西通常格外具体。\n\n[![Image](https://pbs.twimg.com/media/HIdtwJ_WUAAUnYJ?format=jpg&name=small)](https://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055732429000691712)\n\n前段时间我看到一个开发者分享，说他最开始做 AI 产品时，一直以为用户最需要「AI 帮忙生成内容」，于是花了很多时间做 AI 写作、AI 总结之类的功能，技术做得不差，但用户始终不愿意付费。后来他偶然接触到一些跨境电商卖家，发现这些人每天都在重复做一件枯燥的事：整理 SKU、填写产品信息、同步平台数据。于是他花了一个周末，做了一个帮卖家自动整理商品表格的小工具。界面不漂亮，功能也不复杂，但上线后很快就有了付费用户。\n\n这个例子让我印象极深。因为它说明真实市场和想象中的市场完全不一样——很多付费需求，不过是帮别人节省一点时间，减少一点重复劳动。\n\n类似的还有一个人的经历：他最开始迷恋「做大产品」，想做平台、做生态、做所有人都会用的 AI 应用。折腾了大半年，功能越来越多，系统越来越复杂，但始终没人真正留下来。最后反而靠一个很小的功能活了下来：帮用户自动把会议录音整理成客户沟通纪要。这功能一点都不酷，也没有什么「AGI 感」，但因为它解决的是企业里每天都会出现的真实问题，用户愿意长期付费。\n\n还有一种内容我现在尤其珍惜：那些坦率承认失败的分享。有人花了两个月做产品，发现根本没人用，决定关掉；有人认真复盘为什么广告投放毫无效果，为什么自以为很重要的功能用户根本不在意。\n\n这种分享在互联网上很少见，因为大家更偏爱成功故事——「上线即爆火」「一个人三个月 ARR 十万美元」。但真正做过东西的人都知道，现实里大部分项目不会成功。很多产品上线后没用户、没增长、没转化，开发者默默停掉服务器，项目就结束了。而这些失败经验，反而比成功学更有价值。\n\n## \n\n三、Builder 的日常，远没有想象中光鲜\n\n互联网很容易把「独立开发」「AI 创业」包装得浪漫：一个人坐在咖啡馆里用 MacBook 敲代码，白天旅居，晚上收美元，产品自动增长，自由、松弛、充满未来感。\n\n但真实世界里的 Builder，大部分时候没那么光鲜。更多时候是白天改需求，晚上修 bug；上线后发现支付流程坏了；landing page 改了五版，转化率还是很低；广告投出去，一个注册都没有；半夜两点还在查接口为什么突然报错；好不容易来了几个用户，一半还是朋友支持。\n\n很多做过产品的人应该都经历过一个经典瞬间：熬夜两个星期终于上线，满脑子想着「会不会突然爆掉」，打开后台发现第一天总共十几个访问，大部分还是自己测试的。\n\n那一瞬间挺打击人的。因为你第一次真正意识到，互联网不会因为你「很努力」就自动给你用户。\n\n但也是从这个阶段开始，一个人才真正进入「做事情」的世界。你会慢慢明白，真正难的不是「想到一个点子」，而是后面那些没人愿意讲的东西：怎么持续迭代、怎么理解用户、怎么面对长期没有反馈、怎么在没人鼓掌的时候继续做下去。\n\n如果长期只看网红，你很容易以为成功靠的是风口、流量和一次爆点。但如果你长期关注真正做事的人，你会发现真实世界非常朴素：有人做了二十个小产品，第二十一个才开始赚钱；有人持续发了半年内容，才接到第一个客户；有人把 onboarding 流程改了八次，留存率才终于提升。这些故事不刺激，也不容易传播，但它们会让你开始接受「慢慢来」这件事。\n\n## \n\n四、别只围观，开始动手\n\n现在有一种很普遍的现象：很多人以为自己在「进入 AI 行业」，其实只是在围观。他们每天看最新模型、最新趋势，能聊很多概念，但真正需要动手时，始终停留在「等自己准备好」。\n\n可问题是，很多能力本来就是做出来的。你不上线一个产品，就不会理解什么叫用户反馈；不真正服务客户，就不知道什么需求有人付费；不真正踩坑，就不知道什么问题最麻烦。\n\nBuilder 最大的不同在于，他们会先开始做。哪怕产品很小，哪怕做得粗糙，哪怕没人关注，哪怕最后失败。因为他们知道，真实反馈永远比空谈趋势更重要。\n\n我不是说网红没价值——好的表达者依然重要，他们能帮更多人打开视野。但如果你真的想在 AI 时代做一点自己的事情，别只看别人讲世界，也多看看那些正在亲手做世界的人。\n\n[![Image](https://pbs.twimg.com/media/HIdt7rhX0AAKCzA?format=jpg&name=small)](https://x.com/i/article/2055613452798902272/Xudong07452910/article/2055904097358794948/media/2055732626980327424)\n\n如果你不知道从哪里开始找到这些人，可以去 X 上搜 \n\n[#buildinpublic](https://x.com/search?q=%23buildinpublic&src=hashtag%5Fclick)\n\n 标签，去 Product Hunt 看每天有什么新产品上线，去 Indie Hacker",
-      "title": "",
-      "url": "https://x.com/i/article/2055613452798902272"
-    },
-    "https://x.com/i/article/2055936913211899904": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2055936913211899904",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2055936913211899904/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIgrLhZb0AAxwt3?format=jpg&name=900x900)](https://x.com/i/article/2055936913211899904/addyosmani/article/2056078124346228860/media/2055940706838237184)\n\nDon't Outsource the Learning\n\n[![](https://pbs.twimg.com/profile_images/2012065253623021570/0BReDfMk_normal.jpg)](https://x.com/i/article/2055936913211899904/addyosmani)\n\n[Addy Osmani](https://x.com/i/article/2055936913211899904/addyosmani)\n\n[@addyosmani](https://x.com/i/article/2055936913211899904/addyosmani)\n\n·\n\n9h\n\nFollow\n\nClick to Follow addyosmani\n\n47\n\n314\n\n1.5K\n\n[117K](https://x.com/i/article/2055936913211899904/addyosmani/status/2056078124346228860/analytics)\n\nRight now, it's too easy to let AI write the code while you skip the learning. The bug gets fixed but your mental model doesn't move. It might get worse over time. We are silently trading future capability for present-day speed, and the tools won't force us to do otherwise. That part has to come from you.\n\nThere's a default loop most of us have settled into. You paste in a spec or error message. The model hands you a fix and the symptom vanishes. You ship. Somewhere in that loop, the messy struggle between problem and solution stops happening at all.\n\nI've written before about \n\n[cognitive surrender](https://addyosmani.com/blog/cognitive-surrender/)\n\n, the moment an AI reviewer's verdict quietly replaces your own. This is the solo version of that same loop. It's just you and the model. The model is faster, so you stop trying to compete on comprehension. Across thousands of these small interactions, what you can actually build without an AI looking over your shoulder gets a little weaker every week. None of these moments feel like a problem on the day they happen.\n\nI'm not anti-AI. I use these tools daily and have shipped more with them in the last year than in the years before it. But the default way we use them is optimized for one thing: closing tasks. \n\nThat is a completely different goal from staying sharp enough to steer them over a career that spans a long time.\n\n## \n\nThe studies are converging on the same point\n\nSeveral pieces of research over the last year have landed in roughly the same place.\n\nAnthropic ran a \n\n[randomized trial in early 2026](https://www.anthropic.com/research/AI-assistance-coding-skills)\n\n where engineers learned a new Python library, half with AI assistance and half without. Both groups finished the tasks at the same speed. But the AI group bombed the follow-up comprehension quiz: 50% versus 67% for the manual group, with the gap widening on debugging. The interesting cut was inside the AI group itself. Engineers who used AI to ask conceptual questions scored above 65%. Engineers who copy-pasted the generated code scored under 40%. The tool didn't determine the outcome. The posture did.\n\nMIT's \n\n[Your Brain on ChatGPT](https://www.media.mit.edu/publications/your-brain-on-chatgpt/)\n\n study compared essay writing across LLM, search-engine, and brain-only groups. EEG measurements showed brain connectivity scaling down with every layer of external support. The LLM group showed the weakest coupling. After writing the essay, 83% of LLM users couldn't quote a single line of what they had just produced. The researchers called this cognitive debt: saving mental effort today, paying for it in critical thinking tomorrow.\n\nA \n\n[CHI 2026 study](https://arxiv.org/html/2603.08849v1)\n\n added a related finding. When people had LLM access at the start of a task, the LLM framed the entire problem. Even when the human did the rest of the work themselves, that initial anchoring produced measurably worse decisions. The order of operations mattered more than the total amount of AI used.\n\nDifferent methodologies reaching the same conclusion. Using AI without an active intent to learn quietly degrades the skill you're being p",
-      "text_excerpt_zh": "## 不要外包学习\n\n现在，让AI替你写代码而跳过学习过程，实在太容易了。Bug被修复了，但你的心智模型却没有更新。长此以往，情况可能变得更糟。我们正在用未来的能力，悄无声息地换取当下的速度，而工具本身不会强迫我们做出改变。这部分必须由你自己来把握。\n\n我们大多数人已经陷入了一个默认循环：你粘贴一段需求说明或错误信息，模型给你一个修复方案，症状消失了，你交付了代码。在这个循环的某个环节中，问题与解决方案之间那种混乱的挣扎过程，完全不再发生了。\n\n我之前写过关于[认知投降](https://addyosmani.com/blog/cognitive-surrender/)的文章，指的是AI审查者的结论悄无声息地取代了你自己的判断。而这是同一个循环的单人版本。只有你和模型。模型更快，所以你不再试图在理解力上与它竞争。经过成千上万次这样的小交互，你实际能在没有AI监督下独立构建的能力，每周都在变弱。这些时刻中的任何一个，在发生的当天都不会让人觉得是个问题。\n\n我并不反对AI。我每天都在使用这些工具，并且在过去一年里，借助它们交付的成果比之前几年加起来还多。但我们使用它们的默认方式，只优化了一件事：关闭任务。\n\n这与在漫长的职业生涯中保持足够敏锐以驾驭它们，是完全不同的目标。\n\n## 研究正指向同一个结论\n\n过去一年里的几项研究，大致得出了相同的结论。\n\nAnthropic在2026年初进行了一项[随机试验](https://www.anthropic.com/research/AI-assistance-coding-skills)，让工程师学习一个新的Python库，一半人使用AI辅助，另一半不使用。两组人以相同的速度完成了任务。但AI组在后续的理解力测验中表现糟糕：正确率50%，而手动组为67%，在调试任务上的差距更大。有趣的分化出现在AI组内部。使用AI来提出概念性问题的工程师得分超过65%。而直接复制粘贴生成代码的工程师得分低于40%。工具本身并没有决定结果，是使用姿态决定了结果。\n\nMIT的[你的大脑与ChatGPT](https://www.media.mit.edu/publications/your-brain-on-chatgpt/)研究比较了使用大语言模型、搜索引擎和仅凭大脑三种方式下的论文写作。脑电图测量显示，随着外部支持层级的增加，大脑连接性在逐步下降。大语言模型组显示出最弱的耦合度。写完论文后，83%的大语言模型用户无法引用他们刚刚写出的任何一行内容。研究人员将此称为认知债务：今天节省了脑力劳动，明天要为批判性思维付出代价。\n\n一项[CHI 2026研究](https://arxiv.org/html/2603.08849v1)增加了一个相关发现。当人们在任务开始时就能访问大语言模型时，大语言模型框定了整个问题。即使人类自己完成了后续所有工作，这种初始锚定效应仍然导致了明显更差的决策。操作顺序比使用的AI总量更重要。\n\n不同的研究方法得出了相同的结论。在没有主动学习意图的情况下使用AI，会悄无声息地削弱你正在被辅助的技能。",
-      "text_excerpt_zh_hash": "172290795dfe5f00",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2055936913211899904"
     },
     "https://x.com/i/article/2056250841905201152": {
       "cleaner_v": 2,
@@ -16125,40 +16572,10 @@
     "2054385995727196611": [
       "https://x.com/StarKnight/status/2054385995727196611"
     ],
-    "2055876832797581406": [
-      "https://x.com/tricalt/status/2055876832797581406",
-      "http://x.com/i/article/2053986800050524160"
-    ],
-    "2055904097358794948": [
-      "https://x.com/Xudong07452910/status/2055904097358794948",
-      "http://x.com/i/article/2055613452798902272",
-      "https://x.com/Xudong07452910/status/2055958212612919599",
-      "https://x.com/Xudong07452910/status/2055907580552073221",
-      "https://x.com/Xudong07452910/status/2055931072362230025",
-      "https://x.com/Xudong07452910/status/2056023674424033749",
-      "https://x.com/Xudong07452910/status/2055906156518711699"
-    ],
     "2055945336599020021": [
       "https://x.com/royxy/status/2055945336599020021",
       "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg",
       "https://x.com/royxy/status/2056018702919930334"
-    ],
-    "2056032201259831398": [
-      "https://x.com/lotte_verheyden/status/2056032201259831398",
-      "http://x.com/i/article/2054596954282496000",
-      "https://x.com/lotte_verheyden/status/2056070029981213165"
-    ],
-    "2056078124346228860": [
-      "https://x.com/addyosmani/status/2056078124346228860",
-      "http://x.com/i/article/2055936913211899904",
-      "https://x.com/addyosmani/status/2056092987080466515",
-      "https://x.com/addyosmani/status/2056120741075235309",
-      "https://x.com/addyosmani/status/2056103513185558559",
-      "https://x.com/addyosmani/status/2056086034035929332",
-      "https://x.com/addyosmani/status/2056238025160491445",
-      "https://x.com/addyosmani/status/2056911978875195412",
-      "https://x.com/addyosmani/status/2056086439025324154",
-      "https://x.com/addyosmani/status/2056107921227010519"
     ],
     "2056139571641872765": [
       "https://x.com/jxnlco/status/2056139571641872765",
@@ -20570,6 +20987,10 @@
       "https://x.com/VizierPrime/status/2066504822887751897",
       "http://x.com/i/article/2066457362656083968"
     ],
+    "2066511271969566777": [
+      "https://x.com/LoicBerthelot/status/2066511271969566777",
+      "http://x.com/i/article/2066504020135424000"
+    ],
     "2066513583593103619": [
       "https://x.com/theinformation/status/2066513583593103619",
       "https://thein.fo/43wKrWU",
@@ -20814,9 +21235,17 @@
       "https://x.com/yusukebe/status/2066820192303554733",
       "https://zenn.dev/ashunar0/articles/1ba94a110d8622"
     ],
+    "2066853420326384055": [
+      "https://x.com/GokuMohandas/status/2066853420326384055",
+      "http://x.com/i/article/2066742864974139392"
+    ],
     "2066863634949779464": [
       "https://x.com/kvnkld/status/2066863634949779464",
       "http://x.com/i/article/2064972712729292800"
+    ],
+    "2066868461700362404": [
+      "https://x.com/thisisgrantlee/status/2066868461700362404",
+      "http://x.com/i/article/2064740742564876288"
     ],
     "2066883577141428563": [
       "https://x.com/0xJeff/status/2066883577141428563",
@@ -20830,6 +21259,10 @@
     "2066895528982655317": [
       "https://x.com/Khazix0918/status/2066895528982655317"
     ],
+    "2066899081968947288": [
+      "https://x.com/jeffdfeng/status/2066899081968947288",
+      "http://x.com/i/article/2066638325688020993"
+    ],
     "2066903277242073172": [
       "https://x.com/frxiaobei/status/2066903277242073172"
     ],
@@ -20838,13 +21271,46 @@
       "http://x.com/i/article/2066893911600357376",
       "https://x.com/jhleath/status/2066907527481274752"
     ],
+    "2066908477281501506": [
+      "https://x.com/AlphaSignalAI/status/2066908477281501506",
+      "http://x.com/i/article/2066900281066196992",
+      "https://x.com/AlphaSignalAI/status/2066908769670570029",
+      "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing",
+      "https://x.com/AlphaSignalAI/status/2066540692281971085",
+      "http://x.com/i/article/2066531419573374976"
+    ],
+    "2066914218872299931": [
+      "https://x.com/maishsk/status/2066914218872299931"
+    ],
+    "2066914839126278232": [
+      "https://x.com/Pokee_AI/status/2066914839126278232",
+      "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg",
+      "https://x.com/Pokee_AI/status/2066914841781326085",
+      "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg",
+      "https://x.com/Pokee_AI/status/2066914844016820608",
+      "https://x.com/Pokee_AI/status/2066914846059499775",
+      "https://pbs.twimg.com/media/HK8nfUXawAAEoOX.jpg",
+      "https://x.com/Pokee_AI/status/2066914848399872199",
+      "https://x.com/Pokee_AI/status/2066914850471809067",
+      "https://pbs.twimg.com/media/HK8ntk9aMAADfqs.jpg",
+      "https://x.com/Pokee_AI/status/2066914852610904229",
+      "https://pbs.twimg.com/media/HK8nzD_a0AAE27t.jpg",
+      "https://x.com/Pokee_AI/status/2066914854930452658"
+    ],
     "2066919099016630286": [
       "https://x.com/Gorden_Sun/status/2066919099016630286",
-      "http://x.com/i/article/2066918571184381953"
+      "http://x.com/i/article/2066918571184381953",
+      "https://x.com/Gorden_Sun/status/2067145383139250618",
+      "https://x.com/Gorden_Sun/status/2067062694726017342"
     ],
     "2066921991613890611": [
       "https://x.com/nfcampos/status/2066921991613890611",
       "http://x.com/i/article/2066920008358514692"
+    ],
+    "2066922200028823670": [
+      "https://x.com/axios/status/2066922200028823670",
+      "https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe"
     ],
     "2066924020868501554": [
       "https://x.com/SidebarIO/status/2066924020868501554",
@@ -20859,11 +21325,125 @@
       "https://x.com/sydneyrunkle/status/2066928783534289358",
       "http://x.com/i/article/2066900327077486592"
     ],
+    "2066936083535868343": [
+      "https://x.com/FT/status/2066936083535868343",
+      "https://ft.trib.al/Mt0u2VP"
+    ],
+    "2066938286560440749": [
+      "https://x.com/Mnilax/status/2066938286560440749",
+      "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg"
+    ],
+    "2066943958635192527": [
+      "https://x.com/theinformation/status/2066943958635192527",
+      "https://thein.fo/4eL4EhQ"
+    ],
+    "2066944507837333836": [
+      "https://x.com/draprints/status/2066944507837333836",
+      "http://x.com/i/article/2066496129542311937",
+      "https://x.com/draprints/status/2066634939274072215",
+      "https://pbs.twimg.com/amplify_video_thumb/2066634472787709954/img/yoWdVX-8PIbGummY.jpg"
+    ],
+    "2066949973749755919": [
+      "https://x.com/AnneliesGamble/status/2066949973749755919",
+      "http://x.com/i/article/2066943620373172224",
+      "https://x.com/AnneliesGamble/status/2067080258843779579",
+      "https://pbs.twimg.com/media/HK--icWbIAAyBcQ.jpg"
+    ],
+    "2066952559395500440": [
+      "https://x.com/startupideaspod/status/2066952559395500440",
+      "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg"
+    ],
+    "2066954460501352520": [
+      "https://x.com/ericosiu/status/2066954460501352520",
+      "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg",
+      "https://x.com/ericosiu/status/2066962861943898300",
+      "http://newsletter.levelingup.com"
+    ],
+    "2066964554593063262": [
+      "https://x.com/TheAtlantic/status/2066964554593063262",
+      "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2066969532380721386": [
+      "https://x.com/AnthropicAI/status/2066969532380721386",
+      "https://www.anthropic.com/research/claude-code-expertise",
+      "https://x.com/AnthropicAI/status/2066969534322688427",
+      "https://pbs.twimg.com/media/HK9YL2nboAAyGT6.png",
+      "https://x.com/AnthropicAI/status/2066969536423985295",
+      "https://pbs.twimg.com/media/HK9YUJlaUAAytvw.jpg",
+      "https://x.com/AnthropicAI/status/2066969538193920307",
+      "https://pbs.twimg.com/media/HK9YbXLbAAAlT7L.png",
+      "https://x.com/AnthropicAI/status/2066969540412780644",
+      "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg",
+      "https://x.com/AnthropicAI/status/2066969542010806561"
+    ],
+    "2066970432855581052": [
+      "https://x.com/jxnlco/status/2066970432855581052",
+      "http://x.com/i/article/2066964446086676480",
+      "https://x.com/jxnlco/status/2067063123488444687",
+      "https://x.com/jxnlco/status/2067031254277484561"
+    ],
+    "2066971986358862321": [
+      "https://x.com/MichLieben/status/2066971986358862321",
+      "http://x.com/i/article/2065303462028681216"
+    ],
+    "2066973335939146194": [
+      "https://x.com/nurijanian/status/2066973335939146194",
+      "https://x.com/nurijanian/status/2067105034782081346",
+      "http://nurijanian.substack.com",
+      "http://prodmgmt.world"
+    ],
     "2066982286395068540": [
       "https://x.com/intuitiveml/status/2066982286395068540",
       "http://x.com/i/article/2066980572644466688"
+    ],
+    "2066999670627352676": [
+      "https://x.com/axios/status/2066999670627352676",
+      "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c"
+    ],
+    "2067014010097049717": [
+      "https://x.com/itsyourcode/status/2067014010097049717"
+    ],
+    "2067014839898124542": [
+      "https://x.com/CNBC/status/2067014839898124542",
+      "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter",
+      "https://x.com/CNBC/status/2067094914698011062",
+      "http://cnb.cx/4vfsnNh",
+      "https://pbs.twimg.com/media/HK_L3vSXEAAVmqC.jpg"
+    ],
+    "2067016080799997999": [
+      "https://x.com/MichLieben/status/2067016080799997999",
+      "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg"
+    ],
+    "2067023167793541434": [
+      "https://x.com/reason/status/2067023167793541434",
+      "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=",
+      "https://x.com/reason/status/2067002446619250886",
+      "https://reason.com/2026/06/16/police-kill-1-year-old-boy-shooting-into-car-of-suspected-shoplifters/?utm_source=twitter&utm_medium=social_reason_non_paid&utm_campaign=reason_brand&utm_content=autoshare&utm_term=post"
+    ],
+    "2067029706298343748": [
+      "https://x.com/ericosiu/status/2067029706298343748",
+      "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg"
+    ],
+    "2067072654205669756": [
+      "https://x.com/yitong/status/2067072654205669756",
+      "http://x.com/i/article/2067066505616080896",
+      "https://x.com/yitong/status/2067094180917297573"
+    ],
+    "2067076829769605132": [
+      "https://x.com/lizwessel/status/2067076829769605132",
+      "https://x.com/lizwessel/status/2066545350794768645"
+    ],
+    "2067096080886698364": [
+      "https://x.com/manthanguptaa/status/2067096080886698364",
+      "http://x.com/i/article/2066925833198194695",
+      "https://x.com/manthanguptaa/status/2067133498495017289",
+      "https://x.com/manthanguptaa/status/2067133548294025537",
+      "https://x.com/manthanguptaa/status/2067112461455818908",
+      "https://x.com/manthanguptaa/status/2067116799611797578",
+      "https://x.com/manthanguptaa/status/2067121664643805496",
+      "https://x.com/manthanguptaa/status/2067106750059434392"
     ]
   },
-  "updated_at": "2026-06-17T01:41:25Z",
+  "updated_at": "2026-06-17T07:28:00Z",
   "window": "recent"
 }
