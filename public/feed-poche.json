@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 705,
+      "count": 707,
       "name": "Tools"
     },
     {
@@ -38,8 +38,98 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2330,
+  "item_count": 2332,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
+      "article_image_urls": [
+        "https://paid.ai/opengraph-image?224149c725b1579f",
+        "https://paid.ai/_next/image?url=%2Fimages%2FPaid-Logo.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FSyndio.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FIFS.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FCopado.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FAgency.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FRavical.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/images/hyperbound.svg?dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/images/boon.svg?dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/_next/image?url=%2Fimages%2FArtifact.png&w=256&q=75&dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/images/GDPR.svg?dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy",
+        "https://paid.ai/images/SOC2.svg?dpl=dpl_7UitNR6XFN4qFMmaEGbabirnSKTy"
+      ],
+      "article_title_extracted": "Paid | The Monetization Platform for AI Agents",
+      "category": "Tools",
+      "created_at": "2026-06-17T12:19:59.247587Z",
+      "description": "The monetization platform built for AI-native companies. Optimize pricing, packaging, and cost tracking to maximize revenue.",
+      "domain": "paid.ai",
+      "embed_type": "",
+      "id": "k17f65tqc5bc53tmbkw1whmpqn88v2vm",
+      "og_image_url": "https://paid.ai/opengraph-image?224149c725b1579f",
+      "recommended_at": "2026-06-17T14:09:39.862000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-monetization",
+        "saas-pricing",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T14:09:39.862000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Paid | The Monetization Platform for AI Agents",
+      "url": "https://paid.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
+      "article_image_urls": [
+        "https://www.bland.ai/images/og_image.jpg",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fkin.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fmutual-omaha.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Ftravelperk.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fsamsara.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fcorgi.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fevenup.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fmedallion.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Finnovaccer.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/images/logos/nuitee.svg?dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Ffirst-financial.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR",
+        "https://www.bland.ai/_next/image?url=%2Fimages%2Flogos%2Fsignant.png&w=3840&q=75&dpl=dpl_GxRjwDqZpscpHrKxSm9cgb5QduCR"
+      ],
+      "article_title_extracted": "Bland | Enterprise Voice AI Platform for Phone Agents",
+      "category": "Tools",
+      "created_at": "2026-06-17T13:49:01.275867Z",
+      "description": "Build, deploy, and monitor AI voice agents that sound human. Self-hosted models, sub-second latency, and enterprise compliance.",
+      "domain": "www.bland.ai",
+      "embed_type": "",
+      "id": "k174h5j6cm6rg1brsm703bd7ex88t1at",
+      "og_image_url": "https://cloud.poche.app/api/storage/56e3b778-b713-441a-a4ad-812370e6a2b2",
+      "recommended_at": "2026-06-17T14:09:36.414000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "voice-ai",
+        "conversational-ai",
+        "automation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-17T14:09:36.414000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Bland | Enterprise Voice AI Platform for Phone Agents",
+      "url": "https://www.bland.ai/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
@@ -2541,7 +2631,7 @@
       "x_status_id": "2064509430650065278"
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
         "https://starlight.astro.build/og.jpg?v=1",
         "https://starlight.astro.build/_astro/logo-dark.IHkm-Unx.svg",
@@ -2593,7 +2683,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-10T13:48:02.035461Z",
@@ -2663,7 +2753,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
         "http://static1.squarespace.com/static/5438bd1be4b0446f6692b906/t/5452cba7e4b0f94405cfa1f0/1414712231534/logo.png?format=1500w",
         "https://images.squarespace-cdn.com/content/v1/5438bd1be4b0446f6692b906/1414712231382-M5ASSNGX3FGY28KWMLW7/logo.png",
@@ -2712,7 +2802,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-10T14:06:23.099616Z",
@@ -5230,22 +5320,22 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
         "https://orchid.ai/branded/cta-twilight.jpeg",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fglowing-mountain-with-flowers.jpeg&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fbriefs-coffee-paper.jpeg&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fmeeting-blur.jpeg&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Ftypewriter-night.jpeg&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fplanner-coffee.jpeg&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Fshubham.png&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Fkosta.png&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Femir.png&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fday-not-list-photo-01.png&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fapp-icons%2Fmail.png&w=3840&q=75",
-        "https://orchid.ai/_next/image?url=%2Fbranded%2Fapp-icons%2Fmessages.png&w=3840&q=75"
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fimessage-icon.png&w=48&q=75",
+        "https://orchid.ai/illustrations/channels/orchid-icon.png",
+        "https://orchid.ai/branded/aruba.webp",
+        "https://orchid.ai/branded/aruba_party.webp",
+        "https://orchid.ai/branded/beach.jpeg",
+        "https://orchid.ai/illustrations/channels/iphone-17-pro-silver.png",
+        "https://orchid.ai/illustrations/channels/petal.svg",
+        "https://orchid.ai/_next/image?url=%2Ftestimonials%2Fmaha.png&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fcoffee-and-phones.jpeg&w=3840&q=75",
+        "https://orchid.ai/_next/image?url=%2Fbranded%2Fapp-icons%2Forchid-square.png&w=3840&q=75",
+        "https://orchid.ai/logos/providers/gmail.svg"
       ],
-      "article_title_extracted": "Orchid, the executive assistant",
+      "article_title_extracted": "Orchid, your personal assistant",
       "category": "Tools",
       "created_at": "2026-06-03T08:18:13.683422Z",
       "description": "Orchid is the executive assistant that doesn't sleep. Inbox, calendar, meeting prep, and follow-ups in your voice. Approved by you, handled by Orchid.",
@@ -5281,7 +5371,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
         "https://cdn.sanity.io/images/p15651fl/production/a8916d5b17f86d0e20d29f68a4ae0be5179c1006-1200x630.png?q=100",
         "https://www.joinodin.com/logo-wordmark.svg?dpl=dpl_BRJMZCkZc1dQijuESsxrbFFxKVyM",
@@ -9451,7 +9541,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_title_extracted": "Wan'de Form",
       "category": "Tools",
       "created_at": "2026-05-20T03:29:57.167032Z",
@@ -29412,13 +29502,13 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T16:25:10.843650Z",
+      "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
         "https://projects.dev/assets/images/og/og.jpg",
         "https://projects.dev/assets/images/og/twitter-large.jpg",
         "https://projects.dev/img/_-NTWf-bqg-1266.jpeg"
       ],
-      "article_title_extracted": "Stripe Projects | Provision and Manage Services from the CLI",
+      "article_title_extracted": "Stripe Projects | Add any service to your app in one command",
       "category": "Development",
       "created_at": "2026-03-29T01:19:37.199660Z",
       "description": "Enable you or your agents to provision hosting, databases, auth, AI, and more from the CLI. Generate credentials and manage usage and billing in one place.",
@@ -103728,7 +103818,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2173,
+      "count": 2175,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -103764,5 +103854,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-17T12:39:22.452217Z"
+  "updated_at": "2026-06-17T16:28:30.260185Z"
 }
