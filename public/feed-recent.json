@@ -5036,6 +5036,19 @@
       "title": "",
       "url": "http://x.com/i/article/2064956828736249856"
     },
+    "http://x.com/i/article/2064972712729292800": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2064972712729292800",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2064972712729292800"
+    },
     "http://x.com/i/article/2064983895096066048": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5926,6 +5939,32 @@
       "title": "",
       "url": "http://x.com/i/article/2066650296961335296"
     },
+    "http://x.com/i/article/2066882780286550016": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066882780286550016",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066882780286550016"
+    },
+    "http://x.com/i/article/2066893374741786626": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066893374741786626",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066893374741786626"
+    },
     "http://x.com/i/article/2066893911600357376": {
       "cleaner_v": 2,
       "content_type": "",
@@ -5941,6 +5980,58 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2066893911600357376"
+    },
+    "http://x.com/i/article/2066900327077486592": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066900327077486592",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066900327077486592"
+    },
+    "http://x.com/i/article/2066918571184381953": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066918571184381953",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066918571184381953"
+    },
+    "http://x.com/i/article/2066920008358514692": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2066920008358514692",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HK8t_TcXEAArUdQ?format=jpg&name=360x360)](http://x.com/nfcampos/article/2066921991613890611/media/2066921319560581120)\n\nQuirks mode for MCP\n\n[![](https://pbs.twimg.com/profile_images/1898268630389006336/9QfJN60B_normal.jpg)](http://x.com/nfcampos)\n\n[Nuno Campos](http://x.com/nfcampos)\n\n[@nfcampos](http://x.com/nfcampos)\n\n·\n\n9h\n\nFollow\n\nClick to Follow nfcampos\n\n2\n\n8\n\n[379](http://x.com/nfcampos/status/2066921991613890611/analytics)\n\nThanks to \n\n[@riscarrott](https://x.com/@riscarrott)\n\n for all the work on this!Building one MCP server for a headless Excel engine, we kept reaching for techniques we thought the web had retired two decades ago — User-Agent sniffing, per-client code paths, behaviour learned by watching the wire instead of reading the standard. The protocol is new; the situation is not. This is a field report from MCP's quirks-mode era.\n\nHere is the line the whole server turns on:\n\n> const isOpenAI = /^openai-mcp/i.test(c.req.header(\"user-agent\") ?? \"\");\n\nThat is User-Agent sniffing. We read a request header to guess which client is on the other end, because we have to decide what to serve before the client has formally introduced itself. The protocol has a clean, structured way to identify the caller — clientInfo, exchanged in the initialize handshake. We can't use it, because our server is stateless. initialize and the later tools/list are separate HTTP requests; with no session linking them, each lands on a fresh instance that never saw the other, so the handshake's clientInfo is gone before a client asks what tools exist. So we sniff the User-Agent, exactly the way a page in 2003 sniffed for IE versus Netscape, and for exactly the same reason — the clean signal is out of reach, so you fall back to the string.\n\nThe browser wars are the right mental model for the whole project, and not as a joke. A standard promises write-once-run-anywhere. In practice the standard underspecifies, the implementations diverge, and real compatibility means detecting the client and forking your behaviour to fit it. That was HTML and CSS for a decade. It is MCP now. You do not ship \"an MCP server.\" You ship one server per client behind a single URL, because the spec underdetermines most of what matters and each harness fills the gap its own way. We learned the same lesson once before, building the Excel engine underneath this: ECMA-376 is one of the largest specifications in existence and it was still a lossy proxy for what real Excel does. A spec is a lower bound on behaviour. The client is the behaviour.\n\n## \n\nYou learn the client by watching it, not by reading the spec\n\nIn the browser era you didn't find the quirks in the standard. You found them by opening the page in each browser and seeing what broke. Same here, and it changes which tools matter.\n\nThe single most useful tool in this project was not in the MCP SDK. It was ngrok's request inspector. It showed the User-Agent on every POST to the endpoint and — the part that earned its keep — which calls reached the server at all. That is how we discovered that one client's connector proxy was silently rejecting our tool calls before they arrived: the model saw an error, and our logs showed nothing, because from our side the request had never happened. No amount of reading that client's SDK reference would have surfaced it. Watching the wire did.\n\nThat sets the method for everything below. Build a disposable tool whose only job is to make the client reveal a behaviour; read the answer off the inspector; delete the tool; keep the finding. We shipped a handful of these (file\\_roundtrip\\_test, download\\_file\\_size\\_test) purely to interrogate one client, then deleted them and wrote down what they taught us. The client is the oracle. The probes are the queries. The spec is the thing you check after the wire tells you what's true.\n\n#",
+      "title": "",
+      "url": "http://x.com/i/article/2066920008358514692"
+    },
+    "http://x.com/i/article/2066980572644466688": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066980572644466688",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066980572644466688"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -6100,6 +6191,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Vocabulary",
       "url": "https://animations.dev/vocabulary?ref=sidebar"
+    },
+    "https://arun.is/blog/jr-logo/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "When Japan broke up its national railway in 1987, the new companies agreed on one thing to keep the same.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://arun.is/blog/jr-logo/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://arun.is/_astro/social.CKZ2mAfd.jpg",
+        "https://arun.is/.netlify/images?url=_astro%2Fcover.6I0lmrPY.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fjr_system.CO5gj7O1.jpg&w=1440&h=1440&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fmain_logo.B72sR6Vo.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fyamanote_line.DdpBBPlq.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fsketches.XPose786.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fall_logos.CxDLZm3q.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fkanji_1.BEmv0aHR.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fkanji_2.GKPIrYrm.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fapplying.D-VYYQrw.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fguidelines.5DwC3juY.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24",
+        "https://arun.is/.netlify/images?url=_astro%2Fshinkansen.BgGSikKj.jpg&w=1440&h=960&q=100&dpl=6a31f8a28836b0000897ff24"
+      ],
+      "kind": "article",
+      "text_excerpt": "How Japan's railways stayed one while splitting apart\n11 min read Jun 14, 2026\nOn my first trip to Japan, I brought along a JR Rail Pass to take advantage of the subsidized rail transport for tourists. After riding the JR Yamanote Line and the Tōkaidō Shinkansen, I assumed JR must be a single national train system.\nBut I soon learned it’s far from that. The Yamanote Line is run by the East\nJapan Railway Company — JR East — and the Tōkaidō Shinkansen by JR Central. And\neach of these JR companies is part of\n[a group](https://ja.wikipedia.org/wiki/JR) of associated but entirely separate\ncompanies — four now publicly traded, three\n[overseen by](https://en.wikipedia.org/wiki/Japan_Railways_Group) a government\nagency — that each bear the JR mark.\nSo tens of thousands of vehicles across Japan carry this JR mark and often\ninteroperate on each other’s routes, yet they’re run by independent systems. And\nthe mark has [remained unchanged](https://toyokeizai.net/articles/-/159658) for\nnearly 40 years, giving off the air of a stable institution.\nAnd the truth is that it didn’t need to happen this way.\nWhat was being dismantled\nRail transport in Japan was originally run by Japanese National Railways (JNR). Like many state-owned corporations, it was starting to struggle in the 80s with mounting debt. JNR was losing its advantage over other transport, in both passenger and freight. In the ’80s, the Japanese government began pushing to privatize its state-run monopolies — to reduce the national deficit and improve efficiency across these sectors.\nIn 1985,\n[Nippon Telegraph and Telephone (NTT)](https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone)\nwas privatized. Two years later, a similar decision was made for the railways.\nThe main rationale for splitting up the system was that each region could be\nmanaged more efficiently by attending to its own conditions.\nAnd so six passenger companies and one freight company were created as the JR Group. Normally, each new company would have chosen its own logo and corporate identity. But existing JNR employees felt that “even if we’re splitting up, there ought to be at least one thing that stays the same”.\nAnd so the new corporate identity was commissioned as a single system that would apply across all the companies. In just 124 days — beginning with the passing of railway reform bills — the new JR companies launched across Japan, with new branding applied to every vehicle.\nThe brief was minimal. The designers were given full control,\n[told only](https://www.ndc.co.jp/projects/jr-ci/) that the group had to be\ncalled either “Japan Railways” or “Nippon Railways”. It was up to them to find a\nsolution that worked aesthetically and within the constraints.\nThe letter\nThe letter J now precedes the names of many of Japan’s institutions —\n[JT (Japan Tobacco)](https://en.wikipedia.org/wiki/Japan_Tobacco),\n[JA (Japan Agriculture)](https://en.wikipedia.org/wiki/Japan_Agricultural_Cooperatives),\n[JP (Japan Post)](https://en.wikipedia.org/wiki/Japan_Post) — and it feels like\na national convention that’s always been there. But it nearly never happened.\nYou see, the name JR Group was downstream of the design. There were two options — JR and NR — and the design was deemed the deciding factor. As I mentioned, NTT had launched in 1985, so there wasn’t yet a convention set in stone. Both Nippon and Japan were valid options. We know JR was chosen — but we can imagine that, had NR been chosen instead, those same institutions (J.League, JT, JA, JP) might have had an N in front of them.\nIn fact, [many credit JR](https://ngm2m.jp/2024/03/05/jr-logo/) with pioneering\nthe J at the front of these names. The firm that did the design work was the\n[Nippon Design Center (NDC)](https://www.ndc.co.jp/en/) — funny enough, with an\nN at the front. The studio was a collective of elite postwar creatives who had\npreviously made the 1964 Tokyo Olympics posters, the Toyota logo, and the Asahi\nBreweries logo.\nChief director Yūsuke Kaji led",
+      "title": "How Japan's railways stayed one while splitting apart",
+      "url": "https://arun.is/blog/jr-logo/?ref=sidebar"
     },
     "https://arxiv.org/abs/2602.00180": {
       "cleaner_v": 2,
@@ -6413,6 +6530,23 @@
       "title": "How OpenAI Built Its Data Agent - ByteByteGo Newsletter",
       "url": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
     },
+    "https://blog.damato.design/posts/lawful-design/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "The least fun but most required part of our work.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.damato.design/posts/lawful-design/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://blog.damato.design/og-images/lawful-design.png",
+        "https://blog.damato.design/animals/pangolin.webp",
+        "https://blog.damato.design/animals/raven-black.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "There’s a moment in nearly every project where the work stops being about the user. Someone from legal joins the call, and suddenly the clean flow we spent weeks refining has to grow a checkbox, a banner, a paragraph of fine print, or an entire screen that exists only to protect the company. It’s easy to treat this as the enemy of good design. I’d argue the opposite. Legal requirements are constraints, and [constraints are where design actually happens](https://webinars.zeroheight.com/videos/2e30a1a5-7a29-4c2a-8c0b-7a14736874b9).\nThe trap most teams fall into is treating law and experience as adversaries fighting over the same pixels. The lawyer wants to be defensible. The designer wants freedom. Both of those goals can be true at the same time, but only if the two disciplines are in the room together early instead of handing artifacts back and forth at the end. When legal shows up after the design is “done,” you get the worst of both. A bolted-on disclosure that satisfies no one and a flow the user doesn’t want to use ever again.\nThe goal of this article is to walk through the places where law touches our work and show that legal expectations and low friction aren’t opposites. The best solution is almost always the one that achieves both.\nConsent & Agreement\nConsent is the clearest example of how a design decision becomes a legal one. As an example, the difference between a [clickwrap and a browsewrap agreement](https://ironcladapp.com/journal/contracts/clickwrap-vs-browsewrap) is purely a matter of interaction design: clickwrap requires the user to take an affirmative action (“I agree”), while browsewrap assumes consent simply because the user kept using the site. Courts have repeatedly cared about exactly this distinction. In [Specht v. Netscape](https://en.wikipedia.org/wiki/Specht_v._Netscape_Communications_Corp.), the court refused to enforce terms that lived below the download button, finding that a reference to license terms on a “submerged screen” wasn’t enough to bind the user. The legal protection failed because the design failed. A checkbox the user actually had to check would have been the more appropriate pattern and held up in court.\nThis is the part that should excite us rather than annoy us. The lawyer’s requirement (“we need provable, affirmative consent”) and the designer’s requirement (“don’t make the user feel cornered”) point to the same solution. Cookie banners are where this collaboration most visibly breaks down. When the [CNIL](https://www.cnil.fr/en) [fined Google €150 million and Facebook €60 million](https://www.dataprotectionreport.com/2022/02/rejecting-cookies-should-be-as-easy-as-accepting-cookies-new-sanctions-by-the-french-authority-cnil/) over their cookie consent, the violation wasn’t the absence of a “reject” option. It was that accepting took one click while rejecting took several. [The asymmetry was the deceptive pattern.](https://www.deceptive.design/types/obstruction) The lesson for us is precise: making the compliant choice harder than the convenient one is both bad design and illegal. A symmetric banner with “Accept all” and “Reject all” side by side is the rare case where the most ethical layout, the lowest-friction layout, and the most defensible layout are the same layout.\nDisclosures & Disclaimers\nDisclosures are where the phrase [“clear and conspicuous”](https://www.ftc.gov/business-guidance/blog/2014/09/full-disclosure) earns its keep, and that phrase is a design specification hiding inside a legal one. The [FTC’s guidance for influencers](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers) is remarkably blunt about it. A disclosure buried in a wall of hashtags, hidden behind a “more” link, or shown only briefly in a video doesn’t count. They specifically warn against placing an #ad where people have to stop and click to see it. This is not a suggestion. This is a rule for information hierarchy. We are being told where to put the content on",
+      "title": "Lawful Design",
+      "url": "https://blog.damato.design/posts/lawful-design/?ref=sidebar"
+    },
     "https://blog.gitbutler.com/true-grit?_x_tr_hist=true": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6602,6 +6736,32 @@
       "text_excerpt_zh": "",
       "title": "Calendly",
       "url": "https://calendly.com/synergyaisolutions/discovery-call"
+    },
+    "https://career-research.mynavi.jp/column/20260615_111639/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "「働くことへの違和感・職場との距離」をテーマに教育人間学や哲学を専門とする京都大学の西平名誉教授が、私たちが抱える葛藤や迷いに対して回答している。",
+      "extraction_source": "trafilatura",
+      "final_url": "https://career-research.mynavi.jp/column/20260615_111639/",
+      "frameable": false,
+      "image_urls": [
+        "https://career-research.mynavi.jp/wp-content/uploads/2026/06/6e9d7be3e732eee89b6b76db8862e643.jpg",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/logo.svg",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon1.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon2.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon3.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon4.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon5.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon6.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/icon2.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/icon3.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon0.png",
+        "https://career-research.mynavi.jp/wp-content/themes/mynavi/common/img/common/nav_icon7.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "著者\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t京都大学名誉教授／上智大学グリーフケア研究所副所長\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t \n\t\t\t\t\t \n\t\t\t\t \n\t\t\t\t\n\t\t\t\t\t\nテレワークや働く環境の変化、技術の進展、価値観の多様化など、私たちの働き方は大きな転換期に立っている。\nそのような中で、「仕事中ふと、自分は何をしているんだろう思ってしまう…」「隣の芝生はよく見える…」「今の仕事を続けたいのか、本当の気持ちがわからない…」というような疑問や悩みを持っている人もいるかもしれない。\nこうした問いは、単なる労働環境の問題ではなく、人間の生き方そのものに関わる深いテーマだ。この「職場の悩みに哲学者が答える」というシリーズは、「働くこと」の本質とはなにか、教育人間学や哲学を専門とする京都大学の西平名誉教授が、私たちが抱える葛藤や迷いに対して、回答している。\n【回答者】\n西平 直（京都大学名誉教授・上智大学グリーフケア研究所副所長）\n信州大学、東京都立大学、東京大学で学んだ後、立教大学講師、東京大学助教授、京都大学教授を経て、2022年より現職。京都大学名誉教授。専門は、教育人間学、死生学、哲学。稽古・修養・養生など日本の伝統思想を研究。著書に『世阿弥の稽古哲学』（東京大学出版会、2009 年）、『無心のダイナミズム』（岩波現代全書、2014 年）、『稽古の思想』・『修養の思想』・『養生の思想』（春秋社、2019・2020・2021年）、『守破離の思想』（岩波書店、2025年）など。\n \n \n今回の悩み：働くことへの違和感・職場との距離\n転職する可能性\n「仕事を辞めたい」という話はよく聞く。いつも辞めたいわけではないのだが、時々、辞めたくなる。しばらくすると鎮まるが、また辞めたくなる。長引く場合もあれば、一過性の場合もある。\n環境が大きく変わると、気持ちも一新されるが、その新鮮な気持ちがそのまま続くことはない。しばらくすると、また、辞めたくなる。\n何らかの周期があるようにも思うのだが、どうやら、法則性は弱い。気まぐれというのか、いい加減というのか、さまざまな要因が絡み合って、複合的に生じる。\nもしかすると、心理的な「躁鬱（そううつ）」の周期と関係があるのかもしれない。「気分が高揚するハイテンション（躁状態）」と「気分が落ち込み沈んだ状態（鬱状態）」。人は誰も皆、「軽度の躁鬱症」という（少し怪しげな）説があり、実感として、私は大いに共感しているのだが、昔、作家の北杜夫氏がこんなことを書いていて、私はいたく納得した。\n一生涯ずっとハイテンションで生きる人は、実は、その人の持つ「躁・鬱」の周波の幅が、その人の生涯より長いスパンであるため、たまたまその人の一生が丸ごと「躁」の時期に納まっているにすぎない \nますます怪しい説である。\nしかし、そう思ってみれば、「辞めたいなどと思ったことはない」という人も、実は、長い幅の周波を持っていて、たまたまその一生が丸ごと「躁」の時期に納まっていたと理解すれば少しは納得がゆく。それに対して、普通の人の周波は、もっと短いから、人生の中で何度か「辞めたくなる」時期が訪れる。\nもっとも、こんな呑気なことを言っていられるのは、私の人生に「仕事を辞める（転職する）」可能性が残されていたためである。最初から転職する可能性がない場合、たとえば、祖父の代から続く家業を受け継いだ知り合いは、たとえ心の中では「辞めたい」と思っても、実際には、それを言い出すことができなかった。\nそう考えると、今度は逆に、いつでも転職情報にアクセスできる世代の「辞めたい」に秘められた切実さがよく分かる。転職が「ステップアップ」であれば、辞めることは輝かしい挑戦であり、いわんや「ヘッドハンティング」ともなれば、それは、名誉に近い。\n「流動性の高い・変化の激しい・VUCAの時代」である。\n職場への帰属意識\nしかしそれでは、今の仕事に集中できないのではないか。職場への帰属意識が弱くなる。自分だけが冷めているのか。それとも、みんな心の中では、実は「移る」ことを願っているのか。\n以前、プロのサッカー選手の話を聞いたことがある。チームスポーツの場合、チームの結束が大切なのだが、実はみんな、いつ移籍の話が来るかわからない。通常はチームの勝利と自分のキャリアアップが一致するから、問題はないのだが、時折、ズレが生じる。その時、どれだけチームのために尽くすことができるか。その気持ちの小さな違いが、重要な場面で、勝敗を分けるのだという。\nとても共感した。チームのために貢献する気持ちがいかに大切か（会社のために貢献する気持ちがいかに重要か）。共感したのだが、しかし、その気持ちを過剰に押し付けられると息苦しくなる。自ら進んでチームのために貢献することには賛成なのだが、それを上から要求され、強制されてしまうと、違和感が先立つ。\nもっとも、実際には「自ら進んで」と「強制されて」は密接に入り組んでおり、両者を明確に区別することは難しいのだが、それでも「押し付けられる」のは、やはり、嫌だ。\n「組織（チーム・職場）」が大切であることは間違いないのだが、しかし個人は、一人ひとり、組織から（相対的に）独立している方がよい。長い目で見るとその方が組織のためにも良い。正確には、「独立」の程度が適切である場合、組織も個人も、共に生き生きする。「程よい独立」と「程よい縛り」がどちらも必要なのである。\nしかし、あらかじめ、その「匙加減」に正解があるわけではない。状況に応じて、その都度、違う。いかなる解答（調整案）を工夫しても必ず反論が来る。あるいは、何を優先するか、そのプライオリティの基準によって、意見が分かれる。\n組織と個人の関係は、いつでも・どこでも、悩みの種である。私たち一人ひとりは、組織とどのように関わるのがよいか。組織に対する距離感はどこまで許されるのか。この問いは、群れで生きることを選んだホモサピエンス種の宿命、とりわけ、「個人」に目覚めた近代社会においては、不可避の宿痾（慢性的な持病）であるように思われる。\n隣の芝生はよく見える\nところで、「隣の芝生はよく見える」という。では、逆に、隣の人から見たら、「うちの芝生」はよく見えるのか。\n簡単な話のようだが、実は、大問題である。「隣から見たら、うちの芝生は青い」。もしこの点を、心底納得したら、人生観が変わる。あるいは、この視点を持って毎日を生きることができたら、その人は「悟った人（覚者）」といってよいのではないか。私はそう思う。\n他の仕事は良く見える。しかし同じだけ、あちらから見ると、私の仕事はよく見える。隣の芝生がよく見えるのと同じだけ、隣から見ると、うちの芝生は、よく見える。\n確かに実感には馴染まない。隣の人がうちの芝生を「よい」と見る保証はないではないか。それはそうなのだが、逆に、隣の人の立場に立った場合、隣の人も、私と同様に感じる可能性を認めないのは不自然である。隣の人も、私と同様に、「隣の芝生はよく見える」と感じる可能性がある。隣の人の目には、（その人から見たら「隣の芝生」である）「うちの芝生」が良く見える。\n誰と比べるか\nでは、誰と比べるか。問題は複雑なのだが、ここでは「上方比較」と「下方比較」を見る（フェスティンガーの「社会的比較理論」を起点とするが、議論は多岐に渡る）。\n「上方比較（Upward Comparison）」は、自分より優れた人と比較する。それによって、モチベーションが上がる場合もあれば、逆に、落ち込む場合もある（劣等感や嫉妬心など、悪質なストレスが蓄積し、自信を喪失する）。\nそれに対して、「下方比較（Downward Comparison）」は、自分より下を見る。自分より「劣った（弱い・下位の）」人と比べることによって、自分はまだマシと、安心する。相対的に自分を優位に感じ、ある種の自信を得る。\nこの「下を見て安心し、自信を得る」は、気持ちの良い話ではないのだが、実際の暮らしの中ではしばしば経験される。おそらく、多くの場合、気づかぬうちに、こころの中で抑圧されてしまうのだろう。意識の表面にはあまり出てこない。\n実際、「上方比較」に比べ、「下方比較」を語る言葉は少ないように感じる。たとえば、「羨ましい」の逆（対義語）は何か。自分より上を見て「羨ましい」と感じるのとは正反対に、自分より下を見た時の気持ちを何というか。辞書には「可哀想・痛ましい・同情する」とあるのだが、しかし、「自分はまだマシ」という安心感は、少し違う。相手を評価するのではない。相手を鏡として、それと比べてみれば「自分はまだマシ」と安心する。\n相手を貶める（侮る・見下す・バカにする）のではない。視線は自分に還ってきて、我が身を肯定する。むろん作家であればそこに深い闇を描くことになるのだろうが、今は、そうした「闇」が、なかなか言葉となって表に出てこない点に注目したい。\n「上方比較」と「下方比較」は、対称的（シンメトリカル）ではない。こころの動きとしては、後者の方が、より複雑に屈折している。正確には、日常会話の中では、「下方比較」は、簡単に「見下す・差別する」などと語られてしまうために、その奥に潜んだこころの闇はなかなか表に出てこないのだろう。\nあるいは、だからこそ「無意識的な偏見（unconscious bias）」という言葉が登場し、注意を喚起しているのかもしれない。自分では気がつくことのない「偏見（バイアス）」に用心する。もしかすると、「仕事を辞めたい」という気持ちの内側にも、その人なりの「アンコンシャス・バイアス」が潜んでいるのではないか。\n分岐点ノ",
+      "title": "仕事を辞めたい－本当の気持ち【職場の悩みに、哲学を 第3回】（京都大学 名誉教授／上智大学グリーフケア研究所 副所長 西平直氏） | マイナビキャリアリサーチLab",
+      "url": "https://career-research.mynavi.jp/column/20260615_111639/"
     },
     "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf": {
       "cf_fallback_error": "empty result",
@@ -8287,6 +8447,32 @@
       "title": "GitHub - skeptrunedev/declank: Minimal web UI + Node CLI for removing AI image watermarks (Gemini, Doubao, Jimeng, Samsung), invisible signals, and metadata. Wraps remove-ai-watermarks. · GitHub",
       "url": "https://github.com/skeptrunedev/declank"
     },
+    "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Understand autonomous AI behavior by visually parsing and exploring long session transcripts with the interactive Antigravity Brain Visualizer.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/",
+      "frameable": null,
+      "image_urls": [
+        "https://glaforge.dev/img/antigravity-brain-visualizer/banner.png",
+        "https://pixstat-adh43sr7ba-ew.a.run.app/transparent.gif",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/session-sidebar.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/proportional-timeline.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/transcript-rendering.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/error-filtering.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/tool-distribution.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/ai-summary-part1-core.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/ai-summary-part2-actions.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/ai-summary-part3-issues.png",
+        "https://glaforge.dev/img/antigravity-brain-visualizer/ai-summary-part4-recommendations.png",
+        "https://glaforge.dev/img/icons/twitter-black.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Building a Visualizer for Antigravity Agentic Development Sessions\nWhen working with autonomous AI agents like [Antigravity](https://antigravity.google), understanding what they are doing in the background can be difficult. The agents construct reasoning chains, dispatch background tasks, and execute system commands over long sessions. All of this is recorded in detailed JSONL transcript files. Reading raw JSONL is inefficient, so I built the [Antigravity Brain Visualizer](https://github.com/glaforge/antigravity-brain-visualizer) to parse and render these transcripts into an interactive interface.\nYou can learn more about the project, view the source code, and [download the visualizer app](https://github.com/glaforge/antigravity-brain-visualizer/releases) directly from the [GitHub repository](https://github.com/glaforge/antigravity-brain-visualizer).\nHere is a practical breakdown of the core features and how it helps debug agent behavior.\nSession Management\nThe first step was organizing the transcripts. The visualizer scans the local .gemini/brain directory and lists all past and active agent sessions in a collapsible sidebar.\nI added a search input and dropdown filters to isolate specific agent types. Hovering over any session displays a popover with metadata like the start time and session ID, so you can quickly identify the correct conversation without loading it.\nThe Proportional Timeline\nNavigating thousands of lines of transcript requires a bird’s-eye view. I built a proportional timeline that maps active sequences and idle gaps based on real wall-clock duration.\nAs you scroll through the transcript, a translucent viewport indicator moves across the timeline to show exactly where you are in the session. Clicking anywhere on the timeline auto-scrolls the main view to that exact chronological point. Hovering over a segment displays the start and end timestamps.\nTranscript Rendering and Filtering\nThe core of the application is the transcript view. Raw JSONL steps are grouped into collapsible sequences triggered by user inputs.\nEach step is formatted as a distinct UI card depending on the actor (User, Model, Tool, System). Code blocks and tool outputs include syntax highlighting. To make debugging easier, I added step filtering toggles. If you only want to see tool calls and errors, you can hide the model’s intermediate reasoning steps entirely.\nBy clicking the “Issues detected” stat card at the top, the main transcript instantly filters to show only sequences containing error steps, while also displaying a breakdown chart of the specific errors encountered during the session.\nSimilarly, clicking the “Tools called” card reveals a complete distribution of all agent actions taken. This allows you to immediately audit which tools or system commands the agent relied on most, while filtering the transcript down to just the raw tool execution steps.\nAI Summarization\nSometimes you just need to know the outcome of a long session without reading the details. I integrated the [Micronaut](https://micronaut.io) backend with Google’s Gemini models via [LangChain4j](https://docs.langchain4j.dev).\nWhen triggered, the backend parses the entire JSONL transcript, feeding the sequence of user prompts, agent reasoning, and tool executions directly to Gemini. The model studies the agent’s workflow and returns a structured post-mortem containing four key pieces of information:\n- Core Task: What the user was originally trying to accomplish. \n- Agent Actions Breakdown: A high-level chronological summary of the technical decisions and steps the agent took. \n- Issues & Circumventions: Any roadblocks, permission errors, or broken dependencies the agent encountered, and exactly how it bypassed them. \n- Future Recommendations: Actionable advice on how the project or infrastructure could be improved to prevent similar friction in the future. \nThis structured analysis transforms raw, scattered logs into a concise, actionable report. To optimize performanc",
+      "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
+      "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
+    },
     "https://hermesatlas.com/reports/state-of-hermes-may-2026": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8742,6 +8928,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Communities of Not | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/"
+    },
+    "https://martinfowler.com/articles/reliable-llm-bayer.html": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "AI helping pharmaceutical researchers query decades of information buried in PDF reports",
+      "extraction_source": "trafilatura",
+      "final_url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "frameable": false,
+      "image_urls": [
+        "https://martinfowler.com/articles/reliable-llm-bayer/card.png",
+        "https://martinfowler.com/mf-name-white.png",
+        "https://martinfowler.com/articles/reliable-llm-bayer/sarang.png",
+        "https://martinfowler.com/articles/reliable-llm-bayer/system-container-view.png",
+        "https://martinfowler.com/articles/reliable-llm-bayer/new-research-workflow.png",
+        "https://martinfowler.com/articles/reliable-llm-bayer/text-to-sql.png",
+        "https://martinfowler.com/thoughtworks_white.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Building Reliable Agentic AI Systems\nA Case Study in building production-ready agentic AI systems\nThis paper presents the Preclinical Information Center (PRINCE), a cloud-hosted platform developed by Bayer AG with Thoughtworks to address pharmaceutical industry challenges in drug development. PRINCE leverages Agentic Retrieval-Augmented Generation and Text-to-SQL to integrate decades of safety study reports. We describe PRINCE's evolution from keyword-based search to an intelligent research assistant capable of answering complex questions and drafting regulatory documents. We reflect on key engineering decisions through the lens of context engineering—how information was shaped and routed between specialized agents—and harness engineering—how orchestration, recovery, and observability were built around the models to maintain control and reliability. The system prioritizes trust through transparency, explainability, and human-in-the-loop integration. PRINCE demonstrates AI's transformative potential in pharmaceuticals, significantly improving data accessibility and research efficiency while ensuring governance and compliance.\n16 June 2026\nContents\n- [The Challenge: Navigating the Preclinical Data Maze](https://martinfowler.com#TheChallengeNavigatingThePreclinicalDataMaze)\n- [The Solution: PRINCE - An Evolutionary Platform](https://martinfowler.com#TheSolutionPrince-AnEvolutionaryPlatform)\n- [System Architecture: Engineering a Reliable Agentic RAG System](https://martinfowler.com#SystemArchitectureEngineeringAReliableAgenticRagSystem)\n- [The Agentic RAG System](https://martinfowler.com#TheAgenticRagSystem)\n- [Building Trust in a Production LLM System](https://martinfowler.com#BuildingTrustInAProductionLlmSystem)\n- [Engineering for Resilience: Error Handling and Recovery](https://martinfowler.com#EngineeringForResilienceErrorHandlingAndRecovery)\n- [Enhancing Data Quality: Named Entity Recognition and Annotation](https://martinfowler.com#EnhancingDataQualityNamedEntityRecognitionAndAnnotation)\n- [The Journey Continues: Iterative Development](https://martinfowler.com#TheJourneyContinuesIterativeDevelopment)\n- [Conclusion](https://martinfowler.com#Conclusion)\nPreclinical drug discovery is inherently complex and data-intensive. Researchers face the significant challenge of efficiently accessing and analyzing vast volumes of information generated during this critical phase. Traditional keyword-based search methods, often reliant on rigid Boolean logic, frequently fall short when confronted with the nuanced and intricate nature of preclinical research questions.\nThe advent of Large Language Models (LLMs) has presented a transformative opportunity. By\n      combining the generative power of LLMs with the precision of information retrieval systems, [Retrieval-Augmented Generation](https://martinfowler.com/articles/gen-ai-patterns/#rag) (RAG) has emerged as a promising technique.\n      This approach holds the potential to revolutionize preclinical data access, enabling\n      researchers to pose complex questions in natural language and receive accurate, context-rich\n      answers grounded in proprietary data.\nRecognizing this potential early, Bayer committed to exploring how these technologies could address longstanding challenges in preclinical research.\nIn this post, we share that journey—how Bayer's early investment in generative AI has resulted in PRINCE, an agentic AI system built on Agentic RAG. This case study explores the technical architecture, engineering decisions, and lessons learned in transforming preclinical data retrieval from a challenging maze into an intuitive conversational experience.\nMany of the engineering decisions behind PRINCE can now be understood through the lens of context engineering and harness engineering, although when the system was first designed we did not use these terms. Context engineering shaped what information each model received, what it did not receive, and how context moved between specialized",
+      "title": "Building Reliable Agentic AI Systems",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
     },
     "https://martinfowler.com/articles/vibesec-reckoning.html": {
       "cleaner_v": 2,
@@ -10477,19 +10684,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2066267098712813568/img/owxHCEFVQ3PYvCng.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2066896279905431552/img/UMYOA0gNx6V0K1S1.jpg": {
       "cleaner_v": 2,
@@ -12437,6 +12644,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HK6X9WLbMAIzwNW.jpg"
     },
+    "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg"
+    },
+    "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg"
+    },
     "https://pbs.twimg.com/media/HKA-FNqbMAAT-6a.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13800,32 +14049,27 @@
       "title": "How AI Companies Can Pay Fair Rates for the Content They Need",
       "url": "https://s.hbr.org/3PZZpSc"
     },
-    "https://s.hbr.org/40tUlqQ": {
+    "https://s.hbr.org/3QMld3Q": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "Pressure to speak English in the workplace continues to grow as more and more companies invest in globalizing their teams. However, mastering a new language requires time and resources that many people — especially adults who are no longer in school —struggle to find. EF Education First annually releases the world’s largest study of English proficiency in various countries and industries. They have distilled the lessons they’ve learned through their work and from the literature on second language acquisition into a few tips that highlight how people can learn English more effectively. If you’re a professional looking to improve your business English, consider incorporating these into your learning plan: set specific goals, create study habits, use authentic English materials, and join a positive learning community.",
-      "final_url": "https://hbr.org/2018/07/how-to-improve-your-business-english?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "description": "Generative AI’s gifts come with a hidden danger: decay in the accuracy and quality of organizational knowledge. This decay is the organization-level version of the “workslop” problem. When workslop occurs in sequence across a business’s processes, those processes themselves—and their outputs—start to deteriorate, errors compound and pile up, trust erodes, and the productivity gains of AI disappear. Importantly, this can happen both inside of organizations and in the external flows of information that they rely on. This presents leaders with three challenges: verification, validation, and entropy. To keep knowledge decay at bay, leaders should: 1) Keep track of the provenance of unstructured data, 2) restrict the use of gen AI, 3) define what value is being added, and 4) understand the implications for the entire process.",
+      "final_url": "https://hbr.org/2026/06/dont-let-ai-slop-muck-up-your-companys-processes?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
       "frameable": null,
       "image_urls": [
-        "https://hbr.org/resources/images/article_assets/2018/06/jul18-05-142915400-Yagi-Studio.jpg",
+        "https://hbr.org/resources/images/article_assets/2026/06/Jun26_05_1432707533_2230344964.jpg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Twitter.0swuvvv6x6dv_.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Facebook.04rsuuytjqje5.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/LinkedIn.0k9~yd0rlxzso.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Save.09a3zbhn9qnr~.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/Download.05v71ue7.ma35.svg",
-        "https://hbr.org/assets-mfe-articles/_next/static/media/BuyCopy.172.f4inmo975.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/Print.0-3qb9pn16j8b.svg",
         "https://hbr.org/assets-mfe-articles/_next/static/media/close.0e9_5t1w4ast7.svg",
-        "https://hbr.org/resources/images/article_assets/2015/06/110-Minh_Tran.jpg",
-        "https://hbr.org/resources/images/article_assets/2016/11/110-Peter_Burman.jpg"
+        "https://hbr.org/resources/images/article_assets/2015/06/110-Matthias-Holweg.jpg",
+        "https://hbr.org/resources/images/article_assets/2013/09/110-tom-davenport.jpg"
       ],
       "kind": "article",
-      "text_excerpt": "SKIP TO CONTENT Business education | How to Improve Your Business English Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Business education How to Improve Your Business English by Minh Tran and Peter Burman July 4, 2018 yagi studio/Getty Images Post Post Share Save Get PDF Buy Copies Print Summary . Pressure to speak English in the workplace continues to grow as more and more companies invest in globalizing their teams. However, mastering a new language requires time and resources that many ... more Leer en español Ler em português Post Post Share Save Get PDF Buy Copies Print Chun Hin is a senior manager at a Hong Kong investment bank. Every morning, he listens to Bloomberg radio on his way to work and used to read each issue of the Economist from cover to cover in an effort to continuously improve his English. As a Hong Kong native who grew up speaking Cantonese and Mandarin, Chun Hin has worked hard to become fluent in English. Minh Tran is Director of Research and Partnerships for EF Education First and a member of the team that launched the EF Standard English Test . Peter Burman is president of EF Corporate Solutions . Post Post Share Save Get PDF Buy Copies Print Read more on Business education or related topics International business and Business communication Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
-      "text_excerpt_zh": "**商业教育 | 如何提升你的商务英语**\n\n**作者：Minh Tran 和 Peter Burman**\n**2018年7月4日**\n\nyagi studio/Getty Images\n\n**分享** **分享** **保存** **获取PDF** **购买副本** **打印**\n\n**摘要.** 随着越来越多的公司投资于团队全球化，职场中使用英语的压力持续增长。然而，掌握一门新语言需要时间和资源，而许多……\n\n**阅读西班牙语版** **阅读葡萄牙语版**\n\n**分享** **分享** **保存** **获取PDF** **购买副本** **打印**\n\nChun Hin 是香港一家投资银行的高级经理。每天早上，他在上班路上收听彭博广播，过去还会逐字逐句阅读每一期《经济学人》，以持续提升自己的英语水平。作为一名在香港长大、母语为粤语和普通话的人，Chun Hin 付出了巨大努力才达到流利的英语水平。\n\n**Minh Tran** 是 EF Education First 的研究与合作总监，也是推出 EF 标准英语测试团队的成员。**Peter Burman** 是 EF Corporate Solutions 的总裁。\n\n**分享** **分享** **保存** **获取PDF** **购买副本** **打印**\n\n**阅读更多关于** 商业教育 **或相关主题** 国际商务 **和** 商务沟通\n\n**合作伙伴中心**",
-      "text_excerpt_zh_hash": "c044889a9e510699",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How to Improve Your Business English",
-      "url": "https://s.hbr.org/40tUlqQ"
+      "text_excerpt": "SKIP TO CONTENT Generative AI | Don’t Let AI Slop Muck Up Your Company’s Processes Subscribe Sign In Latest Magazine Topics Podcasts Store Reading Lists Data & Visuals Case Selections HBR Executive Search hbr.org Subscribe Latest Podcasts The Magazine Store Webinars Newsletters All Topics Reading Lists Data & Visuals Case Selections HBR Executive My Library Account Settings Sign In Explore HBR Latest The Magazine Podcasts Store Webinars Newsletters Popular Topics Managing Yourself Leadership Strategy Managing Teams Gender Innovation Work-life Balance All Topics For Subscribers Reading Lists Data & Visuals Case Selections HBR Executive Subscribe My Account My Library Topic Feeds Orders Account Settings Email Preferences Sign In Generative AI Don’t Let AI Slop Muck Up Your Company’s Processes by Matthias Holweg and Thomas H. Davenport June 16, 2026 HBR Staff/OsakaWayne Studios/Alexey Yaremenko/Getty Images Post Post Share Save Print Summary . Generative AI’s gifts come with a hidden danger: decay in the accuracy and quality of organizational knowledge. This decay is the organization-level version of the “workslop” ... more Leer en español Ler em português Post Post Share Save Print AI can do many incredible things. It can create an email response from a voice prompt , make complex business decisions , and even solve complex math problems . But generative AI’s gifts come with a hidden danger: decay in the accuracy and quality of organizational knowledge. Matthias Holweg is the American Standard Companies Professor of Operations Management and director of the Oxford Artificial Intelligence Program at the University of Oxford’s Saïd Business School. Thomas H. Davenport is the President’s Distinguished Professor of Information Technology and faculty director of the Metropoulos Institute for Technology and Entrepreneurship at Babson College, a visiting scholar at the MIT Initiative on the Digital Economy, and a senior adviser to Deloitte’s Chief Data and Analytics Officer Program. Post Post Share Save Print Read more on Generative AI or related topics AI and machine learning , Technology and analytics , Analytics and data science and Automation Partner Center Start my subscription! Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Explore HBR The Latest All Topics Magazine Archive Reading Lists Case Selections HBR Executive Podcasts Webinars Data & Visuals My Library Newsletters HBR Press HBR Store Article Reprints Books Cases Collections Magazine Issues HBR Guide Series HBR 20-Minute Managers HBR Emotional Intelligence Series HBR Must Reads Tools About HBR Contact Us Advertise with Us Information for Booksellers/Retailers Masthead Global Editions Media Inquiries Guidelines for Authors HBR Analytic Services Copyright Permissions Accessibility Digital Accessibility Manage My Account My Library Topic Feeds Orders Account Settings Email Preferences Help Center Contact Customer Service Follow HBR Facebook X Corp. LinkedIn Instagram Your Newsreader About Us Careers Privacy Policy Cookie Policy Copyright Information Trademark Policy Terms of Use Harvard Business Publishing: Higher Education Corporate Learning Harvard Business Review Harvard Business School Copyright © 2026 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.",
+      "title": "Don’t Let AI Slop Muck Up Your Company’s Processes",
+      "url": "https://s.hbr.org/3QMld3Q"
     },
     "https://samihonkonen.com/posts/a-love-letter-to-exe-dev/": {
       "cleaner_v": 2,
@@ -14117,20 +14361,6 @@
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
     },
-    "https://thein.fo/3QmsS8M": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://thein.fo/3QmsS8M",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://thein.fo/3QmsS8M"
-    },
     "https://thein.fo/43wKrWU": {
       "content_type": "",
       "description": "",
@@ -14158,6 +14388,20 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://thein.fo/4fD7Yww"
+    },
+    "https://thein.fo/4vbAUk3": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://thein.fo/4vbAUk3",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://thein.fo/4vbAUk3"
     },
     "https://til.simonwillison.net/llms/agentsview-custom-model-price": {
       "cleaner_v": 2,
@@ -15597,25 +15841,6 @@
       "title": "- YouTube",
       "url": "https://youtu.be/wkv2ifxPpF8?si=rJWIwXGDb5FtqsNW"
     },
-    "https://yusufaytas.com/vibe-coder-vs-software-engineer": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Vibe coding is useful for discovery, but software engineering starts when generated code has to be reviewed, owned, operated, and safely changed.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://yusufaytas.com/vibe-coder-vs-software-engineer",
-      "frameable": null,
-      "image_urls": [
-        "https://yusufaytas.com/images/2026/06/pretty-please-approve-pr.jpg",
-        "https://yusufaytas.com/ya-logo.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "More than a decade ago, I wrote about [Java Developer vs. Software Engineer](https://yusufaytas.com/java-developer-vs-software-engineer). At the time, I didn’t realize how deeply people had tied their professional identity to Java. My goal was to distinguish between someone defined by a specific language and someone who thinks more broadly about solving problems.\nThe whole discourse started from one premise. Java had become the way. Many developers began thinking from Java outward. The tool became the lens through which every problem was viewed. And when a problem didn’t fit that lens, the problem was bent until it did.\nI don't want to stretch that analogy too much, because AI is not just another [programming language or framework](https://yusufaytas.com/teams-choose-language). It changes the economics of [writing software](https://yusufaytas.com/on-writing-software-engineering-handbook). Still, the old pattern is there. A tool becomes powerful, people wrap their identity around it, and then the craft gets reduced to the tool.\nNow, the question is not whether AI can write code. It does. It does it better every day. The question is what kind of [work](https://yusufaytas.com/how-work-software-engineer) comes out of that process and what happens when it enters a real codebase, with real users, real [data](https://yusufaytas.com/data-as-a-product-a-new-frontier), real compliance requirements, real incidents, and real people who have to maintain it.\nThat is where I see the [difference](https://yusufaytas.com/the-invisible-difference) between a vibe coder and a software engineer. A vibe coder is someone who wants to test an idea by generating software as a prototype. A software engineer is someone who thinks about the entire software development lifecycle. So the difference is not the tool. The difference is where the responsibility starts and where it ends.\nA lot of the discussion around vibe [coding](https://yusufaytas.com/coding-in-leadership) still measures the wrong thing. People show how quickly they went from idea to app. That has value, especially when the goal is to test an idea. In a software development team, someone has to review it. Someone has to understand the intention behind it. Someone has to decide whether the [dependency](https://yusufaytas.com/working-with-dependencies) belongs there. Someone has to check whether the test verifies behaviour. Someone has to apply schema changes. Someone has to [coordinate](https://yusufaytas.com/cracking-coding-bottlenecks) the change between teams. Someone has to work on a rollback. Someone has to write a runbook. Someone has to answer to a page.\nNone of these are part of anyone's toy project. So I would measure AI-generated [work by a different](https://yusufaytas.com/the-work-runs-on-different-maps) metric: time to safe merge. That includes reviewability, [risk](https://yusufaytas.com/risk-comes-first), test [quality](https://yusufaytas.com/silent-guardians-of-quality), ownership, rollback, and whether the author can explain the meaningful decisions in the change. If AI makes code generation cheaper but makes safe merge more expensive, the team has not gained as much as it thinks.\nThis is the first difference. A vibe coder measures time to first working version. A software engineer measures time to safe merge. Time to first working version is useful when the work is discovery. Time to safe merge is necessary when the work enters a shared codebase. It includes review cost, test cost, rollout cost, rollback cost, coordination cost, and future maintenance cost. That is why the demo is the wrong finish line. It only proves that something can be shown, not that it can be absorbed by a team.\nAI-assisted code should be better, not bigger. If the tool lets you generate more, the human has to constrain more. Otherwise you are not saving work. You are moving it downstream, where maintenance becomes someone else's chore. AI-assisted code cannot be held to a different standard. It has to",
-      "text_excerpt_zh": "十多年前，我曾写过一篇关于 [Java开发者 vs 软件工程师](https://yusufaytas.com/java-developer-vs-software-engineer) 的文章。当时，我并未意识到人们竟将职业身份与 Java 绑定得如此之深。我的初衷是区分那些被特定语言定义的人，与那些更广泛思考问题解决之道的人。\n\n整个讨论源于一个前提：Java 已成为唯一路径。许多开发者开始以 Java 为出发点思考问题。工具成了审视每个问题的透镜。当问题无法适配这个透镜时，人们便强行扭曲问题本身。\n\n我不想过度延伸这个类比，因为 AI 并非另一种 [编程语言或框架](https://yusufaytas.com/teams-choose-language)。它改变了 [编写软件](https://yusufaytas.com/on-writing-software-engineering-handbook) 的经济学。然而，旧有模式依然存在：工具变得强大，人们将身份与之捆绑，随后技艺便被简化为工具本身。\n\n如今，问题不在于 AI 能否编写代码。它能，而且每天都在进步。问题在于，这个过程产出了什么样的 [工作成果](https://yusufaytas.com/how-work-software-engineer)，以及当它进入一个真实的代码库——面对真实用户、真实 [数据](https://yusufaytas.com/data-as-a-product-a-new-frontier)、真实合规要求、真实事故、以及真实维护者时，会发生什么。\n\n这正是我看到的 [区别](https://yusufaytas.com/the-invisible-difference) 所在：氛围编码者与软件工程师之间的区别。氛围编码者希望通过生成软件原型来测试想法；而软件工程师则思考整个软件开发生命周期。因此，区别不在于工具，而在于责任的起点与终点。\n\n围绕氛围 [编码](https://yusufaytas.com/coding-in-leadership) 的许多讨论，仍然在衡量错误的东西。人们展示从想法到应用的速度有多快。这有其价值，尤其是在测试想法时。但在软件开发团队中，必须有人审查代码，有人理解其背后的意图，有人判断 [依赖](https://yusufaytas.com/working-with-dependencies) 是否合理，有人检查测试是否验证了行为，有人应用 schema 变更，有人 [协调](https://yusufaytas.com/cracking-coding-bottlenecks) 团队间的改动，有人负责回滚，有人编写 runbook，有人响应告警。\n\n这些都不属于任何人的玩具项目。因此，我会用另一个 [指标](https://yusufaytas.com/the-work-runs-on-different-maps) 来衡量 AI 生成的工作：安全合并时间。这包括可审查性、[风险](https://yusufaytas.com/risk-comes-first)、测试 [质量](https://yusufaytas.com/silent-guardians-of-quality)、所有权、回滚能力，以及作者能否解释变更中的关键决策。如果 AI 降低了代码生成成本，却提高了安全合并成本，那么团队的实际收益远没有想象中那么大。\n\n这是第一个区别。氛围编码者衡量的是首次可用版本的时间；软件工程师衡量的是安全合并的时间。当工作处于探索阶段时，首次可用版本时间很有用；但当工作进入共享代码库时，安全合并时间就变得必要。它包含了审查成本、测试成本、部署成本、回滚成本、协调成本以及未来维护成本。这就是为什么演示是错误终点线的原因——它只能证明某些东西可以被展示，而不能证明它能被团队吸收。\n\nAI 辅助的代码应该更好，而不是更多。如果工具让你生成更多，那么人类就必须施加更多约束。否则，你并没有节省工作，而是将其向下游转移，让维护成为别人的苦差事。AI 辅助的代码不能采用不同的标准。它必须",
-      "text_excerpt_zh_hash": "0f4e46f2ce34fbc9",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Vibe Coder vs Software Engineer | Yusuf Aytas",
-      "url": "https://yusufaytas.com/vibe-coder-vs-software-engineer"
-    },
     "https://zed.dev/blog/introducing-deltadb": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -15656,31 +15881,26 @@
       "title": "DeltaDB — Early Access",
       "url": "https://zed.dev/deltadb"
     },
-    "https://zenn.dev/layerx/articles/947ce6d31701cf": {
+    "https://zenn.dev/ashunar0/articles/1ba94a110d8622": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
       "description": "",
       "extraction_source": "trafilatura",
-      "final_url": "https://zenn.dev/layerx/articles/947ce6d31701cf",
+      "final_url": "https://zenn.dev/ashunar0/articles/1ba94a110d8622",
       "frameable": false,
       "image_urls": [
-        "https://res.cloudinary.com/zenn/image/upload/s--FKNU1xQ0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E4%25B8%258D%25E6%2599%2582%25E7%259D%2580%2520%7E%2520%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E5%259B%25BD%25E3%2582%2592%25E8%25BF%25BD%25E3%2582%258F%25E3%2582%258C%25E3%2580%2581%25E8%25A6%2581%25E6%25B1%2582%25E3%2581%25AE%25E5%259B%25BD%25E3%2581%25B8%2520%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:su8%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E2OTFlNjE4YzcuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:LayerX%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNHdDZWsxTUFjbzVXNlpLQUgtaGNiMGI1SDZrODRKdkd2ZGpoNDZQUT1zOTYtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-        "https://static.zenn.studio/user-upload/avatar/a691e618c7.jpeg",
-        "https://lh3.googleusercontent.com/a/AEdFTp4wCek1MAco5W6ZKAH-hcb0b5H6k84JvGvdjh46PQ=s96-c",
-        "https://static.zenn.studio/user-upload/topics/23eef6d9d7.png",
+        "https://res.cloudinary.com/zenn/image/upload/s--hEQOVHLm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Hono%2520%25E3%2581%25A7%2520API%2520%25E3%2583%2590%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%2580%258B%25E4%25BA%25BA%25E7%259A%2584%25E3%2583%2599%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2582%25E3%2581%2595%25E3%2581%25B2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZhN2JkYzMxMjIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+        "https://static.zenn.studio/user-upload/avatar/6a7bdc3122.jpeg",
+        "https://static.zenn.studio/user-upload/topics/604d5b83b5.jpeg",
         "https://zenn.dev/images/topic.png",
-        "https://static.zenn.studio/images/drawing/idea-icon.svg",
-        "https://static.zenn.studio/user-upload/d7f18962cf87-20260614.png",
-        "https://static.zenn.studio/user-upload/915a10463cf6-20260615.png",
-        "https://static.zenn.studio/user-upload/d927f896dd5e-20260614.png",
-        "https://static.zenn.studio/user-upload/ccd6d0cc48fd-20260615.png",
-        "https://static.zenn.studio/user-upload/e15b33d05701-20260614.png",
-        "https://static.zenn.studio/user-upload/a1da4a0dd79e-20260614.png"
+        "https://static.zenn.studio/user-upload/topics/0eec7d7c6c.png",
+        "https://static.zenn.studio/images/drawing/tech-icon.svg",
+        "https://static.zenn.studio/images/drawing/discussion.png"
       ],
       "kind": "article",
-      "text_excerpt": "AI の不時着 ~ コードの国を追われ、要求の国へ ~\nさて、これはある朝の話です。\n目を覚ましたあなたは、見知らぬ国に立っていました。ついこのあいだまで、あなたが暮らしていたのは「コードの国」。手を動かして実装を書ける者が敬われ、難しいアルゴリズムを解ける者が一目置かれる、そういう国でした。ところがある夜、竜巻のような風があなたを巻き上げて、気づけばあなたは国境の向こう、「要求の国」へ不時着していたのです。\nこれからお話しするのは、その不時着がなぜ起きたのか、降り立った先がどんな国だったのか、という物語です。\n先に結びだけ申しておきましょう。あなたが降り立ったのは、新しく見つかった大陸ではありません。地図から消えかけていた、けれどもずっと昔からそこにあった古い大陸です。\n人はそれを、要求工学（Requirements Engineering）と呼びます。\n気づけば、コードの国から追放されていた\nまずは、多くのエンジニアが胸の奥でそっと抱えているであろう、ひとつの「失墜感」から語り始めましょう。\nここ数年、ソフトウェアづくりの常識が、静かに、けれど確かに揺らいでいきました。とどめを刺したのは、二〇二五年の暮れのことです。Opus 4.5、GPT-5.2、Gemini 3 といったモデルが立て続けに性能の壁を越え、広い範囲のコーディングで、AIの生み出すものが熟練の手書きと見分けのつかないものになりました。しかも、何時間もかけてではなく、ほんの数分で、です。Vercel のCEOは、[将来ソフトウェアは事前に作られるのではなく、ユーザーごとにその場で生成される(ephemeral / generative)ものになる](https://sequoiacap.com/podcast/training-data-guillermo-rauch/)と語りました。\"vibe coding\" の名付け親である Andrej Karpathy は、[「プログラマーとして、これほど遅れを取っていると感じたことはない」](https://www.aol.com/news/guy-coined-vibe-coding-now-172146964.html)と漏らしたのです。\nそして時を同じくして、もうひとつ、奇妙なことが起こりました。\nちょっと誇張した絵として参考程度にご理解ください\n求人欄に、見慣れない肩書きが次々と湧いて出たのです。Forward Deployed Engineer、縮めてFDEと呼ばれる職の募集は、[ある集計では八倍にも膨らむ予想](https://www.fastcompany.com/91435680/postings-for-this-ai-job-are-up-800)がされました。GTMエンジニアは、[前の年から二~三倍あまり](https://bloomberry.com/blog/i-analyzed-1000-gtm-engineering-jobs-here-is-what-i-learned/)に。プロダクトエンジニア、AIビルダー、AIエンジニア……まるで難民キャンプのように、新しい職名が、あちらにもこちらにもテントを張っていったのです。\nここで、いったん足を止めたいのです。「AIがコードを書けるようになったから」。その一言だけでは、この眺めはどうにも説明がつきません。だってそうでしょう。AIが賢くなっただけなら、エンジニアは「よい道具を手にしたエンジニア」のままでいられたはずなのです。\nそれなのに、なぜ、わざわざ新しい名前が要るようになったのでしょうか。\nこの小さな引っかかりこそ、この物語の出発点なのです。\nですからこの物語では、目の前の出来事を「AIの台頭」というひと言で片づけたりはいたしません。構造として、ゆっくり読み解いていきます。\nなぜ、あの日あなたは越境したのか\nあなたを吹き飛ばした、あの竜巻。その正体は、じつはAIそのものではありません。\n費用構造の変化\nこれこそが、正体なのです。\n経済には、素朴な、けれど侮れない一般則があります。ある材料がほとんどタダ同然になると、値打ちは、それを補い合う「希少なほうの材料」へすうっと移っていく、というものです。電気が安くなれば、値打ちは電気そのものではなく「電気で何をするか」へ移る。同じことが、いままさに実装（コーディング）に起きました。長らくソフトウェアづくりでいちばん希少だった「実装する力」が、ありふれた汎用品（commodity）に成り下がり、値打ちは、それを取り巻く希少なもの、すなわち「何を作るべきかを決めること」や「ちゃんと動くかを確かめること」のほうへ、どっさりと移っていったのです。\nさて、ここからが面白いところ。これは技術の話であると同時に、じつにもって資本主義らしい話でもあるのです。\n値打ちが動いた先には、市場はきまって、威信ある言葉を鋳造します。\n人を雇い、給金を払い、地位を授けるための「器」として、新しい肩書きが要るのですね。\nこのからくりを、いちばん鋭く言い当てたのは、ある投資家でした。Foundation Capital の Jaya Gupta は、[FDEの正体を「単なる導入ではなく、人材に関するものだ」と喝破しました](https://thenewstack.io/forward-deployed-engineer-fde-openai-google/)。むかしマッキンゼーが「クライアントサービス」という言葉で、ビジネス系の汎用人材に威信を授けた。それとそっくり同じことを、Palantir は「embedded deployment」という言葉で、技術系の汎用人材にやっているのだ、と。\nつまり、こういう見立てになります。\n新しい言葉の氾濫は、半分が技術の話、半分が経済の話なのだ。\nさあ、この見立てが当たっているかどうか。確かめるために、ひとつ物差しを持ち出しましょう。要求の国の作法、すなわち要求工学です。\n要求工学という名の隣国\n不時着した先の国の暮らしの作法を、まず確かめておきましょう。\n要求工学とは、人々の「やりたいこと」を検証できる仕様へと移し替えるための規律です。古くから、おおよそ五つの仕事として整えられてきました。\n1.　要求の抽出（elicitation）\n2.　分析と交渉（analysis & negotiation）\n3.　仕様化（specification）\n4.　妥当性確認と検証（validation & verification）\n5.　管理（management、すなわち履歴を辿り、変更を御すること）\n機能要件と非機能要件を分け、どの要求がどの実装と結びついているかを、いつでも辿れるようにしておく。これが、この国の何十年来の、当たり前なのです。\nそしてこの国には、ひとつ、美しい世界観が伝わっています。\nMichael Jackson の「[世界と機械（The World and the Machine）](https://users.ece.utexas.edu/~perry/education/SE-Intro/jackson-icse95.pdf)」という見立てです。\n彼はこう語りました。わたしたちが相手にしているのは、二つの異なる国なのだ、と。\nひとつは「世界（World）」。\n顧客や、現場の事実や、人々の願いが住まう、問題の側の国です。\nもうひとつは「機械（Machine）」。\nコードや配備が住まう、解の側の国です。\nそして「仕様（specification）」とは、この二つの国が重なり合う「共有現象」、つまり国境線そのものなのだ、というのです。\nここで、たった一語だけ、覚えていってください。Jackson は、世界には二つの「気分」があると言いました。ひとつは「である（indicative）」、すでにそうなっている事実。もうひとつは「であってほしい（optative）」、望まれているありさまです。\n要求とは、世界の側にある、この optative にほかなりません。\nどれほど機械が賢くなろうと、「であってほしい」だけは、世界の住人、つまり人間からしか、湧いてこないのです。この一語、のちの幕でそっと効いてまいりますから、どうか胸にしまっておいてください。\nさて、ここでひとつ、申し添えておきましょう。\nこの見取り図を描くレンズそのものは、AIの前も後も、変わりません。\n二つの国があるという見立ても、その大づかみの地理も、昔のまま。けれど、変わらないのは、そこまで。どちらの国が栄えるかが入れ替わり、やがては二つの国を隔てる国境そのものが、大きく揺らぎ始めるのです。それがどう動いていくのかは、のちの幕で、じっくり見てまいりましょう。\n骨格は不変、しかし重心が動いた\nでは、何が変わって、何が変わらなかったのか。順に見てまいりましょう。\n変わらなかったもの。\nそれは、さきほどの五つの仕事という骨格です。抽出し、分析し、仕様にまとめ、検証し、管理する。この手順そのものは、AIが訪れても、消えてなくなったりはしません。\nひっくり返ったもの。\nそれは、費用の構造でした。実装のコストがゼロへ向かい、そのぶん相対的に、検証と上流（要求の側）の値打ちが、跳ね上がったのです。\n同じ骨格の上で、重心だけが、ぐらりと大きく動いた。\n重心が動けば、それぞれの仕事の「居場所」「担い手」「難しさ」も、次のように組み替わってまいります。\nそして、いちばん劇的だったのが、二つの国を隔てていた国境（DMZ）の崩壊でした。\nかつては「PM（何を作るかを決",
-      "title": "AI の不時着 ~ コードの国を追われ、要求の国へ ~",
-      "url": "https://zenn.dev/layerx/articles/947ce6d31701cf"
+      "text_excerpt": "Hono で API バックエンドを作るときの個人的ベストプラクティス\nHono で API バックエンドを何度か作ってきた中で、自分の中の構成が固まってきたのでまとめておく。フロントエンドと組まない、バックエンド単体のリポジトリを想定する。\n※あくまで個人的なベストプラクティスです。書くにあたって、Hono 公式の Best Practices と RPC ガイドの方針と矛盾しない範囲であることは確認しています。\nsrc/ の中に features/ を置いて、その配下にドメインごとのディレクトリを切っている。\nsrc/\n├── features/\n│   ├── users/\n│   ├── posts/\n│   └── comments/\n├── db/\n│   └── schema.ts\n└── index.ts\nドメイン単位でまとめる方針で、レイヤー（routes/, services/, repositories/ など）で横に切ることはしていない。features/users/ を開けば users まわりの実装が一通り揃う、という形にしておくと、機能追加・修正のときに行き来する場所が一箇所に収まりやすい。\nDB アクセスは Drizzle、リクエスト/レスポンスのスキーマと型は zod を使っている。\nDrizzle は型推論と drizzle-kit でのマイグレーション管理が選定理由。Cloudflare Workers / Bun / Deno でも動くので、Hono のランタイム選択の自由度を損なわない点も合っている。\nDB のテーブルは db/schema.ts に集約している。次章で扱う posts feature を例にすると、こんな形。\n// db/schema.ts\nimport { sqliteTable, text, integer } from 'drizzle-orm/sqlite-core'\nexport const posts = sqliteTable('posts', {\n  id: integer('id').primaryKey({ autoIncrement: true }),\n  title: text('title').notNull(),\n  content: text('content').notNull(),\n  published: integer('published', { mode: 'boolean' }).notNull().default(false),\n})\nzod の方は、feature ごとに schema.ts を切って、その中で zod スキーマと、そこから z.infer で取り出した型を一緒に export している。\n// features/posts/schema.ts\nimport { z } from 'zod'\nexport const postCreateSchema = z.object({\n  title: z.string().min(1),\n  content: z.string(),\n})\nexport type PostCreateInput = z.infer<typeof postCreateSchema>\nスキーマ本体は @hono/zod-validator 経由で route のリクエスト検証に使い、infer した型は service の入力型として流す。同じソースを参照するので、型定義を重複させずに済む。具体的な繋ぎ込みは次章の3層実装で見る。\nスキーマの中身の書き方（Wire / Create を分けるなど）は別途扱いたい。本記事では「どの層で何を使っているか」までで止める。\n各 feature ディレクトリの中身は次のファイルに分けている。\nfeatures/posts/\n├── index.ts        // route 定義（sub app）\n├── service.ts      // ビジネスロジック\n├── repository.ts   // DB アクセス\n└── schema.ts       // zod スキーマと型（前章で扱った）\n- \nindex.tsは HTTP の入り口。route 定義と、リクエスト/レスポンスの取り回しを担当する\n- \nservice.tsはその feature のビジネスロジック。複数の repository を組み合わせたり、ドメイン上のルールをここに置く\n- \nrepository.tsは DB アクセスの薄いラッパ。SQL / ORM クエリを書く場所をここに限定する\n- \nschema.tsは前章で扱った通り、zod スキーマと infer した型の定義\nposts ドメインを例に、各層の中身を見ていく。\nDB アクセスを薄く包む層。SQL / ORM クエリは原則ここだけで書き、上位レイヤーに「クエリ文」を漏らさない。\n// features/posts/repository.ts\nimport { db } from '@/db'\nimport { posts } from '@/db/schema'\nexport const postRepository = {\n  findAll: () => db.select().from(posts),\n  insert: (input: { title: string; content: string; published: boolean }) =>\n    db.insert(posts).values(input).returning().get(),\n}\n引数の型は「テーブルに入れる形」に合わせて直書きしている。クライアントから受け取る形ではなく、DB の row に近い形を repository の境界に置く感じ。\nrepository を組み合わせて、ドメイン上のルールを置く層。\n// features/posts/service.ts\nimport { postRepository } from './repository'\nimport type { PostCreateInput } from './schema'\nexport const postService = {\n  list: async () => {\n    const all = await postRepository.findAll()\n    return all.filter((p) => p.published)\n  },\n  create: (input: PostCreateInput) =>\n    postRepository.insert({ ...input, published: false }),\n}\nlist で「published のものだけ返す」という判定を入れている。これは DB アクセスというよりは posts ドメインのルール（公開済みだけが外向きに見える）なので service に置く。create は外から渡ってくるのは PostCreateInput だけで、published: false の初期値は service 側で補っている。「外からは公開状態を指定させない」というルールが、型と実装に同時に表れる形。\nrepository 側に findPublished を生やして上から呼ぶ手もあるが、自分は「公開かどうかの判定はドメインルールなので service」という切り分けにしている。クエリ最適化の必要が出てきたら repository に降ろす、というのが基本方針。\nHTTP の入り口。route 定義と zod の繋ぎ込み、service の呼び出しを書く。\n// features/posts/index.ts\nimport { Hono } from 'hono'\nimport { zValidator } from '@hono/zod-validator'\nimport { postService } from './service'\nimport { postCreateSchema } from './schema'\nconst posts = new Hono()\n  .get('/', async (c) => c.json(await postService.list()))\n  .post('/', zValidator('json', postCreateSchema), async (c) => {\n    const input = c.req.valid('json')\n    return c.json(await postService.create(input), 201)\n  })\nexport default posts\nzValidator で受け取ったリクエストボディが PostCreateInput 型として c.req.valid('json') から取り出せる。そのまま postService.create に渡せば、ハンドラ → service → repository まで型がスッと繋がる。sub app としての構造（method chaining や型 export）は5章で扱う。\n依存方向は index.ts → service.ts → repository.ts の一方向に固定する。schema.ts はどの",
+      "title": "Hono で API バックエンドを作るときの個人的ベストプラクティス",
+      "url": "https://zenn.dev/ashunar0/articles/1ba94a110d8622"
     },
     "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1": {
       "cleaner_v": 2,
@@ -20335,8 +20555,8 @@
     "2066513583593103619": [
       "https://x.com/theinformation/status/2066513583593103619",
       "https://thein.fo/43wKrWU",
-      "https://x.com/theinformation/status/2066891067388047561",
-      "https://thein.fo/3QmsS8M"
+      "https://x.com/theinformation/status/2066974151164743982",
+      "https://thein.fo/4vbAUk3"
     ],
     "2066522716379779124": [
       "https://x.com/sidpalas/status/2066522716379779124",
@@ -20368,8 +20588,7 @@
     ],
     "2066536915726184775": [
       "https://x.com/rhackett/status/2066536915726184775",
-      "http://x.com/i/article/2065528640326995968",
-      "https://x.com/rhackett/status/2066906591828258879"
+      "http://x.com/i/article/2065528640326995968"
     ],
     "2066537531227943101": [
       "https://x.com/termsheetinator/status/2066537531227943101",
@@ -20397,12 +20616,15 @@
     "2066556847390064721": [
       "https://x.com/HarvardBiz/status/2066556847390064721",
       "https://s.hbr.org/3PZZpSc",
-      "https://x.com/HarvardBiz/status/2066855561337958753",
-      "https://s.hbr.org/40tUlqQ"
+      "https://x.com/HarvardBiz/status/2066893061297160403",
+      "https://s.hbr.org/3QMld3Q"
     ],
     "2066558169741173177": [
       "https://x.com/crtr0/status/2066558169741173177",
       "http://x.com/i/article/2057852752202792960"
+    ],
+    "2066559580927324436": [
+      "https://x.com/jonnym1ller/status/2066559580927324436"
     ],
     "2066561628494045610": [
       "https://x.com/SidebarIO/status/2066561628494045610",
@@ -20415,8 +20637,8 @@
     "2066573973580665107": [
       "https://x.com/theinformation/status/2066573973580665107",
       "https://thein.fo/4fD7Yww",
-      "https://x.com/theinformation/status/2066891067388047561",
-      "https://thein.fo/3QmsS8M"
+      "https://x.com/theinformation/status/2066974151164743982",
+      "https://thein.fo/4vbAUk3"
     ],
     "2066574083060531420": [
       "https://x.com/harvey/status/2066574083060531420",
@@ -20444,8 +20666,8 @@
     "2066593299771605264": [
       "https://x.com/engadget/status/2066593299771605264",
       "https://www.engadget.com/2194626/anthropic-hit-with-lawsuit-over-its-claude-max-usage-limits/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781549193",
-      "https://x.com/engadget/status/2066924584926876057",
-      "https://www.engadget.com/2195464/its-time-to-dump-roku/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781628091"
+      "https://x.com/engadget/status/2066944935975125344",
+      "https://www.engadget.com/2195087/google-android-17-rollout/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1781632903"
     ],
     "2066593705906012188": [
       "https://x.com/CobusGreylingZA/status/2066593705906012188",
@@ -20500,8 +20722,8 @@
     "2066645675811733633": [
       "https://x.com/__su888/status/2066645675811733633",
       "https://blog.janestreet.com/formal-methods-at-jane-street-index/",
-      "https://x.com/__su888/status/2066687199463321736",
-      "https://zenn.dev/layerx/articles/947ce6d31701cf"
+      "https://x.com/__su888/status/2067009825377226839",
+      "https://career-research.mynavi.jp/column/20260615_111639/"
     ],
     "2066650207748551042": [
       "https://x.com/philippemnoel/status/2066650207748551042",
@@ -20515,12 +20737,15 @@
     "2066670651910623622": [
       "https://x.com/rseroter/status/2066670651910623622",
       "https://seroter.com/2026/06/15/daily-reading-list-june-15-2026-805/",
-      "https://x.com/rseroter/status/2066631834684006810",
-      "https://yusufaytas.com/vibe-coder-vs-software-engineer"
+      "https://x.com/rseroter/status/2066923506604884055",
+      "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/",
+      "https://pbs.twimg.com/media/HK8r1jwbUAE5k5X.jpg"
     ],
     "2066697348735025590": [
       "https://x.com/TheEconomist/status/2066697348735025590",
-      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a30a983e656e500013c71bf&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a30a983e656e500013c71bf&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2066925057339731994",
+      "https://www.economist.com/graphic-detail/2026/06/16/did-ai-write-this-article?taid=6a317d95117eb20001635483&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2066704062851207640": [
       "https://x.com/systematicls/status/2066704062851207640",
@@ -20547,7 +20772,9 @@
     ],
     "2066774695773446390": [
       "https://x.com/martinfowler/status/2066774695773446390",
-      "https://martinfowler.com/fragments/2026-06-16.html"
+      "https://martinfowler.com/fragments/2026-06-16.html",
+      "https://x.com/martinfowler/status/2066862972316577841",
+      "https://martinfowler.com/articles/reliable-llm-bayer.html"
     ],
     "2066790379475599773": [
       "https://x.com/bibryam/status/2066790379475599773",
@@ -20557,20 +20784,68 @@
     ],
     "2066812274044498133": [
       "https://x.com/OpenDesignHQ/status/2066812274044498133",
-      "https://x.com/OpenDesignHQ/status/2066862314041557311",
-      "https://pbs.twimg.com/amplify_video_thumb/2066861941243465729/img/_5LnUBEix_xlXO03.jpg"
+      "https://x.com/OpenDesignHQ/status/2066750913985884523",
+      "https://pbs.twimg.com/amplify_video_thumb/2066750712386625536/img/_0WLxhxbrOtdRi2q.jpg"
     ],
     "2066816324936904903": [
       "https://x.com/zaimiri/status/2066816324936904903",
       "http://x.com/i/article/2066476604801396736",
       "https://x.com/zaimiri/status/2066816746065961318"
     ],
+    "2066820192303554733": [
+      "https://x.com/yusukebe/status/2066820192303554733",
+      "https://zenn.dev/ashunar0/articles/1ba94a110d8622"
+    ],
+    "2066863634949779464": [
+      "https://x.com/kvnkld/status/2066863634949779464",
+      "http://x.com/i/article/2064972712729292800"
+    ],
+    "2066883577141428563": [
+      "https://x.com/0xJeff/status/2066883577141428563",
+      "http://x.com/i/article/2066882780286550016"
+    ],
+    "2066893762270261586": [
+      "https://x.com/jasonfried/status/2066893762270261586",
+      "http://x.com/i/article/2066893374741786626",
+      "https://x.com/jasonfried/status/2066993230567379219"
+    ],
+    "2066895528982655317": [
+      "https://x.com/Khazix0918/status/2066895528982655317"
+    ],
+    "2066903277242073172": [
+      "https://x.com/frxiaobei/status/2066903277242073172"
+    ],
     "2066905912238023154": [
       "https://x.com/jhleath/status/2066905912238023154",
       "http://x.com/i/article/2066893911600357376",
       "https://x.com/jhleath/status/2066907527481274752"
+    ],
+    "2066919099016630286": [
+      "https://x.com/Gorden_Sun/status/2066919099016630286",
+      "http://x.com/i/article/2066918571184381953"
+    ],
+    "2066921991613890611": [
+      "https://x.com/nfcampos/status/2066921991613890611",
+      "http://x.com/i/article/2066920008358514692"
+    ],
+    "2066924020868501554": [
+      "https://x.com/SidebarIO/status/2066924020868501554",
+      "https://blog.damato.design/posts/lawful-design/?ref=sidebar",
+      "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg",
+      "https://x.com/SidebarIO/status/2066898102255038618",
+      "https://arun.is/blog/jr-logo/?ref=sidebar",
+      "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg"
+    ],
+    "2066933501757198839": [
+      "https://x.com/sydneyrunkle/status/2066933501757198839",
+      "https://x.com/sydneyrunkle/status/2066928783534289358",
+      "http://x.com/i/article/2066900327077486592"
+    ],
+    "2066982286395068540": [
+      "https://x.com/intuitiveml/status/2066982286395068540",
+      "http://x.com/i/article/2066980572644466688"
     ]
   },
-  "updated_at": "2026-06-16T18:09:39Z",
+  "updated_at": "2026-06-17T01:41:25Z",
   "window": "recent"
 }
