@@ -20680,6 +20680,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HITLcLgbAAALEmq.jpg"
     },
+    "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -32832,6 +32846,11 @@
       "https://x.com/Xudong07452910/status/2056023674424033749",
       "https://x.com/Xudong07452910/status/2055906156518711699"
     ],
+    "2055945336599020021": [
+      "https://x.com/royxy/status/2055945336599020021",
+      "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg",
+      "https://x.com/royxy/status/2056018702919930334"
+    ],
     "2056032201259831398": [
       "https://x.com/lotte_verheyden/status/2056032201259831398",
       "http://x.com/i/article/2054596954282496000",
@@ -32850,6 +32869,6 @@
       "https://x.com/addyosmani/status/2056107921227010519"
     ]
   },
-  "updated_at": "2026-06-17T07:28:00Z",
+  "updated_at": "2026-06-17T12:30:44Z",
   "window": "archive"
 }
