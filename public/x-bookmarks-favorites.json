@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The government says this is about national security. But given the history—and ongoing litigation—between the White House and Anthropic, something more may be going on.\nhttps://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=",
+      "text_zh": "政府称此举关乎国家安全。但鉴于白宫与Anthropic之间的历史纠葛——以及仍在进行的诉讼——背后或许另有隐情。",
+      "text_zh_hash": "75ac1ba2f43a33fc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/reason/status/2067023167793541434"
     },
     {
@@ -192,6 +195,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Margot Vanlar, applied AI engineer at Anthropic:\n\n\"instructions don't add capability.\"\n\nher fix is the rest of that line: stop telling the model to try harder, hand it a tool.\n\na persistent agent is that taken to the limit.\n\nthe 17 prompts in the article aren't better instructions, they hand Claude the tools:\n- a repo to watch\n- a schedule\n- a loop that checks its own work.\n\nbetter than any $500 prompting guide.\n\nread the article for the version that runs while you sleep.",
+      "text_zh": "Anthropic 应用 AI 工程师 Margot Vanlar 指出：\n\n\"指令不会增加能力。\"\n\n她的解决方案是这句话的后半部分：别再让模型更努力，给它一个工具。\n\n一个持久的智能体就是将这一点发挥到极致。\n\n文章中的 17 条提示并非更好的指令，而是为 Claude 提供了工具：\n- 一个可供监控的仓库\n- 一个时间表\n- 一个能自我检查工作成果的循环\n\n这比任何价值 500 美元的提示指南都更有效。\n\n阅读文章，了解在你睡觉时运行的版本。",
+      "text_zh_hash": "c0ae2af26e8f5bc6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Mnilax/status/2066938286560440749"
     },
     {
@@ -286,6 +292,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "you didn't book a call.\nyou didn't fill out a form.\nyou just looked at their pricing page.\nnow there's a 73-second video in your inbox that opens with \"saw you on our pricing page.\" https://t.co/IikN2Yv4fK",
+      "text_zh": "你没有预约通话。\n你没有填写表单。\n你只是看了他们的定价页面。\n现在，你的收件箱里多了一段73秒的视频，开头就是“看到你在我们的定价页面上了。” https://t.co/IikN2Yv4fK",
+      "text_zh_hash": "a39df3da0613b904",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MichLieben/status/2067016080799997999"
     },
     {
@@ -326,6 +335,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "As AI tools have become extremely good at writing code, they’ve also become extremely good at pulling off cyberattacks, @matteo_wong reports: \"The attack angles are seemingly infinite. And no one is adequately prepared.\" https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "随着AI工具在编写代码方面变得极为出色，它们在实施网络攻击方面也同样变得极其擅长。@matteo_wong 报道称：\"攻击角度似乎无穷无尽，而没有人做好充分准备。\" https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "92f16d89c8034b92",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheAtlantic/status/2066964554593063262"
     },
     {
@@ -407,6 +419,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Microsoft eyes DeepSeek for enterprise AI https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe",
+      "text_zh": "微软考虑将DeepSeek用于企业AI https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe",
+      "text_zh_hash": "a126c43049d0f291",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2066922200028823670"
     },
     {
@@ -543,6 +558,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The AI-native business has 3 things.\n\nAgents. Loops. Workflows.\n\nWe're about to see a massive shift in this direction over the next few years. https://t.co/naytZPlZbJ",
+      "text_zh": "AI原生业务包含三个要素：\n\n智能体（Agents）。循环（Loops）。工作流（Workflows）。\n\n未来几年，我们将见证这一方向的巨大转变。https://t.co/naytZPlZbJ",
+      "text_zh_hash": "8db332ff37518967",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ericosiu/status/2066954460501352520"
     },
     {
@@ -585,6 +603,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic's Fable shutdown is a big moment for open-source AI https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter",
+      "text_zh": "Anthropic 关闭 Fable 是开源 AI 的重要时刻",
+      "text_zh_hash": "2d1f5d2576a65905",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CNBC/status/2067014839898124542"
     },
     {
@@ -625,6 +646,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Trump's AI export strategy runs into Trump's export controls https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c",
+      "text_zh": "特朗普的AI出口战略撞上特朗普的出口管制",
+      "text_zh_hash": "2e490c856f67bf2c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2066999670627352676"
     },
     {
@@ -679,6 +703,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Everyone wants agents that run for days without oversight.\n\nHere's what that actually takes:\n\nGoal: what success looks like, and when it's done\n\nSkills: the how — your SOPs and quality bar\n\nTools: what it can actually reach\n\nContext: what's going on around it\n\nThink of it like a new hire on day one.\n\nNo goal. No skills. No tools. No context.\n\nThey'd fail too.\n\nGive the agent all four. \n\nThat's where autonomy clicks.",
+      "text_zh": "人人都想要能连续运行数日、无需监督的智能体。\n\n以下是实现这一目标真正需要的东西：\n\n**目标**：成功的标准是什么，以及何时算完成\n\n**技能**：实现的方法——你的标准操作流程和质量门槛\n\n**工具**：它实际能触及的范围\n\n**上下文**：它周围正在发生什么\n\n不妨把它想象成入职第一天的新员工。\n\n没有目标。没有技能。没有工具。没有上下文。\n\n他们同样会失败。\n\n给智能体配齐这四样。\n\n这才是自主运行真正生效的时刻。",
+      "text_zh_hash": "97c28b8ed5cd473a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/startupideaspod/status/2066952559395500440"
     },
     {
@@ -732,6 +759,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Loop Engineering: Why the Best Developers Don't Prompt AI Anymore\n\nEvery few months, there's a new term for how we work with AI. Prompt engineering. Context engineering. Harness engineering. Now it's loop engineering. Each one claims to be the real paradigm shift. Each one has its own evangelists, its own blog posts, its own \"you're doing it wrong\" energy. So is this one worth updating your workflow for, or is it just the next buzzword in the rotation?\n\nIn this thread, we’ll unpack what Loop Engineering really is, how teams can set it up, what the verifier problem is, and how it may reshape the future of engineering.",
+      "text_zh": "循环工程：为什么顶尖开发者不再手动提示AI\n\n每隔几个月，就会出现一个描述我们与AI协作方式的新术语。提示工程、上下文工程、工具链工程……如今又轮到了循环工程。每个新词都宣称自己是真正的范式转变，都有自己的布道者、专属博客文章，以及那种\"你做得不对\"的架势。那么，这个新概念是否值得你更新工作流程，还是只是又一个轮番登场的流行词？\n\n在这篇讨论中，我们将深入解析循环工程究竟是什么、团队如何搭建它、验证者问题是什么，以及它可能如何重塑工程领域的未来。",
+      "text_zh_hash": "5d0d6a672af41e24",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Pokee_AI/status/2066914839126278232"
     },
     {
@@ -772,6 +802,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "US and Europe discuss access to AI models after Anthropic dispute https://ft.trib.al/Mt0u2VP",
+      "text_zh": "美国和欧洲在Anthropic争议后讨论AI模型访问权限",
+      "text_zh_hash": "7124d87dcfddba1b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/FT/status/2066936083535868343"
     },
     {
@@ -816,6 +849,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "give this skill to your agent so any idea you have gets improved instantly by mapping it back to the problem and connecting it to your goals\n\nmore often than not you see that the idea is not good",
+      "text_zh": "将这个技能赋予你的智能体，这样你产生的任何想法都能通过回溯问题本质并关联目标，立即得到优化。\n\n通常情况下你会发现，这个想法并不好。",
+      "text_zh_hash": "48579df0dd6e0162",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nurijanian/status/2066973335939146194"
     },
     {
@@ -978,6 +1014,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic’s growing power has made some app developers and rival researchers less willing to rally behind it during its latest government fight. \n\nRead more: https://thein.fo/4eL4EhQ",
+      "text_zh": "Anthropic日益增长的实力，使得一些应用开发者及竞争对手的研究人员在其最新一轮与政府的博弈中，不太愿意再为其摇旗呐喊。\n\n了解更多：https://thein.fo/4eL4EhQ",
+      "text_zh_hash": "7b8cf7499a146c86",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/theinformation/status/2066943958635192527"
     },
     {
@@ -1183,6 +1222,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nhttps://www.anthropic.com/research/claude-code-expertise",
+      "text_zh": "我们最新的经济研究引入了一个框架，用于追踪Claude Code在规模化过程中的表现。\n\n谁在使用Claude Code，他们用它做什么？任务的价值如何变化？领域专业知识在多大程度上影响会话的成功率？\nhttps://www.anthropic.com/research/claude-code-expertise",
+      "text_zh_hash": "94b2fa586ce8dbbe",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnthropicAI/status/2066969532380721386"
     },
     {
@@ -1237,6 +1279,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The BIGGEST AI opportunity right now is applying loops to business operations.\n\nMost companies haven't figured this out yet.\n\nHere are a few examples to get ahead: https://t.co/Ag2pnBPDpE",
+      "text_zh": "当前最大的AI机遇，是将循环机制应用于商业运营。\n\n大多数公司尚未意识到这一点。\n\n以下是一些抢占先机的案例：https://t.co/Ag2pnBPDpE",
+      "text_zh_hash": "5311a2394c57fd01",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ericosiu/status/2067029706298343748"
     },
     {

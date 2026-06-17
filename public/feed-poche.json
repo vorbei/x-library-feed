@@ -69,6 +69,9 @@
         }
       ],
       "title": "Snap Unveils Specs Smart Glasses at AWE 2026",
+      "title_zh": "Snap在AWE 2026上发布Specs智能眼镜",
+      "title_zh_hash": "dc05a3df2982f5f3",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/fzd-k98ZkLY?si=pnHTLP59Kkjew-4J",
       "x_status_id": null
     },
@@ -93,6 +96,9 @@
       "category": "Tools",
       "created_at": "2026-06-17T04:59:35.586277Z",
       "description": "Meet SPECS, AR glasses designed for real life. Stay present while you work, learn, play, and see more of the world around you.",
+      "description_zh": "认识 SPECS，专为真实生活设计的 AR 眼镜。在工作、学习、娱乐时保持专注，同时更清晰地感知周围的世界。",
+      "description_zh_hash": "64994ba891aff42d",
+      "description_zh_translator_v": 2,
       "domain": "www.specs.com",
       "embed_type": "",
       "id": "k1797d8m74yst27vpfbfvv6edx88vs0j",
@@ -115,11 +121,17 @@
         }
       ],
       "title": "SPECS AR Glasses",
+      "title_zh": "SPECS AR 眼镜",
+      "title_zh_hash": "e9e9a7c9fa3b19cc",
+      "title_zh_translator_v": 2,
       "url": "https://www.specs.com/",
       "x_status_id": null
     },
     {
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -147,6 +159,9 @@
         }
       ],
       "title": "Framer Event: June 16",
+      "title_zh": "Framer 活动：6月16日",
+      "title_zh_hash": "7aed8a77c7900c87",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=j4WW4bwWhPk",
       "x_status_id": null
     },
@@ -156,6 +171,9 @@
         "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Forigin%2Forigin_background.webp&w=3840&q=70&dpl=dpl_JDR2NrbJ9F6G7hk48YGBsRTpgXt3"
       ],
       "article_text": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी",
+      "article_text_zh": "为智能体时代打造的 Git 平台\n\n代码的演进速度已远超现有基础设施的设计承载能力。Origin 正是为这一时刻而生。\n\n加入等候名单 ✓ 当 Origin 准备就绪时，我们会与您联系。",
+      "article_text_zh_hash": "dd6f527404c98825",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Cursor · Origin",
       "category": "Development",
       "cleaner_v": 2,
@@ -183,6 +201,9 @@
         }
       ],
       "title": "Cursor · Origin",
+      "title_zh": "Cursor · 起源",
+      "title_zh_hash": "1ce3340b434b8f7f",
+      "title_zh_translator_v": 2,
       "url": "https://cursor.com/origin",
       "x_status_id": null
     },
@@ -205,6 +226,9 @@
       "category": "Tools",
       "created_at": "2026-06-17T03:17:11.207327Z",
       "description": "Stop guessing why your agents fail. Production monitoring for AI agents.",
+      "description_zh": "别再猜测你的智能体为何失败了。为AI智能体提供生产级监控。",
+      "description_zh_hash": "1b051de01195664e",
+      "description_zh_translator_v": 2,
       "domain": "www.uselemma.ai",
       "embed_type": "",
       "id": "k1768sxx3v58ct6dcxv0nzf37n88vwmh",
@@ -227,6 +251,9 @@
         }
       ],
       "title": "Lemma | Production monitoring for AI agents",
+      "title_zh": "Lemma | AI 代理的生产监控",
+      "title_zh_hash": "74b71b953902df2f",
+      "title_zh_translator_v": 2,
       "url": "https://www.uselemma.ai/",
       "x_status_id": null
     },
@@ -242,11 +269,17 @@
         "https://framerusercontent.com/images/S9zounRUePKHNPN2kI93ExzXk.png?width=3840&height=2160"
       ],
       "article_text": "Search\nConnect Framer to Claude, Codex, Cursor, and more\nSkip the MCP setup. Framer works directly with Claude Code, Cursor, Codex, and other AI tools. Native access to Framer with your own AI agents for deeper capabilities, custom skills and the latest model advancements.\nCopy install prompt\nClaude Code\nConnect Claude to Framer with full access to your canvas, components, CMS, and more. [Get Claude Code](https://claude.ai/).\nCopy install prompt\nCursor\nConnect Cursor to Framer with full access to your canvas, components, CMS, and more. [Get Cursor](https://www.cursor.com/).\nConnect Cursor to Framer with full access to your canvas, components, CMS, and more. [Get Cursor.](https://cursor.com/)\nCopy install prompt\nGemini CLI\nConnect Gemini CLI to Framer with full access to your canvas, components, CMS, and more. [Get Gemini CLI](https://geminicli.com/).\nCopy install prompt\nConnect your external agent\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\nRun the [install prompt](https://www.framer.com/#install) in your preferred AI. This installs the bridge your agent uses to talk to Framer.\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open.\nFrequently asked questions\nDo I need to set up a Framer MCP server?\nNo. Framer doesn’t require a separate MCP server. If you’re searching for a Framer MCP, the native Framer External Agent connection gives [Claude Code](https://www.anthropic.com/claude-code), [Cursor](https://cursor.com/), [Codex](https://openai.com/codex/), [Gemini CLI](https://github.com/google-gemini/gemini-cli), and other AI tools direct access to your canvas, components, CMS, and project context, without manual MCP setup.\nWhich AI agents are supported?\nFramer Agent works with any AI that can run a terminal command or call an MCP tool, including [Claude Code](https://www.anthropic.com/claude-code), [Codex](https://openai.com/codex/), [Cursor](https://cursor.com/), [Gemini CLI](https://github.com/google-gemini/gemini-cli), and [Windsurf](https://windsurf.com/). If your agent supports tools or a terminal, it can connect.\nCan the agent edit my live site?\nNo. The agent works on your canvas in the Framer editor, not on your published site. Changes only go live when you choose to publish them yourself or tell the agent.\nDoes the agent have access to my CMS?\nYes. Once connected, the agent can read and write CMS collections, including creating, updating, and deleting items. You stay in control of what gets published.\nIs it safe to give an agent access to my project?\nThe agent only has access to the projects you explicitly connect it to. It cannot access other projects, your account settings, or billing. You can revoke access at any time.\nWhat happens if the agent makes a mistake?\nFramer has [branching](https://www.framer.com/collaborate/), so every change made by an external agent automatically happens on a branch. You can undo changes, review the branch, and decide when to merge it back into your main branch.\nConnect Framer to Claude, Codex, Cursor, and more\nSkip the MCP setup. Framer works directly with Claude Code, Cursor, Codex, and other AI tools. Native access to Framer with your own AI agents for deeper capabilities, custom skills and the latest model advancements.\nCodex\nConnect Codex to Framer with full access to your canvas, components, CMS, and more. [Get Codex](https:",
+      "article_text_zh": "将 Framer 连接到 Claude、Codex、Cursor 等工具\n\n跳过 MCP 设置。Framer 可直接与 Claude Code、Cursor、Codex 及其他 AI 工具配合使用。通过您自己的 AI 代理原生访问 Framer，获得更深层的能力、自定义技能以及最新的模型进步。\n\n复制安装提示\n\nClaude Code\n将 Claude 连接到 Framer，完全访问您的画布、组件、CMS 等。[获取 Claude Code](https://claude.ai/)。\n\n复制安装提示\n\nCursor\n将 Cursor 连接到 Framer，完全访问您的画布、组件、CMS 等。[获取 Cursor](https://www.cursor.com/)。\n\n将 Cursor 连接到 Framer，完全访问您的画布、组件、CMS 等。[获取 Cursor](https://cursor.com/)。\n\n复制安装提示\n\nGemini CLI\n将 Gemini CLI 连接到 Framer，完全访问您的画布、组件、CMS 等。[获取 Gemini CLI](https://geminicli.com/)。\n\n复制安装提示\n\n连接您的外部代理\n\nOpus 4.7 · Claude Max\n\n/Users/paul\n\n> npx @framer/agent setup\n\n- 运行安装提示\n在您偏好的 AI 中运行[安装提示](https://www.framer.com/#install)。这将安装您的代理用于与 Framer 通信的桥接。\n\n> npx @framer/agent setup\n\n⏺ Bash (npx @framer/agent setup)\\ 已安装 2 个技能到 /Users/paul/.agents/skills, /Users/paul/.claude/skills\n\n> /framer\n\n- 连接到您的项目\n在您的 AI 代理中，运行 /framer 技能以将其连接到您的 Framer 项目，并从浏览器授予对项目的访问权限。\n\n⏺ Bash (npx @framer/agent setup)\\ 已安装 2 个技能到 /Users/paul/.agents/skills, /Users/paul/.claude/skills\n\n已连接到您的 Site 项目（会话 6）。您希望我帮您做什么？\n\n> 列出我项目中的所有博客文章\n\n- 编写您的第一个提示\n告诉您的代理要构建、更改或修复什么。它可以直接在您的 Framer 项目中工作，无需打开项目。\n\n常见问题解答\n\n我需要设置 Framer MCP 服务器吗？\n\n不需要。Framer 不需要单独的 MCP 服务器。如果您正在寻找 Framer MCP，原生 Framer 外部代理连接可为 [Claude Code](https://www.anthropic.com/claude-code)、[Cursor](https://cursor.com/)、[Codex](https://openai.com/codex/)、[Gemini CLI](https://github.com/google-gemini/gemini-cli) 及其他 AI 工具提供对您的画布、组件、CMS 和项目上下文的直接访问，无需手动 MCP 设置。\n\n支持哪些 AI 代理？\n\nFramer Agent 适用于任何可以运行终端命令或调用 MCP 工具的 AI，包括 [Claude Code](https://www.anthropic.com/claude-code)、[Codex](https://openai.com/codex/)、[Cursor](https://cursor.com/)、[Gemini CLI](https://github.com/google-gemini/gemini-cli) 和 [Windsurf](https://windsurf.com/)。如果您的代理支持工具或终端，则可以连接。\n\n代理可以编辑我的实时网站吗？\n\n不可以。代理在 Framer 编辑器的画布上工作，而不是在您已发布的网站上。只有当您自己选择发布或告知代理时，更改才会生效。\n\n代理可以访问我的 CMS 吗？\n\n可以。一旦连接，代理可以读取和写入 CMS 集合，包括创建、更新和删除项目。您仍然控制发布的内容。\n\n让代理访问我的项目安全吗？\n\n代理只能访问您明确连接的项目。它无法访问其他项目、您的账户设置或账单。您可以随时撤销访问权限。\n\n如果代理出错怎么办？\n\nFramer 具有[分支](https://www.framer.com/collaborate/)功能，因此外部代理所做的每项更改都会自动在分支上进行。您可以撤销更改、审查分支，并决定何时将其合并回主分支。\n\n将 Framer 连接到 Claude、Codex、Cursor 等工具\n\n跳过 MCP 设置。Framer 可直接与 Claude Code、Cursor、Codex 及其他 AI 工具配合使用。通过您自己的 AI 代理原生访问 Framer，获得更深层的能力、自定义技能以及最新的模型进步。\n\nCodex\n将 Codex 连接到 Framer，完全访问您的画布、组件、CMS 等。[获取 Codex](https:",
+      "article_text_zh_hash": "48ed3d43bb0fa4b0",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Framer: Connect Claude Code, Cursor, and Codex",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-06-17T03:19:07.801302Z",
       "description": "Use Framer with Claude Code, Cursor, Codex, and other AI tools. Connect directly to build and update sites—no Framer MCP setup required.",
+      "description_zh": "使用 Framer 搭配 Claude Code、Cursor、Codex 及其他 AI 工具。直接连接即可构建和更新网站——无需配置 Framer MCP。",
+      "description_zh_hash": "75c1e37d6c37bee5",
+      "description_zh_translator_v": 2,
       "domain": "www.framer.com",
       "embed_type": "",
       "id": "k174q3wzdrrhaq2qy06rmsd6ex88vb2b",
@@ -269,6 +302,9 @@
         }
       ],
       "title": "Framer: Connect Claude Code, Cursor, and Codex",
+      "title_zh": "Framer：连接 Claude Code、Cursor 和 Codex",
+      "title_zh_hash": "16115affbf09457b",
+      "title_zh_translator_v": 2,
       "url": "https://www.framer.com/agents/external/",
       "x_status_id": null
     },
