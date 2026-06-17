@@ -2801,7 +2801,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://system.studio/og.png"
       ],
@@ -2940,22 +2940,22 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
-        "https://images.prismic.io/pool/aZeahcFoBIGEglKi_OG-Main.png?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260",
-        "https://images.prismic.io/pool/aMINzWGNHVfTPA0k_face-amanda.jpg?auto=format%2Ccompress&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aMINXGGNHVfTPA0i_face-jason.jpg?auto=format%2Ccompress&rect=0%2C0%2C512%2C512&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aMIN72GNHVfTPA0m_face-max.jpg?auto=format%2Ccompress&rect=0%2C0%2C512%2C512&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aMIOJmGNHVfTPA0q_face-ryan.jpg?auto=format%2Ccompress&rect=0%2C0%2C80%2C80&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aOBYdJ5xUNkB1d2W_cabin-02.jpg?auto=format%2Ccompress&rect=256%2C127%2C1444%2C2408&w=828&fit=max",
-        "https://images.prismic.io/pool/aNwV0p5xUNkB1TJp_face-14.jpg?auto=format%2Ccompress&rect=1828%2C162%2C4103%2C4103&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aNwa855xUNkB1TTw_face-08.jpg?auto=format%2Ccompress&rect=824%2C338%2C2759%2C2759&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aNwVzp5xUNkB1TJf_face-10.jpg?auto=format%2Ccompress&rect=692%2C298%2C3014%2C3014&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aNwV2J5xUNkB1TJy_face-20.jpg?auto=format%2Ccompress&rect=0%2C771%2C3456%2C3456&w=3840&fit=crop&crop=faces",
-        "https://images.prismic.io/pool/aOBNIp5xUNkB1d0I_sports-league-01.jpg?auto=format%2Ccompress&rect=606%2C0%2C2418%2C4032&w=828&fit=max",
-        "https://images.prismic.io/pool/aNwVz55xUNkB1TJi_face-11.jpg?auto=format%2Ccompress&rect=465%2C1020%2C3011%2C3011&w=3840&fit=crop&crop=faces"
+        "https://poolmoney.com/og.png",
+        "https://cdn.sanity.io/images/l28o6v3r/production/4958b916463c525239785882a798a176f9bfc9a5-2758x1840.jpg?w=1280&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/c1c1065198de69fe7754cbe1e3d092867418eb75-3840x2880.png?w=1600&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/2f533d4697db2f0b57e9196a4b46860d9bd1c38f-2560x1920.png?w=1600&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/8a9c2b0b5c97d7672d387f635c1a347f97d1672e-2560x1924.png?w=1600&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/beff880042365fac6d26d0f6a80a7b2f90661c45-2560x1920.png?w=1600&auto=format",
+        "https://cdn.sanity.io/images/l28o6v3r/production/1338cbfab04e5717c8a145d6c2fe387eab278e01-5105x3403.jpg?rect=78,0,4950,3403&w=512&h=352&fit=crop&auto=format",
+        "https://poolmoney.com/pools-carousel/avatars/face-01.jpg",
+        "https://poolmoney.com/pools-carousel/avatars/face-02.jpg",
+        "https://poolmoney.com/pools-carousel/avatars/face-03.jpg",
+        "https://poolmoney.com/pools-carousel/avatars/face-04.jpg",
+        "https://cdn.sanity.io/images/l28o6v3r/production/3722b21a60a2ed1bc7419c8f3c7b1da3006e0ea1-3637x2433.jpg?rect=441,283,2719,1869&w=512&h=352&fit=crop&auto=format"
       ],
-      "article_title_extracted": "Pool • Together we’re rich",
+      "article_title_extracted": "Pool",
       "category": "Tools",
       "created_at": "2026-06-10T02:08:02.764763Z",
       "description": "Pool is the shared financial account for every shared life.",
@@ -5476,7 +5476,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://montage.keeyen.com/og-image.png"
       ],
@@ -7527,7 +7527,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://navigate.ai/assets/og-image.jpg",
         "https://www.navigate.ai/assets/nai_black.svg",
@@ -7578,7 +7578,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_title_extracted": "Fatype",
       "category": "Design",
       "created_at": "2026-05-27T02:46:27.160461Z",
@@ -7613,7 +7613,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://image.jakubantalik.com/images/og-image.jpg"
       ],
@@ -7653,8 +7653,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_title_extracted": "Dials",
       "category": "Tools",
       "created_at": "2026-05-27T03:01:40.077008Z",
@@ -7688,7 +7688,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_title_extracted": "Rastermill — Portable image processing for Node agents",
       "category": "Development",
       "created_at": "2026-05-27T03:11:18.829289Z",
@@ -9735,7 +9735,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PSMeVOn2vyHHuWnnIlZB6T5BlQ.png",
         "https://framerusercontent.com/images/h5VHoQg2qBhfygdenEQ0WUtEZU.png?width=2464&height=909",
@@ -9787,7 +9787,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T11:57:16.395076Z",
+      "article_fetch_attempted_at": "2026-06-17T12:39:08.464038Z",
       "article_image_urls": [
         "https://browse.sh/opengraph-image.png?opengraph-image.0f18ylbsdxqpn.png",
         "https://browse.sh/twitter-image.png?twitter-image.0f18ylbsdxqpn.png",
@@ -103764,5 +103764,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-17T05:29:51.701227Z"
+  "updated_at": "2026-06-17T12:39:22.452217Z"
 }
