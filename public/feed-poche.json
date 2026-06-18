@@ -2696,7 +2696,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-11T16:39:40.400295Z",
+      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
       "article_image_urls": [
         "https://wwdc.ai/og-image.png"
       ],
@@ -5160,7 +5160,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T16:39:40.400295Z",
+      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
       "article_image_urls": [
         "https://www.nintendo-systems.com/sns.png"
       ],
@@ -9442,7 +9442,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-11T16:39:40.400295Z",
+      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -9617,9 +9617,9 @@
       "x_status_id": "2057227524740931904"
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T16:39:40.400295Z",
+      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
       "article_image_urls": [
-        "https://oxide-computer-fmrjgqqe9-oxidecomputer.vercel.app/img/meta/og-oxide.png",
+        "https://oxide-computer-op3ytk5e6-oxidecomputer.vercel.app/img/meta/og-oxide.png",
         "https://oxide.computer/img/home/rack-single-shadows.svg",
         "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-single-rack.webp&w=64&q=20",
         "https://oxide.computer/img/home/rack-double-shadows.svg",
@@ -104191,5 +104191,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-18T16:04:24.945324Z"
+  "updated_at": "2026-06-18T19:06:08.302842Z"
 }
