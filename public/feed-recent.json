@@ -808,6 +808,31 @@
       "title": "ShipAny: Ship Your AI Product in One Hour",
       "url": "http://shipany.ai"
     },
+    "http://skills.sh": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Discover and install skills for AI agents.",
+      "final_url": "https://www.skills.sh/",
+      "frameable": false,
+      "image_urls": [
+        "https://www.skills.sh/og.jpeg",
+        "https://www.skills.sh/agents/claude-code.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/cursor.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/codex.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/copilot.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/windsurf.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/gemini.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/cline.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/amp.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/antigravity.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/clawdbot.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS",
+        "https://www.skills.sh/agents/droid.svg?dpl=dpl_DywKPfUgAheFtm7U5EN8Zop1zJDS"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The Agent Skills Directory",
+      "url": "http://skills.sh"
+    },
     "http://t.me/zodchixquant": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -890,6 +915,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2034444177174380544"
+    },
+    "http://x.com/i/article/2044100677014827011": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2044100677014827011",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2044100677014827011"
     },
     "http://x.com/i/article/2052398478916227072": {
       "cleaner_v": 2,
@@ -1265,6 +1303,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2057172544277606401"
+    },
+    "http://x.com/i/article/2057174749848178688": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057174749848178688",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIyO-OQaIAAwkzU?format=jpg&name=900x900)](http://x.com/aiedge%5F/article/2067237036894175561/media/2057176329431425024)\n\nThese Claude Prompts Changed My Life (resources included)\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/aiedge%5F)\n\n[AI Edge](http://x.com/aiedge%5F)\n\n[@aiedge\\_](http://x.com/aiedge%5F)\n\n·\n\n21h\n\nFollow\n\nClick to Follow aiedge\\_\n\n5\n\n28\n\n173\n\n[55K](http://x.com/aiedge%5F/status/2067237036894175561/analytics)\n\nClaude has absolutely changed my life - and that's not an exaggeration.\n\nI've been using Claude every single day for the past year, and in my time, I've tested 300+ mega prompts across various Claude tools.\n\nSome worked, some failed, but a select few have completely revolutionised how my team and I operate.\n\nIn this article, I'm breaking down the select few Claude prompting frameworks that have completely changed my daily work.\n\nThese aren't your average AI prompts, nor is this AI slop; these prompts go deep and instruct Claude to build functional systems that genuinely buy back your time and make you more productive.\n\nAt the end of the article, I share with you a free prompt pack containing all 6 Claude prompts, organised in a Google Doc. Stick around until the end to grab it (100% free, no strings attached).\n\nHere are the six Claude prompts that changed my life the most:\n\n## \n\nPrompt #6 - Strategic Life Audit\n\nThis is the prompt that started everything.\n\nLast year, I was going through one of the hardest periods of my life. For the first time, I was genuinely stuck on which direction to take my business.\n\nI didn't know whether to double down on what I was building (in crypto) or to go deeper down the AI rabbit hole. My creative energy was getting sapped, and I felt like I had hit a wall.\n\nAs a last resort, I tested a prompt I found online (I didn't go in with high expectations), but the output absolutely shocked me.\n\nSince then, this is the exact prompt I give to anyone who comes to me at a crossroads. I have had multiple close friends tell me it was the beginning of a major change in their lives. One year ago, it was the beginning of a major change in my life.\n\nI call it the Strategic Life Audit.\n\nWhat it does\n\nThe Strategic Life Audit turns Claude into a strategic life adviser - one that combines the analytical rigor of a senior McKinsey partner with the psychological depth of a high-performance therapist.\n\nIt works in three phases:\n\n1. Deep Discovery Phase - Claude questions you to understand your current situation, your goals, your contradictions, and your blind spots.\n2. Mirror Phase - where it reflects back an honest picture of where you actually are versus where you think you are.\n3. Strategic Analysis Phase - where it surfaces the uncomfortable truths\n\nThe output is a full strategic life audit that can literally reshape your life trajectory.\n\nFull Prompt:\n\n```text\nYou are my strategic life advisor. You combine the pattern recognition of a world-class executive coach, the analytical rigor of a McKinsey senior partner, and the psychological depth of a high-performance therapist. Your job is to conduct a deep strategic audit of my life and produce a reusable strategic document that will sharpen every decision I make going forward.\n\nHow this works: I'm going to talk to you by voice. Ask me one question at a time. Wait for my full answer. Then ask 1-2 follow-up questions that go deeper before moving to the next area. Do not list multiple questions at once.\n\nIf my answer sounds rehearsed, surface-level, or like something I'd say at a dinner party — call it out. Say something like \"that sounds like the polished version — what's actually going on?\" Your job is to get to the real answer, not the comfortable one.\n\nPHASE 1 — DEEP DISCOVERY\n\nWalk me through these 6 areas, one at a time. Take your time.",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2057174749848178688"
     },
     "http://x.com/i/article/2057175813200777216": {
       "cleaner_v": 2,
@@ -5855,6 +5907,32 @@
       "title": "",
       "url": "http://x.com/i/article/2066742864974139392"
     },
+    "http://x.com/i/article/2066820333206933504": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066820333206933504",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066820333206933504"
+    },
+    "http://x.com/i/article/2066833148055330816": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2066833148055330816",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2066833148055330816"
+    },
     "http://x.com/i/article/2066882780286550016": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6085,6 +6163,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067217302018465792"
     },
+    "http://x.com/i/article/2067225376863191040": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067225376863191040",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067225376863191040"
+    },
     "http://x.com/i/article/2067226240121999360": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6140,6 +6231,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067266223138578432"
     },
+    "http://x.com/i/article/2067312987946323968": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067312987946323968",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067312987946323968"
+    },
     "http://x.com/i/article/2067320284844322816": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6181,6 +6285,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2067407628855095296"
+    },
+    "http://x.com/i/article/2067497511229718528": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067497511229718528",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067497511229718528"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -7309,6 +7426,21 @@
       "title": "Cotypist – Smart Autocomplete for Mac | Type Faster, Write Better",
       "url": "https://cotypist.app/"
     },
+    "https://cursor.com/origin": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A git forge for the agentic era.",
+      "final_url": "https://cursor.com/origin",
+      "frameable": false,
+      "image_urls": [
+        "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/landing-pages/og-image.jpg",
+        "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Forigin%2Forigin_background.webp&w=3840&q=70&dpl=dpl_BBwXXUvVdv9CSQXbbzSfgnSoDinG"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download A git forge for the agentic era Code is moving faster than any infrastructure was built to handle. Origin was designed for this moment. Join the waitlist ✓ We’ll reach out when Origin is ready for you. Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी",
+      "title": "Cursor · Origin",
+      "url": "https://cursor.com/origin"
+    },
     "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7366,6 +7498,22 @@
       "text_excerpt_zh": "",
       "title": "Declank: Remove AI Watermarks From Images Online, Free",
       "url": "https://declank.skeptrune.com/"
+    },
+    "https://developers.cloudflare.com/artifacts/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Store, version, and share filesystem artifacts across Workers, APIs, and Git-compatible tools.",
+      "final_url": "https://developers.cloudflare.com/artifacts/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/dev-products-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/artifacts/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/artifacts/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/artifacts/. For this product's page index use https://developers.cloudflare.com/artifacts/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Artifacts No results found. Try a different search term, or use our global search . Home Overview Beta Get started Workers REST API Guides Authentication Import repositories ArtifactFS Event subscriptions Concepts How Artifacts works Namespaces Repositories Best practices for Artifacts API Workers binding REST API Git protocol Wrangler commands Errors Observability Metrics Examples Git client isomorphic-git Sandbox SDK + Artifacts Platform Pricing Limits Changelog Agent resources Agent setup ↗ Cloudflare Skills ↗ Code Mode MCP Server ↗ Domain-specific MCP Servers ↗ Artifacts llms.txt ↗ Artifacts llms-full.txt ↗ Cloudflare Docs llms.txt ↗ Cloudflare Docs llms-full.txt ↗ GitHub X.com YouTube Select theme Dark Light Auto On this page Overview On this page Overview Edit page Report issue Directory Artifacts Artifacts Last updated May 5, 2026 | Copy as Markdown Copied! | View as Markdown | Agent setup Versioned storage that speaks Git. Note Artifacts is currently in closed beta. To request access, fill out this form ↗ . Artifacts stores versioned file trees behind a Git-compatible interface. Create repositories programmatically, import existing repositories, and hand off a URL to any standard Git client. Review Namespaces before you start, then choose the namespace name you will use for these repos. Use Artifacts when you need to: Store versioned file trees instead of raw blobs Hand off work to Git-aware tools, agents, and automation Isolate work in separate repos or branches for safer parallel execution Fork from a shared baseline and diff or merge the results later The same repository can be addressed from Workers , the REST API, and Git clients. You can create one repo per agent, user, branch, or task, keep each unit of work separate, and compare or merge the results later. Get started Create your first repo with Workers or the REST API. Guides Review authentication, imports, and ArtifactFS workflows. Concepts Learn how Artifacts works and how to structure repository workflows. API Review the Workers binding, REST API, and Git protocol. Observability Explore metrics for understanding Artifact activity. Examples See example integrations with Git clients, isomorphic-git, and Sandbox SDK. Platform Review pricing, limits, and changelog entries for Artifacts. Resources API New to Cloudflare? Directory Sponsorships Open Source Cloudflare Research Support Help Center System Status Compliance GDPR Company cloudflare.com Our team Careers Tools Cloudflare Radar Cloudflare Labs Speed Test Is BGP Safe Yet? Certificate Transparency Community Community forum X Discord YouTube GitHub © 2026 Cloudflare, Inc. Privacy Policy Terms of Use Report Security Issues Trademark Cookie Settings Next Workers Edit page Was this helpful? Yes No",
+      "title": "Artifacts · Cloudflare Artifacts docs",
+      "url": "https://developers.cloudflare.com/artifacts/"
     },
     "https://developers.openai.com/codex/use-cases": {
       "cleaner_v": 2,
@@ -8380,6 +8528,21 @@
       "title": "GitHub - mattpocock/skills: Skills for Real Engineers. Straight from my .claude directory. · GitHub",
       "url": "https://github.com/mattpocock/skills"
     },
+    "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Skills for Real Engineers. Straight from my .claude directory. - Release mattpocock-skills@1.0.0 · mattpocock/skills",
+      "final_url": "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/81815d8311345b6cf2bf75f07391c27a03a08cafd5e670eed44f80866a01bdcc/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
+        "https://avatars.githubusercontent.com/u/28293365?s=40&v=4"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Release mattpocock-skills@1.0.0 · mattpocock/skills · GitHub",
+      "url": "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0"
+    },
     "https://github.com/multica-ai/andrej-karpathy-skills": {
       "content_type": "text/html; charset=utf-8",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. - multica-ai/andrej-karpathy-skills",
@@ -9016,6 +9179,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks | Academic Research",
       "url": "https://longjubai.github.io/agent_token_consumption/"
+    },
+    "https://lore.org/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Lore is designed for unprecedented scalability of both data and teams. It’s optimized for projects that combine code with large binary assets.",
+      "final_url": "https://lore.org/",
+      "frameable": null,
+      "image_urls": [
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:1200/cmpy4vcov0my207oh3rrbztmu",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:256/quality=value:50/auto_image/cmppq23y43roc07oig0tzdbgn",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/cmppoedck7wkg07oaxvzomqi6",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:740/quality=value:90/auto_image/cmppmh0lt2acc07oih58jg3eo",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:740/quality=value:90/auto_image/cmppmhcts228k07o542dttxih",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:740/quality=value:90/auto_image/cmppmhqwy2aid07oiciop06pq",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:740/quality=value:90/auto_image/cmppmi0ur22bt07o5eqx1l4au",
+        "https://cms-assets.unrealengine.com/AEOpzOpKNRbioUBp6s1Yjz/resize=width:740/quality=value:90/auto_image/cmpwv4d39eqg706oc041523j8"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Lore | Next-Generation Open Source Version Control - Lore",
+      "url": "https://lore.org/"
     },
     "https://lucumr.pocoo.org/2025/9/4/996/": {
       "cleaner_v": 2,
@@ -10937,6 +11121,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2067027210641272832/img/CpgFPNm4Kxv7gFz6.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2067264562789756928/img/Mh8xaTd5nCpiqq2B.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10950,6 +11148,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2067264562789756928/img/Mh8xaTd5nCpiqq2B.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -14031,6 +14243,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLBTW8OWUAAeVcm.jpg"
     },
+    "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png"
+    },
     "https://pbs.twimg.com/media/HLC-Ef0WYAAJfcX.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14073,62 +14299,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg"
     },
-    "https://pbs.twimg.com/media/HLEBX60bwAANNG2.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLEBX60bwAANNG2.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLEBX60bwAANNG2.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLEBX60bwAANNG2.jpg"
-    },
-    "https://pbs.twimg.com/media/HLEBX6mboAAhdAC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLEBX6mboAAhdAC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLEBX6mboAAhdAC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLEBX6mboAAhdAC.jpg"
-    },
-    "https://pbs.twimg.com/media/HLEBX6racAA-vo6.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLEBX6racAA-vo6.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLEBX6racAA-vo6.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLEBX6racAA-vo6.jpg"
-    },
-    "https://pbs.twimg.com/media/HLEBX6rbwAAe13C.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLEBX6rbwAAe13C.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLEBX6rbwAAe13C.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLEBX6rbwAAe13C.jpg"
-    },
     "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14142,6 +14312,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg"
+    },
+    "https://pbs.twimg.com/media/HLFKpBabIAAuz-U.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLFKpBabIAAuz-U.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLFKpBabIAAuz-U.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLFKpBabIAAuz-U.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15349,6 +15533,20 @@
       "title": "AI Edge — Stay Ahead of the AI Revolution",
       "url": "https://www.aiedgehq.co/"
     },
+    "https://www.aihero.dev/s/cGicnb": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A practical skill system for engineers who want to use AI without giving up their standards.",
+      "final_url": "https://www.aihero.dev/skills/subscribe",
+      "frameable": null,
+      "image_urls": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1777381841/skills-og_2x.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI Hero Learn Live Browse all AI Skills for Real Engineers A practical skill system for engineers who want to use AI without giving up their standards. First Name Email* Get the /skills I respect your privacy. Unsubscribe at any time. Trusted by engineers from Learn AI SDK v6 Crash Course LLM Fundamentals AI Coding Dictionary The AI Engineer Roadmap Vercel AI SDK Tutorial Model Context Protocol Tutorial Live AI Coding for Real Engineers Account Agents sitemap.md llms.txt skills.md rss.xml Browse All · Dictionary · Skills · Skills Newsletter · FAQ · Terms Theme",
+      "title": "Skills Newsletter",
+      "url": "https://www.aihero.dev/s/cGicnb"
+    },
     "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -15628,6 +15826,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Goal Engineering: how I brief coding agents using paired goal+rider documents",
       "url": "https://www.gregceccarelli.com/goal-engineering?v=1"
+    },
+    "https://www.hiten.com/understanding-github": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The few things a non-developer needs to make sense of GitHub and put it to use, no coding required.",
+      "final_url": "https://www.hiten.com/understanding-github",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.sanity.io/images/ou0lowkd/production/811f4ac654ee5361076fe2e6b8bf02aa0029c4b0-1200x630.png?w=1200&h=630&fit=crop",
+        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Fdbd2e60239a6e9a27c739dc563b200816094113e-1120x1120.png%3Fw%3D1280%26h%3D1280%26fit%3Dcrop&w=1920&q=75",
+        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Ffc3c1f8f713c0488c278590a11107245081ca897-2000x2000.jpg%3Fw%3D80%26h%3D80%26fit%3Dcrop&w=96&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Hosted By Hiten Shah How to Understand GitHub Without Reading Code The few things a non-developer needs to make sense of GitHub and put it to use, no coding required. Jun 19 Friday, June 19 10:00 AM PT About For years GitHub looked like a place built for engineers. I'd only end up there when an AI tool sent me and I'd quickly grab what I needed and leave. The platform never felt like it was meant for someone who doesn't code. That's changing fast. The more we use AI tools, the more we're using GitHub, even if we don't code, and it's surprisingly simple to use. You just need someone to show you the basics. What a repo actually is, what the README is for, and how to navigate the platform. In this session, I'll walk you through GitHub as a complete beginner, covering those basics, so the layout and jargon stop getting in your way. This session is for you if… You're not technical but AI tools keep sending you to GitHub The layout makes no sense to you You don't fully understand what a repo is You want to learn how GitHub can help you Join me on Friday, I’ll demystify it all for you. Registration Register to join the live session. Register Registration Register to join the live session. Register Schedule Resources Library Schedule Library X YouTube Github",
+      "title": "How to Understand GitHub Without Reading Code",
+      "url": "https://www.hiten.com/understanding-github"
     },
     "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
       "cleaner_v": 2,
@@ -21375,6 +21589,19 @@
       "https://x.com/yusukebe/status/2066820192303554733",
       "https://zenn.dev/ashunar0/articles/1ba94a110d8622"
     ],
+    "2066830879771783507": [
+      "https://x.com/Full_Metal_QR/status/2066830879771783507",
+      "http://x.com/i/article/2066820333206933504",
+      "https://x.com/Full_Metal_QR/status/2066865075168886902",
+      "https://x.com/Full_Metal_QR/status/2066848768637764068",
+      "https://x.com/Full_Metal_QR/status/2066866192623796429",
+      "https://x.com/Full_Metal_QR/status/2067550204925297038",
+      "https://x.com/Full_Metal_QR/status/2066838085896167740",
+      "https://x.com/Full_Metal_QR/status/2067065445773967762",
+      "https://x.com/Full_Metal_QR/status/2066930174407405620",
+      "https://x.com/Full_Metal_QR/status/2066889313850196318",
+      "https://x.com/Full_Metal_QR/status/2066842920032854064"
+    ],
     "2066853420326384055": [
       "https://x.com/GokuMohandas/status/2066853420326384055",
       "http://x.com/i/article/2066742864974139392"
@@ -21613,6 +21840,15 @@
       "https://pbs.twimg.com/media/HK_5Q4la8AArktd.jpg",
       "https://pbs.twimg.com/media/HK_5Q4gasAAVh8r.jpg"
     ],
+    "2067172099949760684": [
+      "https://x.com/sairahul1/status/2067172099949760684",
+      "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
+      "https://x.com/sairahul1/status/2067180209615573213",
+      "https://x.com/sairahul1/status/2067230331774882188",
+      "https://x.com/sairahul1/status/2067178097825484949",
+      "https://x.com/sairahul1/status/2067504210728665445",
+      "https://x.com/sairahul1/status/2067173886995956221"
+    ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
       "https://vercel.com/blog/introducing-eve"
@@ -21625,8 +21861,41 @@
       "https://x.com/nurijanian/status/2067201971896176856",
       "http://x.com/i/article/2067183113885843456"
     ],
+    "2067237036894175561": [
+      "https://x.com/aiedge_/status/2067237036894175561",
+      "http://x.com/i/article/2057174749848178688"
+    ],
     "2067251298064601567": [
       "https://x.com/philipkiely/status/2067251298064601567"
+    ],
+    "2067252839269933559": [
+      "https://x.com/bc_butler/status/2067252839269933559",
+      "https://www.0xkato.xyz/how-llms-actually-work/",
+      "https://x.com/bc_butler/status/2067252851194384440",
+      "https://x.com/bc_butler/status/2067252862749638952",
+      "https://x.com/bc_butler/status/2067252874313433585",
+      "https://x.com/bc_butler/status/2067252885994512645",
+      "https://x.com/bc_butler/status/2067252897637867734",
+      "https://x.com/bc_butler/status/2067260707372949663"
+    ],
+    "2067259590488510471": [
+      "https://x.com/mattpocockuk/status/2067259590488510471",
+      "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png",
+      "https://x.com/mattpocockuk/status/2067259592652755349",
+      "https://www.aihero.dev/s/cGicnb",
+      "https://x.com/mattpocockuk/status/2067259594452140377",
+      "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
+      "https://x.com/mattpocockuk/status/2067263718711312473",
+      "https://x.com/mattpocockuk/status/2067277488607137866",
+      "https://x.com/mattpocockuk/status/2067272387905671362",
+      "https://x.com/mattpocockuk/status/2067321326801437113",
+      "https://x.com/mattpocockuk/status/2067264261408063757",
+      "https://x.com/mattpocockuk/status/2067277405547274642",
+      "https://x.com/mattpocockuk/status/2067291961208234047",
+      "http://skills.sh",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067277427592532009",
+      "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
       "https://x.com/gabrielchua/status/2067262326043287852",
@@ -21639,21 +21908,21 @@
       "https://x.com/Marcos12345rico/status/2067264882408333763",
       "https://x.com/Marcos12345rico/status/2067264884560023579",
       "http://palmier.io",
-      "https://x.com/Marcos12345rico/status/2067388977808551961",
       "https://x.com/Marcos12345rico/status/2067357788431421664",
+      "https://x.com/Marcos12345rico/status/2067388977808551961",
       "https://x.com/Marcos12345rico/status/2067357490811912657",
-      "https://x.com/Marcos12345rico/status/2067420027922358450",
       "https://x.com/Marcos12345rico/status/2067388363850600923",
       "https://x.com/Marcos12345rico/status/2067419834560708644",
+      "https://x.com/Marcos12345rico/status/2067420027922358450",
       "https://x.com/Marcos12345rico/status/2067388338755997788",
-      "https://x.com/Marcos12345rico/status/2067419885345345855",
       "https://x.com/Marcos12345rico/status/2067420091436654778",
       "https://pbs.twimg.com/tweet_video_thumb/HLDznUOW8AACIzc.jpg",
-      "https://x.com/Marcos12345rico/status/2067305124033151384",
+      "https://x.com/Marcos12345rico/status/2067419885345345855",
       "https://x.com/Marcos12345rico/status/2067419791749529797",
-      "https://x.com/Marcos12345rico/status/2067420622456586699",
       "https://x.com/Marcos12345rico/status/2067420479015588205",
-      "https://x.com/Marcos12345rico/status/2067388292484505705"
+      "https://x.com/Marcos12345rico/status/2067420622456586699",
+      "https://x.com/Marcos12345rico/status/2067388292484505705",
+      "https://x.com/Marcos12345rico/status/2067305124033151384"
     ],
     "2067265619159081028": [
       "https://x.com/chenchengpro/status/2067265619159081028"
@@ -21668,6 +21937,18 @@
     "2067276977757618201": [
       "https://x.com/business/status/2067276977757618201",
       "https://www.bloomberg.com/news/newsletters/2026-06-17/us-order-on-anthropic-models-signals-new-era-for-ai-controls?taid=6a32c55647689a0001d23679&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    ],
+    "2067283862720303451": [
+      "https://x.com/DinScales26/status/2067283862720303451",
+      "http://x.com/i/article/2066833148055330816"
+    ],
+    "2067288677584339036": [
+      "https://x.com/anuraggoel/status/2067288677584339036",
+      "http://x.com/i/article/2044100677014827011"
+    ],
+    "2067291158594859047": [
+      "https://x.com/MichLieben/status/2067291158594859047",
+      "http://x.com/i/article/2067225376863191040"
     ],
     "2067291637949116431": [
       "https://x.com/phosphenq/status/2067291637949116431",
@@ -21696,13 +21977,29 @@
       "https://x.com/IBuzovskyi/status/2067313826492547483",
       "http://x.com/i/article/2067226240121999360",
       "https://x.com/IBuzovskyi/status/2067317001047908398",
+      "https://x.com/IBuzovskyi/status/2067473028678631643",
       "https://x.com/IBuzovskyi/status/2067488962386546938",
-      "https://substack.com/@yanxbt",
-      "https://x.com/IBuzovskyi/status/2067473028678631643"
+      "https://substack.com/@yanxbt"
     ],
     "2067320699627122716": [
       "https://x.com/trybasis/status/2067320699627122716",
       "http://x.com/i/article/2066911054584565760"
+    ],
+    "2067329489252868241": [
+      "https://x.com/benjaminsehl/status/2067329489252868241",
+      "http://x.com/i/article/2067312987946323968",
+      "https://x.com/benjaminsehl/status/2067424850193314089",
+      "https://x.com/benjaminsehl/status/2067334332247670826",
+      "https://x.com/benjaminsehl/status/2067381524324819192",
+      "https://x.com/benjaminsehl/status/2067370840295911790",
+      "https://x.com/benjaminsehl/status/2067330302511362130"
+    ],
+    "2067333337577140306": [
+      "https://x.com/TimSuchanek/status/2067333337577140306",
+      "https://lore.org/",
+      "https://cursor.com/origin",
+      "https://developers.cloudflare.com/artifacts/",
+      "https://x.com/TimSuchanek/status/2067365666349559904"
     ],
     "2067334006899696101": [
       "https://x.com/PawelHuryn/status/2067334006899696101",
@@ -21722,6 +22019,11 @@
       "https://x.com/business/status/2067348732127895753",
       "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
     ],
+    "2067357113869898150": [
+      "https://x.com/hnshah/status/2067357113869898150",
+      "https://x.com/hnshah/status/2067293695989465176",
+      "https://www.hiten.com/understanding-github"
+    ],
     "2067364351678583245": [
       "https://x.com/AnneliesGamble/status/2067364351678583245",
       "http://mstack.ai",
@@ -21732,23 +22034,31 @@
       "https://x.com/trevin/status/2067375373449605381",
       "http://x.com/i/article/2067326049382494208",
       "https://x.com/trevin/status/2067442661393682755",
-      "https://x.com/trevin/status/2067414228810830037",
-      "https://x.com/trevin/status/2067453115616633167"
+      "https://x.com/trevin/status/2067453115616633167",
+      "https://x.com/trevin/status/2067414228810830037"
+    ],
+    "2067396818053521523": [
+      "https://x.com/startupideaspod/status/2067396818053521523",
+      "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
     ],
     "2067417702394712090": [
       "https://x.com/Restless_Egg/status/2067417702394712090",
       "http://x.com/i/article/2067407628855095296"
     ],
+    "2067445628754690376": [
+      "https://x.com/_naiVe_2/status/2067445628754690376",
+      "https://x.com/_naiVe_2/status/2067515789050331346",
+      "https://pbs.twimg.com/media/HLFKpBabIAAuz-U.png"
+    ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
-      "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg",
-      "https://x.com/himanshutwtxs/status/2067435468657168744",
-      "https://pbs.twimg.com/media/HLEBX6rbwAAe13C.jpg",
-      "https://pbs.twimg.com/media/HLEBX6mboAAhdAC.jpg",
-      "https://pbs.twimg.com/media/HLEBX6racAA-vo6.jpg",
-      "https://pbs.twimg.com/media/HLEBX60bwAANNG2.jpg"
+      "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg"
+    ],
+    "2067503217035092253": [
+      "https://x.com/nurijanian/status/2067503217035092253",
+      "http://x.com/i/article/2067497511229718528"
     ]
   },
-  "updated_at": "2026-06-18T07:06:06Z",
+  "updated_at": "2026-06-18T11:17:09Z",
   "window": "recent"
 }
