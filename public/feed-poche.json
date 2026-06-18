@@ -7195,18 +7195,18 @@
       "x_status_id": "2060064810633482580"
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T19:21:50.864212Z",
+      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
       "article_image_urls": [
         "https://www.plasma.org/og/home.png",
-        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
+        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
         "https://images.ctfassets.net/e3bb5qlfujad/home-v2-plasma-one-logo-white/f771f286cc0bec165f36751fbcf84a95/logo-white.svg",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_EALG2e8yaziiZKYcpqYs63MtU6Fn",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
         "https://www.plasma.org/images/home-v2/partners/partner-card-ramp-hires.png",
         "https://www.plasma.org/images/home-v2/partners/partner-card-zerohash-rail.webp"
       ],
@@ -7246,7 +7246,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T19:21:50.864212Z",
+      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PuC0FeJifmiJ3EVZH8Jdk548nuM.png",
         "https://framerusercontent.com/images/S4DA3EpL3XKG7vz6fwvwhMwM.png?width=2121&height=794",
@@ -7390,14 +7390,14 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T19:21:50.864212Z",
+      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
       "article_image_urls": [
         "https://datacurve.ai/og/default.jpg",
         "https://datacurve.ai/Datacurve-Wordmark.svg",
-        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-brain.png&w=3840&q=75&dpl=dpl_HDwvRNCns8j2s8znBiHKg5y2hUMz",
-        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-head.png&w=3840&q=75&dpl=dpl_HDwvRNCns8j2s8znBiHKg5y2hUMz",
-        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-datacenter.png&w=3840&q=75&dpl=dpl_HDwvRNCns8j2s8znBiHKg5y2hUMz",
-        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-chip.png&w=3840&q=75&dpl=dpl_HDwvRNCns8j2s8znBiHKg5y2hUMz"
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-brain.png&w=3840&q=75&dpl=dpl_Fjt4XpTxHWk1BekAWtqWLdQx2zND",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-head.png&w=3840&q=75&dpl=dpl_Fjt4XpTxHWk1BekAWtqWLdQx2zND",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-datacenter.png&w=3840&q=75&dpl=dpl_Fjt4XpTxHWk1BekAWtqWLdQx2zND",
+        "https://datacurve.ai/_next/image?url=%2Fimages%2Ffooter-chip.png&w=3840&q=75&dpl=dpl_Fjt4XpTxHWk1BekAWtqWLdQx2zND"
       ],
       "article_title_extracted": "Datacurve | The data engine for frontier AI",
       "category": "Development",
@@ -104191,5 +104191,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-18T19:06:08.302842Z"
+  "updated_at": "2026-06-18T22:32:56.214147Z"
 }
