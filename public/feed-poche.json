@@ -1,11 +1,11 @@
 {
   "categories": [
     {
-      "count": 707,
+      "count": 708,
       "name": "Tools"
     },
     {
-      "count": 432,
+      "count": 436,
       "name": "Development"
     },
     {
@@ -13,11 +13,11 @@
       "name": "Design"
     },
     {
-      "count": 328,
+      "count": 329,
       "name": "Articles"
     },
     {
-      "count": 276,
+      "count": 277,
       "name": "Social"
     },
     {
@@ -38,8 +38,279 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2332,
+  "item_count": 2339,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
+      "category": "Tools",
+      "created_at": "2026-06-18T03:52:29.427525Z",
+      "description": "Midjourney Medical is building Ultrasonic CT, a full-body ultrasound with no radiation and no magnets, just sound, water, and a 60-second scan.",
+      "domain": "www.midjourney.com",
+      "embed_type": "",
+      "id": "k17awm64kknf0pkj9qrhng4cjs88w0jv",
+      "og_image_url": "https://cloud.poche.app/api/storage/c5cd8c13-fdab-436f-a6a2-f963c61de0e1",
+      "recommended_at": "2026-06-18T03:55:08.417000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "medical-imaging",
+        "ultrasound",
+        "health-tech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:55:08.417000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Midjourney Medical",
+      "url": "https://www.midjourney.com/medical",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-18T03:52:46.463806Z",
+      "description": "Unreal Engine 5.8 ships today with experimental MCP server support:Your sources, your pipeline and your workflow—simply configure the MCP plugin and connect to any agent. Get familiar with the MCP server and the PCG Primitive Plugin today and see what teams can build together:… pic.twitter.com/Ca5yZIH443",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17efq7y8zz9z4z5hrzwz47q2x88w6tv",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2067251426854588416/img/cB-kW1Dd-9uFXEYa.jpg",
+      "recommended_at": "2026-06-18T03:55:07.036000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "unreal-engine",
+        "mcp",
+        "game-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:55:07.036000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Unreal Engine (@UnrealEngine) on X",
+      "url": "https://x.com/UnrealEngine/status/2067251500900839735",
+      "x_status_id": "2067251500900839735"
+    },
+    {
+      "article_image_urls": [
+        "https://github.blog/wp-content/uploads/2026/06/608872405-f37cc6b4-e715-43d2-a5f4-3bfd41c1c82a.jpg",
+        "https://github.blog/wp-content/uploads/2026/06/608203665-b500a02e-b164-401a-995b-9af4f7f4f148.jpg?resize=2064%2C1084"
+      ],
+      "article_text": "Skip to content Skip to sidebar / Blog Changelog Docs Customer stories Try GitHub Copilot CLI Attend GitHub Universe Search Changelog Docs Customer stories Attend GitHub Universe Try GitHub Copilot CLI Back to changelog Release June 17, 2026 • 1 minute read GitHub Copilot app generally available The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to start your first session. Start a session from an issue, pull request, or prompt. Run parallel sessions across repositories, each on its own branch and worktree. Review the diff, validate in the integrated terminal and browser, and open a pull request that uses your team’s existing checks and merge requirements. Since the technical preview, we’ve also added: * Canvases: Use bidirectional surfaces where you and the agent operate on the same plan, pull request, terminal, or browser session, so progress is visible and steerable instead of buried in chat. * Cloud automations: Schedule recurring agent work in the cloud so it doesn’t depend on your machine being awake. * Bring your own model and tools: Pick the model behind each session and connect external tools through MCP servers. Want to learn more first? Visit the product page or read the docs . Note: To access the GitHub Copilot app on a Copilot Business or Enterprise plan, your organization or enterprise admin must have the Copilot CLI enabled in policy settings. Join the discussion within GitHub Community . copilot Share Copied Shared Back to changelog Related Posts Jun.17 Improvement Enterprise-managed settings now support bypass permission controls client apps copilot enterprise management tools ... +2 Jun.17 Release Auto mode in Copilot Chat available for all users copilot Jun.17 Release Agent finder for GitHub Copilot now available copilot Jun.17 Release Copilot individual plan sign-ups are reopening copilot Jun.15 Improvement Copilot usage metrics now include more of your active users account management copilot enterprise management tools ... +2 Jun.12 Improvement Copilot code review: New configurations and controls copilot Jun.11 Release Copilot CLI: Configure everything from one place with /settings client apps copilot ... +1 Jun.11 Release GitHub Agentic Workflows is now in public preview actions copilot ... +1 Jun.11 Release Agentic workflows no longer need a personal access token copilot Subscribe to our developer newsletter Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Enter your email * Subscribe By submitting, I agree to let GitHub and its affiliates use my information for personalized communications, targeted advertising, and campaign effectiveness. See the GitHub Privacy Statement for more details. Back to top Site-wide Links Product Features Security Enterprise Customer Stories Pricing Resources Platform Developer API Partners Atom Electron GitHub Desktop Support Docs Community Forum Training Status Contact Company About Blog Careers Press Shop © 2026 GitHub, Inc. Terms Privacy Manage Cookies Do not share my personal information GitHub on LinkedIn GitHub on Instagram GitHub on YouTube GitHub on X GitHub on TikTok GitHub on Twitch GitHub’s organization on GitHub",
+      "article_title_extracted": "GitHub Copilot app generally available - GitHub Changelog",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-18T03:53:14.206058Z",
+      "description": "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to…",
+      "domain": "github.blog",
+      "embed_type": "",
+      "id": "k175w0hjxrxac8nff8yezzxzpn88w3an",
+      "og_image_url": "https://github.blog/wp-content/uploads/2026/06/608872405-f37cc6b4-e715-43d2-a5f4-3bfd41c1c82a.jpg",
+      "recommended_at": "2026-06-18T03:55:05.331000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "github-copilot",
+        "ai-development",
+        "developer-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:55:05.331000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "GitHub Copilot app generally available - GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_image_urls": [
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a267ba46c9323bf936b381c_c78e993f23174a62b521e6c4f939c55b_open-graph%20%284%29.avif",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce1b28e27e16b_taste_Logo.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cd5_Vector%20(2).svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777cd6e37fcf1100fafc_Group%201000007831.svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cdb_Vector%20(3).svg",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a292456778cdc9244f8d0c1_5f3499b658ebd37d1ea72444be37c33c_Group%201000007827%20%281%29.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad51e2c51b1ae694147e3_Mask%20group.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad35d1ab5ae226a7fb81c_Mask%20group-5.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4d0a0738c9f1b450811_Mask%20group-32.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4a24ffe0487fdfaf209_Mask%20group-29.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4efc9c4a0cfadd427a8_Mask%20group-35.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad34af1e8764b95a67667_Mask%20group-3.png"
+      ],
+      "article_title_extracted": "Taste Labs - The taste layer for AI",
+      "category": "Development",
+      "created_at": "2026-06-18T03:53:27.097767Z",
+      "description": "We're giving AI models and agents taste | Join our mission to end AI slop.",
+      "domain": "tastelabs.com",
+      "embed_type": "",
+      "id": "k17c8ee8911x0k26fbrjrxjbah88w8n2",
+      "og_image_url": "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a267ba46c9323bf936b381c_c78e993f23174a62b521e6c4f939c55b_open-graph%20%284%29.avif",
+      "recommended_at": "2026-06-18T03:55:03.722000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "taste-layer",
+        "generative-ai"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:55:03.722000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Taste Labs - The taste layer for AI",
+      "url": "https://tastelabs.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://wcandillon.dev/images/og-hello-redraw.jpg",
+        "https://wcandillon.dev/images/hello.png"
+      ],
+      "article_text": "Hello, Project Redraw\nRedraw is a new grade of 2D primitives built on top of WebGPU. It enables rich renderings on Bèzier paths such as variable stroke widths, vector feathering, and physically-based renderings. In Redraw, shaders are TypeScript functions that receive rich geometric information as input.\nBack in 2022, when Christian Falch and I introduced React Native Skia, we showed an example that looks like this:\nWe draw a path. The stroke width is a static number, and so is the color. That's it. In the back of my mind, I always had a fantasy: instead of passing a number, we could pass a function. That function receives geometric information as input, such as the tangent and the arc length of the path, and we use it to return what the stroke width or the color the path should be. In the function below the stroke width is a sine curve that depends on the arc length of the path.\nSame for the color, instead of a static color value or a crude gradient, we could pass a function instead. For instance, in the example below, we interpolate the color based on the arc length of the path.\nThis used to be just a fantasy but there have been a couple of advances that are making this possible today and therefore enable me to build project Redraw. The first one is WebGPU. Because WebGPU represents a unified runtime across graphic libraries such as Skia and Three.js, you can incrementally build your own primitives that will integrate with existing libraries, you do not need to rebuild the whole world yourself. But more importantly, WebGPU features such as compute shaders and storage buffers enable us to build robust acceleration structures for Bézier path rendering.\nThe second technical advance that makes this possible is [TypeGPU](https://docs.swmansion.com/TypeGPU/). You may have noticed that the functions in the example above use the \"use gpu\" directive. This means that the function is compiled and executed on GPU. There are a couple of things I really like about this project. First, the compilation is done at bundling time so at runtime there is no heavy dependency or compilation step needed. The second aspect is a feature from TypeGPU named compTime that allows for statically known JS expressions to be compiled directly to the WebGPU shading language. This allows for a lot of convenience like in the code sample below where we use a statically known arbitrarily sized array as well as string values. At compilation-time, we know enough to parse the string values as color values and instantiate the interpolateColors to support that exact size of color array.\nNow because the color function receives rich geometric information as parameter, namely the distance to the closest point on the path, the tangent of the path at that position, as well as the path arc length, we can build all sorts of complex path renderings such as the one seen below:\nSo far we have only mentioned stroke width and color, but Redraw paths have a third property: feather. Feathering softens a shape's edge as a function of its geometry rather than by blurring pixels after a rasterization step. It doesn't need rasterization nor pixel convolutions. That unlocks a couple of effects fun effects. The first is analytical motion blur: instead of stacking or sampling frames, we derive the blur amount and direction directly from an object's velocity. The second is non-raster backdrop filters: a frosted-glass effect normally needs an offscreen pass that copies and blurs the background, but here the blur is evaluated as vector geometry in a single pass. Both would be too slow and too complex to achieve with traditional raster techniques.\nFrom my experience, physically-based renderings in the 2d world are usually done via raster effects which are quite slow and/or by painstakingly baking all of the lighting information manually for every single component. However I believe that like for 3d graphics, we can also procedurally add PBR to 2d user-interfaces. Developers and designers can",
+      "article_title_extracted": "Hello, Project Redraw",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-18T03:53:43.878393Z",
+      "description": "Introducing Project Redraw: a new grade of 2D primitives for Web and React Native, built on top of WebGPU and TypeGPU.",
+      "domain": "wcandillon.dev",
+      "embed_type": "",
+      "id": "k175m6dxhjay95f8ngvz8rpsp588weah",
+      "og_image_url": "https://wcandillon.dev/images/og-hello-redraw.jpg",
+      "recommended_at": "2026-06-18T03:55:00.942000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "webgpu",
+        "react-native",
+        "graphics"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:55:00.942000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Hello, Project Redraw",
+      "url": "https://wcandillon.dev/article/hello-project-redraw",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/eve-og.png",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-workflow-color-light.1dwi9tebak6he.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-workflow-color-dark.3x-f81vqzjvuc.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-github-color-light.3oy-u3zfvf22s.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-github-color-dark.3cps0n_-l5sia.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-slack-color-light.0051f-tzifk3d.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-slack-color-dark.0051f-tzifk3d.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-discord-color-light.2q10osuut_95h.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-discord-color-dark.2q10osuut_95h.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-facebook-messenger-color-light.0bufyyf725c8i.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-facebook-messenger-color-dark.0bufyyf725c8i.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-microsoft-teams-color-light.3wudivlkc1s4a.svg"
+      ],
+      "article_text": "The framework for\nbuilding agents\nAn agent is a directory\nDefine instructions and skills in markdown, tools in TypeScript, and deploy. The framework compiles the directory, wires up durable workflows, and connects channels.\nAn instructions.md file is a complete agent. Describe its role in Markdown, then run eve.\nEve uses a default model. Add agent.ts when you want to choose a model or configure the runtime.\nSkills are Markdown playbooks loaded when they are relevant. The agent gets focused guidance without carrying it in every prompt.\nAdd a TypeScript file to tools/ and the model can call it. The filename becomes the tool name. No registration required.\nEvery agent includes an isolated sandbox and file tools. Add sandbox/sandbox.ts to choose a backend or customize its setup.\nAdd channel files to use the same agent in Slack, Discord, Teams, or the web.\nConnections handle authentication for services such as GitHub, Stripe, and Linear. Tools can call them without managing tokens.\nAdd subagents for specialized work. The main agent delegates tasks and combines the results.\nSchedules run agents automatically for jobs such as daily reports and weekly digests. Work continues durably without an active session.\nAn instructions.md file is a complete agent. Describe its role in Markdown, then run eve.\n# Identity\nYou are an expert weather assistant.You can fetch the weather for anycity in the world.Eve uses a default model. Add agent.ts when you want to choose a model or configure the runtime.\nimport { defineAgent } from \"eve\";\nexport default defineAgent({  model: \"openai/gpt-5.4-mini\",});Skills are Markdown playbooks loaded when they are relevant. The agent gets focused guidance without carrying it in every prompt.\n---description: Research unfamiliar topics---\nWhen the task is novel or ambiguous,gather evidence first, then answer.Add a TypeScript file to tools/ and the model can call it. The filename becomes the tool name. No registration required.\nimport { defineTool } from \"eve/tools\";import { z } from \"zod\";\nexport default defineTool({  description: \"Get the weather for a city\",  inputSchema: z.object({    cityName: z.string(),  }),  async execute(input) {    const res = await fetch(      `${process.env.WEATHER_API_URL}/current?city=${input.cityName}`    );    const data = await res.json();    return data.current_condition[0];  },});Every agent includes an isolated sandbox and file tools. Add sandbox/sandbox.ts to choose a backend or customize its setup.\nimport {  defineSandbox,  vercelSandboxBackend,} from \"eve/sandbox\";\nexport default defineSandbox({  backend: vercelSandboxBackend({    runtime: \"node24\",  }),});Add channel files to use the same agent in Slack, Discord, Teams, or the web.\nimport { connectSlackCredentials } from \"@vercel/connect/eve\";import { slackChannel } from \"eve/channels/slack\";\nexport default slackChannel({  credentials: connectSlackCredentials(\"slack/my-agent\"),});Connections handle authentication for services such as GitHub, Stripe, and Linear. Tools can call them without managing tokens.\nimport { connect } from \"@vercel/connect/eve\";import { defineMcpClientConnection } from \"eve/connections\";\nexport default defineMcpClientConnection({  url: \"https://mcp.linear.app/sse\",  description: \"Linear workspace: issues, projects, cycles, and comments.\",  auth: connect(\"linear\"),});Add subagents for specialized work. The main agent delegates tasks and combines the results.\nimport { defineAgent } from \"eve\";\nexport default defineAgent({  description: \"Investigate questions\",  model: \"openai/gpt-5.4\",});Schedules run agents automatically for jobs such as daily reports and weekly digests. Work continues durably without an active session.\n---cron: \"0 8 * * *\"---\nSend the user a daily weatherdigest for their saved cities.Leverages all Vercel AI primitives\nAI Gateway for model calls, Sandboxes, Workflows, and Connect. All critical agent infrastructure works out of the box, no gluing point solutions together.\n[Vercel WorkflowsC",
+      "article_title_extracted": "Eve - Vercel",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-18T03:53:48.716001Z",
+      "description": "Like Next.js for web apps, but for agents. Markdown for instructions and skills, TypeScript for tools. Durable by default.",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k178kk5beh000v17zq3jmhb6rd88wszm",
+      "og_image_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/eve-og.png",
+      "recommended_at": "2026-06-18T03:54:59.532000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "vercel",
+        "framework"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:54:59.532000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Eve - Vercel",
+      "url": "https://vercel.com/eve",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/n90YsIhodSaqVbmuAV0EakT6To.png?width=3840&height=2160",
+        "https://framerusercontent.com/images/X8K2iCW5Tob8sQuioDPe6TJEU.png?width=40&height=40",
+        "https://framerusercontent.com/images/7iyyNd19Xv1Uxuh6VfdPnWng.jpeg?width=512&height=512",
+        "https://framerusercontent.com/images/OXgZhDKsBpO4ZBCKTlQzydWKLo.jpg?width=2000&height=1260",
+        "https://framerusercontent.com/images/BbfvrOpqXPH8bWMJLrsCd1tsE.webp?width=1600&height=900",
+        "https://framerusercontent.com/images/O6Ma5bLAa2KmvQvd9Y6XkNjQg.png?width=3428&height=2160",
+        "https://framerusercontent.com/images/OAh2gezmnAvyLRNtJyZzYkKLE.jpg?width=3428&height=2160",
+        "https://framerusercontent.com/images/8vcWfmsBXsDgBDBs80kFAwLVFo.jpg?width=3428&height=2160",
+        "https://framerusercontent.com/images/zbVADHY1tUWhsrZt4TyINU8v3kw.png?width=1600&height=900",
+        "https://framerusercontent.com/images/S9zounRUePKHNPN2kI93ExzXk.png?width=3840&height=2160"
+      ],
+      "article_text": "This is the technical companion to our Framer Agents announcement. If you want the high-level version, read [the announcement post](https://www.framer.com/framer-3/). \nHere’s the context. Over the past year, we watched agents change programming more than the previous thirty years combined. We’re convinced every creative tool is heading for the same shift, so rather than wait for it to happen to us, we built it ourselves. What follows is everything we figured out along the way.\nA quick disclaimer before we start: this is our first design agent. It’s very advanced, and it’s also only the beginning. Six months from now, the agent we’re shipping today will feel slow, dumb, and overpriced. But give it a week and you’ll find it strange that you ever designed without one. This is the biggest change to creative tool interfaces since MacPaint, PageMaker, and Photoshop set the standard back in the 80s. The GPT moment for creative tools is happening right now.\nWhy a canvas, not a pile of code\nModels are already excellent at writing code. The problem is that a giant pile of code is hard to edit, hard to understand, and hard to own if you’re not a programmer. Design is different. For an agent to be useful to a designer, it has to work directly on a canvas, the same place you work, so you can collaborate with it, adjust what it makes, debug what breaks, and ship the result with confidence.\nThat turns out to be a much harder problem than it sounds, because three very different skills all have to live in the same tool. An agent needs to create, iterate, and debug, and each of those demands a different mindset and workflow. It also has to be collaborative, since the best work comes out of teams, not individuals.\nAll of that only works with good guardrails. And a canvas worth designing on is connected to everything around it: your CMS, your data, your code, analytics, hosting. To be genuinely useful, the agent has to understand that whole system, not just the visual layer.\nTeaching a model to see a canvas\nExpressing the tree (and edits): project trees are very verbose, a lot like HTML. Modifications to a design might require updating just a single property on hundreds of nodes at varying depths. Streaming diffs like coding agents is an inefficient system to express this. Instead, the model emits a stream of patch commands where every token spent is directly used, instead of 50% being spent expressing the \"replaced\" values. The downside is that we have to teach the model this format, which makes the system prompt a bit longer. But the savings are much bigger than the extra instructions, so it’s a net win.\nThe right context is everything, but because we can't send the whole project to the agent we make a smart selection based on the page you are editing, your selection, the context tool and previous edits. But sometimes we you want to do advanced things like multiple operations across the entire project. In that case we switch to another mechanism where the agent queries and updates the tree with snippets of JavaScript in the background. That way it can programatically modify your project faster than any model can update it using text.\nThe hard part is the feedback loop. To design well, the agent has to predict how elements will actually render from its understanding of what properties do in combination, and that gets genuinely tricky with something like inline layout. We close that gap three ways.\nThe agent gets layout information back as rectangles showing where everything landed on screen. A linter runs a suite of hard design rules covering layout, type, contrast, and accessibility, and hands back instant, absolute feedback on whatever the agent just produced. And when it needs to, the agent can see: we render what it made into actual pixels using a browser on a server. That last one is the slowest path, so it only happens on request, though you can always ask for it, or just paste a screenshot yourself.\nBeyond seeing its own output, the agent",
+      "article_title_extracted": "Framer Blog: Building Agents for Framer",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-18T03:54:34.645708Z",
+      "description": "A detailed look at what we learned while building design agents, from canvas-native workflows and CMS to quality, collaboration, speed, cost, community, and external agents.",
+      "domain": "www.framer.com",
+      "embed_type": "",
+      "id": "k1717y1971vd9hrn1z9h7xxvws88xrs1",
+      "og_image_url": "https://cloud.poche.app/api/storage/30e73f9f-c555-47d0-b15b-4834e3ebc751",
+      "recommended_at": "2026-06-18T03:54:58.109000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-design",
+        "framer",
+        "web-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-18T03:54:58.109000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Framer Blog: Building Agents for Framer",
+      "url": "https://www.framer.com/blog/building-framer-agents/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-17T16:27:17.807179Z",
       "article_image_urls": [
@@ -2523,7 +2794,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-11T05:13:44.464922Z",
+      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
       "article_image_urls": [
         "https://thinkingmachines.ai/images/home.png"
       ],
@@ -9414,7 +9685,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T22:30:28.358913Z",
+      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6979e08d7860cf804ace6db7_logo-mark-cernel.svg",
@@ -9466,7 +9737,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-10T22:30:28.358913Z",
+      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
       "article_image_urls": [
         "https://column.com/images/social/column-og.png",
         "https://column.com/images/index/case-studies/bg-brex.png",
@@ -103830,7 +104101,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2175,
+      "count": 2182,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -103866,5 +104137,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-17T22:24:49.807921Z"
+  "updated_at": "2026-06-18T05:22:39.181467Z"
 }
