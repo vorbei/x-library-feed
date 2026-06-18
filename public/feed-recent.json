@@ -22,18 +22,6 @@
     {
       "article_text": "我越来越觉得，下一批 AI 赚钱的人，不是最会写 prompt 的人。\n而是最懂业务流程的人。\n刚研究完 Action Model Marketplace，我最强烈的感觉是：\nAI 赚钱的下一波风口。\n是把你每天重复做的工作流程，做成可以被别人调用的自动化资产。\n比如：\n帮财务自动处理 Stripe 退款和对账\n帮销售自动做 LinkedIn 线索跟进\n帮 DevOps 自动处理 GitHub issue 和 AWS 检查\n \n它的逻辑很狠。\n你做一个 workflow。\n别人执行一次。\n系统消耗 $LAM。\n创作者按使用量拿分成。\n这就不是工具推荐了。\n这是把岗位经验商品化。\n普通人的第一步也很简单：\n别问哪个工具热门。\n先问自己：\n我最熟的岗位里，哪件事每天有人重复做、很烦、但结果可验证？\n把它拆成 5-8 步。\n加变量。\n加规则。\n加人工确认点。\n做成 workflow。\n未来值钱的，可能不是会用 AI 的人。\n是能把真实业务流程封装成 AI 商品的人。\n工作经验正在变成 AI 资产\n不会写代码的人，也可能有机会把工作经验变成 AI 资产。\nAction Model Marketplace。\n它最值得关注的地方，不是又多了一个 AI 工具。\n而是它想把一个人的岗位 SOP，变成别人可以购买、调用、执行的 workflow。\n提示词是内容。\nWorkflow 是动作。\n动作更接近钱。\nMarketplace 的核心变现逻辑\n它的核心逻辑很简单。\n你用 Actionist 创建一个 workflow 或 agent。\n比如：\nStripe 付款失败处理\nGitHub PR 初步检查\nLinkedIn 销售线索跟进\nAWS 成本巡检\n招聘简历初筛和约面\n然后发布到 Marketplace。\n别人用你的流程自动化工作。\n你按使用量获得分成。\n### 真正值钱的是可执行能力\nPasted image 20260519194333.png\n真正反直觉的是：\n这里卖的不是软件。\n卖的是“可执行能力”。\n以前你会做一件事，只能卖时间。\n接单、咨询、培训，都要你本人参与。\n但如果这件事能拆成一套稳定 workflow，它就可以变成数字资产。\n别人每执行一次，你都有机会从消耗里拿创作者分成。\n最值得盯的 3 类场景\nPasted image 20260519194218.png\n我会优先盯 3 类场景：\n企业刚需\nStripe、AWS、Salesforce、GitHub、Kubernetes\n高频运营\nCRM 跟进、报表生成、客服工单、发票处理\n可交付结果\n不是“帮你更高效”，而是“自动生成报告、更新系统、发出通知、完成审核”\n越接近企业成本中心，越有变现空间。\n普通人的最小启动路径\n最小启动路径：\n选一个你最熟的岗位流程\n写清楚谁在做、在哪做、多久做一次\n拆成 5-8 个动作\n标出变量、规则、异常和人工确认点\n做 3 个 demo\n用内容讲前后对比\n评论区接需求，再决定要不要产品化\n别一上来追平台红利。\n先找到别人愿意为哪个重复动作付钱。\n### 这件事最大的风险\n避坑也很重要。\n官方文档里有很多收益示例和倍率，但不能直接当成确定收入。\n这件事能不能成，关键看 5 个变量：\nworkflow 是否稳定\n是否真有企业需求\n是否能拿到曝光\n是否能持续维护\n是否避开平台合规风险\n我更愿意把它看成一个信号：\nAI 副业正在从“卖教程”，转向“卖可执行流程”。",
       "id": "2056707863272431643"
-    },
-    {
-      "article_text": "This is one piece of a series we’re publishing as part of the Langfuse Academy, where we walk through the full AI engineering lifecycle. If you’re new to the series,The AI Engineering Loop is the best place to start.\nA short recap of the AI Engineering Loop\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n \nYou can read more on this here. \nHow evaluation fits into the loop\nOffline evaluation is the step in the loop between running an experiment and shipping a change. You have a dataset, you have run your application against it, and now you need to judge whether the outputs are good.\nHow evaluation typically evolves\nMost of the time, you start by manually reviewing outputs to build intuition for what good and bad look like in your application. From there, you identify specific failure modes worth checking for. Once you can define them precisely, you automate with dedicated evaluators.\n \nThe rest of this page covers the different kinds of evaluation in detail. In practice, you'll likely end up combining all of them. But the path to a well-functioning automated evaluation setup almost always starts from manual review.\nManual evaluation is not a one-and-done step. Good production setups incorporate continuous review by human experts to catch new failure modes and keep automated evaluators calibrated.\nEvaluation methods\nThere are three main ways to evaluate: manually, with code, or with an LLM. Each is suited to different kinds of quality checks.\nManual evaluation\nManual evaluation is the process of manually looking at outputs and scoring it/writing down your thoughts on its quality.\nThis is an important process, reading outputs builds an understanding of what your application actually does, where it struggles, and what \"good\" looks like for your specific use case. That understanding is what tells you which automated evaluators to build and how to define their criteria later on. Teams that skip this step and jump straight to automated evaluation often end up measuring things that don't matter.\nManual evaluation also produces human labels that serve as ground truth for validating automated evaluators later.\nCode-based evaluation\nCode-based evaluators check properties that can be verified with deterministic logic. They are fast, cheap, and produce the same result every time.\nSome example checks where code-based evaluators are a natural fit:\nThe output is valid JSON or follows a required schema\nThe output contains (or does not contain) specific keywords or patterns\nThe output stays within a length limit\nThe generated SQL executes without errors\nTheir limitation is that they cannot assess meaning. A code-based evaluator can check that an output contains the word \"refund,\" but it cannot check whether the output correctly explains the refund policy.\nLLM-as-a-judge\nAn LLM-as-a-judge evaluator uses a language model to score outputs. It is required to overcome the core issue that quality of AI Applications/Agents depends on grading the quality of a text output.\nThis is the right method for qualities that require understanding language: whether a response is relevant to the question, whether the tone matches the intended audience, whether a summary captures the key points of the source material, etc.\nLLM judges are imperfect and easy to get wrong. This means:\nA model does not automatically grade things as a human expert would as they do not have the context of the expert\nThey need calibration against human preferences to verify they are measuring what you think they are measuring\nThey can share blind spots with your application's LLM, especially when the same model family is used for both\nThese limitations aren't reasons to avoid LLM judges. An LLM judge that has been calibrated against human labels and is backed by code-based checks is a reliable evaluator.\nReference-based vs reference-free evaluators\nBoth code-based and LLM-as-a-judge evaluators can be either reference-based or reference-free. A reference-based evaluator compares the output against a predefined expected output, like a correct answer or a golden response. A reference-free evaluator assesses the output on its own, without needing a ground truth to compare against.\n \nThe advantage of reference-free evaluators is that they can be applied to unseen production data, while reference-based evaluators always need a pre-defined reference response.\nIn practice\nWhen to set up evaluators\nAs mentioned above, you always start by manually reviewing. Once you have done that, the question then becomes: should you set up an automated evaluator for what you found?\nAsk yourself whether the issue is a one-time fix or a generalization problem. If a simple prompt change resolves it, just make the change, there's no need for an evaluator. But if you can clearly identify a failure mode that you want to test for repeatedly across different inputs, that's when setting up an evaluator makes sense.\nWhat should you evaluate?\nGeneric qualities like \"helpfulness\" or \"quality\" are tempting starting points, but they rarely produce useful signal. An evaluator that checks a vague criterion will give vague results. The more precisely you can define what \"good\" or \"bad\" looks like for your application, the more useful your evaluators will be.\nOne practical recommendation: prefer binary scores (pass/fail) over graded scales (1-5) when designing evaluators. Binary scores force a clear definition of what separates acceptable from unacceptable. Graded scales introduce ambiguity about what a 3 means versus a 4, which makes scores harder to interpret and less consistent across evaluators and over time.\nCombining evaluation methods\nEach quality you care about gets its own evaluator.\nMost mature evaluation setups use all three evaluation methods. Together, they give you a view on overall quality of your application.\nWhere to start\nStart with manual review, then automate only the checks you need to run repeatedly.\nReview outputs manually to build intuition for what good and bad look like in your application.\nWrite down the specific failure modes you want to catch and define them as clearly as possible.\nSet up an automated evaluator only when you need to test that failure mode repeatedly across many inputs or over time.\nWhat comes next\nIf the results are good enough, you can ship the change. Once it is live, the loop starts again: the updated system produces new traces, new monitoring signals, and new opportunities to improve.\nSome evaluators should also move beyond offline experiments. Reference-free evaluators, user feedback signals, and other production-safe checks can be applied to live traffic to confirm that quality in production matches what you saw before deployment.\nIf production behavior matches expectations, you can keep scaling with more confidence. If it does not, capture those cases in traces, turn them into dataset items, and run the next round of experiments. That is how you close the loop.",
-      "article_text_zh": "这是 Langfuse Academy 系列文章中的一篇，我们将带您完整了解 AI 工程生命周期。如果您是第一次接触这个系列，建议从《AI 工程循环》开始阅读。\n\n### AI 工程循环简述\n\nAI 工程循环是团队持续改进 AI 系统的方法。它将生产环境中发生的情况（追踪、监控）与开发过程中的结构化迭代（数据集、实验、评估）连接起来。每次改进上线都会产生新数据，团队便持续循环这一过程。\n\n更多详情可点击此处阅读。\n\n### 评估在循环中的位置\n\n离线评估是循环中介于运行实验与上线变更之间的步骤。您拥有一个数据集，并已针对该数据集运行了应用，现在需要判断输出结果的质量。\n\n### 评估的典型演进过程\n\n大多数情况下，您会从手动审查输出开始，以建立对应用场景中“好”与“坏”的直觉。在此基础上，识别出值得检查的特定失败模式。一旦能够精确定义这些模式，就可以使用专门的评估器实现自动化。\n\n本页其余部分将详细介绍不同类型的评估。在实践中，您很可能会综合运用所有方法。但通往一个运行良好的自动化评估体系之路，几乎总是从手动审查开始的。\n\n手动评估并非一次性工作。良好的生产环境设置会包含人类专家的持续审查，以捕捉新的失败模式，并保持自动化评估器的校准。\n\n### 评估方法\n\n主要有三种评估方式：手动评估、基于代码的评估和基于 LLM 的评估。每种方法适用于不同类型的质量检查。\n\n#### 手动评估\n\n手动评估是指人工查看输出结果，并对其进行评分或记录质量评价的过程。\n\n这是一个重要的过程。阅读输出结果能帮助您理解应用的实际表现、在哪些方面存在困难，以及针对您的特定用例，“好”的标准是什么。这种理解将指导您后续构建哪些自动化评估器以及如何定义其标准。跳过此步骤直接进行自动化评估的团队，最终往往衡量的是无关紧要的指标。\n\n手动评估还能产生人工标签，作为后续验证自动化评估器的“金标准”。\n\n#### 基于代码的评估\n\n基于代码的评估器检查那些可以通过确定性逻辑验证的属性。它们速度快、成本低，且每次都能产生相同的结果。\n\n以下是一些适合使用基于代码评估器的检查示例：\n- 输出是有效的 JSON 或符合所需的 schema\n- 输出包含（或不包含）特定的关键词或模式\n- 输出在长度限制内\n- 生成的 SQL 语句能无错误执行\n\n其局限性在于无法评估语义。基于代码的评估器可以检查输出是否包含“退款”这个词，但无法检查输出是否正确解释了退款政策。\n\n#### LLM 作为评判者\n\nLLM-as-a-judge 评估器使用语言模型对输出进行评分。这是解决 AI 应用/智能体质量核心问题的必要方法，因为其质量取决于对文本输出质量的评判。\n\n这种方法适用于需要理解语言的质量属性：例如，回复是否与问题相关、语气是否符合目标受众、摘要是否抓住了原始材料的关键点等。\n\nLLM 评判者并不完美，且容易出错。这意味着：\n- 模型不会自动像人类专家那样进行评判，因为它们缺乏专家的上下文\n- 它们需要根据人类偏好进行校准，以验证其衡量的内容是否与您的预期一致\n- 它们可能与您应用的 LLM 存在共同的盲点，尤其是在使用同一模型系列时\n\n这些局限性并非回避 LLM 评判者的理由。一个经过人类标签校准并辅以基于代码检查的 LLM 评判者，是一个可靠的评估器。\n\n### 基于参考与无参考的评估器\n\n基于代码和 LLM-as-a-judge 的评估器都可以是基于参考或无参考的。基于参考的评估器将输出与预定义的预期输出（如正确答案或黄金回复）进行比较。无参考的评估器则独立评估输出，无需与之比较的“金标准”。\n\n无参考评估器的优势在于可以应用于未见过的生产数据，而基于参考的评估器始终需要预定义的参考回复。\n\n### 实践应用\n\n#### 何时设置评估器\n\n如上所述，您始终应从手动审查开始。完成手动审查后，问题就变成了：是否应该为您发现的问题设置自动化评估器？\n\n问问自己，这个问题是一次性修复还是一个泛化问题。如果简单的提示词更改就能解决，那就直接修改，无需评估器。但如果您能清晰地识别出一个需要在不同输入上反复测试的失败模式，那么设置评估器就很有意义了。\n\n#### 应该评估什么？\n\n像“有帮助”或“质量”这类泛泛的属性是诱人的起点，但它们很少能产生有用的信号。一个检查模糊标准的评估器只会给出模糊的结果。您能越精确地定义应用场景中“好”或“坏”的标准，您的评估器就越有用。\n\n一个实用的建议：在设计评估器时，优先使用二元评分（通过/不通过），而不是分级评分（1-5 分）。二元评分强制要求清晰定义可接受与不可接受之间的界限。分级评分会引入歧义，例如 3 分和 4 分之间的区别，这使得分数更难解释，并且在不同的评估器之间以及随着时间的推移，一致性也更差。\n\n#### 组合评估方法\n\n您关心的每个质量属性都应拥有自己的评估器。\n\n大多数成熟的评估设置会同时使用所有三种评估方法。它们共同为您提供应用整体质量的视图。\n\n### 从何处开始\n\n从手动审查开始，然后仅自动化那些需要重复运行的检查。\n- 手动审查输出，以建立对应用场景中“好”与“坏”的直觉。\n- 写下您想要捕捉的特定失败模式，并尽可能清晰地定义它们。\n- 仅当您需要在多个输入或一段时间内重复测试该失败模式时，才设置自动化评估器。\n\n### 下一步\n\n如果结果足够好，您就可以上线变更。一旦上线，循环重新开始：更新后的系统会产生新的追踪数据、新的监控信号以及新的改进机会。\n\n一些评估器也应超越离线实验。无参考评估器、用户反馈信号以及其他生产环境安全的检查可以应用于实时流量，以确认生产环境中的质量与部署前看到的一致。\n\n如果生产行为符合预期，您可以更有信心地继续扩展。如果不符合，则将这些情况记录在追踪数据中，转化为数据集条目，并运行下一轮实验。这就是闭环的方式。",
-      "article_text_zh_hash": "7a1b9f65f7e13d09",
-      "id": "2056754091817361670"
-    },
-    {
-      "article_text": "Win the game in front of you, but build like the game never ends.\n--\nGame theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by James P. Carse (1986) and The Infinite Game by Simon Sinek (2019).\nMany games we play or watch are finite games. Finite games are played with known players, rules, objectives, time duration, and scoring to determine a winner at the end of those games. Rugby, soccer, and chess are all examples of finite games. \nIn dichotomy, infinite games have known and unknown players that enter and exit the game at known and unknown times. There are conventions and perhaps laws that govern, but those conventions and laws can and do change. Breaking conventions might be frowned upon, but not prohibited. There are many metrics of success but different players optimize for different metrics over different time horizons. \nThe purpose of infinite games is to keep playing, shape the game to your advantage, and make progress. There are no real winners, but rather just a concept of whether you are ahead or behind, which constantly changes depending on your success metrics. The only losers are those who quit. How each of us chooses to live and find meaning in our lives and human civilization are examples of infinite games.\nWe can frame business as a finite game or an infinite game. Both Carse and Sinek put forth the contrast as an “or”, but I submit the proper framing is “and” because business is both. \nThere are deadlines to meet. Opportunities to win. Getting to market first. Launching a better product. Many aspects of business are finite games. The objective is to win.\nAt the same time, the enduring value of a business organization is not measured by those past successes, but by the business's ability to keep succeeding, not just during the time the current team is executing, but well beyond their tenure. This requires an infinite mindset, an infinite time horizon, and a mentality to put the company first, then the team, then yourself.\nThose in business should have both finite and infinite mindsets held in tension. You should want to win every finite game you choose to play, but whether you win or lose, you learn and continue on to your next game with the intention to win. In addition, come to work every day with a desire to leave things in much better shape than you found them for the next generation.",
-      "article_text_zh": "赢下眼前的比赛，但要像比赛永不结束那样去建设。\n--\n博弈论是我大学时最喜欢的课程之一，对有限游戏与无限游戏的研究深深影响了我。多年后，我找到了两本阐述这两种游戏框架的书：詹姆斯·P·卡斯（James P. Carse）1986年出版的《有限与无限的游戏》，以及西蒙·斯涅克（Simon Sinek）2019年出版的《无限游戏》。\n\n我们参与或观看的许多游戏都是有限游戏。有限游戏有已知的玩家、规则、目标、时间期限和计分方式，最终决出胜者。橄榄球、足球、国际象棋都是有限游戏的例子。\n\n与之相对，无限游戏既有已知玩家也有未知玩家，他们在已知或未知的时间进入和退出游戏。游戏受惯例乃至法律约束，但这些惯例和法律可以也确实会发生变化。打破惯例可能会招致非议，但并非被禁止。成功有多种衡量标准，但不同的玩家会在不同的时间跨度内优化不同的指标。\n\n无限游戏的目标是持续玩下去，将游戏塑造成对自己有利的局面，并取得进展。没有真正的赢家，只有你是否领先或落后的概念，而这会随着你的成功指标不断变化。唯一的输家是那些退出的人。我们每个人如何选择生活、寻找生命的意义，以及人类文明本身，都是无限游戏的例子。\n\n我们可以将商业视为有限游戏或无限游戏。卡斯和斯涅克都将这种对比呈现为“或”，但我认为正确的框架应该是“与”，因为商业两者兼具。\n\n有截止日期要赶，有机会要赢，要率先进入市场，要推出更好的产品。商业的许多方面都是有限游戏，目标是获胜。\n\n与此同时，一个商业组织的持久价值并非由过去的成功来衡量，而是取决于它持续成功的能力——不仅是在当前团队执行期间，更要远远超出他们的任期。这需要一种无限思维、无限的时间跨度，以及一种将公司放在首位、其次是团队、最后是自己的心态。\n\n商业人士应当同时持有有限与无限两种思维，并让它们保持张力。你应当渴望赢下你选择参与的每一场有限游戏，但无论输赢，你都要从中学习，并带着获胜的意图继续下一场游戏。此外，每天上班时都要怀揣一种愿望：让事情比你发现它们时好得多，为下一代人留下更好的基础。",
-      "article_text_zh_hash": "0ef2766c5aed542e",
-      "id": "2056734226201100603"
     }
   ],
   "linked_content_by_url": {
@@ -492,6 +480,21 @@
       "text_excerpt_zh": "",
       "title": "loops! | Pre-built agent loops",
       "url": "http://loops.elorm.xyz"
+    },
+    "http://machina.fyi": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "machina (@EXM7777) - weekly battle-tested ai workflows, plus the complete operator toolkit",
+      "final_url": "https://machina.fyi/",
+      "frameable": null,
+      "image_urls": [
+        "https://machina.fyi/opengraph-image.png?opengraph-image.0.b6icqr-1wb9.png?dpl=dpl_8gaANEJCa4HBKzvU6pNSQVqiAwry",
+        "https://machina.fyi/twitter-image.png?twitter-image.0.b6icqr-1wb9.png?dpl=dpl_8gaANEJCa4HBKzvU6pNSQVqiAwry"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "machina",
+      "url": "http://machina.fyi"
     },
     "http://mobbin.com/?via=abraham": {
       "content_type": "text/html; charset=utf-8",
@@ -964,22 +967,6 @@
       "title": "",
       "url": "http://x.com/i/article/2054556222360084480"
     },
-    "http://x.com/i/article/2054598592980234240": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054598592980234240",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054598592980234240/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIpwTi7bwAAOqm0?format=jpg&name=900x900)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579660943966208)\n\nEvals, explained\n\n[![](https://pbs.twimg.com/profile_images/1994707418790432768/NvTWenyx_normal.jpg)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[Lotte![](https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_bigger.jpg)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[@lotte\\_verheyden](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n·\n\n12h\n\nFollow\n\nClick to Follow lotte\\_verheyden\n\n5\n\n34\n\n336\n\n[24K](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/status/2056754091817361670/analytics)\n\nThis is one piece of a series we’re publishing as part of the \n\n[Langfuse Academy](https://langfuse.com/academy)\n\n, where we walk through the full AI engineering lifecycle. If you’re new to the series,\n\n[The AI Engineering Loop](https://langfuse.com/academy/ai-engineering-loop)\n\nis the best place to start.\n\n## \n\nA short recap of the AI Engineering Loop\n\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n\n[![Image](https://pbs.twimg.com/media/HIpwGY4aIAACl0g?format=jpg&name=small)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579434908622848)\n\nYou can read more on this \n\n[here](https://langfuse.com/academy/ai-engineering-loop)\n\n. \n\n# \n\nHow evaluation fits into the loop\n\nOffline evaluation is the step in the loop between running an experiment and shipping a change. You have a dataset, you have run your application against it, and now you need to judge whether the outputs are good.\n\n## \n\nHow evaluation typically evolves\n\nMost of the time, you start by manually reviewing outputs to build intuition for what good and bad look like in your application. From there, you identify specific failure modes worth checking for. Once you can define them precisely, you automate with dedicated evaluators.\n\n[![Image](https://pbs.twimg.com/media/HINm0y9boAEtxl2?format=png&name=small)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2054598912229744641)\n\nThe rest of this page covers the different kinds of evaluation in detail. In practice, you'll likely end up combining all of them. But the path to a well-functioning automated evaluation setup almost always starts from manual review.\n\nManual evaluation is not a one-and-done step. Good production setups incorporate continuous review by human experts to catch new failure modes and keep automated evaluators calibrated.\n\n# \n\nEvaluation methods\n\nThere are three main ways to evaluate: manually, with code, or with an LLM. Each is suited to different kinds of quality checks.\n\n## \n\nManual evaluation\n\nManual evaluation is the process of manually looking at outputs and scoring it/writing down your thoughts on its quality.\n\nThis is an important process, reading outputs builds an understanding of what your application actually does, where it struggles, and what \"good\" looks like for your specific use case. That understanding is what tells you which automated evaluators to build and how to define their criteria later on. Teams that skip this step and jump straight to automated evaluation often end up measuring things that don't matter.\n\nManual evaluation also produces human labels that serve as ground truth for validating automated evaluators later.\n\n## \n\nCode-based evaluation\n\nCode-based evaluators check properties that can be verified with deterministic logic. Th",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2054598592980234240/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIpwTi7bwAAOqm0?format=jpg&name=900x900)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579660943966208)\n\n评估（Evals），详解\n\n[![](https://pbs.twimg.com/profile_images/1994707418790432768/NvTWenyx_normal.jpg)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[Lotte![](https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_bigger.jpg)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[@lotte\\_verheyden](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n·\n\n12小时前\n\n关注\n\n点击关注 lotte\\_verheyden\n\n5\n\n34\n\n336\n\n[24K](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/status/2056754091817361670/analytics)\n\n本文是我们作为 [Langfuse Academy](https://langfuse.com/academy) 系列的一部分发布的，该系列将带你走完完整的 AI 工程生命周期。如果你是第一次接触这个系列，[AI 工程循环](https://langfuse.com/academy/ai-engineering-loop) 是最好的起点。\n\n## \n\nAI 工程循环简述\n\nAI 工程循环是团队持续改进 AI 系统的方式。它将生产环境中发生的情况（追踪、监控）与开发过程中的结构化迭代（数据集、实验、评估）连接起来。每次交付的改进都会产生新数据，团队会持续循环这个过程。\n\n[![图片](https://pbs.twimg.com/media/HIpwGY4aIAACl0g?format=jpg&name=small)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579434908622848)\n\n你可以在此处阅读更多内容 [这里](https://langfuse.com/academy/ai-engineering-loop)。\n\n# \n\n评估如何融入循环\n\n离线评估是循环中运行实验和交付变更之间的步骤。你有一个数据集，你已经针对它运行了应用程序，现在你需要判断输出是否良好。\n\n## \n\n评估通常如何演进\n\n大多数情况下，你从手动审查输出开始，以建立对应用程序中“好”与“坏”的直觉。然后，你识别出值得检查的特定失败模式。一旦你能精确定义它们，就可以使用专门的评估器实现自动化。\n\n[![图片](https://pbs.twimg.com/media/HINm0y9boAEtxl2?format=png&name=small)](http://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2054598912229744641)\n\n本页其余部分将详细介绍不同类型的评估。在实践中，你很可能最终会结合使用所有类型。但通往一个运行良好的自动化评估设置的道路，几乎总是从手动审查开始的。\n\n手动评估并非一劳永逸的步骤。良好的生产设置会包含人类专家的持续审查，以捕捉新的失败模式并保持自动化评估器的校准。\n\n# \n\n评估方法\n\n主要有三种评估方式：手动、使用代码或使用 LLM。每种方式适用于不同类型的质量检查。\n\n## \n\n手动评估\n\n手动评估是手动查看输出并对其评分或记录你对质量看法的过程。\n\n这是一个重要的过程，阅读输出可以让你了解你的应用程序实际做了什么、它在哪些方面存在困难，以及针对你的特定用例，“好”的标准是什么。这种理解会告诉你应该构建哪些自动化评估器，以及以后如何定义它们的标准。跳过这一步直接跳到自动化评估的团队，最终往往会衡量一些无关紧要的东西。\n\n手动评估还会产生人工标签，这些标签可作为以后验证自动化评估器的真实依据。\n\n## \n\n基于代码的评估\n\n基于代码的评估器检查那些可以通过确定性逻辑验证的属性。",
-      "text_excerpt_zh_hash": "af3f6d21088b2fea",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2054598592980234240"
-    },
     "http://x.com/i/article/2055200658723078144": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1040,22 +1027,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2056277142686597120"
-    },
-    "http://x.com/i/article/2056434896411996160": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2056434896411996160",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2056434896411996160/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HInthqKaMAAucYy?format=jpg&name=900x900)](http://x.com/i/article/2056434896411996160/Alfred%5FLin/article/2056734226201100603/media/2056435867380756480)\n\nFinite and Infinite Mindsets\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[Alfred Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[@Alfred\\_Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n·\n\n13h\n\nFollow\n\nClick to Follow Alfred\\_Lin\n\n11\n\n32\n\n321\n\n[36K](http://x.com/i/article/2056434896411996160/Alfred%5FLin/status/2056734226201100603/analytics)\n\nWin the game in front of you, but build like the game never ends.\n\n\\--\n\nGame theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by James P. Carse (1986) and The Infinite Game by Simon Sinek (2019).\n\nMany games we play or watch are finite games. Finite games are played with known players, rules, objectives, time duration, and scoring to determine a winner at the end of those games. Rugby, soccer, and chess are all examples of finite games. \n\nIn dichotomy, infinite games have known and unknown players that enter and exit the game at known and unknown times. There are conventions and perhaps laws that govern, but those conventions and laws can and do change. Breaking conventions might be frowned upon, but not prohibited. There are many metrics of success but different players optimize for different metrics over different time horizons. \n\nThe purpose of infinite games is to keep playing, shape the game to your advantage, and make progress. There are no real winners, but rather just a concept of whether you are ahead or behind, which constantly changes depending on your success metrics. The only losers are those who quit. How each of us chooses to live and find meaning in our lives and human civilization are examples of infinite games.\n\nWe can frame business as a finite game or an infinite game. Both Carse and Sinek put forth the contrast as an “or”, but I submit the proper framing is “and” because business is both. \n\nThere are deadlines to meet. Opportunities to win. Getting to market first. Launching a better product. Many aspects of business are finite games. The objective is to win.\n\nAt the same time, the enduring value of a business organization is not measured by those past successes, but by the business's ability to keep succeeding, not just during the time the current team is executing, but well beyond their tenure. This requires an infinite mindset, an infinite time horizon, and a mentality to put the company first, then the team, then yourself.\n\nThose in business should have both finite and infinite mindsets held in tension. You should want to win every finite game you choose to play, but whether you win or lose, you learn and continue on to your next game with the intention to win. In addition, come to work every day with a desire to leave things in much better shape than you found them for the next generation.\n\n* [![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2056434896411996160/Alfred%5FLin)  \n[Alfred Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)  \n[@Alfred\\_Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)  \nFollow  \nClick to Follow Alfred\\_Lin  \nPartner  \n[@sequoia](http://x.com/i/article/2056434896411996160/sequoia)  \n. Working w/ founders from idea to IPO & beyond:  \n[@airbnb](http://x.com/i/article/2056434896411996160/airbnb)  \n[@doordash](http://x.com/i/article/2056434896411996160/doordash)  \n[@citsecurities](http://x.com/i/article/2056434896411996160/citsecuri",
-      "text_excerpt_zh": "## 有限与无限思维\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[Alfred Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[@Alfred\\_Lin](http://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n·\n\n13小时前\n\n11\n\n32\n\n321\n\n[36K](http://x.com/i/article/2056434896411996160/Alfred%5FLin/status/2056734226201100603/analytics)\n\n赢得眼前的游戏，但要像游戏永不完结那样去建设。\n\n\\--\n\n博弈论是我大学时最喜欢的课程之一，对有限游戏与无限游戏的研究深深影响了我。多年后，我找到了两本阐述这两种游戏框架的书：James P. Carse 的《有限与无限的游戏》（1986）和 Simon Sinek 的《无限游戏》（2019）。\n\n我们玩或观看的许多游戏都是有限游戏。有限游戏由已知的玩家、规则、目标、时间跨度和计分方式构成，最终决出胜者。橄榄球、足球和国际象棋都是有限游戏的例子。\n\n与之相对，无限游戏包含已知和未知的玩家，他们在已知和未知的时间进入和退出游戏。游戏受惯例乃至法律约束，但这些惯例和法律可以且确实会发生变化。打破惯例可能不受欢迎，但并非被禁止。成功有多种衡量标准，但不同玩家会在不同的时间跨度内优化不同的指标。\n\n无限游戏的目标是持续玩下去，将游戏塑造成对自己有利的形态，并取得进展。没有真正的赢家，只有领先或落后的概念，而这种概念会随着你选择的成功指标不断变化。唯一的输家是那些退出的人。我们每个人如何选择生活、寻找生命的意义，以及人类文明本身，都是无限游戏的例子。\n\n我们可以将商业视为有限游戏或无限游戏。Carse 和 Sinek 都将这种对比呈现为“或”，但我认为正确的框架应该是“和”，因为商业两者兼具。\n\n有截止日期要赶。有获胜的机会。要率先进入市场。要推出更好的产品。商业的许多方面都是有限游戏。目标是赢。\n\n与此同时，一个商业组织的持久价值并非由过去的成功来衡量，而是由其持续成功的能力决定——不仅是在当前团队执行期间，更要远远超出他们的任期。这需要一种无限思维、无限的时间跨度，以及一种将公司放在首位、然后是团队、最后是自己的心态。\n\n从事商业的人应该同时持有有限和无限两种思维，并让它们保持张力。你应该想赢下你选择参与的每一场有限游戏，但无论输赢，你都要学习，并带着获胜的意图继续进入下一场游戏。此外，每天来上班时，都要怀揣一种愿望：让事情比你发现它们时好得多，为下一代人留下更好的基础。",
-      "text_excerpt_zh_hash": "f84482412920139a",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2056434896411996160"
     },
     "http://x.com/i/article/2056498123640336384": {
       "cleaner_v": 2,
@@ -6191,6 +6162,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067266223138578432"
     },
+    "http://x.com/i/article/2067307652779225088": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067307652779225088",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067307652779225088"
+    },
     "http://x.com/i/article/2067312987946323968": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6233,6 +6217,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067326049382494208"
     },
+    "http://x.com/i/article/2067397138816868352": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067397138816868352",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067397138816868352"
+    },
     "http://x.com/i/article/2067407628855095296": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6258,6 +6255,32 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2067497511229718528"
+    },
+    "http://x.com/i/article/2067526637747347456": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2067526637747347456",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLGBqQ0XEAAeiAj?format=jpg&name=900x900)](http://x.com/EXM7777/article/2067626075882983763/media/2067576267008839680)\n\nhow to get Fable-level intelligence back:\n\n[![](https://pbs.twimg.com/profile_images/1922574051580563456/-OFXIxnm_normal.jpg)](http://x.com/EXM7777)\n\n[Machina](http://x.com/EXM7777)\n\n[@EXM7777](http://x.com/EXM7777)\n\n·\n\n3h\n\nFollow\n\nClick to Follow EXM7777\n\n8\n\n14\n\n198\n\n[25K](http://x.com/EXM7777/status/2067626075882983763/analytics)\n\nfor a few days, we had something that felt like AGI...\n\nFable 5 showed up, effectively unlimited inside the plans, and the ceiling on what you could build lifted overnight\n\nbut then Anthropic killed it, maybe forever\n\nmeanwhile, Opus 4.8, the model you're left with, feels lobotomized by comparison, like someone turned the intelligence down\n\nmost people just accepted the downgrade and moved on\n\nthey didn't have to\n\nyou don't need Anthropic to switch Fable back on to get that level of intelligence again\n\nyou can rebuild it yourself, out of cheaper models, and run it on demand\n\nthe trick is a council: one frontier model coupled with a few cheaper or open ones, answering together\n\nit lands at Fable-level quality for a fraction of the price, and it beats any single model you're paying for right now, for a reason most people get backwards\n\n[![Image](https://pbs.twimg.com/media/HLF_BCqWUAA3BYx?format=jpg&name=small)](http://x.com/EXM7777/article/2067626075882983763/media/2067573359810859008)\n\n## \n\nthe reframe: hire a team, don't rent a genius\n\nalmost everyone uses ai like this right now:\n\n\\> a hard question comes up > you hand it to the single most expensive model you have access to > you read its one answer > you trust it, because what else would you check it against\n\none model gives you one opinion, with no second set of eyes on its blind spots\n\nthe council is built to change that\n\nyou send the same question to a panel of models at once, then a separate model reads every answer, notes where they agree, where they contradict each other, and what each one missed, and writes the single best version\n\nand that combined answer beats the best model in the room working alone\n\n[![Image](https://pbs.twimg.com/media/HLFYAhvWkAEmcIj?format=jpg&name=small)](http://x.com/EXM7777/article/2067626075882983763/media/2067530470019993601)\n\na two-model panel with a judge scored 69 out of 100 on openrouter's own published reasoning test, where Fable 5, the strongest single model in it, scored 65.3\n\na team of three cheap models, refereed, landed at 64.7, about a point under Fable 5 itself, at roughly half the cost per question\n\nthe quality didn't come from buying a smarter model\n\nit came from one model carefully reviewing and combining the work of several cheaper ones\n\nchecking the work matters more than adding workers, and that single fact is the whole reason a council costs less and answers better\n\nif you want to learn how to squeeze the most out of model councils, and how to turn them into real money, that's what the real time AI ops community is built for: \n\n[weeklyaiops.com](http://weeklyaiops.com/)\n\n## \n\nwhy a council is the right shape for orchestration, not just answers\n\n[![Image](https://pbs.twimg.com/media/HLF_GV6XsAE9KfF?format=jpg&name=small)](http://x.com/EXM7777/article/2067626075882983763/media/2067573450877677569)\n\nit's easy to read the above as a nice trick for getting better answers\n\nit's bigger than that\n\nthe bigger payoff is what a council does for orchestration, the act of running a long, multi-step job\n\nbecause orchestration is really a string of decisions\n\nwhat's the plan, what order, what's risky, what do we do when step four contradicts step two\n\nand good decisions have never come from one mind\n\nthey come from several perspectives weighing pros and cons against each other until the strongest call survives\n\nthat is exactly what a co",
+      "title": "",
+      "url": "http://x.com/i/article/2067526637747347456"
+    },
+    "http://x.com/i/article/2067539211620667393": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067539211620667393",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067539211620667393"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -9786,20 +9809,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2056276314114621440/img/cMm2vbU6-n4ymbZd.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2056739884157542400/img/1TlMKJ41sQ4_HtQd.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11045,6 +11054,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2067264562789756928/img/Mh8xaTd5nCpiqq2B.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg": {
       "cleaner_v": 2,
@@ -14224,19 +14247,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg"
     },
-    "https://pbs.twimg.com/media/HLGgogEakAATMYy.jpg": {
+    "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLGgogEakAATMYy.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLGgogEakAATMYy.jpg"
+        "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLGgogEakAATMYy.jpg"
+      "url": "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15094,6 +15117,25 @@
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
     },
+    "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "AI made you faster. But you're not more productive; you're outsourcing the slow part to everyone else",
+      "final_url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp?fit=1024%2C683&ssl=1",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp?fit=1024%2C683&ssl=1&w=640",
+        "https://terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiylta0l3vwd2s2mtc5nzyync13awtpbwvkawetaw1hz2uta293ctv0bheuanbn.webp?fit=1024%2C678&ssl=1&resize=350%2C200",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvbhivchgxmzyynzawlwltywdllwt3dnh4owljlmpwzw.webp?fit=1024%2C724&ssl=1&resize=350%2C200",
+        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/02/cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvbhivchgxmdawndy2lwltywdllwt3dndoyzhnlmpwzw.webp?fit=1024%2C683&ssl=1&resize=350%2C200"
+      ],
+      "kind": "article",
+      "text_excerpt": "Skip to content Terrible Software About You Got Faster. Your Company Didn’t. “I would have written a shorter letter, but I did not have the time.” — Blaise Pascal Because of AI, everyone on your team is more productive than they were a year ago, just ask them. So why isn’t the company itself faster? I think I know why. Let’s say an engineer needs to write a tech brief for a database migration. Two years ago, this would’ve cost him an entire afternoon: reading the code and some articles online, weighing the options, writing, deleting, rewriting. The result was short, and every word of it had survived contact with his brain. Fast forward to today, and he pastes the context into a model and hits send. A few minutes later, the agent hands back a plan several times longer than anything he would’ve written by hand. Well, he’s more productive now, right? A fraction of the time, many times the output. But what about everyone else? A handful of reviewers open a document several times longer than it needs to be, with that unmistakable AI smell on it. And the length is not the biggest concern! Given that the doc was clearly AI-generated, every reviewer is now also fact-checking the thing. The brief says the current job processes events sequentially. Does it, though? It says the migration touches nine tables. Is it nine? When a colleague writes a sentence like that by hand, you trust it, because someone counted and put their name on the count. When a model writes it, and the author didn’t check, the sentence looks exactly the same. You can’t tell which claims he stands behind and which ones the model dreamed up, so you have to treat every single line as unverified. The reviewers end up doing the thinking the author skipped (except this time it arrives nicely formatted, and with confidence 🥲). So every one of those reviews now takes longer than it used to. He saved himself the afternoon and quietly spent everyone else’s. The time was just transferred, and because a document has one writer and many readers, one person’s shortcut becomes everyone else’s problem. You see, a document is supposed to be a service. The (implicit) deal is that the writer spends their time so the readers don’t have to. It’s why Pascal, in that quote at the top, was apologizing: the long letter is cheap for me and expensive for you, the short letter is expensive for me and cheap for you. At the workplace, I usually owe you the short one because there’s one of me and many of you. Compression, editing, and fact-checking are the work. By the way, it’s not just documents… I’m also seeing the same pattern in pull requests, automated tests, and even decisions. We’re going faster by passing the slow part (the reading, the actual understanding) to whoever comes next . A Ponzi scheme? Don’t get me wrong: by all means, do use AI. I do too, and I’m (probably) not going back. The thing is: the model is giving you many hours back, so please spend a bit of them editing! I already have a rule for AI-written code: if I can’t explain the change, I can’t ship it . The same rule applies here: if you can’t defend a sentence with the document done, it’s not really done, is it? And if you’re on the receiving end of these, you’re allowed to push back and say: “This reads like an unedited draft. Can you cut it down to the decision, the tradeoffs, and what you need from me? Happy to review it then.” So that’s why the company never speeds up, even when everyone in it does. The time that the engineer saved didn’t go anywhere good: it landed on everyone who had to read his document. And again, he’s not lying when he says he’s faster. He is. So am I, most days. The speed is very much real for each of us individually . It’s just that when you add it up across the team, it points the wrong way; everybody’s faster, and the whole thing somehow moves slower. Which makes me think we owe the people reading us a bit more than we’ve been giving them lately. Share this: Share on Facebook (Opens in new wi",
+      "title": "You Got Faster. Your Company Didn’t. – Terrible Software",
+      "url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar"
+    },
     "https://thein.fo/43wKrWU": {
       "content_type": "",
       "description": "",
@@ -15741,25 +15783,6 @@
       "title": "Goal Engineering: how I brief coding agents using paired goal+rider documents",
       "url": "https://www.gregceccarelli.com/goal-engineering?v=1"
     },
-    "https://www.hiten.com/understanding-github": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "The few things a non-developer needs to make sense of GitHub and put it to use, no coding required.",
-      "final_url": "https://www.hiten.com/understanding-github",
-      "frameable": null,
-      "image_urls": [
-        "https://cdn.sanity.io/images/ou0lowkd/production/811f4ac654ee5361076fe2e6b8bf02aa0029c4b0-1200x630.png?w=1200&h=630&fit=crop",
-        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Fdbd2e60239a6e9a27c739dc563b200816094113e-1120x1120.png%3Fw%3D1280%26h%3D1280%26fit%3Dcrop&w=1920&q=75",
-        "https://www.hiten.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fou0lowkd%2Fproduction%2Ffc3c1f8f713c0488c278590a11107245081ca897-2000x2000.jpg%3Fw%3D80%26h%3D80%26fit%3Dcrop&w=96&q=75"
-      ],
-      "kind": "article",
-      "text_excerpt": "Hosted By Hiten Shah How to Understand GitHub Without Reading Code The few things a non-developer needs to make sense of GitHub and put it to use, no coding required. Jun 19 Friday, June 19 10:00 AM PT About For years GitHub looked like a place built for engineers. I'd only end up there when an AI tool sent me and I'd quickly grab what I needed and leave. The platform never felt like it was meant for someone who doesn't code. That's changing fast. The more we use AI tools, the more we're using GitHub, even if we don't code, and it's surprisingly simple to use. You just need someone to show you the basics. What a repo actually is, what the README is for, and how to navigate the platform. In this session, I'll walk you through GitHub as a complete beginner, covering those basics, so the layout and jargon stop getting in your way. This session is for you if… You're not technical but AI tools keep sending you to GitHub The layout makes no sense to you You don't fully understand what a repo is You want to learn how GitHub can help you Join me on Friday, I’ll demystify it all for you. Registration Register to join the live session. Register Registration Register to join the live session. Register Schedule Resources Library Schedule Library X YouTube Github",
-      "text_excerpt_zh": "# 由 Hiten Shah 主持\n\n## 如何在不阅读代码的情况下理解 GitHub\n\n非开发者理解并使用 GitHub 所需的少量知识，无需编码。\n\n**6月19日，周五，上午10:00（太平洋时间）**\n\n多年来，GitHub 看起来像是一个专为工程师打造的平台。我只有在 AI 工具把我引向那里时才会访问，然后快速获取所需内容后便离开。这个平台从未让人觉得是为不写代码的人设计的。但这种情况正在迅速改变。\n\n我们使用 AI 工具越多，就越频繁地使用 GitHub——即使我们不写代码——而且它出奇地简单易用。你只需要有人向你展示基础知识：仓库到底是什么、README 的用途、以及如何浏览这个平台。\n\n在本场分享中，我将以完全初学者的身份带你了解 GitHub，涵盖这些基础知识，让布局和术语不再成为你的障碍。\n\n**本场分享适合你，如果……**\n- 你并非技术人员，但 AI 工具总把你引向 GitHub\n- 页面布局让你摸不着头脑\n- 你并不完全理解什么是仓库\n- 你想了解 GitHub 如何帮助你\n\n周五加入我，我将为你揭开所有谜团。\n\n---\n\n**注册**\n注册参加直播分享。\n[注册]\n\n**注册**\n注册参加直播分享。\n[注册]\n\n---\n\n**日程** | **资源库** | **资源**\n[日程] | [资源库] | [资源]\n\nX | YouTube | GitHub",
-      "text_excerpt_zh_hash": "bb9c4f855fff11b2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How to Understand GitHub Without Reading Code",
-      "url": "https://www.hiten.com/understanding-github"
-    },
     "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16384,38 +16407,6 @@
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I"
     },
-    "https://x.com/i/article/2054598592980234240": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2054598592980234240",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2054598592980234240/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIpwTi7bwAAOqm0?format=jpg&name=900x900)](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579660943966208)\n\nEvals, explained\n\n[![](https://pbs.twimg.com/profile_images/1994707418790432768/NvTWenyx_normal.jpg)](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[Lotte![](https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_bigger.jpg)](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n[@lotte\\_verheyden](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden)\n\n·\n\n1h\n\nFollow\n\nClick to Follow lotte\\_verheyden\n\n8\n\n31\n\n[1.1K](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden/status/2056754091817361670/analytics)\n\nThis is one piece of a series we’re publishing as part of the \n\n[Langfuse Academy](https://langfuse.com/academy)\n\n, where we walk through the full AI engineering lifecycle. If you’re new to the series,\n\n[The AI Engineering Loop](https://langfuse.com/academy/ai-engineering-loop)\n\nis the best place to start.\n\n## \n\nA short recap of the AI Engineering Loop\n\nThe AI Engineering Loop is how teams continuously improve AI systems. It connects what’s happening in production (tracing, monitoring) to structured iteration during development (datasets, experiments, evaluation). Each shipped improvement produces new data, and teams loop through this process continuously.\n\n[![Image](https://pbs.twimg.com/media/HIpwGY4aIAACl0g?format=jpg&name=small)](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2056579434908622848)\n\nYou can read more on this \n\n[here](https://langfuse.com/academy/ai-engineering-loop)\n\n. \n\n# \n\nHow evaluation fits into the loop\n\nOffline evaluation is the step in the loop between running an experiment and shipping a change. You have a dataset, you have run your application against it, and now you need to judge whether the outputs are good.\n\n## \n\nHow evaluation typically evolves\n\nMost of the time, you start by manually reviewing outputs to build intuition for what good and bad look like in your application. From there, you identify specific failure modes worth checking for. Once you can define them precisely, you automate with dedicated evaluators.\n\n[![Image](https://pbs.twimg.com/media/HINm0y9boAEtxl2?format=png&name=small)](https://x.com/i/article/2054598592980234240/lotte%5Fverheyden/article/2056754091817361670/media/2054598912229744641)\n\nThe rest of this page covers the different kinds of evaluation in detail. In practice, you'll likely end up combining all of them. But the path to a well-functioning automated evaluation setup almost always starts from manual review.\n\nManual evaluation is not a one-and-done step. Good production setups incorporate continuous review by human experts to catch new failure modes and keep automated evaluators calibrated.\n\n# \n\nEvaluation methods\n\nThere are three main ways to evaluate: manually, with code, or with an LLM. Each is suited to different kinds of quality checks.\n\n## \n\nManual evaluation\n\nManual evaluation is the process of manually looking at outputs and scoring it/writing down your thoughts on its quality.\n\nThis is an important process, reading outputs builds an understanding of what your application actually does, where it struggles, and what \"good\" looks like for your specific use case. That understanding is what tells you which automated evaluators to build and how to define their criteria later on. Teams that skip this step and jump straight to automated evaluation often end up measuring things that don't matter.\n\nManual evaluation also produces human labels that serve as ground truth for validating automated evaluators later.\n\n## \n\nCode-based evaluation\n\nCode-based evaluators check properties that can be verified with deterministic logic.",
-      "text_excerpt_zh": "## AI工程循环的简要回顾\n\nAI工程循环是团队持续改进AI系统的方式。它将生产环境中发生的情况（追踪、监控）与开发过程中的结构化迭代（数据集、实验、评估）连接起来。每次发布的改进都会产生新数据，团队通过这个过程持续循环。\n\n你可以在此处阅读更多相关内容。\n\n# 评估如何融入循环\n\n离线评估是循环中运行实验和发布变更之间的步骤。你有一个数据集，已经针对该数据集运行了应用程序，现在需要判断输出结果是否良好。\n\n## 评估通常如何演进\n\n大多数情况下，你从手动审查输出开始，以建立对应用程序中\"好\"和\"坏\"的直觉。从那里，你识别出值得检查的特定失败模式。一旦能够精确定义它们，就可以用专门的评估器实现自动化。\n\n本页其余部分详细介绍了不同类型的评估。在实践中，你可能会结合使用所有方法。但建立一个运行良好的自动化评估设置，几乎总是从手动审查开始。\n\n手动评估不是一次性步骤。良好的生产设置会纳入人类专家的持续审查，以捕捉新的失败模式并保持自动化评估器的校准。\n\n# 评估方法\n\n主要有三种评估方式：手动、使用代码或使用LLM。每种方法适用于不同类型的质量检查。\n\n## 手动评估\n\n手动评估是人工查看输出并对其质量进行评分或记录想法的过程。\n\n这是一个重要的过程，阅读输出可以让你了解应用程序实际做了什么、在哪些方面存在困难，以及针对你的特定用例\"好\"的标准是什么。这种理解会告诉你应该构建哪些自动化评估器以及如何定义它们的标准。跳过这一步直接跳到自动化评估的团队，最终往往衡量的是无关紧要的事情。\n\n手动评估还会产生人工标签，作为后续验证自动化评估器的基准真相。\n\n## 基于代码的评估\n\n基于代码的评估器检查可以通过确定性逻辑验证的属性。",
-      "text_excerpt_zh_hash": "1fd5a073b8d85ade",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2054598592980234240"
-    },
-    "https://x.com/i/article/2056434896411996160": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://x.com/i/article/2056434896411996160",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](https://x.com/i/article/2056434896411996160/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HInthqKaMAAucYy?format=jpg&name=900x900)](https://x.com/i/article/2056434896411996160/Alfred%5FLin/article/2056734226201100603/media/2056435867380756480)\n\nFinite and Infinite Mindsets\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](https://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[Alfred Lin](https://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n[@Alfred\\_Lin](https://x.com/i/article/2056434896411996160/Alfred%5FLin)\n\n·\n\n2h\n\nFollow\n\nClick to Follow Alfred\\_Lin\n\n6\n\n19\n\n130\n\n[12K](https://x.com/i/article/2056434896411996160/Alfred%5FLin/status/2056734226201100603/analytics)\n\nWin the game in front of you, but build like the game never ends.\n\n\\--\n\nGame theory was one of my favorite classes in college, and the study of finite and infinite games impacted me profoundly. Years later, I found two books that speak to these different game frameworks: Finite and Infinite Games by James P. Carse (1986) and The Infinite Game by Simon Sinek (2019).\n\nMany games we play or watch are finite games. Finite games are played with known players, rules, objectives, time duration, and scoring to determine a winner at the end of those games. Rugby, soccer, and chess are all examples of finite games. \n\nIn dichotomy, infinite games have known and unknown players that enter and exit the game at known and unknown times. There are conventions and perhaps laws that govern, but those conventions and laws can and do change. Breaking conventions might be frowned upon, but not prohibited. There are many metrics of success but different players optimize for different metrics over different time horizons. \n\nThe purpose of infinite games is to keep playing, shape the game to your advantage, and make progress. There are no real winners, but rather just a concept of whether you are ahead or behind, which constantly changes depending on your success metrics. The only losers are those who quit. How each of us chooses to live and find meaning in our lives and human civilization are examples of infinite games.\n\nWe can frame business as a finite game or an infinite game. Both Carse and Sinek put forth the contrast as an “or”, but I submit the proper framing is “and” because business is both. \n\nThere are deadlines to meet. Opportunities to win. Getting to market first. Launching a better product. Many aspects of business are finite games. The objective is to win.\n\nAt the same time, the enduring value of a business organization is not measured by those past successes, but by the business's ability to keep succeeding, not just during the time the current team is executing, but well beyond their tenure. This requires an infinite mindset, an infinite time horizon, and a mentality to put the company first, then the team, then yourself.\n\nThose in business should have both finite and infinite mindsets held in tension. You should want to win every finite game you choose to play, but whether you win or lose, you learn and continue on to your next game with the intention to win. In addition, come to work every day with a desire to leave things in much better shape than you found them for the next generation.\n\n* [![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](https://x.com/i/article/2056434896411996160/Alfred%5FLin)  \n[Alfred Lin](https://x.com/i/article/2056434896411996160/Alfred%5FLin)  \n[@Alfred\\_Lin](https://x.com/i/article/2056434896411996160/Alfred%5FLin)  \nFollow  \nClick to Follow Alfred\\_Lin  \nPartner  \n[@sequoia](https://x.com/i/article/2056434896411996160/sequoia)  \n. Working w/ founders from idea to IPO & beyond:  \n[@airbnb](https://x.com/i/article/2056434896411996160/airbnb)  \n[@doordash](https://x.com/i/article/2056434896411996160/doordash)  \n[@citsecurities](https://x.com/i/article/205643489641199616",
-      "text_excerpt_zh": "## 有限与无限思维\n\n赢下眼前的游戏，但要像游戏永不完结那样去建设。\n\n---\n\n博弈论是我大学时最喜欢的课程之一，对有限与无限游戏的研究深深影响了我。多年后，我找到了两本阐述这两种不同游戏框架的书：James P. Carse 的《有限与无限的游戏》（1986）和 Simon Sinek 的《无限的游戏》（2019）。\n\n我们玩或观看的许多游戏都是有限游戏。有限游戏有已知的玩家、规则、目标、时间长度和计分方式，并在游戏结束时决出胜负。橄榄球、足球和国际象棋都是有限游戏的例子。\n\n与之相对，无限游戏有已知和未知的玩家，他们在已知和未知的时间进入和退出游戏。游戏受惯例乃至法律约束，但这些惯例和法律可以也确实会改变。打破惯例可能会受到非议，但并非被禁止。成功的衡量标准有很多，但不同的玩家会在不同的时间跨度内优化不同的指标。\n\n无限游戏的目的在于持续玩下去，将游戏塑造成对自己有利的局面，并取得进展。没有真正的赢家，只有你是否领先或落后的概念，而这会随着你选择的成功指标不断变化。唯一的输家是那些退出的人。我们每个人如何选择生活、寻找生命的意义，以及人类文明本身，都是无限游戏的例子。\n\n我们可以将商业视为有限游戏或无限游戏。Carse 和 Sinek 都将这种对比呈现为\"或\"，但我认为正确的框架应该是\"和\"，因为商业两者兼具。\n\n有截止日期要赶，有机会要去赢。率先进入市场，推出更好的产品。商业的许多方面都是有限游戏。目标是获胜。\n\n与此同时，一个商业组织的持久价值并不由过去的成功来衡量，而是由其持续成功的能力来决定——不仅是在当前团队执行期间，更要远远超出他们的任期。这需要一种无限思维，一个无限的时间跨度，以及一种将公司放在首位、然后是团队、最后是自己的心态。\n\n从事商业的人应该同时持有有限和无限两种思维，让它们保持张力。你应该想赢下你选择参与的每一场有限游戏，但无论输赢，你都要学习，并带着获胜的意图继续进入下一场游戏。此外，每天带着一种愿望来工作：希望为下一代把一切打理得比你发现时好得多。",
-      "text_excerpt_zh_hash": "05d9c639b0cc6943",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://x.com/i/article/2056434896411996160"
-    },
     "https://x.com/i/article/2056536969836969984": {
       "cleaner_v": 2,
       "content_type": "",
@@ -16814,35 +16805,6 @@
       "text": "https://x.com/i/article/2042922188924424198",
       "url": "https://x.com/garrytan/status/2042925773300908103"
     },
-    "2056358393892540552": {
-      "article_text": "This article is about Recursive Agent Optimization, or as my neighbor's cat calls it \"RAO\". This is a new paper that uses Reinforcement Learning (RL) for training LLM agents to spawn and coordinate with recursive copies of themselves.\nIn other words, it trains LLMs on how to divide and conquer a large task. How to slice it up into smaller chunks that can be delegated to subagents (and those subagents can spawn and delegate to more subagents), and work on multiple orthogonal subproblems in parallel.\n \nThis article was written by me (AVB) with Claude-Sonnet-4.6 inside the Paper Breakdown harness.\n\nTheir Experiments\nThe authors train two very small local models: a dense LM: Qwen3-4B-Instruct, and a MoE: Qwen3-VL-30B-A3B-Instruct. They deliberately picked long horizon/long context tasks (that require careful planning and divide-and-conquer strategies) such as:\n1. TextCraft-Synth: A Minecraft-style crafting game where the agent must gather materials and craft items. Think Minecraft meets text-games. Agents need to naturally discover and solve sub problems (e.g., gather wood → craft planks → craft sticks)\n\n2. Oolong-Real: A long-horizon task containing difficult Q&A Dungeons & Dragons transcripts. These transcripts are really long, like 10-12 pages of conversations between participants and dice rolls, etc. Very difficult retrieval task.\n3. DeepDive: The dataset contains challenging QA pairs constructed by performing controlled walks over knowledge graphs and generating questions that require multi-hop, iterative web searches and synthesis over information scattered across the web to answer.\nThey also did ablation studies on the ART-E dataset, where an agent needs to search over a user’s emails to answer a question\nFor each environment, they also create a recursive agent system prompt. For example, here is one:\n \nAnd another (more complex one. for the TextCraft env):\n \nEach environment also has access to a bunch of tools and actions they can take. Note that all of them have that launch_subagent tool as well.\n \n\nTheir Algorithm\nBefore we can talk about training, we need to understand what's actually being built at inference time.\nThe Execution Tree\nWhen the language model​ is given a task X, it produces a \"trajectory\"​. Trajectory (or rollout) is basically a sequence of observations and actions that the agent took to attempt completing the task.\nDuring this rollout, the agent may choose to spawn child agents on delegated sub-tasks X1, X2.. etc​. This creates a rooted execution tree:\nEach node = one agent instance solving one task\nRoot node = the original task\nChildren of a node = the sub-tasks that agent decided to delegate\n \n\nThe Spawn Action\nThe agent is built on a Python REPL interface, and recursion is implemented as a single async function. If you are familiar with RLMs, this REPL+agent stuff will come easily to you.\n \nThe policy itself decides:\nWhether to delegate at all (i.e. call launch the subagent)\nWhat the sub-task description is (i.e. what the goal is)\nWhat output format to request (yeah they can)\nWhether to parallelize children (with await asyncio.gather)\nHow to aggregate results (after all results have been returned, the main agent must aggregate it to formulate an answer)\nThe choice of using REPLs is powerful because:\nThe return type is unrestricted - children can return strings, dicts, structured objects\nParents can chain, combine, or transform child outputs using normal Python\nChildren can run sequentially (if dependent) or concurrently (via asyncio) when independent. Asyncio ensures that if subagents launch new network calls (which they will during tool calling), they can all run concurrently instead of blocking each other. \nAlso, most important feature about REPL-based agents: when a subagent returns a output, notice  the main agent does NOT directly load it into it's context. The output gets saved inside a python variable (result), and the agent can manipulate these variable (like printing out a slice, or length, or validate it's keys) before fully loading it in.\nThese are some of the main reasons REPL based agents are becoming so popular these days, and they naturally support these types of recursive architectures. Read this if you are interested about the reasons why:\n \n\n\nLocal Node Reward (Credit Assignment)\n \nIn a standard RLVR, only the root gets a reward signal when the task is done. This is because we are fundamentally working with verifiers, you get confirmation of success only after you have finished the entire rollout.\nIn recursive settings, this poses a problem: imagine your task required a recursive tree with depth 3. By the time the outputs propagate and you get a reward, the leaf agent at the bottom is hundreds of tokens away and credit assignment is essentially broken.\n1. You cannot consider the entire recursive tree as a flat sequence and reward everything as one flat sequence\n2. Only the main agent's performance is verifiable, coz it directly receives a task and returns an output\n3. But ideally you want each subagent to also get reward signals!\nThe RAO paper tackles this using a local success signal. An LLM judge (they used gpt-5-mini) evaluates the sub-task output and generates a reward. \n \nThe LLM judge rewards a node based on two things:\nTerm 1: Did this node solve its assigned task? (direct success signal)\nTerm 2: Did this node's children, if exists, succeed on the sub-tasks it gave them? (delegation quality signal)\nFor term 2 (the delegation bonus), they average the the success rate over children instead of summing or counting. This prevents a degenerate strategy where the agent spawns 100 trivial sub-tasks just to collect bonus rewards. The agent only gets credit for the quality of its delegation, not the quantity.\nThe authors reported that the delegation bonus is most useful early in training when the model doesn't yet know how to delegate.\n\nPart 3: Policy Optimization Objective\nFor the actual optimization, RAO does 3 tricks:\nMulti-Task Objective\nLeave-One-Out (LOO) Baseline\nDepth-Level Inverse Frequency Weighting\nLet's break them down one by one.\n3.1 Multi-Task Objective\nWhen you train a normal RL agent, you have a task distribution -> you sample tasks from it -> run rollouts -> compute gradients, update. Simple.\nBut with recursive agents, every single rollout generates tasks at multiple depths automagically. \n \nSo from one root task, you naturally generated 4 additional tasks at depths 1 and 2. These are called policy-induced sub-task distributions.\nWhat RAO does is they train on tasks from every depth simultaneously. The same policy (language model) is optimized to be a good agent at depth 0 (root planner), depth 1 (mid-level delegator), and depth 2+ (leaf executor).\nThe training objective is a multi-depth mixture that combines both root and subtasks! This is also a form of curriculum-based learning because the sub-tasks are generated by the model itself.\nSub-tasks are almost always simpler than root tasks - by definition, the model only spawns sub-tasks when it thinks they're manageable sub-problems.\nSo early in training, the model fails at root tasks (too hard), but it can still get reward from succeeding at the easier depth-1 and depth-2 sub-tasks. As training progresses and the model gets better, it generates harder and more complex sub-tasks naturally. No human curriculum design needed.\n\n3.2 Leave-One-Out Baseline\nFor each root task, RAO samples G independent rollout trees. This is standard in GRPO like training. The goal is to find which of these independent trees lead to high rewards - and then maximize that behaviour.\nTo do this, we must calculate the advantage of each rollout (over other ones). The advantage for any trajectory τ in rollout g is:\nA(g) = Reward of rollout g - Average reward of all other rollout excluding g.\nThat is, the baseline for rollout g is simply the mean root reward of all other rollouts. This is called \"leave one out\" because we don't consider the current trajectory to calculate the baseline.\n \nThe advantage of each subagent node is calculated separately.\nAdvantage = Local Reward - Baseline\nFor each subagent:\nThe local reward (recall \"Local Node Reward\" section above) is calculated using the local-LLM strategy. This depends on the success of current agent and spawned subagents.\nFor the baseline, we just use the leave-one-out baseline for all the nodes within a rollout. \nMeaning every subagent's advantage is equal to how good it's local reward is compared to the average reward of all other independent rollouts in it's group.\nNote: subagent baselines are NOT calculated with respect to other sibling/parent/children subagents in the same rollout!\n\n3.3 Depth-Level Inverse Frequency Weighting\nHere's another practical problem: if the agent spawns 4 children each of which spawns 4 more, you have 1+4+16=21 trajectory nodes, but only 1 root. If you naively average all gradients, the leaf nodes dominate the update 16:1, causing the model to over-optimize for being a good leaf executor and under-optimize for being a good root planner. \nWe need good planning (at the top) and good execution (at the leaves). The fix: inverse frequency weighting per depth level.\nLet B_d​ = set of all depth-d trajectories in the batch. The weight for each trajectory at depth d is:\nw=α/|B_d|​\nWhere α is a normalization constant ensuring the total batch weight is preserved. And |B_d| is the number of trajectories at that depth.\nThe paper quotes: Intuitively, this assigns smaller weight to trajectories from depths that appear more frequently in the batch, reducing the tendency of heavily populated levels of the tree to dominate learning, while the normalization keeps the overall update magnitude approximately unchanged.\n\nPutting it all together\nEach node has its own trajectory , and the policy update is applied per trajectory, per node, independently.\nWhen a single agent instance runs on task X, it produces a sequence of tokens:\n \nThis entire token sequence is the trajectory​ for that node. The tokens generated by child agents are NOT part of this trajectory! They appear only as an observation (the return value of async_launch_subagent).\nMeaning, for each node X, the gradient update touches only the tokens that node itself generated. Specifically the assistant-generated tokens (reasoning + actions). The system prompt, task description, and observations (including child outputs) are the context - they are not trained on.\n \nThe child's output arrives back inside the REPL. Printing it out influences the parent's future tokens but the child's own tokens are trained separately, as part of the child's own trajectory.\nThe reward at a given node is a combination of the agent's success + the delegation bonus (as described earlier). For the root agent, the success reward comes directly from the environment, and the delegation rewards are computed with the LLM judge scores on it's children nodes.\nThe LOO baseline is calculated at the root of every rollout. This same baseline is used during advantage calculation of all the trajectories of all the subagents by subtracting the LOO baseline from their local-node reward.\n\nA list of AHA results\n1. Context Management skills evolve later in training\nDuring Oolong-Real training, the recursive agent was constrained to a 32K context window but needed to process documents of 55K+ tokens. It tried to print the entire input document into the root context, immediately filling and crashing its own context window.\nThen completely on its own, it abandoned this strategy and learned the correct approach: chunking the input and delegating each chunk to a child sub-agent.\n2. Recursion Helps Even When You Don't Need It\nEven with a full 40K context window, more than enough to solve tasks without recursion, the recursive agent still trained faster and performed better than the single-agent baseline.\nWhy? Because sub-agent rewards act as dense process rewards. Each sub-task completion gives a training signal mid-task, rather than only at the very end. Divide and conquer remains unbeaten.\n3. Divide and conquer is transferrable\n \nThe model was only ever trained on medium difficulty TextCraft tasks. It never saw a hard task during training. At evaluation time, it generalized to much harder tasks. The paper hypothesizes this is because divide-and-conquer is a transferable strategy - if you learn to decompose medium problems well, you can apply that same decomposition pattern recursively deeper to solve harder ones.\n4. A 30B Model Approaches Claude, o3, and GPT-5-mini\nOn Oolong-Real, the recursive agent they trained achieved an average reward of 0.320. A 30B open model, trained only on this specific task with RL, nearly matches trillion-parameter frontier models!\n\n5. Sequential Tasks Are Slower But Smarter\nOn DeepDive, the recursive agent is 18× slower than the single agent. The single agent is fast because it gives up early and takes shortcuts. The recursive agent uses depth 4+ on hard tasks it uniquely solves, allocating more compute precisely where it's needed. Tasks that both agents could solve took depth ~2.9, but tasks only the recursive agent could solve took depth ~4.\n6. RAO clearly helps on hard tasks, but what about easy ones?\nTo probe this, the authors test RAO on a much simpler task called ART-E - an email search benchmark where the agent needs to find a single relevant email in a user's inbox to answer a question. This contrasts sharply with DeepDive, which requires numerous sequentially dependent web searches to synthesize scattered information.\nFindings on ART-E:\nRAO still helps the model learn faster in the early stages of training\nBut eventually, performance equalizes — the single agent catches up to the recursive agent\nThis makes intuitive sense: if the task is short, fits in one context window, and doesn't benefit from decomposition, recursion adds overhead without meaningful gain\nCorroborating Evidence from TextCraft-Synth\nThe same pattern shows up in the TextCraft-Synth results across difficulty levels T0:_\nDifficultySingle Agent SRRecursive Agent SRGapEasy0.551.00Small (both can solve it)Medium0.170.96LargeHard0.000.88Massive — single agent completely fails\nOn easy tasks, both methods converge to similar success. The gap becomes dramatic only at medium and hard difficulties — exactly where divide-and-conquer and extended horizons matter.\nSummary: When to Use RAO\nConditionRAO BenefitTask is easy and short-horizonMarginal — faster early learning, but converges to same final performanceTask is difficult (complex reasoning/planning)Large — divide-and-conquer unlocks solutions single agents can't findTask is long-horizon (exceeds context window)Large — fresh context windows per node are essentialTask is parallelizableLarge — concurrent sub-agents reduce wall-clock time\nThe key insight is that RAO is not universally better — it is a targeted solution for tasks where decomposition is genuinely necessary. On tasks simple enough for a single forward pass, the overhead of recursion doesn't pay off in the long run.\n\nQuestions I had about training, answered:\n \nQ. Are we updating the entire tree as one sequence?\nNo. Each node's trajectory is updated independentlyWhat tokens get logit updates? Only the assistant-generated tokens in each node's own trajectory τX​\nQ. Are child output tokens trained on by the parent?\nNo. The results of children are saved inside variables in the python repl. The root agent must explicitly print it out to load them into context. The child's full internal reasoning and trajectory never appear in the parent's context.\n \nQ. How is the baseline for a given trajectory calculated?\nThe baseline of a  shared across all nodes in rollout g. LOO in general gives us an unbiased baseline because the reward of the trajectory under question is left out of the baseline average. \nQ. How is a sub-agents advantage calculated?\nLocal agent's advantage is calculated subtracting the baseline reward from that subagent's local node-reward. The local node-reward is calculated using LLM-as-a-judge combining the node's own success and the delegation bonus (i.e. success of it's children). The baseline is calculated using the LOO strategy mentioned above. All subagents use the same baseline!\n \nStudy the full paper on Arxiv: http://arxiv.org/abs/2605.06639\nStudy it on Paper Breakdown with an AI: https://paperbreakdown.com/abs/2605.06639",
-      "article_text_zh": "本文介绍的是递归智能体优化（Recursive Agent Optimization），我邻居的猫称之为\"RAO\"。这是一篇新论文，使用强化学习（RL）来训练LLM智能体生成并协调自身的递归副本。\n\n换句话说，它训练LLM如何分而治之地处理大型任务：如何将任务切分成更小的子任务，委托给子智能体（这些子智能体还可以继续生成并委托给更多子智能体），并并行处理多个正交的子问题。\n\n本文由我（AVB）在Paper Breakdown框架内使用Claude-Sonnet-4.6撰写。\n\n## 他们的实验\n\n作者训练了两个非常小的本地模型：一个密集LM：Qwen3-4B-Instruct，和一个MoE：Qwen3-VL-30B-A3B-Instruct。他们特意选择了需要仔细规划和分治策略的长周期/长上下文任务，例如：\n\n1. **TextCraft-Synth**：一个类似《我的世界》的合成游戏，智能体必须收集材料并制作物品。可以理解为文字游戏版的《我的世界》。智能体需要自然发现并解决子问题（例如，收集木材→制作木板→制作木棍）\n\n2. **Oolong-Real**：一个包含复杂龙与地下城问答记录的长周期任务。这些记录非常长，大约10-12页的参与者对话和骰子投掷结果等。非常困难的检索任务。\n\n3. **DeepDive**：该数据集包含具有挑战性的问答对，通过对知识图谱进行受控遍历构建，生成需要多跳、迭代式网络搜索和综合分散在网络上的信息才能回答的问题。\n\n他们还在ART-E数据集上进行了消融研究，该任务需要智能体搜索用户的电子邮件来回答问题。\n\n对于每个环境，他们还创建了递归智能体系统提示。例如，这是其中一个：\n\n以及另一个（更复杂的，用于TextCraft环境）：\n\n每个环境还提供了一系列可使用的工具和操作。注意，所有环境都包含`launch_subagent`工具。\n\n## 他们的算法\n\n在讨论训练之前，我们需要理解推理时实际构建的是什么。\n\n### 执行树\n\n当语言模型被赋予任务X时，它会生成一个\"轨迹\"。轨迹（或展开）基本上是智能体为尝试完成任务而采取的一系列观察和操作。\n\n在这个展开过程中，智能体可能会选择在委托的子任务X1、X2等上生成子智能体。这就创建了一个有根执行树：\n- 每个节点 = 一个解决一个任务的智能体实例\n- 根节点 = 原始任务\n- 节点的子节点 = 该智能体决定委托的子任务\n\n### 生成动作\n\n智能体构建在Python REPL接口上，递归实现为一个异步函数。如果你熟悉RLM，这种REPL+智能体的方式会很容易理解。\n\n策略本身决定：\n- 是否委托（即调用launch_subagent）\n- 子任务描述是什么（即目标是什么）\n- 请求什么输出格式（是的，它们可以）\n- 是否并行化子任务（使用`await asyncio.gather`）\n- 如何聚合结果（所有结果返回后，主智能体必须聚合它们以形成答案）\n\n使用REPL之所以强大，是因为：\n- 返回类型不受限制——子任务可以返回字符串、字典、结构化对象\n- 父任务可以使用普通Python链接、组合或转换子任务输出\n- 子任务可以顺序执行（如果依赖）或并发执行（通过asyncio）当独立时。Asyncio确保如果子智能体发起新的网络调用（在工具调用期间会发生），它们可以并发运行而不会互相阻塞。\n\n此外，REPL智能体最重要的特性是：当子智能体返回输出时，注意主智能体**不会**直接将其加载到自己的上下文中。输出被保存在一个Python变量（result）中，智能体可以在完全加载之前操作这些变量（比如打印切片、长度或验证其键）。\n\n这些是REPL智能体如今变得如此流行的主要原因之一，它们天然支持这种递归架构。如果你对原因感兴趣，请阅读以下内容：\n\n### 局部节点奖励（信用分配）\n\n在标准的RLVR中，只有根节点在任务完成时获得奖励信号。这是因为我们本质上在使用验证器，只有在完成整个展开后才会得到成功确认。\n\n在递归设置中，这带来了问题：想象你的任务需要一个深度为3的递归树。等到输出传播回来并获得奖励时，底部的叶子智能体已经远在数百个token之外，信用分配基本上失效了。\n\n1. 你不能将整个递归树视为一个平坦序列，并奖励所有内容为一个平坦序列\n2. 只有主智能体的性能是可验证的，因为它直接接收任务并返回输出\n3. 但理想情况下，你希望每个子智能体也能获得奖励信号！\n\nRAO论文使用局部成功信号解决了这个问题。一个LLM评判器（他们使用了gpt-5-mini）评估子任务输出并生成奖励。\n\nLLM评判器基于两个因素奖励节点：\n- **项1**：这个节点是否解决了其分配的任务？（直接成功信号）\n- **项2**：这个节点的子节点（如果存在）是否成功完成了它分配给它们的子任务？（委托质量信号）\n\n对于项2（委托奖励），他们对子节点的成功率取平均，而不是求和或计数。这防止了智能体生成100个琐碎子任务来收集奖励的退化策略。智能体只因其委托质量获得信用，而非数量。\n\n作者报告说，委托奖励在训练早期最有用，此时模型还不知道如何委托。\n\n## 第三部分：策略优化目标\n\n对于实际优化，RAO使用了三个技巧：\n1. 多任务目标\n2. 留一法（LOO）基线\n3. 深度级逆频率加权\n\n让我们逐一分析。\n\n### 3.1 多任务目标\n\n当你训练一个普通的RL智能体时，你有一个任务分布→从中采样任务→运行展开→计算梯度，更新。很简单。\n\n但对于递归智能体，每一次展开都会自动在多个深度生成任务。\n\n所以从一个根任务，你自然生成了深度1和2的4个额外任务。这些被称为策略诱导的子任务分布。\n\nRAO所做的是同时训练来自每个深度的任务。同一个策略（语言模型）被优化为在深度0（根规划器）、深度1（中级委托器）和深度2+（叶子执行器）上都表现良好。\n\n训练目标是一个结合了根任务和子任务的多深度混合！这也是一种基于课程的学习形式，因为子任务是由模型自身生成的。\n\n子任务几乎总是比根任务简单——根据定义，模型只在认为子问题是可管理的时候才生成子任务。\n\n所以在训练早期，模型在根任务上失败（太难），但它仍然可以通过成功完成更简单的深度1和深度2子任务来获得奖励。随着训练进行和模型变得更好，它自然生成更难、更复杂的子任务。无需人工设计课程。\n\n### 3.2 留一法基线\n\n对于每个根任务，RAO采样G个独立的展开树。这在GRPO类训练中是标准的。目标是找出这些独立树中哪些获得了高奖励——然后最大化这种行为。\n\n为此，我们必须计算每个展开相对于其他展开的优势。展开g中任何轨迹τ的优势为：\nA(g) = 展开g的奖励 - 除g外所有其他展开的平均奖励\n\n也就是说，展开g的基线就是所有其他展开的平均根奖励。这被称为\"留一法\"，因为我们不考虑当前轨迹来计算基线。\n\n每个子智能体节点的优势是单独计算的：\n优势 = 局部奖励 - 基线\n\n对于每个子智能体：\n- 局部奖励（回顾\"局部节点奖励\"部分）使用局部LLM策略计算。这取决于当前智能体和生成的子智能体的成功。\n- 对于基线，我们只使用展开内所有节点的留一法基线。\n\n这意味着每个子智能体的优势等于其局部奖励与组内所有其他独立展开的平均奖励相比有多好。\n\n注意：子智能体的基线**不是**相对于同一展开中的其他兄弟/父/子智能体计算的！\n\n### 3.3 深度级逆频率加权\n\n这是另一个实际问题：如果智能体生成4个子节点，每个子节点又生成4个，你就有1+4+16=21个轨迹节点，但只有1个根节点。如果你简单地对所有梯度取平均，叶子节点以16:1的比例主导更新，导致模型过度优化成为好的叶子执行器，而欠优化成为好的根规划器。\n\n我们需要好的规划（在顶部）和好的执行（在叶子）。修复方法：按深度级进行逆频率加权。\n\n设B_d为批次中所有深度d轨迹的集合。深度d每个轨迹的权重为：\nw = α / |B_d|\n\n其中α是确保总批次权重保持不变的归一化常数。|B_d|是该深度的轨迹数量。\n\n论文引用：直观地说，这为批次中出现更频繁的深度轨迹分配更小的权重，减少了树中密集层级主导学习的倾向，而归一化保持整体更新幅度大致不变。\n\n## 整合起来\n\n每个节点都有自己的轨迹，策略更新独立地应用于每个节点的每个轨迹。\n\n当单个智能体实例在任务X上运行时，它生成一个token序列：\n\n这个完整的token序列就是该节点的轨迹。子智能体生成的token**不是**这个轨迹的一部分！它们只作为观察（async_launch_subagent的返回值）出现。\n\n这意味着，对于每个节点X，梯度更新只触及该节点自身生成的token。具体来说是助手生成的token（推理+动作）。系统提示、任务描述和观察（包括子节点输出）是上下文——它们不被训练。\n\n子节点的输出通过REPL返回。打印它会影响父节点的未来token，但子节点自身的token是单独训练的，作为子节点自身轨迹的一部分。\n\n给定节点的奖励是智能体成功+委托奖励的组合（如前所述）。对于根智能体，成功奖励直接来自环境，委托奖励使用LLM评判器对其子节点的评分计算。\n\nLOO基线在每个展开的根节点计算。这个相同的基线用于所有子智能体所有轨迹的优势计算，方法是从它们的局部节点奖励中减去LOO基线。\n\n## 一系列\"啊哈\"结果\n\n### 1. 上下文管理技能在训练后期才进化\n\n在Oolong-Real训练期间，递归智能体被限制在32K上下文窗口，但需要处理55K+ token的文档。它尝试将整个输入文档打印到根上下文中，立即填满并崩溃了自己的上下文窗口。\n\n然后完全自主地，它放弃了这种策略，学会了正确的方法：将输入分块，并将每个块委托给子智能体。\n\n### 2. 即使不需要递归，递归也有帮助\n\n即使有完整的40K上下文窗口，足以在不使用递归的情况下解决任务，递归智能体仍然比单智能体基线训练得更快，表现更好。\n\n为什么？因为子智能体奖励充当了密集的过程奖励。每个子任务完成都在任务中途给出训练信号，而不是只在最后。分而治之仍然不可战胜。\n\n### 3. 分而治之是可迁移的\n\n模型只在中等难度的TextCraft任务上训练过。它在训练中从未见过困难任务。在评估时，它泛化到了更困难的任务。论文假设这是因为分而治之是一种可迁移的策略——如果你学会了很好地分解中等难度问题，你可以递归地应用相同的分解模式来解决更难的问题。\n\n### 4. 一个30B模型接近Claude、o3和GPT-5-mini\n\n在Oolong-Real上，他们训练的递归智能体获得了0.320的平均奖励。一个30B的开源模型，仅在这个特定任务上用RL训练，几乎匹配了万亿参数的前沿模型！\n\n### 5. 顺序任务更慢但更聪明\n\n在DeepDive上，递归智能体比单智能体慢18倍。单智能体很快，因为它早早放弃并走捷径。递归智能体在它独特解决的困难任务上使用深度4+，精确地在需要的地方分配更多计算。两个智能体都能解决的任务大约需要深度2.9，但只有递归智能体能解决的任务需要深度约4。\n\n### 6. RAO在困难任务上明显有帮助，但在简单任务上呢？\n\n为了探究这一点，作者在ART-E上测试了RAO——一个电子邮件搜索基准，智能体需要在用户收件箱中找到一封相关邮件来回答问题。这与DeepDive形成鲜明对比，后者需要大量顺序依赖的网络搜索来综合分散的信息。\n\n在ART-E上的发现：\n- RAO仍然帮助模型在训练早期阶段学习更快\n- 但最终性能趋于一致——单智能体赶上了递归智能体\n\n这很直观：如果任务很短，适合一个上下文窗口，并且不需要分解，递归增加了开销而没有有意义的收益。\n\n### TextCraft-Synth的佐证\n\n在TextCraft-Synth不同难度级别的结果中出现了相同的模式：\n\n| 难度 | 单智能体成功率 | 递归智能体成功率 | 差距 |\n|------|---------------|-----------------|------|\n| 简单 | 0.55 | 1.00 | 小（两者都能解决） |\n| 中等 | 0.17 | 0.96 | 大 |\n| 困难 | 0.00 | 0.88 | 巨大——单智能体完全失败 |\n\n在简单任务上，两种方法收敛到相似的成功率。差距只在中等和困难难度下变得显著——正是在分而治之和扩展视野重要的地方。\n\n## 总结：何时使用RAO\n\n| 条件 | RAO收益 |\n|------|---------|\n| 任务简单且短周期 | 边际——早期学习更快，但收敛到相同的最终性能 |\n| 任务困难（复杂推理/规划） | 大——分而治之解锁了单智能体无法找到的解决方案 |\n| 任务长周期（超出上下文窗口） | 大——每个节点的新鲜上下文窗口至关重要 |\n| 任务可并行化 | 大——并发子智能体减少挂钟时间 |\n\n关键见解是RAO并非普遍更好——它是针对分解确实必要的任务的针对性解决方案。对于简单到单次前向传递就能完成的任务，递归的开销长期来看并不值得。\n\n## 我对训练的问题，已回答\n\n**问：我们是将整个树作为一个序列更新吗？**\n不。每个节点的轨迹独立更新。哪些token获得logit更新？只有每个节点自身轨迹τ_X中助手生成的token。\n\n**问：子节点的输出token会被父节点训练吗？**\n不。子节点的结果保存在Python REPL的变量中。根智能体必须显式打印它们才能加载到上下文中。子节点的完整内部推理和轨迹永远不会出现在父节点的上下文中。\n\n**问：给定轨迹的基线如何计算？**\n展开g中所有节点的基线是共享的。LOO总体上给了我们一个无偏基线，因为被讨论轨迹的奖励被排除在基线平均之外。\n\n**问：子智能体的优势如何计算？**\n局部智能体的优势通过从该子智能体的局部节点奖励中减去基线奖励来计算。局部节点奖励使用LLM作为评判器计算，结合了节点自身的成功和委托奖励（即其子节点的成功）。基线使用上述LOO策略计算。所有子智能体使用相同的基线！\n\n在Arxiv上研究完整论文：http://arxiv.org/abs/2605.06639\n在Paper Breakdown上用AI研究：https://paperbreakdown.com/abs/2605.06639",
-      "article_text_zh_hash": "f349cc651d80c16b",
-      "article_text_zh_translator_v": 2,
-      "article_title": "Recursive Agent Optimization using RL, explained clearly",
-      "author": {
-        "name": "AVB",
-        "username": "neural_avb"
-      },
-      "fetched_at": "2026-05-19T16:32:55Z",
-      "id": "2056358393892540552",
-      "image_urls": [],
-      "text": "https://x.com/i/article/2056249619961798657",
-      "url": "https://x.com/neural_avb/status/2056358393892540552"
-    },
-    "2056660897381425590": {
-      "article_text": "2026 年 5 月 11 日，OpenAI 宣布成立\"OpenAI Deployment Company\"，首期投入 40 亿美元，核心业务只有一件事——把工程师\"派进\"客户公司里，帮他们把 AI 跑起来。\n仅仅一周前，Anthropic 刚把自己的工程师团队\"嵌\"进了金融科技巨头 FIS，要在 2026 年下半年让蒙特利尔银行（BMO）和 Amalgamated Bank 的反洗钱调查\"从几小时压缩到几分钟\"。再往前一周，Google Cloud CEO Thomas Kurian 亲自上 LinkedIn 招人，目标是\"招几百个\"——这条消息在 X 上获得了 130 万次浏览。\n被三家公司同时押注的，是同一个职位：Forward Deployed Engineer，缩写 FDE，中文勉强可以译作\"前置部署工程师\"或\"驻场工程师\"。\n一个原本只在 Palantir 这家\"另类\"软件公司流行了二十年的角色，突然在 2026 年成了整个 AI 行业最炙手可热的岗位。有人喊出口号：FDE 就是 Agent 时代的 PMF 范式。\n这个判断，究竟是真知灼见，还是一厢情愿？要回答这个问题，得先把几件事讲清楚：FDE 到底是什么、为什么 2026 年它突然成了刚需、它和\"PMF\"这个词到底是什么关系——以及，它的局限在哪里。\n\n一、FDE 是什么：不是销售工程师，也不是咨询顾问\n先翻译两个术语，这是理解后面所有讨论的前提。\n**PMF（Product-Market Fit，产品-市场契合）**是硅谷创业圈的\"圣杯\"——意思是你的产品恰好满足了一个真实存在的市场需求，且市场愿意为它付费、复购、口碑传播。一家创业公司在找到 PMF 之前，做什么都像是在游泳；找到之后，就像顺水漂流。\nFDE 这个词面上是\"前置部署工程师\"，但它最早不是这么定义的。这个角色由 Palantir 在 2000 年代初发明，当时 Palantir 的客户是美国情报机构——一群\"既不能清楚说出自己要什么、也不能让你看他们的数据、甚至工作流程本身都在不断变化\"的人。\nPalantir 的联合创始人 Shyam Sankar 有一句话很经典：\"如果一个问题能被需求文档解决，那它早就被解决了。\"\n所以 Palantir 做了一件当时很反常的事：不再问客户\"你想要什么\"，而是把工程师直接派进客户的办公室、军事基地，甚至飞机总装车间，让他们在客户身边写代码。这些人在 Palantir 内部被叫做\"Delta\"——他们要通过同样的工程师面试，但工作环境是空军基地、银行后台、医院 IT 系统，而不是 Palo Alto 的开放办公区。\n这与传统软件公司常见的三种角色都不一样：\n**销售工程师（Sales Engineer）**负责售前演示，签完合同就走；\n**解决方案架构师（Solutions Architect）**主要做技术咨询，不写生产代码；\n咨询顾问通常出方法论、做交付，但不参与厂商的产品迭代。\nFDE 的特殊之处在于：他写客户的生产代码，同时把客户场景里发现的共性问题反哺回厂商的核心产品。Palantir 内部的描述是：\"FDE 的工作范围像一个创业公司的 CTO——在小团队里端到端负责一个高风险项目。\"\n到 2016 年，Palantir 的 FDE 数量一度超过了普通软件工程师。这家公司的整个产品形态——Foundry 平台，本质上就是从无数次 FDE 驻场项目中\"提炼\"出来的。一位曾在 Palantir 做了七年 FDE 的工程师后来总结说，这个模式叫\"砂石路到柏油路\"（gravel road to paved highway）：FDE 在客户现场修出无数条砂石路，产品团队从中找出走的人最多的那几条，把它铺成柏油路，变成平台能力。\n二、2026 年的拐点：为什么三大 AI 公司同时押注 FDE\nPalantir 这个模式，在过去近二十年里，在硅谷主流圈被视为\"异类\"——大多数 SaaS 公司的建议都是\"别学 Palantir，毛利做不上来\"。但 2026 年，情况突然变了。\n5 月 4 日，Anthropic 和 FIS 宣布合作，Anthropic 的 Applied AI 团队和 FDE\"嵌入\"FIS 内部，共同设计金融犯罪 AI Agent。\n5 月 11 日，OpenAI 官宣成立 OpenAI Deployment Company（内部代号\"DeployCo\"），首期 40 亿美元投资，由 TPG 牵头，Advent、Bain Capital、Brookfield 联合领投，合计 19 家投资和咨询机构参与。同时宣布收购应用 AI 咨询公司 Tomoro，后者将带来约 150 名 FDE 和部署专家。\n5 月 12 日，Google Cloud CEO Thomas Kurian 在 LinkedIn 发文，宣布 Google Cloud 内部成立新的\"AI 聚焦组织\"，招聘\"几百名\"FDE。当时 Google Cloud 有 59 个相关职位在挂。\n为什么是现在？为什么是同时？三家公司的判断指向同一个事实：Agent 时代的瓶颈，不在模型本身，而在部署。\n埃森哲（Accenture）的\"Pulse of Change\"调研显示，只有 32% 的企业领导者报告说他们看到了\"持续的、企业范围内的 AI 影响\"。剩下 68% 的状态是——有试点、有 PPT、有 Demo，但没有规模化交付。IBM 在 2026 年初对 2000 名高管的调查中，\"执行速度\"被列为第三大战略优先级。\nOpenAI 在公告里把这层逻辑说得很直白：\"过去几年，超过一百万家企业采用了我们的产品和 API。一个模式越来越清晰——下一阶段企业 AI 的胜负，取决于企业能多有效地把这项技术部署到真实业务场景中。\"\n这背后还有一组数据值得玩味。Anthropic 的对手 OpenAI 据报道在 2026 年初没有完成内部的营收和周活目标，Anthropic 和 Google Gemini 在企业市场不断蚕食份额。OpenAI 应用业务 CEO Fidji Simo 在内部会上把 Anthropic 的进展称为\"警钟\"，并说公司必须\"在生产力场景上做到位\"。\n换句话说，AI 模型本身的\"产品力\"边际收益在下降，但\"把模型变成可用系统\"的工程能力，边际收益在飙升。模型再强，如果跑不进银行的合规流程、跑不通保险公司的理赔系统、跑不进制造业的 MES 系统，它就只是 Demo，不是生意。\nFDE，恰恰是这个转换器。\n三、Agent 时代为什么对 FDE 有\"结构性需求\"\n要理解为什么\"Agent\"和\"FDE\"是天作之合，需要先讲清楚 Agent 和此前 AI 形态的根本区别。\n传统的 SaaS 产品，本质上是\"工具\"：你买 Salesforce，是买一套配置好的销售流程模板，你的人去使用它。工具的边界很清楚——它做什么、不做什么，在产品手册上写得明明白白。\n而 Agent 是\"代劳\"：你不再是用它，而是让它替你做。一个反洗钱 Agent 不是给调查员一个更好的查询界面，而是直接帮调查员把\"从核心系统拉证据、对照已知洗钱模式、判断风险等级、撰写可疑活动报告（SAR）初稿\"这一整套工作流跑完。\n这个差别带来三个后果：\n**第一，Agent 必须深度嵌入客户的真实工作流。**一个 Agent 要\"代劳\"，就必须知道这家银行的合规边界在哪、哪些决定不能自动化、SAR 报告怎么写才会被监管接受、内部数据在哪些系统里、用什么字段命名。这些东西不在产品文档里，只在客户的\"机构肌肉记忆\"里。\n**第二，Agent 的失败是\"业务失败\"，不是\"功能失败\"。**SaaS 少一个按钮，用户抱怨一下。Agent 漏判一笔可疑交易，银行被监管罚款。这意味着 Agent 的部署对\"领域知识\"和\"操作语境\"的依赖比任何前代软件都强。\n**第三，Agent 市场是一个\"既无成熟产品可对标、客户自己也不知道要什么\"的市场。**这恰恰就是 Palantir 当年面对情报机构时的状况。客户能说出\"我希望 AML 调查更快\"，但说不出具体怎么定义\"快\"、用哪些数据源、在哪个环节自动化、保留哪些人类决策点。这种问题用需求文档解决不了，只能让工程师进去观察、试、改、再观察。\nAnthropic 的 FDE 职位描述把这套逻辑写得很清楚：\"在客户系统内部构建生产应用、交付 MCP 服务器、sub-agent、agent skills 等技术产物、提供企业环境下的白手套部署支持、识别可复用的部署模式并反哺回产品和工程团队。\"\n最后那一句——\"反哺回产品和工程团队\"——才是 FDE 模式真正的杠杆。这意味着每一次驻场，既是给客户做一次交付，也是给厂商做一次产品发现。FDE 是厂商伸进市场的触手，带回来的是真实场景的需求样本。\n四、FDE 是不是\"Agent 时代的 PMF 范式\"？这里要给三个保留\n到这里，\"FDE 是 Agent 时代 PMF 范式\"这个判断听起来已经很有说服力了。但泛泛地接受这个结论，会忽略掉几个真实存在的悖论。\n保留一：FDE 可能在解决\"PMF 问题\"，也可能在\"掩盖 PMF 问题\"\nPMF 的本意是\"产品契合市场\"——产品本身就是答案，客户拿来即用、续费、推荐。\n而 FDE 模式的本质是\"用人的工作弥合产品和市场的距离\"。如果一个产品需要派一队工程师驻场半年才能跑起来，严格来说，它的产品本身还没有找到 PMF。\nGartner 的高级分析师 Alex Coqueiro 在最近的一份报告里给出了一个挺刺耳的预测：到 2028 年，70% 的企业将被迫放弃由 FDE 主导的 Agent 项目，原因是\"厂商成本过高、内部缺乏独立演进的能力\"。\n他还指出一个隐蔽的失败模式：\"FDE 工作量在多次部署后没有递减，就是依赖性而非能力被构建出来的信号。当用例成熟后投入不下降，意味着客户在用咨询费的价格买他们本该自己拥有的运营能力。\"\n这是 FDE 模式最大的风险：它可能从\"产品发现机制\"退化成\"永久性的人力填补\"。Palantir 模式之所以成功，关键在\"砂石路变柏油路\"的那一步——客户场景的特殊性最终要被沉淀进产品。如果沉淀这步做不到，FDE 就只是高级外包。\n保留二：这是不是\"伪装成产品公司的咨询公司\"？\n资本市场对这件事的判断也很分裂。\n支持者认为，FDE 模式让 AI 公司有了一条\"前置部署\"的护城河：你越早把工程师派进财富 500 强，就越早控制住企业级 AI 的工作流入口，客户的迁移成本会指数级升高。OpenAI Deployment Company 官方表述提到，合作伙伴们\"赞助的全球超过 2000 家企业\"，将成为 DeployCo 的天然客户池——既是收入来源，也是反馈闭环。\n但批评者指出，这种模式让 AI 公司的财务画像越来越像\"咨询公司+软件公司\"的混合体。Palantir 在二级市场长期被低估，部分原因就是分析师习惯用纯软件 SaaS 的估值框架（高毛利、轻人力）来套它，套不上。当 OpenAI、Anthropic 也开始大规模招 FDE，它们的毛利结构、人均产值、估值倍数，都会受到挑战。\nConstellation Research 的分析师 Larry Dignan 的评价更直接：OpenAI Deployment Company 不像 IBM Consulting 那样独立运营、什么模型都能集成。\"OpenAI Deployment Company 用 Anthropic 的几率为零。OpenAI 把它的服务部门描绘成垂直整合的优势，但 CIO 们会通过'锁定'的视角看这件事。\"\n换句话说：对厂商是 PMF 的范式，对客户可能是供应商锁定的前夜。\n保留三：FDE 可能正在被自己创造的工具替代\n这一层悖论是最有意思的。FDE 之所以贵，在于他们要做大量的\"集成性脏活\"：字段映射、API 对接、legacy 系统翻译、提示词调优、评估框架搭建——这些恰恰是 AI 最擅长自动化的工作类型。\nSalesforce 在 Agentforce 产品上的实践显示，大量 FDE 初期做的\"部署简单 FAQ Agent\"工作，正在被产品本身吸收；FDE 的工作正在向更高抽象层迁移——多 Agent 架构、MCP 协议设计、语音 Agent、coding Agent 的编排。\n2026 年 4 月在纽约由 South Park Commons 主办的一场关于 FDE 的圆桌讨论中，多位 FDE 负责人形成的共识是：模型越强，FDE 的价值不是下降，而是上升——但价值的来源变了。低层级集成工作被 AI 吃掉，FDE 的核心价值转向\"在客户现场判断该解决哪些问题、该把什么标准化\"这种业务判断。\n这是个微妙的均衡。如果 AI 工具进化的速度足够快，FDE 模式的\"集成杠杆\"会被压缩，留下的只是产品判断和业务咨询——那它就真的变成\"高端咨询\"了。但如果 AI 进化遇到瓶颈，集成的复杂性会维持很多年，FDE 就是一门长期生意。\n五、对不同人，这件事的意义不一样\n回到最初的问题：FDE 是不是 Agent 时代的 PMF 范式？\n如果一定要给一个判断，我倾向于这样表述：FDE 是 Agent 时代企业级 AI 从 Demo 走向生产系统的\"必要中间态\"，但它本身不是 PMF——它是寻找 PMF 的方法。\n这个表述对不同身份的人，含义不同：\n对 AI 厂商：FDE 不是收入业务，是产品发现机制。如果你把它当咨询业务做，会陷入毛利陷阱；只有持续把驻场经验沉淀成可复用的产品能力——MCP server、agent skills、评估框架、部署模板——FDE 的投入才会有复利。\n对企业客户：FDE 的真正价值，不是让厂商\"帮你建好\"，而是\"在帮你建的过程中，把能力转移给你\"。Anthropic 和 FIS 合作的官方表述里，这句话写得很关键：\"transfer knowledge so FIS can build and scale additional agents independently over time\"（转移知识，让 FIS 未来可以独立构建和扩展更多 Agent）。如果合同里没有这条退出机制，FDE 模式就是温柔的锁定。\n对工程师：这是 2026 年最稀缺的技能组合——技术深度、客户语境理解、业务判断力。Google 列出的 FDE 职级薪酬范围从 12.7 万到 26.5 万美元基薪，资深包平均 23.8 万美元，顶级接近 40 万美元，而且这部分预算来自客户扩展支出，不是公司内部 R&D headcount，在大裁员周期里反而是抗周期的。\n对投资人：用纯 SaaS 估值框架套 FDE 驱动的 AI 公司会失真。需要看的不是当下毛利，而是\"砂石路变柏油路\"的速度——每一次驻场后，产品本身的可复用能力提升了多少。Palantir 用了快二十年才让市场理解这一点，OpenAI 和 Anthropic 不会有那么多耐心。\n结语：范式不会自己宣布自己的诞生\nPMF 这个词最早是 Marc Andreessen 在 2007 年提出的，他当时给出的判断标准非常朴素：\"你不需要解释，你就知道你找到了。\"——用户开始疯狂涌入，产品供不应求，系统持续过载。\n按这个标准，2026 年 5 月的 AI 企业市场，有\"PMF 的雏形\"，但还没有\"PMF 的胜利\"。三家公司同时押注 FDE，与其说是宣告范式胜利，不如说是承认了一个事实：在 Agent 成为真正的\"软件之上的软件\"之前，我们需要人，需要驻场的人，需要懂客户、也懂模型的人，去把那些没有铺好的路一段一段走通。\n也许真正的 PMF 范式，要等到 FDE 们走完的路足够多、足够清晰，以至于 Agent 自己能在上面跑了——那时候，这场关于 FDE 的讨论，就会变成一个时代的注脚。\n但 2026 年这一年，所有人都还在赶路。\n本文数据与案例来自 OpenAI、Anthropic、Google、FIS 官方公告，以及 The Information、Pragmatic Engineer、Constellation Research、CIO Magazine、Gartner 等公开报道，数据截至 2026 年 5 月。",
-      "article_title": "OpenAI、Anthropic 都开始押注 FDE，FDE 才是 Agent 时代的 PMF 范式？",
-      "author": {
-        "name": "Kafka",
-        "username": "kfk_ai"
-      },
-      "fetched_at": "2026-05-19T16:32:55Z",
-      "id": "2056660897381425590",
-      "image_urls": [],
-      "text": "https://x.com/i/article/2056652524380471296",
-      "url": "https://x.com/kfk_ai/status/2056660897381425590"
-    },
     "2056753169888334312": {
       "article_text": "",
       "article_title": null,
@@ -16906,10 +16868,6 @@
       "https://x.com/nothiingf4/status/2056504531576603124",
       "https://x.com/nothiingf4/status/2056504446792958231"
     ],
-    "2056462216430535062": [
-      "https://x.com/neural_avb/status/2056462216430535062",
-      "https://pbs.twimg.com/amplify_video_thumb/2056460336056991744/img/FJyhFFMbYXAYLmiG.jpg"
-    ],
     "2056541498158481512": [
       "https://x.com/gvh41/status/2056541498158481512",
       "http://x.com/i/article/2056536969836969984",
@@ -16925,10 +16883,6 @@
       "https://x.com/yoheinakajima/status/2056602373368533359",
       "https://x.com/yoheinakajima/status/2056604488954482943"
     ],
-    "2056662695345348769": [
-      "https://x.com/Ayuan_ai/status/2056662695345348769",
-      "https://x.com/Ayuan_ai/status/2057769007994786039"
-    ],
     "2056682591600951523": [
       "https://x.com/nini_incrypto_/status/2056682591600951523",
       "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"
@@ -16943,21 +16897,6 @@
       "https://x.com/yoyo__AI/status/2056713803392561663",
       "https://x.com/yoyo__AI/status/2056710359122387383",
       "https://x.com/yoyo__AI/status/2056989235887120537"
-    ],
-    "2056734226201100603": [
-      "https://x.com/Alfred_Lin/status/2056734226201100603",
-      "http://x.com/i/article/2056434896411996160",
-      "https://x.com/Alfred_Lin/status/2056775650778996929",
-      "https://x.com/Alfred_Lin/status/2057183477205029006",
-      "https://x.com/Alfred_Lin/status/2056756723197821288",
-      "https://x.com/Alfred_Lin/status/2057183205657297061",
-      "https://x.com/Alfred_Lin/status/2057183073868112122",
-      "https://x.com/Alfred_Lin/status/2057183121880363204",
-      "https://x.com/Alfred_Lin/status/2056743471424401511",
-      "https://x.com/Alfred_Lin/status/2056742884242862080",
-      "https://x.com/Alfred_Lin/status/2057126471748170226",
-      "https://x.com/Alfred_Lin/status/2056743041344610593",
-      "https://x.com/Alfred_Lin/status/2056775923912073283"
     ],
     "2056740204380119344": [
       "https://x.com/AYi_AInotes/status/2056740204380119344",
@@ -16975,11 +16914,6 @@
       "https://x.com/AYi_AInotes/status/2056752637828039137",
       "https://x.com/AYi_AInotes/status/2056780752931401811",
       "https://x.com/AYi_AInotes/status/2056757330889327038"
-    ],
-    "2056754091817361670": [
-      "https://x.com/lotte_verheyden/status/2056754091817361670",
-      "http://x.com/i/article/2054598592980234240",
-      "https://x.com/lotte_verheyden/status/2056810675327148165"
     ],
     "2056754959819915459": [
       "https://x.com/nutlope/status/2056754959819915459",
@@ -21719,16 +21653,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
-      "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067277488607137866",
+      "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067272387905671362",
       "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067291961208234047",
       "http://skills.sh",
-      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -21742,21 +21676,21 @@
       "https://x.com/Marcos12345rico/status/2067264882408333763",
       "https://x.com/Marcos12345rico/status/2067264884560023579",
       "http://palmier.io",
-      "https://x.com/Marcos12345rico/status/2067388977808551961",
-      "https://x.com/Marcos12345rico/status/2067357490811912657",
       "https://x.com/Marcos12345rico/status/2067357788431421664",
+      "https://x.com/Marcos12345rico/status/2067357490811912657",
+      "https://x.com/Marcos12345rico/status/2067388977808551961",
       "https://x.com/Marcos12345rico/status/2067388363850600923",
+      "https://x.com/Marcos12345rico/status/2067576679745122443",
+      "https://x.com/Marcos12345rico/status/2067388338755997788",
+      "https://x.com/Marcos12345rico/status/2067420027922358450",
       "https://x.com/Marcos12345rico/status/2067420091436654778",
       "https://pbs.twimg.com/tweet_video_thumb/HLDznUOW8AACIzc.jpg",
-      "https://x.com/Marcos12345rico/status/2067420027922358450",
       "https://x.com/Marcos12345rico/status/2067419834560708644",
-      "https://x.com/Marcos12345rico/status/2067388338755997788",
       "https://x.com/Marcos12345rico/status/2067419885345345855",
-      "https://x.com/Marcos12345rico/status/2067576679745122443",
+      "https://x.com/Marcos12345rico/status/2067420595755614422",
       "https://x.com/Marcos12345rico/status/2067420479015588205",
-      "https://x.com/Marcos12345rico/status/2067419791749529797",
-      "https://x.com/Marcos12345rico/status/2067420648243142768",
-      "https://x.com/Marcos12345rico/status/2067420622456586699"
+      "https://x.com/Marcos12345rico/status/2067420622456586699",
+      "https://x.com/Marcos12345rico/status/2067419791749529797"
     ],
     "2067265619159081028": [
       "https://x.com/chenchengpro/status/2067265619159081028"
@@ -21814,6 +21748,10 @@
       "https://x.com/IBuzovskyi/status/2067488962386546938",
       "https://substack.com/@yanxbt"
     ],
+    "2067320100911493454": [
+      "https://x.com/spandan_madan/status/2067320100911493454",
+      "http://x.com/i/article/2067307652779225088"
+    ],
     "2067320699627122716": [
       "https://x.com/trybasis/status/2067320699627122716",
       "http://x.com/i/article/2066911054584565760"
@@ -21821,9 +21759,9 @@
     "2067329489252868241": [
       "https://x.com/benjaminsehl/status/2067329489252868241",
       "http://x.com/i/article/2067312987946323968",
-      "https://x.com/benjaminsehl/status/2067613782780657687",
       "https://x.com/benjaminsehl/status/2067612910235288048",
       "https://x.com/benjaminsehl/status/2067424850193314089",
+      "https://x.com/benjaminsehl/status/2067613782780657687",
       "https://x.com/benjaminsehl/status/2067334332247670826",
       "https://x.com/benjaminsehl/status/2067381524324819192",
       "https://x.com/benjaminsehl/status/2067370840295911790"
@@ -21855,24 +21793,33 @@
     ],
     "2067357113869898150": [
       "https://x.com/hnshah/status/2067357113869898150",
-      "https://x.com/hnshah/status/2067293695989465176",
-      "https://www.hiten.com/understanding-github"
+      "https://x.com/hnshah/status/2067514789497344147"
     ],
     "2067364351678583245": [
       "https://x.com/AnneliesGamble/status/2067364351678583245",
       "http://mstack.ai"
     ],
+    "2067370070108422272": [
+      "https://x.com/ArchiveExplorer/status/2067370070108422272",
+      "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg"
+    ],
     "2067375373449605381": [
       "https://x.com/trevin/status/2067375373449605381",
       "http://x.com/i/article/2067326049382494208",
-      "https://x.com/trevin/status/2067614026239209696",
       "https://x.com/trevin/status/2067442661393682755",
       "https://x.com/trevin/status/2067453115616633167",
-      "https://x.com/trevin/status/2067414228810830037"
+      "https://x.com/trevin/status/2067414228810830037",
+      "https://x.com/trevin/status/2067614026239209696"
     ],
     "2067396818053521523": [
       "https://x.com/startupideaspod/status/2067396818053521523",
       "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
+    ],
+    "2067400542146773454": [
+      "https://x.com/jeazous/status/2067400542146773454",
+      "http://x.com/i/article/2067397138816868352",
+      "https://x.com/jeazous/status/2067646623392412021",
+      "https://x.com/jeazous/status/2067410808888279106"
     ],
     "2067417702394712090": [
       "https://x.com/Restless_Egg/status/2067417702394712090",
@@ -21880,8 +21827,7 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2067610333263589821",
-      "https://pbs.twimg.com/media/HLGgogEakAATMYy.jpg"
+      "https://x.com/_naiVe_2/status/2067639231351230855"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -21891,15 +21837,44 @@
       "https://x.com/nurijanian/status/2067503217035092253",
       "http://x.com/i/article/2067497511229718528"
     ],
+    "2067540972150628777": [
+      "https://x.com/UncleJAI/status/2067540972150628777",
+      "http://x.com/i/article/2067539211620667393",
+      "https://x.com/UncleJAI/status/2067551029240242341",
+      "https://x.com/UncleJAI/status/2067588634975576355",
+      "https://x.com/UncleJAI/status/2067592138100265322",
+      "https://x.com/UncleJAI/status/2067588912978231778",
+      "https://x.com/UncleJAI/status/2067542821339558314",
+      "https://x.com/UncleJAI/status/2067545643279933789",
+      "https://x.com/UncleJAI/status/2067553504345174052",
+      "https://x.com/UncleJAI/status/2067588274965868610",
+      "https://x.com/UncleJAI/status/2067552022807847064",
+      "https://x.com/UncleJAI/status/2067545531614957725",
+      "https://x.com/UncleJAI/status/2067592325854023739",
+      "https://x.com/UncleJAI/status/2067588506772549769",
+      "https://x.com/UncleJAI/status/2067545789203898712",
+      "https://x.com/UncleJAI/status/2067563124774056413",
+      "https://x.com/UncleJAI/status/2067597733557657691",
+      "https://x.com/UncleJAI/status/2067563534867910957",
+      "https://x.com/UncleJAI/status/2067542639902384254",
+      "https://x.com/UncleJAI/status/2067632497014546810"
+    ],
     "2067603753734193390": [
       "https://x.com/SidebarIO/status/2067603753734193390",
       "https://ailayoffs.rajnandan.com/?ref=sidebar",
       "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg",
-      "https://x.com/SidebarIO/status/2066898102255038618",
-      "https://arun.is/blog/jr-logo/?ref=sidebar",
-      "https://pbs.twimg.com/media/HK8Y3sYXwAAH17n.jpg"
+      "https://x.com/SidebarIO/status/2067658360321663316",
+      "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
+    ],
+    "2067626075882983763": [
+      "https://x.com/EXM7777/status/2067626075882983763",
+      "http://x.com/i/article/2067526637747347456",
+      "https://x.com/EXM7777/status/2067627466726744265",
+      "http://machina.fyi",
+      "https://x.com/EXM7777/status/2067632028711784476"
     ]
   },
-  "updated_at": "2026-06-18T14:25:32Z",
+  "updated_at": "2026-06-18T18:11:24Z",
   "window": "recent"
 }
