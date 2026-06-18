@@ -5195,7 +5195,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-11T12:30:13.888595Z",
+      "article_fetch_attempted_at": "2026-06-18T16:04:17.513102Z",
       "article_image_urls": [
         "https://moodr.app/og.webp"
       ],
@@ -5232,8 +5232,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-11T12:30:13.888595Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-18T16:04:17.513102Z",
       "article_image_urls": [
         "https://flighty.app/wwdc26/static/card26-v2.png"
       ],
@@ -5270,7 +5270,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T12:30:13.888595Z",
+      "article_fetch_attempted_at": "2026-06-18T16:04:17.513102Z",
       "article_image_urls": [
         "https://lassie.ai/og-image.png",
         "https://www.lassie.ai/_next/image?url=https%3A%2F%2Fcdn.lassie.ai%2Fassets%2Fmedia%2Fwebsite%2Fhero%2Fhero-cover-a27631dc-5a4b-4521-aaf0-eed19c9c2be6.jpg&w=3840&q=75",
@@ -5376,9 +5376,9 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-11T12:30:13.888595Z",
+      "article_fetch_attempted_at": "2026-06-18T16:04:17.513102Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/dae9fe79add60cc8d3d5f0f98a334dc4761c1fa7965a63abac9a659302da0090/Kikobeats/untracked",
+        "https://opengraph.githubassets.com/96e7e1622c654b22ff06a9e57d70a5be26e44e5311a9ea420e40a46e6932a10c/Kikobeats/untracked",
         "https://github.com/Kikobeats/untracked/raw/master/demo.png",
         "https://camo.githubusercontent.com/1caccdab269480f2264367867fdca7bd56229a1eb39a322158b4e50d655342e1/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f756e747261636b65642e7376673f7374796c653d666c61742d737175617265",
         "https://camo.githubusercontent.com/89b2b6256d33576a904937b0f827c8003421777a4344ae0272741b8e2484b738/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f756e747261636b65642e7376673f7374796c653d666c61742d737175617265"
@@ -104191,5 +104191,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-18T12:05:14.344210Z"
+  "updated_at": "2026-06-18T16:04:24.945324Z"
 }
