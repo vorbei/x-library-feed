@@ -109,6 +109,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Rahul's right that the bottleneck is review now, not writing the code. One rail I'd add.\n\nEmpirical verification (does it produce correct outputs?) only works if something wrote down what \"correct\" is. So I document the solution first with AI: the plan, the decisions, the spec for what it does and why. Then the automated reviews check the code against that, not just its own outputs.\n\nReview the artifacts, not the diff.\n\nThe code is the agent's. The artifact layer is yours.",
+      "text_zh": "Rahul说得对，现在的瓶颈是审查，而不是写代码。我想补充一点。\n\n经验验证（它是否产生正确输出？）只有在有人写下了什么是\"正确\"的情况下才有效。所以我先用AI记录解决方案：计划、决策、关于它做什么以及为什么做的规范。然后自动化审查将代码与这些记录进行比对，而不仅仅是检查代码本身的输出。\n\n审查工件，而不是差异。\n\n代码属于智能体。工件层属于你。",
+      "text_zh_hash": "db7be19c03c11dd8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2067334006899696101"
     },
     {
@@ -150,6 +153,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI doesn’t just boost productivity — it reallocates income from labour to capital at scale.\n\nThe Agentic Displacement Model shows how firms can see profits nearly quadruple while the broader demand base erodes, eventually settling into a high-margin, low-value equilibrium.\n\n25-year framework. Three phases. One uncomfortable conclusion.\n\nFull report ↓",
+      "text_zh": "AI不仅提升生产力——它还在大规模地将收入从劳动力重新分配至资本。\n\n代理型替代模型显示，企业利润可能近乎翻两番，而整体需求基础却在萎缩，最终形成高利润率、低价值的均衡状态。\n\n25年框架。三个阶段。一个令人不安的结论。\n\n完整报告 ↓",
+      "text_zh_hash": "c510d06468ad97bd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/convequity/status/2067298189061795856"
     },
     {
@@ -201,6 +207,9 @@
         "bookmark@chumsdock"
       ],
       "text": "today we're launching  @Palmier_io, a video editor Claude can edit.\n\nuse AI to edit, organize, and generate footage directly in the timeline.\n\nfinally, a video editor built for AI.\n\nopen-source. mac native. available now. https://t.co/LjYNpH4Rot",
+      "text_zh": "今天我们正式发布 @Palmier_io——一款 Claude 可直接编辑的视频编辑器。\n\n利用 AI 在时间线上直接编辑、整理和生成素材。\n\n终于，一款为 AI 而生的视频编辑器。\n\n开源。原生 Mac 应用。现已可用。https://t.co/LjYNpH4Rot",
+      "text_zh_hash": "5107037baa87b458",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Marcos12345rico/status/2067264877463261400"
     },
     {
@@ -282,6 +291,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A detailed review of Inference Engineering",
+      "text_zh": "# 推理工程深度解析\n\n推理工程（Inference Engineering）是人工智能领域中一个快速发展的分支，专注于优化和部署训练好的机器学习模型，使其能够在生产环境中高效运行。与模型训练不同，推理工程关注的是模型在部署后的性能、延迟、吞吐量和资源利用率。\n\n## 核心概念\n\n### 1. 推理优化技术\n\n推理工程涉及多种优化技术，包括：\n\n- **模型量化**：将模型权重从FP32降低到INT8或FP16，显著减少内存占用和计算需求\n- **知识蒸馏**：将大型教师模型的知识迁移到更小的学生模型\n- **剪枝**：移除对模型输出影响较小的神经元或连接\n- **算子融合**：将多个连续操作合并为单一操作，减少内存访问开销\n\n### 2. 推理引擎与框架\n\n主流推理引擎包括：\n\n- **TensorRT**：NVIDIA的高性能推理优化器，支持层融合、精度校准和内核自动调优\n- **ONNX Runtime**：跨平台推理引擎，支持多种硬件加速器\n- **OpenVINO**：Intel的推理优化工具套件\n- **vLLM**：专为大语言模型设计的高吞吐量推理引擎\n- **llama.cpp**：轻量级LLM推理实现，支持CPU推理\n\n### 3. 服务架构\n\n现代推理系统通常采用以下架构模式：\n\n- **批处理推理**：将多个请求合并为批次处理，提高GPU利用率\n- **连续批处理**：动态管理请求队列，实现实时流式推理\n- **模型并行**：将大型模型分布到多个设备上\n- **流水线并行**：将模型层分布到不同设备，实现流水线处理\n\n## 关键挑战\n\n### 延迟与吞吐量的平衡\n\n推理工程需要在响应时间和处理能力之间找到最佳平衡点。对于实时应用（如聊天机器人），低延迟至关重要；而对于离线批处理任务，高吞吐量更为重要。\n\n### 内存管理\n\n大型语言模型（LLM）通常需要数十GB的显存。有效的内存管理策略包括：\n\n- **KV缓存优化**：使用PagedAttention等技术管理注意力机制的键值缓存\n- **内存卸载**：将不活跃的层卸载到CPU内存\n- **前缀缓存**：缓存共享提示词的计算结果\n\n### 硬件适配\n\n不同硬件平台需要不同的优化策略：\n\n- GPU：利用Tensor Core、CUDA图优化\n- CPU：使用AVX指令集、MKL加速\n- 专用芯片：适配TPU、NPU等定制加速器\n\n## 实践案例\n\n### 大语言模型推理\n\n以LLM推理为例，现代推理系统通常采用以下技术栈：\n\n1. **模型加载**：使用量化技术（如GPTQ、AWQ）压缩模型\n2. **推理引擎**：选择vLLM或TensorRT-LLM\n3. **服务框架**：通过FastAPI或Triton Inference Server暴露API\n4. **监控与调优**：使用Prometheus和Grafana监控性能指标\n\n### 性能基准测试\n\n评估推理系统时，常用指标包括：\n\n- **首Token延迟**：从请求到生成第一个token的时间\n- **Token生成速率**：每秒生成的token数量\n- **并发处理能力**：同时处理的请求数量\n- **内存占用**：推理过程中的峰值内存使用\n\n## 未来趋势\n\n推理工程正在向以下方向发展：\n\n- **自适应推理**：根据输入复杂度动态调整计算资源\n- **稀疏推理**：利用模型稀疏性减少计算量\n- **边缘推理**：将推理能力部署到移动设备和IoT设备\n- **多模态推理**：支持文本、图像、音频等多种输入类型\n\n## 总结\n\n推理工程是连接AI研究与实际应用的关键桥梁。随着模型规模不断增长和应用场景日益复杂，高效的推理技术将成为AI落地的核心竞争力。掌握推理工程不仅需要理解底层硬件特性，还需要熟悉各种优化算法和系统设计模式。",
+      "text_zh_hash": "6c00794f6d418aa7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/philipkiely/status/2067251298064601567"
     },
     {
@@ -328,6 +340,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I wrote this in Feb. It's more true now than ever. \n\nAs the labs absorb the scaffolding that used to wrap the model, any product that's just generic reasoning over readily available data gets displaced by a better model. \n\nBut 2 positions stay out of reach:\n\n1. Mint - being in the flow when an action becomes a structured record. A vault stores value, a ledger records it, a mint creates it. Examples of companies owning this position:\n@periodiclabs - they're building autonomous labs that mint experimental data (including the negative results no paper publishes) that exists nowhere else. \n@nablabio - they own the full dry/wet-lab loop; every antibody design tested against reality is a labeled predicted-vs-measured pair. \n@VinciPhysics - they're minting the verified physics record at manufacturing resolution\n\n2. Accountability - underwriting the outcome, not just pricing it. You can't underwrite what you can't prove, so you end up owning the record itself. Some examples: \nhttp://mstack.ai absorbs this as the chemical supplier of record so off-spec batches are theirs to own. \nThe most extreme version is owning the asset outright: \n@KoBold_Metals acquires and develops mines to ultimately solve the mineral supply gap. \n@noxmetals is producing cut metal parts through a metals service center model. \n@loombotic is manufacturing wire harnesses. \nAll of these companies are not only creating data but also owning the outcome itself, and thus absorbing any potential downside risks.\n\nOne nuance: a position is only as defensible as its feedback loop is fast. When the outcome takes years to verify, you can't mint against it yet. So you find the fastest-closing loop available and mint there first. Example: \n@NOETIK_ai – they're compressing the decade-long cancer efficacy loop by using foundation models trained on human tumor biology to predict which therapies should work, for which patients -> thus not having to wait a decade for trial readouts\n\nThese 2 positions compound. Own where the data is created and the downside when it breaks, and over time you stop describing the industry's reality and start defining it.",
+      "text_zh": "我是在二月写下这些的。如今，它比以往任何时候都更真实。\n\n随着实验室吸收了曾经包裹模型的脚手架，任何仅基于现成数据进行通用推理的产品都会被更优的模型所取代。\n\n但有两个位置仍遥不可及：\n\n1. 铸造（Mint）——当一个行动成为结构化记录时，身处流程之中。金库存储价值，账本记录价值，铸币厂创造价值。拥有这一位置的公司的例子：\n   @periodiclabs —— 他们正在构建自主实验室，铸造实验数据（包括那些没有论文发表的阴性结果），这些数据在其他地方不存在。\n   @nablabio —— 他们拥有完整的干/湿实验循环；每个经过现实检验的抗体设计都是一个标记的预测值与测量值配对。\n   @VinciPhysics —— 他们正在以制造级分辨率铸造经过验证的物理记录。\n\n2. 问责（Accountability）——为结果承保，而不仅仅是定价。你无法为你无法证明的东西承保，因此你最终会拥有记录本身。一些例子：\n   http://mstack.ai 作为化学品供应商的记录方吸收这一点，因此不合格批次由他们负责。\n   最极端的形式是直接拥有资产：\n   @KoBold_Metals 收购并开发矿山，以最终解决矿产供应缺口。\n   @noxmetals 通过金属服务中心模式生产切割金属零件。\n   @loombotic 正在制造线束。\n   所有这些公司不仅创造数据，还拥有结果本身，从而吸收了任何潜在的下行风险。\n\n一个细微差别：一个位置的防御性取决于其反馈循环的速度。当结果需要数年才能验证时，你还无法针对它进行铸造。因此，你要找到可用的最快闭合循环，并首先在那里铸造。例如：\n   @NOETIK_ai —— 他们通过使用基于人类肿瘤生物学训练的基础模型来预测哪些疗法对哪些患者有效，从而压缩了长达十年的癌症疗效循环 -> 因此无需等待十年的试验读数。\n\n这两个位置会相互叠加。拥有数据被创造的地方，以及当数据失效时的下行风险，随着时间的推移，你将不再描述行业的现实，而是开始定义它。",
+      "text_zh_hash": "78392ceda64293e4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnneliesGamble/status/2067364351678583245"
     },
     {
@@ -408,6 +423,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Restricting AI models over national security concerns suggests an end to the Trump administration’s hands-off approach to the technology https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh": "出于国家安全考虑限制AI模型，意味着特朗普政府对这项技术放任自流的做法即将终结 https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "4f036eba068c5be2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/business/status/2067348732127895753"
     },
     {
@@ -458,6 +476,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Deployment Simulation works best with representative production data, which external evaluators often can’t access. \n\nIn a companion post for our Alignment blog, we also explore the public WildChat dataset and find that, while less precise, it still provides a useful signal about deployment behavior.\nhttps://alignment.openai.com/validating-public-evals/",
+      "text_zh": "部署模拟在具有代表性的生产数据上效果最佳，而外部评估者通常无法获取这些数据。\n\n在我们对齐博客的配套文章中，我们还探讨了公开的WildChat数据集，发现尽管其精确度较低，但仍能提供关于部署行为的有用信号。\nhttps://alignment.openai.com/validating-public-evals/",
+      "text_zh_hash": "4efe5a0fcbc7aee5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/OpenAI/status/2066969642774720961"
     },
     {
@@ -622,6 +643,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Was the Trump admin's export control against Anthropic a last resort or the beginning of a licensing regime that restricts foreign employees, as some officials have long pushed for?\n\nLots of new details in this piece w/ @steph_palazzolo and @erinkwoo:  \n\nhttps://www.theinformation.com/articles/anthropic-ban-stirs-concerns-openai-beyond-crackdown-foreign-ai-talent",
+      "text_zh": "特朗普政府对Anthropic的出口管制是最后手段，还是一些官员长期推动的、限制外籍员工的许可制度的开端？\n\n本文与@steph_palazzolo和@erinkwoo共同披露了大量新细节：\n\nhttps://www.theinformation.com/articles/anthropic-ban-stirs-concerns-openai-beyond-crackdown-foreign-ai-talent",
+      "text_zh_hash": "d22d7487b1f5d08d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/leomschwartz/status/2066994231139299469"
     },
     {
@@ -680,6 +704,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "loop engineering only holds up if the loop can remember. what that actually means:\n\nwithout memory:\n-> the constraint on a long-running loop was never intelligence or prompting, it's memory. the loop outran what it could hold\n-> the real damage isn't forgetting. the loop re-ingests its own output, so an early mistake becomes ground truth for every pass after. it launders its own mistakes into facts\n-> 900 passes later it's exactly where pass 1 was, and no prompt fixes that\n\nwith memory:\n-> recall isn't the test. the question a loop actually asks is, given attempts 1 through 46, what do you do on 47\n-> a flat MEMORY.md isn't a memory system. it rots, bloats context, and matches on keywords. you want recall by meaning, with facts that update in place\n-> that's what turns the circle into a spiral. the loop gives an agent persistence across time, memory gives it persistence across forgetting\n\nthe memory layer is the whole difference",
+      "text_zh": "循环工程只有在循环能够“记住”时才成立。这实际意味着：\n\n**没有记忆时：**\n→ 长时循环的瓶颈从来不是智能或提示词，而是记忆——循环会超出其承载能力\n→ 真正的损害并非遗忘。循环会重新摄入自身输出，早期的一个错误会成为后续每一轮迭代的“基准事实”。它把自己的错误洗白成事实\n→ 900轮迭代后，它仍停留在第1轮的位置，没有任何提示词能修复这个问题\n\n**拥有记忆时：**\n→ 考验不在于“回忆”。循环真正问的问题是：给定第1到第46次尝试，第47次该怎么做？\n→ 一个扁平的 MEMORY.md 文件不是记忆系统。它会腐化、膨胀上下文，且仅靠关键词匹配。你需要的是按语义召回，且事实能原地更新\n→ 这正是把“圆圈”变成“螺旋”的关键。循环赋予智能体跨越时间的持久性，记忆则赋予它跨越遗忘的持久性\n\n记忆层就是全部的区别所在。",
+      "text_zh_hash": "524877dce3549fec",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/himanshutwtxs/status/2067448809278583295"
     },
     {
@@ -920,6 +947,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The confusing matter of Mythos. https://www.bloomberg.com/news/newsletters/2026-06-17/us-order-on-anthropic-models-signals-new-era-for-ai-controls?taid=6a32c55647689a0001d23679&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh": "关于Mythos的困惑之事。",
+      "text_zh_hash": "c861e2649acfbd8b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/business/status/2067276977757618201"
     },
     {
