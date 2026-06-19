@@ -2518,7 +2518,7 @@
       "x_status_id": "2065091824927043655"
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T15:52:48.502532Z",
+      "article_fetch_attempted_at": "2026-06-19T18:20:44.531840Z",
       "article_image_urls": [
         "https://terminalgraph.com/og-image.png?v=2",
         "https://terminalgraph.com/graphs/hero.svg"
@@ -2559,7 +2559,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T15:52:48.502532Z",
+      "article_fetch_attempted_at": "2026-06-19T18:20:44.531840Z",
       "article_image_urls": [
         "https://www.facebook.com/tr?id=974176008946637&ev=PageView&noscript=1"
       ],
@@ -104530,5 +104530,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-19T15:52:47.224919Z"
+  "updated_at": "2026-06-19T18:20:45.804738Z"
 }
