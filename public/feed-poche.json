@@ -69,6 +69,9 @@
         }
       ],
       "title": "Why I'll Pay Full Price for Fable 5 When It Comes Back",
+      "title_zh": "为什么《神鬼寓言5》回归时我会原价购买",
+      "title_zh_hash": "b4852c8a2a961c76",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/JalOWrtpYAE?is=uOBLW2935_O3VI1l",
       "x_status_id": null
     },
@@ -79,6 +82,9 @@
       "cleaner_v": 2,
       "created_at": "2026-06-18T14:05:50.959788Z",
       "description": "Geist is Vercel's design system aimed at creating consistent, developer-friendly interfaces, emphasizing minimalism and high contrast. It includes a Light theme, with a Dark theme documented separately. Key features:\n\n1. **Colors**: Utilizes a scale from 100 to 1000 with specific uses for backgrounds, borders, and text to denote hierarchy, including accent colors for various states (success, errors, etc.).\n2. **Typography**: Employs 'Geist Sans' and 'Geist Mono' for UI and code/text respectively, with various tokens defining font size, weight, and style for headings, labels, and copy.\n3. **Layout & Spacing**: Follows a 4px scale for spacing to ensure consistent rhythm, adaptable for mobile and desktop layouts across defined breakpoints.\n4. **Elevation**: Subtle shadows for visual hierarchy with specific box-shadow values for components like cards and modals.\n5. **Motion**: Motion is used purposefully to enhance clarity in user interactions rather than for decoration, with guidelines for duration and easing.\n6. **Shapes**: Maintains consistent radii for controls and surfaces.\n7. **Components**: Pre-defined tokens for button styles, input fields, etc., are provided for consistency across the UI.\n8. **Voice & Content**: Guidelines on copywriting to ensure clarity and action-oriented messaging.\n9. **Do's and Don'ts**: Best practices to follow design principles while avoiding common pitfalls.",
+      "description_zh": "Geist 是 Vercel 的设计系统，旨在打造一致且对开发者友好的界面，强调极简主义与高对比度。它包含浅色主题，深色主题则单独文档说明。核心特性包括：\n\n1. **色彩体系**：采用 100 至 1000 的色阶，为背景、边框和文字赋予特定用途以体现层级关系，并包含用于不同状态（成功、错误等）的强调色。\n2. **排版规范**：UI 及代码/文本分别使用 'Geist Sans' 和 'Geist Mono' 字体，通过多种令牌定义标题、标签和正文的字体大小、字重及样式。\n3. **布局与间距**：遵循 4px 基准的间距体系确保节奏统一，并针对移动端与桌面端布局在定义的断点内自适应调整。\n4. **层级表现**：通过微妙的阴影实现视觉层级，为卡片、弹窗等组件设定特定的 box-shadow 值。\n5. **动效设计**：动效以提升交互清晰度为目的，而非装饰性，并包含时长与缓动函数的指导规范。\n6. **形状规范**：保持控件与表面一致的圆角半径。\n7. **组件体系**：为按钮样式、输入框等提供预定义令牌，确保 UI 一致性。\n8. **语气与内容**：提供文案撰写指南，确保信息清晰且具有行动导向性。\n9. **规范与禁忌**：遵循设计原则的最佳实践，同时避免常见误区。",
+      "description_zh_hash": "f3591130fc6ab9da",
+      "description_zh_translator_v": 2,
       "domain": "vercel.com",
       "embed_type": "",
       "id": "k17cma3whf40va8ymvj5zghbbd88x2mz",
@@ -101,6 +107,9 @@
         }
       ],
       "title": "Design.Md | vercel.com",
+      "title_zh": "# Design.Md | vercel.com",
+      "title_zh_hash": "d6c200f3e3efa4d7",
+      "title_zh_translator_v": 2,
       "url": "https://vercel.com/design.md",
       "x_status_id": null
     },
@@ -124,6 +133,9 @@
       "category": "Tools",
       "created_at": "2026-06-19T03:17:43.144154Z",
       "description": "Lettera is a native, refined Markdown editor that works with single files or an entire folder as your workspace.",
+      "description_zh": "Lettera 是一款原生精良的 Markdown 编辑器，支持以单个文件或整个文件夹作为工作空间。",
+      "description_zh_hash": "85b57707e6112fff",
+      "description_zh_translator_v": 2,
       "domain": "lettera.md",
       "embed_type": "",
       "id": "k17b664vrjnnkqqhg5wp1yqqmx88zd2s",
@@ -146,6 +158,9 @@
         }
       ],
       "title": "Lettera — Markdown editor for macOS",
+      "title_zh": "Lettera — macOS 上的 Markdown 编辑器",
+      "title_zh_hash": "50786d5436bc5235",
+      "title_zh_translator_v": 2,
       "url": "https://lettera.md/",
       "x_status_id": null
     },
@@ -177,6 +192,9 @@
         }
       ],
       "title": "Record & Replay in Codex",
+      "title_zh": "Codex 中的记录与回放",
+      "title_zh_hash": "7942f0ca9980239e",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/ZK3JhU73W18?si=gB0xBQsPpWe-kc-i",
       "x_status_id": null
     },
@@ -190,6 +208,9 @@
       "category": "Development",
       "created_at": "2026-06-19T12:37:48.643449Z",
       "description": "Native terminal coding agents command center. Run 50+ coding agents in parallel.",
+      "description_zh": "原生终端编码代理指挥中心。并行运行50+个编码代理。",
+      "description_zh_hash": "991d68a5be51b326",
+      "description_zh_translator_v": 2,
       "domain": "supacode.sh",
       "embed_type": "",
       "id": "k1796xjx36zke8p2f7ysyvpcgs88zwte",
@@ -227,6 +248,9 @@
       "category": "Development",
       "created_at": "2026-06-19T12:45:20.510390Z",
       "description": "Nub is a TypeScript-first toolkit for Node.js: run TypeScript files on stock Node, a faster npm run, a pnpm-compatible package manager, and a built-in Node version manager. No lock-in.",
+      "description_zh": "Nub 是一个面向 Node.js 的 TypeScript 优先工具包：可在原生 Node 上运行 TypeScript 文件、提供更快的 npm run 命令、兼容 pnpm 的包管理器，以及内置的 Node 版本管理器。无锁定限制。",
+      "description_zh_hash": "51b91c3188a7bf58",
+      "description_zh_translator_v": 2,
       "domain": "nubjs.com",
       "embed_type": "",
       "id": "k176jcq6n3e4tzf6pxafm2aar988z55s",
@@ -249,6 +273,9 @@
         }
       ],
       "title": "Nub — an all-in-one toolkit for Node.js",
+      "title_zh": "Nub —— Node.js 一站式工具包",
+      "title_zh_hash": "3f8fb15999fcb503",
+      "title_zh_translator_v": 2,
       "url": "https://nubjs.com/",
       "x_status_id": null
     },
@@ -273,6 +300,9 @@
       "category": "Design",
       "created_at": "2026-06-19T12:45:32.601657Z",
       "description": "Explore curated, beautifully designed presentation decks, slides, keynotes, and guidelines, all chosen for their exceptional design quality.",
+      "description_zh": "探索精心策划的演示文稿、幻灯片、主题演讲和设计指南，均因其卓越的设计品质而入选。",
+      "description_zh_hash": "fa8955653957872b",
+      "description_zh_translator_v": 2,
       "domain": "deck.gallery",
       "embed_type": "",
       "id": "k176q3j4ybh2sxqv447y8p6pds88z8rz",
@@ -295,6 +325,9 @@
         }
       ],
       "title": "Deck.gallery — Beautifully designed decks, curated",
+      "title_zh": "Deck.gallery — 精心策划的精美牌组",
+      "title_zh_hash": "d4671224bda22fa4",
+      "title_zh_translator_v": 2,
       "url": "https://deck.gallery/",
       "x_status_id": null
     },
@@ -341,6 +374,9 @@
         }
       ],
       "title": "Madeline Montoya",
+      "title_zh": "玛德琳·蒙托亚",
+      "title_zh_hash": "a6ba87e0660c212b",
+      "title_zh_translator_v": 2,
       "url": "https://madelinelmontoya.com/",
       "x_status_id": null
     },
@@ -349,11 +385,17 @@
         "https://basecamp.com/assets/images/opengraph/live.png?v=1.3.10"
       ],
       "article_text": "We’d like to use cookies to help understand if our ads are working or not. No, thanks Yes, that’s fine Thousands of people are working in Basecamp now. Wherever there’s work, there’s Basecamp. Basecamp is used in over 100 countries, on every populated continent, across every industry imaginable. From engineering, to marketing, to manufacturing, to design, to software development, to construction, to client services, to PR communications, to publishing, to education, to religious institutions, to governments, to NGOs and non-profits, Basecamp fits any kind of work. Where there’s tasks to do, discussions to have, decisions to make, files to share, deadlines to hit, relationships to manage, and work to deliver, you’ll find Basecamp in the middle of it all. Give it a try today, for free . *The number above represents unique users accessing Basecamp within the last hour. And there’s more… Basecamp 5 is here Features and benefits The people’s path to Basecamp Bring your AI agents to Basecamp Reliable to the core Apps for every platform Integrations Thousands of people are working in Basecamp now Books we’ve written Where we came from Come small, come all We stand with the underdogs Kill overkill How we communicate How we make decisions Group chat problems Seven shipping principles Why we choose profit What changed for the better? See where projects really stand Leaving the Cloud Night & day Learn Basecamp Basecamp accessibility Basecamp community Keyboard shortcuts Friendly folks, standing by Can we stay in touch? Employee handbook Basecamp ™ is designed, built, and backed by 37signals ™ , the people behind HEY ™ and Fizzy ™ Status Support Policies Privacy Security Reliability Sign in © 37signals LLC Try Basecamp free",
+      "article_text_zh": "我们希望使用Cookie来了解广告效果。不同意 同意  \n现在有成千上万的人正在使用Basecamp。哪里有工作，哪里就有Basecamp。Basecamp被100多个国家、各大洲、各行各业的用户使用——从工程、营销、制造、设计、软件开发、建筑、客户服务、公关传播、出版、教育、宗教机构、政府到非政府组织和非营利组织，Basecamp适用于任何类型的工作。只要有任务要做、有讨论要参与、有决策要制定、有文件要共享、有截止日期要赶、有关系要维护、有工作要交付，你都会发现Basecamp在其中扮演着核心角色。立即免费试用吧。*以上数字代表过去一小时内访问Basecamp的独立用户数。  \n还有更多……  \nBasecamp 5 已上线  \n功能与优势  \n大众通往Basecamp之路  \n将你的AI代理带入Basecamp  \n核心可靠性  \n全平台应用  \n集成功能  \n成千上万的人现在正在使用Basecamp  \n我们撰写的书籍  \n我们的起源  \n从小做起  \n我们支持弱者  \n拒绝过度设计  \n我们的沟通方式  \n我们的决策方式  \n群聊问题  \n七条交付原则  \n我们为何选择盈利  \n哪些方面变得更好了？  \n看清项目真实进展  \n告别云端  \n日夜兼程  \n学习Basecamp  \nBasecamp无障碍功能  \nBasecamp社区  \n键盘快捷键  \n友好的支持团队随时待命  \n我们能保持联系吗？  \n员工手册  \nBasecamp™ 由37signals™设计、构建和支持，37signals™也是HEY™和Fizzy™的幕后团队  \n状态 支持 政策 隐私 安全 可靠性 登录  \n© 37signals LLC  \n免费试用Basecamp",
+      "article_text_zh_hash": "d101abb4702f16c3",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Basecamp — Live around the world",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2026-06-19T15:06:22.406260Z",
       "description": "See where Basecamp is being used now — a live map of activity around the world.",
+      "description_zh": "查看Basecamp当前的使用情况——全球活动的实时地图。",
+      "description_zh_hash": "37f273b75af26406",
+      "description_zh_translator_v": 2,
       "domain": "basecamp.com",
       "embed_type": "",
       "id": "k173d0nt4d5wvt5300swj6r8xs88y2n8",
@@ -376,6 +418,9 @@
         }
       ],
       "title": "Basecamp — Live around the world",
+      "title_zh": "Basecamp — 环游世界",
+      "title_zh_hash": "755a184eb5e8a377",
+      "title_zh_translator_v": 2,
       "url": "http://basecamp.com/live",
       "x_status_id": null
     },
