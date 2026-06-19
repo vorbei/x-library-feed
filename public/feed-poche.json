@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 708,
+      "count": 710,
       "name": "Tools"
     },
     {
-      "count": 436,
+      "count": 438,
       "name": "Development"
     },
     {
-      "count": 332,
+      "count": 335,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 146,
+      "count": 148,
       "name": "Media"
     },
     {
@@ -38,8 +38,347 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2339,
+  "item_count": 2348,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "category": "Media",
+      "created_at": "2026-06-18T04:35:54.715438Z",
+      "description": "Chris Raroque • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k17bppwh2bm8m4wg5dyj3sgf5n88wzaf",
+      "og_image_url": "https://i.ytimg.com/vi/JalOWrtpYAE/maxresdefault.jpg",
+      "recommended_at": "2026-06-19T15:17:52.070000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "fable",
+        "gaming",
+        "rpg"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:52.070000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Why I'll Pay Full Price for Fable 5 When It Comes Back",
+      "url": "https://youtu.be/JalOWrtpYAE?is=uOBLW2935_O3VI1l",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_text": "---\nversion: alpha\nname: Geist\ndescription: Vercel’s Geist design system, Light theme (the Dark theme is documented at /design.dark.md).\ncolors:\n  primary: \"#171717\"\n  secondary: \"#4d4d4d\"\n  tertiary: \"#006bff\"\n  neutral: \"#f2f2f2\"\n  background-100: \"#ffffff\"\n  background-200: \"#fafafa\"\n  gray-100: \"#f2f2f2\"\n  gray-200: \"#ebebeb\"\n  gray-300: \"#e6e6e6\"\n  gray-400: \"#eaeaea\"\n  gray-500: \"#c9c9c9\"\n  gray-600: \"#a8a8a8\"\n  gray-700: \"#8f8f8f\"\n  gray-800: \"#7d7d7d\"\n  gray-900: \"#4d4d4d\"\n  gray-1000: \"#171717\"\n  gray-alpha-100: \"#0000000d\"\n  gray-alpha-200: \"#00000015\"\n  gray-alpha-300: \"#0000001a\"\n  gray-alpha-400: \"#00000014\"\n  gray-alpha-500: \"#00000036\"\n  gray-alpha-600: \"#0000003d\"\n  gray-alpha-700: \"#00000070\"\n  gray-alpha-800: \"#00000082\"\n  gray-alpha-900: \"#000000b3\"\n  gray-alpha-1000: \"#000000e8\"\n  blue-100: \"#f0f7ff\"\n  blue-200: \"#e9f4ff\"\n  blue-300: \"#dfefff\"\n  blue-400: \"#cae7ff\"\n  blue-500: \"#94ccff\"\n  blue-600: \"#48aeff\"\n  blue-700: \"#006bff\"\n  blue-800: \"#0059ec\"\n  blue-900: \"#005ff2\"\n  blue-1000: \"#002359\"\n  red-100: \"#ffeeef\"\n  red-200: \"#ffe8ea\"\n  red-300: \"#ffe3e4\"\n  red-400: \"#ffd7d6\"\n  red-500: \"#ffb1b3\"\n  red-600: \"#ff676d\"\n  red-700: \"#fc0035\"\n  red-800: \"#ea001d\"\n  red-900: \"#d8001b\"\n  red-1000: \"#47000c\"\n  amber-100: \"#fff6de\"\n  amber-200: \"#fff4cf\"\n  amber-300: \"#fff1c1\"\n  amber-400: \"#ffdc73\"\n  amber-500: \"#ffc543\"\n  amber-600: \"#ffa600\"\n  amber-700: \"#ffae00\"\n  amber-800: \"#ff9300\"\n  amber-900: \"#aa4d00\"\n  amber-1000: \"#561900\"\n  green-100: \"#ecfdec\"\n  green-200: \"#e5fce7\"\n  green-300: \"#d3fad1\"\n  green-400: \"#b9f5bc\"\n  green-500: \"#82eb8d\"\n  green-600: \"#4ce15e\"\n  green-700: \"#28a948\"\n  green-800: \"#279141\"\n  green-900: \"#107d32\"\n  green-1000: \"#003a00\"\n  teal-100: \"#defffb\"\n  teal-200: \"#ddfef6\"\n  teal-300: \"#ccf9f1\"\n  teal-400: \"#b1f7ec\"\n  teal-500: \"#52f0db\"\n  teal-600: \"#00e3c4\"\n  teal-700: \"#00ac96\"\n  teal-800: \"#00927f\"\n  teal-900: \"#007f70\"\n  teal-1000: \"#003f34\"\n  purple-100: \"#faf0ff\"\n  purple-200: \"#f9f0ff\"\n  purple-300: \"#f6e8ff\"\n  purple-400: \"#f2d9ff\"\n  purple-500: \"#dfa7ff\"\n  purple-600: \"#c979ff\"\n  purple-700: \"#a000f8\"\n  purple-800: \"#8500d1\"\n  purple-900: \"#7d00cc\"\n  purple-1000: \"#2f004e\"\n  pink-100: \"#ffe8f6\"\n  pink-200: \"#ffe8f3\"\n  pink-300: \"#ffdfeb\"\n  pink-400: \"#ffd3e1\"\n  pink-500: \"#fdb3cc\"\n  pink-600: \"#f97ea7\"\n  pink-700: \"#f22782\"\n  pink-800: \"#e4106e\"\n  pink-900: \"#c41562\"\n  pink-1000: \"#460523\"\n  # Wide-gamut accent variants in oklch for P3 displays (sRGB hex above is the fallback)\n  blue-100-p3: \"oklch(97.32% 0.0141 251.56)\"\n  blue-200-p3: \"oklch(96.29% 0.0195 250.59)\"\n  blue-300-p3: \"oklch(94.58% 0.0293 249.84870859673202)\"\n  blue-400-p3: \"oklch(91.58% 0.0473 245.11621922481282)\"\n  blue-500-p3: \"oklch(82.75% 0.0979 248.48)\"\n  blue-600-p3: \"oklch(73.08% 0.1583 248.133320980386)\"\n  blue-700-p3: \"oklch(57.61% 0.2508 258.23)\"\n  blue-800-p3: \"oklch(51.51% 0.2399 257.85)\"\n  blue-900-p3: \"oklch(53.18% 0.2399 256.9900584162342)\"\n  blue-1000-p3: \"oklch(26.67% 0.1099 254.34)\"\n  red-100-p3: \"oklch(96.5% 0.0223 13.09)\"\n  red-200-p3: \"oklch(95.41% 0.0299 14.252646656611997)\"\n  red-300-p3: \"oklch(94.33% 0.0369 15.011509923860523)\"\n  red-400-p3: \"oklch(91.51% 0.0471 19.8)\"\n  red-500-p3: \"oklch(84.47% 0.1018 17.71)\"\n  red-600-p3: \"oklch(71.12% 0.1881 21.22)\"\n  red-700-p3: \"oklch(62.56% 0.2524 23.03)\"\n  red-800-p3: \"oklch(58.19% 0.2482 25.15)\"\n  red-900-p3: \"oklch(54.99% 0.232 25.29)\"\n  red-1000-p3: \"oklch(24.8% 0.1041 18.86)\"\n  amber-100-p3: \"oklch(97.48% 0.0331 85.79)\"\n  amber-200-p3: \"oklch(96.81% 0.0495 90.24227879900472)\"\n  amber-300-p3: \"oklch(95.93% 0.0636 90.52)\"\n  amber-400-p3: \"oklch(91.02% 0.1322 88.25)\"\n  amber-500-p3: \"oklch(86.55% 0.1583 79.63)\"\n  amber-600-p3: \"oklch(80.25% 0.1953 73.59)\"\n  amber-700-p3: \"oklch(81.87% 0.1969 76.46)\"\n  amber-800-p3: \"oklch(77.21% 0.1991 64.28)\"\n  amber-900-p3: \"oklch(52.79% 0.1496 54.65)\"\n  amber-1000-p3: \"oklch(30.83% 0.099 45.48)\"\n  green-100-p3: \"oklch(97.59% 0.0289 145.42)\"\n  green-200-p3: \"oklch(96.92% 0.037 147.15)\"\n  green-300-p3: \"oklch",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-18T14:05:50.959788Z",
+      "description": "Geist is Vercel's design system aimed at creating consistent, developer-friendly interfaces, emphasizing minimalism and high contrast. It includes a Light theme, with a Dark theme documented separately. Key features:\n\n1. **Colors**: Utilizes a scale from 100 to 1000 with specific uses for backgrounds, borders, and text to denote hierarchy, including accent colors for various states (success, errors, etc.).\n2. **Typography**: Employs 'Geist Sans' and 'Geist Mono' for UI and code/text respectively, with various tokens defining font size, weight, and style for headings, labels, and copy.\n3. **Layout & Spacing**: Follows a 4px scale for spacing to ensure consistent rhythm, adaptable for mobile and desktop layouts across defined breakpoints.\n4. **Elevation**: Subtle shadows for visual hierarchy with specific box-shadow values for components like cards and modals.\n5. **Motion**: Motion is used purposefully to enhance clarity in user interactions rather than for decoration, with guidelines for duration and easing.\n6. **Shapes**: Maintains consistent radii for controls and surfaces.\n7. **Components**: Pre-defined tokens for button styles, input fields, etc., are provided for consistency across the UI.\n8. **Voice & Content**: Guidelines on copywriting to ensure clarity and action-oriented messaging.\n9. **Do's and Don'ts**: Best practices to follow design principles while avoiding common pitfalls.",
+      "domain": "vercel.com",
+      "embed_type": "",
+      "id": "k17cma3whf40va8ymvj5zghbbd88x2mz",
+      "og_image_url": "https://cloud.poche.app/api/storage/1ad7eb4b-b6eb-472d-aeca-4b9dd1622695",
+      "recommended_at": "2026-06-19T15:17:45.600000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "design-system",
+        "ui-ux",
+        "vercel"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:45.600000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Design.Md | vercel.com",
+      "url": "https://vercel.com/design.md",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_image_urls": [
+        "https://lettera.md/assets/social-card.png",
+        "https://lettera.md/assets/icon-a.svg",
+        "https://lettera.md/assets/hero-editor@1x.png",
+        "https://lettera.md/assets/note@1x.png",
+        "https://lettera.md/assets/sidebar@1x.png",
+        "https://lettera.md/assets/bento/markdown@1x.png",
+        "https://lettera.md/assets/bento/checkbox@1x.png",
+        "https://lettera.md/assets/bento/code@1x.png",
+        "https://lettera.md/assets/bento/table@1x.png",
+        "https://lettera.md/assets/bento/math@1x.png",
+        "https://lettera.md/assets/bento/attachment@1x.png",
+        "https://lettera.md/assets/toc@1x.png"
+      ],
+      "article_title_extracted": "Lettera — Markdown editor for macOS",
+      "category": "Tools",
+      "created_at": "2026-06-19T03:17:43.144154Z",
+      "description": "Lettera is a native, refined Markdown editor that works with single files or an entire folder as your workspace.",
+      "domain": "lettera.md",
+      "embed_type": "",
+      "id": "k17b664vrjnnkqqhg5wp1yqqmx88zd2s",
+      "og_image_url": "https://lettera.md/assets/social-card.png",
+      "recommended_at": "2026-06-19T15:17:40.719000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "markdown",
+        "macos",
+        "writing-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:40.719000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Lettera — Markdown editor for macOS",
+      "url": "https://lettera.md/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "category": "Media",
+      "created_at": "2026-06-19T05:04:33.417433Z",
+      "description": "OpenAI • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k1770xm9gm9f3rrdrhm34cw93s88zs2x",
+      "og_image_url": "https://i.ytimg.com/vi/ZK3JhU73W18/maxresdefault.jpg",
+      "recommended_at": "2026-06-19T15:17:39.272000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "openai",
+        "codex",
+        "programming"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:39.272000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Record & Replay in Codex",
+      "url": "https://youtu.be/ZK3JhU73W18?si=gB0xBQsPpWe-kc-i",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_image_urls": [
+        "https://supacode.sh/screenshot.png",
+        "https://supacode.sh/supacode-app-icon.png"
+      ],
+      "article_title_extracted": "Supacode",
+      "category": "Development",
+      "created_at": "2026-06-19T12:37:48.643449Z",
+      "description": "Native terminal coding agents command center. Run 50+ coding agents in parallel.",
+      "domain": "supacode.sh",
+      "embed_type": "",
+      "id": "k1796xjx36zke8p2f7ysyvpcgs88zwte",
+      "og_image_url": "https://supacode.sh/screenshot.png",
+      "recommended_at": "2026-06-19T15:17:34.157000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "terminal-tools",
+        "developer-productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:34.157000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Supacode",
+      "url": "https://supacode.sh/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_image_urls": [
+        "https://nubjs.com/opengraph-image-12gd74?b93aebf5af4c1f12",
+        "https://nubjs.com/twitter-image-12gd74?b93aebf5af4c1f12",
+        "https://nubjs.com/icon.svg"
+      ],
+      "article_title_extracted": "Nub — an all-in-one toolkit for Node.js",
+      "category": "Development",
+      "created_at": "2026-06-19T12:45:20.510390Z",
+      "description": "Nub is a TypeScript-first toolkit for Node.js: run TypeScript files on stock Node, a faster npm run, a pnpm-compatible package manager, and a built-in Node version manager. No lock-in.",
+      "domain": "nubjs.com",
+      "embed_type": "",
+      "id": "k176jcq6n3e4tzf6pxafm2aar988z55s",
+      "og_image_url": "https://nubjs.com/opengraph-image-12gd74?b93aebf5af4c1f12",
+      "recommended_at": "2026-06-19T15:17:31.664000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "nodejs",
+        "typescript",
+        "developer-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:31.664000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Nub — an all-in-one toolkit for Node.js",
+      "url": "https://nubjs.com/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_image_urls": [
+        "https://www.deck.gallery/og_image.webp",
+        "https://deck.gallery/assets/figma/mailbox.svg",
+        "https://deck.gallery/assets/figma/home.svg",
+        "https://deck.gallery/assets/figma/slides.svg",
+        "https://deck.gallery/assets/figma/shop.svg",
+        "https://deck.gallery/assets/figma/logo-mark.svg",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-19.aiport-futures-by-gharage-2024/aiport-futures-by-gharage-2024-001/ThumbnailTiny?exp=4070908800&sig=bb7b83028d695e6c4ea62d8a5d735dc33f911463d631bd2c3c18e16693577467",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-18.chiquita-brand-typeface-2017/chiquita-brand-typeface-2017-001/ThumbnailTiny?exp=4070908800&sig=6fba6c5741a61e91f748eef237daed1792fbe8dc394077a5ba679c6d5a4d4793",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-17.lululemon-global-wellbeing-report-2024/lululemon-global-wellbeing-report-2024-001/ThumbnailTiny?exp=4070908800&sig=a171fad780d13381ab2fe774fa83c389601e20ba737e0a9875313e757c33c6b4",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-16.artsmidwest-brand-guidelines-2025/artsmidwest-brand-guidelines-2025-001/ThumbnailTiny?exp=4070908800&sig=5140c1cebd3e2bec297c9460288c28291b559163f9b3b65035cc27c24e6d002d",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-15.the-realreal-resale-report-2024/the-realreal-resale-report-2024-001/ThumbnailTiny?exp=4070908800&sig=93ff451b90b8c6316a13af69a610f3e40dd9e8488831f0f3d4e11180a848ea02",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-14.creator-economy-report-2025/creator-economy-report-2025-001/ThumbnailTiny?exp=4070908800&sig=fb4dd4c06306bf04f3813467f5f9b719c27d2831eec3c05e63b9e2316b633789"
+      ],
+      "article_title_extracted": "Deck.gallery — Beautifully designed decks, curated",
+      "category": "Design",
+      "created_at": "2026-06-19T12:45:32.601657Z",
+      "description": "Explore curated, beautifully designed presentation decks, slides, keynotes, and guidelines, all chosen for their exceptional design quality.",
+      "domain": "deck.gallery",
+      "embed_type": "",
+      "id": "k176q3j4ybh2sxqv447y8p6pds88z8rz",
+      "og_image_url": "https://www.deck.gallery/og_image.webp",
+      "recommended_at": "2026-06-19T15:17:30.090000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "presentation-design",
+        "graphic-design",
+        "inspiration"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:30.090000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Deck.gallery — Beautifully designed decks, curated",
+      "url": "https://deck.gallery/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_image_urls": [
+        "https://freight.cargo.site/t/original/i/e7dd8214615e68838fb59cf1923966284aa953f20fd90708b32b24bd9d544f63/website-wim.jpg",
+        "https://freight.cargo.site/t/original/i/da6d13b38eb01aa6d5c1f1ba35b7060f3d3115ec5f12cc84f1d1a4df29b2e99c/website-wim2.jpg",
+        "https://freight.cargo.site/t/original/i/879611ff05109267c528804ce0e64e51dd9ba7c03f4c236d1024c194ca16590c/website-wim7.jpg",
+        "https://freight.cargo.site/t/original/i/58045471cc18a1f8f0a2c2f153df6af486be1a7b7422801c49e0debf8d7c5c94/website-wim13.jpg",
+        "https://freight.cargo.site/t/original/i/8a98ac0d9592136d8e04c22d0f54973a45b03476bb1bb9a4f127ba039241312e/website-wim11.jpg",
+        "https://freight.cargo.site/t/original/i/39339b67d33fdd6520f4b46c865c6dd0b9e14e2dd81cace3f61151e149f2cdd5/website-wim12.jpg",
+        "https://freight.cargo.site/t/original/i/ebd8f5bfd8563ca9ff417e157e8e634cd87d415f835a0804359275f24cb1c981/website-wim6.jpg",
+        "https://freight.cargo.site/t/original/i/433a7895ca9eac102619c9cf6761cf51ceeec03e4917639a2987a6267ac250bd/website-wim10.jpg",
+        "https://freight.cargo.site/t/original/i/3c1faf605903adaa125c96c89cd66b257f4309cc1f9a5a35d84d53e859345017/website-wim9.jpg",
+        "https://freight.cargo.site/t/original/i/a5edc296a0a9cbb4439ba338bb2e6e41507950451b8213928edcc029854dfc80/website-wim3.jpg",
+        "https://freight.cargo.site/t/original/i/632743202f7ec26153ab212ba521d58b31c651668796a863dc8bea594b860463/website-wim4.jpg",
+        "https://freight.cargo.site/t/original/i/0dc722243451e58e1d324613fb5acaf0f2eb649d36afe31574d415f7820071a4/website-wim5.jpg"
+      ],
+      "article_title_extracted": "Madeline Montoya",
+      "category": "Design",
+      "created_at": "2026-06-19T12:46:25.661544Z",
+      "description": "Cargo",
+      "domain": "madelinelmontoya.com",
+      "embed_type": "",
+      "id": "k173nc8aqexe1jb19zt9s6883d88zn7c",
+      "og_image_url": "https://cloud.poche.app/api/storage/475e4e01-36ff-4e17-bd39-f31ee2683c4d",
+      "recommended_at": "2026-06-19T15:17:23.690000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "creative-direction",
+        "art-direction",
+        "portfolio"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:23.690000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Madeline Montoya",
+      "url": "https://madelinelmontoya.com/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://basecamp.com/assets/images/opengraph/live.png?v=1.3.10"
+      ],
+      "article_text": "We’d like to use cookies to help understand if our ads are working or not. No, thanks Yes, that’s fine Thousands of people are working in Basecamp now. Wherever there’s work, there’s Basecamp. Basecamp is used in over 100 countries, on every populated continent, across every industry imaginable. From engineering, to marketing, to manufacturing, to design, to software development, to construction, to client services, to PR communications, to publishing, to education, to religious institutions, to governments, to NGOs and non-profits, Basecamp fits any kind of work. Where there’s tasks to do, discussions to have, decisions to make, files to share, deadlines to hit, relationships to manage, and work to deliver, you’ll find Basecamp in the middle of it all. Give it a try today, for free . *The number above represents unique users accessing Basecamp within the last hour. And there’s more… Basecamp 5 is here Features and benefits The people’s path to Basecamp Bring your AI agents to Basecamp Reliable to the core Apps for every platform Integrations Thousands of people are working in Basecamp now Books we’ve written Where we came from Come small, come all We stand with the underdogs Kill overkill How we communicate How we make decisions Group chat problems Seven shipping principles Why we choose profit What changed for the better? See where projects really stand Leaving the Cloud Night & day Learn Basecamp Basecamp accessibility Basecamp community Keyboard shortcuts Friendly folks, standing by Can we stay in touch? Employee handbook Basecamp ™ is designed, built, and backed by 37signals ™ , the people behind HEY ™ and Fizzy ™ Status Support Policies Privacy Security Reliability Sign in © 37signals LLC Try Basecamp free",
+      "article_title_extracted": "Basecamp — Live around the world",
+      "category": "Tools",
+      "cleaner_v": 2,
+      "created_at": "2026-06-19T15:06:22.406260Z",
+      "description": "See where Basecamp is being used now — a live map of activity around the world.",
+      "domain": "basecamp.com",
+      "embed_type": "",
+      "id": "k173d0nt4d5wvt5300swj6r8xs88y2n8",
+      "og_image_url": "https://basecamp.com/assets/images/opengraph/live.png?v=1.3.10",
+      "recommended_at": "2026-06-19T15:17:06.603000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "remote-work",
+        "collaboration",
+        "software"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-19T15:17:06.603000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Basecamp — Live around the world",
+      "url": "http://basecamp.com/live",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
@@ -104155,7 +104494,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2182,
+      "count": 2191,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -104191,5 +104530,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-19T12:35:12.771908Z"
+  "updated_at": "2026-06-19T15:52:47.224919Z"
 }
