@@ -2308,7 +2308,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://terafab.ai/assets/og.png",
         "https://terafab.ai/assets/tesla-logo.svg",
@@ -2357,7 +2357,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/BUoLronfNSxafF2Zk3MMcLVyfyU.png",
         "https://framerusercontent.com/images/sFge6aM8ETZKjyhMOoT5qNWb2A.png?width=367&height=477",
@@ -2369,8 +2369,8 @@
         "https://framerusercontent.com/images/XvqyMkWypc49ou2BuUAqeHxlj4.png?width=382&height=498",
         "https://framerusercontent.com/images/QNO3uwWyrUHSmBH8DUZTwUjc9M.png?width=382&height=495",
         "https://framerusercontent.com/images/glPfI56IWkrbEN8YbFNKbGP8f8c.webp?width=2106&height=2050",
-        "https://framerusercontent.com/images/Qd9Auz3DIDyt1xGTe9nlaf4LriQ.png?width=545&height=545",
-        "https://framerusercontent.com/images/9NyaoiIn0cePbphE58Vo9XGrhJw.png?width=132&height=135"
+        "https://framerusercontent.com/images/9NyaoiIn0cePbphE58Vo9XGrhJw.png?width=132&height=135",
+        "https://framerusercontent.com/images/YlHYjf5KIcE7gmO4e9mvfvv7E7w.png?width=88&height=90"
       ],
       "article_title_extracted": "Arcway: the 3D home buying platform",
       "category": "Tools",
@@ -2464,7 +2464,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://www.kittl.com/images/og-image.jpg",
         "https://www.kittl.com/packages/features/website-layouts/features/ai_image_gen.png",
@@ -2563,7 +2563,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://poetic.com/og.jpg",
         "https://poetic.com/_next/static/media/dark-bg.1wq0vbqyhh7zj.png",
@@ -4815,7 +4815,7 @@
       "x_status_id": "2062583885607862639"
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://mainframe.app/og.jpg",
         "https://mainframe.app/landing-wallpaper.jpg",
@@ -4978,7 +4978,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_title_extracted": "we were online",
       "category": "Tools",
       "created_at": "2026-06-05T02:29:18.810937Z",
@@ -6948,7 +6948,7 @@
       "x_status_id": "2060013225006010467"
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://circleback.ai/marketing/og/default.png",
         "https://circleback.ai/logos/circleback.svg",
@@ -6997,7 +6997,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
       "category": "Design",
       "created_at": "2026-05-29T01:57:43.553804Z",
@@ -9314,7 +9314,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://www.epidemicsound.com/staticfiles/legacy/20/images/epidemic-sound-logo-square.png",
         "https://cdn.epidemicsound.com/public-pages/media/images/new_balance.png?height=432&width=432&format=webp&quality=80",
@@ -9400,7 +9400,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-12T05:19:24.561935Z",
+      "article_fetch_attempted_at": "2026-06-19T05:37:45.847635Z",
       "article_image_urls": [
         "https://ursula.tonbo.io/og-default.png",
         "https://ursula.tonbo.io/assets/tonbo.png"
@@ -104191,5 +104191,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-18T22:32:56.214147Z"
+  "updated_at": "2026-06-19T05:37:55.376497Z"
 }
