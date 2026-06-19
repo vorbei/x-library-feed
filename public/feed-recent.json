@@ -13782,20 +13782,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg"
     },
-    "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
-    },
     "https://pbs.twimg.com/media/HLKcu3_WkAAe_U9.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13810,19 +13796,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLKcu3_WkAAe_U9.jpg"
     },
-    "https://pbs.twimg.com/media/HLLD3FZbsAAJsSx.jpg": {
+    "https://pbs.twimg.com/media/HLL1or8WgAAZd5Y.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLLD3FZbsAAJsSx.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLL1or8WgAAZd5Y.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLLD3FZbsAAJsSx.jpg"
+        "https://pbs.twimg.com/media/HLL1or8WgAAZd5Y.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLLD3FZbsAAJsSx.jpg"
+      "url": "https://pbs.twimg.com/media/HLL1or8WgAAZd5Y.jpg"
+    },
+    "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14539,6 +14539,25 @@
       "title": "Anthropic’s Safety Superpower – Stratechery by Ben Thompson",
       "url": "https://stratechery.com/2026/anthropics-safety-superpower/"
     },
+    "https://stringinamaze.net/p/rich-guy-quote-journalism?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How the media turns rich guys' opinions into news",
+      "extraction_source": "trafilatura",
+      "final_url": "https://stringinamaze.net/p/rich-guy-quote-journalism?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/606ab768-2442-4167-adc8-69600da5b246/mamdanitisch.jpg?t=1778791885",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,onerror=redirect/uploads/publication/logo/0fd3cdbc-334e-48f3-919c-a2e1f80d426a/800x800.png",
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,format=auto,onerror=redirect/uploads/user/profile_picture/7b186d2a-054b-4a20-add2-10ae1f7fe915/bafkreieuxjz7ojhrhugi7stfayeur2zdlyxes7ehmhcgsk5txmdwqaauoe.jpg",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto/static_assets/subscription_dummy_avatar_0.svg",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/logo/0fd3cdbc-334e-48f3-919c-a2e1f80d426a/800x800.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Last week The New York Times published an [article](https://www.nytimes.com/2026/05/05/nyregion/roth-mamdani-griffin-rich.html) that I haven’t been able to get out of my brain, headlined “In Attack on Mamdani, Vornado Chief Likens ‘Tax the Rich’ to Hate Speech.” The piece was a summary of remarks made by Steven Roth, the CEO of Vornado Realty Trust, criticizing Zohran Mamdani’s rhetoric about taxing the rich. \nThe remarks themselves were not notable except for being idiotic: Roth said that the term “tax the rich” is “just as hateful as some disgusting racial slurs.” The Times reports this straightforwardly, not as commentary on the bizarre nature of Roth’s statements but as part of a story about a few of Mamdani’s ultrawealthy critics.\nThe question this brings to my mind is: why is this a story at all? This is nothing more than the moderately unhinged opinion of a guy whose company owns a lot of real estate. Why is it in the newspaper?\nThe answer is that there’s an entire genre of media coverage best described as “rich guy has an opinion.” It’s surprisingly common, and once you notice it you’ll see it everywhere: entire news stories dedicated to the otherwise unremarkable opinion of a rich person, or news stories that fold the opinions of rich people into their otherwise neutral coverage. It’s taken for granted in many newsrooms that a person’s wealth imbues their opinions with newsworthiness.\nThis style of journalism has thrived in the Mamdani era. Barry Sternlicht, another investment fund CEO, went on CNBC late last year to [rant](https://www.cnbc.com/2025/11/05/new-yorkers-will-leave-starwood-capital-sternlicht-mamdani.html) about how bad Mamdani’s policies would be for the city. Sternlicht, who has no relevant policy expertise, pontificated on the merits of defunding the police, and said that “socialism has never worked anywhere on the planet Earth, ever.”\nA lot of people have theorized about the relationship between the press and the rich. Back in 1990, a political scientist named W. Lance Bennett [postulated](https://web.stanford.edu/class/comm1a/readings/bennett-press-state.pdf) the theory of indexing – the idea that the mainstream media index their views to those expressed by powerful institutional sources. Chomsky had theorized something similar in Manufacturing Consent, noting how journalists become reliant upon and socially embedded with elite sources. \nBut this is something slightly different. It’s not just that elite opinions are bleeding into press coverage, it’s that they are being treated as news per se. It’s journalism consisting of quotes from rich guys.\nOne simple reason for this is that rich people are often able to reframe their opinions as news. During Mamdani’s mayoral campaign, rich New Yorkers started telling the press that they planned to flee New York City if Mamdani won the election. This wasn’t actually true: we’re several months into Mamdani’s tenure and there’s no indication of an exodus from the city by rich folks or anyone else (vacancy rates remain at historic lows, and some business leaders who threatened to leave quickly [walked it back](https://x.com/rsandler21969/status/1986251883271627246)). That’s because it was never a genuine threat. The entire purpose of the exercise was to take an opinion (we don’t like Zohran Mamdani) and turn it into something that feels more like news (wealthy people will flee the city!). \nWhen the media isn’t printing the opinions of rich people verbatim, it’s printing the opinions of their proxies. There are countless interest groups that ostensibly represent the interests of “business” but in practice represent the interests of the rich people who run very large businesses. In New York the biggest player in this space is The Partnership for New York City, a nonprofit founded by David Rockefeller whose members include over 300 New York CEOs.\nThe Partnership for New York City will do things like publish [reports](https://pfnyc.org/news/new-partnership-for-nyc-rep",
+      "title": "Rich Guy Quote Journalism",
+      "url": "https://stringinamaze.net/p/rich-guy-quote-journalism?ref=sidebar"
+    },
     "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -14667,28 +14686,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
-    },
-    "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "AI made you faster. But you're not more productive; you're outsourcing the slow part to everyone else",
-      "final_url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp?fit=1024%2C683&ssl=1",
-        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp?fit=1024%2C683&ssl=1&w=640",
-        "https://terriblesoftware.org/wp-content/uploads/2026/06/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTkxNzk2LWltYWdlLWt3dnhwaW4yLmpwZw.webp",
-        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiylta0l3vwd2s2mtc5nzyync13awtpbwvkawetaw1hz2uta293ctv0bheuanbn.webp?fit=1024%2C678&ssl=1&resize=350%2C200",
-        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/12/cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvbhivchgxmzyynzawlwltywdllwt3dnh4owljlmpwzw.webp?fit=1024%2C724&ssl=1&resize=350%2C200",
-        "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2025/02/cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvbhivchgxmdawndy2lwltywdllwt3dndoyzhnlmpwzw.webp?fit=1024%2C683&ssl=1&resize=350%2C200"
-      ],
-      "kind": "article",
-      "text_excerpt": "Skip to content Terrible Software About You Got Faster. Your Company Didn’t. “I would have written a shorter letter, but I did not have the time.” — Blaise Pascal Because of AI, everyone on your team is more productive than they were a year ago, just ask them. So why isn’t the company itself faster? I think I know why. Let’s say an engineer needs to write a tech brief for a database migration. Two years ago, this would’ve cost him an entire afternoon: reading the code and some articles online, weighing the options, writing, deleting, rewriting. The result was short, and every word of it had survived contact with his brain. Fast forward to today, and he pastes the context into a model and hits send. A few minutes later, the agent hands back a plan several times longer than anything he would’ve written by hand. Well, he’s more productive now, right? A fraction of the time, many times the output. But what about everyone else? A handful of reviewers open a document several times longer than it needs to be, with that unmistakable AI smell on it. And the length is not the biggest concern! Given that the doc was clearly AI-generated, every reviewer is now also fact-checking the thing. The brief says the current job processes events sequentially. Does it, though? It says the migration touches nine tables. Is it nine? When a colleague writes a sentence like that by hand, you trust it, because someone counted and put their name on the count. When a model writes it, and the author didn’t check, the sentence looks exactly the same. You can’t tell which claims he stands behind and which ones the model dreamed up, so you have to treat every single line as unverified. The reviewers end up doing the thinking the author skipped (except this time it arrives nicely formatted, and with confidence 🥲). So every one of those reviews now takes longer than it used to. He saved himself the afternoon and quietly spent everyone else’s. The time was just transferred, and because a document has one writer and many readers, one person’s shortcut becomes everyone else’s problem. You see, a document is supposed to be a service. The (implicit) deal is that the writer spends their time so the readers don’t have to. It’s why Pascal, in that quote at the top, was apologizing: the long letter is cheap for me and expensive for you, the short letter is expensive for me and cheap for you. At the workplace, I usually owe you the short one because there’s one of me and many of you. Compression, editing, and fact-checking are the work. By the way, it’s not just documents… I’m also seeing the same pattern in pull requests, automated tests, and even decisions. We’re going faster by passing the slow part (the reading, the actual understanding) to whoever comes next . A Ponzi scheme? Don’t get me wrong: by all means, do use AI. I do too, and I’m (probably) not going back. The thing is: the model is giving you many hours back, so please spend a bit of them editing! I already have a rule for AI-written code: if I can’t explain the change, I can’t ship it . The same rule applies here: if you can’t defend a sentence with the document done, it’s not really done, is it? And if you’re on the receiving end of these, you’re allowed to push back and say: “This reads like an unedited draft. Can you cut it down to the decision, the tradeoffs, and what you need from me? Happy to review it then.” So that’s why the company never speeds up, even when everyone in it does. The time that the engineer saved didn’t go anywhere good: it landed on everyone who had to read his document. And again, he’s not lying when he says he’s faster. He is. So am I, most days. The speed is very much real for each of us individually . It’s just that when you add it up across the team, it points the wrong way; everybody’s faster, and the whole thing somehow moves slower. Which makes me think we owe the people reading us a bit more than we’ve been giving them lately. Share this: Share on Facebook (Opens in new wi",
-      "text_excerpt_zh": "跳到内容 糟糕的软件 关于我 你变快了，但你的公司没有。  \n“如果我有更多时间，我会写一封更短的信。”——布莱兹·帕斯卡  \n\n因为AI，你团队里的每个人都比一年前更高效了——问问他们就知道。那为什么公司本身没有变快？我想我知道原因。  \n\n假设一位工程师需要为数据库迁移写一份技术简报。两年前，这得花他整个下午：读代码、查在线文章、权衡选项、写、删、重写。结果很简短，每个字都经过了他的大脑。  \n\n快进到今天，他把上下文粘贴进模型，按下发送。几分钟后，AI助手交出一份计划，比他手写的长好几倍。  \n\n好吧，他现在更高效了，对吧？时间少了很多，产出却多了好几倍。  \n\n但其他人呢？  \n\n几位审阅者打开一份文档，比实际需要长了好几倍，还带着那股 unmistakable 的AI味儿。长度还不是最大的问题！既然文档明显是AI生成的，每个审阅者现在还得逐条核实内容。简报说当前任务按顺序处理事件。真是这样吗？它说迁移涉及九张表。真的是九张吗？  \n\n当同事手写这样一句话时，你信任它，因为有人数过，并把自己的名字放在了那个数字上。当模型写出这句话，而作者没检查时，句子看起来一模一样。你分不清哪些主张是他认可的，哪些是模型编造的，所以你不得不把每一行都当作未经核实的内容。  \n\n审阅者最终替作者做了他跳过的思考（只不过这次内容排版精美，还带着自信的表情🥲）。  \n\n所以，每次审阅现在都比以前花更长时间。他省下了自己的下午，却悄悄花掉了所有人的时间。时间只是被转移了——因为一份文档有一个作者和许多读者，一个人的捷径就成了所有人的麻烦。  \n\n你看，文档本应是一种服务。隐含的约定是：作者花时间，读者就不用花时间。这就是为什么帕斯卡在开头那句引语里道歉：长信对我便宜，对你昂贵；短信对我昂贵，对你便宜。在工作场合，我通常欠你一封短信，因为作者只有一个，读者却有很多。压缩、编辑和核实才是真正的工作。  \n\n顺便说一句，这不只是文档的问题……我在拉取请求、自动化测试甚至决策中也看到了同样的模式。我们通过把慢的部分（阅读、真正理解）甩给下一个人来加速。一个庞氏骗局？  \n\n别误会：请务必使用AI。我也在用，而且（很可能）不会回头。关键是：模型给了你很多时间，所以请花一点时间去编辑！  \n\n我对AI写的代码已经有一条规则：如果我不能解释这个改动，就不能发布它。同样的规则也适用于这里：如果文档写完后你无法为某句话辩护，那它真的算完成了吗？  \n\n如果你是被迫接收这些内容的一方，你有权反驳说：“这读起来像未编辑的草稿。你能把它精简到决策、权衡和你需要我做什么吗？那样我很乐意审阅。”  \n\n所以，这就是为什么公司永远不会加速，即使里面的每个人都加速了。工程师省下的时间并没有流向好的地方：它落在了每个需要读他文档的人身上。再说一次，他说自己更快了，这并非谎言。他确实更快了。大多数时候，我也是。这种速度对每个人个体来说非常真实。只是当你在团队层面加总时，它指向了错误的方向：每个人都更快了，整体却反而更慢了。  \n\n这让我觉得，我们欠那些阅读我们的人一点东西——比我们最近给他们的要多一点。  \n\n分享此文：  \n在 Facebook 上分享（在新窗口中打开）",
-      "text_excerpt_zh_hash": "c48d8fa67e639916",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "You Got Faster. Your Company Didn’t. – Terrible Software",
-      "url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar"
     },
     "https://thein.fo/43wKrWU": {
       "content_type": "",
@@ -16229,22 +16226,6 @@
       "image_urls": [],
       "text": "https://x.com/i/article/2031387672686604289",
       "url": "https://x.com/Vtrivedy10/status/2031408954517971368"
-    },
-    "2042925773300908103": {
-      "article_text": "Steve Yegge says people using AI coding agents are \"10x to 100x as productive as engineers using Cursor and chat today, and roughly 1000x as productive as Googlers were back in 2005.\"\nThat's a real number. I've seen it. I've lived it. But when people hear it, they reach for the wrong explanation. Better models. Smarter Claude. More parameters. The 2x people and the 100x people are using the same models. The difference isn't intelligence. It's architecture — and it fits on an index card.\nThe harness is the product\nOn March 31, 2026, Anthropic accidentally shipped the entire source code for Claude Code to the npm registry. 512,000 lines. I read it. It confirmed everything I'd been teaching at YC: the secret isn't the model. It's the thing wrapping the model.\nLive repo context. Prompt caching. Purpose-built tools. Context bloat minimization. Structured session memory. Parallel sub-agents. None of that makes the model smarter. All of it gives the model the right context, at the right time, without drowning it in noise.\nThat wrapper is called the harness. And the question every AI builder should be asking is: what goes in the harness, and what stays out? The answer has a specific shape. I call it thin harness, fat skills.\nFive definitions\nThe bottleneck is never the model's intelligence. Models already know how to reason, synthesize, and write code. They fail because they don't understand your data — your schema, your conventions, the particular shape of your problem. Five definitions fix this.\n1. Skill files\nA skill file is a reusable markdown document that teaches the model how to do something. Not what to do — the user supplies that. The skill supplies the process.\nHere's the key insight most people miss: a skill file works like a method call. It takes parameters. You invoke it with different arguments. The same procedure produces radically different capabilities depending on what you pass in.\nConsider a skill called /investigate. It has seven steps: scope the dataset, build a timeline, diarize every document, synthesize, argue both sides, cite sources. It takes three parameters: TARGET, QUESTION, and DATASET. Point it at a safety scientist and 2.1 million discovery emails, and you get a medical research analyst determining whether a whistleblower was silenced. Point it at a shell company and FEC filings, and you get a forensic investigator tracing coordinated campaign donations.\nSame skill. Same seven steps. Same markdown file. The skill describes a process of judgment. The invocation supplies the world.\nThis is not prompt engineering. This is software design, using markdown as the programming language and human judgment as the runtime. Markdown is, in fact, a more perfect encapsulation of capability than rigid source code, because it describes process, judgment, and context in the language the model already thinks in.\n2. The harness\nThe harness is the program that runs the LLM. It does four things: runs the model in a loop, reads and writes your files, manages context, and enforces safety. That's it. That's the \"thin.\"\nThe anti-pattern is a fat harness with thin skills. You've seen it: 40+ tool definitions eating half the context window. God-tools with 2-to-5-second MCP round-trips. REST API wrappers that turn every endpoint into a separate tool. Three times the tokens, three times the latency, three times the failure rate.\nWhat you want instead is purpose-built tooling that's fast and narrow. A Playwright CLI that does each browser operation in 100 milliseconds, not a Chrome MCP that takes 15 seconds for screenshot-find-click-wait-read. That's 75x faster. Software doesn't have to be precious anymore. Build exactly what you need, and nothing else.\n3. Resolvers\nA resolver is a routing table for context. When task type X appears, load document Y first.\nSkills tell the model how. Resolvers tell it what to load and when. A developer changes a prompt. Without the resolver, they ship it. With the resolver, the model reads docs/EVALS.md first — which says: run the eval suite, compare scores, if accuracy drops more than 2%, revert and investigate. The developer didn't know the eval suite existed. The resolver loaded the right context at the right moment.\nClaude Code has a built-in resolver. Every skill has a description field, and the model matches user intent to skill descriptions automatically. You never have to remember that /ship exists. The description is the resolver.\nA confession: my CLAUDE.md was 20,000 lines. Every quirk, every pattern, every lesson I'd ever encountered. Completely ridiculous. The model's attention degraded. Claude Code literally told me to cut it back. The fix was about 200 lines — just pointers to documents. The resolver loads the right one when it matters. Twenty thousand lines of knowledge, accessible on demand, without polluting the context window.\n4. Latent vs. deterministic\nEvery step in your system is one or the other, and confusing them is the most common mistake in agent design.\nLatent space is where intelligence lives. The model reads, interprets, decides. Judgment. Synthesis. Pattern recognition.\nDeterministic is where trust lives. Same input, same output. Every time. SQL queries. Compiled code. Arithmetic.\nAn LLM can seat 8 people at a dinner table, accounting for personalities and social dynamics. Ask it to seat 800 and it will hallucinate a seating chart that looks plausible but is completely wrong. That's a deterministic problem — combinatorial optimization — forced into latent space. The worst systems put the wrong work on the wrong side of this line. The best systems are ruthless about it.\n5. Diarization\nDiarization is the step that makes AI useful for real knowledge work. The model reads everything about a subject and writes a structured profile — a single page of judgment distilled from dozens or hundreds of documents.\nNo SQL query produces this. No RAG pipeline produces this. The model has to actually read, hold contradictions in mind, notice what changed and when, and synthesize structured intelligence. It's the difference between a database lookup and an analyst's brief.\nThe architecture\nThese five concepts compose into a simple three-layer architecture.\nFat skills sit on top: markdown procedures that encode judgment, process, and domain knowledge. This is where 90% of the value lives.\nA thin CLI harness sits in the middle: about 200 lines of code. JSON in, text out. Read-only by default.\nYour application sits on the bottom: QueryDB, ReadDoc, Search, Timeline — the deterministic foundation.\nThe principle is directional. Push intelligence up into skills. Push execution down into deterministic tooling. Keep the harness thin. When you do this, every improvement to the model automatically improves every skill, while the deterministic layer stays perfectly reliable.\nThe system that learns\nLet me show you all five definitions working together. Not in theory — in an actual system we're building at YC.\nChase Center. July 2026. Six thousand founders at Startup School. Each one has a structured application, questionnaire answers, transcripts from 1:1 advisor chats, and public signals: posts on X, GitHub commits, Claude Code transcripts showing how fast they ship.\nThe traditional approach: a program team of 15 reads applications, makes gut calls, updates a spreadsheet. It works at 200 founders. It breaks at 6,000. No human can hold that many profiles in working memory and notice that the three best candidates for the infrastructure-for-AI-agents cohort are a dev tools founder in Lagos, a compliance founder in Singapore, and a CLI-tooling founder in Brooklyn — all of whom described the same pain point in different words during their 1:1 chats.\nThe model can. Here's how.\nEnrichment. A skill called /enrich-founder pulls all sources, runs enrichments, diarizes, and highlights the gap between what founders say and what they're actually building. The deterministic layer handles SQL lookups, GitHub stats, browser tests on demo URLs, social signal pulls, CrustData queries. A cron runs nightly. Six thousand profiles, always fresh.\nThe diarization output catches things no keyword search would find:\nFOUNDER: Maria Santos\nCOMPANY: Contrail (contrail.dev)\nSAYS: \"Datadog for AI agents\"\nACTUALLY BUILDING: 80% of commits are in billing module.\n  She's building a FinOps tool disguised as observability.\nThat gap — \"says\" versus \"actually building\" — requires reading the GitHub commit history, the application, and the advisor transcript, and holding all three in mind at once. No embedding similarity search finds this. No keyword filter finds it. The model has to read the full profile and make a judgment. (This is the perfect decision to put in latent space!) \nMatching. This is where skill-as-method-call shines. Three invocations of the same matching skill, three completely different strategies:\n/match-breakout takes 1,200 founders, clusters by sector affinity, 30 per room. Embedding plus deterministic assignment. /match-lunch takes 600, does serendipity matching across sectors, 8 per table, no repeats — the LLM invents the themes, then a deterministic algorithm assigns seats. /match-live handles whoever is in the building right now, nearest-neighbor embedding, 200ms, 1:1 pairs, excluding people who've already met.\nAnd the model makes judgment calls a clustering algorithm never could: \"Santos and Oram are both AI infra, but they're not competitors — Santos is cost attribution, Oram is orchestration. Put them in the same group.\" Or: \"Kim applied as 'developer tools' but his 1:1 transcript reveals he's building compliance automation for SOC2. Move him to FinTech/RegTech.\"\nNo embedding captures the Kim reclassification. The model has to read the entire profile.\nThe learning loop. After the event, an /improve skill reads NPS surveys, diarizes the mediocre responses — not the bad ones, the \"OK\" ones, where the system almost worked but didn't — and extracts patterns. Then it proposes new rules and writes them back into the matching skills:\nWhen attendee says \"AI infrastructure\"\n    but startup is 80%+ billing code:\n    → Classify as FinTech, not AI Infra.\n\nWhen two attendees in same group\n    already know each other:\n    → Penalize proximity.\n       Prioritize novel introductions.\nThese rules get written back into the skill file. The next run uses them automatically. The skill rewrites itself.\nJuly event: 12% \"OK\" ratings. Next event: 4%. The skill file learned what \"OK\" actually meant, and the system got better without anyone rewriting code.\nThe same pattern transfers everywhere: retrieve, read, diarize, count, synthesize. Then: survey, investigate, diarize, rewrite the skill. \nIf you want to know what the most valuable loops are in 2026, it's those. We can apply them to every discipline and walk of life of knowledge work in existence. \nSkills are permanent upgrades\nI tweeted an instruction I gave to my OpenClaw recently that resonated more than I expected:\nYou are not allowed to do one-off work. If I ask you to do something and it's the kind of thing that will need to happen again, you must: do it manually the first time on 3 to 10 items. Show me the output. If I approve, codify it into a skill file. If it should run automatically, put it on a cron.The test: if I have to ask you for something twice, you failed.\nA thousand likes and twenty-five hundred bookmarks. People thought it was a prompt engineering trick. It's not. It's the architecture I've been describing. Every skill you write is a permanent upgrade to your system. It never degrades. It never forgets. It runs at 3 AM while you sleep. And when the next model drops, every skill instantly gets better — the judgment in the latent steps improves while the deterministic steps stay perfectly reliable.\nThat's how you get Yegge's 100x. Not a smarter model. Fat skills, thin harness, and the discipline to codify everything.\nThe system compounds. Build it once. It runs forever.",
-      "article_text_zh": "Steve Yegge 说，使用 AI 编程智能体的人，\"比今天用 Cursor 和聊天工具的工程师高效 10 到 100 倍，大约比 2005 年的 Google 员工高效 1000 倍。\"\n\n这是真实的数据。我见过。我经历过。但当人们听到这个说法时，他们总会找错解释方向：更好的模型、更智能的 Claude、更多的参数。那些 2 倍效率的人和 100 倍效率的人用的是同一个模型。差异不在于智能，而在于架构——而且这个架构能写在一张索引卡上。\n\n**\"外壳\"（Harness）就是产品**\n\n2026 年 3 月 31 日，Anthropic 意外地将 Claude Code 的完整源代码发布到了 npm 仓库。51.2 万行代码。我读了一遍。它证实了我在 YC 一直教授的一切：秘诀不在于模型，而在于包裹模型的那个东西。\n\n实时代码库上下文、提示缓存、专用工具、上下文膨胀最小化、结构化会话记忆、并行子智能体。这些都不能让模型变得更聪明。它们全部的作用是，在正确的时间给模型提供正确的上下文，同时不让它淹没在噪音中。\n\n这个包裹层被称为\"外壳\"（Harness）。每个 AI 构建者都应该问的问题是：什么东西该放进外壳里，什么东西该留在外面？答案有一个特定的形状。我称之为**薄外壳，厚技能**。\n\n**五个定义**\n\n瓶颈从来不是模型的智能。模型已经知道如何推理、综合和编写代码。它们失败是因为不理解你的数据——你的模式、你的约定、你问题的特定形态。五个定义解决了这个问题。\n\n**1. 技能文件**\n\n技能文件是一个可复用的 Markdown 文档，它教会模型如何做某事。不是做什么——用户提供\"做什么\"。技能提供的是\"流程\"。\n\n这是大多数人忽略的关键洞察：技能文件的工作方式类似于方法调用。它接受参数。你用不同的参数调用它。同一个流程，根据你传入的内容，会产生截然不同的能力。\n\n考虑一个名为 `/investigate` 的技能。它有七个步骤：界定数据集范围、构建时间线、对每个文档进行说话人分离（Diarize）、综合、论证双方观点、引用来源。它接受三个参数：`TARGET`、`QUESTION` 和 `DATASET`。把它指向一位安全科学家和 210 万封发现邮件，你会得到一个医学研究分析师，判断举报人是否被压制。把它指向一家空壳公司和 FEC 文件，你会得到一个法务调查员，追踪协调一致的政治捐款。\n\n同一个技能。同样的七个步骤。同一个 Markdown 文件。技能描述了一个判断流程。调用则提供了整个世界。\n\n这不是提示工程。这是软件设计，使用 Markdown 作为编程语言，使用人类判断作为运行时。事实上，Markdown 比僵硬的源代码更能完美地封装能力，因为它用模型已经用来思考的语言描述了流程、判断和上下文。\n\n**2. 外壳**\n\n外壳是运行 LLM 的程序。它做四件事：循环运行模型、读写你的文件、管理上下文、以及强制执行安全。仅此而已。这就是\"薄\"的含义。\n\n反模式是厚外壳配薄技能。你见过：40 多个工具定义吃掉了一半的上下文窗口。需要 2 到 5 秒 MCP 往返时间的\"上帝工具\"。将每个端点变成独立工具的 REST API 包装器。三倍的令牌数、三倍的延迟、三倍的失败率。\n\n你真正想要的是快速且专注的专用工具。一个能在 100 毫秒内完成每个浏览器操作的 Playwright CLI，而不是一个需要 15 秒来完成截图-查找-点击-等待-读取的 Chrome MCP。那是 75 倍的加速。软件不再需要那么\"金贵\"了。精确构建你所需的东西，别的都不要。\n\n**3. 解析器**\n\n解析器是上下文的**路由表**。当任务类型 X 出现时，首先加载文档 Y。\n\n技能告诉模型**如何**做。解析器告诉它**加载什么**以及**何时加载**。一个开发者修改了提示。没有解析器，他直接发布了。有了解析器，模型会先读取 `docs/EVALS.md`——里面写着：运行评估套件，比较分数，如果准确率下降超过 2%，则回滚并调查。开发者甚至不知道评估套件存在。解析器在正确的时刻加载了正确的上下文。\n\nClaude Code 有一个内置的解析器。每个技能都有一个描述字段，模型会自动将用户意图与技能描述匹配。你永远不需要记住 `/ship` 存在。描述本身就是解析器。\n\n坦白说：我的 `CLAUDE.md` 曾经有 20,000 行。每一个怪癖、每一个模式、我遇到过的每一个教训。完全荒谬。模型的注意力下降了。Claude Code 甚至直接告诉我把它删减掉。修复后大约只有 200 行——只是指向其他文档的指针。解析器在需要的时候加载正确的文档。两万行的知识，按需访问，而不会污染上下文窗口。\n\n**4. 潜在空间 vs. 确定性**\n\n你系统中的每一步要么是前者，要么是后者。混淆它们是最常见的智能体设计错误。\n\n**潜在空间**是智能所在的地方。模型读取、解释、决策。判断、综合、模式识别。\n\n**确定性**是信任所在的地方。相同输入，相同输出。每次都是。SQL 查询、编译后的代码、算术运算。\n\n一个 LLM 可以为 8 个人安排晚宴座位，考虑到个性和社交动态。让它安排 800 个人，它会幻觉出一个看起来合理但完全错误的座位表。这是一个确定性问题（组合优化）被强行放入了潜在空间。最差的系统把错误的工作放在了这条线的错误一侧。最好的系统对此毫不留情。\n\n**5. 说话人分离**\n\n说话人分离是让 AI 对真正的知识工作有用的步骤。模型阅读关于某个主题的所有内容，并撰写一个结构化的概要——从几十或几百个文档中提炼出的一页判断。\n\n没有 SQL 查询能产生这个。没有 RAG 流水线能产生这个。模型必须真正去阅读，在脑海中同时容纳矛盾，注意到什么发生了变化以及何时变化的，然后综合出结构化的情报。这是数据库查找和分析师简报之间的区别。\n\n**架构**\n\n这五个概念组合成一个简单的三层架构。\n\n**厚技能**位于顶层：编码了判断、流程和领域知识的 Markdown 流程。这里承载了 90% 的价值。\n\n**薄 CLI 外壳**位于中间：大约 200 行代码。JSON 输入，文本输出。默认只读。\n\n**你的应用程序**位于底层：`QueryDB`、`ReadDoc`、`Search`、`Timeline`——确定性的基础。\n\n原则是有方向性的。将智能向上推入技能。将执行向下推入确定性工具。保持外壳的轻薄。当你这样做时，对模型的每一次改进都会自动提升所有技能，而确定性层则保持完美可靠。\n\n**会学习的系统**\n\n让我展示这五个定义如何协同工作。不是在理论上——而是在我们 YC 正在构建的一个实际系统中。\n\n蔡斯中心。2026 年 7 月。六千位创始人参加 Startup School。每个人都有一个结构化的申请、问卷回答、与顾问一对一聊天的记录，以及公开信号：X 上的帖子、GitHub 提交、显示他们发布速度的 Claude Code 记录。\n\n传统方法：一个 15 人的项目团队阅读申请，凭直觉做决定，更新电子表格。这在 200 位创始人时有效。在 6,000 位时就会崩溃。没有人类能在工作记忆中同时容纳这么多档案，并注意到\"面向 AI 智能体的基础设施\"这个方向最好的三位候选人，分别是一位来自拉各斯的开发者工具创始人、一位来自新加坡的合规创始人、以及一位来自布鲁克林的 CLI 工具创始人——而他们都在一对一聊天中用不同的词语描述了同一个痛点。\n\n模型可以。方法如下。\n\n**数据丰富**。一个名为 `/enrich-founder` 的技能拉取所有来源，运行数据丰富，进行说话人分离，并突出显示创始人所说的和他们实际在构建的之间的差距。确定性层处理 SQL 查询、GitHub 统计、对演示 URL 的浏览器测试、社交信号拉取、CrustData 查询。一个 cron 任务每晚运行。六千份档案，始终保持新鲜。\n\n说话人分离的输出捕捉到了任何关键词搜索都无法发现的东西：\n\n```\n创始人：Maria Santos\n公司：Contrail (contrail.dev)\n她说：\"AI 智能体的 Datadog\"\n实际在构建：80% 的提交在计费模块。\n  她正在构建一个伪装成可观测性工具的 FinOps 工具。\n```\n\n这个差距——\"说的\"与\"实际在构建的\"——需要读取 GitHub 提交历史、申请和顾问记录，并同时在脑海中容纳这三者。没有嵌入相似性搜索能找到这个。没有关键词过滤器能找到它。模型必须读取完整的档案并做出判断。（这是放在潜在空间中的完美决策！）\n\n**匹配**。这就是\"技能即方法调用\"大放异彩的地方。同一个匹配技能的三个调用，三种完全不同的策略：\n\n`/match-breakout` 获取 1,200 位创始人，按领域亲和力聚类，每个房间 30 人。嵌入加确定性分配。`/match-lunch` 获取 600 人，跨领域进行\"偶遇\"匹配，每桌 8 人，不重复——LLM 创造主题，然后确定性算法分配座位。`/match-live` 处理当前在大楼里的任何人，最近邻嵌入，200 毫秒，1 对 1 配对，排除已经见过面的人。\n\n模型还能做出聚类算法永远无法做出的判断：\"Santos 和 Oram 都是 AI 基础设施，但他们不是竞争对手——Santos 做成本归属，Oram 做编排。把他们放在同一个组里。\" 或者：\"Kim 申请的是'开发者工具'，但他的一对一记录显示他实际上在构建 SOC2 的合规自动化。把他移到金融科技/监管科技。\"\n\n没有嵌入能捕捉到 Kim 的重新分类。模型必须读取整个档案。\n\n**学习循环**。活动结束后，一个 `/improve` 技能读取 NPS 调查，对\"一般\"的回复进行说话人分离——不是差评，而是\"还行\"的回复，即系统几乎成功但没完全成功的地方——并提取模式。然后它提出新规则，并将它们写回匹配技能中：\n\n```\n当与会者说\"AI 基础设施\"\n    但初创公司 80%+ 是计费代码：\n    → 归类为金融科技，而非 AI 基础设施。\n\n当同一组中的两位与会者\n    已经认识：\n    → 惩罚接近度。\n       优先考虑新介绍。\n```\n\n这些规则被写回技能文件。下一次运行时自动使用它们。技能重写了自身。\n\n7 月活动：12% 的\"一般\"评分。下一次活动：4%。技能文件学会了\"一般\"真正意味着什么，系统在没有重写任何代码的情况下变得更好。\n\n同样的模式可以迁移到任何地方：检索、读取、说话人分离、计数、综合。然后：调查、调查、说话人分离、重写技能。\n\n如果你想了解 2026 年最有价值的循环是什么，就是这些。我们可以将它们应用到现存的每一个学科和知识工作领域。\n\n**技能是永久性升级**\n\n我发了一条推文，关于我给我的 OpenClaw 的一个指令，其反响超出了我的预期：\n\n> 你不允许做一次性工作。如果我让你做某事，而这件事是那种将来还会再发生的，你必须：第一次手动处理 3 到 10 个条目。给我看输出。如果我批准，就把它编入技能文件。如果它应该自动运行，就把它放到 cron 上。测试标准：如果我不得不为同一件事问你两次，你就失败了。\n\n一千个赞，两千五百个收藏。人们以为这是一个提示工程技巧。不是。这就是我一直在描述的架构。你写的每一个技能都是对你系统的永久性升级。它永远不会退化。它永远不会忘记。它会在凌晨 3 点你睡觉时运行。当下一个模型发布时，每一个技能都会立刻变得更好——潜在步骤中的判断力得到提升，而确定性步骤则保持完美可靠。\n\n这就是你获得 Yegge 所说的 100 倍效率的方法。不是一个更智能的模型。而是厚技能、薄外壳，以及将一切编码化的纪律。\n\n这个系统会自我增强。构建一次，永久运行。",
-      "article_text_zh_hash": "fa99523ecfbbab16",
-      "article_text_zh_translator_v": 2,
-      "article_title": "Thin Harness, Fat Skills",
-      "author": {
-        "name": "Garry Tan",
-        "username": "garrytan"
-      },
-      "fetched_at": "2026-05-12T12:14:44Z",
-      "id": "2042925773300908103",
-      "image_urls": [],
-      "text": "https://x.com/i/article/2042922188924424198",
-      "url": "https://x.com/garrytan/status/2042925773300908103"
     }
   },
   "thread_urls_by_conversation": {
@@ -16254,12 +16235,6 @@
     ],
     "2056867092729913802": [
       "https://x.com/LaGinmandalaufu/status/2056867092729913802"
-    ],
-    "2056923008024100970": [
-      "https://x.com/calvinnwq/status/2056923008024100970"
-    ],
-    "2056935730690379983": [
-      "https://x.com/_lopopolo/status/2056935730690379983"
     ],
     "2057076130159743041": [
       "https://x.com/47news_official/status/2057076130159743041",
@@ -20588,14 +20563,14 @@
       "https://x.com/Full_Metal_QR/status/2066830879771783507",
       "http://x.com/i/article/2066820333206933504",
       "https://x.com/Full_Metal_QR/status/2066865075168886902",
-      "https://x.com/Full_Metal_QR/status/2066848768637764068",
       "https://x.com/Full_Metal_QR/status/2066866192623796429",
-      "https://x.com/Full_Metal_QR/status/2067550204925297038",
-      "https://x.com/Full_Metal_QR/status/2066838085896167740",
-      "https://x.com/Full_Metal_QR/status/2067065445773967762",
-      "https://x.com/Full_Metal_QR/status/2066842920032854064",
       "https://x.com/Full_Metal_QR/status/2066930174407405620",
-      "https://x.com/Full_Metal_QR/status/2066889313850196318"
+      "https://x.com/Full_Metal_QR/status/2066848768637764068",
+      "https://x.com/Full_Metal_QR/status/2067550204925297038",
+      "https://x.com/Full_Metal_QR/status/2067065445773967762",
+      "https://x.com/Full_Metal_QR/status/2066838085896167740",
+      "https://x.com/Full_Metal_QR/status/2066889313850196318",
+      "https://x.com/Full_Metal_QR/status/2066842920032854064"
     ],
     "2066853420326384055": [
       "https://x.com/GokuMohandas/status/2066853420326384055",
@@ -20883,9 +20858,9 @@
       "https://x.com/mattpocockuk/status/2067263718711312473",
       "https://x.com/mattpocockuk/status/2067277488607137866",
       "https://x.com/mattpocockuk/status/2067590128868966597",
-      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067272387905671362",
+      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067291961208234047",
       "http://skills.sh",
@@ -20987,14 +20962,17 @@
     "2067329489252868241": [
       "https://x.com/benjaminsehl/status/2067329489252868241",
       "http://x.com/i/article/2067312987946323968",
+      "https://x.com/benjaminsehl/status/2068001434545606801",
       "https://x.com/benjaminsehl/status/2067612910235288048",
       "https://x.com/benjaminsehl/status/2067424850193314089",
       "https://x.com/benjaminsehl/status/2067757137783124403",
+      "https://x.com/benjaminsehl/status/2067976730854191503",
+      "https://x.com/benjaminsehl/status/2067976824164905451",
       "https://x.com/benjaminsehl/status/2067613782780657687",
       "https://x.com/benjaminsehl/status/2067713480392663469",
-      "https://x.com/benjaminsehl/status/2067921295677816847",
-      "https://x.com/benjaminsehl/status/2067334332247670826",
       "https://x.com/benjaminsehl/status/2067381524324819192",
+      "https://x.com/benjaminsehl/status/2067334332247670826",
+      "https://x.com/benjaminsehl/status/2067921295677816847",
       "https://x.com/benjaminsehl/status/2067370840295911790"
     ],
     "2067333337577140306": [
@@ -21023,8 +21001,7 @@
       "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
     ],
     "2067357113869898150": [
-      "https://x.com/hnshah/status/2067357113869898150",
-      "https://x.com/hnshah/status/2067755127898021953"
+      "https://x.com/hnshah/status/2067357113869898150"
     ],
     "2067364351678583245": [
       "https://x.com/AnneliesGamble/status/2067364351678583245",
@@ -21059,8 +21036,8 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2067930549281607754",
-      "https://pbs.twimg.com/media/HLLD3FZbsAAJsSx.jpg"
+      "https://x.com/_naiVe_2/status/2067992988677243056",
+      "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -21074,23 +21051,23 @@
       "https://x.com/UncleJAI/status/2067540972150628777",
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
-      "https://x.com/UncleJAI/status/2067933633617547511",
+      "https://x.com/UncleJAI/status/2068002228653445189",
+      "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067909379756851671",
       "https://x.com/UncleJAI/status/2067588634975576355",
       "https://x.com/UncleJAI/status/2067588912978231778",
+      "https://x.com/UncleJAI/status/2067867021220720894",
       "https://x.com/UncleJAI/status/2067542821339558314",
       "https://x.com/UncleJAI/status/2067545643279933789",
-      "https://x.com/UncleJAI/status/2067832515700969548",
-      "https://x.com/UncleJAI/status/2067804191947637166",
       "https://x.com/UncleJAI/status/2067592138100265322",
+      "https://x.com/UncleJAI/status/2067832515700969548",
       "https://x.com/UncleJAI/status/2067553504345174052",
+      "https://x.com/UncleJAI/status/2067933633617547511",
+      "https://x.com/UncleJAI/status/2067804191947637166",
+      "https://x.com/UncleJAI/status/2067552022807847064",
       "https://x.com/UncleJAI/status/2067588274965868610",
       "https://x.com/UncleJAI/status/2067545531614957725",
-      "https://x.com/UncleJAI/status/2067552022807847064",
-      "https://x.com/UncleJAI/status/2067545789203898712",
-      "https://x.com/UncleJAI/status/2067867021220720894",
-      "https://x.com/UncleJAI/status/2067592325854023739",
-      "https://x.com/UncleJAI/status/2067889540761800736"
+      "https://x.com/UncleJAI/status/2067545789203898712"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
@@ -21101,9 +21078,9 @@
       "https://x.com/SidebarIO/status/2067603753734193390",
       "https://ailayoffs.rajnandan.com/?ref=sidebar",
       "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg",
-      "https://x.com/SidebarIO/status/2067658360321663316",
-      "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLHMUhLWkAI1QqO.jpg"
+      "https://x.com/SidebarIO/status/2067985262404100345",
+      "https://stringinamaze.net/p/rich-guy-quote-journalism?ref=sidebar",
+      "https://pbs.twimg.com/media/HLL1or8WgAAZd5Y.jpg"
     ],
     "2067622878737015252": [
       "https://x.com/SidebarIO/status/2067622878737015252",
@@ -21138,7 +21115,8 @@
       "http://x.com/i/article/2067652605350739968"
     ],
     "2067681739695391173": [
-      "https://x.com/jaminball/status/2067681739695391173"
+      "https://x.com/jaminball/status/2067681739695391173",
+      "https://x.com/jaminball/status/2067976180935081992"
     ],
     "2067682870009925736": [
       "https://x.com/MatthewBerman/status/2067682870009925736",
@@ -21149,8 +21127,8 @@
       "https://x.com/MatthewBerman/status/2067697032635281664",
       "https://x.com/MatthewBerman/status/2067689788346703966",
       "https://x.com/MatthewBerman/status/2067689690703241391",
-      "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067697001865883810",
+      "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
       "https://x.com/MatthewBerman/status/2067696923470164115",
       "https://x.com/MatthewBerman/status/2067697165418586571"
@@ -21162,6 +21140,6 @@
       "https://x.com/hugobarauna/status/2067770522293665935"
     ]
   },
-  "updated_at": "2026-06-19T12:17:56Z",
+  "updated_at": "2026-06-19T16:14:29Z",
   "window": "recent"
 }
