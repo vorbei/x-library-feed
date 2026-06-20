@@ -9401,6 +9401,9 @@
         "https://i.ytimg.com/vi/F_7M4Hc-usM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD5-nlylzlS4s1UQiWOaBKz4bmKog&days_since_epoch=20624"
       ],
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容仅为YouTube页面底部版权与法律链接栏，无实际文章正文，输出为空字符串。）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
       "category": "Media",
       "cleaner_v": 2,
