@@ -3002,6 +3002,22 @@
       "title": "",
       "url": "http://x.com/i/article/2057175813200777216"
     },
+    "http://x.com/i/article/2057422569528324096": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057422569528324096",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057422569528324096/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI1u87UaIAArgl8?format=jpg&name=900x900)](http://x.com/i/article/2057422569528324096/Suryanshti777/article/2057423582276522469/media/2057422597772681216)\n\nHow To Build AI Operating Systems & Autonomous Workflows\n\n[![](https://pbs.twimg.com/profile_images/2003864246833319936/d5GQLwdV_normal.jpg)](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n[Suryansh Tiwari](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n[@Suryanshti777](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n·\n\n3h\n\nFollow\n\nClick to Follow Suryanshti777\n\n13\n\n25\n\n113\n\n[3.1K](http://x.com/i/article/2057422569528324096/Suryanshti777/status/2057423582276522469/analytics)\n\nThe Complete Guide To Building Systems That Work Like Digital Companies Most people are still building AI tools. A few are building AI agents. But the real opportunity is much bigger than that. We are moving toward a world where businesses won’t run on disconnected apps and manual coordination anymore. They’ll run on intelligent operational layers capable of reasoning, remembering, coordinating, executing, and continuously improving across entire workflows. That is what an AI Operating System really is. And despite how futuristic the term sounds, the foundations already exist today. The interesting part is that an AI Operating System is not one model, one prompt, or one chatbot. It’s an ecosystem made up of memory systems, specialized agents, workflows, integrations, execution layers, and feedback loops working together like a coordinated digital team. The companies that understand this shift early won’t just automate tasks. They’ll fundamentally change how work gets done. This guide breaks down exactly how AI Operating Systems work, how to build them, how companies are already using them, and why this may become the next major evolution of software itself. First, Understand What An AI Operating System Actually Is Most people hear “AI Operating System” and imagine a superintelligent assistant that magically does everything. That’s not how it works. An AI Operating System is better understood as an intelligent orchestration layer sitting between humans, software tools, workflows, and execution systems. Instead of humans manually coordinating dozens of apps, the AI system becomes the coordinator itself. Think about how companies currently operate: Teams communicate in Slack Tasks live in Linear or Jira Documents sit inside Notion Analytics live in dashboards Emails happen separately Marketing tools operate independently CRMs store fragmented customer data The biggest problem is not lack of software. The problem is fragmentation. Context constantly gets lost between tools, teams, and workflows. Humans spend enormous amounts of time transferring information manually between systems that don’t naturally understand each other. AI Operating Systems solve this by creating a persistent intelligence layer across the entire workflow stack. Instead of switching between tools, the user interacts with one intelligent system that can understand objectives, maintain context, coordinate tasks, use external tools, and execute workflows autonomously. This changes software from something people “use” into something that actively operates alongside them. The Core Architecture Behind AI Operating Systems To build a real AI Operating System, you need to stop thinking like an app developer and start thinking like a systems architect. A proper AI Operating System usually contains six major layers working together. 1\\. The Intelligence Layer This is the reasoning engine of the system. Usually powered by large language models such as: OpenAI models Anthropic Claude Google Gemini open-source reasoning models This layer handles: understanding goals reasoning through tasks planning actions interpreting instructions",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057422569528324096/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HI1u87UaIAArgl8?format=jpg&name=900x900)](http://x.com/i/article/2057422569528324096/Suryanshti777/article/2057423582276522469/media/2057422597772681216)\n\n如何构建AI操作系统与自主工作流\n\n[![](https://pbs.twimg.com/profile_images/2003864246833319936/d5GQLwdV_normal.jpg)](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n[Suryansh Tiwari](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n[@Suryanshti777](http://x.com/i/article/2057422569528324096/Suryanshti777)\n\n·\n\n3小时前\n\n关注\n\n点击关注 @Suryanshti777\n\n13\n\n25\n\n113\n\n[3.1K](http://x.com/i/article/2057422569528324096/Suryanshti777/status/2057423582276522469/analytics)\n\n构建像数字公司一样运转的系统的完整指南 大多数人仍在构建AI工具。少数人在构建AI agent。但真正的机会远不止于此。我们正走向一个世界，在那里，企业不再依赖孤立的应用程序和手动协调来运转。它们将运行在能够推理、记忆、协调、执行并在整个工作流中持续改进的智能操作层上。这就是AI操作系统的真正含义。尽管这个术语听起来很未来主义，但其基础今天已经存在。有趣的是，AI操作系统不是一个模型、一个提示词或一个聊天机器人。它是一个由记忆系统、专用agent、工作流、集成、执行层和反馈循环组成的生态系统，像一个协调的数字团队一样协同工作。那些及早理解这一转变的公司将不仅仅是自动化任务。它们将从根本上改变工作的完成方式。本指南详细解析了AI操作系统如何工作、如何构建、企业如何已经在使用它们，以及为什么这可能成为软件本身的下一个重大演进。\n\n首先，理解AI操作系统的真正含义 大多数人听到“AI操作系统”时，会想象一个能神奇地完成所有事情的超级智能助手。但事实并非如此。AI操作系统最好被理解为位于人类、软件工具、工作流和执行系统之间的智能编排层。人类不再需要手动协调数十个应用程序，而是由AI系统本身成为协调者。想想公司目前的运作方式：团队在Slack中沟通，任务在Linear或Jira中，文档在Notion中，分析在仪表板中，电子邮件单独进行，营销工具独立运行，CRM存储着碎片化的客户数据。最大的问题不是缺乏软件，而是碎片化。上下文在工具、团队和工作流之间不断丢失。人类花费大量时间在彼此不理解的系统之间手动传输信息。AI操作系统通过在整个人工作流栈上创建一个持久智能层来解决这个问题。用户不再需要在工具之间切换，而是与一个能够理解目标、维护上下文、协调任务、使用外部工具并自主执行工作流的智能系统进行交互。这将软件从人们“使用”的东西，转变为主动与人们一起运作的东西。\n\nAI操作系统的核心架构 要构建一个真正的AI操作系统，你需要停止像应用开发者那样思考，开始像系统架构师那样思考。一个合适的AI操作系统通常包含六个协同工作的主要层。\n\n1. 智能层 这是系统的推理引擎。通常由大型语言模型驱动，例如：OpenAI模型、Anthropic Claude、Google Gemini、开源推理模型。该层负责：理解目标、推理任务、规划行动、解释指令。",
+      "text_excerpt_zh_hash": "c7a2b9baff6d5393",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2057422569528324096"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -34888,8 +34904,12 @@
     ],
     "2057407113052479870": [
       "https://x.com/StarKnight/status/2057407113052479870"
+    ],
+    "2057423582276522469": [
+      "https://x.com/Suryanshti777/status/2057423582276522469",
+      "http://x.com/i/article/2057422569528324096"
     ]
   },
-  "updated_at": "2026-06-20T14:30:23Z",
+  "updated_at": "2026-06-20T16:50:53Z",
   "window": "archive"
 }
