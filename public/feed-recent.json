@@ -6204,6 +6204,32 @@
       "title": "",
       "url": "http://x.com/i/article/2067686501891112960"
     },
+    "http://x.com/i/article/2067761662137110528": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2067761662137110528",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLIqbroagAAJ74k?format=jpg&name=900x900)](http://x.com/jaminball/article/2067981638227964220/media/2067761833973547008)\n\nWorkflows are King\n\n[![](https://pbs.twimg.com/profile_images/1943015950330277888/TdxHrBLL_normal.jpg)](http://x.com/jaminball)\n\n[Jamin Ball![](https://pbs.twimg.com/profile_images/1950197957262823424/rhTbDJlD_bigger.jpg)](http://x.com/jaminball)\n\n[@jaminball](http://x.com/jaminball)\n\n·\n\n9h\n\nFollow\n\nClick to Follow jaminball\n\n8\n\n13\n\n111\n\n[18K](http://x.com/jaminball/status/2067981638227964220/analytics)\n\nFrom Clouded Judgement: \n\n[Workflows are King](https://cloudedjudgement.substack.com/p/clouded-judgement-61926-workflows)\n\nWorkflows workflows workflows…I’ve probably written about this in the past (hard to keep track of everything I’ve written at this point, so I’m sure there will be some repetitive content!) but I wanted to circle back to it.\n\nFor SaaS companies, the conventional wisdom was that you developed a moat if you built a system of record - a platform that stored data. If you owned / controlled the data, you had a moat! Data has gravity. True, but that wasn’t the real moat. The real moat was the hundreds of workflows that grabbed data from that system of record and then got work done. Sometimes those workflows originated from the system of record platform itself. Sometimes the workflows originated elsewhere, and one stop of the workflow grabbed data from the system of record.\n\nThe real moat is owning the platform that the most workflows touched (and the platforms the most workflows touched was almost always the system of record). Swapping out the system of record was nearly impossible because it didn’t just mean porting the data to a new system of record, it meant rebuilding / verifying / testing / securing / etc ALL of the workflows. Many of these workflows were in the critical path or customer facing. The cost of going through this change management was nearly always greater than the value of swapping to a new system of record.\n\nI think the same thing is repeating with AI, with a twist. In SaaS, the moat lived at the data layer. Workflows formed around to the system of record, and this is what made it so hard to rip out. With agents, we still have workflows, but those workflows start to become more dynamic vs static (for SaaS workflows). So now the moat / anchor moves up a layer. The moat isn’t a derivative of where the data sits (ie workflows touching data), it’s where the work gets orchestrated. This is similar to what I wrote about last week about the value of becoming the Clearinghouse.\n\nSo what would my take away be for founders? I think the instinct when you read this (the moat is now the orchestration) is to go try to build the orchestration layer from the start. I don’t think this should be the takeaway! At least that’s not how systems of record because what they did. Salesforce wasn’t the platform a thousand workflows touched from day 1\\. They started with something more narrow / niche, owned a single use case, got really good at that one thing, and then slowly expanded outward until more and more workflows were built around them.\n\nI believe the agentic version will have the same playbook (albeit from a different starting point). Pick a single workflow (probably something that looks like it’s about to get commoditized), something that will become more important in the future but appears niche today (you want to be riding the right wave), and do this much better than anyone else. People will assume there’s no defensibility in this one niche (and why you’ll get underestimated).\n\nThen use this one workflow / wedge as strategic real estate. Build other workflows around it that are adjacent. Then slowly build the orchestration layer around it all (the thing that manages, routes, and governs the agents doing the work). One of my favorite s",
+      "title": "",
+      "url": "http://x.com/i/article/2067761662137110528"
+    },
+    "http://x.com/i/article/2067919620452032512": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2067919620452032512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2067919620452032512"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7416,6 +7442,30 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
+    },
+    "https://ditherimage.online/?ref=sidebar": {
+      "content_type": "text/html;charset=utf-8",
+      "description": "Get professional dithering effects instantly with this dithertone free tool. Features real-time, local processing with no sign-up required for maximum speed and security.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://ditherimage.online/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://ditherimage.online/_nuxt/logo.500f50af.png",
+        "https://ditherimage.online/_nuxt/bayer.4e3215da.png",
+        "https://ditherimage.online/_nuxt/crosshatch.ada4f2e0.png",
+        "https://ditherimage.online/_nuxt/halftone.496dedef.png",
+        "https://ditherimage.online/_nuxt/contour.6e3dd533.png",
+        "https://ditherimage.online/_nuxt/step.99772cd8.png",
+        "https://ditherimage.online/_nuxt/dither-style.7dcfdec0.png",
+        "https://ditherimage.online/_nuxt/sparkles.46fd770a.svg",
+        "https://ditherimage.online/_nuxt/layers.c74968c5.svg",
+        "https://ditherimage.online/_nuxt/feather.b6bd631a.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Dither Image Online",
+      "url": "https://ditherimage.online/?ref=sidebar"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -9272,35 +9322,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Introducing MAI-Thinking-1 | Microsoft AI",
       "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
-    },
-    "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Guidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "https://microsoft.design/wp-content/uploads/2026/05/heroDevices.png",
-        "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
-        "https://microsoft.design/wp-content/uploads/2026/05/Haptics_still_02.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/waveformWhiteBg.png",
-        "https://microsoft.design/wp-content/uploads/2026/05/fingerWhiteBg.png",
-        "https://microsoft.design/wp-content/uploads/2026/05/multiModalWhiteBg.png",
-        "https://microsoft.design/wp-content/uploads/2026/05/UI_align_v05.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/UI_dragDrop_05_EM_faster.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/UI_slider_04.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/UI_windowSnap_EM_02.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/divider1.jpg",
-        "https://microsoft.design/wp-content/uploads/2026/05/waveformParameters.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Haptics design and implementation\nGuidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences.\n– The estimated reading time is 11 min.\nGetting started with haptics\nTouch helps people understand how the physical world responds to their actions through immediate feedback. In contrast, digital interfaces often rely on visual or auditory cues alone. Haptics add a sense of touch to digital interactions, making experiences feel more responsive and intuitive.\nWindows now supports contextual haptic feedback through the InputHapticsManager API, enabling apps to deliver consistent experiences across supported devices.\nContents:\nWhat is haptics?\nBefore diving in further, let’s briefly align on the basics:\nHaptics is a form of touch-based feedback used to communicate information through physical interaction.\nHaptic feedback can be either:\nPassive, coming directly from physical interaction with hardware\nActive, generated by the device and controlled through software\nThe InputHapticsManager API enables active haptics, allowing apps to control when feedback occurs and how it feels.\nHaptics are most effective when used alongside visual and auditory feedback, reinforcing interactions without adding additional complexity.\nWhy add haptics?\nClarity Haptic feedback reinforces interactions by providing a physical confirmation, helping make actions feel responsive and reducing uncertainty.\nInclusion Haptics extend feedback beyond visual and auditory channels, helping make interactions more accessible for users with different needs and preferences.\nDelight Thoughtfully designed haptics bring interactions to life through subtle, expressive feedback—adding moments of delight beyond basic function.\nHaptic language\nWindows provides a set of predefined haptic waveforms designed for common interaction patterns. Each waveform has a distinct feel and purpose, helping create consistent experiences across applications and devices.\nWaveforms are defined by three characteristics:\nIntensity\nHow strong the feedback feels.\nDecay\nHow quickly the feedback \nfades.\nSharpness\nThe character of the feedback, ranging from soft to crisp.\nHaptic preferences vary by user. Windows allows users to adjust intensity or turn haptics off.\nDesign your experience so it remains clear and usable even when haptics are reduced or turned off.\nUse the waveforms below to match feedback to specific interaction moments, such as alignment, boundaries, discrete changes, or completed actions.\nInteraction feedback\nWaveforms in this group provide feedback during an interaction.\nHover\nHover\nA light pulse that indicates hover states, signaling an upcoming action\nCollide\nCollide\nA soft pulse that indicates reaching a boundary or limit\nAlign\nAlign\nA sharp pulse when an object snaps to an alignment guide\nStep\nStep\nA firm pulse for discrete changes, such as moving through steps or values\nGrow\nGrow\nA dynamic pulse that conveys motion, transitions, or intelligent system activity\nProcess confirmation\nWaveforms in this group communicate the outcome of a completed action.\nSuccess\nSuccess\nAn ascending pattern that confirms a completed action\nError\nError\nA descending pattern that indicates a failed action\nWhen to use haptics?\nHaptics should feel like a natural part of the interaction. Use them to reinforce user input, not distract from it.\nThe following principles guide when and how to use haptics effectively.\n1. Establish a clear cause – effect relationship\nHaptic feedback should act as a reliable response to user input. Reserve it for user-initiated actions to create a clear and intuitive connection.\nTo ensure interactions feel immediate, aim for a latency of less than 50 ms. Delays can weaken the connection between action and feedback.\n2. Provide signals, not noise\nHaptics are most effective when used with clear intent. Not every interaction needs feedback – use it where it adds value.\nThe scenarios below show a few common patterns where haptics improve c",
-      "text_excerpt_zh": "# 触觉设计及实现\n\n为交互添加触觉反馈的指南，以提升清晰度、支持包容性并创造更直观的体验。\n\n– 预计阅读时间：11分钟\n\n## 触觉入门\n\n触觉帮助人们通过即时反馈理解物理世界如何响应其动作。相比之下，数字界面通常仅依赖视觉或听觉线索。触觉为数字交互增添了触感，使体验更具响应性和直观性。\n\nWindows 现在通过 InputHapticsManager API 支持上下文触觉反馈，使应用能够在支持的设备上提供一致的体验。\n\n**目录：**\n\n## 什么是触觉？\n\n在深入探讨之前，我们先简要对齐基础知识：\n\n**触觉**是一种基于触摸的反馈形式，用于通过物理交互传递信息。\n\n触觉反馈可以是：\n- **被动式**，直接来自与硬件的物理交互\n- **主动式**，由设备生成并通过软件控制\n\nInputHapticsManager API 支持主动触觉，允许应用控制反馈发生的时间及其感觉。\n\n触觉在与视觉和听觉反馈配合使用时最为有效，它强化交互而不增加额外复杂性。\n\n## 为什么要添加触觉？\n\n- **清晰度**：触觉反馈通过提供物理确认来强化交互，帮助使操作感觉响应迅速并减少不确定性。\n- **包容性**：触觉将反馈扩展到视觉和听觉通道之外，帮助使交互对不同需求和偏好的用户更易访问。\n- **愉悦感**：精心设计的触觉通过微妙、富有表现力的反馈为交互注入活力——在基本功能之外增添愉悦时刻。\n\n## 触觉语言\n\nWindows 提供了一组预定义的触觉波形，适用于常见的交互模式。每种波形具有独特的感觉和用途，有助于在应用和设备间创建一致的体验。\n\n波形由三个特征定义：\n- **强度**：反馈感觉的强弱程度\n- **衰减**：反馈消退的速度\n- **锐度**：反馈的特性，范围从柔和到清脆\n\n触觉偏好因用户而异。Windows 允许用户调整强度或关闭触觉。\n\n设计您的体验，使其即使在触觉减弱或关闭时仍保持清晰和可用。\n\n使用以下波形将反馈与特定的交互时刻匹配，例如对齐、边界、离散变化或完成的操作。\n\n### 交互反馈\n\n此组中的波形在交互过程中提供反馈。\n\n- **悬停**：一个轻脉冲，指示悬停状态，预示即将发生的操作\n- **碰撞**：一个柔和脉冲，指示到达边界或限制\n- **对齐**：一个锐利脉冲，当对象卡入对齐参考线时\n- **步进**：一个坚实脉冲，用于离散变化，例如在步骤或值之间移动\n- **增长**：一个动态脉冲，传达运动、过渡或智能系统活动\n\n### 过程确认\n\n此组中的波形传达已完成操作的结果。\n\n- **成功**：一个上升模式，确认操作完成\n- **错误**：一个下降模式，指示操作失败\n\n## 何时使用触觉？\n\n触觉应感觉像是交互的自然组成部分。使用它们来强化用户输入，而非分散注意力。\n\n以下原则指导何时以及如何有效使用触觉。\n\n### 1. 建立清晰的因果关系\n\n触觉反馈应作为对用户输入的可靠响应。将其保留给用户发起的操作，以创建清晰直观的连接。\n\n为确保交互感觉即时，目标延迟应小于 50 毫秒。延迟会削弱操作与反馈之间的联系。\n\n### 2. 提供信号，而非噪音\n\n触觉在意图明确时最为有效。并非每次交互都需要反馈——在它能增加价值的地方使用它。\n\n以下场景展示了一些常见模式，其中触觉改善了...",
-      "text_excerpt_zh_hash": "57f2742dd1798616",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Haptics design and implementation - Microsoft Design",
-      "url": "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar"
     },
     "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/": {
       "cleaner_v": 2,
@@ -13825,33 +13846,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
     },
-    "https://pbs.twimg.com/media/HLMOnj2XUAAGRQl.jpg": {
+    "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLMOnj2XUAAGRQl.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLMOnj2XUAAGRQl.jpg"
+        "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLMOnj2XUAAGRQl.jpg"
+      "url": "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
     },
-    "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg": {
+    "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
+        "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
+      "url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -20825,9 +20846,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
       "https://x.com/sairahul1/status/2067180209615573213",
       "https://x.com/sairahul1/status/2067230331774882188",
-      "https://x.com/sairahul1/status/2067178097825484949",
       "https://x.com/sairahul1/status/2067504210728665445",
-      "https://x.com/sairahul1/status/2067173886995956221"
+      "https://x.com/sairahul1/status/2067173886995956221",
+      "https://x.com/sairahul1/status/2067178097825484949"
     ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
@@ -20866,16 +20887,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277488607137866",
-      "https://x.com/mattpocockuk/status/2067590128868966597",
-      "https://x.com/mattpocockuk/status/2067321326801437113",
-      "https://x.com/mattpocockuk/status/2067272387905671362",
-      "https://x.com/mattpocockuk/status/2067264261408063757",
-      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067291961208234047",
       "http://skills.sh",
-      "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067321326801437113",
+      "https://x.com/mattpocockuk/status/2067272387905671362",
+      "https://x.com/mattpocockuk/status/2067590128868966597",
+      "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067277427592532009",
+      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -20975,13 +20996,14 @@
       "https://x.com/benjaminsehl/status/2068001434545606801",
       "https://x.com/benjaminsehl/status/2067612910235288048",
       "https://x.com/benjaminsehl/status/2067424850193314089",
+      "https://x.com/benjaminsehl/status/2068044683448615208",
+      "https://x.com/benjaminsehl/status/2067976730854191503",
       "https://x.com/benjaminsehl/status/2067757137783124403",
       "https://x.com/benjaminsehl/status/2067613782780657687",
       "https://x.com/benjaminsehl/status/2067976824164905451",
-      "https://x.com/benjaminsehl/status/2067976730854191503",
       "https://x.com/benjaminsehl/status/2067713480392663469",
-      "https://x.com/benjaminsehl/status/2067381524324819192",
       "https://x.com/benjaminsehl/status/2067334332247670826",
+      "https://x.com/benjaminsehl/status/2067381524324819192",
       "https://x.com/benjaminsehl/status/2067921295677816847",
       "https://x.com/benjaminsehl/status/2067370840295911790"
     ],
@@ -20997,8 +21019,8 @@
       "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg",
       "https://x.com/PawelHuryn/status/2067334274781475291",
       "https://x.com/PawelHuryn/status/2061335092773929195?s=20",
-      "https://x.com/PawelHuryn/status/2068012758172397817",
-      "https://pbs.twimg.com/media/HLMOnj2XUAAGRQl.jpg"
+      "https://x.com/PawelHuryn/status/2068030633473962464",
+      "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
     ],
     "2067345406699393176": [
       "https://x.com/BrainsAndTennis/status/2067345406699393176",
@@ -21061,23 +21083,23 @@
       "https://x.com/UncleJAI/status/2067540972150628777",
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
-      "https://x.com/UncleJAI/status/2068002228653445189",
-      "https://x.com/UncleJAI/status/2067909379756851671",
-      "https://x.com/UncleJAI/status/2067588634975576355",
-      "https://x.com/UncleJAI/status/2067588912978231778",
-      "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067542821339558314",
-      "https://x.com/UncleJAI/status/2067545643279933789",
-      "https://x.com/UncleJAI/status/2067592138100265322",
-      "https://x.com/UncleJAI/status/2067867021220720894",
-      "https://x.com/UncleJAI/status/2067832515700969548",
-      "https://x.com/UncleJAI/status/2067553504345174052",
-      "https://x.com/UncleJAI/status/2067933633617547511",
-      "https://x.com/UncleJAI/status/2067804191947637166",
+      "https://x.com/UncleJAI/status/2067909379756851671",
+      "https://x.com/UncleJAI/status/2067967158198657394",
+      "https://x.com/UncleJAI/status/2068002228653445189",
       "https://x.com/UncleJAI/status/2067552022807847064",
-      "https://x.com/UncleJAI/status/2067588274965868610",
-      "https://x.com/UncleJAI/status/2067545531614957725",
-      "https://x.com/UncleJAI/status/2067545789203898712"
+      "https://x.com/UncleJAI/status/2067545643279933789",
+      "https://x.com/UncleJAI/status/2067867021220720894",
+      "https://x.com/UncleJAI/status/2067588634975576355",
+      "https://x.com/UncleJAI/status/2067933633617547511",
+      "https://x.com/UncleJAI/status/2067553504345174052",
+      "https://x.com/UncleJAI/status/2067563124774056413",
+      "https://x.com/UncleJAI/status/2067832515700969548",
+      "https://x.com/UncleJAI/status/2067592138100265322",
+      "https://x.com/UncleJAI/status/2067592325854023739",
+      "https://x.com/UncleJAI/status/2067588912978231778",
+      "https://x.com/UncleJAI/status/2067830423477260400",
+      "https://x.com/UncleJAI/status/2067588506772549769"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
@@ -21088,9 +21110,9 @@
       "https://x.com/SidebarIO/status/2067603753734193390",
       "https://ailayoffs.rajnandan.com/?ref=sidebar",
       "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg",
-      "https://x.com/SidebarIO/status/2068020745976922303",
-      "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
+      "https://x.com/SidebarIO/status/2067966139586449713",
+      "https://ditherimage.online/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
     ],
     "2067622878737015252": [
       "https://x.com/SidebarIO/status/2067622878737015252",
@@ -21116,9 +21138,9 @@
       "https://x.com/SidebarIO/status/2067648793789579736",
       "https://virtualosmuseum.org/?ref=sidebar",
       "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg",
-      "https://x.com/SidebarIO/status/2068020745976922303",
-      "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
+      "https://x.com/SidebarIO/status/2067966139586449713",
+      "https://ditherimage.online/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
     ],
     "2067654523049685057": [
       "https://x.com/zachlloydtweets/status/2067654523049685057",
@@ -21148,8 +21170,20 @@
       "http://x.com/i/article/2067686501891112960",
       "https://x.com/hugobarauna/status/2067769299356262579",
       "https://x.com/hugobarauna/status/2067770522293665935"
+    ],
+    "2067937943545897143": [
+      "https://x.com/jasonzhou1993/status/2067937943545897143",
+      "http://x.com/i/article/2067919620452032512",
+      "https://x.com/jasonzhou1993/status/2068094367093731601",
+      "https://x.com/jasonzhou1993/status/2068088225969905913",
+      "https://x.com/jasonzhou1993/status/2067953587704197476",
+      "https://x.com/jasonzhou1993/status/2068088101025824822"
+    ],
+    "2067981638227964220": [
+      "https://x.com/jaminball/status/2067981638227964220",
+      "http://x.com/i/article/2067761662137110528"
     ]
   },
-  "updated_at": "2026-06-19T18:09:15Z",
+  "updated_at": "2026-06-20T00:19:52Z",
   "window": "recent"
 }
