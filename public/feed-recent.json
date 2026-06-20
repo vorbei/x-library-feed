@@ -13793,33 +13793,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
     },
-    "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg": {
+    "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
+        "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
-    },
-    "https://pbs.twimg.com/media/HLPnK50XQAAtePQ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLPnK50XQAAtePQ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLPnK50XQAAtePQ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLPnK50XQAAtePQ.jpg"
+      "url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16211,9 +16197,6 @@
       "https://x.com/JClarkeatDell/status/2056821309535834393",
       "https://www.linkedin.com/pulse/ai-native-its-birthright-decision-jeff-clarke-6x74c/?trackingId=x0gRMNnGT%2Byl2aikU09q9A%3D%3D"
     ],
-    "2056867092729913802": [
-      "https://x.com/LaGinmandalaufu/status/2056867092729913802"
-    ],
     "2057076130159743041": [
       "https://x.com/47news_official/status/2057076130159743041",
       "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api"
@@ -16284,9 +16267,6 @@
       "https://x.com/seelffff/status/2057612302065586515",
       "https://x.com/seelffff/status/2057811368636494088",
       "https://x.com/seelffff/status/2057781199880241262"
-    ],
-    "2057407113052479870": [
-      "https://x.com/StarKnight/status/2057407113052479870"
     ],
     "2057416247319618039": [
       "https://x.com/bridge_surf/status/2057416247319618039",
@@ -20806,16 +20786,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
-      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277488607137866",
-      "https://x.com/mattpocockuk/status/2067291961208234047",
-      "http://skills.sh",
+      "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067272387905671362",
-      "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067264261408063757",
-      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067277405547274642",
+      "https://x.com/mattpocockuk/status/2067291961208234047",
+      "http://skills.sh",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -20915,16 +20895,16 @@
       "https://x.com/benjaminsehl/status/2068001434545606801",
       "https://x.com/benjaminsehl/status/2067612910235288048",
       "https://x.com/benjaminsehl/status/2067424850193314089",
-      "https://x.com/benjaminsehl/status/2068044683448615208",
-      "https://x.com/benjaminsehl/status/2067976730854191503",
       "https://x.com/benjaminsehl/status/2067757137783124403",
+      "https://x.com/benjaminsehl/status/2068044683448615208",
       "https://x.com/benjaminsehl/status/2067613782780657687",
+      "https://x.com/benjaminsehl/status/2067976730854191503",
       "https://x.com/benjaminsehl/status/2067976824164905451",
       "https://x.com/benjaminsehl/status/2067713480392663469",
-      "https://x.com/benjaminsehl/status/2067334332247670826",
       "https://x.com/benjaminsehl/status/2067381524324819192",
-      "https://x.com/benjaminsehl/status/2067370840295911790",
-      "https://x.com/benjaminsehl/status/2067921295677816847"
+      "https://x.com/benjaminsehl/status/2067334332247670826",
+      "https://x.com/benjaminsehl/status/2067921295677816847",
+      "https://x.com/benjaminsehl/status/2067370840295911790"
     ],
     "2067333337577140306": [
       "https://x.com/TimSuchanek/status/2067333337577140306",
@@ -20987,8 +20967,7 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2068176672508223775",
-      "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
+      "https://x.com/_naiVe_2/status/2068176884874330505"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -21003,26 +20982,26 @@
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
       "https://x.com/UncleJAI/status/2067909379756851671",
-      "https://x.com/UncleJAI/status/2067588634975576355",
-      "https://x.com/UncleJAI/status/2067588912978231778",
-      "https://x.com/UncleJAI/status/2067592138100265322",
       "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2068027118697824377",
+      "https://x.com/UncleJAI/status/2067542821339558314",
       "https://x.com/UncleJAI/status/2067867021220720894",
+      "https://x.com/UncleJAI/status/2067588634975576355",
+      "https://x.com/UncleJAI/status/2067552022807847064",
       "https://x.com/UncleJAI/status/2067553504345174052",
       "https://x.com/UncleJAI/status/2067545643279933789",
-      "https://x.com/UncleJAI/status/2067832515700969548",
-      "https://x.com/UncleJAI/status/2067588274965868610",
-      "https://x.com/UncleJAI/status/2067804191947637166",
       "https://x.com/UncleJAI/status/2067933633617547511",
-      "https://x.com/UncleJAI/status/2067545531614957725",
-      "https://x.com/UncleJAI/status/2067542821339558314",
-      "https://x.com/UncleJAI/status/2067889540761800736"
+      "https://x.com/UncleJAI/status/2067563124774056413",
+      "https://x.com/UncleJAI/status/2067592138100265322",
+      "https://x.com/UncleJAI/status/2067592325854023739",
+      "https://x.com/UncleJAI/status/2067588912978231778",
+      "https://x.com/UncleJAI/status/2067832515700969548",
+      "https://x.com/UncleJAI/status/2068207377304912143"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
-      "https://x.com/timtimtim_eth/status/2068250830147362918",
-      "https://pbs.twimg.com/media/HLPnK50XQAAtePQ.jpg"
+      "https://x.com/timtimtim_eth/status/2068250832349343843",
+      "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
     ],
     "2067603753734193390": [
       "https://x.com/SidebarIO/status/2067603753734193390",
@@ -21075,8 +21054,8 @@
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
       "https://x.com/MatthewBerman/status/2067697032635281664",
-      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067689788346703966",
+      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
@@ -21102,6 +21081,6 @@
       "http://x.com/i/article/2067761662137110528"
     ]
   },
-  "updated_at": "2026-06-20T09:42:21Z",
+  "updated_at": "2026-06-20T12:08:52Z",
   "window": "recent"
 }
