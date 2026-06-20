@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "count": 710,
+      "count": 711,
       "name": "Tools"
     },
     {
@@ -38,8 +38,43 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2348,
+  "item_count": 2349,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
+      "article_image_urls": [
+        "https://isitagentready.com/og-image.png",
+        "https://isitagentready.com/logo.svg"
+      ],
+      "article_title_extracted": "Is Your Site Agent-Ready?",
+      "category": "Tools",
+      "created_at": "2026-06-20T06:58:59.324310Z",
+      "description": "Scan your website to see if it's ready for AI agents. Check for llms.txt, MCP, agent skills, and other agent-friendly standards.",
+      "domain": "isitagentready.com",
+      "embed_type": "",
+      "id": "k171yekm2bmk9dtzwsxbjvfykh891y0m",
+      "og_image_url": "https://isitagentready.com/og-image.png",
+      "recommended_at": "2026-06-20T12:08:13.029000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "web-development",
+        "llms"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-20T12:08:13.029000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Is Your Site Agent-Ready?",
+      "url": "https://isitagentready.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
@@ -2238,7 +2273,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T14:52:38.938104Z",
+      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
       "article_title_extracted": "Fable Refinery",
       "category": "Tools",
       "created_at": "2026-06-13T13:08:35.035370Z",
@@ -2275,7 +2310,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T14:52:38.938104Z",
+      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/993475914/123bf50d-9ae2-48d9-94f7-7a345bf82c15",
         "https://github.com/apple/container/raw/main/assets/Containerization-Logo.png",
@@ -104554,7 +104589,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2191,
+      "count": 2192,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -104590,5 +104625,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-20T11:01:52.527411Z"
+  "updated_at": "2026-06-20T14:55:17.130966Z"
 }
