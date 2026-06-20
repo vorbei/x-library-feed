@@ -2906,6 +2906,22 @@
       "title": "",
       "url": "http://x.com/i/article/2056852756401356801"
     },
+    "http://x.com/i/article/2057152333696356352": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2057152333696356352",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057152333696356352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIx6TgrX0AAdNFj?format=jpg&name=900x900)](http://x.com/i/article/2057152333696356352/jxnlco/article/2057153744630890620/media/2057153605409427456)\n\nGetting the most out of Codex\n\n[![](https://pbs.twimg.com/profile_images/2031466894478503936/MGS4Spbe_normal.jpg)](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[jason](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[@jxnlco](http://x.com/i/article/2057152333696356352/jxnlco)\n\n·\n\n11h\n\n·\n\nFollow\n\nClick to Follow jxnlco\n\n24\n\n104\n\n1K\n\n[71K](http://x.com/i/article/2057152333696356352/jxnlco/status/2057153744630890620/analytics)\n\nMost developers first use coding agents for code: inspect a repository, make a diff, run tests, and open a pull request.\n\nThat’s still the center of gravity for Codex. But much of the work on a computer is already mediated by code: executing shell commands, browsing web pages, calling APIs, exporting documents, responding to events, and triggering automations. As those surfaces become available to Codex, it starts to feel less like a coding assistant in the narrow sense and more like a system for getting computer work done.\n\nThe \n\n[Codex app](https://developers.openai.com/codex/app/features/)\n\n makes that shift concrete. A thread can keep context, use tools, surface artifacts, and continue across prompts instead of resetting after each exchange.\n\nGetting more out of Codex means using these capabilities together:\n\n* durable threads that preserve context\n* voice, steering, and queuing while the user is still in the loop\n* browser, computer-use, MCP servers, and connectors that let Codex act beyond a repo\n* thread automations and Goals that continue the work while the user is away\n* the side panel, where users can review code, documents, decks, and other artifacts\n\n## \n\nDurable threads\n\n> Durable threads: Long-running Codex threads that preserve working context across repeated sessions.\n\nPinned threads are one way to keep durable threads close at hand. They’re useful for recurring work streams such as:\n\n* a Chief of Staff thread\n* a release thread\n* a documentation review thread\n* a thread dedicated to external monitoring\n\nThese are persistent workspaces, not short chats. Codex can revisit them over time, preserving prior decisions, preferences, and working context that would otherwise need to be rebuilt from scratch.\n\nPinned-thread shortcuts make this practical. Command-1 through Command-9 jump directly into saved threads.\n\n## \n\nVoice input\n\nVoice input is valuable because it captures the rough version of a thought before it’s compressed into polished prose.\n\nCodex has built-in voice input. It works especially well for vague starting points that are natural to say but awkward to type:\n\nI think someone named Ben mentioned this in Slack. I do not remember the details. Please go look.\n\nFor an agent that can search, gather context, and report back, that’s often enough.\n\nIt also works well for a two- or three-minute thought dump before the task is fully formed.\n\nTranscripts work the same way. A raw meeting transcript or dictated planning note often provides better source material than a short summary because it preserves uncertainty, emphasis, and unfinished lines of thought.\n\n## \n\nSteering and queuing\n\nVoice becomes even more useful when paired with explicit control over an active task.\n\n> Steering: Interrupting an in-flight Codex task with new direction before the current step finishes.\n\nSteering is useful when the agent is heading the wrong way and needs a correction before it finishes. During a website review, for example, the user can interrupt the work while annotating the surface in the side panel:\n\n* make this smaller\n* the spacing between these two elements feels off\n* this copy is wrong\n\n> Queuing: Adding work for Codex to do after the current step completes.\n\nQueu",
+      "text_excerpt_zh": "## 充分利用 Codex\n\n大多数开发者最初使用编码代理（coding agents）是为了处理代码：检查仓库、生成差异（diff）、运行测试以及发起拉取请求（pull request）。\n\n这仍然是 Codex 的核心功能。但计算机上的许多工作已经通过代码来中介：执行 shell 命令、浏览网页、调用 API、导出文档、响应事件以及触发自动化。随着这些接口对 Codex 开放，它开始变得不再像狭义上的编码助手，而更像一个完成计算机工作的系统。\n\n[Codex 应用](https://developers.openai.com/codex/app/features/) 让这一转变变得具体。一个线程（thread）可以保持上下文、使用工具、展示产物（artifacts），并在多个提示（prompts）之间持续进行，而不是每次交互后重置。\n\n要更充分地利用 Codex，需要将这些能力结合起来使用：\n\n*   持久化线程（durable threads），用于保留上下文\n*   语音、引导（steering）和排队（queuing），在用户仍在流程中时发挥作用\n*   浏览器、计算机操作、MCP 服务器和连接器（connectors），让 Codex 能在仓库之外行动\n*   线程自动化和目标（Goals），在用户离开后继续工作\n*   侧面板（side panel），用户可以在其中审查代码、文档、演示文稿和其他产物\n\n## 持久化线程\n\n> 持久化线程：长时间运行的 Codex 线程，可在重复会话中保留工作上下文。\n\n固定线程（Pinned threads）是让持久化线程触手可及的一种方式。它们对于重复性的工作流非常有用，例如：\n\n*   一个“参谋长”线程\n*   一个发布线程\n*   一个文档审查线程\n*   一个专门用于外部监控的线程\n\n这些是持久的工作空间，而非短暂的聊天。Codex 可以随时间推移重新访问它们，保留之前的决策、偏好和工作上下文，而这些信息如果从头开始重建将非常耗时。\n\n固定线程的快捷键使其更加实用。Command-1 到 Command-9 可以直接跳转到已保存的线程。\n\n## 语音输入\n\n语音输入很有价值，因为它能捕捉到想法粗糙的原始版本，而无需将其压缩成精炼的文字。\n\nCodex 内置了语音输入功能。它特别适用于那些说起来自然但打字却很别扭的模糊起点：\n\n> 我记得好像有个叫 Ben 的人在 Slack 里提过这个。我不记得细节了。请你去查一下。\n\n对于一个能够搜索、收集上下文并汇报结果的代理来说，这通常就足够了。\n\n它也非常适合在任务尚未完全成型时，进行两三分钟的想法倾泻。\n\n转录文本（Transcripts）也是如此。一份原始的会议记录或口述的规划笔记，往往比简短的摘要提供更好的素材，因为它保留了不确定性、重点以及未完成的思路。\n\n## 引导与排队\n\n当与对当前任务的显式控制相结合时，语音会变得更加有用。\n\n> 引导：在当前步骤完成之前，用新的方向打断正在进行的 Codex 任务。\n\n当代理正朝着错误的方向前进，需要在它完成之前进行纠正时，引导非常有用。例如，在网站审查期间，用户可以在侧面板中注释界面的同时打断工作：\n\n*   把这个缩小一点\n*   这两个元素之间的间距感觉不对\n*   这段文案是错的\n\n> 排队：在当前步骤完成后，为 Codex 添加待完成的工作。",
+      "text_excerpt_zh_hash": "9594058e4c15e3cb",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2057152333696356352"
+    },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
       "content_type": "",
@@ -3911,6 +3927,19 @@
       "text_excerpt_zh": "",
       "title": "Claude Code Unpacked",
       "url": "https://ccunpacked.dev/"
+    },
+    "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf"
     },
     "https://chaojizhizao.feishu.cn/wiki/Gbm8wMdS1itpk7kIVRlcN2WCnwd": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -21723,6 +21752,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HIum4c4aAAA_O8f.jpg"
     },
+    "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -34679,8 +34722,18 @@
       "https://pbs.twimg.com/media/HIu71U0akAASf0y.jpg",
       "https://pbs.twimg.com/media/HIu71VQbwAI7yb6.jpg",
       "https://x.com/idoubicc/status/2056963345086120002"
+    ],
+    "2057080944465748109": [
+      "https://x.com/_vmlops/status/2057080944465748109",
+      "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
+      "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
+    ],
+    "2057153744630890620": [
+      "https://x.com/jxnlco/status/2057153744630890620",
+      "http://x.com/i/article/2057152333696356352",
+      "https://x.com/jxnlco/status/2058027578208731324"
     ]
   },
-  "updated_at": "2026-06-20T00:19:52Z",
+  "updated_at": "2026-06-20T05:43:25Z",
   "window": "archive"
 }

@@ -1049,22 +1049,6 @@
       "title": "",
       "url": "http://x.com/i/article/2057091363322376192"
     },
-    "http://x.com/i/article/2057152333696356352": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057152333696356352",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057152333696356352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIx6TgrX0AAdNFj?format=jpg&name=900x900)](http://x.com/i/article/2057152333696356352/jxnlco/article/2057153744630890620/media/2057153605409427456)\n\nGetting the most out of Codex\n\n[![](https://pbs.twimg.com/profile_images/2031466894478503936/MGS4Spbe_normal.jpg)](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[jason](http://x.com/i/article/2057152333696356352/jxnlco)\n\n[@jxnlco](http://x.com/i/article/2057152333696356352/jxnlco)\n\n·\n\n11h\n\n·\n\nFollow\n\nClick to Follow jxnlco\n\n24\n\n104\n\n1K\n\n[71K](http://x.com/i/article/2057152333696356352/jxnlco/status/2057153744630890620/analytics)\n\nMost developers first use coding agents for code: inspect a repository, make a diff, run tests, and open a pull request.\n\nThat’s still the center of gravity for Codex. But much of the work on a computer is already mediated by code: executing shell commands, browsing web pages, calling APIs, exporting documents, responding to events, and triggering automations. As those surfaces become available to Codex, it starts to feel less like a coding assistant in the narrow sense and more like a system for getting computer work done.\n\nThe \n\n[Codex app](https://developers.openai.com/codex/app/features/)\n\n makes that shift concrete. A thread can keep context, use tools, surface artifacts, and continue across prompts instead of resetting after each exchange.\n\nGetting more out of Codex means using these capabilities together:\n\n* durable threads that preserve context\n* voice, steering, and queuing while the user is still in the loop\n* browser, computer-use, MCP servers, and connectors that let Codex act beyond a repo\n* thread automations and Goals that continue the work while the user is away\n* the side panel, where users can review code, documents, decks, and other artifacts\n\n## \n\nDurable threads\n\n> Durable threads: Long-running Codex threads that preserve working context across repeated sessions.\n\nPinned threads are one way to keep durable threads close at hand. They’re useful for recurring work streams such as:\n\n* a Chief of Staff thread\n* a release thread\n* a documentation review thread\n* a thread dedicated to external monitoring\n\nThese are persistent workspaces, not short chats. Codex can revisit them over time, preserving prior decisions, preferences, and working context that would otherwise need to be rebuilt from scratch.\n\nPinned-thread shortcuts make this practical. Command-1 through Command-9 jump directly into saved threads.\n\n## \n\nVoice input\n\nVoice input is valuable because it captures the rough version of a thought before it’s compressed into polished prose.\n\nCodex has built-in voice input. It works especially well for vague starting points that are natural to say but awkward to type:\n\nI think someone named Ben mentioned this in Slack. I do not remember the details. Please go look.\n\nFor an agent that can search, gather context, and report back, that’s often enough.\n\nIt also works well for a two- or three-minute thought dump before the task is fully formed.\n\nTranscripts work the same way. A raw meeting transcript or dictated planning note often provides better source material than a short summary because it preserves uncertainty, emphasis, and unfinished lines of thought.\n\n## \n\nSteering and queuing\n\nVoice becomes even more useful when paired with explicit control over an active task.\n\n> Steering: Interrupting an in-flight Codex task with new direction before the current step finishes.\n\nSteering is useful when the agent is heading the wrong way and needs a correction before it finishes. During a website review, for example, the user can interrupt the work while annotating the surface in the side panel:\n\n* make this smaller\n* the spacing between these two elements feels off\n* this copy is wrong\n\n> Queuing: Adding work for Codex to do after the current step completes.\n\nQueu",
-      "text_excerpt_zh": "## 充分利用 Codex\n\n大多数开发者最初使用编码代理（coding agents）是为了处理代码：检查仓库、生成差异（diff）、运行测试以及发起拉取请求（pull request）。\n\n这仍然是 Codex 的核心功能。但计算机上的许多工作已经通过代码来中介：执行 shell 命令、浏览网页、调用 API、导出文档、响应事件以及触发自动化。随着这些接口对 Codex 开放，它开始变得不再像狭义上的编码助手，而更像一个完成计算机工作的系统。\n\n[Codex 应用](https://developers.openai.com/codex/app/features/) 让这一转变变得具体。一个线程（thread）可以保持上下文、使用工具、展示产物（artifacts），并在多个提示（prompts）之间持续进行，而不是每次交互后重置。\n\n要更充分地利用 Codex，需要将这些能力结合起来使用：\n\n*   持久化线程（durable threads），用于保留上下文\n*   语音、引导（steering）和排队（queuing），在用户仍在流程中时发挥作用\n*   浏览器、计算机操作、MCP 服务器和连接器（connectors），让 Codex 能在仓库之外行动\n*   线程自动化和目标（Goals），在用户离开后继续工作\n*   侧面板（side panel），用户可以在其中审查代码、文档、演示文稿和其他产物\n\n## 持久化线程\n\n> 持久化线程：长时间运行的 Codex 线程，可在重复会话中保留工作上下文。\n\n固定线程（Pinned threads）是让持久化线程触手可及的一种方式。它们对于重复性的工作流非常有用，例如：\n\n*   一个“参谋长”线程\n*   一个发布线程\n*   一个文档审查线程\n*   一个专门用于外部监控的线程\n\n这些是持久的工作空间，而非短暂的聊天。Codex 可以随时间推移重新访问它们，保留之前的决策、偏好和工作上下文，而这些信息如果从头开始重建将非常耗时。\n\n固定线程的快捷键使其更加实用。Command-1 到 Command-9 可以直接跳转到已保存的线程。\n\n## 语音输入\n\n语音输入很有价值，因为它能捕捉到想法粗糙的原始版本，而无需将其压缩成精炼的文字。\n\nCodex 内置了语音输入功能。它特别适用于那些说起来自然但打字却很别扭的模糊起点：\n\n> 我记得好像有个叫 Ben 的人在 Slack 里提过这个。我不记得细节了。请你去查一下。\n\n对于一个能够搜索、收集上下文并汇报结果的代理来说，这通常就足够了。\n\n它也非常适合在任务尚未完全成型时，进行两三分钟的想法倾泻。\n\n转录文本（Transcripts）也是如此。一份原始的会议记录或口述的规划笔记，往往比简短的摘要提供更好的素材，因为它保留了不确定性、重点以及未完成的思路。\n\n## 引导与排队\n\n当与对当前任务的显式控制相结合时，语音会变得更加有用。\n\n> 引导：在当前步骤完成之前，用新的方向打断正在进行的 Codex 任务。\n\n当代理正朝着错误的方向前进，需要在它完成之前进行纠正时，引导非常有用。例如，在网站审查期间，用户可以在侧面板中注释界面的同时打断工作：\n\n*   把这个缩小一点\n*   这两个元素之间的间距感觉不对\n*   这段文案是错的\n\n> 排队：在当前步骤完成后，为 Codex 添加待完成的工作。",
-      "text_excerpt_zh_hash": "9594058e4c15e3cb",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057152333696356352"
-    },
     "http://x.com/i/article/2057167874033156096": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6918,19 +6902,6 @@
       "title": "仕事を辞めたい－本当の気持ち【職場の悩みに、哲学を 第3回】（京都大学 名誉教授／上智大学グリーフケア研究所 副所長 西平直氏） | マイナビキャリアリサーチLab",
       "url": "https://career-research.mynavi.jp/column/20260615_111639/"
     },
-    "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf": {
-      "cf_fallback_error": "empty result",
-      "cleaner_v": 2,
-      "content_type": "application/pdf",
-      "description": "",
-      "final_url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf"
-    },
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7445,30 +7416,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
-    },
-    "https://ditherimage.online/?ref=sidebar": {
-      "content_type": "text/html;charset=utf-8",
-      "description": "Get professional dithering effects instantly with this dithertone free tool. Features real-time, local processing with no sign-up required for maximum speed and security.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://ditherimage.online/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://ditherimage.online/_nuxt/logo.500f50af.png",
-        "https://ditherimage.online/_nuxt/bayer.4e3215da.png",
-        "https://ditherimage.online/_nuxt/crosshatch.ada4f2e0.png",
-        "https://ditherimage.online/_nuxt/halftone.496dedef.png",
-        "https://ditherimage.online/_nuxt/contour.6e3dd533.png",
-        "https://ditherimage.online/_nuxt/step.99772cd8.png",
-        "https://ditherimage.online/_nuxt/dither-style.7dcfdec0.png",
-        "https://ditherimage.online/_nuxt/sparkles.46fd770a.svg",
-        "https://ditherimage.online/_nuxt/layers.c74968c5.svg",
-        "https://ditherimage.online/_nuxt/feather.b6bd631a.svg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Dither Image Online",
-      "url": "https://ditherimage.online/?ref=sidebar"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -9326,6 +9273,32 @@
       "title": "Introducing MAI-Thinking-1 | Microsoft AI",
       "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
     },
+    "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Guidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://microsoft.design/wp-content/uploads/2026/05/heroDevices.png",
+        "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "https://microsoft.design/wp-content/uploads/2026/05/Haptics_still_02.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/waveformWhiteBg.png",
+        "https://microsoft.design/wp-content/uploads/2026/05/fingerWhiteBg.png",
+        "https://microsoft.design/wp-content/uploads/2026/05/multiModalWhiteBg.png",
+        "https://microsoft.design/wp-content/uploads/2026/05/UI_align_v05.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/UI_dragDrop_05_EM_faster.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/UI_slider_04.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/UI_windowSnap_EM_02.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/divider1.jpg",
+        "https://microsoft.design/wp-content/uploads/2026/05/waveformParameters.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Haptics design and implementation\nGuidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences.\n– The estimated reading time is 11 min.\nGetting started with haptics\nTouch helps people understand how the physical world responds to their actions through immediate feedback. In contrast, digital interfaces often rely on visual or auditory cues alone. Haptics add a sense of touch to digital interactions, making experiences feel more responsive and intuitive.\nWindows now supports contextual haptic feedback through the InputHapticsManager API, enabling apps to deliver consistent experiences across supported devices.\nContents:\nWhat is haptics?\nBefore diving in further, let’s briefly align on the basics:\nHaptics is a form of touch-based feedback used to communicate information through physical interaction.\nHaptic feedback can be either:\nPassive, coming directly from physical interaction with hardware\nActive, generated by the device and controlled through software\nThe InputHapticsManager API enables active haptics, allowing apps to control when feedback occurs and how it feels.\nHaptics are most effective when used alongside visual and auditory feedback, reinforcing interactions without adding additional complexity.\nWhy add haptics?\nClarity Haptic feedback reinforces interactions by providing a physical confirmation, helping make actions feel responsive and reducing uncertainty.\nInclusion Haptics extend feedback beyond visual and auditory channels, helping make interactions more accessible for users with different needs and preferences.\nDelight Thoughtfully designed haptics bring interactions to life through subtle, expressive feedback—adding moments of delight beyond basic function.\nHaptic language\nWindows provides a set of predefined haptic waveforms designed for common interaction patterns. Each waveform has a distinct feel and purpose, helping create consistent experiences across applications and devices.\nWaveforms are defined by three characteristics:\nIntensity\nHow strong the feedback feels.\nDecay\nHow quickly the feedback \nfades.\nSharpness\nThe character of the feedback, ranging from soft to crisp.\nHaptic preferences vary by user. Windows allows users to adjust intensity or turn haptics off.\nDesign your experience so it remains clear and usable even when haptics are reduced or turned off.\nUse the waveforms below to match feedback to specific interaction moments, such as alignment, boundaries, discrete changes, or completed actions.\nInteraction feedback\nWaveforms in this group provide feedback during an interaction.\nHover\nHover\nA light pulse that indicates hover states, signaling an upcoming action\nCollide\nCollide\nA soft pulse that indicates reaching a boundary or limit\nAlign\nAlign\nA sharp pulse when an object snaps to an alignment guide\nStep\nStep\nA firm pulse for discrete changes, such as moving through steps or values\nGrow\nGrow\nA dynamic pulse that conveys motion, transitions, or intelligent system activity\nProcess confirmation\nWaveforms in this group communicate the outcome of a completed action.\nSuccess\nSuccess\nAn ascending pattern that confirms a completed action\nError\nError\nA descending pattern that indicates a failed action\nWhen to use haptics?\nHaptics should feel like a natural part of the interaction. Use them to reinforce user input, not distract from it.\nThe following principles guide when and how to use haptics effectively.\n1. Establish a clear cause – effect relationship\nHaptic feedback should act as a reliable response to user input. Reserve it for user-initiated actions to create a clear and intuitive connection.\nTo ensure interactions feel immediate, aim for a latency of less than 50 ms. Delays can weaken the connection between action and feedback.\n2. Provide signals, not noise\nHaptics are most effective when used with clear intent. Not every interaction needs feedback – use it where it adds value.\nThe scenarios below show a few common patterns where haptics improve c",
+      "title": "Haptics design and implementation - Microsoft Design",
+      "url": "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar"
+    },
     "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -10922,20 +10895,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg"
-    },
-    "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
     },
     "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg": {
       "cleaner_v": 2,
@@ -13835,33 +13794,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg"
     },
-    "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg": {
+    "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
+        "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
-    },
-    "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
+      "url": "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
     },
     "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg": {
       "cleaner_v": 2,
@@ -13876,6 +13821,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
+    },
+    "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16274,11 +16233,6 @@
       "https://x.com/47news_official/status/2057076130159743041",
       "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api"
     ],
-    "2057080944465748109": [
-      "https://x.com/_vmlops/status/2057080944465748109",
-      "https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf",
-      "https://pbs.twimg.com/media/HIw4N4qaMAAbI8V.jpg"
-    ],
     "2057091692235481560": [
       "https://x.com/athleticKoder/status/2057091692235481560",
       "http://x.com/i/article/2057087203403259904",
@@ -16327,11 +16281,6 @@
       "https://x.com/Av1dlive/status/2057154956256481765",
       "https://x.com/Av1dlive/status/2057143106819211704",
       "https://x.com/Av1dlive/status/2057155376106307883"
-    ],
-    "2057153744630890620": [
-      "https://x.com/jxnlco/status/2057153744630890620",
-      "http://x.com/i/article/2057152333696356352",
-      "https://x.com/jxnlco/status/2058027578208731324"
     ],
     "2057177266984226892": [
       "https://x.com/vasuman/status/2057177266984226892",
@@ -20849,9 +20798,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
       "https://x.com/sairahul1/status/2067180209615573213",
       "https://x.com/sairahul1/status/2067230331774882188",
+      "https://x.com/sairahul1/status/2067178097825484949",
       "https://x.com/sairahul1/status/2067504210728665445",
-      "https://x.com/sairahul1/status/2067173886995956221",
-      "https://x.com/sairahul1/status/2067178097825484949"
+      "https://x.com/sairahul1/status/2067173886995956221"
     ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
@@ -20890,16 +20839,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
-      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277488607137866",
-      "https://x.com/mattpocockuk/status/2067291961208234047",
-      "http://skills.sh",
+      "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067272387905671362",
-      "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067264261408063757",
-      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067277405547274642",
+      "https://x.com/mattpocockuk/status/2067291961208234047",
+      "http://skills.sh",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067277427592532009",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -21071,8 +21020,8 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2067992988677243056",
-      "https://pbs.twimg.com/media/HLL8pJ3bUAE39kl.jpg"
+      "https://x.com/_naiVe_2/status/2068176672508223775",
+      "https://pbs.twimg.com/media/HLOjsoQbwAAiAew.jpg"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -21086,23 +21035,22 @@
       "https://x.com/UncleJAI/status/2067540972150628777",
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
-      "https://x.com/UncleJAI/status/2067542821339558314",
+      "https://x.com/UncleJAI/status/2068207377304912143",
       "https://x.com/UncleJAI/status/2067909379756851671",
-      "https://x.com/UncleJAI/status/2067967158198657394",
-      "https://x.com/UncleJAI/status/2068002228653445189",
-      "https://x.com/UncleJAI/status/2067552022807847064",
-      "https://x.com/UncleJAI/status/2067545643279933789",
-      "https://x.com/UncleJAI/status/2067867021220720894",
+      "https://x.com/UncleJAI/status/2068027118697824377",
       "https://x.com/UncleJAI/status/2067588634975576355",
-      "https://x.com/UncleJAI/status/2067933633617547511",
-      "https://x.com/UncleJAI/status/2067553504345174052",
-      "https://x.com/UncleJAI/status/2067563124774056413",
-      "https://x.com/UncleJAI/status/2067832515700969548",
-      "https://x.com/UncleJAI/status/2067592138100265322",
-      "https://x.com/UncleJAI/status/2067592325854023739",
+      "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067588912978231778",
-      "https://x.com/UncleJAI/status/2067830423477260400",
-      "https://x.com/UncleJAI/status/2067588506772549769"
+      "https://x.com/UncleJAI/status/2067545643279933789",
+      "https://x.com/UncleJAI/status/2067592138100265322",
+      "https://x.com/UncleJAI/status/2067542821339558314",
+      "https://x.com/UncleJAI/status/2067553504345174052",
+      "https://x.com/UncleJAI/status/2067867021220720894",
+      "https://x.com/UncleJAI/status/2067832515700969548",
+      "https://x.com/UncleJAI/status/2067804191947637166",
+      "https://x.com/UncleJAI/status/2067933633617547511",
+      "https://x.com/UncleJAI/status/2067545531614957725",
+      "https://x.com/UncleJAI/status/2067588274965868610"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
@@ -21113,9 +21061,9 @@
       "https://x.com/SidebarIO/status/2067603753734193390",
       "https://ailayoffs.rajnandan.com/?ref=sidebar",
       "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg",
-      "https://x.com/SidebarIO/status/2067966139586449713",
-      "https://ditherimage.online/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
+      "https://x.com/SidebarIO/status/2068020745976922303",
+      "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
     ],
     "2067622878737015252": [
       "https://x.com/SidebarIO/status/2067622878737015252",
@@ -21141,9 +21089,9 @@
       "https://x.com/SidebarIO/status/2067648793789579736",
       "https://virtualosmuseum.org/?ref=sidebar",
       "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg",
-      "https://x.com/SidebarIO/status/2067966139586449713",
-      "https://ditherimage.online/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLLkPoYXsAAk8Lu.jpg"
+      "https://x.com/SidebarIO/status/2068020745976922303",
+      "https://microsoft.design/articles/haptics-design-and-implementation/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
     ],
     "2067654523049685057": [
       "https://x.com/zachlloydtweets/status/2067654523049685057",
@@ -21160,8 +21108,8 @@
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
       "https://x.com/MatthewBerman/status/2067697032635281664",
-      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067689788346703966",
+      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
@@ -21187,6 +21135,6 @@
       "http://x.com/i/article/2067761662137110528"
     ]
   },
-  "updated_at": "2026-06-20T00:19:52Z",
+  "updated_at": "2026-06-20T05:43:25Z",
   "window": "recent"
 }
