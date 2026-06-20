@@ -2373,7 +2373,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_title_extracted": "WeLM Blog",
       "category": "Articles",
       "created_at": "2026-06-13T03:20:03.421309Z",
@@ -2405,7 +2405,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
         "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
       ],
@@ -2491,7 +2491,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_title_extracted": "slot-text — tiny text roll animation",
       "category": "Development",
       "created_at": "2026-06-13T03:05:11.075737Z",
@@ -4900,8 +4900,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_title_extracted": "mouseless",
       "category": "Tools",
       "created_at": "2026-06-06T03:58:56.025999Z",
@@ -4935,11 +4935,22 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
-        "https://flueframework.com/og3.jpg"
+        "https://flueframework.com/og3.jpg",
+        "https://svgl.app/library/cloudflare.svg",
+        "https://svgl.app/library/slack.svg",
+        "https://svgl.app/library/github_light.svg",
+        "https://svgl.app/library/postgresql.svg",
+        "https://svgl.app/library/discord.svg",
+        "https://svgl.app/library/docker.svg",
+        "https://svgl.app/library/stripe.svg",
+        "https://svgl.app/library/aws_dark.svg",
+        "https://svgl.app/library/shopify.svg",
+        "https://svgl.app/library/linear.svg",
+        "https://svgl.app/library/sentry.svg"
       ],
-      "article_title_extracted": "Flue — The Agent Harness Framework",
+      "article_title_extracted": "Flue — The Open Agent Framework",
       "category": "Development",
       "created_at": "2026-06-06T03:57:28.715438Z",
       "description": "Agent = Model + Harness. Build autonomous agents and powerful AI workflows with Flue's programmable TypeScript harness. Write once, deploy anywhere.",
@@ -4975,20 +4986,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
         "https://conduit.ai/og-image.jpg",
-        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB",
-        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_JAq36xHk9YCRU16cwTFtNV1L2abB"
+        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
+        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX"
       ],
       "article_title_extracted": "AI for Hospitality: Customer Service Agents to Elevate Guest Experience",
       "category": "Tools",
@@ -9386,12 +9397,13 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
       "article_image_urls": [
-        "https://i.ytimg.com/vi/g50FHC-PzK8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6HuRbPuiRdNM5uXwJo_iN4-f2MA&days_since_epoch=20617"
+        "https://i.ytimg.com/vi/F_7M4Hc-usM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD5-nlylzlS4s1UQiWOaBKz4bmKog&days_since_epoch=20624"
       ],
+      "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
       "article_title_extracted": "Stanford CS153 Frontier Systems - YouTube",
       "category": "Media",
+      "cleaner_v": 2,
       "created_at": "2026-05-23T02:25:29.658879Z",
       "description": "Stanford Online • YouTube",
       "domain": "www.youtube.com",
@@ -9478,19 +9490,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=6ee14237fb421f88dea59835106375cabd960e75",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-plugin-marketplace.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fetoro-spacexai.png&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-gopuff.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-1-5-og.webp&w=3840&q=75&dpl=6ee14237fb421f88dea59835106375cabd960e75"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-word-addin-title.webp&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-databricks.webp&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-aws-bedrock.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-video-1-5-og.png&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -9573,7 +9585,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
@@ -9615,7 +9627,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-13T05:09:01.203316Z",
+      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
       "article_image_urls": [
         "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
@@ -104575,5 +104587,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-20T04:59:10.731361Z"
+  "updated_at": "2026-06-20T11:01:52.527411Z"
 }
