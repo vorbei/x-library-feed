@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 438,
+      "count": 439,
       "name": "Development"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 277,
+      "count": 278,
       "name": "Social"
     },
     {
@@ -38,8 +38,75 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2349,
+  "item_count": 2351,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-06-21T04:30:09.698580Z",
+      "description": "The Pixel 67 is a retro dream. 🤌🏻 pic.twitter.com/u8PkVyz6Sn",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k17627jpn9t0bfydtrd59mc6g5892swq",
+      "og_image_url": "https://pbs.twimg.com/media/HLQodg5WQAA-bVE.jpg",
+      "recommended_at": "2026-06-21T04:30:18.955000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "pixel-67",
+        "retro-tech",
+        "photography"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T04:30:18.955000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Captain Sterling (@sterlingand_co) on X",
+      "url": "https://x.com/sterlingand_co/status/2068322621033271731",
+      "x_status_id": "2068322621033271731"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://quiver.ai/blog-mcp/quiver-mcp-visual.png",
+        "https://quiver.ai/blog-mcp/mcp-cursor-generation.png",
+        "https://quiver.ai/blog-mcp/cursor-quiver-mcp.png"
+      ],
+      "article_text": "Introducing QuiverAI MCP: SVG generation for agent workflows\nToday we’re introducing QuiverAI MCP, a hosted MCP server that brings QuiverAI’s structured SVG generation into agent workflows.\nQuiverAI MCP gives agents a secure way to create SVGs, vectorize images, inspect previous creations, poll task status, and fetch completed artwork through a hosted connection.\nIt is designed for MCP-compatible clients, so teams can bring QuiverAI into the AI environments where they already write code, explore ideas, and build products.\nWhat is MCP?\nMCP, or [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), is a standard for connecting AI agents to external tools and services.\nInstead of every product building a custom integration for every AI client, MCP gives agents a common way to discover tools, call them, and work with context from the services teams already use.\nFor QuiverAI, MCP means structured SVG generation can become part of an agent’s workflow. The agent can ask QuiverAI what models are available, create an asset, track the generation task, and retrieve the finished SVG when it is ready.\nThe result is an editable SVG that can move into a codebase, design system, website, prototype, documentation page, or broader creative pipeline.\nWhat you can do with QuiverAI MCP\nWith QuiverAI MCP enabled, agents can:\n- Generate SVG assets from prompts: Create logos, icons, wordmarks, illustrations, patterns, and brand assets directly from chat. This is useful when teams need visual directions quickly while staying inside their product or development workflow.\n- Use references to guide visual direction: Provide a reference image and ask the agent to preserve style, layout, color, typography, or composition while exploring new variations. This helps teams keep outputs aligned with an existing brand or visual system.\n- Vectorize raster images: Turn sketches, PNGs, rough concepts, and raster assets into clean SVGs. This is useful for moving early ideas or image-based concepts into an editable vector workflow.\n- Animate existing SVGs: Start animation tasks from an existing QuiverAI creation or an SVG source, then poll the task and retrieve the finished animated SVG.\n- Create assets inside a codebase: Ask an agent to generate an icon, illustration, or interface asset and place the final SVG into a project. Developers can move from asset request to implementation without switching tools.\n- Build repeatable creative pipelines: Generate onboarding illustrations, documentation visuals, landing page graphics, or small icon sets as part of a larger agent workflow. QuiverAI becomes one step in a process that can be repeated and refined.\n- Browse and reuse previous creations: Agents can list earlier QuiverAI creations, find the right asset, and retrieve the final SVG content when needed. This makes it easier to reuse work across projects instead of starting from scratch.\nWhy we made QuiverAI MCP\nQuiverAI is built around structured vector generation. Instead of producing flat images, it creates SVGs that stay editable, scalable, and ready for real product and design workflows.\nThat matters even more when agents are involved.\nAn agent should be able to do more than describe an asset or pass around a screenshot. It should be able to create a usable vector, track the result, retrieve the final SVG, and help move it into the next step of the work.\nMCP gives us a standard way to expose that creation loop to agent environments. It lets QuiverAI work with MCP-compatible clients through a hosted endpoint, while authentication happens through the client’s MCP login flow using the connected QuiverAI account and permissions.\nThe hosted server exposes the core QuiverAI workflow: model discovery, creation lookup, task polling, text-to-SVG generation, raster-to-SVG vectorization, and SVG content retrieval.\nAs MCP support expands across agent tools, the same QuiverAI MCP endpoint can support more ways for teams to bring structured vector g",
+      "article_title_extracted": "Introducing QuiverAI MCP: SVG generation for agent workflows – QuiverAI",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-21T04:25:12.079216Z",
+      "description": "QuiverAI MCP brings structured SVG generation into agent workflows through a hosted MCP server.",
+      "domain": "quiver.ai",
+      "embed_type": "",
+      "id": "k17che12vats34qc1bacqnx0md893jkp",
+      "og_image_url": "https://quiver.ai/blog-mcp/quiver-mcp-visual.png",
+      "recommended_at": "2026-06-21T04:25:19.781000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "mcp",
+        "svg-generation",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T04:25:19.781000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing QuiverAI MCP: SVG generation for agent workflows – QuiverAI",
+      "url": "https://quiver.ai/blog/introducing-quiverai-mcp",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
       "article_image_urls": [
@@ -2092,7 +2159,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-14T04:28:15.692204Z",
@@ -2228,20 +2295,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
+        "https://omnigent.ai/images/omnigent-social-card.png",
         "https://omnigent.ai/images/logo.svg",
         "https://omnigent.ai/images/logo-dark.svg",
         "https://omnigent.ai/images/hero-logo.svg",
         "https://omnigent.ai/images/hero-logo-dark.svg",
         "https://omnigent.ai/images/hero-demo.webp",
         "https://omnigent.ai/images/composability-icon.png",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition-dark.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition.png&w=3840&q=75&dpl=dpl_BLHLPuNZwjEkKrEyddQVMmAMcVzB",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcomposition-dark.png&w=3840&q=75&dpl=dpl_BLHLPuNZwjEkKrEyddQVMmAMcVzB",
         "https://omnigent.ai/images/sandbox.png",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
-        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol-dark.png&w=3840&q=75&dpl=dpl_6oQwPS4dNDJUbw8eTbn1sJPdm4CJ",
-        "https://omnigent.ai/images/high-five.png"
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol.png&w=3840&q=75&dpl=dpl_BLHLPuNZwjEkKrEyddQVMmAMcVzB",
+        "https://omnigent.ai/_next/image?url=%2Fimages%2Fcontrol-dark.png&w=3840&q=75&dpl=dpl_BLHLPuNZwjEkKrEyddQVMmAMcVzB"
       ],
       "article_title_extracted": "Omnigent — a meta-harness for building and running AI agents",
       "category": "Development",
@@ -4804,7 +4871,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca92ea67ef60d728ed80d0_opengraph-topazlabs-r.jpg",
         "https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/652d36e4bdb4c58ae007a00a_vai4-menu-close.svg",
@@ -6919,18 +6986,18 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
         "https://shiftapp.nyc/og_preview.png",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe",
-        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_FC824ZSdvi9BJdW16LioWgVPakCe"
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=256&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fshift-logo.png&w=128&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fleft.png&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fright.png&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fcleaning.jpg&w=1920&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-book-4.png&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-2.png&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-clean-3b.jpg&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ",
+        "https://www.shiftapp.nyc/_next/image?url=%2Fstep-share-2b.jpg&w=640&q=75&dpl=dpl_7WAvCdRxHtcrNTWN7GU73tifdpsJ"
       ],
       "article_title_extracted": "shift: Free Home Cleaning in NYC",
       "category": "Tools",
@@ -7054,7 +7121,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/ESyZLqSP6cNslPTuKtImn0QKTw.png",
         "https://framerusercontent.com/images/4XPyOmPW1ekC3IaHitkXiBMm6TY.webp?width=1440&height=900",
@@ -7230,7 +7297,7 @@
       "x_status_id": "2060338585539088867"
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
         "https://un.ms/assets/og4.png",
         "https://un.ms/build/assets/office-of-unms-2-ZsTPerh3.png",
@@ -9308,7 +9375,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_title_extracted": "Orion PDA — Pocket computer minimal Orion PDA — pocket computer minimal",
       "category": "Tools",
       "created_at": "2026-05-24T02:34:11.071500Z",
@@ -9400,7 +9467,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T05:19:25.426923Z",
+      "article_fetch_attempted_at": "2026-06-21T05:29:19.863042Z",
       "article_image_urls": [
         "https://simplecss.org/assets/images/simple-css-feature.webp"
       ],
@@ -104595,7 +104662,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2192,
+      "count": 2194,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -104631,5 +104698,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-20T21:51:52.890695Z"
+  "updated_at": "2026-06-21T05:29:46.926712Z"
 }
