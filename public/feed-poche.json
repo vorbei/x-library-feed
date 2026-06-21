@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 711,
+      "count": 713,
       "name": "Tools"
     },
     {
-      "count": 439,
+      "count": 440,
       "name": "Development"
     },
     {
-      "count": 335,
+      "count": 338,
       "name": "Design"
     },
     {
@@ -38,8 +38,259 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2351,
+  "item_count": 2358,
   "items": [
+    {
+      "article_image_urls": [
+        "https://static.dinehq.com/images/covers/hashkey-cover.jpg",
+        "https://static.dinehq.com/images/hashkey/hashkey-01@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-06@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-07@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-09@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-10@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-11@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-08@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/hashkey/hashkey-02@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/naitang-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/beitao-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/api7-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp"
+      ],
+      "article_text": "Work News About Contact Digest 中 中 中 Work News About Contact Digest Have a project in mind? hello@dinehq.com Book a meeting WeChat Telegram All Work HashKey Year 2026 Sector Web3 Services Brand Link hashkey.com We worked with HashKey, one of Asia's leading digital asset financial groups, on a range of marketing materials across online and offline touchpoints. More Work Pastok A memory layer for conversations Naitang A community for women's fashion and lifestyle Beitao Reimagining how people invest API7 Connecting APIs across any cloud Remote Buffet Careers Privacy Feed llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 Ask AI about us ChatGPT Claude Perplexity Prompt",
+      "article_title_extracted": "Dine - HashKey",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-21T04:30:44.772497Z",
+      "description": "We worked with HashKey, one of Asia's leading digital asset financial groups, on a range of marketing materials across online and offline touchpoints.",
+      "domain": "dinehq.com",
+      "embed_type": "",
+      "id": "k17dnfqyrpqh0vjpn82x8nq01d892td6",
+      "og_image_url": "https://static.dinehq.com/images/covers/hashkey-cover.jpg",
+      "recommended_at": "2026-06-21T15:48:10.327000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "branding",
+        "fintech",
+        "design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:10.327000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dine - HashKey",
+      "url": "https://dinehq.com/work/hashkey/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://static.dinehq.com/images/covers/pastok-cover.mp4?x-oss-process=video/snapshot,t_0,f_jpg,w_1200,m_fast",
+        "https://static.dinehq.com/images/pastok/pastok-01@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/pastok/pastok-05@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/pastok/pastok-06@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/pastok/pastok-02@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/pastok/pastok-04@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/comoco-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/xcurrency-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/contact/chatgpt.svg",
+        "https://static.dinehq.com/images/contact/claude.svg",
+        "https://static.dinehq.com/images/contact/perplexity.svg"
+      ],
+      "article_text": "Work News About Contact Digest 中 中 中 Work News About Contact Digest Have a project in mind? hello@dinehq.com Book a meeting WeChat Telegram All Work Pastok Year 2026 Sector A.I. Services Brand / Product / Website Link pastok.com Pastok turns everyday conversations into private, structured memory — captured on your Apple Watch, then organized and searchable automatically. We worked with Pastok on their brand, product, and website. More Work BA Capital Breaking the mold of VC websites Haiper Building powerful perceptual foundation models Comoco Building the NFT IP infrastructure of the future xCurrency The largest currency converter by users Remote Buffet Careers Privacy Feed llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 Ask AI about us ChatGPT Claude Perplexity Prompt",
+      "article_title_extracted": "Dine - Pastok",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-21T04:30:44.901607Z",
+      "description": "Pastok turns everyday conversations into private, structured memory — captured on your Apple Watch, then organized and searchable automatically. We worked with Pastok on their brand, product, and website.",
+      "domain": "dinehq.com",
+      "embed_type": "",
+      "id": "k172agrzcr1wt4z36ctxnjeva5893cab",
+      "og_image_url": "https://static.dinehq.com/images/covers/pastok-cover.mp4?x-oss-process=video/snapshot,t_0,f_jpg,w_1200,m_fast",
+      "recommended_at": "2026-06-21T15:48:08.812000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "apple-watch",
+        "voice-notes",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:08.812000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dine - Pastok",
+      "url": "https://dinehq.com/work/pastok/",
+      "x_status_id": null
+    },
+    {
+      "article_image_urls": [
+        "https://static.dinehq.com/images/covers/wavespeed-cover.mp4?x-oss-process=video/snapshot,t_0,f_jpg,w_1200,m_fast",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-02@2x.png?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-05@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-10@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-06@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-08@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/wavespeed/wavespeed-09@2x.jpg?image_process=resize,w_1200/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/hillbot-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/fwrd-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/covers/zenjoy-cover.jpg?image_process=resize,w_400/quality,Q_90/format,webp",
+        "https://static.dinehq.com/images/contact/chatgpt.svg",
+        "https://static.dinehq.com/images/contact/claude.svg"
+      ],
+      "article_text": "Work News About Contact Digest 中 中 中 Work News About Contact Digest Have a project in mind? hello@dinehq.com Book a meeting WeChat Telegram All Work WaveSpeed Year 2026 Sector A.I. Services Brand / Website / Development Link wavespeed.ai WaveSpeed is an AI media generation platform built on a single promise: speed. Behind one high-speed interface, it unifies hundreds of image, video, and speech models, giving developers and creators a faster way to build, create, and scale. We shaped the experience from end to end, designing a new visual identity, the marketing website, and the product dashboard. We also built a suite of generative brand kits that turn the identity into a living system, rendering its own social assets, banners, and media kits on demand from a single set of design tokens. The shape of speed WaveSpeed makes a single promise of speed, and we built the identity to embody it. A sharp geometric symbol carries that sense of motion, working as a full lockup where space allows and as a standalone mark for compact contexts like favicons and app icons. A strict monochrome system keeps it crisp everywhere: black on light, white on dark. Three typefaces give the brand its voice. Azeret brings character to the headlines, Geist Sans carries the body, and Geist Mono lends the technical precision that speaks to the developers at the platform’s core. From landing to playground That obsession with speed runs from the first scroll to the final render. The marketing site leads with the work itself: rotating spotlights of the newest models, full-bleed generations, and an invitation to build, create, and scale faster. Step inside and the same language carries into the product, a dense, developer-first dashboard where hundreds of image, video, and speech models, a live playground, and transparent per-request costs all sit behind a single high-speed interface. A brand that generates itself For a platform that generates media on demand, a fixed brand felt wrong, so we made the identity generative too. A suite of brand kits lives inside the product’s admin, rendering social assets, banners, media kits, and announcement bars on the fly from one shared set of design tokens. Adjust a color once and it cascades everywhere; the guidelines aren’t a static PDF but a living, interactive system. The brand stays in motion, just like the product it represents. More Work Hillbot Bringing embodied AI to robots RELX A companion app for adult smokers FWRD Luxury fashion tailored for China Zenjoy Making mobile games discoverable Remote Buffet Careers Privacy Feed llms.txt X/Twitter Instagram Rednote © 2026 Dine 京ICP备20022267号-2 Ask AI about us ChatGPT Claude Perplexity Prompt",
+      "article_title_extracted": "Dine - WaveSpeed",
+      "category": "Design",
+      "cleaner_v": 2,
+      "created_at": "2026-06-21T04:30:45.033313Z",
+      "description": "WaveSpeed is an AI media generation platform built on a single promise: speed. We shaped the experience from end to end, designing a new visual identity, the marketing website, and the product dashboard. We also built a suite of generative brand kits that turn the identity into a living system, rendering its own social assets, banners, and media kits on demand from a single set of design tokens.",
+      "domain": "dinehq.com",
+      "embed_type": "",
+      "id": "k17ar3d807m268xadw12jnrzh98936yh",
+      "og_image_url": "https://static.dinehq.com/images/covers/wavespeed-cover.mp4?x-oss-process=video/snapshot,t_0,f_jpg,w_1200,m_fast",
+      "recommended_at": "2026-06-21T15:48:07.390000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-generation",
+        "media-production",
+        "generative-ai"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:07.390000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Dine - WaveSpeed",
+      "url": "https://dinehq.com/work/wavespeed/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-21T18:08:55.033821Z",
+      "article_image_urls": [
+        "https://auditkit.dev/og-image.svg"
+      ],
+      "article_title_extracted": "AuditKit Local website audit CLI for agencies",
+      "category": "Tools",
+      "created_at": "2026-06-21T04:36:00.060179Z",
+      "description": "Local website audits from your terminal. HTML checks, security headers, Lighthouse, and client reports all on your machine.",
+      "domain": "audit-kit.dev",
+      "embed_type": "",
+      "id": "k17fgdtzzhfry5rpy3bdp80bx98928gh",
+      "og_image_url": "https://cloud.poche.app/api/storage/5bb9abcb-f0c7-4495-aa48-0dfe480e824d",
+      "recommended_at": "2026-06-21T15:48:04.282000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "web-development",
+        "seo-audit",
+        "cli-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:04.282000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "AuditKit Local website audit CLI for agencies",
+      "url": "https://audit-kit.dev/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-21T18:08:55.033821Z",
+      "article_image_urls": [
+        "https://resources.jetbrains.com/storage/products/junie/img/meta/preview.png"
+      ],
+      "article_title_extracted": "Junie, the AI coding agent by JetBrains",
+      "category": "Development",
+      "created_at": "2026-06-21T07:01:48.498287Z",
+      "description": "Delegate your tasks, focus on the results",
+      "domain": "www.jetbrains.com",
+      "embed_type": "",
+      "id": "k179b629few6psrwzjqpwvqx9n892bzx",
+      "og_image_url": "https://resources.jetbrains.com/storage/products/junie/img/meta/preview.png",
+      "recommended_at": "2026-06-21T15:48:02.083000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-coding",
+        "jetbrains",
+        "software-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:02.083000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Junie, the AI coding agent by JetBrains",
+      "url": "https://www.jetbrains.com/junie/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-21T18:08:55.033821Z",
+      "article_image_urls": [
+        "https://otty.sh/screenshots/screenshot-1.png",
+        "https://otty.sh/otty-face.svg",
+        "https://otty.sh/screenshots/screenshot-2.png",
+        "https://otty.sh/screenshots/screenshot-3.png",
+        "https://otty.sh/screenshots/screenshot-4.png",
+        "https://otty.sh/screenshots/screenshot-5.png",
+        "https://otty.sh/screenshots/screenshot-6.png",
+        "https://otty.sh/screenshots/screenshot-7.png",
+        "https://otty.sh/screenshots/screenshot-8.png",
+        "https://otty.sh/screenshots/screenshot-9.png",
+        "https://otty.sh/img/terminal.png",
+        "https://otty.sh/img/ligature.png"
+      ],
+      "article_title_extracted": "Otty — A native, beautiful terminal app",
+      "category": "Tools",
+      "created_at": "2026-06-21T15:45:46.673486Z",
+      "description": "Otty is a native, beautiful terminal app. Designed for anyone who cares about the feel of every keystroke.",
+      "domain": "otty.sh",
+      "embed_type": "",
+      "id": "k17cgnp4pxfmtd9dkmq2bbmwz98938pj",
+      "og_image_url": "https://otty.sh/screenshots/screenshot-1.png",
+      "recommended_at": "2026-06-21T15:48:00.522000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "terminal",
+        "software",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-21T15:48:00.522000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Otty — A native, beautiful terminal app",
+      "url": "https://otty.sh/",
+      "x_status_id": null
+    },
     {
       "category": "Social",
       "created_at": "2026-06-21T04:30:09.698580Z",
@@ -9288,7 +9539,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-14T18:01:45.146313Z",
+      "article_fetch_attempted_at": "2026-06-21T18:08:55.033821Z",
       "article_image_urls": [
         "https://slim.tools/og-image.png"
       ],
@@ -48610,13 +48861,6 @@
           "recommended_at": "2026-02-09T07:57:15.057000Z",
           "recommended_by": "fonter",
           "slug": "fonter"
-        },
-        {
-          "id": "m574wc4bc2w3v8hxxsced5h3ph7wkqcv",
-          "name": "huan",
-          "recommended_at": "2026-01-28T11:24:00.470000Z",
-          "recommended_by": "huan",
-          "slug": "huan"
         }
       ],
       "title": "What I learned building an opinionated and minimal coding agent",
@@ -53126,6 +53370,46 @@
       "title_zh_hash": "506f61b986d2b7e2",
       "title_zh_translator_v": 2,
       "url": "https://multi.app/",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/header.png",
+        "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/subagent.jpeg",
+        "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/terminal-bench.png",
+        "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/results.jpeg",
+        "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/results2.png"
+      ],
+      "article_text": "What I learned building an opinionated and minimal coding agent\n2025-11-30\nTable of contents\nIn the past three years, I've been using LLMs for assisted coding. If you read this, you probably went through the same evolution: from copying and pasting code into [ChatGPT](https://chatgpt.com), to [Copilot](https://github.com/features/copilot) auto-completions (which never worked for me), to [Cursor](https://cursor.com), and finally the new breed of coding agent harnesses like [Claude Code](https://claude.ai/code), [Codex](https://github.com/openai/codex), [Amp](https://ampcode.com), [Droid](https://factory.ai), and [opencode](https://opencode.ai) that became our daily drivers in 2025.\nI preferred Claude Code for most of my work. It was the first thing I tried back in April after using Cursor for a year and a half. Back then, it was much more basic. That fit my workflow perfectly, because I'm a simple boy who likes simple, predictable tools. Over the past few months, Claude Code has turned into a spaceship with 80% of functionality I have no use for. The [system prompt and tools also change](https://mariozechner.at/posts/2025-08-03-cchistory/) on every release, which breaks my workflows and changes model behavior. I hate that. Also, it flickers.\nI've also built a bunch of agents over the years, of various complexity. For example, [Sitegeist](https://sitegeist.ai), my little browser-use agent, is essentially a coding agent that lives inside the browser. In all that work, I learned that context engineering is paramount. Exactly controlling what goes into the model's context yields better outputs, especially when it's writing code. Existing harnesses make this extremely hard or impossible by injecting stuff behind your back that isn't even surfaced in the UI.\nSpeaking of surfacing things, I want to inspect every aspect of my interactions with the model. Basically no harness allows that. I also want a cleanly documented session format I can post-process automatically, and a simple way to build alternative UIs on top of the agent core. While some of this is possible with existing harnesses, the APIs smell like organic evolution. These solutions accumulated baggage along the way, which shows in the developer experience. I'm not blaming anyone for this. If tons of people use your shit and you need some sort of backwards compatibility, that's the price you pay.\nI've also dabbled in self-hosting, both locally and on [DataCrunch](https://datacrunch.io). While some harnesses like opencode support self-hosted models, it usually doesn't work well. Mostly because they rely on libraries like the [Vercel AI SDK](https://sdk.vercel.ai/), which doesn't play nice with self-hosted models for some reason, specifically when it comes to tool calling.\nSo what's an old guy yelling at Claudes going to do? He's going to write his own coding agent harness and give it a name that's entirely un-Google-able, so there will never be any users. Which means there will also never be any issues on the GitHub issue tracker. How hard can it be?\nTo make this work, I needed to build:\n- [pi-ai](https://github.com/badlogic/pi-mono/tree/main/packages/ai): A unified LLM API with multi-provider support (Anthropic, OpenAI, Google, xAI, Groq, Cerebras, OpenRouter, and any OpenAI-compatible endpoint), streaming, tool calling with TypeBox schemas, thinking/reasoning support, seamless cross-provider context handoffs, and token and cost tracking.\n- [pi-agent-core](https://github.com/badlogic/pi-mono/tree/main/packages/agent): An agent loop that handles tool execution, validation, and event streaming.\n- [pi-tui](https://github.com/badlogic/pi-mono/tree/main/packages/tui): A minimal terminal UI framework with differential rendering, synchronized output for (almost) flicker-free updates, and components like editors with autocomplete and markdown rendering.\n- [pi-coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent): The actual CLI that wires it all together",
+      "article_title_extracted": "What I learned building an opinionated and minimal coding agent",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-01-28T11:23:18.448087Z",
+      "description": "Lessons I learned while building my own coding agent from scratch.",
+      "domain": "mariozechner.at",
+      "embed_type": "",
+      "id": "k173ms8ykhn0tma2vne9wa83cn8020p5",
+      "og_image_url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/media/header.png",
+      "recommended_at": "2026-01-28T11:24:00.470000Z",
+      "source": "poche@huan",
+      "source_type": "poche",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "llm"
+      ],
+      "teams": [
+        {
+          "id": "m574wc4bc2w3v8hxxsced5h3ph7wkqcv",
+          "name": "huan",
+          "recommended_at": "2026-01-28T11:24:00.470000Z",
+          "recommended_by": "huan",
+          "slug": "huan"
+        }
+      ],
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
       "x_status_id": null
     },
     {
@@ -104672,7 +104956,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2194,
+      "count": 2200,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -104708,5 +104992,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-21T15:01:01.718297Z"
+  "updated_at": "2026-06-21T18:09:42.444652Z"
 }
