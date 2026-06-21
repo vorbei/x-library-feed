@@ -44,6 +44,9 @@
       "category": "Social",
       "created_at": "2026-06-21T04:30:09.698580Z",
       "description": "The Pixel 67 is a retro dream. 🤌🏻 pic.twitter.com/u8PkVyz6Sn",
+      "description_zh": "Pixel 67 是复古梦想的化身。🤌🏻 pic.twitter.com/u8PkVyz6Sn",
+      "description_zh_hash": "b3ea6b33fa201e7a",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17627jpn9t0bfydtrd59mc6g5892swq",
@@ -66,6 +69,9 @@
         }
       ],
       "title": "Captain Sterling (@sterlingand_co) on X",
+      "title_zh": "Captain Sterling (@sterlingand_co) 在 X 平台",
+      "title_zh_hash": "10dfc26d8226911a",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/sterlingand_co/status/2068322621033271731",
       "x_status_id": "2068322621033271731"
     },
@@ -77,11 +83,17 @@
         "https://quiver.ai/blog-mcp/cursor-quiver-mcp.png"
       ],
       "article_text": "Introducing QuiverAI MCP: SVG generation for agent workflows\nToday we’re introducing QuiverAI MCP, a hosted MCP server that brings QuiverAI’s structured SVG generation into agent workflows.\nQuiverAI MCP gives agents a secure way to create SVGs, vectorize images, inspect previous creations, poll task status, and fetch completed artwork through a hosted connection.\nIt is designed for MCP-compatible clients, so teams can bring QuiverAI into the AI environments where they already write code, explore ideas, and build products.\nWhat is MCP?\nMCP, or [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), is a standard for connecting AI agents to external tools and services.\nInstead of every product building a custom integration for every AI client, MCP gives agents a common way to discover tools, call them, and work with context from the services teams already use.\nFor QuiverAI, MCP means structured SVG generation can become part of an agent’s workflow. The agent can ask QuiverAI what models are available, create an asset, track the generation task, and retrieve the finished SVG when it is ready.\nThe result is an editable SVG that can move into a codebase, design system, website, prototype, documentation page, or broader creative pipeline.\nWhat you can do with QuiverAI MCP\nWith QuiverAI MCP enabled, agents can:\n- Generate SVG assets from prompts: Create logos, icons, wordmarks, illustrations, patterns, and brand assets directly from chat. This is useful when teams need visual directions quickly while staying inside their product or development workflow.\n- Use references to guide visual direction: Provide a reference image and ask the agent to preserve style, layout, color, typography, or composition while exploring new variations. This helps teams keep outputs aligned with an existing brand or visual system.\n- Vectorize raster images: Turn sketches, PNGs, rough concepts, and raster assets into clean SVGs. This is useful for moving early ideas or image-based concepts into an editable vector workflow.\n- Animate existing SVGs: Start animation tasks from an existing QuiverAI creation or an SVG source, then poll the task and retrieve the finished animated SVG.\n- Create assets inside a codebase: Ask an agent to generate an icon, illustration, or interface asset and place the final SVG into a project. Developers can move from asset request to implementation without switching tools.\n- Build repeatable creative pipelines: Generate onboarding illustrations, documentation visuals, landing page graphics, or small icon sets as part of a larger agent workflow. QuiverAI becomes one step in a process that can be repeated and refined.\n- Browse and reuse previous creations: Agents can list earlier QuiverAI creations, find the right asset, and retrieve the final SVG content when needed. This makes it easier to reuse work across projects instead of starting from scratch.\nWhy we made QuiverAI MCP\nQuiverAI is built around structured vector generation. Instead of producing flat images, it creates SVGs that stay editable, scalable, and ready for real product and design workflows.\nThat matters even more when agents are involved.\nAn agent should be able to do more than describe an asset or pass around a screenshot. It should be able to create a usable vector, track the result, retrieve the final SVG, and help move it into the next step of the work.\nMCP gives us a standard way to expose that creation loop to agent environments. It lets QuiverAI work with MCP-compatible clients through a hosted endpoint, while authentication happens through the client’s MCP login flow using the connected QuiverAI account and permissions.\nThe hosted server exposes the core QuiverAI workflow: model discovery, creation lookup, task polling, text-to-SVG generation, raster-to-SVG vectorization, and SVG content retrieval.\nAs MCP support expands across agent tools, the same QuiverAI MCP endpoint can support more ways for teams to bring structured vector g",
+      "article_text_zh": "## 介绍 QuiverAI MCP：面向智能体工作流的 SVG 生成\n\n今天，我们正式推出 QuiverAI MCP——一个托管的 MCP 服务器，将 QuiverAI 的结构化 SVG 生成能力引入智能体工作流。\n\nQuiverAI MCP 为智能体提供了一种安全的方式，通过托管连接来创建 SVG、矢量化图像、查看历史创作、轮询任务状态以及获取已完成的作品。\n\n它专为兼容 MCP 的客户端设计，因此团队可以将 QuiverAI 带入他们已经在编写代码、探索创意和构建产品的 AI 环境中。\n\n## 什么是 MCP？\n\nMCP，即[模型上下文协议](https://modelcontextprotocol.io/docs/getting-started/intro)，是一种将 AI 智能体连接到外部工具和服务的标准。\n\n与其让每个产品为每个 AI 客户端构建自定义集成，MCP 为智能体提供了一种通用方式，用于发现工具、调用它们，并利用团队已在使用服务的上下文进行工作。\n\n对于 QuiverAI 而言，MCP 意味着结构化 SVG 生成可以成为智能体工作流的一部分。智能体可以向 QuiverAI 查询可用模型、创建素材、跟踪生成任务，并在完成时获取最终的 SVG。\n\n最终得到的是一个可编辑的 SVG，可以无缝融入代码库、设计系统、网站、原型、文档页面或更广泛的创意管线。\n\n## 使用 QuiverAI MCP 可以做什么\n\n启用 QuiverAI MCP 后，智能体可以：\n\n- **根据提示生成 SVG 素材**：直接在聊天中创建 Logo、图标、文字标识、插画、图案和品牌素材。当团队需要快速获得视觉方向，同时保持在产品或开发工作流中时，这非常有用。\n- **使用参考图引导视觉方向**：提供参考图像，让智能体在探索新变体时保留风格、布局、色彩、字体或构图。这有助于团队保持输出与现有品牌或视觉系统一致。\n- **矢量化光栅图像**：将草图、PNG、粗略概念和光栅素材转换为干净的 SVG。这对于将早期创意或基于图像的概念带入可编辑的矢量工作流非常有用。\n- **为现有 SVG 添加动画**：从已有的 QuiverAI 作品或 SVG 源文件启动动画任务，然后轮询任务并获取完成的动画 SVG。\n- **在代码库内创建素材**：让智能体生成图标、插画或界面素材，并将最终的 SVG 放入项目中。开发者无需切换工具即可从素材请求直接进入实现阶段。\n- **构建可重复的创意管线**：作为更大智能体工作流的一部分，生成引导页插画、文档视觉素材、落地页图形或小型图标集。QuiverAI 成为可重复和优化的流程中的一个环节。\n- **浏览和复用历史作品**：智能体可以列出之前的 QuiverAI 作品，找到合适的素材，并在需要时获取最终的 SVG 内容。这使得跨项目复用作品更加容易，无需从头开始。\n\n## 我们为什么打造 QuiverAI MCP\n\nQuiverAI 围绕结构化矢量生成构建。它不是生成平面图像，而是创建可编辑、可缩放、可直接用于实际产品和设计工作流的 SVG。\n\n当智能体参与其中时，这一点更加重要。\n\n智能体应该能够做的不仅仅是描述一个素材或传递一个截图。它应该能够创建可用的矢量、跟踪结果、获取最终的 SVG，并帮助将其推进到工作的下一步。\n\nMCP 为我们提供了一种标准方式，将这种创作循环暴露给智能体环境。它让 QuiverAI 通过托管端点与兼容 MCP 的客户端协作，而身份验证则通过客户端的 MCP 登录流程，使用已连接的 QuiverAI 账户和权限进行。\n\n托管服务器暴露了 QuiverAI 的核心工作流：模型发现、创作查询、任务轮询、文本到 SVG 生成、光栅到 SVG 矢量化，以及 SVG 内容检索。\n\n随着 MCP 支持在智能体工具中不断扩展，同一个 QuiverAI MCP 端点可以支持更多方式，让团队将结构化矢量生成带入他们的工作流。",
+      "article_text_zh_hash": "039a87d6171e8e7e",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Introducing QuiverAI MCP: SVG generation for agent workflows – QuiverAI",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-06-21T04:25:12.079216Z",
       "description": "QuiverAI MCP brings structured SVG generation into agent workflows through a hosted MCP server.",
+      "description_zh": "QuiverAI MCP 通过托管式 MCP 服务器，将结构化 SVG 生成引入智能体工作流。",
+      "description_zh_hash": "3ac9922e5269efb9",
+      "description_zh_translator_v": 2,
       "domain": "quiver.ai",
       "embed_type": "",
       "id": "k17che12vats34qc1bacqnx0md893jkp",
@@ -104,6 +116,9 @@
         }
       ],
       "title": "Introducing QuiverAI MCP: SVG generation for agent workflows – QuiverAI",
+      "title_zh": "QuiverAI MCP 发布：面向智能体工作流的 SVG 生成工具 – QuiverAI",
+      "title_zh_hash": "d5636405547f1289",
+      "title_zh_translator_v": 2,
       "url": "https://quiver.ai/blog/introducing-quiverai-mcp",
       "x_status_id": null
     },
