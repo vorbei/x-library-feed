@@ -13301,19 +13301,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
     },
-    "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg": {
+    "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png": {
       "cleaner_v": 2,
-      "content_type": "image/jpeg",
+      "content_type": "image/png",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
+        "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
+      "url": "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png"
+    },
+    "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -19864,14 +19878,16 @@
       "https://x.com/Full_Metal_QR/status/2066830879771783507",
       "http://x.com/i/article/2066820333206933504",
       "https://x.com/Full_Metal_QR/status/2066848768637764068",
+      "https://x.com/Full_Metal_QR/status/2068733186142617932",
       "https://x.com/Full_Metal_QR/status/2066838085896167740",
       "https://x.com/Full_Metal_QR/status/2066865075168886902",
       "https://x.com/Full_Metal_QR/status/2066889313850196318",
       "https://x.com/Full_Metal_QR/status/2067065445773967762",
       "https://x.com/Full_Metal_QR/status/2066842920032854064",
       "https://x.com/Full_Metal_QR/status/2066866192623796429",
-      "https://x.com/Full_Metal_QR/status/2067550204925297038",
-      "https://x.com/Full_Metal_QR/status/2066930174407405620"
+      "https://x.com/Full_Metal_QR/status/2068731892438855894",
+      "https://x.com/Full_Metal_QR/status/2066930174407405620",
+      "https://x.com/Full_Metal_QR/status/2067550204925297038"
     ],
     "2066853420326384055": [
       "https://x.com/GokuMohandas/status/2066853420326384055",
@@ -20116,9 +20132,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
       "https://x.com/sairahul1/status/2067180209615573213",
       "https://x.com/sairahul1/status/2067230331774882188",
+      "https://x.com/sairahul1/status/2067178097825484949",
       "https://x.com/sairahul1/status/2067504210728665445",
-      "https://x.com/sairahul1/status/2067173886995956221",
-      "https://x.com/sairahul1/status/2067178097825484949"
+      "https://x.com/sairahul1/status/2067173886995956221"
     ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
@@ -20157,16 +20173,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277488607137866",
       "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067272387905671362",
-      "https://x.com/mattpocockuk/status/2067277405547274642",
-      "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067291961208234047",
       "http://skills.sh",
-      "https://x.com/mattpocockuk/status/2067330304117747928",
+      "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067277427592532009",
+      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -20338,7 +20354,8 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2068698377643291111"
+      "https://x.com/_naiVe_2/status/2068715777596031355",
+      "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -20352,8 +20369,8 @@
       "https://x.com/UncleJAI/status/2067540972150628777",
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
-      "https://x.com/UncleJAI/status/2067542821339558314",
       "https://x.com/UncleJAI/status/2068027118697824377",
+      "https://x.com/UncleJAI/status/2067542821339558314",
       "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067867021220720894",
       "https://x.com/UncleJAI/status/2067909379756851671",
@@ -20361,18 +20378,18 @@
       "https://x.com/UncleJAI/status/2068666970292330834",
       "https://x.com/UncleJAI/status/2067553504345174052",
       "https://x.com/UncleJAI/status/2067933633617547511",
+      "https://x.com/UncleJAI/status/2067545643279933789",
       "https://x.com/UncleJAI/status/2067552022807847064",
       "https://x.com/UncleJAI/status/2067592138100265322",
-      "https://x.com/UncleJAI/status/2067545643279933789",
       "https://x.com/UncleJAI/status/2068666874657910884",
+      "https://x.com/UncleJAI/status/2067563124774056413",
       "https://x.com/UncleJAI/status/2067588912978231778",
-      "https://x.com/UncleJAI/status/2067832515700969548",
-      "https://x.com/UncleJAI/status/2067592325854023739"
+      "https://x.com/UncleJAI/status/2067832515700969548"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
-      "https://x.com/timtimtim_eth/status/2068250832349343843",
-      "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
+      "https://x.com/timtimtim_eth/status/2068731684674015364",
+      "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
     ],
     "2067603753734193390": [
       "https://x.com/SidebarIO/status/2067603753734193390",
@@ -20425,8 +20442,8 @@
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
       "https://x.com/MatthewBerman/status/2067697032635281664",
-      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067689788346703966",
+      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
@@ -20467,8 +20484,8 @@
     "2068328135611822149": [
       "https://x.com/AnatoliKopadze/status/2068328135611822149",
       "http://x.com/i/article/2068024770029932544",
-      "https://x.com/AnatoliKopadze/status/2068334685269184738",
       "https://x.com/AnatoliKopadze/status/2068334655124672836",
+      "https://x.com/AnatoliKopadze/status/2068334685269184738",
       "https://x.com/AnatoliKopadze/status/2068380706712011073",
       "https://x.com/AnatoliKopadze/status/2068341479748059354"
     ],
@@ -20486,7 +20503,7 @@
     "2068434833001640117": [
       "https://x.com/NathanFlurry/status/2068434833001640117",
       "http://x.com/i/article/2068428251060715520",
-      "https://x.com/NathanFlurry/status/2068494350338957693"
+      "https://x.com/NathanFlurry/status/2068491929638392258"
     ],
     "2068547697557282935": [
       "https://x.com/mtrajan/status/2068547697557282935",
@@ -20494,6 +20511,6 @@
       "https://x.com/mtrajan/status/2068586090030874729"
     ]
   },
-  "updated_at": "2026-06-21T16:11:28Z",
+  "updated_at": "2026-06-21T17:52:23Z",
   "window": "recent"
 }
