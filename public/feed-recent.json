@@ -635,23 +635,6 @@
       "title": "Palmier Pro | The video editor built for AI",
       "url": "http://palmier.io"
     },
-    "http://performance.dev": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Essays on building fast, beautiful web apps and the craft behind them.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://performance.dev",
-      "frameable": null,
-      "image_urls": [
-        "https://performance.dev/og-default.e905420a.png",
-        "https://media.performance.dev/cdn-cgi/image/width=728,quality=100,format=auto,fit=scale-down/posts/p_gAMR6Z7y49Fp/yLYBhiiY_FsV.jpg",
-        "http://performance.dev/avatar-40.jpg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Performance",
-      "url": "http://performance.dev"
-    },
     "http://prodmgmt.world": {
       "content_type": "text/html; charset=utf-8",
       "description": "A system of product management resources, tools, and insights to help you build better products faster.",
@@ -1031,22 +1014,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2057174749848178688"
-    },
-    "http://x.com/i/article/2057462668261257217": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057462668261257217",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057462668261257217/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI2mWGYWsAArreV?format=jpg&name=900x900)](http://x.com/i/article/2057462668261257217/rousseaukazi/article/2057483816873201753/media/2057483503378280448)\n\nkill your identity before it gets murdered\n\n[![](https://pbs.twimg.com/profile_images/2036479790308630528/xVgebOh-_normal.jpg)](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n[Rousseau Kazi![](https://pbs.twimg.com/profile_images/1915449242979885059/d8IWgY7S_bigger.jpg)](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n[@rousseaukazi](http://x.com/i/article/2057462668261257217/rousseaukazi)\n\n·\n\n23h\n\nFollow\n\nClick to Follow rousseaukazi\n\n6\n\n28\n\n242\n\n[26K](http://x.com/i/article/2057462668261257217/rousseaukazi/status/2057483816873201753/analytics)\n\nthis is a note i wrote that i find my friends and i keep sharing with colleagues, family, etc. figured i'd post it here in case it's helpful.\n\n## \n\nunderstanding identity\n\na threat to one's identity is one of the scariest things we face: an athlete who gets injured, a committed partner who gets broken up with, an obsessive lawyer who gets fired from their dream firm, etc.\n\nthe initial thought is that losing identity sucks because it changes how society views you. there's shame in it. you lost something. you feel weak.\n\nafter a few days pass, we all quickly learn the uncomfortable, but in this case helpful, truth that the world is selfish. that most people are too busy dealing with their own stuff to care to think about you.\n\nthat said, the pain lingers. it lingers not because you're worried that the world views you differently, it lingers because you view yourself differently.\n\nlosing part of your identity doesn't only change your present (which you can get over), it changes your future. a sudden, tragic change means in a snap second, someone stole a bunch of daydreams of the future: winning the championship, getting married, making senior partner, etc. you didn't expect it, it's gone, and now you can't help but mourn the death of a you that will never exist.\n\nthat's the thing about identity. it's a vector where, given the general direction, you can't help but daydream along the magnitude.\n\n## \n\nyour identity is under attack\n\nif you're reading this, it means you're in my network, which means there's a high chance you're either a seasoned, prime, or aspiring knowledge work nerd.\n\nyou get paid to produce some sort of creative output (code, pixels, copy, campaigns, analyses) that pushes a mission forward.\n\nyou're probably really good at what you do. you spent years honing your craft, getting praised for your creativity and execution, and you take pride in being better at your thing than a hefty majority of the world.\n\ngiven just how good you are, you probably realized a while ago that ai was going to be better than you at your thing, and recently, that it already is.\n\nsure, \"better\" can be subjective, but if it can produce roughly the same or higher quality output in 1/10th the time at 1/10th the cost, then by the purest capitalistic definition, it's just better.\n\nthe latest opus and codex models are already better engineers than a hefty majority of engineers you'll ever meet. knowledge work output is becoming highly commoditized, tech is becoming fully democratized, and even though that's objectively a good thing, it's hard not to feel some mourning for what we've worked hard to achieve.\n\nso what do i do?\n\n## \n\nkill your identity\n\nit's natural to want to fight what's happening.\n\n> \"it still makes mistakes! idk... still feels kinda slow. you need humans to write this stuff because it just feels better when they do.\"\n\njust stop. you're being nice but not kind to yourself.\n\nthere's a reason it's called an uncomfortable truth. it sucks to accept. yeah, it hurts for a bit, but you'll be fine.\n\njust do it. it's not as precious as you thin",
-      "text_excerpt_zh": "## 在身份被扼杀之前，先亲手终结它\n\n## 理解身份\n\n对身份的威胁是我们面临的最可怕的事情之一：受伤的运动员、被分手的忠诚伴侣、被梦想律所解雇的痴迷律师等等。\n\n最初的想法是，失去身份很糟糕，因为它改变了社会看待你的方式。这其中带有羞耻感。你失去了某些东西。你感到软弱。\n\n几天过后，我们都会很快了解到一个令人不适但在此刻却很有帮助的真相：世界是自私的。大多数人都在忙于处理自己的事情，无暇顾及你。\n\n话虽如此，痛苦依然挥之不去。它挥之不去，不是因为你在担心世界对你的看法变了，而是因为你对自己的看法变了。\n\n失去部分身份不仅改变了你的当下（这是你能克服的），它还改变了你的未来。一个突如其来的悲剧性变化意味着，在一瞬间，有人偷走了你对未来的许多憧憬：赢得冠军、结婚、成为高级合伙人等等。你未曾预料，它已消失，现在你只能为那个永远不会存在的自己哀悼。\n\n这就是身份的本质。它是一个向量，一旦给出了大致方向，你就忍不住沿着它的长度去憧憬。\n\n## 你的身份正受到攻击\n\n如果你正在读这篇文章，说明你在我的社交圈内，这意味着你很有可能是资深、当打之年或初出茅庐的知识工作者。\n\n你靠产出某种创造性成果（代码、像素、文案、营销活动、分析报告）来推动某个使命前进而获得报酬。\n\n你可能非常擅长你所做的事情。你花了多年时间磨练技艺，因创造力和执行力而受到赞誉，并为自己在专业领域比世界上绝大多数人都要出色而感到自豪。\n\n鉴于你如此出色，你可能早就意识到人工智能会在你的领域超越你，而最近，它已经做到了。\n\n当然，“更好”可能是主观的，但如果它能以十分之一的时间和十分之一的成本产出大致相同或更高质量的成果，那么按照最纯粹的资本主义定义，它就是更好。\n\n最新的 Opus 和 Codex 模型已经比你见过的绝大多数工程师都要优秀。知识工作的产出正变得高度商品化，技术正变得完全民主化，尽管这客观上是一件好事，但我们很难不为曾经努力取得的成就感到一丝惋惜。\n\n那么，我该怎么办？\n\n## 亲手终结你的身份\n\n想要对抗正在发生的事情是很自然的。\n\n> “它还是会犯错！嗯……感觉还是有点慢。这些东西需要人类来写，因为人类写出来的感觉就是更好。”\n\n停下来吧。你对自己很客气，但并不仁慈。\n\n它被称为令人不适的真相是有原因的。接受它很糟糕。是的，它会痛苦一阵子，但你会没事的。\n\n直接去做吧。它没你想象的那么珍贵。",
-      "text_excerpt_zh_hash": "a69129a4085db20f",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057462668261257217"
     },
     "http://x.com/i/article/2057540499217731584": {
       "cleaner_v": 2,
@@ -9162,20 +9129,6 @@
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13334,19 +13287,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg"
     },
-    "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg": {
+    "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
+        "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
+      "url": "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
     },
     "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg": {
       "cleaner_v": 2,
@@ -13361,20 +13314,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
-    },
-    "https://pbs.twimg.com/media/HLVsDoiaQAAexpK.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLVsDoiaQAAexpK.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLVsDoiaQAAexpK.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLVsDoiaQAAexpK.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15797,22 +15736,6 @@
       "https://x.com/opapoeconomico/status/2057106571575038274",
       "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg"
     ],
-    "2057396108809081289": [
-      "https://x.com/seelffff/status/2057396108809081289",
-      "https://pbs.twimg.com/amplify_video_thumb/2057395395035049985/img/QDUhflWxOlAA4ruC.jpg",
-      "https://x.com/seelffff/status/2057612302065586515",
-      "https://x.com/seelffff/status/2057811368636494088",
-      "https://x.com/seelffff/status/2057781199880241262"
-    ],
-    "2057483816873201753": [
-      "https://x.com/rousseaukazi/status/2057483816873201753",
-      "http://x.com/i/article/2057462668261257217"
-    ],
-    "2057499319524012464": [
-      "https://x.com/derrickcchoi/status/2057499319524012464",
-      "https://developers.openai.com/codex/use-cases",
-      "https://x.com/derrickcchoi/status/2057591690496815316"
-    ],
     "2057740928908161461": [
       "https://x.com/sairahul1/status/2057740928908161461",
       "http://x.com/i/article/2057718343466201088"
@@ -15821,11 +15744,6 @@
       "https://x.com/vincemask/status/2057788920327520305",
       "https://x.com/vincemask/status/2057999154270581172",
       "https://x.com/vincemask/status/2058123453316882777"
-    ],
-    "2057809414175027450": [
-      "https://x.com/vikingmute/status/2057809414175027450",
-      "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
-      "http://performance.dev"
     ],
     "2057816817708789940": [
       "https://x.com/aiedge_/status/2057816817708789940",
@@ -19952,8 +19870,8 @@
       "https://x.com/Full_Metal_QR/status/2067065445773967762",
       "https://x.com/Full_Metal_QR/status/2066842920032854064",
       "https://x.com/Full_Metal_QR/status/2066866192623796429",
-      "https://x.com/Full_Metal_QR/status/2066930174407405620",
-      "https://x.com/Full_Metal_QR/status/2067550204925297038"
+      "https://x.com/Full_Metal_QR/status/2067550204925297038",
+      "https://x.com/Full_Metal_QR/status/2066930174407405620"
     ],
     "2066853420326384055": [
       "https://x.com/GokuMohandas/status/2066853420326384055",
@@ -20239,16 +20157,16 @@
       "https://x.com/mattpocockuk/status/2067259594452140377",
       "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0",
       "https://x.com/mattpocockuk/status/2067263718711312473",
-      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277488607137866",
+      "https://x.com/mattpocockuk/status/2067590128868966597",
       "https://x.com/mattpocockuk/status/2067321326801437113",
       "https://x.com/mattpocockuk/status/2067272387905671362",
+      "https://x.com/mattpocockuk/status/2067277405547274642",
+      "https://x.com/mattpocockuk/status/2067264261408063757",
       "https://x.com/mattpocockuk/status/2067291961208234047",
       "http://skills.sh",
-      "https://x.com/mattpocockuk/status/2067590128868966597",
-      "https://x.com/mattpocockuk/status/2067264261408063757",
+      "https://x.com/mattpocockuk/status/2067330304117747928",
       "https://x.com/mattpocockuk/status/2067277427592532009",
-      "https://x.com/mattpocockuk/status/2067277405547274642",
       "https://x.com/mattpocockuk/status/2067277322852409345"
     ],
     "2067262326043287852": [
@@ -20371,8 +20289,8 @@
       "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg",
       "https://x.com/PawelHuryn/status/2067334274781475291",
       "https://x.com/PawelHuryn/status/2061335092773929195?s=20",
-      "https://x.com/PawelHuryn/status/2068223825326625039",
-      "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
+      "https://x.com/PawelHuryn/status/2068246664452710581",
+      "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
     ],
     "2067345406699393176": [
       "https://x.com/BrainsAndTennis/status/2067345406699393176",
@@ -20420,8 +20338,7 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2068678468704051700",
-      "https://pbs.twimg.com/media/HLVsDoiaQAAexpK.jpg"
+      "https://x.com/_naiVe_2/status/2068698377643291111"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -20435,19 +20352,19 @@
       "https://x.com/UncleJAI/status/2067540972150628777",
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
-      "https://x.com/UncleJAI/status/2068027118697824377",
-      "https://x.com/UncleJAI/status/2068666970292330834",
       "https://x.com/UncleJAI/status/2067542821339558314",
+      "https://x.com/UncleJAI/status/2068027118697824377",
       "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067867021220720894",
       "https://x.com/UncleJAI/status/2067909379756851671",
       "https://x.com/UncleJAI/status/2067588634975576355",
-      "https://x.com/UncleJAI/status/2068666874657910884",
+      "https://x.com/UncleJAI/status/2068666970292330834",
       "https://x.com/UncleJAI/status/2067553504345174052",
       "https://x.com/UncleJAI/status/2067933633617547511",
       "https://x.com/UncleJAI/status/2067552022807847064",
       "https://x.com/UncleJAI/status/2067592138100265322",
       "https://x.com/UncleJAI/status/2067545643279933789",
+      "https://x.com/UncleJAI/status/2068666874657910884",
       "https://x.com/UncleJAI/status/2067588912978231778",
       "https://x.com/UncleJAI/status/2067832515700969548",
       "https://x.com/UncleJAI/status/2067592325854023739"
@@ -20526,10 +20443,10 @@
       "https://x.com/jasonzhou1993/status/2067937943545897143",
       "http://x.com/i/article/2067919620452032512",
       "https://x.com/jasonzhou1993/status/2068088225969905913",
-      "https://x.com/jasonzhou1993/status/2068094367093731601",
-      "https://x.com/jasonzhou1993/status/2068088101025824822",
       "https://x.com/jasonzhou1993/status/2067953587704197476",
-      "https://x.com/jasonzhou1993/status/2068441696946565216"
+      "https://x.com/jasonzhou1993/status/2068441696946565216",
+      "https://x.com/jasonzhou1993/status/2068088101025824822",
+      "https://x.com/jasonzhou1993/status/2068094367093731601"
     ],
     "2067981638227964220": [
       "https://x.com/jaminball/status/2067981638227964220",
@@ -20550,8 +20467,8 @@
     "2068328135611822149": [
       "https://x.com/AnatoliKopadze/status/2068328135611822149",
       "http://x.com/i/article/2068024770029932544",
-      "https://x.com/AnatoliKopadze/status/2068334655124672836",
       "https://x.com/AnatoliKopadze/status/2068334685269184738",
+      "https://x.com/AnatoliKopadze/status/2068334655124672836",
       "https://x.com/AnatoliKopadze/status/2068380706712011073",
       "https://x.com/AnatoliKopadze/status/2068341479748059354"
     ],
@@ -20577,6 +20494,6 @@
       "https://x.com/mtrajan/status/2068586090030874729"
     ]
   },
-  "updated_at": "2026-06-21T13:17:49Z",
+  "updated_at": "2026-06-21T16:11:28Z",
   "window": "recent"
 }
