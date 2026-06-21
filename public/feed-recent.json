@@ -190,6 +190,21 @@
       "title": "",
       "url": "http://appmotion.design"
     },
+    "http://browserops.ai": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "content_type": "text/html; charset=utf-8",
+      "description": "An MCP that runs right inside your real Chrome. Give your AI agent hands on the web. Nothing to re-auth, nothing to rebuild.",
+      "final_url": "https://www.browserops.ai/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.browserops.ai/og.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "BrowserOps: Your browser, fully autonomous.",
+      "url": "http://browserops.ai"
+    },
     "http://cohere.com/careers": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6121,6 +6136,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067919620452032512"
     },
+    "http://x.com/i/article/2068379021310914560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2068379021310914560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLRe00EaQAAyCst?format=jpg&name=900x900)](http://x.com/prthmo/article/2068382815994212664/media/2068382390293250048)\n\nUI is the API every product has already shipped\n\n[![](https://pbs.twimg.com/profile_images/2049647668914487296/lb-tF-4s_normal.jpg)](http://x.com/prthmo)\n\n[Pratham](http://x.com/prthmo)\n\n[@prthmo](http://x.com/prthmo)\n\n·\n\n13h\n\nFollow\n\nClick to Follow prthmo\n\n5\n\n16\n\n[1K](http://x.com/prthmo/status/2068382815994212664/analytics)\n\nWhy the browser is the missing execution layer for AI agents.A while back, I asked an agent to do the most boring task I had. Go into Framer and enter the author details across a batch of blog posts. Names, roles, links. The kind of thing that takes a human twenty minutes and zero thought.\n\nIt couldn't do it.\n\nNot because the task was hard. Because there was nowhere for it to act. Framer had no MCP, no CLI, no API I could point the agent at. It was smart enough to plan the whole job and then sat there with no surface to touch. So I did it by hand, like always.\n\nFramer has since shipped its own MCP, and good for them. That is exactly the point I want to make.\n\nBecause one tool shipping an API does not fix anything. I was never going to build my work around waiting for Framer, then waiting for the next tool, then the one after that. The internet is not coming to MCP. Most of it never will, and a lot of it should not have to.\n\nLook at the work you actually do in a day. You open LinkedIn to find one specific person and see who they know. You go through Slack to catch up on three channels. You fill out the same application form for the fifth time. You log into a product to read its analytics. None of that has a clean API. Some of it actively fights anyone who tries. And it is most of the work.\n\nSo I stopped asking when everything would ship an API. I started asking what surface already existed for all of it.\n\nThere is one. Every tool, even the worst internal dashboard, already shipped one interface. A UI, built for a human, running in a browser. The UI is the API every product already shipped. An API is a smaller, cleaner slice of what the interface can already do. The interface is the complete surface. The API is the part the vendor decided to expose.\n\n## \n\nEveryone is looking at the wrong two layers\n\nRight now, if you are building agents, you are probably staring at two places for them to do work. MCP and the CLI. Give the model some tools, give it a terminal, let it go. Both are real and both are useful. But almost nobody is looking at the third surface, the one a person uses for most of their day. The browser.\n\nI think about it as two stacks. There is a decision layer, the model and its reasoning, and that layer is crowded and getting cheaper every month. Then there is an execution layer, where intent turns into actual work. That layer is wide open, and the browser is the only candidate that already lives everywhere a human works.\n\nThe browser also carries something MCP and the CLI usually do not. Context. When an agent works inside my logged-in browser, it has my real state. My data, my permissions, my accounts, the actual app instead of a sandbox copy of it. It knows the surface of the work and the context of the work at the same time. That pairing is the whole thing.\n\n## \n\nThe obvious objection\n\nThe first worry people raise is security, and they are right to. Handing an agent a logged-in browser sounds reckless, and done badly, it is. Raw access to everything you are signed into is a disaster waiting to happen.\n\nThat is the entire reason BrowserOps exists. A logged-in browser with proper guardrails is the bridge between agents and the real internet. The hard, valuable part is not pointing a model at a tab. It is the guardrails around it. What it can touch, what it has to confirm with you, what it can never do on its own. Get that ri",
+      "title": "",
+      "url": "http://x.com/i/article/2068379021310914560"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7645,6 +7673,21 @@
       "text_excerpt_zh": "",
       "title": "GitHub - Fission-AI/OpenSpec: Spec-driven development (SDD) for AI coding assistants. · GitHub",
       "url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "https://github.com/Forward-Future/loop-library": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Practical repeatable AI-agent workflows for engineering, evaluation, operations, content, and design. - Forward-Future/loop-library",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/Forward-Future/loop-library",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/a88b157953825c7db699eeb15bd729c5c8cd7a05e32d8fe37aa0377d9341e28e/Forward-Future/loop-library"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - Forward-Future/loop-library: Practical repeatable AI-agent workflows for engineering, evaluation, operations, content, and design. · GitHub",
+      "url": "https://github.com/Forward-Future/loop-library"
     },
     "https://github.com/InsForge/insforge": {
       "content_type": "text/html; charset=utf-8",
@@ -13701,19 +13744,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg"
     },
-    "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg": {
+    "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
+        "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
+      "url": "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg"
+    },
+    "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
     },
     "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg": {
       "cleaner_v": 2,
@@ -13728,6 +13785,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
+    },
+    "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -20625,9 +20696,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
       "https://x.com/sairahul1/status/2067180209615573213",
       "https://x.com/sairahul1/status/2067230331774882188",
+      "https://x.com/sairahul1/status/2067178097825484949",
       "https://x.com/sairahul1/status/2067504210728665445",
-      "https://x.com/sairahul1/status/2067173886995956221",
-      "https://x.com/sairahul1/status/2067178097825484949"
+      "https://x.com/sairahul1/status/2067173886995956221"
     ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
@@ -20798,8 +20869,8 @@
       "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg",
       "https://x.com/PawelHuryn/status/2067334274781475291",
       "https://x.com/PawelHuryn/status/2061335092773929195?s=20",
-      "https://x.com/PawelHuryn/status/2068030633473962464",
-      "https://pbs.twimg.com/media/HLMe3pIXwAAWvT_.jpg"
+      "https://x.com/PawelHuryn/status/2068223825326625039",
+      "https://pbs.twimg.com/media/HLPOm24XoAAyl8X.jpg"
     ],
     "2067345406699393176": [
       "https://x.com/BrainsAndTennis/status/2067345406699393176",
@@ -20847,7 +20918,8 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2068342666149122480"
+      "https://x.com/_naiVe_2/status/2068573245922849193",
+      "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -20862,10 +20934,10 @@
       "http://x.com/i/article/2067539211620667393",
       "https://x.com/UncleJAI/status/2067551029240242341",
       "https://x.com/UncleJAI/status/2068027118697824377",
-      "https://x.com/UncleJAI/status/2067909379756851671",
       "https://x.com/UncleJAI/status/2067542821339558314",
       "https://x.com/UncleJAI/status/2067967158198657394",
       "https://x.com/UncleJAI/status/2067867021220720894",
+      "https://x.com/UncleJAI/status/2067909379756851671",
       "https://x.com/UncleJAI/status/2067588634975576355",
       "https://x.com/UncleJAI/status/2067553504345174052",
       "https://x.com/UncleJAI/status/2067933633617547511",
@@ -20933,14 +21005,14 @@
       "https://x.com/MatthewBerman/status/2067682871020765532",
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
-      "https://x.com/MatthewBerman/status/2067689690703241391",
-      "https://x.com/MatthewBerman/status/2067689788346703966",
-      "https://x.com/MatthewBerman/status/2067697165418586571",
-      "https://x.com/MatthewBerman/status/2067696923470164115",
       "https://x.com/MatthewBerman/status/2067697032635281664",
+      "https://x.com/MatthewBerman/status/2067689788346703966",
+      "https://x.com/MatthewBerman/status/2067689690703241391",
+      "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
-      "https://x.com/MatthewBerman/status/2067697001865883810"
+      "https://x.com/MatthewBerman/status/2067697165418586571",
+      "https://x.com/MatthewBerman/status/2067696923470164115"
     ],
     "2067690067288572209": [
       "https://x.com/hugobarauna/status/2067690067288572209",
@@ -20953,22 +21025,36 @@
       "http://x.com/i/article/2067919620452032512",
       "https://x.com/jasonzhou1993/status/2068088225969905913",
       "https://x.com/jasonzhou1993/status/2067953587704197476",
-      "https://x.com/jasonzhou1993/status/2068441696946565216",
       "https://x.com/jasonzhou1993/status/2068088101025824822",
+      "https://x.com/jasonzhou1993/status/2068441696946565216",
       "https://x.com/jasonzhou1993/status/2068094367093731601"
     ],
     "2067981638227964220": [
       "https://x.com/jaminball/status/2067981638227964220",
       "http://x.com/i/article/2067761662137110528"
     ],
+    "2068191004545696080": [
+      "https://x.com/MatthewBerman/status/2068191004545696080",
+      "https://github.com/Forward-Future/loop-library",
+      "https://x.com/MatthewBerman/status/2068421940352889164",
+      "https://x.com/MatthewBerman/status/2068462170678194477",
+      "https://x.com/MatthewBerman/status/2068462201619558908"
+    ],
     "2068297461379252344": [
       "https://x.com/IAmPascio/status/2068297461379252344"
+    ],
+    "2068382815994212664": [
+      "https://x.com/prthmo/status/2068382815994212664",
+      "http://x.com/i/article/2068379021310914560",
+      "https://x.com/prthmo/status/2068275309787619450",
+      "http://browserops.ai",
+      "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg"
     ],
     "2068429571788341428": [
       "https://x.com/MatthewBerman/status/2068429571788341428",
       "https://x.com/MatthewBerman/status/2068429905440964897"
     ]
   },
-  "updated_at": "2026-06-21T01:39:37Z",
+  "updated_at": "2026-06-21T07:08:53Z",
   "window": "recent"
 }
