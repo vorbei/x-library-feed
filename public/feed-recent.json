@@ -6136,6 +6136,19 @@
       "title": "",
       "url": "http://x.com/i/article/2067919620452032512"
     },
+    "http://x.com/i/article/2068024770029932544": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2068024770029932544",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLQR6x3WgAAoX0v?format=jpg&name=900x900)](http://x.com/AnatoliKopadze/article/2068328135611822149/media/2068297830385483776)\n\nLoops explained: Claude, GPT, Mira and what actually works\n\n[![](https://pbs.twimg.com/profile_images/1634313760444751873/QfwY91Hp_normal.jpg)](http://x.com/AnatoliKopadze)\n\n[Anatoli Kopadze](http://x.com/AnatoliKopadze)\n\n[@AnatoliKopadze](http://x.com/AnatoliKopadze)\n\n·\n\n21h\n\nFollow\n\nClick to Follow AnatoliKopadze\n\n41\n\n212\n\n1.3K\n\n[2.9M](http://x.com/AnatoliKopadze/status/2068328135611822149/analytics)\n\nAI has been in everyone's hands for years. Most people who use it every day still use it the slowest way there is: type a request, wait, fix it, ask again, all by hand.\n\nNot because the faster way is complicated, because nobody showed them what it looks like.\n\nThe faster way is a loop, and right now it is the one thing the best AI engineers in the world care about. This article fixes the part nobody explained. By the end you will understand loops better than almost anyone on your timeline: what they are, how they actually work under the hood, when they are worth it and when they are a trap, how to build a basic one yourself in Claude or ChatGPT, the simple ones worth running in your own life.\n\nBefore we get into it, follow me on X and join my Telegram channel I just created where I post more AI content every day. Both are free.\n\nX - \n\n<https://x.com/AnatoliKopadze>\n\nTelegram - \n\n<https://t.me/kopadzemp>\n\n## \n\nHow most people use AI?\n\nLook closely at the one-request-at-a-time habit, because it is the whole problem. Every step runs through you. You decide what to ask, you judge the answer, you decide what comes next. The AI never moves unless you push it, and the moment you stop, it stops.\n\nThis is fine, but it has a ceiling. You are the engine. The AI is only the tool in your hand, and a tool does nothing on its own.\n\nThere is another way to work, and it is the reason the best engineers in the world are changing how they build. Instead of walking the AI through every step, you give it the goal once and let it run the steps itself. It plans, does the work, checks its own result, fixes what is weak, and repeats until the goal is met. You step out. The work keeps going.\n\n[![](https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png)](http://x.com/steipete)\n\nPeter Steinberger ![🦞](https://abs.twimg.com/emoji/v2/svg/1f99e.svg)\n\n![](https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg)\n\n@steipete\n\n·\n\n[Jun 7](http://x.com/steipete/status/2063697162748260627)\n\nHere’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.\n\n1.7K\n\n2.8K\n\n19K\n\n[8.3M](http://x.com/steipete/status/2063697162748260627/analytics)\n\n![](https://pbs.twimg.com/amplify_video_thumb/2068028099128643584/img/WqoEwyrbdk15hRD7.jpg)\n\nTwo of the most respected engineers, saying the same thing in different words. Most people read lines like these and quietly had no idea what they meant in practice. So let's break it down properly.\n\n## \n\nWhat a loop is?\n\nA prompt is a single instruction. A loop is a goal the AI keeps working toward until it gets there. Think of it as a recursive goal: you define a purpose, and the AI iterates until it is complete.\n\nA prompt gives you one answer and then waits for you to decide what is next. A loop runs the full cycle on its own:\n\n```text\nDISCOVER  →  work out what needs doing\nPLAN      →  decide how to do it\nEXECUTE   →  do the work\nVERIFY    →  check it against the goal\nITERATE   →  not there yet? feed the result back in and repeat\n```\n\nThree of these five do all the real work, and they are where people get loops wrong.\n\nVerify is the heart of the loop. Without a real check on the result, you do not have a loop, you have the agent agreeing with it",
+      "title": "",
+      "url": "http://x.com/i/article/2068024770029932544"
+    },
     "http://x.com/i/article/2068379021310914560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6151,6 +6164,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2068379021310914560"
+    },
+    "http://x.com/i/article/2068547189937422336": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068547189937422336",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068547189937422336"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -13789,19 +13815,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLPnLCRWsAAgdoW.jpg"
     },
-    "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg": {
+    "https://pbs.twimg.com/media/HLUuBAFawAAFEyi.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLUuBAFawAAFEyi.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
+        "https://pbs.twimg.com/media/HLUuBAFawAAFEyi.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
+      "url": "https://pbs.twimg.com/media/HLUuBAFawAAFEyi.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15904,6 +15930,18 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I"
+    },
+    "https://x.getstanley.ai/r/pas": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Your AI Head of Content across social media.",
+      "final_url": "https://x.getstanley.ai/welcome?ref=pas",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Stanley Log In Try Stanley Own Your Distribution. Stanley scales your following across platforms while you focus on the work you love. Try Stanley → Try Stanley → or open in Telegram → By messaging Stanley, you agree to the Terms of Service and Privacy Policy .",
+      "title": "Stanley — Grow your following",
+      "url": "https://x.getstanley.ai/r/pas"
     },
     "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm": {
       "content_type": "text/html; charset=utf-8",
@@ -20446,15 +20484,15 @@
     "2066830879771783507": [
       "https://x.com/Full_Metal_QR/status/2066830879771783507",
       "http://x.com/i/article/2066820333206933504",
+      "https://x.com/Full_Metal_QR/status/2066848768637764068",
+      "https://x.com/Full_Metal_QR/status/2066838085896167740",
       "https://x.com/Full_Metal_QR/status/2066865075168886902",
+      "https://x.com/Full_Metal_QR/status/2066889313850196318",
+      "https://x.com/Full_Metal_QR/status/2067065445773967762",
+      "https://x.com/Full_Metal_QR/status/2066842920032854064",
       "https://x.com/Full_Metal_QR/status/2066866192623796429",
       "https://x.com/Full_Metal_QR/status/2066930174407405620",
-      "https://x.com/Full_Metal_QR/status/2066848768637764068",
-      "https://x.com/Full_Metal_QR/status/2067065445773967762",
-      "https://x.com/Full_Metal_QR/status/2067550204925297038",
-      "https://x.com/Full_Metal_QR/status/2066838085896167740",
-      "https://x.com/Full_Metal_QR/status/2066889313850196318",
-      "https://x.com/Full_Metal_QR/status/2066842920032854064"
+      "https://x.com/Full_Metal_QR/status/2067550204925297038"
     ],
     "2066853420326384055": [
       "https://x.com/GokuMohandas/status/2066853420326384055",
@@ -20699,9 +20737,9 @@
       "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg",
       "https://x.com/sairahul1/status/2067180209615573213",
       "https://x.com/sairahul1/status/2067230331774882188",
-      "https://x.com/sairahul1/status/2067178097825484949",
       "https://x.com/sairahul1/status/2067504210728665445",
-      "https://x.com/sairahul1/status/2067173886995956221"
+      "https://x.com/sairahul1/status/2067173886995956221",
+      "https://x.com/sairahul1/status/2067178097825484949"
     ],
     "2067180054979936413": [
       "https://x.com/vercel/status/2067180054979936413",
@@ -20921,8 +20959,8 @@
     ],
     "2067445628754690376": [
       "https://x.com/_naiVe_2/status/2067445628754690376",
-      "https://x.com/_naiVe_2/status/2068573245922849193",
-      "https://pbs.twimg.com/media/HLUMWqcb0AAlXEx.jpg"
+      "https://x.com/_naiVe_2/status/2068610340670390314",
+      "https://pbs.twimg.com/media/HLUuBAFawAAFEyi.jpg"
     ],
     "2067448809278583295": [
       "https://x.com/himanshutwtxs/status/2067448809278583295",
@@ -21014,8 +21052,8 @@
       "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
-      "https://x.com/MatthewBerman/status/2067697165418586571",
-      "https://x.com/MatthewBerman/status/2067696923470164115"
+      "https://x.com/MatthewBerman/status/2067696923470164115",
+      "https://x.com/MatthewBerman/status/2067697165418586571"
     ],
     "2067690067288572209": [
       "https://x.com/hugobarauna/status/2067690067288572209",
@@ -21029,8 +21067,8 @@
       "https://x.com/jasonzhou1993/status/2068088225969905913",
       "https://x.com/jasonzhou1993/status/2067953587704197476",
       "https://x.com/jasonzhou1993/status/2068088101025824822",
-      "https://x.com/jasonzhou1993/status/2068441696946565216",
-      "https://x.com/jasonzhou1993/status/2068094367093731601"
+      "https://x.com/jasonzhou1993/status/2068094367093731601",
+      "https://x.com/jasonzhou1993/status/2068441696946565216"
     ],
     "2067981638227964220": [
       "https://x.com/jaminball/status/2067981638227964220",
@@ -21044,7 +21082,17 @@
       "https://x.com/MatthewBerman/status/2068462201619558908"
     ],
     "2068297461379252344": [
-      "https://x.com/IAmPascio/status/2068297461379252344"
+      "https://x.com/IAmPascio/status/2068297461379252344",
+      "https://x.com/IAmPascio/status/2068632046461747622",
+      "https://x.getstanley.ai/r/pas"
+    ],
+    "2068328135611822149": [
+      "https://x.com/AnatoliKopadze/status/2068328135611822149",
+      "http://x.com/i/article/2068024770029932544",
+      "https://x.com/AnatoliKopadze/status/2068334655124672836",
+      "https://x.com/AnatoliKopadze/status/2068334685269184738",
+      "https://x.com/AnatoliKopadze/status/2068380706712011073",
+      "https://x.com/AnatoliKopadze/status/2068341479748059354"
     ],
     "2068382815994212664": [
       "https://x.com/prthmo/status/2068382815994212664",
@@ -21056,8 +21104,13 @@
     "2068429571788341428": [
       "https://x.com/MatthewBerman/status/2068429571788341428",
       "https://x.com/MatthewBerman/status/2068429905440964897"
+    ],
+    "2068547697557282935": [
+      "https://x.com/mtrajan/status/2068547697557282935",
+      "http://x.com/i/article/2068547189937422336",
+      "https://x.com/mtrajan/status/2068586090030874729"
     ]
   },
-  "updated_at": "2026-06-21T07:08:53Z",
+  "updated_at": "2026-06-21T10:46:34Z",
   "window": "recent"
 }
