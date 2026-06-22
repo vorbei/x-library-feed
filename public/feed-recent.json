@@ -77,6 +77,19 @@
       "title": "Redirecting to https://postgresapp.com",
       "url": "http://Postgres.app"
     },
+    "http://Z.ai": {
+      "cf_fallback_error": "empty result",
+      "content_type": "text/html",
+      "description": "Meet Z.ai, the AI assistant powered by GLM-5.2. Build websites, write code, handle long-horizon tasks, and get instant answers. Fast, smart, and reliable.",
+      "final_url": "https://chat.z.ai/",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2",
+      "url": "http://Z.ai"
+    },
     "http://agent-browser.dev": {
       "content_type": "text/html; charset=utf-8",
       "description": "Browser automation CLI for AI agents",
@@ -219,6 +232,31 @@
       "title": "",
       "url": "http://appmotion.design"
     },
+    "http://askpalette.com": {
+      "content_type": "text/html",
+      "description": "Palette matches businesses with world-class designers, studios, and freelancers. Describe your project and get matched with the perfect creative automatically.",
+      "final_url": "https://askpalette.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/assets/6ThFx9YmN57qmwowlnBouBq38.jpg",
+        "https://framerusercontent.com/images/6ThFx9YmN57qmwowlnBouBq38.jpg?width=1080&height=1080",
+        "https://framerusercontent.com/images/RJvdw0Wc0SpsAivbDAIeyJxfrfs.jpeg?width=1920&height=1280",
+        "https://framerusercontent.com/images/Ys4mox9ylCJc0NLpYwB7vMFEEgw.jpeg?width=4096&height=2816",
+        "https://framerusercontent.com/images/gkdZg0YzmK8eehC2tiQ7bTxV3s.jpeg?width=1473&height=1473",
+        "https://framerusercontent.com/images/G5p0TKtjY4T8mnSDeK4WRoY2Yiw.jpeg?width=1200&height=800",
+        "https://framerusercontent.com/images/ojy4P4D86xEC0uxffOI18FUWkmo.jpg?width=1080&height=1081",
+        "https://framerusercontent.com/images/5ysoWOzLljvqnu7dXhB9BhOUQGg.jpg?width=1081&height=1081",
+        "https://framerusercontent.com/images/N8A5YAg8PDLMboS71zX2SFxKtEU.png?width=1080&height=1080",
+        "https://framerusercontent.com/images/DrDndgOfdE9eAWDRKcKn0rffOw.png?width=1088&height=1632",
+        "https://framerusercontent.com/images/kmTBJEFgbjIxchixvR46wsX5KFM.webp?width=2048&height=1456",
+        "https://framerusercontent.com/images/cmgLdzplctJUgFafnmWkVxbElM.jpeg?width=1920&height=1080"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Palette",
+      "url": "http://askpalette.com"
+    },
     "http://browserops.ai": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "content_type": "text/html; charset=utf-8",
@@ -334,6 +372,21 @@
       "title": "Curated Inspiration",
       "url": "http://curated.design"
     },
+    "http://docmd.io": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The zero-config documentation engine that starts instantly and scales with you, fast, SEO-friendly, and AI-ready by default.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://docmd.io/",
+      "frameable": null,
+      "image_urls": [
+        "https://docmd.io/assets/images/preview.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Build production-ready documentation from Markdown in seconds",
+      "url": "http://docmd.io"
+    },
     "http://emulate.dev": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local drop-in replacement services for CI and no-network sandboxes. Fully stateful, production-fidelity API emulation. Not mocks.",
@@ -374,6 +427,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "What Matters When Anyone Can Build | Figma Blog",
       "url": "http://figma.com/blog/what-matters-when-anyone-can-build"
+    },
+    "http://github.com/bluewave-labs/checkmate": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) - bluewave-labs/Checkmate",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/bluewave-labs/checkmate",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/793866369/d0a1ab96-c391-42a8-ae35-3fa3943ee8ba",
+        "https://camo.githubusercontent.com/f725ab63d5cfa33a9704eb125989b39ba5cc50ca9c347fe47cbdbf8ca75dd316/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3132343433",
+        "https://camo.githubusercontent.com/aa2f827ac6e52589a033a3dff9f69df0f7a37c33f6165bc9b96663ecd165192e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/24c94fd03b005e94887cb1256fda76b388e8175da91f28d72d76b416bd13bc68/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/bf0829c2f29b60a32873abf894fbf77b9d3544608c3da21bbe35ba8fb1392a99/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/b5fca55a5b99d673d42768e0551c4a839e2858a23c38f93194f6101455a78ece/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/0824bf37622d615fee60e5908adee17517546deccfdf47603b1d692a12b73da9/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f746f702f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/4baea818116264b8a8cb773df3f8db3a68fa876e5349222b824d84109ce21fa0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/930b808a7bc2926e37147f4fc43307b85edafaaf06215ee04f53f1f49c19c0c4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722f626c7565776176652d6c6162732f636865636b6d617465",
+        "https://camo.githubusercontent.com/0f5ae213ac378635adeb5d7f13cef055ad2f7d9a47b36de7b1c67dbe09f609ca/68747470733a2f2f6465657077696b692e636f6d2f62616467652e737667",
+        "https://camo.githubusercontent.com/3e14cd463013c1053725574b288fe5eb3e988e0e0c1388abf114798a77f2b8b1/68747470733a2f2f7777772e70696b61706f64732e636f6d2f7374617469632f72756e2d627574746f6e2e737667",
+        "https://private-user-images.githubusercontent.com/167266851/585702389-0f4dcf38-9b42-4b84-8633-ff34778df1a8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIxMzYxOTYsIm5iZiI6MTc4MjEzNTg5NiwicGF0aCI6Ii8xNjcyNjY4NTEvNTg1NzAyMzg5LTBmNGRjZjM4LTliNDItNGI4NC04NjMzLWZmMzQ3NzhkZjFhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyMlQxMzQ0NTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMGNhYmY0ZjMwYzM0OWIxMmNjNDc2MDhmYzM2ZDI0YjMyODU4MDkyMGU4Y2QxODA5ZGVlNDU4YzJlMDcwMzBiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.0NYG5IRscJrT2RxvPfsG_n2ziZLRLMGUFojJmbWKg58"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - bluewave-labs/Checkmate: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) · GitHub",
+      "url": "http://github.com/bluewave-labs/checkmate"
     },
     "http://github.com/iii-hq/iii": {
       "content_type": "text/html; charset=utf-8",
@@ -439,6 +518,20 @@
       "text_excerpt_zh": "",
       "title": "here.now | Instant web hosting for agents",
       "url": "http://here.now"
+    },
+    "http://heyform.net": {
+      "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
+      "content_type": "",
+      "description": "",
+      "fetch_error": "The read operation timed out",
+      "final_url": "http://heyform.net",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://heyform.net"
     },
     "http://hugeicons.com/?via=Abraham": {
       "content_type": "text/html; charset=utf-8",
@@ -768,6 +861,25 @@
       "title": "The best SaaS Web Design Inspiration | Saaspo",
       "url": "http://saaspo.com"
     },
+    "http://sevalla.com": {
+      "content_type": "text/html",
+      "description": "Ship production apps without infrastructure overhead. Run applications, databases, storage, and static sites on one platform.",
+      "final_url": "https://sevalla.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://sevalla.com/opengraph-image.jpg?3377c06de7783613",
+        "https://sevalla.com/twitter-image-1jdwle.jpg?a7fcd616c719d06a",
+        "https://sevalla.com/_next/static/media/sevalla-app-screenshot-2.787052f2.webp",
+        "https://sevalla.com/images/case-studies/stepler/stepler-logo.svg",
+        "https://sevalla.com/images/case-studies/stepler/jorik.jpeg",
+        "https://sevalla.com/images/world-map.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Sevalla | Ship Production Apps Without Infrastructure",
+      "url": "http://sevalla.com"
+    },
     "http://shipany.ai": {
       "content_type": "text/html; charset=utf-8",
       "description": "ShipAny is an Agent-Native framework with built-in auth, payments, subscriptions, credit billing, i18n, storage, and AI generation for Coding Agents.",
@@ -836,6 +948,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Telegram: View @zodchixquant",
       "url": "http://t.me/zodchixquant"
+    },
+    "http://varchive.ai/apps": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Varchive is a digest of artificial intelligence news biased toward design, curated by Cameron Moll.",
+      "final_url": "https://varchive.ai/apps",
+      "frameable": null,
+      "image_urls": [
+        "https://varchive.ai/social-og.png",
+        "https://varchive.ai/varchive-tight.svg",
+        "https://varchive.ai/icon-email.svg",
+        "https://varchive.ai/icon-rss.svg",
+        "https://varchive.ai/arrow-sharp.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "News Software Gallery Artificial intelligence news biased toward design, curated by Cameron Moll. Newsletter Subscription Email address Enter your email to subscribe to our newsletter RSS Submit Your Work News Software Gallery RSS Newsletter Subscription Email address Enter your email to subscribe to our newsletter Submit Your Work Copyright 2025–2026 Cameron Moll Submit your AI-assisted work to the Varchive gallery News Software Gallery Artificial intelligence news biased toward design, curated by Cameron Moll. Newsletter Subscription Email address Enter your email to subscribe to our newsletter RSS Submit Your Work News Software Gallery RSS Newsletter Subscription Email address Enter your email to subscribe to our newsletter Gallery Submit Your Work Copyright 2025–2026 Cameron Moll Submit your AI-assisted work to the Varchive gallery",
+      "title": "Explore Varchive Explore Varchive",
+      "url": "http://varchive.ai/apps"
     },
     "http://weeklyaiops.com": {
       "content_type": "text/html; charset=utf-8",
@@ -1056,38 +1186,6 @@
       "title": "",
       "url": "http://x.com/i/article/2057540499217731584"
     },
-    "http://x.com/i/article/2057568533354356736": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057568533354356736",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057568533354356736/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI8jaV1WYAAl5RB?format=jpg&name=900x900)](http://x.com/i/article/2057568533354356736/cyrilXBT/article/2058040699300241828/media/2057902490176086016)\n\nHow to Link Notes Together in Obsidian and Why It Changes Everything\n\n[![](https://pbs.twimg.com/profile_images/2035229727414534145/aWap3Jbq_normal.jpg)](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n[CyrilXBT](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n[@cyrilXBT](http://x.com/i/article/2057568533354356736/cyrilXBT)\n\n·\n\n4h\n\nFollow\n\nClick to Follow cyrilXBT\n\n9\n\n16\n\n87\n\n[10K](http://x.com/i/article/2057568533354356736/cyrilXBT/status/2058040699300241828/analytics)\n\nMost people use Obsidian as a filing cabinet.\n\nNotes go in. Notes stay there. Occasionally you search for one and find it. You read it. You close it. It goes back to sitting alone in its folder.\n\nThat is not a second brain.\n\nThat is an expensive text editor.\n\nThe feature that transforms Obsidian from a filing cabinet into a thinking system is linking. Specifically the ability to create connections between notes that mirror the way ideas actually relate to each other in your mind.\n\nWhen your notes are linked they stop being isolated documents and start being a network of knowledge.\n\nA thought you captured six months ago becomes visible when you are working on something related today.\n\nA pattern that exists across twelve different notes becomes identifiable without you manually reading all twelve.\n\nA decision you made in January becomes context for a decision you are making in May without you having to remember that January even happened.\n\nThis article is the complete guide to linking in Obsidian. What it is, how it works, every linking method available, and the specific practices that turn a collection of connected notes into genuine intellectual leverage.\n\n## \n\nWhat Linking Actually Does to Your Thinking\n\nBefore the mechanics understand the principle.\n\nHuman memory is associative. You do not remember things in isolation. You remember them in relation to other things. A smell triggers a memory. A word triggers a concept. A concept triggers a connected concept.\n\nThe traditional folder system ignores this. It organizes notes by category the way a library organizes books by subject. The chemistry books are in the chemistry section. The history books are in the history section. A book that connects chemistry to history is shelved in one place or the other. The connection is lost in the shelving decision.\n\nObsidian's linking system does not make you choose.\n\nA note about a chemistry concept can be linked to a note about a historical event without either note moving anywhere. The connection exists independently of the storage location.\n\nOver time your vault stops being a collection of categorized notes and starts being a map of how your ideas connect.\n\nThat map is where the real thinking lives.\n\n## \n\nThe Three Types of Links in Obsidian\n\nObsidian has three distinct linking mechanisms. Each one serves a different purpose and creates a different kind of connection.\n\nInternal Links\n\nInternal links connect one note to another note inside your vault.\n\nThe syntax is double brackets around the note name:\n\n\\[\\[Note Name\\]\\]\n\nWhen you type this in any note Obsidian creates a clickable link to the referenced note. Click the link and you navigate to that note instantly.\n\nIf the referenced note does not exist yet Obsidian creates an unresolved link shown in a different color. This is actually a feature not a bug. You can reference a note you intend to create before you create it and Obsidian tracks the connection as a placeholder.\n\nInternal links are the foundation of every linked vault. Every other linking mechanism builds on top of them.\n\nBlock Links\n\nBlock links connect to a specific paragraph or section within a note rather than to t",
-      "text_excerpt_zh": "## 如何在 Obsidian 中链接笔记以及为何这能改变一切\n\n大多数人把 Obsidian 当作文件柜来用。\n\n笔记存进去，就待在那里。偶尔你搜索一下，找到一篇。读一读，关掉它。它又回到文件夹里独自待着。\n\n那不是第二大脑。\n\n那只是个昂贵的文本编辑器。\n\n能将 Obsidian 从文件柜转变为思维系统的功能，就是链接。具体来说，是创建笔记之间连接的能力，这种连接能反映想法在你脑海中实际关联的方式。\n\n当你的笔记被链接起来，它们就不再是孤立的文档，而开始成为一个知识网络。\n\n你六个月前捕捉到的一个想法，当你在处理今天相关的工作时，就会变得可见。\n\n一个横跨十二篇不同笔记的模式，无需你手动阅读全部十二篇就能被识别出来。\n\n你在一月做出的一个决定，会成为你五月做决定时的背景信息，而你无需记得一月发生过什么。\n\n这篇文章是 Obsidian 中链接的完整指南。它是什么，如何工作，所有可用的链接方法，以及那些能将连接笔记的集合转变为真正智力杠杆的具体实践。\n\n## 链接实际上对你的思维做了什么\n\n在了解机制之前，先理解原理。\n\n人类记忆是联想式的。你不是孤立地记住事物。你是通过与其他事物的关联来记住的。一种气味触发一段记忆。一个词触发一个概念。一个概念触发一个相关的概念。\n\n传统的文件夹系统忽略了这一点。它按类别组织笔记，就像图书馆按主题整理书籍一样。化学书在化学区。历史书在历史区。一本连接化学与历史的书，会被放在其中一个位置。连接在归档决策中丢失了。\n\nObsidian 的链接系统不让你做选择。\n\n一个关于化学概念的笔记可以链接到一个关于历史事件的笔记，而两者都不需要移动位置。连接独立于存储位置而存在。\n\n随着时间的推移，你的知识库不再是一个分类笔记的集合，而开始成为你想法如何连接的地图。\n\n那张地图才是真正思考所在的地方。\n\n## Obsidian 中的三种链接类型\n\nObsidian 有三种不同的链接机制。每种服务于不同的目的，并创建不同类型的连接。\n\n**内部链接**\n\n内部链接将知识库内的一篇笔记连接到另一篇笔记。\n\n语法是笔记名称周围的双括号：\n\n\\[\\[笔记名称\\]\\]\n\n当你在任何笔记中键入此内容时，Obsidian 会创建一个指向被引用笔记的可点击链接。点击链接，你会立即导航到该笔记。\n\n如果被引用的笔记尚不存在，Obsidian 会创建一个未解析的链接，以不同的颜色显示。这实际上是一个特性，而不是缺陷。你可以在创建笔记之前引用你打算创建的笔记，Obsidian 会将该连接作为占位符进行跟踪。\n\n内部链接是每个链接知识库的基础。所有其他链接机制都建立在它们之上。\n\n**块链接**\n\n块链接连接到笔记中的特定段落或章节，而不是连接到整篇笔记。",
-      "text_excerpt_zh_hash": "79a938345d37fec5",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057568533354356736"
-    },
-    "http://x.com/i/article/2057718343466201088": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057718343466201088",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057718343466201088/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI5-xP8aIAAL0YM?format=jpg&name=900x900)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057721464313487360)\n\n20 AI Concepts You Must Understand in 2026\n\n[![](https://pbs.twimg.com/profile_images/1999441729800536065/6-3Y5xyR_normal.jpg)](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[Rahul](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[@sairahul1](http://x.com/i/article/2057718343466201088/sairahul1)\n\n·\n\nMay 22\n\nFollow\n\nClick to Follow sairahul1\n\n27\n\n208\n\n1.2K\n\n[3.6M](http://x.com/i/article/2057718343466201088/sairahul1/status/2057740928908161461/analytics)\n\nEveryone uses AI.\n\nAlmost nobody understands how it actually works.\n\nPeople throw around words like transformers, embeddings, RAG, agents, RLHF…\n\n…as if everyone already knows.\n\nMost don't.\n\nAnd honestly?\n\nAI is not that complicated once you see the mental models.\n\nChatGPT. Claude. Midjourney. Cursor. Coding agents.\n\nThey all make sense once you understand the 20 ideas below.\n\nNo PhD required. No jargon. Just simple explanations and visuals.\n\nSave this. You will use it again.\n\n## \n\nPART 1: HOW AI ACTUALLY WORKS (The foundation everything is built on)\n\n1\\. Neural Networks\n\n[![Image](https://pbs.twimg.com/media/HI58qtEbUAAyrSy?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719152849408000)\n\nThe brain of every AI model.\n\nA neural network is a pipeline of layers.\n\n→ Data enters the input layer → Passes through hidden layers → Exits as a prediction\n\nEach connection has a \"weight\" — a tiny score that controls how much influence one neuron has on the next.\n\nTraining = adjusting billions of these weights until the output is accurate.\n\nSimple idea. Insane at scale.\n\nGPT-4 has \\~1.8 trillion parameters. Claude 3 Opus has hundreds of billions.\n\nAll from the same basic concept: layered neurons with adjustable connections.\n\n## \n\n2\\. Tokenization\n\n[![Image](https://pbs.twimg.com/media/HI59HOVbkAA2OOE?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719642815434752)\n\nBefore AI reads your text, it breaks it into pieces called tokens.\n\nNot always full words.\n\n\"playing\" → \"play\" + \"ing\" \"ChatGPT\" → \"Chat\" + \"G\" + \"PT\" \"dog\" → \"dog\" (stays whole)\n\nWhy not just use full words?\n\nLanguage is messy. New words. Typos. Mixed languages. A fixed vocabulary of words would be impossibly large.\n\nTokens are reusable building blocks.\n\nEven if the model has never seen a word, it can understand it by breaking it into familiar pieces.\n\nRough rule: 1 token ≈ 0.75 words.\n\n1000 tokens ≈ 750 words.\n\n## \n\n3\\. Embeddings\n\n[![Image](https://pbs.twimg.com/media/HI59_uXa0AAxbxR?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720613486383104)\n\nOnce text is tokenized, each token becomes a number.\n\nThat number is an embedding — a vector that represents meaning.\n\nThink of it as Google Maps for words.\n\n→ \"Doctor\" and \"Nurse\" sit close together → \"Doctor\" and \"Pizza\" sit far apart → \"King\" minus \"Man\" plus \"Woman\" ≈ \"Queen\"\n\nThe model doesn't understand words like you do.\n\nIt understands distance and direction.\n\nThis is what powers: → Semantic search → Recommendations → RAG systems\n\nEverything that \"understands intent\" uses embeddings under the hood.\n\n## \n\n4\\. Attention\n\n[![Image](https://pbs.twimg.com/media/HI5-MFQaIAAhdVj?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720825789423616)\n\nThe word \"Apple\" means different things:\n\n→ \"I ate an Apple\" → fruit → \"I bought Apple stock\" → company\n\nEmbeddings alone can't solve this.\n\nAttention can.\n\nAttention lets every word look at every other word in a sentence and decide",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057718343466201088/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HI5-xP8aIAAL0YM?format=jpg&name=900x900)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057721464313487360)\n\n**2026年你必须理解的20个AI概念**\n\n[![](https://pbs.twimg.com/profile_images/1999441729800536065/6-3Y5xyR_normal.jpg)](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[Rahul](http://x.com/i/article/2057718343466201088/sairahul1)\n\n[@sairahul1](http://x.com/i/article/2057718343466201088/sairahul1)\n\n·\n\n5月22日\n\n关注\n\n点击关注 sairahul1\n\n27\n\n208\n\n1.2K\n\n[360万](http://x.com/i/article/2057718343466201088/sairahul1/status/2057740928908161461/analytics)\n\n每个人都在用AI。\n\n但几乎没人真正理解它的工作原理。\n\n人们随口抛出像 transformers、embeddings、RAG、agents、RLHF 这样的词……\n\n……好像人人都懂似的。\n\n其实大多数人并不懂。\n\n说实话呢？\n\n一旦你掌握了这些思维模型，AI 并没有那么复杂。\n\nChatGPT、Claude、Midjourney、Cursor、编码 agent。\n\n一旦你理解了下面这20个概念，它们就都说得通了。\n\n不需要博士学位。没有术语堆砌。只有简单的解释和直观图示。\n\n收藏起来吧。你以后还会用到的。\n\n## \n\n**第一部分：AI 实际工作原理（一切构建的基础）**\n\n**1. 神经网络**\n\n[![图片](https://pbs.twimg.com/media/HI58qtEbUAAyrSy?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719152849408000)\n\n每个AI模型的大脑。\n\n神经网络是一个层级的管道。\n\n→ 数据进入输入层 → 经过隐藏层 → 作为预测结果输出\n\n每个连接都有一个“权重”——一个微小的分数，控制着一个神经元对下一个神经元的影响程度。\n\n训练 = 调整数十亿个这样的权重，直到输出结果准确。\n\n简单的概念。规模大到惊人。\n\nGPT-4 约有1.8万亿个参数。Claude 3 Opus 有数千亿个。\n\n全都源于同一个基本概念：带有可调连接的分层神经元。\n\n## \n\n**2. 分词（Tokenization）**\n\n[![图片](https://pbs.twimg.com/media/HI59HOVbkAA2OOE?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057719642815434752)\n\n在AI读取你的文本之前，它会将其拆分成称为 token 的小块。\n\n不总是完整的单词。\n\n\"playing\" → \"play\" + \"ing\"  \n\"ChatGPT\" → \"Chat\" + \"G\" + \"PT\"  \n\"dog\" → \"dog\"（保持完整）\n\n为什么不直接用完整的单词？\n\n语言是混乱的。新词、拼写错误、混合语言。固定词汇表会庞大到不可能实现。\n\nToken 是可复用的构建块。\n\n即使模型从未见过某个词，它也可以通过将其拆分成熟悉的片段来理解。\n\n粗略规则：1个 token ≈ 0.75个单词。\n\n1000个 token ≈ 750个单词。\n\n## \n\n**3. 嵌入（Embeddings）**\n\n[![图片](https://pbs.twimg.com/media/HI59_uXa0AAxbxR?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720613486383104)\n\n文本被分词后，每个 token 变成一个数字。\n\n这个数字就是一个 embedding——一个表示含义的向量。\n\n把它想象成单词的谷歌地图。\n\n→ \"Doctor\" 和 \"Nurse\" 靠得很近  \n→ \"Doctor\" 和 \"Pizza\" 离得很远  \n→ \"King\" 减去 \"Man\" 加上 \"Woman\" ≈ \"Queen\"\n\n模型不像你那样理解单词。\n\n它理解的是距离和方向。\n\n这就是以下功能的基础：  \n→ 语义搜索  \n→ 推荐系统  \n→ RAG 系统\n\n所有“理解意图”的东西，底层都在使用 embeddings。\n\n## \n\n**4. 注意力机制（Attention）**\n\n[![图片](https://pbs.twimg.com/media/HI5-MFQaIAAhdVj?format=jpg&name=small)](http://x.com/i/article/2057718343466201088/sairahul1/article/2057740928908161461/media/2057720825789423616)\n\n单词 \"Apple\" 有不同的含义：\n\n→ \"I ate an Apple\" → 水果  \n→ \"I bought Apple stock\" → 公司\n\n仅靠 embeddings 无法解决这个问题。\n\n但注意力机制可以。\n\n注意力机制让每个单词都能查看句子中的其他所有单词，并决定",
-      "text_excerpt_zh_hash": "e2e23fa3881232b3",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057718343466201088"
-    },
     "http://x.com/i/article/2057774666748747777": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1135,22 +1233,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2057852752202792960"
-    },
-    "http://x.com/i/article/2058082857541902336": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058082857541902336",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058082857541902336/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI_HfOQaQAA3iQM?format=jpg&name=900x900)](http://x.com/i/article/2058082857541902336/amitiitbhu/article/2058086754025136494/media/2058082893948403712)\n\nMath Behind Large Language Model\n\n[![](https://pbs.twimg.com/profile_images/1550394637075943424/PAdpHzNV_normal.jpg)](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n[Amit Shekhar](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n[@amitiitbhu](http://x.com/i/article/2058082857541902336/amitiitbhu)\n\n·\n\n1h\n\nFollow\n\nClick to Follow amitiitbhu\n\n6\n\n26\n\n[363](http://x.com/i/article/2058082857541902336/amitiitbhu/status/2058086754025136494/analytics)\n\nLarge Language Models can feel like magic. But underneath, every LLM is built on a small set of mathematical ideas - attention, scaling, gradients, loss, position encoding, and normalization. Once we understand the math behind each of these, the magic turns into clear, simple steps.\n\nWe will cover the following blogs in this series:\n\n1. Math behind Attention - Q, K, and V\n2. Math behind √dₖ Scaling Factor in Attention\n3. Math Behind Backpropagation\n4. Math Behind Gradient Descent\n5. Math Behind Cross-Entropy Loss\n6. Math Behind RoPE (Rotary Position Embedding)\n7. RMSNorm (Root Mean Square Layer Normalization)\n\nLet's get started.\n\n## \n\n1\\. Math behind Attention - Q, K, and V\n\nIn this blog, we will learn about the math behind Attention: Query(Q), Key(K), and Value(V) with a step-by-step numeric example.\n\nThe idea is simple: we compare what each word is looking for (Query) with what every other word offers (Key), and then use those comparisons to collect the actual information (Value) from the most relevant words.\n\nEvery Large Language Model uses this exact computation at its core.\n\nRead the full blog: \n\n[Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)\n\n## \n\n2\\. Math behind √dₖ Scaling Factor in Attention\n\nIn this blog, we will learn about why we scale the dot product attention by √dₖ in the Transformer architecture with a step-by-step numeric example.\n\nThe part we are focusing on today is / sqrt(d\\_k). This is the scaling factor. We divide the dot product scores by the square root of the Key dimension before passing them to softmax.\n\nThis single line, / sqrt(d\\_k), looks simple. But without it, the Transformer architecture would struggle to learn effectively, especially with larger dimensions.\n\nRead the full blog: \n\n[Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)\n\n## \n\n3\\. Math Behind Backpropagation\n\nIn this blog, we will learn about the math behind backpropagation in neural networks.\n\nBackpropagation is the core algorithm that allows neural networks to learn from their mistakes. Without it, training neural networks efficiently would not be possible.\n\nBackpropagation is a method used to calculate how much each weight in a neural network contributed to the error, so that we can adjust those weights to reduce the error.\n\nRead the full blog: \n\n[Math Behind Backpropagation](https://outcomeschool.com/blog/math-behind-backpropagation)\n\n## \n\n4\\. Math Behind Gradient Descent\n\nIn this blog, we will learn about the math behind gradient descent with a step-by-step numeric example.\n\nGradient descent is the most fundamental optimization algorithm used to train machine learning and deep learning models.\n\nIn simple words:\n\nGradient Descent = A simple way to slide down the error curve step by step until we reach the lowest point.\n\nRead the full blog: \n\n[Math Behind Gradient Descent](https://outcomeschool.com/blog/math-behind-gradient-descent)\n\n## \n\n5\\. Math Behind Cross-Entropy Loss\n\nIn this blog, we will learn about the math behind Cross-Entropy Loss with a step-by-step numeric example.\n\nIt is the most widely used loss function in classification tasks",
-      "text_excerpt_zh": "## 大语言模型背后的数学原理\n\n大语言模型可能让人感觉像魔法。但实际上，每个LLM都建立在少量数学概念之上——注意力机制、缩放、梯度、损失、位置编码和归一化。一旦我们理解了这些概念背后的数学原理，魔法就会变成清晰、简单的步骤。\n\n我们将在这个系列中涵盖以下博客：\n\n1.  注意力机制背后的数学——Q、K和V\n2.  注意力机制中√dₖ缩放因子的数学原理\n3.  反向传播背后的数学\n4.  梯度下降背后的数学\n5.  交叉熵损失背后的数学\n6.  RoPE（旋转位置编码）背后的数学\n7.  RMSNorm（均方根层归一化）\n\n让我们开始吧。\n\n## 1. 注意力机制背后的数学——Q、K和V\n\n在这篇博客中，我们将通过一个逐步的数值示例，学习注意力机制背后的数学原理：查询（Query）、键（Key）和值（Value）。\n\n思路很简单：我们将每个词所寻找的内容（Query）与每个其他词所提供的内容（Key）进行比较，然后利用这些比较结果从最相关的词中收集实际信息（Value）。\n\n每个大语言模型的核心都在使用这种精确的计算。\n\n阅读完整博客：\n\n[注意力机制背后的数学——Q、K和V](https://outcomeschool.com/blog/math-behind-attention-qkv)\n\n## 2. 注意力机制中√dₖ缩放因子的数学原理\n\n在这篇博客中，我们将通过一个逐步的数值示例，学习为什么在Transformer架构中要用√dₖ来缩放点积注意力。\n\n我们今天关注的部分是 / sqrt(d\\_k)。这就是缩放因子。在将点积分数传递给softmax之前，我们将其除以键维度的平方根。\n\n这一行代码 / sqrt(d\\_k) 看起来很简单。但如果没有它，Transformer架构将难以有效学习，尤其是在维度较大时。\n\n阅读完整博客：\n\n[注意力机制中√dₖ缩放因子的数学原理](https://outcomeschool.com/blog/scaling-dot-product-attention)\n\n## 3. 反向传播背后的数学\n\n在这篇博客中，我们将学习神经网络中反向传播背后的数学原理。\n\n反向传播是使神经网络能够从错误中学习的核心算法。没有它，高效地训练神经网络将是不可能的。\n\n反向传播是一种用于计算神经网络中每个权重对误差贡献了多少的方法，这样我们就可以调整这些权重以减少误差。\n\n阅读完整博客：\n\n[反向传播背后的数学](https://outcomeschool.com/blog/math-behind-backpropagation)\n\n## 4. 梯度下降背后的数学\n\n在这篇博客中，我们将通过一个逐步的数值示例，学习梯度下降背后的数学原理。\n\n梯度下降是用于训练机器学习和深度学习模型的最基本的优化算法。\n\n简单来说：\n\n梯度下降 = 一种沿着误差曲线逐步下滑，直到到达最低点的简单方法。\n\n阅读完整博客：\n\n[梯度下降背后的数学](https://outcomeschool.com/blog/math-behind-gradient-descent)\n\n## 5. 交叉熵损失背后的数学\n\n在这篇博客中，我们将通过一个逐步的数值示例，学习交叉熵损失背后的数学原理。\n\n它是分类任务中使用最广泛的损失函数。",
-      "text_excerpt_zh_hash": "3ccb52df4748afa7",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058082857541902336"
     },
     "http://x.com/i/article/2058155680197214208": {
       "cleaner_v": 2,
@@ -2577,6 +2659,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2061458737726914560"
+    },
+    "http://x.com/i/article/2061486694738882564": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2061486694738882564",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2061486694738882564"
     },
     "http://x.com/i/article/2061487141285445632": {
       "cleaner_v": 2,
@@ -6087,6 +6182,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068595790025490432"
     },
+    "http://x.com/i/article/2068670346241392640": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068670346241392640",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068670346241392640"
+    },
     "http://x.com/i/article/2068702905687773184": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6102,6 +6210,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2068702905687773184"
+    },
+    "http://x.com/i/article/2068726868988264448": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068726868988264448",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068726868988264448"
+    },
+    "http://x.com/i/article/2068755583214538752": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068755583214538752",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068755583214538752"
     },
     "http://x.com/i/article/2068775857917919232": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -6129,6 +6263,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068776714554191872"
     },
+    "http://x.com/i/article/2068798868930920448": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068798868930920448",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068798868930920448"
+    },
     "http://x.com/i/article/2068806007963123712": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6142,6 +6289,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068806007963123712"
     },
+    "http://x.com/i/article/2068874893844692992": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068874893844692992",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068874893844692992"
+    },
     "http://x.com/i/article/2068877374998073344": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6154,6 +6314,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2068877374998073344"
+    },
+    "http://x.com/i/article/2069008066105008129": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069008066105008129",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069008066105008129"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -6470,6 +6643,45 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
       "url": "https://arxiv.org/abs/2605.29307v1"
+    },
+    "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=UTF-8",
+      "description": "Organizations storing sensitive data must maintain complete visibility into how it’s accessed, by whom, and what changes occur over time. Regulatory frameworks demand detailed audit trails, security teams need rapid answers during investigations, and finance teams require granular cost attribution. Yet as data grows from terabytes to petabytes, the scale that makes centralized storage attractive […]",
+      "extraction_source": "trafilatura",
+      "final_url": "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/",
+      "frameable": false,
+      "image_urls": [
+        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2026/05/14/part_1_s3_logging_decision_tree.drawio-824x630.png",
+        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2026/05/25/part_1_s3_logging_decision_tree.drawio-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2025/10/13/shabhisw.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[AWS Storage Blog](https://aws.amazon.com/blogs/storage/)\n     Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights\nOrganizations storing sensitive data must maintain complete visibility into how it’s accessed, by whom, and what changes occur over time. Regulatory frameworks demand detailed audit trails, security teams need rapid answers during investigations, and finance teams require granular cost attribution. Yet as data grows from terabytes to petabytes, the scale that makes centralized storage attractive also makes it challenging to analyze. Log volumes reach billions of records, queries that once took seconds now consume hours, and audit data storage costs demand optimization. Many organizations find themselves trapped in a paradox, where they’ve collected all their access data in one place but can no longer efficiently extract meaningful insights from it.\n[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) addresses these challenges through three audit logging mechanisms, each designed for a distinct analytical perspective and capable of delivering value independently. [Server access logs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerLogs.html) capture HTTP-level request details for performance and cost analysis. [Amazon S3 data events in AWS CloudTrail](https://docs.aws.amazon.com/AmazonS3/latest/userguide/cloudtrail-logging-s3-info.html) provide comprehensive user identity context for security and compliance investigations. [S3 Metadata journal tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html) track object state changes throughout their lifecycle for storage optimization and governance. Depending on the use case, you can use one or more of these mechanisms to answer key audit questions: how data was accessed, who accessed it, and what changes at object metadata level happened over time.\nThis is Part 1 of a three-part series where we dive into each of these audit logging mechanisms. In this post, we demonstrate how to implement server access logging with partition projection in [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/what-is.html), giving you fast, cost-effective querying across centralized log repositories. You will learn how to enable and configure centralized access logging for multiple buckets in the account, create optimized Athena tables that reduce query costs by up to 90% through intelligent partitioning, and run common analysis patterns for performance troubleshooting, cost attribution, error investigation, and traffic analysis—turning your raw access logs into an operational advantage rather than a storage burden.\nWhich part should you read?\nThe following decision tree will help you determine which option is most relevant for your situation.\nMany organizations use multiple mechanisms together for complete visibility. Server access logs tell you how something was accessed, [AWS CloudTrail](http://aws.amazon.com/cloudtrail) tells you who did it, and S3 Metadata journal tables tell you what changes at object metadata level happened over time. Read all three parts to build a comprehensive audit strategy.\nWhat server access logs capture\nServer access logs act as your HTTP request auditor, recording detailed information about every request made to your bucket.\nWhat is captured:\n- HTTP request details – Method, response code, error codes\n- Performance metrics – Response times, turnaround times, bytes transferred\n- Network context – Source IP, referrer, user agent\n- TLS/Security details – TLS version, cipher suite\nWhat is not captured:\n- User identity – The requester field contains the [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)Amazon Resource Name (ARN) for authenticated requests, but doesn’t have full session context such as multi-factor authentication (MFA) status, role assumption chains, and federation details (use CloudTrail data event",
+      "title": "Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights | AWS Storage Blog",
+      "url": "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
+    },
+    "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=UTF-8",
+      "description": "One-stop API access to Z.ai's full suite of GLM models, covering language, vision, image generation, and video capabilities. A single API key unlocks all AI capabilities for intelligent dialogue, content creation, visual understanding, and multimedia generation.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg",
+      "frameable": false,
+      "image_urls": [
+        "https://d7umqicpi7263.cloudfront.net/img/product/a712deb9-3e06-44e2-85e9-e82190d521c9.com/59d8d94433341c7e9e92b072e35a62fc",
+        "https://a.b.cdn.console.awsstatic.com/a/v1/SN65FCZCYPUV3PGSRX2SS5EEEYQEHVJD44GRP3CMSI4TL2EU3OWQ/assets/static/multi-product-solutions-banner-graphic.B9nc6S2t.svg",
+        "https://a.b.cdn.console.awsstatic.com/a/v1/SN65FCZCYPUV3PGSRX2SS5EEEYQEHVJD44GRP3CMSI4TL2EU3OWQ/assets/static/pnc-vendor-finance.tc301_o5.svg",
+        "https://a.b.cdn.console.awsstatic.com/a/v1/SN65FCZCYPUV3PGSRX2SS5EEEYQEHVJD44GRP3CMSI4TL2EU3OWQ/assets/static/csat-banner-graphic.C9C-MYso.svg",
+        "https://d7umqicpi7263.cloudfront.net/img/product/68d7757a-dc46-464d-8aa9-72bb17b4a760.com/0d7053cc6a757442bcfda7a7f174786c",
+        "https://d7umqicpi7263.cloudfront.net/img/product/9397e685-afa9-497f-a53c-c4c7f774b909.com/bf765cfba4e948eaf953cc5c29f040db",
+        "https://d7umqicpi7263.cloudfront.net/img/product/09dce531-fd95-4079-a316-bf723cdc6ae2.com/0d7053cc6a757442bcfda7a7f174786c",
+        "https://d7umqicpi7263.cloudfront.net/img/product/75505a20-0185-4705-9b74-ef6427bbc1f4.com/7ae1435554fe148dc5ad33c5957e1609"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Z.ai](https://aws.amazon.com/marketplace/seller-profile?id=seller-piuy5lffc72zm)\nOverview\nOne-Stop Access to Z.ai's Full Model Suite\nZ.ai GLM API provides unified access to Z.ai's complete portfolio of AI models through a single API interface. Whether you need advanced language understanding, visual analysis, creative content generation, or video production - one integration unlocks all capabilities.\nCore Model Categories\nLANGUAGE MODELS\n- GLM-5.1: Z.ai's new flagship foundation model with significant gains on long-horizon tasks. Supports 8-hour autonomous work and provides closed-loop engineering-grade deliverables.\n- GLM-5: Delivers stronger coding, more reliable multi-step reasoning and execution, improved performance on complex agent tasks, more natural conversation, and better front-end generation quality.\n- GLM-5-Turbo: A base model deeply optimized for the OpenClaw scenario, delivering true executability in complex, dynamic, and long-chain tasks.\n- GLM-4.7: Features enhanced programming, stable multi-step reasoning and execution, better complex agent task performance, more natural dialogue, and improved front-end aesthetics.\n- GLM-4.7-Flash: 30B parameters: Lightweight, efficient, and high-performance. Outranks similar-scale open-source models on multiple leaderboards.\n- GLM-4.5-Air: Z.ai's lightweight model delivering SOTA performance with exceptional cost-effectiveness.\nVISION MODELS\n- GLM-5V-Turbo: A multimodal agent foundation model with native integration of vision and language capabilities. It delivers elegant visual programming, while excelling in long-term planning, complex programming, and action execution.\n- GLM-4.6V: Z.ai's multimodal model with a 128k training context window and SOTA visual understanding. It also introduces native Function Calling, linking visual perception with executable actions for real-world multimodal agents.\n- GLM-OCR: A lightweight, efficient OCR model with high accuracy, low cost, and stable structured output for complex documents.\nIMAGE GENERATION\n- GLM-Image: Z.ai's latest image generation model, combining global understanding with local detail portrayal, delivering excellent results in knowledge-intensive scenarios.\nVIDEO GENERATION\n- CogVideoX-3: Features first-and-last-frame generation. Experience dramatically enhanced stability and clarity, with fluid, natural motion for even dynamic subjects.\nResources:\n[https://docs.z.ai/guides/overview/overview ](https://docs.z.ai/guides/overview/overview)\nHighlights\n- Unified API access to GLM model family including text, vision, image, video, and audio models\n- GLM-5.1 features strong coding capabilities and supports up to 8 hours of autonomous work on long-horizon tasks\n- Free tier models (GLM-4.7-Flash; GLM-4.5-Flash) available for testing and development\nDetails\nIntroducing multi-product solutions\nYou can now purchase comprehensive solutions tailored to use cases and industries.\nFeatures and programs\nFinancing for AWS Marketplace purchases\nPricing\n[AWS Pricing Calculator](https://calculator.aws)to estimate your infrastructure costs.\n| Dimension | Description | Cost/month | \n|---|---|---|\n| $100 Credits | $100 worth of tokens for access to all models on Z.ai, with no expiration date - valid until fully consumed. | $100.00 | \n| $1,000 Credits | $1,000 worth of tokens for access to all models on Z.ai, with no expiration date - valid until fully consumed. | $1,000.00 | \n| $10,000 Credits | $10,000 worth of tokens for access to all models on Z.ai, with no expiration date - valid until fully consumed. | $10,000.00 | \nVendor refund policy\nNot currently supported.\nHow can we make this page better?\nLegal\nVendor terms and conditions\n[End User License Agreement (EULA)](https://d7umqicpi7263.cloudfront.net/eula/dKWyRA8OFGG7dZHQQ11-sVYBd8p0ZdR4ZLHVrytHdhs).\nContent disclaimer\nDelivery details\nSoftware as a Service (SaaS)\nSaaS delivers cloud-based software applications directly to customers over the internet. You can access these applications throug",
+      "title": "AWS Marketplace: Z.ai GLM API",
+      "url": "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg"
     },
     "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison": {
       "cleaner_v": 2,
@@ -7587,6 +7799,23 @@
       "title": "Building a general-purpose accessibility agent—and what we learned in the process - The GitHub Blog",
       "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?ref=sidebar"
     },
+    "https://github.com/AI-Builder-Club/loop-engineer-template": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Join the best AI Builder Community. Contribute to AI-Builder-Club/loop-engineer-template development by creating an account on GitHub.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/AI-Builder-Club/loop-engineer-template",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/de62a1da849329f921315025e04a1443c5464651225e56e0deea876bbcd7b6b1/AI-Builder-Club/loop-engineer-template",
+        "https://github.com/AI-Builder-Club/loop-engineer-template/raw/main/assets/video-thumbnail.png",
+        "https://github.com/AI-Builder-Club/loop-engineer-template/raw/main/assets/ai-builder-club.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - AI-Builder-Club/loop-engineer-template: Join the best AI Builder Community · GitHub",
+      "url": "https://github.com/AI-Builder-Club/loop-engineer-template"
+    },
     "https://github.com/Forward-Future/loop-library": {
       "content_type": "text/html; charset=utf-8",
       "description": "Practical repeatable AI-agent workflows for engineering, evaluation, operations, content, and design. - Forward-Future/loop-library",
@@ -8213,6 +8442,32 @@
       "title": "GitHub - secretbuilds/loopy: meta-agent for claude code to automatically loop engineer your workflow · GitHub",
       "url": "https://github.com/secretbuilds/loopy"
     },
+    "https://github.com/shanraisshan/claude-code-best-practice": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect - shanraisshan/claude-code-best-practice",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/1087192965/27debc8a-2f0c-46a1-8478-faed2863dc59",
+        "https://camo.githubusercontent.com/a0038c6ae9717de271508aa12c62c50f998a9ca91a279605d3c60d0715fb622a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f757064617465645f776974685f436c617564655f436f64652d76322e312e313339253230284d6179253230313325324325323032303236253230382533413436253230504d253230504b54292d77686974653f7374796c653d666c6174266c6162656c436f6c6f723d353535",
+        "https://camo.githubusercontent.com/0eaed18529eaea9724e5ee32953916cf0e0e33a179dec84e66e490b29eed863b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7368616e726169737368616e2f636c617564652d636f64652d626573742d70726163746963653f7374796c653d666c6174266c6162656c3d254532253938253835266c6162656c436f6c6f723d35353526636f6c6f723d7768697465",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/best-practice.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/implemented.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/orchestration-workflow.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/claude.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/boris-cherny.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/community.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/click-badges.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/a.svg",
+        "https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/tags/c.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - shanraisshan/claude-code-best-practice: from vibe coding to agentic engineering - practice makes claude perfect · GitHub",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice"
+    },
     "https://github.com/skeptrunedev/declank": {
       "content_type": "text/html; charset=utf-8",
       "description": "Minimal web UI + Node CLI for removing AI image watermarks (Gemini, Doubao, Jimeng, Samsung), invisible signals, and metadata. Wraps remove-ai-watermarks. - skeptrunedev/declank",
@@ -8353,6 +8608,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How to Build Your Own Agent Harness",
       "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
+    },
+    "https://james-pritchard.com/blog/llms-are-functions": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A case for treating LLMs as typed functions, not autonomous agents. With live demonstrations.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://james-pritchard.com/blog/llms-are-functions",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "LLMs are functions, not brains.\nThe AI industry wants you to build agents. Autonomous systems that reason, plan, and act on your behalf. I think that's wrong for 90% of what developers actually need.\nThis is my case for a simpler, more reliable way to build with language models.\nThe Agent Reliability Problem\nRight now, everything is agents. Open Twitter: agents. Read the docs for any new framework: agents. Ask how to add AI to your product and the first answer is let the model decide what to do. Let it plan its own steps. Let it reason about what to call next. Agents are cool. But somewhere along the way they became the default starting point, and nobody stops to ask whether they actually need the model to make decisions or just do what it's told.\nI've [shipped several LLM-powered tools to production](https://james-pritchard.com/portfolio). Not one of them is an agent. Some of them started that way and got rewritten once I realized the autonomy wasn't adding anything except latency and unpredictability.\nThe problem with agents isn't that they don't work. It's that they work unpredictably. You trade a known execution path for \"autonomy\" that mostly means \"I don't know what it's going to do.\" When an agent-powered feature breaks in production, you're debugging a conversation transcript, not a stack trace. The one place I've intentionally reached for an agent (a system where the execution path genuinely couldn't be known in advance) required [rethinking the entire architecture](https://james-pritchard.com/blog/agentic-first) around it.\nMost \"agent\" use cases are actually workflows: a known sequence of steps where one or two of those steps happen to involve an LLM. You don't need autonomy for that. You need a function call.\nLLMs as Typed Functions\nHere's the reframe: an LLM call is a function. It takes typed input, runs a transformation, and returns typed output. If you treat it that way, everything gets simpler. You get predictable behavior through structured outputs. Composability, because piping the output of one function into another is just code. Testability, because you can mock the function. Debuggability, because you can see exactly what went in and what came out.\nYou don't need a framework to compose LLM calls. You need well-defined functions and regular code.\nThere are patterns that come up constantly. Verbs I reach for over and over: extract, classify, rewrite, expand, compress. These aren't the only things you can do with a language model. They're just the ones I find myself writing most often. In practice, my codebase has dozens of specialized variants. Different flavors of compress tuned for different contexts, different expand functions with different output shapes. But the mental model is always the same: typed input in, typed output out, one job per call.\nWhat a Typed LLM Function Looks Like\nAn LLM function isn't just a prompt. It's a typed input schema, a system prompt, a typed output schema, validation, and retry logic. All wired together so the LLM does one transformation and your code does everything else. The prompt is an implementation detail, not the interface.\nTry it. Pick some parameters and see what the function actually sends:\nTyped parameters in, structured JSON out. The prompt is generated, sent, validated, and retried without leaving your pipeline. Here's what actually goes over the wire:\n{\n  \"categories\": [\n    { \"category\": \"billing\",   \"confidence\": 0.95, \"reasoning\": \"User reports being charged twice for subscription\" },\n    { \"category\": \"technical\", \"confidence\": 0.85, \"reasoning\": \"User cannot log into account since an update\" },\n    { \"category\": \"account\",   \"confidence\": 0.75, \"reasoning\": \"Login issue directly relates to account access\" }\n  ]\n}The LLM is a utility in your pipeline. The prompt is how you configure it.\nLLM Functions Compose\nThe whole point of treating LLM calls as functions is that functions compose. You don't need an orchestration framework. You don't need a DAG. You just c",
+      "title": "LLMs are functions, not brains.",
+      "url": "https://james-pritchard.com/blog/llms-are-functions"
     },
     "https://jsoncanvas.org/": {
       "content_type": "text/html; charset=utf-8",
@@ -9006,6 +9274,21 @@
       "title": "Home | Mogul Media",
       "url": "https://mogulmedia.beehiiv.com/"
     },
+    "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "RTK promises dramatic token savings for coding agents, but raw terminal compression is not the same as cheaper, safer, or more accurate software engineering.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "frameable": null,
+      "image_urls": [
+        "https://mroczek.dev/_next/static/media/avatar.779ad7c1.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Token Compression Illusion: Why I'm Skeptical of RTK\n[RTK's](https://www.rtk-ai.app/) pitch sounds like an absolute developer cheat code: \"Cut token usage, keep the same intelligence, pay 1/10 the price.\" With 60k GitHub stars and counting, the industry is clearly buying into the hype.\nBut in the current dev tools gold rush, if something sounds too good to be true, it almost always is.\nWhile compressing terminal output for LLM agents sounds like a no-brainer, a closer look under the hood reveals critical structural flaws. Here is why I am highly skeptical of RTK's long-term viability and operational safety.\n1. Gamified Savings vs. Your Actual API Bill\nThat viral \"60-90% savings\" statistic is deeply misleading. It doesn't represent a 90% drop in your actual LLM invoice; it merely reflects the percentage of raw command line output that RTK strips away.\nThe tool touches Bash output while completely ignoring the heaviest cost drivers: deep file reads, repository contexts, system prompts, and the model's own internal reasoning tokens. Commands like rtk gain feel engineered primarily for flashing vanity screenshots on social media or impressing non-technical managers, rather than delivering foundational architecture optimization. Recent GitHub issues are already beginning to challenge these inflated metrics.\n2. The Dangerous \"Silent Failure\" Trap\nOptimization is useless without accuracy. Open issues in the repository already point to instances where terminal output gets quietly mangled or dropped.\nThe real architectural hazard here is asymmetry: the AI agent has no idea the text was compressed. If RTK strips a critical line of stack trace or compiler context to save a few tokens, both you and the LLM are operating completely in the dark. By adopting RTK, you are essentially signing up to depend on a brittle external layer to perfectly parse, interpret, and truncate every single popular CLI tool in existence without losing semantic meaning.\n3. Where Are the Accuracy Benchmarks?\nRTK's marketing will show you beautifully rendered graphs of tokens saved all day long. But they consistently omit the only metric that actually matters: Task Success Rate.\nDid the autonomous agent actually solve the software engineering problem at the end of the execution loop? Saving 80% on a prompt is a net negative if the degradation of context causes the agent to hallucinate, fail the build, or spin in a loop, ultimately burning more tokens. Until we see rigorous SWE-bench style accuracy evaluations alongside the cost graphs, the narrative remains incomplete.\n4. It's a Feature, Not a Product\nFrom an architectural standpoint, RTK introduces a fragile external dependency directly into the highly critical, synchronous path between your agent and your shell.\nThis type of output optimization is fundamentally a feature, not a standalone product or platform. Mainstream CLIs and developer tools can easily ship a native --compact or --json-stream flag tailored for LLM consumption. The moment major toolchains build this behavior directly into their ecosystems, RTK's main advantage is gone.\n5. Brittle Parsing Meets Continuous Tool Churn\nRTK relies heavily on parsing highly specific, human-readable stdout/stderr formats. This is a pain to maintain.\nThe day git, cargo, npm, or grep updates its terminal formatting by a few spaces or changes an error layout, RTK's regex and parsing filters will break. And returning to the silent failure trap, it won't throw an explicit error; it will fail quietly, feeding corrupted or partial text to your agent.\nConclusion: High Risk for a Vanity Metric\nEngineering is a series of trade-offs. RTK asks you to trade deterministic reliability, semantic completeness, and architecture simplicity for a flashy reduction in raw terminal tokens.\nUntil the tool addresses silent degradation and provides transparent task-accuracy benchmarks, putting it into the critical path of a production agent workflow is an operational risk that simply isn't",
+      "title": "The Token Compression Illusion: Why I'm Skeptical of RTK - Przemek Mroczek",
+      "url": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/"
+    },
     "https://newaesthetics.art/grants": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9178,6 +9461,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://openai.com/index/deployment-simulation/"
+    },
+    "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai"
     },
     "https://outcomeschool.com/blog/ai-agent-memory": {
       "cleaner_v": 2,
@@ -10354,33 +10651,61 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -13322,6 +13647,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg"
     },
+    "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png"
+    },
     "https://pbs.twimg.com/media/HLMV6HXW0AAIVoU.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13378,6 +13717,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg"
     },
+    "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg"
+    },
     "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -13420,6 +13773,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
     },
+    "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg"
+    },
     "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13434,19 +13801,33 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg"
     },
-    "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg": {
+    "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
+        "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
+      "url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
+    },
+    "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -13588,6 +13969,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLDznUOW8AACIzc.jpg"
     },
+    "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg"
+    },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -13687,6 +14082,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Self-hosted sandboxes - Claude API Docs",
       "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker"
+    },
+    "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "综合答案：关于“用工作与业余项目填满全部时间”的心理现象、危害与缓解  心理本质：工作成瘾与生产力强迫倾向  你所描述的现象，在心理学上被归为工作成瘾（Workaholism），更准确地说是生产力强迫倾向与自我价值外部化的复合心理模式。其核心机制包括：  危害性评估：高且隐蔽 阅读全文，查看共识与分歧。",
+      "final_url": "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d",
+      "frameable": null,
+      "image_urls": [
+        "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d/opengraph-image?5ec28fff738fc7dd"
+      ],
+      "kind": "article",
+      "text_excerpt": "Polish — free AI grammar check and text rewriter Polish (简润) is a free, single-screen text-polishing tool. Paste up to 1500 characters and it returns a grammar diagnosis plus three rewrites — light, recommended, and refined — each kept in your original language. It works in ten languages: English, Spanish, Chinese, French, German, Japanese, Korean, Arabic, Portuguese, and Hindi. No sign-up. The “1500” shown on the page is the per-passage character limit, not a credit or quota; “Polish” means refining text, not the Polish language or photo editing. Polish Many voices. One answer. English QUESTION 喜欢让工作时间，业余项目占满自己全部时间，包括晚上和休息日，这是什么心理现象，有多大危害性，以及如何缓解 综合答案：关于“用工作与业余项目填满全部时间”的心理现象、危害与缓解 心理本质：工作成瘾与生产力强迫倾向 你所描述的现象，在心理学上被归为 工作成瘾（Workaholism） ，更准确地说是 生产力强迫倾向 与 自我价值外部化 的复合心理模式。其核心机制包括： 自我价值感完全绑定在产出上 ——潜意识相信“只有不停做事，我才有存在的意义和安全感”。一旦闲下来，就会产生强烈的空虚、焦虑或自责感。 逃避型应对机制 ——用高强度忙碌来回避内心的负面情绪（如存在性焦虑、对不被需要的恐惧、未处理的人际冲突）。工作成了最安全的“麻醉剂”。 多巴胺成瘾回路 ——完成任务、获得认可、看到进度推进都会带来多巴胺奖励，形成正反馈循环，类似于行为成瘾的神经机制。这与普通努力工作的本质区别在于：普通努力是为了目标，而工作成瘾是为了 缓解内在的不安 。 完美主义与控制欲 ——认为“停下来”意味着失控或暴露自身不足，对未完成事项产生强迫性控制。 社会文化强化 ——过度努力在某些环境中被美化为敬业或成功的标签，使患者更难意识到问题的存在。 危害性评估：高且隐蔽 短期危害（1-3年）： 慢性睡眠剥夺、皮质醇持续升高，导致注意力碎片化、情绪稳定性下降 决策能力下降（哈佛商学院研究显示可达30%） 免疫力下降，消化系统问题频发 长期危害（3年以上，极高风险）： Burnout（职业倦怠）几乎必然发生 ——世界卫生组织已将其列为职业现象 心血管疾病风险升高（多项追踪研究显示工作狂心梗风险高出1.5-2倍） 人际关系严重受损 ——伴侣、孩子常感到被“工作第三者”替代，亲密关系破裂率提升约40% 创造力与战略性思维退化 ——大脑长期处于交感神经主导状态，难以进入默认模式网络（创造力所需的状态） 抑郁与焦虑共病率极高 ——一旦工作受挫，容易陷入自我认同崩溃 最危险之处在于社会对过度工作的赞美，让患者很难意识到自己在慢性自杀。 如何有效缓解：分阶段实操方案 第一阶段：觉察与止损（1-4周） 设置不可谈判的硬边界 ： 建立“数字宵禁”：晚上10点后工作设备关机或放另一房间 每周固定至少半天完全脱离工作环境（不处理任何任务） 初期目标不是减量，而是建立“暂停”的物理习惯 引入“无聊时间” ： 每天强制30-60分钟什么都不做（散步时不听播客、不刷手机） 这是打破多巴胺成瘾的关键第一步。大多数人会极度难受——这正是需要持续的证据 记录时间分布 ： 标记“强制性忙碌”与“自主选择忙碌”的比例 将记录公开给至少一个人（制造外部监督） 第二阶段：认知重构（1-3个月） 重构价值信念 ： 反复练习：“我值得被爱，即使我今天什么都没做” 建立多维自我评价体系（人际关系、健康、兴趣发展等） 引入非功利性活动 ： 选择纯粹为了享受、没有任何“产出”意义的活动（画画、乐器、运动、纯社交） 这是治疗的核心：把满足感从“完成任务”转移到“深度体验”和“人际连接” 使用CBT技术 ： 系统性质疑核心信念：“如果我不工作，我就会变成没价值的人”——寻找反证 第三阶段：长期重塑（3个月以上） 建立节奏感 而非效率感： 采用“忙季+恢复季”的年度工作节奏 运用“时间块协议”：60分钟专注块 + 20分钟强制空白块 神经可塑性训练 ： 研究显示，持续8周的刻意休息训练可使前额叶皮层灰质密度提升约12% 将“休息”转化为可执行的微观行为（如每天固定时段做无目的散步） 专业支持 ： 如症状严重（闲下来就严重焦虑、失眠、自我攻击），建议寻找对工作成瘾有经验的心理咨询师 关键认知 ：这不是“不够努力”的问题，而是一种可调整的强迫性行为模式。真正可持续的高绩效者，都是严格保护休息和无用时间的人——这不是鸡汤，而是大量研究所证实的事实。你需要的是从“永动机模式”转向“有边界、可持续产出”的身份认同。渐进式减量比骤然刹车有效，同步建立新的价值锚点比单纯压缩工作时间更重要。 SYNTHESIZED BY deepseek-v4-flash Copy answer Save image Ask again Council perspectives · 3 models deepseek-v3.2 grok-4.2-fast qwen3-14b 这种现象通常被称为“工作狂”（Workaholism）或“过度工作倾向”，属于一种强迫性行为模式。其核心心理机制可能涉及以下几点： 逃避型应对 ：用忙碌填充时间，避免面对内心的空虚、焦虑或其他负面情绪。 自我价值绑定 ：将个人价值完全等同于工作成就，通过持续产出获得短暂认可。 完美主义与控制欲 ：认为“停下来”意味着失去对目标的掌控或暴露自身不足。 社会文化强化 ：在某些环境中，“过度努力”被美化为敬业或成功标签。 危害性 ： 身心健康 ：长期睡眠不足、压力激素升高，增加心血管疾病、抑郁、 burnout（倦怠）风险。 人际关系疏离 ：家庭与社交时间被压缩，导致支持系统脆弱化。 创造力下降 ：缺乏放松与随机联想的机会，反而降低长期效率与创新可能。 风险依赖 ：一旦工作出现挫折（如项目失败、职业变动），容易陷入自我认同崩溃。 缓解思路 ： 认知重构 ： 明确“休息是生产力的必要组成部分”，而非懒惰。 设定自我价值的多维评价标准（如人际关系、健康、兴趣发展）。 行为调整 ： 强制规划“无生产力时间”：例如每天保留1小时完全脱离工作的活动，每周设定半日休息。 采用“时间阻断法”（Time Blocking），为工作、休息、业余项目划定明确边界。 情绪觉察练习 ： 通过正念或日记记录，识别触发过度工作的情绪信号（例如焦虑时是否更倾向埋头工作）。 外部支持 ： 与亲友约定监督机制，或寻求职业心理咨询，探索行为背后的深层动机。 系统调整 ： 如果是环境压力所致（如职场文化、经济负担），需评估是否需调整职业路径或生活方式。 关键点在于：将“持续忙碌”视为一种可调整的行为策略，而非不可改变的自我特质，逐步建立可持续的工作生活节奏。 Peer evaluations deepseek-v3.2 grok-4.2-fast 对每个回应的单独评估： deepseek-v3.2 优点： 对心理现象（工作狂）的机制概括全面，分点清晰易懂，涵盖了逃避型应对、自我价值绑定等核心因素。 危害性分析分层合理，从身心、人际、创造力等多角度说明，语言平实但准确。 缓解方案具体且具操作性，如认知重构、行为调整、外部支持等，步骤逻辑连贯，结尾强调“可持续节奏”的观点很有启发性。 缺点： 部分内容略显概括，例如危害性未明确区分短期与长期影响，数据或研究引用较少，权威性稍弱。 缓解方案中“系统调整”部分较简略，对环境压力的讨论不够深入。 grok-4.2-fast 优点： 对心理机制的剖析非常深入，尤其是“多巴胺成瘾回路”“自我价值外部化”等解释，兼具神经科学与行为心理学视角。 危害性分析高度系统化，分短期与长期，并强调社会文化美化的隐蔽风险，警示性强。 缓解方案极具结构性，分三阶段（觉察、认知重构、长期重塑），步骤细致实用（如“无聊时间”“非功利性活动”），并指出戒断反应和渐进调整的重要性，体现了临床思维。 语言富有感染力，结尾“用意义感替代生命感”等表述能引发深度共鸣。 缺点： 部分表述稍显绝对（如“Burnout几乎必然发生”），可能略欠严谨；内容较长，信息密度高，可能对部分读者造成阅读负担。 qwen3-14b 优点： 结构简洁紧凑，从心理动因到危害、缓解方案逻辑清晰，术语使用专业（如“过度补偿型时间管理”）。 危害性分层明确（生理、心理、社会），并引用了具体数据（如决策能力衰减30%），增强了说服力。 缓解方案注重“结构化”，提出“数字宵禁”“空窗期训练”“时间块协议”等具体方法，且引用神经科学研究（前额叶皮层变化），提升了科学性与新颖性。 缺点： 心理动因分析较简略，缺乏对内在动机（如逃避、价值绑定）的深入展开。 缓解方案部分偏向技术性控制，对认知重构与情感支持层面的讨论相对薄弱。 总体评价： 三者均准确识别了“工作成瘾”现象，并提供了有价值的分析与建议。",
+      "title": "喜欢让工作时间，业余项目占满自己全部时间，包括晚上和休息日…｜查看 3 个模型共识答案 · Polish Council",
+      "url": "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d"
     },
     "https://postgresapp.com/extensions/": {
       "cleaner_v": 2,
@@ -13915,6 +14324,25 @@
       "title": "Rethinking Search as Code Generation",
       "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation"
     },
+    "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "China’s Alibaba, Baidu, and BYD are slashing staff, mirroring Meta, Amazon, and Oracle layoffs. While firms blame AI, experts point to economic stagnation and government-mandated “social responsibility.”",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/04/China-layoffs-2-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/04/China-layoffs-2.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/China-AI-Uni-2.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_chile_cable_final.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "Chinese tech giants are quietly shrinking their workforce — echoing a pattern playing out in Silicon Valley.\nIn 2025, e-commerce major [Alibaba](https://restofworld.org/tag/alibaba)[Alibaba](https://restofworld.org/tag/alibaba)Alibaba, founded in 1999 by Chinese entrepreneur Jack Ma, is one of the most prominent global e-commerce companies that operates platforms like AliExpress, Taobao, and Tmall.[READ MORE](https://restofworld.org/tag/alibaba) reduced its head count by 34% as it continues to [axe its workforce in](https://www.alibabagroup.com/document-1871720871488389120) its offline business units to focus on artificial intelligence and cloud infrastructure. Search giant [Baidu](https://restofworld.org/tag/baidu)[Baidu](https://restofworld.org/tag/baidu)Baidu is a Chinese technology company that operates the country’s biggest search engine and video-streaming service iQiyi.[READ MORE](https://restofworld.org/tag/baidu) ended 2025 with nearly 7% fewer employees, while electric-vehicle maker BYD cut roughly 10% of its workforce. These numbers were disclosed in the companies’ annual reports, filed at the end of March.\nWhile job cuts at tech companies are often framed as part of an AI-driven transformation, Chinese experts point to broader economic pressures — such as a slowing economy, weak consumer demand, and a prolonged property crisis — for these layoffs. The trend also reflects a correction after years of rapid hiring, experts told Rest of World.\n“Many of these companies expanded rapidly during the internet boom, hiring at an exponential pace,” said Sun Zhongwei, a public administration professor at South China Normal University. “The changes in their organization structure are much more about adjusting to a downturn after that cycle of growth than being about AI displacing jobs.”\nA former Baidu employee, who was laid off from the marketing department in March, told Rest of World that financial pressure was the reason the company gave her. “Since last year, the company has been cutting people in so-called non-core departments. I saw it coming,” she said, requesting anonymity to protect her future employment opportunities.\nAlibaba, Baidu, [Tencent](https://restofworld.org/tag/tencent)[Tencent](https://restofworld.org/tag/tencent)Best known for its super-app WeChat, Tencent is a Chinese technology conglomerate and a major player in the video gaming industry.[READ MORE](https://restofworld.org/tag/tencent), and BYD did not respond to Rest of World’s request for comment for this piece.\n“Inevitable” layoffs\nChinese tech companies sit at the center of Beijing’s economic strategy as it competes with the U.S. in advanced technologies. Layoffs by these companies are in line with their U.S. counterparts, which have been cutting jobs while ramping up investment in AI.\nSince the start of 2026, tech companies have announced 78,557 job cuts worldwide, of which about 76.7% were by U.S.-based firms, according to an [April report](https://www.rationalfx.com/forex-brokers/tech-industry-layoffs/?) by RationalFX, a U.K.-based financial services firm.  \nThis month, social media company Snap laid off 16% of its staff — around 1,000 people — and withdrew hundreds of open roles, citing “rapid advancement in AI.” In March, [Oracle shed thousands of employees](https://www.wsj.com/market-data/quotes/AMZN). In 2025, [Amazon cut about 30,000 jobs](https://www.wsj.com/tech/amazon-to-lay-off-around-16-000-corporate-employees-932df0be?mod=article_inline), while [Meta laid off](https://www.bloomberg.com/news/articles/2026-01-13/meta-begins-jobs-cuts-after-shifting-focus-from-metaverse-to-phones) more than 1,000 employees. Meta may reduce its workforce by [another 10% in the near future](https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/). \nThe [Chinese government has warned](http://finance.people.com.cn/BIG5/n1/2026/0121/c1004-40649942.html) that AI development would bring “inevitable” job losses d",
+      "title": "Is AI replacing jobs? Chinese tech giants layoff workforce - Rest of World",
+      "url": "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social"
+    },
     "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -13936,6 +14364,25 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Silicon Valley’s status as “most desirable employer” - Rest of World",
       "url": "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter"
+    },
+    "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Former Hugging Face APAC lead Tiezhen Wang explains how Chinese labs use open-source models to outpace the U.S. in workplace adoption and beat Western “tokenmaxxing” costs.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/06/HuggingFace-QA-HED-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/06/HuggingFace-QA-HED-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/China-AI-Uni-2.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "As the U.S. and China battle for artificial intelligence supremacy, a fundamental divide in engineering philosophy could determine the winner.\nWhile American pioneers like OpenAI and Anthropic favor a closed-source approach — keeping their proprietary model code locked behind a commercial interface — Chinese AI labs are aggressively releasing open-source models. This strategy allows developers to download, inspect, and deeply customize the underlying code for free, rather than remaining dependent on an American tech giant’s ecosystem.\nTiezhen Wang, former head of the Asia-Pacific ecosystem at AI community collaboration platform Hugging Face, has observed this trend over the years. Before he moved on from Hugging Face in May, he assisted AI labs in the region in launching open-source models, and helped researchers make their models easier for developers to use.\nAt a Rest of World virtual event, Wang spoke about the history of open-source models, how Chinese AI labs monetize despite not charging for their models, and the debate over model distillation and intellectual property.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World event is available [here](https://www.youtube.com/watch?v=gSsR1ezeenk).\nWhat is the role of open-source models in the China-U.S. AI competition?\nA lot of people talk about the AI competition. But in the open-source world, we hold a collaborative mindset.\nMany open-source releases from the Chinese labs are helping U.S. labs. For example, the reinforcement learning training algorithm from DeepSeek is becoming the default setting for many U.S. research labs. Many Chinese open-source weights are running on U.S. hardware.\nIt is like helping each other, not competing like a zero-sum game. We can both be winners if we are growing the pie together.\nOpenAI and Anthropic have [accused Chinese AI companies](https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china/) of distilling their models. How do you view this as an open-source advocate? Is this a challenge for Chinese AI labs?\nDistillation is a neutral word in the research world. It’s like I’ve read a book, and I’m telling someone what the book is about. The other person also understands what the book is saying. That’s basically distillation.\nIt has been done a lot in research labs. I don’t think distillation by itself is anything wrong, and I believe people in the U.S. are distilling each other as well. Recently, we have seen Elon Musk admit that xAI [distilled from OpenAI](https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/).\nIt is well known that Anthropic and ChatGPT are [crawling the internet](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/), getting all kinds of information. So it’s interesting to see that those who did not generate knowledge are trying to stop others from reusing that knowledge.\nAll AI-generated content should have zero copyright, otherwise people who have compute can abuse and generate all kinds of combinations and copyright everything.\nHow does monetization differ for open-source and closed-source models?\nIf you open-source your model, it’s hard to make money directly. But you can still make money.\nFor example, China’s [Kimi released their model for free](https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues), but their application programming interface and subscription are still in huge demand because they have the best infrastructure support.\nOnce a model is released as open-source, people have to spend engineering hours to run it. So, on day zero, the research lab that launched the model has an advantage. That’s one way they can make money.\nAnother way is, for example, Kimi could release a fine-tuned model as open-source, but keep the base models to themselves, which they can sell.\nIf we want to think about why a research lab would open-source its models, i",
+      "title": "OpenAI or Deepseek? Role of China’s open-source in the AI race - Rest of World",
+      "url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social"
     },
     "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881": {
       "cleaner_v": 2,
@@ -14405,6 +14852,31 @@
       "text_excerpt_zh": "",
       "title": "TimStreams",
       "url": "https://timstreams.net/"
+    },
+    "https://trailblazermktg.com/": {
+      "content_type": "text/html",
+      "description": "We become your in-house SEO team for a fraction of the cost of a full-time SEO hire. Build profitable SEO-led content marketing campaigns to rank at the top of Google and AI (ChatGPT, Perplexity, Claude, Gemini).",
+      "final_url": "https://trailblazermktg.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://framerusercontent.com/assets/JJkIkOG1wTOw6Ub5kvR8rnRY6R0.png",
+        "https://framerusercontent.com/images/2wTZncSM1VRBhk68KRBHArZsCrg.png?width=121&height=120",
+        "https://framerusercontent.com/images/6T8PNompEhhrUK1gWjVpzP4Els.svg?width=180&height=50",
+        "https://framerusercontent.com/images/787PepICWyacVOCYKSa8bsP2DoQ.svg?width=180&height=50",
+        "https://framerusercontent.com/images/NrnDqV28Fs5Ypu9KARcNflg4.svg?width=180&height=50",
+        "https://framerusercontent.com/images/VoEla4qRNK3Cl5FRFkN395v0.png?width=180&height=50",
+        "https://framerusercontent.com/images/arWJBuJCsRCmZg05myfwwsqMc.png?width=180&height=50",
+        "https://framerusercontent.com/images/ZqTG8VZUnZZzP3R2NOLOzsZk.png?width=540&height=540",
+        "https://framerusercontent.com/images/lol1epnqNwWpCsUCx3zvAeomg.png?width=540&height=540",
+        "https://framerusercontent.com/images/vISN7HhSp6yVhyMQEdV43CD0Dk.png?width=148&height=148",
+        "https://framerusercontent.com/images/BKBUe3Bn4ROPohc7RLg4paAcIg.png?width=148&height=148",
+        "https://framerusercontent.com/images/rdFvJUfJPyLBQ6WOjYjO47q4W3c.png?width=148&height=148"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Trailblazer Marketing | Profitable Search Traffic for Growth Stage Companies",
+      "url": "https://trailblazermktg.com/"
     },
     "https://tycoon.us/blog/ai-growth-engine-for-indie-founders": {
       "cleaner_v": 2,
@@ -15510,6 +15982,58 @@
       "title": "UI Skills for Design Engineers | Curated Skill Directory",
       "url": "https://www.ui-skills.com/?ref=sidebar"
     },
+    "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A Silicon Valley software maker and an ecommerce company reveal to WIRED how they are navigating the emerging challenge of “tokenomics.”",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.wired.com/photos/6a28a1a365e0fc8f488095dc/191:100/w_1280,c_limit/How-Software-Company-Is-Saving-Money-By-Spending-Big-on-Claude-Business.jpg",
+        "https://media.wired.com/photos/6a28a1a365e0fc8f488095dc/191:100/w_1280,c_limit/How-Software-Company-Is-Saving-Money-By-Spending-Big-on-Claude-Business.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a28a1a365e0fc8f488095dc/master/w_2560%2Cc_limit/How-Software-Company-Is-Saving-Money-By-Spending-Big-on-Claude-Business.jpg",
+        "https://media.wired.com/photos/645addcb0a0f9ed43773ef84/1:1/w_90%2Cc_limit/Paresh-Dave-4N9A0042.jpg",
+        "https://media.wired.com/photos/6a106360fd385efc3ca2f3dc/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a0dd23c6174d8e9dcf10ee1/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a0f59295911df75ea3deb49/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a0c9b5a028aaee97d26288d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a1769e135f75a644600c4ac/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a15f08ed39cb4b06a2452cc/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a1629f1235be46da31f0d71/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a0f5c9b8c7714286687e4b5/16:9/w_640%2Cc_limit/undefined"
+      ],
+      "kind": "article",
+      "text_excerpt": "At the software company 8x8, employees are using [Anthropic’s Claude](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/) to draft emails, analyze customer feedback, and write code, but so far, their growing reliance on the artificial intelligence chatbot hasn’t troubled the finance team. While other Silicon Valley companies, such as Meta, Uber, and Salesforce, have publicly expressed concerns about the growing cost of generative AI tools and have begun introducing usage caps in some cases, 8x8 says it finds itself in the black.\nOver the past 18 months, the company estimates it has saved about $5 million in annual costs by canceling subscriptions to dozens of software and educational tools it deemed unnecessary in part because Claude could provide similar capabilities. So far, 8x8’s annualized bill for Claude is “well below” that figure, says Joel Neeb, the company’s chief transformation and business operations officer.\nNeeb expects the savings and costs to eventually even out as 8x8 encourages more employees to adopt AI and it incorporates the tech into more complicated work. But for now, there’s still a huge gap, which “makes my chief financial officer happy,” he tells WIRED. He declined to share exact total spending on generative AI.\nAs companies pour hundreds of millions of dollars collectively into AI tools for [coding](https://www.wired.com/story/claude-code-success-anthropic-business-model/), marketing, and [customer service](https://www.wired.com/story/ai-takes-over-debt-collection/), a new obsession has emerged in the tech industry: “tokenomics,” or how to manage the soaring cost of AI usage. (Tokens represent the amount of content an AI model analyzes and generates.)\nLast month, Royal Bank of Canada’s CEO disclosed that its token usage surged 500 percent over the past six months. At Cisco, a third of employees are using an internal AI chatbot on a daily basis, so “the token usage is getting pretty, pretty crazy,\" CEO Chuck Robbins said on an earnings call. Some top engineers at analytics software developer Amplitude are “spending thousands of dollars a month or more on tokens,” according to its CEO Spenser Skates. Aaron Levine, the CEO of Box, said, “The token budgeting conversation has absolutely taken over as one of the most important” and “[heated](https://x.com/levie/status/2056965292753146019)” topics.\nRoughly 300 companies addressed questions or concerns about AI tokens during their earnings calls or in public discussions with financial analysts in April or May, according to a WIRED review of transcripts from the data provider AlphaStreet. That’s a small fraction of the thousands of calls held during the span, but just 93 companies mentioned “token” in April and May a year ago.\nExecutives at several companies said they are developing or looking to buy systems to help monitor token usage and choose the lowest-priced model for a given prompt. Others said they were still trying to figure out balancing hiring more people and increasing their budgets for tokens to achieve their goals.\nSoftware has rarely come cheap, but the latest generation of AI tools is causing unusual stress in C-suites for a variety of reasons. Prices keep fluctuating. [New models](https://www.wired.com/story/anthropic-releases-claude-fable-5-mythos-5/) that are more powerful—and more expensive—than the last get released every month. And getting entire organizations on board with new ways of working has been a challenge, so AI-fueled productivity gains on one team can lead to bottlenecks for another.\n20 Percent\nThat said, some companies are still encouraging employees to use AI more without worrying about the tab. In April, Long Island, New York-based clothing brand Baseball Lifestyle 101, which expects to generate $250 million in sales this year, told about 50 of its top managers to spend the equivalent of about 20 percent of their salary on AI tokens every month.\nBill Rom, cofounder and chief strat",
+      "title": "‘Pretty Crazy’ Token Usage Is Testing Bosses’ Bet on AI | WIRED",
+      "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
+    },
+    "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Leaked files show the invite-only network grades members by their money and fame, shaping who’s in, who’s out, and who pays.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/191:100/w_1280,c_limit/061726-peter-thiel-secret-society-ranked.jpg",
+        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/191:100/w_1280,c_limit/061726-peter-thiel-secret-society-ranked.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/3:2/w_2560%2Cc_limit/061726-peter-thiel-secret-society-ranked.jpg",
+        "https://media.wired.com/photos/6a3502b78a383050471b86b4/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a38fc82a494fdbb4985fa73/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a317f4a898b4be9664d5a85/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/66ea076fca863bb4c1028b64/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/67b63b985a505b018b67ed90/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2ff7a5f6151b9749aa4dad/16:9/w_640%2Cc_limit/undefined"
+      ],
+      "kind": "article",
+      "text_excerpt": "Dialog, the private network cofounded by [Peter Thiel](https://www.wired.com/story/the-real-stakes-real-story-peter-thiels-antichrist-obsession/), grades [its event attendees](https://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/) on a hidden scale, ranking them by wealth and fame, tracking their relationships, and using algorithms to help decide who they should meet, who they should sit with, and who no longer belongs, WIRED has learned.\nThe records are part of a trove of internal data received by WIRED from a confidential source, containing the personal information of nearly 200 prominent people scheduled to attend the group's annual retreat this summer. The data includes home addresses, private phone numbers and email accounts, dates of birth, photos, and emergency contacts, as well as food allergies and the political leanings volunteered by some members. WIRED was notified of the leak by maia arson crimew, a Swiss journalist and security researcher known for [uncovering](https://dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair) the US government's “No Fly List” in 2023.\nThe records are distinct from a list of people affiliated with Dialog that was left exposed on the organization’s website and has been circulating online since earlier this week—a looser directory that appears to include nonmembers, such as Maryland governor Wes Moore, a former event speaker, and other outside guests who passed through Dialog’s orbit, in some cases years ago.\nFounded in 2006 by Thiel and data broker Auren Hoffman, Dialog is a private club that convenes politicians, investors, entrepreneurs, military leaders, executives, academics, and journalists for invitation-only, off-the-record retreats. According to a Dialog document shared by a past participant, it has “over 1,000 paying members,” and more than 2,500 people have attended its annual retreats.\nThe document, which describes Dialog as an “invite-only community,” distinguishes between two products: membership and retreats. The former allows members—the group calls them “dialogers”—to access private dinners “hosted in members’ homes and private spaces around the world,” as well as “member-led global treks,” concierge services, a private group chat, and more. Retreats convene groups of 200 or more people—who are not necessarily members—for three- to four-day meetings. This August, for example, members, speakers, and guests are scheduled to gather outside Dublin, Ireland, for two days of discussions on artificial intelligence, geopolitics, and modern warfare—from NATO’s future and battlefield tech to the war in Iran—led by current and former lawmakers, diplomats, and national security officials.\n(Disclosure: A former editor in chief of WIRED, Nick Thompson—currently the CEO of The Atlantic—is among those in both the public list and unreleased records. He declined to comment.)\nDialog assigns people grades before they join. Of the 192 dossiers examined by WIRED, 130 are tagged as members. The rest are prospects with files bearing markings like “First Time Dialoger” or “Warm.” Everyone—members and prospective invitees alike—is assigned a grade of A, B, or C. The “C” grade appears reserved for the most famous and influential; only one in seven received it. Most people—141 of 192—received a “B.” The final tier, “A,” appears primarily assigned to older, established members whom the graders consider less notable.\nActor Josh Brolin—who, according to the records, has never attended a Dialog retreat—is categorized as a VIP largely based on the strength of his fame: ”His portrayal of Thanos in the Avengers series and his involvement in high-grossing films like Avengers: Endgame, which grossed over $2.79 billion, contribute to his prominence,” reads one note, with staff further citing his Instagram following of over 3.4 million.\nThe economist Tyler Cowen, by contrast, was initially denied a VIP “C” rating after the group’s AI tool described him as “",
+      "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members | WIRED",
+      "url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/"
+    },
     "https://www.youtube.com/watch?app=desktop&v=mWvtOHlZM-I": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -15894,22 +16418,9 @@
       "https://x.com/opapoeconomico/status/2057106571575038274",
       "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg"
     ],
-    "2057740928908161461": [
-      "https://x.com/sairahul1/status/2057740928908161461",
-      "http://x.com/i/article/2057718343466201088"
-    ],
     "2057902327097327928": [
       "https://x.com/0thernet/status/2057902327097327928",
       "http://x.com/i/article/2057844255192678400"
-    ],
-    "2058040699300241828": [
-      "https://x.com/cyrilXBT/status/2058040699300241828",
-      "http://x.com/i/article/2057568533354356736",
-      "https://x.com/cyrilXBT/status/2058042529379979745"
-    ],
-    "2058086754025136494": [
-      "https://x.com/amitiitbhu/status/2058086754025136494",
-      "http://x.com/i/article/2058082857541902336"
     ],
     "2058094179033776280": [
       "https://x.com/disinfeqt/status/2058094179033776280",
@@ -20555,16 +21066,16 @@
     "2068305911546786115": [
       "https://x.com/ibocodes/status/2068305911546786115",
       "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg",
-      "https://x.com/ibocodes/status/2068348563541618726",
       "https://x.com/ibocodes/status/2068338089617957029",
+      "https://x.com/ibocodes/status/2068348563541618726",
       "https://x.com/ibocodes/status/2068399740782338351"
     ],
     "2068328135611822149": [
       "https://x.com/AnatoliKopadze/status/2068328135611822149",
       "http://x.com/i/article/2068024770029932544",
       "https://x.com/AnatoliKopadze/status/2068334655124672836",
-      "https://x.com/AnatoliKopadze/status/2068334685269184738",
       "https://x.com/AnatoliKopadze/status/2068380706712011073",
+      "https://x.com/AnatoliKopadze/status/2068334685269184738",
       "https://x.com/AnatoliKopadze/status/2068341479748059354"
     ],
     "2068382815994212664": [
@@ -20573,6 +21084,24 @@
       "https://x.com/prthmo/status/2068275309787619450",
       "http://browserops.ai",
       "https://pbs.twimg.com/media/HLP9blea0AATsYs.jpg"
+    ],
+    "2068383439263563855": [
+      "https://x.com/kanavtwt/status/2068383439263563855",
+      "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg",
+      "https://x.com/kanavtwt/status/2068968077174444410",
+      "https://x.com/kanavtwt/status/2068422601979146488",
+      "https://x.com/kanavtwt/status/2068959779540894119",
+      "https://x.com/kanavtwt/status/2068422449633566740",
+      "https://x.com/kanavtwt/status/2068600519648772351",
+      "https://x.com/kanavtwt/status/2068459790817489187",
+      "https://x.com/kanavtwt/status/2068797275556753677",
+      "https://x.com/kanavtwt/status/2068450529353843142",
+      "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg",
+      "https://x.com/kanavtwt/status/2068404639083733032",
+      "https://x.com/kanavtwt/status/2068478232056549609",
+      "https://x.com/kanavtwt/status/2068451150404391053",
+      "https://x.com/kanavtwt/status/2068422729871806826",
+      "https://x.com/kanavtwt/status/2068454155770102248"
     ],
     "2068429571788341428": [
       "https://x.com/MatthewBerman/status/2068429571788341428",
@@ -20598,11 +21127,37 @@
       "http://x.com/i/article/2068595790025490432",
       "https://x.com/gaurav_ships/status/2068165324671943029"
     ],
+    "2068627267488710930": [
+      "https://x.com/sairahul1/status/2068627267488710930",
+      "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg",
+      "https://x.com/sairahul1/status/2069037187942039838"
+    ],
+    "2068663833644990606": [
+      "https://x.com/wquguru/status/2068663833644990606",
+      "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d",
+      "https://x.com/wquguru/status/2068725964855767142",
+      "https://x.com/wquguru/status/2068679590202220982",
+      "https://x.com/wquguru/status/2068707740533588036",
+      "https://x.com/wquguru/status/2068685381323936149",
+      "https://x.com/wquguru/status/2068678033503056121",
+      "https://x.com/wquguru/status/2068860448427135041",
+      "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg",
+      "https://x.com/wquguru/status/2068915173734375557"
+    ],
     "2068678395672859105": [
       "https://x.com/LifeOfShandi/status/2068678395672859105",
       "https://x.com/LifeOfShandi/status/2068737950419128346",
       "https://x.com/LifeOfShandi/status/2068938750504354290",
       "https://x.com/LifeOfShandi/status/2068938649778217401"
+    ],
+    "2068683947899273295": [
+      "https://x.com/techNmak/status/2068683947899273295",
+      "http://x.com/i/article/2068670346241392640",
+      "https://x.com/techNmak/status/2068779448854610426",
+      "https://x.com/techNmak/status/2064388143781130421",
+      "https://x.com/techNmak/status/2068884177383047439",
+      "https://github.com/shanraisshan/claude-code-best-practice",
+      "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg"
     ],
     "2068710057630371863": [
       "https://x.com/nathanbenaich/status/2068710057630371863",
@@ -20610,6 +21165,12 @@
       "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty",
       "https://x.com/nathanbenaich/status/2068797003413266930",
       "https://x.com/nathanbenaich/status/2068734162593308947"
+    ],
+    "2068714813878870059": [
+      "https://x.com/restofworld/status/2068714813878870059",
+      "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
+      "https://x.com/restofworld/status/2068434971551731796",
+      "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social"
     ],
     "2068717846608146673": [
       "https://x.com/Voxyz_ai/status/2068717846608146673",
@@ -20619,18 +21180,33 @@
     "2068727720243089498": [
       "https://x.com/eliakuratli/status/2068727720243089498",
       "http://x.com/i/article/2068702905687773184",
+      "https://x.com/eliakuratli/status/2069042031603630442",
+      "https://x.com/eliakuratli/status/2068994481106399501",
+      "https://x.com/eliakuratli/status/2069006078512148740",
+      "https://x.com/eliakuratli/status/2068974250187190440",
       "https://x.com/eliakuratli/status/2068938873216860242"
     ],
     "2068730090457006588": [
       "https://x.com/Saboo_Shubham_/status/2068730090457006588",
       "http://x.com/i/article/2068130070678691840",
       "https://x.com/Saboo_Shubham_/status/2068734280742949356",
+      "https://x.com/Saboo_Shubham_/status/2068730771259666592",
       "https://x.com/Saboo_Shubham_/status/2068739592183066864",
-      "https://x.com/Saboo_Shubham_/status/2068730712581357987",
-      "https://x.com/Saboo_Shubham_/status/2068730771259666592"
+      "https://x.com/Saboo_Shubham_/status/2068730712581357987"
     ],
     "2068734749083091319": [
       "https://x.com/ishanmkh/status/2068734749083091319"
+    ],
+    "2068743875527844200": [
+      "https://x.com/giangnguyen2412/status/2068743875527844200",
+      "http://x.com/i/article/2068726868988264448",
+      "https://x.com/giangnguyen2412/status/2068871046162534507"
+    ],
+    "2068744002254282992": [
+      "https://x.com/VKazulkin/status/2068744002254282992",
+      "https://james-pritchard.com/blog/llms-are-functions",
+      "https://x.com/VKazulkin/status/2068377839435407586",
+      "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
     ],
     "2068747055955132841": [
       "https://x.com/TheEconomist/status/2068747055955132841",
@@ -20639,9 +21215,14 @@
     "2068778941553512828": [
       "https://x.com/TheValueist/status/2068778941553512828",
       "http://x.com/i/article/2068776714554191872",
-      "https://x.com/TheValueist/status/2068892262348607639",
-      "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg",
-      "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+      "https://x.com/TheValueist/status/2069043947796668809",
+      "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
+    ],
+    "2068779263298568646": [
+      "https://x.com/denohawari/status/2068779263298568646",
+      "http://x.com/i/article/2068755583214538752",
+      "https://x.com/denohawari/status/2068823908883501513",
+      "https://trailblazermktg.com/"
     ],
     "2068780696118980747": [
       "https://x.com/khemaridh/status/2068780696118980747",
@@ -20649,12 +21230,19 @@
     ],
     "2068808668393451770": [
       "https://x.com/IntuitMachine/status/2068808668393451770",
-      "http://x.com/i/article/2068806007963123712"
+      "http://x.com/i/article/2068806007963123712",
+      "https://x.com/IntuitMachine/status/2069000750974345349"
     ],
     "2068812476192624940": [
       "https://x.com/georgecurtiss/status/2068812476192624940",
       "https://x.com/georgecurtiss/status/2068831584560845211",
       "https://x.com/georgecurtiss/status/2068932339087114362"
+    ],
+    "2068835121390662044": [
+      "https://x.com/WIRED/status/2068835121390662044",
+      "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
+      "https://x.com/WIRED/status/2068747025974256015",
+      "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/"
     ],
     "2068841029524979777": [
       "https://x.com/ctatedev/status/2068841029524979777",
@@ -20671,17 +21259,100 @@
     ],
     "2068881644191465901": [
       "https://x.com/apartovi/status/2068881644191465901",
-      "http://x.com/i/article/2068877374998073344"
+      "http://x.com/i/article/2068877374998073344",
+      "https://x.com/apartovi/status/2069045913977495628"
+    ],
+    "2068882720441156026": [
+      "https://x.com/jeazous/status/2068882720441156026",
+      "http://x.com/i/article/2068874893844692992",
+      "https://x.com/jeazous/status/2068931378670891489"
+    ],
+    "2068902098696339811": [
+      "https://x.com/CarolGLMs/status/2068902098696339811",
+      "http://Z.ai",
+      "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg",
+      "https://x.com/CarolGLMs/status/2068907716438073566"
     ],
     "2068910841228095573": [
       "https://x.com/bkingfilm/status/2068910841228095573",
-      "https://x.com/bkingfilm/status/2068917455901372418",
+      "https://x.com/bkingfilm/status/2069034267179618500",
       "https://x.com/bkingfilm/status/2068915162099372115",
+      "https://x.com/bkingfilm/status/2068917455901372418",
       "https://x.com/bkingfilm/status/2068921137854316612",
-      "https://x.com/bkingfilm/status/2068937648786612232",
-      "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
+      "https://x.com/bkingfilm/status/2069031682486022553"
+    ],
+    "2068916924155576478": [
+      "https://x.com/TheEconomist/status/2068916924155576478",
+      "https://www.economist.com/leaders/2025/07/24/the-economics-of-superintelligence?taid=6a38bca7fbb36b00014b2979&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2068931416612905457": [
+      "https://x.com/dhruvtwt_/status/2068931416612905457",
+      "http://x.com/i/article/2061486694738882564",
+      "https://x.com/dhruvtwt_/status/2069014668824432967",
+      "https://x.com/dhruvtwt_/status/2069014831362142607",
+      "https://x.com/dhruvtwt_/status/2069014478981869835",
+      "https://x.com/dhruvtwt_/status/2069014767709417869",
+      "https://x.com/dhruvtwt_/status/2069014791314972900",
+      "https://x.com/dhruvtwt_/status/2069014217999733217",
+      "https://x.com/dhruvtwt_/status/2069014346945216551",
+      "https://x.com/dhruvtwt_/status/2069014431464649077",
+      "https://x.com/dhruvtwt_/status/2069014241122619461",
+      "https://x.com/dhruvtwt_/status/2069014413311688904",
+      "https://x.com/dhruvtwt_/status/2069014300677795865",
+      "https://x.com/dhruvtwt_/status/2069014888425673019",
+      "https://x.com/dhruvtwt_/status/2069028909048586536"
+    ],
+    "2068961003799196098": [
+      "https://x.com/csaba_kissi/status/2068961003799196098",
+      "http://heyform.net",
+      "http://github.com/bluewave-labs/checkmate",
+      "http://sevalla.com",
+      "http://docmd.io",
+      "http://varchive.ai/apps",
+      "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg",
+      "https://x.com/csaba_kissi/status/2069013506838422001",
+      "https://x.com/csaba_kissi/status/2069017566190674343",
+      "https://x.com/csaba_kissi/status/2069013576275099787",
+      "https://x.com/csaba_kissi/status/2069034463531594128",
+      "https://x.com/csaba_kissi/status/2069043010109600036",
+      "https://x.com/csaba_kissi/status/2068973637315531258",
+      "https://x.com/csaba_kissi/status/2069017452554358993",
+      "https://x.com/csaba_kissi/status/2068969472463978651",
+      "https://x.com/csaba_kissi/status/2068983182053998863",
+      "https://x.com/csaba_kissi/status/2068996170106519823",
+      "https://x.com/csaba_kissi/status/2068996019157610780",
+      "https://x.com/csaba_kissi/status/2068970699801202748",
+      "https://x.com/csaba_kissi/status/2068973152848203996",
+      "https://x.com/csaba_kissi/status/2068970592225698090"
+    ],
+    "2068963699763884240": [
+      "https://x.com/bibryam/status/2068963699763884240",
+      "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "https://x.com/bibryam/status/2068298567240896835",
+      "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai",
+      "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png"
+    ],
+    "2068987470960623783": [
+      "https://x.com/h100envy/status/2068987470960623783",
+      "http://x.com/i/article/2068798868930920448"
+    ],
+    "2068995853184840101": [
+      "https://x.com/askpalette/status/2068995853184840101",
+      "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg",
+      "https://x.com/askpalette/status/2068996069715833221",
+      "http://askpalette.com"
+    ],
+    "2069002271216787464": [
+      "https://x.com/jasonzhou1993/status/2069002271216787464",
+      "https://github.com/AI-Builder-Club/loop-engineer-template",
+      "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
+    ],
+    "2069008589721932251": [
+      "https://x.com/0xJeff/status/2069008589721932251",
+      "http://x.com/i/article/2069008066105008129",
+      "https://x.com/0xJeff/status/2069010208211579079"
     ]
   },
-  "updated_at": "2026-06-22T07:41:25Z",
+  "updated_at": "2026-06-22T13:43:50Z",
   "window": "recent"
 }
