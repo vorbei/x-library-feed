@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 440,
+      "count": 441,
       "name": "Development"
     },
     {
@@ -38,8 +38,54 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2358,
+  "item_count": 2359,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
+      "article_image_urls": [
+        "https://opengraph.githubassets.com/c1fb93e347c2a5d7f0abe94595a5be0e31f0ee2b00c9636c861136dfba9ec4dd/getagentseal/codeburn",
+        "https://camo.githubusercontent.com/c036ea0436aaadafb499886ac387f489b8b16dcf8908b1e4001fece69264e4e9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436c617564655f666f725f4f70656e5f536f757263652d526563697069656e742d6461373735363f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d316131613161",
+        "https://raw.githubusercontent.com/getagentseal/codeburn/main/assets/providers.png",
+        "https://camo.githubusercontent.com/0bf8a6b83395c98a107bdc234cff16ae658d4f8e0161c4399313917d932b1904/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f636f64656275726e2e7376673f636f6c6f723d463937333136",
+        "https://camo.githubusercontent.com/9caadec2d2ba772af041aadf3ca1771d8c89f578da22bb77a933c1e6c3d721d0/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64742f636f64656275726e2e7376673f636f6c6f723d463937333136",
+        "https://camo.githubusercontent.com/cd9c4f8dc11f68efd8dca7ede3c9383b1ebafe449fd12072509043f6b73d3a7a/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f636f64656275726e2e7376673f636f6c6f723d463937333136",
+        "https://camo.githubusercontent.com/c8596204e90a5b00179327b827db5e88cfe8aba1bc3246b12bed3aacf171bf43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652d25334525334432322d4639373331362e737667",
+        "https://camo.githubusercontent.com/21b46714999b4df7ed96918c7df25e2fe210c48d1f17b4c49333a85f36418324/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646973636f72642d6a6f696e2d4639373331363f6c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/95b2851addb59f1121598ce26c1ac55b2f629259859b601e268ca20dd1902494/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2534305f5f636f64656275726e2d4639373331363f6c6f676f3d78266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/6e764c38f10519eb8449d2d1c1ad3b7b69df950e5f1c4ecfdc8e41abbff91152/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73706f6e736f722de299a52d4639373331363f6c6f676f3d676974687562",
+        "https://raw.githubusercontent.com/getagentseal/codeburn/main/assets/dashboard.jpg",
+        "https://raw.githubusercontent.com/getagentseal/codeburn/main/assets/optimize.jpg"
+      ],
+      "article_title_extracted": "GitHub - getagentseal/codeburn: See where your AI spend goes. Interactive TUI dashboard for token usage and cost across Claude Code, Codex, Cursor, and 25+ more AI tools. npx codeburn · GitHub",
+      "category": "Development",
+      "created_at": "2026-06-22T03:08:03.534206Z",
+      "description": "See where your AI spend goes. Interactive TUI dashboard for token usage and cost across Claude Code, Codex, Cursor, and 25+ more AI tools. npx codeburn - getagentseal/codeburn",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k17ej1yyz8gm93wsz40pgfs0b9894e2p",
+      "og_image_url": "https://opengraph.githubassets.com/25bddca50112f3b7fc1903653bc0daf0b4f4ad68b91dba42b002903cd8520930/getagentseal/codeburn",
+      "recommended_at": "2026-06-22T03:08:09.117000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-tools",
+        "cost-tracking",
+        "tui"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-22T03:08:09.117000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "GitHub - getagentseal/codeburn: See where your AI spend goes. Interactive TUI dashboard for token usage and cost across Claude Code, Codex, Cursor, and 25+ more AI tools. npx codeburn · GitHub",
+      "url": "https://github.com/getagentseal/codeburn",
+      "x_status_id": null
+    },
     {
       "article_image_urls": [
         "https://static.dinehq.com/images/covers/hashkey-cover.jpg",
@@ -1970,7 +2016,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_title_extracted": "Isometric NYC",
       "category": "Design",
       "created_at": "2026-06-15T04:38:26.523760Z",
@@ -2008,7 +2054,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
       ],
@@ -2048,7 +2094,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/Hioh4DamknpQbzzIX7Z0Xt1PAk0.webp",
         "https://framerusercontent.com/images/DKvV5AVomRTWLfOu6iwns4Tw.png?width=2880&height=9440",
@@ -2099,7 +2145,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/690a1c478363d29d3302f121_tesoro-og.jpg",
         "https://cdn.prod.website-files.com/68e6392a59d31f870cef56f9/68ee3e5c777ee4ff4b6fc51f_merchant.avif",
@@ -2143,12 +2189,13 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
       "article_image_urls": [
         "https://openrouter.ai/dynamic-og?title=Model+Fusion&description=Run+multiple+models+side-by-side%2C+analyze+their+strengths%2C+and+fuse+the+best+answer."
       ],
+      "article_text": "Skip to content OpenRouter / No models found Models Fusion Chat Rankings Apps Enterprise Pricing Docs New Fusion No runs yet. New Fusion",
       "article_title_extracted": "Model Fusion | OpenRouter",
       "category": "Tools",
+      "cleaner_v": 2,
       "created_at": "2026-06-15T03:49:47.668151Z",
       "description": "Run multiple models side-by-side, analyze their strengths, and fuse the best answer.",
       "description_zh": "并行运行多个模型，分析各自优势，融合出最佳答案。",
@@ -2184,7 +2231,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://polylane.com/og.png",
         "https://polylane.com/logos/aws.svg",
@@ -2235,9 +2282,10 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
       "article_title_extracted": "- YouTube",
       "category": "Media",
+      "cleaner_v": 2,
       "created_at": "2026-06-15T03:50:03.305564Z",
       "description": "Wenting Channel • YouTube",
       "domain": "www.youtube.com",
@@ -2270,12 +2318,12 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://www.creative.inc/og-image.png",
-        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-default.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu",
-        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-reveal.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu",
-        "https://www.creative.inc/_next/image?url=%2Fimages%2Fobscura.png&w=3840&q=100&dpl=dpl_FiKQiMD8PKdxe26tPy6tj21H2Veu"
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-default.png&w=3840&q=100&dpl=dpl_ATrtCtKQZ16z1mhVouQ9RNyFf1VL",
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fsculpture-reveal.png&w=3840&q=100&dpl=dpl_ATrtCtKQZ16z1mhVouQ9RNyFf1VL",
+        "https://www.creative.inc/_next/image?url=%2Fimages%2Fobscura.png&w=3840&q=100&dpl=dpl_ATrtCtKQZ16z1mhVouQ9RNyFf1VL"
       ],
       "article_title_extracted": "Creative Intelligence Company — Hardware for human creativity",
       "category": "Tools",
@@ -2313,7 +2361,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://www.gile.app/og-image.png",
         "https://www.gile.app/_next/image?url=%2Fimages%2Ftemplates%2FInvoice-template-1-en.webp&w=3840&q=75&dpl=dpl_487YgmuMkTxVqKxsRFi5c3iPMjWU",
@@ -2364,7 +2412,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://a.storyblok.com/f/288034353253643/1200x630/17bab97d71/og-home.jpg",
         "https://a.storyblok.com/f/288034353253643/700x700/8b471550e5/home-hero-link.jpg/m/220x220/filters:format(jpeg):quality(70)",
@@ -4799,9 +4847,9 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
-        "https://opengraph.githubassets.com/0a21596bc8d6238acfe4e4fce3352b3865d6e47497b2bd07bb46f72dba45603c/b-nnett/goose",
+        "https://opengraph.githubassets.com/8b3c1c744836738a642e9adcfa9665593fc74457331e799e16098343715195da/b-nnett/goose",
         "https://github.com/b-nnett/goose/raw/main/docs/assets/readme-hero.png"
       ],
       "article_title_extracted": "GitHub - b-nnett/goose: Goose Swift proof-of-concept README · GitHub",
@@ -4841,7 +4889,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://ironhill.au/sharing-global.jpg"
       ],
@@ -4881,7 +4929,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://trysoar.com/Soar/ogimage.jpg",
         "https://trysoar.com/_next/image?url=%2FSoar%2Fhero-background.png&w=3840&q=75&dpl=dpl_2G9pkcU5g3a2wDTU32KChuDjESh3",
@@ -4978,7 +5026,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-15T06:06:47.566663Z",
+      "article_fetch_attempted_at": "2026-06-22T06:11:11.042980Z",
       "article_image_urls": [
         "https://macatron.ai/og-image.png",
         "https://www.macatron.ai/siri-logo.png",
@@ -105010,7 +105058,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2200,
+      "count": 2201,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -105046,5 +105094,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-21T22:00:10.813921Z"
+  "updated_at": "2026-06-22T06:11:38.031388Z"
 }
