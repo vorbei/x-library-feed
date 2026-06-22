@@ -192,6 +192,9 @@
         "bookmark@chumsdock"
       ],
       "text": "The State of Modern Research 2026: Closing the Listening Gap https://bit.ly/side-hey1  #ad #UX https://t.co/2RjOzKL2sB",
+      "text_zh": "现代研究现状 2026：弥合倾听差距 https://bit.ly/side-hey1  #广告 #用户体验 https://t.co/2RjOzKL2sB",
+      "text_zh_hash": "3519814fdf7c1df7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/SidebarIO/status/2069053300176048306"
     },
     {
@@ -234,6 +237,9 @@
         "favorite@chumsdock"
       ],
       "text": "GLM 5.2 x AWS\n\nGLM-5.2 is accessible via http://Z.ai GLM API on AWS Marketplace 🚀\n\nPowerful long-horizon autonomous workflows, top-tier coding & multi-step agent reasoning capability, delivered through a single unified API endpoint.\nIntegrate seamlessly within your AWS cloud without self-host GPU maintenance.\n\nhttps://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg\n#GLM52 #ZhipuAI #AWSMarketplace #EnterpriseLLM",
+      "text_zh": "GLM 5.2 x AWS\n\nGLM-5.2 现已通过 http://Z.ai 的 GLM API 在 AWS Marketplace 上开放使用 🚀\n\n强大的长周期自主工作流、顶级编码能力及多步骤智能体推理能力，通过单一统一 API 端点交付。\n无缝集成至您的 AWS 云环境，无需自行维护 GPU。\n\nhttps://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg\n#GLM52 #ZhipuAI #AWSMarketplace #EnterpriseLLM",
+      "text_zh_hash": "b3f21d5c3af6a905",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/CarolGLMs/status/2068902098696339811"
     },
     {
@@ -275,6 +281,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"LLMs are functions, not brains.\"\nThe AI  industry wants you to build agents. Autonomous systems that reason,  plan, and act on your behalf. I think that's wrong for 90% of what  developers actually need.\nby James Pritchard\nhttps://james-pritchard.com/blog/llms-are-functions",
+      "text_zh": "\"LLMs 是函数，不是大脑。\"\n\nAI 行业希望你构建智能体——那些能自主推理、规划并代表你行动的系统。我认为这对开发者实际需求的 90% 而言都是错误的。\n\n作者：James Pritchard  \nhttps://james-pritchard.com/blog/llms-are-functions",
+      "text_zh_hash": "f7aa8ec93a449869",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2068744002254282992"
     },
     {
@@ -325,6 +334,9 @@
         "favorite@chumsdock"
       ],
       "text": "Day 1 of vibecoding https://t.co/n8ff35htEV",
+      "text_zh": "Day 1 of vibecoding https://t.co/n8ff35htEV",
+      "text_zh_hash": "664e2b323f3a0430",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/kanavtwt/status/2068383439263563855"
     },
     {
@@ -365,6 +377,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A Silicon Valley software maker and an ecommerce company reveal to WIRED how they are navigating the emerging challenge of “tokenomics.”\nhttps://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
+      "text_zh": "一家硅谷软件制造商和一家电子商务公司向《连线》杂志透露了他们如何应对新兴的\"代币经济学\"挑战。",
+      "text_zh_hash": "a8a08df7e83ec9b2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/WIRED/status/2068835121390662044"
     },
     {
@@ -460,6 +475,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Anthropic engineer: \"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nLoops.\n\nMost builders are doing this wrong:\n\nNo memory file, so every loop starts from zero.\nNo sub-agent split, so one agent tries to do everything.\nNo stop condition, so loops run forever and bill you in your sleep.\n\nMost builders are missing at least two of the three.\n\nWatch the video first.\n\nThen read this - everything you need to know about Loops in 2026, in one place.\n\nBookmark this before it gets buried.",
+      "text_zh": "Anthropic工程师：“你不应该手动提示Claude。你应该构建一个能自我提示的系统。”\n\n循环。\n\n大多数开发者都做错了：\n\n没有记忆文件，所以每次循环都从零开始。\n没有子代理拆分，所以一个代理试图包揽所有事情。\n没有停止条件，所以循环永远运行，在你睡觉时持续计费。\n\n大多数开发者至少缺少上述三项中的两项。\n\n先观看视频。\n\n然后阅读本文——关于2026年循环机制你需要知道的一切，尽在此处。\n\n在它被淹没之前，请收藏本文。",
+      "text_zh_hash": "3a9342dea1a98ff2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sairahul1/status/2068627267488710930"
     },
     {
@@ -542,6 +560,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The Token Compression Illusion: Why I'm Skeptical of RTK\nhttps://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "text_zh": "Token压缩幻觉：为何我对RTK持怀疑态度\nhttps://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "text_zh_hash": "a67e6b02fac32830",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2068963699763884240"
     },
     {
@@ -599,6 +620,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Loop Engineering is getting hype now.\nBut not many talks about how to actually do it\n\nSo I open-sourced the template my team uses to build agent loops:\n- a shared artifact / knowledge layer\n- logging, verification\n- and a codebase harness so work compounds across runs\n\nPlus a 20-min deep dive on how to think about it and set it up for real: https://github.com/AI-Builder-Club/loop-engineer-template\n\nCopy the template. Adapt it to your own loops.",
+      "text_zh": "循环工程现在很火。\n\n但真正讨论如何落地的人不多。\n\n所以我开源了我们团队用来构建智能体循环的模板：\n- 共享的工件/知识层\n- 日志记录与验证\n- 代码库工具链，让每次运行的工作成果持续累积\n\n另外还有一篇20分钟的深度解析，教你如何思考并真正搭建起来：https://github.com/AI-Builder-Club/loop-engineer-template\n\n复制这个模板。根据你自己的循环需求进行适配。",
+      "text_zh_hash": "cf962095d7e01a32",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/jasonzhou1993/status/2069002271216787464"
     },
     {
@@ -641,6 +665,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Faced with state pressure to keep unemployment below 5.5%, Chinese tech companies are engineering quiet layoffs instead of open cuts as they aggressively pivot toward AI development https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
+      "text_zh": "面对国家要求将失业率控制在5.5%以下的压力，中国科技公司正通过“静默裁员”而非公开裁减的方式，积极向人工智能开发转型。https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
+      "text_zh_hash": "965c8ffd0220cdb5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/restofworld/status/2068714813878870059"
     },
     {
@@ -691,6 +718,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Introducing: Palette\n\nA matchmaking platform for founders who need a design studio, and studios who want better clients.\n\nAnswer a few questions about your project and we'll automatically match you with the right studio for free. \n\nNo cold emails, no endless portfolio browsing. https://t.co/NlHmRSselS",
+      "text_zh": "## 介绍：Palette\n\n一个为需要设计工作室的创始人和希望获得优质客户的工作室搭建的匹配平台。\n\n回答几个关于你项目的问题，我们将免费自动为你匹配合适的工作室。\n\n无需发送冷邮件，无需无休止地浏览作品集。https://t.co/NlHmRSselS",
+      "text_zh_hash": "f7628f6dd99ebacf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/askpalette/status/2068995853184840101"
     },
     {
@@ -793,6 +823,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Essential apps every coder should know\n\nhttp://heyform.net - Open-source typeform alternative\nhttp://github.com/bluewave-labs/checkmate - track & monitor server HW, uptime\nhttp://sevalla.com - Push code. Everything else is handled.\nhttp://docmd.io - Markdown to production docs\nhttp://varchive.ai/apps - Gallery of web/app design inspiration",
+      "text_zh": "每个程序员都应掌握的核心应用\n\nhttp://heyform.net - 开源 Typeform 替代方案  \nhttp://github.com/bluewave-labs/checkmate - 追踪与监控服务器硬件及运行时间  \nhttp://sevalla.com - 推送代码，其余一切自动处理  \nhttp://docmd.io - 从 Markdown 到生产级文档  \nhttp://varchive.ai/apps - 网页与应用设计灵感画廊",
+      "text_zh_hash": "e05ba48634a7e111",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/csaba_kissi/status/2068961003799196098"
     },
     {
@@ -1032,6 +1065,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "If computing power brings about technological advances without human input, and enough of the pay-off is reinvested in building still more powerful machines, wealth could accumulate at unprecedented speed https://www.economist.com/leaders/2025/07/24/the-economics-of-superintelligence?taid=6a38bca7fbb36b00014b2979&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "如果计算能力能在无需人类参与的情况下推动技术进步，并且将足够多的收益再投资于构建更强大的机器，财富便可能以前所未有的速度积累。https://www.economist.com/leaders/2025/07/24/the-economics-of-superintelligence?taid=6a38bca7fbb36b00014b2979&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh_hash": "94559eca84f25431",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2068916924155576478"
     },
     {
