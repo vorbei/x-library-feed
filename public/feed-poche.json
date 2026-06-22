@@ -61,6 +61,9 @@
       "category": "Development",
       "created_at": "2026-06-22T03:08:03.534206Z",
       "description": "See where your AI spend goes. Interactive TUI dashboard for token usage and cost across Claude Code, Codex, Cursor, and 25+ more AI tools. npx codeburn - getagentseal/codeburn",
+      "description_zh": "看看你的AI支出都花在哪了。交互式TUI仪表盘，追踪Claude Code、Codex、Cursor及25+款AI工具的Token用量与成本。  \n`npx codeburn - getagentseal/codeburn`",
+      "description_zh_hash": "dbee8192e66c2ba5",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k17ej1yyz8gm93wsz40pgfs0b9894e2p",
@@ -83,6 +86,9 @@
         }
       ],
       "title": "GitHub - getagentseal/codeburn: See where your AI spend goes. Interactive TUI dashboard for token usage and cost across Claude Code, Codex, Cursor, and 25+ more AI tools. npx codeburn · GitHub",
+      "title_zh": "GitHub - getagentseal/codeburn: 查看你的AI支出去向。交互式TUI仪表盘，追踪Claude Code、Codex、Cursor及25+款AI工具的Token用量与成本。npx codeburn · GitHub",
+      "title_zh_hash": "d0e564e0da4797fb",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/getagentseal/codeburn",
       "x_status_id": null
     },
@@ -2193,6 +2199,9 @@
         "https://openrouter.ai/dynamic-og?title=Model+Fusion&description=Run+multiple+models+side-by-side%2C+analyze+their+strengths%2C+and+fuse+the+best+answer."
       ],
       "article_text": "Skip to content OpenRouter / No models found Models Fusion Chat Rankings Apps Enterprise Pricing Docs New Fusion No runs yet. New Fusion",
+      "article_text_zh": "OpenRouter / 未找到模型 模型 融合 聊天 排名 应用 企业 定价 文档 新融合 尚无运行记录。 新融合",
+      "article_text_zh_hash": "ad944f2565c608c3",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Model Fusion | OpenRouter",
       "category": "Tools",
       "cleaner_v": 2,
@@ -2283,6 +2292,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容仅为YouTube页面底部版权与法律声明，无实际文章正文，输出空字符串）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
