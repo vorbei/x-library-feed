@@ -6068,6 +6068,32 @@
       "title": "",
       "url": "http://x.com/i/article/2068547189937422336"
     },
+    "http://x.com/i/article/2068595790025490432": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068595790025490432",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068595790025490432"
+    },
+    "http://x.com/i/article/2068775857917919232": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068775857917919232",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068775857917919232"
+    },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -6823,6 +6849,30 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Running an AI-native engineering org | Claude",
       "url": "https://claude.com/blog/running-an-ai-native-engineering-org"
+    },
+    "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Learn about the seven methods for instructing Claude's behavior to understand the context cost and authority of each.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab8675599_65a737a9.png",
+        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab867559f_2199ed03.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab86755a2_914c1942.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a340f852d1f938ab867559c_e782277c.png",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg",
+        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "- June 18, 2026\n- 5min\nClaude is built to work the way you work, and in Claude Code you can customize it.\nThere are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, [skills](https://code.claude.com/docs/en/skills), [subagents](https://code.claude.com/docs/en/sub-agents), [hooks](https://code.claude.com/docs/en/hooks-guide), output styles, and appending the system prompt.\nEach method controls:\n- When an instruction loads into context;\n- Whether it persists through long sessions (compaction behavior); and\n- How much authority it carries.\nThe table below provides a quick summary of key differences across each method while the post provides additional detail and decision framework for determining where each of your Claude instructions belongs.\nThe seven methods for delivering instructions\nCLAUDE.md files\nCLAUDE.md is a markdown file at the root of your project. It loads into context at session start and stays there for the entire session.\nBuild commands, directory layout, monorepo structure, coding conventions, and team norms all fit naturally here.\nThere are two types, and they load differently:\n- Always loaded: The first type is a root CLAUDE.md file, either in a shared repository and/or saved locally for your personal preferences specific to a project. All these files load at session start, and won’t get lost or degraded across long sessions. When Claude Code compacts the conversation, it re-reads these files.\n- On-demand: CLAUDE.md files in subdirectories below the folder where you initialized the session. For example, app/api/CLAUDE.mdloads when Claude reads a file underapp/api, not at session start. It shares the compaction behavior of path-scoped rules: gone until that subdirectory is touched again.\nIn a shared repository, CLAUDE.md grows the way any unowned config file does: every team appends its own instructions and nothing gets deleted. The cost compounds at scale.\nEvery line loads into every session for every engineer working in the repo, whether it's relevant to their task or not. This consumes tokens and dilutes adherence to the instructions that actually matter. As the file grows, push team-specific conventions into path-scoped rules and procedures into skills, where they load only when relevant.\nTip: Keep CLAUDE.md under 200 lines, give it an owner, and review changes to it like code. Think of this file as giving Claude an overview of your codebase, or as an index pointing to other files where Claude can find more information as needed.\nIn monorepos, give each team's directory its own subdirectory CLAUDE.md so teams only load their own conventions, and developers can use the claudeMdExcludes setting to skip files from teams whose code they never touch.\nFor standards that must apply to every repository in the organization — security policies, compliance requirements — a centrally managed CLAUDE.md can be deployed to developer machines via MDM or config management, and it can't be excluded by individual settings.\nMore on setting up CLAUDE.md in our blog post, [CLAUDE.md files: Customizing Claude Code for your codebase](https://claude.com/blog/using-claude-md-files).\n[documentation](https://code.claude.com/docs/en/overview)\nRules\n[Rules](https://code.claude.com/docs/en/memory#organize-rules-with-claude/rules/) are markdown files in .claude/rules/ that give Claude specific constraints or conventions. \nUnscoped rules behave like CLAUDE.md in that they are always loaded at session start and get re-injected on compaction. This can waste tokens by loading context even when it's not relevant for the task at hand.\nPath-scoped rules allow you to load rule instructions only when they are relevant by adding a paths field that controls when they load. \nFor example: a rule scoped to src/api/** stays out of context during a docs-only session. It would only be loaded whenever Claude reads files within that src/api/ directory.\nHere’s what that looks like:\n---\npaths:\n  - \"src/api/**\"\n  - \"**/*.handler.ts\"\n---",
+      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
+      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more"
     },
     "https://claude.com/blog/the-founders-playbook": {
       "cleaner_v": 2,
@@ -9026,6 +9076,20 @@
       "title": "毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～｜龍汰(リュウタ)",
       "url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
     },
+    "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "[![Air Street Press](https://substackcdn.com/image/fetch/$s_!txvE!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2be7fcaf-7116-4fef-936e-f061e4fdbd87_1138x1138.png)](/)\n\n# [![Air Street Press](https://substackcdn.com/image/fetch/$s_!kO4f!,e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1bef4eb-b215-4a11-a3df-85e3be889d28_1406x496.png)](/)\n\nSubscribeSign in\n\n[European Dynamism](https://press.airstreet.com/s/european-dynamism/?utm%5Fsource=substack&utm%5Fmedium=menu)\n\n# Europe cannot rent its way to AI sovereignty\n\n### When Washington can disable a model overnight, the question is not whether AI is safe but who controls it.\n\n[![Air Street Press's avatar](https://substackcdn.com/image/fetch/$s_!BHeg!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1432db46-c911-47ca-a2e9-40c698b32279_990x990.png)](https://substack.com/@airstreet)[![Nathan Benaich's avatar](https://substackcdn.com/image/fetch/$s_!pLgq!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F93650730-02fe-4e6a-ba9b-0ede30a2fe0a_500x333.jpeg)](https://substack.com/@nathanbenaich)\n\n[Air Street Press](https://substack.com/@airstreet) and [Nathan Benaich](https://substack.com/@nathanbenaich)\n\nJun 21, 2026\n\n19\n\n1\n\nShare\n\nArticle voiceover\n\n\\-7:03\n\nAudio playback is not supported on your browser. Please upgrade.\n\n_Tl;dr this week, I was asked to share remarks on the risks vs. reward for AI at a gathering of frontier AI lab leadership. I took the opportunity to expand these into an essay on the real AI risk in front of us: not rogue machines, but that everyone outside the US and China rents their intelligence from a landlord who can cut them off. And it still doesn’t look like we’re doing nearly to change this before it is too late…_\n\n_—_\n\nA week ago the United States government ordered Anthropic, the world’s most valuable AI start-up, to switch off its most capable model, Fable, for every foreign national on earth - whether they worked for Anthropic or not. This was not an export ban on a weapon sold to an adversary. It was an instruction to disable a commercial product, four days after its release, after officials acted on a claim - which Anthropic disputed as narrow and unproven - that its safeguards could be jailbroken to expose cyber-offence capabilities.\n\nI have spent my career around this technology, first as a graduate student and for the past decade as an investor. In that time I have watched AI move from recommending films to driving cars, speaking with a human voice and editing the genome. I have also watched the debate about its risks settle on only half the question.\n\nThat debate is mostly about capability: how powerful these systems are becoming, and whether one might escape human control. Those are real questions. But they are not the only ones, and the Anthropic episode exposed the half we have neglected: access and control. The most advanced AI is built by a handful of American companies, on American soil, under American law, and what the rest of us are permitted to do with it can change on a Friday afternoon. The risk that matters today is not only that AI goes rogue, but that we do not control access to it at all.\n\nConsider what “renting intelligence” now means in practice. A European hospital triaging scans, a bank screening fraud, a defence ministry planning for a conflict: increasingly each runs on an American AI system that’s governed by its export regime. A single directive in Washington cascades, instantly, through every institution wired to that model. We have built core economic and public infrastructure on a supply that a foreign government can switch off. And while the",
+      "title": "",
+      "url": "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty"
+    },
     "https://openai.com/index/chatgpt-memory-dreaming/": {
       "cleaner_v": 2,
       "content_type": "",
@@ -10332,20 +10396,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg"
-    },
-    "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     },
     "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg": {
       "cleaner_v": 2,
@@ -13301,6 +13351,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
     },
+    "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg"
+    },
     "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -13314,6 +13378,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png"
+    },
+    "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
     },
     "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png": {
       "cleaner_v": 2,
@@ -15791,9 +15869,6 @@
       "https://x.com/ErdalToprak/status/2057871169702027462",
       "http://x.com/i/article/2057849087236419584"
     ],
-    "2057875320011882923": [
-      "https://x.com/HamelHusain/status/2057875320011882923"
-    ],
     "2057880306804527566": [
       "https://x.com/Saboo_Shubham_/status/2057880306804527566",
       "http://x.com/i/article/2057869366566457344",
@@ -15817,10 +15892,6 @@
     "2057902927683916071": [
       "https://x.com/yucheng/status/2057902927683916071",
       "https://x.com/yucheng/status/2058371213601214867"
-    ],
-    "2057918166244716862": [
-      "https://x.com/dani_avila7/status/2057918166244716862",
-      "https://pbs.twimg.com/media/HI8wTC-XkAAuhMu.jpg"
     ],
     "2057943104385339835": [
       "https://x.com/JakeHulberg/status/2057943104385339835"
@@ -19882,10 +19953,10 @@
       "https://x.com/Full_Metal_QR/status/2066838085896167740",
       "https://x.com/Full_Metal_QR/status/2066865075168886902",
       "https://x.com/Full_Metal_QR/status/2066889313850196318",
+      "https://x.com/Full_Metal_QR/status/2068731892438855894",
       "https://x.com/Full_Metal_QR/status/2067065445773967762",
       "https://x.com/Full_Metal_QR/status/2066842920032854064",
       "https://x.com/Full_Metal_QR/status/2066866192623796429",
-      "https://x.com/Full_Metal_QR/status/2068731892438855894",
       "https://x.com/Full_Metal_QR/status/2066930174407405620",
       "https://x.com/Full_Metal_QR/status/2067550204925297038"
     ],
@@ -20298,7 +20369,8 @@
       "https://lore.org/",
       "https://cursor.com/origin",
       "https://developers.cloudflare.com/artifacts/",
-      "https://x.com/TimSuchanek/status/2067775118382940199"
+      "https://x.com/TimSuchanek/status/2068814559675372004",
+      "https://x.com/TimSuchanek/status/2067823974286016520"
     ],
     "2067334006899696101": [
       "https://x.com/PawelHuryn/status/2067334006899696101",
@@ -20384,7 +20456,7 @@
       "https://x.com/UncleJAI/status/2068666874657910884",
       "https://x.com/UncleJAI/status/2067563124774056413",
       "https://x.com/UncleJAI/status/2067588912978231778",
-      "https://x.com/UncleJAI/status/2067832515700969548"
+      "https://x.com/UncleJAI/status/2067592325854023739"
     ],
     "2067544109141627132": [
       "https://x.com/timtimtim_eth/status/2067544109141627132",
@@ -20441,14 +20513,13 @@
       "https://x.com/MatthewBerman/status/2067682871020765532",
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
-      "https://x.com/MatthewBerman/status/2067697032635281664",
-      "https://x.com/MatthewBerman/status/2067689788346703966",
       "https://x.com/MatthewBerman/status/2067689690703241391",
-      "https://x.com/MatthewBerman/status/2067697001865883810",
+      "https://x.com/MatthewBerman/status/2067689788346703966",
+      "https://x.com/MatthewBerman/status/2067697165418586571",
+      "https://x.com/MatthewBerman/status/2067696923470164115",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
-      "https://x.com/MatthewBerman/status/2067696923470164115",
-      "https://x.com/MatthewBerman/status/2067697165418586571"
+      "https://x.com/MatthewBerman/status/2067697001865883810"
     ],
     "2067690067288572209": [
       "https://x.com/hugobarauna/status/2067690067288572209",
@@ -20460,10 +20531,10 @@
       "https://x.com/jasonzhou1993/status/2067937943545897143",
       "http://x.com/i/article/2067919620452032512",
       "https://x.com/jasonzhou1993/status/2068088225969905913",
-      "https://x.com/jasonzhou1993/status/2067953587704197476",
-      "https://x.com/jasonzhou1993/status/2068441696946565216",
+      "https://x.com/jasonzhou1993/status/2068094367093731601",
       "https://x.com/jasonzhou1993/status/2068088101025824822",
-      "https://x.com/jasonzhou1993/status/2068094367093731601"
+      "https://x.com/jasonzhou1993/status/2067953587704197476",
+      "https://x.com/jasonzhou1993/status/2068441696946565216"
     ],
     "2067981638227964220": [
       "https://x.com/jaminball/status/2067981638227964220",
@@ -20481,13 +20552,20 @@
       "https://x.com/IAmPascio/status/2068632046461747622",
       "https://x.getstanley.ai/r/pas"
     ],
+    "2068305911546786115": [
+      "https://x.com/ibocodes/status/2068305911546786115",
+      "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg",
+      "https://x.com/ibocodes/status/2068348563541618726",
+      "https://x.com/ibocodes/status/2068338089617957029",
+      "https://x.com/ibocodes/status/2068399740782338351"
+    ],
     "2068328135611822149": [
       "https://x.com/AnatoliKopadze/status/2068328135611822149",
       "http://x.com/i/article/2068024770029932544",
-      "https://x.com/AnatoliKopadze/status/2068334655124672836",
       "https://x.com/AnatoliKopadze/status/2068334685269184738",
-      "https://x.com/AnatoliKopadze/status/2068380706712011073",
-      "https://x.com/AnatoliKopadze/status/2068341479748059354"
+      "https://x.com/AnatoliKopadze/status/2068334655124672836",
+      "https://x.com/AnatoliKopadze/status/2068341479748059354",
+      "https://x.com/AnatoliKopadze/status/2068380706712011073"
     ],
     "2068382815994212664": [
       "https://x.com/prthmo/status/2068382815994212664",
@@ -20503,14 +20581,48 @@
     "2068434833001640117": [
       "https://x.com/NathanFlurry/status/2068434833001640117",
       "http://x.com/i/article/2068428251060715520",
-      "https://x.com/NathanFlurry/status/2068491929638392258"
+      "https://x.com/NathanFlurry/status/2068820253191332036"
+    ],
+    "2068454450310586639": [
+      "https://x.com/IAmPascio/status/2068454450310586639",
+      "https://x.com/IAmPascio/status/2068640599691944448",
+      "https://x.getstanley.ai/r/pas"
     ],
     "2068547697557282935": [
       "https://x.com/mtrajan/status/2068547697557282935",
       "http://x.com/i/article/2068547189937422336",
       "https://x.com/mtrajan/status/2068586090030874729"
+    ],
+    "2068617975385715117": [
+      "https://x.com/gaurav_ships/status/2068617975385715117",
+      "http://x.com/i/article/2068595790025490432",
+      "https://x.com/gaurav_ships/status/2068165324671943029"
+    ],
+    "2068678395672859105": [
+      "https://x.com/LifeOfShandi/status/2068678395672859105",
+      "https://x.com/LifeOfShandi/status/2068737950419128346"
+    ],
+    "2068710057630371863": [
+      "https://x.com/nathanbenaich/status/2068710057630371863",
+      "https://x.com/nathanbenaich/status/2068720405737504976",
+      "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty",
+      "https://x.com/nathanbenaich/status/2068797003413266930",
+      "https://x.com/nathanbenaich/status/2068734162593308947"
+    ],
+    "2068717846608146673": [
+      "https://x.com/Voxyz_ai/status/2068717846608146673",
+      "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
+    ],
+    "2068747055955132841": [
+      "https://x.com/TheEconomist/status/2068747055955132841",
+      "https://www.economist.com/china/2026/06/21/can-china-pop-americas-ai-bubble?taid=6a381e74fbb36b00014b25f9&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2068780696118980747": [
+      "https://x.com/khemaridh/status/2068780696118980747",
+      "http://x.com/i/article/2068775857917919232"
     ]
   },
-  "updated_at": "2026-06-21T17:52:23Z",
+  "updated_at": "2026-06-22T01:40:50Z",
   "window": "recent"
 }
