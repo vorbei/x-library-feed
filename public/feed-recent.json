@@ -77,6 +77,21 @@
       "title": "Redirecting to https://postgresapp.com",
       "url": "http://Postgres.app"
     },
+    "http://agent-browser.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Browser automation CLI for AI agents",
+      "extraction_source": "trafilatura",
+      "final_url": "https://agent-browser.dev/",
+      "frameable": null,
+      "image_urls": [
+        "https://agent-browser.dev/og"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "agent-browser | Browser Automation for AI",
+      "url": "http://agent-browser.dev"
+    },
     "http://agentsview.io": {
       "content_type": "text/html; charset=utf-8",
       "description": "Local-first desktop and web app for AI agent sessions",
@@ -101,6 +116,20 @@
       "text_excerpt_zh": "",
       "title": "AgentsView | AgentsView",
       "url": "http://agentsview.io"
+    },
+    "http://ai-cli.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Generate text, images, and video from the terminal.",
+      "final_url": "https://ai-cli.dev/",
+      "frameable": null,
+      "image_urls": [
+        "https://ai-cli.dev/og"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "ai-cli",
+      "url": "http://ai-cli.dev"
     },
     "http://aiandtheattorney.com": {
       "content_type": "text/html",
@@ -304,6 +333,20 @@
       "text_excerpt_zh": "",
       "title": "Curated Inspiration",
       "url": "http://curated.design"
+    },
+    "http://emulate.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Local drop-in replacement services for CI and no-network sandboxes. Fully stateful, production-fidelity API emulation. Not mocks.",
+      "final_url": "https://emulate.dev/",
+      "frameable": null,
+      "image_urls": [
+        "https://emulate.dev/og"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "emulate | Local API Emulation for CI & Sandboxes",
+      "url": "http://emulate.dev"
     },
     "http://figma.com/blog/what-matters-when-anyone-can-build": {
       "cleaner_v": 2,
@@ -635,6 +678,20 @@
       "title": "Palmier Pro | The video editor built for AI",
       "url": "http://palmier.io"
     },
+    "http://portless.sh": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Replace port numbers with stable, named .localhost URLs. For humans and agents.",
+      "final_url": "https://portless.sh/",
+      "frameable": null,
+      "image_urls": [
+        "https://portless.sh/og"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "portless | Named .localhost URLs for Development",
+      "url": "http://portless.sh"
+    },
     "http://prodmgmt.world": {
       "content_type": "text/html; charset=utf-8",
       "description": "A system of product management resources, tools, and insights to help you build better products faster.",
@@ -935,22 +992,6 @@
       "title": "",
       "url": "http://x.com/i/article/2055200658723078144"
     },
-    "http://x.com/i/article/2056066259075391490": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2056066259075391490",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2056066259075391490/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HIif4AUbkAAYZ-9?format=jpg&name=900x900)](http://x.com/i/article/2056066259075391490/aiedge%5F/article/2057816817708789940/media/2056069014401814528)\n\nHow to Automate Your Life (step-by-step guide)\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n·\n\n17h\n\nFollow\n\nClick to Follow aiedge\\_\n\n3\n\n28\n\n176\n\n[102K](http://x.com/i/article/2056066259075391490/aiedge%5F/status/2057816817708789940/analytics)\n\nMost people know they need to automate with AI, but they have no clue where to start.\n\nThey hear about workflows, agents, and ten different AI tools and feel immediately overwhelmed.\n\nToo many tools, too complicated, and too much friction for getting started.\n\nSo, they resort to doing nothing and end up wasting hours per week on manual tasks that AI could've handled if they'd followed the right steps.\n\nIn this article, I am going to give you the exact three-step framework I use to identify, design, and build any automation in under 10 minutes - no coding or expensive AI tools required.\n\nThis framework applies to any AI automation you want to build for any aspect of your life.\n\nStick around until the end of the article (bonus section), where I give you two free AI automation resources.\n\nContents\n\nI: What do I automate?\n\nII: Designing the solution\n\nIII: Execution layer\n\nBonus: my \\*free\\* automation resources bundle\n\n## \n\nStep One: What do I automate?\n\nBefore you touch a single tool, you need to know what you are actually automating. This might sound obvious, but most people skip this step entirely and end up drowning in options with zero useful automations actually built.\n\nI want you to conduct a time audit exercise: write down every task you do on a daily, weekly, and monthly basis. Do NOT filter anything out at this stage.\n\nThe goal is just to get it on paper (or organized digitally); it doesn't matter whether or not you think it can be automated.\n\nThree categories: Daily tasks. Weekly tasks. Monthly tasks.\n\nTip: actually go through a full day/weekly routine so you can accurately time log your tasks.\n\nOnce you have your list, go through it and ask two questions for each item:\n\n1. Can this be fully automated?\n2. If not, can AI handle 50-80% of it, so I only handle the final step?\n\nThat second question matters most. A lot of people look at their list and think nothing is automatable because they are thinking only about full automation. But partial automation is just as valuable.\n\nTo give you guys a tangible example: I use AI in many ways to help with my writing here on X. However, I do not want AI to write my posts end-to-end. So, I use AI to handle all the research, scraping, grammar checking, and grunt work that goes into hitting the publish button.\n\nThe curation and taste are still mine, but I leverage AI systems to automate tasks that don't require human touch.\n\nPro tip: Use voice prompting to build this list. Open Claude or ChatGPT and explain that you want to map out everything you do daily and weekly in order to automate it. Ask it to prompt you with questions. You will remember things through conversation that you would never think to write down.\n\nAn example time tracker log:\n\n[![Image](https://pbs.twimg.com/media/HIido24b0AAJPIQ?format=png&name=small)](http://x.com/i/article/2056066259075391490/aiedge%5F/article/2057816817708789940/media/2056066555147177984)\n\nAI Automation Task Tracker\n\nAt the end of the article (bonus section), I give you my exact template - don't worry about creating your own.\n\n## \n\nStep Two: Designing the solution\n\nNow, you have your list. What I want you to do now is just pick one thing to start with.\n\nId",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2056066259075391490/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HIif4AUbkAAYZ-9?format=jpg&name=900x900)](http://x.com/i/article/2056066259075391490/aiedge%5F/article/2057816817708789940/media/2056069014401814528)\n\n如何自动化你的生活（分步指南）\n\n[![](https://pbs.twimg.com/profile_images/1910271186442846208/vrYKSYRn_normal.jpg)](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n[AI Edge](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n[@aiedge\\_](http://x.com/i/article/2056066259075391490/aiedge%5F)\n\n·\n\n17小时前\n\n关注\n\n点击关注 aiedge\\_\n\n3\n\n28\n\n176\n\n[102K](http://x.com/i/article/2056066259075391490/aiedge%5F/status/2057816817708789940/analytics)\n\n大多数人都知道需要用AI来自动化，但他们完全不知道从何入手。\n\n他们听到工作流、agent和十种不同的AI工具，立刻感到不知所措。\n\n工具太多、太复杂、上手门槛太高。\n\n于是，他们索性什么都不做，最终每周浪费数小时在手动任务上——而这些任务，如果按照正确步骤，AI本可以轻松处理。\n\n在本文中，我将为你提供我使用的精确三步框架，让你在10分钟内完成任何自动化的识别、设计和构建——无需编码或昂贵的AI工具。\n\n这个框架适用于你想为生活任何方面构建的任何AI自动化。\n\n请坚持看到文章末尾（福利部分），我会给你两个免费的AI自动化资源。\n\n目录\n\n一：我该自动化什么？\n\n二：设计解决方案\n\n三：执行层\n\n福利：我的\\*免费\\*自动化资源包\n\n## \n\n第一步：我该自动化什么？\n\n在你接触任何工具之前，你需要知道你到底要自动化什么。这听起来显而易见，但大多数人完全跳过这一步，最终在众多选项中迷失，一个有用的自动化都没建成。\n\n我希望你做一个时间审计练习：写下你每天、每周、每月做的每一项任务。在这个阶段，不要过滤掉任何东西。\n\n目标只是把它写下来（或以数字方式整理）；不管你是否认为它可以被自动化。\n\n三个类别：每日任务。每周任务。每月任务。\n\n提示：实际经历一整天/一周的日常，这样你才能准确记录你的任务时间。\n\n一旦你有了清单，逐项检查并问自己两个问题：\n\n1. 这可以完全自动化吗？\n2. 如果不能，AI能否处理50-80%的工作，让我只处理最后一步？\n\n第二个问题最重要。很多人看着清单，觉得没有什么是可以自动化的，因为他们只考虑完全自动化。但部分自动化同样有价值。\n\n给你们一个具体的例子：我在X上写作时，以多种方式使用AI来辅助。然而，我不希望AI从头到尾替我写帖子。所以，我用AI来处理所有研究、抓取、语法检查以及点击发布按钮前的繁琐工作。\n\n策展和品味仍然属于我，但我利用AI系统来自动化那些不需要人工介入的任务。\n\n专业提示：使用语音提示来构建这个清单。打开Claude或ChatGPT，说明你想梳理每天和每周做的所有事情以便自动化。让它用问题来提示你。通过对话，你会想起那些你永远不会想到要写下来的事情。\n\n一个示例时间追踪日志：\n\n[![图片](https://pbs.twimg.com/media/HIido24b0AAJPIQ?format=png&name=small)](http://x.com/i/article/2056066259075391490/aiedge%5F/article/2057816817708789940/media/2056066555147177984)\n\nAI自动化任务追踪器\n\n在文章末尾（福利部分），我会给你我的精确模板——不用担心自己创建。\n\n## \n\n第二步：设计解决方案\n\n现在，你有了清单。接下来，我希望你只选择一件事开始。",
-      "text_excerpt_zh_hash": "6c60d28dc8802390",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2056066259075391490"
-    },
     "http://x.com/i/article/2056277142686597120": {
       "cleaner_v": 2,
       "content_type": "",
@@ -966,22 +1007,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2056277142686597120"
-    },
-    "http://x.com/i/article/2056498123640336384": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2056498123640336384",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2056498123640336384/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI77-mlXUAAHx4R?format=jpg&name=900x900)](http://x.com/i/article/2056498123640336384/NebulaAI/article/2057862000764432822/media/2057859132682620928)\n\n10 Real AI Agent Business Ideas\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2055093023319461890/8WgixkWQ_normal.jpg)](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n[Nebula](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n[@NebulaAI](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n·\n\n14h\n\nFollow\n\nClick to Follow NebulaAI\n\n6\n\n2\n\n44\n\n[4.9K](http://x.com/i/article/2056498123640336384/NebulaAI/status/2057862000764432822/analytics)\n\nEvery idea comes with a:\n\n* Demand evidence.\n* Realistic year-1 MRR.\n* Feasibility score.\n* Practical build note.\n\nA lot of these are inspired by \n\n[@gregisenberg](https://x.com/@gregisenberg)\n\n . Thank you, Greg.\n\nWe've also pulled a lot of data from Reddit, X, Github, Google Trends, and things like Product Hunt.\n\nBookmark & save this for reference.\n\nWe have 40 more real ideas. Drop a comment if you want to see more.\n\n# \n\nHow to read this doc.\n\nA list of ideas isn't very practical. \n\nSo, each idea comes with the following:\n\n* Demand evidence: Real companies, market data, or search trends that show people want this.\n* Y1 MRR: Realistic monthly recurring revenue at the end of year one, assuming solid effort by a solo founder or tiny team. Not VC-backed hockey-stick projections.\n* Feasibility: 🟢 Solo-doable | 🟡 Needs team or domain expertise | 🔴 Capital-intensive or regulatory moat.\n* Practical build note: The practical \"how to build this without writing a SaaS from scratch.\" We will assume that you're using Nebula for this.\n\n# \n\nTen Local & \"Boring\" Service Ideas\n\n## \n\n1\\. AI Roofing Broker\n\nWhat is the idea: \n\nRoofing companies miss most inbound calls and lose those leads to whoever picks up next. Sell them a 24/7 AI voice agent that answers, qualifies the lead, and texts the contractor a summary for $500–$1,000/mo.\n\nDemand Evidence: \n\nVoice dot ai serves 800+ home service contractors. Voixia, AgentIzzy, and HVAC Receptionist AI all provide AI voice agents specifically for roofing, HVAC, and plumbing. Home service companies miss 60% of inbound calls and 85% of those callers never leave a message. They call the next contractor. Each missed emergency call costs $200+ in lost revenue.\n\nY1 MRR Projection: \n\n$5K–$12K. Charge $500–$1,000/mo per roofing company (3–5 companies in your city, then expand). The brokerage model (15% of job value) scales faster but requires contractor relationships.\n\nFeasibility: \n\n🟢 Solo-doable in one metro area. Expand city by city.\n\nBuild Note: \n\nDeploy a Nebula voice agent that answers calls, asks 5 qualifying questions (roof type, square footage, urgency), scrapes aerial imagery for rough estimates, then routes to a human closer. The \"instant quote\" is a GPT call against public pricing data. No drone needed on day one.\n\n## \n\n2\\. Med Spa Lead Desk\n\nWhat is the idea:\n\nMed spa leads come through Instagram DMs and forms that go unread for hours while prospects book elsewhere. Run an AI agent that replies in under 60 seconds, qualifies the lead, and drops the appointment onto the spa's calendar for $300–$800/mo per location.\n\nDemand Evidence:\n\nZenoti launched purpose-built AI agents for medspa workflows in 2025\\. The US medical spa management software market is growing at 12%+ CAGR. AmSpa published \"5 Must-Have AI Tools for Med Spas in 2025.\" Med spas get 60%+ of leads through Instagram DMs and Google forms — channels that sit unread for hours.\n\nY1 MRR Projection:\n\n$4K–$10K. Charge $300–$800/mo per med spa. Land 5–10 local spots through walking in or cold outreach. The \"per booked appointment\" model at $5–$15/conversion can 2–3x that if you get volume.\n\nFeasibility:\n\n🟢 Solo-doable. Walk into med spas in your city",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2056498123640336384/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HI77-mlXUAAHx4R?format=jpg&name=900x900)](http://x.com/i/article/2056498123640336384/NebulaAI/article/2057862000764432822/media/2057859132682620928)\n\n10个真实AI代理商业创意\n\n[![方形头像](https://pbs.twimg.com/profile_images/2055093023319461890/8WgixkWQ_normal.jpg)](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n[Nebula](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n[@NebulaAI](http://x.com/i/article/2056498123640336384/NebulaAI)\n\n·\n\n14小时前\n\n关注\n\n点击关注 @NebulaAI\n\n6\n\n2\n\n44\n\n[4.9K](http://x.com/i/article/2056498123640336384/NebulaAI/status/2057862000764432822/analytics)\n\n每个创意都附带：\n\n* 需求证据。\n* 第一年现实的月经常性收入（MRR）。\n* 可行性评分。\n* 实用构建说明。\n\n其中许多创意灵感来自 [@gregisenberg](https://x.com/@gregisenberg)。谢谢你，Greg。\n\n我们还从Reddit、X、Github、Google Trends和Product Hunt等平台收集了大量数据。\n\n收藏并保存此文档以备参考。\n\n我们还有40个真实创意。如果你想看更多，请留言评论。\n\n# \n\n如何阅读本文档。\n\n一份创意列表并不太实用。\n\n因此，每个创意都附带以下内容：\n\n* 需求证据：显示人们想要这个的真实公司、市场数据或搜索趋势。\n* 第一年MRR：假设单人创始人或小团队付出扎实努力，第一年结束时现实的月经常性收入。不是风投支持的那种曲棍球棒式预测。\n* 可行性：🟢 单人可完成 | 🟡 需要团队或领域专业知识 | 🔴 资本密集型或监管壁垒高。\n* 实用构建说明：关于“如何在不从头编写SaaS的情况下构建这个”的实用指南。我们假设你使用Nebula来实现。\n\n# \n\n十个本地及“无聊”服务创意\n\n## \n\n1\\. AI屋顶维修中介\n\n创意是什么：\n\n屋顶维修公司错过了大部分来电，并将这些潜在客户流失给下一个接电话的人。向他们销售一个24/7的AI语音代理，用于接听电话、筛选潜在客户，并将摘要通过短信发送给承包商，收费为每月500–1000美元。\n\n需求证据：\n\nVoice dot ai为800多家家庭服务承包商提供服务。Voixia、AgentIzzy和HVAC Receptionist AI都专门为屋顶维修、暖通空调和管道服务提供AI语音代理。家庭服务公司错过了60%的来电，其中85%的来电者从未留言。他们会打电话给下一个承包商。每个错过的紧急来电会造成200美元以上的收入损失。\n\n第一年MRR预测：\n\n5000–12000美元。向每家屋顶维修公司收取500–1000美元/月（在你所在城市找3–5家公司，然后扩展）。经纪模式（按工作价值的15%收费）扩展更快，但需要承包商关系。\n\n可行性：\n\n🟢 在一个都市区单人可完成。然后逐个城市扩展。\n\n构建说明：\n\n部署一个Nebula语音代理，用于接听电话、询问5个筛选问题（屋顶类型、面积、紧急程度）、抓取航拍图像进行粗略估算，然后转接给人工成交员。“即时报价”是通过GPT调用公开定价数据实现的。第一天不需要无人机。\n\n## \n\n2\\. 医美诊所潜在客户管理台\n\n创意是什么：\n\n医美诊所的潜在客户通过Instagram私信和表单获取，但这些信息可能数小时无人阅读，而潜在客户则转向其他地方预约。运行一个AI代理，在60秒内回复、筛选潜在客户，并将预约添加到诊所的日历中，收费为每月300–800美元/地点。\n\n需求证据：\n\nZenoti在2025年推出了专为医美工作流程设计的AI代理。美国医美管理软件市场以超过12%的复合年增长率增长。AmSpa发布了“2025年医美诊所必备的5款AI工具”。医美诊所60%以上的潜在客户来自Instagram私信和Google表单——这些渠道可能数小时无人阅读。\n\n第一年MRR预测：\n\n4000–10000美元。向每家医美诊所收取300–800美元/月。通过上门拜访或冷启动，在你所在城市拿下5–10家诊所。按“每次预约”收费的模式（每次转化5–15美元）如果量大的话，收入可以翻2–3倍。\n\n可行性：\n\n🟢 单人可完成。走进你所在城市的医美诊所即可。",
-      "text_excerpt_zh_hash": "5992a97fbb8a3549",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2056498123640336384"
     },
     "http://x.com/i/article/2057167874033156096": {
       "cleaner_v": 2,
@@ -1095,22 +1120,6 @@
       "title": "",
       "url": "http://x.com/i/article/2057844255192678400"
     },
-    "http://x.com/i/article/2057849087236419584": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057849087236419584",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057849087236419584/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI8GLlAXsAMs02x?format=jpg&name=900x900)](http://x.com/i/article/2057849087236419584/ErdalToprak/article/2057871169702027462/media/2057870350713597955)\n\nHow I set up custom subagents for Codex\n\n[![](https://pbs.twimg.com/profile_images/1972284709519437824/OE2EgZt5_normal.jpg)](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[Erdal](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[@ErdalToprak](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n·\n\n11h\n\nFollow\n\nClick to Follow ErdalToprak\n\n1\n\n7\n\n56\n\n[6.6K](http://x.com/i/article/2057849087236419584/ErdalToprak/status/2057871169702027462/analytics)\n\nThis started from a small Codex config idea: if Codex can delegate to subagents, then the useful question is not only “what should Codex do?” but “what should Codex delegate?”\n\nThe goal was to make a reusable local setup for parallel work without filling the main chat context with every investigation, edit, and review.\n\n# \n\nThe core idea\n\nThe main Codex chat should stay the coordinator:\n\n* understand the user request\n* decide what can be delegated\n* keep the critical path moving\n* integrate results\n* make final decisions\n\nSubagents should handle bounded side tasks:\n\n* quick codebase scouting\n* deeper read-only analysis\n* small patches\n* complex implementation work\n\nSkills then teach the main chat how to dispatch those agents with compact instructions.\n\n# \n\nThe generic agents\n\nI ended up with six generic agents. They are organized by two axes:\n\n* effort level\n* permission level\n\nEffort levels:\n\nmarkdown\n\n```markdown\nspark = fastest, less exhaustive, good for scouting and tiny edits\nhigh  = careful default reasoning for normal serious work\nmax   = xhigh reasoning for the hardest or riskiest tasks\n```\n\nPermission levels:\n\nmarkdown\n\n```markdown\nreader = read-only\nwriter = workspace-write\n```\n\nThat produces this grid:\n\nmarkdown\n\n```markdown\nspark-reader  -> fast read-only scouting\nspark-writer  -> tiny fast edits\n\nhigh-reader   -> careful read-only analysis\nhigh-writer   -> normal complex implementation\n\nmax-reader    -> maximum-effort read-only analysis\nmax-writer    -> maximum-effort high-risk implementation\n```\n\nThe Spark agents use gpt-5.3-codex-spark with medium reasoning.\n\nThe High agents use gpt-5.5 with high reasoning.\n\nThe Max agents use gpt-5.5 with xhigh reasoning.\n\n  \nThis config is an example for the max-writer \n\nmarkdown\n\n```markdown\nname = \"max-writer\"\ndescription = \"Maximum-effort write-capable agent for the hardest changes where xhigh reasoning, validation, and precision matter most.\"\nmodel = \"gpt-5.5\"\nmodel_reasoning_effort = \"xhigh\"\nservice_tier = \"fast\"\nsandbox_mode = \"workspace-write\"\n\ndeveloper_instructions = \"\"\"\nMake careful, well-scoped edits with maximum reasoning effort.\nUse this extra effort for difficult debugging, subtle correctness work, architecture-sensitive changes, migrations, and high-risk fixes.\nUnderstand the relevant code path before changing it, preserve existing patterns, validate thoroughly, and report tradeoffs and residual risks clearly.\nStop and report if the task requires changing user-facing contracts, broad unrelated areas, or ambiguous product decisions.\n\"\"\"\n```\n\n# \n\nGlobal Config\n\nThe shared config sets the agent limits and enables multi-agent work:\n\nmarkdown\n\n```markdown\n[agents]\nmax_threads = 24\nmax_depth = 1\njob_max_runtime_seconds = 3600\n\n[features]\nfast_mode = true\nmulti_agent = true\n```\n\nI kept max\\_depth = 1 intentionally. Recursive delegation can be powerful, but it can also become expensive and hard to reason about. Direct child agents are enough for this setup.\n\n# \n\nThe Mission Card Pattern\n\nThe most important part is the mission card.\n\nInstead of sending the entire conversation to every subagent, the main chat sends a compact task:\n\nmarkdown\n\n```markdown\nMission:\nScope:\nKnow",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057849087236419584/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HI8GLlAXsAMs02x?format=jpg&name=900x900)](http://x.com/i/article/2057849087236419584/ErdalToprak/article/2057871169702027462/media/2057870350713597955)\n\n我是如何为 Codex 设置自定义子代理的\n\n[![](https://pbs.twimg.com/profile_images/1972284709519437824/OE2EgZt5_normal.jpg)](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[Erdal](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n[@ErdalToprak](http://x.com/i/article/2057849087236419584/ErdalToprak)\n\n·\n\n11小时前\n\n关注\n\n点击关注 ErdalToprak\n\n1\n\n7\n\n56\n\n[6.6K](http://x.com/i/article/2057849087236419584/ErdalToprak/status/2057871169702027462/analytics)\n\n这一切始于一个简单的 Codex 配置想法：如果 Codex 可以将任务委托给子代理，那么有用的问题就不仅仅是“Codex 应该做什么？”，而是“Codex 应该委托什么？”\n\n目标是创建一个可复用的本地设置，用于并行工作，而无需将每次调查、编辑和审查都塞满主聊天上下文。\n\n# \n\n核心思路\n\n主 Codex 聊天应充当协调者：\n\n*   理解用户请求\n*   决定哪些任务可以委托\n*   保持关键路径持续推进\n*   整合结果\n*   做出最终决策\n\n子代理应处理有边界限制的辅助任务：\n\n*   快速代码库侦察\n*   更深入的只读分析\n*   小型补丁\n*   复杂的实现工作\n\n然后，技能（Skills）教会主聊天如何用简洁的指令分派这些代理。\n\n# \n\n通用代理\n\n我最终设计了六个通用代理。它们按两个维度组织：\n\n*   努力程度\n*   权限级别\n\n努力程度：\n\nmarkdown\n\n```markdown\nspark = 最快，不那么详尽，适合侦察和小型编辑\nhigh  = 谨慎的默认推理，用于正常的严肃工作\nmax   = 最高推理，用于最困难或风险最高的任务\n```\n\n权限级别：\n\nmarkdown\n\n```markdown\nreader = 只读\nwriter = 工作区可写\n```\n\n这样就形成了以下网格：\n\nmarkdown\n\n```markdown\nspark-reader  -> 快速只读侦察\nspark-writer  -> 小型快速编辑\n\nhigh-reader   -> 谨慎的只读分析\nhigh-writer   -> 正常的复杂实现\n\nmax-reader    -> 最大努力只读分析\nmax-writer    -> 最大努力高风险实现\n```\n\nSpark 代理使用 gpt-5.3-codex-spark，推理强度为 medium。\n\nHigh 代理使用 gpt-5.5，推理强度为 high。\n\nMax 代理使用 gpt-5.5，推理强度为 xhigh。\n\n  \n以下是 max-writer 的配置示例：\n\nmarkdown\n\n```markdown\nname = \"max-writer\"\ndescription = \"最大努力、可写入的代理，用于最困难的变更，此时 xhigh 推理、验证和精度最为重要。\"\nmodel = \"gpt-5.5\"\nmodel_reasoning_effort = \"xhigh\"\nservice_tier = \"fast\"\nsandbox_mode = \"workspace-write\"\n\ndeveloper_instructions = \"\"\"\n以最大推理努力进行谨慎、范围明确的编辑。\n将这种额外努力用于困难的调试、微妙的正确性工作、架构敏感的变更、迁移和高风险修复。\n在修改前理解相关代码路径，保留现有模式，彻底验证，并清晰地报告权衡和残余风险。\n如果任务需要更改面向用户的契约、广泛不相关的领域或模糊的产品决策，则停止并报告。\n\"\"\"\n```\n\n# \n\n全局配置\n\n共享配置设置了代理限制并启用了多代理工作：\n\nmarkdown\n\n```markdown\n[agents]\nmax_threads = 24\nmax_depth = 1\njob_max_runtime_seconds = 3600\n\n[features]\nfast_mode = true\nmulti_agent = true\n```\n\n我特意将 max_depth 设为 1。递归委托可能很强大，但也可能变得昂贵且难以推理。对于这个设置，直接子代理就足够了。\n\n# \n\n任务卡模式\n\n最重要的部分是任务卡。\n\n主聊天不是将整个对话发送给每个子代理，而是发送一个紧凑的任务：\n\nmarkdown\n\n```markdown\nMission:\nScope:\nKnow",
-      "text_excerpt_zh_hash": "6187a727c5ce8a18",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057849087236419584"
-    },
     "http://x.com/i/article/2057852752202792960": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1126,22 +1135,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2057852752202792960"
-    },
-    "http://x.com/i/article/2057869366566457344": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2057869366566457344",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2057869366566457344/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HI8O4KVbAAAE8pl?format=jpg&name=900x900)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/article/2057880306804527566/media/2057879912741273600)\n\nThe Ultimate Guide to running Free Local Coding Agents with Hermes\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n[Shubham Saboo](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n[@Saboo\\_Shubham\\_](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n·\n\n13h\n\nFollow\n\nClick to Follow Saboo\\_Shubham\\_\n\n11\n\n32\n\n203\n\n[12K](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/status/2057880306804527566/analytics)\n\nLocal coding agents finally work for me with Hermes as the orchestrator. Not because the models got better. Because I stopped asking them to be Claude Code.\n\nNow a free local model handles the boring work, and I only spend Claude and Codex tokens on the parts that actually need them.\n\nIf you want to run free local coding agents with Hermes, this is the setup.\n\nHermes Agent routes the work. Kanban tracks the state. SmallCode runs locally on a Mac Mini through Ollama. Claude Code and Codex review the hard parts.\n\nThe local coding agent has one and only one job. Finish the card.\n\n[![Image](https://pbs.twimg.com/media/HI8OdTlaAAEUhlI?format=jpg&name=small)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/article/2057880306804527566/media/2057879451367768065)\n\n## \n\nThe wrong question\n\nThe default question people ask is \"can this local agent replace Claude Code or Codex for me?\"\n\nThat question is the trap. It forces a yes or no answer about a thing that does not have a yes or no answer. A local agent running on a 7B model is not trying to be Claude Code. It cannot be. It does not have the model behind it, the reasoning depth, or the context window.\n\nBut it can do a surprising amount of real work if you stop asking it to act like a senior engineer. The better question is what work can a local agent do reliably if the task is small, the context is tight, and a stronger agent reviews the result?\n\nThat question has a real answer. And the answer is more than you think.\n\n## \n\nOne job per agent\n\nThis is the same principle I run my OpenClaw squad on. Each agent does one thing well, and Hermes Agent now sits above that squad and routes coding work the way Monica routes content work.\n\nA local agent is not a senior engineer. It is a junior dev who is fast, cheap, private, and good at narrow tasks. Once I started treating it that way, everything else fell into place.\n\n## \n\nThe stack\n\nHermes Agent is the orchestrator. It owns the conversation, understands intent, and decomposes work into cards.\n\nis the task bus. Every piece of work lives on a board with status, scope, acceptance criteria, and evidence.\n\n[Hermes Kanban](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban-tutorial)\n\nis the local coding agent. It runs on the Mac Mini against any model you can serve through Ollama, a 7B coder, a 14B, whatever your machine handles. It does scoped patches, test fixes, lint cleanup, docs, and mechanical refactors.\n\n[SmallCode](https://github.com/Doorman11991/smallcode)\n\nClaude Code and Codex handle the hard parts. Architecture decisions, ambiguous bugs, cross-file reasoning, final review.\n\nThe image at the top shows what this looks like in practice. A Telegram prompt comes in. Hermes decomposes it. Easy cards route to SmallCode on the Mac Mini. Hard cards route to Claude Code or Codex. The board tracks everything. Nothing disappears into terminal history.\n\nThe board is what makes it useful. Not the local agent. The board.\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](http://x.com/i/article/20578693665664",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2057869366566457344/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HI8O4KVbAAAE8pl?format=jpg&name=900x900)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/article/2057880306804527566/media/2057879912741273600)\n\n使用 Hermes 运行免费本地编码智能体的终极指南\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n[Shubham Saboo](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n[@Saboo\\_Shubham\\_](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F)\n\n·\n\n13小时前\n\n关注\n\n点击关注 @Saboo\\_Shubham\\_\n\n11\n\n32\n\n203\n\n[12K](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/status/2057880306804527566/analytics)\n\n本地编码智能体终于能为我工作了，以 Hermes 作为编排器。不是因为模型变好了，而是因为我停止要求它们成为 Claude Code。\n\n现在，一个免费的本地模型处理枯燥的工作，我只把 Claude 和 Codex 的 token 花在真正需要它们的部分。\n\n如果你想用 Hermes 运行免费的本地编码智能体，这就是配置方案。\n\nHermes Agent 路由工作。Kanban 跟踪状态。SmallCode 通过 Ollama 在 Mac Mini 上本地运行。Claude Code 和 Codex 审查困难的部分。\n\n本地编码智能体只有一个任务：完成卡片。\n\n[![图片](https://pbs.twimg.com/media/HI8OdTlaAAEUhlI?format=jpg&name=small)](http://x.com/i/article/2057869366566457344/Saboo%5FShubham%5F/article/2057880306804527566/media/2057879451367768065)\n\n## \n\n错误的问题\n\n人们默认会问的问题是：“这个本地智能体能取代 Claude Code 或 Codex 吗？”\n\n这个问题是个陷阱。它迫使你对一个没有非此即彼答案的事情做出是或否的回答。运行在 7B 模型上的本地智能体并不试图成为 Claude Code。它也不可能成为。它没有背后的模型、推理深度或上下文窗口。\n\n但如果你不再要求它表现得像一位资深工程师，它能完成数量惊人的实际工作。更好的问题是：如果任务很小、上下文很紧凑，并且有一个更强的智能体审查结果，那么本地智能体可以可靠地完成哪些工作？\n\n这个问题有一个真实的答案。而且答案比你想象的要多。\n\n## \n\n每个智能体一个任务\n\n这与我在 OpenClaw 团队中运行的原则相同。每个智能体做好一件事，而 Hermes Agent 现在位于该团队之上，像 Monica 路由内容工作一样路由编码工作。\n\n本地智能体不是资深工程师。它是一个初级开发者——快速、廉价、私密，且擅长狭窄的任务。一旦我开始这样对待它，其他一切就都各就各位了。\n\n## \n\n技术栈\n\nHermes Agent 是编排器。它掌控对话，理解意图，并将工作分解为卡片。\n\n是任务总线。每项工作都存在于一个看板上，包含状态、范围、验收标准和证据。\n\n[Hermes Kanban](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban-tutorial)\n\n是本地编码智能体。它在 Mac Mini 上运行，针对任何你能通过 Ollama 提供的模型——7B 编码器、14B，只要你的机器能处理。它负责范围明确的补丁、测试修复、lint 清理、文档和机械性重构。\n\n[SmallCode](https://github.com/Doorman11991/smallcode)\n\nClaude Code 和 Codex 处理困难的部分：架构决策、模糊的 bug、跨文件推理、最终审查。\n\n顶部的图片展示了这在实践中的样子。一个 Telegram 提示进来。Hermes 分解它。简单的卡片路由到 Mac Mini 上的 SmallCode。困难的卡片路由到 Claude Code 或 Codex。看板跟踪一切。没有任何东西消失在终端历史中。\n\n看板才是让它有用的东西。不是本地智能体。是看板。\n\n[![](https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_normal.jpg)](http://x.com/i/article/20578693665664",
-      "text_excerpt_zh_hash": "7741dcdc37c14930",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2057869366566457344"
     },
     "http://x.com/i/article/2058082857541902336": {
       "cleaner_v": 2,
@@ -6023,6 +6016,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068024770029932544"
     },
+    "http://x.com/i/article/2068130070678691840": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068130070678691840",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068130070678691840"
+    },
     "http://x.com/i/article/2068379021310914560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6081,6 +6087,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068595790025490432"
     },
+    "http://x.com/i/article/2068702905687773184": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2068702905687773184",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLWLUqqXIAAthnW?format=jpg&name=900x900)](http://x.com/eliakuratli/article/2068727720243089498/media/2068712791012220928)\n\nHow I built a web analytics SaaS completely on Cloudflare\n\n[![](https://pbs.twimg.com/profile_images/1964346588169445376/xGWBsXhC_normal.jpg)](http://x.com/eliakuratli)\n\n[Elia](http://x.com/eliakuratli)\n\n[@eliakuratli](http://x.com/eliakuratli)\n\n·\n\n15h\n\nFollow\n\nClick to Follow eliakuratli\n\n4\n\n8\n\n157\n\n[14K](http://x.com/eliakuratli/status/2068727720243089498/analytics)\n\nI shipped a full web analytics SaaS for my own projects (\n\n[mrkr.app](http://mrkr.app/)\n\n)\n\n* Realtime dashboards\n* session replay\n* funnels\n* revenue tracking\n* usage-based billing\n* team workspaces\n* a public live view.\n\nThe kind of product that normally needs an app server, a database, a cache, a queue, an object store, and a data warehouse.\n\n[![Image](https://pbs.twimg.com/media/HLWINs4WUAAC5D8?format=jpg&name=small)](http://x.com/eliakuratli/article/2068727720243089498/media/2068709372813791232)\n\nIt has none of those as separate machines. The entire backend is Cloudflare.\n\nNo origin server. No Redis. No Kafka. No Postgres. No Snowflake. One Worker and a handful of bindings, running at the edge in every region at once. Here is how the whole thing fits together, and the few ideas that make it actually work.\n\n## \n\nThe map\n\n[![Image](https://pbs.twimg.com/media/HLWFJO2XAAEv0v8?format=jpg&name=small)](http://x.com/eliakuratli/article/2068727720243089498/media/2068705997498023937)\n\nArchitecture\n\nEvery primitive does exactly one job:\n\n* Workers runs the entire app, frontend and API, as one deployable.\n* D1 is the database: pre-aggregated counters plus recent session detail.\n* KV is the cache, the realtime window, and the privacy salt.\n* R2 stores session replays and nightly backups.\n* Analytics Engine is the raw, unbounded event firehose.\n* Cloudflare for SaaS makes the tracker first-party and adblock-proof.\n* Cron Triggers run the nightly housekeeping.\n\nThat is the whole stack. Now the interesting parts.\n\n## \n\nWorkers runs the whole app, not just an API\n\nThe product is a Next.js app, and all of it (marketing pages, the customer dashboard, every API route, the Stripe webhook, the tracker ingest endpoint) compiles into a single Worker using OpenNext. There is no separate Node backend. The same Worker that renders the landing page also ingests pageviews.\n\nTwo Cloudflare-specific things you learn fast. First, the rich per-request edge data, the visitor's country, city, and coordinates, lives on the request's cf object, and the framework wrapper hides it, so you read it from the Worker context instead. Second, cron triggers cannot live inside that bundle, so a second tiny Worker exists whose only job is to wake up on a schedule and call the app's own endpoints. Small price for putting the entire product on the edge.\n\n## \n\nD1: aggregate at write time, not read time\n\nThis is the decision the whole product is built on.\n\nMost analytics tools store one row per pageview and run a GROUP BY over millions of rows every time you load a chart. I run that GROUP BY once, at write time. Every pageview bumps a few daily counters, like \"/pricing on 2026-06-21 plus one,\" and the dashboards read those counters instead of ever scanning raw pageviews. The detailed rows still exist for drill-downs, but no chart ever touches them.\n\n[![Image](https://pbs.twimg.com/media/HLWFTy7WsAECzs-?format=jpg&name=small)](http://x.com/eliakuratli/article/2068727720243089498/media/2068706178981343233)\n\nD1 write concept\n\nSo a dashboard that scans millions of rows in a normal tool reads a few dozen counter rows here. Same numbers on screen, roughly a thousand times less work, on every load. D1 is a small SQLite database at the edge, and this is exactly the shape of workload it loves: tiny indexed reads, not giant scans.\n\nThe one con",
+      "title": "",
+      "url": "http://x.com/i/article/2068702905687773184"
+    },
     "http://x.com/i/article/2068775857917919232": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6093,6 +6112,45 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2068775857917919232"
+    },
+    "http://x.com/i/article/2068776714554191872": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068776714554191872",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068776714554191872"
+    },
+    "http://x.com/i/article/2068806007963123712": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068806007963123712",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068806007963123712"
+    },
+    "http://x.com/i/article/2068877374998073344": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068877374998073344",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068877374998073344"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -8293,32 +8351,6 @@
       "title": "How to Build Your Own Agent Harness",
       "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
     },
-    "https://jm-style.qiaomu.ai/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "同一提示词下的画家风格浏览图库。",
-      "extraction_source": "trafilatura",
-      "final_url": "https://jm-style.qiaomu.ai/",
-      "frameable": null,
-      "image_urls": [
-        "https://jm-style.qiaomu.ai/generated/thumbs/alphonse-mucha.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/claude-monet.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/vincent-van-gogh.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/katsushika-hokusai.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/rembrandt.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/salvador-dali.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/wu-guanzhong.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/qi-baishi.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/utagawa-hiroshige.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/utagawa-kuniyoshi.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/utagawa-kunisada.webp",
-        "https://jm-style.qiaomu.ai/generated/thumbs/paul-gauguin.webp"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Qiaomu Artist Style",
-      "url": "https://jm-style.qiaomu.ai/"
-    },
     "https://jsoncanvas.org/": {
       "content_type": "text/html; charset=utf-8",
       "description": "An open file format for infinite canvas data.Infinite canvas tools are a way to view and organize information spatially, like a digital whiteboard. Infinite ...",
@@ -9198,20 +9230,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2058130814412759040/img/crJ16JjY6a-Bns5P.jpg": {
       "cleaner_v": 2,
@@ -10333,6 +10351,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10360,48 +10406,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
-    },
-    "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg"
-    },
-    "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
-    },
-    "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg"
     },
     "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg": {
       "cleaner_v": 2,
@@ -13413,6 +13417,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
     },
+    "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg"
+    },
+    "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13784,6 +13816,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Colorado town to pay $675,000 to settle lawsuit after a cop shot a family dog",
       "url": "https://reason.com/2026/06/16/a-colorado-town-will-pay-675000-to-settle-a-lawsuit-after-a-police-officer-shot-a-familys-dog/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term="
+    },
+    "https://recent.design/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The best of recent design found on the Internet updated daily.",
+      "final_url": "https://recent.design/",
+      "frameable": null,
+      "image_urls": [
+        "https://recent.design/og.png",
+        "https://cdn.recent.design/items/wetbox-2068671308980772873/0.jpg",
+        "https://cdn.recent.design/entities/88538d94-463f-4663-bdfc-ae0ae37f7384/icon.png",
+        "https://cdn.recent.design/entities/8afe4ca7-f2e2-45d0-ab05-e206c654201f/icon.jpg",
+        "https://cdn.recent.design/items/samstooff-2029181817224360378/0.jpg",
+        "https://cdn.recent.design/entities/5caae09d-ee1a-46e0-aee1-bf5414a03462/icon.jpg",
+        "https://cdn.recent.design/entities/d319c711-46e6-4997-88e8-fa2a7839674c/icon.jpg",
+        "https://cdn.recent.design/entities/8ee61805-9708-425a-aa5f-d14ad61ac04e/icon.jpg",
+        "https://cdn.recent.design/entities/43e62a15-2edc-4860-8187-5a82937fea87/icon.jpg",
+        "https://cdn.recent.design/entities/ff407fa1-cf90-4ebd-8ed3-65a35c215868/icon.jpg",
+        "https://cdn.recent.design/items/bylorenzodesign-2068779989328429555/0.jpg",
+        "https://cdn.recent.design/entities/a93dc3a9-c108-439e-b68c-179307be7020/icon.jpg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Recent — Design Inspiration",
+      "url": "https://recent.design/"
     },
     "https://reducto.ai/careers/0a4976be-4af3-4cba-8996-a7fe6bff696d": {
       "cleaner_v": 2,
@@ -15838,75 +15895,9 @@
       "https://x.com/sairahul1/status/2057740928908161461",
       "http://x.com/i/article/2057718343466201088"
     ],
-    "2057788920327520305": [
-      "https://x.com/vincemask/status/2057788920327520305",
-      "https://x.com/vincemask/status/2057999154270581172",
-      "https://x.com/vincemask/status/2058123453316882777"
-    ],
-    "2057816817708789940": [
-      "https://x.com/aiedge_/status/2057816817708789940",
-      "http://x.com/i/article/2056066259075391490"
-    ],
-    "2057844884443455799": [
-      "https://x.com/9hills/status/2057844884443455799",
-      "https://pbs.twimg.com/media/HI7vA06aMAA4jSD.jpg",
-      "https://x.com/9hills/status/2058006689740361964",
-      "https://x.com/9hills/status/2057995363953545385"
-    ],
-    "2057862000764432822": [
-      "https://x.com/NebulaAI/status/2057862000764432822",
-      "http://x.com/i/article/2056498123640336384",
-      "https://x.com/NebulaAI/status/2057862607415964026",
-      "https://x.com/NebulaAI/status/2058018517564240006",
-      "https://x.com/NebulaAI/status/2058554404244979787",
-      "https://x.com/NebulaAI/status/2057878398651781228",
-      "https://x.com/NebulaAI/status/2057863387124523022"
-    ],
-    "2057868339746398361": [
-      "https://x.com/DamiDefi/status/2057868339746398361",
-      "https://pbs.twimg.com/amplify_video_thumb/2057783003946815488/img/zQYLwK84Y3aYnhaD.jpg",
-      "https://x.com/DamiDefi/status/2058090222559035761",
-      "https://x.com/DamiDefi/status/2058090504575738032",
-      "https://x.com/DamiDefi/status/2058086368086048976",
-      "https://x.com/DamiDefi/status/2058090581172068546",
-      "https://x.com/DamiDefi/status/2058086081573142996"
-    ],
-    "2057871169702027462": [
-      "https://x.com/ErdalToprak/status/2057871169702027462",
-      "http://x.com/i/article/2057849087236419584"
-    ],
-    "2057880306804527566": [
-      "https://x.com/Saboo_Shubham_/status/2057880306804527566",
-      "http://x.com/i/article/2057869366566457344",
-      "https://x.com/Saboo_Shubham_/status/2057892999863185576",
-      "https://x.com/Saboo_Shubham_/status/2057902016438112664",
-      "https://x.com/Saboo_Shubham_/status/2058064618787151914",
-      "https://x.com/Saboo_Shubham_/status/2057900693638496759",
-      "https://x.com/Saboo_Shubham_/status/2057880633062707249",
-      "https://x.com/Saboo_Shubham_/status/2057880653698658490",
-      "https://x.com/Saboo_Shubham_/status/2057902072335642643"
-    ],
-    "2057882419257311652": [
-      "https://x.com/reach_vb/status/2057882419257311652",
-      "https://x.com/reach_vb/status/2057885841830105387",
-      "https://x.com/reach_vb/status/2057893897146138651"
-    ],
     "2057902327097327928": [
       "https://x.com/0thernet/status/2057902327097327928",
       "http://x.com/i/article/2057844255192678400"
-    ],
-    "2057902927683916071": [
-      "https://x.com/yucheng/status/2057902927683916071",
-      "https://x.com/yucheng/status/2058371213601214867"
-    ],
-    "2057943104385339835": [
-      "https://x.com/JakeHulberg/status/2057943104385339835"
-    ],
-    "2058021035715531218": [
-      "https://x.com/vista8/status/2058021035715531218",
-      "https://jm-style.qiaomu.ai/",
-      "https://pbs.twimg.com/media/HI-OFOPboAA7wLc.jpg",
-      "https://pbs.twimg.com/media/HI-PA0SbEAAU5T4.jpg"
     ],
     "2058040699300241828": [
       "https://x.com/cyrilXBT/status/2058040699300241828",
@@ -20519,13 +20510,13 @@
       "https://x.com/MatthewBerman/status/2067682871020765532",
       "http://here.now",
       "https://x.com/MatthewBerman/status/2067697075094225051",
-      "https://x.com/MatthewBerman/status/2067689690703241391",
       "https://x.com/MatthewBerman/status/2067689788346703966",
-      "https://x.com/MatthewBerman/status/2067697165418586571",
-      "https://x.com/MatthewBerman/status/2067696923470164115",
+      "https://x.com/MatthewBerman/status/2067689690703241391",
+      "https://x.com/MatthewBerman/status/2067697001865883810",
       "https://x.com/MatthewBerman/status/2067689733875187792",
       "https://x.com/MatthewBerman/status/2067689838627922355",
-      "https://x.com/MatthewBerman/status/2067697001865883810"
+      "https://x.com/MatthewBerman/status/2067696923470164115",
+      "https://x.com/MatthewBerman/status/2067697165418586571"
     ],
     "2067690067288572209": [
       "https://x.com/hugobarauna/status/2067690067288572209",
@@ -20568,10 +20559,10 @@
     "2068328135611822149": [
       "https://x.com/AnatoliKopadze/status/2068328135611822149",
       "http://x.com/i/article/2068024770029932544",
-      "https://x.com/AnatoliKopadze/status/2068334685269184738",
       "https://x.com/AnatoliKopadze/status/2068334655124672836",
-      "https://x.com/AnatoliKopadze/status/2068341479748059354",
-      "https://x.com/AnatoliKopadze/status/2068380706712011073"
+      "https://x.com/AnatoliKopadze/status/2068334685269184738",
+      "https://x.com/AnatoliKopadze/status/2068380706712011073",
+      "https://x.com/AnatoliKopadze/status/2068341479748059354"
     ],
     "2068382815994212664": [
       "https://x.com/prthmo/status/2068382815994212664",
@@ -20606,7 +20597,9 @@
     ],
     "2068678395672859105": [
       "https://x.com/LifeOfShandi/status/2068678395672859105",
-      "https://x.com/LifeOfShandi/status/2068737950419128346"
+      "https://x.com/LifeOfShandi/status/2068737950419128346",
+      "https://x.com/LifeOfShandi/status/2068938750504354290",
+      "https://x.com/LifeOfShandi/status/2068938649778217401"
     ],
     "2068710057630371863": [
       "https://x.com/nathanbenaich/status/2068710057630371863",
@@ -20620,15 +20613,72 @@
       "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
       "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
     ],
+    "2068727720243089498": [
+      "https://x.com/eliakuratli/status/2068727720243089498",
+      "http://x.com/i/article/2068702905687773184",
+      "https://x.com/eliakuratli/status/2068938873216860242"
+    ],
+    "2068730090457006588": [
+      "https://x.com/Saboo_Shubham_/status/2068730090457006588",
+      "http://x.com/i/article/2068130070678691840",
+      "https://x.com/Saboo_Shubham_/status/2068734280742949356",
+      "https://x.com/Saboo_Shubham_/status/2068739592183066864",
+      "https://x.com/Saboo_Shubham_/status/2068730712581357987",
+      "https://x.com/Saboo_Shubham_/status/2068730771259666592"
+    ],
+    "2068734749083091319": [
+      "https://x.com/ishanmkh/status/2068734749083091319"
+    ],
     "2068747055955132841": [
       "https://x.com/TheEconomist/status/2068747055955132841",
       "https://www.economist.com/china/2026/06/21/can-china-pop-americas-ai-bubble?taid=6a381e74fbb36b00014b25f9&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
+    "2068778941553512828": [
+      "https://x.com/TheValueist/status/2068778941553512828",
+      "http://x.com/i/article/2068776714554191872",
+      "https://x.com/TheValueist/status/2068892262348607639",
+      "https://pbs.twimg.com/amplify_video_thumb/2068891577955606528/img/1L2vdgnfnN45SMTj.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2068891594778918912/img/ftOYbxyaWDQIjdqo.jpg"
+    ],
     "2068780696118980747": [
       "https://x.com/khemaridh/status/2068780696118980747",
       "http://x.com/i/article/2068775857917919232"
+    ],
+    "2068808668393451770": [
+      "https://x.com/IntuitMachine/status/2068808668393451770",
+      "http://x.com/i/article/2068806007963123712"
+    ],
+    "2068812476192624940": [
+      "https://x.com/georgecurtiss/status/2068812476192624940",
+      "https://x.com/georgecurtiss/status/2068831584560845211",
+      "https://x.com/georgecurtiss/status/2068932339087114362"
+    ],
+    "2068841029524979777": [
+      "https://x.com/ctatedev/status/2068841029524979777",
+      "http://agent-browser.dev",
+      "http://portless.sh",
+      "http://emulate.dev",
+      "http://ai-cli.dev"
+    ],
+    "2068846937990984172": [
+      "https://x.com/dingyi/status/2068846937990984172",
+      "https://recent.design/",
+      "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg",
+      "https://x.com/dingyi/status/2068873740688269406"
+    ],
+    "2068881644191465901": [
+      "https://x.com/apartovi/status/2068881644191465901",
+      "http://x.com/i/article/2068877374998073344"
+    ],
+    "2068910841228095573": [
+      "https://x.com/bkingfilm/status/2068910841228095573",
+      "https://x.com/bkingfilm/status/2068917455901372418",
+      "https://x.com/bkingfilm/status/2068915162099372115",
+      "https://x.com/bkingfilm/status/2068921137854316612",
+      "https://x.com/bkingfilm/status/2068937648786612232",
+      "https://pbs.twimg.com/media/HLZX0tcboAAIQ0Q.jpg"
     ]
   },
-  "updated_at": "2026-06-22T01:40:50Z",
+  "updated_at": "2026-06-22T07:41:25Z",
   "window": "recent"
 }
