@@ -754,6 +754,21 @@
       "title": "O corres o te encaramas | Podcast sobre IA y Desarrollo de Software",
       "url": "http://ocorres.com"
     },
+    "http://opensigil.org": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Monitor, audit, and govern AI agents locally. See every tool call, set policies, and maintain a complete audit trail for Claude Code, Codex CLI, and any MCP-based agent.",
+      "final_url": "https://opensigil.org/",
+      "frameable": null,
+      "image_urls": [
+        "https://opensigil.org/og-image.png",
+        "https://opensigil.org/logo.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "OpenSigil — The Oversight Layer for AI Agents",
+      "url": "http://opensigil.org"
+    },
     "http://palmier.io": {
       "content_type": "text/html; charset=utf-8",
       "description": "Generate, edit, and export production-ready AI videos without leaving your timeline. The first video editor with AI generation built natively into the timeline.",
@@ -6315,6 +6330,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068877374998073344"
     },
+    "http://x.com/i/article/2068892014066708481": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2068892014066708481",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLYufZTWYAAqqDO?format=jpg&name=900x900)](http://x.com/opensigildotorg/article/2068892281650696664/media/2068892195726188544)\n\nIntroducing OpenSigil: The Oversight Layer for AI Agents\n\n[![](https://pbs.twimg.com/profile_images/2068889485723553792/750aGNko_normal.jpg)](http://x.com/opensigildotorg)\n\n[OpenSigil](http://x.com/opensigildotorg)\n\n[@opensigildotorg](http://x.com/opensigildotorg)\n\n·\n\n15h\n\nFollow\n\nClick to Follow opensigildotorg\n\n1\n\n2\n\n5\n\n[557](http://x.com/opensigildotorg/status/2068892281650696664/analytics)\n\nAI agents are no longer a future thing. They're running on your machine right now — reading your files, executing commands, calling APIs, writing code.\n\nAnd most of the time, you have no idea what they're actually doing.\n\nThat's the problem we built OpenSigil to solve.\n\n## \n\nThe trust gap in AI development\n\nWhen you run Claude Code, Codex CLI, or any MCP-based agent, you're handing a lot of power to a system you can't fully predict. These agents are capable, fast, and genuinely useful — but they operate like black boxes. You see the output. You rarely see the process.\n\nWhat files did it read? What commands did it try to run? What API calls did it make — and to which endpoints? Did it attempt anything you wouldn't have approved?\n\nMost developers don't know the answers to these questions. And that's a problem that compounds as agents become more capable.\n\n## \n\nWhat OpenSigil does\n\nOpenSigil is a local daemon that runs alongside your AI agents and gives you complete visibility and control over everything they do.\n\nIt's not a wrapper. It's not an SDK you integrate. It's a process-level monitor that works with any agent that runs on your machine — out of the box, no configuration required.\n\nLive monitoring. See every tool call, file read/write, shell command, and API request your agents make — in real time, as they happen.\n\nPolicy enforcement. Write rules your agents cannot break. Block dangerous commands. Restrict file paths. Allowlist domains. The moment an agent violates a policy, the action is blocked and logged.\n\nAudit trail. Every agent action is written to a tamper-evident JSONL log file. You can replay any session, investigate any incident, and prove exactly what your agent did — and what it attempted.\n\nTerminal UIs. Simple, composable CLI commands: opensigil status, opensigil watch, opensigil logs. Designed to feel native alongside your existing tools.\n\n## \n\nHow it works\n\nOpenSigil runs as a background daemon using process-level monitoring. It polls your running processes, identifies known agent signatures (Claude Code, Codex CLI, OpenClaw, and any MCP-based agent), and intercepts their actions against your policy ruleset.\n\nnpm i -g opensigil opensigil init opensigil start\n\nThat's it. From that point, every agent on your machine is being watched.\n\nThe policy config lives in your project:\n\n{ \"rules\": \\[ { \"deny\": \"exec:rm -rf\" }, { \"deny\": \"http:\\*.unknown-host.io\" }, { \"allow\": \"read:src/\\*\\*\" } \\] }\n\nViolations are blocked instantly. Everything — allowed and blocked — is written to the audit trail.\n\n## \n\nWhy local-first\n\nWe made a deliberate choice: OpenSigil runs entirely on your machine. No cloud backend. No telemetry. No accounts. Your audit trail stays yours.\n\nWe think this is the right model for governance tooling. If the tool that's supposed to build trust in your agents requires you to trust a third-party cloud service — that's circular. Local-first is the only honest answer.\n\n## \n\nWhy open source\n\nYou shouldn't have to trust us either.\n\nOpenSigil is MIT licensed. The code is public. The audit logic is auditable. If you want to verify exactly how policies are enforced and how the audit trail is generated, you can read every line.\n\nOpen source isn't just a distribution model here — it's part of the trust architecture.\n\n## \n\nWhat's next\n\nThis is v0.",
+      "title": "",
+      "url": "http://x.com/i/article/2068892014066708481"
+    },
     "http://x.com/i/article/2069008066105008129": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6644,23 +6672,6 @@
       "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
       "url": "https://arxiv.org/abs/2605.29307v1"
     },
-    "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/": {
-      "cleaner_v": 2,
-      "content_type": "text/html;charset=UTF-8",
-      "description": "Organizations storing sensitive data must maintain complete visibility into how it’s accessed, by whom, and what changes occur over time. Regulatory frameworks demand detailed audit trails, security teams need rapid answers during investigations, and finance teams require granular cost attribution. Yet as data grows from terabytes to petabytes, the scale that makes centralized storage attractive […]",
-      "extraction_source": "trafilatura",
-      "final_url": "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/",
-      "frameable": false,
-      "image_urls": [
-        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2026/05/14/part_1_s3_logging_decision_tree.drawio-824x630.png",
-        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2026/05/25/part_1_s3_logging_decision_tree.drawio-1.png",
-        "https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2025/10/13/shabhisw.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "[AWS Storage Blog](https://aws.amazon.com/blogs/storage/)\n     Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights\nOrganizations storing sensitive data must maintain complete visibility into how it’s accessed, by whom, and what changes occur over time. Regulatory frameworks demand detailed audit trails, security teams need rapid answers during investigations, and finance teams require granular cost attribution. Yet as data grows from terabytes to petabytes, the scale that makes centralized storage attractive also makes it challenging to analyze. Log volumes reach billions of records, queries that once took seconds now consume hours, and audit data storage costs demand optimization. Many organizations find themselves trapped in a paradox, where they’ve collected all their access data in one place but can no longer efficiently extract meaningful insights from it.\n[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) addresses these challenges through three audit logging mechanisms, each designed for a distinct analytical perspective and capable of delivering value independently. [Server access logs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerLogs.html) capture HTTP-level request details for performance and cost analysis. [Amazon S3 data events in AWS CloudTrail](https://docs.aws.amazon.com/AmazonS3/latest/userguide/cloudtrail-logging-s3-info.html) provide comprehensive user identity context for security and compliance investigations. [S3 Metadata journal tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html) track object state changes throughout their lifecycle for storage optimization and governance. Depending on the use case, you can use one or more of these mechanisms to answer key audit questions: how data was accessed, who accessed it, and what changes at object metadata level happened over time.\nThis is Part 1 of a three-part series where we dive into each of these audit logging mechanisms. In this post, we demonstrate how to implement server access logging with partition projection in [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/what-is.html), giving you fast, cost-effective querying across centralized log repositories. You will learn how to enable and configure centralized access logging for multiple buckets in the account, create optimized Athena tables that reduce query costs by up to 90% through intelligent partitioning, and run common analysis patterns for performance troubleshooting, cost attribution, error investigation, and traffic analysis—turning your raw access logs into an operational advantage rather than a storage burden.\nWhich part should you read?\nThe following decision tree will help you determine which option is most relevant for your situation.\nMany organizations use multiple mechanisms together for complete visibility. Server access logs tell you how something was accessed, [AWS CloudTrail](http://aws.amazon.com/cloudtrail) tells you who did it, and S3 Metadata journal tables tell you what changes at object metadata level happened over time. Read all three parts to build a comprehensive audit strategy.\nWhat server access logs capture\nServer access logs act as your HTTP request auditor, recording detailed information about every request made to your bucket.\nWhat is captured:\n- HTTP request details – Method, response code, error codes\n- Performance metrics – Response times, turnaround times, bytes transferred\n- Network context – Source IP, referrer, user agent\n- TLS/Security details – TLS version, cipher suite\nWhat is not captured:\n- User identity – The requester field contains the [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)Amazon Resource Name (ARN) for authenticated requests, but doesn’t have full session context such as multi-factor authentication (MFA) status, role assumption chains, and federation details (use CloudTrail data event",
-      "title": "Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights | AWS Storage Blog",
-      "url": "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
-    },
     "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg": {
       "cleaner_v": 2,
       "content_type": "text/html;charset=UTF-8",
@@ -6725,6 +6736,31 @@
       "text_excerpt_zh": "",
       "title": "pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma pdf.to.design — by ‹div›RIOTS — Import any PDF to Figma | Figma",
       "url": "https://bit.ly/side-div5"
+    },
+    "https://bit.ly/side-hey1": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "final_url": "https://heymarvin.com/ebooks/state-of-modern-research-2026?utm_source=sidebar&utm_medium=email&utm_campaign=sidebar_june22_2026",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.prod.website-files.com/69413b330f3775fbe435849d/6a1fd802d5b6c7f6ec1177db_Thumbnail_The%20Modern%20Research%20Report%202026_Closing%20the%20listening%20gap.png",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/695ccd2266772c74da4d0468_be1551cb469b1758623637-Live-demo-popup-1.webp",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/695e3e7d3aa2d8f37523c2cf_download%20(2).svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/69413b330f3775fbe4358643_Brand%20White%20Logo.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/69413b330f3775fbe4358644_Brand%20Color%20Logo.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/69fb5d4da79c5e8d42cac5d7_Product_Featured%20banner.png",
+        "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe435849d/694c0ca5f6224e331ba66607_ux-research-sprints-1-scaled.webp",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/6a0419978c0ec0eb3851d7dd_Platform%20Overview-1.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/69fc4c2bdf91aaa9629f47ab_Platform%20OverviewC.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/69df5c3c8a845b77bd212df6_ChevronButtonrR.svg",
+        "https://cdn.prod.website-files.com/69413b330f3775fbe4358495/6a04199708bda7ce4c207509_Knowledge%20hub.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Want to see Marvin in action? Schedule a call and learn how to organize, analyze, and act on customer knowledge today. Request A Demo By submitting your information, you agree to HeyMarvin’s Privacy Policy . You can opt out anytime. Watch a quick demo video Discover how Marvin can streamline your user research workflow. Watch the demo video to see real results in action. Demo video By submitting your information, you agree to HeyMarvin’s Privacy Policy . You can opt out anytime. We use cookies to make your experience better We use cookies to improve your experience, measure site usage, and deliver relevant content. Some cookies involve trusted analytics and advertising partners. You’re always in control and can change your preferences anytime. See details in our Privacy Policy . Preferences Reject non-essential cookies Accept and Continue Manage Consent Preferences by Category Essentials Always active Necessary for the site to function. Always On. Marketing Used for targeted advertising. Personalization Remembers your preferences and provides enhanced features. Analytics Measures usage and improves your experience. Reject All Accept All Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. The State of Modern Research in 2026 New report available Product PLATFORM PRODUCTS FEATURED Watch a 3-minute demo See the Marvin platform in action The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint Platform Overview Explore the Marvin platform Knowledge Hub Central knowledge repository Research Methods AI-assisted data collection AI Moderated Interviews Live Interviews Integrations Connect your tech stack Marvin Ask AI Get cited answers, fast Product Updates See the latest releases Analysis Studio Mixed methods analysis Reporting & Insights Distribute your findings Solutions Teams FEATURED How Included Health built research influence through participation The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint UX Research Scale research impact Product Marketing Sharpen your messaging Designers Create with confidence Consumer Insights Track consumer trends Product Management Inform your roadmap Market Research Get quality insights, faster Resources LEARN SUPPORT FEATURED The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint Marvin Library The best of our research Guides & Reports Dive deep into our resources Help Center Contact Us Blogs Read the latest articles Events & Webinars Join industry experts live Customers Pricing Login Get demo Sign up Product PLATFORM Platform Overview See how it works Integrations See how it works Product Updates See how it works PRODUCTS Knowledge Hub See how it works Marvin Ask AI See how it works Reporting & Insights See how it works Analysis Studio See how it works Research Methods Qualitative data collection AI Moderated Interviews Live Interviews FEATURED Watch a 3-mintue demo See the Marvin platform in action The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint Solutions Teams UX Research See how it works Design See how it works Product Management See how it works Product Marketing See how it works Consumer Insights See how it works Market Research See how it works FEATURED How Included Health built research influence through participation The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint Resources LEARN Marvin Library See how it works Guides & Reports See how it works Blogs See how it works Events & Webinars See how it works Support Help Center See how it works Contact Us See how it works FEATURED The State of Modern Research 2026: Closing the Listening Gap 3 UX Researcher-Backed Tips for a Successful Sprint Customers Pricing Login Get demo Sign up Get demo The St",
+      "title": "The State of Modern Research 2026: Closing the Listening Gap",
+      "url": "https://bit.ly/side-hey1"
     },
     "https://blog.bytebytego.com/p/how-openai-built-its-data-agent": {
       "cleaner_v": 2,
@@ -10665,6 +10701,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2068891093450502144/img/DcvkgUeKx23bh85E.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2068891093450502144/img/DcvkgUeKx23bh85E.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2068891093450502144/img/DcvkgUeKx23bh85E.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2068891093450502144/img/DcvkgUeKx23bh85E.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13773,6 +13823,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
     },
+    "https://pbs.twimg.com/media/HLX9isgWkAARBQk.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLX9isgWkAARBQk.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLX9isgWkAARBQk.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLX9isgWkAARBQk.jpg"
+    },
     "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13828,6 +13892,62 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
+    },
+    "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg"
+    },
+    "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
+    },
+    "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png"
+    },
+    "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14365,25 +14485,6 @@
       "title": "Silicon Valley’s status as “most desirable employer” - Rest of World",
       "url": "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter"
     },
-    "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Former Hugging Face APAC lead Tiezhen Wang explains how Chinese labs use open-source models to outpace the U.S. in workplace adoption and beat Western “tokenmaxxing” costs.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
-      "frameable": false,
-      "image_urls": [
-        "https://restofworld.org/wp-content/uploads/2026/06/HuggingFace-QA-HED-1600x900.jpg",
-        "https://fastly.restofworld.org/uploads/2026/06/HuggingFace-QA-HED-scaled.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/06/China-AI-Uni-2.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9"
-      ],
-      "kind": "article",
-      "text_excerpt": "As the U.S. and China battle for artificial intelligence supremacy, a fundamental divide in engineering philosophy could determine the winner.\nWhile American pioneers like OpenAI and Anthropic favor a closed-source approach — keeping their proprietary model code locked behind a commercial interface — Chinese AI labs are aggressively releasing open-source models. This strategy allows developers to download, inspect, and deeply customize the underlying code for free, rather than remaining dependent on an American tech giant’s ecosystem.\nTiezhen Wang, former head of the Asia-Pacific ecosystem at AI community collaboration platform Hugging Face, has observed this trend over the years. Before he moved on from Hugging Face in May, he assisted AI labs in the region in launching open-source models, and helped researchers make their models easier for developers to use.\nAt a Rest of World virtual event, Wang spoke about the history of open-source models, how Chinese AI labs monetize despite not charging for their models, and the debate over model distillation and intellectual property.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World event is available [here](https://www.youtube.com/watch?v=gSsR1ezeenk).\nWhat is the role of open-source models in the China-U.S. AI competition?\nA lot of people talk about the AI competition. But in the open-source world, we hold a collaborative mindset.\nMany open-source releases from the Chinese labs are helping U.S. labs. For example, the reinforcement learning training algorithm from DeepSeek is becoming the default setting for many U.S. research labs. Many Chinese open-source weights are running on U.S. hardware.\nIt is like helping each other, not competing like a zero-sum game. We can both be winners if we are growing the pie together.\nOpenAI and Anthropic have [accused Chinese AI companies](https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china/) of distilling their models. How do you view this as an open-source advocate? Is this a challenge for Chinese AI labs?\nDistillation is a neutral word in the research world. It’s like I’ve read a book, and I’m telling someone what the book is about. The other person also understands what the book is saying. That’s basically distillation.\nIt has been done a lot in research labs. I don’t think distillation by itself is anything wrong, and I believe people in the U.S. are distilling each other as well. Recently, we have seen Elon Musk admit that xAI [distilled from OpenAI](https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/).\nIt is well known that Anthropic and ChatGPT are [crawling the internet](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/), getting all kinds of information. So it’s interesting to see that those who did not generate knowledge are trying to stop others from reusing that knowledge.\nAll AI-generated content should have zero copyright, otherwise people who have compute can abuse and generate all kinds of combinations and copyright everything.\nHow does monetization differ for open-source and closed-source models?\nIf you open-source your model, it’s hard to make money directly. But you can still make money.\nFor example, China’s [Kimi released their model for free](https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues), but their application programming interface and subscription are still in huge demand because they have the best infrastructure support.\nOnce a model is released as open-source, people have to spend engineering hours to run it. So, on day zero, the research lab that launched the model has an advantage. That’s one way they can make money.\nAnother way is, for example, Kimi could release a fine-tuned model as open-source, but keep the base models to themselves, which they can sell.\nIf we want to think about why a research lab would open-source its models, i",
-      "title": "OpenAI or Deepseek? Role of China’s open-source in the AI race - Rest of World",
-      "url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social"
-    },
     "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -14405,6 +14506,25 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "OpenAI or Deepseek? Role of China’s open-source in the AI race - Rest of World",
       "url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881"
+    },
+    "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Chinese open AI models like DeepSeek, Xiaomi MiMo, and Minimax are on the rise in the U.S., but geopolitical risk and low revenue make it hard for AI providers to profit",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/06/illo_chinaAI_USusage_final-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_chinaAI_USusage_final.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_spotify_global_final.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "Stu Clott, an operations manager and part-time developer in San Diego, used to code with Claude. But he recently found a cheaper alternative: DeepSeek.\nWhile an hourlong coding session would cost about $10 on Claude, the same work cost less than 50 cents on DeepSeek, Clott said. Over the past few weeks, he has used the Chinese model for everything from coding to personal counseling and building software to manage his family’s bank accounts.\n“I laugh every time I go see [the costs],” Clott told Rest of World. “The output quality, to be honest, I can’t tell the difference.”\nU.S.-based developers and small companies are turning to Chinese models to cut costs. Although Chinese models still lag behind the best American ones in performance, they can handle most tasks at a fraction of the price. Microsoft is also exploring[ using DeepSeek](https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork), or another open-source model, as a lower-cost alternative for Copilot Cowork, which is currently powered by Anthropic and OpenAI systems. But under political scrutiny, Chinese companies still face the challenge of turning that popularity into significant revenue. \nChinese companies have kept prices low thanks to lower salaries and infrastructure expenses at home. Many have also released open models and offered subsidized plans to attract early adopters. Models from DeepSeek, [Xiaomi](https://restofworld.org/tag/xiaomi)[Xiaomi](https://restofworld.org/tag/xiaomi)Xiaomi is a Chinese consumer electronics company that leads the country in smartphone manufacturing and sales.[READ MORE](https://restofworld.org/tag/xiaomi) MiMo, and Minimax are now among the most cost-efficient available, according to an Artificial Analysis [index](https://artificialanalysis.ai/?cost=intelligence-vs-cost#cost) that measures models’ performance against cost.\nThe affordability is especially attractive to independent developers and startups. Lindy, a San Francisco-based company that builds AI work assistants, recently made a switch from Anthropic models to DeepSeek, according to its founder Flo Crivello, who [announced](https://x.com/Altimor/status/2062389885437366342?s=20) the move on X in June. Crivello said the switch saved the firm millions of dollars. “You don’t need God to write your email,” he [said](https://x.com/MTSlive/status/2062691873568043208?s=20) on tech news show MTS. “If you can get those lower tiers of intelligence for a tenth of the price, it would be foolish not to do it.” \nRuben Garcia Jr., a Dallas-based developer who builds websites and mobile apps for businesses, told Rest of World he uses both U.S. and Chinese models to run the AI agents that fulfill client requests automatically.\nHe pays $500 a month for Claude and ChatGPT for the most complex planning and reviewing tasks, and another $200 a month for Minimax, Moonshot’s Kimi, and Xiaomi MiMo — models that handle 90% of the tasks, such as coding and voice recognition.\nOn OpenRouter, a platform that helps developers direct tasks to different AI models, those from DeepSeek, Tencent, Minimax, and Xiaomi are now the four [most popular](https://openrouter.ai/rankings). Vercel, another AI service provider, said DeepSeek’s share of token usage jumped from under 1% to 17% in May, although its share of revenue stayed near 1%. Tokens are the units of text or data that AI models process.\n“[AI] adoption at large companies is fairly saturated,” Kyle Chan, a fellow at the Brookings Institution, told Rest of World. “The growth market for Chinese companies would be medium-sized businesses that are starting to get into AI but are wary of the costs.”\nIn the U.S. market, however, Chinese model developers still face an uphill battle turning their popularity into revenue.\nCompanies that use Chinese models have come under political scrutiny. Lawmakers [launched investigations](https://chinaselectcommittee.house.gov/media/press-releases/chairmen-moolenaar-garbarino-announce-joint-investigation",
+      "title": "Low-cost Chinese AI models like DeepSeek gain traction in the U.S. - Rest of World",
+      "url": "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480"
     },
     "https://s.hbr.org/3PZZpSc": {
       "cleaner_v": 2,
@@ -14893,6 +15013,31 @@
       "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
       "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
     },
+    "https://usebilly.app/en": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "A tool crafted with love for all the freelancers and small businesses that want their bureaucracy to be a little more organized and beautiful.",
+      "final_url": "https://usebilly.app/en",
+      "frameable": null,
+      "image_urls": [
+        "https://usebilly.app/assets/img/og-image.png",
+        "https://usebilly.app/media/site/01328aa5ff-1774695355/billy.webp",
+        "https://usebilly.app/assets/img/sticker-1.svg",
+        "https://usebilly.app/assets/img/sticker-7.svg",
+        "https://usebilly.app/assets/img/sticker-4.svg",
+        "https://usebilly.app/assets/img/sticker-6.svg",
+        "https://usebilly.app/media/site/34afbd8d8b-1774695355/app-icon.png",
+        "https://usebilly.app/media/site/e226dcdaba-1774695355/app-icon-e-invoice.webp",
+        "https://usebilly.app/media/site/fc6671b6cc-1774695355/app-icon-data-autonomy.webp",
+        "https://usebilly.app/media/site/0c213a324a-1774695355/app-icon-customization.webp",
+        "https://usebilly.app/media/site/6324e7c4ab-1774695356/invoice-status.png",
+        "https://usebilly.app/media/site/992daebc4b-1776438662/profile-switcher.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Get Billy Manifesto Features Roadmap Support DE Get Billy DE Home Get Buy Download Updates Beta App Features Roadmap Plugins New Support About Manifesto Press Kit Invoice Manager Electronic Invoices Data Autonomy Customize A tool crafted with love for all the freelancers and small businesses that want their bureaucracy to be a little more organized and beautiful. A tool fully compliant with the EU standard EN 16931 and the German standard XRechnung —tested through the official validator . Supporting the motto “ file over app ,” this app saves all data in the non-proprietary format JSON, which lets you truly own your data and store it as you please. A tool built to match your brand’s identity—customizable your invoices through tweaking colors, fonts, and layout to make it fit your style. Overview E-Invoices Data Autonomy Customization Status tracking Clear status indicators provide clarity and control. Multiple profiles For multiple activities, you can create separate profiles with their own invoice number sequences. Well-structured, professional invoices Invoices should be well-structured, easy to read, easy to understand, and visually appealing. Individual styling Style invoices to give them their own visual identity without compromising aspects such as readability. Valid e-invoice As required in Germany starting no later than 2028, exports are compliant e‍-‍invoices. Local and open Storing invoices in your Mac’s file system allows for high flexibility and individual workflows. Subscribe to my newsletter to receive app updates and insights. Subscribe Get Buy Download Updates Beta App Features Roadmap Plugins New Support About Manifesto Press Kit Legal Notice Privacy Policy Terms of Use Legal Notice Privacy Policy Terms of Use Copyright © 2026 Simon Lou. All rights reserved.",
+      "title": "Billy · Invoice Manager",
+      "url": "https://usebilly.app/en"
+    },
     "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e": {
       "cleaner_v": 2,
       "content_type": "",
@@ -15097,31 +15242,6 @@
       "title": "How LLMs Actually Work | 0xkato",
       "url": "https://www.0xkato.xyz/how-llms-actually-work/"
     },
-    "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "【イスタンブール共同】イラン国営テレビは20日、事実上の封鎖が続くホルムズ海峡を、イラン革 ...",
-      "final_url": "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api",
-      "frameable": null,
-      "image_urls": [
-        "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-        "https://tagger.opecloud.com/mediaconsortium/v2/noscript-image.gif",
-        "https://www.47news.jp/lib/common/img/header_logo.svg",
-        "https://www.47news.jp/lib/common/img/icon_facebook.svg",
-        "https://www.47news.jp/lib/common/img/icon_lang.svg",
-        "https://www.47news.jp/lib/common/img/icon_search.svg",
-        "https://img.cf.47news.jp/public/article_source/b4dfa64626eabc2256e3a28dbd8d7825/logo.png",
-        "https://img.cf.47news.jp/static/corporate-banner/kyodo.png",
-        "https://img.cf.47news.jp/public/photo/835db51d49343456a564e445554793fa/photo.jpg",
-        "https://img.cf.47news.jp/static/special/env_fukushima/300x250.jpg",
-        "https://img.cf.47news.jp/static/special/nayami_sodan/300x250.jpg",
-        "https://img.cf.47news.jp/public/photo/a05fc804bbd801326e0be77bef2bbf0f/photo.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "52新聞社と共同通信のよんななニュース 今日は何の日？ 2026年5月23日（土） English 簡体中文 繁體中文 今日は何の日？ 2026年5月23日（土） トップ 速報 都道府県 都道府県のニュース 新聞社のニュースすべて 北海道 青森 秋田 岩手 山形 宮城 福島 群馬 栃木 茨城 埼玉 千葉 東京 神奈川 新潟 富山 石川 福井 長野 岐阜 山梨 愛知 静岡 京都 滋賀 大阪 奈良 三重 和歌山 兵庫 鳥取 岡山 島根 広島 山口 香川 愛媛 徳島 高知 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 北海道・東北 北海道 青森 秋田 岩手 山形 宮城 福島 関東 茨城 栃木 群馬 埼玉 千葉 東京 神奈川 北陸・甲信越 山梨 新潟 富山 石川 福井 長野 東海 静岡 岐阜 愛知 三重 近畿 京都 滋賀 大阪 奈良 和歌山 兵庫 中国 鳥取 岡山 島根 広島 山口 四国 香川 愛媛 徳島 高知 九州・沖縄 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 47リポーターズ 社会 政治 経済 国際 スポーツ 科学・医療 社説・コラム 写真 動画 イラン情勢 第2次高市内閣 ナフサ不安 大リーグ ハンタウイルス サッカーW杯 クマ被害 おくやみ 文化・エンタメ 地域再生 市場ウォッチ ライフ 【速報】米長官、インドとの戦略的関係の重要性強調 22時20分 【速報】沖縄知事「踏み込みすぎ」と文科省批判 21時34分 【速報】米長官、エネルギー巡りイランを非難 21時28分 【速報】沖縄県に線状降水帯 20時28分 【速報】強風で枝落下、子ども3人搬送 20時12分 TOP 速報 都道府県 北海道 青森 秋田 岩手 山形 宮城 福島 茨城 栃木 群馬 埼玉 千葉 東京 神奈川 山梨 新潟 富山 石川 福井 長野 静岡 岐阜 愛知 三重 京都 滋賀 大阪 奈良 和歌山 兵庫 鳥取 岡山 島根 広島 山口 香川 愛媛 徳島 高知 福岡 佐賀 長崎 大分 熊本 宮崎 鹿児島 沖縄 47リポーターズ 社会 話題 政治 世論調査 経済 地方経済 マーケット速報 市場ニュース＆レポート PRワイヤー ビジネス 国際 スポーツ 野球 サッカー 相撲 バスケ 科学・医療 医療健康 科学・環境 写真 速報写真 撮れたて 日本の風景 FOCUS×FRAME レトロ写真 動画 速報動画 地域動画 全国動画 スポーツ動画 English 簡体中文 繁體中文 速報 国際 > 中国 国際 > 韓国 共同通信 【速報】中韓タンカー含む5隻が海峡通過か 2026年05月20日 21時27分 共同通信 【イスタンブール共同】イラン国営テレビは20日、事実上の封鎖が続くホルムズ海峡を、イラン革命防衛隊の許可を得た中国や韓国などのタンカー少なくとも5隻が通過したと報じた。 共同通信 のニュース・速報一覧 共同通信 国内外約100の拠点を軸に、世界情勢から地域の話題まで、旬のニュースを的確に、いち早くお届けします。 https://www.kyodonews.jp/ 中国 ランキング 台湾で防衛強化を支持するデモ 米国からの武器購入継続も訴え 21時02分 共同通信 中国、炭鉱事故で90人死亡 ガス爆発、山西省 16時29分 共同通信 中国、有人宇宙船発射へ 神舟23号に香港人初搭乗 16時53分 共同通信 米、インドと関係修復開始 国務長官訪問、クアッド会合も 20時44分 共同通信 プーチン大統領が弔電 中国炭鉱事故で習主席に 19時04分 共同通信 中国 の新着記事 米、インドと関係修復開始 国務長官「戦略的重要性」を強調 22時36分 共同通信 台湾で防衛強化を支持するデモ 米国からの武器購入継続も訴え 21時02分 共同通信 プーチン大統領が弔電 中国炭鉱事故で習主席に 19時04分 共同通信 中国、有人宇宙船発射へ 神舟23号に香港人初搭乗 16時53分 共同通信 中国、炭鉱事故で90人死亡 ガス爆発、山西省 16時29分 共同通信 [PR]特別企画 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 もしも自分や身近な人が悩みを抱えたら？知っておきたい、「相談」の大切さ 大学特集〜大学教育の未来を探る〜 創業5年で売り上げ50億円達成の背景に「自責」の精神 渡辺喜久男会長と塚本拓夢オーナーが「おたからや」の成功を語る 「おたからや」に学ぶ、FC経営成功の秘訣 大畑典道オーナーと渡辺喜久男会長が本音で語る 幅広い知識と技術で、顧客の省エネを支え続ける 最前線で奮闘するKenesの社員たち 人の営みがよみがえり、願いは「当たり前」に戻ること 復興支える中間貯蔵施設のいま、2045年への約束 [PR]特別企画をもっと見る ピックアップ求人情報 「コツコツ安定ワーク」 出荷伝票の仕分け+梱包補助/シンプルワーク 株式会社ゴーバナナ 正社員 東京都 月給32万5,000円～38万5,000円 【仕事内容】未経験OK!製造×軽作業サポートスタッフ 20〜30代活躍中! 「工場ってむずかしそう…」って思ってる方も大丈夫! マニュアル通りに進める“補助作業”が中心です <具体的には> ・伝票を仕分ける ・梱包作業を補助する 未経験から始めやすい軽作業! シンプルな作業が中心で、研修やサポート体制も充実! 検品・仕分けなどからスタートし、リーダーなどへステップアップした先輩も多数活... 詳しく見る SNS運用スタッフ/SNS運用で次世代のバズりを生み出そう!/完全業界未経験OK!/各SNS媒体にて採用強化中!/1478 株式会社F&G 正社員 東京都 月給23万5,000円～29万円 【仕事内容】例外事由3号のイ・40歳未満(長期勤続によるキャリア形成のため) 20代30代の若手社員が活躍中です! 研修内容が充実していて未経験からでもキャリアアップできる環境です! 〈概要〉 「SNSを仕事にしたい!」そんな思いを叶えてみませんか? 当社は、SNSを活用した企業のプロモーションや情報発信をサポートする「SNS運用スタッフ」を募集しています。 X(旧Twitter)やInst... 詳しく見る 恵比寿/リノベーション物件の仲介営業/100%反響営業・在宅可・フレックス制 20代・30代活躍中 株式会社ツクルバ 正社員 東京都 月給31万5,000円～ 【仕事内容】<恵比寿>リノベーション物件の仲介営業/100%反響営業・在宅可・フレックス制 研修充実 販売職からのキャリアチェンジ歓迎! 100%反響営業 火水はお休み フレックス制/リモートOK ー+ー+ー < 仕事内容 > ・お客様からの問い合わせ対応(反響営業形式) ・物件のご案内(内見の現地対応) ・物件のご提案(対面やTEL/チャットでの追客) ・リノベーションのご提... 詳しく見る Sponsored by 運営会社 サイトポリシー コンテンツポリシー 利用者情報の外部送信について 広告掲載 著作権・リンク サイトマップ お問い合わせ 47NEWS 参加社一覧 北海道新聞 室蘭民報 河北新報 東奥日報 デーリー東北 秋田魁新報 山形新聞 岩手日報 福島民報 福島民友新聞 産業経済新聞 日本経済新聞 ジャパンタイムズ 下野新聞 茨城新聞 上毛新聞 千葉日報 神奈川新聞 埼玉新聞 山梨日日新聞 信濃毎日新聞 新潟日報 中日新聞 中部経済新聞 伊勢新聞 静岡新聞 岐阜新聞 北日本新聞 北國新聞 福井新聞 京都新聞 週刊大阪日日新聞 神戸新聞 奈良新聞 紀伊民報 山陽新聞 中国新聞 日本海新聞 山口新聞 山陰中央新報 四国新聞 愛媛新聞 徳島新聞 高知新聞 西日本新聞 大分合同新聞 宮崎日日新聞 長崎新聞 佐賀新聞 熊本日日新聞 南日本新聞 沖縄タイムス 琉球新報 共同通信 47NEWSに掲載の記事・写真の無断転載を禁じます。 すべての内容は日本の著作権法並びに国際条約により 保護されています。 © Press Net Japan Co.,Ltd. All Rights Reserved. ×",
-      "title": "【速報】中韓タンカー含む5隻が海峡通過か|47NEWS（よんななニュース）",
-      "url": "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api"
-    },
     "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -15200,6 +15320,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Unlocking Scientific Intuition & Reasoning at Digital Speed Unlocking Scientific Intuition & Reasoning at Digital Speed | American Academy of Arts and Sciences",
       "url": "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed"
+    },
+    "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/ea2bf01aa874d7ab776453e97dfeed5d2bf5a116-2400x1260.png",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/33b03d9dd1e6aec266ef22a616aec8f5676223f6-1000x1000.svg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaa261102e46c7f090a2402a49000ffae18c5dd6-2292x1290.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0442fe138158e84ffce92bed1624dd09f37ac46f-2292x1288.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nAfter a few years of prompt engineering being the focus of attention in applied AI, a new term has come to prominence: context engineering. Building with language models is becoming less about finding the right words and phrases for your prompts, and more about answering the broader question of “what configuration of context is most likely to generate our model’s desired behavior?\"\nContext refers to the set of tokens included when sampling from a large-language model (LLM). The engineering problem at hand is optimizing the utility of those tokens against the inherent constraints of LLMs in order to consistently achieve a desired outcome. Effectively wrangling LLMs often requires thinking in context — in other words: considering the holistic state available to the LLM at any given time and what potential behaviors that state might yield.\nIn this post, we’ll explore the emerging art of context engineering and offer a refined mental model for building steerable, effective agents.\nAt Anthropic, we view context engineering as the natural progression of prompt engineering. Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes (see [our docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) for an overview and useful prompt engineering strategies). Context engineering refers to the set of strategies for curating and maintaining the optimal set of tokens (information) during LLM inference, including all the other information that may land there outside of the prompts.\nIn the early days of engineering with LLMs, prompting was the biggest component of AI engineering work, as the majority of use cases outside of everyday chat interactions required prompts optimized for one-shot classification or text generation tasks. As the term implies, the primary focus of prompt engineering is how to write effective prompts, particularly system prompts. However, as we move towards engineering more capable agents that operate over multiple turns of inference and longer time horizons, we need strategies for managing the entire context state (system instructions, tools, [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) (MCP), external data, message history, etc).\nAn agent running in a loop generates more and more data that could be relevant for the next turn of inference, and this information must be cyclically refined. Context engineering is the [art and science](https://x.com/karpathy/status/1937902205765607626?lang=en) of curating what will go into the limited context window from that constantly evolving universe of possible information.\nDespite their speed and ability to manage larger and larger volumes of data, we’ve observed that LLMs, like humans, lose focus or experience confusion at a certain point. Studies on needle-in-a-haystack style benchmarking have uncovered the concept of [context rot](https://research.trychroma.com/context-rot): as the number of tokens in the context window increases, the model’s ability to accurately recall information from that context decreases.\nWhile some models exhibit more gentle degradation than others, this characteristic emerges across all models. Context, therefore, must be treated as a finite resource with diminishing marginal returns. Like humans, who have [limited working memory capacity](https://journals.sagepub.com/doi/abs/10.1177/0963721409359277), LLMs have an “attention budget” that they draw on when parsing large volumes of context. Every new token introduced depletes this budget by some amount, increasing the need to carefully curate the tokens available to the LLM.\nThis attention scarcity stems from architectural constraints of LLMs. LLMs are based on the [transformer architecture](https://arxiv.org/abs/1706.03762), which enables every token to [attend to every other",
+      "title": "Effective context engineering for AI agents \\ Anthropic",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
     },
     "https://www.anthropic.com/engineering/how-we-contain-claude": {
       "cleaner_v": 2,
@@ -15442,6 +15580,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Open source UI kit for modern document apps - Extend UI",
       "url": "https://www.extend.ai/ui?ref=sidebar"
+    },
+    "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://www.goodinternetmagazine.com/content/images/2026/06/logo.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "The first time I emailed a stranger, I swear my cursor hovered over Send for a full five minutes.\nI had plenty of justifiable reasons to remain hesitant. Not wanting to take up their time, feeling bothersome, worried my question was a silly one... A hundred disparate excuses leading back to the same core: \"I’m not enough.\" That’s the forever curse of low self-esteem. The best and worst-case scenario can never occur, because you’ve rejected yourself first. Who knows how the other is going to respond?\nThat’s where the rub is, isn’t it? The terrifying unknown.\nYet, despite all the odds, I’ve moved through that suffocating fear. And you can do the same too. Allow me to explain.\nEmail is old. More established than the smartphone, the hyperlink, and even the beloved internet.\nWhile Tim Berners-Lee was still only theorizing on what would later become the World Wide Web, programmers were already sending each other emails. Ray Tomlinson sent the first email from one computer to another in 1971, choosing the @ symbol to separate the sender from the host machine.\nThat was 54 years ago. And a few hours previous, as I write this in 2025? I continued what he started.\nEmail is an oft-cited example for demonstrating Lindy’s law: a theory positing that something’s future life expectancy is in proportion to its current age. The longer something lasts, the longer it’ll continue.\nSocial media platforms rise and fall like ancient empires sped up a thousand times. Yet email endures. Like the postal service or the printed book. Is it any coincidence these technologies remain my great loves? They share a quality I struggle to name. Perhaps it’s permanence in an ephemeral world. You can tuck a letter in a drawer, discovering it decades later. A book can outlive its author by centuries. One can archive, search, and treasure an email. They’re all vessels that honor my beloved words.\nAnd in their longevity is their flexibility. You can read a book anywhere, anytime. You can send a letter to the farthest-flung corners of the earth imaginable. And you can email anyone.\nWhoever you are, wherever you are, however you send and receive your emails, it’s there for you. And if you ever leave, you can take it all with you. Or change it over. Can the same be said for anything on a social media platform? Perhaps not. An email can be spam, sure, just as a letter can be junk, or a book unenjoyable.\nThe other thing I love about this communication method is it can be intentional, meaningful, hope-filled, and considerate. Or just kind. You can make a small difference with each one you send. Just like a smile.\nI’ve been thinking about why it continues to feel special. Even though it’s an integral part of our age of instant everything, the way we treat it doesn’t have to operate on perpetual now’s terms.\nYou can choose to engage with it in human time, and so can the recipient: compose when you have something to say, respond when you have space to think.\nThis breathing room creates something rare: conversations that deepen rather than scatter. Unlike the terror-inducing typing indicators and read receipts of instant messaging, email lets thoughts linger. You can draft, reconsider, refine. It’s communication that honors people’s rhythms.\nOver the past year, I’ve sent countless emails to writers, developers, bloggers, artists, thinkers, and poetic web folks. Not all replied — and why should I expect them to? — but so many did.\nI’ve never experienced the slow death that is the commercial or corporate inbox, but for the first time in my life, I don’t dread my inbox. I look forward to opening it.\nEach connection, no matter how fleeting, started with a simple email.\nSo, why do we hesitate?\nThere’s something vulnerable about sending missives out into the void, not knowing if you’ll be welcomed or ignored. We’ve been conditioned to think of unsolicited contact as unwelcome.\nWhile much of it is…there’s a difference between spam and genuine effort.\nThere’s something to be said for r",
+      "title": "Why I email complete strangers",
+      "url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar"
     },
     "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
       "cleaner_v": 2,
@@ -15845,6 +15998,22 @@
       "title": "grill-with-docs — mattpocock/skills",
       "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
     },
+    "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The tech industry has declared that AI will increase developer productivity. Task-level productivity feels obvious, though concrete evidence is elusive — for …",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.subbu.org/subbu.jpg",
+        "https://www.subbu.org/gc/count?p=%2fessays%2f2026%2fa-lesson-from-the-cockpit%2f"
+      ],
+      "kind": "article",
+      "text_excerpt": "Friday, May 8, 2026\nThe tech industry has declared that AI will increase developer productivity. Task-level productivity feels obvious, though concrete evidence is elusive — for example, METR reported a widely cited result: [a 19% decline in productivity with AI](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), but eight months later, they had to [drop the survey](https://metr.org/blog/2026-02-24-uplift-update/) as developers increasingly refused to participate without AI tools. “Claude is down” is now like “Github is down.” Productivity metrics may also sound hollow due to a gap between measured productivity and developers’ perceptions of it. I don’t think we understand this enough yet.\nEnd-to-end productivity is anything but clear in brownfield situations — most money-making software companies are brownfields with real customers, real data, and code evolved over years. In brownfields, most technical discovery and decision-making is done via Slack or Zoom meetings, where people need to talk to each other to piece together facts from tribal knowledge. It is yet unclear how to deal with brownfield complexity that seems immune to AI.\nNonetheless, engineering leaders are expected to improve and demonstrate productivity while operating with fewer engineers.\nOn the other hand, critics have been cautioning with counter-evidence. Erosion of skills, due to [cognitive surrender](https://www.subbu.org/essays/2026/ride-the-wave-dont-drown/#a-namecognitive-offloading-and-surrenderacognitive-offloading-and-surrender), is a real challenge. Experienced engineers are facing identity loss as AI can do in seconds or minutes what they used to do in days or weeks. I know of engineers who are worried about ever getting promoted, since some junior engineers can do their work faster. Some are worried about losing purpose, too. What would intrinsically motivate a competent engineer when AI can do their work?\nI have written about AI contributing to [increased entropy](https://www.subbu.org/essays/2026/productivity-and-entropy/) in software. Last year’s [GitClear study](https://www.gitclear.com/ai_assistant_code_quality_2025_research) showed a spike in duplicated code blocks, an increase in short-term code churn, and a continued decline in code reuse. There is also evidence of AI-assisted development creating [persistent debt, security, and correctness issues](https://arxiv.org/abs/2603.28592). The tools are changing so fast that any specific finding may be outdated within months, but the patterns — deskilling, entropy, cognitive surrender — are consistent across studies and across domains. The specific numbers change, but the direction doesn’t.\nAs I continued my sense-making research, I found something striking: the current AI productivity argument has a precise and surprising historical parallel.\nBack in the 1980s and 1990s, the aviation industry faced similar arguments and concerns when Airbus introduced fly-by-wire automation. Their philosophy was radical at that time: automation should have authority over the pilot. Airbus’ idea was to eliminate human error by constraining what a human could do. Bernard Ziegler, a senior Vice President of engineering at Airbus, said at that time that he [was building an airplane that even his concierge could fly](https://www.flightdeckfriend.com/ask-a-pilot/airbus-vs-boeing-from-a-pilots-perspective).\nBoeing held the opposite design philosophy: the pilot is the final authority, and the human must always be able to override automation. That philosophy influenced the design of their fly-by-wire aircraft.\nRegardless of these philosophical differences, aviation reality played out scenarios that the software industry might face.\nIn the 1994 [Nagoya crash](https://en.wikipedia.org/wiki/China_Airlines_Flight_140), the pilots and an Airbus A300 worked at cross-purposes — the pilots attempted to pitch the aircraft down while the autopilot was pitching it up. The pilots had the skills and experienc",
+      "title": "A Lesson From the Cockpit",
+      "url": "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/"
+    },
     "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16007,32 +16176,6 @@
       "text_excerpt": "At the software company 8x8, employees are using [Anthropic’s Claude](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/) to draft emails, analyze customer feedback, and write code, but so far, their growing reliance on the artificial intelligence chatbot hasn’t troubled the finance team. While other Silicon Valley companies, such as Meta, Uber, and Salesforce, have publicly expressed concerns about the growing cost of generative AI tools and have begun introducing usage caps in some cases, 8x8 says it finds itself in the black.\nOver the past 18 months, the company estimates it has saved about $5 million in annual costs by canceling subscriptions to dozens of software and educational tools it deemed unnecessary in part because Claude could provide similar capabilities. So far, 8x8’s annualized bill for Claude is “well below” that figure, says Joel Neeb, the company’s chief transformation and business operations officer.\nNeeb expects the savings and costs to eventually even out as 8x8 encourages more employees to adopt AI and it incorporates the tech into more complicated work. But for now, there’s still a huge gap, which “makes my chief financial officer happy,” he tells WIRED. He declined to share exact total spending on generative AI.\nAs companies pour hundreds of millions of dollars collectively into AI tools for [coding](https://www.wired.com/story/claude-code-success-anthropic-business-model/), marketing, and [customer service](https://www.wired.com/story/ai-takes-over-debt-collection/), a new obsession has emerged in the tech industry: “tokenomics,” or how to manage the soaring cost of AI usage. (Tokens represent the amount of content an AI model analyzes and generates.)\nLast month, Royal Bank of Canada’s CEO disclosed that its token usage surged 500 percent over the past six months. At Cisco, a third of employees are using an internal AI chatbot on a daily basis, so “the token usage is getting pretty, pretty crazy,\" CEO Chuck Robbins said on an earnings call. Some top engineers at analytics software developer Amplitude are “spending thousands of dollars a month or more on tokens,” according to its CEO Spenser Skates. Aaron Levine, the CEO of Box, said, “The token budgeting conversation has absolutely taken over as one of the most important” and “[heated](https://x.com/levie/status/2056965292753146019)” topics.\nRoughly 300 companies addressed questions or concerns about AI tokens during their earnings calls or in public discussions with financial analysts in April or May, according to a WIRED review of transcripts from the data provider AlphaStreet. That’s a small fraction of the thousands of calls held during the span, but just 93 companies mentioned “token” in April and May a year ago.\nExecutives at several companies said they are developing or looking to buy systems to help monitor token usage and choose the lowest-priced model for a given prompt. Others said they were still trying to figure out balancing hiring more people and increasing their budgets for tokens to achieve their goals.\nSoftware has rarely come cheap, but the latest generation of AI tools is causing unusual stress in C-suites for a variety of reasons. Prices keep fluctuating. [New models](https://www.wired.com/story/anthropic-releases-claude-fable-5-mythos-5/) that are more powerful—and more expensive—than the last get released every month. And getting entire organizations on board with new ways of working has been a challenge, so AI-fueled productivity gains on one team can lead to bottlenecks for another.\n20 Percent\nThat said, some companies are still encouraging employees to use AI more without worrying about the tab. In April, Long Island, New York-based clothing brand Baseball Lifestyle 101, which expects to generate $250 million in sales this year, told about 50 of its top managers to spend the equivalent of about 20 percent of their salary on AI tokens every month.\nBill Rom, cofounder and chief strat",
       "title": "‘Pretty Crazy’ Token Usage Is Testing Bosses’ Bet on AI | WIRED",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
-    },
-    "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Leaked files show the invite-only network grades members by their money and fame, shaping who’s in, who’s out, and who pays.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
-      "frameable": null,
-      "image_urls": [
-        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/191:100/w_1280,c_limit/061726-peter-thiel-secret-society-ranked.jpg",
-        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/191:100/w_1280,c_limit/061726-peter-thiel-secret-society-ranked.jpg?mbid=social_retweet",
-        "https://media.wired.com/photos/6a33038a1f4e7aecefeb3113/3:2/w_2560%2Cc_limit/061726-peter-thiel-secret-society-ranked.jpg",
-        "https://media.wired.com/photos/6a3502b78a383050471b86b4/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a38fc82a494fdbb4985fa73/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a317f4a898b4be9664d5a85/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/66ea076fca863bb4c1028b64/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/67b63b985a505b018b67ed90/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a2ff7a5f6151b9749aa4dad/16:9/w_640%2Cc_limit/undefined"
-      ],
-      "kind": "article",
-      "text_excerpt": "Dialog, the private network cofounded by [Peter Thiel](https://www.wired.com/story/the-real-stakes-real-story-peter-thiels-antichrist-obsession/), grades [its event attendees](https://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/) on a hidden scale, ranking them by wealth and fame, tracking their relationships, and using algorithms to help decide who they should meet, who they should sit with, and who no longer belongs, WIRED has learned.\nThe records are part of a trove of internal data received by WIRED from a confidential source, containing the personal information of nearly 200 prominent people scheduled to attend the group's annual retreat this summer. The data includes home addresses, private phone numbers and email accounts, dates of birth, photos, and emergency contacts, as well as food allergies and the political leanings volunteered by some members. WIRED was notified of the leak by maia arson crimew, a Swiss journalist and security researcher known for [uncovering](https://dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair) the US government's “No Fly List” in 2023.\nThe records are distinct from a list of people affiliated with Dialog that was left exposed on the organization’s website and has been circulating online since earlier this week—a looser directory that appears to include nonmembers, such as Maryland governor Wes Moore, a former event speaker, and other outside guests who passed through Dialog’s orbit, in some cases years ago.\nFounded in 2006 by Thiel and data broker Auren Hoffman, Dialog is a private club that convenes politicians, investors, entrepreneurs, military leaders, executives, academics, and journalists for invitation-only, off-the-record retreats. According to a Dialog document shared by a past participant, it has “over 1,000 paying members,” and more than 2,500 people have attended its annual retreats.\nThe document, which describes Dialog as an “invite-only community,” distinguishes between two products: membership and retreats. The former allows members—the group calls them “dialogers”—to access private dinners “hosted in members’ homes and private spaces around the world,” as well as “member-led global treks,” concierge services, a private group chat, and more. Retreats convene groups of 200 or more people—who are not necessarily members—for three- to four-day meetings. This August, for example, members, speakers, and guests are scheduled to gather outside Dublin, Ireland, for two days of discussions on artificial intelligence, geopolitics, and modern warfare—from NATO’s future and battlefield tech to the war in Iran—led by current and former lawmakers, diplomats, and national security officials.\n(Disclosure: A former editor in chief of WIRED, Nick Thompson—currently the CEO of The Atlantic—is among those in both the public list and unreleased records. He declined to comment.)\nDialog assigns people grades before they join. Of the 192 dossiers examined by WIRED, 130 are tagged as members. The rest are prospects with files bearing markings like “First Time Dialoger” or “Warm.” Everyone—members and prospective invitees alike—is assigned a grade of A, B, or C. The “C” grade appears reserved for the most famous and influential; only one in seven received it. Most people—141 of 192—received a “B.” The final tier, “A,” appears primarily assigned to older, established members whom the graders consider less notable.\nActor Josh Brolin—who, according to the records, has never attended a Dialog retreat—is categorized as a VIP largely based on the strength of his fame: ”His portrayal of Thanos in the Avengers series and his involvement in high-grossing films like Avengers: Endgame, which grossed over $2.79 billion, contribute to his prominence,” reads one note, with staff further citing his Instagram following of over 3.4 million.\nThe economist Tyler Cowen, by contrast, was initially denied a VIP “C” rating after the group’s AI tool described him as “",
-      "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members | WIRED",
-      "url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/"
     },
     "https://www.youtube.com/watch?app=desktop&v=mWvtOHlZM-I": {
       "content_type": "text/html; charset=utf-8",
@@ -16401,10 +16544,6 @@
     "2056821309535834393": [
       "https://x.com/JClarkeatDell/status/2056821309535834393",
       "https://www.linkedin.com/pulse/ai-native-its-birthright-decision-jeff-clarke-6x74c/?trackingId=x0gRMNnGT%2Byl2aikU09q9A%3D%3D"
-    ],
-    "2057076130159743041": [
-      "https://x.com/47news_official/status/2057076130159743041",
-      "https://www.47news.jp/14333586.html?utm_source=twitter&utm_medium=social&utm_campaign=api"
     ],
     "2057094501986943369": [
       "https://x.com/SidebarIO/status/2057094501986943369",
@@ -21066,8 +21205,8 @@
     "2068305911546786115": [
       "https://x.com/ibocodes/status/2068305911546786115",
       "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg",
-      "https://x.com/ibocodes/status/2068338089617957029",
       "https://x.com/ibocodes/status/2068348563541618726",
+      "https://x.com/ibocodes/status/2068338089617957029",
       "https://x.com/ibocodes/status/2068399740782338351"
     ],
     "2068328135611822149": [
@@ -21095,13 +21234,15 @@
       "https://x.com/kanavtwt/status/2068600519648772351",
       "https://x.com/kanavtwt/status/2068459790817489187",
       "https://x.com/kanavtwt/status/2068797275556753677",
+      "https://x.com/kanavtwt/status/2069062742175297837",
       "https://x.com/kanavtwt/status/2068450529353843142",
       "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg",
       "https://x.com/kanavtwt/status/2068404639083733032",
-      "https://x.com/kanavtwt/status/2068478232056549609",
       "https://x.com/kanavtwt/status/2068451150404391053",
+      "https://x.com/kanavtwt/status/2068478232056549609",
       "https://x.com/kanavtwt/status/2068422729871806826",
-      "https://x.com/kanavtwt/status/2068454155770102248"
+      "https://x.com/kanavtwt/status/2068454155770102248",
+      "https://x.com/kanavtwt/status/2069094576275759605"
     ],
     "2068429571788341428": [
       "https://x.com/MatthewBerman/status/2068429571788341428",
@@ -21125,7 +21266,7 @@
     "2068617975385715117": [
       "https://x.com/gaurav_ships/status/2068617975385715117",
       "http://x.com/i/article/2068595790025490432",
-      "https://x.com/gaurav_ships/status/2068165324671943029"
+      "https://x.com/gaurav_ships/status/2069099525395120192"
     ],
     "2068627267488710930": [
       "https://x.com/sairahul1/status/2068627267488710930",
@@ -21138,8 +21279,8 @@
       "https://x.com/wquguru/status/2068725964855767142",
       "https://x.com/wquguru/status/2068679590202220982",
       "https://x.com/wquguru/status/2068707740533588036",
-      "https://x.com/wquguru/status/2068685381323936149",
       "https://x.com/wquguru/status/2068678033503056121",
+      "https://x.com/wquguru/status/2068685381323936149",
       "https://x.com/wquguru/status/2068860448427135041",
       "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg",
       "https://x.com/wquguru/status/2068915173734375557"
@@ -21169,8 +21310,9 @@
     "2068714813878870059": [
       "https://x.com/restofworld/status/2068714813878870059",
       "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
-      "https://x.com/restofworld/status/2068434971551731796",
-      "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social"
+      "https://x.com/restofworld/status/2068838397238505655",
+      "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480",
+      "https://pbs.twimg.com/media/HLX9isgWkAARBQk.jpg"
     ],
     "2068717846608146673": [
       "https://x.com/Voxyz_ai/status/2068717846608146673",
@@ -21180,9 +21322,11 @@
     "2068727720243089498": [
       "https://x.com/eliakuratli/status/2068727720243089498",
       "http://x.com/i/article/2068702905687773184",
+      "https://x.com/eliakuratli/status/2069113657955377333",
       "https://x.com/eliakuratli/status/2069042031603630442",
-      "https://x.com/eliakuratli/status/2068994481106399501",
+      "https://x.com/eliakuratli/status/2069073908179837113",
       "https://x.com/eliakuratli/status/2069006078512148740",
+      "https://x.com/eliakuratli/status/2068994481106399501",
       "https://x.com/eliakuratli/status/2068974250187190440",
       "https://x.com/eliakuratli/status/2068938873216860242"
     ],
@@ -21190,9 +21334,10 @@
       "https://x.com/Saboo_Shubham_/status/2068730090457006588",
       "http://x.com/i/article/2068130070678691840",
       "https://x.com/Saboo_Shubham_/status/2068734280742949356",
-      "https://x.com/Saboo_Shubham_/status/2068730771259666592",
+      "https://x.com/Saboo_Shubham_/status/2069107664890814975",
       "https://x.com/Saboo_Shubham_/status/2068739592183066864",
-      "https://x.com/Saboo_Shubham_/status/2068730712581357987"
+      "https://x.com/Saboo_Shubham_/status/2068730712581357987",
+      "https://x.com/Saboo_Shubham_/status/2068730771259666592"
     ],
     "2068734749083091319": [
       "https://x.com/ishanmkh/status/2068734749083091319"
@@ -21205,8 +21350,8 @@
     "2068744002254282992": [
       "https://x.com/VKazulkin/status/2068744002254282992",
       "https://james-pritchard.com/blog/llms-are-functions",
-      "https://x.com/VKazulkin/status/2068377839435407586",
-      "https://aws.amazon.com/de/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
+      "https://x.com/VKazulkin/status/2068758598382243982",
+      "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/"
     ],
     "2068747055955132841": [
       "https://x.com/TheEconomist/status/2068747055955132841",
@@ -21240,32 +21385,50 @@
     ],
     "2068835121390662044": [
       "https://x.com/WIRED/status/2068835121390662044",
-      "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
-      "https://x.com/WIRED/status/2068747025974256015",
-      "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/"
+      "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
     ],
     "2068841029524979777": [
       "https://x.com/ctatedev/status/2068841029524979777",
       "http://agent-browser.dev",
       "http://portless.sh",
       "http://emulate.dev",
-      "http://ai-cli.dev"
+      "http://ai-cli.dev",
+      "https://x.com/ctatedev/status/2069078308248031503"
     ],
     "2068846937990984172": [
       "https://x.com/dingyi/status/2068846937990984172",
       "https://recent.design/",
       "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg",
-      "https://x.com/dingyi/status/2068873740688269406"
+      "https://x.com/dingyi/status/2068873740688269406",
+      "https://x.com/dingyi/status/2069080615622987968",
+      "https://x.com/dingyi/status/2069073939326963883",
+      "https://usebilly.app/en",
+      "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
     ],
     "2068881644191465901": [
       "https://x.com/apartovi/status/2068881644191465901",
       "http://x.com/i/article/2068877374998073344",
+      "https://x.com/apartovi/status/2069058971533738454",
+      "https://x.com/apartovi/status/2069089677332840597",
+      "https://x.com/apartovi/status/1527440722219061248?s=46",
+      "https://x.com/apartovi/status/2069112315895796128",
       "https://x.com/apartovi/status/2069045913977495628"
     ],
     "2068882720441156026": [
       "https://x.com/jeazous/status/2068882720441156026",
       "http://x.com/i/article/2068874893844692992",
       "https://x.com/jeazous/status/2068931378670891489"
+    ],
+    "2068890021466403242": [
+      "https://x.com/AGIJackson008/status/2068890021466403242",
+      "https://x.com/AGIJackson008/status/2068964747106754896"
+    ],
+    "2068892281650696664": [
+      "https://x.com/opensigildotorg/status/2068892281650696664",
+      "http://x.com/i/article/2068892014066708481",
+      "https://x.com/opensigildotorg/status/2068891264024461447",
+      "http://opensigil.org",
+      "https://pbs.twimg.com/amplify_video_thumb/2068891093450502144/img/DcvkgUeKx23bh85E.jpg"
     ],
     "2068902098696339811": [
       "https://x.com/CarolGLMs/status/2068902098696339811",
@@ -21289,18 +21452,20 @@
       "https://x.com/dhruvtwt_/status/2068931416612905457",
       "http://x.com/i/article/2061486694738882564",
       "https://x.com/dhruvtwt_/status/2069014668824432967",
-      "https://x.com/dhruvtwt_/status/2069014831362142607",
-      "https://x.com/dhruvtwt_/status/2069014478981869835",
-      "https://x.com/dhruvtwt_/status/2069014767709417869",
       "https://x.com/dhruvtwt_/status/2069014791314972900",
+      "https://x.com/dhruvtwt_/status/2069014831362142607",
       "https://x.com/dhruvtwt_/status/2069014217999733217",
       "https://x.com/dhruvtwt_/status/2069014346945216551",
       "https://x.com/dhruvtwt_/status/2069014431464649077",
+      "https://x.com/dhruvtwt_/status/2069014767709417869",
+      "https://x.com/dhruvtwt_/status/2069014478981869835",
+      "https://x.com/dhruvtwt_/status/2069028909048586536",
+      "https://x.com/dhruvtwt_/status/2069075729061712240",
       "https://x.com/dhruvtwt_/status/2069014241122619461",
-      "https://x.com/dhruvtwt_/status/2069014413311688904",
-      "https://x.com/dhruvtwt_/status/2069014300677795865",
       "https://x.com/dhruvtwt_/status/2069014888425673019",
-      "https://x.com/dhruvtwt_/status/2069028909048586536"
+      "https://x.com/dhruvtwt_/status/2069014413311688904",
+      "https://x.com/dhruvtwt_/status/2069088634578641025",
+      "https://x.com/dhruvtwt_/status/2069014300677795865"
     ],
     "2068961003799196098": [
       "https://x.com/csaba_kissi/status/2068961003799196098",
@@ -21312,17 +21477,17 @@
       "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg",
       "https://x.com/csaba_kissi/status/2069013506838422001",
       "https://x.com/csaba_kissi/status/2069017566190674343",
-      "https://x.com/csaba_kissi/status/2069013576275099787",
-      "https://x.com/csaba_kissi/status/2069034463531594128",
       "https://x.com/csaba_kissi/status/2069043010109600036",
       "https://x.com/csaba_kissi/status/2068973637315531258",
-      "https://x.com/csaba_kissi/status/2069017452554358993",
-      "https://x.com/csaba_kissi/status/2068969472463978651",
       "https://x.com/csaba_kissi/status/2068983182053998863",
       "https://x.com/csaba_kissi/status/2068996170106519823",
-      "https://x.com/csaba_kissi/status/2068996019157610780",
-      "https://x.com/csaba_kissi/status/2068970699801202748",
+      "https://x.com/csaba_kissi/status/2069034463531594128",
       "https://x.com/csaba_kissi/status/2068973152848203996",
+      "https://x.com/csaba_kissi/status/2068996019157610780",
+      "https://x.com/csaba_kissi/status/2069017452554358993",
+      "https://x.com/csaba_kissi/status/2069013576275099787",
+      "https://x.com/csaba_kissi/status/2068969472463978651",
+      "https://x.com/csaba_kissi/status/2068970699801202748",
       "https://x.com/csaba_kissi/status/2068970592225698090"
     ],
     "2068963699763884240": [
@@ -21351,8 +21516,22 @@
       "https://x.com/0xJeff/status/2069008589721932251",
       "http://x.com/i/article/2069008066105008129",
       "https://x.com/0xJeff/status/2069010208211579079"
+    ],
+    "2069038610868064513": [
+      "https://x.com/yibie/status/2069038610868064513",
+      "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "https://x.com/yibie/status/2069082654834909425",
+      "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png"
+    ],
+    "2069053300176048306": [
+      "https://x.com/SidebarIO/status/2069053300176048306",
+      "https://bit.ly/side-hey1",
+      "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg",
+      "https://x.com/SidebarIO/status/2069107911188484140",
+      "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
     ]
   },
-  "updated_at": "2026-06-22T13:43:50Z",
+  "updated_at": "2026-06-22T18:18:00Z",
   "window": "recent"
 }
