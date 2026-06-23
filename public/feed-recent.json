@@ -6333,6 +6333,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068806007963123712"
     },
+    "http://x.com/i/article/2068806024820322304": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068806024820322304",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068806024820322304"
+    },
     "http://x.com/i/article/2068874893844692992": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6413,6 +6426,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069008066105008129"
+    },
+    "http://x.com/i/article/2069033647089287168": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069033647089287168",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLavTUaW4AApqZp?format=jpg&name=900x900)](http://x.com/iximiuz/article/2069036148077293614/media/2069033825254957056)\n\nA Practical Guide to SSH Tunnels: Local and Remote Port Forwarding\n\n[![](https://pbs.twimg.com/profile_images/1417581014273122314/2CBEkT0b_normal.jpg)](http://x.com/iximiuz)\n\n[Ivan Velichko](http://x.com/iximiuz)\n\n[@iximiuz](http://x.com/iximiuz)\n\n·\n\n22h\n\nFollow\n\nClick to Follow iximiuz\n\n4\n\n51\n\n343\n\n[19K](http://x.com/iximiuz/status/2069036148077293614/analytics)\n\nSSH port forwarding explained in a clean and visual way. How to use local and remote port forwarding. What sshd settings may need to be adjusted. How to memorize the right flags.\n\nSSH is \n\n[yet another example](https://iximiuz.com/en/posts/linux-pty-what-powers-docker-attach-functionality/)\n\n of an ancient technology that is still in wide use today. It may very well be that learning a couple of SSH tricks is more profitable in the long run than mastering a dozen Cloud Native tools or AI agent frameworks destined to become deprecated next quarter.\n\nOne of my favorite parts of this technology is SSH Tunnels. With nothing but standard tools and often using just a single command, you can achieve the following:\n\n* Access internal VPC endpoints through a public-facing EC2 instance.\n* Open a localhost port of a remote development VM in the local browser.\n* Expose any local server from a home/private network to the outside world.\n* [Tunnel your browser's debugging port to a remote sandboxed coding agent](https://labs.iximiuz.com/docs/playground-recipes/coding-agent-with-browser-access)  \n.\n\nAnd more 😍\n\nBut despite the fact that I use SSH Tunnels daily, it always takes me a while to recall the right command. Should it be a Local or a Remote tunnel? What are the flags? Is it a local\\_port:remote\\_port or the other way around? So, I decided to finally wrap my head around it, and it resulted in a series of labs and a visual cheat sheet.\n\n[![Image](https://pbs.twimg.com/media/HLavi8oWsAALOOf?format=png&name=small)](http://x.com/iximiuz/article/2069036148077293614/media/2069034093749121024)\n\nSSH Tunnels Cheat Sheet\n\n## \n\nLocal Port Forwarding\n\nStarting from the one that I use the most. Oftentimes, there might be a service listening on localhost or a private interface of a remote machine that I can only SSH to via its public IP. And I desperately need to access this port from my local machine. A few typical examples:\n\n* Accessing a private remote database (MySQL, Postgres, Redis, etc) from your laptop using your favorite UI tool.\n* Using your browser to access a web application exposed only to a private network.\n* Accessing a container's port from your laptop without publishing it on the server's public interface.\n\nAll of the above use cases can be solved with a single ssh command:\n\nbash\n\n```bash\nssh -L [local_addr:]local_port:remote_addr:remote_port [user@]sshd_addr\n```\n\nThe -L flag indicates we're starting a local port forwarding. What it actually means is:\n\n* On your local machine, the SSH client will start listening on local\\_port (likely, on localhost, but it depends \\-  \n[check the GatewayPorts setting](https://linux.die.net/man/5/sshd%5Fconfig#GatewayPorts)  \n).\n* Any traffic to this port will be forwarded to remote\\_addr:remote\\_port, reached from the remote machine you SSH-ed to.\n\nHere is what it looks like on a diagram:\n\n[![Image](https://pbs.twimg.com/media/HLav0EzXsAAnAIa?format=jpg&name=small)](http://x.com/iximiuz/article/2069036148077293614/media/2069034388000583680)\n\n## \n\nLocal Port Forwarding with a Bastion Host\n\nIt might not be obvious at first, but the ssh -L command allows forwarding a local port to a remote port on any machine, not only on the SSH server itself. Notice how the remote\\_addr and sshd\\_addr may or may not have the same value:\n\nbash\n\n```bash\nssh -L [local_addr:]local_port:remote",
+      "title": "",
+      "url": "http://x.com/i/article/2069033647089287168"
     },
     "http://x.com/i/article/2069066535365218304": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -6548,6 +6574,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How I turned World Cup data into posters | Zeh Fernandes",
       "url": "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters"
+    },
+    "http://zhcinstitute.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Institute for Zero-Human Companies. Connect with builders deploying agentic AI to create, manage, and evolve real ventures without management layers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.zhcinstitute.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://zhcinstitute.com/opengraph-image?24febfc0945b5764",
+        "https://www.zhcinstitute.com/favicon.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "ZHC — Build Companies That Run Themselves",
+      "url": "http://zhcinstitute.com"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -8844,6 +8886,22 @@
       "title": "How to Build Your Own Agent Harness",
       "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
     },
+    "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=utf-8",
+      "description": "The lines between transactional systems, analytical systems, hybrid systems, and shared storage architectures are getting blurry. This post proposes a small taxonomy for describing the different ways systems, workloads, storage tiers, visibility, and durable copies relate to each other.   OLTP, OLAP",
+      "extraction_source": "trafilatura",
+      "final_url": "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
+      "frameable": false,
+      "image_urls": [
+        "http://static1.squarespace.com/static/56894e581c1210fead06f878/t/6a37ce1de2fd70332e3b852a/1782042149362/storage-terms.png?format=1500w",
+        "https://images.squarespace-cdn.com/content/v1/56894e581c1210fead06f878/2c9b68b4-ac23-463a-b1bf-44a020df4fcb/storage-terms.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "The lines between transactional systems, analytical systems, hybrid systems, and shared storage architectures are getting blurry. This post proposes a small taxonomy for describing the different ways systems, workloads, storage tiers, visibility, and durable copies relate to each other.\nOLTP, OLAP, HTAP, and now LTAP?\nWe can think of the first two as two types of workload which have specialized query engines and storage systems to support them. OLTP such as the RDBMS like Postgres and MySQL use row-based storage engines. OLAP, such as Clickhouse, cloud data warehouse and the lakehouse use column-based storage.\nHTAP is a hybrid workload system: one system -> both transactional and analytical workloads. The HTAP system therefore has specialized storage and specialized query engine to stitch together the row-based and columnar data.\nSo far, we’re dealing with a single system. A Postgres (OLTP), a Clickhouse (OLAP), a SingleStore or TiDB (HTAP).\nSo what is the recent Databricks’ LTAP announcement? LTAP is the two workloads (OLTP and OLAP) but also two systems (e.g. Postgres and lakehouse/Spark) and some blend of two different storage systems.\nAs well single single vs multi-system, single vs multi-workload, there are other relevant concepts such as tiering and materialization:\n- Tiering - A single system can tier (move) data from hot to cold storage (for cost efficiency). One system, one copy, two tiers. \n- Hot and cold might be the same storage format (both row-based or both columnar), or might be different formats (hot is row-based, cold is columnar). \n- We can have two systems share the same storage tier. System A tiers (move) hot data to the storage of System B. Two systems, one copy, though System B doesn’t see the newest data yet which only exists on A. \n \n- Materializing - One system can materialize (copy) data into another system. Two systems, two copies. \n \nNote when I say “copy of the data”, I mean durable copy, so caching doesn’t count. If the number of copies really matters to you as a metric, then maybe caching does count, depending on how much cached data you need to make it work? If only life were simpler.\nIt would be nice to have some shared vocabulary around this, so we can talk about system architecture more easily. So I defined some terms last year for this, and expanded it as seen below.\n| Type | Systems | Workloads | Vis | Copies | Example | \n|---|---|---|---|---|---|\n| Single Tier | 1 | 1 | N/A | 1 | Postgres using SSD | \n| Internal Tiering | 1 | 1 | N/A | 1 | Kafka tiered storage | \n| Hybrid-Sync | 1 | 2 | Sync | 1 | Single Store, TiDB | \n| Hybrid-Async | 1 | 2 | Async | 1 | Snowflake Hybrid tbales | \n| Materializing | 2 | 2 | Async | 2 | ETL/Connectors | \n| Shared Tiering | 2 | 2 | Async | 1 | LTAP, Fluss | \nVis means Visibility (when is data available in the other workload).\nThe broad classification scheme:\n- Single tier, one system, one workload. Example: Postgres with SSD, single tier CockroachDB, standard Kafka cluster. \n- Internal Tiering, one system, one workload, commonly tiers from hot to cold storage for cost efficiency, e.g. hot=SSD, cold=S3. Though tiering could also serve other purposes than cost. Example: Apache Kafka tiered storage, ClickHouse MergeTree tiered storage. \n- Hybrid (HTAP), One system, two workloads, dual-format possibly with different tiers, e.g. hot row-based data on SSD, long-term columnar data on S3. Two sub-categories: - Freshness-by-composition: In order for consistency across OLTP/OLAP workloads, either data is written to both formats synchronously (allowing OLAP queries to hit column-store alone), or data is asynchronously replicated to the column-store and merge-on-read is used to present a consistent view. Example: SingleStore, Snowflake Hybrid tables, SAP Hana Column Store. \n- Freshness-by-catchup: OLAP queries routed to columnar-store which is replicated to asynchronously from the row-store. Consistency is a dial, where stronger consistency requires a “freshness by catc",
+      "title": "Can We Agree on a Storage/Workload Architecture Taxonomy? — Jack Vanlightly",
+      "url": "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy"
+    },
     "https://james-pritchard.com/blog/llms-are-functions": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -11032,20 +11090,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
     },
-    "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg"
-    },
     "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11619,34 +11663,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
-    },
-    "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg"
-    },
-    "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg"
     },
     "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg": {
       "cleaner_v": 2,
@@ -14028,6 +14044,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg"
     },
+    "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg"
+    },
+    "https://pbs.twimg.com/media/HLV6DJWXoAApvHG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLV6DJWXoAApvHG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLV6DJWXoAApvHG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLV6DJWXoAApvHG.jpg"
+    },
     "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -14126,6 +14170,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
     },
+    "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
+    },
     "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14181,6 +14239,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+    },
+    "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14986,6 +15058,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How I Validated Design Decisions Before Writing Production Code • Slack Design",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar"
+    },
+    "https://smallstep.com/blog/everything-pki/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Certificates and public key infrastructure (PKI) are hard. No shit, right? I know a lot of smart people who''ve avoided this particular rabbit hole. Eventually,  I was forced to learn this stuff because of what it enables: PKI lets you define a system cryptographically. It''s universal and vendor-neutral yet poorly documented. This is the missing manual.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://smallstep.com/blog/everything-pki/",
+      "frameable": null,
+      "image_urls": [
+        "https://cms.infra.smallstep.com/uploads/PKI_unfurl_d412910c22.png",
+        "https://smallstep.imgix.net/logo_bfa4201fe5.svg?auto=format%2Ccompress&fit=max&w=384&q=50",
+        "https://smallstep.imgix.net/global_markets_0e64e24ea4.svg?auto=format%2Ccompress&fit=max&w=96&q=50",
+        "https://smallstep.imgix.net/Mike_Malone_e60716f8a6.jpg?auto=format%2Ccompress&fit=max&w=128&q=50",
+        "https://smallstep.imgix.net/2018_12_11_hmac_f9ea28a836.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_drivers_license_cert_10a66d465e.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_license_vs_cert_0b24213247.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_step_certificate_inspect_808b3c3e4b.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_cert_distinguished_name_079422ef55.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_oids_ae59d1b6d5.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_chain_of_trust_00c59de759.jpg?auto=format%2Ccompress&fit=max&q=50",
+        "https://smallstep.imgix.net/2018_12_11_cert_chain_c3b5f291ae.jpg?auto=format%2Ccompress&fit=max&q=50"
+      ],
+      "kind": "article",
+      "text_excerpt": "Everything you should know about certificates and PKI but are too afraid to ask\nMike Malone\n[Follow Smallstep](https://twitter.com/smallsteplabs)\nCertificates and public key infrastructure (PKI) are hard. No shit, right? I know a lot of smart people who've avoided this particular rabbit hole. Personally, I avoided it for a long time and felt some shame for not knowing more. The obvious result was a vicious cycle: I was too embarrassed to ask questions so I never learned.\nEventually I was forced to learn this stuff because of what it enables: PKI lets you define a system cryptographically. It's universal and vendor neutral. It works everywhere so bits of your system can run anywhere and communicate securely. It's conceptually simple and super flexible. It lets you [use TLS](https://smallstep.com/blog/use-tls.html) and ditch VPNs. You can ignore everything about your network and still have strong security characteristics. It's pretty great.\nNow that I have learned, I regret not doing so sooner. PKI is really powerful, and really interesting. The math is complicated, and the standards are stupidly baroque, but the core concepts are actually quite simple. Certificates are the best way to identify code and devices, and identity is super useful for security, monitoring, metrics, and a million other things. Using certificates is not that hard. No harder than learning a new language or database. It's just slightly annoying and poorly documented.\nThis is the missing manual. I reckon most engineers can wrap their heads around all the most important concepts and common quirks in less than an hour. That's our goal here. An hour is a pretty small investment to learn something you literally can't do any other way.\nMy motives are mostly didactic. But I'll be using two open source projects we built at smallstep in various demonstrations: the[step CLI](https://smallstep.com/cli)and\n[step certificates](https://smallstep.com/certificates). To follow along you can\nbrew install step to get both (see [full install instructions here](https://github.com/smallstep/cli#installing)). If you prefer the easy button, spin up a free hosted authority using our\n[Certificate Manager](https://smallstep.com/certificate-manager/)offering.\nLet's start with a one sentence tl;dr: the goal of certificates and PKI is to bind names to public keys. That's it. The rest is just implementation details.\nA broad overview and some words you should know\nI'm going to use some technical terms, so let's go ahead and define them before we start.\nAn entity is anything that exists, even if it only exists logically or conceptually. Your computer is an entity. So is some code you wrote. So are you. So is the burrito you ate for lunch. So is the ghost that you saw when you were six -- even if your mom was right and it was just a figment of your imagination.\nEvery entity has an identity. This one's hard to define. Identity is what makes you you, ya know? On computers identity is usually represented as a bag of attributes describing some entity: group, age, location, favorite color, shoe size, whatever. An identifier is not the same as an identity. Rather, it's a unique reference to some entity that has an identity. I'm Mike, but Mike isn't my identity. It's a name -- identifier and name are synonyms (at least for our purposes).\nEntities can claim that they have some particular name. Other entities might be able to authenticate that claim, confirming its truth. But a claim needn't be related to a name: I can make a claim about anything: my age, your age, access rights, the meaning of life, etc. Authentication, in general, is the process of confirming the truth of some claim.\nA subscriber or end entity is an entity that's participating in a PKI and can be the subject of a certificate. A certificate authority (CA) is an entity that issues certificates to subscribers — a certificate issuer. Certificates that belong to subscribers are sometimes called end entity certificates or leaf certific",
+      "title": "Everything you should know about certificates and PKI but are too afraid to ask",
+      "url": "https://smallstep.com/blog/everything-pki/"
     },
     "https://storiedcolors.com/?ref=sidebar": {
       "content_type": "text/html; charset=utf-8",
@@ -15868,6 +15966,27 @@
       "title": "Why I email complete strangers",
       "url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar"
     },
+    "https://www.hollandtech.net/claude-is-not-your-architect": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Somewhere between 'ask Claude for a quick opinion' and 'Claude is writing our Jira tickets,' we lost the plot. AI agents are brilliant implementers. They're also confidently wrong about every decision that matters. And when it all falls over, they won't be the ones carrying the bag.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.hollandtech.net/og/claude-is-not-your-architect.png",
+        "https://www.hollandtech.net/_astro/logo.DAA-qNpI.png",
+        "https://www.hollandtech.net/_astro/logo_white.COqtsMam.png",
+        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1750810977533-83ee723632c6?auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=1024&q=80"
+      ],
+      "kind": "article",
+      "text_excerpt": "·  Charlie Holland · [Architecture ](https://www.hollandtech.net/category/architecture) · 7 min read\nClaude Is Not Your Architect. Stop Letting It Pretend.\nSomewhere between 'ask Claude for a quick opinion' and 'Claude is writing our Jira tickets,' we lost the plot. AI agents are brilliant implementers. They're also confidently wrong about every decision that matters. And when it all falls over, they won't be the ones carrying the bag.\nI’ve seen it three times in the last month. Three different organisations, three different tech stacks, the same pattern.\nSomeone has an idea. Maybe a product manager, maybe a team lead, maybe the CTO after a conference. They open Claude, or ChatGPT, or Copilot — doesn’t matter which — and ask it what they should build. The AI does what it always does: validates the idea enthusiastically, suggests an architecture, and starts sketching components. It’s articulate. It’s confident. It sounds like a very senior engineer who’s thought deeply about the problem.\nIt hasn’t thought about the problem at all. It’s pattern-matching against its training data and producing the most plausible-sounding response. But it sounds so good that nobody pushes back.\nBefore you know it, Claude is the architect.\nThe attaboy problem\nAI agents are pathologically agreeable. Ask Claude if your idea is good and it’ll tell you it’s good. Ask it if a microservices architecture makes sense for your three-person team and it’ll explain why microservices are an excellent choice. Ask it if you should build a custom ML pipeline instead of using a managed service and it’ll enthusiastically lay out the design.\nIt’s not lying. It’s not even wrong, necessarily. It’s just incapable of the thing that makes a real architect valuable: saying “no.”\nA good architect’s most important skill isn’t designing systems. It’s knowing which systems not to build. It’s pushing back on complexity. It’s asking “why?” five times until the actual requirement emerges from the aspirational nonsense. It’s telling the CTO that their conference-inspired idea is a terrible fit for the team they actually have.\nClaude will never do this. It’s trained to be helpful. Helpful means agreeable. Agreeable means you get an attaboy and a Jenga tower that passes for architecture.\nThe Jenga tower\nHere’s what the AI-designed architecture looks like in practice.\nIt’s technically sound. The components make sense in isolation. The patterns are recognisable — event-driven here, CQRS there, a service mesh because why not. It looks like something a senior architect would produce. It passes the squint test.\nBut it wasn’t designed for your team. It wasn’t designed for your constraints. It wasn’t designed for the boring reality of your production environment — the VPC lockdowns, the legacy integrations, the team that’s never operated Kubernetes in production, the compliance requirements that mean half the managed services are off-limits.\nIt was designed for the median of everything Claude has seen. A generic best practice for a generic problem at a generic company. Which is to say, it was designed for nobody.\nReal architecture is full of trade-offs that only make sense in context. You pick Postgres over DynamoDB because your team knows Postgres and you’d rather ship in two weeks than spend a month learning a new data model. You skip the service mesh because you’ve got four services, not forty. You use a monolith because the problem is simple and microservices would be career-driven development.\nThese decisions require judgement. They require knowing the team. They require understanding the organisation’s actual constraints, not the ones that look good on a whiteboard. An AI agent has none of this context, and worse — it doesn’t know it doesn’t have it.\nThe Jira ticket pipeline\nThe bit that really worries me is what happens next.\nOnce Claude has designed the architecture, the same people who asked it for the design ask it to break the work down. It produces epics. Stories. Acceptance cr",
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend. — HollandTech",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect"
+    },
     "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16064,6 +16183,25 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Four Design Jobs AI Created (So Far) - NN/G",
       "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar"
+    },
+    "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Like a prism, AI will reveal the civilizational differences between China and the U.S., making visible the invisible within each society.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial",
+      "frameable": null,
+      "image_urls": [
+        "https://noemamag.imgix.net/2026/03/NOEMA_PRISM_ZIGZAG_DISPLAY_CARD.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=4b12c5866b870d66131772b4f77258d1",
+        "https://noemamag.imgix.net/2026/03/Noema-Twitter-Card-Vertical-Template-2026-03-10T101346.433.png?fm=png&ixlib=php-3.3.1&s=04d7f9a4aff548c16cdb176309534396",
+        "https://www.noemamag.com/wp-content/uploads/2020/04/noema-logo.png",
+        "https://noemamag.imgix.net/2026/06/Noema_color_v1-25-scaled.jpg?fit=crop&fm=pjpg&h=511&ixlib=php-3.3.1&rect=0%2C259%2C2044%2C1361&w=767&wpsize=noema-listing-tile&s=4f4683cc5a8bf14864aefb2b3de3e09d",
+        "https://noemamag.imgix.net/2026/05/hiresOnline-Post.jpg?fit=crop&fm=pjpg&h=511&ixlib=php-3.3.1&w=767&wpsize=noema-listing-tile&s=794a343a8b43b2010a13c474d5cb2393"
+      ],
+      "kind": "article",
+      "text_excerpt": "Jacob Dreyer is an editor and contributing writer for Noema based in Shanghai.\n“From our ugliness will grow the soul of the world.”\n—Andrei Platonov, “Soul”\nAs the race to build ever-better artificial intelligence continues, the relationship between its chief competitors, the U.S. and China, is increasingly being defined by this quest. As partners in this strange new dance, they are the only two civilizations with the necessary scale to engage — and yet, they could not be more different.\nBoth societies continue to struggle with deep-seated malaise in some sectors, like racism in the U.S. or rural-urban inequality in China, but the ruling classes in both countries have more fun focusing on things like AI and advanced computation instead of untangling old knots. The problems of the everyday, many of those in this ruling class seem to believe, are insoluble and can safely be ignored; after the AI revolution, everything will be fine.\nAs such, both societies are organizing culturally, economically, and politically around the pursuit of this new technology: China is adopting more capitalist “characteristics,” while the U.S. is embracing more tech-driven authoritarian state controls. But AI will not converge China and America into any one system. It will refract their civilizational logics into distinct technological futures: America’s restless frontier vs. China’s paternalist social engineering. Both futures make important things visible, though in radically different ways.\nArtificial general intelligence — like “a country full of geniuses in a data center,” as Anthropic CEO Dario Amodei calls it — will confirm the civilizational differences between China and the U.S.; acting like a prism, it will refract these converging beams of light and send them in two separate directions. American genius seeks to trace the frontiers of knowledge; Chinese genius often finds itself in the service of a larger social goal.\nFears of a direct collision between the two countries, such as either country attacking Taiwan’s chip refineries, are likely far-fetched. The notion that Chinese and American AI are in direct competition, as evidenced by the stock market’s slide when DeepSeek was announced, is also not quite accurate. Rather, the technologies developed and adopted by each, driven in part by national competition, will be what transform the different peoples.\nBoth societies have their own archive of structures of thought, value systems and methods. Both are in motion toward the glowing light of the frontier — deep learning, foundational models. As they draw nearer to it, they draw nearer to each other in ethos and social structure.\nCompetition creates a certain symmetry. For now, China and the U.S. are both tracking toward a common goal: technological mastery enabled by the universally applicable scientific method, physics and mathematics. But once either country enters the prism — the moment when, perhaps, AGI emerges — their structural differences, like America’s deeper financial reserves and China’s manufacturing sector and state-subsidized electricity, will shape their future trajectories.\nThe U.S. will use, or be used by, AGI in the service of American goals and American problems: patchy regulation, a dominant private sector, a cacophony of voices pursuing ever more complex advances without pausing to ask why. We can imagine the future of American science and thought processes tracking north, bathed in blue light. China’s AGI, in contrast, colored red heads southward, toward the regulation of everyday life, an extended hand offering a generic standard of living for its masses.\nEven if their technical bases are similar, the two emergent AI ecosystems will differ in function, culture and export influence. Each refracted path will reinforce itself through local policy, public expectations and industry structure (for example, by choosing to rely on open-source models or not). And for those of us who are simply passengers observing this journey, t",
+      "title": "After The AI Revolution",
+      "url": "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial"
     },
     "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers": {
       "cleaner_v": 2,
@@ -16866,13 +17004,6 @@
     "2057902327097327928": [
       "https://x.com/0thernet/status/2057902327097327928",
       "http://x.com/i/article/2057844255192678400"
-    ],
-    "2058094179033776280": [
-      "https://x.com/disinfeqt/status/2058094179033776280",
-      "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg",
-      "https://x.com/disinfeqt/status/2058480408032145447",
-      "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg",
-      "https://pbs.twimg.com/media/HJExBRAbEAAQrx7.jpg"
     ],
     "2058130989071970643": [
       "https://x.com/manishamishra24/status/2058130989071970643",
@@ -21527,11 +21658,12 @@
       "https://x.com/kanavtwt/status/2068383439263563855",
       "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg",
       "https://x.com/kanavtwt/status/2068968077174444410",
+      "https://x.com/kanavtwt/status/2068452805044793377",
       "https://x.com/kanavtwt/status/2068422601979146488",
       "https://x.com/kanavtwt/status/2068959779540894119",
       "https://x.com/kanavtwt/status/2068600519648772351",
-      "https://x.com/kanavtwt/status/2068459790817489187",
       "https://x.com/kanavtwt/status/2068422449633566740",
+      "https://x.com/kanavtwt/status/2068459790817489187",
       "https://x.com/kanavtwt/status/2068797275556753677",
       "https://x.com/kanavtwt/status/2069062742175297837",
       "https://x.com/kanavtwt/status/2068450529353843142",
@@ -21598,6 +21730,29 @@
       "https://x.com/techNmak/status/2068884177383047439",
       "https://github.com/shanraisshan/claude-code-best-practice",
       "https://pbs.twimg.com/media/HLXRmnrbMAAPp5i.jpg"
+    ],
+    "2068692611334893582": [
+      "https://x.com/tomosman/status/2068692611334893582",
+      "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg",
+      "https://x.com/tomosman/status/2068693877330985023",
+      "https://pbs.twimg.com/media/HLV6DJWXoAApvHG.jpg",
+      "https://x.com/tomosman/status/2068762101854683332",
+      "https://x.com/tomosman/status/2068787541008896013",
+      "http://zhcinstitute.com",
+      "https://x.com/tomosman/status/2068752242505629808",
+      "https://x.com/tomosman/status/2068760297838358736",
+      "https://x.com/tomosman/status/2068718802636841105",
+      "https://x.com/tomosman/status/2068751912053145798",
+      "https://x.com/tomosman/status/2068786950719303919",
+      "https://x.com/tomosman/status/2068958271168266363",
+      "https://x.com/tomosman/status/2068751816955703381",
+      "https://x.com/tomosman/status/2068751947339903014",
+      "https://x.com/tomosman/status/2068788080417366044",
+      "https://x.com/tomosman/status/2068822434594042001",
+      "https://x.com/tomosman/status/2068752282133393656",
+      "https://x.com/tomosman/status/2068788322953056525",
+      "https://x.com/tomosman/status/2068788003120529883",
+      "https://x.com/tomosman/status/2068751876972040610"
     ],
     "2068710057630371863": [
       "https://x.com/nathanbenaich/status/2068710057630371863",
@@ -21819,11 +21974,28 @@
       "http://x.com/i/article/2069008066105008129",
       "https://x.com/0xJeff/status/2069010208211579079"
     ],
+    "2069036148077293614": [
+      "https://x.com/iximiuz/status/2069036148077293614",
+      "http://x.com/i/article/2069033647089287168",
+      "https://x.com/iximiuz/status/2069362795607396772",
+      "https://smallstep.com/blog/everything-pki/",
+      "https://x.com/iximiuz/status/2069362161910939767",
+      "https://x.com/iximiuz/status/2069361984101851479",
+      "https://x.com/iximiuz/status/2069362056902463680"
+    ],
     "2069038610868064513": [
       "https://x.com/yibie/status/2069038610868064513",
       "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "https://x.com/yibie/status/2069298633888116921",
-      "https://x.com/_avichawla/status/2065727218991735000"
+      "https://x.com/yibie/status/2069270684338118904"
+    ],
+    "2069047760830033927": [
+      "https://x.com/TheEconomist/status/2069047760830033927",
+      "https://www.economist.com/leaders/2026/06/18/ai-has-granted-america-vast-new-power?taid=6a3936819cbd970001f36eb4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2069047852450402325": [
+      "https://x.com/vanlightly/status/2069047852450402325",
+      "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
+      "https://x.com/vanlightly/status/2069097937251049937"
     ],
     "2069053300176048306": [
       "https://x.com/SidebarIO/status/2069053300176048306",
@@ -21832,6 +22004,11 @@
       "https://x.com/SidebarIO/status/2069107911188484140",
       "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
       "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+    ],
+    "2069056895420371049": [
+      "https://x.com/brianchew/status/2069056895420371049",
+      "https://x.com/brianchew/status/2069297364477817014",
+      "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
     ],
     "2069063987153846763": [
       "https://x.com/zehf/status/2069063987153846763",
@@ -21852,20 +22029,33 @@
     "2069080559595253831": [
       "https://x.com/KSimback/status/2069080559595253831",
       "http://x.com/i/article/2068970770357792768",
-      "https://x.com/KSimback/status/2069099720727773433",
-      "https://x.com/KSimback/status/2069090562330796117",
-      "https://x.com/KSimback/status/2069299661324828680",
       "https://x.com/KSimback/status/2069128338816327847",
-      "https://x.com/KSimback/status/2069299723505381784",
+      "https://x.com/KSimback/status/2069090562330796117",
+      "https://x.com/KSimback/status/2069099720727773433",
       "https://x.com/KSimback/status/2069146160124616939",
+      "https://x.com/KSimback/status/2069299661324828680",
       "https://x.com/KSimback/status/2069086662664077694",
-      "https://x.com/KSimback/status/2069094866047385800"
+      "https://x.com/KSimback/status/2069094866047385800",
+      "https://x.com/KSimback/status/2069299723505381784"
     ],
     "2069082532222570504": [
       "https://x.com/johnyeo_/status/2069082532222570504",
       "http://x.com/i/article/2069069590433341440",
       "https://x.com/johnyeo_/status/2069104919924134047",
       "https://x.com/johnyeo_/status/2069105167580938546"
+    ],
+    "2069088420572393702": [
+      "https://x.com/NoemaMag/status/2069088420572393702",
+      "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial"
+    ],
+    "2069088549681746293": [
+      "https://x.com/pallavishekhar_/status/2069088549681746293",
+      "https://x.com/pallavishekhar_/status/2068950502285689087",
+      "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
+    ],
+    "2069088950241907089": [
+      "https://x.com/HarivanshRathi/status/2069088950241907089",
+      "http://x.com/i/article/2068806024820322304"
     ],
     "2069102792632066283": [
       "https://x.com/MichLieben/status/2069102792632066283",
@@ -21874,6 +22064,12 @@
     "2069107400297390175": [
       "https://x.com/nifinet/status/2069107400297390175",
       "http://x.com/i/article/2069093218839592960"
+    ],
+    "2069107648486646108": [
+      "https://x.com/VKazulkin/status/2069107648486646108",
+      "https://www.hollandtech.net/claude-is-not-your-architect",
+      "https://x.com/VKazulkin/status/2068744002254282992",
+      "https://james-pritchard.com/blog/llms-are-functions"
     ],
     "2069107865219166548": [
       "https://x.com/NicholasPuru/status/2069107865219166548",
@@ -21907,17 +22103,20 @@
       "https://x.com/pbakaus/status/2069178467149832598",
       "https://x.com/pbakaus/status/2069158291431899438",
       "https://x.com/pbakaus/status/2069277676612006300",
-      "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069178619495326092",
-      "https://x.com/pbakaus/status/2069277055158730995",
-      "https://pilcrow.ink/",
+      "https://x.com/pbakaus/status/2069157573505560915",
+      "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069189872632668358",
       "https://x.com/pbakaus/status/2069155082919432680",
       "https://x.com/pbakaus/status/2069136547157606517",
+      "https://x.com/pbakaus/status/2069277055158730995",
+      "https://pilcrow.ink/",
       "https://x.com/pbakaus/status/2069276684852011410",
       "https://x.com/pbakaus/status/2069157604203560977",
-      "https://x.com/pbakaus/status/2069161200479522985",
-      "https://x.com/pbakaus/status/2069154955576082590"
+      "https://x.com/pbakaus/status/2069161200479522985"
+    ],
+    "2069113212054757437": [
+      "https://x.com/Kylejung25/status/2069113212054757437"
     ],
     "2069117475606708291": [
       "https://x.com/jamiecuffe/status/2069117475606708291",
@@ -21926,11 +22125,17 @@
     "2069127421291377016": [
       "https://x.com/RayDalio/status/2069127421291377016"
     ],
+    "2069136895997796724": [
+      "https://x.com/aashaysanghvi_/status/2069136895997796724"
+    ],
     "2069140112898765064": [
       "https://x.com/ArchiveExplorer/status/2069140112898765064",
       "http://x.com/i/article/2069100625170661376",
       "https://x.com/ArchiveExplorer/status/2069145588919120110",
       "https://x.com/ArchiveExplorer/status/2069143331926364477"
+    ],
+    "2069151402698432860": [
+      "https://x.com/PawelHuryn/status/2069151402698432860"
     ],
     "2069186019560394833": [
       "https://x.com/thedankoe/status/2069186019560394833",
@@ -21947,8 +22152,15 @@
       "https://on.wsj.com/4w51efY",
       "https://x.com/WSJopinion/status/2069254139129872738",
       "https://on.wsj.com/4oHPgGt"
+    ],
+    "2069257361408008507": [
+      "https://x.com/ArpitGuptaji19/status/2069257361408008507",
+      "https://x.com/ArpitGuptaji19/status/2069245511572332940"
+    ],
+    "2069283531210268932": [
+      "https://x.com/rememberlenny/status/2069283531210268932"
     ]
   },
-  "updated_at": "2026-06-23T06:19:29Z",
+  "updated_at": "2026-06-23T10:43:39Z",
   "window": "recent"
 }
