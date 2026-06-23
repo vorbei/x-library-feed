@@ -478,6 +478,21 @@
       "title": "GitHub - iii-hq/iii: Effortlessly compose, extend, and observe every service in real-time for the first time ever. · GitHub",
       "url": "http://github.com/iii-hq/iii"
     },
+    "http://github.com/yibie/awesome-autoresearch": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "awesome autoresearch list. Contribute to yibie/awesome-autoresearch development by creating an account on GitHub.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/yibie/awesome-autoresearch",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/0c8922f085feaf7de4459be6df05e5b1d959bd0808783fd3d8f9785ae4b5852a/yibie/awesome-autoresearch"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - yibie/awesome-autoresearch: awesome autoresearch list · GitHub",
+      "url": "http://github.com/yibie/awesome-autoresearch"
+    },
     "http://glyph.software": {
       "content_type": "text/html; charset=utf-8",
       "description": "Generate logos, typography, color palettes, UI direction, and brand systems in minutes with Glyph.",
@@ -6550,6 +6565,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069182501759967232"
     },
+    "http://x.com/i/article/2069368840409264128": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069368840409264128",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069368840409264128"
+    },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9822,6 +9850,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "AI Agent Memory",
       "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    },
+    "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In this blog, we will learn about LoRA - Low-Rank Adaptation of Large Language Models.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
+      "frameable": false,
+      "image_urls": [
+        "https://outcomeschool.com/static/images/blog/lora-low-rank-adaptation-of-llms.png",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Famit-avatar.png&w=96&q=75",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Fblog%2Flora-low-rank-adaptation-of-llms.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "LoRA - Low-Rank Adaptation of LLMs\n- Authors\n- Name\n- Amit Shekhar\n- Published on\n \n \nIn this blog, we will learn about LoRA - Low-Rank Adaptation of Large Language Models.\nToday, we will cover the following topics:\n- The Big Picture\n- Why Full Fine-Tuning Is Expensive\n- The Core Idea Behind LoRA\n- How LoRA Works Step by Step\n- A Small Numeric Example\n- Where LoRA Is Applied in a Transformer\n- Merging LoRA Back Into the Model\n- Real-World Use Cases\n- Quick Summary\nI am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com), I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.\nI teach [AI and Machine Learning](https://outcomeschool.com/program/ai-and-machine-learning) at Outcome School.\nLet's get started.\nBefore we go into the details, let's understand the big picture.\nLoRA is a way to fine-tune a large model without updating all of its weights. Instead of changing the original weight matrix, we keep it frozen and learn a tiny pair of extra matrices on the side. These tiny matrices capture the \"adjustment\" we want.\nIn simple words:\nLoRA = Frozen original weights + A small low-rank update learned on the side.\nThis makes fine-tuning much cheaper, faster, and lighter on storage. And, we still get strong task-specific performance.\nBefore jumping into LoRA, we must first understand why full fine-tuning is hard.\nWe can learn everything about fine-tuning in this [video](https://www.youtube.com/watch?v=lnfWvX66FUk).\nA modern Large Language Model can have billions of parameters. For example, a 7 billion parameter model has 7 billion numbers inside it. When we do full fine-tuning, we update every single one of these numbers.\nThis causes the following issues:\n- GPU memory explodes. We need to keep the weights, the gradients, and the optimizer states in memory. For Adam, this can be 3 to 4 times the size of the model itself.\n- Training is slow. Updating billions of parameters takes a lot of compute.\n- Storage is heavy. Each fine-tuned copy of the model is the same size as the original. If we have 10 different tasks, we need 10 full copies of a multi-gigabyte model.\n- Sharing is hard. A multi-gigabyte checkpoint per task is not easy to ship to users.\nWe need a smarter way. We need a way to adapt the model to a new task without touching most of its weights.\nSo, here comes LoRA to the rescue.\nThe full form of LoRA is Low-Rank Adaptation.\nLet's decompose the name:\nLoRA = Low-Rank + Adaptation.\n- Adaptation means we are adapting the model to a new task or a new style.\n- Low-Rank means the change we apply to the weights is represented in a very compact form using two small matrices.\nThe idea is based on a powerful observation from the original LoRA paper from Microsoft:\nWhen we fine-tune a large model, the actual update that we apply to the weights is very low-rank. We do not need a full giant update matrix - a much smaller one is enough.\nIn simple words, the \"adjustment\" needed to teach the model a new task is much smaller than the model itself. So, we do not need a giant matrix to represent it.\nWhy does this work? The pre-trained model already knows a lot. It has learned grammar, facts, reasoning, and general patterns. Fine-tuning it for a new task is not a rewrite. It is just a small nudge along a few important directions. That is exactly what \"low-rank\" means.\nLet's take a real-world analogy. Think of the pre-trained model as a giant textbook. Full fine-tuning is like rewriting every page of the textbook for a new topic. LoRA is like keeping the textbook unchanged and adding a small set of sticky notes on top that carry the new knowledge. The textbook stays the same, and the small notes do the actual adjustment.\nNow, let's see how this works in math.\nA weight matrix W inside the m",
+      "title": "LoRA - Low-Rank Adaptation of LLMs",
+      "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
     },
     "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s": {
       "cleaner_v": 2,
@@ -14170,20 +14215,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
     },
-    "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
-    },
     "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14212,20 +14243,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg"
     },
-    "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
-    },
     "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14240,19 +14257,89 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
     },
-    "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg": {
+    "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png": {
       "cleaner_v": 2,
-      "content_type": "image/jpeg",
+      "content_type": "image/png",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
+        "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
+      "url": "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
+    },
+    "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
+    },
+    "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg"
+    },
+    "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg"
+    },
+    "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg"
+    },
+    "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15084,20 +15171,6 @@
       "text_excerpt": "Everything you should know about certificates and PKI but are too afraid to ask\nMike Malone\n[Follow Smallstep](https://twitter.com/smallsteplabs)\nCertificates and public key infrastructure (PKI) are hard. No shit, right? I know a lot of smart people who've avoided this particular rabbit hole. Personally, I avoided it for a long time and felt some shame for not knowing more. The obvious result was a vicious cycle: I was too embarrassed to ask questions so I never learned.\nEventually I was forced to learn this stuff because of what it enables: PKI lets you define a system cryptographically. It's universal and vendor neutral. It works everywhere so bits of your system can run anywhere and communicate securely. It's conceptually simple and super flexible. It lets you [use TLS](https://smallstep.com/blog/use-tls.html) and ditch VPNs. You can ignore everything about your network and still have strong security characteristics. It's pretty great.\nNow that I have learned, I regret not doing so sooner. PKI is really powerful, and really interesting. The math is complicated, and the standards are stupidly baroque, but the core concepts are actually quite simple. Certificates are the best way to identify code and devices, and identity is super useful for security, monitoring, metrics, and a million other things. Using certificates is not that hard. No harder than learning a new language or database. It's just slightly annoying and poorly documented.\nThis is the missing manual. I reckon most engineers can wrap their heads around all the most important concepts and common quirks in less than an hour. That's our goal here. An hour is a pretty small investment to learn something you literally can't do any other way.\nMy motives are mostly didactic. But I'll be using two open source projects we built at smallstep in various demonstrations: the[step CLI](https://smallstep.com/cli)and\n[step certificates](https://smallstep.com/certificates). To follow along you can\nbrew install step to get both (see [full install instructions here](https://github.com/smallstep/cli#installing)). If you prefer the easy button, spin up a free hosted authority using our\n[Certificate Manager](https://smallstep.com/certificate-manager/)offering.\nLet's start with a one sentence tl;dr: the goal of certificates and PKI is to bind names to public keys. That's it. The rest is just implementation details.\nA broad overview and some words you should know\nI'm going to use some technical terms, so let's go ahead and define them before we start.\nAn entity is anything that exists, even if it only exists logically or conceptually. Your computer is an entity. So is some code you wrote. So are you. So is the burrito you ate for lunch. So is the ghost that you saw when you were six -- even if your mom was right and it was just a figment of your imagination.\nEvery entity has an identity. This one's hard to define. Identity is what makes you you, ya know? On computers identity is usually represented as a bag of attributes describing some entity: group, age, location, favorite color, shoe size, whatever. An identifier is not the same as an identity. Rather, it's a unique reference to some entity that has an identity. I'm Mike, but Mike isn't my identity. It's a name -- identifier and name are synonyms (at least for our purposes).\nEntities can claim that they have some particular name. Other entities might be able to authenticate that claim, confirming its truth. But a claim needn't be related to a name: I can make a claim about anything: my age, your age, access rights, the meaning of life, etc. Authentication, in general, is the process of confirming the truth of some claim.\nA subscriber or end entity is an entity that's participating in a PKI and can be the subject of a certificate. A certificate authority (CA) is an entity that issues certificates to subscribers — a certificate issuer. Certificates that belong to subscribers are sometimes called end entity certificates or leaf certific",
       "title": "Everything you should know about certificates and PKI but are too afraid to ask",
       "url": "https://smallstep.com/blog/everything-pki/"
-    },
-    "https://storiedcolors.com/?ref=sidebar": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Storied Colors: named colors with documented histories.",
-      "final_url": "https://storiedcolors.com/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://storiedcolors.com/open-graph/_site.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Storied Colors",
-      "url": "https://storiedcolors.com/?ref=sidebar"
     },
     "https://stratechery.com/2026/anthropics-safety-superpower/": {
       "cleaner_v": 2,
@@ -21661,16 +21734,16 @@
       "https://x.com/kanavtwt/status/2068452805044793377",
       "https://x.com/kanavtwt/status/2068422601979146488",
       "https://x.com/kanavtwt/status/2068959779540894119",
-      "https://x.com/kanavtwt/status/2068600519648772351",
       "https://x.com/kanavtwt/status/2068422449633566740",
+      "https://x.com/kanavtwt/status/2068600519648772351",
       "https://x.com/kanavtwt/status/2068459790817489187",
       "https://x.com/kanavtwt/status/2068797275556753677",
       "https://x.com/kanavtwt/status/2069062742175297837",
       "https://x.com/kanavtwt/status/2068450529353843142",
       "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg",
       "https://x.com/kanavtwt/status/2068404639083733032",
-      "https://x.com/kanavtwt/status/2068478232056549609",
       "https://x.com/kanavtwt/status/2068451150404391053",
+      "https://x.com/kanavtwt/status/2068478232056549609",
       "https://x.com/kanavtwt/status/2068422729871806826",
       "https://x.com/kanavtwt/status/2068454155770102248",
       "https://x.com/kanavtwt/status/2069094576275759605"
@@ -21743,15 +21816,15 @@
       "https://x.com/tomosman/status/2068760297838358736",
       "https://x.com/tomosman/status/2068718802636841105",
       "https://x.com/tomosman/status/2068751912053145798",
-      "https://x.com/tomosman/status/2068786950719303919",
       "https://x.com/tomosman/status/2068958271168266363",
+      "https://x.com/tomosman/status/2068786950719303919",
       "https://x.com/tomosman/status/2068751816955703381",
       "https://x.com/tomosman/status/2068751947339903014",
       "https://x.com/tomosman/status/2068788080417366044",
-      "https://x.com/tomosman/status/2068822434594042001",
       "https://x.com/tomosman/status/2068752282133393656",
-      "https://x.com/tomosman/status/2068788322953056525",
+      "https://x.com/tomosman/status/2068822434594042001",
       "https://x.com/tomosman/status/2068788003120529883",
+      "https://x.com/tomosman/status/2068788322953056525",
       "https://x.com/tomosman/status/2068751876972040610"
     ],
     "2068710057630371863": [
@@ -21979,14 +22052,15 @@
       "http://x.com/i/article/2069033647089287168",
       "https://x.com/iximiuz/status/2069362795607396772",
       "https://smallstep.com/blog/everything-pki/",
-      "https://x.com/iximiuz/status/2069362161910939767",
       "https://x.com/iximiuz/status/2069361984101851479",
+      "https://x.com/iximiuz/status/2069362161910939767",
       "https://x.com/iximiuz/status/2069362056902463680"
     ],
     "2069038610868064513": [
       "https://x.com/yibie/status/2069038610868064513",
       "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "https://x.com/yibie/status/2069270684338118904"
+      "https://x.com/yibie/status/2069358690571075638",
+      "http://github.com/yibie/awesome-autoresearch"
     ],
     "2069047760830033927": [
       "https://x.com/TheEconomist/status/2069047760830033927",
@@ -21995,20 +22069,23 @@
     "2069047852450402325": [
       "https://x.com/vanlightly/status/2069047852450402325",
       "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
-      "https://x.com/vanlightly/status/2069097937251049937"
+      "https://x.com/vanlightly/status/2069097937251049937",
+      "https://x.com/vanlightly/status/2069342959326187606",
+      "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
     ],
     "2069053300176048306": [
       "https://x.com/SidebarIO/status/2069053300176048306",
       "https://bit.ly/side-hey1",
       "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg",
-      "https://x.com/SidebarIO/status/2069107911188484140",
-      "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+      "https://x.com/SidebarIO/status/2069415688121225362",
+      "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
     ],
     "2069056895420371049": [
       "https://x.com/brianchew/status/2069056895420371049",
-      "https://x.com/brianchew/status/2069297364477817014",
-      "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
+      "https://x.com/brianchew/status/2069373817001283784",
+      "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg",
+      "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg",
+      "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg"
     ],
     "2069063987153846763": [
       "https://x.com/zehf/status/2069063987153846763",
@@ -22019,9 +22096,9 @@
       "https://x.com/SidebarIO/status/2069072425224970275",
       "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar",
       "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg",
-      "https://x.com/SidebarIO/status/2069107911188484140",
-      "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+      "https://x.com/SidebarIO/status/2069415688121225362",
+      "https://bit.ly/side-hey1",
+      "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
     ],
     "2069078422115278912": [
       "https://x.com/BrainsAndTennis/status/2069078422115278912"
@@ -22029,11 +22106,15 @@
     "2069080559595253831": [
       "https://x.com/KSimback/status/2069080559595253831",
       "http://x.com/i/article/2068970770357792768",
+      "https://x.com/KSimback/status/2069404959834017968",
       "https://x.com/KSimback/status/2069128338816327847",
-      "https://x.com/KSimback/status/2069090562330796117",
       "https://x.com/KSimback/status/2069099720727773433",
+      "https://x.com/KSimback/status/2069090562330796117",
+      "https://x.com/KSimback/status/2069398085868851228",
+      "https://x.com/KSimback/status/2069080559595253831?s=20",
       "https://x.com/KSimback/status/2069146160124616939",
       "https://x.com/KSimback/status/2069299661324828680",
+      "https://x.com/KSimback/status/2069390366562812394",
       "https://x.com/KSimback/status/2069086662664077694",
       "https://x.com/KSimback/status/2069094866047385800",
       "https://x.com/KSimback/status/2069299723505381784"
@@ -22050,8 +22131,9 @@
     ],
     "2069088549681746293": [
       "https://x.com/pallavishekhar_/status/2069088549681746293",
-      "https://x.com/pallavishekhar_/status/2068950502285689087",
-      "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
+      "https://x.com/pallavishekhar_/status/2069285608795869686",
+      "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
+      "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
     ],
     "2069088950241907089": [
       "https://x.com/HarivanshRathi/status/2069088950241907089",
@@ -22081,9 +22163,9 @@
       "https://x.com/SidebarIO/status/2069107911188484140",
       "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
       "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg",
-      "https://x.com/SidebarIO/status/2069098345025401238",
-      "https://storiedcolors.com/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
+      "https://x.com/SidebarIO/status/2069415688121225362",
+      "https://bit.ly/side-hey1",
+      "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
     ],
     "2069108412453908791": [
       "https://x.com/GoogleAIStudio/status/2069108412453908791",
@@ -22099,21 +22181,21 @@
       "https://x.com/pbakaus/status/2069225824235245795",
       "https://x.com/pbakaus/status/2069184653068788007",
       "https://x.com/pbakaus/status/2069120640825864436",
-      "https://x.com/pbakaus/status/2069226457113751645",
+      "https://x.com/pbakaus/status/2069415365436919841",
       "https://x.com/pbakaus/status/2069178467149832598",
+      "https://x.com/pbakaus/status/2069226457113751645",
       "https://x.com/pbakaus/status/2069158291431899438",
-      "https://x.com/pbakaus/status/2069277676612006300",
-      "https://x.com/pbakaus/status/2069178619495326092",
-      "https://x.com/pbakaus/status/2069157573505560915",
       "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069189872632668358",
-      "https://x.com/pbakaus/status/2069155082919432680",
-      "https://x.com/pbakaus/status/2069136547157606517",
+      "https://x.com/pbakaus/status/2069157573505560915",
+      "https://x.com/pbakaus/status/2069178619495326092",
       "https://x.com/pbakaus/status/2069277055158730995",
       "https://pilcrow.ink/",
-      "https://x.com/pbakaus/status/2069276684852011410",
-      "https://x.com/pbakaus/status/2069157604203560977",
-      "https://x.com/pbakaus/status/2069161200479522985"
+      "https://x.com/pbakaus/status/2069277676612006300",
+      "https://x.com/pbakaus/status/2069161200479522985",
+      "https://x.com/pbakaus/status/2069155082919432680",
+      "https://x.com/pbakaus/status/2069158199610298528",
+      "https://x.com/pbakaus/status/2069276684852011410"
     ],
     "2069113212054757437": [
       "https://x.com/Kylejung25/status/2069113212054757437"
@@ -22131,8 +22213,8 @@
     "2069140112898765064": [
       "https://x.com/ArchiveExplorer/status/2069140112898765064",
       "http://x.com/i/article/2069100625170661376",
-      "https://x.com/ArchiveExplorer/status/2069145588919120110",
-      "https://x.com/ArchiveExplorer/status/2069143331926364477"
+      "https://x.com/ArchiveExplorer/status/2069143331926364477",
+      "https://x.com/ArchiveExplorer/status/2069145588919120110"
     ],
     "2069151402698432860": [
       "https://x.com/PawelHuryn/status/2069151402698432860"
@@ -22144,6 +22226,7 @@
     "2069193102586474781": [
       "https://x.com/cathrynlavery/status/2069193102586474781",
       "http://x.com/i/article/2069167306597392385",
+      "https://x.com/cathrynlavery/status/2069397216268300375",
       "https://x.com/cathrynlavery/status/2069194677845364893",
       "https://x.com/cathrynlavery/status/2069211304217509897"
     ],
@@ -22159,8 +22242,12 @@
     ],
     "2069283531210268932": [
       "https://x.com/rememberlenny/status/2069283531210268932"
+    ],
+    "2069374432947356125": [
+      "https://x.com/nurijanian/status/2069374432947356125",
+      "http://x.com/i/article/2069368840409264128"
     ]
   },
-  "updated_at": "2026-06-23T10:43:39Z",
+  "updated_at": "2026-06-23T13:46:40Z",
   "window": "recent"
 }

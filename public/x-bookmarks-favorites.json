@@ -18,6 +18,46 @@
   "items": [
     {
       "accounts": [
+        "chumsdock"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "999056610063351808",
+        "name": "George from 🕹prodmgmt.world",
+        "username": "nurijanian"
+      },
+      "conversation_id": "2069374432947356125",
+      "created_at": "2026-06-23T10:58:06.000Z",
+      "first_seen_at": "2026-06-23T13:46:40Z",
+      "id": "2069374432947356125",
+      "image_urls": [],
+      "last_seen_at": "2026-06-23T13:46:40Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2069368840409264128"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2069368840409264128"
+      ],
+      "public_metrics": {
+        "bookmark_count": 93,
+        "like_count": 43,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@chumsdock"
+      ],
+      "text": "http://x.com/i/article/2069368840409264128",
+      "url": "https://x.com/nurijanian/status/2069374432947356125"
+    },
+    {
+      "accounts": [
         "CatHanami97880"
       ],
       "article_preview_text": "",
@@ -34,7 +74,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069047760830033927",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -42,7 +82,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 2,
-        "like_count": 17,
+        "like_count": 18,
         "quote_count": 0,
         "reply_count": 3,
         "retweet_count": 3
@@ -72,16 +112,16 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069151402698432860",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 13,
-        "like_count": 4,
+        "bookmark_count": 20,
+        "like_count": 7,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 0
+        "retweet_count": 2
       },
       "referenced_tweets": [
         {
@@ -113,7 +153,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069107648486646108",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.hollandtech.net/claude-is-not-your-architect",
         "https://james-pritchard.com/blog/llms-are-functions"
@@ -154,15 +194,16 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069088549681746293",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
-        "https://pbs.twimg.com/media/HLZjOrlasAA-UAx.jpg"
+        "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
+        "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
       ],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 8,
-        "like_count": 9,
+        "bookmark_count": 14,
+        "like_count": 12,
         "quote_count": 1,
         "reply_count": 1,
         "retweet_count": 3
@@ -197,7 +238,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069036148077293614",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069033647089287168",
         "https://smallstep.com/blog/everything-pki/"
@@ -207,11 +248,11 @@
         "http://x.com/i/article/2069033647089287168"
       ],
       "public_metrics": {
-        "bookmark_count": 463,
-        "like_count": 343,
+        "bookmark_count": 506,
+        "like_count": 384,
         "quote_count": 2,
         "reply_count": 4,
-        "retweet_count": 49
+        "retweet_count": 55
       },
       "referenced_tweets": [],
       "sources": [
@@ -238,17 +279,18 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069047852450402325",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
-        "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy"
+        "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
+        "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
       ],
       "media": [],
       "primary_urls": [
         "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy"
       ],
       "public_metrics": {
-        "bookmark_count": 91,
-        "like_count": 83,
+        "bookmark_count": 96,
+        "like_count": 86,
         "quote_count": 1,
         "reply_count": 2,
         "retweet_count": 10
@@ -278,7 +320,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069088420572393702",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial"
       ],
@@ -318,7 +360,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2068787541008896013",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://zhcinstitute.com",
         "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg",
@@ -329,7 +371,7 @@
         "http://zhcinstitute.com"
       ],
       "public_metrics": {
-        "bookmark_count": 159,
+        "bookmark_count": 162,
         "like_count": 68,
         "quote_count": 0,
         "reply_count": 3,
@@ -365,13 +407,13 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069257361408008507",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 19,
-        "like_count": 13,
+        "bookmark_count": 30,
+        "like_count": 15,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 1
@@ -406,13 +448,13 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069136895997796724",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 4,
-        "like_count": 7,
+        "bookmark_count": 3,
+        "like_count": 8,
         "quote_count": 0,
         "reply_count": 3,
         "retweet_count": 0
@@ -447,15 +489,17 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069056895420371049",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
-        "https://pbs.twimg.com/media/HLee9BnbwAAQU6a.jpg"
+        "https://pbs.twimg.com/media/HLfkgmYbkAAIp3Z.jpg",
+        "https://pbs.twimg.com/media/HLfkgmrbMAAN-yz.jpg",
+        "https://pbs.twimg.com/media/HLfkgmRasAE-MtR.jpg"
       ],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 3,
-        "like_count": 3,
+        "like_count": 4,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 1
@@ -490,7 +534,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069088950241907089",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068806024820322304"
       ],
@@ -499,11 +543,11 @@
         "http://x.com/i/article/2068806024820322304"
       ],
       "public_metrics": {
-        "bookmark_count": 23,
+        "bookmark_count": 26,
         "like_count": 7,
         "quote_count": 1,
         "reply_count": 0,
-        "retweet_count": 0
+        "retweet_count": 1
       },
       "referenced_tweets": [],
       "sources": [
@@ -530,7 +574,7 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069113212054757437",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -571,16 +615,16 @@
       "first_seen_at": "2026-06-23T10:43:39Z",
       "id": "2069283531210268932",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 222,
-        "like_count": 170,
+        "bookmark_count": 264,
+        "like_count": 215,
         "quote_count": 0,
-        "reply_count": 19,
-        "retweet_count": 3
+        "reply_count": 22,
+        "retweet_count": 4
       },
       "referenced_tweets": [
         {
@@ -613,7 +657,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069186019560394833",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069182501759967232"
       ],
@@ -622,11 +666,11 @@
         "http://x.com/i/article/2069182501759967232"
       ],
       "public_metrics": {
-        "bookmark_count": 6444,
-        "like_count": 3515,
-        "quote_count": 167,
-        "reply_count": 150,
-        "retweet_count": 410
+        "bookmark_count": 7210,
+        "like_count": 3891,
+        "quote_count": 193,
+        "reply_count": 167,
+        "retweet_count": 465
       },
       "referenced_tweets": [],
       "sources": [
@@ -654,7 +698,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069193102586474781",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069167306597392385"
       ],
@@ -663,11 +707,11 @@
         "http://x.com/i/article/2069167306597392385"
       ],
       "public_metrics": {
-        "bookmark_count": 745,
-        "like_count": 229,
-        "quote_count": 0,
-        "reply_count": 10,
-        "retweet_count": 18
+        "bookmark_count": 873,
+        "like_count": 276,
+        "quote_count": 2,
+        "reply_count": 12,
+        "retweet_count": 23
       },
       "referenced_tweets": [],
       "sources": [
@@ -694,7 +738,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069107865219166548",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069105923117948928",
         "https://pbs.twimg.com/amplify_video_thumb/2069108298629201920/img/at2ERNbuy5lkbA6m.jpg"
@@ -704,8 +748,8 @@
         "http://x.com/i/article/2069105923117948928"
       ],
       "public_metrics": {
-        "bookmark_count": 4,
-        "like_count": 4,
+        "bookmark_count": 6,
+        "like_count": 6,
         "quote_count": 1,
         "reply_count": 0,
         "retweet_count": 4
@@ -735,7 +779,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069080559595253831",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068970770357792768"
       ],
@@ -744,11 +788,11 @@
         "http://x.com/i/article/2068970770357792768"
       ],
       "public_metrics": {
-        "bookmark_count": 173,
-        "like_count": 227,
-        "quote_count": 15,
-        "reply_count": 39,
-        "retweet_count": 33
+        "bookmark_count": 199,
+        "like_count": 245,
+        "quote_count": 18,
+        "reply_count": 44,
+        "retweet_count": 36
       },
       "referenced_tweets": [],
       "sources": [
@@ -775,7 +819,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069082532222570504",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069069590433341440"
       ],
@@ -785,7 +829,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 39,
-        "like_count": 38,
+        "like_count": 40,
         "quote_count": 2,
         "reply_count": 9,
         "retweet_count": 3
@@ -815,7 +859,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069228960483860688",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://on.wsj.com/4w51efY",
         "https://on.wsj.com/4oHPgGt"
@@ -828,7 +872,7 @@
         "bookmark_count": 2,
         "like_count": 7,
         "quote_count": 0,
-        "reply_count": 0,
+        "reply_count": 1,
         "retweet_count": 1
       },
       "referenced_tweets": [],
@@ -859,7 +903,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069140112898765064",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069100625170661376"
       ],
@@ -868,11 +912,11 @@
         "http://x.com/i/article/2069100625170661376"
       ],
       "public_metrics": {
-        "bookmark_count": 103,
-        "like_count": 66,
-        "quote_count": 2,
+        "bookmark_count": 118,
+        "like_count": 82,
+        "quote_count": 3,
         "reply_count": 3,
-        "retweet_count": 8
+        "retweet_count": 9
       },
       "referenced_tweets": [],
       "sources": [
@@ -899,16 +943,16 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069078422115278912",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 117,
-        "like_count": 51,
+        "bookmark_count": 163,
+        "like_count": 70,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 2
+        "retweet_count": 3
       },
       "referenced_tweets": [
         {
@@ -940,7 +984,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069102792632066283",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064586684600352768"
       ],
@@ -949,11 +993,11 @@
         "http://x.com/i/article/2064586684600352768"
       ],
       "public_metrics": {
-        "bookmark_count": 161,
-        "like_count": 54,
+        "bookmark_count": 191,
+        "like_count": 67,
         "quote_count": 2,
         "reply_count": 0,
-        "retweet_count": 5
+        "retweet_count": 7
       },
       "referenced_tweets": [],
       "sources": [
@@ -980,7 +1024,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069117475606708291",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069066535365218304"
       ],
@@ -990,7 +1034,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 49,
-        "like_count": 29,
+        "like_count": 30,
         "quote_count": 1,
         "reply_count": 0,
         "retweet_count": 1
@@ -1020,7 +1064,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069111016366170524",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068680013340102657",
         "https://pilcrow.ink/"
@@ -1030,11 +1074,11 @@
         "http://x.com/i/article/2068680013340102657"
       ],
       "public_metrics": {
-        "bookmark_count": 716,
-        "like_count": 499,
-        "quote_count": 29,
-        "reply_count": 47,
-        "retweet_count": 24
+        "bookmark_count": 823,
+        "like_count": 552,
+        "quote_count": 32,
+        "reply_count": 52,
+        "retweet_count": 26
       },
       "referenced_tweets": [],
       "sources": [
@@ -1061,7 +1105,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069108513423454298",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://vercel.com/changelog/websocket-support-is-now-in-public-beta"
       ],
@@ -1070,11 +1114,11 @@
         "https://vercel.com/changelog/websocket-support-is-now-in-public-beta"
       ],
       "public_metrics": {
-        "bookmark_count": 420,
-        "like_count": 1395,
-        "quote_count": 100,
-        "reply_count": 82,
-        "retweet_count": 126
+        "bookmark_count": 442,
+        "like_count": 1454,
+        "quote_count": 105,
+        "reply_count": 85,
+        "retweet_count": 133
       },
       "referenced_tweets": [],
       "sources": [
@@ -1104,7 +1148,7 @@
       "first_seen_at": "2026-06-23T06:19:29Z",
       "id": "2069107400297390175",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069093218839592960"
       ],
@@ -1113,11 +1157,11 @@
         "http://x.com/i/article/2069093218839592960"
       ],
       "public_metrics": {
-        "bookmark_count": 479,
-        "like_count": 171,
+        "bookmark_count": 528,
+        "like_count": 192,
         "quote_count": 0,
         "reply_count": 11,
-        "retweet_count": 15
+        "retweet_count": 17
       },
       "referenced_tweets": [],
       "sources": [
@@ -1146,12 +1190,12 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar",
         "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg",
-        "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
-        "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+        "https://bit.ly/side-hey1",
+        "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
       ],
       "media": [
         {
@@ -1201,7 +1245,7 @@
       "first_seen_at": "2026-06-23T01:23:22Z",
       "id": "2069063987153846763",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters"
       ],
@@ -1210,11 +1254,11 @@
         "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters"
       ],
       "public_metrics": {
-        "bookmark_count": 783,
-        "like_count": 749,
+        "bookmark_count": 857,
+        "like_count": 828,
         "quote_count": 8,
-        "reply_count": 30,
-        "retweet_count": 44
+        "reply_count": 33,
+        "retweet_count": 46
       },
       "referenced_tweets": [],
       "sources": [
@@ -1246,12 +1290,12 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
         "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg",
-        "https://storiedcolors.com/?ref=sidebar",
-        "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
+        "https://bit.ly/side-hey1",
+        "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
       ],
       "media": [
         {
@@ -1301,7 +1345,7 @@
       "first_seen_at": "2026-06-23T01:23:22Z",
       "id": "2069108412453908791",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069077093036576768"
       ],
@@ -1310,11 +1354,11 @@
         "http://x.com/i/article/2069077093036576768"
       ],
       "public_metrics": {
-        "bookmark_count": 343,
-        "like_count": 590,
+        "bookmark_count": 357,
+        "like_count": 628,
         "quote_count": 20,
         "reply_count": 18,
-        "retweet_count": 53
+        "retweet_count": 54
       },
       "referenced_tweets": [],
       "sources": [
@@ -1341,7 +1385,7 @@
       "first_seen_at": "2026-06-23T01:23:22Z",
       "id": "2068974245963526169",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068943445662846976"
       ],
@@ -1350,11 +1394,11 @@
         "http://x.com/i/article/2068943445662846976"
       ],
       "public_metrics": {
-        "bookmark_count": 103,
-        "like_count": 73,
+        "bookmark_count": 109,
+        "like_count": 78,
         "quote_count": 4,
-        "reply_count": 5,
-        "retweet_count": 18
+        "reply_count": 6,
+        "retweet_count": 22
       },
       "referenced_tweets": [],
       "sources": [
@@ -1381,16 +1425,16 @@
       "first_seen_at": "2026-06-23T01:23:22Z",
       "id": "2069127421291377016",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 4818,
-        "like_count": 3400,
-        "quote_count": 68,
-        "reply_count": 175,
-        "retweet_count": 574
+        "bookmark_count": 5354,
+        "like_count": 3761,
+        "quote_count": 74,
+        "reply_count": 198,
+        "retweet_count": 640
       },
       "referenced_tweets": [
         {
@@ -1425,20 +1469,21 @@
       "first_seen_at": "2026-06-22T18:18:00Z",
       "id": "2069038610868064513",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
-        "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+        "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+        "http://github.com/yibie/awesome-autoresearch"
       ],
       "media": [],
       "primary_urls": [
         "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
       ],
       "public_metrics": {
-        "bookmark_count": 27,
-        "like_count": 13,
+        "bookmark_count": 28,
+        "like_count": 15,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 4
+        "retweet_count": 5
       },
       "referenced_tweets": [],
       "sources": [
@@ -1465,16 +1510,16 @@
       "first_seen_at": "2026-06-22T18:18:00Z",
       "id": "2068890021466403242",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 796,
-        "like_count": 348,
+        "bookmark_count": 856,
+        "like_count": 381,
         "quote_count": 3,
         "reply_count": 43,
-        "retweet_count": 72
+        "retweet_count": 84
       },
       "referenced_tweets": [
         {
@@ -1508,12 +1553,11 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://bit.ly/side-hey1",
         "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg",
-        "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
-        "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+        "https://pbs.twimg.com/media/HLgKmb9WgAAXrIM.jpg"
       ],
       "media": [
         {
@@ -1563,7 +1607,7 @@
       "first_seen_at": "2026-06-22T18:18:00Z",
       "id": "2068892281650696664",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068892014066708481",
         "http://opensigil.org",
@@ -1605,7 +1649,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068902098696339811",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://Z.ai",
         "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg"
@@ -1617,7 +1661,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 92,
-        "like_count": 490,
+        "like_count": 494,
         "quote_count": 7,
         "reply_count": 23,
         "retweet_count": 36
@@ -1652,7 +1696,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLRfxGWaAAArrHN.jpg",
         "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg"
@@ -1669,11 +1713,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 5893,
-        "like_count": 106385,
-        "quote_count": 1778,
-        "reply_count": 2210,
-        "retweet_count": 11143
+        "bookmark_count": 5944,
+        "like_count": 106792,
+        "quote_count": 1800,
+        "reply_count": 2237,
+        "retweet_count": 11204
       },
       "referenced_tweets": [],
       "sources": [
@@ -1705,7 +1749,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg"
       ],
@@ -1721,11 +1765,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 8445,
-        "like_count": 3805,
+        "bookmark_count": 8454,
+        "like_count": 3815,
         "quote_count": 28,
         "reply_count": 107,
-        "retweet_count": 552
+        "retweet_count": 553
       },
       "referenced_tweets": [
         {
@@ -1760,7 +1804,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2069008589721932251",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2069008066105008129"
       ],
@@ -1769,8 +1813,8 @@
         "http://x.com/i/article/2069008066105008129"
       ],
       "public_metrics": {
-        "bookmark_count": 788,
-        "like_count": 423,
+        "bookmark_count": 800,
+        "like_count": 426,
         "quote_count": 2,
         "reply_count": 15,
         "retweet_count": 54
@@ -1802,7 +1846,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/AI-Builder-Club/loop-engineer-template",
         "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
@@ -1821,11 +1865,11 @@
         "https://github.com/AI-Builder-Club/loop-engineer-template"
       ],
       "public_metrics": {
-        "bookmark_count": 2917,
-        "like_count": 1327,
-        "quote_count": 6,
-        "reply_count": 38,
-        "retweet_count": 154
+        "bookmark_count": 3163,
+        "like_count": 1431,
+        "quote_count": 8,
+        "reply_count": 42,
+        "retweet_count": 174
       },
       "referenced_tweets": [
         {
@@ -1862,7 +1906,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg",
         "http://askpalette.com"
@@ -1879,8 +1923,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 246,
-        "like_count": 210,
+        "bookmark_count": 254,
+        "like_count": 215,
         "quote_count": 1,
         "reply_count": 7,
         "retweet_count": 7
@@ -1915,7 +1959,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://heyform.net",
         "http://github.com/bluewave-labs/checkmate",
@@ -1942,10 +1986,10 @@
         "http://varchive.ai/apps"
       ],
       "public_metrics": {
-        "bookmark_count": 307,
-        "like_count": 219,
+        "bookmark_count": 308,
+        "like_count": 220,
         "quote_count": 0,
-        "reply_count": 18,
+        "reply_count": 19,
         "retweet_count": 21
       },
       "referenced_tweets": [],
@@ -1976,7 +2020,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068882720441156026",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068874893844692992"
       ],
@@ -1985,7 +2029,7 @@
         "http://x.com/i/article/2068874893844692992"
       ],
       "public_metrics": {
-        "bookmark_count": 97,
+        "bookmark_count": 96,
         "like_count": 62,
         "quote_count": 3,
         "reply_count": 19,
@@ -2016,7 +2060,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068744002254282992",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://james-pritchard.com/blog/llms-are-functions",
         "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/"
@@ -2060,7 +2104,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068835121390662044",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
       ],
@@ -2103,7 +2147,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068663833644990606",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://polishme.app/council/c/b3b66aff-d3fc-4711-8288-bda14a29365d",
         "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
@@ -2144,7 +2188,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068963699763884240",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
         "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai",
@@ -2156,7 +2200,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 8,
-        "like_count": 16,
+        "like_count": 17,
         "quote_count": 0,
         "reply_count": 5,
         "retweet_count": 1
@@ -2189,7 +2233,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068714813878870059",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social",
         "https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1782084480",
@@ -2234,7 +2278,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068683947899273295",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068670346241392640",
         "https://github.com/shanraisshan/claude-code-best-practice",
@@ -2276,7 +2320,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068931416612905457",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2061486694738882564"
       ],
@@ -2285,9 +2329,9 @@
         "http://x.com/i/article/2061486694738882564"
       ],
       "public_metrics": {
-        "bookmark_count": 441,
-        "like_count": 307,
-        "quote_count": 0,
+        "bookmark_count": 439,
+        "like_count": 309,
+        "quote_count": 1,
         "reply_count": 26,
         "retweet_count": 33
       },
@@ -2316,7 +2360,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068987470960623783",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068798868930920448"
       ],
@@ -2325,7 +2369,7 @@
         "http://x.com/i/article/2068798868930920448"
       ],
       "public_metrics": {
-        "bookmark_count": 294,
+        "bookmark_count": 296,
         "like_count": 187,
         "quote_count": 1,
         "reply_count": 5,
@@ -2356,7 +2400,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068779263298568646",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068755583214538752",
         "https://trailblazermktg.com/"
@@ -2366,8 +2410,8 @@
         "http://x.com/i/article/2068755583214538752"
       ],
       "public_metrics": {
-        "bookmark_count": 390,
-        "like_count": 126,
+        "bookmark_count": 394,
+        "like_count": 128,
         "quote_count": 3,
         "reply_count": 9,
         "retweet_count": 5
@@ -2397,7 +2441,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068743875527844200",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068726868988264448"
       ],
@@ -2437,7 +2481,7 @@
       "first_seen_at": "2026-06-22T13:43:50Z",
       "id": "2068916924155576478",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -2445,7 +2489,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 35,
-        "like_count": 104,
+        "like_count": 105,
         "quote_count": 7,
         "reply_count": 16,
         "retweet_count": 30
@@ -2478,7 +2522,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068910841228095573",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -2516,7 +2560,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://recent.design/",
         "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg"
@@ -2535,8 +2579,8 @@
         "https://recent.design/"
       ],
       "public_metrics": {
-        "bookmark_count": 208,
-        "like_count": 186,
+        "bookmark_count": 211,
+        "like_count": 188,
         "quote_count": 2,
         "reply_count": 17,
         "retweet_count": 22
@@ -2566,7 +2610,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068727720243089498",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068702905687773184"
       ],
@@ -2575,8 +2619,8 @@
         "http://x.com/i/article/2068702905687773184"
       ],
       "public_metrics": {
-        "bookmark_count": 664,
-        "like_count": 329,
+        "bookmark_count": 671,
+        "like_count": 331,
         "quote_count": 3,
         "reply_count": 18,
         "retweet_count": 17
@@ -2607,7 +2651,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068730090457006588",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068130070678691840"
       ],
@@ -2616,11 +2660,11 @@
         "http://x.com/i/article/2068130070678691840"
       ],
       "public_metrics": {
-        "bookmark_count": 1037,
-        "like_count": 447,
+        "bookmark_count": 1041,
+        "like_count": 448,
         "quote_count": 4,
         "reply_count": 19,
-        "retweet_count": 80
+        "retweet_count": 81
       },
       "referenced_tweets": [],
       "sources": [
@@ -2647,7 +2691,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068734749083091319",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -2691,7 +2735,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068778941553512828",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068776714554191872"
       ],
@@ -2731,7 +2775,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068881644191465901",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068877374998073344"
       ],
@@ -2740,11 +2784,11 @@
         "http://x.com/i/article/2068877374998073344"
       ],
       "public_metrics": {
-        "bookmark_count": 740,
-        "like_count": 879,
+        "bookmark_count": 747,
+        "like_count": 891,
         "quote_count": 49,
         "reply_count": 59,
-        "retweet_count": 59
+        "retweet_count": 61
       },
       "referenced_tweets": [],
       "sources": [
@@ -2771,7 +2815,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068808668393451770",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068806007963123712"
       ],
@@ -2811,7 +2855,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068812476192624940",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -2855,7 +2899,7 @@
       "first_seen_at": "2026-06-22T07:41:25Z",
       "id": "2068841029524979777",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://agent-browser.dev",
         "http://portless.sh",
@@ -2870,11 +2914,11 @@
         "http://ai-cli.dev"
       ],
       "public_metrics": {
-        "bookmark_count": 2768,
-        "like_count": 1819,
+        "bookmark_count": 2841,
+        "like_count": 1857,
         "quote_count": 7,
-        "reply_count": 48,
-        "retweet_count": 135
+        "reply_count": 50,
+        "retweet_count": 138
       },
       "referenced_tweets": [],
       "sources": [
@@ -2904,7 +2948,7 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068747055955132841",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -2915,7 +2959,7 @@
         "like_count": 154,
         "quote_count": 5,
         "reply_count": 16,
-        "retweet_count": 51
+        "retweet_count": 50
       },
       "referenced_tweets": [],
       "sources": [
@@ -2947,7 +2991,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLQZQrHX0AAv2QP.jpg"
       ],
@@ -2963,7 +3007,7 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1622,
+        "bookmark_count": 1621,
         "like_count": 2474,
         "quote_count": 10,
         "reply_count": 42,
@@ -3002,15 +3046,15 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068710057630371863",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://open.substack.com/pub/airstreet/p/europe-ai-sovereignty"
       ],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 146,
-        "like_count": 264,
+        "bookmark_count": 147,
+        "like_count": 265,
         "quote_count": 33,
         "reply_count": 30,
         "retweet_count": 57
@@ -3043,15 +3087,15 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068454450310586639",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.getstanley.ai/r/pas"
       ],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 3437,
-        "like_count": 1665,
+        "bookmark_count": 3438,
+        "like_count": 1664,
         "quote_count": 0,
         "reply_count": 14,
         "retweet_count": 175
@@ -3086,7 +3130,7 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068678395672859105",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -3130,7 +3174,7 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068617975385715117",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068595790025490432"
       ],
@@ -3170,7 +3214,7 @@
       "first_seen_at": "2026-06-22T01:40:50Z",
       "id": "2068780696118980747",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068775857917919232"
       ],
@@ -3212,7 +3256,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
         "https://pbs.twimg.com/media/HLWPp3HXsAA7oc3.jpg"
@@ -3265,7 +3309,7 @@
       "first_seen_at": "2026-06-21T13:17:49Z",
       "id": "2068434833001640117",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068428251060715520"
       ],
@@ -3305,7 +3349,7 @@
       "first_seen_at": "2026-06-21T10:46:34Z",
       "id": "2068547697557282935",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068547189937422336"
       ],
@@ -3345,7 +3389,7 @@
       "first_seen_at": "2026-06-21T10:46:34Z",
       "id": "2068328135611822149",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068024770029932544"
       ],
@@ -3354,11 +3398,11 @@
         "http://x.com/i/article/2068024770029932544"
       ],
       "public_metrics": {
-        "bookmark_count": 16570,
-        "like_count": 3880,
-        "quote_count": 125,
+        "bookmark_count": 16922,
+        "like_count": 3965,
+        "quote_count": 128,
         "reply_count": 117,
-        "retweet_count": 578
+        "retweet_count": 593
       },
       "referenced_tweets": [],
       "sources": [
@@ -3385,7 +3429,7 @@
       "first_seen_at": "2026-06-21T07:08:53Z",
       "id": "2068382815994212664",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2068379021310914560",
         "http://browserops.ai",
@@ -3427,7 +3471,7 @@
       "first_seen_at": "2026-06-21T07:08:53Z",
       "id": "2068191004545696080",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/Forward-Future/loop-library"
       ],
@@ -3470,12 +3514,12 @@
       "first_seen_at": "2026-06-21T01:39:37Z",
       "id": "2068429571788341428",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1723,
+        "bookmark_count": 1724,
         "like_count": 715,
         "quote_count": 1,
         "reply_count": 10,
@@ -3514,14 +3558,14 @@
       "first_seen_at": "2026-06-20T16:50:53Z",
       "id": "2068297461379252344",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.getstanley.ai/r/pas"
       ],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 3374,
+        "bookmark_count": 3372,
         "like_count": 1342,
         "quote_count": 1,
         "reply_count": 17,
@@ -3560,7 +3604,7 @@
       "first_seen_at": "2026-06-20T00:19:52Z",
       "id": "2067981638227964220",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067761662137110528"
       ],
@@ -3569,8 +3613,8 @@
         "http://x.com/i/article/2067761662137110528"
       ],
       "public_metrics": {
-        "bookmark_count": 421,
-        "like_count": 170,
+        "bookmark_count": 422,
+        "like_count": 171,
         "quote_count": 9,
         "reply_count": 15,
         "retweet_count": 22
@@ -3600,7 +3644,7 @@
       "first_seen_at": "2026-06-20T00:19:52Z",
       "id": "2067937943545897143",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067919620452032512"
       ],
@@ -3609,11 +3653,11 @@
         "http://x.com/i/article/2067919620452032512"
       ],
       "public_metrics": {
-        "bookmark_count": 2561,
-        "like_count": 1043,
-        "quote_count": 10,
-        "reply_count": 18,
-        "retweet_count": 131
+        "bookmark_count": 2599,
+        "like_count": 1054,
+        "quote_count": 11,
+        "reply_count": 19,
+        "retweet_count": 133
       },
       "referenced_tweets": [],
       "sources": [
@@ -3640,7 +3684,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067544109141627132",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLWcOfIXMAAXWoK.png"
       ],
@@ -3685,7 +3729,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://virtualosmuseum.org/?ref=sidebar",
         "https://pbs.twimg.com/media/HLHDnq5XwAAmYjN.jpg",
@@ -3740,7 +3784,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067682870009925736",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://signals.forwardfuture.ai/loop-library/",
         "http://here.now"
@@ -3750,8 +3794,8 @@
         "https://signals.forwardfuture.ai/loop-library/"
       ],
       "public_metrics": {
-        "bookmark_count": 7283,
-        "like_count": 3561,
+        "bookmark_count": 7284,
+        "like_count": 3562,
         "quote_count": 26,
         "reply_count": 117,
         "retweet_count": 352
@@ -3786,7 +3830,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLGsDJmXYAAne9y.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://magnus919.com/2026/06/the-architecture-of-focus/?ref=sidebar",
         "https://pbs.twimg.com/media/HLGsDJmXYAAne9y.jpg"
@@ -3839,7 +3883,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067690067288572209",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067686501891112960"
       ],
@@ -3848,7 +3892,7 @@
         "http://x.com/i/article/2067686501891112960"
       ],
       "public_metrics": {
-        "bookmark_count": 947,
+        "bookmark_count": 946,
         "like_count": 429,
         "quote_count": 3,
         "reply_count": 11,
@@ -3879,7 +3923,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067654523049685057",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067652605350739968"
       ],
@@ -3888,7 +3932,7 @@
         "http://x.com/i/article/2067652605350739968"
       ],
       "public_metrics": {
-        "bookmark_count": 518,
+        "bookmark_count": 517,
         "like_count": 210,
         "quote_count": 1,
         "reply_count": 5,
@@ -3919,12 +3963,12 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067681739695391173",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 2506,
+        "bookmark_count": 2505,
         "like_count": 985,
         "quote_count": 0,
         "reply_count": 11,
@@ -3960,7 +4004,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067638000037790178",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067621155209674753"
       ],
@@ -4000,7 +4044,7 @@
       "first_seen_at": "2026-06-19T02:06:15Z",
       "id": "2067642363909144932",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067372540515995648"
       ],
@@ -4009,8 +4053,8 @@
         "http://x.com/i/article/2067372540515995648"
       ],
       "public_metrics": {
-        "bookmark_count": 1468,
-        "like_count": 621,
+        "bookmark_count": 1492,
+        "like_count": 628,
         "quote_count": 10,
         "reply_count": 12,
         "retweet_count": 49
@@ -4040,7 +4084,7 @@
       "first_seen_at": "2026-06-18T18:11:24Z",
       "id": "2067400542146773454",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067397138816868352"
       ],
@@ -4082,7 +4126,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067364516006895617/img/xmnsqpaHeomXkrPI.jpg"
       ],
@@ -4137,7 +4181,7 @@
       "first_seen_at": "2026-06-18T18:11:24Z",
       "id": "2067626075882983763",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067526637747347456",
         "http://machina.fyi"
@@ -4147,7 +4191,7 @@
         "http://x.com/i/article/2067526637747347456"
       ],
       "public_metrics": {
-        "bookmark_count": 1373,
+        "bookmark_count": 1374,
         "like_count": 645,
         "quote_count": 8,
         "reply_count": 31,
@@ -4178,7 +4222,7 @@
       "first_seen_at": "2026-06-18T18:11:24Z",
       "id": "2067320100911493454",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067307652779225088"
       ],
@@ -4187,11 +4231,11 @@
         "http://x.com/i/article/2067307652779225088"
       ],
       "public_metrics": {
-        "bookmark_count": 575,
+        "bookmark_count": 573,
         "like_count": 429,
         "quote_count": 21,
         "reply_count": 87,
-        "retweet_count": 111
+        "retweet_count": 110
       },
       "referenced_tweets": [],
       "sources": [
@@ -4218,7 +4262,7 @@
       "first_seen_at": "2026-06-18T18:11:24Z",
       "id": "2067540972150628777",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067539211620667393"
       ],
@@ -4260,7 +4304,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://ailayoffs.rajnandan.com/?ref=sidebar",
         "https://pbs.twimg.com/media/HLGap6aXEAAJfIZ.jpg",
@@ -4315,7 +4359,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067445628754690376",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLWOBeCaMAAW_Eu.png"
       ],
@@ -4353,7 +4397,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2066830879771783507",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066820333206933504"
       ],
@@ -4393,7 +4437,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067503217035092253",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067497511229718528"
       ],
@@ -4435,7 +4479,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067171522675179520/img/rv2UzZMjj2xsrVfD.jpg"
       ],
@@ -4451,10 +4495,10 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 4806,
-        "like_count": 1901,
+        "bookmark_count": 4807,
+        "like_count": 1903,
         "quote_count": 11,
-        "reply_count": 70,
+        "reply_count": 71,
         "retweet_count": 280
       },
       "referenced_tweets": [
@@ -4490,7 +4534,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067237036894175561",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2057174749848178688"
       ],
@@ -4499,7 +4543,7 @@
         "http://x.com/i/article/2057174749848178688"
       ],
       "public_metrics": {
-        "bookmark_count": 564,
+        "bookmark_count": 565,
         "like_count": 197,
         "quote_count": 5,
         "reply_count": 6,
@@ -4530,7 +4574,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067333337577140306",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://lore.org/",
         "https://cursor.com/origin",
@@ -4579,7 +4623,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067396647290888192/img/QgwZF96PUdmM7utn.jpg"
       ],
@@ -4634,7 +4678,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067283862720303451",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066833148055330816"
       ],
@@ -4675,7 +4719,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067252839269933559",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.0xkato.xyz/how-llms-actually-work/"
       ],
@@ -4718,7 +4762,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067357113869898150",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -4762,7 +4806,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067329489252868241",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067312987946323968"
       ],
@@ -4804,7 +4848,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLBhYbMXAAA9NGk.png",
         "https://www.aihero.dev/s/cGicnb",
@@ -4823,10 +4867,10 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 5117,
+        "bookmark_count": 5114,
         "like_count": 4526,
         "quote_count": 48,
-        "reply_count": 109,
+        "reply_count": 110,
         "retweet_count": 409
       },
       "referenced_tweets": [],
@@ -4857,7 +4901,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067288677584339036",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2044100677014827011"
       ],
@@ -4897,7 +4941,7 @@
       "first_seen_at": "2026-06-18T11:17:09Z",
       "id": "2067291158594859047",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067225376863191040"
       ],
@@ -4937,7 +4981,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067375373449605381",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067326049382494208"
       ],
@@ -4979,7 +5023,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067264562789756928/img/Mh8xaTd5nCpiqq2B.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067264562789756928/img/Mh8xaTd5nCpiqq2B.jpg",
         "http://palmier.io",
@@ -4997,11 +5041,11 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 14350,
-        "like_count": 12735,
-        "quote_count": 397,
-        "reply_count": 568,
-        "retweet_count": 963
+        "bookmark_count": 14370,
+        "like_count": 12745,
+        "quote_count": 398,
+        "reply_count": 569,
+        "retweet_count": 968
       },
       "referenced_tweets": [],
       "sources": [
@@ -5031,7 +5075,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067262326043287852",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067086994455601152"
       ],
@@ -5071,7 +5115,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067194761446920264",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067171614580441089"
       ],
@@ -5080,10 +5124,10 @@
         "http://x.com/i/article/2067171614580441089"
       ],
       "public_metrics": {
-        "bookmark_count": 17592,
-        "like_count": 5015,
+        "bookmark_count": 17607,
+        "like_count": 5021,
         "quote_count": 70,
-        "reply_count": 83,
+        "reply_count": 84,
         "retweet_count": 836
       },
       "referenced_tweets": [],
@@ -5111,7 +5155,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2066969642774720961",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://alignment.openai.com/validating-public-evals/",
         "https://openai.com/index/deployment-simulation/",
@@ -5166,7 +5210,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLClUj4WwAAEY8m.jpg",
         "https://pbs.twimg.com/media/HLPjYN_XwAAPowL.jpg"
@@ -5222,7 +5266,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067298189061795856",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -5266,13 +5310,13 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067251298064601567",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 85,
-        "like_count": 48,
+        "like_count": 49,
         "quote_count": 1,
         "reply_count": 0,
         "retweet_count": 3
@@ -5310,7 +5354,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067364351678583245",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://mstack.ai"
       ],
@@ -5358,7 +5402,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067348732127895753",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
       ],
@@ -5401,7 +5445,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067291637949116431",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067266223138578432"
       ],
@@ -5441,7 +5485,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067313826492547483",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067226240121999360",
         "https://substack.com/@yanxbt"
@@ -5451,7 +5495,7 @@
         "http://x.com/i/article/2067226240121999360"
       ],
       "public_metrics": {
-        "bookmark_count": 864,
+        "bookmark_count": 865,
         "like_count": 391,
         "quote_count": 4,
         "reply_count": 5,
@@ -5482,7 +5526,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067417702394712090",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067407628855095296"
       ],
@@ -5522,7 +5566,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2066994231139299469",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.theinformation.com/articles/anthropic-ban-stirs-concerns-openai-beyond-crackdown-foreign-ai-talent",
         "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg",
@@ -5570,7 +5614,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HLENsfEaEAAbKNt.jpg"
       ],
@@ -5625,7 +5669,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067295693170213008",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067217302018465792"
       ],
@@ -5665,7 +5709,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067201971896176856",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067183113885843456"
       ],
@@ -5705,7 +5749,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067297889018114406",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067237524699766784"
       ],
@@ -5745,7 +5789,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067320699627122716",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066911054584565760"
       ],
@@ -5785,7 +5829,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067345406699393176",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067320284844322816"
       ],
@@ -5825,7 +5869,7 @@
       "first_seen_at": "2026-06-18T07:06:06Z",
       "id": "2067276977757618201",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.bloomberg.com/news/newsletters/2026-06-17/us-order-on-anthropic-models-signals-new-era-for-ai-controls?taid=6a32c55647689a0001d23679&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
       ],
@@ -5868,12 +5912,12 @@
       "first_seen_at": "2026-06-18T01:43:05Z",
       "id": "2067265619159081028",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1074,
+        "bookmark_count": 1075,
         "like_count": 545,
         "quote_count": 1,
         "reply_count": 33,
@@ -5911,7 +5955,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HLCCuoyWYAEbGCq.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/?ref=sidebar",
         "https://pbs.twimg.com/media/HLCCuoyWYAEbGCq.jpg",
@@ -5966,7 +6010,7 @@
       "first_seen_at": "2026-06-18T01:43:05Z",
       "id": "2067268058322714882",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067263757441454080"
       ],
@@ -6006,7 +6050,7 @@
       "first_seen_at": "2026-06-17T19:30:08Z",
       "id": "2067273826497614281",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -6047,7 +6091,7 @@
       "first_seen_at": "2026-06-17T16:43:38Z",
       "id": "2067180054979936413",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://vercel.com/blog/introducing-eve"
       ],
@@ -6057,10 +6101,10 @@
       ],
       "public_metrics": {
         "bookmark_count": 6741,
-        "like_count": 7242,
+        "like_count": 7257,
         "quote_count": 403,
         "reply_count": 325,
-        "retweet_count": 728
+        "retweet_count": 730
       },
       "referenced_tweets": [],
       "sources": [
@@ -6090,7 +6134,7 @@
       "first_seen_at": "2026-06-17T16:43:38Z",
       "id": "2066990958684610937",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.semafor.com/article/06/16/2026/anthropics-conflict-with-washington-complicates-its-ipo"
       ],
@@ -6137,7 +6181,7 @@
         "https://pbs.twimg.com/media/HK_5Q4la8AArktd.jpg",
         "https://pbs.twimg.com/media/HK_5Q4gasAAVh8r.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HK_5Q4cawAAYSkr.jpg",
         "https://pbs.twimg.com/media/HK_5Q4la8AArktd.jpg",
@@ -6202,7 +6246,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066908477281501506",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066900281066196992",
         "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
@@ -6244,7 +6288,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2067096080886698364",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066925833198194695"
       ],
@@ -6253,7 +6297,7 @@
         "http://x.com/i/article/2066925833198194695"
       ],
       "public_metrics": {
-        "bookmark_count": 940,
+        "bookmark_count": 939,
         "like_count": 461,
         "quote_count": 9,
         "reply_count": 19,
@@ -6284,7 +6328,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2067023167793541434",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=",
         "https://reason.com/2026/06/16/a-colorado-town-will-pay-675000-to-settle-a-lawsuit-after-a-police-officer-shot-a-familys-dog/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term="
@@ -6330,7 +6374,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066937139095343104/img/7a7iAdmAI2UR3l1j.jpg"
       ],
@@ -6385,7 +6429,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2067072654205669756",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2067066505616080896"
       ],
@@ -6427,7 +6471,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2067015918925025280/img/XbsYGN3w-kaHQXpn.jpg"
       ],
@@ -6482,7 +6526,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066964554593063262",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter"
       ],
@@ -6525,7 +6569,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066949973749755919",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066943620373172224"
       ],
@@ -6565,7 +6609,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066922200028823670",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.axios.com/2026/06/16/microsoft-copilot-cowork-tokenmaxxing-cowork?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d7fe"
       ],
@@ -6608,7 +6652,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2067014010097049717",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -6649,7 +6693,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066868461700362404",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064740742564876288"
       ],
@@ -6691,7 +6735,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066898046026211328/img/aqI71IHOsV8hPigc.jpg",
         "http://newsletter.levelingup.com"
@@ -6747,7 +6791,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2067014839898124542",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html?taid=6a31d133fbb36b0001befd79&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter"
       ],
@@ -6790,7 +6834,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066999670627352676",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c"
       ],
@@ -6835,7 +6879,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2066952137402421248/img/-s4ESUC3DMPwiXcn.jpg"
       ],
@@ -6892,7 +6936,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HK8nAU3bIAArOCR.jpg",
         "https://pbs.twimg.com/media/HK8nMxca0AA0WM9.jpg",
@@ -6946,7 +6990,7 @@
       "first_seen_at": "2026-06-17T07:28:00Z",
       "id": "2066936083535868343",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://ft.trib.al/Mt0u2VP"
       ],
@@ -7506,7 +7550,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066909755915002060",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -7547,12 +7591,12 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066895528982655317",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 223,
+        "bookmark_count": 224,
         "like_count": 254,
         "quote_count": 15,
         "reply_count": 99,
@@ -7583,7 +7627,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066903277242073172",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -7624,7 +7668,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066919099016630286",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066918571184381953"
       ],
@@ -7664,7 +7708,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066921991613890611",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066920008358514692"
       ],
@@ -7704,7 +7748,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066863634949779464",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2064972712729292800"
       ],
@@ -7744,7 +7788,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066820192303554733",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://zenn.dev/ashunar0/articles/1ba94a110d8622"
       ],
@@ -7784,7 +7828,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066559580927324436",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -7828,7 +7872,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066893762270261586",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066893374741786626"
       ],
@@ -7868,7 +7912,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066883577141428563",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066882780286550016"
       ],
@@ -7908,7 +7952,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066933501757198839",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066900327077486592"
       ],
@@ -7954,7 +7998,7 @@
       "first_seen_at": "2026-06-17T01:41:25Z",
       "id": "2066982286395068540",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066980572644466688"
       ],
@@ -7996,7 +8040,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://blog.damato.design/posts/lawful-design/?ref=sidebar",
         "https://pbs.twimg.com/media/HK8wcXhWQAE3G0r.jpg",
@@ -8051,7 +8095,7 @@
       "first_seen_at": "2026-06-16T18:09:39Z",
       "id": "2066905912238023154",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066893911600357376"
       ],
@@ -8091,7 +8135,7 @@
       "first_seen_at": "2026-06-16T13:04:13Z",
       "id": "2061670587043610688",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -9074,7 +9118,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066623996964352011",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062463044962152448"
       ],
@@ -9116,7 +9160,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066585405479371092",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065812852347428864"
       ],
@@ -9158,7 +9202,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066593705906012188",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066589651532492800"
       ],
@@ -9199,7 +9243,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066740048196665527",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -9240,7 +9284,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066606107834089700",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -9284,7 +9328,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066650207748551042",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://Postgres.app",
         "https://postgresapp.com/extensions/"
@@ -9330,7 +9374,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066704062851207640",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2065806064067784704"
       ],
@@ -9371,7 +9415,7 @@
       "first_seen_at": "2026-06-16T07:43:14Z",
       "id": "2066585638405849114",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -9998,7 +10042,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066524627585634765",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066518406573023232"
       ],
@@ -10038,7 +10082,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066637411514536066",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10082,7 +10126,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066581650130280943",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10125,7 +10169,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.extend.ai/ui?ref=sidebar",
         "https://pbs.twimg.com/media/HK3m2WdWMAAtBWc.jpg",
@@ -10180,7 +10224,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066558169741173177",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2057852752202792960"
       ],
@@ -10189,8 +10233,8 @@
         "http://x.com/i/article/2057852752202792960"
       ],
       "public_metrics": {
-        "bookmark_count": 373,
-        "like_count": 184,
+        "bookmark_count": 374,
+        "like_count": 185,
         "quote_count": 14,
         "reply_count": 12,
         "retweet_count": 23
@@ -10221,7 +10265,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066541977227935829",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066513531248562176"
       ],
@@ -10262,7 +10306,7 @@
       "first_seen_at": "2026-06-16T01:46:46Z",
       "id": "2066595308629594363",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066435928739217408"
       ],
@@ -10271,9 +10315,9 @@
         "http://x.com/i/article/2066435928739217408"
       ],
       "public_metrics": {
-        "bookmark_count": 3188,
-        "like_count": 1643,
-        "quote_count": 52,
+        "bookmark_count": 3189,
+        "like_count": 1644,
+        "quote_count": 53,
         "reply_count": 73,
         "retweet_count": 234
       },
@@ -10302,7 +10346,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066159260443250715",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
       ],
@@ -10313,7 +10357,7 @@
         "like_count": 31055,
         "quote_count": 278,
         "reply_count": 117,
-        "retweet_count": 2086
+        "retweet_count": 2085
       },
       "referenced_tweets": [
         {
@@ -10345,7 +10389,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066061023019479545",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10386,7 +10430,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066174523003854857",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10427,7 +10471,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2065881740095246552",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -10471,7 +10515,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066423174582218920",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy"
       ],
@@ -10514,7 +10558,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066347872115933526",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1"
       ],
@@ -10559,7 +10603,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HK1hVrMb0AABggV.png"
       ],
@@ -10614,7 +10658,7 @@
       "first_seen_at": "2026-06-15T14:35:10Z",
       "id": "2066413406899331197",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -11444,7 +11488,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066326578758381747",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/"
       ],
@@ -11487,7 +11531,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066145326780518736",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066125194813444096"
       ],
@@ -11496,7 +11540,7 @@
         "http://x.com/i/article/2066125194813444096"
       ],
       "public_metrics": {
-        "bookmark_count": 1538,
+        "bookmark_count": 1539,
         "like_count": 527,
         "quote_count": 6,
         "reply_count": 6,
@@ -11529,7 +11573,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKyBvOWa8AAQkAo.png"
       ],
@@ -11579,7 +11623,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066341005847142674",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066319111143989248"
       ],
@@ -11619,7 +11663,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066332670817456584",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066289802295779328",
         "https://pbs.twimg.com/media/HK4JmeBbAAAHcHW.jpg"
@@ -11629,8 +11673,8 @@
         "http://x.com/i/article/2066289802295779328"
       ],
       "public_metrics": {
-        "bookmark_count": 4878,
-        "like_count": 4249,
+        "bookmark_count": 4879,
+        "like_count": 4250,
         "quote_count": 315,
         "reply_count": 259,
         "retweet_count": 644
@@ -11660,7 +11704,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066155812783833175",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066151030044467200",
         "https://flf.org/epistack/"
@@ -11701,7 +11745,7 @@
       "first_seen_at": "2026-06-15T07:39:18Z",
       "id": "2066290950352081336",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2066281164134825984"
       ],
@@ -12050,16 +12094,16 @@
       "first_seen_at": "2026-06-14T10:32:04Z",
       "id": "2065853007619588171",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 8661,
-        "like_count": 25507,
+        "bookmark_count": 8659,
+        "like_count": 25508,
         "quote_count": 1238,
         "reply_count": 2195,
-        "retweet_count": 3237
+        "retweet_count": 3236
       },
       "referenced_tweets": [],
       "sources": [
@@ -14328,7 +14372,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKoHqJWWUAAW3RA.jpg"
       ],
@@ -14383,7 +14427,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065518402601418756",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://mjtsai.com/blog/2026/06/12/rewriting-notion-in-swiftui/",
         "https://mjtsai.com/blog/2026/06/10/no-siri-ai-in-eu/"
@@ -14429,7 +14473,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKoDwwrbYAAJNkH.png"
       ],
@@ -14445,8 +14489,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 625,
-        "like_count": 550,
+        "bookmark_count": 626,
+        "like_count": 551,
         "quote_count": 5,
         "reply_count": 19,
         "retweet_count": 39
@@ -14479,7 +14523,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065472650042867988",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://linear.app/now/linear-agent-bug-fix"
       ],
@@ -14524,7 +14568,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker",
         "https://pbs.twimg.com/media/HKocCXebQAAEX_-.png",
@@ -14583,7 +14627,7 @@
       "first_seen_at": "2026-06-13T01:34:19Z",
       "id": "2065564935006892390",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -14629,7 +14673,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
         "https://pbs.twimg.com/media/HKpAZFJbEAAXg6C.jpg"
@@ -14663,46 +14707,6 @@
       "text_zh_hash": "8ff08bf8a419422f",
       "text_zh_translator_v": 2,
       "url": "https://x.com/timsneath/status/2065534297709466100"
-    },
-    {
-      "accounts": [
-        "chumsdock"
-      ],
-      "article_preview_text": "",
-      "article_title": null,
-      "article_url": null,
-      "article_urls": [],
-      "author": {
-        "id": "241972408",
-        "name": "minicoohei.eth",
-        "username": "minicoohei"
-      },
-      "conversation_id": "2065444904860610572",
-      "created_at": "2026-06-12T14:43:34.000Z",
-      "first_seen_at": "2026-06-13T01:34:19Z",
-      "id": "2065444904860610572",
-      "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
-      "linked_content_urls": [
-        "http://x.com/i/article/2065441692929667073"
-      ],
-      "media": [],
-      "primary_urls": [
-        "http://x.com/i/article/2065441692929667073"
-      ],
-      "public_metrics": {
-        "bookmark_count": 195,
-        "like_count": 124,
-        "quote_count": 2,
-        "reply_count": 0,
-        "retweet_count": 10
-      },
-      "referenced_tweets": [],
-      "sources": [
-        "bookmark@chumsdock"
-      ],
-      "text": "http://x.com/i/article/2065441692929667073",
-      "url": "https://x.com/minicoohei/status/2065444904860610572"
     },
     {
       "accounts": [
@@ -14783,6 +14787,46 @@
       ],
       "text": "http://x.com/i/article/2065431417861844992",
       "url": "https://x.com/nfcampos/status/2065485993734517180"
+    },
+    {
+      "accounts": [
+        "chumsdock"
+      ],
+      "article_preview_text": "",
+      "article_title": null,
+      "article_url": null,
+      "article_urls": [],
+      "author": {
+        "id": "241972408",
+        "name": "minicoohei.eth",
+        "username": "minicoohei"
+      },
+      "conversation_id": "2065444904860610572",
+      "created_at": "2026-06-12T14:43:34.000Z",
+      "first_seen_at": "2026-06-13T01:34:19Z",
+      "id": "2065444904860610572",
+      "image_urls": [],
+      "last_seen_at": "2026-06-23T10:43:39Z",
+      "linked_content_urls": [
+        "http://x.com/i/article/2065441692929667073"
+      ],
+      "media": [],
+      "primary_urls": [
+        "http://x.com/i/article/2065441692929667073"
+      ],
+      "public_metrics": {
+        "bookmark_count": 195,
+        "like_count": 124,
+        "quote_count": 2,
+        "reply_count": 0,
+        "retweet_count": 10
+      },
+      "referenced_tweets": [],
+      "sources": [
+        "bookmark@chumsdock"
+      ],
+      "text": "http://x.com/i/article/2065441692929667073",
+      "url": "https://x.com/minicoohei/status/2065444904860610572"
     },
     {
       "accounts": [
@@ -15318,7 +15362,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ.jpg",
         "https://pbs.twimg.com/media/HKiRafUXgAAZgfM.jpg",
@@ -15346,8 +15390,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 1026,
-        "like_count": 899,
+        "bookmark_count": 1028,
+        "like_count": 901,
         "quote_count": 22,
         "reply_count": 43,
         "retweet_count": 44
@@ -15674,7 +15718,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKk2eTSasAAtz5l.jpg",
         "https://github.com/byoungd/English-level-up-tips"
@@ -16455,7 +16499,7 @@
       "first_seen_at": "2026-06-11T01:40:07Z",
       "id": "2064650572788068378",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
       ],
@@ -18913,7 +18957,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HKUn2QGakAAW3jw.jpg"
       ],
@@ -18930,7 +18974,7 @@
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 519,
-        "like_count": 9564,
+        "like_count": 9565,
         "quote_count": 248,
         "reply_count": 195,
         "retweet_count": 461
@@ -19660,7 +19704,7 @@
       "first_seen_at": "2026-06-08T12:09:06Z",
       "id": "2063840704892440976",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -19833,7 +19877,7 @@
       "first_seen_at": "2026-06-08T01:34:31Z",
       "id": "2063688044843090179",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2063386766455762945"
       ],
@@ -20994,7 +21038,7 @@
       "first_seen_at": "2026-06-07T04:59:08Z",
       "id": "2063329359910392293",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2062498852481925120"
       ],
@@ -22365,7 +22409,7 @@
       "first_seen_at": "2026-06-06T16:19:38Z",
       "id": "2063107590452871597",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -26685,7 +26729,7 @@
         "https://pbs.twimg.com/media/HJ2fEgYa0AAqc56.jpg",
         "https://pbs.twimg.com/media/HJ2fFiMbMAAcAQ7.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://coss.com/ui",
         "https://heroui.com/",
@@ -26716,7 +26760,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 1226,
-        "like_count": 881,
+        "like_count": 882,
         "quote_count": 2,
         "reply_count": 74,
         "retweet_count": 108
@@ -35342,7 +35386,7 @@
       "image_urls": [
         "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
       ],
@@ -38280,7 +38324,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HI_Rti3awAAIB3O.jpg",
         "https://pbs.twimg.com/media/HJExBQ4b0AAl5XH.jpg",
@@ -39311,7 +39355,7 @@
       "first_seen_at": "2026-05-22T13:17:46Z",
       "id": "2057745930896756960",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -39859,7 +39903,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2057097978947796992/img/NSyEUl996c6ejlHa.jpg"
       ],
@@ -40029,7 +40073,7 @@
       "first_seen_at": "2026-05-21T11:17:38Z",
       "id": "2056867092729913802",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -40070,7 +40114,7 @@
       "first_seen_at": "2026-05-21T11:17:38Z",
       "id": "2057407113052479870",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -40459,7 +40503,7 @@
         "https://pbs.twimg.com/media/HIu71U0akAASf0y.jpg",
         "https://pbs.twimg.com/media/HIu71VQbwAI7yb6.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://fastclaw.ai",
         "https://pbs.twimg.com/media/HIu71VWagAA129Z.jpg",
@@ -40538,7 +40582,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2056910114255486976/img/Al5wbi_HnrSX7wX6.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2056910114255486976/img/Al5wbi_HnrSX7wX6.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2056923175393660928/img/0hgHbDj16dy0Wr6C.jpg",
@@ -40561,8 +40605,8 @@
       ],
       "primary_urls": [],
       "public_metrics": {
-        "bookmark_count": 8901,
-        "like_count": 8246,
+        "bookmark_count": 8903,
+        "like_count": 8248,
         "quote_count": 99,
         "reply_count": 239,
         "retweet_count": 529
@@ -40743,7 +40787,7 @@
       "first_seen_at": "2026-05-20T04:07:00Z",
       "id": "2054385995727196611",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -40781,7 +40825,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2054175195133358081/img/CCfS_Yu3ocawoOWp.jpg"
       ],
@@ -40798,7 +40842,7 @@
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 872,
-        "like_count": 1345,
+        "like_count": 1344,
         "quote_count": 4,
         "reply_count": 35,
         "retweet_count": 72
@@ -41849,7 +41893,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HIocKddaoAAZtJR.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIocKddaoAAZtJR.jpg"
       ],
@@ -42158,7 +42202,7 @@
       "first_seen_at": "2026-05-18T12:20:38Z",
       "id": "2056196460597915730",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIgvY3zaIAEejGI.jpg"
       ],
@@ -42202,7 +42246,7 @@
       "first_seen_at": "2026-05-18T04:18:21Z",
       "id": "2056078124346228860",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2055936913211899904",
         "http://x.com/i/article/2055936913211899904"
@@ -42213,7 +42257,7 @@
         "http://x.com/i/article/2055936913211899904"
       ],
       "public_metrics": {
-        "bookmark_count": 4860,
+        "bookmark_count": 4859,
         "like_count": 3620,
         "quote_count": 123,
         "reply_count": 111,
@@ -42418,7 +42462,7 @@
       "first_seen_at": "2026-05-16T23:17:34Z",
       "id": "2055429159757742112",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -42967,7 +43011,7 @@
       "first_seen_at": "2026-05-14T15:33:10Z",
       "id": "2054917554024714309",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -43284,7 +43328,7 @@
       "first_seen_at": "2026-05-14T10:17:45Z",
       "id": "2054569766418108797",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2054279489774120960",
         "https://code.claude.com/docs/en/goal",
@@ -57409,7 +57453,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HIKnHv1bYAAEgkp.jpg"
       ],
@@ -73270,7 +73314,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2052687449508266270",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://status.deepseek.com/"
       ],
@@ -73311,7 +73355,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2048778515936333847",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -73357,7 +73401,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGvhiLRbYAAPYbM.jpg"
       ],
@@ -73409,7 +73453,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2045466421036007527",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2045262387041730560",
         "http://x.com/i/article/2045262387041730560"
@@ -73452,7 +73496,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2044768025786695971",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2043979081641803776",
         "http://x.com/i/article/2043979081641803776"
@@ -73492,7 +73536,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2043697811993350611",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -73534,7 +73578,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2042577693359603748",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -73580,7 +73624,7 @@
       "image_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/ext_tw_video_thumb/2039055255745511424/pu/img/dUvTtx5JoE4vBeQt.jpg"
       ],
@@ -73599,7 +73643,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 696,
-        "like_count": 594,
+        "like_count": 595,
         "quote_count": 2,
         "reply_count": 20,
         "retweet_count": 37
@@ -73634,7 +73678,7 @@
         "https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg",
         "https://pbs.twimg.com/media/HErQpb4boAA--FY.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HErQvubbEAAvKUU.jpg",
         "https://pbs.twimg.com/media/HErQv0AbMAApCEg.jpg",
@@ -73705,7 +73749,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HEmAflcXcAAly5C.jpg"
       ],
@@ -73755,7 +73799,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2036657119194460217",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -73792,7 +73836,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2036657892280164655",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
       ],
@@ -73830,7 +73874,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2033241509131075835",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/agilek/cli-loaders?tab=readme-ov-file"
       ],
@@ -73884,7 +73928,7 @@
         "https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg",
         "https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HEF6fc4XUAA0Roh.jpg",
         "https://pbs.twimg.com/media/HEF6fbhXcAAHDvk.jpg"
@@ -73945,7 +73989,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/nagisanzenin/skyclaw",
         "https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg"
@@ -73996,7 +74040,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.youtube.com/watch?v=2rcJdFuNbZQ",
         "https://pbs.twimg.com/media/HDIz61jbMAAm7y9.jpg"
@@ -74053,7 +74097,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2031417353666441266",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2031220938738642944",
         "https://huggingface.co/datasets/paperbd/paper-cited-chunks-v1",
@@ -74102,7 +74146,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2028805687355363347",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.supacortex.ai/"
       ],
@@ -74149,7 +74193,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026300463583564112",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2026291692866084864",
         "http://x.com/i/article/2026291692866084864"
@@ -74191,7 +74235,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg"
       ],
@@ -74241,7 +74285,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2025975741503135842",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -74275,7 +74319,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026051860377805300",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -74319,7 +74363,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026074121671500238",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -74365,7 +74409,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/Blaizzy/mlx-audio-swift",
         "https://pbs.twimg.com/amplify_video_thumb/2026022112612200450/img/OFu26-i_9OFm0e6z.jpg"
@@ -74417,7 +74461,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026058929348731101",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -74461,7 +74505,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026044556618145834",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -74498,7 +74542,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2026027686989086937",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -74542,7 +74586,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2024846068245017031",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -74579,7 +74623,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2024544978912104552",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://huggingface.co/TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
       ],
@@ -74627,7 +74671,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2023354901032763392/img/pStEvuLSFMJbFOww.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.qianwen.com/",
         "https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B",
@@ -74688,7 +74732,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2022356917948166506",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2022352504315654144",
         "https://github.com/freestylefly/openclaw-wechat",
@@ -74734,7 +74778,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2020946239366529198",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://thecommander.app/",
         "http://CommanderAI.app"
@@ -74783,7 +74827,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2021319785947316490",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2021313314584920064",
         "https://github.com/jo-inc/camofox-browser",
@@ -74829,7 +74873,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg"
       ],
@@ -74881,7 +74925,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg"
       ],
@@ -74899,8 +74943,8 @@
         "https://x.com/figma/status/2019096024590287076/video/1"
       ],
       "public_metrics": {
-        "bookmark_count": 11748,
-        "like_count": 23505,
+        "bookmark_count": 11749,
+        "like_count": 23506,
         "quote_count": 2505,
         "reply_count": 486,
         "retweet_count": 2088
@@ -74933,7 +74977,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2018594062475878400/img/PM-gToZ-ICES14eJ.jpg"
       ],
@@ -74983,7 +75027,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018659007121195362",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.kimi.com/",
         "http://Kimi.com"
@@ -75024,7 +75068,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017832450387316813",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2017831621437673472",
         "http://x.com/i/article/2017831621437673472"
@@ -75064,7 +75108,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018036653248721242",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -75102,7 +75146,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2018158137287860412",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://x.com/i/article/2017761530113363971"
       ],
@@ -75140,7 +75184,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017905705609801960",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -75178,7 +75222,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017629377119588456",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://x.com/i/article/2017622760193986563",
         "http://x.com/i/article/2017622760193986563"
@@ -75219,7 +75263,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017465746222125230",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://www.bilibili.com/video/BV1rm6yB8E71/"
       ],
@@ -75257,7 +75301,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017055070073082147",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -75294,7 +75338,7 @@
         "https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg",
         "https://pbs.twimg.com/media/G_6filuboAAqo8l.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://maker.taptap.cn",
         "https://pbs.twimg.com/amplify_video_thumb/2017225101427855360/img/bj4mTkEDatApRlHZ.jpg",
@@ -75354,7 +75398,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/workany-ai/workany",
         "https://pbs.twimg.com/media/G_9Um-PaEAAD3J8.png"
@@ -75411,7 +75455,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_9lSPoaEAAF4MT.jpg"
       ],
@@ -75430,7 +75474,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 174,
-        "like_count": 190,
+        "like_count": 191,
         "quote_count": 0,
         "reply_count": 7,
         "retweet_count": 42
@@ -75460,7 +75504,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://agents.craft.do/mermaid",
         "https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg"
@@ -75511,7 +75555,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg"
       ],
@@ -75560,7 +75604,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/G_45Eo_bQAARQGs.jpg"
       ],
@@ -75609,7 +75653,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/G_3u6Q2bUAAf_od.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAr6e2mj_quUJAzoRU1Xta8UyzsB_DyIFAWLa-Fd&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F9ddNSmqZzWKO7XXz_y0_tg",
         "https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg",
@@ -75666,7 +75710,7 @@
       "first_seen_at": "2026-05-11T03:16:40Z",
       "id": "2017598774613365005",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -80117,7 +80161,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH9jU8BbkAAMHAf.png"
       ],
@@ -80166,7 +80210,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2017156161166807040/img/_eVa41ki5yGbkDfj.jpg"
       ],
@@ -80216,7 +80260,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2052916488672350294",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -80255,7 +80299,7 @@
         "https://pbs.twimg.com/media/HHzi6UGbgAEBm2F.jpg",
         "https://pbs.twimg.com/media/HHzi6mCa4AAenve.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHzi5oIbEAARqQb.jpg",
         "https://pbs.twimg.com/media/HHzi559bYAAA0Vc.jpg",
@@ -80344,7 +80388,7 @@
         "https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg",
         "https://pbs.twimg.com/media/HH21wymbUAA01fG.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH21wykaUAA8607.jpg",
         "https://pbs.twimg.com/media/HH21wylasAAcDPJ.png",
@@ -80421,7 +80465,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2053296999953490172",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -80459,7 +80503,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHtx2mOaIAA8MoG.jpg",
         "https://pbs.twimg.com/media/HHwoO2ka4AAVosZ.jpg"
@@ -80478,8 +80522,8 @@
         "https://x.com/nakado_biko/status/2052360467738452258/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 871,
-        "like_count": 7398,
+        "bookmark_count": 870,
+        "like_count": 7396,
         "quote_count": 3,
         "reply_count": 9,
         "retweet_count": 346
@@ -80512,7 +80556,7 @@
         "https://pbs.twimg.com/media/HH4DhNEbcAAaUw4.jpg",
         "https://pbs.twimg.com/media/HH4DiMaakAASOk-.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH4Ddgka0AEaqn_.jpg",
         "https://pbs.twimg.com/media/HH4Dee4bsAAzn5y.jpg",
@@ -80592,7 +80636,7 @@
         "https://pbs.twimg.com/media/HH3F2BNW8AE6Ny7.jpg",
         "https://pbs.twimg.com/media/HH3F2BNXMAMfMDm.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HH3F2BLWMAE_1g1.jpg",
         "https://pbs.twimg.com/media/HH3F2BMXEAAOBQg.jpg",
@@ -80637,8 +80681,8 @@
         "https://x.com/lesoshi/status/2053014652817142159/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 497,
-        "like_count": 4748,
+        "bookmark_count": 496,
+        "like_count": 4745,
         "quote_count": 17,
         "reply_count": 37,
         "retweet_count": 88
@@ -80666,7 +80710,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2053056854222381131",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -80705,7 +80749,7 @@
         "https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg",
         "https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHyXvJgaEAAzaki.jpg",
         "https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg",
@@ -80784,7 +80828,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2045049079835856896/img/1XDMmUAy9l3wSs4A.jpg"
       ],
@@ -80838,7 +80882,7 @@
         "https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2052281067063885824/img/4Nnb9NqqJS-qcCOC.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2052280784824971264/img/OJXULaBTt5ntLXPS.jpg",
         "https://pbs.twimg.com/amplify_video_thumb/2052281041805828096/img/8QtPU9Jf2Juxutau.jpg",
@@ -80908,7 +80952,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2052191936727912462",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -80944,7 +80988,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2051674376651579395/img/f8WWuCvX5qtZkOm8.jpg"
       ],
@@ -81000,7 +81044,7 @@
         "https://pbs.twimg.com/media/HHjCD4VaAAAgliM.jpg",
         "https://pbs.twimg.com/media/HHjCECMbIAAMJ-E.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHjCDj9bcAA9qth.jpg",
         "https://pbs.twimg.com/media/HHjCDu_bUAA8idQ.jpg",
@@ -81080,7 +81124,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHi_rLRasAArgG0.jpg"
       ],
@@ -81132,7 +81176,7 @@
         "https://pbs.twimg.com/media/HHZpdZPWkAAkKnd.jpg",
         "https://pbs.twimg.com/media/HHZpdZOWgAA0K3q.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHZpdZTW8AE6HBh.jpg",
         "https://pbs.twimg.com/media/HHZpdZNWkAA_EEt.jpg",
@@ -81180,8 +81224,8 @@
       ],
       "public_metrics": {
         "bookmark_count": 9712,
-        "like_count": 61231,
-        "quote_count": 366,
+        "like_count": 61228,
+        "quote_count": 367,
         "reply_count": 278,
         "retweet_count": 8755
       },
@@ -81213,7 +81257,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHWHmB6XMAAtTgO.png"
       ],
@@ -81260,7 +81304,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2050162329279672565",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -81295,7 +81339,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2050044127656489095",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "http://github.com/Hmbown/DeepSeek-TUI"
       ],
@@ -81338,7 +81382,7 @@
         "https://pbs.twimg.com/media/HHDu_JVaAAAED-4.jpg",
         "https://pbs.twimg.com/media/HHDu_LMaoAEXFS6.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HHDu_IMasAAEqxW.jpg",
         "https://pbs.twimg.com/media/HHDu_IlbkAAQme4.jpg",
@@ -81415,7 +81459,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2048572906234581168",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -81457,7 +81501,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2048239139104207061",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -81492,7 +81536,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047533454842376225",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -81526,7 +81570,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047571947559735698",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -81560,7 +81604,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2047055760236916759",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -81605,7 +81649,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2046877515336090038",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -81641,7 +81685,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2047094712973348864/img/nDwL3LYRFR3ojPdt.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2047094712973348864/img/nDwL3LYRFR3ojPdt.jpg"
       ],
@@ -81699,7 +81743,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGhrpE0WYAE3Io7.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://zed.dev/blog/parallel-agents",
         "https://pbs.twimg.com/media/HGhrpE0WYAE3Io7.jpg"
@@ -81753,7 +81797,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png"
       ],
@@ -81808,7 +81852,7 @@
         "https://pbs.twimg.com/media/HGeGdH9XMAAxC36.jpg",
         "https://pbs.twimg.com/media/HGeGdH7XMAAfT1v.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGeFyAzW8AAyDvO.jpg",
         "https://pbs.twimg.com/media/HGeFyAnWAAAyjnw.jpg",
@@ -81888,7 +81932,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGiNY2vW0AM_vbJ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGiNY2vW0AM_vbJ.jpg"
       ],
@@ -81938,13 +81982,13 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2043849349625758112",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 1168,
-        "like_count": 40185,
+        "like_count": 40186,
         "quote_count": 335,
         "reply_count": 5,
         "retweet_count": 2017
@@ -81974,7 +82018,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg"
       ],
@@ -82023,7 +82067,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HGEmgxPaAAA_buY.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HGEmgxPaAAA_buY.jpg"
       ],
@@ -82072,7 +82116,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg"
       ],
@@ -82131,7 +82175,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg"
       ],
@@ -82150,7 +82194,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 356,
-        "like_count": 6435,
+        "like_count": 6436,
         "quote_count": 32,
         "reply_count": 17,
         "retweet_count": 888
@@ -82183,7 +82227,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg"
       ],
@@ -82202,7 +82246,7 @@
       ],
       "public_metrics": {
         "bookmark_count": 548,
-        "like_count": 8943,
+        "like_count": 8944,
         "quote_count": 17,
         "reply_count": 10,
         "retweet_count": 606
@@ -82235,7 +82279,7 @@
         "https://pbs.twimg.com/media/HFqQtN9XwAAv2D2.png",
         "https://pbs.twimg.com/media/HFqQtOAWkAAuUZ4.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFqQtN9XEAEFxqd.jpg",
         "https://pbs.twimg.com/media/HFqQtN-XkAA2rGG.jpg",
@@ -82314,7 +82358,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044467468266311682/img/_OPoS0KrSM607WoH.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044467468266311682/img/_OPoS0KrSM607WoH.jpg"
       ],
@@ -82366,7 +82410,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044453575926157315/img/twU77EPwJapHRrlR.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044453575926157315/img/twU77EPwJapHRrlR.jpg"
       ],
@@ -82415,7 +82459,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044588662881665024/img/ws0DJhUqbOr9y8ZZ.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044588662881665024/img/ws0DJhUqbOr9y8ZZ.jpg"
       ],
@@ -82462,7 +82506,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2044249970220642732",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -82501,7 +82545,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044409186155626496/img/pV_h-oBbADV3K0Nk.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://github.com/KurtGokhan/tegaki",
         "https://pbs.twimg.com/amplify_video_thumb/2044409186155626496/img/pV_h-oBbADV3K0Nk.jpg"
@@ -82552,7 +82596,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044053695823060992/img/vbMMffmOe_FcVmbe.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2044053695823060992/img/vbMMffmOe_FcVmbe.jpg"
       ],
@@ -82602,13 +82646,13 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2043839124084535440",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
       "public_metrics": {
         "bookmark_count": 169,
-        "like_count": 5388,
+        "like_count": 5386,
         "quote_count": 24,
         "reply_count": 227,
         "retweet_count": 121
@@ -82638,7 +82682,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2014808733897887744/img/i-S8vkPlYA6aiNyR.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2014808733897887744/img/i-S8vkPlYA6aiNyR.jpg"
       ],
@@ -82691,7 +82735,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2043049745372020736/img/D1BefzgNwFLtngmb.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2043049745372020736/img/D1BefzgNwFLtngmb.jpg"
       ],
@@ -82744,7 +82788,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042638722240516099/img/JAUoclCguKJxS1_z.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042638722240516099/img/JAUoclCguKJxS1_z.jpg"
       ],
@@ -82796,7 +82840,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042559635148935170/img/nBSevW_D6SS5r3Am.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042559635148935170/img/nBSevW_D6SS5r3Am.jpg"
       ],
@@ -82846,7 +82890,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2042482651978944902",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [
@@ -82890,7 +82934,7 @@
         "https://pbs.twimg.com/media/HFe_zFQXkAAVwa7.jpg",
         "https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFe_zFQXkAAVwa7.jpg",
         "https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg"
@@ -82917,7 +82961,7 @@
         "https://x.com/hewarsaber/status/2042311843553726883/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 1448,
+        "bookmark_count": 1447,
         "like_count": 1390,
         "quote_count": 2,
         "reply_count": 49,
@@ -82952,7 +82996,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041984842829852672/img/FT3ZBu4pQ_PXsj52.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041984842829852672/img/FT3ZBu4pQ_PXsj52.jpg"
       ],
@@ -83004,7 +83048,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg"
       ],
@@ -83022,7 +83066,7 @@
         "https://x.com/shihezo/status/2042063701436702981/photo/1"
       ],
       "public_metrics": {
-        "bookmark_count": 396,
+        "bookmark_count": 395,
         "like_count": 5644,
         "quote_count": 2,
         "reply_count": 9,
@@ -83053,7 +83097,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2042078866936844288/img/9ekiAWi5pCrly8PI.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://glauber.org/archive/orbits",
         "http://glauber.org/archive/orbits",
@@ -83109,7 +83153,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg"
       ],
@@ -83156,7 +83200,7 @@
       "first_seen_at": "2026-05-11T03:12:30Z",
       "id": "2042027029445669209",
       "image_urls": [],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [],
       "media": [],
       "primary_urls": [],
@@ -83195,7 +83239,7 @@
         "https://pbs.twimg.com/media/HFVTPfzW8AAG4jI.jpg",
         "https://pbs.twimg.com/media/HFVTQOKa8AA1p0m.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFVTOMoa8AATp-5.jpg",
         "https://pbs.twimg.com/media/HFVTOwZWMAAy62p.jpg",
@@ -83274,7 +83318,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg"
       ],
@@ -83326,7 +83370,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFUs79fa8AEaCx-.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFUs79fa8AEaCx-.jpg"
       ],
@@ -83381,7 +83425,7 @@
         "https://pbs.twimg.com/media/HFPdtoebcAAm8VG.jpg",
         "https://pbs.twimg.com/media/HFPdxPOXsAAR5NW.png"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFPdkFNaQAA1J4o.jpg",
         "https://pbs.twimg.com/media/HFPdowVaAAAzaST.png",
@@ -83461,7 +83505,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFQc4GFWIAArhOv.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFQc4GFWIAArhOv.jpg"
       ],
@@ -83514,7 +83558,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg"
       ],
@@ -83569,7 +83613,7 @@
         "https://pbs.twimg.com/media/HFTvmCOaUAEP8MM.jpg",
         "https://pbs.twimg.com/media/HFTvmCBa4AAmfDY.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFTvmCCaoAAwsGk.jpg",
         "https://pbs.twimg.com/media/HFTvmCCaYAAIoWs.jpg",
@@ -83648,7 +83692,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFT6oNWaQAAaZqo.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFT6oNWaQAAaZqo.jpg"
       ],
@@ -83701,7 +83745,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFTi13SbUAAbTY6.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFTi13SbUAAbTY6.jpg"
       ],
@@ -83754,7 +83798,7 @@
       "image_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041155968067592192/img/SYbg7Ju68TnE6yS0.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/amplify_video_thumb/2041155968067592192/img/SYbg7Ju68TnE6yS0.jpg"
       ],
@@ -83807,7 +83851,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg"
       ],
@@ -83859,7 +83903,7 @@
         "https://pbs.twimg.com/media/HFOWmUzWoAEngDS.jpg",
         "https://pbs.twimg.com/media/HFOWmU0XoAAwJg8.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFOWmVPaoAA4qOu.jpg",
         "https://pbs.twimg.com/media/HFOWmU2WoAEovF_.jpg",
@@ -83942,7 +83986,7 @@
         "https://pbs.twimg.com/media/HFNvm2lbsAASl2C.jpg",
         "https://pbs.twimg.com/media/HFNvm2jaEAA350w.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFNvm4xbgAABcIY.jpg",
         "https://pbs.twimg.com/media/HFNvm4xbwAADvwX.jpg",
@@ -84021,7 +84065,7 @@
       "image_urls": [
         "https://pbs.twimg.com/media/HFDkkKFWAAAWQRq.jpg"
       ],
-      "last_seen_at": "2026-06-23T10:43:39Z",
+      "last_seen_at": "2026-06-23T13:46:40Z",
       "linked_content_urls": [
         "https://pbs.twimg.com/media/HFDkkKFWAAAWQRq.jpg"
       ],
@@ -103441,9 +103485,9 @@
       "url": "https://x.com/driceroland/status/1976236175963848890"
     }
   ],
-  "recent_count": 849,
-  "recent_cutoff_at": "2026-05-24T10:44:21.853422Z",
+  "recent_count": 850,
+  "recent_cutoff_at": "2026-05-24T13:47:19.623873Z",
   "recent_window_days": 30,
   "schema_version": 1,
-  "updated_at": "2026-06-23T10:43:39Z"
+  "updated_at": "2026-06-23T13:46:40Z"
 }
