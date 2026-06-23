@@ -6349,6 +6349,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068892014066708481"
     },
+    "http://x.com/i/article/2068943445662846976": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068943445662846976",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068943445662846976"
+    },
     "http://x.com/i/article/2069008066105008129": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6361,6 +6374,41 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069008066105008129"
+    },
+    "http://x.com/i/article/2069077093036576768": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069077093036576768",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLbXiKxWMAA6K6R?format=jpg&name=900x900)](http://x.com/GoogleAIStudio/article/2069108412453908791/media/2069078060830175232)\n\nInteractions API: Our primary interface for Gemini models and agents\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2056588677363765248/ATA2alUA_normal.jpg)](http://x.com/GoogleAIStudio)\n\n[Google AI Studio](http://x.com/GoogleAIStudio)\n\n[@GoogleAIStudio](http://x.com/GoogleAIStudio)\n\n·\n\n8h\n\nFollow\n\nClick to Follow GoogleAIStudio\n\n16\n\n56\n\n456\n\n[127K](http://x.com/GoogleAIStudio/status/2069108412453908791/analytics)\n\nToday we're announcing that the \n\n[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)\n\n has reached general availability and is now our primary API for interacting with Gemini models and agents. We launched its public beta in \n\n[December 2025](https://x.com/GoogleAIStudio/status/1999172445455155607)\n\n, and it has quickly become developers’ favorite way to build applications with Gemini.\n\nWith this GA release, the API now has a stable schema and we also added major new capabilities that developers asked for, including Managed Agents, background execution, Gemini Omni (soon) and more. All of our documentation now defaults to Interactions API and we are working with ecosystem partners to make it the default interface across 3P SDKs and Libraries.\n\n## \n\nThe simplest way to build with Gemini\n\nWhether you're calling a model or running an agent, the Interactions API gets you there in a few lines of code. Pass a model ID for inference or an agent ID for autonomous tasks, and set background=True for anything long-running.\n\npython\n\n```python\nfrom google import genai\n\nclient = genai.Client()\n\n# Talk to a model\ninteraction = client.interactions.create(\n    model=\"gemini-3.5-flash\",\n    input=\"Explain quantum entanglement simply.\",\n)\n\n# Run an agent\ninteraction = client.interactions.create(\n    agent=\"antigravity-preview-05-2026\",\n    input=\"Plot the growth of solar energy generation globally and make some slides in HTML.\",\n    environment=\"remote\",\n)\n```\n\n## \n\nKey updates since December\n\n* [Managed Agents](https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api/)  \n: A single API call provisions a remote Linux sandbox where an agent can reason, execute code, browse the web and manage files. The  \n[Antigravity agent](https://ai.google.dev/gemini-api/docs/antigravity-agent)  \n ships as the default, and you can  \n[define your own custom agents](https://ai.google.dev/gemini-api/docs/custom-agents)  \n with instructions, skills and data sources.\n* [Background execution](https://ai.google.dev/gemini-api/docs/interactions#long-running-and-background-tasks)  \n: Set background=True on any call. The server runs the interaction asynchronously.\n* [Tool improvements](https://ai.google.dev/gemini-api/docs/tool-combination)  \n: Mix built-in tools , such as  \n[Google Search](https://ai.google.dev/gemini-api/docs/google-search)  \n,  \n[Google Maps](https://ai.google.dev/gemini-api/docs/maps-grounding)  \n with your own functions in one request. Tool results can now  \n[return images alongside text](https://ai.google.dev/gemini-api/docs/function-calling)  \n.\n* [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)  \nupgrades: Two new agent versions (speed vs. depth), collaborative planning, native charts and infographics, and multimodal grounding with images, PDFs and audio.\n* Media generation:  \n[Image generation](https://ai.google.dev/gemini-api/docs/image-generation)  \n with Nano Banana 2 and Google Image Search grounding,  \n[music](https://ai.google.dev/gemini-api/docs/music-generation)  \n with Lyria 3, and  \n[expressive speech](https://ai.google.dev/gemini-api/docs/speech-generation)  \n with multi-speaker TTS.\n* [From Roles to Steps](https://ai.google.dev/gemini-api/docs/interaction",
+      "title": "",
+      "url": "http://x.com/i/article/2069077093036576768"
+    },
+    "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How I turned World Cup match data into organic, painting-like posters: a breakdown of the data, the chrono-grid, the brush strokes, and the gravity fields behind GenCup 2026.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters",
+      "frameable": null,
+      "image_urls": [
+        "http://zehfernandes.com//newsletter/assets/2026-06-jun/og-image.png",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F02-tweet.jpg&w=1920&q=100",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F03-terminal.png&w=1920&q=100",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F04-tool.jpg&w=3840&q=100",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F05-grid.png&w=3840&q=100",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F07-events.png&w=3840&q=100",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F07-lines.png&w=3840&q=75",
+        "https://zehfernandes.com/_next/image?url=%2Fnewsletter%2Fassets%2F2026-06-jun%2F10-ned.jpg&w=3840&q=100"
+      ],
+      "kind": "article",
+      "text_excerpt": "How I turned World Cupdata into posters\nThe World Cup is a melting pot. It mixes geopolitics, underdogs, national identity, tactical obsession, and those brief moments of brilliance that make everyone watching feel the same thing at once. It has everything a good story needs, which is probably why it keeps pulling me back.\nFor the past four World Cups — [2018](https://zehfernandes.com/generativeworldcup2018), [2019](https://zehfernandes.com/generativeworldcup2019), [2022](https://gencup.art/2022), and [2023](https://gencup.art/2023) — I've been trying to turn match data into posters. Each edition became a different visual system, another attempt to challenge the conventions of infographics and make art with data. Something you feel and perceive before reading it.\nFor 2026 I wanted to do something different: make an organic, painting-like poster of two teams pushing against each other, blurring into the lines.\nAfter it blew up on Twitter, I decided to write a breakdown of how these posters are made.\nTooling and data\nEverything starts with the data. No poster exists without it. Before the brush strokes, before the color.\nAll the data comes from the official FIFA website¹. So I wrote a Node script that downloads the aggregate match stats and the event timeline: goals, fouls, cards, attempts.\n[¹ The data isn't exactly public-facing, but if you dig into the network tab of your browser you can find the endpoints they use.]\nGenerative art has this amazing quality where the final image looks spontaneous, but getting there usually involves a ridiculous amount of parameter tweaking. You move one number and ruin the whole thing. You move it back by 0.02 and suddenly it works again. So I built the interface below to iterate on the rules: on the left, the game data; on the right, the parameters controlling the composition.\nThe logic behind the poster\nThe backbone of the poster is a chrono-grid.\nThe full duration of the match is mapped onto a two-dimensional grid. The first cell is the kickoff. The last cell is the final whistle.\nI landed on a fixed eight-column grid after trying a lot of different formats. Eight had the right balance. It gave me enough horizontal compression to make the two sides feel like they were facing each other.\nThe number of rows took even more trial and error. I started with something close to 200, which was completely unreasonable, and slowly tuned it down until I reached 11. That gave me roughly one minute per cell, which turned out to be a sweet spot.\nThe events\nOnce time is mapped into space, I can start placing events on top of it.\nThis year, I chose attempts as the central event in the composition. They felt like the clearest visual expression of attacking intent, a good proxy for pressure, ambition, and the constant effort to break through the opponent's defense. A match can have plenty of possession and still feel harmless.\nOn top of that, I also add fouls and goals. Goals are drawn larger and labeled with the minute they happened. Fouls are there too, smaller but still present. Each event is positioned in the grid according to the minute it happened.\nThe lines\nEvery event emits a set of brush strokes. Home team strokes begin at the event and flow to the left. Away team strokes flow to the right. That directional logic gives the image its sense of confrontation, like two forces constantly leaning into each other.\nThe length of each stroke is based on pass share — that team's passes divided by the total passes in the match. The team that circulated the ball more gets longer strokes. A team with less passing volume gets shorter, more abrupt marks.\nThe density of the lines is driven by possession. A team with less of the ball appears sparser, while a team with more possession occupies more of the space.\nThe gravity field\nIf I just end with the lines the posters would look a lot alike. And here is the nice touch to create more variation between the matches:\nGoals are treated as gravity points inside a vector fi",
+      "title": "How I turned World Cup data into posters | Zeh Fernandes",
+      "url": "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters"
     },
     "https://2026.stateofai.dev/en-US?ref=sidebar": {
       "cleaner_v": 2,
@@ -13897,20 +13945,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg"
     },
-    "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
-    },
     "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13925,19 +13959,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg"
     },
-    "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg": {
+    "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg",
+      "final_url": "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
+        "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
+      "url": "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg"
     },
     "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png": {
       "cleaner_v": 2,
@@ -13952,6 +13986,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbbtH5aIAAE1F9.png"
+    },
+    "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
     },
     "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg": {
       "cleaner_v": 2,
@@ -14756,6 +14804,20 @@
       "title": "How I Validated Design Decisions Before Writing Production Code • Slack Design",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar"
     },
+    "https://storiedcolors.com/?ref=sidebar": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Storied Colors: named colors with documented histories.",
+      "final_url": "https://storiedcolors.com/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storiedcolors.com/open-graph/_site.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Storied Colors",
+      "url": "https://storiedcolors.com/?ref=sidebar"
+    },
     "https://stratechery.com/2026/anthropics-safety-superpower/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -15036,34 +15098,6 @@
       "text_excerpt": "AI 增长引擎和传统营销工具有什么区别？\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n产品只是入场券，增长才是比赛本身——AI Agent 让一人公司也能跑增长飞轮。\n产品做好了，客户在哪？这是 2026 年每个独立创始人都在问的问题。本文用真实案例拆解如何用 AI Agent 搭建增长引擎——从冷启动到规模化获客，零营销团队的独立创始人也能做到。\nFree to startNo credit card requiredUpdated Jun 2026\nIndieHackers 上有一个帖子正在被疯狂讨论——「Building a complex SaaS was the easy part. Now I need proof.」发帖人花了七个月打磨产品，功能齐全、架构干净、性能优秀。然后他停在了一个问题上：谁来用？\n这不是个例。500k.io 的 2026 年独立创始人统计数据显示：73% 的独立创始人把「客户获取」列为第一痛点，远超「产品开发」（11%）和「融资」（9%）。\n产品做得再好，没人用就是零。\n但独立创始人的困境在于：你既没有预算雇增长团队，也没有时间同时搞定产品和营销。结果就是——产品上线了，然后呢？\n你在 Product Hunt 上线了，发了 X，发了 Reddit，贴了 HN。24 小时后：12 个 upvote，3 条评论，0 个注册。你的帖子沉了。\n不是产品不好——是冷启动本身就是一场信息战争，而一个人打不赢。\n你开始写博客、发推、做 LinkedIn。三个月后：博客月访问 200，X 粉丝 300。你发现内容的投入产出比低得可怕——不是因为内容没用，是因为你没有精力同时做内容和分发。\n一个博文写 4 小时，分发到 10 个渠道又要 3 小时。一周一篇博文，你每周 7 小时砸在内容上——这还不算选题和数据分析的时间。\nBazzly 的创始人 Filippo 在 IndieHackers 上写了一篇爆文：「You don't need more traffic. You need better activation.」43 个 upvote，70 条评论。核心观点：大多数独立创始人花 80% 时间在「做」增长（发帖、回帖、写邮件），只花 20% 时间在「想」增长（用户洞察、渠道策略、转化优化）。\n理想的比例应该反过来。\n2026 年的 AI Agent 已经不是「写文案的工具」了。它们能做的是一个完整增长团队的日常工作——从内容生产到多渠道分发，从冷启动 outreach 到客户反馈分析。\n一个独立创始人的增长系统只需要四个 AI 角色：\n1. AI 内容引擎 → 把「写东西」变成流水线\n不是让 AI 替你写一篇文章。是让 AI 跑一整个内容流水线：\n- 选题：扫描 IndieHackers、X、Reddit、HN 的热点话题，匹配你的产品定位\n- 撰写：基于 SEO 关键词和用户搜索意图生成结构化内容\n- 分发：自动生成 X thread、Reddit 帖子、HN 提交文案、Slack/Discord 社区分享\n- 追踪：48 小时后复盘数据，标记高转化渠道\n一个独立创始人手动跑完这个流程需要 6-10 小时。AI Agent 可以降到 1 小时以内——你的角色从「执行者」变成了「审核者」。\n2. AI 冷启动引擎 → 不是 spam，是规模化的人际接触\n冷启动最难的是什么？不是找不到目标用户——是一个个联系太慢了。\nAI 冷启动引擎的工作流程：\n- 识别你的目标用户活跃的社区（Reddit 子版块、Slack 群组、Discord 服务器）\n- 监控相关讨论话题\n- 生成个性化、有价值的回复（不是「试试我的产品」，而是真正回答问题，自然带出你的产品作为解决方案）\n- 跟踪哪些社区和话题的转化率最高\nLiFast 的创始人做了一个 AI LinkedIn outreach 工具，自己先用它做冷启动——从 600 次 LinkedIn 资料浏览到 12 个真实客户，只用了 90 天。\n3. AI 激活引擎 → 让注册用户真正用起来\n大多数独立创始人的激活流程是这样的：用户注册 → 收到一封 welcome email → 然后就没有然后了。\nIndieHackers 的数据：一个新用户在注册后 72 小时内如果没有完成「关键动作」（比如完成第一个任务、导入数据、邀请队友），流失率超过 80%。\nAI 激活引擎能做什么：\n- 根据用户注册时的行为数据，发个性化的 onboarding 序列\n- 监控用户的关键行为（登录频率、功能使用、停留时间）\n- 在用户即将流失时触发挽留动作（个性化的邮件、教程视频、甚至是一个真实的 demo offer）\n这不是「发邮件」——这是用数据驱动的自动化激活。\n4. AI 反馈引擎 → 让客户告诉你下一步做什么\n增长不等于获客。增长的真正引擎是 客户洞察 → 产品迭代 → 口碑传播。\nAI 反馈引擎的工作：\n- 自动收集和分析客服对话、社交媒体评论、产品内反馈\n- 提取高频需求和痛点\n- 标记流失信号（某个功能的使用率突然下降、负面评价集中出现）\n- 每周生成一份「你该知道的 5 件事」\n你不再是盲飞。\n假设你是一个独立创始人，刚上线了一个 AI 项目协作工具。你的增长飞轮怎么跑：\n第 1-2 周：内容播种\n- AI 内容引擎产出 2 篇 SEO 博文 + 10 条社交分发\n- 目标：建立初始内容资产，开始获取搜索流量\n第 3-4 周：社区冷启动\n- AI 冷启动引擎在 3 个目标社区持续互动\n- 每天 5-10 条有价值的回复，自然带出产品\n- 目标：获得第一批 20-30 个注册用户\n第 5-8 周：激活和迭代\n- AI 激活引擎接手新用户 onboarding\n- AI 反馈引擎收集用户行为数据和反馈\n- 根据数据迭代产品\n第 9 周起：规模化\n- 内容引擎进入周更节奏\n- 冷启动引擎扩展到新社区\n- 激活和反馈引擎持续优化\n这不是理论——500k.io 的数据显示，使用 AI Agent 做增长的独立创始人，6 个月内用户增长速度是仅靠手动增长的 3.4 倍。\nAI 不是魔法。如果你自己的增长策略是错的，AI 只是帮你更快地执行错误策略。\n先想清楚：你的目标用户是谁？他们在哪里？他们为什么应该用你的产品？这些问题的答案不能交给 AI。\nAI 可以 10 分钟产出一篇博文——但 10 篇平庸的文章不如 1 篇真正有用的文章。AI 内容引擎的起点应该是用户搜索意图研究和竞品内容分析，而不是「让 AI 随便写」。\n一个独立创始人的 AI 增长团队应该聚焦在 1-2 个渠道上做到极致，而不是 10 个渠道都蜻蜓点水。\n怎么选渠道？看两个指标：\n- 你的目标用户在不在这个渠道\n- 这个渠道是否适合长期积累（SEO 和社区 > 一次性广告）\n如果你只有 1-2 个 AI 工具（ChatGPT 写文案、一个 SEO 工具做关键词），你只是把单项任务自动化了。\n真正的增长引擎是 AI Agent 之间的协作：你的 AI 内容引擎自动把博文发给 AI 分发引擎，AI 分发引擎把用户反馈喂给 AI 分析引擎，AI 分析引擎把洞察推给你。\n这就是 Tycoon 在解决的问题——不是给你一个 AI 工具，而是给你一个 AI 增长团队：\n- [AI CEO](https://tycoon.us/blog/what-is-an-ai-ceo)— 每天早上的优先级清单，自动跟进和堵点发现\n- [AI 写手 + SEO + 分发](https://tycoon.us/blog/your-first-employee-should-be-ai)— 内容从选题到多平台分发全自动\n- [AI 增长分析师](https://tycoon.us/blog/how-to-run-a-one-person-company-with-ai)— 数据找人，而不是人找数据\n你不再是一个人在战斗。\n产品做好了，客户在哪？这个问题不会再让你失眠。\nFAQ\nClear answers about wallet credit, usage, subscriptions, and how Tycoon charges for work.\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n一个集成 AI 平台的月费通常在 $9-$99 之间，覆盖内容、分发、分析和冷启动。相比之下，雇一个兼职增长人员的成本是 $2K-$5K/月。AI 增长引擎的成本是人类的 1-3%。\nGoogle 的立场很明确：惩罚的是「低质量、为操纵排名而生的内容」，不是「AI 辅助创作的内容」。关键策略是：AI 出草稿和结构，人类把控洞察和真实经验，确保每篇内容提供独特的价值。纯 AI 生成、零人工审核的内容确实有风险。\n取决于你的产品类型和目标用户。B2B SaaS 优先 SEO + LinkedIn + 行业社区；B2C 优先 SEO + Reddit + X；开发者工具优先 SEO + HN + GitHub + Dev.to。无论选哪个渠道，聚焦 1-2 个做到 80 分，再考虑扩展。\n取决于你怎么用。AI 的正确用法",
       "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
       "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
-    },
-    "https://usebilly.app/en": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "A tool crafted with love for all the freelancers and small businesses that want their bureaucracy to be a little more organized and beautiful.",
-      "final_url": "https://usebilly.app/en",
-      "frameable": null,
-      "image_urls": [
-        "https://usebilly.app/assets/img/og-image.png",
-        "https://usebilly.app/media/site/01328aa5ff-1774695355/billy.webp",
-        "https://usebilly.app/assets/img/sticker-1.svg",
-        "https://usebilly.app/assets/img/sticker-7.svg",
-        "https://usebilly.app/assets/img/sticker-4.svg",
-        "https://usebilly.app/assets/img/sticker-6.svg",
-        "https://usebilly.app/media/site/34afbd8d8b-1774695355/app-icon.png",
-        "https://usebilly.app/media/site/e226dcdaba-1774695355/app-icon-e-invoice.webp",
-        "https://usebilly.app/media/site/fc6671b6cc-1774695355/app-icon-data-autonomy.webp",
-        "https://usebilly.app/media/site/0c213a324a-1774695355/app-icon-customization.webp",
-        "https://usebilly.app/media/site/6324e7c4ab-1774695356/invoice-status.png",
-        "https://usebilly.app/media/site/992daebc4b-1776438662/profile-switcher.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Get Billy Manifesto Features Roadmap Support DE Get Billy DE Home Get Buy Download Updates Beta App Features Roadmap Plugins New Support About Manifesto Press Kit Invoice Manager Electronic Invoices Data Autonomy Customize A tool crafted with love for all the freelancers and small businesses that want their bureaucracy to be a little more organized and beautiful. A tool fully compliant with the EU standard EN 16931 and the German standard XRechnung —tested through the official validator . Supporting the motto “ file over app ,” this app saves all data in the non-proprietary format JSON, which lets you truly own your data and store it as you please. A tool built to match your brand’s identity—customizable your invoices through tweaking colors, fonts, and layout to make it fit your style. Overview E-Invoices Data Autonomy Customization Status tracking Clear status indicators provide clarity and control. Multiple profiles For multiple activities, you can create separate profiles with their own invoice number sequences. Well-structured, professional invoices Invoices should be well-structured, easy to read, easy to understand, and visually appealing. Individual styling Style invoices to give them their own visual identity without compromising aspects such as readability. Valid e-invoice As required in Germany starting no later than 2028, exports are compliant e‍-‍invoices. Local and open Storing invoices in your Mac’s file system allows for high flexibility and individual workflows. Subscribe to my newsletter to receive app updates and insights. Subscribe Get Buy Download Updates Beta App Features Roadmap Plugins New Support About Manifesto Press Kit Legal Notice Privacy Policy Terms of Use Legal Notice Privacy Policy Terms of Use Copyright © 2026 Simon Lou. All rights reserved.",
-      "text_excerpt_zh": "获取 Billy 宣言 功能 路线图 支持 DE 获取 Billy DE 首页 获取 购买 下载 更新 Beta 应用 功能 路线图 插件 新功能 支持 关于 宣言 媒体资料包 发票管理器 电子发票 数据自主权 自定义 一款为自由职业者和小型企业精心打造的工具，让繁琐的行政事务变得更有条理、更美观。 完全符合欧盟标准 EN 16931 和德国标准 XRechnung——已通过官方验证器测试。 秉承“文件优先于应用”的理念，本应用将所有数据保存为非专有格式 JSON，让您真正拥有数据并随心存储。 一款能与品牌形象匹配的工具——通过调整颜色、字体和布局自定义发票，使其符合您的风格。 概览 电子发票 数据自主权 自定义 状态跟踪 清晰的状态指示器提供明确性和控制力。 多配置文件 针对不同业务活动，可创建独立的配置文件，并拥有各自的发票编号序列。 结构清晰、专业的发票 发票应结构清晰、易于阅读、易于理解且视觉美观。 个性化样式 为发票设计独特的视觉风格，同时不影响可读性等要素。 合规电子发票 根据德国最迟于2028年实施的要求，导出的发票为合规电子发票。 本地化与开放性 将发票存储在 Mac 的文件系统中，可实现高度灵活性和个性化工作流程。 订阅我的新闻通讯，获取应用更新和见解。 订阅 获取 购买 下载 更新 Beta 应用 功能 路线图 插件 新功能 支持 关于 宣言 媒体资料包 法律声明 隐私政策 使用条款 法律声明 隐私政策 使用条款 版权所有 © 2026 Simon Lou。保留所有权利。",
-      "text_excerpt_zh_hash": "8b329222acf803c9",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Billy · Invoice Manager",
-      "url": "https://usebilly.app/en"
     },
     "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e": {
       "cleaner_v": 2,
@@ -15750,6 +15784,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Designing AI Agents - Jia Huang",
       "url": "https://www.manning.com/books/designing-ai-agents"
+    },
+    "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "“Xavier owns an apartment that he rents out at a loss of $1 billion/month. Seeing this success, he decides to make financial commitments to construct $850 bi...",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "http://tendency-prod.nyc3.cdn.digitaloceanspaces.com/paoqe38srko0txp9d764u9szy60h",
+        "https://tendency-prod.nyc3.cdn.digitaloceanspaces.com/paoqe38srko0txp9d764u9szy60h",
+        "https://www.mcsweeneys.net/assets/search-614fbdcc4e71f0730ad039e484ec78a1085f24294fa0b4514da70b0a930b2dce.svg",
+        "https://tendency-prod.nyc3.cdn.digitaloceanspaces.com/q2krp6ge2yjcstluknfdy8f3uq6v",
+        "https://tendency-prod.nyc3.cdn.digitaloceanspaces.com/83ylnyaik94tcz8iedb4z950dits",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3859/2026-05-06%2011:16:35%20-0700/large/Wind_Knows_Nothing_print.jpg?1778091395",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3422/2025-06-25%2017:57:23%20-0700/large/241101_McSweeney's_LeavesOfGrass_Deluxe_1171.jpg?1750899443",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3550/2025-06-25%2018:08:41%20-0700/tendency/McSwys_Sub_gold_and_white.png?1750900121",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3612/2025-07-16%2014:03:22%20-0700/tendency/McSwys_Sub_BLVR_print_%282%29.png?1752699802",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3610/2025-07-16%2014:02:27%20-0700/tendency/McSwys_Sub_Illustoria_%281%29.png?1752699747",
+        "https://store-prod.nyc3.cdn.digitaloceanspaces.com/images/store/3808/2026-01-29%2014:35:56%20-0800/tendency/9781963270457.jpg?1769726156"
+      ],
+      "kind": "article",
+      "text_excerpt": "As AI companies get ready to go public and we get a deeper look at their inner workings, it’s only natural to have questions about their finances, like “Do they make money?” and “How?” Here are a few examples to help the average layperson understand the business side of AI.\n1. Acquiring one grape costs Alex $2 billion. Alex offers to sell Mike one grape a month for the next 12 months for $1 billion per grape. Alex asks for the full $12 billion up front and provides Mike with one grape for the first month. Alex makes a $10 billion profit this month; his ARR is $120 billion, and his profits are trending up at an infinite rate. The Wall Street Journal’s business editor moves into Alex’s house, having accepted a part-time position as Alex’s human footstool. He never asks to see the books.\n2. Laura drives a taxi. Instead of charging her customers a fee for every ride, she charges them a $20/month subscription. Laura has 40 million paying customers, totaling roughly $13 billion in annual revenue. Laura spends $25 billion/year on gas. In a fit of late-capitalist bloodlust, hordes of tech and finance bros riot in the streets, firebombing every rideshare, bus, and pedicab they can find, declaring the transportation business officially “over.” Also, Laura’s taxi cost her $1 trillion to attain, and she’ll have to replace it in four to eight years.\n3. Jenny owns a crematorium. John’s propane company gives her a $20 billion investment in return for 5 percent of her operation. Jenny throws $10 billion into the incinerator, then pays John $10 billion to buy propane to burn that money to ashes. John reports that his AI investments have generated $10 billion in revenue this quarter and that he owns 5 percent of a $100 billion business. A reporter from Forbes is assigned to profile John and Jenny, and over the course of his research, he becomes embroiled in a passionate but confusing three-way love affair with them, which eventually turns into a polyamorous common-law marriage. His profile is glowing, but light on financial details.\n4. Benjamin owns a farm. He employs 100 workers plowing his fields. His total payroll is $10 million/year. One day, he buys a mule, which provides the worker who uses it with a modest 10 percent productivity gain. Benjamin fires 99 of his workers and purchases 99 mules, expecting a 1,000 percent productivity gain. The driverless mules cause plow damage to his property in excess of $50 million. Benjamin loses another $5 million due to the loss of productivity from his one remaining employee, who no longer guides a plow but instead spends 100 percent of his time shoveling mule shit. Goldman Sachs builds an altar to Benjamin in their lobby and cuts out the heart of a junior analyst on it every Friday. They call it “Blood Sacrifice Friday.” The name isn’t catchy, but the event becomes a management favorite nonetheless.\n5. Xavier owns an apartment that he rents out at a loss of $1 billion/month. Seeing this success, he decides to make financial commitments to construct $850 billion in new apartments in places nobody wants them. He convinces Ted to leverage everything he owns to help him build the apartments, telling him that once they are built, every human being on Earth will live in them. Ted contributes $100 billion, part of which immediately goes toward paying off Xavier’s $1 billion/month loss. Forbes gives Xavier and Ted a cover feature, likening their building project to God creating the Heavens and the Earth. Many Fortune 500 CEOs take this comparison literally and establish a new religion around Ted and Xavier, with themselves as high priests. Soon, they start a Holy War with the pope, declaring “Ted and Xavier the One True Gods on Earth” and promising to “purge the nonbelievers” in an official press release. They annex, then subsequently demolish, Vatican City, committing another $900 billion dollars to build new apartments in its place. Forbes hails this as “disruptive,” though it’s not clear how Ted and Xavie",
+      "title": "AI Economics for Dummies - McSweeney’s Internet Tendency",
+      "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar"
     },
     "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar": {
       "cleaner_v": 2,
@@ -16661,13 +16720,6 @@
     "2058269663788736907": [
       "https://x.com/Mnilax/status/2058269663788736907",
       "http://x.com/i/article/2058256945732018176"
-    ],
-    "2058308605364052211": [
-      "https://x.com/m0d8ye/status/2058308605364052211",
-      "https://x.com/m0d8ye/status/2058309163760152886",
-      "https://x.com/m0d8ye/status/2044559140526411778?s=46",
-      "https://x.com/m0d8ye/status/2058374990723232185",
-      "https://x.com/m0d8ye/status/2058373907342852122"
     ],
     "2058352531844243828": [
       "https://x.com/lexrus/status/2058361987919475186",
@@ -21269,14 +21321,14 @@
       "https://x.com/kanavtwt/status/2068968077174444410",
       "https://x.com/kanavtwt/status/2068422601979146488",
       "https://x.com/kanavtwt/status/2068959779540894119",
-      "https://x.com/kanavtwt/status/2068422449633566740",
       "https://x.com/kanavtwt/status/2068600519648772351",
+      "https://x.com/kanavtwt/status/2068422449633566740",
       "https://x.com/kanavtwt/status/2068459790817489187",
       "https://x.com/kanavtwt/status/2068797275556753677",
       "https://x.com/kanavtwt/status/2069062742175297837",
+      "https://x.com/kanavtwt/status/2068404639083733032",
       "https://x.com/kanavtwt/status/2068450529353843142",
       "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg",
-      "https://x.com/kanavtwt/status/2068404639083733032",
       "https://x.com/kanavtwt/status/2068451150404391053",
       "https://x.com/kanavtwt/status/2068478232056549609",
       "https://x.com/kanavtwt/status/2068422729871806826",
@@ -21319,9 +21371,9 @@
       "https://x.com/wquguru/status/2068679590202220982",
       "https://x.com/wquguru/status/2068707740533588036",
       "https://x.com/wquguru/status/2068678033503056121",
-      "https://x.com/wquguru/status/2068685381323936149",
       "https://x.com/wquguru/status/2068860448427135041",
       "https://pbs.twimg.com/media/HLYRmYXbMAAywlL.jpg",
+      "https://x.com/wquguru/status/2068685381323936149",
       "https://x.com/wquguru/status/2068915173734375557"
     ],
     "2068678395672859105": [
@@ -21364,8 +21416,8 @@
       "https://x.com/eliakuratli/status/2069113657955377333",
       "https://x.com/eliakuratli/status/2069042031603630442",
       "https://x.com/eliakuratli/status/2069073908179837113",
-      "https://x.com/eliakuratli/status/2069006078512148740",
       "https://x.com/eliakuratli/status/2068994481106399501",
+      "https://x.com/eliakuratli/status/2069006078512148740",
       "https://x.com/eliakuratli/status/2068974250187190440",
       "https://x.com/eliakuratli/status/2068938873216860242"
     ],
@@ -21375,8 +21427,8 @@
       "https://x.com/Saboo_Shubham_/status/2068734280742949356",
       "https://x.com/Saboo_Shubham_/status/2069107664890814975",
       "https://x.com/Saboo_Shubham_/status/2068739592183066864",
-      "https://x.com/Saboo_Shubham_/status/2068730712581357987",
-      "https://x.com/Saboo_Shubham_/status/2068730771259666592"
+      "https://x.com/Saboo_Shubham_/status/2068730771259666592",
+      "https://x.com/Saboo_Shubham_/status/2068730712581357987"
     ],
     "2068734749083091319": [
       "https://x.com/ishanmkh/status/2068734749083091319"
@@ -21398,9 +21450,7 @@
     ],
     "2068778941553512828": [
       "https://x.com/TheValueist/status/2068778941553512828",
-      "http://x.com/i/article/2068776714554191872",
-      "https://x.com/TheValueist/status/2069043947796668809",
-      "https://pbs.twimg.com/media/HLa4gRDWQAAoMDQ.png"
+      "http://x.com/i/article/2068776714554191872"
     ],
     "2068779263298568646": [
       "https://x.com/denohawari/status/2068779263298568646",
@@ -21439,19 +21489,17 @@
       "https://recent.design/",
       "https://pbs.twimg.com/media/HLYFU29aIAACvEL.jpg",
       "https://x.com/dingyi/status/2068873740688269406",
-      "https://x.com/dingyi/status/2069080615622987968",
-      "https://x.com/dingyi/status/2069073939326963883",
-      "https://usebilly.app/en",
-      "https://pbs.twimg.com/media/HLbTyCMbYAAzOXi.jpg"
+      "https://x.com/dingyi/status/2069080615622987968"
     ],
     "2068881644191465901": [
       "https://x.com/apartovi/status/2068881644191465901",
       "http://x.com/i/article/2068877374998073344",
       "https://x.com/apartovi/status/2069058971533738454",
+      "https://x.com/apartovi/status/2069045913977495628",
       "https://x.com/apartovi/status/2069089677332840597",
       "https://x.com/apartovi/status/1527440722219061248?s=46",
       "https://x.com/apartovi/status/2069112315895796128",
-      "https://x.com/apartovi/status/2069045913977495628"
+      "https://x.com/apartovi/status/2069174402584084764"
     ],
     "2068882720441156026": [
       "https://x.com/jeazous/status/2068882720441156026",
@@ -21477,8 +21525,8 @@
     ],
     "2068910841228095573": [
       "https://x.com/bkingfilm/status/2068910841228095573",
-      "https://x.com/bkingfilm/status/2069034267179618500",
       "https://x.com/bkingfilm/status/2068915162099372115",
+      "https://x.com/bkingfilm/status/2069034267179618500",
       "https://x.com/bkingfilm/status/2068917455901372418",
       "https://x.com/bkingfilm/status/2068921137854316612",
       "https://x.com/bkingfilm/status/2069031682486022553"
@@ -21491,20 +21539,20 @@
       "https://x.com/dhruvtwt_/status/2068931416612905457",
       "http://x.com/i/article/2061486694738882564",
       "https://x.com/dhruvtwt_/status/2069014668824432967",
-      "https://x.com/dhruvtwt_/status/2069014791314972900",
-      "https://x.com/dhruvtwt_/status/2069014831362142607",
-      "https://x.com/dhruvtwt_/status/2069014217999733217",
-      "https://x.com/dhruvtwt_/status/2069014346945216551",
       "https://x.com/dhruvtwt_/status/2069014431464649077",
       "https://x.com/dhruvtwt_/status/2069014767709417869",
       "https://x.com/dhruvtwt_/status/2069014478981869835",
+      "https://x.com/dhruvtwt_/status/2069014413311688904",
+      "https://x.com/dhruvtwt_/status/2069014831362142607",
+      "https://x.com/dhruvtwt_/status/2069014241122619461",
+      "https://x.com/dhruvtwt_/status/2069014791314972900",
+      "https://x.com/dhruvtwt_/status/2069014346945216551",
+      "https://x.com/dhruvtwt_/status/2069014217999733217",
       "https://x.com/dhruvtwt_/status/2069028909048586536",
       "https://x.com/dhruvtwt_/status/2069075729061712240",
-      "https://x.com/dhruvtwt_/status/2069014241122619461",
       "https://x.com/dhruvtwt_/status/2069014888425673019",
-      "https://x.com/dhruvtwt_/status/2069014413311688904",
-      "https://x.com/dhruvtwt_/status/2069088634578641025",
-      "https://x.com/dhruvtwt_/status/2069014300677795865"
+      "https://x.com/dhruvtwt_/status/2069014300677795865",
+      "https://x.com/dhruvtwt_/status/2069088634578641025"
     ],
     "2068961003799196098": [
       "https://x.com/csaba_kissi/status/2068961003799196098",
@@ -21516,18 +21564,18 @@
       "https://pbs.twimg.com/amplify_video_thumb/2068960931179098112/img/T-R91tLMU2Fc1SKp.jpg",
       "https://x.com/csaba_kissi/status/2069013506838422001",
       "https://x.com/csaba_kissi/status/2069017566190674343",
-      "https://x.com/csaba_kissi/status/2069043010109600036",
       "https://x.com/csaba_kissi/status/2068973637315531258",
-      "https://x.com/csaba_kissi/status/2068983182053998863",
-      "https://x.com/csaba_kissi/status/2068996170106519823",
-      "https://x.com/csaba_kissi/status/2069034463531594128",
-      "https://x.com/csaba_kissi/status/2068973152848203996",
-      "https://x.com/csaba_kissi/status/2068996019157610780",
       "https://x.com/csaba_kissi/status/2069017452554358993",
+      "https://x.com/csaba_kissi/status/2069034463531594128",
+      "https://x.com/csaba_kissi/status/2068996170106519823",
+      "https://x.com/csaba_kissi/status/2068983182053998863",
       "https://x.com/csaba_kissi/status/2069013576275099787",
+      "https://x.com/csaba_kissi/status/2069043010109600036",
       "https://x.com/csaba_kissi/status/2068969472463978651",
       "https://x.com/csaba_kissi/status/2068970699801202748",
-      "https://x.com/csaba_kissi/status/2068970592225698090"
+      "https://x.com/csaba_kissi/status/2068996019157610780",
+      "https://x.com/csaba_kissi/status/2068970592225698090",
+      "https://x.com/csaba_kissi/status/2068973152848203996"
     ],
     "2068963699763884240": [
       "https://x.com/bibryam/status/2068963699763884240",
@@ -21535,6 +21583,12 @@
       "https://x.com/bibryam/status/2068298567240896835",
       "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai",
       "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png"
+    ],
+    "2068974245963526169": [
+      "https://x.com/bookwormengr/status/2068974245963526169",
+      "http://x.com/i/article/2068943445662846976",
+      "https://x.com/bookwormengr/status/2069102482870190140",
+      "https://x.com/bookwormengr/status/2069093167878828152"
     ],
     "2068987470960623783": [
       "https://x.com/h100envy/status/2068987470960623783",
@@ -21549,7 +21603,8 @@
     "2069002271216787464": [
       "https://x.com/jasonzhou1993/status/2069002271216787464",
       "https://github.com/AI-Builder-Club/loop-engineer-template",
-      "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg",
+      "https://x.com/jasonzhou1993/status/2069197853344616844"
     ],
     "2069008589721932251": [
       "https://x.com/0xJeff/status/2069008589721932251",
@@ -21569,8 +21624,36 @@
       "https://x.com/SidebarIO/status/2069107911188484140",
       "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
       "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+    ],
+    "2069063987153846763": [
+      "https://x.com/zehf/status/2069063987153846763",
+      "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters",
+      "https://x.com/zehf/status/2069079446133625256"
+    ],
+    "2069072425224970275": [
+      "https://x.com/SidebarIO/status/2069072425224970275",
+      "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar",
+      "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg",
+      "https://x.com/SidebarIO/status/2069107911188484140",
+      "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg"
+    ],
+    "2069107911188484140": [
+      "https://x.com/SidebarIO/status/2069107911188484140",
+      "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg",
+      "https://x.com/SidebarIO/status/2069098345025401238",
+      "https://storiedcolors.com/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLbp-pqXcAAAnQ9.jpg"
+    ],
+    "2069108412453908791": [
+      "https://x.com/GoogleAIStudio/status/2069108412453908791",
+      "http://x.com/i/article/2069077093036576768"
+    ],
+    "2069127421291377016": [
+      "https://x.com/RayDalio/status/2069127421291377016"
     ]
   },
-  "updated_at": "2026-06-22T18:18:00Z",
+  "updated_at": "2026-06-23T01:23:22Z",
   "window": "recent"
 }
