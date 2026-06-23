@@ -92,6 +92,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "If America’s government is the gatekeeper to frontier AI, many countries will conclude they depend on it more than ever. Register for free to read how they can still strengthen their bargaining positions https://www.economist.com/leaders/2026/06/18/ai-has-granted-america-vast-new-power?taid=6a3936819cbd970001f36eb4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "如果美国政府成为前沿AI的守门人，许多国家将意识到它们比以往任何时候都更依赖美国。免费注册阅读：各国如何仍能增强自身谈判地位 https://www.economist.com/leaders/2026/06/18/ai-has-granted-america-vast-new-power?taid=6a3936819cbd970001f36eb4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "efd50678d682cd6b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2069047760830033927"
     },
     {
@@ -133,6 +136,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A builder just declared \"loops are dead,\" and the fight that followed talked past itself.\n\nThree different things get called a loop. Only one is:\n\nRoutine: fixed steps, every time.\nWorkflow: branches on what it finds.\nLoop: repeats and checks its own work until a condition holds.\n\nThe first two aren't loops. \"Loops are dead\" really means \"routines on a timer are dead.\" Fair. The third kind is the one worth building.\n\nFull guide (not only) for PMs ↓",
+      "text_zh": "一位构建者刚刚宣称“循环已死”，随之而来的争论却各说各话。\n\n有三种不同的东西被称为循环，但只有一种名副其实：\n\n- **例行程序**：固定步骤，每次重复。\n- **工作流**：根据发现的情况分支。\n- **循环**：重复执行并检查自身工作，直到满足某个条件。\n\n前两种不是循环。“循环已死”实际上意味着“定时触发的例行程序已死”。这说得通。第三种才是值得构建的。\n\n完整指南（不仅面向产品经理）↓",
+      "text_zh_hash": "482f331c2466be58",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2069151402698432860"
     },
     {
@@ -174,6 +180,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Claude Is Not Your Architect. Stop Letting It Pretend.\"\nYour engineers have spent years building the judgement . Let them make them. Use the AI to build faster. But build what your people designed-not what the machine suggested.\nby Charlie Holland\nhttps://www.hollandtech.net/claude-is-not-your-architect",
+      "text_zh": "“克劳德不是你的架构师。别再让它装模作样了。”\n你的工程师们花了多年时间培养判断力。让他们自己做判断。用AI来加速构建。但构建的是你团队设计的东西——而不是机器建议的方案。\n\n作者：查理·霍兰德\nhttps://www.hollandtech.net/claude-is-not-your-architect",
+      "text_zh_hash": "39d1026a0374383f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2069107648486646108"
     },
     {
@@ -218,6 +227,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Evolutionary strategies: try many small variations. Keep the ones that perform best. Move toward them. Repeat.\n\nNo gradients needed. Just a fitness score at the end.\n\nNature has been using this algorithm for billions of years. Now it trains AI orchestrators.\n\nSakana Fugu - A Single Model That Orchestrates Multi-Agent Systems\n\nby @SakanaAILabs",
+      "text_zh": "进化策略：尝试大量微小变异，保留表现最优的，向其方向靠拢，重复迭代。\n\n无需梯度计算，只需最终的适应度评分。\n\n自然界运用这一算法已数十亿年。如今，它正被用于训练AI协调器。\n\nSakana Fugu —— 一个能编排多智能体系统的单一模型\n\n作者：@SakanaAILabs",
+      "text_zh_hash": "310b2617bf34c482",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pallavishekhar_/status/2069088549681746293"
     },
     {
@@ -300,6 +312,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "OLTP, OLAP, HTAP... and now LTAP?\n\nAs storage and workload architectures get murkier, do we need a better taxonomy for systems, workloads, visibility, tiers, and durable copies?\n\nI proposed one here: https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy\nOpinions wanted!",
+      "text_zh": "OLTP、OLAP、HTAP……现在又来了LTAP？\n\n随着存储和工作负载架构日益模糊，我们是否需要一套更好的分类体系来定义系统、工作负载、可见性、层级以及持久化副本？\n\n我在此提出了一套方案：https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy\n欢迎发表意见！",
+      "text_zh_hash": "3d08d1437296d728",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vanlightly/status/2069047852450402325"
     },
     {
@@ -340,6 +355,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“Few in the Trump Administration, Silicon Valley or China’s planning apparatus stop to ask: What is our goal with technology? What constitutes a flourishing human life?”\n\n—Jacob Dreyer\n\nhttps://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial",
+      "text_zh": "\"特朗普政府、硅谷或中国的规划机构中，很少有人停下来问：我们使用技术的目标是什么？什么样的人类生活才算繁荣？\"\n\n——雅各布·德雷尔\n\nhttps://www.noemamag.com/after-the-ai-revolution/?utm_source=noematwitter&utm_medium=noemasocial",
+      "text_zh_hash": "210feea7562c8f01",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/NoemaMag/status/2069088420572393702"
     },
     {
@@ -387,6 +405,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Btw this is for work on http://zhcinstitute.com + the zero-human company builder tool.",
+      "text_zh": "顺便提一下，这是为 http://zhcinstitute.com 以及零人工公司构建工具所做的工作。",
+      "text_zh_hash": "8888109e606cf666",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/tomosman/status/2068787541008896013"
     },
     {
@@ -428,6 +449,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "quarterly banger by one and only @JayaGup10",
+      "text_zh": "季度重磅炸弹，来自独一无二的 @JayaGup10",
+      "text_zh_hash": "293ab7b46c9d4769",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ArpitGuptaji19/status/2069257361408008507"
     },
     {
@@ -469,6 +493,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Fable could be a precursor for this trend. \n\nIf the labs internalize more capabilities, how does the outside-in perception of progress change? The AI ARR numbers are almost a meme at this point, but also the most legible form of growth and diffusion.",
+      "text_zh": "Fable 可能是这一趋势的先兆。\n\n如果实验室将更多能力内部化，外界对进展的感知会如何变化？AI 的 ARR 数字几乎已成为一种梗，但同时也是最直观的增长与扩散指标。",
+      "text_zh_hash": "c04afa3ba053bc31",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/aashaysanghvi_/status/2069136895997796724"
     },
     {
@@ -595,6 +622,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "well written. really interesting how AI application startups are successfully post-training open source models that generate top marks on benchmarks. Bringing down the cost per token should dramatically increase demand for inference. also prob bearish on closed source",
+      "text_zh": "写得好。有趣的是，AI应用初创公司正在成功地对开源模型进行后训练，使其在基准测试中取得顶尖成绩。降低每token成本应该会大幅提升推理需求。这可能也对闭源模型不利。",
+      "text_zh_hash": "11310b2e84acb827",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Kylejung25/status/2069113212054757437"
     },
     {
@@ -636,6 +666,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "At 36, I'm thinking about my next career steps.\n\nOver the years I founded a company, helped scale ChatGPT, and spent time in venture. I'm grateful for all of it.\n\nI wrote about the path, and the idea I want to spend the next ten years working on.",
+      "text_zh": "36岁之际，我正思考着职业生涯的下一步。\n\n这些年来，我创办过公司，参与过ChatGPT的规模化发展，也在风投领域深耕过。对此我满怀感激。\n\n我写下了这段历程，以及未来十年想要专注投入的想法。",
+      "text_zh_hash": "e3259eade08cdee7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rememberlenny/status/2069283531210268932"
     },
     {
