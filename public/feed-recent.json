@@ -9553,19 +9553,19 @@
       "title": "毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～｜龍汰(リュウタ)",
       "url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
     },
-    "https://on.wsj.com/4eFmZf2": {
+    "https://on.wsj.com/4g2RVII": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "fetch_error": "HTTP Error 401: HTTP Forbidden",
-      "final_url": "https://on.wsj.com/4eFmZf2",
+      "final_url": "https://on.wsj.com/4g2RVII",
       "frameable": null,
       "image_urls": [],
       "kind": "unknown",
       "text_excerpt": "",
       "title": "",
-      "url": "https://on.wsj.com/4eFmZf2"
+      "url": "https://on.wsj.com/4g2RVII"
     },
     "https://on.wsj.com/4w51efY": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -14047,20 +14047,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
     },
-    "https://pbs.twimg.com/media/HLfClNdagAE5I7B.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLfClNdagAE5I7B.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLfClNdagAE5I7B.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLfClNdagAE5I7B.jpg"
-    },
     "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14256,20 +14242,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg"
-    },
-    "https://pbs.twimg.com/tweet_video_thumb/HLgigrnasAALT7_.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HLgigrnasAALT7_.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HLgigrnasAALT7_.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HLgigrnasAALT7_.jpg"
     },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
@@ -21489,14 +21461,14 @@
       "https://x.com/tomosman/status/2068751912053145798",
       "https://x.com/tomosman/status/2068786950719303919",
       "https://x.com/tomosman/status/2068751816955703381",
-      "https://x.com/tomosman/status/2068958271168266363",
       "https://x.com/tomosman/status/2068751947339903014",
+      "https://x.com/tomosman/status/2068958271168266363",
       "https://x.com/tomosman/status/2068788080417366044",
+      "https://x.com/tomosman/status/2068751876972040610",
       "https://x.com/tomosman/status/2068752282133393656",
       "https://x.com/tomosman/status/2068822434594042001",
       "https://x.com/tomosman/status/2068788003120529883",
-      "https://x.com/tomosman/status/2068788322953056525",
-      "https://x.com/tomosman/status/2068751876972040610"
+      "https://x.com/tomosman/status/2068788322953056525"
     ],
     "2068710057630371863": [
       "https://x.com/nathanbenaich/status/2068710057630371863",
@@ -21692,6 +21664,8 @@
       "https://pbs.twimg.com/media/HLIIxLcXsAAeUKM.png"
     ],
     "2068974245963526169": [
+      "https://x.com/bookwormengr/status/2068974245963526169",
+      "http://x.com/i/article/2068943445662846976",
       "https://x.com/bookwormengr/status/2069102482870190140",
       "https://x.com/bookwormengr/status/2069093167878828152"
     ],
@@ -21721,9 +21695,9 @@
       "http://x.com/i/article/2069033647089287168",
       "https://x.com/iximiuz/status/2069362795607396772",
       "https://smallstep.com/blog/everything-pki/",
-      "https://x.com/iximiuz/status/2069362056902463680",
-      "https://x.com/iximiuz/status/2069362161910939767",
       "https://x.com/iximiuz/status/2069361984101851479",
+      "https://x.com/iximiuz/status/2069362161910939767",
+      "https://x.com/iximiuz/status/2069362056902463680",
       "https://x.com/iximiuz/status/2069380554814812560",
       "https://www.reddit.com/r/sysadmin/comments/1uc5yqm/for_those_in_companies_that_have_hundreds_of_vms/"
     ],
@@ -21763,22 +21737,21 @@
       "https://x.com/zehf/status/2069443990110568855",
       "https://x.com/zehf/status/2069441545523331227",
       "https://x.com/zehf/status/2069441757264404759",
+      "https://x.com/zehf/status/2069443266119123195",
       "https://x.com/zehf/status/2069443422688321896",
       "https://x.com/zehf/status/2069443893322813473",
-      "https://x.com/zehf/status/2069444026278068467",
-      "https://x.com/zehf/status/2069443266119123195",
-      "https://x.com/zehf/status/2069444084494930140",
       "https://x.com/zehf/status/2069441673286029558",
+      "https://x.com/zehf/status/2069444245866660105",
+      "https://x.com/zehf/status/2069441817393991770",
+      "https://x.com/zehf/status/2069444084494930140",
+      "https://x.com/zehf/status/2069444026278068467",
+      "https://x.com/zehf/status/2069444272374657170",
       "https://x.com/zehf/status/2069444183283368102",
       "https://x.com/zehf/status/2069444505229836517",
-      "https://x.com/zehf/status/2069444245866660105",
-      "https://x.com/zehf/status/2069444272374657170",
       "https://x.com/zehf/status/2069442100333269340",
-      "https://x.com/zehf/status/2069441980292374708",
-      "https://pbs.twimg.com/tweet_video_thumb/HLgigrnasAALT7_.jpg",
       "https://x.com/zehf/status/2069444429522555178",
-      "https://x.com/zehf/status/2069443956405121347",
-      "https://x.com/zehf/status/2069441817393991770"
+      "https://x.com/zehf/status/2069443641849094335",
+      "https://x.com/zehf/status/2069443956405121347"
     ],
     "2069072425224970275": [
       "https://x.com/SidebarIO/status/2069072425224970275",
@@ -21794,15 +21767,15 @@
     "2069080559595253831": [
       "https://x.com/KSimback/status/2069080559595253831",
       "http://x.com/i/article/2068970770357792768",
-      "https://x.com/KSimback/status/2069128338816327847",
       "https://x.com/KSimback/status/2069099720727773433",
-      "https://x.com/KSimback/status/2069404959834017968",
+      "https://x.com/KSimback/status/2069128338816327847",
       "https://x.com/KSimback/status/2069090562330796117",
+      "https://x.com/KSimback/status/2069404959834017968",
       "https://x.com/KSimback/status/2069398085868851228",
       "https://x.com/KSimback/status/2069080559595253831?s=20",
       "https://x.com/KSimback/status/2069390366562812394",
-      "https://x.com/KSimback/status/2069086662664077694",
       "https://x.com/KSimback/status/2069146160124616939",
+      "https://x.com/KSimback/status/2069086662664077694",
       "https://x.com/KSimback/status/2069299661324828680",
       "https://x.com/KSimback/status/2069094866047385800",
       "https://x.com/KSimback/status/2069299723505381784"
@@ -21870,17 +21843,17 @@
       "https://x.com/pbakaus/status/2069184653068788007",
       "https://x.com/pbakaus/status/2069120640825864436",
       "https://x.com/pbakaus/status/2069178467149832598",
-      "https://x.com/pbakaus/status/2069419968542937176",
       "https://x.com/pbakaus/status/2069419888159187023",
-      "https://x.com/pbakaus/status/2069118996675485839",
+      "https://x.com/pbakaus/status/2069419968542937176",
       "https://x.com/pbakaus/status/2069226457113751645",
       "https://x.com/pbakaus/status/2069158291431899438",
+      "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069437728622825791",
+      "https://x.com/pbakaus/status/2069415365436919841",
       "https://x.com/pbakaus/status/2069189872632668358",
       "https://x.com/pbakaus/status/2069449663468753094",
-      "https://x.com/pbakaus/status/2069415365436919841",
-      "https://x.com/pbakaus/status/2069157573505560915",
       "https://x.com/pbakaus/status/2069417896384864476",
+      "https://x.com/pbakaus/status/2069157573505560915",
       "https://x.com/pbakaus/status/2069178619495326092",
       "https://x.com/pbakaus/status/2069277055158730995",
       "https://pilcrow.ink/"
@@ -21902,8 +21875,9 @@
     "2069140112898765064": [
       "https://x.com/ArchiveExplorer/status/2069140112898765064",
       "http://x.com/i/article/2069100625170661376",
-      "https://x.com/ArchiveExplorer/status/2069145588919120110",
-      "https://x.com/ArchiveExplorer/status/2069143331926364477"
+      "https://x.com/ArchiveExplorer/status/2069469665038922129",
+      "https://x.com/ArchiveExplorer/status/2069143331926364477",
+      "https://x.com/ArchiveExplorer/status/2069145588919120110"
     ],
     "2069151402698432860": [
       "https://x.com/PawelHuryn/status/2069151402698432860"
@@ -21915,22 +21889,21 @@
     "2069193102586474781": [
       "https://x.com/cathrynlavery/status/2069193102586474781",
       "http://x.com/i/article/2069167306597392385",
-      "https://x.com/cathrynlavery/status/2069454925113987286",
       "https://x.com/cathrynlavery/status/2069397216268300375",
+      "https://x.com/cathrynlavery/status/2069454925113987286",
       "https://x.com/cathrynlavery/status/2069194677845364893",
       "https://x.com/cathrynlavery/status/2069211304217509897"
     ],
     "2069217165916700977": [
       "https://x.com/0xdeusyu/status/2069217165916700977",
       "https://github.com/deusyu/harness-engineering",
-      "https://x.com/0xdeusyu/status/2069381704335097941",
-      "https://pbs.twimg.com/media/HLfClNdagAE5I7B.jpg"
+      "https://x.com/0xdeusyu/status/2069442565410341299"
     ],
     "2069228960483860688": [
       "https://x.com/WSJopinion/status/2069228960483860688",
       "https://on.wsj.com/4w51efY",
-      "https://x.com/WSJopinion/status/2069427826923553028",
-      "https://on.wsj.com/4eFmZf2"
+      "https://x.com/WSJopinion/status/2069457997135270030",
+      "https://on.wsj.com/4g2RVII"
     ],
     "2069257361408008507": [
       "https://x.com/ArpitGuptaji19/status/2069257361408008507",
@@ -21944,6 +21917,6 @@
       "http://x.com/i/article/2069368840409264128"
     ]
   },
-  "updated_at": "2026-06-23T16:41:33Z",
+  "updated_at": "2026-06-23T19:19:15Z",
   "window": "recent"
 }
