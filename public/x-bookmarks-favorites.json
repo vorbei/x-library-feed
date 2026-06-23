@@ -216,6 +216,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI needs public quality testing. As we grow more reliant on these systems, it will be crucial for experts to judge their output reliably, writes @campbell_brown\nhttps://on.wsj.com/4w51efY",
+      "text_zh": "AI需要公开的质量测试。随着我们越来越依赖这些系统，专家们可靠地判断其输出将变得至关重要，@campbell_brown写道\nhttps://on.wsj.com/4w51efY",
+      "text_zh_hash": "16e6d17938977a67",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/WSJopinion/status/2069228960483860688"
     },
     {
@@ -498,6 +501,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "WebSockets are now supported on Vercel.\n\nBuild realtime apps using standard Node.js libraries, including socket​.io.\nhttps://vercel.com/changelog/websocket-support-is-now-in-public-beta",
+      "text_zh": "Vercel 现已支持 WebSocket。\n\n使用标准 Node.js 库（包括 socket​.io）构建实时应用。\nhttps://vercel.com/changelog/websocket-support-is-now-in-public-beta",
+      "text_zh_hash": "1cc631701b573c5c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vercel_dev/status/2069108513423454298"
     },
     {

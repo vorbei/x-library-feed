@@ -37944,6 +37944,9 @@
         "https://giant-grouse-674.convex.cloud/api/storage/99fe52b7-7be7-4b65-90a0-c2cb7425c4c3"
       ],
       "article_text": "Convex Components Static-Hosting Host static React/Vite apps directly on Convex with built-in file storage, SPA routing, smart caching, and secure upload API. Installation npm install @convex-dev/static-hosting About Static-Hosting [integration guide](https://github.com/get-convex/static-hosting/blob/main/INTEGRATION.md) 🚀 Simple deployment - Upload your built files directly to Convex storage 🔒 Secure by default - Upload API uses internal functions (not publicly accessible) 🔄 SPA support - Automatic fallback to index.html for client-side routing ⚡ Smart caching - Hashed assets get long-term caching, HTML is always fresh with ETag support 🧹 Auto cleanup - Old deployment files are automatically garbage collected 📦 Zero config - Works out of the box with Vite, Create React App, and other bundlers Benefits Deploy static apps without additional hosting services using Convex storage and HTTP actions Get automatic SPA routing with index.html fallback for client-side navigation Optimize performance with smart caching that sets long-term headers for hashed assets Upload builds securely through internal Convex functions that aren't publicly accessible Use cases how to host React app on Convex The @convex-dev/static-hosting component lets you upload your built React app directly to Convex storage and serve it through HTTP actions. It handles SPA routing by automatically falling back to index.html for client-side routes. static hosting with Convex backend This component enables you to host your frontend and backend on the same Convex deployment. Upload your built static files to Convex storage and serve them through the component's HTTP actions, eliminating the need for separate hosting services. Vite app deployment to Convex The static-hosting component works out of the box with Vite builds. After running vite build, upload the dist folder contents to Convex storage using the component's secure upload API, and your app will be served with proper caching headers. Frequently asked questions Does the static-hosting component work with client-side routing? Yes, @convex-dev/static-hosting automatically handles SPA routing by falling back to index.html when a requested file isn't found in storage. This ensures client-side routes work correctly with React Router, Vue Router, and similar libraries. How does caching work with the static-hosting component? The @convex-dev/static-hosting component implements smart caching where hashed assets (like bundle.abc123.js) get long-term cache headers, while HTML files are always served fresh with ETag support. This optimizes performance while ensuring users get the latest app version. Is the upload API publicly accessible? No, the @convex-dev/static-hosting component uses internal Convex functions for uploads, making them secure by default. Only your deployment process can upload files, not external clients or unauthorized users. What bundlers does the static-hosting component support? The @convex-dev/static-hosting component works with any bundler that generates static files, including Vite, Create React App, Next.js static export, Parcel, and Webpack. It requires zero configuration and handles standard build outputs automatically. Links npm package Source repository Homepage Live demo",
+      "article_text_zh": "Convex Components Static-Hosting  \n直接在 Convex 上托管静态 React/Vite 应用，内置文件存储、SPA 路由、智能缓存和安全的上传 API。\n\n安装  \nnpm install @convex-dev/static-hosting\n\n关于 Static-Hosting  \n[集成指南](https://github.com/get-convex/static-hosting/blob/main/INTEGRATION.md)\n\n🚀 简单部署 - 将构建好的文件直接上传到 Convex 存储  \n🔒 默认安全 - 上传 API 使用内部函数（不可公开访问）  \n🔄 SPA 支持 - 自动回退到 index.html 以支持客户端路由  \n⚡ 智能缓存 - 哈希资源获得长期缓存，HTML 始终通过 ETag 支持保持最新  \n🧹 自动清理 - 旧的部署文件自动垃圾回收  \n📦 零配置 - 开箱即用，支持 Vite、Create React App 及其他打包工具\n\n优势  \n无需额外托管服务，利用 Convex 存储和 HTTP 操作部署静态应用  \n通过 index.html 回退实现自动 SPA 路由，支持客户端导航  \n优化性能，为哈希资源设置长期缓存头  \n通过不可公开访问的内部 Convex 函数安全上传构建产物\n\n使用场景  \n如何在 Convex 上托管 React 应用  \n@convex-dev/static-hosting 组件允许您将构建好的 React 应用直接上传到 Convex 存储，并通过 HTTP 操作提供服务。它通过自动回退到 index.html 处理客户端路由，实现 SPA 路由支持。\n\n使用 Convex 后端进行静态托管  \n该组件使您能够在前端和后端共用一个 Convex 部署。将构建好的静态文件上传到 Convex 存储，并通过组件的 HTTP 操作提供服务，无需单独的托管服务。\n\n将 Vite 应用部署到 Convex  \nstatic-hosting 组件开箱即用，支持 Vite 构建。运行 vite build 后，使用组件的安全上传 API 将 dist 文件夹内容上传到 Convex 存储，您的应用将以正确的缓存头提供服务。\n\n常见问题  \nstatic-hosting 组件是否支持客户端路由？  \n是的，@convex-dev/static-hosting 自动处理 SPA 路由，当请求的文件在存储中未找到时，会回退到 index.html。这确保了 React Router、Vue Router 及类似库的客户端路由正常工作。\n\nstatic-hosting 组件如何处理缓存？  \n@convex-dev/static-hosting 组件实现智能缓存：哈希资源（如 bundle.abc123.js）获得长期缓存头，而 HTML 文件始终通过 ETag 支持保持最新。这优化了性能，同时确保用户获得最新版本的应用。\n\n上传 API 是否公开可访问？  \n不，@convex-dev/static-hosting 组件使用内部 Convex 函数进行上传，默认安全。只有您的部署过程可以上传文件，外部客户端或未授权用户无法操作。\n\nstatic-hosting 组件支持哪些打包工具？  \n@convex-dev/static-hosting 组件支持任何生成静态文件的打包工具，包括 Vite、Create React App、Next.js 静态导出、Parcel 和 Webpack。它无需配置，自动处理标准构建输出。\n\n链接  \nnpm 包 源代码仓库 主页 在线演示",
+      "article_text_zh_hash": "76c02f62246971fc",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Static-Hosting | Convex Components",
       "category": "Development",
       "cleaner_v": 2,
@@ -38021,6 +38024,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容为YouTube页面底部标准法律声明与版权信息，无实际文章正文，按指令输出空字符串）\n\n（空字符串）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -39061,6 +39067,9 @@
         "https://fvqcrhkhgatlyl2m.public.blob.vercel-storage.com/vercel_ship_26_index.gif"
       ],
       "article_text": "Skip to content Choose your city: Ship 2 6 London , 06.17 Berlin , 06.25 New York City , 06.30 Sydney , 07.30 San Francisco , 10.15",
+      "article_text_zh": "跳过内容 选择您的城市：伦敦 06.17，柏林 06.25，纽约市 06.30，悉尼 07.30，旧金山 10.15",
+      "article_text_zh_hash": "126c0d9a5099ff5a",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Vercel Ship 26",
       "category": "Development",
       "cleaner_v": 2,
@@ -39151,6 +39160,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容仅为YouTube页面底部的版权与法律信息栏，无实际文章正文，输出空字符串。）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -42722,6 +42734,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -44315,6 +44330,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容为YouTube页面底部标准法律声明与版权信息，属于页面装饰性元素，无实际文章主体内容，故输出空字符串。）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -44351,6 +44369,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（原文仅包含页面导航和版权信息，无实际文章内容，输出为空字符串）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -45452,6 +45473,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空字符串）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -46381,6 +46405,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -46508,6 +46535,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（输入内容仅为YouTube页面底部版权与法律声明，无实际文章正文，输出为空字符串。）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -50404,6 +50434,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -50701,6 +50734,9 @@
     {
       "article_extraction": "cf_browser_rendering",
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -76909,6 +76945,9 @@
       "category": "Social",
       "created_at": "2025-11-21T07:56:14.111202Z",
       "description": "We're excited to release the first mobile version of Comet: Comet Android. \n\n<https://t.co/pPRk09VXw4>",
+      "description_zh": "我们很高兴发布 Comet 的首个移动版本：Comet Android。\n\n<https://t.co/pPRk09VXw4>",
+      "description_zh_hash": "a753561735feb7ab",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17bk2bvkcafkb1ja5n7khgkzx7vtgfh",
@@ -76941,6 +76980,9 @@
       "category": "Social",
       "created_at": "2025-11-21T07:55:42.076982Z",
       "description": "Drippi, my liquid timer app, is up on Testflight: <https://t.co/9KY4Izb0hz>\n\nLight on features for now, so please try it and let me know what you'd like to use it for! \n\nLive activity and notification support soon, so stay tuned. Feedback is very much appreciated. iOS 26 only.",
+      "description_zh": "我的液体计时器应用 Drippi 现已上架 Testflight：<https://t.co/9KY4Izb0hz>\n\n目前功能较为精简，欢迎试用并告诉我你希望用它来做什么！\n\n即将支持实时活动和通知功能，敬请期待。非常期待您的反馈。仅支持 iOS 26。",
+      "description_zh_hash": "da97ff87d7e736d5",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k176hjmx2j99x0ffmmt2see9s97vvhqq",
@@ -76963,6 +77005,9 @@
         }
       ],
       "title": "Jose Saez-Merino (@josesaezmerino) on X",
+      "title_zh": "Jose Saez-Merino (@josesaezmerino) 在 X 平台",
+      "title_zh_hash": "88dcd27e0f281646",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/josesaezmerino/status/1991523512360841561",
       "x_status_id": "1991523512360841561"
     },
@@ -76971,11 +77016,17 @@
         "http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/691dc7744570b322bef7b7e6/1763559284976/2025+Autumn+AI.001.png?format=1500w"
       ],
       "article_text": "Benedict Evans Essays Newsletter Presentations About & Contact Essays Newsletter Presentations About & Contact Benedict Evans Presentations Twice a year, I produce a big presentation exploring macro and strategic trends in the tech industry. New in November 2025, ‘AI eats the world’. Presentations In the last few years, I’ve given presentations for companies including Alphabet, Amazon, AT&T, Axa, Bertelsmann, Deutsche Telekom, Hitachi, L’Oréal, LVMH, Nasdaq, Swiss Re, Warner Media, Verizon and Vodafone. I gave the Autumn 2025 presentation at Slush in Helsinki, and the spring presentation at SuperAI in Singapore - you can watch the videos here. Download presentations 2025 Autumn AI eats the world 2025 Spring AI eats the world 2024 AI eats the world 2023 AI and Everything Else 2022 The New Gatekeepers 2021 Three Steps to the Future Dec 2020 The Great Unbundling Jan 2020 Shoulders of Giants 2018 The End of the Beginning 2017 Ten Year Futures 2016 Mobile is Eating the World 2015 Mobile is Eating the World 2013 Mobile is Eating the World Subscribe What mattered in tech this week? Once a week, I send an email newsletter to over 150,000 people - what happened in tech that actually mattered, and what it means. I pick out the changes and ideas you don’t want to miss in all the noise, and give them context and analysis. Subscribe © Benedict Evans Hours Newsletter 2026 What mattered in tech this week? What happened in tech that mattered, and what did it mean? Once a week, I send an email newsletter to close to 200,000 people – I pick out the changes and ideas you don’t want to miss in all the noise, and give them context and analysis. SUBSCRIBE © BENEDICT EVANS",
+      "article_text_zh": "本尼迪克特·埃文斯  \n文章 新闻简报 演讲 关于与联系  \n\n文章 新闻简报 演讲 关于与联系  \n\n本尼迪克特·埃文斯  \n\n**演讲**  \n我每年两次制作大型演讲，探讨科技行业的宏观与战略趋势。2025年11月最新推出《AI吞噬世界》。  \n\n**演讲**  \n过去几年，我曾为Alphabet、亚马逊、AT&T、安盛、贝塔斯曼、德国电信、日立、欧莱雅、LVMH、纳斯达克、瑞士再保险、华纳传媒、威瑞森和沃达丰等公司进行演讲。2025年秋季演讲在赫尔辛基的Slush大会上呈现，春季演讲在新加坡SuperAI大会上呈现——您可在此观看视频。  \n\n**下载演讲**  \n2025年秋季 AI吞噬世界  \n2025年春季 AI吞噬世界  \n2024年 AI吞噬世界  \n2023年 AI与万物  \n2022年 新守门人  \n2021年 迈向未来的三步  \n2020年12月 大解绑  \n2020年1月 巨人的肩膀  \n2018年 初期的终结  \n2017年 十年未来  \n2016年 移动吞噬世界  \n2015年 移动吞噬世界  \n2013年 移动吞噬世界  \n\n**订阅**  \n本周科技界发生了什么重要事件？我每周向超过15万人发送邮件新闻简报——筛选科技界真正重要的事件及其意义，从纷杂信息中提炼不容错过的变化与观点，并提供背景与分析。  \n\n订阅  \n© 本尼迪克特·埃文斯 新闻简报 2026  \n\n本周科技界发生了什么重要事件？科技界发生了什么真正重要的事，其意义何在？我每周向近20万人发送邮件新闻简报——从纷杂信息中筛选不容错过的变化与观点，并提供背景与分析。  \n\n订阅  \n© 本尼迪克特·埃文斯",
+      "article_text_zh_hash": "e68dea4876acd5a7",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Presentations — Benedict Evans",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2025-11-21T04:00:23.045268Z",
       "description": "Every year, I produce a big presentation exploring macro and strategic \r\ntrends in the tech industry. New in May 2025, ‘AI eats the world’.",
+      "description_zh": "每年，我都会制作一份大型报告，深入探讨科技行业的宏观与战略趋势。2025年5月新推出的《AI吞噬世界》便是其中之一。",
+      "description_zh_hash": "e4abab63f2d230d1",
+      "description_zh_translator_v": 2,
       "domain": "www.ben-evans.com",
       "embed_type": "",
       "id": "k174xmntpjgddcgfkdz6ateaps7vt7q3",
@@ -76998,6 +77049,9 @@
         }
       ],
       "title": "Presentations — Benedict Evans",
+      "title_zh": "# 演讲 — Benedict Evans",
+      "title_zh_hash": "1201ac6b4a944286",
+      "title_zh_translator_v": 2,
       "url": "https://www.ben-evans.com/presentations",
       "x_status_id": null
     },
@@ -77005,6 +77059,9 @@
       "category": "Social",
       "created_at": "2025-11-21T02:20:27.478416Z",
       "description": "Cursor Head of Design Ryo Lu (@ryolu_) has spent his career at the intersection of design and engineering—from building fan sites as a kid to designing products at Stripe, Asana, and Notion. Now he's rethinking how software itself gets made.\n\nOn this episode of Design Review, Ryo",
+      "description_zh": "Cursor设计主管Ryo Lu（@ryolu_）的职业生涯始终处于设计与工程的交汇点——从儿时搭建粉丝网站，到在Stripe、Asana和Notion设计产品，如今他正在重新思考软件本身的构建方式。\n\n在本期《设计评论》中，Ryo",
+      "description_zh_hash": "d3aedbcece88ad22",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17717drfh04493wghwyy1ex797vtqd6",
@@ -77027,6 +77084,9 @@
         }
       ],
       "title": "Y Combinator (@ycombinator) on X",
+      "title_zh": "Y Combinator (@ycombinator) 在 X 平台",
+      "title_zh_hash": "6e32cf97fa60f5ef",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/ycombinator/status/1991522340547563981",
       "x_status_id": "1991522340547563981"
     },
@@ -77036,11 +77096,17 @@
         "https://apps.apple.com/assets/artwork/1x1.gif"
       ],
       "article_text": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV Pastok: Voice Memory AI Record & Recall Your Day Free · In‑App Purchases · Designed for iPhone. Not verified for macOS. Share 3 Ratings 5.0 Age Rating 16+ Years Category Productivity Developer Agave Tech PTE. LTD. Language EN English Size 70.8 MB iPhone, Apple Watch Pastok passively captures the spoken moments throughout your day and turns them a personal memory that actually understands you. Most recorders stop at transcripts. Pastok goes further. It captures your day as it happens, then transforms hours of raw audio into something you can use: clear summaries, follow-ups you'd otherwise forget, and patterns about yourself you've never seen written down. GET THINGS DONE Always-on capture — no hitting record before every conversation Automatic summaries of meetings, calls, and ideas Tasks and appointments pulled out for you, so nothing slips SEE YOURSELF Daily Highlights that surface what mattered, not just what was said Reflections drawn from how you actually spend your time and energy Patterns across weeks and months Pastok isn't a smarter note-taker. It's a memory layer for your life. The more it hears, the better it knows you. Works seamlessly across Apple Watch and iPhone. Capture on your wrist, reflect on your phone. Your data, your insights. Start seeing yourself today. ----------------------------------- Terms of Use and Privacy Policy. Privacy Policy: https://pastok.com/policies/privacy Terms of Use: https://pastok.com/policies/terms Apple Standard EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ more Ratings & Reviews 5.0 out of 5 3 Ratings What’s New Version History - Bug fixes and improvements. 1.1.5 17h ago - Bug fixes and improvements. 1.1.4 Jun 13 - Bug fixes and improvements. 1.1.3 May 27 - Bug fixes and improvements. 1.1.2 May 12 - Bug fixes and improvements. 1.1.1 Apr 13 - Introducing Pro & Ultra subscription plans - Credit System — go further with on-demand extras - Bug fixes and improvements. 1.1.0 Mar 29 - Bug fixes and improvements. 1.0.8 Mar 9 - Bug fixes and improvements. 1.0.7 Feb 16 - Bug fixes and improvements. 1.0.6 Jan 2 - Bug fixes and improvements. 1.0.5 Jan 2 - Bug fixes and improvements. 1.0.4 12/24/2025 1.0.0 11/19/2025 - Bug fixes and improvements. more Version 1.1.5 17h ago App Privacy App Privacy The developer, Agave Tech PTE. LTD. , indicated that the app’s privacy practices may include handling of data as described below. This information has not been verified by Apple. For more information, see the developer’s privacy policy . To help you better understand the developer’s responses, see Privacy Definitions and Examples . Privacy practices may vary, for example, based on the features you use or your age. Learn More Data Linked to You The following data, which may be collected and linked to your identity, may be used for the following purposes: App Functionality Contact Info Email Address User Content Audio Data Identifiers User ID Data Not Linked to You The following data, which may be collected but is not linked to your identity, may be used for the following purposes: Analytics Usage Data Product Interaction App Functionality Diagnostics Crash Data Performance Data The developer, Agave Tech PTE. LTD. , indicated that the app’s privacy practices may include handling of data as described below. For more information, see the developer’s privacy policy . Data Linked to You The following data may be collected and linked to your identity: Contact Info User Content Identifiers Data Not Linked to You The following data may be collected but it is not linked to your identity: Usage Data Diagnostics Privacy practices may vary, for example, based on the features you use or your age. Learn More Accessibility The developer has not yet indicated which accessibility features this app supports. Learn More Information Seller Agave Tech PTE. LTD. Size 70.8 MB Category P",
+      "article_text_zh": "for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV\n\nPastok: 语音记忆 AI — 记录与回顾你的一天\n\n免费 · 含内购 · 为 iPhone 设计 · 未验证 macOS 兼容性\n\n分享  \n3 个评分  \n5.0  \n年龄分级 16+ 岁  \n类别 效率  \n开发者 Agave Tech PTE. LTD.  \n语言 英文  \n大小 70.8 MB  \niPhone, Apple Watch\n\nPastok 被动捕捉你一天中的口语时刻，并将其转化为真正理解你的个人记忆。大多数录音工具止步于文字稿。Pastok 更进一步：它实时记录你的一天，然后将数小时的原始音频转化为可用的内容——清晰的摘要、你原本会忘记的后续事项，以及你从未见过的关于自己的行为模式。\n\n**高效完成任务**\n- 始终在线捕捉——无需在每次对话前手动点击录音\n- 自动生成会议、通话和想法的摘要\n- 自动提取任务和日程安排，确保万无一失\n\n**看见你自己**\n- 每日亮点——呈现真正重要的事，而非仅仅说过的话\n- 基于你实际花费时间和精力的方式得出的反思\n- 跨周、跨月的模式洞察\n\nPastok 不是更聪明的笔记工具。它是你生活的记忆层。它听得越多，就越了解你。在 Apple Watch 和 iPhone 之间无缝协作。在手腕上捕捉，在手机上回顾。你的数据，你的洞察。从今天开始看见你自己。\n\n-----------------------------------\n\n使用条款与隐私政策  \n隐私政策：https://pastok.com/policies/privacy  \n使用条款：https://pastok.com/policies/terms  \nApple 标准 EULA：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\n更多  \n评分与评论  \n5.0 分（共 5 分）  \n3 个评分\n\n新内容  \n版本历史  \n- 错误修复与改进。  \n1.1.5  \n17 小时前  \n- 错误修复与改进。  \n1.1.4  \n6 月 13 日  \n- 错误修复与改进。  \n1.1.3  \n5 月 27 日  \n- 错误修复与改进。  \n1.1.2  \n5 月 12 日  \n- 错误修复与改进。  \n1.1.1  \n4 月 13 日  \n- 引入 Pro 与 Ultra 订阅计划  \n- 积分系统——按需购买额外功能  \n- 错误修复与改进。  \n1.1.0  \n3 月 29 日  \n- 错误修复与改进。  \n1.0.8  \n3 月 9 日  \n- 错误修复与改进。  \n1.0.7  \n2 月 16 日  \n- 错误修复与改进。  \n1.0.6  \n1 月 2 日  \n- 错误修复与改进。  \n1.0.5  \n1 月 2 日  \n- 错误修复与改进。  \n1.0.4  \n2025 年 12 月 24 日  \n1.0.0  \n2025 年 11 月 19 日  \n- 错误修复与改进。  \n更多  \n版本 1.1.5  \n17 小时前\n\nApp 隐私  \nApp 隐私  \n开发者 Agave Tech PTE. LTD. 表示，该应用的隐私实践可能涉及如下所述的数据处理。此信息尚未经 Apple 验证。更多信息，请参阅开发者的隐私政策。  \n为帮助你更好地理解开发者的回应，请参阅隐私定义与示例。  \n隐私实践可能因你使用的功能或你的年龄等因素而异。了解更多\n\n与你关联的数据  \n以下数据可能会被收集并与你的身份关联，用于以下目的：  \nApp 功能  \n联系信息  \n电子邮件地址  \n用户内容  \n音频数据  \n标识符  \n用户 ID\n\n未与你关联的数据  \n以下数据可能会被收集但不与你的身份关联，用于以下目的：  \n分析  \n使用数据  \n产品交互  \nApp 功能  \n诊断  \n崩溃数据  \n性能数据\n\n开发者 Agave Tech PTE. LTD. 表示，该应用的隐私实践可能涉及如下所述的数据处理。更多信息，请参阅开发者的隐私政策。\n\n与你关联的数据  \n以下数据可能会被收集并与你的身份关联：  \n联系信息  \n用户内容  \n标识符\n\n未与你关联的数据  \n以下数据可能会被收集但不与你的身份关联：  \n使用数据  \n诊断\n\n隐私实践可能因你使用的功能或你的年龄等因素而异。了解更多\n\n无障碍  \n开发者尚未说明此应用支持哪些无障碍功能。了解更多\n\n信息  \n卖家 Agave Tech PTE. LTD.  \n大小 70.8 MB  \n类别 P",
+      "article_text_zh_hash": "96c70cca47113910",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "‎Pastok: Voice Memory AI App - App Store",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2025-11-19T15:20:24.908559Z",
       "description": "Pastok passively captures the spoken moments throughout your day and turns them into a clean timeline, actionable to-dos, and meaningful insights — all without requiring extra steps or hardware.",
+      "description_zh": "Pastok 能被动捕捉你一天中的口语瞬间，并将其转化为清晰的时间线、可执行的待办事项和有意义的洞察——全程无需额外操作或硬件支持。",
+      "description_zh_hash": "03fe944e1bdaccdf",
+      "description_zh_translator_v": 2,
       "domain": "apps.apple.com",
       "embed_type": "",
       "id": "k17593acq1dq0ewmzsm94m24px7vqcp9",
@@ -77063,6 +77129,9 @@
         }
       ],
       "title": "‎Pastok - AI on Your Watch App - App Store",
+      "title_zh": "抱歉，我无法处理此请求。请提供需要翻译的英文文本内容。",
+      "title_zh_hash": "e92574eb1cb65525",
+      "title_zh_translator_v": 2,
       "url": "https://apps.apple.com/us/app/pastok-ai-on-your-watch/id6743958562",
       "x_status_id": null
     },
@@ -77082,11 +77151,17 @@
         "https://image.mux.com/FfzL02W7d697E6xLEa02FmaFuP9YKkkQMObJO78b01Mlrs/thumbnail.webp?time=0&width=525&height=700 525w"
       ],
       "article_text": "Shelf Spines Muse Group Case Studies Design a future so irresistible, it becomes inevitable. Bose Robinhood Target: up&up Arcane San Francisco Symphony Primary YouTube Gaming Cadia Muse Group Nike Andmore Figma Spotify Sustana Guild Legence Girl Scouts Institute of Design Freeform Equinox CNET OpenWeb ESPN Target: Modern by Dwell Equinox Hotels Next Insurance Sweetgreen Match Crane Cora Mailchimp Twitch OYO Anson Calder Target: More Than Magic Vitaminwater Ogilvy Dropbox Titan Helios House Naturalizer US Chamber of Commerce Target: A New Day Target: Room Essentials Chubb Atera Babyganics Aldo Target: Heyday Miller Target: Archer Farms Avon Case Studies Programs Arts & Culture Work with us info@wearecollins.com Email copied Team Careers Press Keep up to date Team Careers Press X (Twitter) LinkedIn Instagram",
+      "article_text_zh": "Shelf Spines  \nMuse Group  \nCase Studies  \n\n设计一个如此不可抗拒的未来，让它变得不可避免。  \n\nBose  \nRobinhood  \nTarget: up&up  \nArcane  \nSan Francisco Symphony  \nPrimary  \nYouTube Gaming  \nCadia  \nMuse Group  \nNike  \nAndmore  \nFigma  \nSpotify  \nSustana  \nGuild  \nLegence  \nGirl Scouts  \nInstitute of Design  \nFreeform  \nEquinox  \nCNET  \nOpenWeb  \nESPN  \nTarget: Modern by Dwell  \nEquinox Hotels  \nNext Insurance  \nSweetgreen  \nMatch  \nCrane  \nCora  \nMailchimp  \nTwitch  \nOYO  \nAnson Calder  \nTarget: More Than Magic  \nVitaminwater  \nOgilvy  \nDropbox  \nTitan  \nHelios House  \nNaturalizer  \nUS Chamber of Commerce  \nTarget: A New Day  \nTarget: Room Essentials  \nChubb  \nAtera  \nBabyganics  \nAldo  \nTarget: Heyday  \nMiller  \nTarget: Archer Farms  \nAvon  \n\nCase Studies  \nPrograms  \nArts & Culture  \nWork with us  \ninfo@wearecollins.com  \nEmail copied  \n\nTeam  \nCareers  \nPress  \nKeep up to date  \n\nTeam  \nCareers  \nPress  \nX (Twitter)  \nLinkedIn  \nInstagram",
+      "article_text_zh_hash": "0f4c683a90e3cf45",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Case Studies | COLLINS",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2025-11-21T02:53:29.773079Z",
       "description": "We will make your business so irresistible, its success is inevitable.",
+      "description_zh": "我们将让您的业务变得如此不可抗拒，其成功势在必行。",
+      "description_zh_hash": "a843e505cdb66fb4",
+      "description_zh_translator_v": 2,
       "domain": "wearecollins.com",
       "embed_type": "",
       "id": "k179n4apj52b1hbcwty8m8rt957vvps9",
@@ -77109,6 +77184,9 @@
         }
       ],
       "title": "Case Studies | COLLINS",
+      "title_zh": "案例研究 | COLLINS",
+      "title_zh_hash": "743af5411a4c6ea5",
+      "title_zh_translator_v": 2,
       "url": "https://wearecollins.com/case-studies?view=spines",
       "x_status_id": null
     },
@@ -77122,11 +77200,17 @@
         "https://fal.ai/privacy-options.svg"
       ],
       "article_text": "fal-ai/nano-banana-pro/edit\nInput\nType # to reference inputs.\nHint: Drag and drop files from your computer, images from web pages, paste from clipboard (Ctrl/Cmd+V), or provide a URL.\nCustomize your input with more control.\nResult\nWhat would you like to do next?\nYour request will cost $0.15 per image. For $1.00, you can run this model 7 times. 4K outputs will be charged at double the standard rate. If web search is used, an additional $0.015 will be charged. Note: Pricing may change in the future.\nLogs\nGoogle's Gemini 3 Pro Image architecture transforms existing visuals at $0.15 per edit, bringing advanced reasoning and multimodal understanding to pixel-level manipulation. Trading raw speed for semantic awareness and studio-quality output, it interprets complex editing instructions like \"make the sunset more dramatic while preserving the original mood\" with no masks, no layers, just natural language directing precise transformations with enhanced text rendering and character consistency.\nBuilt for: Product iteration workflows | Creative asset refinement | Context-aware photo editing | Multi-image composition\nNano Banana 2 (aka Nano Banana Pro and officially Gemini 3 Pro Image) applies Google's advanced reasoning foundation model to image editing, understanding relationships between objects, lighting, and composition rather than treating pixels as isolated data points. This represents a significant upgrade from the original Nano Banana (Gemini 2.5 Flash Image), with enhanced capabilities for complex compositions and text rendering.\nWhat this means for you:\n- Natural language precision: \"Change the car color to midnight blue while maintaining reflections\" executes without manual selection. The model understands what \"the car\" means in context and preserves scene coherence\n- Composition-aware transforms: Edits respect depth, perspective, and lighting automatically. No manual masking of shadows or reflections required\n- Batch processing capability: Generate up to 4 variations simultaneously to explore creative directions\n- Reference image support: Provide multiple reference images (combine up to 14 images) for style guidance or target aesthetics. The model interprets visual intent alongside text instructions\n- Character consistency: Maintain resemblance and consistency for up to 5 people across edits\nBuilt on Google's Gemini 3 Pro architecture, prioritizing quality and reasoning depth over raw speed.\n| Metric | Result | Context | \n|---|---|---|\n| Generation Philosophy | Quality-first | Prioritizes complex compositions and accuracy over speed metrics | \n| Cost per Image | $0.15 | ~7 edits per $1.00 on fal.ai; 4K outputs charged at 2x rate | \n| Resolution Options | 1K, 2K, 4K | Configurable via API; higher resolutions increase token usage | \n| Batch Size | 1-4 images | Via `num_images`parameter | \n| Architecture | Gemini 3 Pro Image | Multimodal foundation model with advanced reasoning | \nNote: Generation times not publicly benchmarked; model optimized for quality rather than speed\n| Spec | Details | \n|---|---|\n| Architecture | Gemini 3 Pro Image (Nano Banana 2) | \n| Model Identifier | `fal-ai/nano-banana-pro/edit` | \n| Input Formats | Image URLs (required) + text prompt (required) | \n| Output Formats | PNG, JPEG, WebP (configurable) | \n| Resolution Options | 1K (1024px), 2K (2048px), 4K (higher cost) | \n| Aspect Ratios | Auto, 21:9, 16:9, 3:2, 4:3, 5:4, 1:1, 4:5, 3:4, 2:3, 9:16 | \n| Multi-Image Support | Combine up to 14 images in single composition | \n| Character Consistency | Maintains resemblance for up to 5 people | \n| Watermarking | SynthID digital watermarking on all outputs | \n| License | Commercial use permitted | \nCompare Nano Banana 2 with:\nFLUX.1 [dev] - Nano Banana 2 prioritizes semantic understanding through Gemini 3 Pro's reasoning architecture, making it ideal for complex transformations described in natural language without manual masking. FLUX.1 [dev] emphasizes maximum resolution control and fine detail preservati",
+      "article_text_zh": "fal-ai/nano-banana-pro/edit\n\n**输入**\n输入 # 以引用输入。\n提示：从电脑拖放文件、从网页拖放图片、粘贴剪贴板内容（Ctrl/Cmd+V），或提供 URL。\n通过更多控制自定义输入。\n\n**结果**\n下一步想做什么？\n您的请求每张图片收费 $0.15。花费 $1.00 可运行此模型 7 次。4K 输出按标准费率的两倍计费。若使用网络搜索，将额外收取 $0.015。注意：定价未来可能变更。\n\n**日志**\n\nGoogle 的 Gemini 3 Pro Image 架构以每张编辑 $0.15 的价格改造现有视觉内容，将先进的推理和多模态理解引入像素级操作。它牺牲原始速度，换取语义感知和工作室级输出质量，无需遮罩、无需图层，仅凭自然语言即可指导精确变换，并增强文本渲染和角色一致性。它能理解诸如\"让日落更戏剧化，同时保留原始氛围\"等复杂编辑指令。\n\n**适用场景：** 产品迭代工作流 | 创意素材精修 | 上下文感知照片编辑 | 多图像合成\n\nNano Banana 2（又名 Nano Banana Pro，官方名称为 Gemini 3 Pro Image）将 Google 先进的推理基础模型应用于图像编辑，理解物体、光照和构图之间的关系，而非将像素视为孤立数据点。相比原始 Nano Banana（Gemini 2.5 Flash Image），这是一次重大升级，在复杂构图和文本渲染方面能力更强。\n\n**这对您意味着：**\n\n- **自然语言精确性：** \"将汽车颜色改为午夜蓝，同时保持反射效果\"——无需手动选择即可执行。模型能理解\"汽车\"在上下文中的含义，并保持场景连贯性。\n- **构图感知变换：** 编辑自动尊重深度、透视和光照。无需手动遮罩阴影或反射。\n- **批量处理能力：** 同时生成最多 4 个变体，探索创意方向。\n- **参考图像支持：** 提供多个参考图像（最多组合 14 张图片）以指导风格或目标美学。模型能结合文本指令理解视觉意图。\n- **角色一致性：** 在编辑过程中，最多可保持 5 个人的相似度和一致性。\n\n基于 Google 的 Gemini 3 Pro 架构构建，优先考虑质量和推理深度，而非原始速度。\n\n| 指标 | 结果 | 说明 |\n|---|---|---|\n| 生成理念 | 质量优先 | 优先考虑复杂构图和准确性，而非速度指标 |\n| 每张图片成本 | $0.15 | 在 fal.ai 上约 $1.00 可进行 7 次编辑；4K 输出按 2 倍费率计费 |\n| 分辨率选项 | 1K、2K、4K | 可通过 API 配置；更高分辨率增加 token 用量 |\n| 批量大小 | 1-4 张图片 | 通过 `num_images` 参数设置 |\n| 架构 | Gemini 3 Pro Image | 具有高级推理能力的多模态基础模型 |\n\n注意：生成时间未公开基准测试；模型针对质量而非速度进行了优化\n\n| 规格 | 详情 |\n|---|---|\n| 架构 | Gemini 3 Pro Image (Nano Banana 2) |\n| 模型标识符 | `fal-ai/nano-banana-pro/edit` |\n| 输入格式 | 图片 URL（必需）+ 文本提示（必需） |\n| 输出格式 | PNG、JPEG、WebP（可配置） |\n| 分辨率选项 | 1K (1024px)、2K (2048px)、4K（更高成本） |\n| 宽高比 | 自动、21:9、16:9、3:2、4:3、5:4、1:1、4:5、3:4、2:3、9:16 |\n| 多图像支持 | 单次合成中最多组合 14 张图片 |\n| 角色一致性 | 最多保持 5 个人的相似度 |\n| 水印 | 所有输出均带有 SynthID 数字水印 |\n| 许可 | 允许商业使用 |\n\n**比较 Nano Banana 2 与：**\n\n**FLUX.1 [dev]** - Nano Banana 2 通过 Gemini 3 Pro 的推理架构优先考虑语义理解，非常适合用自然语言描述、无需手动遮罩的复杂变换。FLUX.1 [dev] 则强调最大分辨率控制和精细细节保留。",
+      "article_text_zh_hash": "049b271e9941aa93",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Google Nano Banana Pro: State of the Art AI Image Editor | fal",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2025-11-21T03:27:02.378724Z",
       "description": "Nano Banana Pro (a.k.a Nano Banana 2) is Google's new state-of-the-art image generation and editing model",
+      "description_zh": "Nano Banana Pro（亦称 Nano Banana 2）是谷歌最新推出的先进图像生成与编辑模型。",
+      "description_zh_hash": "03c6ed405d04c20c",
+      "description_zh_translator_v": 2,
       "domain": "fal.ai",
       "embed_type": "",
       "id": "k17f7y222xx77dpxe1a7ngxash7vtbe5",
@@ -77149,6 +77233,9 @@
         }
       ],
       "title": "Nano Banana Pro | Image to Image | fal.ai",
+      "title_zh": "Nano Banana Pro | 图像到图像 | fal.ai",
+      "title_zh_hash": "b312ab02dc7c7b12",
+      "title_zh_translator_v": 2,
       "url": "https://fal.ai/models/fal-ai/nano-banana-pro/edit",
       "x_status_id": null
     },
@@ -77169,11 +77256,17 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/93/5d/c5/935dc5d5-a985-333d-0825-879ddb36e461/884977526585.jpg/600x600bb.jpg"
       ],
       "article_text": "[Articles /](https://kube.io/blog)\nLiquid Glass in the Browser: Refraction with CSS and SVG\n[#](https://kube.io#introduction)Introduction\nApple [introduced the Liquid Glass effect during WWDC 2025](https://www.youtube.com/watch?v=jGztGfRujSE) in June—a stunning UI effect that makes interface elements appear to be made of curved, refractive glass. This article is a hands‑on exploration of how to recreate a similar effect on the web using CSS, SVG displacement maps, and physics-based refraction calculations.\nInstead of chasing pixel‑perfect parity, we’ll approximate Liquid Glass, recreating the core refraction and a specular highlight, as a focused proof‑of‑concept you can extend.\nWe'll build up the effect from first principles, starting with how light bends when passing through different materials.\nChrome‑only demo\nThe interactive demo at the end currently works in Chrome only (due to SVG filters as backdrop‑filter).\nYou can still read the article and interact with the inline simulations in other browsers.\n[#](https://kube.io#understanding-refraction)Understanding Refraction\nRefraction is what happens when light changes direction as it passes from one material to another (like from air into glass). This bending occurs because light travels at different speeds through different materials.\nThe relationship between the incoming and outgoing light angles is described by [Snell–Descartes law](https://en.wikipedia.org/wiki/Snell%27s_law):\nIn the above interactive diagram, you can see that:\n- \nWhen , the light ray passes straight through without bending. \n- \nWhen , the ray bends toward the normal (the imaginary line perpendicular to the surface). \n- \nWhen , the ray bends away from the normal, and depending on the angle of incidence, it may bend so much that it reflects back into the original medium instead of passing through. This is called [Total Internal Reflection](https://en.wikipedia.org/wiki/Total_internal_reflection)\n- \nWhen incident ray is orthogonal to the surface, it passes straight through regardless of refractive indices. \n[#](https://kube.io#limitations-in-this-project)Limitations in this project\nTo keep things focused we avoid complex branches of behavior by constraining the scenario:\n- \nAmbient medium has (air). \n- \nUse materials with , and prefer (glass). \n- \nOnly one refraction event (ignore any later exit / second refraction). \n- \nIncident rays are always orthogonal to the background plane (no perspective). \n- \nObjects are 2D shapes parallel to the background (no perspective). \n- \nNo gap between objects and background plane (only one refraction). \n- \nCircle shapes only in this article: Extending to other shapes requires preliminary calculations. Circles let us form rounded rectangles by stretching the middle. \nUnder these assumptions every ray we manipulate has a well-defined refracted direction via Snell's Law, and we simplify a lot our calculations.\n[#](https://kube.io#creating-the-glass-surface)Creating the Glass Surface\nTo create our glass effect, we need to define the shape of our virtual glass surface. Think of this like describing the cross-section of a lens or curved glass panel.\n[#](https://kube.io#surface-function)Surface Function\nOur glass surface is described by a mathematical function that defines how thick the glass is at any point from its edge to the end of the bezel. This surface function takes a value between (at the outer edge) and (end of bezel, start of flat surface) and returns the height of the glass at that point.\nFrom the height we can calculate the angle of incidence, which is the angle between the incoming ray and the normal to the surface at that point. The normal is simply the derivative of the height function at that point, rotated by degrees:\n[#](https://kube.io#equations)Equations\nFor this article, we will use four different height functions to demonstrate the effect of the surface shape on the refraction:\nSimple circular arc → a spherical dome. Easier than the squircle, but the transi",
+      "article_text_zh": "# 浏览器中的液态玻璃：使用 CSS 和 SVG 实现折射效果\n\n## 引言\n\n苹果在 2025 年 WWDC 上推出了液态玻璃效果——一种令人惊艳的 UI 效果，让界面元素看起来像是用弯曲的折射玻璃制成的。本文是一篇实践性探索，介绍如何使用 CSS、SVG 位移贴图和基于物理的折射计算在网页上重现类似效果。\n\n我们不会追求像素级完美还原，而是近似实现液态玻璃效果，重现核心的折射和高光反射，作为一个可扩展的聚焦概念验证。\n\n我们将从基本原理开始构建这个效果，首先了解光线穿过不同材料时如何弯曲。\n\n**仅限 Chrome 的演示**\n\n文末的交互式演示目前仅在 Chrome 中有效（由于 SVG 滤镜作为 backdrop-filter 的限制）。\n\n您仍可以在其他浏览器中阅读本文并与内联模拟进行交互。\n\n## 理解折射\n\n折射是指光线从一种材料进入另一种材料（如从空气进入玻璃）时改变方向的现象。这种弯曲是因为光在不同材料中传播速度不同。\n\n入射光和出射光角度之间的关系由斯涅尔-笛卡尔定律描述：\n\n在上述交互式图表中，您可以看到：\n\n- 当 时，光线直线穿过，不发生弯曲。\n- 当 时，光线向法线（垂直于表面的假想线）方向弯曲。\n- 当 时，光线远离法线方向弯曲，根据入射角的不同，可能会弯曲到完全反射回原介质而不穿过的程度。这称为全内反射。\n- 当入射光线垂直于表面时，无论折射率如何，它都直线穿过。\n\n## 本项目的限制\n\n为了保持聚焦，我们通过约束场景来避免复杂的行为分支：\n\n- 环境介质为 （空气）。\n- 使用 的材料，优先选择 （玻璃）。\n- 仅考虑一次折射事件（忽略后续的出射/二次折射）。\n- 入射光线始终垂直于背景平面（无透视）。\n- 物体是与背景平行的 2D 形状（无透视）。\n- 物体与背景平面之间无间隙（仅一次折射）。\n- 本文仅使用圆形：扩展到其他形状需要预先计算。圆形可以通过拉伸中间部分形成圆角矩形。\n\n在这些假设下，我们操作的每条光线都通过斯涅尔定律具有明确定义的折射方向，从而大大简化了计算。\n\n## 创建玻璃表面\n\n要创建玻璃效果，我们需要定义虚拟玻璃表面的形状。可以将其想象为描述透镜或弯曲玻璃面板的横截面。\n\n### 表面函数\n\n我们的玻璃表面由一个数学函数描述，该函数定义了从边缘到边框末端任意点的玻璃厚度。这个表面函数接受一个介于 （外边缘）和 （边框末端，平坦表面起点）之间的值，并返回该点的玻璃高度。\n\n根据高度，我们可以计算入射角，即入射光线与该点表面法线之间的夹角。法线就是该点高度函数的导数旋转 度：\n\n### 方程\n\n在本文中，我们将使用四种不同的高度函数来演示表面形状对折射效果的影响：\n\n简单圆弧 → 球面穹顶。比超椭圆更容易，但过渡",
+      "article_text_zh_hash": "7b10114a6f5cfd9a",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Liquid Glass in the Browser: Refraction with CSS and SVG — kube.io",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2025-11-21T02:38:14.447562Z",
       "description": "Explore how to recreate Apple's stunning Liquid Glass effect using CSS, SVG Displacement Maps, and refraction calculations.",
+      "description_zh": "探索如何使用CSS、SVG置换贴图和折射计算来重现苹果惊艳的液态玻璃效果。",
+      "description_zh_hash": "e7bee342ada7b0cc",
+      "description_zh_translator_v": 2,
       "domain": "kube.io",
       "embed_type": "",
       "id": "k177m0cs4jqkec6k00hvq599717vvsw2",
@@ -77196,6 +77289,9 @@
         }
       ],
       "title": "Liquid Glass in the Browser: Refraction with CSS and SVG — kube.io",
+      "title_zh": "浏览器中的液态玻璃：利用CSS与SVG实现折射效果 — kube.io",
+      "title_zh_hash": "010a7e849a96fda8",
+      "title_zh_translator_v": 2,
       "url": "https://kube.io/blog/liquid-glass-css-svg/",
       "x_status_id": null
     },
@@ -77211,6 +77307,9 @@
       "category": "Design",
       "created_at": "2025-11-21T02:28:42.418704Z",
       "description": "Multidisciplinary designer and developer, specialized in the world wide web",
+      "description_zh": "多学科设计师与开发者，专精于万维网领域",
+      "description_zh_hash": "99f82933714c0371",
+      "description_zh_translator_v": 2,
       "domain": "ppolder.com",
       "embed_type": "",
       "id": "k172st166jqqhe7jqky0gahrts7vtabz",
@@ -77233,6 +77332,9 @@
         }
       ],
       "title": "PHILIPP POLDER",
+      "title_zh": "PHILIPP POLDER",
+      "title_zh_hash": "987e0b3a8995e630",
+      "title_zh_translator_v": 2,
       "url": "https://ppolder.com/",
       "x_status_id": null
     },
@@ -77257,6 +77359,9 @@
       "category": "Design",
       "created_at": "2025-11-21T02:26:17.827446Z",
       "description": "GUNNAR HARRISON \nGraphic Design and Art Direction\nNike Global Brand Creative",
+      "description_zh": "GUNNAR HARRISON \n平面设计与艺术指导\n耐克全球品牌创意",
+      "description_zh_hash": "1ed8cad073229b68",
+      "description_zh_translator_v": 2,
       "domain": "gunnaris.me",
       "embed_type": "",
       "id": "k17b7ybrmcgmgr6k2ntdy7fgs97vv533",
@@ -77279,6 +77384,9 @@
         }
       ],
       "title": "Gunnar Harrison – Graphic Designer",
+      "title_zh": "Gunnar Harrison – 平面设计师",
+      "title_zh_hash": "b7c1770a7bc5b6ff",
+      "title_zh_translator_v": 2,
       "url": "https://gunnaris.me/",
       "x_status_id": null
     },
@@ -77324,6 +77432,9 @@
         }
       ],
       "title": "Gabriel Valdivia",
+      "title_zh": "加布里埃尔·瓦尔迪维亚",
+      "title_zh_hash": "a4a6e8791fca4a3d",
+      "title_zh_translator_v": 2,
       "url": "https://www.gabrielvaldivia.com/",
       "x_status_id": null
     },
@@ -77331,6 +77442,9 @@
       "category": "Social",
       "created_at": "2025-11-21T01:21:27.753690Z",
       "description": "Group chats in ChatGPT are now rolling out globally.\n\nAfter a successful pilot with early testers, group chats will now be available to all logged-in users on ChatGPT Free, Go, Plus and Pro plans.",
+      "description_zh": "ChatGPT 群聊功能现已面向全球用户逐步推出。\n\n在早期测试者成功试点后，所有登录 ChatGPT Free、Go、Plus 和 Pro 计划的用户均可使用群聊功能。",
+      "description_zh_hash": "f877431de9d9fcc2",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k1727jt45s3jddvprg8ngfbnrh7vv3wp",
@@ -77353,6 +77467,9 @@
         }
       ],
       "title": "OpenAI (@OpenAI) on X",
+      "title_zh": "OpenAI (@OpenAI) 在 X 平台",
+      "title_zh_hash": "9cafc791ce7e37fb",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/openai/status/1991556363420594270?s=46",
       "x_status_id": "1991556363420594270"
     },
@@ -77377,6 +77494,9 @@
       "category": "Tools",
       "created_at": "2025-11-20T12:18:22.326752Z",
       "description": "The modern way to manage your money. Monarch makes it easy to track all of your accounts, optimize your spending, analyze your investments, and create a financial plan to achieve your goals.",
+      "description_zh": "管理资金的现代方式。Monarch让您轻松追踪所有账户、优化支出、分析投资，并制定财务计划以实现目标。",
+      "description_zh_hash": "3d071bfbd420dab7",
+      "description_zh_translator_v": 2,
       "domain": "www.monarch.com",
       "embed_type": "",
       "id": "k17a2kp8aqwmfvea2b40zdzghn7vr4cc",
@@ -77399,6 +77519,9 @@
         }
       ],
       "title": "Track, budget, plan, and do more with your money | Monarch Money",
+      "title_zh": "管理您的资金：追踪、预算、规划，实现更多财务目标 | Monarch Money",
+      "title_zh_hash": "d28bb667650316c7",
+      "title_zh_translator_v": 2,
       "url": "https://www.monarch.com/",
       "x_status_id": null
     },
@@ -77421,6 +77544,9 @@
       "category": "Tools",
       "created_at": "2025-11-20T08:41:54.612819Z",
       "description": "Notepad.exe - Lightweight macOS code editor. Skip the setup, write code, run instantly. Built-in iOS simulator, AI assistance, and Linux support.",
+      "description_zh": "Notepad.exe - 轻量级macOS代码编辑器。无需配置，即刻编写代码并运行。内置iOS模拟器、AI辅助及Linux支持。",
+      "description_zh_hash": "2a1760f282b79569",
+      "description_zh_translator_v": 2,
       "domain": "notepadexe.com",
       "embed_type": "",
       "id": "k172a56kcc73ptj3a71cen9wkd7vrq6z",
@@ -77443,6 +77569,9 @@
         }
       ],
       "title": "Notepad.exe - Native macOS Code Editor for Swift & Python",
+      "title_zh": "Notepad.exe - 面向 Swift 与 Python 的原生 macOS 代码编辑器",
+      "title_zh_hash": "f1fb729885309fa3",
+      "title_zh_translator_v": 2,
       "url": "https://notepadexe.com/",
       "x_status_id": null
     },
@@ -77450,6 +77579,9 @@
       "category": "Social",
       "created_at": "2025-11-20T07:38:35.877275Z",
       "description": "We’ve got a biiiig update for you. A complete redesign of Sketch. Maybe you’ve tried the beta, maybe you’ve seen the teasers. Now you can update and try it all for real.\n\nAnd there’s more! :thread: ↓",
+      "description_zh": "我们带来了一次重磅更新——Sketch 的全面重新设计。也许你已体验过测试版，也许你已看过预告片。现在，你可以更新并真正上手体验了。\n\n还有更多惊喜！:thread: ↓",
+      "description_zh_hash": "6f4de824421ef928",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k1795dfmvwb6whvd40t7g3m16d7vsm8t",
@@ -77472,6 +77604,9 @@
         }
       ],
       "title": "Sketch (@sketch) on X",
+      "title_zh": "Sketch (@sketch) 在 X 平台上",
+      "title_zh_hash": "201d57642f8122df",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/sketch/status/1991144898129469678",
       "x_status_id": "1991144898129469678"
     },
@@ -77495,6 +77630,9 @@
       "category": "Tools",
       "created_at": "2025-11-20T07:41:19.116976Z",
       "description": "Poly is an intelligent file browser & cloud hosting service for your personal files and media, that lets you search in intuitive natural language, chat about your files with AI, and sync with your local file system. All with a platform that's privacy-first and secure. Available on web and desktop.",
+      "description_zh": "Poly 是一款智能文件浏览器与云托管服务，专为个人文件和媒体设计。它支持通过直观的自然语言进行搜索、与AI讨论文件内容，并能与本地文件系统同步。所有功能均基于隐私优先且安全可靠的平台实现，支持网页端和桌面端使用。",
+      "description_zh_hash": "cbacc6b33144bf08",
+      "description_zh_translator_v": 2,
       "domain": "poly.app",
       "embed_type": "",
       "id": "k171h0z0q7bqe1a4rx9gjz6j2d7vrg3h",
@@ -77517,6 +77655,9 @@
         }
       ],
       "title": "Poly: The Intelligent Cloud File Browser",
+      "title_zh": "Poly：智能云文件浏览器",
+      "title_zh_hash": "6a37cb80c7b6b2a5",
+      "title_zh_translator_v": 2,
       "url": "https://poly.app/",
       "x_status_id": null
     },
@@ -77527,6 +77668,9 @@
       "category": "Articles",
       "created_at": "2025-11-20T07:46:50.120800Z",
       "description": "Inspiring more designers to take the leap of entrepreneurship. Click to read Designer Founders, by Designer Fund, a Substack publication with thousands of subscribers.",
+      "description_zh": "激励更多设计师迈出创业的步伐。点击阅读《设计师创始人》，由Designer Fund出品，Substack平台发行，拥有数千订阅用户。",
+      "description_zh_hash": "604b949bc688dd16",
+      "description_zh_translator_v": 2,
       "domain": "designerfounders.substack.com",
       "embed_type": "",
       "id": "k177f7cfe5y7jdm22qd9b42ep57vshaj",
@@ -77549,6 +77693,9 @@
         }
       ],
       "title": "Designer Founders | Designer Fund | Substack",
+      "title_zh": "设计师创始人 | 设计师基金 | Substack",
+      "title_zh_hash": "3ae9641b3a043f73",
+      "title_zh_translator_v": 2,
       "url": "https://designerfounders.substack.com/",
       "x_status_id": null
     },
@@ -77558,11 +77705,17 @@
         "https://jacksondahl.com/art/dialectic.png"
       ],
       "article_text": "| 40 | [Charles Broskoski - Everything is Personal](/dialectic/charles-broskoski)02/25/26 | Artist, Founder | 02/25/26 | \n| 39 | [Andrew Reed - Don’t Flinch](/dialectic/andrew-reed)02/11/26 | Investor | 02/11/26 | \n| 38 | [Molly Mielke McCarthy - The Art of Peopling](/dialectic/molly-mielke-mccarthy)01/28/26 | Investor, Writer | 01/28/26 | \n| 37 | [Trevor McFedries - Creative People Should Be Rich](/dialectic/trevor-mcfedries)01/20/26 | Artist, Founder | 01/20/26 | \n| 36 | [C. Thi Nguyen - Measurement, Meaning, and Play](/dialectic/c-thi-nguyen)01/13/26 | Academic, Writer | 01/13/26 | \n| 35 | [Brie Wolfson - Loving Attention & Ease in Craft](/dialectic/brie-wolfson)01/6/26 | Operator, Writer | 01/6/26 | \n| 34 | [Ryo Lu - It's All the Same Thing](/dialectic/ryo-lu)12/18/25 | Designer | 12/18/25 | \n| 33 | [TBPN (John Coogan & Jordi Hays) - Inside Tech's Water Cooler](/dialectic/tbpn)11/12/25 | Creator | 11/12/25 | \n| 32 | [Chris Sacca - Drifting Back to Real](/dialectic/chris-sacca)10/20/25 | Investor | 10/20/25 | \n| 31 | [Gabe Whaley - Playing the Crowd & Outlasting the Hype](/dialectic/gabe-whaley)10/7/25 | Artist, Founder | 10/7/25 | \n| 30 | [David Senra - The Clarity of Commitment](/dialectic/david-senra)09/20/25 | Creator | 09/20/25 | \n| 29 | [Billy Oppenheimer - Attuned to Clues](/dialectic/billy-oppenheimer)09/9/25 | Researcher, Writer | 09/9/25 | \n| 28 | [Maxwell Meyer - Starships & Road Trips](/dialectic/maxwell-meyer)09/1/25 | Founder, Writer | 09/1/25 | \n| 27 | [Mackenzie Burnett - Accounting for the American Dream](/dialectic/mackenzie-burnett)08/12/25 | Founder | 08/12/25 | \n| 26 | [Cyan Banister - A Fool’s Dérive](/dialectic/cyan-banister)08/17/25 | Investor | 08/17/25 | \n| 25 | [Reggie James - Our Infinite Mirrors (Live at FWB Fest)](/dialectic/reggie-james)08/10/25 | Founder, Investor | 08/10/25 | \n| 24 | [Linus Lee - Engineering for Aliveness](/dialectic/linus-lee)07/28/25 | Designer, Investor, Operator, Writer | 07/28/25 | \n| 23 | [Tamara Winter - Tacit Trust & Caring Curiosity](/dialectic/tamara-winter)07/27/25 | Operator | 07/27/25 | \n| 22 | [Nadia Asparouhova - Ideas That Infect](/dialectic/nadia-asparouhova)07/2/25 | Researcher, Writer | 07/2/25 | \n| 21 | [Geoffrey Litt - Software You Can Shape](/dialectic/geoffrey-litt)06/17/25 | Designer, Operator | 06/17/25 | \n| 20 | [Yancey Strickler - Constellations of Creativity](/dialectic/yancey-strickler)05/23/25 | Founder, Writer | 05/23/25 | \n| 19 | [Henrik Karlsson - Cultivating a Life that Fits](/dialectic/henrik-karlsson)06/2/25 | Writer | 06/2/25 | \n| 18 | [Tom Morgan - Wisdom in the Woo](/dialectic/tom-morgan)05/28/25 | Writer | 05/28/25 | \n| 17 | [Alex Danco - Innovation Begins with Gifts](/dialectic/alex-danco)05/20/25 | Writer | 05/20/25 | \n| 16 | [Anjan Katta - A Sunrise Over Computing](/dialectic/anjan-katta)05/5/25 | Founder | 05/5/25 | \n| 15 | [D.A. Wallach - Serendipity & Systems](/dialectic/da-wallach)04/27/25 | Artist, Investor | 04/27/25 | \n| 14 | [Alex Zhang - Curating Cultural Playgrounds](/dialectic/alex-zhang)04/21/25 | Operator | 04/21/25 | \n| 13 | [Nabeel S. Qureshi - The Will to Care](/dialectic/nabeel-s-qureshi)03/31/25 | Founder, Writer | 03/31/25 | \n| 12 | [Che-Wei Wang & Taylor Levy (CW&T) - Iterating Together with Time](/dialectic/cwandt)03/24/25 | Artist, Designer | 03/24/25 | \n| 11 | [Eugene Wei - Amusing Each Other to Death](/dialectic/eugene-wei)03/17/25 | Writer | 03/17/25 | \n| 10 | [Josh Wolfe - Illuminating Tomorrow](/dialectic/josh-wolfe)02/24/25 | Investor | 02/24/25 | \n| 9 | [Jacob Horne - Markets for What Matters](/dialectic/jacob-horne)02/18/25 | Founder | 02/18/25 | \n| 8 | [Steph Ango - Tools for Amplifying Our Light](/dialectic/steph-ango)02/3/25 | Operator, Writer | 02/3/25 | \n| 7 | [Toby Shorin - The Shapes of Culture](/dialectic/toby-shorin)01/28/25 | Researcher, Writer | 01/28/25 | \n| 6 | [Chris Paik - Intentionally in Search of the New](/dialectic/chris-paik)01/18/25 | Investor | 01/18/25 | \n| 5 | [Tina He - Interne",
+      "article_text_zh": "（输入内容为纯页面导航/目录列表，无实际文章正文，输出空字符串）",
+      "article_text_zh_hash": "0ad98282c1e34cad",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Dialectic — Jackson Dahl",
       "category": "Media",
       "cleaner_v": 2,
       "created_at": "2025-11-20T06:44:22.940768Z",
       "description": "dialectic-text.png Conversational portraits of original people, across technology, media, business, and creativity. Dialectic is an interview podcast where I talk to people who inspire me. You can fi…",
+      "description_zh": "dialectic-text.png 原创人物的对话肖像，横跨科技、媒体、商业与创意领域。Dialectic 是一档访谈播客，我与那些启发我的人对话。你可以找到更多…",
+      "description_zh_hash": "de69fb152a37fdb9",
+      "description_zh_translator_v": 2,
       "domain": "jacksondahl.com",
       "embed_type": "",
       "id": "k17ctvq835nq5vwjpew4dre2517vr1zt",
@@ -77585,6 +77738,9 @@
         }
       ],
       "title": "Dialectic - Jackson Dahl",
+      "title_zh": "辩证法 - 杰克逊·达尔",
+      "title_zh_hash": "7193a018ac29f2e9",
+      "title_zh_translator_v": 2,
       "url": "https://jacksondahl.com/dialectic",
       "x_status_id": null
     },
@@ -77601,6 +77757,9 @@
       "category": "Design",
       "created_at": "2025-11-20T06:33:16.509746Z",
       "description": "I concept and design interfaces, from wireframes and prototypes to art direction and visual design.",
+      "description_zh": "我负责概念构思与界面设计，涵盖从线框图、原型制作到艺术指导与视觉设计的全流程。",
+      "description_zh_hash": "260d21ebe066e3d8",
+      "description_zh_translator_v": 2,
       "domain": "www.tanyavulfson.com",
       "embed_type": "",
       "id": "k17c1xvf82eyevvhdt79x9ncms7vrkc1",
@@ -77623,6 +77782,9 @@
         }
       ],
       "title": "Tanya Vulfson",
+      "title_zh": "Tanya Vulfson",
+      "title_zh_hash": "b41889824f3f5f87",
+      "title_zh_translator_v": 2,
       "url": "https://www.tanyavulfson.com/",
       "x_status_id": null
     },
@@ -77646,6 +77808,9 @@
       "category": "Other",
       "created_at": "2025-11-20T06:33:57.544271Z",
       "description": "Hades is a modern deep tech mining company shaping a sustainable, responsible, and independent future.",
+      "description_zh": "Hades 是一家现代深科技矿业公司，致力于塑造可持续、负责任且独立的未来。",
+      "description_zh_hash": "010741c21be10fdf",
+      "description_zh_translator_v": 2,
       "domain": "hades.com",
       "embed_type": "",
       "id": "k178k1ceys9r637af8awsf9fnn7vrgxb",
@@ -77668,6 +77833,9 @@
         }
       ],
       "title": "Hades Mining | Home",
+      "title_zh": "Hades Mining | 首页",
+      "title_zh_hash": "129308237116e46b",
+      "title_zh_translator_v": 2,
       "url": "https://hades.com/",
       "x_status_id": null
     },
@@ -77692,6 +77860,9 @@
       "category": "Articles",
       "created_at": "2025-11-20T06:34:05.165804Z",
       "description": "The risk of catastrophic climate emergencies is growing. Society needs options. What We Do ARC funds cutting-edge research and strategic partnerships to predict, prevent, and prepare for catastrophic climate risks The world faces escalating threats from climate tipping points—ice sheet collapse, ocean current disruption, and large-scale methane release. While efforts to cut emissions and remove […]",
+      "description_zh": "灾难性气候紧急事件的风险正在加剧。社会需要应对方案。  \n**我们的工作**  \nARC资助前沿研究与战略合作，以预测、预防和应对灾难性气候风险。  \n全球正面临气候临界点不断升级的威胁——冰盖崩塌、洋流中断、大规模甲烷释放。尽管减排和清除工作持续推进……",
+      "description_zh_hash": "9ca1d08f1268967d",
+      "description_zh_translator_v": 2,
       "domain": "arc.renaissancephilanthropy.org",
       "embed_type": "",
       "id": "k17bwsgcqpb0vv2qrp6zj3evyh7vstwk",
@@ -77732,11 +77903,17 @@
         "https://cdn.prod.website-files.com/68cbacf15af9bcdb65da6ae3/68f8c3bcf5ebbd205a29e936_Octio_3.avif"
       ],
       "article_text": "Octio — an OCR tribute\nA modern monospaced font that pays tribute to the iconic OCR, designed by American Type Founders in the 1960s to help machines and humans read the same text with clarity. We’ve carried forward its strong, geometric spirit into a contemporary form — optimized for both screens and print. Clean, retro-tech, and highly versatile. Ready to bring precision and character to contemporary design.\nYear\n2025\nDesigner(s)\nMarcus Gärde, \nAnders Wikström\nStyle\nMono space\nWeights\nThin\nLight\nRegular\nMedium\nBold\nBlack\nFeatures\nOpen type Alternates\nProportional Numbers \nTabular Numbers\nLanguages\n200+\nUPM\n1000\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface can subtly shift tone, while spacing and scale create harmony on the page. Details in curves, serifs, and proportions distinguish one font from another, making text both legible and visually engaging.\nTypography guides the reader’s eye, giving words rhythm and clarity. Letterforms carry personality, balancing elegance with function. The choice of typeface",
+      "article_text_zh": "Octio — 向 OCR 致敬  \n一款现代等宽字体，致敬经典的 OCR 字体。OCR 由美国字体铸造厂 American Type Founders 于 1960 年代设计，旨在让机器和人类都能清晰阅读同一段文字。我们将其强烈的几何精神延续至当代形态——同时针对屏幕和印刷进行了优化。简洁、复古科技感、高度通用。随时为当代设计带来精准与个性。\n\n年份  \n2025  \n\n设计师  \nMarcus Gärde,  \nAnders Wikström  \n\n风格  \n等宽  \n\n字重  \nThin  \nLight  \nRegular  \nMedium  \nBold  \nBlack  \n\n特性  \nOpenType 替代字形  \n比例数字  \n表格数字  \n\n语言支持  \n200+ 种语言  \n\nUPM  \n1000  \n\n排版引导读者的视线，赋予文字节奏与清晰度。字形承载个性，在优雅与功能之间取得平衡。字体的选择能微妙地改变语气，而间距与比例则在页面上营造和谐。曲线、衬线和比例的细节区分了不同字体，使文本既易读又具有视觉吸引力。",
+      "article_text_zh_hash": "705077a70f4bee00",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "GD Octio | GD Foundry",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2025-11-20T06:37:29.135698Z",
       "description": "Precision and power united. GD Octio brings geometric clarity and expressive contrast to contemporary typography.",
+      "description_zh": "精准与力量合一。GD Octio 为当代字体设计带来几何的清晰与富有表现力的对比。",
+      "description_zh_hash": "d2952b5255b67ceb",
+      "description_zh_translator_v": 2,
       "domain": "foundry.gardedesign.se",
       "embed_type": "",
       "id": "k17847s3jz3dxv79gptyyw47pn7vs6gs",
@@ -77759,6 +77936,9 @@
         }
       ],
       "title": "GD Octio | GD Foundry",
+      "title_zh": "GD Octio | GD Foundry",
+      "title_zh_hash": "56f3c6b9372d3361",
+      "title_zh_translator_v": 2,
       "url": "https://foundry.gardedesign.se/typefaces/gd-octio",
       "x_status_id": null
     },
@@ -77774,11 +77954,17 @@
         "https://www.brutaltypes.com/images/logo-footer.svg"
       ],
       "article_text": "by Retype About Bespoke Fonts Licenses Team News Contact Baruch Lorem ipsum dolor sit amet, consectetuer adipiscing elit Item 1 of 4 Information Baruch is a geometric sans typeface designed by Ramiro Espinoza and inspired by the modular, somewhat inconsistent lettering found on the cover of the Dutch technical handbook Gereedschappen en gereedschapswerktuigen voor metaalbewerking , written by B. van Rees and published in Haarlem in 1938 by N.V. Uitgeversmaatschappij v/h A. Kemperman . The original letterforms, likely constructed with simple geometric principles, have a direct and utilitarian quality that reflects the publication’s industrial subject matter. Espinoza used these imperfect but engaging shapes as the basis for a digital typeface, refining their structure, balancing proportions, and expanding the character set while retaining the straightforward geometry that gives the source its charm. The result is Baruch, a clean and functional sans serif suitable for posters, signage, visual identities, websites, editorial design, and projects seeking a rational yet historically grounded typographic voice. Designer Ramiro Espinoza Release year 2025 Language coverage Western Latin Styles 1 Price from €49.95 Trial Fonts & Specimens Download: Trial fonts Type specimen Full name Email Company Country Select your country Afghanistan Albania Algeria Andorra Angola Argentina Armenia Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bhutan Bolivia Bosnia and Herzegovina Botswana Brazil Brunei Bulgaria Burkina Faso Burundi Cabo Verde Cambodia Cameroon Canada Central African Republic Chad Chile China Colombia Comoros Congo (Congo-Brazzaville) Costa Rica Croatia Cuba Cyprus Czechia (Czech Republic) Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini (fmr. \"Swaziland\") Ethiopia Fiji Finland France Gabon Gambia Georgia Germany Ghana Greece Grenada Guatemala Guinea Guinea-Bissau Guyana Haiti Honduras Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar (formerly Burma) Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria North Korea North Macedonia Norway Oman Pakistan Palau Palestine State Panama Papua New Guinea Paraguay Peru Philippines Poland Portugal Qatar Romania Russia Rwanda Saint Kitts and Nevis Saint Lucia Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Korea South Sudan Spain Sri Lanka Sudan Suriname Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States of America Uruguay Uzbekistan Vanuatu Venezuela Vietnam Yemen Zambia Zimbabwe I agree with Brutal Types' Testing Agreement Subscribe me to the (very sporadic) newsletter Send Basic licenses Desktop Select range 1 user 2 users 3 users 4 users 5 users 10 users 15 users 20 users 25 users 30 users 35 users 40 users 50 users 60 users 75 users 100 users 125 users 150 users 175 users 200 users 250 users 300 users 350 users 400 users 450 users 500 users 550 users 600 users 650 users 700 users For printed graphic design purposes Read license Webfont Select range 1 - 10K Pageviews 10K - 100K Pageviews 100K - 500K Pageviews 500K - 1M Pageviews 1M - 5M Pageviews 5M - 10M Pageviews 10M - 50M Pageviews More than 50M Pageviews For self-hosted website Read license Select fonts Baruch Total €0.00 Add to cart License extensions Apps Select OS 1 Mobile OS (iOS or Android) 2 Mobil",
+      "article_text_zh": "by Retype 关于 定制字体 许可 团队 新闻 联系 Baruch\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit\n\n第1项，共4项\n\n信息\n\nBaruch 是一款几何无衬线字体，由 Ramiro Espinoza 设计，灵感来源于荷兰技术手册《Gereedschappen en gereedschapswerktuigen voor metaalbewerking》（作者 B. van Rees，1938 年由哈勒姆的 N.V. Uitgeversmaatschappij v/h A. Kemperman 出版）封面上的模块化、略显不规则的字母。原始字母形式可能基于简单的几何原理构建，具有直接而实用的质感，反映了该出版物的工业主题。Espinoza 以这些不完美但引人入胜的形状为基础，创作了一款数字字体，在保留原始字体魅力的直接几何风格的同时，优化了结构、平衡了比例，并扩展了字符集。最终成果是 Baruch，一款简洁实用的无衬线字体，适用于海报、标识、视觉识别、网站、编辑设计，以及任何追求理性且具有历史底蕴的排版风格的项目。\n\n设计师  \nRamiro Espinoza\n\n发布年份  \n2025\n\n语言覆盖范围  \n西欧语言\n\n样式数量  \n1\n\n价格  \n起价 €49.95\n\n试用字体与样本  \n下载：试用字体  \n字体样本\n\n全名  \n电子邮件  \n公司  \n国家  \n选择您的国家  \n阿富汗 阿尔巴尼亚 阿尔及利亚 安道尔 安哥拉 阿根廷 亚美尼亚 澳大利亚 奥地利 阿塞拜疆 巴哈马 巴林 孟加拉国 巴巴多斯 白俄罗斯 比利时 伯利兹 贝宁 不丹 玻利维亚 波斯尼亚和黑塞哥维那 博茨瓦纳 巴西 文莱 保加利亚 布基纳法索 布隆迪 佛得角 柬埔寨 喀麦隆 加拿大 中非共和国 乍得 智利 中国 哥伦比亚 科摩罗 刚果（布拉柴维尔） 哥斯达黎加 克罗地亚 古巴 塞浦路斯 捷克共和国 丹麦 吉布提 多米尼克 多米尼加共和国 厄瓜多尔 埃及 萨尔瓦多 赤道几内亚 厄立特里亚 爱沙尼亚 斯威士兰 埃塞俄比亚 斐济 芬兰 法国 加蓬 冈比亚 格鲁吉亚 德国 加纳 希腊 格林纳达 危地马拉 几内亚 几内亚比绍 圭亚那 海地 洪都拉斯 匈牙利 冰岛 印度 印度尼西亚 伊朗 伊拉克 爱尔兰 以色列 意大利 牙买加 日本 约旦 哈萨克斯坦 肯尼亚 基里巴斯 科威特 吉尔吉斯斯坦 老挝 拉脱维亚 黎巴嫩 莱索托 利比里亚 利比亚 列支敦士登 立陶宛 卢森堡 马达加斯加 马拉维 马来西亚 马尔代夫 马里 马耳他 马绍尔群岛 毛里塔尼亚 毛里求斯 墨西哥 密克罗尼西亚 摩尔多瓦 摩纳哥 蒙古 黑山 摩洛哥 莫桑比克 缅甸 纳米比亚 瑙鲁 尼泊尔 荷兰 新西兰 尼加拉瓜 尼日尔 尼日利亚 朝鲜 北马其顿 挪威 阿曼 巴基斯坦 帕劳 巴勒斯坦国 巴拿马 巴布亚新几内亚 巴拉圭 秘鲁 菲律宾 波兰 葡萄牙 卡塔尔 罗马尼亚 俄罗斯 卢旺达 圣基茨和尼维斯 圣卢西亚 圣文森特和格林纳丁斯 萨摩亚 圣马力诺 圣多美和普林西比 沙特阿拉伯 塞内加尔 塞尔维亚 塞舌尔 塞拉利昂 新加坡 斯洛伐克 斯洛文尼亚 所罗门群岛 索马里 南非 韩国 南苏丹 西班牙 斯里兰卡 苏丹 苏里南 瑞典 瑞士 叙利亚 台湾 塔吉克斯坦 坦桑尼亚 泰国 东帝汶 多哥 汤加 特立尼达和多巴哥 突尼斯 土耳其 土库曼斯坦 图瓦卢 乌干达 乌克兰 阿联酋 英国 美国 乌拉圭 乌兹别克斯坦 瓦努阿图 委内瑞拉 越南 也门 赞比亚 津巴布韦\n\n我同意 Brutal Types 的测试协议  \n订阅我的（非常偶尔的）新闻通讯  \n发送\n\n基本许可  \n桌面端  \n选择范围  \n1 用户 2 用户 3 用户 4 用户 5 用户 10 用户 15 用户 20 用户 25 用户 30 用户 35 用户 40 用户 50 用户 60 用户 75 用户 100 用户 125 用户 150 用户 175 用户 200 用户 250 用户 300 用户 350 用户 400 用户 450 用户 500 用户 550 用户 600 用户 650 用户 700 用户  \n用于印刷图形设计目的  \n阅读许可\n\nWeb 字体  \n选择范围  \n1 - 10K 页面浏览量 10K - 100K 页面浏览量 100K - 500K 页面浏览量 500K - 1M 页面浏览量 1M - 5M 页面浏览量 5M - 10M 页面浏览量 10M - 50M 页面浏览量 超过 5000 万页面浏览量  \n用于自托管网站  \n阅读许可\n\n选择字体  \nBaruch\n\n总计 €0.00\n\n加入购物车\n\n许可扩展  \n应用  \n选择操作系统  \n1 个移动操作系统（iOS 或 Android）  \n2 个移动操作系统",
+      "article_text_zh_hash": "ee55d12426698635",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Baruch — Brutal Types",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2025-11-20T06:38:14.925810Z",
       "description": "Baruch is a geometric sans typeface designed by Ramiro Espinoza and inspired by the modular, somewhat inconsistent lettering found on the cover of the...",
+      "description_zh": "Baruch 是一款几何无衬线字体，由 Ramiro Espinoza 设计，灵感来源于……封面上的模块化、略带不一致的字母造型。",
+      "description_zh_hash": "7eb47774cd2adc12",
+      "description_zh_translator_v": 2,
       "domain": "www.brutaltypes.com",
       "embed_type": "",
       "id": "k17fg9fh87tf5bx2eh8kgmwfzh7vrmnj",
@@ -77801,6 +77987,9 @@
         }
       ],
       "title": "Baruch — Brutal Types",
+      "title_zh": "巴鲁克——残酷的类型",
+      "title_zh_hash": "aec6e5745ecafabd",
+      "title_zh_translator_v": 2,
       "url": "https://www.brutaltypes.com/fonts/baruch",
       "x_status_id": null
     },
@@ -77808,6 +77997,9 @@
       "category": "Design",
       "created_at": "2025-11-20T06:40:04.247302Z",
       "description": "Flower Garden Galaxy Watch Face Flower Garden started with the question, “What kind of watch face do people want to face?” Although various functions have...",
+      "description_zh": "花之园 Galaxy Watch 表盘  \n花之园始于一个问题：“人们想要面对什么样的表盘？”尽管各种功能已经……",
+      "description_zh_hash": "74c11c4be4806a74",
+      "description_zh_translator_v": 2,
       "domain": "studiofnt.com",
       "embed_type": "",
       "id": "k177wqcfpn39gphet5r56g3sw17vs8ye",
@@ -77830,6 +78022,9 @@
         }
       ],
       "title": "Flower Garden — studio fnt",
+      "title_zh": "Flower Garden — studio fnt",
+      "title_zh_hash": "1b24cf8dbae3415f",
+      "title_zh_translator_v": 2,
       "url": "https://studiofnt.com/Flower-Garden",
       "x_status_id": null
     },
@@ -77837,6 +78032,9 @@
       "category": "Social",
       "created_at": "2025-11-20T06:07:08.627025Z",
       "description": "What are some custom dev tools you've built to make your life easier building an app? \nSome examples from Linear 🧵",
+      "description_zh": "你为了更轻松地构建应用，自己开发过哪些定制开发工具？  \n来自 Linear 的一些例子 🧵",
+      "description_zh_hash": "c34cfdd718dcfa6b",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17c56febwgn1arhvyke4w95kn7vrr6q",
@@ -77859,6 +78057,9 @@
         }
       ],
       "title": "Maciek Pekala (@penzington) on X",
+      "title_zh": "Maciek Pekala (@penzington) 在 X 平台",
+      "title_zh_hash": "d1b464e207b48c1b",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/penzington/status/1991167577775616107",
       "x_status_id": "1991167577775616107"
     },
@@ -77904,6 +78105,9 @@
         }
       ],
       "title": "Miltata / ミルタタ",
+      "title_zh": "Miltata / ミルタタ",
+      "title_zh_hash": "03c9f3b5156e35ac",
+      "title_zh_translator_v": 2,
       "url": "https://www.miltata.com/",
       "x_status_id": null
     },
@@ -77917,6 +78121,9 @@
       "category": "Tools",
       "created_at": "2025-11-20T03:27:14.522928Z",
       "description": "We're on a mission to make the internet wild and free again. Build the most powerful personal software, and host anything – with all your context. Store your files, connect your tools, then ask AI to do research or work – all in a unified workspace. Own your data and everything you create – yours to download anytime.",
+      "description_zh": "我们的使命是让互联网重归狂野与自由。打造最强大的个人软件，承载一切——并保留你的全部上下文。存储你的文件，连接你的工具，然后让AI进行研究或工作——全部在统一的工作空间中完成。你的数据和创作皆归你所有——随时可下载。",
+      "description_zh_hash": "d105ba64e9e518d5",
+      "description_zh_translator_v": 2,
       "domain": "www.zo.computer",
       "embed_type": "",
       "id": "k17d0jh7qnr0ajds0jh954jkt57vrn5e",
@@ -77939,6 +78146,9 @@
         }
       ],
       "title": "Zo: The intelligent cloud computer",
+      "title_zh": "Zo: 智能云电脑",
+      "title_zh_hash": "8384c94660c5888d",
+      "title_zh_translator_v": 2,
       "url": "https://www.zo.computer/",
       "x_status_id": null
     },
@@ -77963,6 +78173,9 @@
       "category": "Tools",
       "created_at": "2025-11-20T02:57:59.653126Z",
       "description": "Say hello to Memo. Built for busy households, Memo works 24/7 to make your life lighter. Hand off your endless to-do’s, so you can focus on what really matters.",
+      "description_zh": "向您介绍 Memo。专为忙碌家庭打造，Memo 全天候运转，让您的生活更轻松。把没完没了的待办事项交给我们，您就能专注于真正重要的事。",
+      "description_zh_hash": "8c6110564f4e16ff",
+      "description_zh_translator_v": 2,
       "domain": "www.sunday.ai",
       "embed_type": "",
       "id": "k179q48axpkt0fqpzyycpjprtn7vr37h",
@@ -77985,6 +78198,9 @@
         }
       ],
       "title": "Sunday | The helpful robotics company",
+      "title_zh": "周日 | 乐于助人的机器人公司",
+      "title_zh_hash": "8b3dbe6dcaf2094d",
+      "title_zh_translator_v": 2,
       "url": "https://www.sunday.ai/",
       "x_status_id": null
     },
@@ -77992,6 +78208,9 @@
       "category": "Social",
       "created_at": "2025-11-20T01:55:12.279940Z",
       "description": "New ChatGPT Atlas release out! Just hit \"update\" in the top right. <https://t.co/mJ6IJW0YKu>\n\n- extensions import\n- icloud passkeys\n- new downloads ui\n- setting to use control + tab to cycle to most recently used tab\n- select multiple tabs at once (shift + click)\n- ability to set",
+      "description_zh": "新的 ChatGPT Atlas 版本已发布！只需点击右上角的“更新”即可。 <https://t.co/mJ6IJW0YKu>\n\n- 扩展导入\n- iCloud 通行密钥\n- 新的下载界面\n- 设置选项：使用 Control + Tab 循环切换至最近使用的标签页\n- 一次选择多个标签页（Shift + 点击）\n- 能够设置",
+      "description_zh_hash": "551b5b5c99214e2a",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k1765yxbxvw2j14mf0c74s58rn7vrwsk",
@@ -78014,6 +78233,9 @@
         }
       ],
       "title": "Adam Fry (@adamhfry) on X",
+      "title_zh": "Adam Fry (@adamhfry) 在 X 平台",
+      "title_zh_hash": "6c7e7652b64216f6",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/adamhfry/status/1991209533046493486?s=46",
       "x_status_id": "1991209533046493486"
     },
@@ -78023,11 +78245,17 @@
         "https://fal.ai/privacy-options.svg"
       ],
       "article_text": "fal Assets is now live! Docs Log-in Sign-up Home Explore fal-ai/topaz/upscale/video Docs Log-in Sign-up Back to Gallery fal-ai / topaz/upscale/video Professional-grade video upscaling using Topaz technology. Enhance your videos with high-quality upscaling. Inference Commercial use Partner Schema LLMs Playground API Examples Input Form Video Url * Choose... Hint: Drag and drop video files from your computer, video from web pages, paste from clipboard (Ctrl/Cmd+V), or provide a URL. Accepted file types: mp4, mov, webm, m4v, gif Additional Settings More Customize your input with more control. Reset Sign in to run Result Idle Preview JSON What would you like to do next? Download { \"video\" : { \"url\" : \"https://v3b.fal.media/files/b/0a9599a1/0xGqHNlfD6WlZqtpEx4Mu_video.mp4\" , \"content_type\" : \"video/mp4\" , \"file_name\" : \"video.mp4\" , \"file_size\" : 10593020 } } For every second a video your request will cost $0.01 for up to 720p , $0.02 for 720p to 1080p , and $0.08 for above 1080p output. Price doubles for 60fps output. For Gaia 2 output costs half of the prices. Logs Show Ready to transform your enterprise with AI? Contact Sales Learn More Status About Us Documentation Trust & Safety Careers Pricing Blog Enterprise Get in touch Report Content Grants Events Legal Your Privacy Choices Learn Gen Media Report 2026 Models GPT Image 2 Seedance 2.0 Flux 2 Kling 3.0 Veo 3.1 Nano Banana Pro Ideogram 4 Krea 2 Explore More Labs Black Forest Labs Google OpenAI xAI Alibaba Kling ByteDance ElevenLabs Playgrounds Sandbox Workflows Training Background Remover Socials Discord GitHub Reddit Twitter LinkedIn YouTube Instagram TikTok features and labels, 2026 . All Rights Reserved. Terms of Service and Privacy Policy",
+      "article_text_zh": "fal Assets 现已上线！  \n文档 登录 注册  \n首页 探索  \nfal-ai/topaz/upscale/video  \n文档 登录 注册  \n返回图库  \nfal-ai / topaz/upscale/video  \n使用 Topaz 技术进行专业级视频放大。通过高质量放大提升您的视频画质。  \n推理 商业使用 合作伙伴 架构 LLMs 游乐场 API 示例  \n\n输入表单  \n视频 URL *  \n选择...  \n提示：从电脑拖放视频文件、从网页拖放视频、粘贴剪贴板内容（Ctrl/Cmd+V），或提供 URL。支持的文件类型：mp4、mov、webm、m4v、gif  \n\n附加设置  \n更多控制项可自定义输入。重置  \n登录后运行  \n\n结果  \n空闲  \n预览  \nJSON  \n\n下一步想做什么？  \n下载  \n\n{  \n  \"video\": {  \n    \"url\": \"https://v3b.fal.media/files/b/0a9599a1/0xGqHNlfD6WlZqtpEx4Mu_video.mp4\",  \n    \"content_type\": \"video/mp4\",  \n    \"file_name\": \"video.mp4\",  \n    \"file_size\": 10593020  \n  }  \n}  \n\n视频每秒钟的费用：720p 及以下 $0.01，720p 至 1080p $0.02，1080p 以上 $0.08。60fps 输出价格翻倍。Gaia 2 输出价格减半。  \n\n日志  \n显示  \n\n准备好用 AI 改造您的企业了吗？  \n联系销售 了解更多  \n\n状态 关于我们 文档 信任与安全 招聘 定价 博客 企业 联系我们 举报内容 资助 活动 法律 您的隐私选择 了解 Gen Media 报告 2026  \n\n模型  \nGPT Image 2 Seedance 2.0 Flux 2 Kling 3.0 Veo 3.1 Nano Banana Pro Ideogram 4 Krea 2  \n\n探索更多  \n实验室  \nBlack Forest Labs Google OpenAI xAI Alibaba Kling ByteDance ElevenLabs  \n\n游乐场  \n沙盒 工作流 训练 背景移除  \n\n社交  \nDiscord GitHub Reddit Twitter LinkedIn YouTube Instagram TikTok  \n\n功能与标签，2026。保留所有权利。服务条款与隐私政策。",
+      "article_text_zh_hash": "22357ccae09f5543",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Topaz Video Upscale (Video to Video) API on fal",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2025-11-19T15:13:51.600493Z",
       "description": "Professional-grade video upscaling using Topaz technology. Enhance your videos with high-quality upscaling.",
+      "description_zh": "使用Topaz技术的专业级视频放大。通过高质量放大提升您的视频画质。",
+      "description_zh_hash": "d02876f6ff9a4c9b",
+      "description_zh_translator_v": 2,
       "domain": "fal.ai",
       "embed_type": "",
       "id": "k171fn445tb36g5h34w5mx1e297vq9hh",
@@ -78050,6 +78278,9 @@
         }
       ],
       "title": "Topaz Video Upscale | fal.ai",
+      "title_zh": "Topaz Video Upscale | fal.ai",
+      "title_zh_hash": "c6820b24a464f656",
+      "title_zh_translator_v": 2,
       "url": "https://fal.ai/models/fal-ai/topaz/upscale/video",
       "x_status_id": null
     },
@@ -78062,6 +78293,9 @@
       "category": "Other",
       "created_at": "2025-11-19T08:34:35.524508Z",
       "description": "We do it across the country. Coast-to-coast, we’re crafting beautiful properties through guidance, intent, and care. Have a specific area or state in mind? We’ve either built there, or will soon.",
+      "description_zh": "我们在全国范围内开展业务。从东海岸到西海岸，我们通过专业指导、明确意图和细致关怀，打造出精美的房产项目。您心中是否有特定的地区或州？我们要么已经在那里建设过，要么即将开始。",
+      "description_zh_hash": "94caf56054818bb9",
+      "description_zh_translator_v": 2,
       "domain": "huts.com",
       "embed_type": "",
       "id": "k177ttn5afw9mrb8brz9fdfy1s7vp7g1",
@@ -78084,6 +78318,9 @@
         }
       ],
       "title": "The best way to design and develop your home in the country – Huts",
+      "title_zh": "乡村住宅设计与开发的最佳方式——Huts",
+      "title_zh_hash": "9a04b9ce842ec592",
+      "title_zh_translator_v": 2,
       "url": "https://huts.com/",
       "x_status_id": null
     },
@@ -78107,6 +78344,9 @@
       "category": "Tools",
       "created_at": "2025-11-19T08:19:45.519164Z",
       "description": "Ready to grow? We're ready to go. Accelerate Growth with Coda’s Merchant of Record and Payment Solutions. GROW WITH US. Custom Commerce is a custom...",
+      "description_zh": "准备好发展了吗？我们已整装待发。借助Coda的商户记录与支付解决方案加速增长。与我们共同成长。Custom Commerce是一个定制化...",
+      "description_zh_hash": "61cb0882104b7919",
+      "description_zh_translator_v": 2,
       "domain": "www.coda.co",
       "embed_type": "",
       "id": "k177034dwgczvesjmma7adbnn57vprct",
@@ -78129,6 +78369,9 @@
         }
       ],
       "title": "Merchant of Record, Global Payments & Growth | Coda",
+      "title_zh": "商户记录、全球支付与增长 | Coda",
+      "title_zh_hash": "1b8873ed18edd9a3",
+      "title_zh_translator_v": 2,
       "url": "https://www.coda.co/",
       "x_status_id": null
     },
@@ -78143,6 +78386,9 @@
       "category": "Development",
       "created_at": "2025-11-19T04:18:28.342993Z",
       "description": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+      "description_zh": "PhysX-Anything：从单张图像生成可模拟的物理3D资产",
+      "description_zh_hash": "884a22178ff14876",
+      "description_zh_translator_v": 2,
       "domain": "physx-anything.github.io",
       "embed_type": "",
       "id": "k175c1x7akf596ypmhwpqhs9t17vpcz6",
@@ -78165,6 +78411,9 @@
         }
       ],
       "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+      "title_zh": "PhysX-Anything: 从单张图像生成可模拟的物理3D资产",
+      "title_zh_hash": "884a22178ff14876",
+      "title_zh_translator_v": 2,
       "url": "https://physx-anything.github.io/",
       "x_status_id": null
     },
@@ -78178,6 +78427,9 @@
       "category": "Tools",
       "created_at": "2025-11-19T03:52:54.615385Z",
       "description": "Preview CSS squircle corner-shape in real time.",
+      "description_zh": "实时预览 CSS 圆角方形 (squircle) 的 corner-shape 效果。",
+      "description_zh_hash": "e1c6a4500004b31d",
+      "description_zh_translator_v": 2,
       "domain": "www.squircle.style",
       "embed_type": "",
       "id": "k17davea3sypxdeqyghkh2ncds7vq124",
@@ -78200,6 +78452,9 @@
         }
       ],
       "title": "CSS squircle corner-shape preview tool",
+      "title_zh": "CSS 圆角方形（squircle）边角形状预览工具",
+      "title_zh_hash": "6f898347feb7ddf2",
+      "title_zh_translator_v": 2,
       "url": "https://www.squircle.style/",
       "x_status_id": null
     },
@@ -78232,6 +78487,9 @@
         }
       ],
       "title": "Binnenland Typefaces",
+      "title_zh": "Binnenland Typefaces",
+      "title_zh_hash": "9c3065e6dc03e318",
+      "title_zh_translator_v": 2,
       "url": "https://binnenland.ch/",
       "x_status_id": null
     },
@@ -78239,6 +78497,9 @@
       "category": "Social",
       "created_at": "2025-11-19T03:11:38.220495Z",
       "description": "We’ve been putting Gemini 3 Pro through real design tests in Figma Make: holiday projects, extreme aesthetic swings, and system-level tasks. It handled the fundamentals reliably and showed meaningful range in layout, style, and interaction. \n\nThe pattern is clear: AI widens the",
+      "description_zh": "我们一直在 Figma Make 中对 Gemini 3 Pro 进行真实的设计测试：节日项目、极端美学风格切换以及系统级任务。它在基础功能上表现可靠，并在布局、样式和交互方面展现了有意义的广度。\n\n模式很清晰：AI 正在拓宽",
+      "description_zh_hash": "ba724f44cb7e7615",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17dkf61s8wvqx636x0n2mhspd7vqgnf",
@@ -78261,6 +78522,9 @@
         }
       ],
       "title": "Loredana Crisan (@loredanacrisan) on X",
+      "title_zh": "Loredana Crisan (@loredanacrisan) 在 X 平台",
+      "title_zh_hash": "28d5f7e30cbc00a8",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/loredanacrisan/status/1990826669062676778",
       "x_status_id": "1990826669062676778"
     },
@@ -78284,6 +78548,9 @@
       "category": "Tools",
       "created_at": "2025-11-19T03:12:23.468255Z",
       "description": "A delightful inbox designed around your life",
+      "description_zh": "围绕你的生活设计的愉悦收件箱",
+      "description_zh_hash": "ab9e5c1b8db329be",
+      "description_zh_translator_v": 2,
       "domain": "extra.email",
       "embed_type": "",
       "id": "k17a06z9z432zz32weprjrqjbh7vqtcn",
@@ -78306,6 +78573,9 @@
         }
       ],
       "title": "Extra - Love Your Email",
+      "title_zh": "额外 - 热爱你的邮件",
+      "title_zh_hash": "2786ae8b6c37603e",
+      "title_zh_translator_v": 2,
       "url": "https://extra.email/",
       "x_status_id": null
     },
@@ -78341,6 +78611,9 @@
         }
       ],
       "title": "Google Antigravity",
+      "title_zh": "对不起，您输入的 \"Google Antigravity\" 似乎不是一个完整的文章或网页内容，而是一个短语。如果您能提供完整的英文原文，我将为您进行准确的技术翻译。",
+      "title_zh_hash": "4b61c9d93614fad9",
+      "title_zh_translator_v": 2,
       "url": "https://antigravity.google/",
       "x_status_id": null
     },
@@ -78361,11 +78634,17 @@
         "https://blog.cloudflare.com/images/privacy-options.svg"
       ],
       "article_text": "On 18 November 2025 at 11:20 UTC (all times in this blog are UTC), Cloudflare's network began experiencing significant failures to deliver core network traffic. This showed up to Internet users trying to access our customers' sites as an error page indicating a failure within Cloudflare's network.\nThe issue was not caused, directly or indirectly, by a cyber attack or malicious activity of any kind. Instead, it was triggered by a change to one of our database systems' permissions which caused the database to output multiple entries into a “feature file” used by our Bot Management system. That feature file, in turn, doubled in size. The larger-than-expected feature file was then propagated to all the machines that make up our network.\nThe software running on these machines to route traffic across our network reads this feature file to keep our Bot Management system up to date with ever changing threats. The software had a limit on the size of the feature file that was below its doubled size. That caused the software to fail.\nAfter we initially wrongly suspected the symptoms we were seeing were caused by a hyper-scale DDoS attack, we correctly identified the core issue and were able to stop the propagation of the larger-than-expected feature file and replace it with an earlier version of the file. Core traffic was largely flowing as normal by 14:30. We worked over the next few hours to mitigate increased load on various parts of our network as traffic rushed back online. As of 17:06 all systems at Cloudflare were functioning as normal.\nWe are sorry for the impact to our customers and to the Internet in general. Given Cloudflare's importance in the Internet ecosystem any outage of any of our systems is unacceptable. That there was a period of time where our network was not able to route traffic is deeply painful to every member of our team. We know we let you down today.\nThis post is an in-depth recount of exactly what happened and what systems and processes failed. It is also the beginning, though not the end, of what we plan to do in order to make sure an outage like this will not happen again.\nThe chart below shows the volume of 5xx error HTTP status codes served by the Cloudflare network. Normally this should be very low, and it was right up until the start of the outage.\nThe volume prior to 11:20 is the expected baseline of 5xx errors observed across our network. The spike, and subsequent fluctuations, show our system failing due to loading the incorrect feature file. What’s notable is that our system would then recover for a period. This was very unusual behavior for an internal error.\nThe explanation was that the file was being generated every five minutes by a query running on a ClickHouse database cluster, which was being gradually updated to improve permissions management. Bad data was only generated if the query ran on a part of the cluster which had been updated. As a result, every five minutes there was a chance of either a good or a bad set of configuration files being generated and rapidly propagated across the network.\nThis fluctuation made it unclear what was happening as the entire system would recover and then fail again as sometimes good, sometimes bad configuration files were distributed to our network. Initially, this led us to believe this might be caused by an attack. Eventually, every ClickHouse node was generating the bad configuration file and the fluctuation stabilized in the failing state.\nErrors continued until the underlying issue was identified and resolved starting at 14:30. We solved the problem by stopping the generation and propagation of the bad feature file and manually inserting a known good file into the feature file distribution queue. And then forcing a restart of our core proxy.\nThe remaining long tail in the chart above is our team restarting remaining services that had entered a bad state, with 5xx error code volume returning to normal at 17:06.\nThe following services were impacted:\n| S",
+      "article_text_zh": "2025年11月18日11:20 UTC（本博客所有时间均为UTC），Cloudflare网络开始出现核心网络流量传输严重故障。这表现为尝试访问我们客户网站的用户看到错误页面，提示Cloudflare网络内部故障。\n\n该问题并非直接或间接由网络攻击或任何恶意活动引起。相反，它是由我们某个数据库系统的权限变更触发的，该变更导致数据库向Bot管理系统使用的“特征文件”中输出了多条条目。该特征文件的大小因此翻倍。超出预期的特征文件随后被传播到构成我们网络的所有机器上。\n\n这些机器上运行的软件负责跨网络路由流量，它会读取此特征文件以保持Bot管理系统能应对不断变化的威胁。该软件对特征文件的大小设有限制，而翻倍后的文件大小超出了此限制，导致软件运行失败。\n\n在最初错误地怀疑我们所见的症状是由超大规模DDoS攻击引起后，我们正确识别了核心问题，并成功阻止了超出预期的特征文件的传播，用早期版本的文件替换了它。到14:30，核心流量基本恢复正常。在接下来的几个小时内，我们努力缓解了因流量迅速恢复而给网络各部分带来的负载增加。截至17:06，Cloudflare所有系统均恢复正常运行。\n\n我们对给客户及整个互联网造成的影响深表歉意。鉴于Cloudflare在互联网生态系统中的重要性，我们任何系统的中断都是不可接受的。我们的网络在一段时间内无法路由流量，这让我们团队每位成员都深感痛苦。我们知道今天让大家失望了。\n\n本文是对事件经过、以及哪些系统和流程出现故障的深入回顾。这也是我们计划采取行动以确保此类中断不再发生的开端，而非终点。\n\n下图显示了Cloudflare网络提供的5xx HTTP错误状态码的流量。正常情况下该数值应非常低，且在中止发生前一直如此。\n\n11:20之前的流量是我们网络中观察到的5xx错误的预期基线。峰值及随后的波动显示我们的系统因加载错误的特征文件而出现故障。值得注意的是，我们的系统随后会恢复一段时间。对于内部错误而言，这是非常不寻常的行为。\n\n其解释是：该文件每五分钟由运行在ClickHouse数据库集群上的一个查询生成一次，该集群正在逐步更新以改进权限管理。只有当查询在已更新的集群部分上运行时，才会生成错误数据。因此，每五分钟就有一定概率生成一组好或坏的配置文件，并迅速传播到整个网络。\n\n这种波动使得情况变得不明朗，因为整个系统会恢复然后再次失败——有时好的配置文件、有时坏的配置文件被分发到我们的网络。最初，这让我们认为可能是攻击所致。最终，每个ClickHouse节点都生成了错误的配置文件，波动稳定在故障状态。\n\n错误持续存在，直到14:30开始识别并解决根本问题。我们通过停止生成和传播错误的特征文件，手动将一个已知正确的文件插入特征文件分发队列，然后强制重启核心代理来解决此问题。\n\n上图中剩余的拖尾部分是我们的团队重启了其余进入错误状态的服务，5xx错误码流量在17:06恢复正常。\n\n以下服务受到影响：\n\n| 服务 |",
+      "article_text_zh_hash": "28e00fbccfb937a3",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Cloudflare outage on November 18, 2025",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2025-11-19T02:00:35.462348Z",
       "description": "Cloudflare suffered a service outage on November 18, 2025. The outage was triggered by a bug in generation logic for a Bot Management feature file causing many Cloudflare services to be affected.",
+      "description_zh": "Cloudflare 于 2025 年 11 月 18 日遭遇服务中断。此次中断由 Bot 管理功能文件的生成逻辑缺陷引发，导致众多 Cloudflare 服务受到影响。",
+      "description_zh_hash": "a90a9f631ddafc9c",
+      "description_zh_translator_v": 2,
       "domain": "blog.cloudflare.com",
       "embed_type": "",
       "id": "k17caz160htmc71w62wbwjra997vqcsy",
@@ -78388,6 +78667,9 @@
         }
       ],
       "title": "Cloudflare outage on November 18, 2025",
+      "title_zh": "2025年11月18日Cloudflare服务中断事件",
+      "title_zh_hash": "3e7a0b2f737215ec",
+      "title_zh_translator_v": 2,
       "url": "https://blog.cloudflare.com/18-november-2025-outage/",
       "x_status_id": null
     },
@@ -78420,6 +78702,9 @@
         }
       ],
       "title": "Pixar's Early Days - A Never-Before-Seen Interview With Steve Jobs, 1996",
+      "title_zh": "皮克斯早期岁月——1996年史蒂夫·乔布斯从未公开的访谈",
+      "title_zh_hash": "fdb60e3293a0f8d2",
+      "title_zh_translator_v": 2,
       "url": "https://www.youtube.com/watch?v=R0XmBKsRJF8",
       "x_status_id": null
     },
@@ -78463,6 +78748,9 @@
       "category": "Social",
       "created_at": "2025-11-18T16:22:02.744833Z",
       "description": "Introducing Gemini 3 :sparkles:\n\nIt’s the best model in the world for multimodal understanding, and our most powerful agentic + vibe coding model yet. Gemini 3 can bring any idea to life, quickly grasping context and intent so you can get what you need with less prompting. \n\nFind Gemini",
+      "description_zh": "## 介绍 Gemini 3 :sparkles:\n\n这是全球最优秀的多模态理解模型，也是我们迄今为止最强大的智能体 + 氛围编程模型。Gemini 3 能将任何创意变为现实，快速理解上下文和意图，让你用更少的提示词就能获得所需内容。\n\n寻找 Gemini",
+      "description_zh_hash": "a4764cc14d8f3334",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k174xgn53ej727etwckm3xwykx7vmjg7",
@@ -78485,6 +78773,9 @@
         }
       ],
       "title": "Sundar Pichai (@sundarpichai) on X",
+      "title_zh": "桑达尔·皮查伊（@sundarpichai）在 X 平台",
+      "title_zh_hash": "413132cab315e148",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/sundarpichai/status/1990812770762215649?s=46",
       "x_status_id": "1990812770762215649"
     },
@@ -78508,6 +78799,9 @@
       "category": "Design",
       "created_at": "2025-11-18T14:47:42.956114Z",
       "description": "For Your Consideration represents a diverse group of internationally recognized artists working with the most influential brands, publications, and people of our time. Founded by a team of producers, the agency aims to reimagine the boundaries of creative possibility, while supporting its artists and clients in the development of world-class campaigns—from initial concept to final delivery.",
+      "description_zh": "For Your Consideration 汇聚了一批与国际知名品牌、出版物及当代最具影响力人物合作的国际知名艺术家。该机构由一支制作人团队创立，旨在重新定义创意可能性的边界，同时支持旗下艺术家与客户共同打造世界级广告活动——从初始概念到最终交付的全流程服务。",
+      "description_zh_hash": "4bf550c1179db791",
+      "description_zh_translator_v": 2,
       "domain": "www.fycartists.com",
       "embed_type": "",
       "id": "k17d0w0afbh162p5sf9yqs0qsh7vnhrh",
@@ -78537,6 +78831,9 @@
         }
       ],
       "title": "For Your Consideration",
+      "title_zh": "供您参考",
+      "title_zh_hash": "de10ce647f67bbac",
+      "title_zh_translator_v": 2,
       "url": "https://www.fycartists.com/",
       "x_status_id": null
     },
@@ -78569,6 +78866,9 @@
         }
       ],
       "title": "Full Tutorial: Design to Code in 45 Min with Cursor's Head of Design | Ryo Lu",
+      "title_zh": "完整教程：45分钟从设计到代码——Cursor设计主管Ryo Lu亲授",
+      "title_zh_hash": "e5850099585c7d13",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/bdh8k6DyKxE?si=9pI2TFh2OD5YAICM",
       "x_status_id": null
     },
@@ -78580,11 +78880,17 @@
         "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fagents-2.9a229117.png&w=3840&q=80"
       ],
       "article_text": "Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in ElevenCreative Platform Models Docs Customers Pricing Menu ElevenCreative ElevenCreative Platform Models Docs Customers Pricing Sign up Creative Templates Image to Video Image to video AI conversion Create videos from images and integrate AI voice for engaging content. Upload image Veo 3.1 Input Output 50 % By using this tool you agree to our Terms of Service . To learn more about how ElevenLabs handles your data, check our Privacy Policy . Image to video AI conversion in just a couple of easy steps Transform images into videos effortlessly. Follow these steps to create dynamic content with our AI. 1 Upload Image Add your image and describe the desired video output. Veo 3.1 1920 x 1080 2 Select Model Choose from top AI models to generate your video. Search all models... Veo 3.1 Kling 3 Pro Kling Omni Veo 3.1 Fast Topaz LTX V2 Creatify Aurora Seedance 2.0 3 Generate & Export Create your video, then download or use in projects. Veo 3.1 Use as Reference Upscale video Recreate User creations Discover how creators are leveraging AI to turn static images into captivating videos. Meadow breeze Leafy path Rocky shoreline Mountain clouds Wildflower dance Image to Video AI and More Try template Use advanced AI models to convert images to videos, add voice, and create complete multimedia projects. AI Image Generation Create images from text prompts or enhance with AI tools. Video Creation Transform images into videos with smooth animations. Voice Integration Add AI voiceovers or create talking videos easily. High-Quality Output Export videos up to 4K resolution with upscaling. Dynamic Motion Utilize models for precise motion and physics. Multilingual Voice Generate voiceovers in 30+ languages for global reach. Frequently asked questions How does image to video AI work? Image to video AI uses text prompts and models to animate images into videos. Select a model, describe your video, and generate the output. What formats are supported? Images are supported in PNG format. Videos can be exported in MP4 format, up to 4K resolution with H.264/H.265 codecs. Is AI voice integration available? Yes, the platform offers AI voice synthesis, voice cloning, and multilingual voice-over. Lip-sync features animate images to create talking videos. What are the pricing options? The platform operates on a credit-based system. Credits are shown before generation. Can I use this for free? Video generation requires a paid plan. Credits are shown before generation. Discover more tools and templates Explore our full suite of AI-powered creative tools and templates to streamline your content production pipeline. Text to animation made simple Transform text into dynamic animations with integrated voice and audio features. Animated wallpaper maker Generate dynamic wallpapers with integrated voice and audio features. AI GIF generator Combine GIFs with voice and audio using cutting-edge AI models. AI dance video creation Combine visuals and voice to make your images dance with AI-powered lip-sync and audio. AI kissing generator for romantic videos Combine visuals with AI audio to create kissing videos that come alive. Vocal remover ai: remove vocals fast Seamlessly blend voice/audio with visuals. Perfect karaoke tracks in seconds. AI video upscaler Upscale video to 4K, add voice, and animate lip sync in one workspace. Effortless video splitting online Split videos and integrate AI voiceovers seamlessly in one unified platform. Create slow-motion videos effortlessly Combine video editing with voice synthesis in one AI-powered platform. Create with the highest quality AI Audio Contact Sales Sign up English ElevenCreative Text to Speech Speech to Text Voice Changer Text to Sound Effects Voice Cloning Voice Isolator AI Music Generator Studio Voice Design AI Voice Generator AI Image Generator AI Video Generator ElevenAgents Voice Agents Conversational AI",
+      "article_text_zh": "跳转到内容 ElevenCreative ElevenAgents ElevenAPI 资源 企业 定价 登录 注册 联系销售 登录 ElevenCreative 平台 模型 文档 客户 定价 菜单 ElevenCreative ElevenCreative 平台 模型 文档 客户 定价 注册 创意模板 图片转视频 图片转视频 AI 转换 从图片创建视频，并集成 AI 语音以生成引人入胜的内容。 上传图片 Veo 3.1 输入 输出 50% 使用此工具即表示您同意我们的服务条款。要了解 ElevenLabs 如何处理您的数据，请查看我们的隐私政策。 图片转视频 AI 转换，仅需几个简单步骤 轻松将图片转换为视频。按照以下步骤，使用我们的 AI 创建动态内容。 1 上传图片 添加您的图片并描述所需的视频输出。 Veo 3.1 1920 x 1080 2 选择模型 从顶级 AI 模型中选择以生成您的视频。 搜索所有模型... Veo 3.1 Kling 3 Pro Kling Omni Veo 3.1 Fast Topaz LTX V2 Creatify Aurora Seedance 2.0 3 生成并导出 创建您的视频，然后下载或在项目中使用。 Veo 3.1 用作参考 放大视频 重新创建 用户创作 探索创作者如何利用 AI 将静态图片转化为引人入胜的视频。 草地微风 落叶小径 岩石海岸 山间云层 野花之舞 图片转视频 AI 及更多 尝试模板 使用先进的 AI 模型将图片转换为视频，添加语音，并创建完整的多媒体项目。 AI 图像生成 根据文本提示创建图像，或使用 AI 工具进行增强。 视频创作 将图片转换为具有流畅动画的视频。 语音集成 轻松添加 AI 画外音或创建会说话的视频。 高质量输出 通过放大功能导出高达 4K 分辨率的视频。 动态运动 利用模型实现精确的运动和物理效果。 多语言语音 生成 30 多种语言的画外音，触达全球受众。 常见问题 图片转视频 AI 是如何工作的？ 图片转视频 AI 使用文本提示和模型将图片动画化为视频。选择一个模型，描述您的视频，然后生成输出。 支持哪些格式？ 图片支持 PNG 格式。视频可以导出为 MP4 格式，最高支持 4K 分辨率，采用 H.264/H.265 编解码器。 是否集成了 AI 语音？ 是的，该平台提供 AI 语音合成、语音克隆和多语言画外音。唇形同步功能可动画化图片以创建会说话的视频。 定价选项有哪些？ 该平台采用基于积分的系统。积分在生成前会显示。 我可以免费使用吗？ 视频生成需要付费计划。积分在生成前会显示。 发现更多工具和模板 探索我们全套 AI 驱动的创意工具和模板，以简化您的内容制作流程。 文本转动画，简单易行 将文本转换为动态动画，并集成语音和音频功能。 动态壁纸制作器 生成带有集成语音和音频功能的动态壁纸。 AI GIF 生成器 使用先进的 AI 模型将 GIF 与语音和音频相结合。 AI 舞蹈视频创作 结合视觉和语音，通过 AI 驱动的唇形同步和音频让您的图片舞动起来。 AI 接吻生成器，用于浪漫视频 将视觉与 AI 音频相结合，创建栩栩如生的接吻视频。 人声去除器：快速去除人声 将语音/音频与视觉无缝融合。几秒钟内即可制作出完美的卡拉 OK 曲目。 AI 视频放大器 将视频放大至 4K，添加语音，并在一个工作区中动画化唇形同步。 在线轻松分割视频 在一个统一平台中无缝分割视频并集成 AI 画外音。 轻松创建慢动作视频 在一个 AI 驱动的平台中结合视频编辑和语音合成。 以最高质量的 AI 音频进行创作 联系销售 注册 英语 ElevenCreative 文本转语音 语音转文本 变声器 文本转音效 语音克隆 语音隔离器 AI 音乐生成器 工作室 语音设计 AI 语音生成器 AI 图像生成器 AI 视频生成器 ElevenAgents 语音代理 对话式 AI",
+      "article_text_zh_hash": "3663499ce5eeeab1",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Image to Video AI: Transform Photos into Videos",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2025-11-18T09:11:46.078778Z",
       "description": "Create stunning AI images and videos, then refine them with natural voices, music, and sound design in ElevenLabs Studio.",
+      "description_zh": "在ElevenLabs Studio中创建惊艳的AI图像和视频，然后使用自然语音、音乐和声音设计对其进行精修。",
+      "description_zh_hash": "71e2563bd8c4c465",
+      "description_zh_translator_v": 2,
       "domain": "elevenlabs.io",
       "embed_type": "",
       "id": "k17e3xjtp8vqy0q9hqmnatqjp97vmk59",
@@ -78607,6 +78913,9 @@
         }
       ],
       "title": "Image and Video Generation with ElevenLabs Audio Tools",
+      "title_zh": "使用ElevenLabs音频工具生成图像与视频",
+      "title_zh_hash": "8f911f7c3fafb509",
+      "title_zh_translator_v": 2,
       "url": "https://elevenlabs.io/image-video",
       "x_status_id": null
     },
@@ -78614,6 +78923,9 @@
       "category": "Social",
       "created_at": "2025-11-18T09:09:03.506353Z",
       "description": "Lock screen mirror\n\nI noticed we all check our look through the front camera, but the current flow is slow for that use-case because you need to open the full camera view and flip the camera each time. So I started exploring different approaches for this.",
+      "description_zh": "锁屏镜子\n\n我注意到我们都会通过前置摄像头检查自己的仪容，但目前的流程对于这个使用场景来说太慢了，因为每次都需要打开完整的相机视图并翻转摄像头。于是我开始探索不同的解决方案。",
+      "description_zh_hash": "c0bd4e307693301d",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k172km0vhdmdrgszt3wm0fnepd7vnz3y",
@@ -78636,6 +78948,9 @@
         }
       ],
       "title": "Yaku Zeg (@yakuzeg) on X",
+      "title_zh": "X 平台上的 Yaku Zeg (@yakuzeg)",
+      "title_zh_hash": "d22722d43d89a80d",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/yakuzeg/status/1990464778498912367",
       "x_status_id": "1990464778498912367"
     },
@@ -78649,6 +78964,9 @@
       "category": "Tools",
       "created_at": "2025-11-13T12:46:27.015729Z",
       "description": "Transform 3D models, videos, and images with free ASCII art and dithering effects in real-time. LLM-ready visual effects tool for creative projects and AI applications.",
+      "description_zh": "实时将3D模型、视频和图像转换为免费ASCII艺术与抖动效果。面向创意项目与AI应用的LLM就绪视觉特效工具。",
+      "description_zh_hash": "0406444f7135b157",
+      "description_zh_translator_v": 2,
       "domain": "efecto.app",
       "embed_type": "",
       "id": "k173rxj5rmgj1mv5yrz688jy2x7vakkt",
@@ -78671,6 +78989,9 @@
         }
       ],
       "title": "Efecto - Free ASCII Art & Dithering Effects Tool",
+      "title_zh": "Efecto - 免费ASCII艺术与抖动效果工具",
+      "title_zh_hash": "6ed0170ee94375a6",
+      "title_zh_translator_v": 2,
       "url": "https://efecto.app/",
       "x_status_id": null
     },
@@ -78736,6 +79057,9 @@
       "category": "Crypto",
       "created_at": "2025-11-18T07:19:35.668659Z",
       "description": "The only end-to-end decentralized trading venue with CEX-level performance.",
+      "description_zh": "唯一具备中心化交易所级别性能的端到端去中心化交易平台。",
+      "description_zh_hash": "f07687972955c3bb",
+      "description_zh_translator_v": 2,
       "domain": "www.gte.xyz",
       "embed_type": "",
       "id": "k171qne1gcthw31q1ywzg3g42s7vn8dj",
@@ -78758,6 +79082,9 @@
         }
       ],
       "title": "GTE - The fastest decentralized trading venue",
+      "title_zh": "GTE - 最快的去中心化交易场所",
+      "title_zh_hash": "515e3dfa2b77a3d3",
+      "title_zh_translator_v": 2,
       "url": "https://www.gte.xyz/",
       "x_status_id": null
     },
@@ -78832,6 +79159,9 @@
         }
       ],
       "title": "Gizem Akdag (@gizakdag) on X",
+      "title_zh": "Gizem Akdag (@gizakdag) 在 X 平台",
+      "title_zh_hash": "8cdd17f3795b98e1",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/gizakdag/status/1989358477282791458",
       "x_status_id": "1989358477282791458"
     },
@@ -78844,6 +79174,9 @@
       "category": "Tools",
       "created_at": "2025-11-18T07:05:30.298804Z",
       "description": "Where all your life context gathers and connects.",
+      "description_zh": "你所有生活背景汇聚与连接之处。",
+      "description_zh_hash": "3e2d1c939d250ce8",
+      "description_zh_translator_v": 2,
       "domain": "pickle.com",
       "embed_type": "",
       "id": "k179hn54hbj7t3var4crv5xaz97vm189",
@@ -78866,6 +79199,9 @@
         }
       ],
       "title": "Memory | Pickle",
+      "title_zh": "记忆 | Pickle",
+      "title_zh_hash": "effb6ef63c470168",
+      "title_zh_translator_v": 2,
       "url": "https://pickle.com/memory",
       "x_status_id": null
     },
@@ -78889,6 +79225,9 @@
       "category": "Tools",
       "created_at": "2025-11-18T07:05:50.995985Z",
       "description": "The world's most advanced floor cleaner. Your home's best helper.",
+      "description_zh": "全球最先进的地面清洁器，您家居的最佳帮手。",
+      "description_zh_hash": "d8637e6d7b5734b3",
+      "description_zh_translator_v": 2,
       "domain": "maticrobots.com",
       "embed_type": "",
       "id": "k174fdd419enehmg03rk8gcd397vmc1p",
@@ -78930,11 +79269,17 @@
         "https://assets.mofoprod.net/network/images/Tapo-Product_Image.2e16d0ba.fill-192x288.png"
       ],
       "article_text": "Time is running out Donate to Mozilla Foundation today to reach our mid-year fundraising goal by June 30 Donate Donate Meet Mozilla What We Do Imagine Co-create Mobilize Join Us Magazine Donate Donate Search Search Nothing Personal is an editorial platform for independent thinkers, technologists, and creatives on the front lines of digital culture. What’s in a “Friend”? Ruby Justice Thelot Superficial Intelligence: Posting Photos by Dan McGraw What is Creative Purpose in the Age of AI? by Severin Matusek and Günseli Yalcinkaya The New Attention Economy by Karl T. Muth Privacy Product Reviews Learn what to consider when choosing new tech eufy Indoor Cam S350 Privacy Review Tapo Camera Privacy Review Ring Doorbell Pro Privacy Review Antisurveillance Fashion Privacy Review iMessage Privacy Review WhatsApp Privacy Review Signal Privacy Review Pause carousel autoplay Humor Superficial Intelligence: Should I Work in Tech? Our columnist answers your burning tech questions, with help from The Onion . Read more How to Disappear The Rise of Anti-Surveillance Fashion As the capabilities and reach of surveillance technology continue to expand globally, individual designers and startups are helping people find at least one more way to resist. Read more Our Podcast Our award-winning podcast on how AI is reshaping our lives, hosted by Bridget Todd. Listen now Who we are Nothing Personal is Mozilla Foundation's counterculture magazine and editorial platform for independent thinkers like you. We imagine and defend the endless possibilities of the Internet. Something went wrong and your signup wasn't completed. Please try again later. The Internet we deserve starts with you. Sign up for our newsletter. Please enter a valid email address. Your country English I'm okay with Mozilla handling my info as explained in this Privacy Notice . Please check this box if you want to proceed. Loading... Sign Up Sign Up Thank you! If you haven’t previously confirmed your opt-in to a Mozilla Foundation-related email subscription you may have to do so now. Please check your inbox or spam filter for an email from us to click and confirm your subscription . Something went wrong and your signup wasn't completed. Please try again later. Stay updated with our newsletter Please enter a valid email address. Your country English I'm okay with Mozilla handling my info as explained in this Privacy Notice . Please check this box if you want to proceed. Loading... Sign Up Sign Up Thank you! If you haven’t previously confirmed your opt-in to a Mozilla Foundation-related email subscription you may have to do so now. Please check your inbox or spam filter for an email from us to click and confirm your subscription . Licensing Annual Reports & Financials Press Center Nothing Personal Magazine Mozilla Festival Grants & Funding Careers Privacy Cookies Legal Participation Guidelines Donate Donate Language Català Deutsch English Español Français Frysk Kiswahili Nederlands Polski Português Mozilla Foundation is a global non-profit and parent of the Mozilla Corporation . Most content available under a Creative Commons license .",
+      "article_text_zh": "时间紧迫  \n请于6月30日前向Mozilla基金会捐款，以达成我们的年中筹款目标  \n[捐款] [捐款]  \n\n认识Mozilla  \n我们的工作  \n想象 共创 动员 加入我们  \n杂志  \n[捐款] [捐款]  \n搜索 搜索  \n\n《Nothing Personal》是一个面向独立思想家、技术专家和数字文化前沿创作者的编辑平台。  \n\n**“朋友”意味着什么？**  \nRuby Justice Thelot  \n\n**肤浅智能：发布照片**  \n作者：Dan McGraw  \n\n**AI时代的创意目标是什么？**  \n作者：Severin Matusek 和 Günseli Yalcinkaya  \n\n**新的注意力经济**  \n作者：Karl T. Muth  \n\n**隐私**  \n**产品评测**  \n了解选购新科技时需考虑的因素  \neufy Indoor Cam S350 隐私评测  \nTapo 摄像头隐私评测  \nRing Doorbell Pro 隐私评测  \n反监控时尚隐私评测  \niMessage 隐私评测  \nWhatsApp 隐私评测  \nSignal 隐私评测  \n[暂停轮播自动播放]  \n\n**幽默**  \n**肤浅智能：我该从事科技行业吗？**  \n我们的专栏作家借助《洋葱新闻》回答您迫切的科技问题。  \n[阅读更多]  \n\n**如何消失**  \n**反监控时尚的崛起**  \n随着监控技术的能力和覆盖范围在全球持续扩展，独立设计师和初创企业正在帮助人们找到至少一种新的抵抗方式。  \n[阅读更多]  \n\n**我们的播客**  \n我们屡获殊荣的播客，探讨AI如何重塑我们的生活，由Bridget Todd主持。  \n[立即收听]  \n\n**我们是谁**  \n《Nothing Personal》是Mozilla基金会旗下的反主流文化杂志和编辑平台，专为像您这样的独立思想家打造。我们想象并捍卫互联网的无限可能。  \n\n出错了，您的注册未完成。请稍后重试。  \n**我们应得的互联网，从您开始。**  \n订阅我们的通讯。  \n请输入有效的电子邮件地址。  \n您的国家：英语  \n我同意Mozilla按照本隐私声明处理我的信息。  \n请勾选此框以继续。  \n加载中...  \n[注册] [注册]  \n谢谢！如果您之前未确认订阅Mozilla基金会相关的电子邮件，现在可能需要确认。请检查您的收件箱或垃圾邮件过滤器，查找我们发送的邮件并点击确认订阅。  \n\n出错了，您的注册未完成。请稍后重试。  \n**通过我们的通讯保持更新**  \n请输入有效的电子邮件地址。  \n您的国家：英语  \n我同意Mozilla按照本隐私声明处理我的信息。  \n请勾选此框以继续。  \n加载中...  \n[注册] [注册]  \n谢谢！如果您之前未确认订阅Mozilla基金会相关的电子邮件，现在可能需要确认。请检查您的收件箱或垃圾邮件过滤器，查找我们发送的邮件并点击确认订阅。  \n\n许可协议  \n年度报告与财务信息  \n新闻中心  \n《Nothing Personal》杂志  \nMozilla Festival  \n资助与拨款  \n职业机会  \n隐私  \nCookies  \n法律  \n参与指南  \n[捐款] [捐款]  \n\n语言：Català Deutsch English Español Français Frysk Kiswahili Nederlands Polski Português  \n\nMozilla基金会是一家全球性非营利组织，也是Mozilla公司的母公司。大部分内容采用Creative Commons许可协议。",
+      "article_text_zh_hash": "df121ad2927bb908",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Nothing Personal, a new editorial platform by Mozilla Foundation - Mozilla Foundation",
       "category": "Articles",
       "cleaner_v": 2,
       "created_at": "2025-11-18T07:10:02.917655Z",
       "description": "Nothing Personal is Mozilla Foundation's counterculture magazine and editorial platform for independent thinkers like you. We imagine and defend the endless possibilities of the Internet. Read our reported stories on internet counterculture, humor columns, and privacy reviews.",
+      "description_zh": "Nothing Personal 是 Mozilla 基金会的反文化杂志与编辑平台，专为像你这样的独立思考者打造。我们想象并捍卫互联网的无限可能。阅读我们关于网络反文化的报道故事、幽默专栏和隐私评测。",
+      "description_zh_hash": "faba66e9be09e63d",
+      "description_zh_translator_v": 2,
       "domain": "www.mozillafoundation.org",
       "embed_type": "",
       "id": "k17e8h4yv4q8zc8cp39h4jjbbs7vn417",
@@ -78957,6 +79302,9 @@
         }
       ],
       "title": "Nothing Personal, a new editorial platform by Mozilla Foundation\n                \n            \n            \n                \n                - Mozilla Foundation",
+      "title_zh": "Mozilla 基金会推出全新编辑平台 Nothing Personal",
+      "title_zh_hash": "9897ca1b495d9fb2",
+      "title_zh_translator_v": 2,
       "url": "https://www.mozillafoundation.org/en/nothing-personal/",
       "x_status_id": null
     },
@@ -78977,11 +79325,17 @@
         "https://cdn.sanity.io/images/07s0r5r6/production/34e58c2d7523fd9ffa346a043ceb88fe10d35320-1200x675.svg"
       ],
       "article_text": "How We Approach Design at :Harvey:\nA look into the design principles that shape the Harvey platform.\nFor many of our customers, Harvey is their first experience using AI in a professional setting. Earning their trust starts with how thoughtfully we design every detail. Our platform has to combine the best of consumer-grade AI with the reliability, security, and standards of enterprise software.\nDesign helps to bring that balance to life by shaping how trust, control, and intelligence are expressed. Getting the details right is essential. Precision in design reflects the precision our customers bring to their work and reinforces the trust they place in our platform. That is why design matters at Harvey.\nDesigning for Mastery\nAt Harvey, design is a means to achieve mastery. Our customers operate in environments defined by precision and trust, where polish is synonymous with credibility. The experience of using our platform must feel fast, structured, and dependable, enabling legal professionals to reach expertise faster, not slowing them down.\nThis commitment to shortening the path to mastery informs every aspect of our brand. From our type system to our tone of voice, every element is crafted to convey confidence, clarity, and trust.\nDesign Principles\nIn serving industries where time is the rarest commodity, we design the way lawyers write: saying the most with the least. Every pixel works hard so our users don’t have to. We bridge the familiar with the future and remove friction so lawyers can think, write, and decide without distraction — whether they’re reviewing contracts, drafting documents, or managing matters.\nThis all takes shape in three core design principles:\n- Design With Domain Awareness: We design for the standards of legal professionals: deeply familiar, yet unmistakably modern.\n- Make the Complex Feel Effortless: The design of our platform should never get in the way of thought or productivity. The best design feels invisible.\n- Design With Intention: Every visual and structural choice is deliberate, from the hierarchy of text to the rhythm of motion.\nPrinciples in Practice\nLet’s walk through some examples of how these three principles are reflected in the Harvey platform.\n1. Design With Domain Awareness\nWe designed Review Tables in [Vault](https://www.harvey.ai/platform/vault) to automate repetitive work while preserving the workflows lawyers already know, like assigning tasks and verifying data for accuracy. Documents are automatically classified and organized, so filtering by contracts, litigation documents, or financial materials feels natural and much faster.\nWhile automation helps accelerate and organize the review process, verifying content remains a deliberate human activity. The most critical work, like assessing nuance and applying judgment, is left to professionals. Our design ensures that automation handles what machines do best, allowing lawyers to focus on the parts of their work that demand expertise and care.\n2. Make the Complex Feel Effortless\nComplex work requires tools that simplify the setup without sacrificing control. [Workflow Builder](https://www.harvey.ai/blog/introducing-workflow-builder) is our solution for chaining a series of sophisticated tasks into a single, repeatable process. It allows legal professionals to automate multi-step workflows while retaining oversight over every stage.\nIn order to make the manual work of creating workflows fast and intuitive, the Workflows team created a chat interface that lets users describe their workflow in natural language. In seconds, the system translates these prompts into structured workflows. Users can then review, refine, and deploy their workflows with confidence, knowing that the tool supports both speed and accuracy.\nBy combining automation with deliberate user control, Workflow Builder demonstrates how Harvey’s design principles transform complex tasks into seamless, efficient processes.\n3. Design With Intention\nAt Harvey, we build prod",
+      "article_text_zh": "# 我们在 :Harvey: 的设计方法\n\n一窥塑造 Harvey 平台的设计原则。\n\n对许多客户而言，Harvey 是他们首次在专业场景中使用 AI。赢得他们的信任，始于我们对每个细节的精心设计。我们的平台必须将消费级 AI 的最佳体验与企业软件的可靠性、安全性和标准相结合。\n\n设计通过塑造信任、控制和智能的表达方式，让这种平衡得以实现。把细节做对至关重要。设计的精准度反映了客户在工作中所秉持的精准，也强化了他们对我们平台的信任。这就是设计在 Harvey 如此重要的原因。\n\n## 为精通而设计\n\n在 Harvey，设计是实现精通的手段。我们的客户在追求精准和信任的环境中工作，精致与可信度密不可分。使用我们平台的体验必须快速、结构清晰且可靠，帮助法律专业人士更快地达到专业水准，而不是拖慢他们的脚步。\n\n这种缩短通往精通之路的承诺，贯穿于我们品牌的方方面面。从字体系统到语气语调，每个元素都经过精心打磨，以传达自信、清晰和信任。\n\n## 设计原则\n\n在服务于时间最为稀缺的行业时，我们像律师写作那样设计：用最少的表达传递最多的信息。每个像素都努力发挥作用，让我们的用户无需费力。我们连接熟悉与未来，消除摩擦，让律师能够不受干扰地思考、写作和决策——无论是审阅合同、起草文件还是管理案件。\n\n这一切体现在三个核心设计原则中：\n\n- **以领域认知进行设计**：我们为法律专业人士的标准而设计：深谙传统，却又明确现代。\n- **让复杂变得毫不费力**：我们平台的设计绝不应妨碍思考或生产力。最好的设计是隐形的。\n- **有意图地设计**：每一个视觉和结构选择都是深思熟虑的，从文本的层级到动感的节奏。\n\n## 原则在实践中的体现\n\n让我们通过一些例子来看看这三个原则如何在 Harvey 平台中体现。\n\n### 1. 以领域认知进行设计\n\n我们在 [Vault](https://www.harvey.ai/platform/vault) 中设计了审阅表格，以自动化重复性工作，同时保留律师已经熟悉的工作流程，例如分配任务和验证数据准确性。文档会自动分类和组织，因此按合同、诉讼文件或财务材料进行筛选感觉自然且快得多。\n\n虽然自动化有助于加速和组织审阅过程，但验证内容仍然是一项需要人类参与的审慎活动。最关键的工作，如评估细微差别和运用判断力，则留给专业人士。我们的设计确保自动化处理机器最擅长的事情，让律师能够专注于工作中需要专业知识和细心处理的部分。\n\n### 2. 让复杂变得毫不费力\n\n复杂的工作需要既能简化设置又不牺牲控制力的工具。[工作流构建器](https://www.harvey.ai/blog/introducing-workflow-builder) 是我们的解决方案，用于将一系列复杂的任务串联成一个可重复的流程。它允许法律专业人士自动化多步骤工作流，同时保持对每个阶段的监督。\n\n为了使创建工作流的繁琐工作变得快速直观，工作流团队创建了一个聊天界面，让用户可以用自然语言描述他们的工作流。系统在几秒钟内将这些提示转化为结构化的工作流。用户随后可以审查、优化和部署他们的工作流，确信该工具同时支持速度和准确性。\n\n通过将自动化与有意的用户控制相结合，工作流构建器展示了 Harvey 的设计原则如何将复杂任务转化为无缝、高效的流程。\n\n### 3. 有意图地设计\n\n在 Harvey，我们构建产品",
+      "article_text_zh_hash": "3cebe9bcd8020153",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "How We Approach Design at Harvey",
       "category": "Design",
       "cleaner_v": 2,
       "created_at": "2025-11-18T07:10:20.261907Z",
       "description": "A look into the design principles that shape the Harvey platform.",
+      "description_zh": "深入解析塑造Harvey平台的设计原则。",
+      "description_zh_hash": "24ce575705f351f9",
+      "description_zh_translator_v": 2,
       "domain": "www.harvey.ai",
       "embed_type": "",
       "id": "k178pem8m2hz9gahwpatp7094n7vnx5v",
@@ -79004,6 +79358,9 @@
         }
       ],
       "title": "How We Approach Design at Harvey",
+      "title_zh": "我们在 Harvey 的设计方法",
+      "title_zh_hash": "05f5022e3ee84e48",
+      "title_zh_translator_v": 2,
       "url": "https://www.harvey.ai/blog/how-we-approach-design-at-harvey",
       "x_status_id": null
     },
@@ -79053,6 +79410,9 @@
       "category": "Tools",
       "created_at": "2025-11-18T06:58:57.958794Z",
       "description": "Generate customizable color palettes in advanced color spaces that can be easily shared, downloaded, or exported.",
+      "description_zh": "在高级色彩空间中生成可定制的调色板，并支持轻松分享、下载或导出。",
+      "description_zh_hash": "693a8c2aa4770cdb",
+      "description_zh_translator_v": 2,
       "domain": "colorpalette.pro",
       "embed_type": "",
       "id": "k173994wc72fdf8xctnc3f8arh7vnd1h",
@@ -79075,6 +79435,9 @@
         }
       ],
       "title": "Color Palette Pro",
+      "title_zh": "Color Palette Pro",
+      "title_zh_hash": "b77a08b72caa51ab",
+      "title_zh_translator_v": 2,
       "url": "https://colorpalette.pro/",
       "x_status_id": null
     },
@@ -79092,6 +79455,9 @@
       "category": "Design",
       "created_at": "2025-11-17T16:15:03.840833Z",
       "description": "This is the home of the Tiny Awards, which, since 2023, has celebrated the best of the small, poetic, creative, handmade web.",
+      "description_zh": "这里是 Tiny Awards 的官网。自 2023 年起，该奖项旨在表彰那些小巧、诗意、富有创意且手工打造的优秀网站。",
+      "description_zh_hash": "d20735dc856fc088",
+      "description_zh_translator_v": 2,
       "domain": "tinyawards.net",
       "embed_type": "",
       "id": "k173bp3hnhvxhfqq2kfscr591n7vkezp",
@@ -79150,6 +79516,9 @@
         }
       ],
       "title": "‎Find Faith: Daily Prayer App - App Store",
+      "title_zh": "找到信仰：每日祈祷应用 - App Store",
+      "title_zh_hash": "43d4b85f71931897",
+      "title_zh_translator_v": 2,
       "url": "https://apps.apple.com/cn/app/find-faith-daily-prayer/id6746462724",
       "x_status_id": null
     },
@@ -79196,6 +79565,9 @@
         }
       ],
       "title": "Faces of Open Source",
+      "title_zh": "开源面孔",
+      "title_zh_hash": "bb1c7e52aae84944",
+      "title_zh_translator_v": 2,
       "url": "https://www.facesofopensource.com/",
       "x_status_id": null
     },
@@ -79220,6 +79592,9 @@
       "category": "Tools",
       "created_at": "2025-11-18T03:01:06.325578Z",
       "description": "Runlayer securely connects AI to the enterprise stack with custom threat detection, fine-grained permissions, and complete observability for AI deployments.",
+      "description_zh": "Runlayer 通过自定义威胁检测、细粒度权限控制以及 AI 部署的完整可观测性，安全地将 AI 与企业技术栈连接起来。",
+      "description_zh_hash": "502825776ec9db28",
+      "description_zh_translator_v": 2,
       "domain": "www.runlayer.com",
       "embed_type": "",
       "id": "k173mxqwescw57pe0mwrgkj6wh7vnnn3",
@@ -79242,6 +79617,9 @@
         }
       ],
       "title": "Runlayer | The Simpler, Safer Way to Connect MCPs",
+      "title_zh": "# Runlayer | 连接 MCP 的更简单、更安全的方式",
+      "title_zh_hash": "b115ded2f3eea988",
+      "title_zh_translator_v": 2,
       "url": "https://www.runlayer.com/",
       "x_status_id": null
     },
@@ -79263,6 +79641,9 @@
       "category": "Tools",
       "created_at": "2025-11-17T13:06:17.889437Z",
       "description": "We’re making everything you need to manage your creative studio, from proposals and contracts to invoicing and payments.",
+      "description_zh": "我们正在打造管理创意工作室所需的一切，从方案和合同到开票与收款。",
+      "description_zh_hash": "6f7529cd1365304b",
+      "description_zh_translator_v": 2,
       "domain": "studioworks.app",
       "embed_type": "",
       "id": "k17cjmz5c058kv9f0jyxhapvzs7vj6jz",
@@ -79285,6 +79666,9 @@
         }
       ],
       "title": "Studioworks: Business management software for creative studios",
+      "title_zh": "Studioworks：创意工作室业务管理软件",
+      "title_zh_hash": "60e0b67d52aaad14",
+      "title_zh_translator_v": 2,
       "url": "https://studioworks.app/",
       "x_status_id": null
     },
@@ -79343,6 +79727,9 @@
       "category": "Tools",
       "created_at": "2025-11-18T01:48:19.010687Z",
       "description": "AI assistant plugin for Adobe After Effects. Write and run expressions, scripts, and rigs from natural language. Automate tedious motion design tasks without coding.",
+      "description_zh": "Adobe After Effects 的 AI 助手插件。通过自然语言编写并运行表达式、脚本和绑定。无需编码即可自动完成繁琐的动态设计任务。",
+      "description_zh_hash": "26326f885f40dfe0",
+      "description_zh_translator_v": 2,
       "domain": "tryatom.ai",
       "embed_type": "",
       "id": "k1759aey790aa0vk19bpt8ae317vnd0q",
@@ -79365,6 +79752,9 @@
         }
       ],
       "title": "Atom – AI Assistant for After Effects Expressions & Automation",
+      "title_zh": "Atom – 用于 After Effects 表达式与自动化的 AI 助手",
+      "title_zh_hash": "2eff2ad29e34cdbf",
+      "title_zh_translator_v": 2,
       "url": "https://tryatom.ai/",
       "x_status_id": null
     },
@@ -79384,6 +79774,9 @@
         "https://aave.com/images/app/hero/us/carousel-4.png"
       ],
       "article_text": "Products Resources Developers About Aave App Savings for everyone. Aave V3 The original DeFi protocol. Aave Pro V4 The full power of DeFi. Aave Kit Build with Aave. Blog The latest news and updates. Brand Assets, examples and guides. FAQ Answers to common questions. Help & Support Guides, articles and more. Governance The Aave Governance forum. Case Studies The best build on Aave. Documentation Technical guides for developers. Security Audit reports and information. Bug Bounty Report responsibly and get rewarded. Aave Labs Learn about Aave Labs. Careers Build the future of finance. Download Aave App Savings for everyone. Aave V3 The original DeFi protocol. Aave Pro V4 The full power of DeFi. Aave Kit Build with Aave. Resources Blog The latest news and updates. Brand Assets, examples and guides. FAQ Answers to common questions. Help & Support Guides, articles and more. Governance The Aave Governance forum. Developers Case Studies The best build on Aave. Documentation Technical guides for developers. Security Audit reports and information. Bug Bounty Report responsibly and get rewarded. About Aave Labs Learn about Aave Labs. Careers Build the future of finance. Aave App Earn up to 1 . 0 0 % 1.00% on your savings. Earn interest every second with industry-leading rates and balance protection up to $1M. 1 Download on iOS Join Android & Web Waitlist Aave is not a bank. Grow your Savings Unmatched savings rates. Up to 22× higher than traditional savings accounts. 5.00 % APY + Boosts 0 . 0 0 % 0.00% Fintech 2 0 . 0 0 % 0.00% Banks 3 0 . 0 0 % 0.00% Simulate your savings. Simulation Starting Amount Invited Friend Boost 0 . 7 5 % 0.75% Recurring Contributions 0 . 5 0 % 0.50% Monthly You’re earning a base of 5.00% APY plus: 0 . 7 5 % 0.75% for inviting friends. 1 .00% for early setup. 0.50% for qualifying recurring contributions. Download on iOS Future Balance $ 1 , 3 5 3 , 4 3 0 . 0 2 $1,353,430.02 $ 9 8 3 , 4 3 0 . 0 2 $983,430.02 Earned in 30 years 1.35M 1.13M 902.29K 676.72K 451.14K 225.57K 0 Today 30Y Simulating a recurring monthly deposit of $ 1 , 0 0 0 monthly deposit of $1,000 at 7 . 2 5 % APY at 7.25% APY Compare your Future Balance $ 1 . 3 5 M $1.35M 7 . 2 5 % APY 7.25% APY $ 6 6 9 K $669K - $ 6 8 4 K - $684K 3.50 % APY 4 $ 6 8 1 K $681K - $ 6 7 2 K - $672K 3.60 % APY 5 $ 3 9 4 K $394K - $ 9 5 9 K - $959K Banks 0.4% APY 6 Rates may vary. Learn More . Money in, money out. It’s that easy. Payment Methods Add money from anywhere. Connect to over 12,000 banks. Your money, your rules Withdraw anytime. Access your savings whenever you need. Step into the future. ON THE 1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1 Auto Saver Automate your savings. Setup recurring deposits and reach your savings goals. $ 1 , 0 0 0 . $1,000. 0 3 2 4 0324 Compounding 24/7/365 Every second counts. Your balance grows every second on Aave. Future Projections Visualize the power of compounding. See how your money will grow over time. Track your Activity Save your way. Track your savings activity and create healthy habits. Invite Friends. Earn More. Referrals 1 0 10 Your Rate 8 . 1 0 % 8.10% Slide to see how much you could earn! 0 Friends 24 Friends Initial Deposit $ Earned in 90 days Assuming current base rate $ 1 9 9 . 7 3 $199.73 Base APY 5.00% Early Setup Boost 1.00% Friend Referral Boost × 1 0 10 1 . 6 0 % 1.60% $200+ Recurring Contribution 0.50% Download on iOS Rates may vary. Learn More . FAQs What is Aave App? Aave App is a high yield savings app designed to grow your savings by up to 5.00% per year with balance protection up to $1M per account and optional recovery features. Additional ways to earn more will be added in the future, allowing you to earn up to 9.00% per year by inviting friends and setting up automated deposits. How is interest earned? Interest is earned by depositing funds on Aave, the largest peer-to-peer money market, with over $60 billion in deposits. Unlike traditional savings accounts, interest is compounded every second to maximize",
+      "article_text_zh": "产品 资源 开发者 关于我们 Aave App 人人皆可储蓄。 Aave V3 原始DeFi协议。 Aave Pro V4 DeFi的全部力量。 Aave Kit 用Aave构建。 博客 最新新闻与更新。 品牌资产、示例与指南。 常见问题 常见问题解答。 帮助与支持 指南、文章等。 治理 Aave治理论坛。 案例研究 基于Aave的最佳构建。 文档 开发者技术指南。 安全 审计报告与信息。 漏洞赏金 负责任地报告并获得奖励。 Aave Labs 了解Aave Labs。 职业 构建金融的未来。 下载Aave App 人人皆可储蓄。 Aave V3 原始DeFi协议。 Aave Pro V4 DeFi的全部力量。 Aave Kit 用Aave构建。 资源 博客 最新新闻与更新。 品牌资产、示例与指南。 常见问题 常见问题解答。 帮助与支持 指南、文章等。 治理 Aave治理论坛。 开发者 案例研究 基于Aave的最佳构建。 文档 开发者技术指南。 安全 审计报告与信息。 漏洞赏金 负责任地报告并获得奖励。 关于我们 Aave Labs 了解Aave Labs。 职业 构建金融的未来。 Aave App 储蓄收益高达 **1.00%**。每秒赚取利息，享受行业领先利率及高达100万美元的余额保护。¹ 在iOS上下载 加入Android与网页候补名单 Aave不是银行。 增长您的储蓄 无与伦比的储蓄利率。比传统储蓄账户高出**22倍**。 **5.00%** 年化收益率 + 提升 **0.00%** 金融科技² **0.00%** 银行³ 模拟您的储蓄。 模拟 起始金额 邀请好友提升 **0.75%** 定期存入 **0.50%** 每月 您的基础年化收益率为5.00%，外加： **0.75%** 邀请好友。 **1.00%** 早期设置。 **0.50%** 合格定期存入。 在iOS上下载 未来余额 **$1,353,430.02** **$983,430.02** 30年收益 1.35M 1.13M 902.29K 676.72K 451.14K 225.57K 0 今天 30年 模拟每月定期存入 **$1,000**，年化收益率 **7.25%** 比较您的未来余额 **$1.35M** 7.25% 年化收益率 **$669K** - **$684K** 3.50% 年化收益率⁴ **$681K** - **$672K** 3.60% 年化收益率⁵ **$394K** - **$959K** 银行 0.4% 年化收益率⁶ 利率可能变动。[了解更多](#)。 资金进出，如此简单。 支付方式 从任何地方添加资金。连接超过12,000家银行。 您的资金，您做主 随时提现。在需要时访问您的储蓄。 迈向未来。 1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1 自动储蓄 自动化您的储蓄。设置定期存款，达成储蓄目标。 **$1,000**。 0324 复利 24/7/365 每秒都重要。您的余额在Aave上每秒增长。 未来预测 可视化复利的力量。查看您的资金随时间增长。 追踪活动 按您的方式储蓄。追踪储蓄活动，养成健康习惯。 邀请好友，赚取更多。 推荐 **10** 您的利率 **8.10%** 滑动查看您的潜在收益！ 0位好友 24位好友 初始存款 90天收益 假设当前基础利率 **$199.73** 基础年化收益率 5.00% 早期设置提升 1.00% 好友推荐提升 × **10** **1.60%** **$200+** 定期存入 0.50% 在iOS上下载 利率可能变动。[了解更多](#)。 常见问题 什么是Aave App？ Aave App是一款高收益储蓄应用，旨在让您的储蓄每年增长高达5.00%，每个账户提供高达100万美元的余额保护及可选恢复功能。未来将增加更多赚取方式，通过邀请好友和设置自动存款，您每年最高可赚取9.00%。 利息如何赚取？ 利息通过将资金存入Aave（最大的点对点货币市场，存款超过600亿美元）赚取。与传统储蓄账户不同，利息每秒复利，以最大化收益。",
+      "article_text_zh_hash": "a252036a40709eab",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "App | Aave",
       "category": "Crypto",
       "cleaner_v": 2,
@@ -79434,6 +79827,9 @@
       "category": "Tools",
       "created_at": "2025-11-17T13:03:30.135518Z",
       "description": "Edison is an AI scientist that autonomously reads, reasons, and experiments across disciplines. Accelerate your research with the world’s first unified AI platform for scientific discovery.",
+      "description_zh": "Edison 是一位能够跨学科自主阅读、推理和实验的 AI 科学家。借助全球首个统一的科学发现 AI 平台，加速你的研究进程。",
+      "description_zh_hash": "e0a753e9826022f4",
+      "description_zh_translator_v": 2,
       "domain": "edisonscientific.com",
       "embed_type": "",
       "id": "k179q2vk3n43mra4gqgsb5xm8d7vjn1j",
@@ -79456,6 +79852,9 @@
         }
       ],
       "title": "Edison Scientific | The AI Platform for Scientific Discovery",
+      "title_zh": "Edison Scientific | 面向科学发现的AI平台",
+      "title_zh_hash": "e9a7923df9adec26",
+      "title_zh_translator_v": 2,
       "url": "https://edisonscientific.com/",
       "x_status_id": null
     },
@@ -79485,6 +79884,9 @@
         }
       ],
       "title": "Mark Vassilevskiy (@MarkKnd) on X",
+      "title_zh": "Mark Vassilevskiy (@MarkKnd) 在 X 平台",
+      "title_zh_hash": "927de07c14e8c240",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/MarkKnd/status/1989534033416470683?s=20",
       "x_status_id": "1989534033416470683"
     },
@@ -79505,11 +79907,17 @@
         "https://www.cartesia.ai/_astro/sales.szkV7F6T_Z18tzAb.webp?dpl=dpl_BGWzbSCLRTsZyW3SRoLj8jUCtexg"
       ],
       "article_text": "Elise AI\nWe didn't switch to Sonic 3.5 because it was incrementally better, we switched because nothing else came close… we've seen a 2.9% lift in our conversion and a 12.2% increase in customer engagement.\nRanked #1 for naturalness, sub-90ms latency, and natively multilingual across 40+ languages.\nClone your voice, localize it into 42 languages, and fine-tune every word.\nVoice cloning\nClone any voice instantly with 10 seconds of audio. High speaker similarity means the brand voice you love stays true, even at scale.\nLocalization\nLocalize any audio clip with native-speaker quality. Emotion, tone, and speaker identity carry through — nothing gets lost in translation.\n- Skylar - American English\n- Skylar - Canadian French\n- Skylar - Castilian Spanish\nCustom Pronunciation Dictionaries\nSpecify custom pronunciations for proper nouns, domain terms, and anything else that needs to sound exactly right.\n- WordPronunciation\n- charcuterieshar-koo-terie\n- subpoena<<s|ə|ˈ|p|i|n|ə>>\n- epinephrine<<ˌ|ɛ|p|ɪ|ˈ|n|ɛ|f|ɹ|ɪ|n>>\nSee how enterprise teams use Sonic across every use case — and hear it for yourself.\nMarketing\nCalls warm leads the day a campaign fires, personalizes the opener, and books meetings in the CRM.\nCalls warm leads the day a campaign fires, personalizes the opener, and books meetings in the CRM.\nCalls signups within seconds, qualifies them, and books a meeting before the prospect checks their phone.\nAuthenticates callers, pulls live account data, and resolves billing questions, order status, and account issues without hold times or transfers.\nSpins up a realistic prospect persona that reps can practice live sales calls against, handling objections, pushback, and curveballs on demand.\nCalls applicants instantly, screens them, and pushes a qualification summary to the ATS before the call ends.\nCalls customers at key lifecycle moments — onboarding check-ins, renewal reminders, post-support follow-ups.\nReach international markets with Sonic — 40+ languages and a wide range of accents, all with native-speaker quality voices.\n-   HIPAA compliant \n-  SOC 2 Type 2 \n-  GDPR \n-  PCI \nElise AI\nWe didn't switch to Sonic 3.5 because it was incrementally better, we switched because nothing else came close… we've seen a 2.9% lift in our conversion and a 12.2% increase in customer engagement.\nServiceNow\nCartesia's state-space models bring enterprise-grade speed and quality to our AI Voice Agents… making it possible for businesses to deploy secure, scalable voice agents that can understand, act, and adapt in real time.\nSierra\nCartesia Sonic 3.5 has become one of the top-performing models for us by combining low latency with natural pacing… helping us deliver strong voice quality across a growing set of languages where other models often fall short.\nCallers\nSonic 3.5 has been a meaningful upgrade for Callers… latency and naturalness directly impact conversational flow and user success, and the new model noticeably improves both. We've seen more human interactions — especially in high-volume customer conversations where every millisecond and every turn matters.\nTake2 AI\nWe moved from an incumbent TTS provider to Cartesia because of the support experience. After repeated roadblocks with our previous provider, the difference with Cartesia has been transformative — responsive, technical, and genuinely invested in our success.\nCresta\nSonic 3.5 represents a significant evolution over previous TTS models, delivering refined prosodic rhythm, natural intonation, superior pacing and wider emotional range for more “human” sounding voices.\nBolna\nIndian voice agents live or die on whether order IDs, alphanumerics, and multilingual code-switching come out right on a phone line. Sonic 3.5 handles alphanumerics natively… and lands first audio at 100ms p90.\nGoodcall\nSonic is the only product in existence with model latency of less than 100 ms, outperforming its next best alternative by a factor of four. This level of performance represents a quantum leap forward",
+      "article_text_zh": "Elise AI  \n我们选择切换到 Sonic 3.5，并非因为它只是略有改进，而是因为其他方案根本无法企及……我们的转化率提升了 2.9%，客户互动率提升了 12.2%。  \n\n在自然度方面排名第一，延迟低于 90 毫秒，原生支持 40 多种语言。  \n克隆你的声音，将其本地化为 42 种语言，并对每个字词进行微调。  \n\n**声音克隆**  \n只需 10 秒音频即可即时克隆任何声音。高说话人相似度确保你喜爱的品牌声音即使在规模化应用时也能保持原汁原味。  \n\n**本地化**  \n以母语者水准本地化任何音频片段。情感、语气和说话人身份得以完整保留——翻译过程中不会丢失任何信息。  \n- Skylar - 美式英语  \n- Skylar - 加拿大法语  \n- Skylar - 卡斯蒂利亚西班牙语  \n\n**自定义发音词典**  \n为专有名词、领域术语及其他需要精确发音的内容指定自定义发音。  \n- 单词 | 发音  \n- charcuterie | shar-koo-terie  \n- subpoena | <<s|ə|ˈ|p|i|n|ə>>  \n- epinephrine | <<ˌ|ɛ|p|ɪ|ˈ|n|ɛ|f|ɹ|ɪ|n>>  \n\n了解企业团队如何在各种场景中使用 Sonic——并亲自聆听效果。  \n\n**市场营销**  \n在营销活动启动当天致电潜在客户，个性化开场白，并在 CRM 中预约会议。  \n\n**销售**  \n在潜在客户查看手机前，几秒内致电注册用户，进行资格筛选并预约会议。  \n\n**客户支持**  \n验证来电者身份，调取实时账户数据，解决账单问题、订单状态和账户问题，无需等待或转接。  \n\n**销售培训**  \n即时生成逼真的潜在客户角色，供销售代表进行实战通话练习，按需应对异议、反驳和突发问题。  \n\n**人力资源**  \n即时致电申请人，进行筛选，并在通话结束前将资格总结推送至 ATS。  \n\n**客户成功**  \n在关键生命周期节点致电客户——如入职跟进、续费提醒、售后回访。  \n\n**国际化**  \n借助 Sonic 覆盖国际市场——支持 40 多种语言及多种口音，均以母语者水准呈现。  \n\n- 符合 HIPAA 标准  \n- SOC 2 Type 2 认证  \n- 符合 GDPR 要求  \n- 符合 PCI 标准  \n\nElise AI  \n我们选择切换到 Sonic 3.5，并非因为它只是略有改进，而是因为其他方案根本无法企及……我们的转化率提升了 2.9%，客户互动率提升了 12.2%。  \n\nServiceNow  \nCartesia 的状态空间模型为我们的 AI 语音代理带来了企业级的速度和质量……使企业能够部署安全、可扩展的语音代理，实时理解、行动和适应。  \n\nSierra  \nCartesia Sonic 3.5 已成为我们表现最佳的模型之一，它兼具低延迟和自然节奏……帮助我们在一系列其他模型往往表现不佳的语言中提供出色的语音质量。  \n\nCallers  \nSonic 3.5 对 Callers 来说是一次有意义的升级……延迟和自然度直接影响对话流畅度和用户成功率，而新模型在这两方面均有显著提升。我们看到了更人性化的交互——尤其是在高容量的客户对话中，每一毫秒和每一次话轮都至关重要。  \n\nTake2 AI  \n我们之所以从原有的 TTS 提供商迁移到 Cartesia，是因为其支持体验。在之前提供商反复设置障碍后，Cartesia 带来的改变是革命性的——响应迅速、技术专业，并真正致力于我们的成功。  \n\nCresta  \nSonic 3.5 代表了相比以往 TTS 模型的重大进化，提供了更精细的韵律节奏、自然的语调、优越的语速控制以及更广泛的情感范围，从而产生更“人性化”的声音。  \n\nBolna  \n印度语音代理的成败取决于订单 ID、字母数字组合和多语种代码切换在电话线上是否能准确呈现。Sonic 3.5 原生处理字母数字……并在 p90 下实现 100 毫秒的首帧音频输出。  \n\nGoodcall  \nSonic 是现有唯一模型延迟低于 100 毫秒的产品，其性能是次优替代方案的四倍。这种性能水平代表了一次量子跃迁。",
+      "article_text_zh_hash": "0908020615551ab0",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Cartesia \\ Real-time TTS API with AI laughter and emotion",
       "category": "Tools",
       "cleaner_v": 2,
       "created_at": "2025-11-17T02:52:43.853588Z",
       "description": "Integrate real-time text-to-speech with Sonic-3, Cartesia’s streaming TTS API. Generate natural, expressive voices with laughter in 40+ languages—built for AI agents and interactive apps.",
+      "description_zh": "集成实时文本转语音：使用 Sonic-3（Cartesia 的流式 TTS API）。生成带有笑声的自然、富有表现力的语音，支持 40 多种语言——专为 AI 智能体和交互式应用而构建。",
+      "description_zh_hash": "44bdc2c37e2a68ba",
+      "description_zh_translator_v": 2,
       "domain": "cartesia.ai",
       "embed_type": "",
       "id": "k17b7z2vjh1763fz3fj10m287s7vjcg7",
@@ -79532,6 +79940,9 @@
         }
       ],
       "title": "Real-time TTS API with AI laughter and emotion | Cartesia Sonic-3",
+      "title_zh": "实时TTS API，支持AI笑声与情感表达 | Cartesia Sonic-3",
+      "title_zh_hash": "e4d893cce4228ae7",
+      "title_zh_translator_v": 2,
       "url": "https://cartesia.ai/sonic",
       "x_status_id": null
     },
@@ -79561,6 +79972,9 @@
         }
       ],
       "title": "jess (@jessicathelee) on X",
+      "title_zh": "jess (@jessicathelee) 在 X 平台",
+      "title_zh_hash": "a6711c3548a92861",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/jessicathelee/status/1989345323882574018?s=46",
       "x_status_id": "1989345323882574018"
     },
@@ -79601,6 +80015,9 @@
     },
     {
       "article_text": "Skip to content Developer Developer Roadmap Projects Docs Blog Forum Builds Initializing search BLENDER.ORG Download Get the latest Blender, older versions, or experimental builds. What's New Stay up-to-date with the new features in the latest Blender releases. LEARNING & RESOURCES Blender Studio Access production assets and knowledge from the open movies. Manual Documentation on the usage and features in Blender. DEVELOPMENT Developers Blog Latest development updates, by Blender developers. Documentation Guidelines, release notes and development docs. Benchmark A platform to collect and share results of the Blender Benchmark. Blender Conference The yearly event that brings the community together. DONATE Development Fund Support core development with a monthly contribution. One-time Donations Perform a single donation with more payment options available. Home Developer Handbook Features Compatibility Release Notes Summer of Code Contribute Documentation Blender Developer Documentation projects.blender.org Home Developer Handbook Developer Handbook New Developers New Developers Setup Get in Contact Pick a Project Navigating the Code Tips FAQ Communication Communication Chat Forums Meetings Weekly Updates User Feedback Code of Conduct Copyright Rules Building Blender Building Blender Linux macOS Windows Resolving Build Failures Build Options Cycles GPU Binaries Python Module Development Environments Development Environments Xcode Visual Studio Visual Studio Code QtCreator Vim Emacs Sublime Text Contributing Code Contributing Code Pull Requests Using Git Using Subversion Code Review Playbook Commit Rights Organization Organization Modules Projects Task Priorities Weekly Reports Guidelines Guidelines C/C++ Style Guide C/C++ Best Practices Python Style Guide GLSL Style Guide Commit Messages Release Notes Guide License Headers Code Quality Day Blend File Compatibility New Committers Reverting Commits Testing New Code & Refactors Release Process Release Process Release Cycle Release Branch Release Branch Release Branch Merge Playbook LTS Library Dependencies Library Dependencies macOS Rocky Linux 8 Windows x64 Release Checklist Release Checklist Third Party Licenses Stores Stores Microsoft Snap Steam Automated Tests Automated Tests Setup C/C++ Tests Python Tests Geometry Node Tests Import/Export Tests Modifier Tests Render Tests Performance Tests UI Tests Code Coverage Tooling Tooling C/C++ C/C++ ClangFormat clangd Address Sanitizer Valgrind GDB Clog: Logging Library Doxygen Python Python Profiling Tracing Py from C Building Building BuildBot Unity Builds distcc Utilities Utilities Blender Tools Git Bisect with Event Simulation tea Debugging with LLDB Design Design Decision Tree Idea, Concept, Design Communication and Presentation Communication and Presentation Communication and Presentation UI Toolkit UI Toolkit Icons A4 Design Examples Examples Examples Examples Assets Camera Lens Geometry Nodes Bug Reports Bug Reports The Life of a Bug Hardware List How to help triaging bugs? This is not a bug Blender Bug Triaging Playbook Blender Vulnerability Reporting Policy Making good bug reports Making good bug reports Manually Collecting System Information Linux System Information macOS System Information Windows System Information Extensions Extensions Add-on Development Setup VS Code for Add-on Development Add-on Guidelines Hosting on blender.org Translating Translating Developer Guide Translator Guide French Team Spanish Team Features Features Code Layout Core Core BLI: Blender Library BLI: Blender Library Any Bits Containers CPP Type Disjoint-Set Functions Index Mask Index Range Span Strings Virtual Arrays Blender Projects Context Dependency Graph DNA Implicit Sharing Memory Allocations RNA Undo System Datablocks Datablocks Embedded IDs ID Datablocks Main Data-Base Runtime IDs Management Management IDs and File Paths Relationships Between IDs Overrides Overrides Library Library Functional Design Library Overrides Library Overrides and U",
+      "article_text_zh": "跳过导航\n\n# 开发者手册\n\n## 新开发者\n- 设置\n- 取得联系\n- 选择项目\n- 浏览代码\n- 技巧\n- 常见问题\n\n## 沟通\n- 聊天\n- 论坛\n- 会议\n- 每周更新\n- 用户反馈\n- 行为准则\n- 版权规则\n\n## 构建 Blender\n- Linux\n- macOS\n- Windows\n- 解决构建失败\n- 构建选项\n- Cycles GPU 二进制文件\n- Python 模块\n- 开发环境\n  - Xcode\n  - Visual Studio\n  - Visual Studio Code\n  - QtCreator\n  - Vim\n  - Emacs\n  - Sublime Text\n\n## 贡献代码\n- 拉取请求\n- 使用 Git\n- 使用 Subversion\n- 代码审查手册\n- 提交权限\n\n## 组织\n- 模块\n- 项目\n- 任务优先级\n- 每周报告\n\n## 指南\n- C/C++ 风格指南\n- C/C++ 最佳实践\n- Python 风格指南\n- GLSL 风格指南\n- 提交信息\n- 发布说明指南\n- 许可证头\n- 代码质量日\n- Blend 文件兼容性\n- 新提交者\n- 回退提交\n- 测试新代码与重构\n\n## 发布流程\n- 发布周期\n- 发布分支\n- 发布分支合并手册\n- LTS\n- 库依赖\n  - macOS\n  - Rocky Linux 8\n  - Windows x64\n- 发布检查清单\n- 第三方许可证\n- 商店\n  - Microsoft\n  - Snap\n  - Steam\n\n## 自动化测试\n- 设置\n- C/C++ 测试\n- Python 测试\n- 几何节点测试\n- 导入/导出测试\n- 修改器测试\n- 渲染测试\n- 性能测试\n- UI 测试\n- 代码覆盖率\n\n## 工具\n- C/C++\n  - ClangFormat\n  - clangd\n  - Address Sanitizer\n  - Valgrind\n  - GDB\n  - Clog：日志库\n  - Doxygen\n- Python\n  - 性能分析\n  - 追踪\n  - 从 C 调用 Python\n- 构建\n  - BuildBot\n  - Unity 构建\n  - distcc\n- 实用工具\n  - Blender 工具\n  - 使用事件模拟进行 Git Bisect\n  - tea\n  - 使用 LLDB 调试\n\n## 设计\n- 决策树\n- 创意、概念、设计\n\n## 沟通与展示\n\n## UI 工具包\n- 图标\n- A4 设计示例\n\n## 示例\n- 资源\n- 相机\n- 镜头\n- 几何节点\n\n## 错误报告\n- 错误的生命周期\n- 硬件列表\n- 如何帮助分类错误？\n- 这不是错误\n- Blender 错误分类手册\n- Blender 漏洞报告政策\n- 撰写好的错误报告\n- 手动收集系统信息\n  - Linux 系统信息\n  - macOS 系统信息\n  - Windows 系统信息\n\n## 扩展\n- 插件开发\n- 为插件开发设置 VS Code\n- 插件指南\n- 托管在 blender.org\n\n## 翻译\n- 开发者指南\n- 翻译者指南\n- 法语团队\n- 西班牙语团队\n\n## 功能\n- 代码布局\n\n## 核心\n- BLI：Blender 库\n  - 任意位\n  - 容器\n  - CPP 类型\n  - 不相交集\n  - 函数\n  - 索引掩码\n  - 索引范围\n  - 索引跨度\n  - 字符串\n  - 虚拟数组\n- Blender 项目\n- 上下文\n- 依赖图\n- DNA\n- 隐式共享\n- 内存分配\n- RNA\n- 撤销系统\n- 数据块\n  - 嵌入 ID\n  - ID 数据块\n  - 主数据库\n  - 运行时 ID\n- 管理\n  - ID 与文件路径\n  - ID 之间的关系\n  - 覆盖\n- 库\n  - 功能设计\n  - 库覆盖\n  - 库覆盖与 U",
+      "article_text_zh_hash": "9703ede8f16715e8",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Blender 5.0 Release Notes - Blender Developer Documentation",
       "category": "Development",
       "cleaner_v": 2,
@@ -79628,6 +80045,9 @@
         }
       ],
       "title": "Blender 5.0 Release Notes - Blender Developer Documentation",
+      "title_zh": "Blender 5.0 发布说明 - Blender 开发者文档",
+      "title_zh_hash": "aa3d6545efb6f01d",
+      "title_zh_translator_v": 2,
       "url": "https://developer.blender.org/docs/release_notes/5.0/",
       "x_status_id": null
     },
@@ -79651,6 +80071,9 @@
       "category": "Design",
       "created_at": "2025-11-15T06:59:06.381359Z",
       "description": "Foreign Policy is a strategy-led Singapore branding agency led by AGI member Yah-Leng Yu — building identity systems and packaging for brands that move culture across Asia.",
+      "description_zh": "Foreign Policy 是一家以战略为导向的新加坡品牌设计机构，由 AGI 成员余雅玲（Yah-Leng Yu）领导，致力于为那些引领亚洲文化潮流的品牌构建识别系统与包装设计。",
+      "description_zh_hash": "6288238e13b925b7",
+      "description_zh_translator_v": 2,
       "domain": "www.foreignpolicy.design",
       "embed_type": "",
       "id": "k177akxcq7z8nwhng9dk8kcyy97vfcnc",
@@ -79673,6 +80096,9 @@
         }
       ],
       "title": "Foreign Policy",
+      "title_zh": "外交政策",
+      "title_zh_hash": "a946d654440976bd",
+      "title_zh_translator_v": 2,
       "url": "https://www.foreignpolicy.design/",
       "x_status_id": null
     },
@@ -79680,6 +80106,9 @@
       "category": "Social",
       "created_at": "2025-11-15T03:12:03.937119Z",
       "description": "see the difference? an obsession with the smallest design/details makes a great product. that's what i'm doing at @AsideAI",
+      "description_zh": "看到区别了吗？对最细微的设计/细节的执着，才能造就伟大的产品。这正是我在 @AsideAI 所做的事情。",
+      "description_zh_hash": "51ffab3302139270",
+      "description_zh_translator_v": 2,
       "domain": "x.com",
       "embed_type": "twitter",
       "id": "k17drnm0tmr58q6zr4m8k79vyx7vewth",
@@ -79702,6 +80131,9 @@
         }
       ],
       "title": "Chanhee (@hiddnest) on X",
+      "title_zh": "Chanhee (@hiddnest) 在 X 平台",
+      "title_zh_hash": "f571f5039856718e",
+      "title_zh_translator_v": 2,
       "url": "https://x.com/hiddnest/status/1989170666256626001?s=46",
       "x_status_id": "1989170666256626001"
     },
@@ -79743,6 +80175,9 @@
     },
     {
       "article_text": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC",
+      "article_text_zh": "（无实际文章内容，输出为空）",
+      "article_text_zh_hash": "4d1d8610d3426b31",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "cleaner_v": 2,
@@ -79770,6 +80205,9 @@
         }
       ],
       "title": "Anthropic admits that MCP sucks",
+      "title_zh": "Anthropic 承认 MCP 很糟糕",
+      "title_zh_hash": "7ff40e64b1145e91",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/1piFEKA9XL0?si=Gn0vShmY8y1p2LmC",
       "x_status_id": null
     },
