@@ -1313,48 +1313,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058516765546811392"
     },
-    "http://x.com/i/article/2058545115455758336": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058545115455758336",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058545115455758336/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJFsJNLbkAAuNuw?format=jpg&name=900x900)](http://x.com/i/article/2058545115455758336/yanhua1010/article/2058552177912947044/media/2058545410097254400)\n\nAgentic Design Patterns：一本让我重新理解\"Agent 到底是什么\"的书\n\n[![](https://pbs.twimg.com/profile_images/1998302113592713216/jbKruapM_normal.jpg)](http://x.com/i/article/2058545115455758336/yanhua1010)\n\n[Yanhua](http://x.com/i/article/2058545115455758336/yanhua1010)\n\n[@yanhua1010](http://x.com/i/article/2058545115455758336/yanhua1010)\n\n·\n\n9h\n\nFollow\n\nClick to Follow yanhua1010\n\n1\n\n32\n\n116\n\n[9.5K](http://x.com/i/article/2058545115455758336/yanhua1010/status/2058552177912947044/analytics)\n\nAntonio Gullí 是 Google 的工程总监。他写了本 453 页的书，把 AI Agent 开发拆成了 21 种设计模式。\n\n但这不是一篇书评。我读这本书的动机很具体：我写过 Harness Engineering，写过 Clawdbot 的踩坑经验，写过\"AI 智能体不是魔法\"那篇从烧 Token 到真正好用的七个转折，每次写完之后都有一个没完全想透的问题：这些东西背后有没有一套可以复用的底层逻辑？\n\n这本书给了我答案，而且比我想的更深。\n\n## \n\n你写的可能根本不是 Agent\n\n书里最狠的判断藏在 prologue 里。\n\n大多数人在用的\"AI\"，只是 Level 0：裸 LLM，没有工具、没有记忆、不会行动。你问它 2025 年奥斯卡最佳影片是哪部，它猜。书里说得很直白：Level 0 的东西，不是 Agent。\n\n往上走才是真 Agent。\n\nLevel 1：工具使用者。 Agent 开始用工具了：搜索、API、数据库。但它不光是\"能调接口\"，更要自己判断什么时候该调、调什么、结果怎么用。书里给了一个很具体的例子：用户问\"最近有什么新剧\"，Agent 自己意识到这条信息不在训练数据里，主动调搜索工具去找，然后合成结果。关键一步在\"自己意识到\"。不是人类告诉它\"你去搜一下\"，是它自己判断需要搜。这个判断能力，是 Level 1 的门槛。\n\nLevel 2：战略思考者。 多了两样东西：规划和 Context Engineering。书里定义了 Context Engineering：不做信息堆砌，做的是精心筛选、裁剪、打包上下文。例子很妙：用户要在两个地点中间找咖啡店。Agent 先调地图工具拿到一堆数据，然后自己判断\"下一步只需要街道名称\"，把地图输出裁剪成一个短列表，再喂给本地搜索工具。每一步都在做信息降噪。书里有一句话我反复看了几遍：\"要让 AI 达到最高准确率，必须给它短小、聚焦、有力的上下文。\" Context Engineering 就是干这件事的。\n\n到了这个级别，Agent 还能自我反思。干完活后自己审一遍，发现问题自己改。我后面会细讲。\n\nLevel 3：多 Agent 协作。 书的立场很明确：别老想着造一个全能 super agent。真正靠谱的做法是像搭团队一样，项目经理 Agent + 研究员 Agent + 设计师 Agent + 文案 Agent。书里举的例子是新产品发布：一个\"项目经理 Agent\"做总调度，下发任务给\"市场研究 Agent\"、\"产品设计 Agent\"、\"营销 Agent\"。关键是通信：Agent 之间怎么传数据、怎么同步状态、怎么处理冲突。这章画了六种通信拓扑结构，从最简单的单 Agent 到最灵活的自定义混合，每种适合什么场景都有说明。\n\n看完这四个等级，我突然明白为什么很多人说\"我的 Agent 不好用\"。模型没问题，问题是你在把它当聊天机器人用，它可能连 Level 1 都没到。\n\n[![Image](https://pbs.twimg.com/media/HJFvrmWasAAukQa?format=jpg&name=small)](http://x.com/i/article/2058545115455758336/yanhua1010/article/2058552177912947044/media/2058549299504656384)\n\n## \n\nContext Engineering：书里最被低估的概念\n\n我写过一篇 Harness Engineering，讲的是赛道的设计比引擎的马力更重要。看完这本书我发现，Context Engineering 就是 Harness Engineering 在 prompt 层面的映射。\n\n传统的 Prompt Engineering 只管\"你怎么问\"。书里的 Context Engineering 管的是\"问之前，Agent 的眼前摆着什么\"。它包括四层信息：\n\n第一层，system prompt。定义 Agent 是谁、什么语气、什么边界。大多数人只写了这一层。\n\n第二层，外部数据。RAG 检索到的文档、工具调用的返回值、实时 API 数据。这是大部分人卡住的地方：知道要喂数据，但不知道怎么喂才不会把模型淹没。\n\n第三层，隐式数据。用户身份、交互历史、环境状态。你没明说但 Agent 应该知道的东西。比如你跟 Agent 说\"帮我给 John 发邮件确认明天的会议\"，它应该知道你日历里明天的会议是什么、你和 John 是什么关系。\n\n第四层，反馈回路。Agent 每次输出之后，自动评估质量、调整下次的上下文策略。书里把这叫\"自动化的 context 优化\"，Google 的 Vertex AI Prompt Optimizer 就是这个思路的工程化实现。\n\n我读到这里的时候想起之前写那篇\"AI 智能体不是魔法\"，里面有一条经验是\"你的智能体需要规则，而且是很多规则\"。现在回头看，那些规则本质上就是 Context Engineering 的手工版，书里把它系统化了。\n\n[![Image](https://pbs.twimg.com/media/HJFxJJ-awAAA6G0?format=jpg&name=small)](http://x.com/i/article/2058545115455758336/yanhua1010/article/2058552177912947044/media/2058550906795507712)\n\n## \n\nReflection：两个 Agent 真的比一个好\n\n这是全书对我最有实战价值的一个 Pattern。\n\nReflection 的核心很简单：Agent 干完活后自己审一遍，发现问题自己改。但实现方式有讲究。书里明确说了：Producer 和 Critic 必须用两个不同的 Agent，给不同的 system prompt。 同一个 persona 审自己的东西，一定有盲区。你让同一个 LLM 先写代码再审查自己写的代码，它大概率会说\"挺好的\"。\n\n书里给了一个完整的代码示例。Producer 的 prompt 是\"你是一个 Python 开发者，写一个计算阶乘的函数，处理边界条件和异常\"。Critic 的 prompt 是\"你是一个吹毛求疵的高级工程师，逐行审查代码，检查 Bug、风格、遗漏的边界条件、可改进的地方。如果完美就输出 CODE\\_IS\\_PERFECT，否则列出所有问题\"。然后是一个 for 循环：Producer 写代码 → Critic 审 → Producer 根据意见改 → Critic 再审 → 直到 Critic 说 CODE\\_IS\\_PERFECT 或者达到最大迭代次数。\n\n就这么简单。但书里提醒了一个容易被忽略的成本问题：每次反射循环都是一次新的 LLM 调用，迭代次数越多越贵。而且随着对话历史膨胀，上下文窗口被前期版本和批评意见占满，实际可用的推理空间在缩小。所以 Reflection 的最佳实践是：设一个合理的最大迭代次数（书里用的是 3），一旦 Critic 满意就停，不要追求完美。\n\n用途远不止写代码。写文章、做计划、总结文档、解决逻辑题，Producer-Critic 模型全都能套。书里列了七种应用场景，核心逻辑一样：先产出，后审查，再修正。\n\n[![Image](https://pbs.twimg.com/media/HJFxDFRaUAAfmRL?format=jpg&name=small)](http://x.com/i",
-      "title": "",
-      "url": "http://x.com/i/article/2058545115455758336"
-    },
-    "http://x.com/i/article/2058549481314922496": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058549481314922496",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058549481314922496/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJF0VK4WIAAAJgE?format=jpg&name=900x900)](http://x.com/i/article/2058549481314922496/anorth%5Fchen/article/2058554497333407927/media/2058554411731787776)\n\n为什么你的agent项目总是难以落地\n\n[![](https://pbs.twimg.com/profile_images/1947562018355220480/5fhipelt_normal.jpg)](http://x.com/i/article/2058549481314922496/anorth%5Fchen)\n\n[North@CreaoAI![](https://pbs.twimg.com/profile_images/1825377522210746368/X8m9EvFN_bigger.jpg)](http://x.com/i/article/2058549481314922496/anorth%5Fchen)\n\n[@anorth\\_chen](http://x.com/i/article/2058549481314922496/anorth%5Fchen)\n\n·\n\n8h\n\nFollow\n\nClick to Follow anorth\\_chen\n\n2\n\n9\n\n58\n\n[18K](http://x.com/i/article/2058549481314922496/anorth%5Fchen/status/2058554497333407927/analytics)\n\n绝大部分agent项目在拿到业务正反馈之前，就被耗死在了手搓agent harness这些基础设施上\n\n很多人第一次被AI写代码震撼，都是因为Cursor或Claude Code。\n\n你让它修一个bug、重构一个模块、加一个功能，它真的会去读相关文件、跑测试、看报错、回头改。整个过程行云流水，让你感受到AI真的开始替代初级工程师了。\n\n然后你很快会冒出第二个念头：它底层用的不也是Claude吗？我也有Claude API。我是不是自己也可以做个agent来解决我的业务问题？\n\n两周之后，你做出来一个磕磕绊绊的东西。它有时候会调工具，有时候卡住不动。聊几轮context管理又出了问题。\n\n大家都有一样的模型，但是agent效果却天差地别。\n\n接下来很多人会犯第二个错误：以为问题出在prompt没调好，RAG没做好，或者是需要加个记忆模块。于是花一个月调prompt、加向量检索、在Opus和Sonnet之间来回切。\n\n效果比之前好了一些，但距离面向业务落地还差得远。\n\n问题其实出在了模型和你的应用之间那一层。也就是现在在AI行业越来越频繁讨论的术语：agent harness。\n\n这篇文章讲清楚三件事：\n\nLLM、agent harness、agent这三者之间的关系是什么；为什么此刻有几千个业务团队正在错误的战场上慢性死亡；以及，一旦你看清楚这三层，整个AI行业未来的发展格局会变得完全不一样。\n\n## \n\n一、agent的工程边界\n\n要理解Claude Code和你的agent之间的差距，得先把LLM、agent harness、agent这三层拆开。\n\n我用一个生理学类比，因为它非常贴合真实工程结构。\n\nLLM是大脑。\n\n它只能输入文字、输出文字。跟用户之间智力问答。\n\n你让它“读一下这个文件”，它自己做不到。你让它“运行这段代码看看输出”，它自己也做不到。你让它“等5秒再继续”，它甚至没有时间概念。它没有天然记忆，每一个会话都是从零开始。\n\n世界上最聪明的大脑，如果从颅骨里拿出来放在桌上，什么也干不了。\n\nAgent harness是身体和神经系统。它是大脑的手脚，为大模型提供了元能力。\n\n大脑说“我要看一下这个文件”，harness会去读文件系统，把内容塞回下一轮输入。大脑说“我要跑一下测试”，harness会运行一个临时sandbox执行命令，捕获stdout并回填结果。大脑说“我要等30秒再继续”，harness会执行sleep命令。\n\n具体到生产级系统，一个harness至少要包含这些东西：\n\n模型客户端，负责和LLM API通信、重试和成本控制；context组装，负责这一轮喂多少历史、压缩什么、保留什么；工具系统，负责定义工具、调用工具、并发执行、处理失败；执行环境，负责沙箱、文件系统和网络访问；状态和记忆，负责会话状态、长期记忆和checkpoint；调度循环，负责什么时候继续、什么时候结束、什么时候反思；身份和权限，负责这个agent代表谁、能动什么；可观测性，负责每一步记录、replay和debug；安全策略，负责拦危险操作、防prompt injection；再往下还有API接入层和部署基础设施。\n\n如果我们把agent看作新的软件范式，这些就是保证agent稳定性的基础设施。\n\nAgent是有职业的人。\n\n大脑+身体+一套针对特定工作训练出来的技能、知识、流程和判断标准，才构成一个真正的agent。\n\n律师是一种agent，会计师是另一种agent，外科医生是第三种agent。他们共享同样的人类生理结构，也就是类似的LLM和harness，但因为业务场景、领域知识、可用工具、成功标准完全不同，最后变成完全不同的职业。\n\n放到agent世界里也一样。一个销售agent和一个客服agent，可能底层用同一个Claude，跑在同一种harness上。但它们的产品形态、业务逻辑、领域prompt、连接的CRM或工单系统，这些“职业差异”，才最终决定了它们能否为用户提供价值。\n\n[![Image](https://pbs.twimg.com/media/HJFzV3BWcAAum5R?format=jpg&name=small)](http://x.com/i/article/2058549481314922496/anorth%5Fchen/article/2058554497333407927/media/2058553324069089280)\n\n这三层一拆开，你会发现一个非常常见的误解：\n\n很多人以为做agent=模型能力+一点prompt工程。\n\n这套理解漏掉了中间整整一层harness。而恰恰是这一层，决定了你能不能把模型的智力真正变成可用的产品。\n\n  \n## \n\n二、为什么Claude Code行，你的agent不行\n\n回到开头那个问题。\n\n同样是Claude，为什么Claude Code让你觉得“AI真的可以替代初级工程师”，而你自己用API搭出来的东西让你觉得“AI还差得远”？\n\n答案是：Claude Code赢在harness。\n\n具体到工程细节，Claude Code至少在下面这些地方做了你没做的事。而每一项都属于harness层，不属于模型层。\n\n上下文管理。\n\n当你在Claude Code里让它“修一下这个bug”，它知道当前打开的是哪个文件、最近编辑过哪些文件、git里有哪些未提交改动、相关依赖文件是什么、终端里最近一次报错是什么。\n\n这些信息都是Claude Code的harness在每一次请求之前帮你组装好的。\n\n你写demo的时候，多半是把整个项目目录塞进prompt里。结果模型很快被无关上下文淹没，开始犯各种低级错误。\n\n工具边界。\n\nClaude Code的“编辑文件”，不是让Claude生成一个完整新文件，然后覆盖原文件。\n\n这种做法在文件超过几百行必然失效。\n\n更合理的方式是一套精心设计的diff应用机制：模型只输出结构化补丁，harness负责把补丁干净地打到真实文件上，并且在补丁失败时回滚。这套机制本身就是harness设计的核心IP，不是模型能力。\n\n\\*错误恢复\n\n测试跑挂了，编译报错了，lint警告了，类型检查失败了，Claude Code会自动把这些反馈塞回模型的下一轮输入，让它继续修。\n\n这是orchestrator的能力。\n\n模型本身并不知道自己刚才那一步引发了什么后果。是harness把“后果”翻译给它。\n\n模型路由。\n\n看似简单的一次“修bug”，背后可能调用了几个不同模型：轻量模型做意图识别和文件检索，中等模型生成diff，更强模型做复杂推理。\n\n什么任务路由到什么模型，是harness在决策。\n\n隐性的prompt工程。Claude Code每次发给模型的system prompt、工具描述、few-shot examples，是大量工程投入反复打磨的结果。\n\n同样的模型，喂给它精心调过的几千字system prompt，和喂给它一句“你是一个编程助手”，效果当然是两种东西。\n\n还有一堆你很难在第一天想到的细节。\n\ntoken计数和成本控制，长会话怎么压缩，链接断开怎么重连，用户中途打断怎么停下，每一步生成的中间产物存在哪里。\n\n这十几个细节叠在一起，就是“能用”和“不能用”之间的鸿沟。\n\n所有这些，都不是模型越来越好就能解决的问题。\n\n都是harness工程。\n\n模型决定上限，harness决定兑现率。\n\n两个IQ完",
-      "title": "",
-      "url": "http://x.com/i/article/2058549481314922496"
-    },
-    "http://x.com/i/article/2058566884081958912": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058566884081958912",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058566884081958912/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJF_slhXUAAUGqi?format=jpg&name=900x900)](http://x.com/i/article/2058566884081958912/NebulaAI/article/2058601239307272486/media/2058566908648050688)\n\nHow to Run Multiple Agents in Parallel\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2055093023319461890/8WgixkWQ_normal.jpg)](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n[Nebula](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n[@NebulaAI](http://x.com/i/article/2058566884081958912/NebulaAI)\n\n·\n\n5h\n\nFollow\n\nClick to Follow NebulaAI\n\n1\n\n17\n\n[700](http://x.com/i/article/2058566884081958912/NebulaAI/status/2058601239307272486/analytics)\n\nOne agent does one task at a time.\n\nMultiple agents working in parallel can cut a 2-hr workflow down to 20 minutes.\n\nBut you'll run into a problem.\n\nMost people run multiple agents manually. Opening tabs, copy-pasting outputs, and tracking what's in progress.\n\nBy agent 5, you'll have lost all the time you saved.\n\nYOU become the bottleneck. \n\nThere's a better way to do this. \n\nLet's begin. Bookmark and save this to run multiple agents later.\n\n# \n\nWhy parallel beats sequential?\n\nThe default way most people work with AI is linear.\n\nAgent 1 finishes a task.\n\nYou hand its output to agent 2\\. \n\nAgent 2 finishes. You hand it to agent 3\\. So on and so forth.\n\nThis works but it's slow. \n\nQuick example: You need to figure out how to price your product. So you're running some research on your competitors. Each search means pulling their pricing page, identifying their tiers, seeing that's included, find conversion rates, etc. \n\nThe usual way: one agent grinds through all of it, one competitor at a time\n\nThe parallel way: multiple agents looking at multiple competitors.\n\n# \n\nHow to know when you should run agents in parallel?\n\nHere's a simple framework:\n\n> Think of it like cooking. You don't wait for the rice to finish before chopping the vegetables. If two tasks aren't waiting on each other, they can happen at the same time.\n\nBefore you build anything, map out your workflow.\n\nSometimes it's useful to actually list out each step and ask:\n\nDoes this need the output of the previous step?\n\n* If yes -> keep it sequential.\n* If not -> run it in parallel.\n\nExamples of parallel work: research, drafting variations, data collection, content repurposing, competitive analysis, outreach.\n\nExamples of sequential work: final QA, anything that synthesizes prior work, anything where the second step responds to the first.\n\nMost workflows are a mix. \n\nUsually the first 60% can be parallel. The last 40% has to be sequential because it's building on what came before.\n\nNow that you have this framework, you'll begin to spot 3 patterns everywhere for workflows.\n\n# \n\n3 types of parallel workflows\n\n1\\. Fan-out:\n\nOne input, multiple agents process it differently.\n\nExample: You have a new article. One agent writes the SEO version, another writes the X version, another writes the email version. All at the same time.\n\n2\\. Independent batch:\n\nOne agent, cloned multiple times. \n\nEach clone takes one input from a list and runs at the same time as the others. \n\nExample: You have 10 topics to research, so you spin up 10 copies of your research agent, one per topic, all going at once.\n\n3\\. Specialist swarm:\n\nDifferent agents handling different parts of one big deliverable.\n\nExample: You want to make a video. You hand your script off to your agents. One agent makes the video (using Seedance or Kling for example). Another does the SFX and music. Another design title cards. All working at once. Merged at the end.\n\n# \n\nThe hidden problem with parallel agents\n\nGoing parallel sounds great until you actually try it.\n\nMost people end up as a middleman managing chat. Routing work between agents. Tracking who's doing what. Holding all of the context in their heads.\n\nThe orchestration over",
-      "text_excerpt_zh": "## 如何并行运行多个 Agent\n\n[![图片](https://pbs.twimg.com/media/HJF_slhXUAAUGqi?format=jpg&name=900x900)](http://x.com/i/article/2058566884081958912/NebulaAI/article/2058601239307272486/media/2058566908648050688)\n\n一个 agent 一次只能处理一个任务。\n\n多个 agent 并行工作可以将 2 小时的工作流程缩短到 20 分钟。\n\n但你会遇到一个问题。\n\n大多数人手动运行多个 agent：打开标签页、复制粘贴输出、跟踪进度。\n\n到第 5 个 agent 时，你节省的时间就全白费了。\n\n**你** 成了瓶颈。\n\n有更好的方法。\n\n我们开始吧。收藏本文，以便日后运行多个 agent。\n\n## 为什么并行优于串行？\n\n大多数人使用 AI 的默认方式是线性的。\n\nAgent 1 完成任务。\n\n你将它的输出交给 agent 2。\n\nAgent 2 完成。你交给 agent 3。以此类推。\n\n这可行，但很慢。\n\n举个简单的例子：你需要确定产品定价。于是你研究竞争对手。每次搜索都要拉取他们的定价页面、识别层级、查看包含内容、找到转化率等。\n\n通常的方式：一个 agent 逐个处理所有竞争对手。\n\n并行方式：多个 agent 同时查看多个竞争对手。\n\n## 如何判断何时应并行运行 agent？\n\n这里有一个简单的框架：\n\n> 把它想象成做饭。你不会等米饭煮好再切菜。如果两个任务不相互依赖，它们就可以同时进行。\n\n在构建任何东西之前，先画出你的工作流程。\n\n有时，列出每个步骤并问自己一个问题会很有用：\n\n这一步是否需要上一步的输出？\n\n* 如果是 -> 保持串行。\n* 如果否 -> 并行运行。\n\n并行工作的例子：研究、草稿变体、数据收集、内容复用、竞争分析、外联。\n\n串行工作的例子：最终质量检查、任何综合先前工作成果的任务、任何第二步需要回应第一步的任务。\n\n大多数工作流程都是混合的。\n\n通常前 60% 可以并行。后 40% 必须是串行的，因为它建立在之前的工作之上。\n\n现在你有了这个框架，你会开始在工作流程中随处发现 3 种模式。\n\n## 3 种并行工作流程\n\n1. **扇出：**\n   一个输入，多个 agent 以不同方式处理。\n\n   示例：你有一篇新文章。一个 agent 写 SEO 版本，另一个写 X 版本，另一个写邮件版本。全部同时进行。\n\n2. **独立批量：**\n   一个 agent，克隆多次。\n\n   每个克隆从列表中获取一个输入，并与其他克隆同时运行。\n\n   示例：你有 10 个主题需要研究，于是你启动 10 个研究 agent 的副本，每个负责一个主题，全部同时进行。\n\n3. **专家集群：**\n   不同的 agent 处理一个大型交付物的不同部分。\n\n   示例：你想制作一个视频。你把脚本交给你的 agent。一个 agent 制作视频（例如使用 Seedance 或 Kling）。另一个负责音效和音乐。另一个设计标题卡。全部同时工作。最后合并。\n\n## 并行 agent 的隐藏问题\n\n并行听起来很棒，直到你真正尝试。\n\n大多数人最终成了管理聊天的中间人。在 agent 之间路由工作。跟踪谁在做什么。把所有上下文都记在脑子里。\n\n编排工作",
-      "text_excerpt_zh_hash": "fe37e6da5467f347",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058566884081958912"
-    },
     "http://x.com/i/article/2058604468850069504": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6406,6 +6364,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069182501759967232"
     },
+    "http://x.com/i/article/2069201811307917312": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069201811307917312",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069201811307917312"
+    },
     "http://x.com/i/article/2069368840409264128": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6418,6 +6389,32 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069368840409264128"
+    },
+    "http://x.com/i/article/2069392821774385152": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069392821774385152",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069392821774385152"
+    },
+    "http://x.com/i/article/2069487597584322560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069487597584322560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLhNA85WcAAo7Ie?format=jpg&name=900x900)](http://x.com/AlphaSignalAI/article/2069491246410911895/media/2069488707518754816)\n\nAfter Claude Fable 5 ban, Open Weights and Orchestration are the Hedge\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2014100845189529600/Ff1Xc28-_normal.jpg)](http://x.com/AlphaSignalAI)\n\n[AlphaSignal AI](http://x.com/AlphaSignalAI)\n\n[@AlphaSignalAI](http://x.com/AlphaSignalAI)\n\n·\n\n5h\n\nFollow\n\nClick to Follow AlphaSignalAI\n\n1\n\n4\n\n[731](http://x.com/AlphaSignalAI/status/2069491246410911895/analytics)\n\n## \n\nThe smartest model in your stack is the one nobody can take away from you\n\n> In \\~4 mins: the shutdown that started it, the two answers the market shipped in two weeks, where portability gets oversold, and a 3-question switch-off test for your own stack.\n\nOn June 12, the US government ordered Anthropic to pull Fable 5 and Mythos 5, its newest frontier models, three days after launch. Anthropic complied, and both went dark for every customer worldwide.\n\nThe lesson for anyone building on AI is blunt. A closed model you depend on can be revoked overnight, which makes portability worth more than raw capability.\n\nFable 5 didn't fall behind on a benchmark.\n\nIt got switched off by policy.\n\nAnd in the same two weeks, the market shipped its two answers: an open-weight model you can host yourself, and an orchestration layer that routes around any single provider.\n\n[![Image](https://pbs.twimg.com/media/HLhMUGoXYAAwZPR?format=jpg&name=small)](http://x.com/AlphaSignalAI/article/2069491246410911895/media/2069487937037754368)\n\n## \n\nA frontier model went dark in three days\n\nAnthropic launched Fable 5 and Mythos 5 on June 9\\. On June 12 at 5:21pm ET, an export-control directive landed and ordered access cut for every foreign national, worldwide.\n\nThere is no clean way to check nationality at the model level. So the only way to comply was to shut both models off for everyone.\n\nOpus 4.8, Sonnet, and Haiku kept running, so this was not an outage or a price hike. It was access, gone, for reasons that had nothing to do with how good the model was.\n\nThat is the failure mode most teams never plan for. You can budget for latency and cost, but you cannot budget for a government letter.\n\n## \n\nAnswer one: weights you can actually hold\n\nFour days later, GLM-5.2 arrived from \n\n[Z.ai](http://z.ai/)\n\n with the opposite property. It ships under an MIT license, with open weights on Hugging Face, a 753-billion-parameter mixture-of-experts model and a 1-million-token context window.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1970775077181411328/W8XKaUIh_normal.jpg)](http://x.com/Zai%5Forg)\n\nZ.ai\n\n@Zai\\_org\n\n·\n\n[Jun 16](http://x.com/Zai%5Forg/status/2066938937344495629)\n\nIntroducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong\n\nShow more\n\n[![Image](https://pbs.twimg.com/media/HK84LPRXQAA6x0_?format=jpg&name=small)](http://x.com/Zai%5Forg/status/2066938937344495629/photo/1)\n\n672\n\n2.6K\n\n12K\n\n[7M](http://x.com/Zai%5Forg/status/2066938937344495629/analytics)\n\nOn coding it lands in frontier territory: 62.1 on SWE-bench Pro, ahead of GPT-5.5 at 58.6 and behind Claude Opus 4.8 at 69.2\\. It runs at roughly one-sixth the cost, with a subscription starting at $12.60 a month.\n\nThe benchmark is not the point. The license is.\n\nA maker can deprecate an open-weight model, but once you have downloaded it, nobody can reach into your servers and revoke it.\n\n## \n\nAnswer two: a model that routes around the problem\n\nOn June 22, Sakana AI shipped Sakana Fugu, and it made the connection explicit. Fugu is one API sitting on a swappable pool of models, wi",
+      "title": "",
+      "url": "http://x.com/i/article/2069487597584322560"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -6532,26 +6529,6 @@
       "text_excerpt_zh": "",
       "title": "The AI Layoff Trap — Interactive Simulator",
       "url": "https://ailayoffs.rajnandan.com/?ref=sidebar"
-    },
-    "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "For thirty years we were glorified translators — business asked why, product defined what, engineering translated to how. AI just ate the translation step. The anatomy of the team that's left looks nothing like the one you have today.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
-      "frameable": null,
-      "image_urls": [
-        "https://ajeygore.in/assets/images/blog/og/the-anatomy-of-an-ai-native-org.png",
-        "https://ajeygore.in/assets/images/blog/the-anatomy-of-an-ai-native-org-old.svg",
-        "https://ajeygore.in/assets/images/blog/the-anatomy-of-an-ai-native-org-new.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "The org chart we never named\nThere’s a small group at the top deciding why — why we exist, why this market, why now. Below them, a slightly larger group deciding what — what to build, what to ship, what to cut. And underneath both of those, the broad middle of the company, the part where the headcount actually lives — the how. Engineers, project managers, scrum masters, tech leads, engineering managers, program managers, who took the what and translated it into code, into tickets, into deployments, into release notes, into Slack messages in #releases.\nI’ve been part of every layer. I’ve sat in the why room. I’ve run the what meetings. I’ve shipped a lot of how. I’ve also argued, for a long time and in a lot of rooms, that the middle of that pyramid was bigger than it needed to be — that leaders should be co-workers, not reviewers, and that managers who only managed were a tax the team paid for the privilege of having a status meeting. That argument never quite landed either. Same shape as [the one I lost about tests](https://ajeygore.in/content/the-tests-we-skipped) — the cost was paid in slow, distributed ways that nobody in the room wanted to add up.\nWhat’s on my mind a year into the agent shift is that the bill is finally getting itemised. And the line that’s getting cut is the one I’ve been pointing at for years.\nMost of what we did in the middle was translation.\nBusiness intent translated into product spec. Product spec translated into JIRA ticket. JIRA ticket translated into a branch name and a PR. PR translated into deployment. Deployment translated into a release note. Release note translated into a status update. Status update translated back upward into business language. Each step had its own ceremony, its own job title, its own meeting cadence. A whole industry of frameworks — Agile, SAFe, Spotify model, you name it — grew up around making the translation pipeline more efficient.\nWe were, mostly, glorified translators. I include myself in that. I include most of the best engineers I’ve worked with. The work was real and hard and required taste, but the shape of it was conversion. Take the thing in this language, output the thing in that language. Repeat.\nWhat AI actually ate\nThe agent conversation keeps getting framed as “AI replaces engineers” or “AI replaces customer service” or “AI replaces analysts.” All of those framings are slightly wrong. AI didn’t come for a job title. AI came for a task type, and the task type it came for was translation.\nIf your job was mostly converting one well-defined input into a well-defined output — natural language to SQL, requirements to code, ticket to PR, design spec to working component, log line to incident report, customer email to ticket — your task got compressed by an order of magnitude. Doesn’t matter what your title was. The task was translation. The task got cheap.\nThe two ends of the pipeline didn’t get cheap. Defining why — the business reason, the strategic call, the bet — is harder than ever, because the cost of executing on a bad why just dropped to nearly zero, which means more bad whys are going to ship, faster, with more confidence. Defining what — the product call, the cut decision, the “we will not build that even though we could” — is harder than ever, because the cheaper execution gets, the more options you have, and judgement under abundance is its own discipline.\nThe middle is what got eaten. And the middle is where most of the org chart lives.\nHold that honestly. Not as a doom story. As a fact about the shape of work.\nThe manager who doesn’t contribute\nHere’s a hard one, because it’s about people I’ve worked with and respected.\nA lot of engineering managers exist to coordinate translation. They run the standup. They unblock the ticket. They negotiate priority across teams. They write the status update. They translate engineering progress upward into business language and business priorities downward into engineering language.\nThat work was real. It was lo",
-      "text_excerpt_zh": "# 我们从未命名的组织架构图\n\n顶层有一小群人决定\"为什么\"——为什么存在，为什么选这个市场，为什么是现在。他们下面，稍大的一群人决定\"什么\"——构建什么，交付什么，砍掉什么。而在这两层之下，是公司的广阔中层，实际人头数所在的地方——\"怎么做\"。工程师、项目经理、Scrum Master、技术负责人、工程经理、项目群经理，他们把\"什么\"翻译成代码、工单、部署、发布说明、以及#releases频道里的Slack消息。\n\n每一层我都待过。我坐过\"为什么\"的会议室。我主持过\"什么\"的会议。我交付过大量\"怎么做\"。我也在很多房间里争论了很久，说那个金字塔的中层比实际需要的要大——说领导者应该是同事，而不是评审者，说那些只做管理的经理是团队为获得开状态会议的特权而缴纳的税。那个论点从未真正落地。和[我输掉的那场关于测试的争论](https://ajeygore.in/content/the-tests-we-skipped)形状一样——代价以缓慢、分散的方式支付，房间里没人愿意去加总。\n\n在智能体（agent）转变发生一年后的今天，我想到的是：账单终于被逐项列出了。而被砍掉的那一行，正是我多年来一直指着的那个。\n\n我们在中层做的大部分事情是翻译。\n\n业务意图翻译成产品规格。产品规格翻译成JIRA工单。JIRA工单翻译成分支名和PR。PR翻译成部署。部署翻译成发布说明。发布说明翻译成状态更新。状态更新再向上翻译回业务语言。每一步都有自己的仪式、自己的职位名称、自己的会议节奏。围绕如何让翻译流水线更高效，成长起了一整个框架产业——敏捷、SAFe、Spotify模型，你能想到的都有。\n\n我们，大多数时候，是美化了的翻译员。我把自己也算在内。我把大多数共事过的最优秀的工程师也算在内。工作真实且艰难，需要品味，但它的形状是转换。拿这种语言的东西，输出那种语言的东西。重复。\n\n## AI真正吃掉的是什么\n\n关于智能体（agent）的讨论一直围绕着\"AI取代工程师\"或\"AI取代客服\"或\"AI取代分析师\"来展开。所有这些框架都略有偏差。AI不是冲着某个职位来的。AI是冲着某类任务来的，而它盯上的那类任务就是翻译。\n\n如果你的工作主要是把定义良好的输入转换成定义良好的输出——自然语言转SQL、需求转代码、工单转PR、设计规格转工作组件、日志行转事件报告、客户邮件转工单——那么你的任务被压缩了一个数量级。你的头衔是什么并不重要。任务是翻译。翻译变便宜了。\n\n流水线的两端并没有变便宜。定义\"为什么\"——业务理由、战略决策、赌注——比以往更难，因为执行一个糟糕的\"为什么\"的成本几乎降到了零，这意味着更多糟糕的\"为什么\"将以更快的速度、带着更多信心被交付。定义\"什么\"——产品决策、砍掉什么、那句\"即使我们能做，我们也不会做\"——比以往更难，因为执行越便宜，你拥有的选项就越多，而在充裕条件下的判断力本身就是一门学科。\n\n中层被吃掉了。而中层正是大多数组织架构图所在的地方。\n\n请诚实地接受这一点。不是作为一个末日故事。而是作为关于工作形态的一个事实。\n\n## 不贡献的经理\n\n这是一个棘手的问题，因为它关乎我曾共事并尊重的人。\n\n很多工程经理的存在是为了协调翻译。他们主持站会。他们为工单扫清障碍。他们在团队间协商优先级。他们写状态更新。他们把工程进展向上翻译成业务语言，把业务优先级向下翻译成工程语言。\n\n那份工作是真实的。它曾",
-      "text_excerpt_zh_hash": "cb8f8fc1aa5531de",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Anatomy of an AI-Native Org - Ajey Gore",
-      "url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org"
     },
     "https://alignment.openai.com/validating-public-evals/": {
       "cleaner_v": 2,
@@ -6824,6 +6801,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
       "url": "https://arxiv.org/abs/2605.29307v1"
+    },
+    "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=UTF-8",
+      "description": "This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/",
+      "frameable": false,
+      "image_urls": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20412-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20412-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-2-100x89.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-1-100x134.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-4-100x99.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-3-100x133.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Artificial Intelligence](https://aws.amazon.com/blogs/machine-learning/)\n     Building a secure auth code flow setup using AgentCore Gateway with MCP clients\nIn modern development workflows, developers increasingly rely on agentic coding assistants such as [Kiro Integrated Development Environment (IDE)](https://kiro.dev/) to interact with remote tools and services. However, organizations require robust authentication mechanisms to provide secure, identity-verified access between these agentic coding assistants and enterprise [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) servers.\n[Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) is a fully managed service that helps you deploy, manage, and scale AI agents in production. One of its key components, the [AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html), provides a centralized entry point for routing and securing agent-to-tool communications. When an AI assistant makes a request to an MCP server through the Gateway, that request must be verified before it’s processed. This is known as inbound authentication. Only authorized users and agents can access the tools and services exposed by the MCP server. Organizations typically manage user identities through an identity provider (IdP), such as Okta, Microsoft Entra ID, or [Amazon Cognito](https://aws.amazon.com/cognito/), which authenticates users and issues security tokens that verify who they are.\nThis post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on [Amazon Bedrock AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html). By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.\nWhat you will learn\n- How auth code flow works with AgentCore Gateway as an MCP resource server.\n- Step-by-step configuration of your organization’s identity provider.\n- AgentCore Gateway inbound authentication setup.\n- Integration with Kiro IDE clients.\nSolution overview\nIn an inbound authorization code flow OAuth setup, the AgentCore Gateway acts as an MCP resource server that requires a valid identity token before allowing AI clients to access any tools.\nThe following diagram shows the end-to-end architecture for the authorization code flow with AgentCore Gateway, including the identity provider, AI client, and MCP server interactions.\nFigure 1: Authorization code flow architecture diagram.\nKey components\nThe solution involves the following components working together to complete the authentication flow:\n- Identity provider (IdP): Manages user authentication and issues tokens. The preceding diagram references Amazon Cognito, but it can be your organization’s IdP.\n- User: The end user who authenticates with the IdP and whose identity is verified for each request.\n- Amazon Bedrock AgentCore Gateway: Acts as the OAuth resource server, validating tokens and proxying requests to MCP servers.\n- Agentic coding assistant: Kiro IDE, which acts as the OAuth client and manages the authentication flow.\n- MCP server: Your backend tools and services that the AI assistant needs to access.\n- MCP OAuth proxy (optional): Helps bridge the gap of spec standardization between agentic coding assistants, IdPs, and MCP servers. An MCP OAuth proxy brings standardization that supports the authorization code flow.\nThe inbound authorization code flow\nThis flow makes sure that every request that the AI assistant sends to the MCP server is authenticated with a valid identity token belonging to the user.\n- MCP client connection – The agentic coding assistant (for example, Kiro IDE) initiates a connection to the AgentCore Gateway’s MCP endpoint.\n- Authentication chal",
+      "title": "Building a secure auth code flow setup using AgentCore Gateway with MCP clients | Artificial Intelligence",
+      "url": "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/"
     },
     "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg": {
       "cleaner_v": 2,
@@ -9009,44 +9006,6 @@
       "title": "Pi: The Minimal Agent Within OpenClaw | Armin Ronacher's Thoughts and Writings",
       "url": "https://lucumr.pocoo.org/2026/1/31/pi/"
     },
-    "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "AI speeds up writing code, but accountability and review capacity still impose hard limits.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "frameable": null,
-      "image_urls": [
-        "https://lucumr.pocoo.org/social/2026-02-13-the-final-bottleneck-social.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "written on February 13, 2026\nHistorically, writing code was slower than reviewing code.\nIt might not have felt that way, because code reviews sat in queues until someone got around to picking it up. But if you compare the actual acts themselves, creation was usually the more expensive part. In teams where people both wrote and reviewed code, it never felt like “we should probably program slower.”\nSo when more and more people tell me they no longer know what code is in their own codebase, I feel like something is very wrong here and it’s time to reflect.\nSoftware engineers often believe that [if we make the bathtub\nbigger](https://lucumr.pocoo.org/2020/1/1/async-pressure/), overflow disappears. It doesn’t.\n[OpenClaw](https://en.wikipedia.org/wiki/OpenClaw) right now has north of 2,500\npull requests open. That’s a big bathtub.\nAnyone who has worked with queues knows this: if input grows faster than throughput, you have an accumulating failure. At that point, backpressure and load shedding are the only things that retain a system that can still operate.\nIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the feeling. The in-store experience breaks down. You no longer know how many orders are ahead of you. There is no clear line, no reliable wait estimate, and often no real cancellation path unless you escalate and make noise.\nThat is what many AI-adjacent open source projects feel like right now. And increasingly, that is what a lot of internal company projects feel like in “AI-first” engineering teams, and that’s not sustainable. You can’t triage, you can’t review, and many of the PRs cannot be merged after a certain point because they are too far out of date. And the creator might have lost the motivation to actually get it merged.\nThere is huge excitement about newfound delivery speed, but in private conversations, I keep hearing the same second sentence: people are also confused about how to keep up with the pace they themselves created.\nHumanity has been here before. Many times over. We already talk about the\nLuddites a lot in the context of AI, but it’s interesting to see what led up to\nit. Mark Cartwright wrote a great [article about the textile\nindustry](https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/)\nin Britain during the industrial revolution. At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too. We saw the same thing in shipping that led\nto modern automated ports and containerization.\nAs software engineers we have been here too. Assembly did not scale to larger engineering teams, and we had to invent higher level languages. A lot of what programming languages and software development frameworks did was allow us to write code faster and to scale to larger code bases. What it did not do up to this point was take away the core skill of engineering.\nWhile it’s definitely easier to write C than assembly, many of the core problems are the same. Memory latency still matters, physics are still our ultimate bottleneck, algorithmic complexity still makes or breaks software at scale.\nWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput. [Pi](https://pi.dev/) is a great example of this. PRs are auto closed\nunless people are trusted. It takes [OSS\nvacations](https://x.com/badlogicgames/status/2021164603506368693). That’s one\noption: you just throttle the inflow. You push against your newfound powers\nuntil you can handle them.\nBut what if the speed continues to increase? What downstream of writing code do we have to speed up? Sure, the pull request review clearly turns into the bottleneck. But it cannot really be automated. If the machine writes the code, the machine better review the co",
-      "text_excerpt_zh": "written on February 13, 2026\n\n从历史上看，编写代码的速度一直慢于审查代码的速度。\n\n可能感觉并非如此，因为代码审查会一直积压在队列中，直到有人有空处理它。但如果你比较一下实际行为本身，创作通常才是更耗时的部分。在那些人们既编写又审查代码的团队里，从来没人觉得“我们或许应该写慢点”。\n\n所以，当越来越多人告诉我，他们不再知道自己代码库里有什么代码时，我感觉这里出了大问题，是时候反思了。\n\n软件工程师常常相信，[如果我们把浴缸做得更大](https://lucumr.pocoo.org/2020/1/1/async-pressure/)，溢出就会消失。但事实并非如此。\n\n[OpenClaw](https://en.wikipedia.org/wiki/OpenClaw) 目前有超过 2500 个拉取请求处于打开状态。那是一个很大的浴缸。\n\n任何处理过队列的人都知道这一点：如果输入的增长速度超过吞吐量，就会产生累积性故障。此时，背压和负载削减是维持系统仍能正常运行的唯一手段。\n\n如果你曾去过一家被手机订单淹没的星巴克，你就能体会那种感觉。店内体验会崩溃。你不再知道自己前面有多少订单。没有清晰的排队线，没有可靠的等待时间预估，通常也没有真正的取消途径，除非你升级投诉、大吵大闹。\n\n这就是许多与 AI 相关的开源项目现在的感受。而且，在越来越多的“AI 优先”工程团队中，内部公司项目也日益如此。这是不可持续的。你无法分类处理，无法审查，而且很多 PR 在某个时间点之后就无法合并了，因为它们已经过时太久。而创建者可能也失去了真正将其合并的动力。\n\n人们对新获得的速度感到无比兴奋，但在私下交谈中，我不断听到同样的第二句话：人们也困惑于如何跟上自己创造出的节奏。\n\n人类以前就经历过这种情况。很多次了。在 AI 的语境下，我们经常谈论卢德分子，但看看是什么导致了这一现象，也很有趣。Mark Cartwright 写了一篇关于工业革命期间英国[纺织业](https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/)的精彩文章。其核心是一个简单的想法：每当一个瓶颈被移除，创新就会发生在该环节的下游。\n\n织布速度加快了？纱线就成了制约因素。纺纱更快了？就需要改进纤维以支持新的速度，直到最终对棉花的需求上升，而棉花的生产也必须自动化。我们在航运中也看到了同样的情况，这导致了现代自动化港口和集装箱化的出现。\n\n作为软件工程师，我们也经历过这种情况。汇编语言无法扩展到更大的工程团队，于是我们不得不发明更高级的语言。编程语言和软件开发框架的许多作用，就是让我们能更快地编写代码，并扩展到更大的代码库。但直到现在，它们都没有夺走工程的核心技能。\n\n虽然编写 C 语言肯定比汇编容易，但许多核心问题是一样的。内存延迟仍然重要，物理定律仍然是我们的终极瓶颈，算法复杂度仍然决定软件在规模下的成败。\n\n当流水线的某一部分变得极其快速时，你需要限制输入。[Pi](https://pi.dev/) 就是一个很好的例子。除非人员可信，否则 PR 会被自动关闭。它需要 [OSS 假期](https://x.com/badlogicgames/status/2021164603506368693)。这是一种选择：你只是限制流入量。你对抗自己新获得的力量，直到能够驾驭它们。\n\n但如果速度继续提高呢？在编写代码的下游，我们需要加快什么？当然，拉取请求审查显然成了瓶颈。但它无法真正自动化。如果机器编写代码，那么最好让机器来审查代码。",
-      "text_excerpt_zh_hash": "59cffd9b98ae5d68",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Final Bottleneck | Armin Ronacher's Thoughts and Writings",
-      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/"
-    },
-    "https://lucumr.pocoo.org/2026/5/24/pi-oss/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Learnings from post-AI Open Source and how we’re approaching this so far.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
-      "frameable": null,
-      "image_urls": [
-        "https://lucumr.pocoo.org/social/2026-05-24-pi-oss-social.png",
-        "https://lucumr.pocoo.org/static/pi-issue-tracker-volume.png",
-        "https://lucumr.pocoo.org/static/pi-issue-session-widget.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "written on May 24, 2026\n[Pi](https://pi.dev/) is now part of Earendil, but in the important sense it is\nstill [Mario’s](https://mariozechner.at/) project. He has been living with its\nissue tracker longer than I have, and he has been exposed to the weirdness of\nthe new form of agent traffic in Open Source projects for longer too. This post\nis mostly a reflection of my own experience after spending more time in the\ntracker, using Pi to work on Pi, and watching what I have learned about it so\nfar.\nUnsurprisingly, we are using Pi to build Pi. That sounds like a cute dogfooding\nthing but it really helps understand what we do. An interesting effect of\nbuilding with agents is that it changes the role of the issue tracker a tiny\nbit. The issue descriptions are not just messages from a user to a maintainer\nbecause we also use them as inputs for prompts in Pi sessions. It is something\nI might hand to my clanker[1](https://lucumr.pocoo.org#fn-1) and say: “understand this, reproduce it, inspect\nthe code, and propose a fix.”\nThat means the shape of the issue matters in a new way. A bad issue was always annoying, but at least a lot of issues were vague. Now we are also dealing with a class of issues that are 5% human and 95% clanker-generated and largely inaccurate shit. A bad issue that contains a plausible but wrong diagnosis creates extra work.\nThe most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter.\nThat is worse than no diagnosis.\nI don’t want to point to specific issues because I really do not want to bad\nmouth anyone, but it is frustrating. It is also frustrating because when I give\nthat issue to Pi, Pi sees the wrong diagnosis too. It does not treat the issue\nbody as a rumor. It treats it as evidence. It will happily go down the path\nthat the issue already prepared for it, because the prose is confident and the\ncode references look plausible. We use a custom slash command called /is\n,\nwhich specifically has this instruction in it:\nDo not trust analysis written in the issue. Independently verify behavior and derive your own analysis from the code and execution path.\nUnfortunately, it does not fully work, because when humans first throw their issue through the clanker wringer, their clanker expands scope almost immediately. What was once a very narrow and fact based bug observation, turns into a much expanded surface area full of hypotheses. So at least personally, I increasingly want issue reports to be condensed to what the human actually observed:\n- I ran this command.\n- I expected this to happen.\n- This happened instead.\n- Here is the exact error or log.\nThat is enough. If you used an LLM to understand the problem, great, maybe leave it as a follow-up comment. But the issue and the issue text should be something you own. If you do not know the root cause, say that. I too can operate a clanker, and I would rather do this myself than use your slop. If your repro is a guess, say that. If the only hard fact is one stack trace, give me the stack trace and stop there.\nThat we’re seeing issues full of slop is just a result of the present day quality of these machines. Sadly, their failures in creating good issues extend to a lot of code that is generated. Not all of it, but a lot of code. Over and over I keep running into them over-engineering the hell out of issues and implementations.\nIf you tell them that “this malformed session log crashes the reader,” the clanker will often add a tolerant reader. Then it",
-      "text_excerpt_zh": "written on May 24, 2026\n[Pi](https://pi.dev/) 现已加入 Earendil，但从重要意义上说，它仍然是 [Mario 的](https://mariozechner.at/) 项目。他比我更早与它的 issue 追踪器打交道，也更早接触到开源项目中新型 agent 流量的怪异之处。这篇文章主要反映了我自己在追踪器中花费更多时间、使用 Pi 来开发 Pi，以及观察我至今所学到的东西后的个人体验。\n\n毫不意外，我们正在用 Pi 来构建 Pi。这听起来像是一个可爱的“吃自家狗粮”的做法，但它确实有助于理解我们所做的事情。使用 agent 进行构建的一个有趣效果是，它稍微改变了 issue 追踪器的角色。issue 描述不仅仅是用户给维护者的消息，因为我们也将其用作 Pi 会话中提示的输入。这就像是我可能会交给我的 clanker[1](https://lucumr.pocoo.org#fn-1) 的东西，并说：“理解这个，复现它，检查代码，并提出修复方案。”\n\n这意味着 issue 的形式以一种新的方式变得重要。一个糟糕的 issue 总是令人恼火，但至少很多 issue 是模糊的。现在，我们还要处理一类 issue，它们 5% 是人类写的，95% 是 clanker 生成的，而且大部分是严重不准确的垃圾。一个包含看似合理但错误诊断的糟糕 issue 会带来额外的工作。\n\n目前最令人沮丧的失败模式是，人们提交的 issue 并非出自他们自己的口吻。这些 issue 包含某个地方观察到的问题，但被扔进了一个 clanker，clanker 重新措辞后搞得一团糟。通常，提示写得非常糟糕，以至于得出的结论往往不准确，但总是充满自信。结果是完全猜测根本原因、虚假的最小复现、建议的实现策略、对相邻但往往是错误代码的类比，以及一长串可能相关也可能无关的错误类别。\n\n这比没有诊断更糟糕。\n\n我不想具体指出某个 issue，因为我真的不想说任何人的坏话，但这确实令人沮丧。同样令人沮丧的是，当我把那个 issue 交给 Pi 时，Pi 也看到了错误的诊断。它不会把 issue 正文当作谣言，而是当作证据。它会愉快地沿着 issue 已经准备好的路径走下去，因为行文自信，代码引用看起来也合理。我们使用一个名为 `/is` 的自定义斜杠命令，其中包含以下指令：\n\n> 不要相信 issue 中写的分析。独立验证行为，并根据代码和执行路径得出你自己的分析。\n\n不幸的是，这并不能完全奏效，因为当人类首先将他们的 issue 扔进 clanker 的“绞肉机”时，他们的 clanker 几乎立即扩大了范围。原本是一个非常狭窄且基于事实的 bug 观察，变成了一个充满假设的、范围大大扩展的表面区域。所以，至少就我个人而言，我越来越希望 issue 报告能浓缩为人类实际观察到的东西：\n\n- 我运行了这个命令。\n- 我期望发生这个。\n- 实际发生了这个。\n- 这是确切的错误或日志。\n\n这就够了。如果你使用了 LLM 来理解问题，那很好，也许可以把它作为后续评论留下。但 issue 和 issue 文本应该是你能够负责的东西。如果你不知道根本原因，就说出来。我也可以操作 clanker，我宁愿自己做这件事，也不愿使用你的垃圾。如果你的复现是猜测，就说出来。如果唯一确凿的事实是一个堆栈跟踪，那就给我堆栈跟踪，然后就此打住。\n\n我们看到充满垃圾的 issue，只是这些机器当前质量的一个结果。可悲的是，它们在创建好的 issue 方面的失败，也延伸到了它们生成的大量代码中。并非全部，但很多代码。我一次又一次地遇到它们过度设计 issue 和实现的情况。\n\n如果你告诉它们“这个格式错误的会话日志导致读取器崩溃”，clanker 通常会添加一个容错读取器。然后它",
-      "text_excerpt_zh_hash": "0dbcc5b36553af83",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Building Pi With Pi | Armin Ronacher's Thoughts and Writings",
-      "url": "https://lucumr.pocoo.org/2026/5/24/pi-oss/"
-    },
     "https://lucumr.pocoo.org/2026/6/6/communities-of-not/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9559,19 +9518,19 @@
       "title": "毒親育ちはなぜ「ADHDのような症状」が出るのか～脳科学と心理学が明かす、傷ついた脳の真実～｜龍汰(リュウタ)",
       "url": "https://note.com/rkpb_r/n/n9036d76cc1f3?sub_rt=share_b"
     },
-    "https://on.wsj.com/4g2RVII": {
+    "https://on.wsj.com/4uXL1rZ": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "fetch_error": "HTTP Error 401: HTTP Forbidden",
-      "final_url": "https://on.wsj.com/4g2RVII",
+      "final_url": "https://on.wsj.com/4uXL1rZ",
       "frameable": null,
       "image_urls": [],
       "kind": "unknown",
       "text_excerpt": "",
       "title": "",
-      "url": "https://on.wsj.com/4g2RVII"
+      "url": "https://on.wsj.com/4uXL1rZ"
     },
     "https://on.wsj.com/4w51efY": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -14067,20 +14026,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
     },
-    "https://pbs.twimg.com/media/HLgVWlDaIAAeqrk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLgVWlDaIAAeqrk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLgVWlDaIAAeqrk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLgVWlDaIAAeqrk.jpg"
-    },
     "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14094,6 +14039,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg"
+    },
+    "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg"
+    },
+    "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14277,22 +14250,6 @@
       "title": "How's Linear so fast? A technical breakdown",
       "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
     },
-    "https://pilcrow.ink/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Make your clanker your editor. A prose linter plus interpretive lenses anchored in classical style guides. AI-tell detection is one feature among many.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://pilcrow.ink/",
-      "frameable": null,
-      "image_urls": [
-        "https://pilcrow.ink/og.png",
-        "https://pilcrow.ink/og-square.png"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Pilcrow ¶: make your clanker your editor",
-      "url": "https://pilcrow.ink/"
-    },
     "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -14446,6 +14403,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Two LLM UI Patterns That Aren't Chat",
       "url": "https://poyo.co/note/20260525T094605/?ref=sidebar"
+    },
+    "https://productdesignpsychology.com/?ref=sidebar": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Understand the minds you design for and the mind you design with.",
+      "final_url": "https://productdesignpsychology.com/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://productdesignpsychology.com/assets/images/social-media.png",
+        "https://productdesignpsychology.com/assets/images/cover-art.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Product Design Psychology by Wouter de Bres",
+      "url": "https://productdesignpsychology.com/?ref=sidebar"
     },
     "https://proofeditor.ai": {
       "content_type": "text/html; charset=utf-8",
@@ -16838,20 +16810,6 @@
       "https://x.com/KSimback/status/2058579082787303622",
       "https://x.com/KSimback/status/2058579270419501154"
     ],
-    "2058552177912947044": [
-      "https://x.com/yanhua1010/status/2058552177912947044",
-      "http://x.com/i/article/2058545115455758336",
-      "https://x.com/yanhua1010/status/2058699035339522123"
-    ],
-    "2058554497333407927": [
-      "https://x.com/anorth_chen/status/2058554497333407927",
-      "http://x.com/i/article/2058549481314922496",
-      "https://x.com/anorth_chen/status/2058839486482808916"
-    ],
-    "2058559764708356226": [
-      "https://x.com/dingyi/status/2058569793456980151",
-      "https://coss.com/ui"
-    ],
     "2058571337614893489": [
       "https://x.com/UiSavior/status/2058571337614893489",
       "http://curated.design",
@@ -16876,23 +16834,6 @@
     "2058576773663567952": [
       "https://x.com/RetroChainer/status/2058576773663567952",
       "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg"
-    ],
-    "2058590229196329341": [
-      "https://x.com/mitsuhiko/status/2058590229196329341",
-      "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
-      "https://x.com/mitsuhiko/status/2058613995645403324",
-      "https://x.com/mitsuhiko/status/2058623790007955685",
-      "https://x.com/mitsuhiko/status/2058602085935951925",
-      "https://x.com/mitsuhiko/status/2058670265450520625",
-      "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "https://x.com/mitsuhiko/status/2058604562290806870",
-      "https://x.com/mitsuhiko/status/2058632866175611101"
-    ],
-    "2058601239307272486": [
-      "https://x.com/NebulaAI/status/2058601239307272486",
-      "http://x.com/i/article/2058566884081958912",
-      "https://x.com/NebulaAI/status/2058602003115200895",
-      "https://x.com/NebulaAI/status/2058924570439024649"
     ],
     "2058605103192371209": [
       "https://x.com/asdennison/status/2058605103192371209",
@@ -21473,8 +21414,8 @@
       "https://x.com/tomosman/status/2068751876972040610",
       "https://x.com/tomosman/status/2068752282133393656",
       "https://x.com/tomosman/status/2068822434594042001",
-      "https://x.com/tomosman/status/2068788003120529883",
-      "https://x.com/tomosman/status/2068788322953056525"
+      "https://x.com/tomosman/status/2068788322953056525",
+      "https://x.com/tomosman/status/2068788003120529883"
     ],
     "2068710057630371863": [
       "https://x.com/nathanbenaich/status/2068710057630371863",
@@ -21703,9 +21644,7 @@
       "https://smallstep.com/blog/everything-pki/",
       "https://x.com/iximiuz/status/2069361984101851479",
       "https://x.com/iximiuz/status/2069362161910939767",
-      "https://x.com/iximiuz/status/2069362056902463680",
-      "https://x.com/iximiuz/status/2069380554814812560",
-      "https://www.reddit.com/r/sysadmin/comments/1uc5yqm/for_those_in_companies_that_have_hundreds_of_vms/"
+      "https://x.com/iximiuz/status/2069362056902463680"
     ],
     "2069038610868064513": [
       "https://x.com/yibie/status/2069038610868064513",
@@ -21734,8 +21673,8 @@
     ],
     "2069056895420371049": [
       "https://x.com/brianchew/status/2069056895420371049",
-      "https://x.com/brianchew/status/2069431110791278706",
-      "https://pbs.twimg.com/media/HLgVWlDaIAAeqrk.jpg"
+      "https://x.com/brianchew/status/2069568305279725825",
+      "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg"
     ],
     "2069063987153846763": [
       "https://x.com/zehf/status/2069063987153846763",
@@ -21744,28 +21683,27 @@
       "https://x.com/zehf/status/2069441545523331227",
       "https://x.com/zehf/status/2069441757264404759",
       "https://x.com/zehf/status/2069443266119123195",
-      "https://x.com/zehf/status/2069443422688321896",
       "https://x.com/zehf/status/2069443893322813473",
+      "https://x.com/zehf/status/2069443422688321896",
       "https://x.com/zehf/status/2069441673286029558",
-      "https://x.com/zehf/status/2069444245866660105",
-      "https://x.com/zehf/status/2069441817393991770",
       "https://x.com/zehf/status/2069444084494930140",
       "https://x.com/zehf/status/2069444026278068467",
-      "https://x.com/zehf/status/2069444272374657170",
       "https://x.com/zehf/status/2069444183283368102",
+      "https://x.com/zehf/status/2069444245866660105",
       "https://x.com/zehf/status/2069444505229836517",
       "https://x.com/zehf/status/2069442100333269340",
+      "https://x.com/zehf/status/2069441817393991770",
+      "https://x.com/zehf/status/2069444272374657170",
       "https://x.com/zehf/status/2069444429522555178",
-      "https://x.com/zehf/status/2069443641849094335",
-      "https://x.com/zehf/status/2069443956405121347"
+      "https://x.com/zehf/status/2069079446133625256"
     ],
     "2069072425224970275": [
       "https://x.com/SidebarIO/status/2069072425224970275",
       "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar",
       "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg",
-      "https://x.com/SidebarIO/status/2069434813262516367",
-      "https://aresluna.org/show-your-hands-honor/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg"
+      "https://x.com/SidebarIO/status/2069460733524390292",
+      "https://productdesignpsychology.com/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg"
     ],
     "2069078422115278912": [
       "https://x.com/BrainsAndTennis/status/2069078422115278912"
@@ -21775,13 +21713,13 @@
       "http://x.com/i/article/2068970770357792768",
       "https://x.com/KSimback/status/2069099720727773433",
       "https://x.com/KSimback/status/2069128338816327847",
-      "https://x.com/KSimback/status/2069090562330796117",
-      "https://x.com/KSimback/status/2069404959834017968",
       "https://x.com/KSimback/status/2069398085868851228",
       "https://x.com/KSimback/status/2069080559595253831?s=20",
+      "https://x.com/KSimback/status/2069404959834017968",
+      "https://x.com/KSimback/status/2069090562330796117",
       "https://x.com/KSimback/status/2069390366562812394",
-      "https://x.com/KSimback/status/2069146160124616939",
       "https://x.com/KSimback/status/2069086662664077694",
+      "https://x.com/KSimback/status/2069146160124616939",
       "https://x.com/KSimback/status/2069299661324828680",
       "https://x.com/KSimback/status/2069094866047385800",
       "https://x.com/KSimback/status/2069299723505381784"
@@ -21812,13 +21750,14 @@
     ],
     "2069107400297390175": [
       "https://x.com/nifinet/status/2069107400297390175",
-      "http://x.com/i/article/2069093218839592960"
+      "http://x.com/i/article/2069093218839592960",
+      "https://x.com/nifinet/status/2069540236225581537"
     ],
     "2069107648486646108": [
       "https://x.com/VKazulkin/status/2069107648486646108",
       "https://www.hollandtech.net/claude-is-not-your-architect",
-      "https://x.com/VKazulkin/status/2069121992863998137",
-      "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org"
+      "https://x.com/VKazulkin/status/2069450910833480100",
+      "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/"
     ],
     "2069107865219166548": [
       "https://x.com/NicholasPuru/status/2069107865219166548",
@@ -21830,9 +21769,9 @@
       "https://x.com/SidebarIO/status/2069107911188484140",
       "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar",
       "https://pbs.twimg.com/media/HLbyrhLXgAAmIJt.jpg",
-      "https://x.com/SidebarIO/status/2069434813262516367",
-      "https://aresluna.org/show-your-hands-honor/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg"
+      "https://x.com/SidebarIO/status/2069460733524390292",
+      "https://productdesignpsychology.com/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg"
     ],
     "2069108412453908791": [
       "https://x.com/GoogleAIStudio/status/2069108412453908791",
@@ -21848,21 +21787,20 @@
       "https://x.com/pbakaus/status/2069225824235245795",
       "https://x.com/pbakaus/status/2069184653068788007",
       "https://x.com/pbakaus/status/2069120640825864436",
-      "https://x.com/pbakaus/status/2069178467149832598",
-      "https://x.com/pbakaus/status/2069419888159187023",
-      "https://x.com/pbakaus/status/2069419968542937176",
-      "https://x.com/pbakaus/status/2069226457113751645",
-      "https://x.com/pbakaus/status/2069158291431899438",
-      "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069437728622825791",
+      "https://x.com/pbakaus/status/2069226457113751645",
+      "https://x.com/pbakaus/status/2069419888159187023",
+      "https://x.com/pbakaus/status/2069178467149832598",
       "https://x.com/pbakaus/status/2069415365436919841",
-      "https://x.com/pbakaus/status/2069189872632668358",
-      "https://x.com/pbakaus/status/2069449663468753094",
-      "https://x.com/pbakaus/status/2069417896384864476",
-      "https://x.com/pbakaus/status/2069157573505560915",
+      "https://x.com/pbakaus/status/2069158291431899438",
+      "https://x.com/pbakaus/status/2069510978262499595",
+      "https://x.com/pbakaus/status/2069136547157606517",
+      "https://x.com/pbakaus/status/2069118996675485839",
       "https://x.com/pbakaus/status/2069178619495326092",
-      "https://x.com/pbakaus/status/2069277055158730995",
-      "https://pilcrow.ink/"
+      "https://x.com/pbakaus/status/2069449663468753094",
+      "https://x.com/pbakaus/status/2069155082919432680",
+      "https://x.com/pbakaus/status/2069277676612006300",
+      "https://x.com/pbakaus/status/2069161200479522985"
     ],
     "2069113212054757437": [
       "https://x.com/Kylejung25/status/2069113212054757437",
@@ -21882,8 +21820,8 @@
       "https://x.com/ArchiveExplorer/status/2069140112898765064",
       "http://x.com/i/article/2069100625170661376",
       "https://x.com/ArchiveExplorer/status/2069469665038922129",
-      "https://x.com/ArchiveExplorer/status/2069143331926364477",
-      "https://x.com/ArchiveExplorer/status/2069145588919120110"
+      "https://x.com/ArchiveExplorer/status/2069145588919120110",
+      "https://x.com/ArchiveExplorer/status/2069143331926364477"
     ],
     "2069151402698432860": [
       "https://x.com/PawelHuryn/status/2069151402698432860"
@@ -21908,12 +21846,12 @@
     "2069228960483860688": [
       "https://x.com/WSJopinion/status/2069228960483860688",
       "https://on.wsj.com/4w51efY",
-      "https://x.com/WSJopinion/status/2069457997135270030",
-      "https://on.wsj.com/4g2RVII"
+      "https://x.com/WSJopinion/status/2069510844598149154",
+      "https://on.wsj.com/4uXL1rZ"
     ],
     "2069257361408008507": [
       "https://x.com/ArpitGuptaji19/status/2069257361408008507",
-      "https://x.com/ArpitGuptaji19/status/2069245511572332940"
+      "https://x.com/ArpitGuptaji19/status/2069466550235492742"
     ],
     "2069283531210268932": [
       "https://x.com/rememberlenny/status/2069283531210268932"
@@ -21921,8 +21859,24 @@
     "2069374432947356125": [
       "https://x.com/nurijanian/status/2069374432947356125",
       "http://x.com/i/article/2069368840409264128"
+    ],
+    "2069413003897012435": [
+      "https://x.com/jasonzhou1993/status/2069413003897012435",
+      "http://x.com/i/article/2069392821774385152"
+    ],
+    "2069431041375285654": [
+      "https://x.com/danywander/status/2069431041375285654"
+    ],
+    "2069455716478603536": [
+      "https://x.com/dbreunig/status/2069455716478603536",
+      "http://x.com/i/article/2069201811307917312",
+      "https://x.com/dbreunig/status/2069475733794406853"
+    ],
+    "2069491246410911895": [
+      "https://x.com/AlphaSignalAI/status/2069491246410911895",
+      "http://x.com/i/article/2069487597584322560"
     ]
   },
-  "updated_at": "2026-06-23T19:19:15Z",
+  "updated_at": "2026-06-24T00:11:35Z",
   "window": "recent"
 }
