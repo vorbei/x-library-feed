@@ -6531,6 +6531,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069525633106165760"
     },
+    "http://x.com/i/article/2069576249614508032": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069576249614508032",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069576249614508032"
+    },
     "http://x.com/i/article/2069582204607614976": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6543,6 +6556,58 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069582204607614976"
+    },
+    "http://x.com/i/article/2069609628435144704": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069609628435144704",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069609628435144704"
+    },
+    "http://x.com/i/article/2069671539902177280": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069671539902177280",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069671539902177280"
+    },
+    "http://x.com/i/article/2069757298189176833": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069757298189176833",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\nYour narrative is not enough\n\n[![](https://pbs.twimg.com/profile_images/2053858035450212352/KlJup4vN_normal.jpg)](http://x.com/abigailcarlson%5F)\n\n[abi![](https://pbs.twimg.com/profile_images/1992943191796936704/z5vn697s_bigger.jpg)](http://x.com/abigailcarlson%5F)\n\n[@abigailcarlson\\_](http://x.com/abigailcarlson%5F)\n\n·\n\n2h\n\n·\n\nFollow\n\nClick to Follow abigailcarlson\\_\n\n2\n\n[67](http://x.com/abigailcarlson%5F/status/2069757815988551972/analytics)\n\nI can't tell you the amount of times I hear tech C-suites say things like, \"we just have to find the right narrative and the product will take off\". What they're right about is that narrative is foundational. You won't get anywhere without a powerful narrative. But what they're wrong about is the belief that the product will automatically take off. This is why I tell founders they need two things: 1\\. The right narrative 2\\. The execution to match The right narrative isn't easy to find, but it's fun to find. It's an inherently creative and strategic process where you look at everything from product functionality and competitor landscape to deep diving your audience: what do they care about, fear, desire, etc. Finding the right words and ideas to speak to your audience is fun. Is it contrived? Yes. But that's the nature of the game. Almost everything you look at on a screen is contrived. The way I see it, there are amazing companies out there who deserve to have their voices heard in a sea of noise. Finding the right narrative is necessary to help them stand out. The execution, though, is another story. I'd like to flag two things you want to avoid at all costs: 1\\. A narrative you don't have the capacity to support. I've seen founders shill narratives about their companies and products that they were in nooo measure of supporting whatsoever. What usually happens is that they ride the wave for a while, until reality catches up with them. Unless they manage to use the narrative to raise and then build out the right resources, this is a risky move. 2\\. Not updating your brand/narrative when you pivot. Early stage tech pivots frequently. It's not an anomaly, it's an expectation. If your pivot doesn't change your overall mission or ICP, you don't need to rebrand. But if your pivot radically changes what you're building, please please, for the love of God, freshen it up. I once worked with a team focused on B2B that then pivoted into retail DeFi communities after I stopped working with them. They kept the exact same branding, continued sharing in the same way, etc, and it just confused everyone. It's best in situations like that to do a full brand reset. With existing AI tools, it's not that hard to do. Remember that clarity is better than perfection at this stage. Your visuals don't need to come from a $25k/month sexy design agency. They just need to be consistent and show that you have a clear direction. Authenticity speaks volumes. People don't expect perfection. But they do value trust. And when expect you to keep your word. So yes, find the right narrative. This is a big part of my work and has been for years. You absolutely need it. But if want to win big, let this be your reality check. You need to also make sure your execution and your mission match the narrative you’re sharing. I promise it’ll be worth it.\n\n* [![](https://pbs.twimg.com/profile_images/2053858035450212352/KlJup4vN_normal.jpg)](http://x.com/abigailcarlson%5F)  \n[abi![](https://pbs.twimg.com/profile_images/1992943191796936704/z5vn697s_bigger.jpg)](http://x.com/abigailcarlson%5F)  \n[@abigailcarlson\\_](http://x.com/abigailcarlson%5F)  \nFollow  \nClick to Follow abigailcarlson\\_  \nfintech brand strategist. growing plants + companies.  \n[@brix\\_money](http://x.com/brix%5Fmoney)  \n[@consensys](http://x.com/consensys)  \n[@celo](http://x.com/celo)  \n[@decryptmedia](http://x.com/decryptmedia)  \n[@internetbkclub](",
+      "title": "",
+      "url": "http://x.com/i/article/2069757298189176833"
+    },
+    "http://x.com/i/article/2069761815932768256": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069761815932768256",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069761815932768256"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -9329,34 +9394,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "High-agency strategy || Matt Ström-Awn, designer-leader",
       "url": "https://mattstromawn.com/writing/high-agency-strategy/"
-    },
-    "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Agents and assistants all depend on search to provide accurate, relevant information before generating a response. The demands on search systems are changing rapidly, and open source search platforms like OpenSearch must evolve to adapt to these needs. Jon, Trey, and Doug will discuss what the \"future\" of search engines may look like, and how OpenSearch is evolving to meet these needs.",
-      "final_url": "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era",
-      "frameable": false,
-      "image_urls": [
-        "https://maven.com/api/og/free-lesson/4ead42?v=rbe8jau68z",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd3fe4umbwqdrlj.cloudfront.net%2Fmarketplace%2Fcategories%2Fbg.png&w=1536&q=75",
-        "https://maven.com/_next/image?url=%2Fapi%2Fog%2Ffree-lesson%2F4ead42%3Fv%3Drbe8jau68z&w=1536&q=75",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=1536&q=75",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=1536&q=75",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FomzABXNQbOunn6UlOHbL_jon.jpeg&w=1536&q=75",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FUy27aL1SuinwcENgyNsg_trey-headshot-2018.jpg&w=1536&q=75",
-        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2F542C170CTyWZKBb3BrSE_doug.jpg&w=1536&q=75",
-        "https://asset.brandfetch.io/idiUHtjsYt/idV_uojUwe.svg",
-        "https://asset.brandfetch.io/idkKwm0IT0/idklqyFZ_8.svg",
-        "https://asset.brandfetch.io/idAgPm7IvG/id85L14isQ.svg",
-        "https://asset.brandfetch.io/idRrcMU04X/idPe8dAyv6.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Maven for Business Teach on Maven Log In Courses Workshops Free lessons AI All courses in AI Agentic AI Coding with AI AI Workflows Claude Code OpenClaw Vibe Coding AI Evals AI Transformation RAG & Search MCP AI for PMs AI for Engineers AI for Designers AI for Marketers AI for Founders Product All courses in Product AI for PMs Agentic AI AI Evals Vibe Coding Product Sense Product Discovery User Research Prototyping Growth Analytics Tech Foundations Strategy Influence Leadership Career Growth Engineering All courses in Engineering AI for Engineers Agentic AI Coding with AI Claude Code OpenClaw MCP RAG & Search AI Evals Machine Learning LLM Ops Context Eng Security System Design Leadership Career Growth Design All courses in Design AI for Designers Agentic AI Vibe Coding Prototyping Figma Design Systems User Research Product Discovery UX UI Visual Design Design Strategy Influence Leadership Career Growth Marketing All courses in Marketing AI for Marketers Agentic AI Vibe Coding Automation Content Marketing Demand Gen Go-to-Market Product Marketing Positioning Social Media Brand B2B Marketing SEO & AEO Strategy Leadership Leadership All courses in Leadership AI for Leaders Agentic AI AI Transformation AI Governance Communication Influence Strategy Management People Operations Exec Presence Storytelling Goal-setting Personal Brand Career Growth Founders All courses in Founders AI for Founders Agentic AI AI Workflows Vibe Coding Prototyping Product Sense Positioning Product Discovery Management Strategy Go-to-Market Personal Brand Leadership Fundraising PMF More All courses in More Everyone Operators Data Scientists Business Analysts User Researchers Customer Success Project Managers HR Professionals Sales People Lawyers Finance Investors Real Estate Educators Creators Free Lesson How OpenSearch is Evolving in the AI Era Part of The Frontier of AI Search • Hosted by Jon Handler, Trey Grainger, and Doug Turnbull Learn directly from Jon Handler, Trey Grainger, and Doug Turnbull Watch this lesson for free Sign up By continuing, you agree to Maven's Terms and Privacy Policy . Watch this lesson for free 55 students By continuing, you agree to Maven's Terms and Privacy Policy . Share this lesson Copy link Share this lesson Copy link Go deeper with a course AI-Powered Search: Modern Retrieval for Humans & Agents Trey Grainger and Doug Turnbull Founder, Searchkernel. Author, \"AI-Powered Search\". 18+ years leading search.. Principal Search Engineer, Author of \"AI-Powered Search\" & \"Relevant Search\". View syllabus 55 students Share this lesson Copy link Share this lesson Copy link Go deeper with a course AI-Powered Search: Modern Retrieval for Humans & Agents Trey Grainger and Doug Turnbull Founder, Searchkernel. Author, \"AI-Powered Search\". 18+ years leading search.. Principal Search Engineer, Author of \"AI-Powered Search\" & \"Relevant Search\". View syllabus What you'll learn Words, vectors, and agent loops Lexical. Semantic. Hybrid. Agents that add iterative retrieval loops that refine results across steps. What's next... Memory, context, and personalization Learn about OpenSearch's evolving agentic memory capabilities and how to employ them for personalization and chat. Search is no longer a standalone feature How vector storage, hybrid search, semantic enrichment, memory management, and agents must all integrate going forward. Why this topic matters Agents and assistants all depend on search to provide accurate, relevant information before generating a response. The demands on search systems are changing rapidly, and open source search platforms like OpenSearch must evolve to adapt to these needs. Jon, Trey, and Doug will discuss what the \"future\" of search engines may look like, and how OpenSearch is evolving to meet these needs. You'll learn from Jon Handler Building OpenSearch at AWS; Author of \"The Definitive Guide to OpenSearch\" Jon Handler is Senior Principal Solutions Architect at Amazon Web Services based in Palo Alto, CA. Jon wor",
-      "text_excerpt_zh": "# 人工智能时代，OpenSearch 如何演进\n\n*属于《搜索前沿：AI 时代》系列 • 由 Jon Handler、Trey Grainger 和 Doug Turnbull 主持*\n\n## 向 Jon Handler、Trey Grainger 和 Doug Turnbull 直接学习\n\n**免费观看本课程**\n\n继续即表示您同意 Maven 的条款与隐私政策。\n\n**免费观看本课程**\n\n55 名学生\n\n继续即表示您同意 Maven 的条款与隐私政策。\n\n**分享本课程**\n\n复制链接\n\n**深入学习的课程**\n\n## AI 驱动的搜索：面向人类与智能体的现代检索\n\n**Trey Grainger 和 Doug Turnbull**\n\nSearchkernel 创始人，《AI 驱动的搜索》作者，18 年以上搜索领域领导经验；首席搜索工程师，《AI 驱动的搜索》与《相关搜索》作者。\n\n查看课程大纲\n\n55 名学生\n\n## 你将学到什么\n\n**词、向量与智能体循环**\n词法检索、语义检索、混合检索。智能体通过迭代检索循环，在多个步骤间不断优化结果。\n\n**下一步……记忆、上下文与个性化**\n了解 OpenSearch 不断演进的智能体记忆能力，以及如何将其用于个性化和对话场景。\n\n**搜索不再是独立功能**\n向量存储、混合搜索、语义增强、记忆管理和智能体必须全面整合。\n\n## 为什么这个话题至关重要\n\n智能体和助手都依赖搜索来获取准确、相关的信息，然后才能生成响应。对搜索系统的需求正在快速变化，像 OpenSearch 这样的开源搜索平台必须不断演进以适应这些需求。Jon、Trey 和 Doug 将探讨搜索引擎的\"未来\"可能是什么样子，以及 OpenSearch 如何演进以满足这些需求。\n\n## 你将向 Jon Handler 学习\n\n**在 AWS 构建 OpenSearch；《OpenSearch 权威指南》作者**\n\nJon Handler 是亚马逊云科技（Amazon Web Services）的高级首席解决方案架构师，常驻加州帕洛阿尔托。",
-      "text_excerpt_zh_hash": "685a1b80f21009d2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How OpenSearch is Evolving in the AI Era",
-      "url": "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era"
     },
     "https://mechanical-pencil.com/?ref=sidebar": {
       "content_type": "text/html",
@@ -14137,6 +14174,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
     },
+    "https://pbs.twimg.com/media/HLgCy2yXQAAirIx.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLgCy2yXQAAirIx.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLgCy2yXQAAirIx.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLgCy2yXQAAirIx.jpg"
+    },
     "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15837,6 +15888,20 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05"
     },
+    "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek"
+    },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -15864,6 +15929,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://www.bloomberg.com/news/newsletters/2026-06-17/us-order-on-anthropic-models-signals-new-era-for-ai-controls?taid=6a32c55647689a0001d23679&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.bloomberg.com/opinion/articles/2026-06-24/anthropic-saga-shows-the-worst-way-to-regulate-ai?taid=6a3babd44ea26f000157eaca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.bloomberg.com/opinion/articles/2026-06-24/anthropic-saga-shows-the-worst-way-to-regulate-ai?taid=6a3babd44ea26f000157eaca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-06-24/anthropic-saga-shows-the-worst-way-to-regulate-ai?taid=6a3babd44ea26f000157eaca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
     },
     "https://www.browserbase.com/blog/browser-agent-autonomy-levels": {
       "cleaner_v": 2,
@@ -22321,6 +22400,7 @@
       "https://x.com/Alfred_Lin/status/2069415761907778032",
       "http://x.com/i/article/2069110843791540224",
       "https://x.com/Alfred_Lin/status/2069456323125842189",
+      "https://x.com/Alfred_Lin/status/2069779100613648752",
       "https://x.com/Alfred_Lin/status/2069456127063101645"
     ],
     "2069419399648288928": [
@@ -22381,19 +22461,19 @@
       "https://x.com/realJessyLin/status/2069479650854891670",
       "https://x.com/realJessyLin/status/2069484772477526111",
       "https://x.com/realJessyLin/status/2069477907064660134",
-      "https://x.com/realJessyLin/status/2069567221731659897",
       "https://x.com/realJessyLin/status/2069566797385535622",
+      "https://x.com/realJessyLin/status/2069567221731659897",
       "https://x.com/realJessyLin/status/2069567573365317836",
-      "https://x.com/realJessyLin/status/2069477705255678064",
-      "https://x.com/realJessyLin/status/2069703862513181138",
-      "https://x.com/realJessyLin/status/2069482500536340657",
-      "https://x.com/realJessyLin/status/2069480472317743433",
       "https://x.com/realJessyLin/status/2069477864668590292",
+      "https://x.com/realJessyLin/status/2069477705255678064",
+      "https://x.com/realJessyLin/status/2069482500536340657",
+      "https://x.com/realJessyLin/status/2069703862513181138",
+      "https://x.com/realJessyLin/status/2069480472317743433",
       "https://x.com/realJessyLin/status/2069495967037186183",
       "https://x.com/realJessyLin/status/2069476858232766926",
       "https://x.com/realJessyLin/status/2069578515385926079",
-      "https://x.com/realJessyLin/status/2069567617854324976",
       "https://x.com/realJessyLin/status/2069567830434132194",
+      "https://x.com/realJessyLin/status/2069567617854324976",
       "https://x.com/realJessyLin/status/2069484915146752106"
     ],
     "2069477103091831260": [
@@ -22412,9 +22492,15 @@
     "2069505318120497198": [
       "https://x.com/0xblacklight/status/2069505318120497198"
     ],
+    "2069523639767085124": [
+      "https://x.com/KyleSamani/status/2069523639767085124"
+    ],
     "2069526264172699698": [
       "https://x.com/YourVibeGuy/status/2069526264172699698",
       "http://x.com/i/article/2069525633106165760"
+    ],
+    "2069532034377396331": [
+      "https://x.com/castformai/status/2069532034377396331"
     ],
     "2069555025345700221": [
       "https://x.com/nifinet/status/2069555025345700221"
@@ -22423,8 +22509,12 @@
       "https://x.com/softwaredoug/status/2069582981316923772",
       "http://maven.com/search-school/ai-powered-search",
       "https://x.com/softwaredoug/status/2069583076024365273",
-      "https://x.com/softwaredoug/status/2069458655754191297",
-      "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era"
+      "https://x.com/softwaredoug/status/2069781437545431416"
+    ],
+    "2069585746617667844": [
+      "https://x.com/HSBhandari955/status/2069585746617667844",
+      "http://x.com/i/article/2069576249614508032",
+      "https://x.com/HSBhandari955/status/2069585951551291610"
     ],
     "2069586039606542354": [
       "https://x.com/tonygentilcore/status/2069586039606542354",
@@ -22439,8 +22529,34 @@
       "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/",
       "https://x.com/9hills/status/2069619255843422439",
       "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg"
+    ],
+    "2069624819579257051": [
+      "https://x.com/clairevo/status/2069624819579257051",
+      "http://x.com/i/article/2069609628435144704"
+    ],
+    "2069709866940424356": [
+      "https://x.com/nurijanian/status/2069709866940424356",
+      "http://x.com/i/article/2069671539902177280"
+    ],
+    "2069723489569808648": [
+      "https://x.com/business/status/2069723489569808648",
+      "https://www.bloomberg.com/opinion/articles/2026-06-24/anthropic-saga-shows-the-worst-way-to-regulate-ai?taid=6a3babd44ea26f000157eaca&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    ],
+    "2069744470384386506": [
+      "https://x.com/axios/status/2069744470384386506",
+      "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek"
+    ],
+    "2069757815988551972": [
+      "https://x.com/abigailcarlson_/status/2069757815988551972",
+      "http://x.com/i/article/2069757298189176833",
+      "https://x.com/abigailcarlson_/status/2069407318601503200",
+      "https://pbs.twimg.com/media/HLgCy2yXQAAirIx.jpg"
+    ],
+    "2069762771135148490": [
+      "https://x.com/alive_/status/2069762771135148490",
+      "http://x.com/i/article/2069761815932768256"
     ]
   },
-  "updated_at": "2026-06-24T12:01:09Z",
+  "updated_at": "2026-06-24T15:08:43Z",
   "window": "recent"
 }
