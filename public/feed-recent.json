@@ -401,6 +401,32 @@
       "title": "emulate | Local API Emulation for CI & Sandboxes",
       "url": "http://emulate.dev"
     },
+    "http://eve.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Like Next.js for web apps, but for agents. Markdown for instructions and skills, TypeScript for tools. Durable by default.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://vercel.com/eve",
+      "frameable": null,
+      "image_urls": [
+        "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/eve-og.png",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-workflow-color-light.05aiktgnb_zmq.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-workflow-color-dark.29bkkbm6_95zk.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-github-color-light.1184n6l5g07-6.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-github-color-dark.1k-70sin_m3qn.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-slack-color-light.0dx7eo_y9q60b.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-slack-color-dark.0dx7eo_y9q60b.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-discord-color-light.2zjw4h7n2b2qp.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-discord-color-dark.2zjw4h7n2b2qp.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-facebook-messenger-color-light.1qn2iup0j34du.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-facebook-messenger-color-dark.1qn2iup0j34du.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/logo-microsoft-teams-color-light.3iqt_dyw_9j41.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "eve – The Agent Framework - Vercel",
+      "url": "http://eve.dev"
+    },
     "http://figma.com/blog/what-matters-when-anyone-can-build": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -492,6 +518,23 @@
       "text_excerpt_zh": "",
       "title": "GitHub - yibie/awesome-autoresearch: awesome autoresearch list · GitHub",
       "url": "http://github.com/yibie/awesome-autoresearch"
+    },
+    "http://glimm.dev": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Shader-driven page transitions for React + Next.js. Sub-10kb, GPU-composited, drop-in.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://glimm.dev/",
+      "frameable": null,
+      "image_urls": [
+        "https://glimm.dev/opengraph-image?8d081aec229730dd",
+        "https://glimm.dev/twitter-image?663440559795821c",
+        "https://glimm.dev/shader-diagram-v2.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "glimm — shader-driven page transitions",
+      "url": "http://glimm.dev"
     },
     "http://glyph.software": {
       "content_type": "text/html; charset=utf-8",
@@ -1297,22 +1340,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058497582888886272"
     },
-    "http://x.com/i/article/2058516765546811392": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058516765546811392",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058516765546811392/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJFTHHGbYAABWCk?format=jpg&name=900x900)](http://x.com/i/article/2058516765546811392/shabnam%5F774/article/2058517919760355729/media/2058517886315225088)\n\nHow to Build LLM Architectures From Scratch\n\n[![](https://pbs.twimg.com/profile_images/1804361255744163840/cJnNMzre_normal.jpg)](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[Shabnam Parveen](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[@shabnam\\_774](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n·\n\n15h\n\nFollow\n\nClick to Follow shabnam\\_774\n\n3\n\n12\n\n99\n\n[47K](http://x.com/i/article/2058516765546811392/shabnam%5F774/status/2058517919760355729/analytics)\n\nA Deep Dive Into the Systems Behind Models Like OpenAI ChatGPT and Anthropic Claude\n\nMost people use AI models every day.\n\nVery few understand how they’re actually built.\n\nUnder the hood, Large Language Models (LLMs) are not magic. They are massive prediction systems trained on huge amounts of text using carefully designed neural network architectures.\n\nBut building one from scratch is far more complex than simply “training a chatbot.”\n\nIt involves:\n\n* Data engineering\n* Tokenization\n* Transformer architectures\n* Distributed training\n* GPU optimization\n* Reinforcement learning\n* Inference systems\n* Alignment layers\n* Memory optimization\n\nThis article breaks down the full architecture of modern LLMs step-by-step in a practical and understandable way.\n\n# \n\n1\\. What Is an LLM?\n\nA Large Language Model is a neural network trained to predict the next token in a sequence.\n\nExample:\n\nInput:\n\n> “The future of AI is”\n\nThe model predicts:\n\n> “transformative”\n\nThen continues predicting one token at a time.\n\nThat’s the foundation of systems like:\n\n* OpenAI GPT models\n* Anthropic Claude\n* Google Gemini\n* Meta Llama\n\nAt scale, this simple prediction process becomes incredibly powerful.\n\n# \n\n2\\. The Core Pipeline of Building an LLM\n\nThe full process looks like this:\n\nRaw Internet Data ↓ Cleaning + Filtering ↓ Tokenization ↓ Transformer Architecture ↓ Pretraining ↓ Fine-Tuning ↓ RLHF / Alignment ↓ Inference Optimization ↓ Deployment\n\nEvery stage matters.\n\nA weak dataset or poor architecture design can ruin the entire model.\n\n# \n\n3\\. Step One: Data Collection\n\nLLMs need enormous datasets.\n\nModern frontier models train on:\n\n* Books\n* Wikipedia\n* Research papers\n* Websites\n* Code repositories\n* Documentation\n* Conversations\n* Forums\n\nData sources may include:\n\n* Common Crawl\n* GitHub\n* ArXiv\n* Stack Overflow\n* Public datasets\n\nThe goal is diversity + scale.\n\nA small model trained on excellent data often beats a larger model trained on noisy data.\n\n# \n\n4\\. Data Cleaning and Filtering\n\nRaw internet data is messy.\n\nYou must remove:\n\n* Spam\n* Duplicates\n* Low-quality text\n* Toxic content\n* Broken formatting\n* Repeated sequences\n* AI-generated garbage\n\nThis stage is massively underestimated.\n\nCompanies spend enormous resources on data quality because:\n\n> Better data > Bigger models\n\nCommon filtering methods include:\n\n* Deduplication\n* Heuristic filtering\n* Quality scoring\n* Language detection\n* Safety filtering\n* NSFW removal\n\n# \n\n5\\. Tokenization: Converting Text Into Numbers\n\nNeural networks don’t understand words.\n\nThey understand numbers.\n\nSo text becomes tokens.\n\nExample:\n\n\"ChatGPT is powerful\" ↓ \\[1532, 4021, 318, 7821\\]\n\nThis process is called tokenization.\n\nPopular tokenization methods:\n\n* BPE (Byte Pair Encoding)\n* SentencePiece\n* WordPiece\n\nTokens can represent:\n\n* Words\n* Subwords\n* Characters\n* Punctuation\n\nEfficient tokenization dramatically affects performance and cost.\n\n# \n\n6\\. Embeddings: Giving Tokens Meaning\n\nTokens are converted into vectors.\n\nA vector is basically a list of numbers representing semantic meaning.\n\nExample:\n\nKing → \\[0.2, -0.8, 1.4, ...\\] Queen → \\[0.3, -0.7, 1.5, ...\\]\n\nSimilar concepts end u",
-      "text_excerpt_zh": "## 如何从零构建LLM架构\n\n深入解析OpenAI ChatGPT和Anthropic Claude等模型背后的系统\n\n大多数人每天都在使用AI模型。\n\n但很少有人真正理解它们是如何构建的。\n\n在底层，大型语言模型（LLM）并非魔法。它们是经过精心设计的神经网络架构、在海量文本上训练而成的庞大预测系统。\n\n但从零开始构建一个LLM远比简单地\"训练一个聊天机器人\"复杂得多。\n\n它涉及：\n\n*   数据工程\n*   分词化\n*   Transformer架构\n*   分布式训练\n*   GPU优化\n*   强化学习\n*   推理系统\n*   对齐层\n*   内存优化\n\n本文将以实用且易于理解的方式，逐步拆解现代LLM的完整架构。\n\n# 1. 什么是LLM？\n\n大型语言模型是一种经过训练的神经网络，用于预测序列中的下一个token。\n\n示例：\n\n输入：\n\n> \"The future of AI is\"\n\n模型预测：\n\n> \"transformative\"\n\n然后逐个token地继续预测。\n\n这就是以下系统的基础：\n\n*   OpenAI GPT模型\n*   Anthropic Claude\n*   Google Gemini\n*   Meta Llama\n\n在规模效应下，这个简单的预测过程会变得异常强大。\n\n# 2. 构建LLM的核心流程\n\n完整流程如下：\n\n原始互联网数据 ↓ 清洗 + 过滤 ↓ 分词化 ↓ Transformer架构 ↓ 预训练 ↓ 微调 ↓ RLHF / 对齐 ↓ 推理优化 ↓ 部署\n\n每个阶段都至关重要。\n\n薄弱的数据集或糟糕的架构设计会毁掉整个模型。\n\n# 3. 第一步：数据收集\n\nLLM需要海量数据集。\n\n现代前沿模型训练使用的数据包括：\n\n*   书籍\n*   维基百科\n*   研究论文\n*   网站\n*   代码仓库\n*   文档\n*   对话\n*   论坛\n\n数据来源可能包括：\n\n*   Common Crawl\n*   GitHub\n*   ArXiv\n*   Stack Overflow\n*   公共数据集\n\n目标是多样性与规模。\n\n一个在优质数据上训练的小模型，往往能击败在嘈杂数据上训练的大模型。\n\n# 4. 数据清洗与过滤\n\n原始互联网数据是混乱的。\n\n你必须移除：\n\n*   垃圾信息\n*   重复内容\n*   低质量文本\n*   有害内容\n*   格式错误\n*   重复序列\n*   AI生成的垃圾内容\n\n这个阶段被严重低估了。\n\n公司在数据质量上投入巨大资源，因为：\n\n> 更好的数据 > 更大的模型\n\n常见的过滤方法包括：\n\n*   去重\n*   启发式过滤\n*   质量评分\n*   语言检测\n*   安全过滤\n*   移除NSFW内容\n\n# 5. 分词化：将文本转换为数字\n\n神经网络不理解文字。\n\n它们理解数字。\n\n因此文本被转换为tokens。\n\n示例：\n\n\"ChatGPT is powerful\" ↓ \\[1532, 4021, 318, 7821\\]\n\n这个过程称为分词化。\n\n流行的分词方法：\n\n*   BPE（字节对编码）\n*   SentencePiece\n*   WordPiece\n\nTokens可以表示：\n\n*   单词\n*   子词\n*   字符\n*   标点符号\n\n高效的分词化会显著影响性能和成本。\n\n# 6. 嵌入：赋予Tokens含义\n\nTokens被转换为向量。\n\n向量本质上是一个代表语义含义的数字列表。\n\n示例：\n\nKing → \\[0.2, -0.8, 1.4, ...\\] Queen → \\[0.3, -0.7, 1.5, ...\\]\n\n相似的概念最终会...",
-      "text_excerpt_zh_hash": "eda5c68c933f69a6",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058516765546811392"
-    },
     "http://x.com/i/article/2058604468850069504": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1344,22 +1371,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058722738920124416"
-    },
-    "http://x.com/i/article/2058730895281172480": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058730895281172480",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058730895281172480/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJIYFQsb0AAfB0p?format=jpg&name=900x900)](http://x.com/i/article/2058730895281172480/Huawei/article/2058734614571880838/media/2058734458321489920)\n\nHUAWEI Presents the Tau (τ) Scaling Law, Enabling Breakthroughs in Transistor Density and System Per\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc_normal.jpg)](http://x.com/i/article/2058730895281172480/Huawei)\n\n[Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n[@Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n·\n\n59m\n\nFollow\n\nClick to Follow Huawei\n\n1\n\n15\n\n48\n\n[189K](http://x.com/i/article/2058730895281172480/Huawei/status/2058734614571880838/analytics)\n\nToday, at the 2026 IEEE International Symposium on Circuits and Systems (ISCAS), He Tingbo from HUAWEI delivered a keynote speech titled \"New Semiconductor Path in Practice\". In her speech, she presented the Tau (τ) Scaling Law, a new principle for guiding the future development of the semiconductor industry. This law proposes replacing geometric scaling with time (τ) scaling as a new guiding principle for the evolution of both semiconductors and electronic systems. Based on this principle, innovative technologies such as LogicFolding can be used to continuously compress signal propagation delay and steadily improve transistor density, which will drive the ongoing evolution of semiconductors and electronic systems.\n\nIn recent years, Moore's Law – which has guided the semiconductor industry for more than five decades – has faced severe physical limits and diminishing economic returns. The global industry has been increasingly constrained by the slowdown in the geometric scaling of transistors and the erosion of cost-per-transistor benefits. The industry must now tackle the urgent and common challenge of overcoming the physical constraints of traditional processes and finding a new, sustainable evolution path that can match surging computing demands. This is where the τ Scaling Law comes into play.\n\nBased on this law, HUAWEI has developed innovative core technologies like LogicFolding and established a multi-level co-optimization mechanism that spans semiconductor devices, circuits, chips, and systems. This mechanism aims to systematically shorten the time constant τ in order to drive up performance, energy efficiency, and transistor density at each level in the following ways:\n\n* At the device level: Optimizing the resistance and parasitic capacitance of transistors and interconnects to minimize the device-level time constant τ at the underlying physical layer\n* At the circuit level: Adopting the LogicFolding architecture to break down the physical boundaries of traditional circuit layouts, significantly shortening critical-path wiring, effectively reducing the resistive and capacitive load of signal propagation, and ultimately boosting transistor density and circuit performance\n* At the chip level: Employing full-stack coordinated design of software, architecture, and silicon to achieve fine-grained, workload-driven control over instruction and data flows, enhancing system-level parallelism and efficiency, and significantly reducing end-to-end execution time\n* At the system level: Redefining interconnect protocols for computing systems with UnifiedBus to achieve unified memory addressing and native memory semantics for SuperPoDs, significantly reducing system communications latency\n\nIn her keynote speech, He Tingbo elaborated on HUAWEI's application of the τ Scaling Law to smartphones and AI computing. Over the past six years, HUAWEI has designed and mass-produced 381 chips based on the τScaling Law, serving a wide range of industries, sectors, and markets. The Kirin chips scheduled to launch in Fall 2026 will be the first ever to adopt the LogicFolding architecture, which will c",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2058730895281172480/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJIYFQsb0AAfB0p?format=jpg&name=900x900)](http://x.com/i/article/2058730895281172480/Huawei/article/2058734614571880838/media/2058734458321489920)\n\n华为提出Tau（τ）缩放定律，实现晶体管密度与系统性能突破\n\n[![方形头像](https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc_normal.jpg)](http://x.com/i/article/2058730895281172480/Huawei)\n\n[华为](http://x.com/i/article/2058730895281172480/Huawei)\n\n[@Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n·\n\n59分钟前\n\n关注\n\n点击关注华为\n\n1\n\n15\n\n48\n\n[189K](http://x.com/i/article/2058730895281172480/Huawei/status/2058734614571880838/analytics)\n\n今天，在2026年IEEE国际电路与系统研讨会（ISCAS）上，华为何庭波发表了题为“新半导体路径实践”的主旨演讲。她在演讲中提出了Tau（τ）缩放定律，这是一条指导半导体行业未来发展的新原则。该定律提出用时间（τ）缩放取代几何缩放，作为半导体和电子系统演进的新指导原则。基于这一原则，可采用LogicFolding等创新技术，持续压缩信号传播延迟，稳步提升晶体管密度，从而推动半导体和电子系统的持续演进。\n\n近年来，指导半导体行业超过五十年的摩尔定律面临严重的物理极限和日益减少的经济回报。全球行业日益受到晶体管几何缩放放缓以及每晶体管成本优势削弱的制约。行业现在必须应对一个紧迫且共同的挑战：克服传统工艺的物理限制，寻找一条能够匹配激增计算需求的可持续演进新路径。这正是τ缩放定律发挥作用之处。\n\n基于该定律，华为开发了LogicFolding等创新核心技术，并建立了跨越半导体器件、电路、芯片和系统的多层次协同优化机制。该机制旨在系统性地缩短时间常数τ，从而在以下各层面提升性能、能效和晶体管密度：\n\n* 在器件层面：优化晶体管和互连的电阻与寄生电容，以最小化底层物理层的器件级时间常数τ\n* 在电路层面：采用LogicFolding架构，打破传统电路布局的物理边界，显著缩短关键路径布线，有效降低信号传播的阻容负载，最终提升晶体管密度和电路性能\n* 在芯片层面：采用软件、架构和硅片的全栈协同设计，实现对指令和数据流的细粒度、工作负载驱动控制，增强系统级并行性和效率，显著缩短端到端执行时间\n* 在系统层面：通过UnifiedBus重新定义计算系统的互连协议，实现SuperPoD的统一内存寻址和原生内存语义，显著降低系统通信延迟\n\n在主题演讲中，何庭波详细阐述了华为将τ缩放定律应用于智能手机和AI计算的情况。过去六年中，华为基于τ缩放定律设计并量产了381款芯片，服务于广泛的行业、领域和市场。计划于2026年秋季发布的麒麟芯片将首次采用LogicFolding架构，这将带来……",
-      "text_excerpt_zh_hash": "eafb6f978ed2ea40",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058730895281172480"
     },
     "http://x.com/i/article/2058817306105651200": {
       "cleaner_v": 2,
@@ -5982,6 +5993,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068379021310914560"
     },
+    "http://x.com/i/article/2068399939592622080": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068399939592622080",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068399939592622080"
+    },
     "http://x.com/i/article/2068428251060715520": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6156,6 +6180,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2068806024820322304"
+    },
+    "http://x.com/i/article/2068874313608871936": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2068874313608871936",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2068874313608871936"
     },
     "http://x.com/i/article/2068874893844692992": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -6335,6 +6372,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069105923117948928"
     },
+    "http://x.com/i/article/2069110843791540224": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069110843791540224",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069110843791540224"
+    },
     "http://x.com/i/article/2069167306597392385": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6364,6 +6414,32 @@
       "title": "",
       "url": "http://x.com/i/article/2069182501759967232"
     },
+    "http://x.com/i/article/2069183289941004288": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069183289941004288",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069183289941004288"
+    },
+    "http://x.com/i/article/2069190643990384640": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069190643990384640",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069190643990384640"
+    },
     "http://x.com/i/article/2069201811307917312": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6376,6 +6452,45 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069201811307917312"
+    },
+    "http://x.com/i/article/2069290212862377984": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069290212862377984",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLeZnlaa4AAxDd6?format=jpg&name=900x900)](http://x.com/qinzytech/article/2069444200387780708/media/2069291459136905216)\n\nGLM-5.2: A Different Architecture\n\n[![](https://pbs.twimg.com/profile_images/1997785159161049089/2de-DSQ8_normal.jpg)](http://x.com/qinzytech)\n\n[Zengyi Qin](http://x.com/qinzytech)\n\n[@qinzytech](http://x.com/qinzytech)\n\n·\n\n13h\n\nFollow\n\nClick to Follow qinzytech\n\n1\n\n[18K](http://x.com/qinzytech/status/2069444200387780708/analytics)\n\nGLM-5.2 uses IndexShare, an attention architecture different from GLM-5.1\\. It reduces the per-token computational cost by 2.9× at a 1M context length. I will explain the how this works.\n\nWhen the LLM generates a token, it has to query all the previous tokens in the conversion history if not optimized. In long-horizon tasks like agentic coding, the conversion history (context length) could be very long. At 1M token context length, this becomes very expensive.\n\nSo DeepSeek invented DeepSeek Sparse Attention (DSA), where the LLM only queries K tokens in the conversation history, and K is a constant no matter how the context grows. This greatly reduces the cost of the attention layer.\n\nBut how to select the best K tokens to query from the conversion history?\n\nDSA uses a light-weight indexer. The indexer will query all previous tokens and choose the best K tokens for the attention query. Every attention layer needs such an indexer.\n\nSo even though DSA is more light-weight, every layer still needs to query all previous tokens. At 1M token context length, this becomes very expensive.\n\nIndexShare is built to solve that.\n\nEvery 4 layers share a DSA indexer. After the best K tokens are selected by the indexer, the tokens are reused by 4 consecutive layers. So we don’t need to have an indexer for every layer. The indexer cost is down by 75%.\n\nIndexShare is applied to GLM-5.2 starting from mid-training. GLM-5.2 and 5.1 shared the same pre-training based model. Based on the technical blog, it reduces the per-token computational cost by 2.9× at a 1M context length.\n\n[![Image](https://pbs.twimg.com/media/HLeZCvwaEAErtOj?format=jpg&name=small)](http://x.com/qinzytech/article/2069444200387780708/media/2069290826258321409)\n\nDisclaimer. All information discussed in this article is based on publicly available and indexable sources. No confidential, proprietary, or non-public information has been used. The views expressed are solely those of the author and do not reflect the opinions, positions, or activities of any organization, employer, institution, or affiliation associated with Zengyi Qin, past or present.\n\n* [![](https://pbs.twimg.com/profile_images/1997785159161049089/2de-DSQ8_normal.jpg)](http://x.com/qinzytech)  \n[Zengyi Qin](http://x.com/qinzytech)  \n[@qinzytech](http://x.com/qinzytech)  \nFollow  \nClick to Follow qinzytech  \nMulti-modal Agent Research | MIT PhD",
+      "title": "",
+      "url": "http://x.com/i/article/2069290212862377984"
+    },
+    "http://x.com/i/article/2069345051696611328": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069345051696611328",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069345051696611328"
+    },
+    "http://x.com/i/article/2069356617783500800": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069356617783500800",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069356617783500800"
     },
     "http://x.com/i/article/2069368840409264128": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -6390,6 +6505,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069368840409264128"
     },
+    "http://x.com/i/article/2069389566222671872": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069389566222671872",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069389566222671872"
+    },
     "http://x.com/i/article/2069392821774385152": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6402,6 +6530,32 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069392821774385152"
+    },
+    "http://x.com/i/article/2069400890134433792": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069400890134433792",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069400890134433792"
+    },
+    "http://x.com/i/article/2069434045625421824": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069434045625421824",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069434045625421824"
     },
     "http://x.com/i/article/2069487597584322560": {
       "cleaner_v": 2,
@@ -6418,6 +6572,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2069487597584322560"
+    },
+    "http://x.com/i/article/2069525633106165760": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069525633106165760",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069525633106165760"
+    },
+    "http://x.com/i/article/2069582204607614976": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069582204607614976",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069582204607614976"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -6805,28 +6985,30 @@
       "title": "[2605.29307v1] GrepSeek: Training Search Agents for Direct Corpus Interaction",
       "url": "https://arxiv.org/abs/2605.29307v1"
     },
-    "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/": {
+    "https://arxiv.org/pdf/2606.09498": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
-      "content_type": "text/html;charset=UTF-8",
-      "description": "This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/",
-      "frameable": false,
-      "image_urls": [
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20412-1.jpg",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20412-2.jpg",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-2-100x89.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-1-100x134.jpg",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-4-100x99.jpg",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/20412-3-100x133.jpg"
-      ],
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://arxiv.org/pdf/2606.09498",
+      "frameable": null,
+      "image_urls": [],
       "kind": "article",
-      "text_excerpt": "[Artificial Intelligence](https://aws.amazon.com/blogs/machine-learning/)\n     Building a secure auth code flow setup using AgentCore Gateway with MCP clients\nIn modern development workflows, developers increasingly rely on agentic coding assistants such as [Kiro Integrated Development Environment (IDE)](https://kiro.dev/) to interact with remote tools and services. However, organizations require robust authentication mechanisms to provide secure, identity-verified access between these agentic coding assistants and enterprise [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) servers.\n[Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) is a fully managed service that helps you deploy, manage, and scale AI agents in production. One of its key components, the [AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html), provides a centralized entry point for routing and securing agent-to-tool communications. When an AI assistant makes a request to an MCP server through the Gateway, that request must be verified before it’s processed. This is known as inbound authentication. Only authorized users and agents can access the tools and services exposed by the MCP server. Organizations typically manage user identities through an identity provider (IdP), such as Okta, Microsoft Entra ID, or [Amazon Cognito](https://aws.amazon.com/cognito/), which authenticates users and issues security tokens that verify who they are.\nThis post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on [Amazon Bedrock AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html). By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.\nWhat you will learn\n- How auth code flow works with AgentCore Gateway as an MCP resource server.\n- Step-by-step configuration of your organization’s identity provider.\n- AgentCore Gateway inbound authentication setup.\n- Integration with Kiro IDE clients.\nSolution overview\nIn an inbound authorization code flow OAuth setup, the AgentCore Gateway acts as an MCP resource server that requires a valid identity token before allowing AI clients to access any tools.\nThe following diagram shows the end-to-end architecture for the authorization code flow with AgentCore Gateway, including the identity provider, AI client, and MCP server interactions.\nFigure 1: Authorization code flow architecture diagram.\nKey components\nThe solution involves the following components working together to complete the authentication flow:\n- Identity provider (IdP): Manages user authentication and issues tokens. The preceding diagram references Amazon Cognito, but it can be your organization’s IdP.\n- User: The end user who authenticates with the IdP and whose identity is verified for each request.\n- Amazon Bedrock AgentCore Gateway: Acts as the OAuth resource server, validating tokens and proxying requests to MCP servers.\n- Agentic coding assistant: Kiro IDE, which acts as the OAuth client and manages the authentication flow.\n- MCP server: Your backend tools and services that the AI assistant needs to access.\n- MCP OAuth proxy (optional): Helps bridge the gap of spec standardization between agentic coding assistants, IdPs, and MCP servers. An MCP OAuth proxy brings standardization that supports the authorization code flow.\nThe inbound authorization code flow\nThis flow makes sure that every request that the AI assistant sends to the MCP server is authenticated with a valid identity token belonging to the user.\n- MCP client connection – The agentic coding assistant (for example, Kiro IDE) initiates a connection to the AgentCore Gateway’s MCP endpoint.\n- Authentication chal",
-      "text_excerpt_zh": "# 使用 AgentCore Gateway 与 MCP 客户端构建安全的授权码流程设置\n\n在现代化开发工作流中，开发者越来越依赖诸如 [Kiro 集成开发环境 (IDE)](https://kiro.dev/) 等智能编码助手来与远程工具和服务进行交互。然而，组织需要强大的身份验证机制，以确保这些智能编码助手与企业 [模型上下文协议 (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) 服务器之间实现安全、经过身份验证的访问。\n\n[Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) 是一项完全托管的服务，可帮助您在生产环境中部署、管理和扩展 AI 代理。其关键组件之一 [AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html) 提供了一个集中式入口点，用于路由和保护代理与工具之间的通信。当 AI 助手通过 Gateway 向 MCP 服务器发出请求时，该请求在处理前必须经过验证。这被称为入站身份验证。只有经过授权的用户和代理才能访问 MCP 服务器暴露的工具和服务。组织通常通过身份提供商 (IdP) 管理用户身份，例如 Okta、Microsoft Entra ID 或 [Amazon Cognito](https://aws.amazon.com/cognito/)，这些提供商负责验证用户身份并颁发用于确认其身份的安全令牌。\n\n本文演示如何将开放授权 (OAuth) 授权码流程作为托管在 [Amazon Bedrock AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html) 上的 MCP 服务器的入站授权机制。通过本指南，您将获得一个生产就绪的设置，其中每个 AI 助手请求都使用来自您组织身份提供商的有效用户身份令牌进行身份验证。\n\n## 您将学到什么\n\n- 授权码流程如何与作为 MCP 资源服务器的 AgentCore Gateway 协同工作。\n- 组织身份提供商的分步配置。\n- AgentCore Gateway 入站身份验证设置。\n- 与 Kiro IDE 客户端的集成。\n\n## 解决方案概述\n\n在入站授权码流程 OAuth 设置中，AgentCore Gateway 充当 MCP 资源服务器，在允许 AI 客户端访问任何工具之前，要求提供有效的身份令牌。\n\n下图展示了使用 AgentCore Gateway 的授权码流程的端到端架构，包括身份提供商、AI 客户端和 MCP 服务器的交互。\n\n图 1：授权码流程架构图。\n\n### 关键组件\n\n该解决方案涉及以下协同工作以完成身份验证流程的组件：\n\n- **身份提供商 (IdP)**：管理用户身份验证并颁发令牌。上图引用了 Amazon Cognito，但也可以是您组织的 IdP。\n- **用户**：与 IdP 进行身份验证的最终用户，每个请求都会验证其身份。\n- **Amazon Bedrock AgentCore Gateway**：充当 OAuth 资源服务器，验证令牌并将请求代理到 MCP 服务器。\n- **智能编码助手**：Kiro IDE，充当 OAuth 客户端并管理身份验证流程。\n- **MCP 服务器**：AI 助手需要访问的后端工具和服务。\n- **MCP OAuth 代理（可选）**：有助于弥合智能编码助手、IdP 和 MCP 服务器之间的规范标准化差距。MCP OAuth 代理提供了支持授权码流程的标准化。\n\n## 入站授权码流程\n\n该流程确保 AI 助手发送到 MCP 服务器的每个请求都使用属于该用户的有效身份令牌进行身份验证。\n\n- **MCP 客户端连接** – 智能编码助手（例如 Kiro IDE）启动与 AgentCore Gateway 的 MCP 端点的连接。\n- **身份验证挑战**",
-      "text_excerpt_zh_hash": "cb781b169966f617",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Building a secure auth code flow setup using AgentCore Gateway with MCP clients | Artificial Intelligence",
-      "url": "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/"
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://arxiv.org/pdf/2606.09498"
+    },
+    "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=utf-8",
+      "description": "Discover more about what's new at AWS with AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+      "final_url": "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "Skip to main content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code Posted on: Jun 22, 2026 AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own compute environment to securely run code without managing virtualization infrastructure or choosing between isolation, speed, and state retention. Developers are increasingly building multi-tenant applications that execute code supplied by end users or AI for use cases such as interactive coding environments, data analytics platforms, coding assistants, and vulnerability scanning platforms. For these applications, developers need to allocate a separate, isolated execution environment per user or session to limit the impact of incorrect or malicious code on other concurrently running users or jobs. Previously, developers needed to choose between strong isolation, fast launch times, and state retention when building these applications. Starting today, Lambda MicroVMs provides you these capabilities without any trade-offs. You get VM-level isolation, near-instant launch speeds, and the ability to suspend and resume execution for up to 8 hours. Lambda MicroVMs is built on Firecracker virtualization, the technology powering more than 15 trillion monthly Lambda Function invocations. To get started, create a MicroVM image from your Dockerfile, then launch MicroVMs from that image. Give each user or job their own MicroVM with a dedicated HTTPS URL that supports popular connectivity protocols such as HTTP/2, gRPC, and WebSockets. Lambda MicroVMs is available today in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Tokyo), and Europe (Ireland). To learn more, visit the AWS Lambda MicroVMs developer guide and the launch blog post . Get started with MicroVMs through the AWS Lambda console, AWS CloudFormation, AWS Cloud Development Kit, or use the Agent Toolkit for AWS with your preferred Agentic development tools. You pay for baseline compute resources while your MicroVM is running, and only for the active duration of additional resources consumed when your workload exceeds the baseline. To learn more about pricing, see Lambda MicroVMs pricing . Create an AWS account Learn What Is AWS? What Is Cloud Computing? What Is Agentic AI? Cloud Computing Concepts Hub AWS Cloud Security What's New Blogs Press Releases Resources Getting Started Training AWS Trust Center AWS Solutions Library Architecture Center Product and Technical FAQs Analyst Reports AWS Partners Developers Builder Center SDKs & Tools .NET on AWS Python on AWS Java on AWS PHP on AWS JavaScript on AWS Help Contact Us File a Support Ticket AWS re:Post Knowledge Center AWS Support Overview AWS Accessibility Legal Event Code of Conduct Event Terms & Conditions English Back to top Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. Privacy Site terms Your Privacy Choices Cookie Preferences © 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code - AWS",
+      "url": "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/"
     },
     "https://aws.amazon.com/marketplace/pp/prodview-v5shq5j2yjbbg": {
       "cleaner_v": 2,
@@ -8443,6 +8625,26 @@
       "title": "GitHub - hugohe3/ppt-master: AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He · GitHub",
       "url": "https://github.com/hugohe3/ppt-master"
     },
+    "https://github.com/langchain-ai/deepagents": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The batteries-included agent harness. Contribute to langchain-ai/deepagents development by creating an account on GitHub.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://github.com/langchain-ai/deepagents",
+      "frameable": false,
+      "image_urls": [
+        "https://repository-images.githubusercontent.com/1027384981/ea816c48-7caa-46b8-b4bd-1f90a6807f55",
+        "https://github.com/langchain-ai/deepagents/raw/main/.github/images/logo-dark.svg",
+        "https://camo.githubusercontent.com/648c6d7c665315a99bc0bd5a491cdbfc3e5e71cb5acb96c5d7314cfbc4cb8ba7/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f646565706167656e7473",
+        "https://camo.githubusercontent.com/37b2d59b94eab0e69cc2abda27a326fff6f5fd1b34620ed75b986d425d2d97b8/68747470733a2f2f696d672e736869656c64732e696f2f706570792f64742f646565706167656e7473",
+        "https://camo.githubusercontent.com/6d5540c4f618174e8571b813cda3eac3dad0a64b196b379b026a5acdf16eb665/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f646565706167656e74733f6c6162656c3d253230",
+        "https://camo.githubusercontent.com/73d657ff82cb4e4506fb4e5598dd8ccef71badee16434a54271fe208ab4eda26/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c2f68747470732f747769747465722e636f6d2f6c616e67636861696e5f6f73732e7376673f7374796c653d736f6369616c266c6162656c3d466f6c6c6f772532302534304c616e67436861696e"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - langchain-ai/deepagents: The batteries-included agent harness. · GitHub",
+      "url": "https://github.com/langchain-ai/deepagents"
+    },
     "https://github.com/mattpocock/skills/releases/tag/mattpocock-skills%401.0.0": {
       "content_type": "text/html; charset=utf-8",
       "description": "Skills for Real Engineers. Straight from my .claude directory. - Release mattpocock-skills@1.0.0 · mattpocock/skills",
@@ -8783,22 +8985,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "LLMs are functions, not brains.",
       "url": "https://james-pritchard.com/blog/llms-are-functions"
-    },
-    "https://jsoncanvas.org/": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "An open file format for infinite canvas data.Infinite canvas tools are a way to view and organize information spatially, like a digital whiteboard. Infinite ...",
-      "extraction_source": "trafilatura",
-      "final_url": "https://jsoncanvas.org/",
-      "frameable": null,
-      "image_urls": [
-        "https://jsoncanvas.org/assets/card.png",
-        "https://jsoncanvas.org/logo.svg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "JSON Canvas — An open file format for infinite canvas data.",
-      "url": "https://jsoncanvas.org/"
     },
     "https://julian.digital/2023/07/06/multi-layered-calendars/": {
       "cleaner_v": 2,
@@ -10881,6 +11067,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2069108298629201920/img/at2ERNbuy5lkbA6m.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -13976,6 +14176,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLbBApRXYAAv2kP.jpg"
     },
+    "https://pbs.twimg.com/media/HLbLVGPWoAAEAEU.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLbLVGPWoAAEAEU.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLbLVGPWoAAEAEU.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLbLVGPWoAAEAEU.jpg"
+    },
     "https://pbs.twimg.com/media/HLbSZ7uW8AA67CW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14018,20 +14232,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLeUQl9aYAAN-4v.png"
     },
-    "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
-    },
     "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14045,6 +14245,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLgb_sPWUAAPmj0.jpg"
+    },
+    "https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg"
     },
     "https://pbs.twimg.com/media/HLgzkdUXQAAoium.jpg": {
       "cleaner_v": 2,
@@ -14442,6 +14656,24 @@
       "text_excerpt_zh": "",
       "title": "Proof — The agent-first document editor",
       "url": "https://proofeditor.ai"
+    },
+    "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Shared workspaces get noisy when agents are treated like continuous-presence humans. Raft's agent inbox and held draft surfaces give agents room-aware ways to decide when to read, reply, revise, or stay silent.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/",
+      "frameable": null,
+      "image_urls": [
+        "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/held-draft-social-1200x630.png",
+        "https://raft.build/raft-logo.svg",
+        "https://raft.build/team-tenny.jpg",
+        "https://raft.build/raft-logo-footer.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[← All posts](https://raft.build/resources/blog/)\nIs Having Agents in the Room Meant to Be Chaotic?\nPublished on May 21, 2026\nLet's play a game.\nAsk a room full of agents to count upward, one number per agent, no duplicates. In most workspaces, it breaks almost immediately. Three agents post \"1\" at the same second. Two more post \"2\". By the time the room reaches \"4\", three agents have already said it. The agents are not broken. The room is.\nIt plays out the same way on real work. People are bringing agents into their existing group chats, putting them next to teammates in the same rooms where the work happens, expecting them to participate at whatever speed makes sense, across time zones and projects. Many teams add rules to make this manageable, like only letting an agent respond when @mentioned. The room feels organized, but the agents stop catching what they would have caught: a misrouted instruction, a wrong assumption, the conversation drifting somewhere they could have helped. Other teams skip the rules and let the agents speak freely. The room then fills with redundant pings faster than anyone can think. A human types a careful instruction. Before they finish, three agents have replied (two with the same answer) and one has already taken the ticket. The shared workspace becomes the noisy room nobody wants to be in.\nThe agents themselves are not the issue. Given the right context, an agent can judge whether to reply, whether someone else has already covered the point, whether the instruction is even for it. The failure happens between the agent's judgment and what it can do about it in the room — the agent trapped by bad options.\nWhy this happens\nHumans coordinate gracefully in shared spaces because we have continuous perception. We sense the rhythm of a conversation without consciously reading every message; we feel the pause before stepping in; we know when something just got said because we were already half-listening. None of that has to be designed. It is what being continuously present means.\nAgents don't inhabit the room the way humans do. Their interaction is turn-based: each invocation, the agent reads a snapshot of the room, reasons, commits an action, and then waits for the next invocation. Nothing runs in between. Existing workspaces flatten the room's parallel activity into a single thread the model reads; the final action is submitted later as a single commit. While the agent is composing, it isn't simultaneously seeing new messages arrive. If the room moves between the reasoning and the commit, the agent may still be acting on a state that no longer exists, unless the workspace makes that boundary explicit.\nEvery failure mode in shared rooms comes from this gap: workspaces built for continuous-presence inhabitants offering no surfaces to turn-based ones. This is why we are building Raft: an agent-native workspace designed for humans and agents working together.\nAX — the missing discipline\nRules like @mention gates, channel partitions, agent allowlists quiet the noise. But they also strip the participation. An agent that can only respond when @mentioned can no longer notice something problematic in a thread, can no longer decide whether to defer or give way. Rules-based filtering doesn't reduce noise; it turns the agent back into a tool waiting to be invoked. We've been building the opposite: agents that show up to shared work the way a colleague does, present whether or not their name is in the message. Other workarounds (separate sessions, keeping agents out of shared rooms) trade noise for the same loss.\nWhat we've been building instead is a discipline we call Agent Experience design, or AX: the same kind of discipline UX has been for humans, but designed for how agents actually see and act. Concretely, its job is to ask four questions about every interface an agent touches: what does the agent see at the moment of action, what state does it carry between invocations, what can it recover from, what is it",
+      "title": "Is Having Agents in the Room Meant to Be Chaotic? — Raft",
+      "url": "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/"
     },
     "https://reason.com/2026/06/15/the-white-house-vs-anthropics-new-ai-model/?utm_campaign=reason_brand&utm_content=&utm_medium=social_reason_non_paid&utm_source=twitter&utm_term=": {
       "cleaner_v": 2,
@@ -15134,6 +15366,24 @@
       "title": "Setting a custom price for a model in AgentsView | Simon Willison’s TILs",
       "url": "https://til.simonwillison.net/llms/agentsview-custom-model-price"
     },
+    "https://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "No one in AI trusts their rivals to slow down—so everyone races ahead. New tech could help break that impasse.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/",
+      "frameable": null,
+      "image_urls": [
+        "https://static.time.com/v3/assets/bltea6093859af6183b/blt9b91bdd8ac8b8414/6a39a7230198f86e1282548b/An-AI-Slowdown-Sounds-Impossible.png?branch=production&width=3840&quality=75&auto=webp&crop=16:9",
+        "https://static.time.com/v3/assets/bltea6093859af6183b/bltf08ba84364e9828a/698a0bf8e76ad27a626376d3/TIME_Staff-Portraits_Billy-Perrigo_141_F1.jpg?branch=production&width=3840&quality=75&auto=webp&crop=1:1",
+        "https://static.time.com/v3/assets/bltea6093859af6183b/bltf08ba84364e9828a/698a0bf8e76ad27a626376d3/TIME_Staff-Portraits_Billy-Perrigo_141_F1.jpg?branch=production&width=96&quality=75&auto=webp",
+        "https://static.time.com/v3/assets/bltea6093859af6183b/blt9b91bdd8ac8b8414/6a39a7230198f86e1282548b/An-AI-Slowdown-Sounds-Impossible.png?branch=production&width=3840&quality=75&auto=webp&crop=3:2"
+      ],
+      "kind": "article",
+      "text_excerpt": "During the depths of the Cold War, a macabre logic caused the U.S. and Soviet Union to become locked in an arms race, ultimately amassing enough nuclear weapons to end civilization many times over.\nBoth sides would have liked to deescalate. But for decades, neither could trust that the other would comply with any arms reduction treaty. By the 1980s, however, scientists had developed seismographs, satellites, and tamper-proof cameras. Now that each side could monitor the other, disarmament took hold. A Russian proverb, “trust, but verify,” came to define the approach that helped end the Cold War and avert nuclear holocaust.\nToday, the U.S. government is beginning to treat AI as a potential weapon of mass destruction. The U.S. and China are racing to build AI systems that are capable enough to find security flaws in the world’s software and power devastating new autonomous weapons. On June 12, the U.S. government restricted access to Anthropic's Claude Mythos and Fable 5 models, essentially arguing that each was a cyberweapon that could not be allowed to fall into foreign hands.\nThe result is a strategic stalemate. Neither the U.S. nor China wants a catastrophe, but there is no way to trust that slowing down would do anything other than cede victory to the other. With the AI race reaching a critical inflection point on cybersecurity, the leaders of major U.S. AI labs have indicated that they might support a slowdown—if only one were possible to achieve.\n\"If it were possible to effectively slow the development of this [AI] technology to give ourselves more time to deal with its immense implications, we think that would likely be a good thing,\" Anthropic wrote in a June blog post. \"But if a slowdown simply lets the least cautious actors catch up technologically, it could leave everyone less safe.\"\nAlso in June, OpenAI CEO Sam Altman wrote that the world needs a new global organization “to make it possible for the world to take coordinated action, including slowing frontier [AI] development when needed.”\nEven Vice President JD Vance has articulated a similar logic. “Part of this arms race component is, if we take a pause, does the People's Republic of China not take a pause? And then we find ourselves all enslaved to PRC-mediated AI?”\nA pause, however, is only seen as impossible because the technology does not yet exist to verify that all sides are complying with it. The seismographs and satellites of the AI age, in other words, don’t yet exist. But what if they did?\nA nascent group of startups is working on building so-called “verification” tools that could facilitate restraint, by giving all sides the confidence their rivals are complying. The number of people working on developing these technologies today is tiny—only around 50 worldwide, according to an estimate cited by Lucid Computing, one startup focused on these verification tools. If the belated effort succeeds, though, it could open up a swathe of new possibilities in AI governance.\nBuilding tools to verify a slowdown\nJust as it was crucial for Cold War verification systems to not allow either side to steal the other’s nuclear secrets, a crucial part of AI verification will be in allowing oversight while not risking the industry secrets of AI companies, proponents say.\nLucid Computing’s work focuses on doing just that—building upon so-called “trusted execution environments” on specialized AI chips, which companies like Intel and Nvidia have developed to allow chips to compute information confidentially, even safe from the owners of the data center where they are housed.\nThe idea is that a special piece of software could sit inside these trusted environments, where it could examine the AI and check whether it complies with a given rule. For example, it could confirm that a specific model is being run, or determine whether chips are being used in the training of a new model, which might be outlawed.\nCrucially, the idea is that this software would only transmit a yes or no s",
+      "title": "Can the Cold War Teach Us How to Slow Down AI?",
+      "url": "https://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/"
+    },
     "https://timstreams.net/": {
       "content_type": "text/html; charset=utf-8",
       "description": "",
@@ -15630,6 +15880,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c"
+    },
+    "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -16801,20 +17065,9 @@
       "https://x.com/lexrus/status/2058361987919475186",
       "https://www.youtube.com/watch?v=6er5oSPUGOI"
     ],
-    "2058517919760355729": [
-      "https://x.com/shabnam_774/status/2058517919760355729",
-      "http://x.com/i/article/2058516765546811392"
-    ],
     "2058537927823556668": [
       "https://x.com/dair_ai/status/2058537927823556668",
       "http://x.com/i/article/2058260237858066433"
-    ],
-    "2058542532297187412": [
-      "https://x.com/KSimback/status/2058542532297187412",
-      "https://x.com/KSimback/status/2058579023689584815",
-      "https://x.com/KSimback/status/2058712771349414208",
-      "https://x.com/KSimback/status/2058579082787303622",
-      "https://x.com/KSimback/status/2058579270419501154"
     ],
     "2058571337614893489": [
       "https://x.com/UiSavior/status/2058571337614893489",
@@ -16830,13 +17083,6 @@
       "http://component.gallery",
       "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
     ],
-    "2058575298694914064": [
-      "https://x.com/jerieljan/status/2058575298694914064",
-      "https://jsoncanvas.org/",
-      "https://x.com/jerieljan/status/2058575300716577263",
-      "https://x.com/jerieljan/status/2058575303002525882",
-      "https://x.com/jerieljan/status/2058581724062420996"
-    ],
     "2058576773663567952": [
       "https://x.com/RetroChainer/status/2058576773663567952",
       "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg"
@@ -16851,9 +17097,6 @@
       "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
       "https://x.com/asdennison/status/2059303917456949314",
       "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
-    ],
-    "2058646281308733446": [
-      "https://x.com/scaling01/status/2058646281308733446"
     ],
     "2058659843712696671": [
       "https://x.com/DataChaz/status/2058659843712696671",
@@ -16875,10 +17118,6 @@
       "https://x.com/eeismann/status/2058723786258854197",
       "http://x.com/i/article/2058722738920124416",
       "https://x.com/eeismann/status/2058719326027534668"
-    ],
-    "2058734614571880838": [
-      "https://x.com/Huawei/status/2058734614571880838",
-      "http://x.com/i/article/2058730895281172480"
     ],
     "2058794801714327835": [
       "https://x.com/maxmarchione/status/2058794801714327835"
@@ -21417,9 +21656,9 @@
       "https://x.com/tomosman/status/2068751947339903014",
       "https://x.com/tomosman/status/2068958271168266363",
       "https://x.com/tomosman/status/2068788080417366044",
+      "https://x.com/tomosman/status/2068822434594042001",
       "https://x.com/tomosman/status/2068751876972040610",
       "https://x.com/tomosman/status/2068752282133393656",
-      "https://x.com/tomosman/status/2068822434594042001",
       "https://x.com/tomosman/status/2068788322953056525",
       "https://x.com/tomosman/status/2068788003120529883"
     ],
@@ -21648,9 +21887,9 @@
       "http://x.com/i/article/2069033647089287168",
       "https://x.com/iximiuz/status/2069362795607396772",
       "https://smallstep.com/blog/everything-pki/",
-      "https://x.com/iximiuz/status/2069361984101851479",
+      "https://x.com/iximiuz/status/2069362056902463680",
       "https://x.com/iximiuz/status/2069362161910939767",
-      "https://x.com/iximiuz/status/2069362056902463680"
+      "https://x.com/iximiuz/status/2069361984101851479"
     ],
     "2069038610868064513": [
       "https://x.com/yibie/status/2069038610868064513",
@@ -21665,9 +21904,7 @@
     "2069047852450402325": [
       "https://x.com/vanlightly/status/2069047852450402325",
       "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
-      "https://x.com/vanlightly/status/2069097937251049937",
-      "https://x.com/vanlightly/status/2069342959326187606",
-      "https://pbs.twimg.com/media/HLfIapUW0AAFV3Q.jpg"
+      "https://x.com/vanlightly/status/2069097937251049937"
     ],
     "2069053300176048306": [
       "https://x.com/SidebarIO/status/2069053300176048306",
@@ -21762,8 +21999,8 @@
     "2069107648486646108": [
       "https://x.com/VKazulkin/status/2069107648486646108",
       "https://www.hollandtech.net/claude-is-not-your-architect",
-      "https://x.com/VKazulkin/status/2069450910833480100",
-      "https://aws.amazon.com/de/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/"
+      "https://x.com/VKazulkin/status/2069472804639256935",
+      "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/"
     ],
     "2069107865219166548": [
       "https://x.com/NicholasPuru/status/2069107865219166548",
@@ -21847,7 +22084,7 @@
     "2069217165916700977": [
       "https://x.com/0xdeusyu/status/2069217165916700977",
       "https://github.com/deusyu/harness-engineering",
-      "https://x.com/0xdeusyu/status/2069442565410341299"
+      "https://x.com/0xdeusyu/status/2069590514765377614"
     ],
     "2069228960483860688": [
       "https://x.com/WSJopinion/status/2069228960483860688",
@@ -21856,33 +22093,168 @@
       "https://on.wsj.com/4uXL1rZ"
     ],
     "2069257361408008507": [
-      "https://x.com/ArpitGuptaji19/status/2069257361408008507",
-      "https://x.com/ArpitGuptaji19/status/2069466550235492742"
+      "https://x.com/ArpitGuptaji19/status/2069257361408008507"
     ],
     "2069283531210268932": [
       "https://x.com/rememberlenny/status/2069283531210268932"
+    ],
+    "2069294381903790351": [
+      "https://x.com/TheEconomist/status/2069294381903790351",
+      "https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2069362498663317737": [
+      "https://x.com/kmad/status/2069362498663317737",
+      "http://x.com/i/article/2068874313608871936",
+      "https://x.com/kmad/status/2068863358850248890"
+    ],
+    "2069369115630870771": [
+      "https://x.com/SergioPaniego/status/2069369115630870771",
+      "http://x.com/i/article/2069356617783500800"
     ],
     "2069374432947356125": [
       "https://x.com/nurijanian/status/2069374432947356125",
       "http://x.com/i/article/2069368840409264128"
     ],
+    "2069390058948366620": [
+      "https://x.com/TheEconomist/status/2069390058948366620",
+      "https://www.economist.com/finance-and-economics/2026/06/22/how-to-turn-computing-power-into-a-financial-asset?taid=6a3a754b9cbd970001f37892&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2069393001189896200": [
+      "https://x.com/navidnathoo/status/2069393001189896200",
+      "http://x.com/i/article/2069389566222671872"
+    ],
+    "2069406736797069692": [
+      "https://x.com/wadefoster/status/2069406736797069692",
+      "http://x.com/i/article/2069400890134433792",
+      "https://x.com/wadefoster/status/2069064646414172418",
+      "https://pbs.twimg.com/media/HLbLVGPWoAAEAEU.jpg"
+    ],
+    "2069409212942389350": [
+      "https://x.com/tranmautritam/status/2069409212942389350",
+      "http://glimm.dev",
+      "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg",
+      "https://x.com/tranmautritam/status/2069474739886993849",
+      "https://x.com/tranmautritam/status/2069461116716191749"
+    ],
+    "2069411309326672276": [
+      "https://x.com/billyperrigo/status/2069411309326672276",
+      "https://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/"
+    ],
     "2069413003897012435": [
       "https://x.com/jasonzhou1993/status/2069413003897012435",
       "http://x.com/i/article/2069392821774385152"
     ],
+    "2069415761907778032": [
+      "https://x.com/Alfred_Lin/status/2069415761907778032",
+      "http://x.com/i/article/2069110843791540224",
+      "https://x.com/Alfred_Lin/status/2069456323125842189",
+      "https://x.com/Alfred_Lin/status/2069456127063101645"
+    ],
+    "2069419399648288928": [
+      "https://x.com/BradGroux/status/2069419399648288928",
+      "http://x.com/i/article/2069345051696611328",
+      "https://x.com/BradGroux/status/2069422434931900496"
+    ],
     "2069431041375285654": [
       "https://x.com/danywander/status/2069431041375285654"
+    ],
+    "2069437672050115037": [
+      "https://x.com/DavidCahn6/status/2069437672050115037",
+      "http://x.com/i/article/2069434045625421824"
+    ],
+    "2069443268593537470": [
+      "https://x.com/hwchase17/status/2069443268593537470",
+      "https://arxiv.org/pdf/2606.09498",
+      "https://github.com/langchain-ai/deepagents",
+      "https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg",
+      "https://x.com/hwchase17/status/2069444937783910440"
+    ],
+    "2069444200387780708": [
+      "https://x.com/qinzytech/status/2069444200387780708",
+      "http://x.com/i/article/2069290212862377984"
+    ],
+    "2069446934897492396": [
+      "https://x.com/greggmojica/status/2069446934897492396",
+      "http://x.com/i/article/2069190643990384640",
+      "https://x.com/greggmojica/status/2069493147005333625"
     ],
     "2069455716478603536": [
       "https://x.com/dbreunig/status/2069455716478603536",
       "http://x.com/i/article/2069201811307917312",
       "https://x.com/dbreunig/status/2069475733794406853"
     ],
+    "2069456224937185705": [
+      "https://x.com/dbreunig/status/2069456224937185705"
+    ],
+    "2069458978569146557": [
+      "https://x.com/justinsunyt/status/2069458978569146557",
+      "http://x.com/i/article/2069183289941004288",
+      "https://x.com/justinsunyt/status/2069557700753809721",
+      "https://x.com/justinsunyt/status/2069561789701132420",
+      "https://x.com/justinsunyt/status/2069567817595412554",
+      "https://x.com/justinsunyt/status/2069478354173190504",
+      "https://x.com/justinsunyt/status/2069602075978432903",
+      "https://x.com/justinsunyt/status/2069485982605561933"
+    ],
+    "2069466294718759161": [
+      "https://x.com/realJessyLin/status/2069466294718759161",
+      "https://x.com/realJessyLin/status/2069475702001532998",
+      "https://x.com/realJessyLin/status/2069479650854891670",
+      "https://x.com/realJessyLin/status/2069477907064660134",
+      "https://x.com/realJessyLin/status/2069484772477526111",
+      "https://x.com/realJessyLin/status/2069566797385535622",
+      "https://x.com/realJessyLin/status/2069567221731659897",
+      "https://x.com/realJessyLin/status/2069567573365317836",
+      "https://x.com/realJessyLin/status/2069477705255678064",
+      "https://x.com/realJessyLin/status/2069477864668590292",
+      "https://x.com/realJessyLin/status/2069480472317743433",
+      "https://x.com/realJessyLin/status/2069482500536340657",
+      "https://x.com/realJessyLin/status/2069495967037186183",
+      "https://x.com/realJessyLin/status/2069476858232766926",
+      "https://x.com/realJessyLin/status/2069578515385926079",
+      "https://x.com/realJessyLin/status/2069567617854324976",
+      "https://x.com/realJessyLin/status/2069567830434132194",
+      "https://x.com/realJessyLin/status/2069484915146752106",
+      "https://x.com/realJessyLin/status/2069567447049687130"
+    ],
+    "2069477103091831260": [
+      "https://x.com/axios/status/2069477103091831260",
+      "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05"
+    ],
     "2069491246410911895": [
       "https://x.com/AlphaSignalAI/status/2069491246410911895",
       "http://x.com/i/article/2069487597584322560"
+    ],
+    "2069503920918106370": [
+      "https://x.com/0xblacklight/status/2069503920918106370",
+      "http://x.com/i/article/2068399939592622080",
+      "https://x.com/0xblacklight/status/2069588364513386744"
+    ],
+    "2069505318120497198": [
+      "https://x.com/0xblacklight/status/2069505318120497198",
+      "https://x.com/0xblacklight/status/2069437411588006287"
+    ],
+    "2069526264172699698": [
+      "https://x.com/YourVibeGuy/status/2069526264172699698",
+      "http://x.com/i/article/2069525633106165760"
+    ],
+    "2069555025345700221": [
+      "https://x.com/nifinet/status/2069555025345700221"
+    ],
+    "2069586039606542354": [
+      "https://x.com/tonygentilcore/status/2069586039606542354",
+      "http://x.com/i/article/2069582204607614976"
+    ],
+    "2069590431646769472": [
+      "https://x.com/rauchg/status/2069590431646769472",
+      "http://eve.dev"
+    ],
+    "2069615596506083728": [
+      "https://x.com/9hills/status/2069615596506083728",
+      "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/",
+      "https://x.com/9hills/status/2069449128850211087"
     ]
   },
-  "updated_at": "2026-06-24T00:11:35Z",
+  "updated_at": "2026-06-24T04:35:53Z",
   "window": "recent"
 }

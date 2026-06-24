@@ -3421,6 +3421,22 @@
       "title": "",
       "url": "http://x.com/i/article/2058459230114291712"
     },
+    "http://x.com/i/article/2058516765546811392": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058516765546811392",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058516765546811392/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJFTHHGbYAABWCk?format=jpg&name=900x900)](http://x.com/i/article/2058516765546811392/shabnam%5F774/article/2058517919760355729/media/2058517886315225088)\n\nHow to Build LLM Architectures From Scratch\n\n[![](https://pbs.twimg.com/profile_images/1804361255744163840/cJnNMzre_normal.jpg)](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[Shabnam Parveen](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n[@shabnam\\_774](http://x.com/i/article/2058516765546811392/shabnam%5F774)\n\n·\n\n15h\n\nFollow\n\nClick to Follow shabnam\\_774\n\n3\n\n12\n\n99\n\n[47K](http://x.com/i/article/2058516765546811392/shabnam%5F774/status/2058517919760355729/analytics)\n\nA Deep Dive Into the Systems Behind Models Like OpenAI ChatGPT and Anthropic Claude\n\nMost people use AI models every day.\n\nVery few understand how they’re actually built.\n\nUnder the hood, Large Language Models (LLMs) are not magic. They are massive prediction systems trained on huge amounts of text using carefully designed neural network architectures.\n\nBut building one from scratch is far more complex than simply “training a chatbot.”\n\nIt involves:\n\n* Data engineering\n* Tokenization\n* Transformer architectures\n* Distributed training\n* GPU optimization\n* Reinforcement learning\n* Inference systems\n* Alignment layers\n* Memory optimization\n\nThis article breaks down the full architecture of modern LLMs step-by-step in a practical and understandable way.\n\n# \n\n1\\. What Is an LLM?\n\nA Large Language Model is a neural network trained to predict the next token in a sequence.\n\nExample:\n\nInput:\n\n> “The future of AI is”\n\nThe model predicts:\n\n> “transformative”\n\nThen continues predicting one token at a time.\n\nThat’s the foundation of systems like:\n\n* OpenAI GPT models\n* Anthropic Claude\n* Google Gemini\n* Meta Llama\n\nAt scale, this simple prediction process becomes incredibly powerful.\n\n# \n\n2\\. The Core Pipeline of Building an LLM\n\nThe full process looks like this:\n\nRaw Internet Data ↓ Cleaning + Filtering ↓ Tokenization ↓ Transformer Architecture ↓ Pretraining ↓ Fine-Tuning ↓ RLHF / Alignment ↓ Inference Optimization ↓ Deployment\n\nEvery stage matters.\n\nA weak dataset or poor architecture design can ruin the entire model.\n\n# \n\n3\\. Step One: Data Collection\n\nLLMs need enormous datasets.\n\nModern frontier models train on:\n\n* Books\n* Wikipedia\n* Research papers\n* Websites\n* Code repositories\n* Documentation\n* Conversations\n* Forums\n\nData sources may include:\n\n* Common Crawl\n* GitHub\n* ArXiv\n* Stack Overflow\n* Public datasets\n\nThe goal is diversity + scale.\n\nA small model trained on excellent data often beats a larger model trained on noisy data.\n\n# \n\n4\\. Data Cleaning and Filtering\n\nRaw internet data is messy.\n\nYou must remove:\n\n* Spam\n* Duplicates\n* Low-quality text\n* Toxic content\n* Broken formatting\n* Repeated sequences\n* AI-generated garbage\n\nThis stage is massively underestimated.\n\nCompanies spend enormous resources on data quality because:\n\n> Better data > Bigger models\n\nCommon filtering methods include:\n\n* Deduplication\n* Heuristic filtering\n* Quality scoring\n* Language detection\n* Safety filtering\n* NSFW removal\n\n# \n\n5\\. Tokenization: Converting Text Into Numbers\n\nNeural networks don’t understand words.\n\nThey understand numbers.\n\nSo text becomes tokens.\n\nExample:\n\n\"ChatGPT is powerful\" ↓ \\[1532, 4021, 318, 7821\\]\n\nThis process is called tokenization.\n\nPopular tokenization methods:\n\n* BPE (Byte Pair Encoding)\n* SentencePiece\n* WordPiece\n\nTokens can represent:\n\n* Words\n* Subwords\n* Characters\n* Punctuation\n\nEfficient tokenization dramatically affects performance and cost.\n\n# \n\n6\\. Embeddings: Giving Tokens Meaning\n\nTokens are converted into vectors.\n\nA vector is basically a list of numbers representing semantic meaning.\n\nExample:\n\nKing → \\[0.2, -0.8, 1.4, ...\\] Queen → \\[0.3, -0.7, 1.5, ...\\]\n\nSimilar concepts end u",
+      "text_excerpt_zh": "## 如何从零构建LLM架构\n\n深入解析OpenAI ChatGPT和Anthropic Claude等模型背后的系统\n\n大多数人每天都在使用AI模型。\n\n但很少有人真正理解它们是如何构建的。\n\n在底层，大型语言模型（LLM）并非魔法。它们是经过精心设计的神经网络架构、在海量文本上训练而成的庞大预测系统。\n\n但从零开始构建一个LLM远比简单地\"训练一个聊天机器人\"复杂得多。\n\n它涉及：\n\n*   数据工程\n*   分词化\n*   Transformer架构\n*   分布式训练\n*   GPU优化\n*   强化学习\n*   推理系统\n*   对齐层\n*   内存优化\n\n本文将以实用且易于理解的方式，逐步拆解现代LLM的完整架构。\n\n# 1. 什么是LLM？\n\n大型语言模型是一种经过训练的神经网络，用于预测序列中的下一个token。\n\n示例：\n\n输入：\n\n> \"The future of AI is\"\n\n模型预测：\n\n> \"transformative\"\n\n然后逐个token地继续预测。\n\n这就是以下系统的基础：\n\n*   OpenAI GPT模型\n*   Anthropic Claude\n*   Google Gemini\n*   Meta Llama\n\n在规模效应下，这个简单的预测过程会变得异常强大。\n\n# 2. 构建LLM的核心流程\n\n完整流程如下：\n\n原始互联网数据 ↓ 清洗 + 过滤 ↓ 分词化 ↓ Transformer架构 ↓ 预训练 ↓ 微调 ↓ RLHF / 对齐 ↓ 推理优化 ↓ 部署\n\n每个阶段都至关重要。\n\n薄弱的数据集或糟糕的架构设计会毁掉整个模型。\n\n# 3. 第一步：数据收集\n\nLLM需要海量数据集。\n\n现代前沿模型训练使用的数据包括：\n\n*   书籍\n*   维基百科\n*   研究论文\n*   网站\n*   代码仓库\n*   文档\n*   对话\n*   论坛\n\n数据来源可能包括：\n\n*   Common Crawl\n*   GitHub\n*   ArXiv\n*   Stack Overflow\n*   公共数据集\n\n目标是多样性与规模。\n\n一个在优质数据上训练的小模型，往往能击败在嘈杂数据上训练的大模型。\n\n# 4. 数据清洗与过滤\n\n原始互联网数据是混乱的。\n\n你必须移除：\n\n*   垃圾信息\n*   重复内容\n*   低质量文本\n*   有害内容\n*   格式错误\n*   重复序列\n*   AI生成的垃圾内容\n\n这个阶段被严重低估了。\n\n公司在数据质量上投入巨大资源，因为：\n\n> 更好的数据 > 更大的模型\n\n常见的过滤方法包括：\n\n*   去重\n*   启发式过滤\n*   质量评分\n*   语言检测\n*   安全过滤\n*   移除NSFW内容\n\n# 5. 分词化：将文本转换为数字\n\n神经网络不理解文字。\n\n它们理解数字。\n\n因此文本被转换为tokens。\n\n示例：\n\n\"ChatGPT is powerful\" ↓ \\[1532, 4021, 318, 7821\\]\n\n这个过程称为分词化。\n\n流行的分词方法：\n\n*   BPE（字节对编码）\n*   SentencePiece\n*   WordPiece\n\nTokens可以表示：\n\n*   单词\n*   子词\n*   字符\n*   标点符号\n\n高效的分词化会显著影响性能和成本。\n\n# 6. 嵌入：赋予Tokens含义\n\nTokens被转换为向量。\n\n向量本质上是一个代表语义含义的数字列表。\n\n示例：\n\nKing → \\[0.2, -0.8, 1.4, ...\\] Queen → \\[0.3, -0.7, 1.5, ...\\]\n\n相似的概念最终会...",
+      "text_excerpt_zh_hash": "eda5c68c933f69a6",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2058516765546811392"
+    },
     "http://x.com/i/article/2058545115455758336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -3462,6 +3478,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058566884081958912"
+    },
+    "http://x.com/i/article/2058730895281172480": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2058730895281172480",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058730895281172480/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJIYFQsb0AAfB0p?format=jpg&name=900x900)](http://x.com/i/article/2058730895281172480/Huawei/article/2058734614571880838/media/2058734458321489920)\n\nHUAWEI Presents the Tau (τ) Scaling Law, Enabling Breakthroughs in Transistor Density and System Per\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc_normal.jpg)](http://x.com/i/article/2058730895281172480/Huawei)\n\n[Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n[@Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n·\n\n59m\n\nFollow\n\nClick to Follow Huawei\n\n1\n\n15\n\n48\n\n[189K](http://x.com/i/article/2058730895281172480/Huawei/status/2058734614571880838/analytics)\n\nToday, at the 2026 IEEE International Symposium on Circuits and Systems (ISCAS), He Tingbo from HUAWEI delivered a keynote speech titled \"New Semiconductor Path in Practice\". In her speech, she presented the Tau (τ) Scaling Law, a new principle for guiding the future development of the semiconductor industry. This law proposes replacing geometric scaling with time (τ) scaling as a new guiding principle for the evolution of both semiconductors and electronic systems. Based on this principle, innovative technologies such as LogicFolding can be used to continuously compress signal propagation delay and steadily improve transistor density, which will drive the ongoing evolution of semiconductors and electronic systems.\n\nIn recent years, Moore's Law – which has guided the semiconductor industry for more than five decades – has faced severe physical limits and diminishing economic returns. The global industry has been increasingly constrained by the slowdown in the geometric scaling of transistors and the erosion of cost-per-transistor benefits. The industry must now tackle the urgent and common challenge of overcoming the physical constraints of traditional processes and finding a new, sustainable evolution path that can match surging computing demands. This is where the τ Scaling Law comes into play.\n\nBased on this law, HUAWEI has developed innovative core technologies like LogicFolding and established a multi-level co-optimization mechanism that spans semiconductor devices, circuits, chips, and systems. This mechanism aims to systematically shorten the time constant τ in order to drive up performance, energy efficiency, and transistor density at each level in the following ways:\n\n* At the device level: Optimizing the resistance and parasitic capacitance of transistors and interconnects to minimize the device-level time constant τ at the underlying physical layer\n* At the circuit level: Adopting the LogicFolding architecture to break down the physical boundaries of traditional circuit layouts, significantly shortening critical-path wiring, effectively reducing the resistive and capacitive load of signal propagation, and ultimately boosting transistor density and circuit performance\n* At the chip level: Employing full-stack coordinated design of software, architecture, and silicon to achieve fine-grained, workload-driven control over instruction and data flows, enhancing system-level parallelism and efficiency, and significantly reducing end-to-end execution time\n* At the system level: Redefining interconnect protocols for computing systems with UnifiedBus to achieve unified memory addressing and native memory semantics for SuperPoDs, significantly reducing system communications latency\n\nIn her keynote speech, He Tingbo elaborated on HUAWEI's application of the τ Scaling Law to smartphones and AI computing. Over the past six years, HUAWEI has designed and mass-produced 381 chips based on the τScaling Law, serving a wide range of industries, sectors, and markets. The Kirin chips scheduled to launch in Fall 2026 will be the first ever to adopt the LogicFolding architecture, which will c",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2058730895281172480/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJIYFQsb0AAfB0p?format=jpg&name=900x900)](http://x.com/i/article/2058730895281172480/Huawei/article/2058734614571880838/media/2058734458321489920)\n\n华为提出Tau（τ）缩放定律，实现晶体管密度与系统性能突破\n\n[![方形头像](https://pbs.twimg.com/profile_images/1570731236171329537/6Muib5Hc_normal.jpg)](http://x.com/i/article/2058730895281172480/Huawei)\n\n[华为](http://x.com/i/article/2058730895281172480/Huawei)\n\n[@Huawei](http://x.com/i/article/2058730895281172480/Huawei)\n\n·\n\n59分钟前\n\n关注\n\n点击关注华为\n\n1\n\n15\n\n48\n\n[189K](http://x.com/i/article/2058730895281172480/Huawei/status/2058734614571880838/analytics)\n\n今天，在2026年IEEE国际电路与系统研讨会（ISCAS）上，华为何庭波发表了题为“新半导体路径实践”的主旨演讲。她在演讲中提出了Tau（τ）缩放定律，这是一条指导半导体行业未来发展的新原则。该定律提出用时间（τ）缩放取代几何缩放，作为半导体和电子系统演进的新指导原则。基于这一原则，可采用LogicFolding等创新技术，持续压缩信号传播延迟，稳步提升晶体管密度，从而推动半导体和电子系统的持续演进。\n\n近年来，指导半导体行业超过五十年的摩尔定律面临严重的物理极限和日益减少的经济回报。全球行业日益受到晶体管几何缩放放缓以及每晶体管成本优势削弱的制约。行业现在必须应对一个紧迫且共同的挑战：克服传统工艺的物理限制，寻找一条能够匹配激增计算需求的可持续演进新路径。这正是τ缩放定律发挥作用之处。\n\n基于该定律，华为开发了LogicFolding等创新核心技术，并建立了跨越半导体器件、电路、芯片和系统的多层次协同优化机制。该机制旨在系统性地缩短时间常数τ，从而在以下各层面提升性能、能效和晶体管密度：\n\n* 在器件层面：优化晶体管和互连的电阻与寄生电容，以最小化底层物理层的器件级时间常数τ\n* 在电路层面：采用LogicFolding架构，打破传统电路布局的物理边界，显著缩短关键路径布线，有效降低信号传播的阻容负载，最终提升晶体管密度和电路性能\n* 在芯片层面：采用软件、架构和硅片的全栈协同设计，实现对指令和数据流的细粒度、工作负载驱动控制，增强系统级并行性和效率，显著缩短端到端执行时间\n* 在系统层面：通过UnifiedBus重新定义计算系统的互连协议，实现SuperPoD的统一内存寻址和原生内存语义，显著降低系统通信延迟\n\n在主题演讲中，何庭波详细阐述了华为将τ缩放定律应用于智能手机和AI计算的情况。过去六年中，华为基于τ缩放定律设计并量产了381款芯片，服务于广泛的行业、领域和市场。计划于2026年秋季发布的麒麟芯片将首次采用LogicFolding架构，这将带来……",
+      "text_excerpt_zh_hash": "eafb6f978ed2ea40",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2058730895281172480"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -10718,6 +10750,22 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://journals.aps.org/prl/abstract/10.1103/xrn7-cz8v"
+    },
+    "https://jsoncanvas.org/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "An open file format for infinite canvas data.Infinite canvas tools are a way to view and organize information spatially, like a digital whiteboard. Infinite ...",
+      "extraction_source": "trafilatura",
+      "final_url": "https://jsoncanvas.org/",
+      "frameable": null,
+      "image_urls": [
+        "https://jsoncanvas.org/assets/card.png",
+        "https://jsoncanvas.org/logo.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "JSON Canvas — An open file format for infinite canvas data.",
+      "url": "https://jsoncanvas.org/"
     },
     "https://jxnl.co/writing/2026/05/18/six-levels-of-complexity-of-an-ai-powered-morning-brief-with-codex/": {
       "cleaner_v": 2,
@@ -36416,6 +36464,17 @@
       "https://x.com/Hi_Mrinal/status/2058491091754861046",
       "https://x.com/Hi_Mrinal/status/2058531706202919295"
     ],
+    "2058517919760355729": [
+      "https://x.com/shabnam_774/status/2058517919760355729",
+      "http://x.com/i/article/2058516765546811392"
+    ],
+    "2058542532297187412": [
+      "https://x.com/KSimback/status/2058542532297187412",
+      "https://x.com/KSimback/status/2058579023689584815",
+      "https://x.com/KSimback/status/2058712771349414208",
+      "https://x.com/KSimback/status/2058579082787303622",
+      "https://x.com/KSimback/status/2058579270419501154"
+    ],
     "2058552177912947044": [
       "https://x.com/yanhua1010/status/2058552177912947044",
       "http://x.com/i/article/2058545115455758336",
@@ -36429,6 +36488,13 @@
     "2058559764708356226": [
       "https://x.com/dingyi/status/2058569793456980151",
       "https://coss.com/ui"
+    ],
+    "2058575298694914064": [
+      "https://x.com/jerieljan/status/2058575298694914064",
+      "https://jsoncanvas.org/",
+      "https://x.com/jerieljan/status/2058575300716577263",
+      "https://x.com/jerieljan/status/2058575303002525882",
+      "https://x.com/jerieljan/status/2058581724062420996"
     ],
     "2058590229196329341": [
       "https://x.com/mitsuhiko/status/2058590229196329341",
@@ -36446,8 +36512,15 @@
       "http://x.com/i/article/2058566884081958912",
       "https://x.com/NebulaAI/status/2058602003115200895",
       "https://x.com/NebulaAI/status/2058924570439024649"
+    ],
+    "2058646281308733446": [
+      "https://x.com/scaling01/status/2058646281308733446"
+    ],
+    "2058734614571880838": [
+      "https://x.com/Huawei/status/2058734614571880838",
+      "http://x.com/i/article/2058730895281172480"
     ]
   },
-  "updated_at": "2026-06-24T00:11:35Z",
+  "updated_at": "2026-06-24T04:35:53Z",
   "window": "archive"
 }
