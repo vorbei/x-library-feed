@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"Engineering Metrics for Beginners\"\nGet an understanding of table-stakes engineering metrics.\nby Joseph Gefroh\nhttps://blog.jgefroh.com/p/engineering-metrics-for-beginners",
+      "text_zh": "\"面向初学者的工程指标\"\n了解基础工程指标。\n作者：Joseph Gefroh\nhttps://blog.jgefroh.com/p/engineering-metrics-for-beginners",
+      "text_zh_hash": "a7c50a0ccfe8f0fb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2069462486668152922"
     },
     {
@@ -112,6 +115,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I spent 20+ years following the future of Business Intelligence. Here's what I found. BI in 2026 is unrecognizable from where it started. The shift from dashboards to declarative stacks to agentic engineering changed everything. And yet, the fundamentals never moved.\n\nIf you want to bridge BI and DE, and build stacks that work with agents while staying true to what BI was always about, then here are 9 concepts to learn:\n\n1. AI Reveals Why BI Still Matters. The hint: AI agents are blind to dashboards. They need the BI primitives: metrics, semantics, governance. Agents depend on them. https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards\n\n2. Has Self-Serve BI Finally Arrived Thanks to AI? After a year of trying MCPs and many more with a semantic-aware logical layer, AI acts on the promise, because agents autonomously understand business context beyond just SQL. https://www.ssp.sh/blog/self-service-bi-ai/\n\n3. Building an Agent-Friendly, Local-First Analytics Stack. What agent-first BI actually looks like: local DuckDB + MotherDuck + Rill YAML metrics that LLMs can parse, reason about, and modify without breaking. https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill\n\n4. BI-as-Code and the New Era of GenBI. What happens when dashboards live in YAML and SQL instead of proprietary UIs? LLMs can read, generate, and maintain them. This unlocks much faster iterations in production. https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi\n\n5. Why Pivot Tables Never Die. They've been the lingua franca of data exploration since 1989. Understanding why tells you something essential about how humans (and AI) actually interact with data. https://www.rilldata.com/blog/why-pivot-tables-never-die\n\n6. The Rise of the Declarative Data Stack. The shift from imperative configs to Kubernetes-style YAML. The foundation everything else builds on. https://www.ssp.sh/blog/rise-of-declarative-data-stack/\n\n7. Designing a Declarative Data Stack. The architectural decisions behind building one: config vs code, template generation vs parametric, existing orchestrators vs custom engines. https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice\n\n8. Multi-Cloud Cost Analytics. A declarative stack in practice: AWS + GCP + Stripe unified into a single FinOps dashboard using dlt, Parquet, and Rill. Composable from day one. https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/\n\n9. Dlt+ClickHouse+Rill: Taking it to Production. Same stack, cloud-ready. Switching from local DuckDB to ClickHouse. https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready\n\nWhat's your take? Is BI dying, or is it finally becoming what it always promised to be?",
+      "text_zh": "我花了20多年追踪商业智能的未来，以下是发现。2026年的BI已面目全非——从仪表盘到声明式堆栈再到智能体工程，一切都在改变。但核心本质从未动摇。\n\n若想打通BI与数据工程，构建既能与智能体协作又不背离BI初衷的堆栈，以下9个概念值得学习：\n\n1. **AI揭示BI为何依然重要**。提示：AI智能体对仪表盘视而不见，它们需要BI原语：指标、语义、治理。智能体依赖这些。https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards\n\n2. **自助式BI是否终因AI到来？** 经过一年MCP尝试和更长时间的语义感知逻辑层探索，AI兑现了承诺——智能体无需SQL就能自主理解业务上下文。https://www.ssp.sh/blog/self-service-bi-ai/\n\n3. **构建智能体友好、本地优先的分析堆栈**。智能体优先BI的真实形态：本地DuckDB + MotherDuck + Rill YAML指标，LLM可解析、推理并安全修改。https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill\n\n4. **BI即代码与GenBI新时代**。当仪表盘以YAML和SQL而非专有UI存在时，LLM能读取、生成并维护它们，实现更快的生产迭代。https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi\n\n5. **数据透视表为何永不消亡**。自1989年起它就是数据探索的通用语言。理解其本质，就能洞悉人类（及AI）与数据交互的核心。https://www.rilldata.com/blog/why-pivot-tables-never-die\n\n6. **声明式数据堆栈的崛起**。从命令式配置到Kubernetes风格YAML的转变——这是所有上层建筑的基础。https://www.ssp.sh/blog/rise-of-declarative-data-stack/\n\n7. **设计声明式数据堆栈**。构建过程中的架构决策：配置与代码、模板生成与参数化、现有编排器与自定义引擎。https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice\n\n8. **多云成本分析**。声明式堆栈实践：通过dlt、Parquet和Rill将AWS+GCP+Stripe统一为单一FinOps仪表盘，从第一天起即可组合。https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/\n\n9. **Dlt+ClickHouse+Rill：投入生产**。相同堆栈，云端就绪——从本地DuckDB迁移至ClickHouse。https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready\n\n你的看法是什么？BI正在消亡，还是终于成为它一直承诺的样子？",
+      "text_zh_hash": "0880a4c4f77688cd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sspaeti/status/2069406009286709657"
     },
     {
@@ -153,6 +159,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I had some success at my search roles at Shopify + Reddit. I wish I could have had something like what @treygrainger and I built with AI Powered Search course\n\nBasically a way to network with peers while learning where retrieval is headed\n\nhttp://maven.com/search-school/ai-powered-search",
+      "text_zh": "我在Shopify和Reddit的搜索岗位工作中取得了一些成功。我真希望当初能拥有像我和@treygrainger共同打造的《AI驱动搜索》课程那样的资源——本质上是一种在学习检索技术发展方向的同时，与同行建立人脉的方式。\n\nhttp://maven.com/search-school/ai-powered-search",
+      "text_zh_hash": "6a80d4d1cba455c0",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/softwaredoug/status/2069582981316923772"
     },
     {
@@ -193,6 +202,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Google takes the hit in AI's talent war https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba",
+      "text_zh": "谷歌在AI人才争夺战中受挫\n\nhttps://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba",
+      "text_zh_hash": "46ea91ae5af3e475",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2069337869622071784"
     },
     {
@@ -245,6 +257,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Smoothest page transition library I've seen.\n\nA WebGL band wipes across your screen, new page appears underneath. \nGPU-accelerated, 10 KB, zero performance hit.\n\nReact + Next.js ready.\n\nhttp://glimm.dev by @Nomandsign https://t.co/ivnUY239nJ",
+      "text_zh": "我见过的最丝滑的页面过渡库。\n\n一道 WebGL 带状效果扫过屏幕，新页面在下方浮现。\nGPU 加速，仅 10 KB，零性能损耗。\n\n支持 React + Next.js。\n\nhttp://glimm.dev 来自 @Nomandsign https://t.co/ivnUY239nJ",
+      "text_zh_hash": "045dfc48244e3662",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/tranmautritam/status/2069409212942389350"
     },
     {
@@ -406,6 +421,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Alternatively titled \"I think you should still build loops just Not Like That\"",
+      "text_zh": "或可题为“我认为你仍应构建循环，只是别用那种方式”",
+      "text_zh_hash": "7883e80922be62c2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xblacklight/status/2069505318120497198"
     },
     {
@@ -524,6 +542,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“The ban of Anthropic’s cutting-edge models will be litigated, amended and perhaps withdrawn,” argues Judith Dada in response to Donald Trump’s decree. “Europe can decide to build a better future on this technology” https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "“对Anthropic尖端模型的禁令将面临诉讼、修订，甚至可能被撤销，”Judith Dada在回应唐纳德·特朗普的法令时指出。“欧洲可以决定在这一技术基础上构建更美好的未来” https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "d6e2f0d25d7abdca",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2069294381903790351"
     },
     {
@@ -578,6 +599,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "🧠Self-Harness: Harnesses that improve themselves\n\nNew paper on agents shaping their own harnesses to improve over time. Not from LangChain, but builds on top of DeepAgents! Three key steps:\n\n1/ Weakness mining: find failure modes from traces\n2/ Harness proposal: suggest changes to the harness\n3/ Proposal validation: does regression testing on proposals and then accepts\n\nPaper: https://arxiv.org/pdf/2606.09498\n\nBuilds on top of DeepAgents: https://github.com/langchain-ai/deepagents",
+      "text_zh": "🧠Self-Harness：能够自我改进的 Harness\n\n一篇关于 agent 通过塑造自身 harness 来随时间改进的新论文。并非来自 LangChain，而是基于 DeepAgents 构建！三个关键步骤：\n\n1/ 弱点挖掘：从轨迹中找出失败模式  \n2/ Harness 提案：建议对 harness 进行修改  \n3/ 提案验证：对提案进行回归测试，然后接受  \n\n论文：https://arxiv.org/pdf/2606.09498  \n\n基于 DeepAgents 构建：https://github.com/langchain-ai/deepagents",
+      "text_zh_hash": "8b6bd31b7448ca51",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hwchase17/status/2069443268593537470"
     },
     {
@@ -618,6 +642,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "No one in AI trusts their rivals to slow down — so everyone races ahead. New tech could help break that impasse.\n\nI wrote about what the Cold War might be able to teach us about AI governance:\n\nhttps://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/",
+      "text_zh": "AI领域无人信任对手会放缓脚步——于是所有人都在加速狂奔。一项新技术或许能打破这一僵局。\n\n我撰文探讨了冷战经验对AI治理的启示：\n\nhttps://time.com/article/2026/06/23/ai-slowdown-cold-war-verification/",
+      "text_zh_hash": "0e2603d873da1cfb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/billyperrigo/status/2069411309326672276"
     },
     {
@@ -739,6 +766,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Starting an X Chat group for http://eve.dev feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers",
+      "text_zh": "正在为 http://eve.dev 的反馈建立一个 X 聊天群。如果你正在深入构建一个智能体，并且有高质量的关键反馈或需求想要分享，请私信我，我会把你加入一个包含 eve 工程师的群组。",
+      "text_zh_hash": "00cd11824f50eb70",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rauchg/status/2069590431646769472"
     },
     {
@@ -821,6 +851,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "we started a company!! \n\nso, we’re tackling continual learning: what’s the learning algorithm to take arbitrary data — documents, conversations, the models’ own experience — and make better models? how do we scale compute in the same way we’ve already seen with pre-training and inference time, but scaling on the same data we see as humans, day after day with no labels, no rewards?\n\nA lot of the ingredients are out there already (rl, distillation, long-context, sparse / param-efficient architectures, etc.). our team is at the frontier of these topics, and we’re singularly focused on this. we want to understand this problem better than anyone else in the world.\n\nnobody’s solved this problem yet, but even today it’s extremely greenfield opportunity to co-develop research & useful products. in our space, how people interact with the models defines what the data distribution is - and working on this problem end-to-end, from core science to end user, gives us incredible freedom to define the problem and imagine new kinds of experiences.\n\ni expect we’ll use models that continually learn much differently than we’re using them today. it’ll feel different when the models _just know_, and build on our thinking and direction in ways we can’t even imagine. we don’t even know the queries we’re not asking, the things we would do but aren’t able to today.\n\ni’m so excited to share what we’re doing with the world in the coming months!! \nand the team is extremely cracked :) tackling this grand challenge and working alongside @jxmnop @EyubogluSabri @dan_biderman @MayeeChen @__howardchen @shizhehe and many others has made every day so fun. come work with us!",
+      "text_zh": "我们创办了一家公司！！\n\n所以，我们正在攻克持续学习这一难题：什么样的学习算法能够处理任意数据——文档、对话、模型自身的经验——并打造出更优秀的模型？我们如何像在预训练和推理阶段已经看到的那样扩展计算能力，但却是基于人类日复一日所见的相同数据，没有标签，没有奖励？\n\n许多要素已经存在（强化学习、蒸馏、长上下文、稀疏/参数高效架构等）。我们的团队处于这些领域的前沿，并且我们专注于这一目标。我们想比世界上任何人都更深入地理解这个问题。\n\n目前还没有人解决这个问题，但即便在今天，共同开发研究和实用产品也是一个极具潜力的蓝海领域。在我们这个领域，人们与模型互动的方式决定了数据分布——而从头到尾解决这个问题，从核心科学到最终用户，赋予我们极大的自由来定义问题并构想全新的体验。\n\n我预计，我们使用持续学习模型的方式将与今天大不相同。当模型“自然而然就懂”，并以我们无法想象的方式构建我们的思考和方向时，感觉会完全不同。我们甚至不知道那些我们没在问的问题，那些我们想做但今天却做不到的事情。\n\n我非常兴奋，能在未来几个月与全世界分享我们正在做的事情！！\n而且团队极其强悍 :) 攻克这一宏大挑战，并与 @jxmnop @EyubogluSabri @dan_biderman @MayeeChen @__howardchen @shizhehe 以及许多其他人并肩作战，让每一天都充满乐趣。来和我们一起工作吧！",
+      "text_zh_hash": "d79857a9d7931942",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/realJessyLin/status/2069466294718759161"
     },
     {
@@ -862,6 +895,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Natural language is great for one-off tasks, but suboptimal for defining system behavior.\n\nPrompt debt creeps in with each small fix and additional instruction, until your prompt is brittle, you're afraid to touch it for fear of regression, and you're locked into one model.",
+      "text_zh": "自然语言适合一次性任务，但在定义系统行为时并非最佳选择。\n\n每次小修小补和新增指令都会让提示债务悄然累积，最终导致提示变得脆弱不堪——你不敢轻易改动它，生怕引发回归问题，并且被锁定在单一模型上。",
+      "text_zh_hash": "c6ec940a8a5fdf84",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/dbreunig/status/2069456224937185705"
     },
     {
@@ -1060,6 +1096,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Some companies now spend more on AI, and by extension on processing power, than on wages for employees. Now the race is on to create financial instruments that work for both buyers and sellers of “compute” https://www.economist.com/finance-and-economics/2026/06/22/how-to-turn-computing-power-into-a-financial-asset?taid=6a3a754b9cbd970001f37892&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "一些公司如今在人工智能上的支出——进而延伸至算力支出——已超过员工薪资。现在，一场竞赛正在展开，旨在创造出既能满足\"算力\"买方又能满足卖方需求的金融工具。",
+      "text_zh_hash": "cf762669d325d29b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2069390058948366620"
     },
     {
@@ -1141,6 +1180,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Distribution in 2026 comes down to one system: a signal-based outbound engine.\n\nIt watches for the week a company enters your market, decides who is worth a message, writes from the real trigger, checks its own work, and learns from every reply.\n\nI run one across Sortlist on 14 agents for about $400 a month. Last night they watched funding rounds, new hires, and accounts that mentioned a problem we solve. This morning there was a short ranked list of who to talk to and why.\n\nSix stages, one loop, and every prompt in the piece is yours to copy.\n\nFull build below.",
+      "text_zh": "2026年的分销体系归结为一个系统：基于信号的主动外联引擎。\n\n它会监测某家公司进入你所在市场的具体周数，判断哪些人值得发送消息，根据真实触发事件撰写内容，自行核查工作质量，并从每次回复中学习迭代。\n\n我在Sortlist上运行着这样一个系统，由14个智能体组成，每月成本约400美元。昨晚它监测了融资轮次、新员工入职，以及提及我们解决某类问题的账户。今早便生成了一份简短的优先级列表，标明该与谁沟通及具体原因。\n\n六个阶段构成一个闭环，文中所有提示词均可直接复制使用。\n\n完整构建方案如下。",
+      "text_zh_hash": "6d2668916bc764b9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nifinet/status/2069555025345700221"
     },
     {
@@ -1221,6 +1263,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "White House quiet on OpenAI's Mythos-like model https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05",
+      "text_zh": "白宫对OpenAI类似Mythos的模型保持沉默",
+      "text_zh_hash": "3059417d30bbf7ce",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2069477103091831260"
     },
     {
