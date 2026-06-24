@@ -662,6 +662,32 @@
       "title": "machina",
       "url": "http://machina.fyi"
     },
+    "http://maven.com/search-school/ai-powered-search": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Learn the latest AI Search skills with the authors of \"AI-Powered Search\"",
+      "extraction_source": "trafilatura",
+      "final_url": "https://maven.com/search-school/ai-powered-search",
+      "frameable": false,
+      "image_urls": [
+        "https://d2426xcxuh3ht5.cloudfront.net/bGsBtHCPRQaqqsdFfwus_6.jpg",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd3fe4umbwqdrlj.cloudfront.net%2Fmarketplace%2Fcategories%2Fbg.png&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=768&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=768&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=384&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2FidskYMg_Lc%2FidsgrCljLm.jpeg&w=1536&q=75",
+        "https://asset.brandfetch.io/idTCWdN3V2/idDlXTsZYw.svg",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid_QgB787m%2FidRRMNVm56.png&w=1536&q=75",
+        "https://asset.brandfetch.io/idRrcMU04X/idPe8dAyv6.svg",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2FidJTONuDZB%2FidvnLUMzvj.jpeg&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=384&q=75",
+        "https://asset.brandfetch.io/idAgPm7IvG/id85L14isQ.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI Search Expert | Founder | Author\nPrincipal Search Engineer | Author\n10 people enrolled last week.\nAI Search is among of the most in-demand AI Skills. AI systems need RAG, and implementing great retrieval can often have a bigger impact than prompt engineering for improving your AI and Agentic systems.\nMost search systems barely scratch the surface of what's possible. While others struggle with irrelevant results and frustrated users, you'll master the cutting-edge techniques that power the world's most successful search experiences—from Reddit and Spotify to the Fortune 500.\nWhy This Course Exists\nThe Problem: Many traditional search systems are stuck in the 2010s. But modern AI courses hyper focus on text embeddings and ignore many of the fundamentals of information retrieval. The result? Engineers who can't bridge the gap between amazing demos and production systems that actually work.\nOur Solution: Stop downloading random embeddings from Hugging Face or OpenAI and hoping for the best. Learn to systematically analyze your users' actual intent, integrate domain context, and build search that truly understands what people (and agents) need—not just what they type.\nThis course helps you build cutting-edge AI Search systems that actually work.\nReady to level-up your AI Search skills?\nLearn the latest AI Search skills with the authors of \"AI-Powered Search\"\n- Understand emerging Agentic Search strategies, implement them with the Agentic Search loop, and be at the forefront of this paradigm shift. \n- Optimize search for LLMs and agents, as well as the critical strategies (chunking, adaptive queries, guardrails, etc.) \n- RAG represents the largest growing use case for search, and \"retrieval\" is by far the hardest part of RAG. \n- Learn how to integrate your content's context, your domain context, and your users' individual contexts to optimally interpret query intent. \n- We'll cover query classification, query-sense disambiguation, and semantic query parsing, using multiple lexical and LLM-based strategies. \n- Dig into emerging techniques like Wormhole Vectors, sparse lexical / expansion models (Semantic Knowledge Graphs and SPLADE), and MUVERA. \n- The field of information retrieval is vast. Learn the mental models that tie it all together. \n- Understand when to use bi-encoders vs. cross-encoders vs. knowledge graphs, and ANN vs. quantization vs. representation learning. \n- Understand multimodal and hybrid search, search on semi-structured embeddings, and how to properly mix sparse + dense retrieval techniques. \n- Leverage \"reflected intelligence\" from your use behavioral signals to automatically improve your ranking models. \n- Learn to implement algorithms for signals boosting, matrix factorization, and knowledge graph learning \n- Implement personalized search by building real-time user behavioral embeddings leveraging matrix factorization / collaborative filtering. \n- Learn common Machine-Learned Ranking (Learning to Rank) models put into production, from LambdaMART to cross-encoders \n- Get hands on experience performing feature engineering and representation learning to optimizing AI Search for production. \n- Implement ANN and quantization strategies, reranking, semantic caching, and even local model serving for search and RAG. \n- Learn how to systematically develop great ranking features using a combination of vector and lexical search indices. \n- Generate automatic judgments from user click stream data using Click Models \n- Overcoming ranking biases (presentation, position, & confidence bias) + uncover unexplored ranking features using SDBNs and Active Learning. \nFounder, Searchkernel. Author, \"AI-Powered Search\". 18+ years leading search.\nPrincipal Search Engineer, Author of \"AI-Powered Search\" & \"Relevant Search\".\n- AI Engineers optimizing search ranking to measurably improve user search satisfaction \n- Search Practitioners that want to learn to systematically improve search relevance \n- Technology leaders hoping to plan se",
+      "title": "AI-Powered Search: Modern Retrieval for Humans & Agents by Trey Grainger and Doug Turnbull on Maven",
+      "url": "http://maven.com/search-school/ai-powered-search"
+    },
     "http://mobbin.com/?via=abraham": {
       "content_type": "text/html; charset=utf-8",
       "description": "Save hours of UI & UX research with our library of 600,000+ fully searchable mobile & web app screenshots.",
@@ -7184,6 +7210,26 @@
       "title": "Grit: rewriting Git in Rust with agents | Butler's Log",
       "url": "https://blog.gitbutler.com/true-grit?_x_tr_hist=true"
     },
+    "https://blog.jgefroh.com/p/engineering-metrics-for-beginners": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Get an understanding of table-stakes engineering metrics.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.jgefroh.com/p/engineering-metrics-for-beginners",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!4b1Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48cc08b5-70a3-4608-8db8-a93034be4daf_1983x793.png",
+        "https://substackcdn.com/image/fetch/$s_!2vZ2!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fjgefroh.substack.com%2Fapi%2Fv1%2Fpost_preview%2F154928956%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!sphd!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cef45a3-7420-4cba-95f3-46a3b5d34293_100x100.png",
+        "https://substackcdn.com/image/fetch/$s_!4grx!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae4565db-a9d0-4d17-8365-75c149292706_400x400.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!4b1Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48cc08b5-70a3-4608-8db8-a93034be4daf_1983x793.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Engineering Metrics for Beginners\nGet an understanding of table-stakes engineering metrics.\nI see far too much mis-use of metrics in the industry. From people using Story Points as a functional evaluation tool to lines of code as a productivity metric. Much of it is innocent mis-use by misinformed people who follow frameworks like Scrum or DORA without taking the additional steps of understanding their root principles. Others use it with a bit more of a unethical tilt to trick others.\nIf you’re an engineering leader, you owe it to your team to have a framework for the metrics you are tracking.\nStart with why\nThe first thing to look at isn’t the metric itself, but why you are looking at them. It generally boils down to a few things:\n- To follow a leadership or management directive \n- To inform a narrative or decision \n- To evaluate and judge \n- To satisfy a curiosity \n- To improve over time \nWhat metrics you look at and how you use them depends on why you’re looking at them.\nIf you’re following a leadership or management directive, you ought to follow the rules of your leadership first. Then, dig in to why they are asking and how they are using them. The reason is likely one of the below.\nIf you’re collecting metrics to inform a narrative or decision, first ask yourself - do the deciders actually care about the metrics? There’s a lot of lip service to “data-driven” decisions, but the fact is data doesn’t matter in many decisions at many companies. Don’t waste your time if the deciders don’t care - find out what they do care about and do that instead.\nIf you’re using them to evaluate and judge - you’re probably using metrics incorrectly. You can use them to inform decisions, but engineering is often highly dependent on context, and it’s quite inaccurate to judge an individual engineer or even a team’s performance purely using metrics.\nIf you’re just trying to satisfy a curiosity, I’d say metrics are a waste of your time. Only collect metrics if you’re actually intending on doing something with them - otherwise it’s just a waste of attention and busy-work from people collecting them. It’s nice to be able to say you have data backing up your decisions, but if the data wasn’t a true factor you’re just playing data-theater.\nFinally, if you’re using metrics to inform improvements over time, then that’s pretty much exactly what you should be using metrics for - read on.\nWhat are you trying to improve?\nMetrics indicate things - attributes about the thing they are measuring. If you’re an engineering leader, you probably care about the following:\n- Delivery - speed, quality, quantity, efficiency, predictability \n- Service - uptime, quality \n- Capability - resourcing needs, tech capability, team capability \n- People - happiness, growth, retention \n- Impact - operational cost \nIf you’re trying to improve Delivery, you’ll look at a different set of metrics than if you were trying to improve Service. At some point, after the low-hanger are gone, metrics start becoming tradeoffs - improving one decreases the other. For example, you might increase speed, only to start suffering quality issues, or you might increase uptime only to suffer morale issues from longer on-calls.\nTradeoffs are real - and it’s your job to articulate them while creating new capabilities that reduce or remove the trade-offs.\nWhere to begin with metrics?\nThe easiest things first:\n- How healthy is your delivery pipeline? \n- How sustainable is your system operations? \n- How observable is your product? \nHow healthy is your delivery pipeline?\nThe initial view of engineers is - they build things. To build things, you need to have a pipeline from Idea to Production. That pipeline has stages that ultimately can be measured, each with nuanced areas that can become bottlenecks.\nA delivery pipeline should be able to sustainably take a code change to production.\nSustainably means:\n- It can be repeated indefinitely. \n- It processes changes at the rate those changes are being made. \n-",
+      "title": "Engineering Metrics for Beginners - Joseph Gefroh",
+      "url": "https://blog.jgefroh.com/p/engineering-metrics-for-beginners"
+    },
     "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9382,6 +9428,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "High-agency strategy || Matt Ström-Awn, designer-leader",
       "url": "https://mattstromawn.com/writing/high-agency-strategy/"
+    },
+    "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Agents and assistants all depend on search to provide accurate, relevant information before generating a response. The demands on search systems are changing rapidly, and open source search platforms like OpenSearch must evolve to adapt to these needs. Jon, Trey, and Doug will discuss what the \"future\" of search engines may look like, and how OpenSearch is evolving to meet these needs.",
+      "final_url": "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era",
+      "frameable": false,
+      "image_urls": [
+        "https://maven.com/api/og/free-lesson/4ead42?v=rbe8jau68z",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd3fe4umbwqdrlj.cloudfront.net%2Fmarketplace%2Fcategories%2Fbg.png&w=1536&q=75",
+        "https://maven.com/_next/image?url=%2Fapi%2Fog%2Ffree-lesson%2F4ead42%3Fv%3Drbe8jau68z&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FomzABXNQbOunn6UlOHbL_jon.jpeg&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2FUy27aL1SuinwcENgyNsg_trey-headshot-2018.jpg&w=1536&q=75",
+        "https://maven.com/_next/image?url=https%3A%2F%2Fd2426xcxuh3ht5.cloudfront.net%2F542C170CTyWZKBb3BrSE_doug.jpg&w=1536&q=75",
+        "https://asset.brandfetch.io/idiUHtjsYt/idV_uojUwe.svg",
+        "https://asset.brandfetch.io/idkKwm0IT0/idklqyFZ_8.svg",
+        "https://asset.brandfetch.io/idAgPm7IvG/id85L14isQ.svg",
+        "https://asset.brandfetch.io/idRrcMU04X/idPe8dAyv6.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Maven for Business Teach on Maven Log In Courses Workshops Free lessons AI All courses in AI Agentic AI Coding with AI AI Workflows Claude Code OpenClaw Vibe Coding AI Evals AI Transformation RAG & Search MCP AI for PMs AI for Engineers AI for Designers AI for Marketers AI for Founders Product All courses in Product AI for PMs Agentic AI AI Evals Vibe Coding Product Sense Product Discovery User Research Prototyping Growth Analytics Tech Foundations Strategy Influence Leadership Career Growth Engineering All courses in Engineering AI for Engineers Agentic AI Coding with AI Claude Code OpenClaw MCP RAG & Search AI Evals Machine Learning LLM Ops Context Eng Security System Design Leadership Career Growth Design All courses in Design AI for Designers Agentic AI Vibe Coding Prototyping Figma Design Systems User Research Product Discovery UX UI Visual Design Design Strategy Influence Leadership Career Growth Marketing All courses in Marketing AI for Marketers Agentic AI Vibe Coding Automation Content Marketing Demand Gen Go-to-Market Product Marketing Positioning Social Media Brand B2B Marketing SEO & AEO Strategy Leadership Leadership All courses in Leadership AI for Leaders Agentic AI AI Transformation AI Governance Communication Influence Strategy Management People Operations Exec Presence Storytelling Goal-setting Personal Brand Career Growth Founders All courses in Founders AI for Founders Agentic AI AI Workflows Vibe Coding Prototyping Product Sense Positioning Product Discovery Management Strategy Go-to-Market Personal Brand Leadership Fundraising PMF More All courses in More Everyone Operators Data Scientists Business Analysts User Researchers Customer Success Project Managers HR Professionals Sales People Lawyers Finance Investors Real Estate Educators Creators Free Lesson How OpenSearch is Evolving in the AI Era Part of The Frontier of AI Search • Hosted by Jon Handler, Trey Grainger, and Doug Turnbull Learn directly from Jon Handler, Trey Grainger, and Doug Turnbull Watch this lesson for free Sign up By continuing, you agree to Maven's Terms and Privacy Policy . Watch this lesson for free 55 students By continuing, you agree to Maven's Terms and Privacy Policy . Share this lesson Copy link Share this lesson Copy link Go deeper with a course AI-Powered Search: Modern Retrieval for Humans & Agents Trey Grainger and Doug Turnbull Founder, Searchkernel. Author, \"AI-Powered Search\". 18+ years leading search.. Principal Search Engineer, Author of \"AI-Powered Search\" & \"Relevant Search\". View syllabus 55 students Share this lesson Copy link Share this lesson Copy link Go deeper with a course AI-Powered Search: Modern Retrieval for Humans & Agents Trey Grainger and Doug Turnbull Founder, Searchkernel. Author, \"AI-Powered Search\". 18+ years leading search.. Principal Search Engineer, Author of \"AI-Powered Search\" & \"Relevant Search\". View syllabus What you'll learn Words, vectors, and agent loops Lexical. Semantic. Hybrid. Agents that add iterative retrieval loops that refine results across steps. What's next... Memory, context, and personalization Learn about OpenSearch's evolving agentic memory capabilities and how to employ them for personalization and chat. Search is no longer a standalone feature How vector storage, hybrid search, semantic enrichment, memory management, and agents must all integrate going forward. Why this topic matters Agents and assistants all depend on search to provide accurate, relevant information before generating a response. The demands on search systems are changing rapidly, and open source search platforms like OpenSearch must evolve to adapt to these needs. Jon, Trey, and Doug will discuss what the \"future\" of search engines may look like, and how OpenSearch is evolving to meet these needs. You'll learn from Jon Handler Building OpenSearch at AWS; Author of \"The Definitive Guide to OpenSearch\" Jon Handler is Senior Principal Solutions Architect at Amazon Web Services based in Palo Alto, CA. Jon wor",
+      "title": "How OpenSearch is Evolving in the AI Era",
+      "url": "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era"
     },
     "https://mechanical-pencil.com/?ref=sidebar": {
       "content_type": "text/html",
@@ -14288,6 +14359,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg"
     },
+    "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15881,6 +15966,20 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/16/trump-ai-export-strategy-export-control?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606166a263e4129cdae05be98d83c"
     },
+    "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a10a640e1a34f817`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba"
+    },
     "https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfec05": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -16403,6 +16502,143 @@
       "title": "Every System is a Log: Avoiding coordination in distributed applications | Restate",
       "url": "https://www.restate.dev/blog/every-system-is-a-log-avoiding-coordination-in-distributed-applications"
     },
+    "https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "This blog looks at how BI evolved, how dashboards are actually used today, and what survives when AI enters the picture — starting with the foundation that was never really about dashboards in the first place, and ending with the problem nobody in the AI hype cycle wants to talk about: who maintains it all.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/c7788c8039b41be51dfc46140493753c063f6371-2736x1536.jpg?rect=0,50,2736,1436&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/771357b3763adb9ef494d9b5a0a2bf335c4eab95-892x613.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "AI Reveals Why BI Still Matters (Hint: It’s Not Dashboards)\nAsk a BI engineer what they actually spend their time on: it's not building dashboards. More often: fixing the join that broke in the overnight pipeline, untangling the metric definition that means three different things to three different teams, or getting last week's numbers into an Excel by Monday morning. The dashboard was always the easy part.\nThis article looks at how BI evolved, how dashboards are actually used today, and what survives when AI enters the picture — starting with the foundation that was never really about dashboards in the first place, and ending with the problem nobody in the AI hype cycle wants to talk about: who maintains it all.\nThe verdict of people in the field: BI is dead (again)\nWe've heard it all. Business intelligence (BI), and especially dashboards, are dead. But every time, only to rediscover its power and resurrection whenever we need grounded data analysis in any enterprise and startup space. The same way Excel never dies, which arguably is still the most used BI tool.\nIf we look at what others from the data world say, it does sound similar. Hex says that [ dashboards were never the destination ](https://hex.tech/blog/dashboards-were-never-the-destination/) and specifies:\nStatic reporting surfaces were always a workaround for messy data and limited tooling — agentic analytics finally closes the gap between visibility and genuine insight.\nIn other words, dashboards were a workaround created because data was messy, tooling was restrictive, and asking open-ended questions of the warehouse wasn’t possible without coding. Hex continues that dashboards create more questions than they answer.\nBut they also say: respect dashboards, but stop treating them as the goal:\nDashboards still matter. They’re excellent for reporting KPIs, surfacing operational signals, and aligning leaders around shared metrics. They allow data teams to be creative in how they display these metrics and will remain a primary surface for need-to-know numbers.\nDashboards don't reason or explain why something happens, as the Hex article says. Hex argues that reliable, timely, context-aware answers are the destination.\nMike, CEO of Rill, [ says ](https://www.linkedin.com/posts/medriscoll_agents-are-blind-they-cant-see-dashboards-activity-7442685222657277952-LiRw/):\nAgents are blind—they can’t see dashboards. But they do need access to the primitives behind them. AI, and agentic working won’t kill BI, but it will make dimensional modeling, metrics, OLAP cubes, query performance, and governance more important than pretty charts. Agents will reveal what many of us have known for a long time: BI was never about dashboards.\nBenn Stancil was already saying in 2021 that [ BI is dead ](https://benn.substack.com/p/is-bi-dead), where he drew parallels to the Salesforce \"End of Software\" declaration in 2000. This is very interesting as it's almost the same statement today with AI, no more software developers needed. Benn argues that the original BI stack was one tool across the stack, but that by 2021, tools were unbundling into [ dedicated and specialized tools for each layer ](https://benn.substack.com/p/is-bi-dead).\nThe proposed future of BI should focus only on data consumption for humans, integrating both self-serve applications and deep ad-hoc analysis. This new BI would be \"legless\" (the opposite of headless, he argued back then), relying on global governance layers rather than proprietary semantic layers, and fostering cross-functional collaboration.\nThe aim is a universal tool for all data consumption, moving beyond its current diminished state of \"visualization and reporting\". Again, very similar to today's discussion, where everything is about semantics and context. Benn concluded that \"BI is dead, long live BI\".\nTake any modern data and analytics discipline, and you’ll probably find it has its roots in the work that has been historically carried out by Business Intellige",
+      "title": "AI Reveals Why BI Still Matters (Hint: It’s Not Dashboards) | Rill",
+      "url": "https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards"
+    },
+    "https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Imagine creating business dashboards by simply describing what you want to see. This is the promise of Generative Business Intelligence (GenBI). The key lies in the declarative BI stack where dashboards and metrics are defined as code rather than hidden behind graphical user interfaces.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/e3a67c04f64925037d216dff187d6babb7a5246c-2736x1536.jpg?rect=0,50,2736,1436&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/6e845cb5ea3d5b8d25ea98584778da35d1a795af-2214x1726.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/d10115062dd794fb6b04716edc9441d13f040b65-2308x1014.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/9ffa07476b8ffa844b4eaaa36eb3b0fdc90d08b5-2232x348.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/45a847a2f7c7a21c333c4001804da0a1747f058c-2290x2020.jpg?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/749bf3a329ba004a2834de49850b077562e45a19-1852x964.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "BI-as-Code and the New Era of GenBI\nThis is Part 2 of a 3 part blog series guest written by [ Simon Späti ](https://www.ssp.sh/). See [ Part 1: The Rise of the Declarative Data Stack ](https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack), and [ Part 3: Designing of a Declarative Data Stack in Practice ](https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice).\nImagine creating business dashboards by simply describing what you want to see. No more clicking through complex interfaces or writing SQL queries - just have a conversation with AI about your data needs. This is the promise of Generative Business Intelligence (GenBI).\nAt its core, GenBI delivers an unreasonably effective human interface, where we iterate quickly, based on BI-as-Code. A simplified version looks like this:\nBut what makes this possible? The key lies in the declarative BI stack as discussed in [ Part 1 ](https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack) - where dashboards and metrics are defined as code (like covid_dashboard.yaml) rather than hidden behind graphical user interfaces. The declarative approach gives AI models the context they can understand and work with: structured definitions of business metrics, relationships between facts and dimensions, and visualizations.\nIn this article, we want to explore the possibilities of GenBI today.\nUnderstanding GenBI\nGenerative business intelligence changes how people interact with data, enabling AI-driven analytics. By harnessing the power of Generative AI, GenBI makes analytics more accessible through new human interaction methods. Generative BI enables these use cases, from creating dashboards to natural language querying (typing or talking), all the way down to the data model generation if you only have the source tables. We explain the model from a top-down, [ conceptual ](https://en.wikipedia.org/wiki/Conceptual_schema) idea of what we need, and we generate dashboards, metrics, data models (snowflake/star schema, relationships, joins, even grains), entities, or even data warehouse architectures.\nA key aspect of GenBI is its declarative nature, as we discussed in the [ Declarative Data Stack ](https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack). Whether the entire stack or not, one of the most critical layers is the [ Metrics Layer ](https://www.ssp.sh/brain/metrics-layer/). Generative AI needs context to understand the data model and the company's business. The metrics layer and its semantics (also called semantic layer) are relevant for this process, as the metrics hold the semantic understanding.\nOne step further: Data modeling languages such as LookML, MDX, MAQL, Malloy language, or SQL are critical. These languages allow humans to describe and model our metrics and KPIs, from which AI models can learn. They are expressive and declarative and define the company's business logic.\nTo illustrate how GenBI leverages a declarative dashboard, let's see how Al can automatically add a new measure for average fare cost per mile to our existing metrics within the text editor:\nIn summary, combining AI models with BI tools allows business users to query data, generate reports, and derive insights using conversational language, making data analytics more accessible.\nEvolution from Traditional BI to GenBI\nBefore we discuss GenAI, let's understand the difference between today's BI and GenBI.\nTo grasp that, let's quickly follow the evolution of SQL, and how it shaped the BI tools. From traditional data marts and materialized views queried directly by the BI tool, we've built data warehouses, lakes, or lakehouses with tools such as dbt and data warehouse automation tools. Sometimes, we added an OLAP cube if we needed fast response times, typically modeled as OBT tables or wide denormalized tables.\nIn all of the different ways, SQL has been at the heart, even more with complex data pipelines and semantic layers. Even [ Large Language",
+      "title": "BI-as-Code and the New Era of GenBI | Rill",
+      "url": "https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi"
+    },
+    "https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "The convergence of embedded analytics engines (DuckDB/MotherDuck), declarative BI-as-code (Rill), and AI agent protocols (MCP) is creating a new architecture for business intelligence, one where dashb",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/deabdfb8eb711053650a786551edc16edba11989-1368x768.png?rect=0,25,1368,718&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c211cfeede71aee8c680736d621a23e3682b25d4-800x617.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/e4ffbb9981ffd2f4e3e14cf6534cd44808c5b8ae-1200x625.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/b155bed07664b3e9e8d781377a12ef01ecbc4eb9-2196x1336.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/58afd2c7950b15832a43a9e5d88770b74391444b-2192x2304.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/1fcff5d439c18e5e084a380f19048a6a5129c3e7-2104x1432.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/f46baf9585c8e0e67f03675035a379918e345e83-1600x187.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/ebf54d8b5fb8b1093b452491e0fb4ff3e78ce10d-1066x1149.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Building an Agent-Friendly, Local-First Analytics Stack with MotherDuck and Rill\nImagine going from a 100-million-row dataset to an interactive analytics app with just a few prompts. What used to take hours or days can now be done in minutes by combining local-first databases and BI tools with an agentic coding workflow.\nWhen Rill bet on YAML dashboards and CLI-first workflows in 2022, they weren't thinking about AI agents. Neither was MotherDuck when they built serverless DuckDB around the thesis that most data fits on a laptop. But it turns out, what is developer-friendly is also agent-friendly, with the needs of readable code, fast engines, and deterministic semantics.\nTimes are shifting rapidly toward CLI-first development. You know that's true when even email and calendar get their own Google CLIs. So why not have CLIs for your business metrics too?\nThis is what Rill and MotherDuck provide, including excellent developer workflows with a local-and-CLI-first approach, focusing on a developer-friendly interface and empowering users. Both work great on local laptops but can easily scale to the cloud, backed by a serverless data warehouse..\nThe convergence of embedded analytics engines (DuckDB/MotherDuck), declarative BI-as-code (Rill), and AI agent protocols (MCP) is creating a new architecture for business intelligence, one where dashboards become code, code becomes agent-readable, and analysts shift from clicking to prompting. And with 75% of cloud data warehouse queries scanning less than 1 GB[1], this opportunity is great for agentic BI. In this article, we look at how we build agentic-friendly and local-first analytic stacks with MotherDuck, Rill, and agents.\nWhy These Two Tools?\nLet's start with why do we use MotherDuck and Rill for agentic-first data tasks? As [ Ghanshyam Chodavadiya ](https://www.linkedin.com/in/cg1507/) from [ SWYM ](https://swym.ai/) says:\nQuote on why SWYM use Rill with MotherDuck for their AI-native media decision platform:\n[..] Rill lets us encode business context directly into our BI layer. Combined with MotherDuck and the Rill MCP client, it gives us flexible data control while powering automatically generated client dashboards and AI-driven insights.\nBoth MotherDuck and Rill use a sophisticated architecture that focuses on developer workflows and scales from local development with declarative configuration to cloud (e.g. with rill deploy, or md: instead of md) or even embeds into your data CI/CD or agents pipeline, very easily. All of these reasons make them suitable for modern data requirements, where we need to iterate quickly but still have a strong foundation.\nLocal-first Approach with DuckDB\nBoth tools start from a local-first approach with DuckDB as the foundation.\nFor example, the [ Local-First principle ](https://www.inkandswitch.com/essay/local-first/), that was tackled by Ink & Switch and its community compares different strengths of local workflows meant for files, but also applies to data workloads. Even more so with AI agents, which can read the context from these projects and enhance easily with the use of strong CLIs that are available on the command line.\nOr reading the [ Small Data Manifesto ](https://motherduck.com/blog/small-data-manifesto/) by MotherDuck that says \"Think small, develop locally, ship joyfully\". If you enjoy some of these principles, this data stack with DuckDB/MotherDuck as the warehouse or [ real-time analytics ](https://www.rilldata.com/blog/scaling-beyond-postgres-how-to-choose-a-real-time-analytical-database) storage and Rill as an interactive, fast, and beautiful BI tool will suit you well.\nMotherDuck works seamlessly through the DuckDB CLI, whether it is to connect through their serverless database in the cloud (connect with duckdb ':md') or to open a fully fledged notebook environment locally with duckdb --ui ([ try it ](https://duckdb.org/docs/stable/core_extensions/ui)).\nWith Rill's YAML-based dashboard and metrics layer, and a powerful CLI, you can",
+      "title": "Building an Agent-Friendly, Local-First Analytics Stack with MotherDuck and Rill | Rill",
+      "url": "https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill"
+    },
+    "https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "This blog chronicles that journey of discovery, examining the key architectural considerations and trade-offs in building a declarative data stack and its engine. We'll explore existing approaches, compare different implementation strategies, and work through practical examples",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/58db1ade540dd1b2b4dc655572fa5ad5396f059d-2736x1536.jpg?rect=0,50,2736,1436&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/1cb6a4df782a13cec40d4b16d5ae70ef0d67f9f9-1402x424.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/70122fbdbfd8c8e5dc3e2a27f8634889f95d8d03-1382x896.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Designing a Declarative Data Stack: From Theory to Practice\nThis is Part 3 of a 3 part blog series guest written by [ Simon Späti ](https://www.ssp.sh/) . See [ Part 1: The Rise of the Declarative Data Stack ](https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack), and [ Part 2: BI-as-code and GenBI ](https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi).\nWhat started as a straightforward implementation guide for a declarative data stack quickly evolved into something more fundamental. While attempting to build a system that could define an entire data stack through a single YAML file, I encountered architectural questions that challenged my initial assumptions:\n- Should we generate production-ready code from templates or create a boilerplate repository with best-in-class tools?\n- Should we leverage existing orchestration tools that already integrate with the data lifecycle or build something new?\n- Should we use Kubernetes/Docker as a compute engine?\nThese questions touch on core architectural decisions that any declarative data stack must address. In exploring my initial proof-of-concept for the [ declarative-data-stack-engine ](https://github.com/ssp-data/declarative-data-stack-engine/), I discovered that choosing between a template engine versus a starter kit or between custom infrastructure versus existing orchestration tools influences how we build and maintain data stacks at scale.\nThis article chronicles that journey, examining the key architectural considerations and trade-offs in building a declarative data stack and its engine or factory. We'll explore and compare different implementation strategies, all while focusing on creating a data stack that separates out business logic in a maintainable way.\nHow the Declarative Data Stack Transforms Data Engineering\nA quick reminder: Why do we use a declarative data stack as introduced in [ Part 1 ](https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack)? It allows us to automate the entire data stack, focusing on the business logic, not technical implementation. Tools that lack these declarative code paths are difficult to automate, because code generation is almost impossible (imagine trying to auto-generate Tableau dashboards or Informatica pipelines). By applying software engineering best practices we can build complete \"data stack compilers\" that run tests before being put into production, and build versioned, maintainable, and reproducible data stacks.\nA declarative data stack enables less technical users, can handle more significant complexity, has built-in data governance, and works well for large organizations. Essentially, designing a compiler/makefile for the data stack declared from a single function or config file.\nWhen do you know you would profit from one? Usually, it starts with these questions that we, data engineers, have asked ourselves:\n- What if we could generate the declarative code for an entire data pipeline with just a few lines of config?\n- How can we truly separate our business logic from the technical implementation?\n- Could we test the entire data stack locally before pushing it to production?\n- Could we annotate our table types – staging, slowly-changing dimension tables, fact tables – in a single config/annotation?\n- What if you could easily \"shift left\" logic by changing parameters in a config file, such as aggregating at ingestion (versus at query time)?\n- What if we could declare every piece in our data stack using a single consistent language, such as SQL?\nThese questions represent core challenges that drive the design of modern data stacks. Each question addresses a critical pain point in data engineering, and together, they point towards a compelling vision: a fully declarative approach could change how we design data stacks.\nIn this article, we will start with a simple example, then move on to one that utilizes basic templates, and finally evolve towards generating a data stack with a data orches",
+      "title": "Designing a Declarative Data Stack: From Theory to Practice | Rill",
+      "url": "https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice"
+    },
+    "https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "FinOps Made Easy: A Starter Repo to Oversee Cloud Costs from Different Hyperscalers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/09894c2a5e0bdef615553b76f51142e97d21c3ec-2736x1536.jpg?rect=0,50,2736,1436&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/b119d32087c49b351bb4a5f017b8475ac0a24967-1200x921.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/8f1e493f03051c3f2cfd529251edafe958572244-800x224.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/fb448ffaaa06cec721b5f3d576c1fbe49bc11afe-1200x699.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4416c7e777c03cf29a50801a2d9c7fbe396d44d6-1200x589.webp?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "dlt+ClickHouse+Rill: Multi-Cloud Cost Analytics, Cloud-Ready\nFollowing up on [ Part 1 ](https://www.rilldata.com/blog/multi-cloud-cost-analytics-from-cost-export-to-parquet-to-rill), where we created an entire end-to-end FinOps project to analyze cloud costs from different hyperscalers with dlt and local parquet files. In this part 2, we set up a version that works cloud-native with ClickHouse Cloud and Rill Cloud. So you can share your dashboard and it scales to any cost data you might have.\nThe work is done through a GitHub action job for illustration purposes. This can be updated or also run as an orchestration job or anywhere else. This job now runs every day and extracts data from my AWS and GCP, plus Stripe data, and then adds some randomization for demo purposes and anonymizes my actual cost data.\nSo in this article we dig into how we achieved that, what the hardest parts were, and how you can reuse this project.\nEssentially, we built Logs -> S3 -> GitHub Actions -> ClickHouse -> Rill UI with a simple open source data project. You can use the code to run locally, or with the latest version with ClickHouse and Rill Cloud.\nWhy This Matters: FinOps\nHave you heard about FinOps? FinOps is a discipline that combines financial management principles with cloud engineering and operations, providing organizations with a better understanding of their cloud spending.\nThe goal of FinOps is to maximize revenue or business value through the cloud. It isn’t to save money per se, but it certainly helps with that too. FinOps should enable the organization to control the cloud’s spending and have an overview of costs.\nWith this hands-on project you basically have a template you can use that works out of the box with tested and proven software, and you can extend modularly with dlt and easily extend more reports and dashboards with Rill, a powerful BI tool that includes an even more powerful modeling and [ Metrics Layer ](https://www.rilldata.com/blog/why-you-need-a-sql-based-metrics-layer?ref=ssp.sh).\nHow to Extend Existing dlt + Parquet + Rill to ClickHouse + Cloud\nLet’s dive into the code and how we built this. We had three steps to complete: first to ingest data into ClickHouse, then visualize and deploy the dashboards and canvas to Rill Cloud, and automate the whole process with GitHub actions.\nAs we purposely stored extracted data as local Parquet files in [ Part 1 ](https://www.ssp.sh/blog/cost-analyzer-aws-gcp/), we can now ingest this directly to ClickHouse Cloud.\nAfter you [ signed up ](https://auth.clickhouse.cloud/u/signup/?ref=ssp.sh) for ClickHouse Cloud (there’s a 30-day free trial) and [ created a service ](https://clickhouse.com/docs/getting-started/quick-start/cloud?ref=ssp.sh#1-create-a-clickhouse-service) on either GCP, AWS, or Azure, you have different options to ingest the data.\nYou could use their cloud ETL version called [ Clickpipes ](https://clickhouse.com/cloud/clickpipes?ref=ssp.sh), that works great for massive data and working with a few buttons. But as I am an engineer, and I wanted a declarative-first data stack, a code-first approach that you can easily reuse, I chose the other handy option that ClickHouse offers with “Connect”.\nWith connect you have different options:\nAs we use dlt in this project with Python, I chose that option. ClickHouse provides you with all the instructions:\npip install clickhouse-connect\nand\nimport clickhouse_connect\nif __name__ == '__main__':\n    client = clickhouse_connect.get_client(\n        host='<YOUR-HOST>.europe-west4.gcp.clickhouse.cloud',\n        user='default',\n        password='<PASSWORD>',\n        secure=True\n    )\n    print(\"Result:\", client.query(\"SELECT 1\").result_set[0][0])\nThe user and password are seen above (default is default) and you generate the password. After you generated the password, store it for the ENV variable and it should look like this:\nAdd all the ENV variables to the .dlt/secrets.toml (see [ secrets.toml.example ](https://github.com/ssp-data/cloud-",
+      "title": "dlt+ClickHouse+Rill: Multi-Cloud Cost Analytics, Cloud-Ready | Rill",
+      "url": "https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready"
+    },
+    "https://www.rilldata.com/blog/why-pivot-tables-never-die": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "This blog explores why pivot tables have endured for over decades, how they evolved in the AI era, and why they might be the key to making business intelligence (BI) accessible to everyone.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.rilldata.com/blog/why-pivot-tables-never-die",
+      "frameable": null,
+      "image_urls": [
+        "https://www.rilldata.com/.netlify/images?url=_astro%2Frill-og-image-old.eZQSserQ.png&w=900&h=450",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8f44e6375b4e3fb1ef1be6c07aca6d06b42d90b-2736x1536.png?rect=0,50,2736,1436&w=1200&h=630&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/950cae7e75ed235b43c0da452e39d74ebc7e810b-1456x872.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/20e5d86a8d57769b2cd6eb7b4b280c89a836794a-1600x530.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/fc81ae1209a251374918eb37f2776c87d7b2672c-500x500.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/ff4a2e9547d947f61df822b7584b56786093935b-1334x1106.png?w=1200&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/c8dcf5f71d5bde5dd39a78a18a7952c5a4237614-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/0bf70d58287514f832936e69761ca30d27294cf9-2736x1536.jpg?rect=216,0,2304,1536&w=600&h=400&auto=format",
+        "https://cdn.sanity.io/images/w6qywntd/production/4bd2bdfcf17bf92ec57efbcb101b951371fe043a-1350x550.jpg?rect=263,0,825,550&w=600&h=400&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Why Pivot Tables Never Die\nWhile everyone's talking about AI revolutionizing business, there's a quiet renaissance happening with one of the most influential business tools created: the pivot table.\nIn 2025, we're witnessing something remarkable - modern data tools are bringing pivot tables back to the forefront. But why would cutting-edge platforms invest in a decades-old spreadsheet feature? The answer lies in what made pivot tables revolutionary in the first place: turning complex data into instant insights without writing a single line of code.\nThis article is about how the simplest tools often solve the hardest problems. Pivot tables have shaped how businesses understand their data: From transforming 15-minute database queries into 2-second visual explorations. With modern computing power behind them, they're more relevant than ever. They democratize data analysis for everyone, from CEOs to analysts.\nWe'll explore why pivot tables have endured for over three decades, how they may evolve in the AI era, and why they will continue to be the key to making business intelligence (BI) accessible to everyone.\nSo, What Exactly is a Pivot Table?\nFirst, let's clarify what a pivot table is and why we would use it. Pivot tables emerged with the growth of spreadsheets and revolutionized the analytical capabilities within them early on.\nA pivot table is a separate sheet, usually in spreadsheet-style software, that aggregates and summarizes tables (within the spreadsheet, databases, or business intelligence programs) elegantly and simply. It's a [ WYSIWYG ](https://en.wikipedia.org/wiki/WYSIWYG) editor, like a [ REPL ](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) for tables. You can drill and slice; you get direct feedback, and it's fast and instant. Compare this to an SQL query that you must run before getting any results.\nA pivot table lets you drill down, add, and remove dimensions and metrics (count, sums) quickly, and you can explore the data on the fly. It's easy to use and get a feel for the data in front of you.\nCore Components and Functionality\nIt has four key components:\n- Row and column dimensions that define how data should be grouped\n- Filters for selecting only the data you need\n- Values specify what aggregate calculations (SUM, COUNT, AVG) should be performed on the grouped numerical data.\nThis structure allows users to \"slice and dice\" complex datasets without understanding the underlying data architecture or writing complex formulas. It's rigid in its form but flexible in its application. With pivot tables, users can explore how business metrics like revenue, activity per user, and transaction volume vary across different dimensional contexts such as geographic region, fiscal period, or industry.Its clear boundaries and constraints on the four components make it easy to understand. Companies can implement pivot tables in every tool in the same way. For that to work, no prerequisites exist except that the input data must be tabular.\nThe Origin Story\nLet's explore what else happened during the pivot table inception and its origin story.\nIn one image, the evolution looks like this, with a long period of double-entry bookkeeping as the way of doing accounting, up to the inception of pivot tables and the domination of Excel, until today with modern pivot tables.\nThere was a long period when people were doing [ double-entry bookkeeping ](https://en.wikipedia.org/wiki/Double-entry_bookkeeping). Double-entry bookkeeping developed during the Renaissance (credited to Luca Pacioli in 1494). It is the foundational system of modern accounting.\nAccountants used paper ledgers with rows and columns to record transactions. Each entry included debits and credits, ensuring that the totals were balanced. The structured layout of rows and columns for organizing data inspired the spreadsheet design. Digital spreadsheets made this possible digitally, faster, and more automated. Because the use cases are endless, everyone",
+      "title": "Why Pivot Tables Never Die | Rill",
+      "url": "https://www.rilldata.com/blog/why-pivot-tables-never-die"
+    },
     "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16513,6 +16749,90 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "grill-with-docs — mattpocock/skills",
       "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
+    },
+    "https://www.ssp.sh/blog/agentic-data-modeling/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Master the three pillars of agentic data modeling: Metrics SQL for semantics, sub-second analytics for speed, and AI guardrails for trusted insights.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.ssp.sh/blog/agentic-data-modeling/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.ssp.sh/blog/agentic-data-modeling/featured-image.png",
+        "https://www.ssp.sh/logo_ssp_main.png",
+        "https://www.ssp.sh/blog/agentic-data-modeling/ai-adopters-are-overconfident.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/rill-ai-instructions-nvim.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/bus-matrix.png",
+        "https://www.ssp.sh/blog/agentic-data-modeling/sql-is-great.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/metrics-should-be-sql.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/agentic-data-modeling-1.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/agentic-data-modeling-2.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/agentic-data-modeling-3.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/agentic-data-modeling-4.webp",
+        "https://www.ssp.sh/blog/agentic-data-modeling/agentic-data-modeling-5.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "In data analytics, we’re facing a paradox. AI agents can theoretically analyze anything, but without the right foundations, they’re as likely to hallucinate a metric as to calculate it correctly. They can write SQL in seconds, but will it answer the right business question? They promise autonomous insights, but at what cost to trust and accuracy?\nThese days, everyone is embedding AI chat in their product. But to what end? Does it actually help, or would users rather turn to tools like Claude Code when they need real work done? The real questions are: how can we model our data for agents to reliably consume, and how can we use agents to develop better data models?\nAfter spending the last year exploring where LLMs have genuine leverage in analytics (see my writing on [GenBI](https://www.ssp.sh/blog/bi-as-code-and-genbi/) and [Self-Serve BI](https://www.ssp.sh/blog/self-service-bi-ai/)), I’ve identified three essential pillars that make agentic data modeling actually work: semantics as the shared language both humans and AI need to understand metrics, speed through sub-second analytics that lets you verify numbers before they become decisions, and stewardship with guardrails that guide without constraining. The TL;DR? AI needs structure to understand, humans need speed to verify, and both need boundaries to stay productive.\nIn this forward-looking article, we investigate how to build data stacks where AI augments rather than overtakes your analytics. The future of data modeling isn’t humans or agents—it’s humans with agents, each doing what they do best.\nThe Three Pillars for Agent-Based Modeling\nSo why are these three pillars—semantics, speed, and stewardship—important for data modeling? If we look at how metrics are structured and see how SQL with its metrics works, we can then understand how LLMs can help us model our data stack to answer the questions we want to understand as business owners. With the right guardrails in place, agentic modeling can be a big success.\nLet’s start with the foundation of agentic workflows in data modeling, condensed into the three pillars below.\n1. Semantics: Understanding and Context for Human and AI\nSemantics and their metrics (layer) provide an open, structured, and explorable context for LLMs to iteratively learn from. One-Big-Table (OBT), OLAP-style tables with business [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) on top provide a curated target for agents to operate on, with immediate responses for the model to iterate on.\nWhile semantics and metrics are key, the language is often SQL. It’s the language of data that AI agents understand better than natural language (English). It’s more accurate and more detailed, avoiding subtle misunderstandings (end of hour? end of day? or until now?). Instead of writing a custom query language, we can use the well-established, declarative language of data. Agents should be able to query existing metrics and create new metrics on the fly, using SQL expressions (aka Metrics SQL; more on this later).\n2. Speed: Sub-Second Iterations\nAgents embedded in applications must be quick. Latency kills productivity and idea iteration. Especially in BI or data work, fast elaboration allows users to quickly iterate and verify the outcome numbers. The longer we wait, the less likely we are to thoroughly battle-test the numbers. Sub-second response times are needed to stay focused. Modeling for speed is critical. Think of real-time analytics databases such as ClickHouse or DuckDB.\n3. Stewardship: Guardrails and Human Judgment\nThe last pillar is adding constraints. To make AI useful and not introduce errors, we need a way of collaborating with the large language model and telling it what to do and what not to do. This is called [data stewardship](https://en.wikipedia.org/wiki/Data_steward). This is a well-defined term from master data management times, and we can reuse this knowledge for agentic workflows as well.\nWe can define some do’s and don’ts with an a",
+      "title": "Data Modeling for the Agentic Era: Semantics, Speed, and Stewardship | ssp.sh",
+      "url": "https://www.ssp.sh/blog/agentic-data-modeling/"
+    },
+    "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "FinOps Made Easy: A Starter Repo to Oversee Cloud Costs from Different Hyperscalers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/featured-image.png",
+        "https://www.ssp.sh/logo_ssp_main.png",
+        "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/clickhouse-connect.webp",
+        "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/setup-clickhouse.webp",
+        "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/clickhouse.webp",
+        "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/rill.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Following up on [Part 1](https://www.ssp.sh/blog/cost-analyzer-aws-gcp/), where we created an entire end-to-end FinOps project to analyze cloud costs from different hyperscalers with dlt and local parquet files. In this part 2, we set up a version that works cloud-native with ClickHouse Cloud and Rill Cloud. So you can share your dashboard and it scales to any cost data you might have.\nThe work is done through a GitHub action job for illustration purposes. This can be updated or also run as an orchestration job or anywhere else. This job now runs every day and extracts data from my AWS and GCP, plus Stripe data, and then adds some randomization for demo purposes and anonymizes my actual cost data.\nSo in this article we dig into how we achieved that, what the hardest parts were, and how you can reuse this project.\nEssentially, we built  Logs -> S3 -> GitHub Actions -> Clickhouse -> Rill UI  with a simple open source data project. You can use the code to run locally, or with the latest version with ClickHouse and Rill Cloud.\nGet started with cost reports and use the template at [cloud-cost-analyzer](https://github.com/ssp-data/cloud-cost-analyzer). It’s a scaffold for your FinOps immediately with dlt, ClickHouse, GitHub Actions and Rill metrics and dashboards. As usual, easily extendable with common and local declarative configurations through YAML, Python and SQL. Continue reading for more information. PS: Find the first local version at [branch  v1](https://github.com/ssp-data/cloud-cost-analyzer/tree/v1).\nWhy This Matters: FinOps\nHave you heard about FinOps? FinOps is a discipline that combines financial management principles with cloud engineering and operations, providing organizations with a better understanding of their cloud spending.\nThe goal of FinOps is to maximize revenue or business value through the cloud. It isn’t to save money per se, but it certainly helps with that too. FinOps should enable the organization to control the cloud’s spending and have an overview of costs.\nWith this hands-on project you basically have a template you can use that works out of the box with tested and proven software, and you can extend modularly with dlt and easily extend more reports and dashboards with Rill, a powerful BI tool that includes an even more powerful modeling and [Metrics Layer](https://www.rilldata.com/blog/why-you-need-a-sql-based-metrics-layer).\nIn a sense, FinOps is a dedicated business intelligence application with a dedication to cost overview and finances, paired with operation and monitoring.\nHow to Extend Existing dlt + Parquet + Rill to ClickHouse + Cloud\nLet’s dive into the code and how we built this. We had three steps to complete: first to ingest data into ClickHouse, then visualize and deploy the dashboards and canvas to Rill Cloud, and automate the whole process with GitHub actions.\nAs we purposely stored extracted data as local Parquet files in [Part 1](https://www.ssp.sh/blog/cost-analyzer-aws-gcp/), we can now ingest this directly to ClickHouse Cloud.\nAfter you [signed up](https://auth.clickhouse.cloud/u/signup/) for ClickHouse Cloud (there’s a 30-day free trial) and [created a service](https://clickhouse.com/docs/getting-started/quick-start/cloud#1-create-a-clickhouse-service) on either GCP, AWS, or Azure, you have different options to ingest the data.\nYou could use their cloud ETL version called [Clickpipes](https://clickhouse.com/cloud/clickpipes), that works great for massive data and working with a few buttons. But as I am an engineer, and I wanted a declarative-first data stack, a code-first approach that you can easily reuse, I chose the other handy option that ClickHouse offers with “Connect”.\nWith connect you have different options:\n  \nAs we use dlt in this project with Python, I chose that option. ClickHouse provides you with all the instructions:\n|  |  | \nand\n|  |  | \nThe user and password are seen above (default is default) and you generate the password. After you generated the password, st",
+      "title": "Dlt+ClickHouse+Rill: Multi-Cloud Cost Analytics, Cloud-Ready | ssp.sh",
+      "url": "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/"
+    },
+    "https://www.ssp.sh/blog/rise-of-declarative-data-stack/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Discover how declarative data stacks are transforming modern data engineering workflows. Explore the evolution from imperative to declarative systems, and learn how tools like Kubernetes, dbt, and Airflow are shaping the future of data architecture.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.ssp.sh/blog/rise-of-declarative-data-stack/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.ssp.sh/blog/rise-of-declarative-data-stack/featured-image.png",
+        "https://www.ssp.sh/logo_ssp_main.png",
+        "https://www.ssp.sh/blog/rise-of-declarative-data-stack/xml.png",
+        "https://www.ssp.sh/blog/rise-of-declarative-data-stack/data-engineering-lifecycle.webp",
+        "https://www.ssp.sh/blog/rise-of-declarative-data-stack/rill-dashboard.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "Data stacks have come a long way, evolving from monolithic, one-fits-all systems like Oracle/SAP to today’s modular open data stacks. This begs the question, what’s next? Or why is the current not meeting our needs?\nAs we see more analytics engineering and software best practices, embracing codeful, Git-based, and more CLI-based workflows, the future looks more code-first. Beyond SQL transformations, across the entire data stack. From ingestion to transformation, orchestration, and measures in dashboards—all defined declaratively.\nBut what does this shift towards declarative data stacks mean? How does it change how we build and manage data stacks? And what are the implications for us data professionals? Let’s find out in this article.\nA Brief History of Declarative Systems\nOften, we forget how hard it was in the old days.\nLet’s take [Fortran](https://en.wikipedia.org/wiki/Fortran), one of the earliest high-level programming languages. It was revolutionary for its time, but it required programmers to think in terms of the computer’s architecture and know the ins and outs of everything.\nOr SQL, did you know it’s declarative? Or Markdown, HTML, or Kubernetes? Most of them are growing in enthusiasm and support each year[1](https://www.ssp.sh#fn:1), but why? The below table gives you an idea of how declarative is more straightforward, whereas imperative is very verbose and hard to read.\n| Comparison | Declarative | Imperative | \n|---|---|---|\n| Data Transformation (NumPy vs. Fortran) |  |  | \n| Text Formatting (Markdown vs. Manual Text Manipulation) |  |  | \n| Data Query (SQL vs. Procedural Code) |  |  | \n| Container Orchestration (Kubernetes vs. Manual Setup) |  | (Multiple manual steps to set up and manage containers across multiple servers) | \n- SQL for database queries\n- Functional programming languages\n- Declarative UI frameworks (e.g. Rill, Evidence, React)\n- Configuration management tools (e.g. Kubernetes)\nExamples of Declarative Data Stack (Airflow/dbt/Kubernetes/Rill)\nWith Kubernetes, you declare what you want, and the system will bring it to that state. This means the how-to is abstracted away, and you can focus on the what of your app.\nOn the other hand, using Airflow, you define every little step of the how inside your DAG; mixing business logic with technical boilerplate makes it inherently complicated and hard to decouple and get clarity in your runtime pipelines.\nIf you see Dagster, where you have “only” the business logic, what you want to do as part of your DAG, and everything else is outsourced into [resources](https://docs.dagster.io/concepts/resources) or [Dagster Pipes](https://docs.dagster.io/concepts/dagster-pipes), defining your compute with a [simple annotation](https://github.com/dagster-io/dagster-modal-demo/blob/60f889cb7ce15fb09da4680bf314cf1d35095d7d/dagster_modal_demo/pipeline_factory.py#L74) compute_kind=\"modal\" or compute_kind=\"spark\", not needing to care if it’s locally or on production, shows you the power of declarative with the side-effect of knowing your tools.\nComparing dbt with SQLMesh is another one, where SQLMesh understands plus parses the SQL with [SQLGlot](https://github.com/tobymao/sqlglot) to get a semantic understanding of what the SQL does, giving it advances for powerful context-aware functions that dbt won’t be able to do.\nSemantic Layers and BI tools define metrics within YAML (Cube, Rill), dashboards can be created entirely in Markdown (Evidence), and data pipelines are created on top of YAML (Kestra, Dagster).\nCall it Infrastructure as Code, Visualization as Code, BI as Code, or anything as code. YAML engineering, or DSL (Domain Specific Language)—no matter what, it’s the way the data stack evolved to empower non-programmers to create data pipelines and infrastructure without losing the benefits of SW engineering best practices through declarative methods.\nWhat Is a Declarative Data Stack?\nA declarative data stack is a set of tools and, precisely, its configs can be thought of a",
+      "title": "The Rise of the Declarative Data Stack | ssp.sh",
+      "url": "https://www.ssp.sh/blog/rise-of-declarative-data-stack/"
+    },
+    "https://www.ssp.sh/blog/self-service-bi-ai/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Looking at your comprehensive article about conversational BI and MCP, here's an SEO-optimized description:",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.ssp.sh/blog/self-service-bi-ai/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.ssp.sh/blog/self-service-bi-ai/featured-image.png",
+        "https://www.ssp.sh/logo_ssp_main.png",
+        "https://www.ssp.sh/blog/self-service-bi-ai/verify-numbers.png",
+        "https://www.ssp.sh/blog/self-service-bi-ai/conversational_bi_flow.webp",
+        "https://www.ssp.sh/blog/self-service-bi-ai/genbi_rill_mock.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Two decades ago, we talked about self-serve business intelligence when we could filter dashboards compared to pixel-perfect reports. Today, twenty years later, does conversational BI through MCP and semantic context finally deliver on the true promise of self-serve by allowing us to prompt our way through data analysis?\nWith the right setup, conversations can generate BI artifacts. When we chat with a large language model about data, the output is typically narrow—a single number, a specific interpretation tied to one problem. But what if we could transform these focused conversations into comprehensive insights that executives can act on? What if narrow analysis could expand into full organizational views, complete with interactive filters and explorable dimensions?\nIn Part 1, [BI-as-Code, and the New Era of GenBI](https://www.ssp.sh/blog/bi-as-code-and-genbi), we explored iterating through BI dashboards and models with generative AI. This Part 2 dives deeper into how conversational BI transforms the human workflow and finally solves the self-serve promise that’s persisted for decades. We’ll examine the different conversational styles emerging in BI, the three distinct output types that matter most, and why Model Context Protocol (MCP) represents such a fundamental shift.\nThe goal is to showcase the convergence of AI and BI, which enables more quantitative insights than traditional BI ever could.\nGenBI, What Is It? A Recap\nAt its core, GenBI delivers an effective human interface that iterates quickly, mostly based on BI-as-Code. In [BI-as-Code and the New Era of GenBI](https://www.ssp.sh/blog/bi-as-code-and-genbi), we illustrated how an iterative and refined process with generative tools can improve the overall workflow compared to a more manual process.\nAs a recap, GenBI shifts how we create and interact with business intelligence by leveraging AI large language models. These understand the business context through BI artifacts. Unlike traditional BI tools that hide business logic in proprietary UI configurations, GenBI defines dashboards and metrics as code, such as YAML or SQL. This provides AI models with the semantic context to understand how metrics are calculated, how dimensions relate, and what domain knowledge drives the business.\nThe result is an interface where non-technical business people can describe their analytical needs in plain language and receive instant dashboards in seconds rather than hours.\nWhy Generative BI, why Conversational BI?\nDespite the hype around artificial intelligence, I believe business intelligence interfaces are the best place for using LLMs.\nWithin BI, we have domain knowledge from the organization, the field, and the business. It’s the convergence between the business and technical stack, empowering business and domain experts to do more themselves and [shift more left](https://www.rilldata.com/blog/what-shifting-left-means-and-why-it-matters-for-data-stacks) while verifying the numbers during creation.\nDomain experts know the business and numbers best, so they are also the best ones to check the numbers and iteratively create BI artifacts such as dashboards and visuals. It’s a continuous, iterative human-AI collaboration, where BI-as-Code is the enabler for collaboration via YAML or SQL definitions.\nWith the latest Model Context Protocol (MCP) added to the mix, LLMs get direct access to the underlying database. This makes LLMs more autonomous and accurate, as they can verify the actual facts and numbers by querying the database.\nGenerative BI ultimately enables a better BI workflow. It changes the way people interact with data by combining the power of natural language and analytics, enabling conversational BI.\nWhere We Are Coming From: Self-Serve BI\nLet’s look back a couple of years, for example, in 2003, when I started my career in data. We were delivering pixel-perfect reporting, and a little later switched to dashboards with the tool stack of Oracle and Microsoft. We called it revo",
+      "title": "Has Self-Serve BI Finally Arrived Thanks to AI? | ssp.sh",
+      "url": "https://www.ssp.sh/blog/self-service-bi-ai/"
     },
     "https://www.subbu.org/essays/2026/a-lesson-from-the-cockpit/": {
       "cleaner_v": 2,
@@ -21999,8 +22319,8 @@
     "2069107648486646108": [
       "https://x.com/VKazulkin/status/2069107648486646108",
       "https://www.hollandtech.net/claude-is-not-your-architect",
-      "https://x.com/VKazulkin/status/2069472804639256935",
-      "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/"
+      "https://x.com/VKazulkin/status/2069462486668152922",
+      "https://blog.jgefroh.com/p/engineering-metrics-for-beginners"
     ],
     "2069107865219166548": [
       "https://x.com/NicholasPuru/status/2069107865219166548",
@@ -22102,10 +22422,14 @@
       "https://x.com/TheEconomist/status/2069294381903790351",
       "https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
+    "2069337869622071784": [
+      "https://x.com/axios/status/2069337869622071784",
+      "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606236a32afd2479a3d090dbfeaba"
+    ],
     "2069362498663317737": [
       "https://x.com/kmad/status/2069362498663317737",
       "http://x.com/i/article/2068874313608871936",
-      "https://x.com/kmad/status/2068863358850248890"
+      "https://x.com/kmad/status/2069588926281523479"
     ],
     "2069369115630870771": [
       "https://x.com/SergioPaniego/status/2069369115630870771",
@@ -22122,6 +22446,21 @@
     "2069393001189896200": [
       "https://x.com/navidnathoo/status/2069393001189896200",
       "http://x.com/i/article/2069389566222671872"
+    ],
+    "2069406009286709657": [
+      "https://x.com/sspaeti/status/2069406009286709657",
+      "https://www.rilldata.com/blog/ai-reveals-why-bi-still-matters-hint-its-not-dashboards",
+      "https://www.ssp.sh/blog/self-service-bi-ai/",
+      "https://www.rilldata.com/blog/building-an-agent-friendly-local-first-analytics-stack-with-motherduck-and-rill",
+      "https://www.rilldata.com/blog/bi-as-code-and-the-new-era-of-genbi",
+      "https://www.rilldata.com/blog/why-pivot-tables-never-die",
+      "https://www.ssp.sh/blog/rise-of-declarative-data-stack/",
+      "https://www.rilldata.com/blog/designing-a-declarative-data-stack-from-theory-to-practice",
+      "https://www.ssp.sh/blog/finops-dlt-clickhouse-rill/",
+      "https://www.rilldata.com/blog/dlt-clickhouse-rill-multi-cloud-cost-analytics-cloud-ready",
+      "https://x.com/sspaeti/status/2069413104266400073",
+      "https://www.ssp.sh/blog/agentic-data-modeling/",
+      "https://x.com/sspaeti/status/2069668143639769146"
     ],
     "2069406736797069692": [
       "https://x.com/wadefoster/status/2069406736797069692",
@@ -22189,26 +22528,32 @@
     "2069458978569146557": [
       "https://x.com/justinsunyt/status/2069458978569146557",
       "http://x.com/i/article/2069183289941004288",
-      "https://x.com/justinsunyt/status/2069557700753809721",
       "https://x.com/justinsunyt/status/2069561789701132420",
+      "https://x.com/justinsunyt/status/2069557700753809721",
       "https://x.com/justinsunyt/status/2069567817595412554",
       "https://x.com/justinsunyt/status/2069478354173190504",
-      "https://x.com/justinsunyt/status/2069602075978432903",
-      "https://x.com/justinsunyt/status/2069485982605561933"
+      "https://x.com/justinsunyt/status/2069485982605561933",
+      "https://x.com/justinsunyt/status/2069602075978432903"
+    ],
+    "2069462486668152922": [
+      "https://x.com/VKazulkin/status/2069462486668152922",
+      "https://blog.jgefroh.com/p/engineering-metrics-for-beginners",
+      "https://x.com/VKazulkin/status/2069472804639256935",
+      "https://aws.amazon.com/de/about-aws/whats-new/2026/06/aws-lambda-microvms/"
     ],
     "2069466294718759161": [
       "https://x.com/realJessyLin/status/2069466294718759161",
       "https://x.com/realJessyLin/status/2069475702001532998",
       "https://x.com/realJessyLin/status/2069479650854891670",
-      "https://x.com/realJessyLin/status/2069477907064660134",
       "https://x.com/realJessyLin/status/2069484772477526111",
-      "https://x.com/realJessyLin/status/2069566797385535622",
+      "https://x.com/realJessyLin/status/2069477907064660134",
       "https://x.com/realJessyLin/status/2069567221731659897",
       "https://x.com/realJessyLin/status/2069567573365317836",
+      "https://x.com/realJessyLin/status/2069566797385535622",
       "https://x.com/realJessyLin/status/2069477705255678064",
       "https://x.com/realJessyLin/status/2069477864668590292",
-      "https://x.com/realJessyLin/status/2069480472317743433",
       "https://x.com/realJessyLin/status/2069482500536340657",
+      "https://x.com/realJessyLin/status/2069480472317743433",
       "https://x.com/realJessyLin/status/2069495967037186183",
       "https://x.com/realJessyLin/status/2069476858232766926",
       "https://x.com/realJessyLin/status/2069578515385926079",
@@ -22241,6 +22586,13 @@
     "2069555025345700221": [
       "https://x.com/nifinet/status/2069555025345700221"
     ],
+    "2069582981316923772": [
+      "https://x.com/softwaredoug/status/2069582981316923772",
+      "http://maven.com/search-school/ai-powered-search",
+      "https://x.com/softwaredoug/status/2069583076024365273",
+      "https://x.com/softwaredoug/status/2069458655754191297",
+      "https://maven.com/p/4ead42/how-open-search-is-evolving-in-the-ai-era"
+    ],
     "2069586039606542354": [
       "https://x.com/tonygentilcore/status/2069586039606542354",
       "http://x.com/i/article/2069582204607614976"
@@ -22252,9 +22604,10 @@
     "2069615596506083728": [
       "https://x.com/9hills/status/2069615596506083728",
       "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/",
-      "https://x.com/9hills/status/2069449128850211087"
+      "https://x.com/9hills/status/2069619255843422439",
+      "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg"
     ]
   },
-  "updated_at": "2026-06-24T04:35:53Z",
+  "updated_at": "2026-06-24T08:33:22Z",
   "window": "recent"
 }
