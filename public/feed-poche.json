@@ -5,15 +5,15 @@
       "name": "Tools"
     },
     {
-      "count": 447,
+      "count": 448,
       "name": "Development"
     },
     {
-      "count": 339,
+      "count": 340,
       "name": "Design"
     },
     {
-      "count": 329,
+      "count": 330,
       "name": "Articles"
     },
     {
@@ -38,8 +38,110 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2370,
+  "item_count": 2373,
   "items": [
+    {
+      "category": "Development",
+      "created_at": "2026-06-24T01:29:30.999042Z",
+      "description": "A fast, multipurpose and lightweight JavaScript animation library",
+      "domain": "t.co",
+      "embed_type": "",
+      "id": "k170zt68wjgmebt0kdg0wsb2j98989pg",
+      "og_image_url": "https://animejs.com/media/pages/documentation/adapters/threejs-adapter/3d5294a7ea-1782139876/generated-og-image.en.png",
+      "recommended_at": "2026-06-24T01:44:11.551000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "three-js",
+        "javascript",
+        "animation"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-24T01:44:11.551000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Three.js adapter | Adapters | Documentation | Anime.js | JavaScript Animation Engine",
+      "url": "https://t.co/Cup0WyNX48",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-24T04:50:02.736340Z",
+      "article_image_urls": [
+        "https://s3.amazonaws.com/frere-jones-web/font/families/social_images/000/000/083/large/Constrictor_Social_Card.png?1781827982"
+      ],
+      "article_title_extracted": "Frere-Jones Type",
+      "category": "Design",
+      "created_at": "2026-06-23T14:48:25.013650Z",
+      "description": "Form held in productive tension, a typeface of perpetual motion",
+      "domain": "frerejones.com",
+      "embed_type": "",
+      "id": "k17d8b78dx1g7f255q6yrgx955896rhv",
+      "og_image_url": "https://s3.amazonaws.com/frere-jones-web/font/families/social_images/000/000/083/large/Constrictor_Social_Card.png?1781827982",
+      "recommended_at": "2026-06-24T01:44:04.788000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "type-design",
+        "fonts"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-24T01:44:04.788000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Frere-Jones Type",
+      "url": "https://frerejones.com/families/constrictor",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F301d5ee481a352435c048a9df7ce172b9617b05f-2400x1260.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F1cbbe8ed6d2b55d5f27deaf44216f7e2b8ed29b0-1920x1080.png&w=3840&q=75"
+      ],
+      "article_text": "Introducing Claude Tag\nClaude Tag is a new way for teams to work with Claude.\nWe’re starting on Slack, which Claude can join as a team member. Grant Claude access to selected channels, and connect it to whichever tools, data—and even codebases—you choose. Then, anyone in the channel can tag @Claude in, and delegate tasks to it while they focus on other work. Claude builds context by remembering relevant information from the channels it’s in, and can plan out tasks to complete in the future.\nWe see Claude Tag as the beginning of an evolution of Claude Code: it makes the model even more proactive, and it works better with a full team. Tagging @Claude is now one of the main ways we get things done at Anthropic. Today, 65% of our product team’s code is created by our internal version of Claude Tag. The same pattern is now spreading well beyond engineering—we’re tagging Claude to chase down product metrics and data, work through support tickets, or even help find the root cause of tricky bugs.\nWe’re launching Claude Tag on Slack, since it’s a natural home for collaborative work between teams and AI, and where much of Anthropic’s day-to-day work already happens. It’s available today in beta for Claude Enterprise and Team customers. Our goal is to expand where it’s available more widely, so that teams can tag @Claude in the many other places they work.\nWorking with @Claude\nIf you’ve worked with Claude Code or Cowork before, Claude Tag will feel familiar. Tag @Claude with a request in simple terms and it’ll break its task down into stages and then work through them in turn, using the tools it has access to. Once it’s done, it’ll respond in a Slack thread with what it’s created.\nBut tagging Claude comes with a few new advantages:\n@Claude is multiplayer. Within a given Slack channel, there’s one Claude that interacts with everyone. This means that anyone can see what it’s working on, and can pick up the conversation from where the last person left off. This makes tagging Claude very different from working within a single chat or for a single task—it’s much more like interacting collaboratively with a teammate.\n@Claude learns over time. As Claude follows along with its channel, it builds more context about the work. This means that users don’t need to explain things to it from scratch over and over again. And Claude can even automatically learn from other Slack channels and data sources, if it’s granted permission. (It doesn’t report from private channels.) This gives it the tacit knowledge necessary for it to provide the best possible work.\n@Claude takes initiative. If “ambient” behavior is enabled, Claude will proactively keep you updated about whatever it thinks you might need to know. It’ll flag relevant information from across the channels it’s in and the tools it’s connected to, and follow up on threads or tasks that have gone quiet without being resolved.\n@Claude works asynchronously. Set Claude a task, and you can focus on your other priorities while it works. It can also schedule tasks for itself, pursuing a project autonomously over hours or days. We’ve found this particularly helpful at Anthropic: we now spend much more of our time delegating tasks to many Claudes in parallel.\nYou can also send Claude direct messages: it’ll respond privately, using the personal tools and connectors you’ve set up.\nGetting started\nWe’ve designed Claude Tag with teams and organizations in mind: @Claude’s access to sensitive data and task-specific tools can be very tightly controlled.\nTo get up and running, system administrators specify which tools and information the model should have access to, in which channels. Think of it as creating separate Claude identities for different uses: everything, including its memories, will stay scoped to the channels defined by the administrators. For example, a model set up for sales work won’t pass on memories to one set up for engineering; nor will it give engineers access to any sales data or tools. More inf",
+      "article_title_extracted": "Introducing Claude Tag \\ Anthropic",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-24T01:24:02.149431Z",
+      "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "domain": "www.anthropic.com",
+      "embed_type": "",
+      "id": "k17e4mk6bc4fkkyv9m3x2q5mch8980tp",
+      "og_image_url": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
+      "recommended_at": "2026-06-24T01:44:01.873000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-safety"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-24T01:44:01.873000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Introducing Claude Tag \\ Anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-06-23T15:38:12.611251Z",
@@ -103511,7 +103613,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2211,
+      "count": 2214,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -103547,5 +103649,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-23T22:03:06.948064Z"
+  "updated_at": "2026-06-24T04:50:09.677665Z"
 }
