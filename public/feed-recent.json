@@ -144,19 +144,6 @@
       "title": "ai-cli",
       "url": "http://ai-cli.dev"
     },
-    "http://aiandtheattorney.com": {
-      "content_type": "text/html",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://aiandtheattorney.com/",
-      "frameable": true,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Hostinger Horizons",
-      "url": "http://aiandtheattorney.com"
-    },
     "http://aisolo.beehiiv.com/subscribe": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -737,32 +724,6 @@
       "text_excerpt_zh": "",
       "title": "Mstack | AI-Native Chemical R&D and Manufacturing",
       "url": "http://mstack.ai"
-    },
-    "http://myfulcrumai.com": {
-      "content_type": "text/html",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://myfulcrumai.com",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Hostinger Horizons",
-      "url": "http://myfulcrumai.com"
-    },
-    "http://mylitigationshield.com": {
-      "content_type": "text/html",
-      "description": "",
-      "extraction_source": "trafilatura",
-      "final_url": "https://mylitigationshield.com/",
-      "frameable": true,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "MyLitigationShield — Your Lawsuit First-Aid Kit",
-      "url": "http://mylitigationshield.com"
     },
     "http://navbar.gallery": {
       "content_type": "text/html; charset=utf-8",
@@ -1368,54 +1329,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058497582888886272"
-    },
-    "http://x.com/i/article/2058604468850069504": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058604468850069504",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058604468850069504/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJGh7ShXwAASMud?format=jpg&name=900x900)](http://x.com/i/article/2058604468850069504/asdennison/article/2058605103192371209/media/2058604544641187840)\n\nThe Driver Model: Reorganizing Legal Practice in the Age of AI\n\n[![](https://pbs.twimg.com/profile_images/1803717890853457920/lq5igFMZ_normal.jpg)](http://x.com/i/article/2058604468850069504/asdennison)\n\n[A. Scott Dennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n[@asdennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n·\n\n15h\n\nFollow\n\nClick to Follow asdennison\n\n1\n\n2\n\n17\n\n[1.4K](http://x.com/i/article/2058604468850069504/asdennison/status/2058605103192371209/analytics)\n\nWhy the Practice of Law No Longer Has to Feel Like the Wild West\n\nThe economic model of legal practice is undergoing significant change.\n\nFor decades, large law firms operated on a familiar formula: partners originated clients, teams of associates handled the work, and a leverage pyramid supported profitability. Artificial intelligence is now disrupting that structure.\n\nA single lawyer equipped with strong judgment and effective use of modern AI systems can now accomplish work that previously required an entire team. Research, document analysis, drafting, and case preparation can occur in hours rather than days or weeks.\n\nThe production bottleneck that once supported large staffing models is diminishing.\n\nZack Shapiro described this transition in his essay “The Great Re-sorting of the Legal Market.” As AI reduces production constraints, the legal market is reorganizing into a barbell structure: high-value judgment at one end and commoditized tasks at the other.\n\nShapiro’s analysis outlines the market’s emerging shape. A complementary operating approach that some lawyers are adopting is what can be described as the Driver Model of AI-Native Legal Practice.\n\nIn this model, the lawyer functions as the driver. Supporting systems serve as the car, engineers, pit crew, and strategy team.\n\nThe Driver Model of AI-Native Legal Practice\n\nIn Formula 1 racing, the driver does not succeed by personally building the car, changing tires, analyzing telemetry, and managing logistics. Success depends on an integrated system that supports the driver’s decisions.\n\nThe car delivers performance. Engineers provide technical expertise. The pit crew executes real-time adjustments. Strategists evaluate conditions and recommend options.\n\nThe driver makes the critical decisions that determine the outcome.\n\nLegal practice is developing along similar lines. The lawyer occupies the central decision-making role. Advanced systems handle much of the operational workload, allowing focus on judgment.\n\nLarge-context AI systems act as the engine. They can process extensive document productions, deposition transcripts, pleadings, and discovery materials, surfacing relevant authority and factual patterns.\n\nSpecialized agents support specific functions: legal research and precedent analysis, drafting and citation consistency, and evaluation of procedural strategy and evidentiary issues.\n\nOrchestration systems coordinate tasks, resolve conflicts between outputs, and deliver synthesized information at appropriate times.\n\nThe lawyer retains responsibility for core professional judgment: litigation strategy, risk assessment, interpretation of evidence and narrative, and decisions regarding settlement, motion practice, or trial posture.\n\nThe systems augment judgment rather than replace it.\n\nHow the Driver Model Operates in Litigation\n\nThis approach shifts complex litigation from fragmented team efforts to more unified processes.\n\nIn a matter approaching summary judgment, traditional preparation often involves weeks of coordinated work: reviewing the record, researching authority, drafting sections, and synthesizing arguments.\n\nWith the Driver Mod",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2058604468850069504/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJGh7ShXwAASMud?format=jpg&name=900x900)](http://x.com/i/article/2058604468850069504/asdennison/article/2058605103192371209/media/2058604544641187840)\n\n**驾驶者模型：在人工智能时代重组法律实践**\n\n[![](https://pbs.twimg.com/profile_images/1803717890853457920/lq5igFMZ_normal.jpg)](http://x.com/i/article/2058604468850069504/asdennison)\n\n[A. Scott Dennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n[@asdennison](http://x.com/i/article/2058604468850069504/asdennison)\n\n·\n\n15小时前\n\n关注\n\n点击关注 @asdennison\n\n1\n\n2\n\n17\n\n[1.4K](http://x.com/i/article/2058604468850069504/asdennison/status/2058605103192371209/analytics)\n\n**为什么法律实践不再需要像狂野西部那样**\n\n法律实践的经济模式正在经历重大变革。\n\n几十年来，大型律师事务所一直遵循一个熟悉的公式：合伙人带来客户，律师团队处理工作，盈利金字塔支撑着利润。人工智能现在正在颠覆这种结构。\n\n一位拥有良好判断力并能有效使用现代AI系统的律师，现在可以完成以前需要一个团队才能完成的工作。研究、文件分析、起草和案件准备可以在几小时内完成，而不是几天或几周。\n\n曾经支撑大型人员配置模式的生产瓶颈正在减弱。\n\nZack Shapiro在他的文章《法律市场的大重组》中描述了这一转变。随着AI减少生产限制，法律市场正在重组为一个杠铃结构：一端是高价值判断，另一端是商品化任务。\n\nShapiro的分析勾勒出市场正在形成的形态。一些律师正在采用的一种互补性操作方法，可以描述为AI原生法律实践的驾驶者模型。\n\n在这个模型中，律师充当驾驶者。支持系统则扮演汽车、工程师、维修站团队和策略团队的角色。\n\n**AI原生法律实践的驾驶者模型**\n\n在F1赛车中，驾驶者并非通过亲自造车、换胎、分析遥测数据和管理后勤来取得成功。成功取决于一个支持驾驶者决策的集成系统。\n\n汽车提供性能。工程师提供技术专长。维修站团队执行实时调整。策略师评估条件并推荐选项。\n\n驾驶者做出决定结果的关键决策。\n\n法律实践正在沿着类似的路线发展。律师占据核心决策角色。先进系统处理大部分操作工作，使律师能够专注于判断。\n\n大上下文AI系统充当引擎。它们可以处理大量的文件制作、证词笔录、诉状和发现材料，揭示相关的权威和事实模式。\n\n专门的agent支持特定功能：法律研究和先例分析、起草和引用一致性，以及程序策略和证据问题的评估。\n\n编排系统协调任务，解决输出之间的冲突，并在适当时间提供综合信息。\n\n律师保留核心专业判断的责任：诉讼策略、风险评估、证据和叙事的解释，以及关于和解、动议实践或庭审立场的决策。\n\n系统增强判断，而非取代它。\n\n**驾驶者模型在诉讼中的运作方式**\n\n这种方法将复杂的诉讼从分散的团队努力转变为更统一的过程。\n\n在接近即决判决的事项中，传统准备通常涉及数周的协调工作：审查记录、研究权威、起草部分和综合论点。\n\n采用驾驶者模型",
-      "text_excerpt_zh_hash": "8dd769d227a149da",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058604468850069504"
-    },
-    "http://x.com/i/article/2058722738920124416": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058722738920124416",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058722738920124416/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJIOTwvaoAA06bt?format=jpg&name=900x900)](http://x.com/i/article/2058722738920124416/eeismann/article/2058723786258854197/media/2058723712325820416)\n\nThe Question and the Judgement\n\n[![](https://pbs.twimg.com/profile_images/845798105060564992/exHQ6m9V_normal.jpg)](http://x.com/i/article/2058722738920124416/eeismann)\n\n[Ethan Eismann](http://x.com/i/article/2058722738920124416/eeismann)\n\n[@eeismann](http://x.com/i/article/2058722738920124416/eeismann)\n\n·\n\n7h\n\nFollow\n\nClick to Follow eeismann\n\n2\n\n2\n\n[1.2K](http://x.com/i/article/2058722738920124416/eeismann/status/2058723786258854197/analytics)\n\nLast year, 54% of designers used AI weekly. This year, 91%. Half have shipped AI-generated code to production: product designers, brand designers, and the design engineers who used to own that work. Working prototypes are now an expected output for 43% of teams. These numbers come from the \n\n[AI in Design Report](https://stateofaidesign.com/)\n\n, published this month by Designer Fund and Foundation Capital. 906 designers, twenty-five-plus interviews, fifty-plus public sources.\n\nThe data makes the abstract concrete. The interesting parts are the contradictions inside the data, and what those contradictions tell us about the future state of design and research.\n\nThe middle is going\n\nThe shift across every function (engineering, PM, design) is the same. AI is taking the middle, the body of execution that sits between framing the problem and judging whether the form fits. It's eating the easy iterations, the specs, the production, the rote tasks of managing the product development lifecycle.\n\nIn design, the middle is everything from the pixel-correct screen to the wireframe to the design system component to the redlined spec. Until recently, we drew lines inside that body of work. Wireframing felt different from front-end production. Design systems felt different from QA. AI is treating the whole middle as one continuous body of work.\n\nLook at where AI use moved most year over year. Code generation and front-end: +31 points. Wireframing: +27\\. Design systems and components: +24\\. UI copy: +18\\. Design QA and accessibility: +16\\. Developer handoff: +12\\. Different kinds of work that used to feel different. All of it climbing at roughly the same rate.\n\nUnderneath the numbers is a redistribution of work. 65% of designers say they're doing more PM and engineering work. 40% say PMs and engineers are doing more design work. The lanes are no longer holding. The industry calls this the \"block-shaped designer,\" replacing the older T-shape framing. AirOps calls the new role \"Agent Captain.\" Different vocabularies, same observation.\n\nWhat's happening underneath is the bifurcation of the design role. The work that used to take up most of a designer's week is becoming a shared utility that PMs, engineers, and agents can operate together. The most important work of a designer is moving to either end of that middle.\n\nThis is where the future get interesting.\n\nThe two ends that remain: the question and the judgment\n\nWhen the middle gets compressed, what survives is the work AI can't do (at least not yet). There are two pieces.\n\nThe question. Before any artifact gets made, someone has to decide what should exist. That's the work of framing a customer problem precisely enough that an answer is possible. It's the work Karri Saarinen describes when he writes, borrowing Christopher Alexander's framing, that design is the search for a good fit between form and context. AI accelerates the production of form. It doesn't help you understand the underlying problem, and sometimes it actively obstructs that understanding by generating plausible answers before the question is sharp enough to be answered. The question lives upstream of the PRD. It's the work of getting close enough to the c",
-      "text_excerpt_zh": "##\n\n问题与判断\n\n去年，54%的设计师每周使用AI。今年，这一比例达到91%。半数设计师已将AI生成的代码投入生产：包括产品设计师、品牌设计师，以及过去负责这类工作的设计工程师。现在，43%的团队期望产出可工作的原型。这些数据来自本月由Designer Fund和Foundation Capital发布的《AI设计报告》。该报告调查了906名设计师，进行了25次以上访谈，并引用了50多个公开来源。\n\n这些数据将抽象概念具体化。有趣之处在于数据内部的矛盾，以及这些矛盾揭示了设计与研究领域的未来走向。\n\n**中间层正在消失**\n\n每个职能（工程、产品管理、设计）的转变都是一致的。AI正在吞噬中间层——即介于问题定义与形式判断之间的执行主体。它正在吞噬简单的迭代、规格说明、生产工作，以及产品开发生命周期中的常规任务。\n\n在设计领域，中间层涵盖从像素完美的屏幕、线框图、设计系统组件到标注规范的方方面面。直到最近，我们还在这些工作内部划分界限。线框图感觉不同于前端生产，设计系统感觉不同于质量保证。而AI将整个中间层视为一个连续的工作主体。\n\n看看AI使用率同比增幅最大的领域：代码生成和前端增加了31个百分点；线框图增加了27个百分点；设计系统和组件增加了24个百分点；UI文案增加了18个百分点；设计质量保证和可访问性增加了16个百分点；开发交接增加了12个百分点。这些过去感觉不同的工作类型，现在都以大致相同的速度增长。\n\n在这些数字背后，是工作的重新分配。65%的设计师表示他们正在做更多的产品管理和工程工作。40%的人表示产品经理和工程师正在做更多的设计工作。职能界限不再清晰。行业将这种角色称为\"块状设计师\"，取代了旧的\"T型\"框架。AirOps将新角色称为\"Agent船长\"。不同的术语，相同的观察。\n\n底层正在发生的是设计角色的分化。过去占据设计师大部分时间的工作，正在成为产品经理、工程师和AI代理可以共同操作的共享工具。设计师最重要的工作正在向中间层的两端移动。\n\n这才是未来变得有趣的地方。\n\n**剩下的两端：问题与判断**\n\n当中间层被压缩时，幸存下来的是AI无法完成的工作（至少目前还不能）。这包括两个部分。\n\n**问题。** 在任何产物被创造之前，必须有人决定应该存在什么。这是精确地定义客户问题的工作，使得答案成为可能。这正是Karri Saarinen所描述的——借用Christopher Alexander的框架——设计是在形式与语境之间寻找良好契合的过程。AI加速了形式的产生，但它无法帮助你理解底层问题，有时甚至会通过在你把问题定义得足够清晰之前就生成看似合理的答案，而主动阻碍这种理解。问题存在于产品需求文档的上游。这是足够接近客户的工作。",
-      "text_excerpt_zh_hash": "ab475ffca308357e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058722738920124416"
-    },
-    "http://x.com/i/article/2058817306105651200": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058817306105651200",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058817306105651200/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJJkzUbbsAAVojL?format=jpg&name=900x900)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818812481613824)\n\nHermes as an Onchain Analyst\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[@0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n·\n\n1h\n\nFollow\n\nClick to Follow 0xJeff\n\n3\n\n6\n\n35\n\n[3.1K](http://x.com/i/article/2058817306105651200/0xJeff/status/2058819494609653875/analytics)\n\nEvery single week, Hermes gets an upgrade.\n\nEarlier last week it was x\\_search where Hermes could directly tap into X rich real-time news/insights without having to use X API (saving lots of $ on credits).\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2058817306105651200/0xJeff)\n\n0xJeff\n\n@0xJeff\n\n·\n\n[May 18](http://x.com/i/article/2058817306105651200/0xJeff/status/2056269840009318569)\n\n![Article cover image](https://pbs.twimg.com/media/HIlWFfUaoAIqYPo?format=jpg&name=small)\n\n Article\n\nHermes as a Real-time Analyst\n\n@NousResearch just partnered with @xai and Hermes just got a HUGE boost in research capability. Here are the highlights Directly Grok subscription, X Premium (and Premium+) users who have Grok subs...\n\n30\n\n81\n\n817\n\n[150K](http://x.com/i/article/2058817306105651200/0xJeff/status/2056269840009318569/analytics)\n\n3-4 days ago it was \"skill bundling\" feature, a feature that lets you group multiple individual skills into one reusable command. This is massive because instead of manually typing each skill consequently and hoping the agent remembers to load them, you can just run the bundle which loads all the skills — ensuring consistency & reliability.\n\nIn this article, we'll explore a skill bundle that's designed for an onchain analyst job — tracing onchain data, identifying who bought/who dumped, how much they have left, and more.\n\nEvery single time I decide to invest in a project, I always wonder \"Are there people who are going to dump on me\". Sure, everything is onchain and one can use tools like BubbleMaps, Arkham, Dexscreener or go through the explorer to identify who accumulated early. But the reality is.... it's not that easy, there aren't any tools that you can ask to get a complete picture.\n\nWell, there are, but most of them are quite expensive.\n\n> Actually... not anymore.... With the rise of x402-integrated services & tools, these tools are becoming very affordable. Instead of paying $100+ for subscription, paying per one time use only cost $0.03 - $0.11 per run.\n\n## \n\nThe Onchain Forensics Pipeline\n\nThis is what the report looks like after a run\n\n[![Image](https://pbs.twimg.com/media/HJJkbdGaMAAetqt?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818402492493824)\n\n[![Image](https://pbs.twimg.com/media/HJJkdssa8AA9W2v?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818441038196736)\n\nYou get\n\n* Top sellers\n* Top accumulators\n* Net flows across 4 time periods\n\nOn top of the report, Cookie MCP is run for sentiment data points & cross-check them with onchain movements.\n\nFor VVV, the output is below\n\n[![Image](https://pbs.twimg.com/media/HJJkgukbcAA9lHY?format=png&name=small)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818493081153536)\n\nInterestingly, it caught neetguy who publicly said that he sold his VVV + he committed to it onchain.\n\n## \n\nHow does the pipeline work\n\nWhen you think about top onchain forensic tools, you tend to think about Arkham Intelligence or Nansen. Both of which are highly capable and have rich databases ident",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2058817306105651200/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJJkzUbbsAAVojL?format=jpg&name=900x900)](http://x.com/i/article/2058817306105651200/0xJeff/article/2058819494609653875/media/2058818812481613824)\n\nHermes 作为链上分析师\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n[@0xJeff](http://x.com/i/article/2058817306105651200/0xJeff)\n\n·\n\n1小时前\n\n关注\n\n点击关注 0xJeff\n\n3\n\n6\n\n35\n\n[3.1K](http://x.com/i/article/2058817306105651200/0xJeff/status/2058819494609653875/analytics)\n\n每周，Hermes 都会迎来一次升级。\n\n上周早些时候是 x_search 功能，Hermes 可以直接接入 X 丰富的实时新闻/洞察，而无需使用 X API（节省了大量积分费用）。\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](https://x.com/0xJeff)\n\n0xJeff\n\n@0xJeff\n\n·\n\n[5月18日](https://x.com/0xJeff/status/2056269840009318569)\n\n![文章封面图片](https://pbs.twimg.com/media/HIlWFfUaoAIqYPo?format=jpg&name=small)\n\n 文章\n\nHermes 作为实时分析师\n\n@NousResearch 刚刚与 @xai 合作，Hermes 的研究能力得到了巨大提升。以下是亮点：直接 Grok 订阅，X Premium（及 Premium+）用户如果拥有 Grok 订阅...\n\n30\n\n81\n\n817\n\n[150K](https://x.com/0xJeff/status/2056269840009318569/analytics)\n\n3-4 天前是“技能捆绑”功能，该功能允许你将多个独立技能组合成一个可复用的命令。这非常强大，因为无需手动依次输入每个技能并希望 agent 记住加载它们，你只需运行捆绑包即可加载所有技能——确保了一致性和可靠性。\n\n在这篇文章中，我们将探索一个专为链上分析师工作设计的技能捆绑包——追踪链上数据，识别谁在买入/谁在抛售，他们还剩多少，等等。\n\n每次我决定投资一个项目时，我总会想：“会不会有人要抛售给我？”当然，一切都在链上，人们可以使用 BubbleMaps、Arkham、Dexscreener 等工具，或者通过浏览器来识别早期积累者。但现实是……这并不容易，没有任何工具可以让你询问并获得完整图景。\n\n嗯，确实有，但大多数都相当昂贵。\n\n> 实际上……现在不一样了……随着 x402 集成服务和工具的兴起，这些工具变得非常实惠。无需支付 100 美元以上的订阅费，每次按次使用仅需 0.03 - 0.11 美元。\n\n## \n\n链上取证流程\n\n这是运行后报告的样子\n\n[![图片](https://pbs.twimg.com/media/HJJkbdGaMAAetqt?format=png&name=small)](https://x.com/0xJeff/status/2058819494609653875/media/2058818402492493824)\n\n[![图片](https://pbs.twimg.com/media/HJJkdssa8AA9W2v?format=png&name=small)](https://x.com/0xJeff/status/2058819494609653875/media/2058818441038196736)\n\n你会得到\n\n* 最大卖家\n* 最大积累者\n* 四个时间段的净流量\n\n除了报告之外，还会运行 Cookie MCP 以获取情绪数据点，并与链上动态进行交叉验证。\n\n对于 VVV，输出如下\n\n[![图片](https://pbs.twimg.com/media/HJJkgukbcAA9lHY?format=png&name=small)](https://x.com/0xJeff/status/2058819494609653875/media/2058818493081153536)\n\n有趣的是，它捕捉到了 neetguy，此人公开表示他已卖出 VVV，并在链上确认了该操作。\n\n## \n\n流程如何运作\n\n当你想到顶级链上取证工具时，往往会想到 Arkham Intelligence 或 Nansen。两者都非常强大，拥有丰富的数据库，能够识别",
-      "text_excerpt_zh_hash": "2defd9d5e34254cb",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058817306105651200"
     },
     "http://x.com/i/article/2058838731784892416": {
       "cleaner_v": 2,
@@ -8586,30 +8499,6 @@
       "title": "GitHub - gnurio/memetics-plugin: Your best ideas don't spread on their own. This plugin gives you the science-backed playbook to design, launch, and defend how ideas move through networks. · GitHub",
       "url": "https://github.com/gnurio/memetics-plugin"
     },
-    "https://github.com/greyhaven-ai/autocontext": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task - greyhaven-ai/autocontext",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/greyhaven-ai/autocontext",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/e703e1fde8ddcfb860af7a0fe153f7c668be3c3fe5ae7fe1a32984fa4aa644ea/greyhaven-ai/autocontext",
-        "https://github.com/greyhaven-ai/autocontext/raw/main/autocontext/assets/banner.svg",
-        "https://camo.githubusercontent.com/7cdcbfc3d09a4b49a337ddcb10d656fe3fdb825c78013f189552e351595a98c6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f67726579686176656e2d61692f6175746f636f6e74657874",
-        "https://camo.githubusercontent.com/1658b1a596fc9f74e363665ce640eaeb1ff6f88235f3738b9f09ee21feb6797e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f67726579686176656e2d61692f6175746f636f6e74657874",
-        "https://camo.githubusercontent.com/28e9eaa9c0459d2db2ec785c65f36b01e5794822e066bc31cebf571a5e97e0fc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f67726579686176656e2d61692f6175746f636f6e74657874",
-        "https://camo.githubusercontent.com/7c19fe00d4db63115b306140bd272d28e022f5db7792477b2cf7c386d49acc73/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6175746f636f6e74657874",
-        "https://camo.githubusercontent.com/4d1e01e2ef169312cf17e5d9435c34ae11077247866290534e670ef7ca13950e/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6175746f637478",
-        "https://camo.githubusercontent.com/542ed84410af8913f9962042271f11291caae764102625c253b144b62f4ecaed/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f6175746f6374783f6c6f676f3d6e706d266c6162656c3d6e706d253230646f776e6c6f616473",
-        "https://camo.githubusercontent.com/67230b558250c4955f70d4125a840d6366e15a3e70e5f1e5b789a74f471373ff/68747470733a2f2f696d672e736869656c64732e696f2f707970692f646d2f6175746f636f6e746578743f6c6f676f3d70797069266c6162656c3d50795049253230646f776e6c6f616473",
-        "https://camo.githubusercontent.com/a848f6bda747d1bcd338830e151370e0f68b8474021801144eff54dbabf09731/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d67726579686176656e2d61692f6175746f636f6e7465787426747970653d44617465"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - greyhaven-ai/autocontext: a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task · GitHub",
-      "url": "https://github.com/greyhaven-ai/autocontext"
-    },
     "https://github.com/harehare/mq": {
       "content_type": "text/html; charset=utf-8",
       "description": "A jq-like Markdown query language for command-line processing - harehare/mq",
@@ -9977,34 +9866,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2058871123211657216/img/g4gRVLj0qrbAOZQU.jpg": {
       "cleaner_v": 2,
@@ -11784,34 +11645,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
     },
-    "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg"
-    },
-    "https://pbs.twimg.com/media/HJHqvdVW4AEgAbI.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJHqvdVW4AEgAbI.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJHqvdVW4AEgAbI.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJHqvdVW4AEgAbI.png"
-    },
     "https://pbs.twimg.com/media/HJKc0zbXAAEOXqV.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11965,20 +11798,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
     },
     "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg": {
       "cleaner_v": 2,
@@ -17457,50 +17276,11 @@
       "http://component.gallery",
       "https://pbs.twimg.com/media/HJGDsAqXoAEsjYD.jpg"
     ],
-    "2058576773663567952": [
-      "https://x.com/RetroChainer/status/2058576773663567952",
-      "https://pbs.twimg.com/amplify_video_thumb/2058575004132876288/img/LsDgekC7degSv2Cr.jpg"
-    ],
-    "2058605103192371209": [
-      "https://x.com/asdennison/status/2058605103192371209",
-      "http://x.com/i/article/2058604468850069504",
-      "https://x.com/asdennison/status/2058641209246261558",
-      "http://myfulcrumai.com",
-      "http://aiandtheattorney.com",
-      "http://mylitigationshield.com",
-      "https://pbs.twimg.com/amplify_video_thumb/2058641102815543296/img/G6BnZqxOG8tVxyWn.jpg",
-      "https://x.com/asdennison/status/2059303917456949314",
-      "https://pbs.twimg.com/media/HJQd_d8XAAEkvJG.jpg"
-    ],
-    "2058659843712696671": [
-      "https://x.com/DataChaz/status/2058659843712696671",
-      "https://pbs.twimg.com/media/HJHUN8jaUAALKKN.jpg",
-      "https://x.com/DataChaz/status/2058780551901770003"
-    ],
     "2058660942326710689": [
       "https://x.com/clairevo/status/2058660942326710689"
     ],
-    "2058684607625617609": [
-      "https://x.com/tom_doerr/status/2058684607625617609",
-      "https://github.com/greyhaven-ai/autocontext",
-      "https://pbs.twimg.com/media/HJHqvdVW4AEgAbI.png"
-    ],
     "2058710212874518947": [
       "https://x.com/AI_Whisper_X/status/2058710212874518947"
-    ],
-    "2058723786258854197": [
-      "https://x.com/eeismann/status/2058723786258854197",
-      "http://x.com/i/article/2058722738920124416",
-      "https://x.com/eeismann/status/2058719326027534668"
-    ],
-    "2058794801714327835": [
-      "https://x.com/maxmarchione/status/2058794801714327835"
-    ],
-    "2058819494609653875": [
-      "https://x.com/0xJeff/status/2058819494609653875",
-      "http://x.com/i/article/2058817306105651200",
-      "https://x.com/0xJeff/status/2058918799773216846",
-      "https://x.com/0xJeff/status/2058917862186905702"
     ],
     "2058869157567897603": [
       "https://x.com/botir33751732/status/2058869157567897603",
@@ -22458,7 +22238,7 @@
     "2069217165916700977": [
       "https://x.com/0xdeusyu/status/2069217165916700977",
       "https://github.com/deusyu/harness-engineering",
-      "https://x.com/0xdeusyu/status/2069590514765377614"
+      "https://x.com/0xdeusyu/status/2069668547559936143"
     ],
     "2069228960483860688": [
       "https://x.com/WSJopinion/status/2069228960483860688",
@@ -22602,19 +22382,19 @@
       "https://x.com/realJessyLin/status/2069484772477526111",
       "https://x.com/realJessyLin/status/2069477907064660134",
       "https://x.com/realJessyLin/status/2069567221731659897",
-      "https://x.com/realJessyLin/status/2069567573365317836",
       "https://x.com/realJessyLin/status/2069566797385535622",
+      "https://x.com/realJessyLin/status/2069567573365317836",
       "https://x.com/realJessyLin/status/2069477705255678064",
-      "https://x.com/realJessyLin/status/2069477864668590292",
+      "https://x.com/realJessyLin/status/2069703862513181138",
       "https://x.com/realJessyLin/status/2069482500536340657",
       "https://x.com/realJessyLin/status/2069480472317743433",
+      "https://x.com/realJessyLin/status/2069477864668590292",
       "https://x.com/realJessyLin/status/2069495967037186183",
       "https://x.com/realJessyLin/status/2069476858232766926",
       "https://x.com/realJessyLin/status/2069578515385926079",
       "https://x.com/realJessyLin/status/2069567617854324976",
       "https://x.com/realJessyLin/status/2069567830434132194",
-      "https://x.com/realJessyLin/status/2069484915146752106",
-      "https://x.com/realJessyLin/status/2069567447049687130"
+      "https://x.com/realJessyLin/status/2069484915146752106"
     ],
     "2069477103091831260": [
       "https://x.com/axios/status/2069477103091831260",
@@ -22630,8 +22410,7 @@
       "https://x.com/0xblacklight/status/2069588364513386744"
     ],
     "2069505318120497198": [
-      "https://x.com/0xblacklight/status/2069505318120497198",
-      "https://x.com/0xblacklight/status/2069437411588006287"
+      "https://x.com/0xblacklight/status/2069505318120497198"
     ],
     "2069526264172699698": [
       "https://x.com/YourVibeGuy/status/2069526264172699698",
@@ -22662,6 +22441,6 @@
       "https://pbs.twimg.com/media/HLjDvG1bEAAr0hl.jpg"
     ]
   },
-  "updated_at": "2026-06-24T08:33:22Z",
+  "updated_at": "2026-06-24T12:01:09Z",
   "window": "recent"
 }
