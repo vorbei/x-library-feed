@@ -1942,7 +1942,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
       "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-17T04:50:43.608393Z",
@@ -1977,7 +1977,8 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
+      "article_fetch_error": "The read operation timed out",
       "article_image_urls": [
         "https://images.ctfassets.net/fdtlyqzgdb9e/kAKJwCQghQZYDr3SgnGvT/df72e9cf24ade861caf763438138aa53/SME_26001_0110_039_v1_11_QC.jpg?q=40",
         "https://images.ctfassets.net/fdtlyqzgdb9e/mDu4owAPxzqld7aUabwFt/5b034cbbfd3074abb2976e5c094c2732/SME_26001_0040_080_v2_09_QC.jpg?q=40",
@@ -2108,10 +2109,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
       "article_image_urls": [
         "https://uselemma.ai/opengraph-image.png?5512ba5eded5754e",
-        "https://www.uselemma.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyc.441db66c.png&w=3840&q=75&dpl=dpl_HPFDnbtConxR2DbkGzaBgAafZ9QU",
+        "https://www.uselemma.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyc.441db66c.png&w=3840&q=75&dpl=dpl_HTQ17aTxJetrbrQiHati9hJbTXmb",
         "https://www.uselemma.ai/brand/lemma-avatar-square-purple.svg",
         "https://www.uselemma.ai/demo/slack-avatar-cole.png",
         "https://www.uselemma.ai/_next/static/media/vercel.e6643272.svg",
@@ -4943,7 +4944,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
       "article_image_urls": [
         "https://opacity.com/assets/images/og-image.jpg",
         "https://opacity.com/assets/images/product-shot.png",
@@ -5036,7 +5037,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-17T05:29:36.433686Z",
+      "article_fetch_attempted_at": "2026-06-24T11:26:36.951518Z",
       "article_image_urls": [
         "https://opengraph.githubassets.com/f738431fe1ebb9c065b585deace91026231214cf6553e4645381070128b69ad5/dinehq/convex-starter"
       ],
@@ -104000,5 +104001,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-24T04:50:09.677665Z"
+  "updated_at": "2026-06-24T11:27:53.450633Z"
 }
