@@ -1062,22 +1062,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058921706710818816"
     },
-    "http://x.com/i/article/2059015269184684032": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059015269184684032",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059015269184684032/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJMXi7VbEAAkn-c?format=jpg&name=900x900)](http://x.com/i/article/2059015269184684032/milstan/article/2059018199673487487/media/2059015343448985600)\n\nState of Self-Improving Software, Workshop #1\n\n[![](https://pbs.twimg.com/profile_images/1812545562551443456/SAaq7rES_normal.jpg)](http://x.com/i/article/2059015269184684032/milstan)\n\n[Milan Stankovic](http://x.com/i/article/2059015269184684032/milstan)\n\n[@milstan](http://x.com/i/article/2059015269184684032/milstan)\n\n·\n\n19h\n\nFollow\n\nClick to Follow milstan\n\n1\n\n7\n\n[372](http://x.com/i/article/2059015269184684032/milstan/status/2059018199673487487/analytics)\n\n40+ people at Parrot's SF office. 7 5-minute talks that turned into 4 hours of unstoppable discussions. Electric energy. Thanks to everyone who came — and for everybody else here is a recap of approaches - the state of self learning-software, May 2026\\. Grouped by approach below.\n\n## \n\nLearning new behavior\n\nMilan Stankovic (\n\n[@milstan](https://x.com/@milstan)\n\n[@LeadbayAI](https://x.com/@LeadbayAI)\n\n) — Prompt Learning Protocol + /relentless. LLM-as-judge over best-of-N. The model discovers the quality criteria from a few reference examples instead of being given a hand-written rubric, then scores its own outputs and iterates. Three points the talk pressed on:\n\n* Judge the outcome, not the artifact. The score is on what the prompt/skill produced — not on how the prompt is written. The model is a better observer of outcomes than humans are of their own process.\n* Architectural separation. Deterministic harness and tools stay deterministic; what's left inside the skill is the non-deterministic, qualitatively-assessable part — that's what's subject to self-learning. Without this split the system drifts into hardcoding against every individual use case instead of learning a general behavior.\n* Tests are non-negotiable to avoid spec drift. Optimizing one behavior in one sprint can degrade behaviors learned earlier — tests are the only way to keep yesterday's lessons alive while learning today's.\n\nGist: \n\n<https://gist.github.com/milstan/3b12f938f344f4ae1f511dd19e56adce>\n\n.\n\nRakesh Mehta (Zarna AI). Same regime, sharpened from the testing side: the \"software factory\" pattern only works when the testing harness is strong. Without a hard definition of \"good,\" agentic loops diverge and burn tokens. Zarna itself is a 4-agent swarm (Scribe / Memo / Analyst / Experts) for PE associates, delivered into Outlook/Teams/Slack.\n\n## \n\nSelf-healing software\n\nLearning from errors and incidents in production, rather than learning new behaviors pre-production.\n\nPranav Bedi (\n\n[@pranavbedi](https://x.com/@pranavbedi)\n\n Moda). Treat production user behavior as labels. Hierarchically cluster conversations into a live taxonomy of intent; detect emergent intents, escalations, abandonments, and grouped tool failures; output prompt patches with replayable eval cases. CLI-first (moda clusters --top 3 --last 7d). Adapters for Vercel AI SDK, Claude Agent SDK, LangChain, Mastra, OpenRouter.\n\nDeclan Johnston (\n\n[Inference.net](http://x.com/i/article/2059015269184684032//Inference.net)\n\n) — HALO. Argument: a general coding agent is the wrong tool for trace analysis — it overfits to errors in any single trace instead of finding harness-level problems. HALO is fed OpenTelemetry traces and runs a recursive language model that emits an actionable report; the report is then handed to Cursor or Claude Code to apply changes. Results on AppWorld (a multi-app agent benchmark) — purely from harness changes, with no changes to the underlying model: Gemini 3 Flash improved from 36.8% to 52.6% on the dev split; Sonnet 4.6 from 73.7% to 89.5%. \n\n<https://github.com/context-labs/HALO>\n\n.\n\nDhruv Roongta (\n\n[@DhruvRoongta](https://x.com/@DhruvRoongta)\n\nSlashy). Same idea moved into the product s",
-      "text_excerpt_zh": "## 自我改进软件现状，工作坊 #1\n\n[![](https://pbs.twimg.com/profile_images/1812545562551443456/SAaq7rES_normal.jpg)](http://x.com/i/article/2059015269184684032/milstan)\n\n[Milan Stankovic](http://x.com/i/article/2059015269184684032/milstan)\n\n[@milstan](http://x.com/i/article/2059015269184684032/milstan)\n\n·\n\n19小时前\n\n关注\n\n点击关注 milstan\n\n1\n\n7\n\n[372](http://x.com/i/article/2059015269184684032/milstan/status/2059018199673487487/analytics)\n\n40多人在 Parrot 的旧金山办公室。7场5分钟演讲，演变成了4小时停不下来的讨论。能量爆棚。感谢每一位到场的朋友——对于未能到场的各位，以下是各方法的总结——2026年5月自我学习软件的现状。按方法分类如下。\n\n## 学习新行为\n\nMilan Stankovic（[@milstan](https://x.com/@milstan)，[@LeadbayAI](https://x.com/@LeadbayAI)）—— Prompt Learning Protocol + /relentless。LLM作为裁判，在最佳N个候选中评判。模型从少量参考示例中发现质量标准，而非获得手写的评分标准，然后对自己的输出进行评分并迭代。演讲强调了三点：\n\n* **评判结果，而非产物。** 评分针对的是 prompt/技能所产生的结果——而非 prompt 本身的写法。模型是比人类更善于观察结果的对象，而人类往往不善于观察自身过程。\n* **架构分离。** 确定性 harness 和工具保持确定性；留在技能内部的是非确定性、可定性评估的部分——这才是自我学习的对象。没有这种分离，系统会退化为针对每个具体用例进行硬编码，而不是学习通用行为。\n* **测试是不可妥协的，以避免规范漂移。** 在一个冲刺中优化一个行为可能会降低之前学习到的行为——测试是唯一能在学习新知识的同时保留旧知识的途径。\n\n要点：<https://gist.github.com/milstan/3b12f938f344f4ae1f511dd19e56adce>。\n\nRakesh Mehta（Zarna AI）。相同的机制，但从测试侧进行了强化：“软件工厂”模式只有在测试 harness 足够强大时才能奏效。没有对“好”的严格定义，agent 循环就会发散并浪费 token。Zarna 本身是一个面向 PE 分析师的4-agent 集群（Scribe / Memo / Analyst / Experts），交付到 Outlook/Teams/Slack 中。\n\n## 自愈软件\n\n从生产环境中的错误和事件中学习，而非在生产前学习新行为。\n\nPranav Bedi（[@pranavbedi](https://x.com/@pranavbedi)，Moda）。将生产用户行为视为标签。将对话分层聚类为实时的意图分类体系；检测新出现的意图、升级、放弃以及分组的工具故障；输出带有可重放评估用例的 prompt 补丁。CLI 优先（moda clusters --top 3 --last 7d）。适配 Vercel AI SDK、Claude Agent SDK、LangChain、Mastra、OpenRouter。\n\nDeclan Johnston（[Inference.net](http://x.com/i/article/2059015269184684032//Inference.net)）—— HALO。论点：通用编码 agent 是用于 trace 分析的错误工具——它会过度拟合单个 trace 中的错误，而不是发现 harness 级别的问题。HALO 接收 OpenTelemetry traces 并运行一个递归语言模型，生成可操作的报告；然后将报告交给 Cursor 或 Claude Code 来应用更改。在 AppWorld（一个多应用 agent 基准测试）上的结果——仅通过 harness 更改，未对底层模型做任何更改：Gemini 3 Flash 在开发集上从 36.8% 提升至 52.6%；Sonnet 4.6 从 73.7% 提升至 89.5%。<https://github.com/context-labs/HALO>。\n\nDhruv Roongta（[@DhruvRoongta](https://x.com/@DhruvRoongta)，Slashy）。相同的思路，但转移到了产品层面。",
-      "text_excerpt_zh_hash": "ca8bfada8b3bb67a",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059015269184684032"
-    },
     "http://x.com/i/article/2059015409442148352": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6438,29 +6422,6 @@
       "title": "ZHC — Build Companies That Run Themselves",
       "url": "http://zhcinstitute.com"
     },
-    "https://2026.stateofai.dev/en-US?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "",
-      "extraction_source": "trafilatura",
-      "final_url": "https://2026.stateofai.dev/en-US?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://assets.devographics.com/surveys/ai2026-og.png",
-        "https://assets.devographics.com/sponsors/tokyodev.svg",
-        "https://devographics.github.io/surveys/state_of_css/css2023/images/sponsors/frontend-masters-dark.png",
-        "https://assets.devographics.com/sponsors/GN_Logo_White.svg",
-        "https://assets.devographics.com/sponsors/sentry-wordmark-light-400x88.svg",
-        "https://assets.devographics.com/sponsors/clerk-logotype-full-primary-light.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Start Date\nApril 8, 2026\nEnd Date\nMay 8, 2026\nRespondents\n7,258\nSurvey Archive\nGet Data\nWhether you're pro- or anti-AI, I think most of us agree that AI is having a huge impact on our work as developers, and beyond that, on the world at large.\nThe 2026 edition of the State of Web Dev AI survey collected data from 7,258 developers, providing a lot of fascinating material to study this impact. And while I would certainly recommend checking out the full survey results at your own pace, here are four key trends to get started exploring the data.\n#1: Growing AI Adoption\nIt's important to acknowledge that open surveys such as this one can suffer from inherent selection bias. In other words, an AI-focused survey is probably more likely to be filled out by developers who already use and care about AI.\nWith that caveat in mind, if we assume that the trends revealed here apply to the industry at large then AI-assisted coding's transition from an early-adopter experiment to a standard practice is now well underway.\nThis becomes clear when looking at [the proportion of AI-generated code produced by respondents](https://2026.stateofai.dev/en-US/usage/#ai_generated_code_balance), which has jumped from 28% on average in 2025 to 54% this year, with the 75%+ segments seeing the highest growth (delta from the previous year shown by striped bar overlays).\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_generated_code_balance¶ms=§ionId=overview)AI Code Generation\n[stating they use AI “constantly”](https://2026.stateofai.dev/en-US/usage/#ai_code_generation_frequency)doubling year-over-year.\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_code_generation_frequency¶ms=§ionId=overview)Code Generation Frequency\n#2: Claude Code & the Rise of Coding Agents\nThis adoption is in large part driven by a new generation of coding agents and assistants, with Claude Code taking the lead when looking at [positive respondent sentiment regarding coding agents](https://2026.stateofai.dev/en-US/coding-agents-assistants/#coding_agents_assistants_experience).\nGroup by:\nSort by:\nExperience\n- Used it: Respondents who have used an item.\n- Heard of it: Respondents who have heard about an item, but haven't used it.\n- Never heard of it: Respondents who have never heard about an item.\nSentiment\n- Positive: Respondents who are interested in learning more about a technology; or are willing to use it again.\n- Neutral: Responents who did not indicate any sentiment about a technology.\n- Negative: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.\nThese agents are emerging as a more convenient way to interact with LLMs, and potentially replacing chatbots, app generators, and other specialized tools.\nAs a consequence, despite ChatGPT having the edge in terms of sheer popularity, Claude is [the model that developers actually pay for the most](https://2026.stateofai.dev/en-US/models/#models_paid_for).\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=models_paid_for¶ms=§ionId=overview)Paid Model Usage\n#3: Race to Monetization\nSpeaking of paying more: now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](https://2026.stateofai.dev/en-US/usage/#ai_personal_expenses) compared to last year.\n[Link to section](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_personal_expenses¶ms=§ionId=overview)Personal Expenses\n[an AI bubble](https://2026.stateofai.dev/en-US/opinions/#ai_bubble_currently). But either way, survey respondents certainly thi",
-      "text_excerpt_zh": "**开始日期**\n2026年4月8日\n**结束日期**\n2026年5月8日\n**受访者**\n7,258人\n**调查档案**\n获取数据\n\n无论你是支持还是反对AI，我想大多数人都认同，AI正在对我们的开发者工作乃至整个世界产生巨大影响。\n\n2026年版的《Web开发AI现状》调查收集了7,258名开发者的数据，为研究这一影响提供了大量引人入胜的材料。虽然我绝对建议你按自己的节奏查看完整的调查结果，但这里有四个关键趋势，可以帮助你开始探索这些数据。\n\n## #1：AI采用率持续增长\n\n需要承认的是，像这样的公开调查可能存在固有的选择偏差。换句话说，一项以AI为重点的调查，更可能由已经使用并关心AI的开发者填写。\n\n考虑到这一点，如果我们假设这里揭示的趋势适用于整个行业，那么AI辅助编程正从早期采用者的实验转变为标准实践，这一进程已全面展开。\n\n这一点在查看[受访者生成的AI代码比例](https://2026.stateofai.dev/en-US/usage/#ai_generated_code_balance)时变得清晰：该比例从2025年的平均28%跃升至今年的54%，其中75%以上的细分群体增长最为显著（与上一年相比的增量由条纹条形叠加层显示）。\n\n[链接到章节](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_generated_code_balance¶ms=§ionId=overview)AI代码生成\n\n[声称“持续”使用AI](https://2026.stateofai.dev/en-US/usage/#ai_code_generation_frequency)的开发者比例同比翻了一番。\n\n[链接到章节](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_code_generation_frequency¶ms=§ionId=overview)代码生成频率\n\n## #2：Claude Code 与编程Agent的崛起\n\n这种采用在很大程度上是由新一代编程Agent和助手推动的，其中Claude Code在[受访者对编程Agent的正面评价](https://2026.stateofai.dev/en-US/coding-agents-assistants/#coding_agents_assistants_experience)方面处于领先地位。\n\n分组依据：\n排序依据：\n体验\n- 使用过：受访者中使用过某项的。\n- 听说过：受访者中听说过某项但未使用过的。\n- 从未听说过：受访者中从未听说过某项的。\n情感\n- 正面：受访者有兴趣了解更多技术；或愿意再次使用。\n- 中性：受访者未表明对某项技术有任何情感。\n- 负面：受访者没有兴趣了解更多技术；或使用过并有负面体验。\n\n这些Agent正成为一种与LLM交互的更便捷方式，并可能取代聊天机器人、应用生成器和其他专用工具。\n\n因此，尽管ChatGPT在纯粹的人气方面占优，但Claude是[开发者实际付费最多的模型](https://2026.stateofai.dev/en-US/models/#models_paid_for)。\n\n[链接到章节](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=models_paid_for¶ms=§ionId=overview)付费模型使用情况\n\n## #3：变现竞赛\n\n说到支付更多：既然我们都已经沉迷于由前所未有的VC融资轮补贴的廉价AI，我们集体的“瘾”使得AI实验室更容易开始提价。而这转化为[个人AI支出相比去年明显增加](https://2026.stateofai.dev/en-US/usage/#ai_personal_expenses)。\n\n[链接到章节](https://share.devographics.com/share/prerendered?localeId=en-US&surveyId=state_of_ai&editionId=ai2026&blockId=ai_personal_expenses¶ms=§ionId=overview)个人支出\n\n[一个AI泡沫](https://2026.stateofai.dev/en-US/opinions/#ai_bubble_currently)。但无论如何，调查受访者确实认为……",
-      "text_excerpt_zh_hash": "6134fb57fa6e03ca",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "State of AI 2026 State of AI 2026",
-      "url": "https://2026.stateofai.dev/en-US?ref=sidebar"
-    },
     "https://addyosmani.com/blog/loop-engineering/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -7056,31 +7017,6 @@
       "title": "Consistency, But in Excellence Not Appearance - Jim Nielsen’s Blog",
       "url": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar"
     },
-    "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Why agent-native software may replace interfaces with structured systems agents can reason about directly.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/2026/05/Transformations-of-Platonic-Solids.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/2025/10/mozilla.ai_black-1.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w160/2025/04/Ale.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w1200/2026/05/Transformations-of-Platonic-Solids.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/Mountain-of-Money-1.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/cq.exchange-final.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/mozilla-ai-vibe----blog-hero-image-1200x630-dark-1.png",
-        "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w600/2026/05/octonous-open-beta-live.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "[Expert Opinion](https://blog.mozilla.ai/tag/expert-opinion/)\nThe Interface Is No Longer the Product\nThe future of AI may not be agents using today’s apps. It may be apps rebuilt around structured representations agents can inspect, modify, and validate directly. The deck, doc, or dashboard becomes the output, not the source of truth.\nFrom Agents That Use Apps to Apps Built for Agents\nA few weeks ago I was using [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs?ref=blog.mozilla.ai) to put together a presentation for our work week in Berlin. Not a throwaway deck, but an actual presentation with a narrative, data, and a point of view.\nGood product. And the interesting part is not the quality, it is the decision behind it: the interface is organized around the reasoning, not the slide. You work on the content. The deck is a consequence. The .pptx comes at the end. It is an export. The work happened somewhere else.\nThat is a small detail that I think points to something larger. And it is not really about presentations.\nFor decades, the only way to modify an application's state was through a human interface. That assumption is starting to break.\nMost human-computer interaction has been built around two patterns: issuing commands (typing, clicking, speaking) and manipulating representations (dragging, resizing, arranging, formatting). Every productivity tool ever built is designed around one or both of those. The keyboard, the mouse, the touchscreen. That is the full vocabulary. The interface and the product were, for practical purposes, the same thing.\nIt worked. It got the job done. Billions of people learned to think in spreadsheets, build in slide decks, and manage work through ticketing systems.\nBut more of that work is going to be done with, and eventually by, agents. And agents do not need a mouse. They do not need a menu. They do not need a canvas. They need structured state they can read, reason about, and rewrite.\nCode has always worked this way. It is text with clear semantics. Tools can parse it, transform it, and reason about it without ever rendering it visually. That is why agents are already so capable there, and why the rest of software is about to face the same pressure.\nThe Bridge and the Destination\nA lot of current AI product work starts from the idea that agents should learn to use our existing applications.\nThe agent opens the browser, clicks through menus, fills forms, moves objects around, reads documents, sends messages, updates records. It behaves like a very fast human user.\nThis is useful. More than useful, it is probably necessary. The world already runs on existing software. Companies have years of organizational knowledge embedded in Gmail, Slack, Jira, Salesforce, Notion. If agents are going to be helpful today, they need to work inside that world.\nThat is the bridge.\nBut the bridge is not the destination. Agents using existing apps help bring AI into the current software stack. Apps built for agents may change the shape of the stack itself.\nAnd there is something more valuable in that process than just short-term utility. Watching where agents struggle with existing interfaces, where the translation between intent and UI operation is most painful, is probably the most honest way to find where the structural opportunity is. The friction is the signal.\nThe first wave of AI products is about access: can the agent use the tools we already use? The next wave is about representation: is the tool itself built around a source of truth an agent can safely inspect, modify, and reason about?\nThose are different problems. They lead to different products.\nSoftware Categories Are Interface History\nSoftware categories are accidents of interface history, not natural laws.\nSlides. Spreadsheets. Documents. Dashboards. CRMs. Project management tools. Design tools. Workflow builders. These are not fundamental categories. They are bundles: a data model, a renderer, a human editing interface, pe",
-      "text_excerpt_zh": "[专家观点](https://blog.mozilla.ai/tag/expert-opinion/)\n界面不再是产品本身\nAI的未来或许并非让智能体使用今天的应用，而是围绕智能体可直接检查、修改和验证的结构化表示来重建应用。幻灯片、文档或仪表盘成为输出结果，而非事实来源。\n\n从“智能体使用应用”到“为智能体构建应用”\n几周前，我使用 [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs?ref=blog.mozilla.ai) 为我们在柏林的工作周准备一份演示文稿。这不是一份随便拼凑的幻灯片，而是一份真正的演示，包含叙事、数据和观点。\n\n好产品。有趣之处不在于质量，而在于其背后的决策：界面围绕推理组织，而非幻灯片本身。你专注于内容。幻灯片是结果。.pptx 文件在最后生成。它只是一个导出文件。真正的工作发生在别处。\n\n这个细节虽小，但我认为它指向了更大的趋势。而且这并不仅仅关乎演示文稿。\n\n几十年来，修改应用状态的唯一途径是通过人类界面。这个假设正在开始瓦解。\n\n大多数的人机交互都建立在两种模式之上：发出指令（打字、点击、说话）和操作表示（拖拽、调整大小、排列、格式化）。每一个生产力工具都是围绕其中一种或两种模式构建的。键盘、鼠标、触摸屏——这就是全部词汇。实际上，界面和产品曾是一回事。\n\n这很有效。它完成了任务。数十亿人学会了用电子表格思考，用幻灯片构建内容，通过工单系统管理工作。\n\n但越来越多的工作将由智能体辅助完成，并最终由智能体独立完成。而智能体不需要鼠标。不需要菜单。不需要画布。它们需要的是能够读取、推理和重写的结构化状态。\n\n代码一直是这样运作的。它是具有清晰语义的文本。工具可以解析它、转换它、推理它，而无需将其可视化渲染。这就是为什么智能体在代码领域已经如此强大，而其他软件领域也即将面临同样的压力。\n\n桥梁与目的地\n当前许多AI产品工作都始于这样一个想法：智能体应该学会使用我们现有的应用。\n\n智能体打开浏览器，点击菜单，填写表单，移动对象，阅读文档，发送消息，更新记录。它的行为就像一个速度极快的人类用户。\n\n这很有用。甚至不止是有用，它可能是必要的。世界已经在现有软件上运行。公司多年的组织知识嵌入在 Gmail、Slack、Jira、Salesforce、Notion 中。如果智能体要在今天发挥作用，它们就需要在那个世界里工作。\n\n这是一座桥梁。\n\n但桥梁不是目的地。使用现有应用的智能体有助于将AI引入当前的软件栈。而为智能体构建的应用可能会改变软件栈本身的形态。\n\n在这个过程中，有比短期效用更有价值的东西。观察智能体在现有界面上的挣扎之处，观察意图与UI操作之间转换最痛苦的地方，这可能是发现结构性机会最诚实的方式。摩擦就是信号。\n\n第一波AI产品关乎访问：智能体能否使用我们已经使用的工具？下一波AI产品关乎表示：工具本身是否围绕着一个智能体可以安全检查、修改和推理的事实来源构建？\n\n这是不同的问题。它们会导向不同的产品。\n\n软件类别是界面历史的产物\n软件类别是界面历史的偶然产物，而非自然法则。\n\n幻灯片。电子表格。文档。仪表盘。CRM。项目管理工具。设计工具。工作流构建器。这些都不是基本类别。它们是捆绑包：一个数据模型、一个渲染器、一个人工编辑界面。",
-      "text_excerpt_zh_hash": "ec227a0a3a5bfdb3",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The Interface Is No Longer the Product",
-      "url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar"
-    },
     "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7451,31 +7387,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Using LLMs to secure source code | Claude",
       "url": "https://claude.com/blog/using-llms-to-secure-source-code"
-    },
-    "https://clickandmagic.com/notes/avoiding_uiux": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "[(columns,maxheight=800)..] 「UI/UX」「UX/UI」という表記を見かける度に、身体のどこかがむず痒くなるような感覚に襲われます。それはまるで、[『筐体/触り心地』(strong)]とか[『日本酒/風味の印象』(strong)]と書いているようなも…",
-      "final_url": "https://clickandmagic.com/notes/avoiding_uiux",
-      "frameable": null,
-      "image_urls": [
-        "https://clickandmagic.com/_astro/uiux_cover.Akana0Ld_Z118wve.png",
-        "https://clickandmagic.com/resources/pointer-arrow.webp",
-        "https://clickandmagic.com/resources/pointer-arrow-click.webp",
-        "https://clickandmagic.com/_astro/uiux_cover.Akana0Ld_Zu7kDM.webp",
-        "https://clickandmagic.com/_astro/findy2026.Ca1_xZGP_25vvX9.webp",
-        "https://clickandmagic.com/favicon-cache/www.amazon.co.jp.ico",
-        "https://m.media-amazon.com/images/I/71R-HoS8hIL._SY522_.jpg",
-        "https://clickandmagic.com/_astro/ux_design_image.D6NB0JKH_Z1aDjEl.webp",
-        "https://clickandmagic.com/favicon-cache/note.com.ico",
-        "https://assets.st-note.com/production/uploads/images/78163810/rectangle_large_type_2_092e8bbf7b7412b8c5a9034d140467e2.png?fit=bounds&quality=85&width=1280",
-        "https://clickandmagic.com/_astro/elements_of_ux.ClMNY1Nx_LSlwm.webp",
-        "https://clickandmagic.com/_astro/jjg_elements_of_user_experience.BRBtd0QZ_Z1atpeY.webp"
-      ],
-      "kind": "article",
-      "text_excerpt": "ノート 講演 紹介 目次 ユーザー体験への誤解を払拭し 、「 UI/UX」表記を避ける スラッシュ区切りは不要 ユーザー体験の解釈 「 UXデザイン」への違和感 体験場面設計・Design for UX 何でもかんでも「UX」にしたい症候群 ギャレットモデルにおける誤解 EOF ノート / ユーザー体験への 誤解を 払拭し 、「 UI/UX」 表記を 避ける 2026.5.26 スラッシュ区切りは 不要 「 UI/UX 」 「 UX/UI」という表記を見かける度に、身体のどこかがむず痒くなるような感覚に襲われます。それはまるで 、 『 筐体/触り心地』 とか 『日本酒/風味の印象』 と書いているようなもので、妙な違和感があります。これら二つの言葉は決して無関係ではないので一見それっぽい気がしますが、よく読むと、それぞれ包括する概念も、見る視点も異なる二つの事柄を無理にスラッシュ区切りにして“同一化”しようとする発想に基づいているのだとわかります。 UIを考える際にユーザー体験（UX）を考えないことなどほぼあり得ないので 、 「 UI」という2文字にはすでにユーザー体験についての意味が含まれていると捉えることが自然です。ですから、何かソフトウェアとかのユーザーインターフェイスを検討する場面で、シンプルに「UI」と書けば、自ずとユーザー体験（UX）についても言及することができます。もとよりスラッシュ以降など不要なのです。 対して、ユーザー体験（UX）を考える場面では、必ずしもUIについて検討しているとは限りません。ユーザー体験は、ユーザーが何かの人工物に触れたときに生じる心情についてであるため、UI設計とはまったく異なる視点で向き合う必要もありましょう。 そもそも、スラッシュ区切りにしてしまうと、スラッシュ以降を省略した表記との意味の差異を考慮しなくてはならなくなります 。 「 UI/UX」と「UI without UX」はそれぞれ別の意味を持つことの前提を作ってしまいます。しかし 、 「 UI/UX」表記を用いるほとんどの人々は 、 「 UI/UX」＝「UIとUXの両方」くらいの意味合いで使っていますから、なんとも奇妙な言葉の認識が生まれてしまうわけです。 「 UI」と言いたければ単に 「UI」 と書けば良いのだし 、 「 UX」と言いたければ 「UX」 と書けば良いのです。わざわざ二つをスラッシュ記号で合体させて「UI/UX」なる言葉を新造する必要はなく、特に設計のプロであれば尚更であります。 私は 、 「 UI/UX」表記をするとどうにも にわか のように映ってしまうので、なるべく同列に扱わない姿勢をとるようにしています。また 、 「 UX」ではなく「ユーザー体験」と表すようにしています。 ユーザー体験の 解釈 ユーザーインターフェイスは“モノ”です。眼に見えて、手に取ることができ、数えられる物理の存在です。対してユーザー体験は“コトについての印象や記憶”と言えます。ユーザーの心の中にだけ存在する心情であるので、誰からも見えないし、触ることもできないし、境界が曖昧なので数えることも難しいでしょう。それに、モノは一つかもしれなけれど、体験は人それぞれに内在するわけだから、少なくとも 十人十色 の体験が存在していると考えなければなりません。 そもそも、ユーザー体験はデジタル製品、ソフトウェアだけに生じるものではありません。UIではない領域のユーザー体験も考える必要があります。この辺りは Web デザインの延長でユーザー体験を捉えている人々がよく誤解していることです。 では一体何がユーザー体験の定義なのか？ と疑問を抱くと思うのですが、そもそもユーザー体験の統一的な定義は存在しないとされており 1 、ここが混乱の発端だったりするわけです。定義がないのだから統一見解も定着しない。各々が独自に解釈して、なんとなくバズワードになった言葉が普及してしまっている。このような状況ですから 、 「 ユーザー体験 」 「 UX」という言葉が曖昧なまま宙に浮いてしまっているのです。 私は 、 「 ユーザー体験」について納得できる一つの解釈として、次のように理解しています： ユーザー体験とは ユーザーが人工物に触れる前、最中、そして後にかけて本人の中に生じる、個人的で主観的な心理プロセス。 人工物との対話であること 時間軸上での変化が存在すること ユーザー本人の心理プロセスであること 個人的で主観的であること この解釈は、黒須正明氏の著書 『UX原論 ユーザビリティからUXへ』 で言及があり、私はこれを自身の解釈としています。 UX原論 -ユーザビリティからUXへ- Amazon → 「 UXデザイン」への 違和感 「 UXデザイン」という言葉が登場して久しいですが、ユーザー体験の解釈を前述の通りで捉えると、この言葉にも違和感を抱くようになります。そもそもユーザー体験はユーザーにとって個人的で主観的であるのだから、外部から他者が手を加えたり、“デザインされる”などという行為が行われて良いはずがないのです。まるで「 水槽の中の脳 」のイメージです。 体験場面設計・ Design for UX もちろん現実にはそんなことはないので、UXデザインの取り組みそのものを否定するものではありません。問題はその取り組みの名前です。ユーザー体験はデザインの対象ではなく、ある意味で結果の一つとしてみるべきなのです 。 「 UXをデザインする」と言ってしまうからおかしいのであって 、 「 ユーザー体験のための環境設計」というふうに言い換えるだけで、この違和感はだいぶ払拭できます。私は 「体験 場面 設計」 や Design for UX などの表現が妥当と考えます。 「 体験場面設計」についてはまた別の機会で。 何でも かんでも 「UX」に したい 症候群 何でもかんでも「UX」にしたい症候群とは、何か新しいデザイン的な取り組みを「UX」に置き換えたくなることです。最近はその症状が少し落ち着きつつあるように思いますが、ソフトウェア業界、IT業界を中心に、国内外問わずこの傾向はよく見られます。 例えば 、 「 UIデザイン」を「UXデザイン」に言い換えたり 、 「 UIデザインツール」を「UXデザインツール」と言い換えるようなことです 。 「 UX」の方が範囲が広いというような発想なのかもしれませんが、先にも述べたように、UIを検討する場面でユーザー体験（UX）を考えないことなど実質的にあり得ないのだから、わざわざ線引きして、UXの方が上位であるかのようにブランディングする必要はありません。 何でもかんでも“UX”と言うのをやめる / Design for UX｜usagimaru 解釈は人それぞれなのかもしれませんが、この業界には何でもかんでも“UX”を付けたがる癖があります。私はこの流行りには乗らずに物事を分けて考えてみたいです。 言葉の定義と解釈など ユーザーインターフェイス（UI）の設計を表す言葉に関して、それをわざわざ「UX〜」と言い換える事例が国内外問わず多くあり、本来この“UX”と呼ばれるはずのものがどこか蔑ろにされているようにも感じられます。言い換えの例としては次のような具合です。 ・UIデザイン → UXデザイン ・UIデザインツール → UXデザインツール または UXツール ・UIデザイナー → UXデザイナー または UI/UXデ note（ノート） → ギャレットモデルに おける 誤解 Jesse James Garret （ジェシー・ジェームズ・ギャレット）氏が 2000 年頃に発表した5段階スタックのダイアグラム、 “The Elements of User Experience” （和名通称：5段階モデル）は、一見ユーザー体験の要素を表しているかのように思えます。しかしこの図はそもそもユーザー体験を5つのレイヤーに分割したものではないのです。 まず、デザインプロセスはユーザー体験ではありません。デザインを進める（作る）工程であって、ユーザーとはまったく異なる側の事情についてを指します。ユーザー体験はユーザーの心理プロセスであるから、モノの設計行為や作ることのプロセスとは明確に区別しなければなりません。 出典：http://www.jjg.net 考えてみてください 。 「 戦略 」 「 要件 」 「 構造 」 「 骨格 」 「 表層」 これらが本当にユーザー体験の要素だと言えましょうか。どこかのコンサルが考えた戦略、システム開発会社が提示した要件、デザイナーが描いた構造や骨格、表層のスタイルが、ユーザーの体験を形作っているのでしょうか。一部には影響を与えているかもしれませんが、体験そのものはユーザーの心の中に生じたプロセスの結果であり、過去の記憶とも複雑に結びつきながら形成されたものです。特定の製品の戦略だとかによるものだとは言い切れません。 そもそも、これらの5つの要素は設計工程を示しているので、 構成要素ではなくプロセスと捉えるべき です。戦略を検討する工程からインターフェイスの表層を検討する工程までのプロセスを俯瞰できる図なのです。 もうひとつ重要な点は、このモデルで着目すべきは5段階のレイヤーではなく、左右の2分割と合わせることにこそ価値があるということです。このモデルの多くの引用者は左右の視点を（意図的に）見落とし、5段階の部分だけを都合よく利用しています。確かにそこだけに注目すると、デザインプロセスの抽象度合いの説明としては便利であるのですが。 左右",
-      "title": "ユーザー体験への誤解を払拭し、「UI/UX」表記を避ける | Click and Magic",
-      "url": "https://clickandmagic.com/notes/avoiding_uiux"
     },
     "https://clickandmagic.com/notes/wwdc26_hig_as_a_philosophy": {
       "cleaner_v": 2,
@@ -7915,35 +7826,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex for Knowledge Work - Every",
       "url": "https://every.to/guides/codex-for-knowledge-work"
-    },
-    "https://every.to/p/after-automation?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "AI progress creates more work for humans, not less",
-      "extraction_source": "trafilatura",
-      "final_url": "https://every.to/p/after-automation?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "https://every-s-manifesto-production.up.railway.app/images/social-banner.png",
-        "https://every-s-manifesto-production.up.railway.app/images/dan-shipper.png",
-        "https://every-s-manifesto-production.up.railway.app/images/cta-tortoise.png",
-        "https://every-s-manifesto-production.up.railway.app/images/ai-sandwich.png",
-        "https://every-s-manifesto-production.up.railway.app/images/screenshot-writing.png",
-        "https://every-s-manifesto-production.up.railway.app/images/screenshot-email.png",
-        "https://every-s-manifesto-production.up.railway.app/images/agents-human-collaboration.png",
-        "https://every-s-manifesto-production.up.railway.app/images/labor-market-impact.png",
-        "https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2922/allocation_economy(2).png",
-        "https://every-s-manifesto-production.up.railway.app/images/competence-situated-taste.svg",
-        "https://every-s-manifesto-production.up.railway.app/images/model-release-cycle.png",
-        "https://every-s-manifesto-production.up.railway.app/images/demand-for-difference.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "After Automation\nAI progress creates more work for humans, not less\nThere is a paradox at the heart of AI.\nAt [Every](https://every.to), we’ve automated everything we can. We use Codex and Claude Code across coding, writing, design, customer service, and more. We alpha-test all of the new models from OpenAI, Anthropic, and Google before they come out. We are riding the exponential boom in model intelligence and automation as far and as fast as possible.\nAnd yet it seems like, for us, there’s more human work to do than ever. We are a team of almost 30 people, and we haven’t fired all of our employees in favor of agents. We haven’t ditched software-as-a-service (SaaS) products in favor of vibe coded apps. We still hire humans to do customer service (with a lot of agent assistance), and we still hire human writers and editors and engineers.\nOur work does look completely different than it used to, though. We don’t write code by hand anymore. If you @-mention someone in our Slack, it’s a toss-up whether you’re talking to a human or an agent. Managers are committing code like ICs and engineers are talking directly to customers. For the last several weeks, AI has responded to 95 percent of my work emails. I am almost always at inbox zero (an extremely rare state for me), but I still review my email.\nIn short, the future looks weird, but also familiar.\nThe familiarity is surprising because the one thing CEOs, knowledge workers, and investors seem to agree on is that AI is a threat to jobs, the economy, safety, and human meaning.\nAnthropic CEO Dario Amodei warns that AI could wipe out up to half of all entry-level white-collar jobs[(1)](https://every.to#marginalia-cite-1). Meta just [laid off 8,000 people](https://www.wsj.com/tech/meta-will-lay-off-8-000-employees-in-may-memo-ce8b97f0), and is installing software on U.S. employees' computers to capture mouse movements, clicks, and keystrokes for a higher quality source of AI training data on advanced knowledge work.\nEven Citadel’s Ken Griffin [seems shaken](https://x.com/FundamentEdge/status/2055675389767516544), saying recently, “These are not mid-tier white collar jobs. These are like extraordinarily high-skilled jobs being, I’m going to pick a word, automated by agentic AI.”\nThe benchmarks, rising exponentially with each new model, seem to back this up. On Humanity’s Last Exam—a test of graduate-level reasoning—top models went from the low single digits a year ago to roughly 44 percent today. On GDPval—a test of how well frontier models perform real-world economic work versus humans—frontier models jumped from similar lows to about 85 percent. In May, METR, an AI safety research nonprofit, released an early Claude Mythos result showing that the model had an 80 percent success rate on tasks that would take a human expert about 4 hours to complete.\nIt seems that we are on the cusp of an AI smarter than any human, with the autonomy to work for almost a full day at a time.\nAnd yet, the paradox remains. If you talk to anyone in the AI industry—or to early adopters outside of it—you’ll hear the same thing we’ve noticed internally: There’s more work to do than ever.\nThe big question, within the industry and without, is: Is this just a temporary state of affairs? Will the next model drop be the one to replace everyone? We watch the benchmarks and sweat, wondering if there’s a tipping point around the corner where all of the jobs go away.\nThere’s no tipping point coming where things flip and the jobs are gone. The new reality is the opposite—the more we automate, the more expert human work there is to do.\nHere’s why: AI commoditizes the residue of human expertise—whatever can be made explicit enough to train on. That collapses the value of default model output and creates demand for what’s different. Demand for what’s different is demand for human experts, even as we approach artificial general intelligence (AGI).\nTo understand why this is, we have to go beyond the graphs, and look at how AI",
-      "text_excerpt_zh": "## 自动化之后  \nAI 的进步为人类创造了更多工作，而非更少  \n\nAI 的核心存在一个悖论。  \n\n在 [Every](https://every.to)，我们已将一切能自动化的事情都自动化了。我们在编码、写作、设计、客户服务等各个环节使用 Codex 和 Claude Code。我们在 OpenAI、Anthropic 和 Google 的新模型发布前就进行 alpha 测试。我们正以尽可能快的速度，乘着模型智能和自动化的指数级增长浪潮前进。  \n\n然而，对我们来说，人类的工作似乎比以往任何时候都多。我们是一个近 30 人的团队，并没有因为使用 agent 而解雇所有员工。我们没有抛弃软件即服务（SaaS）产品，转而使用 vibe coded 应用。我们仍然雇佣人类来做客户服务（尽管有大量 agent 辅助），也仍然雇佣人类作家、编辑和工程师。  \n\n不过，我们的工作看起来确实与过去完全不同了。我们不再手动编写代码。如果你在 Slack 中 @ 某人，你很难判断是在跟人类还是 agent 对话。管理者像独立贡献者一样提交代码，工程师则直接与客户交流。过去几周，AI 回复了我 95% 的工作邮件。我几乎总是收件箱为零（对我来说极其罕见的状态），但我仍然会审阅邮件。  \n\n简而言之，未来看起来既奇怪又熟悉。  \n\n这种熟悉感令人惊讶，因为 CEO、知识工作者和投资者似乎都一致认为，AI 对就业、经济、安全和人类意义构成了威胁。  \n\nAnthropic 的 CEO Dario Amodei 警告说，AI 可能消灭多达一半的初级白领岗位[(1)](https://every.to#marginalia-cite-1)。Meta 刚刚 [解雇了 8000 人](https://www.wsj.com/tech/meta-will-lay-off-8-000-employees-in-may-memo-ce8b97f0)，并正在美国员工的电脑上安装软件，以捕捉鼠标移动、点击和按键，从而获取更高质量的 AI 训练数据，用于高级知识工作。  \n\n就连 Citadel 的 Ken Griffin 也 [似乎感到不安](https://x.com/FundamentEdge/status/2055675389767516544)，他最近表示：“这些不是中端白领工作。这些是极高技能的工作，我要用一个词来形容——被 agentic AI 自动化了。”  \n\n随着每个新模型的推出而呈指数级上升的基准测试似乎也支持这一点。在“人类最后考试”（一项研究生级推理测试）中，顶级模型从一年前的个位数低点跃升至如今的约 44%。在 GDPval（一项测试前沿模型与现实人类相比完成实际经济工作能力的测试）中，前沿模型从类似的低点跃升至约 85%。今年 5 月，AI 安全研究非营利组织 METR 发布了一项早期的 Claude Mythos 结果，显示该模型在人类专家大约需要 4 小时完成的任务上，成功率达到了 80%。  \n\n我们似乎正站在一个比任何人类都更聪明、且能自主工作几乎一整天的 AI 的门槛上。  \n\n然而，悖论依然存在。如果你与 AI 行业的任何人——或行业外的早期采用者——交谈，你会听到与我们内部注意到的相同情况：工作比以往任何时候都多。  \n\n行业内外的核心问题是：这只是暂时的状态吗？下一个模型发布会不会取代所有人？我们盯着基准测试，忧心忡忡，想知道是否有一个临界点就在拐角处，届时所有工作都会消失。  \n\n不会出现一个事情翻转、所有工作消失的临界点。新的现实恰恰相反——我们自动化得越多，需要完成的专家级人类工作就越多。  \n\n原因如下：AI 将人类专业知识的残留物——那些可以被明确表达出来以供训练的部分——商品化了。这压低了默认模型输出的价值，并创造了对差异化内容的需求。对差异化内容的需求，就是对人类专家的需求，即使我们接近通用人工智能（AGI）。  \n\n要理解这一点，我们必须超越图表，审视 AI 的实际运作方式。",
-      "text_excerpt_zh_hash": "64f13c19659ba1e3",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "After Automation | Every",
-      "url": "https://every.to/p/after-automation?ref=sidebar"
     },
     "https://fenx.work/paper-design-alpha/": {
       "cleaner_v": 2,
@@ -9761,27 +9643,6 @@
       "title": "LoRA - Low-Rank Adaptation of LLMs",
       "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
     },
-    "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Time for the annual predictions episode! Bryan and Adam were joined by frequent future-ologists Simon Willison, Steve Klabnik, and Ian Grunert to review past predictions and peer into the future. I...",
-      "extraction_source": "trafilatura",
-      "final_url": "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s",
-      "frameable": false,
-      "image_urls": [
-        "https://img.transistorcdn.com/nhTEbzYPJSvxljH85iNbHvHG5IrzWR2EkReWLVdfs9M/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNGJm/ZDZkZWI0ZDRkZGUw/NDg3ZWQyZDZjZmEy/NTJjNC5wbmc.webp",
-        "https://img.transistorcdn.com/2ZhKlxwpLcs5BeW_DETIDanjoCcpEpJIJRyeE0q_eoo/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80OGI3/NjA5NWY4Yjc4NzE0/ZGI5ZmMzZmY4MjFi/YThiYy5wbmc.webp",
-        "https://img.transistorcdn.com/RWQ_9ixVn-KDq47T-awKEGTzLfyQb5D8VxZK7lEwLHA/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjVl/NDY2NWFlOTNkODgz/MGQ5ZjYwZmFkMzdm/MmVmZC5wbmc.webp",
-        "https://img.transistorcdn.com/ZWEBMteVoDOUvy73V90fM3C2xKxcTGV67Mt_vIRC0ss/rs:fill:0:0:1/w:400/h:400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNGMy/MTdhMzVjYjM4N2Y5/ODk0OTZjZmFlN2Uy/ZjE3MS5qcGc.webp"
-      ],
-      "kind": "article",
-      "text_excerpt": "Predictions 2026!!\nHello, Adam.\nAdam Leventhal:Hello, Bryan. How are you?\nBryan Cantrill:I am doing well. How are you?\nAdam Leventhal:I'm good. And the hype has been building here. Everyone has been dropping in. So showing up four minutes late is like a totally pro move. I love it for the new year.\nBryan Cantrill:Yeah. Yeah. Listen. I I was gonna go full like Lauryn Hill and not, like, take the stage until 10PM. You know?\nBryan Cantrill:Really just, like, really just really get get get the crowd amped up, actually, to the point of, like, anger. Like, what am even here for?\nSteve Klabnik:One year prediction, Brian finally joins the podcast.\nBryan Cantrill:That's good. And I am joined by Simon Wilson here with me in the litter box. Simon, it's so great to have you here.\nSimon Willison:Hey. It's really exciting to be here. We've just been nerding out about servers outside in the on on the shop floor. It's been great.\nBryan Cantrill:Yeah. We've been yeah. So Simon was just like, before we get started, I'd love to look at the machines. I'm like, okay. We've got a we got I gotta do the world's fastest tour of the hardware.\nBryan Cantrill:And Simon, I promise I'm gonna make it up to you with a much more in-depth tour. But it is really great to have you here. Okay. Adam, I just like I just have a little reality check with you. It feels like this year more like there's more of a realm of possibility for this year than any year I can really remember.\nBryan Cantrill:It feels like because if you come back from even a year in the future in fact, I actually struggled, Adam, in coming up with like three and six year predictions this year. Yeah. Because I'm like, well, it's kind of three year picture, six year picture. That's gonna be done in a year, like this thing I'm thinking of.\nAdam Leventhal:I know. I know. It's like it's\nBryan Cantrill:like Are you in that same like, do you feel that same way?\nAdam Leventhal:Totally. Just like everything is possible. And, you know, in in past years, we've had, like, a bag limit that's like Oh. You can only have one crypto yeah.\nBryan Cantrill:One crypto prediction\nAdam Leventhal:or one AI prediction. And I'm like, I struggle to come up with anything that isn't AI or AI adjacent. And and and just and you're right. Whether it's\nBryan Cantrill:So let the record reflect that we only made the bag limit mistake once. We did that with web three in 2022. We did a bag you can only have in prediction. It was a huge mistake because everyone wanted to make three predictions around Web three. And instead, we we made like everyone made one good Web three prediction, namely this whole thing is gonna disintegrate.\nBryan Cantrill:And this is Simon Adam in particular made the prediction that is famous to us anyway, that Web three would drop out of the lexicon in 2022, which ended up being dead to rights. I thought that was a bullseye. Let us not speak of your prediction last year, Adam, that Web three would reenter the lexicon.\nAdam Leventhal:Yeah. No. I that that was definitely a dark I mean, last year was a dark moment, but much like this year. But, yeah, I I I thought web three was gonna be back. I also thought that certain book was gonna be on the bestseller list.\nAdam Leventhal:And I did spend a decent amount of time validating that not only was this book not on the bestseller list, but when it was on the bestseller list in 2024, ChatGPT hastened to point out that it was annotated with the dagger, the dagger which indicates, like, mass, you know, bulk corporate purchases gaming the system.\nBryan Cantrill:So Now, Adam, I I know you're hesitating to name the book because you don't wanna do it any favors, but you're really gonna leave people confused. You're gonna need to name the book. I assure you this will lead if I promise you, it will lead to no additional sales. Can you name the book that you're referring to?\nAdam Leventhal:I feel bad that I've been hating on this book literally for three years consecutive on th",
-      "text_excerpt_zh": "## 2026年预测！！\n\n**Adam Leventhal:** 你好，Bryan。你怎么样？\n\n**Bryan Cantrill:** 我挺好的。你怎么样？\n\n**Adam Leventhal:** 我很好。这里的氛围已经炒起来了。大家都陆续来了。所以迟到四分钟完全是职业选手的操作。我喜欢这种新年开局。\n\n**Bryan Cantrill:** 是啊。是啊。听着，我本来想学 Lauryn Hill 那样，不到晚上十点不上台，你懂吗？就是要让观众的情绪彻底调动起来，甚至到愤怒的程度——比如，\"我到底是来干嘛的？\"\n\n**Steve Klabnik:** 一个年度预测：Bryan 终于加入了播客。\n\n**Bryan Cantrill:** 说得好。而且，Simon Wilson 也和我一起在\"猫砂盆\"里。Simon，非常高兴你能来。\n\n**Simon Willison:** 嘿，能来真的很兴奋。我们刚才就在车间外面聊服务器，聊得特别投入。感觉太棒了。\n\n**Bryan Cantrill:** 是啊，我们确实……Simon 刚才说，在开始之前，我很想看看这些机器。我说，行，那我得给你来个史上最快的硬件参观。Simon，我保证以后会给你一次更深入的参观。但真的很高兴你能来。好了，Adam，我想跟你稍微对一下现实情况。我感觉今年比以往任何一年都更像一个充满可能性的年份。因为，如果你从哪怕一年后的未来穿越回来……事实上，Adam，我今年在构思三年和六年的预测时真的遇到了困难。因为我会想，嗯，三年后的图景，六年后的图景——我想象的那个东西，可能一年内就实现了。\n\n**Adam Leventhal:** 我懂。我懂。感觉就是……\n\n**Bryan Cantrill:** 你也有同感吗？\n\n**Adam Leventhal:** 完全同意。感觉一切皆有可能。你知道，往年我们还会设个\"数量限制\"，比如\"哦，你只能做一个加密货币预测\"或\"只能做一个 AI 预测\"。但现在，我发现自己很难想出任何不涉及 AI 或与 AI 相关的话题。而且，你说得对，不管它是……\n\n**Bryan Cantrill:** 所以，请记录在案：那个设数量限制的错误我们只犯过一次。那是 2022 年，针对 Web3。我们设了个限制，每人只能做一个预测。那是个巨大的错误，因为每个人都想围绕 Web3 做三个预测。结果呢，每个人都只做了一个关于 Web3 的好预测——那就是\"这整个东西要完蛋了\"。而且，Simon，Adam 当时做了一个对我们来说很著名的预测：Web3 这个词会在 2022 年从词汇表中消失。这个预测完全命中。我觉得那是个正中靶心的预测。不过，我们就不提你去年那个预测了，Adam——你说 Web3 会重新回到词汇表里。\n\n**Adam Leventhal:** 是啊。不，那确实是个黑暗……我是说，去年是个黑暗时刻，不过今年也差不多。但是，是的，我确实以为 Web3 会回来。我还以为某本书会上畅销书排行榜。而且我确实花了不少时间去验证，结果发现，那本书不仅在 2024 年没上畅销书榜，而且 ChatGPT 还很快指出，它之前上榜时被标注了\"匕首\"符号——这个符号表示大量、批量的企业采购在操纵系统。\n\n**Bryan Cantrill:** 现在，Adam，我知道你不想提那本书的名字，因为不想给它任何好处，但你这样会让听众很困惑。你得说出书名。我向你保证，这不会带来任何额外的销量。你能说出你指的是哪本书吗？\n\n**Adam Leventhal:** 我觉得很不好意思，我已经连续三年在……",
-      "text_excerpt_zh_hash": "2d07515a0fc86c3d",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Oxide and Friends | Transcript: Predictions 2026!! Oxide and Friends | Transcript: Predictions 2026!!",
-      "url": "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s"
-    },
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118": {
       "content_type": "",
       "description": "",
@@ -9795,34 +9656,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2059288221666910208/img/1Yuu9eDUY1h1sMNa.jpg": {
       "cleaner_v": 2,
@@ -11014,20 +10847,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/ext_tw_video_thumb/2063669003248422913/pu/img/2gwRIdmX6oMatcxN.jpg"
     },
-    "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg"
-    },
     "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11588,62 +11407,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
-    "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg"
-    },
-    "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg"
-    },
-    "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
-    },
-    "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
-    },
     "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11769,20 +11532,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg"
-    },
-    "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
     },
     "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png": {
       "cleaner_v": 2,
@@ -14318,20 +14067,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HJ1ZzdaaUAAbtZ6.jpg"
     },
-    "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
-    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ_fHy8WEAEI_Q_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15059,22 +14794,6 @@
       "title": "Here’s how I use LLMs to help me write code",
       "url": "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
     },
-    "https://simonwillison.net/2026/May/25/encyclical-on-ai/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Dropped this morning by the Vatican: Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence. This is a very interesting …",
-      "extraction_source": "trafilatura",
-      "final_url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "Notes on Pope Leo XIV’s encyclical on AI\n25th May 2026\nDropped this morning by the Vatican: [Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html). This is a very interesting document. It’s some of the clearest writing I’ve seen on the ethics of integrating AI into modern society.\nPope Leo XIV chose the name Leo in honor of Pope Leo XIII, who is known for his 1891 [Rerum novarum](https://en.wikipedia.org/wiki/Rerum_novarum) encyclical on “Rights and Duties of Capital and Labor”.\n[This story](https://www.vaticannews.va/en/church/news/2025-05/leo-xiii-s-times-and-our-own.html) on Vatican News further clarifies the significance of that decision:\nMeeting with the College of Cardinals for their first formal encounter after his election, Pope Leo XIV explained part of the reason for the choice of his papal name. \"There are different reasons for this,\" he said, before going on to explain that he chose the name Leo \"mainly because Pope Leo XIII, in his historic encyclical\n[Rerum novarum]addressed the social question in the context of the first great industrial revolution.\"“In our own day,” he continued, “the Church offers to everyone the treasury of her social teaching in response to another industrial revolution and to developments in the field of artificial intelligence that pose new challenges for the defence of human dignity, justice, and labour.”\nAnd now we get Pope Leo XIV’s own encyclical on the AI revolution. There’s a lot in here, but the writing style is very approachable, including to non-Catholics.\nA few of my highlights\n(I listened to most of the encyclical on a walk with our dog, my first time trying the [ElevenReader iPhone app](https://apps.apple.com/us/app/elevenreader-read-books-aloud/id6479373050). It worked very well: I pasted in a URL to the document and it read it to me in a very high quality voice, highlighting each paragraph as it went.)\nHere are some of my highlights. In each case below emphasis is mine.\nHere’s a useful description of the interpretability problem for LLMs in section 98:\nFirst, any statement regarding AI risks becoming quickly outdated, given the remarkable pace at which these systems are developing. Second, all of us, including those who design them, possess only a limited understanding of their actual functioning. Indeed, current AI systems are more “cultivated” than “built,” for developers do not directly design every detail, but instead create a framework within which the intelligence “grows.” As a result, fundamental scientific aspects — such as the internal representations and computational processes of these systems — remain, at present, unknown.\nI liked section 83’s description of the relationship between development and dignity:\nFor individuals as well as for nations, development is both a duty and a right. Minimum conditions are required for enabling every person and people to flourish in accord with their dignity, without being kept in a state of dependence or excluded from access to necessary goods. Development is truly human when it places people at the center instead of the accumulation of wealth, and when it concerns peoples as well as individuals. Justice demands the recognition of the rights of society and the rights of peoples, and includes a responsibility toward future generations. Development is not truly human if it increases consumption for some while shifting costs and burdens onto others, or relegates entire regions to subordinate roles, preventing them from realizing their full potential.\nBaked in cultural biases and sycophancy get a mention in section 100:\nIn personal use, three aspects in particular deserve careful consideration: the ease with which results are obtained, the impression of objectivity and the simulation of human communication. The speed and simplicity with which information, complex anal",
-      "text_excerpt_zh": "# 教宗良十四世关于人工智能的通谕笔记\n\n2026年5月25日\n\n梵蒂冈今早发布了：[《至大的人性——教宗良十四世陛下在人工智能时代守护人的训谕》](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html)。这是一份非常有趣的文献。关于将人工智能融入现代社会的伦理问题，这是我见过最清晰的论述之一。\n\n教宗良十四世选择\"良\"这个名号，是为了纪念教宗良十三世，后者以其1891年关于\"资本与劳动的权利与义务\"的通谕《[新事](https://en.wikipedia.org/wiki/Rerum_novarum)》而闻名。\n\n[梵蒂冈新闻的这篇报道](https://www.vaticannews.va/en/church/news/2025-05/leo-xiii-s-times-and-our-own.html)进一步阐明了这一决定的意义：\n\n教宗良十四世在当选后与枢机团首次正式会面时，解释了他选择教宗名号的部分原因。\"这有不同的原因，\"他说，接着解释道，他选择\"良\"这个名号，\"主要是因为教宗良十三世在其历史性的通谕《新事》中，在第一次伟大的工业革命背景下探讨了社会问题。\"\"在我们这个时代，\"他继续说道，\"教会将其社会训导的宝库献给所有人，以应对另一次工业革命以及人工智能领域的发展，这些发展对人的尊严、正义和劳动提出了新的挑战。\"\n\n现在我们看到了教宗良十四世本人关于人工智能革命的通谕。内容非常丰富，但写作风格非常平易近人，非天主教徒也能读懂。\n\n## 我的一些重点摘录\n\n（我是在遛狗时听完大部分通谕的，这是我第一次尝试[ElevenReader iPhone应用](https://apps.apple.com/us/app/elevenreader-read-books-aloud/id6479373050)。效果非常好：我粘贴了文档的URL，它用非常高质量的声音读给我听，并逐段高亮显示。）\n\n以下是我的一些重点摘录。每处强调均为我所加。\n\n第98节对LLM的可解释性问题有一个有用的描述：\n\n> 首先，鉴于这些系统发展的惊人速度，任何关于人工智能的陈述都可能很快过时。其次，我们所有人，包括设计这些系统的人，对其实际运作方式只有有限的理解。事实上，当前的人工智能系统更像是被\"培育\"而非\"建造\"出来的，因为开发者并非直接设计每一个细节，而是创建一个框架，让智能在其中\"生长\"。因此，这些系统的基本科学方面——例如其内部表征和计算过程——目前仍是未知的。\n\n我喜欢第83节对发展与尊严关系的描述：\n\n> 对于个人和国家而言，发展既是义务也是权利。需要最低限度的条件，才能使每个人和每个民族按照其尊严繁荣发展，而不至于陷入依赖状态或被排除在获取必要物品之外。当发展将人而非财富积累置于中心，并且当它既关乎个人也关乎民族时，它才是真正人性的。正义要求承认社会的权利和民族的权利，并包含对后代的责任。如果发展增加了某些人的消费，却将成本和负担转嫁给他人，或将整个地区置于从属地位，使其无法发挥全部潜力，那么这种发展就不是真正人性的。\n\n第100节提到了内嵌的文化偏见和谄媚行为：\n\n> 在个人使用中，三个方面尤其值得仔细考量：获取结果的便捷性、客观性的印象以及人类交流的模拟。信息、复杂分析",
-      "text_excerpt_zh_hash": "981f307ce95ee84f",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Notes on Pope Leo XIV’s encyclical on AI",
-      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/"
-    },
     "https://simonwillison.net/2026/May/27/product-market-fit/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -15445,23 +15164,6 @@
       "text_excerpt": "AI 增长引擎和传统营销工具有什么区别？\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n产品只是入场券，增长才是比赛本身——AI Agent 让一人公司也能跑增长飞轮。\n产品做好了，客户在哪？这是 2026 年每个独立创始人都在问的问题。本文用真实案例拆解如何用 AI Agent 搭建增长引擎——从冷启动到规模化获客，零营销团队的独立创始人也能做到。\nFree to startNo credit card requiredUpdated Jun 2026\nIndieHackers 上有一个帖子正在被疯狂讨论——「Building a complex SaaS was the easy part. Now I need proof.」发帖人花了七个月打磨产品，功能齐全、架构干净、性能优秀。然后他停在了一个问题上：谁来用？\n这不是个例。500k.io 的 2026 年独立创始人统计数据显示：73% 的独立创始人把「客户获取」列为第一痛点，远超「产品开发」（11%）和「融资」（9%）。\n产品做得再好，没人用就是零。\n但独立创始人的困境在于：你既没有预算雇增长团队，也没有时间同时搞定产品和营销。结果就是——产品上线了，然后呢？\n你在 Product Hunt 上线了，发了 X，发了 Reddit，贴了 HN。24 小时后：12 个 upvote，3 条评论，0 个注册。你的帖子沉了。\n不是产品不好——是冷启动本身就是一场信息战争，而一个人打不赢。\n你开始写博客、发推、做 LinkedIn。三个月后：博客月访问 200，X 粉丝 300。你发现内容的投入产出比低得可怕——不是因为内容没用，是因为你没有精力同时做内容和分发。\n一个博文写 4 小时，分发到 10 个渠道又要 3 小时。一周一篇博文，你每周 7 小时砸在内容上——这还不算选题和数据分析的时间。\nBazzly 的创始人 Filippo 在 IndieHackers 上写了一篇爆文：「You don't need more traffic. You need better activation.」43 个 upvote，70 条评论。核心观点：大多数独立创始人花 80% 时间在「做」增长（发帖、回帖、写邮件），只花 20% 时间在「想」增长（用户洞察、渠道策略、转化优化）。\n理想的比例应该反过来。\n2026 年的 AI Agent 已经不是「写文案的工具」了。它们能做的是一个完整增长团队的日常工作——从内容生产到多渠道分发，从冷启动 outreach 到客户反馈分析。\n一个独立创始人的增长系统只需要四个 AI 角色：\n1. AI 内容引擎 → 把「写东西」变成流水线\n不是让 AI 替你写一篇文章。是让 AI 跑一整个内容流水线：\n- 选题：扫描 IndieHackers、X、Reddit、HN 的热点话题，匹配你的产品定位\n- 撰写：基于 SEO 关键词和用户搜索意图生成结构化内容\n- 分发：自动生成 X thread、Reddit 帖子、HN 提交文案、Slack/Discord 社区分享\n- 追踪：48 小时后复盘数据，标记高转化渠道\n一个独立创始人手动跑完这个流程需要 6-10 小时。AI Agent 可以降到 1 小时以内——你的角色从「执行者」变成了「审核者」。\n2. AI 冷启动引擎 → 不是 spam，是规模化的人际接触\n冷启动最难的是什么？不是找不到目标用户——是一个个联系太慢了。\nAI 冷启动引擎的工作流程：\n- 识别你的目标用户活跃的社区（Reddit 子版块、Slack 群组、Discord 服务器）\n- 监控相关讨论话题\n- 生成个性化、有价值的回复（不是「试试我的产品」，而是真正回答问题，自然带出你的产品作为解决方案）\n- 跟踪哪些社区和话题的转化率最高\nLiFast 的创始人做了一个 AI LinkedIn outreach 工具，自己先用它做冷启动——从 600 次 LinkedIn 资料浏览到 12 个真实客户，只用了 90 天。\n3. AI 激活引擎 → 让注册用户真正用起来\n大多数独立创始人的激活流程是这样的：用户注册 → 收到一封 welcome email → 然后就没有然后了。\nIndieHackers 的数据：一个新用户在注册后 72 小时内如果没有完成「关键动作」（比如完成第一个任务、导入数据、邀请队友），流失率超过 80%。\nAI 激活引擎能做什么：\n- 根据用户注册时的行为数据，发个性化的 onboarding 序列\n- 监控用户的关键行为（登录频率、功能使用、停留时间）\n- 在用户即将流失时触发挽留动作（个性化的邮件、教程视频、甚至是一个真实的 demo offer）\n这不是「发邮件」——这是用数据驱动的自动化激活。\n4. AI 反馈引擎 → 让客户告诉你下一步做什么\n增长不等于获客。增长的真正引擎是 客户洞察 → 产品迭代 → 口碑传播。\nAI 反馈引擎的工作：\n- 自动收集和分析客服对话、社交媒体评论、产品内反馈\n- 提取高频需求和痛点\n- 标记流失信号（某个功能的使用率突然下降、负面评价集中出现）\n- 每周生成一份「你该知道的 5 件事」\n你不再是盲飞。\n假设你是一个独立创始人，刚上线了一个 AI 项目协作工具。你的增长飞轮怎么跑：\n第 1-2 周：内容播种\n- AI 内容引擎产出 2 篇 SEO 博文 + 10 条社交分发\n- 目标：建立初始内容资产，开始获取搜索流量\n第 3-4 周：社区冷启动\n- AI 冷启动引擎在 3 个目标社区持续互动\n- 每天 5-10 条有价值的回复，自然带出产品\n- 目标：获得第一批 20-30 个注册用户\n第 5-8 周：激活和迭代\n- AI 激活引擎接手新用户 onboarding\n- AI 反馈引擎收集用户行为数据和反馈\n- 根据数据迭代产品\n第 9 周起：规模化\n- 内容引擎进入周更节奏\n- 冷启动引擎扩展到新社区\n- 激活和反馈引擎持续优化\n这不是理论——500k.io 的数据显示，使用 AI Agent 做增长的独立创始人，6 个月内用户增长速度是仅靠手动增长的 3.4 倍。\nAI 不是魔法。如果你自己的增长策略是错的，AI 只是帮你更快地执行错误策略。\n先想清楚：你的目标用户是谁？他们在哪里？他们为什么应该用你的产品？这些问题的答案不能交给 AI。\nAI 可以 10 分钟产出一篇博文——但 10 篇平庸的文章不如 1 篇真正有用的文章。AI 内容引擎的起点应该是用户搜索意图研究和竞品内容分析，而不是「让 AI 随便写」。\n一个独立创始人的 AI 增长团队应该聚焦在 1-2 个渠道上做到极致，而不是 10 个渠道都蜻蜓点水。\n怎么选渠道？看两个指标：\n- 你的目标用户在不在这个渠道\n- 这个渠道是否适合长期积累（SEO 和社区 > 一次性广告）\n如果你只有 1-2 个 AI 工具（ChatGPT 写文案、一个 SEO 工具做关键词），你只是把单项任务自动化了。\n真正的增长引擎是 AI Agent 之间的协作：你的 AI 内容引擎自动把博文发给 AI 分发引擎，AI 分发引擎把用户反馈喂给 AI 分析引擎，AI 分析引擎把洞察推给你。\n这就是 Tycoon 在解决的问题——不是给你一个 AI 工具，而是给你一个 AI 增长团队：\n- [AI CEO](https://tycoon.us/blog/what-is-an-ai-ceo)— 每天早上的优先级清单，自动跟进和堵点发现\n- [AI 写手 + SEO + 分发](https://tycoon.us/blog/your-first-employee-should-be-ai)— 内容从选题到多平台分发全自动\n- [AI 增长分析师](https://tycoon.us/blog/how-to-run-a-one-person-company-with-ai)— 数据找人，而不是人找数据\n你不再是一个人在战斗。\n产品做好了，客户在哪？这个问题不会再让你失眠。\nFAQ\nClear answers about wallet credit, usage, subscriptions, and how Tycoon charges for work.\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n一个集成 AI 平台的月费通常在 $9-$99 之间，覆盖内容、分发、分析和冷启动。相比之下，雇一个兼职增长人员的成本是 $2K-$5K/月。AI 增长引擎的成本是人类的 1-3%。\nGoogle 的立场很明确：惩罚的是「低质量、为操纵排名而生的内容」，不是「AI 辅助创作的内容」。关键策略是：AI 出草稿和结构，人类把控洞察和真实经验，确保每篇内容提供独特的价值。纯 AI 生成、零人工审核的内容确实有风险。\n取决于你的产品类型和目标用户。B2B SaaS 优先 SEO + LinkedIn + 行业社区；B2C 优先 SEO + Reddit + X；开发者工具优先 SEO + HN + GitHub + Dev.to。无论选哪个渠道，聚焦 1-2 个做到 80 分，再考虑扩展。\n取决于你怎么用。AI 的正确用法",
       "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
       "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
-    },
-    "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "unknown",
-      "text_excerpt": "[Sitemap](https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm%5Fsource%3DmobileNavBar&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fuxdesign.cc%2F7-things-that-vibe-design-cant-replicate-014e3089f86e&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n[Medium Logo](https://medium.com/?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nGet app\n\n[Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top%5Fnav%5Flayout%5Fnav-----------------------new%5Fpost%5Ftopnav------------------)\n\n[Search](https://medium.com/search?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fuxdesign.cc%2F7-things-that-vibe-design-cant-replicate-014e3089f86e&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n![Unknown user](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png)\n\n[UX Collective](https://uxdesign.cc/?source=post%5Fpage---publication%5Fnav-138adf9c44c-014e3089f86e---------------------------------------)\n\n·\n\nFollow publication\n\n[![UX Collective](https://miro.medium.com/v2/resize:fill:76:76/1*mDhF9X4VO0rCrJvWFatyxg.png)](https://uxdesign.cc/?source=post%5Fpage---post%5Fpublication%5Fsidebar-138adf9c44c-014e3089f86e---------------------------------------)\n\nWe believe designers are thinkers as much as they are makers. <https://linktr.ee/uxc>\n\nFollow publication\n\n# 7 things that Vibe Design can’t replicate\n\n## _Vibe design with intention, eyes open._\n\n[![Arin Bhowmick](https://miro.medium.com/v2/resize:fill:64:64/1*XIRnKrYzq1vcuMcbKI3E3g.jpeg)](https://arinbhowmick.medium.com/?source=post%5Fpage---byline--014e3089f86e---------------------------------------)\n\n[Arin Bhowmick](https://arinbhowmick.medium.com/?source=post%5Fpage---byline--014e3089f86e---------------------------------------)\n\nFollow\n\n7 min read\n\n·\n\n1 day ago\n\n25\n\n1\n\n[Listen](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost%5Faudio%5Fbutton%26postId%3D014e3089f86e&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2F7-things-that-vibe-design-cant-replicate-014e3089f86e&source=---header%5Factions--014e3089f86e---------------------post%5Faudio%5Fbutton------------------)\n\nShare\n\nPress enter or click to view image in full size\n\n![Bold white text reading “7 THINGS THAT VIBE DESIGN CAN’T REPLICATE” over a textured orange, black, and purple abstract background. Logos for Lovable, Stitch, Figma Make, Vercel, and Cursor appear along the bottom.](https://miro.medium.com/v2/resize:fit:700/1*ukGiZlnzcJKFZ8UB9CvskA.png)\n\n[Andrej Karpathy](https://www.linkedin.com/in/andrej-karpathy-9a650716/), former Director of AI at Tesla, coined “vibe coding” in early 2025, saying there’s a new type of coding “where you fully give in to the vibes, embrace exponentials, and forget that the code even exists.”\n\nPredictably, vibe design was next. Google’s Stitch introduced a Vibe Design mode last March and popularized the term. With the new functionality, anyone can describe a business objective or a desired user feeling, and the model generates multiple high-fidelity directions.\n\nThe aforementioned Stitch, Figma Make, Lovable, Cursor, and Vercel turn weeks of work into an afternoon. Talk about a productivity hack.\n\nHowever, vibe design has its limits. There are aspects it can’t replicate, and those are where a skilled designer’s work is irreplaceable. Here are seven of them.\n\n## 1\\. Taste and judgment\n\nAs Itamar Medeiros recently argued in [**his recent article,**](https://www.",
-      "text_excerpt_zh": "# Vibe Design 无法复制的 7 件事\n\n## _有意图地、睁大眼睛进行 Vibe Design_\n\n[![Arin Bhowmick](https://miro.medium.com/v2/resize:fill:64:64/1*XIRnKrYzq1vcuMcbKI3E3g.jpeg)](https://arinbhowmick.medium.com/?source=post%5Fpage---byline--014e3089f86e---------------------------------------)\n\n[Arin Bhowmick](https://arinbhowmick.medium.com/?source=post%5Fpage---byline--014e3089f86e---------------------------------------)\n\n关注\n\n7 分钟阅读\n\n·\n\n1 天前\n\n25\n\n1\n\n[收听](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost%5Faudio%5Fbutton%26postId%3D014e3089f86e&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2F7-things-that-vibe-design-cant-replicate-014e3089f86e&source=---header%5Factions--014e3089f86e---------------------post%5Faudio%5Fbutton------------------)\n\n分享\n\n![粗体白色文字写着“VIBE DESIGN 无法复制的 7 件事”，背景为纹理丰富的橙色、黑色和紫色抽象图案。底部排列着 Lovable、Stitch、Figma Make、Vercel 和 Cursor 的 Logo。](https://miro.medium.com/v2/resize:fit:700/1*ukGiZlnzcJKFZ8UB9CvskA.png)\n\n前特斯拉 AI 总监 [Andrej Karpathy](https://www.linkedin.com/in/andrej-karpathy-9a650716/) 在 2025 年初创造了“vibe coding”一词，称这是一种新型编程方式，“你完全沉浸在氛围中，拥抱指数级增长，甚至忘记代码的存在。”\n\n可以预见，vibe design 紧随其后。Google 的 Stitch 于去年三月推出了 Vibe Design 模式，并普及了这一术语。借助这一新功能，任何人都可以描述一个业务目标或期望的用户感受，模型便会生成多个高保真方向。\n\n上述提到的 Stitch、Figma Make、Lovable、Cursor 和 Vercel 将数周的工作缩短为一个下午。这无疑是生产力上的巨大提升。\n\n然而，vibe design 有其局限性。有些方面它无法复制，而这些正是优秀设计师不可替代的工作所在。以下是其中七点。\n\n## 1. 品味与判断力\n\n正如 Itamar Medeiros 最近在 [**他的文章**](https://www.",
-      "text_excerpt_zh_hash": "98e4dc1bcc5c367e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e"
     },
     "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4": {
       "cleaner_v": 2,
@@ -17365,14 +17067,6 @@
     }
   },
   "thread_urls_by_conversation": {
-    "2057094501986943369": [
-      "https://x.com/SidebarIO/status/2057094501986943369",
-      "https://2026.stateofai.dev/en-US?ref=sidebar",
-      "https://pbs.twimg.com/media/HIxEjDWXIAA7hGQ.jpg",
-      "https://x.com/SidebarIO/status/2059676261165764884",
-      "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
-    ],
     "2057106571575038274": [
       "https://x.com/opapoeconomico/status/2057106571575038274",
       "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg"
@@ -17381,62 +17075,12 @@
       "https://x.com/0thernet/status/2057902327097327928",
       "http://x.com/i/article/2057844255192678400"
     ],
-    "2058213261246660895": [
-      "https://x.com/hidysaam/status/2058213261246660895",
-      "https://pbs.twimg.com/tweet_video_thumb/HJA9xCrboAA7d47.jpg"
-    ],
-    "2058660942326710689": [
-      "https://x.com/clairevo/status/2058660942326710689"
-    ],
     "2058931538029662435": [
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2058946521215762626": [
-      "https://x.com/0xDepressionn/status/2058946521215762626",
-      "https://pbs.twimg.com/amplify_video_thumb/2058946086820077569/img/bdh2XNmb2F9l_3Io.jpg"
-    ],
-    "2058951490727768087": [
-      "https://x.com/SidebarIO/status/2058951490727768087",
-      "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJLdeAZWgAACuri.jpg",
-      "https://x.com/SidebarIO/status/2059676261165764884",
-      "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
-    ],
-    "2058961048976171183": [
-      "https://x.com/SidebarIO/status/2058961048976171183",
-      "https://every.to/p/after-automation?ref=sidebar",
-      "https://pbs.twimg.com/media/HJLmKUZWkAAPwhU.jpg",
-      "https://x.com/SidebarIO/status/2059676261165764884",
-      "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
-      "https://pbs.twimg.com/media/HJVwpMPXIAI4QPg.jpg"
-    ],
-    "2058979484653568322": [
-      "https://x.com/dunik_7/status/2058979484653568322",
-      "https://pbs.twimg.com/amplify_video_thumb/2058978250492088320/img/F52pWOd38FU0R2Qq.jpg"
-    ],
-    "2059018199673487487": [
-      "https://x.com/milstan/status/2059018199673487487",
-      "http://x.com/i/article/2059015269184684032"
-    ],
-    "2059065719086792804": [
-      "https://x.com/simonw/status/2059065719086792804",
-      "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
-      "https://x.com/simonw/status/2059069282844381654",
-      "https://oxide-and-friends.transistor.fm/episodes/predictions-2026/transcript#t=37m13s",
-      "https://pbs.twimg.com/media/HJNIl5LboAAqjzs.jpg"
-    ],
     "2059144022778896392": [
       "https://x.com/garrytan/status/2059144022778896392"
-    ],
-    "2059192394713899228": [
-      "https://x.com/_avichawla/status/2059192394713899228",
-      "https://pbs.twimg.com/media/HJO4kfta8AEiYRd.jpg"
-    ],
-    "2059236589818269799": [
-      "https://x.com/usagimaruma/status/2059236589818269799",
-      "https://clickandmagic.com/notes/avoiding_uiux"
     ],
     "2059269948518932623": [
       "https://x.com/Alfred_Lin/status/2059269948518932623",
@@ -22507,7 +22151,8 @@
     ],
     "2069762771135148490": [
       "https://x.com/alive_/status/2069762771135148490",
-      "http://x.com/i/article/2069761815932768256"
+      "http://x.com/i/article/2069761815932768256",
+      "https://x.com/alive_/status/2070172260430663755"
     ],
     "2069778079069696182": [
       "https://x.com/SidebarIO/status/2069778079069696182",
@@ -22522,8 +22167,8 @@
     ],
     "2069794773884637659": [
       "https://x.com/morganlinton/status/2069794773884637659",
-      "https://x.com/morganlinton/status/2069844943246602319",
-      "https://x.com/morganlinton/status/2069845169894232558"
+      "https://x.com/morganlinton/status/2069845169894232558",
+      "https://x.com/morganlinton/status/2069844943246602319"
     ],
     "2069797202835165579": [
       "https://x.com/SidebarIO/status/2069797202835165579",
@@ -22645,9 +22290,9 @@
     ],
     "2070023917071433995": [
       "https://x.com/pmarca/status/2070023917071433995",
+      "https://x.com/pmarca/status/2070186673238159774",
       "https://x.com/pmarca/status/2070176201029861455",
-      "https://x.com/pmarca/status/2070175954497065135",
-      "https://x.com/pmarca/status/2070173202731704473"
+      "https://x.com/pmarca/status/2070175954497065135"
     ],
     "2070140467564454023": [
       "https://x.com/SidebarIO/status/2070140467564454023",
@@ -22658,6 +22303,6 @@
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ]
   },
-  "updated_at": "2026-06-25T16:36:02Z",
+  "updated_at": "2026-06-25T19:17:34Z",
   "window": "recent"
 }
