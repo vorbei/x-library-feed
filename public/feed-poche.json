@@ -9,7 +9,7 @@
       "name": "Development"
     },
     {
-      "count": 344,
+      "count": 345,
       "name": "Design"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 279,
+      "count": 280,
       "name": "Social"
     },
     {
@@ -38,8 +38,83 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2381,
+  "item_count": 2383,
   "items": [
+    {
+      "category": "Social",
+      "created_at": "2026-06-25T01:25:59.456082Z",
+      "description": "FIGMA MOTION IS HERE FIGMA MOTION IS HERE FIGMA MOTION IS HERE Live from Config 2026 pic.twitter.com/ut7OFVZKQS",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k176yazrbyes1aehwzpkbqgx2n89az34",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2069827477296353280/img/KaLT56GEN2vHV1XI.jpg",
+      "recommended_at": "2026-06-25T02:08:35.970000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "figma",
+        "motion-design",
+        "config2026"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T02:08:35.970000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Figma (@figma) on X",
+      "url": "https://x.com/figma/status/2069827742800253230",
+      "x_status_id": "2069827742800253230"
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-25T04:49:39.143203Z",
+      "article_image_urls": [
+        "https://font.fol.com.tr/wp-content/uploads/2025/07/Fol10.jpg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/download-popup-image.jpg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-1-content-img-1.png",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-3-img-1.jpg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-3-img-2.jpg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-3-img-3.jpg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-4-icon.svg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-4-text.svg",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-5-img-1.png",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-5-img-2.png",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-6-img-1.png",
+        "https://font.fol.com.tr/wp-content/themes/font/dist/img/dynamic/comp-6-img-2.png"
+      ],
+      "article_title_extracted": "Home | Fol Font",
+      "category": "Design",
+      "created_at": "2026-06-25T01:53:16.773608Z",
+      "description": "The page presents the 'FOL' font collection, highlighting the 'FOL 10' series with various styles including Thin, Dot, Line, and Square. It showcases a total of 112 glyphs and offers a subscription option for a newsletter, along with a free download. The visuals include images of each font style to illustrate their designs. The typography extends to various symbols and characters, suitable for diverse design needs.",
+      "domain": "font.fol.com.tr",
+      "embed_type": "",
+      "id": "k17a89cwp5p2z4kg2tgpzthjm189ar57",
+      "og_image_url": "https://cloud.poche.app/api/storage/e1cbe1d2-b214-42e0-8553-51487f79c63e",
+      "recommended_at": "2026-06-25T02:08:21.863000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "typography",
+        "font-design",
+        "graphic-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T02:08:21.863000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Home | Fol Font",
+      "url": "https://font.fol.com.tr/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_attempted_at": "2026-06-24T15:21:50.603929Z",
@@ -105584,7 +105659,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2222,
+      "count": 2224,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -105620,5 +105695,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-24T22:00:21.898485Z"
+  "updated_at": "2026-06-25T04:49:41.488455Z"
 }
