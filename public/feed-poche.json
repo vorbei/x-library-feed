@@ -60,6 +60,9 @@
       "category": "Tools",
       "created_at": "2026-06-25T08:38:06.836517Z",
       "description": "Build, deploy, and manage internal tools with Retool's unified engine. Connect to any database, API, or LLM. Leverage AI throughout your business.",
+      "description_zh": "使用 Retool 统一引擎构建、部署和管理内部工具。连接任意数据库、API 或 LLM。在业务全流程中充分利用 AI 能力。",
+      "description_zh_hash": "f6454f916c8d5006",
+      "description_zh_translator_v": 2,
       "domain": "retool.com",
       "embed_type": "",
       "id": "k178bt228mv7g97prfawgemjhs89agc5",
@@ -82,6 +85,9 @@
         }
       ],
       "title": "Retool | Build internal software better, with AI.",
+      "title_zh": "Retool | 用 AI 更好地构建内部软件。",
+      "title_zh_hash": "df11b28de8f572d8",
+      "title_zh_translator_v": 2,
       "url": "https://retool.com/",
       "x_status_id": null
     },
