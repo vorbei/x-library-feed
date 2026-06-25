@@ -54,6 +54,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How do we eval if a model can find and exploit vulnerabilities? We discuss some benchmarks and the common pattern:\n• A sandboxed target within Docker containers\n• Inputs: code only (0-day), with patch (1-day scenario)\n• Tools such as bash, static analyzers, etc.\n• A grader to eval exploits or captured flags\n\nhttps://eugeneyan.com/writing/cybersecurity-evals/",
+      "text_zh": "如何评估模型能否发现并利用漏洞？我们讨论了一些基准测试和常见模式：\n• 在Docker容器内设置沙盒化目标\n• 输入：仅代码（零日漏洞场景）、带补丁（一日漏洞场景）\n• 工具：bash、静态分析器等\n• 用于评估漏洞利用或捕获标志的评分器\n\nhttps://eugeneyan.com/writing/cybersecurity-evals/",
+      "text_zh_hash": "809089a31e25b5a5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/eugeneyan/status/2069943153843691871"
     },
     {
@@ -95,6 +98,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Absolute banger of an opener, new media nailed it with this one.",
+      "text_zh": "绝对炸裂的开场，新媒体这次拿捏住了。",
+      "text_zh_hash": "ef63181a070a7b59",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/andrew__reed/status/2069863087495344394"
     },
     {
@@ -258,6 +264,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "single agents are getting good. the bigger unlock is making many agents useful together without turning them into noise. matrix is building that coordination layer.",
+      "text_zh": "单个智能体已经表现不错。更大的突破在于让多个智能体协同发挥作用，而不让它们沦为噪音。Matrix 正在构建这一协调层。",
+      "text_zh_hash": "a3444aaa8d3832f5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/DerekNee/status/2069779721085505538"
     },
     {
@@ -312,6 +321,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Loop Engineering Is Just Software Engineering. We Have a Name for That.\n\nMust Read... https://t.co/pyLUarCuKC",
+      "text_zh": "循环工程就是软件工程。我们对此有一个称呼。\n\n必读... https://t.co/pyLUarCuKC",
+      "text_zh_hash": "fcadac0fe4074115",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/iiidevs/status/2069853415228793302"
     },
     {
@@ -526,6 +538,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "a lot of agent memory follows a simple three step process:\n\n- run agent\n- run some process to look at those traces and analyze them\n- update memory based on that\n\nwe show how to do that! https://t.co/nNKu02gvib",
+      "text_zh": "许多智能体记忆遵循一个简单的三步流程：\n\n- 运行智能体\n- 运行某些进程来查看这些轨迹并进行分析\n- 基于此更新记忆\n\n我们展示了如何做到这一点！https://t.co/nNKu02gvib",
+      "text_zh_hash": "b283f5e37cdc380d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/hwchase17/status/2069856656335556766"
     },
     {
@@ -567,6 +582,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "1. \"Do the work by hand first, so you know what good looks like.\"\n\nI agree with this so hard I am actually saddened I have only one retweet to give.  Literally every developer should read this. The rest of the post is also fantastic",
+      "text_zh": "1. \"先用手工完成工作，这样你才知道什么算做得好。\"\n\n我对此深表赞同，甚至遗憾自己只能转发一次。每个开发者都该读读这句话。这篇文章的其余部分也同样精彩。",
+      "text_zh_hash": "134b788198dbc094",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/5imian/status/2069831588964135138"
     },
     {
@@ -605,6 +623,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Continual learning isn't only about model weights. The harness learns too.\n\nProof: we build Replit Agent with Replit Agent ↓\n\nhttps://replit.com/blog/evaluating-and-improving-agent-at-scale",
+      "text_zh": "持续学习不仅仅是关于模型权重。工具链本身也在学习。\n\n证明：我们用 Replit Agent 构建了 Replit Agent ↓\n\nhttps://replit.com/blog/evaluating-and-improving-agent-at-scale",
+      "text_zh_hash": "08ac3ce93e39de11",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pirroh/status/2069874144414662695"
     },
     {
