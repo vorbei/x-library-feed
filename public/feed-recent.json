@@ -5911,6 +5911,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069077093036576768"
     },
+    "http://x.com/i/article/2069078001317564416": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069078001317564416",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069078001317564416"
+    },
     "http://x.com/i/article/2069093218839592960": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6031,6 +6044,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069201811307917312"
     },
+    "http://x.com/i/article/2069226219032436736": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069226219032436736",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069226219032436736"
+    },
     "http://x.com/i/article/2069290212862377984": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6138,6 +6164,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069434045625421824"
     },
+    "http://x.com/i/article/2069439163758170112": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069439163758170112",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069439163758170112"
+    },
     "http://x.com/i/article/2069487597584322560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6219,6 +6258,45 @@
       "title": "",
       "url": "http://x.com/i/article/2069671539902177280"
     },
+    "http://x.com/i/article/2069696547986776064": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069696547986776064",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069696547986776064"
+    },
+    "http://x.com/i/article/2069717393157345280": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069717393157345280",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069717393157345280"
+    },
+    "http://x.com/i/article/2069733809939992576": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069733809939992576",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069733809939992576"
+    },
     "http://x.com/i/article/2069757298189176833": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6261,6 +6339,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069789657777225729"
     },
+    "http://x.com/i/article/2069803732552896512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069803732552896512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLmIvt6W0AA6Szu?format=jpg&name=900x900)](http://x.com/harold%5Fmatmul/article/2069836410052325711/media/2069835857113042944)\n\nAre you still tuning your LLMs by hand? - An ode to GEPA\n\n[![](https://pbs.twimg.com/profile_images/1828928319477215232/Qq9kI7GB_normal.jpg)](http://x.com/harold%5Fmatmul)\n\n[Harold Benoit](http://x.com/harold%5Fmatmul)\n\n[@harold\\_matmul](http://x.com/harold%5Fmatmul)\n\n·\n\n12h\n\nFollow\n\nClick to Follow harold\\_matmul\n\n9\n\n69\n\n[7.2K](http://x.com/harold%5Fmatmul/status/2069836410052325711/analytics)\n\nI think GEPA (also called dspy.GEPA) is still highly under-appreciated by the ML community. \n\nCredits due to \n\n[@lateinteraction](https://x.com/@lateinteraction)\n\n , \n\n[@LakshyAAAgrawal](https://x.com/@LakshyAAAgrawal)\n\n (and others ). Many thanks to them for being pioneers, and creating the building blocks of \"modern AI engineering\".\n\nI've used GEPA successfully in the context of pretraining data curation at Microsoft AI, so I thought I'd give a brief overview of why I reach for this tool :)\n\n[![](https://pbs.twimg.com/profile_images/1613558765764374528/aZQB6U4b_normal.jpg)](http://x.com/lateinteraction)\n\nOmar Khattab\n\n@lateinteraction\n\n·\n\n[Jun 3](http://x.com/lateinteraction/status/2062015109132873852)\n\ndspy.GEPA used in pretraining data curation in the new Microsoft AI effort :-)\n\nQuote\n\n![](https://pbs.twimg.com/profile_images/1995783519340298240/6bHjSLAK_mini.jpg)\n\nLakshya A Agrawal\n\n@LakshyAAAgrawal\n\n·\n\nJun 3\n\nExcited to see the use of GEPA-optimized LLM judges for data filtering in MAI-Thinking-1 model's pre-training pipeline!  x.com/mustafasuleyma…\n\n[![Image](https://pbs.twimg.com/media/HJ29zxjbwAAxI7a?format=jpg&name=small)](http://x.com/LakshyAAAgrawal/status/2062013650639241403/photo/1)\n\n10\n\n25\n\n257\n\n[19K](http://x.com/lateinteraction/status/2062015109132873852/analytics)\n\nIf I had to give a one-liner summary for the article: \n\n> dspy.GEPA allows me to tune task-specific LLMs by spending compute instead of human time. \n\nAs a deep learning researcher, my productivity and impact is somewhat tied to my ability to keep GPUs busy, and to effectively replace my manual labour by spending compute.\n\nWithin that mindset, GEPA (and DSPy) are really great tools. \n\nBut it goes beyond that. Structuring your work around GEPA also acts as a good forcing function to have good experiment hygiene, as it rewards you for creating evals for your tasks (which you should always do!).\n\nBut I'm getting ahead of myself.\n\n## \n\nWhy and when do we need it?​ \n\nWe, the user, want an LLM to do a task well (e.g. classification, ranking, code generation, grading)​. \n\nHow do we approach this task ? \n\nThe simplest approach is to simply tweak the prompt. Let's why GEPA helps.\n\nThe old way​\n\n1. Look at your data, understand the task details (hopefully label and build an eval)​\n2. Repeat this loop until satisfied:​\n* Write the prompt​\n* Run inference​\n* Analyze failure modes manually (and maybe you have an eval score)\n\nThe tuning alone can take a few hours, and is specific to the LLM you picked.\n\nWith GEPA:\n\n1. Look at your data, understand the task details (hopefully label and build an eval)​.\n2. Write a dspy.GEPA optimization loop.\n3. Run the prompt tuning loop.\n4. You now have task-optimized prompt.\n\nThis is pretty nice! The only manual labour needed is to look at the data. The tuning should take a few minutes, and can be easily rerun for any LLM.\n\n## \n\nHow does prompt tuning with GEPA work?\n\nI won't go into many details, as other people explain it much better (\n\n[see GEPA website](https://gepa-ai.github.io/gepa/)\n\n).\n\n> At a high level, it is simply a loop optimizing the task prompt, given some grader and a reflection LLM.\n\nCheck out this diagram.\n\n[![Image](https://pbs.twimg.com/media/HLlzS34W0AASlWH?format=jpg&name=small)](http://x.com/harold%5Fmatmul/article/2069836410052325711/m",
+      "title": "",
+      "url": "http://x.com/i/article/2069803732552896512"
+    },
     "http://x.com/i/article/2069806162506051584": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6273,6 +6364,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069806162506051584"
+    },
+    "http://x.com/i/article/2069812605334798336": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069812605334798336",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069812605334798336"
     },
     "http://x.com/i/article/2069829265852600320": {
       "cleaner_v": 2,
@@ -6289,6 +6393,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2069829265852600320"
+    },
+    "http://x.com/i/article/2069850425256464384": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2069850425256464384",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069850425256464384"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -6403,6 +6520,20 @@
       "text_excerpt_zh": "",
       "title": "The AI Layoff Trap — Interactive Simulator",
       "url": "https://ailayoffs.rajnandan.com/?ref=sidebar"
+    },
+    "https://aistudio.google.com/apps?features=build_android_app": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faistudio.google.com%2Fapps%3Ffeatures%3Dbuild_android_app&dsh=S1830910614%3A1782368410538206&followup=https%3A%2F%2Faistudio.google.com%2Fapps%3Ffeatures%3Dbuild_android_app&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvyqFUxx3_u7UqPC6iCZy5x7UVbnlUL-2yAwkF93G0oFjMJ7fpToP2vubiGPDv0_wAzX_sw1WQ",
+      "frameable": false,
+      "image_urls": [
+        "https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "title": "Sign in - Google Accounts",
+      "url": "https://aistudio.google.com/apps?features=build_android_app"
     },
     "https://alignment.openai.com/validating-public-evals/": {
       "cleaner_v": 2,
@@ -7612,6 +7743,20 @@
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
     },
+    "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu": {
+      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu"
+    },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7695,6 +7840,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding – Eric Bailey",
       "url": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar"
+    },
+    "https://eugeneyan.com/writing/cybersecurity-evals/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A sandboxed target, inputs that influence task difficulty, tools, and a grader.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://eugeneyan.com/writing/cybersecurity-evals/",
+      "frameable": null,
+      "image_urls": [
+        "https://eugeneyan.com/assets/og_image/cybersecurity.png",
+        "https://eugeneyan.com/assets/icon-search.svg",
+        "https://eugeneyan.com/assets/cybersecurity.webp",
+        "https://eugeneyan.com/assets/cybersecurity-pyramid.webp",
+        "https://eugeneyan.com/assets/cybench-table1.webp",
+        "https://eugeneyan.com/assets/cybench-table3.webp",
+        "https://eugeneyan.com/assets/cvebench-figure1.webp",
+        "https://eugeneyan.com/assets/cybergym-figure3.webp",
+        "https://eugeneyan.com/assets/exploitgym-figure1.webp",
+        "https://eugeneyan.com/assets/exploitgym-table3.webp",
+        "https://eugeneyan.com/assets/exploitbench-table1.webp",
+        "https://eugeneyan.com/assets/mhbench-figure3.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Patterns for Building Cybersecurity Evals Patterns for Building Cybersecurity Evals",
+      "url": "https://eugeneyan.com/writing/cybersecurity-evals/"
     },
     "https://every.to/events/codex-camp-our-power-user-guide?source=post_button": {
       "cleaner_v": 2,
@@ -13904,62 +14075,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLiVZutX0AAxhit.jpg"
     },
-    "https://pbs.twimg.com/media/HLl2It5aUAAX9lc.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLl2It5aUAAX9lc.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLl2It5aUAAX9lc.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLl2It5aUAAX9lc.jpg"
-    },
-    "https://pbs.twimg.com/media/HLl2IuIbUAAk62d.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLl2IuIbUAAk62d.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLl2IuIbUAAk62d.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLl2IuIbUAAk62d.jpg"
-    },
-    "https://pbs.twimg.com/media/HLl2IudXkAIoUK-.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLl2IudXkAIoUK-.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLl2IudXkAIoUK-.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLl2IudXkAIoUK-.jpg"
-    },
-    "https://pbs.twimg.com/media/HLl2IunXoAIwDyh.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLl2IunXoAIwDyh.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLl2IunXoAIwDyh.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLl2IunXoAIwDyh.jpg"
-    },
     "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14002,6 +14117,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg"
     },
+    "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
+    },
     "https://pbs.twimg.com/media/HLlllh_XoAA0T63.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14015,6 +14144,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLlllh_XoAA0T63.jpg"
+    },
+    "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
     },
     "https://pbs.twimg.com/media/HLm0P0SbcAA9sE0.png": {
       "cleaner_v": 2,
@@ -14043,6 +14186,48 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+    },
+    "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg"
+    },
+    "https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg"
+    },
+    "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -22237,6 +22422,11 @@
       "https://x.com/axios/status/2069744470384386506",
       "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek"
     ],
+    "2069753111116152847": [
+      "https://x.com/Voxyz_ai/status/2069753111116152847",
+      "http://x.com/i/article/2069733809939992576",
+      "https://x.com/Voxyz_ai/status/2069765894373274033"
+    ],
     "2069757815988551972": [
       "https://x.com/abigailcarlson_/status/2069757815988551972",
       "http://x.com/i/article/2069757298189176833",
@@ -22245,8 +22435,7 @@
     ],
     "2069762771135148490": [
       "https://x.com/alive_/status/2069762771135148490",
-      "http://x.com/i/article/2069761815932768256",
-      "https://x.com/alive_/status/2069763143824282043"
+      "http://x.com/i/article/2069761815932768256"
     ],
     "2069778079069696182": [
       "https://x.com/SidebarIO/status/2069778079069696182",
@@ -22256,6 +22445,9 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2069779721085505538": [
+      "https://x.com/DerekNee/status/2069779721085505538"
+    ],
     "2069797202835165579": [
       "https://x.com/SidebarIO/status/2069797202835165579",
       "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626?ref=sidebar",
@@ -22264,18 +22456,42 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2069797770257670217": [
+      "https://x.com/zerolangai/status/2069797770257670217",
+      "http://x.com/i/article/2069696547986776064",
+      "https://x.com/zerolangai/status/2069806827802677506",
+      "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu",
+      "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
+    ],
+    "2069801781916549204": [
+      "https://x.com/Railway/status/2069801781916549204",
+      "http://x.com/i/article/2069717393157345280"
+    ],
     "2069807440732844510": [
       "https://x.com/vista8/status/2069807440732844510",
       "http://x.com/i/article/2069806162506051584",
-      "https://x.com/vista8/status/2069815408606261609",
-      "https://pbs.twimg.com/media/HLl2IudXkAIoUK-.jpg",
-      "https://pbs.twimg.com/media/HLl2It5aUAAX9lc.jpg",
-      "https://pbs.twimg.com/media/HLl2IunXoAIwDyh.jpg",
-      "https://pbs.twimg.com/media/HLl2IuIbUAAk62d.jpg"
+      "https://x.com/vista8/status/2069796450784182444",
+      "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
+    ],
+    "2069814714214023186": [
+      "https://x.com/AnneliesGamble/status/2069814714214023186",
+      "http://x.com/i/article/2069812605334798336"
     ],
     "2069818951513653618": [
       "https://x.com/GoogleAIStudio/status/2069818951513653618",
-      "http://x.com/i/article/2069789657777225729"
+      "http://x.com/i/article/2069789657777225729",
+      "https://x.com/GoogleAIStudio/status/2069920175344750957",
+      "https://aistudio.google.com/apps?features=build_android_app",
+      "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg",
+      "https://x.com/GoogleAIStudio/status/2069450021955592406",
+      "http://x.com/i/article/2069439163758170112"
+    ],
+    "2069824586334753196": [
+      "https://x.com/nickrubin/status/2069824586334753196",
+      "http://x.com/i/article/2069226219032436736"
+    ],
+    "2069831588964135138": [
+      "https://x.com/5imian/status/2069831588964135138"
     ],
     "2069832686441537640": [
       "https://x.com/SidebarIO/status/2069832686441537640",
@@ -22285,21 +22501,55 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2069836410052325711": [
+      "https://x.com/harold_matmul/status/2069836410052325711",
+      "http://x.com/i/article/2069803732552896512"
+    ],
     "2069842844135883235": [
       "https://x.com/matanSF/status/2069842844135883235",
       "https://x.com/matanSF/status/2069851060689359108"
     ],
+    "2069853415228793302": [
+      "https://x.com/iiidevs/status/2069853415228793302",
+      "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg"
+    ],
     "2069854655056949422": [
       "https://x.com/hnshah/status/2069854655056949422",
       "http://x.com/i/article/2069829265852600320"
+    ],
+    "2069855025107784099": [
+      "https://x.com/AlphaSignalAI/status/2069855025107784099",
+      "http://x.com/i/article/2069850425256464384"
+    ],
+    "2069856656335556766": [
+      "https://x.com/hwchase17/status/2069856656335556766",
+      "https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg",
+      "https://x.com/hwchase17/status/2069899986683449699"
+    ],
+    "2069863087495344394": [
+      "https://x.com/andrew__reed/status/2069863087495344394"
+    ],
+    "2069874144414662695": [
+      "https://x.com/pirroh/status/2069874144414662695",
+      "https://replit.com/blog/evaluating-and-improving-agent-at-scale",
+      "https://x.com/pirroh/status/2069882915593617892"
     ],
     "2069883772829622439": [
       "https://x.com/karminski3/status/2069883772829622439",
       "http://dnhkng.github.io/posts/gh200-benchmarking-part-3-glm52/",
       "https://pbs.twimg.com/media/HLm0P0SbcAA9sE0.png",
       "https://x.com/karminski3/status/2069929598616522999"
+    ],
+    "2069891122923778501": [
+      "https://x.com/MichLieben/status/2069891122923778501",
+      "http://x.com/i/article/2069078001317564416"
+    ],
+    "2069943153843691871": [
+      "https://x.com/eugeneyan/status/2069943153843691871",
+      "https://eugeneyan.com/writing/cybersecurity-evals/",
+      "https://x.com/eugeneyan/status/2069513502403035434"
     ]
   },
-  "updated_at": "2026-06-25T01:26:48Z",
+  "updated_at": "2026-06-25T06:19:35Z",
   "window": "recent"
 }
