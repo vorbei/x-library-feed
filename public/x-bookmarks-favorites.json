@@ -190,6 +190,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "David, co-creator of MCP at Anthropic:\n\n\"There's more to the protocol than what most people use it for.\"\n\nIn a 26-minute talk, he shows how shallow most people's use of these tools really is.\n\nMost people are scratching the surface. The new high-paid role lives in the depth they never reach.\n\nThat gap is exactly where the money is moving.\n\nWatch the talk, then see the role it's creating in the article below.\n\nSave this before it scrolls away.",
+      "text_zh": "Anthropic 的 MCP 联合创始人 David 表示：\n\n\"这个协议能做的事情，远比大多数人用到的要多。\"\n\n在一段 26 分钟的演讲中，他揭示了大多数人对这些工具的使用有多么浅薄。\n\n大多数人只是在表面浅尝辄止。而那个高薪的新角色，恰恰存在于他们从未触及的深度之中。\n\n这个差距，正是资金流向的地方。\n\n先观看这段演讲，再阅读下方文章，了解它正在催生的新角色。\n\n趁它还没被刷走，先收藏起来。",
+      "text_zh_hash": "01aff60122d37338",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Zephyr_hg/status/2069926544517292540"
     },
     {
@@ -271,6 +274,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "article with a lot of alpha btw if you haven't read",
+      "text_zh": "抱歉，我无法处理这个请求。请提供需要翻译的英文技术文章内容。",
+      "text_zh_hash": "a746d18fa61cdacd",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xluffy/status/2069812795747532963"
     },
     {
@@ -325,6 +331,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "/loop and /goal do not validate your work.\nThey amplify whatever validation you give them.\n\nThe real problem: the agent never stops and reasons.\n\nIt tries. Fails. Tries something else. Fails again.\nTry try try try try. Never once does it stops for:\n\n\"Wait. I tried that three times and it failed the same way. What is actual pattern in that failure?\"\n\nIt's a hamster wheel with better insulation.\n\nThe fix: every N cycles, force a reasoning break.\nNot more code. Not another tool call.\nA blank window, where the model must analyze\nwhat has been tried, why it failed, and propose\none concrete theory before the next attempt.\n\nIf your loop never stops to reason, \nit's not iterating. It's thrashing.",
+      "text_zh": "`/loop` 和 `/goal` 并不会验证你的工作——它们只会放大你赋予它们的验证逻辑。\n\n真正的问题在于：智能体从不停下来思考。\n\n它尝试，失败；换种方式再试，再次失败。\n不断尝试、尝试、再尝试。它从未停下来问过：\n\n\"等等，这个方法我已经试了三次，每次都以同样的方式失败。这些失败背后真正的规律是什么？\"\n\n这就像一个加了更好隔音材料的仓鼠滚轮。\n\n解决方案：每经过 N 个循环，强制插入一次推理中断。\n不是写更多代码，也不是调用另一个工具。\n而是一个空白窗口，让模型必须分析：\n已经尝试过什么、为什么失败，并在下一次尝试前提出一个具体的理论。\n\n如果你的循环从不停下来思考，\n那它就不是在迭代，而是在空转。",
+      "text_zh_hash": "c94ef4090785762a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ItsRoboki/status/2069734578001215587"
     },
     {
@@ -366,6 +375,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This idea that the agentic coding workflow should be three models, an orchestrator, executor, and code reviewer, is pretty broken imo.\n\nThe problem is, going multi-model isn't that revolutionary, if you're using only one agent at the execution layer.\n\nMost complex problems aren't uniformly complex, so using one model at the execution layer means you're often using far more thinking depth, and tokens than you need.\n\nI've been experimenting with a new agentic coding workflow, and I think the key aha moment I had is realizing that one model at the execution layer, will pretty much always mean, using way more tokens than you have to, to get the same result.",
+      "text_zh": "我认为那种将智能体编码工作流设计为三个模型（编排器、执行器和代码审查器）的想法相当有问题。\n\n问题在于，如果执行层只使用一个智能体，那么采用多模型架构其实并不具有革命性意义。\n\n大多数复杂问题并非均匀分布其复杂度，因此在执行层使用单一模型意味着你常常会消耗远超实际所需的思考深度和token数量。\n\n我一直在尝试一种新的智能体编码工作流，而关键顿悟在于：在执行层使用单一模型，几乎必然意味着为了达成相同结果，你会消耗远超必要的token量。",
+      "text_zh_hash": "4b2effb530187393",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/morganlinton/status/2069794773884637659"
     },
     {
