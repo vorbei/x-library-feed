@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 718,
+      "count": 719,
       "name": "Tools"
     },
     {
-      "count": 448,
+      "count": 449,
       "name": "Development"
     },
     {
-      "count": 345,
+      "count": 348,
       "name": "Design"
     },
     {
@@ -17,7 +17,7 @@
       "name": "Articles"
     },
     {
-      "count": 280,
+      "count": 281,
       "name": "Social"
     },
     {
@@ -38,8 +38,259 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2383,
+  "item_count": 2389,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_image_urls": [
+        "https://maxvoltar.com/cover.jpg",
+        "https://maxvoltar.com/playground/glass-app-icons.png",
+        "https://maxvoltar.com/playground/design-beanie.avif",
+        "https://maxvoltar.com/playground/figma/screentime-offtrail.jpg",
+        "https://maxvoltar.com/playground/figma/screentime-mosf.png",
+        "https://maxvoltar.com/playground/pin-mvkb.gif",
+        "https://maxvoltar.com/playground/figma/figmentos.jpeg",
+        "https://maxvoltar.com/playground/figma/quality-summit.png",
+        "https://maxvoltar.com/playground/figma/screentime-cheddar.png",
+        "https://maxvoltar.com/playground/pinjour/pinjour-logo.png",
+        "https://maxvoltar.com/playground/mvkb/command-shelf.jpg",
+        "https://maxvoltar.com/playground/mvkb/type-true-jacket.png"
+      ],
+      "article_title_extracted": "Max Voltar • The non-work.",
+      "category": "Design",
+      "created_at": "2026-06-25T08:12:04.449838Z",
+      "description": "The non-work.",
+      "domain": "maxvoltar.com",
+      "embed_type": "",
+      "id": "k174tqvf7h8kqmhvngd2yxwqzh89beg1",
+      "og_image_url": "https://maxvoltar.com/cover.jpg",
+      "recommended_at": "2026-06-25T08:17:58.589000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "design",
+        "photography",
+        "portfolio"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T08:17:58.589000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Max Voltar • The non-work.",
+      "url": "https://maxvoltar.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_image_urls": [
+        "https://murmur.living/public/og.png",
+        "https://www.murmur.living/public/icons/logo.svg",
+        "https://www.murmur.living/public/images/top_view_blue.webp",
+        "https://www.murmur.living/public/images/top_view_green.webp",
+        "https://www.murmur.living/public/images/top_view_orange.webp",
+        "https://www.murmur.living/public/images/pond_exploded_view_3.webp",
+        "https://www.murmur.living/public/images/pond_exploded_view_2.webp",
+        "https://www.murmur.living/public/images/pond_exploded_view_1.webp",
+        "https://www.murmur.living/public/images/plot_exploded_view_3.webp",
+        "https://www.murmur.living/public/images/plot_exploded_view_2.webp",
+        "https://www.murmur.living/public/images/plot_exploded_view_1.webp",
+        "https://www.murmur.living/public/images/block_exploded_view_3.webp"
+      ],
+      "article_title_extracted": "mur mur",
+      "category": "Tools",
+      "created_at": "2026-06-25T08:17:36.084569Z",
+      "description": "A speaker with a world inside — mur mur plays an endless ambient soundscape generated in real time by a tiny living world. Not a loop, not a playlist.",
+      "domain": "www.murmur.living",
+      "embed_type": "",
+      "id": "k173bpvhk4xc7td9h6nr4bzs5h89azn3",
+      "og_image_url": "https://murmur.living/public/og.png",
+      "recommended_at": "2026-06-25T08:17:55.011000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ambient-music",
+        "generative-art",
+        "audio-design"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T08:17:55.011000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "mur mur",
+      "url": "https://www.murmur.living/",
+      "x_status_id": null
+    },
+    {
+      "category": "Social",
+      "created_at": "2026-06-25T02:34:24.255505Z",
+      "description": "Today, we're launching Aside, the AI browser you’ve waited for.⋅ Crafted in every detail: vertical tabs and Liquid Glass⋅ SOTA on agentic browsing benchmarks: outperforms Claude Fable⋅ Full privacy: Everything runs in local and encrypted⋅ You can use Claude or ChatGPT… pic.twitter.com/z3rcMEbagZ",
+      "domain": "x.com",
+      "embed_type": "twitter",
+      "id": "k1777r6n20fqq472pfp99kz1ex89atd0",
+      "og_image_url": "https://pbs.twimg.com/amplify_video_thumb/2069496109756825600/img/PGPVXzYEU9LKIIsn.jpg",
+      "recommended_at": "2026-06-25T07:16:46.646000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-browser",
+        "agentic-ai",
+        "web-browsing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T07:16:46.646000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "jun (@hyojun_at) on X",
+      "url": "https://x.com/hyojun_at/status/2069497198879048131",
+      "x_status_id": "2069497198879048131"
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_image_urls": [
+        "https://framerusercontent.com/images/uGivG0qIngJ897blSKXGPKtbC0.png",
+        "https://framerusercontent.com/images/9NoRxKSAVBh8rF51tUT3oDF7k.svg?lossless=1&width=216&height=68",
+        "https://framerusercontent.com/images/QIUpDNIh6Lm2GskTdVQm5gPog.svg?lossless=1&width=156&height=69",
+        "https://framerusercontent.com/images/ICRJhMcupWkhi0cTJDcgF7AIs0.svg?lossless=1&width=247&height=66",
+        "https://framerusercontent.com/images/oricp43CAYCF2oNUyiA5iKiI84.webp?width=1296&height=1023",
+        "https://framerusercontent.com/images/ycIn15eKVhwe6uGSxSyGQCWY.webp?width=1296&height=1023",
+        "https://framerusercontent.com/images/fiAZ3QP46G247YcpPyH8InAMy0.webp?width=1293&height=1023",
+        "https://framerusercontent.com/images/2BGB0ZT82lJce0WJU08iJ6tyco.svg?width=1440&height=1421"
+      ],
+      "article_title_extracted": "Sundial",
+      "category": "Design",
+      "created_at": "2026-06-25T02:37:53.915294Z",
+      "description": "Made with Framer",
+      "domain": "www.sundial.md",
+      "embed_type": "",
+      "id": "k17b4ya3169bxn6e27tagsnvyh89bxpv",
+      "og_image_url": "https://framerusercontent.com/images/uGivG0qIngJ897blSKXGPKtbC0.png",
+      "recommended_at": "2026-06-25T07:16:42.499000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "framer",
+        "web-design",
+        "portfolio"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T07:16:42.499000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Sundial",
+      "url": "https://www.sundial.md/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_image_urls": [
+        "https://www.mintlify.com/_next/static/media/og.28576e75.png",
+        "https://www.mintlify.com/images/docs-preview/preview-light.svg",
+        "https://www.mintlify.com/images/docs-preview/preview-dark.svg",
+        "https://www.mintlify.com/images/customer-stories/anthropic-light.svg",
+        "https://www.mintlify.com/images/customer-stories/anthropic-dark.svg",
+        "https://www.mintlify.com/images/customer-stories/amazon-light.svg",
+        "https://www.mintlify.com/images/customer-stories/amazon-dark.svg",
+        "https://www.mintlify.com/images/customer-stories/cognition-light.svg",
+        "https://www.mintlify.com/images/customer-stories/cognition-dark.svg",
+        "https://www.mintlify.com/images/customer-stories/solana-light.svg",
+        "https://www.mintlify.com/images/customer-stories/solana-dark.svg",
+        "https://www.mintlify.com/images/customer-stories/att-light.svg"
+      ],
+      "article_title_extracted": "Mintlify - The Knowledge Platform Built for Agents",
+      "category": "Development",
+      "created_at": "2026-06-25T03:25:43.936323Z",
+      "description": "Self-updating documentation for startups, enterprises, and agents.",
+      "domain": "www.mintlify.com",
+      "embed_type": "",
+      "id": "k172ndb216693k9xewz25zft3189a8k8",
+      "og_image_url": "https://cloud.poche.app/api/storage/04116bce-2ef0-4a32-a354-049d634c0bb2",
+      "recommended_at": "2026-06-25T07:16:40.750000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "documentation",
+        "technical-writing",
+        "developer-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T07:16:40.750000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Mintlify - The Knowledge Platform Built for Agents",
+      "url": "https://www.mintlify.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
+      "article_image_urls": [
+        "https://astryx.atmeta.com/neutral/preview-watch.png",
+        "https://astryx.atmeta.com/neutral/preview-headphones.png",
+        "https://lookaside.facebook.com/assets/astryx/DATA-Ami-Pena.png",
+        "https://astryx.atmeta.com/neutral/preview-backpack.png",
+        "https://lookaside.facebook.com/assets/astryx/Butter-Croissant.png",
+        "https://lookaside.facebook.com/assets/astryx/Butter-Pancake.png",
+        "https://lookaside.facebook.com/assets/astryx/Butter-Waffle.png",
+        "https://lookaside.facebook.com/assets/astryx/Butter-Toast.png",
+        "https://lookaside.facebook.com/assets/astryx/Butter-Stick.png",
+        "https://astryx.atmeta.com/discover-card-1.png",
+        "https://astryx.atmeta.com/discover-card-3.png",
+        "https://astryx.atmeta.com/discover-card-2.png"
+      ],
+      "article_title_extracted": "Astryx Design System",
+      "category": "Design",
+      "created_at": "2026-06-25T07:15:48.507765Z",
+      "description": "An open source design system that is fully customizable and agent ready.",
+      "domain": "astryx.atmeta.com",
+      "embed_type": "",
+      "id": "k172w60g76kd3xs7dst80px84189ax2b",
+      "og_image_url": "https://astryx.atmeta.com/astryx-og-banner.png",
+      "recommended_at": "2026-06-25T07:16:15.363000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "design-systems",
+        "ui-components",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-25T07:16:15.363000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Astryx Design System",
+      "url": "https://astryx.atmeta.com/",
+      "x_status_id": null
+    },
     {
       "category": "Social",
       "created_at": "2026-06-25T01:25:59.456082Z",
@@ -1952,7 +2203,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
       "category": "Tools",
       "created_at": "2026-06-18T03:52:29.427525Z",
@@ -2069,7 +2320,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a267ba46c9323bf936b381c_c78e993f23174a62b521e6c4f939c55b_open-graph%20%284%29.avif",
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce1b28e27e16b_taste_Logo.png",
@@ -2077,12 +2328,12 @@
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777cd6e37fcf1100fafc_Group%201000007831.svg",
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a1d777ccb930df5affd3cdb_Vector%20(3).svg",
         "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a292456778cdc9244f8d0c1_5f3499b658ebd37d1ea72444be37c33c_Group%201000007827%20%281%29.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad51e2c51b1ae694147e3_Mask%20group.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad35d1ab5ae226a7fb81c_Mask%20group-5.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4d0a0738c9f1b450811_Mask%20group-32.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4a24ffe0487fdfaf209_Mask%20group-29.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad4efc9c4a0cfadd427a8_Mask%20group-35.png",
-        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad34af1e8764b95a67667_Mask%20group-3.png"
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3b5a6cec15d4add9949_Mask%20group-14.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3ac898aae7fc84a1ce1_Mask%20group-13.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad44b73d7c53e1823ca55_Mask%20group-22.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad50c8da3cacca816ed9f_Mask%20group-38.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad3a16ae746e793516dd4_Mask%20group-12.png",
+        "https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc5/6a2ad485f339f0272f22e5cd_Mask%20group-27.png"
       ],
       "article_title_extracted": "Taste Labs - The taste layer for AI",
       "category": "Development",
@@ -4767,7 +5018,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
       "article_image_urls": [
         "https://thinkingmachines.ai/images/home.png"
       ],
@@ -11668,7 +11919,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
       "article_image_urls": [
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/699448c859a757ef12016607_Open%20Graph.webp",
         "https://cdn.prod.website-files.com/6960fddc2b1785539a5b9558/6979e08d7860cf804ace6db7_logo-mark-cernel.svg",
@@ -11720,7 +11971,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-18T05:22:31.096938Z",
+      "article_fetch_attempted_at": "2026-06-25T11:20:10.127867Z",
       "article_image_urls": [
         "https://column.com/images/social/column-og.png",
         "https://column.com/images/index/case-studies/bg-brex.png",
@@ -106082,7 +106333,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2224,
+      "count": 2230,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -106118,5 +106369,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-25T04:49:41.488455Z"
+  "updated_at": "2026-06-25T11:20:16.850360Z"
 }
