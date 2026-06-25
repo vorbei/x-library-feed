@@ -6135,19 +6135,6 @@
       "title": "",
       "url": "http://x.com/i/article/2069434045625421824"
     },
-    "http://x.com/i/article/2069439163758170112": {
-      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "final_url": "http://x.com/i/article/2069439163758170112",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "http://x.com/i/article/2069439163758170112"
-    },
     "http://x.com/i/article/2069487597584322560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6523,6 +6510,20 @@
       "text_excerpt_zh": "",
       "title": "The AI Layoff Trap — Interactive Simulator",
       "url": "https://ailayoffs.rajnandan.com/?ref=sidebar"
+    },
+    "https://aistudio.google.com/apps/bundled/ai_radio": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faistudio.google.com%2Fapps%2Fbundled%2Fai_radio&dsh=S-1456789173%3A1782405398845333&followup=https%3A%2F%2Faistudio.google.com%2Fapps%2Fbundled%2Fai_radio&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvxGT5akiMfGG3KUGdbF0cCtrOHA_TD1JhGxOKHgNfaR9aYIUiPlgH3o67KsCwA_u0CEgzu3FQ",
+      "frameable": false,
+      "image_urls": [
+        "https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "title": "Sign in - Google Accounts",
+      "url": "https://aistudio.google.com/apps/bundled/ai_radio"
     },
     "https://aistudio.google.com/apps?features=build_android_app": {
       "cleaner_v": 2,
@@ -7748,20 +7749,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
-    },
-    "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu": {
-      "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "unknown",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -14191,20 +14178,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg"
     },
-    "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
-    },
     "https://pbs.twimg.com/media/HLlllh_XoAA0T63.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14218,20 +14191,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLlllh_XoAA0T63.jpg"
-    },
-    "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
     },
     "https://pbs.twimg.com/media/HLm0P0SbcAA9sE0.png": {
       "cleaner_v": 2,
@@ -14260,20 +14219,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
-    },
-    "https://pbs.twimg.com/media/HLmGmYDWAAAk7Hf.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLmGmYDWAAAk7Hf.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLmGmYDWAAAk7Hf.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLmGmYDWAAAk7Hf.jpg"
     },
     "https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg": {
       "cleaner_v": 2,
@@ -14316,6 +14261,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
+    },
+    "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg"
+    },
+    "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16099,6 +16072,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Open source UI kit for modern document apps - Extend UI",
       "url": "https://www.extend.ai/ui?ref=sidebar"
+    },
+    "https://www.figma.com/blog/config-2026-recap/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Push past what you thought was possible with code layers, Figma Motion, shaders, generative plugins and Weave tools, all on the canvas.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn.sanity.io/images/599r6htc/regionalized/ae0303b2ad7753600fee94eb32a43e026cc220ae-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/9410fa0df527e2edce281266fa77a45313885dc1-3265x1399.png?rect=1,0,3264,1399&w=616&h=264&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/94a257614468eb378d2a2dacc4e0c12da8bf4b0b-2560x1440.png?rect=0,172,2560,1097&w=616&h=264&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/672d9533efa16607fd9f84281a4d158c6a9fd048-400x400.jpg?w=400&h=400&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/ae0303b2ad7753600fee94eb32a43e026cc220ae-3264x1836.png?w=1632&h=918&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/5bad8b94a677b2890b50915446f7cc066fa47988-3264x1836.png?w=3264&h=1836&q=75&fit=crop&crop=focalpoint&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/5bad8b94a677b2890b50915446f7cc066fa47988-3264x1836.png?rect=0,1,3264,1835&w=804&h=452&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/2dcb38fa0a3fd5b22b72b531ebe5de2b109614fd-3264x1836.png?w=3264&h=1836&q=75&fit=crop&crop=focalpoint&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/1f82f266ce4e3611ca58858db629942d5aeaa6c9-3840x2160.png?rect=0,1,3840,2159&w=804&h=452&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/d6b5115bb3fc17ee7d5cdb4192a7a3b99d60679a-3264x1836.png?w=3264&h=1836&q=75&fit=crop&crop=focalpoint&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/e10616379157fb292e178f9a2ba25aa42a3c0b65-3264x1836.png?rect=0,1,3264,1835&w=804&h=452&q=75&fit=max&auto=format",
+        "https://cdn.sanity.io/images/599r6htc/regionalized/2dcb38fa0a3fd5b22b72b531ebe5de2b109614fd-3264x1836.png?rect=0,1,3264,1835&w=804&h=452&q=75&fit=max&auto=format"
+      ],
+      "kind": "article",
+      "text_excerpt": "Config 2026: New materials, new tools and a more expressive canvas\nPush past what you thought was possible with code layers, Figma Motion, shaders, generative plugins and Weave tools, all on the canvas.\nShare Config 2026: New materials, new tools and a more expressive canvas\nDesign is about asking the hard questions. Right now, these questions feel bigger than ever. What’s changing? What’s possible? And what does it even mean to create? Here at Figma, we keep coming back to one simple premise: No tool should limit where an idea can go.\nThis year’s Config announcements are all about limitless expression on the canvas. We’re supporting new materials to express anything you can imagine and introducing new tools to shape and push these materials further than ever: code, motion, shaders, generative plugins and Weave tools, all on the Figma canvas.\nAt past Configs, we’ve talked about AI lowering the floor and raising the ceiling. But while AI has lowered the floor, it has not raised the ceiling.\nDesigners, creatives, builders: You will raise the ceiling.\nIn the months and years ahead, I believe there will be an explosion of creativity, risk-taking and bold expression. Our goal at Figma is to help you design in a totally unbounded way with materials and tools that compose together, and let you riff and play at the speed at which you think. The canvas is more than where your work lives. It’s also where everything connects.\nHere’s a look at everything we announced at Config 2026.\n[Code on the canvas](https://www.figma.com#code-on-the-canvas)\nFor years, the design industry has talked about “design versus code,” and tools (including Figma!) have forced a choice. But this is a false debate. Design is a process. Code is material, just like images, vectors and design layers. For a long time, code has lived in single-player environments built for linear thinking. Stated differently: The material was separated from the process. We believe code should be treated like any other design material. So we are introducing code layers in Figma.\nOn the canvas, you can turn any design layer into an interactive code layer with just a single click (or a prompt). You can quickly duplicate a code layer to explore multiple directions side by side, just like you would with a design frame.\nFrom there, it works the way the canvas works: You can riff, comment and iterate with all your teammates in the same file.\nFor moments when you want to move from code back into design layers, you can extract design frames into editable design layers. Then, when you’re ready to go back, one click updates the code layer with what has changed.\nJoin the waitlist at [figma.com/config-betas](https://www.figma.com/config-betas/) for early access when code layers rolls out starting in July.\n[Bring design to life with Figma Motion](https://www.figma.com#bring-design-to-life-with-figma-motion)\nMotion designers make things feel alive in ways that are hard to explain, let alone replicate. So many of us have aspired to make this same kind of magic, yet it has felt out of reach. And it often meant moving into other tools. Starting today, you can build with motion directly in Figma.\nIn Figma Design, we’ve added a timeline, including keyframes, presets and much more. You can build motion from scratch, layer it onto existing designs or ask the Figma agent to generate a starting point. I hope you will find Figma Motion powerful, intuitive and a joy to use. If you’re already a motion designer, Figma removes the repetitive work, so you can focus on pushing your creativity further.\nBecause motion is built on Figma’s platform, it can now be a foundational element of your design systems. You can animate a component once, and that motion travels across every screen and every collaborator’s file, the same way fills and typography do.\nLastly, Figma Motion is also built to work in code. When you switch to Dev Mode, the full timeline is visible and inspectable: Every timing value, every easing curve, e",
+      "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas | Figma Blog",
+      "url": "https://www.figma.com/blog/config-2026-recap/?ref=sidebar"
     },
     "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar": {
       "cleaner_v": 2,
@@ -22508,17 +22507,15 @@
     ],
     "2069762771135148490": [
       "https://x.com/alive_/status/2069762771135148490",
-      "http://x.com/i/article/2069761815932768256",
-      "https://x.com/alive_/status/2069833502942515460",
-      "https://pbs.twimg.com/media/HLmGmYDWAAAk7Hf.jpg"
+      "http://x.com/i/article/2069761815932768256"
     ],
     "2069778079069696182": [
       "https://x.com/SidebarIO/status/2069778079069696182",
       "https://www.nubero.ch/blog/018/?ref=sidebar",
       "https://pbs.twimg.com/media/HLlUMYvXAAAq-E9.jpg",
-      "https://x.com/SidebarIO/status/2069823127798825427",
-      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2069779721085505538": [
       "https://x.com/DerekNee/status/2069779721085505538"
@@ -22532,16 +22529,13 @@
       "https://x.com/SidebarIO/status/2069797202835165579",
       "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626?ref=sidebar",
       "https://pbs.twimg.com/media/HLlllh_XoAA0T63.jpg",
-      "https://x.com/SidebarIO/status/2069823127798825427",
-      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2069797770257670217": [
       "https://x.com/zerolangai/status/2069797770257670217",
-      "http://x.com/i/article/2069696547986776064",
-      "https://x.com/zerolangai/status/2069806827802677506",
-      "https://dexscreener.com/solana/epsdsnezkf7aeg2texuxwqxep6b6wykckpjbhuuxeqtu",
-      "https://pbs.twimg.com/media/HLluVe9XkAA8axn.png"
+      "http://x.com/i/article/2069696547986776064"
     ],
     "2069801781916549204": [
       "https://x.com/Railway/status/2069801781916549204",
@@ -22549,9 +22543,7 @@
     ],
     "2069807440732844510": [
       "https://x.com/vista8/status/2069807440732844510",
-      "http://x.com/i/article/2069806162506051584",
-      "https://x.com/vista8/status/2069796450784182444",
-      "https://pbs.twimg.com/media/HLlkgyDXoAAdIHR.jpg"
+      "http://x.com/i/article/2069806162506051584"
     ],
     "2069812795747532963": [
       "https://x.com/0xluffy/status/2069812795747532963"
@@ -22563,11 +22555,12 @@
     "2069818951513653618": [
       "https://x.com/GoogleAIStudio/status/2069818951513653618",
       "http://x.com/i/article/2069789657777225729",
+      "https://x.com/GoogleAIStudio/status/2070174367502291412",
+      "https://aistudio.google.com/apps/bundled/ai_radio",
+      "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg",
       "https://x.com/GoogleAIStudio/status/2069920175344750957",
       "https://aistudio.google.com/apps?features=build_android_app",
-      "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg",
-      "https://x.com/GoogleAIStudio/status/2069450021955592406",
-      "http://x.com/i/article/2069439163758170112"
+      "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
     ],
     "2069824586334753196": [
       "https://x.com/nickrubin/status/2069824586334753196",
@@ -22586,9 +22579,9 @@
       "https://x.com/SidebarIO/status/2069832686441537640",
       "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
       "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg",
-      "https://x.com/SidebarIO/status/2069823127798825427",
-      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2069836410052325711": [
       "https://x.com/harold_matmul/status/2069836410052325711",
@@ -22652,11 +22645,19 @@
     ],
     "2070023917071433995": [
       "https://x.com/pmarca/status/2070023917071433995",
-      "https://x.com/pmarca/status/2069982463397679595",
-      "https://x.com/pmarca/status/2069932559501513028",
-      "https://x.com/pmarca/status/2069931975235027131"
+      "https://x.com/pmarca/status/2070176201029861455",
+      "https://x.com/pmarca/status/2070175954497065135",
+      "https://x.com/pmarca/status/2070173202731704473"
+    ],
+    "2070140467564454023": [
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg",
+      "https://x.com/SidebarIO/status/2069823127798825427",
+      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ]
   },
-  "updated_at": "2026-06-25T13:26:20Z",
+  "updated_at": "2026-06-25T16:36:02Z",
   "window": "recent"
 }
