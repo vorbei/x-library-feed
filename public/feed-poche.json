@@ -4940,12 +4940,13 @@
       "x_status_id": "2064826394589442448"
     },
     {
-      "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
       "article_image_urls": [
-        "https://wwdc.ai/og-image.png"
+        "https://wwdc.ai/og-image.png",
+        "https://wwdc.ai/superwall/logo.svg"
       ],
-      "article_title_extracted": "WWDC.ai - Unofficial WWDC Session Summaries WWDC.ai - Unofficial WWDC Session Summaries",
+      "article_title_extracted": "WWDC.ai - Unofficial WWDC Session Summaries",
       "category": "Articles",
       "created_at": "2026-06-11T14:41:24.969449Z",
       "description": "Unofficial WWDC session summaries to help you and your agent learn about the latest updates. Brought to you by Superwall.",
@@ -7416,7 +7417,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
+      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
       "article_image_urls": [
         "https://www.nintendo-systems.com/sns.png"
       ],
@@ -11697,7 +11698,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
+      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
       "article_image_urls": [
         "https://pi.dev/social.png",
         "https://pi.dev/doom-extension.png"
@@ -11872,9 +11873,9 @@
       "x_status_id": "2057227524740931904"
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T19:06:03.374077Z",
+      "article_fetch_attempted_at": "2026-06-25T22:09:19.939658Z",
       "article_image_urls": [
-        "https://oxide-computer-op3ytk5e6-oxidecomputer.vercel.app/img/meta/og-oxide.png",
+        "https://oxide-computer-fd4l8wsqi-oxidecomputer.vercel.app/img/meta/og-oxide.png",
         "https://oxide.computer/img/home/rack-single-shadows.svg",
         "https://oxide.computer/_vercel/image?url=%2Fimg%2Fhome%2Fhero-single-rack.webp&w=64&q=20",
         "https://oxide.computer/img/home/rack-double-shadows.svg",
@@ -106531,5 +106532,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-25T18:37:09.723842Z"
+  "updated_at": "2026-06-25T22:09:22.179583Z"
 }
