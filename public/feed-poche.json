@@ -5,7 +5,7 @@
       "name": "Tools"
     },
     {
-      "count": 449,
+      "count": 450,
       "name": "Development"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 148,
+      "count": 149,
       "name": "Media"
     },
     {
@@ -38,8 +38,73 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2390,
+  "item_count": 2393,
   "items": [
+    {
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
+      "category": "Media",
+      "created_at": "2026-06-25T13:38:35.027613Z",
+      "description": "Publisher of the groundbreaking AAA space games Star Citizen and Squadron 42. Visit the official site for the latest news, store and player forums.",
+      "domain": "robertsspaceindustries.com",
+      "embed_type": "",
+      "id": "k171yfxensc2bq6a3nym5dpved89b259",
+      "og_image_url": "https://cdn.robertsspaceindustries.com/static/images/RSI-logo-fb.jpg",
+      "recommended_at": "2026-06-26T03:05:02.709000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "star-citizen",
+        "space-sim",
+        "gaming"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-26T03:05:02.709000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Roberts Space Industries",
+      "url": "https://robertsspaceindustries.com/en/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
+      "article_image_urls": [
+        "https://glyphcss.com/og.png"
+      ],
+      "article_title_extracted": "glyphcss — turn 3D models into ASCII art (browser, React/Vue & terminal)",
+      "category": "Development",
+      "created_at": "2026-06-26T02:13:50.163924Z",
+      "description": "Render 3D models (OBJ, glTF, GLB, STL, .vox) as ASCII art — in the browser, in React or Vue, or straight in your terminal. A three.js-style API with no WebGL and no canvas: just text in a single <pre>.",
+      "domain": "glyphcss.com",
+      "embed_type": "",
+      "id": "k17b8cr65ctz94g0ykg5230zmx89d5pk",
+      "og_image_url": "https://glyphcss.com/og.png",
+      "recommended_at": "2026-06-26T03:05:01.044000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ascii-art",
+        "3d-rendering",
+        "web-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-26T03:05:01.044000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "glyphcss — turn 3D models into ASCII art (browser, React/Vue & terminal)",
+      "url": "https://glyphcss.com/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-25T15:32:11.857424Z",
       "article_image_urls": [
@@ -9447,18 +9512,18 @@
       "x_status_id": "2060064810633482580"
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
       "article_image_urls": [
         "https://www.plasma.org/og/home.png",
-        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/images/home-v2/hero/send-instantly-icon.svg?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/images/home-v2/hero/spend-globally-icon.svg?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/images/home-v2/hero/apple-pay-mark.svg?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/images/plasma-one/plasma-one-qr-code.png?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
         "https://images.ctfassets.net/e3bb5qlfujad/home-v2-plasma-one-logo-white/f771f286cc0bec165f36751fbcf84a95/logo-white.svg",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
-        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_7bm3b1Yk8jxX8boEA4XKbLTzMWTJ",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fplasma-one-phone.webp&w=3840&q=90&dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-top.svg?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/images/home-v2/currencies/flag-row-bottom.svg?dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
+        "https://www.plasma.org/_next/image?url=%2Fimages%2Fhome-v2%2Fcurrency-phone-add-cash.png&w=3840&q=90&dpl=dpl_2Dc52nRcVDHw5ARDH2hFdaQq3BDZ",
         "https://www.plasma.org/images/home-v2/partners/partner-card-ramp-hires.png",
         "https://www.plasma.org/images/home-v2/partners/partner-card-zerohash-rail.webp"
       ],
@@ -9498,7 +9563,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
       "article_image_urls": [
         "https://framerusercontent.com/images/PuC0FeJifmiJ3EVZH8Jdk548nuM.png",
         "https://framerusercontent.com/images/S4DA3EpL3XKG7vz6fwvwhMwM.png?width=2121&height=794",
@@ -9642,7 +9707,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-18T22:32:53.796823Z",
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
       "article_image_urls": [
         "https://datacurve.ai/og/default.jpg",
         "https://datacurve.ai/Datacurve-Wordmark.svg",
@@ -80292,7 +80357,48 @@
           "recommended_at": "2025-11-18T14:49:55.301000Z",
           "recommended_by": "disinfeqt",
           "slug": "dine"
-        },
+        }
+      ],
+      "title": "For Your Consideration",
+      "title_zh": "供您参考",
+      "title_zh_hash": "de10ce647f67bbac",
+      "title_zh_translator_v": 2,
+      "url": "https://www.fycartists.com/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
+      "article_image_urls": [
+        "https://www.fycartists.com/fyc-opengraph.jpg",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fbritt-lloyd%2F329641843_596305902328437_7922431035091238107_n.jpeg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Felliot-ross%2FTIME-240930_ElliotRoss-Tearsheet_240920_0001.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fasato-iida%2F22FALL_D2_011-1.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fsebastian-jean%2FHS_KYLE_MACLACHLAN_8_2025-08-27-192139_jisl.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fike-edeani%2F9.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fsebastian-jean%2F0559_15_2024-06-11-185651_gxdz.JPG&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fjerry-buttles%2FDickies-X-Union-LA-3_2023-10-20-214602_mbtd.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fike-edeani%2Fedeani_21-lewis-hamilton-7368_05.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Felliot-ross%2FCRB_ReflectionOverlook_211104_0002-ds-Edit.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Frenae-wootson%2F20231117_jayson_handprint_5-final.jpg&w=2048&q=75",
+        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fdaniel-chaney%2Fdanielchaney_1696548498_3207203717236417043_3253682.jpg&w=2048&q=75"
+      ],
+      "article_title_extracted": "For Your Consideration",
+      "category": "Design",
+      "created_at": "2025-11-17T16:16:25.057503Z",
+      "description": "For Your Consideration represents a diverse group of internationally recognized artists working with the most influential brands, publications, and people of our time. Founded by a team of producers, the agency aims to reimagine the boundaries of creative possibility, while supporting its artists and clients in the development of world-class campaigns—from initial concept to final delivery.",
+      "domain": "www.fycartists.com",
+      "embed_type": "",
+      "id": "k17c90dpzvjdjj5mth3gd25kmd7vk7rq",
+      "og_image_url": "https://www.fycartists.com/fyc-opengraph.jpg",
+      "recommended_at": "2025-11-18T12:55:12.054000Z",
+      "source": "poche@fonter",
+      "source_type": "poche",
+      "tags": [
+        "artist-agency",
+        "creative-production",
+        "visual-artists"
+      ],
+      "teams": [
         {
           "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
           "name": "fonter",
@@ -80302,9 +80408,6 @@
         }
       ],
       "title": "For Your Consideration",
-      "title_zh": "供您参考",
-      "title_zh_hash": "de10ce647f67bbac",
-      "title_zh_translator_v": 2,
       "url": "https://www.fycartists.com/",
       "x_status_id": null
     },
@@ -106496,7 +106599,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2231,
+      "count": 2233,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -106532,5 +106635,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-25T22:09:22.179583Z"
+  "updated_at": "2026-06-26T04:55:59.769878Z"
 }
