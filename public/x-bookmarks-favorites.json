@@ -94,6 +94,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I'm loving @tobi's try project. I took it and made it easy to deploy experiments. I just have a single repo called \"tries\" and a command on my computer \"tries\" that I can run from any folder (just like try can) that pushes any changes to the repo. It uses Github Pages for any static html demos. Works like a charm.\n\nhttps://github.com/tobi/try",
+      "text_zh": "我非常喜欢 @tobi 的 try 项目。我在此基础上做了改进，让实验部署变得简单。我只有一个名为 \"tries\" 的仓库，以及电脑上一个名为 \"tries\" 的命令（就像 try 一样），可以从任何文件夹运行，将任何更改推送到该仓库。它使用 GitHub Pages 来托管任何静态 HTML 演示。效果非常好。\n\nhttps://github.com/tobi/try",
+      "text_zh_hash": "caa1a0a69f9997cc",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/seflless/status/2070240866246033494"
     },
     {

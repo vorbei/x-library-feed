@@ -46,6 +46,9 @@
       "category": "Media",
       "created_at": "2026-06-25T13:38:35.027613Z",
       "description": "Publisher of the groundbreaking AAA space games Star Citizen and Squadron 42. Visit the official site for the latest news, store and player forums.",
+      "description_zh": "开创性AAA太空游戏《星际公民》与《 Squadron 42》的发行商。访问官方网站获取最新资讯、商城及玩家论坛。",
+      "description_zh_hash": "81c49a78c8c7b310",
+      "description_zh_translator_v": 2,
       "domain": "robertsspaceindustries.com",
       "embed_type": "",
       "id": "k171yfxensc2bq6a3nym5dpved89b259",
@@ -68,6 +71,9 @@
         }
       ],
       "title": "Roberts Space Industries",
+      "title_zh": "罗伯茨太空工业",
+      "title_zh_hash": "38ea6c2a29515eb5",
+      "title_zh_translator_v": 2,
       "url": "https://robertsspaceindustries.com/en/",
       "x_status_id": null
     },
@@ -80,6 +86,9 @@
       "category": "Development",
       "created_at": "2026-06-26T02:13:50.163924Z",
       "description": "Render 3D models (OBJ, glTF, GLB, STL, .vox) as ASCII art — in the browser, in React or Vue, or straight in your terminal. A three.js-style API with no WebGL and no canvas: just text in a single <pre>.",
+      "description_zh": "将3D模型（OBJ、glTF、GLB、STL、.vox）渲染为ASCII艺术——可在浏览器、React或Vue中运行，或直接在终端中展示。采用类似three.js的API，无需WebGL和Canvas：仅需单个<pre>标签中的纯文本。",
+      "description_zh_hash": "2157435f85a4e6af",
+      "description_zh_translator_v": 2,
       "domain": "glyphcss.com",
       "embed_type": "",
       "id": "k17b8cr65ctz94g0ykg5230zmx89d5pk",
@@ -102,6 +111,9 @@
         }
       ],
       "title": "glyphcss — turn 3D models into ASCII art (browser, React/Vue & terminal)",
+      "title_zh": "glyphcss — 将3D模型转换为ASCII艺术（浏览器、React/Vue及终端）",
+      "title_zh_hash": "679fa237e62dacac",
+      "title_zh_translator_v": 2,
       "url": "https://glyphcss.com/",
       "x_status_id": null
     },
@@ -80386,6 +80398,9 @@
       "category": "Design",
       "created_at": "2025-11-17T16:16:25.057503Z",
       "description": "For Your Consideration represents a diverse group of internationally recognized artists working with the most influential brands, publications, and people of our time. Founded by a team of producers, the agency aims to reimagine the boundaries of creative possibility, while supporting its artists and clients in the development of world-class campaigns—from initial concept to final delivery.",
+      "description_zh": "For Your Consideration 汇聚了一批与国际知名品牌、出版物及当代最具影响力人物合作的国际知名艺术家。该机构由一支制作人团队创立，旨在重新构想创意可能性的边界，同时支持其艺术家与客户共同打造世界级广告活动——从初始概念到最终交付的全流程。",
+      "description_zh_hash": "4bf550c1179db791",
+      "description_zh_translator_v": 2,
       "domain": "www.fycartists.com",
       "embed_type": "",
       "id": "k17c90dpzvjdjj5mth3gd25kmd7vk7rq",
@@ -80408,6 +80423,9 @@
         }
       ],
       "title": "For Your Consideration",
+      "title_zh": "供您参考",
+      "title_zh_hash": "de10ce647f67bbac",
+      "title_zh_translator_v": 2,
       "url": "https://www.fycartists.com/",
       "x_status_id": null
     },
