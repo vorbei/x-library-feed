@@ -140,6 +140,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The moment you know it’s gonna be great read from legendary writer\n\nhttps://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "text_zh": "当你知道这将会很棒的那一刻——来自传奇作家的阅读体验\n\nhttps://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "text_zh_hash": "c182d4f6f1579f3d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/iamgrigorev/status/2070270747759554902"
     },
     {
@@ -180,6 +183,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Thanks to the @ForeignAffairs  editing staff for their great work on this piece, a review of Xu Guoqi’s extremely insightful book on Chinese identity. \n(Gift link)\nhttps://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8",
+      "text_zh": "感谢@ForeignAffairs 编辑团队对本文的出色工作，本文是对徐国琦关于中国身份认同的极具洞察力著作的评述。  \n（赠阅链接）  \nhttps://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8",
+      "text_zh_hash": "5c713f924880cad4",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/iandenisjohnson/status/2070387873023451275"
     },
     {
@@ -261,6 +267,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Some important points here: \"Aggregate abundance does not automatically become shared abundance. And people do not forgive being told the economy is better off while their actual lives get worse.\"",
+      "text_zh": "这里有几个重要观点：“总体富足并不会自动转化为共享富足。当人们实际生活每况愈下，却被告知经济形势好转时，他们是不会原谅这种说法的。”",
+      "text_zh_hash": "822aa7d2558eea31",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/alexolegimas/status/2070478965815337436"
     },
     {
@@ -301,6 +310,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How I use LLMs as a staff engineer in 2026\nhttps://www.seangoedecke.com/how-i-use-llms-in-2026\n\nThe biggest AI workflow change in 2026:  treating agents as capable collaborators for coding, debugging, testing, and codebase research—while still keeping humans responsible for judgment, communication, and review.",
+      "text_zh": "# 2026年，我作为高级工程师如何使用LLM\n\nhttps://www.seangoedecke.com/how-i-use-llms-in-2026\n\n2026年AI工作流的最大变化：将智能体视为编码、调试、测试和代码库研究方面的得力协作者——同时仍由人类负责判断、沟通和审查。",
+      "text_zh_hash": "b727f80c6e17e167",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2070467106412626035"
     },
     {
@@ -382,6 +394,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Great write-up by @ItsJulioPereyra quantifying how good multi-model can be and some ways we’re working to get there through routing and private models:",
+      "text_zh": "@ItsJulioPereyra 撰写的精彩文章，量化了多模型方案的优势，并介绍了我们通过路由和私有模型实现这一目标的一些方法：",
+      "text_zh_hash": "1adc70310864fb8b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/gabepereyra/status/2070190799636291740"
     },
     {
@@ -438,6 +453,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How to articulate yourself intelligently\n\narticle summary in 4k https://t.co/s9aE5mWZ8d",
+      "text_zh": "如何聪明地表达自己\n\n文章摘要（4K）https://t.co/s9aE5mWZ8d",
+      "text_zh_hash": "e61853ac2c3c976e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MindBranches/status/2070329274024784077"
     },
     {
@@ -479,6 +497,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Amazon-owned MGM Studios’ decision to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On “Uncanny Valley,” we take a look at where this is all headed. https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "text_zh": "亚马逊旗下米高梅影业放弃OpenAI电影的决定，只是AI与电影产业日益交织的一个缩影。在《恐怖谷》节目中，我们探讨了这一趋势的未来走向。https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "text_zh_hash": "54d09f4452346f7f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/WIRED/status/2070285728869646560"
     },
     {
@@ -519,6 +540,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“Students have a deeper understanding of thorny concepts when they discuss and debate them together, and feel inspired to care more about mastering quadratic equations when they see their peers are trying to do the same” Jenny Anderson &amp; Mike Goldstein https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/",
+      "text_zh": "\"当学生们一起讨论和辩论棘手的概念时，他们对这些概念的理解会更深刻；当他们看到同龄人也在努力掌握二次方程时，他们也会受到激励，更加关心如何掌握它。\" —— 珍妮·安德森 & 迈克·戈德斯坦 https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/",
+      "text_zh_hash": "67de7deb29728664",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bhumikatharoor/status/2070186969242464412"
     },
     {
@@ -557,6 +581,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“The continent should immediately create the market conditions for its own AI labs to start, scale and win,” writes Judith Dada, a venture-capital investor, in a guest essay  https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3e1a171e0c3000014e2add&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "“欧洲应立即创造市场条件，让本土AI实验室能够启动、壮大并取胜，”风险投资人朱迪丝·达达在一篇特邀文章中写道。https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3e1a171e0c3000014e2add&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "9906af591457e8d5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2070391640926072883"
     },
     {
@@ -651,6 +678,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Head of Engineering Shopify: \n\n\"AI writes the code, AI reviews the code. Your job is just to write the loops around it.\"\n\n26 minutes on how AI changed the way 3,000 engineers work inside a single company.\n\nIgnoring it while everyone else uses AI to do more is the fastest way to fall behind.\n\nWatch it, then read the step by step guide on loops below.",
+      "text_zh": "Shopify 工程主管：\n\n\"AI 写代码，AI 审代码。你的工作只是编写围绕它的循环。\"\n\n26 分钟详解 AI 如何改变一家公司内 3000 名工程师的工作方式。\n\n当所有人都在用 AI 做更多事时，忽视它才是落后最快的方式。\n\n先看视频，再阅读下方关于循环的分步指南。",
+      "text_zh_hash": "2ee95168daf07b2b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AnatoliKopadze/status/2070156017262793008"
     },
     {
@@ -705,6 +735,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic CEO Dario Amodei: \n\n\"Software is going to become cheap. Maybe essentially free.\"\n\nIn a 32-minute Davos interview, he says the thing software companies don't want to hear.\n\nWhen the tool costs nothing, the money goes to whoever knows how to wield it.\n\nThat skill, not the software, is what the first solo fortunes are being built on.\n\nWatch the interview, then see the skill in the article below.\n\nSave this.",
+      "text_zh": "Anthropic CEO Dario Amodei：\n\n\"软件将变得廉价，甚至可能近乎免费。\"\n\n在一段32分钟的达沃斯访谈中，他说出了软件公司最不愿听到的话。\n\n当工具不再需要成本时，资金将流向懂得如何运用它的人。\n\n正是这种技能，而非软件本身，正在奠定第一批个人财富的基础。\n\n观看这段访谈，然后在下方文章中了解这项技能。\n\n请收藏本文。",
+      "text_zh_hash": "e839b4d300c0e65b",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/Zephyr_hg/status/2070415013366423875"
     },
     {
@@ -759,6 +792,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Here is a condensed, high-impact version of the post:\n\nDiscover -> Hand off -> Verify -> Persist -> Schedule\n\nThis 12-page PDF completely changed how I build agentic systems. Here is the 5-step blueprint:\n\nDiscovery: The loop reads CI, issues, and commits to find what's worth fixing.\n\nHandoff: Each finding gets an isolated git worktree so parallel agents never collide.\n\nVerification: A second agent - built to assume the code is broken, reviews the work.\n\nPersistence: Results land on disk, never in a temporary context window.\n\nScheduling: Automation fires the entire process on a timer, making it a true loop.\n\nThe key insight: An agent grading its own work always praises it. You need that second agent to say \"no.\"\n\nRead it now, then explore the article below.",
+      "text_zh": "发现 → 移交 → 验证 → 持久化 → 调度\n\n这份12页的PDF彻底改变了我构建智能体系统的方式。以下是五步蓝图：\n\n**发现**：循环读取CI、议题和提交记录，找出值得修复的内容。\n\n**移交**：每个发现结果获得独立的Git工作树，确保并行智能体永不冲突。\n\n**验证**：第二个智能体——预设代码存在缺陷——对工作进行审查。\n\n**持久化**：结果写入磁盘，绝不留在临时上下文窗口中。\n\n**调度**：自动化机制按定时器触发整个流程，形成真正的循环。\n\n关键洞察：让智能体自我评分，它总会自我褒扬。你需要第二个智能体来说\"不\"。\n\n立即阅读，再探索下方文章。",
+      "text_zh_hash": "275f2554b932c232",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/h100envy/status/2070224920458793161"
     },
     {
@@ -813,6 +849,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Drop everything you're doing and watch this 3-minute clip.\n\nBoris Cherny, creator of Claude Code, explains:\n- Loops vs. workflows\n- Best use cases for each\n- How to scale intelligence with TTC\n\nWatch it, then read the article below. You'll thank me later.\n\nSource: @ Scale on YouTube",
+      "text_zh": "放下手头的一切，先看这段3分钟的视频。\n\nBoris Cherny，Claude Code 的创造者，将为你讲解：\n- 循环 vs. 工作流\n- 各自的最佳使用场景\n- 如何利用 TTC 扩展智能\n\n看完视频，再读下面的文章。你以后会感谢我的。\n\n来源：@ Scale on YouTube",
+      "text_zh_hash": "f7a59eca7495fa5d",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/PawelHuryn/status/2070194762007576934"
     },
     {
@@ -934,6 +973,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "AI's brain is getting bloated with AI content https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
+      "text_zh": "AI的大脑正被AI内容撑得臃肿不堪 https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
+      "text_zh_hash": "14791105749431db",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/axios/status/2070158436994605064"
     },
     {
@@ -1016,6 +1058,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Former Hugging Face executive Tiezhen Wang explains how open-source AI training algorithms from Chinese labs are quietly becoming the default infrastructure for U.S. researchers https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
+      "text_zh": "前Hugging Face高管王铁震解读：中国实验室的开源AI训练算法，正悄然成为美国研究人员的默认基础设施。https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
+      "text_zh_hash": "be7b0d42b8082eb5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/restofworld/status/2070246912440066225"
     },
     {
@@ -1137,6 +1182,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "To ensure coding agents live up to our design standards, we built a system with a skill, linters, evals, and an updating loop.\n\nLearn how we did it and how to build your own ↓\nhttps://vercel.com/blog/teaching-agents-product-design-at-vercel",
+      "text_zh": "为确保编码智能体符合我们的设计标准，我们构建了一套包含技能、代码检查器、评估机制和更新循环的系统。\n\n了解我们如何实现以及如何构建你自己的系统 ↓\nhttps://vercel.com/blog/teaching-agents-product-design-at-vercel",
+      "text_zh_hash": "33242d0efafead1f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vercel_dev/status/2070237878563844305"
     },
     {
@@ -1177,6 +1225,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "A super long overdue (3+ years?) post on scaling laws.\n\nCompute is expensive. Scaling laws are a way to help us reason about the optimal compute allocation between data and model size before committing to a large run. \n\nThe post covers what scaling laws predict, how compute-optimal allocation works, why Kaplan et al. and Chinchilla disagree, and how data limits + fitting details make extrapolation tricky.\n\nhttps://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "text_zh": "一篇严重超期（3年以上？）的关于规模定律的文章。\n\n计算成本高昂。规模定律能帮助我们在投入大规模运行之前，理性分析数据和模型规模之间的最优计算资源分配。\n\n本文涵盖：规模定律的预测内容、计算最优分配的工作原理、Kaplan等人与Chinchilla研究的分歧原因，以及数据限制与拟合细节如何使外推变得复杂。\n\nhttps://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "text_zh_hash": "9f6ddfd95e723734",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/lilianweng/status/2070237256070389897"
     },
     {
@@ -1261,6 +1312,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "most product teams do one discovery workshop, then the company rushes back in.\n\ndelivery work, stakeholders, old commitments, meetings.\n\nthis guide is about keeping one learning thread alive anyway (with AI)",
+      "text_zh": "大多数产品团队只做一次探索工作坊，然后公司就匆忙回到日常工作中。\n\n交付任务、利益相关者、旧有承诺、会议。\n\n本指南旨在探讨如何（借助AI）至少保持一条学习线索的延续。",
+      "text_zh_hash": "1f8e2680624fcacb",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nurijanian/status/2070189787185824123"
     },
     {
@@ -1302,6 +1356,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "6-25-2026\n\nAn Interview with Figma CEO Dylan Field About Design and AI\n\nhttps://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "text_zh": "2026年6月25日\n\n专访Figma CEO Dylan Field：设计与AI的未来\n\nhttps://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "text_zh_hash": "70a7c4a537ee7e9a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/stratechery/status/2070084586714046792"
     },
     {
@@ -1343,6 +1400,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "At USV, we’ve long been students of the cycles of technology development and deployment, and the way in which value accrues at different layers at different points in the cycle. \n\nIn the early 2000s, after the deployment of the physical internet, our belief was that value would accrue at the application layer. In the early 2010s, after the invention of bitcoin, our belief was that value would accrue in open source protocols below the application layer.  \n\nToday, after the invention and deployment of AI foundation models, the question is: will all value accrue to the models, or to a broad ecosystem around them?",
+      "text_zh": "在 USV，我们长期研究技术开发与部署的周期规律，以及价值如何在周期不同阶段向不同层级累积。\n\n2000 年代初，物理互联网部署完成后，我们相信价值将累积在应用层。2010 年代初，比特币诞生后，我们相信价值将累积在应用层之下的开源协议层。\n\n如今，在 AI 基础模型发明并部署之后，问题在于：所有价值都将归于模型本身，还是归于围绕模型构建的广阔生态系统？",
+      "text_zh_hash": "6e131ac38240c4db",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/usv/status/2070184342509244643"
     },
     {
@@ -1383,6 +1443,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Codex usage at OpenAI gives us a preview of what agentic work may look like in the future.\n\nIn a new paper, the OpenAI Economic Research team looks at the broader shift from chat to delegation: people using agents not just to get answers, but to hand off longer, more complex work.\n\nhttps://openai.com/index/how-agents-are-transforming-work",
+      "text_zh": "OpenAI 对 Codex 的使用，让我们得以一窥未来代理式工作可能呈现的样貌。\n\n在一篇新论文中，OpenAI 经济研究团队探讨了从对话到委托的更广泛转变：人们使用代理不仅是为了获取答案，更是为了移交更长期、更复杂的工作。\n\nhttps://openai.com/index/how-agents-are-transforming-work",
+      "text_zh_hash": "67c0da93383bef19",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/OpenAINewsroom/status/2070180324651528434"
     },
     {
