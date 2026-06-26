@@ -6160,6 +6160,20 @@
       "title": "",
       "url": "http://x.com/i/article/2069761815932768256"
     },
+    "http://x.com/i/article/2069769856212410368": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069769856212410368",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLqpKDmacAAAaoa?format=jpg&name=900x900)](http://x.com/ItsRoboki/article/2070178726361678041/media/2070152968960372736)\n\nThe Only AI Coding Workflow That Outlives Every Tool\n\n[![](https://pbs.twimg.com/profile_images/2020478114560905216/BJRNvH3-_normal.jpg)](http://x.com/ItsRoboki)\n\n[Jagrit](http://x.com/ItsRoboki)\n\n[@ItsRoboki](http://x.com/ItsRoboki)\n\n·\n\n21h\n\nFollow\n\nClick to Follow ItsRoboki\n\n2\n\n4\n\n34\n\n[2.2K](http://x.com/ItsRoboki/status/2070178726361678041/analytics)\n\nI have used Cursor, Claude, ChatGPT Codex, and OpenCode. The model changes every 3 months and the harness changes every 6 months, but my workflow has not changed once.\n\nThe workflow ships code in any language, through any tool, with any model. The tool does not matter. The model does not matter. The workflow is the constant.\n\nHere are the 6 moves, brother.\n\n# \n\nThe baseline - every agent follows these three\n\nThese are not negotiable. I do not start a session without them.\n\n## \n\nMove 1: Web search before the agent guesses.\n\nThe agent will hallucinate an API before it admits it does not know one, brother - like a friend giving you directions to a restaurant they have never been to, describing the building in detail, the street name, the cross street, and the color of the awning, all completely made up. I let it search the web first - real docs, real issue threads, real example code. The difference between a hallucinated fix and a real fix is one search query, and most agent configurations disable web search or restrict it to the repo when a 30-second search would have saved 30 minutes of wrong code.\n\n## \n\nMove 2: A reasoning break after every three failures.\n\nThe agent will try, fail, try something slightly different, fail again, and repeat 12 times without asking why. I force a stop after every third failure and demand analysis - what pattern do you see in your failures? Are you repeating the same approach? Do you understand why the test suite rejected you? Without this, the agent is a hamster wheel with better insulation.\n\n## \n\nMove 3: A brainstorming gate before any file is touched.\n\nThe agent sees a problem and starts editing within seconds because it does not know that it does not understand the problem. I force it to report what it found, explain the approach in plain terms, and wait for approval before touching a single file. This catches more wrong turns than any test suite, because the agent's plan reveals that it was about to edit the wrong file in the wrong crate.\n\n# \n\nThe differentiators - these are what make it work across languages and tools\n\nThe baseline stops the agent from wasting time. These three make the agent actually productive.\n\n## \n\nMove 4: Research the ecosystem before writing a single line.\n\nWhen I work in a language I know, the agent follows my conventions. When I work in a language I am exploring, I do something the prompt guides never mention - I let the agent research popular repositories in that language, identify their best practices, and adopt them as the convention for this session.\n\nThen I create a skill graph - simple, connected skills that the agent follows for this specific language and project. Not an Obsidian vault. Not a web of notes. Just the skills the agent needs, connected by dependencies, small enough to fit in context, complete enough that the agent never needs to guess the conventions.\n\nThe first time I worked in Zig, the agent found the standard patterns from the compiler's own codebase and applied them before I knew what the patterns were. The first time I worked in C++ with this workflow, the agent learned the project's smart pointer policy from the existing code and never suggested a raw pointer.\n\n## \n\nMove 5: 100 lines or one feature per file. And grouping happens before creation.\n\nA file should be 100 lines or one feature, whichever comes first, brother",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069769856212410368"
+    },
     "http://x.com/i/article/2069789657777225729": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6327,6 +6341,32 @@
       "title": "",
       "url": "http://x.com/i/article/2070083414510702592"
     },
+    "http://x.com/i/article/2070117036605222912": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070117036605222912",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLqKNCFW8AAiukM?format=jpg&name=900x900)](http://x.com/Majumdar%5FAni/article/2070155053965480432/media/2070118935232442368)\n\nUnderstanding video models: Part II - Architecture & Training\n\n[![](https://pbs.twimg.com/profile_images/1238890870310612999/dpcw4dyH_normal.jpg)](http://x.com/Majumdar%5FAni)\n\n[Anirudha Majumdar](http://x.com/Majumdar%5FAni)\n\n[@Majumdar\\_Ani](http://x.com/Majumdar%5FAni)\n\n·\n\n22h\n\nFollow\n\nClick to Follow Majumdar\\_Ani\n\n16\n\n152\n\n[16K](http://x.com/Majumdar%5FAni/status/2070155053965480432/analytics)\n\nThis second post in the video modeling series focuses on architectures and training. Architectures for state-of-the-art video models are all based on the same basic recipe: a diffusion transformer backbone, which is adapted for various forms of conditioning (text, images, depth, pose, actions, etc.).\n\n## \n\nBasic architecture: video diffusion transformer\n\nThe basic video model architecture has remained very stable since the emergence of diffusion transformers (DiTs; Peebles & Xie ‘22). As described in the first post in this series, the raw video is transformed into a compact latent representation through the video VAE. The DiT patchifies this latent tensor using a 3D convolution. The patch representations are then passed through transformer blocks and then unpatchified. This pipeline is visualized below.\n\n[![Image](https://pbs.twimg.com/media/HLqVtgHWAAAu4sm?format=jpg&name=small)](http://x.com/Majumdar%5FAni/article/2070155053965480432/media/2070131587677552640)\n\nDiffusion/flow timestep embedding. Video models are trained with the flow matching objective (Albergo ‘22, Lipman ‘22, Liu ‘22). Hence, the DiT above predicts the velocity at a given flow timestep. Timestep conditioning is performed via adaptive layer norm (adaLN), as proposed in the original DiT paper. Specifically, the timestep is encoded via an MLP, which produces the scale and shift parameters for layer norm (Ba ‘16). However, this method of conditioning introduces a very large number of parameters (since the MLP’s output must match the model width). An interesting twist in the WAN model (WAN team ‘25) is to get around this by sharing an MLP across the different transformer blocks (while keeping the bias term independent for different blocks). This reduces their overall parameter count by 25%.\n\nText encoder and conditioning. The text prompt is typically encoded through a version of the T5 encoder (Raffel ‘19) or a VLM. In recent video models, the DiT blocks of the video model condition on the text embedding through cross attention. In the past, other possibilities for text conditioning were explored (e.g., processing text and images through parallel streams and sharing information via attention; MM-DiT, Esser ‘24). However, LTX-Video (HaCohen ‘24) found that cross attention improved text conditioning compared to MM-DiT, and this is now the standard choice.\n\n## \n\nArchitectures for controllable video generation\n\n![](https://pbs.twimg.com/amplify_video_thumb/2070131829588312064/img/srjgdus73i0_Luz4.jpg)\n\nVideo transfer example from WAN-Animate.\n\nBeyond text conditioning, modern video models allow for various forms of controllable generation: reference images or videos, pose, depth, etc. This allows for capabilities such as the one shown above from the WAN-Animate model (Cheng ‘25), where a character in the reference video is swapped with one shown in a reference image.\n\nBelow, I discuss various ways in which such control signals are introduced into video models.\n\nControlNet\n\nControlNet (Zhang ‘23) is a hugely influential method for controllable image and video generation. ControlNet freezes the parameters of the pre-trained base model and clones them into a trainable copy. This copy accepts the additional conditioning (e.g., pose, depth, edges) as input, and is connected to the frozen backbone u",
+      "title": "",
+      "url": "http://x.com/i/article/2070117036605222912"
+    },
+    "http://x.com/i/article/2070201957441220608": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070201957441220608",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLrdteUagAAptl9?format=jpg&name=900x900)](http://x.com/0xfishylosopher/article/2070222427670618460/media/2070210752032702464)\n\nInvesting in Orthogonal\n\n[![](https://pbs.twimg.com/profile_images/1677115626836590592/YJOvkgss_normal.jpg)](http://x.com/0xfishylosopher)\n\n[Jay Yu ![🐟](https://abs.twimg.com/emoji/v2/svg/1f41f.svg)![](https://pbs.twimg.com/profile_images/1369391049169371144/1R3n18sT_bigger.png)](http://x.com/0xfishylosopher)\n\n[@0xfishylosopher](http://x.com/0xfishylosopher)\n\n·\n\n18h\n\nFollow\n\nClick to Follow 0xfishylosopher\n\n9\n\n3\n\n79\n\n[9.1K](http://x.com/0xfishylosopher/status/2070222427670618460/analytics)\n\nBy \n\n[@0xfishylosopher](https://x.com/@0xfishylosopher)\n\nWe’re leading a $4.3M seed round in Orthogonal to build the discovery and payments layer for the agentic economy.\n\n## \n\nThe Problem\n\n2026 is the first year AI agents such as Openclaw and Claude Code are entering the economy as real participants – writing code, sending emails, and closing tasks end to end. But the moment needs a capability or integration it wasn’t handed to complete a task, it hits a brick wall. An agent can't go find the right service, sign up, fetch a key, and start paying the way a person would. It fails, or worse, hallucinates results. Anyone who has spent a vibecoding session wrangling dashboards, juggling API keys, and reconciling spend across a dozen providers has felt this friction firsthand.\n\nToday, discovery, access, and payments remain a blocker to agentic workflows. To truly unlock autonomous economic output, AI agents today still need to figure out how to use money and the Internet.\n\n## \n\nEnter Orthogonal\n\nOrthogonal is building the bridge between agents and the rest of the Internet - creating a unified discovery layer for APIs that allow AI agents to better participate in the global economy. An agent such as OpenClaw and Claude puts in a single integration – whether through SDK, API, MCP, or CLI – and can start to search and discover capabilities it doesn’t have in-built.\n\n[![Image](https://pbs.twimg.com/media/HLrf78YbQAAeWvm?format=jpg&name=small)](http://x.com/0xfishylosopher/article/2070222427670618460/media/2070213199644016640)\n\nOver the past few months, Orthogonal has built up a catalog of hundreds of endpoints from 50+ vendors across a variety of use cases, allowing agents to search for customer contacts, buy compute, generate images, and get access to email and phone numbers. Today, we already see Orthogonal enriching leads for marketing teams, running data analysis for investors, sourcing candidates for recruiters. In a single call, builders integrate once and get everything – a single account with authorization and unified invoicing across every provider, and ability for agents to pay using stablecoins and protocols such as x402.\n\n## \n\nMeet the Team\n\nOrthogonal has exactly the right team we look for at this layer. Cofounder and CEO \n\n[Christian Pickett](https://www.linkedin.com/in/christian-pickett/)\n\n has spent his career building payments and billing infrastructure – payments at Coinbase, usage-based billing at Vercel – and is sharply aware of where the market is today versus where it's heading. Co-founder \n\n[Bera Sogut](https://www.linkedin.com/in/berasogut/)\n\n built APIs and autonomous systems at scale, having worked on reCAPTCHA and Maps APIs at Google, and ranks among the strongest competitive programmers in the world. Both cofounders know payments and APIs inside-out, and are in the best position to build the payments and API discovery gateway for the agentic economy.\n\n## \n\nOur Thesis\n\nAs AI agents enter the workforce as full participants, a new agentic economy is taking shape, and we believe Orthogonal will become a cornerstone of the agentic stack.\n\nThe tasks of the future will require agents to conduct long-horizon, multi-API, and multi-protocol search, payme",
+      "title": "",
+      "url": "http://x.com/i/article/2070201957441220608"
+    },
     "http://x.com/i/article/2070229603483045888": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6342,6 +6382,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2070229603483045888"
+    },
+    "http://x.com/i/article/2070441264122626049": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070441264122626049",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLu0q5qXcAA8Q6z?format=jpg&name=900x900)](http://x.com/0xMortyx/article/2070450974708093229/media/2070447102832898048)\n\nThe 4 Loops Hiding in Every Senior Engineer's Claude Code Setup\n\n[![](https://pbs.twimg.com/profile_images/2057514634119188480/KQg1xNWg_normal.jpg)](http://x.com/0xMortyx)\n\n[Morty](http://x.com/0xMortyx)\n\n[@0xMortyx](http://x.com/0xMortyx)\n\n·\n\n3h\n\nFollow\n\nClick to Follow 0xMortyx\n\n11\n\n8\n\n45\n\n[1.4K](http://x.com/0xMortyx/status/2070450974708093229/analytics)\n\nWhen you watch someone ship three times your output with the same Claude Code, it's tempting to assume they know a magic prompt. They don't.\n\nWhat they have is structure. Under the hood, the people getting the most out of Claude Code aren't typing better, they're running loops, small self-checking cycles that do the repetitive work for them. And it's not one clever loop. It's four distinct ones, each operating at a different timescale, from \"every edit\" to \"across sessions.\"\n\n[![Image](https://pbs.twimg.com/media/HLuwIOvX0AAoZAm?format=jpg&name=small)](http://x.com/0xMortyx/article/2070450974708093229/media/2070442109149106176)\n\nMost people run zero of them. Seniors run all four, often without thinking of them as separate things. Here are the 4 loops, what each one does, and the exact way to add it to your own setup.\n\n## \n\n1\\. The Edit/Test Loop\n\nRuns on every change. Catches breakage the instant it happens.\n\nStop hook\n\nThe fastest loop, and the one most people skip. A senior doesn't trust an edit until the tests pass, and they don't run the tests by hand, a hook does it. A Stop hook runs your check as a script and blocks the turn from ending until it passes. The agent literally can't call a change \"done\" while the suite is red.\n\nBecause it's a hook, it's deterministic. It fires every single time, not the times Claude remembers to. That's the difference between \"usually tested\" and \"always tested.\"\n\npython\n\n```python\n.claude/settings.json // THE EDIT/TEST LOOP\n{\n  \"hooks\": {\n    \"Stop\": [{\n      \"command\": \"npm run test && npm run lint\"\n    }]\n  }\n}\n\n# the turn can't end until tests and lint pass\n# red suite = the agent keeps working, automatically\n```\n\n> ✓ Every change is verified the moment it's made, with zero effort from you\n\n[![Image](https://pbs.twimg.com/media/HLuwiKwXoAAvmq0?format=jpg&name=small)](http://x.com/0xMortyx/article/2070450974708093229/media/2070442554756145152)\n\n## \n\n2\\. The Goal Loop\n\nRuns across many turns until a condition you wrote is true.\n\n/goal\n\nThe edit/test loop guards a single change. The goal loop drives a whole task to completion on its own. You set a target and Claude Code keeps working, turn after turn, until that target is met: reading the failure, fixing it, re-checking, repeating, without you driving each lap.\n\nThe key detail that makes it trustworthy: the model that wrote the code doesn't get to decide whether it's done. A separate, faster model checks the completion condition after each turn. The doer does, a different judge confirms.\n\npython\n\n```python\nTHE GOAL LOOP\n/goal All tests in test/ pass with no skips, and lint is clean\n/loop until: the goal condition holds\n\n# Claude reads failing output, traces it, edits, re-runs,\n# and repeats on its own until the condition checks out\n# a separate model grades \"done\", so it can't fake it\n\n```\n\n> The rule seniors follow here:A goal is only as good as the evidence that proves it. \"Make the checkout better\" gives the loop nothing to grade, so it stops whenever it feels like it. State the end state, the evidence required, and a hard ceiling on turns or budget. You write the acceptance test, the agent has to pass it.\n\n> ✓ A whole task runs to a verified finish line while you do something else\n\n[![Image](https://pbs.twimg.com/media/HLuxe1-WcAALQSb?format=jpg&name=small)](http://x.com/0xMortyx/article/2070450974708093229/medi",
+      "title": "",
+      "url": "http://x.com/i/article/2070441264122626049"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -8621,22 +8674,6 @@
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
     },
-    "https://go.copilotkit.ai/beyond-the-web-form": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Join the waitlist to get early access for Slack, MS Teams, Discord integrations\n\nOnce you sign up, we'll be in touch within 24 hours to get you set up.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdUC0Dm3zoYdf9DKSNJB4-kQI1Wrbbptz2LVvxUiRSikS0B1A/viewform?usp=send_form",
-      "frameable": true,
-      "image_urls": [
-        "https://lh3.googleusercontent.com/5b6e_pugM08hhrxJCSjy7wcuDcMQdo_TT-1lX36O2xI9QQMxH17oeuDlC-x0foctdE7hcbZqtb281dI=w1200-h630-p",
-        "https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.\nCopilotKit 'Any Frontend' Early Access (Slack, Teams, Discord, Google Chat etc)\nJoin the waitlist to get early access for Slack, MS Teams, Discord integrations\nOnce you sign up, we'll be in touch within 24 hours to get you set up.\nSign in to Google\nto save your progress.\nLearn more\n* Indicates required question\nFull Name\n*\nYour answer\nWork Email Address\n*\nYour answer\nCompany/Organization Name\n*\nYour answer\nCompany Size (Number of Employees)\n*\nChoose\n1-50\n51-200\n201-500\n501-1000\n1000+\nRole\n*\nEngineering Leadership\nSoftware Engineer\nProduct Manager\nAI/ML Engineer\nSolutions Architect\nFounder / Executive\nOther:\nWhat is your agent stack?\n*\nLangChain\nMastra\nGoogle ADK\nAWS Strands\nMicrosoft Agent Framework\nPydantic AI\nAgno\nCrew AI\nLlamaIndex\nAG2\nOther:\nRequired\n6. Which platforms are you interested in?\n*\nSelf-Learning (CLHF - Continuous Learning from Human Feedback)\nSlack\nMicrosoft Teams\nGoogle Chat\nDiscord\nWeb\nMobile\nOther:\nRequired\nWhat are you building?\nYour answer\nSubmit\nClear form\nNever submit passwords through Google Forms.\nThis form was created inside of tawkit.app.\nDoes this form look suspicious?\nReport\nForms\nHelp and feedback\nContact form owner\nHelp Forms improve\nReport",
-      "title": "CopilotKit 'Any Frontend' Early Access (Slack, Teams, Discord, Google Chat etc)",
-      "url": "https://go.copilotkit.ai/beyond-the-web-form"
-    },
     "https://heroui.com/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
@@ -9366,6 +9403,22 @@
       "text_excerpt_zh": "",
       "title": "Home | Mogul Media",
       "url": "https://mogulmedia.beehiiv.com/"
+    },
+    "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "最近刷朋友圈是不是快焦虑死了？一会儿是\\x26quot;某公司用AI裁掉90%文案\\x26quot;，一会儿是\\x26quot;AI Agent已经能自己跑业务了\\x26quot;，再刷两篇\\x26quot;35岁不会AI就要被淘汰\\x26quot;的爆文，感觉明天就要被开除了。",
+      "final_url": "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A",
+      "frameable": false,
+      "image_urls": [
+        "https://mmbiz.qpic.cn/mmbiz_jpg/0yzQVH4CCibjYftHJZ6ZOY2u8BA4Wyf69JNMqcL3icVAotU0T4t7DYauSFeFpdulrYqnB4ichRwgdsA10IicVEmqUTqO3ibKnA3mOutecCNx09sE/0?wx_fmt=jpeg",
+        "https://mmbiz.qpic.cn/mmbiz_png/0yzQVH4CCibia8QwvlxIAXk8nCYMyZTUYyCa1PbKxq95AMDtVmgIY9BIsGiadUrbBGbzsuJRrPFgtm9hV5N2dwrNViabiaCOKtBMyvoLrqpJjdao/640?wx_fmt=png&from=appmsg",
+        "http://mmbiz.qpic.cn/mmbiz_png/ZRZxPTNMBf9ibayJtezDZWCiaoPv2tNZ0udlEG7xJMfvkhTUXOyXFbaQ519VGn60TdYWZibHoE3eJtct8yyV6G01g/0?wx_fmt=png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Notion调研了6000个用AI的职场人：老板在自嗨，员工在装忙 原创 Gorden Sun Gorden Sun AI加速派 在小说阅读器读本章 去阅读 在小说阅读器中沉浸阅读 最近刷朋友圈是不是快焦虑死了？ 一会儿是\"某公司用AI裁掉90%文案\"，一会儿是\"AI Agent已经能自己跑业务了\"，再刷两篇\"35岁不会AI就要被淘汰\"的爆文，感觉明天就要被开除了。 但我跟你说， 这些都是假的。 Notion刚出了一份全球AI转型报告，调研了10个国家、6118个人——从拍板买AI的老板高管，到天天用AI干活的普通员工，给你扒了个底朝天。 看完你会发现：现在全网吹的AI革命，基本就是大型自嗨现场。 🤡 第一个真相：88%的公司，都在\"假装用AI\" 先给你看个最反常识的数据： 全球88%的公司，AI还停留在\"个人玩具\"阶段（Level 1+Level 2）。 什么意思？就是员工自己偷偷用ChatGPT写个文案、用AI做个PPT、开会让AI记个纪要、写代码让AI补个函数——说白了，就是拿AI当高级搜索+打字员用。 真正把AI嵌进公司业务流程、让AI自动跑重复工作的，只有10%（Level 3）。 至于网上吹得神乎其神的\"AI自己开公司、自己做决策、全自动跑业务\"—— 全地球只有2%的公司做到了。 对，你没看错，2%（Level 4）。 你刷到的那些天花乱坠的案例，全是这2%里的尖子生，剩下98%的公司，包括你我所在的大多数公司，都还在\"用AI帮我写个周报\"的阶段。 所以别焦虑了，真的。你觉得自己AI用得烂？没关系，你们老板、你们CEO，大概率也跟你差不多。 现在的AI转型，就像当年刚有电脑的时候——大家都买了电脑，但大部分人也就用来打打字、上上网，真正用电脑改造业务的，没几个。 第二个真相：老板和员工，根本活在两个世界 这是整个报告里最好笑、也最扎心的部分。 你知道老板眼里的公司AI用得怎么样吗？ ◆ 49%的老板说：\"我们公司AI用得贼溜，我非常有信心！\" ◆ 60%的老板说：\"我们已经准备好上AI Agent了！\" 那员工眼里呢？ ◆ 只有23%的员工觉得公司AI用得明白—— 差了一倍还多 ◆ 只有36%的员工觉得公司准备好了上AI Agent 更离谱的是什么？ 老板觉得自己公司26%的部门已经深度用AI了，员工说：拉倒吧， 只有5% 。 整整5倍的认知差！ 我给你翻译一下这是什么场景： 老板在大会上激情演讲：\"我们公司已经全面AI化了！效率提升300%！明年就要用AI再造一个公司！\" 底下员工一边点头鼓掌，一边偷偷想：\"上周让我用的那个AI工具，写出来的东西全是错的，我改了俩小时，还不如自己写得快。\" 为什么会这样？ 因为老板看到的是：我们买了多少AI工具，请了多少AI专家，开了多少AI培训——这都是钱花出去了。 员工感受到的是：这玩意儿不好用啊！写的东西有错，接不上公司的数据，出了问题谁负责也没人说，我用了还要担责任，那我不如不用。 最搞笑的是一个英国员工的吐槽：\"AI有时候就瞎编东西，编完了还跟我说'好眼力'，我本来想省时间，结果省下来的时间全用来给AI挑错了。\" 是不是世另我？ 第三个真相：越投钱，越焦虑 你以为公司AI用得越好，就越从容？ 错了。 报告里说， 55%的老板都承认：我们投AI的速度，比员工学得快多了。 而且这个数字，随着AI用得越深，反而越高： ◆ 刚起步的公司：48%的老板觉得员工跟不上 ◆ 中级阶段：55% ◆ 深度应用：60% ◆ 最顶级的那批公司： 68% 说白了就是，老板们都在拼命砸钱上AI，生怕被时代落下，但员工根本接不住。 就像你给一个还在用功能机的人，直接塞了个最新款iPhone，还给他装了100个APP，说\"你赶紧用，用不好你就被淘汰了\"——他能不懵吗？ 而且最讽刺的是什么？ 现在几乎所有公司都在做AI培训、都在买标准化工具、都在写AI使用规范—— 但这些东西，根本拉不开差距。 因为所有公司都在做啊！你做我也做，最后大家又回到同一起跑线。 第四个真相：真正拉开差距的，根本不是你想的那样 那真正把那12%的先进公司和剩下88%拉开的，到底是什么？ 报告里测了8项指标，最后发现只有3件事有用，而且差距大到离谱： 1. 把AI嵌进你已经在用的系统里（+18%） 不是让员工再学10个新AI工具，而是把AI直接接进你天天用的飞书、钉钉、CRM、文档里。不用切换APP，打开就能用，这才是真的有用。此处我提名飞书CLI， 接入飞书CLI，才算真正用上了AI 。 2. 建清楚规矩和监管（+16%） 不是简单写个\"不准泄密\"就完了，而是要说清楚：AI出了错谁负责？哪些数据能给AI看？哪些工作AI做完必须人审？员工敢用了，才会真的用。 3. 别光吹\"省了多少时间\"，拿真金白银的数据说话（+15%） 别再听员工说\"我用AI省了俩小时\"这种鬼话了，真正的先进公司都在算：错误率降了多少？项目周期短了多少？到底省了多少钱、多赚了多少钱？ 看到没？ 不是培训没用，不是工具没用，而是这些都是基础分，大家都有。 真正能让你跑到前面的，是把AI从\"员工个人的玩具\"，变成\"公司系统的一部分\"。 🤦‍♂️ 第五个真相：AI用得越深，问题反而越奇葩 还有个特别有意思的发现： AI用得不好的时候，问题都是人的问题：\"我不会用\"、\"我不敢信\"、\"没人教我\"。 等你AI真用深了，问题全变成系统的问题了： ◆ 工具太多了（+14%） ：公司买了一堆AI工具，写文案用这个，做表用那个，写代码用第三个，员工都不知道该用哪个 ◆ 不知道到底有没有用（+9%） ：钱花了不少，时间也投了，到底效率提升了多少？没人说得清 ◆ AI今天说的和明天不一样（+5%） ：模型版本一更新，输出结果就变了，根本没法稳定用 反而早期的那些问题：不会用、不敢信，随着用得多了，慢慢就解决了。 所以你看，根本不存在什么\"等我准备好了再上AI\"——你永远准备不好。 上了AI之后，只会有新的问题等着你。但解决了这些新问题，你就跑到前面去了。 最后：不管是公司还是个人，别瞎忙活了 看完这份报告，我最大的感受就是：现在的AI焦虑，90%都是炒出来的。 给公司老板们提个醒： 别再搞什么全员AI培训运动了，也别再买一堆工具回来就觉得自己转型了。 你先搞清楚三件事： 1. 别自己在办公室拍脑袋想AI怎么用，去问问一线员工，他们到底觉得哪里难用 2. 先别急着上新工具，把AI接到大家已经在用的系统里，比什么都强 3. 别再听\"省了多少时间\"这种屁话，拿错误率、周期、营收这些硬指标说话 给普通职场人提个醒： 真的别焦虑了。 现在88%的人都跟你一样，拿AI写写文案做做PPT，谁也别笑话谁。 你不用怕\"不会AI就要被淘汰\"，你只要比你同部门的人多走一步—— 比如别人只会让AI写文案，你会让AI帮你分析数据； 别人只会拿AI当聊天机器人，你会把自己的工作流和AI结合起来； 你就已经赢过90%的人了。 哦对了，还有个特别有意思的数据： 500-999人的中型公司，AI用得最好，反而5000人以上的大公司，AI转型最慢——因为船大难掉头。 所以别觉得大公司就一定走在前面，说不定你的小公司，反而能先跑出来。 最后问一句：你们公司AI用得怎么样？ 是不是老板天天喊AI转型，结果大家该怎么干活还怎么干活？ 评论区聊聊你们公司的AI魔幻现状，我看看是不是全世界都一个样。 *本文数据来源：Notion《2026全球AI转型报告》，调研样本覆盖10个国家6118名AI决策者与使用者。原报告链接：*https://www.notion.com/resources/inside-the-ai-transformation 预览时标签不可点 微信扫一扫 关注该公众号 知道了 微信扫一扫 使用小程序 取消 允许 取消 允许 取消 允许 × 分析 微信扫一扫可打开此内容， 使用完整服务 ： ， ， ， ， ， ， ， ， ， ， ， ， 。 视频 小程序 赞 ，轻点两下取消赞 在看 ，轻点两下取消在看 分享 留言 收藏 听过",
+      "title": "Notion调研了6000个用AI的职场人：老板在自嗨，员工在装忙",
+      "url": "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A"
     },
     "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/": {
       "cleaner_v": 2,
@@ -10773,6 +10826,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10815,19 +10882,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg": {
+    "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -14133,6 +14200,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg"
     },
+    "https://pbs.twimg.com/media/HLtJgFeXsAAn4oa.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLtJgFeXsAAn4oa.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLtJgFeXsAAn4oa.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLtJgFeXsAAn4oa.jpg"
+    },
+    "https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg"
+    },
+    "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15890,19 +15999,19 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo"
     },
-    "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6": {
+    "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
       "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6",
+      "final_url": "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty",
       "frameable": null,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11b883b6d5accd3`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11c83a50c414089`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
       "title": "",
-      "url": "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6"
+      "url": "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -16071,6 +16180,25 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas | Figma Blog",
       "url": "https://www.figma.com/blog/config-2026-recap/?ref=sidebar"
+    },
+    "https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Beijing’s self-inflicted identity crisis.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.foreignaffairs.com/reviews/who-china-ian-johnson",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2026/06/11/1_johnson_china_crop.jpg?itok=N8TAae7R",
+        "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2026/06/23/JA26_Johnson.png?itok=UT2t-kJJ",
+        "https://cdn-live.foreignaffairs.com/sites/default/files/styles/_webp_issue_small_2x/public/images/2026/06/22/Cover%20PNG.png.webp?itok=kTf4jDvd",
+        "https://cdn-live.foreignaffairs.com/sites/default/files/styles/_webp_issue_small_2x/public/images/2026/04/06/FA_MJ_2026_Cover.jpg.webp?itok=ul-otR1q",
+        "https://cdn-live.foreignaffairs.com/sites/default/files/styles/_webp_issue_small_2x/public/images/2026/03/03/MarchApril_2026_Cover.png.webp?itok=1b6ABPH3"
+      ],
+      "kind": "article",
+      "text_excerpt": "To many in the West, China’s rise is an indisputable fact. Commentators celebrate its success in language not seen since an earlier generation of political tourists gushed over Mao’s China: in February, after returning from a visit to the country, the investor and columnist Steven Rattner averred that China’s “model of state-directed capitalism” had helped produce “the colossus that dominates global manufacturing while making extraordinary progress in fast-growing, technology-oriented fields that have long been American led.” The economic historian Adam Tooze declared last year that the country “is the master key to understanding modernity.” Others seem resigned to asking narrow, technocratic questions: Will its military be ready to invade Taiwan next year, or a few years down the road? Can its authoritarian political model provide a stable succession when Chinese leader Xi Jinping dies? Can it overcome sanctions and produce cutting-edge chips? In doing so, they treat the permanency of the People’s Republic of China as a foregone conclusion.\nWhat’s often lost in these discussions is that the country’s own leaders implicitly doubt the very concept of their nation. Government officials and many ordinary people vehemently proclaim the sanctity of China’s borders, even as many of its border regions are run under a state of near-martial law. Official narratives, meanwhile, forbid a coherent explanation of how [China](https://www.foreignaffairs.com/regions/china) obtained these lands. As part of a broader intellectual decay, many of the country’s brightest minds have exiled themselves, either through inner emigration and self-censorship or by leaving the country altogether.\nChina shouldn’t have much of an identity crisis. It boasts an ancient civilization and culture instantly recognizable around the world. Its intellectual inheritance—rich traditions in martial arts, medicine, philosophy, and religion—is widely admired and imitated in global popular culture and the high arts. But Chinese leaders behave as if they were running an upstart nation with no history—one that has to demand that visitors refer to it as “the People’s Republic” and repeat that there is only “one China,” located within sacred and immutable borders. The country today “is a multiheaded creature of no certain or reliable identity,” Xu Guoqi writes in his new book, The Idea of China: A Contested History. “If there were a clear or reliable identity, today’s leaders would not be so obsessed with trying to impose one.”\nIn the nearly 15 years since Xi took power, in 2012, he has tried to define China by fusing the glories of communism—sacrifice, duty, perseverance—and some elements of traditional culture, especially filial piety and obedience. But by emptying both of these ideologies of their subversive kernels—their emphasis on social justice and the right to disobedience, to name two—Xi has failed to construct a convincing vision of what China stands for. It remains unclear whether Xi’s version of China has any values beyond holding on to the territories of the old Qing empire and keeping the Chinese Communist Party in power, or whether the CCP’s project is capacious enough to accommodate the country’s historical hybridity.\nTo Xu, the party’s answer—building a “house of cards” atop the country’s multifarious history—could be its downfall. In the Soviet Union, a similar attempt to build a modern nation-state on the foundations of an empire fell apart after its leaders could not resolve the inherent contradictions of such a project. The CCP, The Idea of China suggests, might meet a similar fate if it does not change course.\nThe political and economic success of the last four decades will likely prevent the People’s Republic from collapsing like the Soviet Union. Still, Xu’s book should make one skeptical about the assumption that the China that exists today is the China that will exist long into the future. Instead, Xu reminds readers of the different possible paths C",
+      "title": "Who Is China? Who Is China? | Foreign Affairs",
+      "url": "https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8"
     },
     "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/?ref=sidebar": {
       "cleaner_v": 2,
@@ -16641,6 +16769,21 @@
       "title": "When everyone has AI and the company still learns nothing",
       "url": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar"
     },
+    "https://www.seangoedecke.com/how-i-use-llms-in-2026": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+      "frameable": null,
+      "image_urls": [
+        "https://www.seangoedecke.com/og-image.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "How I use LLMs as a staff engineer in 2026\nA bit over a year ago I wrote [How I use LLMs as a staff engineer](https://www.seangoedecke.com/how-i-use-llms/). Here’s a brief summary of what I used AI for last year:\n- Smart autocomplete with Copilot\n- Short tactical changes in areas I don’t know well (always reviewed by a SME)\n- Writing lots of use-once-and-throwaway research code\n- Asking lots of questions to learn about new topics (e.g. the Unity game engine)\n- Last-resort bugfixes, just in case it can figure it out immediately\n- Big-picture proofreading for long-form English communication\nHere are some tasks I explicitly didn’t use AI for last year:\n- Writing whole PRs for me in areas I’m familiar with\n- Writing ADRs or other technical communications\n- Research in large codebases and finding out how things are done\nFebruary 2025 was a long time ago. Back then the best model was the first reasoning model, OpenAI’s o1. Agents sort of worked, but would often get stuck or thrown off by compaction. What’s changed since then?\nAgents are good now\nThe biggest change is that I now use LLMs to produce entire PRs in areas I’m familiar with. A year ago I would very occasionally ask an agent to make changes to a single file if it was a simple change I couldn’t be bothered typing out. Sometimes I would copy a function I wrote into a LLM chat window for feedback. But now I start every single change by asking an agent to solve the problem, and usually push the PR after a single editing pass.\nIn late 2025 I used a lot of open VSCode windows. In early 2026, that changed to terminal tabs with the Copilot CLI, particularly when I needed to make changes across multiple repos at the same time. Now I use the [GitHub Copilot app](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) a lot (tens of sessions per day). \nThis reflects a shift from having to line-edit the agent basically as it went to only doing an editing pass right at the end. Early agents would go wrong a lot and not be able to recover, so it was valuable to keep an eye on their thought processes and step in to pause them and set them right. In my experience, current agents move too fast to do this, and recover their own mistakes most of the time anyway.\nSometimes I don’t even need to make edits and I can just push the change as-is, though this is rare: if nothing else, I typically go through and remove some of the over-commenting and other LLM-isms.\nI do a lot of skimming through and evaluating agent changes. Most of the time I reject them entirely, just based on “eh, that’s not what I was thinking”. On average it takes me about thirty seconds to make this initial assessment. If the change looks alright after that, I’ll dig in and do a proper review to make sure I understand it and it’s doing the right thing. For difficult tasks, I’ll often reject five or six (or more!) agent attempts before accepting one as good enough to work with, or giving up and making the change by hand.\nInvestigating bugs\nI rely on LLMs even more for bug-hunting than I do for making changes. In 2025, I used to throw the occasional bug at a LLM, just in case it was able to rapidly come up with an explanation. Now I throw every bug at a LLM (typically by opening a new agent session and pasting in the bug report), because it’s able to correctly diagnose 80% of issues on its own. Current agents are really good at chasing down bugs, particularly when you give them a vantage point across multiple repositories.\nI’m still better at it. Just last week I had a tricky bug that took about fourteen agent sessions before one finally figured it out. What was I doing in between and around those sessions?\n- Digging up extra context on the bug (from logs, Slack, etc) and reporting it to the agents\n- Building my own mental model of the problem, of course\n- Setting up my own reproduction of the bug (in parallel with the agents’ efforts)\n- Responding to agent sessions with “no, your the",
+      "title": "How I use LLMs as a staff engineer in 2026",
+      "url": "https://www.seangoedecke.com/how-i-use-llms-in-2026"
+    },
     "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16871,6 +17014,30 @@
       "title": "",
       "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
     },
+    "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "It turns out bots aren’t great teachers.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/ONrimC3F3z0rLTvHeqVJBTL0WyE=/0x43:2000x1085/1200x625/media/img/mt/2026/06/2026_04_28_Goldstein_Anderson_Ai_tutors_final/original.gif",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/zyShdQoI3PIUKyQyaqE6XD92Ffg=/0x0:2000x1125/960x540/media/img/mt/2026/06/2026_04_28_Goldstein_Anderson_Ai_tutors_final/original.gif",
+        "https://cdn.theatlantic.com/thumbor/xJo_UrbIbdoaWPWnO9W6twPBvVA=/280x0:1405x1125/80x80/media/img/mt/2026/06/2026_04_28_Goldstein_Anderson_Ai_tutors_final/original.gif"
+      ],
+      "kind": "article",
+      "text_excerpt": "In a 2023 [TED Talk](https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education) watched by millions of people, the American educator and entrepreneur Sal Khan declared that AI was about to deliver “probably the biggest positive transformation that education has ever seen.” The founder and CEO of Khan Academy was touting the company’s new educational chatbot, Khanmigo, claiming it promised to be an “amazing personal tutor” to “every student on the planet.” By 2024, OpenAI CEO Sam Altman was chiming in [that](https://ia.samaltman.com/) AI was on the verge of delivering, for students, “virtual tutors who can provide personalized instruction in any subject, in any language, and at whatever pace they need.”\nBut by this spring, Khan had [admitted that the release of Khanmigo](https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/) was “a non-event” for many kids. Although access exploded, from reaching 40,000 students in 2023 to nearly 1 million this year, actual uptake—whether students use it—has stagnated.\nA tool designed to respond to questions and ask follow-ups can’t help a student who doesn’t engage or know what to ask. Khanmigo, like so many other ed-tech tools, has floundered because it hasn’t solved the challenge at the center of education: How do you motivate students to experience the discomfort of learning something new? An AI tutor may be able to deliver math problems that are perfectly calibrated to a student’s level. But it can’t make the student actually do the problems.\n“Learning is hard work,” Kristen DiCerbo, Khan Academy’s chief learning officer, told us. “It’s cognitively effortful and not experienced as fun. How do we get kids to want to do that?” AI is a powerful tool, she added, but it can’t be expected “to bridge that motivation gap.” Although AI tutors have sometimes [proven](https://blog.khanacademy.org/what-a-randomized-control-trial-in-uttar-pradesh-india-teaches-us-about-improving-math-learning-with-khan-academy/) [valuable](https://documents1.worldbank.org/curated/en/099548105192529324/pdf/IDU-c09f40d8-9ff8-42dc-b315-591157499be7.pdf) in low-resource schools in developing countries, a recent [Stanford review](https://scale.stanford.edu/sites/default/files/The%20Evidence%20Base%20on%20AI%20in%20K-12%20Report.pdf) of all of the available research into the use of AI in K–12 schools found that educational benefits for students generally were limited.\nOnly about one in three students is highly engaged in school, [according](https://www2.census.gov/library/publications/2026/demo/p70-212.pdf) to U.S. census data—a share that has remained stable over the past decade. These students, who also tend to come from wealthier homes with two educated parents, may well be motivated to seek extra guidance from a bot. But a motivated minority will not produce a revolution.\nEven among the driven few, only a fraction of kids use ed-tech tools such as Khanmigo enough to see any gains. Laurence Holt, the author of [The Science of Tutoring](https://scienceoftutoring.com/), [calls this the 5 percent problem](https://www.educationnext.org/5-percent-problem-online-mathematics-programs-may-benefit-most-kids-who-need-it-least/): About 5 percent of students use education technology as intended, thus reaping the learning benefits. That means that instead of democratizing access to affordable tutors, these tools could very well [widen inequality](https://ideas.repec.org/a/nas/journl/v123y2026pe2507708123.html) by supercharging students who are already motivated to get ahead.\nPersonalized 24-hour systems and adaptive algorithms held such promise, but apparently no amount of animation or gamification will convince a student to care about learning if they don’t already. Khan has lately hedged any talk of a digital transformation. “I think our biggest lever is really investing in the human systems,” he said in a Chalkbeat interview in April.\nEssentially, these ed-tech experiments have drive",
+      "title": "AI Can’t Fix the Student-Motivation Problem - The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/"
+    },
     "https://www.theatlantic.com/technology/2026/06/ai-hacking-cybersecurity-banks/687562/?taid=6a31a25e117eb200016356ac&utm_campaign=the-atlantic&utm_content=true-anthem&utm_medium=social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -17012,6 +17179,58 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "‘Pretty Crazy’ Token Usage Is Testing Bosses’ Bet on AI | WIRED",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
+    },
+    "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What began as a “flamingo revolution” to protest the $1.4 billion development on Sazan Island has spiraled into mass protests against a ruling party that thousands now want out.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "frameable": null,
+      "image_urls": [
+        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/191:100/w_1280,c_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg",
+        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/191:100/w_1280,c_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/master/w_2560%2Cc_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg",
+        "https://media.wired.com/photos/6a39b4248b39e47ac3e3bac8/master/w_1600%2Cc_limit/AP26169298172780.jpg",
+        "https://media.wired.com/photos/6a3e4a2abc6f42c7718fe7dc/master/w_1600%2Cc_limit/GettyImages-2282073564.jpg",
+        "https://media.wired.com/photos/6a3c506b0e1573fd224c1987/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2b2d394b6bc680abb42459/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2061ca0365e80b88634682/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/68fab92565a13f02607aecfa/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a15f56ec231501f9b8b750d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a175018943fb12e8727ba87/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a316750d749358b3408c71a/16:9/w_640%2Cc_limit/undefined"
+      ],
+      "kind": "article",
+      "text_excerpt": "Several weeks after Ivanka Trump unveiled a real estate venture with husband Jared Kushner for a proposed multibillion-dollar resort on Albania’s coastline, the project has become the focal point of a mass uprising in the country. Furious demonstrators have filled the capital’s streets under signs declaring: “Albania is not a Gucci bag on sale.”\nWhat began as a localized fight against what critics describe as an alleged land grab has evolved to widespread outrage over potential damage to the region’s protected coastal wildlife, culminating this week with hundreds of thousands of Albanians taking to the streets of Tirana, the capital, to demand the end of the country’s government as they know it. Protesters have sworn to keep going until their demands are met.\nObjection to the Trump-Kushner plans began at ground level on May 23, when word got out of a proposed development in the Zvërnec area—some 9 miles away from Sazan—which is affiliated with Kushner’s company Affinity Partners. The plan for Sazan Island was already public, but the Zvërnec project triggered a very different kind of reaction, due to its Vjosa–Narta ecosystem, one of Europe’s last wild coastal systems.\nNews circulated among the roughly 150 locals that a residential and tourist complex had been proposed. A fence erected around a development site became the immediate trigger for confrontation; dozens of local residents and environmental activists attempted to remove the fence, leading to a clash with private security guards. The incident, filmed and widely circulated online, became the first viral moment of the dispute as people were dragged away—bringing national attention to a project that critics say was previously discussed with limited transparency.\nProtests soon spread from the nearby city of Vlorë to Tirana. Within days, solidarity demonstrations were organized in Albanian diaspora communities in Germany, the United Kingdom, Switzerland, and Greece.\nUnlike previous protests in Albania, this one claims no central leadership structure. It is decentralized, with students, activists, urban professionals, and diaspora groups converging around a shared set of grievances. It calls itself the Flamingo Revolution, named after the bird species that inhabits the area’s Narta Lagoon. Flamingo symbols—on banners, clothing, and social media—have become shorthand for resistance against what protesters describe as the privatization of coastal land and public nature.\nProtesters are now calling for the resignation of Albania’s prime minister and the repeal of four pieces of legislation many say enable unchecked investment: the so-called “Mountain Package,” legislation for strategic investments, and amendments to the Law on Protected Areas and the Law on Cultural Heritage.\n“We are protesting the protection and preservation of the environment, which has been privatized and handed over to oligarchic interests,” activist Entenela Ndrevataj tells WIRED. “This has concentrated the country’s wealth in the hands of a small group.”\nWildlife biologist Melitjan Nezaj argues that the ecological impact on the island could be irreversible. “Three habitat types have already been affected, and further construction would transform many more,” he told WIRED. He highlighted dune systems that take centuries to form. “Any intervention disrupts ecological processes developed over millennia. Thousands of species are affected, including endangered flora and fauna. Waterbirds are especially vulnerable.”\nUrban planner Doriana Musai says the issue is not a single project but a systemic pattern. “The problem is the precedent created when protected areas are treated as negotiable territory,” she said. Similar disputes across Albania’s coastline have fueled long-standing frustration over transparency and public access.\nThe proposed development along Zvërnec’s protected area is described in planning materials as a large multifunctional tourism complex. Available documents suggest a footprint of around 43",
+      "title": "Ivanka Trump and Jared Kushner's Island Resort Could Bring Down Albania’s Prime Minister | WIRED",
+      "url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+    },
+    "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "The decision by Amazon-owned MGM Studios to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On “Uncanny Valley,” we look at where this is all headed.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "frameable": null,
+      "image_urls": [
+        "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/191:100/w_1280,c_limit/Uncanny-Valley-AI-Hollywood-Business.jpg",
+        "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/191:100/w_1280,c_limit/Uncanny-Valley-AI-Hollywood-Business.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/master/w_2560%2Cc_limit/Uncanny-Valley-AI-Hollywood-Business.jpg",
+        "https://media.wired.com/photos/6a1769e135f75a644600c4ac/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a15f08ed39cb4b06a2452cc/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a16e6a49dc3360967610ab0/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a1615f55f7c39896f97f413/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/66ea07733dd51041d9bb38c6/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a15ed31ceac52c54a0384c0/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a163654f14f8a977d008c5d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a19bb9019d7dd93413aa9d2/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a175018943fb12e8727ba87/16:9/w_640%2Cc_limit/undefined"
+      ],
+      "kind": "article",
+      "text_excerpt": "This week on Uncanny Valley, our hosts discuss Amazon’s controversial decision to drop Luca Guadagnino’s film about OpenAI’s Sam Altman—which reportedly did not paint him in a favorable light. Alongside Google DeepMind’s $75 million brand-new partnership with indie film studio A24, how much of a dent is AI actually having in the films we see? They also dive into the recent upheaval of workers—from electricians to software engineers—against data centers. Plus: Meta’s program to track employees’ data gets paused after a massive leak, and Anthropic is now getting along with the government, thanks to CEO Dario Amodei no longer being in the room.\nArticles mentioned in this episode:\n- [A24 Knows You’re Mad About the Google AI Collab](https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/)\n- [Some Electricians Think Building Data Centers Is for Sellouts](https://www.wired.com/story/data-center-buildout-electricians-selling-out/)\n- [Meta Pauses Employee-Tracking Program Following Internal Data Leak](https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/)\n- [The Trump White House Is Over Anthropic CEO Dario Amodei](https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/)\nYou can follow Brian Barrett on Bluesky at [@brbarrett](https://bsky.app/profile/brbarrett.bsky.social), Zoë Schiffer on Bluesky at [@zoeschiffer](https://bsky.app/profile/zoeschiffer.bsky.social), and Leah Feiger on Bluesky at [@leahfeiger](https://bsky.app/profile/leahfeiger.bsky.social). Write to us at [[email protected]](https://www.wired.com/cdn-cgi/l/email-protection#a5d0cbc6c4cbcbdcd3c4c9c9c0dce5d2ccd7c0c18bc6cac8).\nHow to Listen\nYou can always listen to this week's podcast through the audio player on this page, but if you want to subscribe for free to get every episode, here's how:\nIf you're on an iPhone or iPad, open the app called Podcasts, or just tap [this link](https://podcasts.apple.com/us/podcast/uncanny-valley-wired/id266391367). You can also download an app like Overcast or Pocket Casts and search for “Uncanny Valley.” We’re on [Spotify](https://open.spotify.com/show/11hUjoJv4FxFnw9r0mHIsC) too.\nTranscript\nNote: This is an automated transcript, which may contain errors.\nBrian Barrett: Hey, this is Brian. Before we start, two quick things. If you've been enjoying listening to the show, we would appreciate it if you took a second to rate it in your podcast app of choice. It really helps us reach more people. And second, if you have any questions related to tech, privacy, or politics that you would like me, Zoë, and Leah to take on, now is the time to submit them to [[email protected]](https://www.wired.com/cdn-cgi/l/email-protection#50253e33313e3e2926313c3c35291027392235347e333f3d). It doesn't matter how big or how small, we want to hear from you and get you answers. OK, on to the show.\nZoë Schiffer: Welcome to WIRED's Uncanny Valley. I'm Zoë Schiffer, director of business and industry.\nBrian Barrett: I'm Brian Barrett, executive editor.\nLeah Feiger: And I'm Leah Feiger, director of politics and science.\nZoë Schiffer: Today on the show: [AI](https://www.wired.com/tag/artificial-intelligence/) and [Hollywood](https://www.wired.com/tag/hollywood/). We're discussing [Amazon's](https://www.wired.com/tag/amazon/) MGM Studios’ sudden decision to drop the [OpenAI](https://www.wired.com/tag/openai/) biographical movie just as they were wrapping up production. At the same time, [Google's DeepMind is investing $75 million to develop AI tools with the film studio A24](https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/). The AI and film industries are becoming increasingly intertwined, and we're ready to take a look at where this is all headed.\nLeah Feiger: We'll also dive into some recent controversies regarding data centers. As national and local backlash against [data center](https://www.wired.com/tag/data-centers/) construction increases, [some",
+      "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     },
     "https://www.youtube.com/watch?v=CwePo4847ho": {
       "content_type": "text/html; charset=utf-8",
@@ -22345,10 +22564,7 @@
       "http://x.com/i/article/2069467654612455425",
       "https://x.com/ataiiam/status/2069835612551524582",
       "https://x.com/ataiiam/status/2069835656977657993",
-      "https://x.com/ataiiam/status/2069835886972252463",
-      "https://x.com/ataiiam/status/2070269772126937456",
-      "https://go.copilotkit.ai/beyond-the-web-form",
-      "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
+      "https://x.com/ataiiam/status/2069835886972252463"
     ],
     "2069797770257670217": [
       "https://x.com/zerolangai/status/2069797770257670217",
@@ -22512,23 +22728,34 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2070155053965480432": [
+      "https://x.com/Majumdar_Ani/status/2070155053965480432",
+      "http://x.com/i/article/2070117036605222912"
+    ],
     "2070156017262793008": [
       "https://x.com/AnatoliKopadze/status/2070156017262793008",
       "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg",
       "https://x.com/AnatoliKopadze/status/2070173084431045068",
-      "https://x.com/AnatoliKopadze/status/2070156820211986516",
       "https://x.com/AnatoliKopadze/status/2070156907625476441",
+      "https://x.com/AnatoliKopadze/status/2070156820211986516",
       "https://x.com/AnatoliKopadze/status/2070165742117404976"
     ],
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
       "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
-      "https://x.com/axios/status/2070359258713948201",
-      "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6"
+      "https://x.com/axios/status/2070474314332151913",
+      "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty"
     ],
     "2070171729373118742": [
       "https://x.com/Zephyr_hg/status/2070171729373118742",
-      "http://x.com/i/article/2070083414510702592"
+      "http://x.com/i/article/2070083414510702592",
+      "https://x.com/Zephyr_hg/status/2070293462189265351",
+      "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
+    ],
+    "2070178726361678041": [
+      "https://x.com/ItsRoboki/status/2070178726361678041",
+      "http://x.com/i/article/2069769856212410368",
+      "https://x.com/ItsRoboki/status/2070261345837367720"
     ],
     "2070180324651528434": [
       "https://x.com/OpenAINewsroom/status/2070180324651528434",
@@ -22541,9 +22768,13 @@
       "https://x.com/SidebarIO/status/2070185508949414348",
       "https://jakub.kr/writing/less-is-more?ref=sidebar",
       "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg",
-      "https://x.com/SidebarIO/status/2069823127798825427",
-      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+    ],
+    "2070186969242464412": [
+      "https://x.com/bhumikatharoor/status/2070186969242464412",
+      "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/"
     ],
     "2070187537369583778": [
       "https://x.com/v0/status/2070187537369583778",
@@ -22565,6 +22796,9 @@
       "https://x.com/itsalexvacca/status/2070189941209075906",
       "http://x.com/i/article/2069741413164568576"
     ],
+    "2070190799636291740": [
+      "https://x.com/gabepereyra/status/2070190799636291740"
+    ],
     "2070194762007576934": [
       "https://x.com/PawelHuryn/status/2070194762007576934",
       "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg",
@@ -22575,9 +22809,9 @@
       "https://x.com/SidebarIO/status/2070195075485749253",
       "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar",
       "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg",
-      "https://x.com/SidebarIO/status/2069823127798825427",
-      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070218465491972248": [
       "https://x.com/ProfBuehlerMIT/status/2070218465491972248",
@@ -22586,6 +22820,12 @@
       "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login",
       "https://x.com/ProfBuehlerMIT/status/2070438657236860979",
       "https://x.com/ProfBuehlerMIT/status/2070337033298391453"
+    ],
+    "2070222427670618460": [
+      "https://x.com/0xfishylosopher/status/2070222427670618460",
+      "http://x.com/i/article/2070201957441220608",
+      "https://x.com/0xfishylosopher/status/2070262651180240984",
+      "https://x.com/0xfishylosopher/status/2070207447097311405"
     ],
     "2070224920458793161": [
       "https://x.com/h100envy/status/2070224920458793161",
@@ -22599,9 +22839,9 @@
       "https://x.com/hyojun_at/status/2070234507995910413",
       "http://x.com/i/article/2070229603483045888",
       "https://x.com/hyojun_at/status/2070266285137748379",
+      "https://x.com/hyojun_at/status/2070239188583383392",
       "https://x.com/hyojun_at/status/2070307533307486710",
-      "https://x.com/hyojun_at/status/2070374132097896609",
-      "https://x.com/hyojun_at/status/2070239188583383392"
+      "https://x.com/hyojun_at/status/2070374132097896609"
     ],
     "2070234879888138539": [
       "https://x.com/Letta_AI/status/2070234879888138539",
@@ -22628,11 +22868,59 @@
       "https://x.com/restofworld/status/2070297241252675601",
       "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social"
     ],
+    "2070270747759554902": [
+      "https://x.com/iamgrigorev/status/2070270747759554902",
+      "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
+    ],
+    "2070285728869646560": [
+      "https://x.com/WIRED/status/2070285728869646560",
+      "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "https://x.com/WIRED/status/2070463275087659327",
+      "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+    ],
+    "2070329274024784077": [
+      "https://x.com/MindBranches/status/2070329274024784077",
+      "https://pbs.twimg.com/media/HLtJgFeXsAAn4oa.jpg",
+      "https://x.com/MindBranches/status/2070486627764367649",
+      "https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg",
+      "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg",
+      "https://x.com/MindBranches/status/2070485965093715969"
+    ],
+    "2070358681569652865": [
+      "https://x.com/Gorden_Sun/status/2070358681569652865",
+      "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A",
+      "https://x.com/Gorden_Sun/status/2070454392344715312",
+      "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
+    ],
+    "2070387873023451275": [
+      "https://x.com/iandenisjohnson/status/2070387873023451275",
+      "https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8"
+    ],
+    "2070391640926072883": [
+      "https://x.com/TheEconomist/status/2070391640926072883",
+      "https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3e1a171e0c3000014e2add&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
       "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg"
+    ],
+    "2070450974708093229": [
+      "https://x.com/0xMortyx/status/2070450974708093229",
+      "http://x.com/i/article/2070441264122626049",
+      "https://x.com/0xMortyx/status/2070455812154179916",
+      "https://x.com/0xMortyx/status/2070461392876908667",
+      "https://x.com/0xMortyx/status/2070453134409769159",
+      "https://x.com/0xMortyx/status/2070453250164158754",
+      "https://x.com/0xMortyx/status/2070452904868069854"
+    ],
+    "2070467106412626035": [
+      "https://x.com/bibryam/status/2070467106412626035",
+      "https://www.seangoedecke.com/how-i-use-llms-in-2026"
+    ],
+    "2070478965815337436": [
+      "https://x.com/alexolegimas/status/2070478965815337436"
     ]
   },
-  "updated_at": "2026-06-26T10:28:53Z",
+  "updated_at": "2026-06-26T13:20:22Z",
   "window": "recent"
 }
