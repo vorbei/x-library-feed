@@ -371,6 +371,31 @@
       "title": "eve – The Agent Framework - Vercel",
       "url": "http://eve.dev"
     },
+    "http://github.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+      "final_url": "https://github.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://images.ctfassets.net/8aevphvgewt8/4pe4eOtUJ0ARpZRE4fNekf/f52b1f9c52f059a33170229883731ed0/GH-Homepage-Universe-img.png",
+        "https://github.githubassets.com/assets/particles-170bd1fd231f4669.png",
+        "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+        "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+        "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/5mzhSO4avmXBwkFsMzgXkW/91991e6258f14f54d23840b6c13c3013/hero-64ecd484397f.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/6WnLu9nlnemjCltZkd8lCi/b18034be25552e118a36f6617e1f84df/pillar-1-dd667a921f55.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/1o2Eid4RQteCr6iZ7wVauW/3c04a760442c81036d98e70c0c986a8b/pillar-2-ff69e872920a.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/3WaMDk5JuZzhaKfpRgibKz/c179c5841373ec1fd37c839bdb24a7b4/pillar-3-0a063e2daae2.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+      "url": "http://github.com/"
+    },
     "http://github.com/bluewave-labs/checkmate": {
       "content_type": "text/html; charset=utf-8",
       "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) - bluewave-labs/Checkmate",
@@ -1006,22 +1031,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058192123556405248"
-    },
-    "http://x.com/i/article/2059344894221799424": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059344894221799424",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059344894221799424/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJROVjqb0AAb6pg?format=jpg&name=900x900)](http://x.com/i/article/2059344894221799424/LifeOfShandi/article/2059357818709524740/media/2059357061872603136)\n\nthings you probably don’t know that exist in codex\n\n[![](https://pbs.twimg.com/profile_images/1900432746872504320/CJggzqKc_normal.jpg)](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n[Harsh Shandilya![](https://pbs.twimg.com/profile_images/1972527123316502528/554yyuMS_bigger.jpg)](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n[@LifeOfShandi](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n·\n\n18h\n\nFollow\n\nClick to Follow LifeOfShandi\n\n3\n\n4\n\n48\n\n[21K](http://x.com/i/article/2059344894221799424/LifeOfShandi/status/2059357818709524740/analytics)\n\nyou are not codexmaxxing enough and this is gonna be a long one so sit tight. \n  \n  \nbefore i get into the weeds of codexmaxxing, i need a mindset shift from you so just repeat this in your brain a few times\n\n\"i don't know if codex will be able to do it, let me try it\"\n\nthis is important and i'll tell you why it is. past few weeks, i've been trying to improve my workflows around coding and building things and almost always the bottleneck is my mindset\n\n  \nI JUST NEED TO BE ABLE TO GIVE CODEX HARDER TASKS AND TRUST THAT IT WILL GET IT DONE.\n\n  \nthis has been my number 1 realisation over the past 2 weeks. has prolly helped me more than anything else you will read below. \n\nnow let's jump right to it: \n\nwe will start with an easy one but stay till the end, it keeps getting better. the last one is my favorite(no this isn't to make you read till the end, it actually is)\n\n## \n\n/goal\n\nbefore you hit that back button, stay w me. \n\neveryone already knows /goal is incredible but here are some pitfalls you must avoid: \n\n* giving it permission to do everything. this wasn't me. this was codex trying to rank me 1 for SEO and it assumed that it had the permissions to push code through to main. my bad to assume that it would know better and not explicitly saying you can only create PRs.\n\n[![Image](https://pbs.twimg.com/media/HJRGf2YbEAAx-fT?format=png&name=small)](http://x.com/i/article/2059344894221799424/LifeOfShandi/article/2059357818709524740/media/2059348442602999808)\n\n  \n* not making the progress verifiable. if there is an mcp that could track the progress, add it. if there is an api you could call, mention it. give it everything to make the progress verifiable. you should see progress in the metrics, then and only then is it gonna create anything valuable.\n* not defining what's done. \"improve this website\" okay. improve it to what? there should be an end goal or it could run around in circles burning through tokens far exceeding what you thought of. a useful definition of done could be a test suite passing or reaching a benchmark or anything that can be quantified really.\n\n  \nyou can also pause a goal, edit it at any time btw. \n\n## \n\nthere are 3 different browsers in codex\n\nno way right? \n\n* [$browser](https://developers.openai.com/codex/app/browser)  \n : for the in-app browser in the side panel, where Codex can inspect and annotate web surfaces\n* [@chrome](https://developers.openai.com/codex/app/chrome-extension)  \n : for signed-in browser state and Chrome-based workflows\n* [@computer](https://developers.openai.com/codex/app/computer-use)  \n : for work that only exists through a desktop GUI\n\nthank you \n\n[@jxnlco](https://x.com/@jxnlco)\n\n for this. \n\nthe default is \n\n[$browser](https://x.com/search?q=%24browser&src=cashtag%5Fclick)\n\n, that's the side panel window that's already in codex. you can use chrome for signed in browser work but also not many people know this that you can provide credentials in an env file in .codex that could do the thing just well and faster.\n\n  \n## \n\nsteering and /side\n\n  \nyou can queue messages, that's o",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059344894221799424/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJROVjqb0AAb6pg?format=jpg&name=900x900)](http://x.com/i/article/2059344894221799424/LifeOfShandi/article/2059357818709524740/media/2059357061872603136)\n\n你可能不知道的 Codex 中存在的东西\n\n[![](https://pbs.twimg.com/profile_images/1900432746872504320/CJggzqKc_normal.jpg)](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n[Harsh Shandilya![](https://pbs.twimg.com/profile_images/1972527123316502528/554yyuMS_bigger.jpg)](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n[@LifeOfShandi](http://x.com/i/article/2059344894221799424/LifeOfShandi)\n\n·\n\n18小时前\n\n关注\n\n点击关注 @LifeOfShandi\n\n3\n\n4\n\n48\n\n[21K](http://x.com/i/article/2059344894221799424/LifeOfShandi/status/2059357818709524740/analytics)\n\n你的 Codex 使用还不够极致，这篇内容会很长，请坐稳。\n\n在深入 Codex 极致使用之前，我需要你调整一下心态，在脑子里多重复几遍这句话：\n\n\"我不知道 Codex 能不能做到，让我试试看\"\n\n这很重要，我来告诉你为什么。过去几周，我一直在尝试改进编码和构建工作流，而瓶颈几乎总是我的心态。\n\n我只需要能够给 Codex 更困难的任务，并相信它能完成。\n\n这是我过去两周最大的领悟。可能比下面你读到的任何内容都更有帮助。\n\n现在直接进入正题：\n\n我们从简单的开始，但请坚持看到最后，内容会越来越精彩。最后一个是我最喜欢的（这不是为了让你读到最后才这么说，它确实是）。\n\n## \n\n/goal\n\n在你按返回键之前，先听我说。\n\n大家都知道 /goal 很厉害，但这里有一些你必须避免的陷阱：\n\n* 给它做所有事情的权限。这不是 Codex 的问题，而是 Codex 试图让我在 SEO 中排第一，它假设自己有权限将代码推送到主分支。是我不好，以为它会知道得更清楚，没有明确说明它只能创建 PR。\n\n[![图片](https://pbs.twimg.com/media/HJRGf2YbEAAx-fT?format=png&name=small)](http://x.com/i/article/2059344894221799424/LifeOfShandi/article/2059357818709524740/media/2059348442602999808)\n\n* 没有让进度可验证。如果有 MCP 可以跟踪进度，就加上它。如果有可以调用的 API，就提出来。给它一切让进度可验证的手段。你应该在指标中看到进展，只有这样它才能创造出有价值的东西。\n* 没有定义\"完成\"的标准。\"改进这个网站\"——好的，改进到什么程度？应该有一个最终目标，否则它可能会原地打转，消耗远超你预期的 token。一个有用的\"完成\"定义可以是测试套件通过、达到某个基准，或者任何可以量化的指标。\n\n顺便说一句，你随时可以暂停目标并编辑它。\n\n## \n\nCodex 中有 3 种不同的浏览器\n\n不可能吧？\n\n* [$browser](https://developers.openai.com/codex/app/browser)：用于侧面板中的应用内浏览器，Codex 可以检查和注释网页界面\n* [@chrome](https://developers.openai.com/codex/app/chrome-extension)：用于已登录的浏览器状态和基于 Chrome 的工作流\n* [@computer](https://developers.openai.com/codex/app/computer-use)：用于仅通过桌面 GUI 存在的工作\n\n感谢 [@jxnlco](https://x.com/@jxnlco) 提供这个信息。\n\n默认是 [$browser](https://x.com/search?q=%24browser&src=cashtag%5Fclick)，也就是 Codex 中已有的侧面板窗口。你可以使用 Chrome 进行已登录的浏览器工作，但很多人不知道的是，你可以在 .codex 的 env 文件中提供凭据，这样也能很好地完成工作，而且速度更快。\n\n## \n\n引导和 /side\n\n你可以排队发送消息，这很",
-      "text_excerpt_zh_hash": "7f4bc4a7c81ff0b1",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059344894221799424"
     },
     "http://x.com/i/article/2059414664618954754": {
       "cleaner_v": 2,
@@ -6406,6 +6415,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070229603483045888"
     },
+    "http://x.com/i/article/2070417295810166784": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070417295810166784",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLugm-bX0AENCWc?format=jpg&name=900x900)](http://x.com/ericzakariasson/article/2070493377267646797/media/2070425045160153089)\n\nHuman in the /loop\n\n[![](https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_normal.jpg)](http://x.com/ericzakariasson)\n\n[eric zakariasson![](https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_bigger.jpg)](http://x.com/ericzakariasson)\n\n[@ericzakariasson](http://x.com/ericzakariasson)\n\n·\n\n3h\n\nFollow\n\nClick to Follow ericzakariasson\n\n13\n\n23\n\n416\n\n[24K](http://x.com/ericzakariasson/status/2070493377267646797/analytics)\n\nWhat I like most about coding with agents right now is the room to leave a few runs going and still get on with other work. When something finishes or needs a call, I show up. \n\nThis post is a short explainer of the setup I use, a definition of done the agent can score, a loop that keeps going until it should stop, pings so I know when to lean in.\n\n[![Image](https://pbs.twimg.com/media/HLuaKQ7WkAA6wQc?format=jpg&name=small)](http://x.com/ericzakariasson/article/2070493377267646797/media/2070417954840154112)\n\n## \n\nFind something the agent can verify\n\nBefore kicking off a longer running task, I lock a definition of done. Examples I actually use:\n\n* Model or eval work. Target is a score. Change the approach, run the eval, keep the change only if the number moved the right way. Closest to  \n[Karpathy's autoresearch](https://github.com/karpathy/autoresearch)  \n for ML training loops.\n* Web app or UI. Target is a QA pass. Load the page or run Playwright, screenshot it, make sure it still does the thing.\n* Backend or refactor. Target is the test suite. Failing tests first, then green, and it has to stay green.\n* Speed or flakiness. Target is a number (p95, a benchmark). Change and measure until you're under the line you set.\n* Data or content cleanup. Target is a count. Loop until zero rows fail validation, or every item passes the check.\n\nWriting the loop is mostly writing how you'd check the work yourself. Some tasks need every step on the page. Others I give a goal and a rough direction and let the model fill in the middle. I start more explicit than I think I need, then loosen it once I see what it can infer.\n\n## \n\nWrap it in a loop\n\nDefinition of done in hand, I tell the agent to loop on it. Change something, measure, keep or revert, go again. Doesn't have to be one tiny edit each time. The step just has to be measurable against the target. I care most about the stop conditions, which might be\n\n* Metric hits the target\n* No improvement after a few tries\n* Out of ideas\n* Blocked or unsure (stop and ask)\n\n[![Image](https://pbs.twimg.com/media/HLuaSKLXsAAhM79?format=jpg&name=small)](http://x.com/ericzakariasson/article/2070493377267646797/media/2070418090467241984)\n\n## \n\nGet pinged instead of babysitting\n\nSo the agent gets a notify path (MCP plus /notify) and reaches me there. Usually Slack, because that's where everything else already is. Same setup could be iMessage or whatever. I treat it as a generic notification channel, not full Slack access for the agent. Status updates and \"I need a decision\" show up like normal messages. When I answer, that reply is the next thing the loop runs on.\n\n[![Image](https://pbs.twimg.com/media/HLuaifqX0AAClYQ?format=jpg&name=small)](http://x.com/ericzakariasson/article/2070493377267646797/media/2070418371112325120)\n\n## \n\nRun it in the cloud\n\nMost of this doesn't stay on my laptop. It runs in the cloud so a loop can keep going for hours without my machine being open. I use my own client as the orchestrator and fan work out to cloud agents from there.\n\n[![Image](https://pbs.twimg.com/media/HLubcL5W8AARmOW?format=jpg&name=small)](http://x.com/ericzakariasson/article/2070493377267646797/media/2070419362238885888)\n\n## \n\nThen start the next one\n\nOnce a loop is running, I start anoth",
+      "title": "",
+      "url": "http://x.com/i/article/2070417295810166784"
+    },
     "http://x.com/i/article/2070441264122626049": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6421,6 +6443,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2070441264122626049"
+    },
+    "http://zaro.ai": {
+      "content_type": "text/html",
+      "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
+      "final_url": "https://zaro.ai:443/",
+      "frameable": null,
+      "image_urls": [
+        "https://zaro.ai/og-image.png?v=mqu8disd",
+        "https://zaro.ai:443/hero-orbit/cards/sales-6271-145556.svg",
+        "https://zaro.ai:443/hero-orbit/cards/personal-pixel.svg",
+        "https://zaro.ai:443/hero-orbit/cards/marketing-6271-146021.svg",
+        "https://zaro.ai:443/hero-orbit/cards/product-6271-146481.svg",
+        "https://zaro.ai:443/hero-orbit/cards/operations-6271-146712.svg",
+        "https://zaro.ai:443/hero-orbit/cards/design-6271-146943.svg",
+        "https://zaro.ai:443/hero-orbit/cards/hr-legal-6271-147174.svg",
+        "https://zaro.ai:443/hero-orbit/cards/finance-6271-151327.svg",
+        "https://zaro.ai:443/logos/salesforce.svg?v=mqu8disd",
+        "https://zaro.ai:443/logos/salesforce-dark.svg?v=mqu8disd",
+        "https://zaro.ai:443/v4/apps/previews/smart-calendar.webp?v=mqu8disd"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Zaro - Build intelligence for your company. Not your vendor. Zaro - Build intelligence for your company. Not your vendor.",
+      "url": "http://zaro.ai"
     },
     "http://zehfernandes.com/posts/how-i-turned-world-cup-data-into-posters": {
       "cleaner_v": 2,
@@ -7358,30 +7405,6 @@
       "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
       "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more"
     },
-    "https://claude.com/blog/the-founders-playbook": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "We share how AI-native founders are using Claude at every stage of the startup journey, with practical exercises, frameworks, and prompts.",
-      "final_url": "https://claude.com/blog/the-founders-playbook",
-      "frameable": false,
-      "image_urls": [
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a05fd71dd4c122271bc7916_og_the-founders-playbook%20(2).jpg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg",
-        "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg",
-        "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Blog Blog / The founder's playbook: Building an AI-native startup Explore here Ask questions about this page Copy as markdown The founder's playbook: Building an AI-native startup We share how founders are using AI at every stage of the startup journey, with practical exercises, frameworks, and prompts for using Claude. Category Claude Code Product Claude Cowork Claude Platform Claude Code Claude apps Date May 14, 2026 Reading time 5 min Share Copy link https://claude.com/blog/the-founders-playbook AI is reshaping how startups are being built. Founders who've never written a line of code before are shipping production applications, reaching revenue before scaling headcount, and building tools to automate their most tedious workflows. The founder's role is shifting from individual contributor to orchestrator, allowing them to focus on the work only they can do. We put together a practical playbook for building an AI-native startup. It remaps the four core stages of the startup lifecycle—Idea, MVP, Launch, and Scale—for what's possible in 2026, with the goals, exit criteria, common failure modes, and AI-powered exercises that work at each one. In this playbook, we share: How to validate a problem hypothesis, map a competitive landscape, and run customer discovery with AI Architecture, scope, and security practices that keep AI-generated MVP codebases from accruing technical debt A measurement framework for distinguishing genuine product-market fit from early hype A Launch-stage operating system that replaces founder attention with agentic workflows A product matrix for when and how to use Chat, Claude Cowork, and Claude Code across each stage of the startup journey Founder stories from Ambral, Anything, Carta Healthcare, HumanLayer, Vulcan Technologies, and more These best practices were written for founders deciding how to architect their company around AI from day one and for the early operators helping them get there. Check it out, here . Get started with Claude today. ‍ No items found. Prev Prev 0 / 5 Next Next eBook FAQ No items found. Related posts Explore more product news and best practices for teams building with Claude. May 20, 2026 Using Claude Code: The unreasonable effectiveness of HTML Claude Code Using Claude Code",
-      "text_excerpt_zh": "# 创始人手册：打造AI原生初创企业\n\n我们分享创始人如何在创业旅程的每个阶段使用AI，并提供使用Claude的实用练习、框架和提示词。\n\n**类别** Claude Code | **产品** Claude Cowork | **平台** Claude | **Claude应用** | **日期** 2026年5月14日 | **阅读时间** 5分钟\n\nAI正在重塑初创企业的构建方式。从未写过一行代码的创始人正在交付生产级应用，在扩大团队规模之前就实现营收，并构建工具来自动化最繁琐的工作流程。创始人的角色正从独立贡献者转变为协调者，使他们能够专注于只有自己能完成的工作。\n\n我们整理了一份构建AI原生初创企业的实用手册。该手册将创业生命周期的四个核心阶段——创意、MVP、发布和规模化——重新映射到2026年的可能性上，包含每个阶段的目标、退出标准、常见失败模式以及AI驱动的练习。\n\n在这本手册中，我们将分享：\n- 如何验证问题假设、绘制竞争格局、利用AI进行客户探索\n- 保持AI生成的MVP代码库不积累技术债务的架构、范围和安全实践\n- 区分真正的产品-市场契合度与早期热度的衡量框架\n- 用代理工作流替代创始人注意力的发布阶段操作系统\n- 在创业旅程各阶段使用Chat、Claude Cowork和Claude Code的产品矩阵\n- 来自Ambral、Anything、Carta Healthcare、HumanLayer、Vulcan Technologies等公司的创始人故事\n\n这些最佳实践是为那些决定从第一天起就围绕AI构建公司的创始人，以及帮助他们实现目标的早期运营者而编写的。\n\n[点击这里查看](https://claude.com/blog/the-founders-playbook)\n\n## 立即开始使用Claude\n\n---\n\n## 相关文章\n探索更多产品新闻和团队使用Claude的最佳实践。\n\n**2026年5月20日** | 使用Claude Code：HTML的惊人效果 | Claude Code",
-      "text_excerpt_zh_hash": "574aa83d08afec1b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The founder's playbook: Building an AI-native startup | Claude",
-      "url": "https://claude.com/blog/the-founders-playbook"
-    },
     "https://claude.com/blog/using-llms-to-secure-source-code": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7991,6 +8014,22 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://ft.trib.al/s1xKc6c"
+    },
+    "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "It's kind of wild that we're still organising knowledge like it's sitting in a 1970s filing cabinet. People and AI don't think in folders. They find information through search, context and connections.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://gerireid.com/images/open-graph.png",
+        "https://gerireid.com/images/geri-illustration.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Your documentation is still in your Mum’s filing cabinet\nIt’s kind of wild when you stop and think about it.\nMost documentation is arranged into files, folders and hierarchies. A document goes inside a folder inside another folder and on the surface it’s well tidy. The trouble is that knowledge rarely behaves that way.\nA component accessibility decision can affect design, engineering, content and customer support. So where do you put the documentation for it? The more complex the subject, the more awkward that choice becomes.\nThe modern [desktop](https://en.wikipedia.org/wiki/Desktop_metaphor) was developed at Xerox PARC in the 1970s. Early graphical user interfaces borrowed heavily from physical office concepts like documents, folders and filing systems because they were familiar to office workers.\nFifty years later, we’re still using the same mental model. But how many people under 30 have even used a physical filing cabinet?\nThe filing cabinet we inherited\nWe rarely stop to consider how much of our digital world is built on this old office metaphor.\nI once worked with a guy who saved all his files directly on his Mac desktop. He navigated spatially, placing documents into different zones on the screen and developing a muscle memory for where they were located. I’m not sure he even realised they were saved within a directory structure underneath the desktop folder.\nI grew up with the idea of documents inside folders, and as a UX designer, I just expanded on it to create the information architectures of websites.\nBut imagine if we hadn’t been primed with this tree structure? Maybe more creative and spatial interfaces would have emerged instead.\nPeople don’t browse documentation like librarians\nThere’s a theory called [Information Foraging](https://www.nngroup.com/articles/information-foraging/), which suggests that people follow clues rather than systematically exploring hierarchies.\nPeter Pirolli and Stuart Card describe people as information foragers. This is such a rad term for people looking for stuff on the web. Like a badger foraging for small invertebrates, we humans look for signs that useful information might be nearby and constantly decide whether to continue the search.\nThis may help explain why documentation users often:\n- search before browsing\n- stop after exploring a few levels\n- ask a colleague instead\n- create duplicate documents\nThe information often exists, but people don’t instinctively find where it has been stored. It made sense to the person setting up the filing cabinet, but because it’s several drawers down, nestled in with the winter jumpers and hiking socks, it was never to be found. We are all familiar with that team’s Confluence wiki.\nKnowledge doesn’t fit into one folder\nCircling back to design systems, a component accessibility decision might go in any drawer of the cabinet:\n- design\n- engineering\n- content\n- accessibility\n- customer support\nBut our folder structure forces us to pick one location. The moment we do that, every other route becomes harder.\nResearchers have been discussing this limitation for decades. Work on Semantic File Systems in the early 1990s argued that information should be retrievable through attributes and meaning rather than physical location. People usually think about information in terms of topics and tasks, while traditional file systems organise information by location.\nAI exposes the problem\nCompare this to how AI navigates. Most modern AI retrieval systems don’t rely primarily on folder structures in the way traditional document repositories do.\nA design token page can be retrieved because it mentions colour contrast, not because it lives inside:\nDesign System → Foundations → Accessibility → Colour\nThe more I work with AI systems, the more obvious it becomes that folders are a storage mechanism, not a knowledge architecture. AI is exposing a problem that humans have been working around for years.\nFrom storage architecture to knowledge architecture\nWe live in a wor",
+      "title": "Your documentation is still in your Mum's filing cabinet",
+      "url": "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar"
     },
     "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f": {
       "content_type": "text/html; charset=utf-8",
@@ -8613,6 +8652,20 @@
       "text_excerpt_zh": "",
       "title": "GitHub - secretbuilds/loopy: meta-agent for claude code to automatically loop engineer your workflow · GitHub",
       "url": "https://github.com/secretbuilds/loopy"
+    },
+    "https://github.com/seflless/tries-starter": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Contribute to seflless/tries-starter development by creating an account on GitHub.",
+      "final_url": "https://github.com/seflless/tries-starter",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/94ab43ff947465d8fc606be1ab6776f0082832e79f296683153414b48fe600c6/seflless/tries-starter"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "GitHub - seflless/tries-starter · GitHub",
+      "url": "https://github.com/seflless/tries-starter"
     },
     "https://github.com/shanraisshan/claude-code-best-practice": {
       "content_type": "text/html; charset=utf-8",
@@ -9723,20 +9776,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843118"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg": {
       "cleaner_v": 2,
@@ -10927,6 +10966,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -14218,6 +14285,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg"
     },
+    "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
+    },
     "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14273,6 +14354,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg"
+    },
+    "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15854,25 +15949,6 @@
       "title": "Skills Newsletter",
       "url": "https://www.aihero.dev/s/cGicnb"
     },
-    "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Throughout history, scientific progress has been defined by the tools we build to extend our perception. Today, artificial intelligence stands as our newest instrument, not merely as a computational engine but as a revolutionary lens for deciphering the nature of reality. Drawing on my research journey at Google DeepMind, this essay explores how scientists are deploying AI to overcome the hardest “root node” bottlenecks in science. By applying machine intuition, we are uncovering breakthroughs across biology, materials science, and mathematics, from solving the grand challenge of protein folding with AlphaFold to charting new universes of stable materials with GNoME. The essay concludes by reflecting on the transition toward open-ended, agentic AI systems that actively generate novel hypotheses and their implications for the nature of scientific inquiry. We are evolving from the solvers of intricate puzzles into the architects of profound questions, embarking on the most exciting journey of discovery ever undertaken.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed",
-      "frameable": false,
-      "image_urls": [
-        "https://www.amacad.org/sites/default/files/styles/daedalus_cover_small_2x/public/daedalus/covers/Daedalus_Wi-Sp26_Cover.png.webp?itok=3a5DHm9h",
-        "https://px.ads.linkedin.com/collect/?pid=8787722&fmt=gif"
-      ],
-      "kind": "article",
-      "text_excerpt": "Unlocking Scientific Intuition & Reasoning at Digital Speed\n[View PDF](https://www.amacad.org/sites/default/files/publication/downloads/daedalus_wi-sp26_05_kohli.pdf)\nThroughout history, scientific progress has been defined by the tools we build to extend our perception. Today, artificial intelligence stands as our newest instrument, not merely as a computational engine but as a revolutionary lens for deciphering the nature of reality. Drawing on my research journey at Google DeepMind, this essay explores how scientists are deploying AI to overcome the hardest “root node” bottlenecks in science. By applying machine intuition, we are uncovering breakthroughs across biology, materials science, and mathematics, from solving the grand challenge of protein folding with AlphaFold to charting new universes of stable materials with GNoME. The essay concludes by reflecting on the transition toward open-ended, agentic AI systems that actively generate novel hypotheses and their implications for the nature of scientific inquiry. We are evolving from the solvers of intricate puzzles into the architects of profound questions, embarking on the most exciting journey of discovery ever undertaken.\nHumanity has come far. In a blink of planetary time, we have filled libraries, split atoms, built computing machines, and mapped genomes. On the scaffold of hard-won scientific insight we have constructed a thriving, global civilization. The mechanism that made all this progress possible—the human brain, with its astonishing abilities of perception, intuition, and reasoning—has enabled us to understand many of the processes and laws of our universe and use them to transform the world we live in.\nDespite these advances, the challenges facing humanity today—climate change, pandemics, the need for sustainable energy—show that we need a deeper understanding of the world than we have ever had. The quest to understand the nature of reality is challenging the limits of our intuition and our reasoning abilities.\nThroughout history, our tools have helped us transform civilization by extending what we could perceive, understand, and control. The telescope revealed the vastness of the cosmos; the microscope, the hidden architectures of life. The computer, the bedrock of modern society, made it possible to calculate, simulate, and accumulate a universe of scientific data whose vastness and subtlety can be overwhelming.\nArtificial intelligence is the latest instrument in this lineage: a new lens on our perception of reality itself; a telescope that not only is powerful enough to scan the vastness of the data-universe but can focus on what matters within that universe, delivering new levels of understanding and transforming research in areas like biology, materials science, and mathematics.\nAI naturally dovetails with science because many of the hardest scientific problems are, at their core, search and reasoning problems. When we engage in scientific inquiry, we observe the world and generate and test hypotheses, refining or discarding them based on how well they explain what we see. But as the volume and complexity of scientific data have increased, this process has hit two roadblocks: 1) the scale of what we are trying to understand and 2) the speed at which we can test our ideas. AI overcomes these barriers because it not only can process an extraordinary volume of observations about the world but can propose and evaluate novel hypotheses at digital speeds.\nWhere traditional methods of inquiry relied on human ingenuity, often guided by sparse data, AI can now detect structure in overwhelming abundance. What emerges is something akin to machine intuition: a powerful, learned strategy for navigating immense complexity.\nBecause it is domain agnostic, AI also bridges disciplines. Unlike human experts, whose training is often deep but narrow, AI systems can ingest and integrate information across fields. Polymaths are rare; experts in both genomics and high-energy",
-      "text_excerpt_zh": "# 以数字速度解锁科学直觉与推理\n\n[查看PDF](https://www.amacad.org/sites/default/files/publication/downloads/daedalus_wi-sp26_05_kohli.pdf)\n\n纵观历史，科学进步一直由我们为扩展感知而构建的工具所定义。今天，人工智能作为我们最新的工具登场——它不仅是计算引擎，更是破译现实本质的革命性透镜。基于我在Google DeepMind的研究历程，本文探讨了科学家如何利用AI攻克科学中最棘手的\"根节点\"瓶颈。通过应用机器直觉，我们正在生物学、材料科学和数学领域取得突破——从利用AlphaFold解决蛋白质折叠的重大挑战，到借助GNoME绘制稳定材料的新宇宙。文章最后反思了向开放式、自主性AI系统的转变，这些系统能够主动生成新颖假设，并探讨了它们对科学研究本质的影响。我们正从复杂难题的解决者演变为深刻问题的构建者，踏上人类有史以来最激动人心的发现之旅。\n\n人类已经走了很远。在地球时间的一瞬中，我们填满了图书馆、分裂了原子、建造了计算机、绘制了基因组。在来之不易的科学洞察的支架上，我们构建了一个繁荣的全球文明。使这一切进步成为可能的机制——人类大脑及其惊人的感知、直觉和推理能力——使我们能够理解宇宙的许多过程和规律，并利用它们改变我们生活的世界。\n\n尽管取得了这些进步，当今人类面临的挑战——气候变化、流行病、对可持续能源的需求——表明我们需要比以往任何时候都更深入地理解世界。理解现实本质的探索正在挑战我们直觉和推理能力的极限。\n\n纵观历史，我们的工具通过扩展我们能够感知、理解和控制的范围，帮助我们改变了文明。望远镜揭示了宇宙的浩瀚；显微镜揭示了生命的隐藏结构。计算机作为现代社会的基石，使我们能够计算、模拟并积累一个科学数据的宇宙，其浩瀚与精妙令人叹为观止。\n\n人工智能是这一谱系中的最新工具：一个观察现实本身的新透镜；一台不仅强大到足以扫描数据宇宙的浩瀚，还能聚焦于该宇宙中重要事物的望远镜，提供新的理解层次，并改变生物学、材料科学和数学等领域的研究。\n\nAI与科学自然契合，因为许多最困难的科学问题本质上都是搜索和推理问题。当我们进行科学探究时，我们观察世界、生成并检验假设，根据它们解释所见现象的程度来完善或摒弃它们。但随着科学数据的数量和复杂性增加，这一过程遇到了两个障碍：1）我们试图理解的事物的规模，以及2）我们检验想法的速度。AI克服了这些障碍，因为它不仅能处理关于世界的海量观测数据，还能以数字速度提出和评估新颖假设。\n\n传统探究方法依赖人类智慧，通常以稀疏数据为指导，而AI现在可以在压倒性的丰富数据中检测结构。由此产生的是类似机器直觉的东西：一种强大的、习得的策略，用于驾驭巨大的复杂性。\n\n由于AI是领域无关的，它还能架起学科之间的桥梁。与人类专家不同——后者的训练通常深入但狭窄——AI系统可以吸收并整合跨领域的信息。通才是罕见的；同时精通基因组学和高能物理的专家更是凤毛麟角。",
-      "text_excerpt_zh_hash": "e0b6c5b300406c16",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Unlocking Scientific Intuition & Reasoning at Digital Speed Unlocking Scientific Intuition & Reasoning at Digital Speed | American Academy of Arts and Sciences",
-      "url": "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed"
-    },
     "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16049,22 +16125,19 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo"
     },
-    "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty": {
+    "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
       "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty",
+      "final_url": "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941",
       "frameable": null,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11c83a50c414089`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh": "![www.axios.com 图标](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## 正在执行安全验证\n\n本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人期间，会显示此页面。\n\n## 浏览器扩展或网络配置不兼容\n\n您的浏览器扩展或网络设置阻止了 www.axios.com 所需的安全验证流程。要解决此问题，请尝试以下步骤：\n\n暂时禁用浏览器扩展：\n\n1.  进入浏览器设置。\n2.  找到浏览器扩展并暂时禁用它们。\n3.  禁用浏览器扩展后，[刷新此页面](#)。\n\n检查网络设置：\n\n1.  确认您的网络或防火墙设置是否阻止了设备访问“challenges.cloudflare.com”。您可能需要查阅操作系统的帮助文档或联系网络管理员，以获取调整防火墙设置的指导。\n2.  如果您没有调整网络设置的权限，请尝试连接到其他网络。\n\n如果这些步骤未能解决问题，请参阅 Cloudflare 的[故障排除文档](https://www.axios.com/cdn-cgi/challenge-platform/help)以获取更多帮助。有关如何禁用浏览器扩展或检查网络设置的详细指导，请参阅您的浏览器或设备文档。\n\n## 验证成功。正在等待 www.axios.com 响应\n\nRay ID：`a11c83a50c414089`\n\n性能与安全由 [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m) 提供 [隐私政策](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh_hash": "102c74c67c251a05",
-      "text_excerpt_zh_translator_v": 2,
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11d957d4a561659`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
       "title": "",
-      "url": "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty"
+      "url": "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -17242,34 +17315,31 @@
       "title": "‘Pretty Crazy’ Token Usage Is Testing Bosses’ Bet on AI | WIRED",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
     },
-    "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
+    "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "What began as a “flamingo revolution” to protest the $1.4 billion development on Sazan Island has spiraled into mass protests against a ruling party that thousands now want out.",
+      "description": "Edward Nalwamba is a 78-year-old retired pastor whose health has rapidly declined while in detention, his attorney says.",
       "extraction_source": "trafilatura",
-      "final_url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "final_url": "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
       "frameable": null,
       "image_urls": [
-        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/191:100/w_1280,c_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg",
-        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/191:100/w_1280,c_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg?mbid=social_retweet",
-        "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/master/w_2560%2Cc_limit/062526-Ivanka-trump-Jared-kusner-Albania.jpg",
-        "https://media.wired.com/photos/6a39b4248b39e47ac3e3bac8/master/w_1600%2Cc_limit/AP26169298172780.jpg",
-        "https://media.wired.com/photos/6a3e4a2abc6f42c7718fe7dc/master/w_1600%2Cc_limit/GettyImages-2282073564.jpg",
-        "https://media.wired.com/photos/6a3c506b0e1573fd224c1987/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a2b2d394b6bc680abb42459/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a2061ca0365e80b88634682/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/68fab92565a13f02607aecfa/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a15f56ec231501f9b8b750d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/191:100/w_1280,c_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg",
+        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/191:100/w_1280,c_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/master/w_2560%2Cc_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg",
+        "https://media.wired.com/photos/635b0ebb68addec416d5b99b/1:1/w_90%2Cc_limit/Vittoria%2520Elliott.jpg",
         "https://media.wired.com/photos/6a175018943fb12e8727ba87/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a316750d749358b3408c71a/16:9/w_640%2Cc_limit/undefined"
+        "https://media.wired.com/photos/6a21dc78733250a1d799491a/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a174ff94b0408da852e53f9/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a17e36ec83b1cd2df7cc746/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a19d5686c603cc052203420/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a230980315a6d7e7d3fe38d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a296cd55fb28d50a6268abc/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a28be619d2b42980b917b2f/16:9/w_640%2Cc_limit/undefined"
       ],
       "kind": "article",
-      "text_excerpt": "Several weeks after Ivanka Trump unveiled a real estate venture with husband Jared Kushner for a proposed multibillion-dollar resort on Albania’s coastline, the project has become the focal point of a mass uprising in the country. Furious demonstrators have filled the capital’s streets under signs declaring: “Albania is not a Gucci bag on sale.”\nWhat began as a localized fight against what critics describe as an alleged land grab has evolved to widespread outrage over potential damage to the region’s protected coastal wildlife, culminating this week with hundreds of thousands of Albanians taking to the streets of Tirana, the capital, to demand the end of the country’s government as they know it. Protesters have sworn to keep going until their demands are met.\nObjection to the Trump-Kushner plans began at ground level on May 23, when word got out of a proposed development in the Zvërnec area—some 9 miles away from Sazan—which is affiliated with Kushner’s company Affinity Partners. The plan for Sazan Island was already public, but the Zvërnec project triggered a very different kind of reaction, due to its Vjosa–Narta ecosystem, one of Europe’s last wild coastal systems.\nNews circulated among the roughly 150 locals that a residential and tourist complex had been proposed. A fence erected around a development site became the immediate trigger for confrontation; dozens of local residents and environmental activists attempted to remove the fence, leading to a clash with private security guards. The incident, filmed and widely circulated online, became the first viral moment of the dispute as people were dragged away—bringing national attention to a project that critics say was previously discussed with limited transparency.\nProtests soon spread from the nearby city of Vlorë to Tirana. Within days, solidarity demonstrations were organized in Albanian diaspora communities in Germany, the United Kingdom, Switzerland, and Greece.\nUnlike previous protests in Albania, this one claims no central leadership structure. It is decentralized, with students, activists, urban professionals, and diaspora groups converging around a shared set of grievances. It calls itself the Flamingo Revolution, named after the bird species that inhabits the area’s Narta Lagoon. Flamingo symbols—on banners, clothing, and social media—have become shorthand for resistance against what protesters describe as the privatization of coastal land and public nature.\nProtesters are now calling for the resignation of Albania’s prime minister and the repeal of four pieces of legislation many say enable unchecked investment: the so-called “Mountain Package,” legislation for strategic investments, and amendments to the Law on Protected Areas and the Law on Cultural Heritage.\n“We are protesting the protection and preservation of the environment, which has been privatized and handed over to oligarchic interests,” activist Entenela Ndrevataj tells WIRED. “This has concentrated the country’s wealth in the hands of a small group.”\nWildlife biologist Melitjan Nezaj argues that the ecological impact on the island could be irreversible. “Three habitat types have already been affected, and further construction would transform many more,” he told WIRED. He highlighted dune systems that take centuries to form. “Any intervention disrupts ecological processes developed over millennia. Thousands of species are affected, including endangered flora and fauna. Waterbirds are especially vulnerable.”\nUrban planner Doriana Musai says the issue is not a single project but a systemic pattern. “The problem is the precedent created when protected areas are treated as negotiable territory,” she said. Similar disputes across Albania’s coastline have fueled long-standing frustration over transparency and public access.\nThe proposed development along Zvërnec’s protected area is described in planning materials as a large multifunctional tourism complex. Available documents suggest a footprint of around 43",
-      "text_excerpt_zh": "伊万卡·特朗普与丈夫贾里德·库什纳宣布在阿尔巴尼亚海岸线开发一个价值数十亿美元的度假胜地项目，数周后，该项目已成为该国大规模抗议的焦点。愤怒的示威者涌向首都街头，高举标语：“阿尔巴尼亚不是待售的古驰包。”\n\n这场最初针对批评者所称“涉嫌土地掠夺”的地方性抗争，已演变为对区域受保护沿海野生动物可能遭受破坏的广泛愤怒。本周，数十万阿尔巴尼亚人走上首都地拉那街头，要求终结他们认知中的现政府。抗议者誓言将持续行动直至诉求得到满足。\n\n对特朗普-库什纳计划的反对始于5月23日基层——当时传出在兹韦尔内茨地区（距萨赞岛约9英里）的拟建开发项目，该项目与库什纳的Affinity Partners公司有关。萨赞岛计划此前已公开，但兹韦尔内茨项目因涉及欧洲最后野生沿海生态系统之一的维约萨-纳尔塔生态区，引发了截然不同的反应。\n\n约150名当地居民中流传着将建设住宅和旅游综合体的消息。围绕开发场地竖起的围栏成为冲突的直接导火索；数十名当地居民和环保活动人士试图拆除围栏，与私人保安发生冲突。这一被拍摄并广泛传播的事件成为争议的首个病毒式瞬间——人们被拖离现场，使这个被批评者指称此前讨论缺乏透明度的项目引发全国关注。\n\n抗议活动很快从附近的发罗拉市蔓延至地拉那。数日内，德国、英国、瑞士和希腊的阿尔巴尼亚侨民社区组织了声援示威。\n\n与阿尔巴尼亚此前的抗议不同，这场运动宣称没有中央领导结构。它是去中心化的，由学生、活动人士、城市专业人士和侨民团体围绕共同的不满汇聚而成。运动自称“火烈鸟革命”，得名于栖息在该区域纳尔塔泻湖的鸟类。火烈鸟标志——出现在横幅、服装和社交媒体上——已成为抗议者所称沿海土地和公共自然私有化行为的抵抗象征。\n\n抗议者现在要求阿尔巴尼亚总理辞职，并废除四项被指纵容无节制投资的法律：所谓的“山区一揽子计划”、战略投资立法，以及《保护区法》和《文化遗产法》的修正案。\n\n“我们抗议的是环境被私有化并交给寡头利益集团，”活动人士恩特内拉·恩德雷瓦塔伊告诉《连线》杂志。“这导致国家财富集中在少数人手中。”\n\n野生动物生物学家梅利特扬·内扎伊认为，对该岛的生态影响可能是不可逆的。“三种栖息地类型已受影响，进一步建设将改变更多区域，”他告诉《连线》杂志。他特别指出需要数百年才能形成的沙丘系统。“任何干预都会破坏历经数千年演化的生态过程。数千物种受到影响，包括濒危动植物。水鸟尤其脆弱。”\n\n城市规划师多里安娜·穆萨伊表示，问题不在于单个项目，而在于系统性模式。“问题在于，当保护区被视为可谈判领土时，就开创了先例，”她说。阿尔巴尼亚海岸线类似争议加剧了民众对透明度与公共准入问题长期积累的不满。\n\n规划材料显示，兹韦尔内茨保护区内的拟建开发项目被描述为大型多功能旅游综合体。现有文件表明其占地面积约为43英亩。",
-      "text_excerpt_zh_hash": "1f0c1f7f612c1c06",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Ivanka Trump and Jared Kushner's Island Resort Could Bring Down Albania’s Prime Minister | WIRED",
-      "url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+      "text_excerpt": "The United States is preparing to [deport](https://www.wired.com/story/a-woman-was-in-the-us-legally-she-was-deported-anyways/) a 78-year-old retired pastor to Uganda, a country in East Africa near the center of the [Ebola](https://www.wired.com/tag/ebola/) outbreak. The pastor also claims to be the target of the country’s authoritarian government.\nEdward Nalwamba came to the US from Uganda in 2002 and had been living and working in Colorado while under an “order of supervision,” which is when someone has a deportation order but cannot be immediately removed from the country. This order was revoked in September 2025, his lawyers say, and he has been detained ever since. Nalwamba is set to be deported on Tuesday.\nAccording to his attorney and one of his friends, Nalwamba’s health has declined precipitously in the nine months he has been in immigration detention, adding to concerns about deporting him to an outbreak zone.\nUganda, and its neighbor, the Democratic Republic of the Congo, are at the epicenter of the latest Ebola outbreak, which has [killed more than 300 people](https://www.cdc.gov/ebola/situation-summary/index.html). Earlier this month, the US Centers for Disease Control (CDC) issued a [travel health notice](https://wwwnc.cdc.gov/travel/notices) for Uganda, encouraging travelers to practice “enhanced precautions.” It’s not clear how many immigrants the US is deporting to Uganda at this time.\n| Got a Tip? | \n|---|\n| Are you a current or former government employee who wants to talk about what's happening? We'd like to hear from you. Using a nonwork phone or computer, contact the reporter securely on Signal at vittoria89.82. | \nNalwamba’s case falls at the intersection of several of the major changes ushered in by President Donald Trump’s second administration. Since January 2025, the US government has strangled foreign assistance, killing off the [US Agency for International Development](https://www.wired.com/story/usaid-whistleblower-says-it-was-even-worse-than-people-knew/) almost entirely. Meanwhile, it has [pumped billions of dollars](https://www.npr.org/2026/01/21/nx-s1-5674887/ice-budget-funding-congress-trump#:~:text=The%20Trump%20administration%20has%20set%20lofty%20goals,of%20Prisons%20currently%20holds%20over%20153%2C000%20inmates.) into the Department of Homeland Security (DHS) and immigration operations.\nNalwamba first arrived in the US on a tourist visa for a religious conference. In 2001, during Uganda’s presidential elections, Nalwamba claims he was one of several people in his town taken from their homes in the middle of the night and interrogated by armed security forces about his relationship to the political opposition, according to court documents filed in 2010. Nalwamba had refused to instruct members of his church to vote for the country’s president, Yoweri Museveni, who has been in power since 1986 and whose government has [continued to target](https://www.hrw.org/report/2022/03/22/i-only-need-justice/unlawful-detention-and-abuse-unauthorized-places-detention) members of the political opposition as recently as [earlier this year](https://www.hrw.org/news/2026/01/28/uganda-post-election-assault-on-political-opposition).\nDuring the religious conference, he says, people that Nalwamba knew back in Uganda called him to warn him that political conditions in the country were deteriorating. While he was in the US, Nalwamba received a fax containing threats that made him fear returning home. Nalwamba decided to stay in the US and apply for asylum.\n“He feared and has feared all the way up until the present time that if he returns to Uganda, he will be imprisoned or tortured or killed, and the Ugandan authorities have come looking for him several times over the years,” says Joy Athanasiou, the immigration attorney representing Nalwamba.\nAthanasiou claims that Nalwamba had issues with his first immigration attorney, who “disappeared without filing the application.” This, and other issues, complicated his ap",
+      "title": "The US Is About to Deport an Immigrant to the Center of the Ebola Crisis | WIRED",
+      "url": "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     },
     "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
       "cleaner_v": 2,
@@ -17633,9 +17703,6 @@
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2059144022778896392": [
-      "https://x.com/garrytan/status/2059144022778896392"
-    ],
     "2059287957777879481": [
       "https://x.com/SidebarIO/status/2059287957777879481",
       "https://ai-on-the-internet.github.io/?ref=sidebar",
@@ -17652,16 +17719,6 @@
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
-    "2059357818709524740": [
-      "https://x.com/LifeOfShandi/status/2059357818709524740",
-      "http://x.com/i/article/2059344894221799424",
-      "https://x.com/LifeOfShandi/status/2059374101165425043",
-      "https://x.com/LifeOfShandi/status/2059601384723599817",
-      "https://x.com/LifeOfShandi/status/2059361746033500588"
-    ],
-    "2059359475723886972": [
-      "https://x.com/LifeOfShandi/status/2059359475723886972"
-    ],
     "2059386407760568408": [
       "https://x.com/kplikethebird/status/2059386407760568408",
       "https://every.to/guides/codex-for-knowledge-work",
@@ -17676,29 +17733,6 @@
       "https://x.com/PareeReddy/status/2059544946689118235",
       "https://x.com/PareeReddy/status/2059713528697938185",
       "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
-    ],
-    "2059563983489913148": [
-      "https://x.com/Av1dlive/status/2059563983489913148",
-      "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg",
-      "https://x.com/Av1dlive/status/2059566526156681584",
-      "https://claude.com/blog/the-founders-playbook",
-      "https://x.com/Av1dlive/status/2059566719488954599",
-      "https://x.com/Av1dlive/status/2059569446633787527",
-      "https://x.com/Av1dlive/status/2059587680946778125",
-      "https://x.com/Av1dlive/status/2059569389360541975",
-      "https://x.com/Av1dlive/status/2059600844862214552",
-      "https://x.com/Av1dlive/status/2059566437686296792",
-      "https://x.com/Av1dlive/status/2059643800834932768",
-      "https://x.com/Av1dlive/status/2059566592464392212"
-    ],
-    "2059607483929211270": [
-      "https://x.com/pushmeet/status/2059607483929211270",
-      "https://www.amacad.org/publication/daedalus/unlocking-scientific-intuition-reasoning-at-digital-speed"
-    ],
-    "2059610738264785367": [
-      "https://x.com/istdrc/status/2059610738264785367",
-      "https://x.com/istdrc/status/2059615295703282082",
-      "https://x.com/istdrc/status/2059594471722168757"
     ],
     "2059621018633977908": [
       "https://x.com/0xJeff/status/2059621018633977908",
@@ -22776,8 +22810,13 @@
       "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg",
       "https://x.com/getzaroai/status/2070084839345164595",
       "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg",
+      "https://x.com/getzaroai/status/2070513814794023404",
+      "http://zaro.ai",
       "https://x.com/getzaroai/status/2070189545958883634",
+      "https://x.com/getzaroai/status/2070515595078988036",
       "https://x.com/getzaroai/status/2070191869326139895",
+      "https://x.com/getzaroai/status/2070511824953381028",
+      "https://x.com/getzaroai/status/2070512594465484936",
       "https://x.com/getzaroai/status/2070134672453939558",
       "https://x.com/getzaroai/status/2070185984235311317"
     ],
@@ -22806,13 +22845,19 @@
       "https://x.com/AnatoliKopadze/status/2070173084431045068",
       "https://x.com/AnatoliKopadze/status/2070156907625476441",
       "https://x.com/AnatoliKopadze/status/2070156820211986516",
-      "https://x.com/AnatoliKopadze/status/2070165742117404976"
+      "https://x.com/AnatoliKopadze/status/2070165742117404976",
+      "https://x.com/AnatoliKopadze/status/2070541643518775354",
+      "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg",
+      "https://x.com/AnatoliKopadze/status/2070489150294274236",
+      "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg",
+      "https://x.com/AnatoliKopadze/status/2070205680133284080",
+      "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
     ],
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
       "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
-      "https://x.com/axios/status/2070474314332151913",
-      "https://www.axios.com/2026/06/26/trump-senate-republicans-blind-loyalty"
+      "https://x.com/axios/status/2070494472979243152",
+      "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941"
     ],
     "2070171729373118742": [
       "https://x.com/Zephyr_hg/status/2070171729373118742",
@@ -22865,7 +22910,8 @@
       "http://x.com/i/article/2069741413164568576"
     ],
     "2070190799636291740": [
-      "https://x.com/gabepereyra/status/2070190799636291740"
+      "https://x.com/gabepereyra/status/2070190799636291740",
+      "https://x.com/gabepereyra/status/2070520992099905986"
     ],
     "2070194762007576934": [
       "https://x.com/PawelHuryn/status/2070194762007576934",
@@ -22877,9 +22923,9 @@
       "https://x.com/SidebarIO/status/2070195075485749253",
       "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar",
       "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070218465491972248": [
       "https://x.com/ProfBuehlerMIT/status/2070218465491972248",
@@ -22887,13 +22933,13 @@
       "https://x.com/ProfBuehlerMIT/status/2070337181701353722",
       "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login",
       "https://x.com/ProfBuehlerMIT/status/2070438657236860979",
+      "https://x.com/ProfBuehlerMIT/status/2070514740619530476",
       "https://x.com/ProfBuehlerMIT/status/2070337033298391453"
     ],
     "2070222427670618460": [
       "https://x.com/0xfishylosopher/status/2070222427670618460",
       "http://x.com/i/article/2070201957441220608",
-      "https://x.com/0xfishylosopher/status/2070262651180240984",
-      "https://x.com/0xfishylosopher/status/2070207447097311405"
+      "https://x.com/0xfishylosopher/status/2070262651180240984"
     ],
     "2070224920458793161": [
       "https://x.com/h100envy/status/2070224920458793161",
@@ -22907,14 +22953,15 @@
       "https://x.com/hyojun_at/status/2070234507995910413",
       "http://x.com/i/article/2070229603483045888",
       "https://x.com/hyojun_at/status/2070266285137748379",
+      "https://x.com/hyojun_at/status/2070533616569057775",
       "https://x.com/hyojun_at/status/2070239188583383392",
+      "https://x.com/hyojun_at/status/2070533405436207353",
       "https://x.com/hyojun_at/status/2070307533307486710",
       "https://x.com/hyojun_at/status/2070374132097896609"
     ],
     "2070234879888138539": [
       "https://x.com/Letta_AI/status/2070234879888138539",
-      "http://x.com/i/article/2070024964095533056",
-      "https://x.com/Letta_AI/status/2070193323068060007"
+      "http://x.com/i/article/2070024964095533056"
     ],
     "2070237256070389897": [
       "https://x.com/lilianweng/status/2070237256070389897",
@@ -22928,7 +22975,10 @@
     ],
     "2070240866246033494": [
       "https://x.com/seflless/status/2070240866246033494",
-      "https://github.com/tobi/try"
+      "https://github.com/tobi/try",
+      "https://x.com/seflless/status/2070518909590032595",
+      "http://github.com/",
+      "https://github.com/seflless/tries-starter"
     ],
     "2070246912440066225": [
       "https://x.com/restofworld/status/2070246912440066225",
@@ -22943,8 +22993,8 @@
     "2070285728869646560": [
       "https://x.com/WIRED/status/2070285728869646560",
       "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
-      "https://x.com/WIRED/status/2070463275087659327",
-      "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+      "https://x.com/WIRED/status/2070534321371230459",
+      "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     ],
     "2070329274024784077": [
       "https://x.com/MindBranches/status/2070329274024784077",
@@ -22975,8 +23025,8 @@
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
-      "https://x.com/0xMortyx/status/2070455812154179916",
       "https://x.com/0xMortyx/status/2070461392876908667",
+      "https://x.com/0xMortyx/status/2070455812154179916",
       "https://x.com/0xMortyx/status/2070453134409769159",
       "https://x.com/0xMortyx/status/2070453250164158754",
       "https://x.com/0xMortyx/status/2070452904868069854"
@@ -22986,9 +23036,26 @@
       "https://www.seangoedecke.com/how-i-use-llms-in-2026"
     ],
     "2070478965815337436": [
-      "https://x.com/alexolegimas/status/2070478965815337436"
+      "https://x.com/alexolegimas/status/2070478965815337436",
+      "https://x.com/alexolegimas/status/2070516114480583007"
+    ],
+    "2070493377267646797": [
+      "https://x.com/ericzakariasson/status/2070493377267646797",
+      "http://x.com/i/article/2070417295810166784",
+      "https://x.com/ericzakariasson/status/2070535318898348499",
+      "https://x.com/ericzakariasson/status/2070496754982687186",
+      "https://x.com/ericzakariasson/status/2070496953738121480",
+      "https://x.com/ericzakariasson/status/2070508762444493019"
+    ],
+    "2070502852414288328": [
+      "https://x.com/SidebarIO/status/2070502852414288328",
+      "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ]
   },
-  "updated_at": "2026-06-26T13:20:22Z",
+  "updated_at": "2026-06-26T16:27:42Z",
   "window": "recent"
 }
