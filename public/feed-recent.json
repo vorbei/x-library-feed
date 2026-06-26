@@ -1128,22 +1128,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059619573599739904"
     },
-    "http://x.com/i/article/2059619783151374336": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059619783151374336",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059619783151374336/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJU-PvnaMAAVBnK?format=jpg&name=900x900)](http://x.com/i/article/2059619783151374336/0xJeff/article/2059621018633977908/media/2059620844792590336)\n\nAll Roads Lead to Decentralized AI\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2059619783151374336/0xJeff)\n\n[0xJeff](http://x.com/i/article/2059619783151374336/0xJeff)\n\n[@0xJeff](http://x.com/i/article/2059619783151374336/0xJeff)\n\n·\n\n5h\n\nFollow\n\nClick to Follow 0xJeff\n\n6\n\n9\n\n70\n\n[4.2K](http://x.com/i/article/2059619783151374336/0xJeff/status/2059621018633977908/analytics)\n\nWe’re living in a world where AI is accessible every where. Roughly 18% of the global population is using AI. This number increased from \\~16% late 2025 and \\~15% early 2025.\n\nThe pace of AI adoption is rapidly accelerating. More apparently so on the enterprise front — 9 out of 10 Fortune companies overspend their budget on Claude Code by 500% vs their annual budgets while traditional SaaS net dollar value dropped 15%, signaling that enterprises are cutting software to spend on AI.\n\nMenlo Ventures reported $1.7B to $37B Enterprise AI growth in their 2025 end of year report. The number probably looks very different now — 1H 2026 is likely \n\n[$35-40B+](https://x.com/search?q=%2435-40B%2B&src=cashtag%5Fclick)\n\n driven by rapid adoption of AI agents along with the models serving them.\n\n[![Image](https://pbs.twimg.com/media/HJU9XMMacAAwyvE?format=jpg&name=small)](http://x.com/i/article/2059619783151374336/0xJeff/article/2059621018633977908/media/2059619873211445248)\n\nIn 2024, around 53% of enterprises chose to buy AI solutions instead of building their own. In 2025, that number jumped to 76%. In 2026, I believe we’ll see 85%-90% given how easy & seamless it is to integrate Claude or Codex into existing enterprise workflows.\n\nThe AI vendor lock-in is real and the frontier labs are getting real good at this. They create many great tools for both technical & non-technical professionals, set up headquarters on key cities globally, send forward-deployed engineers to top corporations, and lock in multi-year enterprise contracts as a result.\n\nOn the consumer side, they subsidize the credits, allowing anyone to get more value out of their subscriptions. No wonder why people continue subscribing to ChatGPT/Codex or Claude despite the high price ($20-$200 per month).\n\nFor those who can’t afford to pay $200/month or those who prefer their data/prompts to stay private, they opt for open-source models which can be installed and use locally/privately (for free as long as u got a good GPU) OR use the models via gateway like OpenRouter or Venice.\n\n> The AI Commodity TAM continues to rapidly grow BUT the value are mostly accruing in private markets (to frontier labs, to open labs). While public markets like decentralized AI and onchain AI continue to be highly accessible \\+ provide asymmetrical opportunities to back the future of AI.\n\nIn this piece, we’ll go over the structural tailwinds for decentralized AI and why I believe we’ll see a huge shift in the landscape this year.\n\nLet’s dig in 👇\n\n## \n\n1\\. Mythos found 10,000 bugs across 1,000+ systems but only 97 patched\n\nMythos is considered a highly advanced frontier model that’s so good at security & autonomous hacking ability that the model is restricted to only a handful of Anthropic corporate partners.\n\nProject Glasswing where Anthropic gave 50+ partners early access to Mythos to find vulnerabilities. In the first month alone, 10,000 vulnerabilities was found. Cloudflare alone has 2,000+ (400+ high/critical) but only 97 of the total 10,000 was patched so far.\n\nA single bug in a core library affect thousands of downstream apps/integrations. Engineers need to test every patch to make sure it doesn’t crash existing systems.\n\nLots of vulnera",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059619783151374336/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJU-PvnaMAAVBnK?format=jpg&name=900x900)](http://x.com/i/article/2059619783151374336/0xJeff/article/2059621018633977908/media/2059620844792590336)\n\n条条大路通去中心化AI\n\n[![](https://pbs.twimg.com/profile_images/1846579538802982912/9qCfx_WU_normal.jpg)](http://x.com/i/article/2059619783151374336/0xJeff)\n\n[0xJeff](http://x.com/i/article/2059619783151374336/0xJeff)\n\n[@0xJeff](http://x.com/i/article/2059619783151374336/0xJeff)\n\n·\n\n5小时前\n\n关注\n\n点击关注 0xJeff\n\n6\n\n9\n\n70\n\n[4.2K](http://x.com/i/article/2059619783151374336/0xJeff/status/2059621018633977908/analytics)\n\n我们生活在一个AI无处不在的世界。全球约有18%的人口正在使用AI。这一数字较2025年底的约16%和2025年初的约15%有所增长。\n\nAI的采用速度正在迅速加快。在企业层面尤为明显——财富500强中有9成公司在Claude Code上的支出超出年度预算500%，而传统SaaS的净美元价值下降了15%，这表明企业正在削减软件开支以投入AI。\n\nMenlo Ventures在其2025年终报告中指出，企业AI支出从17亿美元增长到370亿美元。现在这个数字可能已经大不相同——2026年上半年可能达到350-400亿美元以上，这得益于AI Agent及其服务模型的快速采用。\n\n[![图片](https://pbs.twimg.com/media/HJU9XMMacAAwyvE?format=jpg&name=small)](http://x.com/i/article/2059619783151374336/0xJeff/article/2059621018633977908/media/2059619873211445248)\n\n2024年，约53%的企业选择购买AI解决方案而非自行构建。2025年，这一比例跃升至76%。2026年，我认为我们将看到85%-90%的比例，因为将Claude或Codex集成到现有企业工作流程中变得如此简单无缝。\n\nAI供应商锁定是真实存在的，前沿实验室在这方面越来越擅长。他们为技术与非技术专业人士创造了许多优秀工具，在全球主要城市设立总部，向前沿企业派驻工程师，并因此锁定多年企业合同。\n\n在消费者端，他们补贴积分，让任何人从订阅中获得更多价值。难怪尽管价格高昂（每月20-200美元），人们仍继续订阅ChatGPT/Codex或Claude。\n\n对于那些负担不起每月200美元费用的人，或者那些希望数据/提示保持私密的人，他们选择开源模型，这些模型可以本地/私有安装和使用（只要有好的GPU就免费），或者通过OpenRouter或Venice等网关使用模型。\n\n> AI商品TAM持续快速增长，但价值主要流向私人市场（前沿实验室、开放实验室）。而像去中心化AI和链上AI这样的公开市场仍然高度可访问，并为支持AI的未来提供不对称机会。\n\n在这篇文章中，我们将探讨去中心化AI的结构性顺风，以及为什么我认为今年我们将看到格局的巨大转变。\n\n让我们深入探讨👇\n\n## \n\n1\\. Mythos在1000多个系统中发现10000个漏洞，但仅修复了97个\n\nMythos被认为是一个高度先进的前沿模型，在安全和自主黑客能力方面非常出色，以至于该模型仅限Anthropic的少数企业合作伙伴使用。\n\n在Project Glasswing中，Anthropic让50多个合作伙伴提前访问Mythos以寻找漏洞。仅第一个月就发现了10000个漏洞。仅Cloudflare就有2000多个（400多个高危/严重），但迄今为止仅修复了其中的97个。\n\n核心库中的一个单一漏洞会影响数千个下游应用/集成。工程师需要测试每个补丁，以确保不会导致现有系统崩溃。\n\n大量漏洞",
-      "text_excerpt_zh_hash": "49c6586927c18a49",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059619783151374336"
-    },
     "http://x.com/i/article/2059627968872280065": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
       "cleaner_v": 2,
@@ -9180,30 +9164,6 @@
       "title": "Building Reliable Agentic AI Systems",
       "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
     },
-    "https://martinfowler.com/articles/vibesec-reckoning.html": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Engineering guardrails teams must adopt to move safely from vibe-coded AI prototype to production.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://martinfowler.com/articles/vibesec-reckoning.html",
-      "frameable": false,
-      "image_urls": [
-        "https://martinfowler.com/logo-sq.png",
-        "https://martinfowler.com/mf-name-white.png",
-        "https://martinfowler.com/articles/vibesec-reckoning/gautam.jpg",
-        "https://martinfowler.com/articles/vibesec-reckoning/lucian.jpg",
-        "https://martinfowler.com/articles/vibesec-reckoning/neillopez.png",
-        "https://martinfowler.com/articles/vibesec-reckoning/ruth.png",
-        "https://martinfowler.com/thoughtworks_white.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "The VibeSec Reckoning\nWhy prompting your AI to “be secure” is not enough, and what actually is\n“Vibe coding” - the practice of non-technical citizen builders using generative AI tools to rapidly develop applications, this has significantly accelerated software prototyping. However, because AI agents naturally prioritise the path of least resistance, they frequently recommend insecure configurations, creating systemic security exposure across industries. To combat this we need to write a security context file to guide the AI, be cautious with AI permission requests, create a daily security intelligence feed, and provide builders with a secure-by-default harness and templates.\n27 May 2026\nContents\n[What we learned the hard way](https://martinfowler.com#WhatWeLearnedTheHardWay)[The numbers behind the risk](https://martinfowler.com#TheNumbersBehindTheRisk)[The real problem: prompts are not enough](https://martinfowler.com#TheRealProblemPromptsAreNotEnough)[Why business functions need to pay attention](https://martinfowler.com#WhyBusinessFunctionsNeedToPayAttention)[Short-term habits](https://martinfowler.com#Short-termHabits)[Medium-term solutions](https://martinfowler.com#Medium-termSolutions)[The security context file in practice](https://martinfowler.com#TheSecurityContextFileInPractice)[The security intelligence feed in practice](https://martinfowler.com#TheSecurityIntelligenceFeedInPractice)[Long-term organisational changes](https://martinfowler.com#Long-termOrganisationalChanges)[Conclusion: Scaling Beyond the Prototype](https://martinfowler.com#ConclusionScalingBeyondThePrototype)\n[Vibe coding](https://martinfowler.com/bliki/VibeCoding.html) is enabling non-technical users (or as we call them, citizen\nbuilders) to build applications with AI that they simply could not have\nbuilt before. When our AI applications team in Global Marketing at\nThoughtworks was asked to scale a vibe coded prototype built by one of our\ncitizen builders in global marketing, we discovered serious cracks that\nprevent vibe coded applications from going into production safely.\nSpeed without guardrails is a risk no team can afford to ignore. What follows is the story of what we found, what it means for teams building with AI, and the steps we are taking to make sure every workflow, prototype, and app we ship is one we can stand behind.\nWhat we learned the hard way\nThe AI applications team within Global Marketing was asked to scale a video assembly prototype built with Gemini, Replit AI and Claude AI to create on-brand videos to be used across our 10,000 employees. The team ran into two moments that stopped work cold. In both cases, the AI suggested a path with serious security implications. In both cases, it took a human asking the right question to catch it.\nSecurity risk # 1\nPublic storage access\nThe AI recommended making the storage bucket public, or setting cloud file storage to “anyone with the link.” When challenged, it justified this by saying every company does it. Only a firm rejection prompted a secure alternative.\nThis could have leaked sensitive unreleased brand assets and audience data to the public internet.\nSecurity risk # 2\nExcessive token permissions\nA service account was assigned the Access Token Creator role, granting it the ability to create short-lived tokens and access databases and other resources far beyond what the task required. The team caught this before running the code.\nThis would have allowed a compromised service account to move laterally through an entire cloud workspace.\nThe key insight here is that AI tools often suggest the path of least resistance. That path is not always the secure one. Human judgment remains essential, but it should not be the only control. The goal is to give agents technical security rules as context from the first prompt, then validate their output through deterministic checks in the development workflow so insecure code, permissions, secrets, or infrastructure cannot pass unnoticed.\nThe numbers",
-      "text_excerpt_zh": "# VibeSec 的觉醒\n\n为什么仅仅提示你的 AI “要安全” 远远不够，以及真正有效的方法是什么\n\n“Vibe coding”——即非技术背景的公民开发者使用生成式 AI 工具快速开发应用程序的实践——极大地加速了软件原型开发。然而，由于 AI 代理天然倾向于选择阻力最小的路径，它们经常推荐不安全的配置，从而在行业内造成系统性的安全风险敞口。为了应对这一问题，我们需要编写一个安全上下文文件来引导 AI，谨慎对待 AI 的权限请求，创建每日安全情报推送，并为开发者提供默认安全的 harness 和模板。\n\n2026 年 5 月 27 日\n\n**目录**\n\n[我们通过惨痛教训学到的东西](#WhatWeLearnedTheHardWay)  \n[风险背后的数据](#TheNumbersBehindTheRisk)  \n[真正的问题：提示远远不够](#TheRealProblemPromptsAreNotEnough)  \n[为什么业务部门需要关注](#WhyBusinessFunctionsNeedToPayAttention)  \n[短期习惯](#Short-termHabits)  \n[中期解决方案](#Medium-termSolutions)  \n[安全上下文文件的实践](#TheSecurityContextFileInPractice)  \n[安全情报推送的实践](#TheSecurityIntelligenceFeedInPractice)  \n[长期组织变革](#Long-termOrganisationalChanges)  \n[结论：超越原型进行规模化](#ConclusionScalingBeyondThePrototype)\n\n[Vibe coding](https://martinfowler.com/bliki/VibeCoding.html) 正在让非技术用户（我们称之为公民开发者）能够利用 AI 构建他们以前根本无法构建的应用程序。当 Thoughtworks 全球营销部的 AI 应用团队被要求规模化一个由我们全球营销部的一位公民开发者构建的 vibe coded 原型时，我们发现了严重的缺陷，这些缺陷阻止了 vibe coded 应用程序安全地投入生产。\n\n没有护栏的速度，是任何团队都无法忽视的风险。以下是我们发现的问题、这对使用 AI 构建的团队意味着什么，以及我们正在采取的步骤，以确保我们交付的每一个工作流、原型和应用都是我们可以为之负责的。\n\n## 我们通过惨痛教训学到的东西\n\n全球营销部内的 AI 应用团队被要求规模化一个视频组装原型，该原型使用 Gemini、Replit AI 和 Claude AI 构建，用于创建品牌视频，供我们 10,000 名员工使用。团队遇到了两个让工作完全停滞的时刻。在这两种情况下，AI 都建议了一条具有严重安全隐患的路径。在这两种情况下，都是人类提出了正确的问题才发现了问题。\n\n### 安全风险 #1：公共存储访问\n\nAI 建议将存储桶设为公开，或将云文件存储设置为“任何拥有链接的人”。当受到质疑时，它辩称每家公司都这样做。只有在被坚决拒绝后，它才提供了一个安全的替代方案。\n\n这可能导致敏感、未发布的品牌资产和受众数据泄露到公共互联网上。\n\n### 安全风险 #2：过度的令牌权限\n\n一个服务账户被分配了“访问令牌创建者”角色，使其能够创建短期令牌，并访问远超任务所需的数据库和其他资源。团队在运行代码之前发现了这个问题。\n\n这将允许一个被攻破的服务账户在整个云工作空间中横向移动。\n\n这里的关键洞察是，AI 工具通常建议阻力最小的路径。而那条路径并不总是安全的路径。人类的判断仍然至关重要，但它不应该是唯一的控制手段。目标是从第一个提示开始，就为代理提供技术安全规则作为上下文，然后通过开发工作流中的确定性检查来验证其输出，从而使不安全的代码、权限、密钥或基础设施无法被忽视。\n\n## 风险背后的数据",
-      "text_excerpt_zh_hash": "fac8f7ecaacd252f",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "The VibeSec Reckoning",
-      "url": "https://martinfowler.com/articles/vibesec-reckoning.html"
-    },
     "https://martinfowler.com/fragments/2026-05-27.html": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -11680,20 +11640,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg"
-    },
-    "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
     },
     "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png": {
       "cleaner_v": 2,
@@ -14950,29 +14896,6 @@
       "title": "Is AI replacing jobs? Chinese tech giants layoff workforce - Rest of World",
       "url": "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social"
     },
-    "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Rachel Adams warns AI-generated content sabotages civilian safety in conflict zones, and calls out global inequities and the role of Western tech powerhouses.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social",
-      "frameable": false,
-      "image_urls": [
-        "https://restofworld.org/wp-content/uploads/2026/04/QA-event-AI-war-1600x900.jpg",
-        "https://fastly.restofworld.org/uploads/2026/04/QA-event-AI-war.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/04/Rachel_Adams_Headshot-1-scaled.jpeg?width=600&dpr=2&crop=9:16",
-        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/06/illo_chinaAI_USusage_final.jpg?width=800&dpr=2&crop=16:9",
-        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9"
-      ],
-      "kind": "article",
-      "text_excerpt": "Artificial intelligence is reshaping modern warfare.\nDuring the recent U.S.-Israel war on Iran, AI was used to identify and strike targets, accelerate the speed of attacks, and get weaponry recommendations. Far from the conflict zones, AI also enabled the creation and spread of disinformation and deepfakes that confused public opinion and made it hard to understand on-ground realities.\nSocial media streams are flooded with AI-generated content masquerading as real footage, including false clips of Burj Khalifa on fire and fabricated scenes of missiles striking the streets of Tel Aviv.\nRachel Adams, CEO and founder of the Global Center on AI Governance, believes such misinformation risks influencing life-or-death decisions — from where civilians seek shelter to how aid is distributed.\nAdams is an expert on AI governance and the political economy of emerging technologies. She was one of the lead drafters of the African Union Commission’s Continental AI Strategy, a framework designed to harness AI for socioeconomic transformation and technological sovereignty. She is also the author of The New Empire of AI: The Future of Global Inequality. The Global Center on AI Governance is an Africa-based research collective dedicated to promoting responsible and equitable AI practices globally.\nIn a conversation with Rest of World, Adams outlined how AI is amplifying long-standing global inequities in information and power, and how this trend could have a lasting impact on the world even after the wars are over. She also offered tips on how individuals can identify AI-generated content and protect themselves.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World [event is available here](https://www.youtube.com/watch?v=zNKAmSHwzIk). \nCould you talk about the use of AI in recent wars and its real-world implications?\nOne of the first things that we’re noticing is the sheer volume of false or misleading wartime images or information being shared. These are AI-generated clips presented as footage or satellite images from conflict regions.\nIt’s also not always a deepfake and is often old footage from other conflicts being relabeled by AI and presented as new.\nThe other thing to really stress is the kind of emotional engineering that is going on with such content. It’s trying to invoke fear, triumph, or helplessness. Very often, it feels like that’s the whole point of such content: to intensify, polarize, and manipulate people’s emotions about the conflicts and international opinion.\nWhat we have to remember is that this affects people inside the conflict zones. They need to make decisions about where to move, and where aid and shelter might be available. For those caught in the conflict, it’s a question of life and death, and if there’s disinformation circulating about where they can get shelter or aid, it becomes something much more serious.\nYour work is focused on inequity. Could you explain how inequities play out during conflicts with rampant AI-generated misinformation?\nIn the Global South, many countries have historically been vulnerable to information manipulation. They have weaker media ecosystems, or they are newer democracies and have experienced external narrative control.\nThis has been an issue at the heart of decolonization and who gets to write history. Experiences are often written over by official accounts, which are usually Western. Now, AI enables that writing over in ways that deny or invisibilize authorship and therefore accountability. It’s not clear who’s doing that writing over, but it’s still happening.\nFor me, a lot of these questions are wrapped up with critical questions about power. Who gets to define truth in times of war? Whose voices are being trusted? Whose realities are being dismissed?\nWhen truth becomes contestable and uncertain, it’s those with the greatest institutional power — whether it’s platforms, particular states, particular militaries — that are better positioned",
-      "text_excerpt_zh": "人工智能正在重塑现代战争形态。  \n在近期美国与以色列对伊朗的军事行动中，AI被用于识别和打击目标、加速攻击进程并提供武器建议。远离冲突区域的AI技术还催生了虚假信息和深度伪造内容的制造与传播，这些内容混淆公众舆论，使人们难以了解地面真实情况。  \n社交媒体上充斥着伪装成真实影像的AI生成内容，包括伯吉哈利法塔着火的虚假片段，以及导弹袭击特拉维夫街道的捏造场景。  \n全球人工智能治理中心首席执行官兼创始人蕾切尔·亚当斯认为，此类虚假信息可能影响生死攸关的决策——从平民选择避难地点到援助物资的分配方式。  \n亚当斯是人工智能治理与新兴技术政治经济学领域的专家。她是非洲联盟委员会《大陆人工智能战略》的主要起草人之一，该框架旨在利用AI推动社会经济转型和技术主权。她也是《AI新帝国：全球不平等的未来》一书的作者。全球人工智能治理中心是一家总部位于非洲的研究机构，致力于在全球范围内推广负责任且公平的AI实践。  \n在与《Rest of World》的对话中，亚当斯阐述了AI如何加剧信息与权力领域长期存在的全球不平等，以及这种趋势如何在战争结束后仍对世界产生持久影响。她还就个人如何识别AI生成内容并保护自身提供了建议。  \n以下对话经过编辑以精简篇幅并确保清晰度。现场《Rest of World》活动的录音可[在此处获取](https://www.youtube.com/watch?v=zNKAmSHwzIk)。  \n\n**能否谈谈AI在近期战争中的应用及其现实影响？**  \n我们首先注意到的是大量虚假或误导性的战争图像及信息被传播。这些AI生成的片段被伪装成冲突地区的实拍画面或卫星图像。  \n此外，这些内容并非总是深度伪造，常常是其他冲突的旧影像被AI重新标注后当作新素材呈现。  \n另一个需要强调的重点是这类内容所蕴含的情感操控。它们试图引发恐惧、胜利感或无助感。很多时候，这似乎正是此类内容的核心目的：加剧、极化并操纵人们对冲突的情绪以及国际舆论。  \n我们必须记住，这直接影响着冲突区域内的人们。他们需要决定前往何处，以及哪里可能获得援助和庇护。对于身陷冲突的人来说，这关乎生死存亡。如果关于避难所或援助地点的虚假信息四处流传，问题就会变得严重得多。  \n\n**你的研究聚焦于不平等问题。能否解释一下，在AI生成的虚假信息泛滥的冲突中，不平等现象如何体现？**  \n在全球南方，许多国家历史上就易受信息操纵影响。它们媒体生态系统较为薄弱，或是较年轻的民主国家，曾经历过外部叙事控制。  \n这始终是去殖民化进程的核心议题——关乎谁有权书写历史。官方叙述（通常是西方视角）往往覆盖了真实经历。如今，AI以否认或隐匿作者身份（进而逃避问责）的方式加速了这种覆盖。虽然不清楚具体是谁在进行覆盖，但这一过程仍在持续。  \n对我而言，许多问题都与权力这一关键议题紧密相连。战争时期谁有权定义真相？哪些声音被信任？哪些现实被否定？  \n当真相变得可争议且不确定时，那些拥有最大制度权力的实体——无论是平台、特定国家还是特定军队——将占据更有利的位置。",
-      "text_excerpt_zh_hash": "efeeaa8c2c15ffc2",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Deadly deepfakes: A survival guide for the age of algorithmic war - Rest of World",
-      "url": "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social"
-    },
     "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -16125,19 +16048,19 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo"
     },
-    "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941": {
+    "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
       "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941",
+      "final_url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump",
       "frameable": null,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11d957d4a561659`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11e80446e03e881`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
       "title": "",
-      "url": "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941"
+      "url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -17315,31 +17238,31 @@
       "title": "‘Pretty Crazy’ Token Usage Is Testing Bosses’ Bet on AI | WIRED",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/"
     },
-    "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
+    "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
-      "description": "Edward Nalwamba is a 78-year-old retired pastor whose health has rapidly declined while in detention, his attorney says.",
+      "description": "The White House asked OpenAI to delay the rollout of its GPT-5.6 AI models, two weeks after Anthropic had to take its most advanced AI models offline.",
       "extraction_source": "trafilatura",
-      "final_url": "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "final_url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
       "frameable": null,
       "image_urls": [
-        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/191:100/w_1280,c_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg",
-        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/191:100/w_1280,c_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg?mbid=social_retweet",
-        "https://media.wired.com/photos/6a3d9aad0e1573fd224c1c7f/master/w_2560%2Cc_limit/US-About-to-Deport-Immigrants-to-Ebola-Ridden-Uganda-Politics-2195715331.jpg",
-        "https://media.wired.com/photos/635b0ebb68addec416d5b99b/1:1/w_90%2Cc_limit/Vittoria%2520Elliott.jpg",
-        "https://media.wired.com/photos/6a175018943fb12e8727ba87/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a21dc78733250a1d799491a/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a174ff94b0408da852e53f9/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a17e36ec83b1cd2df7cc746/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a19d5686c603cc052203420/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a230980315a6d7e7d3fe38d/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a296cd55fb28d50a6268abc/16:9/w_640%2Cc_limit/undefined",
-        "https://media.wired.com/photos/6a28be619d2b42980b917b2f/16:9/w_640%2Cc_limit/undefined"
+        "https://media.wired.com/photos/6a3ea08bf7f42d4ea1deffa3/191:100/w_1280,c_limit/GettyImages-2281424331.jpg",
+        "https://media.wired.com/photos/6a3ea08bf7f42d4ea1deffa3/191:100/w_1280,c_limit/GettyImages-2281424331.jpg?mbid=social_retweet",
+        "https://media.wired.com/photos/6a3ea08bf7f42d4ea1deffa3/master/w_2560%2Cc_limit/GettyImages-2281424331.jpg",
+        "https://media.wired.com/photos/691ca24026b98e3f01dc3683/1:1/w_90%2Cc_limit/zeff_headshot_720_bw.jpg",
+        "https://media.wired.com/photos/6a342bff039398b1addb3ba2/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a3068b96de136e1eb346f80/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2042b93fae6e15d3dce8a2/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a1a11a6b6c847bce706bb1b/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2cb2e540437fd74449a752/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a30202e9402edb0adc1701d/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a3d7dcc9d8ba41349d50023/16:9/w_640%2Cc_limit/undefined",
+        "https://media.wired.com/photos/6a2a474b0ce2fad63750beac/16:9/w_640%2Cc_limit/undefined"
       ],
       "kind": "article",
-      "text_excerpt": "The United States is preparing to [deport](https://www.wired.com/story/a-woman-was-in-the-us-legally-she-was-deported-anyways/) a 78-year-old retired pastor to Uganda, a country in East Africa near the center of the [Ebola](https://www.wired.com/tag/ebola/) outbreak. The pastor also claims to be the target of the country’s authoritarian government.\nEdward Nalwamba came to the US from Uganda in 2002 and had been living and working in Colorado while under an “order of supervision,” which is when someone has a deportation order but cannot be immediately removed from the country. This order was revoked in September 2025, his lawyers say, and he has been detained ever since. Nalwamba is set to be deported on Tuesday.\nAccording to his attorney and one of his friends, Nalwamba’s health has declined precipitously in the nine months he has been in immigration detention, adding to concerns about deporting him to an outbreak zone.\nUganda, and its neighbor, the Democratic Republic of the Congo, are at the epicenter of the latest Ebola outbreak, which has [killed more than 300 people](https://www.cdc.gov/ebola/situation-summary/index.html). Earlier this month, the US Centers for Disease Control (CDC) issued a [travel health notice](https://wwwnc.cdc.gov/travel/notices) for Uganda, encouraging travelers to practice “enhanced precautions.” It’s not clear how many immigrants the US is deporting to Uganda at this time.\n| Got a Tip? | \n|---|\n| Are you a current or former government employee who wants to talk about what's happening? We'd like to hear from you. Using a nonwork phone or computer, contact the reporter securely on Signal at vittoria89.82. | \nNalwamba’s case falls at the intersection of several of the major changes ushered in by President Donald Trump’s second administration. Since January 2025, the US government has strangled foreign assistance, killing off the [US Agency for International Development](https://www.wired.com/story/usaid-whistleblower-says-it-was-even-worse-than-people-knew/) almost entirely. Meanwhile, it has [pumped billions of dollars](https://www.npr.org/2026/01/21/nx-s1-5674887/ice-budget-funding-congress-trump#:~:text=The%20Trump%20administration%20has%20set%20lofty%20goals,of%20Prisons%20currently%20holds%20over%20153%2C000%20inmates.) into the Department of Homeland Security (DHS) and immigration operations.\nNalwamba first arrived in the US on a tourist visa for a religious conference. In 2001, during Uganda’s presidential elections, Nalwamba claims he was one of several people in his town taken from their homes in the middle of the night and interrogated by armed security forces about his relationship to the political opposition, according to court documents filed in 2010. Nalwamba had refused to instruct members of his church to vote for the country’s president, Yoweri Museveni, who has been in power since 1986 and whose government has [continued to target](https://www.hrw.org/report/2022/03/22/i-only-need-justice/unlawful-detention-and-abuse-unauthorized-places-detention) members of the political opposition as recently as [earlier this year](https://www.hrw.org/news/2026/01/28/uganda-post-election-assault-on-political-opposition).\nDuring the religious conference, he says, people that Nalwamba knew back in Uganda called him to warn him that political conditions in the country were deteriorating. While he was in the US, Nalwamba received a fax containing threats that made him fear returning home. Nalwamba decided to stay in the US and apply for asylum.\n“He feared and has feared all the way up until the present time that if he returns to Uganda, he will be imprisoned or tortured or killed, and the Ugandan authorities have come looking for him several times over the years,” says Joy Athanasiou, the immigration attorney representing Nalwamba.\nAthanasiou claims that Nalwamba had issues with his first immigration attorney, who “disappeared without filing the application.” This, and other issues, complicated his ap",
-      "title": "The US Is About to Deport an Immigrant to the Center of the Ebola Crisis | WIRED",
-      "url": "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+      "text_excerpt": "OpenAI is delaying the public release of its next generation of AI models, GPT-5.6, at the request of Trump’s White House, the company confirmed on Friday. [OpenAI](https://www.wired.com/tag/openai/) said it would first share the [models](https://www.wired.com/story/dangerous-ai-models-are-coming-no-matter-what/) with a small set of customers, which will be preapproved by the US government. It will then work with the administration to slowly expand access.\nOpenAI is not happy about this, according to a person familiar with the company’s thinking, but believes the delay and government approval process is only temporary. In a blog post, the company said it hopes it will be able to make GPT-5.6 available to everyone in the coming weeks. OpenAI’s plans to delay its next generation of AI models at the Trump administration’s request was first [reported](https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns) by The Information.\n“We don’t believe this kind of government access process should become the long-term default,” OpenAI wrote in its blog post. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them. We are taking this short-term step because we believe it is the strongest path to broader availability in the coming weeks, while we work with the Administration to develop the cyber Executive Order framework and a repeatable process for future model releases.”\n| Got a Tip? | \n|---|\n| Are you a current or former OpenAI or US government employee who wants to talk about what’s happening? We’d like to hear from you. Using a nonwork phone or computer, contact the reporter securely on Signal at mzeff.88. | \nEarlier this month, President Trump signed an [executive order](https://www.wired.com/story/this-is-how-trump-finally-signed-the-ai-executive-order/) that aimed to address the cybersecurity concerns of powerful new AI models. The order said the White House would create a “voluntary process” for AI labs to share their models with the government 30 days ahead of a broader release. The mandate included a carve-out, saying the US government would not turn its voluntary process into a de facto licensing regime for AI model releases. But in its Friday briefing, OpenAI executives said no such voluntary framework exists yet. As a result, the frontier AI labs are in a very weird interim period, where working with the US government on your AI model launch doesn’t seem all that voluntary.\nThe White House is asking OpenAI to stagger the release of its AI models just two weeks after it sent an [export control directive to Anthropic](https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/), which prompted the company to take its most advanced AI models offline for all customers. Anthropic’s spat with the White House is [still unresolved](https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/), and some of the company’s own employees are still barred from using its most advanced AI models.\nThe Trump administration’s request for OpenAI and Anthropic to limit availability on their most advanced AI models creates an [uncertain environment for other US AI labs](https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/). Over the last two years, the Trump administration has sought to clear regulation and red tape that could hinder America’s AI innovation and potentially hurt the country’s competitiveness with China. In recent months, however, the White House has grown increasingly concerned about the cybersecurity abilities of new AI models, and has scrambled to address the problem. A White House official tells WIRED that the administration is continuing to collaborate with frontier AI labs.\nOpenAI plans to broaden the set of customers it can share GPT-5.6 with next week, including some international partners. Executives for OpenAI said that it can’",
+      "title": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them | WIRED",
+      "url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     },
     "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev": {
       "cleaner_v": 2,
@@ -17726,18 +17649,6 @@
       "https://x.com/kplikethebird/status/2059457012769902866",
       "https://every.to/events/codex-camp-our-power-user-guide?source=post_button"
     ],
-    "2059529029204721734": [
-      "https://x.com/findingnische/status/2059529029204721734"
-    ],
-    "2059544946689118235": [
-      "https://x.com/PareeReddy/status/2059544946689118235",
-      "https://x.com/PareeReddy/status/2059713528697938185",
-      "https://pbs.twimg.com/media/HJWQi8kbMAA_YOK.jpg"
-    ],
-    "2059621018633977908": [
-      "https://x.com/0xJeff/status/2059621018633977908",
-      "http://x.com/i/article/2059619783151374336"
-    ],
     "2059621796052193667": [
       "https://x.com/Damir_Akaza/status/2059621796052193667",
       "http://x.com/i/article/2059601936723136512",
@@ -17760,10 +17671,6 @@
       "https://x.com/brettcalhounn/status/2059848063892557961",
       "https://x.com/brettcalhounn/status/2059848395758489726",
       "https://x.com/brettcalhounn/status/2059848753901609435"
-    ],
-    "2059647271864619029": [
-      "https://x.com/martinfowler/status/2059647271864619029",
-      "https://martinfowler.com/articles/vibesec-reckoning.html"
     ],
     "2059653716568158316": [
       "https://x.com/oliviakoshy/status/2059653716568158316",
@@ -22856,8 +22763,8 @@
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
       "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
-      "https://x.com/axios/status/2070494472979243152",
-      "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817941"
+      "https://x.com/axios/status/2070553797533819051",
+      "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
     ],
     "2070171729373118742": [
       "https://x.com/Zephyr_hg/status/2070171729373118742",
@@ -22932,9 +22839,10 @@
       "http://x.com/i/article/2070034058499809280",
       "https://x.com/ProfBuehlerMIT/status/2070337181701353722",
       "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login",
-      "https://x.com/ProfBuehlerMIT/status/2070438657236860979",
       "https://x.com/ProfBuehlerMIT/status/2070514740619530476",
-      "https://x.com/ProfBuehlerMIT/status/2070337033298391453"
+      "https://x.com/ProfBuehlerMIT/status/2070337033298391453",
+      "https://x.com/ProfBuehlerMIT/status/2070569340462633244",
+      "https://x.com/ProfBuehlerMIT/status/2070438657236860979"
     ],
     "2070222427670618460": [
       "https://x.com/0xfishylosopher/status/2070222427670618460",
@@ -22955,9 +22863,9 @@
       "https://x.com/hyojun_at/status/2070266285137748379",
       "https://x.com/hyojun_at/status/2070533616569057775",
       "https://x.com/hyojun_at/status/2070239188583383392",
-      "https://x.com/hyojun_at/status/2070533405436207353",
       "https://x.com/hyojun_at/status/2070307533307486710",
-      "https://x.com/hyojun_at/status/2070374132097896609"
+      "https://x.com/hyojun_at/status/2070374132097896609",
+      "https://x.com/hyojun_at/status/2070533405436207353"
     ],
     "2070234879888138539": [
       "https://x.com/Letta_AI/status/2070234879888138539",
@@ -22983,8 +22891,8 @@
     "2070246912440066225": [
       "https://x.com/restofworld/status/2070246912440066225",
       "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
-      "https://x.com/restofworld/status/2070297241252675601",
-      "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social"
+      "https://x.com/restofworld/status/2070471639037362639",
+      "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social"
     ],
     "2070270747759554902": [
       "https://x.com/iamgrigorev/status/2070270747759554902",
@@ -22993,8 +22901,8 @@
     "2070285728869646560": [
       "https://x.com/WIRED/status/2070285728869646560",
       "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
-      "https://x.com/WIRED/status/2070534321371230459",
-      "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+      "https://x.com/WIRED/status/2070555872435089709",
+      "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     ],
     "2070329274024784077": [
       "https://x.com/MindBranches/status/2070329274024784077",
@@ -23025,11 +22933,11 @@
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
-      "https://x.com/0xMortyx/status/2070461392876908667",
       "https://x.com/0xMortyx/status/2070455812154179916",
       "https://x.com/0xMortyx/status/2070453134409769159",
-      "https://x.com/0xMortyx/status/2070453250164158754",
-      "https://x.com/0xMortyx/status/2070452904868069854"
+      "https://x.com/0xMortyx/status/2070452904868069854",
+      "https://x.com/0xMortyx/status/2070461392876908667",
+      "https://x.com/0xMortyx/status/2070453250164158754"
     ],
     "2070467106412626035": [
       "https://x.com/bibryam/status/2070467106412626035",
@@ -23042,8 +22950,8 @@
     "2070493377267646797": [
       "https://x.com/ericzakariasson/status/2070493377267646797",
       "http://x.com/i/article/2070417295810166784",
-      "https://x.com/ericzakariasson/status/2070535318898348499",
       "https://x.com/ericzakariasson/status/2070496754982687186",
+      "https://x.com/ericzakariasson/status/2070535318898348499",
       "https://x.com/ericzakariasson/status/2070496953738121480",
       "https://x.com/ericzakariasson/status/2070508762444493019"
     ],
@@ -23051,11 +22959,11 @@
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ]
   },
-  "updated_at": "2026-06-26T16:27:42Z",
+  "updated_at": "2026-06-26T19:03:37Z",
   "window": "recent"
 }
