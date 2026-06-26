@@ -1007,38 +1007,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058192123556405248"
     },
-    "http://x.com/i/article/2059041726552031232": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059041726552031232",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059041726552031232/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJQjju6XUAAwZCb?format=jpg&name=900x900)](http://x.com/i/article/2059041726552031232/clear%5Fgraphics/article/2059310083234799819/media/2059310026410381312)\n\nthe 6 week startup rebrand process\n\n[![](https://pbs.twimg.com/profile_images/2014389204994703360/j4LU1Hgw_normal.jpg)](http://x.com/i/article/2059041726552031232/clear%5Fgraphics)\n\n[clear![](https://pbs.twimg.com/profile_images/2002456460467298304/z5ilgLvM_bigger.jpg)](http://x.com/i/article/2059041726552031232/clear%5Fgraphics)\n\n[@clear\\_graphics](http://x.com/i/article/2059041726552031232/clear%5Fgraphics)\n\n·\n\n17h\n\nFollow\n\nClick to Follow clear\\_graphics\n\n1\n\n13\n\n[3K](http://x.com/i/article/2059041726552031232/clear%5Fgraphics/status/2059310083234799819/analytics)\n\nmost startup rebrands take 3-6 months because the process is bloated with unnecessary rounds of feedback, stakeholder alignment meetings, and exploration phases that produce 40 logo concepts nobody likes lol\n\nsix weeks is more than enough if you're disciplined about what matters and RUTHLESS about cutting what doesn't...\n\n## \n\nthe process: (week by week)\n\n\\- week 1 is positioning\n\nbefore you touch a pixel you need to answer three questions with absolute clarity. \n\n\\- who are we for - what do we do for them - why are we different from everyone else doing it\n\nwrite each answer in ONE sentence.\n\nif you can't get it to one sentence you're not clear enough yet. \n\nthese three sentences become the foundation that every visual decision gets measured against. the logo, the colors, the typography, the page layout, the copy. \n\nliterally everything flows from positioning so without it you're basically designing in the dark\n\n\\- week 2 is visual direction\n\ntake the positioning from week 1 and explore 3 visual directions that could express it. \n\neach direction includes a color palette, a typography choice, one logo concept, and a sample page section mocked up. \n\nthen present all 3 to the founding team and pick one direction and fucking KILL the other two. \n\nplease do not combine elements from multiple directions\n\nthat's how you end up with a franken brand that communicates nothing\n\n\\- week 3 is the logo and design system\n\ntake the chosen direction and refine the logo to final. \n\ncreate the full design system in a figma file: - primary and secondary colors with hex codes - typography scale with heading sizes and body size and line heights, spacing scale, corner radius, icon style, button styles. \n\nthis file becomes the single SOURCE of truth that ensures consistency across everything you build for the next 2 years\n\n\\- week 4 is the landing page design \n\ndesign the full landing page in figma using the design system from week 3\\. \n\nhero, social proof, features, testimonials, pricing, cta\n\nevery section designed, every piece of copy written, every image selected\n\nreview it with the founding team once and make revisions if needed\n\n\\- week 5 is build and integration\n\ntake the finalized figma design and build it in framer, webflow, or custom code. \n\nimplement the design system across marketing touchpoints: - social media templates - email headers - presentation templates - favicon - og image -- update linkedin, twitter, and any other profiles\n\n\\- week 6 is launch and rollout\n\ndeploy the new landing page and update all external facing assets. \n\nannounce the rebrand with a piece of content that explains WHY you changed and what the new brand represents. \n\nthe announcement itself is a marketing opportunity because rebrands generate conversation\n\n* clear\n\nalso, drop me a follow because i drop a LOT of valuable breakdowns and pure sauce just like this\n\n* [![](https://pbs.twimg.com/profile_images/2014389204994703360/j4LU1Hgw_normal.jpg)](http://x.com/i/article/2059041726552031232/clear%5Fgraphics)  \n[clear![](https://pbs.twimg.com/profile_images/20024564",
-      "text_excerpt_zh": "## 六周创业公司品牌重塑流程\n\n大多数创业公司品牌重塑需要3-6个月，因为流程被不必要的反馈轮次、利益相关者对齐会议和探索阶段所拖累，最终产生40个没人喜欢的logo概念。\n\n如果你对重要的事情保持自律，对无关的事情保持\"无情\"，六周就绰绰有余了……\n\n## 流程：（按周划分）\n\n**- 第一周是定位**\n\n在触碰任何像素之前，你需要绝对清晰地回答三个问题：\n\n- 我们为谁服务\n- 我们为他们做什么\n- 我们与做同样事情的其他人有何不同\n\n每个答案用**一句话**写出来。\n\n如果你无法用一句话概括，说明你还没有足够清晰。\n\n这三句话将成为衡量每一个视觉决策的基础——logo、色彩、字体、页面布局、文案。\n\n实际上，一切从定位出发，没有它你基本就是在黑暗中设计。\n\n**- 第二周是视觉方向**\n\n利用第一周的定位，探索3个能够表达它的视觉方向。\n\n每个方向包括：一个调色板、一种字体选择、一个logo概念、以及一个模拟的页面部分。\n\n然后向创始团队展示全部3个方向，选择一个方向，然后**彻底干掉**另外两个。\n\n请不要从多个方向中组合元素。\n\n那样你会得到一个传达不了任何信息的弗兰肯品牌。\n\n**- 第三周是logo和设计系统**\n\n采用选定的方向，将logo打磨至最终版本。\n\n在Figma文件中创建完整的设计系统：\n- 主色和辅助色（含十六进制代码）\n- 字体层级（含标题大小、正文大小和行高）\n- 间距层级、圆角半径、图标风格、按钮风格\n\n这个文件将成为未来两年确保所有构建内容一致性的**唯一**真相来源。\n\n**- 第四周是着陆页设计**\n\n使用第三周的设计系统，在Figma中设计完整的着陆页。\n\n英雄区、社会证明、功能、客户评价、定价、行动号召。\n\n每个部分都设计好，每段文案都写好，每张图片都选好。\n\n与创始团队评审一次，必要时进行修改。\n\n**- 第五周是构建与集成**\n\n将最终确定的Figma设计在Framer、Webflow或自定义代码中构建出来。\n\n在营销接触点上实施设计系统：\n- 社交媒体模板\n- 邮件页眉\n- 演示文稿模板\n- 网站图标\n- OG图片\n- 更新LinkedIn、Twitter及其他所有资料\n\n**- 第六周是发布与推广**\n\n部署新的着陆页，更新所有外部资产。\n\n通过一篇解释**为什么**要改变以及新品牌代表什么的内容来宣布品牌重塑。\n\n宣布本身就是一个营销机会，因为品牌重塑会引发讨论。\n\n* clear\n\n另外，关注我，因为我经常发布像这样有价值的解析和纯干货。",
-      "text_excerpt_zh_hash": "8920b570dde089be",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059041726552031232"
-    },
-    "http://x.com/i/article/2059312804893708288": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059312804893708288",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059312804893708288/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJRUPONaIAAjM9x?format=jpg&name=900x900)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059363550104264704)\n\nOut-of-Distribution Craft\n\n[![](https://pbs.twimg.com/profile_images/1550292580117622784/cT3WhwXw_normal.jpg)](http://x.com/i/article/2059312804893708288/pbakaus)\n\n[Paul Bakaus](http://x.com/i/article/2059312804893708288/pbakaus)\n\n[@pbakaus](http://x.com/i/article/2059312804893708288/pbakaus)\n\n·\n\n12h\n\n·\n\nFollow\n\nClick to Follow pbakaus\n\n1\n\n17\n\n[1K](http://x.com/i/article/2059312804893708288/pbakaus/status/2059392639334846486/analytics)\n\nThere's lots of discourse about why LLMs produce mediocre work. The consensus is pretty clear: LLMs trained on a large corpus of data converge around averages, and when asked to do work, produce average results. Counterintuitively, that's often great. If you want to know how to fix a flat tire, it's not helpful to know how Lance Armstrong would fix it. You want to know how an average rando with limited tools, just like you, would.\n\nBut if your craft requires you to escape normal distribution, like marketing, where you need a landing page that goes harder than every other landing page, you have to escape the average too.\n\nUnfortunately, I worry the same is true for the way we train our own neural net. Your work is average because the data your brain has been trained on is average.\n\n[![Image](https://pbs.twimg.com/media/HJRX1BWa0AAOXOu?format=jpg&name=medium)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059367498022309888)\n\nGarbage in, garbage out\n\nYou might object: \"but I have great taste, and the things I like are high quality!\" Let's be real for a moment. If you're reading the most upvoted content on Reddit, you're consuming what the average consumer prefers. If you're watching the most-liked short-form content on TikTok and Instagram, you're interacting with content that's commercially viable, but probably not extraordinary.\n\nWhat's on the other end of commercially viable? French cinema. The extraordinary, out-of-range stuff is inspired, expertly crafted, formally ambitious, and often inaccessible or incompatible with a mass audience. If you're building a product you're trying to sell, don't overcorrect to this end of the spectrum either.\n\nMany in Hollywood have accepted Martin Scorsese's \"one for them, one for me\" doctrine: the idea that you have to pick a side, and the best you can do is alternate so you don't lose your edge. I disagree. There's a sliver of work that sits in the Goldilocks zone between the extraordinary and the commercially viable.\n\nWe often reach for the word 'taste' when we encounter something extraordinary and commercially viable. Maybe creating in that zone is what taste actually means. I find it more useful to treat it as its own thing.\n\n[![Image](https://pbs.twimg.com/media/HJRYHsKb0AAJ2mg?format=jpg&name=small)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059367818752413696)\n\nOne of the best examples of extraordinary and commercially viable is the work of Studio Ghibli. Films like Princess Mononoke and Spirited Away aren't unique just because they're made by craftsmen at the peak of their professions. I mean sure, they are. But plenty of animated films are works of art. What makes Ghibli special to me is that they reach mass-market appeal without selling out and producing something average but sellable:\n\n* Hayao Miyazaki's transcendent storytelling ability earned him permission to package and sell a story about a  \n[strong female eco-warrior in a post-apocalyptic world](https://en.wikipedia.org/wiki/Nausicaä%5Fof%5Fthe%5FValley%5Fof%5Fthe%5FWind%5F%28film%29)  \n...in 1980s Japan 🤯\n* Joe Hisaishi is one of the best contemporary classical composers alive. Bu",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059312804893708288/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJRUPONaIAAjM9x?format=jpg&name=900x900)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059363550104264704)\n\n分布之外的技艺\n\n[![](https://pbs.twimg.com/profile_images/1550292580117622784/cT3WhwXw_normal.jpg)](http://x.com/i/article/2059312804893708288/pbakaus)\n\n[Paul Bakaus](http://x.com/i/article/2059312804893708288/pbakaus)\n\n[@pbakaus](http://x.com/i/article/2059312804893708288/pbakaus)\n\n·\n\n12小时前\n\n·\n\n关注\n\n点击关注 pbakaus\n\n1\n\n17\n\n[1K](http://x.com/i/article/2059312804893708288/pbakaus/status/2059392639334846486/analytics)\n\n关于 LLM 为何产出平庸作品，有很多讨论。共识相当明确：LLM 在大量数据语料上训练，会收敛到平均值附近，当被要求完成工作时，就会产生平均的结果。反直觉的是，这通常很棒。如果你想知道如何修补漏气的轮胎，了解兰斯·阿姆斯特朗会怎么修并没有帮助。你想知道的是，一个像你一样工具有限的普通路人会怎么做。\n\n但如果你的技艺需要你脱离正态分布，比如市场营销——你需要一个比所有其他落地页都更激进的落地页——那么你也必须脱离平均值。\n\n不幸的是，我担心我们训练自己神经网络的方式也是如此。你的作品之所以平庸，是因为你大脑所训练的数据是平庸的。\n\n[![图片](https://pbs.twimg.com/media/HJRX1BWa0AAOXOu?format=jpg&name=medium)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059367498022309888)\n\n垃圾进，垃圾出\n\n你可能会反驳：“但我品味很好，我喜欢的东西质量很高！”让我们现实一点。如果你在阅读 Reddit 上点赞最多的内容，你消费的是普通用户偏好的东西。如果你在看 TikTok 和 Instagram 上点赞最多的短视频，你接触的是商业上可行、但很可能并不卓越的内容。\n\n商业可行的另一端是什么？法国电影。那些卓越的、超出常规的东西，富有灵感、技艺精湛、形式上有野心，并且通常对大众来说难以接近或难以兼容。如果你在构建一个想要销售的产品，也不要过度纠正到这一端。\n\n好莱坞的许多人已经接受了马丁·斯科塞斯的“一部为他人，一部为自己”的信条：即你必须选择一边，最好的做法是交替进行，以免失去锋芒。我不同意。在卓越与商业可行之间，存在一个恰到好处的金发姑娘地带。\n\n当我们遇到既卓越又商业可行的东西时，我们常常会用“品味”这个词。也许在那个地带创作，正是品味的真正含义。我发现把它当作一个独立的事物来处理更有用。\n\n[![图片](https://pbs.twimg.com/media/HJRYHsKb0AAJ2mg?format=jpg&name=small)](http://x.com/i/article/2059312804893708288/pbakaus/article/2059392639334846486/media/2059367818752413696)\n\n卓越且商业可行的最佳例子之一是吉卜力工作室的作品。像《幽灵公主》和《千与千寻》这样的电影之所以独特，不仅仅因为它们是由处于职业巅峰的工匠制作的。我的意思是，当然是的。但很多动画电影都是艺术品。对我来说，吉卜力的特别之处在于，它们在不妥协、不生产平庸但可销售的东西的前提下，达到了大众市场的吸引力：\n\n* 宫崎骏超凡的叙事能力让他获得了许可，得以包装和销售一个关于  \n[后末日世界中强大女性生态战士](https://en.wikipedia.org/wiki/Nausicaä%5Fof%5Fthe%5FValley%5Fof%5Fthe%5FWind%5F%28film%29)  \n的故事……在1980年代的日本 🤯\n* 久石让是在世的最优秀的当代古典作曲家之一。但",
-      "text_excerpt_zh_hash": "eb8c8fc48a183939",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059312804893708288"
-    },
     "http://x.com/i/article/2059344894221799424": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6016,6 +5984,20 @@
       "title": "",
       "url": "http://x.com/i/article/2069434045625421824"
     },
+    "http://x.com/i/article/2069467654612455425": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069467654612455425",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLlXceRXUAAySPp?format=jpg&name=900x900)](http://x.com/ataiiam/article/2069797329809395978/media/2069781650427301888)\n\nSelf Learning for Agents Clearly Explained\n\n[![](https://pbs.twimg.com/profile_images/1649413157893316608/qAX0jKbI_normal.jpg)](http://x.com/ataiiam)\n\n[Atai Barkai](http://x.com/ataiiam)\n\n[@ataiiam](http://x.com/ataiiam)\n\n·\n\nJun 24\n\n·\n\nFollow\n\nClick to Follow ataiiam\n\n9\n\n46\n\n134\n\n[107K](http://x.com/ataiiam/status/2069797329809395978/analytics)\n\nThe self-learning agent that everyone's talking about is not the one your product needs.\n\nThe most useful signal of all is actually one that almost nobody captures: the people using your product.\n\nYour agents and users already work side by side, thousands of times a day.\n\nIt can learn from each one of these interactions. See the video. \n\nCapturing a live interaction flow between a user and agent for self-learning\n\nThis is a guide to all three learning layers & how it’s relevant to you.\n\nToday, agents can learn in three different layers.\n\nFor each one: what it is, what it costs, who is actually building it, and whether you even should use self-learning. \n\nYou'll see how Anthropic, Karpathy, DeepMind, Microsoft, Hermes, OpenClaw, CopilotKit and others approach self-learning, and where each one stops.\n\n## \n\nAgents can learn in 3 different layers\n\nThe cleanest split comes from \n\n[Harrison Chase](https://www.langchain.com/blog/continual-learning-for-ai-agents)\n\n.\n\n* The model = The weights (training parameters)\n* The harness = The code around the model (loop, tools, prompts)\n* The context = The memory and skills outside the harness which grow\n\nYou already use all three in Claude Code.\n\nThe model is Claude, the harness is Claude Code itself, and the context is your CLAUDE.md and your skills. Each layer can get better on its own, without touching the other two.\n\n[![Image](https://pbs.twimg.com/media/HLk2WoaXYAAaaoM?format=jpg&name=small)](http://x.com/ataiiam/article/2069797329809395978/media/2069745266186477568)\n\nThree learning layers for agents\n\nIn a real product, self-learning almost always means the harness or the context, not the model. The model belongs to the labs. The other two are yours.\n\nI will use one example across all three: a support agent that issues refunds.\n\nFor each layer, I'll ask two questions: can it learn there, and do you own that learning?\n\n## \n\nLayer 1: The Model\n\nThis is the layer everyone pictures, and the one almost no one runs. The agent improves the model itself. Labs do it three ways:\n\n1. edit the training code and keep what raises the score\n2. write your own training data and fold it into the weights\n3. try many code changes and keep the best one\n\n[![Image](https://pbs.twimg.com/media/HLk2fFzXEAAQtkc?format=jpg&name=small)](http://x.com/ataiiam/article/2069797329809395978/media/2069745411514896384)\n\nAll three are the same loop, and it only runs when a computer can score the result for free.\n\nModel Approach #1 (Karpathy)\n\nEdit the training code, keep what helps\n\nKarpathy's \n\n[AutoResearch](https://github.com/karpathy/autoresearch)\n\n points a coding agent at a small training setup and runs it overnight. It edits one file, trains for five minutes, and scores the result. It keeps the change or undoes it. Then it repeats, a hundred times before you wake up.\n\nOne run found a real speedup, about 11 percent.\n\nThe catch: The agent improved a different, smaller model. Its own weights never actually changed.\n\n[![Image](https://pbs.twimg.com/media/HLk3OhLWAAATDkI?format=jpg&name=small)](http://x.com/ataiiam/article/2069797329809395978/media/2069746226317099008)\n\nModel Approach #2 (MIT SEAL)\n\nWrite your own training data, apply it as a weight update\n\n[Self-Adapting LLMs (SEAL)](https://arxiv.org/abs/2506.10943)\n\n writes its own training data, trains on it, and keeps what raised the score. These are",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2069467654612455425"
+    },
     "http://x.com/i/article/2069487597584322560": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6135,6 +6117,19 @@
       "text_excerpt": "",
       "title": "",
       "url": "http://x.com/i/article/2069733809939992576"
+    },
+    "http://x.com/i/article/2069741413164568576": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069741413164568576",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLp2vKjaYAALlAm?format=jpg&name=900x900)](http://x.com/itsalexvacca/article/2070189941209075906/media/2070097531388977152)\n\nThe Attribution Engineering Playbook\n\n[![](https://pbs.twimg.com/profile_images/1909705035052990467/pnfX3LA__normal.jpg)](http://x.com/itsalexvacca)\n\n[Alex Vacca](http://x.com/itsalexvacca)\n\n[@itsalexvacca](http://x.com/itsalexvacca)\n\n·\n\n17h\n\nFollow\n\nClick to Follow itsalexvacca\n\n1\n\n13\n\n[3.6K](http://x.com/itsalexvacca/status/2070189941209075906/analytics)\n\nMost outbound teams cannot tell you which part of their machine actually produced revenue.\n\nThat blind spot is what quietly kills good programs. \n\nThe budget gets cut in the wrong place, while nobody can prove what was working underneath.\n\nWe have sent more than 23 million cold emails across 2,200 campaigns for 400+ B2B companies at ColdIQ. The programs that compound all share one unglamorous trait: their pipeline traces back to the exact source and signal that produced it, automatically, without anyone exporting a spreadsheet.\n\nThis is the playbook for engineering that, from the data model up.\n\n# \n\nThe metrics most teams watch are the ones that lie\n\nGoodhart's Law is the whole problem in one sentence: when a measure becomes a target, it stops being a good measure.\n\n[![Image](https://pbs.twimg.com/media/HLliccXa4AAl54_?format=png&name=small)](http://x.com/itsalexvacca/article/2070189941209075906/media/2069793744543735808)\n\nThe moment a team starts optimizing for meetings booked or emails sent, those numbers detach from revenue and begin flattering everyone who reports them.\n\n> The current spectator metric is \"agents built\" or \"emails sent.\" Both are vanity.\n\nThe vanity number does little harm sitting in a dashboard. The harm starts when people act on it.\n\nA calendar full of meetings nobody can close still renders as a healthy chart. A budget that is quietly carrying the whole motion gets cut because its line item looks expensive when you read it in isolation.\n\nI watched exactly that play out the first time we ran ads and outbound as separate functions with separate scorecards.\n\n> Separate dashboards let the finance team kill the ads budget the first time the cost-per-meeting line looks high, while missing that the outbound reply rate is lifting precisely because that budget is funding the warming layer.\n\nAttribution engineering exists to remove that blindness.\n\nThe goal is a system where every dollar of pipeline is wired back to the source and the signal that created it, so the decisions about what to cut and what to fund get made on evidence instead of on whichever number happened to load first.\n\n# \n\nWhat attribution engineering actually means\n\nReporting describes what happened after the fact. Attribution engineering builds the plumbing that makes the description true and automatic.\n\nThe distinction matters because a report assembled by hand once a month is always stale and always a little wrong, whereas a system that stamps every touch as it happens is already correct by the time anyone opens it.\n\nThere is a hard requirement underneath all of it. \n\nThe data has to move from the ad platform through the CRM and into the sequencer on its own, every week, without anyone exporting spreadsheets by hand.\n\nEverything in this playbook is built to satisfy that one requirement.\n\n## \n\nStep 1: Instrument the funnel as a series of events\n\nBefore you can attribute anything, you need a clean set of events that every account passes through, each one captured the moment it happens.\n\nThe stages we instrument are deliberately simple, running from the first message sent, to a reply coming back, to a meeting booked, to an opportunity created, to a deal closed.\n\nEach of those becomes a timestamped event written to a single place, rather than a status that lives in whatever tool happened to record it.\n\nCentralizing matte",
+      "title": "",
+      "url": "http://x.com/i/article/2069741413164568576"
     },
     "http://x.com/i/article/2069757298189176833": {
       "cleaner_v": 2,
@@ -6262,6 +6257,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069850425256464384"
     },
+    "http://x.com/i/article/2069868400579596290": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069868400579596290",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLmrmRbbEAA11G6?format=jpg&name=900x900)](http://x.com/SpencerFarrar/article/2070230293429244094/media/2069874177755254784)\n\nThe Future of Inference \n\n[![](https://pbs.twimg.com/profile_images/1790441573869842434/g8M7bfhS_normal.jpg)](http://x.com/SpencerFarrar)\n\n[Spencer Farrar![](https://pbs.twimg.com/profile_images/1980757758493212672/8nqafsFf_bigger.jpg)](http://x.com/SpencerFarrar)\n\n[@SpencerFarrar](http://x.com/SpencerFarrar)\n\n·\n\n14h\n\nFollow\n\nClick to Follow SpencerFarrar\n\n5\n\n5\n\n104\n\n[11K](http://x.com/SpencerFarrar/status/2070230293429244094/analytics)\n\nI’m excited to announce Theory Ventures’ investment in Sail Research's Series A, alongside our friends at Kleiner Perkins, Redpoint, & Sequoia. It’s been an absolute blast getting to know Neil and the Sail team. The best part of my job is being able to work with incredible people and these entrepreneurs set the bar. I want to tell you how our thesis evolved, and what led us to be excited about this opportunity.\n\nWe’ve spent the last year refining our thesis in the inference space. We believe that the most important companies will soon be powered by long-running agents: AIs that work for minutes, hours, or days to complete tasks on behalf of people. Data already works this way. Data pipelines, ETL jobs, nightly batch runs, & scheduled workflows make up the bulk of compute inside any large organization. Agentic AI will follow the same path, but the infrastructure to support it still has to be built.\n\nI believe that Sail is building the inference platform for long-horizon agents, letting complex agents run and scale as they begin to power our most valuable work.\n\nAs AI expands further into the workforce, agents will be multi-turn by default: systems that research, code, & reason across minutes and hours, orchestrating over many models and many steps. Today's inference stack provides the opposite: single-shot, latency-obsessed chat, with a human waiting on the other end. If you were to force a long-horizon agent through that stack, the costs and brittleness show up immediately.\n\n[![Image](https://pbs.twimg.com/media/HLmnReKasAARLmv?format=png&name=small)](http://x.com/SpencerFarrar/article/2070230293429244094/media/2069869422349824000)\n\nAI workloads can be mapped by how synchronous they are, whether a human is waiting on the other end, and how much repetition they contain (allowing them to take advantage of the cache). On this plane, they fall into two camps. In one corner, fully synchronous and totally unique: work where every second counts and nothing looks the same: chatbots, customer support, BI copilots. At the other, fully asynchronous work that follows a recipe: software factories, AI data-pipelines, overnight document processing. The semi-synchronous middle is work that needs an answer in seconds to minutes, not instantly nor overnight. It sits relatively empty. Not for lack of demand, but because running it on a real-time stack means paying real-time prices, so teams are forced to complete tasks async or never build it at all. If you make that middle section cheap to serve, it fills with deep-research agents, background coding, and agentic GTM workflows. We believe that Sail will enable this middle section to exist.\n\n[![Image](https://pbs.twimg.com/media/HLmnhOxacAA7BqM?format=jpg&name=small)](http://x.com/SpencerFarrar/article/2070230293429244094/media/2069869693096325120)\n\nTwo years ago, almost all inference demand clustered in the first few seconds — someone typing, a chatbot answering. Each year since, the curve has flattened and spread to the right, as more work moves to agents. That's the semi-sync middle filling in. The market is aggressively starting to demand infrastructure to support this. As agents move into production, token consumption compounds: more turns, more context, more models, for every agent",
+      "title": "",
+      "url": "http://x.com/i/article/2069868400579596290"
+    },
     "http://x.com/i/article/2069954922075107328": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6277,6 +6285,47 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2069954922075107328"
+    },
+    "http://x.com/i/article/2070024964095533056": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070024964095533056",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLrz7NvasAAjrKK?format=jpg&name=900x900)](http://x.com/Letta%5FAI/article/2070234879888138539/media/2070235177356537856)\n\nHow can we build agents that learn like people? \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1940424059990200321/59lbFsxt_normal.jpg)](http://x.com/Letta%5FAI)\n\n[Letta](http://x.com/Letta%5FAI)\n\n[@Letta\\_AI](http://x.com/Letta%5FAI)\n\n·\n\n14h\n\n·\n\nFollow\n\nClick to Follow Letta\\_AI\n\n7\n\n21\n\n[21K](http://x.com/Letta%5FAI/status/2070234879888138539/analytics)\n\ntl;dr - Agents that learn like people (through experience, teaching, & self-study) will be powered by memory models: models specialized in creating and curating token-space memory that transfers across model generations, trained with memory-native RL.\n\nMemory is the key to unlocking AI agents that are not only teachable, but also capable of continually learning and self-improving. Techniques for continual learning in \n\n[token space](https://www.letta.com/blog/continual-learning/)\n\n have seen widespread real-world adoption, with agentic memory management, agent dreaming, and skill learning becoming central features in agent harnesses such as Letta Code, Claude Code, DeepAgents, and OpenClaw. Token-space learning takes advantage of the in-context learning capabilities of modern LLMs, which continue to improve across model generations, and provides an incredibly data-efficient mechanism for continual learning.\n\nHowever, while LLMs are excellent at using context, they do not reliably create durable context for future tasks. This can lead to memory rot over time for long-lived agents, and limit the extent to which agents can learn independently from available context or past experience. We believe that advancing and scaling token-space learning will require a new type of specialized memory models, specifically designed for creating memory and expertise that transfers across models.\n\n# \n\nThe memory & learning problem for agents\n\nThrough memory and learning, agents should be able to develop expertise over time based on their own unique experiences and the context made available to them. Without the capability to learn from experience, agents have clear limitations in use cases such as:\n\n* Adapting to proprietary datasets and workflows: Even when agents have access to proprietary data and other private knowledge, they have a limited ability to condition their behavior on it. While forms of  \n[sleep-time compute](https://arxiv.org/abs/2504.13171)  \n like  \n[self-study](https://jacobxli.com/blog/2026/machine-studying/)  \n and  \n[skill learning](https://www.letta.com/blog/skill-learning/)  \n allow for turning private datasets into compact reusable contexts, existing methods are too expensive to scale to large corpuses and suffer from issues such as overgeneralization and memory rot.\n* Embedding human expertise for digital cloning: Agent learning today is insufficient to fully absorb the expertise and values of human teachers or to create a true “digital clone” of humans. Approaches like skills and persona prompting can embed specialized behavior in agents, but agents today still remain far less capable than humans at learning and adapting from natural language feedback and real-world interactions.\n* Deep personalization: Even with clearly stated preferences, feedback, or other personal information, agents struggle to recall relevant context and generate new memories. This constrains how personalized agent experiences can become for individual users, as agents are limited in their ability to learn from their interactions with users despite an abundance of interaction data.\n\nSolving the memory and learning problem unlocks a new scaling axis for machine intelligence, since agents can continually improve by scaling compute on context. The more time an agent spends refining their memory and context,",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2070024964095533056"
+    },
+    "http://x.com/i/article/2070034058499809280": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070034058499809280",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLrnpEaXAAEqwlQ?format=jpg&name=900x900)](http://x.com/ProfBuehlerMIT/article/2070218465491972248/media/2070221671475118081)\n\nThe Age of Discovery\n\n[![](https://pbs.twimg.com/profile_images/1133792154181021696/vn_-rmPd_normal.png)](http://x.com/ProfBuehlerMIT)\n\n[Markus J. Buehler](http://x.com/ProfBuehlerMIT)\n\n[@ProfBuehlerMIT](http://x.com/ProfBuehlerMIT)\n\n·\n\n15h\n\n·\n\nFollow\n\nClick to Follow ProfBuehlerMIT\n\n3\n\n19\n\n71\n\n[6K](http://x.com/ProfBuehlerMIT/status/2070218465491972248/analytics)\n\nFor all of us who love to imagine, discover, and build, this is a new golden age with boundless opportunities ahead. Artificial intelligence is beginning to change what it means to do science, to be an engineer - to fulfill some of the oldest promises: To build a machine radically smarter than us, with agency in the world, to ultimately build a better world for all of us. It acts as a participant in the work itself: reading the literature, proposing ideas, writing and running the code to test them, experimenting in the physical world, and learning from what works and what does not. The most consequential applications of this will be in discovery, to expand on human-generated knowledge more rapidly than any other technology has been able to. One of the most promising but also challenging applications is in materials science: in the slow, expensive, intuition-bound process by which we find the new molecules, materials, and mechanisms that our future depends on.\n\nThis marks a shift in paradigm: The conventional approach was to train a model on the corpus of existing science - a powerful move, but one that yields, by construction, a compression of what is already known: asked a question, the model returns the consensus of its training distribution. The new frontier of discovery AI inverts this. Rather than only learning from data we already have, these systems generate their own - proposing candidates, running simulations and experiments, and turning the results into fresh data that did not exist before. The model stops being a mirror of the literature and becomes an engine that actively extends it. Genuine discovery is the production of claims that lie outside the current picture, often in direct tension with it. The history of science is a history of results that contradicted the prevailing world model and turned out to be true - because they explained observations better, enabled radically new engineering, and let us imagine new products. So discovery is to expand from what we have seen to dramatically new terrain.\n\n[![Image](https://pbs.twimg.com/media/HLo9XevWIAEhCOM?format=jpg&name=small)](http://x.com/ProfBuehlerMIT/article/2070218465491972248/media/2070034452328095745)\n\nScientific workflows from isolated tool used to decentralized systems. F. Wang, M. Buehler et al.\n\nWe need systems that can extend the boundary of the known: To propose something the state of the art does not contain, recognize when a result conflicts with their own priors, and then do the thing a search engine never does: prove it. Discovery requires a model that is willing to be wrong about itself, that can recognize this breaking point, and which treats its own world model as a hypothesis to be falsified. A system that proposes freely, then testing each proposal against physical law, simulation, and experiment, and updating when the test comes back against expectation. A discovery is only a discovery once it has survived an attempt to break it, and when it demonstrably and irreversibly changes the world.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2070034783489445888/img/AmvpmpGqk4sRA09j.jpg)\n\nAI can generate physics-based models for interactive exploration of designs across scales.\n\nWe have arrived at the age of self-revising, adaptive intelligence\n\nThe most capable systems behave like a malleable network - an or",
+      "title": "",
+      "url": "http://x.com/i/article/2070034058499809280"
+    },
+    "http://x.com/i/article/2070083414510702592": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070083414510702592",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLpqVWEWEAAsL6P?format=jpg&name=900x900)](http://x.com/Zephyr%5Fhg/article/2070171729373118742/media/2070083893663764480)\n\nThe Skill Quietly Minting The First Solo Millionaires Of The AI Era\n\n[![](https://pbs.twimg.com/profile_images/1741076613939277824/vs_v9C1j_normal.jpg)](http://x.com/Zephyr%5Fhg)\n\n[Zephyr](http://x.com/Zephyr%5Fhg)\n\n[@Zephyr\\_hg](http://x.com/Zephyr%5Fhg)\n\n·\n\n18h\n\nFollow\n\nClick to Follow Zephyr\\_hg\n\n31\n\n218\n\n[87K](http://x.com/Zephyr%5Fhg/status/2070171729373118742/analytics)\n\nThe first fortunes of the AI era aren't being built by companies. They're being built by single people with one skill and a laptop. No team, no investors, no decade of grinding. That skill is still free to learn, and the market hasn't started charging for it yet.\n\nA new kind of rich person is showing up, and it's confusing everyone.\n\nNo team. No investors. No decade of grinding. One person, building alone, worth more in a year than most build in twenty.\n\nThey didn't get lucky and they didn't inherit it. They learned one skill before the market knew to charge for it.\n\nThat skill turns a single person into the output of a company. The first fortunes built on it are landing now.\n\nHere is the skill, why it pays what it pays, and why the door is still open.\n\n## \n\nThe First Fortunes Built By One Person\n\nSomething new is happening at the top of the income curve.\n\nFortunes used to need capital, a team, or a decade. A few people are building them alone, in months.\n\nThey aren't coders with a secret. They aren't influencers with a following. They have one skill the market hasn't priced yet.\n\nOne person, a laptop, and AI producing the output of a company.\n\nThat combination didn't exist three years ago. Now it's minting the first solo fortunes of the era.\n\n## \n\nThe One Skill Behind It\n\nForget prompting. Forget coding. Forget building an audience.\n\nThe skill is setting AI up to do real work, then running it the way a company runs staff.\n\nThey give AI the full context of what they're building. They point it at the work. They keep it running.\n\nOne person directs a stack of AI that produces what used to take a floor of employees.\n\nThat's the whole skill, and it's quieter than it sounds.\n\n## \n\nWhy It's Possible Now\n\nThree years ago AI could write you a paragraph. It could not run your business.\n\nNow it holds context, plugs into your tools, and works on a schedule you set.\n\nThe output that used to require hiring now requires a setup.\n\nA single person can carry a team's output without the payroll that used to cap their income.\n\nThe ceiling moved, and almost nobody has noticed.\n\n## \n\nWhy It's Still Wide Open\n\nHere is the part that makes it fair. Anyone can learn this skill.\n\nNo degree teaches it. No fund backs it. The tools cost about what a subscription costs.\n\nThe first people in look like geniuses. They are simply early.\n\nThe door is open because the skill is new and the crowd is still prompting.\n\nEarly is a choice right now. In two years it won't be.\n\n## \n\nWhat The Skill Looks Like Today\n\nStrip away the abstraction and the skill has a shape you can build this weekend. It's setting up Claude to run real work.\n\nYou give Claude a folder that holds everything about what you're building. You write it a short file that briefs it. You plug in your tools and set a few jobs to run on their own.\n\nThe folder is the context. The connectors are the reach. The scheduled tasks are the part that runs without you.\n\nThe person who builds that is the one the market is about to pay like a company.\n\nNot a coder. A system builder.\n\n## \n\nWhere To Start\n\nThe whole thing rests on one skill: setting AI up to produce, not just answer.\n\n[Claude Mastery](https://zephyrhq.gumroad.com/l/ClaudeMastery/Article?utm%5Fsource=Twitter&utm%5Fmedium=Article&utm%5Fcampaign=126)\n\n is the walkthrough for that build. The folder that holds",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2070083414510702592"
     },
     "http://x.com/i/article/2070229603483045888": {
       "cleaner_v": 2,
@@ -7672,6 +7721,21 @@
       "title": "Patterns for Building Cybersecurity Evals Patterns for Building Cybersecurity Evals",
       "url": "https://eugeneyan.com/writing/cybersecurity-evals/"
     },
+    "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Tuesday, June 30, 2026 at 12:00 PM Eastern Daylight Time. AI is accelerating materials discovery — unlocking insights buried in legacy research and enabling scientists to work at speeds traditional methods can't match.\n\nJoin Prof. Markus J. Buehler, McAfee Professor of Engineering at MIT, for a free virtual open house on June 30 at 12:00 PM EDT.\n\n📅 WHAT TO EXPECT\n• Full walkthrough of the 4-day curriculum & labs\n• Guidance on fit for your background and work\n• Live Q&A with the instructor\n\n🔬 FULL COURSE COVERS (July 27–30)\n• Foundation models, generative methods & agentic workflows\n• Massively parallelized AI agents & swarm intelligence\n• Ingesting lab notebooks and legacy PDFs with trained agents\n• Code, datasets & architectures you keep\n\nRegister now to secure your spot. \nhttps://professionaleducation.mit.edu/4v7ts92",
+      "final_url": "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login",
+      "frameable": false,
+      "image_urls": [
+        "https://event.on24.com/event/53/98/70/7/rt/1/images/socialsharing/facebook_1200x628.png"
+      ],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "Open House: Applied AI for Material Discovery",
+      "url": "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login"
+    },
     "https://every.to/events/codex-camp-our-power-user-guide?source=post_button": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8557,6 +8621,22 @@
       "title": "Building a Visualizer for Antigravity Agentic Development Sessions Building a Visualizer for Antigravity Agentic Development Sessions | Guillaume Laforge",
       "url": "https://glaforge.dev/posts/2026/06/11/antigravity-brain-visualizer/"
     },
+    "https://go.copilotkit.ai/beyond-the-web-form": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Join the waitlist to get early access for Slack, MS Teams, Discord integrations\n\nOnce you sign up, we'll be in touch within 24 hours to get you set up.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdUC0Dm3zoYdf9DKSNJB4-kQI1Wrbbptz2LVvxUiRSikS0B1A/viewform?usp=send_form",
+      "frameable": true,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/5b6e_pugM08hhrxJCSjy7wcuDcMQdo_TT-1lX36O2xI9QQMxH17oeuDlC-x0foctdE7hcbZqtb281dI=w1200-h630-p",
+        "https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.\nCopilotKit 'Any Frontend' Early Access (Slack, Teams, Discord, Google Chat etc)\nJoin the waitlist to get early access for Slack, MS Teams, Discord integrations\nOnce you sign up, we'll be in touch within 24 hours to get you set up.\nSign in to Google\nto save your progress.\nLearn more\n* Indicates required question\nFull Name\n*\nYour answer\nWork Email Address\n*\nYour answer\nCompany/Organization Name\n*\nYour answer\nCompany Size (Number of Employees)\n*\nChoose\n1-50\n51-200\n201-500\n501-1000\n1000+\nRole\n*\nEngineering Leadership\nSoftware Engineer\nProduct Manager\nAI/ML Engineer\nSolutions Architect\nFounder / Executive\nOther:\nWhat is your agent stack?\n*\nLangChain\nMastra\nGoogle ADK\nAWS Strands\nMicrosoft Agent Framework\nPydantic AI\nAgno\nCrew AI\nLlamaIndex\nAG2\nOther:\nRequired\n6. Which platforms are you interested in?\n*\nSelf-Learning (CLHF - Continuous Learning from Human Feedback)\nSlack\nMicrosoft Teams\nGoogle Chat\nDiscord\nWeb\nMobile\nOther:\nRequired\nWhat are you building?\nYour answer\nSubmit\nClear form\nNever submit passwords through Google Forms.\nThis form was created inside of tawkit.app.\nDoes this form look suspicious?\nReport\nForms\nHelp and feedback\nContact form owner\nHelp Forms improve\nReport",
+      "title": "CopilotKit 'Any Frontend' Early Access (Slack, Teams, Discord, Google Chat etc)",
+      "url": "https://go.copilotkit.ai/beyond-the-web-form"
+    },
     "https://heroui.com/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
@@ -8737,6 +8817,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Karl Koch | Falling in love with the build",
       "url": "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar"
+    },
+    "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log plot. We can view scaling laws as a framework for describing the relationship between compute, loss, model size and data; at its core, it is about how to allocate precious compute optimally between $N$ and $D$.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "frameable": null,
+      "image_urls": [
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/hestness-1.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/hestness-2.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/rosenfeld-1.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/rosenfeld-2.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/kaplan-1.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/kaplan-2.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/animal.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/chinchilla-1.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/chinchilla-2.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/chinchilla-3.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/chinchilla-4.png",
+        "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/pearce-1.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log plot. We can view scaling laws as a framework for describing the relationship between compute, loss, model size and data; at its core, it is about how to allocate precious compute optimally between $N$ and $D$.\nThis predictability makes scaling laws highly valuable in practice. A common workflow is to fit scaling laws on a handful of small runs and then extrapolate to estimate the token and compute requirements for larger models.\n| Symbol | Note | \n|---|---|\n| $N$ | Model size, measured in parameter count. | \n| $D$ | Training dataset size, usually measured in token count. | \n| $C$ | Training compute in FLOPs. As a useful approximation, $C \\approx 6ND$ ( [Kaplan et al. 2020](https://arxiv.org/abs/2001.08361)), where $2ND$ accounts for the forward pass and $4ND$ for backpropagation. | \n| $E$ | Irreducible loss | \n| $L, \\hat{L}(.)$ | Test loss / test loss prediction function; can also refer to training loss, since they are strongly correlated. | \n| $\\epsilon$ | Generalization error. | \nEarly days: ML loss predictability[#](https://lilianweng.github.io#early-days-ml-loss-predictability)\nThe predictability of generalization error with scale had already been investigated before scaling laws became a mainstream concept.\n[Amari et al. (1992)](https://ieeexplore.ieee.org/document/6796972) derived four types of learning curves using a Bayesian approach and the annealed approximation.\n- Deterministic learning algorithm, noiseless data, one unique solution: $\\epsilon \\sim c \\cdot D^{-1}$, where $c$ is some constant.\n- Deterministic learning algorithm, noiseless data, multiple equivalent solutions: $\\epsilon \\sim c \\cdot D^{-2}$; the learning is faster with each new data point, because the model only learns the optimal manifold of parameters, instead of finding the single solution point.\n- Deterministic learning algorithm, noisy data: $\\epsilon \\sim c \\cdot D^{-1/2}$; noises in data make learning harder.\n- Stochastic learning algorithm, noisy data: $\\epsilon \\sim c \\cdot D^{-1} + E$; here the irreducible loss $E$ is the residual error that a stochastic learner cannot reduce further, for example when the model runs out of capacity on large data. All four types of learning curves follow a power law:\nwhere $E$ can be 0 and $\\alpha = -2, -1, -1/2$. Although their theoretical setup is based on a simplified binary classification task, it points in a useful direction for building empirical ML loss prediction models.\nOne of the earliest empirical studies by [Hestness et al. (2017)](https://arxiv.org/abs/1712.00409) explained the relationship between generalization error, model size and data. For a given training data size, they identified the best-fit model size via grid search and then plotted loss against training dataset size. Across four different domains in deep learning (neural machine translation, image classification, language modeling, and speech recognition), a recurring pattern was observed where:\n- Generalization error scales as a power law across a set of factors (e.g. data size).\n- Model improvements shift the error curve but do not seem to affect the power-law exponent.\n- Interestingly, architecture changes the offset ($E$) of the power-law fit but does not change the exponent ($\\alpha$). The slope of the power law appears to be a property of the problem domain rather than the model architecture.\n- The number of model parameters $N$ needed to fit a dataset of size $D$ also scales as a power law.\nA conceptual illustration breaks the learning curve into three stages. In the small-data region, when there are not enough learning signals, the model performs only slightly better than random guessing. In the middle (“power-law region”), we observ",
+      "title": "Scaling Laws, Carefully | Lil'Log",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
     },
     "https://linear.app/now/code-review-should-be-fast": {
       "cleaner_v": 2,
@@ -9326,35 +9432,6 @@
       "title": "How to Grow From Senior to Staff Engineer in the AI Era",
       "url": "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff"
     },
-    "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "A lot of people seem convinced that the point of AI coding is to write low-quality code as fast as possible. Spew out barely-passable slop, open massive PRs, and merge them unvetted. Ship it! But t…",
-      "extraction_source": "trafilatura",
-      "final_url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
-      "frameable": null,
-      "image_urls": [
-        "https://nolanlawson.com/wp-content/uploads/2025/01/favicon.png?w=32",
-        "https://s2.wp.com/wp-content/themes/pub/springloaded/images/search-btn.gif?m=1230136840i",
-        "https://0.gravatar.com/avatar/34fa393a8013e04c03deff379ac0a6f3ea7a23c5861a6f7410b409974218f5d2?s=30&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://1.gravatar.com/avatar/4ef0fd7e6ff4540febaf58f7a093ee4a4f285dcba7fb1543ebcc17670d8b03e8?s=30&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://2.gravatar.com/avatar/b18409c8ab776e57b6cc4fd131dd127a22847c355ae94c68cf5f5c825539ccc3?s=30&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://2.gravatar.com/avatar/e0cd3f98d3ebef719cbb7099c321734e085ac1f9fb007b3beacda1ee28cdf267?s=30&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://1.gravatar.com/avatar/10d2049b49a4a15f53a92dbcab357d6c5af99c9a5e079ae6cddc4e81666aadb7?s=30&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://2.gravatar.com/avatar/8f171885900016c0c0bd5195bed3645f8a505985e30e42a758b2bfe2814c7a7c?s=30&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://0.gravatar.com/avatar/c69b6850fadadc3023e654837fdcc7c2d3981406d398aae9b0ae0c182bd2a040?s=30&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://1.gravatar.com/avatar/d840f7db4ee32e3c77d132d5f2b45fa2cca9107e83e18d37a088894b13277d96?s=30&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://0.gravatar.com/avatar/c98565e400cea1ec0e290b48d1b323f774797b6d04d470a4ef58c9d2b31e73df?s=30&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G",
-        "https://1.gravatar.com/avatar/a7a613b46b761461f5419c9c63d322b7377612e31a57762079a34aa7f29e838c?s=30&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D30&r=G"
-      ],
-      "kind": "article",
-      "text_excerpt": "A lot of people seem convinced that the point of AI coding is to write low-quality code as fast as possible. Spew out barely-passable slop, open massive PRs, and merge them unvetted. Ship it!\nBut the thing is, LLMs are very flexible. And you can use them just as effectively to write high-quality code more slowly.\nThis statement seems completely obvious to me at this point, and I almost didn’t want to write this post for that reason. But there seem to be enough people convinced that LLMs are only good as [slop cannons](https://x.com/i/status/2021617680525172840) that it’s worth making the opposite case.\nIf [Mythos](https://www.anthropic.com/research/glasswing-initial-update) taught us anything, it’s that LLM agents are really good at finding bugs. Throw them at a codebase enough times, and they will find so many bugs that you’ll barely know what to do with them.\nLike [many others](https://xbow.com/blog/mythos-like-hacking-open-to-all), I’ve also found this is true of non-Mythos models – some may be better than others at finding subtle bugs or avoiding false positives, but the fact is that the latest public models from Anthropic and OpenAI are good enough to find plenty of bugs in an unscrutinized codebase.\nThe problem is not so much finding the bugs, but instead prioritizing and validating them. For this reason I have a Claude skill I adapted from [this article](https://milvus.io/blog/ai-code-review-gets-better-when-models-debate-claude-vs-gemini-vs-codex-vs-qwen-vs-minimax.md)‘s core insight, which is that the more, different models you throw at a PR review, the less likely you are to get hallucinations or bogus bugs.\nThe skill says (paraphrasing):\nRun a Claude sub-agent, Codex, and Cursor Bugbot to find bugs in this PR ranked by critical/high/medium/low. Once they’re all done, review their findings, do your own research to rule out false positives, and write a final report.\nThat’s basically it. You can add your own definition of “bug” if you want – mine has stipulations about the [KISS](https://en.wikipedia.org/wiki/KISS_principle) and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principles, writing accessible HTML/JSX, using proper indexes for SQL queries, etc.\nIn my experience, this skill always finds tons of bugs in a PR, and the false positive rate is near zero. It finds so many bugs that you’ll be bored senseless if you try to tackle them all. They’ll range from critical security or correctness bugs to the more mundane medium-level perf bugs to low-level “this comment is misleading”-type bugs.\nMy typical workflow is:\n- Have an agent fix all the criticals and highs (with my guidance on the proper solution), then repeat until no criticals/highs\n- Skip highs/mediums where the juice isn’t worth the squeeze (e.g. 100 lines of code to fix a narrow edge case)\n- Abandon the PR if it has so many criticals that I realize the whole approach is misguided\nWhen I use this technique, I haven’t necessarily seen my velocity go up. If anything, the review process often finds pre-existing bugs, so I end up on a tangential side-quest where I’m writing unit tests and fixing subtle flaws that pre-date the PR. This is the opposite of the “10x productivity” slop-cannon style of development that most people imagine when they think of vibe coding, but I find it very satisfying.\nIt’s a great way to improve the overall health of the codebase while also teaching you about the odd corners of it. In my experience, the happy-path of a complex architecture is less interesting than its failure modes. And pre-LLMs, this is usually how I got familiar with a codebase anyway: understanding where the assumptions break down, and then getting my hands dirty to fix it.\nIf you’re the kind of person who is skeptical that AI coding is good for anything, then I doubt this post will persuade you. But if you’re the kind of developer who uses agents to write multi-hundred-line PRs that you barely understand yourself, I’d invite you to slow down a bit an",
-      "text_excerpt_zh": "很多人似乎坚信，AI 编程的意义就在于以最快速度写出低质量代码。喷出勉强能用的垃圾，打开巨大的 PR，不经审查就合并。直接上线！\n\n但关键在于，LLM 非常灵活。你同样可以有效地利用它们，以更慢的速度写出高质量的代码。\n\n这句话对我来说现在已是显而易见，正因如此，我几乎不想写这篇文章。但似乎有足够多的人坚信 LLM 只适合当[垃圾炮](https://x.com/i/status/2021617680525172840)，所以值得提出相反的观点。\n\n如果说 [Mythos](https://www.anthropic.com/research/glasswing-initial-update) 教会了我们什么，那就是 LLM 智能体非常擅长发现 Bug。让它们反复冲击一个代码库，它们会找到多到让你不知如何处理的 Bug。\n\n和[许多其他人](https://xbow.com/blog/mythos-like-hacking-open-to-all)一样，我也发现这对于非 Mythos 的模型同样成立——有些模型在发现细微 Bug 或避免误报方面可能更胜一筹，但事实是，Anthropic 和 OpenAI 最新的公开模型已经足够好，能在未经审查的代码库中发现大量 Bug。\n\n问题与其说是发现 Bug，不如说是对它们进行优先级排序和验证。因此，我根据[这篇文章](https://milvus.io/blog/ai-code-review-gets-better-when-models-debate-claude-vs-gemini-vs-codex-vs-qwen-vs-minimax.md)的核心见解，改编了一个 Claude 技能。其核心思想是：你投入审查 PR 的不同模型越多，出现幻觉或虚假 Bug 的可能性就越低。\n\n该技能的内容（概括如下）：\n运行一个 Claude 子智能体、Codex 和 Cursor Bugbot，按严重/高/中/低等级排序，找出此 PR 中的 Bug。等它们全部完成后，审查它们的发现，自行研究以排除误报，然后撰写最终报告。\n\n基本上就是这样。如果你愿意，可以添加自己对“Bug”的定义——我的定义包含关于 [KISS](https://en.wikipedia.org/wiki/KISS_principle) 和 [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) 原则、编写可访问的 HTML/JSX、为 SQL 查询使用正确索引等方面的规定。\n\n根据我的经验，这个技能总能在 PR 中发现大量 Bug，而且误报率几乎为零。它找到的 Bug 多到如果你试图全部解决，会感到无聊透顶。这些 Bug 的范围从严重的安全性或正确性 Bug，到更普通的性能 Bug，再到低级的“此注释具有误导性”这类 Bug。\n\n我的典型工作流程是：\n- 让一个智能体修复所有严重和高等级的 Bug（在我的指导下采用正确的解决方案），然后重复，直到没有严重/高等级 Bug\n- 跳过那些得不偿失的高/中等级 Bug（例如，为了修复一个狭窄的边界情况而写 100 行代码）\n- 如果 PR 有太多严重 Bug，以至于我意识到整个方法都是错误的，就放弃该 PR\n\n当我使用这种技术时，我的开发速度并不一定提高了。相反，审查过程常常会发现预先存在的 Bug，所以我最终会陷入一个旁支任务，编写单元测试并修复那些早于该 PR 的细微缺陷。这与大多数人想到“氛围编程”时所想象的“10 倍生产力”垃圾炮式开发风格截然相反，但我发现这非常令人满意。\n\n这是一种改善代码库整体健康状况的好方法，同时也能让你了解代码库中那些奇怪的角落。根据我的经验，复杂架构的快乐路径远不如其失败模式有趣。而在 LLM 出现之前，这通常也是我熟悉代码库的方式：理解假设在何处失效，然后亲自动手修复。\n\n如果你是那种怀疑 AI 编程一无是处的人，那么我怀疑这篇文章不会说服你。但如果你是那种使用智能体编写数百行代码、自己却几乎看不懂的开发者，我邀请你稍微放慢脚步……",
-      "text_excerpt_zh_hash": "225d4421b57d8307",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Using AI to write better code more slowly | Read the Tea Leaves",
-      "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
-    },
     "https://note.com/pn_yamaken/n/nd3ae714ce54a": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9479,6 +9556,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://openai.com/index/deployment-simulation/"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://openai.com/index/how-agents-are-transforming-work",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "* Products\n* [Business](https://openai.com/business/)\n* [Developers](https://openai.com/api/)\n* [Company](https://openai.com/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=908d515a-f6fc-4d9b-83d6-e4ee18490587&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nHow agents are transforming work | OpenAI\n\nJune 25, 2026\n\n[Company](https://openai.com/news/company-announcements/)\n\n# How agents are transforming work\n\nA new Economic Research paper measuring Codex’s economic potential at the frontier.\n\n[Read the paper(opens in a new window)](https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf)\n\nListen to article\n\nShare\n\nAgentic AI changes the unit of knowledge work from single interactions to delegated, long-horizon tasks. Chatbot interactions are often short and self-contained. Agents can operate independently for minutes or hours while orchestrating tool calls, interacting with environments, and iterating towards solutions. As a result, agents are quickly becoming the most powerful AI tool for work.\n\nOver the last year, we witnessed this transformation first-hand at OpenAI. For the first few months after Codex was released to the public, ChatGPT remained the default AI tool for work within OpenAI. Through August 2025, the average OpenAI worker spent less than 10% of their tokens on Codex. Now, every department, including non-technical departments such as Legal and Recruiting, uses Codex as their primary AI tool for work. This pattern reflects what we believe will be the future of work given the expanded capabilities and accessibility of agentic tools.\n\nShare of active users using Codex\n\nAug 2025Oct 2025Dec 2025Feb 2026Apr 2026Jun 20260%25%50%75%100%Share of 28 day active users on CodexOpenAI (97.9%)Organizations (17.3%)Individuals (0.7%)OpenAIOrganizationsIndividuals\n\nShare of output tokens from Codex\n\nAug 2025Oct 2025Dec 2025Feb 2026Apr 2026Jun 20260%25%50%75%100%Codex share of total output tokensOpenAI (99.8%)Organizations (63.3%)Individuals (16.5%)OpenAIOrganizationsIndividuals\n\nCodex adoption grew in tandem with Codex’s capabilities. As Codex leveraged stronger models and new product features, it became capable of taking on an expanding set of productive tasks. Across Individual users, Organizational users, and OpenAI workers, we document four trends over the past year:\n\n* **People use Codex for longer-horizon work**. By May 2026, 80.6% of sampled individual users made at least one Codex request estimated to exceed 30 minutes of human work, 70.2% made one estimated to exceed one hour, and 25.6% made at least one Codex request estimated to exceed eight hours.\n* **Codex became the primary AI tool for every department at OpenAI**. Engineering moved first, but Legal, Finance, and Recruiting crossed into Codex being their primary AI tool around April 2026\\. For the average OpenAI worker, Codex usage now accounts for more than 85% of output tokens. Since Codex users tend to use more tokens than non-users, its share of overall tokens is even higher: Codex accounts for 99.8% of weekly output tokens generated within OpenAI.\n* **Non-developer adoption grew especially rapidly, outpacing developer adoption**. Since August 2025, non-developer users rose 137x for individual users, 189x for organizational users, and 12x within OpenAI.\n* **Codex enabled OpenAI workers to do tasks outside their job description**. While technical usage is still most prevalent among engineers, non-technical users regularly use Codex to take on coding or technical execution, including automation, data transformation, tooling, debugging, and structured analysis.\n\n## Agents work longer hours on harder tasks\n\nNearly a",
+      "title": "",
+      "url": "https://openai.com/index/how-agents-are-transforming-work"
     },
     "https://oreillyradar.substack.com/p/kubernetes-in-the-age-of-ai": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -10612,20 +10703,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2069108298629201920/img/at2ERNbuy5lkbA6m.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2069339033101316096/img/f_jh77Y-TEQI0ZpM.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2069339033101316096/img/f_jh77Y-TEQI0ZpM.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2069339033101316096/img/f_jh77Y-TEQI0ZpM.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2069339033101316096/img/f_jh77Y-TEQI0ZpM.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2069408866513850368/img/eRutIVbltGosWxOu.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10682,6 +10759,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10695,6 +10800,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -13832,6 +13965,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
     },
+    "https://pbs.twimg.com/media/HLpddRMaAAASOKz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLpddRMaAAASOKz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLpddRMaAAASOKz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLpddRMaAAASOKz.jpg"
+    },
     "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13971,6 +14118,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg"
+    },
+    "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14553,6 +14714,26 @@
       "title": "Is AI replacing jobs? Chinese tech giants layoff workforce - Rest of World",
       "url": "https://restofworld.org/2026/china-tech-layoffs-alibaba-baidu-ai-pivot/?utm_campaign=row-social"
     },
+    "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Rachel Adams warns AI-generated content sabotages civilian safety in conflict zones, and calls out global inequities and the role of Western tech powerhouses.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/04/QA-event-AI-war-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/04/QA-event-AI-war.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/04/Rachel_Adams_Headshot-1-scaled.jpeg?width=600&dpr=2&crop=9:16",
+        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_chinaAI_USusage_final.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/RoW_DispatchOnsite_11Jun2026.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "Artificial intelligence is reshaping modern warfare.\nDuring the recent U.S.-Israel war on Iran, AI was used to identify and strike targets, accelerate the speed of attacks, and get weaponry recommendations. Far from the conflict zones, AI also enabled the creation and spread of disinformation and deepfakes that confused public opinion and made it hard to understand on-ground realities.\nSocial media streams are flooded with AI-generated content masquerading as real footage, including false clips of Burj Khalifa on fire and fabricated scenes of missiles striking the streets of Tel Aviv.\nRachel Adams, CEO and founder of the Global Center on AI Governance, believes such misinformation risks influencing life-or-death decisions — from where civilians seek shelter to how aid is distributed.\nAdams is an expert on AI governance and the political economy of emerging technologies. She was one of the lead drafters of the African Union Commission’s Continental AI Strategy, a framework designed to harness AI for socioeconomic transformation and technological sovereignty. She is also the author of The New Empire of AI: The Future of Global Inequality. The Global Center on AI Governance is an Africa-based research collective dedicated to promoting responsible and equitable AI practices globally.\nIn a conversation with Rest of World, Adams outlined how AI is amplifying long-standing global inequities in information and power, and how this trend could have a lasting impact on the world even after the wars are over. She also offered tips on how individuals can identify AI-generated content and protect themselves.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World [event is available here](https://www.youtube.com/watch?v=zNKAmSHwzIk). \nCould you talk about the use of AI in recent wars and its real-world implications?\nOne of the first things that we’re noticing is the sheer volume of false or misleading wartime images or information being shared. These are AI-generated clips presented as footage or satellite images from conflict regions.\nIt’s also not always a deepfake and is often old footage from other conflicts being relabeled by AI and presented as new.\nThe other thing to really stress is the kind of emotional engineering that is going on with such content. It’s trying to invoke fear, triumph, or helplessness. Very often, it feels like that’s the whole point of such content: to intensify, polarize, and manipulate people’s emotions about the conflicts and international opinion.\nWhat we have to remember is that this affects people inside the conflict zones. They need to make decisions about where to move, and where aid and shelter might be available. For those caught in the conflict, it’s a question of life and death, and if there’s disinformation circulating about where they can get shelter or aid, it becomes something much more serious.\nYour work is focused on inequity. Could you explain how inequities play out during conflicts with rampant AI-generated misinformation?\nIn the Global South, many countries have historically been vulnerable to information manipulation. They have weaker media ecosystems, or they are newer democracies and have experienced external narrative control.\nThis has been an issue at the heart of decolonization and who gets to write history. Experiences are often written over by official accounts, which are usually Western. Now, AI enables that writing over in ways that deny or invisibilize authorship and therefore accountability. It’s not clear who’s doing that writing over, but it’s still happening.\nFor me, a lot of these questions are wrapped up with critical questions about power. Who gets to define truth in times of war? Whose voices are being trusted? Whose realities are being dismissed?\nWhen truth becomes contestable and uncertain, it’s those with the greatest institutional power — whether it’s platforms, particular states, particular militaries — that are better positioned",
+      "title": "Deadly deepfakes: A survival guide for the age of algorithmic war - Rest of World",
+      "url": "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social"
+    },
     "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -14574,6 +14755,25 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Silicon Valley’s status as “most desirable employer” - Rest of World",
       "url": "https://restofworld.org/2026/silicon-valley-status/?utm_campaign=row-social&utm_source=twitter"
+    },
+    "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Former Hugging Face APAC lead Tiezhen Wang explains how Chinese labs use open-source models to outpace the U.S. in workplace adoption and beat Western “tokenmaxxing” costs.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
+      "frameable": false,
+      "image_urls": [
+        "https://restofworld.org/wp-content/uploads/2026/06/HuggingFace-QA-HED-1600x900.jpg",
+        "https://fastly.restofworld.org/uploads/2026/06/HuggingFace-QA-HED-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/GettyImages-2271683687-scaled.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/illo_fifa_data_final.jpg?width=800&dpr=2&crop=16:9",
+        "https://fastly.restofworld.org/uploads/2026/06/CHINA-EV-3CHARTS-9.jpg?width=800&dpr=2&crop=16:9"
+      ],
+      "kind": "article",
+      "text_excerpt": "As the U.S. and China battle for artificial intelligence supremacy, a fundamental divide in engineering philosophy could determine the winner.\nWhile American pioneers like OpenAI and Anthropic favor a closed-source approach — keeping their proprietary model code locked behind a commercial interface — Chinese AI labs are aggressively releasing open-source models. This strategy allows developers to download, inspect, and deeply customize the underlying code for free, rather than remaining dependent on an American tech giant’s ecosystem.\nTiezhen Wang, former head of the Asia-Pacific ecosystem at AI community collaboration platform Hugging Face, has observed this trend over the years. Before he moved on from Hugging Face in May, he assisted AI labs in the region in launching open-source models, and helped researchers make their models easier for developers to use.\nAt a Rest of World virtual event, Wang spoke about the history of open-source models, how Chinese AI labs monetize despite not charging for their models, and the debate over model distillation and intellectual property.\nThe conversation has been edited for length and clarity. A recording of the live Rest of World event is available [here](https://www.youtube.com/watch?v=gSsR1ezeenk).\nWhat is the role of open-source models in the China-U.S. AI competition?\nA lot of people talk about the AI competition. But in the open-source world, we hold a collaborative mindset.\nMany open-source releases from the Chinese labs are helping U.S. labs. For example, the reinforcement learning training algorithm from DeepSeek is becoming the default setting for many U.S. research labs. Many Chinese open-source weights are running on U.S. hardware.\nIt is like helping each other, not competing like a zero-sum game. We can both be winners if we are growing the pie together.\nOpenAI and Anthropic have [accused Chinese AI companies](https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china/) of distilling their models. How do you view this as an open-source advocate? Is this a challenge for Chinese AI labs?\nDistillation is a neutral word in the research world. It’s like I’ve read a book, and I’m telling someone what the book is about. The other person also understands what the book is saying. That’s basically distillation.\nIt has been done a lot in research labs. I don’t think distillation by itself is anything wrong, and I believe people in the U.S. are distilling each other as well. Recently, we have seen Elon Musk admit that xAI [distilled from OpenAI](https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/).\nIt is well known that Anthropic and ChatGPT are [crawling the internet](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/), getting all kinds of information. So it’s interesting to see that those who did not generate knowledge are trying to stop others from reusing that knowledge.\nAll AI-generated content should have zero copyright, otherwise people who have compute can abuse and generate all kinds of combinations and copyright everything.\nHow does monetization differ for open-source and closed-source models?\nIf you open-source your model, it’s hard to make money directly. But you can still make money.\nFor example, China’s [Kimi released their model for free](https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues), but their application programming interface and subscription are still in huge demand because they have the best infrastructure support.\nOnce a model is released as open-source, people have to spend engineering hours to run it. So, on day zero, the research lab that launched the model has an advantage. That’s one way they can make money.\nAnother way is, for example, Kimi could release a fine-tuned model as open-source, but keep the base models to themselves, which they can sell.\nIf we want to think about why a research lab would open-source its models, i",
+      "title": "OpenAI or Deepseek? Role of China’s open-source in the AI race - Rest of World",
+      "url": "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social"
     },
     "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social&utm_source=twitter&utm_medium=social&utm_content=1781558881": {
       "cleaner_v": 2,
@@ -14838,6 +15038,26 @@
       "title": "Everything you should know about certificates and PKI but are too afraid to ask",
       "url": "https://smallstep.com/blog/everything-pki/"
     },
+    "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "frameable": null,
+      "image_urls": [
+        "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=240%2C240&ssl=1",
+        "https://stratechery.com/wp-content/uploads/2025/01/Stratechery-logo-1.svg",
+        "https://i0.wp.com/dithering.passport.online/assets/2026-6-DitheringCoverart.jpg?w=128&h=128&ssl=1",
+        "https://i0.wp.com/sharptech.fm/assets/Sharp%20Tech%20-%20Black.png?w=128&h=128&ssl=1",
+        "https://i0.wp.com/goat.passport.online/assets/goat-podcast-cover-plus.png?w=128&h=128&ssl=1"
+      ],
+      "kind": "article",
+      "text_excerpt": "Listen to this post:\nGood morning,\nThis week’s Stratechery interview is with Figma co-founder and CEO [Dylan Field](https://x.com/zoink). Field was a Thiel Fellow who dropped out of Brown in 2012 to start Figma. Figma was born of a technical breakthrough that leveraged WebGL to deliver powerful graphical capabilities in the browser; the browser made Figma collaborative, what I call [the operating system of design](https://stratechery.com/2022/adobe-acquires-figma-figmas-disruption-the-figma-os/).\nFigma has had a fascinating road: the company accepted an acquisition offer from Adobe in 2022, but due to regulatory resistence the latter was forced to abandon the merger in late 2023. [Figma instead IPO’d in 2025](https://stratechery.com/2025/figma-s-1-the-figma-os-figmas-ai-potential/), and after skyrocketing to a valuation of $56.3 billion, has since crashed to a market cap of less than $10 billion, less than half of Adobe’s offer, thanks in large part to a market narrative that the company is an AI loser.\nI talk to Field about all of this, including his background, Figma’s differentiation discovery process, and the nature of creativity versus design. We get into the AI question, which the market views as a headwind, but which Field sees as a tailwind. To that end, the occasion for this interview was Figma’s [Config](https://config.figma.com/) conference and Field’s [keynote](https://www.youtube.com/watch?v=2ZCc4k_IV5w&t=1s) where he explained how Figma’s Canvas was the natural intersection between design and AI.\nAs a reminder, all Stratechery content, including interviews, is available as a podcast; click the link at the top of this email to add Stratechery to your podcast player.\nOn to the Interview:\nAn Interview with Figma CEO Dylan Field About Design and AI\nThis interview is lightly edited for clarity.\nTopics:\n[Background](https://stratechery.com#background)|\n[WebGL and the Foundation of Figma](https://stratechery.com#webgl)|\n[Work in Figma](https://stratechery.com#work-in-figma)|\n[The Adobe Acquisition That Wasn’t](https://stratechery.com#adobe)|\n[Art vs. Design](https://stratechery.com#art-vs-design)|\n[AI Headwinds](https://stratechery.com#ai-headwinds)|\n[Code on the Canvas](https://stratechery.com#code-canvas)|\n[Acquiring AI Natives](https://stratechery.com#customer-acquisition)|\n[AI and Path Dependency](https://stratechery.com#ai-path-dependency)\nBackground\nDylan Field, it feels like this interview has been in the works for years, but welcome to Stratechery.\nDF: Thank you, appreciate you having me, and big fan.\nLet’s start with your background. Where did you grow up, how did you become interested in technology? I always love these stories, especially the first time I talk to someone, and I think yours is a particularly interesting one. So give me the story.\nDF: I grew up in Penngrove, California, which is near Petaluma in Sonoma County — but not Sonoma, it’s critical to make sure people know where Penngrove is. My mom was an elementary school teacher, my dad a respiratory therapist, both not especially tech-savvy, but my mom early on realized that a computer would be useful for me to stop bugging them with questions and bug the computer instead. So I was lucky enough to get a — I think it was a [Compaq Presario](https://en.wikipedia.org/wiki/Compaq_Presario) — when I was like five the family got one, and then I proceeded to really hog it.\nI’ve pretty much been interested in technology as far back as I can remember, I was very eager and excited to learn how to program, but didn’t necessarily have the ability to get my hands in a compiler for a while. It took until I got through some scholastic program, a BASIC compiler, to actually get properly started. I’ve also always had a, maybe not as much ability as I’d like, but a deep fascination with mathematics and just really everything in the world.\nAnd so this is just a fascination with the technology — like, how does this thing actually work, and how can I make it do what I w",
+      "title": "An Interview with Figma CEO Dylan Field About Design and AI – Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/"
+    },
     "https://stratechery.com/2026/anthropics-safety-superpower/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -14860,6 +15080,32 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Anthropic’s Safety Superpower – Stratechery by Ben Thompson",
       "url": "https://stratechery.com/2026/anthropics-safety-superpower/"
+    },
+    "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "My experience and reflections on vibe coding an app that I plan on actually using regularly.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+      "frameable": null,
+      "image_urls": [
+        "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=240%2C240&ssl=1",
+        "https://stratechery.com/wp-content/uploads/2025/01/Stratechery-logo-1.svg",
+        "https://i0.wp.com/goat.passport.online/assets/goat-podcast-cover-plus.png?w=128&h=128&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/09/Stratechery-Plus-Logo.png?resize=450%2C75&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/09/stratechery-update-marketing.png?resize=300%2C300&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/09/stratechery-interviews-marketing.png?resize=300%2C300&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/09/dithering-marketing.png?resize=300%2C300&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/09/sharptech-marketing-2.png?resize=300%2C300&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2022/10/Sharp-China-Yellow.png?resize=300%2C300&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2023/01/goat-podcast-cover-crop.png?resize=1500%2C1500&ssl=1",
+        "https://i0.wp.com/stratechery.com/wp-content/uploads/2025/01/asianometry-1-1.png?resize=1024%2C1024&ssl=1"
+      ],
+      "kind": "article",
+      "text_excerpt": "My experience and reflections on vibe coding an app that I plan on actually using regularly.\nSubscribe to Stratechery Plus for full access.\nAlready subscribed?\n$15 / month or $150 / year\nWith Stratechery Plus you get access to the subscriber-only [Stratechery Update](https://stratechery.com/category/daily-email/) and [Stratechery Interviews](https://stratechery.com/topic/events/interview/), and the Sharp Tech, Sharp China, Dithering, Greatest of All Talk, and Asianometry podcasts.\nStratechery Update\nSubstantial analysis of the news of the day delivered via three weekly emails or podcasts.\nStratechery Interviews\nInterviews with leading public CEOs, private company founders, and discussions with fellow analysts.\nDithering\nA twice-weekly podcast from John Gruber and myself: 15 minutes an episode, not a minute less, not a minute more.\nSharp Tech\nAndrew Sharp and myself discuss how technology works and the ways it impacts our lives.\nSharp China\nA weekly podcast from Andrew Sharp and Sinocism’s Bill Bishop about understanding China and how China impacts the world.\nGreatest Of All Talk\nA twice-weekly podcast from Andrew Sharp and Ben Golliver about the NBA, life, and national parks.\nAsianometry\nAudio and transcripts of the [Asianometry YouTube channel](https://www.youtube.com/@Asianometry), the best source for learning about how tech works.\nSharp Text\nSharp Text is an extension of GOAT, Sharp Tech and Sharp China, where Andrew writes about basketball, technology, and US-China relations with weekly posts.\nStratechery Updates are also available via SMS, RSS, or on this site. Please see the [Stratechery Update Schedule](https://stratechery.com/daily-update/daily-update-schedule/) for more details about delivery times and planned days-off. Please note that all subscriptions auto-renew monthly/annually (but can be [cancelled](https://stratechery.passport.online/member/account/subs) at any time). If you are interested in ordering and managing multiple subscriptions for your team or company, please fill in the form [here](https://stratechery.com/daily-update/group/).\nStratechery is on break and will return Monday, July 6th.\nFrequently-Asked Questions\nHow do I subscribe to the Stratechery Podcast?\nOnce you are subscribed, please visit your [Delivery Preferences](https://stratechery.passport.online/member/) where you will find easy-to-follow instructions for adding Stratechery Podcasts to your favorite podcast player.\nCan I read Stratechery via RSS?\nYes! [Create a Stratechery Passport account](https://stratechery.com/podcasts/), go to Delivery Preferences, and add your personalized RSS feed. Free accounts will have access to Weekly Articles, while subscribers will have access to the Daily Update as well.\nCan I share a Stratechery Update subscription with a friend?\nNo, the Stratechery Update and Stratechery Podcast are intended for one subscriber only. Sharing emails, using shared inboxes, or sharing RSS feeds is a violation of Stratechery’s [Terms of Service](https://stratechery.com/terms-of-service/), and your account may be suspended or your RSS feed reset. Of course occasional forwarding of the Stratechery Update to interested friends or colleagues is totally fine.\nCan I buy a subscription for my team?\nYes! You can [purchase a team subscription here](https://stratechery.passport.online/member/team/4ycW4SE71Cy6ryrijywbTG). \nCan I switch to an annual plan?\nYes! Just go to [your account page](https://stratechery.passport.online/member), choose the ‘Subscriptions’ tab, and click the Annual upgrade button. You will be charged immediately, with a prorated discount applied for the remainder of your current monthly plan.\nDo you offer a student discount?\nStratechery is purposely kept at a low price — thousands of dollars less than other analyst reports or newsletters — to ensure it is accessible to everyone, including students.\nCan you create a custom invoice that meets my government/company requirements?\nI am happy to create an invoice to your spe",
+      "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways – Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/"
     },
     "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents": {
       "cleaner_v": 2,
@@ -15239,6 +15485,24 @@
       "title": "Introducing eve - Vercel",
       "url": "https://vercel.com/blog/introducing-eve"
     },
+    "https://vercel.com/blog/teaching-agents-product-design-at-vercel": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Learn how Vercel teaches agents product design with agent skills, lint rules, Vercel Agent code reviews, evals, and a human-led update loop.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
+      "frameable": null,
+      "image_urls": [
+        "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5QppV68SzRFSazpDzlIKT5/beac5779b3bd02e6d45ac9cc0509edf6/Teaching_Agents_Product_Design_at_Vercel__1_.png",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/5OQ439FfnztyeaJANsWjdW/240492035b7f01f1588014837002a310/john-phamous-128.jpg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Coding agents can produce working UI fast, but what's harder is a different shape. They can copy your product's style, match its patterns, and try to follow its conventions. What they cannot do is understand why those patterns exist. Code shows agents what shipped, not why one component, phrase, or interaction became your standard. That reasoning lives in design reviews, PR comments, Slack threads, and with the people who were in the room. For an agent, context that isn't in the codebase doesn't exist.\nVercel is an agent-native team. We treat accepted product decisions like code, keeping them in the repository, reviewing changes against them, and making them available to every agent working there.\nThe way we do this is through product-design. It's a system with three parts:\n- An agent skill that gives coding agents the context behind decisions that require product or codebase judgment. \n- Linters that enforce clear rules automatically. \n- A review loop that gathers evidence from Slack, Figma, and GitHub, then prepares guideline updates for review. \nAny team can build the same structure around their own standards.\n[Link to heading](https://vercel.com#inside-the-product-design-skill)Inside the product-design skill\nThe skill lives inside the repository alongside the code it governs. Here's a simplified view of its structure:\nrepository/├── AGENTS.md├── .agents/│   └── skills/│       └── product-design/│           ├── AGENTS.md│           ├── SKILL.md│           ├── references/│           │   ├── product-judgment.md│           │   ├── interface-quality.md│           │   ├── resilience.md│           │   ├── surfaces.md│           │   ├── surfaces-{surface}.md│           │   ├── copy.md│           │   ├── rules.md│           │   ├── glossary.md│           │   ├── patterns.md│           │   └── coverage-gaps.md│           └── exemplars/│               └── pr-{name}.md└── tooling/    └── scripts/        └── copywriting-eval/            ├── fixtures.json            ├── rules-checklist.json            └── <fixture>/                ├── before/                └── after/The product-design skill structure inside the repository.\n- The repository - AGENTS.mdtells coding agents when to load the skill. The skill-local- AGENTS.mddefines load order, validation, and governance.- SKILL.mdowns the runtime workflow.\n- references/stores product-judgment, interface-quality, resilience, copy, canonical product names, interaction patterns, and surface-specific decisions.\n- exemplars/documents decisions worth repeating from shipped pull requests, along with mistakes to avoid.- coverage-gaps.mdlists areas where we do not have a standard yet.\n- copywriting-eval/tests copy and interface-language behavior. It does not evaluate the broader product-design workflow.\n[Link to heading](https://vercel.com#how-the-skill-routes)How the skill routes\nSKILL.md resolves the request mode first: shape, implement, review, copy, or harden. This keeps audits from becoming edits and copy passes from expanding into redesigns. It skips backend-only work, telemetry, console errors, generated files, and tests with no shipped UI impact.\nThe skill routes to canonical sources instead of duplicating them. Component APIs, design-system rules, accessibility criteria, and interaction guidance stay with their owners.\nRouting is specific to both task and surface. Material changes load product-judgment and interface-quality first. Copy, component, layout, interaction, accessibility, and resilience work each route to focused references. A modal loads destructive-action patterns and canonical verbs. A settings form loads labels, validation, progressive disclosure, and accessible-name guidance.\nYou can use this simplified structure as a starting point and replace the paths and standards with your own:\n---name: product-designdescription: >-  Single entry point for product design and user-facing product implementation  in apps/vercel-site. Use whenever work changes what a user sees, understands,",
+      "title": "Teaching agents product design at Vercel - Vercel",
+      "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel"
+    },
     "https://vercel.com/changelog/websocket-support-is-now-in-public-beta": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -15611,6 +15875,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek"
+    },
+    "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11b882c9eff474c`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo"
+    },
+    "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11b883b6d5accd3`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+      "title": "",
+      "url": "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -17065,10 +17357,6 @@
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
-    "2059310083234799819": [
-      "https://x.com/clear_graphics/status/2059310083234799819",
-      "http://x.com/i/article/2059041726552031232"
-    ],
     "2059323435776401900": [
       "https://x.com/SidebarIO/status/2059323435776401900",
       "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
@@ -17076,9 +17364,6 @@
       "https://x.com/SidebarIO/status/2059993607419965888",
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    ],
-    "2059326660592255088": [
-      "https://x.com/rfgarcia/status/2059326660592255088"
     ],
     "2059357818709524740": [
       "https://x.com/LifeOfShandi/status/2059357818709524740",
@@ -17096,17 +17381,6 @@
       "https://pbs.twimg.com/media/HJRoq57W0AAZbXE.jpg",
       "https://x.com/kplikethebird/status/2059457012769902866",
       "https://every.to/events/codex-camp-our-power-user-guide?source=post_button"
-    ],
-    "2059392639334846486": [
-      "https://x.com/pbakaus/status/2059392639334846486",
-      "http://x.com/i/article/2059312804893708288",
-      "https://x.com/pbakaus/status/2059706288318337115",
-      "https://x.com/pbakaus/status/2059654414370283691",
-      "https://x.com/pbakaus/status/2059653228636323986"
-    ],
-    "2059524465516818487": [
-      "https://x.com/vikingmute/status/2059524465516818487",
-      "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
     ],
     "2059529029204721734": [
       "https://x.com/findingnische/status/2059529029204721734"
@@ -22066,6 +22340,16 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2069797329809395978": [
+      "https://x.com/ataiiam/status/2069797329809395978",
+      "http://x.com/i/article/2069467654612455425",
+      "https://x.com/ataiiam/status/2069835612551524582",
+      "https://x.com/ataiiam/status/2069835656977657993",
+      "https://x.com/ataiiam/status/2069835886972252463",
+      "https://x.com/ataiiam/status/2070269772126937456",
+      "https://go.copilotkit.ai/beyond-the-web-form",
+      "https://pbs.twimg.com/amplify_video_thumb/2070269709547888640/img/r0otRz1Xsi44fsFb.jpg"
+    ],
     "2069797770257670217": [
       "https://x.com/zerolangai/status/2069797770257670217",
       "http://x.com/i/article/2069696547986776064"
@@ -22102,8 +22386,8 @@
     "2069827356865486901": [
       "https://x.com/haxfenx/status/2069827356865486901",
       "https://fenx.work/paper-design-alpha/",
-      "https://x.com/haxfenx/status/2069339468814057474",
-      "https://pbs.twimg.com/amplify_video_thumb/2069339033101316096/img/f_jh77Y-TEQI0ZpM.jpg"
+      "https://x.com/haxfenx/status/2070074793412751448",
+      "https://pbs.twimg.com/media/HLpddRMaAAASOKz.jpg"
     ],
     "2069831588964135138": [
       "https://x.com/5imian/status/2069831588964135138"
@@ -22181,10 +22465,16 @@
     ],
     "2070023917071433995": [
       "https://x.com/pmarca/status/2070023917071433995",
+      "https://x.com/pmarca/status/2070427515932606761",
+      "https://x.com/pmarca/status/2070424948867469808",
       "https://x.com/pmarca/status/2070383785854853359",
-      "https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg",
-      "https://x.com/pmarca/status/2070382016743526683",
-      "https://x.com/pmarca/status/2070369135079592424"
+      "https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg"
+    ],
+    "2070084586714046792": [
+      "https://x.com/stratechery/status/2070084586714046792",
+      "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "https://x.com/stratechery/status/2069722209246216432",
+      "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/"
     ],
     "2070084796378747316": [
       "https://x.com/getzaroai/status/2070084796378747316",
@@ -22222,13 +22512,38 @@
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
+    "2070156017262793008": [
+      "https://x.com/AnatoliKopadze/status/2070156017262793008",
+      "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg",
+      "https://x.com/AnatoliKopadze/status/2070173084431045068",
+      "https://x.com/AnatoliKopadze/status/2070156820211986516",
+      "https://x.com/AnatoliKopadze/status/2070156907625476441",
+      "https://x.com/AnatoliKopadze/status/2070165742117404976"
+    ],
+    "2070158436994605064": [
+      "https://x.com/axios/status/2070158436994605064",
+      "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
+      "https://x.com/axios/status/2070359258713948201",
+      "https://www.axios.com/2026/06/26/europe-heat-wave-deaths-record-temperature-uk-italy-france?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d98178d6"
+    ],
+    "2070171729373118742": [
+      "https://x.com/Zephyr_hg/status/2070171729373118742",
+      "http://x.com/i/article/2070083414510702592"
+    ],
+    "2070180324651528434": [
+      "https://x.com/OpenAINewsroom/status/2070180324651528434",
+      "https://openai.com/index/how-agents-are-transforming-work"
+    ],
+    "2070184342509244643": [
+      "https://x.com/usv/status/2070184342509244643"
+    ],
     "2070185508949414348": [
       "https://x.com/SidebarIO/status/2070185508949414348",
       "https://jakub.kr/writing/less-is-more?ref=sidebar",
       "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069823127798825427",
+      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
     ],
     "2070187537369583778": [
       "https://x.com/v0/status/2070187537369583778",
@@ -22240,27 +22555,84 @@
       "https://x.com/v0/status/2070187598635823126",
       "https://v0.app/docs/design-systems-2"
     ],
+    "2070189787185824123": [
+      "https://x.com/nurijanian/status/2070189787185824123",
+      "https://x.com/nurijanian/status/2070253284947095859",
+      "http://nurijanian.substack.com",
+      "http://prodmgmt.world"
+    ],
+    "2070189941209075906": [
+      "https://x.com/itsalexvacca/status/2070189941209075906",
+      "http://x.com/i/article/2069741413164568576"
+    ],
+    "2070194762007576934": [
+      "https://x.com/PawelHuryn/status/2070194762007576934",
+      "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg",
+      "https://x.com/PawelHuryn/status/2070195108469776783",
+      "https://x.com/PawelHuryn/status/2064079508689358857?s=20"
+    ],
     "2070195075485749253": [
       "https://x.com/SidebarIO/status/2070195075485749253",
       "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar",
       "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069823127798825427",
+      "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+    ],
+    "2070218465491972248": [
+      "https://x.com/ProfBuehlerMIT/status/2070218465491972248",
+      "http://x.com/i/article/2070034058499809280",
+      "https://x.com/ProfBuehlerMIT/status/2070337181701353722",
+      "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login",
+      "https://x.com/ProfBuehlerMIT/status/2070438657236860979",
+      "https://x.com/ProfBuehlerMIT/status/2070337033298391453"
+    ],
+    "2070224920458793161": [
+      "https://x.com/h100envy/status/2070224920458793161",
+      "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg"
+    ],
+    "2070230293429244094": [
+      "https://x.com/SpencerFarrar/status/2070230293429244094",
+      "http://x.com/i/article/2069868400579596290"
     ],
     "2070234507995910413": [
       "https://x.com/hyojun_at/status/2070234507995910413",
       "http://x.com/i/article/2070229603483045888",
       "https://x.com/hyojun_at/status/2070266285137748379",
-      "https://x.com/hyojun_at/status/2070239188583383392",
       "https://x.com/hyojun_at/status/2070307533307486710",
-      "https://x.com/hyojun_at/status/2070374132097896609"
+      "https://x.com/hyojun_at/status/2070374132097896609",
+      "https://x.com/hyojun_at/status/2070239188583383392"
+    ],
+    "2070234879888138539": [
+      "https://x.com/Letta_AI/status/2070234879888138539",
+      "http://x.com/i/article/2070024964095533056",
+      "https://x.com/Letta_AI/status/2070193323068060007"
+    ],
+    "2070237256070389897": [
+      "https://x.com/lilianweng/status/2070237256070389897",
+      "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "https://x.com/lilianweng/status/2070239863203623369",
+      "https://x.com/lilianweng/status/2070240252988629313"
+    ],
+    "2070237878563844305": [
+      "https://x.com/vercel_dev/status/2070237878563844305",
+      "https://vercel.com/blog/teaching-agents-product-design-at-vercel"
     ],
     "2070240866246033494": [
       "https://x.com/seflless/status/2070240866246033494",
       "https://github.com/tobi/try"
+    ],
+    "2070246912440066225": [
+      "https://x.com/restofworld/status/2070246912440066225",
+      "https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_campaign=row-social",
+      "https://x.com/restofworld/status/2070297241252675601",
+      "https://restofworld.org/2026/deepfakes-ai-war-disinformation/?utm_campaign=row-social&utm_source=twitter&utm_medium=social"
+    ],
+    "2070415013366423875": [
+      "https://x.com/Zephyr_hg/status/2070415013366423875",
+      "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg"
     ]
   },
-  "updated_at": "2026-06-26T06:29:08Z",
+  "updated_at": "2026-06-26T10:28:53Z",
   "window": "recent"
 }
