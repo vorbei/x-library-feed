@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 330,
+      "count": 331,
       "name": "Articles"
     },
     {
@@ -40,6 +40,39 @@
   "format": "poche-feed/1",
   "item_count": 2393,
   "items": [
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_error": "HTTP Error 403: Forbidden",
+      "article_text": "* Products\n* [Business](https://openai.com/business/)\n* [Developers](https://openai.com/api/)\n* [Company](https://openai.com/about/)\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=69cfc854-9dfc-4b42-9165-4eb5db3bd9c7&openaicom%5Freferred=true)\n\n* Research\n* Products\n* Business\n* Developers\n* Company\n* [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nPreviewing GPT-5.6 Sol: a next-generation model | OpenAI\n\n       0                     0           .                0            .          . 0       .   .      .\n      .                  0 .                        0 0                 0    0 .             0\n                   .     .                                                               .              0\n        .   .          ..     0                     0                                              .\n                                          .         0 .                                               .\n                                                               0                  0           .\n       .   .         . .           ..           .  .               .                                  .  .     0\n    0     .                        .                                              .         .   0               .    0\n .    .                  .   .                        0 .  .   .         .                         ..        ..\n  .     .        .                                                .                           0      .     .         .\n                                                                              .    0          .\n                 0                               0                    .            .          .        .      .\n                    .                                         0           .            0\n      0                 .         .       .       0  .                     .                . . .\n       0                          .     .    .             .      0 .                      .\n      .                                  0                   0 0     .\n            .                           .        ..     .               .                   .\n                                                .           0         0.           0         0                  . .\n.                  0              .                             .0            .  00             .                 0\n       .                      . 0                 .                               .          .         .            .\n         .       .    0   .                   .        .           .              .\n.          .    0    0           0       .      .             .   0       . .  .                 0               0\n           .   .                  .                                      .          .    .            0           .\n        .                .    .                  .                           .                                 .\n\n.  .        0         ..     .     .         .                                0  .    .0\n             0                     .\n                               .          .                     .               ..\n  0   .  .              .                             0                   0                .\n                                                                0                   .\n     0      .   ..                       .\n             .        .                     .. .      .     .       .     .\n                                     .              .          .\n                                      0                .                            0\n.                            0                                          .    .0.        .\n      .                                       .   .   0              .             .\n                          0",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-26T17:18:32.713996Z",
+      "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "domain": "openai.com",
+      "embed_type": "",
+      "id": "k176351yk9d2rj93e3h46mw4q589dc2h",
+      "og_image_url": "https://cloud.poche.app/api/storage/b82c7d95-c9ee-48e4-8bb5-80dfc39d4820",
+      "recommended_at": "2026-06-26T17:20:44.294000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "machine-learning",
+        "cybersecurity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-26T17:20:44.294000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Previewing GPT-5.6 Sol: a next-generation model | OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
       "article_fetch_error": "HTTP Error 403: Forbidden",
@@ -1971,8 +2004,9 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-18T04:35:54.715438Z",
       "description": "Chris Raroque • YouTube",
@@ -2043,7 +2077,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_image_urls": [
         "https://lettera.md/assets/social-card.png",
         "https://lettera.md/assets/icon-a.svg",
@@ -2094,8 +2128,10 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_fetch_error": "HTTP Error 429: Too Many Requests",
+      "article_title_extracted": "- YouTube",
       "category": "Media",
       "created_at": "2026-06-19T05:04:33.417433Z",
       "description": "OpenAI • YouTube",
@@ -2128,7 +2164,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_image_urls": [
         "https://supacode.sh/screenshot.png",
         "https://supacode.sh/supacode-app-icon.png"
@@ -2167,7 +2203,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_image_urls": [
         "https://nubjs.com/opengraph-image-12gd74?b93aebf5af4c1f12",
         "https://nubjs.com/twitter-image-12gd74?b93aebf5af4c1f12",
@@ -2210,7 +2246,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_image_urls": [
         "https://www.deck.gallery/og_image.webp",
         "https://deck.gallery/assets/figma/mailbox.svg",
@@ -2218,12 +2254,12 @@
         "https://deck.gallery/assets/figma/slides.svg",
         "https://deck.gallery/assets/figma/shop.svg",
         "https://deck.gallery/assets/figma/logo-mark.svg",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-19.aiport-futures-by-gharage-2024/aiport-futures-by-gharage-2024-001/ThumbnailTiny?exp=4070908800&sig=bb7b83028d695e6c4ea62d8a5d735dc33f911463d631bd2c3c18e16693577467",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-18.chiquita-brand-typeface-2017/chiquita-brand-typeface-2017-001/ThumbnailTiny?exp=4070908800&sig=6fba6c5741a61e91f748eef237daed1792fbe8dc394077a5ba679c6d5a4d4793",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-17.lululemon-global-wellbeing-report-2024/lululemon-global-wellbeing-report-2024-001/ThumbnailTiny?exp=4070908800&sig=a171fad780d13381ab2fe774fa83c389601e20ba737e0a9875313e757c33c6b4",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-16.artsmidwest-brand-guidelines-2025/artsmidwest-brand-guidelines-2025-001/ThumbnailTiny?exp=4070908800&sig=5140c1cebd3e2bec297c9460288c28291b559163f9b3b65035cc27c24e6d002d",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-15.the-realreal-resale-report-2024/the-realreal-resale-report-2024-001/ThumbnailTiny?exp=4070908800&sig=93ff451b90b8c6316a13af69a610f3e40dd9e8488831f0f3d4e11180a848ea02",
-        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-14.creator-economy-report-2025/creator-economy-report-2025-001/ThumbnailTiny?exp=4070908800&sig=fb4dd4c06306bf04f3813467f5f9b719c27d2831eec3c05e63b9e2316b633789"
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-26.project-earth-report-2023/project-earth-report-2023-001/ThumbnailTiny?exp=4070908800&sig=c693628bcd21f2c8f605c10d13cc77d8a1ef5c1b9bd5a7e264019a6b8d6166e8",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-25.united-arrows-integrated-report-2023/united-arrows-integrated-report-2023-001/ThumbnailTiny?exp=4070908800&sig=c5a4fc41446f113fa064266d602ee3e4d73864206797b631e00dd71d10e5690c",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-24.snapchat-the-friendship-report-2019/snapchat-the-friendship-report-2019-001/ThumbnailTiny?exp=4070908800&sig=4f26e295c96807fcdace1d897e202611d2075f8f31c64be18ce2dfce7a0277d5",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-23.roblox-fashion-and-beauty-trends-2025/roblox-fashion-and-beauty-trends-2025-001/ThumbnailTiny?exp=4070908800&sig=4144098a2c418730c491b630d89778b9cc2f65ba0fa916c136745a57a9176cff",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-22.the-immunized-shopper/the-immunized-shopper-001/ThumbnailTiny?exp=4070908800&sig=1db8cd8fdd9a5683580d0ac83867b45eca199fec9c3c0eed2609004a4396759d",
+        "https://imagedelivery.net/uFVexoQwGTYzS67uRtpgFg/2026-06-21.league-of-legends-visual-effects-2017/league-of-legends-visual-effects-2017-001/ThumbnailTiny?exp=4070908800&sig=92345b502628b509d42fef9b79165dd69b49d68980033919e7a31980775cc01e"
       ],
       "article_title_extracted": "Deck.gallery — Beautifully designed decks, curated",
       "category": "Design",
@@ -2262,7 +2298,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-19T15:52:21.323350Z",
+      "article_fetch_attempted_at": "2026-06-26T18:15:24.578614Z",
       "article_image_urls": [
         "https://freight.cargo.site/t/original/i/e7dd8214615e68838fb59cf1923966284aa953f20fd90708b32b24bd9d544f63/website-wim.jpg",
         "https://freight.cargo.site/t/original/i/da6d13b38eb01aa6d5c1f1ba35b7060f3d3115ec5f12cc84f1d1a4df29b2e99c/website-wim2.jpg",
@@ -80369,51 +80405,7 @@
           "recommended_at": "2025-11-18T14:49:55.301000Z",
           "recommended_by": "disinfeqt",
           "slug": "dine"
-        }
-      ],
-      "title": "For Your Consideration",
-      "title_zh": "供您参考",
-      "title_zh_hash": "de10ce647f67bbac",
-      "title_zh_translator_v": 2,
-      "url": "https://www.fycartists.com/",
-      "x_status_id": null
-    },
-    {
-      "article_fetch_attempted_at": "2026-06-26T04:55:50.650947Z",
-      "article_image_urls": [
-        "https://www.fycartists.com/fyc-opengraph.jpg",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fbritt-lloyd%2F329641843_596305902328437_7922431035091238107_n.jpeg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Felliot-ross%2FTIME-240930_ElliotRoss-Tearsheet_240920_0001.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fasato-iida%2F22FALL_D2_011-1.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fsebastian-jean%2FHS_KYLE_MACLACHLAN_8_2025-08-27-192139_jisl.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fike-edeani%2F9.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fsebastian-jean%2F0559_15_2024-06-11-185651_gxdz.JPG&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fjerry-buttles%2FDickies-X-Union-LA-3_2023-10-20-214602_mbtd.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fike-edeani%2Fedeani_21-lewis-hamilton-7368_05.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Felliot-ross%2FCRB_ReflectionOverlook_211104_0002-ds-Edit.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Frenae-wootson%2F20231117_jayson_handprint_5-final.jpg&w=2048&q=75",
-        "https://www.fycartists.com/_next/image?url=https%3A%2F%2Fcms.fycartists.com%2Fuploads%2Fmedia%2Fdaniel-chaney%2Fdanielchaney_1696548498_3207203717236417043_3253682.jpg&w=2048&q=75"
-      ],
-      "article_title_extracted": "For Your Consideration",
-      "category": "Design",
-      "created_at": "2025-11-17T16:16:25.057503Z",
-      "description": "For Your Consideration represents a diverse group of internationally recognized artists working with the most influential brands, publications, and people of our time. Founded by a team of producers, the agency aims to reimagine the boundaries of creative possibility, while supporting its artists and clients in the development of world-class campaigns—from initial concept to final delivery.",
-      "description_zh": "For Your Consideration 汇聚了一批与国际知名品牌、出版物及当代最具影响力人物合作的国际知名艺术家。该机构由一支制作人团队创立，旨在重新构想创意可能性的边界，同时支持其艺术家与客户共同打造世界级广告活动——从初始概念到最终交付的全流程。",
-      "description_zh_hash": "4bf550c1179db791",
-      "description_zh_translator_v": 2,
-      "domain": "www.fycartists.com",
-      "embed_type": "",
-      "id": "k17c90dpzvjdjj5mth3gd25kmd7vk7rq",
-      "og_image_url": "https://www.fycartists.com/fyc-opengraph.jpg",
-      "recommended_at": "2025-11-18T12:55:12.054000Z",
-      "source": "poche@fonter",
-      "source_type": "poche",
-      "tags": [
-        "artist-agency",
-        "creative-production",
-        "visual-artists"
-      ],
-      "teams": [
+        },
         {
           "id": "m573a51c5e5psp5f31j28mct5d7szcb1",
           "name": "fonter",
@@ -106617,7 +106609,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2233,
+      "count": 2234,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -106653,5 +106645,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-26T15:14:58.900526Z"
+  "updated_at": "2026-06-26T18:16:08.436182Z"
 }
