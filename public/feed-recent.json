@@ -90,6 +90,31 @@
       "title": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2",
       "url": "http://Z.ai"
     },
+    "http://Zaro.ai": {
+      "content_type": "text/html",
+      "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
+      "final_url": "https://zaro.ai:443/",
+      "frameable": null,
+      "image_urls": [
+        "https://zaro.ai/og-image.png?v=mqu8disd",
+        "https://zaro.ai:443/hero-orbit/cards/sales-6271-145556.svg",
+        "https://zaro.ai:443/hero-orbit/cards/personal-pixel.svg",
+        "https://zaro.ai:443/hero-orbit/cards/marketing-6271-146021.svg",
+        "https://zaro.ai:443/hero-orbit/cards/product-6271-146481.svg",
+        "https://zaro.ai:443/hero-orbit/cards/operations-6271-146712.svg",
+        "https://zaro.ai:443/hero-orbit/cards/design-6271-146943.svg",
+        "https://zaro.ai:443/hero-orbit/cards/hr-legal-6271-147174.svg",
+        "https://zaro.ai:443/hero-orbit/cards/finance-6271-151327.svg",
+        "https://zaro.ai:443/logos/salesforce.svg?v=mqu8disd",
+        "https://zaro.ai:443/logos/salesforce-dark.svg?v=mqu8disd",
+        "https://zaro.ai:443/v4/apps/previews/smart-calendar.webp?v=mqu8disd"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Zaro - Build intelligence for your company. Not your vendor. Zaro - Build intelligence for your company. Not your vendor.",
+      "url": "http://Zaro.ai"
+    },
     "http://agent-browser.dev": {
       "content_type": "text/html; charset=utf-8",
       "description": "Browser automation CLI for AI agents",
@@ -889,22 +914,6 @@
       "title": "",
       "url": "http://x.com/i/article/2053482765333540868"
     },
-    "http://x.com/i/article/2054257420969373696": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2054257420969373696",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2054257420969373696/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HINCYJTXQAAp6zd?format=jpg&name=900x900)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2054558837592506368)\n\nWe're rewriting OpenCut.\n\n[![](https://pbs.twimg.com/profile_images/2054392834342432768/KcIqAx9r_normal.jpg)](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[OpenCut](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[@opencutapp](http://x.com/i/article/2054257420969373696/opencutapp)\n\n·\n\n4h\n\n·\n\nFollow\n\nClick to Follow opencutapp\n\n7\n\n7\n\n111\n\n[10K](http://x.com/i/article/2054257420969373696/opencutapp/status/2059360143909802128/analytics)\n\nOpenCut started as an open source video editor. That's still true. But what it's becoming is something much bigger.\n\nWe're rebuilding from the ground up. Here's what that means.\n\n## \n\nEverything in this post comes from one decision.\n\n[![Image](https://pbs.twimg.com/media/HJRPLF6XMAI-8FF?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059357981599281154)\n\nThe engine is TypeScript running in a browser. That's fine when web is the only platform. It's not anymore.\n\n[![Image](https://pbs.twimg.com/media/HJQ3BD4WgAAD3FX?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059331420976218112)\n\nOpenCut is expanding to Desktop, Android, and iOS. Each platform becomes a thin UI layer, wrapped around the same underlying engine.\n\n[![Image](https://pbs.twimg.com/media/HJQ-fFCXgAADfcT?format=jpg&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059339633264132096)\n\nWe're also adding 4 things that weren't possible before.\n\n## \n\nFirst, the things you've been asking for\n\nBefore we get to the big stuff, here's what's new on the surface:\n\n* A brand new UI (revolutionary)\n* Keyboard-first mode (opt-in)\n* Auto caption fixes\n* Transitions and filters\n* A faster, more stable renderer\n* Group elements (finally)\n* A much bigger effects library\n\nThese are coming with the rewrite because we're building everything fresh.\n\n## \n\nPlugins\n\nOpenCut is getting a plugin system. You'll be able to install third-party plugins from the Store, or build and publish your own.\n\nBuilt-in features and third-party plugins run on the same Plugin API. You can disable any built-in feature you don't want.\n\nSome plugin ideas:\n\n* Custom snapping: snap to audio peaks in the timeline\n* Cross-platform publishing: publish to TikTok, YouTube, Instagram, and more all inside the editor.\n* Silence remover: scan the timeline and cut any silence longer than a threshold you set.\n\n## \n\nHeadless mode\n\nOpenCut has always been an editor. You open it, you edit some stuff, and maybe export it.\n\nBut what if you never opened it at all?\n\nHeadless mode lets you run the engine without a UI. You script what you want and it renders a finished video.\n\nSome things it makes possible:\n\n* Batch rendering: queue 50 clips with the same template, come back to finished files.\n* Template pipelines: define your format once, swap the assets, re-render. What took an hour of clicking is now a script you run.\n* Server-side rendering: Build anything on top of OpenCut. Your users click a button and a render comes out. They never see the editor.\n\n## \n\nA scripting tab\n\nPlugins are for things you want to add permanently. But sometimes, you just want to automate something once, or try something weird, or do something the UI doesn't expose.\n\nThat's what the scripting tab is for. It's a tab in the editor where you can write scripts that talk directly to OpenCut.\n\n## \n\nAn MCP server\n\n[![Image](https://pbs.twimg.com/media/HJRCySZWwAA5qID?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059344361314238464)\n\nIf",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2054257420969373696/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HINCYJTXQAAp6zd?format=jpg&name=900x900)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2054558837592506368)\n\n我们正在重写 OpenCut。\n\n[![](https://pbs.twimg.com/profile_images/2054392834342432768/KcIqAx9r_normal.jpg)](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[OpenCut](http://x.com/i/article/2054257420969373696/opencutapp)\n\n[@opencutapp](http://x.com/i/article/2054257420969373696/opencutapp)\n\n·\n\n4小时前\n\n·\n\n关注\n\n点击关注 opencutapp\n\n7\n\n7\n\n111\n\n[1万](http://x.com/i/article/2054257420969373696/opencutapp/status/2059360143909802128/analytics)\n\nOpenCut 最初是一个开源视频编辑器。这一点依然没变。但它正在变成的东西，远比这宏大得多。\n\n我们正在从零开始重建。以下是这意味着什么。\n\n## \n\n这篇文章里的一切，都源于一个决定。\n\n[![图片](https://pbs.twimg.com/media/HJRPLF6XMAI-8FF?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059357981599281154)\n\n引擎是运行在浏览器中的 TypeScript。当 Web 是唯一平台时，这没问题。但现在情况不同了。\n\n[![图片](https://pbs.twimg.com/media/HJQ3BD4WgAAD3FX?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059331420976218112)\n\nOpenCut 正在扩展到桌面端、Android 和 iOS。每个平台都成为一个薄薄的 UI 层，包裹在同一个底层引擎之上。\n\n[![图片](https://pbs.twimg.com/media/HJQ-fFCXgAADfcT?format=jpg&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059339633264132096)\n\n我们还增加了 4 项以前不可能实现的功能。\n\n## \n\n首先，是你们一直要求的功能\n\n在进入重磅内容之前，先看看表面上的新变化：\n\n* 全新的 UI（革命性的）\n* 键盘优先模式（可选加入）\n* 自动字幕修复\n* 转场和滤镜\n* 更快、更稳定的渲染器\n* 元素分组（终于来了）\n* 更大的特效库\n\n这些功能会随着重写一起到来，因为我们正在全新构建一切。\n\n## \n\n插件\n\nOpenCut 将拥有一个插件系统。你可以从商店安装第三方插件，也可以自行构建并发布。\n\n内置功能和第三方插件运行在同一个 Plugin API 上。你可以禁用任何不需要的内置功能。\n\n一些插件创意：\n\n* 自定义吸附：在时间线上吸附到音频峰值\n* 跨平台发布：在编辑器内直接发布到 TikTok、YouTube、Instagram 等平台\n* 静音移除：扫描时间线，删除所有超过你设定阈值的静音片段\n\n## \n\n无头模式\n\nOpenCut 一直以来都是一个编辑器。你打开它，编辑一些内容，然后可能导出它。\n\n但如果你从未打开过它呢？\n\n无头模式让你可以在没有 UI 的情况下运行引擎。你编写脚本，它就能渲染出完成的视频。\n\n它带来的一些可能性：\n\n* 批量渲染：将 50 个片段放入同一个模板队列，回来时就能拿到完成的文件\n* 模板流水线：定义一次你的格式，替换素材，重新渲染。过去需要一小时点击操作的工作，现在变成了一个可以运行的脚本\n* 服务端渲染：在 OpenCut 之上构建任何东西。你的用户点击一个按钮，渲染结果就出来了。他们甚至看不到编辑器。\n\n## \n\n脚本标签页\n\n插件适用于你想要永久添加的功能。但有时，你只是想自动化一次，或者尝试一些奇怪的东西，或者做一些 UI 没有暴露出来的操作。\n\n这就是脚本标签页的用途。它是编辑器中的一个标签页，你可以在里面编写直接与 OpenCut 通信的脚本。\n\n## \n\n一个 MCP 服务器\n\n[![图片](https://pbs.twimg.com/media/HJRCySZWwAA5qID?format=png&name=small)](http://x.com/i/article/2054257420969373696/opencutapp/article/2059360143909802128/media/2059344361314238464)\n\n如果",
-      "text_excerpt_zh_hash": "9eccd10015e82a3c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2054257420969373696"
-    },
     "http://x.com/i/article/2054556222360084480": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1030,22 +1039,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058192123556405248"
     },
-    "http://x.com/i/article/2058844103157116928": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2058844103157116928",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2058844103157116928/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJJ8DM_XMAA2ZIy?format=jpg&name=900x900)](http://x.com/i/article/2058844103157116928/ZoharAtkins/article/2059288101860610525/media/2058844374130176000)\n\nThe SaaS Apocalypse Is a Kabbalah Lesson\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[Zohar Atkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[@ZoharAtkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n·\n\n9h\n\nFollow\n\nClick to Follow ZoharAtkins\n\n7\n\n32\n\n[4.5K](http://x.com/i/article/2058844103157116928/ZoharAtkins/status/2059288101860610525/analytics)\n\nFor 140 years, the Florentines stared at a hole in their cathedral.\n\nThe Duomo was commissioned in 1296\\. The plans called for a dome rivaling the Pantheon, larger than anything built since the fall of Rome in masonry. But the plans did not specify how the dome would be built. No one knew what to do. The Florentines built the rest of the cathedral anyway. They built the nave, the transepts, the apse. For four generations the city's most important building rose toward a sky it could not yet close. Rain fell on the altar. The faithful prayed anyway.\n\nIn 1418, Filippo Brunelleschi won the commission with a design using herringbone brickwork that could support its own weight as it rose. By 1436 the dome was built. The hole closed. The cathedral, after a hundred and forty years of being a cathedral on paper, became a cathedral.\n\nAt the beginning of 2026, a trillion dollars in market cap vanished. A cathedral we thought was whole revealed a giant hole.\n\nPundits called it the SaaS Apocalypse. The massive drawn down in software stocks. Software was eating the world (\n\n[@pmarca](https://x.com/@pmarca)\n\n) until the narrative shifted to AI is eating software (\n\n[@naval](https://x.com/@naval)\n\n). IDC predicts that by 2028, 70% of software vendors will have refactored their pricing away from seats entirely. (The \"seat\" is the standard SaaS pricing unit: a company pays per employee who uses the software. It is the model that built Salesforce, Workday, Slack, and most of the trillion-dollar mountain that is now sliding.) BetterCloud's 2025 index found that the average number of SaaS applications per company dropped 18% in a year, with 82% of companies actively reducing supplier counts.\n\nThe conventional view is this: Foundation models, the large general-purpose AI systems that can be prompted to do almost any text-based task, are commoditizing the application layer. Vibe coding and agentic frameworks mean that the CRM-shaped thing, the ticketing-shaped thing, the planning-shaped thing can be reassembled on demand by anyone with a model and a prompt. The interface that SaaS sold as the product turns out to have been scaffolding. The seat as a unit of value was always a metric of how many humans were touching the vessel, sold as a metric of how much form was being delivered. The form is now nearly free. The seats are still being priced. The numbers do not work. (I happen to disagree with this consensus view and think \n\n[@danshipper](https://x.com/@danshipper)\n\n is directionally right: as AI agents multiply, we'll see a surge in demand for something like agent \"seating.\")\n\nIn any case, the trillion dollars did not actually disappear. It just moved elsewhere.\n\nThe question Western religion has fought over for two millennia is how the infinite reaches the finite. How does something that has no body, no location, and no edges actually arrive in a world that has all three? Three positions emerged. Each is now being recapitulated by the technology industry without anyone noticing. And this evergreen metaphysical debate is at the heart not just of debates about whether AI is intelligent, but about whether one should short Salesforce.\n\nThe first pos",
-      "text_excerpt_zh": "## 键盘快捷键\n\n按问号键查看键盘快捷键\n\n[查看键盘快捷键](http://x.com/i/article/2058844103157116928/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJJ8DM_XMAA2ZIy?format=jpg&name=900x900)](http://x.com/i/article/2058844103157116928/ZoharAtkins/article/2059288101860610525/media/2058844374130176000)\n\nSaaS 末日是一堂卡巴拉课\n\n[![](https://pbs.twimg.com/profile_images/1688374226657398784/ofEXkBFh_normal.jpg)](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[Zohar Atkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n[@ZoharAtkins](http://x.com/i/article/2058844103157116928/ZoharAtkins)\n\n·\n\n9小时前\n\n关注\n\n点击关注 ZoharAtkins\n\n7\n\n32\n\n[4.5K](http://x.com/i/article/2058844103157116928/ZoharAtkins/status/2059288101860610525/analytics)\n\n140 年来，佛罗伦萨人一直盯着他们大教堂上的那个洞。\n\n圣母百花大教堂于 1296 年动工。设计图纸要求建造一个可与万神殿媲美的穹顶，比罗马帝国灭亡以来任何砖石建筑都要宏伟。但图纸并未说明穹顶将如何建造。没人知道该怎么做。佛罗伦萨人还是继续建造大教堂的其他部分。他们建了中殿、耳堂、后殿。历经四代人，这座城市最重要的建筑向着一个它尚无法封顶的天空不断升高。雨水落在祭坛上。信徒们依然祈祷。\n\n1418 年，菲利波·布鲁内莱斯基凭借一种采用人字形砖砌结构的设计赢得了委托，这种结构能在穹顶上升时支撑自身重量。到 1436 年，穹顶建成了。那个洞合上了。这座大教堂，在纸上做了一百四十年的大教堂之后，终于成为了一座真正的大教堂。\n\n2026 年初，一万亿美元的市值蒸发了。一座我们以为完整的大教堂，露出了一个巨大的洞。\n\n评论家们称之为 SaaS 末日。软件股票的大幅下跌。软件正在吞噬世界（[@pmarca](https://x.com/@pmarca)），直到叙事转向 AI 正在吞噬软件（[@naval](https://x.com/@naval)）。IDC 预测，到 2028 年，70% 的软件供应商将完全重构其定价模式，不再基于席位。（\"席位\"是标准的 SaaS 定价单位：公司为每位使用软件的员工付费。这是构建 Salesforce、Workday、Slack 以及如今正在下滑的万亿美元市值大山中大部分公司的模式。）BetterCloud 的 2025 年指数发现，每家公司平均使用的 SaaS 应用数量在一年内下降了 18%，82% 的公司正在积极减少供应商数量。\n\n传统观点是：基础模型——那些可以被提示执行几乎任何基于文本任务的大型通用 AI 系统——正在将应用层商品化。Vibe coding 和 agentic 框架意味着，任何拥有模型和提示的人都可以按需重新组装 CRM 形状的东西、工单形状的东西、规划形状的东西。SaaS 作为产品出售的界面，结果证明只是脚手架。作为价值单位的席位，一直只是衡量有多少人在接触这个容器的指标，却被当作衡量有多少形式被交付的指标来出售。现在形式几乎免费了。席位仍在定价。数字行不通了。（我碰巧不同意这种共识观点，并且认为 [@danshipper](https://x.com/@danshipper) 的方向是对的：随着 AI agent 的激增，我们将看到对类似 agent \"席位\"的需求激增。）\n\n无论如何，那一万亿美元实际上并没有消失。它只是转移到了别处。\n\n西方宗教争论了两千年的问题是，无限如何触及有限。一个没有身体、没有位置、没有边界的东西，如何真正到达一个三者都有的世界？出现了三种立场。每一种现在都在被科技行业重演，而无人察觉。这场永恒的形而上学辩论，不仅是关于 AI 是否智能的辩论核心，也是关于是否应该做空 Salesforce 的辩论核心。\n\n第一种立场……",
-      "text_excerpt_zh_hash": "08229de5d95294ef",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2058844103157116928"
-    },
     "http://x.com/i/article/2058921706710818816": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1061,22 +1054,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2058921706710818816"
-    },
-    "http://x.com/i/article/2059015409442148352": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059015409442148352",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059015409442148352/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJMYoyOaUAALSA0?format=jpg&name=900x900)](http://x.com/i/article/2059015409442148352/Alfred%5FLin/article/2059269948518932623/media/2059016543594500096)\n\nFinite and Infinite Mindsets - Part II\n\n[![](https://pbs.twimg.com/profile_images/2052168520302211072/WiTYQWeX_normal.jpg)](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n[Alfred Lin](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n[@Alfred\\_Lin](http://x.com/i/article/2059015409442148352/Alfred%5FLin)\n\n·\n\n10h\n\nFollow\n\nClick to Follow Alfred\\_Lin\n\n8\n\n15\n\n115\n\n[11K](http://x.com/i/article/2059015409442148352/Alfred%5FLin/status/2059269948518932623/analytics)\n\nWe play a combination of finite and infinite games on any given day. Apply the appropriate tools to each.\n\n\\--\n\nIn any introductory class to game theory, the \n\n[prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's%5Fdilemma)\n\n is one of the thought experiments discussed. This game involves two rational agents, each of whom can cooperate for mutual benefit or defect for individual gain. Defection is rational, but cooperation yields a higher payoff. If we only play one game, rationality prevails, and we defect. It turns out that if we play a fixed number of games, logic says that we would defect on the last game, which then, by induction, we would defect on the game before the last game, and therefore, every game. There is one clear strategy. These are examples of finite games.\n\nBy changing one variable, if the number of games to be played is unknown or infinite, we now have an infinite game. Various strategies are mathematically provable as \n\n[Nash equilibriums](https://en.wikipedia.org/wiki/Nash%5Fequilibrium)\n\n, where no player can gain by changing their approach. These include cooperating every time, defecting every time, and cooperating until you observe a defection and then defect from there. This revelation is a reminder not to apply finite game approaches to infinite games.\n\nMany businesses use finite game thinking on infinite games. They usually involve statements such as Company A will crush Company B because Company A has more capital and resources, a better product, a much higher valuation, or the market leader position, and the game is over. The statement shows finite game thinking. These advantages are not just temporary, they are fleeting. If that's all it takes, first movers would win every time.\n\nPundits have made proclamations, such as Microsoft will kill Apple, Intel will kill Nvidia, Google will kill Microsoft, etc., but all of these companies are larger than they were many decades ago and have switched leadership positions multiple times.\n\nBy 1995, the internet reached critical mass due to the invention of the browser. Netscape Navigator was the most widely used web browser, and Netscape became a public company on August 9, 1995\\. Microsoft assembled an elite team and licensed Mosaic to create Internet Explorer 1.0, released with Microsoft Windows 95 Plus! on August 24, 1995\\. Over the next few years, the \n\n[browser wars](https://en.wikipedia.org/wiki/Browser%5Fwars)\n\n ensued, and Internet Explorer became the new dominant browser, attaining a peak of 96% browser share in 2001\\. This was a significant win, but the bundling strategy employed by Microsoft resulted in an \n\n[antitrust trial and settlement](https://en.wikipedia.org/wiki/United%5FStates%5Fv.%5FMicrosoft%5FCorp.)\n\n that would slow the company down for over a decade.\n\nWith this opening, Google would emerge to win internet search and the second browser wars. Google enjoyed high growth, high profitability, and unlimited resources to invest in its future. Yet, they couldn't win in social (Meta, X, Snap), web services (Amazon), or mobile (Apple). Despite four decades of chip dominance by Intel, with transformer architecture and large-lang",
-      "text_excerpt_zh": "## 有限与无限思维——第二部分\n\n我们每天都会同时参与有限游戏和无限游戏。请为每种游戏应用合适的工具。\n\n\\--\n\n在任何博弈论的入门课程中，[囚徒困境](https://en.wikipedia.org/wiki/Prisoner's%5Fdilemma) 都是被讨论的思想实验之一。这个游戏涉及两个理性主体，每个主体都可以选择合作以获取共同利益，或背叛以获取个人利益。背叛是理性的，但合作能带来更高的回报。如果我们只玩一局游戏，理性占上风，我们会选择背叛。事实证明，如果我们玩固定局数的游戏，逻辑告诉我们会在最后一局背叛，然后通过归纳推理，我们会在倒数第二局也背叛，因此每一局都会背叛。这里只有一种明确的策略。这些都是有限游戏的例子。\n\n通过改变一个变量，如果游戏局数是未知的或无限的，我们就进入了无限游戏。各种策略在数学上可以被证明是[纳什均衡](https://en.wikipedia.org/wiki/Nash%5Fequilibrium)，即任何玩家都无法通过改变策略而获益。这些策略包括每次都合作、每次都背叛，以及合作直到观察到一次背叛，然后从此开始背叛。这一发现提醒我们，不要将有限游戏的思维应用于无限游戏。\n\n许多企业在无限游戏中使用了有限游戏的思维。这类说法通常包括：公司A将击败公司B，因为公司A拥有更多的资本和资源、更好的产品、更高的估值，或是市场领导者地位，游戏已经结束了。这种说法体现了有限游戏思维。这些优势不仅是暂时的，而且是转瞬即逝的。如果仅凭这些就能取胜，那么先行者将永远获胜。\n\n评论家们曾做出过各种断言，例如微软将扼杀苹果、英特尔将扼杀英伟达、谷歌将扼杀微软等等，但这些公司如今都比几十年前规模更大，并且多次交换了领导地位。\n\n到1995年，由于浏览器的发明，互联网达到了临界规模。Netscape Navigator 是最广泛使用的网页浏览器，Netscape 于1995年8月9日成为一家上市公司。微软组建了一支精英团队，并授权使用 Mosaic 来创建 Internet Explorer 1.0，该浏览器于1995年8月24日随 Microsoft Windows 95 Plus! 发布。在接下来的几年里，[浏览器大战](https://en.wikipedia.org/wiki/Browser%5Fwars) 随之展开，Internet Explorer 成为新的主导浏览器，在2001年达到了96%的浏览器市场份额峰值。这是一场重大的胜利，但微软采用的捆绑策略导致了[反垄断诉讼与和解](https://en.wikipedia.org/wiki/United%5FStates%5Fv.%5FMicrosoft%5FCorp.)，这使该公司在此后十多年里发展放缓。\n\n借助这一契机，谷歌崛起并赢得了互联网搜索以及第二次浏览器大战。谷歌享受着高增长、高利润和无限的资源来投资未来。然而，他们却未能在社交领域（Meta、X、Snap）、网络服务领域（亚马逊）或移动领域（苹果）获胜。尽管英特尔凭借其芯片主导地位长达四十年，但随着 Transformer 架构和大语言",
-      "text_excerpt_zh_hash": "049e296545c728af",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059015409442148352"
     },
     "http://x.com/i/article/2059041726552031232": {
       "cleaner_v": 2,
@@ -7730,6 +7707,29 @@
       "title": "DuckDB: Not Quack Science – DuckDB",
       "url": "https://duckdb.org/library/duckdb-not-quack-science/"
     },
+    "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "As AI makes product experiences more probabilistic, designers must move beyond interfaces to shape the systems, constraints, and behaviors beneath them.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://emilycampbell.co/images/blog/layers-og.jpg",
+        "https://emilycampbell.co/_next/image?url=%2Fimages%2Fblog%2Fbelow-the-surface-img-1.webp&w=3840&q=75",
+        "https://emilycampbell.co/images/blog/below-the-surface-img-3.webp",
+        "https://emilycampbell.co/images/blog/elements-of-ux.webp",
+        "https://emilycampbell.co/images/blog/elements-of-product-design.webp",
+        "https://emilycampbell.co/images/blog/layers-of-ai.webp",
+        "https://emilycampbell.co/images/blog/dit17.webp",
+        "https://emilycampbell.co/_next/image?url=%2Fimages%2Fblog%2Fshaping-the-clay-of-ai-img-1.webp&w=3840&q=75",
+        "https://emilycampbell.co/_next/image?url=%2Fimages%2Fblog%2Fmy-emerging-heuristics-for-assessing-ai-design-img-1.webp&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Layers of AI experience\nDesigning beneath the surface\nIt’s hard to imagine that it has been only 3 ½ years since ChatGPT was released to the public. We're still so early in the process of understanding how this generative material works, how it incorporates into tasks and journeys, and how it changes what we build and for whom.\nWhat is clear though, is we are entering a renaissance of new design roles and opportunities for design influence.\nThe introduction of generative AI into digital products has upended the interaction model that anchored much of the previous era of design. Great AI products are multi-dimensional. Small changes to one can have an outsized impact on the whole.\nSpare me the “design is dead” takes. Design is more important than ever. However, the form of our roles and work is evolving, just as it has before, to meet the new challenges and opportunities presented by our changing medium.\nPast is prologue\nThe concept of design as a multi-layered domain is not new. What is changing is how complex the system is as a whole, and how deep into the system design can influence.\nDeterministic design\nIn the early web, work was often segmented by role. Visual designers owned website UIs; information architects owned site navigation and structure; business stakeholders owned requirements; etc. This reflected the waterfall nature of product development, and often led to workflows where each discipline optimized for their own area of focus rather than the outcomes of the product as a whole.\nIn 2000, Jesse James Garrett published his seminal essay, [The Elements of User Experience](http://www.jjg.net/elements/), describing an alternative model. He explored how websites were actually composed of multiple planes, each dependent on the others. For example, navigation reflected product strategy, while usability issues in the interface might reveal weaknesses in the underlying architecture.\nMyopic optimization ultimately harmed the user experience. Garrett argued that designers needed to understand the experience produced by the system as a whole, rather than limiting their responsibility or influence to the layer they directly controlled:\nThe user experience development process is all about ensuring that no aspect of the user’s experience with your site happens without your conscious, explicit intent. This means taking into account every possibility of every action the user is likely to take and understanding the user’s expectations at every step of the way through that process\n— Jesse James Garrett,\n[The Elements of User Experience](http://www.jjg.net/elements/)\nThe result was a highly deterministic model of design, where the team was responsible for understanding the user’s goals, mapping their journeys, and coordinating decisions across all five planes in order to intentionally shape the final product.\nAnticipatory design\nTwenty years later, Jamie Mill revisited this framework as [The Elements of Product Design](https://jamiemill.com/blog/2021-07-10-elements-of-product-design/). \nAs products became more algorithmic and adaptive to user data and behavior, it became more difficult to design for every possible use case.\nMill’s updated model applied a wider lens and considered the many influences that shape the user experience. Beyond the “solution space” of the product itself, Garrett’s original focus, Mill also considered the “problem space”, where discovery practices reveal user needs and behavior, as well as “the real world,” accounting for constraints, incentives, and existing mental models that shape how the product is understood and used.\nThis new interpretation reflected an evolution in how we understood the role of design, and who participates in it. Mill recognized that many of the facets that influence how people use and value a product are managed by decisions made outside of the design team, and that product design therefore needed to account for a wider domain of ownership.\nThis presents product design as more ex",
+      "title": "Emily Campbell - The Layers of AI experience",
+      "url": "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar"
+    },
     "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -8740,6 +8740,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Can We Agree on a Storage/Workload Architecture Taxonomy? — Jack Vanlightly",
       "url": "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy"
+    },
+    "https://jakub.kr/writing/less-is-more?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In the age of AI, knowing what not to build might be the most important skill of all.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://jakub.kr/writing/less-is-more?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://oiszjiwtfc65cwa2.public.blob.vercel-storage.com/og-images/less-is-more-more-or-less.png",
+        "https://jakub.kr/_next/image?url=https%3A%2F%2Foiszjiwtfc65cwa2.public.blob.vercel-storage.com%2Fless-is-more%2Fluke.avif&w=96&q=75",
+        "https://jakub.kr/_next/image?url=https%3A%2F%2Foiszjiwtfc65cwa2.public.blob.vercel-storage.com%2Fless-is-more%2Ftweet-image.png&w=1200&q=75",
+        "https://jakub.kr/_next/image?url=https%3A%2F%2Foiszjiwtfc65cwa2.public.blob.vercel-storage.com%2Fless-is-more%2Fcodebase-standards.avif&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "Less is more, more or less\nToday, with AI, it's very easy to fall into the trap of producing more just because you can. Every idea, every new feature, every animation you've always wanted to build is just a couple of prompts away. It’s amazing. It feels like having a superpower.\nThings that previously would've taken hours, days or weeks now take minutes. However, the longer I use these tools, the more conscious I become of how I use them and I keep wondering if leaning into quantity is really the best way to build.\nEveryone knows the age-old saying of quality over quantity but sometimes it's difficult to understand exactly what it means in practice.\nIn the age of AI, more people can make more things, much faster. Quantity still matters and it always will, but more things being made doesn’t mean better things are being made.\nI spend [a lot of time](https://x.com/jakubkrehel) thinking about what quality means in software.\nWhen you go from using a good product to a great one, you can feel the difference.\nIf you're a domain expert, you can probably point to a lot of things that make the difference. Even then, it might be difficult to point your finger at all of them.\nUsually it's not a single thing but instead a collection of smaller decisions and details that add up to a great experience.\nThe products that stand out and last in the AI era are ones built with intent and extraordinary care.\nCrucial parts of building a great product are simplicity and clarity.\nHumans generally prefer simple and predictable things because, in a way, the brain is an energy-saving machine. Simplicity reduces unnecessary cognitive load, makes things easier to process and can make an experience feel less overwhelming.[1](https://jakub.kr#energy-note)\nThere’s a concept in psychology called [processing fluency.2](https://jakub.kr#fluency-note) The easier something is to process, the more familiar, pleasant or credible it can feel.\nAI makes adding things easier than it ever was. It's very tempting and it's much easier than removing something.\nWhen you remove something, you have to be intentional about it and think all the implications through. Adding is different. With agents it's easy to close your eyes, add things and hope for the best without thinking about it.\nI love this quote by [Jony Ive](https://en.wikipedia.org/wiki/Jony_Ive), because it describes exactly what simplicity is. It's more than removing clutter. It's having an understanding so deep that you make things make sense and you only keep what's essential in order to do that.\nYou could let an agent run non-stop and produce millions of lines of code but there is no guarantee that the result will be good.\nIt applies to most things, for example animations. In a weird way it actually became easier to animate things than not to.\nThe animated variant in the example below is nice but does it make sense? Not really.\nSwitch tabs to compare the animated and non-animated variants.\nAnimating something and animating something well are two very different things.\nIn the example below, one context menu animates both when it opens and when it closes while the other only animates when it closes.\nOne animates the background-color change of the items on hover, the other doesn't.\nWhy is that? Isn't more animation always better?\nNotice the difference between what is animated and what is not between the two examples.\nNot really. On paper it might sound like the more animated an interface is the better, but in practice that's rarely the case.\nLet's assume the context menu is the same context menu that appears when you right-click on macOS. It might seem like a good idea to animate both the entrance and exit. Why wouldn't it be?\nWhen you understand that users will use this action, hundreds, sometimes thousands of times per day it stops looking like such a good idea.\nAssuming you open the menu 200 times per day and the duration of the animation is 300ms, that’s about a minute per day or more than 6 hours per year spent",
+      "title": "Less is more, more or less",
+      "url": "https://jakub.kr/writing/less-is-more?ref=sidebar"
     },
     "https://james-pritchard.com/blog/llms-are-functions": {
       "cleaner_v": 2,
@@ -10822,6 +10840,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2069852580038295552/img/3C6QNgR8eQ73_GD0.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11409,62 +11455,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
     },
     "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg": {
       "cleaner_v": 2,
@@ -14014,6 +14004,90 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLnLfpUWoAAjzdr.jpg"
     },
+    "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg"
+    },
+    "https://pbs.twimg.com/media/HLprKBGXMAA2-Om.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprKBGXMAA2-Om.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprKBGXMAA2-Om.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprKBGXMAA2-Om.jpg"
+    },
+    "https://pbs.twimg.com/media/HLprKcyXIAEfvi7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprKcyXIAEfvi7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprKcyXIAEfvi7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprKcyXIAEfvi7.jpg"
+    },
+    "https://pbs.twimg.com/media/HLprLUcWgAADKE4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprLUcWgAADKE4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprLUcWgAADKE4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprLUcWgAADKE4.jpg"
+    },
+    "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg"
+    },
+    "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg"
+    },
     "https://pbs.twimg.com/media/HLq7cIGWgAA1x7_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14041,6 +14115,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+    },
+    "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg"
+    },
+    "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -14181,6 +14283,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/tweet_video_thumb/HLScyaQb0AA3qzx.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HLp4nAnWgAATFp_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HLp4nAnWgAATFp_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HLp4nAnWgAATFp_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HLp4nAnWgAATFp_.jpg"
+    },
+    "https://pbs.twimg.com/tweet_video_thumb/HLsMKmWXEAEClcj.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/tweet_video_thumb/HLsMKmWXEAEClcj.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/tweet_video_thumb/HLsMKmWXEAEClcj.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/tweet_video_thumb/HLsMKmWXEAEClcj.jpg"
     },
     "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown": {
       "cleaner_v": 2,
@@ -15184,6 +15314,28 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4"
+    },
+    "https://v0.app/docs/design-systems-2": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Teach v0 to build with your team's components, tokens, and design system conventions.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://v0.app/docs/design-systems-2",
+      "frameable": null,
+      "image_urls": [
+        "https://v0.app/docs/og/design-systems-2/image.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-cloudscape-demo.gif",
+        "https://v0.app/docs/assets/docs-images/design-systems-import-form-light.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-import-form-dark.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-skills-page-light.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-skills-page-dark.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-attach-skill-light.png",
+        "https://v0.app/docs/assets/docs-images/design-systems-attach-skill-dark.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Design Systems 2.0\nTeach v0 to build with your team's components, tokens, and design system conventions.\nDesign Systems 2.0 lets you teach v0 your design system once, so chats can build with your real components, tokens, and conventions.\nA design system is saved as a skill in your current scope, such as a team or personal workspace. A skill is a small, focused set of instructions v0 keeps with your work and pulls in when relevant. A design system skill is not a copy of your docs; it is an adapter that tells v0 where your source lives, which components, props, and tokens are safe to use, and how to wire the system into new apps.\nLooking for the legacy shadcn/ui registry guide? See [Design systems](https://v0.app/docs/docs/design-systems).\n[Before you begin](https://v0.app#before-you-begin)\nGather any sources that define your design system today. You do not need all of these to start; add what you have, and if v0 needs more context it will ask follow-up questions during import.\n- Installable design system package: A public or private npm package, .tgz/.tararchive, or source directory with its ownpackage.json. If you only have loose CSS, theme files, Figma frames, or components, v0 asks whether you can provide a package or want v0 to create a new installable package from those sources.\n- Design system source: The repository or package where components and tokens live.\n- A real app that consumes it: Often the most valuable source because it shows providers, global styles, fonts, theme setup, and correct component usage. Your marketing site or main dashboard works well.\n- Storybook, docs, or design guidelines: Links that explain components, props, tokens, layout rules, and brand conventions.\n- Figma frames or nodes: Visual references that show composition, density, typography, and component usage.\n- Private package credentials: Add tokens such as NPM_TOKENas[Development shared environment variables](https://vercel.com/docs/environment-variables/shared-environment-variables)so v0 can install private packages.\n- Install instructions and examples: Include READMEs, setup commands, and examples of correct usage for common components.\nKeep sources consistent. Avoid mixing unrelated design systems, frameworks, or old docs that contradict the current package API.\n[Import a design system](https://v0.app#import-a-design-system)\nStart a new import from the [Design Systems page](https://v0.app/design-systems). Point v0 at the sources that define your system, such as the GitHub repository, a consumer app, Figma frames, and docs. v0 reads them, builds a starter app to verify it understands your system, and saves a skill in the current scope. If a team-scoped import cannot be saved to the team, v0 asks before saving it as a personal-only skill.\n[1. Add your sources](https://v0.app#1-add-your-sources)\nIn the import form, add any sources v0 should use to learn your system:\n- GitHub repositories for the design system source or apps that consume it.\n- Figma frames or nodes for visual reference. Sign in to Figma, then paste links to specific frames or nodes. v0 imports a screenshot and extracted frame context so it can use the design as reference.\n- Links such as Storybook, docs sites, or design guidelines.\n- Attachments such as screenshots, ZIPs, exported packages, or .tgzpackage archives.\nv0 grounds itself in the real source. If a component, prop, or token cannot be verified from the sources, v0 should not use it.\n[2. Add environment variables](https://v0.app#2-add-environment-variables)\nIf your design system depends on private packages, add the required credentials as [shared environment variables](https://vercel.com/docs/environment-variables/shared-environment-variables) for the Development environment. For example, add NPM_TOKEN when packages are installed from a private npm registry.\nYou need at least the [Developer role](https://vercel.com/docs/rbac/access-roles#developer-role) on Vercel to use Development environment variables in v0. If envir",
+      "title": "Design Systems 2.0 | v0 Docs",
+      "url": "https://v0.app/docs/design-systems-2"
     },
     "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
       "cleaner_v": 2,
@@ -17088,16 +17240,6 @@
     "2059144022778896392": [
       "https://x.com/garrytan/status/2059144022778896392"
     ],
-    "2059269948518932623": [
-      "https://x.com/Alfred_Lin/status/2059269948518932623",
-      "http://x.com/i/article/2059015409442148352",
-      "https://x.com/Alfred_Lin/status/2059308273866870999",
-      "https://x.com/Alfred_Lin/status/2059307672030322911",
-      "https://x.com/Alfred_Lin/status/2059277200659190185",
-      "https://x.com/Alfred_Lin/status/2059277097168969778",
-      "https://x.com/Alfred_Lin/status/2059307044386304222",
-      "https://x.com/Alfred_Lin/status/2059307828079435945"
-    ],
     "2059275498660757727": [
       "https://x.com/de1lymoon/status/2059275498660757727",
       "http://x.com/i/article/2057540499217731584",
@@ -17113,10 +17255,6 @@
       "https://x.com/SidebarIO/status/2059993607419965888",
       "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
       "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    ],
-    "2059288101860610525": [
-      "https://x.com/ZoharAtkins/status/2059288101860610525",
-      "http://x.com/i/article/2058844103157116928"
     ],
     "2059288698894860799": [
       "https://x.com/MichLieben/status/2059288698894860799",
@@ -17150,13 +17288,6 @@
       "https://x.com/anesmithbeck/status/2059328365526438024",
       "http://x.com/i/article/2058921706710818816",
       "https://x.com/anesmithbeck/status/2059360566339137762"
-    ],
-    "2059332421854912937": [
-      "https://x.com/aleenaamiir/status/2059332421854912937",
-      "https://pbs.twimg.com/media/HJQ36dObcAAaUYK.jpg",
-      "https://pbs.twimg.com/media/HJQ36eTbQAAlfoL.jpg",
-      "https://pbs.twimg.com/media/HJQ36gEa4AAYc_o.jpg",
-      "https://pbs.twimg.com/media/HJQ36jba0AAKxjF.jpg"
     ],
     "2059351260243919269": [
       "https://x.com/AnthropicAI/status/2059351260243919269",
@@ -17195,11 +17326,6 @@
     ],
     "2059359475723886972": [
       "https://x.com/LifeOfShandi/status/2059359475723886972"
-    ],
-    "2059360143909802128": [
-      "https://x.com/opencutapp/status/2059360143909802128",
-      "http://x.com/i/article/2054257420969373696",
-      "https://x.com/opencutapp/status/2059370183743971412"
     ],
     "2059386407760568408": [
       "https://x.com/kplikethebird/status/2059386407760568408",
@@ -22173,8 +22299,8 @@
     ],
     "2069794773884637659": [
       "https://x.com/morganlinton/status/2069794773884637659",
-      "https://x.com/morganlinton/status/2069845169894232558",
-      "https://x.com/morganlinton/status/2069844943246602319"
+      "https://x.com/morganlinton/status/2069844943246602319",
+      "https://x.com/morganlinton/status/2069845169894232558"
     ],
     "2069797202835165579": [
       "https://x.com/SidebarIO/status/2069797202835165579",
@@ -22292,13 +22418,44 @@
     ],
     "2069986288237982197": [
       "https://x.com/clairevo/status/2069986288237982197",
-      "http://x.com/i/article/2069954922075107328"
+      "http://x.com/i/article/2069954922075107328",
+      "https://x.com/clairevo/status/2070260368811917728",
+      "https://x.com/clairevo/status/2070260300163825719",
+      "https://x.com/clairevo/status/2070260264445026346"
     ],
     "2070023917071433995": [
       "https://x.com/pmarca/status/2070023917071433995",
-      "https://x.com/pmarca/status/2070186673238159774",
-      "https://x.com/pmarca/status/2070176201029861455",
-      "https://x.com/pmarca/status/2070175954497065135"
+      "https://x.com/pmarca/status/2070315110133015010",
+      "https://x.com/pmarca/status/2070314415589847107",
+      "https://x.com/pmarca/status/2070299785228431800"
+    ],
+    "2070084796378747316": [
+      "https://x.com/getzaroai/status/2070084796378747316",
+      "http://Zaro.ai",
+      "https://pbs.twimg.com/amplify_video_thumb/2070084717743902720/img/s3CkFWUYJ-s1Tguf.jpg",
+      "https://x.com/getzaroai/status/2070084804083601667",
+      "https://pbs.twimg.com/media/HLprKBGXMAA2-Om.jpg",
+      "https://x.com/getzaroai/status/2070084811713081764",
+      "https://pbs.twimg.com/media/HLprKcyXIAEfvi7.jpg",
+      "https://x.com/getzaroai/status/2070084818742718642",
+      "https://pbs.twimg.com/media/HLprK6WXwAAvCxr.jpg",
+      "https://x.com/getzaroai/status/2070084825805951152",
+      "https://pbs.twimg.com/media/HLprLUcWgAADKE4.jpg",
+      "https://x.com/getzaroai/status/2070084832323948911",
+      "https://pbs.twimg.com/media/HLprLufXEAEgje7.jpg",
+      "https://x.com/getzaroai/status/2070084839345164595",
+      "https://pbs.twimg.com/media/HLprMHGWIAQUIV3.jpg",
+      "https://x.com/getzaroai/status/2070189545958883634",
+      "https://x.com/getzaroai/status/2070191869326139895",
+      "https://x.com/getzaroai/status/2070134672453939558",
+      "https://x.com/getzaroai/status/2070185984235311317"
+    ],
+    "2070099465747239145": [
+      "https://x.com/noahelhadedy/status/2070099465747239145",
+      "https://x.com/noahelhadedy/status/2070099595678388385",
+      "https://pbs.twimg.com/tweet_video_thumb/HLp4nAnWgAATFp_.jpg",
+      "https://x.com/noahelhadedy/status/2070261837690478941",
+      "https://pbs.twimg.com/tweet_video_thumb/HLsMKmWXEAEClcj.jpg"
     ],
     "2070140467564454023": [
       "https://x.com/SidebarIO/status/2070140467564454023",
@@ -22307,8 +22464,34 @@
       "https://x.com/SidebarIO/status/2069823127798825427",
       "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar",
       "https://pbs.twimg.com/media/HLl9KkrWAAA6HTc.jpg"
+    ],
+    "2070185508949414348": [
+      "https://x.com/SidebarIO/status/2070185508949414348",
+      "https://jakub.kr/writing/less-is-more?ref=sidebar",
+      "https://pbs.twimg.com/media/HLrGv7aXEAAQmRg.jpg",
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+    ],
+    "2070187537369583778": [
+      "https://x.com/v0/status/2070187537369583778",
+      "https://pbs.twimg.com/amplify_video_thumb/2070187275166904323/img/OtOVys-jK5qjL-2d.jpg",
+      "https://x.com/v0/status/2070187550543933813",
+      "https://x.com/v0/status/2070187562577391731",
+      "https://x.com/v0/status/2070187574694740293",
+      "https://x.com/v0/status/2070187586610753971",
+      "https://x.com/v0/status/2070187598635823126",
+      "https://v0.app/docs/design-systems-2"
+    ],
+    "2070195075485749253": [
+      "https://x.com/SidebarIO/status/2070195075485749253",
+      "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar",
+      "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg",
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ]
   },
-  "updated_at": "2026-06-25T19:17:34Z",
+  "updated_at": "2026-06-26T01:30:04Z",
   "window": "recent"
 }
