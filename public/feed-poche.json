@@ -4356,7 +4356,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_title_extracted": "WeLM Blog",
       "category": "Articles",
       "created_at": "2026-06-13T03:20:03.421309Z",
@@ -4388,7 +4388,7 @@
     },
     {
       "article_extraction": "cf_browser_rendering",
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
         "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/import/og.png"
       ],
@@ -4474,7 +4474,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_title_extracted": "slot-text — tiny text roll animation",
       "category": "Development",
       "created_at": "2026-06-13T03:05:11.075737Z",
@@ -6884,8 +6884,8 @@
       "x_status_id": null
     },
     {
-      "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_title_extracted": "mouseless",
       "category": "Tools",
       "created_at": "2026-06-06T03:58:56.025999Z",
@@ -6919,7 +6919,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
         "https://flueframework.com/og3.jpg",
         "https://svgl.app/library/cloudflare.svg",
@@ -6970,20 +6970,20 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
         "https://conduit.ai/og-image.jpg",
-        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX",
-        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_5XN3vciKvnfRveeC7E4fCK7ypckX"
+        "https://www.conduit.ai/figma/conduit-wordmark.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Fbg.png&w=3840&q=75&dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/_next/image?url=%2Ffigma%2Fhero-product.png&w=3840&q=75&dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/_next/image?url=%2Fconduit-icon.png&w=48&q=75&dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/_next/image?url=%2Fhero%2Favatar-my-inbox.webp&w=3840&q=75&dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/_next/image?url=%2Fimages%2Fagent-builder%2Fblank.png&w=3840&q=75&dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/figma/logo-trust-roofstock.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/figma/logo-trust-marriott.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/figma/logo-trust-alloggio.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/figma/logo-trust-vtrips.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P",
+        "https://www.conduit.ai/figma/logo-trust-wynwood.svg?dpl=dpl_AJeXAnRt3UoTMxqdsg44sUB9uz9P"
       ],
       "article_title_extracted": "AI for Hospitality: Customer Service Agents to Elevate Guest Experience",
       "category": "Tools",
@@ -11472,19 +11472,19 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
-        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
+        "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.12t~.8y.z80vm.png?dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
         "https://x.ai/images/og/default.png",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-word-addin-title.webp&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-databricks.webp&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-aws-bedrock.jpg&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e",
-        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-imagine-video-1-5-og.png&w=3840&q=75&dpl=2d137f38b90cfbca872d68ad8dc440b099692a4e"
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-1-night.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-7.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fimagine-demo%2Fnav%2Fnav-8-night.jpg&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-goal-og.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-ibkr.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fgrok-databricks.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b",
+        "https://x.ai/_next/image?url=%2Fimages%2Fnews%2Fintroducing-word-addin-title.webp&w=3840&q=75&dpl=6894bd9bf9f26dc33e49da4b905237cfd209472b"
       ],
       "article_title_extracted": "xAI",
       "category": "Development",
@@ -11567,7 +11567,7 @@
     },
     {
       "article_extraction": "trafilatura",
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
         "https://glimm.dev/opengraph-image?8d081aec229730dd",
         "https://glimm.dev/twitter-image?663440559795821c",
@@ -11609,7 +11609,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T11:01:44.412921Z",
+      "article_fetch_attempted_at": "2026-06-27T14:16:03.466397Z",
       "article_image_urls": [
         "https://rag.computer/_next/image?url=%2Fhome%2Fbengaluru-hero.webp&w=3840&q=75&dpl=dpl_Ao6Hw21LMv1pFh5q59itVDCiHdWT"
       ],
@@ -106654,5 +106654,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-27T10:35:17.572148Z"
+  "updated_at": "2026-06-27T14:16:19.643679Z"
 }
