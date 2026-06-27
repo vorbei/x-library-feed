@@ -6156,6 +6156,19 @@
       "title": "",
       "url": "http://x.com/i/article/2069868400579596290"
     },
+    "http://x.com/i/article/2069874707319623680": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2069874707319623680",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLxu--SacAA4Chc?format=jpg&name=900x900)](http://x.com/richzou/article/2070652345562923299/media/2070651956834758656)\n\nWhat is talent and talent engineering \n\n[![](https://pbs.twimg.com/profile_images/2022447543792422912/HutGr6Oj_normal.jpg)](http://x.com/richzou)\n\n[Rich](http://x.com/richzou)\n\n[@richzou](http://x.com/richzou)\n\n·\n\n12h\n\nFollow\n\nClick to Follow richzou\n\n4\n\n3\n\n19\n\n[8.3K](http://x.com/richzou/status/2070652345562923299/analytics)\n\nTwo relatively new roles are emerging recently, \"Talent\" and \"Talent engineering.\"\n\nFrontier labs, VCs, and startups are all hiring for both roles. But most people using these words can't tell you what they mean. They treat \"talent\" as a fancy word for recruiter and \"talent engineering\" as an engineer doing recruiting.\n\nThat's wrong. Or at least incomplete.\n\nThe old model\n\nTraditional recruiting has three roles.\n\nThe recruiter owns a pipeline. They review inbound applications. They run the recruiter phone screen. They do cold outbound and move people through stages, fill the role, close the req, move to the next one.\n\nRecruiting ops keeps the recruiter organized. They own the ATS, the data, the scheduling, the reporting. \n\nHR deals with the people who already work at the company. Onboarding, benefits, performance, conflict, compliance.\n\nThis model has worked for decades. It is built for volume and for predictability.\n\nBut it was built for a world where the job was to fill roles. That is not the game the top 1% of operators are playing anymore.\n\nWhat changed\n\nThe game changed because the stakes changed.\n\nAt a high talent density company, one hire is not one hire. It sets the bar for the next ten. Stripe gave away more than 10% of the company to its first ten people because John Collison's view was that you aren't hiring ten people, you're hiring a hundred. The first ten bring the next ten.\n\nWhen each hire is that consequential, \"owning a pipeline\" is the wrong frame. You are not processing applicants. You are identifying a small number of exceptional people, building real relationships with them, and convincing them to bet their career on you.\n\nThat is a different job. It needs a different kind of person. So we got a new word.\n\nWhat talent actually is\n\nA \"talent\" person is not a fancier recruiter. The word exists because the job stopped being about pipelines.\n\nHere is my definition.\n\nTalent = anyone who is great at attracting smart people and has deep relationships with all of them.\n\nThey do not need to be technical. They do not need a recruiting background at all.\n\nUsually they are extroverts. They love talking to people. They love helping people.\n\nYou find this person across the whole ecosystem now. At VC firms, where the talent partner is often the most connected person in the building. At startups, where they are employee number five and somehow know everyone worth knowing. At frontier labs, where the entire recruiting strategy is one person's network and reputation.\n\nA great talent person is a magnet. People want to work with them, so people want to work where they are.\n\nWhat talent engineering actually is\n\nTalent engineering is the other new role, and it is genuinely different.\n\nTalent engineering = an engineer who loves to build people tools and is also a great engineer.\n\nI want to be heavy about the second half, because it is the part people skip. A talent engineer is not a recruiter who learned to code. They are not an ops person who can write a script. They are a real engineer. The kind who could be a member of technical staff, who could be shipping the core product, who would clear the bar at any top company. They just happen to love building people tools instead.\n\nThat is the ideal. A great engineer, good enough to build the product, who points that talent at hiring because they actually love it.\n\nAnd that is exactly why it",
+      "title": "",
+      "url": "http://x.com/i/article/2069874707319623680"
+    },
     "http://x.com/i/article/2069954922075107328": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6236,6 +6249,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070117036605222912"
     },
+    "http://x.com/i/article/2070162994726866945": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070162994726866945",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLqzdXqa4AANrcq?format=jpg&name=900x900)](http://x.com/Railway/article/2070190151255699967/media/2070164295879680000)\n\nSkill Issue, Writing /skills to solve agent failures\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9_normal.jpg)](http://x.com/Railway)\n\n[Railway](http://x.com/Railway)\n\n[@Railway](http://x.com/Railway)\n\n·\n\nJun 25\n\nFollow\n\nClick to Follow Railway\n\n1\n\n2\n\n43\n\n[4.9K](http://x.com/Railway/status/2070190151255699967/analytics)\n\nIf you want to make your agent an expert at operating Railway, all you need to do is run the following command:\n\nbash\n\n```bash\ncurl -fsSL agents.railway.com | sh\n```\n\nThis will install the Railway CLI and configure agent support. If you want more details about what what’s happening under the hood and how we got here, the rest of this blog post is for you.\n\n## \n\nAgents didn’t know how to hold Railway\n\nAround six months ago, we found a good portion of our user base “agent-pilled”. Instead of our users doing things via the Railway dashboard or by typing commands with the CLI, they'd tell their agent what they wanted and walk away.\n\n* \"Deploy my app on Railway\"\n* \"My app is slow. Here's the deployment, can you figure out why?\"\n* \"I'm on Railway. Spin up a Postgres database and wire it into my app\"\n\nIt was great in theory, but then the support threads started rolling in.\n\nWhy did Claude send my replica to Tahiti? Why did Cursor say Railway storage was 2 cents?\n\n…and the dreaded… Why did my agent delete my whole project!?!\n\nIt didn't take us too long to work out what was missing. If an agent was going to drive Railway, it needed two things:\n\n1. Tools. A way to actually operate Railway, whether that's an API, a CLI, or an MCP server.\n2. Education. The knowledge of how to use those tools, plus a real mental model of the platform's primitives and features.\n\nWe initially focused our efforts on tooling and published an official MCP server for Railway. Then two problems showed up.\n\nThe first problem was awareness. Many users didn’t know the MCP server existed in the first place or that it was a way to make Railway work better with agents. When you ask the agent to use Railway without anything set up, it would install the Railway CLI, start firing off bash commands, guess the command flags, and assume features we'd never built.\n\nThe second problem was worse. The official MCP had around 30 perfectly good tools, but you had to tell the agent to call them. The desired state of telling the agent what you wanted and walking away wasn’t possible. We started to wonder if this was some failure baked in during post-training, that the models simply hadn't been taught how to hold a product.\n\nThen Agent skills happened.\n\n<https://www.youtube.com/watch?v=CEvIs9y1uog>\n\nYou have to give credit where it’s due, Anthropic’s ability to lexicographically own a mental model is maybe their number one superpower. Railway dubbed our version “corpus” - well, our term for it was a walking corpse after that video and SKILLS.md.\n\nIt turns out the single most effective way to do real-time RL on a model was… a text document. We were skeptical. We were also wrong. It's super effective.\n\n## \n\nExperimenting with Agent Skills internally\n\nWe started where it was safe, on ourselves. Internal docs and runbooks went into the grinder and came out the other side as agent skills.\n\nBy Jan 7th, Jake Cooper personally merged a PR with 10,000+ line diff of almost everything we had in Notion and made a /build-skill skill. The mandate was clear. Everything was to be a skill, and if it couldn’t be, it needed to be in an MCP so we could turn it into one.\n\nWhat followed was a mad dash to make everything tractable to the agent. The work was unglamorous, but it was funny to see the spike in markdown commits in our repo. We listed out all of the verbs that w",
+      "title": "",
+      "url": "http://x.com/i/article/2070162994726866945"
+    },
     "http://x.com/i/article/2070201957441220608": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6300,6 +6326,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070417295810166784"
     },
+    "http://x.com/i/article/2070429028440559616": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070429028440559616",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLukS-SbUAAzppN?format=jpg&name=900x900)](http://x.com/Railway/article/2070499619696501143/media/2070429099571761152)\n\nEvery (Agents) Connection to Railway\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9_normal.jpg)](http://x.com/Railway)\n\n[Railway](http://x.com/Railway)\n\n[@Railway](http://x.com/Railway)\n\n·\n\n22h\n\nFollow\n\nClick to Follow Railway\n\n3\n\n4\n\n22\n\n[5.3K](http://x.com/Railway/status/2070499619696501143/analytics)\n\nIf it can't just fire up a browser and log in as you, how does an agent actually get in and use Railway? We've spent \n\n[agents week](https://railway.com/agents-week)\n\n talking about the different ways we've looked at making it easier. Everything from fully revamping setup, the CLI as their first tool, \n\n[sandboxes](https://docs.railway.com/sandboxes)\n\n for short-lived ephemeral work and agent actions (shoutout to our \n\n[agents in the sandbox](https://blog.railway.com/p/agents-in-the-sandbox)\n\n post, we added \n\n[Droid from Factory](https://factory.ai)\n\n and \n\n[Cursor](https://cursor.com)\n\n's agent yesterday.), and how we build the loop all the way from develop, to deployed, iterating, and debugging.\n\nAll of that only matters if the agent can get in at all. For a long time the dashboard and \n\n[canvas](https://docs.railway.com/overview/the-basics)\n\n were that front door, which is a great experience for a human but not for the agent/harness a user is throwing commands at to \"go do the thing\" (sans something like browser-use, but, you get my point). So we've spent a lot of effort over the past few months to make sure as many actions as safely possible are exposed in a way agents can consume.\n\n## \n\nThree paths in\n\nThe three connection patterns absolutely have some overlap, because ultimately the thing on the other end of the connection isn't always the same. Classic adage of \"tool for the job.\" Sometimes the \"thing\" is a coding agent running on your laptop inside a project. Sometimes it's a hosted assistant with no access to your filesystem at all, relying instead on GitHub to pull down and take action. Sometimes it's even a script in CI that just needs a structured answer back.\n\nEach of these has their own unique demands and expectations from tooling.\n\n* Local MCP runs on your machine through the Railway CLI. It's the default, configured via the  \n[automated setup flow](https://agents.railway.com)  \n, and the right call when \"local state\" matters: you just built an app, haven't pushed it to GitHub yet, and are running out of the directory you're standing in. Under the hood, the MCP drives API calls, falling back to CLI calls and the Railway Agent as needed. If you're driving agents locally, this ends up being the most successful path for you.\n\n[![Image](https://pbs.twimg.com/media/HLun4Ila8AE0f1N?format=jpg&name=small)](http://x.com/Railway/article/2070499619696501143/media/2070433036525826049)\n\n* Remote MCP lives at  \n[\\`mcp.railway.com\\`](https://docs.railway.com/ai/mcp-server)  \n and is a standard OAuth based MCP server. It stands on its own, talking straight to the Railway API with no local CLI to lean on, which matters because the systems reaching for it usually don't have one installed. It's very portable, able to run in hosted systems like  \n[ChatGPT](https://chatgpt.com)  \n or  \n[Claude.ai](https://claude.ai)  \n directly.\n\n[![Image](https://pbs.twimg.com/media/HLun9VNbEAA5B0e?format=jpg&name=small)](http://x.com/Railway/article/2070499619696501143/media/2070433125814177792)\n\nBeyond the MCP approach...\n\n* Railway CLI + Railway Agent is a different shape entirely. We've been hard at work over the last six months to cover as much of Railway's surface area as we can in an agent-friendly CLI. For the parts that there isn't, you hand the work to an agent-operator that understands the core of Railway and how to driv",
+      "title": "",
+      "url": "http://x.com/i/article/2070429028440559616"
+    },
     "http://x.com/i/article/2070441264122626049": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6363,6 +6402,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2070665015032705024"
+    },
+    "http://x.com/i/article/2070730492236947456": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070730492236947456",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLy6_-gacAA46Qd?format=jpg&name=900x900)](http://x.com/zarazhangrui/article/2070735964788658598/media/2070735536957059072)\n\nWhat people misunderstand about building in public\n\n[![](https://pbs.twimg.com/profile_images/1742369596534067200/Ts-5zSJ6_normal.jpg)](http://x.com/zarazhangrui)\n\n[Zara Zhang](http://x.com/zarazhangrui)\n\n[@zarazhangrui](http://x.com/zarazhangrui)\n\n·\n\n7h\n\nFollow\n\nClick to Follow zarazhangrui\n\n13\n\n28\n\n190\n\n[16K](http://x.com/zarazhangrui/status/2070735964788658598/analytics)\n\nI'm a huge believer in building in public, especially right now.\n\nOur timelines are flooded with AI-generated slop, and people are craving the opposite: the actual human behind the product. They want to see your face, your thinking, the choices you agonized over. In a feed full of generated content, being a real, alive person is the thing that stands out.\n\nAnd yet most people I talk to are still hesitant to do it. So let me address the 3 most common misconceptions:\n\n1. If I share my secrets, people will copy me\n2. I don't have time\n3. I'll just post about my features\n\nBut first, let me show you what good building in public actually looks like.\n\nHere's Tibo, the head of Codex at OpenAI, asking users on X what they dislike about the Codex product: \n\n[![](https://pbs.twimg.com/profile_images/1953339828738899968/WWQlU2RT_normal.jpg)](http://x.com/thsottiaux)\n\nTibo\n\n@thsottiaux\n\n·\n\n[Jun 21](http://x.com/thsottiaux/status/2068736857312198928)\n\nWhat should we improve in the Codex app. What's not delightful?\n\n4K\n\n142\n\n3K\n\n[741K](http://x.com/thsottiaux/status/2068736857312198928/analytics)\n\nHere's Lindy sharing their process of switching their product's model from Claude to DeepSeek and what they learned along the way: \n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2056134033546084352/iDEBGahW_normal.jpg)](http://x.com/getlindy)\n\nLindy\n\n@getlindy\n\n·\n\n[Jun 25](http://x.com/getlindy/status/2070214403576959008)\n\n![Article cover image](https://pbs.twimg.com/media/HLrXxNzbMAAtTkh?format=jpg&name=small)\n\n Article\n\nMigrating from Claude to DeepSeek\n\nLindy's pricing only works if inference keeps getting cheaper. That is the business constraint. Lindy is a generalist AI assistant. It writes emails, manages calendars, prepares meetings, follows up,...\n\n12\n\n45\n\n244\n\n[176K](http://x.com/getlindy/status/2070214403576959008/analytics)\n\nHere's the designer at The Browser Company sharing how they arrived at their design for their Artifact feature: \n\n[![](https://pbs.twimg.com/profile_images/1226585304779370505/TUF2d5pB_normal.jpg)](http://x.com/chrstnerode)\n\nchristine røde\n\n@chrstnerode\n\n·\n\n[Jun 11](http://x.com/chrstnerode/status/2065070625970946175)\n\nwe just wrapped our Spring quarter at \n\n[@diabrowser](http://x.com/diabrowser)\n\n. before i jump to the next big thing (!), a short behind-the-scenes on one of my favorite projects to date: artifacts! the design challenge: how do you make AI-generated docs that don’t \\*feel\\* AI-generated? (![🧵](https://abs.twimg.com/emoji/v2/svg/1f9f5.svg) 1/10)\n\n[![Image](https://pbs.twimg.com/media/HKiQbDyWkAAOoAJ?format=jpg&name=small)](http://x.com/chrstnerode/status/2065070625970946175/photo/1)\n\n44\n\n67\n\n922\n\n[67K](http://x.com/chrstnerode/status/2065070625970946175/analytics)\n\n## \n\n1\\. \"If I share my secrets, people will copy me\"\n\nFirst of all, you absolutely do not need to share any proprietary information. You can share zero sensitive information and still create great content. Look at the examples above. None of them gave anything away, and they still landed.\n\nPeople want to learn what you learned. If you openly share your learnings, it doesn't make you less defensible. On the contrary, you establish yourself as the thought leader in the field, which brings you credibility, connections, reputation, and trust.\n\nAnd honestly, if posting a few tweets",
+      "title": "",
+      "url": "http://x.com/i/article/2070730492236947456"
     },
     "http://zaro.ai": {
       "content_type": "text/html",
@@ -7087,6 +7139,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Advanced RAG: Start-To-Finish Techniques – n8n Blog",
       "url": "https://blog.n8n.io/advanced-rag/"
+    },
+    "https://blog.railway.com/p/agent-connection-to-railway": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We've created a few workflow patterns on how to get your agent talking to Railway peacefully. The balance of Local and Remote MCPs, Railway's Agent Skills, the CLI + Railway Agent give your local harness all the ways to ride the rails and building in Railway.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.railway.com/p/agent-connection-to-railway",
+      "frameable": null,
+      "image_urls": [
+        "https://cms.railway.com/media/Day-4-connected.png?w=1200&q=90",
+        "https://cms.railway.com/media/9f62db38ffebb5cae078424fe89c05c160efd3bfe457c62bdd6d25c309496f44.jpg",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.29.21-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.37.34-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.41.46-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.43.14-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.31.06-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.46.12-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.35.54-2x.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/CleanShot-2026-06-26-at-01.33.12-2x-1.png?w=768&format=webp&q=90",
+        "https://cms.railway.com/media/6b99ad48a4bd2571569575090858205c1e2697f5308e4a0781c1073c3d87cc31.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Every (Agents) Connection to Railway\nIf it can't just fire up a browser and log in as you, how does an agent actually get in and use Railway? We've spent [agents week](https://railway.com/agents-week) talking about the different ways we've looked at making it easier. Everything from fully revamping setup, the CLI as their first tool, [sandboxes](https://docs.railway.com/sandboxes) for short-lived ephemeral work and agent actions (shoutout to our [agents in the sandbox](https://blog.railway.com/p/agents-in-the-sandbox) post, we added [Droid from Factory](https://factory.ai) and [Cursor](https://cursor.com)'s agent yesterday.), and how we build the loop all the way from develop, to deployed, iterating, and debugging.\nAll of that only matters if the agent can get in at all. For a long time the dashboard and [canvas](https://docs.railway.com/overview/the-basics) were that front door, which is a great experience for a human but not for the agent/harness a user is throwing commands at to \"go do the thing\" (sans something like browser-use, but, you get my point). So we've spent a lot of effort over the past few months to make sure as many actions as safely possible are exposed in a way agents can consume.\nThree paths in\nThe three connection patterns absolutely have some overlap, because ultimately the thing on the other end of the connection isn't always the same. Classic adage of \"tool for the job.\" Sometimes the \"thing\" is a coding agent running on your laptop inside a project. Sometimes it's a hosted assistant with no access to your filesystem at all, relying instead on GitHub to pull down and take action. Sometimes it's even a script in CI that just needs a structured answer back.\nEach of these has their own unique demands and expectations from tooling.\n- Local MCP runs on your machine through the Railway CLI. It's the default, configured via the [automated setup flow](https://agents.railway.com), and the right call when \"local state\" matters: you just built an app, haven't pushed it to GitHub yet, and are running out of the directory you're standing in. Under the hood, the MCP drives API calls, falling back to CLI calls and the Railway Agent as needed. If you're driving agents locally, this ends up being the most successful path for you.\n- Remote MCP lives at mcp.railway.com[ChatGPT](https://chatgpt.com)or[Claude.ai](https://claude.ai)directly.\nBeyond the MCP approach...\n- Railway CLI + Railway Agent is a different shape entirely. We've been hard at work over the last six months to cover as much of Railway's surface area as we can in an agent-friendly CLI. For the parts that there isn't, you hand the work to an agent-operator that understands the core of Railway and how to drive the outcome. It's only callable from the Remote MCP server, and we expose CLI commands (railway agent -p) that are consumable from the local MCP.\nInstall once, get local MCP\nThe recommended starting point is heading to [agents.railway.com](https://agents.railway.com) to grab the instructions (or asking your agent to ask railway.com where to configure the agent tools), and dropping the one-liner in your terminal:\ncurl -fsSL railway.com/agents.sh | shThat installs the CLI, Railway's [agent skills](https://docs.railway.com/ai/agent-skills), and the MCP server, configuring the local MCP server by default in the agents it detects.\nWhy prefer the local MCP? The earlier reference to local file state is a big reason, but also from a friction standpoint it inherits your sign-in from the CLI directly. Once you've run railway login, the local MCP server reuses that exact authentication, the same token every other CLI command already uses. There's no second login, no token to paste into a config file, no OAuth round-trip for the agent to complete. There's nothing else to wire up, and your agent can start making structured tool calls against the important parts of Railway right away.\nIt also has the widest reach of the three doors, because of the combination of tool",
+      "title": "Every (Agents) Connection to Railway",
+      "url": "https://blog.railway.com/p/agent-connection-to-railway"
     },
     "https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/?ref=sidebar": {
       "cleaner_v": 2,
@@ -22803,8 +22880,8 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
-      "https://x.com/_prisis_/status/2070735001084101022",
       "https://x.com/_prisis_/status/2070736034258678080",
+      "https://x.com/_prisis_/status/2070735001084101022",
       "https://x.com/_prisis_/status/2070735123109056986",
       "https://x.com/_prisis_/status/2070751830129160636",
       "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
@@ -22853,13 +22930,26 @@
       "https://pbs.twimg.com/media/HLuzOeZbYAAEOTu.jpg",
       "https://pbs.twimg.com/media/HLu0774bsAEdwXh.jpg"
     ],
+    "2070499619696501143": [
+      "https://x.com/Railway/status/2070499619696501143",
+      "http://x.com/i/article/2070429028440559616",
+      "https://x.com/Railway/status/2070502341611049112",
+      "https://blog.railway.com/p/agent-connection-to-railway",
+      "https://x.com/Railway/status/2070190151255699967",
+      "http://x.com/i/article/2070162994726866945"
+    ],
     "2070502852414288328": [
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+    ],
+    "2070532689392980369": [
+      "https://x.com/nikunj/status/2070532689392980369",
+      "https://x.com/nikunj/status/2070714970338431375",
+      "https://x.com/nikunj/status/2070715006489178247"
     ],
     "2070541048527609885": [
       "https://x.com/mem0ai/status/2070541048527609885",
@@ -22869,21 +22959,24 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
       "http://x.com/i/article/2070556766660931584"
     ],
+    "2070589563429691698": [
+      "https://x.com/zarazhangrui/status/2070589563429691698"
+    ],
     "2070597472863350948": [
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070629226664153173": [
       "https://x.com/vasuman/status/2070629226664153173",
@@ -22895,13 +22988,24 @@
       "https://github.com/almeidazs/better-drizzle",
       "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg",
       "https://x.com/eualmeidazs/status/2070652682247843868",
+      "https://x.com/eualmeidazs/status/2070843198805602553",
+      "https://x.com/eualmeidazs/status/2070842865769501020",
+      "https://x.com/eualmeidazs/status/2070843338467492066",
+      "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070843753946923444",
+      "https://x.com/eualmeidazs/status/2070843973527065079",
       "https://x.com/eualmeidazs/status/2070683457257119930",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070646240006513129",
       "https://x.com/eualmeidazs/status/2070658849845952988",
       "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
+      "https://x.com/eualmeidazs/status/2070646240006513129",
       "https://x.com/eualmeidazs/status/2070676545337807190"
+    ],
+    "2070652345562923299": [
+      "https://x.com/richzou/status/2070652345562923299",
+      "http://x.com/i/article/2069874707319623680",
+      "https://x.com/richzou/status/2070679304275685693"
     ],
     "2070665127331037290": [
       "https://x.com/mitchellh/status/2070665127331037290",
@@ -22914,8 +23018,12 @@
       "https://x.com/mitchellh/status/2070262735896772843",
       "https://x.com/mitchellh/status/2070273858154987537",
       "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
+    ],
+    "2070735964788658598": [
+      "https://x.com/zarazhangrui/status/2070735964788658598",
+      "http://x.com/i/article/2070730492236947456"
     ]
   },
-  "updated_at": "2026-06-27T10:23:27Z",
+  "updated_at": "2026-06-27T12:18:52Z",
   "window": "recent"
 }
