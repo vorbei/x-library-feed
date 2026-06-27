@@ -1168,22 +1168,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059743488997261312"
     },
-    "http://x.com/i/article/2059927958916300800": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059927958916300800",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059927958916300800/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJZVrv7aQAAlfBC?format=jpg&name=900x900)](http://x.com/i/article/2059927958916300800/alextang/article/2059982444703727721/media/2059928089656967168)\n\nWe Pointed Our AI at the Founders\n\n[![](https://pbs.twimg.com/profile_images/1976992373910781958/s15yEWhu_normal.jpg)](http://x.com/i/article/2059927958916300800/alextang)\n\n[Alex Tang](http://x.com/i/article/2059927958916300800/alextang)\n\n[@alextang](http://x.com/i/article/2059927958916300800/alextang)\n\n·\n\n4h\n\nFollow\n\nClick to Follow alextang\n\n3\n\n41\n\n[124K](http://x.com/i/article/2059927958916300800/alextang/status/2059982444703727721/analytics)\n\nEveryone is using AI to make their fund more efficient. The harder question is whether it helps your portfolio.\n\nWhere the VC AI conversation is happening\n\nMost of the VC AI conversation right now is centered on making the partner's job easier. Faster deal evaluation, automated memos, liquid token monitoring, smarter LP reports. The fund is the primary user and the founder is the input. That framing makes sense for a lot of funds, and the work being done there is genuinely impressive. Some funds are building compound intelligence systems that capture IC decisions and accumulate institutional knowledge at the firm level. Others have built triage systems so that founder requests stop getting buried in the partner inbox overnight.\n\nAll of it solves real problems. And all of it sits on the partner's side of the relationship.\n\nThe harder problem is upstream\n\nThe assumption underneath most of these systems is that the hard part of portfolio management is what happens after the information arrives. We think the harder problem is getting high-quality, candid, real-time information in the first place, in a way that doesn't turn founders into administrators for their investors.\n\nThe standard update model puts the entire burden on the founder. Send a monthly email, fill out a form, join a scheduled call, and if you miss it, expect a follow-up. That model was designed around a specific type of founder in a specific context, and even there it doesn't work particularly well. Extend it across geographies, languages, and communication styles, and it starts to break down in ways that are hard to patch.\n\nFounders who are deep in execution don't naturally pause to think about what their investors need to know. That's just what building looks like at the early stage. The fund's job is to make staying connected as frictionless as possible, because the quality of support you can offer is only as good as the quality of information you actually have.\n\nWhat we built instead\n\nWhen we built the MFV platform, we made a deliberate decision to treat the founder portal as a real product in its own right, something founders would actually want to open. The result is a set of tools that founders use on their own terms.\n\nThe portal includes a fundraise tracker that replaces the Google Sheet every founder ends up building themselves at some point. A slide builder that works inside their own brand kit and visual identity. A hiring pipeline with job description drafting built in. A marketing studio for drafting press releases and campaign copy. A journal for capturing thinking that doesn't fit a structured field. And a direct channel to surface requests to the full MFV partner team, structured and trackable, so nothing gets lost in an email thread or a Telegram message that disappears under forty others overnight.\n\nThe reason this matters goes beyond founder experience. When founders are genuinely using a system because it gives them something useful, the information that flows back to partners is qualitatively different. It is continuous and candid rather than compressed into a monthly summary written under time pressure. The picture of what's actually happening inside a company gets a lot",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059927958916300800/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJZVrv7aQAAlfBC?format=jpg&name=900x900)](http://x.com/i/article/2059927958916300800/alextang/article/2059982444703727721/media/2059928089656967168)\n\n我们将AI对准了创始人\n\n[![](https://pbs.twimg.com/profile_images/1976992373910781958/s15yEWhu_normal.jpg)](http://x.com/i/article/2059927958916300800/alextang)\n\n[Alex Tang](http://x.com/i/article/2059927958916300800/alextang)\n\n[@alextang](http://x.com/i/article/2059927958916300800/alextang)\n\n·\n\n4小时前\n\n关注\n\n点击关注 @alextang\n\n3\n\n41\n\n[124K](http://x.com/i/article/2059927958916300800/alextang/status/2059982444703727721/analytics)\n\n每个人都在用AI让基金更高效。但更难的问题是，它是否对你的投资组合有帮助。\n\nVC AI讨论的焦点所在\n\n目前VC领域关于AI的讨论，大多集中在如何让合伙人的工作更轻松。更快的交易评估、自动化的备忘录、流动代币监控、更智能的LP报告。基金是主要用户，而创始人是输入源。这种框架对很多基金来说是有道理的，相关的工作也确实令人印象深刻。一些基金正在构建复合智能系统，以捕捉投资委员会（IC）的决策，并在公司层面积累机构知识。另一些则建立了分类系统，使创始人的请求不再被埋没在合伙人的收件箱中过夜。\n\n所有这些都解决了实际问题。而且所有这些都站在合伙人这一侧的关系中。\n\n更难的问题在上游\n\n这些系统背后的大多数假设是，投资组合管理的难点在于信息到达后如何处理。我们认为，更难的问题在于首先获取高质量、坦诚、实时的信息，并且方式不会让创始人变成投资者的行政管理员。\n\n标准的更新模式将全部负担都放在创始人身上。发送月度邮件、填写表格、参加预定电话会议，如果错过了，还要等待跟进。这种模式是为特定背景下的特定类型创始人设计的，即使在那时，效果也并不理想。将其扩展到不同地域、语言和沟通风格时，它就会以难以修补的方式开始崩溃。\n\n深度投入执行的创始人，不会自然地停下来思考投资者需要知道什么。这就是早期阶段创业的常态。基金的工作是让保持联系尽可能无摩擦，因为你能提供的支持质量，只取决于你实际拥有的信息质量。\n\n我们转而构建了什么\n\n当我们构建MFV平台时，我们做了一个深思熟虑的决定：将创始人门户视为一个真正的产品本身，一个创始人真正愿意打开的东西。结果是一套让创始人按自己方式使用的工具。\n\n该门户包括一个融资追踪器，取代了每个创始人最终都会自己搭建的Google Sheet。一个幻灯片构建器，可在他们自己的品牌套件和视觉标识内工作。一个带有职位描述起草功能的招聘管道。一个用于起草新闻稿和营销文案的市场工作室。一个用于记录不适合结构化字段的思考的日志。以及一个直接渠道，用于向整个MFV合伙人团队提出请求，结构清晰且可追踪，这样就不会在邮件线程或Telegram消息中丢失，被其他四十条消息淹没。\n\n这之所以重要，超越了创始人体验。当创始人真正使用一个系统，因为它给了他们有用的东西时，流回给合伙人的信息在质量上是不同的。它是持续且坦诚的，而不是被压缩成在时间压力下撰写的月度摘要。对一家公司内部真实情况的了解会变得清晰得多。",
-      "text_excerpt_zh_hash": "058a02fafe8d2153",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059927958916300800"
-    },
     "http://x.com/i/article/2059942499565838336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1215,22 +1199,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059952466205224960"
-    },
-    "http://x.com/i/article/2059959528138194944": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059959528138194944",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059959528138194944/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJZ1MXhaoAAA57e?format=jpg&name=900x900)](http://x.com/i/article/2059959528138194944/VoidAsuka/article/2059963769804214506/media/2059962734901633024)\n\nData Isn't Scarce. Your Imagination Is.\n\n[![](https://pbs.twimg.com/profile_images/1993260124769841152/_faaI2Pb_normal.jpg)](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n[Asuka Zheng![🎀](https://abs.twimg.com/emoji/v2/svg/1f380.svg)](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n[@VoidAsuka](http://x.com/i/article/2059959528138194944/VoidAsuka)\n\n·\n\n5h\n\nFollow\n\nClick to Follow VoidAsuka\n\n16\n\n78\n\n[6.6K](http://x.com/i/article/2059959528138194944/VoidAsuka/status/2059963769804214506/analytics)\n\nWe're running out of training data.\n\nNo. We haven't started collecting it.\n\nWhen we talk about data, we picture reasoning, code, audio, image, robotics. Sure, those are real, and they already minted fortunes. But that list isn't the real shape of data. It just marks the current edge of our imagination. The real space runs so much larger that some of the data sitting in it, we can't even picture what shape it will take.\n\nI learned this the hard way, and then I watched it confirm itself everywhere I looked.\n\nI spent a long stretch of my life doing SRE, so I kept circling one question: could a large model replace a human SRE engineer, so we'd stop getting woken up by oncall at midnight? We actually tried. We wrote a paper on it. And once we got deep in, we found the hard part wasn't the model. It was the environment. You almost can't simulate a real SRE incident. So we reached for an idea that felt elegant at the time: train two world models. One plays the K8s expert and generates commands. The other plays the K8s environment itself and generates plausible responses under specific scenarios. Let them spar. Let the model learn to operate inside a world it conjured for itself.\n\nIt didn't work.\n\nWhat stopped us was almost cruelly specific. We couldn't get enough data, and what we did collect came out low quality. We needed the kind of data that captures a real K8s cluster across an entire incident, from the first anomaly to the moment it's fully resolved, and exactly how it responds at every step in between. In the end we fell back to a multi-agent harness, a sophisticated framework running RL on a model with very little data, and the results came out mediocre. But I swear we were almost there. The direction was right. We just missed that one kind of data, and we ran out of time before the submission.\n\nLooking back now, I realize I'd walked straight into the doorway of an entire new world. I was trying to fit the real behavior of a system into a model, and the thing that turned out scarce was end-to-end, long-horizon data. Not a single instant. A complete chain of cause and effect.\n\nThe research of these past one month convinced me that this is happening everywhere at once.\n\nThinking Machines Lab's work on interaction models shook me the most. Everyone this year talks about proactive agents. I tried to fake that proactivity myself, bolting it onto the outside with wearables. Thinking Machines showed me something deeper: give the model the right data, and that capability grows natively from inside it. Interactivity stops being scaffolding you strap to the outside. The model absorbs it. And so silence, interruption, the precise instant the visual world changes, things no dataset ever bothered to record, all turn into data you must train on and can train on.\n\nA more radical direction comes from a paper called Neural Computers (a Meta AI and KAUST team; Jürgen Schmidhuber sits among the authors, which fits, since he first brought the term \"world model\" into machine learning back in 1990). They fold computation, memory, and I/O into a single learned runtime state, then instantiate it as a video model",
-      "text_excerpt_zh": "数据并不稀缺，稀缺的是你的想象力。\n\n我们正在耗尽训练数据。\n\n不。我们甚至还没开始收集它。\n\n当我们谈论数据时，我们想到的是推理、代码、音频、图像、机器人。没错，这些都是真实存在的，并且已经创造了财富。但这个列表并非数据的真实形态。它只是标记了我们当前想象力的边界。真正的空间要大得多，以至于其中一些数据，我们甚至无法想象它会是什么形态。\n\n我通过惨痛的经历学到了这一点，然后我发现，我所看到的每一个地方都在印证它。\n\n我职业生涯中有很长一段时间在做SRE，所以我一直围绕一个问题打转：大模型能否取代人类SRE工程师，这样我们就不用半夜被oncall叫醒了？我们真的尝试过。我们为此写了一篇论文。一旦深入进去，我们发现难点不在于模型。而在于环境。你几乎无法模拟真实的SRE事故。于是我们想到了一个当时看起来很优雅的想法：训练两个世界模型。一个扮演K8s专家，生成命令。另一个扮演K8s环境本身，在特定场景下生成合理的响应。让它们相互对抗。让模型学会在一个它自己构想的世界里操作。\n\n这没有成功。\n\n阻碍我们的原因几乎残酷地具体。我们无法获得足够的数据，而且收集到的数据质量也很低。我们需要那种能捕捉真实K8s集群在整个事故期间（从第一个异常到完全解决的那一刻，以及中间每一步的精确响应）的数据。最终，我们退而求其次，采用了一个多智能体框架（multi-agent harness），一个在数据极少的情况下对模型运行强化学习的复杂框架，结果很平庸。但我发誓我们差一点就成功了。方向是对的。我们只是缺少了那一种数据，并且在提交截止前耗尽了时间。\n\n现在回想起来，我意识到我当时已经走到了一个全新世界的门口。我试图将系统的真实行为拟合进一个模型，而事实证明稀缺的是端到端、长周期的数据。不是一个瞬间。而是一整条因果链。\n\n过去一个月的研究让我确信，这种情况正在各处同时发生。\n\nThinking Machines Lab 关于交互模型的工作最让我震撼。今年每个人都在谈论主动型智能体（proactive agents）。我曾试图自己伪造这种主动性，通过可穿戴设备从外部嫁接上去。Thinking Machines 向我展示了更深层的东西：给模型正确的数据，这种能力会从模型内部原生地生长出来。交互性不再是外部搭建的脚手架。模型将其内化了。于是，沉默、打断、视觉世界发生变化的精确瞬间——这些没有任何数据集费心记录过的东西——都变成了你必须训练、并且可以训练的数据。\n\n一个更激进的方向来自一篇名为《神经计算机》（Neural Computers）的论文（来自Meta AI和KAUST团队；Jürgen Schmidhuber 是作者之一，这很合理，因为他在1990年就将“世界模型”一词引入了机器学习）。他们将计算、内存和I/O折叠成一个单一的学习运行时状态，然后将其实例化为一个视频模型。",
-      "text_excerpt_zh_hash": "d1561ae69910d162",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059959528138194944"
     },
     "http://x.com/i/article/2059978479459000320": {
       "cleaner_v": 2,
@@ -8802,18 +8770,29 @@
       "title": "Hex is now in Codex | Hex",
       "url": "https://hex.tech/blog/hex-in-codex/"
     },
-    "https://heynori.go.link/9DLqW": {
-      "content_type": "text/html",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://supernori.heynori.com/",
-      "frameable": null,
-      "image_urls": [],
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "frameable": false,
+      "image_urls": [
+        "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4-Pro-DSpark.png",
+        "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+        "https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true",
+        "https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true",
+        "https://img.shields.io/badge/🤖%20Chat-DeepSeek%20V4-536af5?color=536af5&logoColor=white",
+        "https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white",
+        "https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white",
+        "https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark/resolve/main/assets/dsv4_performance.png"
+      ],
       "kind": "page",
       "text_excerpt": "",
       "text_excerpt_zh": "",
-      "title": "SuperNori — The Family AI",
-      "url": "https://heynori.go.link/9DLqW"
+      "title": "deepseek-ai/DeepSeek-V4-Pro-DSpark · Hugging Face deepseek-ai/DeepSeek-V4-Pro-DSpark · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
     },
     "https://ihower.tw/blog/13721-harness-engineering": {
       "cleaner_v": 2,
@@ -10940,34 +10919,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070443992635060224/img/f-X9aIMtGqNIkJve.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11023,6 +10974,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11640,20 +11605,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
     },
-    "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg"
-    },
     "https://pbs.twimg.com/media/HJaARqaXMAYArir.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -11681,20 +11632,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    },
-    "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg"
     },
     "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg": {
       "cleaner_v": 2,
@@ -13432,6 +13369,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
+    "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
+    },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14425,20 +14376,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
-    },
-    "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -15673,34 +15610,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Design Systems 2.0 | v0 Docs",
       "url": "https://v0.app/docs/design-systems-2"
-    },
-    "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "\"Did you see Turtle Boss yet?\" Tim asked over brunch.\n\n\"I saw it,\" said Katie over a mouthful of hash browns. \"It was so freaking good.\"\n\n\"Good?\" said Sam. \"You actually thought it was good?\"\n\n\"Yeah, it was incredible. Everyone's saying so.\"\n\n\"So you thought it was incredible or everyone",
-      "final_url": "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w1200/2023/09/what-we-like-1.png",
-        "https://vanschneider.com/blog/assets/images/hovs-logo-basic.svg?v=60ed40430f",
-        "https://www.gravatar.com/avatar/669a58b090446eb387817e14aa0c89c9?s=250&d=mm&r=x",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w256h256/2021/01/desk_publication_logo_square2.png",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/wp-content/uploads/2017/04/overload.jpg",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/2023/01/Breaking-the-Algorithm.png",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2023/11/quality_cover-1.jpg",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2023/02/When-our-persona-becomes-our-prison-2.png",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2026/05/sky.jpg",
-        "https://storage.ghost.io/c/be/f2/bef2fe50-a0a2-464d-b3e5-1c155fe25c68/content/images/size/w600/2026/02/aeth.jpg",
-        "https://vanschneider.com/wp-content/uploads/2021/06/footer-semplice.jpg",
-        "https://vanschneider.com/wp-content/uploads/2021/06/footer-semplice-supply.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Articles Series Colors New Mixtapes Signup Reading Club New Articles Series Colors New Mixtapes Signup Reading Club New How do you know what you like anymore? by Tobias van Schneider Published Sep 27, 2023 \"Did you see Turtle Boss yet?\" Tim asked over brunch. \"I saw it,\" said Katie over a mouthful of hash browns. \"It was so freaking good.\" \"Good?\" said Sam. \"You actually thought it was good?\" \"Yeah, it was incredible. Everyone's saying so.\" \"So you thought it was incredible or everyone did?\" asked Tim. \"Is anyone talking about how the main actor invented that new designer dog breed?\" Sam interjected, waving a fork-full of scrambled eggs. \"It's completely unethical.\" \"What does that have to do with Turtle Boss?\" asked Tim. \"I'm not supporting a movie that supports someone like that.\" \"So you don't support dog breeding, but you'll eat eggs,\" said Katie. \"Are those even cage-free? Don't you know how horrible chicken farms are?\" \"If you're getting on me about eggs, let's talk about the water it takes to farm those potatoes.\" Sam jabbed the fork now toward Katie's plate. The utensil was his pointer, his wand, his weapon. \"What are you, pro-climate change?\" A man sitting in the booth behind them turned around and nodded toward Sam. \"If you're climate-conscious, you should really stop using those plastic forks.\" ❋ We can't enjoy things the way we used to. There's too much baggage, too much information , too much context. In a time when an entire person can be cancelled, it's riskier to get it wrong. What's more, we've made it our personal jobs to inform and monitor the decisions of others. It's impossible to like something now just because we like it. Say you enjoy walking barefoot. Someone's going to tap you on the shoulder and say walking without shoes is bad for your health (citing multiple Instagram influencers who said so). Or you indulge in the occasional pastry. A well-meaning friend will ask, don't you know the dangers of a high-fat diet? You can't even wear your favorite sweater before someone points out the brand is morally problematic. Nothing you enjoy is safe: The director of that movie you love tweeted something questionable in 2008. That publication you read is funded by a corporate monster. That lotion you use every day causes cancer. If their unsolicited advice isn't enough to taint the thing you like, the fear of public ridicule is. Renounce the thing quickly or lose favor among not only your friends, but online strangers too! If you abide by their rules, you'll get confused quickly. What's acceptable or unacceptable may change by the hour. Scroll online for a few minutes and you'll discover a plethora of things that were formerly OKAY have now been stamped BAD. Let the public decide for you and you'll find yourself renouncing everything you enjoy on every level, from those special sweets, to your favorite author, to a city you like to visit, to an entire person or group of people you once appreciated. How do we know what we sincerely like anymore? We live at the mercy and whim of the hordes. Their influence is so strong, we don't even see it. They'll determine the movie we see, how we feel about it while watching, and the opinions we express afterward. They'll influence our personal style. The food we eat and where we get it from. The music we listen to. The books we read and don't read. The accounts we follow online. The type of plants we have in our home. The products we use in the shower. We don't even know if we enjoy these things or we want to enjoy them because everyone else does. We can't have an experience now without their voices in the back of our heads. Is it still possible to enjoy something for what it is? Is it still possible to have a pure, singular experience, untainted by its surrounding context and baggage? The movie may be good or bad, just like they say. The candy can indeed rot your teeth. That company has made questionable decisions about how they run their business. Maybe they're right, maybe",
-      "text_excerpt_zh": "# 文章\n\n## 系列 色彩 新混音带 注册 阅读俱乐部 新\n\n# 你还知道自己真正喜欢什么吗？\n\n作者：Tobias van Schneider  \n发布于 2023年9月27日\n\n\"你看《龟老大》了吗？\"蒂姆在早午餐时问道。\n\n\"我看过了，\"凯蒂嘴里塞着土豆饼含含糊糊地说。\"太好看了。\"\n\n\"好看？\"萨姆说。\"你真觉得好看？\"\n\n\"是啊，太棒了。大家都这么说。\"\n\n\"所以是你觉得棒，还是大家都觉得棒？\"蒂姆问道。\n\n\"有没有人讨论过那个主演发明了那种新的设计师犬种？\"萨姆插嘴道，挥舞着叉子上的炒蛋。\"这完全不道德。\"\n\n\"那跟《龟老大》有什么关系？\"蒂姆问。\n\n\"我不会支持一部支持那种人的电影。\"\n\n\"所以你不支持养狗，但你吃鸡蛋，\"凯蒂说。\"那些鸡蛋是散养的吗？你不知道养鸡场有多可怕吗？\"\n\n\"你要是拿鸡蛋说事，那咱们聊聊种那些土豆需要多少水。\"萨姆现在把叉子指向凯蒂的盘子。那餐具就是他的指示棒、他的魔杖、他的武器。\n\n\"你算什么，支持气候变化吗？\"\n\n坐在他们后面卡座里的一个男人转过身来，朝萨姆点了点头。\"如果你关心气候，真该别再用那些塑料叉子了。\"\n\n❋\n\n我们不能再像以前那样享受事物了。包袱太多，信息太多，背景太多。在一个整个人的名声都可能被毁掉的时代，犯错的风险太大了。更重要的是，我们已经把告知和监督他人的决定当成了自己的个人职责。现在，不可能仅仅因为自己喜欢某样东西就喜欢它了。\n\n假设你喜欢赤脚走路。会有人拍拍你的肩膀说，不穿鞋走路对健康有害（并引用多个Instagram网红的话作为依据）。或者你偶尔放纵一下吃个糕点。一位好心的朋友会问，你不知道高脂肪饮食的危害吗？你甚至不能穿你最喜欢的毛衣，因为会有人指出这个品牌在道德上有问题。你喜欢的一切都不安全：你爱的那部电影的导演在2008年发过一条有问题的推文。你读的那家出版物由一个企业怪物资助。你每天用的那款乳液致癌。\n\n如果他们不请自来的建议还不足以玷污你喜欢的东西，那么对公众嘲笑的恐惧也会。赶紧放弃那东西吧，否则不仅会失去朋友的好感，还会失去网上陌生人的好感！如果你遵守他们的规则，很快就会感到困惑。什么可以接受、什么不可以接受，可能每小时都在变化。在网上刷几分钟，你就会发现大量以前\"可以\"的东西现在都被贴上了\"坏\"的标签。\n\n让公众为你做决定，你会发现自己在各个层面上放弃所有你喜欢的东西——从那些特别的甜点，到你最喜欢的作者，到一个你喜欢去的城市，甚至到整个你曾经欣赏的人或群体。\n\n我们怎么还能知道自己真正喜欢什么呢？我们活在乌合之众的摆布和一时兴起之下。他们的影响如此强大，以至于我们甚至都看不见它。他们会决定我们看什么电影，看的时候怎么感受，以及之后表达什么观点。他们会影响我们的个人风格。我们吃什么、从哪儿买。我们听什么音乐。我们读什么书、不读什么书。我们在网上关注什么账号。我们在家里养什么植物。我们洗澡时用什么产品。我们甚至不知道自己是真心喜欢这些东西，还是因为别人都喜欢而想要喜欢它们。\n\n现在，没有他们在我们脑海里的声音，我们就无法拥有任何体验。还有可能单纯地欣赏某样东西本身吗？还有可能拥有纯粹、单一的体验，不受其周围背景和包袱的污染吗？\n\n电影可能好也可能坏，就像他们说的那样。糖果确实会蛀牙。那家公司在经营方式上做出了有问题的决定。也许他们是对的，也许……",
-      "text_excerpt_zh_hash": "c7235893336d49cd",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How do you know what you like anymore?",
-      "url": "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/"
     },
     "https://vercel.com/blog/introducing-eve": {
       "cleaner_v": 2,
@@ -17710,24 +17619,6 @@
       "https://x.com/IBuzovskyi/status/2060310956396236878",
       "https://x.com/IBuzovskyi/status/2059982479386144968"
     ],
-    "2059939941530980672": [
-      "https://x.com/zknmoe/status/2059939941530980672",
-      "https://x.com/zknmoe/status/2060046324175704346",
-      "https://pbs.twimg.com/media/HJbBNhWXsAI4Y5K.jpg",
-      "https://x.com/zknmoe/status/2060060537707286967",
-      "https://x.com/zknmoe/status/2060350338540921060",
-      "https://x.com/zknmoe/status/2060009841486172638",
-      "https://x.com/zknmoe/status/2060048716526936295",
-      "https://x.com/zknmoe/status/2060010918948302898"
-    ],
-    "2059963769804214506": [
-      "https://x.com/VoidAsuka/status/2059963769804214506",
-      "http://x.com/i/article/2059959528138194944",
-      "https://x.com/VoidAsuka/status/2060173814655549508"
-    ],
-    "2059965702543712397": [
-      "https://x.com/menhguin/status/2059965702543712397"
-    ],
     "2059975090855428571": [
       "https://x.com/danshipper/status/2059975090855428571",
       "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
@@ -17743,10 +17634,6 @@
       "https://x.com/calcsam/status/2059982309093523635",
       "https://x.com/calcsam/status/2060377968334303467",
       "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
-    ],
-    "2059982444703727721": [
-      "https://x.com/alextang/status/2059982444703727721",
-      "http://x.com/i/article/2059927958916300800"
     ],
     "2059986675141345348": [
       "https://x.com/lexrus/status/2060127660005847116",
@@ -17778,18 +17665,6 @@
       "https://x.com/MichLieben/status/2059990512103465438",
       "http://x.com/i/article/2059952466205224960"
     ],
-    "2059993607419965888": [
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
-      "https://x.com/SidebarIO/status/2060450613662499261",
-      "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
-    ],
-    "2059996110584762439": [
-      "https://x.com/nikunj/status/2059996110584762439",
-      "https://x.com/nikunj/status/2060012024227303867"
-    ],
     "2059998131140579753": [
       "https://x.com/mattyp/status/2059998131140579753",
       "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg",
@@ -17807,12 +17682,6 @@
       "https://x.com/neil_xbt/status/2060020517294191002",
       "http://x.com/i/article/2059414664618954754",
       "https://x.com/neil_xbt/status/2060034409839907235"
-    ],
-    "2060033046330351708": [
-      "https://x.com/vanschneider/status/2060033046330351708",
-      "https://pbs.twimg.com/media/HJa1Df3XQAE2-in.jpg",
-      "https://x.com/vanschneider/status/2060033048859599190",
-      "https://vanschneider.com/blog/how-do-you-know-what-you-like-anymore/"
     ],
     "2060035425574764708": [
       "https://x.com/Av1dlive/status/2060035425574764708",
@@ -22630,12 +22499,12 @@
       "https://x.com/AnatoliKopadze/status/2070173084431045068",
       "https://x.com/AnatoliKopadze/status/2070156820211986516",
       "https://x.com/AnatoliKopadze/status/2070165742117404976",
+      "https://x.com/AnatoliKopadze/status/2070916960355815472",
+      "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg",
       "https://x.com/AnatoliKopadze/status/2070850102105686212",
       "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg",
       "https://x.com/AnatoliKopadze/status/2070541643518775354",
-      "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg",
-      "https://x.com/AnatoliKopadze/status/2070489150294274236",
-      "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg"
     ],
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
@@ -22794,9 +22663,9 @@
     "2070358681569652865": [
       "https://x.com/Gorden_Sun/status/2070358681569652865",
       "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A",
-      "https://x.com/Gorden_Sun/status/2070539404767302116",
-      "https://heynori.go.link/9DLqW",
-      "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
+      "https://x.com/Gorden_Sun/status/2070882306085249352",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
     ],
     "2070387873023451275": [
       "https://x.com/iandenisjohnson/status/2070387873023451275",
@@ -22815,11 +22684,11 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
+      "https://x.com/_prisis_/status/2070736034258678080",
       "https://x.com/_prisis_/status/2070735001084101022",
-      "https://x.com/_prisis_/status/2070751830129160636",
-      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
       "https://x.com/_prisis_/status/2070735123109056986",
-      "https://x.com/_prisis_/status/2070736034258678080"
+      "https://x.com/_prisis_/status/2070751830129160636",
+      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22831,11 +22700,11 @@
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
-      "https://x.com/0xMortyx/status/2070455812154179916",
-      "https://x.com/0xMortyx/status/2070453134409769159",
       "https://x.com/0xMortyx/status/2070461392876908667",
-      "https://x.com/0xMortyx/status/2070452904868069854",
-      "https://x.com/0xMortyx/status/2070453250164158754"
+      "https://x.com/0xMortyx/status/2070453250164158754",
+      "https://x.com/0xMortyx/status/2070453134409769159",
+      "https://x.com/0xMortyx/status/2070455812154179916",
+      "https://x.com/0xMortyx/status/2070452904868069854"
     ],
     "2070467106412626035": [
       "https://x.com/bibryam/status/2070467106412626035",
@@ -22877,9 +22746,9 @@
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070532689392980369": [
       "https://x.com/nikunj/status/2070532689392980369",
@@ -22895,9 +22764,9 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
@@ -22910,9 +22779,9 @@
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070615836528963689": [
       "https://x.com/ericosiu/status/2070615836528963689",
@@ -22925,24 +22794,24 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070675743198384634",
       "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070682937541226871",
-      "https://x.com/waterloo_intern/status/2070653300152943067",
-      "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070675913315057722",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
       "https://x.com/waterloo_intern/status/2070649884731167018",
-      "https://x.com/waterloo_intern/status/2070675844075524146",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070675743198384634",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
       "https://x.com/waterloo_intern/status/2070650605002203176",
+      "https://x.com/waterloo_intern/status/2070701138777899369",
       "https://x.com/waterloo_intern/status/2070654226959835199",
-      "https://x.com/waterloo_intern/status/2070685881858691535",
-      "https://x.com/waterloo_intern/status/2070651025896485267"
+      "https://x.com/waterloo_intern/status/2070682937541226871",
+      "https://x.com/waterloo_intern/status/2070675913315057722",
+      "https://x.com/waterloo_intern/status/2070675844075524146",
+      "https://x.com/waterloo_intern/status/2070685881858691535"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22953,21 +22822,22 @@
       "https://x.com/eualmeidazs/status/2070849534419206327",
       "https://x.com/eualmeidazs/status/2070856808340554146",
       "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070844785624072493",
+      "https://x.com/eualmeidazs/status/2070905988832497723",
+      "https://x.com/eualmeidazs/status/2070931971706966057",
+      "https://x.com/eualmeidazs/status/2070658849845952988?s=20",
       "https://x.com/eualmeidazs/status/2070683457257119930",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070845398495678935",
-      "https://x.com/eualmeidazs/status/2070843539978682877",
       "https://x.com/eualmeidazs/status/2070869714088190279",
+      "https://x.com/eualmeidazs/status/2070843539978682877",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
-      "https://x.com/eualmeidazs/status/2070873405071478812",
       "https://x.com/eualmeidazs/status/2070873357210230796",
-      "https://x.com/eualmeidazs/status/2070843198805602553",
-      "https://x.com/eualmeidazs/status/2070646240006513129",
-      "https://x.com/eualmeidazs/status/2070658849845952988",
-      "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
+      "https://x.com/eualmeidazs/status/2070925214070808882",
+      "https://x.com/eualmeidazs/status/2070873405071478812",
+      "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
     "2070652345562923299": [
       "https://x.com/richzou/status/2070652345562923299",
@@ -22982,9 +22852,8 @@
       "https://x.com/mitchellh/status/2070879168829751399",
       "https://x.com/mitchellh/status/2070701789981331662",
       "https://x.com/mitchellh/status/2070699332718977465",
-      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070868895041560965",
-      "https://x.com/mitchellh/status/2070668728581365856",
+      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070281069631611056",
       "https://x.com/mitchellh/status/2070262735896772843",
       "https://x.com/mitchellh/status/2070273858154987537",
@@ -23007,6 +22876,6 @@
       "https://x.com/MatthewBerman/status/2070878464102789193"
     ]
   },
-  "updated_at": "2026-06-27T16:19:32Z",
+  "updated_at": "2026-06-27T18:18:13Z",
   "window": "recent"
 }
