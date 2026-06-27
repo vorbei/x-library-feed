@@ -185,6 +185,9 @@
         "bookmark@chumsdock"
       ],
       "text": "I’m launching better-drizzle.\n\nDrizzle ORM is great when you want SQL-first, type-safe control.\n\nBut in every real app I kept rewriting the same glue:\n\npagination, includes, nested filters, exists/count helpers, hooks, soft delete, timestamps, upserts...\nbetter-drizzle wraps your existing Drizzle client and gives every table a small typed repository API — without codegen, without replacing Drizzle, and without giving up raw SQL when you need it.\n\nPrisma DX with Drizzle performance.\n\nDocs: https://better-drizzle.vercel.app\nGitHub: https://github.com/almeidazs/better-drizzle\n\nWould love feedback, issues, stars, and people trying it in real Drizzle projects.\n\ncc @leodev",
+      "text_zh": "我正在发布 better-drizzle。\n\nDrizzle ORM 在需要 SQL 优先、类型安全的控制时非常出色。\n\n但在每个真实应用中，我都在重复编写相同的胶水代码：\n\n分页、关联查询、嵌套过滤器、exists/count 辅助函数、钩子、软删除、时间戳、upsert……\nbetter-drizzle 封装你现有的 Drizzle 客户端，为每个表提供一个轻量的类型化仓库 API —— 无需代码生成，无需替换 Drizzle，在需要时也不放弃原生 SQL。\n\nPrisma 的开发体验，Drizzle 的性能。\n\n文档：https://better-drizzle.vercel.app\nGitHub：https://github.com/almeidazs/better-drizzle\n\n欢迎反馈、提 issue、点 star，也希望大家在真实的 Drizzle 项目中试用。\n\n@leodev",
+      "text_zh_hash": "1db288e6e3466391",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/eualmeidazs/status/2070644820478251225"
     },
     {
@@ -334,6 +337,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Your Cloudflare backend just grew superpowers. ⚡\n\nOne typed context. The whole platform:\n→ http://ctx.ai - Workers AI, no lock-in\n→ ctx.payments - Stripe, typed & synced\n→ ctx.workflows - durable steps\n→ ctx.r2sql - analytics + window functions\n\nReal-time. End-to-end typed. Yours.\n🌙 http://lunora.sh",
+      "text_zh": "你的 Cloudflare 后端刚刚获得了超能力。⚡\n\n一个类型化的上下文。整个平台：\n→ http://ctx.ai - Workers AI，无锁定\n→ ctx.payments - Stripe，类型化且同步\n→ ctx.workflows - 持久化步骤\n→ ctx.r2sql - 分析 + 窗口函数\n\n实时。端到端类型化。属于你。\n🌙 http://lunora.sh",
+      "text_zh_hash": "20231c0f5dbe9ac5",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_prisis_/status/2070414927446048872"
     },
     {
