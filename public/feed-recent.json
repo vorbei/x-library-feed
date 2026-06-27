@@ -6378,6 +6378,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070665015032705024"
     },
+    "http://x.com/i/article/2070681279079526400": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070681279079526400",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLyMigvW0AAiMEl?format=jpg&name=900x900)](http://x.com/cyrilXBT/article/2070690243880116242/media/2070684453215588352)\n\nHow to Build a Team of AI Agents That Actually Work Together (Full Course)\n\n[![](https://pbs.twimg.com/profile_images/2035229727414534145/aWap3Jbq_normal.jpg)](http://x.com/cyrilXBT)\n\n[CyrilXBT](http://x.com/cyrilXBT)\n\n[@cyrilXBT](http://x.com/cyrilXBT)\n\n·\n\n14h\n\nFollow\n\nClick to Follow cyrilXBT\n\n11\n\n38\n\n196\n\n[81K](http://x.com/cyrilXBT/status/2070690243880116242/analytics)\n\nMost multi-agent systems fail for the same boring reason. Someone spins up three or four agents, gives each one a vague job description, lets them all talk to each other freely, and then wonders why the output is worse than a single well-prompted agent would have produced alone.\n\nMore agents is not the upgrade people think it is. An uncoordinated group of agents is just one confused process wearing several costumes. The upgrade comes from structure. Clear roles. Clear handoffs. A real verification step. A way to stop.\n\nThis course covers the actual architecture behind multi-agent systems that hold up under real use, not demo conditions. By the end you will understand why most teams fail, the specific roles that make a team function, how to wire the handoffs between them, and the failure modes you need to test for before you trust the system with anything that matters.\n\n## \n\nWhy Adding Agents Usually Makes Things Worse\n\nStart with the uncomfortable truth. A second agent does not add intelligence to a system. It adds another point of failure, another place where context can get lost, and another opportunity for the system to confidently produce something wrong.\n\nThe naive version of multi-agent design treats agents like a brainstorm. Throw a few of them at a problem, let them all see everything, let them all contribute, and trust that more perspectives produce a better answer. This fails for a specific reason. Without role separation, every agent ends up doing a slightly worse version of the same generalist task, and nobody is actually checking anybody's work. You have parallelized the guessing, not improved the accuracy.\n\nThe systems that actually work invert this completely. Instead of many agents doing the same job, you build a small number of agents each doing a distinct job, with a structure that catches mistakes before they compound. Multi-agent design is not about adding more minds to a problem. It is about separating concerns the same way a well run team of humans separates concerns, with someone building, someone checking, and someone deciding when the work is actually done.\n\n## \n\nThe Three Roles Every Working System Needs\n\nEvery multi-agent system that holds up in production reduces, at its core, to some version of three roles. Different teams name them differently, but the functions are constant.\n\nThe Builder. This agent does the actual work. Writes the code, drafts the content, researches the topic, executes the task. It has the most context about the specific problem and the fewest constraints on creativity, because its job is to produce a first attempt, not a perfect one.\n\nThe Judge. This agent does not build anything. Its only job is to evaluate what the Builder produced against a specific, written standard. Does the code pass the tests. Does the draft match the brief. Does the research actually answer the question asked. The Judge should ideally run on a different prompt, sometimes a different model entirely, because an agent grading its own homework with the same blind spots it wrote the homework with catches far less than an independent reviewer would.\n\nThe Manager. This agent does not build or judge. It routes. It decides what happens next based on what the Judge reported. Send it back to the Builder with specific feedback. Escalate to a human. Mark the task complete. T",
+      "title": "",
+      "url": "http://x.com/i/article/2070681279079526400"
+    },
     "http://x.com/i/article/2070730492236947456": {
       "cleaner_v": 2,
       "content_type": "",
@@ -13419,20 +13432,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
-    "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png"
-    },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14426,6 +14425,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
+    },
+    "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -22805,8 +22818,8 @@
       "https://x.com/_prisis_/status/2070735001084101022",
       "https://x.com/_prisis_/status/2070751830129160636",
       "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
-      "https://x.com/_prisis_/status/2070736034258678080",
-      "https://x.com/_prisis_/status/2070735123109056986"
+      "https://x.com/_prisis_/status/2070735123109056986",
+      "https://x.com/_prisis_/status/2070736034258678080"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22818,11 +22831,11 @@
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
-      "https://x.com/0xMortyx/status/2070461392876908667",
-      "https://x.com/0xMortyx/status/2070453250164158754",
-      "https://x.com/0xMortyx/status/2070453134409769159",
       "https://x.com/0xMortyx/status/2070455812154179916",
-      "https://x.com/0xMortyx/status/2070452904868069854"
+      "https://x.com/0xMortyx/status/2070453134409769159",
+      "https://x.com/0xMortyx/status/2070461392876908667",
+      "https://x.com/0xMortyx/status/2070452904868069854",
+      "https://x.com/0xMortyx/status/2070453250164158754"
     ],
     "2070467106412626035": [
       "https://x.com/bibryam/status/2070467106412626035",
@@ -22864,12 +22877,13 @@
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070532689392980369": [
       "https://x.com/nikunj/status/2070532689392980369",
+      "https://x.com/nikunj/status/2070902142089773346",
       "https://x.com/nikunj/status/2070714970338431375",
       "https://x.com/nikunj/status/2070715006489178247"
     ],
@@ -22881,9 +22895,9 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
@@ -22896,9 +22910,9 @@
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ],
     "2070615836528963689": [
       "https://x.com/ericosiu/status/2070615836528963689",
@@ -22911,24 +22925,24 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070649884731167018",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
       "https://x.com/waterloo_intern/status/2070675743198384634",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070651025896485267",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070654302243434863",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2070682937541226871",
       "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070701138777899369",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070675913315057722",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070649884731167018",
+      "https://x.com/waterloo_intern/status/2070675844075524146",
       "https://x.com/waterloo_intern/status/2070650605002203176",
       "https://x.com/waterloo_intern/status/2070654226959835199",
-      "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070682937541226871",
-      "https://x.com/waterloo_intern/status/2070675913315057722",
       "https://x.com/waterloo_intern/status/2070685881858691535",
-      "https://x.com/waterloo_intern/status/2070675844075524146"
+      "https://x.com/waterloo_intern/status/2070651025896485267"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22939,22 +22953,21 @@
       "https://x.com/eualmeidazs/status/2070849534419206327",
       "https://x.com/eualmeidazs/status/2070856808340554146",
       "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070844785624072493",
-      "https://x.com/eualmeidazs/status/2070845398495678935",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2070869714088190279",
-      "https://x.com/eualmeidazs/status/2070873357210230796",
+      "https://x.com/eualmeidazs/status/2070845398495678935",
       "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070883635863924844",
-      "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070873405071478812",
-      "https://x.com/eualmeidazs/status/2070883211865973011",
-      "https://x.com/eualmeidazs/status/2070867812826923496",
-      "https://x.com/eualmeidazs/status/2070870494971121905",
-      "https://x.com/eualmeidazs/status/2070843198805602553"
+      "https://x.com/eualmeidazs/status/2070873357210230796",
+      "https://x.com/eualmeidazs/status/2070843198805602553",
+      "https://x.com/eualmeidazs/status/2070646240006513129",
+      "https://x.com/eualmeidazs/status/2070658849845952988",
+      "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
     ],
     "2070652345562923299": [
       "https://x.com/richzou/status/2070652345562923299",
@@ -22965,17 +22978,21 @@
       "https://x.com/mitchellh/status/2070665127331037290",
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
-      "https://x.com/mitchellh/status/2070879168829751399",
       "https://x.com/mitchellh/status/2070860507368792372",
-      "https://x.com/mitchellh/status/2070699332718977465",
+      "https://x.com/mitchellh/status/2070879168829751399",
       "https://x.com/mitchellh/status/2070701789981331662",
-      "https://x.com/mitchellh/status/2070868895041560965",
+      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070868642120822838",
+      "https://x.com/mitchellh/status/2070868895041560965",
       "https://x.com/mitchellh/status/2070668728581365856",
       "https://x.com/mitchellh/status/2070281069631611056",
       "https://x.com/mitchellh/status/2070262735896772843",
       "https://x.com/mitchellh/status/2070273858154987537",
       "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
+    ],
+    "2070690243880116242": [
+      "https://x.com/cyrilXBT/status/2070690243880116242",
+      "http://x.com/i/article/2070681279079526400"
     ],
     "2070735964788658598": [
       "https://x.com/zarazhangrui/status/2070735964788658598",
@@ -22983,8 +23000,13 @@
     ],
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
+    ],
+    "2070876072619765805": [
+      "https://x.com/MatthewBerman/status/2070876072619765805",
+      "https://github.com/Forward-Future/loop-library",
+      "https://x.com/MatthewBerman/status/2070878464102789193"
     ]
   },
-  "updated_at": "2026-06-27T14:55:15Z",
+  "updated_at": "2026-06-27T16:19:32Z",
   "window": "recent"
 }
