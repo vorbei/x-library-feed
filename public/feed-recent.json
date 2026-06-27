@@ -1157,22 +1157,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059633283315490821"
     },
-    "http://x.com/i/article/2059639716417273860": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059639716417273860",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059639716417273860/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVk248XUAM57Jb?format=jpg&name=900x900)](http://x.com/i/article/2059639716417273860/IBuzovskyi/article/2059675518966894767/media/2059663298753155075)\n\nHERMES AGENT: THE COMPLETE GUIDE. From Zero to Self-Improving AI Employee\n\n[![](https://pbs.twimg.com/profile_images/2055755733002506240/uFECjFhT_normal.jpg)](http://x.com/i/article/2059639716417273860/IBuzovskyi)\n\n[YanXbt](http://x.com/i/article/2059639716417273860/IBuzovskyi)\n\n[@IBuzovskyi](http://x.com/i/article/2059639716417273860/IBuzovskyi)\n\n·\n\n7h\n\n·\n\nFollow\n\nClick to Follow IBuzovskyi\n\n6\n\n65\n\n[6K](http://x.com/i/article/2059639716417273860/IBuzovskyi/status/2059675518966894767/analytics)\n\nI've been running Hermes Agent 24/7 for months. This is everything I learned: installation, models, use cases, the dashboard 99% of people use wrong, self-improvement, security. All of it.\n\nBookmark this. You'll need it when you start building.\n\n## \n\nTable of Contents\n\n1. [What Hermes Agent Actually Is](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-1)\n2. [Hermes vs OpenClaw vs Claude Code](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-2)\n3. [Installation](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-3)\n4. [Model Selection — What to Use for What](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-4)\n5. [Messaging Platform](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-5)\n6. [First Things to Do](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-6)\n7. [The Dashboard](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-7)\n8. [Use Cases](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-8)\n9. [Self-Improvement — The Actual Edge](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-9)\n10. [Security](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#layer-10)\n11. [Appendix: Complete Command Reference](https://claude.ai/chat/219c14d2-24dc-4bf6-9eda-873b2f195d7c#appendix)\n\n## \n\nLAYER 1 — WHAT HERMES AGENT ACTUALLY IS\n\nHermes Agent is a 247 autonomous AI employee built by Nous Research.\n\nAn agent that works while you sleep, proactively figures out tasks aligned with your goals, and gets better every single session.\n\nThree things separate it from everything else:\n\nMemory. Everything lives in markdown files on your computer — not in the cloud, not in a black box. On your machine. You can read it, edit it, delete it. Full transparency.\n\nSelf-improvement. Every task it completes, it reviews. What worked. What didn't. How to do it better next time. It edits its own skills after every session.\n\nSession recall. Every conversation you've ever had is logged with FTS5 full-text search and LLM summarization. Ask it what you talked about 3 months ago. It knows.\n\n[![Image](https://pbs.twimg.com/media/HJVgNhNXcAQCZ-j?format=jpg&name=small)](http://x.com/i/article/2059639716417273860/IBuzovskyi/article/2059675518966894767/media/2059658189960867844)\n\n## \n\nLAYER 2 — HERMES vs OPENCLAW vs CLAUDE CODE\n\nThree tools. Three different jobs. Here's where each one fits.\n\nHermes vs OpenClaw\n\nOpenClaw has gotten bloated. Feels slow. And the updates break it — every single one. For someone who lives with AI agents, that's painful. For someone newer to agents, it's a dealbreaker.\n\nHermes is lighter, snappier, and updates don't destroy your setup. That reliability alone is the reason to switch right now.\n\nAdditional Hermes advantages:\n\n* Built-in multi-agent via Kanban (v0.12.0+) — agents claim tasks from a board, work in parallel, hand off when blocked\n* Nous Portal with curated models built in\n* 166 tracked skills (87 bundled + 79 optional) across 26+ categories\n* 20+ messaging platforms: Telegram, Discord, Slack, WhatsApp, Signal, Matrix, Teams, and more\n\nHermes vs Claude Code v",
-      "text_excerpt_zh": "# 赫尔墨斯智能体：完整指南。从零到自我进化的AI员工\n\n## 目录\n\n1. [赫尔墨斯智能体究竟是什么](#layer-1)\n2. [Hermes vs OpenClaw vs Claude Code](#layer-2)\n3. [安装](#layer-3)\n4. [模型选择——什么场景用什么模型](#layer-4)\n5. [消息平台](#layer-5)\n6. [入门第一步](#layer-6)\n7. [仪表盘](#layer-7)\n8. [使用场景](#layer-8)\n9. [自我进化——真正的优势](#layer-9)\n10. [安全](#layer-10)\n11. [附录：完整命令参考](#appendix)\n\n## 第一层——赫尔墨斯智能体究竟是什么\n\nHermes Agent 是由 Nous Research 构建的 24/7 全天候自主AI员工。\n\n一个在你睡觉时工作的智能体，主动找出与你目标一致的任务，并且每次会话都在变得更好。\n\n有三点让它与其他方案截然不同：\n\n**记忆。** 所有内容都以 markdown 文件形式存储在你的电脑上——不在云端，不在黑箱里。就在你的机器上。你可以读取、编辑、删除。完全透明。\n\n**自我进化。** 每完成一个任务，它都会进行复盘。哪些做得好。哪些不好。下次如何做得更好。每次会话后它都会编辑自己的技能。\n\n**会话回溯。** 你所有的对话历史都通过 FTS5 全文搜索和 LLM 摘要记录。问它三个月前你们聊过什么。它知道。\n\n## 第二层——Hermes vs OpenClaw vs Claude Code\n\n三个工具。三种不同的工作。以下是各自的定位。\n\n**Hermes vs OpenClaw**\n\nOpenClaw 已经变得臃肿。感觉迟钝。而且每次更新都会出问题——每一次。对于经常使用AI智能体的人来说，这很痛苦。对于刚接触智能体的人来说，这足以劝退。\n\nHermes 更轻量、更敏捷，更新不会破坏你的配置。仅凭这种可靠性，现在就值得切换。\n\nHermes 的额外优势：\n\n* 通过看板内置多智能体功能（v0.12.0+）——智能体从任务板上认领任务，并行工作，遇到阻碍时交接\n* Nous Portal 内置精选模型\n* 166个可追踪技能（87个内置 + 79个可选），涵盖26+类别\n* 20+消息平台：Telegram、Discord、Slack、WhatsApp、Signal、Matrix、Teams 等\n\n**Hermes vs Claude Code v**",
-      "text_excerpt_zh_hash": "cbcb6da93b09569e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059639716417273860"
-    },
     "http://x.com/i/article/2059649519722307584": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1188,22 +1172,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059649519722307584"
-    },
-    "http://x.com/i/article/2059652660022910976": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059652660022910976",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059652660022910976/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVjfeZaIAAXjSy?format=jpg&name=900x900)](http://x.com/i/article/2059652660022910976/mem0ai/article/2059662044224475280/media/2059661796978597888)\n\nWhat OpenClaw and Hermes Agent Reveal About Agent Memory\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2038726039153881088/b3jpb6xu_normal.jpg)](http://x.com/i/article/2059652660022910976/mem0ai)\n\n[mem0](http://x.com/i/article/2059652660022910976/mem0ai)\n\n[@mem0ai](http://x.com/i/article/2059652660022910976/mem0ai)\n\n·\n\n8h\n\nFollow\n\nClick to Follow mem0ai\n\n8\n\n8\n\n107\n\n[7.2K](http://x.com/i/article/2059652660022910976/mem0ai/status/2059662044224475280/analytics)\n\nLong-running coding agents all hit the same problem: memory fades over time. A chat session is not one clean prompt. It can stretch across hours, days, files, decisions, preferences, and half-finished work. That is why memory is no longer just a feature. It is part of the agent architecture.\n\nWe looked at two open-source coding agents solving this in very different ways: Hermes Agent and OpenClaw.\n\nHermes keeps memory small, frozen, and cache-friendly. It treats prompt memory as a tightly curated working set.\n\nOpenClaw keeps memory more live, searchable, and file-native. It treats memory as an evolving workspace that can change as the agent works.\n\nBoth are coherent designs. Both integrate with Mem0\\. But the trade-off is very different:\n\nShould agent memory be optimized for stable, cached long sessions, or for immediate, live recall?\n\nAnd for us, that question matters because Mem0 sits underneath both as the cross-tool persistence layer: helping agents remember beyond one harness, one session, or one local memory file.\n\n## \n\nWhat both harnesses are\n\nOpenClaw (formerly Clawdbot, Moltbot, and Molty) is a free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging platforms as its main user interface. You can access it at \n\n[github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)\n\n. It runs as a CLI and also targets extended development work.\n\nHermes Agent is the open-source AI coding agent Nous Research released in early 2026, with first tagged release v0.2.0 on March 12, 2026 (\n\n[github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)\n\n). It can also runs as a CLI with a TUI and is built for extended tasks: sessions that run for hours or span multiple days.\n\nBoth harnesses solve roughly the same problem: a coding agent that survives across sessions, accumulates context, and gets more useful over time. Both lean on markdown files for memory. Both have a Mem0 plugin. The interesting thing is how differently they got there.\n\n## \n\nWhere memory lives\n\nHermes stores memory in two files inside \\~/.hermes/memories/:\n\n* MEMORY.md: the agent's notes about the world. Hard char cap of 2,200.\n* USER.md: the agent's notes about the user. Hard cap of 1,375.\n\nRoughly 3,575 characters total. Entries are separated by § (the section sign, U+00A7). About 1,300 tokens that travel into every system prompt.\n\nOpenClaw stores memory in \\~/.openclaw/workspace/:\n\n* MEMORY.md: the primary long-term file. Around a 20,000-char soft target; behaviour past that point is not formally specified in the docs.\n* memory/YYYY-MM-DD.md: daily notes. Today's and yesterday's auto-load at session start; older ones stay on disk and are searchable, but not automatically in context.\n* DREAMS.md (optional): consolidation summaries.\n* \\~/.openclaw/memory/<agentId>.sqlite: a per-agent FTS5 + vector index over everything above.\n\n[![Image](https://pbs.twimg.com/media/HJVeb9OaAAA0SFH?format=jpg&name=small)](http://x.com/i/article/2059652660022910976/mem0ai/article/2059662044224475280/media/2059656238976335872)\n\nFig 1\\. Openclaw Memory\n\nPlain markdown, no delimiter",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059652660022910976/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJVjfeZaIAAXjSy?format=jpg&name=900x900)](http://x.com/i/article/2059652660022910976/mem0ai/article/2059662044224475280/media/2059661796978597888)\n\nOpenClaw 和 Hermes Agent 揭示了关于 Agent 记忆的什么\n\n[![方形头像](https://pbs.twimg.com/profile_images/2038726039153881088/b3jpb6xu_normal.jpg)](http://x.com/i/article/2059652660022910976/mem0ai)\n\n[mem0](http://x.com/i/article/2059652660022910976/mem0ai)\n\n[@mem0ai](http://x.com/i/article/2059652660022910976/mem0ai)\n\n·\n\n8小时前\n\n关注\n\n点击关注 @mem0ai\n\n8\n\n8\n\n107\n\n[7.2K](http://x.com/i/article/2059652660022910976/mem0ai/status/2059662044224475280/analytics)\n\n长时间运行的编码 agent 都会遇到同一个问题：记忆会随时间消退。一次聊天会话并非一个干净的提示词。它可能跨越数小时、数天、多个文件、决策、偏好以及未完成的工作。这就是为什么记忆不再只是一个功能。它已成为 agent 架构的一部分。\n\n我们研究了两个以截然不同方式解决此问题的开源编码 agent：Hermes Agent 和 OpenClaw。\n\nHermes 保持记忆小巧、固定且对缓存友好。它将提示词记忆视为一个精心策划的工作集。\n\nOpenClaw 则保持记忆更活跃、可搜索且贴近文件原生。它将记忆视为一个可随 agent 工作而变化的演进式工作空间。\n\n两者都是连贯的设计。两者都与 Mem0 集成。但权衡取舍却大相径庭：\n\nAgent 记忆应该针对稳定、可缓存的长时间会话进行优化，还是针对即时、活跃的回忆进行优化？\n\n对我们而言，这个问题很重要，因为 Mem0 作为跨工具持久化层位于两者之下：帮助 agent 超越单个 harness、单个会话或单个本地记忆文件进行记忆。\n\n## \n\n两个 harness 是什么\n\nOpenClaw（原名 Clawdbot、Moltbot 和 Molty）是一个免费开源自主人工智能 agent，能够通过大语言模型（LLM）执行任务，使用消息平台作为其主要用户界面。你可以访问 [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw) 获取。它以 CLI 形式运行，也面向扩展开发工作。\n\nHermes Agent 是 Nous Research 于 2026 年初发布的开源 AI 编码 agent，首个标记版本 v0.2.0 于 2026 年 3 月 12 日发布（[github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)）。它也可以作为带有 TUI 的 CLI 运行，专为扩展任务而构建：持续数小时或跨越数天的会话。\n\n这两个 harness 解决的大致是同一个问题：一个能在会话间存活、积累上下文并随时间推移变得更有用的编码 agent。两者都依赖 markdown 文件进行记忆。两者都有 Mem0 插件。有趣的是它们实现方式的不同。\n\n## \n\n记忆存储在哪里\n\nHermes 将记忆存储在 `~/.hermes/memories/` 中的两个文件里：\n\n* MEMORY.md：agent 关于世界的笔记。硬字符上限为 2,200。\n* USER.md：agent 关于用户的笔记。硬上限为 1,375。\n\n总计约 3,575 个字符。条目之间用 §（节符号，U+00A7）分隔。大约 1,300 个 token 会进入每个系统提示词。\n\nOpenClaw 将记忆存储在 `~/.openclaw/workspace/` 中：\n\n* MEMORY.md：主要长期文件。软目标约为 20,000 字符；超出此范围的行为在文档中没有正式规定。\n* memory/YYYY-MM-DD.md：每日笔记。会话启动时自动加载今天和昨天的笔记；较旧的笔记保留在磁盘上并可搜索，但不会自动进入上下文。\n* DREAMS.md（可选）：整合摘要。\n* `~/.openclaw/memory/<agentId>.sqlite`：一个针对上述所有内容的、每个 agent 独立的 FTS5 + 向量索引。\n\n[![图片](https://pbs.twimg.com/media/HJVeb9OaAAA0SFH?format=jpg&name=small)](http://x.com/i/article/2059652660022910976/mem0ai/article/2059662044224475280/media/2059656238976335872)\n\n图 1. Openclaw 记忆\n\n纯 markdown，无分隔符。",
-      "text_excerpt_zh_hash": "ca3c47b6034343df",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059652660022910976"
     },
     "http://x.com/i/article/2059654105816051715": {
       "cleaner_v": 2,
@@ -6431,6 +6399,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070441264122626049"
     },
+    "http://x.com/i/article/2070556766660931584": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070556766660931584",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLwYpJIaIAARvYl?format=jpg&name=900x900)](http://x.com/RLanceMartin/article/2070571422913876182/media/2070557023788474368)\n\nTowards org-level agent harnesses \n\n[![](https://pbs.twimg.com/profile_images/1999948423018221568/s2XL2-On_normal.jpg)](http://x.com/RLanceMartin)\n\n[Lance Martin](http://x.com/RLanceMartin)\n\n[@RLanceMartin](http://x.com/RLanceMartin)\n\n·\n\n6h\n\nFollow\n\nClick to Follow RLanceMartin\n\n4\n\n18\n\n162\n\n[25K](http://x.com/RLanceMartin/status/2070571422913876182/analytics)\n\nClaude Tag has grown \n\n[rapidly](https://www.anthropic.com/news/introducing-claude-tag)\n\n in Anthropic. I want to share some of the reasons for this and the behavioral shifts I’ve seen with this agent UX.\n\nSingle to multi-player\n\nWhen I joined Anthropic, nearly everyone had their own Claude Code harness with personal connectors. Agent identity was tied to the individual.\n\nOver the past few months, Claude Tag introduced an \n\n[org-level agent harness](https://x.com/karpathy/status/2069822834160124091)\n\n, giving Claude its own \n\n[identity](https://claude.com/blog/agent-identity-access-model)\n\n, connectors, and skills within Slack.\n\nI saw this give rise to a number of benefits. \n\nFirst, I think it helped to level the playing field of contributions. For example, new employees have immediate access to the same harness as everyone else, which helps people onboard more quickly.\n\nSecond, a harness with access to shared context, such as public channels in defined security boundaries, has \n\n[benefits](https://claude.com/blog/building-effective-human-agent-teams)\n\n like reducing work duplication and disseminating best practices.\n\n[![Image](https://pbs.twimg.com/media/HLwZEwra0AAhxGG?format=jpg&name=small)](http://x.com/RLanceMartin/article/2070571422913876182/media/2070557498260770816)\n\nFinally, org-level harnesses open up different types of \n\n[multi-player](https://claude.com/blog/building-effective-human-agent-teams)\n\n work coordination. Claude works “inline” with teams on problems such as:\n\n* Incidents are posted to a Slack channel and  \n[@Claude](https://x.com/@Claude)  \n helps investigate the root cause with multiple engineers in a shared thread\n* [@Claude](https://x.com/@Claude)  \n is tagged in a long discussion thread to write a postmortem with timeline and actions.\n\nSynchronous to asynchronous\n\nLike many, I've built Slackbots before. When Claude could only manage a limited amount of autonomous work, I needed to steer the bot with regular check-ins, nudges, and approvals.\n\nIn the past, the model capability didn't support a smooth asynchronous agent UX and I often found myself just returning to Claude Code in the CLI.\n\nOne way to think about product surfaces over time: \n\n[Claude is a light source](https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo)\n\n and the product is the lens that focuses it. As Claude gets more capable, the right product lens changes.\n\n[![Image](https://pbs.twimg.com/media/HLwaoh7aMAAOKYs?format=jpg&name=small)](http://x.com/RLanceMartin/article/2070571422913876182/media/2070559212288225280)\n\nWith Claude's task length doubling every \n\n[four months](https://www.anthropic.com/institute/recursive-self-improvement)\n\n, Claude Tag became an increasingly appealing product surface.\n\nOf course, this was due to model capability. But, security improvements also made it possible to trust asynchronous work delegation.\n\nClaude got more \n\n[resistant to prompt injection](https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude Opus 4.8 System Card.pdf%29)\n\n, classifiers (\n\n[auto-mode](https://www.anthropic.com/engineering/claude-code-auto-mode)\n\n) could review actions, and Claude Tag developed a strong \n\n[security model](https://claude.com/blog/agent-identity-access-model)\n\n.\n\nAsynchronous work in Claude Tag also paired well with new primitives, like \n\n[goal](ht",
+      "title": "",
+      "url": "http://x.com/i/article/2070556766660931584"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -6515,23 +6496,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Loop Engineering AddyOsmani.com - Loop Engineering",
       "url": "https://addyosmani.com/blog/loop-engineering/"
-    },
-    "https://ai-on-the-internet.github.io/?ref=sidebar": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "By mid-2025, roughly 35% of newly published websites were classified as AI-generated or AI-assisted. We analyze the impact on semantic diversity, factual accuracy, sentiment, and more.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://ai-on-the-internet.github.io/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://ai-on-the-internet.github.io/assets/img/featured/fast-company.jpg",
-        "https://ai-on-the-internet.github.io/assets/img/featured/404-media.png",
-        "https://ai-on-the-internet.github.io/assets/img/featured/wired.svg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "The Impact of AI-Generated Text on the Internet",
-      "url": "https://ai-on-the-internet.github.io/?ref=sidebar"
     },
     "https://ailayoffs.rajnandan.com/?ref=sidebar": {
       "content_type": "text/html; charset=utf-8",
@@ -7094,6 +7058,27 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The parts of your system you never wrote down",
       "url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/?ref=sidebar"
+    },
+    "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Eleven months on from \"Your next design system user is an agent,\" the agents are writing to design systems, not just reading. What changed and what it breaks.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w1200/2026/05/0_1.jpeg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/2026/03/mtlogo2-1.svg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/03/48Ekqgdx_400x400-copy.png",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w300/2026/06/0_1.jpeg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/fc384b8f-d07e-40c0-bf56-c7fbe4b0df08_1456x816-jpeg.jpg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/bc5e27c9-618a-4445-884c-c16acc95c8d7_1456x816-jpeg-1.jpg",
+        "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w600/2026/03/fb21a65d-1522-4ddd-92ed-f36491e9b79d_1456x816-jpeg.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Twelve months ago I argued in [Your next design system user is an agent](https://blog.murphytrueman.com/p/your-next-design-system-user) that the next user of your design system would be an agent. The agent I described then was a reader. It would parse your components, inspect your tokens, follow your naming conventions, and produce code that reflected the structure you'd given it. The whole piece was about preparing systems for consumption by machines that would only ever look, never touch.\nNow, the agents are writing.\nFigma [opened its canvas to agents](https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/?ref=blog.murphytrueman.com) on in late March 2026 with the use_figma tool in its MCP server, letting supported MCP clients including Claude Code, Cursor, and Copilot create and modify Figma files directly. Around the same time, [Storybook 10.3 shipped MCP for React](https://storybook.js.org/blog/storybook-mcp-for-react/?ref=blog.murphytrueman.com) in preview, giving agents direct access to components, stories, docs, and tests, along with the ability to write new stories and run accessibility tests on what they generated. Google released DESIGN.md [as an open specification](https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-design-md/?ref=blog.murphytrueman.com) in April, giving teams a portable, machine-readable design specification that agents can both read from and write to. Anthropic [opened its Agent Skills specification](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills?ref=blog.murphytrueman.com) in December last year, with SKILL.md emerging as the portable file format most tools now recognise, and skills-based authoring workflows have started appearing across design tooling since.\nFigma has since gone further. It [shipped its own agent](https://www.figma.com/blog/the-figma-agent-is-here/?ref=blog.murphytrueman.com) in beta in May, native to the canvas and sitting in the left rail, and [opened it to everyone at Config 2026](https://www.figma.com/blog/config-2026-recap/?ref=blog.murphytrueman.com). The agent also gained skills — reusable instruction packages that carry a team's workflows and conventions — written in-house or shared from a community library. Where use_figma lets an external client reach into your files, this one is built into the tool, fine-tuned for design, and positioned as fluent in your components and tokens in ways a third-party agent can't match.\nThe read-only assumption I started from is no longer the operating model. The direction held up, but what I got wrong was the pace. The systems I described as needing to be 'agent-ready' are now being authored alongside agents.\nWhat writing actually means\n'Agents writing to your design system' covers four cases:\nThe most visible case is canvas modification: An agent receives a prompt like 'create a settings page using our existing components' and, through use_figma or an equivalent tool, places real components on the canvas with the variables applied. The output is a Figma file your team can open, edit, and ship from, rather than a flat image or a static mock-up. The agent is operating inside your system, not generating something that needs to be retrofitted into it.\nToken authorship is the second pattern: Through Storybook's MCP server, the official Figma MCP, and community-built tools, agents can now read a tokens file, propose value changes, write the changes back to the variables, and update the documentation in the same session. [Southleft's Figma Console MCP](https://github.com/southleft/figma-console-mcp?ref=blog.murphytrueman.com) was doing this before use_figma existed, using a bridge plugin to drive the Figma Plugin API directly. The token system that used to be edited by one designer through a Figma plugin is now edited by an agent following a prompt. The values are the same, the authorship is different.\nThen there's documentation: Component descriptions, usage not",
+      "title": "Your design system has a new author",
+      "url": "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar"
     },
     "https://blog.n8n.io/advanced-rag/": {
       "cleaner_v": 2,
@@ -8789,6 +8774,19 @@
       "title": "Hex is now in Codex | Hex",
       "url": "https://hex.tech/blog/hex-in-codex/"
     },
+    "https://heynori.go.link/9DLqW": {
+      "content_type": "text/html",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://supernori.heynori.com/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "SuperNori — The Family AI",
+      "url": "https://heynori.go.link/9DLqW"
+    },
     "https://iii.dev/": {
       "content_type": "text/html",
       "description": "The latest docs on how to use iii, a new paradigm to effortlessly compose, extend, and observe every service in any system in real-time for the first time ever.",
@@ -9170,27 +9168,6 @@
       "title": "Building Reliable Agentic AI Systems",
       "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
     },
-    "https://martinfowler.com/fragments/2026-05-27.html": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "fragments 27 May 2026",
-      "extraction_source": "trafilatura",
-      "final_url": "https://martinfowler.com/fragments/2026-05-27.html",
-      "frameable": false,
-      "image_urls": [
-        "https://martinfowler.com/logo-sq.png",
-        "https://martinfowler.com/mf-name-white.png",
-        "https://martinfowler.com/img/catalog/2025-goto-kent.png",
-        "https://martinfowler.com/thoughtworks_white.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Fragments: May 27\nAt the GOTO Conference in Copenhagen in 2025, [Kent Beck and I spent some time on stage](https://www.youtube.com/watch?v=ii_rLjQfjp0&list=PLEx5khR4g7PINwOsYrkwz3lTTJUYoXC53) talking and answering questions from the audience - a format I refer to as “two old geezers on a park bench”. We talk about our experiences with LLM-augmented programming (at that point - October 2025), we show our frustration that things we’ve been saying for thirty years still need to be said, we say how anything like a manifesto reunion needs to be led by a younger generation, and opine on what junior developers should be focusing on in their career.\n❄ ❄ ❄ ❄ ❄\nIan Johnson has written a series of posts about [restructuring a gnarly codebase](https://dev.to/tacoda/the-agent-harness-turning-ai-slop-into-shipping-software-589i)\nThe story follows a real Laravel + React codebase over ~3 months and ~258 commits from a legacy monolith with no tests to a well-structured application with automated quality gates, a React SPA migration in progress, and an AI agent that reliably ships production code with minimal supervision.\nThe series covers the steps in decent detail, and his approach follows the kinds of steps I’d use. First get everything under the control of decent characterization tests, add static analysis, introduce the right patterns to make things flow easily.\nWith all of this, is his use of AI, which changed during the exercise:\nFor the first two months of this project, I used Claude Code with auto-approve turned off. Every file edit, every terminal command, every change… I reviewed it before it executed. […] The results were good. The code was clean. But I was doing most of the thinking and half the typing. The agent was a fancy autocomplete with better suggestions. I wasn’t getting the leverage I’d hoped for.\nI read an article about “on-the-loop” versus “in-the-loop” human-AI collaboration. The framing clicked immediately […] I was micromanaging because I didn’t trust the agent to do the right thing. And I didn’t trust the agent because there was nothing forcing it to do the right thing.\nHis early steps put in tests, static analysis, and the right architectural patterns. With those in place, he could let the agent do more work.\nMy role shifted from writer to curator. I don’t write most of the code anymore. I Define the patterns […] Review the test specs […] Review the output […] Update the harness […] Make strategic decisions […]\nHe finishes the series with conclusions about how he’d generalize his experience to other circumstances.\n❄ ❄ ❄ ❄ ❄\nBack in the land of my birth, there was some notable groans when the National Health Service decided to [close nearly all of their Open Source repositories](https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/), supposedly to the security threat of LLMs. Closing repos like this isn’t an effective counter to LLM-augmented attackers. I suspect it’s no coincidence to see GDS (Government Data Services), the highly-regarded IT enablers in the UK government [publish their position](https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector)\nMoving code from public to private as a substitute for investment in secure-by-design delivery, ownership and remediation is a warning sign because it reduces sharing and scrutiny, can slow coordinated improvement across government and suppliers, and does not remove the underlying weaknesses in a running service.\n[Terence Eden](https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/) memorably sums up his view on this:\nWithin the UK’s Civil Service you occasionally hear the expression “being invited to a meeting without biscuits”. It implies a rather frosty discussion without any of the polite niceties of a normal meeting.\n❄ ❄ ❄ ❄ ❄\nI’ve seen a few cases where those developers who are most involved in working with LLMs find they are running into a problem with cognitive endurance, [A",
-      "text_excerpt_zh": "# 碎片：5月27日\n\n在2025年哥本哈根GOTO大会上，[Kent Beck和我一起在台上](https://www.youtube.com/watch?v=ii_rLjQfjp0&list=PLEx5khR4g7PINwOsYrkwz3lTTJUYoXC53)与观众对话并回答问题——我把这种形式称为\"两个老家伙坐在公园长椅上聊天\"。我们谈论了各自在LLM辅助编程方面的经验（当时是2025年10月），表达了我们对三十年来一直在说的事情仍需反复强调的挫败感，讨论了任何类似宣言重聚的活动都应由年轻一代主导，并分享了对初级开发者应如何规划职业生涯的看法。\n\n❄ ❄ ❄ ❄ ❄\n\nIan Johnson撰写了一系列关于[重构一个棘手代码库](https://dev.to/tacoda/the-agent-harness-turning-ai-slop-into-shipping-software-589i)的文章。\n\n这个故事讲述了一个真实的Laravel + React代码库，在大约3个月、258次提交的过程中，从一个没有测试的遗留单体应用，演变为一个具有自动化质量门控、正在进行React SPA迁移、以及一个能在极少监督下可靠交付生产代码的AI agent的架构良好的应用程序。\n\n该系列详细介绍了各个步骤，他的方法遵循了我通常会采用的步骤。首先让所有代码都受到良好的特征测试覆盖，添加静态分析，引入合适的模式使流程顺畅运行。\n\n在此基础上，他对AI的使用方式在整个过程中发生了变化：\n\n> 在这个项目的前两个月，我使用了Claude Code并关闭了自动批准。每次文件编辑、每个终端命令、每项更改……我都会在执行前进行审查。[……]结果不错。代码很干净。但大部分思考工作是我在做，一半的输入也是我完成的。agent只是一个带有更好建议的花哨自动补全工具。我没有获得期望中的杠杆效应。\n>\n> 我读到一篇关于\"在循环之外\"与\"在循环之内\"人机协作的文章。这个框架立刻让我豁然开朗[……]我之所以微观管理，是因为我不信任agent能做出正确的事情。而我不信任agent，是因为没有任何机制强制它做正确的事情。\n\n他早期的步骤引入了测试、静态分析和正确的架构模式。有了这些基础后，他才能让agent承担更多工作。\n\n> 我的角色从写作者转变为策展人。我不再编写大部分代码。我定义模式[……]审查测试规格[……]审查输出[……]更新harness[……]做出战略决策[……]\n\n他在系列文章的最后总结了如何将自己的经验推广到其他场景。\n\n❄ ❄ ❄ ❄ ❄\n\n在我的祖国，当英国国家医疗服务体系（NHS）决定[关闭几乎所有开源仓库](https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/)时，引起了不少明显的抱怨声，据称是为了防范LLM带来的安全威胁。关闭这样的仓库并不是对抗LLM增强型攻击者的有效手段。我认为这并非巧合——英国政府中备受赞誉的IT赋能机构GDS（政府数据服务）[发布了他们的立场](https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector)：\n\n> 将代码从公开转为私有，以此替代对安全设计交付、所有权和修复的投资，这是一个警示信号，因为它减少了共享和审查，可能减缓政府及供应商之间的协调改进，并且无法消除运行服务中的根本弱点。\n\n[Terence Eden](https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/)令人印象深刻地总结了他的观点：\n\n> 在英国公务员体系中，你偶尔会听到\"被邀请参加没有饼干的会议\"这个说法。它暗示了一场相当冷淡的讨论，没有任何正常会议中应有的礼貌客套。\n\n❄ ❄ ❄ ❄ ❄\n\n我见过一些案例，那些最深入参与LLM工作的开发者发现他们遇到了认知耐力问题。A",
-      "text_excerpt_zh_hash": "92b0128748f8a567",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Fragments: May 27",
-      "url": "https://martinfowler.com/fragments/2026-05-27.html"
-    },
     "https://martinfowler.com/fragments/2026-06-02.html": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -9293,20 +9270,6 @@
       "text_excerpt_zh": "",
       "title": "Mechanical Pencil",
       "url": "https://mechanical-pencil.com/?ref=sidebar"
-    },
-    "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80": {
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "",
-      "url": "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80"
     },
     "https://meodai.github.io/heerich/?ref=sidebar": {
       "cleaner_v": 2,
@@ -10863,20 +10826,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10919,20 +10868,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10946,6 +10881,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg": {
       "cleaner_v": 2,
@@ -11549,34 +11498,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
-    "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg"
-    },
-    "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg"
-    },
     "https://pbs.twimg.com/media/HJRoq57W0AAZbXE.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11604,20 +11525,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg"
-    },
-    "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg"
     },
     "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png": {
       "cleaner_v": 2,
@@ -14321,6 +14228,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg"
     },
+    "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
+    },
+    "https://pbs.twimg.com/media/HLwA0wmX0AEg13p.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLwA0wmX0AEg13p.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLwA0wmX0AEg13p.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLwA0wmX0AEg13p.jpg"
+    },
+    "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -15140,22 +15089,6 @@
       "title": "Here’s how I use LLMs to help me write code",
       "url": "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
     },
-    "https://simonwillison.net/2026/May/27/product-market-fit/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by …",
-      "extraction_source": "trafilatura",
-      "final_url": "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "I think Anthropic and OpenAI have found product-market fit\n27th May 2026\nAnthropic are [strongly rumored](https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/) to be about to have their first profitable quarter. Stories [are circulating](https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets) of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit.\n[Enterprise customers are now paying API prices](https://simonwillison.net/2026/May/27/product-market-fit/#enterprise-customers-are-now-paying-api-prices)[I think they’ve found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/#i-think-they-ve-found-product-market-fit)[And they’re ramping up](https://simonwillison.net/2026/May/27/product-market-fit/#and-they-re-ramping-up)[The AI-failure stories around this are pretty thin](https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin)[We also know the labs are spending a lot](https://simonwillison.net/2026/May/27/product-market-fit/#we-also-know-the-labs-are-spending-a-lot)[API revenue is becoming less important](https://simonwillison.net/2026/May/27/product-market-fit/#api-revenue-is-becoming-less-important)[April is a new inflection point](https://simonwillison.net/2026/May/27/product-market-fit/#april-is-a-new-inflection-point)\nEnterprise customers are now paying API prices\nI currently subscribe to the $100/month Max plan from Anthropic and the $100/month Pro plan from OpenAI. If you are a heavy user of coding agents these plans are a fantastic deal. I just ran the [ccusage](https://github.com/ryoppippi/ccusage) tool on my laptop to get an estimate of how much I would have spent if I were to pay for API tokens in the past 30 days and got:\n- $1,199.79 for Anthropic Claude Code\n- $980.37 for OpenAI Codex\nThat’s $2,180.16 worth of tokens for $200—not bad at all! I’m a moderately heavy user of these tools, but I’m certainly not running agents every hour of the day and night.\nI had assumed that companies making extensive use of agents were getting similar discounts. It turns out I could not have been more wrong about that.\nI haven’t been able to track down the exact date, but at some point in the last six months Anthropic switched their Enterprise plan (originally [“Claude seats include enough usage for a typical workday” back in August 2025](https://www.anthropic.com/news/claude-code-on-team-and-enterprise)) to $20/seat/month plus API pricing for usage. This story about the change [from The Information](https://www.theinformation.com/articles/anthropic-changes-pricing-bill-firms-based-ai-use-amid-compute-crunch) is dated Apr 14, 2026, but cites an Anthropic spokesperson claiming that the pricing change occurred in November 2025. Existing customers are finding out about the change as they renew their contracts.\nOpenAI made a similar pricing change in April. The [Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card) ([Internet Archive copy](https://web.archive.org/web/20260519062438/https://help.openai.com/en/articles/20001106-codex-rate-card)) currently says:\nNote: On April 2, 2026, we updated Codex pricing to align with API token usage, instead of per-message pricing. This change was applicable to new and existing Plus, Pro, ChatGPT Business and new ChatGPT Enterprise plans.\nOn April 23, 2026, we made this update for all existing ChatGPT Enterprise plans as well, inclusive of Edu, Health, Gov, and ChatGPT for Teachers.\nIt’s a little harder to decode as they quote prices in “credits”, but as far as I can tell those credit costs are an exact match for the API token costs listed for those models.\nAll of which is to say that as of April 2026 the “Enterprise” cost for both OpenAI Codex and Anthropic Claude Code/Cowork is the same as t",
-      "text_excerpt_zh": "我认为Anthropic和OpenAI已经找到了产品市场契合点  \n2026年5月27日  \n\nAnthropic [被强烈传闻](https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/) 即将迎来首个盈利季度。有消息 [在流传](https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets) 称，一些公司对其员工使用LLM产生的账单之高感到惊讶。我认为这是因为OpenAI和Anthropic都找到了产品市场契合点。  \n\n[企业客户现在按API价格付费](https://simonwillison.net/2026/May/27/product-market-fit/#enterprise-customers-are-now-paying-api-prices)  \n[我认为它们找到了产品市场契合点](https://simonwillison.net/2026/May/27/product-market-fit/#i-think-they-ve-found-product-market-fit)  \n[而且它们正在加速](https://simonwillison.net/2026/May/27/product-market-fit/#and-they-re-ramping-up)  \n[围绕这一点的AI失败案例相当稀少](https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin)  \n[我们也知道实验室在大量投入](https://simonwillison.net/2026/May/27/product-market-fit/#we-also-know-the-labs-are-spending-a-lot)  \n[API收入变得不那么重要](https://simonwillison.net/2026/May/27/product-market-fit/#api-revenue-is-becoming-less-important)  \n[四月是一个新的转折点](https://simonwillison.net/2026/May/27/product-market-fit/#april-is-a-new-inflection-point)  \n\n### 企业客户现在按API价格付费  \n\n我目前订阅了Anthropic的$100/月Max计划和OpenAI的$100/月Pro计划。如果你是编码代理的重度用户，这些计划非常划算。我刚刚在笔记本电脑上运行了 [ccusage](https://github.com/ryoppippi/ccusage) 工具，估算了过去30天内如果按API令牌付费需要花费多少，结果如下：  \n- Anthropic Claude Code：$1,199.79  \n- OpenAI Codex：$980.37  \n\n也就是说，价值$2,180.16的令牌只花了$200——相当不错！我是这些工具的中度重度用户，但当然不是每时每刻都在运行代理。  \n\n我曾以为广泛使用代理的公司也能获得类似的折扣。结果发现我大错特错了。  \n\n我还没能查到确切日期，但在过去六个月的某个时候，Anthropic将其企业计划（最初是 [2025年8月的“Claude席位包含典型工作日的足够使用量”](https://www.anthropic.com/news/claude-code-on-team-and-enterprise)）改为$20/席位/月加上按使用量计费的API价格。关于这一变化的消息 [来自The Information](https://www.theinformation.com/articles/anthropic-changes-pricing-bill-firms-based-ai-use-amid-compute-crunch)，日期为2026年4月14日，但引用Anthropic发言人称定价变化发生在2025年11月。现有客户在续约时才发现这一变化。  \n\nOpenAI在4月也做出了类似的定价调整。[Codex费率卡](https://help.openai.com/en/articles/20001106-codex-rate-card)（[互联网档案馆副本](https://web.archive.org/web/20260519062438/https://help.openai.com/en/articles/20001106-codex-rate-card)）目前显示：  \n> 注意：2026年4月2日，我们更新了Codex定价，使其与API令牌使用量对齐，而非按消息定价。此变更适用于新的和现有的Plus、Pro、ChatGPT Business以及新的ChatGPT Enterprise计划。  \n> 2026年4月23日，我们也将此更新应用于所有现有的ChatGPT Enterprise计划，包括Edu、Health、Gov和ChatGPT for Teachers。  \n\n解读起来有点难度，因为他们以“积分”报价，但据我所知，这些积分成本与这些模型列出的API令牌成本完全匹配。  \n\n总而言之，截至2026年4月，OpenAI Codex和Anthropic Claude Code/Cowork的“企业”成本与使用API令牌的成本相同。",
-      "text_excerpt_zh_hash": "df597adeba82b967",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
-    },
     "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -15562,6 +15495,20 @@
       "text_excerpt": "AI 增长引擎和传统营销工具有什么区别？\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n产品只是入场券，增长才是比赛本身——AI Agent 让一人公司也能跑增长飞轮。\n产品做好了，客户在哪？这是 2026 年每个独立创始人都在问的问题。本文用真实案例拆解如何用 AI Agent 搭建增长引擎——从冷启动到规模化获客，零营销团队的独立创始人也能做到。\nFree to startNo credit card requiredUpdated Jun 2026\nIndieHackers 上有一个帖子正在被疯狂讨论——「Building a complex SaaS was the easy part. Now I need proof.」发帖人花了七个月打磨产品，功能齐全、架构干净、性能优秀。然后他停在了一个问题上：谁来用？\n这不是个例。500k.io 的 2026 年独立创始人统计数据显示：73% 的独立创始人把「客户获取」列为第一痛点，远超「产品开发」（11%）和「融资」（9%）。\n产品做得再好，没人用就是零。\n但独立创始人的困境在于：你既没有预算雇增长团队，也没有时间同时搞定产品和营销。结果就是——产品上线了，然后呢？\n你在 Product Hunt 上线了，发了 X，发了 Reddit，贴了 HN。24 小时后：12 个 upvote，3 条评论，0 个注册。你的帖子沉了。\n不是产品不好——是冷启动本身就是一场信息战争，而一个人打不赢。\n你开始写博客、发推、做 LinkedIn。三个月后：博客月访问 200，X 粉丝 300。你发现内容的投入产出比低得可怕——不是因为内容没用，是因为你没有精力同时做内容和分发。\n一个博文写 4 小时，分发到 10 个渠道又要 3 小时。一周一篇博文，你每周 7 小时砸在内容上——这还不算选题和数据分析的时间。\nBazzly 的创始人 Filippo 在 IndieHackers 上写了一篇爆文：「You don't need more traffic. You need better activation.」43 个 upvote，70 条评论。核心观点：大多数独立创始人花 80% 时间在「做」增长（发帖、回帖、写邮件），只花 20% 时间在「想」增长（用户洞察、渠道策略、转化优化）。\n理想的比例应该反过来。\n2026 年的 AI Agent 已经不是「写文案的工具」了。它们能做的是一个完整增长团队的日常工作——从内容生产到多渠道分发，从冷启动 outreach 到客户反馈分析。\n一个独立创始人的增长系统只需要四个 AI 角色：\n1. AI 内容引擎 → 把「写东西」变成流水线\n不是让 AI 替你写一篇文章。是让 AI 跑一整个内容流水线：\n- 选题：扫描 IndieHackers、X、Reddit、HN 的热点话题，匹配你的产品定位\n- 撰写：基于 SEO 关键词和用户搜索意图生成结构化内容\n- 分发：自动生成 X thread、Reddit 帖子、HN 提交文案、Slack/Discord 社区分享\n- 追踪：48 小时后复盘数据，标记高转化渠道\n一个独立创始人手动跑完这个流程需要 6-10 小时。AI Agent 可以降到 1 小时以内——你的角色从「执行者」变成了「审核者」。\n2. AI 冷启动引擎 → 不是 spam，是规模化的人际接触\n冷启动最难的是什么？不是找不到目标用户——是一个个联系太慢了。\nAI 冷启动引擎的工作流程：\n- 识别你的目标用户活跃的社区（Reddit 子版块、Slack 群组、Discord 服务器）\n- 监控相关讨论话题\n- 生成个性化、有价值的回复（不是「试试我的产品」，而是真正回答问题，自然带出你的产品作为解决方案）\n- 跟踪哪些社区和话题的转化率最高\nLiFast 的创始人做了一个 AI LinkedIn outreach 工具，自己先用它做冷启动——从 600 次 LinkedIn 资料浏览到 12 个真实客户，只用了 90 天。\n3. AI 激活引擎 → 让注册用户真正用起来\n大多数独立创始人的激活流程是这样的：用户注册 → 收到一封 welcome email → 然后就没有然后了。\nIndieHackers 的数据：一个新用户在注册后 72 小时内如果没有完成「关键动作」（比如完成第一个任务、导入数据、邀请队友），流失率超过 80%。\nAI 激活引擎能做什么：\n- 根据用户注册时的行为数据，发个性化的 onboarding 序列\n- 监控用户的关键行为（登录频率、功能使用、停留时间）\n- 在用户即将流失时触发挽留动作（个性化的邮件、教程视频、甚至是一个真实的 demo offer）\n这不是「发邮件」——这是用数据驱动的自动化激活。\n4. AI 反馈引擎 → 让客户告诉你下一步做什么\n增长不等于获客。增长的真正引擎是 客户洞察 → 产品迭代 → 口碑传播。\nAI 反馈引擎的工作：\n- 自动收集和分析客服对话、社交媒体评论、产品内反馈\n- 提取高频需求和痛点\n- 标记流失信号（某个功能的使用率突然下降、负面评价集中出现）\n- 每周生成一份「你该知道的 5 件事」\n你不再是盲飞。\n假设你是一个独立创始人，刚上线了一个 AI 项目协作工具。你的增长飞轮怎么跑：\n第 1-2 周：内容播种\n- AI 内容引擎产出 2 篇 SEO 博文 + 10 条社交分发\n- 目标：建立初始内容资产，开始获取搜索流量\n第 3-4 周：社区冷启动\n- AI 冷启动引擎在 3 个目标社区持续互动\n- 每天 5-10 条有价值的回复，自然带出产品\n- 目标：获得第一批 20-30 个注册用户\n第 5-8 周：激活和迭代\n- AI 激活引擎接手新用户 onboarding\n- AI 反馈引擎收集用户行为数据和反馈\n- 根据数据迭代产品\n第 9 周起：规模化\n- 内容引擎进入周更节奏\n- 冷启动引擎扩展到新社区\n- 激活和反馈引擎持续优化\n这不是理论——500k.io 的数据显示，使用 AI Agent 做增长的独立创始人，6 个月内用户增长速度是仅靠手动增长的 3.4 倍。\nAI 不是魔法。如果你自己的增长策略是错的，AI 只是帮你更快地执行错误策略。\n先想清楚：你的目标用户是谁？他们在哪里？他们为什么应该用你的产品？这些问题的答案不能交给 AI。\nAI 可以 10 分钟产出一篇博文——但 10 篇平庸的文章不如 1 篇真正有用的文章。AI 内容引擎的起点应该是用户搜索意图研究和竞品内容分析，而不是「让 AI 随便写」。\n一个独立创始人的 AI 增长团队应该聚焦在 1-2 个渠道上做到极致，而不是 10 个渠道都蜻蜓点水。\n怎么选渠道？看两个指标：\n- 你的目标用户在不在这个渠道\n- 这个渠道是否适合长期积累（SEO 和社区 > 一次性广告）\n如果你只有 1-2 个 AI 工具（ChatGPT 写文案、一个 SEO 工具做关键词），你只是把单项任务自动化了。\n真正的增长引擎是 AI Agent 之间的协作：你的 AI 内容引擎自动把博文发给 AI 分发引擎，AI 分发引擎把用户反馈喂给 AI 分析引擎，AI 分析引擎把洞察推给你。\n这就是 Tycoon 在解决的问题——不是给你一个 AI 工具，而是给你一个 AI 增长团队：\n- [AI CEO](https://tycoon.us/blog/what-is-an-ai-ceo)— 每天早上的优先级清单，自动跟进和堵点发现\n- [AI 写手 + SEO + 分发](https://tycoon.us/blog/your-first-employee-should-be-ai)— 内容从选题到多平台分发全自动\n- [AI 增长分析师](https://tycoon.us/blog/how-to-run-a-one-person-company-with-ai)— 数据找人，而不是人找数据\n你不再是一个人在战斗。\n产品做好了，客户在哪？这个问题不会再让你失眠。\nFAQ\nClear answers about wallet credit, usage, subscriptions, and how Tycoon charges for work.\n传统营销工具是「你操作，它执行」——你写邮件，它帮你发。AI 增长引擎是「你设定目标，它自主执行」——你告诉它「本周需要在 Reddit 获取 50 个注册」，它会自己选题、写帖、监控效果、调整策略。区别是自主性和协作能力。\n一个集成 AI 平台的月费通常在 $9-$99 之间，覆盖内容、分发、分析和冷启动。相比之下，雇一个兼职增长人员的成本是 $2K-$5K/月。AI 增长引擎的成本是人类的 1-3%。\nGoogle 的立场很明确：惩罚的是「低质量、为操纵排名而生的内容」，不是「AI 辅助创作的内容」。关键策略是：AI 出草稿和结构，人类把控洞察和真实经验，确保每篇内容提供独特的价值。纯 AI 生成、零人工审核的内容确实有风险。\n取决于你的产品类型和目标用户。B2B SaaS 优先 SEO + LinkedIn + 行业社区；B2C 优先 SEO + Reddit + X；开发者工具优先 SEO + HN + GitHub + Dev.to。无论选哪个渠道，聚焦 1-2 个做到 80 分，再考虑扩展。\n取决于你怎么用。AI 的正确用法",
       "title": "独立创始人最缺的不是产品，是客户：2026 年如何用 AI Agent 做增长",
       "url": "https://tycoon.us/blog/ai-growth-engine-for-indie-founders"
+    },
+    "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5"
     },
     "https://uxdesign.cc/the-flaw-is-the-feature-e6769c5cf5b4": {
       "cleaner_v": 2,
@@ -16054,22 +16001,19 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo"
     },
-    "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump": {
+    "https://www.axios.com/2026/06/26/republicans-voter-id-colombia-california?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817980": {
       "cleaner_v": 2,
       "content_type": "",
       "description": "",
       "extraction_source": "cf_browser_rendering",
       "fetch_error": "HTTP Error 403: Forbidden",
-      "final_url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump",
+      "final_url": "https://www.axios.com/2026/06/26/republicans-voter-id-colombia-california?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817980",
       "frameable": null,
       "image_urls": [],
       "kind": "article",
-      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a11e80446e03e881`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh": "![www.axios.com 图标](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## 正在执行安全验证\n\n本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人期间，将显示此页面。\n\n## 浏览器扩展或网络配置不兼容\n\n您的浏览器扩展或网络设置阻止了 www.axios.com 所需的安全验证流程。要解决此问题，请尝试以下步骤：\n\n暂时禁用浏览器扩展：\n\n1.  进入浏览器设置。\n2.  找到浏览器扩展并暂时禁用它们。\n3.  禁用浏览器扩展后，[刷新此页面](#)。\n\n检查网络设置：\n\n1.  确认您的互联网或防火墙设置是否阻止了设备访问“challenges.cloudflare.com”。您可能需要查阅操作系统的帮助文档或联系网络管理员，以获取调整防火墙设置的指导。\n2.  如果您没有调整网络设置的权限，请尝试连接到其他网络。\n\n如果这些步骤未能解决问题，请参阅 Cloudflare 的[故障排除文档](https://www.axios.com/cdn-cgi/challenge-platform/help)以获取更多帮助。有关如何禁用浏览器扩展或检查网络设置的详细指导，请参阅您的浏览器或设备文档。\n\n## 验证成功。正在等待 www.axios.com 响应\n\nRay ID：`a11e80446e03e881`\n\n性能与安全由 [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m) 提供 [隐私政策](https://www.cloudflare.com/privacypolicy/)",
-      "text_excerpt_zh_hash": "5e0c2c09d868f259",
-      "text_excerpt_zh_translator_v": 2,
+      "text_excerpt": "![Icon for www.axios.com](https://www.axios.com/favicon.ico)\n\n# www.axios.com\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Incompatible browser extension or network configuration\n\nYour browser extensions or network settings have blocked the security verification process required by www.axios.com. To resolve this, try the following steps:\n\nTemporarily disable browser extensions:\n\n1. Go to your browser settings.\n2. Locate your browser extensions and temporarily disable them.\n3. Once browser extensions are disabled, [refresh this page](#).\n\nCheck your network settings:\n\n1. Verify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\n2. If you do not have permission to adjust network settings, try connecting to a different network.\n\nIf these steps do not resolve the issue, refer to Cloudflare's [troubleshooting documentation](https://www.axios.com/cdn-cgi/challenge-platform/help) for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.\n\n## Verification successful. Waiting for www.axios.com to respond\n\nRay ID: `a1204a377c85d1b6`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm%5Fsource=challenge&utm%5Fcampaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
       "title": "",
-      "url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
+      "url": "https://www.axios.com/2026/06/26/republicans-voter-id-colombia-california?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817980"
     },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
@@ -17638,22 +17582,6 @@
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
     ],
-    "2059287957777879481": [
-      "https://x.com/SidebarIO/status/2059287957777879481",
-      "https://ai-on-the-internet.github.io/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJQPe-ZWYAAF3xU.jpg",
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    ],
-    "2059323435776401900": [
-      "https://x.com/SidebarIO/status/2059323435776401900",
-      "https://medium.com/design-bootcamp/what-we-lost-in-the-ai-chat-stream-2f96a22a6b80",
-      "https://pbs.twimg.com/media/HJQvwFFXMAAUoKa.jpg",
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    ],
     "2059386407760568408": [
       "https://x.com/kplikethebird/status/2059386407760568408",
       "https://every.to/guides/codex-for-knowledge-work",
@@ -17684,52 +17612,17 @@
       "https://x.com/brettcalhounn/status/2059848395758489726",
       "https://x.com/brettcalhounn/status/2059848753901609435"
     ],
-    "2059653716568158316": [
-      "https://x.com/oliviakoshy/status/2059653716568158316",
-      "https://pbs.twimg.com/media/HJVcI4QbcAA-HdW.jpg",
-      "https://x.com/oliviakoshy/status/2059668229958807992"
-    ],
     "2059656455805145383": [
       "https://x.com/garrytan/status/2059656455805145383",
       "http://x.com/i/article/2059649519722307584",
       "https://x.com/garrytan/status/2059762099149291539",
       "https://x.com/garrytan/status/2059671811508605128"
     ],
-    "2059662044224475280": [
-      "https://x.com/mem0ai/status/2059662044224475280",
-      "http://x.com/i/article/2059652660022910976",
-      "https://x.com/mem0ai/status/2059692880084836404",
-      "https://x.com/mem0ai/status/2059692925467189690",
-      "https://x.com/mem0ai/status/2059672216242164099",
-      "https://x.com/mem0ai/status/2060054387020763300",
-      "https://x.com/mem0ai/status/2059681876823126350"
-    ],
-    "2059669384268755295": [
-      "https://x.com/Voxyz_ai/status/2059669384268755295"
-    ],
     "2059673247080394901": [
       "https://x.com/rohit4verse/status/2059673247080394901",
       "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg",
       "https://x.com/rohit4verse/status/2059673379070955711",
       "https://www.youtube.com/watch?v=CwePo4847ho"
-    ],
-    "2059675518966894767": [
-      "https://x.com/IBuzovskyi/status/2059675518966894767",
-      "http://x.com/i/article/2059639716417273860",
-      "https://x.com/IBuzovskyi/status/2060008192361345132",
-      "https://x.com/IBuzovskyi/status/2060075235601224161",
-      "https://x.com/IBuzovskyi/status/2059748165641998350",
-      "https://x.com/IBuzovskyi/status/2060001769690681811",
-      "https://x.com/IBuzovskyi/status/2060069477836853408",
-      "https://x.com/IBuzovskyi/status/2060000299402527153",
-      "https://x.com/IBuzovskyi/status/2059860662658949530",
-      "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg"
-    ],
-    "2059675701838774352": [
-      "https://x.com/simonw/status/2059675701838774352",
-      "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "https://x.com/simonw/status/2059794368228458949",
-      "https://x.com/simonw/status/2059680766528012506"
     ],
     "2059679016215572815": [
       "https://x.com/himanshutwtxs/status/2059679016215572815",
@@ -17753,10 +17646,6 @@
       "https://x.com/thorstenball/status/2059750151720432079",
       "https://x.com/thorstenball/status/2059693801929920589"
     ],
-    "2059688796728267261": [
-      "https://x.com/johnyeo_/status/2059688796728267261",
-      "https://x.com/johnyeo_/status/2059688639374795148"
-    ],
     "2059690364320297394": [
       "https://x.com/raunakdoesdev/status/2059690364320297394",
       "https://reducto.ai/careers/0a4976be-4af3-4cba-8996-a7fe6bff696d",
@@ -17770,10 +17659,6 @@
       "https://x.com/__sishir/status/2059696012466217220",
       "http://x.com/i/article/2034444177174380544"
     ],
-    "2059722824151949603": [
-      "https://x.com/martinfowler/status/2059722824151949603",
-      "https://martinfowler.com/fragments/2026-05-27.html"
-    ],
     "2059740940739477523": [
       "https://x.com/nurijanian/status/2059740940739477523",
       "https://x.com/nurijanian/status/2060012219950301593",
@@ -17782,10 +17667,6 @@
     "2059746337697247334": [
       "https://x.com/dani_avila7/status/2059746337697247334",
       "http://x.com/i/article/2059732424905666560"
-    ],
-    "2059753008297394245": [
-      "https://x.com/kylejeong/status/2059753008297394245",
-      "https://x.com/kylejeong/status/2059814400442446282"
     ],
     "2059776916484206755": [
       "https://x.com/Zephyr_hg/status/2059776916484206755",
@@ -22775,26 +22656,27 @@
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
       "https://www.axios.com/2026/06/25/ai-search-collapse-geo-seo",
-      "https://x.com/axios/status/2070553797533819051",
-      "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
+      "https://x.com/axios/status/2070573403312910587",
+      "https://www.axios.com/2026/06/26/republicans-voter-id-colombia-california?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817980"
     ],
     "2070171729373118742": [
       "https://x.com/Zephyr_hg/status/2070171729373118742",
-      "http://x.com/i/article/2070083414510702592",
-      "https://x.com/Zephyr_hg/status/2070293462189265351",
-      "https://pbs.twimg.com/amplify_video_thumb/2070172696017580032/img/o2qVgwiO2zmt2PKL.jpg"
+      "http://x.com/i/article/2070083414510702592"
     ],
     "2070178726361678041": [
       "https://x.com/ItsRoboki/status/2070178726361678041",
       "http://x.com/i/article/2069769856212410368",
-      "https://x.com/ItsRoboki/status/2070261345837367720"
+      "https://x.com/ItsRoboki/status/2070261345837367720",
+      "https://x.com/ItsRoboki/status/2070618341673419226"
     ],
     "2070180324651528434": [
       "https://x.com/OpenAINewsroom/status/2070180324651528434",
       "https://openai.com/index/how-agents-are-transforming-work"
     ],
     "2070184342509244643": [
-      "https://x.com/usv/status/2070184342509244643"
+      "https://x.com/usv/status/2070184342509244643",
+      "https://x.com/usv/status/2070531279586468150",
+      "https://pbs.twimg.com/media/HLwA0wmX0AEg13p.jpg"
     ],
     "2070185508949414348": [
       "https://x.com/SidebarIO/status/2070185508949414348",
@@ -22875,6 +22757,7 @@
       "https://x.com/hyojun_at/status/2070266285137748379",
       "https://x.com/hyojun_at/status/2070533616569057775",
       "https://x.com/hyojun_at/status/2070239188583383392",
+      "https://x.com/hyojun_at/status/2070642299856617671",
       "https://x.com/hyojun_at/status/2070307533307486710",
       "https://x.com/hyojun_at/status/2070374132097896609",
       "https://x.com/hyojun_at/status/2070533405436207353"
@@ -22927,8 +22810,9 @@
     "2070358681569652865": [
       "https://x.com/Gorden_Sun/status/2070358681569652865",
       "https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A",
-      "https://x.com/Gorden_Sun/status/2070454392344715312",
-      "https://pbs.twimg.com/amplify_video_thumb/2070454252166959104/img/kR_VQgllb5V1cBMk.jpg"
+      "https://x.com/Gorden_Sun/status/2070539404767302116",
+      "https://heynori.go.link/9DLqW",
+      "https://pbs.twimg.com/amplify_video_thumb/2070538401871482880/img/BPtw_L7KfBqwbIMy.jpg"
     ],
     "2070387873023451275": [
       "https://x.com/iandenisjohnson/status/2070387873023451275",
@@ -22942,14 +22826,17 @@
       "https://x.com/Zephyr_hg/status/2070415013366423875",
       "https://pbs.twimg.com/amplify_video_thumb/2070173539169181696/img/ggSF9eSEEA1qqHnn.jpg"
     ],
+    "2070436667287105909": [
+      "https://x.com/sjowall69/status/2070436667287105909"
+    ],
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
+      "https://x.com/0xMortyx/status/2070453250164158754",
+      "https://x.com/0xMortyx/status/2070461392876908667",
       "https://x.com/0xMortyx/status/2070455812154179916",
       "https://x.com/0xMortyx/status/2070453134409769159",
-      "https://x.com/0xMortyx/status/2070452904868069854",
-      "https://x.com/0xMortyx/status/2070461392876908667",
-      "https://x.com/0xMortyx/status/2070453250164158754"
+      "https://x.com/0xMortyx/status/2070452904868069854"
     ],
     "2070467106412626035": [
       "https://x.com/bibryam/status/2070467106412626035",
@@ -22962,20 +22849,40 @@
     "2070493377267646797": [
       "https://x.com/ericzakariasson/status/2070493377267646797",
       "http://x.com/i/article/2070417295810166784",
+      "https://x.com/ericzakariasson/status/2070496953738121480",
       "https://x.com/ericzakariasson/status/2070496754982687186",
       "https://x.com/ericzakariasson/status/2070535318898348499",
-      "https://x.com/ericzakariasson/status/2070496953738121480",
       "https://x.com/ericzakariasson/status/2070508762444493019"
     ],
     "2070502852414288328": [
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+    ],
+    "2070547899495178317": [
+      "https://x.com/SidebarIO/status/2070547899495178317",
+      "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+    ],
+    "2070571422913876182": [
+      "https://x.com/RLanceMartin/status/2070571422913876182",
+      "http://x.com/i/article/2070556766660931584"
+    ],
+    "2070597472863350948": [
+      "https://x.com/SidebarIO/status/2070597472863350948",
+      "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
+      "https://x.com/SidebarIO/status/2069832686441537640",
+      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
     ]
   },
-  "updated_at": "2026-06-26T19:03:37Z",
+  "updated_at": "2026-06-27T00:20:23Z",
   "window": "recent"
 }
