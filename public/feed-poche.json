@@ -61,6 +61,9 @@
       "category": "Development",
       "created_at": "2026-06-27T02:29:20.704379Z",
       "description": "Write HTML. Render video. Built for agents. Contribute to heygen-com/hyperframes development by creating an account on GitHub.",
+      "description_zh": "编写 HTML。渲染视频。专为智能体构建。在 GitHub 上创建账户，参与 heygen-com/hyperframes 的开发。",
+      "description_zh_hash": "69e7b5e05d0d9f73",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k171hs0h72d859rcze9wyg6m4d89ex97",
@@ -83,6 +86,9 @@
         }
       ],
       "title": "GitHub - heygen-com/hyperframes: Write HTML. Render video. Built for agents. · GitHub",
+      "title_zh": "GitHub - heygen-com/hyperframes: 编写 HTML，渲染视频。专为智能体构建。· GitHub",
+      "title_zh_hash": "8fca437c35b963e4",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/heygen-com/hyperframes",
       "x_status_id": null
     },
@@ -103,11 +109,17 @@
         "https://avatars.githubusercontent.com/icyJoseph?s=64"
       ],
       "article_text": "Next.js 16.3 is almost here, and it's packed with a ton of improvements: better rendering under stress thanks to native Node.js streams, faster startup times in local dev, and deeper integration with agent-based workflows.\nWe'll be covering these features in the coming weeks as we prepare a stable release. But today, we'd like to focus on one new feature we're calling Instant Navigations — a suite of tools that bring the responsiveness of client-driven SPAs to Next.js, without sacrificing the benefits that come with its server-driven model.\nLet's see how this feature addresses the long-standing (and valid!) criticism that Server Components can make apps feel unresponsive.\nInstant Navigations\nOne of the most common frustrations we hear about Next.js apps is that navigations feel slow.\nIn a server-driven app, navigating usually requires a network roundtrip:\n- You click a link.\n- Nothing happens.\n- Then the server responds, and the next page appears.\nThis is not necessarily bad, and it can work well for content-driven websites like newspapers and blogs. But it does make the experience \"feel like a website\". It's not snappy. Compare this to how client-driven apps do navigations:\n- You click a link.\n- Instantly, you see a shell of the next page (with some data still loading).\n- Then the server responds, and the next page fully reveals.\nThis is a common reason why many developers prefer to create SPAs (single-page apps). Even though the server-driven request/response paradigm has many advantages, instant navigations still feel better for many kinds of apps.\nWe're fixing this\nWe've heard your feedback about this loud and clear.\nIn Next.js 16.3, we are shipping new opt-in behaviors that let you have the best of both worlds: server-driven apps with instant navigations. You get the full benefits of a server, but navigations are instant like in a single-page app.\nLet's have a look at how this works.\nFirst, enable Cache Components\nTo try these new behaviors, enable the Cache Components flag:\nimport type { NextConfig } from 'next';\n \nconst nextConfig: NextConfig = {\n  cacheComponents: true,\n  // ...\n};\n \nexport default nextConfig;Over the last year, we've been simplifying Next.js back to its roots: dynamic by default, with no hidden or implicit caching. This flag enables those new behaviors, and it will become a default in a future major version of Next.js.\nStream, Cache, or Block\nNow, when a route awaits some data on the server, you will be presented with a choice between a few options:\nWhat do these options mean?\nTo make a navigation instant, you \"turn\" an asynchronous operation into something that can be available instantly:\n- [Stream with](https://nextjs.org/blog/our-journey-with-caching#dynamic)The user will instantly see a loading state (with more UI streaming in after).- <Suspense>.\n- [Cache with](https://nextjs.org/blog/our-journey-with-caching#cached-functions). The user will instantly see a previously cached UI (reused between requests).- 'use cache'\nIn both cases above, the navigation will feel SPA-like and instant to the user.\nHowever, sometimes you might want to make a certain navigation server-bound. For example, a blog might choose to never show a loading shell for posts. For those cases, you can tell Next.js that you want this navigation to Block:\n// in page.tsx or layout.jsx\nexport const instant = false;Then the error dialog will go away.\nNotice how this puts you in control. If you want your server-driven app to react to link clicks instantly—without waiting for the network—then you Stream or Cache. If you want some routes to delay navigations, then you Block.\nTo learn more about how Instant Insights integrates with coding agents, read [Next.js 16.3: AI Improvements](https://nextjs.org/blog/next-16-3-ai-improvements#actionable-errors).\nAgent skill\nIf you're looking to adopt Cache Components for the first time in an existing app, we've put together a Skill you can use to have your agent walk you through the process.\nKeeping",
+      "article_text_zh": "Next.js 16.3 即将发布，带来了大量改进：借助原生 Node.js 流实现压力下的更好渲染、本地开发启动速度更快，以及与基于代理的工作流更深入的集成。\n\n在准备稳定版发布的过程中，我们将在未来几周内详细介绍这些功能。但今天，我们想聚焦一项名为“即时导航”的新功能——这是一套工具，能将客户端驱动的单页应用（SPA）的响应性带入 Next.js，同时不牺牲其服务器驱动模型带来的优势。\n\n让我们看看这项功能如何解决长期以来（且合理的！）对服务器组件可能让应用感觉不灵敏的批评。\n\n## 即时导航\n\n我们听到关于 Next.js 应用最常见的抱怨之一，就是导航感觉缓慢。\n\n在服务器驱动的应用中，导航通常需要一次网络往返：\n- 你点击一个链接。\n- 没有任何反应。\n- 然后服务器响应，下一页才出现。\n\n这本身不一定糟糕，对于新闻网站和博客等内容驱动的网站来说效果不错。但它确实让体验“感觉像个网站”，不够敏捷。相比之下，客户端驱动的应用是这样进行导航的：\n- 你点击一个链接。\n- 立即看到下一页的框架（部分数据仍在加载）。\n- 然后服务器响应，下一页完全展现。\n\n这就是为什么许多开发者更倾向于创建单页应用（SPA）的常见原因。尽管服务器驱动的请求/响应范式有很多优势，但对许多类型的应用来说，即时导航的体验仍然更好。\n\n## 我们正在解决这个问题\n\n我们已经非常清楚地听到了你们关于这个问题的反馈。\n\n在 Next.js 16.3 中，我们推出了新的可选行为，让你可以两全其美：服务器驱动的应用，同时拥有即时导航。你既能获得服务器的全部优势，导航又能像单页应用一样即时。\n\n让我们看看这是如何工作的。\n\n### 首先，启用缓存组件\n\n要尝试这些新行为，请启用缓存组件标志：\n\n```typescript\nimport type { NextConfig } from 'next';\n \nconst nextConfig: NextConfig = {\n  cacheComponents: true,\n  // ...\n};\n \nexport default nextConfig;\n```\n\n在过去一年里，我们一直在简化 Next.js，回归其本源：默认动态，没有隐藏或隐式缓存。这个标志启用了这些新行为，并将在未来的 Next.js 主要版本中成为默认设置。\n\n### 流式、缓存或阻塞\n\n现在，当一个路由在服务器上等待某些数据时，你将面临几个选项之间的选择：\n\n这些选项意味着什么？\n\n要使导航即时，你需要将一个异步操作转变为可以即时可用的东西：\n\n- **流式处理**：用户将立即看到一个加载状态（更多 UI 随后流式传入）。使用 `<Suspense>`。\n- **缓存处理**：用户将立即看到之前缓存的 UI（在请求之间复用）。使用 `'use cache'`。\n\n在上述两种情况下，导航对用户来说都会感觉像 SPA 一样即时。\n\n然而，有时你可能希望某个导航绑定到服务器。例如，博客可能选择永远不为文章显示加载框架。对于这些情况，你可以告诉 Next.js 你希望这个导航**阻塞**：\n\n```typescript\n// 在 page.tsx 或 layout.jsx 中\nexport const instant = false;\n```\n\n然后错误对话框就会消失。\n\n注意，这让你掌控一切。如果你希望你的服务器驱动应用在点击链接时立即响应——无需等待网络——那么你就使用流式或缓存。如果你希望某些路由延迟导航，那么你就使用阻塞。\n\n要了解更多关于即时洞察如何与编码代理集成的内容，请阅读 [Next.js 16.3：AI 改进](https://nextjs.org/blog/next-16-3-ai-improvements#actionable-errors)。\n\n### 代理技能\n\n如果你希望在现有应用中首次采用缓存组件，我们整理了一个技能，你可以让代理引导你完成整个过程。",
+      "article_text_zh_hash": "7aa8ce84cbf308ef",
+      "article_text_zh_translator_v": 2,
       "article_title_extracted": "Next.js 16.3: Instant Navigations | Next.js",
       "category": "Development",
       "cleaner_v": 2,
       "created_at": "2026-06-27T02:30:54.552897Z",
       "description": "A new suite of tools that brings the responsiveness of a single-page app to the server-centric model of Next.js.",
+      "description_zh": "一套全新工具套件，将单页应用的响应式体验融入 Next.js 以服务器为核心的架构中。",
+      "description_zh_hash": "b40cfca8c9d8aed8",
+      "description_zh_translator_v": 2,
       "domain": "nextjs.org",
       "embed_type": "",
       "id": "k173dwbessftghbmzvrj2zc31h89e33e",
@@ -130,6 +142,9 @@
         }
       ],
       "title": "Next.js 16.3: Instant Navigations | Next.js",
+      "title_zh": "# Next.js 16.3：即时导航 | Next.js",
+      "title_zh_hash": "d74f6f7139286cea",
+      "title_zh_translator_v": 2,
       "url": "https://nextjs.org/blog/next-16-3-instant-navigations",
       "x_status_id": null
     },
@@ -162,6 +177,9 @@
         }
       ],
       "title": "Figma Tools: More Than Just a Workflow Update",
+      "title_zh": "Figma 工具：不止是一次工作流程更新",
+      "title_zh_hash": "8b8a64e9867da07e",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/_Z1PCx_OFRY?is=fgz0ST1e2hdf43eJ",
       "x_status_id": null
     },
@@ -176,6 +194,9 @@
       "category": "Tools",
       "created_at": "2026-06-27T09:16:51.268035Z",
       "description": "Introducing Enough Phone: a premium, compact 5.2\" smartphone launching on Kickstarter soon. Sign up to be notified for launch.",
+      "description_zh": "Introducing Enough Phone: 一款即将在Kickstarter上众筹的高端紧凑型5.2英寸智能手机。立即注册，获取发布通知。",
+      "description_zh_hash": "9108a2297e5db649",
+      "description_zh_translator_v": 2,
       "domain": "enoughphone.co",
       "embed_type": "",
       "id": "k17ctyn40e2jmqa4nwy8v8c36n89fq3m",
@@ -198,6 +219,9 @@
         }
       ],
       "title": "The Small Smartphone is Back\n – Enough",
+      "title_zh": "小屏智能手机回归了",
+      "title_zh_hash": "9d5ceab2de02ad4e",
+      "title_zh_translator_v": 2,
       "url": "https://enoughphone.co/",
       "x_status_id": null
     },
@@ -221,6 +245,9 @@
       "category": "Tools",
       "created_at": "2026-06-27T09:24:44.508371Z",
       "description": "The personal AI that lives in your texts. Tomo learns your goals and makes sure you achieve them. Tell Tomo about your life, problems, and aspirations, and Tomo will guide you through them.",
+      "description_zh": "住在你短信里的个人AI。Tomo 了解你的目标，并确保你实现它们。把你的生活、问题和抱负告诉 Tomo，Tomo 会引导你一一达成。",
+      "description_zh_hash": "c456129257f8adec",
+      "description_zh_translator_v": 2,
       "domain": "www.tomo.ai",
       "embed_type": "",
       "id": "k170vkrzrcxed699rpjdsr79ts89emfp",
@@ -243,6 +270,9 @@
         }
       ],
       "title": "Tomo - Your Personal AI",
+      "title_zh": "Tomo - 你的个人AI助手",
+      "title_zh_hash": "16b63702c3d99dcf",
+      "title_zh_translator_v": 2,
       "url": "https://www.tomo.ai/",
       "x_status_id": null
     },
@@ -255,6 +285,9 @@
       "category": "Development",
       "created_at": "2026-06-27T09:27:05.728833Z",
       "description": "Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation - AswinTorch/photo-sticker-extract-demo",
+      "description_zh": "Expo 演示：照片 → Apple Vision 贴纸提取，带 WebGPU 像素爆炸动画 - AswinTorch/photo-sticker-extract-demo",
+      "description_zh_hash": "af6926b9fb53f699",
+      "description_zh_translator_v": 2,
       "domain": "github.com",
       "embed_type": "",
       "id": "k17cm2drnfwp08djaxs7yxh5jh89f9p1",
@@ -277,6 +310,9 @@
         }
       ],
       "title": "GitHub - AswinTorch/photo-sticker-extract-demo: Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation · GitHub",
+      "title_zh": "# GitHub - AswinTorch/photo-sticker-extract-demo: Expo 演示：照片 → Apple Vision 贴纸提取，带 WebGPU 像素爆炸动画 · GitHub",
+      "title_zh_hash": "becd0782e10c071a",
+      "title_zh_translator_v": 2,
       "url": "https://github.com/AswinTorch/photo-sticker-extract-demo",
       "x_status_id": null
     },
@@ -309,6 +345,9 @@
         }
       ],
       "title": "FFFFinder. I decided to make my own alternative to macOS Finder. And it worked.",
+      "title_zh": "FFFFinder。我决定自己做一个 macOS Finder 的替代品。而且成功了。",
+      "title_zh_hash": "3285597fb22b9e9c",
+      "title_zh_translator_v": 2,
       "url": "https://youtu.be/sMUVKn9jMQ0?is=peuvWwyJaWOYXo0L",
       "x_status_id": null
     },
@@ -322,6 +361,9 @@
       "category": "Design",
       "created_at": "2026-06-27T17:07:01.730033Z",
       "description": "Make your own shaders in Figma. Prompt, stack, and customize to create the exact effect or fill you want—without leaving the canvas.",
+      "description_zh": "在 Figma 中创建自己的着色器。通过提示、叠加和自定义，无需离开画布即可实现你想要的精确效果或填充。",
+      "description_zh_hash": "ded6bfb258d0ae8b",
+      "description_zh_translator_v": 2,
       "domain": "shaders.figma.com",
       "embed_type": "",
       "id": "k17dxgxrwg753dbmwhcrt2jq7189fxb2",
@@ -344,6 +386,9 @@
         }
       ],
       "title": "Shaders — Now in Figma",
+      "title_zh": "着色器 — 现已登陆 Figma",
+      "title_zh_hash": "7699cf8e56426c13",
+      "title_zh_translator_v": 2,
       "url": "https://shaders.figma.com/",
       "x_status_id": null
     },
