@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "count": 720,
+      "count": 722,
       "name": "Tools"
     },
     {
-      "count": 450,
+      "count": 453,
       "name": "Development"
     },
     {
-      "count": 348,
+      "count": 349,
       "name": "Design"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Social"
     },
     {
-      "count": 149,
+      "count": 151,
       "name": "Media"
     },
     {
@@ -38,8 +38,315 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2393,
+  "item_count": 2401,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_image_urls": [
+        "https://opengraph.githubassets.com/7b78f1417302e745f0d38ca8265cd9806e90d4f1093bd0dd960123c7b4b7002a/heygen-com/hyperframes",
+        "https://github.com/heygen-com/hyperframes/raw/main/docs/logo/light.svg",
+        "https://camo.githubusercontent.com/b8643453515dfda8f49c33fd1bdfae98c4c77456d7c08f4c8f91bee2304b2d09/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f68797065726672616d65732e7376673f7374796c653d666c6174",
+        "https://camo.githubusercontent.com/eb7798624e2ddb93aefb878000f8002187b81e5fb11e3d4b40db7a9085b359dd/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f68797065726672616d65732e7376673f7374796c653d666c6174",
+        "https://camo.githubusercontent.com/b29de0acdfd19013f1f02689b15c933e4a6c145be9efa718288f88ba3280b1c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322e302d626c75652e737667",
+        "https://camo.githubusercontent.com/21df03c5ec135a4f3c1cc7b0c236c82f962fb52b8ce79012d54f10dc441c47a4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652d25334525334432322d627269676874677265656e",
+        "https://camo.githubusercontent.com/397741123d69503a0a224452a3629154669e9a870686f0c21c68527c7d8faa07/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446973636f72642d4a6f696e2d3538363546323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/22758b6b513c653d1acbc3d49ca2a3fd17b4fd64a15891bdb0a6d28d41406666/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f68797065726672616d65732d6c6f676f2d6d6f74696f6e2d313238302e77656270",
+        "https://camo.githubusercontent.com/09fcdcc902713f04ab7c80f6af5afccf3d39ecbe04d967ed76b658f35bee31d2/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f6269656e6e616c652d79656c6c6f772e706e67",
+        "https://camo.githubusercontent.com/906620cd3cff15c383d23af830488ed03c32bfe0d76b80d28ccdfba452f67988/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f626c6f636b6672616d652e706e67",
+        "https://camo.githubusercontent.com/ed4b0dceb2cdb5e8ae7c83493c5a15bc2d92e0ff685e79852571defd1337f368/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f626c75652d70726f66657373696f6e616c2e706e67",
+        "https://camo.githubusercontent.com/c1aab9985b679ea7cf5ded7d0c92eb87086bfe02266ce2067e77af05309cea7c/68747470733a2f2f7374617469632e68657967656e2e61692f68797065726672616d65732d6f73732f646f63732f696d616765732f64657369676e2d74656d706c617465732f626f6c642d706f737465722e706e67"
+      ],
+      "article_title_extracted": "GitHub - heygen-com/hyperframes: Write HTML. Render video. Built for agents. · GitHub",
+      "category": "Development",
+      "created_at": "2026-06-27T02:29:20.704379Z",
+      "description": "Write HTML. Render video. Built for agents. Contribute to heygen-com/hyperframes development by creating an account on GitHub.",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k171hs0h72d859rcze9wyg6m4d89ex97",
+      "og_image_url": "https://opengraph.githubassets.com/15d6660b446b915575b9b74c92d2c73b919550af1d2a3394ab9447afb92307c9/heygen-com/hyperframes",
+      "recommended_at": "2026-06-27T17:07:27.026000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "video-generation",
+        "html-to-video",
+        "ai-agents"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:27.026000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "GitHub - heygen-com/hyperframes: Write HTML. Render video. Built for agents. · GitHub",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-instant-navigations/twitter-card.png",
+        "https://nextjs.org/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+        "https://nextjs.org/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg",
+        "https://nextjs.org/_next/static/immutable/media/nextjs-logotype-light.00-_80jv8_dct.svg",
+        "https://nextjs.org/_next/static/immutable/media/nextjs-logotype-dark.3h4a2z2v_dkod.svg",
+        "https://nextjs.org/_next/image?url=%2Fstatic%2Fteam%2Facdlite.jpeg&w=64&q=75&dpl=dpl_AnGMBb765iQxTgxsGuM6c83jv2eP",
+        "https://nextjs.org/_next/image?url=%2Fstatic%2Fteam%2Fjosh.jpg&w=64&q=75&dpl=dpl_AnGMBb765iQxTgxsGuM6c83jv2eP",
+        "https://avatars.githubusercontent.com/aurorascharff?s=64",
+        "https://avatars.githubusercontent.com/gaearon?s=64",
+        "https://avatars.githubusercontent.com/devjiwonchoi?s=64",
+        "https://avatars.githubusercontent.com/unstubbable?s=64",
+        "https://avatars.githubusercontent.com/icyJoseph?s=64"
+      ],
+      "article_text": "Next.js 16.3 is almost here, and it's packed with a ton of improvements: better rendering under stress thanks to native Node.js streams, faster startup times in local dev, and deeper integration with agent-based workflows.\nWe'll be covering these features in the coming weeks as we prepare a stable release. But today, we'd like to focus on one new feature we're calling Instant Navigations — a suite of tools that bring the responsiveness of client-driven SPAs to Next.js, without sacrificing the benefits that come with its server-driven model.\nLet's see how this feature addresses the long-standing (and valid!) criticism that Server Components can make apps feel unresponsive.\nInstant Navigations\nOne of the most common frustrations we hear about Next.js apps is that navigations feel slow.\nIn a server-driven app, navigating usually requires a network roundtrip:\n- You click a link.\n- Nothing happens.\n- Then the server responds, and the next page appears.\nThis is not necessarily bad, and it can work well for content-driven websites like newspapers and blogs. But it does make the experience \"feel like a website\". It's not snappy. Compare this to how client-driven apps do navigations:\n- You click a link.\n- Instantly, you see a shell of the next page (with some data still loading).\n- Then the server responds, and the next page fully reveals.\nThis is a common reason why many developers prefer to create SPAs (single-page apps). Even though the server-driven request/response paradigm has many advantages, instant navigations still feel better for many kinds of apps.\nWe're fixing this\nWe've heard your feedback about this loud and clear.\nIn Next.js 16.3, we are shipping new opt-in behaviors that let you have the best of both worlds: server-driven apps with instant navigations. You get the full benefits of a server, but navigations are instant like in a single-page app.\nLet's have a look at how this works.\nFirst, enable Cache Components\nTo try these new behaviors, enable the Cache Components flag:\nimport type { NextConfig } from 'next';\n \nconst nextConfig: NextConfig = {\n  cacheComponents: true,\n  // ...\n};\n \nexport default nextConfig;Over the last year, we've been simplifying Next.js back to its roots: dynamic by default, with no hidden or implicit caching. This flag enables those new behaviors, and it will become a default in a future major version of Next.js.\nStream, Cache, or Block\nNow, when a route awaits some data on the server, you will be presented with a choice between a few options:\nWhat do these options mean?\nTo make a navigation instant, you \"turn\" an asynchronous operation into something that can be available instantly:\n- [Stream with](https://nextjs.org/blog/our-journey-with-caching#dynamic)The user will instantly see a loading state (with more UI streaming in after).- <Suspense>.\n- [Cache with](https://nextjs.org/blog/our-journey-with-caching#cached-functions). The user will instantly see a previously cached UI (reused between requests).- 'use cache'\nIn both cases above, the navigation will feel SPA-like and instant to the user.\nHowever, sometimes you might want to make a certain navigation server-bound. For example, a blog might choose to never show a loading shell for posts. For those cases, you can tell Next.js that you want this navigation to Block:\n// in page.tsx or layout.jsx\nexport const instant = false;Then the error dialog will go away.\nNotice how this puts you in control. If you want your server-driven app to react to link clicks instantly—without waiting for the network—then you Stream or Cache. If you want some routes to delay navigations, then you Block.\nTo learn more about how Instant Insights integrates with coding agents, read [Next.js 16.3: AI Improvements](https://nextjs.org/blog/next-16-3-ai-improvements#actionable-errors).\nAgent skill\nIf you're looking to adopt Cache Components for the first time in an existing app, we've put together a Skill you can use to have your agent walk you through the process.\nKeeping",
+      "article_title_extracted": "Next.js 16.3: Instant Navigations | Next.js",
+      "category": "Development",
+      "cleaner_v": 2,
+      "created_at": "2026-06-27T02:30:54.552897Z",
+      "description": "A new suite of tools that brings the responsiveness of a single-page app to the server-centric model of Next.js.",
+      "domain": "nextjs.org",
+      "embed_type": "",
+      "id": "k173dwbessftghbmzvrj2zc31h89e33e",
+      "og_image_url": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-instant-navigations/twitter-card.png",
+      "recommended_at": "2026-06-27T17:07:24.023000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "nextjs",
+        "web-development",
+        "frontend"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:24.023000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Next.js 16.3: Instant Navigations | Next.js",
+      "url": "https://nextjs.org/blog/next-16-3-instant-navigations",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-27T04:32:29.909999Z",
+      "description": "Nolan Perkins • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k172nkkjhcsxdcff8aaq3kt7a589e6pw",
+      "og_image_url": "https://i.ytimg.com/vi/_Z1PCx_OFRY/maxresdefault.jpg",
+      "recommended_at": "2026-06-27T17:07:20.164000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "figma",
+        "ui-design",
+        "design-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:20.164000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Figma Tools: More Than Just a Workflow Update",
+      "url": "https://youtu.be/_Z1PCx_OFRY?is=fgz0ST1e2hdf43eJ",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_image_urls": [
+        "http://enoughphone.co/cdn/shop/files/enough_seo_ad43f47f-1885-454d-9c49-c33d1835ecd6.png?v=1778451625",
+        "https://enoughphone.co/cdn/shop/files/enoughprimary_navy-transparent.png?v=1781643180&width=280",
+        "https://enoughphone.co/cdn/shop/files/phone-comparison-v2_e796c447-6e75-4d8b-8e46-a87a056179fd.png?v=1782217214&width=1400"
+      ],
+      "article_title_extracted": "The Small Smartphone is Back The Small Smartphone is Back – Enough",
+      "category": "Tools",
+      "created_at": "2026-06-27T09:16:51.268035Z",
+      "description": "Introducing Enough Phone: a premium, compact 5.2\" smartphone launching on Kickstarter soon. Sign up to be notified for launch.",
+      "domain": "enoughphone.co",
+      "embed_type": "",
+      "id": "k17ctyn40e2jmqa4nwy8v8c36n89fq3m",
+      "og_image_url": "http://enoughphone.co/cdn/shop/files/enough_seo_ad43f47f-1885-454d-9c49-c33d1835ecd6.png?v=1778451625",
+      "recommended_at": "2026-06-27T17:07:15.110000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "smartphones",
+        "compact-tech",
+        "minimalism"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:15.110000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "The Small Smartphone is Back\n – Enough",
+      "url": "https://enoughphone.co/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_image_urls": [
+        "https://tomo.ai/opengraph-image.jpg",
+        "https://www.tomo.ai/avatars/woman-1.png",
+        "https://www.tomo.ai/avatars/woman-2.png",
+        "https://www.tomo.ai/avatars/man-1.png",
+        "https://www.tomo.ai/_next/static/media/upscaled-bg-6px-blur.2ospg1lmy1sd1.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/cloud.22e4c5xrhtbek.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/menu-orb.12qkxojyb_npw.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/dark-bg.2i1cs34lx_b8a.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/menu-orb-2.1whc-p_082h_g.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/love-orb.29mni9npgqwc8.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/text-tomo-orb.1m7jl7wm29vbe.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2",
+        "https://www.tomo.ai/_next/static/media/love-orb-desktop.02t-gvvunjra7.webp?dpl=dpl_BDAMyPRmeBi74aZz55WT6rCik1j2"
+      ],
+      "article_title_extracted": "Tomo - Your Personal AI",
+      "category": "Tools",
+      "created_at": "2026-06-27T09:24:44.508371Z",
+      "description": "The personal AI that lives in your texts. Tomo learns your goals and makes sure you achieve them. Tell Tomo about your life, problems, and aspirations, and Tomo will guide you through them.",
+      "domain": "www.tomo.ai",
+      "embed_type": "",
+      "id": "k170vkrzrcxed699rpjdsr79ts89emfp",
+      "og_image_url": "https://tomo.ai/opengraph-image.jpg",
+      "recommended_at": "2026-06-27T17:07:13.352000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "artificial-intelligence",
+        "personal-assistant",
+        "productivity"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:13.352000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Tomo - Your Personal AI",
+      "url": "https://www.tomo.ai/",
+      "x_status_id": null
+    },
+    {
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_image_urls": [
+        "https://opengraph.githubassets.com/1d294635d8d9d18cfb83238e4b21871704176e84ce8f1496476b7d71e41f8ed7/AswinTorch/photo-sticker-extract-demo"
+      ],
+      "article_title_extracted": "GitHub - AswinTorch/photo-sticker-extract-demo: Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation · GitHub",
+      "category": "Development",
+      "created_at": "2026-06-27T09:27:05.728833Z",
+      "description": "Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation - AswinTorch/photo-sticker-extract-demo",
+      "domain": "github.com",
+      "embed_type": "",
+      "id": "k17cm2drnfwp08djaxs7yxh5jh89f9p1",
+      "og_image_url": "https://cloud.poche.app/api/storage/9d2765a1-8cc5-419e-bff9-8000b646464b",
+      "recommended_at": "2026-06-27T17:07:11.685000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "expo",
+        "webgpu",
+        "image-processing"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:11.685000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "GitHub - AswinTorch/photo-sticker-extract-demo: Expo demo: photo → Apple Vision sticker extraction with WebGPU pixel-explosion animation · GitHub",
+      "url": "https://github.com/AswinTorch/photo-sticker-extract-demo",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_title_extracted": "- YouTube",
+      "category": "Media",
+      "created_at": "2026-06-27T11:43:22.909033Z",
+      "description": "Anton Repponen • YouTube",
+      "domain": "youtu.be",
+      "embed_type": "youtube",
+      "id": "k17a9dhzac83ramwgmjata4z7s89e9jc",
+      "og_image_url": "https://i.ytimg.com/vi/sMUVKn9jMQ0/maxresdefault.jpg",
+      "recommended_at": "2026-06-27T17:07:09.211000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "macos",
+        "file-management",
+        "software-development"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:09.211000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "FFFFinder. I decided to make my own alternative to macOS Finder. And it worked.",
+      "url": "https://youtu.be/sMUVKn9jMQ0?is=peuvWwyJaWOYXo0L",
+      "x_status_id": null
+    },
+    {
+      "article_extraction": "cf_browser_rendering",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
+      "article_image_urls": [
+        "https://shaders.figma.com/_assets/v11/54492717ee5bce65e405b8ac16b94f427f911ab7.png"
+      ],
+      "article_title_extracted": "shaders.figma.com shaders.figma.com",
+      "category": "Design",
+      "created_at": "2026-06-27T17:07:01.730033Z",
+      "description": "Make your own shaders in Figma. Prompt, stack, and customize to create the exact effect or fill you want—without leaving the canvas.",
+      "domain": "shaders.figma.com",
+      "embed_type": "",
+      "id": "k17dxgxrwg753dbmwhcrt2jq7189fxb2",
+      "og_image_url": "https://cloud.poche.app/api/storage/40c217eb-0dc7-4e4d-8947-d647a4ff6128",
+      "recommended_at": "2026-06-27T17:07:06.822000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "figma",
+        "shaders",
+        "design-tools"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-27T17:07:06.822000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Shaders — Now in Figma",
+      "url": "https://shaders.figma.com/",
+      "x_status_id": null
+    },
     {
       "article_extraction": "cf_browser_rendering",
       "article_fetch_error": "HTTP Error 403: Forbidden",
@@ -1971,7 +2278,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
       "article_image_urls": [
         "https://isitagentready.com/og-image.png",
         "https://isitagentready.com/logo.svg"
@@ -4221,7 +4528,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
       "article_title_extracted": "Fable Refinery",
       "category": "Tools",
       "created_at": "2026-06-13T13:08:35.035370Z",
@@ -4258,7 +4565,7 @@
       "x_status_id": null
     },
     {
-      "article_fetch_attempted_at": "2026-06-20T14:55:15.021350Z",
+      "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
       "article_image_urls": [
         "https://repository-images.githubusercontent.com/993475914/123bf50d-9ae2-48d9-94f7-7a345bf82c15",
         "https://github.com/apple/container/raw/main/assets/Containerization-Logo.png",
@@ -106618,7 +106925,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2234,
+      "count": 2242,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -106654,5 +106961,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-27T14:16:19.643679Z"
+  "updated_at": "2026-06-27T17:43:54.129001Z"
 }
