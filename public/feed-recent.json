@@ -920,6 +920,20 @@
       "title": "",
       "url": "http://x.com/i/article/2044100677014827011"
     },
+    "http://x.com/i/article/2044877173232963584": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2044877173232963584",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLwv9HZaEAAu6xp?format=jpg&name=900x900)](http://x.com/waterloo%5Fintern/article/2070643039668974060/media/2070582655687725056)\n\nsome notes on writing the fastest video kernel in the world\n\n[![](https://pbs.twimg.com/profile_images/2058285924002516992/OkmpXCVb_normal.jpg)](http://x.com/waterloo%5Fintern)\n\n[ali![](https://pbs.twimg.com/profile_images/1924485072801140736/VyZekL_z_bigger.jpg)](http://x.com/waterloo%5Fintern)\n\n[@waterloo\\_intern](http://x.com/waterloo%5Fintern)\n\n·\n\n15h\n\nFollow\n\nClick to Follow waterloo\\_intern\n\n24\n\n92\n\n232\n\n[46K](http://x.com/waterloo%5Fintern/status/2070643039668974060/analytics)\n\nin this worklog, I explain how we retrofitted sparsity into a model at inference time, yielding the world's fastest video generation kernel. we iteratively optimize a frontier oss model by 54x the baseline, bringing market cost down from 5¢/sec to 0.16¢/sec of generated video. \n\n# \n\nTable of Contents\n\n* What is Video Sparse Attention (VSA)\n* Optimizing the VSA kernel\n* Kernel Fusions\n* Time-Step Distillation\n* Quantization\n* Results\n\nSome context before we start: I worked on this with \n\n[@YikaiZhu98](https://x.com/@YikaiZhu98)\n\n, \n\n[@Faraz9877](https://x.com/@Faraz9877)\n\n, \n\n[@brendanwduke](https://x.com/@brendanwduke)\n\n, as part of my internship project with the model perf team \n\n[@baseten](https://x.com/@baseten)\n\n. Because of it, I went from having ZERO knowledge of video models to writing an optimized video runtime that outperforms current inference engines like SGLang.\n\nDisclaimer: this blog will be detailed and likely not make sense for those with zero GPU experience, but I promise to try my best to make it as interesting as possible.\n\n# \n\nMotivation 1 (The Attention Bottleneck)\n\nAs of the date of this post, Wan2.2 is the best open source video model. It is built upon the mainstream diffusion transformer paradigm, a 14 Billion parameter MoE model. \n\nLet us begin with a trace.\n\n[![Image](https://pbs.twimg.com/media/HLxDOvyaEAANc7u?format=jpg&name=small)](http://x.com/waterloo%5Fintern/article/2070643039668974060/media/2070603849308704768)\n\nWAN Attention trace\n\nSelf-Attention is the bottleneck. Time spent in this operation alone accounts for over 60% of the run-time.\n\nSuppose we wanted to generate a single image of dimensions 480x832\\. The model compresses this image into a latent of size width/8 x height/8, such that the latent representation is 60x104\\. Then, this latent is further subdivided into tokens of 2x2 latent values, resulting in a representation of 30x52 of such ‘tokens’, as below:\n\n[![Image](https://pbs.twimg.com/media/HLxDSNobQAAABTW?format=jpg&name=small)](http://x.com/waterloo%5Fintern/article/2070643039668974060/media/2070603908859510784)\n\npatchifying an image into 2x2 tokens\n\nWith video models, suppose we wanted to represent a 5 second video. At 16 frames/second, we need to generate 81 such frames. The time dimension, like the width and height, also lives in a compressed latent representation, but this time by a factor of 4\\. This means we need to generate a 3D grid of frames, of dimensions 30x52x21 tokens, as below:\n\n[![Image](https://pbs.twimg.com/media/HLxDpWsbgAAsXo8?format=jpg&name=small)](http://x.com/waterloo%5Fintern/article/2070643039668974060/media/2070604306429214720)\n\nrepresentation of our latents across the three dimensions of height, width, time\n\nThese tokens are all then serialized… all thirty two thousand, seven hundred and sixty of them. This is the input on which attention is applied. Take in this matrix and pass it through three sets of weights: query, key, and value matrices. This results in three separate projections. Take the query projection and multiply it with the key projection to get similarity scores in a matrix, called P. Apply softmax row-by-row, so that each turns into a row of percentages that sum up to one. Then",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2044877173232963584"
+    },
     "http://x.com/i/article/2052398478916227072": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1077,22 +1091,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059468354927108099"
     },
-    "http://x.com/i/article/2059551448959168512": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059551448959168512",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059551448959168512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVxrdkbEAA46_J?format=jpg&name=900x900)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059677396077580288)\n\nHow One AI Agent Replaces Your Entire Lead Gen Stack\n\n[![](https://pbs.twimg.com/profile_images/2032185394473955329/sT3lY5XL_normal.jpg)](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[Michel Lieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[@MichLieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n·\n\n19h\n\nFollow\n\nClick to Follow MichLieben\n\n2\n\n26\n\n[4K](http://x.com/i/article/2059551448959168512/MichLieben/status/2059680817560088590/analytics)\n\nOpen your outbound workflow right now. Count the tools.\n\nA lead-list tool, an enrichment tool, a verification tool, a CRM, a sequencing platform, a deliverability monitor, a meeting scheduler, an analytics dashboard, and a spreadsheet stitching half of them together. Maybe more. You probably pay for ten subscriptions to do what is, in the end, one job: figure out who to talk to, find a way to reach them, and start a conversation.\n\nThat whole stack is about to live in one place: a Slack channel. The chat tool your team already opens 50 times a day becomes the only interface you need. You message a request, the agent does the work, picks the verticals, scrapes the data, validates the emails, drafts the sequences, launches the campaigns, and pings you when it's done. It runs overnight while you sleep.\n\nI just sat down for an hour with Brandon Charleson, who runs Top of Funnel, and watched him do exactly this from scratch on a live call. No paid enrichment tools, no prebuilt list, no spreadsheet sitting on his desktop. A few Slack messages to his agent named Mo, and 45 verified leads sitting in a queued, sequenced, live campaign by the end of the demo.\n\nThis article walks through what I saw, what's actually happening under the hood, and the layer most people skip past when they hear about it.\n\n# \n\nWhat you've been doing is about to feel like email triage in 2009\n\nThe outbound workflow most teams run today is the same shape it had five years ago. You open Clay, build a table, and run enrichment columns. Export the result to CSV. Re-upload into Smartlead or Instantly. Switch to a doc to write copy, switch to another tab to QA, pull up a third to check deliverability. Something breaks somewhere, you fix it, you re-run.\n\nThese tools aren't the problem. The friction comes from the human being the integration layer between platforms that don't talk to each other natively. You spend eight hours a week stitching outputs together by hand, doing the same shape of work over and over.\n\nWhatever you ran last week, you're running again next week, with the same manual stitching in between.\n\nAt ColdIQ we've built and run outbound systems for 400+ B2B companies and crossed $7M ARR doing it. I've watched my team and our clients do this manual stitching work for years. Nobody on the team enjoys it, which makes it the first thing AI is going to absorb completely.\n\n[![Image](https://pbs.twimg.com/media/HJT_tcXakAAYJID?format=png&name=small)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059552085788758016)\n\nNine lead-gen tools collapsing into one Slack channel\n\n# \n\nThe shift: agents that live where your team already does\n\nBrandon's agent, Mo, lives in his Slack workspace. Not bolted into a new app or a separate dashboard, just another colleague in the channel list. You DM Mo from your phone in line at the coffee shop, from your laptop at midnight, or from your watch on a run.\n\nMost people hear \"AI agent\" and picture a chatbot sitting inside a new SaaS tool, one more tab to open. What Brandon's running is closer to an employee who happens to be software, sitting in the channels you already use, with acc",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059551448959168512/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJVxrdkbEAA46_J?format=jpg&name=900x900)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059677396077580288)\n\n一个 AI Agent 如何取代你整个线索生成技术栈\n\n[![](https://pbs.twimg.com/profile_images/2032185394473955329/sT3lY5XL_normal.jpg)](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[Michel Lieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n[@MichLieben](http://x.com/i/article/2059551448959168512/MichLieben)\n\n·\n\n19小时前\n\n关注\n\n点击关注 MichLieben\n\n2\n\n26\n\n[4K](http://x.com/i/article/2059551448959168512/MichLieben/status/2059680817560088590/analytics)\n\n现在打开你的外呼工作流。数数用了多少工具。\n\n一个线索列表工具、一个数据丰富工具、一个验证工具、一个 CRM、一个序列平台、一个可送达性监控器、一个会议调度器、一个分析仪表盘，以及一个把其中一半拼凑起来的电子表格。可能还不止这些。你大概为十个订阅付费，去做本质上只是一件事：弄清楚该和谁谈，找到联系他们的方式，然后开启对话。\n\n整个技术栈即将浓缩到一个地方：一个 Slack 频道。你的团队每天已经打开 50 次的聊天工具，将成为你唯一需要的界面。你发一条消息提出请求，agent 完成工作——选择垂直行业、抓取数据、验证邮箱、起草序列、启动营销活动，并在完成后通知你。它在你睡觉时通宵运行。\n\n我刚刚和 Top of Funnel 的负责人 Brandon Charleson 聊了一个小时，亲眼看着他在一次直播通话中从零开始完成这一切。没有付费的数据丰富工具，没有预先构建的列表，没有桌面上的电子表格。只需向他的 agent Mo 发几条 Slack 消息，演示结束时，45 个经过验证的线索已经排好队、配置好序列、处于活跃的营销活动中。\n\n这篇文章将带你了解我所看到的、幕后实际发生的事情，以及大多数人在听说时容易忽略的层面。\n\n# \n\n你一直在做的事情，很快就会感觉像 2009 年的邮件分类\n\n如今大多数团队运行的外呼工作流，和五年前的形式一模一样。你打开 Clay，建一个表格，运行数据丰富列。将结果导出为 CSV。重新上传到 Smartlead 或 Instantly。切换到文档写文案，再切换到另一个标签页做质量检查，再打开第三个检查可送达性。某个地方出了问题，你修复它，然后重新运行。\n\n这些工具本身不是问题。摩擦来自于人类充当了那些无法原生通信的平台之间的集成层。你每周花八个小时手动拼接输出，一遍又一遍地做着相同形式的工作。\n\n无论你上周运行了什么，下周你还会再运行一次，中间同样需要手动拼接。\n\n在 ColdIQ，我们为 400 多家 B2B 公司构建并运行了外呼系统，并借此实现了 700 万美元的 ARR。多年来，我目睹了我的团队和客户在做这种手动拼接工作。团队里没人喜欢它，这使得它成为 AI 将完全吸收的第一件事。\n\n[![图片](https://pbs.twimg.com/media/HJT_tcXakAAYJID?format=png&name=small)](http://x.com/i/article/2059551448959168512/MichLieben/article/2059680817560088590/media/2059552085788758016)\n\n九个线索生成工具合并到一个 Slack 频道中\n\n# \n\n转变：agent 存在于你的团队已经使用的地方\n\nBrandon 的 agent Mo 存在于他的 Slack 工作区中。它不是被硬塞进一个新应用或一个单独的仪表盘，只是频道列表中的另一个同事。你可以在咖啡店排队时用手机、在午夜用笔记本电脑、甚至在跑步时用手表给 Mo 发私信。\n\n大多数人听到“AI agent”时，会想象一个位于新 SaaS 工具内部的聊天机器人，又一个需要打开的标签页。而 Brandon 运行的东西更接近于一个碰巧是软件的员工，坐在你已经使用的频道里，拥有访问权限",
-      "text_excerpt_zh_hash": "8ce9d76c7e61c9cd",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059551448959168512"
-    },
     "http://x.com/i/article/2059613463731732484": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1108,22 +1106,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059613463731732484"
-    },
-    "http://x.com/i/article/2059619573599739904": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059619573599739904",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059619573599739904/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJVxnl0bEAINPlL?format=jpg&name=900x900)](http://x.com/i/article/2059619573599739904/itsalexvacca/article/2059679849447649748/media/2059677329572696066)\n\nHow to Make Your First $1M With AI in 2026: The Full Playbook\n\n[![](https://pbs.twimg.com/profile_images/1909705035052990467/pnfX3LA__normal.jpg)](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n[Alex Vacca](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n[@itsalexvacca](http://x.com/i/article/2059619573599739904/itsalexvacca)\n\n·\n\n19h\n\nFollow\n\nClick to Follow itsalexvacca\n\n3\n\n62\n\n[27K](http://x.com/i/article/2059619573599739904/itsalexvacca/status/2059679849447649748/analytics)\n\nThe next three years will create more millionaires than the internet did in two decades. And 90% of the people watching it happen will completely miss it.\n\nNot because they lack access to the tools. Everyone has access now. \n\nThey'll miss it because they're going to chase every shiny AI thing they see instead of picking one direction and dominating it. They'll bounce between crypto bots, automation agencies, content monetization, AI image businesses, and consulting until they wake up in 2028 and wonder where the window went.\n\nThis article is about the actual path. The version nobody on X is selling because it's not viral. The version that's worked for the 257 people my team and I have mentored through this exact transition over the last six months. The ones making money aren't smarter, faster, or more technical. They just understood three things the other 90% never figure out, and they ran straight into the GTM lane while everyone else was busy reinventing the wheel.\n\n# \n\nWhy this AI window is shorter than every other tech wave\n\nEvery major technology has a window where early operators capture insane advantages. After that window closes, you're competing on price.\n\n[![Image](https://pbs.twimg.com/media/HJU9p-9agAAiFqx?format=png&name=small)](http://x.com/i/article/2059619573599739904/itsalexvacca/article/2059679849447649748/media/2059620196076388352)\n\nYears to 50% Adoption: The AI Window Is the Shortest Ever\n\nThe telegraph took 56 years to hit 50% adoption. The internet did it in 7, smartphones in 5\\. AI is on track to hit 50% in 3 years, and we're already at 88% of businesses using it in some form. The gap right now is between adoption and execution. Most companies have ChatGPT subscriptions and zero idea how to turn that into pipeline, operational leverage, or revenue. That gap is the entire opportunity, and it's closing fast.\n\nWe built ColdIQ to \n\n[$7M+](https://x.com/search?q=%247M%2B&src=cashtag%5Fclick)\n\n ARR in under three years on the back of this exact GTM gap. We saw what AI could collapse in cold outreach before most agencies caught on, and we stayed focused while the market was sprinting in five directions. The companies that hesitated are now competing for the leftovers.\n\nLook at every previous wave. Ecommerce had a window from 1995 to 2005\\. Mobile from 2007 to 2014\\. Facebook organic reach went from nearly 100% to under 1% by 2018\\. The people who weren't in early missed the entire opportunity, not a small slice of it. In 12 to 18 months, the AI GTM playbooks are going to be public, the prices will compress, and the race to the bottom will start. Right now there's still oxygen in the room.\n\n# \n\nThe trap that catches 90% of people\n\nEvery week there's a new AI tool, a new automation, a new business model. The noise is constant and it's not slowing down. The trap is mistaking \"keeping up\" for \"making progress.\"\n\nPeople feel productive while watching tutorials, testing tools, signing up for newsletters, joining communities, and bouncing between business ideas. They look busy from the outside and broke from the inside. Because you don't hit your first million by running five experiments at",
-      "text_excerpt_zh": "## 如何在2026年用AI赚到你的第一个100万美元：完整攻略\n\n未来三年将造就比互联网二十年更多的百万富翁。而90%目睹这一切发生的人将完全错过机会。\n\n不是因为他们缺乏工具——现在人人都能获取工具。他们会错过，是因为他们会追逐每一个闪亮的AI新事物，而不是选定一个方向并深耕到底。他们会在加密机器人、自动化代理、内容变现、AI图像业务和咨询之间反复横跳，直到2028年醒来，发现机会窗口已经关闭。\n\n这篇文章讲的是真正的路径。是X平台上没人推销的版本，因为它不够病毒式传播。是过去六个月里，我和团队指导的257人通过这个转型过程实际验证过的版本。那些赚钱的人并不更聪明、更快或更懂技术。他们只是明白了另外90%的人永远搞不懂的三件事，并且在其他人忙着重新发明轮子时，直接冲进了GTM（市场进入）赛道。\n\n## 为什么这波AI窗口比以往任何技术浪潮都短\n\n每一项重大技术都有一个窗口期，早期操作者能捕获巨大优势。窗口关闭后，你就只能拼价格了。\n\n**达到50%普及率所需年数：AI窗口史上最短**\n\n电报用了56年达到50%普及率。互联网用了7年，智能手机用了5年。AI有望在3年内达到50%普及率，而目前已有88%的企业以某种形式在使用AI。现在的差距在于普及与执行之间。大多数公司都有ChatGPT订阅，却完全不知道如何将其转化为销售线索、运营杠杆或收入。这个差距就是全部机会，而且它正在快速缩小。\n\n我们在不到三年内将ColdIQ做到了700万美元以上的ARR（年经常性收入），正是抓住了这个GTM差距。我们在大多数代理机构还没反应过来之前，就看到了AI能如何压缩冷启动外联成本，并在市场朝五个方向狂奔时保持专注。而那些犹豫不决的公司，现在只能争夺残羹剩饭。\n\n看看之前的每一波浪潮。电商的窗口期是1995年到2005年。移动互联网是2007年到2014年。Facebook的有机触达率从接近100%下降到2018年的不足1%。那些没有早期入局的人，错失的是整个机会，而不是一小部分。12到18个月后，AI的GTM玩法将公开化，价格将被压缩，价格战将开始。现在，房间里还有氧气。\n\n## 90%的人掉入的陷阱\n\n每周都有新的AI工具、新的自动化方案、新的商业模式。噪音不断，而且不会减缓。陷阱在于把\"跟上节奏\"误认为\"取得进展\"。\n\n人们在看教程、测试工具、订阅新闻通讯、加入社区、在不同商业想法之间切换时，会感到自己很高效。从外面看他们很忙，从里面看他们很穷。因为你不可能靠同时跑五个实验就赚到第一个一百万。",
-      "text_excerpt_zh_hash": "3c9089a4f408d8df",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059619573599739904"
     },
     "http://x.com/i/article/2059627968872280065": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
@@ -6252,22 +6234,6 @@
       "title": "",
       "url": "http://x.com/i/article/2070117036605222912"
     },
-    "http://x.com/i/article/2070162994726866945": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2070162994726866945",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLqzdXqa4AANrcq?format=jpg&name=900x900)](http://x.com/Railway/article/2070190151255699967/media/2070164295879680000)\n\nSkill Issue, Writing /skills to solve agent failures\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9_normal.jpg)](http://x.com/Railway)\n\n[Railway](http://x.com/Railway)\n\n[@Railway](http://x.com/Railway)\n\n·\n\nJun 25\n\nFollow\n\nClick to Follow Railway\n\n1\n\n2\n\n43\n\n[4.9K](http://x.com/Railway/status/2070190151255699967/analytics)\n\nIf you want to make your agent an expert at operating Railway, all you need to do is run the following command:\n\nbash\n\n```bash\ncurl -fsSL agents.railway.com | sh\n```\n\nThis will install the Railway CLI and configure agent support. If you want more details about what what’s happening under the hood and how we got here, the rest of this blog post is for you.\n\n## \n\nAgents didn’t know how to hold Railway\n\nAround six months ago, we found a good portion of our user base “agent-pilled”. Instead of our users doing things via the Railway dashboard or by typing commands with the CLI, they'd tell their agent what they wanted and walk away.\n\n* \"Deploy my app on Railway\"\n* \"My app is slow. Here's the deployment, can you figure out why?\"\n* \"I'm on Railway. Spin up a Postgres database and wire it into my app\"\n\nIt was great in theory, but then the support threads started rolling in.\n\nWhy did Claude send my replica to Tahiti? Why did Cursor say Railway storage was 2 cents?\n\n…and the dreaded… Why did my agent delete my whole project!?!\n\nIt didn't take us too long to work out what was missing. If an agent was going to drive Railway, it needed two things:\n\n1. Tools. A way to actually operate Railway, whether that's an API, a CLI, or an MCP server.\n2. Education. The knowledge of how to use those tools, plus a real mental model of the platform's primitives and features.\n\nWe initially focused our efforts on tooling and published an official MCP server for Railway. Then two problems showed up.\n\nThe first problem was awareness. Many users didn’t know the MCP server existed in the first place or that it was a way to make Railway work better with agents. When you ask the agent to use Railway without anything set up, it would install the Railway CLI, start firing off bash commands, guess the command flags, and assume features we'd never built.\n\nThe second problem was worse. The official MCP had around 30 perfectly good tools, but you had to tell the agent to call them. The desired state of telling the agent what you wanted and walking away wasn’t possible. We started to wonder if this was some failure baked in during post-training, that the models simply hadn't been taught how to hold a product.\n\nThen Agent skills happened.\n\n<https://www.youtube.com/watch?v=CEvIs9y1uog>\n\nYou have to give credit where it’s due, Anthropic’s ability to lexicographically own a mental model is maybe their number one superpower. Railway dubbed our version “corpus” - well, our term for it was a walking corpse after that video and SKILLS.md.\n\nIt turns out the single most effective way to do real-time RL on a model was… a text document. We were skeptical. We were also wrong. It's super effective.\n\n## \n\nExperimenting with Agent Skills internally\n\nWe started where it was safe, on ourselves. Internal docs and runbooks went into the grinder and came out the other side as agent skills.\n\nBy Jan 7th, Jake Cooper personally merged a PR with 10,000+ line diff of almost everything we had in Notion and made a /build-skill skill. The mandate was clear. Everything was to be a skill, and if it couldn’t be, it needed to be in an MCP so we could turn it into one.\n\nWhat followed was a mad dash to make everything tractable to the agent. The work was unglamorous, but it was funny to see the spike in markdown commits in our repo. We listed out all of the verbs that w",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HLqzdXqa4AANrcq?format=jpg&name=900x900)](http://x.com/Railway/article/2070190151255699967/media/2070164295879680000)\n\n技能问题，编写 /skills 来解决 Agent 故障\n\n[![方形头像](https://pbs.twimg.com/profile_images/2060407291996692484/ave6xJl9_normal.jpg)](http://x.com/Railway)\n\n[Railway](http://x.com/Railway)\n\n[@Railway](http://x.com/Railway)\n\n·\n\n6月25日\n\n关注\n\n点击关注 Railway\n\n1\n\n2\n\n43\n\n[4.9K](http://x.com/Railway/status/2070190151255699967/analytics)\n\n如果你想让你的 Agent 成为操作 Railway 的专家，只需运行以下命令：\n\nbash\n\n```bash\ncurl -fsSL agents.railway.com | sh\n```\n\n这将安装 Railway CLI 并配置 Agent 支持。如果你想了解更多底层实现细节以及我们是如何走到这一步的，那么这篇博客的其余部分就是为你准备的。\n\n## \n\nAgent 不知道如何使用 Railway\n\n大约六个月前，我们发现相当一部分用户已经“Agent 化”了。用户不再通过 Railway 仪表盘或手动输入 CLI 命令来操作，而是告诉他们的 Agent 想要什么，然后就走开了。\n\n* “在 Railway 上部署我的应用”\n* “我的应用很慢。这是部署信息，你能找出原因吗？”\n* “我在用 Railway。启动一个 Postgres 数据库并连接到我的应用”\n\n理论上这很棒，但随后支持工单开始涌来。\n\n为什么 Claude 把我的副本发到了塔希提？为什么 Cursor 说 Railway 存储只要 2 美分？\n\n……还有最可怕的……为什么我的 Agent 删除了我整个项目！？\n\n我们没花太长时间就找出了问题所在。如果 Agent 要驱动 Railway，它需要两样东西：\n\n1. 工具。一种实际操作 Railway 的方式，无论是 API、CLI 还是 MCP 服务器。\n2. 教育。如何使用这些工具的知识，以及平台原语和功能的真实心智模型。\n\n我们最初将精力集中在工具上，并发布了 Railway 的官方 MCP 服务器。然后出现了两个问题。\n\n第一个问题是认知度。许多用户根本不知道 MCP 服务器的存在，也不知道它是让 Railway 与 Agent 更好协作的一种方式。当你让 Agent 在没有任何设置的情况下使用 Railway 时，它会安装 Railway CLI，开始执行 bash 命令，猜测命令标志，并假设我们从未构建过的功能。\n\n第二个问题更糟糕。官方 MCP 有大约 30 个相当不错的工具，但你必须告诉 Agent 去调用它们。那种告诉 Agent 你想要什么然后走开的理想状态根本无法实现。我们开始怀疑这是否是后训练阶段固有的某种缺陷，模型根本没有被教会如何使用一个产品。\n\n然后 Agent skills 出现了。\n\n<https://www.youtube.com/watch?v=CEvIs9y1uog>\n\n必须承认，Anthropic 在词汇层面占据心智模型的能力可能是他们的头号超能力。Railway 把我们自己的版本称为“corpus”——好吧，在看了那个视频和 SKILLS.md 之后，我们自己的术语简直就像一具行尸走肉。\n\n事实证明，对模型进行实时强化学习最有效的方法竟然是……一个文本文档。我们曾对此持怀疑态度。我们也错了。它非常有效。\n\n## \n\n内部实验 Agent Skills\n\n我们从最安全的地方开始——我们自己。内部文档和操作手册被投入“研磨机”，另一端产出的是 Agent skills。\n\n到 1 月 7 日，Jake Cooper 亲自合并了一个 PR，其中包含超过 10,000 行的差异，几乎涵盖了我们在 Notion 中的所有内容，并创建了一个 /build-skill 技能。指令很明确：所有内容都要变成技能，如果不能，就需要放在 MCP 中，以便我们将其转化为技能。\n\n接下来是一场疯狂的冲刺，让所有事情都对 Agent 可操作。这项工作并不光鲜，但看到我们仓库中 markdown 提交量的激增很有趣。我们列出了所有动词，这些动词是……",
-      "text_excerpt_zh_hash": "f2965713873871b3",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2070162994726866945"
-    },
     "http://x.com/i/article/2070201957441220608": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6595,23 +6561,6 @@
       "text_excerpt_zh": "",
       "title": "",
       "url": "https://alphasignal.ai/newsletter"
-    },
-    "https://ampcode.com/news/drop-the-neo": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Amp Neo is now Amp. The rebuilt Amp is available to everyone.",
-      "final_url": "https://ampcode.com/news/drop-the-neo",
-      "frameable": false,
-      "image_urls": [
-        "https://ampcode.com/news/drop-the-neo?og-image"
-      ],
-      "kind": "article",
-      "text_excerpt": "Chronicle // [ News ] Drop the Neo May 27, 2026 Drop the Neo Amp Neo is now available to everyone. Time to drop the suffix and just call it Amp again. Thank you to everyone who sent bug reports, gave feedback, and was patient while we scaled up the infrastructure to meet the demand. Over the last few weeks, we've made a lot of improvements based on that feedback. The infrastructure is more stable. The clients are more resilient. There is still more to do, but Neo now performs well for the vast majority of users. The latest version of Amp no longer includes the --take-me-back flag that let you use pre-Neo Amp. If you need to finish work in the old Amp, you can run a previous version: npx -y @ampcode/cli@0.0.1779896748-g596c49 --take-me-back All Systems Operational Security Privacy Policy Terms of Service Product Get Started Sign In Owner's Manual Models Resources Chronicle Pricing Podcast Press Kit Guides How to Build an Agent Context Management Community 𝕏 @ampcode Amp Insiders YouTube",
-      "text_excerpt_zh": "Chronicle // [ News ] Drop the Neo  \n2026年5月27日  \n\nDrop the Neo  \n\nAmp Neo现已向所有人开放。是时候去掉后缀，直接称它为Amp了。感谢每一位提交错误报告、提供反馈，并在我们扩展基础设施以满足需求时保持耐心的用户。  \n\n过去几周，我们根据这些反馈进行了大量改进。基础设施更加稳定，客户端更具弹性。虽然仍有工作要做，但Neo现在对绝大多数用户来说表现良好。  \n\n最新版本的Amp不再包含 `--take-me-back` 标志（该标志曾用于使用Neo之前的Amp版本）。如果你需要在旧版Amp中完成工作，可以运行之前的版本：  \n\n```\nnpx -y @ampcode/cli@0.0.1779896748-g596c49 --take-me-back\n```\n\nAll Systems Operational  \nSecurity  \nPrivacy Policy  \nTerms of Service  \n\nProduct  \nGet Started  \nSign In  \nOwner's Manual  \nModels  \nResources  \nChronicle  \nPricing  \nPodcast  \nPress Kit  \nGuides  \nHow to Build an Agent  \nContext Management  \n\nCommunity  \n𝕏 @ampcode  \nAmp Insiders  \nYouTube",
-      "text_excerpt_zh_hash": "8a1a302d368cb464",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Drop the Neo Amp",
-      "url": "https://ampcode.com/news/drop-the-neo"
     },
     "https://animations.dev/vocabulary?ref=sidebar": {
       "cleaner_v": 2,
@@ -8446,21 +8395,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - garrytan/gstack: Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA · GitHub",
       "url": "https://github.com/garrytan/gstack"
-    },
-    "https://github.com/gnurio/memetics-plugin": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Your best ideas don't spread on their own. This plugin gives you the science-backed playbook to design, launch, and defend how ideas move through networks. - gnurio/memetics-plugin",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/gnurio/memetics-plugin",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/ad7153f0a10b6d1d70e054b986cc41ddbde6947b6f3783106217f6f936abe077/gnurio/memetics-plugin"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - gnurio/memetics-plugin: Your best ideas don't spread on their own. This plugin gives you the science-backed playbook to design, launch, and defend how ideas move through networks. · GitHub",
-      "url": "https://github.com/gnurio/memetics-plugin"
     },
     "https://github.com/harehare/mq": {
       "content_type": "text/html; charset=utf-8",
@@ -11035,6 +10969,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11048,6 +10996,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11636,34 +11598,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
-    },
-    "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg"
-    },
-    "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
     },
     "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg": {
       "cleaner_v": 2,
@@ -13485,6 +13419,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
+    "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png"
+    },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14269,20 +14217,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLrPcxHWMAAcdIb.jpg"
     },
-    "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
-    },
     "https://pbs.twimg.com/media/HLrqg-XWcAAkB7M.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14479,19 +14413,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg"
     },
-    "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png": {
+    "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg": {
       "cleaner_v": 2,
-      "content_type": "image/png",
+      "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
+      "final_url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
+        "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
+      "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -17746,33 +17680,6 @@
     "2058931538029662435": [
       "https://x.com/patrickc/status/2058931538029662435",
       "https://newaesthetics.art/grants"
-    ],
-    "2059679016215572815": [
-      "https://x.com/himanshutwtxs/status/2059679016215572815",
-      "https://pbs.twimg.com/media/HJVzCs7bQAAGnVq.png"
-    ],
-    "2059679849447649748": [
-      "https://x.com/itsalexvacca/status/2059679849447649748",
-      "http://x.com/i/article/2059619573599739904"
-    ],
-    "2059680817560088590": [
-      "https://x.com/MichLieben/status/2059680817560088590",
-      "http://x.com/i/article/2059551448959168512"
-    ],
-    "2059687098584817885": [
-      "https://x.com/thorstenball/status/2059687098584817885",
-      "https://ampcode.com/news/drop-the-neo",
-      "https://pbs.twimg.com/media/HJV6NSKaAAAePMH.jpg",
-      "https://x.com/thorstenball/status/2059750151720432079",
-      "https://x.com/thorstenball/status/2059693801929920589"
-    ],
-    "2059691582673342742": [
-      "https://x.com/aditabrm/status/2059691582673342742"
-    ],
-    "2059740940739477523": [
-      "https://x.com/nurijanian/status/2059740940739477523",
-      "https://x.com/nurijanian/status/2060012219950301593",
-      "https://github.com/gnurio/memetics-plugin"
     ],
     "2059860662658949530": [
       "https://x.com/IBuzovskyi/status/2059860662658949530",
@@ -22710,12 +22617,12 @@
       "https://x.com/AnatoliKopadze/status/2070173084431045068",
       "https://x.com/AnatoliKopadze/status/2070156820211986516",
       "https://x.com/AnatoliKopadze/status/2070165742117404976",
+      "https://x.com/AnatoliKopadze/status/2070850102105686212",
+      "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg",
       "https://x.com/AnatoliKopadze/status/2070541643518775354",
       "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg",
       "https://x.com/AnatoliKopadze/status/2070489150294274236",
-      "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg",
-      "https://x.com/AnatoliKopadze/status/2070205680133284080",
-      "https://pbs.twimg.com/media/HLrRVhlWAAAe_1T.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2070487466130259968/img/jei4vRYNhDpHdDMW.jpg"
     ],
     "2070158436994605064": [
       "https://x.com/axios/status/2070158436994605064",
@@ -22895,11 +22802,11 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
-      "https://x.com/_prisis_/status/2070736034258678080",
       "https://x.com/_prisis_/status/2070735001084101022",
-      "https://x.com/_prisis_/status/2070735123109056986",
       "https://x.com/_prisis_/status/2070751830129160636",
-      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
+      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
+      "https://x.com/_prisis_/status/2070736034258678080",
+      "https://x.com/_prisis_/status/2070735123109056986"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22950,16 +22857,16 @@
       "http://x.com/i/article/2070429028440559616",
       "https://x.com/Railway/status/2070502341611049112",
       "https://blog.railway.com/p/agent-connection-to-railway",
-      "https://x.com/Railway/status/2070190151255699967",
-      "http://x.com/i/article/2070162994726866945"
+      "https://x.com/Railway/status/2070576241800085705",
+      "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
     ],
     "2070502852414288328": [
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070532689392980369": [
       "https://x.com/nikunj/status/2070532689392980369",
@@ -22974,9 +22881,9 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
@@ -22989,13 +22896,39 @@
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070140467564454023",
+      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+    ],
+    "2070615836528963689": [
+      "https://x.com/ericosiu/status/2070615836528963689",
+      "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
     ],
     "2070629226664153173": [
       "https://x.com/vasuman/status/2070629226664153173",
       "http://x.com/i/article/2070612759260348416"
+    ],
+    "2070643039668974060": [
+      "https://x.com/waterloo_intern/status/2070643039668974060",
+      "http://x.com/i/article/2044877173232963584",
+      "https://x.com/waterloo_intern/status/2070654302243434863",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2070649884731167018",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070675743198384634",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070650605002203176",
+      "https://x.com/waterloo_intern/status/2070654226959835199",
+      "https://x.com/waterloo_intern/status/2070701138777899369",
+      "https://x.com/waterloo_intern/status/2070682937541226871",
+      "https://x.com/waterloo_intern/status/2070675913315057722",
+      "https://x.com/waterloo_intern/status/2070685881858691535",
+      "https://x.com/waterloo_intern/status/2070675844075524146"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -23003,19 +22936,25 @@
       "https://github.com/almeidazs/better-drizzle",
       "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg",
       "https://x.com/eualmeidazs/status/2070652682247843868",
-      "https://x.com/eualmeidazs/status/2070843198805602553",
-      "https://x.com/eualmeidazs/status/2070842865769501020",
-      "https://x.com/eualmeidazs/status/2070843338467492066",
-      "https://x.com/eualmeidazs/status/2070843539978682877",
-      "https://x.com/eualmeidazs/status/2070843753946923444",
-      "https://x.com/eualmeidazs/status/2070843973527065079",
+      "https://x.com/eualmeidazs/status/2070849534419206327",
+      "https://x.com/eualmeidazs/status/2070856808340554146",
+      "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
+      "https://x.com/eualmeidazs/status/2070844785624072493",
+      "https://x.com/eualmeidazs/status/2070845398495678935",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070683457257119930",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
+      "https://x.com/eualmeidazs/status/2070873357210230796",
+      "https://x.com/eualmeidazs/status/2070843539978682877",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070658849845952988",
-      "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
-      "https://x.com/eualmeidazs/status/2070646240006513129",
-      "https://x.com/eualmeidazs/status/2070676545337807190"
+      "https://x.com/eualmeidazs/status/2070883635863924844",
+      "https://pbs.twimg.com/media/HL1BnOIXgAA7Oto.png",
+      "https://x.com/eualmeidazs/status/2070873405071478812",
+      "https://x.com/eualmeidazs/status/2070883211865973011",
+      "https://x.com/eualmeidazs/status/2070867812826923496",
+      "https://x.com/eualmeidazs/status/2070870494971121905",
+      "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
     "2070652345562923299": [
       "https://x.com/richzou/status/2070652345562923299",
@@ -23026,8 +22965,12 @@
       "https://x.com/mitchellh/status/2070665127331037290",
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
-      "https://x.com/mitchellh/status/2070701789981331662",
+      "https://x.com/mitchellh/status/2070879168829751399",
+      "https://x.com/mitchellh/status/2070860507368792372",
       "https://x.com/mitchellh/status/2070699332718977465",
+      "https://x.com/mitchellh/status/2070701789981331662",
+      "https://x.com/mitchellh/status/2070868895041560965",
+      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070668728581365856",
       "https://x.com/mitchellh/status/2070281069631611056",
       "https://x.com/mitchellh/status/2070262735896772843",
@@ -23037,8 +22980,11 @@
     "2070735964788658598": [
       "https://x.com/zarazhangrui/status/2070735964788658598",
       "http://x.com/i/article/2070730492236947456"
+    ],
+    "2070844063561977909": [
+      "https://x.com/DavidOndrej1/status/2070844063561977909"
     ]
   },
-  "updated_at": "2026-06-27T12:18:52Z",
+  "updated_at": "2026-06-27T14:55:15Z",
   "window": "recent"
 }
