@@ -6534,6 +6534,32 @@
       "title": "The AI Layoff Trap — Interactive Simulator",
       "url": "https://ailayoffs.rajnandan.com/?ref=sidebar"
     },
+    "https://airesistlist.org/?ref=sidebar": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A living directory of ways communities resist AI harms—and build alternatives worth fighting for.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://airesistlist.org/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://airesistlist.org/images/og-preview.jpg",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fthe%20ai.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fresist%20list.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fhero-middle-image-1.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fhero-middle-image-2.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Ftree.png&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F903d6b328b3f7b3450f6074730b79a84931cac5e-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F50d07c09045f82471f8aeb8fc201ce8d4919dc71-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F0b291dfc11bc5a47228b4b934a01a0c8f1fd8cb6-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F8d5586fcf895a27fe108bfd43882af0f785af4de-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2Fc1135533c79f1f87cc463b53a97eff508c8b548b-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2Fe56762a689e042d795e3f8d98858a2da6d54c96f-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The AI Resist List",
+      "url": "https://airesistlist.org/?ref=sidebar"
+    },
     "https://aistudio.google.com/apps/bundled/ai_radio": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8300,6 +8326,20 @@
       "text_excerpt_zh": "",
       "title": "GitHub - analyticalrohit/llms-from-scratch: Build a ChatGPT like LLM from scratch in PyTorch, explained step by step. · GitHub",
       "url": "https://github.com/analyticalrohit/llms-from-scratch"
+    },
+    "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Type-safe, real-time backend framework on your own Cloudflare account — Workers, Durable Objects, D1, R2, Queues. Convex-style DX, Vite-first. - lunora/apps/playground at alpha · anolilab/lunora",
+      "final_url": "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/e7f69d8f24e59ad67a401913e0c0d69b9ae0bb1ef8d08f1c526d5ef7fc706392/anolilab/lunora"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "lunora/apps/playground at alpha · anolilab/lunora · GitHub",
+      "url": "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
     },
     "https://github.com/blader/arbitrage": {
       "content_type": "text/html; charset=utf-8",
@@ -10956,6 +10996,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg": {
       "cleaner_v": 2,
@@ -14484,6 +14538,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg"
+    },
+    "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
     },
     "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png": {
       "cleaner_v": 2,
@@ -22632,9 +22700,9 @@
     "2069797329809395978": [
       "https://x.com/ataiiam/status/2069797329809395978",
       "http://x.com/i/article/2069467654612455425",
+      "https://x.com/ataiiam/status/2069835886972252463",
       "https://x.com/ataiiam/status/2069835612551524582",
-      "https://x.com/ataiiam/status/2069835656977657993",
-      "https://x.com/ataiiam/status/2069835886972252463"
+      "https://x.com/ataiiam/status/2069835656977657993"
     ],
     "2069797770257670217": [
       "https://x.com/zerolangai/status/2069797770257670217",
@@ -22815,7 +22883,6 @@
       "https://x.com/AnatoliKopadze/status/2070156017262793008",
       "https://pbs.twimg.com/amplify_video_thumb/2070153243426955264/img/Jvx9IGqofjlJaM0Q.jpg",
       "https://x.com/AnatoliKopadze/status/2070173084431045068",
-      "https://x.com/AnatoliKopadze/status/2070156907625476441",
       "https://x.com/AnatoliKopadze/status/2070156820211986516",
       "https://x.com/AnatoliKopadze/status/2070165742117404976",
       "https://x.com/AnatoliKopadze/status/2070541643518775354",
@@ -23002,7 +23069,12 @@
       "https://x.com/_prisis_/status/2070414927446048872",
       "http://ctx.ai",
       "http://lunora.sh",
-      "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
+      "https://x.com/_prisis_/status/2070736034258678080",
+      "https://x.com/_prisis_/status/2070735001084101022",
+      "https://x.com/_prisis_/status/2070735123109056986",
+      "https://x.com/_prisis_/status/2070751830129160636",
+      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -23052,9 +23124,9 @@
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070597472863350948",
+      "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
     ],
     "2070541048527609885": [
       "https://x.com/mem0ai/status/2070541048527609885",
@@ -23064,9 +23136,9 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070597472863350948",
+      "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
@@ -23076,9 +23148,9 @@
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2069832686441537640",
-      "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLmF26TWYAAJy7M.jpg"
+      "https://x.com/SidebarIO/status/2070557459756814738",
+      "https://airesistlist.org/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
     ],
     "2070629226664153173": [
       "https://x.com/vasuman/status/2070629226664153173",
@@ -23090,23 +23162,27 @@
       "https://github.com/almeidazs/better-drizzle",
       "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg",
       "https://x.com/eualmeidazs/status/2070652682247843868",
+      "https://x.com/eualmeidazs/status/2070683457257119930",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2070676545337807190",
       "https://x.com/eualmeidazs/status/2070646240006513129",
       "https://x.com/eualmeidazs/status/2070658849845952988",
-      "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png"
+      "https://pbs.twimg.com/media/HLx1EiDX0AEzdkZ.png",
+      "https://x.com/eualmeidazs/status/2070676545337807190"
     ],
     "2070665127331037290": [
       "https://x.com/mitchellh/status/2070665127331037290",
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
-      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070701789981331662",
-      "https://x.com/mitchellh/status/2070668728581365856"
+      "https://x.com/mitchellh/status/2070699332718977465",
+      "https://x.com/mitchellh/status/2070668728581365856",
+      "https://x.com/mitchellh/status/2070281069631611056",
+      "https://x.com/mitchellh/status/2070262735896772843",
+      "https://x.com/mitchellh/status/2070273858154987537",
+      "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
     ]
   },
-  "updated_at": "2026-06-27T05:03:43Z",
+  "updated_at": "2026-06-27T08:06:25Z",
   "window": "recent"
 }
