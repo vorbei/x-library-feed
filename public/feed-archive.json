@@ -4182,6 +4182,22 @@
       "title": "",
       "url": "http://x.com/i/article/2059344894221799424"
     },
+    "http://x.com/i/article/2059601936723136512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059601936723136512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059601936723136512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJUtbrNWUAIn9Vk?format=jpg&name=900x900)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059602358070300674)\n\nHow to Find Business Ideas by Reading What People Already Want. AI Agent Does It Overnight. \n\n[![](https://pbs.twimg.com/profile_images/2055576554181189632/xdwM1Cbe_normal.jpg)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[damir akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[@Damir\\_Akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n·\n\n15h\n\nFollow\n\nClick to Follow Damir\\_Akaza\n\n12\n\n6\n\n82\n\n[2.8K](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/status/2059621796052193667/analytics)\n\n## \n\n$5 per run. The AI agent reads 1,500 of other people's needs overnight. By morning - a report with 10 validated business ideas. Save this :) Code inside.\n\nMost people invent business ideas like this: they sit, think, \"huh, would be cool to build X,\" build X, then nobody buys. Six months later they shut it down.But business ideas already exist. They're just not in your head. They're on Reddit, on forums, in the comments under your competitors' videos. Every day thousands of people post about their needs, wishes, and frustrations to anonymous strangers. Someone complains that tool Y is too expensive. Someone dreams \"if only Z existed.\" Someone describes a process that eats up three hours of their week - and nobody picked up on it. This is gold. But reading tens of thousands of posts manually is impossible.\n\nAn agent can. This article - how to build one, with working code. Where to point the agent (which niche, which audience) - that's on you. This is the core logic.\n\nWhat this agent actually does Four things:\n\n* Collects posts from forums you pick (Reddit, Hacker News, specialized boards - wherever)\n* Extracts specific needs, wishes, and problems from each post\n* Groups similar needs together (different people describe the same need in different words — without grouping you'd never see this)\n* Scores each group as a potential business opportunity: is this a real need, do people care enough, would they pay\n\nThe output - a report with the top 10 clusters. For each: the need in one line, how many people wrote about it, who it affects, whether similar solutions already exist, why they don't fully close the need, and a product direction that could win.\n\n[![Image](https://pbs.twimg.com/media/HJUxXi_WsAQ2uxu?format=jpg&name=small)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059606685191155716)\n\n## \n\nThe problem this solves\n\nSay you want to launch a small product or service. You need an idea - not from thin air, but one where demand already exists.\n\nThe usual ways to find an idea don't work:\n\n* \"Think harder\" - you're a product of your bubble, not the market\n* \"Ask your friends\" - friends aren't representative and will support you out of politeness\n* \"Look at what's trending\" - everyone's already fighting there and competition will crush you\n* \"Read venture reports\" - those describe what others already did, but you need what nobody's done yet\n\nWhat works: go where real people post about their real needs, wishes, and pains. That's forums where people hide behind nicknames and write honestly, without performance, because they want to vent or get advice.\n\nThe problem with this method: there are too many posts. Thousands a day in one large subreddit. Reading all of them - impossible. Reading selectively - you miss the patterns.\n\n## \n\nWhat you can point it at\n\nThis isn't a narrow tool. It works for almost anyone who needs information about what real people want.\n\nSolo dev looking for a SaaS idea. Points the agent at subreddits like r/Entrepreneur, r/SmallBusiness, r/freelance, r/Solopreneur. In the morning gets a list o",
+      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059601936723136512/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJUtbrNWUAIn9Vk?format=jpg&name=900x900)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059602358070300674)\n\n**如何通过阅读他人已有的需求来发现商业创意。AI Agent 一夜之间就能完成。**\n\n[![](https://pbs.twimg.com/profile_images/2055576554181189632/xdwM1Cbe_normal.jpg)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[damir akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n[@Damir\\_Akaza](http://x.com/i/article/2059601936723136512/Damir%5FAkaza)\n\n·\n\n15小时前\n\n关注\n\n点击关注 Damir\\_Akaza\n\n12\n\n6\n\n82\n\n[2.8K](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/status/2059621796052193667/analytics)\n\n## \n\n每次运行成本 5 美元。AI Agent 一夜之间读取 1500 条他人的需求。到早上——一份包含 10 个经过验证的商业创意的报告。收藏这个 :) 代码在里面。\n\n大多数人这样构思商业创意：他们坐下来，想，“嗯，建个 X 会很酷，”然后建了 X，结果没人买。六个月后关门大吉。但商业创意已经存在。它们只是不在你的脑子里。它们在 Reddit 上，在论坛里，在你竞争对手视频下的评论中。每天有成千上万的人向匿名陌生人发布他们的需求、愿望和挫败感。有人抱怨工具 Y 太贵。有人梦想“要是 Z 存在就好了”。有人描述一个每周耗费他们三个小时的工作流程——而没有人注意到。这是金矿。但手动阅读数万条帖子是不可能的。\n\nAgent 可以。这篇文章——如何构建一个，附带可运行的代码。把 Agent 指向哪里（哪个细分市场，哪个受众）——这取决于你。这是核心逻辑。\n\n**这个 Agent 实际做什么** 四件事：\n\n*   从你选择的论坛（Reddit、Hacker News、专业论坛——任何地方）收集帖子\n*   从每条帖子中提取具体的需求、愿望和问题\n*   将相似的需求分组（不同的人用不同的词描述相同的需求——不分组你永远看不到这一点）\n*   对每个组作为潜在商业机会进行评分：这是真实需求吗，人们足够关心吗，他们愿意付费吗\n\n输出——一份包含前 10 个需求集群的报告。每个集群包含：一行描述的需求，有多少人提到它，影响谁，是否已有类似解决方案，为什么它们没有完全满足需求，以及一个可能胜出的产品方向。\n\n[![图片](https://pbs.twimg.com/media/HJUxXi_WsAQ2uxu?format=jpg&name=small)](http://x.com/i/article/2059601936723136512/Damir%5FAkaza/article/2059621796052193667/media/2059606685191155716)\n\n## \n\n这解决的问题\n\n假设你想推出一个小产品或服务。你需要一个创意——不是凭空想象，而是需求已经存在的创意。\n\n通常寻找创意的方法行不通：\n\n*   “更努力地思考”——你是你信息茧房的产物，而不是市场的产物\n*   “问问你的朋友”——朋友不具有代表性，并且会出于礼貌支持你\n*   “看看什么在流行”——每个人都已经在那里竞争，竞争会压垮你\n*   “阅读风险投资报告”——那些描述的是别人已经做过的事，但你需要的是还没人做过的事\n\n有效的方法：去真实的人发布他们真实需求、愿望和痛苦的地方。那就是人们用昵称隐藏自己，诚实地写作，没有表演，因为他们想发泄或寻求建议的论坛。\n\n这种方法的问题：帖子太多了。在一个大型子版块里，每天有数千条。阅读所有帖子——不可能。有选择地阅读——你会错过模式。\n\n## \n\n你可以把它指向什么\n\n这不是一个狭窄的工具。它几乎适用于任何需要了解真实人们想要什么信息的人。\n\n寻找 SaaS 创意的独立开发者。将 Agent 指向像 r/Entrepreneur、r/SmallBusiness、r/freelance、r/Solopreneur 这样的子版块。早上起来得到一份列表",
+      "text_excerpt_zh_hash": "a9da6bb39ec8ad59",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2059601936723136512"
+    },
     "http://x.com/i/article/2059619783151374336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4245,6 +4261,38 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059652660022910976"
+    },
+    "http://x.com/i/article/2059732424905666560": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059732424905666560",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059732424905666560/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJWk1-xXsAMkynY?format=jpg&name=900x900)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059733651881963523)\n\nHow we rolled out Claude Code Auto Mode across our Engineering Team\n\n[![](https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_normal.jpg)](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n[Daniel San](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n[@dani\\_avila7](http://x.com/i/article/2059732424905666560/dani%5Favila7)\n\n·\n\n7h\n\nFollow\n\nClick to Follow dani\\_avila7\n\n1\n\n6\n\n51\n\n[9.6K](http://x.com/i/article/2059732424905666560/dani%5Favila7/status/2059746337697247334/analytics)\n\nAt Hedgineer we'd been testing Claude Code Auto Mode independently for a while. Each engineer configuring their own rules, their own overrides.\n\nAfter several iterations we centralized everything into a single managed-settings.json that pushes the policy to the entire team on startup.\n\nHere's what we shipped and what the data said.\n\n## \n\nDesigning the policy\n\nA good policy isn't a brainstorm. We designed ours from four inputs: infrastructure, projects, code patterns, and OpenTelemetry data.\n\nThe OTEL data was the most important. It told us exactly what the team was doing that the classifier didn't yet trust.\n\n[![Image](https://pbs.twimg.com/media/HJWuK3ZWYAEcOig?format=jpg&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059743906284068865)\n\nWe distributed the policy through server-managed settings. Admins push once, every developer gets it on next startup.\n\nThree CLI commands let anyone inspect what's active on their machine.\n\n[![Image](https://pbs.twimg.com/media/HJWuagiWcAA02JK?format=png&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059744175025713152)\n\n## \n\nWhat the telemetry said\n\nWe've been collecting OpenTelemetry data for months, navigating usage patterns between our team and Claude Code.\n\nThat let us measure the before vs. after clearly.\n\n* Auto-approval: 82% to 95%\n* Engineers stopped creating \"always allow\" rules, those dropped 89%\n* The classifier handled 21,000 more tool decisions without the team growing\n\n[![Image](https://pbs.twimg.com/media/HJWvZWhW8AQkht7?format=png&name=small)](http://x.com/i/article/2059732424905666560/dani%5Favila7/article/2059746337697247334/media/2059745254668955652)\n\nSettings without observability are guesses, observability without a policy to validate is noise, the interesting part is putting them in the same loop.\n\nFull writeup with the policy template and what we're changing next: \n\n<https://www.hedgineer.io/content/auto-mode-enterprise/>\n\n* [![](https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_normal.jpg)](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \n[Daniel San](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \n[@dani\\_avila7](http://x.com/i/article/2059732424905666560/dani%5Favila7)  \nFollow  \nClick to Follow dani\\_avila7  \nHead of AI at [http://hedgineer.io](https://t.co/3TemmA7EdE) | Building Claude Code SubAgents, Skills & Hooks | OSS project [http://aitmpl.com](https://t.co/pEjytZiAFd) | Powered by TS, Python & Vanilla Lattes ![☕️](https://abs.twimg.com/emoji/v2/svg/2615.svg)",
+      "text_excerpt_zh": "## 如何在工程团队中推广 Claude Code Auto Mode\n\n在 Hedgineer，我们团队独立测试 Claude Code Auto Mode 已有一段时间。每位工程师各自配置自己的规则和覆盖项。\n\n经过多次迭代，我们将所有配置集中到一个统一的 `managed-settings.json` 文件中，该文件在启动时将策略推送给整个团队。\n\n以下是我们的部署内容以及数据反馈。\n\n## 策略设计\n\n一个好的策略并非头脑风暴的产物。我们根据四个输入来设计策略：基础设施、项目、代码模式和 OpenTelemetry 数据。\n\n其中 OTEL 数据最为关键。它精确地告诉我们团队正在执行哪些分类器尚未信任的操作。\n\n我们通过服务器管理的设置来分发策略。管理员只需推送一次，每位开发者在下次启动时即可获取。\n\n三个 CLI 命令让任何人都能检查自己机器上当前激活的策略。\n\n## 遥测数据反馈\n\n我们已收集了数月的 OpenTelemetry 数据，以观察团队与 Claude Code 之间的使用模式。\n\n这让我们能够清晰地衡量实施前后的变化。\n\n- 自动批准率：从 82% 提升至 95%\n- 工程师不再创建“始终允许”规则，此类规则减少了 89%\n- 分类器在团队规模未扩大的情况下，额外处理了 21,000 个工具决策\n\n没有可观测性的设置只是猜测，没有策略验证的可观测性只是噪音，有趣的是将两者置于同一循环中。\n\n包含策略模板及下一步调整计划的完整文章：<https://www.hedgineer.io/content/auto-mode-enterprise/>",
+      "text_excerpt_zh_hash": "84c067f3f21b1000",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2059732424905666560"
+    },
+    "http://x.com/i/article/2059808126468243457": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2059808126468243457",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059808126468243457/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJX0JNjaUAA0ZDY?format=jpg&name=900x900)](http://x.com/i/article/2059808126468243457/calcsam/article/2059822738530005439/media/2059820843686055936)\n\nThe Rise of Multi-User, Multi-Channel Agents\n\n[![](https://pbs.twimg.com/profile_images/1609808333896310787/hwNl8YrT_normal.jpg)](http://x.com/i/article/2059808126468243457/calcsam)\n\n[Sam Bhagwat![](https://pbs.twimg.com/profile_images/2010770369897271296/o4rz23Gd_bigger.jpg)](http://x.com/i/article/2059808126468243457/calcsam)\n\n[@calcsam](http://x.com/i/article/2059808126468243457/calcsam)\n\n·\n\n2h\n\nFollow\n\nClick to Follow calcsam\n\n1\n\n6\n\n30\n\n[2.7K](http://x.com/i/article/2059808126468243457/calcsam/status/2059822738530005439/analytics)\n\nAn agent in 2025 was single-player: it lived in a browser, your local CLI or code editor.\n\nAgents today are multi-player: built for Slack, Discord, etc. \n\nAgents are evolving from assistants into coworkers. \n\nSo: what changes when an agent stops talking to one user 1:1 in web chat and starts talking to a room full of users, all of whom can type at once?\n\nIt turns out, a lot. \n\nWe recently shipped channels — a new option on Mastra agents that connects them directly to platforms like Slack, Discord, and Telegram.\n\nAlong the way, we touched concurrency, attribution, permissions, memory scoping, tool approval, sandbox isolation. Every layer of the stack needed a re-think for the multi-user case.\n\nWe'll walk through Slack as the example here, but each Slack-specific detail has an analog on Discord, Telegram, and the other supported platforms.\n\n## \n\nGetting started: connecting your agents to Slack\n\nOn the surface, the Mastra API you use to create an agent that can read/write from Slack is simple.\n\ntypescript\n\n```typescript\nconst agent = new Agent({\n  name: 'helper',\n  model: 'openai/gpt-5-mini',\n  channels: {\n    adapters: {\n      slack: slackAdapter,\n    },\n  },\n});\n```\n\nUnder the hood, there’s a lot.\n\nWe started with Vercel's chat SDK adapters, primarily because they normalize data shape coming from each source and provides a unified set of handlers: onDirectMessage, onNewMention, onSubscribedMessage, onAction for button clicks and onReaction for emoji.\n\nWhile the chat SDK handles parsing and messaging messaging shares, Mastra owns everything that gets you a working botToken and keeps you there. Again, for Slack (with equivalents on other platforms):\n\n* OAuth + programmatic app creation. SlackManifestClient calls Slack's Apps Configuration API (refresh-token-based) to create the app, set scopes, and register event subscriptions.\n* Request signature verification. HMAC-SHA256 with a 5-minute replay window, run before events reach the adapter.\n* Webhook routes. /slack/events/:webhookId, /slack/oauth/callback, /slack/connect, etc— surfaced via provider.getRoutes() and merged into Mastra's apiRoutes.\n* Credential storage + encryption. ChannelInstallation records in ChannelsStorage. AES + HKDF. Every credential is encrypted at rest.\n* Token rotation. Slack rotates config tokens; onTokenRotation fires; Mastra re-encrypts and re-persists.\n* Multi-tenant adapter lifecycle. SlackProvider keeps a Map<installationId, SlackAdapter>, restoring and re-registering on startup via \\_\\_registerAdapter(..., { managesRoutes: true }).\n\nFor what it’s worth, the wire protocol is uniform across platforms; but their auth model is wildly different. Slack uses HMAC + manifest API. Discord uses interactions endpoints. Telegram uses long-polling. Teams uses OAuth + bot framework.\n\n## \n\nManaging perms / memory\n\nAgents in your CLI are single-tenant. Agents in your Slack are multi-tenant.\n\nThe same agent is now talking to multiple users in DMs, channels, and threads concurrently — different identities, different access boundaries, different conversation histories. We have a two-tiered approach:\n\nThreads",
+      "text_excerpt_zh": "## 多用户、多频道智能体的崛起\n\n2025年的智能体是单人模式：它存在于浏览器、本地CLI或代码编辑器中。\n\n如今的智能体是多人模式：为Slack、Discord等平台构建。\n\n智能体正在从助手演变为同事。\n\n那么，当一个智能体不再与单个用户在网页聊天中一对一对话，而是开始与满屋子的用户对话——所有人都可以同时输入——会发生什么变化？\n\n事实证明，变化很大。\n\n我们最近推出了频道功能——Mastra智能体的一个新选项，可以直接连接到Slack、Discord和Telegram等平台。\n\n在这个过程中，我们涉及了并发、归属、权限、内存作用域、工具审批、沙箱隔离。每一层堆栈都需要为多用户场景重新思考。\n\n这里我们以Slack为例，但每个Slack特有的细节在Discord、Telegram和其他支持的平台上都有对应的实现。\n\n## 入门：将智能体连接到Slack\n\n从表面上看，Mastra API创建可读写Slack的智能体很简单。\n\n```typescript\nconst agent = new Agent({\n  name: 'helper',\n  model: 'openai/gpt-5-mini',\n  channels: {\n    adapters: {\n      slack: slackAdapter,\n    },\n  },\n});\n```\n\n在底层，有很多工作。\n\n我们从Vercel的聊天SDK适配器开始，主要是因为它能规范化来自每个源的数据形状，并提供统一的事件处理器：onDirectMessage、onNewMention、onSubscribedMessage、用于按钮点击的onAction和用于表情符号的onReaction。\n\n虽然聊天SDK处理解析和消息共享，但Mastra负责所有让你获得可用botToken并保持其运行的工作。同样，对于Slack（其他平台有对应的实现）：\n\n* OAuth + 程序化应用创建。SlackManifestClient调用Slack的Apps Configuration API（基于刷新令牌）来创建应用、设置作用域和注册事件订阅。\n* 请求签名验证。HMAC-SHA256，5分钟重放窗口，在事件到达适配器之前运行。\n* Webhook路由。/slack/events/:webhookId、/slack/oauth/callback、/slack/connect等——通过provider.getRoutes()暴露并合并到Mastra的apiRoutes中。\n* 凭证存储 + 加密。ChannelsStorage中的ChannelInstallation记录。AES + HKDF。每个凭证在静态时都经过加密。\n* 令牌轮换。Slack轮换配置令牌；触发onTokenRotation；Mastra重新加密并重新持久化。\n* 多租户适配器生命周期。SlackProvider维护一个Map<installationId, SlackAdapter>，在启动时通过__registerAdapter(..., { managesRoutes: true })恢复并重新注册。\n\n值得一提的是，各平台的线路协议是统一的；但它们的认证模型差异很大。Slack使用HMAC + manifest API。Discord使用交互端点。Telegram使用长轮询。Teams使用OAuth + bot框架。\n\n## 管理权限/内存\n\nCLI中的智能体是单租户的。Slack中的智能体是多租户的。\n\n同一个智能体现在与多个用户在私信、频道和线程中同时对话——不同的身份、不同的访问边界、不同的对话历史。我们采用了两层方法：\n\n线程",
+      "text_excerpt_zh_hash": "c15a8682199fb12e",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2059808126468243457"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -16973,6 +17021,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2059561506417885184/img/pNxLYbQ48rz4Y69n.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -28001,6 +28077,19 @@
       "title": "- YouTube",
       "url": "https://www.youtube.com/watch?v=CEvIs9y1uog"
     },
+    "https://www.youtube.com/watch?v=CwePo4847ho": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=CwePo4847ho",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=CwePo4847ho"
+    },
     "https://www.youtube.com/watch?v=SlGRN8jh2RI": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -38661,6 +38750,22 @@
       "https://x.com/0xJeff/status/2059621018633977908",
       "http://x.com/i/article/2059619783151374336"
     ],
+    "2059621796052193667": [
+      "https://x.com/Damir_Akaza/status/2059621796052193667",
+      "http://x.com/i/article/2059601936723136512",
+      "https://x.com/Damir_Akaza/status/2059624330590392344",
+      "https://x.com/Damir_Akaza/status/2059624163644440948",
+      "https://x.com/Damir_Akaza/status/2059633425586299135",
+      "https://x.com/Damir_Akaza/status/2059627907320877145",
+      "https://x.com/Damir_Akaza/status/2059624938718335322",
+      "https://x.com/Damir_Akaza/status/2059626475993649232",
+      "https://x.com/Damir_Akaza/status/2059625059463884936",
+      "https://x.com/Damir_Akaza/status/2059624623306661996",
+      "https://x.com/Damir_Akaza/status/2059745850750812347",
+      "https://x.com/Damir_Akaza/status/2059641653506241020",
+      "https://x.com/Damir_Akaza/status/2059694034394685537",
+      "https://x.com/Damir_Akaza/status/2059647769132884182"
+    ],
     "2059647271864619029": [
       "https://x.com/martinfowler/status/2059647271864619029",
       "https://martinfowler.com/articles/vibesec-reckoning.html"
@@ -38681,6 +38786,12 @@
     ],
     "2059669384268755295": [
       "https://x.com/Voxyz_ai/status/2059669384268755295"
+    ],
+    "2059673247080394901": [
+      "https://x.com/rohit4verse/status/2059673247080394901",
+      "https://pbs.twimg.com/amplify_video_thumb/2059672844704092164/img/KsSxmOYYVnVmpf_8.jpg",
+      "https://x.com/rohit4verse/status/2059673379070955711",
+      "https://www.youtube.com/watch?v=CwePo4847ho"
     ],
     "2059675518966894767": [
       "https://x.com/IBuzovskyi/status/2059675518966894767",
@@ -38708,11 +38819,37 @@
       "https://x.com/martinfowler/status/2059722824151949603",
       "https://martinfowler.com/fragments/2026-05-27.html"
     ],
+    "2059746337697247334": [
+      "https://x.com/dani_avila7/status/2059746337697247334",
+      "http://x.com/i/article/2059732424905666560"
+    ],
     "2059753008297394245": [
       "https://x.com/kylejeong/status/2059753008297394245",
       "https://x.com/kylejeong/status/2059814400442446282"
+    ],
+    "2059776916484206755": [
+      "https://x.com/Zephyr_hg/status/2059776916484206755",
+      "https://pbs.twimg.com/amplify_video_thumb/2059656262225104902/img/yFXecXbbwkpVcMvN.jpg"
+    ],
+    "2059799775143424311": [
+      "https://x.com/iamai_omni/status/2059799775143424311",
+      "https://blog.janestreet.com/using-group-theory-to-explore-positional-encodings-attention/"
+    ],
+    "2059821390728204594": [
+      "https://x.com/soleio/status/2059821390728204594",
+      "https://x.com/soleio/status/2051074549396144416?s=20",
+      "https://x.com/soleio/status/2060142044283281519"
+    ],
+    "2059822738530005439": [
+      "https://x.com/calcsam/status/2059822738530005439",
+      "http://x.com/i/article/2059808126468243457",
+      "https://x.com/calcsam/status/2060028613781762500",
+      "https://x.com/calcsam/status/2060027332124152205",
+      "https://x.com/calcsam/status/2060071391815422007",
+      "https://x.com/calcsam/status/2059854175966797870",
+      "https://x.com/calcsam/status/2060027654380884320"
     ]
   },
-  "updated_at": "2026-06-27T00:20:23Z",
+  "updated_at": "2026-06-27T05:03:43Z",
   "window": "archive"
 }
