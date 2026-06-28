@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 331,
+      "count": 332,
       "name": "Articles"
     },
     {
@@ -38,8 +38,54 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2401,
+  "item_count": 2402,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!hqCG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5378825-3d4d-4b23-988d-c5300198963c_1024x1024.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!bGLP!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchinatalk.substack.com%2Fapi%2Fv1%2Fpost_preview%2F196186465%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!4sJq!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ffd4708-45d9-47a8-b139-460e1d0a5029_416x416.png",
+        "https://substackcdn.com/image/fetch/$s_!hqCG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5378825-3d4d-4b23-988d-c5300198963c_1024x1024.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!vCde!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76c7be0b-f286-4b83-a50f-afba15e1ae22_742x764.png",
+        "https://substackcdn.com/image/fetch/$s_!_Bwe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3625c36a-42ec-4728-bc30-b2e5ce18855e_1000x178.png",
+        "https://substackcdn.com/image/fetch/$s_!2b1Z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ae6d85a-cb3f-4ac7-9fa8-a2728fa284f8_875x1520.png",
+        "https://substackcdn.com/image/fetch/$s_!oLEu!,w_52,h_52,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a95b9b0-410e-4bdf-9074-2574b7b93de4_662x662.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png",
+        "https://substackcdn.com/image/fetch/$s_!R0Cj!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F909c5841-d4d0-47d2-b287-5834a14b654d_504x504.png",
+        "https://substackcdn.com/image/fetch/$s_!gupy!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdad13b2b-20b2-44e0-a84d-732f3be8bee7_4128x4128.jpeg"
+      ],
+      "article_text": "How to Buy Cheap Claude Tokens in China\nThe Transfer Station Economy, Explained\n[Zilan Qian](https://open.substack.com/users/288758452-zilan-qian?utm_source=mentions) is a research associate at the Oxford China Policy Lab and holds a Master’s degree in Social Science of the Internet from the University of Oxford.\nOn April 23, 2026, the White House [released](https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf) a memo warning that Chinese entities were running “industrial-scale” distillation campaigns against American frontier AI models, leveraging “tens of thousands of proxy accounts” to evade detection. In February 2026, Anthropic similarly [reported](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) on Chinese labs’ coordinated distillation attacks using “a single proxy network managed more than 20,000 fraudulent accounts”. Both cases see “proxy” — the middlemen between model users and model providers — as a purposeful design by a selective Chinese frontier labs to systematically extract US AI models.\nRegardless of whether Chinese labs [rely](https://www.interconnects.ai/p/how-much-does-distillation-really) on distillation to “catch up”, both documents misread the proxy economy they’re describing. Underneath the handful of labs sits a much larger market, one that has been operating in public on GitHub, Taobao, Twitter, and Telegram. It is a grey economy of API proxies (commonly called “transfer stations,” 中转站) that lets Chinese developers access Anthropic’s models at as low as 10% of the official price. The participants extend far beyond selective experienced AI researchers, and the motivations are much broader than building a frontier model to catch up. Everyone who wants to use more advanced AI models or tools, be they university professors and students, tech workers, individual developers, or hobbyists, uses API proxies.[1](https://www.chinatalk.media#footnote-1) The logs they generate may have become a commodity, traded for purposes ranging from model training to targeted fraud.\nMeanwhile, every layer of control frontier US AI companies have added (geoblocking, phone verification, credit card requirements, and now live biometric KYC checks) has produced a corresponding layer of evasion infrastructure. These new SMS farms and biometric harvesting operations have implications that extend beyond geopolitics into how frontier AI safety frameworks are designed.\nBuilding on my [2025 ChinaTalk piece](https://www.chinatalk.media/p/the-grey-market-for-american-llms) on accessing banned American models in China, this update zooms in on the transfer station economy specifically: how it is structured, how it monetizes, and what it reveals about the limits of access blocking and account monitoring as AI governance tools. Unlike 2025’s grey market, however, the 2026 story does not stop at the border between Chinese users and American AI model providers. The transfer station economy exposes blind spots in AI safety frameworks designed to prevent harms that extend beyond the US-China rivalry, from misuse by malicious actors to the erosion of provider traceability, while feeding into criminal markets that exploit ordinary people — many already disadvantaged — caught in the supply chain.\nTo illustrate how a transfer station works, let’s take Anthropic, the company with the most rigorous geo-blocking mechanism, and whose models are [very popular](https://recodechinaai.substack.com/p/forget-openai-chinas-ai-labs-are) among Chinese developers, as an example.\nGeo-blocking and Know-Your-Customer (KYC)\nOn the map of Anthropic’s supported countries, China is conspicuously absent, and on the Chinese internet, so is Anthropic – technically speaking. In reality, neither Anthropic’s blockage nor the Great Firewall stops Chinese users from accessing Claude and Claude Code. Claude models [have thrived](https://www.chinatalk.media/p/the-grey-market-for-american-llms) on e-commerce apps like Taobao despite supposed p",
+      "article_title_extracted": "How to Buy Cheap Claude Tokens in China - by Zilan Qian",
+      "category": "Articles",
+      "cleaner_v": 2,
+      "created_at": "2026-06-28T03:57:19.706973Z",
+      "description": "The Transfer Station Economy, Explained",
+      "domain": "www.chinatalk.media",
+      "embed_type": "",
+      "id": "k17df9zwc61zwkaccxkcd8tdfd89hg9t",
+      "og_image_url": "https://substackcdn.com/image/fetch/$s_!hqCG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5378825-3d4d-4b23-988d-c5300198963c_1024x1024.jpeg",
+      "recommended_at": "2026-06-28T03:57:26.078000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "ai-infrastructure",
+        "llm-api",
+        "china-tech"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-28T03:57:26.078000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "How to Buy Cheap Claude Tokens in China - by Zilan Qian",
+      "url": "https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in",
+      "x_status_id": null
+    },
     {
       "article_extraction": "trafilatura",
       "article_fetch_attempted_at": "2026-06-27T17:43:17.514015Z",
@@ -106970,7 +107016,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2242,
+      "count": 2243,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -107006,5 +107052,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-27T21:42:21.200009Z"
+  "updated_at": "2026-06-28T05:07:15.753775Z"
 }
