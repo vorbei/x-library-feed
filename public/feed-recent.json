@@ -546,6 +546,28 @@
       "title": "",
       "url": "http://heyform.net"
     },
+    "http://infrasuite.io": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enterprise Microsoft mailboxes built for cold email deliverability. Managed DNS, 98.5%+ inbox rates, and 24-hour fulfillment for agencies, outbound teams, and operators.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://infrasuite.io/",
+      "frameable": false,
+      "image_urls": [
+        "https://infrasuite.io/InfraSuite2.png",
+        "https://infrasuite.io/InfraSuiteLogo2.svg?dpl=dpl_8ZTQZ7RMzGHtttyqyzGyoH7roFCg",
+        "https://infrasuite.io/sequencers/instantly_logo.jpeg",
+        "https://infrasuite.io/sequencers/4dfcaa31-9367-48dc-8898-9bafd30d290fSL.jpg",
+        "https://infrasuite.io/sequencers/e0f843f1-094a-4e48-ac9d-d7bdea190d2bEB.jpg",
+        "https://infrasuite.io/sequencers/aec593a5-249c-4d7c-86b3-f636935d288ePV.jpg",
+        "https://infrasuite.io/sequencers/OIP-1040365092.png",
+        "https://infrasuite.io/sequencers/google-svgrepo-com.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "InfraSuite | Cold Email Mailboxes for Outbound Operators",
+      "url": "http://infrasuite.io"
+    },
     "http://loops.elorm.xyz": {
       "content_type": "text/html; charset=utf-8",
       "description": "Copy closed-loop workflows for Cursor, Claude Code, and other coding agents. Self-pacing loops with feedback gates until the job is done.",
@@ -5303,6 +5325,19 @@
       "title": "",
       "url": "http://x.com/i/article/2068806024820322304"
     },
+    "http://x.com/i/article/2068829358039445504": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2068829358039445504",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL15NleWMAAca85?format=jpg&name=900x900)](http://x.com/cyrilXBT/article/2071034792288686588/media/2070944677964951552)\n\nThe Hermes + Obsidian + Claude Code Trinity: The Full System for Running a One Person Company \n\n[![](https://pbs.twimg.com/profile_images/2035229727414534145/aWap3Jbq_normal.jpg)](http://x.com/cyrilXBT)\n\n[CyrilXBT](http://x.com/cyrilXBT)\n\n[@cyrilXBT](http://x.com/cyrilXBT)\n\n·\n\n14h\n\nFollow\n\nClick to Follow cyrilXBT\n\n29\n\n83\n\n435\n\n[61K](http://x.com/cyrilXBT/status/2071034792288686588/analytics)\n\nThere is a specific moment that tells you whether someone is running a real one person company or just using a lot of apps.\n\nIt is the moment they get asked a question about their own business and they have to go dig for the answer. Check three different tools. Scroll back through old messages. Try to remember which note they wrote that idea down in.\n\nA real system does not make you dig. It already knows.\n\nThis article is about the three tools that, stacked together correctly, remove the digging entirely. Obsidian holds everything you have ever thought, decided, or captured. Claude Code reads that vault and turns it into something you can actually talk to. Hermes Agent runs continuously in the background, gets better at its own job over time, and lives wherever you already are instead of demanding you open a new tab to use it.\n\nIndividually, each of these is a good tool. Stacked correctly, they become something closer to a company you run by yourself, with most of the operational weight carried by systems instead of willpower.\n\nHere is the honest version of why this matters now and not two years ago. Earlier AI tools could each do one piece of this in isolation. A note app with AI search. A chatbot you could paste context into manually. A simple automation that ran the same script every day regardless of what actually happened. None of those pieces talked to each other, and none of them got better at their job over time. What changed is that Claude Code can now hold and act on an entire vault's worth of context reliably, and agent frameworks like Hermes Agent can run unattended for real stretches of time while actually learning from what they did. The connective tissue between memory, processing, and action finally got strong enough to build a real system on top of it, not just a collection of clever individual tools.\n\n## \n\nThe Problem With Running Solo\n\nEvery solo operator eventually hits the same wall. You are the founder, the marketer, the support team, the bookkeeper, and the person who has to remember everything, all at once. There is no second brain in the building except the one in your skull, and that one forgets things, gets tired, and cannot work while you sleep.\n\nMost people respond to this by buying more tools. A project manager here, a note app there, a separate AI subscription for writing, another one for research. Now you have five places where knowledge about your own business lives, none of which talk to each other, and you have added a sixth job: remembering which tool has the thing you need.\n\nThe Trinity approach inverts this. Instead of more tools that each hold a slice of your business, you build one connected system where knowledge accumulates in a single place, gets processed by an agent that understands context, and gets acted on by a second agent that runs even when you are not looking at a screen.\n\n## \n\nLayer One: Obsidian as the Memory\n\nObsidian is the foundation, and its job is simple. Hold everything.\n\nEvery source you consume, every decision you make, every idea you have half formed in the shower, goes into the vault. Not organized perfectly. Not filed into the right folder immediately. Just captured, because captured beats perfect every time.\n\nThe structure that actually works in practice is deliberately minimal. A raw folder for anythi",
+      "title": "",
+      "url": "http://x.com/i/article/2068829358039445504"
+    },
     "http://x.com/i/article/2068874313608871936": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -6437,6 +6472,32 @@
       "title": "The AI Layoff Trap — Interactive Simulator",
       "url": "https://ailayoffs.rajnandan.com/?ref=sidebar"
     },
+    "https://airesistlist.org/?ref=sidebar": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "A living directory of ways communities resist AI harms—and build alternatives worth fighting for.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://airesistlist.org/?ref=sidebar",
+      "frameable": null,
+      "image_urls": [
+        "https://airesistlist.org/images/og-preview.jpg",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fthe%20ai.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fresist%20list.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fhero-middle-image-1.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Fhero-middle-image-2.png&w=3840&q=75",
+        "https://airesistlist.org/_next/image?url=%2Fimages%2Ftree.png&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F903d6b328b3f7b3450f6074730b79a84931cac5e-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F50d07c09045f82471f8aeb8fc201ce8d4919dc71-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F0b291dfc11bc5a47228b4b934a01a0c8f1fd8cb6-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2F8d5586fcf895a27fe108bfd43882af0f785af4de-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2Fc1135533c79f1f87cc463b53a97eff508c8b548b-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75",
+        "https://airesistlist.org/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ys4f1hf%2Fproduction%2Fe56762a689e042d795e3f8d98858a2da6d54c96f-506x494.png%3Fw%3D900%26q%3D85%26auto%3Dformat&w=1920&q=75"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The AI Resist List",
+      "url": "https://airesistlist.org/?ref=sidebar"
+    },
     "https://aistudio.google.com/apps/bundled/ai_radio": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7424,32 +7485,6 @@
       "title": "How the Open Knowledge Format can improve data sharing | Google Cloud Blog",
       "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
     },
-    "https://cme296.stanford.edu/syllabus/": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "Here, you will find slides and recordings of class lectures, along with suggested readings.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://cme296.stanford.edu/syllabus/",
-      "frameable": false,
-      "image_urls": [
-        "https://cme296.stanford.edu/doks-theme/assets/images/layout/logo.png?ca9598a67330bee10ff699bfb2078d7d",
-        "https://cme296.stanford.edu/lecture-1.jpg?433af36b0b7d1dc162227c14eccb6190",
-        "https://cme296.stanford.edu/lecture-2.jpg?e2775283d4c39fd9cc2db4dea356d2f9",
-        "https://cme296.stanford.edu/lecture-3.jpg?cbefc8cfb7001882ef81b5cdbe759fc0",
-        "https://cme296.stanford.edu/lecture-4.jpg?535fa22444f2d9085588c28e3800c5df",
-        "https://cme296.stanford.edu/lecture-5.jpg?8b1516b3db3949b06bece001a08800c0",
-        "https://cme296.stanford.edu/lecture-6.jpg?121a26175f325cea8a021a2a43850432",
-        "https://cme296.stanford.edu/lecture-7.jpg?a66858e2f5cdf4862b5995d9ca2d0062",
-        "https://cme296.stanford.edu/lecture-8.jpg?65d8f51ae4e17eb273431e73ec0035e4"
-      ],
-      "kind": "article",
-      "text_excerpt": "| Date | Topics | Video from [playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu) | \n|---|---|---|\n| April 3rd, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture1.pdf)] Lecture 1: Diffusion• Background on vision • Motivation behind diffusion • Diffusion in DDPM • Training derivation, ELBO • Inference • Faster sampling with DDIM | 1:46:26 | \n| April 10th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture2.pdf)] Lecture 2: Score matching• Motivation behind score matching • Score estimation • Denoising score matching • SDE formulation • Training, inference • Probability flows • Parallel with diffusion | 1:48:48 | \n| April 17th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture3.pdf)] Lecture 3: Flow matching• Motivation behind flows • History on flows • Conditional flow matching • Training, inference • Rectified flow • Parallel with diffusion and score matching | 1:47:34 | \n| April 24th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture4.pdf)] Lecture 4: Latent space and guidance• Variational autoencoders • Latent diffusion models • Text representation • Image representation • Contrastive learning, CLIP, SigLIP • Guidance (classifier-based, classifier-free) | 1:40:58 | \n| May 1st, 2026 | Midterm [ [exam](https://cme296.stanford.edu/exams/midterm.pdf)] [[solutions](https://cme296.stanford.edu/exams/midterm-solutions.pdf)] | |\n| May 8th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture5.pdf)] Lecture 5: Image generation architectures• Convolutions • U-Net • Attention mechanism • Diffusion Transformers • Multimodal DiT • Optimizations | 1:46:26 | \n| May 15th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture6.pdf)] Lecture 6: Model training• Training lifecycle • Pretraining, curriculum learning • Continued training, supervised finetuning • Preference tuning with Flow-GRPO, Diffusion-DPO • Tuning with DreamBooth, LoRA • Distillation | 1:40:58 | \n| May 22nd, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture7.pdf)] Lecture 7: Evaluation• Human ratings (pointwise, pairwise) • Elo rating system • Reference-free metrics (FID, CLIPScore, PickScore) • Reference-based metrics (MSE, PSNR, SSIM, LPIPS) • Multimodal LLMs • MLLM-as-a-Judge | 1:41:12 | \n| May 29th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture8.pdf)] Lecture 8: Trending topics• Class recap • State-of-the-art models • Extension from image to video • Alternatives to generation • Parallel with the text world • Conclusion | 1:49:34 | \n| June 8th, 2026 | Final [ [exam](https://cme296.stanford.edu/exams/final.pdf)] [[solutions](https://cme296.stanford.edu/exams/final-solutions.pdf)] | |",
-      "text_excerpt_zh": "| 日期 | 主题 | 视频（来自[播放列表](https://www.youtube.com/playlist?list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu)） |\n|---|---|---|---|\n| 2026年4月3日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture1.pdf)] 第一讲：扩散模型• 视觉背景 • 扩散模型的动机 • DDPM中的扩散 • 训练推导，ELBO • 推理 • 使用DDIM加速采样 | 1:46:26 |\n| 2026年4月10日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture2.pdf)] 第二讲：分数匹配• 分数匹配的动机 • 分数估计 • 去噪分数匹配 • SDE形式化 • 训练、推理 • 概率流 • 与扩散模型的并行关系 | 1:48:48 |\n| 2026年4月17日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture3.pdf)] 第三讲：流匹配• 流的动机 • 流的历史 • 条件流匹配 • 训练、推理 • 整流流 • 与扩散模型和分数匹配的并行关系 | 1:47:34 |\n| 2026年4月24日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture4.pdf)] 第四讲：潜空间与引导• 变分自编码器 • 潜扩散模型 • 文本表示 • 图像表示 • 对比学习，CLIP，SigLIP • 引导（基于分类器、无分类器） | 1:40:58 |\n| 2026年5月1日 | 期中考试 [ [试卷](https://cme296.stanford.edu/exams/midterm.pdf)] [[答案](https://cme296.stanford.edu/exams/midterm-solutions.pdf)] | |\n| 2026年5月8日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture5.pdf)] 第五讲：图像生成架构• 卷积 • U-Net • 注意力机制 • 扩散Transformer • 多模态DiT • 优化 | 1:46:26 |\n| 2026年5月15日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture6.pdf)] 第六讲：模型训练• 训练生命周期 • 预训练、课程学习 • 持续训练、有监督微调 • 使用Flow-GRPO、Diffusion-DPO进行偏好调优 • 使用DreamBooth、LoRA进行调优 • 蒸馏 | 1:40:58 |\n| 2026年5月22日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture7.pdf)] 第七讲：评估• 人工评分（逐点、成对） • Elo评分系统 • 无参考指标（FID、CLIPScore、PickScore） • 基于参考的指标（MSE、PSNR、SSIM、LPIPS） • 多模态大语言模型 • MLLM-as-a-Judge | 1:41:12 |\n| 2026年5月29日 | [ [讲义](https://cme296.stanford.edu/slides/spring26-cme296-lecture8.pdf)] 第八讲：热门话题• 课程回顾 • 最新模型 • 从图像扩展到视频 • 生成模型的替代方案 • 与文本领域的并行关系 • 总结 | 1:49:34 |\n| 2026年6月8日 | 期末考试 [ [试卷](https://cme296.stanford.edu/exams/final.pdf)] [[答案](https://cme296.stanford.edu/exams/final-solutions.pdf)] | |",
-      "text_excerpt_zh_hash": "9841a2f37fa5e911",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Syllabus",
-      "url": "https://cme296.stanford.edu/syllabus/"
-    },
     "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7657,20 +7692,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
-    },
-    "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf": {
-      "cf_fallback_error": "empty result",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "fetch_error": "<urlopen error timed out>",
-      "final_url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
-      "frameable": null,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -13405,6 +13426,34 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
+    "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg"
+    },
+    "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png"
+    },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14384,6 +14433,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg"
+    },
+    "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
     },
     "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg": {
       "cleaner_v": 2,
@@ -17320,19 +17383,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
-    },
-    "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9"
     },
     "https://x.getstanley.ai/r/pas": {
       "cleaner_v": 2,
@@ -22553,8 +22603,8 @@
       "https://x.com/_prisis_/status/2070751830129160636",
       "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
       "https://x.com/_prisis_/status/2070735001084101022",
-      "https://x.com/_prisis_/status/2070736034258678080",
-      "https://x.com/_prisis_/status/2070735123109056986"
+      "https://x.com/_prisis_/status/2070735123109056986",
+      "https://x.com/_prisis_/status/2070736034258678080"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22610,9 +22660,9 @@
       "https://x.com/SidebarIO/status/2070502852414288328",
       "https://gerireid.com/blog/organising-documentation-for-humans-and-ai/?ref=sidebar",
       "https://pbs.twimg.com/media/HLvnXxqWUAAwhwz.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2070597472863350948",
+      "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
     ],
     "2070532689392980369": [
       "https://x.com/nikunj/status/2070532689392980369",
@@ -22628,9 +22678,9 @@
       "https://x.com/SidebarIO/status/2070547899495178317",
       "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/?ref=sidebar",
       "https://pbs.twimg.com/media/HLwQV2TXoAAQOa_.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2070597472863350948",
+      "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+      "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg"
     ],
     "2070571422913876182": [
       "https://x.com/RLanceMartin/status/2070571422913876182",
@@ -22645,9 +22695,9 @@
       "https://x.com/SidebarIO/status/2070597472863350948",
       "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
       "https://pbs.twimg.com/media/HLw9baEWIAA6PCy.jpg",
-      "https://x.com/SidebarIO/status/2070140467564454023",
-      "https://www.figma.com/blog/config-2026-recap/?ref=sidebar",
-      "https://pbs.twimg.com/media/HLqdyJeXkAAbzUv.jpg"
+      "https://x.com/SidebarIO/status/2070557459756814738",
+      "https://airesistlist.org/?ref=sidebar",
+      "https://pbs.twimg.com/media/HLwZCVQWQAAeTqB.jpg"
     ],
     "2070615836528963689": [
       "https://x.com/ericosiu/status/2070615836528963689",
@@ -22660,27 +22710,24 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2071129032427814920",
-      "https://x.com/waterloo_intern/status/2071127571874615407",
-      "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
-      "https://cme296.stanford.edu/syllabus/",
-      "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
-      "https://x.com/waterloo_intern/status/2070675743198384634",
       "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2071125264772542785",
+      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070649884731167018",
       "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2071129032427814920",
       "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070937069732675616",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070675743198384634",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2071125264772542785",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
       "https://x.com/waterloo_intern/status/2070936986509299914",
       "https://x.com/waterloo_intern/status/2071127868462264776",
-      "https://x.com/waterloo_intern/status/2070653300152943067",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
-      "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070650605002203176",
       "https://x.com/waterloo_intern/status/2070937115958092271",
-      "https://x.com/waterloo_intern/status/2070675913315057722",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070682937541226871"
+      "https://x.com/waterloo_intern/status/2070654226959835199"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22696,16 +22743,16 @@
       "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
       "https://x.com/eualmeidazs/status/2070905988832497723",
       "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2071031777267773861",
       "https://x.com/eualmeidazs/status/2070845398495678935",
+      "https://x.com/eualmeidazs/status/2071031777267773861",
       "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
+      "https://x.com/eualmeidazs/status/2070873357210230796",
       "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070869714088190279",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
-      "https://x.com/eualmeidazs/status/2070873357210230796",
-      "https://x.com/eualmeidazs/status/2070873405071478812"
+      "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
     "2070652345562923299": [
       "https://x.com/richzou/status/2070652345562923299",
@@ -22726,13 +22773,13 @@
     ],
     "2070690243880116242": [
       "https://x.com/cyrilXBT/status/2070690243880116242",
-      "http://x.com/i/article/2070681279079526400"
+      "http://x.com/i/article/2070681279079526400",
+      "https://x.com/cyrilXBT/status/2071034792288686588",
+      "http://x.com/i/article/2068829358039445504"
     ],
     "2070735964788658598": [
       "https://x.com/zarazhangrui/status/2070735964788658598",
-      "http://x.com/i/article/2070730492236947456",
-      "https://x.com/zarazhangrui/status/2070982013822333007",
-      "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg"
+      "http://x.com/i/article/2070730492236947456"
     ],
     "2070744174467670440": [
       "https://x.com/zephyr_z9/status/2070744174467670440",
@@ -22785,8 +22832,8 @@
       "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg",
       "https://x.com/ccatalini/status/2070911625431765479",
       "https://x.com/ccatalini/status/2070937640161931405",
-      "https://x.com/ccatalini/status/2070920343611412957",
       "https://x.com/ccatalini/status/2070932326851207185",
+      "https://x.com/ccatalini/status/2070920343611412957",
       "https://x.com/ccatalini/status/2070908930356572191"
     ],
     "2070902276806656190": [
@@ -22800,7 +22847,9 @@
     ],
     "2070949159545524402": [
       "https://x.com/termsheetinator/status/2070949159545524402",
-      "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
+      "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg",
+      "https://x.com/termsheetinator/status/2071229648567234853",
+      "http://infrasuite.io"
     ],
     "2070977289932935435": [
       "https://x.com/natolambert/status/2070988271086367221",
@@ -22818,7 +22867,12 @@
       "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png",
       "https://x.com/RhysSullivan/status/2071051433525551355",
       "https://x.com/RhysSullivan/status/2071067144754974894",
-      "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
+      "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png",
+      "https://x.com/RhysSullivan/status/2071136524943654976",
+      "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png",
+      "https://x.com/RhysSullivan/status/2071121170683040140",
+      "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg",
+      "https://x.com/RhysSullivan/status/2071097878391779832"
     ],
     "2070991681953161251": [
       "https://x.com/RhysSullivan/status/2070991681953161251",
@@ -22834,6 +22888,6 @@
       "http://x.com/i/article/2070947137177935872"
     ]
   },
-  "updated_at": "2026-06-28T12:45:26Z",
+  "updated_at": "2026-06-28T14:57:14Z",
   "window": "recent"
 }
