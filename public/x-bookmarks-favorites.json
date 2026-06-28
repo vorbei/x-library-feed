@@ -55,6 +55,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The issue with AI has not been the models for quite some time\n\nIn this article I deconstruct the biggest bottleneck in AI today and explain how to implement AI across an organization successfully",
+      "text_zh": "AI的问题早已不在于模型本身\n\n本文中，我将剖析当今AI面临的最大瓶颈，并阐述如何在整个组织中成功落地AI。",
+      "text_zh_hash": "98ccffd2172a5b84",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/vasuman/status/2070986028232663486"
     },
     {
@@ -138,6 +141,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "more writing - the tl;dr on this one is the agent in your app should be built on pi / opencode and use your public skills + mcp \n\nthis lets you serve your power users who want to use their own agents while still supporting your customer segment that want to use your agent",
+      "text_zh": "更多写作内容——本文的核心要点是：你应用中的智能体应基于 pi / opencode 构建，并使用你的公开技能 + MCP。\n\n这样既能服务那些希望使用自有智能体的高级用户，同时也能支持那些想使用你提供的智能体的客户群体。",
+      "text_zh_hash": "b934f1c9e91dfd27",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/RhysSullivan/status/2070991681953161251"
     },
     {
@@ -181,6 +187,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Decentralized intelligence will not win in the same format as the one we're being served by the large foundation labs. https://x.com/ccatalini/status/2070896788408799300?s=20",
+      "text_zh": "去中心化智能不会以大型基础实验室提供给我们的那种形式胜出。",
+      "text_zh_hash": "5a3512b6ea5ecc10",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ccatalini/status/2070902276806656190"
     },
     {
@@ -261,6 +270,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Policymakers’ approach to automation won’t work for AI. https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/",
+      "text_zh": "政策制定者应对自动化的方式对AI行不通。https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/",
+      "text_zh_hash": "08db68a1c455af58",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ForeignPolicy/status/2071005745596756347"
     },
     {
@@ -315,6 +327,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Prospects are far more afraid of messing up then missing out. Mitigate bad-decision risks, sell the bridge: https://t.co/Rb8CaSmDkl",
+      "text_zh": "潜在客户更害怕搞砸，而非错过机会。降低错误决策的风险，推销这座桥梁：https://t.co/Rb8CaSmDkl",
+      "text_zh_hash": "42b1f905add7f203",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/termsheetinator/status/2070949159545524402"
     },
     {
@@ -356,6 +371,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Sit down for 15 minutes and read this.\n\nJust trust me.",
+      "text_zh": "坐下来，花15分钟读完这个。\n\n相信我。",
+      "text_zh_hash": "d203f95a614b3d5e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/IAmPascio/status/2070856294789968058"
     },
     {
@@ -397,6 +415,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Eve is one of the easiest ways to build with agents. \n\nSuper intuitive, customizable, and it just works. \n\nBelow you can read some of my thoughts (written with the help of my writer agent) after spending a week building with Eve.",
+      "text_zh": "Eve 是构建智能体最简单的方式之一。\n\n它超级直观、可定制，而且开箱即用。\n\n下面是我花了一周时间使用 Eve 后的一些想法（由我的写作智能体协助撰写）。",
+      "text_zh_hash": "667de6e3407e9df3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/omarsar0/status/2070885356585545805"
     },
     {
@@ -452,6 +473,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Anthropic CEO: \n\n“open source is kind of a distraction you still can’t really see what’s happening inside the model, so it’s not truly “free.”\n\nPeople should be paying a lot more attention to what Anthropic is doing. https://t.co/8WnBSkRw7I",
+      "text_zh": "Anthropic CEO：\n\n“开源在某种程度上是一种干扰，你仍然无法真正了解模型内部发生了什么，所以它并非真正的‘自由’。”\n\n人们应该更多地关注Anthropic正在做的事情。https://t.co/8WnBSkRw7I",
+      "text_zh_hash": "6869ee9aafb9ceaf",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/cgtwts/status/2070811699624755587"
     },
     {
