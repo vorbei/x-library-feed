@@ -7424,6 +7424,29 @@
       "title": "How the Open Knowledge Format can improve data sharing | Google Cloud Blog",
       "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
     },
+    "https://cme296.stanford.edu/syllabus/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Here, you will find slides and recordings of class lectures, along with suggested readings.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://cme296.stanford.edu/syllabus/",
+      "frameable": false,
+      "image_urls": [
+        "https://cme296.stanford.edu/doks-theme/assets/images/layout/logo.png?ca9598a67330bee10ff699bfb2078d7d",
+        "https://cme296.stanford.edu/lecture-1.jpg?433af36b0b7d1dc162227c14eccb6190",
+        "https://cme296.stanford.edu/lecture-2.jpg?e2775283d4c39fd9cc2db4dea356d2f9",
+        "https://cme296.stanford.edu/lecture-3.jpg?cbefc8cfb7001882ef81b5cdbe759fc0",
+        "https://cme296.stanford.edu/lecture-4.jpg?535fa22444f2d9085588c28e3800c5df",
+        "https://cme296.stanford.edu/lecture-5.jpg?8b1516b3db3949b06bece001a08800c0",
+        "https://cme296.stanford.edu/lecture-6.jpg?121a26175f325cea8a021a2a43850432",
+        "https://cme296.stanford.edu/lecture-7.jpg?a66858e2f5cdf4862b5995d9ca2d0062",
+        "https://cme296.stanford.edu/lecture-8.jpg?65d8f51ae4e17eb273431e73ec0035e4"
+      ],
+      "kind": "article",
+      "text_excerpt": "| Date | Topics | Video from [playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu) | \n|---|---|---|\n| April 3rd, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture1.pdf)] Lecture 1: Diffusion• Background on vision • Motivation behind diffusion • Diffusion in DDPM • Training derivation, ELBO • Inference • Faster sampling with DDIM | 1:46:26 | \n| April 10th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture2.pdf)] Lecture 2: Score matching• Motivation behind score matching • Score estimation • Denoising score matching • SDE formulation • Training, inference • Probability flows • Parallel with diffusion | 1:48:48 | \n| April 17th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture3.pdf)] Lecture 3: Flow matching• Motivation behind flows • History on flows • Conditional flow matching • Training, inference • Rectified flow • Parallel with diffusion and score matching | 1:47:34 | \n| April 24th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture4.pdf)] Lecture 4: Latent space and guidance• Variational autoencoders • Latent diffusion models • Text representation • Image representation • Contrastive learning, CLIP, SigLIP • Guidance (classifier-based, classifier-free) | 1:40:58 | \n| May 1st, 2026 | Midterm [ [exam](https://cme296.stanford.edu/exams/midterm.pdf)] [[solutions](https://cme296.stanford.edu/exams/midterm-solutions.pdf)] | |\n| May 8th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture5.pdf)] Lecture 5: Image generation architectures• Convolutions • U-Net • Attention mechanism • Diffusion Transformers • Multimodal DiT • Optimizations | 1:46:26 | \n| May 15th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture6.pdf)] Lecture 6: Model training• Training lifecycle • Pretraining, curriculum learning • Continued training, supervised finetuning • Preference tuning with Flow-GRPO, Diffusion-DPO • Tuning with DreamBooth, LoRA • Distillation | 1:40:58 | \n| May 22nd, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture7.pdf)] Lecture 7: Evaluation• Human ratings (pointwise, pairwise) • Elo rating system • Reference-free metrics (FID, CLIPScore, PickScore) • Reference-based metrics (MSE, PSNR, SSIM, LPIPS) • Multimodal LLMs • MLLM-as-a-Judge | 1:41:12 | \n| May 29th, 2026 | [ [slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture8.pdf)] Lecture 8: Trending topics• Class recap • State-of-the-art models • Extension from image to video • Alternatives to generation • Parallel with the text world • Conclusion | 1:49:34 | \n| June 8th, 2026 | Final [ [exam](https://cme296.stanford.edu/exams/final.pdf)] [[solutions](https://cme296.stanford.edu/exams/final-solutions.pdf)] | |",
+      "title": "Syllabus",
+      "url": "https://cme296.stanford.edu/syllabus/"
+    },
     "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7631,6 +7654,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
+    },
+    "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "<urlopen error timed out>",
+      "final_url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf"
     },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
@@ -10887,6 +10924,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg"
+    },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13350,20 +13401,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
-    },
-    "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -17280,6 +17317,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
+    },
+    "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9"
     },
     "https://x.getstanley.ai/r/pas": {
       "cleaner_v": 2,
@@ -22607,24 +22657,27 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070649884731167018",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
       "https://x.com/waterloo_intern/status/2071129032427814920",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2071127571874615407",
+      "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
+      "https://cme296.stanford.edu/syllabus/",
+      "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
       "https://x.com/waterloo_intern/status/2070675743198384634",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070654302243434863",
       "https://x.com/waterloo_intern/status/2071125264772542785",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070937069732675616",
       "https://x.com/waterloo_intern/status/2070936986509299914",
-      "https://x.com/waterloo_intern/status/2070653300152943067",
       "https://x.com/waterloo_intern/status/2071127868462264776",
-      "https://x.com/waterloo_intern/status/2070650605002203176",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070701138777899369",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
       "https://x.com/waterloo_intern/status/2070937115958092271",
-      "https://x.com/waterloo_intern/status/2070654226959835199"
+      "https://x.com/waterloo_intern/status/2070675913315057722",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070682937541226871"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22635,19 +22688,19 @@
       "https://x.com/eualmeidazs/status/2070849534419206327",
       "https://x.com/eualmeidazs/status/2070856808340554146",
       "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
+      "https://x.com/eualmeidazs/status/2070844785624072493",
       "https://x.com/eualmeidazs/status/2070948833362690429",
       "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
-      "https://x.com/eualmeidazs/status/2070844785624072493",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070905988832497723",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2070695181280530591",
-      "https://better-drizzle.vercel.app/docs/querying/pagination",
+      "https://x.com/eualmeidazs/status/2071031777267773861",
       "https://x.com/eualmeidazs/status/2070845398495678935",
       "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070695181280530591",
+      "https://better-drizzle.vercel.app/docs/querying/pagination",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070869714088190279",
-      "https://x.com/eualmeidazs/status/2071031777267773861",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070873357210230796",
       "https://x.com/eualmeidazs/status/2070873405071478812"
     ],
@@ -22661,11 +22714,11 @@
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
       "https://x.com/mitchellh/status/2070954238839251343",
-      "https://x.com/mitchellh/status/2070860507368792372",
       "https://x.com/mitchellh/status/2070879168829751399",
+      "https://x.com/mitchellh/status/2070860507368792372",
       "https://x.com/mitchellh/status/2070701789981331662",
-      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070699332718977465",
+      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070868895041560965"
     ],
     "2070690243880116242": [
@@ -22685,8 +22738,8 @@
     "2070811699624755587": [
       "https://x.com/cgtwts/status/2070811699624755587",
       "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg",
-      "https://x.com/cgtwts/status/2071110679902433438",
-      "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg",
+      "https://x.com/cgtwts/status/2071196300096450851",
+      "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg",
       "https://x.com/cgtwts/status/2070733213446840776",
       "https://x.com/cgtwts/status/2070610600003248530"
     ],
@@ -22721,16 +22774,16 @@
     "2070896788408799300": [
       "https://x.com/ccatalini/status/2070896788408799300",
       "http://x.com/i/article/2070895816273960960",
-      "https://x.com/ccatalini/status/2070914348541710362",
       "https://x.com/ccatalini/status/2070899866444935300",
       "https://x.com/JayaGup10/status/2003525933534179480?s=20",
+      "https://x.com/ccatalini/status/2070914348541710362",
       "https://x.com/ccatalini/status/2070939573299847530",
       "https://x.com/ccatalini/status/2070934665238659472",
       "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg",
       "https://x.com/ccatalini/status/2070911625431765479",
       "https://x.com/ccatalini/status/2070937640161931405",
-      "https://x.com/ccatalini/status/2070932326851207185",
       "https://x.com/ccatalini/status/2070920343611412957",
+      "https://x.com/ccatalini/status/2070932326851207185",
       "https://x.com/ccatalini/status/2070908930356572191"
     ],
     "2070902276806656190": [
@@ -22778,6 +22831,6 @@
       "http://x.com/i/article/2070947137177935872"
     ]
   },
-  "updated_at": "2026-06-28T11:16:19Z",
+  "updated_at": "2026-06-28T12:45:26Z",
   "window": "recent"
 }
