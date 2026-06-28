@@ -7485,6 +7485,20 @@
       "title": "How the Open Knowledge Format can improve data sharing | Google Cloud Blog",
       "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
     },
+    "https://cme296.stanford.edu/syllabus/": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "<urlopen error timed out>",
+      "final_url": "https://cme296.stanford.edu/syllabus/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "* [Syllabus](https://cme296.stanford.edu/syllabus)\n* [Cheatsheet](https://cme296.stanford.edu/cheatsheet)\n* [FAQ](https://cme296.stanford.edu/faq)\n\n[![](https://cme296.stanford.edu/doks-theme/assets/images/layout/logo.png?ca9598a67330bee10ff699bfb2078d7d) CME 296 ](/)\n* [Syllabus](https://cme296.stanford.edu/syllabus)\n* [Cheatsheet](https://cme296.stanford.edu/cheatsheet)\n* [FAQ](https://cme296.stanford.edu/faq)\n\n| Date             | Topics                                                                                                                                                                                                                                                                              | Video from [playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu)                                                                       |\n| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| April 3rd, 2026  | \\[[slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture1.pdf)\\] **Lecture 1: Diffusion**• Background on vision • Motivation behind diffusion • Diffusion in DDPM • Training derivation, ELBO • Inference • Faster sampling with DDIM                                                             | [![Lecture 1](https://cme296.stanford.edu/lecture-1.jpg?433af36b0b7d1dc162227c14eccb6190)1:46:26](https://www.youtube.com/watch?v=tr-CUpw--ck&list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu&index=1)   |\n| April 10th, 2026 | \\[[slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture2.pdf)\\] **Lecture 2: Score matching**• Motivation behind score matching • Score estimation • Denoising score matching • SDE formulation • Training, inference • Probability flows • Parallel with diffusion                              | [![Lecture 2](https://cme296.stanford.edu/lecture-2.jpg?e2775283d4c39fd9cc2db4dea356d2f9)1:48:48](https://www.youtube.com/watch?v=%5FWaR2fjZpEQ&list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu&index=2) |\n| April 17th, 2026 | \\[[slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture3.pdf)\\] **Lecture 3: Flow matching**• Motivation behind flows • History on flows • Conditional flow matching • Training, inference • Rectified flow • Parallel with diffusion and score matching                                         | [![Lecture 3](https://cme296.stanford.edu/lecture-3.jpg?cbefc8cfb7001882ef81b5cdbe759fc0)1:47:34](https://www.youtube.com/watch?v=agN3AlfGFrk&list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu&index=3)   |\n| April 24th, 2026 | \\[[slides](https://cme296.stanford.edu/slides/spring26-cme296-lecture4.pdf)\\] **Lecture 4: Latent space and guidance**• Variational autoencoders • Latent diffusion models • Text representation • Image representation • Contrastive learning, CLIP, SigLIP • Guidance (classifier-based, classifier-free)    | [![Lecture 4](https://cme296.stanford.edu/lecture-4.jpg?535fa22444f2d9085588c28e3800c5df)1:40:58](https://www.youtube.com/watch?v=WUUq6TVAu8U&list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu&index=4)   |\n| May 1st, 2026    | **Midterm** \\[[exam](https://cme296.stanford.edu/exams/midterm.pdf)\\] \\[[solutions](https://cme296.stanford.edu/exams/midterm-solutions.pdf)\\]                                                                                                                                                                                            |                                                                                                                                                                       |\n| May 8th, 2026    | \\[[slides](https://cme2",
+      "title": "",
+      "url": "https://cme296.stanford.edu/syllabus/"
+    },
     "https://codecolor.ist/posts/2026-06-15-ios27-reworked-stub-islands/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7693,6 +7707,20 @@
       "title": "Codex use cases",
       "url": "https://developers.openai.com/codex/use-cases"
     },
+    "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "<urlopen error timed out>",
+      "final_url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf"
+    },
     "https://docs.perplexity.ai/docs/agent-api/tools/sandbox": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -7843,34 +7871,6 @@
       "text_excerpt": "",
       "title": "Open House: Applied AI for Material Discovery",
       "url": "https://event.on24.com/wcc/r/5398707/55BE35B2627001D828DDA278AC4CA8CA?mode=login"
-    },
-    "https://every.to/guides/codex-for-knowledge-work": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A power-user’s guide to turning OpenAI’s coding agent into an operating system for knowledge work, including setup, workflows, and a seven-day starter plan",
-      "final_url": "https://every.to/guides/codex-for-knowledge-work",
-      "frameable": false,
-      "image_urls": [
-        "https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/4273/full_page_cover_55d1041ddff6ba6c-Codex_for_Knowledge_Work.png",
-        "https://www.facebook.com/tr?id=675385303309041&ev=PageView&noscript=1",
-        "https://every.to/assets/icons/burger-97f08033a4ff1182ccbd84f69d6a39e628414f91989de1042221cf6481df135d.svg",
-        "https://every.to/assets/icons/search-ca56d8c10c06492199d59a1c051f15cace9260a30311739f8289e86b9fbc92c6.svg",
-        "https://img.shields.io/github/stars/EveryInc/compound-engineering-plugin?style=flat&label=&color=f35f00",
-        "https://every.to/assets/every-logo-white-d8b0c13c4b860174d4ac9717f446538ba8fa4f3b3736dde0de86e37bfc756789.svg",
-        "https://every.to/assets/icons/close-ea0cf7ce5d509dfce6a6461ab8180873b75e5480ad338cb45f45f9e25ca75812.svg",
-        "https://every.to/assets/icons/signin-83fa7c0681f947df7045aa4d1df051e3fe29f8b11b52df34b180c8ff7010a2cc.svg",
-        "https://every.to/assets/icons/xtwitter-a66ae6dc5260bbbab32ecaf3eb723b411070cd7887f803e04ad04018ec25e85a.svg",
-        "https://every.to/assets/icons/linkedin-5b8ca87f46ed1b2118f4f5372ede5e2081ed43bf6456d634a655b0e1cce158ea.svg",
-        "https://every.to/assets/icons/spotify-39d4b64fbd367b9e1cb7710dfdd1d0cf09ad0ab1c460573903ab735b4b119c55.svg",
-        "https://every.to/assets/icons/youtube-f3ac30c4399a2a63a250ac355812201edb78b66dd8d1fbaed334dc54cdddc1e5.svg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Sign in Subscribe Home Newsletter Columnists Columns Podcast Products Events Guides Consulting Sign in Search About us Careers Advertise with us The team FAQ Help center Codex for K nowledge Work A power-user’s guide to turning OpenAI’s coding agent into an operating system for knowledge work, including setup, workflows, and a seven-day starter plan Katie Parrott GPT-5.5 Codex is easy to underestimate. At first glance it looks like another AI coding tool; if you’re not an engineer, a natural conclusion is that it’s not for you. That reading misses how much Codex makes possible. Picture a Monday morning: A request for a launch plan lands in your inbox. You forward it to Codex, which has its own email account, and close your laptop while Codex runs tasks in the cloud, or on a machine like a Mac Mini that you keep active. On your commute to the office, you get an email notification on your phone: Codex has read the relevant Slack threads, pulled customer notes out of Google Drive, checked last quarter’s numbers in PostHog, and started a go-to-market plan in a shared Notion document. It just needs you to confirm one detail about timing, which you do with a thumbs-up. By the time you reach your desk, a draft is waiting for review. This is a day in the life of an agent-pilled knowledge worker. It all runs on OpenAI’s agent, Codex, in the Codex desktop app. We use “Codex” to refer to the app throughout this guide. Codex is a workspace for you and your AI agents. Give Codex access to the files, apps, and tools it needs, and it gathers context, moves through the task across every surface it can reach—including your connected apps, the browser, and your computer. That makes it useful not just for code, but for a broad range of knowledge work. There are two ways to work with agents in Codex: Delegate or collaborate. Delegate tasks that are predictable, repeatable, and low-risk. With clear, well-specified instructions, the agent can execute autonomously and bring back finished work for your review. Collaborate on tasks that are judgment-heavy, exploratory, or iterative. You work alongside the model toward an outcome that matches your vision. AI progress has reached a point where expertise is easy to replicate. Each new model can do more of what used to require rare skill—which creates both more opportunity and more noise. The people who work best in this environment know how to direct AI’s capability without losing their personal judgment. They ride the models rather than being overwhelmed by them. Expert Codex users are one of the clearest examples of what that looks like in practice. This guide is about becoming one of those people. It covers how to set up a workspace, run high-leverage knowledge-work tasks, and turn repeated work into durable systems that get better over time. If you’re ready to think of your work in terms of systems instead of one-off tasks, this guide is for you. Read with Claude Read with ChatGPT Copy for agent Part 1: Understanding Codex What Codex is Codex is a tool-using agentic workspace: You give it a goal and it plans the work, uses available tools and context, and produces a result for you to review. It can read and write files on your computer, connect to external services through plugins and other integrations, run multi-step tasks without asking for guidance, generate code and scripts when a task needs them, and maintain context across a persistent workspace. Specific capabilities that make Codex worth using: Works alongside you on multiple tasks in parallel Pulls context from the apps and files you connect Uses a supported browser and desktop workflows when a task needs on-screen action Checks its own work, revises, and keeps going Holds a persistent goal across a long-running session, instead of treating each message as a one-off request Turns repeatable tasks into recurring workflows Helps route shared requests from places like Slack, email, or forms Lets you start, steer, approve, and review work from",
-      "text_excerpt_zh": "登录  订阅  首页  新闻  专栏  播客  产品  活动  指南  咨询  登录  搜索  关于我们  招聘  广告合作  团队  常见问题  帮助中心  Codex for Knowledge Work  面向知识工作者的高级指南：将OpenAI编程智能体打造成知识工作操作系统，涵盖设置、工作流及七天启动计划  Katie Parrott  GPT-5.5 Codex 很容易被低估。乍看之下，它像是另一个AI编程工具；如果你不是工程师，自然会认为它不适合你。但这种看法忽略了Codex的巨大潜力。想象一个周一早晨：你的收件箱里收到一份启动计划请求。你将其转发给拥有独立邮箱的Codex，然后合上笔记本电脑，让Codex在云端或你保持运行的Mac Mini等设备上执行任务。在通勤路上，你收到手机邮件通知：Codex已读取相关Slack线程，从Google Drive提取客户笔记，在PostHog中核查上季度数据，并在共享的Notion文档中开始撰写市场进入计划。它只需你确认一个时间细节，你竖起拇指确认。等你到达办公桌前，一份草稿已等待审阅。这就是一个深度使用智能体的知识工作者的日常。这一切都运行在OpenAI的智能体Codex上，具体在Codex桌面应用中。本指南中“Codex”均指该应用。Codex是你和AI智能体的工作空间。赋予Codex所需文件、应用和工具的访问权限后，它会收集上下文，在其能触及的所有层面（包括已连接的应用、浏览器和你的电脑）推进任务。这使得它不仅适用于编程，也适用于广泛的知识工作。在Codex中与智能体协作有两种方式：委派或协作。委派那些可预测、可重复且低风险的任务。通过清晰、明确的指令，智能体可以自主执行并带回已完成的工作供你审阅。协作处理那些需要大量判断、探索性或迭代性的任务。你与模型并肩工作，朝着符合你愿景的成果推进。AI的进步已达到一个阶段：专业知识变得易于复制。每个新模型都能完成更多以往需要稀缺技能的工作——这既带来了更多机遇，也制造了更多噪音。在这种环境中工作得最好的人，懂得如何引导AI的能力而不丧失个人判断。他们驾驭模型，而非被其淹没。Codex专家用户正是这种实践最清晰的例证之一。本指南旨在帮助你成为这样的人。内容涵盖如何设置工作空间、运行高杠杆知识工作任务，以及将重复性工作转化为能随时间不断优化的持久系统。如果你已准备好从一次性任务思维转向系统化工作思维，本指南正是为你而写。  用Claude阅读  用ChatGPT阅读  复制给智能体  第一部分：理解Codex  Codex是什么  Codex是一个使用工具、具备智能体的工作空间：你设定目标，它规划工作，利用可用工具和上下文，生成结果供你审阅。它能读写你电脑上的文件，通过插件和其他集成连接外部服务，无需指导即可运行多步骤任务，在需要时生成代码和脚本，并在持久工作空间中保持上下文连贯。Codex值得使用的具体能力包括：  与你并行处理多个任务  从你连接的应用和文件中提取上下文  在任务需要屏幕操作时，使用支持的浏览器和桌面工作流  自我检查、修正并持续推进  在长时间运行的会话中保持持久目标，而非将每条消息视为一次性请求  将可重复任务转化为循环工作流  帮助路由来自Slack、邮件或表单等渠道的共享请求  让你能够从移动端启动、引导、批准和审阅工作",
-      "text_excerpt_zh_hash": "0be9d23173f87ac0",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Codex for Knowledge Work - Every",
-      "url": "https://every.to/guides/codex-for-knowledge-work"
     },
     "https://fenx.work/paper-design-alpha/": {
       "cleaner_v": 2,
@@ -11550,34 +11550,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png"
     },
-    "https://pbs.twimg.com/media/HJaARqaXMAYArir.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJaARqaXMAYArir.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJaARqaXMAYArir.png"
-    },
-    "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    },
     "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11591,20 +11563,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
-    },
-    "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg"
     },
     "https://pbs.twimg.com/media/HJcr6PAaMAAfQaR.jpg": {
       "cleaner_v": 2,
@@ -11662,20 +11620,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJctbKXa4AAcgxV.jpg"
     },
-    "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg"
-    },
     "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11689,20 +11633,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg"
-    },
-    "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg"
     },
     "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg": {
       "cleaner_v": 2,
@@ -13426,33 +13356,19 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
-    "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg": {
+    "https://pbs.twimg.com/media/HL6vmPfawAA1J2-.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg",
+      "final_url": "https://pbs.twimg.com/media/HL6vmPfawAA1J2-.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg"
+        "https://pbs.twimg.com/media/HL6vmPfawAA1J2-.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg"
-    },
-    "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png"
+      "url": "https://pbs.twimg.com/media/HL6vmPfawAA1J2-.jpg"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -16514,29 +16430,6 @@
       "title": "AI Economics for Dummies - McSweeney’s Internet Tendency",
       "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar"
     },
-    "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Most designers invest in running critiques but skip the followup. That missing step is often why feedback culture breaks down.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar",
-      "frameable": false,
-      "image_urls": [
-        "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png",
-        "https://media.nngroup.com/media/people/photos/rachel-krause-2025-square.jpg.256x256_q75_autocrop_crop-smart_upscale.jpg",
-        "https://media.nngroup.com/media/editor/2026/04/29/show-before-after.png",
-        "https://media.nngroup.com/media/videos/thumbnails/Anna_and_Sarah_Field_Guide_to_Explaining_UX_Strategy.png.650x364_q75_autocrop_crop-smart_upscale.png",
-        "https://media.nngroup.com/media/videos/thumbnails/When_is_High-fidelity_Worth_It_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg",
-        "https://media.nngroup.com/media/videos/thumbnails/UX_Design_Critiques_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "[Design critiques](https://www.nngroup.com/articles/design-critiques/) generate feedback. But feedback is valuable only if someone closes the loop on it: telling people what changed because of what they said, what didn’t change, and why. This article covers two concrete followup tactics, when to use them, and what you’re quietly risking every time you skip them.\nDesign Critiques Don’t End After the Session\nA design critique is a workshop focused on analyzing a design and giving feedback on whether it meets its objectives. Its ultimate goal is to improve the design. Most teams spend their time and energy focused on planning and facilitating a design critique — choosing the right attendees, structuring the agenda, and facilitating the conversation. Then the session ends, and the feedback gets filed away in a document that nobody touches again.\nThis is one of the most common reasons critique culture quietly breaks down. Critique followups make feedback feel worth giving rather than a nice-to-have or a courtesy. When people contribute thoughtfully to a critique and never hear what happened to their input, they learn to stop contributing and show up unprepared to further sessions because they clearly don’t matter.\nIf your critiques feel pointless, the problem may not be [your facilitation](https://www.nngroup.com/articles/derailed-design-critiques/). It may be that your stakeholders don’t know what happened with their feedback.\nHow to Close the Loop\nThere are two types of followup communication:\n- Immediate post-session recap: Captures what was heard and what will happen next\n- Deeper followup after a design has evolved: Connects the changes that people see now to the conversation that helped shape them\nThe immediate recap doesn’t need to be long. A Slack or Teams message works well: “Here’s what we’re moving forward with, what we’re still investigating, and what we’ve decided not to pursue.” Be concerned about specificity rather than length.\nThe deeper followup is where trust actually gets built. It is usually a longer document or message and takes more effort, but it also showcases the value of design critiques and stakeholder feedback directly because they see the changes in real time.\nTactic: Show the Before and After\n“Here’s the new version” shares the output. “This changed because you said that” closes the loop. When you share only the update, the people who gave feedback are left guessing: Did my comment land? Did it influence anything? Did the designer even remember it? Over time, that uncertainty erodes engagement. People stop showing up with careful observations because the feedback doesn’t seem to connect to anything.\nConsider the scenario of a designer updating a dashboard design after a critique:\n- Poor followup: “Here’s the updated dashboard. We made some changes to the navigation and hierarchy.”\n- Strong followup: “We simplified the navigation after the group flagged that users couldn’t find their primary action. We also gave savings progress more visual weight, which came from our discussion about information hierarchy.”\nThe content of both updates is nearly identical, but the strong followup includes attribution. It connects the specific change to the specific feedback from the session. That’s what makes participants feel like contributors rather than an audience.\nIf you’re including a before-and-after visual, add an annotation with context. Don’t assume the comparison is self-explanatory. A sentence or two pointing to what changed and why gives people the context to engage with the image rather than scroll past it.\nTactic: Acknowledge What You Didn’t Act On\nMost designers default to reporting the wins: what changed, what improved, and what feedback they incorporated. This is understandable (we love winning!), but it creates a selective highlight reel that can quietly erode trust over time.\n[Stakeholders notice](https://www.nngroup.com/articles/stakeholder-engagement/) when their feedback wasn’t addressed. If no on",
-      "text_excerpt_zh": "[设计评审](https://www.nngroup.com/articles/design-critiques/)会产生反馈。但反馈只有在有人闭环处理时才具有价值：告知他人，他们的意见导致了哪些改变、哪些没有改变，以及原因。本文涵盖两种具体的跟进策略、何时使用它们，以及每次跳过这些策略时你悄然承担的风险。\n\n**设计评审不会在会议结束后结束**\n\n设计评审是一种工作坊，专注于分析设计并就其是否达到目标提供反馈。其最终目标是改进设计。大多数团队将时间和精力集中在规划和主持设计评审上——选择合适的参与者、构建议程以及引导讨论。然后会议结束，反馈被归档到一份无人再碰的文档中。\n\n这是评审文化悄然崩溃的最常见原因之一。设计评审的跟进让反馈变得值得给予，而不是一种可有可无的客套。当人们深思熟虑地参与评审，却从未得知自己的意见有何结果时，他们就会学会停止贡献，并在后续会议中毫无准备地出现，因为显然他们的意见无关紧要。\n\n如果你的评审感觉毫无意义，问题可能不在于[你的引导技巧](https://www.nngroup.com/articles/derailed-design-critiques/)。而在于你的利益相关者不知道他们的反馈发生了什么。\n\n**如何闭环**\n\n有两种类型的跟进沟通：\n\n- **即时会后总结**：记录听到了什么以及下一步计划\n- **设计演进后的深度跟进**：将人们现在看到的更改与促成这些更改的讨论联系起来\n\n即时总结不需要很长。一条 Slack 或 Teams 消息就很合适：“这是我们决定推进的内容，这是我们仍在调研的内容，以及我们决定不采纳的内容。”关注具体性而非长度。\n\n深度跟进才是真正建立信任的地方。它通常是一份较长的文档或消息，需要更多精力，但它也直接展示了设计评审和利益相关者反馈的价值，因为人们能实时看到变化。\n\n**策略：展示前后对比**\n\n“这是新版本”分享了输出。“这之所以改变，是因为你说了那句话”则完成了闭环。当你只分享更新时，提供反馈的人只能猜测：我的评论被采纳了吗？它影响了什么吗？设计师还记得它吗？久而久之，这种不确定性会侵蚀参与度。人们不再带着细致的观察来参与，因为反馈似乎与任何结果都无关。\n\n考虑一个设计师在评审后更新仪表板设计的场景：\n\n- **糟糕的跟进**：“这是更新后的仪表板。我们对导航和层级做了一些更改。”\n- **有力的跟进**：“在团队指出用户无法找到主要操作后，我们简化了导航。我们还给了储蓄进度更多的视觉权重，这源于我们关于信息层级的讨论。”\n\n两次更新的内容几乎相同，但有力的跟进包含了归因。它将具体的更改与会话中的具体反馈联系起来。这正是让参与者感觉自己是贡献者而非观众的关键。\n\n如果你包含前后对比的视觉图，请添加带有上下文的注释。不要假设对比不言自明。一两句话指出什么改变了以及为什么改变，能让人们有背景去理解图片，而不是直接滑过。\n\n**策略：承认你未采纳的内容**\n\n大多数设计师默认只报告胜利：什么改变了、什么改进了、他们采纳了哪些反馈。这可以理解（我们都喜欢胜利！），但它创造了一个选择性高光集锦，可能随着时间的推移悄然侵蚀信任。\n\n[利益相关者会注意到](https://www.nngroup.com/articles/stakeholder-engagement/)他们的反馈未被采纳。如果没有人",
-      "text_excerpt_zh_hash": "65195b3a0dadfb62",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Closing the Loop: What to Do After a Design Critique Ends - NN/G",
-      "url": "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar"
-    },
     "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16927,24 +16820,6 @@
       "title": "How I use LLMs as a staff engineer in 2026",
       "url": "https://www.seangoedecke.com/how-i-use-llms-in-2026"
     },
-    "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=UTF-8",
-      "description": "",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://www.seangoedecke.com/og-image.jpg"
-      ],
-      "kind": "article",
-      "text_excerpt": "Prompts are technical debt too\nIt’s [common](https://www.tokyodev.com/articles/all-code-is-technical-debt) and correct to say that “all code is technical debt”. Adding code is a necessary evil for developing new features: you almost always have to do it, but each line of code adds to the complexity and maintenance burden of the system. All future changes to the system have to work with the existing code, or at least avoid breaking it. Once systems accumulate enough code, they become impossible for a single person to understand: instead of reading the code and understanding what it does, you must rely on guesses, theories and heuristics[1](https://www.seangoedecke.com#fn-1). Sensible engineers write as little code as possible.\nThey write a lot of prompts, though! Many large projects now have a set of codebase-specific prompt files: AGENTS.md, CLAUDE.md, those same files in sub-directories, and [skills](https://github.com/anthropics/skills). If you’re building a program that uses AI[2](https://www.seangoedecke.com#fn-2), you’ll have separate prompts for [capabilities](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/agent/prompt) and for each [tool](https://github.com/anomalyco/opencode/blob/dev/packages/opencode/src/tool/lsp.txt), as well as a whole set of [system prompts](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt).\nPrompts are important. Minor tweaks to a LLM’s prompt can unlock significant performance improvements. If the same model feels different across Codex, Cursor, OpenCode, and Copilot, it’s almost certainly due to subtle differences in prompting. AI companies spend a lot of time testing and tweaking their prompts, so it makes sense why engineers would spend a lot of time tweaking their AGENTS.md files[3](https://www.seangoedecke.com#fn-3) for their projects. I’d even call switching tools or workflows to be a form of prompting. If I start wrapping my agents in a [Ralph loop](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt), pull in a new skill file, or install an [MCP](https://www.seangoedecke.com/model-context-protocol/) server, that’s still a change to my prompts even though I’m not the one who wrote it.\nI think it is a bad idea to spend a ton of time tweaking a bespoke agentic coding setup. Why is that, given that prompt adjustments can deliver a lot of value? Because prompt adjustments are model-specific. Earlier I said that AI companies spend a lot of time tweaking their prompts. In fact, they spend that amount of time for each new model release. A prompt that worked great for GPT-5.4 won’t necessarily work as well for GPT-5.5. You have to “learn how to hold the model” each time.\nIn other words, a set of prompts that you carefully crafted in January this year might be out of date or actively harmful by February. Worse still, you might not even notice. Model capabilities are already so hard to pin down (unless you’re running every problem through different models and tools), and even weak AI systems are surprisingly good at some problems. You might just think “huh, the new Anthropic model isn’t as impressive as the hype”, or “wow, Claude Code has gotten worse recently”.\nIn this sense, prompts are a worse form of technical debt than code. When technical debt blows up, it usually causes errors or a tangible slowdown as you try to understand the code. Prompts will decay silently. Also, even janky code tends to be relatively stable when untouched, but every single model upgrade could turn a functional prompt into a non-functional one.\nCould you simply decide not to upgrade models? Some people are trying this, but the pace of improvement is fast enough that that isn’t really practical. A delicately-prompted agentic harness built around GPT-4.1 is always going to underperform a bare-bones harness built around Opus 4.7. This might be a sensible strategy at some point in the future, when the rate of model improvement slows down",
-      "text_excerpt_zh": "## 提示词也是技术债务\n\n说\"所有代码都是技术债务\"是[常见](https://www.tokyodev.com/articles/all-code-is-technical-debt)且正确的观点。添加代码是开发新功能时必要的恶：你几乎总是不得不这样做，但每一行代码都会增加系统的复杂性和维护负担。系统未来的所有变更都必须与现有代码协同工作，或者至少避免破坏它。一旦系统积累了足够多的代码，单个开发者就无法完全理解：你无法通过阅读代码来理解其功能，而必须依赖猜测、理论和启发式方法[1](https://www.seangoedecke.com#fn-1)。明智的工程师会尽可能少写代码。\n\n然而，他们却会写大量提示词！许多大型项目现在都有一套特定于代码库的提示词文件：AGENTS.md、CLAUDE.md、子目录中的同名文件，以及[技能文件](https://github.com/anthropics/skills)。如果你正在构建一个使用AI的程序[2](https://www.seangoedecke.com#fn-2)，你会为[能力](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/agent/prompt)和每个[工具](https://github.com/anomalyco/opencode/blob/dev/packages/opencode/src/tool/lsp.txt)准备单独的提示词，还有一整套[系统提示词](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt)。\n\n提示词很重要。对LLM提示词的微小调整就能带来显著的性能提升。如果同一个模型在Codex、Cursor、OpenCode和Copilot中感觉不同，那几乎肯定是因为提示词的细微差异。AI公司花费大量时间测试和调整他们的提示词，因此工程师们花大量时间调整他们项目的AGENTS.md文件[3](https://www.seangoedecke.com#fn-3)也就说得通了。我甚至认为切换工具或工作流也是一种提示词调整的形式。如果我开始将我的agent包装在[Ralph循环](https://github.com/anomalyco/opencode/tree/dev/packages/opencode/src/session/prompt)中，引入一个新的技能文件，或者安装一个[MCP](https://www.seangoedecke.com/model-context-protocol/)服务器，这仍然是对我提示词的更改，即使这些提示词不是我写的。\n\n我认为花大量时间调整一个定制的agent编码设置是个坏主意。既然提示词调整能带来很大价值，为什么这么说呢？因为提示词调整是模型特定的。前面我说AI公司花大量时间调整他们的提示词。实际上，他们为每个新模型发布都要花这么多时间。对GPT-5.4效果很好的提示词，对GPT-5.5不一定同样有效。每次你都得\"学习如何驾驭这个模型\"。\n\n换句话说，你今年一月精心制作的一套提示词，到二月可能就过时了，甚至可能有害。更糟的是，你可能根本注意不到。模型能力本来就很难准确评估（除非你通过不同模型和工具运行每个问题），而且即使是弱AI系统在某些问题上也出奇地好。你可能只会想\"嗯，新的Anthropic模型没有宣传的那么厉害\"，或者\"哇，Claude Code最近变差了\"。\n\n从这个意义上说，提示词是比代码更糟糕的技术债务形式。当技术债务爆发时，通常会导致错误或在你试图理解代码时明显变慢。而提示词会悄无声息地退化。此外，即使是糟糕的代码，在不被改动时通常也相对稳定，但每一次模型升级都可能把一个功能正常的提示词变成功能失常的。\n\n你能干脆决定不升级模型吗？有些人正在尝试这样做，但改进的速度足够快，以至于这并不太实际。一个围绕GPT-4.1精心提示构建的agent框架，总是会输给围绕Opus 4.7构建的简陋框架。也许在未来某个时候，当模型改进速度放缓时，这可能是一个明智的策略。",
-      "text_excerpt_zh_hash": "cb72d35c2032b1f9",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Prompts are technical debt too",
-      "url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar"
-    },
     "https://www.semafor.com/article/06/16/2026/anthropics-conflict-with-washington-complicates-its-ipo": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -16971,35 +16846,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Anthropic’s conflict with Washington complicates its IPO | Semafor",
       "url": "https://www.semafor.com/article/06/16/2026/anthropics-conflict-with-washington-complicates-its-ipo"
-    },
-    "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "An integrated AI tool inside of Figma, with permission to go wild in your canvas. Let’s put it to the test!",
-      "extraction_source": "trafilatura",
-      "final_url": "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "frameable": null,
-      "image_urls": [
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/size/w1200/2026/05/figma_agent_cover.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/04/Shapes-5.svg",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/size/w960/2026/05/figma_agent_cover.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-5.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-4.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-6.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-11.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-12.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-10.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-19.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-21.png",
-        "https://storage.ghost.io/c/16/8e/168e6a3c-735b-4f97-98e6-360d70a5f156/content/images/2026/05/image-15.png"
-      ],
-      "kind": "article",
-      "text_excerpt": "Figma Agent: A first look\nThere are plenty of reasons to hate on AI these days. Copyright concerns, absurd power consumption, layoffs, and an endless stream of AI slop should be enough to make anyone want to boycott the whole thing. If it weren’t for the capabilities.\nAnd those capabilities have been creeping toward the design world for quite a while. So when a beta invite to [Figma Agent](https://www.figma.com/blog/the-figma-agent-is-here/?ref=shapes.gg) landed in my inbox, I was genuinely curious. Figma will now take your prompts and generate directly on the canvas. Is this the tipping point for AI in design?\nThe basics\nIf you have beta access, there are two entry points for letting Figma design for you: the first one is through a sidebar, much like other vibe coding tools out there.\nIn addition to this, there is a star icon whenever you select something, letting you fire off prompts directly from there. The jury's still out on whether this icon will be annoying or not 😊\nFirst test: Can it draw?\nLet's start with a basic, yet fundamental skill: can it help out with drawing stuff? I was working on some sketches of a minimal chess piece set, and deliberately left out the pawn for the agent to generate. I selected the five remaining pieces and asked the agent to generate a pawn based on the style.\nUnfortunately, the result was nothing more than a waste of power, credits and patience on my end: A buggy drawing that completely missed the visual qualities of the original set. After dismissing this and adding my homemade pawn, I asked the agent to order them nicely into a chess board. A chore that would actually be nice to offload, but this too failed badly, returning a 3x3 board full of bugs.\nI'm not overly surprised: generative AI seem to struggle to do meaningful work in the realm of icons. There is however some promise in getting vector designs back, opening the door for tweaks and further refinements by a human. But all in all, this first attempt was nowhere near helpful.\nSecond test: Make a slide deck\nAfter the previous round crashed and burned, I figured I should meet the tool halfway. It have probably been trained on a ton of presentation decks, so I asked it to create one for Nest of the North, a fictional Norwegian treehouse business.\nDuring the reasoning, it concludes with \"The reference image shows a theme with earthy tones, clean typographic hierarchy, bold statement slides, and image-forward compositions. This maps perfectly to the Nordic forest aesthetic.\" Sounds promising.\nAfter a few minutes I get my results back, and it is definitely more useful than my first test. Bit generic perhaps, and some minor bugs, but this could be a starting point for further slide design work.\nI'd say it needs a few real images and some premium typefaces that haven't yet been overused, but the layout part isn't too shabby. It's all wrapped in auto layout, which I feel is a little constraining at this stage, but anyway: this feels like an improved version of their First Draft feature, and might actually hold some promise.\nTest 3: Make a signup flow\nA Figma file with a massive design system, providing lots of juicy context for the prompt. That sounds like the perfect environment for this agent to work.\nHere I tasked it to create a signup flow for an old app we worked on. I'd say it worked quite well. It made a decent flow, figured out the inputs and buttons, and generated new icons for the ones it didn't find. One of the existing illustrations found its way in there, which was nice to see, while the rest was generated on the fly (and kinda ruined it, but let's treat them as placeholders).\nIf the goal here is to have an okay starting point, prompt a few different takes, or just make something decent very quickly, then it seems to be up for the task.\nPutting in two of the original screens here for reference:\nTest 4: Make a business card\nIf I provide the logo, can I get a nice business card in return? Apparently not. The logo was recreated as",
-      "text_excerpt_zh": "# Figma Agent：初探\n\n如今，人们对AI有很多不满的理由。版权问题、惊人的能耗、裁员，以及源源不断的AI垃圾内容，足以让任何人想要抵制这一切。如果不是因为它的能力的话。\n\n而这些能力已经悄然渗透到设计领域相当长一段时间了。所以当一封Figma Agent的测试邀请出现在我的收件箱时，我确实感到好奇。Figma现在可以根据你的提示直接在画布上生成内容。这是AI在设计领域的转折点吗？\n\n## 基础功能\n\n如果你有测试权限，有两个入口可以让Figma为你设计：第一个是通过侧边栏，和许多其他vibe coding工具类似。\n\n除此之外，每当你选中某个元素时，会出现一个星形图标，让你可以直接从那里发起提示。这个图标会不会让人烦，目前还没有定论😊\n\n## 第一次测试：它能画图吗？\n\n让我们从一个基础但关键的技能开始：它能帮忙画图吗？我当时正在绘制一套极简国际象棋棋子的草图，特意留出了兵（pawn）让Agent来生成。我选中了剩下的五个棋子，让Agent根据风格生成一个兵。\n\n不幸的是，结果只是浪费了我的电力、积分和耐心：一个充满bug的图形，完全偏离了原套装的视觉品质。放弃这个结果并加入我自己画的兵之后，我让Agent把它们整齐地排列成棋盘。这本是一个很适合外包的琐事，但这次也惨败了，返回了一个满是bug的3x3棋盘。\n\n我并不太惊讶：生成式AI似乎在图标领域难以做出有意义的工作。不过，能够返回矢量设计这一点还是有些前景的，为人类进行微调和进一步优化打开了大门。但总的来说，这第一次尝试远谈不上有用。\n\n## 第二次测试：制作幻灯片\n\n在上一轮惨败之后，我觉得应该向这个工具靠拢一些。它可能接受过大量演示文稿的训练，所以我让它为\"Nest of the North\"（一家虚构的挪威树屋企业）创建一个幻灯片。\n\n在推理过程中，它总结道：\"参考图片展示了一个以大地色调、清晰的排版层级、大胆的陈述页面和以图片为主的构图为主题的风格。这与北欧森林美学完美契合。\"听起来很有希望。\n\n几分钟后我得到了结果，这确实比第一次测试有用得多。可能有点普通，还有一些小bug，但这可以作为进一步幻灯片设计工作的起点。\n\n我觉得它需要一些真实图片和一些尚未被过度使用的优质字体，但布局部分还不错。所有内容都包裹在自动布局中，我觉得现阶段这有点限制，但不管怎样：这感觉像是他们First Draft功能的改进版，可能确实有些前景。\n\n## 第三次测试：制作注册流程\n\n一个包含庞大设计系统的Figma文件，为提示提供了大量丰富的上下文。这听起来是Agent工作的完美环境。\n\n我让它为我们之前做过的一个旧应用创建一个注册流程。我觉得效果相当不错。它做出了一个合理的流程，识别出了输入框和按钮，并为找不到的图标生成了新的。其中一个已有的插图被用上了，这很不错，而其余部分则是即时生成的（有点破坏了效果，但我们可以把它们当作占位符）。\n\n如果目标是获得一个不错的起点、尝试几种不同的方案，或者快速做出一些像样的东西，那么它似乎能够胜任。\n\n这里放两张原始界面作为参考：\n\n## 第四次测试：制作名片\n\n如果我提供Logo，能得到一张好看的名片吗？显然不能。Logo被重新生成了，但效果不佳。",
-      "text_excerpt_zh_hash": "8739e05710b8c64f",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Figma Agent: A first look",
-      "url": "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar"
     },
     "https://www.skills.sh/mattpocock/skills/grill-with-docs": {
       "cleaner_v": 2,
@@ -17384,6 +17230,19 @@
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     },
+    "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9"
+    },
     "https://x.getstanley.ai/r/pas": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -17681,17 +17540,6 @@
       "https://x.com/IBuzovskyi/status/2060310956396236878",
       "https://x.com/IBuzovskyi/status/2059982479386144968"
     ],
-    "2059975090855428571": [
-      "https://x.com/danshipper/status/2059975090855428571",
-      "https://pbs.twimg.com/media/HJaARqaXMAYArir.png",
-      "https://x.com/danshipper/status/2059976661924290964",
-      "https://every.to/guides/codex-for-knowledge-work",
-      "https://x.com/danshipper/status/2059977059233923515",
-      "https://x.com/danshipper/status/2059980665081192736",
-      "https://x.com/danshipper/status/2060025890231197803",
-      "https://x.com/danshipper/status/2059983128551166116",
-      "https://x.com/danshipper/status/2059980665081192736?s=20"
-    ],
     "2060165340466663871": [
       "https://x.com/ayushsoni_io/status/2060165340466663871",
       "https://pbs.twimg.com/media/HJcr6PAaMAAfQaR.jpg",
@@ -17703,20 +17551,6 @@
       "https://x.com/cellinlab/status/2060173406494974108",
       "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
     ],
-    "2060174563691082117": [
-      "https://x.com/BadUncleX/status/2060174563691082117",
-      "https://pbs.twimg.com/media/HJc1112bgAArmjV.jpg",
-      "https://x.com/BadUncleX/status/2060345341371982061"
-    ],
-    "2060192548350824503": [
-      "https://x.com/Necmttn/status/2060192548350824503"
-    ],
-    "2060251822032671014": [
-      "https://x.com/odysseus0z/status/2060251822032671014"
-    ],
-    "2060289011579859152": [
-      "https://x.com/vikingmute/status/2060289011579859152"
-    ],
     "2060305898182971806": [
       "https://x.com/Zephyr_hg/status/2060305898182971806",
       "http://x.com/i/article/2060304215818264576"
@@ -17724,14 +17558,6 @@
     "2060350372233769261": [
       "https://x.com/borkodotfun/status/2060350372233769261",
       "http://x.com/i/article/2060342141381971968"
-    ],
-    "2060355988616540534": [
-      "https://x.com/SidebarIO/status/2060355988616540534",
-      "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg",
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
     "2060361091474223504": [
       "https://x.com/AlphaSignalAI/status/2060361091474223504",
@@ -17763,14 +17589,6 @@
     "2060399973506924612": [
       "https://x.com/huntlovell/status/2060399973506924612",
       "http://x.com/i/article/2060157320651554816"
-    ],
-    "2060401038591435197": [
-      "https://x.com/SidebarIO/status/2060401038591435197",
-      "https://www.nngroup.com/articles/after-design-critique/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJgD00KWoAIbz_u.jpg",
-      "https://x.com/SidebarIO/status/2059993607419965888",
-      "https://www.shapes.gg/figma-agent-a-first-look/?ref=sidebar",
-      "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
     ],
     "2060406977357070522": [
       "https://x.com/aparnadhinak/status/2060406977357070522",
@@ -22710,24 +22528,27 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070651025896485267",
-      "https://x.com/waterloo_intern/status/2070649884731167018",
       "https://x.com/waterloo_intern/status/2071129032427814920",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2071127571874615407",
+      "https://www.youtube.com/watch?v=8cO61e_8oPY&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&index=9",
+      "https://cme296.stanford.edu/syllabus/",
+      "https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf",
+      "https://x.com/waterloo_intern/status/2070654302243434863",
       "https://x.com/waterloo_intern/status/2070675743198384634",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070654226959835199",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
       "https://x.com/waterloo_intern/status/2071125264772542785",
-      "https://x.com/waterloo_intern/status/2070650605002203176",
-      "https://x.com/waterloo_intern/status/2070937115958092271",
+      "https://x.com/waterloo_intern/status/2070937069732675616",
+      "https://x.com/waterloo_intern/status/2070936986509299914",
       "https://x.com/waterloo_intern/status/2071127868462264776",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
       "https://x.com/waterloo_intern/status/2070653300152943067",
-      "https://x.com/waterloo_intern/status/2070936986509299914"
+      "https://x.com/waterloo_intern/status/2070701138777899369",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070937115958092271",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070675913315057722",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070682937541226871"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22738,23 +22559,22 @@
       "https://x.com/eualmeidazs/status/2070849534419206327",
       "https://x.com/eualmeidazs/status/2070856808340554146",
       "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
-      "https://x.com/eualmeidazs/status/2070844785624072493",
       "https://x.com/eualmeidazs/status/2070948833362690429",
       "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
-      "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2071264470211469373",
-      "https://x.com/eualmeidazs/status/2070905988832497723",
-      "https://x.com/eualmeidazs/status/2071031777267773861",
-      "https://x.com/eualmeidazs/status/2071262821287936388",
-      "https://x.com/eualmeidazs/status/2070845398495678935",
-      "https://x.com/eualmeidazs/status/2070843539978682877",
-      "https://x.com/eualmeidazs/status/2071263753883001079",
+      "https://x.com/eualmeidazs/status/2070844785624072493",
       "https://x.com/eualmeidazs/status/2070898919597285879",
+      "https://x.com/eualmeidazs/status/2071031777267773861",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
+      "https://x.com/eualmeidazs/status/2070683457257119930",
+      "https://x.com/eualmeidazs/status/2070905988832497723",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
+      "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070845398495678935",
       "https://x.com/eualmeidazs/status/2070873357210230796",
-      "https://x.com/eualmeidazs/status/2070869714088190279"
+      "https://x.com/eualmeidazs/status/2071262821287936388",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
+      "https://x.com/eualmeidazs/status/2070873405071478812"
     ],
     "2070652345562923299": [
       "https://x.com/richzou/status/2070652345562923299",
@@ -22768,8 +22588,8 @@
       "https://x.com/mitchellh/status/2070954238839251343",
       "https://x.com/mitchellh/status/2070879168829751399",
       "https://x.com/mitchellh/status/2070860507368792372",
-      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070701789981331662",
+      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070868895041560965"
     ],
@@ -22798,10 +22618,11 @@
     "2070811699624755587": [
       "https://x.com/cgtwts/status/2070811699624755587",
       "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg",
+      "https://x.com/cgtwts/status/2071285957995999574",
+      "https://pbs.twimg.com/media/HL6vmPfawAA1J2-.jpg",
       "https://x.com/cgtwts/status/2071196300096450851",
       "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg",
-      "https://x.com/cgtwts/status/2070733213446840776",
-      "https://x.com/cgtwts/status/2070610600003248530"
+      "https://x.com/cgtwts/status/2070733213446840776"
     ],
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
@@ -22872,18 +22693,16 @@
     "2070989582850793947": [
       "https://x.com/RhysSullivan/status/2070989582850793947",
       "http://x.com/i/article/2060109453488455680",
-      "https://x.com/RhysSullivan/status/2071011353079460139",
-      "https://x.com/RhysSullivan/status/2071122341552328838",
       "https://x.com/RhysSullivan/status/2071003584272138693",
       "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png",
+      "https://x.com/RhysSullivan/status/2071011353079460139",
+      "https://x.com/RhysSullivan/status/2071122341552328838",
       "https://x.com/RhysSullivan/status/2071051433525551355",
       "https://x.com/RhysSullivan/status/2071067144754974894",
       "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png",
-      "https://x.com/RhysSullivan/status/2071136524943654976",
-      "https://pbs.twimg.com/media/HL4nmbCaEAAwGyP.png",
-      "https://x.com/RhysSullivan/status/2071121170683040140",
-      "https://pbs.twimg.com/media/HL4ZuB7bUAAN_Nz.jpg",
-      "https://x.com/RhysSullivan/status/2071097878391779832"
+      "https://x.com/RhysSullivan/status/2071296524429222315",
+      "https://x.com/RhysSullivan/status/2071295701200576692",
+      "https://x.com/RhysSullivan/status/2071293570859012380"
     ],
     "2070991681953161251": [
       "https://x.com/RhysSullivan/status/2070991681953161251",
@@ -22900,6 +22719,6 @@
       "https://x.com/daleverett/status/2071253817648443495"
     ]
   },
-  "updated_at": "2026-06-28T16:36:38Z",
+  "updated_at": "2026-06-28T18:17:56Z",
   "window": "recent"
 }
