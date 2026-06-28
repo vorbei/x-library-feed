@@ -1215,22 +1215,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059978479459000320"
     },
-    "http://x.com/i/article/2060024515619397638": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060024515619397638",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060024515619397638/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJa76bMXYAAVzh0?format=jpg&name=900x900)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040491975008256)\n\nHow to build your own agent harness???\n\n[![](https://pbs.twimg.com/profile_images/2000231368198852610/YnKhL5h5_normal.jpg)](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[Mike Piccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[@mfpiccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n·\n\n5h\n\nFollow\n\nClick to Follow mfpiccolo\n\n6\n\n31\n\n324\n\n[36K](http://x.com/i/article/2060024515619397638/mfpiccolo/status/2060069083878408689/analytics)\n\nMost agent teams don't build a harness. They adopt one. LangChain, LangGraph, OpenAI Agents SDK, Anthropic SDK, CrewAI, AutoGen, the loop, the tools, the memory, and the orchestration are picked off the shelf as a single decision. The harness is a framework you import. If something inside it doesn't fit, you fork it, fight it, or work around it.\n\n[![Image](https://pbs.twimg.com/media/HJa7xHCWEAQZ9aX?format=jpg&name=small)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040331945447428)\n\nI think that shape is wrong, and it's the reason every long-running agent team eventually ends up rewriting its harness from scratch. The harness isn't one thing. It's ten or twelve different things bundled together because the surrounding ecosystem doesn't give you a way to compose them. \n\n[Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent)\n\n packages are on the right track, but they are still in the paradigm of “Add another service and integrate it with all others.” The iii engine treats all workers the same and removes the integration logic completely. The provider router, the credential vault, the policy engine, the approval gate, the model catalog, the session storage, the budget tracker, the after-call hook fanout, and the durable turn loop are independent concerns. These are all interoperable with your queue, http/api server, streaming, even browser workers. A framework that ships them as one block is selling you a tradeoff you didn't have to make.\n\nThe bet underneath\n\n[ iii](https://iii.dev/)\n\n is that they shouldn't be one block. There should be a set of workers on a shared engine, each replaceable, each versioned independently, each connected by a single primitive: a trigger (iii.trigger()) that every other worker also uses. The harness becomes a stack of installable workers, and \"build your own\" stops meaning \"fork a framework.\" It means \"swap a few workers.\"\n\nThis post walks through what that actually looks like. The complete stack that drives an iii agent turn today, why each layer is its own worker, and how you replace any of them.\n\n## \n\nThe 15 jobs an agent harness has to do\n\nIf you strip a production agent harness back to its responsibilities, you get a list that looks roughly like this:\n\n1. Accept a turn request from a client and persist it\n2. Resolve credentials for whichever model provider gets called\n3. Look up what the chosen model can actually do (vision, tools, streaming, context window)\n4. Drive the per-turn state machine, provision, stream assistant, run tools, steer, tear down\n5. Load and serve skill bodies that describe each function's request shape, error codes, and usage notes\n6. Assemble the system prompt, mode paragraph, identity preamble, working directory, and default skills appendix\n7. Stream tokens back to the client as the model produces them\n8. Check every tool call (that’s just a function) against a policy before it runs\n9. Pause tool calls that need a human decision and route the answer back to the right turn\n10. Track LLM spend against per-workspace or per-agent budgets\n11. Run hooks before and after tool calls (logging, redaction, custom side",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060024515619397638/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJa76bMXYAAVzh0?format=jpg&name=900x900)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040491975008256)\n\n如何构建你自己的 agent harness？\n\n[![图片](https://pbs.twimg.com/profile_images/2000231368198852610/YnKhL5h5_normal.jpg)](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[Mike Piccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n[@mfpiccolo](http://x.com/i/article/2060024515619397638/mfpiccolo)\n\n·\n\n5小时前\n\n关注\n\n点击关注 mfpiccolo\n\n6\n\n31\n\n324\n\n[36K](http://x.com/i/article/2060024515619397638/mfpiccolo/status/2060069083878408689/analytics)\n\n大多数 agent 团队并不构建 harness，而是直接采用现成的。LangChain、LangGraph、OpenAI Agents SDK、Anthropic SDK、CrewAI、AutoGen——循环、工具、记忆和编排被作为一个整体决策从货架上拿下来。Harness 就是一个你导入的框架。如果其中某个部分不合适，你就得 fork 它、对抗它，或者绕开它。\n\n[![图片](https://pbs.twimg.com/media/HJa7xHCWEAQZ9aX?format=jpg&name=small)](http://x.com/i/article/2060024515619397638/mfpiccolo/article/2060069083878408689/media/2060040331945447428)\n\n我认为这种形态是错误的，这也是为什么每个长期运行的 agent 团队最终都会从头重写自己的 harness。Harness 不是单一的东西，而是十到十二个不同东西的捆绑体，因为周围的生态系统没有提供一种组合它们的方式。\n\n[Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) 包走在正确的轨道上，但它们仍然停留在“添加另一个服务并将其与所有其他服务集成”的范式中。iii 引擎将所有 worker 一视同仁，完全消除了集成逻辑。提供者路由器、凭证库、策略引擎、审批门、模型目录、会话存储、预算追踪器、调用后钩子分发以及持久化回合循环，这些都是独立的关注点。它们都可以与你的队列、HTTP/API 服务器、流式传输甚至浏览器 worker 互操作。一个将它们作为单一模块发布的框架，是在向你推销一个你本不必做出的权衡。\n\n[ iii](https://iii.dev/) 背后的赌注是，它们不应该是单一模块。应该有一组运行在共享引擎上的 worker，每个都可替换，每个独立版本化，每个都通过一个单一原语连接：一个触发器（iii.trigger()），其他所有 worker 也使用它。Harness 变成了一个可安装 worker 的堆栈，而“构建你自己的”不再意味着“fork 一个框架”，而是“替换几个 worker”。\n\n这篇文章将带你了解这实际上是什么样子。今天驱动 iii agent 回合的完整堆栈，为什么每一层都是自己的 worker，以及如何替换其中任何一个。\n\n## \n\nAgent harness 必须完成的 15 项工作\n\n如果你将一个生产级 agent harness 拆解回其职责，你会得到一份大致如下的清单：\n\n1. 接受来自客户端的回合请求并持久化它\n2. 解析被调用的模型提供者的凭证\n3. 查找所选模型的实际能力（视觉、工具、流式传输、上下文窗口）\n4. 驱动每回合的状态机：预置、流式传输助手、运行工具、引导、拆除\n5. 加载并提供技能主体，描述每个函数的请求结构、错误码和使用说明\n6. 组装系统提示、模式段落、身份前缀、工作目录和默认技能附录\n7. 在模型生成令牌时，将令牌流式传输回客户端\n8. 在运行之前，根据策略检查每个工具调用（这只是一个函数）\n9. 暂停需要人工决策的工具调用，并将答案路由到正确的回合\n10. 根据工作区或 agent 预算追踪 LLM 花费\n11. 在工具调用前后运行钩子（日志记录、编辑、自定义副作用）",
-      "text_excerpt_zh_hash": "40323ee9de878e26",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060024515619397638"
-    },
     "http://x.com/i/article/2060058317246898178": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6412,6 +6396,45 @@
       "title": "",
       "url": "http://x.com/i/article/2070730492236947456"
     },
+    "http://x.com/i/article/2070895816273960960": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070895816273960960",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL1M55MaQAAprU7?format=jpg&name=900x900)](http://x.com/ccatalini/article/2070896788408799300/media/2070895961149423616)\n\nIntelligence wants to be free\n\n[![](https://pbs.twimg.com/profile_images/1625887550660558848/UAwu7wTP_normal.jpg)](http://x.com/ccatalini)\n\n[Christian Catalini](http://x.com/ccatalini)\n\n[@ccatalini](http://x.com/ccatalini)\n\n·\n\n13h\n\nFollow\n\nClick to Follow ccatalini\n\n10\n\n26\n\n106\n\n[14K](http://x.com/ccatalini/status/2070896788408799300/analytics)\n\nWe're at a fork in the road. One path leads to the rapid and irreversible bureaucratization of intelligence. Government approval, absent clear and technically sound guidelines, becomes a way to pick winners, erect barriers to entry, and give labs someone to blame if a model goes rogue. The alternative path is one where we battle to retain distributed and market-driven access to intelligence, capabilities are widely distributed, and the battle is fought in the market rather than in Washington D.C.\n\nAnd while ultimately intelligence will want to be free (\n\n[free as in speech](https://en.wikipedia.org/wiki/Wikipedia:Gratis%5Fversus%5Flibre)\n\n, not as in beer), and the arc will bend towards openness, we could face a long, dark period of an intelligence caste system. Deciding who gets to use frontier intelligence and who doesn't is simply too much power for any single company or administration to wield unilaterally. The economic rents that would follow from that power would undo the key assumption of free-market economies that talent, effort and ingenuity map (even with friction and imperfection) to the ability to succeed. It would land the United States in a model that is much more similar to the planned economy of its challenger, China.\n\nCapitalism requires that the decentralized and voluntary exchange in free markets is able to organize resources, drive human ingenuity and innovation, and ultimately guarantee societal welfare better than any form of centralized planning, no matter how smart, AI-augmented, or well-intended altruist.\n\nBut a world where frontier intelligence is not voluntarily available to market participants is one where this assumption falls apart. It is one where the profit motive is replaced by favor, influence and access to the spice.\n\nSome have called for a \n\n[rebel alliance](https://x.com/nickgrossman/article/2070181707613937866)\n\n. But the problem with rebel alliances is that they are hard to organize, and often confuse faith in ideas such as decentralization and openness without challenging the alternative from first principles.\n\nEarly crypto made exactly the same mistakes. We made exactly the same mistakes when we tried to build Libra, only to brace for impact after regulators did to our naive ideas for decentralization what they are doing right now to Anthropic and OpenAI. For decades, proponents of stronger privacy and control over your data made the same mistake in trying to challenge the large, two-sided social media platforms and their network effects.\n\nAnd I've made the same mistake. Yes, it is true \n\n[open networks do eventually win](https://x.com/ccatalini/status/1983588222921023552?s=20)\n\n, but this typically happens in unexpected ways and never in the format that resembles the format of the centralized alternative. Linux did not win on the desktop, it had to wait for the cloud.\n\nDecentralized intelligence will not win in the same format as the one we're being served by the large foundation labs. It will not win by trying to acquire context and digital traces of your work \n\n[inside your company Slack](https://x.com/ccatalini/status/2069845846003433702?s=20)\n\n or by \n\n[watching your computer use](https://x.com/ccatalini/status/2067690466980810926?s=20)\n\n. It will not win by collecting unique data at scale through the relentless acquisition of incumbents with fragile business models be",
+      "title": "",
+      "url": "http://x.com/i/article/2070895816273960960"
+    },
+    "http://x.com/i/article/2070929900270202880": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070929900270202880",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL1sGbqWMAAwi2D?format=jpg&name=900x900)](http://x.com/Zephyr%5Fhg/article/2070930326705295739/media/2070930261420683264)\n\nThe People Getting Unbelievably Good At AI Are About To Run Everything\n\n[![](https://pbs.twimg.com/profile_images/1741076613939277824/vs_v9C1j_normal.jpg)](http://x.com/Zephyr%5Fhg)\n\n[Zephyr](http://x.com/Zephyr%5Fhg)\n\n[@Zephyr\\_hg](http://x.com/Zephyr%5Fhg)\n\n·\n\n10h\n\nFollow\n\nClick to Follow Zephyr\\_hg\n\n4\n\n15\n\n79\n\n[13K](http://x.com/Zephyr%5Fhg/status/2070930326705295739/analytics)\n\nSomething is about to separate people, and it comes down to one skill.\n\nA small group is getting unbelievably good at running AI. The rest are still poking at it.\n\nIn a couple of years the gap between them stops being a gap and becomes a wall.\n\nThe people on the right side of it won't be the smartest. They'll be the ones who got good early.\n\nHere is what unbelievably good actually means, and why the door is still open.\n\n## \n\nWhat Unbelievably Good At AI Means\n\nForget the clever prompt and the memorized trick.\n\nIt's the ability to set AI up to do real work, then run it the way you'd run a team.\n\nThe proficient give it full context, point it at the work, and keep it producing.\n\nThey get a day of output in an hour, every day, while everyone else asks it questions.\n\nThat depth of skill is invisible from outside and decisive from inside.\n\n## \n\nWhy They're About To Run Everything\n\nPay and power follow output. The proficient produce what whole teams used to.\n\nOne person who is truly good at this carries the work of a department.\n\nThat person gets hired first, charges the most, and builds the fastest.\n\nMultiply it across every field and the proficient end up running the room.\n\nIt already started. The market just hasn't named it.\n\n## \n\nWhy It's Still A Choice\n\nHere is the part that's fair. Getting good isn't gated.\n\nNo degree, no fund, no permission. The tools cost about what a subscription costs.\n\nIt takes reps, not talent. The people who look like geniuses just started sooner.\n\nThe door is open because most people still treat AI like a toy.\n\nEarly is a decision available right now.\n\n## \n\nWhat Separates The Proficient\n\nThe dabblers chase the newest model and the cleverest phrasing.\n\nThe proficient build the thing around the model: the context, the tools, the routines.\n\nOne group restarts from scratch every session. The other builds once and runs it for months.\n\nThat difference stacks into a different league within a year.\n\nSkill here is built, not bought.\n\n## \n\nWhat Getting Good Looks Like Today\n\nStrip away the abstraction and getting good has a concrete shape. It's setting up Claude properly.\n\nYou give Claude a folder with everything about your work. You write it a short briefing file. You plug in your tools.\n\nThen you stop asking it questions and start handing it jobs that run on their own.\n\nThat setup is what unbelievably good means in 2026\\. The system built once, not the prompt typed again.\n\nThe folder is the memory. The file is the briefing. The connectors are the reach.\n\n## \n\nWhere To Start\n\nGetting unbelievably good at AI comes down to one thing: setting it up to run your work.\n\nThat's what \n\n[Claude Mastery](https://zephyrhq.gumroad.com/l/ClaudeMastery/Article?utm%5Fsource=Twitter&utm%5Fmedium=Article&utm%5Fcampaign=128)\n\n teaches. The folder, the context file, the connectors, and the routines that run it.\n\nIt teaches the reps that turn dabbling into real skill, step by step.\n\nStart with the folder this weekend. Be early while getting good is still a choice.\n\n[Get it here →](https://zephyrhq.gumroad.com/l/ClaudeMastery/Article?utm%5Fsource=Twitter&utm%5Fmedium=Article&utm%5Fcampaign=128)\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/1741076613939277824/vs_v9C1j_normal.jpg)](http://x.c",
+      "title": "",
+      "url": "http://x.com/i/article/2070929900270202880"
+    },
+    "http://x.com/i/article/2070947137177935872": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070947137177935872",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL17jtfasAA5rpy?format=jpg&name=900x900)](http://x.com/daleverett/article/2071032203094737236/media/2070947257097302016)\n\nIntroducing the easiest way to connect any data source with Postgres: Fabric\n\n[![](https://pbs.twimg.com/profile_images/2049549782755205121/y6qaHyA-_normal.jpg)](http://x.com/daleverett)\n\n[dale](http://x.com/daleverett)\n\n[@daleverett](http://x.com/daleverett)\n\n·\n\n4h\n\nFollow\n\nClick to Follow daleverett\n\n4\n\n10\n\n[277](http://x.com/daleverett/status/2071032203094737236/analytics)\n\nIf you have ever had to write glue code just to connect one more API, webhook, SaaS tool, or event stream to Postgres, this article is for you. Fabric is our new way to connect any data source with Postgres and turn scattered external data into live, queryable context for apps and AI agents.\n\n## \n\nFabric takes scattered external data and turns it into live, queryable context for apps and AI agents.\n\n* No more rebuilding the same ingestion stack for every source.\n* No more treating every webhook like a special snowflake.\n* No more pretending raw JSON is the same thing as understanding.\n\nFabric gives Polygres a way to ingest the outside world and turn it into graph-native context inside Postgres. ETL moves data. Fabric builds context.\n\nAnd yes, hopefully it deletes a few thousand lines of glue code along the way.\n\n[Sign up for polygres (and fabric) here.](https://polygres.com)\n\n## \n\nTurn any source into instant AI Context\n\nFabric is a connector-native ingestion layer for Polygres. That means it sits between the outside world and Postgres. Fabric helps you map incoming data into actual context.\n\nAt a high level, Fabric looks like this:\n\n[![Image](https://pbs.twimg.com/media/HL3HSU7bUAAXb-g?format=jpg&name=small)](http://x.com/daleverett/article/2071032203094737236/media/2071030521329831936)\n\nSource → Connector → Buffer → Mapping → Resolver → Polygres\n\nSo instead of every integration becoming a custom mini-service, the ingestion path becomes reusable infrastructure.\n\n* Add a source.\n* Define the mapping.\n* Resolve identity.\n* Query the context.\n* Move on with your life.\n* Maybe even go outside. Touch grass.\n\n## \n\nWhat Makes Fabric Different\n\nFabric is not trying to be “yet another ETL tool but with a better landing page.”\n\nThe difference is that Fabric is built around connected context from the start.\n\nIt is:\n\n> Connector-nativeDesigned to bring in data from APIs, webhooks, SaaS tools, databases, streams, devices, and internal services.\n\n> DeclarativeYou describe how data maps into your model instead of writing bespoke ingestion code every time.\n\n> Graph-awareIncoming data can become nodes, edges, properties, vectors, and relationships.\n\n> Identity-awareResolvers help avoid duplicate soup.\n\n> Postgres-native through PolygresThe context lands where developers already want to build.\n\nFabric turns “ugh, another integration” into “nice, another source of context.”\n\n## \n\nFabric is coming soon.\n\nConnect every source.\n\nResolve every identity.\n\nGive Postgres the context layer it deserves. More links below.\n\n[polygres.com](http://polygres.com/)\n\n— Dale & the \n\n[@evokoa\\_ai](https://x.com/@evokoa%5Fai)\n\n Team \n\n[@daltonmeon](https://x.com/@daltonmeon)\n\n[@damienhe](https://x.com/@damienhe)\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/2049549782755205121/y6qaHyA-_normal.jpg)](http://x.com/daleverett)  \n[dale](http://x.com/daleverett)  \n[@daleverett](http://x.com/daleverett)  \nFollow  \nClick to Follow daleverett  \nFounder  \n[@evokoa\\_ai](http://x.com/evokoa%5Fai)  \n | backed by  \n[@fdotinc](http://x.com/fdotinc)  \n | angel investor Check out our launch: [http://polygres.com](https://t.co/Osu8LGArWL) /  \n[@polygres](http://x.com/polygres)  \n[https://github.com/Evokoa/pgGraph](https://t.co/Iwh1ZrsHcf)",
+      "title": "",
+      "url": "http://x.com/i/article/2070947137177935872"
+    },
     "http://zaro.ai": {
       "content_type": "text/html",
       "description": "Stop using tools, start running a system. Zaro builds the agents and apps your company runs on - generated from your existing data, just by describing what you need.",
@@ -7964,6 +7987,32 @@
       "title": "Partidos de fútbol históricos completos online | Footballia",
       "url": "https://footballia.eu/es"
     },
+    "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Policymakers’ approach to automation won’t work for AI.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/",
+      "frameable": null,
+      "image_urls": [
+        "https://foreignpolicy.com/wp-content/uploads/2026/06/1-artificial-intelligence-workforce.png",
+        "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/public/images/logos/FP_logo__app.png",
+        "https://foreignpolicy.com/wp-content/uploads/2021/09/Ones-and-Tooze-podcast-foreign-policy-logo-3000x3000-1.jpg?w=150&quality=90",
+        "https://foreignpolicy.com/wp-content/uploads/2019/11/I_SPY-series-art_updated.png?w=150&quality=90",
+        "https://foreignpolicy.com/wp-content/uploads/2023/02/FP-Live-podcast-logo-3000x3000-1.png?w=150&quality=90",
+        "https://foreignpolicy.com/wp-content/uploads/2026/06/Summer-2026-print-cover.jpg",
+        "https://foreignpolicy.com/wp-content/uploads/2026/06/1-artificial-intelligence-workforce.png?quality=90",
+        "https://foreignpolicy.com/wp-content/uploads/2026/06/2-artificial-intelligence-workforce-industrial-revolution-GettyImages-188003482.jpg?w=800",
+        "https://foreignpolicy.com/wp-content/uploads/2026/06/3-space-x-ai-workforce-GettyImages-2281285983.jpg?w=800",
+        "https://foreignpolicy.com/wp-content/uploads/2026/05/china-AI-race-GettyImages-2266654766-e1778151777248.jpg?w=150&quality=80",
+        "https://foreignpolicy.com/wp-content/uploads/2026/04/1-Ai-petrostates-GettyImages-1232572571.jpg?w=150&quality=80",
+        "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/icons/audio.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Argument](https://foreignpolicy.com/category/analysis/argument/)\nThis Industrial Revolution Is Not Like the Last One\nPolicymakers’ approach to automation won’t work for AI.\nThe space-cum-artificial intelligence company SpaceX just went public at an [eye-watering valuation](https://www.nytimes.com/2026/06/15/business/spacex-stock.html)—the largest in history—making its founder, Elon Musk, the world’s first trillionaire. In the same stretch of days, the U.S. Bureau of Labor Statistics reported that the average American worker had lost [a year and a half of wage gains](https://www.nytimes.com/2026/06/10/business/economy/inflation-consumer-price-index.html) as of May. Two more frontier labs, Anthropic and OpenAI, are lined up to raise fortunes of their own, even as [trust in the technology craters](https://fortune.com/2026/01/21/ai-workers-toxic-relationship-trust-confidence-collapses-training-manpower-group/) and anxieties about job losses and inequality climb.\nPolicymakers feel the pressure to prove they are not mere bystanders while a revolutionary technology threatens to upend the social order. Their instinctive response borrows from an earlier age, when automation came for the factory. That playbook never worked especially well: Since the 1980s, it [failed](https://www.theatlantic.com/education/archive/2018/01/why-is-the-us-so-bad-at-protecting-workers-from-automation/549185/) to make displaced workers whole, and across the advanced world, its deployment coincided with [rising inequality](https://ourworldindata.org/how-has-income-inequality-within-countries-evolved-over-the-past-century). And it is even less suited to what comes next.\nThe space-cum-artificial intelligence company SpaceX just went public at an [eye-watering valuation](https://www.nytimes.com/2026/06/15/business/spacex-stock.html)—the largest in history—making its founder, Elon Musk, the world’s first trillionaire. In the same stretch of days, the U.S. Bureau of Labor Statistics reported that the average American worker had lost [a year and a half of wage gains](https://www.nytimes.com/2026/06/10/business/economy/inflation-consumer-price-index.html) as of May. Two more frontier labs, Anthropic and OpenAI, are lined up to raise fortunes of their own, even as [trust in the technology craters](https://fortune.com/2026/01/21/ai-workers-toxic-relationship-trust-confidence-collapses-training-manpower-group/) and anxieties about job losses and inequality climb.\nPolicymakers feel the pressure to prove they are not mere bystanders while a revolutionary technology threatens to upend the social order. Their instinctive response borrows from an earlier age, when automation came for the factory. That playbook never worked especially well: Since the 1980s, it [failed](https://www.theatlantic.com/education/archive/2018/01/why-is-the-us-so-bad-at-protecting-workers-from-automation/549185/) to make displaced workers whole, and across the advanced world, its deployment coincided with [rising inequality](https://ourworldindata.org/how-has-income-inequality-within-countries-evolved-over-the-past-century). And it is even less suited to what comes next.\nThe core ingredients of governments’ approach to automation, pioneered in the United States and adapted to varying degrees elsewhere, were to retrain workers for new jobs, cushion the gap with unemployment insurance, compensate the losers through trade adjustment assistance, and nudge employers to hold on to jobs as long as possible. The premise is that, after a painful adjustment, the economy resettles at a higher level of productivity, demands more workers in new roles, and leaves everyone better off.\nGovernments are once again placing retraining and upskilling at the center of their adaptation strategies. [India’s government](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177440®=3&lang=2) touts a “national reskilling engine to upskill and reskill millions.” [Canada](https://theconversation.com/canadas-ai-for-all-strategy-has",
+      "title": "The Manufacturing-Era Toolkit Won't Work for the AI Revolution",
+      "url": "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/"
+    },
     "https://ft.trib.al/9ed1nwc": {
       "content_type": "",
       "description": "",
@@ -8860,25 +8909,6 @@
       "text_excerpt_zh": "",
       "title": "iii — Three primitives. Zero integration cost.",
       "url": "https://iii.dev/"
-    },
-    "https://iii.dev/blog/how-to-build-your-own-agent-harness/": {
-      "cleaner_v": 2,
-      "content_type": "text/html",
-      "description": "Most agent teams adopt a harness as one decision. iii decomposes it into eleven independently-replaceable workers on one engine bus. Build your own stops meaning fork a framework and starts meaning swap a few workers.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/",
-      "frameable": false,
-      "image_urls": [
-        "https://iii.dev/og-image.png",
-        "https://iii.dev/blog/_astro/cover.D6wTHfoP_2dkUBr.webp"
-      ],
-      "kind": "article",
-      "text_excerpt": "How to Build Your Own Agent Harness\nMost agent teams don’t build a harness. They adopt one. LangChain, LangGraph, OpenAI Agents SDK, Anthropic SDK, CrewAI, AutoGen, the loop, the tools, the memory, the orchestration are picked off the shelf as a single decision. The harness is a framework you import. If something inside it doesn’t fit, you fork it, fight it, or work around it.\nI think that shape is wrong, and it’s the reason every long-running agent team eventually ends up rewriting its harness from scratch. The harness isn’t one thing. It’s ten or twelve different things bundled together because the surrounding ecosystem doesn’t give you a way to compose them. [Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) packages are on the right track, but they are still in the paradigm of “Add another service and integrate it with all others” The iii engine treats all workers the same and removes the integration logic completely. The provider router, the credential vault, the policy engine, the approval gate, the model catalog, the session storage, the budget tracker, the after-call hook fanout, the durable turn loop are independent concerns. These are all interoperable with your queue, http/api server, streaming, even browser workers. A framework that ships them as one block is selling you a tradeoff you didn’t have to make.\nThe bet underneath [iii](https://iii.dev/) is that they shouldn’t be one block. There should be a set of workers on a shared engine, each replaceable, each versioned independently, each connected by a single primitive: a trigger (iii.trigger()\n) that every other worker also uses. The harness becomes a stack of installable workers, and “build your own” stops meaning “fork a framework.” It means “swap a few workers.”\nThis post walks through what that actually looks like. The complete stack that drives an iii agent turn today, why each layer is its own worker, and how you replace any of them.\nThe 15 jobs an agent harness has to do\nIf you strip a production agent harness back to its responsibilities, you get a list that looks roughly like this:\n- Accept a turn request from a client and persist it\n- Resolve credentials for whichever model provider gets called\n- Look up what the chosen model can actually do (vision, tools, streaming, context window)\n- Drive the per-turn state machine, provision, stream assistant, run tools, steer, tear down\n- Load and serve skill bodies that describe each function’s request shape, error codes, and usage notes\n- Assemble the system prompt, mode paragraph, identity preamble, working directory, and default skills appendix\n- Stream tokens back to the client as the model produces them\n- Check every tool call (that’s just a function) against a policy before it runs\n- Pause tool calls that need a human decision and route the answer back to the right turn\n- Track LLM spend against per-workspace or per-agent budgets\n- Run hooks before and after tool calls (logging, redaction, custom side effects)\n- Persist the session as a branching tree so forks and resumes work\n- Compact session history when the context window fills up\n- Emit an event stream that the UI subscribes to\n- Missing piece from every agent’s company building, I see. Carry one OpenTelemetry trace across every step so you can debug it\nEvery serious agent harnesses most of these. The expensive ones do all of them. The cheap ones cut corners and rebuild the corners later when they hit production. The frameworks bundle them into a monolith and ship one version of each. That last part is the part that costs you, because a year in, you find out that the policy engine you want is not the policy engine the framework ships, and replacing it means replacing the harness.\nThe iii harness ships every one of those thirteen jobs as a separate worker on the [workers.iii.dev](https://workers.iii.dev/) registry. Each speaks the same WebSocket protocol. Each registers functions and triggers on the same engine bus. Each is",
-      "text_excerpt_zh": "# 如何构建你自己的 Agent Harness\n\n大多数 agent 团队并不自己构建 harness，而是直接采用现成的。LangChain、LangGraph、OpenAI Agents SDK、Anthropic SDK、CrewAI、AutoGen——循环、工具、记忆、编排——这些都被当作一个整体决策从货架上拿下来。Harness 就是你导入的一个框架。如果里面某个部分不合适，你就得 fork 它、对抗它，或者绕开它。\n\n我认为这种形态是错误的，这也是为什么每个长期运行的 agent 团队最终都会从头重写自己的 harness。Harness 并不是一个单一的东西。它是十到十二个不同东西的捆绑包，只是因为周围生态没有提供组合它们的方式。[Pi agent](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) 包走在正确的方向上，但它们仍然停留在\"再添加一个服务并与其他所有服务集成\"的范式里。iii 引擎将所有 worker 一视同仁，完全消除了集成逻辑。提供者路由器、凭证保险库、策略引擎、审批网关、模型目录、会话存储、预算追踪器、调用后钩子分发、持久化轮次循环——这些都是独立的关注点。它们都可以与你的队列、HTTP/API 服务器、流式传输、甚至浏览器 worker 互操作。一个将它们作为整体打包的框架，是在卖给你一个本不必做出的权衡。\n\n[iii](https://iii.dev/) 背后的赌注是：它们不应该是一个整体。应该有一组运行在共享引擎上的 worker，每个都可替换，每个都独立版本化，每个都通过一个单一原语连接：一个触发器（`iii.trigger()`），其他所有 worker 也使用它。Harness 变成了一组可安装的 worker，\"构建你自己的\"不再意味着\"fork 一个框架\"，而是\"替换几个 worker\"。\n\n这篇文章将带你了解这实际上是什么样子的。驱动 iii agent 轮次的完整栈、为什么每一层都是自己的 worker，以及如何替换其中任何一个。\n\n## Agent Harness 必须完成的 15 项工作\n\n如果你把一个生产级 agent harness 拆解到它的职责，你会得到大致如下的列表：\n\n- 接受来自客户端的轮次请求并持久化\n- 解析调用哪个模型提供者所需的凭证\n- 查找所选模型实际能做什么（视觉、工具、流式传输、上下文窗口）\n- 驱动每轮状态机：预置、流式传输助手、运行工具、引导、拆除\n- 加载并提供描述每个函数请求形状、错误码和使用说明的技能体\n- 组装系统提示、模式段落、身份序言、工作目录和默认技能附录\n- 在模型生成 token 时将其流式传输回客户端\n- 在每次工具调用（即函数调用）运行前，根据策略进行检查\n- 暂停需要人工决策的工具调用，并将答案路由回正确的轮次\n- 根据工作空间或 agent 预算追踪 LLM 花费\n- 在工具调用前后运行钩子（日志记录、脱敏、自定义副作用）\n- 将会话持久化为分支树，以便支持分支和恢复\n- 在上下文窗口填满时压缩会话历史\n- 发出 UI 订阅的事件流\n- 缺失的部分——每个 agent 公司构建时都会遇到：在每一步携带一个 OpenTelemetry 追踪，以便调试\n\n每个严肃的 agent harness 都会处理其中大部分工作。昂贵的会完成所有工作。便宜的会偷工减料，然后在进入生产环境后再重新补齐。框架将它们捆绑成一个单体，并只发布每个组件的一个版本。最后这一点正是让你付出代价的地方，因为一年后你会发现，你想要的策略引擎并不是框架自带的那个，而替换它意味着替换整个 harness。\n\niii harness 将上述十三项工作中的每一项都作为独立的 worker 发布在 [workers.iii.dev](https://workers.iii.dev/) 注册表上。每个 worker 使用相同的 WebSocket 协议。每个 worker 在同一引擎总线上注册函数和触发器。每个 worker 都是",
-      "text_excerpt_zh_hash": "184e7137ca314bb3",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "How to Build Your Own Agent Harness",
-      "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
     },
     "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf": {
       "cf_fallback_error": "empty result",
@@ -10983,6 +11013,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10996,6 +11040,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg": {
       "cleaner_v": 2,
@@ -11024,6 +11082,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070915620791554051/img/ciCiSl0VjcwlTtY4.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11668,20 +11740,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJaRRNjX0AcmdP8.jpg"
-    },
-    "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg"
     },
     "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg": {
       "cleaner_v": 2,
@@ -13475,6 +13533,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
     },
+    "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg"
+    },
+    "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg"
+    },
+    "https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg"
+    },
     "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -13488,6 +13588,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png"
+    },
+    "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -17864,12 +17978,6 @@
     "2060049802931433800": [
       "https://x.com/JanTomasekDev/status/2060049802931433800"
     ],
-    "2060054180379689074": [
-      "https://x.com/_catwu/status/2060054180379689074",
-      "https://pbs.twimg.com/media/HJbIQaQXkAEnq4A.jpg",
-      "https://x.com/_catwu/status/2060054182447448387",
-      "https://x.com/_catwu/status/2060138792875352515"
-    ],
     "2060058269801161016": [
       "https://x.com/Voxyz_ai/status/2060058269801161016",
       "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg"
@@ -17885,16 +17993,6 @@
       "https://x.com/schrockn/status/2060329166629646685",
       "https://x.com/schrockn/status/2060329584176828893",
       "https://x.com/schrockn/status/2060151949043826994"
-    ],
-    "2060069083878408689": [
-      "https://x.com/mfpiccolo/status/2060069083878408689",
-      "http://x.com/i/article/2060024515619397638",
-      "https://x.com/mfpiccolo/status/2060296379092664708",
-      "https://iii.dev/blog/how-to-build-your-own-agent-harness/",
-      "https://x.com/mfpiccolo/status/2060099429533646956",
-      "https://x.com/mfpiccolo/status/2060294921874006411",
-      "https://x.com/mfpiccolo/status/2060346570659238362",
-      "https://x.com/mfpiccolo/status/2060500670596149512"
     ],
     "2060074305887551818": [
       "https://x.com/nateherk/status/2060074305887551818",
@@ -22841,11 +22939,11 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
-      "https://x.com/_prisis_/status/2070735001084101022",
       "https://x.com/_prisis_/status/2070751830129160636",
       "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
-      "https://x.com/_prisis_/status/2070736034258678080",
-      "https://x.com/_prisis_/status/2070735123109056986"
+      "https://x.com/_prisis_/status/2070735001084101022",
+      "https://x.com/_prisis_/status/2070735123109056986",
+      "https://x.com/_prisis_/status/2070736034258678080"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22930,7 +23028,9 @@
       "http://x.com/i/article/2070556766660931584"
     ],
     "2070589563429691698": [
-      "https://x.com/zarazhangrui/status/2070589563429691698"
+      "https://x.com/zarazhangrui/status/2070589563429691698",
+      "https://x.com/zarazhangrui/status/2070982013822333007",
+      "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg"
     ],
     "2070597472863350948": [
       "https://x.com/SidebarIO/status/2070597472863350948",
@@ -22951,23 +23051,23 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070654302243434863",
       "https://x.com/waterloo_intern/status/2070675743198384634",
-      "https://x.com/waterloo_intern/status/2070936986509299914",
+      "https://x.com/waterloo_intern/status/2070654302243434863",
       "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070937069732675616",
       "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070936986509299914",
+      "https://x.com/waterloo_intern/status/2070937069732675616",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
       "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070701138777899369",
       "https://x.com/waterloo_intern/status/2070937200284573745",
       "https://x.com/waterloo_intern/status/2070937115958092271",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070682937541226871",
       "https://x.com/waterloo_intern/status/2070675913315057722",
       "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070649884731167018",
+      "https://x.com/waterloo_intern/status/2070682937541226871",
       "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070649884731167018",
       "https://x.com/waterloo_intern/status/2070675844075524146"
     ],
     "2070644820478251225": [
@@ -22983,14 +23083,15 @@
       "https://x.com/eualmeidazs/status/2070948833362690429",
       "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
       "https://x.com/eualmeidazs/status/2070683457257119930",
+      "https://x.com/eualmeidazs/status/2071031777267773861",
       "https://x.com/eualmeidazs/status/2070905988832497723",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070845398495678935",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070843539978682877",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
-      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070873405071478812",
       "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
@@ -23003,12 +23104,12 @@
       "https://x.com/mitchellh/status/2070665127331037290",
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
-      "https://x.com/mitchellh/status/2070954238839251343",
       "https://x.com/mitchellh/status/2070879168829751399",
+      "https://x.com/mitchellh/status/2070954238839251343",
       "https://x.com/mitchellh/status/2070860507368792372",
-      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070701789981331662",
       "https://x.com/mitchellh/status/2070699332718977465",
+      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070868895041560965"
     ],
     "2070690243880116242": [
@@ -23017,10 +23118,27 @@
     ],
     "2070735964788658598": [
       "https://x.com/zarazhangrui/status/2070735964788658598",
-      "http://x.com/i/article/2070730492236947456"
+      "http://x.com/i/article/2070730492236947456",
+      "https://x.com/zarazhangrui/status/2070982013822333007",
+      "https://pbs.twimg.com/media/HL2aLlQaoAAxlok.jpg"
+    ],
+    "2070744174467670440": [
+      "https://x.com/zephyr_z9/status/2070744174467670440",
+      "https://x.com/zephyr_z9/status/2070766918727057519"
+    ],
+    "2070811699624755587": [
+      "https://x.com/cgtwts/status/2070811699624755587",
+      "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg",
+      "https://x.com/cgtwts/status/2070733213446840776",
+      "https://x.com/cgtwts/status/2070610600003248530",
+      "https://x.com/cgtwts/status/2070584618588537005",
+      "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
     ],
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
+    ],
+    "2070856294789968058": [
+      "https://x.com/IAmPascio/status/2070856294789968058"
     ],
     "2070861975358525500": [
       "https://x.com/rohit4verse/status/2070861975358525500",
@@ -23041,18 +23159,68 @@
       "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf",
       "https://www.exponentialview.co/p/the-state-of-the-ai-economy"
     ],
+    "2070885356585545805": [
+      "https://x.com/omarsar0/status/2070885356585545805"
+    ],
+    "2070896788408799300": [
+      "https://x.com/ccatalini/status/2070896788408799300",
+      "http://x.com/i/article/2070895816273960960",
+      "https://x.com/ccatalini/status/2070899866444935300",
+      "https://x.com/JayaGup10/status/2003525933534179480?s=20",
+      "https://x.com/ccatalini/status/2070914348541710362",
+      "https://x.com/ccatalini/status/2070939573299847530",
+      "https://x.com/ccatalini/status/2070934665238659472",
+      "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg",
+      "https://x.com/ccatalini/status/2070911625431765479",
+      "https://x.com/ccatalini/status/2070937640161931405",
+      "https://x.com/ccatalini/status/2070932326851207185",
+      "https://x.com/ccatalini/status/2070920343611412957",
+      "https://x.com/ccatalini/status/2070908930356572191"
+    ],
+    "2070902276806656190": [
+      "https://x.com/ccatalini/status/2070902276806656190",
+      "https://x.com/ccatalini/status/2070896788408799300?s=20",
+      "https://x.com/ccatalini/status/2070908853030380012"
+    ],
+    "2070930326705295739": [
+      "https://x.com/Zephyr_hg/status/2070930326705295739",
+      "http://x.com/i/article/2070929900270202880"
+    ],
+    "2070949159545524402": [
+      "https://x.com/termsheetinator/status/2070949159545524402",
+      "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
+    ],
     "2070977289932935435": [
       "https://x.com/natolambert/status/2070988271086367221",
       "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
+    ],
+    "2070986028232663486": [
+      "https://x.com/vasuman/status/2070986028232663486"
     ],
     "2070989582850793947": [
       "https://x.com/RhysSullivan/status/2070989582850793947",
       "http://x.com/i/article/2060109453488455680",
       "https://x.com/RhysSullivan/status/2071011353079460139",
       "https://x.com/RhysSullivan/status/2071003584272138693",
-      "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png"
+      "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png",
+      "https://x.com/RhysSullivan/status/2071051433525551355",
+      "https://x.com/RhysSullivan/status/2071067144754974894",
+      "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
+    ],
+    "2070991681953161251": [
+      "https://x.com/RhysSullivan/status/2070991681953161251",
+      "https://x.com/RhysSullivan/status/2070995838852292769",
+      "https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg"
+    ],
+    "2071005745596756347": [
+      "https://x.com/ForeignPolicy/status/2071005745596756347",
+      "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/"
+    ],
+    "2071032203094737236": [
+      "https://x.com/daleverett/status/2071032203094737236",
+      "http://x.com/i/article/2070947137177935872"
     ]
   },
-  "updated_at": "2026-06-28T00:14:56Z",
+  "updated_at": "2026-06-28T04:53:50Z",
   "window": "recent"
 }
