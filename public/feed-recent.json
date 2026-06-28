@@ -1276,6 +1276,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060100974082240512"
     },
+    "http://x.com/i/article/2060109453488455680": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060109453488455680",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL2edhjaMAA4rxY?format=jpg&name=900x900)](http://x.com/RhysSullivan/article/2070989582850793947/media/2070985633720578048)\n\ni don't want to use your agent\n\n[![](https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg)](http://x.com/RhysSullivan)\n\n[Rhys](http://x.com/RhysSullivan)\n\n[@RhysSullivan](http://x.com/RhysSullivan)\n\n·\n\n2h\n\n·\n\nFollow\n\nClick to Follow RhysSullivan\n\n27\n\n21\n\n220\n\n[15K](http://x.com/RhysSullivan/status/2070989582850793947/analytics)\n\ni want to use the skills, knowledge, and apis your company has spent years developing, not your custom agent\n\nalmost every company by this point has shipped an agent\n\nthere's a cloudflare agent in their dashboard, a posthog agent, a mecury agent, a linear agent, the list goes on each week we see a homepage fall to a chat interface\n\ni don't actually think this is a bad thing, quite the opposite interacting with sites through an agent is magical\n\nthe problem is, i don't want to use any of these for a variety of reasons\n\n> incentives\n\none of the biggest is the incentive problem. i am always running opus 4.8 or gpt 5.5, the costs for a company to provide this for free for all their users is unsustainable \n\nwhat ends up happening is most of the time when you're chatting with an agent on a website, you're dealing with a quantized version of kimi 2.5 and while it gets the job done, it's not your agent\n\ni'm paying for the best models, i want to use the best models for my work\n\n> context\n\nwhen i am in the linear agent on the web ui, it's lacking the ability for me to bring in my local files, random git repositories, etc\n\nthey can go build this functionality and are, but you're never going to beat me running my local setup\n\n> so, what do i want?\n\ni want my agent to become an expert in your product and problem area\n\nfor linear this looks like a set of skills to help me break down my largest problems into actionable tickets\n\nfor cloudflare this looks like detailed docs on their extensive product surface and cli commands to run\n\nfor posthog, this is the data to query, deeplinked ui components to help me visualize data, skills to help me grow my product\n\nthe same knowledge and expertise that you embed into your ui and documentation needs to become accessible to my daily driver agent\n\n> enabling this\n\nthe problem is, i am a power user of these tools. i have multiple max subscriptions across different providers, am swapping tooling constantly, i am not representative of most users\n\nso how do you enable the power users of this technology while not forgetting about the people that genuinely do want to use your in app agent / slackbot / etc?\n\nyou build your internal agent off of the same primitives your power users will be using\n\nthis roughly looks like:\n\n* some form of harness (pi, opencode, harness sdk, can be lightweight)\n* skills\n* mcp / api\n\nwhen landing on a chat, have some form of prompt that's like \"want to continue in your own agent? install the mcp/cli and skills\"\n\nyour regular users can dismiss it and keep using your in built chat, your power users can embed your product directly into their agent, and you only have one source of truth to maintain\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg)](http://x.com/RhysSullivan)  \n[Rhys](http://x.com/RhysSullivan)  \n[@RhysSullivan](http://x.com/RhysSullivan)  \nFollow  \nClick to Follow RhysSullivan  \nbuilding [http://executor.sh](https://t.co/gIFOwRUrLU) to connect any agent to every tool, API, and service your team uses | yc 26",
+      "title": "",
+      "url": "http://x.com/i/article/2060109453488455680"
+    },
     "http://x.com/i/article/2060157320651554816": {
       "cleaner_v": 2,
       "content_type": "",
@@ -2301,6 +2314,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2062594837644226560"
+    },
+    "http://x.com/i/article/2062609696079675392": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2062609696079675392",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLtXQz0akAAoy0e?format=jpg&name=900x900)](http://x.com/rohit4verse/article/2070861975358525500/media/2070344400006451200)\n\nAnatomy of a Personal Agent: Decoding the Architecture Behind Hermes, OpenClaw, and the Agent OS Era\n\n[![](https://pbs.twimg.com/profile_images/2005314466255360000/XtVoqVdV_normal.jpg)](http://x.com/rohit4verse)\n\n[Rohit](http://x.com/rohit4verse)\n\n[@rohit4verse](http://x.com/rohit4verse)\n\n·\n\n10h\n\nFollow\n\nClick to Follow rohit4verse\n\n25\n\n10\n\n61\n\n[6K](http://x.com/rohit4verse/status/2070861975358525500/analytics)\n\nRight now, a program on my server is reading X so I don't have to.\n\nEvery three hours it wakes up, scans the timeline, and sorts what it finds into two piles: the posts worth my attention, and the noise. It throws the noise away. It sends the rest to my Telegram as a short summary here's what's moving, here's what you can ignore, here's the one thing you should actually think about today.\n\nI haven't opened the app in weeks. I haven't missed anything either.\n\nIt feels like it's thinking about me.\n\nIt isn't. It's a cron job, a database, and a model. That's the whole trick. And the good news is that once you can see the trick, you can build it and you stop being impressed by people selling you the magic.\n\nLet me show you the machine.\n\n## \n\nWhat a personal agent actually is\n\nForget the hype for a second. A personal agent is four plain things bolted together:\n\nIt runs on hardware you control. It stays on. It talks to you through apps you already use Telegram, WhatsApp, Slack, iMessage. And it remembers you between conversations.\n\nThat's it. That's the whole category.\n\nThe difference between this and the chatbot tab you already know isn't intelligence. It's presence. A chat tab forgets you the moment you close it. A personal agent doesn't close. It's the difference between driving to an office to ask a colleague a question and having them sit in the room with you. Same person. Completely different relationship.\n\nEverything else in this article the architecture, the two big tools, the security nightmares, the reason every company in the Bay Area is suddenly building one comes back to that single shift. From a thing you visit to a thing that lives with you.\n\n## \n\nIt started with one guy who didn't want to babysit his own tools\n\nEvery shift has a boring origin. This one's is a developer named Peter Steinberger, and an itch.\n\nWe have models now that can reason, write code, drive a browser. But the way we talk to them is broken. Open a tab, paste context, get an answer, close the tab, watch the model forget you exist. Every conversation starts from zero.\n\nSteinberger's question was the obvious one almost nobody had shipped a clean answer to: what if it didn't stop? What if the model lived on your machine as a process that never closed the tab that you could text from your phone, that could wake itself up and act?\n\nHe built it. He called it Moltbot. A personal tool, not a startup. And he built the first version fast roughly a month, leaning hard on an AI agent of his own to write it. Tools built by one obsessive person for themselves are usually better than the committee version, because there's no product manager sanding off the edges. Moltbot was sharp because it was personal.\n\nThen in February 2026 he joined OpenAI. You can't run a fast-growing open-source project as a solo side gig while you're at a frontier lab, so it was moved into a foundation and renamed.\n\nMoltbot became OpenClaw.\n\nIf I strip OpenClaw down to one sentence, it's this: a well-structured harness for running crons. That sounds small. It isn't. Almost everything people call \"agentic\" is, underneath, something that fires on a schedule or an event and is allowed to act. OpenClaw made that easy, connected it to every chat app, and opened the whole thing up. MIT licensed. The second it went",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2062609696079675392"
     },
     "http://x.com/i/article/2062633861515984896": {
       "cleaner_v": 2,
@@ -8848,6 +8875,19 @@
       "title": "How to Build Your Own Agent Harness",
       "url": "https://iii.dev/blog/how-to-build-your-own-agent-harness/"
     },
+    "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "application/pdf",
+      "description": "",
+      "final_url": "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf"
+    },
     "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy": {
       "cleaner_v": 2,
       "content_type": "text/html;charset=utf-8",
@@ -10881,20 +10921,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg": {
       "cleaner_v": 2,
@@ -13374,6 +13400,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
+    "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg"
+    },
+    "https://pbs.twimg.com/media/HL08vEYboAAsgQm.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL08vEYboAAsgQm.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL08vEYboAAsgQm.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL08vEYboAAsgQm.jpg"
+    },
+    "https://pbs.twimg.com/media/HL08wk_aUAA1rt_.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL08wk_aUAA1rt_.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL08wk_aUAA1rt_.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL08wk_aUAA1rt_.jpg"
+    },
+    "https://pbs.twimg.com/media/HL08y4JaMAA85Xw.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL08y4JaMAA85Xw.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL08y4JaMAA85Xw.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL08y4JaMAA85Xw.jpg"
+    },
     "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13387,6 +13469,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
+    },
+    "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -16174,6 +16270,32 @@
       "title": "Self-Fulfilling Projects",
       "url": "https://www.davesresearch.com/self-fulfilling-projects/?ref=sidebar"
     },
+    "https://www.exponentialview.co/p/the-state-of-the-ai-economy": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "We've reconstructed the AI economy from the bottom up",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.exponentialview.co/p/the-state-of-the-ai-economy",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!3dcB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec7d1c16-2ca0-49a5-beb8-63a11c40699b_1982x1112.png",
+        "https://substackcdn.com/image/fetch/$s_!nZP2!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fexponentialview.substack.com%2Fapi%2Fv1%2Fpost_preview%2F202866779%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!v0nk!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F46fc2cf0-7745-4c27-8875-94a97cb1fc9f_900x900.png",
+        "https://substackcdn.com/image/fetch/$s_!d6N9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F931eae40-a06b-4b94-9474-43285effee3b_1066x324.png",
+        "https://substackcdn.com/image/fetch/$s_!_NHa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e1db680-10ac-47bd-bd39-dd4cb17073ea_3950x2190.png",
+        "https://substackcdn.com/image/fetch/$s_!zBiH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0660528c-b661-46d3-99cc-673ab7751f82_1984x1124.png",
+        "https://substackcdn.com/image/fetch/$s_!MSEP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f36ff8e-a4ff-4337-a459-5fcdad5c8407_2932x1644.png",
+        "https://substackcdn.com/image/fetch/$s_!Ccdg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07e25f76-7ff9-4085-a5d7-fa245cc0a39a_1970x1126.png",
+        "https://substackcdn.com/image/fetch/$s_!Rd0f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feeb1f1bc-cc60-4b32-8c3e-a8dce7860da0_1630x924.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png",
+        "https://substackcdn.com/image/fetch/$s_!FT04!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd6b0e67-1b59-4042-b062-c2c6d32e38c9_400x400.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!BNFZ!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63fc8053-5706-4b12-aa3f-fc77da47dbfe_3223x3223.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "🔮 The state of the AI economy\nWe’ve reconstructed the AI economy from the bottom up\nThe generative AI economy has generated $110 billion in sales over the past 12 months. It is growing fast. On an annualized basis, the revenue run rate exceeds $175 billion.\nThese numbers took us several months to construct, and as far as we know, it’s the first bottom-up, deduplicated measure of consumer and enterprise AI spending across the full stack. We are releasing this research today in our first [The State of the AI Economy](http://intelligence.exponentialview.co)[ ](http://intelligence.exponentialview.co)[report](http://intelligence.exponentialview.co). \nThe supply side of the AI market is well-understood. The picks and shovel suppliers, the computer chips, the memory, the power transformers, the cooling, all of the components of AI data centers are largely public companies. We get a sense of what is being spent on the buildout through their disclosures, sales and forward order books.\nBut understanding the demand side is much harder. And this is what we’ve spent the last few months tackling. We built a proprietary AI economy model that looks at total AI spend, whether enterprise or consumer, to answer the hardest questions of the AI wave:\n- How big is the market really? \n- Are the revenues growing? \n- How far do the revenues go to cover the investment expense? \n- What happens to the economics in the future as token prices fall and the quality of those tokens improves? \nBefore we get into the report, we think it’s important to break down how we did this work.\nTHE METHODOLOGY\nHow we count the demand side\nOne of our central design choices was not to count the same thing twice. We report the dollar spent by an end customer. So if you spend one dollar with Anthropic for Claude and Anthropic spends 50 cents with Amazon to serve it, we track both figures internally, but we will report it as our de-duplicated number: one dollar. This avoids double-counting the value that flows through the supply chain.\nThis isn’t straightforward. While it’s easy to count the supply side, the demand side is trickier to entangle. Much of the revenue flowing into AI comes from privately held companies such as OpenAI, Anthropic, Cursor, ElevenLabs, and hundreds of others. They don’t legally need to disclose anything.\nThe remainder flows to the big hyperscalers that serve these models: Amazon, Google, and Microsoft. While they are public, they don’t consistently disclose their AI segment revenues.\nTo shed light on this, we examine public statements from hyperscalers and neoclouds, their suppliers, and their customers, using only high-confidence, detailed facts to inform our modeling. We also look at well-reported leaks and self-reports, to which we assign a confidence score.\nThe result is an item-by-item financial model for the largest contributing companies and business units. Each model is effectively a deconstructed financial plan, a P&L, balance sheet, and cash flow, and these are triangulated against other external sources and internal consistency checks. This makes our numbers auditable. We can identify which data point, with which confidence weighting, contributed to any given estimate.\nWhat we don’t count\nWe don’t include internal AI uplift, which is how much recommendation systems have improved, increasing ad revenue at Meta or Google. We do have models for those, but we’re not reporting them here.\nNor do we consider efficiency savings that the bigger tech companies might realize with their internal tools. We’re not tracking that yet.\nWe don’t include professional services and systems integration. When a Fortune 500 company spends or invests in AI, only a portion of that spend will go to an AI company. It won’t represent the full extent of their commitment, because a large part of it will be paying professional services to support the implementation.\nWe have got models for revenues in China, but this v1 of our report doesn’t include Chinese data yet.\nTHE T",
+      "title": "🔮 The state of the AI economy",
+      "url": "https://www.exponentialview.co/p/the-state-of-the-ai-economy"
+    },
     "https://www.extend.ai/ui?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16285,6 +16407,26 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend. — HollandTech",
       "url": "https://www.hollandtech.net/claude-is-not-your-architect"
+    },
+    "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "A capability threshold I've been carefully monitoring.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!Of7h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png",
+        "https://substackcdn.com/image/fetch/$s_!Ayy1!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Frobotic.substack.com%2Fapi%2Fv1%2Fpost_preview%2F203035259%2Ftwitter.jpg%3Fversion%3D4",
+        "https://substackcdn.com/image/fetch/$s_!djof!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc52e8097-8f3d-4f7e-808b-2f4ad37f3b52_720x720.png",
+        "https://substackcdn.com/image/fetch/$s_!mkoP!,e_trim:10:white/e_trim:10:transparent/h_116,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858a68f7-2e7e-4dd3-bed1-631b36801ce2_1651x357.png",
+        "https://substackcdn.com/image/fetch/$s_!xhhJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7074458b-82aa-4658-95bb-9315549abb7f_4239x2799.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "GLM-5.2 is the step change for open agents\nA capability threshold I've been carefully monitoring.\nHousekeeping: Following my “[State of the blog](https://www.interconnects.ai/p/state-of-the-blog-mid-2026)” post last week, noting a slight increase in paid features, it’s a good time to remind folks that I offer [group subscriptions](https://www.interconnects.ai/about#§group-paid-subscriptions) with larger discounts proportional to the number of seats. \nI also released a new paper today on open RL recipes for terminal agents, read more [here](https://natolambert.substack.com/p/tmax-an-open-rl-recipe-for-terminal).\nA bit over a week ago, when the AI world was still reeling from the shocking [export restriction, and effective banning](https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance), of [Claude Fable 5](https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety), Z.ai released their latest model, GLM-5.2. This model was [rolled out](https://x.com/Zai_org/status/2065704919299235870) unusually on a Saturday, June 13th, to GLM Coding Plan members. This is an unusual release practice, normally when an AI model is released on a weekend it’s for a weird reason (most famously, [Llama 4](https://www.interconnects.ai/p/llama-4)).[1](https://www.interconnects.ai#footnote-1) In this case, it seemed like Z.ai was excited to capitalize on the zeitgeist of “Anthropic being anti open-science” with their silent safeguards on AI researchers. For the past year or two, the Chinese open-weight labs have taken every opportunity they have for easy marketing wins like this.\nGLM-5.2, in a common naming convention across the industry, looked potentially like an incremental update following the popular GLM-5.1 model. At this point, Moonshot AI, makers of the Kimi models, and Z.ai, makers of the GLM models, have consolidated the top of the reputational market with the most beloved open-weight models among AI researchers. What unfolded is a common lesson in tracking AI models that often minor version numbers can have AI models crossing meaningful user experience thresholds. A small change in benchmarks and training can open a wide range of new use-cases.\nWhat has followed is a slow, groundswell of hype for GLM-5.2. The official, MIT-licensed [model weights](https://huggingface.co/zai-org/GLM-5.2) and [release blog](https://z.ai/blog/glm-5.2) dropped three days after the initial rollout, on June 16th. One could ramble many technical details, such as the strong benchmark scores, the very popular RL framework that Z.ai uses ([SLIME](https://github.com/THUDM/slime)), the recommendation of always using the model on Max thinking effort, and so on, but the initial release blogs usually aren’t the thing to focus on. You can wait and read the ecosystem reaction to know if it’s the real deal. [Benchmarks are half dead these days](https://www.interconnects.ai/p/opus-46-vs-codex-53), anyways.\nWhat followed on the 16th was a slew of community benchmarks showing better-than-expected results for GLM-5.2. [Arena’s agent leaderboard](https://x.com/arena/status/2066943450914943025) had it as the only open model mixing it up with OpenAI and Anthropic’s latest models (notably matching Opus 4.8’s no-thinking effort to GLM-5.2’s max mode). This is one of many evals GLM-5.2 is crushing Gemini on, but that’s a topic for another time. A benchmark that has mixed perception in the community (particularly among actual designers), [Design Arena](https://x.com/Designarena/status/2066940737011560652) even had GLM-5.2 besting Claude Fable itself — the recently banned hype machine!\nPretty much everyone I respect among the AI commentariat and researcher class has praised the model after using it personally. Such a focal point of discussion among the community has only been so clear with an open model release once before — [DeepSeek R1](https://www.interconnects.ai/p/deepseek-r1-recipe-for-o1). This is not a comparison I make lightly, and when I compared [Kimi K2’s",
+      "title": "GLM-5.2 is the step change for open agents",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
     },
     "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications?ref=sidebar": {
       "cleaner_v": 2,
@@ -22569,8 +22711,7 @@
       "http://x.com/i/article/2069741413164568576"
     ],
     "2070190799636291740": [
-      "https://x.com/gabepereyra/status/2070190799636291740",
-      "https://x.com/gabepereyra/status/2070520992099905986"
+      "https://x.com/gabepereyra/status/2070190799636291740"
     ],
     "2070194762007576934": [
       "https://x.com/PawelHuryn/status/2070194762007576934",
@@ -22689,11 +22830,11 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
-      "https://x.com/_prisis_/status/2070736034258678080",
       "https://x.com/_prisis_/status/2070735001084101022",
-      "https://x.com/_prisis_/status/2070735123109056986",
       "https://x.com/_prisis_/status/2070751830129160636",
-      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
+      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
+      "https://x.com/_prisis_/status/2070736034258678080",
+      "https://x.com/_prisis_/status/2070735123109056986"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22705,11 +22846,11 @@
     "2070450974708093229": [
       "https://x.com/0xMortyx/status/2070450974708093229",
       "http://x.com/i/article/2070441264122626049",
-      "https://x.com/0xMortyx/status/2070461392876908667",
-      "https://x.com/0xMortyx/status/2070453250164158754",
-      "https://x.com/0xMortyx/status/2070453134409769159",
       "https://x.com/0xMortyx/status/2070455812154179916",
-      "https://x.com/0xMortyx/status/2070452904868069854"
+      "https://x.com/0xMortyx/status/2070453134409769159",
+      "https://x.com/0xMortyx/status/2070461392876908667",
+      "https://x.com/0xMortyx/status/2070452904868069854",
+      "https://x.com/0xMortyx/status/2070453250164158754"
     ],
     "2070467106412626035": [
       "https://x.com/bibryam/status/2070467106412626035",
@@ -22800,23 +22941,23 @@
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
       "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070649884731167018",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
       "https://x.com/waterloo_intern/status/2070675743198384634",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070936986509299914",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070937069732675616",
+      "https://x.com/waterloo_intern/status/2070651206339571805",
       "https://x.com/waterloo_intern/status/2070653300152943067",
-      "https://x.com/waterloo_intern/status/2070650605002203176",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070937200284573745",
+      "https://x.com/waterloo_intern/status/2070937115958092271",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
       "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070654226959835199",
       "https://x.com/waterloo_intern/status/2070682937541226871",
       "https://x.com/waterloo_intern/status/2070675913315057722",
-      "https://x.com/waterloo_intern/status/2070675844075524146",
-      "https://x.com/waterloo_intern/status/2070685881858691535"
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2070649884731167018",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070675844075524146"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -22828,19 +22969,17 @@
       "https://x.com/eualmeidazs/status/2070856808340554146",
       "https://x.com/eualmeidazs/status/2070856702262473049?s=20",
       "https://x.com/eualmeidazs/status/2070844785624072493",
-      "https://x.com/eualmeidazs/status/2070905988832497723",
-      "https://x.com/eualmeidazs/status/2070931971706966057",
-      "https://x.com/eualmeidazs/status/2070658849845952988?s=20",
+      "https://x.com/eualmeidazs/status/2070948833362690429",
+      "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
       "https://x.com/eualmeidazs/status/2070683457257119930",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
+      "https://x.com/eualmeidazs/status/2070905988832497723",
       "https://x.com/eualmeidazs/status/2070845036757950838",
       "https://x.com/eualmeidazs/status/2070845398495678935",
-      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070843539978682877",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070873357210230796",
-      "https://x.com/eualmeidazs/status/2070925214070808882",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070873405071478812",
       "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
@@ -22853,16 +22992,13 @@
       "https://x.com/mitchellh/status/2070665127331037290",
       "http://x.com/i/article/2070665015032705024",
       "https://x.com/mitchellh/status/2070698019495010358",
-      "https://x.com/mitchellh/status/2070860507368792372",
+      "https://x.com/mitchellh/status/2070954238839251343",
       "https://x.com/mitchellh/status/2070879168829751399",
+      "https://x.com/mitchellh/status/2070860507368792372",
+      "https://x.com/mitchellh/status/2070868642120822838",
       "https://x.com/mitchellh/status/2070701789981331662",
       "https://x.com/mitchellh/status/2070699332718977465",
-      "https://x.com/mitchellh/status/2070868895041560965",
-      "https://x.com/mitchellh/status/2070868642120822838",
-      "https://x.com/mitchellh/status/2070281069631611056",
-      "https://x.com/mitchellh/status/2070262735896772843",
-      "https://x.com/mitchellh/status/2070273858154987537",
-      "https://pbs.twimg.com/amplify_video_thumb/2070272886338879488/img/97fB594WEY3aFUXn.jpg"
+      "https://x.com/mitchellh/status/2070868895041560965"
     ],
     "2070690243880116242": [
       "https://x.com/cyrilXBT/status/2070690243880116242",
@@ -22875,12 +23011,37 @@
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
     ],
+    "2070861975358525500": [
+      "https://x.com/rohit4verse/status/2070861975358525500",
+      "http://x.com/i/article/2062609696079675392"
+    ],
     "2070876072619765805": [
       "https://x.com/MatthewBerman/status/2070876072619765805",
       "https://github.com/Forward-Future/loop-library",
       "https://x.com/MatthewBerman/status/2070878464102789193"
+    ],
+    "2070878567861514247": [
+      "https://x.com/SaaSletter/status/2070878567861514247",
+      "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg",
+      "https://pbs.twimg.com/media/HL08vEYboAAsgQm.jpg",
+      "https://pbs.twimg.com/media/HL08wk_aUAA1rt_.jpg",
+      "https://pbs.twimg.com/media/HL08y4JaMAA85Xw.jpg",
+      "https://x.com/SaaSletter/status/2070878570197717091",
+      "https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf",
+      "https://www.exponentialview.co/p/the-state-of-the-ai-economy"
+    ],
+    "2070977289932935435": [
+      "https://x.com/natolambert/status/2070988271086367221",
+      "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
+    ],
+    "2070989582850793947": [
+      "https://x.com/RhysSullivan/status/2070989582850793947",
+      "http://x.com/i/article/2060109453488455680",
+      "https://x.com/RhysSullivan/status/2071011353079460139",
+      "https://x.com/RhysSullivan/status/2071003584272138693",
+      "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png"
     ]
   },
-  "updated_at": "2026-06-27T18:18:13Z",
+  "updated_at": "2026-06-28T00:14:56Z",
   "window": "recent"
 }
