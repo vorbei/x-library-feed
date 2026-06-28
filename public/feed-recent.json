@@ -1061,22 +1061,6 @@
       "title": "",
       "url": "http://x.com/i/article/2058192123556405248"
     },
-    "http://x.com/i/article/2059414664618954754": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059414664618954754",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059414664618954754/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJaooeBWwAMaeaZ?format=jpg&name=900x900)](http://x.com/i/article/2059414664618954754/neil%5Fxbt/article/2060020517294191002/media/2060019292775563267)\n\nHow to Build a Project Management System in Obsidian That Claude Understands and Updates Constantly.\n\n[![](https://pbs.twimg.com/profile_images/2060131227756072962/s8DV8v8L_normal.jpg)](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n[NeilXbt](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n[@neil\\_xbt](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n·\n\n14h\n\nFollow\n\nClick to Follow neil\\_xbt\n\n13\n\n18\n\n93\n\n[10K](http://x.com/i/article/2059414664618954754/neil%5Fxbt/status/2060020517294191002/analytics)\n\nEvery project management tool you have ever used had the same hidden cost.\n\nThe status update tax.\n\nEvery Monday you updated a Notion board that took fifteen minutes and produced a document nobody read before Tuesday. \n\nEvery sprint you wrote tickets in Jira that described work that had already been done differently. Every Friday you compiled a status report from scattered notes that required you to remember things you should not have to remember.\n\nThe project management problem is not that people do not want to stay organized. \n\nIt is that the maintenance of the organization's system competes with the actual work. \n\nThe more projects you carry, the more time the system consumes. The more the system consumes, the less value it delivers relative to the cost. Eventually you stop updating it and it becomes what every abandoned project management system becomes: a record of how things started, not how they are going.\n\nThe system described in this article has no status update tax.\n\nYou work. You take notes. You attend meetings. Claude reads what you produced, understands the context, extracts what changed, updates the project files, and surfaces what needs attention before you think to look. The projects stay current not because you maintained them but because Claude maintains them from the notes you were already writing.\n\nMy Obsidian task system now runs daily briefings and updates itself. That is the promise and the architecture of this entire article.\n\n## \n\nWhy Obsidian Is the Right Foundation for This\n\nMost project management tools fail as AI-powered systems for the same structural reason: they store data in a proprietary database that nothing outside the tool can read or write without an API integration.\n\nObsidian is different at the foundation level. Obsidian stores everything as plain .md files on your filesystem. No proprietary database. No cloud sync required. This means any AI agent that can read files can read your vault. Claude Code can just cd into your vault folder and start working.\n\nThat difference is everything. A project management system built in Obsidian is a folder of text files on your computer. Claude can read every file in that folder, understand the structure, and write back to it without any API integration, without any paid connector, and without any configuration beyond pointing Claude at the directory.\n\nObsidian has over 1.5 million active users with 22% year-over-year growth and over 2,700 community plugins, more than 100 of which are AI-related. The ecosystem is large enough that anything you need to build on top of the plain file foundation already has a plugin or a community implementation.\n\nThe other reason Obsidian is the right foundation is frontmatter. Frontmatter metadata, properties you assign at the top of each note like a project tag or a status field, makes grouping related items easy without enforcing a rigid folder structure. \n\nObsidian's search can instantly find all notes that share a given property. When every project file has a status field in its frontmatter, Claude can query the entire vault for active projects, blocked projects,",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2059414664618954754/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJaooeBWwAMaeaZ?format=jpg&name=900x900)](http://x.com/i/article/2059414664618954754/neil%5Fxbt/article/2060020517294191002/media/2060019292775563267)\n\n如何在 Obsidian 中构建一个 Claude 能理解并持续更新的项目管理系统\n\n[![](https://pbs.twimg.com/profile_images/2060131227756072962/s8DV8v8L_normal.jpg)](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n[NeilXbt](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n[@neil\\_xbt](http://x.com/i/article/2059414664618954754/neil%5Fxbt)\n\n·\n\n14小时前\n\n关注\n\n点击关注 @neil\\_xbt\n\n13\n\n18\n\n93\n\n[10K](http://x.com/i/article/2059414664618954754/neil%5Fxbt/status/2060020517294191002/analytics)\n\n你使用过的每一个项目管理工具都有同样的隐性成本。\n\n状态更新税。\n\n每周一你更新一个 Notion 看板，花十五分钟，产出一份文档，但周二之前没人会读。每个冲刺你都在 Jira 里写工单，描述的工作却早已用不同方式完成。每周五你从零散的笔记中整理一份状态报告，需要你回忆那些本不该记住的事情。\n\n项目管理的问题不在于人们不想保持井井有条。\n\n而在于维护组织系统的行为与真正的工作相互竞争。你承担的项目越多，系统消耗的时间就越多。系统消耗的时间越多，相对于成本而言，它交付的价值就越低。最终你停止更新它，它就变成了所有被遗弃的项目管理系统的样子：一份记录事情如何开始的档案，而非事情进展如何的档案。\n\n本文描述的系统没有状态更新税。\n\n你工作。你做笔记。你参加会议。Claude 读取你产出的内容，理解上下文，提取变化，更新项目文件，并在你想到要查看之前就呈现需要关注的事项。项目保持最新状态，不是因为你维护了它们，而是因为 Claude 从你已经写下的笔记中维护了它们。\n\n我的 Obsidian 任务系统现在能运行每日简报并自我更新。这就是本文的承诺和整体架构。\n\n## \n\n为什么 Obsidian 是此方案的理想基础\n\n大多数项目管理工具作为 AI 驱动的系统失败，原因在于结构层面：它们将数据存储在专有数据库中，没有 API 集成，外部工具就无法读写。\n\nObsidian 在基础层面就与众不同。Obsidian 将所有内容以纯 .md 文件形式存储在文件系统上。没有专有数据库。无需云同步。这意味着任何能读取文件的 AI agent 都能读取你的 vault。Claude Code 只需 cd 进入你的 vault 文件夹即可开始工作。\n\n这一差异至关重要。在 Obsidian 中构建的项目管理系统，就是电脑上的一个文本文件文件夹。Claude 可以读取该文件夹中的每个文件，理解其结构，并写回内容，无需任何 API 集成、付费连接器，也无需任何配置，只需将 Claude 指向该目录即可。\n\nObsidian 拥有超过 150 万活跃用户，同比增长 22%，并有超过 2,700 个社区插件，其中 100 多个与 AI 相关。这个生态系统足够庞大，以至于任何你需要基于纯文件基础构建的功能，都已经有现成的插件或社区实现。\n\nObsidian 是理想基础的另一个原因是 frontmatter。frontmatter 元数据，即你在每条笔记顶部分配的属性（如项目标签或状态字段），使得在不强制使用严格文件夹结构的情况下，轻松对相关项目进行分组。\n\nObsidian 的搜索功能可以立即找到所有共享某个属性的笔记。当每个项目文件在其 frontmatter 中都有一个状态字段时，Claude 可以查询整个 vault，找出活跃项目、受阻项目，",
-      "text_excerpt_zh_hash": "753eac3f91c11d32",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059414664618954754"
-    },
     "http://x.com/i/article/2059468354927108099": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1154,22 +1138,6 @@
       "title": "",
       "url": "http://x.com/i/article/2059705598988701696"
     },
-    "http://x.com/i/article/2059743488997261312": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059743488997261312",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059743488997261312/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJaz6F5bIAAXvlF?format=jpg&name=900x900)](http://x.com/i/article/2059743488997261312/Av1dlive/article/2060035425574764708/media/2060031690165395456)\n\nHow to Design using AI (Builder's Guide)\n\n[![](https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_normal.jpg)](http://x.com/i/article/2059743488997261312/Av1dlive)\n\n[Avid](http://x.com/i/article/2059743488997261312/Av1dlive)\n\n[@Av1dlive](http://x.com/i/article/2059743488997261312/Av1dlive)\n\n·\n\n13h\n\nFollow\n\nClick to Follow Av1dlive\n\n23\n\n11\n\n104\n\n[18K](http://x.com/i/article/2059743488997261312/Av1dlive/status/2060035425574764708/analytics)\n\nI built a personal Notion this weekend.\n\nNot a clone. The parts of Notion I actually use, stripped of everything I don't. No teammates. No comments. No notification feed. Just my tasks, journal, habits, bookmarks, and pages. One screen. My data. My machine.\n\n> If you don't want to read the entire article, get the Github repo from below and check the product work through. The whole thing runs on two tools doing two jobs:\n\n1. Moonchild AI does the design (brief through final visual)\n2. Cursor and Codex do the code. The rest is incidental.\n\n![](https://pbs.twimg.com/amplify_video_thumb/2059923863027458048/img/dBCO4LWUH21vdMwt.jpg)\n\nt's real. State persists. Dark mode works. Keyboard shortcuts work. You can use it at\n\n> TLDR : \n> \n> [github.com/codejunkie99/cove](http://x.com/i/article/2059743488997261312//github.com/codejunkie99/cove)\n\nThat's the whole post. The rest is the how.\n\n## \n\nThe mental model\n\n> TLDR; If you don't wanna read that long just watch this video on how I designed the frontend \n\n![](https://pbs.twimg.com/amplify_video_thumb/2059798225381625856/img/_S6PgD5Uo5gtkzrI.jpg)\n\nI began from inspiration and then I cross-referenced it with the variance it gave, and then I kept iterating on the feature suggestions it gave. \n\n Keep reading on my Design process using AIThree principles. Get these right and the rest is mechanical. Get them wrong and no tool saves you.\n\n1\\. Design the flow before you design the pixels. The pixel is the last thing you decide. Before the pixel is the screen. Before the screen is the state. Before the state is the action. Before the action is the person, and what they were trying to do when they arrived.\n\n2\\. The prompt is the brief. A one-line prompt is a one-line brief. You would never accept a one-line brief from a human designer you were paying. Don't accept it from an AI one. Write 500 words. Tell it the audience, the constraint, the feeling, the references you admire, the references you refuse to look like.\n\n3\\. The design system lives in the repo. Not in Figma. Not in a Notion page. In a markdown file checked in next to the code, edited in the same pull requests, committed in the same history. Anything else drifts.\n\nSave these as a file in your project. I keep mine as principles.md at the root of every new repo. Open a fresh project, paste the template, edit one line at a time until each principle is one sentence you'd defend in an argument.\n\nmarkdown\n\n```markdown\n# Principles\n\n## How we work\n1. Flow before pixels. We do not open a design tool until we can name every\n   screen, every state, and every transition in plain English.\n2. The prompt is the brief. We write 500-word briefs, not one-line prompts.\n3. The design system lives in the repo. style.md is the source of truth.\n   The code defers to the markdown.\n\n## How we decide\n- When in doubt, cut the feature. Out of Scope is a feature.\n- When the model offers options, we pick one. We do not ship hedges.\n- When something feels off, we name the feeling specifically before we\n  try to fix it.\n\n## How we ship\n- Deploy on day one. The first commit goes to production.\n- Use it for a week before you show anyone.\n- The repo is the artifact. Everything else is a mee",
-      "text_excerpt_zh": "## 如何用AI进行设计（开发者指南）\n\n我上周末搭建了一个个人版Notion。\n\n不是克隆版。而是我实际使用的Notion功能，去掉了所有我不需要的东西。没有团队成员。没有评论。没有通知推送。只有我的任务、日记、习惯、书签和页面。一个屏幕。我的数据。我的机器。\n\n> 如果你不想读完整篇文章，可以从下方获取GitHub仓库，查看产品工作流程。整个项目只靠两个工具完成两项工作：\n\n1. Moonchild AI负责设计（从需求到最终视觉）\n2. Cursor和Codex负责代码。其余都是辅助性的。\n\n这是真实的。状态持久化。深色模式可用。快捷键可用。你可以在这里使用它：\n\n> TLDR：\n> \n> [github.com/codejunkie99/cove](http://x.com/i/article/2059743488997261312//github.com/codejunkie99/cove)\n\n以上就是全部内容。剩下的部分是具体方法。\n\n## 思维模型\n\n> TLDR；如果你不想读这么长的内容，可以看这个视频，了解我是如何设计前端的\n\n我从灵感出发，然后将其与它给出的变化进行交叉参考，接着不断迭代它给出的功能建议。\n\n继续阅读我的AI设计流程。三个原则。把这些搞对了，剩下的就是机械操作。搞错了，什么工具都救不了你。\n\n1. **先设计流程，再设计像素。** 像素是你最后才决定的东西。像素之前是屏幕。屏幕之前是状态。状态之前是操作。操作之前是人，以及他们到达时想要做什么。\n\n2. **提示词就是需求文档。** 一行提示词就是一行需求文档。你绝不会接受一个你付费的人类设计师只给你一行需求文档。也不要接受AI只给一行。写500字。告诉它受众、约束条件、感觉、你欣赏的参考、你拒绝看起来像的参考。\n\n3. **设计系统存在于代码仓库中。** 不在Figma里。不在Notion页面里。而是在一个markdown文件中，与代码一起检入，在同一个pull request中编辑，在同一个提交历史中提交。其他任何方式都会导致偏离。\n\n将这些保存为项目中的一个文件。我在每个新仓库的根目录下都保留一个principles.md。打开一个新项目，粘贴模板，逐行编辑，直到每个原则都成为你愿意在争论中捍卫的一句话。\n\nmarkdown\n\n```markdown\n# 原则\n\n## 我们的工作方式\n1. 流程优先于像素。在能用通俗语言说出每个屏幕、每个状态和每个过渡之前，我们不会打开设计工具。\n2. 提示词就是需求文档。我们写500字的需求文档，而不是一行提示词。\n3. 设计系统存在于代码仓库中。style.md是真理之源。代码遵循markdown。\n\n## 我们的决策方式\n- 有疑问时，砍掉功能。\"超出范围\"本身就是一种功能。\n- 当模型提供选项时，我们选一个。我们不交付模棱两可的东西。\n- 当感觉不对劲时，在尝试修复之前，先具体说出这种感觉。\n\n## 我们的交付方式\n- 第一天就部署。第一个提交就上线。\n- 在给别人看之前，自己先用一周。\n- 代码仓库就是成果物。其他一切都是辅助性的。\n```",
-      "text_excerpt_zh_hash": "fdcf3ca0085bca77",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059743488997261312"
-    },
     "http://x.com/i/article/2059942499565838336": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1185,80 +1153,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2059942499565838336"
-    },
-    "http://x.com/i/article/2059952466205224960": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059952466205224960",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059952466205224960/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJaLmTIbEAAwMA4?format=jpg&name=900x900)](http://x.com/i/article/2059952466205224960/MichLieben/article/2059990512103465438/media/2059987369655472128)\n\nHow We Run our $7M ARR Agency on Claude Code \n\n[![](https://pbs.twimg.com/profile_images/2032185394473955329/sT3lY5XL_normal.jpg)](http://x.com/i/article/2059952466205224960/MichLieben)\n\n[Michel Lieben](http://x.com/i/article/2059952466205224960/MichLieben)\n\n[@MichLieben](http://x.com/i/article/2059952466205224960/MichLieben)\n\n·\n\n16h\n\nFollow\n\nClick to Follow MichLieben\n\n1\n\n31\n\n[15K](http://x.com/i/article/2059952466205224960/MichLieben/status/2059990512103465438/analytics)\n\nMost teams still treat AI like a tool. Marketing has their writing tool, sales has their CRM, recruiting has their resume parser. Every department picks its own toy and the toys don't talk to each other.\n\nAt ColdIQ we stopped doing that about a year ago. We took the same agent, Claude Code, and wired it into the workflow of every single team we have. GTM, sales, content, ads, design, lead magnets, SEO, recruitment. Same engine, eight different skill sets.\n\nWe're at \n\n[$7M+](https://x.com/search?q=%247M%2B&src=cashtag%5Fclick)\n\n ARR, 400+ clients, 30+ people across 10 countries, fully bootstrapped. The cleanest way I can explain how we got there is by walking through what each team actually does inside Claude Code today, and where I'd start if I were rebuilding this from scratch.\n\n[![Image](https://pbs.twimg.com/media/HJZuH1EbMAAzdEt?format=jpg&name=small)](http://x.com/i/article/2059952466205224960/MichLieben/article/2059990512103465438/media/2059954960352358400)\n\nOne agent, eight departments. The operating system view of ColdIQ at $7M ARR.\n\n## \n\nThe shift from AI tool to AI OS\n\nUsing AI is everywhere now. What's actually unusual about this setup is that one agent runs every function in the business, with department-specific skills layered on top of one shared environment.\n\nA skill in Claude Code is just a folder of instructions, prompts, and scripts that teaches the agent how to do a specific job, anything from list building to copywriting to programmatic SEO. Each team built a stack of skills for their own work, but they all live in the same agent.\n\nThat matters because work doesn't actually stay in one department. The list our GTM team builds for a client is the same list our ads team retargets on LinkedIn. The signal our sales team picks up on a closing call ends up in a content angle a week later. When the entire company runs on one agent, the data and the context flow naturally between teams instead of getting trapped in five different SaaS tools.\n\nThe result is a fairly small team that operates with the throughput of one three or four times the size.\n\n[![Image](https://pbs.twimg.com/media/HJZvhQebsAAWafi?format=jpg&name=small)](http://x.com/i/article/2059952466205224960/MichLieben/article/2059990512103465438/media/2059956496717557760)\n\nThe skill stack each team built on top of one shared agent\n\n# \n\nGTM: a campaign goes from brief to live in under 30 minutes\n\nGTM is where Claude Code first earned its keep at ColdIQ. The team built a custom GTM operating system on top of Claude Code that acts as an AI co-pilot for every campaign we ship.\n\nIt's preloaded with client data, ICP definitions, the results of every past campaign we've run, and roughly 15 outbound-specific skills. List building, offer creation, copywriting, segmentation, signal sourcing, sequence assembly. Each skill is a worker that the team can call in plain English while the GTM strategist stays in the driver's seat.\n\nA new Instantly or Lemlist campaign used to take a couple of days of coordinated work between a researcher, a copywriter, and a campaign manager. The list got built, pain points got mapped, copy got drafted, mailboxes got prepped, the sequence g",
-      "text_excerpt_zh": "## 我们如何用 Claude Code 运营一家 700 万美元 ARR 的代理公司\n\n大多数团队仍然把 AI 当作工具来用。市场部有自己的写作工具，销售部有自己的 CRM，招聘部有自己的简历解析器。每个部门各选各的玩具，而这些玩具彼此之间互不沟通。\n\n在 ColdIQ，大约一年前我们就不再这么做了。我们采用了同一个 agent——Claude Code，并将其接入公司每个团队的工作流程。GTM、销售、内容、广告、设计、引流磁铁、SEO、招聘。同一个引擎，八种不同的技能组合。\n\n我们目前 ARR 超过 700 万美元，拥有 400 多个客户，30 多名员工分布在 10 个国家，完全自筹资金。我能解释清楚我们如何走到今天的最简洁方式，就是逐一介绍每个团队目前在 Claude Code 内部实际做的工作，以及如果我要从头重建这套体系，我会从哪里开始。\n\n[图片]\n\n一个 agent，八个部门。ColdIQ 在 700 万美元 ARR 时的操作系统视图。\n\n## 从 AI 工具到 AI 操作系统的转变\n\n现在到处都在用 AI。但这套设置真正独特之处在于，一个 agent 运行着业务中的每一个职能，部门特定的技能叠加在一个共享环境之上。\n\n在 Claude Code 中，技能就是一个包含指令、提示词和脚本的文件夹，用来教会 agent 如何完成某项特定工作——无论是名单构建、文案撰写还是程序化 SEO。每个团队都为自己的工作构建了一套技能栈，但它们都存在于同一个 agent 中。\n\n这一点很重要，因为工作实际上并不会停留在某个部门。我们的 GTM 团队为客户构建的名单，也是我们的广告团队在 LinkedIn 上做再营销时使用的名单。我们的销售团队在成交电话中捕捉到的信号，一周后就会变成内容角度。当整个公司运行在同一个 agent 上时，数据和上下文会在团队之间自然流动，而不是被困在五个不同的 SaaS 工具中。\n\n最终的结果是，一个相当小的团队能够以三到四倍规模的团队吞吐量来运作。\n\n[图片]\n\n每个团队在一个共享 agent 之上构建的技能栈\n\n## GTM：从简报上线到活动完成不到 30 分钟\n\nGTM 是 Claude Code 在 ColdIQ 首次证明其价值的地方。该团队在 Claude Code 之上构建了一个自定义的 GTM 操作系统，作为我们推出的每个活动的 AI 副驾驶。\n\n它预装了客户数据、ICP 定义、我们过去所有活动的结果，以及大约 15 个外拓专用技能。名单构建、offer 创建、文案撰写、细分、信号来源、序列组装。每个技能都是一个 worker，团队可以用通俗英语调用它，而 GTM 策略师则始终掌握主导权。\n\n过去，一个全新的 Instantly 或 Lemlist 活动需要研究员、文案和活动经理之间协调几天时间。构建名单、绘制痛点、起草文案、准备邮箱、编排序列——整个过程现在由 Claude Code 在不到 30 分钟内完成，从简报直接到上线。",
-      "text_excerpt_zh_hash": "81030eac4fd9b57e",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2059952466205224960"
-    },
-    "http://x.com/i/article/2059978479459000320": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2059978479459000320",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2059978479459000320/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJaEDBza0AAmBwU?format=jpg&name=900x900)](http://x.com/i/article/2059978479459000320/justhalfbit/article/2059988985255215288/media/2059979067127156736)\n\n这可能是 macOS 最好看的终端｜Ghostty 配置分享 + 必备插件全推荐\n\n[![](https://pbs.twimg.com/profile_images/2052409784159125515/GUX0IQDf_normal.jpg)](http://x.com/i/article/2059978479459000320/justhalfbit)\n\n[半格 / HalfBit](http://x.com/i/article/2059978479459000320/justhalfbit)\n\n[@justhalfbit](http://x.com/i/article/2059978479459000320/justhalfbit)\n\n·\n\n16h\n\nFollow\n\nClick to Follow justhalfbit\n\n17\n\n43\n\n295\n\n[63K](http://x.com/i/article/2059978479459000320/justhalfbit/status/2059988985255215288/analytics)\n\n我把用了五年的 iTerm2 + oh-my-zsh 全换掉了。\n\n换完这套，我愿称之为 macOS 最强、最快、最好看的终端——秒开、彩虹渐变提示符、半透明毛玻璃窗口透出桌面壁纸。\n\n不是旧方案不好，是太臃肿了。oh-my-zsh 自带 300 多个插件我只用 5 个，框架每次启动都要加载一堆东西，开个新窗口都要卡一下。这篇除了 Ghostty 本身，还有我每天在用的终端必备插件推荐，配置全部开源可以直接抄。\n\n配合上一篇的 Alfred Workflow，⌘+Space → cc → 回车，Ghostty 弹出来直接进 Claude Code，开始 vibe coding。\n\n[![Image](https://pbs.twimg.com/media/HJaEPiTbIAAEgP8?format=jpg&name=small)](http://x.com/i/article/2059978479459000320/justhalfbit/article/2059988985255215288/media/2059979282009759744)\n\n前边评论区有朋友问我的终端怎么配置的，这篇统一回答。讲 Ghostty 安装、必备插件推荐——每个插件是干嘛的、怎么用、使用场景是什么。配置方法我提供了一键安装脚本，复制一行命令 5 分钟装好，执行完就是跟我同款的终端环境：\n\nbash\n\n```bash\nbash <(curl -fsSL https://raw.githubusercontent.com/justhalfbit/ghostty-terminal-config/main/install.sh)\n```\n\n仓库地址：\n\n<https://github.com/justhalfbit/ghostty-terminal-config>\n\n想手动安装的去仓库看 README，有完整的步骤说明。安装完之后打开 \\~/.zshrc，每个插件都写了详细注释——是什么、怎么用、注意事项，忘了用法直接看这个文件就行。这篇文章只讲\"为什么值得用\"和\"装完怎么玩\"。\n\n## \n\n整体架构\n\n这套方案一共三层：\n\n* Ghostty（终端模拟器） — 窗口本身，半透明、GPU 加速、原生 macOS\n* Starship（提示符） — 命令行那行彩色信息，路径、Git 分支、语言版本\n* zsh + 插件（Shell 增强） — 补全、搜索、高亮、跳转，日常操作效率\n\n三层互不依赖，你可以只装其中一层。但全装上之后的化学反应是最舒服的。\n\n## \n\nGhostty — 终端本身\n\nGhostty 是 Zig 语言写的新一代终端模拟器。原生 macOS、GPU 渲染、启动快、配置简单。对标 iTerm2 / Alacritty / Kitty，但更轻更现代。\n\n官网：\n\n[https://ghostty.org](https://ghostty.org/)\n\n我的配置效果：\n\n* 半透明毛玻璃窗口——透出桌面壁纸，但不影响代码阅读\n* Catppuccin Mocha 深色主题——配色柔和不刺眼\n* Maple Mono NF 字体——支持 Nerd Font 图标显示\n* 关掉再打开，标签页、分屏布局、窗口位置全部自动恢复\n\n[![Image](https://pbs.twimg.com/media/HJaElbjbcAARaa4?format=jpg&name=small)](http://x.com/i/article/2059978479459000320/justhalfbit/article/2059988985255215288/media/2059979658154962944)\n\n常用快捷键（装好就能用）：\n\n* ⌘+T — 新建标签页\n* ⌘+D — 右侧分屏（竖分）\n* ⌘+Shift+D — 下方分屏（横分）\n* ⌘+\\] / ⌘+\\[ — 在分屏之间切换焦点\n* ⌘+Shift+Enter — 当前分屏最大化/还原（写代码时临时全屏某个面板很爽）\n* ⌘+W — 关闭当前分屏/标签\n* ⌘+= / ⌘+- — 放大/缩小字体（临时调整，不改配置）\n* ⌘+, — 快速打开配置文件\n* ⌘+Shift+, — 重新加载配置（改完不用重启终端）\n\n和 iTerm2 比有什么不同？\n\n说实话功能上 iTerm2 更全（profile 系统、触发器、tmux 集成那些）。但 Ghostty 的优势是：\n\n* 启动快——冷启动体感不到 0.5 秒，iTerm2 要等一下\n* 配置简单——一个纯文本文件，不用在 GUI 里翻半天\n* 原生渲染——GPU 加速，内存占用低很多\n* 改配置即时生效——保存文件的瞬间终端就变了，不用重启\n\n如果你不需要 iTerm2 那些高级功能（大部分人确实不需要），Ghostty 各方面体验都更好。\n\n想预览所有内置主题？终端里输入 ghostty +list-themes，300 多个主题全列出来，挑个名字换上就行。\n\n## \n\nStarship — 彩虹提示符\n\nStarship 是用 Rust 写的跨平台提示符，替代 oh-my-zsh 的 theme，但快得多。\n\n装 Starship 最大的理由就是好看。每次打开终端看到这条彩虹色信息条心情就很好，比 oh-my-zsh 那些主题高出好几个档次。而且好看的同时还实用——每个颜色块对应一类信息：\n\nplaintext\n\n```plaintext\n红色(用户) → 橙色(路径) → 黄色(Git) → 绿色(语言版本) → 紫色(时间)\n```\n\n一眼能看到当前目录、Git 分支、Node/Python/Rust 版本、时间。\n\n[![Image](https://pbs.twimg.com/media/HJaE7Z4bcAA7V-y?format=jpg&name=small)](http://x.com/i/article/2059978479459000320/justhalfbit/article/2059988985255215288/media/2059980035663294464)\n\n我的配置特点：\n\n* 基于官方 catppuccin-powerline 预设，多色渐变\n* 加了换行——信息条完整展示在第一行，光标在第二行，你永远有一整行来输入命令\n* Git 状态实时显示——有未提交的修改？有未推送的 commit？提示符上直接看到，不用每次 git status\n\n## \n\n三个 zsh 插件 — 不用 oh-my-zsh\n\noh-my-zsh 的问题是太重了。就算你只启用几个插件，它的框架本身每次启动都要加载一堆东西。其实我们只需要 3 个独立插件就够了，不需要一个框架帮你\"管理\"它们。\n\n1️⃣ zsh-autosuggestions — 输入命令不用打完\n\n你开始输入命令的时候，它会在光标后面用灰色显示一条历史命令建议。如果就是你想要的，按 → 键或者 Ctrl+F 一键接受整条命令。\n\n比如你之前跑过 docker compose up -d，下次只要输入 dock 它就自动补出完整命令。日常 90% 的命令都是重复的，这个插件省掉的敲键盘次数比你想象的多。\n\n[![Image](https://pbs.twimg.com/media/HJaFHk7bMAACGt3?format=jpg&name=small)](http://x.com/i/article/2059978479459000320/justhalf",
-      "title": "",
-      "url": "http://x.com/i/article/2059978479459000320"
-    },
-    "http://x.com/i/article/2060058317246898178": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060058317246898178",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060058317246898178/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJbORNjWQAQwjfA?format=jpg&name=900x900)](http://x.com/i/article/2060058317246898178/trybasis/article/2060074330080571513/media/2060060674659598340)\n\nYour team needs a unified MCP. Here’s a recipe.\n\n[![Square profile picture](https://pbs.twimg.com/profile_images/1954155215835324417/zAomwq1i_normal.jpg)](http://x.com/i/article/2060058317246898178/trybasis)\n\n[Basis](http://x.com/i/article/2060058317246898178/trybasis)\n\n[@trybasis](http://x.com/i/article/2060058317246898178/trybasis)\n\n·\n\n10h\n\nFollow\n\nClick to Follow trybasis\n\n7\n\n36\n\n[6.3K](http://x.com/i/article/2060058317246898178/trybasis/status/2060074330080571513/analytics)\n\n## \n\nIf you want to ensure all your agents maximize their capabilities - for both engineers and non-technical teammates - a unified internal MCP is the right call once you pass \\~50 employees. There are tradeoffs, but for us the benefits far outweigh the costs.\n\nOn a typical afternoon at Basis, a Cowork agent on our sales team picks up an inbound lead, finds the contact in HubSpot, pulls the latest Gong call recording for the firm, runs a People Data Labs enrichment, drafts a personalized outreach email in the assigned rep's voice, posts the draft as a thread reply in Slack, and tags the rep.\n\nMeanwhile, a separate Codex session, started by an engineer on the same floor, opens a Neon branch off our QA Postgres, runs a read-only query against NetSuite, and then writes up the finding in a Linear document with comments threaded against the relevant accounting policy.\n\nBoth agents talk to a single endpoint, signed in once with Google SSO, with per-user OAuth tokens that the user had connected weeks earlier. Both calls are logged with structured telemetry against tools that the user's specific role and team were authorized to call.\n\nThese workflows are routine now at Basis. They run through Satellite, the unified internal MCP we built last quarter. Pre-Satellite, our average Basis teammate had 3.2 third-party integrations connected to their agents. Post-Satellite, that number is 17.3.\n\n[![Image](https://pbs.twimg.com/media/HJbXP2OXAAExdS7?format=jpg&name=small)](http://x.com/i/article/2060058317246898178/trybasis/article/2060074330080571513/media/2060070546822332417)\n\nBuilding Satellite was not an obvious choice. We considered other legitimate, credible paths to give our agents the tools they need, including embracing CLIs and using off-the-shelf provider plugins. But creating a unified MCP has been the right choice for us, despite some tradeoffs. Here’s why we did it.\n\n## \n\nWhy a unified MCP won out for us\n\nThe most important goal was to give every agent at Basis the tools it needs to do real work. Four specific benefits of Satellite have made that possible.\n\nAdoption stops being gated by individual setup friction. Before Satellite, a teammate who wanted their agent to read Linear had to find the right MCP, install it, configure auth, and debug whatever broke. Most teammates didn’t do this more than two or three times. With Satellite, the same teammate clicks through Google SSO once and immediately has access to every provider their role and team are authorized to use.\n\nThe deeper change is that the adoption and productivity gap between empowered engineers and everyone else collapsed. When we added Granola to Satellite, every Cowork user got meeting transcripts in their next session without having to even know what an MCP is. This is the production answer to the N×M problem. About 95% of our Basis teammates now use Satellite, which means they get access to new tools the day they're released, automatically.\n\nSwitching agent harnesses takes 30 seconds, not 30 minutes. Claude Code, Codex, Cursor, and Cowork all support MCP. Once a teammate's connectors live behind Satellite, moving from one harness to another is a single re-authe",
-      "text_excerpt_zh": "## \n\n要查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060058317246898178/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJbORNjWQAQwjfA?format=jpg&name=900x900)](http://x.com/i/article/2060058317246898178/trybasis/article/2060074330080571513/media/2060060674659598340)\n\n你的团队需要一个统一的 MCP。这里有一份方案。\n\n[![方形头像](https://pbs.twimg.com/profile_images/1954155215835324417/zAomwq1i_normal.jpg)](http://x.com/i/article/2060058317246898178/trybasis)\n\n[Basis](http://x.com/i/article/2060058317246898178/trybasis)\n\n[@trybasis](http://x.com/i/article/2060058317246898178/trybasis)\n\n·\n\n10小时前\n\n关注\n\n点击关注 trybasis\n\n7\n\n36\n\n[6.3K](http://x.com/i/article/2060058317246898178/trybasis/status/2060074330080571513/analytics)\n\n## \n\n如果你想确保所有 agent 都能最大化其能力——无论是对工程师还是非技术同事——一旦团队超过约 50 人，统一的内部 MCP 就是正确的选择。这需要权衡，但对我们来说，收益远大于成本。\n\n在 Basis 一个典型的下午，我们销售团队的一名 Cowork agent 会接听一个入站线索，在 HubSpot 中找到该联系人，提取该公司最新的 Gong 通话录音，运行 People Data Labs 的数据丰富功能，以指定销售代表的口吻起草一封个性化的外联邮件，将草稿作为 Slack 中的线程回复发布，并@该代表。\n\n与此同时，同一楼层的一名工程师启动了一个独立的 Codex 会话，它会从我们的 QA Postgres 中创建一个 Neon 分支，对 NetSuite 运行一个只读查询，然后将发现结果写入一个 Linear 文档，并在相关会计政策的评论中展开讨论。\n\n这两个 agent 都连接到一个单一端点，通过 Google SSO 一次登录，使用用户几周前已连接好的每用户 OAuth 令牌。两次调用都带有结构化遥测日志，记录用户特定角色和团队被授权调用的工具。\n\n这些工作流在 Basis 现在已是常态。它们通过我们上个季度构建的统一内部 MCP——Satellite 运行。在 Satellite 之前，Basis 的普通团队成员平均有 3.2 个第三方集成连接到他们的 agent。在 Satellite 之后，这个数字是 17.3。\n\n[![图片](https://pbs.twimg.com/media/HJbXP2OXAAExdS7?format=jpg&name=small)](http://x.com/i/article/2060058317246898178/trybasis/article/2060074330080571513/media/2060070546822332417)\n\n构建 Satellite 并非显而易见的选择。我们考虑过其他合理且可行的路径来为我们的 agent 提供所需工具，包括拥抱 CLI 和使用现成的提供商插件。但创建一个统一的 MCP 对我们来说是正确选择，尽管存在一些权衡。以下是我们这样做的原因。\n\n## \n\n为什么统一的 MCP 对我们胜出\n\n最重要的目标是让 Basis 的每个 agent 都拥有完成实际工作所需的工具。Satellite 的四个具体优势使这成为可能。\n\n采用不再受限于个人设置的摩擦。在 Satellite 之前，希望 agent 读取 Linear 的团队成员必须找到正确的 MCP、安装它、配置身份验证，并调试任何问题。大多数团队成员这样做不超过两三次。有了 Satellite，同一团队成员只需通过 Google SSO 点击一次，就能立即访问其角色和团队被授权使用的每个提供商。\n\n更深层的变化是，赋能工程师与其他所有人之间的采用率和生产力差距消失了。当我们将 Granola 添加到 Satellite 时，每个 Cowork 用户都会在下次会话中自动获得会议记录，甚至无需知道 MCP 是什么。这是对 N×M 问题的生产级答案。大约 95% 的 Basis 团队成员现在使用 Satellite，这意味着他们可以在新工具发布当天自动获得访问权限。\n\n切换 agent harness 只需 30 秒，而不是 30 分钟。Claude Code、Codex、Cursor 和 Cowork 都支持 MCP。一旦团队成员的连接器位于 Satellite 之后，从一个 harness 切换到另一个只需一次重新认证。",
-      "text_excerpt_zh_hash": "6738128a435e9396",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060058317246898178"
-    },
-    "http://x.com/i/article/2060073830467465222": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060073830467465222",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060073830467465222/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJbaVtgXkAccWE1?format=jpg&name=900x900)](http://x.com/i/article/2060073830467465222/nateherk/article/2060074305887551818/media/2060073946096046087)\n\nOpus 4.8 Just Dropped. Here's How To Actually Use It. \n\n[![](https://pbs.twimg.com/profile_images/2046419318918037504/GFSBxbxy_normal.jpg)](http://x.com/i/article/2060073830467465222/nateherk)\n\n[Nate Herk](http://x.com/i/article/2060073830467465222/nateherk)\n\n[@nateherk](http://x.com/i/article/2060073830467465222/nateherk)\n\n·\n\n10h\n\nFollow\n\nClick to Follow nateherk\n\n4\n\n3\n\n60\n\n[6K](http://x.com/i/article/2060073830467465222/nateherk/status/2060074305887551818/analytics)\n\nOpus 4.8 just dropped. Forget the benchmarks\n\nAnthropic shipped Opus 4.8 today, built on top of 4.7 with sharper judgment, more honesty, and longer independent runs.\n\nThe benchmarks look amazing. They always do.\n\nThe real story is how differently you have to work with this model compared to 4.7\\. After reading Anthropic's prompting docs and testing it, here's everything that changed and how to actually use it.\n\n## \n\nTL;DR\n\n→ Same pricing as 4.7\\. Higher API rate limits in Claude Code.\n\n→ New effort slider: low, medium, high, extra high, max, ultra code.\n\n→ Built to fix 4.7's laziness, safety overreach, token burn, and attitude.\n\n→ Anthropic's docs say: tell it what to do, give it the why, lean on effort levels.\n\n→ A new class of model called Mythos is coming with higher intelligence than Opus.\n\n## \n\nWhat's New in Opus 4.8\n\nSharper judgment. More honest about its own progress. Sustained autonomy on longer tasks.\n\nPricing is identical to 4.7 on input and output tokens.\n\nRate limits in Claude Code went up to handle the higher token usage at the new effort levels. Your 5-hour rolling window and weekly session limits are untouched. The rate limit bump is for API specifically.\n\nIt's available everywhere today. Same 1M context window with Opus. \\`/model\\` to switch between Sonnet and Opus 4.8.\n\nAnthropic also flagged a new class of model called Mythos with higher intelligence than Opus. A small number of organizations are using it for cybersecurity work. It needs stronger safeguards before they release it broadly. Worth filing away.\n\n## \n\nThe Effort Slider Is the New Lever\n\nThis is the biggest workflow change.\n\n[Claude.ai](http://x.com/i/article/2060073830467465222//Claude.ai)\n\n users now control how much effort Claude puts into a task. In Claude Code, type \\`/effort\\` and you get a slider with six levels:\n\n1️⃣ Low\n\n2️⃣ Medium\n\n3️⃣ High (default for Opus 4.8)\n\n4️⃣ xhigh\n\n5️⃣ Max\n\n6️⃣ Ultracode (exhigh plus Workflows)\n\nHigher effort means smarter answers and more tokens burned. Lower effort means faster outputs.\n\nThere's also a new Claude Code feature called Dynamic Workflows for very large scale problems. I'll cover that one in its own video.\n\n## \n\nThe Honesty Upgrade\n\nAnthropic dedicated an entire section of the launch post to honesty.\n\nThe models are now trained to avoid claims they can't support. No more \"this will take me 4 hours\" turning into 20 minutes. No more \"I pushed all 50 files\" when it only pushed 15.\n\nThey measure this with misaligned behavior evals where lower is better. Opus 4.8 lands at almost half the score of 4.7 and Sonnet 4.6 on those tests.\n\nIf you've ever felt gaslit by Claude reporting fake progress, you weren't crazy.\n\n## \n\nThe 4.7 Pain Points 4.8 Tries to Fix\n\n4.7 had real community pushback. The loudest complaints:\n\n→ Felt lazy. Gave up on tasks too early.\n\n→ Overly rigid with safety overreach.\n\n→ Token burn was noticeably worse than 4.6.\n\n→ Had an attitude. Sassy, stubborn, would push back on your ideas instead of helping.\n\n\\`/goal\\` was the band-aid fix for the laziness. 4.8 bakes that intent into the model so it sustains autonomy without the workaround.\n\n4.8 is supposed to land warmer and more collaborative, w",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060073830467465222/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJbaVtgXkAccWE1?format=jpg&name=900x900)](http://x.com/i/article/2060073830467465222/nateherk/article/2060074305887551818/media/2060073946096046087)\n\nOpus 4.8 刚刚发布。以下是如何真正使用它。\n\n[![](https://pbs.twimg.com/profile_images/2046419318918037504/GFSBxbxy_normal.jpg)](http://x.com/i/article/2060073830467465222/nateherk)\n\n[Nate Herk](http://x.com/i/article/2060073830467465222/nateherk)\n\n[@nateherk](http://x.com/i/article/2060073830467465222/nateherk)\n\n·\n\n10小时前\n\n关注\n\n点击关注 nateherk\n\n4\n\n3\n\n60\n\n[6K](http://x.com/i/article/2060073830467465222/nateherk/status/2060074305887551818/analytics)\n\nOpus 4.8 刚刚发布。忘掉那些基准测试吧。\n\nAnthropic 今天发布了 Opus 4.8，它基于 4.7 构建，拥有更敏锐的判断力、更高的诚实度以及更长的独立运行能力。\n\n基准测试看起来很棒。它们一向如此。\n\n真正的关键在于，与 4.7 相比，你必须以截然不同的方式使用这个模型。在阅读了 Anthropic 的提示词文档并进行测试后，以下是所有变化以及实际使用方法。\n\n## \n\nTL;DR\n\n→ 与 4.7 定价相同。Claude Code 中的 API 速率限制更高。\n\n→ 新增努力滑块：低、中、高、极高、最大、超码。\n\n→ 旨在修复 4.7 的懒惰、安全过度干预、token 浪费和态度问题。\n\n→ Anthropic 的文档指出：告诉它做什么，给出原因，依赖努力级别。\n\n→ 一个名为 Mythos 的新模型类别即将推出，其智能水平高于 Opus。\n\n## \n\nOpus 4.8 的新特性\n\n更敏锐的判断力。更诚实地报告自身进展。在更长的任务上保持持续的自主性。\n\n输入和输出 token 的定价与 4.7 完全相同。\n\nClaude Code 中的速率限制已提高，以应对新努力级别下更高的 token 使用量。你的 5 小时滚动窗口和每周会话限制保持不变。速率限制提升仅针对 API。\n\n它今天已在所有平台上线。Opus 仍保持 1M 上下文窗口。使用 `/model` 在 Sonnet 和 Opus 4.8 之间切换。\n\nAnthropic 还预告了一个名为 Mythos 的新模型类别，其智能水平高于 Opus。少数组织正在将其用于网络安全工作。在广泛发布之前，它需要更强的安全防护措施。值得留意。\n\n## \n\n努力滑块是新杠杆\n\n这是最大的工作流程变化。\n\n[Claude.ai](http://x.com/i/article/2060073830467465222//Claude.ai) 用户现在可以控制 Claude 在任务上投入多少努力。在 Claude Code 中，输入 `/effort` 即可获得一个包含六个级别的滑块：\n\n1️⃣ 低\n\n2️⃣ 中\n\n3️⃣ 高（Opus 4.8 的默认设置）\n\n4️⃣ 极高\n\n5️⃣ 最大\n\n6️⃣ 超码（极高加工作流）\n\n更高的努力意味着更智能的答案和更多的 token 消耗。更低的努力意味着更快的输出。\n\n还有一个名为“动态工作流”的新 Claude Code 功能，用于处理超大规模问题。我会在专门的视频中介绍它。\n\n## \n\n诚实度升级\n\nAnthropic 在发布文章中专门用了一个部分来讨论诚实度。\n\n模型现在经过训练，会避免做出无法支持的声明。不再有“这需要我 4 小时”结果 20 分钟就完成的情况。不再有“我推送了全部 50 个文件”但实际上只推送了 15 个的情况。\n\n他们通过失调行为评估来衡量这一点，分数越低越好。在这些测试中，Opus 4.8 的得分几乎是 4.7 和 Sonnet 4.6 的一半。\n\n如果你曾感觉被 Claude 报告的虚假进展所欺骗，你并没有疯。\n\n## \n\n4.8 试图修复的 4.7 痛点\n\n4.7 受到了社区的强烈反对。最响亮的抱怨：\n\n→ 感觉懒惰。过早放弃任务。\n\n→ 安全过度干预，过于死板。\n\n→ token 浪费明显比 4.6 更严重。\n\n→ 态度有问题。傲慢、固执，会反驳你的想法而不是提供帮助。\n\n`/goal` 是解决懒惰问题的临时补丁。4.8 将这种意图内置于模型中，使其无需变通方法即可维持自主性。\n\n4.8 预计会更温暖、更协作。",
-      "text_excerpt_zh_hash": "846fe925885b8d04",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060073830467465222"
-    },
-    "http://x.com/i/article/2060100974082240512": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060100974082240512",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060100974082240512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJb0CtHbsAAkWxK?format=jpg&name=900x900)](http://x.com/i/article/2060100974082240512/riba2534/article/2060102236676792711/media/2060102206876266496)\n\nClaude Code Dynamic Workflows：把编排逻辑搬进代码的新原语\n\n[![](https://pbs.twimg.com/profile_images/1984416007822225408/6iKVCdxw_normal.jpg)](http://x.com/i/article/2060100974082240512/riba2534)\n\n[riba2534](http://x.com/i/article/2060100974082240512/riba2534)\n\n[@riba2534](http://x.com/i/article/2060100974082240512/riba2534)\n\n·\n\n8h\n\nFollow\n\nClick to Follow riba2534\n\n10\n\n53\n\n253\n\n[60K](http://x.com/i/article/2060100974082240512/riba2534/status/2060102236676792711/analytics)\n\n> 当任务大到一次对话装不下时，让 Claude 把编排过程写成一段脚本\n\n5 月 28 日，Anthropic 发布了 Claude Opus 4.8，随之而来还带来了一个新功能——Dynamic Workflows（动态工作流）。\n\n先看一个数字：11 天、约 75 万行 Rust 代码、99.8% 的原有测试通过。这是 Bun 作者 Jarred Sumner 把整个 Bun 运行时\n\n[从 Zig 迁移到 Rust](https://github.com/oven-sh/bun/pull/30412)\n\n 交出的成绩单，而扛起这场迁移的主力，正是这个 Dynamic Workflows。\n\n它作为研究预览（research preview）放出，瞄准的是那一类单个 Agent 一次跑不完的活，官方博客的原话是这样描述的：\n\n> Some problems are too big for one pass by a single agent, especially in complex, legacy codebases: a bug hunt across an entire service, a migration that touches hundreds of files, a plan you want stress-tested from every angle before you commit to it.\n\n整个服务范围的 bug 排查、动辄上百个文件的迁移、一个需要从各个角度反复推敲才敢拍板的方案——这些任务的共同点是规模超出了一轮对话能协调的范围。Dynamic Workflows 给出的答案，是让 Claude 把这套编排过程写成一段可执行的脚本。\n\n## \n\n从 Subagent 到 Workflow\n\n要理解 Workflow 的位置，得先把 Claude Code 已有的几层协作能力捋一遍。\n\n最底层是单个 session，一个 Agent 实例从头干到尾，串行处理。往上一层是 subagent——主 Agent 派生出若干小弟去搜文件、读代码、跑命令，干完把结果汇报回来。再往上是今年早些时候推出的 \n\n[Agent Teams](https://code.claude.com/docs/en/agent-teams)\n\n，多个独立的 Claude Code 实例像团队一样并行协作，队员之间还能互相通信。\n\n这几层有一个共同的瓶颈：编排者始终是 Claude 本身。它逐轮决策下一步派谁去干什么，而每一个 subagent 的返回结果，都要先回到 Claude 的上下文窗口里，它读完才能决定接下来怎么走。这套机制在任务规模不大时很灵活，可一旦要协调几十上百个并行任务，问题就来了：上下文窗口装不下那么多中间结果，Claude 的注意力也会被海量的过程信息稀释。\n\nWorkflow 换了个思路。这一次 Claude 不再亲自逐轮调度，它先把整个编排过程写成一段 JavaScript 脚本——循环、分支、中间结果的收集全都固化在代码里——再交给一个独立的运行时去执行。官方文档把这个转变概括得很精炼：\n\n> A workflow moves the plan into code. With subagents and skills, Claude is the orchestrator: it decides turn by turn what to spawn next, and every result lands in Claude's context. A workflow script holds the loop, the branching, and the intermediate results itself, so Claude's context holds only the final answer.\n\n计划被搬进了代码。脚本自己持有循环、分支和中间结果，Claude 的上下文里只剩下最后那个答案。这跟\"把大型代码库塞进有限上下文窗口\"的思路是同一条路线上的延续——前者解决的是\"上下文怎么省着用\"，Workflow 解决的是\"当工作量大到上下文根本装不下时怎么办\"。\n\n把 Agent Teams 和 Dynamic Workflows 摆在一起看：\n\n[![Image](https://pbs.twimg.com/media/HJbzC6BbYAALOo_?format=jpg&name=small)](http://x.com/i/article/2060100974082240512/riba2534/article/2060102236676792711/media/2060101110829113344)\n\n> 图片出自 Anthropic 产品经理 Cat Wu 发布 Dynamic Workflows 的推文。左边 Agent Teams 是网状协作，右边 Dynamic Workflows 则是\"一个 claude 扇出上百个 task，每个 task 走 implementer → 两个 verifier → fixer 三层，最后扇入返回\"的树状结构——后面 Bun 案例里\"每个文件配两个 reviewer\"的设计，在这张图上已经能看到雏形。\n\n## \n\nWorkflow 到底在哪运行\n\n开始拆架构之前，得先破除一个最常见的误解：很多人以为 Workflow 是某个跑在 Anthropic 服务端的编排引擎，于是去找它的 API 协议、担心第三方中转兼容性。\n\n实际情况是：Workflow 工具本身不请求任何服务端。它是 Claude Code 在你本机跑的一段 JavaScript 编排脚本——agent()、parallel()、pipeline() 这些都是在你电脑上执行的控制流。真正去\"请求服务端\"的，是脚本里 agent() 调用 spawn 出来的每个 subagent，而subagent 调用模型的方式，和你主对话窗口完全一样。\n\n这件事有个直接推论：如果你用第三方 API 中转，Workflow 跑挂了，那跟 Workflow 没关系——它用的就是 Claude Code 平时调模型一直在用的那套接口，即 Anthropic 原生的 Messages API（不是 OpenAI 的 /v1/chat/completions）：\n\ntext\n\n```text\nPOST {ANTHROPIC_BASE_URL}/v1/messages\n\nHeaders:\n  x-api-key: <key>                         # 或第三方常用的 Authorization: Bearer <key>\n  anthropic-version: 2023-06-01\n  anthropic-beta: context-1m-2025-08-07    # 1M context 会带这个 beta flag\n  content-type: application/json\n\nBody:\n  {\n    \"model\": \"claude-opus-4-8\",   # 裸 model id，[1m] 只是本地标识，不会进 body\n    \"system\": [ {... cache_control ...} ],  # system 是数组，带 prompt caching\n    \"messages\": [...],\n    \"tools\": [...],               # C",
-      "title": "",
-      "url": "http://x.com/i/article/2060100974082240512"
     },
     "http://x.com/i/article/2060109453488455680": {
       "cleaner_v": 2,
@@ -8204,35 +8098,6 @@
       "title": "GitHub - NVIDIA/SkillSpector: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. · GitHub",
       "url": "https://github.com/NVIDIA/SkillSpector/"
     },
-    "https://github.com/OpenHands/software-agent-sdk/pull/3426": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "A clean, modular SDK for building AI agents with OpenHands V1. - Add dynamic workflow tool by neubig · Pull Request #3426 · OpenHands/software-agent-sdk",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/OpenHands/software-agent-sdk/pull/3426",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/47dd89f447a535b370e71f4a360a057aa14331224625f48628532889d68e4b9e/OpenHands/software-agent-sdk/pull/3426",
-        "https://avatars.githubusercontent.com/u/398875?s=80&v=4",
-        "https://avatars.githubusercontent.com/u/398875?s=48&v=4",
-        "https://avatars.githubusercontent.com/u/175740463?s=40&v=4",
-        "https://avatars.githubusercontent.com/in/15368?s=80&v=4",
-        "https://avatars.githubusercontent.com/u/182006032?s=60&v=4",
-        "https://avatars.githubusercontent.com/u/182006032?s=48&v=4",
-        "https://camo.githubusercontent.com/e0d4acca1e553ca42bd9ca7bdd69946cf58f14f8f443847dc6fd4bae0ef86ae2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f7665726167652d34382532352d6f72616e67652e737667",
-        "https://avatars.githubusercontent.com/u/398875?s=40&v=4",
-        "https://avatars.githubusercontent.com/in/1062359?s=40&u=d5ea6ef222ad8e1281fd8beba1a22795d2174a2f&v=4",
-        "https://avatars.githubusercontent.com/u/182006032?s=80&u=55c95b7eb1235f82929ed18da32ce090a6d9e821&v=4",
-        "https://avatars.githubusercontent.com/in/1062359?s=32&u=d5ea6ef222ad8e1281fd8beba1a22795d2174a2f&v=4"
-      ],
-      "kind": "article",
-      "text_excerpt": "Add dynamic workflow tool#3426\n[neubig](https://github.com/neubig)wants to merge 11 commits into\nConversation\nSummary\n- add a\nWorkflowToolSet\nwithWorkflowAction\n/WorkflowObservation\nfor Python dynamic workflow scripts - add a\nWorkflowContext\nthat supportsrun_agent\n,map_agents\n,reduce_agent\n, andflatten\nusing the existingTaskManager\n- aggregate\nmap_agents\nsub-agent failures so one failing item does not cancel sibling tasks before their results/errors are collected - add focused workflow tests and a runnable standalone SDK example where the parent agent generates the workflow code for a repo-wide test coverage audit\nCloses [#3425](https://github.com/OpenHands/software-agent-sdk/issues/3425)\nRelated docs PR: [OpenHands/docs#535](https://github.com/OpenHands/docs/pull/535)\nTests\nuv run pytest tests/tools/workflow/test_workflow_tool.py -q\nuv run pytest tests/tools/workflow/test_workflow_tool.py tests/tools/task/test_task_manager.py tests/tools/task/test_task_manager_thread_safety.py -q\nuv run pre-commit run --files openhands-tools/openhands/tools/task/manager.py openhands-tools/openhands/tools/workflow/definition.py openhands-tools/openhands/tools/workflow/impl.py openhands-tools/openhands/tools/workflow/__init__.py openhands-tools/openhands/tools/__init__.py tests/tools/workflow/test_workflow_tool.py examples/01_standalone_sdk/52_dynamic_workflow.py\nuv run python examples/01_standalone_sdk/52_dynamic_workflow.py\nDOCS_PATH=/workspace/project/docs GITHUB_EVENT_NAME=pull_request GITHUB_EVENT_PATH=/tmp/pr_event.json python .github/scripts/check_documented_examples.py\nThis PR was created by an AI agent (OpenHands) on behalf of the user.\nAgent Server images for this PR\n• GHCR package: [https://github.com/OpenHands/agent-sdk/pkgs/container/agent-server](https://github.com/OpenHands/agent-sdk/pkgs/container/agent-server)\nVariants & Base Images\n| Variant | Architectures | Base Image | Docs / Tags |\n|---|---|---|---|\n| java | amd64, arm64 | eclipse-temurin:17-jdk |\n|\nnikolaik/python-nodejs:python3.13-nodejs22-slim\n[Link](https://hub.docker.com/_/nikolaik/python-nodejs:python3.13-nodejs22-slim)golang:1.21-bookworm\n[Link](https://hub.docker.com/_/golang:1.21-bookworm)Pull (multi-arch manifest)\n# Each variant is a multi-arch manifest supporting both amd64 and arm64\ndocker pull ghcr.io/openhands/agent-server:cd0aeb1-python\nRun\ndocker run -it --rm \\\n-p 8000:8000 \\\n--name agent-server-cd0aeb1-python \\\nghcr.io/openhands/agent-server:cd0aeb1-python\nAll tags pushed for this build\nghcr.io/openhands/agent-server:cd0aeb1-golang-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-golang-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-golang-amd64\nghcr.io/openhands/agent-server:cd0aeb1-golang_tag_1.21-bookworm-amd64\nghcr.io/openhands/agent-server:cd0aeb1-golang-arm64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-golang-arm64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-golang-arm64\nghcr.io/openhands/agent-server:cd0aeb1-golang_tag_1.21-bookworm-arm64\nghcr.io/openhands/agent-server:cd0aeb1-java-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-java-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-java-amd64\nghcr.io/openhands/agent-server:cd0aeb1-eclipse-temurin_tag_17-jdk-amd64\nghcr.io/openhands/agent-server:cd0aeb1-java-arm64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-java-arm64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-java-arm64\nghcr.io/openhands/agent-server:cd0aeb1-eclipse-temurin_tag_17-jdk-arm64\nghcr.io/openhands/agent-server:cd0aeb1-python-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-python-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-python-amd64\nghcr.io/openhands/agent-server:cd0aeb1-nikolaik_s_python-nodejs_tag_python3.13-nodejs22-slim-amd64\nghcr.io/openhands/agent-server:cd0aeb1-python-arm64\nghcr.io/openhands/agent-server:cd0aeb199",
-      "text_excerpt_zh": "添加动态工作流工具 #3426\n[neubig](https://github.com/neubig) 希望合并 11 个提交到\n\n对话\n摘要\n- 添加一个 `WorkflowToolSet`，包含用于 Python 动态工作流脚本的 `WorkflowAction` / `WorkflowObservation`\n- 添加一个 `WorkflowContext`，支持使用现有的 `TaskManager` 执行 `run_agent`、`map_agents`、`reduce_agent` 和 `flatten`\n- 聚合 `map_agents` 子代理的失败信息，使得一个失败项不会在收集其结果/错误之前取消同级任务\n- 添加聚焦的工作流测试和一个可运行的独立 SDK 示例，其中父代理为仓库范围的测试覆盖率审计生成工作流代码\n\n关闭 [#3425](https://github.com/OpenHands/software-agent-sdk/issues/3425)\n相关文档 PR：[OpenHands/docs#535](https://github.com/OpenHands/docs/pull/535)\n\n测试\n```\nuv run pytest tests/tools/workflow/test_workflow_tool.py -q\nuv run pytest tests/tools/workflow/test_workflow_tool.py tests/tools/task/test_task_manager.py tests/tools/task/test_task_manager_thread_safety.py -q\nuv run pre-commit run --files openhands-tools/openhands/tools/task/manager.py openhands-tools/openhands/tools/workflow/definition.py openhands-tools/openhands/tools/workflow/impl.py openhands-tools/openhands/tools/workflow/__init__.py openhands-tools/openhands/tools/__init__.py tests/tools/workflow/test_workflow_tool.py examples/01_standalone_sdk/52_dynamic_workflow.py\nuv run python examples/01_standalone_sdk/52_dynamic_workflow.py\nDOCS_PATH=/workspace/project/docs GITHUB_EVENT_NAME=pull_request GITHUB_EVENT_PATH=/tmp/pr_event.json python .github/scripts/check_documented_examples.py\n```\n\n此 PR 由 AI 代理 (OpenHands) 代表用户创建。\n\n此构建的代理服务器镜像\n• GHCR 包：[https://github.com/OpenHands/agent-sdk/pkgs/container/agent-server](https://github.com/OpenHands/agent-sdk/pkgs/container/agent-server)\n\n变体与基础镜像\n| 变体 | 架构 | 基础镜像 | 文档 / 标签 |\n|---|---|---|---|\n| java | amd64, arm64 | eclipse-temurin:17-jdk |\n| python | amd64, arm64 | nikolaik/python-nodejs:python3.13-nodejs22-slim [链接](https://hub.docker.com/_/nikolaik/python-nodejs:python3.13-nodejs22-slim) |\n| golang | amd64, arm64 | golang:1.21-bookworm [链接](https://hub.docker.com/_/golang:1.21-bookworm) |\n\n拉取（多架构清单）\n```bash\n# 每个变体都是一个支持 amd64 和 arm64 的多架构清单\ndocker pull ghcr.io/openhands/agent-server:cd0aeb1-python\n```\n\n运行\n```bash\ndocker run -it --rm \\\n  -p 8000:8000 \\\n  --name agent-server-cd0aeb1-python \\\n  ghcr.io/openhands/agent-server:cd0aeb1-python\n```\n\n此构建推送的所有标签\n```\nghcr.io/openhands/agent-server:cd0aeb1-golang-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-golang-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-golang-amd64\nghcr.io/openhands/agent-server:cd0aeb1-golang_tag_1.21-bookworm-amd64\nghcr.io/openhands/agent-server:cd0aeb1-golang-arm64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-golang-arm64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-golang-arm64\nghcr.io/openhands/agent-server:cd0aeb1-golang_tag_1.21-bookworm-arm64\nghcr.io/openhands/agent-server:cd0aeb1-java-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-java-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-java-amd64\nghcr.io/openhands/agent-server:cd0aeb1-eclipse-temurin_tag_17-jdk-amd64\nghcr.io/openhands/agent-server:cd0aeb1-java-arm64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-java-arm64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-java-arm64\nghcr.io/openhands/agent-server:cd0aeb1-eclipse-temurin_tag_17-jdk-arm64\nghcr.io/openhands/agent-server:cd0aeb1-python-amd64\nghcr.io/openhands/agent-server:cd0aeb19977677fc14e318198b630155b11aec53-python-amd64\nghcr.io/openhands/agent-server:redo-dynamic-workflow-mvp-python-amd64\nghcr.io/openhands/agent-server:cd0aeb1-nikolaik_s_python-nodejs_tag_python3.13-nodejs22-slim-amd64\nghcr.io/openhands/agent-server:cd0aeb1-python-arm64\nghcr.io/openhands/agent-server:cd0aeb199",
-      "text_excerpt_zh_hash": "07aa8cd85a12a6df",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Add dynamic workflow tool by neubig · Pull Request #3426 · OpenHands/software-agent-sdk · GitHub",
-      "url": "https://github.com/OpenHands/software-agent-sdk/pull/3426"
-    },
     "https://github.com/alibaba/open-code-review": {
       "content_type": "text/html; charset=utf-8",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. - alibaba/open-code-review",
@@ -8349,23 +8214,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 · GitHub",
       "url": "https://github.com/byoungd/English-level-up-tips"
-    },
-    "https://github.com/codejunkie99/cove": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Contribute to codejunkie99/cove development by creating an account on GitHub.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://github.com/codejunkie99/cove",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/eee1706dd4699e3983567be5cb059ddd2b494acb957fdeff7e8acc66cc228038/codejunkie99/cove",
-        "https://github.com/codejunkie99/cove/raw/master/docs/ui.svg",
-        "https://github.com/codejunkie99/cove/raw/master/docs/ux.svg"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "GitHub - codejunkie99/cove · GitHub",
-      "url": "https://github.com/codejunkie99/cove"
     },
     "https://github.com/crimx/agentic-markdown": {
       "content_type": "text/html; charset=utf-8",
@@ -9823,48 +9671,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2059860573089566725/img/dApn2OnWkJ61FVcy.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2060453192148627465/img/QhDEOjP6Fa8q8eNZ.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10999,34 +10805,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg"
     },
-    "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
-    },
-    "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
-    },
     "https://pbs.twimg.com/amplify_video_thumb/2070643961622847488/img/nnvDTgB31XX3Ic11.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11138,20 +10916,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HIxGk5mWoAAfDeu.jpg"
-    },
-    "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg"
     },
     "https://pbs.twimg.com/media/HJ--M9_aYAELs9O.jpg": {
       "cleaner_v": 2,
@@ -11685,20 +11449,6 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJ9Fs7HWwAAcbhp.jpg"
     },
-    "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg"
-    },
     "https://pbs.twimg.com/media/HJ_YiFvaIAANnSr.png": {
       "cleaner_v": 2,
       "content_type": "image/png",
@@ -11824,20 +11574,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJctbKXa4AAcgxV.jpg"
-    },
-    "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg"
     },
     "https://pbs.twimg.com/media/HJfa2jPWgAEWAFc.jpg": {
       "cleaner_v": 2,
@@ -13603,6 +13339,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
+    "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg"
+    },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -14806,42 +14556,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "How's Linear so fast? A technical breakdown",
       "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
-    },
-    "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Add or update system instructions partway through a conversation without invalidating the cached prefix that came before them.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
-      "frameable": false,
-      "image_urls": [
-        "https://platform.claude.com/docs/og?locale=en&path=build-with-claude/mid-conversation-system-messages"
-      ],
-      "kind": "article",
-      "text_excerpt": "MessagesContext management\nAdd or update system instructions partway through a conversation without invalidating the cached prefix that came before them.\nThis feature is eligible for [Zero Data Retention (ZDR)](https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.\nSystem instructions normally live in the top-level system\nfield, ahead of every message in the conversation. That position is great for [prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching): the system prompt is part of the stable prefix, so subsequent turns hit the cache. It is a poor position for instructions you only discover you need partway through a session, because editing the top-level system\nfield changes the very beginning of the prompt and invalidates the cache for everything that follows.\nMid-conversation system messages close that gap. You append a {\"role\": \"system\"}\nmessage at the point in the conversation where the new instruction becomes relevant, instead of editing the top-level system\nfield. The cached prefix stays the same, so the next request still reads it from cache, and the new instruction is still applied as a system instruction rather than as ordinary user text.\nMid-conversation system messages are available on the Claude API and [Claude Platform on AWS](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws). They are not available on [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock), [Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai), or [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry).\nThis feature is available on Claude Opus 4.8 only. No beta header is required.\nWhy position matters for caching\n[Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) hashes the request prefix in order: tools\n, then system\n, then messages\n. A cache hit requires the prefix to match a recent request exactly, byte for byte, up to the cache breakpoint.\nThat ordering means the top-level system\nfield sits near the very start of the hashed prefix. Any change to it, even appending a sentence, produces a different hash, and the request misses the cache for the system prompt and every cached message after it.\nMid-conversation system messages let you add the instruction at the end of the message history instead. Everything before the new instruction is unchanged, so the existing cache entry still matches, and only the new message is processed as fresh input.\nA few situations where this matters:\n- Mid-session policy or persona changes. A long agentic session needs a new constraint (\"from now on, write all SQL as parameterized queries\") after dozens of cached turns. Adding it to the top-level\nsystem\nfield would re-process the entire history. - Per-turn context that must be authoritative. You want to inject a freshness note, a session deadline, or a tool-availability change with system-level weight, and it changes too often to live in the cached prefix.\n- Tool results that should reshape behavior. A tool surfaces a fact the model must treat as an instruction (\"the customer is on the enterprise plan; do not suggest the consumer upgrade flow\") for the rest of the session.\n- Mode switches that grant standing permissions. A session-level mode can use a mid-conversation system message to grant standing consent to an expensive capability, such as automatically launching multi-agent workflows, with a short refresher every several turns and an exit notice when the mode is turned off. For a worked example, see\n[Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example).\nIn all of these cases, putting the instruction in a regular user\nmessage works, but the",
-      "text_excerpt_zh": "## 消息上下文管理\n\n在对话中途添加或更新系统指令，同时不影响之前已缓存的提示前缀。\n\n此功能符合[零数据保留 (ZDR)](https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention) 政策。当您的组织签署了 ZDR 协议后，通过此功能发送的数据在 API 响应返回后不会被存储。\n\n系统指令通常位于顶层 `system` 字段中，位于对话中每条消息之前。这个位置非常适合[提示缓存](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)：系统提示是稳定前缀的一部分，因此后续轮次可以命中缓存。但对于在会话中途才发现需要的指令来说，这个位置并不理想，因为编辑顶层 `system` 字段会改变提示的开头部分，并使之后的所有缓存失效。\n\n**对话中途系统消息**弥补了这一缺陷。您可以在对话中需要新指令生效的位置追加一条 `{\"role\": \"system\"}` 消息，而不是编辑顶层的 `system` 字段。缓存的前缀保持不变，因此下一次请求仍然可以从缓存中读取，而新指令仍然作为系统指令（而非普通用户文本）生效。\n\n对话中途系统消息可在 Claude API 和 [AWS 上的 Claude Platform](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws) 中使用。该功能在 [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock)、[Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai) 或 [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry) 上不可用。\n\n此功能仅在 Claude Opus 4.8 上可用。无需 beta 标头。\n\n### 为什么位置对缓存很重要\n\n[提示缓存](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)按顺序对请求前缀进行哈希处理：`tools`，然后是 `system`，最后是 `messages`。缓存命中要求前缀与最近的请求完全匹配（逐字节匹配），直到缓存断点。\n\n这种顺序意味着顶层 `system` 字段位于哈希前缀的非常靠前的位置。对其进行的任何更改（即使是追加一个句子）都会产生不同的哈希值，导致请求无法命中系统提示及其之后所有缓存消息的缓存。\n\n对话中途系统消息允许您将指令添加到消息历史的末尾。新指令之前的所有内容保持不变，因此现有的缓存条目仍然匹配，只有新消息会作为新输入进行处理。\n\n### 一些适用场景：\n\n- **会话中途的策略或角色变更**。一个长 agentic 会话在经过数十次缓存轮次后需要一个新的约束（例如\"从现在开始，所有 SQL 都写成参数化查询\"）。将其添加到顶层 `system` 字段将导致重新处理整个历史记录。\n- **需要具有权威性的每轮上下文**。您希望注入一条具有系统级权重的时效性提示、会话截止时间或工具可用性变更，并且这些信息变化过于频繁，不适合放在缓存前缀中。\n- **应重塑行为的工具结果**。工具揭示了一个事实，模型必须将其视为指令（例如\"客户使用的是企业版套餐；不要建议消费者升级流程\"），并在会话剩余时间内持续生效。\n- **授予持续权限的模式切换**。会话级模式可以使用对话中途系统消息来授予对某项昂贵能力的持续同意，例如自动启动多 agent 工作流，每隔几轮进行一次简短提醒，并在模式关闭时发送退出通知。有关具体示例，请参阅[构建编排模式](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example)。\n\n在上述所有场景中，将指令放入普通的 `user` 消息中也可以工作，但",
-      "text_excerpt_zh_hash": "e74c4726a01c8c97",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Mid-conversation system messages - Claude API Docs",
-      "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages"
-    },
-    "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices": {
-      "cleaner_v": 2,
-      "content_type": "text/html; charset=utf-8",
-      "description": "Comprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML structuring, thinking, and agentic systems.",
-      "extraction_source": "trafilatura",
-      "final_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "frameable": false,
-      "image_urls": [
-        "https://platform.claude.com/docs/og?locale=en&path=build-with-claude/prompt-engineering/claude-prompting-best-practices"
-      ],
-      "kind": "article",
-      "text_excerpt": "Best practicesPrompt engineering\nComprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML structuring, thinking, and agentic systems.\nThis is the single reference for prompt engineering with Claude's latest models, including Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5. It covers foundational techniques, output control, tool use, thinking, and agentic systems. Jump to the section that matches your situation.\nFor an overview of model capabilities, see the [models overview](https://platform.claude.com/docs/en/about-claude/models/overview). For details on what's new in Claude Opus 4.8, see [What's new in Claude Opus 4.8](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8). For migration guidance, see the [Migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide).\nPrompting Claude Opus 4.8\nClaude Opus 4.8 has particular strengths in long-horizon agentic work, knowledge work, vision, and memory tasks. It performs well out of the box on existing Claude Opus 4.7 prompts. The patterns below cover the behaviors that most often require tuning.\nFor API parameter changes when migrating from Claude Opus 4.7 (sampling parameters, effort default, 1M context window default (200k on Microsoft Foundry), mid-conversation system messages, and refusal stop details), see the [migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-from-claude-opus-47).\nResponse length and verbosity\nClaude Opus 4.8 calibrates response length to how complex it judges the task to be, rather than defaulting to a fixed verbosity. This usually means shorter answers on simple lookups and much longer ones on open-ended analysis.\nIf your product depends on a certain style or verbosity of output, you may need to tune your prompts. As an example, to decrease verbosity, you might add:\nProvide concise, focused responses. Skip non-essential context, and keep examples minimal.\nIf you see specific examples of kinds of verbosity (i.e. over-explaining), you can add additional instructions in your prompt to prevent them. Positive examples showing how Claude can communicate with the appropriate level of concision tend to be more effective than negative examples or instructions that tell the model what not to do.\nCalibrating effort and thinking depth\nThe [effort parameter](https://platform.claude.com/docs/en/build-with-claude/effort) allows you to tune Claude's intelligence vs. token spend, trading off capability for faster speed and lower costs. Start with the xhigh\neffort level for coding and agentic use cases, and use a minimum of high\neffort for most intelligence-sensitive use cases. Experiment with other effort levels to further tune token usage and intelligence:\nmax\n: Max effort can deliver performance gains in some use cases, but may show diminishing returns from increased token usage. This setting can also sometimes be prone to overthinking. Test max effort for intelligence-demanding tasks.xhigh\n: Extra high effort is the best setting for most coding and agentic use cases.high\n: This setting balances token usage and intelligence. For most intelligence-sensitive use cases, use a minimum ofhigh\neffort.medium\n: Good for cost-sensitive use cases that need to reduce token usage while trading off intelligence.low\n: Reserve for short, scoped tasks and latency-sensitive workloads that are not intelligence-sensitive.\nClaude Opus 4.8 respects effort levels strictly, especially at the low end. At low\nand medium\n, the model scopes its work to what was asked rather than going above and beyond. This is good for latency and cost, but on moderately complex tasks running at low\neffort there is some risk of under-thinking.\nIf you observe shallow reasoning on complex problems, raise effort to high\nor xhigh\nrather than prompting around it. If you need to keep effort at low\nfor latency, add targeted",
-      "text_excerpt_zh": "最佳实践  \n提示工程  \n\n针对 Claude 最新模型的提示工程技术综合指南，涵盖清晰度、示例、XML 结构化、思考及智能体系统。  \n\n本文是使用 Claude 最新模型（包括 Claude Opus 4.8、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6 和 Claude Haiku 4.5）进行提示工程的唯一参考。内容涵盖基础技术、输出控制、工具使用、思考及智能体系统。请根据您的需求跳转到相应章节。  \n\n如需了解模型能力概览，请参阅[模型概述](https://platform.claude.com/docs/en/about-claude/models/overview)。有关 Claude Opus 4.8 的新功能详情，请参阅[Claude Opus 4.8 新特性](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8)。如需迁移指导，请参阅[迁移指南](https://platform.claude.com/docs/en/about-claude/models/migration-guide)。  \n\n### 为 Claude Opus 4.8 编写提示  \n\nClaude Opus 4.8 在长周期智能体任务、知识工作、视觉和记忆任务方面具有突出优势。它在现有 Claude Opus 4.7 提示上开箱即用表现良好。以下模式涵盖了最常需要调整的行为。  \n\n关于从 Claude Opus 4.7 迁移时的 API 参数变更（采样参数、effort 默认值、100 万上下文窗口默认值（Microsoft Foundry 上为 20 万）、对话中途系统消息以及拒绝停止详情），请参阅[迁移指南](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-from-claude-opus-47)。  \n\n### 响应长度与详细程度  \n\nClaude Opus 4.8 会根据其对任务复杂度的判断来校准响应长度，而非默认固定详细程度。这通常意味着在简单查询时回答更短，而在开放式分析时回答更长。  \n\n如果您的产品依赖于特定风格或详细程度的输出，您可能需要调整提示。例如，要降低详细程度，可以添加：  \n\n> 提供简洁、聚焦的响应。省略非必要的背景信息，并尽量精简示例。  \n\n如果您发现某些类型的详细程度（例如过度解释）的具体实例，可以在提示中添加额外指令来避免。展示 Claude 如何以适当简洁程度进行沟通的正面示例，通常比告诉模型不要做什么的负面示例或指令更有效。  \n\n### 校准 effort 与思考深度  \n\n[effort 参数](https://platform.claude.com/docs/en/build-with-claude/effort)允许您在智能性与 token 消耗之间进行权衡，以更快的速度和更低的成本换取能力。对于编码和智能体用例，请从 `xhigh` effort 级别开始；对于大多数对智能性敏感的用例，至少使用 `high` effort。尝试其他 effort 级别以进一步调整 token 使用和智能性：  \n\n- `max`：最大 effort 在某些用例中可以带来性能提升，但可能因 token 使用增加而出现收益递减。此设置有时也容易过度思考。请针对智能性要求高的任务测试 max effort。  \n- `xhigh`：超高 effort 是大多数编码和智能体用例的最佳设置。  \n- `high`：此设置平衡了 token 使用和智能性。对于大多数对智能性敏感的用例，至少使用 `high` effort。  \n- `medium`：适用于对成本敏感的用例，需要在减少 token 使用的同时权衡智能性。  \n- `low`：保留用于简短、范围明确且对延迟敏感、对智能性要求不高的工作负载。  \n\nClaude Opus 4.8 严格遵循 effort 级别，尤其是在低级别时。在 `low` 和 `medium` 级别，模型会将其工作范围限定在被要求的内容上，而不会超出预期。这有利于延迟和成本，但在中等复杂任务上以 `low` effort 运行时，存在思考不足的风险。  \n\n如果您在复杂问题上观察到推理浅显，请将 effort 提高到 `high` 或 `xhigh`，而不是通过提示来绕开。如果出于延迟原因需要将 effort 保持在 `low`，请添加针对性",
-      "text_excerpt_zh_hash": "e5b14628ee6b487c",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "Prompting best practices - Claude API Docs",
-      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
     },
     "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5": {
       "cleaner_v": 2,
@@ -17555,19 +17269,6 @@
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data | WIRED",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev"
     },
-    "https://www.youtube.com/watch?v=c0gVowvMR-g": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?v=c0gVowvMR-g",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://www.youtube.com/watch?v=c0gVowvMR-g"
-    },
     "https://x.getstanley.ai/r/pas": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -17673,32 +17374,6 @@
       "text_excerpt_zh": "",
       "title": "- YouTube",
       "url": "https://youtu.be/TQd_YQvydVg?si=YDRXHWbaMR1bY93J"
-    },
-    "https://youtu.be/USmG-RXYzd8": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?v=USmG-RXYzd8&feature=youtu.be",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://youtu.be/USmG-RXYzd8"
-    },
-    "https://youtu.be/q5lg3npxjAc?si=BUzUsaRjdbzMPI-q": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?si=BUzUsaRjdbzMPI-q&v=q5lg3npxjAc&feature=youtu.be",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://youtu.be/q5lg3npxjAc?si=BUzUsaRjdbzMPI-q"
     },
     "https://youtu.be/qOjleN2-50c?si=EUMaNlSzVp7phypt": {
       "cleaner_v": 2,
@@ -17901,135 +17576,6 @@
       "https://x.com/danshipper/status/2060025890231197803",
       "https://x.com/danshipper/status/2059983128551166116",
       "https://x.com/danshipper/status/2059980665081192736?s=20"
-    ],
-    "2059982309093523635": [
-      "https://x.com/calcsam/status/2059982309093523635",
-      "https://x.com/calcsam/status/2060377968334303467",
-      "https://pbs.twimg.com/amplify_video_thumb/2060375441765179392/img/ptAY_m4XBppRvnBA.jpg"
-    ],
-    "2059986675141345348": [
-      "https://x.com/lexrus/status/2060127660005847116",
-      "https://x.com/lexrus/status/2059611865861525665?s=20"
-    ],
-    "2059988985255215288": [
-      "https://x.com/justhalfbit/status/2059988985255215288",
-      "http://x.com/i/article/2059978479459000320",
-      "https://x.com/justhalfbit/status/2060398624995967067",
-      "https://x.com/justhalfbit/status/2060201191401775357",
-      "https://x.com/justhalfbit/status/2060402162207690754",
-      "https://x.com/justhalfbit/status/2060178364455866475",
-      "https://x.com/justhalfbit/status/2060560247995986415",
-      "https://x.com/justhalfbit/status/2060155741428662481",
-      "https://x.com/justhalfbit/status/2060196337912545289",
-      "https://x.com/justhalfbit/status/2060277182329450877",
-      "https://x.com/justhalfbit/status/2060367305846960426",
-      "https://x.com/justhalfbit/status/2060219856444662176",
-      "https://x.com/justhalfbit/status/2060192701799158199",
-      "https://x.com/justhalfbit/status/2060196854684328397",
-      "https://x.com/justhalfbit/status/2060215645686448152",
-      "https://x.com/justhalfbit/status/2060320806077337605",
-      "https://x.com/justhalfbit/status/2060159795273892345",
-      "https://x.com/justhalfbit/status/2060155901210726769",
-      "https://x.com/justhalfbit/status/2060178186776768924",
-      "https://x.com/justhalfbit/status/2060057890598142266"
-    ],
-    "2059990512103465438": [
-      "https://x.com/MichLieben/status/2059990512103465438",
-      "http://x.com/i/article/2059952466205224960"
-    ],
-    "2059998131140579753": [
-      "https://x.com/mattyp/status/2059998131140579753",
-      "https://pbs.twimg.com/media/HIztu4HbMAA-qwm.jpg",
-      "https://x.com/mattyp/status/2060120660614304161",
-      "https://x.com/mattyp/status/2060129335370207675",
-      "https://youtu.be/USmG-RXYzd8",
-      "https://x.com/mattyp/status/2060128165419425793"
-    ],
-    "2060019907966935249": [
-      "https://x.com/katia_bazzi/status/2060019907966935249",
-      "https://x.com/katia_bazzi/status/2059751475069534685",
-      "https://pbs.twimg.com/media/HJW1DMRbsAALIpz.jpg"
-    ],
-    "2060020517294191002": [
-      "https://x.com/neil_xbt/status/2060020517294191002",
-      "http://x.com/i/article/2059414664618954754",
-      "https://x.com/neil_xbt/status/2060034409839907235"
-    ],
-    "2060035425574764708": [
-      "https://x.com/Av1dlive/status/2060035425574764708",
-      "http://x.com/i/article/2059743488997261312",
-      "https://x.com/Av1dlive/status/2060042597209665920",
-      "https://github.com/codejunkie99/cove",
-      "https://x.com/Av1dlive/status/2060039406824898605",
-      "https://x.com/Av1dlive/status/2060315643883532597",
-      "https://x.com/Av1dlive/status/2060051064402178483",
-      "https://x.com/Av1dlive/status/2060035911635878305",
-      "https://x.com/Av1dlive/status/2060036806553550971",
-      "https://x.com/Av1dlive/status/2060374756004893055",
-      "https://x.com/Av1dlive/status/2060042134175240630",
-      "https://x.com/Av1dlive/status/2060057107458822241",
-      "https://x.com/Av1dlive/status/2060063490208088186",
-      "https://x.com/Av1dlive/status/2060056936515764703",
-      "https://x.com/Av1dlive/status/2060037134313247205",
-      "https://x.com/Av1dlive/status/2060042640360648849",
-      "https://x.com/Av1dlive/status/2060070068269224322",
-      "https://x.com/Av1dlive/status/2060037081729253413"
-    ],
-    "2060049802931433800": [
-      "https://x.com/JanTomasekDev/status/2060049802931433800"
-    ],
-    "2060058269801161016": [
-      "https://x.com/Voxyz_ai/status/2060058269801161016",
-      "https://pbs.twimg.com/amplify_video_thumb/2060035570236030984/img/ZsbOkXIQqCEA3vu4.jpg"
-    ],
-    "2060058695095267425": [
-      "https://x.com/hnshah/status/2060058695095267425",
-      "https://x.com/hnshah/status/2060079987949253024",
-      "https://x.com/hnshah/status/2060074931476689376",
-      "https://x.com/hnshah/status/2060539844494004611"
-    ],
-    "2060061106794557546": [
-      "https://x.com/schrockn/status/2060061106794557546",
-      "https://x.com/schrockn/status/2060329166629646685",
-      "https://x.com/schrockn/status/2060329584176828893",
-      "https://x.com/schrockn/status/2060151949043826994"
-    ],
-    "2060074305887551818": [
-      "https://x.com/nateherk/status/2060074305887551818",
-      "http://x.com/i/article/2060073830467465222",
-      "https://x.com/nateherk/status/2060074329384083893",
-      "https://youtu.be/q5lg3npxjAc?si=BUzUsaRjdbzMPI-q"
-    ],
-    "2060074330080571513": [
-      "https://x.com/trybasis/status/2060074330080571513",
-      "http://x.com/i/article/2060058317246898178"
-    ],
-    "2060075220044796199": [
-      "https://x.com/RLanceMartin/status/2060075220044796199",
-      "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
-      "https://x.com/trq212/status/2024574133011673516",
-      "https://x.com/RLanceMartin/status/2060075221789622759",
-      "https://x.com/ClaudeDevs/status/2060043213600367030?s=20",
-      "https://x.com/RLanceMartin/status/2060075223349924068",
-      "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
-    ],
-    "2060088782251266298": [
-      "https://x.com/theramjad/status/2060088782251266298",
-      "https://pbs.twimg.com/amplify_video_thumb/2060085266153668608/img/7UoEhNyITzDZf5Tv.jpg",
-      "https://x.com/theramjad/status/2060092712729346103",
-      "https://www.youtube.com/watch?v=c0gVowvMR-g",
-      "https://x.com/theramjad/status/2060185643008008249"
-    ],
-    "2060102236676792711": [
-      "https://x.com/riba2534/status/2060102236676792711",
-      "http://x.com/i/article/2060100974082240512",
-      "https://x.com/riba2534/status/2060234167473082542",
-      "https://github.com/OpenHands/software-agent-sdk/pull/3426",
-      "https://pbs.twimg.com/media/HJdsDhqb0AAmG6r.jpg",
-      "https://x.com/riba2534/status/2060229483937071366"
-    ],
-    "2060135644240707774": [
-      "https://x.com/dillon_mulroy/status/2060135644240707774"
     ],
     "2060165340466663871": [
       "https://x.com/ayushsoni_io/status/2060165340466663871",
@@ -22939,11 +22485,11 @@
       "http://ctx.ai",
       "http://lunora.sh",
       "https://pbs.twimg.com/amplify_video_thumb/2070414782172110849/img/ihwFwiImhq9N8cIm.jpg",
-      "https://x.com/_prisis_/status/2070751830129160636",
-      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground",
+      "https://x.com/_prisis_/status/2070736034258678080",
       "https://x.com/_prisis_/status/2070735001084101022",
       "https://x.com/_prisis_/status/2070735123109056986",
-      "https://x.com/_prisis_/status/2070736034258678080"
+      "https://x.com/_prisis_/status/2070751830129160636",
+      "https://github.com/anolilab/lunora/tree/alpha/apps%2Fplayground"
     ],
     "2070415013366423875": [
       "https://x.com/Zephyr_hg/status/2070415013366423875",
@@ -22993,9 +22539,7 @@
       "https://x.com/Railway/status/2070499619696501143",
       "http://x.com/i/article/2070429028440559616",
       "https://x.com/Railway/status/2070502341611049112",
-      "https://blog.railway.com/p/agent-connection-to-railway",
-      "https://x.com/Railway/status/2070576241800085705",
-      "https://pbs.twimg.com/amplify_video_thumb/2070576060933304320/img/EuWxq7MgHd2ypRLh.jpg"
+      "https://blog.railway.com/p/agent-connection-to-railway"
     ],
     "2070502852414288328": [
       "https://x.com/SidebarIO/status/2070502852414288328",
@@ -23051,24 +22595,24 @@
     "2070643039668974060": [
       "https://x.com/waterloo_intern/status/2070643039668974060",
       "http://x.com/i/article/2044877173232963584",
-      "https://x.com/waterloo_intern/status/2070675743198384634",
+      "https://x.com/waterloo_intern/status/2071129032427814920",
       "https://x.com/waterloo_intern/status/2070654302243434863",
-      "https://x.com/waterloo_intern/status/2070701069303472321",
-      "https://x.com/waterloo_intern/status/2070651206339571805",
-      "https://x.com/waterloo_intern/status/2070936986509299914",
-      "https://x.com/waterloo_intern/status/2070937069732675616",
-      "https://x.com/waterloo_intern/status/2070653246818169072",
-      "https://x.com/waterloo_intern/status/2070650978442109004",
-      "https://x.com/waterloo_intern/status/2070653300152943067",
-      "https://x.com/waterloo_intern/status/2070701138777899369",
-      "https://x.com/waterloo_intern/status/2070937200284573745",
-      "https://x.com/waterloo_intern/status/2070937115958092271",
-      "https://x.com/waterloo_intern/status/2070675913315057722",
-      "https://x.com/waterloo_intern/status/2070659124992569346",
-      "https://x.com/waterloo_intern/status/2070682937541226871",
-      "https://x.com/waterloo_intern/status/2070659042842968418",
       "https://x.com/waterloo_intern/status/2070649884731167018",
-      "https://x.com/waterloo_intern/status/2070675844075524146"
+      "https://x.com/waterloo_intern/status/2070651206339571805",
+      "https://x.com/waterloo_intern/status/2070701069303472321",
+      "https://x.com/waterloo_intern/status/2070650978442109004",
+      "https://x.com/waterloo_intern/status/2070659042842968418",
+      "https://x.com/waterloo_intern/status/2070675743198384634",
+      "https://x.com/waterloo_intern/status/2071125264772542785",
+      "https://x.com/waterloo_intern/status/2070653246818169072",
+      "https://x.com/waterloo_intern/status/2070659124992569346",
+      "https://x.com/waterloo_intern/status/2071127868462264776",
+      "https://x.com/waterloo_intern/status/2070651025896485267",
+      "https://x.com/waterloo_intern/status/2070937115958092271",
+      "https://x.com/waterloo_intern/status/2070936986509299914",
+      "https://x.com/waterloo_intern/status/2070653300152943067",
+      "https://x.com/waterloo_intern/status/2070650605002203176",
+      "https://x.com/waterloo_intern/status/2070654226959835199"
     ],
     "2070644820478251225": [
       "https://x.com/eualmeidazs/status/2070644820478251225",
@@ -23082,17 +22626,18 @@
       "https://x.com/eualmeidazs/status/2070844785624072493",
       "https://x.com/eualmeidazs/status/2070948833362690429",
       "https://x.com/eualmeidazs/status/2070844785624072493?s=20",
-      "https://x.com/eualmeidazs/status/2070683457257119930",
       "https://x.com/eualmeidazs/status/2071031777267773861",
+      "https://x.com/eualmeidazs/status/2070683457257119930",
       "https://x.com/eualmeidazs/status/2070905988832497723",
       "https://x.com/eualmeidazs/status/2070845398495678935",
-      "https://x.com/eualmeidazs/status/2070869714088190279",
       "https://x.com/eualmeidazs/status/2070843539978682877",
-      "https://x.com/eualmeidazs/status/2070845036757950838",
-      "https://x.com/eualmeidazs/status/2070898919597285879",
       "https://x.com/eualmeidazs/status/2070695181280530591",
       "https://better-drizzle.vercel.app/docs/querying/pagination",
-      "https://x.com/eualmeidazs/status/2070873405071478812",
+      "https://x.com/eualmeidazs/status/2070845036757950838",
+      "https://x.com/eualmeidazs/status/2070869714088190279",
+      "https://x.com/eualmeidazs/status/2070898919597285879",
+      "https://x.com/eualmeidazs/status/2070873357210230796",
+      "https://x.com/eualmeidazs/status/2070870494971121905",
       "https://x.com/eualmeidazs/status/2070843198805602553"
     ],
     "2070652345562923299": [
@@ -23108,8 +22653,8 @@
       "https://x.com/mitchellh/status/2070954238839251343",
       "https://x.com/mitchellh/status/2070860507368792372",
       "https://x.com/mitchellh/status/2070701789981331662",
-      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070868642120822838",
+      "https://x.com/mitchellh/status/2070699332718977465",
       "https://x.com/mitchellh/status/2070868895041560965"
     ],
     "2070690243880116242": [
@@ -23129,10 +22674,10 @@
     "2070811699624755587": [
       "https://x.com/cgtwts/status/2070811699624755587",
       "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg",
+      "https://x.com/cgtwts/status/2071110679902433438",
+      "https://pbs.twimg.com/media/HL4QLzQbUAA4o7H.jpg",
       "https://x.com/cgtwts/status/2070733213446840776",
-      "https://x.com/cgtwts/status/2070610600003248530",
-      "https://x.com/cgtwts/status/2070584618588537005",
-      "https://pbs.twimg.com/amplify_video_thumb/2070584550972080128/img/OPkQLif_jZGtLa6W.jpg"
+      "https://x.com/cgtwts/status/2070610600003248530"
     ],
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
@@ -23201,6 +22746,7 @@
       "https://x.com/RhysSullivan/status/2070989582850793947",
       "http://x.com/i/article/2060109453488455680",
       "https://x.com/RhysSullivan/status/2071011353079460139",
+      "https://x.com/RhysSullivan/status/2071122341552328838",
       "https://x.com/RhysSullivan/status/2071003584272138693",
       "https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png",
       "https://x.com/RhysSullivan/status/2071051433525551355",
@@ -23221,6 +22767,6 @@
       "http://x.com/i/article/2070947137177935872"
     ]
   },
-  "updated_at": "2026-06-28T04:53:50Z",
+  "updated_at": "2026-06-28T08:28:21Z",
   "window": "recent"
 }
