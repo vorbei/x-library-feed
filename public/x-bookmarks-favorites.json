@@ -58,6 +58,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The Transformer solved two problems at once:\n\n- Forgetting long-range context\n- Slow sequential processing\n\nOne architecture. Two breakthroughs. That is why LLMs are built on it.",
+      "text_zh": "Transformer 一次性解决了两个问题：\n\n- 长距离上下文遗忘\n- 缓慢的序列化处理\n\n一个架构。两项突破。这就是大语言模型（LLM）基于它构建的原因。",
+      "text_zh_hash": "e517e75d3b5aff06",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/pallavishekhar_/status/2071230056903627015"
     },
     {
@@ -112,6 +115,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Prefill & decode in LLM inference.\n\nHave you ever noticed that the first token from an LLM always takes a moment to appear? But the subsequent tokens stream out smoothly?\n\nThat pause isn't a network lag, but rather it's a structural property of how LLMs fundamentally work.\n\nInference happens in two phases that share the same model and the same code path, but the workload looks completely different in each, with different bottlenecks.\n\n> Prefill stage starts when you submit a prompt.\n\nThe model processes every input token in one parallel pass, computing Q, K, and V for all of them at once.\n\nAttention runs as a matrix multiplication, and the GPU chips run at high utilization, doing fast math.\n\nPrefill is compute-bound, and the metric that captures it is time-to-first-token (TTFT).\n\n> Decode stage starts once the first token is out.\n\nTo generate the next one, the model only computes Q, K, and V for that single new token, because everything before it is already cached.\n\nSo the model loops one token per forward pass, multiplying a single query against the cached keys instead of a full matrix. This makes the inference fast due to the tiny computation.\n\nBut the GPU still has to load every weight and every cached entry from memory to do that tiny computation, so the bottleneck flips and compute sits idle while memory bandwidth becomes the limiting factor.\n\nDecode is memory-bound, and the metric that captures it is inter-token latency (ITL).\n\nGPU utilization peaks during prefill and drops sharply during decode because memory, not compute, is the bottleneck in the second phase.\n\nThrowing more compute at a slow-streaming model often does nothing because the fix for memory-bound workloads is faster memory or a smaller cache, not more FLOPs.\n\nLong contexts feel disproportionately slow because the KV cache grows with every token, and every decode step has to read all of it.\n\nBut maintaining the cache is an important optimization since it makes decoding viable.\n\n- Without KV cache, every new token would force a recomputation of attention over the entire growing sequence.\n- With KV cache, the cache is built once during prefill, then grows by exactly one entry per decode step, with existing entries reused rather than recomputed.\n\nThe cache lives in GPU memory and grows linearly with sequence length, so a 13B model roughly requires 1 MB per token, which means a 4K context consumes 4 GB of VRAM on the cache alone.\n\nThe entire field is now optimizing around this constraint with quantized caches, sliding windows, grouped-query attention, and PagedAttention, while DeepSeek's V4 series goes further and redesigns attention itself so the cache stays small from the start.\n\nThe practical takeaway is that when someone says their model feels slow, the first question is whether it's slow to start or slow to stream.\n\nSlow to start means prefill and a compute bottleneck, while slow to stream means decode and a memory bottleneck.\n\nThe article below is a first-principles guide to LLM inference that walks through everything between your prompt and the streamed response, covering tokenization, embeddings, attention, the prefill and decode split, KV caching, and quantization.\n\nIt will give you a complete mental model of how inference actually works under the hood.\n\nRead it below.",
+      "text_zh": "## LLM 推理中的预填充与解码\n\n你是否注意过，LLM 的第一个 token 总是需要片刻才能出现？但后续的 token 却能流畅地流式输出？\n\n这个停顿并非网络延迟，而是 LLM 根本工作方式的结构性属性。\n\n推理分为两个阶段，它们共享相同的模型和代码路径，但每个阶段的工作负载截然不同，瓶颈也各不相同。\n\n> 当你提交提示词时，预填充阶段开始。\n\n模型在一个并行步骤中处理所有输入 token，一次性计算它们的 Q、K 和 V。\n\n注意力机制以矩阵乘法的方式运行，GPU 芯片以高利用率运行，进行快速数学运算。\n\n预填充是计算密集型的，衡量它的指标是首 token 时间 (TTFT)。\n\n> 一旦第一个 token 输出，解码阶段开始。\n\n为了生成下一个 token，模型只计算这单个新 token 的 Q、K 和 V，因为之前的所有内容都已缓存。\n\n因此，模型每次前向传播循环处理一个 token，将单个查询与缓存的键相乘，而不是进行完整的矩阵运算。这使得推理速度很快，因为计算量很小。\n\n但 GPU 仍然需要从内存中加载每个权重和每个缓存条目来执行这个微小的计算，因此瓶颈发生了翻转，计算单元闲置，而内存带宽成为限制因素。\n\n解码是内存密集型的，衡量它的指标是 token 间延迟 (ITL)。\n\nGPU 利用率在预填充期间达到峰值，并在解码期间急剧下降，因为在第二阶段，内存而非计算是瓶颈。\n\n向一个流式输出缓慢的模型投入更多算力通常无济于事，因为解决内存密集型工作负载的方法是更快的内存或更小的缓存，而不是更多的 FLOPs。\n\n长上下文感觉异常缓慢，因为 KV 缓存会随着每个 token 增长，并且每个解码步骤都必须读取全部缓存。\n\n但维护缓存是一项重要的优化，因为它使解码成为可能。\n\n- 如果没有 KV 缓存，每个新 token 都将迫使对整个不断增长的序列重新计算注意力。\n- 有了 KV 缓存，缓存会在预填充期间一次性构建，然后每个解码步骤仅增加一个条目，现有条目被重用而非重新计算。\n\n缓存位于 GPU 内存中，并随序列长度线性增长，因此一个 13B 模型大约每个 token 需要 1 MB，这意味着一个 4K 上下文仅缓存一项就消耗 4 GB 的显存。\n\n整个领域现在都在围绕这个约束进行优化，采用量化缓存、滑动窗口、分组查询注意力和 PagedAttention，而 DeepSeek 的 V4 系列更进一步，重新设计了注意力机制本身，使缓存从一开始就保持较小。\n\n实际要点是，当有人说他们的模型感觉慢时，首先要问的问题是：是启动慢还是流式输出慢。\n\n启动慢意味着预填充和计算瓶颈，而流式输出慢则意味着解码和内存瓶颈。\n\n下面的文章是一份 LLM 推理的第一性原理指南，它详细介绍了从你的提示词到流式响应之间的所有环节，涵盖了分词、嵌入、注意力机制、预填充与解码的划分、KV 缓存以及量化。\n\n它将为你提供一个完整的思维模型，让你了解推理在底层是如何实际工作的。\n\n请阅读下文。",
+      "text_zh_hash": "5849da4110294f52",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/_avichawla/status/2071522418594861215"
     },
     {
@@ -166,6 +172,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Cat Wu, Head of Product for Claude Code and Cowork, Anthropic:\n\n\"for everyone's job, there's always this percentage of it that's really tedious. for me, it's responding to emails.\"\n\nthat line is the whole premise of this guide, from the person who runs cowork. sairahul1's number is 60%: the share of a knowledge worker's day spent on production that doesn't need their brain. cowork doesn't make you faster at it, it removes you from it.\n\nthe part most people miss is what's left. wu's hope is that the agent takes the tedious slice so everyone has room for the things only they can build. the post says the same in other words: the bottleneck stops being production and becomes you, your judgment, your decisions.\n\nthe endgame in the guide, the 7am briefing and the self-running day, is exactly where she says cowork is headed: \"the next big thing is proactivity. claude understands what you work on, and just sets up some of these automations for you.\"\n\none caveat she's clear on: you can't manage agents if you can't do the job yourself. you still have to know why the agent got it wrong. the folder, the templates, the about-me files, that is you teaching a coworker, not outsourcing the thinking.",
+      "text_zh": "Cat Wu，Anthropic公司Claude Code与Cowork产品负责人：\n\n\"每个人的工作中，总有一部分是极其乏味的。对我来说，就是回复邮件。\"\n\n这句话正是这本指南的全部前提，出自管理Cowork的人之口。sairahul1的比例是60%：知识工作者一天中花在不需要动脑的生产活动上的时间。Cowork并不会让你更快地完成它，而是让你脱离它。\n\n大多数人忽略的是剩下的部分。Wu希望智能体（agent）能接管那些乏味的琐事，这样每个人才有空间去做只有他们自己能构建的事情。这篇文章用另一种方式表达了同样的意思：瓶颈不再是生产，而是你本人，你的判断力，你的决策。\n\n指南中描述的终极场景——早上7点的简报和自动运转的一天——正是Wu所说的Cowork的发展方向：\"下一个大事件是主动性。Claude理解你的工作内容，并自动为你设置一些自动化流程。\"\n\n她明确提出了一个告诫：如果你自己无法完成工作，就无法管理智能体。你仍然必须知道智能体为何出错。文件夹、模板、关于我的文件——这些是你教同事的过程，而不是把思考外包出去。",
+      "text_zh_hash": "f810cbcf306a20c3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VoltexGar/status/2071350816431096048"
     },
     {
@@ -206,6 +215,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This is classic Kent Beck.\n\nFWIW I don't say \"YAGNI\" because it's misleading. In many cases we will \"need it\" (or something like it) later.\n\nThe two reasons he spelled out (optionality and NPV) are captured by saying \"not yet.\"\n\n\"Not yet\" is powerful.\n\nhttps://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "text_zh": "这是典型的 Kent Beck 风格。\n\n顺便说一句，我不说“YAGNI”，因为它有误导性。在很多情况下，我们“将来会需要它”（或类似的东西）。\n\n他明确指出的两个原因（可选性和净现值）可以用“尚未”来概括。\n\n“尚未”很有力量。\n\nhttps://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "text_zh_hash": "cae99d49980b4e37",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rjs/status/2071306715107033563"
     },
     {
@@ -246,6 +258,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Just published a new article! 👇🏾\n\nRICE and other confidence-based frameworks are mostly noise. Here's how to make decisions without pretending to know the unknowable.\n\nMany thanks for pressing 🔁 and ❤️!\n\nhttps://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "text_zh": "刚发布了一篇新文章！👇🏾\n\nRICE 和其他基于置信度的框架大多是噪音。以下是如何在不假装知道不可知之事的情况下做出决策。\n\n非常感谢您的转发 🔁 和点赞 ❤️！\n\nhttps://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "text_zh_hash": "e004b004619ab85c",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/asmartbear/status/2071209248164290749"
     },
     {
@@ -287,6 +302,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "love long-form, especially when it offers a peek into @vipulved’s brain",
+      "text_zh": "喜欢长文，尤其是能一窥 @vipulved 思维脉络的那种。",
+      "text_zh_hash": "dd7be1917ca503c3",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/eleonorapinto/status/2071412981653516318"
     },
     {
@@ -327,6 +345,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "An artificial-intelligence bust, inflation and fiscal stress are among the most alarming threats to global prosperity at present, the Bank for International Settlements warned https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says?taid=6a40e9d427dbeb0001f3163b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "text_zh": "国际清算银行警告称，人工智能泡沫破裂、通胀及财政压力是当前全球繁荣面临的最令人担忧的威胁之一。",
+      "text_zh_hash": "4315a5141519ff79",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/business/status/2071164453974917493"
     },
     {
@@ -426,6 +447,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "2025 was the year of AGENTS\n2026 is the year of the HARNESS\n\nEveryone is building agents. Orchestrators, tool calls, memory layers, multi-step reasoning. The demos are impressive.\n\nBut demos do not have real users. Demos do not have real costs. Demos do not fail at 3am.\n\nThat is what production is for.\nThe Agent Harness is the infrastructure layer that sits between your LLM and the real world.\n\nIt is not the model. It is not the prompt.\n\nIt manages your subagents, controls their context windows, routes tools to the right agents, tracks costs, handles failures, and keeps everything from falling apart when load hits.\n\nWhy you need it in the first place is covered in the previous article: https://x.com/kmeanskaran/status/2066139671412035728?s=20\n\nThe model is the easy part. Plugging in agents is the easy part. Making a system that holds up in real production situations requires actual engineering.\n\nThis article covers everything you need to get there.\n\nAlso a shoutout to @TejasKumar_ whose talk was a huge help in understanding the foundations of the Agent Harness. \nBeyond the content, the presentation skill and confidence were genuinely impressive.\n\nKeep learning. Keep building.",
+      "text_zh": "2025年是智能体之年  \n2026年是驾驭智能体之年  \n\n每个人都在构建智能体。编排器、工具调用、记忆层、多步推理。演示效果令人印象深刻。  \n\n但演示没有真实用户。演示没有真实成本。演示不会在凌晨三点崩溃。  \n\n那才是生产环境的意义所在。  \n智能体驾驭框架（Agent Harness）是位于你的大语言模型与现实世界之间的基础设施层。  \n\n它不是模型。它不是提示词。  \n\n它管理你的子智能体，控制它们的上下文窗口，将工具路由到正确的智能体，追踪成本，处理故障，并在负载来袭时防止一切崩溃。  \n\n为何首先需要它，在上一篇文章中已有涵盖：https://x.com/kmeanskaran/status/2066139671412035728?s=20  \n\n模型是简单的部分。接入智能体是简单的部分。构建一个能在真实生产环境中站得住脚的系统，需要真正的工程能力。  \n\n本文涵盖了你实现这一目标所需的一切。  \n\n同时特别感谢 @TejasKumar_，他的演讲对理解智能体驾驭框架的基础提供了巨大帮助。  \n除了内容本身，其演讲技巧和自信令人由衷钦佩。  \n\n持续学习。持续构建。",
+      "text_zh_hash": "3dbae506c2588a66",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/kmeanskaran/status/2071166031897436638"
     },
     {
@@ -480,6 +504,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Satya Nadella, CEO of Microsoft, on what a software engineer becomes next:\n\n\"I have a repo full of code that was written by agents. I am cognitively understanding what happened.\"\n\nHe even named it. Cognitive coverage. The new job is not writing code. It is auditing the code your agents wrote.\n\nYou go to school for computer science not to ship features. You go to learn how to read a repo you did not type.\n\nThe engineers who quietly accepted this six months ago are already there. The ones still arguing about whether AI can really code are reviewing for the ones who didn't argue.",
+      "text_zh": "微软CEO萨提亚·纳德拉谈软件工程师的未来角色转变：\n\n\"我的代码仓库里满是智能体编写的代码。我正在从认知层面理解发生了什么。\"\n\n他甚至为这个新角色命名——认知覆盖。未来的工作不再是编写代码，而是审计你的智能体所写的代码。\n\n你学习计算机科学不是为了交付功能，而是为了学会阅读一个并非由你亲手输入的代码仓库。\n\n那些半年前就默默接受这一现实的工程师已经身处其中。而那些仍在争论AI是否真能写代码的人，正在为那些没有争论的人做代码审查。",
+      "text_zh_hash": "a1bd709f34ffded8",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/zostaff/status/2071299811857379704"
     },
     {
@@ -535,6 +562,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The biggest AI advantage isn't owning more GPUs.\n\nIt's building better loops.\n\nJane Street's AI cluster is massive.\n\n4,032 Blackwell GPUs.\n\n56 racks.\n\n140kW per cabinet.\n\nWater piped directly onto the chips.\n\nMost people will look at those numbers and think that's the secret.\n\nIt isn't.\n\nAs Ron Minsky put it, everyone is competing for the same compute.\n\nHardware is becoming accessible.\n\nLeverage comes from what your systems do once that compute is available.\n\nThe companies that win won't necessarily have the biggest clusters.\n\nThey'll build the best workflows on top of them.\n\nThat's exactly the shift I break down in the article below.",
+      "text_zh": "最大的AI优势不在于拥有更多GPU。\n\n而在于构建更好的工作流。\n\n简街的AI集群规模庞大。\n\n4,032块Blackwell GPU。\n\n56个机架。\n\n每个机柜功耗140千瓦。\n\n水直接泵送到芯片上。\n\n大多数人看到这些数字会认为这就是秘诀。\n\n其实不然。\n\n正如Ron Minsky所说，所有人都在争夺同样的算力。\n\n硬件正变得触手可及。\n\n真正的杠杆在于，一旦算力就绪，你的系统能做什么。\n\n最终胜出的公司未必拥有最大的集群。\n\n而是能在集群之上构建出最佳工作流。\n\n这正是我在下文中剖析的核心转变。",
+      "text_zh_hash": "697577bef7d6cc2e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xPure_eth/status/2071384435212107869"
     },
     {
@@ -579,6 +609,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The data layer has so much value in it, and with Moby you can do all of this in TW instead of codex and CC using the same AI models. \n\nWe have been working on all layers of the stack \n\n1⃣ Data infrastructure \n2️⃣ Measurement Infrastructure \n3️⃣ Harness / Context Engineering \n\nSo you have all of this in the place",
+      "text_zh": "数据层蕴含着巨大的价值，借助Moby，你可以在TW中完成这一切，而无需使用Codex和CC，且采用相同的AI模型。\n\n我们一直在整个技术栈的各个层面进行工作：\n\n1⃣ 数据基础设施  \n2️⃣ 测量基础设施  \n3️⃣ 工具框架/上下文工程  \n\n因此，你可以在同一个地方拥有所有这些能力。",
+      "text_zh_hash": "baffe89e5ed5596a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/AY_Orbach/status/2071297810717110326"
     },
     {
@@ -663,6 +696,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Top 10 system design resources I still point working devs to:\n\n1) Designing Data-Intensive Applications (Kleppmann) — real tradeoffs: logs vs DBs, consistency, stream processing.\n2) Software Architecture: The Hard Parts (Ford/Richards) — how to choose, not just patterns; good on modularity and coupling.\n3) Site Reliability Engineering (Google) — SLIs/SLOs, error budgets, incident response, capacity planning.\n4) System Design Interview (Alex Xu) — fast reps; good for sketching APIs, storage, caching, sharding under time pressure.\n5) Designing Distributed Systems (Brendan Burns) — Kubernetes patterns explained as general distributed system building blocks.\n6) AWS Well-Architected Framework — concrete checklists for reliability, security, cost; useful even if you run on-prem.\n7) Martin Fowler’s architecture articles (http://martinfowler.com) — bounded context, evolutionary architecture, integration patterns.\n8) High Scalability blog (http://highscalability.com) — teardown posts; learn why teams picked queues, caches, and DBs in prod.\n9) Jepsen analyses (http://jepsen.io) — teaches failure modes you only find at 3am: split brain, stale reads, bad retries.\n10) Practice project: build a mini SaaS and run it — REST+DB, add Redis cache, background jobs, metrics/tracing, load test, then break it with chaos/fault injection",
+      "text_zh": "我仍然会推荐给在职开发者的十大系统设计资源：\n\n1) 《数据密集型应用系统设计》（Kleppmann）—— 真实的权衡：日志与数据库、一致性、流处理。\n2) 《软件架构：困难部分》（Ford/Richards）—— 如何做选择，而不仅仅是模式；在模块化和耦合方面讲得很好。\n3) 《站点可靠性工程》（Google）—— SLI/SLO、错误预算、事件响应、容量规划。\n4) 《系统设计面试》（Alex Xu）—— 快速练习；适合在时间压力下勾勒 API、存储、缓存、分片。\n5) 《设计分布式系统》（Brendan Burns）—— 将 Kubernetes 模式解释为通用的分布式系统构建块。\n6) AWS 架构完善的框架 —— 针对可靠性、安全性、成本的具体检查清单；即使你在本地运行也很有用。\n7) Martin Fowler 的架构文章（http://martinfowler.com）—— 限界上下文、演进式架构、集成模式。\n8) High Scalability 博客（http://highscalability.com）—— 拆解文章；了解团队在生产中选择队列、缓存和数据库的原因。\n9) Jepsen 分析（http://jepsen.io）—— 教你只有在凌晨三点才会遇到的故障模式：脑裂、脏读、错误的重试。\n10) 实践项目：构建一个小型 SaaS 并运行它 —— REST+数据库，添加 Redis 缓存、后台任务、指标/追踪、负载测试，然后通过混沌/故障注入来破坏它。",
+      "text_zh_hash": "22905a345673c48f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xlelouch_/status/2071095706845143222"
     },
     {
@@ -706,6 +742,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "“Great companies are organizational inventions”",
+      "text_zh": "“伟大的公司是组织上的发明”",
+      "text_zh_hash": "dee539e183a4f2d9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/sinasanm/status/2071244355969708154"
     },
     {
@@ -744,6 +783,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The scenarios keeping AI bosses awake at night are no longer purely hypothetical https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh": "让AI老板们夜不能寐的场景已不再是纯粹的假设\nhttps://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter",
+      "text_zh_hash": "de4079892144fce9",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2071443621396598930"
     },
     {
@@ -785,6 +827,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "this is very VC-observer coded, analyzing post-hoc mythology of today's winners - from a very high altitude\n\nreal company building occurs at a much lower level - you're blazing the new mythology before its legible for someone to even write about",
+      "text_zh": "这非常符合VC观察者的叙事风格，从极高的视角分析当下赢家的事后神话。\n\n真正的公司建设发生在更低的层面——你正在开创一种新的神话，而它甚至还未清晰到足以让人书写。",
+      "text_zh_hash": "a3f7dbca85bc2fa2",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/gxespino/status/2071355344857759969"
     },
     {
@@ -825,6 +870,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This should be required reading for any organization stumbling into the use of AI:  https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills @BCG @mattbeane",
+      "text_zh": "任何正在摸索使用AI的组织，都应将此文列为必读材料：https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills @BCG @mattbeane",
+      "text_zh_hash": "e7ae35f7a58f7981",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rgmcgrath/status/2071323617485353446"
     },
     {
@@ -865,6 +913,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The new AI-based world order https://ft.trib.al/49Ixgcf",
+      "text_zh": "基于AI的新世界秩序 https://ft.trib.al/49Ixgcf",
+      "text_zh_hash": "1645c2339ef805c7",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/FT/status/2071450531344642221"
     },
     {
@@ -965,6 +1016,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "btw talk will is at AI Engineer World's Fair on Wed, 10:45am. come by if you'll be there!\n\nhttps://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z https://t.co/PgtfJySME3",
+      "text_zh": "顺便提一下，talk will 将于周三上午10:45在AI工程师世界博览会举行。如果你也在场，欢迎过来看看！\n\nhttps://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z https://t.co/PgtfJySME3",
+      "text_zh_hash": "80461603594140ec",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/geoffreylitt/status/2071361380775800893"
     },
     {
