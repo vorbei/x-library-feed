@@ -1,11 +1,687 @@
 # X Bookmarks + Favorites
 
-Updated: 2026-06-29T00:19:00Z
-Total items: 2333
+Updated: 2026-06-29T06:05:07Z
+Total items: 2356
 
 This file is generated hourly from X bookmarks and favorites. It is intended to be a public, linkable Markdown data source.
 
 ## Items
+
+### @0xCodez Anthropic Managed Agents Lead: "At Anthropic, >90% of our engineers are building with...
+
+- Author: Codez [@0xCodez](https://x.com/0xCodez)
+- Tweet URL: [https://x.com/0xCodez/status/2071239626128298131](https://x.com/0xCodez/status/2071239626128298131)
+- Sources: bookmark@chumsdock
+- Saved by: chumsdock
+- Tweet created: 2026-06-28T14:29:43.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg](https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg
+- Thread URLs:
+  - [x.com/0xCodez/status/2071239626128298131](https://x.com/0xCodez/status/2071239626128298131)
+  - [pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg](https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg)
+  - [x.com/0xCodez/status/2071247481850024069](https://x.com/0xCodez/status/2071247481850024069)
+  - [x.com/0xCodez/status/2071242196209078276](https://x.com/0xCodez/status/2071242196209078276)
+  - [x.com/0xCodez/status/2071247311129186633](https://x.com/0xCodez/status/2071247311129186633)
+  - [x.com/0xCodez/status/2071258141950382200](https://x.com/0xCodez/status/2071258141950382200)
+  - [x.com/0xCodez/status/2071257337239584944](https://x.com/0xCodez/status/2071257337239584944)
+  - [x.com/0xCodez/status/2071257534598349292](https://x.com/0xCodez/status/2071257534598349292)
+- Public metrics: bookmark_count=1785, like_count=584, quote_count=0, reply_count=28, retweet_count=71
+
+> Anthropic Managed Agents Lead:
+>
+> "At Anthropic, >90% of our engineers are building with self-improving loops. In 4-6 months, it will be 100%.
+>
+> my agentic loops can run for hours without spending hundreds of dollars."
+>
+> in this 40-minute podcast, an Anthropic team lead reveals how to build effective agents from scratch.
+>
+> Agent → harness → loops → memory = modern agent
+>
+> This one video will replace 10 paid courses on vibe-coding.
+>
+> Watch it today, then explore the same setup in the article below.
+
+---
+
+### @mardehaym IBM just dropped a free 9-minute lesson on spec-driven development. This is the...
+
+- Author: Mark Ajzenstadt [@mardehaym](https://x.com/mardehaym)
+- Tweet URL: [https://x.com/mardehaym/status/2071202308239556672](https://x.com/mardehaym/status/2071202308239556672)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T12:01:26.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg](https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg
+  - [Home | AI Foundation from Limestone Digital](https://thefoundation.limestonedigital.com/)
+    Images: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/69b3e631-13c5-4f2d-9b0b-9b2cee80f49a/purple_white.png?v=1782702462, https://media.beehiiv.com/cdn-cgi/image/format=auto,onerror=redirect/uploads/publication/logo/69b3e631-13c5-4f2d-9b0b-9b2cee80f49a/purple_white.png, https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/85bfe343-dc77-4b6c-947e-131ebebe6fdb/purple_white.png, https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/1ff9afa0-4d6a-48d6-a805-afa776172b06/ChatGPT_Image_Jun_23__2026_at_06_01_18_PM.png
+- Thread URLs:
+  - [x.com/mardehaym/status/2071202308239556672](https://x.com/mardehaym/status/2071202308239556672)
+  - [pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg](https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg)
+  - [x.com/mardehaym/status/2071202311129440549](https://x.com/mardehaym/status/2071202311129440549)
+  - [thefoundation.limestonedigital.com](https://thefoundation.limestonedigital.com/)
+  - [x.com/mardehaym/status/2071207065737892316](https://x.com/mardehaym/status/2071207065737892316)
+- Public metrics: bookmark_count=79, like_count=61, quote_count=1, reply_count=10, retweet_count=29
+
+> IBM just dropped a free 9-minute lesson on spec-driven development.
+>
+> This is the clearest explanation of spec-driven development you'll find anywhere.
+>
+> 4 stages: spec the behavior, generate a requirements contract, build the design doc, implement. Zero guesswork for your coding agent.
+>
+> Read it, then go to the 5 stages of AI native engineering below.
+
+---
+
+### @TheEconomist The Federal Reserve’s new conductor can hear the loud brass of demand for AI. His bet...
+
+- Author: The Economist [@TheEconomist](https://x.com/TheEconomist)
+- Tweet URL: [https://x.com/TheEconomist/status/2071227151634911415](https://x.com/TheEconomist/status/2071227151634911415)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T13:40:09.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+- Thread URLs:
+  - [x.com/TheEconomist/status/2071227151634911415](https://x.com/TheEconomist/status/2071227151634911415)
+  - [www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+  - [x.com/TheEconomist/status/2071443621396598930](https://x.com/TheEconomist/status/2071443621396598930)
+  - [www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter](https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter)
+- Public metrics: bookmark_count=8, like_count=18, quote_count=0, reply_count=3, retweet_count=5
+
+> The Federal Reserve’s new conductor can hear the loud brass of demand for AI. His bet is that the quieter strings of supply will soon join in. Is he right to think that calls for lower interest rates? https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
+
+---
+
+### @jonkomet 
+
+- Author: komet💫 [@jonkomet](https://x.com/jonkomet)
+- Tweet URL: [https://x.com/jonkomet/status/2071262054518825179](https://x.com/jonkomet/status/2071262054518825179)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T15:58:50.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [x.com/i/article/2070560734388359168](http://x.com/i/article/2070560734388359168)
+- Linked content:
+  - [x.com/i/article/2070560734388359168](http://x.com/i/article/2070560734388359168)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
+  - [Release v0.1.6 · abundantbeing/hermes-browser-extension · GitHub](https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6)
+    Images: https://opengraph.githubassets.com/ac71f86b25bed28b801f41c0cee2bcf21f0622b2d0f0fc73ed7a8e3e5d2b9c34/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6, https://avatars.githubusercontent.com/u/222723615?s=40&v=4, https://private-user-images.githubusercontent.com/222723615/614283744-b810510c-df0f-4007-a4b3-d7a432f88f14.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODI3MTM0NDYsIm5iZiI6MTc4MjcxMzE0NiwicGF0aCI6Ii8yMjI3MjM2MTUvNjE0MjgzNzQ0LWI4MTA1MTBjLWRmMGYtNDAwNy1hNGIzLWQ3YTQzMmY4OGYxNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyOVQwNjA1NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NGU4OWMxMDlhZGEwODk4NjFiYjM1Mjc4MjVlZGI3ODNlNDZiM2I3NWVkZWQyNjI4MDZjOTc0NzMxMTIwOGUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.SzRE3LbS7NWeaj_sOA7vNN5fuLgQRp_JP-d2f1fVyYE
+  - [pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg](https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg)
+    Images: https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg
+- Thread URLs:
+  - [x.com/jonkomet/status/2071262054518825179](https://x.com/jonkomet/status/2071262054518825179)
+  - [x.com/i/article/2070560734388359168](http://x.com/i/article/2070560734388359168)
+  - [x.com/jonkomet/status/2071288877382336581](https://x.com/jonkomet/status/2071288877382336581)
+  - [github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6](https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6)
+  - [pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg](https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg)
+- Public metrics: bookmark_count=43, like_count=18, quote_count=1, reply_count=0, retweet_count=0
+
+> http://x.com/i/article/2070560734388359168
+
+---
+
+### @bibryam 🎯How to Write an Effective Software Design Docs tip: If a decision is easy to change...
+
+- Author: Bilgin Ibryam [@bibryam](https://x.com/bibryam)
+- Tweet URL: [https://x.com/bibryam/status/2071244496411427132](https://x.com/bibryam/status/2071244496411427132)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T14:49:04.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [refactoringenglish.com/excerpts/write-an-effective-design-doc](https://refactoringenglish.com/excerpts/write-an-effective-design-doc/)
+- Linked content:
+  - [How to Write an Effective Software Design Document · Refactoring English](https://refactoringenglish.com/excerpts/write-an-effective-design-doc/)
+    Images: https://refactoringenglish.com/excerpts/write-an-effective-design-doc/og-cover.webp, https://refactoringenglish.com/excerpts/write-an-effective-design-doc/architecture-diagram.svg, https://refactoringenglish.com/images/refactoring-english-cover-800px.webp
+    Text: How to Write an Effective Software Design Document A good design doc can save you years of development time. Writing a design doc forces you to think through important decisions before you waste time on the wrong implementation or paint...
+- Thread URLs:
+  - [x.com/bibryam/status/2071244496411427132](https://x.com/bibryam/status/2071244496411427132)
+  - [refactoringenglish.com/excerpts/write-an-effective-design-doc](https://refactoringenglish.com/excerpts/write-an-effective-design-doc/)
+- Public metrics: bookmark_count=86, like_count=65, quote_count=0, reply_count=3, retweet_count=7
+
+> 🎯How to Write an Effective Software Design Docs
+>
+> tip: If a decision is easy to change later, it usually does not belong in the design doc.
+>
+> https://refactoringenglish.com/excerpts/write-an-effective-design-doc/
+
+---
+
+### @MarcJSchmidt I remember seeing this from @FreyaHolmer for the first time and going "wtf, I got...
+
+- Author: Marc [@MarcJSchmidt](https://x.com/MarcJSchmidt)
+- Tweet URL: [https://x.com/MarcJSchmidt/status/2071368991537279292](https://x.com/MarcJSchmidt/status/2071368991537279292)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T23:03:46.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png)
+- Linked content:
+  - [pbs.twimg.com/media/HL7vwhGX0AAZl2z.png](https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png)
+    Images: https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png
+- Thread URLs:
+  - [x.com/MarcJSchmidt/status/2071368991537279292](https://x.com/MarcJSchmidt/status/2071368991537279292)
+  - [pbs.twimg.com/media/HL7vwhGX0AAZl2z.png](https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png)
+- Public metrics: bookmark_count=16, like_count=17, quote_count=0, reply_count=1, retweet_count=0
+
+> I remember seeing this from @FreyaHolmer  for the first time and going "wtf, I got gaslit". I've shown this to many of my programmer friends without math background and most of them were "wait, that's it?". Yes, that's literally it. Obviously only the surface of what math has to offer, but the same principles apply to all sorts of other notations. If you give the (pseudo) code next to it, nice code highlighting, with introspection, definition jumping, debugging, you make Math actually easy to understand and approachable - exactly what we did with programming languages over decades with all these nice tools we now have.
+> There's a reason some programming languages are more popular than others, but you can do most things with either. And I think the same lens explains math notation: it's not that the concepts are complex, it's that the compression rate is so high that most people bail the fuck out and think this stuff is super complex, when in reality it is not. The underlying principles...
+
+---
+
+### @cipepser Anthropic上級エンジニアのLoop Engineeringのpaper、とてもよかった。...
+
+- Author: さいぺ [@cipepser](https://x.com/cipepser)
+- Tweet URL: [https://x.com/cipepser/status/2071145108687507604](https://x.com/cipepser/status/2071145108687507604)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T08:14:08.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing](https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing)
+- Linked content:
+  - [Loop-Engineering-IEEE.pdf - Google Drive](https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing)
+    Images: https://drive.google.com/drive-viewer/AKGpihaZfc6lTYBFuSyxpMorXzlcCfBdCmn7d_hnUokGIDWqpBcvtWJrkfcl6MTsOTqOtzxdK7AwtVEMW3EWRZwOeYODD163ct7YGNs=s1600-rw-v1
+- Thread URLs:
+  - [x.com/cipepser/status/2071145108687507604](https://x.com/cipepser/status/2071145108687507604)
+  - [drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing](https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing)
+  - [x.com/cipepser/status/2071145110629404757](https://x.com/cipepser/status/2071145110629404757)
+  - [x.com/cipepser/status/2071219185330602440](https://x.com/cipepser/status/2071219185330602440)
+- Public metrics: bookmark_count=2699, like_count=2036, quote_count=8, reply_count=6, retweet_count=217
+
+> Anthropic上級エンジニアのLoop Engineeringのpaper、とてもよかった。
+> 特にVIII以降がよくて、どんどん自分が理解できていないコードが生まれていくなかで、認知負荷に諦めてしまいそうになる心の弱さと、それでもエンジニアであり続けるためにやるべきことの話
+>
+> https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing
+
+---
+
+### @RDarrylR S3 has been around forever and in recent times, AWS has kept expanding what you can do...
+
+- Author: Darryl Ruggles [@RDarrylR](https://x.com/RDarrylR)
+- Tweet URL: [https://x.com/RDarrylR/status/2071268048657334660](https://x.com/RDarrylR/status/2071268048657334660)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T16:22:39.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [lckhd.eu/Tpx5K5](https://lckhd.eu/Tpx5K5)
+- Linked content:
+  - [lckhd.eu/Tpx5K5](https://lckhd.eu/Tpx5K5)
+    Text: [Sitemap](https://lckhd.eu/sitemap/sitemap.xml) [Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm%5Fsource%3DmobileNavBar&source=post%5Fpage---...
+- Thread URLs:
+  - [x.com/RDarrylR/status/2071268048657334660](https://x.com/RDarrylR/status/2071268048657334660)
+  - [lckhd.eu/Tpx5K5](https://lckhd.eu/Tpx5K5)
+- Public metrics: bookmark_count=31, like_count=47, quote_count=1, reply_count=0, retweet_count=3
+
+> S3 has been around forever and in recent times, AWS has kept expanding what you can do with it. Recently S3 Files was announced and it has a lot of use cases where it makes sense. One typical pattern with Lambda functions is downloading objects to /tmp, processing them, and uploading the result, plus all the boilerplate for transfers, capacity checks, and cleanup. Amazon S3 Files takes a different angle.
+>
+> The new approach is mounting an S3 bucket directly as a local file system, so your function just reads and writes at a path like /mnt/data and sync happens behind the scenes. The transfer code disappears and the /tmp size limit stops being a constraint you have to design around.
+>
+> Sharan Sutrapu shows three real cases including a shared workspace for multi-agent AI, thumbnail generation, and a CSV to Parquet pipeline. Check it out!
+>
+> https://lckhd.eu/Tpx5K5
+>
+> #AWS #S3 #S3Files #Lambda #Serverless
+
+---
+
+### @JulianGewirtz My latest, with the great @danwwang, in the New York Times today: The American A.I....
+
+- Author: Julian Gewirtz [@JulianGewirtz](https://x.com/JulianGewirtz)
+- Tweet URL: [https://x.com/JulianGewirtz/status/2071218919403110475](https://x.com/JulianGewirtz/status/2071218919403110475)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T13:07:26.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html](https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html)
+- Linked content:
+  - [www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html](https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html)
+- Thread URLs:
+  - [x.com/JulianGewirtz/status/2071218919403110475](https://x.com/JulianGewirtz/status/2071218919403110475)
+  - [www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html](https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html)
+- Public metrics: bookmark_count=98, like_count=147, quote_count=6, reply_count=7, retweet_count=36
+
+> My latest, with the great @danwwang, in the New York Times today:
+>
+> The American A.I. chaos of recent weeks is profoundly self-defeating. With its actions against Anthropic, the U.S. government is skating close to its own Jack Ma moment.
+>
+> We often think of A.I. as a race between the United States and China. Instead we are seeing the emergence of an even more acute form of competition, between the public power of governments and the private power of ambitious companies.
+>
+> The challenges of regulating A.I. at the frontier are urgent and important. The U.S. government needs to strike a better balance between ambition and control, lest it irrevocably damage America’s long-term technological edge.
+>
+> Read it here: https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html
+
+---
+
+### @arshadyaseeen I wrote this article to describe the design discipline I used to build Yuku.
+
+- Author: arshad [@arshadyaseeen](https://x.com/arshadyaseeen)
+- Tweet URL: [https://x.com/arshadyaseeen/status/2071209581574037928](https://x.com/arshadyaseeen/status/2071209581574037928)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T12:30:20.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [arshad.fyi/writings/engineering-high-performance-parsers](https://arshad.fyi/writings/engineering-high-performance-parsers)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg)
+- Linked content:
+  - [Engineering High-Performance Parsers with Data-Oriented Design - Arshad Yaseen](https://www.arshad.fyi/writings/engineering-high-performance-parsers)
+    Images: https://arshad.fyi/writings/engineering-high-performance-parsers/opengraph-image?9ffa5d61431fad5a
+    Text: Engineering High-Performance Parsers with Data-Oriented Design [Abstract](https://www.arshad.fyi#abstract) A parser is usually taught as a problem of grammars, but once the grammar is correct, almost all of the performance and most of...
+  - [pbs.twimg.com/media/HL5qICja4AADx5i.jpg](https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg)
+    Images: https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg
+- Thread URLs:
+  - [x.com/arshadyaseeen/status/2071209581574037928](https://x.com/arshadyaseeen/status/2071209581574037928)
+  - [arshad.fyi/writings/engineering-high-performance-parsers](https://arshad.fyi/writings/engineering-high-performance-parsers)
+  - [pbs.twimg.com/media/HL5qICja4AADx5i.jpg](https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg)
+- Public metrics: bookmark_count=362, like_count=307, quote_count=1, reply_count=4, retweet_count=20
+
+> I wrote this article to describe the design discipline I used to build Yuku.
+>
+> https://arshad.fyi/writings/engineering-high-performance-parsers https://t.co/1O9EZKDFam
+
+---
+
+### @VoltexGar Boris Cherny, Head of Claude Code, Anthropic: "you can define a stop hook that's like,...
+
+- Author: Voltex [@VoltexGar](https://x.com/VoltexGar)
+- Tweet URL: [https://x.com/VoltexGar/status/2071188760318836796](https://x.com/VoltexGar/status/2071188760318836796)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T11:07:35.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [video](https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg)
+- Linked content:
+  - [pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg](https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg)
+    Images: https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg
+- Thread URLs:
+  - [x.com/VoltexGar/status/2071188760318836796](https://x.com/VoltexGar/status/2071188760318836796)
+  - [pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg](https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg)
+- Public metrics: bookmark_count=200, like_count=109, quote_count=0, reply_count=6, retweet_count=13
+
+> Boris Cherny, Head of Claude Code, Anthropic:
+>
+> "you can define a stop hook that's like, if the tests don't pass, keep going. essentially it's like you can just make the model keep going until the thing is done."
+>
+> that one config is the post's loop #1, straight from the person who built the tool. a stop hook fires every time the turn ends, so the work can't be called done until tests and lint go green. deterministic, zero effort, the loop most people skip.
+>
+> cherny describes the verification loop in his own words too: for big changes his team spawns subagents to find every issue, one checking claude.md compliance, one combing git history, one hunting bugs, then five more subagents whose only job is to kill the false positives. a fresh clean-context critic catches what the builder talked itself past.
+>
+> and the memory loop, in his words: if you see a mistake, you just tell claude to add it to claude.md, so next time it already knows. the correction outlives the session it happened in.
+>
+> fou...
+
+---
+
+### @nurijanian 
+
+- Author: George from 🕹prodmgmt.world [@nurijanian](https://x.com/nurijanian)
+- Tweet URL: [https://x.com/nurijanian/status/2071164077377032237](https://x.com/nurijanian/status/2071164077377032237)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T09:29:31.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [x.com/i/article/2071163151153061888](http://x.com/i/article/2071163151153061888)
+- Linked content:
+  - [x.com/i/article/2071163151153061888](http://x.com/i/article/2071163151153061888)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/nurijanian/status/2071164077377032237](https://x.com/nurijanian/status/2071164077377032237)
+  - [x.com/i/article/2071163151153061888](http://x.com/i/article/2071163151153061888)
+- Public metrics: bookmark_count=277, like_count=144, quote_count=1, reply_count=4, retweet_count=10
+
+> http://x.com/i/article/2071163151153061888
+
+---
+
+### @avgaydashenko good LW post on productivity techniques (link below) went through it and checked what I...
+
+- Author: Anastasiia Gaidashenko [@avgaydashenko](https://x.com/avgaydashenko)
+- Tweet URL: [https://x.com/avgaydashenko/status/2071308651974037561](https://x.com/avgaydashenko/status/2071308651974037561)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T19:04:00.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know](http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know)
+- Linked content:
+  - [Productivity: Working towards a summary of what we know — LessWrong](https://www.lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know)
+    Images: https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg, https://zapier.cachefly.net/storage/photos/1d3dcabbc930f4895687b447ae79eded.png, https://jurispage.com/wp-content/uploads/sites/337/2014/12/RescueTime-Your-Daily-dashboard.png, https://i1.wp.com/www.ankitips.com/wp-content/uploads/2016/08/forgetting-curve.jpg?w=449
+    Text: [Epistemic effort](https://www.lesswrong.com/lw/o6m/epistemic_effort) - Spent 20-30 hours researching what we know about productivity. About an hour a day for two weeks, plus a few more days where I dedicated more than an hour to...
+- Thread URLs:
+  - [x.com/avgaydashenko/status/2071308651974037561](https://x.com/avgaydashenko/status/2071308651974037561)
+  - [lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know](http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know)
+- Public metrics: bookmark_count=165, like_count=115, quote_count=0, reply_count=2, retweet_count=3
+
+> good LW post on productivity techniques (link below)
+> went through it and checked what I actually do vs. what didn't stick
+>
+> works for me
+> - task capture: I log every ~15-30min of work hours in my calendar and have AI generate an end-of-day summary
+> - underschedule: a deliberate weekly block of unplanned time (tho I got here through hypercontrol work, not productivity literature)
+> - focus on the wildly important: "only hell yes" rule (will write a separate post on my prioritization framework at some point...)
+> - rest / solitude / productive meditation: honestly my favorite category haha (jacuzzi, weighted blanket, sensory walks, breathwork, jazz clubs, baths, etc etc...)
+> - also: CBT and EMDR, coaching calls, strength + mobility + endurance 3x+/week, and working with a human personal assistant (not AI!)
+>
+> didn't stick
+> - app blockers (SelfControl, Freedom)
+> - spaced repetition software (tried but abandoned)
+>
+> the thing the post almost gets to but doesn't quite say: the post ends with "don't make...
+
+---
+
+### @h100envy This paper completely changed how I think about assembling a RAG pipeline: Define the...
+
+- Author: h100envy [@h100envy](https://x.com/h100envy)
+- Tweet URL: [https://x.com/h100envy/status/2071298319897211020](https://x.com/h100envy/status/2071298319897211020)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T18:22:56.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HL661b2WsAEs0FA.jpg](https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg)
+    Images: https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg
+- Thread URLs:
+  - [x.com/h100envy/status/2071298319897211020](https://x.com/h100envy/status/2071298319897211020)
+  - [pbs.twimg.com/media/HL661b2WsAEs0FA.jpg](https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg)
+- Public metrics: bookmark_count=72, like_count=67, quote_count=0, reply_count=4, retweet_count=14
+
+> This paper completely changed how I think about assembling a RAG pipeline:
+>
+> Define the nodes -> List candidates for each -> Run them on your dataset -> Keep the winner -> Move to the next node
+>
+> Here is the 5-step blueprint:
+>
+> Nodes: the pipeline is split into stages - query expansion, retrieval, augmenter, reranker, prompt maker.
+>
+> Candidates: each node gets a set of interchangeable modules - BM25, vectordb, hybrids, rerankers.
+>
+> Greedy per node: you optimize nodes one at a time, locking the best module before moving on.
+>
+> Two metrics: retrieval is measured separately from generation, so you see exactly where quality leaks.
+>
+> On your own data: the optimum is searched on your corpus, not a foreign leaderboard - the best module for Wikipedia QA fails on domain docs.
+>
+> Key insight: the best RAG pipeline is not picked from a benchmark, it is found by search on your own dataset.
+>
+> Five pipeline stages, each with a pool of interchangeable modules, and the loop assembles the winning combination on...
+
+---
+
+### @TheEconomist How can AI learn about work when even humans cannot articulate why they do things a...
+
+- Author: The Economist [@TheEconomist](https://x.com/TheEconomist)
+- Tweet URL: [https://x.com/TheEconomist/status/2071202000528613519](https://x.com/TheEconomist/status/2071202000528613519)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T12:00:12.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+- Thread URLs:
+  - [x.com/TheEconomist/status/2071202000528613519](https://x.com/TheEconomist/status/2071202000528613519)
+  - [www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+  - [x.com/TheEconomist/status/2071443621396598930](https://x.com/TheEconomist/status/2071443621396598930)
+  - [www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter](https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter)
+- Public metrics: bookmark_count=13, like_count=22, quote_count=1, reply_count=3, retweet_count=6
+
+> How can AI learn about work when even humans cannot articulate why they do things a certain way? One answer is they don’t need to https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
+
+---
+
+### @ArchiveExplorer This shouldn't be public. Anthropic's Research Engineering team has an internal write-...
+
+- Author: Archive [@ArchiveExplorer](https://x.com/ArchiveExplorer)
+- Tweet URL: [https://x.com/ArchiveExplorer/status/2071259764114305520](https://x.com/ArchiveExplorer/status/2071259764114305520)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T15:49:44.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png)
+- Linked content:
+  - [pbs.twimg.com/media/HL6Xvs3WIAAYczT.png](https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png)
+    Images: https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png
+  - [CLAUDE.md - Google Drive](https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing)
+- Thread URLs:
+  - [x.com/ArchiveExplorer/status/2071259764114305520](https://x.com/ArchiveExplorer/status/2071259764114305520)
+  - [pbs.twimg.com/media/HL6Xvs3WIAAYczT.png](https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png)
+  - [x.com/ArchiveExplorer/status/2071273546387489068](https://x.com/ArchiveExplorer/status/2071273546387489068)
+  - [drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing](https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing)
+  - [x.com/ArchiveExplorer/status/2071274483776688145](https://x.com/ArchiveExplorer/status/2071274483776688145)
+  - [x.com/ArchiveExplorer/status/2071274461131624898](https://x.com/ArchiveExplorer/status/2071274461131624898)
+- Public metrics: bookmark_count=157, like_count=120, quote_count=0, reply_count=10, retweet_count=12
+
+> This shouldn't be public.
+>
+> Anthropic's Research Engineering team has an internal write-up on long-running coding agents.
+>
+> Someone on the team sent it to me last night. They are going to figure out it leaked.
+>
+> It has the actual agent prompt. The dollar cost on a 6-hour autonomous build. The startup sequence every new session runs before touching code. And the bug where the second agent looks at progress and declares the project done.
+>
+> Bookmark it before they pull it.
+>
+> Full breakdown in the article below.
+
+---
+
+### @jxnlco 
+
+- Author: jason [@jxnlco](https://x.com/jxnlco)
+- Tweet URL: [https://x.com/jxnlco/status/2071136366893859044](https://x.com/jxnlco/status/2071136366893859044)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T07:39:24.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [x.com/i/article/2071134358359187456](http://x.com/i/article/2071134358359187456)
+- Linked content:
+  - [x.com/i/article/2071134358359187456](http://x.com/i/article/2071134358359187456)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/jxnlco/status/2071136366893859044](https://x.com/jxnlco/status/2071136366893859044)
+  - [x.com/i/article/2071134358359187456](http://x.com/i/article/2071134358359187456)
+  - [x.com/jxnlco/status/2071286424473887183](https://x.com/jxnlco/status/2071286424473887183)
+  - [x.com/jxnlco/status/2071286389732450381](https://x.com/jxnlco/status/2071286389732450381)
+- Public metrics: bookmark_count=713, like_count=447, quote_count=8, reply_count=27, retweet_count=24
+
+> http://x.com/i/article/2071134358359187456
+
+---
+
+### @rabois Best post on the topic of building an iconic company in the age of AIz
+
+- Author: Keith Rabois [@rabois](https://x.com/rabois)
+- Tweet URL: [https://x.com/rabois/status/2071219706732646815](https://x.com/rabois/status/2071219706732646815)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T13:10:34.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Thread URLs:
+  - [x.com/rabois/status/2071219706732646815](https://x.com/rabois/status/2071219706732646815)
+  - [x.com/rabois/status/2071255753445290438](https://x.com/rabois/status/2071255753445290438)
+  - [x.com/rabois/status/2071224698474582478](https://x.com/rabois/status/2071224698474582478)
+- Public metrics: bookmark_count=2352, like_count=799, quote_count=3, reply_count=25, retweet_count=50
+
+> Best post on the topic of building an iconic company in the age of AIz
+
+---
+
+### @geoffreylitt I’m giving a talk this week about why I have my coding agents quiz me on code changes,...
+
+- Author: Geoffrey Litt [@geoffreylitt](https://x.com/geoffreylitt)
+- Tweet URL: [https://x.com/geoffreylitt/status/2071319131144790064](https://x.com/geoffreylitt/status/2071319131144790064)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T19:45:38.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg)
+- Linked content:
+  - [pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg](https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg)
+    Images: https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg
+  - [Schedule · AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z)
+    Images: https://www.ai.engineer/_next/static/media/worldsfair-white.1arwxs7bgsp5g.svg?dpl=dpl_7UNWmSHC45M933PmGLgBpR7vjkDJ, https://www.ai.engineer/worldsfair/schedule-print-preview.png
+    Text: shortcut: ai.engineer/schedule June 29 - July 2, 2026 · Moscone West ▶For hackers: our sessions and speakers data is open! Build your own schedule app and tweet [@aidotengineer](https://x.com/aiDotEngineer)to share it — we'll feature the...
+  - [pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg](https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg)
+    Images: https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg
+  - [pbs.twimg.com/media/HL71eOvbQAAx2h6.png](https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png)
+    Images: https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png
+- Thread URLs:
+  - [x.com/geoffreylitt/status/2071319131144790064](https://x.com/geoffreylitt/status/2071319131144790064)
+  - [pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg](https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg)
+  - [x.com/geoffreylitt/status/2071361380775800893](https://x.com/geoffreylitt/status/2071361380775800893)
+  - [www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z](https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z)
+  - [pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg](https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg)
+  - [x.com/geoffreylitt/status/2071361661186007318](https://x.com/geoffreylitt/status/2071361661186007318)
+  - [x.com/geoffreylitt/status/2071328567372501048](https://x.com/geoffreylitt/status/2071328567372501048)
+  - [x.com/geoffreylitt/status/2071361083722682870](https://x.com/geoffreylitt/status/2071361083722682870)
+  - [x.com/geoffreylitt/status/2071363098137788569](https://x.com/geoffreylitt/status/2071363098137788569)
+  - [pbs.twimg.com/media/HL71eOvbQAAx2h6.png](https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png)
+  - [x.com/geoffreylitt/status/2071329112216793534](https://x.com/geoffreylitt/status/2071329112216793534)
+  - [x.com/geoffreylitt/status/2071366347528024275](https://x.com/geoffreylitt/status/2071366347528024275)
+  - [x.com/geoffreylitt/status/2071357283297263961](https://x.com/geoffreylitt/status/2071357283297263961)
+  - [x.com/geoffreylitt/status/2071353874360009177](https://x.com/geoffreylitt/status/2071353874360009177)
+- Public metrics: bookmark_count=246, like_count=312, quote_count=0, reply_count=18, retweet_count=9
+
+> I’m giving a talk this week about why I have my coding agents quiz me on code changes, and how I build micro-worlds to understand what’s going on.
+>
+> What questions / topics should I cover? https://t.co/bpb13P0gVT
+
+---
+
+### @TheAtlantic In the age of AI, what will determine someone's personal success? @DavidBrooks224...
+
+- Author: The Atlantic [@TheAtlantic](https://x.com/TheAtlantic)
+- Tweet URL: [https://x.com/TheAtlantic/status/2071356749844537372](https://x.com/TheAtlantic/status/2071356749844537372)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T22:15:07.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter](https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter)
+- Linked content:
+  - [The People Who Will Thrive in the AI Age - The Atlantic](https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter)
+    Images: https://cdn.theatlantic.com/thumbor/qYbMj2NrXUMTcZRMJ39SEUKt3f4=/0x61:2876x1559/1200x625/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg, https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png, https://cdn.theatlantic.com/media/games/games_promo_color.png, https://www.theatlantic.com/magazine/images/current-issue.420.jpg
+    Text: The People Who Will Thrive in the AI Age What will differentiate people is not how smart they are but their relationship to mental effort. Remember when AI was going to take away our jobs and leave humans with nothing to do? So far, that...
+  - [Long Live Mel Brooks - The Atlantic](https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter)
+    Images: https://cdn.theatlantic.com/thumbor/_Dmzh5honi6c4-3KuCj2NA3EYdo=/545x908:5300x3385/1200x625/media/img/mt/2026/06/GettyImages_507837999/original.jpg, https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png, https://cdn.theatlantic.com/media/games/games_promo_color.png, https://www.theatlantic.com/magazine/images/current-issue.420.jpg
+    Text: If you want to understand Mel Brooks, and I mean really understand him, a good place to start is with Nikolai Gogol’s unfinished masterpiece [Dead Souls](https://bookshop.org/a/12476/9780140448078). This is the 1842 novel that Brooks, at...
+- Thread URLs:
+  - [x.com/TheAtlantic/status/2071356749844537372](https://x.com/TheAtlantic/status/2071356749844537372)
+  - [www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter](https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter)
+  - [x.com/TheAtlantic/status/2071386949223420062](https://x.com/TheAtlantic/status/2071386949223420062)
+  - [www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter](https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter)
+- Public metrics: bookmark_count=19, like_count=12, quote_count=0, reply_count=4, retweet_count=7
+
+> In the age of AI, what will determine someone's personal success? @DavidBrooks224 argues that, rather than being about how smart someone is, the answer has more to do with one's relationship to mental effort: https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter
+
+---
+
+### @nurijanian You don’t need a complicated memory. Just a few independent, mutually exclusive files...
+
+- Author: George from 🕹prodmgmt.world [@nurijanian](https://x.com/nurijanian)
+- Tweet URL: [https://x.com/nurijanian/status/2071276944482828581](https://x.com/nurijanian/status/2071276944482828581)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T16:58:00.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs: none
+- Linked content:
+  - [nurijanian.substack.com](http://nurijanian.substack.com)
+  - [prodmgmt.world | AI PM OS](https://www.prodmgmt.world/)
+    Images: https://www.prodmgmt.world/product_images/homepage-og.jpg, https://www.prodmgmt.world/icons/compatibility/claude.png, https://www.prodmgmt.world/icons/compatibility/cursor.svg, https://www.prodmgmt.world/_next/image?url=%2Favatars%2F1.jpeg&w=96&q=75
+- Thread URLs:
+  - [x.com/nurijanian/status/2071276944482828581](https://x.com/nurijanian/status/2071276944482828581)
+  - [x.com/nurijanian/status/2071366826593013921](https://x.com/nurijanian/status/2071366826593013921)
+  - [nurijanian.substack.com](http://nurijanian.substack.com)
+  - [prodmgmt.world](http://prodmgmt.world)
+- Public metrics: bookmark_count=55, like_count=25, quote_count=0, reply_count=1, retweet_count=5
+
+> You don’t need a complicated memory. Just a few independent, mutually exclusive files that skills can reference on demand.
+>
+> In most cases, it’s enough to load these progressively and mention them in the agents file.
+>
+> The exception is sequential memories for a given project. In that case, it’s useful to keep a ledger of memories, decisions, and similar records - which is what PM OS has in versions 2 and up.
+
+---
+
+### @VKazulkin "The last six months in LLMs in five minutes". by Simon Willison
+
+- Author: Vadym Kazulkin [@VKazulkin](https://x.com/VKazulkin)
+- Tweet URL: [https://x.com/VKazulkin/status/2071290280368570538](https://x.com/VKazulkin/status/2071290280368570538)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-28T17:51:00.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [simonwillison.net/2026/May/19/5-minute-llms](https://simonwillison.net/2026/May/19/5-minute-llms/)
+- Linked content:
+  - [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/)
+    Images: https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg, https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.002.jpeg, https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.003.jpeg, https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.004.jpeg
+    Text: The last six months in LLMs in five minutes 19th May 2026 I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the [latest iteration](https://tools.simonwillison.net/annotated-presentations) of...
+- Thread URLs:
+  - [x.com/VKazulkin/status/2071290280368570538](https://x.com/VKazulkin/status/2071290280368570538)
+  - [simonwillison.net/2026/May/19/5-minute-llms](https://simonwillison.net/2026/May/19/5-minute-llms/)
+  - [x.com/VKazulkin/status/2071305883179421698](https://x.com/VKazulkin/status/2071305883179421698)
+  - [diego-pacheco.blogspot.com/2026/05/harness-engineering.html](https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html)
+- Public metrics: bookmark_count=17, like_count=24, quote_count=0, reply_count=0, retweet_count=2
+
+> "The last six months in LLMs in five minutes".
+> by Simon Willison
+> https://simonwillison.net/2026/May/19/5-minute-llms/
+
+---
+
+### @vipulved 
+
+- Author: Vipul Ved Prakash [@vipulved](https://x.com/vipulved)
+- Tweet URL: [https://x.com/vipulved/status/2071404852908081211](https://x.com/vipulved/status/2071404852908081211)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-29T01:26:16.000Z
+- First seen: 2026-06-29T06:05:07Z
+- Primary URLs:
+  - [x.com/i/article/2071357845443153921](http://x.com/i/article/2071357845443153921)
+- Linked content:
+  - [x.com/i/article/2071357845443153921](http://x.com/i/article/2071357845443153921)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/vipulved/status/2071404852908081211](https://x.com/vipulved/status/2071404852908081211)
+  - [x.com/i/article/2071357845443153921](http://x.com/i/article/2071357845443153921)
+- Public metrics: bookmark_count=97, like_count=88, quote_count=9, reply_count=2, retweet_count=21
+
+> http://x.com/i/article/2071357845443153921
+
+---
 
 ### @trevin We've spent an unfathomable amount of time on this update to Compound Engineering....
 
@@ -24,7 +700,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/trevin/status/2070887626681594357](https://x.com/trevin/status/2070887626681594357)
   - [x.com/trevin/status/2070970920383189417](https://x.com/trevin/status/2070970920383189417)
   - [x.com/trevin/status/2070759474286194995](https://x.com/trevin/status/2070759474286194995)
-- Public metrics: bookmark_count=478, like_count=296, quote_count=3, reply_count=19, retweet_count=22
+- Public metrics: bookmark_count=477, like_count=296, quote_count=3, reply_count=19, retweet_count=22
 
 > We've spent an unfathomable amount of time on this update to Compound Engineering.
 >
@@ -45,7 +721,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/vasuman/status/2070986028232663486](https://x.com/vasuman/status/2070986028232663486)
-- Public metrics: bookmark_count=217, like_count=128, quote_count=0, reply_count=6, retweet_count=6
+- Public metrics: bookmark_count=224, like_count=130, quote_count=0, reply_count=7, retweet_count=6
 
 > The issue with AI has not been the models for quite some time
 >
@@ -69,7 +745,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/Zephyr_hg/status/2070930326705295739](https://x.com/Zephyr_hg/status/2070930326705295739)
   - [x.com/i/article/2070929900270202880](http://x.com/i/article/2070929900270202880)
-- Public metrics: bookmark_count=582, like_count=195, quote_count=2, reply_count=6, retweet_count=30
+- Public metrics: bookmark_count=595, like_count=201, quote_count=2, reply_count=6, retweet_count=32
 
 > http://x.com/i/article/2070929900270202880
 
@@ -91,7 +767,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/RhysSullivan/status/2070991681953161251](https://x.com/RhysSullivan/status/2070991681953161251)
   - [x.com/RhysSullivan/status/2070995838852292769](https://x.com/RhysSullivan/status/2070995838852292769)
   - [pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg](https://pbs.twimg.com/media/HL2nvX_a8AAH31u.jpg)
-- Public metrics: bookmark_count=106, like_count=141, quote_count=1, reply_count=12, retweet_count=6
+- Public metrics: bookmark_count=106, like_count=143, quote_count=1, reply_count=12, retweet_count=6
 
 > more writing - the tl;dr on this one is the agent in your app should be built on pi / opencode and use your public skills + mcp
 >
@@ -137,7 +813,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/i/article/2070947137177935872](http://x.com/i/article/2070947137177935872)
   - [x.com/daleverett/status/2071253817648443495](https://x.com/daleverett/status/2071253817648443495)
   - [x.com/daleverett/status/2071315459455209627](https://x.com/daleverett/status/2071315459455209627)
-- Public metrics: bookmark_count=14, like_count=22, quote_count=1, reply_count=1, retweet_count=4
+- Public metrics: bookmark_count=14, like_count=23, quote_count=1, reply_count=1, retweet_count=4
 
 > http://x.com/i/article/2070947137177935872
 
@@ -187,7 +863,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg](https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg)
   - [x.com/termsheetinator/status/2071229648567234853](https://x.com/termsheetinator/status/2071229648567234853)
   - [infrasuite.io](http://infrasuite.io)
-- Public metrics: bookmark_count=191, like_count=97, quote_count=0, reply_count=3, retweet_count=7
+- Public metrics: bookmark_count=227, like_count=108, quote_count=0, reply_count=3, retweet_count=8
 
 > Prospects are far more afraid of messing up then missing out. Mitigate bad-decision risks, sell the bridge: https://t.co/Rb8CaSmDkl
 
@@ -204,7 +880,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/IAmPascio/status/2070856294789968058](https://x.com/IAmPascio/status/2070856294789968058)
-- Public metrics: bookmark_count=2076, like_count=790, quote_count=1, reply_count=12, retweet_count=94
+- Public metrics: bookmark_count=2122, like_count=812, quote_count=1, reply_count=12, retweet_count=94
 
 > Sit down for 15 minutes and read this.
 >
@@ -223,7 +899,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/omarsar0/status/2070885356585545805](https://x.com/omarsar0/status/2070885356585545805)
-- Public metrics: bookmark_count=234, like_count=198, quote_count=1, reply_count=12, retweet_count=15
+- Public metrics: bookmark_count=236, like_count=199, quote_count=1, reply_count=12, retweet_count=15
 
 > Eve is one of the easiest ways to build with agents.
 >
@@ -258,8 +934,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg](https://pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg)
   - [x.com/cgtwts/status/2071196300096450851](https://x.com/cgtwts/status/2071196300096450851)
   - [pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg](https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg)
-  - [x.com/cgtwts/status/2070733213446840776](https://x.com/cgtwts/status/2070733213446840776)
-- Public metrics: bookmark_count=900, like_count=2325, quote_count=150, reply_count=379, retweet_count=162
+- Public metrics: bookmark_count=914, like_count=2366, quote_count=159, reply_count=385, retweet_count=164
 
 > Anthropic CEO:
 >
@@ -293,12 +968,12 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ccatalini/status/2070939573299847530](https://x.com/ccatalini/status/2070939573299847530)
   - [x.com/ccatalini/status/2070934665238659472](https://x.com/ccatalini/status/2070934665238659472)
   - [pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg](https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg)
-  - [x.com/ccatalini/status/2070911625431765479](https://x.com/ccatalini/status/2070911625431765479)
   - [x.com/ccatalini/status/2070932326851207185](https://x.com/ccatalini/status/2070932326851207185)
+  - [x.com/ccatalini/status/2070911625431765479](https://x.com/ccatalini/status/2070911625431765479)
   - [x.com/ccatalini/status/2070937640161931405](https://x.com/ccatalini/status/2070937640161931405)
   - [x.com/ccatalini/status/2070920343611412957](https://x.com/ccatalini/status/2070920343611412957)
   - [x.com/ccatalini/status/2070908930356572191](https://x.com/ccatalini/status/2070908930356572191)
-- Public metrics: bookmark_count=98, like_count=140, quote_count=8, reply_count=10, retweet_count=32
+- Public metrics: bookmark_count=102, like_count=141, quote_count=8, reply_count=11, retweet_count=33
 
 > http://x.com/i/article/2070895816273960960
 
@@ -316,7 +991,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/zephyr_z9/status/2070744174467670440](https://x.com/zephyr_z9/status/2070744174467670440)
   - [x.com/zephyr_z9/status/2070766918727057519](https://x.com/zephyr_z9/status/2070766918727057519)
-- Public metrics: bookmark_count=196, like_count=204, quote_count=1, reply_count=14, retweet_count=7
+- Public metrics: bookmark_count=195, like_count=204, quote_count=1, reply_count=14, retweet_count=7
 
 > Good Hypothesis
 
@@ -358,7 +1033,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/SaaSletter/status/2070878570197717091](https://x.com/SaaSletter/status/2070878570197717091)
   - [intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf](https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf)
   - [www.exponentialview.co/p/the-state-of-the-ai-economy](https://www.exponentialview.co/p/the-state-of-the-ai-economy)
-- Public metrics: bookmark_count=1330, like_count=676, quote_count=6, reply_count=2, retweet_count=79
+- Public metrics: bookmark_count=1348, like_count=681, quote_count=6, reply_count=2, retweet_count=80
 
 > 👀 excellent new "State of AI" deck (66-slides) from @azeem @ExponentialView
 >
@@ -382,7 +1057,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/rohit4verse/status/2070861975358525500](https://x.com/rohit4verse/status/2070861975358525500)
   - [x.com/i/article/2062609696079675392](http://x.com/i/article/2062609696079675392)
-- Public metrics: bookmark_count=473, like_count=152, quote_count=3, reply_count=29, retweet_count=17
+- Public metrics: bookmark_count=490, like_count=159, quote_count=3, reply_count=29, retweet_count=19
 
 > http://x.com/i/article/2062609696079675392
 
@@ -405,8 +1080,8 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
     Images: https://pbs.twimg.com/media/HL2uwEyaQAA4mjw.png
   - [pbs.twimg.com/media/HL3okxMb0AAjAof.png](https://pbs.twimg.com/media/HL3okxMb0AAjAof.png)
     Images: https://pbs.twimg.com/media/HL3okxMb0AAjAof.png
-  - [pbs.twimg.com/media/HL7syJXaEAEumZI.jpg](https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg)
-    Images: https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg
+  - [Executor — The gateway to connect your agent to everything Executor — The gateway to connect your agent to everything](http://executor.sh)
+    Images: https://executor.sh/og-image.png, http://executor.sh/favicon-192.png, http://executor.sh/_astro/yc-backed-by.DtfrSIEa.svg
 - Thread URLs:
   - [x.com/RhysSullivan/status/2070989582850793947](https://x.com/RhysSullivan/status/2070989582850793947)
   - [x.com/i/article/2060109453488455680](http://x.com/i/article/2060109453488455680)
@@ -417,11 +1092,11 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/RhysSullivan/status/2071051433525551355](https://x.com/RhysSullivan/status/2071051433525551355)
   - [x.com/RhysSullivan/status/2071067144754974894](https://x.com/RhysSullivan/status/2071067144754974894)
   - [pbs.twimg.com/media/HL3okxMb0AAjAof.png](https://pbs.twimg.com/media/HL3okxMb0AAjAof.png)
-  - [x.com/RhysSullivan/status/2071374659875119352](https://x.com/RhysSullivan/status/2071374659875119352)
-  - [x.com/RhysSullivan/status/2071353462953328783](https://x.com/RhysSullivan/status/2071353462953328783)
-  - [pbs.twimg.com/media/HL7syJXaEAEumZI.jpg](https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg)
-  - [x.com/RhysSullivan/status/2071345581575053597](https://x.com/RhysSullivan/status/2071345581575053597)
-- Public metrics: bookmark_count=675, like_count=653, quote_count=23, reply_count=59, retweet_count=32
+  - [x.com/RhysSullivan/status/2071463381878628381](https://x.com/RhysSullivan/status/2071463381878628381)
+  - [x.com/RhysSullivan/status/2071446809508213063](https://x.com/RhysSullivan/status/2071446809508213063)
+  - [x.com/RhysSullivan/status/2071400791680917775](https://x.com/RhysSullivan/status/2071400791680917775)
+  - [executor.sh](http://executor.sh)
+- Public metrics: bookmark_count=708, like_count=682, quote_count=24, reply_count=60, retweet_count=37
 
 > http://x.com/i/article/2060109453488455680
 
@@ -444,7 +1119,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/natolambert/status/2070988271086367221](https://x.com/natolambert/status/2070988271086367221)
   - [www.interconnects.ai/p/glm-52-is-the-step-change-for-open](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open)
-- Public metrics: bookmark_count=66, like_count=147, quote_count=2, reply_count=2, retweet_count=10
+- Public metrics: bookmark_count=68, like_count=152, quote_count=2, reply_count=2, retweet_count=11
 
 > @pmarca confirmed https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open
 
@@ -468,7 +1143,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [github.com/Forward-Future/loop-library](https://github.com/Forward-Future/loop-library)
   - [x.com/MatthewBerman/status/2071250770385830321](https://x.com/MatthewBerman/status/2071250770385830321)
   - [x.com/MatthewBerman/status/2070878464102789193](https://x.com/MatthewBerman/status/2070878464102789193)
-- Public metrics: bookmark_count=1268, like_count=822, quote_count=1, reply_count=26, retweet_count=88
+- Public metrics: bookmark_count=1290, like_count=840, quote_count=1, reply_count=26, retweet_count=91
 
 > New Loopy (aka Loop Library skill) feature:
 >
@@ -496,7 +1171,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/cyrilXBT/status/2070690243880116242](https://x.com/cyrilXBT/status/2070690243880116242)
   - [x.com/i/article/2070681279079526400](http://x.com/i/article/2070681279079526400)
-- Public metrics: bookmark_count=482, like_count=268, quote_count=6, reply_count=13, retweet_count=45
+- Public metrics: bookmark_count=487, like_count=270, quote_count=6, reply_count=13, retweet_count=45
 
 > http://x.com/i/article/2070681279079526400
 
@@ -582,7 +1257,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/waterloo_intern/status/2070675913315057722](https://x.com/waterloo_intern/status/2070675913315057722)
   - [x.com/waterloo_intern/status/2070659124992569346](https://x.com/waterloo_intern/status/2070659124992569346)
   - [x.com/waterloo_intern/status/2070682937541226871](https://x.com/waterloo_intern/status/2070682937541226871)
-- Public metrics: bookmark_count=479, like_count=342, quote_count=17, reply_count=29, retweet_count=91
+- Public metrics: bookmark_count=481, like_count=345, quote_count=17, reply_count=30, retweet_count=93
 
 > http://x.com/i/article/2044877173232963584
 
@@ -619,7 +1294,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/nikunj/status/2070902142089773346](https://x.com/nikunj/status/2070902142089773346)
   - [x.com/nikunj/status/2070714970338431375](https://x.com/nikunj/status/2070714970338431375)
   - [x.com/nikunj/status/2070715006489178247](https://x.com/nikunj/status/2070715006489178247)
-- Public metrics: bookmark_count=153, like_count=196, quote_count=1, reply_count=12, retweet_count=5
+- Public metrics: bookmark_count=154, like_count=196, quote_count=1, reply_count=12, retweet_count=5
 
 > Written for the seed founder who’s building something really important in a not-so-hot category..
 >
@@ -643,7 +1318,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/zarazhangrui/status/2070735964788658598](https://x.com/zarazhangrui/status/2070735964788658598)
   - [x.com/i/article/2070730492236947456](http://x.com/i/article/2070730492236947456)
-- Public metrics: bookmark_count=611, like_count=439, quote_count=18, reply_count=32, retweet_count=50
+- Public metrics: bookmark_count=614, like_count=439, quote_count=21, reply_count=34, retweet_count=50
 
 > http://x.com/i/article/2070730492236947456
 
@@ -666,7 +1341,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/richzou/status/2070652345562923299](https://x.com/richzou/status/2070652345562923299)
   - [x.com/i/article/2069874707319623680](http://x.com/i/article/2069874707319623680)
   - [x.com/richzou/status/2070679304275685693](https://x.com/richzou/status/2070679304275685693)
-- Public metrics: bookmark_count=459, like_count=190, quote_count=12, reply_count=11, retweet_count=13
+- Public metrics: bookmark_count=502, like_count=217, quote_count=12, reply_count=13, retweet_count=14
 
 > http://x.com/i/article/2069874707319623680
 
@@ -683,7 +1358,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/zarazhangrui/status/2070589563429691698](https://x.com/zarazhangrui/status/2070589563429691698)
-- Public metrics: bookmark_count=142, like_count=157, quote_count=0, reply_count=5, retweet_count=6
+- Public metrics: bookmark_count=144, like_count=157, quote_count=0, reply_count=5, retweet_count=6
 
 > "You do not need God to write your emails"
 
@@ -811,7 +1486,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/eualmeidazs/status/2070873357210230796](https://x.com/eualmeidazs/status/2070873357210230796)
   - [x.com/eualmeidazs/status/2071262821287936388](https://x.com/eualmeidazs/status/2071262821287936388)
   - [x.com/eualmeidazs/status/2070873405071478812](https://x.com/eualmeidazs/status/2070873405071478812)
-- Public metrics: bookmark_count=547, like_count=654, quote_count=7, reply_count=44, retweet_count=26
+- Public metrics: bookmark_count=546, like_count=655, quote_count=7, reply_count=44, retweet_count=26
 
 > I’m launching better-drizzle.
 >
@@ -850,7 +1525,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/Easycompany333/status/2070096665403650233](https://x.com/Easycompany333/status/2070096665403650233)
   - [pbs.twimg.com/amplify_video_thumb/2070045679419117568/img/L9_1o2mROEqbkBdt.jpg](https://pbs.twimg.com/amplify_video_thumb/2070045679419117568/img/L9_1o2mROEqbkBdt.jpg)
-- Public metrics: bookmark_count=1180, like_count=677, quote_count=2, reply_count=42, retweet_count=193
+- Public metrics: bookmark_count=1187, like_count=680, quote_count=2, reply_count=42, retweet_count=193
 
 > Anthropic 工程师70分钟workshop
 >
@@ -876,7 +1551,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/vasuman/status/2070629226664153173](https://x.com/vasuman/status/2070629226664153173)
   - [x.com/i/article/2070612759260348416](http://x.com/i/article/2070612759260348416)
-- Public metrics: bookmark_count=626, like_count=254, quote_count=9, reply_count=24, retweet_count=26
+- Public metrics: bookmark_count=634, like_count=257, quote_count=9, reply_count=24, retweet_count=26
 
 > http://x.com/i/article/2070612759260348416
 
@@ -914,7 +1589,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/_prisis_/status/2071343597417324790](https://x.com/_prisis_/status/2071343597417324790)
   - [x.com/_prisis_/status/2070736034258678080](https://x.com/_prisis_/status/2070736034258678080)
   - [x.com/_prisis_/status/2070735123109056986](https://x.com/_prisis_/status/2070735123109056986)
-- Public metrics: bookmark_count=285, like_count=246, quote_count=3, reply_count=10, retweet_count=10
+- Public metrics: bookmark_count=284, like_count=246, quote_count=3, reply_count=10, retweet_count=10
 
 > Your Cloudflare backend just grew superpowers. ⚡
 >
@@ -970,7 +1645,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/mem0ai/status/2070541048527609885](https://x.com/mem0ai/status/2070541048527609885)
   - [x.com/i/article/2070351052545654784](http://x.com/i/article/2070351052545654784)
-- Public metrics: bookmark_count=1026, like_count=444, quote_count=3, reply_count=6, retweet_count=48
+- Public metrics: bookmark_count=1027, like_count=444, quote_count=3, reply_count=6, retweet_count=48
 
 > http://x.com/i/article/2070351052545654784
 
@@ -1000,7 +1675,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/mitchellh/status/2070701789981331662](https://x.com/mitchellh/status/2070701789981331662)
   - [x.com/mitchellh/status/2070699332718977465](https://x.com/mitchellh/status/2070699332718977465)
   - [x.com/mitchellh/status/2070868642120822838](https://x.com/mitchellh/status/2070868642120822838)
-- Public metrics: bookmark_count=3707, like_count=3469, quote_count=93, reply_count=116, retweet_count=340
+- Public metrics: bookmark_count=3989, like_count=3625, quote_count=107, reply_count=119, retweet_count=362
 
 > http://x.com/i/article/2070665015032705024
 
@@ -1072,7 +1747,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/RLanceMartin/status/2070571422913876182](https://x.com/RLanceMartin/status/2070571422913876182)
   - [x.com/i/article/2070556766660931584](http://x.com/i/article/2070556766660931584)
-- Public metrics: bookmark_count=841, like_count=389, quote_count=6, reply_count=10, retweet_count=40
+- Public metrics: bookmark_count=839, like_count=391, quote_count=6, reply_count=10, retweet_count=40
 
 > http://x.com/i/article/2070556766660931584
 
@@ -1166,7 +1841,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ericzakariasson/status/2070496953738121480](https://x.com/ericzakariasson/status/2070496953738121480)
   - [x.com/ericzakariasson/status/2070535318898348499](https://x.com/ericzakariasson/status/2070535318898348499)
   - [x.com/ericzakariasson/status/2070508762444493019](https://x.com/ericzakariasson/status/2070508762444493019)
-- Public metrics: bookmark_count=1802, like_count=1108, quote_count=11, reply_count=26, retweet_count=76
+- Public metrics: bookmark_count=1803, like_count=1108, quote_count=11, reply_count=26, retweet_count=76
 
 > http://x.com/i/article/2070417295810166784
 
@@ -1196,7 +1871,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Gorden_Sun/status/2070882306085249352](https://x.com/Gorden_Sun/status/2070882306085249352)
   - [huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark)
   - [pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg](https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg)
-- Public metrics: bookmark_count=27, like_count=21, quote_count=0, reply_count=8, retweet_count=3
+- Public metrics: bookmark_count=26, like_count=21, quote_count=0, reply_count=8, retweet_count=3
 
 > X上的这篇文章是我用Opus 4.6辅助写的。我还用豆包Seed 2.1 Pro写了一篇，发在了公众号上，可以对比看看：https://mp.weixin.qq.com/s/TsyhPg2yyd5ccVahQVpt9A
 
@@ -1267,7 +1942,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/iandenisjohnson/status/2070387873023451275](https://x.com/iandenisjohnson/status/2070387873023451275)
   - [www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8](https://www.foreignaffairs.com/guest-pass/redeem/zDWmVXl_BT8)
-- Public metrics: bookmark_count=122, like_count=119, quote_count=5, reply_count=7, retweet_count=36
+- Public metrics: bookmark_count=122, like_count=120, quote_count=5, reply_count=7, retweet_count=36
 
 > Thanks to the @ForeignAffairs  editing staff for their great work on this piece, a review of Xu Guoqi’s extremely insightful book on Chinese identity.
 > (Gift link)
@@ -1362,7 +2037,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/0xMortyx/status/2070461392876908667](https://x.com/0xMortyx/status/2070461392876908667)
   - [x.com/0xMortyx/status/2070452904868069854](https://x.com/0xMortyx/status/2070452904868069854)
   - [x.com/0xMortyx/status/2070453250164158754](https://x.com/0xMortyx/status/2070453250164158754)
-- Public metrics: bookmark_count=225, like_count=115, quote_count=5, reply_count=14, retweet_count=14
+- Public metrics: bookmark_count=258, like_count=120, quote_count=5, reply_count=14, retweet_count=16
 
 > http://x.com/i/article/2070441264122626049
 
@@ -1410,7 +2085,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg](https://pbs.twimg.com/media/HLvYnOCWMAADaE2.jpg)
   - [pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg](https://pbs.twimg.com/media/HLvYnOQWgAAUzVi.jpg)
   - [x.com/MindBranches/status/2070485965093715969](https://x.com/MindBranches/status/2070485965093715969)
-- Public metrics: bookmark_count=4919, like_count=3523, quote_count=1, reply_count=13, retweet_count=380
+- Public metrics: bookmark_count=4920, like_count=3524, quote_count=1, reply_count=13, retweet_count=380
 
 > How to articulate yourself intelligently
 >
@@ -1544,7 +2219,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg](https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg)
   - [x.com/AnatoliKopadze/status/2070541643518775354](https://x.com/AnatoliKopadze/status/2070541643518775354)
   - [pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg](https://pbs.twimg.com/amplify_video_thumb/2070541369790062593/img/ZTtwjVATbh4Oe53S.jpg)
-- Public metrics: bookmark_count=7105, like_count=2637, quote_count=17, reply_count=87, retweet_count=273
+- Public metrics: bookmark_count=7113, like_count=2639, quote_count=17, reply_count=87, retweet_count=273
 
 > Head of Engineering Shopify:
 >
@@ -1653,7 +2328,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg](https://pbs.twimg.com/amplify_video_thumb/2070194409950306304/img/o014euXdGqKkdF19.jpg)
   - [x.com/PawelHuryn/status/2070195108469776783](https://x.com/PawelHuryn/status/2070195108469776783)
   - [x.com/PawelHuryn/status/2064079508689358857?s=20](https://x.com/PawelHuryn/status/2064079508689358857?s=20)
-- Public metrics: bookmark_count=86, like_count=49, quote_count=1, reply_count=8, retweet_count=9
+- Public metrics: bookmark_count=85, like_count=49, quote_count=1, reply_count=8, retweet_count=9
 
 > Drop everything you're doing and watch this 3-minute clip.
 >
@@ -1684,7 +2359,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/Letta_AI/status/2070234879888138539](https://x.com/Letta_AI/status/2070234879888138539)
   - [x.com/i/article/2070024964095533056](http://x.com/i/article/2070024964095533056)
-- Public metrics: bookmark_count=79, like_count=34, quote_count=3, reply_count=0, retweet_count=6
+- Public metrics: bookmark_count=79, like_count=34, quote_count=4, reply_count=0, retweet_count=6
 
 > http://x.com/i/article/2070024964095533056
 
@@ -1706,7 +2381,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/itsalexvacca/status/2070189941209075906](https://x.com/itsalexvacca/status/2070189941209075906)
   - [x.com/i/article/2069741413164568576](http://x.com/i/article/2069741413164568576)
-- Public metrics: bookmark_count=60, like_count=19, quote_count=1, reply_count=1, retweet_count=2
+- Public metrics: bookmark_count=59, like_count=19, quote_count=1, reply_count=1, retweet_count=2
 
 > http://x.com/i/article/2069741413164568576
 
@@ -1762,7 +2437,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ProfBuehlerMIT/status/2070337033298391453](https://x.com/ProfBuehlerMIT/status/2070337033298391453)
   - [x.com/ProfBuehlerMIT/status/2070569340462633244](https://x.com/ProfBuehlerMIT/status/2070569340462633244)
   - [x.com/ProfBuehlerMIT/status/2070438657236860979](https://x.com/ProfBuehlerMIT/status/2070438657236860979)
-- Public metrics: bookmark_count=227, like_count=154, quote_count=11, reply_count=8, retweet_count=20
+- Public metrics: bookmark_count=229, like_count=156, quote_count=11, reply_count=8, retweet_count=20
 
 > http://x.com/i/article/2070034058499809280
 
@@ -1812,7 +2487,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/Zephyr_hg/status/2070171729373118742](https://x.com/Zephyr_hg/status/2070171729373118742)
   - [x.com/i/article/2070083414510702592](http://x.com/i/article/2070083414510702592)
-- Public metrics: bookmark_count=1919, like_count=526, quote_count=7, reply_count=11, retweet_count=77
+- Public metrics: bookmark_count=1917, like_count=527, quote_count=7, reply_count=11, retweet_count=77
 
 > http://x.com/i/article/2070083414510702592
 
@@ -1837,7 +2512,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ataiiam/status/2069835886972252463](https://x.com/ataiiam/status/2069835886972252463)
   - [x.com/ataiiam/status/2069835612551524582](https://x.com/ataiiam/status/2069835612551524582)
   - [x.com/ataiiam/status/2069835656977657993](https://x.com/ataiiam/status/2069835656977657993)
-- Public metrics: bookmark_count=608, like_count=267, quote_count=14, reply_count=9, retweet_count=48
+- Public metrics: bookmark_count=614, like_count=268, quote_count=14, reply_count=9, retweet_count=48
 
 > http://x.com/i/article/2069467654612455425
 
@@ -1888,7 +2563,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [lilianweng.github.io/posts/2026-06-24-scaling-laws](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/)
   - [x.com/lilianweng/status/2070239863203623369](https://x.com/lilianweng/status/2070239863203623369)
   - [x.com/lilianweng/status/2070240252988629313](https://x.com/lilianweng/status/2070240252988629313)
-- Public metrics: bookmark_count=5123, like_count=4541, quote_count=73, reply_count=60, retweet_count=568
+- Public metrics: bookmark_count=5127, like_count=4544, quote_count=73, reply_count=60, retweet_count=568
 
 > A super long overdue (3+ years?) post on scaling laws.
 >
@@ -1916,7 +2591,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/SpencerFarrar/status/2070230293429244094](https://x.com/SpencerFarrar/status/2070230293429244094)
   - [x.com/i/article/2069868400579596290](http://x.com/i/article/2069868400579596290)
-- Public metrics: bookmark_count=164, like_count=111, quote_count=0, reply_count=5, retweet_count=5
+- Public metrics: bookmark_count=163, like_count=111, quote_count=0, reply_count=5, retweet_count=5
 
 > http://x.com/i/article/2069868400579596290
 
@@ -2024,7 +2699,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/OpenAINewsroom/status/2070180324651528434](https://x.com/OpenAINewsroom/status/2070180324651528434)
   - [openai.com/index/how-agents-are-transforming-work](https://openai.com/index/how-agents-are-transforming-work)
-- Public metrics: bookmark_count=618, like_count=1574, quote_count=26, reply_count=116, retweet_count=152
+- Public metrics: bookmark_count=619, like_count=1576, quote_count=26, reply_count=116, retweet_count=152
 
 > Codex usage at OpenAI gives us a preview of what agentic work may look like in the future.
 >
@@ -2057,7 +2732,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/hyojun_at/status/2070307533307486710](https://x.com/hyojun_at/status/2070307533307486710)
   - [x.com/hyojun_at/status/2070374132097896609](https://x.com/hyojun_at/status/2070374132097896609)
   - [x.com/hyojun_at/status/2070533405436207353](https://x.com/hyojun_at/status/2070533405436207353)
-- Public metrics: bookmark_count=659, like_count=322, quote_count=16, reply_count=26, retweet_count=14
+- Public metrics: bookmark_count=660, like_count=324, quote_count=16, reply_count=26, retweet_count=14
 
 > http://x.com/i/article/2070229603483045888
 
@@ -2086,7 +2761,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/seflless/status/2070518909590032595](https://x.com/seflless/status/2070518909590032595)
   - [github.com](http://github.com/)
   - [github.com/seflless/tries-starter](https://github.com/seflless/tries-starter)
-- Public metrics: bookmark_count=197, like_count=109, quote_count=2, reply_count=2, retweet_count=7
+- Public metrics: bookmark_count=195, like_count=109, quote_count=2, reply_count=2, retweet_count=7
 
 > I'm loving @tobi's try project. I took it and made it easy to deploy experiments. I just have a single repo called "tries" and a command on my computer "tries" that I can run from any folder (just like try can) that pushes any changes to the repo. It uses Github Pages for any static html demos. Works like a charm.
 >
@@ -2176,7 +2851,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/getzaroai/status/2070512594465484936](https://x.com/getzaroai/status/2070512594465484936)
   - [x.com/getzaroai/status/2070134672453939558](https://x.com/getzaroai/status/2070134672453939558)
   - [x.com/getzaroai/status/2070185984235311317](https://x.com/getzaroai/status/2070185984235311317)
-- Public metrics: bookmark_count=1159, like_count=968, quote_count=80, reply_count=142, retweet_count=94
+- Public metrics: bookmark_count=1157, like_count=968, quote_count=80, reply_count=142, retweet_count=94
 
 > Today, we're excited to launch Zaro.
 >
@@ -2220,7 +2895,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/v0/status/2070187586610753971](https://x.com/v0/status/2070187586610753971)
   - [x.com/v0/status/2070187598635823126](https://x.com/v0/status/2070187598635823126)
   - [v0.app/docs/design-systems-2](https://v0.app/docs/design-systems-2)
-- Public metrics: bookmark_count=628, like_count=934, quote_count=28, reply_count=40, retweet_count=65
+- Public metrics: bookmark_count=628, like_count=935, quote_count=29, reply_count=40, retweet_count=65
 
 > v0 Design Systems 2.0 is here.
 >
@@ -2356,7 +3031,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/pmarca/status/2070424948867469808](https://x.com/pmarca/status/2070424948867469808)
   - [x.com/pmarca/status/2070383785854853359](https://x.com/pmarca/status/2070383785854853359)
   - [pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg](https://pbs.twimg.com/tweet_video_thumb/HLt7FB3bUAAA0aK.jpg)
-- Public metrics: bookmark_count=664, like_count=2389, quote_count=17, reply_count=88, retweet_count=157
+- Public metrics: bookmark_count=664, like_count=2390, quote_count=17, reply_count=88, retweet_count=158
 
 > Cyberpunk AF.
 
@@ -2433,7 +3108,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/Zephyr_hg/status/2069926544517292540](https://x.com/Zephyr_hg/status/2069926544517292540)
   - [pbs.twimg.com/amplify_video_thumb/2069805899284115456/img/RVZPMHfhCM5g9aZt.jpg](https://pbs.twimg.com/amplify_video_thumb/2069805899284115456/img/RVZPMHfhCM5g9aZt.jpg)
-- Public metrics: bookmark_count=1121, like_count=314, quote_count=0, reply_count=14, retweet_count=37
+- Public metrics: bookmark_count=1120, like_count=314, quote_count=0, reply_count=14, retweet_count=37
 
 > David, co-creator of MCP at Anthropic:
 >
@@ -2508,7 +3183,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/ItsRoboki/status/2069734578001215587](https://x.com/ItsRoboki/status/2069734578001215587)
   - [pbs.twimg.com/media/HLksnwYagAAkuBT.jpg](https://pbs.twimg.com/media/HLksnwYagAAkuBT.jpg)
   - [x.com/ItsRoboki/status/2069750339956564269](https://x.com/ItsRoboki/status/2069750339956564269)
-- Public metrics: bookmark_count=34, like_count=35, quote_count=0, reply_count=2, retweet_count=3
+- Public metrics: bookmark_count=33, like_count=35, quote_count=0, reply_count=2, retweet_count=3
 
 > /loop and /goal do not validate your work.
 > They amplify whatever validation you give them.
@@ -2546,7 +3221,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/morganlinton/status/2069794773884637659](https://x.com/morganlinton/status/2069794773884637659)
   - [x.com/morganlinton/status/2069844943246602319](https://x.com/morganlinton/status/2069844943246602319)
   - [x.com/morganlinton/status/2069845169894232558](https://x.com/morganlinton/status/2069845169894232558)
-- Public metrics: bookmark_count=44, like_count=61, quote_count=2, reply_count=10, retweet_count=7
+- Public metrics: bookmark_count=43, like_count=61, quote_count=2, reply_count=10, retweet_count=7
 
 > This idea that the agentic coding workflow should be three models, an orchestrator, executor, and code reviewer, is pretty broken imo.
 >
@@ -2574,7 +3249,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/eugeneyan/status/2069943153843691871](https://x.com/eugeneyan/status/2069943153843691871)
   - [eugeneyan.com/writing/cybersecurity-evals](https://eugeneyan.com/writing/cybersecurity-evals/)
-- Public metrics: bookmark_count=56, like_count=56, quote_count=0, reply_count=8, retweet_count=8
+- Public metrics: bookmark_count=56, like_count=57, quote_count=0, reply_count=8, retweet_count=8
 
 > How do we eval if a model can find and exploit vulnerabilities? We discuss some benchmarks and the common pattern:
 > • A sandboxed target within Docker containers
@@ -2597,7 +3272,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/andrew__reed/status/2069863087495344394](https://x.com/andrew__reed/status/2069863087495344394)
-- Public metrics: bookmark_count=496, like_count=248, quote_count=0, reply_count=2, retweet_count=13
+- Public metrics: bookmark_count=496, like_count=249, quote_count=0, reply_count=2, retweet_count=13
 
 > Absolute banger of an opener, new media nailed it with this one.
 
@@ -2619,7 +3294,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/harold_matmul/status/2069836410052325711](https://x.com/harold_matmul/status/2069836410052325711)
   - [x.com/i/article/2069803732552896512](http://x.com/i/article/2069803732552896512)
-- Public metrics: bookmark_count=316, like_count=155, quote_count=4, reply_count=1, retweet_count=16
+- Public metrics: bookmark_count=315, like_count=155, quote_count=4, reply_count=1, retweet_count=16
 
 > http://x.com/i/article/2069803732552896512
 
@@ -2701,7 +3376,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/iiidevs/status/2069853415228793302](https://x.com/iiidevs/status/2069853415228793302)
   - [pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg](https://pbs.twimg.com/media/HLmYmm1WQAAGLT8.jpg)
-- Public metrics: bookmark_count=11, like_count=7, quote_count=0, reply_count=1, retweet_count=0
+- Public metrics: bookmark_count=10, like_count=7, quote_count=0, reply_count=1, retweet_count=0
 
 > Loop Engineering Is Just Software Engineering. We Have a Name for That.
 >
@@ -2725,7 +3400,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Voxyz_ai/status/2069753111116152847](https://x.com/Voxyz_ai/status/2069753111116152847)
   - [x.com/i/article/2069733809939992576](http://x.com/i/article/2069733809939992576)
   - [x.com/Voxyz_ai/status/2069765894373274033](https://x.com/Voxyz_ai/status/2069765894373274033)
-- Public metrics: bookmark_count=186, like_count=95, quote_count=2, reply_count=6, retweet_count=12
+- Public metrics: bookmark_count=185, like_count=95, quote_count=2, reply_count=6, retweet_count=12
 
 > http://x.com/i/article/2069733809939992576
 
@@ -2812,7 +3487,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/hwchase17/status/2069856656335556766](https://x.com/hwchase17/status/2069856656335556766)
   - [pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg](https://pbs.twimg.com/media/HLmbgakbUAAXrSN.jpg)
   - [x.com/hwchase17/status/2069899986683449699](https://x.com/hwchase17/status/2069899986683449699)
-- Public metrics: bookmark_count=280, like_count=254, quote_count=3, reply_count=13, retweet_count=37
+- Public metrics: bookmark_count=281, like_count=254, quote_count=3, reply_count=13, retweet_count=37
 
 > a lot of agent memory follows a simple three step process:
 >
@@ -2835,7 +3510,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/5imian/status/2069831588964135138](https://x.com/5imian/status/2069831588964135138)
-- Public metrics: bookmark_count=23, like_count=22, quote_count=1, reply_count=0, retweet_count=0
+- Public metrics: bookmark_count=22, like_count=22, quote_count=1, reply_count=0, retweet_count=0
 
 > 1. "Do the work by hand first, so you know what good looks like."
 >
@@ -3029,7 +3704,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/vista8/status/2069807440732844510](https://x.com/vista8/status/2069807440732844510)
   - [x.com/i/article/2069806162506051584](http://x.com/i/article/2069806162506051584)
-- Public metrics: bookmark_count=94, like_count=60, quote_count=1, reply_count=6, retweet_count=17
+- Public metrics: bookmark_count=92, like_count=60, quote_count=1, reply_count=6, retweet_count=17
 
 > http://x.com/i/article/2069806162506051584
 
@@ -3119,7 +3794,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/heynavtoor/status/2069730505541693951](https://x.com/heynavtoor/status/2069730505541693951)
   - [x.com/i/article/2068071736143454208](http://x.com/i/article/2068071736143454208)
-- Public metrics: bookmark_count=4740, like_count=1848, quote_count=14, reply_count=23, retweet_count=313
+- Public metrics: bookmark_count=4745, like_count=1846, quote_count=14, reply_count=23, retweet_count=313
 
 > http://x.com/i/article/2068071736143454208
 
@@ -3207,23 +3882,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @KyleSamani Great post
-
-- Author: Kyle Samani [@KyleSamani](https://x.com/KyleSamani)
-- Tweet URL: [https://x.com/KyleSamani/status/2069523639767085124](https://x.com/KyleSamani/status/2069523639767085124)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T20:51:00.000Z
-- First seen: 2026-06-24T15:08:43Z
-- Primary URLs: none
-- Thread URLs:
-  - [x.com/KyleSamani/status/2069523639767085124](https://x.com/KyleSamani/status/2069523639767085124)
-- Public metrics: bookmark_count=187, like_count=118, quote_count=0, reply_count=9, retweet_count=8
-
-> Great post
-
----
-
 ### @alive_ 
 
 - Author: Ali Yahya [@alive_](https://x.com/alive_)
@@ -3272,20 +3930,26 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @castformai how we're spending time improving onboarding for our devs 👇
+### @axios BEHIND THE CURTAIN: China and Japan, using much cheaper models, have gotten closer to...
 
-- Author: castform [@castformai](https://x.com/castformai)
-- Tweet URL: [https://x.com/castformai/status/2069532034377396331](https://x.com/castformai/status/2069532034377396331)
+- Author: Axios [@axios](https://x.com/axios)
+- Tweet URL: [https://x.com/axios/status/2069744470384386506](https://x.com/axios/status/2069744470384386506)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-06-23T21:24:21.000Z
+- Tweet created: 2026-06-24T11:28:30.000Z
 - First seen: 2026-06-24T15:08:43Z
-- Primary URLs: none
+- Primary URLs:
+  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
+- Linked content:
+  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
 - Thread URLs:
-  - [x.com/castformai/status/2069532034377396331](https://x.com/castformai/status/2069532034377396331)
-- Public metrics: bookmark_count=2, like_count=3, quote_count=0, reply_count=0, retweet_count=0
+  - [x.com/axios/status/2069744470384386506](https://x.com/axios/status/2069744470384386506)
+  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
+- Public metrics: bookmark_count=40, like_count=108, quote_count=12, reply_count=8, retweet_count=27
 
-> how we're spending time improving onboarding for our devs 👇
+> BEHIND THE CURTAIN: China and Japan, using much cheaper models, have gotten closer to the capabilities of American frontier AI, faster than intelligence agencies anticipated.
+>
+> "The timeline is not years, it is months," the Five Eyes intel alliance warned. https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek
 
 ---
 
@@ -3310,6 +3974,27 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @nurijanian 
+
+- Author: George from 🕹prodmgmt.world [@nurijanian](https://x.com/nurijanian)
+- Tweet URL: [https://x.com/nurijanian/status/2069709866940424356](https://x.com/nurijanian/status/2069709866940424356)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-24T09:11:00.000Z
+- First seen: 2026-06-24T15:08:43Z
+- Primary URLs:
+  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
+- Linked content:
+  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
+- Thread URLs:
+  - [x.com/nurijanian/status/2069709866940424356](https://x.com/nurijanian/status/2069709866940424356)
+  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
+- Public metrics: bookmark_count=102, like_count=55, quote_count=1, reply_count=1, retweet_count=6
+
+> http://x.com/i/article/2069671539902177280
+
+---
+
 ### @clairevo 
 
 - Author: claire vo 🖤 [@clairevo](https://x.com/clairevo)
@@ -3328,29 +4013,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Public metrics: bookmark_count=163, like_count=57, quote_count=1, reply_count=2, retweet_count=3
 
 > http://x.com/i/article/2069609628435144704
-
----
-
-### @axios BEHIND THE CURTAIN: China and Japan, using much cheaper models, have gotten closer to...
-
-- Author: Axios [@axios](https://x.com/axios)
-- Tweet URL: [https://x.com/axios/status/2069744470384386506](https://x.com/axios/status/2069744470384386506)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-24T11:28:30.000Z
-- First seen: 2026-06-24T15:08:43Z
-- Primary URLs:
-  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
-- Linked content:
-  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
-- Thread URLs:
-  - [x.com/axios/status/2069744470384386506](https://x.com/axios/status/2069744470384386506)
-  - [www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek](https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek)
-- Public metrics: bookmark_count=40, like_count=108, quote_count=12, reply_count=8, retweet_count=27
-
-> BEHIND THE CURTAIN: China and Japan, using much cheaper models, have gotten closer to the capabilities of American frontier AI, faster than intelligence agencies anticipated.
->
-> "The timeline is not years, it is months," the Five Eyes intel alliance warned. https://www.axios.com/2026/06/24/ai-security-america-china-mythos-deepseek
 
 ---
 
@@ -3376,24 +4038,69 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @nurijanian 
+### @castformai how we're spending time improving onboarding for our devs 👇
 
-- Author: George from 🕹prodmgmt.world [@nurijanian](https://x.com/nurijanian)
-- Tweet URL: [https://x.com/nurijanian/status/2069709866940424356](https://x.com/nurijanian/status/2069709866940424356)
+- Author: castform [@castformai](https://x.com/castformai)
+- Tweet URL: [https://x.com/castformai/status/2069532034377396331](https://x.com/castformai/status/2069532034377396331)
 - Sources: bookmark@CatHanami97880
 - Saved by: CatHanami97880
-- Tweet created: 2026-06-24T09:11:00.000Z
+- Tweet created: 2026-06-23T21:24:21.000Z
 - First seen: 2026-06-24T15:08:43Z
-- Primary URLs:
-  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
-- Linked content:
-  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
+- Primary URLs: none
 - Thread URLs:
-  - [x.com/nurijanian/status/2069709866940424356](https://x.com/nurijanian/status/2069709866940424356)
-  - [x.com/i/article/2069671539902177280](http://x.com/i/article/2069671539902177280)
-- Public metrics: bookmark_count=102, like_count=55, quote_count=1, reply_count=1, retweet_count=6
+  - [x.com/castformai/status/2069532034377396331](https://x.com/castformai/status/2069532034377396331)
+- Public metrics: bookmark_count=2, like_count=3, quote_count=0, reply_count=0, retweet_count=0
 
-> http://x.com/i/article/2069671539902177280
+> how we're spending time improving onboarding for our devs 👇
+
+---
+
+### @KyleSamani Great post
+
+- Author: Kyle Samani [@KyleSamani](https://x.com/KyleSamani)
+- Tweet URL: [https://x.com/KyleSamani/status/2069523639767085124](https://x.com/KyleSamani/status/2069523639767085124)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T20:51:00.000Z
+- First seen: 2026-06-24T15:08:43Z
+- Primary URLs: none
+- Thread URLs:
+  - [x.com/KyleSamani/status/2069523639767085124](https://x.com/KyleSamani/status/2069523639767085124)
+- Public metrics: bookmark_count=187, like_count=118, quote_count=0, reply_count=9, retweet_count=8
+
+> Great post
+
+---
+
+### @softwaredoug I had some success at my search roles at Shopify + Reddit. I wish I could have had...
+
+- Author: Doug Turnbull [@softwaredoug](https://x.com/softwaredoug)
+- Tweet URL: [https://x.com/softwaredoug/status/2069582981316923772](https://x.com/softwaredoug/status/2069582981316923772)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-24T00:46:48.000Z
+- First seen: 2026-06-24T08:33:22Z
+- Primary URLs:
+  - [maven.com/search-school/ai-powered-search](http://maven.com/search-school/ai-powered-search)
+- Linked content:
+  - [AI-Powered Search: Modern Retrieval for Humans & Agents by Trey Grainger and Doug Turnbull on Maven](https://maven.com/search-school/ai-powered-search)
+    Images: https://d2426xcxuh3ht5.cloudfront.net/bGsBtHCPRQaqqsdFfwus_6.jpg, https://maven.com/_next/image?url=https%3A%2F%2Fd3fe4umbwqdrlj.cloudfront.net%2Fmarketplace%2Fcategories%2Fbg.png&w=1536&q=75, https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=768&q=75, https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=768&q=75
+    Text: AI Search Expert | Founder | Author Principal Search Engineer | Author 10 people enrolled last week. AI Search is among of the most in-demand AI Skills. AI systems need RAG, and implementing great retrieval can often have a bigger impact...
+  - [pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg](https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg)
+    Images: https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg
+- Thread URLs:
+  - [x.com/softwaredoug/status/2069582981316923772](https://x.com/softwaredoug/status/2069582981316923772)
+  - [maven.com/search-school/ai-powered-search](http://maven.com/search-school/ai-powered-search)
+  - [x.com/softwaredoug/status/2069583076024365273](https://x.com/softwaredoug/status/2069583076024365273)
+  - [x.com/softwaredoug/status/2069795784044789857](https://x.com/softwaredoug/status/2069795784044789857)
+  - [pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg](https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg)
+- Public metrics: bookmark_count=1, like_count=4, quote_count=0, reply_count=1, retweet_count=1
+
+> I had some success at my search roles at Shopify + Reddit. I wish I could have had something like what @treygrainger and I built with AI Powered Search course
+>
+> Basically a way to network with peers while learning where retrieval is headed
+>
+> http://maven.com/search-school/ai-powered-search
 
 ---
 
@@ -3504,38 +4211,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @softwaredoug I had some success at my search roles at Shopify + Reddit. I wish I could have had...
-
-- Author: Doug Turnbull [@softwaredoug](https://x.com/softwaredoug)
-- Tweet URL: [https://x.com/softwaredoug/status/2069582981316923772](https://x.com/softwaredoug/status/2069582981316923772)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-24T00:46:48.000Z
-- First seen: 2026-06-24T08:33:22Z
-- Primary URLs:
-  - [maven.com/search-school/ai-powered-search](http://maven.com/search-school/ai-powered-search)
-- Linked content:
-  - [AI-Powered Search: Modern Retrieval for Humans & Agents by Trey Grainger and Doug Turnbull on Maven](https://maven.com/search-school/ai-powered-search)
-    Images: https://d2426xcxuh3ht5.cloudfront.net/bGsBtHCPRQaqqsdFfwus_6.jpg, https://maven.com/_next/image?url=https%3A%2F%2Fd3fe4umbwqdrlj.cloudfront.net%2Fmarketplace%2Fcategories%2Fbg.png&w=1536&q=75, https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2Fb9WUgJuUS0CTF1uKoCMI_trey-maven.png&w=768&q=75, https://maven.com/_next/image?url=https%3A%2F%2Fuser-assets.maven.com%2Finstructor-no-bg%2FiEkkBkVrQpiWeECCwRr5_bpaI5xMT6qN6aYgSjdOP_avatar.png&w=768&q=75
-    Text: AI Search Expert | Founder | Author Principal Search Engineer | Author 10 people enrolled last week. AI Search is among of the most in-demand AI Skills. AI systems need RAG, and implementing great retrieval can often have a bigger impact...
-  - [pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg](https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg)
-    Images: https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg
-- Thread URLs:
-  - [x.com/softwaredoug/status/2069582981316923772](https://x.com/softwaredoug/status/2069582981316923772)
-  - [maven.com/search-school/ai-powered-search](http://maven.com/search-school/ai-powered-search)
-  - [x.com/softwaredoug/status/2069583076024365273](https://x.com/softwaredoug/status/2069583076024365273)
-  - [x.com/softwaredoug/status/2069795784044789857](https://x.com/softwaredoug/status/2069795784044789857)
-  - [pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg](https://pbs.twimg.com/media/HLlkQpgXcAAL_7c.jpg)
-- Public metrics: bookmark_count=1, like_count=4, quote_count=0, reply_count=1, retweet_count=1
-
-> I had some success at my search roles at Shopify + Reddit. I wish I could have had something like what @treygrainger and I built with AI Powered Search course
->
-> Basically a way to network with peers while learning where retrieval is headed
->
-> http://maven.com/search-school/ai-powered-search
-
----
-
 ### @axios Google takes the hit in AI's talent war
 
 - Author: Axios [@axios](https://x.com/axios)
@@ -3575,7 +4250,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/9hills/status/2069615596506083728](https://x.com/9hills/status/2069615596506083728)
   - [raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic](https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/)
-- Public metrics: bookmark_count=220, like_count=154, quote_count=4, reply_count=45, retweet_count=11
+- Public metrics: bookmark_count=219, like_count=154, quote_count=5, reply_count=45, retweet_count=11
 
 > Agent in Channel 多人群聊其实有很多交互问题，有没有好的开源项目？
 >
@@ -3671,148 +4346,6 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
-### @qinzytech 
-
-- Author: Zengyi Qin [@qinzytech](https://x.com/qinzytech)
-- Tweet URL: [https://x.com/qinzytech/status/2069444200387780708](https://x.com/qinzytech/status/2069444200387780708)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T15:35:20.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs:
-  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
-- Linked content:
-  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
-    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
-- Thread URLs:
-  - [x.com/qinzytech/status/2069444200387780708](https://x.com/qinzytech/status/2069444200387780708)
-  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
-- Public metrics: bookmark_count=2, like_count=2, quote_count=0, reply_count=1, retweet_count=0
-
-> http://x.com/i/article/2069290212862377984
-
----
-
-### @0xblacklight Alternatively titled "I think you should still build loops just Not Like That"
-
-- Author: Kyle Mistele 🏴‍☠️ [@0xblacklight](https://x.com/0xblacklight)
-- Tweet URL: [https://x.com/0xblacklight/status/2069505318120497198](https://x.com/0xblacklight/status/2069505318120497198)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T19:38:12.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs: none
-- Thread URLs:
-  - [x.com/0xblacklight/status/2069505318120497198](https://x.com/0xblacklight/status/2069505318120497198)
-- Public metrics: bookmark_count=69, like_count=42, quote_count=1, reply_count=1, retweet_count=1
-
-> Alternatively titled "I think you should still build loops just Not Like That"
-
----
-
-### @greggmojica 
-
-- Author: Gregg Mojica [@greggmojica](https://x.com/greggmojica)
-- Tweet URL: [https://x.com/greggmojica/status/2069446934897492396](https://x.com/greggmojica/status/2069446934897492396)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T15:46:12.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs:
-  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
-- Linked content:
-  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
-- Thread URLs:
-  - [x.com/greggmojica/status/2069446934897492396](https://x.com/greggmojica/status/2069446934897492396)
-  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
-  - [x.com/greggmojica/status/2069493147005333625](https://x.com/greggmojica/status/2069493147005333625)
-- Public metrics: bookmark_count=13, like_count=37, quote_count=0, reply_count=8, retweet_count=7
-
-> http://x.com/i/article/2069190643990384640
-
----
-
-### @SergioPaniego 
-
-- Author: Sergio Paniego [@SergioPaniego](https://x.com/SergioPaniego)
-- Tweet URL: [https://x.com/SergioPaniego/status/2069369115630870771](https://x.com/SergioPaniego/status/2069369115630870771)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T10:36:58.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs:
-  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
-- Linked content:
-  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
-- Thread URLs:
-  - [x.com/SergioPaniego/status/2069369115630870771](https://x.com/SergioPaniego/status/2069369115630870771)
-  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
-- Public metrics: bookmark_count=58, like_count=48, quote_count=1, reply_count=0, retweet_count=6
-
-> http://x.com/i/article/2069356617783500800
-
----
-
-### @TheEconomist “The ban of Anthropic’s cutting-edge models will be litigated, amended and perhaps...
-
-- Author: The Economist [@TheEconomist](https://x.com/TheEconomist)
-- Tweet URL: [https://x.com/TheEconomist/status/2069294381903790351](https://x.com/TheEconomist/status/2069294381903790351)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T05:40:00.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs:
-  - [www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
-- Thread URLs:
-  - [x.com/TheEconomist/status/2069294381903790351](https://x.com/TheEconomist/status/2069294381903790351)
-  - [www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
-- Public metrics: bookmark_count=14, like_count=48, quote_count=3, reply_count=11, retweet_count=20
-
-> “The ban of Anthropic’s cutting-edge models will be litigated, amended and perhaps withdrawn,” argues Judith Dada in response to Donald Trump’s decree. “Europe can decide to build a better future on this technology” https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
-
----
-
-### @hwchase17 🧠Self-Harness: Harnesses that improve themselves New paper on agents shaping their own...
-
-- Author: Harrison Chase [@hwchase17](https://x.com/hwchase17)
-- Tweet URL: [https://x.com/hwchase17/status/2069443268593537470](https://x.com/hwchase17/status/2069443268593537470)
-- Sources: bookmark@CatHanami97880
-- Saved by: CatHanami97880
-- Tweet created: 2026-06-23T15:31:38.000Z
-- First seen: 2026-06-24T04:35:53Z
-- Primary URLs:
-  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
-  - [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
-- Media URLs:
-  - [photo](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
-- Linked content:
-  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
-  - [GitHub - langchain-ai/deepagents: The batteries-included agent harness. · GitHub](https://github.com/langchain-ai/deepagents)
-    Images: https://repository-images.githubusercontent.com/1027384981/ea816c48-7caa-46b8-b4bd-1f90a6807f55, https://github.com/langchain-ai/deepagents/raw/main/.github/images/logo-dark.svg, https://camo.githubusercontent.com/648c6d7c665315a99bc0bd5a491cdbfc3e5e71cb5acb96c5d7314cfbc4cb8ba7/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f646565706167656e7473, https://camo.githubusercontent.com/37b2d59b94eab0e69cc2abda27a326fff6f5fd1b34620ed75b986d425d2d97b8/68747470733a2f2f696d672e736869656c64732e696f2f706570792f64742f646565706167656e7473
-  - [pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
-    Images: https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg
-- Thread URLs:
-  - [x.com/hwchase17/status/2069443268593537470](https://x.com/hwchase17/status/2069443268593537470)
-  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
-  - [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
-  - [pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
-  - [x.com/hwchase17/status/2069444937783910440](https://x.com/hwchase17/status/2069444937783910440)
-- Public metrics: bookmark_count=427, like_count=351, quote_count=6, reply_count=40, retweet_count=64
-
-> 🧠Self-Harness: Harnesses that improve themselves
->
-> New paper on agents shaping their own harnesses to improve over time. Not from LangChain, but builds on top of DeepAgents! Three key steps:
->
-> 1/ Weakness mining: find failure modes from traces
-> 2/ Harness proposal: suggest changes to the harness
-> 3/ Proposal validation: does regression testing on proposals and then accepts
->
-> Paper: https://arxiv.org/pdf/2606.09498
->
-> Builds on top of DeepAgents: https://github.com/langchain-ai/deepagents
-
----
-
 ### @rauchg Starting an X Chat group for feedback. If you’re deep into building an agent and have...
 
 - Author: Guillermo Rauch [@rauchg](https://x.com/rauchg)
@@ -3882,6 +4415,23 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Public metrics: bookmark_count=8, like_count=6, quote_count=0, reply_count=1, retweet_count=0
 
 > http://x.com/i/article/2069525633106165760
+
+---
+
+### @0xblacklight Alternatively titled "I think you should still build loops just Not Like That"
+
+- Author: Kyle Mistele 🏴‍☠️ [@0xblacklight](https://x.com/0xblacklight)
+- Tweet URL: [https://x.com/0xblacklight/status/2069505318120497198](https://x.com/0xblacklight/status/2069505318120497198)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T19:38:12.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs: none
+- Thread URLs:
+  - [x.com/0xblacklight/status/2069505318120497198](https://x.com/0xblacklight/status/2069505318120497198)
+- Public metrics: bookmark_count=69, like_count=42, quote_count=1, reply_count=1, retweet_count=1
+
+> Alternatively titled "I think you should still build loops just Not Like That"
 
 ---
 
@@ -3986,6 +4536,91 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 > Natural language is great for one-off tasks, but suboptimal for defining system behavior.
 >
 > Prompt debt creeps in with each small fix and additional instruction, until your prompt is brittle, you're afraid to touch it for fear of regression, and you're locked into one model.
+
+---
+
+### @greggmojica 
+
+- Author: Gregg Mojica [@greggmojica](https://x.com/greggmojica)
+- Tweet URL: [https://x.com/greggmojica/status/2069446934897492396](https://x.com/greggmojica/status/2069446934897492396)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T15:46:12.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs:
+  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
+- Linked content:
+  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
+- Thread URLs:
+  - [x.com/greggmojica/status/2069446934897492396](https://x.com/greggmojica/status/2069446934897492396)
+  - [x.com/i/article/2069190643990384640](http://x.com/i/article/2069190643990384640)
+  - [x.com/greggmojica/status/2069493147005333625](https://x.com/greggmojica/status/2069493147005333625)
+- Public metrics: bookmark_count=13, like_count=37, quote_count=0, reply_count=8, retweet_count=7
+
+> http://x.com/i/article/2069190643990384640
+
+---
+
+### @qinzytech 
+
+- Author: Zengyi Qin [@qinzytech](https://x.com/qinzytech)
+- Tweet URL: [https://x.com/qinzytech/status/2069444200387780708](https://x.com/qinzytech/status/2069444200387780708)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T15:35:20.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs:
+  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
+- Linked content:
+  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
+    Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)...
+- Thread URLs:
+  - [x.com/qinzytech/status/2069444200387780708](https://x.com/qinzytech/status/2069444200387780708)
+  - [x.com/i/article/2069290212862377984](http://x.com/i/article/2069290212862377984)
+- Public metrics: bookmark_count=2, like_count=2, quote_count=0, reply_count=1, retweet_count=0
+
+> http://x.com/i/article/2069290212862377984
+
+---
+
+### @hwchase17 🧠Self-Harness: Harnesses that improve themselves New paper on agents shaping their own...
+
+- Author: Harrison Chase [@hwchase17](https://x.com/hwchase17)
+- Tweet URL: [https://x.com/hwchase17/status/2069443268593537470](https://x.com/hwchase17/status/2069443268593537470)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T15:31:38.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs:
+  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
+  - [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
+- Media URLs:
+  - [photo](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
+- Linked content:
+  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
+  - [GitHub - langchain-ai/deepagents: The batteries-included agent harness. · GitHub](https://github.com/langchain-ai/deepagents)
+    Images: https://repository-images.githubusercontent.com/1027384981/ea816c48-7caa-46b8-b4bd-1f90a6807f55, https://github.com/langchain-ai/deepagents/raw/main/.github/images/logo-dark.svg, https://camo.githubusercontent.com/648c6d7c665315a99bc0bd5a491cdbfc3e5e71cb5acb96c5d7314cfbc4cb8ba7/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f646565706167656e7473, https://camo.githubusercontent.com/37b2d59b94eab0e69cc2abda27a326fff6f5fd1b34620ed75b986d425d2d97b8/68747470733a2f2f696d672e736869656c64732e696f2f706570792f64742f646565706167656e7473
+  - [pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
+    Images: https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg
+- Thread URLs:
+  - [x.com/hwchase17/status/2069443268593537470](https://x.com/hwchase17/status/2069443268593537470)
+  - [arxiv.org/pdf/2606.09498](https://arxiv.org/pdf/2606.09498)
+  - [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
+  - [pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg](https://pbs.twimg.com/media/HLgjbtNb0AAoN0C.jpg)
+  - [x.com/hwchase17/status/2069444937783910440](https://x.com/hwchase17/status/2069444937783910440)
+- Public metrics: bookmark_count=427, like_count=351, quote_count=6, reply_count=40, retweet_count=64
+
+> 🧠Self-Harness: Harnesses that improve themselves
+>
+> New paper on agents shaping their own harnesses to improve over time. Not from LangChain, but builds on top of DeepAgents! Three key steps:
+>
+> 1/ Weakness mining: find failure modes from traces
+> 2/ Harness proposal: suggest changes to the harness
+> 3/ Proposal validation: does regression testing on proposals and then accepts
+>
+> Paper: https://arxiv.org/pdf/2606.09498
+>
+> Builds on top of DeepAgents: https://github.com/langchain-ai/deepagents
 
 ---
 
@@ -4148,6 +4783,27 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @SergioPaniego 
+
+- Author: Sergio Paniego [@SergioPaniego](https://x.com/SergioPaniego)
+- Tweet URL: [https://x.com/SergioPaniego/status/2069369115630870771](https://x.com/SergioPaniego/status/2069369115630870771)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T10:36:58.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs:
+  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
+- Linked content:
+  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
+- Thread URLs:
+  - [x.com/SergioPaniego/status/2069369115630870771](https://x.com/SergioPaniego/status/2069369115630870771)
+  - [x.com/i/article/2069356617783500800](http://x.com/i/article/2069356617783500800)
+- Public metrics: bookmark_count=58, like_count=48, quote_count=1, reply_count=0, retweet_count=6
+
+> http://x.com/i/article/2069356617783500800
+
+---
+
 ### @kmad 
 
 - Author: Kevin Madura [@kmad](https://x.com/kmad)
@@ -4167,6 +4823,25 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Public metrics: bookmark_count=24, like_count=12, quote_count=1, reply_count=1, retweet_count=1
 
 > http://x.com/i/article/2068874313608871936
+
+---
+
+### @TheEconomist “The ban of Anthropic’s cutting-edge models will be litigated, amended and perhaps...
+
+- Author: The Economist [@TheEconomist](https://x.com/TheEconomist)
+- Tweet URL: [https://x.com/TheEconomist/status/2069294381903790351](https://x.com/TheEconomist/status/2069294381903790351)
+- Sources: bookmark@CatHanami97880
+- Saved by: CatHanami97880
+- Tweet created: 2026-06-23T05:40:00.000Z
+- First seen: 2026-06-24T04:35:53Z
+- Primary URLs:
+  - [www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+- Thread URLs:
+  - [x.com/TheEconomist/status/2069294381903790351](https://x.com/TheEconomist/status/2069294381903790351)
+  - [www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter](https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter)
+- Public metrics: bookmark_count=14, like_count=48, quote_count=3, reply_count=11, retweet_count=20
+
+> “The ban of Anthropic’s cutting-edge models will be litigated, amended and perhaps withdrawn,” argues Judith Dada in response to Donald Trump’s decree. “Europe can decide to build a better future on this technology” https://www.economist.com/by-invitation/2026/06/18/how-europe-must-respond-to-americas-ai-warning-shot?taid=6a3a1c3085e6a70001a8bcab&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
 
 ---
 
@@ -4204,7 +4879,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/jasonzhou1993/status/2069413003897012435](https://x.com/jasonzhou1993/status/2069413003897012435)
   - [x.com/i/article/2069392821774385152](http://x.com/i/article/2069392821774385152)
-- Public metrics: bookmark_count=535, like_count=210, quote_count=3, reply_count=11, retweet_count=26
+- Public metrics: bookmark_count=535, like_count=210, quote_count=3, reply_count=12, retweet_count=26
 
 > http://x.com/i/article/2069392821774385152
 
@@ -4226,7 +4901,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/AlphaSignalAI/status/2069491246410911895](https://x.com/AlphaSignalAI/status/2069491246410911895)
   - [x.com/i/article/2069487597584322560](http://x.com/i/article/2069487597584322560)
-- Public metrics: bookmark_count=17, like_count=9, quote_count=0, reply_count=0, retweet_count=1
+- Public metrics: bookmark_count=16, like_count=9, quote_count=0, reply_count=0, retweet_count=1
 
 > http://x.com/i/article/2069487597584322560
 
@@ -4677,7 +5352,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/thedankoe/status/2069186019560394833](https://x.com/thedankoe/status/2069186019560394833)
   - [x.com/i/article/2069182501759967232](http://x.com/i/article/2069182501759967232)
-- Public metrics: bookmark_count=10356, like_count=5423, quote_count=267, reply_count=210, retweet_count=670
+- Public metrics: bookmark_count=10367, like_count=5434, quote_count=267, reply_count=210, retweet_count=671
 
 > http://x.com/i/article/2069182501759967232
 
@@ -4703,7 +5378,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/cathrynlavery/status/2069454925113987286](https://x.com/cathrynlavery/status/2069454925113987286)
   - [x.com/cathrynlavery/status/2069194677845364893](https://x.com/cathrynlavery/status/2069194677845364893)
   - [x.com/cathrynlavery/status/2069211304217509897](https://x.com/cathrynlavery/status/2069211304217509897)
-- Public metrics: bookmark_count=1674, like_count=538, quote_count=6, reply_count=19, retweet_count=49
+- Public metrics: bookmark_count=1676, like_count=539, quote_count=6, reply_count=19, retweet_count=49
 
 > http://x.com/i/article/2069167306597392385
 
@@ -5053,7 +5728,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/zehf/status/2069444272374657170](https://x.com/zehf/status/2069444272374657170)
   - [x.com/zehf/status/2069444429522555178](https://x.com/zehf/status/2069444429522555178)
   - [x.com/zehf/status/2069079446133625256](https://x.com/zehf/status/2069079446133625256)
-- Public metrics: bookmark_count=999, like_count=978, quote_count=9, reply_count=40, retweet_count=56
+- Public metrics: bookmark_count=1001, like_count=981, quote_count=9, reply_count=40, retweet_count=56
 
 > Many people asked how the World Cup posters are generated.
 >
@@ -5156,7 +5831,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/RayDalio/status/2069127421291377016](https://x.com/RayDalio/status/2069127421291377016)
-- Public metrics: bookmark_count=6679, like_count=4826, quote_count=101, reply_count=275, retweet_count=884
+- Public metrics: bookmark_count=6677, like_count=4825, quote_count=101, reply_count=275, retweet_count=883
 
 > I recently spent a month in Asia, including 10 days in China, where I met with senior policy makers in several countries, and I found that over the past few months, there has been a big shift in the world order. I share my perspective in my latest article.
 >
@@ -5228,7 +5903,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/AGIJackson008/status/2068890021466403242](https://x.com/AGIJackson008/status/2068890021466403242)
   - [x.com/AGIJackson008/status/2068964747106754896](https://x.com/AGIJackson008/status/2068964747106754896)
-- Public metrics: bookmark_count=1153, like_count=532, quote_count=3, reply_count=44, retweet_count=133
+- Public metrics: bookmark_count=1153, like_count=531, quote_count=3, reply_count=44, retweet_count=133
 
 > 这妥妥的信息差啊
 >
@@ -5372,7 +6047,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/kanavtwt/status/2068422729871806826](https://x.com/kanavtwt/status/2068422729871806826)
   - [x.com/kanavtwt/status/2068454155770102248](https://x.com/kanavtwt/status/2068454155770102248)
   - [x.com/kanavtwt/status/2069094576275759605](https://x.com/kanavtwt/status/2069094576275759605)
-- Public metrics: bookmark_count=6114, like_count=108719, quote_count=1916, reply_count=2325, retweet_count=11501
+- Public metrics: bookmark_count=6115, like_count=108714, quote_count=1916, reply_count=2325, retweet_count=11504
 
 > Day 1 of vibecoding https://t.co/n8ff35htEV
 
@@ -5396,7 +6071,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/sairahul1/status/2068627267488710930](https://x.com/sairahul1/status/2068627267488710930)
   - [pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg](https://pbs.twimg.com/amplify_video_thumb/2068626444285276161/img/qaif9egp3Qk3fVyQ.jpg)
   - [x.com/sairahul1/status/2069037187942039838](https://x.com/sairahul1/status/2069037187942039838)
-- Public metrics: bookmark_count=8491, like_count=3846, quote_count=29, reply_count=108, retweet_count=557
+- Public metrics: bookmark_count=8492, like_count=3847, quote_count=30, reply_count=108, retweet_count=557
 
 > Anthropic engineer: "You're not supposed to prompt Claude. You're supposed to build a system that prompts itself."
 >
@@ -5462,7 +6137,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [github.com/AI-Builder-Club/loop-engineer-template](https://github.com/AI-Builder-Club/loop-engineer-template)
   - [pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg](https://pbs.twimg.com/amplify_video_thumb/2068994280535064576/img/-sKY7ewJRDLzCs0z.jpg)
   - [x.com/jasonzhou1993/status/2069197853344616844](https://x.com/jasonzhou1993/status/2069197853344616844)
-- Public metrics: bookmark_count=5302, like_count=2411, quote_count=12, reply_count=63, retweet_count=296
+- Public metrics: bookmark_count=5297, like_count=2412, quote_count=12, reply_count=63, retweet_count=296
 
 > Loop Engineering is getting hype now.
 > But not many talks about how to actually do it
@@ -5499,7 +6174,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg](https://pbs.twimg.com/amplify_video_thumb/2068995799912960000/img/AKXwopJCJRT8TgRC.jpg)
   - [x.com/askpalette/status/2068996069715833221](https://x.com/askpalette/status/2068996069715833221)
   - [askpalette.com](http://askpalette.com)
-- Public metrics: bookmark_count=276, like_count=233, quote_count=2, reply_count=9, retweet_count=10
+- Public metrics: bookmark_count=277, like_count=233, quote_count=2, reply_count=9, retweet_count=10
 
 > Introducing: Palette
 >
@@ -6027,7 +6702,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Saboo_Shubham_/status/2068739592183066864](https://x.com/Saboo_Shubham_/status/2068739592183066864)
   - [x.com/Saboo_Shubham_/status/2068730771259666592](https://x.com/Saboo_Shubham_/status/2068730771259666592)
   - [x.com/Saboo_Shubham_/status/2068730712581357987](https://x.com/Saboo_Shubham_/status/2068730712581357987)
-- Public metrics: bookmark_count=1116, like_count=473, quote_count=5, reply_count=20, retweet_count=82
+- Public metrics: bookmark_count=1115, like_count=473, quote_count=5, reply_count=20, retweet_count=82
 
 > http://x.com/i/article/2068130070678691840
 
@@ -6558,7 +7233,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/IAmPascio/status/2068297461379252344](https://x.com/IAmPascio/status/2068297461379252344)
   - [x.com/IAmPascio/status/2068632046461747622](https://x.com/IAmPascio/status/2068632046461747622)
   - [x.getstanley.ai/r/pas](https://x.getstanley.ai/r/pas)
-- Public metrics: bookmark_count=3357, like_count=1340, quote_count=1, reply_count=17, retweet_count=84
+- Public metrics: bookmark_count=3355, like_count=1340, quote_count=1, reply_count=17, retweet_count=84
 
 > This is by far one of the most profound pieces of writing I’ve read this year:
 
@@ -6606,7 +7281,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jasonzhou1993/status/2068088101025824822](https://x.com/jasonzhou1993/status/2068088101025824822)
   - [x.com/jasonzhou1993/status/2067953587704197476](https://x.com/jasonzhou1993/status/2067953587704197476)
   - [x.com/jasonzhou1993/status/2068441696946565216](https://x.com/jasonzhou1993/status/2068441696946565216)
-- Public metrics: bookmark_count=2957, like_count=1176, quote_count=12, reply_count=20, retweet_count=147
+- Public metrics: bookmark_count=2958, like_count=1176, quote_count=12, reply_count=20, retweet_count=147
 
 > http://x.com/i/article/2067919620452032512
 
@@ -6709,7 +7384,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/MatthewBerman/status/2067689838627922355](https://x.com/MatthewBerman/status/2067689838627922355)
   - [x.com/MatthewBerman/status/2067696923470164115](https://x.com/MatthewBerman/status/2067696923470164115)
   - [x.com/MatthewBerman/status/2067697165418586571](https://x.com/MatthewBerman/status/2067697165418586571)
-- Public metrics: bookmark_count=7282, like_count=3568, quote_count=26, reply_count=117, retweet_count=354
+- Public metrics: bookmark_count=7283, like_count=3568, quote_count=26, reply_count=117, retweet_count=354
 
 > Just launched Loop Library - a curated list of agent loops you can use right now.
 >
@@ -6765,7 +7440,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/i/article/2067686501891112960](http://x.com/i/article/2067686501891112960)
   - [x.com/hugobarauna/status/2067769299356262579](https://x.com/hugobarauna/status/2067769299356262579)
   - [x.com/hugobarauna/status/2067770522293665935](https://x.com/hugobarauna/status/2067770522293665935)
-- Public metrics: bookmark_count=938, like_count=435, quote_count=4, reply_count=11, retweet_count=44
+- Public metrics: bookmark_count=938, like_count=436, quote_count=4, reply_count=11, retweet_count=44
 
 > http://x.com/i/article/2067686501891112960
 
@@ -6804,7 +7479,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/jaminball/status/2067681739695391173](https://x.com/jaminball/status/2067681739695391173)
   - [x.com/jaminball/status/2067976180935081992](https://x.com/jaminball/status/2067976180935081992)
-- Public metrics: bookmark_count=2502, like_count=984, quote_count=0, reply_count=11, retweet_count=100
+- Public metrics: bookmark_count=2501, like_count=984, quote_count=0, reply_count=11, retweet_count=100
 
 > Great read!
 
@@ -6825,7 +7500,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/nifinet/status/2067638000037790178](https://x.com/nifinet/status/2067638000037790178)
   - [x.com/i/article/2067621155209674753](http://x.com/i/article/2067621155209674753)
-- Public metrics: bookmark_count=3302, like_count=942, quote_count=6, reply_count=93, retweet_count=66
+- Public metrics: bookmark_count=3304, like_count=942, quote_count=6, reply_count=93, retweet_count=66
 
 > http://x.com/i/article/2067621155209674753
 
@@ -6977,7 +7652,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/spandan_madan/status/2067320100911493454](https://x.com/spandan_madan/status/2067320100911493454)
   - [x.com/i/article/2067307652779225088](http://x.com/i/article/2067307652779225088)
-- Public metrics: bookmark_count=568, like_count=409, quote_count=21, reply_count=87, retweet_count=107
+- Public metrics: bookmark_count=568, like_count=408, quote_count=21, reply_count=87, retweet_count=107
 
 > http://x.com/i/article/2067307652779225088
 
@@ -7174,7 +7849,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/sairahul1/status/2067178097825484949](https://x.com/sairahul1/status/2067178097825484949)
   - [x.com/sairahul1/status/2067504210728665445](https://x.com/sairahul1/status/2067504210728665445)
   - [x.com/sairahul1/status/2067173886995956221](https://x.com/sairahul1/status/2067173886995956221)
-- Public metrics: bookmark_count=4796, like_count=1909, quote_count=11, reply_count=72, retweet_count=283
+- Public metrics: bookmark_count=4796, like_count=1910, quote_count=11, reply_count=72, retweet_count=282
 
 > Andrej Karpathy: "90% of Claude's mistakes come from missing context, not a weak model."
 >
@@ -7565,7 +8240,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/Marcos12345rico/status/2067420479015588205](https://x.com/Marcos12345rico/status/2067420479015588205)
   - [x.com/Marcos12345rico/status/2067420622456586699](https://x.com/Marcos12345rico/status/2067420622456586699)
   - [x.com/Marcos12345rico/status/2067419791749529797](https://x.com/Marcos12345rico/status/2067419791749529797)
-- Public metrics: bookmark_count=14445, like_count=12823, quote_count=407, reply_count=573, retweet_count=979
+- Public metrics: bookmark_count=14443, like_count=12823, quote_count=407, reply_count=573, retweet_count=978
 
 > today we're launching  @Palmier_io, a video editor Claude can edit.
 >
@@ -7613,7 +8288,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/heynavtoor/status/2067194761446920264](https://x.com/heynavtoor/status/2067194761446920264)
   - [x.com/i/article/2067171614580441089](http://x.com/i/article/2067171614580441089)
-- Public metrics: bookmark_count=17794, like_count=5112, quote_count=71, reply_count=92, retweet_count=852
+- Public metrics: bookmark_count=17797, like_count=5113, quote_count=71, reply_count=92, retweet_count=852
 
 > http://x.com/i/article/2067171614580441089
 
@@ -8176,7 +8851,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/vercel/status/2067180054979936413](https://x.com/vercel/status/2067180054979936413)
   - [vercel.com/blog/introducing-eve](https://vercel.com/blog/introducing-eve)
-- Public metrics: bookmark_count=6764, like_count=7321, quote_count=407, reply_count=334, retweet_count=738
+- Public metrics: bookmark_count=6764, like_count=7323, quote_count=407, reply_count=335, retweet_count=738
 
 > Introducing eve, an agent framework.
 >
@@ -9218,30 +9893,9 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jasonfried/status/2066893762270261586](https://x.com/jasonfried/status/2066893762270261586)
   - [x.com/i/article/2066893374741786626](http://x.com/i/article/2066893374741786626)
   - [x.com/jasonfried/status/2066993230567379219](https://x.com/jasonfried/status/2066993230567379219)
-- Public metrics: bookmark_count=983, like_count=417, quote_count=12, reply_count=13, retweet_count=27
+- Public metrics: bookmark_count=983, like_count=420, quote_count=13, reply_count=13, retweet_count=28
 
 > http://x.com/i/article/2066893374741786626
-
----
-
-### @0xJeff 
-
-- Author: 0xJeff [@0xJeff](https://x.com/0xJeff)
-- Tweet URL: [https://x.com/0xJeff/status/2066883577141428563](https://x.com/0xJeff/status/2066883577141428563)
-- Sources: bookmark@chumsdock
-- Saved by: chumsdock
-- Tweet created: 2026-06-16T14:00:20.000Z
-- First seen: 2026-06-17T01:41:25Z
-- Primary URLs:
-  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
-- Linked content:
-  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
-- Thread URLs:
-  - [x.com/0xJeff/status/2066883577141428563](https://x.com/0xJeff/status/2066883577141428563)
-  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
-- Public metrics: bookmark_count=1457, like_count=590, quote_count=6, reply_count=12, retweet_count=59
-
-> http://x.com/i/article/2066882780286550016
 
 ---
 
@@ -9325,6 +9979,27 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 
 ---
 
+### @0xJeff 
+
+- Author: 0xJeff [@0xJeff](https://x.com/0xJeff)
+- Tweet URL: [https://x.com/0xJeff/status/2066883577141428563](https://x.com/0xJeff/status/2066883577141428563)
+- Sources: bookmark@chumsdock
+- Saved by: chumsdock
+- Tweet created: 2026-06-16T14:00:20.000Z
+- First seen: 2026-06-17T01:41:25Z
+- Primary URLs:
+  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
+- Linked content:
+  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
+- Thread URLs:
+  - [x.com/0xJeff/status/2066883577141428563](https://x.com/0xJeff/status/2066883577141428563)
+  - [x.com/i/article/2066882780286550016](http://x.com/i/article/2066882780286550016)
+- Public metrics: bookmark_count=1457, like_count=590, quote_count=6, reply_count=12, retweet_count=59
+
+> http://x.com/i/article/2066882780286550016
+
+---
+
 ### @jhleath 
 
 - Author: Hunter Leath [@jhleath](https://x.com/jhleath)
@@ -9360,7 +10035,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/idoubicc/status/2061670587043610688](https://x.com/idoubicc/status/2061670587043610688)
   - [x.com/idoubicc/status/2062129419398086956](https://x.com/idoubicc/status/2062129419398086956)
-- Public metrics: bookmark_count=1100, like_count=731, quote_count=13, reply_count=50, retweet_count=114
+- Public metrics: bookmark_count=1100, like_count=732, quote_count=13, reply_count=50, retweet_count=114
 
 > 聊一聊 Agent 的存算分离架构设计👇
 >
@@ -13771,7 +14446,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/chrstnerode/status/2065451591772021013](https://x.com/chrstnerode/status/2065451591772021013)
   - [pbs.twimg.com/media/HKnzc1cXUAIDOlf.png](https://pbs.twimg.com/media/HKnzc1cXUAIDOlf.png)
   - [x.com/chrstnerode/status/2065551701583495386](https://x.com/chrstnerode/status/2065551701583495386)
-- Public metrics: bookmark_count=1065, like_count=925, quote_count=22, reply_count=44, retweet_count=45
+- Public metrics: bookmark_count=1066, like_count=926, quote_count=22, reply_count=44, retweet_count=45
 
 > we just wrapped our Spring quarter at @diabrowser. before i jump to the next big thing (!), a short behind-the-scenes on one of my favorite projects to date: artifacts!
 >
@@ -14470,7 +15145,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Thread URLs:
   - [x.com/quxiaoyin/status/2064650572788068378](https://x.com/quxiaoyin/status/2064650572788068378)
   - [tycoon.us/blog/ai-growth-engine-for-indie-founders](https://tycoon.us/blog/ai-growth-engine-for-indie-founders)
-- Public metrics: bookmark_count=24, like_count=19, quote_count=0, reply_count=3, retweet_count=0
+- Public metrics: bookmark_count=25, like_count=20, quote_count=0, reply_count=3, retweet_count=0
 
 > 你做了一款好产品。然后呢？
 >
@@ -28938,7 +29613,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/jeetnirnejak/status/2057472770590839237](https://x.com/jeetnirnejak/status/2057472770590839237)
   - [x.com/jeetnirnejak/status/2057144246470431186](https://x.com/jeetnirnejak/status/2057144246470431186)
   - [x.com/jeetnirnejak/status/2057109316646388146](https://x.com/jeetnirnejak/status/2057109316646388146)
-- Public metrics: bookmark_count=259, like_count=284, quote_count=1, reply_count=11, retweet_count=13
+- Public metrics: bookmark_count=258, like_count=283, quote_count=1, reply_count=11, retweet_count=13
 
 > Sprint planner agent: don’t create/move your tickets manually, let your agent take care of them
 >
@@ -29053,7 +29728,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
 - Primary URLs: none
 - Thread URLs:
   - [x.com/StarKnight/status/2057407113052479870](https://x.com/StarKnight/status/2057407113052479870)
-- Public metrics: bookmark_count=2, like_count=29, quote_count=2, reply_count=4, retweet_count=7
+- Public metrics: bookmark_count=2, like_count=30, quote_count=2, reply_count=4, retweet_count=7
 
 > - 刚刚经历了一轮裁员的公司，留下来的员工最大心愿是什么？
 > - 别出新裁。
@@ -29398,7 +30073,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/AndrewPrifer/status/2057074988658897197](https://x.com/AndrewPrifer/status/2057074988658897197)
   - [x.com/AndrewPrifer/status/2057002049867571361](https://x.com/AndrewPrifer/status/2057002049867571361)
   - [x.com/AndrewPrifer/status/2056974417826386168](https://x.com/AndrewPrifer/status/2056974417826386168)
-- Public metrics: bookmark_count=8902, like_count=8244, quote_count=98, reply_count=238, retweet_count=528
+- Public metrics: bookmark_count=8898, like_count=8241, quote_count=98, reply_count=238, retweet_count=528
 
 > Dear frontend devs and UI designers. I bring you Liquid DOM, a complete and faithful implementation of Liquid Glass on the Web.
 >
@@ -31122,7 +31797,7 @@ This file is generated hourly from X bookmarks and favorites. It is intended to 
   - [x.com/addyosmani/status/2056911978875195412](https://x.com/addyosmani/status/2056911978875195412)
   - [x.com/addyosmani/status/2056086439025324154](https://x.com/addyosmani/status/2056086439025324154)
   - [x.com/addyosmani/status/2056107921227010519](https://x.com/addyosmani/status/2056107921227010519)
-- Public metrics: bookmark_count=4884, like_count=3642, quote_count=126, reply_count=111, retweet_count=615
+- Public metrics: bookmark_count=4886, like_count=3642, quote_count=126, reply_count=111, retweet_count=616
 
 > http://x.com/i/article/2055936913211899904
 
@@ -52737,7 +53412,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/i/article/2045262387041730560](http://x.com/i/article/2045262387041730560)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2045262387041730560/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=4319, like_count=926, quote_count=27, reply_count=14, retweet_count=86
+- Public metrics: bookmark_count=4318, like_count=926, quote_count=27, reply_count=14, retweet_count=86
 
 > http://x.com/i/article/2045262387041730560
 
@@ -53159,7 +53834,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg](https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg)
     Images: https://pbs.twimg.com/media/HDGji-BaMAAtXO7.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=61, like_count=51, quote_count=0, reply_count=4, retweet_count=8
+- Public metrics: bookmark_count=60, like_count=51, quote_count=0, reply_count=4, retweet_count=8
 
 > 野心很大，方向清晰。
 >
@@ -53227,7 +53902,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/i/article/2031220938738642944](http://x.com/i/article/2031220938738642944)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2031220938738642944/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1347, like_count=581, quote_count=4, reply_count=10, retweet_count=49
+- Public metrics: bookmark_count=1346, like_count=581, quote_count=4, reply_count=10, retweet_count=49
 
 > http://x.com/i/article/2031220938738642944
 
@@ -53435,7 +54110,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg](https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2026446957024358400/img/LTjVZVcFpjepagtk.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=11517, like_count=4492, quote_count=44, reply_count=214, retweet_count=397
+- Public metrics: bookmark_count=11515, like_count=4492, quote_count=44, reply_count=214, retweet_count=397
 
 > 5 BILLION tokens later, OpenClaw is now my company's operating system.
 >
@@ -53638,7 +54313,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:16:40Z
 - Primary URLs: none
 - Thread URLs: none captured
-- Public metrics: bookmark_count=699, like_count=10564, quote_count=90, reply_count=255, retweet_count=525
+- Public metrics: bookmark_count=699, like_count=10565, quote_count=90, reply_count=255, retweet_count=525
 
 > saas is dead
 >
@@ -53741,7 +54416,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/i/article/2022352504315654144](http://x.com/i/article/2022352504315654144)
     Text: ## To view keyboard shortcuts, press question mark [View keyboard shortcuts](http://x.com/i/article/2022352504315654144/i/keyboard%5Fshortcuts)...
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1484, like_count=982, quote_count=19, reply_count=87, retweet_count=204
+- Public metrics: bookmark_count=1483, like_count=983, quote_count=19, reply_count=87, retweet_count=205
 
 > http://x.com/i/article/2022352504315654144
 
@@ -53998,7 +54673,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg](https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/1957099884789526528/img/TrXGePnHsPAXkg65.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1267, like_count=1396, quote_count=3, reply_count=22, retweet_count=82
+- Public metrics: bookmark_count=1267, like_count=1395, quote_count=3, reply_count=22, retweet_count=82
 
 > interface animation done well..
 >
@@ -54024,7 +54699,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg](https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2019095167001919488/img/eceRWiMZ93mCnpxF.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=11735, like_count=23490, quote_count=2504, reply_count=485, retweet_count=2084
+- Public metrics: bookmark_count=11735, like_count=23490, quote_count=2505, reply_count=485, retweet_count=2084
 
 > Imagine turning any image into a vector (now you actually can)
 >
@@ -54515,7 +55190,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/G_6jZUZboAA84gW.jpg](https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg)
     Images: https://pbs.twimg.com/media/G_6jZUZboAA84gW.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=880, like_count=764, quote_count=3, reply_count=5, retweet_count=121
+- Public metrics: bookmark_count=880, like_count=765, quote_count=3, reply_count=5, retweet_count=121
 
 > 这个 Beautiful Mermaid 是我最近最喜欢的开源库：
 > https://agents.craft.do/mermaid
@@ -54544,7 +55219,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg](https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg)
     Images: https://pbs.twimg.com/media/G_7GPcLaYAA3LJ2.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=416, like_count=470, quote_count=2, reply_count=21, retweet_count=63
+- Public metrics: bookmark_count=416, like_count=469, quote_count=2, reply_count=21, retweet_count=63
 
 > 最近的阅读都变了。感谢 @haohailong 给我推荐《真希望我父母读过这本书》。 https://t.co/rHdlBAssSd
 
@@ -58822,7 +59497,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - Thread URLs:
   - [x.com/leige88888/status/2053469215785652365](https://x.com/leige88888/status/2053469215785652365)
   - [x.com/leige88888/status/2053469215785652365/photo/1](https://x.com/leige88888/status/2053469215785652365/photo/1)
-- Public metrics: bookmark_count=113, like_count=1718, quote_count=4, reply_count=140, retweet_count=27
+- Public metrics: bookmark_count=113, like_count=1719, quote_count=4, reply_count=140, retweet_count=27
 
 > 充满人情味的日本 https://t.co/DycEctRS8f
 
@@ -58959,7 +59634,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HH21wylasAAcDPJ.png](https://pbs.twimg.com/media/HH21wylasAAcDPJ.png)
   - [pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg](https://pbs.twimg.com/media/HH21wyvbAAAe7dp.jpg)
   - [pbs.twimg.com/media/HH21wymbUAA01fG.png](https://pbs.twimg.com/media/HH21wymbUAA01fG.png)
-- Public metrics: bookmark_count=1219, like_count=2094, quote_count=1, reply_count=19, retweet_count=163
+- Public metrics: bookmark_count=1218, like_count=2092, quote_count=1, reply_count=19, retweet_count=163
 
 > Design guidelines from Bythlon https://t.co/Tj0KjP5j6b
 
@@ -59224,7 +59899,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg](https://pbs.twimg.com/media/HHyXxR1a8AEHgb4.jpg)
   - [pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg](https://pbs.twimg.com/media/HHyXzRSb0AAAYTV.jpg)
   - [pbs.twimg.com/media/HHyX0kgagAAONh2.jpg](https://pbs.twimg.com/media/HHyX0kgagAAONh2.jpg)
-- Public metrics: bookmark_count=1091, like_count=1320, quote_count=1, reply_count=36, retweet_count=41
+- Public metrics: bookmark_count=1090, like_count=1320, quote_count=1, reply_count=36, retweet_count=41
 
 > love where we landed w/ conduit https://t.co/u9xAXM7oDC
 
@@ -59334,7 +60009,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/Alexjkman/status/2052642870314545521](https://x.com/Alexjkman/status/2052642870314545521)
   - [x.com/Alexjkman/status/2052641166026317867](https://x.com/Alexjkman/status/2052641166026317867)
   - [x.com/Alexjkman/status/2052640631885828165](https://x.com/Alexjkman/status/2052640631885828165)
-- Public metrics: bookmark_count=89, like_count=832, quote_count=5, reply_count=466, retweet_count=9
+- Public metrics: bookmark_count=89, like_count=830, quote_count=5, reply_count=466, retweet_count=9
 
 > 朋友说她一个月在Hermes上花10W左右
 >
@@ -59479,7 +60154,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [x.com/matthewwmullin/status/2051417778930778220](https://x.com/matthewwmullin/status/2051417778930778220)
   - [x.com/matthewwmullin/status/2051417604862951683](https://x.com/matthewwmullin/status/2051417604862951683)
   - [x.com/matthewwmullin/status/2051417553986081094](https://x.com/matthewwmullin/status/2051417553986081094)
-- Public metrics: bookmark_count=9691, like_count=61189, quote_count=367, reply_count=278, retweet_count=8747
+- Public metrics: bookmark_count=9693, like_count=61189, quote_count=367, reply_count=278, retweet_count=8747
 
 > NASA HAS RELEASED OVER 12,000 IMAGES OF THE ARTEMIS II MISSION.
 >
@@ -59555,7 +60230,7 @@ But if the part you care about is the decision-making around the code, agents fe
     Images: https://opengraph.githubassets.com/39740660e811f8a9c8f5216e4e7bad457cd8ae00176a7f3ca3414602d99ab25a/Hmbown/DeepSeek-TUI, https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml/badge.svg, https://camo.githubusercontent.com/02762e380c6ea33bc44882f6b4e9e4a672e06143f70c2f6541188b0afa6ae953/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f646565707365656b2d747569, https://camo.githubusercontent.com/f021ea3eebae54c48ebbc32a700e3483435770afa30c930e961e839d5b8ee1d8/68747470733a2f2f696d672e736869656c64732e696f2f6372617465732f762f646565707365656b2d7475692d636c693f6c6162656c3d6372617465732e696f
 - Thread URLs:
   - [x.com/goodhunt/status/2051916553935839397](https://x.com/goodhunt/status/2051916553935839397)
-- Public metrics: bookmark_count=2104, like_count=5469, quote_count=231, reply_count=941, retweet_count=641
+- Public metrics: bookmark_count=2104, like_count=5470, quote_count=231, reply_count=941, retweet_count=641
 
 > 鲸鱼兄弟们好，我是做 DeepSeek-TUI 的那个美国佬。
 >
@@ -59686,7 +60361,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - Primary URLs:
   - [twitter.com/walden_yan/status/2047054401341370639](https://twitter.com/walden_yan/status/2047054401341370639)
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1401, like_count=741, quote_count=2, reply_count=7, retweet_count=39
+- Public metrics: bookmark_count=1399, like_count=741, quote_count=2, reply_count=7, retweet_count=39
 
 > recommended reading.
 
@@ -59779,7 +60454,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png](https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png)
     Images: https://pbs.twimg.com/media/HGh2Gn7bEAAPQIl.png
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1351, like_count=2053, quote_count=30, reply_count=47, retweet_count=109
+- Public metrics: bookmark_count=1351, like_count=2054, quote_count=30, reply_count=47, retweet_count=109
 
 > For the past few months, @pierrecomputer has been working on a brand new primitive, Trees. Just like Diffs, it’s an incredibly fast, modern, and beautiful library for rendering lists of files and folders. https://t.co/WKQMMwoAvm
 
@@ -59810,7 +60485,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HGeGdH7XMAAfT1v.jpg](https://pbs.twimg.com/media/HGeGdH7XMAAfT1v.jpg)
     Images: https://pbs.twimg.com/media/HGeGdH7XMAAfT1v.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=998, like_count=1310, quote_count=2, reply_count=9, retweet_count=57
+- Public metrics: bookmark_count=997, like_count=1308, quote_count=2, reply_count=9, retweet_count=57
 
 > A few of my favorite recent maximalist design snippets https://t.co/Z7d1hGWUmd
 
@@ -59848,7 +60523,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:12:30Z
 - Primary URLs: none
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1167, like_count=40161, quote_count=335, reply_count=5, retweet_count=2014
+- Public metrics: bookmark_count=1167, like_count=40162, quote_count=335, reply_count=5, retweet_count=2014
 
 > 我疑問日本人嘘中国語自動翻訳可不可
 
@@ -59870,7 +60545,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg](https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg)
     Images: https://pbs.twimg.com/media/HGFPu_5bgAEWBF_.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=347, like_count=11180, quote_count=111, reply_count=114, retweet_count=527
+- Public metrics: bookmark_count=347, like_count=11179, quote_count=111, reply_count=114, retweet_count=527
 
 > 不会日语可以不用硬写 https://t.co/pxQqoAuW1K
 
@@ -59915,7 +60590,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg](https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2044874918979149824/img/vF2oOE9SRtcdQQQ9.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=4258, like_count=4044, quote_count=8, reply_count=19, retweet_count=233
+- Public metrics: bookmark_count=4257, like_count=4045, quote_count=8, reply_count=19, retweet_count=233
 
 > Damn check this new SVG generation model
 > This looks really impressive! https://t.co/91JwT7XtCG
@@ -59938,7 +60613,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg](https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg)
     Images: https://pbs.twimg.com/media/HF-elwTaIAAJ_Lz.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=357, like_count=6435, quote_count=32, reply_count=17, retweet_count=888
+- Public metrics: bookmark_count=357, like_count=6434, quote_count=32, reply_count=17, retweet_count=888
 
 > Des skieurs qui ressemblent à des notes de musique…
 >
@@ -59962,7 +60637,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg](https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg)
     Images: https://pbs.twimg.com/media/HF-oE5_bAAAR1bu.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=548, like_count=8936, quote_count=17, reply_count=10, retweet_count=605
+- Public metrics: bookmark_count=548, like_count=8935, quote_count=17, reply_count=10, retweet_count=605
 
 > https://t.co/XA6fgZdqYK
 
@@ -59993,7 +60668,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFqQtOAWkAAuUZ4.jpg](https://pbs.twimg.com/media/HFqQtOAWkAAuUZ4.jpg)
     Images: https://pbs.twimg.com/media/HFqQtOAWkAAuUZ4.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=463, like_count=2073, quote_count=3, reply_count=3, retweet_count=114
+- Public metrics: bookmark_count=463, like_count=2072, quote_count=3, reply_count=3, retweet_count=114
 
 > The SEGA_DBS https://t.co/N8p2NoPhwj
 
@@ -60158,7 +60833,7 @@ But if the part you care about is the decision-making around the code, agents fe
 - First seen: 2026-05-11T03:12:30Z
 - Primary URLs: none
 - Thread URLs: none captured
-- Public metrics: bookmark_count=169, like_count=5379, quote_count=24, reply_count=227, retweet_count=121
+- Public metrics: bookmark_count=169, like_count=5380, quote_count=24, reply_count=227, retweet_count=121
 
 > 我笑鼠了我朋友给我说她堂弟今年考上硕士了要换电脑，家里要给他换个华为的他表弟不太愿意，说想要华硕的，家里大人不懂电脑问华硕啥牌子，他表弟说是华为硕士版，专门给硕士生设计的，最后家里真给他买了华硕。
 
@@ -60291,7 +60966,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg](https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg)
     Images: https://pbs.twimg.com/media/HFe_zJCWYAEIFyB.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1448, like_count=1389, quote_count=2, reply_count=49, retweet_count=69
+- Public metrics: bookmark_count=1447, like_count=1390, quote_count=2, reply_count=49, retweet_count=69
 
 > The only 2 icon packs you need https://t.co/M9OEYjo0CF
 
@@ -60342,7 +61017,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg](https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg)
     Images: https://pbs.twimg.com/media/HFbeAdda8AEyvOD.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=396, like_count=5640, quote_count=2, reply_count=9, retweet_count=664
+- Public metrics: bookmark_count=396, like_count=5637, quote_count=2, reply_count=9, retweet_count=664
 
 > 𝚍𝚊𝚢 𝟿 https://t.co/EpMvDCgYKA
 
@@ -60394,7 +61069,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg](https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2041912014579408896/img/uln5HaKFRZDF9Rc6.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=6, like_count=114, quote_count=4, reply_count=9, retweet_count=12
+- Public metrics: bookmark_count=6, like_count=115, quote_count=4, reply_count=9, retweet_count=12
 
 > 日本电视台一本正经地科普 TACO https://t.co/TEbFNPlRBx
 
@@ -60441,7 +61116,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFVTQOKa8AA1p0m.jpg](https://pbs.twimg.com/media/HFVTQOKa8AA1p0m.jpg)
     Images: https://pbs.twimg.com/media/HFVTQOKa8AA1p0m.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=37, like_count=156, quote_count=0, reply_count=8, retweet_count=4
+- Public metrics: bookmark_count=37, like_count=155, quote_count=0, reply_count=8, retweet_count=4
 
 > Love making these star logos✨ https://t.co/bUhlK0LFFB
 
@@ -60463,7 +61138,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg](https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg)
     Images: https://pbs.twimg.com/amplify_video_thumb/2041542881580625920/img/By7ohiMvJEwkaSOW.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=442, like_count=580, quote_count=0, reply_count=23, retweet_count=12
+- Public metrics: bookmark_count=441, like_count=580, quote_count=0, reply_count=23, retweet_count=12
 
 > Just launched a 2026 update for my personal design portfolio, really happy with how it turned out. https://t.co/xp21y7ScxR
 
@@ -60516,7 +61191,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFPdxPOXsAAR5NW.png](https://pbs.twimg.com/media/HFPdxPOXsAAR5NW.png)
     Images: https://pbs.twimg.com/media/HFPdxPOXsAAR5NW.png
 - Thread URLs: none captured
-- Public metrics: bookmark_count=1222, like_count=9016, quote_count=115, reply_count=21, retweet_count=1165
+- Public metrics: bookmark_count=1222, like_count=9014, quote_count=115, reply_count=21, retweet_count=1165
 
 > The beauty of toilet paper https://t.co/ZSQVBLGaLP
 
@@ -60560,7 +61235,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg](https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg)
     Images: https://pbs.twimg.com/media/HFSWyJiWcAAFEOC.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=22, like_count=125, quote_count=0, reply_count=16, retweet_count=1
+- Public metrics: bookmark_count=22, like_count=126, quote_count=0, reply_count=16, retweet_count=1
 
 > Another free gradient for you courtesy of nature https://t.co/dc5eiEVzIG
 
@@ -60679,7 +61354,7 @@ But if the part you care about is the decision-making around the code, agents fe
   - [pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg](https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg)
     Images: https://pbs.twimg.com/media/HFDIUuNbsAA25k9.jpg
 - Thread URLs: none captured
-- Public metrics: bookmark_count=656, like_count=1376, quote_count=7, reply_count=0, retweet_count=96
+- Public metrics: bookmark_count=656, like_count=1375, quote_count=7, reply_count=0, retweet_count=96
 
 > カードUIの「違和感」を解消する処方箋。
 >

@@ -384,6 +384,23 @@
       "title": "eve – The Agent Framework - Vercel",
       "url": "http://eve.dev"
     },
+    "http://executor.sh": {
+      "content_type": "text/html",
+      "description": "One place every agent plugs into every tool you already use. Wire it up once, bring the whole team.",
+      "extraction_source": "trafilatura",
+      "final_url": "http://executor.sh",
+      "frameable": null,
+      "image_urls": [
+        "https://executor.sh/og-image.png",
+        "http://executor.sh/favicon-192.png",
+        "http://executor.sh/_astro/yc-backed-by.DtfrSIEa.svg"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Executor — The gateway to connect your agent to everything Executor — The gateway to connect your agent to everything",
+      "url": "http://executor.sh"
+    },
     "http://github.com/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
@@ -567,6 +584,26 @@
       "text_excerpt_zh": "",
       "title": "InfraSuite | Cold Email Mailboxes for Outbound Operators",
       "url": "http://infrasuite.io"
+    },
+    "http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Epistemic effort\n * Spent 20-30 hours researching what we know about productivity. About an hour a day for two weeks, plus a few more days where I de…",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know",
+      "frameable": null,
+      "image_urls": [
+        "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+        "https://zapier.cachefly.net/storage/photos/1d3dcabbc930f4895687b447ae79eded.png",
+        "https://jurispage.com/wp-content/uploads/sites/337/2014/12/RescueTime-Your-Daily-dashboard.png",
+        "https://i1.wp.com/www.ankitips.com/wp-content/uploads/2016/08/forgetting-curve.jpg?w=449",
+        "https://i1.wp.com/www.ankitips.com/wp-content/uploads/2016/08/ff_wozniak_graph_f.jpg?w=630",
+        "https://www.chemguide.co.uk/physical/basicrates/sn2profile.gif"
+      ],
+      "kind": "article",
+      "text_excerpt": "[Epistemic effort](https://www.lesswrong.com/lw/o6m/epistemic_effort)\n- Spent 20-30 hours researching what we know about productivity. About an hour a day for two weeks, plus a few more days where I dedicated more than an hour to studying productivity.\n- Skimmed through the entire [archives](http://calnewport.com/blog/archive/)of Cal Newport's blog (the author of[Deep Work,](http://calnewport.com/books/deep-work/)which I had read about a year or two ago), and read the posts that seem most useful.\n- Searched through lesswrong.com and lesserwrong.com and read relevant and useful posts, including [How to Beat Procrastination](https://www.lesswrong.com/lw/3w3/how_to_beat_procrastination).\n- Searched Google and Google Scholar for academic research on productivity (I couldn't really find anything).\n- Read a few Harvard Business Review articles on productivity, starting with [For Real Productivity, Less is Truly More](https://hbr.org/2010/05/for-real-productivity-less-is).\n- Read a few [summaries](https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98)of[Getting Things Done](http://gettingthingsdone.com/), by David Allen. Watched his[Ted Talk](https://www.youtube.com/watch?v=CHxhjDPKfbY).\n- Read through about 5-7 pages of the highest voted questions on the [Personal Productivity Stack Exchange](https://productivity.stackexchange.com/questions)and went down some[link rabbit holes](https://xkcd.com/214/).\n- Spent about two hours thinking about how to categorize productivity advice.\n- I have a degree in neuroscience, know a decent amount about cognitive sciences more generally, and have read various related books such as [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/1531864880)by Anders Ericsson, which reviews what we know about expert performance.\n- Spent about 20 hours writing and editing this post.\nMeta\nI've come across a lot of productivity-related advice over the years. Tips, tricks, blog posts, books, etc. I feel like I know a decent amount about productivity, and that I should be pretty damn productive. Unfortunately, the knowledge I've accumulated doesn't seem to have translated into actual success. Actual productivity.\nSo then, a few weeks ago I decided that enough is enough. That I need to take a step back and really spend some time \"getting better at productivity\". In order to \"get better at productivity\", I figured that I should [start off](https://www.lesswrong.com/lw/3m3/the_neglected_virtue_of_scholarship) doing some research. Why try to figure things out myself when I could just start off standing on the shoulders of others? This post outlines and summarizes what I have found in my research.\nI initially wasn't planning on writing this post. I don't study productivity professionally. I'm not the most qualified person to be doing this. I've only spent 20-30 hours researching this, so there must be a lot of things I'm missing. Still, I think that there are some strong reasons for writing this post:\n- I couldn't find a similar post that already exists. Maybe that's just because I'm a bad googler. Maybe it's because they're actually hard to find. Maybe it's because they don't exist in the first place. I'm not sure which of these are true, but I suspect that the last two are true to a notable degree. If not, I apologize for adding to the pile of shitty articles on the internet.\n- My writing style may make things \"click\" for certain readers. Scott Alexander just wrote a cool article about this idea: [Non-Expert Explanation](http://slatestarcodex.com/2017/11/02/non-expert-explanation/).\n- Hopefully commenters will add new information. I am attempting to summarize what is known (and thought) about productivity, but since I'm not an expert in this field, I expect that my attempt at summarizing will be incomplete and imperfect. I intend for this post to be a starting point. I hope that readers will share their knowledge, and perhaps we as a community can create a pretty awesome outline a",
+      "title": "Productivity: Working towards a summary of what we know — LessWrong",
+      "url": "http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know"
     },
     "http://loops.elorm.xyz": {
       "content_type": "text/html; charset=utf-8",
@@ -1255,19 +1292,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060357382052454403"
-    },
-    "http://x.com/i/article/2060372903992991747": {
-      "cf_fallback_error": "TimeoutError: The read operation timed out",
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "final_url": "http://x.com/i/article/2060372903992991747",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "",
-      "title": "",
-      "url": "http://x.com/i/article/2060372903992991747"
     },
     "http://x.com/i/article/2060512029065269248": {
       "cleaner_v": 2,
@@ -6168,6 +6192,19 @@
       "title": "",
       "url": "http://x.com/i/article/2070556766660931584"
     },
+    "http://x.com/i/article/2070560734388359168": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2070560734388359168",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HLwd60QW4AEoJV8?format=jpg&name=900x900)](http://x.com/jonkomet/article/2071262054518825179/media/2070562824980455425)\n\nThe DeepThink Skill: How I Make AI Agents Slow Down Before Expensive Decisions\n\n[![](https://pbs.twimg.com/profile_images/2044107969873276928/Ux-mlU_6_normal.jpg)](http://x.com/jonkomet)\n\n[komet![💫](https://abs.twimg.com/emoji/v2/svg/1f4ab.svg)](http://x.com/jonkomet)\n\n[@jonkomet](http://x.com/jonkomet)\n\n·\n\n14h\n\nFollow\n\nClick to Follow jonkomet\n\n1\n\n18\n\n[1.8K](http://x.com/jonkomet/status/2071262054518825179/analytics)\n\nMost AI agents have one dangerous default:\n\nThey move.\n\nThat is the whole pitch, right? Give the agent a task, let it call tools, write code, search docs, open files, edit things, test things, and keep going.\n\nMost of the time, that is exactly what you want.\n\nBut some tasks should not start with motion. They should start with judgment.\n\nIf an agent is about to choose an architecture, rewrite a working system, change pricing, debug a recurring failure, touch security-sensitive code, or commit a public launch direction, the first plausible answer is often the most expensive one.\n\nSo I built a Hermes skill called DeepThink.\n\nDeepThink is not a model. It is not a plugin. It is not magic. It is a reusable operating mode that tells an agent:\n\nSlow down. Restate the real decision. Separate facts from guesses. Generate options. Red-team them. Score the tradeoffs. Recommend one path. End with the next safe step.\n\nThe point is not longer answers. The point is better judgment.\n\nWhy Agents Need A Slow Mode\n\nA good agent should not behave the same way on every task.\n\nSome work is low-risk:\n\n\\- rename this file - summarize this doc - fix this obvious typo - run the formatter - find where this function is used\n\nFor that kind of work, speed is the feature.\n\nBut other work has blast radius:\n\n\\- Should we rebuild this service or patch it? - Should we migrate databases before launch? - Should we use one backend or split into separate services? - Is this bug caused by storage, sync, auth, or UI state? - Should this agent get access to production credentials? - Should we automate this workflow or keep a human approval step?\n\nOn those tasks, speed can become confidence theater.\n\nThe agent sounds sure because language models are good at sounding sure. But underneath the polished answer, it may be mixing verified facts, assumptions, guesses, and vibes.\n\nDeepThink exists for those moments.\n\nIt gives the agent a structured way to pause before execution.\n\n## \n\nThe Core Rule\n\nDeepThink has one job: Convert vague pressure into a grounded recommendation with evidence, tradeoffs, and the next safe step.\n\nThat phrase matters. Not a 4,000-word essay. Not a list of every possible path. Not a philosophical meditation on uncertainty. A grounded recommendation.\n\nThe agent should still decide. It should just decide after doing the work.\n\n## \n\nThe DeepThink Loop\n\nThe workflow is simple:\n\n1\\. Restate the real decision. 2\\. Identify assumptions. 3\\. Separate known facts from unknowns. 4\\. Gather evidence if tools are available. 5\\. Generate 2 to 4 viable paths. 6\\. Red-team each path. 7\\. Score impact, risk, reversibility, timing fit, and confidence. 8\\. Recommend one path. 9\\. End with the next safe step.\n\nThe loop idea was partly inspired by \\[OpenMythos\\](\n\n<https://github.com/kyegomez/OpenMythos>\n\n) and the broader idea of recurrent or looped reasoning: keep bringing the original problem back into the process so the reasoning does not drift.\n\nDeepThink applies that idea at the agent workflow level.\n\nThe agent does not just \"think harder.\" It keeps returning to the decision and asking:\n\n\\- What do we actually know? - What are we assuming? - What would make this fail? - Which choice is easiest to reverse? - What is the next safe step?\n\nThat last question is the whole thing.\n\nExam",
+      "title": "",
+      "url": "http://x.com/i/article/2070560734388359168"
+    },
     "http://x.com/i/article/2070612759260348416": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6279,6 +6316,46 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2070947137177935872"
+    },
+    "http://x.com/i/article/2071134358359187456": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071134358359187456",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL4nh1MbwAAxSLR?format=jpg&name=900x900)](http://x.com/jxnlco/article/2071136366893859044/media/2071136340805402624)\n\nTwo kinds of scheduled work in Codex \n\n[![](https://pbs.twimg.com/profile_images/2057561784047816704/5Su5xy1d_normal.jpg)](http://x.com/jxnlco)\n\n[jason](http://x.com/jxnlco)\n\n[@jxnlco](http://x.com/jxnlco)\n\n·\n\n22h\n\nFollow\n\nClick to Follow jxnlco\n\n27\n\n32\n\n447\n\n[44K](http://x.com/jxnlco/status/2071136366893859044/analytics)\n\nYou want Codex to do something later, or keep checking something until it changes. That sounds like one feature. It is actually two different kinds of work, and the difference is simple:\n\n* Scheduled Tasks create a new thread every time they run.\n* Scheduled Messages use the same existing thread every time they run.\n\n## \n\nUse a Scheduled Task when every run can start fresh\n\nA Scheduled Task is best when the job makes sense without the conversation that created it.\n\nFor example:\n\nEvery morning at 9 AM, summarize what I need to catch up on from my email, calendar, and team messages.\n\nTomorrow's summary does not need to remember today's summary. It needs the same instructions, current information, and a fresh place to report the result.\n\n## \n\nUse a Scheduled Message when the next check needs the thread\n\nA Scheduled Message, sometimes called a thread automation or heartbeat automation, returns to the same existing thread each time it runs.\n\nFor example:\n\nCheck this PR every 30 minutes. If there are comments, address them and keep CI green. Stop when the PR merges.\n\nThe next check depends on the work that already happened. The thread knows which PR you mean, which comments were addressed, what failed in CI, and what has changed since the last check.\n\nThis is the right shape for:\n\n* polling for updates\n* checking for a status change\n* ongoing research or triage\n* work with a clear stopping condition\n\nThe thread is the thing that connects the runs.\n\n## \n\nMake your own loop skill\n\nGive Codex this prompt:\n\nCreate a reusable loop skill for scheduled work. When I give it a request, first decide whether each run can start fresh or whether the next check needs the current thread's context. If each run can start fresh, help me create a Scheduled Task. If the next check needs the current thread, help me create a Scheduled Message. Infer what you can from the conversation. Ask only the missing questions that materially change the workflow: - What should Codex do each time? - How often should it run? - What change is important enough to report? - When should it stop? - When should it ask me for input? Then create the scheduled workflow with a short, durable prompt that will still make sense on a later run.\n\nWant to publish your own Article?\n\n[Upgrade to Premium](http://x.com/i/premium%5Fsign%5Fup)\n\n* [![](https://pbs.twimg.com/profile_images/2057561784047816704/5Su5xy1d_normal.jpg)](http://x.com/jxnlco)  \n[jason](http://x.com/jxnlco)  \n[@jxnlco](http://x.com/jxnlco)  \nFollow  \nClick to Follow jxnlco  \nvibes  \n[@openai](http://x.com/openai)",
+      "title": "",
+      "url": "http://x.com/i/article/2071134358359187456"
+    },
+    "http://x.com/i/article/2071163151153061888": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071163151153061888",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL5AIULbwAAKoCT?format=jpg&name=900x900)](http://x.com/nurijanian/article/2071164077377032237/media/2071163390236803072)\n\nHermes Agent for Product Managers \n\n[![](https://pbs.twimg.com/profile_images/1602541464851980288/Stnr4-Bl_normal.png)](http://x.com/nurijanian)\n\n[George from ![🕹](https://abs.twimg.com/emoji/v2/svg/1f579.svg)prodmgmt.world](http://x.com/nurijanian)\n\n[@nurijanian](http://x.com/nurijanian)\n\n·\n\n20h\n\nFollow\n\nClick to Follow nurijanian\n\n4\n\n11\n\n144\n\n[15K](http://x.com/nurijanian/status/2071164077377032237/analytics)\n\n[![Image](https://pbs.twimg.com/media/HL5AKajbYAAhwLw?format=png&name=small)](http://x.com/nurijanian/article/2071164077377032237/media/2071163426307792896)\n\n## \n\nWhat is Hermes, and how is it different from Claude Code?\n\n[Hermes Agent](https://hermes-agent.nousresearch.com/docs/)\n\n is an open-source agent runtime from \n\n[Nous Research](https://nousresearch.com/)\n\n. It can run on your machine or on a remote server. It can use tools, load skills, keep memory across sessions, run scheduled work, spawn subagents, and talk to you through a CLI, desktop app, Telegram, Discord, or dashboard.\n\n[Claude Code](https://code.claude.com/docs/en/overview)\n\n is best for a focused work session. You point it at a repo and ask it to inspect files, change code, run checks, explain the diff, and stop. The center of gravity is the codebase and the current session.\n\nHermes aims at longer-lived agent work. Its center of gravity is the agent environment: memory, sessions, skills, gateways, scheduled jobs, and surfaces you can reach later.\n\nThe practical split:\n\n* Use Claude Code when the task is a bounded coding session.\n* Consider Hermes when the task needs memory, repeat work, messaging access, or long-lived state.\n\nSo the choice depends on the job.\n\n[![Image](https://pbs.twimg.com/media/HL5AMd7agAATDzV?format=jpg&name=small)](http://x.com/nurijanian/article/2071164077377032237/media/2071163461573443584)\n\n## \n\nHow is Hermes different from OpenClaw?\n\n[Akshay Pachaar’s Hermes masterclass](https://x.com/akshay%5Fpachaar/status/2054564519280804028)\n\n frames the difference this way:\n\n> Hermes packages a gateway around a learning agent. OpenClaw packages an agent around a messaging gateway.\n\nBoth tools live in the same broad category: persistent agents, messaging surfaces, skills, tools, memory, and remote use. The difference is what each system seems to treat as the center.\n\n[OpenClaw](https://docs.openclaw.ai/)\n\n is more messaging-gateway-first. It is strong when you want an agent reachable through chat-like channels and workflows around that gateway.\n\nHermes is more learning-agent-first. Its pitch is that the agent gets better from use. It keeps bounded memory, searches past sessions, writes or updates skills, runs background review passes, and can use scheduled jobs or subagents inside the same environment.\n\nThe masterclass describes Hermes as combining three things that usually sit apart:\n\n* runtime skill learning\n* persistent multi-layer memory\n* optional offline skill improvement through  \n[GEPA](https://github.com/NousResearch/hermes-agent-self-evolution/)\n\nFor a PM, the practical reading is simple:\n\nIf the main job is “I want to message an agent from different places,” OpenClaw is the adjacent reference point. If the main job is “I want an agent that remembers, builds skills from repeated work, and can run as a broader personal agent environment,” Hermes is the system to study.\n\n[![Image](https://pbs.twimg.com/media/HL5AOaSa8AAfIIm?format=jpg&name=small)](http://x.com/nurijanian/article/2071164077377032237/media/2071163494955937792)\n\n## \n\nThree real use cases people have said Hermes is good at\n\n1\\. Source collection and research workflows\n\nThe strongest PM-relevant example is \n\n[Artem Zhutov’s Hermes plus Obsidian workflow](https://artemxtech.substack.com/p/i-stopp",
+      "title": "",
+      "url": "http://x.com/i/article/2071163151153061888"
+    },
+    "http://x.com/i/article/2071357845443153921": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071357845443153921",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL8ahRQbAAA2ATR?format=jpg&name=900x900)](http://x.com/vipulved/article/2071404852908081211/media/2071403512484003840)\n\nThe Economy of Tokens\n\n[![](https://pbs.twimg.com/profile_images/1510468262609371139/17Rvl-e9_normal.jpg)](http://x.com/vipulved)\n\n[Vipul Ved Prakash![](https://pbs.twimg.com/profile_images/2028879663221882886/sMzEKnKc_bigger.jpg)](http://x.com/vipulved)\n\n[@vipulved](http://x.com/vipulved)\n\n·\n\n4h\n\nFollow\n\nClick to Follow vipulved\n\n2\n\n31\n\n88\n\n[18K](http://x.com/vipulved/status/2071404852908081211/analytics)\n\nCarliss Baldwin and Kim Clark argued that the most important economic event in technology industries is often not the invention of a new product, but the creation of a modular architecture with stable interfaces. This is why the PC ecosystem out-innovated many vertically integrated computer companies: Intel could improve processors, Microsoft could improve operating systems, and thousands of peripheral and software vendors could innovate independently. \n\nOnce the interfaces were stable, the ecosystem expanded explosively, improving along every axis at once: processors doubled in speed, graphics cards and modems arrived to extend what the machine could do, and a generation of software, spreadsheets, games, desktop publishing, drove demand that no single hardware maker could have created on its own. And because everyone built to the same interfaces, an advance by one vendor diffused sideways across the layer, quickly matched or bettered by others. A few vertically integrated companies prospered, \"but a computer in every home and on every desk\" became possible through disaggregation.\n\nI believe something similar is happening in AI.\n\nOver the last nine months, we've seen this firsthand at \n\n[@togethercompute](https://x.com/@togethercompute)\n\n where we focus on efficient post-training and serving of open-weights models. The volume of tokens processed through our APIs increased by nearly 10,000×, from 30B tokens a month to 400T tokens a month, and the trend shows little sign of slowing. Tokens have become dramatically more useful: their application surface has widened, and as a result autonomous software agents, capable of performing long-range tasks with little or no human supervision, have moved from demos into production. This is the beginning of what is likely to be a monumental technological arc.\n\nBut what is perhaps less appreciated is that, as with previous platform markets, the appearance of stable interfaces is enabling specialization, independent innovation, and a modular re-organization of the AI ecosystem.\n\nAI has already converged on three powerful, standardized interfaces:\n\n1. The transformer architecture\n2. Inference API (OpenAI compatible)\n3. Agentic harnesses that operate over these APIs\n\nWhile the token market is still in an early phase of development, despite producing multiple trillion-dollar startups, these three implicit interfaces have quietly standardized the production, consumption, and coordination of intelligence. The consequence is a progressive unbundling of the stack, with increasingly visible specialization and market formation at each layer.\n\nWhat I hope to illustrate in this essay, among other things, is that open-weights models are a direct economic consequence of the Baldwin-and-Clark-style modularization of generative AI. Sandwiched between the stable interfaces of the transformer architecture below and the inference API and harness above, building a model has become far more focused and efficient than it was a few years ago. A shared architecture, increasingly capable shared machinery, and a commodity silicon path have collapsed the cost and calendar of standing up a frontier model. Advances diffuse rapidly, and the frontier, until recently limited to a few labs, is going to be reached by many at one.\n\nIt all started with",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2071357845443153921"
     },
     "http://zaro.ai": {
       "content_type": "text/html",
@@ -6520,6 +6597,21 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Show your hands honor for the strange power they bring you – Aresluna",
       "url": "https://aresluna.org/show-your-hands-honor/?ref=sidebar"
+    },
+    "https://arshad.fyi/writings/engineering-high-performance-parsers": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "How designing the data structure first (flat arrays of indices instead of a pointer tree) makes a parser fast and collapses memory layout, allocation, and serialization into one decision.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.arshad.fyi/writings/engineering-high-performance-parsers",
+      "frameable": null,
+      "image_urls": [
+        "https://arshad.fyi/writings/engineering-high-performance-parsers/opengraph-image?9ffa5d61431fad5a"
+      ],
+      "kind": "article",
+      "text_excerpt": "Engineering High-Performance Parsers with Data-Oriented Design\n[Abstract](https://www.arshad.fyi#abstract)\nA parser is usually taught as a problem of grammars, but once the grammar is correct, almost all of the performance and most of the engineering difficulty live somewhere else, in how the resulting tree is represented in memory. This article describes the design discipline I used to build [Yuku](https://yuku.fyi), a JavaScript and TypeScript parser written in Zig that runs several times faster than the established parsers in its category, and it applies to any parser or compiler frontend in a native language. The claim is simple. Design the data structure first, let the machine’s access patterns dictate its shape, and the speed follows almost for free, while unrelated-looking problems (memory layout, allocation, and serialization) collapse into one solution.\n[1. The Single Idea](https://www.arshad.fyi#1-the-single-idea)\nA parser’s performance is decided long before its first benchmark, by how its tree is laid out in memory. That is data-oriented design. Start from the access pattern and the hardware, derive the representation, and build everything else, the lexer, the recursive descent, the visitor API, to serve it.\nTwo facts about modern hardware drive the whole argument.\n- A cache miss to main memory costs on the order of a hundred nanoseconds. A floating-point operation costs a fraction of one. A parser that chases pointers is memory-latency-bound, stalling on loads rather than computing.\n- A general-purpose allocator call is not free, and a parser that allocates one node at a time pays that cost millions of times while scattering related objects across memory.\nThe stakes are concrete. A hundred-thousand-byte file produces roughly fifty thousand AST nodes. As separately allocated, pointer-linked objects, that is fifty thousand allocations, as many frees, and every later traversal chasing pointers into cold memory. In one flat array, it is a handful of allocations, a linear scan, and a single teardown. That is not a constant factor. It changes the slope of the curve.\n[2. The Cost of the Obvious Design](https://www.arshad.fyi#2-the-cost-of-the-obvious-design)\nThe textbook AST is a tree of heap-allocated structs joined by pointers. In a native language it looks like this.\nconst Node = union(enum) {\n    binary: struct { op: Op, left: *Node, right: *Node },\n    call: struct { callee: *Node, args: []*Node },\n    identifier: struct { name: []const u8 },\n    // ...one variant per node kind\n};It is correct, it is readable, and it is the wrong shape for a machine. Consider what it costs.\n- Allocation per node. Each *Nodeis an allocator call. For our hundred-thousand-byte file that is tens of thousands of calls, each touching allocator metadata.\n- Pointer chasing. leftandrightpoint wherever the allocator happened to place them. Walking the tree is a sequence of unpredictable loads, each a potential cache miss. The prefetcher cannot help because the addresses are not a pattern.\n- Pointer overhead. On a 64-bit target every edge is eight bytes. A node with two children spends sixteen bytes just on pointers, often more than its actual payload. Pointers also pin the representation to one address space, which makes the tree impossible to hand to another language without a deep copy.\n- Fragmentation and teardown. Freeing the tree is another tens of thousands of calls, and the objects were never contiguous to begin with.\nThe variant payloads also differ wildly in size, so a naive node array would be sized to the largest variant and waste space on the common small ones. We will fix that too.\nNone of these costs come from the grammar. They come from the representation. So we change the representation.\n[3. Nodes as Indices, Not Pointers](https://www.arshad.fyi#3-nodes-as-indices-not-pointers)\nThe first move is to replace every pointer with an integer index into one flat array of nodes.\npub const NodeIndex = enum(u32) {\n    null = std.math.ma",
+      "title": "Engineering High-Performance Parsers with Data-Oriented Design - Arshad Yaseen",
+      "url": "https://arshad.fyi/writings/engineering-high-performance-parsers"
     },
     "https://arun.is/blog/jr-logo/?ref=sidebar": {
       "cleaner_v": 2,
@@ -7676,6 +7768,34 @@
       "title": "DORA | State of AI-assisted Software Development 2025",
       "url": "https://dora.dev/research/2025/dora-report/"
     },
+    "https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "CLAUDE.md - Google Drive",
+      "url": "https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing"
+    },
+    "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing",
+      "frameable": false,
+      "image_urls": [
+        "https://drive.google.com/drive-viewer/AKGpihaZfc6lTYBFuSyxpMorXzlcCfBdCmn7d_hnUokGIDWqpBcvtWJrkfcl6MTsOTqOtzxdK7AwtVEMW3EWRZwOeYODD163ct7YGNs=s1600-rw-v1"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Loop-Engineering-IEEE.pdf - Google Drive",
+      "url": "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing"
+    },
     "https://duckdb.org/library/duckdb-not-quack-science/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -8080,6 +8200,22 @@
       "text_excerpt_zh": "",
       "title": "GitHub - NVIDIA/SkillSpector: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. · GitHub",
       "url": "https://github.com/NVIDIA/SkillSpector/"
+    },
+    "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime. - Release v0.1.6 · abundantbeing/hermes-browser-extension",
+      "final_url": "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
+      "frameable": false,
+      "image_urls": [
+        "https://opengraph.githubassets.com/ac71f86b25bed28b801f41c0cee2bcf21f0622b2d0f0fc73ed7a8e3e5d2b9c34/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
+        "https://avatars.githubusercontent.com/u/222723615?s=40&v=4",
+        "https://private-user-images.githubusercontent.com/222723615/614283744-b810510c-df0f-4007-a4b3-d7a432f88f14.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODI3MTM0NDYsIm5iZiI6MTc4MjcxMzE0NiwicGF0aCI6Ii8yMjI3MjM2MTUvNjE0MjgzNzQ0LWI4MTA1MTBjLWRmMGYtNDAwNy1hNGIzLWQ3YTQzMmY4OGYxNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyOVQwNjA1NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NGU4OWMxMDlhZGEwODk4NjFiYjM1Mjc4MjVlZGI3ODNlNDZiM2I3NWVkZWQyNjI4MDZjOTc0NzMxMTIwOGUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.SzRE3LbS7NWeaj_sOA7vNN5fuLgQRp_JP-d2f1fVyYE"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Release v0.1.6 · abundantbeing/hermes-browser-extension · GitHub",
+      "url": "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6"
     },
     "https://github.com/alibaba/open-code-review": {
       "content_type": "text/html; charset=utf-8",
@@ -8855,6 +8991,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Karl Koch | Falling in love with the build",
       "url": "https://karlkoch.me/writing/falling-in-love-with-the-build?ref=sidebar"
+    },
+    "https://lckhd.eu/Tpx5K5": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://lckhd.eu/Tpx5K5",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "unknown",
+      "text_excerpt": "[Sitemap](https://lckhd.eu/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm%5Fsource%3DmobileNavBar&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://lckhd.eu/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40sharansutrapu%2Fstop-downloading-to-tmp-modernizing-aws-lambda-s3-workloads-with-amazon-s3-files-5b9fcca2153c&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n[Medium Logo](https://lckhd.eu/?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nGet app\n\n[Write](https://lckhd.eu/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top%5Fnav%5Flayout%5Fnav-----------------------new%5Fpost%5Ftopnav------------------)\n\n[Search](https://lckhd.eu/search?source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------------------------)\n\nSign up\n\n[Sign in](https://lckhd.eu/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40sharansutrapu%2Fstop-downloading-to-tmp-modernizing-aws-lambda-s3-workloads-with-amazon-s3-files-5b9fcca2153c&source=post%5Fpage---top%5Fnav%5Flayout%5Fnav-----------------------global%5Fnav------------------)\n\n![Unknown user](https://miro.medium.com/v2/resize:fill:32:32/1*dmbNkD5D-u45r44go_cf0g.png)\n\n# Stop Downloading to `/tmp`: Modernizing AWS Lambda + S3 Workloads with Amazon S3 Files\n\n[![Sharan Sutrapu](https://miro.medium.com/v2/resize:fill:32:32/1*58xYbbStYLXEiQoUc4-B1A.jpeg)](https://lckhd.eu/@sharansutrapu?source=post%5Fpage---byline--5b9fcca2153c---------------------------------------)\n\n[Sharan Sutrapu](https://lckhd.eu/@sharansutrapu?source=post%5Fpage---byline--5b9fcca2153c---------------------------------------)\n\nFollow\n\n4 min read\n\n·\n\n2 days ago\n\n49\n\n[Listen](https://lckhd.eu/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost%5Faudio%5Fbutton%26postId%3D5b9fcca2153c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40sharansutrapu%2Fstop-downloading-to-tmp-modernizing-aws-lambda-s3-workloads-with-amazon-s3-files-5b9fcca2153c&source=---header%5Factions--5b9fcca2153c---------------------post%5Faudio%5Fbutton------------------)\n\nShare\n\nPress enter or click to view image in full size\n\n![](https://miro.medium.com/v2/resize:fit:700/1*n2-qnDRD744bVrmqOVRrcQ.jpeg)\n\n_Simplify your serverless architectures by mounting S3 directly as a local file system._\n\nAWS Lambda functions that interact with Amazon S3 typically follow a very familiar pattern: download an object to local ephemeral storage (`/tmp`), process it locally, and upload the result back to S3\\. While reliable, this well-understood approach forces developers to write boilerplate code for managing transfers, monitoring `/tmp` capacity, and cleaning up storage, all of which distracts from your actual processing logic.\n\nEnter **Amazon S3 Files**.\n\nS3 Files revolutionizes this workflow by allowing your Lambda function to mount an S3 bucket directly as a local file system. Your function reads and writes files at a local mount path (e.g., `/mnt/data`), and the file system handles synchronization with S3 automatically behind the scenes. The result? The transfer code disappears, the `/tmp` size constraints vanish, and your developer experience drastically improves.\n\nLet’s walk through three common Lambda + S3 workloads to see how S3 Files modernizes each one.\n\n## Getting Started\n\nTo integrate a Lambda function with S3 Files, you only need three steps:\n\n1. **Create an S3 file system:** Do this via the S3 console, AWS CLI, or CloudFormation. This single operation creates the file system, mount targets in your VPC, and an access point.\n2. **Configure your Lambda function:** Specify the access point ARN and a local mount path (e.g., `/mnt/data`). Ensure your function is in a VPC with access to the mount target and has at least 512 MB of memory to enable direct",
+      "title": "",
+      "url": "https://lckhd.eu/Tpx5K5"
     },
     "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/": {
       "cleaner_v": 2,
@@ -10777,6 +10927,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070811628384468992/img/OmTPwbibFdxAzEc-.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2070849723754233856/img/u4XXluwHUlZUJIKS.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -10832,6 +10996,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg"
     },
     "https://pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg": {
       "cleaner_v": 2,
@@ -13143,19 +13335,117 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png"
     },
-    "https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg": {
+    "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
       "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg",
+      "final_url": "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg",
       "frameable": null,
       "image_urls": [
-        "https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg"
+        "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg"
       ],
       "kind": "image",
       "text_excerpt": "",
       "title": "",
-      "url": "https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg"
+      "url": "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg"
+    },
+    "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
+    },
+    "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png"
+    },
+    "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
+    },
+    "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg"
+    },
+    "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png"
+    },
+    "https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg"
+    },
+    "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png"
     },
     "https://pbs.twimg.com/media/HLBSu2aWMAAAEvC.jpg": {
       "cleaner_v": 2,
@@ -14618,6 +14908,23 @@
       "title": "Recent — Design Inspiration",
       "url": "https://recent.design/"
     },
+    "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "description": "Effective writing for software developers",
+      "extraction_source": "trafilatura",
+      "final_url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "frameable": null,
+      "image_urls": [
+        "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/og-cover.webp",
+        "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/architecture-diagram.svg",
+        "https://refactoringenglish.com/images/refactoring-english-cover-800px.webp"
+      ],
+      "kind": "article",
+      "text_excerpt": "How to Write an Effective Software Design Document\nA good design doc can save you years of development time. Writing a design doc forces you to think through important decisions before you waste time on the wrong implementation or paint yourself into a corner. It’s also the best way to coordinate design decisions among teammates and partner teams.\nI’ve written design docs as a developer at Google, Microsoft, and within [my own companies](https://mtlynch.io/projects/). The specifics vary, but the underlying principles remain the same. A design doc should articulate the hard problems you’re solving and help your teammates give you feedback.\nBelow, I share my approach to creating effective design docs and explain what belongs in a design doc and what does not.\n- [An example design doc](https://refactoringenglish.com#an-example-design-doc)\n- [When should you write a design doc?](https://refactoringenglish.com#when-should-you-write-a-design-doc)\n- [How much should you invest into your design doc?](https://refactoringenglish.com#how-much-should-you-invest-into-your-design-doc)\n- [What belongs in a design doc?](https://refactoringenglish.com#what-belongs-in-a-design-doc)\n- [Components of a design doc](https://refactoringenglish.com#components-of-a-design-doc)\n- [Driving Your Design Doc through Review](https://refactoringenglish.com#driving-your-design-doc-through-review)\nAn example design doc[🔗](https://refactoringenglish.com#an-example-design-doc)\nThe most common question I get about design docs is where to find a good one. I’ve never seen a public design doc that I consider high-quality. All of mine are hidden away at the companies that paid me to write them.\nSo, I wrote [a design doc from scratch](https://refactoringenglish.com/little-moments-design-doc/) based on the principles I’m sharing here. It lays out the design for [a real web app I’m building](https://codeberg.org/mtlynch/little-moments).\nI created the design doc before writing any code, and I’m adhering to the design [as I implement the app](https://codeberg.org/mtlynch/little-moments#status).\nThe design is more exhaustive than what I’d normally write for a solo hobby project, but this is roughly the length and depth of a design doc I’d create if I were coordinating work with other people on a professional project.\nWhen should you write a design doc?[🔗](https://refactoringenglish.com#when-should-you-write-a-design-doc)\nThe more complex or risky the project, the more valuable it is to write a design doc.\nConsider these questions:\n- Will multiple people coordinate work to implement the design?\n- Will the project take more than three months of full-time dev work?\n- Will the implementation run in production for several years?\n- Does the project involve cross-team collaboration?\n- Are the goals and requirements of the project ambiguous?\n- Are there catastrophic risks you could prevent at design time (e.g., security flaws, legal risks)?\nIf you answered “yes” to any of these questions, then it’s likely worth the effort to write a design doc. If you answered “yes” to two or more, a design doc will almost certainly be worth the effort.\nHow much should you invest into your design doc?[🔗](https://refactoringenglish.com#how-much-should-you-invest-into-your-design-doc)\nA design doc can be a simple one-pager or a 50-page document that requires signoff from five different teams. You need to decide how much detail makes sense.\nThere’s no universal rule that says how long you should spend on a design doc just like there’s no rule that says how much to test your code. The right investment depends on your team’s goals, risks, deadlines, and culture. Sometimes, the right amount to invest in a design doc is zero.\nWhat belongs in a design doc?[🔗](https://refactoringenglish.com#what-belongs-in-a-design-doc)\nIf you specify every possible detail in a design doc, you’ve essentially written the implementation during the design phase. That would defeat the whole purpose of a design doc.\nAs a rule o",
+      "title": "How to Write an Effective Software Design Document · Refactoring English",
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
+    },
     "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -14900,6 +15207,32 @@
       "title": "Here’s how I use LLMs to help me write code",
       "url": "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
     },
+    "https://simonwillison.net/2026/May/19/5-minute-llms/": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool. # I presented this lightning …",
+      "extraction_source": "trafilatura",
+      "final_url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "frameable": null,
+      "image_urls": [
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.002.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.003.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.004.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.005.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.006.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.007.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.008.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.009.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.010.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.011.jpeg",
+        "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.012.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The last six months in LLMs in five minutes\n19th May 2026\nI put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the [latest iteration](https://tools.simonwillison.net/annotated-presentations) of my [annotated presentation tool](https://simonwillison.net/2023/Aug/6/annotated-presentations/).\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.001.jpeg)\nI presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.002.jpeg)\nSix months is a pretty convenient time period to cover, because it captures what I’ve been calling the [November 2025 inflection point](https://simonwillison.net/tags/november-2025-inflection/). November was a critical month in LLMs, especially for coding.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.003.jpeg)\nFor one thing, the supposedly “best” model (depending mostly on vibes) changed hands five times between the three big providers.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.004.jpeg)\nAs always, I’m using my [Generate an SVG of a pelican riding a bicycle](https://simonwillison.net/tags/pelican-riding-a-bicycle/) test to help illustrate the differences between the models.\nWhy this test? Because pelicans are hard to draw, bicycles are hard to draw, pelicans can’t ride bicycles... and there’s zero chance any AI lab would train a model for such a ridiculous task.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.005.jpeg)\nAt the start of November the widely acknowledged “best” model was Claude Sonnet 4.5, released on [29th September](https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/). It drew me this pelican.\nIn November it was overtaken by [GPT-5.1](https://simonwillison.net/2025/Nov/13/gpt-51/), then [Gemini 3](https://simonwillison.net/2025/Nov/18/gemini-3/), then [GPT-5.1 Codex Max](https://simonwillison.net/2025/Nov/19/gpt-51-codex-max/), and then Anthropic took the crown back again with [Claude Opus 4.5](https://simonwillison.net/2025/Nov/24/claude-opus/).\nI think Gemini 3 drew the best pelican out of this lot, but pelicans aren’t everything. Most practitioners will agree that Opus 4.5 held the crown for the next couple of months.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.006.jpeg)\nIt took a little while for this to become clear, but the real news from November was that the coding agents got good.\nOpenAI and Anthropic had spent most of 2025 running [Reinforcement Learning from Verifiable Rewards](https://simonwillison.net/2025/Dec/19/andrej-karpathy/) to increase the quality of code written by their models, especially when paired up with their Codex and Claude Code agent harnesses.\nIn November the results of this work became apparent. Coding agents went from often-work to mostly-work, crossing a quality barrier where you could use them as a daily-driver to get real work done, without needing to spend most of your time fixing their stupid mistakes.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.007.jpeg)\nAlso in November, this happened—the first commit to an obscure (back then) repo called “Warelay” by some guy called Pete.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.008.jpeg)\nOver the holiday period, from December to January, a whole lot of us took advantage of the break to have a poke at these new models and coding agents and see what they could do.\nThey could do a lot! Some of us got a little bit over-excited. I had my own short-lived bout of a form of LLM psychosis as I started spinning up wildly ambitious projects to see how far I could push them.\n[#](https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.009.jpeg)\nOne of my projects was a vibe-coded implementation of JavaScript in Python—a loose port of [MicroQuickJS",
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/"
+    },
     "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?ref=sidebar": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=UTF-8",
@@ -15156,6 +15489,29 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The US government's Anthropic models ban was never about an AI jailbreak | TechCrunch",
       "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/?utm_source=dlvr.it&utm_medium=twitter"
+    },
+    "https://thefoundation.limestonedigital.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Subscribe to AI Foundation. A weekly briefing on AI, engineering strategy, data systems, and the operational bottlenecks shaping modern enterprises.",
+      "final_url": "https://thefoundation.limestonedigital.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/69b3e631-13c5-4f2d-9b0b-9b2cee80f49a/purple_white.png?v=1782702462",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,onerror=redirect/uploads/publication/logo/69b3e631-13c5-4f2d-9b0b-9b2cee80f49a/purple_white.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/85bfe343-dc77-4b6c-947e-131ebebe6fdb/purple_white.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/1ff9afa0-4d6a-48d6-a805-afa776172b06/ChatGPT_Image_Jun_23__2026_at_06_01_18_PM.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/60ef2894-ceed-4bb1-8125-328d46963508/ChatGPT_Image_Jun_16__2026_at_06_50_05_PM.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/95b3b705-5b2d-4915-be41-25ec55e3f6e3/ChatGPT_Image_Jun_9__2026_at_05_35_06_PM.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/176f745f-55aa-40cb-bf93-ffd1ee1766b0/2trillion_cover.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/c872dd1a-f42e-4053-ae51-27f89971e165/ChatGPT_Image_May_29__2026_at_06_24_00_PM.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/f9c60cbf-bbc8-4569-a15e-83c1589b434e/thumbnail_beehiive-20.png",
+        "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/logo/69b3e631-13c5-4f2d-9b0b-9b2cee80f49a/purple_white.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Home | AI Foundation from Limestone Digital",
+      "url": "https://thefoundation.limestonedigital.com/"
     },
     "https://thein.fo/43wKrWU": {
       "content_type": "",
@@ -15576,6 +15932,22 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Next Frontier of Visual AI Is Code - by Yoko Li - a16z",
       "url": "https://www.a16z.news/p/the-next-frontier-of-visual-ai-is"
+    },
+    "https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Full session schedule for AI Engineer World's Fair 2026 — June 29 - July 2, 2026, Moscone West, San Francisco, CA.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z",
+      "frameable": null,
+      "image_urls": [
+        "https://www.ai.engineer/_next/static/media/worldsfair-white.1arwxs7bgsp5g.svg?dpl=dpl_7UNWmSHC45M933PmGLgBpR7vjkDJ",
+        "https://www.ai.engineer/worldsfair/schedule-print-preview.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "shortcut: ai.engineer/schedule\nJune 29 - July 2, 2026 · Moscone West\n▶For hackers: our sessions and speakers data is open!\nBuild your own schedule app and tweet \n[@aidotengineer](https://x.com/aiDotEngineer)to share it — we'll feature the best right here! See our[schedule design skill](https://github.com/aiDotEngineer/skills/tree/main/schedule-design).▼Day 1 • Mon, 6/29 (Workshop)\n| Time | Track M Room 2001 | Track 1 Room 2010 | Track 2 Room 2006 | Track 3 Room 2003 | Track 4 Room 2009 | Track 5 Room 2005 | Track 6 Room 2014 | Track 7 Room 2024 | Track 8 Room 2020 | Track 9 Room 2016 | Expo Stage 2 NW | Expo Stage 3 SW | \n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 9:00am | Get Started with Models in Microsoft Foundry to Build AI Apps Pamela Fox - Microsoft, Principal Cloud Advocate | From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 Laurie Voss - Arize AI, Head of Developer Relations | AI on Your Lakehouse: Context Comes in Shapes, Not Queries Zach Blumenfeld - Neo4j, AI Research Engineer | Cooking with Codex Charlie Guo - OpenAI, Developer Experience Engineer; Gabriel Chua - OpenAI, Developer Experience Engineer | The best SDLC is the one you build yourself: Why orchestration changes everything Shane Wolf - Atlassian; Andrei Bocan - Atlassian | AI Security Engineer Foundations + Certificate Javier Garza - Snyk, Developer Advocate | Total Recall: Agent Memory and Harness Engineering Ignacio Martinez - Oracle, AI Developer Advocate | Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs Du'an Lightfoot - Akamai Technologies, Senior AI Engineer | Open-Source Inference Engineering for the Agentic Era Zain Hasan - Together AI, Staff AI/ML Engineer - DX; Yubo Wang - Together AI, LLM Inference; Qingyang Wu - Together AI, Staff Research Scientist; Jue Wang - Together AI, Senior Staff Researcher | Advanced workshop: Mastering AI Observability Doug Guthrie - Braintrust, Solutions Engineer | ||\n| 11:05am | From zero to deployed on Azure with AI agents Gustavo Cordido - Microsoft, Cloud Advocate & AI Content Engineer | Building self-learning loops for your agent Fuad Ali | RAG Needs a Map: Using GraphRAG to Retrieve Connected Context Nyah Macklin - Neo4j, Sr. Developer Advocate, Artificial intelligence | How I learned to stop worrying and love the sandbox Matt Brockman - E2B, AI Engineer | The model swap workshop Pamela Fox - Microsoft, Principal Cloud Advocate; Arun Sekhar - Microsoft | Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer Dhruv Nathawani - Nvidia, Research Scientist | Local LLMs and workstation agents: Part 1 Ahmad Osman - r/LocalLLaMA, Head mod | How to Build Quality Gates into Agentic Coding Workflows Nnenna Ndukwe - Qodo AI, Principal Developer Advocate and Software Engineer | What is an Inference Engine, Anyway? Charles Frye - Modal, Member of Technical Staff | Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship Elizabeth Fuentes Leone - Amazon Web Services, Developer Advocate; Sandhya Subramani - Amazon Web Services, Senior Developer Advocate, GenAI | ||\n| 12:10pm | Evals in AI: A Deep Dive Tejas Kumar - IBM, AI Engineer | From approval loops to autonomous agents with Docker John Craft; Dan Ndombe - Docker, Staff Developer Success Advocate | 2 hr deep dive on LLM Inference at Scale — Part 1 of 2 Harshul Jain - Audible, Senior Software Engineer - ML/AI; Tanmay Sah - Zions Bancorporation, Senior Quantitative Modeler | Build the Right Thing: Product Engineering for Software Developers (Part 1) Kent C. Dodds - EpicProduct.engineer, Software Engineer and Educator | From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline Wolfram Ravenwolf - Weights & Biases by CoreWeave, AI Evangelist | Local LLMs and workstation agents: Part 2 Ahmad Osman - r/LocalLLaMA, Head mod | Beyond RAG: Build a Relational Context Engine from Scratch Peter Werry - Unblocked, Founding Engineer | Building AI Agents with",
+      "title": "Schedule · AI Engineer World's Fair 2026",
+      "url": "https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z"
     },
     "https://www.aiedgehq.co/": {
       "content_type": "text/html; charset=utf-8",
@@ -16296,6 +16668,20 @@
       "title": "Human Dignity – On the Perils of Indifference Nuberodesign > Blog > Human Dignity",
       "url": "https://www.nubero.ch/blog/018/?ref=sidebar"
     },
+    "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html": {
+      "cf_fallback_error": "empty result",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html"
+    },
     "https://www.perplexity.ai/enterprise/use-cases/growing-businesses": {
       "content_type": "",
       "description": "",
@@ -16745,6 +17131,55 @@
       "title": "",
       "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/"
     },
+    "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "Happy 100th birthday to the funniest man who’s ever lived.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/_Dmzh5honi6c4-3KuCj2NA3EYdo=/545x908:5300x3385/1200x625/media/img/mt/2026/06/GettyImages_507837999/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/dqd367b_sBhBB3GbuKIIMG_ZjdI=/670x622:5288x3220/960x540/media/img/mt/2026/06/GettyImages_507837999/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/8okM4KlirqJXl16zwJYSmOrR2dY=/0x0:2528x2431/655x630/media/img/posts/2026/06/GettyImages_488058851/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/sznOrgybP46lEwfMxRKl0SUeGY8=/713x266:2923x2476/120x120/media/img/authors/2025/10/Ivy_Solid_36553a_Color_Map_HH3/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "If you want to understand Mel Brooks, and I mean really understand him, a good place to start is with Nikolai Gogol’s unfinished masterpiece [Dead Souls](https://bookshop.org/a/12476/9780140448078). This is the 1842 novel that Brooks, at his most sentimental, has returned to again and again and again. If you know even a little bit about Gogol and a little bit about Brooks—each is a brilliant, obsessive, absurdist maximalist in his own way—this connection will make immediate sense.\nPeople sometimes call Gogol the father of Russian realism, yet in Dead Souls, especially, he explores the human condition with the unmistakable verve of a comedian—seizing on preposterousnesses hiding in plain sight, piling absurdities atop one another until the tension cannot hold, generally dazzling (and, yes, sometimes confounding) the reader with his originality and playfulness.\nBrooks came to Gogol in the early 1950s on the recommendation of a mentor, the TV writer Mel Tolkin, while they were both working on the sketch-comedy sensation Your Show of Shows. As Brooks remembers it, in a story [he’s told](https://www.theatlantic.com/magazine/archive/2023/07/mel-brooks-judd-apatow-interview/674167/) repeatedly, Tolkin urged him toward Dead Souls, saying, “Even though you’re an animal from Brooklyn, I think you have the beginnings of a mind.” (Incidentally, Gogol ends the novel mid-sentence in just the way that Brooks once, in search of a punch line that never came to him, broke off in the middle of a riotously funny monologue and walked out, not just of the room but of the party he was attending.)\nTolkin happens to be the mentor who said of Brooks: “Half of Mel’s creativity comes out of fear and anger. He doesn’t perform, he screams.” This was an era in which a still-unknown Brooks would show up late to the writer’s room—a habit that drove his colleagues nuts—and then get the biggest laughs out of them anyway. He was outrageously funny, and had unbelievable range. One minute he’d be doing an impression of a rabbi, and the next he was writhing around on the floor pretending to be a harpooned whale (a Melville reference, naturally). The playwright Neil Simon, also a writer on the show, called Brooks “the most uniquely funny man I’ve ever met.”\nSo Brooks, ever on a quest to prove himself, liked that Tolkin saw him as an intellectual—or at least a could-be intellectual. And it turned out that Brooks liked Gogol too. Over the years he certainly liked telling people how much he liked Gogol, who comes up in interview after interview. When Mel Brooks decides that he likes something, or that he wants something, he really cannot be stopped.\nI’ve been thinking about Brooks lately because he turns 100 today, a fact that should mostly be understood as indelible proof of a beneficent universe—evidence of how ungodly lucky we all are to have shared, for even one day let alone many decades, the same atmosphere as one of the true greats of our species. Mel Brooks gave us, among other comedic gifts, The Producers; Blazing Saddles; Young Frankenstein; Silent Movie; High Anxiety; Spaceballs; History of the World, Part I; and Robin Hood: Men in Tights. You could have been born at any point in time, but here you are, alive when ice cream, antibiotics, and indoor plumbing have all been invented, and Mel Brooks is turning 100. If that isn’t extraordinarily good luck, I don’t know what is.\nTo be funny at all is something of a miracle. No form of writing is more difficult. No genre of art requires more daring. And no one can fake it (though many try). Mel Brooks’s contributions to American comedy are a miracle a few times over, in that he is quite possibly the funniest man who ever lived and yet you can still easily see how it could have gone the other way.\nBrooks was born on a hot summer day in 1926, in Brooklyn, the youngest of four boys—Irving, Lenny, Bernie, and Mel—raised during the Great Depression by a single mother. (His father died suddenly when Mel was still a toddl",
+      "title": "Long Live Mel Brooks - The Atlantic",
+      "url": "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
+    "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "What will differentiate people is not how smart they are but their relationship to mental effort.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [
+        "https://cdn.theatlantic.com/thumbor/qYbMj2NrXUMTcZRMJ39SEUKt3f4=/0x61:2876x1559/1200x625/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg",
+        "https://cdn.theatlantic.com/_next/static/images/nav-archive-promo-5541b02ae92f1a9276249e1c6c2534ee.png",
+        "https://cdn.theatlantic.com/media/games/games_promo_color.png",
+        "https://www.theatlantic.com/magazine/images/current-issue.420.jpg",
+        "https://cdn.theatlantic.com/media/files/audio/intro_sprint_2_emblem.png",
+        "https://cdn.theatlantic.com/media/files/2025/crossword_icon_intro_sprint_2.png",
+        "https://cdn.theatlantic.com/media/files/archive-thumbnail.png",
+        "https://cdn.theatlantic.com/media/files/YourSubscription_300x300.jpg",
+        "https://cdn.theatlantic.com/thumbor/jRXTxG_CL0XN71iTjShYbxVOMRk=/0x0:2880x1620/960x540/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg",
+        "https://cdn.theatlantic.com/thumbor/PvSlBgc3N0V03IspsczLtJQvkt0=/630x0:2250x1620/80x80/media/img/mt/2026/06/2026_06_21_AI_users/original.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The People Who Will Thrive in the AI Age\nWhat will differentiate people is not how smart they are but their relationship to mental effort.\nRemember when AI was going to take away our jobs and leave humans with nothing to do? So far, that doesn’t seem to be happening. Researchers from ActivTrak analyzed the digital activity of more than 10,000 workers and [found](https://www.activtrak.com/news/state-of-the-workplace-ai-accelerating-work/) that when people adopted AI, their work life became more intense, not less. The time that these early adopters spent on email, messaging, and chat apps more than doubled. Their use of business software rose by 94 percent.\nResearchers from UC Berkeley’s Haas School of Business found that when using AI, workers started taking on tasks that they had previously outsourced, because activities such as coding and engineering became easier to do. They squeezed in work bursts in the evening, on weekends, in waiting rooms, and whenever else they had a spare moment and AI was handy. They also did a lot more multitasking, supervising a bunch of bots doing different things simultaneously.\nThe general pattern that the research points to is that many people don’t use the time they save using AI to do less; they use the time to take on new tasks. AI also seems to shift workers’ expectations, and their boss’s expectations, about how much they should accomplish in a day. Every hour feels more crowded, but also more frazzled. The ActivTrak researchers found that the time people spent on focused, uninterrupted work fell by 9 percent. There’s even a name for this mental state: “AI brain fry.”\nIn some sense this is normal. Every time some new labor-saving technology is introduced, there are experts (the ones who know a lot about technology but not much about psychology) who predict that people will use the technology to make life easier. Soon we’ll all be enjoying 15-hour workweeks! Instead, many people use the technology to make their life more frenetic and full. Planes, trains, and automobiles are technologies that save time and effort by making travel faster. They also enable people to take a lot more trips.\nI’d say that a guiding principle of the emerging AI age is this: When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones who seek relaxation and passively use AI to work less. They are the ones who will seek improvement and actively wrestle with AI to develop their own mental capabilities and accomplish more.\nIn other words, what will differentiate people is not how smart they are but their relationship to mental effort. Right now, some people have what psychologists call a high need for cognition. They enjoy thinking hard. These are the people who enjoy playing difficult games and reading dense books. On the other end of the spectrum, there are the cognitive misers, the people who find it unpleasant to think hard and take any opportunity not to do it. In the middle are the people who have a medium need for cognition. They will put in the effort when they really care about something, but they don’t intrinsically enjoy it. Need for cognition correlates with intelligence but is not the same thing. We all know a lot of really smart people who don’t like to work hard.\nAs things stand today, people will have very different experiences with AI.\nThe Productive Passengers. People with a low need for cognition will tend to use AI to think less. Their great gain is that AI will make them more productive because it makes tasks so easy. Their great loss will be that AI will diminish their mental capacities because it makes tasks so easy.\nGod seems to have been a puritan. He created us to be the kind of creatures who don’t experience gain without some pain, don’t gain reward without some effort. That’s as true in the world of knowledge work as it is in the world of bodybuilding. Humans learn best when they are in the zone of optimal difficulty, when engaged in",
+      "title": "The People Who Will Thrive in the AI Age - The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    },
     "https://www.theatlantic.com/ideas/2026/06/ai-tutor-education-human-investment/687678/": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -16999,19 +17434,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Stanley — Grow your following",
       "url": "https://x.getstanley.ai/r/pas"
-    },
-    "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "https://www.youtube.com/watch?si=4mr1H22491EKCaVm&v=0WDkwMxj13s&feature=youtu.be",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "- YouTube",
-      "url": "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
     },
     "https://youtu.be/CEvIs9y1uog?si=ytqFmiQuOqAuA4qm": {
       "content_type": "text/html; charset=utf-8",
@@ -17273,12 +17695,6 @@
     "2060350372233769261": [
       "https://x.com/borkodotfun/status/2060350372233769261",
       "http://x.com/i/article/2060342141381971968"
-    ],
-    "2060373513014292919": [
-      "https://x.com/nateherk/status/2060373513014292919",
-      "http://x.com/i/article/2060372903992991747",
-      "https://x.com/nateherk/status/2060373562548957337",
-      "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
     ],
     "2060383294374793606": [
       "https://x.com/itsolelehmann/status/2060383294374793606",
@@ -22296,8 +22712,7 @@
       "https://x.com/cgtwts/status/2071332249606468022",
       "https://pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg",
       "https://x.com/cgtwts/status/2071196300096450851",
-      "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg",
-      "https://x.com/cgtwts/status/2070733213446840776"
+      "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg"
     ],
     "2070844063561977909": [
       "https://x.com/DavidOndrej1/status/2070844063561977909"
@@ -22337,8 +22752,8 @@
       "https://x.com/ccatalini/status/2070939573299847530",
       "https://x.com/ccatalini/status/2070934665238659472",
       "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg",
-      "https://x.com/ccatalini/status/2070911625431765479",
       "https://x.com/ccatalini/status/2070932326851207185",
+      "https://x.com/ccatalini/status/2070911625431765479",
       "https://x.com/ccatalini/status/2070937640161931405",
       "https://x.com/ccatalini/status/2070920343611412957",
       "https://x.com/ccatalini/status/2070908930356572191"
@@ -22375,10 +22790,10 @@
       "https://x.com/RhysSullivan/status/2071051433525551355",
       "https://x.com/RhysSullivan/status/2071067144754974894",
       "https://pbs.twimg.com/media/HL3okxMb0AAjAof.png",
-      "https://x.com/RhysSullivan/status/2071374659875119352",
-      "https://x.com/RhysSullivan/status/2071353462953328783",
-      "https://pbs.twimg.com/media/HL7syJXaEAEumZI.jpg",
-      "https://x.com/RhysSullivan/status/2071345581575053597"
+      "https://x.com/RhysSullivan/status/2071463381878628381",
+      "https://x.com/RhysSullivan/status/2071446809508213063",
+      "https://x.com/RhysSullivan/status/2071400791680917775",
+      "http://executor.sh"
     ],
     "2070991681953161251": [
       "https://x.com/RhysSullivan/status/2070991681953161251",
@@ -22394,8 +22809,144 @@
       "http://x.com/i/article/2070947137177935872",
       "https://x.com/daleverett/status/2071253817648443495",
       "https://x.com/daleverett/status/2071315459455209627"
+    ],
+    "2071136366893859044": [
+      "https://x.com/jxnlco/status/2071136366893859044",
+      "http://x.com/i/article/2071134358359187456",
+      "https://x.com/jxnlco/status/2071286424473887183",
+      "https://x.com/jxnlco/status/2071286389732450381"
+    ],
+    "2071145108687507604": [
+      "https://x.com/cipepser/status/2071145108687507604",
+      "https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view?usp=sharing",
+      "https://x.com/cipepser/status/2071145110629404757",
+      "https://x.com/cipepser/status/2071219185330602440"
+    ],
+    "2071164077377032237": [
+      "https://x.com/nurijanian/status/2071164077377032237",
+      "http://x.com/i/article/2071163151153061888"
+    ],
+    "2071188760318836796": [
+      "https://x.com/VoltexGar/status/2071188760318836796",
+      "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg"
+    ],
+    "2071202000528613519": [
+      "https://x.com/TheEconomist/status/2071202000528613519",
+      "https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2071443621396598930",
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2071202308239556672": [
+      "https://x.com/mardehaym/status/2071202308239556672",
+      "https://pbs.twimg.com/amplify_video_thumb/2071202069843742721/img/2bc7QRC_CUV1-eOG.jpg",
+      "https://x.com/mardehaym/status/2071202311129440549",
+      "https://thefoundation.limestonedigital.com/",
+      "https://x.com/mardehaym/status/2071207065737892316"
+    ],
+    "2071209581574037928": [
+      "https://x.com/arshadyaseeen/status/2071209581574037928",
+      "https://arshad.fyi/writings/engineering-high-performance-parsers",
+      "https://pbs.twimg.com/media/HL5qICja4AADx5i.jpg"
+    ],
+    "2071218919403110475": [
+      "https://x.com/JulianGewirtz/status/2071218919403110475",
+      "https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html"
+    ],
+    "2071219706732646815": [
+      "https://x.com/rabois/status/2071219706732646815",
+      "https://x.com/rabois/status/2071255753445290438",
+      "https://x.com/rabois/status/2071224698474582478"
+    ],
+    "2071227151634911415": [
+      "https://x.com/TheEconomist/status/2071227151634911415",
+      "https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheEconomist/status/2071443621396598930",
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2071239626128298131": [
+      "https://x.com/0xCodez/status/2071239626128298131",
+      "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg",
+      "https://x.com/0xCodez/status/2071247481850024069",
+      "https://x.com/0xCodez/status/2071242196209078276",
+      "https://x.com/0xCodez/status/2071247311129186633",
+      "https://x.com/0xCodez/status/2071258141950382200",
+      "https://x.com/0xCodez/status/2071257337239584944",
+      "https://x.com/0xCodez/status/2071257534598349292"
+    ],
+    "2071244496411427132": [
+      "https://x.com/bibryam/status/2071244496411427132",
+      "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
+    ],
+    "2071259764114305520": [
+      "https://x.com/ArchiveExplorer/status/2071259764114305520",
+      "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png",
+      "https://x.com/ArchiveExplorer/status/2071273546387489068",
+      "https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing",
+      "https://x.com/ArchiveExplorer/status/2071274483776688145",
+      "https://x.com/ArchiveExplorer/status/2071274461131624898"
+    ],
+    "2071262054518825179": [
+      "https://x.com/jonkomet/status/2071262054518825179",
+      "http://x.com/i/article/2070560734388359168",
+      "https://x.com/jonkomet/status/2071288877382336581",
+      "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
+      "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
+    ],
+    "2071268048657334660": [
+      "https://x.com/RDarrylR/status/2071268048657334660",
+      "https://lckhd.eu/Tpx5K5"
+    ],
+    "2071276944482828581": [
+      "https://x.com/nurijanian/status/2071276944482828581",
+      "https://x.com/nurijanian/status/2071366826593013921",
+      "http://nurijanian.substack.com",
+      "http://prodmgmt.world"
+    ],
+    "2071290280368570538": [
+      "https://x.com/VKazulkin/status/2071290280368570538",
+      "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "https://x.com/VKazulkin/status/2071305883179421698",
+      "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
+    ],
+    "2071298319897211020": [
+      "https://x.com/h100envy/status/2071298319897211020",
+      "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
+    ],
+    "2071308651974037561": [
+      "https://x.com/avgaydashenko/status/2071308651974037561",
+      "http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know"
+    ],
+    "2071319131144790064": [
+      "https://x.com/geoffreylitt/status/2071319131144790064",
+      "https://pbs.twimg.com/media/HL7Nxf0aEAAPdTK.jpg",
+      "https://x.com/geoffreylitt/status/2071361380775800893",
+      "https://www.ai.engineer/worldsfair/schedule?day=3&session=asn_slot_2026_07_01_breakout_track_06_1545_2026_06_03t11_33_40_915z",
+      "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg",
+      "https://x.com/geoffreylitt/status/2071361661186007318",
+      "https://x.com/geoffreylitt/status/2071328567372501048",
+      "https://x.com/geoffreylitt/status/2071361083722682870",
+      "https://x.com/geoffreylitt/status/2071363098137788569",
+      "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png",
+      "https://x.com/geoffreylitt/status/2071329112216793534",
+      "https://x.com/geoffreylitt/status/2071366347528024275",
+      "https://x.com/geoffreylitt/status/2071357283297263961",
+      "https://x.com/geoffreylitt/status/2071353874360009177"
+    ],
+    "2071356749844537372": [
+      "https://x.com/TheAtlantic/status/2071356749844537372",
+      "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "https://x.com/TheAtlantic/status/2071386949223420062",
+      "https://www.theatlantic.com/culture/2026/06/long-live-mel-brooks/687730/?taid=6a41b90b27dbeb0001f31aca&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter"
+    ],
+    "2071368991537279292": [
+      "https://x.com/MarcJSchmidt/status/2071368991537279292",
+      "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png"
+    ],
+    "2071404852908081211": [
+      "https://x.com/vipulved/status/2071404852908081211",
+      "http://x.com/i/article/2071357845443153921"
     ]
   },
-  "updated_at": "2026-06-29T00:19:00Z",
+  "updated_at": "2026-06-29T06:05:07Z",
   "window": "recent"
 }

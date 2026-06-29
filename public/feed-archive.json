@@ -4608,6 +4608,19 @@
       "title": "",
       "url": "http://x.com/i/article/2060304215818264576"
     },
+    "http://x.com/i/article/2060372903992991747": {
+      "cf_fallback_error": "TimeoutError: The read operation timed out",
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "final_url": "http://x.com/i/article/2060372903992991747",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "",
+      "title": "",
+      "url": "http://x.com/i/article/2060372903992991747"
+    },
     "http://x.com/i/article/2060381072148537344": {
       "cleaner_v": 2,
       "content_type": "",
@@ -32781,6 +32794,19 @@
       "title": "EventQL: A SQL-Inspired Query Language Designed for Event Sourcing | The Normandy’s Code",
       "url": "https://yoeight.github.io/blog/2025/12/21/EventQL_A_SQL_Inspired_Query_Language_Designed_For_Event_Sourcing.html"
     },
+    "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "https://www.youtube.com/watch?si=4mr1H22491EKCaVm&v=0WDkwMxj13s&feature=youtu.be",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "- YouTube",
+      "url": "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
+    },
     "https://youtu.be/USmG-RXYzd8": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
@@ -40266,6 +40292,12 @@
       "https://x.com/AlphaSignalAI/status/2060361091474223504",
       "http://x.com/i/article/2060265616859340800"
     ],
+    "2060373513014292919": [
+      "https://x.com/nateherk/status/2060373513014292919",
+      "http://x.com/i/article/2060372903992991747",
+      "https://x.com/nateherk/status/2060373562548957337",
+      "https://youtu.be/0WDkwMxj13s?si=4mr1H22491EKCaVm"
+    ],
     "2060375845110223007": [
       "https://x.com/antirez/status/2060375845110223007",
       "https://x.com/antirez/status/2060376095338168679"
@@ -40308,6 +40340,6 @@
       "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
     ]
   },
-  "updated_at": "2026-06-29T00:19:00Z",
+  "updated_at": "2026-06-29T06:05:07Z",
   "window": "archive"
 }
