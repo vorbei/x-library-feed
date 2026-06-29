@@ -13,7 +13,7 @@
       "name": "Design"
     },
     {
-      "count": 332,
+      "count": 333,
       "name": "Articles"
     },
     {
@@ -38,8 +38,43 @@
     }
   ],
   "format": "poche-feed/1",
-  "item_count": 2403,
+  "item_count": 2404,
   "items": [
+    {
+      "article_extraction": "trafilatura",
+      "article_fetch_attempted_at": "2026-06-29T18:32:22.610863Z",
+      "article_image_urls": [
+        "https://hivemind.app/assets/opengraph.png"
+      ],
+      "article_title_extracted": "Hivemind's Constitution",
+      "category": "Articles",
+      "created_at": "2026-06-29T14:41:35.541068Z",
+      "description": "Hivemind's Constitution.",
+      "domain": "hivemind.app",
+      "embed_type": "",
+      "id": "k178x8ead6rfq9tfq5993q0jzn89jp8m",
+      "og_image_url": "https://hivemind.app/assets/opengraph.png",
+      "recommended_at": "2026-06-29T14:41:44.393000Z",
+      "source": "poche@dine",
+      "source_type": "poche",
+      "tags": [
+        "governance",
+        "decentralization",
+        "web3"
+      ],
+      "teams": [
+        {
+          "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
+          "name": "Dine",
+          "recommended_at": "2026-06-29T14:41:44.393000Z",
+          "recommended_by": "disinfeqt",
+          "slug": "dine"
+        }
+      ],
+      "title": "Hivemind's Constitution",
+      "url": "https://hivemind.app/",
+      "x_status_id": null
+    },
     {
       "article_fetch_attempted_at": "2026-06-29T12:52:45.236828Z",
       "article_image_urls": [
@@ -107060,7 +107095,7 @@
   "source_url": "https://poche.app/explore",
   "teams": [
     {
-      "count": 2244,
+      "count": 2245,
       "id": "m575ty2t038acbrk25sgf2b3gx7hjf03",
       "name": "Dine",
       "slug": "dine"
@@ -107096,5 +107131,5 @@
       "slug": "reorx"
     }
   ],
-  "updated_at": "2026-06-29T12:53:48.563918Z"
+  "updated_at": "2026-06-29T18:32:24.128590Z"
 }
