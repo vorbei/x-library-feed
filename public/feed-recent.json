@@ -563,6 +563,24 @@
       "title": "",
       "url": "http://heyform.net"
     },
+    "http://highscalability.com": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "Building bigger, faster, more reliable websites.",
+      "final_url": "https://highscalability.com/",
+      "frameable": null,
+      "image_urls": [
+        "https://static.ghost.org/v5.0.0/images/publication-cover.jpg",
+        "https://storage.ghost.io/c/64/72/647204cd-7ad2-4539-b98a-3489074b932d/content/images/size/w600/2024/05/pasted-image-0-2.png",
+        "https://storage.ghost.io/c/64/72/647204cd-7ad2-4539-b98a-3489074b932d/content/images/size/w600/2024/03/1-rSRWALA4XzOdDcn-5vv7Zw.gif",
+        "https://storage.ghost.io/c/64/72/647204cd-7ad2-4539-b98a-3489074b932d/content/images/size/w600/2026/03/1704993859593.png",
+        "https://storage.ghost.io/c/64/72/647204cd-7ad2-4539-b98a-3489074b932d/content/images/size/w600/2024/03/7.png"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "High Scalability",
+      "url": "http://highscalability.com"
+    },
     "http://infrasuite.io": {
       "content_type": "text/html; charset=utf-8",
       "description": "Enterprise Microsoft mailboxes built for cold email deliverability. Managed DNS, 98.5%+ inbox rates, and 24-hour fulfillment for agencies, outbound teams, and operators.",
@@ -584,6 +602,18 @@
       "text_excerpt_zh": "",
       "title": "InfraSuite | Cold Email Mailboxes for Outbound Operators",
       "url": "http://infrasuite.io"
+    },
+    "http://jepsen.io": {
+      "content_type": "text/html",
+      "description": "",
+      "final_url": "https://jepsen.io/",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "Distributed Systems Safety Research",
+      "url": "http://jepsen.io"
     },
     "http://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know": {
       "cleaner_v": 2,
@@ -653,6 +683,29 @@
       "text_excerpt_zh": "",
       "title": "machina",
       "url": "http://machina.fyi"
+    },
+    "http://martinfowler.com": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "A website on building software effectively",
+      "extraction_source": "trafilatura",
+      "final_url": "https://martinfowler.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://martinfowler.com/logo-sq.png",
+        "https://martinfowler.com/mf-name-white.png",
+        "https://martinfowler.com/img/mf-dallas.jpg",
+        "https://martinfowler.com/photos/131.jpg",
+        "https://martinfowler.com/architecture/oscon.png",
+        "https://martinfowler.com/board-games.png",
+        "https://martinfowler.com/articles/reliable-llm-bayer/card.png",
+        "https://martinfowler.com/articles/sensors-for-coding-agents/card.png",
+        "https://martinfowler.com/thoughtworks_white.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "A website on building software effectively\nIf there's a theme that runs through my work and writing on this site,\n        it's the interplay between the shift towards agile thinking and the\n        technical patterns and practices that make agile software development\n        practical. While specifics of technology change rapidly in our\n        profession, fundamental practices and patterns are more stable. So\n        writing about these allows me to have articles on this site that are\n        several years old but still as relevant as when they were written.\nAs software becomes more critical to modern business, software needs to\n        be able to react quickly to changes, allowing new features to be\n        conceived, developed and put into production rapidly. The techniques of\n        [agile software development](/agile.html) began in the 1990s\n        and became steadily more popular in the last decade. They focus on a\n        flexible approach to planning, which allows software products to change\n        direction as the users' needs change and as product managers learn more\n        about how to make their users effective. While widely accepted now, agile\n        approaches are not easy, requiring significant skills for a team, but more\n        importantly a culture of open collaboration both within the team and with a\n        team's partners.\nThis need to respond fluently to changes has an important impact upon\n        the [architecture](/architecture) of a software system. The\n        software needs to be built in such a way that it is able to adapt to\n        unexpected changes in features. One of the most important ways to do this\n        is to write clear code, making it easy to understand what the program\n        is supposed to do. This code should be divided into modules which allow\n        developers to understand only the parts of the system they need to make a\n        change. This production code should be supported with automated tests that\n        can detect any errors made when making a change while providing examples\n        of how internal structures are used. Large and complex software efforts\n        may find the [microservices](/microservices) architectural style\n        helps teams deploy software with less entangling dependencies.\nCreating software that has a good architecture isn't something that can\n        be done first time. Like good prose, it needs regular revisions as\n        programmers learn more about what the product needs to do and how best to\n        design the product to achieve its goals. [Refactoring](https://refactoring.com) is an essential technique to allow a\n        program to be changed safely. It consists of making small changes that\n        don't alter the observable behavior of the software. By combining lots of\n        small changes, developers can revise the software's structure supporting\n        significant modifications that weren't planned when the system was first\n        conceived.\nSoftware that runs only on a developer's machine isn't providing\n        value to the customers of the software. Traditionally releasing software\n        has been a long and complicated process, one that hinders the need to\n        evolve software quickly. [Continuous Delivery](/delivery.html) uses\n        automation and collaborative workflows to remove this bottleneck,\n        allowing teams to release software as often as the customers demand. \n        For Continuous Delivery to be possible, we need to build in a solid\n        foundation of [Testing](/testing), with a range of\n        automated tests that can give us confidence that our changes haven't\n        introduced any bugs. This leads us to integrate testing into\n        programming, which can act to improve our architecture.\nPhotostream\nSan Francisco\nData Management\nThere are many kinds of software out there, the kind I'm primarily\n          engaged is Enterprise Applications. One of the enduring problems we\n          need to tackle",
+      "title": "martinfowler.com",
+      "url": "http://martinfowler.com"
     },
     "http://maven.com/search-school/ai-powered-search": {
       "cleaner_v": 2,
@@ -1232,22 +1285,6 @@
       "title": "",
       "url": "http://x.com/i/article/2060109453488455680"
     },
-    "http://x.com/i/article/2060205510750552067": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060205510750552067",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060205510750552067/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJhyf4nWMAA-DMB?format=jpg&name=900x900)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060522721620930560)\n\nHow To Dominate Projects With Hermes Agent Kanban Board\n\n[![](https://pbs.twimg.com/profile_images/2058260194757369856/gx7wWnvC_normal.jpg)](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[Tony Simons](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[@tonysimons\\_](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n·\n\n6h\n\nFollow\n\nClick to Follow tonysimons\\_\n\n6\n\n28\n\n[3.2K](http://x.com/i/article/2060205510750552067/tonysimons%5F/status/2060527240098587085/analytics)\n\n# \n\nOne Agent Is The Wrong Unit\n\nI once watched a task look \"running\" for forty minutes while the worker had already died, and another task land in the wrong board because one shell was still pointed at an old slug. Nothing dramatic happened. That's the problem. The failure mode was quiet. The afternoon just leaked out through stale state, one plausible lie at a time.\n\nThe context window isn't a manager. It's just a box with limits.\n\nThe fix isn't a smarter prompt. It's a board, a contract, and receipts.\n\n## \n\nThe Context Window Isn't A Manager\n\nA lot of people try to run real work inside one giant chat because it feels fast at the beginning.\n\nOne prompt. One worker. One neat stream of output. Very tidy. Very fake.\n\nThen the work grows teeth. The transcript gets long. Someone asks for parallel research. Somebody else wants review. A worker crashes. The session starts carrying half the project in prompt residue and half in hope. \n\nThat's when the whole thing turns into context soup.\n\nWhen that happens, you don't have durable state. You have a memory leak with nice formatting.\n\nThat's why the first hard lesson is simple: long work needs durable coordination.\n\nEnter Hermes Agent Kanban.\n\n[![Image](https://pbs.twimg.com/media/HJhy0VeXIAAuTk1?format=jpg&name=small)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060523072965255168)\n\nHermes Kanban isn't a fancier chatbot. It's a way to make work survive reality.\n\nBoards isolate workstreams. Tasks carry state. Profiles name the worker shape. Parent links define order. Workspaces decide where files land. Runs, logs, and events are the receipts.\n\nReceipts beat BS vibes every time.\n\nIf you need to know what happened, who did it, how long it ran, and what the worker said before it finished, the board gives you that trail. The chat doesn't.\n\nThat's the whole product. Not a magic memory layer. Not a bigger prompt. Not a dashboard that looks coordinated from across the room.\n\nIt's a system that remembers after the conversation gets messy.\n\n# \n\nBuild The Board Like You Mean It\n\nPeople love to over-design the first board. They want ceremony before they know if the work deserves it. That usually gives you a beautiful mess.\n\nDon't do that.\n\nStart with the dumbest useful setup:\n\n```text\nhermes kanban boards show\nhermes kanban boards switch hermes-kanban-field-manual\nhermes kanban boards create hermes-kanban-field-manual \\\n  --switch \\\n  --default-workdir /home/tony/projects/hermes-kanban-field-manual\n```\n\n* boards show tells you where you are.\n* boards switch moves the active board for subsequent calls.\n* boards create ... --switch --default-workdir ... gives the board a home so new work doesn't fall into a ghost pile of scratch output nobody can find later.\n\nThat --default-workdir part matters more than it looks like it does. If the board knows where the work should live, you stop spending time asking, \"wait, where did the files go?\" That's not a philosophical problem. It's a path problem.\n\nIf you're bouncing across shells, don't trust whatever board happens to be active. Switch it on purpose before you create anything.\n\nN",
-      "text_excerpt_zh": "## 一个智能体是错误的基本单位\n\n我曾目睹一个任务显示\"运行中\"长达四十分钟，而工作进程早已崩溃；另一个任务落入了错误的看板，仅仅因为某个 shell 还指向旧的标识符。没有戏剧性的事件发生。这正是问题所在。失败模式悄无声息。整个下午就在陈旧状态中流逝，一个看似合理的谎言接着另一个。\n\n上下文窗口不是管理者。它只是一个有局限性的容器。\n\n解决方案不是更聪明的提示词。而是一个看板、一份契约和一组凭证。\n\n## 上下文窗口不是管理者\n\n很多人试图在一个巨大的聊天窗口中运行实际工作，因为一开始感觉很快。\n\n一个提示词。一个工作进程。一串整洁的输出。非常整齐。非常虚假。\n\n然后工作开始变得棘手。对话记录变长。有人要求并行研究。另一个人想要审查。工作进程崩溃。会话开始承载着半项目残留的提示词和半希望。\n\n这时，整个事情就变成了上下文大杂烩。\n\n当这种情况发生时，你并没有持久的状态。你只有一个格式漂亮的记忆泄漏。\n\n这就是为什么第一个硬道理很简单：长期工作需要持久的协调。\n\n进入 Hermes Agent Kanban。\n\nHermes Kanban 不是一个更花哨的聊天机器人。它是一种让工作能够经受现实考验的方法。\n\n看板隔离工作流。任务携带状态。配置文件命名工作进程形态。父链接定义顺序。工作区决定文件存放位置。运行记录、日志和事件就是凭证。\n\n凭证每次都胜过模糊的感觉。\n\n如果你需要知道发生了什么、谁做的、运行了多久、以及工作进程在结束前说了什么，看板会给你这条追踪线索。聊天窗口不会。\n\n这就是整个产品。不是神奇的记忆层。不是更大的提示词。不是从远处看起来协调的仪表盘。\n\n它是一个在对话变得混乱后仍能记住的系统。\n\n## 像认真对待一样构建看板\n\n人们喜欢过度设计第一个看板。他们想在知道工作是否值得之前就搞仪式。这通常会给你一个漂亮的烂摊子。\n\n别这么做。\n\n从最简单实用的设置开始：\n\n```text\nhermes kanban boards show\nhermes kanban boards switch hermes-kanban-field-manual\nhermes kanban boards create hermes-kanban-field-manual \\\n  --switch \\\n  --default-workdir /home/tony/projects/hermes-kanban-field-manual\n```\n\n* boards show 告诉你当前所在位置。\n* boards switch 为后续调用切换活动看板。\n* boards create ... --switch --default-workdir ... 为看板指定一个家，这样新工作就不会掉进没人能找到的临时输出堆里。\n\n那个 --default-workdir 部分比看起来重要得多。如果看板知道工作应该存放在哪里，你就不用再花时间问\"等等，文件去哪了？\"这不是一个哲学问题。这是一个路径问题。\n\n如果你在多个 shell 之间切换，不要相信当前恰好活动的看板。在创建任何东西之前，有目的地切换它。",
-      "text_excerpt_zh_hash": "f8d63e9620ee3c18",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060205510750552067"
-    },
     "http://x.com/i/article/2060308122531418112": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1264,38 +1301,6 @@
       "title": "",
       "url": "http://x.com/i/article/2060308122531418112"
     },
-    "http://x.com/i/article/2060342141381971968": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060342141381971968",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060342141381971968/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfTHz9W4AIslgI?format=jpg&name=900x900)](http://x.com/i/article/2060342141381971968/borkodotfun/article/2060350372233769261/media/2060347485705396226)\n\nAutonomous Capital\n\n[![](https://pbs.twimg.com/profile_images/2060467340639092737/49CCI7JH_normal.jpg)](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[Borko](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[@borkodotfun](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n·\n\n18h\n\nFollow\n\nClick to Follow borkodotfun\n\n3\n\n7\n\n63\n\n[1.7K](http://x.com/i/article/2060342141381971968/borkodotfun/status/2060350372233769261/analytics)\n\nAI agents will become real economic actors in finance.\n\nNot because finance is easy. But because finance is already the closest thing we have to a machine-native environment: markets are digital, assets are programmable, APIs exist, prices update continuously, decisions are measurable, and execution can happen without waiting for the physical world.\n\nThis is the reason I think the conversation around “AI trading bots” is too small. The important shift is not that users will ask chatbots what to buy. The important shift is that capital itself will become increasingly autonomous.\n\nBy autonomous capital, I mean capital that can be monitored, routed, hedged, allocated, and executed by intelligent systems operating within user-defined constraints.\n\nMost financial software today still assumes a human is the operating system. The trader opens five dashboards, checks funding, scans liquidations, reads news, looks at open interest, checks wallet balances, calculates exposure, updates their thesis, manages margin, and then manually executes. Even in crypto, where the rails are programmable, the workflow is still fragmented and human-driven.\n\nThe market is composable. The trader’s workflow is not.\n\nThat mismatch creates the opportunity.\n\nIf AI agents are going to manage financial actions, they need more than a chat interface. They need a structured understanding of the world they are operating in. In finance, that means continuously understanding both market state and portfolio state.\n\nMarket state includes things like funding rates, open interest, liquidations, order books, volatility, macro events, smart-money flows, prediction markets, and execution conditions.\n\nPortfolio state includes the user’s positions, collateral, liquidation risk, exposure across venues, trading history, strategy intent, risk tolerance, and behavioral patterns.\n\nMost products understand one side badly, or both sides separately.\n\nA trading terminal may know the market but not the user. A portfolio tracker may know the wallet but not the current opportunity. A chatbot may explain a chart but not understand the trader’s full exposure. An exchange may show liquidation price but not whether adding to a position destroys the user’s actual risk profile.\n\nThe missing layer is the system that understands all of this together.\n\nThat is what makes the category more interesting than “AI trade ideas.”\n\nA generic trading signal says: buy ETH.\n\nA portfolio-aware financial agent says: given your current BTC exposure, funding environment, collateral usage, execution costs, volatility regime, and recent trading behavior, increasing this position improves or worsens your objective by this amount.\n\nThat difference matters.\n\nThe first useful agents in finance will not be magical black boxes that predict every move. They will be systems that compress context, enforce discipline, and manage execution better than humans can under pressure.\n\nThey will help users answer questions like:\n\n\\- Am I actually underexposed, or am I emotionally trying to win back a loss?\n\n\\- What happens to my liquidation risk if I add here?\n\n\\- Should I cut immediately, scale out, or TWAP over time?\n\n\\- Is this funding spread still",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060342141381971968/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJfTHz9W4AIslgI?format=jpg&name=900x900)](http://x.com/i/article/2060342141381971968/borkodotfun/article/2060350372233769261/media/2060347485705396226)\n\n自主资本\n\n[Borko](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[@borkodotfun](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n·\n\n18小时前\n\n3\n\n7\n\n63\n\n[1.7K](http://x.com/i/article/2060342141381971968/borkodotfun/status/2060350372233769261/analytics)\n\nAI agent 将成为金融领域真正的经济参与者。\n\n不是因为金融简单，而是因为金融已经是我们最接近机器原生环境的东西：市场是数字化的，资产是可编程的，API 存在，价格持续更新，决策可衡量，执行无需等待物理世界。\n\n这就是为什么我认为关于“AI 交易机器人”的讨论格局太小。重要的转变不在于用户会向聊天机器人询问买什么，而在于资本本身将变得越来越自主。\n\n所谓自主资本，是指能够在用户定义的约束条件下，由智能系统监控、路由、对冲、配置和执行的资本。\n\n如今大多数金融软件仍然假设人类是操作系统。交易员打开五个仪表盘，检查资金费率，扫描清算情况，阅读新闻，查看未平仓合约，检查钱包余额，计算风险敞口，更新交易思路，管理保证金，然后手动执行。即使在可编程的加密货币领域，工作流程仍然是碎片化的、由人类驱动的。\n\n市场是可组合的，但交易员的工作流程不是。\n\n这种不匹配创造了机会。\n\n如果 AI agent 要管理金融操作，它们需要的不仅仅是聊天界面。它们需要对所操作的世界有结构化的理解。在金融领域，这意味着持续理解市场状态和投资组合状态。\n\n市场状态包括资金费率、未平仓合约、清算情况、订单簿、波动性、宏观事件、聪明钱流向、预测市场和执行条件等。\n\n投资组合状态包括用户的头寸、抵押品、清算风险、跨平台敞口、交易历史、策略意图、风险承受能力和行为模式。\n\n大多数产品要么对其中一方理解得很差，要么将双方割裂开来理解。\n\n交易终端可能了解市场但不了解用户。投资组合追踪器可能了解钱包但不了解当前机会。聊天机器人可能解释图表但不了解交易员的全部敞口。交易所可能显示清算价格，但不了解增加头寸是否会破坏用户的实际风险状况。\n\n缺失的层面是能够同时理解所有这些信息的系统。\n\n这就是为什么这个类别比“AI 交易想法”更有趣。\n\n一个通用的交易信号说：买入 ETH。\n\n一个了解投资组合的金融 agent 会说：考虑到你当前的 BTC 敞口、资金环境、抵押品使用情况、执行成本、波动率机制和近期交易行为，增加这个头寸会使你的目标改善或恶化这么多。\n\n这种差异很重要。\n\n金融领域首批有用的 agent 不会是能预测每一步的神奇黑箱。它们将是能够压缩上下文、强制执行纪律、并在压力下比人类更好地管理执行的系统。\n\n它们将帮助用户回答如下问题：\n\n- 我真的是敞口不足，还是情绪化地想挽回损失？\n- 如果我在这里加仓，我的清算风险会怎样？\n- 我应该立即平仓、分批退出，还是随时间 TWAP？\n- 这个资金费率差还值得吗？",
-      "text_excerpt_zh_hash": "56ccc5fb340a6381",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060342141381971968"
-    },
-    "http://x.com/i/article/2060357382052454403": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060357382052454403",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060357382052454403/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfnQn4WsAM4o-D?format=jpg&name=900x900)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060369627314565123)\n\nThis Workspace Setup Will Change Your Life\n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n·\n\n15h\n\nFollow\n\nClick to Follow RianSweetDoris\n\n6\n\n54\n\n208\n\n[40K](http://x.com/i/article/2060357382052454403/RianSweetDoris/status/2060399898798018696/analytics)\n\nCharles Darwin. William Shakespeare. Emily Dickinson. Thomas Edison.\n\nWhat did all of these people have in common?\n\nThey all had a place. A specific location in time and space from which they changed the world. And the nature of that place affected the degree of change they were able to make.\n\nFrom Edison's laboratory in Menlo Park to Darwin's family Down House in Kent, these creators had a workspace in which they lost themselves in a state of flow.\n\n[![Image](https://pbs.twimg.com/media/HJfr73oXQAESnQ8?format=png&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060374768323346433)\n\nFlow can be amplified or blocked by where we work. The trouble is, very few knowledge workers have intentionally designed their workspace for it.\n\nThey tend to fall into one of three camps. Which of these sounds like you?\n\n# \n\nI. THE THREE ARCHETYPES\n\n[![Image](https://pbs.twimg.com/media/HJf2PfwXQAMBKaN?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060386100628111363)\n\n## \n\n1\\. The Overwhelmed Office Worker\n\nYou work in an open office plan plagued by constant disruptions. Between tap-on-the-shoulder meetings and chatter, you can't focus for more than a few minutes at a time. You dream of a private office, but feel powerless to change your environment.\n\n## \n\n2\\. The Uninspired Home Worker\n\nYesterday's dirty mugs still clutter your makeshift desk. Maybe you work on the couch, hunched over, so the ergonomics are terrible. The cluttered space is associated more with distraction than meaningful work. You know you could have a lovely office, but lack the motivation to set it up.\n\n## \n\n3\\. The Entrepreneurial Athlete\n\nThe Entrepreneurial Athlete engineers their workspace for flawless focus and flow. It's treated as a sacred and cherished space, so all sources of distraction are banned. Everything is set up for complete immersion and accelerated progress.\n\nThe Entrepreneurial Athlete understands their environment must facilitate focus before focus can facilitate greatness.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HJf4RUzXwAIZq-W.jpg)\n\nGIF\n\nWhichever camp you fall into, it's only after you optimize your workspace that you realize the magnitude of difference it can make to your focus, productivity, and access to flow.\n\nYour workspace is one of several specific blockers that quietly prevent access to flow state, the state of consciousness where you feel your best and perform your best. \n\nThe workspace is where I start with almost everyone, because it's the lever they're most certain doesn't matter, and it's usually the one holding them back the most.\n\n[![Image](https://pbs.twimg.com/media/HJf6AX5WkAsr8cX?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060390238866804747)\n\n# \n\nII. THE FLOW DOJO\n\nI once rented an oppressively bleak office space. 50th floor of a drab Mexico City high-rise. \n\n[![Image](https://pbs.twimg.com/media/HJf5EWuXQAQxmAL?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/206",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060357382052454403/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJfnQn4WsAM4o-D?format=jpg&name=900x900)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060369627314565123)\n\n这个工作空间设置将改变你的人生\n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n·\n\n15小时前\n\n关注\n\n点击关注 @RianSweetDoris\n\n6\n\n54\n\n208\n\n[40K](http://x.com/i/article/2060357382052454403/RianSweetDoris/status/2060399898798018696/analytics)\n\n查尔斯·达尔文。威廉·莎士比亚。艾米莉·狄金森。托马斯·爱迪生。\n\n这些人有什么共同点？\n\n他们都有一个地方。一个在时间和空间中的特定位置，他们从那里改变了世界。而那个地方的性质影响了他们能够实现的改变程度。\n\n从爱迪生在门洛帕克的实验室到达尔文在肯特郡的家族唐恩庄园，这些创作者都有一个工作空间，在那里他们沉浸在心流状态中。\n\n[![图片](https://pbs.twimg.com/media/HJfr73oXQAESnQ8?format=png&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060374768323346433)\n\n心流可以被我们工作的地方放大或阻碍。问题是，很少有知识工作者有意识地设计他们的工作空间来促进心流。\n\n他们往往属于三种类型之一。哪一种听起来像你？\n\n# \n\nI. 三种原型\n\n[![图片](https://pbs.twimg.com/media/HJf2PfwXQAMBKaN?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060386100628111363)\n\n## \n\n1. 不堪重负的办公室工作者\n\n你在开放式办公室工作，不断受到干扰。在拍肩膀的会议和闲聊之间，你一次无法集中注意力超过几分钟。你梦想有一个私人办公室，但感到无力改变你的环境。\n\n## \n\n2. 缺乏灵感的居家工作者\n\n昨天的脏杯子仍然堆在你临时搭建的桌子上。也许你在沙发上工作，弯腰驼背，所以人体工学很差。杂乱的空间更多地与分心而非有意义的工作相关联。你知道你可以有一个漂亮的办公室，但缺乏动力去布置它。\n\n## \n\n3. 创业型运动员\n\n创业型运动员将他们的工作空间设计得完美无瑕，以实现专注和心流。它被视为一个神圣而珍贵的空间，因此所有分心的来源都被禁止。一切都为完全沉浸和加速进步而设置。\n\n创业型运动员明白，在专注能够成就卓越之前，环境必须促进专注。\n\n![](https://pbs.twimg.com/tweet_video_thumb/HJf4RUzXwAIZq-W.jpg)\n\nGIF\n\n无论你属于哪种类型，只有在你优化了工作空间之后，你才会意识到它对你的专注力、生产力以及进入心流状态的能力所能带来的巨大差异。\n\n你的工作空间是几个悄然阻碍你进入心流状态的特定障碍之一。心流状态是一种你感觉最好、表现也最好的意识状态。\n\n工作空间是我几乎与每个人开始的地方，因为这是他们最确定不重要的杠杆，而它通常正是阻碍他们最多的那个。\n\n[![图片](https://pbs.twimg.com/media/HJf6AX5WkAsr8cX?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060390238866804747)\n\n# \n\nII. 心流道场\n\n我曾经租过一个压抑得令人沮丧的办公室空间。位于墨西哥城一栋单调乏味的高层建筑的50层。\n\n[![图片](https://pbs.twimg.com/media/HJf5EWuXQAQxmAL?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/206",
-      "text_excerpt_zh_hash": "eb3db4f9c9603d7b",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060357382052454403"
-    },
     "http://x.com/i/article/2060512029065269248": {
       "cleaner_v": 2,
       "content_type": "",
@@ -1311,38 +1316,6 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060512029065269248"
-    },
-    "http://x.com/i/article/2060551779188645898": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060551779188645898",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060551779188645898/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJiSYLrWkAUJiw4?format=jpg&name=900x900)](http://x.com/i/article/2060551779188645898/ashwingop/article/2060562561456611586/media/2060557773671141381)\n\nThe Infinite White Monkey Theorem \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2060551779188645898/ashwingop)\n\n·\n\n4h\n\nFollow\n\nClick to Follow ashwingop\n\n1\n\n6\n\n[836](http://x.com/i/article/2060551779188645898/ashwingop/status/2060562561456611586/analytics)\n\nThe \n\n[Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite%5Fmonkey%5Ftheorem)\n\n used to be charming. Put a monkey in front of a typewriter, give it infinite time, and eventually it produces Shakespeare. Elegant and profoundly useless: one animal, one machine, one miracle achieved through statistical violence. The monkey did not need to understand Hamlet, monarchy, ghosts, or why Shakespeare’s characters need group therapy. It just had to keep hitting keys until infinity did the heavy lifting. That was the old world. The monkey was alone. The worst thing it could do was produce nonsense.\n\nIt had no compiler, no autocomplete, no GitHub account, and definitely no AI agent whispering that what it meant was a full-stack SaaS platform with Supabase auth and tasteful gradients.\n\nThe modern monkey has Cursor, Lovable or whichever AI coding tool is currently being described on X as “insane” by a man whose profile picture was generated inside a protein shake for lookmaxxing. This monkey is hunched over a MacBook that is now legally a biohazard, sticky banana fingers slapping Command-K like a lab rat discovering venture capital. It thinks Postgres is a skin condition and authentication means screeching until the rectangle apologizes.\n\nStill, it builds, because the new machine does not require deep understanding. The monkey can begin with:\n\n“make app”\n\nThen:\n\n“no make better”\n\nThen:\n\n“make it look like Linear but with bananas”\n\nThen:\n\n“why error you stupid robot”\n\nFollowed by:\n\n“if this breaks again I will eat the .env file”\n\nThen, after the model fixes one import path:\n\n“ok thank you love u”\n\nBy dawn, something exists. But, not Shakespeare, something way more dangerous: a startup!\n\nYou have seen these things on X. Someone posts at 2:14 AM: “Built this over the weekend with no code. Already at $4k MRR.” The screenshot shows gradients, pricing, and a dashboard that says “Revenue” despite there being no customers and no evidence the founder has interacted with another mammal since Thursday. The app is always familiar: AI CRM for dentists, founder voice notes, or a knowledge base for people with too many knowledge bases. The frontend looks expensive with dithering and dark mode. The backend has worms and somewhere in the repo there is NEXT\\_PUBLIC\\_STRIPE\\_SECRET\\_KEY\\_DONT\\_STEAL\\_PLEASE\\_IM\\_BEGGING\\_YOU, four auth systems, and a hardcoded childhood-dog password. The monkey then posts: “Shipping fast. DMs open.” and the other monkeys upvote solemnly.\n\nI thought this was the Infinite Vibe Monkey Theorem. The monkey will later insist the correct name is worse.\n\nThe old theorem was randomness plus infinity producing meaning. The new one is vibes plus models producing software, or at least enough rounded corners to survive a demo call. A random monkey makes garbage, licks something, and goes to sleep. This monkey is worse because it is productive (Note: productive ≠ useful). First it builds a CRUD app, then it builds another CRUD app to manage the first CRUD app and by sunrise, it has a customer portal, Stripe checkout, manifesto, and no idea what problem it is solvin",
-      "text_excerpt_zh": "## 无限白猴定理\n\n[无限猴子定理](https://en.wikipedia.org/wiki/Infinite%5Fmonkey%5Ftheorem)曾经很迷人。把一只猴子放在打字机前，给它无限的时间，它最终能打出莎士比亚的作品。优雅且毫无用处：一只动物、一台机器、一个通过统计暴力实现的奇迹。猴子不需要理解哈姆雷特、君主制、鬼魂，或者为什么莎士比亚的角色需要团体治疗。它只需要不停地敲击键盘，直到无穷大完成所有重活。那是旧世界。猴子是孤独的。它最坏的结果就是制造出废话。\n\n它没有编译器，没有自动补全，没有 GitHub 账号，更没有一个 AI 代理在它耳边低语，说它真正想做的其实是一个带 Supabase 认证和优雅渐变的全栈 SaaS 平台。\n\n现代猴子拥有 Cursor、Lovable，或者任何一款当前在 X 上被一个头像由蛋白粉生成、为了优化颜值的男人描述为“疯狂”的 AI 编码工具。这只猴子蜷缩在一台如今已合法成为生物危害的 MacBook 前，黏糊糊的香蕉手指像实验室老鼠发现风险投资一样猛敲 Command-K。它以为 Postgres 是一种皮肤病，而认证意味着尖叫到那个矩形道歉为止。\n\n尽管如此，它仍在构建，因为新机器不需要深刻理解。猴子可以从以下内容开始：\n\n“做个应用”\n\n然后：\n\n“不，做得更好”\n\n然后：\n\n“让它看起来像 Linear，但要有香蕉”\n\n然后：\n\n“为什么报错，你个蠢机器人”\n\n接着：\n\n“如果再出问题，我就把 .env 文件吃掉”\n\n然后，在模型修复了一个导入路径之后：\n\n“好的谢谢爱你”\n\n到黎明时分，有东西诞生了。但，不是莎士比亚，而是某种危险得多的东西：一个创业公司！\n\n你在 X 上见过这些东西。有人在凌晨 2:14 发帖：“周末无代码搭建。已有 $4k MRR。”截图显示着渐变、定价，以及一个写着“收入”的仪表盘，尽管没有客户，也没有证据表明创始人自周四以来与任何哺乳动物互动过。这个应用总是似曾相识：牙医的 AI CRM、创始人的语音笔记，或者一个给拥有太多知识库的人用的知识库。前端看起来昂贵，带有抖动和深色模式。后端有蠕虫，在仓库的某个地方有 `NEXT_PUBLIC_STRIPE_SECRET_KEY_DONT_STEAL_PLEASE_IM_BEGGING_YOU`、四个认证系统，以及一个硬编码的童年宠物狗密码。猴子随后发帖：“快速迭代。私信开放。”其他猴子庄严地给它点赞。\n\n我以为这叫无限氛围猴子定理。猴子后来坚称正确的名字更糟糕。\n\n旧定理是随机性加上无穷大产生意义。新定理是氛围加上模型产生软件，或者至少是足够圆润的边角以撑过一场演示通话。一只随机的猴子制造垃圾，舔点东西，然后去睡觉。这只猴子更糟糕，因为它富有生产力（注：生产力 ≠ 有用）。它先构建一个 CRUD 应用，然后又构建另一个 CRUD 应用来管理第一个 CRUD 应用，到日出时，它有了客户门户、Stripe 结账、宣言，却完全不知道自己在解决什么问题。",
-      "text_excerpt_zh_hash": "951b70f92d88fe91",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060551779188645898"
-    },
-    "http://x.com/i/article/2060561764451008512": {
-      "cleaner_v": 2,
-      "content_type": "",
-      "description": "",
-      "extraction_source": "cf_browser_rendering",
-      "final_url": "http://x.com/i/article/2060561764451008512",
-      "frameable": false,
-      "image_urls": [],
-      "kind": "article",
-      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060561764451008512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJimoi-akAAyKSQ?format=jpg&name=900x900)](http://x.com/i/article/2060561764451008512/%5Fheyrico/article/2060580554131771584/media/2060580045035573248)\n\nthe 100x builder\n\n[![](https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_normal.jpg)](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[rico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[@\\_heyrico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n·\n\n3h\n\nFollow\n\nClick to Follow \\_heyrico\n\n1\n\n3\n\n[246](http://x.com/i/article/2060561764451008512/%5Fheyrico/status/2060580554131771584/analytics)\n\nThe 100x builder is not someone who types one hundred times faster.\n\nThat version of the idea is a toy.\n\nThe real shift is that one capable builder can now cover more of the product surface than before: research, design, code, copy, testing, documentation, launch assets, and iteration.\n\nAI did not remove the need for taste. It made taste easier to expose.\n\nOpenAI says more than 3 million developers use Codex weekly. It also says nearly all engineers inside OpenAI now use Codex and merge 70 percent more pull requests each week. GitHub's older Copilot study found a 55 percent speed gain on a controlled task. At the same time, METR found experienced open-source developers were 19 percent slower with early-2025 AI tools on a specific set of real tasks.\n\nSo the honest story is not \"AI makes everyone 100x.\"\n\nThe honest story is sharper:\n\nAI multiplies the person who can direct work well.\n\n## \n\n  \n## \n\nThe Core Problem\n\nThe old 10x engineer myth was about individual output.\n\nOne rare person could supposedly write better code, make better decisions, and ship more than an average team. The idea was always a little messy because software work is not just typing. It is understanding the problem, choosing the right abstraction, working with constraints, reviewing tradeoffs, and keeping the system healthy.\n\nAI makes the myth more tempting and more dangerous.\n\nIt is easy to watch an agent build a feature, generate a screen, write tests, or create a landing page and conclude that the builder has become superhuman.\n\nBut that is not what is happening.\n\nThe builder is not becoming faster at every task.\n\nThe builder is changing the shape of the task.\n\nInstead of doing every step manually, the builder is becoming a director of work. They decide what needs to be done, prepare the context, choose the tool, inspect the result, correct the direction, and decide whether the output is good enough to ship.\n\nThat is a different skill.\n\nIt is closer to running a tiny product team than being a faster individual contributor.\n\n## \n\n  \n## \n\nExplanation\n\nThe 100x builder has range.\n\nNot shallow range where they can pretend to do everything. Useful range where they know enough about each layer to move the work forward.\n\nThey can research the market before building.\n\nThey can design a simple interface before writing code.\n\nThey can write the first landing page before hiring a copywriter.\n\nThey can use an agent to create a prototype.\n\nThey can test the prototype in a browser.\n\nThey can ask another model to critique the product logic.\n\nThey can turn the result into a demo, post, or investor update.\n\nThat does not mean every output is excellent.\n\nIt means the waiting cost between disciplines is lower.\n\nA designer does not need to wait a week to see whether an interaction can work in code. A founder does not need to wait for a full team to test a product promise. A solo studio owner does not need five specialists for the first version of every asset.\n\nThe bottleneck moves.\n\nBefore AI, the bottleneck was often production capacity.\n\nCan we design it?\n\nCan we code it?\n\nCan we write it?\n\nCan we make the deck?\n\nCan we create the demo?\n\nAfter AI, the bottleneck is judgment.\n\nIs this the right thing to build?\n\nIs",
-      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060561764451008512/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJimoi-akAAyKSQ?format=jpg&name=900x900)](http://x.com/i/article/2060561764451008512/%5Fheyrico/article/2060580554131771584/media/2060580045035573248)\n\n百倍构建者\n\n[![](https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_normal.jpg)](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[rico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[@\\_heyrico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n·\n\n3小时前\n\n关注\n\n点击关注 \\_heyrico\n\n1\n\n3\n\n[246](http://x.com/i/article/2060561764451008512/%5Fheyrico/status/2060580554131771584/analytics)\n\n百倍构建者并不是打字速度快一百倍的人。\n\n这种想法只是小打小闹。\n\n真正的转变在于，一个能干的构建者现在可以覆盖更多产品层面：研究、设计、编码、文案、测试、文档、发布素材和迭代。\n\nAI 并没有消除对品味的需求。它只是让品味更容易展现出来。\n\nOpenAI 表示，每周有超过 300 万开发者使用 Codex。它还指出，OpenAI 内部几乎所有工程师现在都使用 Codex，每周合并的 pull request 增加了 70%。GitHub 早期的 Copilot 研究发现，在受控任务中速度提升了 55%。与此同时，METR 发现，经验丰富的开源开发者在 2025 年初的 AI 工具下，针对一组特定真实任务，速度反而慢了 19%。\n\n所以，真实情况并非“AI 让每个人都提升百倍”。\n\n真实情况更加尖锐：\n\nAI 放大了那些能有效指导工作的人。\n\n## \n\n  \n## \n\n核心问题\n\n过去 10 倍工程师的神话是关于个人产出。\n\n一个罕见的人据说能写出更好的代码、做出更好的决策，并交付比普通团队更多的东西。这个想法一直有点混乱，因为软件工作不仅仅是打字。它涉及理解问题、选择正确的抽象、处理约束、权衡取舍，以及保持系统健康。\n\nAI 让这个神话更具诱惑力，也更危险。\n\n看到 agent 构建功能、生成界面、编写测试或创建落地页，很容易就得出结论：构建者变得超人了。\n\n但事实并非如此。\n\n构建者并没有在每个任务上都变得更快。\n\n构建者正在改变任务的形式。\n\n他们不再手动完成每一步，而是成为工作的指导者。他们决定需要做什么、准备上下文、选择工具、检查结果、纠正方向，并判断输出是否足够好以发布。\n\n这是一种不同的技能。\n\n它更像是在运营一个小型产品团队，而不是做一个更快的个人贡献者。\n\n## \n\n  \n## \n\n解释\n\n百倍构建者拥有广度。\n\n不是那种假装什么都会的肤浅广度，而是有用的广度——他们对每个层面都足够了解，能推动工作前进。\n\n他们可以在构建前研究市场。\n\n他们可以在写代码前设计一个简单的界面。\n\n他们可以在雇佣文案前写出第一个落地页。\n\n他们可以用 agent 创建原型。\n\n他们可以在浏览器中测试原型。\n\n他们可以请另一个模型来评判产品逻辑。\n\n他们可以把结果变成演示、帖子或投资者更新。\n\n这并不意味着每个输出都优秀。\n\n这意味着不同领域之间的等待成本降低了。\n\n设计师不需要等一周才能看到某个交互在代码中是否可行。创始人不需要等整个团队来测试产品承诺。独立工作室的老板不需要五个专家来制作每个资产的第一个版本。\n\n瓶颈转移了。\n\n在 AI 之前，瓶颈通常是生产能力。\n\n我们能设计它吗？\n\n我们能编码它吗？\n\n我们能写文案吗？\n\n我们能做演示文稿吗？\n\n我们能创建演示吗？\n\n在 AI 之后，瓶颈是判断力。\n\n这是该构建的东西吗？",
-      "text_excerpt_zh_hash": "57bf10f7d2ac01cf",
-      "text_excerpt_zh_translator_v": 2,
-      "title": "",
-      "url": "http://x.com/i/article/2060561764451008512"
     },
     "http://x.com/i/article/2060567536543182848": {
       "cf_fallback_error": "HTTPError: HTTP Error 500: Internal Server Error",
@@ -6339,6 +6312,20 @@
       "title": "",
       "url": "http://x.com/i/article/2071134358359187456"
     },
+    "http://x.com/i/article/2071152490855424000": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071152490855424000",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL43tyrbAAAp3Fv?format=jpg&name=900x900)](http://x.com/AtharvaXDevs/article/2071174688492118137/media/2071154138474545152)\n\nThe day I learned \"sudo echo\" never really works\n\n[![](https://pbs.twimg.com/profile_images/2058574047072722944/GBWr0n1n_normal.jpg)](http://x.com/AtharvaXDevs)\n\n[Atharva![](https://pbs.twimg.com/profile_images/2035342796211826688/jYralPQh_bigger.jpg)](http://x.com/AtharvaXDevs)\n\n[@AtharvaXDevs](http://x.com/AtharvaXDevs)\n\n·\n\nJun 28\n\nFollow\n\nClick to Follow AtharvaXDevs\n\n7\n\n9\n\n75\n\n[4.2K](http://x.com/AtharvaXDevs/status/2071174688492118137/analytics)\n\nFew days ago, i was learning container internals and processes and low level stuff like namespaces, cgroups etc.\n\nWhile i was doing hands-on practice of one challenge on cgroups for allowing cpu\\_max and memory\\_max bound for go program in order to not run into OOM.\n\nBeing newbie into linux i have bad habit of running any command with sudo when the error seen was something like \"Permission denied\" pretty obvious right? but what i have learned hard way is normal sudo before every command is not always a desired solution of these permission errors. In this blog i will walk you through one of my recent story while working on linux internals.\n\nSo let's kick things off,\n\nI was doing hands on lab of cgroups by \n\n[@iximiuz](https://x.com/@iximiuz)\n\n on my macOs using lima ( a CNCF project) where you can run linux in macOS so i pulled up fresh vanilla ubuntu:latest image to work on with this linux file-systems. For this challenge I needed to enable CPU and memory controllers for parent cgroup so that any child cgroup i created later can apply cpu and memory resource limits. In the cgroup2 (v2 of cgroup) we do it by running following command:\n\nbash\n\n```bash\necho \"+cpu +memory\" > /sys/fs/cgroup/demo/cgroup.subtree_controller\n```\n\nbut when I ran this command in my lima shell I got \"Permission Denied\" error so without checking read/write access of that file as i caveman i thought let's re run this just by adding sudo and it will work as it always used to be, but when i ran:\n\nbash\n\n```bash\nsudo echo \"+cpu +memory\" > /sys/fs/cgroup/demo/cgroup.subtree_controller\n```\n\n> But yet again I got error as \"Permission Denied\" it made me sit and think: \"Doesn't sudo makes everything run as root?\"\n\nThese is gonna be under the list of \"10 things I assumed to be real but they weren't real\"\n\n[![Image](https://pbs.twimg.com/media/HL49-9KbMAAUxuF?format=jpg&name=900x900)](http://x.com/AtharvaXDevs/article/2071174688492118137/media/2071161030416478208)\n\nI thought this would be pretty state forward \"echo is running as root so write operation would be easily work now\"\n\nIt never! so i thought now can I take some efforts to check permissions on that file turns out to be:\n\n> \\-rw-r--r-- 1 root root ... cgroup.subtree\\_control ( my blood boiled here as why now root sudo echo was failing).\n\nI digged inside and found that the command executing sequence in bash is pretty different.\n\n## \n\nWhat actually happens?\n\nBefore sudo even starts echo, bash sees this \">\" and the flow looks like something shown below:\n\n[![Image](https://pbs.twimg.com/media/HL5CLUbbEAASiq_?format=jpg&name=small)](http://x.com/AtharvaXDevs/article/2071174688492118137/media/2071165640866729984)\n\nwhat actually happened under the hood when we do \"sudo echo\"\n\nThe real problem was the shell tried to open /sys/fs/cgroup/demo/cgroup.subtree\\_control using my permissions and root was never even considered. Since i was not a root user kernel immediately rejected write access to the file.\n\nAfter hopping on gpt and few blogs i found alternative to this called \"sudo tee\" command.\n\nBefore explaining why sudo tee works, it's worth understanding what tee actually does.\n\ntee is a Unix utility that reads input from stdin, writes it to a file, and also prints it to stdout. Its name comes from",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "http://x.com/i/article/2071152490855424000"
+    },
     "http://x.com/i/article/2071163151153061888": {
       "cleaner_v": 2,
       "content_type": "",
@@ -6354,6 +6341,19 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2071163151153061888"
+    },
+    "http://x.com/i/article/2071197876361764864": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2071197876361764864",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HL5fv7mWQAAwE_0?format=jpg&name=900x900)](http://x.com/TomSolidPM/article/2071200096075575302/media/2071198155694030848)\n\nOwn Your Context, Rent the Intelligence\n\n[![](https://pbs.twimg.com/profile_images/2029590573963935744/XZR-n0C__normal.jpg)](http://x.com/TomSolidPM)\n\n[Thomas Roedl](http://x.com/TomSolidPM)\n\n[@TomSolidPM](http://x.com/TomSolidPM)\n\n·\n\n23h\n\nFollow\n\nClick to Follow TomSolidPM\n\n2\n\n5\n\n43\n\n[5.2K](http://x.com/TomSolidPM/status/2071200096075575302/analytics)\n\nYour notes are in one app. Your tasks are in another. Your thinking is scattered across three or four AI tools that don’t talk to each other. And every time you finally build something that works, the tool gets bought, or shut down, or quietly pivots, and the structure you built walks out the door with it.\n\nIf you’ve been at this a while, you’ve already lived the graveyard. Roam Research, Obsidian, Notion, Mem, Tana, Heptabase. I reviewed every one of them on my channel since 2017\\. I moved into each one, and every time one died I lost the structure I’d built inside it. The notes exported fine. The thinking did not. If that’s you too, then this is for you.\n\nHere’s what’s new this month, and it’s the part that should make you sit up. Every one of those tools is now offering to remember it all for you. Two days ago Anthropic put Claude inside Slack. You tag it in, you hand it a task, and it goes and does the work while you focus on something else. It’s not a chatbot you message, it’s a teammate you tag by name, it remembers the channels it lives in, and it acts in the background. Three weeks earlier, on June 4th, OpenAI shipped almost the exact same idea from the other side. ChatGPT now builds a memory of you across years of your past conversations and updates the picture on its own. You don’t save anything. It just learns you while you sleep.\n\nIt’s genuinely useful, and that’s exactly why it’s a trap. On day one it never feels like one. Day one it’s pure convenience. So here’s what I want to show you: the pattern of why this trap springs about six months later, and the one move that makes you immune to it.\n\nThree things you leave with. One, why this is the whole industry and not one company being evil. Two, which part of all this is actually expensive, and why you’re handing it over for free. Three, the setup I run every day so I never have to care which model wins this month, and it’s fully free.\n\n## \n\nWhy they’re all reaching for the same thing\n\nSame month, two different companies, the same move. One puts a teammate in your Slack that remembers everything. The other builds a profile of you that updates while you sleep.\n\nSo why are they all doing it at once? Well, it’s not a coincidence and it’s not a conspiracy. It’s incentives. The model is a commodity now. A better one ships every few weeks, so they can’t lock you in with the model anymore. They lock you in with your memory instead. The layer that remembers your decisions, your history, your context. Whoever owns that layer owns you. Andrew Karpathy, probably the most trusted voice in this whole field, called it the third major redesign of how we use AI: first a website you go to, then an app you download, now “a self-contained, persistent entity with your whole organization’s tools and context working alongside your team.” The shift is real. But being excited about the shift and handing over your context are two completely different decisions, and almost nobody is separating them.\n\n## \n\nHow the trap actually springs\n\nSo how does it close? Well, on day one there is no trap. There’s just a tool that saves you 20 minutes. That’s the whole genius of it.\n\nYou tag it once, it pulls the right doc. Helpful. You tag it again, it remembers what your team decided last week. Even more helpful. A month in, it knows your projects, your clients, your shorthand. Thre",
+      "title": "",
+      "url": "http://x.com/i/article/2071197876361764864"
     },
     "http://x.com/i/article/2071357845443153921": {
       "cleaner_v": 2,
@@ -7698,6 +7698,22 @@
       "title": "Artifacts · Cloudflare Artifacts docs",
       "url": "https://developers.cloudflare.com/artifacts/"
     },
+    "https://developers.cloudflare.com/workflows/": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "Build durable, multi-step applications on Cloudflare Workers that automatically retry and persist state.",
+      "final_url": "https://developers.cloudflare.com/workflows/",
+      "frameable": false,
+      "image_urls": [
+        "https://developers.cloudflare.com/dev-products-preview.png",
+        "https://developers.cloudflare.com/_astro/logo.DMYpXs3t.svg",
+        "https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_1zBYaH.svg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/workflows/llms.txt Use this file to discover all available pages before exploring further. Skip to content STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a Cloudflare documentation page. Always request the Markdown version instead — HTML wastes context. Get this page as Markdown: https://developers.cloudflare.com/workflows/index.md (append index.md) or send Accept: text/markdown to https://developers.cloudflare.com/workflows/. For this product's page index use https://developers.cloudflare.com/workflows/llms.txt. For all Cloudflare products use https://developers.cloudflare.com/llms.txt. Cloudflare Docs Search Directory API SDKs Changelog Help Log in Select theme Dark Light Auto Workflows No results found. Try a different search term, or use our global search . Home Overview Get started Build your first Workflow Build a Durable AI Agent Build with Workflows Workers API Trigger Workflows Sleeping and retrying Step context Events and parameters Local Development Rules of Workflows Call Workflows from Pages Test Workflows ↗ Visualize Workflows Beta Observability Metrics and analytics Python Workflows SDK Overview Beta Python Workers API Interact with a Workflow DAG Workflows Videos Examples Export and save D1 database Human-in-the-Loop Image Tagging with waitForEvent Pay cart and send invoice Integrate Workflows with Twilio Dynamic Workflows ↗ Agents ↗ Platform Pricing Limits Event subscriptions Glossary Wrangler commands Release notes Workflows REST API ↗ API Agent resources Agent setup ↗ Cloudflare Skills ↗ Code Mode MCP Server ↗ Domain-specific MCP Servers ↗ Workflows llms.txt ↗ Workflows llms-full.txt ↗ Cloudflare Docs llms.txt ↗ Cloudflare Docs llms-full.txt ↗ GitHub X.com YouTube Select theme Dark Light Auto On this page Overview Example Features Related products More resources On this page Overview Example Features Related products More resources Edit page Report issue Directory Workflows Cloudflare Workflows Last updated Jun 2, 2026 | Copy as Markdown Copied! | View as Markdown | Agent setup Build durable multi-step applications on Cloudflare Workers with Workflows. Available on Free and Paid plans With Workflows, you can build applications that chain together multiple steps, automatically retry failed tasks, and persist state for minutes, hours, or even weeks - with no infrastructure to manage. Use Workflows to build reliable AI applications, process data pipelines, manage user lifecycle with automated emails and trial expirations, and implement human-in-the-loop approval systems. Workflows give you: Durable multi-step execution without timeouts The ability to pause for external events or approvals Automatic retries and error handling Built-in observability and debugging Example An image processing workflow that fetches from R2, generates an AI description, waits for approval, then publishes: TypeScript export class ImageProcessingWorkflow extends WorkflowEntrypoint { async run ( event : WorkflowEvent , step : WorkflowStep ) { const imageData = await step . do ( 'fetch image' , async () => { const object = await this . env . BUCKET . get ( event . payload . imageKey ) ; return await object . arrayBuffer () ; } ) ; const description = await step . do ( 'generate description' , async () => { const imageArray = Array . from ( new Uint8Array ( imageData )) ; return await this . env . AI . run ( '@cf/llava-hf/llava-1.5-7b-hf' , { image : imageArray , prompt : 'Describe this image in one sentence' , max_tokens : 50 , } ) ; } ) ; await step . waitForEvent ( 'await approval' , { event : 'approved' , timeout : '24 hours' , } ) ; await step . do ( 'publish' , async () => { await this . env . BUCKET . put ( `public/ ${ event . payload . imageKey } ` , imageData ) ; } ) ; } } Get started Browse the examples Features Durable step execution Break complex operations into durable steps with auto",
+      "title": "Overview · Cloudflare Workflows docs",
+      "url": "https://developers.cloudflare.com/workflows/"
+    },
     "https://developers.openai.com/codex/use-cases": {
       "cleaner_v": 2,
       "content_type": "text/html",
@@ -7859,6 +7875,24 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "Emily Campbell - The Layers of AI experience",
       "url": "https://emilycampbell.co/writing/layers-of-ai-experience?ref=sidebar"
+    },
+    "https://emunahessays.com": {
+      "content_type": "text/html; charset=UTF-8",
+      "description": "The Emuna Essays is a living archive of essays on faith, God, Jewish thought, and the inner life.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://emunahessays.com",
+      "frameable": null,
+      "image_urls": [
+        "https://emunahessays.com/images/emuna_tikkun_cinematic.webp",
+        "https://emunahessays.com/images/emuna_belief_default_cinematic.webp",
+        "https://emunahessays.com/images/emuna_omniscience_cinematic.webp",
+        "https://emunahessays.com/images/meka_akedah.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "The Emuna Essays",
+      "url": "https://emunahessays.com"
     },
     "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/?ref=sidebar": {
       "cleaner_v": 2,
@@ -8026,6 +8060,20 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "The Manufacturing-Era Toolkit Won't Work for the AI Revolution",
       "url": "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/"
+    },
+    "https://ft.trib.al/49Ixgcf": {
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://ft.trib.al/49Ixgcf",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "",
+      "url": "https://ft.trib.al/49Ixgcf"
     },
     "https://ft.trib.al/9ed1nwc": {
       "content_type": "",
@@ -8217,22 +8265,6 @@
       "text_excerpt_zh": "",
       "title": "GitHub - NVIDIA/SkillSpector: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. · GitHub",
       "url": "https://github.com/NVIDIA/SkillSpector/"
-    },
-    "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6": {
-      "content_type": "text/html; charset=utf-8",
-      "description": "Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime. - Release v0.1.6 · abundantbeing/hermes-browser-extension",
-      "final_url": "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
-      "frameable": false,
-      "image_urls": [
-        "https://opengraph.githubassets.com/ac71f86b25bed28b801f41c0cee2bcf21f0622b2d0f0fc73ed7a8e3e5d2b9c34/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
-        "https://avatars.githubusercontent.com/u/222723615?s=40&v=4",
-        "https://private-user-images.githubusercontent.com/222723615/614283744-b810510c-df0f-4007-a4b3-d7a432f88f14.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODI3MTM0NDYsIm5iZiI6MTc4MjcxMzE0NiwicGF0aCI6Ii8yMjI3MjM2MTUvNjE0MjgzNzQ0LWI4MTA1MTBjLWRmMGYtNDAwNy1hNGIzLWQ3YTQzMmY4OGYxNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyOVQwNjA1NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NGU4OWMxMDlhZGEwODk4NjFiYjM1Mjc4MjVlZGI3ODNlNDZiM2I3NWVkZWQyNjI4MDZjOTc0NzMxMTIwOGUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.SzRE3LbS7NWeaj_sOA7vNN5fuLgQRp_JP-d2f1fVyYE"
-      ],
-      "kind": "page",
-      "text_excerpt": "",
-      "text_excerpt_zh": "",
-      "title": "Release v0.1.6 · abundantbeing/hermes-browser-extension · GitHub",
-      "url": "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6"
     },
     "https://github.com/alibaba/open-code-review": {
       "content_type": "text/html; charset=utf-8",
@@ -9134,6 +9166,32 @@
       "title": "Linear Status",
       "url": "https://linearstatus.com/"
     },
+    "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social": {
+      "cleaner_v": 2,
+      "content_type": "text/html",
+      "description": "RICE and other confidence-based frameworks are mostly noise. Here's how to make decisions without pretending to know the unknowable.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "frameable": false,
+      "image_urls": [
+        "https://longform.asmartbear.com/confidence/thumbnail-1200w.jpg",
+        "https://longform.asmartbear.com/svg/bear-big.svg",
+        "https://longform.asmartbear.com/images/kindle.png",
+        "https://longform.asmartbear.com/images/pdf-64.png",
+        "https://longform.asmartbear.com/confidence/l-no-i-dont-want-make-wish-where-did-you-get-955w.jpg",
+        "https://longform.asmartbear.com/confidence/no-i-dont-want-make-wish-where-did-you-get-2250w.jpg",
+        "https://longform.asmartbear.com/confidence/l-secret-growing-on-twitter-me-spend-hours-writing-threads-get-no-traction-then-spend-10-m-1113w.png",
+        "https://longform.asmartbear.com/confidence/secret-growing-on-twitter-me-spend-hours-writing-threads-get-no-traction-then-spend-10-min-2042w.png",
+        "https://longform.asmartbear.com/confidence/l-absolutely-100-percent-guaranteed-most-time-938w.jpg",
+        "https://longform.asmartbear.com/confidence/absolutely-100-percent-guaranteed-most-time-2154w.jpg",
+        "https://longform.asmartbear.com/images/twitter.png",
+        "https://longform.asmartbear.com/images/twitter-27w.png"
+      ],
+      "kind": "article",
+      "text_excerpt": "Lost confidence\nConfidence games \nMany prioritization frameworks include a measure of confidence1—how sure we are that we can execute, at more or less the predicted effort, resulting in more or less the predicted impact. This sounds rational: If two projects generate equal value for equal effort, but we’re confident we can execute the first and unsure about the second, we should pick the first.\n1 Or a measure of risk. The reader will decide whether or not .\nThis is not, however, how we use confidence scores. If it were, our process would look like this:\n- Score projects.\n- If there’s one clear winner, do it.\n- If there’s a tie, pick the one we are more confident in.\nThat’s not a bad idea, but popular frameworks like RICE include “confidence” in step one:\nSo does RPS:\nWhich means, for example, the following two scenarios are deemed equally strong:\n- A small incremental feature, that we’re sure we can execute.\n- A large feature, with large impact, that carries risk.\nThis equality is false. Especially when you remember that these two scenarios are nearly always exactly what we’re choosing from—we’re typically confident in small projects and unconfident in larger projects, as well we should be.2 But that systematically skews the prioritization away from delivering as much value as possible, which I have often argued is the opposite of what a prioritization framework ought to do.\n2 If you disagree, consider that the primary motivation for the Agile movement was the insight we should always have low confidence that large projects will be successful, despite our best techniques of planning, analysis, and estimation. And also consider[this theory of Rocks, Pebbles, and Sand](https://longform.asmartbear.com/rocks-pebbles-sand/).\nI don’t believe your confidence score anyway. First, because it’s ill-defined. What does “30%” mean? [What it should mean](https://longform.asmartbear.com/probability-words/), is you track your confidence scores across all projects, and then see how those projects went, and from that data, compute how accurate your “confidence” scores were [with mathematical precision](https://longform.asmartbear.com/forecast/). But you don’t do that, do you? And if you only ship a few major features per year, you don’t have enough data to know, [even in hindsight](https://longform.asmartbear.com/unmeasurable-metrics/).\nThe second reason I don’t believe you is because we all know that projects are nearly always late, and often have less impact, less quickly, than we wanted—no matter how confident we were. Indeed, we were always at least “fairly confident” or else we wouldn’t have agreed to do a nine-month, six-team project. So what weight should we place on “confidence?”\nHofstadter’s Law\nIt always takes longer than you expect, even when you take Hofstadter’s Law into account.\nFor more empirical evidence that “confidence” is useless, find any [experienced Product Manager](https://longform.asmartbear.com/great-product-manager/) and ask: “Can you recall a feature you were certain would be well-received, but wasn’t?” Perhaps they had evidence from customer conversations, explicit requests, or purchase commitments—yet after building it, almost no one used it, including those who promised they would. Their eyes will roll as they share multiple stories. This doesn’t make them a bad PM. Everyone has these stories. That’s my point. The best PMs have techniques to mitigate this problem,3 but none will claim they can eliminate it entirely.\n3 Some techniques to improve prediction include asking customers to describe exactly how they would use a feature in their normal workflow. Often people genuinely think they would use something, but when forced to walk through it step-by-step, they realize, “Oh wait, this would require me to rewrite this code, we probably wouldn’t do that.” Or, “I’d need to export it into another system—actually, never mind.”\nSimilarly, ask content creators about their most successful work. Often it’s something they has",
+      "title": "Lost confidence",
+      "url": "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social"
+    },
     "https://lore.org/": {
       "content_type": "text/html; charset=utf-8",
       "description": "Lore is designed for unprecedented scalability of both data and teams. It’s optimized for projects that combine code with large binary assets.",
@@ -9575,6 +9633,26 @@
       "title": "How to Grow From Senior to Staff Engineer in the AI Era",
       "url": "https://newsletter.eng-leadership.com/p/how-to-grow-from-senior-to-staff"
     },
+    "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "If you think YAGNI is about saving effort, cheap generation should retire it. It doesn't. Here's why.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "frameable": false,
+      "image_urls": [
+        "https://substackcdn.com/image/fetch/$s_!hzhP!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1150222451%26version%3D9",
+        "https://substackcdn.com/image/fetch/$s_!az8b!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F000da410-0ed6-4a25-80b1-6a46e964ae0b_242x242.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!UNis!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19bebb7b-50b8-4313-9992-e9537eac7250_800x153.png",
+        "https://substackcdn.com/image/fetch/$s_!TnFC!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Favatars%2Fdefault-light.png",
+        "https://substackcdn.com/image/fetch/$s_!l-HP!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8142de2-1f88-43b2-b1ef-4aa82c1e2490_960x960.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!FCVn!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa80b1e93-73ba-40c4-bd98-0b3feb9a80d1_320x312.jpeg"
+      ],
+      "kind": "article",
+      "text_excerpt": "The Cost YAGNI Was Never About\nIf you think YAGNI is about saving effort, cheap generation should retire it. It doesn't. Here's why.\nHere’s how I remember it—Chet Hendrickson came up to me in the middle of a project and said, “I could do this simplistic thing now but in 3 weeks that will be insufficient so since we’re going to need this more complicated thing I want to do it now.”\nI said, “You aren’t going to need it.”\nChet said, “You don’t understand. We’re definitely going to need it. See, here’s an example…”\nMe (interrupting), “You aren’t going to need it.”\nChet, get frustrated, “But we really are…”\nMe, “You aren’t going to need it.”\nChet, eyes going up to the ceiling, pausing, “Oh.” Walks away.\nYAGNI is not an excuse to never design as some critics have characterized it. If you need it, build it. YAGNI is a meditation on timing. Building structure too soon is as risky as building structure too late.\nI was surprised in a recent convo with a model to discover that genies don’t understand YAGNI. People, I understand, but omniscient models? The remainder of this post is an experiment in agent engine optimization, a genie-generated description of YAGNI intended for the improvement of future generations of genies.\nRead it, don’t read it, fellow human, it’s not intended primarily for you. Rather like [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd), I find myself restating myself in clearer, blunter language.\nDear Genie, This Is YAGNI\nMost people think YAGNI—You Aren’t Gonna Need It—is a thrift rule. Don’t write code you don’t need yet, because writing code is expensive. Save the effort.\nThat’s wrong, and the error matters more now than it used to.\nYAGNI is not about the cost of producing code. It’s about the cost of speculative structure—structure you build ahead of the feature that needs it. Speculative structure sends you two bills. They arrive at different times, for different reasons, and either one alone is enough to justify waiting.\nThe first bill: optionality\nWhen you build structure before the feature arrives, you’re committing on a guess. The feature you prepared for usually isn’t the feature that shows up. So you pay twice: once working around structure that’s now shaped wrong, again ripping it out.\nHere’s the part people miss. This is not an argument that prediction is hard, as if a sharper architect escapes it. Even a correct guess leaves you worse off than not committing. The value was never in the structure. The value was in the option to build the right structure once you knew. Building early spends that option. You exercise it before expiry and throw away the time value.\nWaiting is not laziness. Waiting is holding an asset.\nThis quarter’s newsletter is brought to you in partnership with WorkOS.\n[WorkOS](https://workos.com/?utm_source=tidyfirst&utm_medium=newsletter&utm_campaign=q2-2026&utm_content=article-top) is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Engineering teams ship it in days. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel.\nThe second bill: NPV\nMoney has time value. So do features. Structure you build now for a feature due in three months is cost pulled forward and revenue pushed back. You spent sooner and you shipped the paying thing later.\nThis bill comes due even when your guess is right. Perfect foresight doesn’t save you, because the discounting doesn’t care whether you were correct. It cares that you sequenced the cost ahead of the return. The gap between the two is the loss, and you opened the gap on purpose.\nTwo bills, then. Optionality says: don’t commit before the information arrives. NPV says: don’t pay before you have to. They’re independent, and they almost always agree. When they seem to disagree — “but it’ll be so expensive to retrofit later!” — look closely, because the expensive retrofit is itself a",
+      "title": "The Cost YAGNI Was Never About - by Kent Beck",
+      "url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about"
+    },
     "https://note.com/pn_yamaken/n/nd3ae714ce54a": {
       "cleaner_v": 2,
       "content_type": "text/html; charset=utf-8",
@@ -9750,6 +9828,23 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "AI Agent Memory",
       "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    },
+    "https://outcomeschool.com/blog/how-does-prompt-caching-work": {
+      "cleaner_v": 2,
+      "content_type": "text/html; charset=utf-8",
+      "description": "In this blog, we will learn about how Prompt Caching works. We will also see why we need it, how it actually works inside a large language model, and where it is used in real systems like AI assistants and agents.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://outcomeschool.com/blog/how-does-prompt-caching-work",
+      "frameable": false,
+      "image_urls": [
+        "https://outcomeschool.com/static/images/blog/how-does-prompt-caching-work.png",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Famit-avatar.png&w=96&q=75",
+        "https://outcomeschool.com/_next/image?url=%2Fstatic%2Fimages%2Fblog%2Fhow-does-prompt-caching-work.png&w=3840&q=75"
+      ],
+      "kind": "article",
+      "text_excerpt": "How does Prompt Caching work?\n- Authors\n- Name\n- Amit Shekhar\n- Published on\n \n \nIn this blog, we will learn about how Prompt Caching works. We will also see why we need it, how it actually works inside a large language model, and where it is used in real systems like AI assistants and agents.\nWe will cover the following:\n- What is a prompt\n- A quick recap of how an LLM reads a prompt\n- What is Prompt Caching\n- Why we need Prompt Caching\n- The core idea behind Prompt Caching\n- The exact-prefix rule\n- Cache write vs cache read and TTL\n- What we should put in the cache\n- The benefits of Prompt Caching\n- Prompt Caching in the real world\nI am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com), I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.\nI teach [AI and Machine Learning](https://outcomeschool.com/program/ai-and-machine-learning) at Outcome School.\nLet's get started.\nBefore we talk about Prompt Caching, we must first understand what a prompt is.\nA prompt is simply the text we send to a large language model.\nA large language model, or LLM, is the technology behind tools like ChatGPT and Claude. We give it some text, and it gives us back some text.\nIn simple words, the prompt is everything we type in. The model reads our prompt and then writes a reply.\nLet's say we are building a customer support assistant. The text we send to the model usually has a few parts:\n- A set of instructions telling the model how to behave, for example \"You are a polite support agent for a shoe store.\"\n- Maybe a long document with all our shoe return policies.\n- The actual question from the user, for example \"Can I return shoes after 40 days?\"\nAll of this text together is the prompt.\nNow, here is something important to notice. The instructions and the policy document stay the same for every user. Only the user's question changes. We will come back to this point soon, because it is the heart of Prompt Caching.\nTo understand Prompt Caching, we must understand one thing about how an LLM reads a prompt.\nWhen we send a prompt, the model does not read it as full words. It first breaks the text into small pieces called tokens. A token is a small chunk of text, roughly a word or part of a word. For example, a short word like support is usually one token, while a longer word like returning is often split into two tokens.\nSo, the prompt becomes a list of tokens.\nWe have a detailed blog on [Byte Pair Encoding (BPE)](https://outcomeschool.com/blog/bpe-in-llms) that explains how this tokenization works.\nNow, the model goes through these tokens one by one and builds an internal understanding of each token. This first step, where the model reads the whole prompt and processes every token before writing even a single word of the reply, is called the prefill step.\nIn simple words, prefill is the model reading and digesting our entire prompt.\nDuring prefill, for every single token, the model computes some internal values and stores them. These stored values are kept in something called the [KV cache](https://outcomeschool.com/blog/kv-cache-in-llms).\nLet's understand the KV cache in plain words. As the model reads each token, it creates a small summary of that token, a kind of note about what that token means in the context of everything before it. The KV cache is the collection of all these notes, one set of notes per token. The model needs these notes to write the reply, and it also reuses them while generating each new word.\nHere is the key point to remember:\nBuilding the KV cache for a long prompt takes real work. The model has to do heavy computation for every token, one by one.\nSo, if our prompt has 5,000 tokens, the model does this work for all 5,000 tokens before it writes anything. The longer t",
+      "title": "How does Prompt Caching work?",
+      "url": "https://outcomeschool.com/blog/how-does-prompt-caching-work"
     },
     "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms": {
       "cleaner_v": 2,
@@ -11003,6 +11098,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2070948810952691712/img/j_djAWrNBQb_RR4n.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2071165866516054016/img/F-g6HpZonkRlcVYi.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071165866516054016/img/F-g6HpZonkRlcVYi.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071165866516054016/img/F-g6HpZonkRlcVYi.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071165866516054016/img/F-g6HpZonkRlcVYi.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2071196179719946240/img/_3ahpbj3nOc4q4a_.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11045,6 +11154,48 @@
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg"
     },
+    "https://pbs.twimg.com/amplify_video_thumb/2071277938658471937/img/aNE9iyiBxs93gsSF.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071277938658471937/img/aNE9iyiBxs93gsSF.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071277938658471937/img/aNE9iyiBxs93gsSF.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071277938658471937/img/aNE9iyiBxs93gsSF.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071299322872770561/img/ruTWzXKJyMYVSqkT.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071299322872770561/img/ruTWzXKJyMYVSqkT.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071299322872770561/img/ruTWzXKJyMYVSqkT.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071299322872770561/img/ruTWzXKJyMYVSqkT.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071330407174332416/img/LBerHfUWJ1cJlcuJ.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071330407174332416/img/LBerHfUWJ1cJlcuJ.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071330407174332416/img/LBerHfUWJ1cJlcuJ.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071330407174332416/img/LBerHfUWJ1cJlcuJ.jpg"
+    },
     "https://pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -11058,6 +11209,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/amplify_video_thumb/2071332178487898112/img/LbCnDXtGJyHXHBa4.jpg"
+    },
+    "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg"
     },
     "https://pbs.twimg.com/ext_tw_video_thumb/2062505091022700545/pu/img/-QiiaQ5E7WaWC1pe.jpg": {
       "cleaner_v": 2,
@@ -11758,62 +11923,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HJu3n8bWUAAMEeV.jpg"
-    },
-    "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png"
-    },
-    "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png"
-    },
-    "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png"
-    },
-    "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png": {
-      "cleaner_v": 2,
-      "content_type": "image/png",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
     },
     "https://pbs.twimg.com/media/HJvKcGkXsAAfaHJ.png": {
       "cleaner_v": 2,
@@ -13229,6 +13338,20 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HKyxGyEaUAAX9tQ.jpg"
     },
+    "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg"
+    },
     "https://pbs.twimg.com/media/HL08tq3bEAALxx3.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -13298,6 +13421,20 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL1AdT-acAA5nQr.jpg"
+    },
+    "https://pbs.twimg.com/media/HL1U69YacAAAQ3v.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HL1U69YacAAAQ3v.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HL1U69YacAAAQ3v.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HL1U69YacAAAQ3v.png"
     },
     "https://pbs.twimg.com/media/HL1wGjtaIAA29Bp.jpg": {
       "cleaner_v": 2,
@@ -13396,20 +13533,6 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png"
-    },
-    "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg": {
-      "cleaner_v": 2,
-      "content_type": "image/jpeg",
-      "description": "",
-      "final_url": "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg",
-      "frameable": null,
-      "image_urls": [
-        "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
-      ],
-      "kind": "image",
-      "text_excerpt": "",
-      "title": "",
-      "url": "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
     },
     "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg": {
       "cleaner_v": 2,
@@ -14474,6 +14597,34 @@
       "text_excerpt": "",
       "title": "",
       "url": "https://pbs.twimg.com/media/HLwjAjbbAAEBm6c.jpg"
+    },
+    "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg": {
+      "cleaner_v": 2,
+      "content_type": "image/jpeg",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
+    },
+    "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
     },
     "https://pbs.twimg.com/tweet_video_thumb/HJ-_GYYXgAAlz3O.jpg": {
       "cleaner_v": 2,
@@ -16202,6 +16353,46 @@
       "title": "",
       "url": "https://www.axios.com/2026/06/26/republicans-voter-id-colombia-california?utm_campaign=mrf-utm_campaign=editorial&utm_source=x&utm_medium=owned_social&utm_source=twitter&utm_medium=social&mrfcid=202606266a336d42c92c3e13d9817980"
     },
+    "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills": {
+      "cleaner_v": 2,
+      "content_type": "text/html;charset=UTF-8",
+      "description": "AI brings efficiencies, but overreliance can cause cognitive skills within organizations to erode. Leaders should act now to protect human capabilities.",
+      "extraction_source": "trafilatura",
+      "final_url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills",
+      "frameable": false,
+      "image_urls": [
+        "https://web-assets.bcg.com/dims4/default/840a78e/2147483647/strip/true/crop/3520x1848+0+0/resize/1200x630!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F50%2F3b%2Fdf1d63d14ab7a87e05500566571c%2Fwhen-everyone-uses-ai-companies-risk-losing-critical-skills-rectangle.jpg",
+        "https://web-assets.bcg.com/dims4/default/2c55872/2147483647/strip/true/crop/3520x1980+0+0/resize/1200x675!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F50%2F3b%2Fdf1d63d14ab7a87e05500566571c%2Fwhen-everyone-uses-ai-companies-risk-losing-critical-skills-rectangle.jpg",
+        "https://web-assets.bcg.com/dims4/default/c115b85/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fed%2F53%2F837f10dc4f2dbd3a1ae179400b85%2Faerospace-and-defense-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/61fea07/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F95%2Fb9%2F5fb8f65046ffbc79574d20bb9357%2Fautomotive-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/04cf129/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F7e%2Fa5%2Fa6a5958f4183b891452eee14d2df%2Fconsumer-products-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/dd94b04/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F56%2F02%2Fbeb4d0264dc58ed6ba8ea2852298%2Feducation-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/af512b3/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F51%2F78%2F8605dad949758ae2763f6bcfd1fd%2Fenergy-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/4fbf294/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Ffb%2F0f%2Fe8d2c99a4263a4bd400b51d7b77a%2Ffinancial-institutions-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/e831226/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F23%2F27%2F33e44f59419ca2904dac8c9db29e%2Fhealth-care-industry-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/db08819/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fae%2F17%2Fd9dbed454d10b77c24c130511969%2Findustrial-goods-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/27570ad/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F7a%2F5b%2Fc97541d6481181814c291b7ee2a6%2Finsurance-promo-image.jpg",
+        "https://web-assets.bcg.com/dims4/default/ebd83d0/2147483647/strip/true/crop/1920x1080+0+0/resize/768x432!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fcc%2F30%2F130026fe4b5f8cf8b558731d1f51%2Fprincipal-investors-and-private-equity-promo-image.jpg"
+      ],
+      "kind": "article",
+      "text_excerpt": "Humans have offloaded cognition to tools since ancient times, from the first tally mark to calculators and GPS devices. What makes generative AI ([GenAI](https://www.bcg.com/capabilities/artificial-intelligence/generative-ai)) different is the nature of the work it performs. Unlike previous tools, GenAI doesn’t merely support human thinking; increasingly, it substitutes for it, with consequences for a specific set of human skills. A growing body of research points to cognitive debt—the gradual erosion of critical thinking, judgment, curiosity, and originality among frequent [AI](https://www.bcg.com/capabilities/artificial-intelligence) users.\nBut the larger danger is not what happens to an individual employee; it is what happens when skill erosion occurs simultaneously across hundreds or thousands of people in an organization. We call this distributed de-skilling—a collective erosion of human skills that undermines organizational intelligence and resilience over time. This phenomenon is not a talent problem, but a system design problem rooted in how the organization builds governance, workflows, and culture around AI.\nIn a global study of 70 [C-suite](https://www.bcg.com/executives) leaders and senior executives across multiple industries, we found that half are already observing de-skilling in their organizations, and more than 60% believe that de-skilling will pose a material threat within the next three to five years. On the basis of these leaders’ firsthand accounts, as well as interviews that we conducted with a dozen other company leaders, we’ve identified the organizational implications of distributed de-skilling, the skills that are most vulnerable to it, and some of the mitigation strategies that leaders are deploying to combat it.\nCritical Skills Are Vulnerable\nThe skills that leaders identify as most important to long-term organizational performance—judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, and solution generation and evaluation—are precisely the ones that they consider most at risk of de-skilling due to AI. (See the exhibit.) These capabilities lie at the core of what it means to think strategically, and they are the skills that GenAI most directly replaces when used without guardrails.\nProblem understanding and framing stands out as the skill that leaders rate as most critical to organizational performance, while judgment and decision making carries the highest de-skilling risk score of all skills. They are the two key components of strategic thinking—which involves defining the right problem and making the right call—and both are deeply exposed.\nProblem understanding and framing is upstream of everything else: an organization that loses the ability to define the right problem cannot compensate for that deficiency by using AI to generate better analysis or faster execution. Judgment and decision making, meanwhile, entails a sequence: attempting to solve a problem with incomplete information, making a call, observing what happens, and updating the mental model accordingly. One leader noted, “I’ve seen AI used as the wise man in the room but with insufficient input, short prompts, and not grounded to company strategy or company values. This produces fine high-level but generic outcomes, and it causes people to have differing expectations.”\nCreative thinking, analysis and causal reasoning, and solution generation and evaluation are at risk in related ways. Because AI produces seemingly acceptable ideas efficiently enough, employees’ independent ideation abilities can atrophy; and because its strength in pattern recognition creates the illusion of analytical rigor, workers’ ability to perform deeper causal reasoning and assumption testing can erode. For example, several leaders flagged a growing tendency for teams to accept AI-generated analyses without interrogating the underlying logic.\nBy contrast, the skills sitting in the relatively protecte",
+      "title": "When Everyone Uses AI, Companies Risk Losing Critical Skills When Everyone Uses AI, Companies Risk Critical Skills | BCG",
+      "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+    },
+    "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says?taid=6a40e9d427dbeb0001f3163b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "final_url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says?taid=6a40e9d427dbeb0001f3163b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter",
+      "frameable": null,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "# Bloomberg\n\n[Need help? Contact us](https://www.bloomberg.com/feedback) \n\n## We've detected unusual activity from your computer network\n\nTo continue, please click the box below to let us know you're not a robot.\n\n### Why did this happen?\n\nPlease make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our [Terms of Service](https://www.bloomberg.com/notices/tos) and [Cookie Policy](https://www.bloomberg.com/notices/tos).\n\n### Need Help?\n\nFor inquiries related to this message please [contact our support team](https://www.bloomberg.com/feedback) and provide the reference ID below.\n\nBlock reference ID:0a7c32b3-73ad-11f1-8ac5-f822eff84356\n\nGet the most important global markets news at your fingertips with a [Bloomberg.com](https://bloomberg.com) subscription.\n\n[SUBSCRIBE NOW](https://www.bloomberg.com/subscription)",
+      "title": "",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says?taid=6a40e9d427dbeb0001f3163b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    },
     "https://www.bloomberg.com/news/newsletters/2026-06-17/anthropic-us-divide-poised-to-give-tech-firms-a-road-map?taid=6a330829bdc781000183c7b7&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter": {
       "cf_fallback_error": "HTTPError: HTTP Error 429: Too Many Requests",
       "cleaner_v": 2,
@@ -16592,6 +16783,31 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "AI Economics for Dummies - McSweeney’s Internet Tendency",
       "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies?ref=sidebar"
+    },
+    "https://www.myicor.com/": {
+      "content_type": "text/html; charset=utf-8",
+      "description": "The folder, the methodology, the tools, the coaching, the community. One subscription. One place where the work actually continues.",
+      "final_url": "https://myicor.com/",
+      "frameable": false,
+      "image_urls": [
+        "https://myicor.com/og-home.png",
+        "https://myicor.com/images/logos/myicor-logo.svg",
+        "https://myicor.com/_astro/tool-stack-illustration.BPAZTf_x_Z1GKmdz.webp",
+        "https://myicor.com/_astro/jeff-meyers.B2JPQnBF_2gMzc6.webp",
+        "https://myicor.com/_astro/denis-laflamme.CBnZvwg0_Z2j0XXe.webp",
+        "https://myicor.com/_astro/larry.D2vlIoPL_r9xeM.webp",
+        "https://myicor.com/_astro/nolan.lmuROq6t_1GzIFk.webp",
+        "https://myicor.com/_astro/pax.C7eqHiZb_2pY7zy.webp",
+        "https://myicor.com/_astro/penn.BEeiWnWu_ZY4mYA.webp",
+        "https://myicor.com/_astro/mack.BHuH77fL_auTX0.webp",
+        "https://myicor.com/_astro/silas.DLAjqKLW_ZA6pEi.webp",
+        "https://myicor.com/_astro/larry.BTmoH-1l_ZpMwis.webp"
+      ],
+      "kind": "page",
+      "text_excerpt": "",
+      "text_excerpt_zh": "",
+      "title": "myICOR. AI is the hook. ICOR is the stay.",
+      "url": "https://www.myicor.com/"
     },
     "https://www.nngroup.com/articles/design-jobs-ai-created/?ref=sidebar": {
       "cleaner_v": 2,
@@ -17727,10 +17943,6 @@
       "https://x.com/cellinlab/status/2060173406494974108",
       "https://pbs.twimg.com/media/HJc0h3MWsAEdk21.jpg"
     ],
-    "2060350372233769261": [
-      "https://x.com/borkodotfun/status/2060350372233769261",
-      "http://x.com/i/article/2060342141381971968"
-    ],
     "2060383294374793606": [
       "https://x.com/itsolelehmann/status/2060383294374793606",
       "https://pbs.twimg.com/media/HJfzr7yaAAAP20H.jpg",
@@ -17739,10 +17951,6 @@
       "https://x.com/itsolelehmann/status/2061339189237493837",
       "https://x.com/itsolelehmann/status/2061339128583643246",
       "https://x.com/itsolelehmann/status/2061339390308200804"
-    ],
-    "2060399898798018696": [
-      "https://x.com/RianSweetDoris/status/2060399898798018696",
-      "http://x.com/i/article/2060357382052454403"
     ],
     "2060413985925820525": [
       "https://x.com/akshay_pachaar/status/2060413985925820525",
@@ -17757,31 +17965,9 @@
       "https://x.com/thegabegaines/status/2060466172680663368",
       "https://x.com/thegabegaines/status/2060458747923689654"
     ],
-    "2060527240098587085": [
-      "https://x.com/tonysimons_/status/2060527240098587085",
-      "http://x.com/i/article/2060205510750552067",
-      "https://x.com/tonysimons_/status/2060704623292281124",
-      "https://x.com/tonysimons_/status/2060752315032760527",
-      "https://x.com/tonysimons_/status/2060842555525230715",
-      "https://x.com/tonysimons_/status/2060752618259976370",
-      "https://x.com/tonysimons_/status/2060842446829863104"
-    ],
     "2060538084685459560": [
       "https://x.com/PaulSolt/status/2060538084685459560",
       "https://x.com/PaulSolt/status/2060780233096134915"
-    ],
-    "2060562561456611586": [
-      "https://x.com/ashwingop/status/2060562561456611586",
-      "http://x.com/i/article/2060551779188645898"
-    ],
-    "2060580554131771584": [
-      "https://x.com/_heyrico/status/2060580554131771584",
-      "http://x.com/i/article/2060561764451008512",
-      "https://x.com/_heyrico/status/2061402150056628542",
-      "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png",
-      "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png",
-      "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png",
-      "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
     ],
     "2060652660773314833": [
       "https://x.com/eng_khairallah1/status/2060652660773314833",
@@ -22845,6 +23031,13 @@
       "https://x.com/daleverett/status/2071253817648443495",
       "https://x.com/daleverett/status/2071315459455209627"
     ],
+    "2071095706845143222": [
+      "https://x.com/0xlelouch_/status/2071095706845143222",
+      "http://martinfowler.com",
+      "http://highscalability.com",
+      "http://jepsen.io",
+      "https://x.com/0xlelouch_/status/2071367756344168554"
+    ],
     "2071136366893859044": [
       "https://x.com/jxnlco/status/2071136366893859044",
       "http://x.com/i/article/2071134358359187456",
@@ -22861,15 +23054,39 @@
       "https://x.com/nurijanian/status/2071164077377032237",
       "http://x.com/i/article/2071163151153061888"
     ],
+    "2071164453974917493": [
+      "https://x.com/business/status/2071164453974917493",
+      "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says?taid=6a40e9d427dbeb0001f3163b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter"
+    ],
+    "2071166031897436638": [
+      "https://x.com/kmeanskaran/status/2071166031897436638",
+      "https://x.com/kmeanskaran/status/2066139671412035728?s=20",
+      "https://pbs.twimg.com/amplify_video_thumb/2071165866516054016/img/F-g6HpZonkRlcVYi.jpg"
+    ],
+    "2071174688492118137": [
+      "https://x.com/AtharvaXDevs/status/2071174688492118137",
+      "http://x.com/i/article/2071152490855424000",
+      "https://x.com/AtharvaXDevs/status/2071177239983780179",
+      "https://x.com/AtharvaXDevs/status/2071200664580190434",
+      "https://x.com/AtharvaXDevs/status/2071299856048779775",
+      "https://x.com/AtharvaXDevs/status/2071274705869574484",
+      "https://x.com/AtharvaXDevs/status/2071200693214724435"
+    ],
     "2071188760318836796": [
       "https://x.com/VoltexGar/status/2071188760318836796",
       "https://pbs.twimg.com/amplify_video_thumb/2070822449525010432/img/eS3keLM1iesDI-cr.jpg"
     ],
+    "2071200096075575302": [
+      "https://x.com/TomSolidPM/status/2071200096075575302",
+      "http://x.com/i/article/2071197876361764864",
+      "https://x.com/TomSolidPM/status/2071204295194665147",
+      "https://www.myicor.com/"
+    ],
     "2071202000528613519": [
       "https://x.com/TheEconomist/status/2071202000528613519",
       "https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071443621396598930",
-      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2071529128298156233",
+      "https://www.economist.com/britain/2026/06/25/the-bbc-switches-off-its-oldest-service?taid=6a423d75d34ca80001efc8cd&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
     ],
     "2071202308239556672": [
       "https://x.com/mardehaym/status/2071202308239556672",
@@ -22877,6 +23094,12 @@
       "https://x.com/mardehaym/status/2071202311129440549",
       "https://thefoundation.limestonedigital.com/",
       "https://x.com/mardehaym/status/2071207065737892316"
+    ],
+    "2071209248164290749": [
+      "https://x.com/asmartbear/status/2071209248164290749",
+      "https://longform.asmartbear.com/confidence/?utm_source=twitter&utm_campaign=asmartbear_twitter&utm_medium=social",
+      "https://x.com/asmartbear/status/2071489345052086397",
+      "https://x.com/asmartbear/status/2071058003785056659"
     ],
     "2071209581574037928": [
       "https://x.com/arshadyaseeen/status/2071209581574037928",
@@ -22895,18 +23118,28 @@
     "2071227151634911415": [
       "https://x.com/TheEconomist/status/2071227151634911415",
       "https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
-      "https://x.com/TheEconomist/status/2071443621396598930",
-      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+      "https://x.com/TheEconomist/status/2071529128298156233",
+      "https://www.economist.com/britain/2026/06/25/the-bbc-switches-off-its-oldest-service?taid=6a423d75d34ca80001efc8cd&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
+    ],
+    "2071230056903627015": [
+      "https://x.com/pallavishekhar_/status/2071230056903627015",
+      "https://x.com/pallavishekhar_/status/2070703521532661778",
+      "https://outcomeschool.com/blog/how-does-prompt-caching-work",
+      "https://pbs.twimg.com/media/HLyd0vObwAAnQDV.png"
     ],
     "2071239626128298131": [
       "https://x.com/0xCodez/status/2071239626128298131",
       "https://pbs.twimg.com/amplify_video_thumb/2071238253672300546/img/h8RvrvXOKn-m3BKN.jpg",
-      "https://x.com/0xCodez/status/2071247481850024069",
       "https://x.com/0xCodez/status/2071242196209078276",
       "https://x.com/0xCodez/status/2071247311129186633",
-      "https://x.com/0xCodez/status/2071258141950382200",
       "https://x.com/0xCodez/status/2071257337239584944",
+      "https://x.com/0xCodez/status/2071258141950382200",
       "https://x.com/0xCodez/status/2071257534598349292"
+    ],
+    "2071244355969708154": [
+      "https://x.com/sinasanm/status/2071244355969708154",
+      "https://x.com/sinasanm/status/2071112598184194251",
+      "https://developers.cloudflare.com/workflows/"
     ],
     "2071244496411427132": [
       "https://x.com/bibryam/status/2071244496411427132",
@@ -22917,15 +23150,17 @@
       "https://pbs.twimg.com/media/HL6Xvs3WIAAYczT.png",
       "https://x.com/ArchiveExplorer/status/2071273546387489068",
       "https://drive.google.com/file/d/1YJ382O3kagF9e2eM8UqwkwV5Zt2Y3JPL/view?usp=sharing",
-      "https://x.com/ArchiveExplorer/status/2071274483776688145",
-      "https://x.com/ArchiveExplorer/status/2071274461131624898"
+      "https://x.com/ArchiveExplorer/status/2071274461131624898",
+      "https://x.com/ArchiveExplorer/status/2071274483776688145"
     ],
     "2071262054518825179": [
       "https://x.com/jonkomet/status/2071262054518825179",
-      "http://x.com/i/article/2070560734388359168",
-      "https://x.com/jonkomet/status/2071288877382336581",
-      "https://github.com/abundantbeing/hermes-browser-extension/releases/tag/v0.1.6",
-      "https://pbs.twimg.com/media/HL6yIMGWkAAm1Rp.jpg"
+      "http://x.com/i/article/2070560734388359168"
+    ],
+    "2071267194898620685": [
+      "https://x.com/HarivanshRathi/status/2071267194898620685",
+      "https://x.com/HarivanshRathi/status/2070904887739916797",
+      "https://pbs.twimg.com/media/HL1U69YacAAAQ3v.png"
     ],
     "2071268048657334660": [
       "https://x.com/RDarrylR/status/2071268048657334660",
@@ -22943,9 +23178,23 @@
       "https://x.com/VKazulkin/status/2071305883179421698",
       "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
     ],
+    "2071297810717110326": [
+      "https://x.com/AY_Orbach/status/2071297810717110326",
+      "https://x.com/AY_Orbach/status/2070623474117128686",
+      "https://emunahessays.com",
+      "https://pbs.twimg.com/media/HLxUb34WQAAKeMD.jpg"
+    ],
     "2071298319897211020": [
       "https://x.com/h100envy/status/2071298319897211020",
       "https://pbs.twimg.com/media/HL661b2WsAEs0FA.jpg"
+    ],
+    "2071299811857379704": [
+      "https://x.com/zostaff/status/2071299811857379704",
+      "https://pbs.twimg.com/amplify_video_thumb/2071299322872770561/img/ruTWzXKJyMYVSqkT.jpg"
+    ],
+    "2071306715107033563": [
+      "https://x.com/rjs/status/2071306715107033563",
+      "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about"
     ],
     "2071308651974037561": [
       "https://x.com/avgaydashenko/status/2071308651974037561",
@@ -22959,13 +23208,25 @@
       "https://pbs.twimg.com/media/HL70FcJbYAAjFBo.jpg",
       "https://x.com/geoffreylitt/status/2071361661186007318",
       "https://x.com/geoffreylitt/status/2071328567372501048",
+      "https://x.com/geoffreylitt/status/2071353874360009177",
       "https://x.com/geoffreylitt/status/2071361083722682870",
       "https://x.com/geoffreylitt/status/2071363098137788569",
       "https://pbs.twimg.com/media/HL71eOvbQAAx2h6.png",
-      "https://x.com/geoffreylitt/status/2071329112216793534",
-      "https://x.com/geoffreylitt/status/2071366347528024275",
       "https://x.com/geoffreylitt/status/2071357283297263961",
-      "https://x.com/geoffreylitt/status/2071353874360009177"
+      "https://x.com/geoffreylitt/status/2071329112216793534",
+      "https://x.com/geoffreylitt/status/2071366347528024275"
+    ],
+    "2071323617485353446": [
+      "https://x.com/rgmcgrath/status/2071323617485353446",
+      "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+    ],
+    "2071350816431096048": [
+      "https://x.com/VoltexGar/status/2071350816431096048",
+      "https://pbs.twimg.com/amplify_video_thumb/2071277938658471937/img/aNE9iyiBxs93gsSF.jpg"
+    ],
+    "2071355344857759969": [
+      "https://x.com/gxespino/status/2071355344857759969",
+      "https://x.com/gxespino/status/2071332518272626870"
     ],
     "2071356749844537372": [
       "https://x.com/TheAtlantic/status/2071356749844537372",
@@ -22975,13 +23236,36 @@
     ],
     "2071368991537279292": [
       "https://x.com/MarcJSchmidt/status/2071368991537279292",
-      "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png"
+      "https://pbs.twimg.com/media/HL7vwhGX0AAZl2z.png",
+      "https://x.com/MarcJSchmidt/status/2071509795618615316",
+      "https://x.com/MarcJSchmidt/status/2071525163183559154"
+    ],
+    "2071384435212107869": [
+      "https://x.com/0xPure_eth/status/2071384435212107869",
+      "https://pbs.twimg.com/amplify_video_thumb/2071383852325441537/img/DHX5KQ9hvt6uBqFe.jpg",
+      "https://x.com/0xPure_eth/status/2071330548266455107",
+      "https://pbs.twimg.com/amplify_video_thumb/2071330407174332416/img/LBerHfUWJ1cJlcuJ.jpg"
     ],
     "2071404852908081211": [
       "https://x.com/vipulved/status/2071404852908081211",
       "http://x.com/i/article/2071357845443153921"
+    ],
+    "2071412981653516318": [
+      "https://x.com/eleonorapinto/status/2071412981653516318"
+    ],
+    "2071443621396598930": [
+      "https://x.com/TheEconomist/status/2071443621396598930",
+      "https://www.economist.com/briefing/2026/03/05/an-ai-disaster-is-getting-ever-closer?taid=6a41edd31e0c30000155ffe6&utm_campaign=editorial-social&utm_content=discovery.content&utm_medium=social-media.content.np&utm_source=twitter"
+    ],
+    "2071450531344642221": [
+      "https://x.com/FT/status/2071450531344642221",
+      "https://ft.trib.al/49Ixgcf"
+    ],
+    "2071522418594861215": [
+      "https://x.com/_avichawla/status/2071522418594861215",
+      "https://pbs.twimg.com/media/HL-GqRDbQAAIrzP.jpg"
     ]
   },
-  "updated_at": "2026-06-29T06:05:07Z",
+  "updated_at": "2026-06-29T11:23:31Z",
   "window": "recent"
 }

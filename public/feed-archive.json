@@ -4576,6 +4576,22 @@
       "title": "",
       "url": "http://x.com/i/article/2060157320651554816"
     },
+    "http://x.com/i/article/2060205510750552067": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060205510750552067",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060205510750552067/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJhyf4nWMAA-DMB?format=jpg&name=900x900)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060522721620930560)\n\nHow To Dominate Projects With Hermes Agent Kanban Board\n\n[![](https://pbs.twimg.com/profile_images/2058260194757369856/gx7wWnvC_normal.jpg)](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[Tony Simons](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n[@tonysimons\\_](http://x.com/i/article/2060205510750552067/tonysimons%5F)\n\n·\n\n6h\n\nFollow\n\nClick to Follow tonysimons\\_\n\n6\n\n28\n\n[3.2K](http://x.com/i/article/2060205510750552067/tonysimons%5F/status/2060527240098587085/analytics)\n\n# \n\nOne Agent Is The Wrong Unit\n\nI once watched a task look \"running\" for forty minutes while the worker had already died, and another task land in the wrong board because one shell was still pointed at an old slug. Nothing dramatic happened. That's the problem. The failure mode was quiet. The afternoon just leaked out through stale state, one plausible lie at a time.\n\nThe context window isn't a manager. It's just a box with limits.\n\nThe fix isn't a smarter prompt. It's a board, a contract, and receipts.\n\n## \n\nThe Context Window Isn't A Manager\n\nA lot of people try to run real work inside one giant chat because it feels fast at the beginning.\n\nOne prompt. One worker. One neat stream of output. Very tidy. Very fake.\n\nThen the work grows teeth. The transcript gets long. Someone asks for parallel research. Somebody else wants review. A worker crashes. The session starts carrying half the project in prompt residue and half in hope. \n\nThat's when the whole thing turns into context soup.\n\nWhen that happens, you don't have durable state. You have a memory leak with nice formatting.\n\nThat's why the first hard lesson is simple: long work needs durable coordination.\n\nEnter Hermes Agent Kanban.\n\n[![Image](https://pbs.twimg.com/media/HJhy0VeXIAAuTk1?format=jpg&name=small)](http://x.com/i/article/2060205510750552067/tonysimons%5F/article/2060527240098587085/media/2060523072965255168)\n\nHermes Kanban isn't a fancier chatbot. It's a way to make work survive reality.\n\nBoards isolate workstreams. Tasks carry state. Profiles name the worker shape. Parent links define order. Workspaces decide where files land. Runs, logs, and events are the receipts.\n\nReceipts beat BS vibes every time.\n\nIf you need to know what happened, who did it, how long it ran, and what the worker said before it finished, the board gives you that trail. The chat doesn't.\n\nThat's the whole product. Not a magic memory layer. Not a bigger prompt. Not a dashboard that looks coordinated from across the room.\n\nIt's a system that remembers after the conversation gets messy.\n\n# \n\nBuild The Board Like You Mean It\n\nPeople love to over-design the first board. They want ceremony before they know if the work deserves it. That usually gives you a beautiful mess.\n\nDon't do that.\n\nStart with the dumbest useful setup:\n\n```text\nhermes kanban boards show\nhermes kanban boards switch hermes-kanban-field-manual\nhermes kanban boards create hermes-kanban-field-manual \\\n  --switch \\\n  --default-workdir /home/tony/projects/hermes-kanban-field-manual\n```\n\n* boards show tells you where you are.\n* boards switch moves the active board for subsequent calls.\n* boards create ... --switch --default-workdir ... gives the board a home so new work doesn't fall into a ghost pile of scratch output nobody can find later.\n\nThat --default-workdir part matters more than it looks like it does. If the board knows where the work should live, you stop spending time asking, \"wait, where did the files go?\" That's not a philosophical problem. It's a path problem.\n\nIf you're bouncing across shells, don't trust whatever board happens to be active. Switch it on purpose before you create anything.\n\nN",
+      "text_excerpt_zh": "## 一个智能体是错误的基本单位\n\n我曾目睹一个任务显示\"运行中\"长达四十分钟，而工作进程早已崩溃；另一个任务落入了错误的看板，仅仅因为某个 shell 还指向旧的标识符。没有戏剧性的事件发生。这正是问题所在。失败模式悄无声息。整个下午就在陈旧状态中流逝，一个看似合理的谎言接着另一个。\n\n上下文窗口不是管理者。它只是一个有局限性的容器。\n\n解决方案不是更聪明的提示词。而是一个看板、一份契约和一组凭证。\n\n## 上下文窗口不是管理者\n\n很多人试图在一个巨大的聊天窗口中运行实际工作，因为一开始感觉很快。\n\n一个提示词。一个工作进程。一串整洁的输出。非常整齐。非常虚假。\n\n然后工作开始变得棘手。对话记录变长。有人要求并行研究。另一个人想要审查。工作进程崩溃。会话开始承载着半项目残留的提示词和半希望。\n\n这时，整个事情就变成了上下文大杂烩。\n\n当这种情况发生时，你并没有持久的状态。你只有一个格式漂亮的记忆泄漏。\n\n这就是为什么第一个硬道理很简单：长期工作需要持久的协调。\n\n进入 Hermes Agent Kanban。\n\nHermes Kanban 不是一个更花哨的聊天机器人。它是一种让工作能够经受现实考验的方法。\n\n看板隔离工作流。任务携带状态。配置文件命名工作进程形态。父链接定义顺序。工作区决定文件存放位置。运行记录、日志和事件就是凭证。\n\n凭证每次都胜过模糊的感觉。\n\n如果你需要知道发生了什么、谁做的、运行了多久、以及工作进程在结束前说了什么，看板会给你这条追踪线索。聊天窗口不会。\n\n这就是整个产品。不是神奇的记忆层。不是更大的提示词。不是从远处看起来协调的仪表盘。\n\n它是一个在对话变得混乱后仍能记住的系统。\n\n## 像认真对待一样构建看板\n\n人们喜欢过度设计第一个看板。他们想在知道工作是否值得之前就搞仪式。这通常会给你一个漂亮的烂摊子。\n\n别这么做。\n\n从最简单实用的设置开始：\n\n```text\nhermes kanban boards show\nhermes kanban boards switch hermes-kanban-field-manual\nhermes kanban boards create hermes-kanban-field-manual \\\n  --switch \\\n  --default-workdir /home/tony/projects/hermes-kanban-field-manual\n```\n\n* boards show 告诉你当前所在位置。\n* boards switch 为后续调用切换活动看板。\n* boards create ... --switch --default-workdir ... 为看板指定一个家，这样新工作就不会掉进没人能找到的临时输出堆里。\n\n那个 --default-workdir 部分比看起来重要得多。如果看板知道工作应该存放在哪里，你就不用再花时间问\"等等，文件去哪了？\"这不是一个哲学问题。这是一个路径问题。\n\n如果你在多个 shell 之间切换，不要相信当前恰好活动的看板。在创建任何东西之前，有目的地切换它。",
+      "text_excerpt_zh_hash": "f8d63e9620ee3c18",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2060205510750552067"
+    },
     "http://x.com/i/article/2060265616859340800": {
       "cleaner_v": 2,
       "content_type": "",
@@ -4607,6 +4623,38 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060304215818264576"
+    },
+    "http://x.com/i/article/2060342141381971968": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060342141381971968",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060342141381971968/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfTHz9W4AIslgI?format=jpg&name=900x900)](http://x.com/i/article/2060342141381971968/borkodotfun/article/2060350372233769261/media/2060347485705396226)\n\nAutonomous Capital\n\n[![](https://pbs.twimg.com/profile_images/2060467340639092737/49CCI7JH_normal.jpg)](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[Borko](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[@borkodotfun](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n·\n\n18h\n\nFollow\n\nClick to Follow borkodotfun\n\n3\n\n7\n\n63\n\n[1.7K](http://x.com/i/article/2060342141381971968/borkodotfun/status/2060350372233769261/analytics)\n\nAI agents will become real economic actors in finance.\n\nNot because finance is easy. But because finance is already the closest thing we have to a machine-native environment: markets are digital, assets are programmable, APIs exist, prices update continuously, decisions are measurable, and execution can happen without waiting for the physical world.\n\nThis is the reason I think the conversation around “AI trading bots” is too small. The important shift is not that users will ask chatbots what to buy. The important shift is that capital itself will become increasingly autonomous.\n\nBy autonomous capital, I mean capital that can be monitored, routed, hedged, allocated, and executed by intelligent systems operating within user-defined constraints.\n\nMost financial software today still assumes a human is the operating system. The trader opens five dashboards, checks funding, scans liquidations, reads news, looks at open interest, checks wallet balances, calculates exposure, updates their thesis, manages margin, and then manually executes. Even in crypto, where the rails are programmable, the workflow is still fragmented and human-driven.\n\nThe market is composable. The trader’s workflow is not.\n\nThat mismatch creates the opportunity.\n\nIf AI agents are going to manage financial actions, they need more than a chat interface. They need a structured understanding of the world they are operating in. In finance, that means continuously understanding both market state and portfolio state.\n\nMarket state includes things like funding rates, open interest, liquidations, order books, volatility, macro events, smart-money flows, prediction markets, and execution conditions.\n\nPortfolio state includes the user’s positions, collateral, liquidation risk, exposure across venues, trading history, strategy intent, risk tolerance, and behavioral patterns.\n\nMost products understand one side badly, or both sides separately.\n\nA trading terminal may know the market but not the user. A portfolio tracker may know the wallet but not the current opportunity. A chatbot may explain a chart but not understand the trader’s full exposure. An exchange may show liquidation price but not whether adding to a position destroys the user’s actual risk profile.\n\nThe missing layer is the system that understands all of this together.\n\nThat is what makes the category more interesting than “AI trade ideas.”\n\nA generic trading signal says: buy ETH.\n\nA portfolio-aware financial agent says: given your current BTC exposure, funding environment, collateral usage, execution costs, volatility regime, and recent trading behavior, increasing this position improves or worsens your objective by this amount.\n\nThat difference matters.\n\nThe first useful agents in finance will not be magical black boxes that predict every move. They will be systems that compress context, enforce discipline, and manage execution better than humans can under pressure.\n\nThey will help users answer questions like:\n\n\\- Am I actually underexposed, or am I emotionally trying to win back a loss?\n\n\\- What happens to my liquidation risk if I add here?\n\n\\- Should I cut immediately, scale out, or TWAP over time?\n\n\\- Is this funding spread still",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060342141381971968/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJfTHz9W4AIslgI?format=jpg&name=900x900)](http://x.com/i/article/2060342141381971968/borkodotfun/article/2060350372233769261/media/2060347485705396226)\n\n自主资本\n\n[Borko](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n[@borkodotfun](http://x.com/i/article/2060342141381971968/borkodotfun)\n\n·\n\n18小时前\n\n3\n\n7\n\n63\n\n[1.7K](http://x.com/i/article/2060342141381971968/borkodotfun/status/2060350372233769261/analytics)\n\nAI agent 将成为金融领域真正的经济参与者。\n\n不是因为金融简单，而是因为金融已经是我们最接近机器原生环境的东西：市场是数字化的，资产是可编程的，API 存在，价格持续更新，决策可衡量，执行无需等待物理世界。\n\n这就是为什么我认为关于“AI 交易机器人”的讨论格局太小。重要的转变不在于用户会向聊天机器人询问买什么，而在于资本本身将变得越来越自主。\n\n所谓自主资本，是指能够在用户定义的约束条件下，由智能系统监控、路由、对冲、配置和执行的资本。\n\n如今大多数金融软件仍然假设人类是操作系统。交易员打开五个仪表盘，检查资金费率，扫描清算情况，阅读新闻，查看未平仓合约，检查钱包余额，计算风险敞口，更新交易思路，管理保证金，然后手动执行。即使在可编程的加密货币领域，工作流程仍然是碎片化的、由人类驱动的。\n\n市场是可组合的，但交易员的工作流程不是。\n\n这种不匹配创造了机会。\n\n如果 AI agent 要管理金融操作，它们需要的不仅仅是聊天界面。它们需要对所操作的世界有结构化的理解。在金融领域，这意味着持续理解市场状态和投资组合状态。\n\n市场状态包括资金费率、未平仓合约、清算情况、订单簿、波动性、宏观事件、聪明钱流向、预测市场和执行条件等。\n\n投资组合状态包括用户的头寸、抵押品、清算风险、跨平台敞口、交易历史、策略意图、风险承受能力和行为模式。\n\n大多数产品要么对其中一方理解得很差，要么将双方割裂开来理解。\n\n交易终端可能了解市场但不了解用户。投资组合追踪器可能了解钱包但不了解当前机会。聊天机器人可能解释图表但不了解交易员的全部敞口。交易所可能显示清算价格，但不了解增加头寸是否会破坏用户的实际风险状况。\n\n缺失的层面是能够同时理解所有这些信息的系统。\n\n这就是为什么这个类别比“AI 交易想法”更有趣。\n\n一个通用的交易信号说：买入 ETH。\n\n一个了解投资组合的金融 agent 会说：考虑到你当前的 BTC 敞口、资金环境、抵押品使用情况、执行成本、波动率机制和近期交易行为，增加这个头寸会使你的目标改善或恶化这么多。\n\n这种差异很重要。\n\n金融领域首批有用的 agent 不会是能预测每一步的神奇黑箱。它们将是能够压缩上下文、强制执行纪律、并在压力下比人类更好地管理执行的系统。\n\n它们将帮助用户回答如下问题：\n\n- 我真的是敞口不足，还是情绪化地想挽回损失？\n- 如果我在这里加仓，我的清算风险会怎样？\n- 我应该立即平仓、分批退出，还是随时间 TWAP？\n- 这个资金费率差还值得吗？",
+      "text_excerpt_zh_hash": "56ccc5fb340a6381",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2060342141381971968"
+    },
+    "http://x.com/i/article/2060357382052454403": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060357382052454403",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060357382052454403/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJfnQn4WsAM4o-D?format=jpg&name=900x900)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060369627314565123)\n\nThis Workspace Setup Will Change Your Life\n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n·\n\n15h\n\nFollow\n\nClick to Follow RianSweetDoris\n\n6\n\n54\n\n208\n\n[40K](http://x.com/i/article/2060357382052454403/RianSweetDoris/status/2060399898798018696/analytics)\n\nCharles Darwin. William Shakespeare. Emily Dickinson. Thomas Edison.\n\nWhat did all of these people have in common?\n\nThey all had a place. A specific location in time and space from which they changed the world. And the nature of that place affected the degree of change they were able to make.\n\nFrom Edison's laboratory in Menlo Park to Darwin's family Down House in Kent, these creators had a workspace in which they lost themselves in a state of flow.\n\n[![Image](https://pbs.twimg.com/media/HJfr73oXQAESnQ8?format=png&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060374768323346433)\n\nFlow can be amplified or blocked by where we work. The trouble is, very few knowledge workers have intentionally designed their workspace for it.\n\nThey tend to fall into one of three camps. Which of these sounds like you?\n\n# \n\nI. THE THREE ARCHETYPES\n\n[![Image](https://pbs.twimg.com/media/HJf2PfwXQAMBKaN?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060386100628111363)\n\n## \n\n1\\. The Overwhelmed Office Worker\n\nYou work in an open office plan plagued by constant disruptions. Between tap-on-the-shoulder meetings and chatter, you can't focus for more than a few minutes at a time. You dream of a private office, but feel powerless to change your environment.\n\n## \n\n2\\. The Uninspired Home Worker\n\nYesterday's dirty mugs still clutter your makeshift desk. Maybe you work on the couch, hunched over, so the ergonomics are terrible. The cluttered space is associated more with distraction than meaningful work. You know you could have a lovely office, but lack the motivation to set it up.\n\n## \n\n3\\. The Entrepreneurial Athlete\n\nThe Entrepreneurial Athlete engineers their workspace for flawless focus and flow. It's treated as a sacred and cherished space, so all sources of distraction are banned. Everything is set up for complete immersion and accelerated progress.\n\nThe Entrepreneurial Athlete understands their environment must facilitate focus before focus can facilitate greatness.\n\n![](https://pbs.twimg.com/tweet_video_thumb/HJf4RUzXwAIZq-W.jpg)\n\nGIF\n\nWhichever camp you fall into, it's only after you optimize your workspace that you realize the magnitude of difference it can make to your focus, productivity, and access to flow.\n\nYour workspace is one of several specific blockers that quietly prevent access to flow state, the state of consciousness where you feel your best and perform your best. \n\nThe workspace is where I start with almost everyone, because it's the lever they're most certain doesn't matter, and it's usually the one holding them back the most.\n\n[![Image](https://pbs.twimg.com/media/HJf6AX5WkAsr8cX?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060390238866804747)\n\n# \n\nII. THE FLOW DOJO\n\nI once rented an oppressively bleak office space. 50th floor of a drab Mexico City high-rise. \n\n[![Image](https://pbs.twimg.com/media/HJf5EWuXQAQxmAL?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/206",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060357382052454403/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJfnQn4WsAM4o-D?format=jpg&name=900x900)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060369627314565123)\n\n这个工作空间设置将改变你的人生\n\n[![](https://pbs.twimg.com/profile_images/1655731071970054144/_0Onbx-a_normal.jpg)](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[Rian Doris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n[@RianSweetDoris](http://x.com/i/article/2060357382052454403/RianSweetDoris)\n\n·\n\n15小时前\n\n关注\n\n点击关注 @RianSweetDoris\n\n6\n\n54\n\n208\n\n[40K](http://x.com/i/article/2060357382052454403/RianSweetDoris/status/2060399898798018696/analytics)\n\n查尔斯·达尔文。威廉·莎士比亚。艾米莉·狄金森。托马斯·爱迪生。\n\n这些人有什么共同点？\n\n他们都有一个地方。一个在时间和空间中的特定位置，他们从那里改变了世界。而那个地方的性质影响了他们能够实现的改变程度。\n\n从爱迪生在门洛帕克的实验室到达尔文在肯特郡的家族唐恩庄园，这些创作者都有一个工作空间，在那里他们沉浸在心流状态中。\n\n[![图片](https://pbs.twimg.com/media/HJfr73oXQAESnQ8?format=png&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060374768323346433)\n\n心流可以被我们工作的地方放大或阻碍。问题是，很少有知识工作者有意识地设计他们的工作空间来促进心流。\n\n他们往往属于三种类型之一。哪一种听起来像你？\n\n# \n\nI. 三种原型\n\n[![图片](https://pbs.twimg.com/media/HJf2PfwXQAMBKaN?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060386100628111363)\n\n## \n\n1. 不堪重负的办公室工作者\n\n你在开放式办公室工作，不断受到干扰。在拍肩膀的会议和闲聊之间，你一次无法集中注意力超过几分钟。你梦想有一个私人办公室，但感到无力改变你的环境。\n\n## \n\n2. 缺乏灵感的居家工作者\n\n昨天的脏杯子仍然堆在你临时搭建的桌子上。也许你在沙发上工作，弯腰驼背，所以人体工学很差。杂乱的空间更多地与分心而非有意义的工作相关联。你知道你可以有一个漂亮的办公室，但缺乏动力去布置它。\n\n## \n\n3. 创业型运动员\n\n创业型运动员将他们的工作空间设计得完美无瑕，以实现专注和心流。它被视为一个神圣而珍贵的空间，因此所有分心的来源都被禁止。一切都为完全沉浸和加速进步而设置。\n\n创业型运动员明白，在专注能够成就卓越之前，环境必须促进专注。\n\n![](https://pbs.twimg.com/tweet_video_thumb/HJf4RUzXwAIZq-W.jpg)\n\nGIF\n\n无论你属于哪种类型，只有在你优化了工作空间之后，你才会意识到它对你的专注力、生产力以及进入心流状态的能力所能带来的巨大差异。\n\n你的工作空间是几个悄然阻碍你进入心流状态的特定障碍之一。心流状态是一种你感觉最好、表现也最好的意识状态。\n\n工作空间是我几乎与每个人开始的地方，因为这是他们最确定不重要的杠杆，而它通常正是阻碍他们最多的那个。\n\n[![图片](https://pbs.twimg.com/media/HJf6AX5WkAsr8cX?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/2060399898798018696/media/2060390238866804747)\n\n# \n\nII. 心流道场\n\n我曾经租过一个压抑得令人沮丧的办公室空间。位于墨西哥城一栋单调乏味的高层建筑的50层。\n\n[![图片](https://pbs.twimg.com/media/HJf5EWuXQAQxmAL?format=jpg&name=small)](http://x.com/i/article/2060357382052454403/RianSweetDoris/article/206",
+      "text_excerpt_zh_hash": "eb3db4f9c9603d7b",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2060357382052454403"
     },
     "http://x.com/i/article/2060372903992991747": {
       "cf_fallback_error": "TimeoutError: The read operation timed out",
@@ -4652,6 +4700,38 @@
       "text_excerpt_zh_translator_v": 2,
       "title": "",
       "url": "http://x.com/i/article/2060433567768031233"
+    },
+    "http://x.com/i/article/2060551779188645898": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060551779188645898",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060551779188645898/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJiSYLrWkAUJiw4?format=jpg&name=900x900)](http://x.com/i/article/2060551779188645898/ashwingop/article/2060562561456611586/media/2060557773671141381)\n\nThe Infinite White Monkey Theorem \n\n[![](https://pbs.twimg.com/profile_images/1591178826813317121/CXCC9Co8_normal.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[Ashwin Gopinath![](https://pbs.twimg.com/profile_images/1982955195307884544/Hn-rvttT_bigger.jpg)](http://x.com/i/article/2060551779188645898/ashwingop)\n\n[@ashwingop](http://x.com/i/article/2060551779188645898/ashwingop)\n\n·\n\n4h\n\nFollow\n\nClick to Follow ashwingop\n\n1\n\n6\n\n[836](http://x.com/i/article/2060551779188645898/ashwingop/status/2060562561456611586/analytics)\n\nThe \n\n[Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite%5Fmonkey%5Ftheorem)\n\n used to be charming. Put a monkey in front of a typewriter, give it infinite time, and eventually it produces Shakespeare. Elegant and profoundly useless: one animal, one machine, one miracle achieved through statistical violence. The monkey did not need to understand Hamlet, monarchy, ghosts, or why Shakespeare’s characters need group therapy. It just had to keep hitting keys until infinity did the heavy lifting. That was the old world. The monkey was alone. The worst thing it could do was produce nonsense.\n\nIt had no compiler, no autocomplete, no GitHub account, and definitely no AI agent whispering that what it meant was a full-stack SaaS platform with Supabase auth and tasteful gradients.\n\nThe modern monkey has Cursor, Lovable or whichever AI coding tool is currently being described on X as “insane” by a man whose profile picture was generated inside a protein shake for lookmaxxing. This monkey is hunched over a MacBook that is now legally a biohazard, sticky banana fingers slapping Command-K like a lab rat discovering venture capital. It thinks Postgres is a skin condition and authentication means screeching until the rectangle apologizes.\n\nStill, it builds, because the new machine does not require deep understanding. The monkey can begin with:\n\n“make app”\n\nThen:\n\n“no make better”\n\nThen:\n\n“make it look like Linear but with bananas”\n\nThen:\n\n“why error you stupid robot”\n\nFollowed by:\n\n“if this breaks again I will eat the .env file”\n\nThen, after the model fixes one import path:\n\n“ok thank you love u”\n\nBy dawn, something exists. But, not Shakespeare, something way more dangerous: a startup!\n\nYou have seen these things on X. Someone posts at 2:14 AM: “Built this over the weekend with no code. Already at $4k MRR.” The screenshot shows gradients, pricing, and a dashboard that says “Revenue” despite there being no customers and no evidence the founder has interacted with another mammal since Thursday. The app is always familiar: AI CRM for dentists, founder voice notes, or a knowledge base for people with too many knowledge bases. The frontend looks expensive with dithering and dark mode. The backend has worms and somewhere in the repo there is NEXT\\_PUBLIC\\_STRIPE\\_SECRET\\_KEY\\_DONT\\_STEAL\\_PLEASE\\_IM\\_BEGGING\\_YOU, four auth systems, and a hardcoded childhood-dog password. The monkey then posts: “Shipping fast. DMs open.” and the other monkeys upvote solemnly.\n\nI thought this was the Infinite Vibe Monkey Theorem. The monkey will later insist the correct name is worse.\n\nThe old theorem was randomness plus infinity producing meaning. The new one is vibes plus models producing software, or at least enough rounded corners to survive a demo call. A random monkey makes garbage, licks something, and goes to sleep. This monkey is worse because it is productive (Note: productive ≠ useful). First it builds a CRUD app, then it builds another CRUD app to manage the first CRUD app and by sunrise, it has a customer portal, Stripe checkout, manifesto, and no idea what problem it is solvin",
+      "text_excerpt_zh": "## 无限白猴定理\n\n[无限猴子定理](https://en.wikipedia.org/wiki/Infinite%5Fmonkey%5Ftheorem)曾经很迷人。把一只猴子放在打字机前，给它无限的时间，它最终能打出莎士比亚的作品。优雅且毫无用处：一只动物、一台机器、一个通过统计暴力实现的奇迹。猴子不需要理解哈姆雷特、君主制、鬼魂，或者为什么莎士比亚的角色需要团体治疗。它只需要不停地敲击键盘，直到无穷大完成所有重活。那是旧世界。猴子是孤独的。它最坏的结果就是制造出废话。\n\n它没有编译器，没有自动补全，没有 GitHub 账号，更没有一个 AI 代理在它耳边低语，说它真正想做的其实是一个带 Supabase 认证和优雅渐变的全栈 SaaS 平台。\n\n现代猴子拥有 Cursor、Lovable，或者任何一款当前在 X 上被一个头像由蛋白粉生成、为了优化颜值的男人描述为“疯狂”的 AI 编码工具。这只猴子蜷缩在一台如今已合法成为生物危害的 MacBook 前，黏糊糊的香蕉手指像实验室老鼠发现风险投资一样猛敲 Command-K。它以为 Postgres 是一种皮肤病，而认证意味着尖叫到那个矩形道歉为止。\n\n尽管如此，它仍在构建，因为新机器不需要深刻理解。猴子可以从以下内容开始：\n\n“做个应用”\n\n然后：\n\n“不，做得更好”\n\n然后：\n\n“让它看起来像 Linear，但要有香蕉”\n\n然后：\n\n“为什么报错，你个蠢机器人”\n\n接着：\n\n“如果再出问题，我就把 .env 文件吃掉”\n\n然后，在模型修复了一个导入路径之后：\n\n“好的谢谢爱你”\n\n到黎明时分，有东西诞生了。但，不是莎士比亚，而是某种危险得多的东西：一个创业公司！\n\n你在 X 上见过这些东西。有人在凌晨 2:14 发帖：“周末无代码搭建。已有 $4k MRR。”截图显示着渐变、定价，以及一个写着“收入”的仪表盘，尽管没有客户，也没有证据表明创始人自周四以来与任何哺乳动物互动过。这个应用总是似曾相识：牙医的 AI CRM、创始人的语音笔记，或者一个给拥有太多知识库的人用的知识库。前端看起来昂贵，带有抖动和深色模式。后端有蠕虫，在仓库的某个地方有 `NEXT_PUBLIC_STRIPE_SECRET_KEY_DONT_STEAL_PLEASE_IM_BEGGING_YOU`、四个认证系统，以及一个硬编码的童年宠物狗密码。猴子随后发帖：“快速迭代。私信开放。”其他猴子庄严地给它点赞。\n\n我以为这叫无限氛围猴子定理。猴子后来坚称正确的名字更糟糕。\n\n旧定理是随机性加上无穷大产生意义。新定理是氛围加上模型产生软件，或者至少是足够圆润的边角以撑过一场演示通话。一只随机的猴子制造垃圾，舔点东西，然后去睡觉。这只猴子更糟糕，因为它富有生产力（注：生产力 ≠ 有用）。它先构建一个 CRUD 应用，然后又构建另一个 CRUD 应用来管理第一个 CRUD 应用，到日出时，它有了客户门户、Stripe 结账、宣言，却完全不知道自己在解决什么问题。",
+      "text_excerpt_zh_hash": "951b70f92d88fe91",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2060551779188645898"
+    },
+    "http://x.com/i/article/2060561764451008512": {
+      "cleaner_v": 2,
+      "content_type": "",
+      "description": "",
+      "extraction_source": "cf_browser_rendering",
+      "final_url": "http://x.com/i/article/2060561764451008512",
+      "frameable": false,
+      "image_urls": [],
+      "kind": "article",
+      "text_excerpt": "## \n\nTo view keyboard shortcuts, press question mark\n\n[View keyboard shortcuts](http://x.com/i/article/2060561764451008512/i/keyboard%5Fshortcuts)\n\n[![Image](https://pbs.twimg.com/media/HJimoi-akAAyKSQ?format=jpg&name=900x900)](http://x.com/i/article/2060561764451008512/%5Fheyrico/article/2060580554131771584/media/2060580045035573248)\n\nthe 100x builder\n\n[![](https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_normal.jpg)](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[rico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[@\\_heyrico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n·\n\n3h\n\nFollow\n\nClick to Follow \\_heyrico\n\n1\n\n3\n\n[246](http://x.com/i/article/2060561764451008512/%5Fheyrico/status/2060580554131771584/analytics)\n\nThe 100x builder is not someone who types one hundred times faster.\n\nThat version of the idea is a toy.\n\nThe real shift is that one capable builder can now cover more of the product surface than before: research, design, code, copy, testing, documentation, launch assets, and iteration.\n\nAI did not remove the need for taste. It made taste easier to expose.\n\nOpenAI says more than 3 million developers use Codex weekly. It also says nearly all engineers inside OpenAI now use Codex and merge 70 percent more pull requests each week. GitHub's older Copilot study found a 55 percent speed gain on a controlled task. At the same time, METR found experienced open-source developers were 19 percent slower with early-2025 AI tools on a specific set of real tasks.\n\nSo the honest story is not \"AI makes everyone 100x.\"\n\nThe honest story is sharper:\n\nAI multiplies the person who can direct work well.\n\n## \n\n  \n## \n\nThe Core Problem\n\nThe old 10x engineer myth was about individual output.\n\nOne rare person could supposedly write better code, make better decisions, and ship more than an average team. The idea was always a little messy because software work is not just typing. It is understanding the problem, choosing the right abstraction, working with constraints, reviewing tradeoffs, and keeping the system healthy.\n\nAI makes the myth more tempting and more dangerous.\n\nIt is easy to watch an agent build a feature, generate a screen, write tests, or create a landing page and conclude that the builder has become superhuman.\n\nBut that is not what is happening.\n\nThe builder is not becoming faster at every task.\n\nThe builder is changing the shape of the task.\n\nInstead of doing every step manually, the builder is becoming a director of work. They decide what needs to be done, prepare the context, choose the tool, inspect the result, correct the direction, and decide whether the output is good enough to ship.\n\nThat is a different skill.\n\nIt is closer to running a tiny product team than being a faster individual contributor.\n\n## \n\n  \n## \n\nExplanation\n\nThe 100x builder has range.\n\nNot shallow range where they can pretend to do everything. Useful range where they know enough about each layer to move the work forward.\n\nThey can research the market before building.\n\nThey can design a simple interface before writing code.\n\nThey can write the first landing page before hiring a copywriter.\n\nThey can use an agent to create a prototype.\n\nThey can test the prototype in a browser.\n\nThey can ask another model to critique the product logic.\n\nThey can turn the result into a demo, post, or investor update.\n\nThat does not mean every output is excellent.\n\nIt means the waiting cost between disciplines is lower.\n\nA designer does not need to wait a week to see whether an interaction can work in code. A founder does not need to wait for a full team to test a product promise. A solo studio owner does not need five specialists for the first version of every asset.\n\nThe bottleneck moves.\n\nBefore AI, the bottleneck was often production capacity.\n\nCan we design it?\n\nCan we code it?\n\nCan we write it?\n\nCan we make the deck?\n\nCan we create the demo?\n\nAfter AI, the bottleneck is judgment.\n\nIs this the right thing to build?\n\nIs",
+      "text_excerpt_zh": "## \n\n查看键盘快捷键，请按问号键\n\n[查看键盘快捷键](http://x.com/i/article/2060561764451008512/i/keyboard%5Fshortcuts)\n\n[![图片](https://pbs.twimg.com/media/HJimoi-akAAyKSQ?format=jpg&name=900x900)](http://x.com/i/article/2060561764451008512/%5Fheyrico/article/2060580554131771584/media/2060580045035573248)\n\n百倍构建者\n\n[![](https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_normal.jpg)](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[rico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n[@\\_heyrico](http://x.com/i/article/2060561764451008512/%5Fheyrico)\n\n·\n\n3小时前\n\n关注\n\n点击关注 \\_heyrico\n\n1\n\n3\n\n[246](http://x.com/i/article/2060561764451008512/%5Fheyrico/status/2060580554131771584/analytics)\n\n百倍构建者并不是打字速度快一百倍的人。\n\n这种想法只是小打小闹。\n\n真正的转变在于，一个能干的构建者现在可以覆盖更多产品层面：研究、设计、编码、文案、测试、文档、发布素材和迭代。\n\nAI 并没有消除对品味的需求。它只是让品味更容易展现出来。\n\nOpenAI 表示，每周有超过 300 万开发者使用 Codex。它还指出，OpenAI 内部几乎所有工程师现在都使用 Codex，每周合并的 pull request 增加了 70%。GitHub 早期的 Copilot 研究发现，在受控任务中速度提升了 55%。与此同时，METR 发现，经验丰富的开源开发者在 2025 年初的 AI 工具下，针对一组特定真实任务，速度反而慢了 19%。\n\n所以，真实情况并非“AI 让每个人都提升百倍”。\n\n真实情况更加尖锐：\n\nAI 放大了那些能有效指导工作的人。\n\n## \n\n  \n## \n\n核心问题\n\n过去 10 倍工程师的神话是关于个人产出。\n\n一个罕见的人据说能写出更好的代码、做出更好的决策，并交付比普通团队更多的东西。这个想法一直有点混乱，因为软件工作不仅仅是打字。它涉及理解问题、选择正确的抽象、处理约束、权衡取舍，以及保持系统健康。\n\nAI 让这个神话更具诱惑力，也更危险。\n\n看到 agent 构建功能、生成界面、编写测试或创建落地页，很容易就得出结论：构建者变得超人了。\n\n但事实并非如此。\n\n构建者并没有在每个任务上都变得更快。\n\n构建者正在改变任务的形式。\n\n他们不再手动完成每一步，而是成为工作的指导者。他们决定需要做什么、准备上下文、选择工具、检查结果、纠正方向，并判断输出是否足够好以发布。\n\n这是一种不同的技能。\n\n它更像是在运营一个小型产品团队，而不是做一个更快的个人贡献者。\n\n## \n\n  \n## \n\n解释\n\n百倍构建者拥有广度。\n\n不是那种假装什么都会的肤浅广度，而是有用的广度——他们对每个层面都足够了解，能推动工作前进。\n\n他们可以在构建前研究市场。\n\n他们可以在写代码前设计一个简单的界面。\n\n他们可以在雇佣文案前写出第一个落地页。\n\n他们可以用 agent 创建原型。\n\n他们可以在浏览器中测试原型。\n\n他们可以请另一个模型来评判产品逻辑。\n\n他们可以把结果变成演示、帖子或投资者更新。\n\n这并不意味着每个输出都优秀。\n\n这意味着不同领域之间的等待成本降低了。\n\n设计师不需要等一周才能看到某个交互在代码中是否可行。创始人不需要等整个团队来测试产品承诺。独立工作室的老板不需要五个专家来制作每个资产的第一个版本。\n\n瓶颈转移了。\n\n在 AI 之前，瓶颈通常是生产能力。\n\n我们能设计它吗？\n\n我们能编码它吗？\n\n我们能写文案吗？\n\n我们能做演示文稿吗？\n\n我们能创建演示吗？\n\n在 AI 之后，瓶颈是判断力。\n\n这是该构建的东西吗？",
+      "text_excerpt_zh_hash": "57bf10f7d2ac01cf",
+      "text_excerpt_zh_translator_v": 2,
+      "title": "",
+      "url": "http://x.com/i/article/2060561764451008512"
     },
     "http://your-proxy-server:3000": {
       "cf_fallback_error": "HTTPError: HTTP Error 422: Unprocessable Entity",
@@ -25568,6 +25648,62 @@
       "title": "",
       "url": "https://pbs.twimg.com/media/HJgw6erX0AU3lVX.jpg"
     },
+    "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png"
+    },
+    "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png"
+    },
+    "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png"
+    },
+    "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png": {
+      "cleaner_v": 2,
+      "content_type": "image/png",
+      "description": "",
+      "final_url": "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png",
+      "frameable": null,
+      "image_urls": [
+        "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
+      ],
+      "kind": "image",
+      "text_excerpt": "",
+      "title": "",
+      "url": "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
+    },
     "https://pbs.twimg.com/tweet_video_thumb/G-zdgxuXkAIT66U.jpg": {
       "cleaner_v": 2,
       "content_type": "image/jpeg",
@@ -40280,6 +40416,10 @@
       "https://x.com/Zephyr_hg/status/2060305898182971806",
       "http://x.com/i/article/2060304215818264576"
     ],
+    "2060350372233769261": [
+      "https://x.com/borkodotfun/status/2060350372233769261",
+      "http://x.com/i/article/2060342141381971968"
+    ],
     "2060355988616540534": [
       "https://x.com/SidebarIO/status/2060355988616540534",
       "https://www.seangoedecke.com/prompts-are-technical-debt-too/?ref=sidebar",
@@ -40301,6 +40441,10 @@
     "2060375845110223007": [
       "https://x.com/antirez/status/2060375845110223007",
       "https://x.com/antirez/status/2060376095338168679"
+    ],
+    "2060399898798018696": [
+      "https://x.com/RianSweetDoris/status/2060399898798018696",
+      "http://x.com/i/article/2060357382052454403"
     ],
     "2060399973506924612": [
       "https://x.com/huntlovell/status/2060399973506924612",
@@ -40338,8 +40482,30 @@
       "https://x.com/SidebarIO/status/2060410600908345391",
       "https://mechanical-pencil.com/?ref=sidebar",
       "https://pbs.twimg.com/media/HJgMhbrXkAE7v1X.jpg"
+    ],
+    "2060527240098587085": [
+      "https://x.com/tonysimons_/status/2060527240098587085",
+      "http://x.com/i/article/2060205510750552067",
+      "https://x.com/tonysimons_/status/2060704623292281124",
+      "https://x.com/tonysimons_/status/2060752315032760527",
+      "https://x.com/tonysimons_/status/2060842555525230715",
+      "https://x.com/tonysimons_/status/2060752618259976370",
+      "https://x.com/tonysimons_/status/2060842446829863104"
+    ],
+    "2060562561456611586": [
+      "https://x.com/ashwingop/status/2060562561456611586",
+      "http://x.com/i/article/2060551779188645898"
+    ],
+    "2060580554131771584": [
+      "https://x.com/_heyrico/status/2060580554131771584",
+      "http://x.com/i/article/2060561764451008512",
+      "https://x.com/_heyrico/status/2061402150056628542",
+      "https://pbs.twimg.com/media/HJuSUJhbcAEVkhx.png",
+      "https://pbs.twimg.com/media/HJuSUZnb0AA9ejo.png",
+      "https://pbs.twimg.com/media/HJuSUx7bcAAlqzz.png",
+      "https://pbs.twimg.com/media/HJuSVG_bYAA0ep0.png"
     ]
   },
-  "updated_at": "2026-06-29T06:05:07Z",
+  "updated_at": "2026-06-29T11:23:31Z",
   "window": "archive"
 }
