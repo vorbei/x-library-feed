@@ -68,6 +68,9 @@
         "bookmark@chumsdock"
       ],
       "text": "Anthropic Managed Agents Lead:\n\n\"At Anthropic, >90% of our engineers are building with self-improving loops. In 4-6 months, it will be 100%.\n\nmy agentic loops can run for hours without spending hundreds of dollars.\"\n\nin this 40-minute podcast, an Anthropic team lead reveals how to build effective agents from scratch.\n\nAgent → harness → loops → memory = modern agent\n\nThis one video will replace 10 paid courses on vibe-coding.\n\nWatch it today, then explore the same setup in the article below.",
+      "text_zh": "Anthropic 托管代理负责人：\n\n\"在 Anthropic，超过 90% 的工程师正在使用自我改进循环进行开发。4-6 个月内，这一比例将达到 100%。\n\n我的代理循环可以运行数小时，而无需花费数百美元。\"\n\n在这段 40 分钟的播客中，一位 Anthropic 团队负责人揭示了如何从零开始构建高效的代理。\n\n代理 → 工具框架 → 循环 → 记忆 = 现代代理\n\n这一个视频将取代 10 门关于氛围编码的付费课程。\n\n今天观看它，然后在下面的文章中探索相同的设置。",
+      "text_zh_hash": "700451479b4f9302",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/0xCodez/status/2071239626128298131"
     },
     {
@@ -123,6 +126,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "IBM just dropped a free 9-minute lesson on spec-driven development.\n\nThis is the clearest explanation of spec-driven development you'll find anywhere.\n\n4 stages: spec the behavior, generate a requirements contract, build the design doc, implement. Zero guesswork for your coding agent.\n\nRead it, then go to the 5 stages of AI native engineering below.",
+      "text_zh": "IBM刚刚发布了一堂免费的9分钟课程，主题是规范驱动开发。\n\n这是你能找到的最清晰的规范驱动开发讲解。\n\n四个阶段：规范行为、生成需求契约、构建设计文档、实施。让你的编码代理零猜测。\n\n阅读后，请继续了解下方的AI原生工程五阶段。",
+      "text_zh_hash": "867a1eac8bd46033",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/mardehaym/status/2071202308239556672"
     },
     {
@@ -161,6 +167,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "The Federal Reserve’s new conductor can hear the loud brass of demand for AI. His bet is that the quieter strings of supply will soon join in. Is he right to think that calls for lower interest rates? https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "美联储的新任指挥家能听见AI需求响亮的铜管声。他押注的是，供给端更轻柔的弦乐很快也会加入合奏。他据此认为应当降息——这个判断对吗？\n\nhttps://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates?taid=6a4124394ea26f00017bfa50&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "f98a82e3a0ea027a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2071227151634911415"
     },
     {
@@ -243,6 +252,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "🎯How to Write an Effective Software Design Docs \n\ntip: If a decision is easy to change later, it usually does not belong in the design doc.\n\nhttps://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "text_zh": "🎯如何撰写有效的软件设计文档\n\n提示：如果一个决策日后容易更改，它通常不属于设计文档。\n\nhttps://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "text_zh_hash": "f40dc52b961ad50a",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/bibryam/status/2071244496411427132"
     },
     {
@@ -297,6 +309,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I remember seeing this from @FreyaHolmer  for the first time and going \"wtf, I got gaslit\". I've shown this to many of my programmer friends without math background and most of them were \"wait, that's it?\". Yes, that's literally it. Obviously only the surface of what math has to offer, but the same principles apply to all sorts of other notations. If you give the (pseudo) code next to it, nice code highlighting, with introspection, definition jumping, debugging, you make Math actually easy to understand and approachable - exactly what we did with programming languages over decades with all these nice tools we now have.\nThere's a reason some programming languages are more popular than others, but you can do most things with either. And I think the same lens explains math notation: it's not that the concepts are complex, it's that the compression rate is so high that most people bail the fuck out and think this stuff is super complex, when in reality it is not. The underlying principles are super easy once you approach them in a different format (like most of my programmer colleagues here did with approachable languages like JavaScript), it's all about the notation, abstractions, and tools used, and math manages to be the most compact and the most ugly at the same time to me (although I got more used to it over the years).\nProgramming languages in that same compact category failed hard, for a good reason, people avoid what is unpleasant to look at, read, and requires a big corpus of prerequisites and working memory. I'm actually kind of afraid to think about how many brilliant people avoided math purely because of the notation, not because of the complexity. My theory is that good math people aren't inherently smarter; they just parse and memorize these ugly symbols better or got used to them much earlier in brain development. You can see it clearly in the programming world, where way more people are comfortable writing pretty complicated code but would never touch the most basic math primitives.\nIt almost feels like math notation is compressed so hard that your brain has to do all the unfolding manually, you hold this huge unpacked state in your head just to work on it, and learning to do that is the hard part most people never push through, so they bail. But code itself has it unfolded for you already: explorable, debuggable, jump-to-definition, back and forth. Your brain doesn't have to hold the whole thing at once, so it can actually chunk it and reason about it much better. The fact that you can modify it and get instant computed feedback in a particular actual real-world use-case makes it much easier to burn an intuition into your brain. Programming runs at a high bandwidth by default, some say too verbose; I say it's an equilibrium evolved over decades, and the proof is the millions of programmers worldwide.",
+      "text_zh": "我第一次看到 @FreyaHolmer 的这个观点时，心想\"什么鬼，我是不是被忽悠了\"。后来我把它展示给许多没有数学背景的程序员朋友，大多数人反应是\"等等，就这么简单？\"。没错，真的就这么简单。显然这只是数学的冰山一角，但同样的原理适用于各种其他符号体系。如果你在旁边配上（伪）代码、漂亮的代码高亮、支持内省、定义跳转和调试功能，数学就变得真正易于理解和亲近——这正是我们几十年来对编程语言所做的，才有了现在这些好用的工具。\n\n有些编程语言比其他语言更受欢迎是有原因的，但大多数事情用哪种语言都能完成。我认为用同样的视角可以解释数学符号：问题不在于概念本身复杂，而在于压缩率太高，导致大多数人直接放弃，觉得这些东西超级复杂，而实际上并非如此。一旦你用不同的形式去接触（就像我大多数程序员同事用 JavaScript 这类易上手的语言一样），底层原理其实非常简单。关键在于符号、抽象和工具的使用，而数学在我看来同时做到了最紧凑和最丑陋（虽然这些年我也逐渐习惯了）。\n\n编程语言中那些同样追求紧凑的尝试都失败了，这有其充分理由——人们会避开那些看起来不悦目、读起来不顺畅、需要大量前置知识和工作记忆的东西。我甚至有点害怕去想，有多少杰出的人仅仅因为符号体系而避开了数学，而不是因为复杂度本身。我的理论是，数学好的人并非天生更聪明；他们只是更擅长解析和记忆这些丑陋的符号，或者在大脑发育早期就习惯了它们。这在编程世界里看得一清二楚：更多人能轻松写出相当复杂的代码，却绝不会碰最基础的数学原语。\n\n这几乎就像数学符号被压缩得太狠，你的大脑必须手动完成所有解压工作，你得在脑子里维持这个巨大的展开状态才能继续工作，而学会做这件事正是大多数人永远无法突破的难点，所以他们放弃了。但代码本身已经为你展开了：可探索、可调试、可跳转到定义、可来回查看。你的大脑不必一次性容纳全部内容，因此能更好地分块处理并推理。你可以修改代码并在实际用例中立即获得计算反馈，这大大有助于在脑中建立直觉。编程默认以高带宽运行，有人说过于冗长；我认为这是几十年来演化出的平衡态，而证明就是全球数百万程序员的存在。",
+      "text_zh_hash": "b9359ae56e305b11",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/MarcJSchmidt/status/2071368991537279292"
     },
     {
@@ -377,6 +392,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "S3 has been around forever and in recent times, AWS has kept expanding what you can do with it. Recently S3 Files was announced and it has a lot of use cases where it makes sense. One typical pattern with Lambda functions is downloading objects to /tmp, processing them, and uploading the result, plus all the boilerplate for transfers, capacity checks, and cleanup. Amazon S3 Files takes a different angle.\n\nThe new approach is mounting an S3 bucket directly as a local file system, so your function just reads and writes at a path like /mnt/data and sync happens behind the scenes. The transfer code disappears and the /tmp size limit stops being a constraint you have to design around.\n\nSharan Sutrapu shows three real cases including a shared workspace for multi-agent AI, thumbnail generation, and a CSV to Parquet pipeline. Check it out!\n\nhttps://lckhd.eu/Tpx5K5\n\n#AWS #S3 #S3Files #Lambda #Serverless",
+      "text_zh": "S3 已经存在很久了，近年来 AWS 不断扩展其功能。最近发布的 S3 Files 在众多场景中都非常适用。Lambda 函数的一个典型模式是：将对象下载到 /tmp，进行处理，再上传结果，同时还要处理传输、容量检查和清理等大量样板代码。而 Amazon S3 Files 则采用了不同的思路。\n\n新方法是将 S3 存储桶直接挂载为本地文件系统，这样你的函数只需在 /mnt/data 这样的路径下读写文件，同步操作在后台自动完成。传输代码消失了，/tmp 的大小限制也不再是你需要费心规避的约束。\n\nSharan Sutrapu 展示了三个实际案例，包括多智能体 AI 的共享工作空间、缩略图生成，以及 CSV 转 Parquet 的数据管道。快去看看吧！\n\nhttps://lckhd.eu/Tpx5K5\n\n#AWS #S3 #S3Files #Lambda #Serverless",
+      "text_zh_hash": "812bdbf1e162df04",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/RDarrylR/status/2071268048657334660"
     },
     {
@@ -417,6 +435,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "My latest, with the great @danwwang, in the New York Times today:\n\nThe American A.I. chaos of recent weeks is profoundly self-defeating. With its actions against Anthropic, the U.S. government is skating close to its own Jack Ma moment.\n\nWe often think of A.I. as a race between the United States and China. Instead we are seeing the emergence of an even more acute form of competition, between the public power of governments and the private power of ambitious companies.\n\nThe challenges of regulating A.I. at the frontier are urgent and important. The U.S. government needs to strike a better balance between ambition and control, lest it irrevocably damage America’s long-term technological edge.\n\nRead it here: https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html",
+      "text_zh": "我最新的一篇文章，与杰出的 @danwwang 合著，今日发表于《纽约时报》：\n\n近几周美国人工智能领域的混乱局面，本质上是一种自毁长城的行为。美国政府针对 Anthropic 采取的行动，正逼近其自身的\"马云时刻\"。\n\n我们常将人工智能视为中美两国间的竞赛。然而，我们正在目睹一种更为激烈的竞争形式——政府公权力与野心勃勃的私营企业私权力之间的较量。\n\n对前沿人工智能进行监管的挑战既紧迫又重要。美国政府需要在雄心与控制之间找到更好的平衡，以免不可逆转地损害美国长期的技术优势。\n\n阅读全文：https://www.nytimes.com/2026/06/28/opinion/ai-race-china-us.html",
+      "text_zh_hash": "04e18743be5ce376",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/JulianGewirtz/status/2071218919403110475"
     },
     {
@@ -469,6 +490,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I wrote this article to describe the design discipline I used to build Yuku.\n\nhttps://arshad.fyi/writings/engineering-high-performance-parsers https://t.co/1O9EZKDFam",
+      "text_zh": "我撰写本文，旨在阐述我用于构建 Yuku 的设计方法论。\n\nhttps://arshad.fyi/writings/engineering-high-performance-parsers https://t.co/1O9EZKDFam",
+      "text_zh_hash": "6a2a49e6fbb8934f",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/arshadyaseeen/status/2071209581574037928"
     },
     {
@@ -523,6 +547,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Boris Cherny, Head of Claude Code, Anthropic:\n\n\"you can define a stop hook that's like, if the tests don't pass, keep going. essentially it's like you can just make the model keep going until the thing is done.\"\n\nthat one config is the post's loop #1, straight from the person who built the tool. a stop hook fires every time the turn ends, so the work can't be called done until tests and lint go green. deterministic, zero effort, the loop most people skip.\n\ncherny describes the verification loop in his own words too: for big changes his team spawns subagents to find every issue, one checking claude.md compliance, one combing git history, one hunting bugs, then five more subagents whose only job is to kill the false positives. a fresh clean-context critic catches what the builder talked itself past.\n\nand the memory loop, in his words: if you see a mistake, you just tell claude to add it to claude.md, so next time it already knows. the correction outlives the session it happened in.\n\nfour loops, none exotic. each is a few lines of config or one instruction. seniors out-ship everyone else because they run all four at once, not because their model is smarter.",
+      "text_zh": "Boris Cherny, Anthropic 的 Claude Code 负责人：\n\n\"你可以定义一个停止钩子，比如：如果测试没通过，就继续。本质上，你可以让模型一直运行，直到任务完成。\"\n\n这个配置就是本文的循环 #1，直接来自该工具的构建者。每次回合结束时，停止钩子都会触发，因此只有在测试和 lint 检查全部通过后，工作才能算完成。确定性、零投入，这是大多数人跳过的循环。\n\nCherny 也用他自己的话描述了验证循环：对于重大变更，他的团队会派生子代理来查找所有问题——一个检查 claude.md 的合规性，一个梳理 git 历史，一个寻找 bug，然后再派五个子代理，它们的唯一任务就是消除误报。一个全新的、上下文干净的批评者能捕捉到构建者自己说服自己忽略的问题。\n\n至于记忆循环，用他的话来说：如果你发现了一个错误，只需告诉 Claude 将其添加到 claude.md 中，这样下次它就已经知道了。这个修正会超越它发生的会话而持续存在。\n\n四个循环，没有一个稀奇。每个只是几行配置或一条指令。资深开发者之所以能比其他人交付更多，是因为他们同时运行所有四个循环，而不是因为他们的模型更聪明。",
+      "text_zh_hash": "f76b206b66f8f683",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VoltexGar/status/2071188760318836796"
     },
     {
@@ -603,6 +630,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "good LW post on productivity techniques (link below)\nwent through it and checked what I actually do vs. what didn't stick\n\nworks for me\n- task capture: I log every ~15-30min of work hours in my calendar and have AI generate an end-of-day summary\n- underschedule: a deliberate weekly block of unplanned time (tho I got here through hypercontrol work, not productivity literature)\n- focus on the wildly important: \"only hell yes\" rule (will write a separate post on my prioritization framework at some point...)\n- rest / solitude / productive meditation: honestly my favorite category haha (jacuzzi, weighted blanket, sensory walks, breathwork, jazz clubs, baths, etc etc...)\n- also: CBT and EMDR, coaching calls, strength + mobility + endurance 3x+/week, and working with a human personal assistant (not AI!)\n\ndidn't stick\n- app blockers (SelfControl, Freedom)\n- spaced repetition software (tried but abandoned)\n\nthe thing the post almost gets to but doesn't quite say: the post ends with \"don't make yourself crazy\" and flags that rigid scheduling fails where flexible planning survives\nwhat I learned through hypercontrol work is that the urge to systematize everything can be anxiety in disguise rather than genuine productivity\nso I spent quite a few years identifying which control patterns were net positive and keeping only those...\n\nhttp://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know",
+      "text_zh": "一篇关于生产力技巧的优秀LW帖子（链接见下）\n我通读了一遍，核对了自己实际在做的，以及哪些方法没能坚持下来\n\n对我有效的方法\n- 任务记录：每工作15-30分钟就在日历上记录一笔，让AI生成当日总结\n- 留出余量：每周刻意留出一段未安排的时间（不过我是通过高压管控工作法悟到的，并非来自生产力文献）\n- 聚焦真正重要的事：\"非绝对肯定就拒绝\"原则（之后会专门写一篇关于我的优先级框架的文章……）\n- 休息/独处/有效冥想：说实话这是我最喜欢的类别哈哈（按摩浴缸、重力毯、感官散步、呼吸练习、爵士俱乐部、泡澡等等……）\n- 此外还有：认知行为疗法和眼动脱敏与再处理、教练辅导、每周3次以上的力量+柔韧+耐力训练，以及配备真人助理（不是AI！）\n\n没能坚持的方法\n- 应用拦截器（SelfControl、Freedom）\n- 间隔重复软件（试过但放弃了）\n\n那篇文章几乎触及但未明确说出的要点：文章结尾提到\"别把自己逼疯\"，并指出僵化的日程安排终将失败，而灵活的计划才能持久\n通过高压管控工作法，我领悟到：将一切系统化的冲动，可能并非真正的生产力，而是焦虑的伪装\n所以我花了好几年时间，识别出哪些管控模式是净收益，并只保留这些模式……\n\nhttp://lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know",
+      "text_zh_hash": "f8ddddd2ac90b03e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/avgaydashenko/status/2071308651974037561"
     },
     {
@@ -657,6 +687,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This paper completely changed how I think about assembling a RAG pipeline:\n\nDefine the nodes -> List candidates for each -> Run them on your dataset -> Keep the winner -> Move to the next node\n\nHere is the 5-step blueprint:\n\nNodes: the pipeline is split into stages - query expansion, retrieval, augmenter, reranker, prompt maker.\n\nCandidates: each node gets a set of interchangeable modules - BM25, vectordb, hybrids, rerankers.\n\nGreedy per node: you optimize nodes one at a time, locking the best module before moving on.\n\nTwo metrics: retrieval is measured separately from generation, so you see exactly where quality leaks.\n\nOn your own data: the optimum is searched on your corpus, not a foreign leaderboard - the best module for Wikipedia QA fails on domain docs.\n\nKey insight: the best RAG pipeline is not picked from a benchmark, it is found by search on your own dataset.\n\nFive pipeline stages, each with a pool of interchangeable modules, and the loop assembles the winning combination on its own.\n\nRead this, then check the article below.",
+      "text_zh": "这篇论文彻底改变了我对构建 RAG 管线的思考方式：\n\n定义节点 → 为每个节点列出候选方案 → 在你的数据集上运行 → 保留优胜者 → 进入下一个节点\n\n以下是五步蓝图：\n\n节点：管线被拆分为多个阶段——查询扩展、检索、增强器、重排序器、提示生成器。\n\n候选方案：每个节点都有一组可互换的模块——BM25、向量数据库、混合检索、重排序器。\n\n逐节点贪心优化：每次只优化一个节点，锁定最佳模块后再继续。\n\n两个指标：检索与生成分开衡量，这样你能准确看到质量损耗发生在哪里。\n\n基于你自己的数据：最优方案是在你的语料库上搜索得出的，而不是依赖外部的排行榜——在维基百科问答上表现最佳的模块，在领域文档上却会失效。\n\n关键洞察：最佳的 RAG 管线不是从基准测试中挑选出来的，而是通过在你自己的数据集上搜索找到的。\n\n五个管线阶段，每个阶段都有一组可互换的模块池，循环会自动组装出获胜的组合。\n\n先读这个，再看下面的文章。",
+      "text_zh_hash": "0f607fac14cd7577",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/h100envy/status/2071298319897211020"
     },
     {
@@ -695,6 +728,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "How can AI learn about work when even humans cannot articulate why they do things a certain way? One answer is they don’t need to https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh": "当人类自己都无法解释为何以某种方式行事时，人工智能又如何学习工作？一个答案是：它们根本不需要。https://www.economist.com/business/2026/06/25/teaching-ai-how-people-work-is-fraught-with-problems?taid=6a410ccc44936800013cbf86&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "07a40c6e5982a67e",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheEconomist/status/2071202000528613519"
     },
     {
@@ -750,6 +786,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "This shouldn't be public.\n\nAnthropic's Research Engineering team has an internal write-up on long-running coding agents.\n\nSomeone on the team sent it to me last night. They are going to figure out it leaked.\n\nIt has the actual agent prompt. The dollar cost on a 6-hour autonomous build. The startup sequence every new session runs before touching code. And the bug where the second agent looks at progress and declares the project done.\n\nBookmark it before they pull it.\n\nFull breakdown in the article below.",
+      "text_zh": "此内容不应公开。\n\nAnthropic 的研究工程团队内部有一份关于长时间运行编码代理的详细文档。\n\n团队中有人昨晚发给了我。他们很快就会发现内容泄露了。\n\n文档中包含了实际的代理提示词、一次6小时自主构建的美元成本、每次新会话在接触代码前运行的启动序列，以及第二个代理查看进度后宣布项目完成的bug。\n\n在他们撤回之前，赶紧收藏吧。\n\n完整解析见下方文章。",
+      "text_zh_hash": "2759d7a025cfa4ae",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/ArchiveExplorer/status/2071259764114305520"
     },
     {
@@ -831,6 +870,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "Best post on the topic of building an iconic company in the age of AIz",
+      "text_zh": "关于在AI时代打造标志性公司的最佳文章",
+      "text_zh_hash": "7006816d4f33f596",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/rabois/status/2071219706732646815"
     },
     {
@@ -883,6 +925,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "I’m giving a talk this week about why I have my coding agents quiz me on code changes, and how I build micro-worlds to understand what’s going on. \n\nWhat questions / topics should I cover? https://t.co/bpb13P0gVT",
+      "text_zh": "这周我要做个分享，主题是：为什么我让编程助手就代码变更对我进行提问，以及我如何构建微型世界来理解代码逻辑。\n\n我应该涵盖哪些问题/主题？https://t.co/bpb13P0gVT",
+      "text_zh_hash": "5a2442b266234426",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/geoffreylitt/status/2071319131144790064"
     },
     {
@@ -924,6 +969,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "In the age of AI, what will determine someone's personal success? @DavidBrooks224 argues that, rather than being about how smart someone is, the answer has more to do with one's relationship to mental effort: https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh": "在人工智能时代，什么将决定一个人的个人成功？@DavidBrooks224 认为，答案与其说与一个人有多聪明有关，不如说与一个人与心智努力的关系更相关：https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?taid=6a419ceb1e0c30000155feb3&utm_campaign=WigwamQuan&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
+      "text_zh_hash": "cdab2ac5fb091e98",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/TheAtlantic/status/2071356749844537372"
     },
     {
@@ -968,6 +1016,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "You don’t need a complicated memory. Just a few independent, mutually exclusive files that skills can reference on demand.\n\nIn most cases, it’s enough to load these progressively and mention them in the agents file.\n\nThe exception is sequential memories for a given project. In that case, it’s useful to keep a ledger of memories, decisions, and similar records - which is what PM OS has in versions 2 and up.",
+      "text_zh": "你不需要复杂的记忆系统。只需几个独立且互不重叠的文件，供技能按需引用即可。\n\n大多数情况下，逐步加载这些文件并在代理配置文件中提及它们就足够了。\n\n唯一的例外是针对特定项目的顺序记忆。这种情况下，维护一份包含记忆、决策及类似记录的日志会很有用——这正是 PM OS 2.0 及以上版本所具备的功能。",
+      "text_zh_hash": "6cfffe0748e3ffb1",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/nurijanian/status/2071276944482828581"
     },
     {
@@ -1008,6 +1059,9 @@
         "bookmark@CatHanami97880"
       ],
       "text": "\"The last six months in LLMs in five minutes\".\nby Simon Willison\nhttps://simonwillison.net/2026/May/19/5-minute-llms/",
+      "text_zh": "\"五分钟回顾大语言模型（LLM）过去六个月的发展\"。\n作者：Simon Willison\nhttps://simonwillison.net/2026/May/19/5-minute-llms/",
+      "text_zh_hash": "2e392b9a30479fe6",
+      "text_zh_translator_v": 2,
       "url": "https://x.com/VKazulkin/status/2071290280368570538"
     },
     {
